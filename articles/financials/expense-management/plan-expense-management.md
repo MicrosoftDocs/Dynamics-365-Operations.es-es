@@ -1,13 +1,13 @@
 ---
-title: "Configurar la gestión de gastos"
-description: "En este artículo se describen las consideraciones y las decisiones que debe realizar durante el proceso de planificación, antes de configurar Gestión de gastos en Microsoft Dynamics 365 for Finance and Operations."
+title: Configurar la gestión de gastos
+description: Este artículo describe las consideraciones y las decisiones que debe realizar durante el proceso de planificación, antes de configurar Gestión de gastos en Microsoft Dynamics 365 for Finance and Operations.
 author: KimANelson
 manager: AnnBe
 ms.date: 08/29/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: GlobalCategory, ProjCategory, TrvLocations, TrvParameters, TrvPaymethod, TrvPerDiems
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5ac9959a4ee66e52ead5050897403602e407ca10
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c87909d9eb3a4d717e0c40289353da0267a51f60
-ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322039"
 ---
-
 # <a name="configure-expense-management"></a>Configurar la gestión de gastos
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se describen las consideraciones y las decisiones que debe realizar durante el proceso de planificación, antes de configurar Gestión de gastos en Microsoft Dynamics 365 for Finance and Operations. En el área Gestión de gastos, puede almacenar información sobre los métodos de pago, los pedidos de viaje, los informes de gastos y las directivas, entre otros elementos.
+Este tema describe las consideraciones y las decisiones que debe realizar durante el proceso de planificación, antes de configurar Gestión de gastos en Microsoft Dynamics 365 for Finance and Operations. En el área Gestión de gastos, puede almacenar información sobre los métodos de pago, los pedidos de viaje, los informes de gastos y las directivas, entre otros elementos.
 
 Dado que muchas de las decisiones que realiza al planificar su configuración para la gestión de gastos se basan en la jerarquía y la estructura financiera de su organización, debe hacer referencia a los documentos de planificación para esas áreas.
 
@@ -163,4 +162,3 @@ Al crear directivas de informes de gastos, su organización ahorrará tiempo y d
 - ¿Cuándo expira la directiva?
 - ¿Cuál es la regla de directivas?
 - ¿Cuál es el resultado de la regla de directivas?
-

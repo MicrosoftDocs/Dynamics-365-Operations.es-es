@@ -1,13 +1,13 @@
 ---
-title: "Buscar información mediante búsquedas"
-description: "En Microsoft Dynamics 365 for Finance and Operations, muchos campos tienen búsquedas que pueden ayudarle a encontrar el valor correcto o deseado con facilidad. Varias mejoras se han agregado a las búsquedas para que estos controles sean más utilizables y para que los usuarios sean más productivos. En este tema, aprenderá estas nuevas características de búsquedas y recibirá algunas sugerencias útiles para el uso óptimo de las búsquedas en el sistema."
+title: Encontrar información mediante el uso de búsquedas
+description: En Microsoft Dynamics 365 for Finance and Operations, muchos campos tienen búsquedas que pueden ayudarle a encontrar el valor correcto o deseado con facilidad. Varias mejoras se han agregado a las búsquedas para que estos controles sean más utilizables y para que los usuarios sean más productivos. En este tema, aprenderá estas nuevas características de búsquedas y recibirá algunas sugerencias útiles para el uso óptimo de las búsquedas en el sistema.
 author: jasongre
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0a0722f057c1613fdc03281ca68a90608a701aef
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 9de957490b2ca87949a7cbcecc9acb4e8b98aaaf
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328364"
 ---
-
-# <a name="find-information-by-using-lookups"></a>Buscar información mediante búsquedas
+# <a name="find-information-by-using-lookups"></a>Encontrar información mediante el uso de búsquedas
 
 [!include [banner](../includes/banner.md)]
 
@@ -85,4 +84,3 @@ En su lugar, el usuario necesita borrar el valor del control de la búsqueda, ab
 Después de que se haya aplicado el filtro (consulte la imagen a continuación), el usuario puede buscar y seleccionar la fila como de costumbre.
 
 ![filtereditemlookup](./media/filtereditemlookup.png)
-

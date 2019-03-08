@@ -1,13 +1,13 @@
 ---
-title: "Seguimiento de artículos y materias primas en el inventario, la producción y las ventas"
-description: "Este tema se describe cómo puede usar el seguimiento de artículos para identificar dónde se han usado los artículos o las materias primas, dónde se están usando o dónde se usarán en los procesos de producción y ventas."
+title: Seguimiento de artículos y materias primas en el inventario, la producción y las ventas
+description: Este tema se describe cómo puede usar el seguimiento de artículos para identificar dónde se han usado los artículos o las materias primas, dónde se están usando o dónde se usarán en los procesos de producción y ventas.
 author: perlynne
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventTrackingDimTracing, InventTrackingDimTracingCriteria
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f45c39769b71832afe531db8a55097ede8a3c769
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 60edc05bb45db973eb2e16dd833015c9a4873918
-ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310079"
 ---
-
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Seguimiento de artículos y materias primas en el inventario, la producción y las ventas
 
 [!include [banner](../includes/banner.md)]
@@ -141,4 +140,3 @@ Puede generar el informe **Enviado a los clientes** para identificar la cantidad
 
 ## <a name="can-i-trace-coproducts-and-byproducts"></a>¿Se puede realizar el seguimiento de los coproductos y los productos derivados?
 Puede realizar el seguimiento de los coproductos, pero no de los productos derivados porque las dimensiones de seguimiento no suelen asignarse a ellos. Cuando realiza el seguimiento de un artículo, los detalles de seguimiento incluyen los coproductos relacionados. Un nodo que contiene un coproducto incluye la palabra "coproducto" en los detalles. También puede ver detalles acerca de un coproducto si selecciona el nodo en los detalles de seguimiento y, a continuación, hace clic en la ficha desplegable **Producción**.
-

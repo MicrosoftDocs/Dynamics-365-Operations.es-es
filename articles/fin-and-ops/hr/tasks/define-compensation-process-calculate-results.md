@@ -1,13 +1,13 @@
---- 
-title: "Definición del proceso de compensación y el cálculo de resultados"
-description: "Los procesos de compensación se usan para determinar nuevas concesiones e importes de compensación para los empleados inscritos en planes de compensación variable y fija."
+---
+title: Definición del proceso de compensación y el cálculo de resultados
+description: Los procesos de compensación se usan para determinar nuevas concesiones e importes de compensación para los empleados inscritos en planes de compensación variable y fija.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMCompProcess, HRMCompProcessLine, HRMCompEvent, HRMCompEventEmpl
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5e5b0bb5558a8b71d02b5988c6f82f53f4f42646
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: ba28cf1fa6a8e9a4497d3bac1a2161098ec53db1
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325742"
 ---
 # <a name="define-compensation-process-and-calculate-results"></a>Definición del proceso de compensación y el cálculo de resultados
 
@@ -101,5 +101,4 @@ Los procesos de compensación se usan para determinar nuevas concesiones e impor
 9. Haga clic en Cambiar estado.
 10. Haga clic en Aprobado.
     * Después de que se haya aprobado el registro, se puede ser cargar al registro de compensación oficial del empleado. La nueva compensación estará vigente a partir de la fecha de transacción establecida en el proceso de compensación.  
-
 

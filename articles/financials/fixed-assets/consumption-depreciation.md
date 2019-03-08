@@ -1,13 +1,13 @@
 ---
-title: "Depreciación de consumo"
-description: "Este artículo le ofrece una visión general del método de depreciación Consumo."
+title: Depreciación de consumo
+description: Este artículo le ofrece una visión general del método de depreciación Consumo.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c0f64fee275f63a3e6b31a196df872e41c84dde6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f48eabb3c07f53e8a086be4e0d1597b8ea4d401b
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319693"
 ---
-
 # <a name="consumption-depreciation"></a>Depreciación de consumo
 
 [!include [banner](../includes/banner.md)]
@@ -66,7 +65,6 @@ El siguiente factor de depreciación de consumo se configura para el 31 de enero
 -   La cantidad estimada del activo fijo es 2.000.
 
 La propuesta de depreciación el 31 de enero es la siguiente: Cantidad estimada × Porcentaje x Unidad de depreciación 2.000 x ,10 × de 1,5 = 300
-
 
 
 

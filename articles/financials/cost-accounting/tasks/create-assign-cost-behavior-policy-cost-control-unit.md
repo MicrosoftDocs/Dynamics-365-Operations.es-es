@@ -1,13 +1,13 @@
---- 
+---
 title: Crear y asignar una directiva de comportamiento de costes a una unidad de control de costes
-description: "El comportamiento del coste es la clasificación de los costes como fijos o variables."
+description: El comportamiento del coste es la clasificación de los costes como fijos o variables.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c7b39b7649aaef0d354b61e3d70b6cac887282ed
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 392cb83ceb8612a2e73cc54bb2d8d40c62a6b7b6
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313828"
 ---
 # <a name="create-and-assign-a-cost-behavior-policy-to-a-cost-control-unit"></a>Crear y asignar una directiva de comportamiento de costes a una unidad de control de costes
 
@@ -84,5 +84,4 @@ El comportamiento del coste es la clasificación de los costes como fijos o vari
     * Las reglas entran en vigor en una fecha y un usuario o el sistema puede hacer vencer una regla si se crea una versión más nueva.  
 15. En el campo Unidad de control de coste, especifique o seleccione un valor.
 16. Haga clic en Guardar.
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Cartas de crédito y remesas documentarias"
-description: "Este artículo proporciona información general acerca de las cartas de crédito y los cobros. Ambos tipos de documentos bancarios se usan a menudo para la compra y la venta de bienes entre fronteras internacionales."
+title: Cartas de crédito y remesas documentarias
+description: Este artículo proporciona información general acerca de las cartas de crédito y los cobros. Ambos tipos de documentos bancarios se usan a menudo para la compra y la venta de bienes entre fronteras internacionales.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankLCImport
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2b5deef65cc4af2fdfee6549660527007c3bed3a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ebabff4d467df54b2e79485ba3a16344435140e6
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323051"
 ---
-
 # <a name="letters-of-credit-and-import-collections"></a>Cartas de crédito y remesas documentarias
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,6 @@ Un crédito documentario puede ser **revocable** o **irrevocable**. La naturalez
 Una remesa documentaria es un acuerdo entre el banco y el exportador (vendedor), en el que el banco acepta entregar la documentación de envío al importador internacional (comprador). El banco deberá entregar la documentación de envío al recibir el pago de las mercancías enviadas en efectivo o al recibir un borrador firmado del pago. 
 
 Una remesa documentaria ayuda a garantizar que al pago se le paga cuando el comprador recibe los documentos de envío para recibir la entrega de las mercancías importadas.
-
 
 
 

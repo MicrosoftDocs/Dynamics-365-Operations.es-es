@@ -1,29 +1,29 @@
 ---
 title: Novedades y cambios en Dynamics 365 for Talent Core HR (14 de diciembre de 2018)
-description: "Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 for Talent Core HR."
+description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 for Talent Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 12/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-14
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: 844c23fc908c962203e644f1154cc480425d830b
 ms.openlocfilehash: 7d2866923efd7f115ad5290f35ed4fcac5e47573
-ms.contentlocale: es-es
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306032"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-14-2018"></a>Novedades y cambios en Dynamics 365 for Talent Core HR (14 de diciembre de 2018)
 
@@ -96,7 +96,7 @@ Cuando se lanza la capacidad de previsión, el saldo mostrado cambia para ser el
 
 ### <a name="mapping-errors-in-the-integration-with-finance-and-operations"></a>Errores de asignación en la integración con Finance and Operations
 
-Los siguiente problemas se han identificado en la plantilla actual para la integración de Talent con Dynamics 365 for Finance and Operations. Una nueva plantilla se publicará pronto y se aplicará a todos los proyectos nuevos de integración que se creen. Para los proyectos existentes de integración, las equivalencias de tareas se pueden volver a calcular. Consulte la tabla siguiente para obtener las asignaciones actualizadas. 
+Los siguientes problemas se han identificado en la plantilla actual para la integración de Talent con Dynamics 365 for Finance and Operations. Una nueva plantilla se publicará pronto y se aplicará a todos los proyectos nuevos de integración que se creen. Para los proyectos existentes de integración, las equivalencias de tareas se pueden volver a calcular. Consulte la tabla siguiente para obtener las asignaciones actualizadas. 
 
 >[!NOTE]
 > La tarea de asignación de puestos de trabajo a la tarea principal de los puestos no integra los datos. Este es un problema que se está investigando actualmente. No hay solución en la asignación actual. 
@@ -151,4 +151,3 @@ Las asignaciones actualizadas deben tener la misma apariencia que las imágenes 
 ![Tarea Trabajadores a Trabajador](./media/WorkerMapping.png)
 
 ![Transformación de campo de género](./media/WorkerTransform.png)
-

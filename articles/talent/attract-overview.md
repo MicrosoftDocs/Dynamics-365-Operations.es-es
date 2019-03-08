@@ -1,13 +1,13 @@
 ---
-title: "Características y capacidades de Attract"
-description: "Este tema describe las características que Attract proporciona para gestionar el proceso de contratar nuevos talentos."
+title: Características y capacidades de Attract
+description: Este tema describe las características que Attract proporciona para gestionar el proceso de contratar nuevos talentos.
 author: rschloma
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
 ms.openlocfilehash: dd65def0006445da1a8d07577cf5ef05178c19bd
-ms.contentlocale: es-es
-ms.lasthandoff: 10/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306108"
 ---
 # <a name="attract-features-and-capabilities"></a>Características y capacidades de Attract
 
@@ -46,4 +46,3 @@ Attract le proporciona un proceso de contratación predefinido que tiene cuatro 
 
 ## <a name="candidate-app"></a>Aplicación de candidato
 Tan pronto como hayan sido agregados a un trabajo; los candidatos reciben un correo electrónico que contiene un vínculo que les permitirá obtener la aplicación web. La aplicación proporciona detalles del trabajo y se usa para comunicarse con el equipo de contratación. Los candidatos pueden usarla para indicar su disponibilidad para las entrevistas.
-

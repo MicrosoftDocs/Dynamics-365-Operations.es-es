@@ -1,13 +1,13 @@
---- 
-title: "Crear un catálogo de compras"
-description: "Esta guía le muestra cómo crear un catálogo de compras."
+---
+title: Crear un catálogo de compras
+description: Esta guía le muestra cómo crear un catálogo de compras.
 author: mkirknel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProcCategoryHierarchyManagement, CatProcureCatalogListPage, CatProcureCatalogCreate, CatProcureCatalogEdit, SysPolicyListPage, SysPolicy, CatCatalogPolicyRule, PurchReqTableListPage, PurchReqCreate, PurchReqTable, PurchReqAddItem
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 6f2a010e21f16b3908a6ee5f18d8f144c5130be7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: df844ba3834972441daa61899294b3e95cac96c1
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314702"
 ---
 # <a name="create-a-procurement-catalog"></a>Crear un catálogo de compras
 
@@ -76,5 +76,4 @@ Esta guía le muestra cómo crear un catálogo de compras. Esta tarea la llevar�
 8. En la lista, busque y seleccione el registro deseado.
 9. Haga clic en Agregar a las líneas.
 10. Haga clic en Aceptar
-
 

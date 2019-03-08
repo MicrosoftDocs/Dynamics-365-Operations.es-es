@@ -1,13 +1,13 @@
 ---
-title: "Visión general de fidelidad"
-description: "Este tema describe las capacidades de fidelidad dentro de Microsoft Dynamics 365 for Retail y los pasos de configuración correspondientes para ayudar a minoristas a iniciarse fácilmente en el uso de sus programas de fidelidad."
+title: Visión general de fidelidad
+description: Este tema describe las capacidades de fidelidad dentro de Microsoft Dynamics 365 for Retail y los pasos de configuración correspondientes para ayudar a minoristas a iniciarse fácilmente en el uso de sus programas de fidelidad.
 author: scott-tucker
 manager: AnnBe
-ms.date: 10/24/2018
+ms.date: 01/08/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailLoyaltyPrograms, RetailPriceDiscGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: bb1a1ff28c846a35858df971e29bb7a551c8012a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
-ms.openlocfilehash: 09d4e46694e89b648981352f64da4a43ab1522e1
-ms.contentlocale: es-es
-ms.lasthandoff: 01/04/2019
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320130"
 ---
-
 # <a name="loyalty-overview"></a>Visión general de fidelidad
 
 [!include [banner](includes/banner.md)]
 
-Los programas de fidelización pueden ayudar a aumentar la fidelización del cliente al premiar a los clientes por sus inetracciones con la marca del minorista. En Microsoft Dynamics for Retail, puede configurar programas de fidelización simples o complejos que se aplican en todas las entidades jurídicas de cualquier canal comercial. Este tema describe las capacidades de fidelidad dentro de Microsoft Dynamics 365 for Retail y los pasos de configuración correspondientes para ayudar a minoristas a iniciarse fácilmente en el uso de sus programas de fidelidad.
+Los programas de fidelización pueden ayudar a aumentar la fidelización del cliente al premiar a los clientes por sus inetracciones con la marca del minorista. En Microsoft Dynamics 365 for Retail, puede configurar programas de fidelización simples o complejos que se aplican en todas las entidades jurídicas de cualquier canal comercial. Este tema describe las capacidades de fidelidad dentro de Microsoft Dynamics 365 for Retail y los pasos de configuración correspondientes para ayudar a minoristas a iniciarse fácilmente en el uso de sus programas de fidelidad.
 
 Puede configurar su programa de fidelización de modo que se incluyan las siguientes opciones.
 
@@ -70,7 +69,7 @@ La tabla siguiente describe los procesos que se deben ejecutar para enviar confi
 
 | Nombre del proceso                         | Descripción | Nombre de página |
 |--------------------------------------|-------------|-----------|
-| 1050 (información sobre fidelización)           | Ejecute este proceso para enviar datos de fidelización desde Dynamics 365 for Retail a las tiendas. Conviene programar este proceso para ejecutarse con frecuencia, para transmitir datos de fidelidad a todas las tiendas. | Programación de distribución |
+| 1050 (información sobre fidelización)           | Ejecute este proceso para enviar los datos de fidelización de Dynamics 365 for Retail a las tiendas comerciales. Conviene programar este proceso para ejecutarse con frecuencia, para transmitir datos de fidelidad a todas las tiendas. | Programación de distribución |
 | Procesar esquemas de fidelización              | Ejecute este proceso para asociar los esquemas de fidelización con los canales comerciales a los que está asignado el esquema de fidelización. Este proceso se puede programar para que se ejecute como un proceso por lotes. Debe ejecutar este proceso si realiza cambios en los datos de configuración de fidelidad, como esquemas de fidelidad, programas de fidelidad o puntos de premio por fidelidad. | Procesar esquemas de fidelización |
 | Procesar transacciones de fidelización sin conexión | Ejecute este proceso para actualizar las tarjetas de fidelización de modo que incluyan las transacciones que se procesaron sin conexión. Este proceso se aplica solo si la casilla **Obtener sin conexión** está seleccionada en la página **Parámetros compartidos comerciales** de modo que se obtengan premios sin conexión. | Procesar transacciones de fidelización sin conexión |
 | Actualizar niveles de tarjeta de fidelización            | Ejecute este proceso para evaluar la actividad de obtención del cliente en comparación con las reglas de nivel de un programa de fidelización y actualizar el estado del nivel del cliente. Este proceso solo se necesita si modifica las reglas de nivel en los programas de fidelización y desea que las reglas actualizadas se apliquen de forma retroactiva a las tarjetas de fidelización que ya se han emitido. Este proceso se puede programar como un proceso por lotes o para tarjetas individuales. | Actualizar niveles de tarjeta de fidelización |
@@ -118,12 +117,29 @@ Retail tiene nueva funcionalidad de fidelidad como parte de su versión de octub
 
     ![Puntos de caducidad](./media/Expiring%20points.png "Ver puntos de caducidad")
     
-## <a name="upcoming-enhancements"></a>Mejoras próximas
 
-Las características siguientes estarán disponiles en las futuras actualizaciones mensuales de Dynamics 365 for Retail.
-    
-- Los clientes desean la capacidad de ver los detalles del saldo de fidelidad en los canales de consumidor. De forma similar, es importante que los cajeros vean el historial de cliente de los puntos de fidelidad en MPOS/CPOS para atender rápidamente las consultas del cliente. En una versión mensual próxima, los clientes y los cajeros podrán ver los detalles del historial de fidelidad.
-- Muchos minoristas pueden otorgar puntos de fidelidad basados únicamente en las transacciones de ventas, pero los minoristas más centrados en el cliente desean recompensar a sus clientes para cualquiera de sus actividades de compromiso con su marca. Por ejemplo, desean proporcionar premios por rellenar una encuesta en línea, visitar una tienda, dar un me gusta al minorista en Facebook, escribir un tweet sobre el minorista, etc. En el futuro, agregaremos la capacidad de conceder puntos de fidelidad por cualquier actividad del cliente. Para ello, el minorista puede definir “Otro tipo de actividad” y definir las reglas de ganancias para estas actividades. También expodremos una API de servidor de ventas que puede llamarse cuando se identifica una actividad que utilizará la regla de ganancias para conceder los puntos de fidelidad necesarios.
-- Para habilitar una experiencia verdadera de ventas al por menor en todos los canales, permitiremos que los clientes obtengan y canjeen puntos de fidelidad en todos los canales.
-- Los envíos gratuitos o con descuento constituyen factores muy motivadores para que los clientes compren en línea. Para permitir a minoristas configurar promociones de envío, presentaremos un nuevo tipo de promoción en el que el minorista pueda definir los umbrales que, una vez cumplidos, darán la opción a los clientes de conseguir un envío con descuento o gratuito.
+- Con el lanzamiento de 8.1.3, hemos habilitado la opción de “paga por fidelidad” en el canal de centro de llamadas. Para habilitar esta opción, cree un tipo de forma de pago de fidelidad y asócielo al centro de llamadas. 
 
+>[!NOTE]
+> Dado que los pagos de fidelidad se configuran como pagos de tarjeta, tendrá que seleccionar una tarjeta de la página **Configuración de tarjeta**. 
+
+![Configuración de tarjeta de fidelización](./media/LoyaltyCardSetup.png "Configuración de tarjeta de fidelización")
+
+Una vez que lo haya configurado, los clientes pueden efectuar un canje de sus puntos de fidelidad en el centro de llamadas. Además, estamos mejorando la experiencia del usuario aún más para mostrar el “Importe cubierto por los puntos de fidelidad”, de modo que los usuarios del centro de asistencia telefónica no tengan que desplazarse a otra pantalla para ver el saldo de fidelidad.
+
+- Muchos minoristas otorgan puntos de fidelidad basados únicamente en las transacciones de ventas, pero los minoristas más centrados en el cliente desean recompensar a sus clientes por cualquiera de sus actividades de compromiso con su marca. Por ejemplo, desean proporcionar premios por completar una encuesta en línea, visitar una tienda, dar un me gusta al minorista en Facebook o escribir un tweet sobre el minorista. Para ello, el minorista puede definir cualquier número de “Otro tipo de actividad” y definir las reglas de ganancias correspondientes para estas actividades. También hay una API de servidor de ventas "PostNonTransactionalActivityLoyaltyPoints" a la que se puede llamar cuando se identifica una actividad que debe recompensar al cliente con puntos de fidelidad. Este API espera el identificador de tarjeta de fidelización, el identificador de canal y otro identificador de tipo de actividad, para que el cliente al que se debe recompensar se pueda ubicar e identificar la regla de ganancias para la actividad. 
+
+    Conceder puntos para las actividades que no son de transacción suele tener dos pasos importantes:
+    - Darse cuenta de que se ha producido una actividad que debe ser recompensada.
+    - Recompensar con los puntos adecuados.
+
+    El primer paso se hace fuera de Microsoft Dynamics 365 for Retail, como enviar tweets sobre la marca o poner un me gusta en la marca en Facebook. Una vez que se haya reconocido esta actividad, los minoristas pueden indicárselo a la API anterior de servidor de minorista y conceder los puntos de fidelidad en tiempo real. En estos casos, no es necesario un paso de revisión porque se ha producido una actividad y se han concedido los puntos correspondientes. Sin embargo, existen escenarios donde el minorista desearía revisar los registros antes de conceder puntos. Por ejemplo, el minorista ha configurado un taller en la tienda al que los clientes se registran en la página Web de comercio electrónico o en cualquier otra aplicación de registro de eventos. Sin embargo, solo los clientes que asistan deben obtener los puntos de fidelidad. Para estos casos de ejemplo, en la versión 10.0, hemos introducido una entidad de los datos denominada **Fidelidad al por menor otras líneas del tipo de actividad**. Esta entidad de datos permite a los minoristas utilizar el marco de importación y exportación de datos (DIXF) o bien la API OData para registrar las actividades que deben conceder a los clientes puntos de fidelidad. La entidad de datos almacena las actividades en un diario llamado **Líneas de fidelidad para otras actividades**, que se puede usar para fines de revisión y modificación. Una vez que se hayan revisado los datos, el usuario de TI puede registrar manualmente las líneas de actividad o bien ejecutar un trabajo denominado **Procesar otro tipo de actividad para las líneas de fidelidad**, que publicará todas las líneas de actividad sin publicar y concederá los puntos a los clientes basándose en las reglas de ganancias. En la situación de ejemplo anterior, la aplicación del registro de eventos llamarán a la API OData para enviar la información del cliente a Dynamics 365 for Retail. Sin embargo, el usuario de TI puede publicar las líneas de actividad para solo los clientes que asistieron al taller y eliminar las líneas de actividad de los demás clientes. 
+
+> [!NOTE]
+> Actualmente, el sistema obliga a los usuarios a configurar una secuencia numérica para “otros tipos de actividad”, pero esto no será un paso obligatorio en versiones futuras. Para configurar una secuencia numérica, vaya **Parámetros compartidos comerciales > secuencias numéricas** y seleccione una secuencia numérica para el **Fidelidad otro identificador de tipo de actividad**.
+
+- Para proporcionar un buen servicio al cliente y resolver eficazmente consultas de cliente, es importante que los cajeros obtengan acceso al perfil del cliente completo. Con la versión 10.0, los cajeros podrán ver los detalles del historial de fidelidad junto con el programa de fidelidad y la información de capa asociados en PDV.
+- Los envíos gratuitos o con descuento constituyen factores muy motivadores para que los clientes compren en línea. Para permitir a los minoristas configurar promociones de envío, con la versión 10.0, hemos introducido un nuevo tipo de promoción denominado "Descuento de umbral de envío" en el que el minorista pueda definir los umbrales que, una vez cumplidos, darán la opción a los clientes de conseguir un envío con descuento o gratuito. Por ejemplo, un gasto de $35 para “envío de dos días” gratuito o “envío de dos días” gratuito para todos los clientes fidelizados. Estos descuentos se aplican solo a los gastos de envío aplicados a los pedidos. Debido a que un minorista puede configurar varios tipos de gastos, como gastos de administración o instalación, el minoristas necesita especificar qué gasto se considera gastos de envío. Esta configuración se denomina “Código de gasto de envío” y está disponible en la pestaña **Pedidos de cliente** en la página **Parámetros comerciales**. El descuento cubre todas las capacidades estándar de descuento existente, como permitir que el minorista limite estos descuentos con vales de modo que solo los clientes que tengan vales puedan obtener estos descuentos. Además, estos descuentos optimizan la capacidad de los grupos de precio para determinar la idoneidad de tales descuentos. Por ejemplo, el minorista puede elegir ejecutar estas promociones solo en los canales en línea o a través de los canales de determinados grupos de clientes, como clientes fidelizados. Cuando las líneas de pedido con el modo de entrega especificado cumplan el umbral definido, el descuento de envío se aplica y reduce el gasto de envío en función del descuento configurado. 
+
+> [!NOTE]
+> A diferencia de otros descuentos periódicos como los descuentos de cantidad, sencillos, y variados, el descuento de envío no crea líneas de descuento. Las ediciones en los gastos de envío deben realizarse directamente.

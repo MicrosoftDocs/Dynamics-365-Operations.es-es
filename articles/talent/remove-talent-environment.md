@@ -1,13 +1,13 @@
 ---
 title: Quitar entornos de Talent
-description: "Este tema recorre con usted el proceso de eliminar una unidad de prueba o un entorno de producción para Microsoft Dynamics 365 for Talent."
+description: Este tema recorre con el usuario el proceso de eliminar una unidad de prueba o un entorno de producción para Microsoft Dynamics 365 for Talent.
 author: rschloma
 manager: AnnBe
 ms.date: 11/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Talent
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
+ms.openlocfilehash: e0422a5b7ac227ad03ccafb4e34e614dc770a363
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: 5080f1ec182b8cbdf281967185a1afeb9887f682
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306187"
 ---
 # <a name="remove-talent-environments"></a>Quitar entornos de Talent
 
 [!include [banner](includes/banner.md)]
 
-Este tema recorre con usted el proceso de eliminar una unidad de prueba o un entorno de producción para Microsoft Dynamics 365 for Talent.
+Este tema recorre con el usuario el proceso de eliminar una unidad de prueba o un entorno de producción para Microsoft Dynamics 365 for Talent.
 
 ## <a name="removing-a-test-drive-environment"></a>Quitar un entorno de unidad de prueba
 
@@ -73,5 +73,4 @@ Para quitar un entorno de Talent de un entorno de PowerApps existente, complete 
 6. En su proyecto de LCS seleccione el mosaico **Gestión de la app Talent**. 
 7. Seleccione la instancia que desea quitar, que debe estar marcada con un estado de implementación **No superado**.
 8. Seleccione **Quitar instancia** y confirme la decisión. 
-
 

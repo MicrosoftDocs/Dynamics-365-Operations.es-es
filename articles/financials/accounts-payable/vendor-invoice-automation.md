@@ -1,13 +1,13 @@
 ---
-title: "Automatización de factura de proveedor"
-description: "Este tema explica las funciones disponibles para la automatización completa de las facturas de proveedor, incluso las facturas que incluyen adjuntos."
+title: Automatización de factura de proveedor
+description: Este tema explica las funciones disponibles para la automatización completa de las facturas de proveedor, incluso las facturas que incluyen adjuntos.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendEditInvoiceHeaderStagingListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6ea483a82b8215f0e6d8f420c007da349313daa5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 551f3d5fc52fac725fcc9fedc37dc1c85fac5a26
-ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324523"
 ---
 # <a name="vendor-invoice-automation"></a>Automatización de factura de proveedor
 
@@ -232,4 +232,3 @@ Los siguientes roles proporcionan acceso de solo lectura al visualizador de adju
 + **Funcionario de proveedores** y **Administrador de los proveedores** - El derecho de mantener las facturas de proveedor se asigna a estos roles.
 
 De forma predeterminada, si el rol de usuario proporciona derechos de edición en cualquier página, el usuario también tendrá derechos de edición en el visualizador de datos adjuntos para las acciones de resaltar, bloquear y anotar. Sin embargo, si hay escenarios donde un rol específico debe tener derechos de edición en la página pero no en el visualizador de adjuntos, los privilegios necesarios la lista anterior se pueden utilizar para satisfacer este caso.
-

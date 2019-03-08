@@ -1,13 +1,13 @@
---- 
+---
 title: Crear plantillas de horarios de trabajo
-description: "Las plantillas de horarios de trabajo definen las horas laborables en toda la semana y se usan para generar horarios de trabajo para un período de tiempo."
+description: Las plantillas de horarios de trabajo definen las horas laborables en toda la semana y se usan para generar horarios de trabajo para un período de tiempo.
 author: sorenva
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OpResLifeCycleManagementWorkspace, WorkTimeTable, WorkTimeCopyDayDialog
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 46c1e871133b51105386ac3b647432d0c36a6998
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 2df37747601618fc3d45734152a05aedd39500a6
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322775"
 ---
 # <a name="create-working-time-templates"></a>Crear plantillas de horarios de trabajo
 
@@ -78,5 +78,4 @@ Las plantillas de horarios de trabajo definen las horas laborables en toda la se
 2. Seleccione Sí en el campo Cerrado para recogida.
 3. Expanda la sección Domingo.
 4. Seleccione Sí en el campo Cerrado para recogida.
-
 

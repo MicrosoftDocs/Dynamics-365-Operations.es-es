@@ -1,32 +1,30 @@
 ---
 title: Eliminar L. MAT de plantilla
-description: "Un pedido de servicio representa una visita realizada por un técnico de servicio al sitio del cliente en una fecha concreta."
+description: Un pedido de servicio representa una visita realizada por un técnico de servicio al sitio del cliente en una fecha concreta.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServiceObjectRelation
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 05664236d696818b120757ce78037c6bd7c491ea
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: b05e05ca796f15b39112ba829b8ede32f70fbe48
-ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310884"
 ---
-
-
 # <a name="delete-a-service-bom"></a>Eliminar L. MAT de plantilla 
 
 [!include [banner](../includes/banner.md)]
@@ -53,6 +51,5 @@ ms.lasthandoff: 05/08/2018
 [Gestionar plantilla de L. MAT en las relaciones de objetos de acuerdos de servicio](manage-template-boms-on-object-relations.md)
 
   
-
 
 

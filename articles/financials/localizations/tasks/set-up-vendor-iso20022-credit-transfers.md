@@ -1,13 +1,13 @@
---- 
-title: "Configurar proveedores y cuentas bancarias de los proveedores para las transferencias de crédito ISO20022"
-description: "Este procedimiento muestra cómo configurar el proveedor y la información de cuenta bancaria específica de proveedor necesarios para Transferencia de crédito ISO20022 o para cualquier otra generación del archivo de pago del proveedor."
+---
+title: Configurar proveedores y cuentas bancarias de los proveedores para las transferencias de crédito ISO20022
+description: Este procedimiento muestra cómo configurar el proveedor y la información de cuenta bancaria específica de proveedor necesarios para Transferencia de crédito ISO20022 o para cualquier otra generación del archivo de pago del proveedor.
 author: mrolecki
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendTable, VendBankAccounts
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 13b3c37f5d013dd896a456018813f20e5e70350b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f01947840553a65af4aba1309d89f9b3e9ced872
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311620"
 ---
 # <a name="set-up-vendors-and-vendor-bank-accounts-for-iso20022-credit-transfers"></a>Configurar proveedores y cuentas bancarias de los proveedores para las transferencias de crédito ISO20022
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/29/2017
 Este procedimiento muestra cómo configurar el proveedor y la información de cuenta bancaria específica de proveedor necesarios para Transferencia de crédito ISO20022 o para cualquier otra generación del archivo de pago del proveedor. 
 
 La empresa de datos de demostración utilizada para crear este procedimiento es DEMF.
-Este es el cuarto procedimiento, de cinco, que muestra el proceso de pago del proveedor mediante las configuraciones de informes electrónicos. Este procedimiento es para una función que se ha añadido en la versión 1611 de Dynamics 365 for Operations.
+Este es el cuarto procedimiento, de cinco, que muestra el proceso de pago del proveedor mediante las configuraciones de informes electrónicos. Este procedimiento es para una función que se ha agregado en la versión 1611 de Dynamics 365 for Operations.
 
 
 ## <a name="set-up-bank-details"></a>Configuración de detalles bancarios
@@ -51,5 +51,4 @@ Este es el cuarto procedimiento, de cinco, que muestra el proceso de pago del pr
 3. En el campo Forma de pago, haga clic en el botón desplegable para abrir la búsqueda.
 4. En la lista, haga clic en el vínculo de la fila SEPA CT.
 5. Haga clic en Guardar.
-
 

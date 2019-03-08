@@ -1,13 +1,13 @@
 ---
 title: Capacidades de recursos
-description: "En este artículo se proporciona información acerca de las capacidades de recursos. Una capacidad es la posibilidad de que un recurso de operaciones realice una actividad concreta. El artículo explica cómo se usan las capacidades y los conceptos relacionados, como el nivel de aptitud y la prioridad, para seleccionar los recursos adecuados para una actividad."
+description: En este artículo se proporciona información acerca de las capacidades de recursos. Una capacidad es la posibilidad de que un recurso de operaciones realice una actividad concreta. El artículo explica cómo se usan las capacidades y los conceptos relacionados, como el nivel de aptitud y la prioridad, para seleccionar los recursos adecuados para una actividad.
 author: sorenva
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WrkCtrCapability, WrkCtrTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 567b4c5544f2a58801fefb1aa9d4c72815913910
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 533faf78e4cc9a091d64f7c6a0f82d14158710c8
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319302"
 ---
-
 # <a name="resource-capabilities"></a>Capacidades de recursos
 
 [!include [banner](../includes/banner.md)]
@@ -56,7 +55,6 @@ En este ejemplo, las dos máquinas pueden ser seleccionadas por el motor de prog
 
 ## <a name="competencies-for-human-resources"></a>Competencias para recursos humanos
 Cuando tiene los recursos de operaciones del tipo **Recursos humanos** que están vinculados a los trabajadores en recursos humanos, también puede aprovecharse de las capacidades de trabajadores al definir los requisitos de recurso para una ruta de producción. Es decir, también puede especificar los requisitos para las aptitudes, los cursos, los certificados o los cargos específicos. El motor de programación podrá entonces seleccionar los recursos que están vinculados a los trabajadores, y la selección se basará en las capacidades de dichos trabajadores. Las capacidades se configuran en Recursos humanos, no en la página **Capacidades de recursos**. Al definir las aptitudes, los cursos, certificados o los cargos como requisitos de recurso, debe usar la funcionalidad de Recursos humanos y vincular cada recurso del tipo **Recursos humanos** a un trabajador correspondiente. Si no utiliza la funcionalidad de recursos humanos, puede definir las capacidades en la página **Capacidades de recursos** que se asemeja o es idéntica a las capacidades de recursos humanos. Sin embargo, la página **Capacidades de recurso** no incluye la función necesaria para mantener las aptitudes, los cursos, las certificaciones o los cargos.
-
 
 
 

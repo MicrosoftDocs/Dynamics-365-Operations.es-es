@@ -1,13 +1,13 @@
 ---
-title: "Ejecución del precio de coste promedio móvil"
-description: "El proceso de cierre de inventario de liquida las transacciones de emisión con las transacciones de recepción en función del método de valoración de inventario seleccionado en el grupo de modelos del artículo. Sin embargo, antes de ejecutar el cierre de inventario, el sistema calcula un precio de coste promedio móvil que se usa normalmente al registrar transacciones de emisión."
+title: Ejecución del precio de coste promedio móvil
+description: El proceso de cierre de inventario de liquida las transacciones de emisión con las transacciones de recepción en función del método de valoración de inventario seleccionado en el grupo de modelos del artículo. Sin embargo, antes de ejecutar el cierre de inventario, el sistema calcula un precio de coste promedio móvil que se usa normalmente al registrar transacciones de emisión.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventModelGroup, InventOnhandItem, InventTrans
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e14f38baaef32c72761594147feca8d08651a050
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: aeb23f78d9bec93cf92214470e9ace3cd88b92c3
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312034"
 ---
-
 # <a name="running-average-cost-price"></a>Ejecución del precio de coste promedio móvil
 
 [!include [banner](../includes/banner.md)]
@@ -76,7 +75,6 @@ No obstante, si el modelo empresarial permite las siguientes prácticas, pueden 
 -   Si *no* selecciona la opción **Incluir valor físico en coste** para un artículo, desactive la casilla **Inventario negativo financiero** en la página **Grupos de modelos de artículo**.
 
 Además, tenga en cuenta también que la compensación máxima del valor de inventario físico está limitada por el número de transacciones físicas y las diferencias entre precios físicos y financieros. Siempre que todas las transacciones físicas se actualicen financieramente, el valor físico no puede llegar a niveles extremos. Por último, tenga en cuenta que el efecto de amplificación se reduce significativamente cuando la compensación acumulada se extiende a varias unidades disponibles, en lugar de solo una.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Digitalice códigos de barras mediante una cámara en Dynamics 365 for Finance and Operations – Warehousing"
-description: "Este tema explica cómo configurar Dynamics 365 for Finance and Operations – Warehousing para digitalizar códigos de barras mediante una cámara en un dispositivo móvil."
+title: Digitalizar códigos de barras mediante una cámara en Dynamics 365 for Finance and Operations - Warehousing
+description: Este tema explica cómo configurar Dynamics 365 for Finance and Operations – Warehousing para digitalizar códigos de barras mediante una cámara en un dispositivo móvil.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 01/03/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSMobileAppField
 audience: Application User
 ms.reviewer: josaw
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
+ms.openlocfilehash: e78d0a82d3ca66a6912ea1a9517296ca241edf1c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7be3e9970e2599c159e7c9d414b54876d0116350
-ms.openlocfilehash: f7fe3ab07578b09822fbfeaa4b07331b79f13610
-ms.contentlocale: es-es
-ms.lasthandoff: 03/09/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319440"
 ---
-
-# <a name="scan-bar-codes-using-a-camera-in-dynamics-365-for-finance-and-operations--warehousing"></a>Digitalice códigos de barras mediante una cámara en Dynamics 365 for Finance and Operations – Warehousing
+# <a name="scan-bar-codes-using-a-camera-in-dynamics-365-for-finance-and-operations--warehousing"></a>Digitalizar códigos de barras mediante una cámara en Dynamics 365 for Finance and Operations - Warehousing
 
 [!include [banner](../includes/banner.md)]
 
@@ -55,5 +54,4 @@ La página de la cámara se iniciará en cada página donde el campo de entrada 
 En la página de la cámara, al hacer clic en el botón Cámara, aparecerá atenuada mientras trata de identificar un código de barras. Si no se identifica un código de barras en menos de 5 segundos, el proceso se pondrá en tiempo de espera y el botón Cámara volverá a estar disponible. A continuación, podrá intentar escanear de nuevo un código de barras.
 
 Cuando apunte la cámara a un código de barras, mantenga el código de barras alineado entre los corchetes para lograr un mejor resultado. Cuando un código de barras se digitaliza correctamente, el resultado se procesará y pasará al siguiente paso. Si el siguiente paso contiene otro campo de entrada con el modo de entrada preferido establecido en Exploración, la página de la cámara se volverá a iniciar. Si el paso siguiente no es un campo de exploración, la página de la cámara no se iniciará.
-
 

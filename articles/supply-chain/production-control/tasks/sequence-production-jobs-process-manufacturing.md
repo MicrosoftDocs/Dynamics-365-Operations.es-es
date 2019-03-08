@@ -1,13 +1,13 @@
---- 
-title: "Secuenciar trabajos de producción para fabricación en procesos"
-description: "Este procedimiento usa productos de pintura como ejemplo para mostrar cómo establecer la secuencia de los pedidos planificados según la prioridad de color y tamaño de paquete."
+---
+title: Secuenciar trabajos de producción para fabricación en procesos
+description: Este procedimiento usa productos de pintura como ejemplo para mostrar cómo establecer la secuencia de los pedidos planificados según la prioridad de color y tamaño de paquete.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqTransPo, PMFSeqReqRouteChangesListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 4e064f55ed451d44f58e60ba0aa722166981c129
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: a25a4575ca1600b07b2dac5949c8775bcd162650
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312264"
 ---
 # <a name="sequence-production-jobs-for-process-manufacturing"></a>Secuenciar trabajos de producción para fabricación en procesos
 
@@ -70,5 +70,4 @@ Este procedimiento usa productos de pintura como ejemplo para mostrar cómo esta
 7. En la lista, haga clic en el vínculo de la fila seleccionada.
 8. Use un filtro rápido para filtrar por el campo Código de artículo con el valor 'P300'.
     * Observe que los pedidos se establecen ahora en secuencia según la prioridad de color y tamaño y los pedidos planificados empiezan en la primera fecha de pedido y fecha de entrega. Valide la columna Fecha del pedido o la Fecha inicial en el cuadro desplegable Detalles de programación.  
-
 

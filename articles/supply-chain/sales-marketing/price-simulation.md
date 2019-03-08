@@ -1,13 +1,13 @@
 ---
-title: "Simulación de precios"
-description: "Este artículo proporciona información acerca de la simulación de precios para los presupuestos. La simulación de precios le ayuda a evaluar el efecto de las deducciones en el precio de venta futuro durante el proceso de presupuesto, antes de confirmar un precio determinado."
+title: Simulación de precios
+description: Este artículo proporciona información acerca de la simulación de precios para los presupuestos. La simulación de precios le ayuda a evaluar el efecto de las deducciones en el precio de venta futuro durante el proceso de presupuesto, antes de confirmar un precio determinado.
 author: omulvad
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesQuotationPriceSimulation
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c0369c1a4bbc893a86cf14bd59a2d28a7bbca15c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6df840de688975b9fa11b866361d88a730426bd0
-ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316542"
 ---
-
 # <a name="price-simulation"></a>Simulación de precios
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,7 @@ Para garantizar que los descuentos y precios se calculan correctamente, preste a
 
 ### <a name="types-of-discounts-in-trade-agreements"></a>Tipos de descuentos de acuerdos comerciales
 
-Los acuerdos comerciales de Microsoft Dynamics 365 for Finance and Operations pueden tener cuatro tipos descuentos. Estos descuentos pueden configurarse para diferentes artículos, clientes o grupos de precios, y pueden estar limitados por fecha. Para evitar cálculos erróneos, debe tener en cuenta los acuerdos comerciales al ejecutar simulaciones de precios. Estos son los cuatro tipos de descuentos de los acuerdos comerciales:
+Los acuerdos comerciales de Microsoft Dynamics 365 for Finance and Operations pueden tener cuatro tipos de precio/descuento. Estos descuentos pueden configurarse para diferentes artículos, clientes o grupos de precios, y pueden estar limitados por fecha. Para evitar cálculos erróneos, debe tener en cuenta los acuerdos comerciales al ejecutar simulaciones de precios. Estos son los cuatro tipos de descuentos de los acuerdos comerciales:
 
 -   **Precio de ventas**: se pueden especificar precios de ventas independientes de artículos. Cuando se crean las líneas de presupuesto, el programa busca el precio de venta correcto de un artículo y lo transfiere a las líneas de presupuesto. Por lo tanto, un acuerdo comercial con este tipo de descuento no afecta a la simulación de precios. El precio de venta que se usa en la línea de presupuesto refleja el acuerdo comercial.
 -   **Descuento de línea**: se especifican descuentos de artículos especiales en función de la cantidad pedida. Los importes de línea suelen reducirse por el descuento de línea anterior a la ejecución de la simulación de precios. Por lo tanto, un acuerdo comercial con este tipo de descuento sí afecta a la simulación de precios.
@@ -143,7 +142,6 @@ Ejecuta una simulación de precios y aplica un descuento total del 10 por ciento
 | Nuevo coeficiente total de contribución                      | \[(302,88 – 184,96) ÷ 302,88\] × 100    | 38,93 %   |
 
 La simulación de precios solo afecta a la línea a la que se aplica y reduce el total para dicha línea.
-
 
 
 

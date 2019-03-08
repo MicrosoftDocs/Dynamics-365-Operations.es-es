@@ -1,13 +1,13 @@
 ---
-title: "Contenido de gestión de costes en Power BI"
-description: "Este tema describe lo que se incluye en el contenido de gestión de costes en Power BI."
+title: Contenido de gestión de costes de Power BI
+description: Este tema describe lo que se incluye en el contenido de gestión de costes en Power BI.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -19,26 +19,25 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f67b1c901267bdf79c94e4f4c698c8731c515bb4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: caf1c13d48d1f8af5c88927ccb23118e99cb38e0
-ms.contentlocale: es-es
-ms.lasthandoff: 08/13/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327812"
 ---
-
-# <a name="cost-management-power-bi-content"></a>Contenido de gestión de costes en Power BI
+# <a name="cost-management-power-bi-content"></a>Contenido de gestión de costes de Power BI
 
 [!include [banner](../includes/banner.md)]
 
 ## <a name="overview"></a>Información general
 
-El contenido de Power BI de Microsoft **Gestión de costes** está destinado a los contables de inventario o individuos en la organización que son responsable o están interesados en el estado del inventario o del trabajo en curso (WIP), o que son responsables o están interesados en el análisis de desviaciones de coste estándar.
+El contenido de Power BI de **Gestión de costes** de Microsoft Power BI está destinado a los contables de inventario o individuos en la organización que son responsable o están interesados en el estado del inventario o del trabajo en curso (WIP), o que son responsables o están interesados en el análisis de desviaciones de coste estándar.
 
 > [!NOTE]
-> El contenido de Power BI **Gestión de costes** descrito en este tema se aplica a Dynamics 365 for Finance and Operations 8.0.
+> Los contenidos de **Gestión de costes** Power BI descrito en este tema se aplican a Dynamics 365 for Finance and Operations 8.0.
 > 
-> El paquete de contenido de Power BI **Gestión de costes**, disponible en el sitio de AppSource se ha dejado de utilizar. Para obtener más información sobre dicha deprecación, consulte [Paquetes de contenido de Power BI disponibles en AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> El paquete de contenido de **Gestión de costes** Power BI, disponible en el sitio de AppSource se ha dejado de utilizar. Para obtener más información sobre dicha deprecación, consulte Paquetes de contenido de [Power BI BI disponibles en AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 Este contenido de Power BI proporciona un formato categorizado que ayuda a controlar el rendimiento de inventarios y visualizar cómo fluyen los coste a través de ellos. Puede obtener información de gestión como el ratio de facturación, el número de días que el inventario está disponible, precisión y "clasificación ABC" de su nivel agregado preferido (empresa, artículo, grupo de artículos o sitio). La información que se facilita se puede usar también como suplemento detallado del informe financiero.
 
@@ -48,26 +47,26 @@ Después de cada actualización de la tabla **CostObjectStatementCache**, la med
 
 ## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI
 
-El contenido de Power BI **Gestión de costes** se muestra en los espacios de trabajo **Gestión de costes** y **Análisis de costes**.
+El contenido de **Gestión de costes** Power BI se muestra en los espacios de trabajo **Gestión de costes** y **Análisis de costes**.
 
 El espacio de trabajo **Gestión de costes** contiene las siguientes fichas:
 
 - **Visión general** La ficha muestra datos de la aplicación.
-- **Estado de contabilidad de inventario** La ficha muestra el contenido de Power BI.
-- **Estado de contabilidad de fabricación** La ficha muestra el contenido de Power BI.
+- **Estado de contabilidad de inventario** - La ficha muestra el contenido de Power BI.
+- **Estado de contabilidad de fabricación** - La ficha muestra el contenido de Power BI.
 
 El espacio de trabajo **Análisis de costes** contiene las siguientes fichas:
 
 - **Visión general** La ficha muestra datos de la aplicación.
-- **Análisis de contabilidad de inventario** La ficha muestra el contenido de Power BI.
-- **Análisis de contabilidad de fabricación** La ficha muestra el contenido de Power BI.
-- **Análisis estándar de variación de costes** La ficha muestra el contenido de Power BI.
+- **Análisis de contabilidad de inventario** - La ficha muestra el contenido de Power BI.
+- **Análisis de contabilidad de fabricación** - La ficha muestra el contenido de Power BI.
+- **Análisis estándar de variación de costes** - La ficha muestra el contenido de Power BI.
 
-## <a name="report-pages-that-are-included-in-the-power-bi-content"></a>Páginas de informes que se incluyen en el contenido de Power BI
+## <a name="report-pages-that-are-included-in-the-power-bi-content"></a>Páginas de informes que se incluyen en el paquete de contenido Power BI
 
-El contenido de Power BI de **Gestión de costes** incluye un conjunto de páginas de informe compuesto por un conjunto de métricas. Estas métricas se visualizan como gráficos, mosaicos y tablas. 
+El contenido de **Gestión de costes** Power BI incluye un conjunto de páginas de informe compuesto por un conjunto de métricas. Estas métricas se visualizan como gráficos, mosaicos y tablas. 
 
-Las tabla siguientes proporcionan una visión general de las visualizaciones en el contenido de **Gestión de costes** de Power BI.
+Las tabla siguientes proporcionan una visión general de las visualizaciones en el contenido de **Gestión de costes** Power BI.
 
 ### <a name="inventory-accounting-status"></a>Estado de contabilidad de inventario
 
@@ -173,7 +172,7 @@ Las tabla siguientes proporcionan una visión general de las visualizaciones en 
 
 ## <a name="understanding-the-data-model-and-entities"></a>Comprensión del modelo de datos y de las entidades
 
-Los datos de Microsoft Dynamics 365 for Finance and Operations se usan para rellenar las páginas de informes del contenido de Power BI **Gestión de costes**. Estos datos se representan como medidas agregadas que se organizan en el almacén de la entidad, que es una base de datos de Microsoft SQL Server optimizada para análisis. Para obtener más información, consulte [Integración de Power BI con el almacén de entidades](power-bi-integration-entity-store.md).
+Los datos de Microsoft Dynamics 365 for Finance and Operations se usan para rellenar las páginas de informes del contenido **Gestión de costes** Power BI . Estos datos se representan como medidas globales que se realizan en la tienda de la entidad, que es una base de datos de Microsoft SQL Server que se optimiza para análisis. Para obtener más información, consulte [Power BI integración de Power BI con el almacén de entidades](power-bi-integration-entity-store.md).
 
 Las medidas agregadas clave de los objetos siguientes se usan como base del contenido de Power BI.
 
@@ -209,4 +208,3 @@ Las dimensiones clave siguientes se utilizan como filtros para cortar las medida
 | Entidades jurídicas                                          | Nombres de entidad jurídica                              |
 | Calendarios fiscales                                        | Calendario fiscal, año, trimestre, período, mes   |
 | Sitio                                                    | Identificador, nombre, dirección, Comunidad autónoma, País               |
-

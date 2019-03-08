@@ -1,13 +1,13 @@
 ---
-title: "Configuración de almacén"
-description: "Este artículo explica cómo configurar un almacén. Incluye información acerca de cómo habilitar un diseño de almacén y procesos de almacén."
+title: Configuración de almacén
+description: Este artículo explica cómo configurar un almacén. Incluye información acerca de cómo habilitar un diseño de almacén y procesos de almacén.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventLocation, WHSLocation, WHSLocationBuild, WHSLocationProfile, WHSLocationType, WHSLocDirTable, WHSParameters, WHSWaveTemplateTable, WHSWorkPool, WHSWorkTemplateTable, WHSZone, WHSZoneGroup
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7e50d03718234748d9ad5092500b970216c40284
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 79e0ce728cb3c1eec450d0814d0a3aeda131fe89
-ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318451"
 ---
-
 # <a name="warehouse-configuration"></a>Configuración de almacén
 
 [!include [banner](../includes/banner.md)]
@@ -35,7 +34,7 @@ Este artículo explica cómo configurar un almacén. Incluye información acerca
 **Nota:** Este artículo se aplica a las características del módulo **Administración de almacenes** (almacenamiento avanzado). No se aplica a las características de almacenes del módulo **Administración del inventario**.
 
 ## <a name="warehouse-layout"></a>Diseño de almacén
-El sistema de Gestión de almacenes de Microsoft Dynamics 365 for Finance and Operations le proporciona maneras flexibles de definir el diseño del almacén para satisfacer las necesidades cambiantes, de manera que pueda lograr una eficacia óptima del almacén.
+El sistema Administración de almacenes de Microsoft Dynamics 365 for Finance and Operations le proporciona maneras flexibles de definir el diseño del almacén para satisfacer las necesidades cambiantes, de manera que pueda lograr una eficacia óptima del almacén.
 
 -   Puede establecer áreas de almacenamiento de alta y baja prioridad para la ubicación óptima de las mercancías.
 -   Puede dividir el almacén en zonas para acomodar distintas necesidades de almacenamiento, como los requisitos de temperatura, o las diferentes tasas de facturación para los artículos.
@@ -116,7 +115,6 @@ Para facilitar y agilizar la definición de las acciones asociadas con cada lín
 --------
 
 [Configurar ubicaciones en un almacén con WMS (Guía de tareas)](tasks/configure-locations-wms-enabled-warehouse.md)
-
 
 
 

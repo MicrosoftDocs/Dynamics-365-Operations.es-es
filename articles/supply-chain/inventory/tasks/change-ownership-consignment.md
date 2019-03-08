@@ -1,13 +1,13 @@
---- 
-title: "Cambiar la propiedad del inventario de entrega en base a la demanda de la producción"
-description: "Este procedimiento muestra cómo cambiar el propietario del inventario de entrega del proveedor a su entidad jurídica cuando hay demanda del inventario en producción."
+---
+title: Cambiar la propiedad del inventario de entrega en base a la demanda de la producción
+description: Este procedimiento muestra cómo cambiar el propietario del inventario de entrega del proveedor a su entidad jurídica cuando hay demanda del inventario en producción.
 author: perlynne
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalOwnershipChange, InventJournalCreate
 audience: Application User
 ms.reviewer: shylaw
@@ -17,18 +17,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: d1324da6996230eb383e2f37d3a133ec35cb0f41
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5925f5423d596adc4326dfff4734de2afd80b5a8
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319026"
 ---
 # <a name="change-the-ownership-of-consignment-inventory-based-on-production-demand"></a>Cambiar la propiedad del inventario de entrega en base a la demanda de la producción
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimiento muestra cómo cambiar el propietario del inventario de entrega del proveedor a su entidad jurídica cuando hay demanda del inventario en producción. Este cambio de propiedad se hace creando y registrando un diario de cambio de propiedad del inventario. Las líneas de diario de cambio de propiedad se pueden crear manualmente o, tal como se muestra en este registro, en función de la demanda existente de la producción. Normalmente, un supervisor de planta realiza esta tarea. Puede utilizar este procedimiento en la empresa de demostración USMF o en sus propios datos. Si utiliza sus propios datos, asegúrese de que tiene los requisitos previos siguientes: un nombre de diario de inventario que se ha configurado para el cambio de propiedad de inventario, artículos disponibles propiedad del proveedor registrados físicamente y una o más líneas de pedido de producción del material. Este procedimiento es para una función que se ha añadido en la versión 1611 de Dynamics 365 for Operations.
+Este procedimiento muestra cómo cambiar el propietario del inventario de entrega del proveedor a su entidad jurídica cuando hay demanda del inventario en producción. Este cambio de propiedad se hace creando y registrando un diario de cambio de propiedad del inventario. Las líneas de diario de cambio de propiedad se pueden crear manualmente o, tal como se muestra en este registro, en función de la demanda existente de la producción. Normalmente, un supervisor de planta realiza esta tarea. Puede utilizar este procedimiento en la empresa de demostración USMF o en sus propios datos. Si utiliza sus propios datos, asegúrese de que tiene los requisitos previos siguientes: un nombre de diario de inventario que se ha configurado para el cambio de propiedad de inventario, artículos disponibles propiedad del proveedor registrados físicamente y una o más líneas de pedido de producción del material. Este procedimiento es para una función que se ha agregado en la versión 1611 de Dynamics 365 for Operations.
 
 
 ## <a name="create-an-inventory-ownership-journal"></a>Crear un diario de propiedad de inventario
@@ -52,5 +52,4 @@ Este procedimiento muestra cómo cambiar el propietario del inventario de entreg
     * Cuando se registra el diario, el inventario propiedad del proveedor se libera usando la referencia "Cambio de propiedad". El inventario se recibe como disponible usando una transacción de inventario que se actualiza con una recepción de producto del pedido de compra. Tenga en cuenta que sólo se crean las transacciones relacionadas con el diario registrado. No se crean transacciones de inventario previstas.  
 2. Haga clic en Aceptar
 3. Cierre la página.
-
 

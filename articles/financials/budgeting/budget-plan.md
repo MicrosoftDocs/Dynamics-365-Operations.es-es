@@ -1,13 +1,13 @@
 ---
-title: "Planificación presupuestaria"
-description: "El objetivo de este laboratorio es proporcionar una visita guiada de las actualizaciones de la funcionalidad de Microsoft Dynamics 365 for Finance and Operations en el área de planificación presupuestaria. El objetivo de este laboratorio es presentar un ejemplo de configuración rápida del módulo de planificación presupuestaria y mostrar cómo se puede llevar a cabo la planificación presupuestaria con esta configuración."
+title: Planificación presupuestaria
+description: El objetivo de este laboratorio es proporcionar una visita guiada Microsoft Dynamics 365 for Finance and Operations una vista guiada de las actualizaciones en el área de planificación presupuestaria. El objetivo de este laboratorio es presentar un ejemplo de configuración rápida del módulo de planificación presupuestaria y mostrar cómo se puede llevar a cabo la planificación presupuestaria con esta configuración.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: b8f2f3a33dc19c2ebc941d1a504eae0c276f3cdf
 ms.openlocfilehash: ac2e98dbbd45becf06e28b6ea4eb9d0ec15e30f6
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311643"
 ---
-
 # <a name="budget-planning"></a>Planificación presupuestaria
 
 [!include [banner](../includes/banner.md)]
 
-El objetivo de este laboratorio es proporcionar una visita guiada de las actualizaciones de la funcionalidad de Microsoft Dynamics 365 for Finance and Operations en el área de planificación presupuestaria. El objetivo de este laboratorio es presentar un ejemplo de configuración rápida del módulo de planificación presupuestaria y mostrar cómo se puede llevar a cabo la planificación presupuestaria con esta configuración.  Este laboratorio se centrará específicamente en los siguientes procesos empresariales o tareas:
+El objetivo de este laboratorio es proporcionar una visita guiada Microsoft Dynamics 365 for Finance and Operations una vista guiada de las actualizaciones en el área de planificación presupuestaria. El objetivo de este laboratorio es presentar un ejemplo de configuración rápida del módulo de planificación presupuestaria y mostrar cómo se puede llevar a cabo la planificación presupuestaria con esta configuración.  Este laboratorio se centrará específicamente en los siguientes procesos empresariales o tareas:
 - Creación de una jerarquía organizativa para planificación presupuestaria y configuración de la seguridad del usuario
 - Definición de escenarios de planes presupuestarios, columnas de planes presupuestarios, diseños y plantillas de Excel
 - Creación y activación del proceso de planificación presupuestaria
@@ -260,7 +259,6 @@ B. Navegue hasta Gestión presupuestaria &gt; Configurar &gt; Planificación pre
 C. Navegue hasta Gestión presupuestaria &gt; Configurar &gt; Planificación presupuestaria &gt; Configuración de planificación presupuestaria. En la pestaña Etapas de flujo de trabajo Asociar el flujo de trabajo Aprobación automática creado en el paso A con las etapas Inicial y Enviado 
 
 [![Gestión y planificación presupuestarias](./media/screenshot42.png)](./media/screenshot42.png)  
-
 
 
 

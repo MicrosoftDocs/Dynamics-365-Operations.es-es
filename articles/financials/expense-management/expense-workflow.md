@@ -1,13 +1,13 @@
 ---
 title: Flujo de trabajo de gastos
-description: "En este tema se explica cómo puede usar el sistema de flujo de trabajo en Microsoft Dynamics 365 for Finance and Operations para configurar un proceso de revisión de los informes de gastos en Gestión de gastos."
+description: En este tema se explica cómo puede usar el sistema de flujo de trabajo en Microsoft Dynamics 365 for Finance and Operations para configurar un proceso de revisión de los informes de gastos en Gestión de gastos.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/13/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WorkflowtableListPageRnr
 audience: Application User
 ms.reviewer: shylaw
@@ -16,19 +16,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 037a6ae00b7d559f79860901f0cb2ad6ddddd7aa
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 6ee607f723659a5b6ecd655ba4fdfca35a4c582d
-ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310125"
 ---
-
 # <a name="expense-workflow"></a>Flujo de trabajo de gastos
 
 [!include [banner](../includes/banner.md)]
 
-Puede usar el sistema de flujo de trabajo en Microsoft Dynamics 365 for Finance and Operations para configurar un proceso de revisión de los informes de gastos en Gestión de gastos. Puede configurar un flujo de trabajo que use los siguientes criterios para determinar quién aprueba los informes de gastos:
+Puede usar el sistema de flujo de trabajo en Microsoft Dynamics 365 for Finance and Operations para configurar un proceso de revisión para los informes de gastos en Expense. Puede configurar un flujo de trabajo que use los siguientes criterios para determinar quién aprueba los informes de gastos:
 
 - El empleado que notifica la jerarquía y los límites de aprobación predeterminados
 - Aprobación de varios niveles que admite aprobadores provisionales y un aprobador final
@@ -58,4 +57,3 @@ El siguiente proceso muestra un ejemplo del flujo de trabajo de gestión de gast
 Una vez comprobados estos requisitos, se registra el informe de gastos.
 
 Después de que se registre el informe de gastos, se autoriza el pago para el informe de gastos y se reembolsa al empleado.
-

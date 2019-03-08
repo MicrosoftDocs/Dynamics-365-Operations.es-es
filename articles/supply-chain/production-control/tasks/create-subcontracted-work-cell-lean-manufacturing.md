@@ -1,13 +1,13 @@
---- 
-title: "Crear una celda de trabajo subcontratado para lean manufacturing (producción ajustada)"
-description: "Para modelar trabajo subcontratado para lean manufacturing, debe crear una celda de trabajo que esté asociada al proveedor que proporciona el trabajo."
+---
+title: Crear una celda de trabajo subcontratado para lean manufacturing (producción ajustada)
+description: Para modelar trabajo subcontratado para lean manufacturing, debe crear una celda de trabajo que esté asociada al proveedor que proporciona el trabajo.
 author: cvocph
 manager: AnnBe
 ms.date: 06/23/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 58b725af456f1a5c7f158f01ffe48a2d8cdf056b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: fc8dc0bc29c6bdb662c46808491abf5395f0be5d
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319164"
 ---
 # <a name="create-a-subcontracted-work-cell-for-lean-manufacturing"></a>Crear una celda de trabajo subcontratado para lean manufacturing (producción ajustada)
 
@@ -45,7 +45,7 @@ Para modelar trabajo subcontratado para lean manufacturing, debe crear una celda
 5. En el campo Sitio, haga clic en el botón desplegable para abrir la búsqueda.
     * Seleccione el sitio al debe asignarse la celda de trabajo. En teoría, un sitio puede representar un solo sitio que opera un proveedor. Sin embargo, en la mayoría de los casos, solo los recursos subcontratados se asignan al sitio que solicita el trabajo subcontratado. Tenga en cuenta que los almacenes de entrada y salida de celdas de trabajo subcontratadas deben encontrarse en el mismo sitio.  
 6. En el campo Sitio, escriba un valor.
-7. @SysTaskRecorder:_RequestClose
+7. @SysTaskRecorder: _RequestClose
 8. Seleccione o desactive la casilla Celda de trabajo.
 9. En el campo Almacén de entrada, haga clic en el botón desplegable para abrir la búsqueda.
     * Seleccione el almacén y la ubicación que se usan para organizar el material para la celda de trabajo que administra el proveedor. En muchos casos, el almacén y la ubicación se crean mediante un almacén separado por proveedor y una ubicación por celda de trabajo.  
@@ -70,5 +70,4 @@ Para modelar trabajo subcontratado para lean manufacturing, debe crear una celda
 23. En el campo Cantidad promedio de proceso, especifique un número.
 24. En el campo Unidad, haga clic en el botón desplegable para abrir la búsqueda.
 25. Resuelva los cambios en la unidad.
-
 

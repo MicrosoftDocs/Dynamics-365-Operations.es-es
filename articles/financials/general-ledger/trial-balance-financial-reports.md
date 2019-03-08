@@ -1,13 +1,13 @@
 ---
-title: "Informes financieros de saldo de comprobación"
-description: "En este artículo se describen los informes predeterminados para los saldos de comprobación. También se describen los componentes asociados a estos informes y cómo puede modificar los informes para que se adapten a sus requisitos empresariales."
+title: Informes financieros de saldo de comprobación
+description: En este artículo se describen los informes predeterminados para los saldos de comprobación. También se describen los componentes asociados a estos informes y cómo puede modificar los informes para que se adapten a sus requisitos empresariales.
 author: jcart1106
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerTrialBalanceListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c9e8c16724364df4dd62150056299e818470aa63
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: a61369033202bdb99fe4b36b24051c64cb9ca4b1
-ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309113"
 ---
-
 # <a name="trial-balance-financial-reports"></a>Informes financieros de saldo de comprobación
 
 [!include [banner](../includes/banner.md)]
@@ -35,7 +34,7 @@ En este artículo se describen los informes predeterminados para los saldos de c
 <a name="default-trial-balance-reports"></a>Informes de saldo de comprobación predeterminados
 -----------------------------
 
-Tres informes de saldo de comprobación están disponibles en informes financieros en Microsoft Dynamics 365 for Finance and Operations.
+Hay tres informes de saldo de comprobación disponibles en Informes financieros en Microsoft Dynamics 365 for Finance and Operations.
 
 | Informe predeterminado                                 | Qué hace                                                                                                                                                                                        |
 |------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -108,7 +107,6 @@ Cada informe de saldo de comprobación usa otra definición de columna. Estas de
 [Ver informes financieros](view-financial-reports.md)
 
 [Blog de informes financieros de Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
-
 
 
 

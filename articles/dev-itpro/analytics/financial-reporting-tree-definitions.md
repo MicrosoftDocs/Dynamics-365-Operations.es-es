@@ -1,13 +1,13 @@
 ---
 title: Definiciones de organigramas en informes financieros
-description: "Este artículo proporciona información acerca de las definiciones de organigrama. Una definición de organigrama es un componente de informe, o bloque de creación, que ayuda a definir la estructura y jerarquía de la organización."
+description: Este artículo proporciona información acerca de las definiciones de organigrama. Una definición de organigrama es un componente de informe, o bloque de creación, que ayuda a definir la estructura y jerarquía de la organización.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 00219f21076af60f8e2f16ca365b1138bb279400
-ms.contentlocale: es-es
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316956"
 ---
-
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Definiciones de organigramas en informes financieros
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,7 @@ Una definición del organigrama contiene las columnas que se describen en la tab
 
 | Columna del organigrama | Descripción |
 |-----------------------|-------------|
-| Compañía               | El nombre de la empresa para el organigrama. El valor **@ANY**, que normalmente se asigna solo al nivel de resumen, permite que el organigrama se use para todas las empresas. Todas las ramas secundarias tienen una compañía asignada. |
+| Empresa               | El nombre de la empresa para el organigrama. El valor **@ANY**, que normalmente se asigna solo al nivel de resumen, permite usar el organigrama para todas las compañías. Todas las ramas secundarias tienen una compañía asignada. |
 | Nombre de la unidad             | El código que identifica esta unidad de notificación en el organigrama gráfico. Asegúrese de establecer un sistema de codificación único que sea coherente y que vaya a ser fácil de comprender para los usuarios. |
 | Descripción de la unidad      | El título de la unidad de notificación aparece en el encabezado o el pie de página del informe si especifica **UnitDesc** como código en la pestaña **Encabezados y pies de página** de la definición del informe. El título aparece en la descripción de la fila del informe si especifica **UnitDesc** en la celda **Descripción** de la definición de la fila |
 | Dimensiones            | Una unidad de notificación que recaba información directamente de los datos financieros. Define la colocación y las longitudes lógicas para la cuenta y los segmentos relacionados. Cada fila de unidad organizacional debe tener una dimensión en esta columna. También puede colocar una dimensión en una fila de unidad de resumen (por ejemplo, para los gastos que están relacionados directamente con esa unidad). Si especifica una dimensión en una fila de resumen de unidad, las cuentas que se usan en unidades principales no se deben usar en unidades secundarias. De lo contrario, se pueden duplicar los importes. |
@@ -107,7 +106,7 @@ Al usar un organigrama, puede agregar importes desde unidades organizacionales s
     > Si especifica dimensiones para unidades tanto secundarias como principales, puede provocar la duplicación de datos en el informe.
 
 - Las unidades de notificación que contienen dimensiones en el organigrama se corresponden con las dimensiones que se usan en las definiciones de fila y de columna. La combinación de dimensiones determina los importes que se devuelven para esa unidad. Por ejemplo, en el ejemplo 2 que aparece más adelante en este artículo, las líneas 6 y 7 devuelven solo valores para los departamento 00 y 01, respectivamente.
-- Los importes para las unidades organizacionales principales que no contienen dimensiones en el organigrama se determinan desde el informe de la unidad secundaria y se distribuye el importe en la unidad principal especificada. Por ejemplo, si la unidad principal (consulte Contoso EE. UU. en el ejemplo 2 de los ejemplos de distribución de datos) tiene dos unidades secundarias (022 y 023) y no contiene dimensiones, se genera un informe para la unidad secundaria y la principal. El total principal es la suma de los dos importes secundarios.
+- Los importes para las unidades organizacionales principales que no contienen dimensiones en el organigrama se determinan desde el informe de la unidad secundaria y se distribuye el importe en la unidad principal especificada. Por ejemplo, si la unidad principal (consulte Contoso EE. UU. en el ejemplo 2 de los ejemplos de distribución de datos) tiene dos unidades secundarias (022 y 023) y no contiene dimensiones, se genera un informe para la unidad secundaria y la principal. El total principal es la suma de los dos importes secundarios.
 
 ### <a name="manage-reporting-units"></a>Gestionar unidades de notificación
 
@@ -166,9 +165,9 @@ Puede evitar que determinados usuarios y grupos tengan acceso a una unidad de no
 3. En el cuadro de diálogo **Seguridad de la unidad**, seleccione un nombre y haga clic en **Quitar**.
 4. Haga clic en **Aceptar**.
 
-### <a name="link-to-reports"></a>Vínculo para informes
+### <a name="link-toreports"></a>Vínculo para informes
 
-Una vez que haya creado una columna **informe** en la definición de filas y haya especificado el informe que desee incluir en el informe, debe actualizar el organigrama con la columna vinculada y la información acerca del informe. Un informe se puede importar en cualquier unidad del organigrama.
+Una vez que haya creado una columna  **informe** en la definición de filas y haya especificado el informe que desee incluir en el informe, debe actualizar el organigrama con la columna vinculada y la información acerca del informe. Un informe se puede importar en cualquier unidad del organigrama.
 
 ### <a name="identify-the-report-in-a-reporting-tree"></a>Identificar el informe en un organigrama
 
@@ -222,4 +221,3 @@ Los ejemplos siguientes muestran información que se puede usar en una definici�
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Informes financieros](financial-reporting-intro.md)
-

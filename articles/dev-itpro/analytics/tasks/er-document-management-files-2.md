@@ -1,13 +1,13 @@
---- 
-title: "Informe electrónico Archivos de gestión de documentos en las salidas de formato (Parte 2: Extensión del modelo de datos)"
-description: "En los pasos siguientes se explica cómo un usuario asignado al administrador del sistema o al rol de desarrollador de informes electrónicos, puede configurar un informe electrónico (ER) para usar los archivos de gestión de documentos (adjuntos) en formato ER."
+---
+title: 'Informe electrónico Archivos de gestión de documentos en las salidas de formato (Parte 2: Extensión del modelo de datos)'
+description: En los pasos siguientes se explica cómo un usuario asignado al administrador del sistema o al rol de desarrollador de informes electrónicos, puede configurar un informe electrónico (ER) para usar los archivos de gestión de documentos (adjuntos) en formato ER.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERDataModelContentsItemCreationDialog, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: cb4c58dc86a159a70634c05408a8db471ebcae4c
-ms.contentlocale: es-es
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320958"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-2-extend-data-model"></a>Informe electrónico Archivos de gestión de documentos en las salidas de formato (Parte 2: Extensión del modelo de datos)
 
@@ -31,7 +31,7 @@ En los pasos siguientes se explica cómo un usuario asignado al administrador de
 
 Para completar estos pasos, primero debe completar los pasos de la guía de tareas “ER Uso de los archivos de gestión de documentos en formatos de salida (Parte 1: Preparar el modelo de datos)”.
 
-Este procedimiento es para una función que se ha añadido en la versión 1611 de Dynamics 365 for Operations.
+Este procedimiento es para una función que se ha agregado en la versión 1611 de Dynamics 365 for Operations.
 
 
 ## <a name="extend-data-model-to-present-the-document-management-files-in-it"></a>Extienda el modelo de datos para mostrar los archivos de gestión de documentos
@@ -58,7 +58,7 @@ Este procedimiento es para una función que se ha añadido en la versión 1611 d
 17. En el campo Tipo de artículo, seleccione Cadena.
 18. Haga clic en Agregar.
 
-## <a name="map-new-data-model-elements-to-dynamics-365-for-finance-and-operations-enterprise-edition-data-sources"></a>Asigne los nuevos artículos del modelo de datos a los datos de origen de Dynamics 365 for Finance and Operations, Enterprise edition
+## <a name="map-new-data-model-elements-to-dynamics-365-for-finance-and-operations-enterprise-edition-data-sources"></a>Asignar nuevos elementos de modelo de datos a los orígenes de datos Dynamics 365 for Finance and Operations, Enterprise Edition
 1. Haga clic en Asignar modelo a origen de datos.
 2. Use el Filtro rápido para filtrar el campo Definición con un valor de 'InvoiceCustomer'.
     * InvoiceCustomer  
@@ -91,5 +91,4 @@ Este procedimiento es para una función que se ha añadido en la versión 1611 d
 25. Haga clic en Cambiar estado.
 26. Haga clic en Completar.
 27. Haga clic en Aceptar
-
 

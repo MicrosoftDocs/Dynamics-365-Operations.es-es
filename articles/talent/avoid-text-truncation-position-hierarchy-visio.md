@@ -1,30 +1,29 @@
 ---
-title: "Evitar truncamiento del texto en la jerarquía de puestos y exportar a Visio"
-description: "Este tema explica cómo resolver un problema en el que los nombres de personas y de puestos se truncan cuando los clientes ven la jerarquía de puestos en Microsoft Dynamics 365 for Talent. El truncamiento de texto puede hacer difícil tomar una captura de pantalla o imprimir la jerarquía."
+title: Evitar truncamiento del texto en la jerarquía de puestos y exportar a Visio
+description: Este tema explica cómo resolver un problema en el que los nombres de personas y de puestos se truncan cuando los clientes ven la jerarquía de puestos en Microsoft Dynamics 365 for Talent. El truncamiento de texto puede hacer difícil tomar una captura de pantalla o imprimir la jerarquía.
 author: Darinkramer
 manager: AnnBe
 ms.date: 11/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: d3f974f94b6c327fd70b8098d24f9e1f1e1e8eeb
 ms.openlocfilehash: b688a396e3b384aedb06c470b1634150ae7aa038
-ms.contentlocale: es-es
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306074"
 ---
-
 # <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>Evitar truncamiento del texto en la jerarquía de puestos y exportar a Visio
 
 [!include [banner](includes/banner.md)]
@@ -107,4 +106,3 @@ Según los campos que incluya en el gráfico, cada nodo muestra la información 
 **Opción adicional**
 
 En Talent, es posible que también puede usar el espacio de trabajo **Personas** para ver información relacionada con la jerarquía.
-

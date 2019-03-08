@@ -1,13 +1,13 @@
---- 
-title: "Configurar categorías de cuenta principal"
-description: "Las categorías de cuenta principal se usan para los informes predeterminados en los informes financieros y en Power BI."
+---
+title: Configurar categorías de cuenta principal
+description: Las categorías de cuenta principal se usan para los informes predeterminados en los informes financieros y en Power BI.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: MainAccountCategory, MainAccountCategoryLink
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: e46c7c86b93a3471ba10ec7ae6789f227bc9779c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 94e17d7cbcc8f826e806a8d4bc026a9d7844e910
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311459"
 ---
 # <a name="set-up-main-account-categories"></a>Configurar categorías de cuenta principal
 
@@ -44,5 +44,4 @@ Las categorías de cuenta principal se usan para los informes predeterminados en
 3. Active o desactive la opción Vinculada para elegir las cuentas principales.
 4. Haga clic en Aceptar
 5. Haga clic en Sí.
-
 

@@ -1,13 +1,13 @@
---- 
+---
 title: Definir la zona horaria preferida de un usuario
 description: El siguiente procedimiento explica el modo de un usuario en el rol de Administrador del sistema puede definir la zona horaria para un usuario.
 author: pvillads
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysUserManagement, SysUserSetup
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: pvillads
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: b5eac00d5054296921c3f22004f8c8e710727afc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b39b0f0acf0a0fcdc472ba0bbfc3b15451c7a274
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309734"
 ---
 # <a name="set-a-users-preferred-time-zone"></a>Definir la zona horaria preferida de un usuario
 
@@ -36,5 +36,4 @@ El siguiente procedimiento explica el modo de un usuario en el rol de Administra
 5. Haga clic en la ficha Preferencias.
 6. En el campo Zona horaria, seleccione una opción.
 7. Haga clic en Guardar.
-
 

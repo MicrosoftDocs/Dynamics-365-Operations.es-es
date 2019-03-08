@@ -1,37 +1,36 @@
 ---
 title: Atributos y grupos de atributos
-description: "Este tema describe cómo usar atributos para proporcionar una forma de describir un producto y sus características a través de campos definidos por el usuario."
+description: Este tema describe cómo usar atributos para proporcionar una forma de describir un producto y sus características a través de campos definidos por el usuario.
 author: ashishmsft
 manager: AnnBe
 ms.date: 04/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 76b78a898a619f1bc7faa4749e5380a0ccfef527
-ms.contentlocale: es-es
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326248"
 ---
-
 # <a name="attributes-and-attribute-groups"></a>Atributos y grupos de atributos
 
 [!include [banner](includes/banner.md)]
 
-*Atributos* proporciona una forma de describir adicionalmente un producto y sus características a través de campos definidos por el usuario (como **Tamaño de la memoria**, **Capacidad del disco duro**, **Cumple con Energy Star**, etc.). En Microsoft Dynamics 365 for Finance and Operations, los atributos se pueden asociar con las distintas entidades de Retail, como categorías de productos y canales de venta minorista, y se pueden definir valores predeterminados. A continuación, los productos heredan los atributos y los valores predeterminados para dichos atributos cuando se asocian a las categorías de productos o canales de venta minorista. Los valores predeterminados se pueden anular en el nivel de producto individual, en el nivel del canal de venta minorista o en un catálogo de venta minorista.
+*Atributos* proporciona una forma de describir adicionalmente un producto y sus características a través de campos definidos por el usuario (como **Tamaño de la memoria**, **Capacidad del disco duro**, **Cumple con Energy Star**, etc.). En Microsoft Dynamics 365 for Finance and Operations los atributos se pueden asociar con las distintas entidades minoristas, como categorías de productos y canales de venta minorista, y se pueden definir valores predeterminados. A continuación, los productos heredan los atributos y los valores predeterminados para dichos atributos cuando se asocian a las categorías de productos o canales de venta minorista. Los valores predeterminados se pueden anular en el nivel de producto individual, en el nivel del canal de venta minorista o en un catálogo de venta minorista.
 
 Por ejemplo, un producto de televisión típico puede tener los siguientes atributos.
 
@@ -257,4 +256,3 @@ Los valores predeterminados de atributos se pueden anular para productos individ
 
     > [!NOTE]
     > Si se crean medios del producto compartido y atributos del producto compartido en Finance and Operations, se aplican a todos los productos al por menor.
-

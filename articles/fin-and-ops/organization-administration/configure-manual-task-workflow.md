@@ -1,13 +1,13 @@
 ---
 title: Configurar tareas manuales en un flujo de trabajo
-description: "Este tema explica cómo configurar las propiedades para una tarea manual."
+description: Este tema explica cómo configurar las propiedades para una tarea manual.
 author: sericks007
 manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 669fce3ddade4d6e0a130da2420ab33ca4ff4671
-ms.contentlocale: es-es
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309757"
 ---
-
 # <a name="configure-manual-tasks-in-a-workflow"></a>Configurar tareas manuales en un flujo de trabajo
 
 [!include [banner](../includes/banner.md)]
@@ -136,7 +135,7 @@ Siga estos pasos para especificar a quién se debe asignar la tarea manual.
     </tr>
     <tr>
     <td>Usuario</td>
-    <td>Usuarios específicos de Microsoft Dynamics 365 for Finance and Operations</td>
+    <td>Usuarios de Microsoft Dynamics 365 for Finance and Operations específicos</td>
     <td>
     <ol>
     <li>Tras seleccionar <strong>Usuario</strong>, haga clic en la pestaña <strong>Usuario</strong>.</li>
@@ -383,4 +382,3 @@ Cuando la tarea manual se asigna a un usuario, este debe realizar alguna acción
 5. Active la casilla de verificación **Delegar** si el usuario debe poder asignar la tarea a otro usuario.
 6. Active la casilla de verificación **Volver a asignar** si el usuario debe poder reasignar la tarea a otro usuario de la cola de elementos de trabajo.
 7. Active la casilla de verificación **Liberar** si el usuario debe poder reasignar la tarea a la cola de elementos de trabajo. Otro usuario podrá encargarse de completar la tarea.
-

@@ -1,32 +1,31 @@
 ---
 title: Reabastecimiento con kanbans de transporte
-description: "Este tema describe cómo el kanban de transporte se usa para el reabastecimiento para las actividades de fabricación."
+description: Este tema describe cómo el kanban de transporte se usa para el reabastecimiento para las actividades de fabricación.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanBoardTransferJob, KanbanFlow, KanbanRules
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7fe3ebe3c27c380d95cbc12b864264e9538d433f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 011da8cd894cc044b6af8b740e49ed8d7c3c0c67
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320935"
 ---
-
 # <a name="replenishment-with-withdrawal-kanbans"></a>Reabastecimiento con kanbans de transporte
 
 [!include [banner](../includes/banner.md)]
@@ -87,5 +86,4 @@ En el escenario siguiente, la actividad de transferencia de kanban de transporte
 6.  Proceso de fabricación
 
 Después de consumir un kanban en la ubicación de entrada de producción, el kanban se notifica como vacío y se agrega un nuevo kanban al flujo. Cuando se crea el kanban, una línea de oleada se agrega a una oleada de kanban. Cuando se procesa la oleada de kanban, el trabajo del almacén para el picking de kanban se crea. El trabajador del almacén procesa el trabajo para el picking de kanban y el trabajo lo guía para que seleccione el material del kanban en una ubicación de almacén. Cuando este trabajador del almacén confirma la selección, el kanban se completa automáticamente y el trabajador del almacén es guiado para que coloque el material en la ubicación de entrada de producción.
-
 

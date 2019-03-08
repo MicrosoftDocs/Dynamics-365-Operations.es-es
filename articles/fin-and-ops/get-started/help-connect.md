@@ -1,13 +1,13 @@
 ---
-title: "Conexión del sistema de ayuda"
-description: "Este tema describe los componentes del sistema de Ayuda de Microsoft Dynamics 365 for Finance and Operations y proporciona una visión general de cómo conectarlos y un resumen de cómo crear la ayuda personalizada."
+title: Conectar el sistema de ayuda
+description: Este tema describe los componentes del sistema de Ayuda para Microsoft Dynamics 365 for Finance and Operations y proporciona una visión general de cómo conectar los y un resumen de cómo crear la ayuda personalizada.
 author: margoc
 manager: AnnBe
 ms.date: 11/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 673b01648127fe1d19fb3c75c4d6812c4f22c761
-ms.contentlocale: es-es
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317738"
 ---
-
-# <a name="connect-the-help-system"></a>Conexión del sistema de ayuda
+# <a name="connect-the-help-system"></a>Conectar el sistema de ayuda
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se describen los componentes del sistema de Ayuda de Microsoft Dynamics 365 for Finance and Operations. Ofrece una visión general de cómo conectar estos componentes y un resumen de cómo crear una ayuda personalizada.
+Este tema describe los componentes del sistema de ayuda de Microsoft Dynamics 365 for Finance and Operations. Ofrece una visión general de cómo conectar estos componentes y un resumen de cómo crear una ayuda personalizada.
 
 ## <a name="help-architecture"></a>Arquitectura de la Ayuda
 
@@ -44,7 +43,7 @@ En la ilustración siguiente se muestran las partes del sistema de Ayuda de Micr
 ## <a name="connecting-the-help-system"></a>Conexión con el sistema de Ayuda
 
 > [!NOTE]
-> La pestaña **Guías de tareas** no está actualmente disponible en Microsoft Dynamics 365 for Talent y Microsoft Dynamics 365 for Retail, Estamos trabajando actualmente para permitir esta funcionalidad en una versión futura. Las Guías de tareas para la Introducción a Talent seguirán disponibles para cubrir las funcionalidades básicas. La ayuda de procedimientos también está disponible en el sitio de docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) para Retail y Talent.
+> La pestaña **Guías de la tarea** no está actualmente disponible en Microsoft Dynamics 365 for Talent y Microsoft Dynamics 365 for Retail. Estamos trabajando actualmente para permitir esta funcionalidad en una versión futura. Las Guías de tareas para la Introducción a Talent seguirán disponibles para cubrir las funcionalidades básicas. La ayuda de procedimientos también está disponible en el sitio de docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) para Retail y Talent.
 
 Con el formulario **Parámetros del sistema**, los administradores del sistema conectan las piezas del sistema de Ayuda para una implementación.
 
@@ -102,4 +101,3 @@ Microsoft ha proporcionado documentación técnica y código de muestra que desc
 [Visión general del Grabador de tareas](../../dev-itpro/user-interface/task-recorder.md)
 
 [Cómo crear una grabación de tareas para usarla como documentación o formación](../../dev-itpro/user-interface/task-recorder-training-docs.md)
-

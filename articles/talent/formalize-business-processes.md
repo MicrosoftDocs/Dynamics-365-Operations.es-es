@@ -1,13 +1,13 @@
 ---
 title: Formalizar procesos empresariales
-description: "Este tema explica cómo puede utilizar la característica del proceso empresarial para crear una plantilla del proceso empresarial para los procesos que deben completarse en la organización."
+description: Este tema explica cómo puede utilizar la característica del proceso empresarial para crear una plantilla del proceso empresarial para los procesos que deben completarse en la organización.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 01/09/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: PersonnelBusinessProcessGenericWorkspace, BusinessProcessGenericTemplateListpage, BusinessProcessGenericMyTemplates, BusinessProcessGroupAssignment
 audience: Application User
 ms.reviewer: rschloma
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShielaS
 ms.search.validFrom: 2018-01-09
 ms.dyn365.ops.version: AX 7.1.0, Talent October 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: ee4035f3156a91faecdecba45289dbb1ca6e947a
 ms.openlocfilehash: fd538677d897c1e7d3103cd714c688373aab8d29
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306165"
 ---
 # <a name="formalize-business-processes"></a>Formalizar procesos empresariales
 
@@ -43,7 +43,7 @@ Para cada proceso empresarial, puede definir a un propietario de proceso. El pro
 Un propietario de proceso no puede crear nuevos procesos empresariales o plantillas de procesos empresariales, ni eliminar procesos empresariales activos o plantillas de procesos empresariales.
 
 ## <a name="tasks"></a>Tareas
-Un proceso empresarial comprende a menudo varias tareas. Algunas tareas, como una revisión de ofertas internas de curso, se pueden completar en Microsoft Dynamics 365 for Talent[?]. En este caso, se selecciona una opción en el campo **Vínculo de tareas**. Otras tareas pueden implicar revisar o completar las páginas de un sitio web. En este caso, la dirección **URL** se seleccciona en el campo **Vínculo de la tarea** y, a continuación, se puede introducir la dirección web. Puede especificar direcciones URL para sitios externos e internos. También puede crear tareas para actividades que complete manualmente, como una revisión de la accesibilidad de todas las estructuras. En este caso, no se requiere un vínculo de tarea. Esta flexibilidad le permite realizar un seguimiento de varias clases de tareas en un proceso completo.
+Un proceso empresarial comprende a menudo varias tareas. Algunas tareas, como una revisión de ofertas internas de curso, se pueden completar en Dynamics 365 for Talent[?]. En este caso, se selecciona una opción en el campo **Vínculo de tareas**. Otras tareas pueden implicar revisar o completar las páginas de un sitio web. En este caso, la dirección **URL** se seleccciona en el campo **Vínculo de la tarea** y, a continuación, se puede introducir la dirección web. Puede especificar direcciones URL para sitios externos e internos. También puede crear tareas para actividades que complete manualmente, como una revisión de la accesibilidad de todas las estructuras. En este caso, no se requiere un vínculo de tarea. Esta flexibilidad le permite realizar un seguimiento de varias clases de tareas en un proceso completo.
 
 Las tareas se pueden asignar a un trabajador específico o a un puesto. Por ejemplo, el responsable de compensaciones y prestaciones siempre será la persona que realiza una revisión de las primas de seguros. Por tanto, cuando cree esta tarea, seleccione **Puesto** en el campo **Tipo de asignación** y, a continuación, seleccione **Responsable de compensaciones y prestaciones** en la lista **Puesto**. Cuando se inicia el proceso empresarial, la tarea se asigna al trabajador que se encuentra en el puesto **Responsable de compensaciones y prestaciones**. Para asignar una tarea a un trabajador específico, seleccione **Trabajador** en el campo **Tipo de asignación** y, a continuación, seleccione a la persona adecuada.
 
@@ -74,5 +74,4 @@ Para crear o copiar una plantilla de proceso empresarial, o para iniciar un proc
 - Seleccione **Iniciar proceso** para comenzar el proceso empresarial seleccionado, asignar tareas y calcular las fechas de vencimiento.
 
 Para ver procesos activos y tareas asociadas, abra el espacio de trabajo **Procesos empresariales**.
-
 

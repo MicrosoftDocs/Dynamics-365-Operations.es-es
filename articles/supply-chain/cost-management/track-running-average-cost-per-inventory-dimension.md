@@ -1,13 +1,13 @@
 ---
-title: "Seguimiento del coste promedio móvil por dimensión de inventario"
-description: "Un grupo de dimensiones de inventario está vinculado a cada artículo de inventario. Por lo tanto, el precio de coste promedio móvil de un artículo se calcula basándose en las dimensiones de inventario seleccionadas para las que se realiza un seguimiento financiero."
+title: Seguimiento del coste promedio móvil por dimensión de inventario
+description: Un grupo de dimensiones de inventario está vinculado a cada artículo de inventario. Por lo tanto, el precio de coste promedio móvil de un artículo se calcula basándose en las dimensiones de inventario seleccionadas para las que se realiza un seguimiento financiero.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventOnhandItem
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f8ade2981056e9e4f49726a8c01c45f77b8e151b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 48db7ff047a50343bd473d2c71f878e4ee2201e5
-ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313506"
 ---
-
 # <a name="track-running-average-cost-per-inventory-dimension"></a>Seguimiento del coste promedio móvil por dimensión de inventario
 
 [!include [banner](../includes/banner.md)]
@@ -56,7 +55,6 @@ El precio de coste promedio móvil para el almacén GW es de 11,20 dólares y el
 -   Se ha facturado para el almacén GW y el lote BBB un pedido de compra que incluye una cantidad de 2 a un precio de coste de 15,00 dólares.
 
 El precio de coste promedio móvil para el almacén GW y el lote AAA es de 11,20 dólares y el precio de coste promedio móvil del almacén GW y el lote BBB es de 15,00 dólares.
-
 
 
 

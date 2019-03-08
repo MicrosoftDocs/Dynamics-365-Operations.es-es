@@ -1,13 +1,13 @@
 ---
-title: "Nuevo cálculo de los costes de sustitución y los valores asegurados para grupos de activos fijos"
-description: "Este artículo explica el proceso de la actualización de los costes de sustitución y los valores asegurados de los activos fijos."
+title: Nuevo cálculo de los costes de sustitución y los valores asegurados para grupos de activos fijos
+description: Este artículo explica el proceso de la actualización de los costes de sustitución y los valores asegurados de los activos fijos.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0756287406ad12237632ffbd455dbc6ba15d9915
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: eb3db5863bf2fcca31b6af878e7324b079f1c630
-ms.openlocfilehash: ad706a9ee441858a6f4a128ff978e24efb6ecfce
-ms.contentlocale: es-es
-ms.lasthandoff: 01/12/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324385"
 ---
-
 # <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Nuevo cálculo de los costes de sustitución y los valores asegurados para grupos de activos fijos
 
 [!include [banner](../includes/banner.md)]
@@ -74,7 +73,6 @@ El día siguiente, el gerente indica que los equipos informáticos disminuyeron 
 
 > [!NOTE]  
 > No es posible invertir el factor de -10 al especificar un factor de 10 positivo (ni un factor de 2, que es la diferencia entre -10 y -8), ya que los importes no se calcularán según se espera. 
-
 
 
 

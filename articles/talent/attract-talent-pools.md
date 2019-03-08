@@ -1,31 +1,30 @@
 ---
 title: Conseguir candidatos usando grupos de talentos
-description: "Este tema explica cómo crear y configurar grupos de talentos en Attract."
-author: 
+description: Este tema explica cómo crear y configurar grupos de talentos en Attract.
+author: ''
 manager: AnnBe
 ms.date: 10/22/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 2eb46f436305a4c81ea99553e4dc07288ee74008
 ms.openlocfilehash: cac68799ee5b6e2c8f864acf6d1677a7213b4aaf
-ms.contentlocale: es-es
-ms.lasthandoff: 10/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306097"
 ---
-
 # <a name="source-candidates-by-using-talent-pools"></a>Conseguir candidatos usando grupos de talentos
 
 [!include[banner](../includes/banner.md)]
@@ -108,7 +107,7 @@ Todos los usuarios tienen una vista común de los perfiles del candidato. Selecc
 
 - La pestaña **Documentos** muestra los documentos que el candidato ha agregado desde su perfil o durante las solicitudes del trabajo. Esta ficha se puede usar para gestionar los curriculums vitae del candidato, las cartas de presentación, la cartera, y así sucesivamente. También puede usar esta ficha para agregar documentos.
 
-    Para ver un documento, seleccione el nombre del documento en la lista de documentos. Puede ver documentos de Microsoft Word en la solicitud con Microsoft Office 365. También puede descargar los documentos en su equipo local mediante la opción **Descargar** para cada documento.
+    Para ver un documento, seleccione el nombre del documento en la lista de documentos. Puede ver los documentos Microsoft Word en la aplicación mediante Microsoft Office 365. También puede descargar los documentos en su equipo local mediante la opción **Descargar** para cada documento.
 
 - La pestaña **LinkedIn** muestra la información de LinkedIn del candidato. Para usar esta ficha, debe conectar su cuenta de LinkedIn en la configuración del usuario, y su conexión de reclutador de LinkedIn del entorno debe establecerse. Para obtener más información, consulte [Abastecimiento con LinkedIn Recruiter](./attract-linked-in-recruiter.md).
 
@@ -139,4 +138,3 @@ Con frecuencia, hay varios buenos candidatos que no se seleccionan para un traba
 1. En la página de solicitud, seleccione **Agregar a grupo de talentos**. Se muestra una lista de grupos de talentos a los que tiene acceso.
 
 1. Seleccione o busque el grupo de talentos y, a continuación, seleccione **Agregar** para agregar el candidato a ese grupo de talentos.
-

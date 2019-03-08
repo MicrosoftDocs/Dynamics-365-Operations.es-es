@@ -1,13 +1,13 @@
 ---
 title: Procesar compensaciones
-description: "El procesamiento de compensación le permite calcular los nuevos importes de compensación básicos para sus empleados en función de los ajustes de recursos propios, los objetivos de aumento por mérito y el rendimiento."
+description: El procesamiento de compensación le permite calcular los nuevos importes de compensación básicos para sus empleados en función de los ajustes de recursos propios, los objetivos de aumento por mérito y el rendimiento.
 author: kherr75
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations, Talent
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
+ms.openlocfilehash: 3ecadaf20ea82cd1328b266907d2ba43515d76c6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 0886f60dbdfc531893cd2c1b23df5b52a4a2f4b6
-ms.contentlocale: es-es
-ms.lasthandoff: 03/08/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306126"
 ---
-
 # <a name="process-compensation"></a>Procesar compensaciones
 
 [!include [banner](includes/banner.md)]
@@ -80,4 +79,3 @@ Cuando los importes de compensación para un empleado se hayan revisado y los aj
 Cuando se haya actualizado el estado de uno o más eventos del empleado a Aprobado, pueden cargarse a los registros de compensación fija de los empleados. Esto se puede hacer seleccionando cada evento del empleado sucesivamente y haciendo clic en el botón **Cargar compensación del empleado** en la página **Resultados de los empleados**, o haciendo clic en **Cargar compensación** en la página **Resultados de proceso** para cargar todos los eventos de empleado aprobados a la vez.
 
 Al hacer clic en **Aceptar** en el diálogo **Cargar compensación** se agregarán las líneas de acción de compensación que no estén vacías a la página **Compensación fija del empleado** .
-

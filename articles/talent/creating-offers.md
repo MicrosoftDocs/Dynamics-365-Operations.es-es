@@ -1,32 +1,31 @@
 ---
 title: Crear, aprobar y firmar propuestas
-description: "Este tema informa de cómo crear, aprobar, y firmar una propuesta para un candidato mediante Dynamics 365 for Talent."
+description: Este tema informa de cómo crear, aprobar, y firmar una propuesta para un candidato mediante Dynamics 365 for Talent.
 author: josaw
 manager: AnnBe
 ms.date: 12/07/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-10-19
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
 ms.openlocfilehash: f189df052ef299a2cca1d92065a7a4d377d25399
-ms.contentlocale: es-es
-ms.lasthandoff: 12/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306151"
 ---
-
-# <a name="creating-approving-and-signing-offers"></a>Crear, aprobar y firmar propuestas
+# <a name="creating-approving-and-signing-offers"></a>Crear, aprobar y firmar ofertas
 
 [!include[banner](../includes/banner.md)]
 
@@ -149,4 +148,3 @@ Se puede retirar una oferta a un candidato en cualquier momento por diferentes m
 ## <a name="closing-an-offer"></a>Cierre de una oferta 
 
 Cuando una oferta se ha aceptado, rechazado, o se ha retirado sin otras acciones necesarias, puede cerrar la oferta para que no se edite más este paquete de propuesta.
-

@@ -1,13 +1,13 @@
---- 
-title: "Realizar el seguimiento de un artículo o una materia prima"
-description: "Este procedimiento muestra cómo usar el seguimiento de artículos para identificar dónde se han usado los artículos o las materias primas o dónde se están usando."
+---
+title: Realizar el seguimiento de un artículo o una materia prima
+description: Este procedimiento muestra cómo usar el seguimiento de artículos para identificar dónde se han usado los artículos o las materias primas o dónde se están usando.
 author: pjacobse
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventTrackingDimTracing, InventTrackingDimTracingCriteria, InventTrackingItemIdLookup, InventBatchIdLookup, CustTable, SalesLine
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: pjacobse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 897a777b3f4ce05fe995aa98a72feb99d82837ef
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d7eb282ddf9597385d6660a3fc0ef73f403ab898
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315852"
 ---
 # <a name="trace-an-item-or-raw-material"></a>Realizar el seguimiento de un artículo o una materia prima
 
@@ -55,5 +55,4 @@ Este procedimiento muestra cómo usar el seguimiento de artículos para identifi
 8. En el panel de acciones, haga clic en Seguimiento.
 9. Haga clic en Pedidos de ventas no enviados.
 10. Cierre la página.
-
 

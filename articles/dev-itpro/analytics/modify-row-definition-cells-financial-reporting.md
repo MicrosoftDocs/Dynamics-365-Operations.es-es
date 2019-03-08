@@ -1,13 +1,13 @@
 ---
-title: "Modifique las celdas de definición de filas"
-description: "En este artículo se describe la información que se requiere para cada celda de una definición de fila en un informe financiero y se explica cómo escribir esa información."
+title: Modifique las celdas de definición de filas
+description: En este artículo se describe la información que se requiere para cada celda de una definición de fila en un informe financiero y se explica cómo escribir esa información.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 6193d70c53ee09a28aa8763cb625b315ec180b95
-ms.contentlocale: es-es
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323649"
 ---
-
 # <a name="modify-row-definition-cells"></a>Modifique las celdas de definición de filas
 
 [!include [banner](../includes/banner.md)]
@@ -387,10 +386,10 @@ Puede limitar una fila a un código existente del libro. La definición de la co
 Algunos sistemas contables admiten atributos de cuentas y atributos de transacción en los datos financieros. Estos atributos actúan como segmentos virtuales de la cuenta y pueden contener información adicional sobre la cuenta o la transacción. Esta información adicional podría ser identificadores de la cuenta, identificadores de lote, códigos postales u otro atributos. Si su sistema contable admite atributos, puede usar atributos de cuenta o atributos de transacción como modificadores de la fila en la definición de filas. Para obtener información sobre cómo anular la información de la fila, consulte la sección “Anulación de la definición de la columna” mendionada anteriormente en este artículo.
 
 ## <a name="specify-a-link-to-financial-dimensions-cell"></a>Especificar un vínculo a la celda de las dimensiones financieras
-La celda **Vincular a las dimensiones financieras** contiene vínculos a los datos financieros que se deben incluir en cada fila del informe. Esta celda contiene valores de dimensión, pero se pueden especificar celdas en una hoja de cálculo de Microsoft Excel o, además de eso, valores de segmento o valores de dimensión. Para abrir el cuadro de diálogo **Dimensiones**, haga doble clic en la celda **Vínculo a las dimensiones financieras**.
+La celda **Vincular a las dimensiones financieras** contiene vínculos a los datos financieros que se deben incluir en cada fila del informe. Esta celda contiene valores de dimensión. Sin embargo, puede especificar celdas de una hoja de cálculo de Microsoft Excel en lugar o además de valores de segmento o de dimensión. Para abrir el cuadro de diálogo **Dimensiones**, haga doble clic en la celda **Vínculo a las dimensiones financieras**.
 
 > [!NOTE]
-> El diseñador de informes no puede seleccionar cuentas, dimensiones ni campos del sistema de Microsoft Dynamics ERP que incluyan los siguientes caracteres reservados: &, \*, \[, \], { o }. Para especificar información para una fila que ya esté en la definición de filas, agregue la información en la celda **Vínculo a las dimensiones financieras**. Para agregar nuevas filas que vinculan a los datos financieros, use el cuadro de diálogo **Insertar filas desde** para crear nuevas filas en la definición del informe. El título de la columna cambia, en función de cómo se configura la columna, tal y como se muestra en la siguiente tabla.
+> El diseñador de informes no puede seleccionar cuentas, dimensiones ni campos del sistema de Microsoft Dynamics ERP que incluyan los siguientes caracteres reservados: &, \*, \[, \], { o }. Para especificar información de una fila que ya se encuentra en la definición de fila, agregue la información a la celda **Vínculo a dimensiones financieras**. Para agregar nuevas filas que vinculan a los datos financieros, use el cuadro de diálogo **Insertar filas desde** para crear nuevas filas en la definición del informe. El título de la columna cambia, en función de cómo se configura la columna, tal y como se muestra en la siguiente tabla.
 
 | Tipo de vínculo que se selecciona       | La descripción de la columna de vínculo cambia a esto |
 |----------------------------------|----------------------------------------------------|
@@ -429,14 +428,14 @@ Cuando se especifica un valor natural de segmento en el cuadro de diálogo **Dim
 Puede especificar un intervalo de valores de segmento o valores de dimensión. La ventaja de especificar un intervalo es que no tiene que actualizar la definición de filas cada vez que un nuevo valor de segmento o valor de dimensión se agrega a los datos financieros. Por ejemplo, el intervalo **+Cuenta=\[6100:6900\]** extrae los valores de las cuentas de la 6100 a la 6900 para el importe de fila. Cuando un intervalo incluye un carácter comodín (?), el diseñador de informes no evalúa el intervalo según cada carácter. En su lugar, se determinan los puntos bajos y altos del intervalo y luego se incluyen los valores de fin y todos los valores entre ellos.
 
 > [!NOTE]
-> El diseñador de informes no puede seleccionar cuentas, dimensiones ni campos del sistema de Microsoft Dynamics ERP que incluyan los siguientes caracteres reservados: &, \*, \[, \], { o }. Puede agregar el signo & si está creando automáticamente definiciones de filas usando el cuadro de diálogo **Insertar filas desde dimensiones**.
+> El diseñador de informes no puede seleccionar cuentas, dimensiones ni campos del sistema de Microsoft Dynamics ERP que incluyan los siguientes caracteres reservados: &, \*, \[, \], { o }. Puede agregar el signo & si está creando automáticamente definiciones de filas usando el cuadro de diálogo **Insertar filas desde dimensiones**.
 
 ### <a name="multiple-segment-or-multiple-dimension-ranges"></a>Intervalos de varios segmentos o varias dimensiones
 
 Cuando se especifica un intervalo mediante combinaciones de varios valores de dimensión, la comparación del intervalo se hace ..\\financial-dimensions\\dimensión por dimensión. La comparación del intervalo no se puede realizar carácter por carácter o o por segmento parcial. Por ejemplo, el intervalo **+Cuenta=\[5000:6000\], Departamento=\[1000:2000\], Centro de coste=\[00\]** incluye únicamente las cuentas que coinciden con cada segmento. En este escenario, la primera dimensión debe estar en el intervalo de 5000 a 6000, la segunda dimensión debe estar en el intervalo de 1000 a 2000 y la última dimensión debe ser 00. Por ejemplo, **+Cuenta=\[5100\], Departamento=\[1100\], Centro de coste=\[01\]** no se incluye en el informe, ya que el segmento último se encuentra fuera del intervalo específico. Si un valor del segmento contiene espacios, incluya ese valor en corchetes (\[ \]). Los siguientes valores son válidos para un segmento de cuatro caracteres: **\[ 234\], \[123 \], \[1 34\]**. Los valores de dimensión se deben incluir entre corchetes (\[ \]) y el diseñador de informes agrega estos corchetes para el usuario. Cuando un intervalo de varios segmentos o de varias dimensiones incluye caracteres comodín (? o \*), se determina el punto bajo y alto de todo el intervalo de varios segmentos o varias dimensiones y luego se incluyen los valores de fin y todos los valores entre ellos. Si tiene un intervalo de gran tamaño, como todo el intervalo de cuentas de 40000 a 99999, debe especificar una cuenta de inicio válida y una cuenta de fin válida siempre que sea posible.
 
 > [!NOTE] 
-> El diseñador de informes no puede seleccionar cuentas, dimensiones ni campos del sistema de Microsoft Dynamics ERP que incluyan los siguientes caracteres reservados: &, \*, \[, \], { o }. Puede agregar el signo & si está creando automáticamente definiciones de filas usando el cuadro de diálogo **Insertar filas desde dimensiones**.
+> El diseñador de informes no puede seleccionar cuentas, dimensiones ni campos del sistema de Microsoft Dynamics ERP que incluyan los siguientes caracteres reservados: &, \*, \[, \], { o }. Puede agregar el signo & si está creando automáticamente definiciones de filas usando el cuadro de diálogo **Insertar filas desde dimensiones**.
 
 ## <a name="add-or-subtract-from-other-accounts-in-a-row-definition"></a>Agregar o quitar de otras cuentas en una definición de filas
 Para agregar o quitar los importes monetarios en una cuenta de importes monetarios a otra cuenta, puede usar el símbolo más (+) y el símbolo menos (-) en la celda **Vincular a dimensiones financieras**. La tabla siguiente muestra los formatos aceptables para agregar y quitar vínculos a los datos financieros.
@@ -456,10 +455,10 @@ Para agregar o quitar los importes monetarios en una cuenta de importes monetari
 | Quitar un intervalo de valores de segmento.                                                     | -Cuenta=\[1200:1205\]                                                                                       |
 | Quitar un intervalo de valores de segmento que incluyen caracteres comodín.                    | -Cuenta=\[120?:130?\]                                                                                       |
 
-Aunque puede modificar las cuentas directamente, también puede usar el cuadro de diálogo **Dimensiones** para aplicar el formato adecuado a sus vínculos de datos financieros. Cualquiera de los valores puede incluir caracteres comodín (? o \*). Sin embargo, el diseñador de informes no puede seleccionar cuentas, dimensiones o campos del sistema de Microsoft Dynamics ERP que incluyan los siguientes caracteres reservados: &, \*, \[, \], { o }.
+Aunque puede modificar las cuentas directamente, también puede usar el cuadro de diálogo **Dimensiones** para aplicar el formato adecuado a sus vínculos de datos financieros. Cualquiera de los valores puede incluir caracteres comodín (? o \*). Sin embargo, el diseñador de informes no puede seleccionar cuentas, dimensiones ni campos del sistema de Microsoft Dynamics ERP que incluyan los siguientes caracteres reservados: &, \*, \[, \], { o }.
 
 > [!NOTE]
-> Para sustraer valores, debe poner paréntesis en torno a estos valores. Por ejemplo, si escribe **450?-(4509)**, se mostrará **+Cuenta=\[4509\]-Cuenta=\[450?\]** y le estará dando instrucciones al diseñador de informes para que reste el importe en el segmento 4509 del importe para cualquier segmento de cuenta que empiece por 450.
+> Para restar valores, debe escribirlos entre paréntesis. Por ejemplo, si escribe **450?-(4509)**, se mostrará **+Cuenta=\[4509\]-Cuenta=\[450?\]** y le estará dando instrucciones al diseñador de informes para que reste el importe en el segmento 4509 del importe para cualquier segmento de cuenta que empiece por 450.
 
 ### <a name="add-or-subtract-accounts-from-other-accounts"></a>Agregar o quitar cuentas de otras cuentas
 
@@ -533,4 +532,3 @@ Un conjunto de valores de dimensión es un grupo con nombre de valores de dimens
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Informes financieros](financial-reporting-intro.md)
-

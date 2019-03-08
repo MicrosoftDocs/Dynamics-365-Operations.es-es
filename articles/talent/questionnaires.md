@@ -1,13 +1,13 @@
 ---
 title: Cuestionarios
-description: "En este tema se proporciona información general acerca de los cuestionarios, además de vínculos a información más detallada. Un cuestionario es un conjunto de preguntas que se utiliza para recopilar información con varios objetivos. Puede diseñar, crear, distribuir y completar cuestionarios y, a continuación, analizar los resultados."
+description: En este tema se proporciona información general acerca de los cuestionarios, además de vínculos a información más detallada. Un cuestionario es un conjunto de preguntas que se utiliza para recopilar información con varios objetivos. Puede diseñar, crear, distribuir y completar cuestionarios y, a continuación, analizar los resultados.
 author: kherr75
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KMCollection, KMKnowledgeCollectorParameters, KmWorkspace
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: d5c3e02bf5bc17db7232ccbb56e4dfbc062795b4
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306067"
 ---
-
 # <a name="questionnaires"></a>Cuestionarios
 
 [!include [banner](includes/banner.md)]
@@ -35,7 +34,7 @@ En este tema se proporciona información general acerca de los cuestionarios, ad
 Puede personalizar un cuestionario para que se adapte a sus requisitos específicos mediante las diversas características que están disponibles en Microsoft Dynamics 365 for Finance and Operations. A continuación, se muestran algunos ejemplos de cómo se pueden usar los cuestionarios:
 
 -   Probar las habilidades profesionales de empleados y candidatos.
--   Evaluar si los participantes del curso aprendieron el material del curso.
+-   Evaluar si los participantes del curso aprendieron el material del curso.
 -   Evaluar un curso (por ejemplo, las instalaciones, el contenido y el instructor).
 -   Sondear la satisfacción del empleado y del cliente.
 -   Evaluar el rendimiento de trabajo de un empleado.
@@ -44,7 +43,7 @@ En la siguiente tabla se proporcionan vínculos a información sobre cómo usar 
 
 | Tema| Descripción|
 |------|------------|
-| [Diseñar un cuestionario](design-questionnaires.md)  | Este artículo ofrece información sobre el procedimiento el diseño de un cuestionario. El proceso de diseño implica la configuración de requisitos previos, respuestas y preguntas, y después su combinación en un cuestionario. |
+| [Diseñar un cuestionario](design-questionnaires.md)  | Este artículo ofrece información sobre el procedimiento el diseño de un cuestionario. El proceso de diseño implica la configuración de requisitos previos, respuestas y preguntas, y después su combinación en un cuestionario. |
 | [Distribuir y completar un cuestionario](distribute-questionnaires.md)  | Este artículo proporciona información acerca de cómo distribuir un cuestionario a los encuestados y cómo completar cuestionarios.                                                                       |
 | [Ver y evaluar los resultados de un cuestionario](evaluate-questionnaire-results.md) | Este artículo ofrece información sobre cómo ver y evaluar los resultados de los cuestionarios completados.                                                                                        |
 
@@ -58,5 +57,4 @@ En la siguiente tabla se proporcionan vínculos a información sobre cómo usar 
 [Distribuir y completar cuestionarios](distribute-questionnaires.md)
 
 [Visualización y evaluación de los resultados de cuestionarios](evaluate-questionnaire-results.md)
-
 

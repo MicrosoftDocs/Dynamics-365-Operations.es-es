@@ -1,13 +1,13 @@
---- 
+---
 title: Crear una plantilla de factura de servicios
-description: "Este procedimiento demuestra cómo crear una plantilla de la factura de servicios."
+description: Este procedimiento demuestra cómo crear una plantilla de la factura de servicios.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 05/29/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 91f2ec2f8ab21616c6a1b886ee89d6faf84023e4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f69505f0c6137121cae92d42d052b244326c8436
-ms.openlocfilehash: 9b7ce8ba180f67c4a52439f4e03b59f07a71323d
-ms.contentlocale: es-es
-ms.lasthandoff: 06/28/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310792"
 ---
 # <a name="create-a-free-text-invoice-template"></a>Crear una plantilla de factura de servicios
 
@@ -68,4 +68,3 @@ Para este tutorial, utilice la empresa de demostración USMF. Este procedimiento
 
 ## <a name="save-a-free-text-invoice-as-a-template"></a>Guardar una factura de servicios como una plantilla
 También puede guardar una factura de servicios existente como una plantilla. Al seleccionar Guardar en plantilla desde la pestaña Factura, especifique un nombre y una descripción para la plantilla. Si ya existe una plantilla con el nombre, verá una notificación de que ya existe una plantilla con ese nombre. Todavía puede hacer clic en Aceptar para reemplazarla. 
-

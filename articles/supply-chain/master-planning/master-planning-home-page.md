@@ -1,32 +1,31 @@
 ---
-title: "Página principal de planificación maestra"
-description: "La planificación maestra permite a las empresas determinar y establecer la necesidad futura de materias primas y la capacidad para cumplir los objetivos de la empresa."
+title: Página principal de planificación maestra
+description: La planificación maestra permite a las empresas determinar y establecer la necesidad futura de materias primas y la capacidad para cumplir los objetivos de la empresa.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 12/03/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 99c10649d7683265fcac86c1825c5a965bbdb415
 ms.openlocfilehash: 1a294327149cf46202fed8b63377ee77f13c11d5
-ms.contentlocale: es-es
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314794"
 ---
-
 # <a name="master-planning-home-page"></a>Página principal de planificación maestra
 
 [!include [banner](../includes/banner.md)]
@@ -44,7 +43,7 @@ Los tres procesos de planificación principales son:
 
 -  **Planificación de previsión** - La programación de previsiones calcula los requisitos brutos. Se basa en las proyecciones futuras (o previsiones) y permite a las empresas realizar la planificación a largo plazo de la capacidad y los materiales. Para obtener más información consulte [Planificación de previsión](introduction-demand-forecasting.md). 
 
--  **Planificación maestra de empresas vinculadas** - El plan maestro de empresas vinculadas calcula los requisitos netos para todas las entidades jurídicas. Conecta la oferta y la demanda entre las empresas no solo para la oferta y la demanda a corto plazo y en firme, sino también para la oferta y la demanda a largo plazo y planificada (que aún no es en firme). Para obtener más información, consulte [Planificación maestra de empresas vinculadas](https://mbspartner.microsoft.com/AX/CourseOverview/1276)  (eLearning) (requiere la cuenta de CustomerSource). 
+-  **Planificación maestra de empresas vinculadas** - El plan maestro de empresas vinculadas calcula los requisitos netos para todas las entidades jurídicas. Conecta la oferta y la demanda entre las empresas no solo para la oferta y la demanda a corto plazo y en firme, sino también para la oferta y la demanda a largo plazo y planificada (que aún no es en firme). Para obtener más información, consulte [Planificación maestra de empresas vinculadas](https://mbspartner.microsoft.com/AX/CourseOverview/1276) (eLearning) (requiere la cuenta de CustomerSource). 
 
 Las empresas pueden cambiar la salida del plan. Pueden ejecutar un cambio neto regenerador, o ambos. Los planes regeneradores actualizan todos los requisitos, mientras que los planes de cambio neto solo actualizan el plan en los artículos con nuevos requisitos que han llegado desde la última ejecución.
 
@@ -72,7 +71,7 @@ El siguiente mapa de aprendizaje muestra los conceptos y tareas principales que 
 Consulte la [Guía básica de Microsoft Dynamics 365](https://roadmap.dynamics.com/) para ver qué características nuevas hemos lanzado y cuáles están en desarrollo.
 
 ### <a name="blogs"></a>Blogs
-Puede encontrar opiniones, novedades y otra información acerca de la planificación maestra y otras soluciones en el [blog del equipo de I+D y fabricación de Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) y el [blog del equipo de I+D de administración de cadenas de suministros en Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm).
+Puede encontrar opiniones, novedades y otra información acerca de la planificación maestra y otras soluciones en el [blog del equipo de I+D y fabricación de Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) y el [blog del equipo de I+D de Supply Chain Management en Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm).
 
 ### <a name="task-guides"></a>Guías de tareas
 Hay ayuda adicional disponible como guías de tareas en Finance and Operations. Para tener acceso a las guías de tareas, haga clic en el botón **Ayuda** en cualquier página.
@@ -84,7 +83,6 @@ Hay ayuda adicional disponible como guías de tareas en Finance and Operations. 
 -  [Amplíe la funcionalidad de previsión de demanda](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
 -  [Planificación maestra: trucos y sugerencias para solucionar problemas de rendimiento](https://youtu.be/7v8BPmEs9Dg)
 -  [! ¡Ayuda ¡La planificación maestra es lenta!](https://youtu.be/RLXybx20B5o)
-
 
 
 

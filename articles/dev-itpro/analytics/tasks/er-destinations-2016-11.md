@@ -1,13 +1,13 @@
---- 
+---
 title: ER Configurar destinos
-description: "Este procedimiento muestra cómo configurar y usar diferentes destinos para componentes de salida de informes electrónicos, como una carpeta o un archivo."
+description: Este procedimiento muestra cómo configurar y usar diferentes destinos para componentes de salida de informes electrónicos, como una carpeta o un archivo.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERFormatDestinationTable, SysLookupPicklist, ERFormatDestinationSettings, ERFormatDestinationEmailSettings, ERExpressionDesignerFormula, SRSPrintDestinationTokens
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 83c6b8db609b83f94b51800616976eb9ce08d79b
-ms.contentlocale: es-es
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309872"
 ---
 # <a name="er-configure-destinations"></a>ER Configurar destinos
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 09/14/2018
 
 Este procedimiento muestra cómo configurar y usar diferentes destinos para componentes de salida de informes electrónicos, como una carpeta o un archivo. La empresa de datos de demostración utilizada para crear este procedimiento es DEMF. Alemania es el país o región de la dirección principal de la entidad jurídica. Sin embargo, puede usar cualquier entidad jurídica para este procedimiento. 
 
-El formato que se usa en este ejemplo es ISO20022 Transferencia de crédito, pero puede usar cualquier formato que ya haya importado. Tenga en cuenta que este procedimiento es un ejemplo de una configuración de destino y archivo único. Encontrará más información acerca de la gestión de destinos de informes electrónicos en Ayuda de Dynamics 365 for Finance and Operations.
+El formato que se usa en este ejemplo es ISO20022 Transferencia de crédito, pero puede usar cualquier formato que ya haya importado. Tenga en cuenta que este procedimiento es un ejemplo de una configuración de destino y archivo único. Encontrará más información acerca de la gestión de destinos de informes electrónicos en la Ayuda de Dynamics 365 for Finance and Operations.
 
 1. Vaya a Administración de la organización > Informes electrónicos > Destino de informes electrónicos.
 2. Haga clic en Nuevo para crear un nuevo conjunto de destinos para un formato.
@@ -60,5 +60,4 @@ El formato que se usa en este ejemplo es ISO20022 Transferencia de crédito, per
 20. Haga clic en Aceptar
 21. En el campo Asunto, escriba un valor.
 22. Haga clic en Aceptar
-
 

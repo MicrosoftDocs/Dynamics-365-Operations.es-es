@@ -1,14 +1,14 @@
 ---
-title: "Configuración de administrador en Attract"
-description: "Este tema explica cómo habilitar la funcionalidad de la función para las organizaciones y los usuarios de Attract."
-author: 
+title: Configuración de administrador en Attract
+description: Este tema explica cómo habilitar la funcionalidad de la función para las organizaciones y los usuarios de Attract.
+author: ''
 manager: AnnBe
 ms.date: 12/07/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
 ms.openlocfilehash: fb7b5e5b98ddb8e0e44fccbb0ddbb05199265414
-ms.contentlocale: es-es
-ms.lasthandoff: 12/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306095"
 ---
-
 # <a name="admin-settings-in-attract"></a>Configuración de administrador en Attract
 [!include[banner](../includes/banner.md)]
 
@@ -69,4 +68,3 @@ También puede configurar las opciones relacionadas con la experiencia del candi
 También puede establecer y aplicar una fecha de vencimiento para las propuestas. Si establece la opción **Requerir una fecha de vencimiento para todas las ofertas** en **Sí**, las propuestas expiran tras el número de horas o de días que especifique.
 
 Para obtener más información acerca de la administración de propuestas, consulte [Configuración de la gestión de ofertas](./offer-setup.md).
-

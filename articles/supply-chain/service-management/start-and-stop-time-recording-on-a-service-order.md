@@ -5,27 +5,26 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 05/07/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 16d9f48ed38a5033fab94d45821f0ed6f7f1f011
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: ba962dddcdda4d772dd7e6c08f7adb326be21271
-ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321556"
 ---
-
 # <a name="start-and-stop-time-recording-on-a-service-order"></a>Iniciar y detener registro de horas en un pedido de servicio 
 
 [!include [banner](../includes/banner.md)]
@@ -64,6 +63,5 @@ Use este procedimiento para iniciar o detener el registro de horas de un pedido 
 [Detener registro de horas del acuerdo de nivel de servicio (formulario)](https://technet.microsoft.com/en-us/library/hh242241\(v=ax.60\))
 
   
-
 
 

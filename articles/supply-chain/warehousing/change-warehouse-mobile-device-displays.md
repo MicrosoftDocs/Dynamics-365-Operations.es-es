@@ -1,13 +1,13 @@
 ---
-title: "Configuración de visualización del dispositivo móvil del almacén"
-description: "Este artículo describe cómo configurar el aspecto de una visualización del dispositivo móvil y cómo asignar teclas de método abreviado a controles, como botones."
+title: Configuración de visualización del dispositivo móvil del almacén
+description: Este artículo describe cómo configurar el aspecto de una visualización del dispositivo móvil y cómo asignar teclas de método abreviado a controles, como botones.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFColor, WHSRFColorPicker, WHSWorkUserDisplaySettings
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 16f332da00d2230ecb4cebc526b6456314564e55
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: a1413337888c8e2da95e33ebee6528f228ad3972
-ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328042"
 ---
-
 # <a name="warehouse-mobile-device-display-settings"></a>Configuración de visualización del dispositivo móvil del almacén
 
 [!include [banner](../includes/banner.md)]
@@ -87,7 +86,7 @@ Puede usar la página**Colores de texto del dispositivo móvil** para controlar 
 Para seleccionar el color, en la página **Seleccionar color**, haga clic en la paleta o escriba un código de color hexadecimal.
 
 ## <a name="define-the-date-format-to-use-on-mobile-devices"></a>Definir el formato de fecha para usar en los dispositivos móviles
-Puede ampliar la lista de formatos de fecha aceptados para cada instalación. Esta capacidad puede resultar útil si, por ejemplo, desea proporcionar un formato que haga más fácil al trabajador la especificación de fechas en un dispositivo móvil. El formato predeterminado viene determinado por el idioma predeterminado del usuario, que se especifica en el campo **Opciones de usuario** de la página **Idioma**. (La misma página también se usa para asociar a un empleado con un usuario específico de trabajo de almacén). **Nota:** El portal de dispositivos móviles de almacén no usa el valor del campo **Formato de fecha y hora de número** en la página **Preferencia de idiomas y región**. Para cambiar un formato de fecha, debe estar familiarizado con expresiones regulares en .NET Framework de Microsoft. Para obtener más información, consulte [Expresiones regulares de .Net Framework](http://go.microsoft.com/fwlink/?LinkId=391260). Para definir formatos de fecha, edite el archivo Dates.ini que se encuentra en Content\\Settings\\Dates.ini en el servidor del portal de dispositivos móviles de almacén. Este archivo usa expresiones regulares de .NET para especificar el formato de fecha. La expresión regular debe contener las subexpresiones que crean grupos denominados por día, mes y año (DDMMYY), tal y como se muestra en el siguiente ejemplo:
+Puede ampliar la lista de formatos de fecha aceptados para cada instalación. Esta capacidad puede resultar útil si, por ejemplo, desea proporcionar un formato que haga más fácil al trabajador la especificación de fechas en un dispositivo móvil. El formato predeterminado viene determinado por el idioma predeterminado del usuario, que se especifica en el campo **Opciones de usuario** de la página **Idioma**. (La misma página también se usa para asociar a un empleado con un usuario específico de trabajo de almacén). **Nota:** El portal de dispositivos móviles de almacén no usa el valor del campo **Formato de fecha y hora de número** en la página **Preferencia de idiomas y región**. Para cambiar un formato de fecha, debe estar familiarizado con expresiones regulares en Microsoft .NET Framework. Para obtener más información, consulte [Expresiones regulares de .Net Framework](http://go.microsoft.com/fwlink/?LinkId=391260). Para definir formatos de fecha, edite el archivo Dates.ini que se encuentra en Content\\Settings\\Dates.ini en el servidor del portal de dispositivos móviles de almacén. Este archivo usa expresiones regulares de .NET para especificar el formato de fecha. La expresión regular debe contener las subexpresiones que crean grupos denominados por día, mes y año (DDMMYY), tal y como se muestra en el siguiente ejemplo:
 
 ^(?&lt;día&gt;\\d{2})(?&lt;mes&gt;\\d{2})(?&lt;año&gt;\\d{2})$
 
@@ -101,7 +100,6 @@ Puede especificar más de una expresión en el mismo archivo. Cada expresión de
 --------
 
 [Configuración de dispositivos móviles del trabajo de almacén](configure-mobile-devices-warehouse.md)
-
 
 
 

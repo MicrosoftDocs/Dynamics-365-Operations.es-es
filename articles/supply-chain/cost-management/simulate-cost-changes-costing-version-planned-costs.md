@@ -1,13 +1,13 @@
 ---
-title: "Simular cambios de coste mediante una versión de gestión de costes para costes planificados"
-description: "Este artículo explica cómo puede simular los efectos de los cambios de coste en los costes calculados de un artículo fabricado con una versión de gestión de costes independiente para los costes planificados."
+title: Simular cambios de coste mediante una versión de gestión de costes para costes planificados
+description: Este artículo explica cómo puede simular los efectos de los cambios de coste en los costes calculados de un artículo fabricado con una versión de gestión de costes independiente para los costes planificados.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostingVersion
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3ef3cdb2ede2c30609db4addfc10b819629cdc64
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8d5b6354ee8c627014a6da675bb2a7b52db97348
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318888"
 ---
-
 # <a name="simulate-cost-changes-by-using-a-costing-version-for-planned-costs"></a>Simular cambios de coste mediante una versión de gestión de costes para costes planificados
 
 [!include [banner](../includes/banner.md)]
@@ -57,7 +56,6 @@ En los casos siguientes se muestra cómo se usa la versión de gestión de coste
 -   Simule el cambio de coste de una fórmula de cálculo de coste indirecto. Por ejemplo, el cambio de coste podría reflejar un aumento o disminución esperados de los gastos generales de fabricación. Si desea definir el cambio en una fórmula de cálculo de coste indirecto, use la página **Configuración de la hoja de gestión de costes** para especificar un registro de coste pendiente en la versión de gestión de costes de simulación, y validar y guardar el cambio.
 
 Tras especificar los cambios de coste simulados, calcule los costes de los artículos fabricados que se verán afectados por dichos cambios. Use la página **Cálculo** para la versión de gestión de costes de simulación e identifique los artículos fabricados seleccionados que se verán afectados por los cambios de coste. Los cálculos de L. MAT se aplicarán a todos los artículos fabricados, salvo que seleccione artículos seleccionados. Como alternativa, puede usar la opción de cálculo de L. MAT para las actualizaciones de tipo "Utilizado en". Visualice los registros de coste de artículo dentro de la versión de gestión de costes de simulación para analizar cómo los cambios de coste simulados afectaron a los costes de los artículos fabricados seleccionados. Use las páginas **Precio de artículo** y **Calcular coste del artículo** para ver y analizar los costes.
-
 
 
 

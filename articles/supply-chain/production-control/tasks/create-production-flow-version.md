@@ -1,13 +1,13 @@
---- 
-title: "Crear una versión de flujo de producción"
-description: "Este procedimiento se centra en crear una nueva versión de flujo de producción."
+---
+title: Crear una versión de flujo de producción
+description: Este procedimiento se centra en crear una nueva versión de flujo de producción.
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9a76e5bb6f63f793e4644c2ccf70cef21785ff10
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8903e618a35e66742b5c2ebcb5b6f0da3853fcaf
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320682"
 ---
 # <a name="create-a-production-flow-version"></a>Crear una versión de flujo de producción
 
@@ -63,5 +63,4 @@ Este procedimiento se centra en crear una nueva versión de flujo de producción
 12. Escriba un número en el campo Período para tiempo de ciclo real (días).
     * Escriba un número de días en el período para tiempo de ciclo real. El período para el tiempo de ciclo real es el número de días que los trabajos se agregan a partir del minuto real y hacia atrás, para calcular el tiempo de ciclo real. El valor se puede cambiar en cualquier momento y solo se usa para calcular los tiempos de ciclo reales.  
 13. Haga clic en Guardar.
-
 

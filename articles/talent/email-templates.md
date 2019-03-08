@@ -1,14 +1,14 @@
 ---
-title: "Plantillas de correo electrónico"
-description: "Este tema proporciona información acerca de las plantillas de correo electrónico que puede crear y usar en Microsoft Dynamics 365 for Talent - Attract."
+title: Plantillas de correo electrónico
+description: Este tema proporciona información acerca de las plantillas de correo electrónico que puede crear y usar en Microsoft Dynamics 365 for Talent - Attract.
 author: josaw
 manager: AnnBe
 ms.date: 10/19/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 8166047a768c47219855c55a1008f3dd24cd5344
 ms.openlocfilehash: e02912ad242186fe3e2dd8d7a4cc7312aec6015e
-ms.contentlocale: es-es
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306149"
 ---
-
 # <a name="email-templates"></a>Plantillas de correo electrónico
 [!include[banner](../includes/banner.md)]
 
@@ -81,4 +80,3 @@ Cuando el equipo de contratación envía un mensaje de correo electrónico, pued
 
 > [!NOTE] 
 > Para los mensajes de correo electrónico que se envían automáticamente, se pueden crear varias plantillas. Sin embargo, solo una plantilla se puede definir como plantilla activa. Dado que este proceso se activa mediante eventos, solo el administrador puede determinar qué plantilla se debe usar, en función de la combinación de tarjetas **Predeterminado** y **Enviado automáticamente** de la biblioteca de plantillas.
-

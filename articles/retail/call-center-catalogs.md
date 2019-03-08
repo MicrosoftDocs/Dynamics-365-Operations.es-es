@@ -1,13 +1,13 @@
 ---
-title: "Catálogos de centros de llamadas"
-description: "Este tema describe la funcionalidad específica del centro de llamadas para catálogos en Microsoft Dynamics 365 for Retail."
+title: Catálogos de centros de llamadas
+description: Este tema describe la funcionalidad específica del centro de llamadas para catálogos en Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 05/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, RetailCatalogDetails
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 65c1c3070aa48bf7a2016534071693716fabe831
-ms.contentlocale: es-es
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322752"
 ---
-
 # <a name="call-center-catalogs"></a>Catálogos de centros de llamadas
 
 [!include [banner](includes/banner.md)]
@@ -35,7 +34,7 @@ Este tema describe la funcionalidad específica del centro de llamadas vinculada
 
 Las características del catálogo que se encuentran en Dynamics 365 for Retail se pueden utilizar para varios propósitos. Las características del catálogo se crearon inicialmente para admitir las integraciones de comercio electrónico de terceros. La configuración del catálogo permitieron a las empresas crear una agrupación de productos y atributos que se podrían publicar externamente para su consumo por una solución de comercio electrónico de terceros.
 
-Cuando el soporte del canal de centro de llamadas se agregó a Dynamics 365 for Retail, el concepto del catálogo se amplió para agregar capacidades adicionales para admitir y gestionar características relacionadas con catálogos tradicionales de marketing de directo a consumidor. Una empresa de directo a consumidor mostrará a menudo catálogos impresos, que se registran en uno o más segmentos de clientes. Normalmente, estos catálogos tendrán promociones u ofertas específicas que solo se aplicarán si el cliente proporciona un código de identificación del catálogo en el momento de la creación de pedidos.
+Cuando el soporte del canal de centro de llamadas se agregó Dynamics 365 for Retail, el concepto del catálogo se amplió para agregar capacidades adicionales para admitir y gestionar características relacionadas con catálogos tradicionales de marketing de directo a consumidor. Una empresa de directo a consumidor mostrará a menudo catálogos impresos, que se registran en uno o más segmentos de clientes. Normalmente, estos catálogos tendrán promociones u ofertas específicas que solo se aplicarán si el cliente proporciona un código de identificación del catálogo en el momento de la creación de pedidos.
 
 La empresas de marketing de directo a consumidor se centran mucho en realizar un seguimiento de la respuesta a estos catálogos para garantizar que se justifican los costes de producción y envío por correo electrónico. Para realizar un seguimiento de la respuesta, se imprime tradicionalmente un código en la parte trasera del catálogo y luego este código se solicita y se aplica cuando el destinatario del catálogo llama para realizar un pedido por teléfono (o ahora, más tradicionalmente, el código se puede introducir cuando el cliente realiza un pedido en línea). Si bien existen diferentes términos del sector que se han utilizado para identificar este código de seguimiento del catálogo (incluido el código de clave, el código de promoción, el código del catálogo, el código de origen), nos referimos al código en Dynamics 365 for Retail como el **Identificador del código de origen**.
 
@@ -102,4 +101,3 @@ En la pestaña **Catálogos**, también están disponibles opciones para configu
 ## <a name="additional-notes"></a>Notas adicionales
 
 Actualmente, cuando un identificador de código de origen se aplica a un pedido de ventas en el centro de llamadas, se utiliza para generar precios, promociones, secuencias de comandos y ventas verticales/cruzadas que son específicas del catálogo. El sistema no prohibirá ni evitará pedir un producto del pedido de ventas que no se encuentre en el catálogo. Si se pide un artículo que no forme parte del catálogo, el sistema utilizará primero el **Grupo de precios** que se define en el canal del centro de llamadas (**Retail** \> **Canales** \> **Centros de llamadas** \> **Todos los centros de llamadas**) para el precio o las promociones del artículo. Si no se encuentra ningún precio específico del canal, se empleará el precio de venta base del artículo.
-

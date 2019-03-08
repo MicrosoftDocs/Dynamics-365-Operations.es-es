@@ -1,13 +1,13 @@
---- 
-title: "Creación de un movimiento de diario mediante una plantilla"
+---
+title: Creación de un movimiento de diario mediante una plantilla
 description: Los asientos del diario registrados se pueden guardar como plantillas de asientos y aplicarse en un nuevo asiento del diario.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransDaily, LedgerJournalTransVoucherTemplate
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 4a749740b62e39202d502a112f947679f85ca085
-ms.contentlocale: es-es
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316818"
 ---
 # <a name="create-a-journal-entry-using-template"></a>Creación de un movimiento de diario mediante una plantilla
 
@@ -63,5 +63,4 @@ Los asientos del diario registrados se pueden guardar como plantillas de asiento
 29. En el campo Importe, especifique el importe que se aplicará el asiento.
     * El campo de importe solo se muestra si la plantilla de asientos es del tipo Porcentaje.  
 30. Haga clic en Aceptar
-
 

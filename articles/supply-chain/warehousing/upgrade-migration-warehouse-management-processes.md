@@ -1,13 +1,13 @@
 ---
-title: "Actualizar la gestión de almacenes de Microsoft Dynamics AX 2012 a Finance and Operations"
-description: "En este tema se proporciona una visión general de las opciones de la migración de la gestión de productos y almacenes."
+title: Actualizar los procesos de gestión de almacenes de Microsoft Dynamics AX 2012 a Finance and Operations
+description: En este tema se proporciona una visión general de las opciones de la migración de la gestión de productos y almacenes.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventLocationWHSProcessEnablement, WHSLocationProfile, InventTableStorageDimensionGroupChange, InventUpdateBlockedItem, WHSParameters, WHSReservationHierarchy, WHSUOMSeqGroupTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,26 +18,25 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 768d0bd16a41a3458b25606b74d606318d176ff0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: e0ff3a22b89ce22096198d2e1dd1ea9ed10239a9
-ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324477"
 ---
-
-# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-finance-and-operations"></a>Actualizar la gestión de almacenes de Microsoft Dynamics AX 2012 a Finance and Operations
+# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-finance-and-operations"></a>Actualizar los procesos de gestión de almacenes de Microsoft Dynamics AX 2012 a Finance and Operations
 
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona una visión general del proceso de actualización de Microsoft Dynamics AX 2012 R3, que ejecuta el módulo WMSII, a Microsoft Dynamics 365 for Finance and Operations.
+Este tema proporciona una visión general del proceso de actualización de Microsoft Dynamics AX 2012 R3, que ejecuta el módulo de WMSII, a Microsoft Dynamics 365 for Finance and Operations.
 
 Finance and Operations ya no admite el antiguo módulo **WMSII** de Microsoft Dynamics AX 2012. En su lugar, puede utilizar el módulo **Gestión de almacenes** . En el módulo WMSII, las dimensiones de inventario Ubicación e Id. de palet se podían seleccionar para el inventario financiero; sin embargo, la dimensión de inventario Id. de palet no se puede usar para un inventario financiero en Finance and Operations.
 
 Durante una actualización se identifican todos los productos asociados a un grupo de dimensiones de almacenamiento que utilice la dimensión de inventario Id. de pallet, se marcan como bloqueados y no se procesan para la actualización.
 
-## <a name="upgrading-to-finance-and-operations-when-ax-2012-r3-wmsii-is-used"></a>Actualización de Finance and Operations cuando se utiliza AX 2012 R3 WMSII
+## <a name="upgrading-to-finance-and-operations-when-ax-2012-r3-wmsii-is-used"></a>Actualización a Finance and Operations cuando se utiliza AX 2012 R3 WMSII
 Después de la actualización, puede usar un conjunto de opciones de migración en el proceso **Cambiar grupo de dimensiones de almacenamiento para artículos** para desbloquear los productos bloqueados durante la actualización y después procesar transacciones para estos productos.
 
 ### <a name="enabling-items-in-finance-and-operations"></a>Habilitación de artículos en Finance and Operations
@@ -84,4 +83,3 @@ Para poder usar los productos emitidos en el módulo **Gestión de almacenes**, 
 6.  En la página **Cambiar grupo de dimensiones de almacenamiento para artículos**, agregue los números de artículo, los grupos de dimensiones de almacenamiento y los grupos de secuencias de unidades. Puede completar este paso directamente en la página, mediante la integración de Microsoft Office, o mediante el proceso de entidades de datos en [Administración de datos](../../dev-itpro/data-entities/data-entities.md).
 7.  Valide los cambios. Como parte del proceso de validación se producen varias validaciones de la integridad de datos. Como parte de un proceso de actualización mayor, es posible que los problemas que aparezcan tengan que ajustarse en la implementación de origen. En este caso, será necesaria otra actualización de datos.
 8.  Procese los cambios. Una actualización de todas las dimensiones de inventario puede tardar. Puede controlar el progreso mediante las tareas de los trabajos por lotes.
-

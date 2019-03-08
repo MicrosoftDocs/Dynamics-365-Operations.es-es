@@ -1,13 +1,13 @@
 ---
-title: "Configuración de cuentas de proveedor"
-description: "Este tema describe los tipos de información que debe especificar al crear una nueva cuenta de proveedor."
+title: Configuración de cuentas de proveedor
+description: Este tema describe los tipos de información que debe especificar al crear una nueva cuenta de proveedor.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: smmContactPerson, VendBankAccounts, VendTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7653b01a8d5b80d3026a04d9979906d9ddae5d27
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4a20fca7420e7bd546e29278b40046d69a81aac6
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329146"
 ---
-
 # <a name="set-up-vendor-accounts"></a>Configuración de cuentas de proveedor
 
 [!include [banner](../includes/banner.md)]
@@ -61,7 +60,7 @@ Puede almacenar contactos para un proveedor. Estos contactos se pueden utilizar 
 
 Para agregar contactos para un proveedor, en la página **Todos los proveedores**, en la pestaña **Proveedor**, en el grupo **Configurar**, haga clic en **Contactos** &gt; **Agregar contactos**.  
 
-Puede crear contactos de proveedor desde cero. Como alternativa, puede copiar los detalles de otra persona que ya está registrada en Microsoft Dynamics 365 for Finance and Operations y editar la información según sea necesario.  
+Puede crear contactos de proveedor desde cero. Como alternativa, puede copiar detalles de otra persona que ya está registrada en Microsoft Dynamics 365 for Finance and Operations y editar la información según sea necesario.  
 
 **Nota:** Agregar un contacto para un proveedor no es lo mismo que agregar información de contacto para ese proveedor. Aunque es posible agregar información de contacto general para un proveedor, es posible que también tenga varias personas determinadas que sean contactos en esa empresa y que todas ellas tengan su propia información de contacto.  
 
@@ -116,7 +115,6 @@ Si debe realizar pagos en una cuenta bancaria de proveedor, puede especificar in
 Puede especificar las cuentas predeterminadas que aparecen automáticamente en los diarios de facturas de proveedor para el proveedor especificado. Esta funcionalidad puede ser de utilidad si paga normalmente los mismos tipos de elementos o servicios de los mismos proveedores en el transcurso del tiempo. Al especificar una cuenta predeterminada, puede especificar de forma rápida y eficaz entradas de diario en el diario de facturas. Las cuentas predeterminadas que especifica no se usan para los pedidos de ventas o para facturas de proveedor que se especifican en la página **Factura de proveedor**.  
 
 Puede seleccionar cuentas predeterminadas en la página **Configuración de cuenta predeterminada**, que puede abrir en la pestaña **Factura** del registro de proveedor. Las cuentas que selecciona aquí aparecen en la lista filtrada de cuentas para la cuenta de proveedor cuando especifica una entrada de diario. Puede establecer una de las cuentas como cuenta predeterminada.
-
 
 
 

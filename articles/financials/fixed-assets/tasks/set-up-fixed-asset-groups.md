@@ -1,13 +1,13 @@
---- 
+---
 title: Configurar grupos de activos fijos
-description: "Este procedimiento muestra cómo crear un nuevo grupo de activos fijos."
+description: Este procedimiento muestra cómo crear un nuevo grupo de activos fijos.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetGroup, AssetGroupBookSetup
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 48784ef4eb12a4a1cae3387e3a45afdf34f2a0fd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c44ce1219c0fc860d621aa32c8eec7c5d640fa03
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321809"
 ---
 # <a name="set-up-fixed-asset-groups"></a>Configurar grupos de activos fijos
 
@@ -41,5 +41,4 @@ Este procedimiento muestra cómo crear un nuevo grupo de activos fijos. Usa el r
     * Tenga en cuenta que el valor del campo Períodos de depreciación se calcula después de definir el tiempo de vida.  
 8. En el campo Convención de amortizaciones, seleccione una opción.
 9. Cierre la página.
-
 

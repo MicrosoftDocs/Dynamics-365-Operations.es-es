@@ -1,31 +1,30 @@
 ---
 title: Tareas de servicio
-description: "Utilice tareas de servicios para describir la tarea que hay que realizar durante un pedido de servicio. Tanto técnicos como clientes pueden ver esta información."
+description: Utilice tareas de servicios para describir la tarea que hay que realizar durante un pedido de servicio. Tanto técnicos como clientes pueden ver esta información.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 02/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServiceTask
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f2538a7b4a4c13a299afb37dd336f2f5d6f36a23
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 221b9dae7e83e7f4a535ac60f2a2011533d7861c
-ms.openlocfilehash: de180a1258bbfb95acbfd0985cb91c88efc320f2
-ms.contentlocale: es-es
-ms.lasthandoff: 02/21/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308607"
 ---
-
 # <a name="service-tasks"></a>Tareas de servicio  
 
 [!include [banner](../includes/banner.md)]
@@ -89,6 +88,5 @@ Al crear pedidos de servicio automáticamente, puede usar las tareas de servicio
 
 1. Haga clic en **Gestión de servicio** \> **Común** \> **Contratos de servicio** \> **Contratos de servicio**.
 2. En la pestaña **Configuración**, seleccione **Por tarea de servicio** en el campo **Combinar pedidos de servicio** .
-
 
 

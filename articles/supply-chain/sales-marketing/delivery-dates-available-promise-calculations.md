@@ -1,13 +1,13 @@
 ---
 title: Compromisos de pedidos
-description: "En este artículo se proporciona información acerca de los compromisos de entrega. Los compromisos de entrega le ayuda a comprometer fechas de entrega de manera confiable a sus clientes y le ofrecen flexibilidad para que pueda cumplir esas fechas."
+description: En este artículo se proporciona información acerca de los compromisos de entrega. Los compromisos de entrega le ayuda a comprometer fechas de entrega de manera confiable a sus clientes y le ofrecen flexibilidad para que pueda cumplir esas fechas.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesATP, SalesAvailableDlvDates
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ad70e94521fdb8c6d3f9a76a84aa9da5759fcf89
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 039bc5c572d204d9fa3e10a9f33cb4f4eb00b31c
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312356"
 ---
-
 # <a name="order-promising"></a>Compromisos de pedidos
 
 [!include [banner](../includes/banner.md)]
@@ -71,7 +70,6 @@ Se crea una línea de pedido de ventas para el producto y se especifica **150** 
 Dado que el control de fecha de entrega es el método NNC, se calculan los datos de NNC para buscar la fecha de envío más temprana posible. De acuerdo con los parámetros, se consideran el pedido de compra y el pedido de ventas retrasados, y la cantidad resultante de NNC para la fecha actual es 0. Mañana, cuando se espera recibir el pedido de compra retrasado, la cantidad de NNC se calcula como más de 0 (en este caso, se calcula como 125). Sin embargo, 10 días de ahora en adelante, cuando se espera que se reciba el pedido de compra adicional de 100 piezas, la cantidad de NNC se convierte en más de 150.  
 
 Por lo tanto, la fecha de envío se establece en 10 días a partir de ahora, según el cálculo de NNC. Por consiguiente, comenta al cliente que la cantidad pedida se puede entregar en 10 días.
-
 
 
 

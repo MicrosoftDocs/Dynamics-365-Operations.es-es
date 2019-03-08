@@ -1,13 +1,13 @@
---- 
-title: "Configuración de modelos de valor"
-description: "Este procedimiento muestra cómo crear un nuevo libro de activos fijos y asociarlo con un grupo de activos fijos."
+---
+title: Configuración de modelos de valor
+description: Este procedimiento muestra cómo crear un nuevo libro de activos fijos y asociarlo con un grupo de activos fijos.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetBookTable, AssetGroupBookSetup
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: e067173b27488422fd05ad45f37528f00f04a2bd
-ms.contentlocale: es-es
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311804"
 ---
 # <a name="set-up-value-models"></a>Configuración de modelos de valor
 
@@ -53,5 +53,4 @@ Este procedimiento muestra cómo crear un nuevo libro de activos fijos y asociar
 3. En el campo Tiempo de vida, especifique un número.
     * Tenga en cuenta que los Períodos de depreciación se calculan después de definir el tiempo de vida.  
     * Puede establecer la convención de depreciación según sea necesario para fines de impuestos.  
-
 

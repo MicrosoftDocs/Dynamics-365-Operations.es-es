@@ -1,13 +1,13 @@
 ---
-title: "Registro para ejecución de fabricación"
-description: "En este tema se describen los conceptos y los términos clave que necesita comprender para configurar y usar la ejecución de fabricación."
+title: Registro para ejecución de fabricación
+description: En este tema se describen los conceptos y los términos clave que necesita comprender para configurar y usar la ejecución de fabricación.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgRegistration
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1bbcd7ebea869f921c2eadd05e64509ff9246aa4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e5d4ee2fb1cd58107043939c3721fd857909f16b
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318175"
 ---
-
 # <a name="registration-for-manufacturing-execution"></a>Registro para ejecución de fabricación
 
 [!include [banner](../includes/banner.md)]
@@ -59,7 +58,6 @@ Los trabajadores pueden realizar diferentes tipos de registros de la ejecución 
 -   **Registro de descansos** (disponible con tiempo y asistencia): durante los días laborables, los trabajadores pueden registrar su salida de la estación de trabajo para descansos. Pueden configurarse varios tipos de descanso. Cuando un trabajador vuelve e inicia sesión de nuevo, el sistema registra que el trabajador ha vuelto y se detiene el registro de descanso.
 -   **Registro en actividades indirectas** (disponible con tiempo y asistencia): las actividades indirectas son actividades no productivas que puede realizar un trabajador durante la jornada, como una reunión de departamento, una reunión de equipo o un trabajo de mantenimiento realizado en la planta. Los trabajadores pueden realizar registros en las actividades indirectas configuradas.
 -   **Registro de horas extra** (disponible con tiempo y asistencia): los trabajadores a los que se ha pedido que trabajen más horas pueden seleccionar si las horas extra se deben registrar como horas extra u horario flexible.
-
 
 
 

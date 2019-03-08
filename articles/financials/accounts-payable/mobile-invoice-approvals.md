@@ -1,13 +1,13 @@
 ---
-title: "Aprobaciones de factura móvil"
-description: "Este tema está pensando para proporcionar un método práctico de diseñar escenarios móviles en Dynamics 365 for Finance and Operations con las aprobaciones de facturas de proveedores para aplicaciones móviles como un caso de uso."
+title: Aprobaciones de factura móvil
+description: Este tema está pensando para proporcionar un método práctico de diseñar escenarios móviles en Dynamics 365 for Finance and Operations con las aprobaciones de facturas de proveedores para aplicaciones móviles como un caso de uso.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: e39d81b0d600012f936865b53f8556eb3ef0a3d9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: fc1483285d6ec675637c013af4949b9c7acf92b3
-ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314403"
 ---
-
 # <a name="mobile-invoice-approvals"></a>Aprobaciones de factura móvil
 
 [!include [banner](../includes/banner.md)]
 
-Las capacidades móviles de Microsoft Dynamics 365 for Finance and Operations permiten a un usuario empresarial diseñar experiencias móviles. Para situaciones avanzadas, la plataforma también permite a los desarrolladores ampliar las capacidades como desean. La forma más eficaz de aprender algunos de los conceptos nuevos sobre capacidades móviles es pasar por el proceso de diseño de algunos escenarios. Este tema está pensando para proporcionar un método práctico de diseñar escenarios móviles con las aprobaciones de facturas de proveedores para aplicaciones móviles como un caso de uso. Este tema le ayudará a diseñar otras variaciones de los escenarios y se puede aplicar a otros escenarios que no están relacionados con las facturas de proveedores.
+Las capacidades móviles en Microsoft Dynamics 365 for Finance and Operations permiten a un usuario empresarial diseñar experiencias móviles. Para situaciones avanzadas, la plataforma también permite a los desarrolladores ampliar las capacidades como desean. La forma más eficaz de aprender algunos de los conceptos nuevos sobre capacidades móviles es pasar por el proceso de diseño de algunos escenarios. Este tema está pensando para proporcionar un método práctico de diseñar escenarios móviles con las aprobaciones de facturas de proveedores para aplicaciones móviles como un caso de uso. Este tema le ayudará a diseñar otras variaciones de los escenarios y se puede aplicar a otros escenarios que no están relacionados con las facturas de proveedores.
 
 <a name="prerequisites"></a>Requisitos previos
 -------------
@@ -37,7 +36,7 @@ Las capacidades móviles de Microsoft Dynamics 365 for Finance and Operations pe
 | Requisito previo                                                                                            | Descripción                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Manual sobre capacidades móviles de lectura previa                                                                                |[Plataforma móvil](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
-| Dynamics 365 for Finance and Operations                                                                             | Un entorno que tiene la versión 1611 de Microsoft Dynamics 365 for Operations y la actualización 3 de la plataforma de Microsoft Dynamics for Operations (noviembre de 2016).                   |
+| Dynamics 365 for Finance and Operations                                                                             | Un entorno que tiene la versión 1611 de Microsoft Dynamics 365 for Operations y Microsoft Dynamics for Operations con la actualización de plataforma 3 (noviembre de 2016)                   |
 | Instalar revisión KB 3204341.                                                                              | El grabador de tareas puede registrar de forma errónea dos comandos Close para diálogos desplegables incluidos en la actualización 3 de Dynamics 365 for Operations (noviembre de 2016) |
 | Instalar revisión KB 3207800.                                                                              | Esta revisión habilita los datos adjuntos que se verán en el cliente móvil, lo cual se incluye en la actualización 3 de Dynamics 365 for Operation (noviembre de 2016).           |
 | Instalar revisión KB 3208224.                                                                              | El código de la aplicación para la aplicación de aprobación de facturas de proveedores móviles se incluye en la aplicación 7.0.1 de Microsoft Dynamics AX (mayo de 2016).                          |
@@ -139,7 +138,7 @@ Como orientación general, al trabajar con el diseñador para aplicaciones móvi
 
 La primera página para aplicaciones móviles que debe diseñar es la lista de facturas que se asignan al usuario para revisión. Para diseñar esta página para aplicaciones móviles, use la página **VendMobileInvoiceAssignedToMeListPage** en Finance and Operations. Para completar este procedimiento, asegúrese de que al menos se le asigna una factura de proveedores para revisión, y que la línea de factura tiene dos distribuciones. Esta configuración cumple los requisitos para este supuesto.
 
-1.  En la dirección URL de Finance and Operations, reemplace el nombre del elemento de menú con **VendMobileInvoiceAssignedToMeListPage** para abrir la versión móvil de la página con la lista **Facturas de proveedor pendientes asignadas a mí** en el módulo **Proveedores**. En función del número de facturas que tiene en el sistema asignadas a usted, esta página mostrará dichas facturas. Para buscar una factura específica, utilice el filtro a la izquierda. Sin embargo, no se requiere una factura concreta para este ejemplo. Simplemente se requiere que tenga asignada alguna factura, lo que le permitirá diseñar la página para aplicaciones móviles. Las nuevas páginas disponibles se diseñaron específicamente para desarrollar los escenarios móviles para la factura de proveedor. Por lo tanto, debe usar estas páginas. La dirección debe URL ser similar a la URL siguiente y, después de especificarla, la página que se muestra en la ilustración debe aparecer:https://&lt;yourURL&gt;/?cmp=usmf&mi=**VendMobileInvoiceAssignedToMeListPage**&mode=mobile [![Página de Facturas de proveedor pendientes asignadas a mí](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
+1.  En la dirección URL de Finance and Operations, reemplace el nombre del elemento de menú con **VendMobileInvoiceAssignedToMeListPage** para abrir la versión móvil de la página con la lista **Facturas de proveedor pendientes asignadas a mí** en el módulo **Proveedores**. En función del número de facturas que tiene en el sistema asignadas a usted, esta página mostrará dichas facturas. Para buscar una factura específica, utilice el filtro a la izquierda. Sin embargo, no se requiere una factura concreta para este ejemplo. Simplemente se requiere que tenga asignada alguna factura, lo que le permitirá diseñar la página para aplicaciones móviles. Las nuevas páginas disponibles se diseñaron específicamente para desarrollar los escenarios móviles para la factura de proveedor. Por lo tanto, debe usar estas páginas. La dirección debe URL ser similar a la URL siguiente y, después de especificarla, la página que se muestra en la ilustración debe aparecer: https://&lt;yourURL&gt;/?cmp=usmf&mi=**VendMobileInvoiceAssignedToMeListPage**&mode=mobile [![Página de Facturas de proveedor pendientes asignadas a mí](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
 2.  Haga clic en el botón **Configuración** (engranaje) en la parte superior derecha de la página y, a continuación, haga clic en **Aplicación móvil**
 3.  Seleccione su espacio de trabajo y haga clic en **Editar**
 4.  Haga clic en **Agregar página** para crear la primera página para aplicaciones móviles.
@@ -488,7 +487,6 @@ Las variaciones siguientes se pueden realizar para el escenario 1, en función d
     3.  Por ello, las distribuciones se deben mostrar en el contexto de una línea de factura en este escenario. Por lo tanto, asegúrese de que el usuario puede explorar en una línea para ver la página de las distribuciones. Use la capacidad del vínculo de la página para establecer una búsqueda detallada, tal como hizo para el encabezado y las páginas de detalles en el escenario 1.
 
 2.  Dado que habrá más de un tipo de importe en las distribuciones en el escenario 2 (los impuestos, los gastos, etc.), será útil mostrar la descripción del tipo de importe. (Omitimos esta información en el escenario 1).
-
 
 
 

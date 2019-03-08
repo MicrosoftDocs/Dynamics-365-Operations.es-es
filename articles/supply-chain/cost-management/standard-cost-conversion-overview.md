@@ -1,13 +1,13 @@
 ---
-title: "Visión general de conversión de costes estándares"
-description: "Este artículo proporciona una visión general del proceso para ayudarle a configurar y a ejecutar una conversión de coste estándar. Los pasos mostrados están pensados para completarse una vez se hayan completado los requisitos previos para una conversión de coste estándar."
+title: Visión general de conversión de costes estándares
+description: Este artículo proporciona una visión general del proceso para ayudarle a configurar y a ejecutar una conversión de coste estándar. Los pasos mostrados están pensados para completarse una vez se hayan completado los requisitos previos para una conversión de coste estándar.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostingVersion, InventStdCostConv
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5818bcf55cd7efc2d62f7b382a85653eb8bcbad6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 2985e58bd308295e1f698c391f57fc3d116835bd
-ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313690"
 ---
-
 # <a name="standard-cost-conversion-overview"></a>Visión general de conversión de costes estándares
 
 [!include [banner](../includes/banner.md)]
@@ -100,7 +99,6 @@ El informe **Informe de análisis de desviación** le permite analizar la desvia
 --------
 
 [Requisitos previos para la conversión de costes estándar](prerequisites-standard-cost-conversion.md)
-
 
 
 

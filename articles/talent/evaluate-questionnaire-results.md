@@ -1,13 +1,13 @@
 ---
 title: Ver y evaluar los resultados de cuestionarios
-description: "En este tema se explica cómo se pueden ver y evaluar los resultados de los cuestionarios que los encuestados completan."
+description: En este tema se explica cómo se pueden ver y evaluar los resultados de los cuestionarios que los encuestados completan.
 author: kherr75
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KMCollection, KMKnowledgeCollectorCollection, KMKnowledgeCollectorUserResults
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: 9fd4af5589cfab2a92c913639f1192029eb7c592
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306169"
 ---
-
 # <a name="view-and-evaluate-the-results-of-questionnaires"></a>Ver y evaluar los resultados de cuestionarios
 
 [!include [banner](includes/banner.md)]
@@ -46,7 +45,7 @@ También puede generar diversos informes para ver los resultados ordenados por p
 -   Análisis de realimentación
 
 ## <a name="answer-session-results"></a>Resultados de la sesión de respuestas
-Cuando los encuestados completen un cuestionario, puede ver los resultados de las sesiones de respuestas completadas. Una sesión de respuestas es la respuesta de un usuario a un cuestionario. Puede ver los detalles acerca de las sesiones de respuestas completadas en la página **Respuestas**. Las sesiones de respuestas que se incluyen en la página **Respuestas** se filtran de diversas maneras, en función de cómo abra la página:
+Cuando los encuestados completen un cuestionario, puede ver los resultados de las sesiones de respuestas completadas. Una sesión de respuestas es la respuesta de un usuario a un cuestionario. Puede ver los detalles acerca de las sesiones de respuestas completadas en la página **Respuestas**. Las sesiones de respuestas que se incluyen en la página **Respuestas** se filtran de diversas maneras, en función de cómo abra la página:
 
 -   Todos los cuestionarios
 -   Un cuestionario concreto
@@ -54,9 +53,9 @@ Cuando los encuestados completen un cuestionario, puede ver los resultados de la
 
 En la página **Respuestas**, puede ver los detalles sobre las respuestas, los puntos obtenidos, las respuestas de un encuestado en cada grupo de resultados y la jerarquía de preguntas que se usó en el cuestionario seleccionado, si se usó una jerarquía de preguntas. También puede generar e imprimir los informes siguientes:
 
--   **Informe de resultados**: este informe muestra una representación gráfica de los puntos que se obtuvieron por grupo de resultados para la sesión de respuestas seleccionada.
+-   **Informe de resultados**: este informe muestra una representación gráfica de los puntos que se obtuvieron por grupo de resultados para la sesión de respuestas seleccionada.
 -   **Informe de respuestas**: este informe muestra las respuestas que el encuestado seleccionó para cada pregunta del cuestionario.
--   **Respuestas incorrectas**: este informe muestra la información relacionada con las respuestas incorrectas que seleccionó el encuestado.
+-   **Respuestas incorrectas**: este informe muestra la información relacionada con las respuestas incorrectas que seleccionó el encuestado.
 
 **Nota:** el informe **Resultados** solo está disponible si usa grupos de resultados en el cuestionario y si seleccionó **Página de resultados** en la página **Cuestionarios**. Los informes **Respuesta** y **Respuestas incorrectas** solo están disponibles si seleccionó **Informe de respuestas** en la página**Cuestionarios**.
 
@@ -81,5 +80,4 @@ Los parámetros que defina se guardarán y se podrán usar para volver a calcula
 [Uso de cuestionarios](questionnaires.md)
 
 [Distribuir y completar cuestionarios](distribute-questionnaires.md)
-
 

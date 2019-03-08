@@ -1,13 +1,13 @@
---- 
-title: "Diseñar configuraciones para generar documentos que tengan datos de la aplicación"
-description: "Para completar los pasos de este procedimiento, primero debe completar el procedimiento, ER Generar documentos con la actualización de los datos de la aplicación (Parte 1: Configuraciones de importación)\"."
+---
+title: Diseñar configuraciones para generar documentos que tengan datos de la aplicación
+description: 'Para completar los pasos de este procedimiento, primero debe completar el procedimiento, ER Generar documentos con la actualización de los datos de la aplicación (Parte 1: Configuraciones de importación)".'
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 8376107a33dd83e04f82fcab6847e7f073f08dbc
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316358"
 ---
 # <a name="design-configurations-to-generate-documents-that-have-application-data"></a>Diseñar configuraciones para generar documentos que tengan datos de la aplicación
 
@@ -58,5 +58,4 @@ Antes de comenzar, cambie el contexto del país para la empresa de DEMF de Alema
     * Dado que el formato de informe electrónico ejecutado no contiene ningún valor para la actualización de los datos de la aplicación, los detalles del informe de Intrastat completado no se han almacenado.  
 10. Cierre la página.
 11. Cierre la página.
-
 

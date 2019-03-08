@@ -1,13 +1,13 @@
 ---
-title: "Agregue un control de recomendaciones a la pantalla de transacción en dispositivos de PDV"
-description: "Este tema describe cómo agregar un control de recomendaciones a la pantalla de transacción en un dispositivo de punto de venta (PDV) mediante el diseñador de pantalla en Microsoft Dynamics 365 for Retail."
+title: Agregue un control de recomendaciones a la pantalla de transacción en dispositivos de PDV
+description: Este tema describe cómo agregar un control de recomendaciones a la pantalla de transacción en un dispositivo de punto de venta (PDV) mediante el diseñador de pantalla en Microsoft Dynamics 365 for Retail.
 author: ashishmsft
 manager: AnnBe
 ms.date: 02/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 213b47422a5e31c2cfc2d173b8c7d9efdecc7568
-ms.contentlocale: es-es
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320452"
 ---
-
 # <a name="add-a-recommendations-control-to-the-transaction-screen-on-pos-devices"></a>Agregue un control de recomendaciones a la pantalla de transacción en dispositivos de PDV
 
 [!include [banner](includes/banner.md)]
@@ -67,7 +66,7 @@ Hay dos opciones de configuración disponibles: Elija la opción que mejor se aj
     [![screenlayout-pic-3](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
 
 3. Haga clic en la **X** para guardar y salir del Diseñador.
-4. En Dynamics 365 for Retail, vaya a **Venta minorista** &gt; **TI de venta minorista** &gt; **Programaciones de distribución**.
+4. En Dynamics 365 for Retail Vaya a **Retail** &gt; **Retail TI** &gt; **Programación de distribución**.
 5. En la lista, seleccione  **1090, Cajas registradoras**.
 6. Haga clic en **Ejecutar ahora**.
 
@@ -88,11 +87,10 @@ Hay dos opciones de configuración disponibles: Elija la opción que mejor se aj
 7. En el campo **Imagen**, seleccione la imagen que desea que aparezca en la pestaña.
 8. Haga clic en **Aceptar**. La nueva pestaña aparece en la cuadrícula de botones.
 9. Haga clic en la **X** para guardar y salir del Diseñador.
-10. En Dynamics 365 for Retail, vaya a **Venta minorista** &gt; **TI de venta minorista** &gt; **Programaciones de distribución**.
+10. En Dynamics 365 for Retail Vaya a **Retail** &gt; **Retail TI** &gt; **Programación de distribución**.
 11. En la lista, seleccione  **1090 Cajas registradoras**.
 12. Haga clic en **Ejecutar ahora**.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Visión general de recomendaciones de productos personalizados](personalized-product-recommendations.md)
-

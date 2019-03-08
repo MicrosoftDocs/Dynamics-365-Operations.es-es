@@ -1,13 +1,13 @@
 ---
-title: "Realizar un seguimiento de los resultados de informe generados y compararlos con valores de línea base"
-description: "En este tema proporciona información sobre cómo puede comparar los resultados de los informes de ER generados con los valores del informe de línea base."
+title: Realizar un seguimiento de los resultados de informe generados y compararlos con valores de línea base
+description: En este tema proporciona información sobre cómo puede comparar los resultados de los informes de ER generados con los valores del informe de línea base.
 author: NickSelin
 manager: AnnBe
 ms.date: 05/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
+ms.openlocfilehash: 7f7877ccaa0c45ab5f0032d6808280e3c47a43ca
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2fc887668171175d436b9eb281a35c1c9d089591
-ms.openlocfilehash: 1a598d0bd053c60c3f8df6b05ecb7ff15addfaa3
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317945"
 ---
-
 # <a name="trace-generated-report-results-and-compare-them-with-baseline-values"></a>Realizar un seguimiento de los resultados de informe generados y compararlos con valores de línea base
 
 [!include[banner](../includes/banner.md)]
@@ -40,4 +39,3 @@ Puede almacenar los archivos de aplicación individuales de línea base para cua
 Puede evaluar el seguimiento para analizar si los documentos electrónicos que se crean generan incluyen el contenido esperado. Puede hacer esta evaluación en un entorno de prueba de aceptación del usuario (UAT) cuando ha cambiado la base de código (por ejemplo, cuando migró a una nueva instancia de la aplicación, paquetes de revisión instalados o modificaciones de código implementadas). De este modo, puede asegurarse de que la evaluación no afecta a la ejecución de informes de ER que se usan. Para muchos informes de ER, la evaluación se puede realizar en modo desatendido.
 
 Para obtener más información acerca de esta función, reproduzca las guías de tareas **ER Generar informes y comparar los resultados (Parte 1)** y **ER Generar informes y comparar los resultados (Parte 2)**, que forman parte del proceso empresarial **7.5.4.3 Probar soluciones y servicios de TI (10679)** y se puede descargar del [Centro de descarga de Microsoft](https://go.microsoft.com/fwlink/?linkid=874684). Estas guías de tareas le guían por el proceso de configuración del marco de ER para utilizar los archivos de línea base para evaluar documentos electrónicos generados.
-

@@ -1,13 +1,13 @@
 ---
-title: "Perfiles de contabilización del cliente"
-description: "Los perfiles de contabilización del cliente controlan el registro de transacciones del cliente en la contabilidad general."
+title: Perfiles de contabilización del cliente
+description: Los perfiles de contabilización del cliente controlan el registro de transacciones del cliente en la contabilidad general.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustPosting
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 956dca24c2cfa7e22d718ff84b338bc4ba030394
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f246780a320f9a5e25ca423a099669a4f7e57bab
-ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322361"
 ---
-
 # <a name="customer-posting-profiles"></a>Perfiles de contabilización del cliente
 
 [!include [banner](../includes/banner.md)]
@@ -140,5 +139,4 @@ Especifique los valores siguientes para configurar su perfil de contabilización
 
 
 Para obtener más información, consulte [Resumen de pagos del cliente](../cash-bank-management/tasks/customer-payment-overview.md).
-
 

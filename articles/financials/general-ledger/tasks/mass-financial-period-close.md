@@ -1,13 +1,13 @@
---- 
-title: "Cierre masivo de período financiero"
-description: "Este procedimiento muestra cómo configurar un período en espera o cerrar de forma permanente un período o más de una entidad jurídica al mismo tiempo."
+---
+title: Cierre masivo de período financiero
+description: Este procedimiento muestra cómo configurar un período en espera o cerrar de forma permanente un período o más de una entidad jurídica al mismo tiempo.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerCalendar, LedgerPeriodModuleAccessControlUpdate, SysLookupPicklist, LedgerFiscalCalendarPeriodStatus
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: a2988b7ab0837cc9a3e4f1c4eaf3fe6e219fa721
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 8d7151cbcd02f9312ca6b0de5e27231a0b0dc9d6
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311390"
 ---
 # <a name="mass-financial-period-close"></a>Cierre masivo de período financiero
 
@@ -46,5 +46,4 @@ Este procedimiento muestra cómo configurar un período en espera o cerrar de fo
 11. Seleccione Actualizar estado del período y establezca el estado En espera, Abierto o Cerrado de forma permanente.
     * Abierto indica el período en el que se puede registrar, siempre que el usuario tenga acceso. En espera significa que el período no se pueden registrar, pero el período se puede volver a abrir. Cerrado de forma permanente significa que el período está cerrado y no se puede abrir nunca. No se pueden registrar ajustes. No se recomienda establecer un período como Cerrado de forma permanente hasta que se completen todos los ajustes y las auditorías.  
 12. Haga clic en Actualizar.
-
 

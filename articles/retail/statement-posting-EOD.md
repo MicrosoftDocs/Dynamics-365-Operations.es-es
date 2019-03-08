@@ -1,13 +1,13 @@
 ---
 title: Mejoras en la funcionalidad del registro de extractos
-description: "En este tema se describen mejoras que se han realizado en la función de registro de extractos."
+description: En este tema se describen mejoras que se han realizado en la función de registro de extractos.
 author: josaw1
 manager: AnnBe
 ms.date: 04/26/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -16,14 +16,13 @@ ms.search.industry: retail
 ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 3e8c5466a68fa87326c46a4e36bf7399be1279c6
-ms.contentlocale: es-es
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321441"
 ---
-
 # <a name="improvements-to-statement-posting-functionality"></a>Mejoras en la funcionalidad del registro de extractos
 
 [!include[banner](includes/banner.md)]
@@ -171,4 +170,3 @@ Se han realizado otras mejoras de backend en la función de registro de extracto
 
     - Vaya a **Comercio** \> **Configuración de sede central** \> **Parámetros** \> **Parámetros comerciales**. A continuación, en la ficha **Registro** , en la ficha desplegable **Actualización de inventario**, en el campo **Nivel de detalle** , seleccione **Resumen**.
     - Vaya a **Comercio** \> **Configuración de sede central** \> **Parámetros** \> **Parámetros comerciales**. A continuación, en la ficha **Registro**, en la ficha desplegable **Agregación**, establezca la opción **Transacciones de asiento** en **Sí**.
-

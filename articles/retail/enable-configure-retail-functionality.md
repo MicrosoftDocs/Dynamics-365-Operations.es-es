@@ -1,13 +1,13 @@
 ---
 title: Inicializar datos semilla en nuevos entornos de Retail
-description: "En este artículo se describen los datos que se crean como parte del proceso de inicialización para Microsoft Dynamics 365 for Retail."
+description: En este artículo se describen los datos que se crean como parte del proceso de inicialización para Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,28 +19,27 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 52f0c52748958f0bebb6c40df01cfac10c0ed427
-ms.contentlocale: es-es
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327904"
 ---
-
 # <a name="initialize-seed-data-in-new-retail-environments"></a>Inicializar datos semilla en nuevos entornos de Retail
 
 [!include [banner](includes/banner.md)]
 
 En este artículo se describen los datos que se crean como parte del proceso de inicialización para Microsoft Dynamics 365 for Retail.
 
-Después de que la solución de venta minorista se haya desplegado con los servicios de ciclo de vida de Microsoft Dynamics, debe inicializar la configuración de venta minorista para crear los datos de configuración básicos.
+Después de que la solución de venta minorista se haya desplegado con Microsoft Dynamics Lifecycle Services (LCS) , debe inicializar la configuración de venta minorista para crear los datos de configuración básicos.
 
 > [!IMPORTANT]
 > Antes de inicializar la configuración de venta minorista, asegúrese de que haya especificado un idioma y una dirección postal para cada entidad jurídica en la que va a configurar tiendas de venta minorista. Este paso se debe completar para cada entidad jurídica que se use para la venta minorista.
 
 Para inicializar la configuración de venta minorista, siga estos pasos.
 
-1. Inicie el cliente de Dynamics 365 for Retail.
+1. Iniciar el cliente de Dynamics 365 for Retail.
 2. Haga clic en **Retail** &gt; **Configuración de sede central** &gt; **Parámetros** &gt; **Parámetros comerciales**.
 3. Haga clic en **Inicializar**.
 
@@ -56,7 +55,7 @@ Inicialización crea los datos de configuración siguientes predeterminados:
 - Informes de canales
 - Metadatos de atributos
 - Plantillas de validación de entidad
-- Trabajo por lotes para purgar historial de la sesión de intercambio de datos comerciales
+- Trabajo por lotes para depurar el historial de la sesión Commerce Data Exchange
 
 Además, el registro relacionado con la industria de la tarjeta de pago se habilita para la base de datos de Dynamics 365 for Retail.
 
@@ -70,4 +69,3 @@ Después de que la inicialización esté completada, debe configurar los datos a
 - Canales comerciales
 - Cajas registradoras y dispositivos
 - Varios
-

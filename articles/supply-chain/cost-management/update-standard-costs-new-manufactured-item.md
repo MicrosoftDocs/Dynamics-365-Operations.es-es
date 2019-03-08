@@ -1,13 +1,13 @@
 ---
-title: "Actualizar costes estándar para un nuevo artículo fabricado"
-description: "Este artículo proporciona orientación para actualizar los costes estándar para un nuevo artículo fabricado."
+title: Actualizar costes estándar para un nuevo artículo fabricado
+description: Este artículo proporciona orientación para actualizar los costes estándar para un nuevo artículo fabricado.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostingVersion, InventStdCostConv
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bc8725bcab61fa20a4c35a83473b00e54cf0bf28
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1cfb04a98f7d01f7766bea97157ca3c44c51e326
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325512"
 ---
-
 # <a name="update-standard-costs-for-a-new-manufactured-item"></a>Actualizar costes estándar para un nuevo artículo fabricado
 
 [!include [banner](../includes/banner.md)]
@@ -50,7 +49,6 @@ Para agregar nuevos artículos de fabricación a lo largo del período congelado
 5.  Utilice la página **Configuración de la versión de gestión de costes**  para modificar el indicador de bloqueo y permitir la activación de los registros de costes pendientes incluidos en la segunda versión de gestión de costes.
 6.  Use la página **Activar precios** (que se abre desde la página **Mantenimiento de la versión de gestión de costes**) para habilitar todos los registros de costes pendientes en la segunda versión de gestión de costes. También puede habilitar los registros de costes pendientes para los artículos individuales haciendo clic en el botón **Activar** de la página **Precio de artículo**.
 7.  Use la página **Configuración de la versión de gestión de costes** para modificar los indicadores de bloqueo de la segunda versión de gestión de costes para impedir la actualización posterior de los datos. Las directivas de bloqueo impiden la entrada de nuevos costes pendientes y la activación de costes pendientes.
-
 
 
 

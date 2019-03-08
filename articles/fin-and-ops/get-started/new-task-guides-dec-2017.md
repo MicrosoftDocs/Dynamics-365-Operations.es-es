@@ -1,33 +1,32 @@
 ---
-title: "Guías de tareas nuevas o actualizadas (diciembre de 2017)"
-description: "En este tema se muestran las guías de tareas nuevas o actualizadas que se publicaron en la Biblioteca unificada APQC de Microsoft (diciembre de 2016: todos los idiomas) para Microsoft Dynamics 365 for Operations. No se publicó ninguna biblioteca de introducción nueva."
+title: Guías de tareas nuevas o actualizadas (diciembre de 2017)
+description: 'En este tema se muestran las Guías de tareas nuevas o actualizadas que se publicaron en la Biblioteca unificada APQC de Microsoft (diciembre de 2016: todos los idiomas) para Microsoft Dynamics 365 for Operations. No se publicó ninguna biblioteca de introducción nueva.'
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: 7.3
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 101eb8fd03303eb590dfef6f598ca507dc8f5548
-ms.contentlocale: es-es
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319647"
 ---
-
 # <a name="new-or-updated-task-guides-december-2017"></a>Guías de tareas nuevas o actualizadas (diciembre de 2017)
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se muestran las guías de tareas nuevas o actualizadas que se publicaron en la Biblioteca unificada APQC de Microsoft (diciembre de 2016: todos los idiomas) para Microsoft Dynamics 365 for Operations.
+En este tema se muestran las Guías de tareas nuevas o actualizadas que se publicaron en la Biblioteca unificada APQC de Microsoft (diciembre de 2016: todos los idiomas) para Microsoft Dynamics 365 for Operations.
 
 ## <a name="new-task-guides"></a>Nuevas guías de tareas
 
@@ -370,4 +369,3 @@ Cuando se elimina una línea de BPM, todas las guías de tareas asociadas a la l
 **Línea de BPM eliminada**
 
 - Desplazamiento de trabajos kanban programados
-

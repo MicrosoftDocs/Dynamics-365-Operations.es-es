@@ -1,29 +1,29 @@
 ---
 title: Novedades y cambios en Dynamics 365 for Talent Core HR (15 de noviembre de 2018)
-description: "Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 for Talent Core HR."
+description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 for Talent Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 11/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: 3cc19a8e5f726495e698a3a2f4ccce7460a61657
 ms.openlocfilehash: 0e9de5e36e67941ab09c773a63b0e7045105a07e
-ms.contentlocale: es-es
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306039"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-november-15-2018"></a>Novedades y cambios en Dynamics 365 for Talent Core HR (15 de noviembre de 2018)
 
@@ -56,4 +56,3 @@ Con este cambio, la navegación a los detalles de los elementos de trabajo indiv
 
 - **Emisión**: Al agregar un nuevo archivo adjunto a un trabajador, los botones **Nuevo** y **Editar** se atenúan. 
 - **Solución alternativa:** Antes de abrir la página de los datos adjuntos, asegúrese de que los cuadros informativos en la página **Trabajador** estén cerrados. Si se cierran los cuadros informativos cuando la página **Trabajador** se carga, los botones de datos adjuntos se habilitan. (Este problema se corregirá en la siguiente actualización de la plataforma).
-

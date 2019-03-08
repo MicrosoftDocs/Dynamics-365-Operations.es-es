@@ -1,13 +1,13 @@
 ---
-title: "Diseñar cuestionarios"
-description: "En este tema se describe el proceso de creación de un cuestionario. El primer paso es diseñar el cuestionario. Cuando diseñe un cuestionario, no solo escribe las preguntas y respuestas, sino que también crea la estructura que permite que se registren y se tabulen respuestas."
+title: Diseñar cuestionarios
+description: En este tema se describe el proceso de creación de un cuestionario. El primer paso es diseñar el cuestionario. Cuando diseñe un cuestionario, no solo escribe las preguntas y respuestas, sino que también crea la estructura que permite que se registren y se tabulen respuestas.
 author: kherr75
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KCMCollectionType, KMAnswerCollection, KMCollection
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: cd13fa1c424d1769b356d90012b187a77473473d
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306114"
 ---
-
 # <a name="design-questionnaires"></a>Diseñar cuestionarios
 
 [!include [banner](includes/banner.md)]
@@ -94,7 +93,7 @@ Los códigos de secuencia numérica se usan para organizar preguntas y respuesta
 Debe definir todos los parámetros antes de empezar a crear los datos. Puede modificar los parámetros del cuestionario en cualquier momento.
 
 ## <a name="questionnaire-components"></a>Componentes de cuestionario
-Los cuestionarios constan de tres elementos principales: grupos de respuestas que contienen las respuestas a preguntas de respuesta múltiple, consultas y el propio cuestionario. Opcionalmente puede agrupar las preguntas de un cuestionario en grupos de resultados. Los grupos de resultados le permiten clasificar consultas y proporcionar análisis adicional sobre el cuestionario. 
+Los cuestionarios constan de tres elementos principales: grupos de respuestas que contienen las respuestas a preguntas de respuesta múltiple, consultas y el propio cuestionario.Opcionalmente puede agrupar las preguntas de un cuestionario en grupos de resultados. Los grupos de resultados le permiten clasificar consultas y proporcionar análisis adicional sobre el cuestionario. 
 
 [![Componentes del cuestionario](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 
@@ -111,7 +110,7 @@ Los grupos de respuestas y las respuestas son componentes que conforman el cuerp
 
 Un grupo de respuestas se puede usar para de una pregunta del mismo cuestionario, así como en varios cuestionarios. 
 
-**Nota:** Si modifica el texto de la respuesta en grupos de respuestas que ya se han usado en cuestionarios completados, se hace difícil evaluar datos y es posible que los resultados del cuestionario ya no sean válidos. Si debe cambiar un grupo de respuestas, piense en crear un nuevo grupo de respuestas en lugar de cambiar uno existente. No puede eliminar los grupos de respuestas que están vinculados a una pregunta o a una respuesta o que ya se han contestado.
+**Nota:** Si modifica el texto de la respuesta en grupos de respuestas que ya se han usado en cuestionarios completados, se hace difícil evaluar datos y es posible que los resultados del cuestionario ya no sean válidos. Si debe cambiar un grupo de respuestas, piense en crear un nuevo grupo de respuestas en lugar de cambiar uno existente. No puede eliminar los grupos de respuestas que están vinculados a una pregunta o a una respuesta o que ya se han contestado.
 
 ### <a name="questions"></a>Preguntas
 
@@ -160,7 +159,7 @@ Puede completar las siguientes tareas en la página **Cuestionarios**:
 -   Eliminar y agregar preguntas.
 -   Realizar cambios en los grupos de resultados y la secuencia numérica 
 
-**Precaución:** Tenga cuidado al cambiar los cuestionarios que ya se hayan respondido. Los cambios pueden reducir la precisión de las estadísticas y por tanto para convertirlas en una base deficiente para la evaluación. Piense en crear una nueva pregunta en lugar de cambiar una pregunta que ya se haya respondido.
+**Precaución:** Tenga cuidado al cambiar los cuestionarios que ya se hayan respondido. Los cambios pueden reducir la precisión de las estadísticas y por tanto para convertirlas en una base deficiente para la evaluación. Piense en crear una nueva pregunta en lugar de cambiar una pregunta que ya se haya respondido.
 
 En un cuestionario, no puede eliminar los siguientes tipos de preguntas:
 
@@ -238,5 +237,4 @@ De forma alternativa, configure un cuestionario de manera que un encuestado sele
 [Distribuir y completar cuestionarios](distribute-questionnaires.md)
 
 [Visualización y evaluación de los resultados de cuestionarios](evaluate-questionnaire-results.md)
-
 

@@ -1,13 +1,13 @@
 ---
 title: Especificar combinaciones de cuentas y dimensiones (control de entrada segmentada)
-description: "Este artículo describe cómo especificar combinaciones de cuenta y dimensión o cuentas contables. La experiencia de entrada suele denominarse control de entrada segmentado."
+description: Este artículo describe cómo especificar combinaciones de cuenta y dimensión o cuentas contables. La experiencia de entrada suele denominarse control de entrada segmentado.
 author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DimensionConfigureAccountStructure
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c9addb2897bac68115a38f0239764ab65af2378c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a4d8be319d74610bb2c1d4532a6d204d092bce84
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315668"
 ---
-
 # <a name="enter-account-and-dimension-combinations-segmented-entry-control"></a>Especificar combinaciones de cuentas y dimensiones (control de entrada segmentada)
 
 [!include [banner](../includes/banner.md)]
@@ -110,7 +109,6 @@ En la tabla siguiente se describen los métodos abreviados de teclado que se pue
 </tr>
 </tbody>
 </table>
-
 
 
 

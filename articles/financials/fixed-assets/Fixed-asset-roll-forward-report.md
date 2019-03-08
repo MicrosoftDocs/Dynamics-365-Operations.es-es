@@ -1,14 +1,14 @@
 ---
-title: "Informe de puesta al día para activos fijos"
-description: "Este tema explica cómo utilizar el informe de puesta al día para activos fijos."
+title: Informe de puesta al día para activos fijos
+description: Este tema explica cómo utilizar el informe de puesta al día para activos fijos.
 author: saraschi2
-manager: 
+manager: ''
 ms.date: 01/08/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,23 +17,23 @@ ms.assetid: d7e86f72-95db-4423-9b04-761e9536a959
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-12-20
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 3f2da6d552dd27566d3e012d3e6055fcaa194e4b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 16f7c199fb4c9905c465e5d4596d3eaa90104b83
-ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313759"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>Informe de puesta al día para activos fijos
 
 [!include [banner](../includes/banner.md)]
 
-El informe **de puesta al día para activos fijos** proporciona, en un formato de Microsoft Excel fácil de leer, los datos detallados del activo fijo que pueda necesitar para el cierre del período, los informes financieros y la notificación de impuestos. El informe incluye los saldos de inicio y fin para los activos fijos, junto con los movimientos de la evaluación para el período y cualquier adquisición y disposición de activos nueva que se hayan producido durante el período. Los datos se notifican para activos fijos individuales y los valores también se resumen para los grupos de activos fijos y la entidad jurídica.
+El informe de **Puesta al día para activos fijos** proporciona, en un formato de Microsoft Excel fácil de leer, los datos detallados del activo fijo que pueda necesitar para el cierre del período, los informes financieros y la notificación de impuestos. El informe incluye los saldos de inicio y fin para los activos fijos, junto con los movimientos de la evaluación para el período y cualquier adquisición y disposición de activos nueva que se hayan producido durante el período. Los datos se notifican para activos fijos individuales y los valores también se resumen para los grupos de activos fijos y la entidad jurídica.
 
 El informe **de puesta al día para activos fijos** utiliza el marco de informes electrónicos (ER). Antes de poder ejecutar el informe, el modelo de activos fijos y las configuraciones de puesta al día para activos fijos deben importarse de Microsoft Dynamics Lifecycle Services (LCS). Para obtener más información, consulte [Descargar configuraciones de informes electrónicos de Lifecycle Services](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
 
-Este informe está disponible en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3, o como una revisión para Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (julio 2017). Deben aplicarse tres revisiones a los entornos que tienen la versión de julio de 2017:
+Este informe sólo está disponible en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3, o como sustitución de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (julio de 2017). Deben aplicarse tres revisiones a los entornos que tienen la versión de julio de 2017:
 
 - **KB 4041754:** la configuración de informes electrónicos (ER) no se puede descargar de LCS como no aplicable para la versión actual de la aplicación después de aplicar el paquete de actualización de la plataforma
 - **KB 4056107:** actualización acumulativa de informe electrónica 5 (GER)
@@ -66,5 +66,4 @@ En la tabla siguiente se describen los campos disponibles en el informe.
 |            Cancelaciones: valor de ventas            |                                                                                               El valor de ventas para el libro de activos fijos con una cancelación – transacción de venta.                                                                                                |
 |           Cancelaciones: valor residual            |                                                                                               El valor residual para el libro de activos fijos con una cancelación – transacción residual.                                                                                               |
 |           Cancelaciones: pérdidas/ganancias            |                                                                                 El valor de pérdidas o ganancias que se calcula como parte de la transacción de cancelación del libro de activos fijos.                                                                                 |
-
 

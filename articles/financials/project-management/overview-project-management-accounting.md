@@ -1,13 +1,13 @@
 ---
-title: "Gestión de proyectos y contabilidad"
-description: "La funcionalidad de gestión de proyectos y contabilidad se puede usar en varias industrias para proporcionar un servicio, producir un producto o lograr un resultado."
+title: Gestión de proyectos y contabilidad
+description: La funcionalidad de gestión de proyectos y contabilidad se puede usar en varias industrias para proporcionar un servicio, producir un producto o lograr un resultado.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c21587499a68143d403760ad32bea65948d7fbc9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: e927e45511c5e6c232457a76b2d1fab160fe0f5a
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311344"
 ---
-
 # <a name="project-management-and-accounting"></a>Gestión de proyectos y contabilidad
 
 [!include [banner](../includes/banner.md)]
@@ -129,7 +128,7 @@ Estas son algunas de las maneras que puede usar la funcionalidad de programació
 -   Modificar las asignaciones de recursos para diversas unidades de tiempo, tales como día, semana o mes, para optimizar el uso que se hace de los trabajadores.
 
 ## <a name="execute-the-project"></a>Ejecutar el proyecto
-Durante la ejecución de proyectos, los miembros del equipo o los directores registran el trabajo y los gastos en que se incurre, usando hojas de horas, informes de gastos y otros documentos empresariales. Los directores de proyecto tienen herramientas que les permiten supervisar el consumo de importes presupuestados para el proyecto. Los directores de proyecto también pueden pedir, seleccionar o adquirir materiales para proyectos mediante pedidos de compra y otros documentos empresariales. Las facturas se preparan y se aprueban, de manera que se pueda facturar a los clientes por el trabajo en curso. Por último, los ingresos se reconocen durante este proceso para afectar a las operaciones financieras de la organización.
+Durante la ejecución de proyectos, los miembros del equipo o los directores registran el trabajo y los gastos en que se incurre, usando hojas de horas, informes de gastos y otros documentos empresariales. Los directores de proyecto tienen herramientas que les permiten supervisar el consumo de importes presupuestados para el proyecto. Los directores de proyecto también pueden pedir, seleccionar o adquirir materiales para proyectos mediante pedidos de compra y otros documentos empresariales. Las facturas se preparan y se aprueban, de manera que se pueda facturar a los clientes por el trabajo en curso. Por último, los ingresos se reconocen durante este proceso para afectar a las operaciones financieras de la organización.
 
 ### <a name="manage-work-breakdown-structures"></a>Administrar estructuras de descomposición del trabajo
 
@@ -206,7 +205,7 @@ Puede solicitar artículos del inventario de la empresa para consumo en un proye
 
 El modo en que se solicitan los artículos depende de la ubicación desde la que se soliciten:
 
--   Para pedir artículos del inventario de la empresa, debe especificar el pedido como un requisito de artículo. Si utiliza la página **Requisitos de artículos**, puede configurar el requisito de manera que reciba artículos como entregas parciales. Por tanto, puede posponer el consumo de una cantidad de los artículos hasta que se necesiten los artículos.
+-   Para pedir artículos del inventario de la empresa, debe especificar el pedido como un requisito de artículo. Si utiliza la página **Requisitos de artículos**, puede configurar el requisito de manera que reciba artículos como entregas parciales.Por tanto, puede posponer el consumo de una cantidad de los artículos hasta que se necesiten los artículos.
 -   Para pedir artículos a un proveedor externo, debe crear el pedido como un pedido de compra en la página **Pedido de compra**.
 
 > [!NOTE] 
@@ -233,7 +232,7 @@ Para obtener más información acerca de cómo procesar facturas de proyectos, c
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Calcular el coste para completar un proyecto
 
-Al crear una estimación, puede elegir el método que se usa para calcular el coste para completar el proyecto. Seleccione un método en el campo **Método de coste para completar** de la página **Crear estimación**. El método de coste seleccionado se aplica por separado a cada línea de coste de la estimación. Mientras que una línea tiene un estado de **Creado**, puede cambiar el método que se le aplica en la página **Estimación de coste**. 
+Al crear una estimación, puede elegir el método que se usa para calcular el coste para completar el proyecto. Seleccione un método en el campo **Método de coste para completar** de la página **Crear estimación**. El método de coste seleccionado se aplica por separado a cada línea de coste de la estimación. Mientras que una línea tiene un estado de **Creado**, puede cambiar el método que se le aplica en la página **Estimación de coste**. 
 
 La tabla siguiente describe los métodos para calcular el coste para completar un proyecto.
 
@@ -251,7 +250,7 @@ La tabla siguiente describe los métodos para calcular el coste para completar u
 <tbody>
 <tr class="odd">
 <td>Coste total – Real</td>
-<td>Los costes estimados se deben especificar manualmente. Cuando se complete la columna <strong>Coste total</strong> o <strong>Cantidad total</strong> en la página <strong>Estimación de coste </strong>, los costes reales se restan de los totales especificados por el usuario. El resultado es el coste para completar el proyecto. Normalmente, el progreso de los costes no se sigue en función, por ejemplo, del número de comidas y estancias de hotel que se registran en cada período. En su lugar, suele basarse en una comparación con el importe total de las horas estimadas. Este planteamiento no necesita un modelo de previsión y el coste o la cantidad total se puede cambiar manualmente. Cuando se especifica un valor en la columna <strong>Coste total</strong> o <strong>Cantidad total</strong>, Finance and Operations compara este valor con las transacciones reales que se han registrado en el período y, a continuación, disminuye el valor de la columna <strong>Cantidad para completar</strong> o <strong>Coste para completar</strong>.</td>
+<td>Los costes estimados se deben especificar manualmente. Cuando se complete la columna <strong>Coste total</strong> o <strong>Cantidad total</strong> en la página <strong>Estimación de coste </strong>, los costes reales se restan de los totales especificados por el usuario. El resultado es el coste para completar el proyecto. Normalmente, el seguimiento del progreso de los costes no se basa, por ejemplo, el número de comidas y estancias de hotel se registran en cada período. En su lugar, suele basarse en una comparación con el importe total de las horas estimadas. Este planteamiento no necesita un modelo de previsión y el coste o la cantidad total se puede cambiar manualmente. Cuando se especifica un valor en la columna <strong>Coste total</strong> o <strong>Cantidad total</strong>, Finance and Operations compara este valor con las transacciones reales que se han registrado en el período y, a continuación, disminuye el valor de la columna <strong>Cantidad para completar</strong> o <strong>Coste para completar</strong>.</td>
 </tr>
 <tr class="even">
 <td>Presupuesto total - Real</td>
@@ -301,7 +300,7 @@ En función de la configuración, puede prever los flujos de entrada para un pro
 -   **Fecha del proyecto:** 5 de marzo de 2012.
 -   **Fecha de la factura:** 31 de marzo de 2012. Esta fecha se determina en función de la frecuencia de facturación. Para este ejemplo, se establece la frecuencia de facturación al mes actual. Por tanto, todas las transacciones que se registran en el mes de marzo se facturan el último día del mes.
 -   **Fecha de vencimiento:** 14 de abril de 2012. Esta fecha se determina según las condiciones de pago que se establecieron para el proyecto. Para este ejemplo, seleccionó condiciones de pago de 14 días. Por lo tanto, se agregaron 14 días a la fecha de la factura del envío en una fecha de vencimiento de 14 de abril de 2012.
--   **Fecha esperada de pago de ventas:** 27 de abril de 2012. Esta fecha se calcula agregando el número de días en el campo **Días de almacenaje generales** de la página **Parámetros de gestión de proyectos y contabilidad** al número de días del campo **Días de almacenaje individual** de la página **Contratos de proyecto** y, a continuación, agregando el total al número de días del campo **Fecha de vencimiento**. Por ejemplo, ha especificado **3** en el campo **Días de almacenaje generales** y **10** en el campo **Días de almacenaje individual**. Por lo tanto, se agregaron 13 días a la fecha de vencimiento del envío en una fecha esperada de pago de ventas de 27 de abril de 2012.
+-   **Fecha esperada de pago de ventas:** 27 de abril de 2012. Esta fecha se calcula agregando el número de días en el campo **Días de almacenaje generales** de la página **Parámetros de gestión de proyectos y contabilidad**  al número de días del campo **Días de almacenaje individual** de la página **Contratos de proyecto** y, a continuación, agregando el total al número de días del campo **Fecha de vencimiento**. Por ejemplo, ha especificado **3** en el campo **Días de almacenaje generales** y **10** en el campo **Días de almacenaje individual**. Por lo tanto, se agregaron 13 días a la fecha de vencimiento del envío en una fecha esperada de pago de ventas de 27 de abril de 2012.
 
 Los días de almacenaje general pueden sustituir los días de almacenaje o agregarse a los días de almacenaje individuales:
 
@@ -372,7 +371,7 @@ Si está seleccionada la opción **Presupuesto restante** como el método de con
 -   **Presupuesto restante**: el importe presupuestado original que aún está disponible para la línea de coste seleccionada. El importe presupuestario restante se calcula en la página **Vista previa de contabilidad general**.
 -   **Coste total**: la suma de los importes del coste real, el coste comprometido y el presupuesto restante.
 
-En la página **Control de costes**, en la pestaña **Desviación**, puede ver una comparación de los costes previstos totales con el presupuesto original. Esta comparación muestra las diferencias entre estos importes. Por lo tanto, puede ver dónde no coinciden los datos. Los importes de desviación se calculan del siguiente modo:
+En la página **Control de costes**, en la pestaña **Desviación**, puede ver una comparación de los costes previstos totales con el presupuesto original. Esta comparación muestra las diferencias entre estos importes. Por lo tanto, puede ver dónde no coinciden los datos. Los importes de desviación se calculan del siguiente modo:
 
 -   **Presupuesto original**: el importe que se presupuestó originalmente para la línea de coste seleccionada. El importe presupuestario original se calcula en la página **Vista previa de contabilidad general**.
 -   **Coste total**: la suma del coste real, el gasto comprometido y el presupuesto restante, tal como se informó en la pestaña **General**.
@@ -419,7 +418,7 @@ En la página **Utilización de horas**, junto con el porcentaje total de la tas
 
 -   **Horas no incluidas**: estas horas no se incluyen en la tasa de utilización de horas.
 -   **Horas incluidas**: estas horas se calculan agregando las horas de utilización y las horas de carga. Estas horas se incluyen en la tasa de utilización.
--   **Horas no facturables**: si está calculando una tasa facturable, estas horas son iguales que las horas no imputables. Si está calculando un índice de eficacia, estas horas son iguales que las horas no productivas.
+-   **Horas no facturables**: si está calculando una tasa facturable, estas horas son iguales que las horas no imputables. Si está calculando un índice de eficacia, estas horas son iguales que las horas no productivas.
 -   **Horas de utilización**: si está calculando una tasa facturable, estas horas son iguales que las horas imputables. Si está calculando un índice de eficacia, estas horas son iguales que las horas productivas.
 
 Al calcular la tasa de utilización para un trabajador, puede usar horas de norma o las horas incluidas. Si usa horas incluidas, debe asegurarse de que los trabajadores registran todo su horario de trabajo para los períodos de la hoja de horas, ya que el cálculo se expresa como un porcentaje de las horas que se especifican. Al calcular la tasa de utilización de horas para un proyecto, un contrato de proyecto, un registro de clientes o una categoría, debe usar las horas incluidas para el cálculo.
@@ -441,4 +440,3 @@ Después de que se calcule el informe, podrá ver la siguiente información sobr
 -   **Consumo**: información acerca del consumo de horas, de artículos, de gastos, y de transacciones de nóminas.
 -   **Factura**: información acerca de facturas y facturación a cuenta.
 -   **Tasa horaria**: las tarifas por hora registradas en las cuentas de ingresos y de costes.
-

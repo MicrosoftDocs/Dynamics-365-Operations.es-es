@@ -1,13 +1,13 @@
 ---
 title: Programaciones de entrega
-description: "Las programaciones de entrega le permiten realizar el seguimiento de cantidad de la línea de pedido cuando está usando entregas para un pedido de ventas único, un presupuesto de ventas o un pedido de compra."
+description: Las programaciones de entrega le permiten realizar el seguimiento de cantidad de la línea de pedido cuando está usando entregas para un pedido de ventas único, un presupuesto de ventas o un pedido de compra.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchDeliverySchedule, SalesDeliverySchedule, SalesQuotationDeliverySchedule
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 068a881a7fa9b19198bd3ad22988465be49c1fa3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ceb568cc223a631f704caf2417f1a3bd56b56288
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325144"
 ---
-
 # <a name="delivery-schedules"></a>Programaciones de entrega
 
 [!include [banner](../includes/banner.md)]
@@ -55,7 +54,6 @@ Las impresiones de documentos de pedidos y de presupuestos con una programación
 -   Examinar informes y páginas de lista
 
 Cuando confirma los presupuestos de ventas, los pedidos de ventas resultantes muestran la programación de entrega completa, incluso las líneas de pedido con múltiples entregas. Además, la programación de entrega completa se muestra en todas las páginas principales, como pedidos de ventas, presupuestos de ventas y pedidos de compra.
-
 
 
 

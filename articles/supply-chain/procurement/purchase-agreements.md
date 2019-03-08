@@ -1,13 +1,13 @@
 ---
 title: Acuerdos de compra
-description: "Este artículo proporciona información acerca de los acuerdos de compra. Un acuerdo de compra es un contrato que compromete a una organización a comprar una cantidad o un importe específico mediante varios pedidos de compra en el tiempo. A cambio de este compromiso, el comprador recibe precios y descuentos especiales."
+description: Este artículo proporciona información acerca de los acuerdos de compra. Un acuerdo de compra es un contrato que compromete a una organización a comprar una cantidad o un importe específico mediante varios pedidos de compra en el tiempo. A cambio de este compromiso, el comprador recibe precios y descuentos especiales.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7024104dfc76a33735199ad0871fe7ce29f8e011
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: e4414ead4d2c767ecdd3e631035034b01de55b27
-ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314541"
 ---
-
 # <a name="purchase-agreements"></a>Acuerdos de compra
 
 [!include [banner](../includes/banner.md)]
@@ -97,7 +96,6 @@ Puede copiar dimensiones financieras en encabezados de documentos o líneas indi
 [Creación de un acuerdo de compra (Guía de tareas)](tasks/create-purchase-agreement.md)
 
 [Crear un pedido parcial de compra de un acuerdo de compra (Guía de tareas)](tasks/create-purchase-release-order-purchase-agreement.md)
-
 
 
 

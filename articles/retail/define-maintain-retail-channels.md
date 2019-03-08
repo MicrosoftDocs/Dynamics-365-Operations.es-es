@@ -1,13 +1,13 @@
 ---
 title: Definir y mantener canales comerciales
-description: "Este tema proporciona una visión general del proceso para configurar tiendas físicas, que se conocen como tiendas minoristas en Microsoft Dynamics 365 for Retail. Incluye información acerca de las tareas que debe completar tanto antes como después de configurar una tienda minorista."
+description: Este tema proporciona una visión general del proceso para configurar tiendas físicas, que se conocen como tiendas minoristas en Microsoft Dynamics 365 for Retail. Incluye información acerca de las tareas que debe completar tanto antes como después de configurar una tienda minorista.
 author: mugunthanm
 manager: AnnBe
 ms.date: 11/14/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailStoreTable, RetailStoreTableListPagePreviewPane
 audience: Application User
 ms.reviewer: josaw
@@ -19,21 +19,20 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 53ba6cdb2378ce9011c6e7e3ce4e67c789adb1e6
-ms.contentlocale: es-es
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318635"
 ---
-
 # <a name="define-and-maintain-retail-channels"></a>Definir y mantener canales comerciales
 
 [!include [banner](includes/banner.md)]
 
 Este tema proporciona una visión general del proceso para configurar tiendas físicas, que se conocen como tiendas minoristas en Microsoft Dynamics 365 for Retail. Incluye información acerca de las tareas que debe completar tanto antes como después de configurar una tienda minorista.
 
-Dynamics 365 for Retail admite varios canales de venta, como tiendas en línea, centros de llamadas y almacenes físicos. Las tiendas físicas también se denominan tiendas minoristas. Cada tienda minorista puede tener sus propios métodos de pago, grupos de precios, puntos de venta (PDV), cuentas de ingresos y gastos o personal. Debe configurar todos estos elementos para una tienda antes de crearla. Después de crear la tienda, se asignan los productos que desea que tenga. También asigna empleados, cajas registradoras y clientes a la tienda. Por último, la nueva tienda se agrega a una jerarquía organizativa.
+Dynamics 365 for Retail admite varios canales de venta, como tiendas en línea, almacenes físicos y centros de llamadas. Las tiendas físicas también se denominan tiendas minoristas. Cada tienda minorista puede tener sus propios métodos de pago, grupos de precios, puntos de venta (PDV), cuentas de ingresos y gastos o personal. Debe configurar todos estos elementos para una tienda antes de crearla. Después de crear la tienda, se asignan los productos que desea que tenga. También asigna empleados, cajas registradoras y clientes a la tienda. Por último, la nueva tienda se agrega a una jerarquía organizativa.
 
 ## <a name="setting-up-retail-stores"></a>Configurar tiendas
 
@@ -56,7 +55,7 @@ Para poder configurar una tienda, debe completar las siguientes tareas:
 11. Configure los empleados.
 
     > [!NOTE]
-    > También debe asignar los permisos adecuados a los trabajadores, de modo que puedan iniciar sesión y realizar tareas con el sistema de Dynamics 365 for Retail POS.
+    > Nota: También debe asignar los permisos adecuados a los trabajadores, de modo que puedan iniciar sesión y realizar tareas con el sistema de Dynamics 365 for Retail for Retail POS.
 
 12. Configure los perfiles de Retail POS que se deben asignar a la tienda. Esta tarea incluye muchas otras tareas, por ejemplo, la configuración de los registros, los perfiles sin conexión y los formatos y perfiles de recepción.
 
@@ -86,4 +85,3 @@ Tras especificar los detalles de la tienda minorista, complete estas tareas para
 ## <a name="organization-hierarchies"></a>Jerarquías organizativas
 
 Retail usa jerarquías organizativas para estructurar los canales comerciales. Las jerarquías organizativas representan las relaciones que hay entre las organizaciones que forman el negocio. Al configurar tiendas, puede agregarlas a una jerarquía organizativa. A continuación, los almacenes comparten los datos que se usan para las selecciones, el reaprovisionamiento y los informes.
-

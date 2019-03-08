@@ -1,13 +1,13 @@
 ---
-title: "Liquidación y priorización automáticas"
-description: "Este tema describe cómo se liquidan las transacciones si selecciona Liquidación automática en la página Parámetros de clientes. También explica cómo se puede usar la liquidación automática junto con la prioridad de pago."
+title: Liquidación y priorización automáticas
+description: Este tema describe cómo se liquidan las transacciones si selecciona Liquidación automática en la página Parámetros de clientes. También explica cómo se puede usar la liquidación automática junto con la prioridad de pago.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans, CustParameters, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 775ce10cdba5e38fbb5fc058c6df297143229f79
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fc091e401f84ce2ac425897ad6cbd92fd7399736
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318980"
 ---
-
 # <a name="automatic-settlement-and-prioritization"></a>Liquidación y priorización automáticas
 
 [!include [banner](../includes/banner.md)]
 
 Este tema describe cómo se liquidan las transacciones si selecciona Liquidación automática en la página Parámetros de clientes. También explica cómo se puede usar la liquidación automática junto con la prioridad de pago.
 
-Tiene dos opciones al liquidar pagos con facturas y otras transacciones. También puede seleccionar manualmente las transacciones para liquidar, o Microsoft Dynamics 365 for Finance and Operations puede seleccionarlas automáticamente mediante la funcionalidad de liquidación automática. También puede personalizar cómo se procesan las liquidaciones automáticas mediante la opción **Priorizar liquidación**. Todas estas opciones son parte de los parámetros de liquidación que se definen en la página **Parámetros de clientes**. La forma en que las transacciones se liquidan automáticamente puede variar en función del método que se usa para la liquidación automática. Están disponibles los siguientes métodos:
+Tiene dos opciones al liquidar pagos con facturas y otras transacciones. También puede seleccionar manualmente las transacciones para liquidar, o Microsoft Dynamics 365 for Finance and Operations puede seleccionar las transacciones automáticamente mediante la funcionalidad de liquidación automática. También puede personalizar cómo se procesan las liquidaciones automáticas mediante la opción **Priorizar liquidación**. Todas estas opciones son parte de los parámetros de liquidación que se definen en la página **Parámetros de clientes**. La forma en que las transacciones se liquidan automáticamente puede variar en función del método que se usa para la liquidación automática. Están disponibles los siguientes métodos:
 
 -   Prioridad de liquidación definida por el usuario
 -   Liquidación automática predeterminada
@@ -44,9 +43,9 @@ Los ejemplos de liquidaciones que se proporcionan más adelante en este artícul
 
 | Transacción   | Fecha        | Importe | Condiciones de descuento por pronto pago | Fecha del descuento por pronto pago | Comentarios                                                                                                                                                                                      |
 |---------------|-------------|--------|---------------------|--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Factura 1     | 15 de agosto   | 100,00 | 2%14, Net 30        | 29 de agosto          |                                                                                                                                                                                               |
-| Factura 2     | 1 de septiembre | 250,00 | 2%14, Net 30        | 15 de septiembre       |                                                                                                                                                                                               |
-| Factura 3     | 15 de octubre  | 500,00 | 2% 14/Net 30        | 29 de octubre         |                                                                                                                                                                                               |
+| Factura 1     | 15 de agosto   | 100,00 | 2%14, Neto 30        | 29 de agosto          |                                                                                                                                                                                               |
+| Factura 2     | 1 de septiembre | 250,00 | 2%14, Neto 30        | 15 de septiembre       |                                                                                                                                                                                               |
+| Factura 3     | Octubre de 15  | 500,00 | 2% 14/Net 30        | 29 de octubre         |                                                                                                                                                                                               |
 | Nota de interés | 15 de octubre  | 7,00   |                     |                    | Esta nota de interés es para la factura 1 y la factura 2. El importe se calcula como un interés del 2 por ciento sobre importes que han vencido hace 30 días o más. Por ejemplo, 0,02 × (100,00 + 250,00) = 7,00. |
 
 ## <a name="user-defined-settlement-priority"></a>Prioridad de liquidación definida por el usuario
@@ -79,7 +78,6 @@ Si no se ha especificado ninguna prioridad de liquidación definida por el usuar
 | Factura 2     | 1/9/2015   | 10002   | 250,00                         | 250,00           | 0,00    | USD      |
 | Factura 3     | 15/10/2015 |         | 500,00                         | 350,00           | 150,00  | USD      |
 | Nota de interés | 15/10/2015 |         | 7,00                           | 0,00             | 0,00    | USD      |
-
 
 
 

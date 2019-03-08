@@ -1,13 +1,13 @@
 ---
 title: Programar capacidad de la carga de trabajo
-description: "Este tema explica cómo configurar y programar la capacidad de carga de trabajo para los trabajadores de un almacén o para un almacén completo."
+description: Este tema explica cómo configurar y programar la capacidad de carga de trabajo para los trabajadores de un almacén o para un almacén completo.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WMSWorkloadCapacity
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
 ms.openlocfilehash: 1b1334dcba7d12f2da301f70e21a08fceb88e2b4
-ms.contentlocale: es-es
-ms.lasthandoff: 08/29/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317301"
 ---
-
 # <a name="schedule-workload-capacity"></a>Programar capacidad de la carga de trabajo
 
 [!include[banner](../includes/banner.md)]
@@ -81,4 +80,3 @@ Si esta información no se especifica correctamente, recibirá un mensaje al gen
 3. En el campo **Tipo de pedido**, seleccione **Planificado y confirmado**, **Planificado**o **Confirmado** , para indicar el tipo de pedidos que desea proyectar en el informe.
 4. En el campo **Tipo de carga**, seleccione un tipo de carga para especificar si la capacidad de la carga de trabajo se debe proyectarse para volumen o para peso.
 5. En el campo **Capacidad de carga de trabajo**, seleccione una configuración para la capacidad de carga de trabajo.
-

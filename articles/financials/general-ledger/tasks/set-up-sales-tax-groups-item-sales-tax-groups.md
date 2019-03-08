@@ -1,13 +1,13 @@
---- 
-title: "Configurar grupos de impuestos y grupos de impuestos de artículos"
-description: "Esta grabación de tarea le guía por la configuración de los impuestos y los grupos de impuestos de artículos."
+---
+title: Configurar grupos de impuestos y grupos de impuestos de artículos
+description: Esta grabación de tarea le guía por la configuración de los impuestos y los grupos de impuestos de artículos.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxGroup,  TaxItemGroup
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: ec5bbe37aa06f18172c417e903538cadc8a6f312
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 4d7f1093edcfff65fd466fa8138b1bb5203648b3
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320061"
 ---
 # <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a>Configurar grupos de impuestos y grupos de impuestos de artículos
 
@@ -49,5 +49,4 @@ Esta grabación de tarea le guía por la configuración de los impuestos y los g
 18. En el campo Código de impuestos, haga clic en el botón desplegable para abrir la búsqueda.
 19. En la lista, haga clic en el vínculo de la fila seleccionada.
 20. Haga clic en Guardar.
-
 

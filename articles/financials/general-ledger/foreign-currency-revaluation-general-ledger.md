@@ -1,13 +1,13 @@
 ---
-title: "Revalorización de divisa extranjera para Contabilidad general"
-description: "Este tema proporciona una visión general de los siguientes pasos para el proceso de revalorización de divisa extranjera de la contabilidad general: configuración, ejecución del proceso, cálculo para el proceso y cómo invertir las transacciones de revalorización, en caso necesario."
+title: Revalorización de divisa extranjera para Contabilidad general
+description: 'Este tema proporciona una visión general de los siguientes pasos para el proceso de revalorización de divisa extranjera de la contabilidad general: configuración, ejecución del proceso, cálculo para el proceso y cómo invertir las transacciones de revalorización, en caso necesario.'
 author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CurrencyLedgerGainLossAccount
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bb04c5a9e7db1a6c6a8d8c7126bfa80208d1fd53
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f967854e9a39c7b2d76559744bbc1e16a53d7f6a
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315553"
 ---
-
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Revalorización de divisa extranjera para Contabilidad general
 
 [!include [banner](../includes/banner.md)]
@@ -116,7 +115,6 @@ Se creará el asiento contable siguiente.
 Si necesita invertir la transacción de revalorización, seleccione el botón **Invertir transacción** de la página de **Revalorización de divisa extranjera**. Un nuevo registro histórico de la revalorización de divisa extranjera se creará para mantener la traza de auditoría histórica de cuándo se produjo o se ha invertido la revalorización. 
 
 Puede invertir los resultados del pedido obsoleto de revalorización, pero puede ser necesario invertir también una revalorización más reciente para asegurar los saldos correctos para cada cuenta principal revalorizada. Las inversiones pueden producir un pedido obsoleto porque no es posible controlar qué cuentas principales se revalorizan y con qué frecuencia. Por ejemplo, una organización puede elegir la revalorización de las cuentas principales de efectivo trimestralmente, pero el resto de las cuentas principales de forma mensual.
-
 
 
 

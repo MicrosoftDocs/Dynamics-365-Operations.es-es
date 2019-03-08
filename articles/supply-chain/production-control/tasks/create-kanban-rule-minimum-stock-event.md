@@ -1,13 +1,13 @@
---- 
-title: "Crear una regla kanban con un evento de existencias mínimas"
-description: "Este procedimiento se centra en la configuración necesaria para crear una regla kanban usando un evento de existencias mínimas para garantizar que un producto específico siempre está disponible en una ubicación específica."
+---
+title: Crear una regla kanban con un evento de existencias mínimas
+description: Este procedimiento se centra en la configuración necesaria para crear una regla kanban usando un evento de existencias mínimas para garantizar que un producto específico siempre está disponible en una ubicación específica.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, InventItemIdLookupSimple, EcoResProductInformationDialog, EcoResProductDetailsExtended, ReqItemTable, InventLocationIdLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 2a9ba8ec2abb26e3b9ee7e14bdf882c1ffcb205b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 0c480b518925a8536ebb77d60fcf1f1a548b097f
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311091"
 ---
 # <a name="create-a-kanban-rule-using-a-minimum-stock-event"></a>Crear una regla kanban con un evento de existencias mínimas
 
@@ -67,5 +67,4 @@ Este procedimiento se centra en la configuración necesaria para crear una regla
     * Seleccione la regla kanban que creó anteriormente.  
 5. Expanda la sección Kanbans.
     * Observe que un kanban se creó para transferir el material necesario para el almacén 12.  
-
 

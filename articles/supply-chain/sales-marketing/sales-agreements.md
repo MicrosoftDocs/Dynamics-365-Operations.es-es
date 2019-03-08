@@ -1,13 +1,13 @@
 ---
 title: Acuerdos de venta
-description: "Este tema proporciona información sobre los acuerdos de ventas. Un acuerdo de venta es un contrato que compromete al cliente a comprar productos en una cantidad específica o por un importe determinado durante un período de tiempo, a cambio de precios especiales y descuentos."
+description: Este tema proporciona información sobre los acuerdos de ventas. Un acuerdo de venta es un contrato que compromete al cliente a comprar productos en una cantidad específica o por un importe determinado durante un período de tiempo, a cambio de precios especiales y descuentos.
 author: omulvad
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesAgreement, SalesAgreementGenerateReleaseOrder, SalesAgreementListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f4ab396d06383e3d6fc7bfab2e01f1afe4aa8fc4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 4db47f445fe820e65389799ddcb6ea4a99949178
-ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309527"
 ---
-
 # <a name="sales-agreements"></a>Acuerdos de venta
 
 [!include [banner](../includes/banner.md)]
@@ -100,7 +99,7 @@ Si ha creado (liberado) un pedido de ventas contra un acuerdo de venta, algunos 
 | Cantidad                                                          | Si especifica una cantidad que excede la cantidad especificada en una línea del acuerdo de venta en la que la casilla de verificación **Máximo aplicado** está activada, un cuadro de mensaje le solicita que guarde la cantidad modificada. Haga clic en **Sí** para quitar el vínculo con la línea del acuerdo de venta y volver a calcular el precio. Haga clic en **No** para quitar el vínculo con la línea del acuerdo de venta sin volver a calcular el precio.                                                            |
 
 ## <a name="returning-an-item-that-was-ordered-from-a-sales-agreement"></a>Devolución de un artículo pedido desde un acuerdo de venta
-Cuando un cliente devuelve un producto que se ha pedido desde un acuerdo de venta, Microsoft Dynamics 365 for Finance and Operations puede buscar y actualizar automáticamente el compromiso del acuerdo de venta relacionado para reflejar el cambio de cantidad o de importe. Con la creación de un pedido de devolución que está basado en el pedido de ventas original que está vinculado a un acuerdo de venta, se establece una relación entre el compromiso del acuerdo de venta, la línea del pedido de ventas y la factura del pedido de devolución.  
+Cuando un cliente devuelve un producto que se pidió desde un acuerdo de venta, Microsoft Dynamics 365 for Finance and Operations puede buscar y actualizar automáticamente el compromiso del acuerdo de venta relacionado para reflejar el cambio de cantidad o importe. Con la creación de un pedido de devolución que está basado en el pedido de ventas original que está vinculado a un acuerdo de venta, se establece una relación entre el compromiso del acuerdo de venta, la línea del pedido de ventas y la factura del pedido de devolución.  
 
 Si no desea deducir la cantidad del artículo devuelto del compromiso del acuerdo de venta, puede usar el control **Quitar vínculo** de la página **Pedido de devolución** para quitar el vínculo entre el pedido de devolución y el compromiso del acuerdo de venta. Si debe restablecer el vínculo más adelante, haga clic en **Crear vínculo**.  
 
@@ -111,7 +110,6 @@ En algunos casos donde se crean indirectamente los pedidos de ventas, por ejempl
 
 ## <a name="financial-dimensions-on-sales-agreements"></a>Dimensiones financieras sobre acuerdos de venta
 Puede copiar dimensiones financieras en encabezados de documentos o en líneas individuales de un acuerdo de venta. Puede modificar las dimensiones en un encabezado o en una línea de acuerdo en cualquier momento. En este caso, las dimensiones se copian automáticamente al encabezado o la línea de liberación de pedidos parciales.
-
 
 
 

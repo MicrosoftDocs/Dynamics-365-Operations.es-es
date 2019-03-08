@@ -1,13 +1,13 @@
 ---
-title: "Creación de pagos de proveedor mediante una propuesta de pago"
-description: "Este tema proporciona una visión general de las opciones de propuesta de pago e incluye algunos ejemplos que muestran cómo funcionan las propuestas de pago."
+title: Creación de pagos de proveedor mediante una propuesta de pago
+description: Este tema proporciona una visión general de las opciones de propuesta de pago e incluye algunos ejemplos que muestran cómo funcionan las propuestas de pago.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 04/04/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 332a18eb98811505b38c023c97c22b86a9367af1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 5afdace14d1db4b36027634b3af3df1029ae12a2
-ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327421"
 ---
-
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Creación de pagos de proveedor mediante una propuesta de pago
 
 [!include [banner](../includes/banner.md)]
@@ -70,19 +69,19 @@ El 1 de julio, April paga a los proveedores. Usa una propuesta de pago para comp
 
 ### <a name="option-1-by-cash-discount"></a>Opción 1: con descuento por pronto pago
 
-April selecciona **Descuento por pronto pago** como tipo de propuesta. specifica un intervalo de fechas del 26 de junio al 10 de julio. Las facturas siguientes se incluyen en la propuesta:
+April selecciona  **Descuento por pronto pago** como tipo de propuesta. Especifica un intervalo de fechas del 26 de junio al 10 de julio. Las facturas siguientes se incluyen en la propuesta:
 
 -   1002, porque la fecha de descuento de 4 de julio está en el intervalo de fechas de pago.
 -   1004, porque la fecha de descuento de 1 de julio está en el intervalo de fechas de pago.
 
 Las siguientes facturas no se incluyen en la propuesta:
 
--   1001, porque ya ha vencido la fecha de descuento del 29 de junio, por lo que esta factura dejará de ser apta para un descuento por pronto pago.
+-   1001, porque ya ha vencido la fecha de descuento del 29 de junio, por lo que esta factura dejará de ser apta para un descuento por pronto pago.
 -   1003, porque esta factura no tiene fecha de descuento.
 
 ### <a name="option-2-by-due-date"></a>Opción 2: Por fecha de vencimiento
 
-April selecciona **Por fecha de vencimiento** como tipo de propuesta. specifica un intervalo de fechas del 26 de junio al 10 de julio. Las facturas siguientes se incluyen en la propuesta:
+April selecciona **Por fecha de vencimiento** como tipo de propuesta. Especifica un intervalo de fechas del 26 de junio al 10 de julio. Las facturas siguientes se incluyen en la propuesta:
 
 -   1003, porque la fecha de vencimiento de 29 de junio está en el intervalo de fechas de pago.
 
@@ -94,7 +93,7 @@ Las siguientes facturas no se incluyen en la propuesta:
 
 ### <a name="option-3-by-due-date-and-cash-discount"></a>Opción 3: Por fecha de vencimiento y descuento por pronto pago
 
-April selecciona **Fecha de vencimiento y descuento por pronto pago** como tipo de propuesta. specifica un intervalo de fechas del 26 de junio al 10 de julio. Las facturas siguientes se incluyen en la propuesta:
+April selecciona **Fecha de vencimiento y descuento por pronto pago** como tipo de propuesta. Especifica un intervalo de fechas del 26 de junio al 10 de julio. Las facturas siguientes se incluyen en la propuesta:
 
 -   1003, porque la fecha de vencimiento de 29 de junio está en el intervalo de fechas de pago.
 -   1002, porque la fecha de descuento de 4 de julio está en el intervalo de fechas de pago.
@@ -120,8 +119,7 @@ El control de dimensión permite controlar la agrupación de líneas generadas p
 
 #### <a name="bank-account-selection"></a>Selección de cuenta bancaria
 
-Puede definir una cuenta estándar de pago a débito por método de pago independientemente del contexto del país. Esto se definirá en las líneas de pago generadas por una propuesta. Con la función de la cuenta bancaria, puede definir varias cuentas bancarias de débito gestionadas por la dimensión y la divisa o una combinación de las anteriores para usar cuentas bancarias de débito diferentes, en función de cada combinación. Puede configurar estas combinaciones en la página de **Métodos de pago** mediante el botón **Cuentas bancarias** disponible para cada forma de pago con **Tipo de cuenta de registro** = **Banco**.
-
+Puede definir una cuenta estándar de pago a débito por método de pago independientemente del contexto del país. Esto se definirá en las líneas de pago generadas por una propuesta. Con la función de la cuenta bancaria, puede definir varias cuentas bancarias de débito gestionadas por la dimensión y la divisa o una combinación de las anteriores para usar cuentas bancarias de débito diferentes, en función de cada combinación. Puede configurar estas combinaciones en la página de **Métodos de pago** mediante el botón  **Cuentas bancarias** disponible para cada forma de pago con **Tipo de cuenta de registro** = **Banco**.
 
 
 

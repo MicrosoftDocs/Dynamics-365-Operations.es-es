@@ -1,32 +1,31 @@
 ---
 title: Abastecimiento con LinkedIn Recruiter
-description: "Este tema proporciona información sobre el uso del aprendizaje automático para obtener recomendaciones del trabajo y del candidato de trabajo."
+description: Este tema proporciona información sobre el uso del aprendizaje automático para obtener recomendaciones del trabajo y del candidato de trabajo.
 author: josaw
 manager: AnnBe
 ms.date: 12/07/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: josaw
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
 ms.openlocfilehash: 9bb323728923ff3b09ff0bfba3849f3c5d84eb34
-ms.contentlocale: es-es
-ms.lasthandoff: 12/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306055"
 ---
-
 # <a name="sourcing-with-linkedin-recruiter"></a>Abastecimiento con LinkedIn Recruiter
 [!include[banner](../includes/banner.md)]
 
@@ -127,7 +126,7 @@ Usando LinkedIn Recruiter, puede saber si un candidato ha solicitado otros traba
 
 ### <a name="inmail-history"></a>Historial de InMail
 
-El historial de LinkedIn InMail está disponible con acceso de nivel de contrato con LinkedIn Recruiter. Cuando se habilita, puede ver el historial completo de InMail con el candidato. También puede ver quién más de su organización ha intercambiado InMail con el candidato, aunque no puede ver los mensajes intercambiados entre ellos.
+E historial de LinkedIn InMail está disponibles con acceso de nivel de contrato con LinkedIn Recruiter. Cuando se habilita, puede ver el historial completo de InMail con el candidato. También puede ver quién más de su organización ha intercambiado InMail con el candidato, aunque no puede ver los mensajes intercambiados entre ellos.
 
 Para ver el historial de InMail, vaya al perfil de un candidato, vaya a la ficha **LinkedIn** y desplácese a la parte inferior de la página para ver el historial. Puede ver el historial de InMail si ha tenido una conversación con el candidato. Los mensajes de InMail se sincronizarán con Attract cada par de horas.
 
@@ -137,9 +136,8 @@ El notas de LinkedIn están disponibles con acceso de nivel de contrato con Link
 
 Para ver el historial de notas, vaya al perfil de un candidato, vaya a la ficha **LinkedIn** y desplácese a la parte inferior de la página para ver el historial. Puede ver todas las notas sobre el candidato desde LinkedIn Recruiter.
 
-### <a name="inmail-stub-profile"></a>Perfil del comprobante de InMail
+### <a name="inmail-stub-profile"></a>Perfil comprobante de InMail
 
 El perfil del comprobante de InMail está disponible con acceso de nivel de contrato con LinkedIn Recruiter. Si los candidatos aceptan compartir sus perfiles de LinkedIn con cualquier usuario de su organización, puede realizar el seguimiento de los candidatos en Attract y se creará un registro de candidato nuevo para cada candidato. Puede ver la dirección de correo electrónico del candidato si el candidato ya existe en el sistema con una dirección de correo electrónico o ha elegido compartir la dirección con el reclutador.
 
 Para ver la lista de candidatos, vaya a **Grupos de talentos** para ver un grupo de talentos de LinkedIn creado por el sistema. Este grupo de talentos contiene la lista de candidatos y sus perfiles de comprobante tal y como se recibieron de LinkedIn, donde se muestra el nombre del candidato y sus apellidos. El identificador de correo electrónico del candidato se mostrará si el candidato había elegido compartir su dirección de correo electrónico.
-

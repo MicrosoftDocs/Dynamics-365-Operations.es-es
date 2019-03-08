@@ -1,13 +1,13 @@
 ---
 title: Cierre de inventario
-description: "Como parte del proceso para liquidar transacciones de emisión con transacciones de recepción, también puede elegir actualizar la contabilidad general para reflejar los ajustes realizados."
+description: Como parte del proceso para liquidar transacciones de emisión con transacciones de recepción, también puede elegir actualizar la contabilidad general para reflejar los ajustes realizados.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventClosing
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a705853ea27d117c99a00893b862348bbac0b9b0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: dfb6b9c2f4bad95c165a8d8a1e888e7a67e66c69
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326501"
 ---
-
 # <a name="inventory-close"></a>Cierre de inventario
 
 [!include [banner](../includes/banner.md)]
@@ -87,7 +86,6 @@ En algunas circunstancias es posible que no pueda hacer nada en relación con la
 En ocasiones, puede ser necesario invertir un cierre de inventario completado para devolver las liquidaciones al estado que tenían antes de realizarse los ajustes. Cuando se invierte un cierre de inventario completado, se abrirá también el inventario de forma que puedan introducirse los registros en el período aplicable al cierre de inventario. También se pueden realizar los cambios relacionados en la contabilidad general. Una vez haya terminado de realizar los ajustes, puede volver a ejecutar el cierre de inventario para el período en el que está trabajando. 
 
 **Nota:** Solo se puede volver a abrir el período correspondiente al último cierre de inventario. Para invertir un cierre anterior del inventario, debe invertir cada cierre posterior de inventario uno a uno, comenzando por el cierre más reciente.
-
 
 
 

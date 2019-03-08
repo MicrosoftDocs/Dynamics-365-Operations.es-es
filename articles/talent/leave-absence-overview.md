@@ -1,13 +1,13 @@
 ---
-title: "Gestión de bajas y ausencias"
-description: "Este tema proporciona una visión general del módulo de Gestión de permisos y ausencias."
+title: Gestión de bajas y ausencias
+description: Este tema proporciona una visión general del módulo de Gestión de permisos y ausencias.
 author: ryansandness
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeaveAbsenceWorkspace
 audience: Application User
 ms.reviewer: rschloma
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: 72bfbb878fa076e204e00c3ccaceb4ba04c00ea9
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306107"
 ---
 # <a name="leave-and-absence-management"></a>Gestión de bajas y ausencias
 
@@ -68,4 +68,3 @@ La gestión de permisos y ausencias proporciona las características siguientes:
 - **Enviar solicitudes de tiempo de reposo**
 
     Los empleados pueden enviar solicitudes de tiempo de reposo de acuerdo con sus horas disponibles. Las solicitudes pueden ser simples, por un solo día, o múltiples, que incluye solicitud de varios tipos de permisos y ausencias. Si un flujo de trabajo no está habilitado, las solicitudes se aprueban automáticamente. Si se habilita un flujo de trabajo, la aprobación puede ser automática, o puede requerir de aprobación, en función de la configuración de flujo de trabajo.
-

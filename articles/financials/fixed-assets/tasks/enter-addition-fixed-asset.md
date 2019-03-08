@@ -1,13 +1,13 @@
---- 
-title: "Especificar una adición para un activo fijo"
-description: "Este procedimiento muestra cómo agregar una adición a un activo fijo existente."
+---
+title: Especificar una adición para un activo fijo
+description: Este procedimiento muestra cómo agregar una adición a un activo fijo existente.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetTable, AssetAddition
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 3c9733f07f995dd37669f3c33fd0f082daa34dd2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 3579148033023f648e1a78a3dd009018f153fdad
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324431"
 ---
 # <a name="enter-an-addition-to-a-fixed-asset"></a>Especificar una adición para un activo fijo
 
@@ -47,5 +47,4 @@ El procedimiento usa el rol de contable y los datos de prueba de la entidad jur�
 11. Haga clic en la pestaña General.
     * Establezca Aumenta el tiempo de vida si la adición incrementa el tiempo de vida del activo.  
     * Este campo es únicamente informativo. Para aumentar el tiempo de vida, modifíquelo en los modelos de valor y/o en los libros de amortización del activo.  
-
 

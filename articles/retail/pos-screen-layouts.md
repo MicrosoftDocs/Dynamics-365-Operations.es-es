@@ -1,13 +1,13 @@
 ---
-title: "Diseños de pantalla para el punto de venta (POS)"
-description: "Este tema proporciona información sobre los diseños de pantalla para experiencias con Microsoft Dynamics 365 for Retail point of sale (POS)."
+title: Diseños de pantalla para el punto de venta (POS)
+description: Este tema proporciona información sobre los diseños de pantalla para experiencias con Microsoft Dynamics 365 for Retail point of sale (POS).
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 91d6e34c25710716788542dabb3bd7d935b2d4ab
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: dda9c8cb7f3da99fb2e7df0372e59769cfaf77d1
-ms.openlocfilehash: ced27adb8fe481270cb008e187693cda96773339
-ms.contentlocale: es-es
-ms.lasthandoff: 11/13/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321901"
 ---
-
 # <a name="screen-layouts-for-the-point-of-sale-pos"></a>Diseños de pantalla para el punto de venta (POS)
 
 [!include [banner](includes/banner.md)]
@@ -51,7 +50,7 @@ Los perfiles visuales se asignan a registros y especifican los elementos visuale
 - **Descripción** – Puede especificar un nombre descriptivo que ayude a identificar el perfil correcto para su situación.
 - **Tema** – Puede seleccionar entre los temas de aplicación claro u oscuro. El tema afecta a los colores de fuente y de fondo en toda la aplicación.
 - **Color de acento** – El color de acento se utiliza en el sistema PDV para distinguir o resaltar elementos visuales específicos como mosaicos, botones de comandos e hipervínculos. Normalmente, estos elementos se pueden accionar.
-- **Color de encabezado** – Puede configurar el color del encabezado de la página para cumplir los requisitos de las marcas del minorista. Esta función solo está disponible en Microsoft Dynamics 365 for Retail, versión 1611.
+- **Color de encabezado** – Puede configurar el color del encabezado de la página para cumplir los requisitos de las marcas del minorista. Esta función solo está disponible en Microsoft Dynamics 365 for Retail versión 1611.
 - **Fondo de inicio de sesión** – Puede especificar una imagen de fondo para la pantalla de inicio de sesión. El tamaño de archivo de las imágenes de fondo se debe mantener lo más pequeño posible, ya que el almacenamiento y la carga de archivos grandes podría afectar al comportamiento y al rendimiento de la aplicación.
 - **Fondo de la aplicación** – Puede especificar una imagen de fondo que se utiliza en lugar del color liso del tema en toda la aplicación. En cuanto a los fondos de inicio de sesión, el tamaño del archivo debe mantenerse lo más pequeño posible.
 
@@ -165,7 +164,7 @@ El diseñador de cuadrícula de botones le permite configurar botones de cuadrí
 - **Propiedades de botón** – Puede configurar las propiedades del botón haciendo clic con el botón derecho en el botón y usando el menú contextual.
 
     > [!IMPORTANT]
-    > Algunos ajustes de la cuadrículo de botones solo se aplican a Enterprise POS, no a Retail Modern POS o Cloud POS.
+    > Algunos ajustes de la cuadrícula de botones solo se aplican a Enterprise POS, no a Retail Modern POS o Cloud POS.
 
     ![Propiedades del botón de cuadrícula de botones](../retail/media/Button-grid-button-properties.png)
 
@@ -185,7 +184,7 @@ El diseñador de cuadrícula de botones le permite configurar botones de cuadrí
     - **Tema personalizado** – De forma predeterminada, los botones de PDV emplean el color de acento del perfil visual. Al seleccionar la casilla de verificación **Usar tema personalizado**, puede especificar colores adicionales.
 
         > [!NOTE]
-        > Retail Modern POS and Cloud POS utilizan solo los valores **Color de fondo** y **Color de fuente**.
+        > Retail Modern POS y Cloud POS utilizan solo los valores **Color de fondo** y **Color de fuente**.
 
     - **Imagen de los botones** – Los botones pueden incluir imágenes o iconos. Seleccione entre las imágenes disponibles que se especifican en **Retail \> Configuración de canal \> Configuración de PDV \> PDV \> Imágenes**.
 
@@ -194,4 +193,3 @@ El diseñador de cuadrícula de botones le permite configurar botones de cuadrí
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Instalar el diseñador de Retail POS](install-pos-layout-designer.md)
-

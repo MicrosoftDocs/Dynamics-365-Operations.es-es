@@ -1,13 +1,13 @@
 ---
-title: "Visión general de previsión de la demanda"
-description: "La previsión de demanda se usa para predecir demanda independiente de pedidos de ventas y demanda dependiente en cualquier momento de desemparejamiento para los pedidos del cliente. Las reglas mejoradas de reducción de la previsión de demanda proporcionan una solución ideal para una personalización global."
+title: Visión general de previsión de la demanda
+description: La previsión de demanda se usa para predecir demanda independiente de pedidos de ventas y demanda dependiente en cualquier momento de desemparejamiento para los pedidos del cliente. Las reglas mejoradas de reducción de la previsión de demanda proporcionan una solución ideal para una personalización global.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a645ee6f7e6085abc6e872d490b078f512c15aa1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 20eb67a341f462328bc73907fb3052b3405190d4
-ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310010"
 ---
-
 # <a name="demand-forecasting-overview"></a>Visión general de previsión de la demanda
 
 [!include [banner](../includes/banner.md)]
@@ -61,7 +60,7 @@ En el siguiente diagrama se muestra el flujo de básico en la previsión de la d
 
 [![diagrama de introducción a la previsión de la demanda](./media/demand-forecasting-introduction.png)](./media/demand-forecasting-introduction.png)
 
-La generación de previsión de la demanda se inicia en Finance and Operations. Los datos históricos de transacción de la base de datos de transacciones de Finance and Operations se recopilan y rellenan una tabla provisional. Esta tabla provisional se alimenta más tarde a un servicio de aprendizaje automático. Con una personalización mínima, puede conectar varios orígenes de datos a la tabla provisional. Los orígenes de datos pueden incluir archivos de Microsoft Excel, archivos con valores separados por coma (CSV), y datos de Microsoft Dynamics AX 2009 y Microsoft Dynamics AX 2012. Por lo tanto, puede generar las previsiones de demanda que tienen en cuenta los datos históricos que aparecen en varios sistemas. Sin embargo, los datos maestros, como los nombres de artículo y unidades de medida, deben ser iguales en todas las fuentes de datos.
+La generación de previsión de la demanda se inicia en Finance and Operations. Los datos históricos de transacción de la base de datos de transacciones de Finance and Operations se recopilan y rellenan una tabla provisional. Esta tabla provisional se alimenta más tarde a un servicio de aprendizaje automático. Con una personalización mínima, puede conectar varios orígenes de datos a la tabla provisional. Los orígenes de datos pueden incluir los archivos Microsoft Excel , los archivos de (CSV) de valores separados por comas, y los datos Microsoft Dynamics AX 2009 y Microsoft Dynamics AX 2012. Por lo tanto, puede generar las previsiones de demanda que tienen en cuenta los datos históricos que aparecen en varios sistemas. Sin embargo, los datos maestros, como los nombres de artículo y unidades de medida, deben ser iguales en todas las fuentes de datos.
 
 Si usa los experimentos de aprendizaje automático de previsión de demanda de Finance and Operations, se busca un mejor ajuste entre cinco métodos de previsión de serie de tiempo para calcular una previsión de línea base. Los parámetros para estos métodos de previsión se gestionan en Finance and Operations. 
 
@@ -88,7 +87,6 @@ La previsión de demanda en Finance and Operations es una herramienta que ayuda 
 [Eliminación de valores atípicos de los datos de transacción históricos al calcular una previsión de la demanda](remove-historical-outliers-calculating-demand-forecast.md)
 
 [Amplíe la funcionalidad de previsión de demanda](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
-
 
 
 

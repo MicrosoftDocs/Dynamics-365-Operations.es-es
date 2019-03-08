@@ -1,13 +1,13 @@
 ---
-title: "Configurar parámetros de recursos humanos (RR. HH.) específicos de la empresa"
-description: "La configuración de algunos parámetros de Recursos Humanos (RR. HH.) se comparten entre empresas, mientras que la configuración de otros parámetros son específicos de la empresa. Este artículo explica cómo configurar parámetros de RR. HH. específicos de la empresa."
+title: Configurar parámetros de recursos humanos (RR. HH.) específicos de la empresa
+description: La configuración de algunos parámetros de Recursos Humanos (RR. HH.) se comparten entre empresas, mientras que la configuración de otros parámetros son específicos de la empresa. Este artículo explica cómo configurar parámetros de RR. HH. específicos de la empresa.
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMParameters
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: f7ecd72a2a6ba4ba15e412e40508462f6ef0d218
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306170"
 ---
-
 # <a name="set-up-company-specific-human-resources-hr-parameters"></a>Configurar parámetros de recursos humanos (RR. HH.) específicos de la empresa
 
 [!include [banner](includes/banner.md)]
@@ -35,7 +34,7 @@ La configuración de algunos parámetros de Recursos Humanos (RR. HH.) se compar
 Se usan dos páginas para definir los parámetros de recursos humanos. Para los parámetros que se comparten entre las empresas, se usa la página **Parámetros compartidos de recursos humanos**. Para los parámetros que son específicos de la empresa (es decir, los ajustes se aplican a una sola empresa), se usa la página **Parámetros de recursos humanos**. En la página **Parámetros de recursos humanos**, los ajustes se dividen en seis pestañas:
 
 -   General
--   Contratación: esto no se incluye en Dynamics 365 for Talent
+-   Contratación - esto no se incluye en Dynamics 365 for Talent
 -   Compensación
 -   Secuencias numéricas
 -   Ley de Ausencia Familiar y Médica
@@ -50,7 +49,7 @@ Los ajustes en la pestaña **Compensación** definen si los usuarios deben confi
 ### <a name="previously-released-functionality"></a>Funcionalidad anteriormente liberada
 Los ajustes en la pestaña **Secuencia numérica** determina las secuencias que se usarán para asignar automáticamente identificadores a elementos de recursos humanos, como solicitudes, registros de ausencias, resultados de procesos de compensación, números de casos, cursos y programaciones de cursos. Para mantener las referencias y los códigos de la secuencia numérica, use la página de lista **Secuencias numéricas** (haga clic en **Administración de la organización** &gt; **Secuencias numéricas** &gt; **Secuencias numéricas**).
 
-### <a name="if-youre-using-dynamics-365-for-talent"></a>Si utiliza Dynamics 365 for Talent
+### <a name="if-youre-using-dynamics-365-for-talent"></a>Si usa Dynamics 365 for Talent
 Los ajustes en la pestaña **Secuencia numérica** determina las secuencias que se usarán para asignar automáticamente identificadores a elementos de recursos humanos, como solicitudes, registros de ausencias, resultados de procesos de compensación, números de casos, cursos y programaciones de cursos. Para mantener las referencias y los códigos de la secuencia numérica, use la página de lista **Secuencias numéricas** (haga clic en **Administración del sistema** &gt; **Ficha Vínculos** &gt; **Secuencias numéricas** &gt; **Secuencias numéricas**). 
 
 Los ajustes en la pestaña **FMLA** definen el número de horas que debe trabajar un empleado para que se puedan aplicar las prestaciones de FMLA, la duración del empleo que se requiere para la idoneidad y la fecha de inicio del empleo que se usa para determinar la duración del empleo. Los parámetros también definen el número de horas de FMLA al que tienen derecho los empleados y el calendario de ausencias de FMLA que se usa para calcular cuántas horas de FMLA han usado los empleados. La pestaña **FMLA** solo está disponible para las empresas en los Estados Unidos. 
@@ -61,7 +60,6 @@ Los ajustes en la pestaña **FMLA** definen el número de horas que debe trabaja
 --------
 
 [Configurar parámetros de recursos humanos en entidades jurídicas](set-up-hr-parameters-across-legal-entities.md)
-
 
 
 

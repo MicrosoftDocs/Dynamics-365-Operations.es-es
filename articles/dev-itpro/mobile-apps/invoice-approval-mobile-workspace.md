@@ -1,13 +1,13 @@
 ---
-title: "Espacio de trabajo móvil Aprobaciones de facturas"
-description: "Este tema proporciona información sobre del espacio de trabajo móvil Aprobaciones de facturas. Este espacio de trabajo proporciona una lista de facturas que se le han asignado a través del proceso de flujo de trabajo del encabezado de factura de proveedor."
+title: Espacio de trabajo móvil Aprobaciones de facturas
+description: Este tema proporciona información sobre del espacio de trabajo móvil Aprobaciones de facturas. Este espacio de trabajo proporciona una lista de facturas que se le han asignado a través del proceso de flujo de trabajo del encabezado de factura de proveedor.
 author: abruer
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -15,21 +15,20 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: ff726670e0fd7566a74e6def73555a7c53b86f97
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 6c95c2779d996f489679c8dda4cda462ba0a05ac
-ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327007"
 ---
-
 # <a name="invoice-approvals-mobile-workspace"></a>Espacio de trabajo móvil Aprobaciones de facturas
 
 [!include [banner](../includes/banner.md)]
 
 Este tema proporciona información sobre del espacio de trabajo móvil **Aprobaciones de facturas**. Este espacio de trabajo proporciona una lista de facturas que se le han asignado a través del proceso de flujo de trabajo del encabezado de factura de proveedor. 
 
-Este espacio de trabajo móvil se debe usar con la aplicación móvil Microsoft Dynamics 365 for Unified Operations.
+Este espacio de trabajo móvil se debe usar con la aplicación Microsoft Dynamics 365 for Unified Operations mobile.
 
 ## <a name="overview"></a>Información general
 
@@ -49,7 +48,7 @@ Para poder usar este espacio de trabajo móvil, antes debe satisfacer los siguie
 </thead>
 <tbody>
 <tr class="odd">
-<td>Microsoft Dynamics 365 for Finance and Operations debe haberse implementando en la organización.</td>
+<td>Microsoft Dynamics 365 for Finance and Operations debe ser implementado en su organización.</td>
 <td>Administrador del sistema</td>
 <td>Consulte <a href="../deployment/deploy-demo-environment.md">Implementar un entorno de demostración</a>.
 </td>
@@ -72,7 +71,7 @@ Descargue e instale la aplicación móvil Dynamics 365 for Unified Operations:
 ## <a name="sign-in-to-the-mobile-app"></a>Iniciar sesión en la aplicación móvil
 
 1.  Inicie la aplicación en su dispositivo móvil.
-2.  Escriba la dirección URL de Microsoft Dynamics 365.
+2.  Especifique la dirección URL Microsoft Dynamics 365.
 3.  La primera vez que se inicie sesión, se le solicitará su nombre de usuario y contraseña. Escriba sus credenciales.
 4.  Tras iniciar sesión, se mostrarán los espacios de trabajo disponibles para su empresa. Tenga en cuenta que si el administrador del sistema publica un nuevo espacio de trabajo más tarde, tendrá que actualizar la lista de espacios de trabajo móviles.
 
@@ -88,4 +87,3 @@ Descargue e instale la aplicación móvil Dynamics 365 for Unified Operations:
 7.  Seleccione **Datos adjuntos** para ver las notas o los archivo que están asociadas a la factura.
 8.  En la página **Detalles de la factura**, seleccione la acción del flujo de trabajo adecuado para completar el proceso de revisión.
 9.  Seleccione **Listo**.
-

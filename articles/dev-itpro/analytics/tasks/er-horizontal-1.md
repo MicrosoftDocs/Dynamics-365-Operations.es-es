@@ -1,13 +1,13 @@
---- 
-title: "ER Usar los intervalos horizontalmente ensanchables para agregar de forma dinámica columnas en Excel (Parte 1: Diseño de formato)"
-description: "En los pasos siguientes se explica cómo un usuario asignado al administrador del sistema o al rol de desarrollador de informes electrónicos, puede configurar un formato electrónico (ER) para generar informes mientras que los archivos de las hojas de cálculo de Excel (OPENXML) en los que las columnas necesarias se pueden crear de forma dinámica como intervalos horizontalmente ensanchables."
+---
+title: 'ER Usar los intervalos horizontalmente ensanchables para agregar de forma dinámica columnas en Excel (Parte 1: Diseño de formato)'
+description: En los pasos siguientes se explica cómo un usuario asignado al administrador del sistema o al rol de desarrollador de informes electrónicos, puede configurar un formato electrónico (ER) para generar informes mientras que los archivos de las hojas de cálculo de Excel (OPENXML) en los que las columnas necesarias se pueden crear de forma dinámica como intervalos horizontalmente ensanchables.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 7f0481a09e2ff4ae06fc53011067050c3373d6bc
-ms.contentlocale: es-es
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319624"
 ---
 # <a name="er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-1-design-format"></a>Informe electrónico Usar intervalos expandibles horizontalmente para agregar columnas dinámicamente en los informes de Excel (Parte 1: Diseño de formato)
 
@@ -39,7 +39,7 @@ Para completar estos pasos, primero debe completar estas tres guías de tarea:
 
 También debe descargar y guardar una copia local de la plantilla con un informe de ejemplo que se encuentra aquí, [Informe de ejemplo de servicio web de dimensiones financieras](https://go.microsoft.com/fwlink/?linkid=862266).
 
-Este procedimiento es para una función que se ha añadido en la versión 1611 de Dynamics 365 for Operations.
+Este procedimiento es para una función que se ha agregado en la versión 1611 de Dynamics 365 for Operations.
 
 
 ## <a name="create-a-new-report-configuration"></a>Cree una nueva configuración del informe.
@@ -148,5 +148,4 @@ Este procedimiento es para una función que se ha añadido en la versión 1611 d
 48. Haga clic en Enlazar.
 49. Haga clic en Guardar.
 50. Cierre la página.
-
 

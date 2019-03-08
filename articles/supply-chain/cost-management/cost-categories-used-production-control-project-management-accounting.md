@@ -1,13 +1,13 @@
 ---
-title: "Categorías de coste usadas en el control de producción y en la contabilidad de la administración de proyectos"
-description: "Algunos tipos de trabajo de producción se pueden aplicar a estimaciones del tiempo del proyecto y a los informes. Este artículo proporciona información acerca de las categorías de coste que debe definir para estos tipos de trabajos de producción con fines de producción y del proyecto."
+title: Categorías de coste usadas en el control de producción y en la contabilidad de la administración de proyectos
+description: Algunos tipos de trabajo de producción se pueden aplicar a estimaciones del tiempo del proyecto y a los informes. Este artículo proporciona información acerca de las categorías de coste que debe definir para estos tipos de trabajos de producción con fines de producción y del proyecto.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjCategory
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: cab4629740e92f9075b7afc7a5d228b2e01c4664
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d641ce950aed87b0cf6763fc9dae67ef47268b8d
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326041"
 ---
-
 # <a name="cost-categories-used-in-production-control-and-project-management-accounting"></a>Categorías de coste usadas en el control de producción y en la contabilidad de la administración de proyectos
 
 [!include [banner](../includes/banner.md)]
@@ -42,7 +41,6 @@ Algunos tipos de trabajo de producción se pueden aplicar a estimaciones del tie
 -   Normalmente, las cuentas contables relacionadas con costes y ventas se definen para el grupo de categorías asignado a la categoría de coste. Sin embargo, se pueden definir cuentas específicas para una categoría de coste individual.
 
 Los botones adicionales de la página **Categorías de coste** le permiten acceso a la información relativa al proyecto, acerca de una categoría de costes seleccionada. Por ejemplo, puede ver transacciones relacionadas con el proyecto, definir empleados o proyectos, definir costes por hora y precios de venta, y ver informes.
-
 
 
 

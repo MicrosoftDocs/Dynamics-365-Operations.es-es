@@ -1,32 +1,31 @@
 ---
 title: Crear, aprobar y publicar trabajos en Attract
-description: "Este tema describe los elementos de un trabajo en Attract. También se explica cómo crear un trabajo."
+description: Este tema describe los elementos de un trabajo en Attract. También se explica cómo crear un trabajo.
 author: josaw
 manager: AnnBe
 ms.date: 12/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: josaw
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 95031534c43dc0578e258bc3e5376c429d72b0ab
 ms.openlocfilehash: 6c5daa4050d63303f1ac10c24901e5b1182cb62b
-ms.contentlocale: es-es
-ms.lasthandoff: 12/23/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306129"
 ---
-
 # <a name="create-approve-and-post-jobs-in-attract"></a>Crear, aprobar y publicar trabajos en Attract
 
 [!include [banner](includes/banner.md)]
@@ -45,7 +44,7 @@ La pestaña **Detalles del trabajo** contiene detalles sobre las responsabilidad
 
 De forma predeterminada, el campo **Número de vacantes** se establece en **1**. Sin embargo, se puede cambiar este valor. Cuando una oferta se ha preparado para un trabajo, el valor del campo **Número de vacantes disponibles** disminuye.
 
-Si se ha activado la gestión del puesto en el Centro de administración, la búsqueda **Actualizar puestos** está disponible. Esta búsqueda lee la entidad JobPosition en el Common Data Service para las aplicaciones y devuelve una lista de puestos que se pueden seleccionar para el trabajo. Si el número de puestos que selecciona supera el número de puestos vacantes, se mostrará una advertencia. También recibe una advertencia si un puesto se utiliza en varios trabajos.
+Si se ha activado la gestión del puesto en el Centro de administración, la búsqueda **Actualizar puestos** está disponible. Esta búsqueda lee la entidad JobPosition en el Common Data Service for Apps y devuelve una lista de puestos que se pueden seleccionar para el trabajo. Si el número de puestos que selecciona supera el número de puestos vacantes, se mostrará una advertencia. También recibe una advertencia si un puesto se utiliza en varios trabajos.
 
 > [!NOTE]
 > La gestión de puestos está disponible con el complemento de contratación completa.
@@ -127,7 +126,7 @@ Una vez guardado un trabajo, puede ser enviado para su aprobación. En la tabla 
 
 En la lista de trabajos, puede filtrar por los estados de trabajo.
 
-Las aprobaciones se pueden enviar a cualquier usuario de Microsoft Azure Active Directory (Azure AD) de la empresa. Las aprobaciones se envían en paralelo a todas las personas que aparecen como aprobadores. Después de que se apruebe un trabajo, este se puede activar.
+Las aprobaciones se pueden enviar a cualquier usuario de Microsoft Azure Active Directory (Azure AD) en la empresa. Las aprobaciones se envían en paralelo a todas las personas que aparecen como aprobadores. Después de que se apruebe un trabajo, este se puede activar.
 
 Las personas que figuran como aprobadores recibirán una notificación en Attract para informarles de que tienen un elemento por aprobar. También aparecerá un elemento de aprobación en la sección **Asignadas a usted** en el panel. Una vez que alguien acepte o aprueebe un trabajo, el equipo de contratación recibirá una notificación. Finalmente, el equipo de contratación recibirá una notificación cuando se apruebe el trabajo.
 
@@ -162,11 +161,10 @@ Siga estos pasos para crear un trabajo.
 11. Seleccione **Guardar**.
 12. Si ha seleccionado usar un proceso de aprobación, siga estos pasos:
 
-    1. Seleccione **+ Agregar aprobador**y, a continuación, especifique un usuario que tenga una cuenta Azure AD. Puede agregar varios aprobadores.
+    1. Seleccione **+ Agregar aprobador** y, a continuación, especifique un usuario que tenga una cuenta Azure AD. Puede agregar varios aprobadores.
     2. Seleccione **Enviar a aprobadores**.
 
     El campo **Estado del trabajo** del trabajo se establece en **Pendiente**. Una vez que el valor de **Estado del trabajo** cambia a **Aprobado**, el trabajo se puede activar.
 
 13. Para activar el trabajo, seleccione **Activar**.
 14. Para registrar el trabajo, vaya a **Registros** y, a continuación, seleccione **Registrar ahora** en el sitio de carreras de Talent o en LinkedIn.
-
