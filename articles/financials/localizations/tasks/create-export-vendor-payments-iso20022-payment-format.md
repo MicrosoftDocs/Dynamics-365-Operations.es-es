@@ -1,13 +1,13 @@
---- 
-title: "Creación y exportación de pagos de proveedor mediante el formato de pago de ISO20022"
-description: "Este procedimiento muestra cómo crear líneas de pago en el diario de pago de proveedor y generar un archivo de pago de proveedor utilizando el ejemplo ISO2022 Transferencia de crédito."
+---
+title: Creación y exportación de pagos de proveedor mediante el formato de pago de ISO20022
+description: Este procedimiento muestra cómo crear líneas de pago en el diario de pago de proveedor y generar un archivo de pago de proveedor utilizando el ejemplo ISO2022 Transferencia de crédito.
 author: mrolecki
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 01/17/2019
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransVendPaym, SysQueryForm, VendPaymProposalEdit, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: shylaw
@@ -16,41 +16,37 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: b589d64a4446420164175b41f435cf48daac01a9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
-ms.openlocfilehash: 032f1f09fd017a2ae8cf5973d9f5c6ee99ca797f
-ms.contentlocale: es-es
-ms.lasthandoff: 09/14/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340554"
 ---
-# <a name="create-and-export-vendor-payments-using-iso20022-payment-format"></a><span data-ttu-id="4221c-103">Creación y exportación de pagos de proveedor mediante el formato de pago de ISO20022</span><span class="sxs-lookup"><span data-stu-id="4221c-103">Create and export vendor payments using ISO20022 payment format</span></span>
+# <a name="create-and-export-vendor-payments-using-iso20022-payment-format"></a><span data-ttu-id="0417f-103">Creación y exportación de pagos de proveedor mediante el formato de pago de ISO20022</span><span class="sxs-lookup"><span data-stu-id="0417f-103">Create and export vendor payments using ISO20022 payment format</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="4221c-104">Este procedimiento muestra cómo crear líneas de pago en el diario de pago de proveedor y generar un archivo de pago de proveedor utilizando el ejemplo ISO2022 Transferencia de crédito.</span><span class="sxs-lookup"><span data-stu-id="4221c-104">This procedure shows how to create payment lines in the vendor payment journal and generate a vendor payment file using ISO2022 Credit transfer example.</span></span> 
+<span data-ttu-id="0417f-104">Este tema muestra cómo crear líneas de pago en el diario de pago de proveedor y generar un archivo de pago de proveedor utilizando el ejemplo ISO2022 Transferencia de crédito.</span><span class="sxs-lookup"><span data-stu-id="0417f-104">This topic explains how to create payment lines in the vendor payment journal and generate a vendor payment file using ISO2022 Credit transfer example.</span></span>
 
-<span data-ttu-id="4221c-105">La empresa de datos de demostración utilizada para crear este procedimiento es DEMF.</span><span class="sxs-lookup"><span data-stu-id="4221c-105">The demo data company used to create this procedure is DEMF.</span></span>
+<span data-ttu-id="0417f-105">Este es el quinto procedimiento, de cinco, que muestra el proceso de pago del proveedor mediante las configuraciones de informes electrónicos.</span><span class="sxs-lookup"><span data-stu-id="0417f-105">This is the fifth procedure, out of five, that illustrates the vendor payment process using electronic reporting configurations.</span></span> <span data-ttu-id="0417f-106">Use los datos de demostración de DEMF para completar este ejemplo.</span><span class="sxs-lookup"><span data-stu-id="0417f-106">Use the DEMF demo data to complete this example.</span></span>
 
-<span data-ttu-id="4221c-106">Este es el quinto procedimiento, de cinco, que muestra el proceso de pago del proveedor mediante las configuraciones de informes electrónicos.</span><span class="sxs-lookup"><span data-stu-id="4221c-106">This is the fifth procedure, out of five, that illustrates the vendor payment process using electronic reporting configurations.</span></span> <span data-ttu-id="4221c-107">Este procedimiento es para una función que se ha añadido en la versión 1611 de Dynamics 365 for Operations.</span><span class="sxs-lookup"><span data-stu-id="4221c-107">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
+## <a name="example"></a><span data-ttu-id="0417f-107">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="0417f-107">Example</span></span>
 
-
-## <a name="create-payment-lines"></a><span data-ttu-id="4221c-108">Creación de líneas de pago</span><span class="sxs-lookup"><span data-stu-id="4221c-108">Create payment lines</span></span>
-1. <span data-ttu-id="4221c-109">Vaya a Proveedores > Pagos > Diario de pagos.</span><span class="sxs-lookup"><span data-stu-id="4221c-109">Go to Accounts payable > Payments > Payment journal.</span></span>
-2. <span data-ttu-id="4221c-110">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="4221c-110">Click New.</span></span>
-3. <span data-ttu-id="4221c-111">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="4221c-111">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="4221c-112">En el campo Nombre, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="4221c-112">In the Name field, enter or select a value.</span></span>
-5. <span data-ttu-id="4221c-113">Haga clic en Líneas.</span><span class="sxs-lookup"><span data-stu-id="4221c-113">Click Lines.</span></span>
-6. <span data-ttu-id="4221c-114">Haga clic en Propuesta de pago.</span><span class="sxs-lookup"><span data-stu-id="4221c-114">Click Payment proposal.</span></span>
-7. <span data-ttu-id="4221c-115">Haga clic en Crear propuesta de pago.</span><span class="sxs-lookup"><span data-stu-id="4221c-115">Click Create payment proposal.</span></span>
-8. <span data-ttu-id="4221c-116">Expanda la sección Registros que incluir.</span><span class="sxs-lookup"><span data-stu-id="4221c-116">Expand the Records to include section.</span></span>
-9. <span data-ttu-id="4221c-117">Haga clic en Filtro.</span><span class="sxs-lookup"><span data-stu-id="4221c-117">Click Filter.</span></span>
-10. <span data-ttu-id="4221c-118">En la lista, seleccione la fila para la tabla Proveedores y el campo Cuenta de proveedor.</span><span class="sxs-lookup"><span data-stu-id="4221c-118">In the list, select the row for Vendors table and Vendor account field.</span></span>
-11. <span data-ttu-id="4221c-119">En el campo Criterios, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="4221c-119">In the Criteria field, enter or select a value.</span></span>
-    * <span data-ttu-id="4221c-120">Puede aplicar cualquier criterio para seleccionar transacciones de proveedor para pagar, por ejemplo, use DE-001 como cuenta de proveedor.</span><span class="sxs-lookup"><span data-stu-id="4221c-120">You can apply any criteria for selecting vendor transactions to pay, for this example use DE-001 as a vendor account.</span></span>  
-12. <span data-ttu-id="4221c-121">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="4221c-121">Click OK.</span></span>
-13. <span data-ttu-id="4221c-122">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="4221c-122">Click OK.</span></span>
-14. <span data-ttu-id="4221c-123">Haga clic en Crear pagos.</span><span class="sxs-lookup"><span data-stu-id="4221c-123">Click Create payments.</span></span>
-
-## <a name="generate-an-iso20022-payment-file"></a><span data-ttu-id="4221c-124">Generación de un archivo de pago ISO20022</span><span class="sxs-lookup"><span data-stu-id="4221c-124">Generate an ISO20022 payment file</span></span>
-
+1.  <span data-ttu-id="0417f-108">Vaya a **Proveedores > Pagos > Diario de pagos**.</span><span class="sxs-lookup"><span data-stu-id="0417f-108">Go to **Accounts payable > Payments > Payment journal**.</span></span>
+2.  <span data-ttu-id="0417f-109">Haga clic en **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="0417f-109">Click **New**.</span></span>
+3.  <span data-ttu-id="0417f-110">En el campo **Nombre**, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="0417f-110">In the **Name** field, enter or select a value.</span></span>
+4.  <span data-ttu-id="0417f-111">Haga clic en **Líneas > Propuesta de pago > Crear propuesta de pago**.</span><span class="sxs-lookup"><span data-stu-id="0417f-111">Click **Lines > Payment proposal > Create payment proposal**.</span></span>
+5.  <span data-ttu-id="0417f-112">Expanda la sección **Registros que incluir**.</span><span class="sxs-lookup"><span data-stu-id="0417f-112">Expand the **Records to include** section.</span></span>
+6.  <span data-ttu-id="0417f-113">Haga clic en **Filtro.**</span><span class="sxs-lookup"><span data-stu-id="0417f-113">Click **Filter**.</span></span>
+7.  <span data-ttu-id="0417f-114">En la lista, seleccione la fila para la **tabla Proveedores** y el **campo Cuenta de proveedor**.</span><span class="sxs-lookup"><span data-stu-id="0417f-114">In the list, select the row for **Vendors table** and **Vendor account field**.</span></span>
+8.  <span data-ttu-id="0417f-115">En el campo **Criterios**, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="0417f-115">In the **Criteria** field, enter or select a value.</span></span> <span data-ttu-id="0417f-116">Puede aplicar cualquier criterio para seleccionar transacciones de proveedor para pagar, por ejemplo, use DE-001 como cuenta de proveedor.</span><span class="sxs-lookup"><span data-stu-id="0417f-116">You can apply any criteria for selecting vendor transactions to pay, for this example, use DE-001 as a vendor account.</span></span>
+12. <span data-ttu-id="0417f-117">Haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="0417f-117">Click **OK**.</span></span>
+13. <span data-ttu-id="0417f-118">Haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="0417f-118">Click **OK**.</span></span>
+14. <span data-ttu-id="0417f-119">Haga clic en **Crear pagos**.</span><span class="sxs-lookup"><span data-stu-id="0417f-119">Click **Create payments**.</span></span>
+15. <span data-ttu-id="0417f-120">Generación de un archivo de pago ISO20022.</span><span class="sxs-lookup"><span data-stu-id="0417f-120">Generate an ISO20022 payment file.</span></span>
+    1.  <span data-ttu-id="0417f-121">Haga clic en **Generar pagos**.</span><span class="sxs-lookup"><span data-stu-id="0417f-121">Click **Generate payments**.</span></span>
+    2.  <span data-ttu-id="0417f-122">En el campo **Método de pago**, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="0417f-122">In the **Method of payment** field, enter or select a value.</span></span>
+    3.  <span data-ttu-id="0417f-123">En el campo **Nombre de archivo**, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="0417f-123">In the **File name** field, type a value.</span></span> <span data-ttu-id="0417f-124">Para este ejemplo, debido al pago de euros, el archivo generado cumplirá con la SEPA.</span><span class="sxs-lookup"><span data-stu-id="0417f-124">For this example, because of the EUR payment, the generated file will be SEPA compliant.</span></span> <span data-ttu-id="0417f-125">La transferencia de crédito ISO20022 así como los formatos de pago de otro proveedor también se pueden utilizar para generar pagos en otras divisas.</span><span class="sxs-lookup"><span data-stu-id="0417f-125">ISO20022 credit transfer as well as other vendor payment formats can also be used for generating payments in other currencies.</span></span>
+    4.  <span data-ttu-id="0417f-126">En el campo **Cuenta bancaria**, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="0417f-126">In the **Bank account** field, enter or select a value.</span></span>
 

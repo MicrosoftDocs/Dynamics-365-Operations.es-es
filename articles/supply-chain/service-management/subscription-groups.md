@@ -1,59 +1,57 @@
 ---
-title: "Grupos de suscripción"
+title: Grupos de suscripción
 description: Este tema delinea lo que se define en el grupo de suscripciones.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMASubscriptionGroup
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: b589a6ce02cdc02436e256f9e81346fe8b766687
 ms.openlocfilehash: 75fd373908fad29f7f604ff6642753ba731775c8
-ms.contentlocale: es-es
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361047"
 ---
-
-# <a name="subscription-groups"></a><span data-ttu-id="46ac1-103">Grupos de suscripción</span><span class="sxs-lookup"><span data-stu-id="46ac1-103">Subscription groups</span></span>    
+# <a name="subscription-groups"></a><span data-ttu-id="659b6-103">Grupos de suscripción</span><span class="sxs-lookup"><span data-stu-id="659b6-103">Subscription groups</span></span>    
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="46ac1-104">Las suscripciones comparten la información siguiente, que se define para el grupo de suscripciones:</span><span class="sxs-lookup"><span data-stu-id="46ac1-104">Subscriptions share the following information, which is defined for the subscription group:</span></span>
+<span data-ttu-id="659b6-104">Las suscripciones comparten la información siguiente, que se define para el grupo de suscripciones:</span><span class="sxs-lookup"><span data-stu-id="659b6-104">Subscriptions share the following information, which is defined for the subscription group:</span></span>
 
-  - <span data-ttu-id="46ac1-105">El código de secuencia numérica para la suscripción, si existe.</span><span class="sxs-lookup"><span data-stu-id="46ac1-105">Number sequence code for the subscription, if any.</span></span>
+  - <span data-ttu-id="659b6-105">El código de secuencia numérica para la suscripción, si existe.</span><span class="sxs-lookup"><span data-stu-id="659b6-105">Number sequence code for the subscription, if any.</span></span>
 
-  - <span data-ttu-id="46ac1-106">El período de facturación para la que se crean transacciones de suscripción.</span><span class="sxs-lookup"><span data-stu-id="46ac1-106">The invoicing period for which subscription transactions are created.</span></span> <span data-ttu-id="46ac1-107">Por ejemplo, si el código de período **Facturación** del formulario **Grupos de suscripciones** se establece en **Trimestral**, las transacciones para todas las suscripciones vinculadas al grupo de suscripciones se crearán cada trimestre.</span><span class="sxs-lookup"><span data-stu-id="46ac1-107">For example, if the **Invoicing** period code in the **Subscription groups** form is set to **Quarterly**, transactions for all subscriptions that are attached to the subscription group are created on a quarterly basis.</span></span>
+  - <span data-ttu-id="659b6-106">El período de facturación para la que se crean transacciones de suscripción.</span><span class="sxs-lookup"><span data-stu-id="659b6-106">The invoicing period for which subscription transactions are created.</span></span> <span data-ttu-id="659b6-107">Por ejemplo, si el código de período **Facturación** del formulario **Grupos de suscripciones** se establece en **Trimestral**, las transacciones para todas las suscripciones vinculadas al grupo de suscripciones se crearán cada trimestre.</span><span class="sxs-lookup"><span data-stu-id="659b6-107">For example, if the **Invoicing** period code in the **Subscription groups** form is set to **Quarterly**, transactions for all subscriptions that are attached to the subscription group are created on a quarterly basis.</span></span>
 
-  - <span data-ttu-id="46ac1-108">La frecuencia, si la hay, con la que se debe acumular la suscripción.</span><span class="sxs-lookup"><span data-stu-id="46ac1-108">How frequently the subscription is to be accrued, if at all.</span></span>
+  - <span data-ttu-id="659b6-108">La frecuencia, si la hay, con la que se debe acumular la suscripción.</span><span class="sxs-lookup"><span data-stu-id="659b6-108">How frequently the subscription is to be accrued, if at all.</span></span>
 
-<span data-ttu-id="46ac1-109">También se pueden realizar las tareas siguientes para todas las suscripciones vinculadas al grupo de suscripciones:</span><span class="sxs-lookup"><span data-stu-id="46ac1-109">You can also complete the following tasks for all subscriptions that are attached to the subscription group:</span></span>
+<span data-ttu-id="659b6-109">También se pueden realizar las tareas siguientes para todas las suscripciones vinculadas al grupo de suscripciones:</span><span class="sxs-lookup"><span data-stu-id="659b6-109">You can also complete the following tasks for all subscriptions that are attached to the subscription group:</span></span>
 
-  - <span data-ttu-id="46ac1-110">Crear transacciones de suscripción.</span><span class="sxs-lookup"><span data-stu-id="46ac1-110">Create subscription transactions.</span></span>
+  - <span data-ttu-id="659b6-110">Crear transacciones de suscripción.</span><span class="sxs-lookup"><span data-stu-id="659b6-110">Create subscription transactions.</span></span>
 
-  - <span data-ttu-id="46ac1-111">Actualizar el precio base o índice de las suscripciones.</span><span class="sxs-lookup"><span data-stu-id="46ac1-111">Update the base price or the index for the subscriptions.</span></span>
+  - <span data-ttu-id="659b6-111">Actualizar el precio base o índice de las suscripciones.</span><span class="sxs-lookup"><span data-stu-id="659b6-111">Update the base price or the index for the subscriptions.</span></span>
 
-  - <span data-ttu-id="46ac1-112">Registrar los ingresos acumulados para las transacciones de suscripción.</span><span class="sxs-lookup"><span data-stu-id="46ac1-112">Post accrued revenue for subscription transactions.</span></span>
+  - <span data-ttu-id="659b6-112">Registrar los ingresos acumulados para las transacciones de suscripción.</span><span class="sxs-lookup"><span data-stu-id="659b6-112">Post accrued revenue for subscription transactions.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="46ac1-113">Consulte también</span><span class="sxs-lookup"><span data-stu-id="46ac1-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="659b6-113">Consulte también</span><span class="sxs-lookup"><span data-stu-id="659b6-113">See also</span></span>
 
-<span data-ttu-id="46ac1-114">[Grupos de suscripciones (formulario)](https://technet.microsoft.com/en-us/library/aa553150\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="46ac1-114">[Subscription groups (form)](https://technet.microsoft.com/en-us/library/aa553150\(v=ax.60\))</span></span>
+<span data-ttu-id="659b6-114">[Grupos de suscripciones (formulario)](https://technet.microsoft.com/en-us/library/aa553150\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="659b6-114">[Subscription groups (form)](https://technet.microsoft.com/en-us/library/aa553150\(v=ax.60\))</span></span>
 
-[<span data-ttu-id="46ac1-115">Configurar grupos de suscripciones</span><span class="sxs-lookup"><span data-stu-id="46ac1-115">Set up subscription groups</span></span>](set-up-subscription-groups.md)
+[<span data-ttu-id="659b6-115">Configurar grupos de suscripciones</span><span class="sxs-lookup"><span data-stu-id="659b6-115">Set up subscription groups</span></span>](set-up-subscription-groups.md)
 
   
-
 
 

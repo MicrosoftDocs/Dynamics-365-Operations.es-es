@@ -1,13 +1,13 @@
---- 
+---
 title: Configurar y ejecutar trabajo para registrar extractos
-description: "Este procedimiento le muestra la configuración y ejecución de un trabajo por lotes periódico para registrar extractos para una tienda seleccionada o un grupo de tiendas."
+description: Este procedimiento le muestra la configuración y ejecución de un trabajo por lotes periódico para registrar extractos para una tienda seleccionada o un grupo de tiendas.
 author: josaw1
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailChannelOperationsWorkspace, RetailOperatingUnitPicker, SysRecurrence
 audience: Application User
 ms.reviewer: josaw
@@ -17,30 +17,29 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 676216d90c50c0d3fa1a839cab7a734e624708ba
-ms.contentlocale: es-es
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346304"
 ---
-# <a name="configure-and-run-job-to-post-statements"></a><span data-ttu-id="13fdd-103">Configurar y ejecutar trabajo para registrar extractos</span><span class="sxs-lookup"><span data-stu-id="13fdd-103">Configure and run job to post statements</span></span>
+# <a name="configure-and-run-job-to-post-statements"></a><span data-ttu-id="ef97f-103">Configurar y ejecutar trabajo para registrar extractos</span><span class="sxs-lookup"><span data-stu-id="ef97f-103">Configure and run job to post statements</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-<span data-ttu-id="13fdd-104">Este procedimiento le muestra la configuración y ejecución de un trabajo por lotes periódico para registrar extractos para una tienda seleccionada o un grupo de tiendas.</span><span class="sxs-lookup"><span data-stu-id="13fdd-104">This procedure walks through configuring and running a recurrent batch job to post statements for a selected store or group of stores.</span></span> <span data-ttu-id="13fdd-105">Este procedimiento usa la empresa USRT en los datos de demostración.</span><span class="sxs-lookup"><span data-stu-id="13fdd-105">This procedure uses the USRT company in demo data.</span></span>
+<span data-ttu-id="ef97f-104">Este procedimiento le muestra la configuración y ejecución de un trabajo por lotes periódico para registrar extractos para una tienda seleccionada o un grupo de tiendas.</span><span class="sxs-lookup"><span data-stu-id="ef97f-104">This procedure walks through configuring and running a recurrent batch job to post statements for a selected store or group of stores.</span></span> <span data-ttu-id="ef97f-105">Este procedimiento usa la empresa USRT en los datos de demostración.</span><span class="sxs-lookup"><span data-stu-id="ef97f-105">This procedure uses the USRT company in demo data.</span></span>
 
-1. <span data-ttu-id="13fdd-106">Vaya a Todos los espacios de trabajo > ..</span><span class="sxs-lookup"><span data-stu-id="13fdd-106">Go to All workspaces > ..</span></span> <span data-ttu-id="13fdd-107">> Operaciones financieras de tienda.</span><span class="sxs-lookup"><span data-stu-id="13fdd-107">> Retail store financials.</span></span>
-2. <span data-ttu-id="13fdd-108">Haga clic en Registrar extractos.</span><span class="sxs-lookup"><span data-stu-id="13fdd-108">Click Post statements.</span></span>
-    * <span data-ttu-id="13fdd-109">Seleccione una jerarquía organizativa y en el árbol de nodos de la organización, seleccione un nodo o una tienda individual.</span><span class="sxs-lookup"><span data-stu-id="13fdd-109">Select an organizational hierarchy and then in the organization nodes tree, select either an individual store or a node.</span></span> <span data-ttu-id="13fdd-110">Seleccione un nodo si desea crear el trabajo por lotes para un grupo de tiendas.</span><span class="sxs-lookup"><span data-stu-id="13fdd-110">Select a node if you want to create the batch job for a group of stores.</span></span>  
-    * <span data-ttu-id="13fdd-111">Haga clic en la flecha para agregar su selección.</span><span class="sxs-lookup"><span data-stu-id="13fdd-111">Click the arrow to add your selection.</span></span>  
-3. <span data-ttu-id="13fdd-112">Haga clic en la ficha Ejecutar en segundo plano.</span><span class="sxs-lookup"><span data-stu-id="13fdd-112">Click the Run in the background tab.</span></span>
-4. <span data-ttu-id="13fdd-113">Active o desactive la casilla Procesamiento por lotes.</span><span class="sxs-lookup"><span data-stu-id="13fdd-113">Check or uncheck the Batch processing checkbox.</span></span>
-5. <span data-ttu-id="13fdd-114">Haga clic en Periodicidad.</span><span class="sxs-lookup"><span data-stu-id="13fdd-114">Click Recurrence.</span></span>
-6. <span data-ttu-id="13fdd-115">En el campo Fecha inicial, especifique una fecha.</span><span class="sxs-lookup"><span data-stu-id="13fdd-115">In the Start date field, enter a date.</span></span>
-7. <span data-ttu-id="13fdd-116">Especifique una hora en el campo Hora inicial.</span><span class="sxs-lookup"><span data-stu-id="13fdd-116">In the Start time field, enter a time.</span></span>
-    * <span data-ttu-id="13fdd-117">Seleccione si desea finalizar la periodicidad después de un número específico de ejecuciones, en una fecha concreta, o nunca.</span><span class="sxs-lookup"><span data-stu-id="13fdd-117">Choose whether you want to end the recurrence after a specific number of runs, at a specific date, or never.</span></span> <span data-ttu-id="13fdd-118">A continuación, elija las diversas opciones para definir la frecuencia con la que desea ejecutar el trabajo.</span><span class="sxs-lookup"><span data-stu-id="13fdd-118">Then choose the various options to define how frequently you want the job to run.</span></span>  
-8. <span data-ttu-id="13fdd-119">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="13fdd-119">Click OK.</span></span>
-9. <span data-ttu-id="13fdd-120">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="13fdd-120">Click OK.</span></span>
-
+1. <span data-ttu-id="ef97f-106">Vaya a Todos los espacios de trabajo > ..</span><span class="sxs-lookup"><span data-stu-id="ef97f-106">Go to All workspaces > ..</span></span> <span data-ttu-id="ef97f-107">> Operaciones financieras de tienda.</span><span class="sxs-lookup"><span data-stu-id="ef97f-107">> Retail store financials.</span></span>
+2. <span data-ttu-id="ef97f-108">Haga clic en Registrar extractos.</span><span class="sxs-lookup"><span data-stu-id="ef97f-108">Click Post statements.</span></span>
+    * <span data-ttu-id="ef97f-109">Seleccione una jerarquía organizativa y en el árbol de nodos de la organización, seleccione un nodo o una tienda individual.</span><span class="sxs-lookup"><span data-stu-id="ef97f-109">Select an organizational hierarchy and then in the organization nodes tree, select either an individual store or a node.</span></span> <span data-ttu-id="ef97f-110">Seleccione un nodo si desea crear el trabajo por lotes para un grupo de tiendas.</span><span class="sxs-lookup"><span data-stu-id="ef97f-110">Select a node if you want to create the batch job for a group of stores.</span></span>  
+    * <span data-ttu-id="ef97f-111">Haga clic en la flecha para agregar su selección.</span><span class="sxs-lookup"><span data-stu-id="ef97f-111">Click the arrow to add your selection.</span></span>  
+3. <span data-ttu-id="ef97f-112">Haga clic en la ficha Ejecutar en segundo plano.</span><span class="sxs-lookup"><span data-stu-id="ef97f-112">Click the Run in the background tab.</span></span>
+4. <span data-ttu-id="ef97f-113">Active o desactive la casilla Procesamiento por lotes.</span><span class="sxs-lookup"><span data-stu-id="ef97f-113">Check or uncheck the Batch processing checkbox.</span></span>
+5. <span data-ttu-id="ef97f-114">Haga clic en Periodicidad.</span><span class="sxs-lookup"><span data-stu-id="ef97f-114">Click Recurrence.</span></span>
+6. <span data-ttu-id="ef97f-115">En el campo Fecha inicial, especifique una fecha.</span><span class="sxs-lookup"><span data-stu-id="ef97f-115">In the Start date field, enter a date.</span></span>
+7. <span data-ttu-id="ef97f-116">Especifique una hora en el campo Hora inicial.</span><span class="sxs-lookup"><span data-stu-id="ef97f-116">In the Start time field, enter a time.</span></span>
+    * <span data-ttu-id="ef97f-117">Seleccione si desea finalizar la periodicidad después de un número específico de ejecuciones, en una fecha concreta, o nunca.</span><span class="sxs-lookup"><span data-stu-id="ef97f-117">Choose whether you want to end the recurrence after a specific number of runs, at a specific date, or never.</span></span> <span data-ttu-id="ef97f-118">A continuación, elija las diversas opciones para definir la frecuencia con la que desea ejecutar el trabajo.</span><span class="sxs-lookup"><span data-stu-id="ef97f-118">Then choose the various options to define how frequently you want the job to run.</span></span>  
+8. <span data-ttu-id="ef97f-119">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="ef97f-119">Click OK.</span></span>
+9. <span data-ttu-id="ef97f-120">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="ef97f-120">Click OK.</span></span>
 
