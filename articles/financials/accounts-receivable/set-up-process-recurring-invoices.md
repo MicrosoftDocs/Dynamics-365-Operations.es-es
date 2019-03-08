@@ -1,13 +1,13 @@
 ---
-title: "Configurar y procesar facturas periódicas"
-description: "Este artículo explica cómo configurar y procesar las facturas periódicas. Puede usar facturas periódicas si debe factura a los clientes por el mismo importe periódicamente."
+title: Configurar y procesar facturas periódicas
+description: Este artículo explica cómo configurar y procesar las facturas periódicas. Puede usar facturas periódicas si debe factura a los clientes por el mismo importe periódicamente.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustInvoiceTemplate
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ac9e836b0baa24c40554844ea4f3288b80e0c654
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 5c5fbe1791161b8d06cd1539b1717ba8690a8e05
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350214"
 ---
-
 # <a name="set-up-and-process-recurring-invoices"></a>Configurar y procesar facturas periódicas
 
 [!include [banner](../includes/banner.md)]
@@ -65,7 +64,6 @@ Después de que se generen las facturas periódicas, los identificadores de peri
 ----------------------------------
 
 Después de registrar las facturas periódicas, puede imprimir las facturas desde la página de lista de facturas de servicios. Puede imprimir las facturas seleccionadas o puede seleccionar un intervalo de facturas para imprimirlas.
-
 
 
 

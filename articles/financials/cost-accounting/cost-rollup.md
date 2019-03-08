@@ -1,32 +1,31 @@
 ---
-title: "Directiva de acumulación de costes y cálculo de costes generales"
-description: "Este tema proporciona información sobre cómo determinar el nivel correcto de elementos de coste secundarios y crear reglas de acumulación que se ajusten a los informes de la organización y la rastreabilidad de costes."
+title: Directiva de acumulación de costes y cálculo de costes generales
+description: Este tema proporciona información sobre cómo determinar el nivel correcto de elementos de coste secundarios y crear reglas de acumulación que se ajusten a los informes de la organización y la rastreabilidad de costes.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostRollupRule, CAMDimensionHierarchy
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: e809cb2cadadc623134805e028de7f2e64dd662f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1150a63fe7c9d51c5fa83f4b0295cfdca7b998dc
-ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356148"
 ---
-
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Directiva de acumulación de costes y cálculo de costes generales 
 
 [!include [banner](../includes/banner.md)]
@@ -257,7 +256,7 @@ Después de que se complete el **Cálculo de costes generales**, puede notificar
 
 Las jerarquías de dimensión le permiten ver datos en distintos niveles de agregado.
 
-A continuación se muestra un ejemplo de un informe PowerPivot en Excel.
+A continuación se muestra un ejemplo de un informe Power Pivot en Excel.
 
 | **Informe de pérdidas y ganancias** | **Objeto de coste** |                |               |               |  **Total**    |
 |-----------------------------|-----------------|----------------|---------------|---------------|---------------|
@@ -302,4 +301,3 @@ La clara separación entre **Asignación de costes** y **Directivas de acumulaci
 -  [Dimensiones de elemento de coste](cost-elements.md)
 -  [Jerarquías de dimensiones](dimension-hierarchy.md)
 -  [Cálculo de costes generales](overhead-calculation.md)
-

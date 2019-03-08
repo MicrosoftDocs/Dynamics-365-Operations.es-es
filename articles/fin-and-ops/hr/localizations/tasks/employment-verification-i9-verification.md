@@ -1,13 +1,13 @@
---- 
-title: "Verificación de la verificación i9 de empleo"
-description: "La Ley de Control y reforma de la inmigración de los EE. UU. obliga a los empleadores a verificar la empleabilidad de los nuevos empleados."
+---
+title: Verificación de la verificación i9 de empleo
+description: La Ley de Control y reforma de la inmigración de los EE. UU. obliga a los empleadores a verificar la empleabilidad de los nuevos empleados.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmWorker, HcmPersonIdentificationNumber, Hcmi9Document
 audience: Application User
 ms.reviewer: josaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 4d7346507179d237f60459978b9b7c6351f48611
-ms.contentlocale: es-es
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333332"
 ---
 # <a name="employment-verification-i9-verification"></a>Verificación de la verificación i9 de empleo
 
@@ -54,5 +54,4 @@ La Ley de Control y reforma de la inmigración de los EE. UU. obliga a los emple
 21. En el campo Tipo de documento I-9, seleccione el tipo de documento que proporcionó el trabajador.
 22. En el campo Número de documento, especifique o seleccione un valor.
 23. Haga clic en Guardar.
-
 

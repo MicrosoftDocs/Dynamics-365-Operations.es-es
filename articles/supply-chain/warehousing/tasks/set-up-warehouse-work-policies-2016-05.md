@@ -1,13 +1,13 @@
---- 
-title: "Configurar directivas de trabajo de almacén (solicitud, mayo de 2016)"
-description: "Los procesos de almacén no siempre incluyen trabajo de almacén."
+---
+title: Configurar directivas de trabajo de almacén (solicitud, mayo de 2016)
+description: Los procesos de almacén no siempre incluyen trabajo de almacén.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSWorkPolicy, WMSLocationIdLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 34b4255c85bb53f7e238b60559890571070953a6
-ms.contentlocale: es-es
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335333"
 ---
 # <a name="set-up-warehouse-work-policies-application-may-2016"></a>Configurar directivas de trabajo de almacén (solicitud, mayo de 2016)
 
@@ -51,5 +51,4 @@ Los procesos de almacén no siempre incluyen trabajo de almacén. Al definir una
 19. En la lista, marque la fila seleccionada.
 20. En el campo Número de artículo, especifique o seleccione "L0101".
 21. Haga clic en Guardar.
-
 

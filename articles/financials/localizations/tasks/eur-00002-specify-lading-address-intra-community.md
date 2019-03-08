@@ -1,13 +1,13 @@
---- 
-title: "EUR-00002 Especificación de una dirección de embarque para una transacción intracomunitaria"
-description: "Este procedimiento muestra cómo especificar una dirección de embarque para una transacción de comercio intracomunitario."
+---
+title: EUR-00002 Especificación de una dirección de embarque para una transacción intracomunitaria
+description: Este procedimiento muestra cómo especificar una dirección de embarque para una transacción de comercio intracomunitario.
 author: v-oloski
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, TransportationDocument, LogisticsPostalAddress, SysLookupMultiSelectGrid,  VendEditInvoice, VendEditInvoiceDefaultQuantityForLinesDropDialog, Intrastat, SysQueryForm
 audience: Application User
 ms.reviewer: shylaw
@@ -16,19 +16,19 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 4db22444bee1590770a47ca5946941b530ae85ce
-ms.contentlocale: es-es
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370431"
 ---
 # <a name="eur-00002-specifying-a-lading-address-for-an-intra-community-transaction"></a>EUR-00002 Especificación de una dirección de embarque para una transacción intracomunitaria
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimiento muestra cómo especificar una dirección de embarque para una transacción de comercio intracomunitario. Por ejemplo, una empresa de Alemania pide artículos de un proveedor con una dirección empresarial alemana. Este proveedor tiene un almacén en Italia y envía artículos desde ahí. Esta entrega se debe notificar en Intrastat. El mismo comportamiento es válido para las devoluciones del cliente.
-Este procedimiento se aplica a todos los países o regiones europeos. Esta tarea se ha creado con los datos de demostración de la empresa DEMF y con una dirección principal en Alemania. Para poder completar este procedimiento, debe configurar los informes Intrastat. Este procedimiento está pensado para contables. Este procedimiento es para una función que se ha añadido en la versión 1611 de Dynamics 365 for Operations.
+Este procedimiento se aplica a todos los países o regiones europeos. Esta tarea se ha creado con los datos de demostración de la empresa DEMF y con una dirección principal en Alemania. Para poder completar este procedimiento, debe configurar los informes Intrastat. Este procedimiento está pensado para contables. Este procedimiento es para una función que se ha agregado en la versión 1611 de Dynamics 365 for Operations.
 
 1. Vaya a Proveedores > Pedidos de compra > Todos los pedidos de compra.
 2. Haga clic en Nuevo.
@@ -72,5 +72,4 @@ Este procedimiento se aplica a todos los países o regiones europeos. Esta tarea
 36. Haga clic en Aceptar
 37. Haga clic en la pestaña General.
     * Busque una línea recién creada y compruebe que el remitente envió las mercancías desde Italia.  
-
 

@@ -1,13 +1,13 @@
---- 
-title: "Establecer método de pago de cliente"
-description: "Creación de una forma de pago para pagos de clientes."
+---
+title: Establecer método de pago de cliente
+description: Creación de una forma de pago para pagos de clientes.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustPaymMode, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: ab035c6268b701c78da32d589e99ece38c31781d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: cabcfe83ac83a8210ce4e0d46a08acdc48f4bf3b
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348972"
 ---
 # <a name="establish-customer-method-of-payment"></a>Establecer método de pago de cliente
 
@@ -54,5 +54,4 @@ Creación de una forma de pago para pagos de clientes. Esta tarea usa la empresa
     * Por ejemplo, si necesita que se depositen todos los pagos con este método de pago, puede elegir esta opción en esta ficha.  
 15. Use la ficha Atributos de pago para definir qué atributos de pago usar para esta forma de pago.
 16. Haga clic en Guardar.
-
 

@@ -1,13 +1,13 @@
---- 
+---
 title: EUR-00011 Generar el informe de lista de ventas de la UE
-description: "Este procedimiento le guía por la generación del informe de la lista de ventas de la UE."
+description: Este procedimiento le guía por la generación del informe de la lista de ventas de la UE.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, SalesEditLines,  EUSalesList, EUSalesListSelection, SysQueryForm, SysLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -16,18 +16,18 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 9fcafa2beca5d998b2556ba73e9f3cc2bdd314ba
-ms.contentlocale: es-es
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370498"
 ---
 # <a name="eur-00011-generate-the-eu-sales-list-report"></a>EUR-00011 Generar el informe de lista de ventas de la UE
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimiento le guía por la generación del informe de la lista de ventas de la UE. Esto incluye la transferencia de las transacciones comerciales intracomunitarias a la lista de ventas de la UE y la ejecución del informe. Este procedimiento también incluye la creación de una transacción comercial intracomunitaria para fines de demostración. Para obtener más información acerca de los informes de la lista de ventas de la UE, incluidos requisitos previos necesarios, remítase a la Ayuda de Dynamics 365 for Finance and Operations.
+Este procedimiento le guía por la generación del informe de la lista de ventas de la UE. Esto incluye la transferencia de las transacciones comerciales intracomunitarias a la lista de ventas de la UE y la ejecución del informe. Este procedimiento también incluye la creación de una transacción comercial intracomunitaria para fines de demostración. Para obtener más información acerca de los informes de la lista de ventas de la UE, incluidos requisitos previos necesarios, remítase a la Dynamics 365 for Finance and Operations Ayuda.
 
 Este procedimiento se aplica a todos los países o regiones europeos. El procedimiento se creó con la empresa de datos de demostración DEMF y, por tanto, Alemania como país o región nacional de ejemplo. El procedimiento también utiliza Portugal como país o región de la UE de ejemplo. Para poder completar este procedimiento, debe configurar los informes de listas de ventas de la UE.
 
@@ -100,5 +100,4 @@ Este procedimiento está pensado para contables.
     * También puede especificar filtros adicionales en transacciones comerciales intracomunitarias para marcarlas como cerradas.  
 7. Haga clic en Aceptar
 8. En el campo Selección, seleccione "Cerrado".
-
 

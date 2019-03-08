@@ -1,13 +1,13 @@
---- 
-title: "Identificación y resolución de conflictos en segregación de controles"
+---
+title: Identificación y resolución de conflictos en segregación de controles
 description: Puede configurar reglas para tareas diferentes que deban llevar a cabo diferentes usuarios.
 author: maertenm
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysSecSegregationOfDutiesConflict, SysSecSegregationOfDutiesRule
 audience: Application User
 ms.reviewer: margoc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9d4a6bd14090213cc19a072d030bc26886c7a8d0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c3a366ea4b558ba4e4af7336992dbb091b0b1414
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353112"
 ---
 # <a name="identify-and-resolve-conflicts-in-segregation-of-duties"></a>Identificación y resolución de conflictos en segregación de controles
 
@@ -48,5 +48,4 @@ Puede configurar reglas para tareas diferentes que deban llevar a cabo diferente
     * Seleccione una regla.  
 2. Haga clic en Validar controles y roles.
     * Si algunos roles existentes infringen la regla seleccionada, aparecerá un mensaje con el nombre del rol y los nombres de los deberes en conflicto. El administrador debe indicar cómo mitigar el riesgo de seguridad o modificar el rol de modo que no infrinja las reglas de segregación de controles.     Si ningún rol infringe la regla seleccionada, aparece un mensaje que indica que todos los roles son conformes.  
-
 

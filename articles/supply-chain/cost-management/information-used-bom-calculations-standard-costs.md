@@ -1,13 +1,13 @@
 ---
-title: "Información utilizada en los cálculos de L. MAT con costes estándar"
-description: "Los cálculos de la lista de materiales (BOM) usan datos de varias fuentes para calcular los costes estándar de un artículo fabricado. Las fuentes incluyen información sobre los artículos, las enrutamiento de las cuentas, las fórmulas de cálculo de costes indirectos y la versión de gestión de costes."
+title: Información utilizada en los cálculos de L. MAT con costes estándar
+description: Los cálculos de la lista de materiales (BOM) usan datos de varias fuentes para calcular los costes estándar de un artículo fabricado. Las fuentes incluyen información sobre los artículos, las enrutamiento de las cuentas, las fórmulas de cálculo de costes indirectos y la versión de gestión de costes.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMCalcDialog, BOMCalcGroup, BOMCalcTable, ProdParmBOMCalc
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4ec6ffe41d6dae10693b1a1ebd6e5012c32bc2e6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 187482f29e6982220b844777ef31997f0d5ef0d3
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333769"
 ---
-
 # <a name="information-used-in-bom-calculations-with-standard-costs"></a>Información utilizada en los cálculos de L. MAT con costes estándar
 
 [!include [banner](../includes/banner.md)]
@@ -80,7 +79,6 @@ La información sobre la versión de gestión de costes que se utiliza en el cá
 -   El contenido de la versión de gestión de costes debe incluir los costes: el contenido debe incluir costes. Puede incluir opcionalmente precios de ventas para calcular los precios de venta sugeridos para los artículos fabricados.
 
 Pueden especificarse diversos orígenes de datos cuando se inicia el cálculo de L. MAT. Esta información incluye el sitio, la fecha de cálculo y la versión de gestión de costes.
-
 
 
 

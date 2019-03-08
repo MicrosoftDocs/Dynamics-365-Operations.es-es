@@ -1,13 +1,13 @@
---- 
+---
 title: Configurar uso compartido de datos financieros entre empresas
-description: "Este procedimiento muestra cómo configurar, habilitar, validar y resolver conflictos al compartir datos entre empresas."
+description: Este procedimiento muestra cómo configurar, habilitar, validar y resolver conflictos al compartir datos entre empresas.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DataManagementWorkspace, DMFQuickImportExportRnr, DMFExecutionHistoryWorkspace, DMFExecutionHistorySummary, DMFExecutionHistoryEntities,  SysDataSharingConfiguration, SysDataSharingDiscrepencies
 audience: Application User
 ms.reviewer: margoc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 784a925fa06148cad780b494c88b9a7af1809c9d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 779722bd3acd10a85b089a4d30757b62293ea4e4
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357850"
 ---
 # <a name="configure-financial-cross-company-data-sharing"></a>Configurar uso compartido de datos financieros entre empresas
 
@@ -63,5 +63,4 @@ Esta guía de tareas requiere la plataforma Dynamics AX 7.1 o versiones posterio
 26. Haga clic en Usar valor de la empresa 1.
 27. Actualice la página.
 28. Cierre la página.
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Impuesto condicional para pagarés o letras de cambio protestados"
-description: "Este tema proporciona información acerca de los pagarés o letras de cambio para las entidades jurídicas en España."
+title: Impuesto condicional para pagarés o letras de cambio protestados
+description: Este tema proporciona información acerca de los pagarés o letras de cambio para las entidades jurídicas en España.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankBillOfExchangeTable, BankPromissoryNoteTable
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Spain
 ms.author: v-elgolu
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 4eb26b1cb5f1bc758cb78faf3a53149472ff17a7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
-ms.openlocfilehash: c95353eb4c580da08214770fa556ae0bf12c61de
-ms.contentlocale: es-es
-ms.lasthandoff: 01/23/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370472"
 ---
-
 # <a name="conditional-sales-tax-for-protested-promissory-notes-or-bills-of-exchange"></a>Impuesto condicional para pagarés o letras de cambio protestados
 [!include [banner](../includes/banner.md)]
 
@@ -37,6 +36,5 @@ Cuando un usuario registra un diario de renegociación de pagarés, se anulan la
 
 ## <a name="conditional-sales-tax-for-protested-bills-of-exchange"></a>Impuesto condicional para letras de cambio impagadas
 Cuando un usuario registra un diario de impago de letras de cambio, se anulan las transacciones registradas anteriormente si una letra de cambio se ha liquidado con la factura de cliente. Si la factura incluía impuestos condicionales cuando se liquidó con una letra de cambio, se registra una transacción de impuestos para los impuestos condicionales. Para las entidades jurídicas de España, si la letra de cambio se ha liquidado con una factura que incluye impuestos condicionales, se invierte la transacción de impuestos cuando se registra un diario de impago de letras de cambio. Para ver las transacciones invertidas, vaya a **Transacciones de asiento** &gt; **Asientos relacionados**.
-
 
 

@@ -1,13 +1,13 @@
---- 
-title: "Crear configuraciones de asignación de modelo de informes electrónicos (ER)"
-description: "Use este procedimiento para diseñar una nueva configuración de asignación de modelo de informes electrónicos (ER) y utilizar las funciones de ER integradas para realizar cálculos agregados eficientes."
+---
+title: Crear configuraciones de asignación de modelo de informes electrónicos (ER)
+description: Use este procedimiento para diseñar una nueva configuración de asignación de modelo de informes electrónicos (ER) y utilizar las funciones de ER integradas para realizar cálculos agregados eficientes.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 614ef06fcf5761f1cf2afb6e7655558d2858d763
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357183"
 ---
 # <a name="create-electronic-reporting-er-model-mapping-configurations"></a>Crear configuraciones de asignación de modelo de informes electrónicos (ER)
 
@@ -65,5 +65,4 @@ Estos pasos se pueden completar mediante cualquier conjunto de datos. Para compl
 4. En el campo Nombre, escriba "Asignación de muestra de Intrastat".
     * Asignación de muestra de Intrastat  
 5. Haga clic en Crear configuración.
-
 

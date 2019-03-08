@@ -1,32 +1,31 @@
 ---
 title: Espacio de trabajo de control de costes
-description: "Este tema proporciona información sobre del espacio de trabajo Control de costes. Este espacio de trabajo es un punto central donde los directores responsables de supervisar un objeto de coste o un conjunto de objetos de coste dentro de una dimensión o a través de dimensiones pueden obtener acceso a los informes."
+description: Este tema proporciona información sobre del espacio de trabajo Control de costes. Este espacio de trabajo es un punto central donde los directores responsables de supervisar un objeto de coste o un conjunto de objetos de coste dentro de una dimensión o a través de dimensiones pueden obtener acceso a los informes.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostControlWorkspaceConfiguration, CAMCostControlWorkspace
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: c6a196c677ed27666efec8a180f1d3b7e7ee931c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 934ab83d45aad32c067e8422c5415d4a0a6481b4
-ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363761"
 ---
-
 # <a name="cost-control-overview"></a>Visión general del Control de costes 
 
 [!include [banner](../includes/banner.md)]
@@ -157,6 +156,5 @@ En el siguiente ejemplo, la base de la asignación es del tipo **Base de asignac
 Recursos adicionales 
 
 [Definir los derechos de acceso de un controlador de objeto de coste](access-rights-cost-object-controller.md)
-
 
 

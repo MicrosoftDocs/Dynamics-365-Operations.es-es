@@ -1,13 +1,13 @@
---- 
-title: "Creación de grupos de permisos de PDV"
-description: "Este procedimiento mostrará cómo crear un grupo de permisos de PDV."
+---
+title: Creación de grupos de permisos de PDV
+description: Este procedimiento mostrará cómo crear un grupo de permisos de PDV.
 author: scott-tucker
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailPosPermissionGroup, HcmJob
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 1b30c9a1d7fe4598695423ba700ebc88a794a49c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: bcda7c3a5c2cc97fbc6e4945e4d5f0ec42a7a478
-ms.contentlocale: es-es
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354469"
 ---
 # <a name="create-pos-permission-groups"></a>Creación de grupos de permisos de PDV
 
@@ -54,5 +54,4 @@ Este procedimiento mostrará cómo crear un grupo de permisos de PDV. La empresa
     * Todos los trabajadores de puestos para este trabajo usarán los parámetros de este grupo de permisos de PDV a menos que los permisos de PDV de los trabajadores se hayan anulada en su nivel del puesto.  
 19. Haga clic en Guardar.
     * Una vez se guarden los cambios necesita ejecutar la programación de distribución del personal para aplicar los cambios en canales comerciales.  
-
 

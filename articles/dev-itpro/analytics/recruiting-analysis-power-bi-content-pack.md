@@ -1,13 +1,13 @@
 ---
-title: "Contenido de Power BI para contratación"
-description: "Este tema describe el contenido en Power BI sobre Contratación. Explica cómo obtener acceso a los informes y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido."
+title: Contratación de contenido de Power BI
+description: Este tema describe el contenido en Power BI de contratación. Explica cómo obtener acceso a los informes y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmRecruitmentWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 2d8c0e0e52a8dba2a1ea5bf330cdea01e3cfb60d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: 0d6bc8584d202810ed14367d36d113d9b109ea7a
-ms.contentlocale: es-es
-ms.lasthandoff: 12/19/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348006"
 ---
-
-# <a name="recruiting-power-bi-content"></a>Contenido de Power BI para contratación
+# <a name="recruiting-power-bi-content"></a>Contratación de contenido de Power BI
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe el contenido en Microsoft Power BI sobre **Contratación**. Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
+Este tema describe el contenido del **Contratación** de Microsoft Power BI. Explica cómo obtener acceso a los informes Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
 
 ## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI
 El contenido de Power BI **Contratación** se muestra en el área de trabajo **Administración de contratación**.
@@ -48,7 +47,7 @@ El área de trabajo **Gestión de contratación** contiene la pestaña **Anális
 ## <a name="understanding-the-data-model-and-entities"></a>Comprensión del modelo de datos y de las entidades
 Puede filtrar los gráficos e iconos en estos informes y anclar los gráficos e iconos al panel de información. Para obtener más información acerca de cómo filtrar y anclar en Power BI, consulte [Crear y configurar un panel de información](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
-En la tabla siguiente se muestran las entidades en las que se basaba el contenido de Power BI acerca de **Contratación**.
+En la tabla siguiente se muestran las entidades en las que se basaba el contenido de Power BI de **Contratación**.
 
 | Entidad               | Contenido                                                         | Relaciones con otras entidades |
 |----------------------|------------------------------------------------------------------|-----------------------------------|
@@ -66,4 +65,3 @@ En la tabla siguiente se muestran las entidades en las que se basaba el contenid
 | Rendimiento          | Calificación, descripción y modelo de calificación                            | Candidato, candidato empleado, candidato finalizado |
 | Proyecto de contratación  | Descripción del proyecto, estado del proyecto y vacantes                | Candidato, candidato empleado, candidato finalizado |
 | Candidato finalizado | Candidatos cesados, motivo, rendimiento y fecha de cese | Empresa, contrapartida del calendario, fecha, ubicación geográfica, rendimiento, grupo demográfico, empleo, medios, proyecto de contratación, nombre del candidato |
-

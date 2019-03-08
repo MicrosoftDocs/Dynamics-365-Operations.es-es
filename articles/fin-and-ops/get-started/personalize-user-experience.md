@@ -1,13 +1,13 @@
 ---
 title: Personalizar la experiencia del usuario
-description: "Este tema explica cómo puede personalizar Microsoft Dynamics 365 for Finance and Operations."
+description: Este tema explica cómo puede personalizar Microsoft Dynamics 365 for Finance and Operations.
 author: TLeforMicrosoft
 manager: AnnBe
 ms.date: 09/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysUserSetup, DefaultDashboard
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 53aff09746b92372bb38908a526942ebe9bb4c52
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7344f460fcb443a78b254e2387fbf5c9134bf674
-ms.openlocfilehash: 1860b603f789aabca1ca58848a88e11a6e08e31f
-ms.contentlocale: es-es
-ms.lasthandoff: 09/28/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363485"
 ---
-
 # <a name="personalize-the-user-experience"></a>Personalizar la experiencia del usuario
 
 [!include [banner](../includes/banner.md)]
@@ -171,4 +170,3 @@ Al personalizar la configuración de dimensiones de inventario en una página, t
 Los ajustes de **visualización de dimensiones** se aplican a todas las páginas y estos valores anulan cualquier configuración personalizada de campos de dimensión de inventario en las páginas individuales.
 
 En consecuencia, en el ejemplo anterior, si no desea que la columna de la dimensión de inventario de número de lote aparezca, debe borrar dicha dimensión como parte de la opción **Dimensiones de la pantalla** de la tabla. Este cambio se aplicará finalmente no solo a una página determinada, sino en todas las páginas.
-

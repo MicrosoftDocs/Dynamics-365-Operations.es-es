@@ -1,13 +1,13 @@
 ---
-title: "Mostrar páginas en paralelo mediante la característica Abrir en una ventana nueva"
-description: "Este artículo explica cómo mostrar páginas en paralelo en Microsoft Dynamics 365 for Finance and Operations."
+title: Mostrar páginas en paralelo mediante la característica Abrir en una ventana nueva
+description: Este artículo explica cómo mostrar páginas lado a lado en Microsoft Dynamics 365 for Finance and Operations.
 author: aneesmsft
 manager: AnnBe
 ms.date: 09/07/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,21 +17,20 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: df9b091735a4971446c5b5d0e054076260040683
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 8e3ef29618f11b0f247999e3a24e54bff44bf51a
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330181"
 ---
-
-# <a name="show-pages-side-by-side-by-using-the-open-in-new-window-feature"></a>Mostrar páginas en paralelo mediante la característica Abrir en una ventana nueva
+# <a name="show-pages-side-by-side-by-using-the-open-in-new-window-feature"></a>Mostrar páginas en paralelo con la función Abrir en una ventana nueva
 
 [!include [banner](../includes/banner.md)]
 
-Este artículo explica cómo mostrar páginas en paralelo en Microsoft Dynamics 365 for Finance and Operations.
+Este artículo explica cómo mostrar páginas lado a lado en Microsoft Dynamics 365 for Finance and Operations.
 
-Microsoft Dynamics 365 for Finance and Operations le ayuda a realizar las tareas de manera eficaz. En algunos casos, puede que desee ver varias páginas en paralelo para completar las tareas con rapidez. Como ejemplo, puede que desee validar o especificar líneas en más de un diario. Normalmente, para ello tendría que avanzar y retroceder entre la página que muestra una lista de diarios y la página que muestra líneas para un diario dado. Sin embargo, la característica **Abrir en una ventana nueva** le permite mostrar estas páginas en paralelo para que pueda llevar a cabo sus tareas con rapidez.
+Microsoft Dynamics 365 for Finance and Operations le ayuda a realizar tareas eficientemente. En algunos casos, puede que desee ver varias páginas en paralelo para completar las tareas con rapidez. Como ejemplo, puede que desee validar o especificar líneas en más de un diario. Normalmente, para ello tendría que avanzar y retroceder entre la página que muestra una lista de diarios y la página que muestra líneas para un diario dado. Sin embargo, la característica **Abrir en una ventana nueva** le permite mostrar estas páginas en paralelo para que pueda llevar a cabo sus tareas con rapidez.
 
 Siguiendo con el ejemplo mencionado anteriormente, al ver las líneas, puede hacer clic en el icono **Abrir en ventana nueva**.
 
@@ -50,4 +49,3 @@ Antes de usar la característica **Abrir en una ventana nueva**, debe configurar
 La característica **Abrir en ventana nueva** solo está disponible cuando hay más de una página abierta en la ventana. Además, la ventana emergente se cierra automáticamente cuando no hay más páginas abiertas (es decir, cuando se cierra la última página de esa ventana). Finance and Operations también cierra las páginas abiertas cuando navega a otra área de la aplicación. Por lo tanto, si tiene ventanas emergentes abiertas y navega a otra área de la aplicación, las ventanas emergentes se cierran automáticamente porque el sistema cerró las páginas de esas ventanas.
 
 La barra superior de las ventanas emergentes muestra información acerca de la empresa en la que se abrió la página y es de solo lectura. Las ventanas emergentes también dependen de la ventana del explorador principal de Finance and Operations. Si se cierra o se actualiza la ventana principal, todas las ventanas emergentes serán de solo lectura. Esto significa que podrá seguir viendo la información en estas ventanas, pero no podrá interactuar con ella.
-

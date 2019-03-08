@@ -1,13 +1,13 @@
 ---
 title: Directivas de compra
-description: "Este artículo proporciona información acerca de las directivas de compra. Una directiva de compra es una colección de reglas que controlan el proceso de solicitud. Las directivas de compra ayudan a los administradores de compras a implementar su estrategia de compras creando una estructura de directiva que está de acuerdo con los requisitos de compras estratégicas de la organización."
+description: Este artículo proporciona información acerca de las directivas de compra. Una directiva de compra es una colección de reglas que controlan el proceso de solicitud. Las directivas de compra ayudan a los administradores de compras a implementar su estrategia de compras creando una estructura de directiva que está de acuerdo con los requisitos de compras estratégicas de la organización.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchReqSourcingPolicyRule, SysPolicy, SysPolicyListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a16f365fa5a8b39dddac2886c36a8231de745a37
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 675a7a8b0da228e789ee37ca8fe1d0c0ea01c283
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358770"
 ---
-
 # <a name="purchasing-policies"></a>Directivas de compra
 
 [!include [banner](../includes/banner.md)]
@@ -148,7 +147,6 @@ La regla de la creación de pedido de compra y consolidación de demanda define 
     -   **No permitir consolidación de la demanda**: las líneas de solicitudes de compras sin aprobar pueden optar a consolidación de demanda. Esta opción se selecciona de forma predeterminada y solo se aplica a las líneas de solicitudes de compra que requieren un procesamiento manual para la creación de pedidos de compra.
     -   **Permitir siempre consolidación de la demanda**: todas las líneas de solicitud de compra sin aprobar pueden optar a consolidación de demanda. **Nota:** si selecciona la opción **Permitir siempre consolidación de la demanda** en la ficha **Consolidación de la demanda** pero selecciona la opción **Crear automáticamente pedidos de compra** en la ficha **Creación manual de pedidos de compra**, todas las solicitudes de compra se conservan para procesarse manualmente.
     -   **Permitir consolidación de la demanda en estas condiciones**: defina los criterios que determinan si las líneas de solicitud de compra aprobadas pueden optar a consolidación de demanda. Para cada tipo de línea de solicitud de compra, puede definir los criterios por categoría de compra y proveedor. Si selecciona **Permitir consolidación de la demanda en estas condiciones**, puede definir los criterios por categoría de compra y proveedor para cada tipo de línea de solicitud de compra. Cuando selecciona una categoría de compras, se seleccionan también todas las subcategorías definidas para dicha categoría de compras. Si selecciona la opción **Todo** para un tipo determinado de línea, todas las solicitudes de compra de ese tipo de línea son aptas para la consolidación de la demanda.
-
 
 
 

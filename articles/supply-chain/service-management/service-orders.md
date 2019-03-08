@@ -1,31 +1,30 @@
 ---
 title: Pedidos de servicio
-description: "Un pedido de servicio representa una visita realizada por un técnico de servicio al sitio del cliente en una fecha concreta."
+description: Un pedido de servicio representa una visita realizada por un técnico de servicio al sitio del cliente en una fecha concreta.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4da0b965f3719bc16b5a73538df111ff6df071be
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 647bbe9cca0167d33048ad07e092708f90b41fc3
-ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366521"
 ---
-
 # <a name="service-orders"></a>Pedidos de servicio   
 
 [!include [banner](../includes/banner.md)]
@@ -88,6 +87,5 @@ Durante la segunda mitad del año, el cliente decide que las visitas se producen
 [Pedidos de servicio (formulario)](https://technet.microsoft.com/en-us/library/aa554361\(v=ax.60\))
 
   
-
 
 

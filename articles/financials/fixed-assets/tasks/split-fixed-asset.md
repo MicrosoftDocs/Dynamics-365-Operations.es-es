@@ -1,13 +1,13 @@
---- 
+---
 title: Dividir un activo fijo
-description: "Esta guía de la tarea va a dividir un porcentaje de un libro de activos a un nuevo libro de activos."
+description: Esta guía de la tarea va a dividir un porcentaje de un libro de activos a un nuevo libro de activos.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetTable, AssetBook, AssetSplit, AssetBookLookup, LedgerJournalTable, LedgerJournalTransAsset
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 6be9de64265a4d7b5c91af3ee8acfce80c78e0f1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b4c1b39bcae1fa3830f3a217d1ad89e84cd72134
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333378"
 ---
 # <a name="split-a-fixed-asset"></a>Dividir un activo fijo
 
@@ -58,5 +58,4 @@ Esta guía de la tarea va a dividir un porcentaje de un libro de activos a un nu
 3. Haga clic en Líneas.
     * Compruebe las líneas de diario creadas.  Se creó una transacción de ajuste de adquisición para que el activo original reduzca el valor en el porcentaje especificado durante el proceso de la división.  Se crea una transacción de adquisición del nuevo activo para el mismo importe.  
 4. Haga clic en Registrar.
-
 

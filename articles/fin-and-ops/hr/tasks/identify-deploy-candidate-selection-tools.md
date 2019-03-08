@@ -1,13 +1,13 @@
---- 
-title: "Identificar e implementar herramientas de selección de candidatos"
-description: "Encontrar un grupo calificado de candidatos para cubrir vacantes puede ser difícil, especialmente cuando un puesto requiere un conjunto único de aptitudes."
+---
+title: Identificar e implementar herramientas de selección de candidatos
+description: Encontrar un grupo calificado de candidatos para cubrir vacantes puede ser difícil, especialmente cuando un puesto requiere un conjunto único de aptitudes.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmSkillMapping, HcmJobLookup, HcmSkillMappingLine, HcmPersonCertificate, CCHTMLPrintPreview
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: df7956cfdc3c470b5e652b62e659060120cdd770
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1eb6e6121d39f9fc089afe38354b96eb88e5501d
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332734"
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a>Identificar e implementar herramientas de selección de candidatos
 
@@ -57,5 +57,4 @@ Encontrar un grupo calificado de candidatos para cubrir vacantes puede ser difí
     * El informe enumerará las mejores coincidencias en la parte superior del informe.  Puede ver que hay un hueco en los elementos enumerados.  Esta es la diferencia entre el nivel que se muestra en la distribución de perfiles y el nivel de la aptitud que está asignado a la persona.  
 24. Cierre la página.
 25. Haga clic en Guardar.
-
 

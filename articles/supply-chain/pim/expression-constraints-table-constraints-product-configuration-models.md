@@ -1,13 +1,13 @@
 ---
-title: "Restricciones de expresión y tabla en modelos de configuración de productos"
-description: "En este tema se describe el uso de las restricciones de expresión y las restricciones de tabla. Las restricciones controlan los valores de atributo que puede seleccionar al configurar los productos para un pedido de ventas, un presupuesto de ventas, un pedido de compra o un pedido de producción. Puede usar las restricciones de expresión o las restricciones de tablas, en función de cómo prefiere crear las restricciones."
+title: Restricciones de expresión y tabla en modelos de configuración de productos
+description: En este tema se describe el uso de las restricciones de expresión y las restricciones de tabla. Las restricciones controlan los valores de atributo que puede seleccionar al configurar los productos para un pedido de ventas, un presupuesto de ventas, un pedido de compra o un pedido de producción. Puede usar las restricciones de expresión o las restricciones de tablas, en función de cómo prefiere crear las restricciones.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCGlobalTableConstraintEdit, PCProductConfigurationModelDetails, PCTableConstraintAttachAttributeTree, PCTableConstraintDefinition
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 88d52031f4c916f5ec3e970f38864977e69a9d9a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: b6b5b7e7894cb74e33e08893934b3eaede957556
-ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356654"
 ---
-
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Restricciones de expresión y tabla en modelos de configuración de productos
 
 [!include [banner](../includes/banner.md)]
@@ -223,7 +222,7 @@ Los ejemplos en la siguiente tabla muestran cómo escribir una notación de infi
 |        (x)        |                           El paréntesis anula la prioridad predeterminada.                            |
 
 ## <a name="why-arent-my-expression-constraints-validated-correctly"></a>¿Por qué las restricciones de expresión no se validan correctamente?
-No se pueden usar palabras clave reservadas como nombres del solucionador de atributos, componentes o subcomponentes en un modelo de configuración de productos. A continuación se muestra una lista de palabras clave reservadas que no se pueden usar:
+No se pueden usar palabras clave reservadas como nombres del solucionador de atributos, componentes o subcomponentes en un modelo de configuración de productos.A continuación se muestra una lista de palabras clave reservadas que no se pueden usar:
 
 -   Techo
 -   Elemento
@@ -252,7 +251,6 @@ No se pueden usar palabras clave reservadas como nombres del solucionador de atr
 [Crear una restricción de expresión (Guía de tareas)](tasks/add-expression-constraint-product-configuration-model.md)
 
 [Agregar un cálculo a un modelo de configuración de producto (Guía de tareas)](tasks/add-calculation-product-configuration-model.md)
-
 
 
 

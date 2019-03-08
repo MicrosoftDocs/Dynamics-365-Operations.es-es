@@ -1,29 +1,28 @@
 ---
 title: Divisa dual
-description: "Este tema proporciona información sobre la divisa dual, donde la divisa de notificación se usa como segunda divisa de contabilidad para Microsoft Dynamics 365 for Finance and Operations."
+description: Este tema proporciona información sobre la divisa dual, donde la divisa de notificación se usa como segunda divisa de contabilidad para Microsoft Dynamics 365 for Finance and Operations.
 author: kweekley
 manager: AnnBe
 ms.date: 10/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable, Ledger, AssetTransReportingCurrencyAmountsWizard,BankAccountTransReportingCurrencyAmountsWizard, LedgerTrialBalanceListPage
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: 
+ms.search.scope: ''
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: b589a6ce02cdc02436e256f9e81346fe8b766687
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 8de178ec80f7408d657e746b633703f386c8e02d
-ms.contentlocale: es-es
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330319"
 ---
-
 # <a name="dual-currency"></a>Divisa dual
 
 [!include [banner](../includes/banner.md)]
@@ -184,4 +183,3 @@ Además, cambios importantes se han realizado en el proceso de depreciación. Es
     - Si se especifica un tipo de transacción de la deprecación en el diario de activos fijos, los importes de la divisa de notificación aparecerán en las nuevas columnas. Estos importes se pueden modificar.
     - Si la divisa de contabilidad y las divisas de notificación en el libro mayor son las mismas, los importes se mantendrán sincronizados. Si cambia el importe de **Crédito**, el importe de **Crédito en divisa de notificación** será automáticamente cambiado de modo que coincida con él.
     - Si especifica cualquier otro tipo de transacción en el diario de activos fijos, los importes **Débito en divisa de notificación** y **Crédito en divisa de notificación** nunca se muestran, ya sea antes o después del registro. Los importes de la divisa de contabilidad y la divisa de notificación siguen estando disponibles en el asiento que registra en la contabilidad general.
-

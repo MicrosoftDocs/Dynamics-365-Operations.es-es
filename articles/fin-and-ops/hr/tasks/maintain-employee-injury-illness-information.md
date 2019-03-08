@@ -1,13 +1,13 @@
---- 
-title: "Mantener la información de lesiones y enfermedades del empleado"
-description: "Se recomienda completar primero la guía de tareas \"Configuración de lesión o enfermedad\", puesto que aquí se usa parte de la información de configuración."
+---
+title: Mantener la información de lesiones y enfermedades del empleado
+description: Se recomienda completar primero la guía de tareas "Configuración de lesión o enfermedad", puesto que aquí se usa parte de la información de configuración.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMInjuryIncident, HcmWorkerLookUp
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 03d1e7f7b648e65cbe628aa4ff8b39dfa03ce96b
-ms.contentlocale: es-es
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332619"
 ---
 # <a name="maintain-employee-injury-and-illness-information"></a>Mantener la información de lesiones y enfermedades del empleado
 
@@ -92,5 +92,4 @@ Esta grabación de tareas cubre los pasos básicos para crear un caso de lesión
     * Ejemplo: La radiografía confirma la fractura, llevar tablilla  
 36. Haga clic en Guardar.
     * El estado del caso se puede actualizar en cualquier momento.  Establezca el caso en curso, si el procesamiento de la lesión o enfermedad está en curso.  Una vez cierre el incidente, solo podrá agregar o quitar costes, tratamientos o archivos relacionados con el incidente.  Para modificar otra información, vuelva a abrir el caso.  
-
 

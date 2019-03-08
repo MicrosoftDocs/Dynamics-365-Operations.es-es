@@ -1,13 +1,13 @@
 ---
-title: "Órdenes de cuarentena"
-description: "Este tema describe cómo se usan los pedidos de cuarentena para bloquear el inventario."
+title: Órdenes de cuarentena
+description: Este tema describe cómo se usan los pedidos de cuarentena para bloquear el inventario.
 author: perlynne
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventLocation, InventModelGroup, InventQuarantineOrder, InventQuarantineParmEnd, InventQuarantineParmReportFinished, InventQuarantineParmStartUp, InventTrans
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 523e51c705d76b6e8624887292395f8f239bcb65
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 9a05c35d2e4a9e3ad81421eac863d182e8a6b499
-ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362588"
 ---
-
 # <a name="quarantine-orders"></a>Órdenes de cuarentena
 
 [!include [banner](../includes/banner.md)]
@@ -68,4 +67,3 @@ Como parte del proceso de la orden de cuarentena, puede eliminar inventario. Al 
 --------
 
 [Bloqueo del inventario](inventory-blocking.md)
-

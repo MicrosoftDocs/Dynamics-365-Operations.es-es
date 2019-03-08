@@ -1,13 +1,13 @@
---- 
-title: "Configurar las reglas y los parámetros para el tránsito directo y la estrategia de presión"
+---
+title: Configurar las reglas y los parámetros para el tránsito directo y la estrategia de presión
 description: Este procedimiento muestra los pasos para crear Reglas de reabastecimiento.
 author: josaw1
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailReplenishmentRuleTable, RetailReplenishmentTreeLookup
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: a22756279ba316a7efd4d09c48c55e8cc98ba29d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: f3a20b7bf476cae854c7f7c86d89d73e44b6749b
-ms.contentlocale: es-es
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366337"
 ---
 # <a name="set-up-rules-and-parameters-for-cross-docking-and-buyers-push"></a>Configurar las reglas y los parámetros para el tránsito directo y la estrategia de presión
 
@@ -47,5 +47,4 @@ Este procedimiento muestra los pasos para crear Reglas de reabastecimiento. Las 
 13. En el campo Nombre, especifique o seleccione un valor.
 14. En el campo Peso, escriba un número.
 15. Haga clic en Guardar.
-
 

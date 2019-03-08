@@ -1,13 +1,13 @@
---- 
-title: "Publicar un pedido de producción"
-description: "Este procedimiento muestra cómo liberar un pedido de producción."
+---
+title: Publicar un pedido de producción
+description: Este procedimiento muestra cómo liberar un pedido de producción.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdTableListPage, ProdParmRelease, SrsReportViewerForm
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 917fe1ef826c9b112be29ebce78ebd750652db64
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: dadf0e87eac8522f61bb094c146e37f46a21fc09
-ms.openlocfilehash: 6e628d8564c093c5d75fffe268b2107262d508c3
-ms.contentlocale: es-es
-ms.lasthandoff: 02/06/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345085"
 ---
 # <a name="release-a-production-order"></a>Publicar un pedido de producción
 
@@ -40,5 +40,4 @@ Este procedimiento muestra cómo liberar un pedido de producción. La empresa de
 5. Haga clic en la casilla Imprimir tarjeta de ruta.
 6. Haga clic en Aceptar
 7. Cierre la página.
-
 

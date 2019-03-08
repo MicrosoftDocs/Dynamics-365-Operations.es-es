@@ -1,13 +1,13 @@
 ---
 title: Recursos de Operations
-description: "Los recursos de operaciones realizan las actividades de un proyecto o de un proceso de producción. Pueden ser de distintos tipos y tener diferentes capacidades."
+description: Los recursos de operaciones realizan las actividades de un proyecto o de un proceso de producción. Pueden ser de distintos tipos y tener diferentes capacidades.
 author: sorenva
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OpResLifecycleManagementWorkspace, WrkCtrCapability
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e11d64ec37775f4fe2fc113af238a6294b459454
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c4018632e5e20470948ee59e4bb2a1cab905d829
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366613"
 ---
-
 # <a name="operations-resources"></a>Recursos de Operations
 
 [!include [banner](../includes/banner.md)]
@@ -83,7 +82,6 @@ Cuando usa un grupo de recursos como celda de trabajo lean, la capacidad de la c
 
 ## <a name="costing-resources"></a>Recursos de gestión de costes
 Al definir una actividad como una operación de ruta o una previsión de horas de proyecto, puede especificar el requisito para un recurso de operaciones o un grupo de recursos específico. Sin embargo, también puede especificar el requisito para un recurso de operaciones de un tipo específico o un recurso de operaciones que tiene una capacidad o una competencia específica. Por este motivo, la asignación real del recurso no se realiza hasta que se programe la actividad y se reserve la capacidad. Por lo tanto, en una operación de ruta, puede especificar que la estimación y el cálculo de L. MAT. deben basarse en un recurso de operaciones concreto. Hacen referencia a este recurso de operaciones como el recurso de gestión de costes. También puede transferir categorías de coste y tiempos de operación desde el recurso de gestión de costes a la actividad. Una vez programada la operación, la estimación y el cálculo de L. MAT. se realizan mediante el recurso de operaciones que esté programado.
-
 
 
 

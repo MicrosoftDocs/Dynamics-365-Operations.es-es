@@ -1,14 +1,14 @@
 ---
-title: "Seguridad y gestión de roles en Attract"
-description: "Este tema proporciona información acerca de la seguridad de roles en Microsoft Dynamics 365 for Talent - Attract."
+title: Seguridad y gestión de roles en Attract
+description: Este tema proporciona información sobre la seguridad de los roles en Microsoft Dynamics 365 for Talent - Attract.
 author: josaw1
 manager: AnnBe
 ms.date: 10/18/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: josaw1
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
+ms.openlocfilehash: 5674df1657b46aa31e2011562f4ebbff2c16fee9
+ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
 ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
-ms.openlocfilehash: 9eb12bd6b9fc1aa66002908e5989b3ac504ab673
-ms.contentlocale: es-es
-ms.lasthandoff: 11/01/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 02/05/2019
+ms.locfileid: "374789"
 ---
-
 # <a name="security-and-role-management-in-attract"></a>Seguridad y gestión de roles en Attract
 
 [!include[banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent: Attract usa una seguridad basada en roles. Es decir el acceso no se concede a usuarios individuales, sino a los roles de seguridad a los que se asignan los usuarios. Un usuario al que se ha asignado un rol de seguridad tiene acceso al conjunto de privilegios que está asociado a dicho rol.
+Microsoft Dynamics 365 for Talent: Attract usa seguridad basada en roles. Es decir el acceso no se concede a usuarios individuales, sino a los roles de seguridad a los que se asignan los usuarios. Un usuario al que se ha asignado un rol de seguridad tiene acceso al conjunto de privilegios que está asociado a dicho rol.
 
 Attract proporciona roles de usuario básicos:
 
@@ -108,7 +107,7 @@ Los privilegios siguientes se aplican a los datos específicos del trabajo y las
 | Avanzar etapa           | Se puede rechazar si el usuario se encuentra en el equipo de contratación | Se puede avanzar si el usuario se encuentra en el equipo de contratación | No permitido |
 | Lazar administración de ofertas | Puede iniciar la administración de la propuesta | Hay una opción de configuración en la actividad de la propuesta. | No permitido |
 
-\*\* Una opción de configuración en la [configuración de actividad de valoración](./activities-attract.md#feedback-activity) controla si los entrevistadores pueden ver las valoraciones de los demás.
+\*\* Una opción de configuración en la [configuración de actividad de valoración](activities-attract.md#feedback-activity) controla si los entrevistadores pueden ver las valoraciones de los demás.
 
 ## <a name="process-templates"></a>Plantillas de proceso
 
@@ -146,4 +145,3 @@ Los candidatos son personas que se han agregado a un grupo de talentos pero no e
 |-----------------------------|----------------------------------|----------------------------------|-------------|
 | Perfil: detalles del candidato | Crear, leer, actualizar y eliminar | Crear, leer, actualizar y eliminar | Sin acceso   |
 | Documentos                   | Crear, leer, actualizar y eliminar | Crear, leer, actualizar y eliminar | Sin acceso   |
-

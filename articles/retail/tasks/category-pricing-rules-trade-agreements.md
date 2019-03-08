@@ -1,13 +1,13 @@
---- 
-title: "Reglas de precios de categoría para crear acuerdos comerciales"
-description: "Este procedimiento muestra cómo crear acuerdos comerciales de precios de venta con una regla de precios de categoría."
+---
+title: Reglas de precios de categoría para crear acuerdos comerciales
+description: Este procedimiento muestra cómo crear acuerdos comerciales de precios de venta con una regla de precios de categoría.
 author: scott-tucker
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, RetailDiscountPricingWorkspace, RetailPricingDiscountCategoryPriceRule, RetailCategoryPriceRule, EcoResCategorySingleLookup, RetailCategoryPriceWizard, PriceDiscAdm, PriceDiscAdmTable
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 8d252982cf1e4fa2f06646d0909e6f82d16f4cfc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 133ca34a0e85454dc40d4e1d36fbe8278019c7e4
-ms.contentlocale: es-es
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355527"
 ---
 # <a name="category-pricing-rules-to-create-trade-agreements"></a>Reglas de precios de categoría para crear acuerdos comerciales
 
@@ -58,5 +58,4 @@ Este procedimiento muestra cómo crear acuerdos comerciales de precios de venta 
 23. Cierre la página.
 24. Haga clic en la ficha Reglas de precios de categoría.
     * Las reglas de precios de categoría específicas de canal se mostrarán en esta lista.  
-
 

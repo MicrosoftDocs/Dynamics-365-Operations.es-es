@@ -1,13 +1,13 @@
---- 
-title: "Creación de pedido de repetición de compra"
-description: "Este procedimiento le muestra cómo crear un pedido de compra de repetición copiando líneas de un documento de pedido de compra anterior en un pedido de compra nuevo o en un pedido de compra existente."
+---
+title: Creación de pedido de repetición de compra
+description: Este procedimiento le muestra cómo crear un pedido de compra de repetición copiando líneas de un documento de pedido de compra anterior en un pedido de compra nuevo o en un pedido de compra existente.
 author: FrankDahl
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, PurchCopying
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 74dcee8a614363cf1f1ebc71e3e39a14c59bb774
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 257582d889ff55753f9bdbd234f0540503d20f27
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345890"
 ---
 # <a name="create-a-repeat-purchase-order"></a>Creación de pedido de repetición de compra
 
@@ -84,5 +84,4 @@ Este procedimiento le muestra cómo crear un pedido de compra de repetición cop
     * Observe que la línea de pedido única que se encuentra en este pedido de compra también está seleccionada.  
 7. Haga clic en Aceptar
     * Se ha agregado la línea de pedido adicional a su pedido de compra.  
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Gestionar usuarios de colaboración de proveedor"
-description: "Este tema describe cómo puede solicitar el aprovisionamiento de los nuevos usuarios de colaboración del proveedor, y cómo añadir nuevos contactos de colaboración."
+title: Gestionar usuarios de colaboración de proveedor
+description: Este tema describe cómo puede solicitar el aprovisionamiento de los nuevos usuarios de colaboración del proveedor, y cómo añadir nuevos contactos de colaboración.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: smmContactPerson, VendVendorContactPerson, VendVendorPortalUser
 audience: Application User, IT Pro
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 520dcaa1eec3c0fb8aa72fc7f75a56622069881f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 80374d6dce8aa5d5f2e5afc0656b42236ac974ec
-ms.openlocfilehash: 036e8079bd976087514a074529dd4593c5a2b0a5
-ms.contentlocale: es-es
-ms.lasthandoff: 03/13/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356700"
 ---
-
 # <a name="manage-vendor-collaboration-users"></a>Gestionar usuarios de colaboración de proveedor
 
 [!include [banner](../includes/banner.md)]
@@ -61,7 +60,7 @@ Cuando se envía una solicitud se añade a la lista **Solicitudes de usuario de 
 Para poder solicitar el aprovisionamiento de un nuevo usuario, esa persona debe figurar como contacto para una o más cuentas de proveedor. Para crear una solicitud de nuevo usuario de colaboración de proveedor:
 
 1. En la página **Todos los contactos**, haga clic en **Suministrar un usuario de proveedor**.
-2. Escriba una dirección de correo electrónico para el usuario. El usuario utilizará esta dirección para acceder a Finance and Operations. Si la dirección de correo electrónico pertenece a un dominio registrado como usuario de Microsoft Azure, la dirección de correo electrónico tiene que ser una cuenta existente de Azure Active Directory (AAD) para que el proceso de provisión finalice correctamente. Si la dirección de correo electrónico no pertenece a un dominio registrado con Microsoft Azure, se creará una cuenta ADD como parte del proceso de provisión y el nuevo usuario recibirá una invitación mediante un mensaje de correo. Las direcciones de correo electrónico de consumidor con dominios como @hotmail.com, @gmail.com o @comcast.net no pueden usarse para registrar a un usuario de Finance and Operations.
+2. Escriba una dirección de correo electrónico para el usuario. El usuario utilizará esta dirección para acceder a Finance and Operations. Si la dirección de correo electrónico pertenece a un dominio registrado como usuario de Microsoft Azure, la dirección de correo electrónico tiene que ser una cuenta existente de Azure Active Directory (AAD) para que el proceso de provisión finalice correctamente. Si la dirección de correo electrónico no pertenece a un dominio registrado con Microsoft Azure, se creará una cuenta AAD como parte del proceso de provisión y el nuevo usuario recibirá una invitación mediante un mensaje de correo. Las direcciones de correo electrónico de consumidor con dominios como @hotmail.com, @gmail.com o @comcast.net no pueden usarse para registrar a un usuario de Finance and Operations.
 3. Configure la opción **Acceso de colaboración de proveedor permitido** a **Sí** para todas las entidades jurídicas para las que el usuario necesita acceso.
 4. En la sección **Asignar roles de usuario**, seleccione la casilla **Asignar** para los roles de seguridad que debe tener el nuevo usuario.
 5. Haga clic en **Enviar**.
@@ -91,7 +90,6 @@ Para solicitar que los roles de seguridad se modifiquen para un usuario:
 2.  Escriba un comentario en el campo **Justificación comercial**.
 3.  En la sección **Mantener los roles de usuario**, seleccione los roles de seguridad que desea asignar, o borre los que desea quitar.
 4.  Haga clic en **Enviar**.
-
 
 
 

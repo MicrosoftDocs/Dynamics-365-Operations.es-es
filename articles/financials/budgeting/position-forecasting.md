@@ -1,13 +1,13 @@
 ---
-title: "Previsión de puestos"
-description: "Los gastos relacionados con los trabajadores componen a menudo una proporción grande de los costes de una organización. La previsión de puestos le permite planificar esos gastos y los incluye en la planificación de presupuestos."
+title: Previsión de puestos
+description: Los gastos relacionados con los trabajadores componen a menudo una proporción grande de los costes de una organización. La previsión de puestos le permite planificar esos gastos y los incluye en la planificación de presupuestos.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmPositionForecast
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bcd7363ba50f1c3a20d9823333df65eab9868d67
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a44b3d2ee6e47e71103c7be04b731d4faa79c448
-ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356171"
 ---
-
 # <a name="position-forecasting"></a>Previsión de puestos
 
 [!include [banner](../includes/banner.md)]
@@ -94,7 +93,7 @@ Se usa el elemento de coste de la ganancia que se seleccionó en el grupo de com
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>Crear puestos de previsión para puestos existentes
 
-Para la planificación presupuestaria de manera más precisa, puede crear puestos de previsión con los detalles de puestos existentes en Microsoft Dynamics 365 for Finance and Operations, independientemente de si el puesto existe o no actualmente. 
+Para la planificación de manera más precisa del presupuesto, puede crear puestos de previsión con los detalles de puestos existentes en Microsoft Dynamics 365 for Finance and Operations, independientemente de si el puesto existe o no actualmente. 
 
 La función **Agregar puestos existentes** muestra todas las posiciones para una organización. Al configurar la fecha **A partir de**, puede cambiar la lista de puestos de modo que contenga los puestos que existían en una fecha en el pasado o, normalmente, en el futuro (por ejemplo, el inicio del ciclo presupuestario siguiente). Seleccione una situación del proceso de planificación presupuestaria y el plan de presupuesto, seleccione puestos en la lista, y haga clic en **Aceptar** para crear los puestos de previsión para los puestos seleccionados. Tenga en cuenta que puede crear un puesto de previsión para cada puesto existente en un proceso y una situación de planificación presupuestaria. Sin embargo, puede crear versiones adicionales asignando distintas situaciones del plan de presupuesto. 
 
@@ -216,7 +215,6 @@ Tanto para el proceso de generación como para el proceso de selección, la fech
 Las líneas del plan de presupuesto muestran el origen de los importes de presupuesto (el número del puesto de previsión) pero no están vinculados. Por lo tanto, las modificaciones al puesto de previsión no se muestran en la línea del plan de presupuesto, y las modificaciones a la línea del plan de presupuesto se muestran en el puesto de previsión. Si cambia un puesto de previsión y desea que las actualizaciones se incluyan en un plan de presupuesto, debe incorporar el puesto de previsión en el plan de nuevo. Sin embargo, recuerde que este proceso elimina todas las líneas que se asignan al puesto de previsión. Por tanto, se eliminan los cambios realizados a estas líneas. 
 
 Para ver en qué planes de presupuesto se ha incluido un puesto de previsión, puede generar el informe **Puestos de previsión por plan de presupuesto**. Como alternativa, en el puesto de previsión, puede abrir el cuadro informativo **Planes asociados de presupuesto** para ver los planes.
-
 
 
 

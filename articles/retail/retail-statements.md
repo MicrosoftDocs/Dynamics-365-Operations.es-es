@@ -1,13 +1,13 @@
 ---
 title: Extractos comerciales
-description: "Este tema describe cómo se crean y registran los extractos."
+description: Este tema describe cómo se crean y registran los extractos.
 author: ashishmsft
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 9e88a8b22b73aca5c2cee6984ecad3c62e597102
-ms.contentlocale: es-es
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347707"
 ---
-
 # <a name="retail-statements"></a>Extractos comerciales
 
 [!include [banner](includes/banner.md)]
@@ -86,7 +85,6 @@ Si la casilla **Registrar como día laboral** se desactiva para la misma tienda,
 Cuando se registra un extracto, los pedidos de venta y las facturas se crean para las ventas minoristas en el extracto.
 
 - Las ventas al por mayor se agregan en un pedido de ventas y se facturan para el cliente predeterminado asignado a la tienda.
-- Las ventas minoristas para las que se ha agregado un cliente a la transacción en el PDV de Microsoft Dynamics 365 for Retail generan pedidos de venta y facturas independientes, una para cada cliente único.
+- Las ventas minoristas para las que se ha agregado un cliente a la transacción en Microsoft Dynamics 365 for Retail generan pedidos de venta y facturas independientes, una para cada cliente único.
 
 Los diarios de pago se crean automáticamente para los pagos en el extracto, y el inventario se actualiza para la tienda del PDV.
-

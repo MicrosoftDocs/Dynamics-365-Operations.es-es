@@ -1,30 +1,29 @@
 ---
-title: "Creación de pedidos de sustitución de artículos"
-description: "Los pedidos de sustitución de artículos se suelen crear una vez devuelto e inspeccionado un producto."
+title: Creación de pedidos de sustitución de artículos
+description: Los pedidos de sustitución de artículos se suelen crear una vez devuelto e inspeccionado un producto.
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReturnTableListPage
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 784a2522c27e8131f211ffc52319552b3b928cc3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1f0cd629658972f98e2233dfa287940c4444b82a
-ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355021"
 ---
-
 # <a name="create-an-item-replacement-order"></a>Creación de pedidos de sustitución de artículos 
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,7 @@ Los pedidos de sustitución de artículos se suelen crear una vez devuelto e ins
 
 2.  Cree un nuevo pedido de devolución o seleccione un pedido de devolución de la lista para abrir el formulario **Pedido de devolución - Número de RMA: %1, %2**.
 
-3.  Haga clic en **Buscar pedido de ventas** si desea identificar el pedido de ventas del artículo devuelto. Complete el formulario **Buscar pedido de ventas** y después haga clic en **Aceptar** para cerrar el formulario y volver al formulario **Pedido de devolución - número RMA: %1, %2** . La línea de pedido de ventas del artículo devuelto se copia en el pedido de devolución.
+3.  Haga clic en **Buscar pedido de ventas** si desea identificar el pedido de ventas del artículo devuelto. Complete el formulario **Buscar pedido de ventas** y después haga clic en **Aceptar** para cerrar el formulario y volver al formulario **Pedido de devolución - número RMA: %1, %2**. La línea de pedido de ventas del artículo devuelto se copia en el pedido de devolución.
 
 4.  Haga clic en **Pedido de sustitución** para abrir el formulario **Crear pedido de ventas**.
 
@@ -66,6 +65,5 @@ Los pedidos de sustitución de artículos se suelen crear una vez devuelto e ins
     
     Si el identificador del acuerdo de venta se muestra automáticamente en el campo **Id. del acuerdo de venta**, el acuerdo de venta está vinculado al encabezado de pedido de ventas correspondiente al pedido de sustitución de artículo. Si existe un compromiso aplicable en el acuerdo de venta que no se ha satisfecho aún y se crea el pedido de ventas antes de que venza el acuerdo de venta, se establece un vínculo entre la línea del acuerdo de venta y la línea del pedido de ventas. Por lo tanto, la información del acuerdo de venta, como el precio del artículo, se copia en la nueva línea del pedido de ventas. 
   
-
 
 

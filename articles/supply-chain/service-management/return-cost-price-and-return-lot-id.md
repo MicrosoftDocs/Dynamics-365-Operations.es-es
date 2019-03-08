@@ -1,31 +1,30 @@
 ---
-title: "Precio de coste de la devolución e identificador de lote interno de devolución"
-description: "Puede que desee que el coste de productos devueltos sea igual al coste que tenían los productos cuando se vendieron al cliente. Puede hacerlo utilizando el **Id. de devolución de lote**."
+title: Precio de coste de la devolución e identificador de lote interno de devolución
+description: Puede que desee que el coste de productos devueltos sea igual al coste que tenían los productos cuando se vendieron al cliente. Puede hacerlo utilizando el **Id. de devolución de lote**.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/30/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReturnTableListPage
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 33cd3d50fe342ba12a17419f4e759c243a60b3e0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: aeba56128ab6c9ab7d244bdf153faba8e96069d6
-ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335149"
 ---
-
 # <a name="return-cost-price-and-return-lot-id"></a>Precio de coste de la devolución e identificador de lote interno de devolución        
 
 [!include [banner](../includes/banner.md)]
@@ -104,12 +103,11 @@ Cuando se usa el campo **Id. de devolución de lote** en una línea del pedido d
 
 8.  Registre una factura para el pedido de devolución. En la página de lista **Todos los pedidos de ventas** , seleccione un pedido de ventas cuyo tipo de pedido sea **Pedido devuelto**.
 
-9.  Abra el formulario **Transacciones de inventario**. Compruebe que la devolución se calcule en 7,00 por unidad con el valor del campo **Precio de coste de la devolución**, para un total de 35,00 en el campo **Importe de coste**. Puede abrir el formulario **Transacciones de inventario** desde el formulario **Pedido de devolución - Número de RMA: %1, %2** . En la cuadrícula **Líneas**, haga clic en **Inventario** \> **Transacciones**.
+9.  Abra el formulario **Transacciones de inventario**. Compruebe que la devolución se calcule en 7,00 por unidad con el valor del campo **Precio de coste de la devolución**, para un total de 35,00 en el campo **Importe de coste**. Puede abrir el formulario **Transacciones de inventario** desde el formulario **Pedido de devolución - Número de RMA: %1, %2**. En la cuadrícula **Líneas**, haga clic en **Inventario** \> **Transacciones**.
 
 10. En la gestión de inventarios y almacenes, use el formulario **Cierre y ajuste** para ejecutar el procedimiento **3. Cerrar**.
     
     Esta acción ajusta el coste de la línea de ventas original que se calculó en -35,00 (5 piezas \* 7,00) en -30,00 (5 piezas \* 6,00). Esto se debe a que el grupo de modelos de inventario se rige por el principio FIFO (primero en entrar, primero en salir), y 6,00 por unidad es el coste FIFO del primer pedido de compra. Además, la acción ajusta el coste de la línea de ventas de devolución para conciliar el coste por unidad en la línea de ventas original. Por lo tanto, el coste de la línea de devolución se ajusta de 35,00 a 30,00.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
 title: Configurar pagos centralizados
-description: "Siga estos pasos para preparar el procesamiento de pagos de una entidad jurídica en nombre de otras entidades jurídicas de la organización."
+description: Siga estos pasos para preparar el procesamiento de pagos de una entidad jurídica en nombre de otras entidades jurídicas de la organización.
 author: kweekley
 manager: AnnBe
 ms.date: 05/09/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bb0769d605b831da09046a1e7bf0c2a704dba398
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2e309655bbc1d0fe7a088062b90fab34c642ab29
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361921"
 ---
-
 # <a name="set-up-centralized-payments"></a>Configurar pagos centralizados
 
 [!include [banner](../includes/banner.md)]
@@ -56,7 +55,6 @@ Al crear un pago en una entidad jurídica que liquida facturas de otras entidade
 
 ## <a name="set-up-default-descriptions"></a>Configurar descripciones predeterminadas
 Se pueden definir descripciones predeterminadas para los asientos de liquidación de empresas vinculadas. La descripción predeterminada se incluye en las transacciones de inicio y fin de vencimiento durante el proceso de liquidación entre empresas. En la página **Descripciones Predeterminadas**, puede crear nuevas descripciones tanto para **Liquidación de cliente de empresas vinculadas** como para **Liquidación de proveedor de empresas vinculadas** seleccionando un idioma y después especificando el texto.
-
 
 
 

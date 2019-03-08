@@ -1,13 +1,13 @@
 ---
-title: "Contabilización previa de los costes"
-description: "Este tema presenta el concepto de contabilización previa de los costes que se utiliza para lean manufacturing."
+title: Contabilización previa de los costes
+description: Este tema presenta el concepto de contabilización previa de los costes que se utiliza para lean manufacturing.
 author: cvocph
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanCosting, LeanCostingTimeBucket
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 484bac74ccb498f0b006458f5e6d8fb0e9461a8f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9fe717752da4c697cf0d896c0d40832330f0d118
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352721"
 ---
-
 # <a name="backflush-costing"></a>Contabilización previa de los costes
 
 [!include [banner](../includes/banner.md)]
@@ -62,7 +61,7 @@ Para los productos que se proporcionan fuera de un flujo de producción, el cál
 
 ### <a name="calculation-that-is-based-on-the-production-flow"></a>Cálculo que se basa el flujo de producción
 
-El lean manufacturing para Microsoft Dynamics 365 for Finance and Operations no depende de rutas. El cálculo del coste para los productos que se proporcionan de un flujo de producción se puede basar en el flujo de producción en sí. Antes de realizar el cálculo, se debe crear una regla kanban que proporcione el producto fuera del flujo de producción. Si un producto se puede suministrar desde varios flujos de producción en el mismo sitio en la fecha de cálculo, puede seleccionar el flujo de producción para el cálculo de L. MAT. En la página **Flujo de producción predeterminado** , puede configurar un flujo de producción predeterminado para cada artículo. Si varias reglas kanban existen para el mismo producto en el mismo flujo de producción que está activo en la fecha de cálculo, el cálculo selecciona la primera regla kanban que está activa para el cálculo.
+La lean manufacturing para Microsoft Dynamics 365 for Finance and Operations es independiente de rutas. El cálculo del coste para los productos que se proporcionan de un flujo de producción se puede basar en el flujo de producción en sí. Antes de realizar el cálculo, se debe crear una regla kanban que proporcione el producto fuera del flujo de producción. Si un producto se puede suministrar desde varios flujos de producción en el mismo sitio en la fecha de cálculo, puede seleccionar el flujo de producción para el cálculo de L. MAT. En la página **Flujo de producción predeterminado** , puede configurar un flujo de producción predeterminado para cada artículo. Si varias reglas kanban existen para el mismo producto en el mismo flujo de producción que está activo en la fecha de cálculo, el cálculo selecciona la primera regla kanban que está activa para el cálculo.
 
 ### <a name="calculation-that-is-based-on-the-route"></a>Cálculo basado en la ruta
 
@@ -122,7 +121,6 @@ Debe ejecutar una contabilización previa de los costes para valorar el trabajo 
     -   Todo el coste indirecto calculado para los materiales consumidos dentro del período se calcula y se deduce del trabajo en curso. El coste indirecto restante se registra como desviación.
 
 5.  Calcule las desviaciones de producción a coste estándar. La desviación se calcula por grupo de costes.
-
 
 
 

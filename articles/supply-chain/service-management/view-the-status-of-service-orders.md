@@ -1,32 +1,30 @@
 ---
 title: Ver el estado de los pedidos de servicio
-description: "El formulario Panel de distribución le permite ver el estado de las actividades de servicio de los pedidos de servicio."
+description: El formulario Panel de distribución le permite ver el estado de las actividades de servicio de los pedidos de servicio.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/07/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMADispatchBoard
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: dec3fe2a7344c2719ca12a180fa0adb025b7fcc7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: af49764e29753b749274b955b88e70fa2565c1f1
-ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365003"
 ---
-
-
 # <a name="view-the-status-of-service-orders"></a>Ver el estado de los pedidos de servicio 
 
 [!include [banner](../includes/banner.md)]
@@ -55,6 +53,5 @@ El gráfico de Gantt admite el uso de colores para ayudarle a evaluar rápidamen
 [Panel de distribución (formulario)](https://technet.microsoft.com/en-us/library/hh242789\(v=ax.60\))
 
   
-
 
 

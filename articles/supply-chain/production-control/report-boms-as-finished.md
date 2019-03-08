@@ -1,13 +1,13 @@
 ---
 title: Informar que la L. MAT. ha terminado
-description: "Este artículo proporciona información acerca de las notificaciones de lista de materiales terminadas."
+description: Este artículo proporciona información acerca de las notificaciones de lista de materiales terminadas.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMReportFinish, BOMReportFinishMax
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a80bda7dd469bc5c07ba0160e5e8c349ed2137fd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 92c594213eea8617d11b56be43e581a461830ba4
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340991"
 ---
-
 # <a name="report-boms-as-finished"></a>Informar que la L. MAT. ha terminado
 
 [!include [banner](../includes/banner.md)]
@@ -87,7 +86,6 @@ En este caso, el número de artículo COMP se expande a su materia prima, númer
 | 1     | RM          | -1       |
 
 En este caso, los dos piezas disponibles del número de artículo COMP sí se tienen en cuenta. Sin embargo, dado que hacen falta tres piezas del número de artículo FG, también hace falta una pieza del número de artículo RM para sumar la pieza adicional de COMP.
-
 
 
 

@@ -1,13 +1,13 @@
---- 
-title: "Crear una programación para un sitio"
-description: "Este procedimiento muestra cómo programar los pedidos de producción que no se han iniciado aún para un sitio."
+---
+title: Crear una programación para un sitio
+description: Este procedimiento muestra cómo programar los pedidos de producción que no se han iniciado aún para un sitio.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdTableListPage, ProdSchedule, ProdRouteJob
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 54bb2532534d5567239dad4fab7fd74fa50d2826
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 775428bf84a752c03c492e764fa9ed576ab64fb8
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330066"
 ---
 # <a name="create-a-schedule-for-a-site"></a>Crear una programación para un sitio
 
@@ -55,5 +55,4 @@ Este procedimiento muestra cómo programar los pedidos de producción que no se 
     * En esta página, puede ver la lista de trabajos. En la ficha Programación, puede ver la Fecha inicial y la Fecha final de un trabajo.  
 4. Haga clic en Materiales.
     * En esta página, puede ver el consumo de materiales estimado para las operaciones en el pedido de producción y el inventario disponible actual.  
-
 

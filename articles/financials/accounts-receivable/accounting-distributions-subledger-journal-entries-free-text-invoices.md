@@ -1,13 +1,13 @@
 ---
 title: Distribuciones contables y asientos del subdiario contable para las facturas de servicios
-description: "Las distribuciones contables se usan para definir cómo se contabilizará un importe; por ejemplo, cómo se contabilizarán los ingresos, impuestos o gastos en una factura de servicios. Cada importe que se debe contabilizar cuando se registre la factura de servicios en el diario tendrá una o varias distribuciones contables."
+description: Las distribuciones contables se usan para definir cómo se contabilizará un importe; por ejemplo, cómo se contabilizarán los ingresos, impuestos o gastos en una factura de servicios. Cada importe que se debe contabilizar cuando se registre la factura de servicios en el diario tendrá una o varias distribuciones contables.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5d1546e8537110daec5d6655f68d3328a58ca1cb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d13fbd98597fc8138bfb4d549608d75f790e0e52
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334873"
 ---
-
 # <a name="accounting-distributions-and-subledger-journal-entries-for-free-text-invoices"></a>Distribuciones contables y asientos del subdiario contable para las facturas de servicios
 
 [!include [banner](../includes/banner.md)]
@@ -134,7 +133,6 @@ Las distribuciones contables para los impuestos no se pueden crear hasta que se 
 
 ## <a name="subledger-journals-for-free-text-invoices"></a>Subdiarios contables para facturas de servicios
 Antes de registrar una factura de servicios, se debe visualizar el asiento contable completo de la factura, que incluye débitos y créditos, para verificar que la factura se está registrando en las cuentas correctas. Esta visualización del asiento contable completo se denomina subdiario contable. Si el asiento del subdiario contable es incorrecto cuando se obtiene una vista previa antes de registrar la factura de servicios en el diario, no se puede cambiar el asiento del subdiario contable. En lugar de ello, se deben cambiar las distribuciones contables o el perfil de registro. Las distribuciones contables se usan para definir un lado del asiento contable, el débito o el crédito. El asiento contable del subdiario contable se crea a partir de los perfiles de registro, como por ejemplo, desde la cuenta de cliente o los impuestos.
-
 
 
 

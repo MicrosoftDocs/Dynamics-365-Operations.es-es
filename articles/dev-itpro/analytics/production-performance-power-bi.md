@@ -1,13 +1,13 @@
 ---
-title: "Contenido en Power BI sobre rendimiento de la producción"
-description: "Este tema describe lo que se incluye en el contenido de Power BI sobre Rendimiento de la producción. Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido."
+title: Contenido de Power BI de rendimiento de producción
+description: Este tema describe lo que se incluye en el contenido de Power BI sobre Rendimiento de la producción. Explica cómo obtener acceso a los informes Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
 author: AndersGirke
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProductionPerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,19 +16,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 2bc4c409b831b78ef737a98ce985bf144853a454
-ms.contentlocale: es-es
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365969"
 ---
-
-# <a name="production-performance-power-bi-content"></a>Contenido en Power BI sobre rendimiento de la producción
+# <a name="production-performance-power-bi-content"></a>Contenido de Power BI de rendimiento de producción
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe lo que se incluye en el contenido de Microsoft Power BI sobre **Rendimiento de la producción**. Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
+Este tema describe lo que se incluye en el contenido de Microsoft Power BI sobre **Rendimiento de la producción**. Explica cómo obtener acceso a los informes Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
 
 ## <a name="overview"></a>Información general
 
@@ -63,7 +62,7 @@ La tabla siguiente proporciona información general de las visualizaciones que s
 
 ## <a name="understanding-the-data-model-and-entities"></a>Comprensión del modelo de datos y de las entidades
 
-Los datos siguientes se usan para las páginas de informes en el contenido de Power BI sobre **Rendimiento de la producción**. Estos datos se representan como medidas agregadas que se realizan en el almacén de la entidad. El almacén de la entidad es una base de datos de Microsoft SQL Server que se optimiza para el análisis. Para obtener más información acerca del almacén de entidades, consulte [Integración de Power BI con el almacén de entidades](power-bi-integration-entity-store.md).
+Los datos siguientes se usan para las páginas de informes en el contenido de Power BI sobre **Rendimiento de la producción**. Estos datos se representan como medidas agregadas que se realizan en el almacén de la entidad. El almacén de la entidad es una base de datos de Microsoft SQL Server que se optimiza para el análisis. Para obtener más información acerca del almacén de entidades, consulte Integración de [Power BI con el almacén de entidades](power-bi-integration-entity-store.md).
 
 La tabla siguiente muestra las medidas agregadas clave que se usan como base del contenido de Power BI.
 
@@ -130,4 +129,3 @@ Las tabla siguiente muestra las dimensiones clave que se utilizan como filtros p
 | Entidades                  | Identificador y nombre                                                   |
 | Recursos                 | Identificador de recurso, nombre de recurso, tipo de recurso y grupo de recursos |
 | Productos                  | Número de producto, nombre de producto, identificador de artículo y grupo de artículos         |
-

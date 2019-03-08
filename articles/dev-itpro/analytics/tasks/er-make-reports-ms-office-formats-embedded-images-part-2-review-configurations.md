@@ -1,13 +1,13 @@
---- 
-title: "Revisar configuraciones para generar informes en los formatos de Office que tengan imágenes incrustadas"
-description: "Para completar estos pasos, primero debe completar los pasos de la guía de tareas \"ER crea informes en los formatos de MS Office con imágenes incrustadas (Parte 1 - Configurar parámetros)”."
+---
+title: Revisar configuraciones para generar informes en los formatos de Office que tengan imágenes incrustadas
+description: Para completar estos pasos, primero debe completar los pasos de la guía de tareas "ER crea informes en los formatos de MS Office con imágenes incrustadas (Parte 1 - Configurar parámetros)”.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/13/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 8f3462f16ad7638071ab0aa2175d0bc291eeae89
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331423"
 ---
 # <a name="review-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Revisar configuraciones para generar informes en los formatos de Office que tengan imágenes incrustadas
 
@@ -91,5 +91,4 @@ Este procedimiento se ha creado para los usuarios con los roles de Administrador
 14. En el árbol, expanda "etiquetas: Contenedor".
     * Algunas etiquetas que se muestran en el formulario preimpreso del cheque se incluirán en el informe cuando se haya creado para hacer pruebas. Sin embargo, dichas etiquetas no se imprimirán durante la impresión real, porque el formulario preimpreso las incluye ya.  
 15. Cierre la página.
-
 

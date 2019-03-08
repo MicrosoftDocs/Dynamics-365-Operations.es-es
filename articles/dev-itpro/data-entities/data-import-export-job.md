@@ -1,13 +1,13 @@
 ---
-title: "Trabajos de exportación e importación de datos"
-description: "Use el espacio de trabajo de gestión de datos para crear y administrar trabajos de importación y exportación de datos."
+title: Trabajos de exportación e importación de datos
+description: Use el espacio de trabajo de gestión de datos para crear y administrar trabajos de importación y exportación de datos.
 author: Sunil-Garg
 manager: AnnBe
 ms.date: 08/28/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.scope: Operations
@@ -15,19 +15,18 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 68cafc167c178e2feeb0a5af764a491ea6b3c60b
-ms.contentlocale: es-es
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360219"
 ---
-
 # <a name="data-import-and-export-jobs"></a>Trabajos de exportación e importación de datos
 
 [!include [banner](../includes/banner.md)]
 
-Para crear y administrar trabajos de importación y exportación de datos en Microsoft Dynamics 365 for Finance and Operations debe usar el espacio de trabajo **Administración de datos**. De forma predeterminada, el proceso de importación y exportación de datos crea una tabla de almacenamiento provisional para cada entidad en la base de datos de destino. Las tablas de almacenamiento provisional le permiten verificar, limpiar o convertir datos antes de moverlos de sitio.
+Para crear y administrar la importación y exportación de datos de trabajos en Microsoft Dynamics 365 for Finance and Operations debe usar el espacio de trabajo **Gestión de datos**. De forma predeterminada, el proceso de importación y exportación de datos crea una tabla de almacenamiento provisional para cada entidad en la base de datos de destino. Las tablas de almacenamiento provisional le permiten verificar, limpiar o convertir datos antes de moverlos de sitio.
 
 > [!NOTE]
 > Este tema asumen que está familiarizado con las [entidades de datos](data-entities.md).
@@ -158,4 +157,3 @@ Puede limpiar las tablas de almacenamiento provisional si usa la característica
 - **Proyectos de datos**: si solo se selecciona un proyecto de datos, todos los registros de las entidades y de todos los trabajos del proyecto de datos seleccionado se eliminan.
 
 También puede combinar estas opciones para restringir aún más el conjunto de registros que se van a eliminar.
-

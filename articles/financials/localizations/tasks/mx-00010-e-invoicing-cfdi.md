@@ -1,13 +1,13 @@
---- 
-title: "MX-00010 Facturación electrónica de CFDI"
-description: "Esta tarea le muestra cómo crear y registrar una factura de cliente como una factura electrónica usando el método CFDI."
+---
+title: MX-00010 Facturación electrónica de CFDI
+description: Esta tarea le muestra cómo crear y registrar una factura de cliente como una factura electrónica usando el método CFDI.
 author: sndray
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, TaxGroupLookup, InventLocationIdLookup, SalesEditLines,  EInvoiceCFDIJournal_AR
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: b413b800d15f78f4d5941cc4cc75e23f96fe6933
-ms.contentlocale: es-es
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370436"
 ---
 # <a name="mx-00010-e-invoicing-cfdi"></a>MX-00010 Facturación electrónica de CFDI
 
@@ -74,5 +74,4 @@ Esta tarea le muestra cómo crear y registrar una factura de cliente como una fa
     * Este trabajo por lotes inicia la conexión con los servicios web PAC para obtener la aprobación o la cancelación de una factura electrónica (CFDI). La tarea en el lote se puede ejecutar manualmente o se puede programar para un período de tiempo específico.      Tras presionar Aceptar, la validación y la firma digital se recuperarán de PAC. Si se aprueba la factura electrónica, PAC envía el mensaje XML de respuesta y el estado de la factura electrónica se actualizará para su aprobación. Se envía un mensaje de correo electrónico automáticamente al cliente con el archivo XML y PDF adjunto. Los controles deslizantes Enviar correo y Enviar archivo de informe: PDF se deben establecer en "Sí" en la página de parámetros de factura electrónica. Si no, puede enviar por correo electrónico o imprimir el informe PDF basándose en la solicitud del cliente mediante el menú Consultar e informar > CFDI (facturas electrónicas).  
 39. Vaya a Clientes > Consultas e informes > CFDI (facturas electrónicas).
 40. En la lista, haga clic en la factura electrónica que revisar.
-
 

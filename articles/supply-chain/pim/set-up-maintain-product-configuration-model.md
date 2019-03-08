@@ -1,13 +1,13 @@
 ---
-title: "Configuración de un modelo de configuración de productos"
-description: "Este artículo describe los pasos para configurar y crear un modelo de configuración de productos."
+title: Configuración de un modelo de configuración de productos
+description: Este artículo describe los pasos para configurar y crear un modelo de configuración de productos.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCProductConfigurationModelListPage
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 10faa26a53b026a70487124d696b0313d1f5814d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 8504eb789b0d449cf2e29d4314d189dc0b8a6b43
-ms.contentlocale: es-es
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360679"
 ---
-
 # <a name="set-up-a-product-configuration-model"></a>Configuración de un modelo de configuración de productos
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,6 @@ Este artículo describe los pasos para configurar y crear un modelo de configura
 | Pruebe un modelo de configuración de productos.                         | Pruebe el modelo de configuración de productos desde la página **Detalles basados en el modelo de configuración de productos** o la página **Lista de modelos de configuración de productos**. Al probar los modelos de configuración de productos se simula el proceso de configuración del modelo de productos que se produce durante la gestión de pedidos.                                                                                                |
 | Cree una plantilla de modelo de configuración de productos.                | Cree una plantilla de modelo de configuración de productos en la página **Plantillas de configuración**. Una plantilla de configuración incluye los valores para los atributos en el modelo de configuración de productos. Seleccione los valores de atributo en la página **Configurar la línea**. Puede seleccionar cargar una plantilla de configuración de modelo de productos durante la configuración del modelo de productos.                                                   |
 | Configure un artículo.                                          | Los modelos de configuración de productos se pueden configurar desde un pedido de ventas, un presupuesto de ventas, un pedido de compra o un pedido de producción.                                                                                                                                                                                                                                                                           |
-
 
 
 

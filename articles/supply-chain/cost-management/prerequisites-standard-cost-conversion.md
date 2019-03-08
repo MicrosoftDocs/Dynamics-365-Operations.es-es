@@ -1,13 +1,13 @@
 ---
-title: "Requisitos previos para la conversión de costes estándar"
-description: "En este tema se describen tareas para realizar antes de ejecutar una conversión de coste estándar."
+title: Requisitos previos para la conversión de costes estándar
+description: En este tema se describen tareas para realizar antes de ejecutar una conversión de coste estándar.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventStdCostConv
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 955191a32165a32c455d0dba7424a82eb2559399
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 65844bd78363dc6638b16b3fd4ca163a3fde6a23
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351939"
 ---
-
 # <a name="prerequisites-for-a-standard-cost-conversion"></a>Requisitos previos para la conversión de costes estándar
 
 [!include [banner](../includes/banner.md)]
@@ -50,7 +49,6 @@ Antes de ejecutar una conversión de costes estándar, siga estos pasos:
 
         Cuando se activa el análisis de costes, el coste del artículo fabricado almacenará la segmentación de grupo de costes en el registro de costes. Si no selecciona ningún valor en el campo **Análisis de costes**, la segmentación del grupo de costes no se mantendrá para los artículos de coste estándar. Es decir, el coste estándar de un artículo fabricado se calculará y mantendrá como un solo importe sin la segmentación de grupos de costes, y las contribuciones de costes de los componentes fabricados se agregarán al importe único.
     -   Utilice el campo **Desviaciones a estándar** para seleccionar grupos resumidos o por costes. La selección por grupo de costes permite identificar desviaciones de precio de compra y las desviaciones de producción por grupo de costes. Esto también le permite identificar los cuatro tipos de desviaciones de producción (tamaño de lote, cantidad, precio y de sustitución). Si selecciona Resumen, no podrá identificar las desviaciones por grupo de costes ni los cuatro tipos de desviaciones de la producción. Únicamente podrá ver información resumida de las desviaciones de producción. La directiva sobre desviación es independiente de la directiva de análisis de costes. Es decir, puede seleccionar una directiva de análisis de costes 0 y seleccionar desviaciones por grupo de costes, de forma que sigan mostrándose las desviaciones de la producción por grupo de coste.
-
 
 
 

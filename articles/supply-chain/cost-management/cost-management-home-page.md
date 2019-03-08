@@ -1,32 +1,31 @@
 ---
-title: "Página principal de la gestión de costes"
-description: "La gestión de costes le permite gestionar la evaluación y la contabilidad de materias primas, productos semiterminados, productos terminados y de activos en curso."
+title: Página principal de la gestión de costes
+description: La gestión de costes le permite gestionar la evaluación y la contabilidad de materias primas, productos semiterminados, productos terminados y de activos en curso.
 author: AndersGirke
 manager: AnnBe
 ms.date: 04/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: fd94ae4c5ea855139fd1c41060de7db455ffab06
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: cab2f165a70e5ce8f09f0391282e055e51afb225
-ms.openlocfilehash: b1513e5a7cb3a19fd3743a5aac8efd211aa02ce8
-ms.contentlocale: es-es
-ms.lasthandoff: 02/21/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333953"
 ---
-
 # <a name="cost-management-home-page"></a>Página principal de la gestión de costes
 
 [!include [banner](../includes/banner.md)]
@@ -46,7 +45,7 @@ Puede obtener acceso a la contabilidad de inventario y la contabilidad de fabric
 
 La contabilidad de fabricación le permite administrar la [Gestión de costes de órdenes de producción](production-order-cost-analysis.md) en pedidos de producción y pedidos de lote, y [Contabilización previa de los costes](backflush-costing.md) en producción ajustada.
 
-El [Contenido de gestión de costes en Power BI](../../dev-itpro/analytics/cost-management-content-pack.md) proporciona información administrativa de inventario y de inventario del trabajo en curso, y explica cómo el coste fluye por categoría en el tiempo. La información se puede usar como suplemento detallado del informe financiero.
+El Contenido de [Gestión de costes en Power BI](../../dev-itpro/analytics/cost-management-content-pack.md) proporciona información administrativa de inventario y de inventario del trabajo en curso, y explica cómo el coste fluye por categoría en el tiempo. La información se puede usar como suplemento detallado del informe financiero.
 
 ### <a name="additional-resources"></a>Recursos adicionales
 
@@ -67,9 +66,8 @@ El [cálculo de L. MAT. con una hoja de gestión de costes](https://mbs.microsof
 
 
 #### <a name="blogs"></a>Blogs
-Puede encontrar opiniones, novedades y otra información acerca de la Gestión de costes en el [blog del equipo de I+D y fabricación de Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) y el [blog del equipo de I+D de administración de cadenas de suministros en Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm). Aunque la mayoría de ellos se escribieron para la versión anterior de Gestión de costes, aún se aplican los mismos conceptos y, en la versión actual, los procedimientos son también similares.
+Puede encontrar opiniones, novedades y otra información acerca de la Gestión de costes en el [blog del equipo de I+D y fabricación de Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) y el [blog del equipo de I+D de administración de Supply Chain Management en Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm). Aunque la mayoría de ellos se escribieron para la versión anterior de Gestión de costes, aún se aplican los mismos conceptos y, en la versión actual, los procedimientos son también similares.
 
 #### <a name="task-guides"></a>Guías de tareas
 Hay ayuda adicional disponible como guías de tareas en Finance and Operations. Para tener acceso a las guías de tareas, haga clic en el botón Ayuda en cualquier página.
-
 

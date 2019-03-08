@@ -1,13 +1,13 @@
 ---
 title: Fecha de media ponderada
-description: "La fecha de media ponderada es un modelo de inventario basado en el principio de media ponderada, según el cual las emisiones de inventario se valoran según el valor medio de los artículos que se reciben en inventario para cada día diferente en el período de cierre de inventario."
+description: La fecha de media ponderada es un modelo de inventario basado en el principio de media ponderada, según el cual las emisiones de inventario se valoran según el valor medio de los artículos que se reciben en inventario para cada día diferente en el período de cierre de inventario.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9963c17d8ac1854a42cac2a0e19615f13e8cc006
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a258c7d6314546262a3f9d07d06da5cad797d99b
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355412"
 ---
-
 # <a name="weighted-average-date"></a>Fecha de media ponderada
 
 [!include [banner](../includes/banner.md)]
@@ -41,7 +40,7 @@ Si solo ha tenido lugar una recepción hasta la fecha, no es necesario valorar l
 
 La fórmula siguiente se usa para calcular el método de gestión de costes de fecha media ponderada: 
 
-Media ponderada = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q*n* × P*n*\]) ÷ (Q1 + Q2 + Q*n*) 
+Media ponderada = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q*n* × P*n*\]) ÷ (Q1 + Q2 + Q*n*) 
 
 Durante el cierre de inventario, el cálculo se realiza a diario hasta el período de cierre, tal y como se muestra en la ilustración siguiente. 
 
@@ -54,7 +53,7 @@ Las transacciones de inventario que salen del inventario, como los pedidos de ve
 
 Las liquidaciones son registros del cierre del inventario que ajustan las emisiones con el fin de obtener el valor correcto de la media ponderada en la fecha de cierre. 
 
-**Nota:** para obtener más información acerca de las liquidaciones, vea el artículo acerca del cierre de inventario. En los ejemplos siguientes se muestra el efecto del uso del método de media ponderada con cinco configuraciones:
+**Nota:** para obtener más información acerca de las liquidaciones, vea el artículo acerca del cierre de inventario. En los ejemplos siguientes se muestra el efecto del uso del método de media ponderada con cinco configuraciones:
 
 -   Liquidación directa de la fecha de media ponderada cuando no se usa la opción **Incluir valor físico en coste**
 -   Liquidación resumida de la fecha de media ponderada cuando no se usa la opción **Incluir valor físico en coste**
@@ -195,7 +194,6 @@ El nuevo precio de coste promedio móvil refleja la media de las transacciones a
 -   Cada flecha vertical tiene una etiqueta con un identificador secuencial, por ejemplo, *1a*. Los identificadores indican la secuencia de los registros de transacciones de inventario en la línea de tiempo.
 -   Los cierres de inventario se representan por medio de una línea roja vertical discontinua y la etiqueta *Cierre de inventario*.
 -   Las liquidaciones que se llevan a cabo mediante el cierre de inventario se representan por medio de flechas rojas con rayas que van en sentido diagonal desde las recepciones a las emisiones.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Formatos de archivo para métodos de pago"
-description: "En este tema se describen los dos métodos para obtener los formatos de archivo que puede usar para los métodos de pago."
+title: Formatos de archivo para métodos de pago
+description: En este tema se describen los dos métodos para obtener los formatos de archivo que puede usar para los métodos de pago.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustPaymMode, VendPaymMode
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Belgium, France, Germany, Norway, Spain, Sweden, Switzerland
 ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 350bea3e4a698e5e7c71fe4fcbb7e7386939511e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b6ee0ceb9d773ad1f510a5d192a7094a37061808
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370462"
 ---
-
 # <a name="file-formats-for-methods-of-payment"></a>Formatos de archivo para métodos de pago
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,6 @@ Para seleccionar formatos de archivo basados en código X++, siga los pasos desc
 4.  Seleccione un formato de archivo en la lista **Disponible** y muévalo a la lista **Seleccionado** con el control de flecha.
 5.  Cierre la página **Formatos de archivo para métodos de pago**.
 6.  En la ficha desplegable **Formatos de archivo**, seleccione el formato de archivo que desea utilizar para el método de pago en el campo de formato de archivo apropiado. Las opciones generales de informes electrónicos deben establecerse en **No** para formatos de archivo X++.
-
 
 
 

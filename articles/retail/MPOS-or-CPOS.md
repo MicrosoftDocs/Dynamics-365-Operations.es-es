@@ -1,31 +1,30 @@
 ---
 title: Elegir entre Retail Modern POS (MPOS) y Cloud POS
-description: "Este tema explica las diferencias entre Retail Modern POS y Cloud POS. También se describen los distintos factores que los minoristas que están implementando Microsoft Dynamics 365 for Retail deben considerar para ayudar a tomar las mejores decisiones para sus requisitos."
+description: Este tema explica las diferencias entre Retail Modern POS y Cloud POS. También se describen los distintos factores que los minoristas que están implementando Microsoft Dynamics 365 for Retail deben considerar para ayudar a tomar las mejores decisiones para sus requisitos.
 author: jblucher
 manager: AnnBe
 ms.date: 10/12/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 0b137a21a610a8bffc10b03067b429995e8e0662
-ms.contentlocale: es-es
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336253"
 ---
-
 # <a name="choose-between-retail-modern-pos-mpos-and-cloud-pos"></a>Elegir entre Retail Modern POS (MPOS) y Cloud POS
 
 [!include [banner](includes/banner.md)]
@@ -43,7 +42,7 @@ Retail admite las siguientes opciones de PDV:
 - Retail Modern POS (MPOS) para Microsoft Windows
 - MPOS para Microsoft Windows Phone
 - MPOS para el Apple iPad o tableta de Google Android
-- Cloud POS (CPOS), que admite los exploradores Microsoft Edge, Internet Explorer, y Google Chrome
+- Cloud POS (CPOS), que admite Microsoft Edge, Internet Explorer, y los exploradores de Google Chrome
 
 En todos los casos, el sistema POS (MPOS y CPOS) comparte el mismo código de aplicación básica. Este punto es importante por los siguientes motivos:
 
@@ -61,7 +60,7 @@ Aunque los MPOS y los CPOS son prácticamente iguales, existen algunas diferenci
 MPOS en un dispositivo Windows, iOS, o Android es una aplicación que se empaqueta, se instala y se mantiene en dicho dispositivo.
 
 - **Windows** – El MPOS para la aplicación de Windows contiene todo el código de aplicación y el tiempo de ejecución de comercio incrustado (CRT). 
-- **iOS/Android** En estas plataformas, la aplicación actúa como host para el código de aplicación de los CPOS. Es decir, el código de aplicación procede del servidor de los CPOS en Microsoft Azure o la unidad de escala de tienda de Retail (RSSU). Para obtener más información, consulte [Visión general de la unidad de escala de Retail Store Connect](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin).
+- **iOS/Android** En estas plataformas, la aplicación actúa como host para el código de aplicación de los CPOS. Es decir, el código de aplicación procede del servidor de los CPOS en Microsoft Azure o Retail Store Scale Unit (RSSU). Para obtener más información, consulte [Vista general de Retail Store Scale Unit](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin)
 
 #### <a name="cpos"></a>CPOS
 
@@ -74,8 +73,8 @@ Además de una plataforma y un factor de forma, los minoristas deben elegir tamb
 | Solicitud de POS         | Retail Server | Disponible sin conexión |
 |-------------------------|---------------|-------------------|
 | MPOS para Windows        | Nube o RSSU | Sí               |
-| MPOS para Android o iOS | Nube o RSSU | N.º                |
-| PDV en la nube               | Nube o RSSU | N.º                |
+| MPOS para iOS o Android | Nube o RSSU | Nº                |
+| PDV en la nube               | Nube o RSSU | Nº                |
 
 #### <a name="retail-server"></a>Retail Server
 
@@ -106,4 +105,3 @@ Tenga en cuenta la siguiente información cuando planee su implementación de PD
 - **Dispositivos de hardware/periféricos** – Un aspecto importante de un sistema Retail POS es su capacidad para usar periféricos de PDV como impresoras, cajas registradoras, y terminales de pago. Aunque todas las opciones disponibles de POS puedan usar dispositivos periféricos, solo los MPOS para Windows los admiten directamente. Para el resto de solicitudes, se requieren una o más estaciones de hardware. Aunque este planteamiento añade flexibilidad, deben implementarse, configurarse y mantener componentes adicionales.
 - **Requisitos del sistema** – Los requisitos del sistema para la aplicación de PDV varían. Asegúrese de verificar la información más reciente antes de tomar una decisión. Por ejemplo, ya que los CPOS se ejecutan en un explorador, admiten una gama más amplia de sistemas operativos. Para obtener más información acerca de los requisitos del sistema, consulte los [Requisitos del sistema para implementaciones en la nube](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/system-requirements).
 - **Implementación y mantenimiento** La complejidad de los requisitos de implementación y mantenimiento puede variar, en función de las opciones de la aplicación y la implementación. Por ejemplo, para una implementación de CPOS hospedada en la nube, no es necesario instalar y actualizar en cada dispositivo. Por lo tanto, este planteamiento reduce significativamente la complejidad y el coste. Sin embargo, si se implementan MPOS en cada registro y habilita el modo desconectado, y también implementa las estaciones compartidas de hardware, aumenta significativamente el número de extremos que deben administrarse.
-

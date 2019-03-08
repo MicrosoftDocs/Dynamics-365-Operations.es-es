@@ -1,13 +1,13 @@
---- 
-title: "Delegación de elementos de trabajo de un flujo de trabajo"
-description: "Si tiene planeado ausentarse de la oficina o, por alguna otra razón, no va a poder encargarse de los elementos de trabajo, puede delegar, o volver a asignar, sus elementos de trabajo a otros usuarios."
+---
+title: Delegación de elementos de trabajo de un flujo de trabajo
+description: Si tiene planeado ausentarse de la oficina o, por alguna otra razón, no va a poder encargarse de los elementos de trabajo, puede delegar, o volver a asignar, sus elementos de trabajo a otros usuarios.
 author: jasongre
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysUserSetup, WorkflowDelegationUserListLookup
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: f85a1318822ceaf829134bf2eb3581e350d5bea4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 4765fec0cdce0e2f8859c979ff97d20aa6b20bfa
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346258"
 ---
 # <a name="delegate-work-items-in-a-workflow"></a>Delegación de elementos de trabajo de un flujo de trabajo
 
@@ -48,5 +48,4 @@ La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 8. Active la casilla de verificación Habilitado para activar la regla de delegación.
     * Si ha seleccionado Módulo como el Ámbito, deberá seleccionar el módulo en el campo Nombre.    Si ha seleccionado Flujo de trabajo como el Ámbito, deberá seleccionar el flujo de trabajo específico para delegar el campo Nombre.  
 9. En el campo Comentario, introduzca un comentario en el que se explique el motivo por el que delega los elementos de trabajo.
-
 

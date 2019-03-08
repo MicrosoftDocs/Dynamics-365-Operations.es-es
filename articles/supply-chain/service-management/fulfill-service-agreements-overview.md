@@ -1,32 +1,30 @@
 ---
-title: "Cumplir con la visión general de los acuerdos de servicio"
-description: "Este tema proporciona información general de las tareas para cumplir con los acuerdos de servicio."
+title: Cumplir con la visión general de los acuerdos de servicio
+description: Este tema proporciona información general de las tareas para cumplir con los acuerdos de servicio.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/03/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServiceOrderTable, SMAAgreementTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0d37ba306ae972158fb2cea27579d8f204d33010
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 3c87171fb96e661eac2c25c1800f622d65b552ae
-ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348305"
 ---
-
-
 # <a name="fulfill-service-agreements-overview"></a>Cumplir con la visión general de los acuerdos de servicio 
 
 [!include [banner](../includes/banner.md)]
@@ -69,9 +67,9 @@ La tabla siguiente muestra los formularios que admiten los componentes del proce
 <td><p>Permite crear y mantener suscripciones de servicio.</p></td>
 </tr>
 <tr class="odd">
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="even">
 <td><p>Supervisar e implementar acuerdo</p></td>
@@ -84,9 +82,9 @@ La tabla siguiente muestra los formularios que admiten los componentes del proce
 <td><p>Permite crear y mantener pedidos de servicio.</p></td>
 </tr>
 <tr class="even">
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
+<td><p> </p></td>
 </tr>
 <tr class="odd">
 <td><p>Actualización y evaluación de contratos</p></td>
@@ -107,6 +105,5 @@ La tabla siguiente muestra los formularios que admiten los componentes del proce
 </table>
 
   
-
 
 

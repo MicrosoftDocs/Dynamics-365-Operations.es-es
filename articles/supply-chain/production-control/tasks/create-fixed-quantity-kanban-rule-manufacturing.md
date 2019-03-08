@@ -1,13 +1,13 @@
---- 
-title: "Crear una regla kanban de cantidad fija para fabricación"
-description: "Este procedimiento se centra en la configuración necesaria para crear una regla kanban de fabricación fija para activar actividades de transformación, en una celda de trabajo, en un entorno de producción ajustada."
+---
+title: Crear una regla kanban de cantidad fija para fabricación
+description: Este procedimiento se centra en la configuración necesaria para crear una regla kanban de fabricación fija para activar actividades de transformación, en una celda de trabajo, en un entorno de producción ajustada.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, InventItemIdLookupSimple, UnitOfMeasureLookup, KanbanCreate
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9e0f58d1e265fb001474eb572b9bc325cf08790c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 8020a37bf0c725fc260574cfe87861aeb017519e
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338691"
 ---
 # <a name="create-a-fixed-quantity-kanban-rule-for-manufacturing"></a>Crear una regla kanban de cantidad fija para fabricación
 
@@ -73,5 +73,4 @@ Este procedimiento se centra en la configuración necesaria para crear una regla
 4. Haga clic en Crear.
     * Esto creará 5 kanbans.  
     * Tenga en cuenta que se crearon 5 kanbans, para 10 cada uno, para esta regla kanban de fabricación. Este es el último paso de este procedimiento.  
-
 

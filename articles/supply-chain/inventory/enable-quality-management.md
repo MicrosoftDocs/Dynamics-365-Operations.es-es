@@ -1,13 +1,13 @@
 ---
-title: "Visión general de la gestión de la calidad"
-description: "Este tema describe cómo puede usar la gestión de calidad en Microsoft Dynamics 365 for Finance and Operations para ayudar a mejorar la calidad del producto dentro de la cadena de suministro."
+title: Visión general de la gestión de la calidad
+description: Este tema describe cómo puede usar la gestión de calidad en Microsoft Dynamics 365 for Finance and Operations para ayudar a mejorar la calidad del producto dentro de la cadena de suministro.
 author: perlynne
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventTestAssociationTable, InventTestGroup, InventTestItemQualityGroup, InventTestTable, InventTestVariable, InventTestVariableOutcome
 audience: Application User
 ms.reviewer: josaw
@@ -19,21 +19,20 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1630d13437d7e930fdf32ed5fdc61fc62bc33817
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 79b3127f726a08cc24c20145b5ad9969157a899c
-ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338323"
 ---
-
 # <a name="quality-management-overview"></a>Visión general de la gestión de la calidad
 
 [!include [banner](../includes/banner.md)]
 
 Este tema describe cómo puede usar la gestión de calidad en Microsoft Dynamics 365 for Finance and Operations para ayudar a mejorar la calidad del producto dentro de la cadena de suministro.
 
-La gestión de calidad puede ayudarle a gestionar los plazos de entrega cuando maneja productos de disconformidad, independientemente de su punto de origen. Dado que los tipos de diagnóstico están vinculados a la corrección de los informes, Microsoft Dynamics 365 for Finance and Operations puede programar tareas para corregir los problemas y evitar que se repitan.
+La gestión de calidad puede ayudarle a gestionar los plazos de entrega cuando maneja productos de disconformidad, independientemente de su punto de origen. Dado que los tipos de diagnóstico están vinculados a la corrección de los informes, Microsoft Dynamics 365 for Finance and Operations puede programar las tareas para corregir los problemas y evitar que se repitan.
 
 Además de la funcionalidad para gestionar la no conformidad, la gestión de calidad incluye la funcionalidad de realizar un seguimiento de las incidencias por tipo de problema (incluso problemas internos) y para identificar soluciones a corto plazo o a largo plazo. Las estadísticas acerca de los indicadores clave de rendimiento (KPI) proporcionan información sobre el historial de problemas de disconformidad anteriores y las soluciones utilizadas para corregirlos. Puede usar los datos históricos para revisar la eficacia de las medidas de calidad anteriores y determinar las medidas adecuadas que se deben usar en el futuro.
 
@@ -362,4 +361,3 @@ Debe definir una asociación de calidad para cada variación de un proceso empre
 [Procesos de administración de calidad](quality-management-processes.md)
 
 [Activación de la gestión de disconformidades](enable-nonconformance-management.md)
-

@@ -1,13 +1,13 @@
---- 
-title: "Creación de una unidad operativa"
-description: "Una unidad operativa es una organización que se usa para dividir el control de los recursos económicos y los procesos operativos de un negocio."
+---
+title: Creación de una unidad operativa
+description: Una unidad operativa es una organización que se usa para dividir el control de los recursos económicos y los procesos operativos de un negocio.
 author: sericks007
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMOperatingUnit, OMInternalOrganizationSelector
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9c49000b09fdbac10dfa952718453bf82cbb1498
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 838d1c2d5d1ab2524e9f4be423fbf529b89f5f59
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332642"
 ---
 # <a name="create-an-operating-unit"></a>Creación de una unidad operativa
 
@@ -42,5 +42,4 @@ Una unidad operativa es una organización que se usa para dividir el control de 
     * Expanda o contraiga la sección Información de contacto, si es necesario.  
     * Especifique información sobre los métodos de comunicación, como direcciones de correo electrónico, URL y números de teléfono. Para especificar un nuevo registro de comunicación, haga clic en Nuevo. Para modificar un registro de comunicación existente, haga clic en Más opciones > Avanzado.   
 6. Haga clic en Guardar.
-
 

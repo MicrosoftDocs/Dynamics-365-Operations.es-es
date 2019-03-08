@@ -1,13 +1,13 @@
 ---
 title: Organizar los recursos mediante departamentos, trabajos y puestos
-description: "Los departamentos, los trabajos y los puestos son elementos de organización que se mantienen dentro de Recursos Humanos. En este tema se describe información conceptual acerca de estos elementos."
+description: Los departamentos, los trabajos y los puestos son elementos de organización que se mantienen dentro de Recursos Humanos. En este tema se describe información conceptual acerca de estos elementos.
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmJob, HcmPosition, OMOperatingUnit
 audience: Application User
 ms.reviewer: rschloma
@@ -18,19 +18,17 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
+ms.openlocfilehash: 8b74542b85810409e062a42e323c0527711d562f
+ms.sourcegitcommit: 49a642cd5e0519e381ff558f59c993ee77f55108
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: b2a79c42b67621272af8107661202ea2ce092193
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 02/04/2019
+ms.locfileid: "374406"
 ---
-
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Organizar los recursos mediante departamentos, trabajos y puestos
 
 [!include [banner](includes/banner.md)]
 
-[!include [retail name](includes/retail-name.md)]
 
 Los departamentos, los trabajos y los puestos son elementos de organización que se mantienen dentro de Recursos Humanos. En este tema se describe información conceptual acerca de estos elementos. 
 
@@ -165,7 +163,6 @@ Para algunos registros, puede especificar cambios futuros al registro. La siguie
 </table>
 
 Puede modificar la información que se indica en la tabla anterior para un puesto o trabajo y especificar una fecha en la que deben aplicarse las modificaciones al puesto o trabajo. Por ejemplo, un puesto solo se puede asignar a un único trabajador, pero Sanjay Patel, asignado al puesto Contable-A, se irá en dos semanas. Joe Healy reemplazará a Sanjay Patel cuando éste se vaya. Aunque Sanjay aún está asignado al puesto, puede asignar a Joe Healy al mismo puesto de modo que la asignación solo será vigente después del último día de Sanjay.
-
 
 
 

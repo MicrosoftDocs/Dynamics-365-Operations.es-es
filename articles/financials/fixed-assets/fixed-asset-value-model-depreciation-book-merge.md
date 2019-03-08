@@ -1,13 +1,13 @@
 ---
-title: "Modelo de valor de activos fijos y fusión del libro de amortización"
-description: "En versiones anteriores, había dos conceptos de la evaluación para activos fijos: modelos de valor y libros de depreciación. En Microsoft Dynamics 365 for Operations (1611), la función del modelo de valor y la del libro de amortización se han combinado en un solo concepto que se conoce como libro."
+title: Modelo de valor de activos fijos y fusión del libro de amortización
+description: 'En versiones anteriores, había dos conceptos de la evaluación para activos fijos: modelos de valor y libros de depreciación. En el lanzamiento de Microsoft Dynamics 365 for Operations (1611), la función del modelo de valor y la del libro de amortización se han combinado en un solo concepto que se conoce como libro.'
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 26f4b73f67064a83eb7b3d57f2dc98d90602c254
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8ef31b63dd253ab5b436a65385e248c4753abf1e
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342532"
 ---
-
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>Modelo de valor de activos fijos y fusión del libro de amortización
 
 [!include [banner](../includes/banner.md)]
 
-En versiones anteriores, había dos conceptos de la evaluación para activos fijos: modelos de valor y libros de depreciación. En Microsoft Dynamics 365 for Operations (1611), la función del modelo de valor y la del libro de amortización se han combinado en un solo concepto que se conoce como libro.
+En versiones anteriores, había dos conceptos de la evaluación para activos fijos: modelos de valor y libros de depreciación. En el lanzamiento de Microsoft Dynamics 365 for Operations (1611), la función del modelo de valor y la del libro de amortización se han combinado en un solo concepto que se conoce como libro.
 
 La función del nuevo libro se basa en la función anterior del modelo de valor pero también incluye todas las funciones que se proporcionaron anteriormente únicamente en libros de amortización. [![El libro como una combinación de la funcionalidad del modelo de valor y el libro de amortización](./media/fixed-assets.png)](./media/fixed-assets.png) Debido a esta fusión, ahora puede usar un único conjunto de páginas, preguntas e informes para todos los procesos del activo fijo. Las tablas de este tema describen la función anterior para los libros de amortización y los modelos de valor, así como la nueva función para los libros.
 
@@ -69,7 +68,6 @@ Las consultas e informes admiten todos los libros. Los informes que no se incluy
 
 ## <a name="upgrade"></a>Actualizar
 El proceso de actualización moverá la configuración existente y todas sus transacciones existentes a la estructura del nuevo libro. Los modelos de valor se mantendrán como hasta ahora, como un libro que registra en la contabilidad general. Sin embargo, los libros de amortización se moverán a un libro que tiene la opción **Registrar en la contabilidad general** establecida a **No**. Los nombres del diario del libro de amortización se moverán a un nombre de diario de la contabilidad general que tenga la capa de registro establecida a **Ninguno**.
-
 
 
 

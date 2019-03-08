@@ -1,13 +1,13 @@
---- 
+---
 title: Crear transacciones de provisiones de contabilidad
-description: "Esta guía de tareas describe los pasos de la generación de transacciones de acumulaciones contables basadas en los esquemas de acumulación."
+description: Esta guía de tareas describe los pasos de la generación de transacciones de acumulaciones contables basadas en los esquemas de acumulación.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransDaily, LedgerJournalTransAccrual, LedgerJournalTransAccrualTrans
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 4a65bec066bdcb01ce8acf8cfbf2d31611104921
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 368614ff447ae9f5cb6e74274558b92a0873ec7a
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330480"
 ---
 # <a name="create-ledger-accrual-transactions"></a>Crear transacciones de provisiones de contabilidad
 
@@ -48,5 +48,4 @@ Esta guía de tareas describe los pasos de la generación de transacciones de ac
 16. Cierre la página.
 17. Haga clic en Aceptar
 18. Haga clic en Registrar.
-
 

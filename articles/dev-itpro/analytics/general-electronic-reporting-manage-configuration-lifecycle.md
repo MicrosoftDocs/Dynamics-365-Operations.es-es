@@ -1,13 +1,13 @@
 ---
-title: "Administrar el ciclo de vida de las configuraciones de la notificación electrónica (ER)"
-description: "En este tema se describe cómo administrar el ciclo de vida de las configuraciones de informes electrónicos (ER) para la solución de Microsoft Dynamics 365 for Finance and Operations."
+title: Administrar el ciclo de vida de las configuraciones de la notificación electrónica (ER)
+description: Este tema describe cómo administrar el ciclo de vida de las configuraciones de informes electrónicos (ER) para la solución Microsoft Dynamics 365 for Finance and Operations.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERMappedFormatDesigner, ERModelMappingDesigner, ERModelMappingTable, ERSolutionImport, ERSolutionTable, ERVendorTable, ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -18,23 +18,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5724ba62bfb2c6e75ae895dc9285966c25f387a2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 76ea412a3c10bf33fc06603bab8b94b2eadb9803
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344809"
 ---
-
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Administrar el ciclo de vida de las configuraciones de la notificación electrónica (ER)
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se describe cómo administrar el ciclo de vida de las configuraciones de informes electrónicos (ER) para la solución de Microsoft Dynamics 365 for Finance and Operations.
+Este tema describe cómo administrar el ciclo de vida de las configuraciones de informes electrónicos (ER) para la solución Microsoft Dynamics 365 for Finance and Operations.
 
 ## <a name="overview"></a>Información general
 
-El Informe electrónico (ER) es un motor que ofrece asistencia con documentos electrónicos reglamentarios y específicos del país en Microsoft Dynamics 365 for Finance and Operations. En general, ER asume la capacidad de realizar las actividades siguientes para un único documento electrónico. Para obtener más información, consulte [Visión general de los informes electrónicos](general-electronic-reporting.md).
+Informes electrónico (ER) es un motor que ofrece asistencia con documentos electrónicos específicos de país y necesarios reglamentarios en Microsoft Dynamics 365 for Finance and Operations. En general, ER asume la capacidad de realizar las actividades siguientes para un único documento electrónico. Para obtener más información, consulte [Visión general de los informes electrónicos](general-electronic-reporting.md).
 
 - Diseñar una plantilla para un documento electrónico:
 
@@ -89,4 +88,3 @@ Las configuraciones de ER que se diseñan en el entorno de desarrollo se pueden 
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Visión general de los informes electrónicos](general-electronic-reporting.md)
-

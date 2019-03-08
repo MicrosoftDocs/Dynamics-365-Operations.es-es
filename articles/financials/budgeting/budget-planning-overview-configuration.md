@@ -1,13 +1,13 @@
 ---
-title: "Visión general de la planificación presupuestaria"
-description: "En este artículo se introduce la plantificación presupuestaria y contiene información que le ayudará a configurar la planificación presupuestaria y los procesos de planificación presupuestaria."
+title: Visión general de la planificación presupuestaria
+description: En este artículo se introduce la plantificación presupuestaria y contiene información que le ayudará a configurar la planificación presupuestaria y los procesos de planificación presupuestaria.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8a262b5200c8071bec78ff6d3ed7976d4b2057ea
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b008e70c7d834c6aacad7aef4987e60b12ed8a6d
-ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329928"
 ---
-
 # <a name="budget-planning-overview"></a>Visión general de la planificación presupuestaria
 
 [!include [banner](../includes/banner.md)]
@@ -58,7 +57,7 @@ Puede utilizar la planificación presupuestaria para realizar las tareas siguien
 -   Enrutar automáticamente los planes presupuestarios, junto con las hojas de cálculo, los documentos de justificación y otros datos adjuntos, para su revisión y aprobación.
 -   Consolidar varios planes presupuestarios de un nivel inferior de la organización en un único plan presupuestario principal de un nivel superior de la organización. También puede desarrollar un único plan presupuestario en un nivel superior de la organización y asignar el presupuesto a niveles inferiores de la organización.
 
-La planificación presupuestaria se integra con otros módulos de Microsoft Dynamics 365 for Finance and Operations. Por tanto, puede incorporar la información de presupuestos anteriores, gastos reales, activos fijos y recursos humanos. Dado que la planificación presupuestaria también se integra con Microsoft Excel y Microsoft Word, puede usar estos programas para trabajar con los datos de planificación presupuestaria. Por ejemplo, un administrador de presupuestos puede exportar la solicitud de presupuesto de un departamento desde un escenario de plan presupuestario en una hoja de cálculo de Excel. Los datos se pueden analizar, actualizar y asignar en la hoja de cálculo y, a continuación, publicar de nuevo en las líneas del plan presupuestario.
+La planificación presupuestaria se integra con otros módulos de Microsoft Dynamics 365 for Finance and Operations. Por tanto, puede incorporar la información de presupuestos anteriores, gastos reales, activos fijos y recursos humanos. Debido a que la planificación presupuestaria también se integra con Microsoft Excel y Microsoft Word, de manera que se pueden usar estas herramientas para trabajar con los datos de planificación presupuestaria. Por ejemplo, un administrador de presupuestos puede exportar la solicitud de presupuesto de un departamento desde un escenario de plan presupuestario en una hoja de cálculo de Excel. Los datos se pueden analizar, actualizar y asignar en la hoja de cálculo y, a continuación, publicar de nuevo en las líneas del plan presupuestario.
 
 ## <a name="configuring-budget-planning"></a>Configuración de la planificación presupuestaria
 La página **Configuración de planificación presupuestaria** contiene la mayoría de los parámetros que se necesitan para configurar la planificación presupuestaria. Las siguientes secciones describen algunos factores clave que debe tener en cuenta conforme configura la planificación presupuestaria. Después de completar la configuración, configure los procesos de planificación presupuestaria.
@@ -188,7 +187,6 @@ En el menú **Acciones**, también puede crear un proceso nuevo copiando un proc
 Otro comando útil en el menú **Acciones** es **Ver estado del proceso presupuestario**. Este comando muestra gráficamente los planes presupuestarios dentro de un proceso, junto con datos relevantes, como el estado del flujo de trabajo de los planes, resúmenes por importe y por unidad, y navegación de un solo clic a los propios planes presupuestarios.
 
 [![Estado del proceso de planificación presupuestaria](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
-
 
 
 

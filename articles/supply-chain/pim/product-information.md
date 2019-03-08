@@ -1,32 +1,31 @@
 ---
-title: "Información general del producto"
-description: "Este tema proporciona información acerca de la gestión de información de productos. La gestión de información de productos funciona con una definición de producto, una clasificación e identificadores compartidos entre todas las entidades jurídicas, y también de configuraciones específicas de un producto que se ajusten a los procesos empresariales."
+title: Información general del producto
+description: Este tema proporciona información acerca de la gestión de información de productos. La gestión de información de productos funciona con una definición de producto, una clasificación e identificadores compartidos entre todas las entidades jurídicas, y también de configuraciones específicas de un producto que se ajusten a los procesos empresariales.
 author: cvocph
 manager: AnnBe
 ms.date: 06/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductMaintainWorkspace, EcoResProductListPage, EcoResProductVariantMaintainWorkspace
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0ac817fc4e8329563e524cea967c8337262fe2c3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 72dbc5d383352d4d6444d07495fdef00137b1c7f
-ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363025"
 ---
-
 # <a name="product-information-overview"></a>Información general del producto
 
 [!include [banner](../includes/banner.md)]
@@ -58,7 +57,7 @@ Un producto se define principalmente con un número de producto, un nombre y una
 
 ## <a name="distribution-export-and-import-of-product-data"></a>Distribución, exportación e importación de datos de producto
 
-La definición de un producto se puede crear en Microsoft Dynamics 365 for Finance and Operations. También se puede importar de la gestión del ciclo de vida del producto (PLM), de la gestión de datos del producto (PDM) o de sistemas de gestión de la información del producto (PIM). Cuando se usa más de una instancia de Finance and Operations, una instancia se suele usar como el maestro de los datos del producto para el resto de las instancias. Este enfoque es compatible con un gran conjunto de entidades de datos que habilitan la exportación e importación de datos de definición de productos desde una instancia a otra.
+La definición de producto se puede crear en Microsoft Dynamics 365 for Finance and Operations. También se puede importar de la gestión del ciclo de vida del producto (PLM), de la gestión de datos del producto (PDM) o de sistemas de gestión de la información del producto (PIM). Cuando se usa más de una instancia de Finance and Operations, una instancia se suele usar como el maestro de los datos del producto para el resto de las instancias. Este enfoque es compatible con un gran conjunto de entidades de datos que habilitan la exportación e importación de datos de definición de productos desde una instancia a otra.
 
 Para apoyar la distribución de los datos de productos a varias instancias, Finance and Operations le permite usar Common Data Service. Las definiciones de producto se pueden exportar de una instancia de Finance and Operations a Common Data Service. A continuación las definiciones de producto se pueden utilizar para aprovisionar aplicaciones empresariales, como Microsoft Dynamics 365 for Sales, con datos de productos.
 
@@ -66,7 +65,7 @@ Tenga en cuenta que, en organizaciones dinámicas y ágiles, los datos de la inf
 
 ## <a name="product-masters-and-product-variants"></a>Productos maestros y variantes de productos
 
-En un mundo ágil, donde los productos deben ajustarse rápidamente a los requisitos de cliente, las definiciones de producto especifican un conjunto de productos en lugar de productos únicos. En Microsoft Dynamics 365 for Finance and Operations, estos productos genéricos se conocen como *productos maestros*. Los productos maestros albergan la definición y las reglas que especifican cómo se describen los productos únicos y se comportan en los procesos empresariales. Basándose en estas definiciones, pueden generarse los productos únicos. Estos productos únicos se conocen como *variantes de producto*.
+En un mundo ágil, donde los productos deben ajustarse rápidamente a los requisitos de cliente, las definiciones de producto especifican un conjunto de productos en lugar de productos únicos. En Microsoft Dynamics 365 for Finance and Operations, los productos genéricos se conocen como *productos maestros*. Los productos maestros albergan la definición y las reglas que especifican cómo se describen los productos únicos y se comportan en los procesos empresariales. Basándose en estas definiciones, pueden generarse los productos únicos. Estos productos únicos se conocen como *variantes de producto*.
 
 En Finance and Operations, un producto maestro se asocia a un grupo de dimensiones de producto y a una tecnología de configuración para especificar las reglas de negocio. Las dimensiones del producto (color, tamaño, estilo y configuración) son un conjunto concreto de atributos que se pueden usar en la aplicación para definir y para seguir comportamientos específicos de productos relacionados. Estas dimensiones también ayudan a los usuarios a buscar e identificar los productos.
 
@@ -97,4 +96,3 @@ El espacio de trabajo consiste en un resumen de mosaicos y dos listas. La lista 
 ### <a name="manually-creating-a-new-released-product"></a>Creación manual de un nuevo producto emitido
 
 Puede crear manualmente un producto emitido en una sola ejecución, en función de los procesos empresariales de la organización y de las reglas sobre si esta función se debe usar. Esta función crea un nuevo producto y lo emite automáticamente a la entidad jurídica actual. Para crear un nuevo producto, haga clic en **Productos emitidos** en el espacio de trabajo **Mantenimiento de producto emitido** o en la página de lista **Producto emitido**.
-

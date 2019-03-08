@@ -1,13 +1,13 @@
 ---
-title: "Extractos electrónicos de cuenta contable"
-description: "Este artículo explica cómo configurar y generar los archivos XML de contabilidad general que todas las empresas de México debe presentar a las autoridades fiscales mexicanas (SAT) de manera mensual."
+title: Extractos electrónicos de cuenta contable
+description: Este artículo explica cómo configurar y generar los archivos XML de contabilidad general que todas las empresas de México debe presentar a las autoridades fiscales mexicanas (SAT) de manera mensual.
 author: sndray
 manager: AnnBe
 ms.date: 12/07/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERSolutionTable, LedgerConsolidateAccountGroup, LedgerJournalTable, LedgerJournalTransVendInvoice, LedgerParameters, MainAccount, MainAccountConsolidateAccount, VendEditInvoice, VendPaymMode, VendTransInvoicePool
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 9cdd169e35ffb90e2122e65a7c7d428f3e5305b8
 ms.openlocfilehash: 8c9e14ef2ade0a80c4174fdf28af0603e29028fb
-ms.contentlocale: es-es
-ms.lasthandoff: 12/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370419"
 ---
-
 # <a name="electronic-ledger-accounting-statements"></a>Extractos electrónicos de cuenta contable
 
 [!include [banner](../includes/banner.md)]
@@ -237,6 +236,5 @@ Esta tarea le muestra todos los pasos necesarios para configurar la generación 
 ## <a name="additional-resources"></a>Recursos adicionales
 
 - [CFDI versión 3.3](latam-mex-cfdi-3-3.md)
-
 
 

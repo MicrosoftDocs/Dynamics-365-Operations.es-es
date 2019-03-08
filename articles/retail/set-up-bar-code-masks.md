@@ -1,13 +1,13 @@
 ---
-title: "Configuración de máscaras de código de barras"
-description: "Este tema describe cómo configurar los caracteres de máscara de código de barras, máscaras de código de barras, y cómo asignar máscaras de código de barras a códigos de barras."
+title: Configuración de máscaras de código de barras
+description: Este tema describe cómo configurar los caracteres de máscara de código de barras, máscaras de código de barras, y cómo asignar máscaras de código de barras a códigos de barras.
 author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailBarcodeMaskCharacter, RetailBarcodeMaskSetup
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: d3527807650061804212abf67e536c17078aabf9
-ms.contentlocale: es-es
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340623"
 ---
-
 # <a name="set-up-bar-code-masks"></a>Configuración de máscaras de código de barras
 
 [!include [banner](includes/banner.md)]
@@ -51,7 +50,7 @@ Los máscaras de código de barras se usan para crear códigos de barras e ident
 | Empleado         | Indica el segmento de código de barras para el número de identificador de empleado utilizado para el inicio de sesión de PDV del código de barras. |
 | Cliente          | Indica el segmento del identificador de cliente. |
 | Entrada de datos       | *No implementado todavía.* |
-| Código de descuento    | *En desuso*: a partir de la versión de primavera 2017 de Dynamics 365 for Retail. Anteriormente: indica el código de descuento para un código de barras que se usa para agregar un descuento a una transacción de punto de venta. |
+| Código de descuento    | *Desusado* desde la versión de la primavera de 2017 de Dynamics 365 for Retail. Anteriormente: indica el código de descuento para un código de barras que se usa para agregar un descuento a una transacción de punto de venta. |
 | Código del vale      | Indica el código de vale para un código de barras utilizado para agregar un descuento a un pedido de ventas al por menor. Este código sustituyó al código de descuento. |
 | Tarjeta regalo        | Indica un número de tarjeta regalo al emitir o pago con tarjeta regalo. |
 | Tarjeta de fidelización     | Agrega un cliente fidelizado a la transacción, y se puede usar para pagar por fidelidad. |
@@ -84,4 +83,3 @@ Las máscaras de códigos de barras se deben asignar a los códigos de barras an
 5. Haga clic en **Guardar**.
 
 Ahora, la máscara de código de barras se podrá usar para crear códigos de barras para productos. Los pasos anteriores son ejemplos de cómo crear máscaras de código de barras para los productos, pero también muestra cómo crear máscaras de código de barras para cualquiera de los otros tipos de código de barras admitidos. Las máscaras de código de barras, los tipos, y las longitudes se deben ajustar para su uso en el entorno específico.
-

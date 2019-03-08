@@ -1,13 +1,13 @@
---- 
+---
 title: Cambiar un grupo de activos fijos
 description: Los activos fijos deben asignarse al grupo de activos fijos correcto.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetTable, AssetChangeGroup
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 32f1daa6de6034d123b1f2cf732059759f6c10ae
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 91dcefe92370733f6558292b195881993f1b71be
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358264"
 ---
 # <a name="change-a-fixed-asset-group"></a>Cambiar un grupo de activos fijos
 
@@ -45,5 +45,4 @@ Esta guía usa la empresa de demostración de USMF.
     * El campo Número de activo fijo está disponible si ha seleccionado la opción Nuevo número de activo fijo.   Si se configura la numeración automática para activos fijos, este campo mostrará el siguiente número de activo fijo disponible. Puede cambiar el número.   Si ha configurado la numeración manual, este campo aparece en blanco y debe escribir el nuevo número de activo fijo.     
 6. Haga clic en Aceptar
 7. Haga clic en Sí.
-
 

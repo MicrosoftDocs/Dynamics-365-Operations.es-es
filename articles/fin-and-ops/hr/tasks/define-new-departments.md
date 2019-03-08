@@ -1,13 +1,13 @@
---- 
+---
 title: Definir nuevos departamentos
-description: "Los departamentos son unidades operativas que representan un área funcional de un negocio, como ventas o contabilidad."
+description: Los departamentos son unidades operativas que representan un área funcional de un negocio, como ventas o contabilidad.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMOperatingUnit, HierarchyDesigner, OMNodeSelection, HierarchyPublishAndCloseForm
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 6dedddf305e303de5b284b34420cd0eda5170ed1
-ms.contentlocale: es-es
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342854"
 ---
 # <a name="define-new-departments"></a>Definir nuevos departamentos
 
@@ -51,5 +51,4 @@ Los departamentos son unidades operativas que representan un área funcional de 
     * Al publicar la jerarquía de departamento, puede seleccionar cuándo hacer los cambios efectivos. Los cambios pueden tener fecha futura. Por ejemplo, puede saber que al principio del ejercicio se agregará un departamento adicional. Puede establecer su fecha de vigencia en el comienzo del ejercicio y los cambios a la jerarquía serán efectivos en esa fecha.  
 16. En el campo Describa los cambios, escriba un valor.
 17. Haga clic en Publicar.
-
 

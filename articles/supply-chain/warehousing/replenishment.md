@@ -1,13 +1,13 @@
 ---
 title: Reabastecimiento
-description: "En este tema se describen las estrategias de reabastecimiento que están disponibles para los almacenes que utilizan la funcionalidad disponible en Gestión de almacenes."
+description: En este tema se describen las estrategias de reabastecimiento que están disponibles para los almacenes que utilizan la funcionalidad disponible en Gestión de almacenes.
 author: Mirzaab
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 37a5509b6161caffa8f3ab65f1fd8378966c2c30
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 41f77a837f446e0ef263f1554a333d6e48248a0e
-ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344533"
 ---
-
 # <a name="replenishment"></a>Reabastecimiento
 
 [!include [banner](../includes/banner.md)]
@@ -56,7 +55,7 @@ El reabastecimiento de la demanda se admite para los pedidos de ventas, pedidos 
 ## <a name="minmax-replenishment"></a>Reabastecimiento mínimo/máximo
 En el reabastecimiento mínimo/máximo, las existencias se reabastecen para que se encuentren entre los límites mínimo y máximo que se han establecido. Normalmente, este proceso se produce una vez al día para ayudar a garantizar que todas las ubicaciones de selección se rellenan hasta el nivel máximo antes de que se inicie la selección. 
 
-Los importes mínimo y máximo se establecen en una plantilla de reabastecimiento. Muchos de los demás valores de la plantilla son similares a la configuración de las plantillas que se utilizan en el reabastecimiento de la demanda de oleada. La plantilla debe contener una línea para cada artículo y ubicación. Cuando ejecuta el reabastecimiento mediante el trabajo por lotes, Microsoft Dynamics 365 for Finance and Operations evalúa si el reabastecimiento es necesario mediante la secuencia en la que se organizan las líneas. 
+Los importes mínimo y máximo se establecen en una plantilla de reabastecimiento. Muchos de los demás valores de la plantilla son similares a la configuración de las plantillas que se utilizan en el reabastecimiento de la demanda de oleada. La plantilla debe contener una línea para cada artículo y ubicación. Cuando ejecute el reabastecimiento mediante el trabajo por lotes, Microsoft Dynamics 365 for Finance and Operations evalúa si el reabastecimiento es necesario usando la secuencia en la que se organizan las líneas. 
 
 Tenga en cuenta que la estrategia de reabastecimiento mínima/máxima no puede reabastecer una ubicación vacía a menos que la ubicación se establezca como la ubicación fija para el artículo. Si la ubicación que debe reabastecerse no es una ubicación fija, el sistema no puede determinar qué artículo debe reabastecerse. Por tanto, se requiere al menos alguna cantidad disponible para que se produzca el reabastecimiento.
 
@@ -77,5 +76,4 @@ En lugar de tener que aumentar la demanda al final del proceso de asignación y 
 |    Perfiles de ubicación    |                                                                                                        Se requieren perfiles de ubicación para crear ubicaciones.                                                                                                        |
 |   Directivas de ubicación   |                                                       Las directivas de ubicación son necesarias para guiar el trabajo a las ubicaciones donde se requiere reabastecimiento y a las ubicaciones desde donde se suministra el inventario.                                                        |
 |     Plantillas de trabajo      |                                                   Las plantillas de trabajo del tipo <strong>Reabastecimiento</strong> son necesarias para crear el trabajo de reabastecimiento para que el inventario se pueda mover a las ubicaciones deseadas.                                                    |
-
 

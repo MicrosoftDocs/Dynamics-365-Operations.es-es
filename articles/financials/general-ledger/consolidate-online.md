@@ -1,14 +1,14 @@
 ---
-title: "Consolidaciones financieras en línea"
-description: "Este tema describe las consolidaciones financieras en línea en contabilidad general."
+title: Consolidaciones financieras en línea
+description: Este tema describe las consolidaciones financieras en línea en contabilidad general.
 author: aprilolson
 manager: AnnBe
 ms.date: 07/09/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 2a9ceb774a8f205e39abe6a12a0deb69dd4cb69b
 ms.openlocfilehash: fd29dc5f932c9cd274a42923e1ff659dd5d8e9d6
-ms.contentlocale: es-es
-ms.lasthandoff: 08/20/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341267"
 ---
-
 # <a name="consolidate-online"></a>Consolidar en línea
 
 [!include [banner](../includes/banner.md)]
@@ -97,4 +96,3 @@ En la pestaña **Conversión de la divisa**, se define la entidad jurídica, la 
 Para obtener más información acerca de las conversiones de consolidación y divisas, consulte el tema principal de este tema [Consolidaciones financieras y conversión de divisas](./financial-consolidations-currency-translation.md).
 
 Para obtener información sobre los escenarios donde puede generar o consolidar informes financieros, consulte [Generar informes financieros consolidados](./generating-consolidated-financial-statements.md).
-

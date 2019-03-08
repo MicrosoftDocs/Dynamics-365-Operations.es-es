@@ -1,13 +1,13 @@
---- 
+---
 title: Definir la dependencia de las configuraciones de ER en otros componentes
-description: "Para completar estos pasos, primero debe completar los pasos de la guía de tareas, \"ER: Administrar las configuraciones de asignación de modelos\" y debe tener acceso a Microsoft Dynamics Lifecycle Services (LCS)."
+description: 'Para completar estos pasos, primero debe completar los pasos de la guía de tareas, "ER: Administrar las configuraciones de asignación de modelos" y debe tener acceso a Microsoft Dynamics Lifecycle Services (LCS).'
 author: NickSelin
 manager: AnnBe
 ms.date: 06/23/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 18eb8de7c851e5477d93a00f744fe56929c43ca2
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365095"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>Definir la dependencia de las configuraciones de ER en otros componentes
 
@@ -28,7 +28,7 @@ ms.lasthandoff: 08/09/2018
 
 Para completar estos pasos, primero debe completar los pasos de la guía de tareas, "ER: Administrar las configuraciones de asignación de modelos" y debe tener acceso a Microsoft Dynamics Lifecycle Services (LCS).
 
-Este procedimiento muestra cómo diseñar una configuración de informes electrónicos (ER) y especificar su dependencia desde otros componentes de software, de modo que pueda ayudar a garantizar que la configuración se ha descargado correctamente a una versión específica de Microsoft Dynamics 365 for Finance and Operations. En este ejemplo, usted creará las configuraciones de ER necesarias para la empresa de ejemplo, Litware, Inc. 
+Este procedimiento muestra cómo diseñar una configuración de informes electrónicos (ER) y especificar su dependencia desde otros componentes de software, de modo que pueda ayudar a garantizar que la configuración se a descargado correctamente a una versión específica de Microsoft Dynamics 365 for Finance and Operations. En este ejemplo, usted creará las configuraciones de ER necesarias para la empresa de ejemplo, Litware, Inc. 
 
 Este procedimiento se ha creado para los usuarios con los roles de Administrador del sistema o Desarrollador de informes electrónicos asignados. Los pasos se pueden realizar con cualquier empresa, porque las configuraciones de informes electrónicos se comparten entre todas las empresas. 
 
@@ -59,10 +59,10 @@ Este procedimiento se ha creado para los usuarios con los roles de Administrador
 15. Haga clic en Editar.
 16. Haga clic en Nuevo.
 17. Seleccionar el componente de requisito previo de producto.
-18. Seleccione Microsoft Dynamics AX 7.0 RTW.
+18. Seleccionar Microsoft Dynamics AX 7.0 RTW:
 19. En el campo versión, escriba "[7.0.1265.3015,7.1)".
     * [7.0.1265.3015,7.1)  
-    * Las dependencias que introduzca serán evaluadas cuando la configuración se descargue de cualquier ER almacenado. Esta versión de configuración se descargará del ER almacenado cuando la versión 1 de la configuración "Muestra modelo de datos” esté ya en el lugar o se haya descargado por adelantado. Si ha descargado por adelantado, debe completarse en Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, cuya versión debe ser 7.0.1265.3015 o posterior, pero no debe ser inferión a la versión 1.   
+    * Las dependencias que introduzca serán evaluadas cuando la configuración se descargue de cualquier ER almacenado. Esta versión de configuración se descargará del ER almacenado cuando la versión 1 de la configuración "Muestra modelo de datos” esté ya en el lugar o se haya descargado por adelantado. Si ha descargado por adelantado, debe completarse en Microsoft Dynamics 365 for Finance and Operations Enterprise edition, cuya versión debe ser 7.0.1265.3015 o posterior, pero no ser inferior a la versión 1.   
 20. Haga clic en Guardar.
 21. Cierre la página.
 22. Haga clic en Cambiar estado.
@@ -139,6 +139,5 @@ Este procedimiento se ha creado para los usuarios con los roles de Administrador
 25. Vaya a Administración de la organización > Informes electrónicos > Configuraciones.
 26. En el árbol, expanda "Modelo de datos de ejemplo".
     * Tenga en cuenta que la configuración de asignación "Asignación de ejemplo” se ha descargado junto con la configuración seleccionada del modelo de datos. Los dos archivos se descargan conjuntamente porque la asignación “Asignación de ejemplo” se ha definido como implementación del modelo de datos seleccionado, y es aplicable para Finance and Operations. La configuración de "Asignación de ejemplo (alternativa)” no se ha descargado porque la condición para la versión de la aplicación requerida no se cumplió.   
-    * Si inicia sesión en Dynamics 365 for Finance and Operations, Enterprise edition, registra el mismo proveedor, accede al mismo proyecto de LCS y descarga la misma configuración del modelo de datos, la configuración de asignación de muestra (alternativa)” se descargará, mientras que la configuración "Asignación de Muestra” se omitirá.  
-
+    * Si inicia sesión en Dynamics 365 for Finance and Operations, Enterprise Edition, registra el mismo proveedor, accede al mismo proyecto de LCS y descarga la misma configuración del modelo de datos, la configuración "Asignación de ejemplo (alternativa)” se descargará, mientras que la configuración "Asignación de ejemplo” se omitirá.  
 

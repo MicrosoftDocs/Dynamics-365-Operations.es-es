@@ -1,13 +1,13 @@
 ---
-title: "Versión 3.3 del diseño CFDI"
-description: "Este tema proporciona información sobre la versión 3.3 del diseño Comprobante Fiscal Digital por Internet (CFDI) para México."
+title: Versión 3.3 del diseño CFDI
+description: Este tema proporciona información sobre la versión 3.3 del diseño Comprobante Fiscal Digital por Internet (CFDI) para México.
 author: sndray
 manager: AnnBe
 ms.date: 01/03/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustPosting, VendParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -15,14 +15,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2017-12-01
+ms.openlocfilehash: 149103c7e5fd579b230f49bf26ca4ac838c68431
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 1d4e6e879a241ceb684461f40544d9fc09b623b0
-ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370402"
 ---
-
 # <a name="cfdi-layout-version-33"></a>Versión 3.3 del diseño CFDI
 
 [!include [banner](../includes/banner.md)]
@@ -249,4 +248,3 @@ Se requiere el número de confirmación en una factura CFDI cuando el importe to
 
 - Si la empresa sabe que se han superado los límites, puede incluir el código de confirmación en el encabezado de transacción de la factura de ventas.
 - Si recibe un rechazo de PAC porque se han superado los límites, puede establecer el código de confirmación para el proceso de aprobación en **Consulta de factura electrónica CFDI** &gt; **Funciones** &gt; **Establecer código de autorización y Volver a enviar**.
-

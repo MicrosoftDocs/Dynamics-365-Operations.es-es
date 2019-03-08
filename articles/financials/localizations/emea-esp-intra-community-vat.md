@@ -1,13 +1,13 @@
 ---
-title: "IVA intracomunitario para España"
-description: "Este tema proporciona información sobre la funcionalidad dedicada al impuesto sobre el valor añadido intracomunitario (IVA). Explica cómo se activa la funcionalidad, cómo se calculan e imprimen los importes de IVA intracomunitarios, y revisa los importes de IVA intracomunitarios que se han registrado."
+title: IVA intracomunitario para España
+description: Este tema proporciona información sobre la funcionalidad dedicada al impuesto sobre el valor añadido intracomunitario (IVA). Explica cómo se activa la funcionalidad, cómo se calculan e imprimen los importes de IVA intracomunitarios, y revisa los importes de IVA intracomunitarios que se han registrado.
 author: Anasyash
 manager: AnnBe
 ms.date: 04/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendFormletterParameters, VendParameters, TaxTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Spain
 ms.author: anasyash
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: b77e3c8850267f057078a421c6609a619bdd2f35
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 07d09512ef612b41bf527b74496fa440f23851fc
-ms.openlocfilehash: 1b2b2245e6fac4c43fac8e5c280882480f3566a6
-ms.contentlocale: es-es
-ms.lasthandoff: 02/14/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370486"
 ---
-
 # <a name="intra-community-vat-for-spain"></a>IVA intracomunitario para España
 [!include [banner](../includes/banner.md)]
 
@@ -43,6 +42,5 @@ Para imprimir facturas de compra y facturas intracomunitarias que tienen importe
 
 ## <a name="reviewing-posted-intracommunity-vat-amounts"></a>Revisar importes de IVA intracomunitarios enviados
 Para revisar los importes de IVA intracomunitarios registrados, ejecute la consulta de impuestos registrados (**Impuestos** &gt; **Consultas e informes** &gt; **Consultas de impuestos** &gt; **Impuestos registrados**). En la página **Impuestos registrados** , en la pestaña **General** , si se selecciona la casilla de verificación **IVA intracomunitario**, la transacción de impuestos es una transacción de IVA intracomunitario. Los libros de IVA de España se deben configurar para que las transacciones de IVA soportadas y repercutidas se reflejen en las secciones adecuadas. Para configurar los libros de IVA para España, haga clic en **Impuestos** &gt; **Configuración** &gt; **Impuestos** &gt; **Libros de IVA españoles**. Para obtener más información, vea el modelo 340 de declaración de IVA de España.
-
 
 

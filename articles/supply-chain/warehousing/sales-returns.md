@@ -1,13 +1,13 @@
 ---
 title: Devoluciones de ventas
-description: "Este tema ofrece información sobre los procesos para devolver pedidos. Incluye información sobre las devoluciones de clientes y su efecto en la gestión de costes y cantidades disponibles de inventario."
+description: Este tema ofrece información sobre los procesos para devolver pedidos. Incluye información sobre las devoluciones de clientes y su efecto en la gestión de costes y cantidades disponibles de inventario.
 author: omulvad
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReturnTableListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3dfeb393698431b1bbb0eb5069cc0930dc122374
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: d4da2ed8d61ffae3a4a4dc24793d82de22e86e59
-ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362703"
 ---
-
 # <a name="sales-returns"></a>Devoluciones de ventas
 
 [!include [banner](../includes/banner.md)]
@@ -329,7 +328,6 @@ En este ejemplo, la línea de pedido de devolución se crea mediante la función
 ![Línea de pedido de devolución que se crea mediante Buscar pedido de ventas ](./media/SalesReturn11.png)  
 
 >[Nota] **Descuento** y **Precio de coste de la devolución** se han configurado correctamente. Por lo tanto, se produce una inversión exacta de la factura de cliente.
-
 
 
 

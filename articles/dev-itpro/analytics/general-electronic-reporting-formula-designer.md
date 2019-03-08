@@ -1,13 +1,13 @@
 ---
-title: "Diseñador de fórmulas en los informes electrónicos (ER)"
-description: "Este tema explica cómo usar el diseñador de fórmula en Informes electrónicos (ER)."
+title: Diseñador de fórmulas en los informes electrónicos (ER)
+description: Este tema explica cómo usar el diseñador de fórmula en Informes electrónicos (ER).
 author: NickSelin
 manager: AnnBe
 ms.date: 10/03/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: f0ded563ecf0b6d0ce67f046f631d8c4dcfc7802
 ms.openlocfilehash: 1dc584355c8992ee701169fd5d29ad7b0300a498
-ms.contentlocale: es-es
-ms.lasthandoff: 10/23/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331285"
 ---
-
 # <a name="formula-designer-in-electronic-reporting-er"></a>Diseñador de fórmulas en los informes electrónicos (ER)
 
 [!include [banner](../includes/banner.md)]
@@ -36,7 +35,7 @@ Este tema explica cómo usar el diseñador de fórmula en Informes electrónicos
 
 Los ER admiten el diseñador de fórmulas. Por tanto, en el momento del diseño, puede configurar las expresiones que se pueden usar para las siguientes tareas en tiempo de ejecución:
 
-- Transforme datos recibidos de una base de datos de Microsoft Dynamics 365 for Finance and Operations, que se deben introducir en un modelo de datos de ER que se ha diseñado para ser un origen de datos para formatos de ER. (Por ejemplo, estas transformaciones pueden incluir el filtrado, la agrupación y la conversión de tipos de datos.)
+- Transforme los datos que se recibe de una base de datos Microsoft Dynamics 365 for Finance and Operations, y que se debe introducir en un modelo de datos de ER que se designa para ser un origen de datos para el ER da formato. (Por ejemplo, estas transformaciones pueden incluir el filtrado, la agrupación y la conversión de tipos de datos.)
 - Formatee los datos que deben enviarse a un documento electrónico de generación de acuerdo con el diseño y las condiciones de un formato de ER específico. (Por ejemplo, el formato puede realizarse de acuerdo con el idioma o la cultura solicitada, o la codificación).
 - Controle el proceso de creación de documentos electrónicos. (Por ejemplo, las expresiones pueden habilitar o deshabilitar la salida de elementos específicos del formato, en función de datos de procesamiento. También pueden interrumpir el proceso de creación del documento o enviar mensajes a los usuarios.)
 
@@ -625,8 +624,8 @@ Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 </ul></li>
 <li>La etiqueta SYS18389 de Finance and Operations tiene el siguiente texto:
 <ul>
-<li><strong>Para el idioma EN-US:</strong> &quot;Customer %1 is stopped for %2.&quot;</li>
-<li><strong>Para el idioma DE:</strong> &quot;Debitor '%1' wird für %2 gesperrt.&quot;</li>
+<li><strong>Para el idioma EN-US</strong>: &quot;El cliente %1 se ha bloqueado para %2.&quot;</li>
+<li><strong>Para el idioma DE:</strong> &quot;Debitor %1' wird für %2 gesperrt.&quot;</li>
 </ul></li>
 </ul>
 <p>Esta es la fórmula que se puede diseñar:</p>
@@ -692,7 +691,7 @@ Cuando se definen estos orígenes de datos, puede usar una expresión como <stro
 <tr>
 <td>JSONVALUE (id, path)</td>
 <td>Analice los datos en formato JavaScript Object Notation (JSON) a los que se accede por la ruta especificada para extraer un valor scalar que se basa en el Id. especificado.</td>
-<td>El origen de datos <strong>$JsonField</strong> contiene los siguientes datos en formato JSON: <strong>{&quot;BuildNumber&quot;:&quot;7.3.1234.1&quot;, &quot;KeyThumbprint&quot;:&quot;7366E&quot;}</strong>. Para este origen de datos, </strong>JSONVALUE ( &quot;BuildNumber&quot;, $JsonField)</strong> devuelve el valor <strong>7.3.1234.1</strong> del tipo de datos de la <strong>cadena</strong>.</td>
+<td>El origen de datos <strong>$JsonField contiene</strong> los siguientes datos en formato JSON: <strong>{&quot;BuildNumber&quot;:&quot;7.3.1234.1&quot;, &quot;KeyThumbprint&quot;:&quot;7366E&quot;}</strong>. Para este origen de datos, </strong>JSONVALUE ( &quot;BuildNumber&quot;, $JsonField)</strong> devuelve el valor <strong>7.3.1234.1</strong> del tipo de datos de la <strong>cadena</strong>.</td>
 </tr>
 </tbody>
 </table>
@@ -731,7 +730,7 @@ Cuando se definen estos orígenes de datos, puede usar una expresión como <stro
 | FA\_BALANCE (código de activo fijo, código del modelo de valor, año de notificación, fecha de notificación) | Devuelve el contenedor de datos preparado del saldo de activos fijos. El año de notificación debe especificarse como valor de la enumeración de Finance and Operations **AssetYear**. | **FA\_SUM ("COMP-000001", "Actual", AxEnumAssetYear.ThisYear, SESSIONTODAY ())** devuelve el contenedor preparado de los datos de los saldos del activo fijo **"COMP-000001"** que tiene el modelo de valor **"Actual"** en la fecha de la sesión actual de Finance and Operations. |
 | TABLENAME2ID (cadena) | Devuelve la representación en entero del Id. de una tabla para el nombre de tabla especificado. | **TABLENAME2ID ("Intrastat")** devuelve **1510**. |
 | ISVALIDCHARACTERISO7064 (cadena) | Devuelve el valor booleano **TRUE** cuando la cadena especificada representa un número internacional de cuenta bancaria válido (IBAN). De lo contrario, devuelva el valor booleano **FALSE**. | **ISVALIDCHARACTERISO7064 ("AT61 1904 3002 3457 3201")** devuelve **TRUE**. **ISVALIDCHARACTERISO7064 ("AT61")** devuelve **FALSE**. |
-| NUMSEQVALUE (código de secuencia numérica, ámbito, identificador de ámbito) | Devuelva el nuevo valor generado a partir de una secuencia numérica, en función del código de secuencia numérica especificada, el ámbito, y el identificador de ámbito. El ámbito se debe especificar como valor de la enumeración **ERExpressionNumberSequenceScopeType** (**Compartido**, **Entidad jurídica**, o **Empresa**). Para el ámbito **Compartido**, especifique una cadena vacía como el identificador de ámbito. Para los ámbitos **Empresa** y **Entidad jurídica**, especifique el código de empresa como el identificador de ámbito. Para los ámbitos **Empresa** y **Entidad jurídica**, si especifica una cadena vacía como el identificador de ámbito, se usa el código de la empresa actual. | Defina los siguientes orígenes de datos en la asignación de su modelo:<ul><li>**enumScope** (tipo **enumeración de Dynamics 365 for Operations** ), que hace referencia a la enumeración **ERExpressionNumberSequenceScopeType**</li><li>**NumSeq** (tipo **Campo calculado**) que contiene la expresión **NUMSEQVALUE (“Gene\_1", enumScope.Company, "")**</li></ul>Cuando se llama al origen de datos **NumSeq**, devuelve el nuevo valor generado a partir de la secuencia numérica **Gene\_1** que se ha configurado para la empresa que proporciona el contexto donde se ejecuta el formato de ER. |
+| NUMSEQVALUE (código de secuencia numérica, ámbito, identificador de ámbito) | Devuelva el nuevo valor generado a partir de una secuencia numérica, en función del código de secuencia numérica especificada, el ámbito, y el identificador de ámbito. El ámbito se debe especificar como valor de la enumeración **ERExpressionNumberSequenceScopeType** (**Compartido**, **Entidad jurídica**, o **Empresa**). Para el ámbito **Compartido**, especifique una cadena vacía como el identificador de ámbito. Para los ámbitos **Empresa** y **Entidad jurídica**, especifique el código de empresa como el identificador de ámbito. Para los ámbitos **Empresa** y **Entidad jurídica**, si especifica una cadena vacía como el identificador de ámbito, se usa el código de la empresa actual. | Defina los siguientes orígenes de datos en la asignación de su modelo:<ul><li>**enumScope** (tipo **enumeración deDynamics 365 for Operations**), que hace referencia a la enumeración **ERExpressionNumberSequenceScopeType**</li><li>**NumSeq** (tipo **Campo calculado**) que contiene la expresión **NUMSEQVALUE (“Gene\_1", enumScope.Company, "")**</li></ul>Cuando se llama al origen de datos **NumSeq**, devuelve el nuevo valor generado a partir de la secuencia numérica **Gene\_1** que se ha configurado para la empresa que proporciona el contexto donde se ejecuta el formato de ER. |
 | NUMSEQVALUE (código de secuencia numérica) | Devuelva el nuevo valor generado de una secuencia numérica, en función de la secuencia numérica especificada, el ámbito **Empresa** y (como el identificador de ámbito) el código de la empresa que proporciona el contexto en el que se ejecuta el formato de ER. | Defina el origen de datos siguiente en su asignación de modelo: **NumSeq** (tipo **Campo calculado**). Este origen de datos contiene la expresión **NUMSEQVALUE ("Gene\_1")**. Cuando se llama al origen de datos **NumSeq**, devuelve el nuevo valor generado a partir de la secuencia numérica **Gene\_1** que se ha configurado para la empresa que proporciona el contexto donde se ejecuta el formato de ER. |
 | NUMSEQVALUE (identificador de registro de secuencia numérica) | Devuelve el nuevo valor generado a partir de una secuencia numérica, en función del identificador de registro de secuencia numérica especificado. | Defina los siguientes orígenes de datos en la asignación de su modelo:<ul><li>**LedgerParms** (Tipo de **tabla**), que hace referencia a la tabla LedgerParameters</li><li>**NumSeq** (tipo **Campo calculado**) que contiene la expresión **NUMSEQVALUE (LedgerParameters.'numRefJournalNum()'.NumberSequenceId)**</li></ul>Cuando se llama al origen de datos **NumSeq**, devuelve el nuevo valor generado a partir de la secuencia numérica que se ha configurado en los parámetros de contabilidad general para la empresa que proporciona el contexto donde se ejecuta el formato de ER. Esta secuencia numérica identifica de forma exclusiva los diarios y actúa como número de lote que vincula las transacciones. |
 
@@ -743,4 +742,3 @@ ER le permite ampliar la lista de funciones que se usan en las expresiones de ER
 
 - [Visión general de los informes electrónicos](general-electronic-reporting.md)
 - [Ampliar la lista de funciones de Informes electrónicos (ER)](general-electronic-reporting-formulas-list-extension.md)
-

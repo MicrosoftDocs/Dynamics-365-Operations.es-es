@@ -1,13 +1,13 @@
 ---
-title: Contenido de Power BI de CFO
+title: Vista general de contenido CFO de Power BI
 description: Este tema describe el contenido de Microsoft Power BI de CFO.
 author: kweekley
 manager: AnnBe
 ms.date: 02/22/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application user, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -15,28 +15,27 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 026274e06d27fb1254ffa971bcb0fbdbb5e7eac7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: 01233890603f6f199b7a815eb91d1d5a7f2ae53e
-ms.contentlocale: es-es
-ms.lasthandoff: 02/23/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331400"
 ---
-
-# <a name="cfo-overview-power-bi-content"></a>Contenido de Power BI de CFO
+# <a name="cfo-overview-power-bi-content"></a>Vista general de contenido CFO de Power BI
 
 [!include [banner](../includes/banner.md)] 
 
-Este tema describe el contenido de Microsoft Power BI de **visión general de CFO**. Este contenido de Power BI se aplica a aquellos que utilizan la versión 7.2 de Microsoft Dynamics 365 for Finance and Operations. Si utiliza la versión 7.3 o superior, consulte [Financial Insights](financial-insights.md).
+Este tema describe el contenido de la **Vista general** de CFO de Microsoft Power BI. El contenido Power BI se aplica a los que usen Microsoft Dynamics 365 for Finance and Operations versión 7.2. Si utiliza la versión 7.3 o superior, consulte [Financial Insights](financial-insights.md).
 
 ## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI
 
-Los informes del contenido de Power BI **Visión general de CFO** se muestran en el espacio de trabajo **Visión general de director financiero (CFO)**.
+Los informes del contenido de Power BI **Visión general de CFO** se muestran en el espacio de trabajo **Visión general de CFO**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Informes que se incluyen en el contenido de Power BI
-El contenido de Power BI de **visión general de CFO** es un compuesto de informes de diversos contenidos de Power BI, así como los saldos real y presupuestarios de la contabilidad general. Por lo tanto, este contenido de Power BI ofrece al director financiero (CFO) una visión general de la organización.
+El contenido de Power BI de **Visión general de CFO** es un compuesto de informes de diversos contenidos de Power BI, así como los saldos real y presupuestarios de la contabilidad general. Por lo tanto, este contenido de Power BI ofrece al director financiero (CFO) una visión general de la organización.
 
-La tabla siguiente muestra el contenido de Power BI desde donde se copian los informes y los informes que se proporcionan en el espacio de trabajo **visión general de CFO**. Se proporcionan vínculos a la documentación para el diverso contenido de Power BI.
+La tabla siguiente muestra el contenido de Power BI desde donde se copian los informes y los informes que se proporcionan en el espacio de trabajo **Visión general de CFO**. Se proporcionan vínculos a la documentación para el diverso contenido de Power BI.
 
 | Contenido de Power BI que se incluye | Informes |
 |-----------------------------------|---------|
@@ -45,4 +44,3 @@ La tabla siguiente muestra el contenido de Power BI desde donde se copian los in
 | [Ventas y rentabilidad](sales-profitability-performance-content-pack.md) | <ul><li>Ingresos por región</li><li>10 clientes principales por ingresos</li><li>10 productos principales por ingresos</li></ul> |
 | [Administración de crédito y cobros](../../financials/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Actividad de cliente vencida</li><li>Clientes sobre límite de crédito</li><li>Saldos vencidos</li></ul> |
 | [Análisis de gastos en compras](../../financials/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Compras por mes/día</li><li>10 principales proveedores por compras</li><li>10 principales productos por compras</li></ul> |
-

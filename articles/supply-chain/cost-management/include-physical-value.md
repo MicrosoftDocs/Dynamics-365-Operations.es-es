@@ -1,13 +1,13 @@
 ---
-title: "Incluir valor físico en coste"
-description: "Use la casilla Incluir valor físico en coste de la ficha desplegable Modelo de inventario del formulario Grupos de modelos de artículo se utiliza para especificar si las transacciones actualizadas físicamente se incluyen en el cálculo del precio de coste promedio móvil del artículo."
+title: Incluir valor físico en coste
+description: Use la casilla Incluir valor físico en coste de la ficha desplegable Modelo de inventario del formulario Grupos de modelos de artículo se utiliza para especificar si las transacciones actualizadas físicamente se incluyen en el cálculo del precio de coste promedio móvil del artículo.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e96d5e2a658a027d66663868329cf4eedcb1d46f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4ea8fe31588dd0768e0651c9e1e332212a00cde2
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357321"
 ---
-
 # <a name="include-physical-value"></a>Incluir valor físico en coste
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,6 @@ La casilla tiene efectos ligeramente diferentes, en función del modelo de inven
 -   Se ha actualizado la factura para un pedido de compra para una cantidad de 3 y un precio de coste de 12,00 dólares.
 
 En este caso, el precio de coste promedio móvil será de 11,20 USD, ya que se usan transacciones actualizadas tanto física como financieramente para calcular el precio de coste. **Ejemplo 2** No ha activado la casilla de verificación **Incluir valor físico en coste** y el precio de coste en la configuración del artículo es de 10,00 USD. Recibe un pedido de compra para una cantidad de 20 y un precio de coste de 12,00 dólares del que se ha actualizado el albarán. Cuando se registre un pedido de ventas, se registrará un importe de coste de 10,00 USD, ya que el precio de coste promedio móvil no incluirá las transacciones actualizadas físicamente. **Nota:** A modo de comparación, si activa la casilla **Incluir valor físico** para este artículo, cuando se registre un pedido de ventas, el importe de coste registrado será 12,00 USD.
-
 
 
 

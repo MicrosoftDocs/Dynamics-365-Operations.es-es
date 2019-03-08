@@ -1,13 +1,13 @@
---- 
-title: "Importar configuraciones para generar documentos que tengan datos de la aplicación"
+---
+title: Importar configuraciones para generar documentos que tengan datos de la aplicación
 description: 'Para completar los pasos de este procedimiento, primero debe completar los pasos del procedimiento, "ER: Crear un proveedor de configuraciones y marcarlo como activo".'
 author: NickSelin
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 1637ba59525f5f8bd9fe41a00c34eca90f7a2751
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340807"
 ---
 # <a name="import-configurations-to-generate-documents-that-have-application-data"></a>Importar configuraciones para generar documentos que tengan datos de la aplicación
 
@@ -75,5 +75,4 @@ Los pasos de este procedimiento explican cómo diseñar las configuraciones de l
 29. En el árbol, seleccione "Archivo".
     * Revise la estructura del formato que se usa para generar el informe de Intrastat. Tenga en cuenta que está diseñado para generar un archivo XML rellenando datos desde el modelo de datos, que se basa en el elemento raíz “Para el documento de salida”. Compruebe que el nombre para el archivo generado se haya definido en el formulario del cuadro de diálogo del usuario (el origen de datos “fn” se utiliza para eso).   
 30. Cierre la página.
-
 

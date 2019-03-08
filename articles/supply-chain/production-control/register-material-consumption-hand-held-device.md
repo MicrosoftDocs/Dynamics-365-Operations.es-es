@@ -1,13 +1,13 @@
 ---
-title: "Registrar el material de consumo mediante un dispositivo móvil"
-description: "Este tema describe un flujo de trabajo que habilita el registro de consumo de materias primas en la producción mediante un dispositivo de mano."
+title: Registrar el material de consumo mediante un dispositivo móvil
+description: Este tema describe un flujo de trabajo que habilita el registro de consumo de materias primas en la producción mediante un dispositivo de mano.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b5b9c73cf9b23eb8ad9ed872b76b92b395609e9a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: b84b63ec519ae686b55905170c956fcb2b08334a
-ms.contentlocale: es-es
-ms.lasthandoff: 03/08/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336138"
 ---
-
 # <a name="register-material-consumption-using-a-mobile-device"></a>Registrar el material de consumo mediante un dispositivo móvil
 
 [!include [banner](../includes/banner.md)]
@@ -41,7 +40,7 @@ Este flujo de trabajo es relevante si hay un requisito estricto para la trazabil
 
 Un proceso continuo de producción (5) consume la materia prima RM-100 controlada por lotes. El material está disponible en la ubicación Bulk-001 (1), en la matrícula PL -1 con dos lotes, B1 y B2, ambos con una cantidad de 100 lbs. El trabajo de almacén (2) se libera y se procesa para RM-100, y se recoge el material de Bulk-001 a la ubicación de entrada de producción PIL-01 (3), que se define como sin control de matrículas. El operador de maquinaria pesa el material de la ubicación de entrada de producción (3) y registra el peso y el número de lote como consumido (4). Desde la ubicación de entrada de producción, se agrega una parte del material manualmente al proceso de producción a intervalos de tiempo definidos. Cuando el operador de maquinaria agrega el material, se pesa en una báscula y se registra el número de lote.
 
-## <a name="set-up-the-workflow-to-register-consumption-using-a-handheld-device"></a>Configuración del flujo de trabajo para registrar el consumo mediante un dispositivo de mano
+## <a name="set-up-theworkflow-to-register-consumption-using-a-handheld-device"></a>Configuración del flujo de trabajo para registrar el consumo mediante un dispositivo de mano
 Cree un producto de bien terminado, FG-100, con una lista de materiales con la materia prima controlada por lotes RM-100. Agregue dos lotes, B1 y B2, de RM-100 en una cantidad de 100 a la ubicación: Bulk-001 en la matrícula: PL-1. El principio de vaciado de la línea de lista de materiales para RM-100 se establece en **Manual**. Configure la ubicación de entrada de producción como PIL-01. Puede hacerlo seleccionando esta ubicación como ubicación de entrada de producción predeterminada en el almacén 51.
 
 1.  Cree un nuevo elemento de menú del dispositivo móvil: 
@@ -69,7 +68,7 @@ Esto traerá el material de la ubicación de almacenaje a la ubicación de entra
 
 Una vez iniciado el pedido de producción, puede registrar el consumo de materiales mediante el flujo de trabajo del dispositivo de mano. Comencemos por registrar el consumo de 25 libras del lote B1.
 
-6.  Seleccione el elemento de menú **Registrar el** **consumo de material** en el menú del dispositivo de mano, especifique los detalles siguientes: 
+6.  Seleccione el elemento de menú **Registrar el**  **consumo de material** en el menú del dispositivo de mano, especifique los detalles siguientes: 
 
 -    El número de pedido de producción. 
 -    La ubicación en la que el material se va a consumir, en este caso PIL-01. 
@@ -87,10 +86,9 @@ Una vez que haya terminado su registro, seleccione **Hecho** para registrar el d
 
 ### <a name="additional-comments"></a>Comentarios adicionales 
 
--   Si un usuario cancela el flujo de trabajo después de que se cree una línea de diario, el diario se encuentra en estado sin registrar, pero si el usuario en un momento posterior utiliza el flujo de trabajo para el mismo pedido de producción, las líneas se agregarán al diario abierto en lugar de a un nuevo diario.
+-   Si un usuario cancela el flujo de trabajo después de que se cree una línea de diario, el diario se encuentra en estado sin registrar, pero si el usuario en un momento posterior utiliza el flujo de trabajo para el mismo pedido de producción, las líneas se agregarán al diario abierto en lugar de un nuevo diario.
 -   El nuevo flujo de trabajo también admite el registro de números de serie.
 -   Es posible registrar sólo un número de artículo definido en la lista de materiales o en la fórmula del pedido de producción seleccionado o del pedido de lote.
 -   El material puede sobreconsumirse. Por ejemplo, si se estima que el material se consumirá con la cantidad de 100 libras, después puede sobreconsumirse con una cantidad de, por ejemplo, 105 lbs.
-
 
 

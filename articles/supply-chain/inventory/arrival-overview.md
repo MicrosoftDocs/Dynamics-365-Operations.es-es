@@ -1,13 +1,13 @@
 ---
-title: "Visión general de llegadas"
-description: "Este tema proporciona información acerca de la función de visión general de llegadas. La página de la visión general de llegadas forma parte de esta característica y proporciona una visión general de todos los artículos que se espera que se reciban como artículos entrantes."
+title: Visión general de llegadas
+description: Este tema proporciona información acerca de la función de visión general de llegadas. La página de la visión general de llegadas forma parte de esta característica y proporciona una visión general de todos los artículos que se espera que se reciban como artículos entrantes.
 author: perlynne
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WMSArrivalOverview, WMSArrivalOverviewProfile, WMSJournalTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
+ms.openlocfilehash: 43e49fb6e8deead7c6dfe24a25337aeb35f1fcc0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9c174dc7bf61ffab0d20c7685a29007e0b6e2e7e
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356010"
 ---
-
 # <a name="arrival-overview"></a>Visión general de llegadas
 
 [!include [banner](../includes/banner.md)]
@@ -122,4 +121,3 @@ Una vez que se hayan registrado todas las mercancías, el responsable del almac�
 
 ## <a name="summary"></a>Resumen
 La página **Visión general de llegadas** puede ayudar al responsable del almacén y a los trabajadores de almacén a obtener una visión general del trabajo previsto que se debe hacer como parte de un proceso de entrada. La página se puede usar también para iniciar el proceso de recepción de artículos, para ayudar a garantizar que se realiza un seguimiento de los artículos en la primera entrada en el almacén.
-

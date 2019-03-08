@@ -1,13 +1,13 @@
 ---
 title: Agrupamiento del sistema en una lista de trabajo abierta
-description: "Este tema describe cómo filtrar la lista de trabajos abierta en un dispositivo móvil."
+description: Este tema describe cómo filtrar la lista de trabajos abierta en un dispositivo móvil.
 author: Mirzaab
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 73e1da37c354eecf1ef5d44e68d814664fe2be99
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d9ca6b0d4a9909d419d6241a044336d7a02aea02
-ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331975"
 ---
-
 # <a name="system-grouping-on-an-open-work-list"></a>Agrupamiento del sistema en una lista de trabajo abierta
 
 [!include [banner](../includes/banner.md)]
@@ -42,5 +41,4 @@ Siga estos pasos para configurar el agrupamiento del sistema en una lista de tra
 | Permitir agrupamientos del sistema |                                                                                                                                                                                                                                                 Habilita los agrupamientos del sistema para un elemento de menú seleccionado de la lista de trabajo.                                                                                                                                                                                                                                                  |
 | Campo de agrupamiento del sistema | Disponible solo si <strong>Permitir trabajos del sistema</strong> está configurado en <strong>Sí</strong>. Seleccione el campo que determina cómo se agrupará el trabajo de selección para los trabajadores. Por ejemplo, si selecciona el campo <strong>ShipmentId</strong>, el trabajador explorará la identificación del envío para agrupar el trabajo de picking. Todo el trabajo para el envío se asigna al trabajador. Este campo requiere que cree un elemento de menú para usar el trabajo existente que el sistema ha agrupado. Use el campo <strong>Etiqueta de agrupamiento del sistema</strong> para informar al trabajador de qué debe escanear. |
 | Etiqueta de agrupamiento del sistema |                       Disponible solo si <strong>Permitir trabajos del sistema</strong> está configurado en <strong>Sí</strong>. Especifique la información para el trabajador sobre qué escanear cuando el trabajo de selección se agrupe. Por ejemplo, si usa el campo <strong>ShipmentId</strong> para agrupar el trabajo de selección por envíos, puede especificar el Id. del envío en el campo. Este campo requiere que cree un elemento de menú para usar el trabajo existente que el sistema ha agrupado. También debe seleccionar el campo por el que desea agrupar en el campo <strong>Agrupamiento del sistema</strong>.                       |
-
 

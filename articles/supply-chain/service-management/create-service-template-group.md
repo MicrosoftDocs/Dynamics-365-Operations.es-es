@@ -5,27 +5,26 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 02/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: smatemplategroup
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e2c3af831cd9433bdc6180811a3af82d3fbbf8c5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 4ea10e4c0fbfd21538bba16d2b01deb3e4b3a10d
-ms.openlocfilehash: 93d768577afe14ac49f57e3c207e79bbe3f080fd
-ms.contentlocale: es-es
-ms.lasthandoff: 02/20/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348236"
 ---
-
 # <a name="create-a-service-template-group"></a>Crear un grupo de plantillas de servicio  
 
 [!include [banner](../includes/banner.md)]
@@ -37,7 +36,6 @@ Puede usar grupos de plantillas de servicio para ordenar y filtrar plantillas de
 3. Especifique el identificador del grupo, una descripción y un grupo de plantillas de servicio principal, si lo hay.
 4. Guarde el grupo de plantillas de servicio.
 5. Establezca el control deslizante **Control de árbol** en **Sí** para abrir la vista de árbol y ver grupos de plantillas de servicio como una jerarquía en una vista de árbol o como una visión general.
-
 
 
 

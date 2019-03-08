@@ -1,28 +1,27 @@
 ---
-title: "Espacio de trabajo de la lista de comprobación de datos"
-description: "El espacio de trabajo de la lista de comprobación de la validación de datos le permite realizar un seguimiento de los procesos de validación de datos de distintas empresas, áreas y personas. La lista de comprobación se puede usar durante una nueva implementación, después de una actualización o después de una migración."
+title: Espacio de trabajo de la lista de comprobación de datos
+description: El espacio de trabajo de la lista de comprobación de la validación de datos le permite realizar un seguimiento de los procesos de validación de datos de distintas empresas, áreas y personas. La lista de comprobación se puede usar durante una nueva implementación, después de una actualización o después de una migración.
 author: bking
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: DataValidationWorkspace
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: bking
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: dd758ac5698d84532c0b724485cc6f0da83bc8e0
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364198"
 ---
-
 # <a name="data-validation-checklist-workspace"></a>Espacio de trabajo de la lista de comprobación de datos
 
 [!include [banner](../includes/banner.md)]
@@ -44,7 +43,7 @@ En la sección **Tareas y estado**, se mostrará el estado del proyecto total de
 La última ficha es para la lista de tareas detallada. Esta lista muestra la lista de tareas completa.
 Puede filtrar la lista de tareas de varias maneras. Haga clic en **Editar tarea** para cambiar el estado de una tarea o para asignar una tarea. Haga clic en **Datos adjuntos** para ver los datos adjuntos para una tarea.
 
-El nombre de tarea es un hipervínculo a la página Microsoft Dynamics 365 for Finance and Operations o a otra página web donde el usuario debe ir para completar el trabajo. Puede establecer este hipervínculo mediante el campo **Nombre del elemento de menú** al editar o crear una tarea en el formulario **Configurar el proyecto de validación de datos**.
+El nombre de tarea es un hipervínculo a la página Microsoft Dynamics 365 for Finance and Operations donde el usuario debe ir para completar el trabajo. Puede establecer este hipervínculo mediante el campo **Nombre del elemento de menú** al editar o crear una tarea en el formulario **Configurar el proyecto de validación de datos**.
 
 Puede adjuntar archivos, notas, imágenes, y las direcciones URL a una tarea mediante la acción **Archivos adjuntos**. Por ejemplo, puede vincular un archivo de informe que se imprimió para una tarea. Un icono aparece en la columna **Archivos adjuntos** para la tarea si hay un archivo adjunto.
 
@@ -59,4 +58,3 @@ Antes de poder usar el espacio de trabajo **Lista de comprobación de validació
 Use las áreas de tareas para agrupar las tareas de validación de datos en áreas lógicas dentro de su organización. Por ejemplo, Proveedores, Clientes o Contabilidad general se pueden usar como áreas de tareas.
 
 El **Nombre del elemento de menú** está asociado al esfuerzo de trabajo de la tarea y se puede usar para ir directamente a la página asociada desde el vínculo de la tarea en el espacio de trabajo. Por ejemplo, una tarea de validación de datos para ejecutar el informe **Vencimiento de proveedores** para los proveedores se puede vincular a la página **Informe de vencimiento de proveedores** .
-

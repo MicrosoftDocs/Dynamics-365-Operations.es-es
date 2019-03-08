@@ -1,13 +1,13 @@
 ---
-title: "Acciones en los procesos de aprobación de flujo de trabajo"
-description: "Este artículo explica las acciones que cada participante de un proceso de aprobación de flujo de trabajo puede realizar."
+title: Acciones en los procesos de aprobación de flujo de trabajo
+description: Este artículo explica las acciones que cada participante de un proceso de aprobación de flujo de trabajo puede realizar.
 author: sericks007
 manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 829ee16b8fd72a0808a657419524487d9c1b3123
-ms.contentlocale: es-es
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361760"
 ---
-
 # <a name="actions-in-workflow-approval-processes"></a>Acciones en los procesos de aprobación de flujo de trabajo
 
 [!include [banner](../includes/banner.md)]
@@ -143,4 +142,3 @@ Cuando un aprobador solicita que se realice un cambio en un documento, este se d
 Por ejemplo, supongamos que Sam ha enviado un informe de gastos por un total de 12.000 USD que, en este momento, está asignado a Sue. Si Sue solicita un cambio, el informe de gastos se devuelve a Sam.
 
 Sam podrá volver a enviar el informe de gastos. Puede realizar los cambios solicitados primero o volver a enviar la versión original del informe de gastos. Si Sam lo vuelve a enviar, se envía a Frank para que lo apruebe porque él es el primer aprobador del proceso de aprobación.
-

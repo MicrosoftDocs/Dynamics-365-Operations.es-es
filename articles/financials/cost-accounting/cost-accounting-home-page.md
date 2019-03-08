@@ -1,13 +1,13 @@
 ---
-title: "Página principal de Contabilidad de costes"
+title: Página principal de Contabilidad de costes
 description: Este tema proporciona una lista de temas de ayuda y otros recursos disponibles para la Contabilidad de costes.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration, CAMCostAccountingLedgerAdminWorkspace
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 707cbb8f4a4a71d147e1aa3c048fb1eb3872f8d9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: 8f4a371664ceb7df9ac28cececc456bc73d655cb
-ms.contentlocale: es-es
-ms.lasthandoff: 05/23/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346672"
 ---
-
 # <a name="cost-accounting-home-page"></a>Página principal de la contabilidad de costes
 
 [!include [banner](../includes/banner.md)]
@@ -52,6 +51,5 @@ El siguiente mapa de aprendizaje muestra los conceptos y tareas principales que 
 |------------------------|--------------------|-----------------------------|
 | [Introducción a la contabilidad de costes](https://www.youtube.com/watch?v=1pUDtJQZ8FU&t=35s)  | [Espacio de trabajo móvil de contabilidad de costes](https://www.youtube.com/watch?v=imsuTg8rUVk&t=7s)  |   [Usar Excel para análisis de la contabilidad de costes](https://www.youtube.com/watch?v=-HKHYdClvx8)  |
 |  |  |                             |
-
 
 

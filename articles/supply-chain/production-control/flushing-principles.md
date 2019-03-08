@@ -5,9 +5,9 @@ author: johanhoffmann
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgShopSupervisorReleaseOrders
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: e4b9cd918bec9a094744b208821285c57f01798a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
-ms.openlocfilehash: f5fc4db479852ffac5f2b3401a0c1bd92c35a7cb
-ms.contentlocale: es-es
-ms.lasthandoff: 02/08/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358310"
 ---
-
 # <a name="controlling-raw-material-consumption-by-using-flushing-principles"></a>Controlar el consumo de materias primas mediante principios de vaciado
 
 [!include [banner](../includes/banner.md)]
@@ -64,4 +63,3 @@ El principio de vaciado Finalizar indica que el material se consumirá automáti
 
 ### <a name="available-at-location"></a>Disponible en la ubicación
 El principio de vaciado Disponible en la ubicación indica que el material se consumirá automáticamente cuando se registre como seleccionado para producción. El material se registra como seleccionado de la ubicación cuando se complete el trabajo para la selección de materia prima, o cuando el material está disponible en la ubicación de entrada de producción y la línea de materiales se libera al almacén. La lista de selección que se genera durante el proceso se registra en un trabajo por lotes. Este principio es relevante si, por ejemplo, tiene muchas actividades de selección en un pedido de producción. En este caso, no es necesario actualizar manualmente la lista de selección y puede obtener una vista actual del saldo de trabajo en curso.
-

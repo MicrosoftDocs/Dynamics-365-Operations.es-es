@@ -1,13 +1,13 @@
 ---
-title: "Infracciones y casos de directivas de auditoría"
-description: "El artículo explica cómo se generan los casos de auditoría a partir de infracciones de reglas de directivas de auditoría. También incluye información acerca de las distintas maneras en que las directivas de auditoría usan el intervalo de fechas de selección de documentos."
+title: Infracciones y casos de directivas de auditoría
+description: El artículo explica cómo se generan los casos de auditoría a partir de infracciones de reglas de directivas de auditoría. También incluye información acerca de las distintas maneras en que las directivas de auditoría usan el intervalo de fechas de selección de documentos.
 author: ryansandness
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AuditPolicyAdditionalOption, AuditPolicyRule
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c3ed72f829ca4060fe0a4c03b6d4a47a98cdebd6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2376a1d6e86eba9f5021cc08dcfaea52f131a3d7
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352537"
 ---
-
 # <a name="audit-policy-violations-and-cases"></a>Infracciones y casos de directivas de auditoría
 
 [!include [banner](../includes/banner.md)]
@@ -59,7 +58,6 @@ Estas son alguna otras maneras de que una directiva de auditoría use el interva
 
 
 Para obtener más información, consulte [Reglas de directivas de auditoría](audit-policy-rules.md)
-
 
 
 

@@ -1,13 +1,13 @@
---- 
-title: "Generar documentos que tengan datos de la aplicación"
-description: "Para completar los pasos de este procedimiento, debe completar primero el procedimiento, \"ER Generar documentos con la actualización de datos de la aplicación (Parte 4 . Modificar formato)\"."
+---
+title: Generar documentos que tengan datos de la aplicación
+description: Para completar los pasos de este procedimiento, debe completar primero el procedimiento, "ER Generar documentos con la actualización de datos de la aplicación (Parte 4 . Modificar formato)".
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 90c6ebc456d3e137e43022fad7d59ce3ca2cdcab
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363899"
 ---
 # <a name="generate-documents-that-have-application-data"></a>Generar documentos que tengan datos de la aplicación
 
@@ -69,5 +69,4 @@ Este procedimiento se ha creado para los usuarios con los roles Administrador de
 5. Cierre la página.
 6. Cierre la página.
 7. Cierre la página.
-
 

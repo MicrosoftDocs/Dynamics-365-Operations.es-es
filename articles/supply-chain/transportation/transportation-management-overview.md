@@ -1,13 +1,13 @@
 ---
-title: "Visión general de la administración de transporte"
-description: "Este tema ofrece una visión general de la funcionalidad de Administración de transporte en Microsoft Dynamics 365 for Finance and Operations."
+title: Visión general de la administración de transporte
+description: Este tema proporciona una visión general de la funcionalidad de administración de transportes en Microsoft Dynamics 365 for Finance and Operations.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSParameters,TMSRateRouteWorkbench, WHSLoadPlanningWorkbench
 audience: Application User
 ms.reviewer: josaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 918167a3ab72b3d3665cf710d8e509417b94a056
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f4dc2c15d35d93d1563c866b20ad7f2bbb5c8457
-ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355619"
 ---
-
 # <a name="transportation-management-overview"></a>Visión general de la administración de transporte
 
 [!include [banner](../includes/banner.md)]
 
-Este tema ofrece una visión general de la funcionalidad de Administración de transporte en Microsoft Dynamics 365 for Finance and Operations.
+Este tema proporciona una visión general de la funcionalidad de administración de transportes en Microsoft Dynamics 365 for Finance and Operations.
 
 La Administración de transporte le permite usar el transporte de su empresa e identificar soluciones de proveedor y de ruta para los pedidos de entrada y salida. Por ejemplo, puede identificar la ruta más rápida o la tarifa menos cara para un envío. En la tabla siguiente se describen los escenarios principales para usar la Administración de transporte en Microsoft Dynamics 365 for Finance and Operations.
 
@@ -85,7 +84,6 @@ Puede planificar y procesar una carga de salida para enviar artículos específi
 
 ## <a name="load-building"></a>Planificación de carga
 Finance and Operations proporciona una estrategia de planificación de carga que se denomina Estrategia de planificación de la carga basada en volumen. Esta estrategia le permite usar los valores máximos que se especifican para la altura y el peso de la plantilla de carga o bien, puede reemplazar los ajustes especificando valores nuevos. Para usar esta estrategia, selecciónela en el campo **Estrategia de creación de carga** en la ficha desplegable **Programa de instalación** de la página **Banco de trabajo de creación de carga**. Además, puede agregar sus propias estrategias de creación de carga creando una nueva clase en el árbol de objetos de aplicación (AOT).
-
 
 
 

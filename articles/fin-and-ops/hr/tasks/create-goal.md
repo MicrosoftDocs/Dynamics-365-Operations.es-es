@@ -1,13 +1,13 @@
---- 
+---
 title: Crear un objetivo
-description: "Puede crear objetivos, agregar actividades a los objetivos, realizar el seguimiento de medidas y vincular los objetivos a una revisión."
+description: Puede crear objetivos, agregar actividades a los objetivos, realizar el seguimiento de medidas y vincular los objetivos a una revisión.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EssWorkspace, HcmGoal, HcmMeasurementDetailDialog, HcmPerfJournalAdd, HcmGoalChangeSettings
 audience: Application User
 ms.reviewer: rschloma
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: abd59b96a2e5dceb2492c2db2c617485b332fbd3
 ms.openlocfilehash: e3f3bc01113099c5b28f10e702ebf981e26c196a
-ms.contentlocale: es-es
-ms.lasthandoff: 09/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350720"
 ---
 # <a name="create-a-goal"></a>Crear un objetivo
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Puede crear objetivos, agregar actividades a los objetivos, realizar el seguimiento de medidas y vincular los objetivos a una revisión. Este procedimiento se creó con los datos de demostración de la empresa USMF. Este procedimiento es para una función que se ha añadido en la versión 1611 de Dynamics 365 for Operations.
+Puede crear objetivos, agregar actividades a los objetivos, realizar el seguimiento de medidas y vincular los objetivos a una revisión. Este procedimiento se creó con los datos de demostración de la empresa USMF. Este procedimiento es para una función que se ha agregado en la versión 1611 de Dynamics 365 for Operations.
 
 1. Vaya a Todos los espacios de trabajo > Autoservicio para empleados.
 2. Haga clic en Ver todos los objetivos
@@ -59,5 +59,4 @@ Puede crear objetivos, agregar actividades a los objetivos, realizar el seguimie
     * A menudo hay objetivos que son los mismos o similares para los miembros del equipo o para todos los empleados.     El administrador o el responsable de RR. HH. puede crear plantillas de objetivos para dichos objetivos. Puede agregar un objetivo de una plantilla y, a continuación, modificarlo para que se adapte a las escalas de tiempo.  
     * A menudo hay varios objetivos que son los mismos o similares para los miembros del equipo o para todos los empleados.     El administrador o el responsable de RR. HH. puede crear grupos de objetivos que incluyen una o varias plantillas de objetivos. Puede agregar objetivos de un grupo de objetivos y, a continuación, modificarlos para que se adapten a las escalas de tiempo.  
     * Al crear una revisión, puede agregar objetivos a dicha revisión. Consulte la guía de tareas para revisiones para ver cómo puede agregar objetivos a sus revisiones.  
-
 

@@ -1,13 +1,13 @@
---- 
+---
 title: Establecer cuotas de pago de cliente
-description: "Creación de cuotas de pago para pagos de clientes."
+description: Creación de cuotas de pago para pagos de clientes.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustPaymFee, CustPaymModeFee, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5acb202d46ef39376a01ca592f60926786d11186
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 659f4560747cea73c61a9b748a980946ca252bd6
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354837"
 ---
 # <a name="establish-customer-payment-fees"></a>Establecer cuotas de pago de cliente
 
@@ -60,5 +60,4 @@ Esta tarea usa la empresa de demostración USMF.
 18. En el campo Divisa de cuota, seleccione la divisa de la cuota.
     * Esta es la divisa en la que se creará la cuota.  
 19. Haga clic en Guardar.
-
 

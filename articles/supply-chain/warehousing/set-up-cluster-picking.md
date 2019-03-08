@@ -1,13 +1,13 @@
 ---
-title: "Configurar picking en clúster"
-description: "En este tema se describe cómo configurar el picking de clústeres y cómo aplicar la confirmación del artículo con el picking de clústeres."
+title: Configurar picking en clúster
+description: En este tema se describe cómo configurar el picking de clústeres y cómo aplicar la confirmación del artículo con el picking de clústeres.
 author: Mirzaab
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSClusterProfile, WHSRFAutoConfirm
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a7adec850cfb473b0bfc9536dcb1ef1cfd74129a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2ec0890963b2b01407acac8003453faf370894b4
-ms.openlocfilehash: 1c23421ddfda8c5f6fa27a31831a00ead6094db9
-ms.contentlocale: es-es
-ms.lasthandoff: 04/11/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364106"
 ---
-
 [!include[banner](../includes/banner.md)]
 
 # <a name="set-up-cluster-picking"></a>Configurar picking en clúster
@@ -37,7 +36,7 @@ Una vez que los pedidos de trabajo se liberan al almacén, el trabajador puede u
 
 Si es necesario, un trabajador puede gastar un clúster a otro trabajador. Esto cambia el estado del clúster a Pasado. Cuando el trabajador usa un dispositivo móvil para indicar que el trabajo de picking y colocación se ha completado, el envío o la carga deben confirmarse en el cliente de Dynamics 365 for Finance and Operations.
 
-## <a name="set-up-cluster-picking"></a>Configurar picking en clúster
+## <a name="set-up-cluster-picking"></a>Configurar picking de clústeres
 
 Para habilitar el picking en clúster, debe configurar lo siguiente:
 
@@ -81,4 +80,3 @@ Cuando se aplica el picking en clúster, es esencial la confirmación del artíc
 1.  En un elemento de menú del dispositivo móvil, abra el formulario de configuración para la confirmación del trabajo: **Gestión de almacenes** \> **Gestión de almacenes** \> **Configuración** \> **Dispositivo móvil** \> **Elementos de menú del dispositivo móvil**.
 
 2.  En el elemento de menú del dispositivo móvil, abra **Configuración de la confirmación de trabajo**. La opción **Confirmación del producto** le permite que se compruebe cada pieza de inventario desde el dispositivo móvil cuando se escanea.
-

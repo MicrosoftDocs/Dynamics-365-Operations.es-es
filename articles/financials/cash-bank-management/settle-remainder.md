@@ -1,13 +1,13 @@
 ---
-title: "Resto de liquidación"
-description: "Puede liquidar el importe restante de la actividad de liquidación aplicando dicho importe a una cuenta contable."
+title: Resto de liquidación
+description: Puede liquidar el importe restante de la actividad de liquidación aplicando dicho importe a una cuenta contable.
 author: mikefalkner
 manager: aolson
 ms.date: 10/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
+ms.openlocfilehash: 408a36a7cf221463b38260bd8830b422e58ccb64
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 075d0f5dc0c9dc4e46dc92a2da75da9f7a207472
-ms.openlocfilehash: e67bd36adc92bffea48087d0322ab14e9c066a4e
-ms.contentlocale: es-es
-ms.lasthandoff: 12/06/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367211"
 ---
-
 # <a name="settle-remainder"></a>Resto de liquidación
 
 [!include [banner](../includes/banner.md)]
@@ -71,4 +70,3 @@ Para liquidar el resto, realice los pasos siguientes:
 7)  También puede elegir crear un diario de pagos con el resto de liquidación o solo publicarlo sin un diario. Seleccione **Sí** para **Editar en diario** para crear un diario de pagos. Podrá editar el diario de pagos que cree.
 8)  Haga clic en **Resto de liquidación**. Si elige crear un diario, el botón cambiará a **Crear diario**. Haga clic en **Crear diario** en su lugar.
 9)  Si ha creado un diario de pagos, la página del diario se abrirá tras hacer clic en **Resto de liquidación**. Una línea de diario se agregará al diario con el importe del resto de liquidación como importe y a la cuenta de resto de liquidación como la cuenta de contrapartida. Si ha agregado a un cliente o un proveedor para poder mover el importe de liquidación a otro cliente o proveedor, otra línea se agregará al diario para mover el importe de liquidación a dicho cliente o proveedor.
-

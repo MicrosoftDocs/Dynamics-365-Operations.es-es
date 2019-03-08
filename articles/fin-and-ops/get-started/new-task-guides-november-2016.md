@@ -1,13 +1,13 @@
 ---
-title: "Guías de tareas nuevas o actualizadas (noviembre de 2016)"
-description: "En este tema se muestran las guías de tareas nuevas o actualizadas que se publicaron en la Biblioteca unificada APQC de Microsoft (agosto de 2016: todos los idiomas) para Microsoft Dynamics 365 for Operations. No se publicó ninguna biblioteca de introducción nueva."
+title: Guías de tareas nuevas o actualizadas (noviembre de 2016)
+description: 'En este tema se muestran las Guías de tareas nuevas o actualizadas que se publicaron en la Biblioteca unificada APQC de Microsoft (noviembre de 2016: todos los idiomas) para Microsoft Dynamics 365 for Operations. No se publicó ninguna biblioteca de introducción nueva.'
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -17,28 +17,27 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 9cba30560762b5f647621aafb8db19241523f904
-ms.contentlocale: es-es
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348926"
 ---
-
 # <a name="new-or-updated-task-guides-november-2016"></a>Guías de tareas nuevas o actualizadas (noviembre de 2016)
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se muestran las guías de tareas nuevas o actualizadas que se publicaron en la Biblioteca unificada APQC de Microsoft (noviembre de 2016: todos los idiomas) para Microsoft Dynamics 365 for Operations. No se publicó ninguna biblioteca de introducción nueva.
+En este tema se muestran las Guías de tareas nuevas o actualizadas que se publicaron en la Biblioteca unificada APQC de Microsoft (noviembre de 2016: todos los idiomas) para Microsoft Dynamics 365 for Operations. No se publicó ninguna biblioteca de introducción nueva.
 
-La biblioteca unificada APQC (noviembre de 2016: todos los idiomas) contiene las guías de tareas que están pensadas para usarse para obtener Ayuda con Microsoft Dynamics 365 for Operations, la actualización 3 de la plataforma de Microsoft Dynamics 365 for Operations, la actualización 2 de la plataforma de Microsoft Dynamics AX, la actualización de Microsoft Dynamics AX de mayo de 2016 y versión de febrero de 2016 de Microsoft Dynamics AX. Para obtener más información sobre estas versiones, vea [Novedades o cambios](whats-new-changed.md). Las versiones localizadas de las Guías de tarea están disponibles en la biblioteca. Para obtener más información acerca de cómo conectar el sistema de Ayuda a una biblioteca de Guía de tareas, consulte [Introducción a la ayuda](help-overview.md).
+La Biblioteca unificada APQC (noviembre de 2016: todos los idiomas) contiene las Guías de tareas pensadas para usarse con el fin de obtener ayuda con Microsoft Dynamics 365 for Operations la actualización 3 de la plataforma de Microsoft Dynamics 365 for Operations, la actualización de plataforma 2 de Microsoft Dynamics AX actualización de mayo de 2016 de la aplicación Dynamics AX y el lanzamiento de Microsoft Dynamics AX de febrero de 2016. Para obtener más información sobre estas versiones, vea [Novedades o cambios](whats-new-changed.md). Las versiones localizadas de las Guías de tarea están disponibles en la biblioteca. Para obtener más información acerca de cómo conectar el sistema de Ayuda a una biblioteca de Guía de tareas, consulte [Introducción a la ayuda](help-overview.md).
 
 > [!NOTE]
-> un asterisco (\*) junto al título de una línea del Modelador de procesos empresariales (BPM) indica que se ha creado la Guía de tareas para el proceso empresarial para la actualización de noviembre de 2016 de Dynamics 365 for Operations y que no es compatible con versiones anteriores de Microsoft Dynamics AX.
+> Un asterisco (\*) junto al título de una línea del Modelador de procesos empresariales (BPM) indica que se ha creado la guía de tareas para el proceso empresarial para la actualización de noviembre de 2016 de Dynamics 365 for Operations y que no es compatible con versiones anteriores de Microsoft Dynamics AX.
 
 ### <a name="accounts-payable"></a>Proveedores
 
-| Línea BPM                                                                                           | País o región |
+| Línea BPM                                                                                           | País/región |
 |----------------------------------------------------------------------------------------------------|----------------|
 | Datos clave de facturas en el sistema de proveedores mediante el diario de aprobación                                               | Global         |
 | Datos clave de facturas en el sistema de proveedores mediante factura de proveedor (insertar y registrar una factura de proveedor con coincidencia) | Global         |
@@ -549,4 +548,3 @@ La biblioteca unificada APQC (noviembre de 2016: todos los idiomas) contiene las
 [Guías de tareas nuevas o actualizadas disponibles (mayo de 2016)](new-updated-task-guides-available-may-2016.md)
 
 [Guías de tareas nuevas o actualizadas disponibles (agosto de 2016)](new-updated-task-guides-available-august-2016.md)
-

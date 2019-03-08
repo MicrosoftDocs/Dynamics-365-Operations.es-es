@@ -1,13 +1,13 @@
 ---
 title: Devoluciones de proveedor
-description: "Este tema proporciona una visión general de las tareas comunes que quiera llevar a cabo al trabajar con devoluciones de proveedor. Las devoluciones de proveedor proporcionan a las empresas un método muy útil de gestionar sus programas de devoluciones; para ello, se automatizan las tareas para así poder gestionar, seguir, y reclamar las devoluciones que se obtengan."
+description: Este tema proporciona una visión general de las tareas comunes que quiera llevar a cabo al trabajar con devoluciones de proveedor. Las devoluciones de proveedor proporcionan a las empresas un método muy útil de gestionar sus programas de devoluciones; para ello, se automatizan las tareas para así poder gestionar, seguir, y reclamar las devoluciones que se obtengan.
 author: omulvad
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TAMVendRebateAgreement
 audience: Application User
 ms.reviewer: josaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
+ms.openlocfilehash: 90bee2925f135b3d626ba898a0e9995b5b8437ff
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8ae5ee60238b951779c7790870e6c6adfba55d7d
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341083"
 ---
-
 # <a name="vendor-rebates"></a>Devoluciones de proveedor
 [!include [banner](../includes/banner.md)]
 
@@ -159,4 +158,3 @@ El proceso para administrar devoluciones de proveedor implica realizar varias ta
 - Crear reclamaciones de devolución precisas
 - Acumular el cobro esperado y las ganancias provisionales en el libro de contabilidad general
 - Actualizar el saldo del proveedor y el extracto de ingresos con las concesiones que estén pendientes
-

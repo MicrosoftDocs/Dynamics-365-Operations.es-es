@@ -1,13 +1,13 @@
---- 
-title: "Crear una entidad jurídica"
-description: "Una entidad jurídica es una organización identificada mediante el registro en una autoridad jurídica."
+---
+title: Crear una entidad jurídica
+description: Una entidad jurídica es una organización identificada mediante el registro en una autoridad jurídica.
 author: sericks007
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMLegalEntity, OMNewLegalEntity
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 2b1869afa9ebbfc81ca321c57cc8e01739103d16
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 89d3babc4447ca7398521b93634db7ecb6cfb5de
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338553"
 ---
 # <a name="create-a-legal-entity"></a>Crear una entidad jurídica
 
@@ -57,5 +57,4 @@ Una entidad jurídica es una organización identificada mediante el registro en 
 16. Expanda la sección IRPF.
     * En la sección IRPF, especifique la información de IRPF de la entidad jurídica.  
 17. Haga clic en Guardar.
-
 

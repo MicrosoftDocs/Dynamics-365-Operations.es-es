@@ -1,13 +1,13 @@
 ---
-title: Contenido en Power BI de Prestaciones
-description: "Este tema describe el contenido en Power BI de Prestaciones. Explica cómo obtener acceso a los informes incluidos y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido."
+title: Contenido de prestaciones de Power BI
+description: Este tema describe el contenido en Power BI de Prestaciones. Explica cómo obtener acceso a los informes incluidos y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmBenefitWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,28 +16,27 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 38610815e45926aa367011c8723494615e03ee38
-ms.contentlocale: es-es
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355251"
 ---
-
-# <a name="benefits-power-bi-content"></a>Contenido en Power BI de Prestaciones
+# <a name="benefits-power-bi-content"></a>Contenido de prestaciones de Power BI
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe el contenido en Microsoft Power BI de **Prestaciones**. Explica cómo obtener acceso a los informes incluidos y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
+Este tema describe el contenido del **Prestaciones** de Microsoft Power BI. Explica cómo obtener acceso a los informes incluidos y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
 
 ## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI
-El contenido en Power BI de **Prestaciones** se muestra en el espacio de trabajo **Administración de beneficios** si usa uno de los siguientes productos:
+El contenido en Power BI de **Prestaciones** se muestra en el espacio de trabajo **Administración de prestaciones** si usa uno de los siguientes productos:
 
 - Microsoft Dynamics 365 for Finance and Operations
 - Microsoft Dynamics 365 for Talent
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Informes que se incluyen en el contenido de Power BI
-Los informes incluidos en el contenido en Power BI de **Prestaciones** tienen gráficos y tablas que contienen información adicional. En la siguiente tabla se describen los informes.
+Los informes incluidos en el contenido **Prestaciones** de Power BI tienen gráficos y tablas que contienen información adicional. En la siguiente tabla se describen los informes.
 
 | Informe                      | Contenido                                                                                       |
 |-----------------------------|------------------------------------------------------------------------------------------------|
@@ -47,7 +46,7 @@ Los informes incluidos en el contenido en Power BI de **Prestaciones** tienen gr
 Puede filtrar los gráficos e iconos en estos informes y anclar los gráficos e iconos al panel de información. Para obtener más información acerca de cómo filtrar y anclar en Power BI, consulte [Crear y configurar un panel de información](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Comprensión del modelo de datos y de las entidades
-Los siguientes datos se usan para rellenar los informes en el contenido en Power BI de **Prestaciones** . Esta tabla muestra las entidades en las que se basaba el contenido.
+Los siguientes datos se usan para rellenar los informes en el contenido en Power BI de **Prestaciones**. Esta tabla muestra las entidades en las que se basaba el contenido.
 
 | Entidad                   | Contenido                                                                                                   | Relaciones con otras entidades |
 |--------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------|
@@ -71,4 +70,3 @@ Los siguientes datos se usan para rellenar los informes en el contenido en Power
 | Nombre de empleado            | Nombre, apellido y nombre completo                                                                       | Empleado actual, empleado cesado, tendencia del empleado |
 | Puesto del empleado           | Cargo y fecha de antigüedad                                                                                   | Empleado actual, empleado cesado, tendencia del empleado |
 | Tendencia del empleado           | Trabajadores a lo largo del tiempo, plantilla, empresa y puesto                                                        | Empresa, compensación, ubicación geográfica, nombre del empleado, responsable ante, contrapartida del calendario, fecha, puesto del empleado, demografía, empleo, trabajo, prestaciones |
-

@@ -1,13 +1,13 @@
---- 
-title: "Crear pagos para un cliente con órdenes de domiciliación bancaria"
-description: "Este procedimiento muestra cómo generar un archivo de pago por domiciliación bancaria ISO20022 para un cliente que tiene la domiciliación bancaria configurada y una factura que debe pagarse."
+---
+title: Crear pagos para un cliente con órdenes de domiciliación bancaria
+description: Este procedimiento muestra cómo generar un archivo de pago por domiciliación bancaria ISO20022 para un cliente que tiene la domiciliación bancaria configurada y una factura que debe pagarse.
 author: mrolecki
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustFreeInvoice, CustTableLookup, CustPostInvoiceJob, LedgerJournalTable, LedgerJournalTransCustPaym, SysQueryForm, CustPaymProposalEdit, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 6781ac38fff6344bfc9546c3ffd2253fb3ef712c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: acd6a8076288d8d1d1aa05af33e306c6a29780f7
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342141"
 ---
 # <a name="create-payments-for-a-customer-who-have-direct-debit-mandates"></a>Crear pagos para un cliente con órdenes de domiciliación bancaria
 
@@ -70,5 +70,4 @@ Este es el quinto de cinco procedimientos que muestra el proceso de pago del cli
 13. Haga clic en Crear pagos.
 
 ## <a name="generate-a-payment-file"></a>Generar un archivo de pago
-
 

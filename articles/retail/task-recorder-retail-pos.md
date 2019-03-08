@@ -1,13 +1,13 @@
 ---
 title: Grabador de tareas y ayuda para Retail Modern POS (MPOS) y Cloud POS
-description: "Este tema describe cómo utilizar el Grabador de tareas en Retail Modern POS y Cloud POS."
+description: Este tema describe cómo utilizar el Grabador de tareas en Retail Modern POS y Cloud POS.
 author: mugunthanm
 manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTerminalTable, SystemParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: a74a1275f08e3dba60a1002a102e143eb37fcd9a
-ms.contentlocale: es-es
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346005"
 ---
-
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Grabador de tareas y ayuda para Retail Modern POS (MPOS) y Cloud POS
 
 [!include [banner](includes/banner.md)]
@@ -56,7 +55,7 @@ Para habilitar la grabación de tareas en el PDV, siga estos pasos.
 
 Siga estos pasos para crear una nueva grabación con el Grabador de tareas.
 
-1. Inicie Retail Modern POS o el PDV en la nube, e inicie sesión.
+1. Inicie Retail Modern POS o Cloud POS e inicie sesión.
 2. En la página **Configuración** , en la sección **Grabador de tareas** , haga click en **Abrir grabador de tareas**. Aparece el panel **Grabador de tareas**. Puede hacer clic en el botón **Cerrar** (**X**) en la esquina superior derecha para cerrar el panel **Grabador de tareas** antes de iniciar una nueva grabación. Para volver a abrir el panel, repita el paso 2.
 
     [![Panel Gabrador de tareas](./media/newrecording-1024x450.jpg)](./media/newrecording.jpg)
@@ -69,7 +68,7 @@ Siga estos pasos para crear una nueva grabación con el Grabador de tareas.
     > [![Signo de interrogación](./media/help.jpg)](./media/help.jpg)
 
 4. Tras hacer clic en **Iniciar**, el Grabador de tareas pasa a modo de grabación. El panel **Grabador de tareas** muestra la información y los controles relacionados con el proceso de grabación.
-5. Realice acciones que desea realizar a través de la interfaz de usuario (IU) de Retail Modern POS o el PDV en la nube.
+5. Realice acciones que desea realizar a través de la interfaz de usuario (IU) de Retail Modern POS o Cloud POS.
 6. Para finalizar la sesión de grabación, haga clic en **Detener**.
 
 ## <a name="download-options"></a>Opciones de descarga
@@ -80,7 +79,7 @@ Cuando finalice una sesión de grabación verá varias opciones que le permitir�
 
 ### <a name="save-to-this-pc"></a>Descargar el paquete de grabación de tareas
 
-Puede usar el paquete de grabación para reproducir una Guía de tareas, mantener la grabación o editar las anotaciones de la grabación. (Esta función aún no está implementada en Retail Modern POS y el PDV en la nube)
+Puede usar el paquete de grabación para reproducir una Guía de tareas, mantener la grabación o editar las anotaciones de la grabación. (Esta función aún no está implementada en Retail Modern POS y Cloud POS).
 
 ### <a name="export-as-word-document"></a>Descargar el documento Word de la grabación
 
@@ -139,7 +138,7 @@ El texto que especifique en el campo **Notas** aparecerá *por debajo* del texto
 
 ## <a name="help-in-retail-modern-pos-and-cloud-pos"></a>Ayuda en Retail Modern POS y Cloud POS
 
-Para mostrar sus propias grabaciones de tareas personalizadas en el panel de la Ayuda de Retail Modern POS y el PDV en la nube para que se puedan reproducir como guías de tareas o ver como texto, debe guardar sus grabaciones de tareas en su propia biblioteca de BPM y después actualizar los parámetros del sistema de Ayuda para que señalen a la biblioteca de BPM. Para obtener más información, consulte [Conexión con el sistema de Ayuda](../fin-and-ops/get-started/help-connect.md). La Ayuda de Retail Modern POS y el PDV en la nube realiza búsquedas en tiempo real en LCS. Busca en todas las bibliotecas de BPM seleccionadas en los parámetros del sistema de Ayuda de Microsoft Dynamics 365 for Retail y muestra los resultados relevantes. Para acceder al menú **Ayuda**, haga clic en el botón **Ayuda** (signo de interrogación) en la parte superior de la pantalla. A continuación, escriba en el cuadro de búsqueda el nombre del proceso y haga clic en el botón de búsqueda.
+Para mostrar sus propias grabaciones de tareas personalizadas en el panel de la Ayuda de Retail Modern POS y Cloud POS para que se puedan reproducir como guías de tareas o ver como texto, debe guardar sus grabaciones de tareas en su propia biblioteca de BPM y después actualizar los parámetros del sistema de Ayuda para que señalen a la biblioteca de BPM. Para obtener más información, consulte [Conexión con el sistema de Ayuda](../fin-and-ops/get-started/help-connect.md). La Ayuda de Retail Modern POS y Cloud POS realiza búsquedas en tiempo real en LCS. Busca en todas las bibliotecas de BPM seleccionadas en los parámetros del sistema de Ayuda de Microsoft Dynamics 365 for Retail y muestra los resultados relevantes. Para acceder al menú **Ayuda**, haga clic en el botón **Ayuda** (signo de interrogación) en la parte superior de la pantalla. A continuación, escriba en el cuadro de búsqueda el nombre del proceso y haga clic en el botón de búsqueda.
 
 [![Botón Ayuda](./media/help.jpg)](./media/help.jpg)
 
@@ -147,4 +146,3 @@ Al hacer clic en una Guía de tareas en los resultados de la búsqueda verá los
 
 > [!NOTE]
 > La Ayuda en Retail Modern POS y Cloud POS no mostrará las guías de tareas según el formulario en el que se encuentre o la operación que esté haciendo. Tiene que escribir el nombre del proceso en el cuadro de búsqueda y después hacer click en **Buscar**.
-

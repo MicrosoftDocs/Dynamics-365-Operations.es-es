@@ -1,28 +1,27 @@
 ---
 title: Customer payment insights (vista previa)
-description: "Este tema describe cómo Customer payment insights puede ayudar a predecir cuándo se pagará una factura y ayuda a las organizaciones a crear estrategias de optimización que mejoren la probabilidad de que se les pague a tiempo."
+description: Este tema describe cómo Customer payment insights puede ayudar a predecir cuándo se pagará una factura y ayuda a las organizaciones a crear estrategias de optimización que mejoren la probabilidad de que se les pague a tiempo.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 07/17/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: 
+ms.search.scope: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-04-02
 ms.dyn365.ops.version: AX 8.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 841ea53f754f61c2930e77fdafc85eac72f47d7a
 ms.openlocfilehash: 9e722db6302d7ef51c01601cde245d4f4a333eba
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344671"
 ---
-
 # <a name="customer-payment-insights-preview"></a>Customer payment insights (vista previa)
 
 [!include[banner](../includes/banner.md)]
@@ -78,4 +77,3 @@ Si está interesado en probar Customer payment insights (vista previa), envíe u
 ## <a name="privacy-statement"></a>Declaración de privacidad
 
 Las vistas previas almacenan los datos de los clientes en Estados Unidos. Además, las vistas previas (1) pueden utilizar menos medidas de privacidad y seguridad que el servicio Dynamics 365 for Finance and Operations, (2) no están incluidas en el acuerdo de nivel de servicio para este servicio, (3) no deben utilizarse para procesar datos personales u otros datos que estén sujetos a requisitos de cumplimiento legal o reglamentario, y (4) tienen soporte limitado.
-

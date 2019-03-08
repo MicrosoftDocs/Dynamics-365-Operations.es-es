@@ -1,13 +1,13 @@
 ---
-title: "Requisitos de configuración de producción"
-description: "Este artículo proporciona información acerca de los requisitos de configuración para poder trabajar con el Control de producción."
+title: Requisitos de configuración de producción
+description: Este artículo proporciona información acerca de los requisitos de configuración para poder trabajar con el Control de producción.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdParameters, RouteOpr, RouteOprTable, WorkCalendarTable, WorkTimeTable, WrkCtrTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b811c11271097f4bb7910c34f7775955abba526d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 47fe11168ad2ddea2a7033eda8d8bd8220efea32
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366636"
 ---
-
 # <a name="production-setup-requirements"></a>Requisitos de configuración de producción
 
 [!include [banner](../includes/banner.md)]
@@ -78,7 +77,6 @@ Si trabaja con rutas, deben definirse operaciones para cada ruta de producción 
 1.  **Grupos de producción**: configure grupos de producción para establecer relaciones entre la orden de producción y las cuentas contables. Las cuentas contables se usan para registrar o agrupar pedidos que están listos para informe.
 2.  **Conjuntos de producción**: cree grupos de producción para agrupar órdenes de producción para el procesamiento de órdenes de producción urgentes o para la eliminación y el registro de grupos de pedidos.
 3.  **Propiedades**: defina propiedades para crear atributos especiales que puede asignar a sus recursos para controlar el orden de las producciones. Estos atributos x la plantilla de horario de trabajo.
-
 
 
 

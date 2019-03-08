@@ -1,13 +1,13 @@
 ---
-title: "Colaboración con los proveedores mediante el portal de proveedores"
-description: "Este tema describe cómo los agentes de compras pueden usar el portal de proveedores para colaborar con los proveedores externos durante el proceso de confirmación del pedido de compra. Esta información se aplica solo a las versiones de febrero de 2016 y mayo de 2016 de Dynamics AX."
+title: Colaboración con los proveedores mediante el portal de proveedores
+description: Este tema describe cómo los agentes de compras pueden usar el portal de proveedores para colaborar con los proveedores externos durante el proceso de confirmación del pedido de compra. Esta información se aplica solo a las versiones de febrero de 2016 &amp; mayo de 2016 de Dynamics AX.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: josaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 07fbc5fea1fd44769a29bcc40297ffd02812a1e5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 2fa152c5586a1122a109762780d23fd8c2240702
-ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339887"
 ---
-
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Colaboración con los proveedores mediante el portal de proveedores
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe cómo los agentes de compras pueden usar el portal de proveedores para colaborar con los proveedores externos durante el proceso de confirmación del pedido de compra. Esta información se aplica solo a las versiones de febrero de 2016 y mayo de 2016 de Dynamics AX.
+Este tema describe cómo los agentes de compras pueden usar el portal de proveedores para colaborar con los proveedores externos durante el proceso de confirmación del pedido de compra. Esta información se aplica solo a las versiones de febrero de 2016 &amp; mayo de 2016 de Dynamics AX.
 
 La información de este tema se aplica solo a las versiones de febrero de 2016 y mayo de 2016 de Dynamics AX. La funcionalidad del portal de proveedores se ha sustituido por la funcionalidad extendida de colaboración del proveedor en la versión 1611 de Dynamics 365 for Operations. Para obtener más información acerca de la nueva funcionalidad de configuración de la colaboración de proveedor, consulte [Utilización de la colaboración del proveedor para trabajar con proveedores externos](vendor-collaboration-work-external-vendors.md).  
 
@@ -75,7 +74,7 @@ Los pedidos que se han enviado al proveedor para una respuesta y que tienen el e
 
 Los proveedores no tienen que confirmar la OC en el portal de proveedores. También pueden enviar un mensaje de correo electrónico o comunicar la aceptación de una OC a través de otros canales. A continuación puede confirmar el pedido manualmente en Dynamics AX. En este caso, recibirá una advertencia de que se está confirmando el pedido aunque no haya respuesta del proveedor. La OC aparece a continuación en el historial de confirmaciones del portal de proveedores como un pedido confirmado abierto que no tiene ninguna respuesta. Además, el proveedor ya no tiene la opción de confirmar o de rechazar el pedido de compra.  
 
-**Nota:** La versión de la OC que está disponible para otros procesos en Dynamics AX siempre es la última versión, incluso si dicha versión no se ha registrado todavía.
+**Nota**: La versión de la OC que está disponible para otros procesos en Dynamics AX siempre es la última versión, incluso si dicha versión no se ha registrado todavía.
 
 ### <a name="change-management"></a>Gestión de cambios
 
@@ -102,7 +101,6 @@ La siguiente tabla muestra un ejemplo de los cambios de estado y versión que pu
 [Configuración de la seguridad para los usuarios de la colaboración de proveedor](configure-security-vendor-portal-users.md)
 
 [Espacio de trabajo de facturación de colaboración de proveedor](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md)
-
 
 
 

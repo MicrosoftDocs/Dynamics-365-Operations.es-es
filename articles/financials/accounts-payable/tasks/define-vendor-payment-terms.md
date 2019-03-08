@@ -1,13 +1,13 @@
---- 
+---
 title: Definir condiciones de pagos a proveedores
 description: Configurar condiciones de pago para facturas de proveedor.
 author: abruer
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PaymTerm, CashDisc
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 68c69d5be5ccbdfb17fea7c61121cbf26fee48d4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: a00ca73b1bc301960132a86846749d12c39ed3f7
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358563"
 ---
 # <a name="define-vendor-payment-terms"></a>Definir condiciones de pagos a proveedores
 
@@ -51,5 +51,4 @@ Configurar condiciones de pago para facturas de proveedor. Esta tarea usa la emp
 17. Especifique la cuenta principal en la que se registrará el descuento por pronto pago para las facturas de proveedor.
     * Si Cuentas de contrapartida para descuentos está definido en Usar cuenta principal para descuentos de proveedor, se usará la cuenta principal.  Si la opción se establece en las cuentas en las líneas de factura, el descuento por pronto pago se registrará en las cuentas de activos/gastos en las líneas de la factura.  
 18. Haga clic en Guardar.
-
 

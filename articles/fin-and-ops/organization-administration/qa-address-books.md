@@ -1,13 +1,13 @@
 ---
 title: P+F de las libretas de direcciones
-description: "Este tema proporciona respuestas a las preguntas más frecuentes relacionadas con las libretas de direcciones en Microsoft Dynamics 365 for Finance and Operations."
+description: Este tema proporciona respuestas a las preguntas más frecuentes relacionadas con las libretas de direcciones en Microsoft Dynamics 365 for Finance and Operations.
 author: kfend
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DirPartyCheckDuplicate, DirPartyTable
 audience: Application User
 ms.reviewer: kfend
@@ -18,15 +18,14 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: bb0239fd9bd80ae15bd2cca08d5a5f5258aef638
-ms.contentlocale: es-es
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337817"
 ---
-
-# <a name="address-books-faq"></a>P+F de las libretas de direcciones
+# <a name="address-books-faq"></a>Preguntas más frecuentes sobre Libretas de direcciones
 
 [!include [banner](../includes/banner.md)]
 
@@ -69,4 +68,3 @@ Puede especificar registros de partes en la libreta de direcciones global o en l
 ## <a name="can-i-translate-address-information-for-party-records"></a>¿Puedo traducir información de dirección para los registros de partes?
 
 Puede configurar traducciones de la información de dirección de modo que la información aparezca en el idioma del usuario (idioma del sistema) en Microsoft Dynamics 365 for Finance and Operations pero en otro idioma en documentos como los pedidos de ventas. Puede especificar las traducciones para los nombres de país o región, los propósitos de direcciones y las secuencias de nombres. Por ejemplo, su idioma del sistema es el danés y crea un pedido de ventas para un cliente en Francia. En este caso, puede ver el registro del cliente en danés en el programa pero visualizar la información de dirección en francés en el pedido de ventas impreso. Al configurar traducciones, debe especificar una traducción para cada elemento de la lista. Los artículos para los que no especifique una traducción aparecerán en el idioma del sistema. Por ejemplo, su idioma del sistema es el danés y envía un documento a un cliente en España. Si no ha especificado las traducciones de español (ESP) para la información de dirección, esa información aparecerá en danés tanto en el programa como en el documento impreso.
-

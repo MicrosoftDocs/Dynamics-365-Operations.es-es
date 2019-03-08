@@ -1,13 +1,13 @@
 ---
 title: Configurar y generar archivos de pago positivo
-description: "Este artículo explica cómo configurar un pago positivo y generar archivos de pago positivo."
+description: Este artículo explica cómo configurar un pago positivo y generar archivos de pago positivo.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankPositivePayFormat
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
+ms.openlocfilehash: 0a15669c477223b922d8892d675eaa1df2563714
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 41d7b64f8414385629acef071c47a654d56005bd
-ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346097"
 ---
-
 # <a name="set-up-and-generate-positive-pay-files"></a>Configurar y generar archivos de pago positivo
 
 [!include [banner](../includes/banner.md)]
@@ -160,7 +159,6 @@ Después de que se hayan pagado los cheques que aparecen en un archivo de pago p
 
 ## <a name="recall-a-positive-pay-file"></a>Recuperar un archivo de pago positivo
 Si debe cambiar un archivo de pago positivo, puede recuperarlo. En la página **Resumen de archivo de pago positivo**, seleccione un archivo de pago positivo que tenga un estado **Creado** y, a continuación, seleccione la acción **Recuperar**. Para cada cheque del archivo de pago positivo, se restablece el campo que indica si el cheque se ha incluido en un archivo de pago positivo. A continuación puede crear un nuevo archivo de pago positivo que incluya el cheque que se ha recuperado.
-
 
 
 

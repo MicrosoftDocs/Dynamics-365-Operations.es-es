@@ -1,13 +1,13 @@
---- 
+---
 title: Invertir estado del trabajo kanban
-description: "Este procedimiento se centra en la inversión de un estado de trabajo kanban incorrecto."
+description: Este procedimiento se centra en la inversión de un estado de trabajo kanban incorrecto.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanBoardWorkCell, KanbanJobStatusUpdate
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 27874f89cede151b52b869fa0d58e320d548e6d3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 55d359232da5f3087b1e6baed182a20da09aeff7
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352100"
 ---
 # <a name="revert-kanban-job-status"></a>Invertir estado del trabajo kanban
 
@@ -48,11 +48,10 @@ Este procedimiento se centra en la inversión de un estado de trabajo kanban inc
     * Seleccione el primer trabajo que se preparó.  
 2. En el panel de acciones, haga clic en Fabricación.
 3. Haga clic en Revertir estado.
-    * Puede usar una regla kanban alternativa cuando las siguientes condiciones sean verdaderas: - La estrategia de reabastecimiento es la misma para ambas reglas.  - La versión del flujo de producción es la misma para ambas reglas.  - El producto que se suministra es el mismo para ambas reglas.  - Todas las actividades en sentido descendente configuradas para la última actividad de las reglas kanban debe ser las mismas para ambas reglas.  - Se deben configurar las mismas dimensiones de inventario proporcionadas para ambas reglas.  - El estado de la unidad de gestión de material debe ser No asignado.  - La configuración para kanbans de eventos debe ser la misma.  
+    * Puede usar una regla kanban alternativa cuando las siguientes condiciones sean verdaderas: - La estrategia de reabastecimiento es la misma para ambas reglas.  - La versión del flujo de producción es la misma para ambas reglas.  - El producto que se suministra es el mismo para ambas reglas.  - Todas las actividades en sentido descendente configuradas para la última actividad de las reglas kanban debe ser las mismas para ambas reglas.  - Se deben configurar las mismas dimensiones de inventario proporcionadas para ambas reglas.  - El estado de la unidad de gestión de material debe ser No asignado.  - La configuración para kanbans de eventos debe ser la misma.  
     * Asegúrese de que el estado nuevo es Planificado.  
 4. Haga clic en Aceptar
 5. En la lista, desmarque la fila seleccionada.
     * Seleccione el mismo trabajo.  
     * Observe que el estado del trabajo kanban se revierte a Planificado, lo que se indica con un icono de kanban vacío.  
-
 

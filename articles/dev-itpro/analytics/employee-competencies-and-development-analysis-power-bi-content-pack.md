@@ -1,13 +1,13 @@
 ---
-title: Contenido de Power BI sobre competencias y desarrollo de los empleados
-description: En este tema se describe Finance and Operations; el contenido de Power BI sobre competencias y desarrollo de empleados
+title: Contenido de competencias y desarrollo de empleados de Power BI
+description: En este tema se describen las compentencias y el desarrollo de Finance and Operations - empleado en Power BI.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 0442e795eadf28a07132c160d69ad44e9fb05eed
-ms.contentlocale: es-es
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352928"
 ---
-
-# <a name="employee-competencies-and-development-power-bi-content"></a>Contenido de Power BI sobre competencias y desarrollo de los empleados
+# <a name="employee-competencies-and-development-power-bi-content"></a>Contenido de competencias y desarrollo de empleados de Power BI
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se describe Finance and Operations; el contenido de Power BI sobre competencias y desarrollo de empleados 
+En este tema se describen las compentencias y el desarrollo de Finance and Operations - empleado en Power BI. 
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>Informes que se incluyen en el paquete de contenido
 Tras conectar el paquete de contenido con sus datos de Finance and Operations, los informes muestran los datos de su organización. Si nunca antes ha utilizado Microsoft Power BI, consulte [Aprendizaje dirigido para Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData) para obtener más información acerca de la aplicación. Los informes incluidos en el paquete de contenido tienen gráficos y tablas que contienen información adicional. En la siguiente tabla se describen los informes.
@@ -71,4 +70,3 @@ Los datos de Finance and Operations se utilizan para rellenar los informes del p
 | Workforce\_WorkerName             | Nombre, apellido y nombre completo                                                                       | |
 | Workforce\_WorkerTitle            | Cargo y fecha de antigüedad                                                                                   | |
 | Workorce\_WorkerTrend             | Trabajadores a lo largo del tiempo, plantilla, empresa y puesto                                                        | Workforce\_Company, Workforce\_Compensation, Workforce\_GeographicLocation, Workforce\_Performance, Workforce\_WorkerName, Workforce\_ReportsToWorkerName, Workforce\_CalendarOffset, Workforces\_Date, Workforce\_WorkerTitle, Workforce\_Demographics, Workforce\_Employment, Workforce\_Job |
-

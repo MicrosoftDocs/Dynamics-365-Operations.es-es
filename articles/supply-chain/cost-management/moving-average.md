@@ -1,13 +1,13 @@
 ---
 title: Moviendo mensaje
-description: "La media móvil es un método de gestión de costes perpetuo que se basa en el principio de promedio, en que los costes de emisiones de inventario no cambian cuando cambia el coste de compra. La diferencia se capitaliza y se basa en un cálculo proporcional. El importe restante se anota como gasto."
+description: La media móvil es un método de gestión de costes perpetuo que se basa en el principio de promedio, en que los costes de emisiones de inventario no cambian cuando cambia el coste de compra. La diferencia se capitaliza y se basa en un cálculo proporcional. El importe restante se anota como gasto.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0befa0e31347c9ee15ac0426fa3314b151a0200d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c1f8a8cf4a58177d423709f245760a5ba9ca7e4e
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348075"
 ---
-
 # <a name="moving-average"></a>Moviendo mensaje
 
 [!include [banner](../includes/banner.md)]
@@ -101,7 +100,7 @@ El coste de media móvil actual se asigna a las transacciones antedatadas y la c
 En la página **Transacciones de inventario** puede ver que 4,00 está anotado como gasto como media móvil actual del producto, 16,00. Puede registrar en el pasado, pero se debe anotar como gasto la diferencia de coste, por lo que el coste de media móvil no se ve afectado.
 
 ## <a name="inventory-value-report"></a>Informe del valor del inventario
-En este ejemplo de media móvil, se imprime el informe valor de inventario para admitir el cálculo de media móvil actual de un producto. El informe Valor de inventario permite imprimir las transacciones en orden cronológico, junto con el coste de admitir el cálculo del coste de media móvil de un producto. El informe muestra el coste de media móvil del producto. En el cuadro de diálogo **Informes de valor de inventario**, un intervalo de fechas le permite seleccionar el tipo de orden: por **Hora de la transacción** o por **Fecha de registro**. Normalmente, el informe se imprime con la opción **Fecha de registro**. La opción **Hora de transacción** es la fecha real en que se informa de la transacción y el coste de media móvil del producto se actualiza. Puede imprimir el informe Valor de inventario mediante la opción de orden **Hora de la transacción** si desea ver el cálculo del coste de media móvil a lo largo del tiempo. En la tabla siguiente se muestran las transacciones para el producto para el que se imprime el informe si usa la opción de orden **Hora de la transacción**.
+En este ejemplo de media móvil, se imprime el informe valor de inventario para admitir el cálculo de media móvil actual de un producto. El informe Valor de inventario permite imprimir las transacciones en orden cronológico, junto con el coste de admitir el cálculo del coste de media móvil de un producto. El informe muestra el coste de media móvil del producto. En el cuadro de diálogo **Informes de valor de inventario**, un intervalo de fechas le permite seleccionar el tipo de orden: por **Hora de la transacción** o por **Fecha de registro**. Normalmente, el informe se imprime con la opción **Fecha de registro**. La opción **Hora de transacción** es la fecha real en que se informa de la transacción y el coste de media móvil del producto se actualiza. Puede imprimir el informe Valor de inventario mediante la opción de orden **Hora de la transacción** si desea ver el cálculo del coste de media móvil a lo largo del tiempo. En la tabla siguiente se muestran las transacciones para el producto para el que se imprime el informe si usa la opción de orden **Hora de la transacción**.
 
 | Hora de la transacción | Fecha         | Tipo de transacción           | La cantidad | Importe | Coste unitario promedio |
 |------------------|--------------|----------------------------|----------|--------|-------------------|
@@ -113,8 +112,7 @@ En este ejemplo de media móvil, se imprime el informe valor de inventario para 
 | 8 de octubre        | 8 de octubre    | Revalorización de la media móvil |          | 4,00   | 16,00             |
 |                  | 31 de octubre   | Total                      | 2        | 32,00  | 16,00             |
 
- **Nota:** No se puede conciliar el libro mayor con el inventario mediante la opción **Hora de la transacción**. El informe se debe imprimir mediante la opción **Fecha de registro**.
-
+ **Nota:** No se puede conciliar el libro mayor con el inventario mediante la opción **Hora de la transacción**. El informe se debe imprimir mediante la opción **Fecha de registro**.
 
 
 

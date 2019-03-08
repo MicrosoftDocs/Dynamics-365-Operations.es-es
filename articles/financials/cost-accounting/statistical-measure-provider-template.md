@@ -1,32 +1,31 @@
 ---
-title: "Miembros de dimensiones estadísticas y plantillas de proveedor de medidas estadísticas"
-description: "Este tema proporciona información acerca de miembros de dimensión estadística y plantillas de proveedor de medidas estadísticas. Los miembros de dimensión estadística se pueden usar como base de asignación en directivas como la distribución de costes y la asignación de costes. También se pueden usar para notificar el consumo no monetario del coste."
+title: Miembros de dimensiones estadísticas y plantillas de proveedor de medidas estadísticas
+description: Este tema proporciona información acerca de miembros de dimensión estadística y plantillas de proveedor de medidas estadísticas. Los miembros de dimensión estadística se pueden usar como base de asignación en directivas como la distribución de costes y la asignación de costes. También se pueden usar para notificar el consumo no monetario del coste.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostAccountingLedgerSourceEntryProvider, CAMStatisticalDimension, CAMAXStatisticalMeasureProviderTemplate
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: cc9170f10fe2be0446b1c974a50dbdf1cb5fe236
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 8c74c47a5e0ca72fc4509786b091a70b5e292b54
-ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360311"
 ---
-
 # <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>Miembros de dimensiones estadísticas y plantillas de proveedor de medidas estadísticas
 
 [!include [banner](../includes/banner.md)]
@@ -73,7 +72,7 @@ A continuación se muestran algunos ejemplos de miembros de dimensión estadíst
 
 ## <a name="statistical-measure-provider-template"></a>Plantilla de proveedor de medidas estadísticas
 
-Las medidas estadísticas pueden proceder de muchos tipos de fuentes. Microsoft Dynamics 365 for Finance and Operations es una gran fuente para extraer medidas estadísticas. Puede usar una plantilla de proveedor de medidas estadísticas para configurar fácilmente las medidas estadísticas que desea extraer.
+Las medidas estadísticas pueden proceder de muchos tipos de fuentes. Microsoft Dynamics 365 for Finance and Operations, es un origen muy interesante para extraer estadísticas de medidas. Puede usar una plantilla de proveedor de medidas estadísticas para configurar fácilmente las medidas estadísticas que desea extraer.
 
 La definición de una plantilla de proveedor de medidas estadísticas es genérica y se puede reutilizar en varios miembros de dimensión estadística.
 
@@ -132,13 +131,13 @@ Para poder obtener medidas estadísticas en la contabilidad de costes, debe defi
 > [!NOTE]
 > En este ejemplo, crearemos una relación sólo para **Versión real**.
 
-Vaya a **Libro mayor de contabilidad de costes** \> **Versión real** \> **Gestionar** \> **Medidas estadísticas** para establecer la relación. Para esta situación, seleccione el conector de datos **Dynamics 365 for Finance and Operations – Medidas estadísticas**, pues deseamos extraer datos de Finance and Operations.
+Vaya a **Libro mayor de contabilidad de costes** \> **Versión real** \> **Gestionar** \> **Medidas estadísticas** para establecer la relación. Para esta situación, seleccione el conector de datos **Dynamics 365 for Finance and Operations– Medidas estadísticas**, pues deseamos extraer datos de Finance and Operations.
 
 **Origen de datos**
 
 | Nombre        | Conector de datos                                                                     | Miembro de dimensión estadística |
 |-------------|------------------------------------------------------------------------------------|------------------------------|
-| EJC D365FO | Dynamics 365 for Finance and Operations – Medidas estadísticas | EJC                         |
+| EJC D365FO | Dynamics 365 for Finance and Operations - Medidas estadísticas | EJC                         |
 
 **Configuración del proveedor de datos**
 
@@ -220,13 +219,13 @@ Para poder obtener medidas estadísticas en la contabilidad de costes, debe defi
 > [!NOTE]
 > En este ejemplo, crearemos una relación sólo para **Versión real**.
 
-Vaya a **Libro mayor de contabilidad de costes** \> **Versión real** \> **Gestionar** \> **Medidas estadísticas** para establecer la relación. Para esta situación, seleccione el conector de datos **Dynamics 365 for Finance and Operations – Medidas estadísticas**, pues deseamos extraer datos de Finance and Operations.
+Vaya a **Libro mayor de contabilidad de costes** \> **Versión real** \> **Gestionar** \> **Medidas estadísticas** para establecer la relación. Para esta situación, seleccione el conector de datos **Dynamics 365 for Finance and Operations– Medidas estadísticas**, pues deseamos extraer datos de Finance and Operations.
 
 **Origen de datos**
 
 | Nombre           | Conector de datos                                                                     | Miembro de dimensión estadística |
 |----------------|------------------------------------------------------------------------------------|------------------------------|
-| Paquete CC D365FO | Dynamics 365 for Finance and Operations – Medidas estadísticas | Paquete CC                      |
+| Paquete CC D365FO | Dynamics 365 for Finance and Operations - Medidas estadísticas | Paquete CC                      |
 
 El sistema reconoce que ProdRouteTrans es una tabla en la que cada registro pertenece a una entidad jurídica independiente. Por lo tanto, se le pedirá que seleccione la entidad jurídica de la que deben importarse las transacciones.
 
@@ -347,4 +346,3 @@ Si la base de asignación del miembro de dimensión predefinida de electricidad 
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Bases de asignación](allocation-bases.md)
-

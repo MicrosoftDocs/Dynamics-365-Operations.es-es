@@ -1,14 +1,14 @@
 ---
 title: Agregar dimensiones financieras al espacio de trabajo del CFO
-description: "Este tema explica cómo agregar dimensiones financieras al área de trabajo de CFO, para que se puedan usar en el libro mayor y los informes presupuestarios."
+description: Este tema explica cómo agregar dimensiones financieras al área de trabajo de CFO, para que se puedan usar en el libro mayor y los informes presupuestarios.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -18,24 +18,23 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: a15414eff99751d4e77e5b3bf315a556efb7ad5d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 5faefe5da8c3a64987a38ebef92eb87049ebe874
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332688"
 ---
-
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a>Agregar dimensiones financieras al espacio de trabajo del CFO
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo agregar dimensiones financieras al área de trabajo de CFO (Director financiero), para que se puedan usar en el libro mayor y los informes presupuestarios. El área de trabajo del director financiero tiene una pestaña **Visión general** y una pestaña **Datos financieros**. Los informes de estas dos pestañas se basan en dos medidas: LedgerActivityMeasure y BudgetActivityMeasure. En Microsoft Dynamics 365 for Finance and Operations,Enterprise Edition (julio de 2017), existe una relación entre las dos medidas y la entidad de DimensionCombinationEntity. Por lo tanto, puede seleccionar las dimensiones.
+Este tema explica cómo agregar dimensiones financieras al área de trabajo de CFO (Director financiero), para que se puedan usar en el libro mayor y los informes presupuestarios. El área de trabajo del director financiero tiene una pestaña **Visión general** y una pestaña **Datos financieros**. Los informes de estas dos pestañas se basan en dos medidas: LedgerActivityMeasure y BudgetActivityMeasure. En Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (julio de 2017), existe una relación entre las dos medidas y la entidad de DimensionCombinationEntity. Por lo tanto, puede seleccionar las dimensiones.
 
 1. En Finance and Operations, en la página **Almacén de la entidad** , actualice las medidas **MedidasActividadContable** y **MedidasActividadPresupuestaria** .
 2. En Microsoft Visual Studio, abra el Explorador de la aplicación, y busque **ContabilidadCFO**.
 3. En **Recursos**, abra **ContabilidadCFOEspacioDeTrabajoPBIX**.
-4. Cuando el recurso se abre en el escritorio de Power BI de Microsoft, seleccione **Recopilar datos**, seleccione **Base de datos de SQL Server**, y después seleccione **Conectar**.
+4. Cuando el recurso se abre en el escritorio de Microsoft Power BI, seleccione **Recopilar datos**, seleccione **Base de datos de SQL Server**, y después seleccione **Conectar**.
 5. Especifique el nombre del servidor y seleccione **AxDW** como la base de datos. Haga clic en **DirectQuery** y, a continuación, en  **OK**.
 6. Busque y seleccione **MedidasDeActividadContable\_DimensiónCombinación**, y después seleccione **carga**.
 
@@ -57,4 +56,3 @@ Este tema explica cómo agregar dimensiones financieras al área de trabajo de C
 16. Compile el proyecto, y después abra la aplicación para ver los resultados.
 
     [![Espacio de trabajo completado](./media/workspace.png)](./media/workspace.png)
-

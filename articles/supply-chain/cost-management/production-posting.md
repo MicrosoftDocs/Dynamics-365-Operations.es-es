@@ -1,13 +1,13 @@
 ---
-title: "Registro de la producción"
-description: "Este artículo proporciona información sobre los distintos tipos de registros en el proceso de producción."
+title: Registro de la producción
+description: Este artículo proporciona información sobre los distintos tipos de registros en el proceso de producción.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventItemGroup, ProjCategory, WrkCtrResourceGroup, WrkCtrTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0b44d57fe89ef7ae3def835865e4da80c260f907
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 413bf76b40ec1e6d00322605900a71f163c9396c
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332412"
 ---
-
 # <a name="production-posting"></a>Registro de la producción
 
 [!include [banner](../includes/banner.md)]
@@ -55,7 +54,6 @@ En **Parámetros de control de producción**, puede usar el campo **Registro con
 -   **Grupos de producción**: use las cuentas contables configuradas en los grupos de producción para el material y el consumo de tiempo. Los grupos de producción se asocian con los productos emitidos y se copian a los pedidos de producción cuando se crean esos pedidos. El registro en los pedidos de producción seguirá entonces los grupos de producción asociados al pedido de producción.
 
 **Nota:** si se utiliza el método estándar para calcular el coste del artículo terminado, las transacciones finales lo reflejan. Si los costes reales y los costes calculados utilizando el método estándar varían, la diferencia se registra en la cuenta que muestra las pérdidas o beneficios.
-
 
 
 

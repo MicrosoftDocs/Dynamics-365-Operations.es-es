@@ -1,13 +1,13 @@
 ---
-title: "Contenido de Power BI sobre rendimiento del almacén"
-description: "Este tema describe lo que se incluye en el contenido de rendimiento del almacén en Power BI. Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido."
+title: Contenido de Power BI de rendimiento de almacén
+description: Este tema describe lo que se incluye en el contenido de rendimiento del almacén en Power BI. Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
 author: Mirzaab
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSWarehousePerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 99966a67fa1fd91fc54e7100f8e2e41b87f6a406
-ms.contentlocale: es-es
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365371"
 ---
-
-# <a name="warehouse-performance-power-bi-content"></a>Contenido de Power BI sobre rendimiento del almacén
+# <a name="warehouse-performance-power-bi-content"></a>Contenido de Power BI de rendimiento de almacén
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe lo que se incluye en el contenido de Microsoft Power BI **Rendimiento del almacén**. Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
+Este tema describe lo que se incluye en el contenido de Microsoft Power BI **rendimiento del almacén**. Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
 
 ## <a name="overview"></a>Información general
 
@@ -42,11 +41,11 @@ Los directores de almacén pueden usar el contenido de Power BI **Rendimiento de
 - **Rendimiento de envío**: mide si el almacén envía por completo y a tiempo a los clientes (es decir mide el envío de salida y el rendimiento de entrega), de modo que se puedan identificar los problemas en los que están implicados los productos, sitios o almacenes, o clientes dedicados. Si descubre que sus envíos no llegan puntuales cuando van a áreas o ciudades específicas, puede que tenga que prestar más atención al transporte o la administración de cuentas.
 - **Exactitud de inventario de la ubicación**: la precisión del inventario es inteligencia empresarial (BI) interna del almacén. Es muy importante que determine el grado de exactitud de sus recuentos en general. Sin embargo, también es importante que determine su grado de precisión cuando almacena artículos en las ubicaciones correctas, y que resalte los datos de las discrepancias, de modo que pueda encontrar mejores puestos para los artículos o iniciar un recuento total de artículos específicos. (Actualmente, la nueva funcionalidad de recuento basada en artículos se entrega como sustitución). Si utiliza este contenido de Power BI para determinar la corrección de los datos de inventario disponibles por ubicación, también puede identificar los robos en las tiendas. También puede determinar si algunas ubicaciones tienen cantidades disponibles que difieren de los datos de (ERP) de planificación de recursos empresariales. Estas ubicaciones pueden ser demasiado grandes, o puede que no sea posible contarlas. O bien, parte de la colocación física puede ser incorrecta, por lo que puede que sea difícil conservar un único tipo de artículo en sincronización con los datos disponibles.
 
-## <a name="accessing-the-power-bi-content-pack"></a>Acceso al pack de contenido de Power BI
+## <a name="accessing-the-power-bi-content-pack"></a>Acceso al paquete de contenido de Power BI
 El contenido de Power BI **Rendimiento de almacén** se muestra en la página **Rendimiento de almacén** (**Gestión de almacenes** \> **Consultas e informes** \> **Análisis del rendimiento de almacén** \> **Rendimiento de almacén**).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Métricas que se incluyen en el contenido de Power BI
-El contenido de Power BI **Rendimiento de almacén** incluye un informe. Este informe consta de un conjunto de métricas que se visualizan, como gráficos, mosaicos y tablas. La tabla siguiente proporciona una visión general de las visualizaciones del contenido de **rendimiento de almacén** en Power BI.
+El contenido de Power BI **Rendimiento de almacén** incluye un informe. Este informe consta de un conjunto de métricas que se visualizan, como gráficos, mosaicos y tablas. La tabla siguiente proporciona una visión general de las visualizaciones en el contenido de **Rendimiento de almacén** en Power BI.
 
 | Página de informes                 | Gráficos                                   | Descripción |
 |-----------------------------|------------------------------------------|-------------|
@@ -113,4 +112,3 @@ Las siguientes medidas agregadas clave se usan como la base del contenido.
 | Rendimiento del envío        | Enviado por producto                       | CustPackingSlipOnTimeStatus           | Temprano, Puntual y Tarde (consulte las descripciones anteriores en esta tabla). |
 | Rendimiento del envío        | Enviado por cliente                      | CustPackingSlipOnTimeStatus           | Temprano, Puntual y Tarde (consulte las descripciones anteriores en esta tabla). |
 | Rendimiento del envío        | Enviado por sitio/almacén              | CustPackingSlipOnTimeStatus           | Temprano, Puntual y Tarde (consulte las descripciones anteriores en esta tabla). |
-

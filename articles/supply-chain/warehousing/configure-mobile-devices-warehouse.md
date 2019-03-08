@@ -1,13 +1,13 @@
 ---
-title: "Configurar dispositivos móviles para el trabajo de almacén"
-description: "En este tema se describe cómo configurar los elementos de menú que usan los trabajadores del almacén para trabajar en un dispositivo móvil."
+title: Configurar dispositivos móviles para el trabajo de almacén
+description: En este tema se describe cómo configurar los elementos de menú que usan los trabajadores del almacén para trabajar en un dispositivo móvil.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 09/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 74522c97716238b62af3d65a1c23ba9e5e60a68b
 ms.openlocfilehash: cc21b62026403e37dbcb90c24dd239d295f0e04e
-ms.contentlocale: es-es
-ms.lasthandoff: 10/03/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347960"
 ---
-
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Configurar dispositivos móviles para el trabajo de almacén
 
 [!include [banner](../includes/banner.md)]
@@ -208,7 +207,7 @@ Además de los elementos de menú de la configuración para crear el trabajo del
 </thead>
 <tbody>
 <tr class="odd">
-<td>Sin ordenar</td>
+<td>Nuevo</td>
 <td>Este valor predeterminado no procesa trabajo.</td>
 </tr>
 <tr class="even">
@@ -246,7 +245,7 @@ Esta opción es útil, por ejemplo, cuando varios pallets se almacenan provision
 </tr>
 <tr class="even">
 <td>Agrupación de recuentos cíclicos</td>
-<td>El trabajador selecciona una zona, un grupo de trabajo o una ubicación y Microsoft Dynamics 365 for Finance and Operations asigna el trabajo basándose en la selección. Si selecciona esta opción, puede hacer clic en <strong>Recuento cíclico</strong> en el panel de acciones para especificar información adicional para mostrar y también puede especificar el número de veces que el trabajador debe repetir el recuento si se encuentra una diferencia.</td>
+<td>El trabajador selecciona una zona, un grupo de trabajo,o una ubicación y Microsoft Dynamics 365 for Finance and Operations asignará el trabajo basado en la selección. Si selecciona esta opción, puede hacer clic en <strong>Recuento cíclico</strong> en el panel de acciones para especificar información adicional para mostrar y también puede especificar el número de veces que el trabajador debe repetir el recuento si se encuentra una diferencia.</td>
 </tr>
  <tr class="odd">
 <td>Carga de transporte</td>
@@ -334,7 +333,7 @@ La siguiente tabla describe estas opciones.
 </tr>
 <tr class="odd">
 <td>Ubicaciones en grupo</td>
-<td>Seleccione esta opción para agrupar el trabajo de ubicación. Esta opción está disponible cuando el trabajo fue agrupado por el trabajador o por Microsoft Dynamics 365 for Finance and Operations. Cuando el trabajador ha terminado todo el trabajo de picking en el grupo, el trabajo de ubicación se crea para el mismo grupo.</td>
+<td>Seleccione esta opción para agrupar el trabajo de ubicación. Esta opción solo está disponible cuando el trabajo fue agrupado por el trabajador o por Microsoft Dynamics 365 for Finance and Operations. Cuando el trabajador ha terminado todo el trabajo de picking en el grupo, el trabajo de ubicación se crea para el mismo grupo.</td>
 </tr>
 <tr class="even">
 <td>Tipos de ajuste de inventario</td>
@@ -357,7 +356,7 @@ La siguiente tabla describe estas opciones.
 <td>Indique si el trabajador debe seleccionar primero el lote más antiguo de una ubicación. Están disponibles las siguientes opciones:
 <ul>
 <li><strong>Ninguno</strong>: el trabajador puede seleccionar cualquier lote en la ubicación. El trabajador no recibirá ningún mensaje.</li>
-<li><strong>Advertir</strong>: el trabajador puede seleccionar cualquier lote en la ubicación, pero aparecerá un mensaje de advertencia si un lote no es el más antiguo.</li>
+<li><strong>Advertencia</strong>: el trabajador puede seleccionar cualquier lote en la ubicación, pero aparecerá un mensaje de advertencia si un lote no es el más antiguo.</li>
 <li><strong>Forzar</strong>: el trabajador debe seleccionar el lote más antiguo de la ubicación. El trabajador recibe un mensaje de error si un lote no es el más antiguo. <strong>Nota</strong>: esta opción solo es relevante si <strong>Número de lote</strong> es inferior a <strong>Ubicación</strong> en la jerarquía de reserva que se asigna al artículo.</li>
 </ul></td>
 </tr>
@@ -367,11 +366,11 @@ La siguiente tabla describe estas opciones.
 </tr>
 <tr class="even">
 <td>Campo de agrupamiento del sistema</td>
-<td>Seleccione el campo que determinará cómo Microsoft Dynamics 365 for Finance and Operations agrupará el trabajo de recolección para los trabajadores. Por ejemplo, si selecciona el campo <strong>ShipmentId</strong>, el trabajador explorará la identificación del envío para agrupar el trabajo de picking. Todo el trabajo para el envío se asigna al trabajador. Este campo requiere que cree un elemento de menú para usar el trabajo existente que el sistema ha agrupado. Debe escribir texto también en el campo <strong>Etiqueta de agrupamiento del sistema</strong> para indicar al trabajador qué debe escanear.</td>
+<td>Seleccione el campo que determinará cómo Microsoft Dynamics 365 for Finance and Operations agrupará el trabajo de selección para el trabajador. Por ejemplo, si selecciona el campo <strong>ShipmentId</strong>, el trabajador explorará la identificación del envío para agrupar el trabajo de picking. Todo el trabajo para el envío se asigna al trabajador. Este campo requiere que cree un elemento de menú para usar el trabajo existente que el sistema ha agrupado. Debe escribir texto también en el campo <strong>Etiqueta de agrupamiento del sistema</strong> para indicar al trabajador qué debe escanear.</td>
 </tr>
 <tr class="odd">
 <td>Etiqueta de agrupamiento del sistema</td>
-<td>Especifique el texto que indicará al trabajador sobre qué escanear cuando Microsoft Dynamics 365 for Finance and Operations agrupa el trabajo de recolección. Por ejemplo, si está usando el campo <strong>ShipmentId</strong> para agrupar el trabajo de picking por envíos, puede especificar <strong>Id. del envío</strong> en el campo. Este campo requiere que cree un elemento de menú para usar el trabajo existente que el sistema ha agrupado. También debe seleccionar el campo por el que desea agrupar en <strong>Campo de agrupamiento del sistema</strong>.</td>
+<td>Especifique el texto que indicará al trabajador sobre qué escanear cuando Microsoft Dynamics 365 for Finance and Operations agrupa el trabajo de picking. Por ejemplo, si está usando el campo <strong>ShipmentId</strong> para agrupar el trabajo de picking por envíos, puede especificar <strong>Id. del envío</strong> en el campo. Este campo requiere que cree un elemento de menú para usar el trabajo existente que el sistema ha agrupado. También debe seleccionar el campo por el que desea agrupar en <strong>Campo de agrupamiento del sistema</strong>.</td>
 </tr>
 <tr class="even">
 <td>Usar datos predeterminados</td>
@@ -387,7 +386,7 @@ La siguiente tabla describe estas opciones.
 </tr>
 <tr class="odd">
 <td>Código de plantilla de trabajo</td>
-<td>Seleccione la plantilla de trabajo que creará el trabajo de un proceso. Por ejemplo, si recibe un artículo para un pedido de compra, el trabajo de ubicación se generará en función de la plantilla de trabajo. Si no selecciona una plantilla de trabajo, Microsoft Dynamics 365 for Finance and Operations asigna una plantilla, según criterios de consulta. Para obtener más información sobre plantillas de trabajo, vea <a href="control-warehouse-location-directives.md">Controlar el trabajo de almacén con plantillas de trabajo y directivas de ubicación</a>.</td>
+<td>Seleccione la plantilla de trabajo que creará el trabajo de un proceso. Por ejemplo, si recibe un artículo para un pedido de compra, el trabajo de ubicación se generará en función de la plantilla de trabajo. Si no selecciona una plantilla de trabajo, Microsoft Dynamics 365 for Finance and Operations asignará una plantilla basada en criterios de consulta. Para obtener más información sobre plantillas de trabajo, vea <a href="control-warehouse-location-directives.md">Controlar el trabajo de almacén con plantillas de trabajo y directivas de ubicación</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -420,6 +419,5 @@ La siguiente tabla describe los distintos tipos de trabajo con los que puede usa
 
 [Configurar un elemento de menú del dispositivo móvil para registrar los artículos recibidos (guía de tareas)](tasks/set-up-mobile-device-menu-item-register-received-items.md)
 [Ventajas de usar los estados de inventario](../inventory/inventory-statuses.md)
-
 
 

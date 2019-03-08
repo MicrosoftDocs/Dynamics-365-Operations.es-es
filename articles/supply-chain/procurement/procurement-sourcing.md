@@ -1,13 +1,13 @@
 ---
-title: "Página inicial de adquisición y abastecimiento"
-description: "Este tema proporciona una lista de temas de ayuda y otros recursos disponibles para Adquisición y abastecimiento."
+title: Página inicial de adquisición y abastecimiento
+description: Este tema proporciona una lista de temas de ayuda y otros recursos disponibles para Adquisición y abastecimiento.
 author: mkirknel
 manager: AnnBe
 ms.date: 09/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 461c89a220ec75f3f693da6f52291ebb498e7a05
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 091b50c26cf596fc03e42f60fc662b8d1f25f06b
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338599"
 ---
-
 # <a name="procurement-and-sourcing-home-page"></a>Página inicial de adquisición y abastecimiento
 
 [!include [banner](../includes/banner.md)]
@@ -56,11 +55,11 @@ Adquisición y abastecimiento cubre todos los pasos desde identificar una necesi
 -   [Colaboración de proveedor con los clientes](vendor-collaboration-work-customers-dynamics-365-operations.md)
 -   [Gestionar usuarios de colaboración de proveedor](manage-vendor-collaboration-users.md)
 -   [Configurar y mantener la colaboración de proveedor](set-up-maintain-vendor-collaboration.md)
--   [Secuencia de entrada de demostración de inventario de envío para Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(documentación)
+-   [Demostración de entrada de demostración de inventario de envío para Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(documentación)
 -   [Supervisar el inventario de entrega mediante la colaboración de proveedores](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
--   [Colaboración con proveedores mediante el portal de proveedores](collaborate-vendors-vendor-portal.md)  (solo en las versiones de febrero de 2016 y mayo de 2016 de Dynamics AX)
+-   [Colaboración con proveedores mediante el portal de proveedores](collaborate-vendors-vendor-portal.md) (solo en las versiones de febrero de 2016 y mayo de 2016 de Dynamics AX)
 -   [Configuración de seguridad para los usuarios del portal de proveedores](configure-security-vendor-portal-users.md) (solo en las versiones de 2016 y mayo de 2016 de Finance and Operations)
--   [Espacio de trabajo móvil de colaboración de proveedor para la aplicación Microsoft Dynamics 365 for Finance and Operations](vendor-collaboration-mobile-workspace.md)
+-   [Espacio de trabajo de móvil de colaboración de proveedor para Microsoft Dynamics 365 for Finance and Operations](vendor-collaboration-mobile-workspace.md)
 
 ## <a name="procurement-product-management"></a>Gestión de compra de productos
 -   [Catálogos de compras](procurement-catalogs.md)
@@ -102,7 +101,6 @@ Adquisición y abastecimiento cubre todos los pasos desde identificar una necesi
 -   [Definición de flujos de trabajo de procesos empresariales para solicitudes de compra](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions) (notas del producto)
 -   [Directivas de compra](purchase-policies.md)
 -   [Crear directivas de compra](tasks/create-purchasing-policies.md)
-
 
 
 

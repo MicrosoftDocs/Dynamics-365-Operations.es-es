@@ -1,13 +1,13 @@
 ---
-title: "Reglas de eliminación"
-description: "Este tema proporciona información acerca de las reglas de eliminación y las diversas opciones para informar sobre eliminaciones."
+title: Reglas de eliminación
+description: Este tema proporciona información acerca de las reglas de eliminación y las diversas opciones para informar sobre eliminaciones.
 author: aprilolson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerEliminationRule
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c0736d63c9a582948d197dc267f9941cbbd3e3c6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 882b8f21be94b8cbb0c162c965ffc129b47d7edf
-ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333102"
 ---
-
 # <a name="elimination-rules"></a>Reglas de eliminación
 
 [!include [banner](../includes/banner.md)]
@@ -153,7 +152,6 @@ Hay dos formas de procesar las transacciones de eliminación, durante el proceso
 En una empresa definida como empresa de eliminación, seleccione **Diario de eliminaciones** en el módulo de Consolidaciones. Una vez que haya seleccionado el nombre de diario, haga clic en **Líneas**. Puede ejecutar la propuesta seleccionando el menú **Propuestas** y, a continuación, seleccionando **Propuesta de eliminación**.
 
 Seleccione la empresa que es el origen de los datos consolidados y, a continuación, seleccione la regla que desea procesar. Introduzca una fecha de inicio para comenzar la búsqueda de importes de eliminación y una fecha final para terminar la búsqueda de importes de eliminación. El campo **Fecha de registro de contabilidad general** es la fecha utilizada para registrar el diario en la contabilidad general. Después de hacer clic en **Aceptar**, puede revisar los importes y registrar el diario.
-
 
 
 

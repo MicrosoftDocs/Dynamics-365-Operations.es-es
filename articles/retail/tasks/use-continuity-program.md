@@ -1,13 +1,13 @@
---- 
+---
 title: Uso del programa de continuidad
 description: Este procedimiento muestra el proceso de venta de un programa de continuidad y el procesamiento de pedidos de ventas relacionados.
 author: scott-tucker
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: MCRCustomerService, MCRCustSearch, SalesTable, MCRContinuityCustInfo, MCRCustPaymLookup, CreditCardTokenization, CreditCardLookup, MCRSalesOrderRecap
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 45bd4a3cc9f9b03c713d33638d6dc93aa696c581
-ms.contentlocale: es-es
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358172"
 ---
 # <a name="using-continuity-program"></a>Uso del programa de continuidad
 
@@ -61,5 +61,4 @@ Este procedimiento muestra el proceso de venta de un programa de continuidad y e
 20. En el campo Pedido de ventas, especifique o seleccione un valor.
     * Especifique el número de pedido de ventas que ha anotado antes en el procedimiento. Esto mantendrá el tiempo de procesamiento al mínimo para este procedimiento. El campo Pedido de ventas es opcional. Podría procesar todos los pedidos para cualquier programa.  
 21. Haga clic en Aceptar
-
 

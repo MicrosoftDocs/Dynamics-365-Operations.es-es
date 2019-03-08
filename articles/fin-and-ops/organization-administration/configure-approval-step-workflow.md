@@ -1,13 +1,13 @@
 ---
-title: "Configurar los pasos de aprobación en un flujo de trabajo"
-description: "Este tema explica cómo configurar las propiedades de un paso de aprobación."
+title: Configurar los pasos de aprobación en un flujo de trabajo
+description: Este tema explica cómo configurar las propiedades de un paso de aprobación.
 author: sericks007
 manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8f52b6ffed7c1edb97c7a673cefbc8bf486ba831
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 813866d63f38f5865666bad96f6f3590716a93ad
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "368062"
 ---
-
 # <a name="configure-approval-steps-in-a-workflow"></a>Configurar los pasos de aprobación en un flujo de trabajo
 
 [!include [banner](../includes/banner.md)]
@@ -135,7 +134,7 @@ Siga estos pasos para especificar a quién se debe asignar el paso de aprobació
     </tr>
     <tr>
     <td>Usuario</td>
-    <td>Usuarios específicos de Microsoft Dynamics 365 for Finance and Operations</td>
+    <td>Usuarios de Microsoft Dynamics 365 for Finance and Operations específicos</td>
     <td>
     <ol>
     <li>Tras seleccionar <strong>Usuario</strong>, haga clic en la pestaña <strong>Usuario</strong>.</li>
@@ -278,4 +277,3 @@ Si un usuario no realiza ninguna acción en un documento en el tiempo asignado, 
 
 5. Repita los pasos 3 a 4 por cada usuario que se debe agregar a la ruta de remisión a una instancia superior. El orden de los usuarios se puede modificar.
 6. Si los usuarios de la ruta de remisión a una instancia superior no responden en el tiempo asignado, el sistema realiza una acción en el documento de manera automática. Para especificar la acción que el sistema realiza, seleccione la fila **Acción** y, a continuación, en la pestaña **Finalizar acción**, seleccione una acción.
-

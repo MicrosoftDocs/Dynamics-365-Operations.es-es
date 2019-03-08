@@ -1,13 +1,13 @@
---- 
+---
 title: Registrar comisiones de ventas
-description: "Este procedimiento le muestra cómo se calculan y registran las comisiones de ventas."
+description: Este procedimiento le muestra cómo se calculan y registran las comisiones de ventas.
 author: omulvad
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, SalesEditLines,  CustInvoiceJournal, CommissionTrans, LedgerTransVoucher
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 2c39b2fcf521106dfb58466bc45a316c0b506345
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 5535f1627526b97ddc9ca2c210db4e332782d656
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355159"
 ---
 # <a name="register-sales-commissions"></a>Registrar comisiones de ventas
 
@@ -73,5 +73,4 @@ Anote los códigos de artículo y de cliente que ha elegido para el proceso de l
 5. Cierre la página.
 6. Haga clic en Asiento.
     * Puede revisar las transacciones de asiento para los importes de comisión que se han registrado en el gasto de la comisión predefinido y las cuentas de proveedores de la comisión.  
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Amortizar los costes constantes para un artículo fabricado"
-description: "Los costes constantes de un artículo fabricado reflejan los tiempos de preparación de la operación y los componentes con una cantidad constante o un importe residual constante."
+title: Amortizar los costes constantes para un artículo fabricado
+description: Los costes constantes de un artículo fabricado reflejan los tiempos de preparación de la operación y los componentes con una cantidad constante o un importe residual constante.
 author: AndersGirke
 manager: AnnBe
 ms.date: 04/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMCalcDialog, BOMCalcTable, BOMCalcTrans
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
+ms.openlocfilehash: 7ccd5ce3e2ed58db8f13eebbcfa6fe5fb544d6c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 75c0f5bcff0aae63aa8c7dae9b0767f8c7e6a81c
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329468"
 ---
-
 # <a name="amortize-constant-costs-for-a-manufactured-item"></a>Amortizar los costes constantes para un artículo fabricado
 
 [!include [banner](../includes/banner.md)]
@@ -43,7 +42,6 @@ La cantidad del tamaño del lote de gestión de costes para un artículo fabrica
 -   Cantidad de cálculo especificada en el cálculo de L. MAT específico de un pedido: un cálculo de L. MAT específico de un pedido se puede realizar para una línea de artículo de un pedido de ventas, un presupuesto de ventas o un pedido de servicio. La cantidad de cálculo especificada utiliza la cantidad del artículo de línea de origen, pero la cantidad predeterminada se puede omitir. Puede seleccionar si el cálculo de L. MAT específico del pedido utiliza un modo de expansión de "hacer para pedir" o multinivel.
 
 El importe calculado de los costes constantes amortizados de un artículo se denomina gastos.
-
 
 
 

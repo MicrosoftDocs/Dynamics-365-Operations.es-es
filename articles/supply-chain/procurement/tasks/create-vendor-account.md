@@ -1,13 +1,13 @@
---- 
+---
 title: Crear una cuenta de proveedor
-description: "Este procedimiento muestra cómo crear una cuenta de proveedor y agregar una dirección e información de contacto."
+description: Este procedimiento muestra cómo crear una cuenta de proveedor y agregar una dirección e información de contacto.
 author: mkirknel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendTable, LogisticsPostalAddressGrid, DirPartyLookup, LogisticsPostalAddress, SysLookupMultiSelectGrid
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 22c7a1a2b7468f00aa25a67a2c5f62b088e2fe7c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6ff2357d5266c45be2f403e463c72089d73db21b
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360150"
 ---
 # <a name="create-a-vendor-account"></a>Crear una cuenta de proveedor
 
@@ -62,5 +62,4 @@ Este procedimiento muestra cómo crear una cuenta de proveedor y agregar una dir
 5. Haga clic en Guardar.
 6. Cierre la página.
 7. Cierre la página.
-
 

@@ -1,13 +1,13 @@
 ---
 title: Informes de listas de ventas de la UE
-description: "Este artículo proporciona información acerca de los informes de listas de ventas de la Unión Europea (UE)."
+description: Este artículo proporciona información acerca de los informes de listas de ventas de la Unión Europea (UE).
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EUSalesList
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e2c4fe1c93693cee9164f2c22ad71a29abd6473d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e1eff86902170401e593019ea555d9c2a4c11c04
-ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370490"
 ---
-
 # <a name="eu-sales-list-reporting"></a>Informes de listas de ventas de la UE
 
 [!include [banner](../includes/banner.md)]
@@ -45,7 +44,7 @@ Mediante el ESL, las autoridades fiscales de cada estado miembro de la Unión Eu
 Puede realizar las tareas siguientes para un informe de la lista de la UE:
 
 -   Recopilar información acerca de transacciones de comercio intracomunitario. Una transacción de comercio intracomunitario puede ser una factura de ventas, una factura de servicios, una factura de proyecto o una factura de proveedor. Se identifica una transacción en función del país o región de la contrapartida. Las transacciones comerciales intracomunitarias de distintos tipos se recogen en la tabla de la lista de ventas de la UE, donde se representan en el formulario común. Cada registro de la tabla de ESL representa la transacción única y consta del identificador del IVA de una contrapartida y el valor total de las mercancías y servicios que se han suministrado.
--   (Opcional) Vista previa del informe **Lista de ventas de la UE**. Puede obtener una lista previa y validar el informe **Lista de ventas de la UE** para un período determinado en el formulario de un libro de Microsoft Excel.
+-   (Opcional) Vista previa del informe **Lista de ventas de la UE**. Puede obtener una lista previa y validar el informe **Lista de ventas de la UE** para un período determinado en el formulario de un libro de Microsoft Excel.
 -   Generar el informe **Lista de ventas de la UE**. El informe de la **Lista de ventas de la UE** se genera con el formato de archivo electrónico de un formato en particular que sea específico para cada estado miembro de la Unión Europea. En general, un informe de la **Lista de ventas de la UE** contiene información básica sobre la parte que notifica y los valores de los suministros de mercancías y servicios. La información se agrupa por país y el identificador del IVA de una contrapartida.
 -   Cerrar el período de notificación de la lista de ventas de la UE. Después de generar el informe **Lista de ventas de la UE** y se enviarlo a las autoridades, puede marcar los registros de la tabla de ESL como **Cerrado**. Estas transacciones no se incluirán en los informes adicionales.
 
@@ -158,7 +157,6 @@ Puede generar un informe **Lista de ventas de la UE** mediante la función **Not
 ### <a name="closing-the-eu-sales-list-reporting-period"></a>Cerrar el período de notificación de la lista de ventas de la UE
 
 Cuando haya completado el proceso de notificación para un período específico (por ejemplo, cuando las autoridades fiscales han aceptado el informe **Lista de ventas de la UE**), puede marcar los registros de ESL en los que se incluirá el informe para el período configurando el valor **Estado de notificación** a **Cerrado**. Para establecer este estado, use la función **Marcar scomo cerrado**en la página **Lista de ventas de la UE**. Si invierte el cierre del período, puede marcar los registros de ESL configurando el valor **Estado de notificación** a **Incluido**. Estos registros pueden después incluirse en el informe **Lista de ventas de la UE** de nuevo. Para establecer este estado, use la función **Marcar como** **incluido**en la página **Lista de ventas de la UE**.
-
 
 
 

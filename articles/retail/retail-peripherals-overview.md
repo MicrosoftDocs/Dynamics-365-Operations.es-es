@@ -1,13 +1,13 @@
 ---
-title: "Periféricos de Retail"
-description: "En este tema explica los conceptos relacionados con los periféricos para aplicaciones minoristas."
+title: Periféricos de Retail
+description: En este tema explica los conceptos relacionados con los periféricos para aplicaciones minoristas.
 author: rubencdelgado
 manager: AnnBe
-ms.date: 11/14/2017
+ms.date: 01/16/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTerminalTable, RetailDevice, RetailHardwareProfile
 audience: Application User, IT Pro
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 8fa2be91db8213845c2be16b1cc0a0f5457a708b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
-ms.openlocfilehash: c2539af8a29b580a10002bc8648505d42c7b8456
-ms.contentlocale: es-es
-ms.lasthandoff: 01/04/2019
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347868"
 ---
-
 # <a name="retail-peripherals"></a>Periféricos de Retail
 
 [!include [banner](includes/banner.md)]
@@ -40,7 +39,7 @@ Navegación: Haga clic en **Retail** &gt; **Configuración del canal** &gt; **Co
 
 ### <a name="devices"></a>Dispositivos
 
-Navegación: Haga clic en **Retail** &gt; **Configuración del canal** &gt; **Configuración del PDV** &gt; **Dispositivos**. Un dispositivo es una entidad que representa una instancia física de un dispositivo que está asignado a un registro de PDV. Cuando se crea un dispositivo, se asigna a un registro de PDV. La entidad de dispositivo realiza un seguimiento de información acerca de cuándo se activa un registro de PDV, el tipo de cliente que se utiliza y el paquete de aplicación que se ha implementado en un dispositivo específico. Los dispositivos se pueden asignar a los tipos de aplicación siguientes: Retail Modern POS, Retail Cloud POS, Retail Modern POS – Windows Phone, Retail Modern POS – Android, and Retail Modern POS – iOS.
+Navegación: Haga clic en **Retail** &gt; **Configuración del canal** &gt; **Configuración del PDV** &gt; **Dispositivos**. Un dispositivo es una entidad que representa una instancia física de un dispositivo que está asignado a un registro de PDV. Cuando se crea un dispositivo, se asigna a un registro de PDV. La entidad de dispositivo realiza un seguimiento de información acerca de cuándo se activa un registro de PDV, el tipo de cliente que se utiliza y el paquete de aplicación que se ha implementado en un dispositivo específico. Los dispositivos se pueden asignar a los tipos de aplicación siguientes: Retail Modern POS, Retail Cloud POS, Retail Modern POS - Windows Phone, Retail Modern POS - Android y Retail Modern POS - iOS.
 
 ### <a name="retail-modern-pos"></a>Retail Modern POS
 
@@ -75,7 +74,7 @@ Los periféricos de PDV se suelen dividir en clases. Esta sección describe y of
 
 ### <a name="printer"></a>Impresora
 
-Las impresoras incluyen impresoras tradicionales de recibos de PDV e impresoras a toda página. Se ofrece compatibilidad a la impresora a través de las interfaces del controlador de la vinculación e incrustación de objetos para PDV de Retail (OPDV) y Microsoft Windows. Se pueden utilizar hasta dos impresoras al mismo tiempo. Esta funcionalidad admite las situaciones en las que los recibos de clientes por ventas al contado sin envío a domicilio se imprimen en impresoras de recibos, mientras que los pedidos de los clientes, que tienen más información, se imprimen en una impresora a toda página. Las impresoras de recibos se pueden conectar directamente con un equipo mediante USB, a una red mediante Ethernet o a través de Bluetooth.
+Las impresoras incluyen impresoras tradicionales de recibos de PDV e impresoras a toda página. Se ofrece compatibilidad a la impresora a través de las interfaces del controlador de la vinculación e incrustación de objetos para Retail POS (OPDV) y Microsoft Windows. Se pueden utilizar hasta dos impresoras al mismo tiempo. Esta funcionalidad admite las situaciones en las que los recibos de clientes por ventas al contado sin envío a domicilio se imprimen en impresoras de recibos, mientras que los pedidos de los clientes, que tienen más información, se imprimen en una impresora a toda página. Las impresoras de recibos se pueden conectar directamente con un equipo mediante USB, a una red mediante Ethernet o a través de Bluetooth.
 
 ### <a name="scanner"></a>Escáner
 
@@ -119,7 +118,7 @@ La compatibilidad con el dispositivo de pago se implementa a través del conecto
 
 Para ayudar a garantizar que se pueden utilizar la mayor variedad posible de dispositivos con Microsoft Dynamics 365 for Retail, la norma OLE del sector de PDV es la plataforma principal de dispositivos periféricos para aplicaciones minoristas que admite Microsoft Dynamics 365 for Retail. La norma OLE para PDV la creó National Retail Federation (NRF), la cual establece los protocolos de comunicación estándares del sector para los dispositivos periféricos para aplicaciones de comercio minorista. OPDV es una implementación ampliamente adoptada de norma OLE para PDV. Se desarrolló a mitad de los años 90 y se ha actualizado varias veces desde entonces. OPDV proporciona una arquitectura de controlador de dispositivos que habilita la integración fácil de hardware de PDV con los sistemas de PDV basados en Windows. Los controles de OPDV gestionan la comunicación entre el hardware compatible y el software de PDV. El control de OPDV consta de dos partes:
 
-- **Objeto de control**: el objeto de control para una clase de dispositivo (como pantallas de línea) ofrece la interfaz para el programa de software. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) proporciona un conjunto normalizado de objetos de control de OPDV denominados Common Control Objects (CCO). Los CCO se usan para probar el componente de PDV de Microsoft Dynamics 365 for Retail. Por lo tanto, las pruebas ayudan a garantizar que, si Microsoft Dynamics 365 for Retail admite una clase de dispositivo con OPDV, muchos tipos de dispositivo pueden ser compatible, siempre que el proveedor proporcione un objeto de servicio que se genere para OPDV. No es necesario probar explícitamente cada tipo de dispositivo.
+- **Objeto de control**: el objeto de control para una clase de dispositivo (como pantallas de línea) ofrece la interfaz para el programa de software. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) proporciona un conjunto normalizado de objetos de control de OPDV denominados Common Control Objects (CCO). Los CCO se usan para probar el componente de PDV de Microsoft Dynamics 365 for Retail. Por lo tanto, las pruebas ayudan a garantizar que, si Microsoft Dynamics 365 for Retail admite una clase de dispositivo con OPDV, muchos tipos de dispositivo pueden ser compatibles, siempre que el proveedor proporcione un objeto de servicio que se genere para OPDV. No es necesario probar explícitamente cada tipo de dispositivo.
 - **Objeto de servicio**: el objeto de servicio proporciona comunicación entre el objeto de control (CCO) y el dispositivo. Por lo general, el objeto de servicio para un dispositivo lo proporciona el fabricante del dispositivo. Sin embargo, en algunos casos, es posible que tenga que descargar el objeto de servicio de la página web del fabricante. Por ejemplo, un objeto de servicio más reciente puede estar disponible. Para encontrar la dirección de la página web del fabricante, vea la documentación de hardware.
 
 [![Objeto de control y objeto de servicio](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png)
@@ -127,7 +126,7 @@ Para ayudar a garantizar que se pueden utilizar la mayor variedad posible de dis
 La compatibilidad para la implementación de OPDV de OLE para PDV ayuda a garantizar que, si los fabricantes de dispositivos y los editores de PDV implementan la norma correctamente, los sistemas de PDV y los dispositivos admitidos pueden trabajar conjuntamente, incluso si no se probaron antes conjuntamente.
 
 > [!NOTE]
-> La compatibilidad de OPDV no garantiza que se admitan todos los dispositivos que tienen controladores de OPDV. Microsoft Dynamics 365 for Retail debe primero admitir ese tipo de dispositivo o clase con OPDV. Además, los objetos de servicio no siempre pueden actualizarse con la última versión del CCO. También debe tener en cuenta que, en general, la calidad de los objetos del servicio varía.
+> La compatibilidad de OPDV no garantiza que se admitan todos los dispositivos que tienen controladores de OPDV. Microsoft Dynamics 365 for Retail debe primero admitir ese tipo de dispositivo, o clase, con OPDV. Además, los objetos de servicio no siempre pueden actualizarse con la última versión del CCO. También debe tener en cuenta que, en general, la calidad de los objetos del servicio varía.
 
 ### <a name="windows"></a>Windows
 
@@ -203,7 +202,7 @@ Para más información, vea [Instalación y configuración de la estación de ha
 
 ### <a name="modern-pos-for-windows-setup-and-configuration"></a>Establecimiento y configuración de Modern POS para Windows
 
-Para más información, vea [Instalación y configuración de Retail Modern POS](retail-modern-pos-device-activation.md).
+Para obtener información, consulte [Configuración e instalación de Retail Modern POS](retail-modern-pos-device-activation.md).
 
 ### <a name="opos-device-setup-and-configuration"></a>Establecimiento y configuración del dispositivo de OPDV
 
@@ -223,9 +222,9 @@ En la tabla siguiente se muestran las topologías y los escenarios de implementa
 | Cliente      | Estación de hardware de IPC | Estación de hardware de IIS |
 |-------------|----------------------|----------------------|
 | Aplicación de Windows | Sí                  | Sí                  |
-| PDV en la nube   | No                   | Sí                  |
-| Android     | No                   | Sí                  |
-| iOS         | No                   | Sí                  |
+| PDV en la nube   | Nº                   | Sí                  |
+| Android     | Nº                   | Sí                  |
+| iOS         | Nº                   | Sí                  |
 
 ### <a name="network-peripherals"></a>Periféricos de red
 
@@ -234,9 +233,9 @@ Los periféricos de red se admiten directamente a través de la estación de har
 | Cliente      | Estación de hardware de IPC | Estación de hardware de IIS |
 |-------------|----------------------|----------------------|
 | Aplicación de Windows | Sí                  | Sí                  |
-| PDV en la nube   | No                   | Sí                  |
-| Android     | No                   | Sí                  |
-| iOS         | No                   | Sí                  |
+| PDV en la nube   | Nº                   | Sí                  |
+| Android     | Nº                   | Sí                  |
+| iOS         | Nº                   | Sí                  |
 
 ## <a name="supported-device-types-by-hardware-station-type"></a>Tipos de dispositivo compatibles según el tipo de estación de hardware
 
@@ -296,7 +295,7 @@ Los periféricos de red se admiten directamente a través de la estación de har
 <ul>
 <li>OPDV</li>
 <li>Red
-<blockquote>[!NOTE] Solo se puede configurar una caja registradora si <strong>Uso de turno compartido</strong> se configura en la caja registradora.</blockquote>
+<blockquote>NOTA: Solo se puede configurar una caja registradora si <strong>Uso de turno compartido</strong> se configura en la caja registradora.</blockquote>
 </li>
 </ul>
 </td>
@@ -307,7 +306,7 @@ Los periféricos de red se admiten directamente a través de la estación de har
 <ul>
 <li>OPDV</li>
 <li>Red
-<blockquote>[!NOTE] Solo se puede configurar una caja registradora si <strong>Uso de turno compartido</strong> se configura en la caja registradora.</blockquote>
+<blockquote>NOTA: Solo se puede configurar una caja registradora si <strong>Uso de turno compartido</strong> se configura en la caja registradora.</blockquote>
 </li>
 </ul>
 </td>
@@ -375,7 +374,7 @@ Los periféricos de red se admiten directamente a través de la estación de har
 <ul>
 <li>OPDV</li>
 <li>Controlador de Windows
-<blockquote>[!NOTE] Para las impresoras de Windows en red, el usuario de la estación de hardware debe tener permiso para tener acceso a la impresora.</blockquote>
+<blockquote>NOTA: Para las impresoras de Windows en red, el usuario de la estación de hardware debe tener permiso para tener acceso a la impresora.</blockquote>
 </li>
 <li>Red</li>
 </ul>
@@ -405,7 +404,7 @@ Los periféricos de red se admiten directamente a través de la estación de har
 <ul>
 <li>OPDV</li>
 <li>Red
-<blockquote>[!NOTE] Solo se puede configurar una caja registradora por perfil de hardware si <strong>Uso de turno compartido</strong> se configura en la caja registradora.</blockquote>
+<blockquote>NOTA: Solo se puede configurar una caja registradora por perfil de hardware si <strong>Uso de turno compartido</strong> se configura en la caja registradora.</blockquote>
 </li>
 </ul>
 </td>
@@ -470,7 +469,7 @@ Los periféricos de red se admiten directamente a través de la estación de har
 <ul>
 <li>OPDV</li>
 <li>Controlador de Windows
-<blockquote>[!NOTE] Para las impresoras de Windows en red, el usuario de la estación de hardware debe tener permiso para tener acceso a la impresora.</blockquote>
+<blockquote>NOTA: Para las impresoras de Windows en red, el usuario de la estación de hardware debe tener permiso para tener acceso a la impresora.</blockquote>
 </li>
 <li>Red</li>
 </ul>
@@ -492,7 +491,7 @@ Los periféricos de red se admiten directamente a través de la estación de har
 <ul>
 <li>OPDV</li>
 <li>Red
-<blockquote>[!NOTE] Solo se puede configurar una caja registradora por perfil de hardware si <strong>Uso de turno compartido</strong> se configura en la caja registradora.</blockquote>
+<blockquote>NOTA: Solo se puede configurar una caja registradora por perfil de hardware si <strong>Uso de turno compartido</strong> se configura en la caja registradora.</blockquote>
 </li>
 </ul>
 </td>
@@ -523,7 +522,7 @@ Los periféricos de red se admiten directamente a través de la estación de har
 Para obtener más información sobre cómo crear perfiles de hardware, consulte [Definir y mantener clientes de canal, incluso los registros y las estaciones de hardware](define-maintain-channel-clients-registers-hw-stations.md).
 
 > [!NOTE]
-> Para Microsoft Dynamics 365 for Retail versión 1611, el perfil de la estación de hardware ya no se usa. Los atributos que configuró anteriormente en el perfil de la estación de hardware son ahora parte de la propia estación de hardware.
+> Para la versión 1611 de Microsoft Dynamics 365 for Retail , el perfil de la emisora de hardware ya no se usa. Los atributos que configuró anteriormente en el perfil de la estación de hardware son ahora parte de la propia estación de hardware.
 
 ### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>Modern POS para Windows con una estación de hardware de IPC (integrado)
 
@@ -564,7 +563,7 @@ Esta configuración se puede utilizar para todos los clientes de Modern POS que 
 5. Seleccione la programación de la distribución **1090** para sincronizar el nuevo perfil de hardware en la tienda. Haga clic **Ejecutar ahora** para sincronizar los cambios en el PDV.
 6. Seleccione la programación de la distribución **1040** para sincronizar la nueva estación de hardware en la tienda. Haga clic **Ejecutar ahora** para sincronizar los cambios en el PDV.
 7. Instale la estación de hardware. Para obtener más información sobre cómo instalar la estación de hardware, consulte [Configuración e instalación de la estación de hardware de Retail](retail-hardware-station-configuration-installation.md).
-8. Instalar y activar Modern POS. Para obtener más información sobre cómo instalar PDV, consulte [Configuración e instalación de Retail Modern POS](retail-modern-pos-device-activation.md).
+8. Instalar y activar Modern POS. Para obtener más información sobre cómo instalar PDV, consulte [Retail Modern POSConfiguración e instalación de ](retail-modern-pos-device-activation.md).
 9. Inicie sesión en Modern POS y seleccione **Realizar operaciones no relacionadas con la caja registradora**.
 10. Inicie la operación **Administrar estaciones de hardware**.
 11. Haga clic en **Administrar**.
@@ -593,7 +592,7 @@ Esta configuración se puede utilizar para todos los clientes de Modern POS que 
 6. Seleccione la programación de la distribución **1090** para sincronizar el nuevo perfil de hardware en la tienda. Haga clic **Ejecutar ahora** para sincronizar los cambios en el PDV.
 7. Seleccione la programación de la distribución **1040** para sincronizar la nueva estación de hardware en la tienda. Haga clic **Ejecutar ahora** para sincronizar los cambios en el PDV.
 8. Instale la estación de hardware en cada equipo del host que haya configurado en los pasos 2 y 3. Para obtener más información sobre cómo instalar la estación de hardware, consulte [Configuración e instalación de la estación de hardware de Retail](retail-hardware-station-configuration-installation.md).
-9. Instalar y activar Modern POS. Para obtener más información sobre cómo instalar PDV, consulte [Configuración e instalación de Retail Modern POS](retail-modern-pos-device-activation.md).
+9. Instalar y activar Modern POS. Para obtener más información sobre cómo instalar PDV, consulte [Retail Modern POSConfiguración e instalación de ](retail-modern-pos-device-activation.md).
 10. Inicie sesión en Modern POS y seleccione **Realizar operaciones no relacionadas con la caja registradora**.
 11. Inicie la operación **Administrar estaciones de hardware**.
 12. Haga clic en **Administrar**.
@@ -742,8 +741,7 @@ Los siguientes se periféricos se probaron mediante una estación de hardware II
 | Epson        | Tm-T88IV | OPDV      |                           |
 | Epson        | TM-T88V  | OPDV      |                           |
 | Star         | TSP650II | OPDV      |                           |
-| Star         | TSP650II | Personalizar    | Conectado a través de la red     |
-| Star         | TSP100   | OPDV      | Requiere controladores para TSP650II |
+| Star         | TSP650II | Personalizado    | Conectado a través de la red     |
 | HP           | F7M67AA  | OPDV      | Con tecnología USB               |
 
 #### <a name="bar-code-scanner"></a>Escáner de códigos de barras
@@ -817,8 +815,7 @@ Los siguientes se periféricos se probaron mediante una estación de hardware II
 | Epson        | Tm-T88IV | OPDV      |                           |
 | Epson        | TM-T88V  | OPDV      |                           |
 | Star         | TSP650II | OPDV      |                           |
-| Star         | TSP650II | Personalizar    | Conectado a través de la red     |
-| Star         | TSP100   | OPDV      | Requiere controladores para TSP650II |
+| Star         | TSP650II | Personalizado    | Conectado a través de la red     |
 | HP           | F7M67AA  | OPDV      | Con tecnología USB               |
 
 #### <a name="payment-terminal"></a>Terminal de pago 
@@ -894,4 +891,3 @@ Los siguientes se periféricos se probaron mediante una estación de hardware II
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Simulador periférico de Retail](dev-itpro/retail-peripheral-simulator.md)
-

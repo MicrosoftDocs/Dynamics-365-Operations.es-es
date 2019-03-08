@@ -1,38 +1,37 @@
 ---
-title: "Operaciones de punto de venta (PDV) en línea y sin conexión"
-description: "Este tema ofrece información sobre las operaciones de punto de venta (PDV) en Microsoft Dynamics 365 for Retail. Especifica en qué parte de la aplicación pueden invocarse las operaciones y si están disponibles en modo sin conexión."
+title: Operaciones de punto de venta (PDV) en línea y sin conexión
+description: Este tema ofrece información sobre las operaciones de punto de venta (PDV) en Microsoft Dynamics 365 for Retail. Especifica en qué parte de la aplicación pueden invocarse las operaciones y si están disponibles en modo sin conexión.
 author: jblucher
 manager: AnnBe
 ms.date: 10/12/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 9354e0dbf8bed9383a9dfcc383a2c9db57457dd0
-ms.contentlocale: es-es
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353825"
 ---
-
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Operaciones de punto de venta (PDV) en línea y sin conexión
 
 [!include [banner](includes/banner.md)]
 
-La mayoría de las acciones que el usuario realiza en el punto de venta (PDV) se consideran operaciones. Las operaciones se configuran y administran en la oficina administrativa de Microsoft Dynamics 365 for Retail. Se pueden agregar muchas operaciones a los botones de la cuadrícula de botones de PDV. Los usuarios pueden seleccionar los botones para invocar las operaciones y para realizar su función. Otras operaciones son parte de la aplicación principal de PDV, y se invocan desde los botones de pantalla o como parte de otros flujos de trabajo o procesos.
+La mayoría de las acciones que el usuario realiza en el punto de venta (PDV) se consideran operaciones. Las operaciones se configuran y administran en el back office de Microsoft Dynamics 365 for Retail . Se pueden agregar muchas operaciones a los botones de la cuadrícula de botones de PDV. Los usuarios pueden seleccionar los botones para invocar las operaciones y para realizar su función. Otras operaciones son parte de la aplicación principal de PDV, y se invocan desde los botones de pantalla o como parte de otros flujos de trabajo o procesos.
 
-En la tabla siguiente se proporcionan los detalles de las operaciones disponibles en Retail Modern POS y Cloud POS para Dynamics 365 for Retail. La tabla también especifica en qué parte de la aplicación pueden invocarse las operaciones y si están disponibles cuando el PDV está en modo sin conexión.
+En la tabla siguiente se proporcionan los detalles de las operaciones en Retail Modern POS y Cloud POS para Dynamics 365 for Retail. La tabla también especifica en qué parte de la aplicación pueden invocarse las operaciones y si están disponibles cuando el PDV está en modo sin conexión.
 
 Algunas operaciones no se encuentran disponibles en Retail Modern POS o Cloud POS para Dynamics 365 for Retail. Algunas de estas operaciones son operaciones específicas de la configuración regional que requieren extensiones y configuración adicionales. Otras son características de Microsoft Dynamics AX 2012 que no se admiten actualmente.
 
@@ -199,4 +198,3 @@ Las columnas siguientes especifican dónde pueden ser invocadas las operaciones:
 § Cuando el PDV está sin conexión, solo pueden recuperarse para devolución las transacciones de la base de datos sin conexión actual.
 
 \*\* Cuando el PDV está sin conexión, solo se muestran en el diario las transacciones de la base de datos de canales sin conexión actual.
-

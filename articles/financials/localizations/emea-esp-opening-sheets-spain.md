@@ -1,13 +1,13 @@
 ---
 title: Entradas especiales y hojas de apertura
-description: "Las entidades jurídicas de España pueden registrar entradas especiales como entradas de apertura para el período actual, mientras adaptan sus cuentas a los cambios de las reglas de contabilidad."
+description: Las entidades jurídicas de España pueden registrar entradas especiales como entradas de apertura para el período actual, mientras adaptan sus cuentas a los cambios de las reglas de contabilidad.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerOpeningSheet_ES
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Spain
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: e6062c5eb8d3882b8de24570996ed4d36c02ee37
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 07d09512ef612b41bf527b74496fa440f23851fc
-ms.openlocfilehash: 463d3f68223bf2f469ea86b0152c1a8a2cd070c4
-ms.contentlocale: es-es
-ms.lasthandoff: 02/14/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370422"
 ---
-
 # <a name="special-entries-and-opening-sheets"></a>Entradas especiales y hojas de apertura
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,6 @@ Para crear una nueva **Hoja de apertura**, haga clic en **Nueva** en la página 
 | **Registrar**           | Especifique la fecha de registro de los ajustes.                                                                                                                                                                                                                                                     |
 
 Tras especificar información general sobre la hoja de apertura, deberá especificar las cuentas principales que se incluirán en la hoja de apertura. Para ello, haga clic en **Cuentas de apertura** &gt; **Cargar saldos** en la página **Hojas de apertura**. Haga clic en **Registrar** para registrar todos los saldos de cuentas contables en la hoja de apertura.
-
 
 
 

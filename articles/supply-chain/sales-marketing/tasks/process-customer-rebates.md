@@ -1,13 +1,13 @@
---- 
+---
 title: Generar y procesar devoluciones de cliente
-description: "Este procedimiento muestra cómo procesar devoluciones de cliente desde que se genera la reclamación hasta pasarlas como acumulaciones a Clientes."
+description: Este procedimiento muestra cómo procesar devoluciones de cliente desde que se genera la reclamación hasta pasarlas como acumulaciones a Clientes.
 author: omulvad
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PdsRebateAgreement, SalesTableListPage, SalesCreateOrder, SalesTable, MCRPriceHistory, SalesEditLines,  PdsRebateTableListPage
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5afe2fa73e218aa9eb21aff866baa509860a83cb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 348793abc6d219f38bcdc2629b77343d93927005
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336460"
 ---
 # <a name="generate-and-process-customer-rebates"></a>Generar y procesar devoluciones de cliente
 
@@ -83,5 +83,4 @@ Este procedimiento muestra cómo procesar devoluciones de cliente desde que se g
 9. En el campo Cliente, especifique o seleccione un valor.
 10. Haga clic en Aceptar
     * Un mensaje muestra que la devolución se ha procesado correctamente, y el estado de las reclamaciones ha cambiado a Marcar. Esto significa que, como resultado de registrar un diario de acumulación de devoluciones: a) las reclamaciones ahora se han transferido a los saldos temporales del cliente como deducciones; b) se ha abonado la cuenta de acumulación de devoluciones para representar el pasivo futuro con respecto al cliente; y c) se ha adeudado la cuenta de gastos de devoluciones, como reconocimiento del coste en relación con las ventas.   
-
 

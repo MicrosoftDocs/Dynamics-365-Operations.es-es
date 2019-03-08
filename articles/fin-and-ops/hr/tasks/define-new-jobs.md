@@ -1,13 +1,13 @@
---- 
+---
 title: Definir nuevos trabajos
-description: "Esta tarea se centra en la creación de un nuevo trabajo."
+description: Esta tarea se centra en la creación de un nuevo trabajo.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmJob
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: abb85b1e8d9bc7386bf2d2f059b78faff9933f5c
-ms.contentlocale: es-es
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347937"
 ---
 # <a name="define-new-jobs"></a>Definir nuevos trabajos
 
@@ -57,7 +57,7 @@ Esta tarea se centra en la creación de un nuevo trabajo. Se completará con ent
 21. En la lista, busque y seleccione el registro deseado.
 22. En la lista, haga clic en el vínculo de la fila seleccionada.
 23. Alterne la expansión de la sección Aptitudes.
-    * Observe que los campos de las fichas desplegables Aptitudes, Formación y Certificados están en blanco. Después de copiar la información de una plantilla de trabajo, la información de estos campos se especificará en un único paso.   
+    * Observe que los campos de las fichas desplegables Aptitudes, Formación y Certificados están en blanco. Después de copiar la información de una plantilla de trabajo, la información de estos campos se especificará en un único paso.   
 24. Haga clic en Guardar.
 25. Haga clic en Copiar desde.
 26. Haga clic en Copiar desde plantilla.
@@ -70,5 +70,4 @@ Esta tarea se centra en la creación de un nuevo trabajo. Se completará con ent
 32. Alterne la expansión de la sección Certificados.
 33. Alterne la expansión de la sección Formación.
 34. Haga clic en Guardar.
-
 

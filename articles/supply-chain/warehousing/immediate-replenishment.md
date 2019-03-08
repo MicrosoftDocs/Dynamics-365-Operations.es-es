@@ -1,13 +1,13 @@
 ---
 title: Reabastecimiento inmediato
-description: "Este tema describe cómo puede usar el reabastecimiento inmediato para reabastecer el inventario cuando una directiva de la ubicación no puede asignar el inventario."
+description: Este tema describe cómo puede usar el reabastecimiento inmediato para reabastecer el inventario cuando una directiva de la ubicación no puede asignar el inventario.
 author: Mirzaab
 manager: AnnBe
 ms.date: 03/15/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSLocDirTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
+ms.openlocfilehash: ab1f06951d5daceaf002b2cc23236dd818457985
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a11a26df85647aa36cd30c42f81be4ec2af4409b
-ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348604"
 ---
-
 # <a name="immediate-replenishment"></a>Reabastecimiento inmediato
 
 [!include [banner](../includes/banner.md)]
@@ -58,4 +57,3 @@ Si el reabastecimiento inmediato está activado para una línea directiva de la 
 
 - Asegúrese de que la plantilla de reabastecimiento de la demanda que se aplica esté configurada para usar plantillas correctas de la ubicación y plantillas de trabajo del tipo **reabastecimiento**.
 - Asegúrese de que haya suficiente inventario disponible en las ubicaciones en las que la plantilla de reabastecimiento de la demanda busca inventario disponible para reabastecimiento.
-

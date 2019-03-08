@@ -1,13 +1,13 @@
 ---
-title: "Pedidos de cliente híbridos"
-description: "Un pedido híbrido de cliente es pedido único que contiene al mismo tiempo productos que el cliente puede llevarse y otros que pueden recogerse o enviarse después."
+title: Pedidos de cliente híbridos
+description: Un pedido híbrido de cliente es pedido único que contiene al mismo tiempo productos que el cliente puede llevarse y otros que pueden recogerse o enviarse después.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -18,14 +18,13 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: a00e69a589ffe744f88edb6a8b3709c4029fc1ec
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 88d12641fa05953f7082158303237b7ba40c3fe2
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364336"
 ---
-
 # <a name="hybrid-customer-orders"></a>Pedidos de cliente híbridos
 
 [!include [banner](includes/banner.md)]
@@ -42,4 +41,3 @@ Si hay una línea del carro definida como **Recoger selección**, **Enviar selec
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Visión general de pedidos de cliente](customer-orders-overview.md)
-

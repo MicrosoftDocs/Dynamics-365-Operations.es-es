@@ -1,32 +1,31 @@
 ---
-title: "Requisitos previos de los costes estándar"
-description: "Este tema describe los pasos básicos para el uso de costes estándar."
+title: Requisitos previos de los costes estándar
+description: Este tema describe los pasos básicos para el uso de costes estándar.
 author: AndersGirke
 manager: AnnBe
 ms.date: 01/17/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventStdCostConv, CostingVersion
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: d5a4a4e49ef1cee923011ddab24497c65f85c1e3
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359092"
 ---
-
 # <a name="prerequisites-for-standard-costs"></a>Requisitos previos de los costes estándar
 
 [!include [banner](../includes/banner.md)]
@@ -79,6 +78,5 @@ Los clientes que deseen modificar sus artículos existentes a un modelo de inven
 
 #### <a name="community-blogs"></a>Blogs de la comunidad
 
-- [Cómo configurar los costes estándar para materiales directos en Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/06/07/how-to-set-up-standard-costs-for-direct-materials-in-dynamics-365-for-finance-and-operations)
-- [Costes de mano de obra directos estándar en Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/07/16/standard-direct-labor-cost-in-dynamics-365-for-finance-and-operations)
-
+- [Cómo configurar los costes estándar de materiales directos en Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/06/07/how-to-set-up-standard-costs-for-direct-materials-in-dynamics-365-for-finance-and-operations)
+- [Costes laborales directos estándar en Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/07/16/standard-direct-labor-cost-in-dynamics-365-for-finance-and-operations)

@@ -1,13 +1,13 @@
---- 
-title: "Completar la configuración básica de un producto maestro liberado"
-description: "Este procedimiento muestra cómo completar la configuración mínima requerida para poder usar el producto maestro en versiones de L. MAT."
+---
+title: Completar la configuración básica de un producto maestro liberado
+description: Este procedimiento muestra cómo completar la configuración mínima requerida para poder usar el producto maestro en versiones de L. MAT.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, InventTableInventoryDimensionGroups, InventItemOrderSetup
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 0d3a91977c38c0ce0f9fe114bec943c7cb32a5d4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 35617f5bec877fbe8a89d015eda16a66ee14d335
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354791"
 ---
 # <a name="complete-basic-setup-of-a-released-product-master"></a>Completar la configuración básica de un producto maestro liberado
 
@@ -63,5 +63,4 @@ Este es el tercer procedimiento de ocho que explica cómo crear combinaciones pa
     * Seleccione Producción para especificar que la opción de suministro predeterminado para este producto maestro sea producirlo.  
 24. Cierre la página.
 25. Cierre el formulario Detalles de producto emitido.
-
 

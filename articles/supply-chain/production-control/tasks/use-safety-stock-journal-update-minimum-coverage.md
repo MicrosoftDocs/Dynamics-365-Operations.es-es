@@ -1,13 +1,13 @@
---- 
-title: "Usar el diario de existencias de seguridad para actualizar la cobertura mínima"
-description: "Este procedimiento muestra cómo calcular las propuestas de cobertura mínima basadas en transacciones históricas y, a continuación, actualizar la cobertura del artículo con las propuestas."
+---
+title: Usar el diario de existencias de seguridad para actualizar la cobertura mínima
+description: Este procedimiento muestra cómo calcular las propuestas de cobertura mínima basadas en transacciones históricas y, a continuación, actualizar la cobertura del artículo con las propuestas.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqItemJournalName, ReqItemJournalSafetyStock, EcoResProductInformationDialog, EcoResProductDetailsExtended, ReqItemTable
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 7a6e217d476cedc0318c382e12b7dc2036e557c3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d278b20724006ec3b3aa557738e8b130ca2bba15
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341106"
 ---
 # <a name="use-the-safety-stock-journal-to-update-minimum-coverage"></a>Usar el diario de existencias de seguridad para actualizar la cobertura mínima
 
@@ -75,5 +75,4 @@ Este procedimiento muestra cómo calcular las propuestas de cobertura mínima ba
 5. En el panel de acciones, haga clic en Plan.
 6. Haga clic en Cobertura de artículos.
     * Observe que se ha actualizado la Cantidad mínima con la nueva cantidad mínima del diario de existencias de seguridad.  
-
 

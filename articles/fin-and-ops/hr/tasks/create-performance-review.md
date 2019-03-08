@@ -1,13 +1,13 @@
---- 
-title: "Crear una evaluación del rendimiento"
-description: "Este procedimiento muestra cómo crear una revisión de rendimiento y describe el propósito de cada sección de la revisión."
+---
+title: Crear una evaluación del rendimiento
+description: Este procedimiento muestra cómo crear una revisión de rendimiento y describe el propósito de cada sección de la revisión.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, EssWorkspace, HcmDiscussionNewDialog, HcmDiscussion, HcmDiscussionChangeSettings, HcmDiscussionAddGoalDialog, HcmTopicCreate, HcmMeasurementDetailDialog, HcmPerfJournalAdd
 audience: Application User
 ms.reviewer: rschloma
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: abd59b96a2e5dceb2492c2db2c617485b332fbd3
 ms.openlocfilehash: 437a63159f0333434175acce081fa4ff417c334b
-ms.contentlocale: es-es
-ms.lasthandoff: 09/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338484"
 ---
 # <a name="create-a-performance-review"></a>Crear una evaluación del rendimiento
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimiento muestra cómo crear una revisión de rendimiento y describe el propósito de cada sección de la revisión. Este procedimiento se creó con los datos de demostración de la empresa USMF. Este procedimiento es para una función que se ha añadido en la versión 1611 de Dynamics 365 for Operations.
+Este procedimiento muestra cómo crear una revisión de rendimiento y describe el propósito de cada sección de la revisión. Este procedimiento se creó con los datos de demostración de la empresa USMF. Este procedimiento es para una función que se ha agregado en la versión 1611 de Dynamics 365 for Operations.
 
 1. Haga clic en Autoservicio para empleados.
 2. Haga clic en Nueva revisión para crear una revisión nueva.
@@ -79,5 +79,4 @@ Este procedimiento muestra cómo crear una revisión de rendimiento y describe e
     * A medida que revisión pasa por los estados, el empleado y el responsable pueden agregar comentarios para cada objetivo o competencia.  
 42. Haga clic en la ficha Aprobaciones.
     * El trabajador y el responsable podrán aprobar la revisión. Una vez efectuadas todas las aprobaciones necesarias, el estado cambiará a Completada y no podrán hacerse más cambios.  
-
 

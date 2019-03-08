@@ -1,13 +1,13 @@
 ---
-title: "Espacios de trabajo móviles disponibles"
-description: "Este tema muestra los espacios de trabajo móviles disponibles para administradores el uso."
+title: Espacios de trabajo móviles disponibles
+description: Este tema muestra los espacios de trabajo móviles disponibles para administradores el uso.
 author: sericks007
 manager: AnnBe
 ms.date: 08/07/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 75f7df4ca3b675d720eb46395118529d09f2f9d4
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354975"
 ---
-
 # <a name="available-mobile-workspaces"></a>Espacios de trabajo móviles disponibles
 
 [!include [banner](../includes/banner.md)]
@@ -30,7 +29,7 @@ ms.lasthandoff: 08/09/2018
 Este tema indica los espacios de trabajo móviles que se están disponibles para usarse con la aplicación móvil de Dynamics 365 for Unified Operations.
 
 > [!NOTE]
-> La aplicación móvil anteriormente se denominó *Microsoft Dynamics 365 for Finance and Operations*.
+> La aplicación móvil anteriormente se llamaba *Microsoft Dynamics 365 for Finance and Operations*.
 
 | Espacio de trabajo móvil     | Descripción   | Disponibilidad   |
 |----------------------|---------------|--------------|
@@ -44,5 +43,4 @@ Este tema indica los espacios de trabajo móviles que se están disponibles para
 | [Inventario disponible](../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md)    | Obtener información de inventario reservado y disponible.                                                                                                    |   2017 de enero       |
 | [Pedidos de ventas](../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md)         | Puede permanecer informado sobre los pedidos de ventas.                                                                                                                          |  2017 de enero                  |
 | [Colaboración de proveedor](../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md) | Los proveedores pueden estar informados sobre los pedidos de compra que les han enviado para su aprobación. También pueden ver la información sobre los pedidos y contactos nuevos y actualizados. |2017 de enero    |
-
 

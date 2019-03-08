@@ -1,13 +1,13 @@
 ---
 title: Definiciones de columna en los informes financieros
-description: "Este artículo proporciona información acerca de las definiciones de columnas. Una definición de columna es un componente de informe, o bloque de creación, que define el contenido de las columnas de un informe. Como definiciones de filas, las definiciones de columna básicas se pueden usar en varios informes."
+description: Este artículo proporciona información acerca de las definiciones de columnas. Una definición de columna es un componente de informe, o bloque de creación, que define el contenido de las columnas de un informe. Como definiciones de filas, las definiciones de columna básicas se pueden usar en varios informes.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: e92d50828f6511329401b43154895da1244788cd
-ms.contentlocale: es-es
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356355"
 ---
-
 # <a name="column-definitions-in-financial-reports"></a>Definiciones de columna en los informes financieros
 
 [!include [banner](../includes/banner.md)]
@@ -121,11 +120,11 @@ En la tabla siguiente se describen los códigos de restricción de la columna.
 | ADJ                     | Restringir los importes en la columna a los importes de ajuste del período, si estos importes están disponibles. |
 | XAD                     | Restringir los importes en la columna para que los importes de ajuste del período se excluyan. |
 | TP                      | Restringir los importes en la columna, de manera que solo las transacciones registradas se incluyen, si estas transacciones están disponibles. |
-| UPT                     | Restringir los importes en la columna, de manera que solo las transacciones no registradas se incluyen, si estas transacciones están disponibles.<blockquote>[!NOTE] No todos los proveedores de datos admiten transacciones sin registrar. Para obtener más información, consulte <a href='http://go.microsoft.com/fwlink/?LinkID=162565'>guía de la integración de datos</a> para su sistema de Microsoft Dynamics ERP.</blockquote> |
+| UPT                     | Restringir los importes en la columna, de manera que solo las transacciones no registradas se incluyen, si estas transacciones están disponibles.<blockquote>[!NOTE] No todos los proveedores de datos admiten transacciones sin registrar. Para más información, consulte la <a href='http://go.microsoft.com/fwlink/?LinkID=162565'>guía de integración de datos</a> para el sistema Microsoft Dynamics ERP.</blockquote> |
 
 ### <a name="restrict-a-column-to-a-reporting-unit"></a>Restringir una columna a una unidad de notificación
 
-1. En el diseñador de informes, abra la definición de la columna para modificarla.
+1. En el Diseñador de informes, abra la definición de columna que desee modificar.
 2. Haga doble clic en la celda **Unidad de notificación** para la columna que se va a restringir.
 3. En el cuadro de diálogo **Selección de la unidad de notificación**, en la lista **Organigrama**, seleccione un organigrama.
 4. Expanda o contraiga la lista de unidades, seleccione una unidad de notificación, y haga clic en **Aceptar**.
@@ -171,7 +170,7 @@ Puede usar la caja de diálogo **Encabezado de columna** para agregar, modificar
 
 ### <a name="create-an-automatically-generated-header"></a>Crear un encabezado generado automáticamente
 
-El diseñador de informes puede generar automáticamente encabezados de columna, en función de códigos de autotexto. Los códigos de Autotexto son variables que se actualizan cada vez que un informe se genera. Cualquier encabezado de columna puede incluir estos códigos para especificar la información de informe que puede variar, como fechas o números de período. Por lo tanto, puede usar una definición de columna para las definiciones de varios informes, períodos de tiempo y organigramas. Dado que los códigos de autotexto confían en la información del calendario de las filas de detalle de la definición de la columna, se admiten solo para las columnas **CALC** **FD** y **WKS**. La forma en que un código de autotexto aparece en la celda de encabezado de columna afecta a cómo dicha información aparece en el informe. En el cuadro de diálogo **Encabezado de columna**, los códigos de autotexto aparecen en mayúscula y minúscula. Por lo tanto, el texto aparece en mayúsculas y minúsculas en el informe. Por ejemplo, en un año natural estándar, **@CalMonthLong** resuelve el mes **7** en **julio**. Si el nombre del mes está en mayúscula (por ejemplo **JULIO**), escriba el código de autotexto en caracteres en mayúscula en el campo **Texto del encabezado de columna**. Por ejemplo, escriba **@CALMONTHLONG**. Puede mezclar códigos y el texto. Por ejemplo, puede especificar el texto de encabezado siguiente: **Período @FiscalPeriod-@FiscalYear del @StartDate al @EndDate**. El encabezado del informe que se genera se asemeja al texto siguiente: **Período 1-02 desde 01/01/02 a 01/31/02**.
+El diseñador de informes puede generar automáticamente encabezados de columna, en función de códigos de autotexto. Los códigos de Autotexto son variables que se actualizan cada vez que un informe se genera. Cualquier encabezado de columna puede incluir estos códigos para especificar la información de informe que puede variar, como fechas o números de período. Por lo tanto, puede usar una definición de columna para las definiciones de varios informes, períodos de tiempo y organigramas. Dado que los códigos de autotexto confían en la información del calendario de las filas de detalle de la definición de la columna, se admiten solo para las columnas **CALC** **FD** y **WKS**. La forma en que un código de autotexto aparece en la celda de encabezado de columna afecta a cómo dicha información aparece en el informe. En el cuadro de diálogo **Encabezado de columna**, los códigos de autotexto aparecen en mayúscula y minúscula. Por lo tanto, el texto aparece en mayúsculas y minúsculas en el informe. Por ejemplo, en un año natural estándar, **@CalMonthLong** resuelve el mes **7** en **Julio**. Si el nombre del mes debe aparecer en mayúsculas (por ejemplo, **JULIO**), introduzca el código de autotexto en mayúsculas en el campo **Encabezado de columna**. Por ejemplo, introduzca **@CALMONTHLONG**. Puede mezclar códigos y el texto. Por ejemplo, puede especificar el siguiente texto de encabezado: **Period @FiscalPeriod-@FiscalYear from @StartDate to @EndDate**. El encabezado del informe que se genera se asemeja al texto siguiente: **Período 1-02 desde 01/01/02 a 01/31/02**.
 
 > [!NOTE]
 > El formato de parte del texto, como la fecha larga, depende de la configuración regional en el servidor de Finance and Operations. Para cambiar estos ajustes, haga clic en el botón **Iniciar**, haga clic en **Panel de control** y luego en **Región y idioma**. En la tabla siguiente se enumeran las opciones disponibles de autotexto para encabezados de columna.
@@ -184,8 +183,8 @@ El diseñador de informes puede generar automáticamente encabezados de columna,
 | Número de período (@FiscalPeriod)           | Imprimir el formulario numérico del período fiscal que se identifica para dicha columna. Si la columna abarca varios períodos, el último período del intervalo es el que se imprime. |
 | Descripción del período (@FiscalPeriodName)  | Imprima la descripción del período fiscal que se identifica en los datos financieros. |
 | Ejercicio (@FiscalYear)               | Imprimir el ejercicio para la columna en forma numérica. |
-| Año natural (@CalYear)                | Imprimir el calendario para la columna en forma numérica. |
-| Fecha inicial (@StartDate)                 | Imprimir la fecha inicial para la columna. |
+| Año de calendario (@CalYear)                | Imprimir el calendario para la columna en forma numérica. |
+| Fecha de inicio (@StartDate)                 | Imprimir la fecha inicial para la columna. |
 | Fecha final (@EndDate)                     | Imprimir la fecha final para la columna. |
 | Nombre de la unidad de organigrama (@UnitName)         | Si se restringe una columna a una unidad concreta del organigrama, imprima el nombre de la unidad en el encabezado de columna. |
 | Descripción de la unidad (@UnitDesc)            | Si se restringe una columna a una unidad concreta del organigrama, imprima la descripción de la unidad en el encabezado de columna. |
@@ -472,7 +471,7 @@ La celda **Períodos cubiertos** identifica lo importe que la columna debe mostr
 
 ### <a name="attribute-filter-in-a-column-definition"></a>El filtro del atributo en una definición de la columna
 
-Los atributos son valores de los datos que definen más aún una cuenta o una transacción. Los atributos de la cuenta incluyen **Activo**, **Pasivo**, **Ingresos** y **Gastos**. Los atributos de transacción incluyen **Descripción de la transacción** y **Fecha de aplicación de la transacción**. La compatibilidad del atributo puede diferir entre los sistemas ERP de Microsoft Dynamics AX. La celda **Filtro del atributo** restringe los datos en las columnas **FD** a los valores o a los intervalos específicos para las categorías del atributo. Aunque esta característica se pueda usar junto con la columna **ATTR**, la columna **ATTR** no se requiere. En la columna **FD**, hay un límite en las cuentas o las transacciones que el informe incluirá del filtro del atributo.
+Los atributos son valores de los datos que definen más aún una cuenta o una transacción. Los atributos de la cuenta incluyen **Activo**, **Pasivo**, **Ingresos** y **Gastos**. Los atributos de transacción incluyen **Descripción de la transacción** y **Fecha de aplicación de la transacción**. La compatibilidad del atributo puede diferir entre los sistemas Microsoft Dynamics ERP. La celda **Filtro del atributo** restringe los datos en las columnas **FD** a los valores o a los intervalos específicos para las categorías del atributo. Aunque esta característica se pueda usar junto con la columna **ATTR**, la columna **ATTR** no se requiere. En la columna **FD**, hay un límite en las cuentas o las transacciones que el informe incluirá del filtro del atributo.
 
 > [!NOTE]
 > Para ver qué atributos admite el sistema EPR, consulte la guía de integración correspondiente.
@@ -612,4 +611,3 @@ Puede dividir el importe en una columna por un número de períodos específico.
 [Definiciones de filas en informes financieros](row-definitions-financial-reporting.md)
 
 [Opciones de formato avanzadas en informes financieros](advanced-formatting-options-financial-reporting.md)
-

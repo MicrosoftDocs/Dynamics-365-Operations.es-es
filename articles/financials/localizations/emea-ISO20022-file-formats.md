@@ -1,13 +1,13 @@
 ---
-title: "Importación de archivos ISO20022"
-description: "Este tema explica cómo importar archivos de pago de formatos camt.054 y pain.002 ISO 20022 a Microsoft Dynamics 365 for Finance and Operations."
+title: Importación de archivos ISO20022
+description: Este tema explica cómo importar archivos de pago de los formatos ISO 20022 camt.054 y pain.002 en Microsoft Dynamics 365 for Finance and Operations.
 author: neserovleo
 manager: AnnBe
 ms.date: 07/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustPaymMode, CustBankAccounts, VendPaymMode, VendBankAccounts
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-lenest
 ms.search.validFrom: 2017-06-01
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: d91e937c62d4d498e67d753e39676514835f4161
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: f55e8fbc4d13f84686298cb8dbcebb4baf134cf3
-ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370424"
 ---
-
 # <a name="import-iso20022-files"></a>Importar archivos ISO20022
 
 [!include [banner](../includes/banner.md)]
@@ -36,7 +35,7 @@ Puede importar archivos de pago que tienen los siguientes formatos:
 ## <a name="prerequisites-for-importing-the-camt054-credit-advice-file"></a>Requisitos previos para importar el archivo de aviso de crédito camt.054
 Debe completar los requisitos previos siguientes para importar mensajes de notificación del banco en el formato camt.054.001.002 al diario de pagos de cliente.
 
-1. Importe la configuración de informes electrónicos (ER) **ISO20022 camt.054** de Microsoft Dynamics Lifecycle Services (LCS). A continuación, en la página **Método de pago del cliente**, en el campo **Configuración de formato de importación**, seleccione esa configuración. Para obtener más información, consulte [Formatos de archivo para métodos de pago](emea-select-file-formats-for-the-method-of-payments.md).
+1. Importe la configuración de **Informes electrónicos (ER) ISO20022 camt.054** de Microsoft Dynamics Lifecycle Services (LCS). A continuación, en la página **Método de pago del cliente**, en el campo **Configuración de formato de importación**, seleccione esa configuración. Para obtener más información, consulte [Formatos de archivo para métodos de pago](emea-select-file-formats-for-the-method-of-payments.md).
 2. En la página **Todos los clientes**,escriba un nombre y un número de organización para cada cliente.
 3. En la página **Cuenta bancaria de cliente**, configure un registro de cuenta bancaria del cliente especificando la siguiente información: IBAN o número de cuenta bancaria, y código SWIFT o número de ruta.
 4. En la página **Cuentas bancarias**, configure cuentas bancarias de entidades jurídicas especificando la siguiente información: IBAN o número de cuenta bancaria, y código SWIFT o número de ruta, divisa y dirección.
@@ -130,4 +129,3 @@ Para obtener más información acerca de las informes electrónicos, consulte [I
 - [Configuración forma de pago para transferencias de crédito ISO20022](./tasks/set-up-method-payment-iso20022-credit-transfer.md)
 - [Configuración de la forma de pago para domiciliaciones bancarias ISO20022](./tasks/setup-method-payment-iso20022-direct-debit.md)
 - [Configurar proveedores y cuentas bancarias de los proveedores para las transferencias de crédito ISO20022](./tasks/set-up-vendor-iso20022-credit-transfers.md)
-

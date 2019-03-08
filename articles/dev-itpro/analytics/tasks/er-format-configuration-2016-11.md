@@ -1,13 +1,13 @@
---- 
-title: "ER Crear una configuración de formato (noviembre de 2016)"
-description: "En los pasos siguientes se explica cómo un usuario con rol de administrador del sistema o de desarrollador de informes electrónicos puede crear una configuración de formato para realizar informes electrónicos."
+---
+title: ER Crear una configuración de formato (noviembre de 2016)
+description: En los pasos siguientes se explica cómo un usuario con rol de administrador del sistema o de desarrollador de informes electrónicos puede crear una configuración de formato para realizar informes electrónicos.
 author: NickSelin
 manager: AnnBe
 ms.date: 11/27/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 582e1a2baee805fe6770465edc7958954f638f1c
+ms.sourcegitcommit: 29e19b6d91e5761178627ef2051f3385f5d7cfe5
 ms.translationtype: HT
-ms.sourcegitcommit: 13469aad7fdcefb3a1706eec0527f29968e007eb
-ms.openlocfilehash: 10511fe5b936135471b522fc7152a54686a3be87
-ms.contentlocale: es-es
-ms.lasthandoff: 12/18/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "377558"
 ---
 # <a name="er-create-a-format-configuration-november-2016"></a>ER Crear una configuración de formato (noviembre de 2016)
 
@@ -35,8 +35,10 @@ En los pasos siguientes se explica cómo un usuario con rol de administrador del
 2. Haga clic en **Configuraciones de informes**.
 3. En el árbol, seleccione **Pagos (modelo simplificado)**.
 4. Haga clic en **Crear configuración** para abrir el cuadro de diálogo desplegable.
+
  > [!NOTE]
  > Si no ve **Crear configuración**, deberá habilitar el modo de diseño en la página **Parámetros de informes electrónicos**. 
+ 
 5. En el campo **Nuevo**, especifique **Formato basado en modelo de datos PaymentModel**.
 6. En el campo **Nombre**, escriba **BACS (ficticio Reino Unido)**.
 7. En el campo **Descripción**, escriba **Formato de pago de proveedor BACS (ficticio Reino Unido)**.
@@ -44,9 +46,6 @@ En los pasos siguientes se explica cómo un usuario con rol de administrador del
     * Se puede definir un formato concreto de documento electrónico. Deje este campo en blanco si desea seleccionar un formato en el tiempo de ejecución.  
 8. En el campo **definición del modelo de Datos**, introduzca o seleccione un valor.
 9. Haga clic en **Crear configuración**. Se ha creado una nueva configuración. La versión de borrador se puede usar para almacenar el formato de diseño para gestionar documentos electrónicos.  
- > [!NOTE]
- > Si no ve **Crear configuración**, deberá habilitar el modo de diseño en la página **Parámetros de informes electrónicos**.
-
 
 ## <a name="design-the-format-of-an-electronic-document"></a>Diseño del formato de un documento electrónico
 1. Haga clic en **Diseñador**.
@@ -159,5 +158,4 @@ En los pasos siguientes se explica cómo un usuario con rol de administrador del
 41. Haga clic en **Aceptar**.
 42. Haga clic en **Guardar**.
 43. Cierre la página.
-
 

@@ -1,13 +1,13 @@
 ---
 title: Visibilidad sobre excepciones de material
-description: "Este tema describe cómo puede obtener una mejor visibilidad en las excepciones para las materias primas para los pedidos de producción y los pedidos por lote."
+description: Este tema describe cómo puede obtener una mejor visibilidad en las excepciones para las materias primas para los pedidos de producción y los pedidos por lote.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgShopSupervisorWorkspace
 audience: Application User
 ms.reviewer: josaw
@@ -16,13 +16,13 @@ ms.custom: 1705903
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: c7a5cc4f6c6f430a2ceb9125edb3916fe7b71ab8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: eca3141fc48aea24411524e5fc84686d9e4bfaa7
-ms.contentlocale: es-es
-ms.lasthandoff: 03/08/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344763"
 ---
 # <a name="visibility-into-material-exceptions"></a>Visibilidad sobre excepciones de material
 
@@ -67,4 +67,3 @@ Cuando se selecciona el mosaico, se abre la página **Todas las oleadas de la pr
 El mosaico **Trabajo de almacén abierto que necesiten asistencia** muestra el número de LM y las líneas de fórmula que se han liberado al almacén, que tienen oleadas sin procesar y que tienen una fecha de la materia prima que es anterior o igual a la fecha del espacio de trabajo. Las líneas también se deben consumir por un recurso de operaciones que aplique al filtro del espacio de trabajo.
 
 Cuando se selecciona el mosaico, se abre la página **Todos los trabajos**. Esta página se filtra en función del número de encabezados de trabajo abiertos que contengan las líneas de la LM liberada y las líneas de fórmula que cumplan los criterios para el mosaico. En la página **Todos los trabajos**, puede procesar manualmente el trabajo.
-

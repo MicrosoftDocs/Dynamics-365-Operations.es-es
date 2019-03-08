@@ -1,13 +1,13 @@
 ---
-title: "Integración de activos fijos"
-description: "Los activos fijos se pueden integrar con el Libro mayor, la Gestión de inventario, los Clientes y los Proveedores. También es posible configurar los activos fijos para que se integren con los pedidos de compra."
+title: Integración de activos fijos
+description: Los activos fijos se pueden integrar con el Libro mayor, la Gestión de inventario, los Clientes y los Proveedores. También es posible configurar los activos fijos para que se integren con los pedidos de compra.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: af5d33de3af05668bc9aedc94894b12d16daf78e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a598a562b35a8bb1e0ede6bb8f3dc0515c162a06
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336989"
 ---
-
 # <a name="fixed-assets-integration"></a>Integración de activos fijos
 
 [!include [banner](../includes/banner.md)]
@@ -93,7 +92,6 @@ Para eliminar una asociación entre un proyecto y un activo, anule el campo **N�
 También puede designar un activo fijo que va a crear o fabricar como parte de un proyecto estimado. Al final de un proyecto estimado, puede registrar automáticamente una transacción de adquisición de activos fijos.
 
 Para obtener más información, consulte [Adquisición de activos mediante compra](acquire-assets-procurement.md)
-
 
 
 

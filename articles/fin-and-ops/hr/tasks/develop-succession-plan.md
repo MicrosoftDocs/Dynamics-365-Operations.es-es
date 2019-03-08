@@ -1,13 +1,13 @@
---- 
-title: "Desarrollar plan de sucesión"
-description: "A medida que crece la organización y se considera la planificación de recursos, puede que desee buscar alguien que tenga aptitudes similares a las de otra persona."
+---
+title: Desarrollar plan de sucesión
+description: A medida que crece la organización y se considera la planificación de recursos, puede que desee buscar alguien que tenga aptitudes similares a las de otra persona.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmSkillMapping
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 63999252fa00ba474d1e40f696029973f746ba2c
-ms.contentlocale: es-es
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339197"
 ---
 # <a name="develop-succession-plan"></a>Desarrollar plan de sucesión
 
@@ -59,5 +59,4 @@ A medida que crece la organización y se considera la planificación de recursos
 27. Haga clic en Resultado.
 28. Haga clic en Informe.
     * El informe enumerará las mejores coincidencias en la parte superior del informe.  Puede ver que hay un hueco en los elementos enumerados.  Esta es la diferencia entre el nivel que se muestra en la distribución de perfiles y el nivel de la aptitud que está asignado a la persona.  
-
 

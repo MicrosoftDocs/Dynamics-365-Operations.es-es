@@ -1,37 +1,36 @@
 ---
-title: "Sincronización de pedidos de ventas directamente entre Sales y Finance and Operations"
-description: En este tema se describen las plantillas y las tareas subyacentes que se usan para ejecutar sincronizaciones de pedidos de ventas directamente entre Microsoft Dynamics 365 for Sales y Microsoft Dynamics 365 for Finance and Operations.
+title: Sincronización de pedidos de ventas directamente entre Sales y Finance and Operations
+description: En el tema se abordan las plantillas y las tareas subyacentes que se usan para sincronizar pedidos de ventas directamente entre Microsoft Dynamics 365 for Sales y Microsoft Dynamics 365 for Finance and Operations.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.translationtype: HT
-ms.sourcegitcommit: a8c033caa8a4c4cf579ec166dce7a9982408d816
 ms.openlocfilehash: 985a5a908308bc2268b80e8eef7117fdd6d54af6
-ms.contentlocale: es-es
-ms.lasthandoff: 10/11/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339128"
 ---
-
-# <a name="synchronization-of-sales-orders-directly-between-sales-and-finance-and-operations"></a>Sincronización de pedidos de ventas directamente entre Sales y Finance and Operations
+# <a name="synchronization-of-sales-orders-directly-between-sales-and-finance-and-operations"></a>Sincronización de pedidos de ventas entre Sales y Finance and Operations
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se describen las plantillas y las tareas subyacentes que se usan para ejecutar sincronizaciones de pedidos de ventas directamente entre Microsoft Dynamics 365 for Sales y Microsoft Dynamics 365 for Finance and Operations.
+En el tema se abordan las plantillas y las tareas subyacentes que se usan para sincronizar pedidos de ventas directamente entre Microsoft Dynamics 365 for Sales y Microsoft Dynamics 365 for Finance and Operations.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Flujo de datos en Prospect to cash
 
@@ -198,4 +197,3 @@ Las siguientes ilustraciones muestran un ejemplo de una asignación de plantilla
 ## <a name="related-topics"></a>Temas relacionados
 
 [Prospect to cash](prospect-to-cash.md)
-

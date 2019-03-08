@@ -1,13 +1,13 @@
 ---
-title: "Configuración y trabajo con alertas de fraudes de centro de asistencia telefónica"
-description: "En este tema se explica cómo configurar reglas para avisar a los representantes de servicio al cliente de la existencia de información potencialmente fraudulenta al procesar pedidos. También puede definir códigos específicos que se usan para poner en espera los pedidos sospechosos automática o manualmente."
+title: Configuración y trabajo con alertas de fraudes de centro de asistencia telefónica
+description: En este tema se explica cómo configurar reglas para avisar a los representantes de servicio al cliente de la existencia de información potencialmente fraudulenta al procesar pedidos. También puede definir códigos específicos que se usan para poner en espera los pedidos sospechosos automática o manualmente.
 author: josaw1
 manager: AnnBe
 ms.date: 05/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesPostingHistory, MCRHoldCodeTrans
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 13b6a18750e79a17c7f6034780922c64b12390e2
-ms.contentlocale: es-es
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361507"
 ---
-
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Configuración y trabajo con alertas de fraudes de centro de asistencia telefónica
 
 [!include [banner](includes/banner.md)]
@@ -69,4 +68,3 @@ Se guardará el pedido, pero el indicador **No procesar** se establecerá en él
 Para ver y administrar los pedidos que están en espera para detectar fraudes, vaya a **Retail** \> **Clientes** \> **Bloqueos del pedido**. En la página **Bloqueos del pedido**, seleccione una entrada en la lista y, a continuación, haga clic en **Retención del pedido** para obtener una vista detallada que incluye información acerca del motivo de bloqueo. En la ficha desplegable  **Detalles del fraude**, puede ver los criterios sistemáticos de fraude que se han detectado en el pedido y las puntuaciones que se han aplicado. Si el pedido se coloca en el bloqueo manual, puede revisar los comentarios que realizó el usuario que puso el pedido en espera mirando la sección **Notas de fraudes** en la ficha desplegable **Notas**.
 
 Para obtener más información sobre cómo trabajar con pedidos en espera, consulte [Retenciones de pedidos](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds).
-

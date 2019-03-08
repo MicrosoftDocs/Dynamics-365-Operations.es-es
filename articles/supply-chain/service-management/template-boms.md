@@ -1,31 +1,30 @@
 ---
 title: Plantilla de L. MAT
-description: "Una plantilla de lista de materiales (L. MAT) le proporciona una lista estandarizada de componentes para objetos de servicio de los que se realiza un mantenimiento periódico."
+description: Una plantilla de lista de materiales (L. MAT) le proporciona una lista estandarizada de componentes para objetos de servicio de los que se realiza un mantenimiento periódico.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/19/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMATemplateBOMTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: c4428613441424c81f4fd7dd92bbf842c62ce860
 ms.openlocfilehash: f9c61ecd79f38301f46e3c21a33ec2801f33d19f
-ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341313"
 ---
-
 # <a name="template-boms"></a>Plantilla de L. MAT    
 
 [!include [banner](../includes/banner.md)]
@@ -133,6 +132,5 @@ Para usar las L. MAT de plantilla, debe configurar dos secuencias numéricas. Co
 [Modificar un L. MAT de servicio](modify-service-bom.md)
 
  
-
 
 

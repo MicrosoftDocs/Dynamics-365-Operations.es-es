@@ -1,13 +1,13 @@
 ---
-title: "Hojas de horas de proyecto en un dispositivo móvil"
-description: "Mis hojas de horas (optimizadas para móvil) permiten a los empleados crear y enviar las hojas de horas de proyecto para registrar sus horas para un proyecto específico en un dispositivo móvil."
+title: Hojas de horas de proyecto en un dispositivo móvil
+description: Mis hojas de horas (optimizadas para móvil) permiten a los empleados crear y enviar las hojas de horas de proyecto para registrar sus horas para un proyecto específico en un dispositivo móvil.
 author: abruer
 manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: April 2018 update
+ms.openlocfilehash: 96ad2af40ffb68649dca7a90d5ae14cd64b43ce9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3e09433a9bb819cf24ee74443dd7e2d80a2b6b2e
-ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360955"
 ---
-
 # <a name="project-timesheets-on-a-mobile-device"></a>Hojas de horas de proyecto en un dispositivo móvil
 
 [!include [banner](../includes/banner.md)]
@@ -33,7 +32,7 @@ ms.lasthandoff: 04/13/2018
 
 **Hojas de horas para mi revisión (optimizado para el móvil)** permite a los jefes de proyecto, que tienen derechos de aprobación de la hoja de horas, revisar y aprobar las hojas de horas de proyecto en un dispositivo móvil. La edición o la visualización de la información de la dimensión financiera no se admite en la aplicación móvil. **Hojas de horas para mi revisión (optimizadas para móvil)** se puede acceder mediante el explorador Web en el dispositivo móvil.
 
-Esta aplicación móvil es compatible con iPhone con Dynamics 365 for Finance and Operations actualización de plataforma 15.
+Esta aplicación móvil es compatible para el iPhone con la actualización de plataforma 15 de Dynamics 365 for Finance and Operations.
 Android será compatible con la actualización de la plataforma 16, cuando está disponible.
 
 <a name="create-a-project-timesheet-on-your-mobile-device"></a>Crear una hoja de horas del proyecto en el dispositivo móvil
@@ -66,4 +65,3 @@ Android será compatible con la actualización de la plataforma 16, cuando está
 13. Opcional: Introduzca líneas adicionales de hoja de horas.
 
 14. Una vez completada la introducción de las líneas de hoja de horas, seleccione la acción **Flujo de trabajo** \> **Enviar** apara enviar su hoja de horas al proceso de aprobación de flujo de trabajo.
-

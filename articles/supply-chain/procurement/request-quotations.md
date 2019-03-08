@@ -1,13 +1,13 @@
 ---
 title: Solicitudes de presupuesto
-description: "Este tema proporciona una visión general de solicitudes de presupuesto. Las organizaciones emiten solicitudes de presupuesto cuando desean recibir ofertas competitivas de varios proveedores para artículos o servicios que deben comprar."
+description: Este tema proporciona una visión general de solicitudes de presupuesto. Las organizaciones emiten solicitudes de presupuesto cuando desean recibir ofertas competitivas de varios proveedores para artículos o servicios que deben comprar.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchRFQCaseTable, PurchRFQCaseTableListPage, PurchRFQCompare, PurchRFQReplyTable, PurchRFQVendReplyTableListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 714715ccfbdd57e4450c301f5302e008c0c136b1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 9b840f5511f6a0df0e9ce3db4be69a0ab4ec3261
-ms.openlocfilehash: 8d7b07027443d1ca3894ccb7ed7f3cf49a4dc3e3
-ms.contentlocale: es-es
-ms.lasthandoff: 06/21/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351295"
 ---
-
 # <a name="requests-for-quotation-rfqs"></a>Solicitudes de presupuesto
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,7 @@ Puede crear un caso de solicitud de presupuesto desde pedidos planificados, desd
 
 Tras preparar el caso de solicitud de presupuesto y agregar proveedores, seleccione **Enviar** (**Registrar y publicar** para el sector público) en el caso de solicitud de presupuesto. Se crea un diario de solicitud de presupuesto para cada proveedor al que se envía una solicitud de presupuesto. Puede configurar las Opciones de impresión para la acción de envío para imprimir un informe para cada proveedor en un archivo o enviar un informe a la dirección de correo electrónico de cada proveedor. Además, el diario de solicitud de presupuesto para cada proveedor se puede usar para generar un informe que se puede enviar o volver a enviar al proveedor más adelante. También puede configurar la acción de envío para generar una hoja de respuesta que el proveedor pueda completar.
 
-Este tema cubre el proceso para gestionar solicitudes de presupuesto cuando la colaboración del proveedor no se utiliza. Si el sistema está configurado para la colaboración del proveedor, los proveedores pueden introducir propuestas directamente en Microsoft Dynamics 365 for Finance and Operations. Para obtener más inofrmación, consulte [Colaboración de proveedor con los clientes](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) y [Colaboración de proveedor con proveedores externos](vendor-collaboration-work-external-vendors.md).
+Este tema cubre el proceso para gestionar solicitudes de presupuesto cuando la colaboración del proveedor no se utiliza. Si el sistema está configurado para la colaboración del proveedor, los proveedores pueden especificar propuestas directamente en Microsoft Dynamics 365 for Finance and Operations. Para obtener más inofrmación, consulte [Colaboración de proveedor con los clientes](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) y [Colaboración de proveedor con proveedores externos](vendor-collaboration-work-external-vendors.md).
 
 Si debe enmendar una solicitud de presupuesto después de enviarla, puede volver a enviar la solicitud de presupuesto a los proveedores cuando haya terminado mediante los dos acciones de modificación: Crear y finalizar.+
 
@@ -58,7 +57,7 @@ Cuando reciba ofertas por correo electrónico, puede gestionarlas en la página 
 Si se requiere una segunda iteración de una respuesta de un proveedor, seleccione **Devolver** en la página **Solicitud de presupuesto**. La acción de devolución genera un diario nuevo y un informe que se imprimirá, archivará y enviará según la configuración de impresión.
 
 > [!NOTE]
-> Se ha cambiado el nombre de la página **Solicitud de presupuesto**. En versiones anteriores de Dynamics 365 for Finance and Operations, esta página se denomina **Respuesta de solicitud de presupuestos**.
+> Se ha cambiado el nombre de la página **Solicitud de presupuesto**. En versiones anteriores de Dynamics 365 for Finance and Operations, esta página se llamaba **Respuesta a solicitud de presupuestos**.
 
 Si ha agregado criterios de puntuación a su caso de solicitud de presupuesto, la solicitud de presupuesto tendrá un panel de puntuación donde podrá especificar las puntuaciones. Las puntuaciones totales aparecerán en la solicitud de presupuesto y al comparar las respuestas en la página **Comparar respuestas** . En la página **Comparar respuestas**, también puede comparar otros datos de la respuesta, como el precio de la línea, la fecha de entrega y el precio total.
 
@@ -268,5 +267,4 @@ En el siguiente ejemplo puede ver el estado más alto y el estado más bajo en e
 |------------------------------------------------|-------------------------------------------------------------|--------------------------------------------------------------|------------------------------------------------|-------------------------------------------------|----------------------------------------------|-----------------------------------------------|
 | Acepte una de las ofertas. (o al menos una línea) |                          Recibida                           |                           Aceptada                           |                    Recibida                    |                    Aceptada                     |                   Recibida                   |                   Aceptada                    |
 |           Rechazar todas las otras propuestas.           |                          Rechazado                           |                           Aceptada                           |                    Rechazado                    |                    Aceptada                     |                   Rechazado                   |                   Aceptado                    |
-
 

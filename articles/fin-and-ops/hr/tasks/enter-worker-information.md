@@ -1,13 +1,13 @@
---- 
-title: "Especificar información de trabajadores"
-description: "Una vez que la persona encargada de contratación crea un proyecto de contratación masiva y genera los puestos, el siguiente paso es especificar la información de trabajador para las personas empleadas."
+---
+title: Especificar información de trabajadores
+description: Una vez que la persona encargada de contratación crea un proyecto de contratación masiva y genera los puestos, el siguiente paso es especificar la información de trabajador para las personas empleadas.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMMassHireProject, HRMMassHireLine
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 0d850f271a3add191fcdc8ff5624bebbc6c6327f
-ms.contentlocale: es-es
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339565"
 ---
 # <a name="enter-worker-information"></a>Especificar información de trabajadores
 
@@ -44,5 +44,4 @@ Una vez que la persona encargada de contratación crea un proyecto de contrataci
 7. En la lista, busque y seleccione el registro deseado.
 8. En la lista, desmarque la fila seleccionada.
     * Seleccione el puesto siguiente del proyecto y siga indicando la información del trabajador para cada persona que está contratando.  
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Reglas de asignación contable"
-description: "Este artículo ofrece información general relativa a las reglas de asignación contable. Describe los diversos componentes de estas reglas de asignación y los métodos de asignación que se pueden usar para ellos."
+title: Reglas de asignación contable
+description: Este artículo ofrece información general relativa a las reglas de asignación contable. Describe los diversos componentes de estas reglas de asignación y los métodos de asignación que se pueden usar para ellos.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerAllocation, LedgerAllocationBasisRule, LedgerAllocationRequest, LedgerAllocationRule
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: abbeb1bb4481139dff902916362a479f94fb96e5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 63562cde3f2813fdcfc9df7ccbfc623aa2fbe9b1
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365739"
 ---
-
 # <a name="ledger-allocation-rules"></a>Reglas de asignación contable
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,6 @@ Cada regla de asignación tiene cuatro componentes: general, origen, destino y c
 -   **Destino**: este componente define cómo se debe distribuir y contabilizar el resultado del cálculo de asignación. Por ejemplo, puede haber una línea de destino para cada departamento.
 -   **Compensación**: este componente define cómo se deben determinar las cuentas principales y las dimensiones para las entradas de contrapartida que equilibran las entradas de destino. Normalmente se usan opciones definidas por el usuario en lugar de cuentas o dimensiones basadas en el origen. Cuando **Origen de datos** se establece en **Valor fijo**, **Origen** no se puede utilizar como opción.
 -   **Reglas de la base de asignación contable**: estas reglas usan sus propios criterios de filtro de origen para determinar qué saldos contables se deben usar para la asignación (por ejemplo, los ingresos por departamento). Cada regla base de asignación se puede usar con varias reglas de asignación.
-
 
 
 

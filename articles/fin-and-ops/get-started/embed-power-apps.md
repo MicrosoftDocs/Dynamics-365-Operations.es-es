@@ -1,13 +1,13 @@
 ---
 title: Integrar aplicaciones PowerApps
-description: "Este tema describe cómo insertar PowerApps en el cliente de Finance and Operations para aumentar la funcionalidad de producto."
+description: Este tema describe cómo insertar PowerApps en el cliente de Finance and Operations para aumentar la funcionalidad de producto.
 author: jasongre
 manager: AnnBe
 ms.date: 09/04/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FormRunConfigurationAddPAControl, FormRunConfigurationEditPAControl
 audience: Application User, Developer, IT Pro
 ms.search.scope: Operations, Core
@@ -15,15 +15,14 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 262d34cbc50251595d22c27387fbd3f1045d1fbb
-ms.contentlocale: es-es
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334160"
 ---
-
-# <a name="embed-powerapps-apps"></a>Integrar aplicaciones PowerApps
+# <a name="embed-powerapps-apps"></a>Integrar aplicaciones de PowerApps
 
 [!include [banner](../includes/banner.md)]
 
@@ -132,4 +131,3 @@ public final class ClassTest_Extension
     }
 }
 ```
-

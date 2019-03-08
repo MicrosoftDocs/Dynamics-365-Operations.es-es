@@ -1,13 +1,13 @@
 ---
-title: "Visión general de lean manufacturing"
-description: "Este artículo proporciona una visión general y una descripción de las funciones de producción ajustada de Dynamics 365 for Finance and Operations."
+title: Visión general de lean manufacturing
+description: Este artículo proporciona una visión general y una descripción de las funciones de lean manufacturing (producción ajustada) de Dynamics 365 for Finance and Operations.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanBoardTransferJob, KanbanBoardWorkCell, KanbanJobSchedulingListPage, LeanProductionFlow
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c6db940548018c9d6bbb31891c21f7c334ba8956
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 99030966587a2784f61cecbfc7f9985f75f6d779
-ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359897"
 ---
-
 # <a name="lean-manufacturing-overview"></a>Visión general de lean manufacturing
 
 [!include [banner](../includes/banner.md)]
 
-Este artículo proporciona una visión general y una descripción de las funciones de producción ajustada de Microsoft Dynamics 365 for Finance and Operations.
+Este artículo proporciona una visión general y una descripción de las funciones de lean manufacturing (producción ajustada) de Microsoft Dynamics 365 for Finance and Operations.
 
 Lean manufacturing ofrece herramientas que puede usar para modelar las operaciones lean. Estas herramientas apoyan y promueven los siguientes conceptos y actividades empresariales:
 -   Crear una fundación de lean manufacturing modelando procesos de fabricación y logística como flujos de producción.
@@ -52,7 +51,7 @@ Para crear una fundación de lean manufacturing, modele los procesos de fabricac
 
 ## <a name="using-kanbans-to-signal-demand-requirements"></a>Uso de los kanbans para indicar los requisitos de la demanda
 Un sistema de extracción produce mercancías solo cuando son necesarias. Esta práctica reduce los plazos de entrega y el exceso de inventario. Puede usar kanbans para planear, seguir y procesar los requisitos basados en los flujos de producción. Para crear un marco de kanban, cree las reglas kanban que definen cuando se crean kanbans y cómo se cumplen los requisitos. Se pueden crear dos tipos de reglas kanban. Las reglas de fabricación crean trabajos kanban de proceso y las reglas kanban de retirada crean trabajos kanban de transferencia. Se pueden configurar las siguientes estrategias de reabastecimiento:
--   Las reglas kanban de **cantidad fija** están relacionadas con un número fijo de unidades de gestión de material, lo que significa que los números de kanbans activos son constantes. Cuando todos los productos de un kanban se consumen y las unidades de gestión de material se vacían manualmente, se crea un nuevo kanban del mismo tipo. Al crear las reglas kanban de cantidad fija, puede calcular las cantidades óptimas de kanban y de producto que se usan. El cálculo tiene en cuenta la previsión, la demanda real de pedidos abiertos, el plazo de reabastecer los artículos y las demandas históricas.
+-   Las reglas kanban de **cantidad fija** están relacionadas con un número fijo de unidades de gestión de material, lo que significa que los números de kanbans activos son constantes. Cuando todos los productos de un kanban se consumen y las unidades de gestión de material se vacían manualmente, se crea un nuevo kanban del mismo tipo.Al crear las reglas kanban de cantidad fija, puede calcular las cantidades óptimas de kanban y de producto que se usan. El cálculo tiene en cuenta la previsión, la demanda real de pedidos abiertos, el plazo de reabastecer los artículos y las demandas históricas.
 -   Las reglas kanban **programadas** reabastecen los requisitos calculados por la planificación maestra. La planificación maestra genera kanbans planificados que se pueden poner en firme en kanbans.
 -   Las reglas kanban de **evento** reabastecen los requisitos que se originan de las líneas de pedidos de ventas, las líneas de listas de materiales, las de kanban o la configuración mínima de inventario. Cuando se generan los kanbans de evento, se fijan a los requisitos de origen.
 
@@ -68,7 +67,7 @@ Lean manufacturing proporciona visibilidad al estado actual de las actividades d
 En la siguiente lista se describen los tableros kanban especializados:
 -   Programación de trabajos kanban: proporciona una visión general de los trabajos kanban. El tablero muestra los trabajos kanban y sus estados para una o varias celdas de trabajo. Los trabajos se listan en función de los períodos de planificación (días o semanas) definidos en el modelo de flujo de producción. El tablero también muestra el consumo de capacidad de cada período de planificación, de manera que pueda supervisar la carga programada. Puede cambiar el estado de los trabajos kanban, reprogramarlos en períodos de planificación diferentes y realizar otras tareas.
 -   Tablero kanban para trabajos de transferencia: este tablero proporciona una visión general de los trabajos de transferencia actual. Puede actualizar y registrar listas de selección, iniciar y finalizar trabajos de transferencia y realizar otras tareas.
--   Tablero kanban para trabajos de proceso: este tablero se ha diseñado para admitir el flujo de producción normal y para proporcionar una descripción general de la situación actual en una o varias celdas de trabajo. En este tablero se pueden priorizar, seleccionar o fabricar kanbans. Este tablero también se ha diseñado para poder escanear códigos de barras para generar informes de kanbans.
+-   Tablero kanban para trabajos de proceso: este tablero se ha diseñado para admitir el flujo de producción normal y para proporcionar una descripción general de la situación actual en una o varias celdas de trabajo. En este tablero se pueden priorizar, seleccionar o fabricar kanbans. Este tablero también se ha diseñado para poder escanear códigos de barras para generar informes de kanbans.
 
 ## <a name="kanban-jobs-and-integration-with-finance-and-operations-processes"></a>Trabajos kanban e integración con procesos de Finance and Operations
 Los trabajos kanban se integran completamente con los procesos actuales de las transacciones de inventario de Finance and Operations.
@@ -79,7 +78,6 @@ Los trabajos kanban se integran completamente con los procesos actuales de las t
 Además, lean manufacturing apoya los procesos de compra y de facturación de los servicios a los que hacen referencia las actividades subcontratadas.
 -   Puede asignar servicios y líneas de acuerdo de compra a las actividades subcontratadas.
 -   Puede crear pedidos de compra y avisos de recepción periódicos para apoyar la compra y la facturación de los servicios.
-
 
 
 
