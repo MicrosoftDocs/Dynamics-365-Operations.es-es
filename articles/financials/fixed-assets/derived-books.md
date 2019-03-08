@@ -1,13 +1,13 @@
 ---
 title: Libros derivados
-description: "Este artículo proporciona información general de la función del libro derivado."
+description: Este artículo proporciona información general de la función del libro derivado.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetBookTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,35 +18,33 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 153b6437205d5a849fa6a90c0d3b9f3d51dd6768
-ms.contentlocale: es-es
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313920"
 ---
-
-# <a name="derived-books"></a><span data-ttu-id="9888f-103">Libros derivados</span><span class="sxs-lookup"><span data-stu-id="9888f-103">Derived books</span></span>
+# <a name="derived-books"></a><span data-ttu-id="ea342-103">Libros derivados</span><span class="sxs-lookup"><span data-stu-id="ea342-103">Derived books</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="9888f-104">Este artículo proporciona información general de la función del libro derivado.</span><span class="sxs-lookup"><span data-stu-id="9888f-104">This article provides an overview of derived book functionality.</span></span>
+<span data-ttu-id="ea342-104">Este artículo proporciona información general de la función del libro derivado.</span><span class="sxs-lookup"><span data-stu-id="ea342-104">This article provides an overview of derived book functionality.</span></span>
 
-<span data-ttu-id="9888f-105">El propósito de los libros derivados es simplificar el registro de transacciones de libro de activos fijos que se planifican para intervalos regulares.</span><span class="sxs-lookup"><span data-stu-id="9888f-105">The purpose of derived books is to simplify the posting of fixed asset book transactions that are planned for regular intervals.</span></span>  <span data-ttu-id="9888f-106">Debe elegir un libro como libro principal.</span><span class="sxs-lookup"><span data-stu-id="9888f-106">You choose one book as the primary book.</span></span> <span data-ttu-id="9888f-107">Este libro es el que se usa normalmente para la depreciación contable.</span><span class="sxs-lookup"><span data-stu-id="9888f-107">This usually is the book that is used for accounting depreciation.</span></span> <span data-ttu-id="9888f-108">A continuación, vincúlelo a otros libros que se configuran para registrar transacciones en los mismos intervalos que el libro principal.</span><span class="sxs-lookup"><span data-stu-id="9888f-108">You then attach to it other books that are set up to post transactions in the same intervals as the primary book.</span></span> <span data-ttu-id="9888f-109">Los libros de depreciación fiscal se suelen configurar como libros derivados.</span><span class="sxs-lookup"><span data-stu-id="9888f-109">Tax depreciation books are often set up as derived books.</span></span> 
+<span data-ttu-id="ea342-105">El propósito de los libros derivados es simplificar el registro de transacciones de libro de activos fijos que se planifican para intervalos regulares.</span><span class="sxs-lookup"><span data-stu-id="ea342-105">The purpose of derived books is to simplify the posting of fixed asset book transactions that are planned for regular intervals.</span></span>  <span data-ttu-id="ea342-106">Debe elegir un libro como libro principal.</span><span class="sxs-lookup"><span data-stu-id="ea342-106">You choose one book as the primary book.</span></span> <span data-ttu-id="ea342-107">Este libro es el que se usa normalmente para la depreciación contable.</span><span class="sxs-lookup"><span data-stu-id="ea342-107">This usually is the book that is used for accounting depreciation.</span></span> <span data-ttu-id="ea342-108">A continuación, vincúlelo a otros libros que se configuran para registrar transacciones en los mismos intervalos que el libro principal.</span><span class="sxs-lookup"><span data-stu-id="ea342-108">You then attach to it other books that are set up to post transactions in the same intervals as the primary book.</span></span> <span data-ttu-id="ea342-109">Los libros de depreciación fiscal se suelen configurar como libros derivados.</span><span class="sxs-lookup"><span data-stu-id="ea342-109">Tax depreciation books are often set up as derived books.</span></span> 
 
-<span data-ttu-id="9888f-110">Las transacciones que se configuran habitualmente para registrar los libros derivados son las adquisiciones, los ajustes de adquisición y las cancelaciones.</span><span class="sxs-lookup"><span data-stu-id="9888f-110">The most common transactions to set up to post to derived books are acquisitions, acquisition adjustments, and disposals.</span></span> 
+<span data-ttu-id="ea342-110">Las transacciones que se configuran habitualmente para registrar los libros derivados son las adquisiciones, los ajustes de adquisición y las cancelaciones.</span><span class="sxs-lookup"><span data-stu-id="ea342-110">The most common transactions to set up to post to derived books are acquisitions, acquisition adjustments, and disposals.</span></span> 
 
-## <a name="example"></a><span data-ttu-id="9888f-111">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="9888f-111">Example</span></span>
+## <a name="example"></a><span data-ttu-id="ea342-111">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="ea342-111">Example</span></span>
 
-<span data-ttu-id="9888f-112">El libro B y el C se configuran como libros derivados para el libro A para el tipo de transacción de adquisición.</span><span class="sxs-lookup"><span data-stu-id="9888f-112">Book B and book C are set up as derived books for book A for the Acquisition transaction type.</span></span> <span data-ttu-id="9888f-113">En el libro A, introduzca una transacción de adquisición de 1.500,00 para el activo 123.</span><span class="sxs-lookup"><span data-stu-id="9888f-113">In book A, you enter an acquisition transaction for asset 123 for 1,500.00.</span></span> 
+<span data-ttu-id="ea342-112">El libro B y el C se configuran como libros derivados para el libro A para el tipo de transacción de adquisición.</span><span class="sxs-lookup"><span data-stu-id="ea342-112">Book B and book C are set up as derived books for book A for the Acquisition transaction type.</span></span> <span data-ttu-id="ea342-113">En el libro A, introduzca una transacción de adquisición de 1.500,00 para el activo 123.</span><span class="sxs-lookup"><span data-stu-id="ea342-113">In book A, you enter an acquisition transaction for asset 123 for 1,500.00.</span></span> 
 
-<span data-ttu-id="9888f-114">Una vez registrada la transacción, se genera una transacción de adquisición y se registra en el activo 123 para el libro B y en el activo 123 para el libro C de 1.500,00.</span><span class="sxs-lookup"><span data-stu-id="9888f-114">When the transaction is posted, an acquisition transaction is generated and posted in asset 123 for book B and in asset 123 for book C for 1,500.00.</span></span> <span data-ttu-id="9888f-115">Cuando se preparan las transacciones del libro principal para registrarlas en el diario de activos fijos, también puede ver y modificar las transacciones de libros derivados.</span><span class="sxs-lookup"><span data-stu-id="9888f-115">When you prepare the transactions of the primary book for posting in the fixed asset journal, you can also view and modify the transactions of the derived books.</span></span> <span data-ttu-id="9888f-116">Si prepara las transacciones del libro principal en otro diario, no se mostrarán las transacciones del valor derivado.</span><span class="sxs-lookup"><span data-stu-id="9888f-116">If you prepare the primary book transactions in another journal, the transactions of the derived value are not displayed.</span></span> <span data-ttu-id="9888f-117">Sin embargo, se registrarán en las cuentas y capas de registro adecuadas cuando registre las transacciones del libro principal.</span><span class="sxs-lookup"><span data-stu-id="9888f-117">However, they are posted to the appropriate accounts and posting layers when you post the primary book transactions.</span></span>
+<span data-ttu-id="ea342-114">Una vez registrada la transacción, se genera una transacción de adquisición y se registra en el activo 123 para el libro B y en el activo 123 para el libro C de 1.500,00.</span><span class="sxs-lookup"><span data-stu-id="ea342-114">When the transaction is posted, an acquisition transaction is generated and posted in asset 123 for book B and in asset 123 for book C for 1,500.00.</span></span> <span data-ttu-id="ea342-115">Cuando se preparan las transacciones del libro principal para registrarlas en el diario de activos fijos, también puede ver y modificar las transacciones de libros derivados.</span><span class="sxs-lookup"><span data-stu-id="ea342-115">When you prepare the transactions of the primary book for posting in the fixed asset journal, you can also view and modify the transactions of the derived books.</span></span> <span data-ttu-id="ea342-116">Si prepara las transacciones del libro principal en otro diario, no se mostrarán las transacciones del valor derivado.</span><span class="sxs-lookup"><span data-stu-id="ea342-116">If you prepare the primary book transactions in another journal, the transactions of the derived value are not displayed.</span></span> <span data-ttu-id="ea342-117">Sin embargo, se registrarán en las cuentas y capas de registro adecuadas cuando registre las transacciones del libro principal.</span><span class="sxs-lookup"><span data-stu-id="ea342-117">However, they are posted to the appropriate accounts and posting layers when you post the primary book transactions.</span></span>
 
 > [!NOTE]                                                                                                                               
-> <span data-ttu-id="9888f-118">Los libros que se configuran para registrar transacciones en intervalos distintos a los intervalos del libro principal, se deben vincular al activo fijo como libros independientes y no como libros derivados.</span><span class="sxs-lookup"><span data-stu-id="9888f-118">Books that are set up to post transactions at intervals other than the primary book intervals must be attached to the fixed asset as separate books and not as derived books.</span></span>  
+> <span data-ttu-id="ea342-118">Los libros que se configuran para registrar transacciones en intervalos distintos a los intervalos del libro principal, se deben vincular al activo fijo como libros independientes y no como libros derivados.</span><span class="sxs-lookup"><span data-stu-id="ea342-118">Books that are set up to post transactions at intervals other than the primary book intervals must be attached to the fixed asset as separate books and not as derived books.</span></span>  
 
-<span data-ttu-id="9888f-119">Para obtener más información, consulte [Registro con los libros derivados](post-derived-value-models.md).</span><span class="sxs-lookup"><span data-stu-id="9888f-119">For more information, see [Posting with derived books](post-derived-value-models.md).</span></span>
-
+<span data-ttu-id="ea342-119">Para obtener más información, consulte [Registro con los libros derivados](post-derived-value-models.md).</span><span class="sxs-lookup"><span data-stu-id="ea342-119">For more information, see [Posting with derived books](post-derived-value-models.md).</span></span>
 
 
 

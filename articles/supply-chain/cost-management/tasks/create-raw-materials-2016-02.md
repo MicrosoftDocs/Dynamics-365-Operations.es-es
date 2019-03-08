@@ -1,13 +1,13 @@
---- 
-title: "Crear materias primas (febrero de 2016 únicamente)"
+---
+title: Crear materias primas (febrero de 2016 únicamente)
 description: Esta tarea tarea se centra en crear los componentes de productos terminados y semiterminados.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 02/07/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,145 +15,144 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 869acddf6f7e9754bb4952176ded4b22c74eaffd
-ms.contentlocale: es-es
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327306"
 ---
-# <a name="create-raw-materials-february-2016-only"></a><span data-ttu-id="57a57-103">Crear materias primas (febrero de 2016 únicamente)</span><span class="sxs-lookup"><span data-stu-id="57a57-103">Create raw materials (February 2016 only)</span></span>
+# <a name="create-raw-materials-february-2016-only"></a><span data-ttu-id="2192b-103">Crear materias primas (febrero de 2016 únicamente)</span><span class="sxs-lookup"><span data-stu-id="2192b-103">Create raw materials (February 2016 only)</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="57a57-104">Esta tarea tarea se centra en crear los componentes de productos terminados y semiterminados.</span><span class="sxs-lookup"><span data-stu-id="57a57-104">This task focuses on creating the components of finished and semi-finished products.</span></span> <span data-ttu-id="57a57-105">Es la tercera tarea en las series de cálculo BOM.</span><span class="sxs-lookup"><span data-stu-id="57a57-105">It is the third task in the BOM calculation series.</span></span> <span data-ttu-id="57a57-106">La empresa de datos de prueba utilizada para crear esta tarea es USMF.</span><span class="sxs-lookup"><span data-stu-id="57a57-106">The demo data company used to create this task is USMF.</span></span>
+<span data-ttu-id="2192b-104">Esta tarea tarea se centra en crear los componentes de productos terminados y semiterminados.</span><span class="sxs-lookup"><span data-stu-id="2192b-104">This task focuses on creating the components of finished and semi-finished products.</span></span> <span data-ttu-id="2192b-105">Es la tercera tarea en las series de cálculo BOM.</span><span class="sxs-lookup"><span data-stu-id="2192b-105">It is the third task in the BOM calculation series.</span></span> <span data-ttu-id="2192b-106">La empresa de datos de prueba utilizada para crear esta tarea es USMF.</span><span class="sxs-lookup"><span data-stu-id="2192b-106">The demo data company used to create this task is USMF.</span></span>
 
 
-## <a name="create-the-first-material"></a><span data-ttu-id="57a57-107">Cree el primer material</span><span class="sxs-lookup"><span data-stu-id="57a57-107">Create the first material</span></span>
-1. <span data-ttu-id="57a57-108">Vaya a Gestión de información de productos > Productos > Productos emitidos.</span><span class="sxs-lookup"><span data-stu-id="57a57-108">Go to Product information management > Products > Released products.</span></span>
-2. <span data-ttu-id="57a57-109">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="57a57-109">Click New.</span></span>
-3. <span data-ttu-id="57a57-110">En el campo Número de producto, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="57a57-110">In the Product number field, type a value.</span></span>
-    * <span data-ttu-id="57a57-111">Para este ejemplo, escriba ITEM_A.</span><span class="sxs-lookup"><span data-stu-id="57a57-111">For this example, enter ITEM_A.</span></span>  
-4. <span data-ttu-id="57a57-112">En el campo Grupo de modelos de artículo, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="57a57-112">In the Item model group field, enter or select a value.</span></span>
-    * <span data-ttu-id="57a57-113">Seleccione STD.</span><span class="sxs-lookup"><span data-stu-id="57a57-113">Select STD.</span></span> <span data-ttu-id="57a57-114">El STD representa el coste estándar y es el modelo más usado al trabajar con cálculos de coste.</span><span class="sxs-lookup"><span data-stu-id="57a57-114">STD stands for standard cost and is the most commonly used model when working with cost calculations.</span></span>  
-5. <span data-ttu-id="57a57-115">En el campo Grupo de artículos, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="57a57-115">In the Item group field, enter or select a value.</span></span>
-    * <span data-ttu-id="57a57-116">Por ejemplo, seleccione Audio.</span><span class="sxs-lookup"><span data-stu-id="57a57-116">For example, select Audio.</span></span> <span data-ttu-id="57a57-117">Esto no tiene aafecta de ninguna manera a los cálculos de coste.</span><span class="sxs-lookup"><span data-stu-id="57a57-117">This has no impact on cost calculations.</span></span>  
-6. <span data-ttu-id="57a57-118">En el campo Grupo de dimensiones de almacenamiento, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="57a57-118">In the Storage dimension group field, enter or select a value.</span></span>
-    * <span data-ttu-id="57a57-119">Seleccione SiteWH.</span><span class="sxs-lookup"><span data-stu-id="57a57-119">Select SiteWH.</span></span> <span data-ttu-id="57a57-120">Para la demostración solo se usarán el Sitio y el Almacén.</span><span class="sxs-lookup"><span data-stu-id="57a57-120">Only Site and Warehouse will be used for the demonstration.</span></span>  
-7. <span data-ttu-id="57a57-121">En el campo Grupo de dimensiones de seguimiento, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="57a57-121">In the Tracking dimension group field, enter or select a value.</span></span>
-    * <span data-ttu-id="57a57-122">Las dimensiones de seguimiento no se usarán en este ejemplo.</span><span class="sxs-lookup"><span data-stu-id="57a57-122">Tracking dimensions will not be used for this example.</span></span> <span data-ttu-id="57a57-123">Seleccione Ninguno.</span><span class="sxs-lookup"><span data-stu-id="57a57-123">Select None.</span></span>  
-8. <span data-ttu-id="57a57-124">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="57a57-124">Click OK.</span></span>
-9. <span data-ttu-id="57a57-125">En el panel de acciones, haga clic en Administrar inventario.</span><span class="sxs-lookup"><span data-stu-id="57a57-125">On the Action Pane, click Manage inventory.</span></span>
-10. <span data-ttu-id="57a57-126">Haga clic en Configuración predeterminada de pedido.</span><span class="sxs-lookup"><span data-stu-id="57a57-126">Click Default order settings.</span></span>
-11. <span data-ttu-id="57a57-127">En el campo Sitio de compra, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="57a57-127">In the Purchase site field, enter or select a value.</span></span>
-    * <span data-ttu-id="57a57-128">Para este ejemplo, seleccione Sitio 1.</span><span class="sxs-lookup"><span data-stu-id="57a57-128">For this example, select Site 1.</span></span>  
-12. <span data-ttu-id="57a57-129">En el campo Sitio de inventario, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="57a57-129">In the Inventory site field, enter or select a value.</span></span>
-    * <span data-ttu-id="57a57-130">Para este ejemplo, seleccione Sitio 1.</span><span class="sxs-lookup"><span data-stu-id="57a57-130">For this example, select Site 1.</span></span>  
-13. <span data-ttu-id="57a57-131">En el campo Sitio de centas, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="57a57-131">In the Sales site field, enter or select a value.</span></span>
-    * <span data-ttu-id="57a57-132">Para este ejemplo, seleccione Sitio 1.</span><span class="sxs-lookup"><span data-stu-id="57a57-132">For this example, select Site 1.</span></span>  
-14. <span data-ttu-id="57a57-133">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="57a57-133">Close the page.</span></span>
-15. <span data-ttu-id="57a57-134">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="57a57-134">Close the page.</span></span>
-16. <span data-ttu-id="57a57-135">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="57a57-135">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="57a57-136">Haga clic en ITEM_A.</span><span class="sxs-lookup"><span data-stu-id="57a57-136">Click ITEM_A.</span></span>  
-17. <span data-ttu-id="57a57-137">Expanda la sección Administrar costes.</span><span class="sxs-lookup"><span data-stu-id="57a57-137">Expand the Manage costs section.</span></span>
-18. <span data-ttu-id="57a57-138">Introduzca un valor en el campo Grupo de costes.</span><span class="sxs-lookup"><span data-stu-id="57a57-138">In the Cost group field, type a value.</span></span>
-    * <span data-ttu-id="57a57-139">Para este ejemplo, introduzca M2.</span><span class="sxs-lookup"><span data-stu-id="57a57-139">For this example, type M2.</span></span>  
-19. <span data-ttu-id="57a57-140">En el panel de acciones, haga clic en Gestionar costes.</span><span class="sxs-lookup"><span data-stu-id="57a57-140">On the Action Pane, click Manage costs.</span></span>
-20. <span data-ttu-id="57a57-141">Haga clic en Precio de artículo.</span><span class="sxs-lookup"><span data-stu-id="57a57-141">Click Item price.</span></span>
-21. <span data-ttu-id="57a57-142">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="57a57-142">Click New.</span></span>
-22. <span data-ttu-id="57a57-143">En el campo Versión, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="57a57-143">In the Version field, enter or select a value.</span></span>
-    * <span data-ttu-id="57a57-144">Para este ejemplo, seleccione 10, que es el Tipo de gestión de costes de coste estándar.</span><span class="sxs-lookup"><span data-stu-id="57a57-144">For this example, select 10, which is the Standard cost costing type.</span></span>  
-23. <span data-ttu-id="57a57-145">En el campo Sitio, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="57a57-145">In the Site field, enter or select a value.</span></span>
-    * <span data-ttu-id="57a57-146">Para este ejemplo, seleccione Sitio 1.</span><span class="sxs-lookup"><span data-stu-id="57a57-146">For this example, select Site 1.</span></span>  
-24. <span data-ttu-id="57a57-147">En el campo Precio, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="57a57-147">In the Price field, enter a number.</span></span>
-    * <span data-ttu-id="57a57-148">Para este ejemplo, especifique 10.</span><span class="sxs-lookup"><span data-stu-id="57a57-148">For this example, type 10.</span></span>  
-25. <span data-ttu-id="57a57-149">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="57a57-149">Click Save.</span></span>
-26. <span data-ttu-id="57a57-150">Haga clic en Activar precios pendientes.</span><span class="sxs-lookup"><span data-stu-id="57a57-150">Click Activate pending price(s).</span></span>
-27. <span data-ttu-id="57a57-151">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="57a57-151">Close the page.</span></span>
-28. <span data-ttu-id="57a57-152">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="57a57-152">Close the page.</span></span>
+## <a name="create-the-first-material"></a><span data-ttu-id="2192b-107">Cree el primer material</span><span class="sxs-lookup"><span data-stu-id="2192b-107">Create the first material</span></span>
+1. <span data-ttu-id="2192b-108">Vaya a Gestión de información de productos > Productos > Productos emitidos.</span><span class="sxs-lookup"><span data-stu-id="2192b-108">Go to Product information management > Products > Released products.</span></span>
+2. <span data-ttu-id="2192b-109">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="2192b-109">Click New.</span></span>
+3. <span data-ttu-id="2192b-110">En el campo Número de producto, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="2192b-110">In the Product number field, type a value.</span></span>
+    * <span data-ttu-id="2192b-111">Para este ejemplo, escriba ITEM_A.</span><span class="sxs-lookup"><span data-stu-id="2192b-111">For this example, enter ITEM_A.</span></span>  
+4. <span data-ttu-id="2192b-112">En el campo Grupo de modelos de artículo, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="2192b-112">In the Item model group field, enter or select a value.</span></span>
+    * <span data-ttu-id="2192b-113">Seleccione STD.</span><span class="sxs-lookup"><span data-stu-id="2192b-113">Select STD.</span></span> <span data-ttu-id="2192b-114">El STD representa el coste estándar y es el modelo más usado al trabajar con cálculos de coste.</span><span class="sxs-lookup"><span data-stu-id="2192b-114">STD stands for standard cost and is the most commonly used model when working with cost calculations.</span></span>  
+5. <span data-ttu-id="2192b-115">En el campo Grupo de artículos, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="2192b-115">In the Item group field, enter or select a value.</span></span>
+    * <span data-ttu-id="2192b-116">Por ejemplo, seleccione Audio.</span><span class="sxs-lookup"><span data-stu-id="2192b-116">For example, select Audio.</span></span> <span data-ttu-id="2192b-117">Esto no tiene aafecta de ninguna manera a los cálculos de coste.</span><span class="sxs-lookup"><span data-stu-id="2192b-117">This has no impact on cost calculations.</span></span>  
+6. <span data-ttu-id="2192b-118">En el campo Grupo de dimensiones de almacenamiento, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="2192b-118">In the Storage dimension group field, enter or select a value.</span></span>
+    * <span data-ttu-id="2192b-119">Seleccione SiteWH.</span><span class="sxs-lookup"><span data-stu-id="2192b-119">Select SiteWH.</span></span> <span data-ttu-id="2192b-120">Para la demostración solo se usarán el Sitio y el Almacén.</span><span class="sxs-lookup"><span data-stu-id="2192b-120">Only Site and Warehouse will be used for the demonstration.</span></span>  
+7. <span data-ttu-id="2192b-121">En el campo Grupo de dimensiones de seguimiento, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="2192b-121">In the Tracking dimension group field, enter or select a value.</span></span>
+    * <span data-ttu-id="2192b-122">Las dimensiones de seguimiento no se usarán en este ejemplo.</span><span class="sxs-lookup"><span data-stu-id="2192b-122">Tracking dimensions will not be used for this example.</span></span> <span data-ttu-id="2192b-123">Seleccione Ninguno.</span><span class="sxs-lookup"><span data-stu-id="2192b-123">Select None.</span></span>  
+8. <span data-ttu-id="2192b-124">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="2192b-124">Click OK.</span></span>
+9. <span data-ttu-id="2192b-125">En el panel de acciones, haga clic en Administrar inventario.</span><span class="sxs-lookup"><span data-stu-id="2192b-125">On the Action Pane, click Manage inventory.</span></span>
+10. <span data-ttu-id="2192b-126">Haga clic en Configuración predeterminada de pedido.</span><span class="sxs-lookup"><span data-stu-id="2192b-126">Click Default order settings.</span></span>
+11. <span data-ttu-id="2192b-127">En el campo Sitio de compra, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="2192b-127">In the Purchase site field, enter or select a value.</span></span>
+    * <span data-ttu-id="2192b-128">Para este ejemplo, seleccione Sitio 1.</span><span class="sxs-lookup"><span data-stu-id="2192b-128">For this example, select Site 1.</span></span>  
+12. <span data-ttu-id="2192b-129">En el campo Sitio de inventario, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="2192b-129">In the Inventory site field, enter or select a value.</span></span>
+    * <span data-ttu-id="2192b-130">Para este ejemplo, seleccione Sitio 1.</span><span class="sxs-lookup"><span data-stu-id="2192b-130">For this example, select Site 1.</span></span>  
+13. <span data-ttu-id="2192b-131">En el campo Sitio de centas, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="2192b-131">In the Sales site field, enter or select a value.</span></span>
+    * <span data-ttu-id="2192b-132">Para este ejemplo, seleccione Sitio 1.</span><span class="sxs-lookup"><span data-stu-id="2192b-132">For this example, select Site 1.</span></span>  
+14. <span data-ttu-id="2192b-133">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="2192b-133">Close the page.</span></span>
+15. <span data-ttu-id="2192b-134">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="2192b-134">Close the page.</span></span>
+16. <span data-ttu-id="2192b-135">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="2192b-135">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="2192b-136">Haga clic en ITEM_A.</span><span class="sxs-lookup"><span data-stu-id="2192b-136">Click ITEM_A.</span></span>  
+17. <span data-ttu-id="2192b-137">Expanda la sección Administrar costes.</span><span class="sxs-lookup"><span data-stu-id="2192b-137">Expand the Manage costs section.</span></span>
+18. <span data-ttu-id="2192b-138">Introduzca un valor en el campo Grupo de costes.</span><span class="sxs-lookup"><span data-stu-id="2192b-138">In the Cost group field, type a value.</span></span>
+    * <span data-ttu-id="2192b-139">Para este ejemplo, introduzca M2.</span><span class="sxs-lookup"><span data-stu-id="2192b-139">For this example, type M2.</span></span>  
+19. <span data-ttu-id="2192b-140">En el panel de acciones, haga clic en Gestionar costes.</span><span class="sxs-lookup"><span data-stu-id="2192b-140">On the Action Pane, click Manage costs.</span></span>
+20. <span data-ttu-id="2192b-141">Haga clic en Precio de artículo.</span><span class="sxs-lookup"><span data-stu-id="2192b-141">Click Item price.</span></span>
+21. <span data-ttu-id="2192b-142">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="2192b-142">Click New.</span></span>
+22. <span data-ttu-id="2192b-143">En el campo Versión, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="2192b-143">In the Version field, enter or select a value.</span></span>
+    * <span data-ttu-id="2192b-144">Para este ejemplo, seleccione 10, que es el Tipo de gestión de costes de coste estándar.</span><span class="sxs-lookup"><span data-stu-id="2192b-144">For this example, select 10, which is the Standard cost costing type.</span></span>  
+23. <span data-ttu-id="2192b-145">En el campo Sitio, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="2192b-145">In the Site field, enter or select a value.</span></span>
+    * <span data-ttu-id="2192b-146">Para este ejemplo, seleccione Sitio 1.</span><span class="sxs-lookup"><span data-stu-id="2192b-146">For this example, select Site 1.</span></span>  
+24. <span data-ttu-id="2192b-147">En el campo Precio, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="2192b-147">In the Price field, enter a number.</span></span>
+    * <span data-ttu-id="2192b-148">Para este ejemplo, especifique 10.</span><span class="sxs-lookup"><span data-stu-id="2192b-148">For this example, type 10.</span></span>  
+25. <span data-ttu-id="2192b-149">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="2192b-149">Click Save.</span></span>
+26. <span data-ttu-id="2192b-150">Haga clic en Activar precios pendientes.</span><span class="sxs-lookup"><span data-stu-id="2192b-150">Click Activate pending price(s).</span></span>
+27. <span data-ttu-id="2192b-151">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="2192b-151">Close the page.</span></span>
+28. <span data-ttu-id="2192b-152">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="2192b-152">Close the page.</span></span>
 
-## <a name="create-the-second-material"></a><span data-ttu-id="57a57-153">Cree el segundo material</span><span class="sxs-lookup"><span data-stu-id="57a57-153">Create the second material</span></span>
-1. <span data-ttu-id="57a57-154">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="57a57-154">Click New.</span></span>
-2. <span data-ttu-id="57a57-155">En el campo Número de producto, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="57a57-155">In the Product number field, type a value.</span></span>
-    * <span data-ttu-id="57a57-156">Para este ejemplo, especifique ITEM_B.</span><span class="sxs-lookup"><span data-stu-id="57a57-156">For this example, type ITEM_B.</span></span>  
-3. <span data-ttu-id="57a57-157">En el campo Grupo de modelos de artículo, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="57a57-157">In the Item model group field, enter or select a value.</span></span>
-    * <span data-ttu-id="57a57-158">Seleccione STD.</span><span class="sxs-lookup"><span data-stu-id="57a57-158">Select STD.</span></span> <span data-ttu-id="57a57-159">El STD representa el coste estándar y es el modelo más usado al trabajar con cálculos de coste.</span><span class="sxs-lookup"><span data-stu-id="57a57-159">STD stands for standard cost and is the most commonly used model when working with cost calculations.</span></span>  
-4. <span data-ttu-id="57a57-160">En el campo Grupo de artículos, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="57a57-160">In the Item group field, enter or select a value.</span></span>
-    * <span data-ttu-id="57a57-161">Por ejemplo, seleccione Audio.</span><span class="sxs-lookup"><span data-stu-id="57a57-161">For example, select Audio.</span></span> <span data-ttu-id="57a57-162">Esto no tiene aafecta de ninguna manera a los cálculos de coste.</span><span class="sxs-lookup"><span data-stu-id="57a57-162">This has no impact on cost calculations.</span></span>  
-5. <span data-ttu-id="57a57-163">En el campo Grupo de dimensiones de almacenamiento, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="57a57-163">In the Storage dimension group field, enter or select a value.</span></span>
-    * <span data-ttu-id="57a57-164">Seleccione SiteWH.</span><span class="sxs-lookup"><span data-stu-id="57a57-164">Select SiteWH.</span></span> <span data-ttu-id="57a57-165">Para este ejemplo solo se usarán el Sitio y el Almacén.</span><span class="sxs-lookup"><span data-stu-id="57a57-165">Only Site and Warehouse will be used for this example.</span></span>  
-6. <span data-ttu-id="57a57-166">En el campo Grupo de dimensiones de seguimiento, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="57a57-166">In the Tracking dimension group field, enter or select a value.</span></span>
-    * <span data-ttu-id="57a57-167">Las dimensiones de seguimiento no se usarán en este ejemplo.</span><span class="sxs-lookup"><span data-stu-id="57a57-167">Tracking dimensions will not be used for this example.</span></span> <span data-ttu-id="57a57-168">Seleccione Ninguno.</span><span class="sxs-lookup"><span data-stu-id="57a57-168">Select None.</span></span>  
-7. <span data-ttu-id="57a57-169">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="57a57-169">Click OK.</span></span>
-8. <span data-ttu-id="57a57-170">En el panel de acciones, haga clic en Administrar inventario.</span><span class="sxs-lookup"><span data-stu-id="57a57-170">On the Action Pane, click Manage inventory.</span></span>
-9. <span data-ttu-id="57a57-171">Haga clic en Configuración predeterminada de pedido.</span><span class="sxs-lookup"><span data-stu-id="57a57-171">Click Default order settings.</span></span>
-10. <span data-ttu-id="57a57-172">En el campo Sitio de compra, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="57a57-172">In the Purchase site field, enter or select a value.</span></span>
-    * <span data-ttu-id="57a57-173">Para este ejemplo, seleccione Sitio 1.</span><span class="sxs-lookup"><span data-stu-id="57a57-173">For this example, select Site 1.</span></span>  
-11. <span data-ttu-id="57a57-174">En el campo Sitio de inventario, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="57a57-174">In the Inventory site field, enter or select a value.</span></span>
-    * <span data-ttu-id="57a57-175">Para este ejemplo, seleccione Sitio 1.</span><span class="sxs-lookup"><span data-stu-id="57a57-175">For this example, select Site 1.</span></span>  
-12. <span data-ttu-id="57a57-176">En el campo Sitio de centas, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="57a57-176">In the Sales site field, enter or select a value.</span></span>
-    * <span data-ttu-id="57a57-177">Para este ejemplo, seleccione Sitio 1.</span><span class="sxs-lookup"><span data-stu-id="57a57-177">For this example, select Site 1.</span></span>  
-13. <span data-ttu-id="57a57-178">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="57a57-178">Close the page.</span></span>
-14. <span data-ttu-id="57a57-179">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="57a57-179">Close the page.</span></span>
-15. <span data-ttu-id="57a57-180">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="57a57-180">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="57a57-181">Haga clic en ITEM_B. </span><span class="sxs-lookup"><span data-stu-id="57a57-181">Click ITEM_B.</span></span>  
-16. <span data-ttu-id="57a57-182">Expanda la sección Administrar costes.</span><span class="sxs-lookup"><span data-stu-id="57a57-182">Expand the Manage costs section.</span></span>
-17. <span data-ttu-id="57a57-183">Introduzca un valor en el campo Grupo de costes.</span><span class="sxs-lookup"><span data-stu-id="57a57-183">In the Cost group field, type a value.</span></span>
-    * <span data-ttu-id="57a57-184">Para este ejemplo, introduzca M2.</span><span class="sxs-lookup"><span data-stu-id="57a57-184">For this example, type M2.</span></span>  
-18. <span data-ttu-id="57a57-185">En el panel de acciones, haga clic en Gestionar costes.</span><span class="sxs-lookup"><span data-stu-id="57a57-185">On the Action Pane, click Manage costs.</span></span>
-19. <span data-ttu-id="57a57-186">Haga clic en Precio de artículo.</span><span class="sxs-lookup"><span data-stu-id="57a57-186">Click Item price.</span></span>
-20. <span data-ttu-id="57a57-187">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="57a57-187">Click New.</span></span>
-21. <span data-ttu-id="57a57-188">En el campo Versión, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="57a57-188">In the Version field, enter or select a value.</span></span>
-    * <span data-ttu-id="57a57-189">Para este ejemplo, seleccione 10.</span><span class="sxs-lookup"><span data-stu-id="57a57-189">For this example, select 10.</span></span> <span data-ttu-id="57a57-190">Este es el Tipo de gestión de costes de coste estándar.</span><span class="sxs-lookup"><span data-stu-id="57a57-190">This is the Standard cost costing type.</span></span>  
-22. <span data-ttu-id="57a57-191">En el campo Sitio, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="57a57-191">In the Site field, enter or select a value.</span></span>
-    * <span data-ttu-id="57a57-192">Para este ejemplo, seleccione Sitio 1.</span><span class="sxs-lookup"><span data-stu-id="57a57-192">For this example, select Site 1.</span></span>  
-23. <span data-ttu-id="57a57-193">En el campo Precio, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="57a57-193">In the Price field, enter a number.</span></span>
-    * <span data-ttu-id="57a57-194">Para la demostración, especifique 10.</span><span class="sxs-lookup"><span data-stu-id="57a57-194">For the demonstration, type 10.</span></span>  
-24. <span data-ttu-id="57a57-195">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="57a57-195">Click Save.</span></span>
-25. <span data-ttu-id="57a57-196">Haga clic en Activar precios pendientes.</span><span class="sxs-lookup"><span data-stu-id="57a57-196">Click Activate pending price(s).</span></span>
-26. <span data-ttu-id="57a57-197">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="57a57-197">Close the page.</span></span>
-27. <span data-ttu-id="57a57-198">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="57a57-198">Close the page.</span></span>
+## <a name="create-the-second-material"></a><span data-ttu-id="2192b-153">Cree el segundo material</span><span class="sxs-lookup"><span data-stu-id="2192b-153">Create the second material</span></span>
+1. <span data-ttu-id="2192b-154">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="2192b-154">Click New.</span></span>
+2. <span data-ttu-id="2192b-155">En el campo Número de producto, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="2192b-155">In the Product number field, type a value.</span></span>
+    * <span data-ttu-id="2192b-156">Para este ejemplo, especifique ITEM_B.</span><span class="sxs-lookup"><span data-stu-id="2192b-156">For this example, type ITEM_B.</span></span>  
+3. <span data-ttu-id="2192b-157">En el campo Grupo de modelos de artículo, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="2192b-157">In the Item model group field, enter or select a value.</span></span>
+    * <span data-ttu-id="2192b-158">Seleccione STD.</span><span class="sxs-lookup"><span data-stu-id="2192b-158">Select STD.</span></span> <span data-ttu-id="2192b-159">El STD representa el coste estándar y es el modelo más usado al trabajar con cálculos de coste.</span><span class="sxs-lookup"><span data-stu-id="2192b-159">STD stands for standard cost and is the most commonly used model when working with cost calculations.</span></span>  
+4. <span data-ttu-id="2192b-160">En el campo Grupo de artículos, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="2192b-160">In the Item group field, enter or select a value.</span></span>
+    * <span data-ttu-id="2192b-161">Por ejemplo, seleccione Audio.</span><span class="sxs-lookup"><span data-stu-id="2192b-161">For example, select Audio.</span></span> <span data-ttu-id="2192b-162">Esto no tiene aafecta de ninguna manera a los cálculos de coste.</span><span class="sxs-lookup"><span data-stu-id="2192b-162">This has no impact on cost calculations.</span></span>  
+5. <span data-ttu-id="2192b-163">En el campo Grupo de dimensiones de almacenamiento, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="2192b-163">In the Storage dimension group field, enter or select a value.</span></span>
+    * <span data-ttu-id="2192b-164">Seleccione SiteWH.</span><span class="sxs-lookup"><span data-stu-id="2192b-164">Select SiteWH.</span></span> <span data-ttu-id="2192b-165">Para este ejemplo solo se usarán el Sitio y el Almacén.</span><span class="sxs-lookup"><span data-stu-id="2192b-165">Only Site and Warehouse will be used for this example.</span></span>  
+6. <span data-ttu-id="2192b-166">En el campo Grupo de dimensiones de seguimiento, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="2192b-166">In the Tracking dimension group field, enter or select a value.</span></span>
+    * <span data-ttu-id="2192b-167">Las dimensiones de seguimiento no se usarán en este ejemplo.</span><span class="sxs-lookup"><span data-stu-id="2192b-167">Tracking dimensions will not be used for this example.</span></span> <span data-ttu-id="2192b-168">Seleccione Ninguno.</span><span class="sxs-lookup"><span data-stu-id="2192b-168">Select None.</span></span>  
+7. <span data-ttu-id="2192b-169">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="2192b-169">Click OK.</span></span>
+8. <span data-ttu-id="2192b-170">En el panel de acciones, haga clic en Administrar inventario.</span><span class="sxs-lookup"><span data-stu-id="2192b-170">On the Action Pane, click Manage inventory.</span></span>
+9. <span data-ttu-id="2192b-171">Haga clic en Configuración predeterminada de pedido.</span><span class="sxs-lookup"><span data-stu-id="2192b-171">Click Default order settings.</span></span>
+10. <span data-ttu-id="2192b-172">En el campo Sitio de compra, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="2192b-172">In the Purchase site field, enter or select a value.</span></span>
+    * <span data-ttu-id="2192b-173">Para este ejemplo, seleccione Sitio 1.</span><span class="sxs-lookup"><span data-stu-id="2192b-173">For this example, select Site 1.</span></span>  
+11. <span data-ttu-id="2192b-174">En el campo Sitio de inventario, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="2192b-174">In the Inventory site field, enter or select a value.</span></span>
+    * <span data-ttu-id="2192b-175">Para este ejemplo, seleccione Sitio 1.</span><span class="sxs-lookup"><span data-stu-id="2192b-175">For this example, select Site 1.</span></span>  
+12. <span data-ttu-id="2192b-176">En el campo Sitio de centas, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="2192b-176">In the Sales site field, enter or select a value.</span></span>
+    * <span data-ttu-id="2192b-177">Para este ejemplo, seleccione Sitio 1.</span><span class="sxs-lookup"><span data-stu-id="2192b-177">For this example, select Site 1.</span></span>  
+13. <span data-ttu-id="2192b-178">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="2192b-178">Close the page.</span></span>
+14. <span data-ttu-id="2192b-179">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="2192b-179">Close the page.</span></span>
+15. <span data-ttu-id="2192b-180">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="2192b-180">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="2192b-181">Haga clic en ITEM_B. </span><span class="sxs-lookup"><span data-stu-id="2192b-181">Click ITEM_B.</span></span>  
+16. <span data-ttu-id="2192b-182">Expanda la sección Administrar costes.</span><span class="sxs-lookup"><span data-stu-id="2192b-182">Expand the Manage costs section.</span></span>
+17. <span data-ttu-id="2192b-183">Introduzca un valor en el campo Grupo de costes.</span><span class="sxs-lookup"><span data-stu-id="2192b-183">In the Cost group field, type a value.</span></span>
+    * <span data-ttu-id="2192b-184">Para este ejemplo, introduzca M2.</span><span class="sxs-lookup"><span data-stu-id="2192b-184">For this example, type M2.</span></span>  
+18. <span data-ttu-id="2192b-185">En el panel de acciones, haga clic en Gestionar costes.</span><span class="sxs-lookup"><span data-stu-id="2192b-185">On the Action Pane, click Manage costs.</span></span>
+19. <span data-ttu-id="2192b-186">Haga clic en Precio de artículo.</span><span class="sxs-lookup"><span data-stu-id="2192b-186">Click Item price.</span></span>
+20. <span data-ttu-id="2192b-187">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="2192b-187">Click New.</span></span>
+21. <span data-ttu-id="2192b-188">En el campo Versión, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="2192b-188">In the Version field, enter or select a value.</span></span>
+    * <span data-ttu-id="2192b-189">Para este ejemplo, seleccione 10.</span><span class="sxs-lookup"><span data-stu-id="2192b-189">For this example, select 10.</span></span> <span data-ttu-id="2192b-190">Este es el Tipo de gestión de costes de coste estándar.</span><span class="sxs-lookup"><span data-stu-id="2192b-190">This is the Standard cost costing type.</span></span>  
+22. <span data-ttu-id="2192b-191">En el campo Sitio, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="2192b-191">In the Site field, enter or select a value.</span></span>
+    * <span data-ttu-id="2192b-192">Para este ejemplo, seleccione Sitio 1.</span><span class="sxs-lookup"><span data-stu-id="2192b-192">For this example, select Site 1.</span></span>  
+23. <span data-ttu-id="2192b-193">En el campo Precio, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="2192b-193">In the Price field, enter a number.</span></span>
+    * <span data-ttu-id="2192b-194">Para la demostración, especifique 10.</span><span class="sxs-lookup"><span data-stu-id="2192b-194">For the demonstration, type 10.</span></span>  
+24. <span data-ttu-id="2192b-195">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="2192b-195">Click Save.</span></span>
+25. <span data-ttu-id="2192b-196">Haga clic en Activar precios pendientes.</span><span class="sxs-lookup"><span data-stu-id="2192b-196">Click Activate pending price(s).</span></span>
+26. <span data-ttu-id="2192b-197">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="2192b-197">Close the page.</span></span>
+27. <span data-ttu-id="2192b-198">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="2192b-198">Close the page.</span></span>
 
-## <a name="create-the-third-material"></a><span data-ttu-id="57a57-199">Cree el tercer material</span><span class="sxs-lookup"><span data-stu-id="57a57-199">Create the third material</span></span>
-1. <span data-ttu-id="57a57-200">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="57a57-200">Click New.</span></span>
-2. <span data-ttu-id="57a57-201">En el campo Número de producto, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="57a57-201">In the Product number field, type a value.</span></span>
-    * <span data-ttu-id="57a57-202">Para la demostración, especifique ITEM_C.</span><span class="sxs-lookup"><span data-stu-id="57a57-202">For the demonstration, type ITEM_C</span></span>  
-3. <span data-ttu-id="57a57-203">En el campo Grupo de modelos de artículo, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="57a57-203">In the Item model group field, enter or select a value.</span></span>
-    * <span data-ttu-id="57a57-204">Seleccione STD.</span><span class="sxs-lookup"><span data-stu-id="57a57-204">Select STD.</span></span> <span data-ttu-id="57a57-205">El STD representa el coste estándar y es el modelo más usado al trabajar con cálculos de coste.</span><span class="sxs-lookup"><span data-stu-id="57a57-205">STD stands for standard cost and is the most commonly used model when working with cost calculations.</span></span>  
-4. <span data-ttu-id="57a57-206">En el campo Grupo de artículos, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="57a57-206">In the Item group field, enter or select a value.</span></span>
-    * <span data-ttu-id="57a57-207">Por ejemplo, seleccione Audio.</span><span class="sxs-lookup"><span data-stu-id="57a57-207">For example, select Audio.</span></span> <span data-ttu-id="57a57-208">Esto no tiene aafecta de ninguna manera a los cálculos de coste.</span><span class="sxs-lookup"><span data-stu-id="57a57-208">This has no impact on cost calculations.</span></span>  
-5. <span data-ttu-id="57a57-209">En el campo Grupo de dimensiones de almacenamiento, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="57a57-209">In the Storage dimension group field, enter or select a value.</span></span>
-    * <span data-ttu-id="57a57-210">Seleccione SiteWH.</span><span class="sxs-lookup"><span data-stu-id="57a57-210">Select SiteWH.</span></span> <span data-ttu-id="57a57-211">Para la demostración solo se usarán el Sitio y el Almacén.</span><span class="sxs-lookup"><span data-stu-id="57a57-211">Only Site and Warehouse will be used for the demonstration.</span></span>  
-6. <span data-ttu-id="57a57-212">En el campo Grupo de dimensiones de seguimiento, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="57a57-212">In the Tracking dimension group field, enter or select a value.</span></span>
-    * <span data-ttu-id="57a57-213">Las dimensiones de seguimiento no se usarán en este ejemplo.</span><span class="sxs-lookup"><span data-stu-id="57a57-213">Tracking dimensions will not be used for this example.</span></span> <span data-ttu-id="57a57-214">Seleccione Ninguno.</span><span class="sxs-lookup"><span data-stu-id="57a57-214">Select None.</span></span>  
-7. <span data-ttu-id="57a57-215">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="57a57-215">Click OK.</span></span>
-8. <span data-ttu-id="57a57-216">En el panel de acciones, haga clic en Administrar inventario.</span><span class="sxs-lookup"><span data-stu-id="57a57-216">On the Action Pane, click Manage inventory.</span></span>
-9. <span data-ttu-id="57a57-217">Haga clic en Configuración predeterminada de pedido.</span><span class="sxs-lookup"><span data-stu-id="57a57-217">Click Default order settings.</span></span>
-10. <span data-ttu-id="57a57-218">En el campo Sitio de compra, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="57a57-218">In the Purchase site field, enter or select a value.</span></span>
-    * <span data-ttu-id="57a57-219">Para este ejemplo, seleccione Sitio 1.</span><span class="sxs-lookup"><span data-stu-id="57a57-219">For this example, select Site 1.</span></span>  
-11. <span data-ttu-id="57a57-220">En el campo Sitio de inventario, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="57a57-220">In the Inventory site field, enter or select a value.</span></span>
-    * <span data-ttu-id="57a57-221">Para este ejemplo, seleccione Sitio 1.</span><span class="sxs-lookup"><span data-stu-id="57a57-221">For this example, select Site 1.</span></span>  
-12. <span data-ttu-id="57a57-222">En el campo Sitio de centas, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="57a57-222">In the Sales site field, enter or select a value.</span></span>
-    * <span data-ttu-id="57a57-223">Para este ejemplo, seleccione Sitio 1.</span><span class="sxs-lookup"><span data-stu-id="57a57-223">For this example, select Site 1.</span></span>  
-13. <span data-ttu-id="57a57-224">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="57a57-224">Close the page.</span></span>
-14. <span data-ttu-id="57a57-225">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="57a57-225">Close the page.</span></span>
-15. <span data-ttu-id="57a57-226">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="57a57-226">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="57a57-227">Haga clic en ITEM_C. </span><span class="sxs-lookup"><span data-stu-id="57a57-227">Click ITEM_C.</span></span>  
-16. <span data-ttu-id="57a57-228">Expanda la sección Administrar costes.</span><span class="sxs-lookup"><span data-stu-id="57a57-228">Expand the Manage costs section.</span></span>
-17. <span data-ttu-id="57a57-229">Introduzca un valor en el campo Grupo de costes.</span><span class="sxs-lookup"><span data-stu-id="57a57-229">In the Cost group field, type a value.</span></span>
-    * <span data-ttu-id="57a57-230">Para este ejemplo, especifique M1.</span><span class="sxs-lookup"><span data-stu-id="57a57-230">For this example, type M1.</span></span>  
-18. <span data-ttu-id="57a57-231">En el panel de acciones, haga clic en Gestionar costes.</span><span class="sxs-lookup"><span data-stu-id="57a57-231">On the Action Pane, click Manage costs.</span></span>
-19. <span data-ttu-id="57a57-232">Haga clic en Precio de artículo.</span><span class="sxs-lookup"><span data-stu-id="57a57-232">Click Item price.</span></span>
-20. <span data-ttu-id="57a57-233">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="57a57-233">Click New.</span></span>
-21. <span data-ttu-id="57a57-234">En el campo Versión, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="57a57-234">In the Version field, enter or select a value.</span></span>
-    * <span data-ttu-id="57a57-235">Para este ejemplo, seleccione 10.</span><span class="sxs-lookup"><span data-stu-id="57a57-235">For this example, select 10.</span></span> <span data-ttu-id="57a57-236">Este es el Tipo de gestión de costes de coste estándar.</span><span class="sxs-lookup"><span data-stu-id="57a57-236">This is the Standard cost costing type.</span></span>  
-22. <span data-ttu-id="57a57-237">En el campo Sitio, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="57a57-237">In the Site field, enter or select a value.</span></span>
-    * <span data-ttu-id="57a57-238">Para este ejemplo, seleccione Sitio 1.</span><span class="sxs-lookup"><span data-stu-id="57a57-238">For this example, select Site 1.</span></span>  
-23. <span data-ttu-id="57a57-239">En el campo Precio, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="57a57-239">In the Price field, enter a number.</span></span>
-    * <span data-ttu-id="57a57-240">Para este ejemplo, especifique 10.</span><span class="sxs-lookup"><span data-stu-id="57a57-240">For this example, type 10.</span></span>  
-24. <span data-ttu-id="57a57-241">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="57a57-241">Click Save.</span></span>
-25. <span data-ttu-id="57a57-242">Haga clic en Activar precios pendientes.</span><span class="sxs-lookup"><span data-stu-id="57a57-242">Click Activate pending price(s).</span></span>
-26. <span data-ttu-id="57a57-243">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="57a57-243">Close the page.</span></span>
-27. <span data-ttu-id="57a57-244">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="57a57-244">Close the page.</span></span>
-
+## <a name="create-the-third-material"></a><span data-ttu-id="2192b-199">Cree el tercer material</span><span class="sxs-lookup"><span data-stu-id="2192b-199">Create the third material</span></span>
+1. <span data-ttu-id="2192b-200">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="2192b-200">Click New.</span></span>
+2. <span data-ttu-id="2192b-201">En el campo Número de producto, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="2192b-201">In the Product number field, type a value.</span></span>
+    * <span data-ttu-id="2192b-202">Para la demostración, especifique ITEM_C.</span><span class="sxs-lookup"><span data-stu-id="2192b-202">For the demonstration, type ITEM_C</span></span>  
+3. <span data-ttu-id="2192b-203">En el campo Grupo de modelos de artículo, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="2192b-203">In the Item model group field, enter or select a value.</span></span>
+    * <span data-ttu-id="2192b-204">Seleccione STD.</span><span class="sxs-lookup"><span data-stu-id="2192b-204">Select STD.</span></span> <span data-ttu-id="2192b-205">El STD representa el coste estándar y es el modelo más usado al trabajar con cálculos de coste.</span><span class="sxs-lookup"><span data-stu-id="2192b-205">STD stands for standard cost and is the most commonly used model when working with cost calculations.</span></span>  
+4. <span data-ttu-id="2192b-206">En el campo Grupo de artículos, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="2192b-206">In the Item group field, enter or select a value.</span></span>
+    * <span data-ttu-id="2192b-207">Por ejemplo, seleccione Audio.</span><span class="sxs-lookup"><span data-stu-id="2192b-207">For example, select Audio.</span></span> <span data-ttu-id="2192b-208">Esto no tiene aafecta de ninguna manera a los cálculos de coste.</span><span class="sxs-lookup"><span data-stu-id="2192b-208">This has no impact on cost calculations.</span></span>  
+5. <span data-ttu-id="2192b-209">En el campo Grupo de dimensiones de almacenamiento, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="2192b-209">In the Storage dimension group field, enter or select a value.</span></span>
+    * <span data-ttu-id="2192b-210">Seleccione SiteWH.</span><span class="sxs-lookup"><span data-stu-id="2192b-210">Select SiteWH.</span></span> <span data-ttu-id="2192b-211">Para la demostración solo se usarán el Sitio y el Almacén.</span><span class="sxs-lookup"><span data-stu-id="2192b-211">Only Site and Warehouse will be used for the demonstration.</span></span>  
+6. <span data-ttu-id="2192b-212">En el campo Grupo de dimensiones de seguimiento, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="2192b-212">In the Tracking dimension group field, enter or select a value.</span></span>
+    * <span data-ttu-id="2192b-213">Las dimensiones de seguimiento no se usarán en este ejemplo.</span><span class="sxs-lookup"><span data-stu-id="2192b-213">Tracking dimensions will not be used for this example.</span></span> <span data-ttu-id="2192b-214">Seleccione Ninguno.</span><span class="sxs-lookup"><span data-stu-id="2192b-214">Select None.</span></span>  
+7. <span data-ttu-id="2192b-215">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="2192b-215">Click OK.</span></span>
+8. <span data-ttu-id="2192b-216">En el panel de acciones, haga clic en Administrar inventario.</span><span class="sxs-lookup"><span data-stu-id="2192b-216">On the Action Pane, click Manage inventory.</span></span>
+9. <span data-ttu-id="2192b-217">Haga clic en Configuración predeterminada de pedido.</span><span class="sxs-lookup"><span data-stu-id="2192b-217">Click Default order settings.</span></span>
+10. <span data-ttu-id="2192b-218">En el campo Sitio de compra, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="2192b-218">In the Purchase site field, enter or select a value.</span></span>
+    * <span data-ttu-id="2192b-219">Para este ejemplo, seleccione Sitio 1.</span><span class="sxs-lookup"><span data-stu-id="2192b-219">For this example, select Site 1.</span></span>  
+11. <span data-ttu-id="2192b-220">En el campo Sitio de inventario, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="2192b-220">In the Inventory site field, enter or select a value.</span></span>
+    * <span data-ttu-id="2192b-221">Para este ejemplo, seleccione Sitio 1.</span><span class="sxs-lookup"><span data-stu-id="2192b-221">For this example, select Site 1.</span></span>  
+12. <span data-ttu-id="2192b-222">En el campo Sitio de centas, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="2192b-222">In the Sales site field, enter or select a value.</span></span>
+    * <span data-ttu-id="2192b-223">Para este ejemplo, seleccione Sitio 1.</span><span class="sxs-lookup"><span data-stu-id="2192b-223">For this example, select Site 1.</span></span>  
+13. <span data-ttu-id="2192b-224">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="2192b-224">Close the page.</span></span>
+14. <span data-ttu-id="2192b-225">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="2192b-225">Close the page.</span></span>
+15. <span data-ttu-id="2192b-226">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="2192b-226">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="2192b-227">Haga clic en ITEM_C. </span><span class="sxs-lookup"><span data-stu-id="2192b-227">Click ITEM_C.</span></span>  
+16. <span data-ttu-id="2192b-228">Expanda la sección Administrar costes.</span><span class="sxs-lookup"><span data-stu-id="2192b-228">Expand the Manage costs section.</span></span>
+17. <span data-ttu-id="2192b-229">Introduzca un valor en el campo Grupo de costes.</span><span class="sxs-lookup"><span data-stu-id="2192b-229">In the Cost group field, type a value.</span></span>
+    * <span data-ttu-id="2192b-230">Para este ejemplo, especifique M1.</span><span class="sxs-lookup"><span data-stu-id="2192b-230">For this example, type M1.</span></span>  
+18. <span data-ttu-id="2192b-231">En el panel de acciones, haga clic en Gestionar costes.</span><span class="sxs-lookup"><span data-stu-id="2192b-231">On the Action Pane, click Manage costs.</span></span>
+19. <span data-ttu-id="2192b-232">Haga clic en Precio de artículo.</span><span class="sxs-lookup"><span data-stu-id="2192b-232">Click Item price.</span></span>
+20. <span data-ttu-id="2192b-233">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="2192b-233">Click New.</span></span>
+21. <span data-ttu-id="2192b-234">En el campo Versión, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="2192b-234">In the Version field, enter or select a value.</span></span>
+    * <span data-ttu-id="2192b-235">Para este ejemplo, seleccione 10.</span><span class="sxs-lookup"><span data-stu-id="2192b-235">For this example, select 10.</span></span> <span data-ttu-id="2192b-236">Este es el Tipo de gestión de costes de coste estándar.</span><span class="sxs-lookup"><span data-stu-id="2192b-236">This is the Standard cost costing type.</span></span>  
+22. <span data-ttu-id="2192b-237">En el campo Sitio, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="2192b-237">In the Site field, enter or select a value.</span></span>
+    * <span data-ttu-id="2192b-238">Para este ejemplo, seleccione Sitio 1.</span><span class="sxs-lookup"><span data-stu-id="2192b-238">For this example, select Site 1.</span></span>  
+23. <span data-ttu-id="2192b-239">En el campo Precio, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="2192b-239">In the Price field, enter a number.</span></span>
+    * <span data-ttu-id="2192b-240">Para este ejemplo, especifique 10.</span><span class="sxs-lookup"><span data-stu-id="2192b-240">For this example, type 10.</span></span>  
+24. <span data-ttu-id="2192b-241">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="2192b-241">Click Save.</span></span>
+25. <span data-ttu-id="2192b-242">Haga clic en Activar precios pendientes.</span><span class="sxs-lookup"><span data-stu-id="2192b-242">Click Activate pending price(s).</span></span>
+26. <span data-ttu-id="2192b-243">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="2192b-243">Close the page.</span></span>
+27. <span data-ttu-id="2192b-244">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="2192b-244">Close the page.</span></span>
 

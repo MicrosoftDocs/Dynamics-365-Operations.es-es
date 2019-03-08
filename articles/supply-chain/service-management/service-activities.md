@@ -5,40 +5,38 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: smmActivityTypeGroup, SMADispatchBoard
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 84410a0fd112907bf821710c15a8f261c7d9f1ce
-ms.contentlocale: es-es
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315070"
 ---
-
-# <a name="service-activities"></a><span data-ttu-id="61e63-103">Actividades de servicio</span><span class="sxs-lookup"><span data-stu-id="61e63-103">Service activities</span></span>        
+# <a name="service-activities"></a><span data-ttu-id="dc26c-103">Actividades de servicio</span><span class="sxs-lookup"><span data-stu-id="dc26c-103">Service activities</span></span>        
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="61e63-104">Cree actividades de servicio para definir y mantener tareas en un pedido de servicio.</span><span class="sxs-lookup"><span data-stu-id="61e63-104">Create service activities to define and maintain tasks in a service order.</span></span> <span data-ttu-id="61e63-105">Un pedido de servicio puede incluir una o varias actividades de servicio que se realizarán por un trabajador.</span><span class="sxs-lookup"><span data-stu-id="61e63-105">A service order can include one or more service activities to be performed by a worker.</span></span>
+<span data-ttu-id="dc26c-104">Cree actividades de servicio para definir y mantener tareas en un pedido de servicio.</span><span class="sxs-lookup"><span data-stu-id="dc26c-104">Create service activities to define and maintain tasks in a service order.</span></span> <span data-ttu-id="dc26c-105">Un pedido de servicio puede incluir una o varias actividades de servicio que se realizarán por un trabajador.</span><span class="sxs-lookup"><span data-stu-id="dc26c-105">A service order can include one or more service activities to be performed by a worker.</span></span>
 
-<span data-ttu-id="61e63-106">Las actividades de servicio se definen en el formulario **Tipos de actividades**.</span><span class="sxs-lookup"><span data-stu-id="61e63-106">Service activities are defined in the **Activity types** form.</span></span> <span data-ttu-id="61e63-107">(Haga clic en **Ventas y marketing** \> **Configuración** \> **Actividades** \> **Tipos de actividades**) Después de configurar las actividades, puede agregarlas a los pedidos de servicio automáticamente en función del acuerdo de servicio relacionado, o puede agregar manualmente actividades al agregar líneas a un pedido de servicio.</span><span class="sxs-lookup"><span data-stu-id="61e63-107">(Click **Sales and marketing** \> **Setup** \> **Activities** \> **Activity types**.) After you set up activities, you can add them to service orders automatically based on the related service agreement, or you can manually add activities when you add lines to a service order.</span></span>
+<span data-ttu-id="dc26c-106">Las actividades de servicio se definen en el formulario **Tipos de actividades**.</span><span class="sxs-lookup"><span data-stu-id="dc26c-106">Service activities are defined in the **Activity types** form.</span></span> <span data-ttu-id="dc26c-107">(Haga clic en **Ventas y marketing** \> **Configuración** \> **Actividades** \> **Tipos de actividades**) Después de configurar las actividades, puede agregarlas a los pedidos de servicio automáticamente en función del acuerdo de servicio relacionado, o puede agregar manualmente actividades al agregar líneas a un pedido de servicio.</span><span class="sxs-lookup"><span data-stu-id="dc26c-107">(Click **Sales and marketing** \> **Setup** \> **Activities** \> **Activity types**.) After you set up activities, you can add them to service orders automatically based on the related service agreement, or you can manually add activities when you add lines to a service order.</span></span>
 
-<span data-ttu-id="61e63-108">Puede ver el estado de las actividades de servicio en el formulario **Panel de distribución**.</span><span class="sxs-lookup"><span data-stu-id="61e63-108">You can view the status of service activities in the **Dispatch board** form.</span></span> <span data-ttu-id="61e63-109">También puede reasignar actividades de un trabajador a otro trabajador en este formulario.</span><span class="sxs-lookup"><span data-stu-id="61e63-109">You can also reassign activities from one worker to another worker in that form.</span></span>
+<span data-ttu-id="dc26c-108">Puede ver el estado de las actividades de servicio en el formulario **Panel de distribución**.</span><span class="sxs-lookup"><span data-stu-id="dc26c-108">You can view the status of service activities in the **Dispatch board** form.</span></span> <span data-ttu-id="dc26c-109">También puede reasignar actividades de un trabajador a otro trabajador en este formulario.</span><span class="sxs-lookup"><span data-stu-id="dc26c-109">You can also reassign activities from one worker to another worker in that form.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="61e63-110">Consulte también</span><span class="sxs-lookup"><span data-stu-id="61e63-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="dc26c-110">Consulte también</span><span class="sxs-lookup"><span data-stu-id="dc26c-110">See also</span></span>
 
-<span data-ttu-id="61e63-111">[Panel de distribución (formulario)](https://technet.microsoft.com/en-us/library/hh242789\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="61e63-111">[Dispatch board (form)](https://technet.microsoft.com/en-us/library/hh242789\(v=ax.60\))</span></span>
-
+<span data-ttu-id="dc26c-111">[Panel de distribución (formulario)](https://technet.microsoft.com/en-us/library/hh242789\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="dc26c-111">[Dispatch board (form)](https://technet.microsoft.com/en-us/library/hh242789\(v=ax.60\))</span></span>
 
