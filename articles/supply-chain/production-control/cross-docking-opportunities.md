@@ -1,13 +1,13 @@
 ---
-title: "Tránsito directo desde pedidos de producción a muelles de salida"
-description: "Este tema describe cómo se administra el proceso de material de tránsito directo que se le notifica como terminado desde una línea de producción a un muelle de salida de transporte."
+title: Tránsito directo desde pedidos de producción a muelles de salida
+description: Este tema describe cómo se administra el proceso de material de tránsito directo que se le notifica como terminado desde una línea de producción a un muelle de salida de transporte.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSCrossDockOpportunityPolicy
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8691bb6702028070810a1503add33985de5ede3c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 62194012cfbe101d19e9de3254afb004da79a562
-ms.contentlocale: es-es
-ms.lasthandoff: 03/08/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329031"
 ---
-
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Tránsito directo desde pedidos de producción a muelles de salida
 
 [!include [banner](../includes/banner.md)]
@@ -126,6 +125,5 @@ Después de que un producto se notifica como terminado en la línea de producci�
 ### <a name="additional-information"></a>Información adicional
 
 -   La situación de tránsito directo se admite para artículos controlados de lote y serie, con las dimensiones de lote y número de serie definidas anteriormente y la ubicación de más abajo en la jerarquía de la reserva. 
-
 
 

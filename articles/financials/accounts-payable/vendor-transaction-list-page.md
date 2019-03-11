@@ -1,13 +1,13 @@
 ---
-title: "Página de lista de transacciones de proveedor"
-description: "Este tema proporciona información acerca de la página de lista de transacciones de proveedor para Microsoft Dynamics 365 for Finance and Operations."
+title: Página de lista de transacciones de proveedor
+description: En el siguiente tema se proporciona información acerca de la página de lista de transacciones de proveedor para Microsoft Dynamics 365 for Finance and Operations.
 author: mikefalkner
 manager: aolson
 ms.date: 08/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -15,15 +15,14 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-10-31
-ms.dyn365.ops.version: 8.1
+ms.dyn365.ops.version: 8.0999999999999996
+ms.openlocfilehash: 99a169bd51e14f15c085f7547ec240b2787258cc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: c6502a6fb0ceaed75fd5bb6ec5b2f13db1879eea
-ms.openlocfilehash: 45033b8b015d468b7ee0f6c3fba5e6fb6201433e
-ms.contentlocale: es-es
-ms.lasthandoff: 10/12/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341750"
 ---
-
 # <a name="vendor-transactions-list-page"></a>Página de lista de transacciones de proveedor
 
 [!include [banner](../includes/banner.md)]
@@ -40,10 +39,10 @@ El botón **Ver liquidaciones** en el panel de acciones proporciona un acceso r�
 
 4. En el cuadro de diálogo, puede realizar varias tareas. Seleccione uno o más asientos y luego seleccione uno de los botones siguientes:
 
-    - **Ver relacionado** Muestra todas las transacciones del diario de pagos creadas en el diario de pagos relacionado con el documento seleccionado. Además, se muestran todas las liquidaciones relacionadas con los pagos. Mientras mira los pagos relacionados, la etiqueta de este botón cambia a **Ver liquidaciones**. Seleccione **Ver liquidaciones** para mostrar solo las transacciones que se mostraron cuando abrió por primera vez el cuadro de diálogo **Ver liquidaciones**.
+    - **Visión relacionada**: permite mostrar todas las transacciones del diario de pagos y transacciones del diario general para el proveedor que se crearon en los diarios en los que los documentos mostrados en la lista fueron creados. Por ejemplo, si se muestra un pago, todas los pagos del diario de pagos en el que se creó también se mostrarán. Si se muestra una factura o pago y se creó en un diario general, después todos los documentos en el diario general en el que se creó se mostrarán. También se muestran todas las liquidaciones relacionadas con la lista de documentos. Mientras mira los pagos relacionados, la etiqueta de este botón cambia a **Ver liquidaciones**. Seleccione **Ver liquidaciones** para mostrar solo las transacciones que se mostraron cuando abrió por primera vez el cuadro de diálogo **Ver liquidaciones**.
     - **Ver el historial** Muestra el historial de liquidaciones de los asientos. Haga clic en **Cerrar** para cerrar el cuadro de diálogo.
     - **Ver contabilidad** - Muestra todos los asientos que están relacionados con los documentos seleccionados. Haga clic en **Cerrar** para cerrar el cuadro de diálogo.
-    - **Exportar** Exporte los asientos seleccionados a Microsoft Excel.
+    - **Exportar**: exporte los asientos seleccionados a Microsoft Excel.
     - **Liquidar transacciones** Este botón aparece solo si el documento original seleccionado no se ha liquidado por completo. Al seleccionar este botón, el cuadro de diálogo **Liquidar transacciones** aparece, donde puede seleccionar las transacciones que quiere liquidar.
     - **Deshacer liquidación** Este botón aparece solo si el documento original seleccionado se liquidó por completo. Al seleccionar este botón, el cuadro de diálogo **Deshacer liquidación** aparece, donde puede deshacer liquidaciones que se realizaron para dicho documento.
 
@@ -98,4 +97,3 @@ Cada campo tiene un efecto diferente en la transacción cuando lo edita:
 - **Editar las condiciones de descuento por pronto pago:** los descuentos por pronto pago cambian en función de la fecha de base y de las condiciones de descuento por pronto pago.
 
 Cuando haya terminado de editar los valores de pago, seleccione **Cerrar** para guardar los cambios.
-

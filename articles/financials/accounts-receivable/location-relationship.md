@@ -1,14 +1,14 @@
 ---
-title: "Agregar ubicación y tipos de relaciones de las partes"
-description: "En este tema se explica cómo agregar una nueva ubicación y un tipo de relación de las partes."
+title: Agregar ubicación y tipos de relaciones de las partes
+description: En este tema se explica cómo agregar una nueva ubicación y un tipo de relación de las partes.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-05-02
 ms.dyn365.ops.version: AX 8.0.0
+ms.openlocfilehash: 543784e8072f88c10f63e1b44921b9f2d37308c3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e0ab9c9894fdd5fba224c166941abbf52172ae46
-ms.openlocfilehash: 27819c922832a30eb0b20db6bffdbd4504e6d5e6
-ms.contentlocale: es-es
-ms.lasthandoff: 06/12/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357505"
 ---
-
 # <a name="add-location-roles-and-party-relationship-types"></a>Agregar roles de ubicación y tipos de relaciones de las partes 
 
 [!include [banner](../includes/banner.md)]
@@ -75,4 +74,3 @@ Existen dos formas de agregar un nuevo tipo de relación:
     3.  Para probar a rellenar el nuevo tipo de relación, puede crear una clase ejecutable y denominar DirDataPopulation::insertDirRelationshipTypes() en Main(). Solo debería ver el nuevo tipo de relación en **DirRelationshipTypeTable** y el nuevo tipo de relación estará disponible en la página **Tipos de relación** .
 
         ![Clase ejecutable](media/Runnable.PNG)
-

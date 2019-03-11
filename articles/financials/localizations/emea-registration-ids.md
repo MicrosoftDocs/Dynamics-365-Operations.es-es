@@ -1,13 +1,13 @@
 ---
 title: Id. de registro
-description: "Este tema proporciona información acerca de la configuración y el uso de Id. de registro."
+description: Este tema proporciona información acerca de la configuración y el uso de Id. de registro.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/08/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DirPartTaxRegistrationSearch, LogisticsPostalAddress, TaxRegistrationLegislationTypes, TaxRegistrationType
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 7b663b9a72afdd3c2e2dcf503152f02e0b7861fd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 978c6c6f2a3de803f252e93040d2d7eb2bc4a793
-ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350513"
 ---
-
 # <a name="registration-ids"></a>Id. de registro
 
 [!include [banner](../includes/banner.md)]
@@ -55,7 +54,7 @@ La categoría del registro es un identificador de registro de país/región apro
 |-----------------------|----------------|
 | Tipo de registro     | El tipo de registro en un país/región particular.|
 | Restringido a         | La clase de restricción que se aplica al tipo de registro de impuestos: Ninguno, persona, organización.|
-| Categoría de registro | El identificador único de registro aprobado para usar en el país. La lista completa que se admite en las categorías de Microsoft Dynamics 365 for Finance and Operations se muestra a continuación. |
+| Categoría de registro | El identificador único de registro aprobado para usar en el país. La lista completa de categorías Microsoft Dynamics 365 for Finance and Operations compatibles está a continuación. |
 
 ## <a name="enter-registration-ids-for-global-address-book-records"></a>Especificar el identificador del registro de los registros de la libreta de direcciones global
 
@@ -101,7 +100,7 @@ La tabla siguiente muestra una lista de los tipos de registro admitidos en Finan
 | Documento de identificación oficial                              | España             | Documento de identificación oficial|
 | Certificado de residencia                                         | España             | Certificado de residencia|
 | Otro documento de identificación                                 | España             | Otro documento de identificación|
-| Sin censurar                                                  | España             | No disponible en AX 2012 R3|
+| Sin censar                                                  | España             | No disponible en AX 2012 R3|
 
 
 Para obtener más información acerca del procesamiento de los id. de registro, incluidos requisitos previos necesarios, consulte las grabaciones de tareas para el identificador de IVA en Lifecycle Services (LCS):
@@ -109,7 +108,6 @@ Para obtener más información acerca del procesamiento de los id. de registro, 
 -   Configuración del Id. de IVA
 -   Registro de ID de IVA del proveedor
 -    Búsqueda de la parte mediante el Id. de IVA
-
 
 
 

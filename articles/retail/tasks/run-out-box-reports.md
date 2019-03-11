@@ -1,13 +1,13 @@
---- 
+---
 title: Generar y ejecutar informes listos para usar
-description: "Use esta guía de tareas para ejecutar informes listos para usar en la sede de diferentes áreas de trabajo e informes de Consultas y ventas que se encuentran en Venta minorista y comercio."
+description: Use esta guía de tareas para ejecutar informes listos para usar en la sede de diferentes áreas de trabajo e informes de Consultas y ventas que se encuentran en Venta minorista y comercio.
 author: ashishmsft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailCategoryAndProductWorkspace, RetailOrgHierarchyTreeLookup, SrsReportViewerForm
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: b42f86fc243312d18654b1a048f9dffb29afd187
-ms.contentlocale: es-es
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365256"
 ---
 # <a name="generate-and-run-out-of-box-reports"></a>Generar y ejecutar informes listos para usar
 
@@ -66,5 +66,4 @@ La empresa de datos de prueba utilizada para crear este registro es USRT. Este r
 4. Haga clic en Aceptar
 5. Haga clic en Exportar.
 6. Haga clic en PDF.
-
 

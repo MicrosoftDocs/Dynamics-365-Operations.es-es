@@ -1,13 +1,13 @@
 ---
-title: "Calcular las fechas de vencimiento y el informe en el período medio de pagos (España)"
-description: "Este tema proporciona información acerca de las fechas de vencimiento y el período medio de pagos para España."
+title: Calcular las fechas de vencimiento y el informe en el período medio de pagos (España)
+description: Este tema proporciona información acerca de las fechas de vencimiento y el período medio de pagos para España.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -15,14 +15,13 @@ ms.search.region: Spain
 ms.author: anasyash
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.translationtype: HT
-ms.sourcegitcommit: c4428613441424c81f4fd7dd92bbf842c62ce860
 ms.openlocfilehash: 6231be8dc847542d4fc0ef0d596cd6b1bc35ac03
-ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370426"
 ---
-
 # <a name="calculate-due-dates-and-report-on-the-average-period-of-payments-spain"></a>Calcular las fechas de vencimiento y el informe en el período medio de pagos (España)
 
 [!include[banner](../includes/banner.md)]
@@ -112,4 +111,3 @@ Para generar el informe siga los pasos siguientes.
 4. En el grupo de campos **Cálculo**, en el campo **Método de cálculo**, seleccione el método de cálculo (**Fecha de factura** o **Fecha de vencimiento**).
 5. En la ficha desplegable **Registro para incluir**, especifique los criterios que deben emplearse para seleccionar las transacciones del proveedor, como facturas, pagos y diarios de pagarés. (Use **Filtrar** para especificar los criterios).
 6. Haga clic en **Aceptar** para generar el informe.
-

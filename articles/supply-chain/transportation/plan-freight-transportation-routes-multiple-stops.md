@@ -1,13 +1,13 @@
 ---
 title: Planificar rutas de transporte de flete con varias paradas
-description: "Este artículo describe los distintos elementos que utiliza para planificar rutas de transporte en Dynamics 365 for Finance and Operations."
+description: Este artículo describe los distintos elementos que utiliza para planificar rutas de transporte en Dynamics 365 for Finance and Operations.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSHubMaster, TMSLoadBuildTemplates, TMSRateRouteWorkbench, TMSRouteGuide, TMSRoutePlan, TMSRouteWorkbench, WHSLoadTemplate
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 36cb454477c0d296246c061d2573954a81c9efd7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 16255e812773ed35c0e34ec26a8a689ea09632bd
-ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328318"
 ---
-
 # <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Planificar rutas de transporte de flete con varias paradas
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ Una ruta programada es un plan de ruta predefinido que tiene una programación p
 
 ## <a name="load-building-workbench"></a>Área de trabajo de planificación de la carga
 El Área de trabajo de planificación de la carga utiliza direcciones y fechas de entrega desde pedidos de ventas y las rutas programadas que están disponibles para proponer una carga. De forma predeterminada, los valores de la ruta se especifican en el área de trabajo. Sin embargo, puede seleccionar una fecha de inicio que sea anterior a la fecha de inicio en la ruta. Cuando se propone una carga, se comprueban la dirección de entrega y la fecha de entrega de pedidos de ventas abiertos. Si el código postal de la dirección de entrega coincide con el código postal de un concentrador en el plan de viaje, y la fecha de entrega se encuentra dentro del intervalo seleccionado en los criterios, se propone la orden de venta para la carga. También se considera la capacidad de la plantilla de carga. Solo se propone una carga cada vez. Si tiene un pedido de ventas que no se incluye, es posible que tenga que utilizar una plantilla de carga diferente (por ejemplo, una plantilla de carga para un camión o un contenedor más grandes) o planificar una entrega adicional.
-
 
 
 

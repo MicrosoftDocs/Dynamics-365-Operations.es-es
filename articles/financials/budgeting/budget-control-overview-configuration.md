@@ -1,13 +1,13 @@
 ---
-title: "Visión general del control presupuestario"
-description: "Este artículo presenta el control presupuestario y proporciona información para ayudarle a configurar el control presupuestario en Microsoft Dynamics 365 for Finance and Operations de manera que pueda gestionar los recursos financieros."
+title: Visión general del control presupuestario
+description: Este artículo presenta el control presupuestario y proporciona información para ayudarle a configurar el control presupuestario en Microsoft Dynamics 365 for Finance and Operations de manera que pueda gestionar los recursos financieros.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetControlConfiguration
 audience: Application User
 ms.reviewer: shylaw
@@ -18,15 +18,14 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4dbbbdf403c3e3f7c1bfa391cc32f80505098db9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: e77760d6729b8faf3099590c60ea7673cfcb18ec
-ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308538"
 ---
-
-# <a name="budget-control-overview"></a>Visión general del control presupuestario 
+# <a name="budget-control-overview"></a>Visión general del control presupuestario
 
 [!include [banner](../includes/banner.md)]
 
@@ -128,4 +127,3 @@ Una vez que se activa el control presupuestario, los usuarios recibirán mensaje
 En esta página, los usuarios pueden explorar la página **Estadísticas de control presupuestario por periodo** para ver los detalles de disponibilidad y las reservas para una combinación de dimensión de control de presupuesto seleccionada. Los usuarios también pueden explorar la página **Estadísticas de control presupuestario** para ver la disponibilidad de presupuesto para todas las combinaciones de dimensiones financieras que se usan en el control presupuestario. 
 
 Si se activa el control presupuestario para los pedidos de compra, el director de presupuestos puede usar el espacio de trabajo **Presupuestos y previsiones contables** para revisar la cola de todos los pedidos de compra que tienen errores y advertencias de comprobación presupuestaria. Si el director de presupuestos tiene permisos de presupuesto excedido configurados, puede confirmar los pedidos de compra directamente en el espacio de trabajo.    
-

@@ -1,13 +1,13 @@
---- 
+---
 title: Modificar formatos al aplicar de nuevo plantillas de Excel
-description: "Para completar estos pasos en este procedimiento, primero debe completar el procedimiento - Diseñar una configuración de ER para generar informes en formato OPENXML”."
+description: Para completar estos pasos en este procedimiento, primero debe completar el procedimiento - Diseñar una configuración de ER para generar informes en formato OPENXML”.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 3d5752caba9327475bb28c7bc6b0ee7e072f44f3
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327122"
 ---
 # <a name="modify-formats-by-reapplying-excel-templates"></a>Modificar formatos al aplicar de nuevo plantillas de Excel
 
@@ -28,7 +28,7 @@ ms.lasthandoff: 08/09/2018
 
 Para completar estos pasos en este procedimiento, primero debe completar el procedimiento - Diseñar una configuración de ER para generar informes en formato OPENXML”.
 
-Este procedimiento explica cómo modificar una configuración de formado del informe electrónico (ER) aplicando de nuevo una plantilla de Microsoft Excel que ha sido modifficada. En este procedimiento, importará una plantilla modificade de Excel a la configuración de formato ER que ha sido creado por la empresa de ejemplo, Litware, Inc. y después generar documentos electrónicos. Este procedimiento se ha creado para los usuarios con los roles de Administrador del sistema o Desarrollador de informes electrónicos asignados. Estos pasos se pueden completar mediante el conjunto de datos de GBSI. Antes de empezar, descargue y guarde el archivo, SampleVendPaymWsReport2.xlsx, que se muestra en el tema de Ayuda, modifique el formato electrónico del informe reaplicando una plantilla de Excel (modify-electronic-reporting-format-reapply-excel-template/).
+Este procedimiento explica cómo modificar una configuración de formado del informe electrónico (ER) aplicando de nuevo una plantilla de Microsoft Excel que ha sido modificada. En este procedimiento, importará una plantilla modificade de Excel a la configuración de formato ER que ha sido creado por la empresa de ejemplo, Litware, Inc. y después generar documentos electrónicos. Este procedimiento se ha creado para los usuarios con los roles de Administrador del sistema o Desarrollador de informes electrónicos asignados. Estos pasos se pueden completar mediante el conjunto de datos de GBSI. Antes de empezar, descargue y guarde el archivo, SampleVendPaymWsReport2.xlsx, que se muestra en el tema de Ayuda, modifique el formato electrónico del informe reaplicando una plantilla de Excel (modify-electronic-reporting-format-reapply-excel-template/).
 
 1. Vaya a Administración de la organización > Espacios de trabajo > Informes electrónicos.
     * Asegúrese de que el proveedor de configuración de la empresa de ejemplo “Litware, Inc.” está disponible y marcado como Activo. Si no ve a este proveedor de configuración, complete los pasos del procedimiento "Creación de un proveedor de configuración y marcarlo como activo".  
@@ -83,5 +83,4 @@ Este procedimiento explica cómo modificar una configuración de formado del inf
 
 ## <a name="use-the-modified-draft-version-of-the-er-format-for-payment-journal-processing"></a>Usar la versión de borrador modificada del formato del ER para el procesamiento del diario de pagos
     * Revise la hoja de cálculo creada, incluido el nuevo detalle de líneas de pago – fecha de pago.  
-
 

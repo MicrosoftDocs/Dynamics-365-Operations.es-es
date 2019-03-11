@@ -1,13 +1,13 @@
 ---
 title: Informes financieros
-description: "Los informes financieros para Finance and Operations permiten a los profesionales financieros y empresariales crear, mantener, implementar y ver resultados financieros. Se mueve más allá de las restricciones tradicionales de informes para ayudarle a diseñar con eficacia diversos tipos de informes."
+description: Los informes financieros para Finance and Operations permiten a los profesionales financieros y empresariales crear, mantener, implementar y ver resultados financieros. Se mueve más allá de las restricciones tradicionales de informes para ayudarle a diseñar con eficacia diversos tipos de informes.
 author: aprilolson
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinanicalReportingSetup
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: ae2087cf142fc2670bda3c542b336f12978178a6
-ms.contentlocale: es-es
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323787"
 ---
-
 # <a name="financial-reporting"></a>Informes financieros
 
 [!include [banner](../includes/banner.md)]
@@ -76,7 +75,7 @@ Los siguientes componentes de los informes financieros facilitan la creación, l
 <ul>
 <li>Programe los informes para que se generen automáticamente cada día, semana, mes o año.</li>
 <li>Exporte al formato de solo lectura de XPS, que proporciona una mayor seguridad del documento a través de firmas digitales.</li>
-<li>Exporte a una hoja de cálculo de Microsoft Excel.</li>
+<li>Exportar a una hoja de cálculo de Microsoft Excel</li>
 <li>Para compartir informes, puede crear mensajes de correo electrónico que contienen vínculos a los informes.</li>
 </ul>
 </td>
@@ -98,4 +97,3 @@ Los siguientes componentes de los informes financieros facilitan la creación, l
 
 ## <a name="additional-resources"></a>Recursos adicionales
 [Generar un informe financiero](generate-financial-report.md)
-

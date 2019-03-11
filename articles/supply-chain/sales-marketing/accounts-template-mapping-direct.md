@@ -1,40 +1,39 @@
 ---
 title: Sincronizar directamente cuentas de Sales con clientes de Finance and Operations
-description: En este tema se describen las plantillas y las tareas subyacentes que se usan para sincronizar cuentas de Microsoft Dynamics 365 for Sales a Microsoft Dynamics 365 for Finance and Operations.
+description: En este tema se describe las plantillas y las tareas subyacentes que se usan para sincronizar cuentas de Microsoft Dynamics 365 for Sales a Microsoft Dynamics 365 for Finance and Operations.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
 ms.openlocfilehash: a0cabdab63d4d44010e52303d6f487db1e910059
-ms.contentlocale: es-es
-ms.lasthandoff: 11/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317899"
 ---
-
 # <a name="synchronize-accounts-directly-from-sales-to-customers-in-finance-and-operations"></a>Sincronizar cuentas directamente desde Sales con clientes de Finance and Operations
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Para poder usar la solución Prospect to cash, deberá familiarizarse con [Integrar datos en Common Data Service for Apps](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
+> Para poder usar la solución Prospect to cash, deberá familiarizarse con [Integración de datos en Common Data Service para aplicaciones](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
 
-En este tema se describen las plantillas y las tareas subyacentes que se usan para sincronizar cuentas directamente de Microsoft Dynamics 365 for Sales a Microsoft Dynamics 365 for Finance and Operations.
+En este tema se describe las plantillas y las tareas subyacentes que se usan para sincronizar cuentas directamente de Microsoft Dynamics 365 for Sales a Microsoft Dynamics 365 for Finance and Operations.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Flujo de datos en Prospect to cash
 
@@ -115,5 +114,4 @@ Las siguientes ilustraciones muestran un ejemplo de una asignación de plantilla
 [Sincronizar encabezados y líneas de pedido de ventas directamente desde Finance and Operations en Sales](sales-order-template-mapping-direct-two-ways.md)
 
 [Sincronizar encabezados y líneas de factura directamente de Finance and Operations en Sales](sales-invoice-template-mapping-direct.md)
-
 

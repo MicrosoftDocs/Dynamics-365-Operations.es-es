@@ -1,13 +1,13 @@
---- 
-title: "Definir proceso de recuento cíclico de ubicaciones parcial"
-description: "Al usar planes de recuento cíclico para crear trabajos de recuento, puede dirigir las operaciones de recuento en curso solicitando que solo los productos específicos y las variantes de producto se cuenten en lugar de todos los inventarios disponibles en la ubicación."
+---
+title: Definir proceso de recuento cíclico de ubicaciones parcial
+description: Al usar planes de recuento cíclico para crear trabajos de recuento, puede dirigir las operaciones de recuento en curso solicitando que solo los productos específicos y las variantes de producto se cuenten en lugar de todos los inventarios disponibles en la ubicación.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/23/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3aafb42cea1664b0629f57fe4492736601902cc1
+ms.sourcegitcommit: bacad87e2b9146e08e6fe16af01356954eb90574
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 030f0f75d64c97f1109f36c9fd38283c2d1fa7b0
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "373420"
 ---
 # <a name="define-partial-location-cycle-counting-process"></a>Definir proceso de recuento cíclico de ubicaciones parcial 
 
@@ -71,5 +71,4 @@ Al usar planes de recuento cíclico para crear trabajos de recuento, puede dirig
 13. En el campo Criterios, especifique o seleccione un valor.
 14. Haga clic en Aceptar
 15. Cierre la página.
-
 

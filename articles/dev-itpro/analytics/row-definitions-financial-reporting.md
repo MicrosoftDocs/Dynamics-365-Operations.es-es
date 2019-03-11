@@ -1,13 +1,13 @@
 ---
-title: "Definiciones de filas en el diseñador de informes financieros"
-description: "Una definición de fila es un componente de informe, o bloque de creación, que especifica el contenido de cada fila de un informe financiero. Una definición de fila se puede combinar con las definiciones de columnas, definiciones de organigramas y definiciones de informes para crear un grupo de bloques de creación que puedan usar varias empresas."
+title: Definiciones de filas en el diseñador de informes financieros
+description: Una definición de fila es un componente de informe, o bloque de creación, que especifica el contenido de cada fila de un informe financiero. Una definición de fila se puede combinar con las definiciones de columnas, definiciones de organigramas y definiciones de informes para crear un grupo de bloques de creación que puedan usar varias empresas.
 author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: c829af1da1b3109f4687c9a2536dd156339d5c76
-ms.contentlocale: es-es
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "350444"
 ---
-
 # <a name="row-definitions-in-financial-report-designer"></a>Definiciones de filas en el diseñador de informes financieros
 
 [!include [banner](../includes/banner.md)]
@@ -158,9 +157,9 @@ Puede crear y modificar estilos de fuente para el informe. A continuación, pued
 
 ### <a name="format-row-text"></a>Dar formato al texto de la fila
 
-El formato que se especifica en la definición de la fila anula el formato que se especifica en la definición de la columna y la definición del informe. Puede modificar el formato de texto mediante los controles de la barra de herramientas de formato. Estos controles son controles estándar de Microsoft Windows.
+El formato que se especifica en la definición de la fila anula el formato que se especifica en la definición de la columna y la definición del informe. Puede modificar el formato de texto mediante los controles de la barra de herramientas de formato. Estos controles son estándar de Microsoft Windows.
 
-1. En el diseñador de informes, abra la definición de filas para modificarla.
+1. En el Diseñador de informes, abra la definición de fila que desee modificar.
 2. Seleccione las celdas a las que desea dar formato. Para seleccionar varias celdas, mantenga presionada la tecla Ctrl mientras selecciona la celda.
 3. Haga clic en el botón de la barra de herramientas del formato que desea aplicar. Por ejemplo, para aplicar sangría a una fila, seleccione la fila y luego haga clic en **Aumentar sangría** ![Aumentar sangría](https://i-technet.sec.s-msft.com/dynimg/IC679497.gif "Aumentar sangría") en la barra de herramientas.
 
@@ -189,4 +188,3 @@ Para facilitar ver las columnas en las que está trabajando en la definición de
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Informes financieros](financial-reporting-intro.md)
-

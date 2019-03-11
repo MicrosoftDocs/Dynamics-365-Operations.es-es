@@ -1,13 +1,13 @@
---- 
-title: "Contratar a empleados existentes a través de la contratación"
-description: "A veces las vacantes se pueden ocupar por candidatos que ya son empleados de la organización."
+---
+title: Contratar a empleados existentes a través de la contratación
+description: A veces las vacantes se pueden ocupar por candidatos que ya son empleados de la organización.
 author: rschloma
 manager: AnnBe
 ms.date: 02/10/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
 ms.openlocfilehash: 71793ce48142b19b288e2315dcd44a07d8e39f90
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365394"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>Contratar a empleados existentes a través de la contratación
 
@@ -40,5 +40,4 @@ A veces las vacantes se pueden ocupar por candidatos que ya son empleados de la 
 8. También puede seleccionar un código de motivo. Por ejemplo, Reorganización.
 9. Haga clic en Cambiar puesto.
     * También puede cambiar la compensación en este momento. Si no asigna una compensación en este momento, puede cambiarlo yendo al formulario del trabajador, seleccionando la ficha Compensación y eligiendo Plan fijo. Tras seleccionar Cambiar puesto, el estado de la solicitud se actualizará a Empleado.  
-
 

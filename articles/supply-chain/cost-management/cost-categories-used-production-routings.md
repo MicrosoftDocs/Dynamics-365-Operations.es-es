@@ -1,13 +1,13 @@
 ---
-title: "Categorías de costes utilizadas en las rutas de producción"
-description: "Este artículo proporciona información acerca de las categorías de coste que se aplican a los entornos de fabricación que usan ruta."
+title: Categorías de costes utilizadas en las rutas de producción
+description: Este artículo proporciona información acerca de las categorías de coste que se aplican a los entornos de fabricación que usan ruta.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjCategory, RouteCostCategoryPrice
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 90177a6b8dd277ba1180073c9cf416f857c5d730
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 53e038183a10b8732a9a5e0f25aac440c224400e
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315806"
 ---
-
 # <a name="cost-categories-used-in-production-routing"></a>Categorías de costes utilizadas en las rutas de producción
 
 [!include [banner](../includes/banner.md)]
@@ -54,7 +53,6 @@ El registro de costes para una categoría de costes puede ser específico o empr
 Normalmente, la operación de rutas hereda las categorías de costes asignadas a los recursos de operaciones o a la operación maestra. Cuando se crea un pedido de producción, las operaciones de rutas de la ruta de producción reflejan la versión de ruta seleccionada. Puede anular las categorías de costes asignadas a las operaciones de rutas de producción. 
 
 Algunos tipos de trabajo de producción se pueden aplicar a estimaciones del tiempo del proyecto y a los informes. En este caso, se requiere una categoría de coste para fines de proyecto y producción. Debe definirse la información adicional relacionada con el proyecto cuando se marque una categoría de costes para su uso en los proyectos.
-
 
 
 

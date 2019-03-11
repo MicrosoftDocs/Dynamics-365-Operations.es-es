@@ -1,14 +1,14 @@
 ---
 title: Recomendaciones inteligentes
-description: "Este tema explica cómo se puede usar el aprendizaje automático para proporcionar recomendaciones para los trabajos y los candidatos de trabajo."
+description: Este tema explica cómo se puede usar el aprendizaje automático para proporcionar recomendaciones para los trabajos y los candidatos de trabajo.
 author: josaw
 manager: AnnBe
 ms.date: 10/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
+ms.openlocfilehash: c6225a311f5ba0b65b45092a1f626b9d6aff3f5e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: fea36661c65739ef09261c82ec44e16c29fad0e7
-ms.contentlocale: es-es
-ms.lasthandoff: 10/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306113"
 ---
-
 # <a name="intelligent-recommendations"></a>Recomendaciones inteligentes
 
 [!include[banner](../includes/banner.md)]
@@ -45,4 +44,3 @@ Para cualquier candidato recomendado, puede seleccionar **Ver candidato** en la 
 ## <a name="job-recommendations"></a>Recomendación de trabajos 
 
 Cuando un empleado potencial utiliza el sitio de Proyectos profesionales para solicitar un trabajo, otros puestos vacantes en la organización se recomiendan. Estas recomendaciones se basan en las solicitudes anteriores del cliente viable y en su currículum o perfil de candidato. Por lo tanto, las recomendaciones de trabajo ayudan a los candidatos viables a identificar rápidamente los trabajos que se ajusten mejor a ellos. Las recomendaciones de trabajo se ofrecen a los clientes viables si hay más de diez trabajos publicados en el sitio de Proyectos profesionales. Los candidatos potenciales pueden abrir los detalles de una oferta de empleo desde la tarjeta de recomendación. También pueden proporcionar comentarios sobre una recomendación para ayudar a mejorar las recomendaciones futuras.
-

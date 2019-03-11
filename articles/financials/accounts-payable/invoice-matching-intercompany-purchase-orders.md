@@ -1,13 +1,13 @@
 ---
-title: "Conciliación de facturas y pedidos de compra de empresas vinculadas"
-description: "La entidad jurídica de compra que está involucrada en una transacción de negocios entre empresas vinculadas puede estar configurada para usar la conciliación de facturas de proveedores. En este caso, los requisitos de registro para el negocio entre empresas vinculadas y la conciliación de facturas de proveedores deben ser cumplidos antes de que las facturas de proveedor de empresas vinculadas se puedan registrar."
+title: Conciliación de facturas y pedidos de compra de empresas vinculadas
+description: La entidad jurídica de compra que está involucrada en una transacción de negocios entre empresas vinculadas puede estar configurada para usar la conciliación de facturas de proveedores. En este caso, los requisitos de registro para el negocio entre empresas vinculadas y la conciliación de facturas de proveedores deben ser cumplidos antes de que las facturas de proveedor de empresas vinculadas se puedan registrar.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchLineMatchingPolicy
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 68b586f8afe7557bf6edee3eca0261d1e9cac0f2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3d0eb5c19c07313f4d4c0bac1b9c48375446afd9
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357574"
 ---
-
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a>Conciliación de facturas y pedidos de compra de empresas vinculadas
 
 [!include [banner](../includes/banner.md)]
@@ -66,7 +65,6 @@ Por ejemplo, puede seguir estos pasos.
 2.  En Fabrikan Sales, actualiza una factura para ICSO999. El registro no se finaliza correctamente, ya que el artículo no se encuentra en existencias y todavía no se ha recibido. Por lo tanto, la Información financiera no puede actualizarse.
 3.  Registra la recepción de artículos y el albarán de ICSO999 en Fabrikam Sales. Una recepción de producto para ICPO333 se registra automáticamente en Fabrikam Purchase. La cantidad recibida del artículo B-R14 en Fabrikam Purchase cambia a 100.
 4.  En Fabrikan Sales, actualiza una factura para ICSO999. El registro se realiza correctamente en ambas entidades jurídicas. La cantidad adquirida del artículo B-R14 en Fabrikam Purchase cambia a 100.
-
 
 
 

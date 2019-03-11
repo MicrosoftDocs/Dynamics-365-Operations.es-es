@@ -1,13 +1,13 @@
 ---
-title: "Depreciación de factor"
-description: "Este artículo ofrece una visión general del método de depreciación de factor."
+title: Depreciación de factor
+description: Este artículo ofrece una visión general del método de depreciación de factor.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: fa8bc4566def9dd770a97facb459e6b977bfaffb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 44fa540c31e5302ccf0a65b44b3c45a4c1e1fd1f
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338806"
 ---
-
 # <a name="factor-depreciation"></a>Depreciación de factor
 
 [!include [banner](../includes/banner.md)]
@@ -77,7 +76,6 @@ El precio de adquisición es de 100.000, el factor es 20, el tiempo de vida es d
 
 ## <a name="straight-line-depreciation"></a>Depreciación lineal
 El valor del campo **Factor** es igual a **50**. En este caso, la depreciación es la misma en cada período y debe tener en cuenta las consecuencias de los valores que ha especificado en otros campos, como se describe en [Depreciación con amortización lineal de vida de servicio](straight-line-service-life-depreciation.md).
-
 
 
 

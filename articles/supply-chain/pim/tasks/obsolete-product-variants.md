@@ -1,13 +1,13 @@
---- 
+---
 title: Buscar variantes de producto obsoletas
-description: "Este procedimiento muestra cómo encontrar los productos liberados obsoletos o las variantes de producto y cómo asociar un estado de ciclo de vida del producto a los productos obsoletos."
+description: Este procedimiento muestra cómo encontrar los productos liberados obsoletos o las variantes de producto y cómo asociar un estado de ciclo de vida del producto a los productos obsoletos.
 author: cvocph
 manager: AnnBe
 ms.date: 12/05/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 4641d24cfa24722f5411da8943bfe4095a9546a4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: d445ea2f2362f146a1e3e7bcf747898dc2cc89ba
-ms.openlocfilehash: 3a59f988de5290d1d69d013b762f87d0cce10e39
-ms.contentlocale: es-es
-ms.lasthandoff: 02/08/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360196"
 ---
 # <a name="find-obsolete-product-variants"></a>Buscar variantes de producto obsoletas 
 
@@ -72,5 +72,4 @@ Este procedimiento muestra cómo encontrar los productos liberados obsoletos o l
 > Revise los productos emitidos y las variantes de producto cambiados.  
 
 8. En la lista, busque y seleccione el registro deseado.
-
 

@@ -1,13 +1,13 @@
---- 
-title: "Definir directivas de auditoría para documentos de origen"
-description: "En este procedimiento se muestra cómo configurar y ejecutar las reglas de directivas de auditoría."
+---
+title: Definir directivas de auditoría para documentos de origen
+description: En este procedimiento se muestra cómo configurar y ejecutar las reglas de directivas de auditoría.
 author: ryansandness
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysPolicySourceDocumentRuleType, SysFieldLookUp, SysPolicyListPage, SysPolicy, AuditPolicyRule, SysQueryForm, SysQueryFieldLookUp, AuditPolicyDateSelection, AuditPolicyAdditionalOption, BatchJob, CaseDetail
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: a82c3e8e8787beb309b75b73cda36f4ca8031d6f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 4b05f744120e940bfea3e92b8aac3e41fc8151d9
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336805"
 ---
 # <a name="define-audit-policies-for-source-documents"></a>Definir directivas de auditoría para documentos de origen
 
@@ -92,5 +92,4 @@ En este procedimiento se muestra cómo configurar y ejecutar las reglas de direc
 61. Expanda la sección Asociación.
 62. En la lista, busque y seleccione el registro deseado.
 63. En la lista, haga clic en el vínculo de la fila seleccionada.
-
 

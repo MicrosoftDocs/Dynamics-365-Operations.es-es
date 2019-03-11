@@ -1,13 +1,13 @@
 ---
-title: "Vista general de la liquidación para pagos centralizados"
-description: "En este tema se describe la liquidación de pagos centralizados para Microsoft Dynamics 365 for Finance and Operations."
+title: Vista general de la liquidación para pagos centralizados
+description: Este tema describe el acuerdo para pagos centralizados para Microsoft Dynamics 365 for Finance and Operations.
 author: abruer
 manager: AnnBe
 ms.date: 08/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: fc5a65c299adbf86fb2f38dff1a9aaa36f7367fa
 ms.openlocfilehash: 1fecc9027d0df7b268a3241ea0f1797849db2d90
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358586"
 ---
-
 # <a name="settlement-overview-for-centralized-payments"></a>Vista general de la liquidación para pagos centralizados
 
 [!include [banner](../includes/banner.md)]
@@ -109,4 +108,3 @@ Para los pagos de proveedores, las transacciones de destinatario de pago y de re
 
 ## <a name="withholding-tax"></a>Retención de impuestos
 La cuenta del proveedor asociada a la factura se usa para determinar si la retención de impuestos se debe calcular. Si se aplica la retención de impuestos, se calcula en la entidad jurídica asociada a la factura. Si las entidades jurídicas usan distintas divisas, se usará el tipo de cambio de la entidad jurídica asociada con la factura.
-

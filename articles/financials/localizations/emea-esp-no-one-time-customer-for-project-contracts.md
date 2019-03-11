@@ -1,13 +1,13 @@
 ---
 title: Clientes plantilla
-description: "Este tema proporciona información sobre los clientes plantilla."
+description: Este tema proporciona información sobre los clientes plantilla.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustTable
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Spain
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 6b94aec0956a967c1c342607cb4758e7220dffcb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1a2a2452d3b11f162aefd0f8a5bfe4c2052056f6
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370405"
 ---
-
 # <a name="one-time-customers"></a>Clientes plantilla
 
 [!include [banner](../includes/banner.md)]
@@ -43,7 +42,6 @@ Un cliente plantilla es un cliente que no tiene una relación a largo plazo con 
 1.  Abra la página **Parámetros de gestión de proyectos y contabilidad**.
 2.  Establezca el parámetro **No se permite usar clientes plantilla para contratos de proyectos** en **Verdadero**.
 3.  Haga clic en **Guardar**.
-
 
 
 

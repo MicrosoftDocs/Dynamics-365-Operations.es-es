@@ -1,13 +1,13 @@
 ---
-title: "Planificación de su jerarquía organizativa"
-description: "Antes de configurar las organizaciones y las jerarquías organizativas, asegúrese de saber cómo se modelará la empresa."
+title: Planificación de su jerarquía organizativa
+description: Antes de configurar las organizaciones y las jerarquías organizativas, asegúrese de saber cómo se modelará la empresa.
 author: sericks007
 manager: AnnBe
 ms.date: 08/28/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMHierarchyManager, OMLegalEntity, OMOperatingUnit
 audience: Application User
 ms.reviewer: sericks
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 633d85333a510cec9cee2721e6e2330a47b6c78c
-ms.contentlocale: es-es
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331998"
 ---
-
 # <a name="plan-your-organizational-hierarchy"></a>Planificación de su jerarquía organizativa
 
 [!include [banner](../includes/banner.md)]
@@ -168,7 +167,7 @@ Las unidades operativas usan el contexto del país o región de la entidad jurí
 
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>Si la organización se ha modelado como entidad jurídica
 
-Para los países o regiones admitidos por Finance and Operations, se puede crear la mayoría de los informes estatutarios. Para obtener más información acerca de qué informes están disponibles para cada país o región, vea el [Microsoft Dynamics Localization Portal](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC) para Finance and Operations. (Se requiere un inicio de sesión en CustomerSource).
+Para los países o regiones admitidos por Finance and Operations, se puede crear la mayoría de los informes estatutarios. Para obtener más información acerca de qué informes están disponibles para cada país o región, vea [Microsoft Dynamics Localization Portal](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC) para Finance and Operations. (Se requiere una sesión en CustomerSource).
 
 > [!NOTE]
 > En Finance and Operations, una capa de registro en la contabilidad general permite realizar entradas de ajuste a una empresa matriz que usa un estándar de contabilidad distinto del de la empresa secundaria. Por ejemplo, para una empresa que usa prácticas de contabilidad normalmente aceptadas en el Reino Unido (GAAP de Reino Unido), puede crear entradas de ajuste en la capa de registro. Estas entradas se pueden consolidar en una empresa matriz que usa los principios contables generalmente aceptados (GAAP) en Estados Unidos. Las entradas de ajuste no afectan a los informes de GAAP de Reino Unido.
@@ -243,4 +242,3 @@ Tenga en cuenta las siguientes prácticas recomendadas al implementar una jerarq
 - Antes de modelar los escenarios de reestructuración principales, use las fechas de vigencia de la jerarquía para llevar a cabo un análisis de impacto y una prueba de validación.
 - Use el modo de borrador para cambiar una jerarquía antes de publicar una nueva versión en un entorno de producción.
 - Limite el número de personas con permisos para agregar o quitar organizaciones de una jerarquía en un entorno de producción. Un número más pequeño reduce la posibilidad de que se puedan producir costosos errores y de que se deban realizar correcciones.
-

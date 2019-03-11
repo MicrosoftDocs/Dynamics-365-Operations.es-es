@@ -1,32 +1,31 @@
 ---
-title: "Parámetros de producción en ejecución de fabricación"
-description: "Este tema proporciona información sobre cómo configurar los parámetros de producción en la ejecución de fabricación."
+title: Parámetros de producción en ejecución de fabricación
+description: Este tema proporciona información sobre cómo configurar los parámetros de producción en la ejecución de fabricación.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgProdParameters
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: bf1afd18132e92cf081b7bde5067e1be90314467
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a0a28ba5072d55b8133f5458f75befa752a3dcdf
-ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339473"
 ---
-
 # <a name="production-parameters-in-manufacturing-execution"></a>Parámetros de producción en ejecución de fabricación
 
 [!include [banner](../includes/banner.md)]
@@ -154,5 +153,4 @@ Puede usar la siguiente configuración si los materiales deberían deducirse sie
 |     Operations     |   Consumo automático de L. MAT    | <strong>Nunca</strong>  |
 | Notificar como terminado |   Consumo automático de L. MAT    | <strong>Nunca</strong>  |
 | Notificar como terminado | Actualizar el registro en línea terminado | <strong>Estado</strong> |
-
 

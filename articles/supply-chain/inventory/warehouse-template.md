@@ -1,32 +1,31 @@
 ---
-title: "Configurar un almacén mediante una plantilla de configuración de almacén"
-description: "Este tema explica cómo configurar un almacén mediante una plantilla de configuración de almacén."
+title: Configurar un almacén mediante una plantilla de configuración de almacén
+description: Este tema explica cómo configurar un almacén mediante una plantilla de configuración de almacén.
 author: perlynne
 manager: AnnBe
 ms.date: 11/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DataManagementWorkspace, DMFQuickImportExportEnhanced, DMFDefinitionGroupTemplate, DMFEntityTemplateDefinitionLoadDialog
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 17016d015925cd31117231799b8741ffddb793f7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: e952a2f988645ccff7617817262cbf0e90bfd8ab
-ms.contentlocale: es-es
-ms.lasthandoff: 05/23/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338070"
 ---
-
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Configurar un almacén mediante una plantilla de configuración de almacén
 
 [!include [banner](../includes/banner.md)]
@@ -94,9 +93,8 @@ Puede descargar un archivo zip para el paquete de datos. Este archivo contiene t
 
 El registro **Ejecución de la vista** proporciona información detallada acerca de cada entidad de datos que se importe. Puede usar la vista de datos provisional para obtener rápidamente los datos de destino. De esta manera, puede ver cómo se muestran los datos importados en las páginas relacionadas en la aplicación. Al utilizar las plantillas de datos predeterminadas, la secuencia de importación para cada entidad de datos funciona de la forma predefinida, para ayudar a garantizar que todos los datos dependiente se importen primero. Si las entidades personalizadas de los datos son parte del proyecto, debe asegurarse de que se ha definido la secuencia correcta. Para obtener más información, consulte [Plantillas de datos de configuración](../../dev-itpro/data-entities/configuration-data-templates.md).
 
-Para obtener más información acerca de cómo usar una plantilla de almacén para copiar la configuración de un almacén de una empresa en una nueva empresa dentro de la misma instancia, vea este vídeo de 3 minutos en YouTube: [Usar una plantilla de almacén para copiar la configuración de Microsoft Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs).
+Para obtener más información acerca de cómo usar la plantilla del almacén para copiar la configuración de un almacén de una empresa a una nueva empresa dentro de la misma instancia, vea este vídeo de 3 minutos en YouTube: [Usar una plantilla de almacén para copiar la configuración de Microsoft Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs).
 
 ## <a name="related-topic"></a>Tema relacionado
 
 [Plantillas de datos de configuración](../../dev-itpro/data-entities/configuration-data-templates.md)
-

@@ -1,13 +1,13 @@
 ---
 title: Tipos de cuentas principales
-description: "Los tipos de cuenta principal determinan cómo se usa una cuenta principal en el plan contable."
+description: Los tipos de cuenta principal determinan cómo se usa una cuenta principal en el plan contable.
 author: aprilolson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: MainAccount
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5aadac3defc01be10daf5f3737d428135f4fb544
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 31d070972afd76f6069924e2c9a1ca3bcb4ba8d2
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313874"
 ---
-
 # <a name="main-account-types"></a>Tipos de cuentas principales
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +38,6 @@ Debe seleccionar un tipo de cuenta principal al crear una cuenta principal en la
 -   Notificación: estas cuentas principales se usan para notificar resultados financieros solo en Brasil.
 
 Para obtener más información, vea [Configuración de categorías de la cuenta principal](tasks/set-up-main-account-categories.md) .
-
 
 
 

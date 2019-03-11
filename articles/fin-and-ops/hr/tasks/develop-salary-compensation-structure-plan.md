@@ -1,13 +1,13 @@
---- 
+---
 title: Desarrollar plan y estructura de salarios o compensaciones
-description: "Esta guía de la tarea le lleva por el proceso de crear un plan de compensación fija y permitir que los empleados se inscriban en el plan a través de las reglas de idoneidad."
+description: Esta guía de la tarea le lleva por el proceso de crear un plan de compensación fija y permitir que los empleados se inscriban en el plan a través de las reglas de idoneidad.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, HcmCompensationWorkspace, HcmCompFixedPlansPart, HRMCompFixedPlanTable, HRMCompCreateGridDialog, HRCCompGridView, HRMCompEligibility,  HRCCompGrid
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 28d044cedbcc9f483a4deb7739aef0f8e3abf9ec
-ms.contentlocale: es-es
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332780"
 ---
 # <a name="develop-salarycompensation-structure-and-plan"></a>Desarrollar plan y estructura de salarios o compensaciones
 
@@ -74,5 +74,4 @@ Esta guía de la tarea le lleva por el proceso de crear un plan de compensación
     * Seleccione los criterios que un empleado debe cumplir para ser idóneo para el plan de compensación. Los criterios pueden incluir un departamento, un sindicato, una ubicación (región de compensación), un trabajo, una función, un tipo de trabajo o un nivel de compensación. El empleado debe cumplir todos los criterios especificados para ser idóneo para el plan de compensación. Si no se especifica ningún criterio, todos los empleados son idóneos para el plan de compensación. Si un empleado no cumple los criterios especificados en la regla de idoneidad o una regla de idoneidad no se ha especificado para un plan de compensación, el plan de compensación no aparecerá en las búsquedas al crear un registro de compensación fija para un empleado.  
 7. Cierre la página.
 8. Cierre la página.
-
 

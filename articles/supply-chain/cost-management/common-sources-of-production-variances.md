@@ -1,13 +1,13 @@
 ---
-title: "Orígenes comunes de desviaciones de producción"
-description: "Este artículo explica diversos orígenes de cada tipo de desviación de producción."
+title: Orígenes comunes de desviaciones de producción
+description: Este artículo explica diversos orígenes de cada tipo de desviación de producción.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventCostTrans
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 50f8cd7904e1d32175edd321fbd6533e985fb324
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f8eea27edaa97150ceb2c36996177395cba8bdb9
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308699"
 ---
-
 # <a name="common-sources-of-production-variances"></a>Orígenes comunes de desviaciones de producción
 
 [!include [banner](../includes/banner.md)]
@@ -60,7 +59,6 @@ Estos son algunos orígenes típicos de una desviación de **sustitución de pro
 -   Agrega manualmente una operación a la ruta de producción y notifica esa operación como consumida.
 -   Al crear el pedido de producción, selecciona una versión de L. MAT difiere de la usada en el cálculo de coste estándar.
 -   Al crear el pedido de producción, selecciona una versión de ruta que difiere de la usada en el cálculo de coste estándar.
-
 
 
 

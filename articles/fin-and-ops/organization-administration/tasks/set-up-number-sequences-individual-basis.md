@@ -1,13 +1,13 @@
---- 
-title: "Configurar secuencias numéricas de manera individual"
-description: "Las secuencias numéricas se usan para generar identificadores únicos y legibles para los registros de datos maestros y los registros de transacciones que los necesitan."
+---
+title: Configurar secuencias numéricas de manera individual
+description: Las secuencias numéricas se usan para generar identificadores únicos y legibles para los registros de datos maestros y los registros de transacciones que los necesitan.
 author: sericks007
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: NumberSequenceTableListPage, NumberSequenceDetails
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 6734d66a06f8a8dc90a48bd68b7b4e22177b4672
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 4e2808e57dc8d137fac892d48e99d7687ff1bf81
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362220"
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>Configurar secuencias numéricas de manera individual
 
@@ -43,5 +43,4 @@ Las secuencias numéricas se usan para generar identificadores únicos y legible
 8. Expanda la sección General.
     * En la ficha desplegable General, especifique si la secuencia numérica es manual, y continua o no continua. Especifique además los números más altos y más bajos que se pueden usar en la secuencia numérica.     No se recomienda cambiar una secuencia numérica no continua por una secuencia numérica continua. La secuencia numérica no será verdaderamente continua. Este cambio también puede provocar infracciones de clave duplicada en la base de datos. Además, las secuencias numéricas continuas tienen un efecto mayor sobre el rendimiento.   
 9. Haga clic en Guardar.
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Parámetros de integración de Project Service Automation"
-description: "Este tema explica cómo configurar cómo se especifican los datos predeterminados al integrar Microsoft Dynamics 365 for Project Service Automation con Microsoft Dynamics 365 for Finance and Operations."
+title: Parámetros de integración de Project Service Automation
+description: Este tema explica cómo configurar cómo se especifican los datos predeterminados cuando se integra Microsoft Dynamics 365 for Project Service Automation con Microsoft Dynamics 365 for Finance and Operations.
 author: KimANelson
 manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,23 +17,22 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 33960a97f69d6bcc70a3035d4d68095ca6993a10
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347063"
 ---
-
 # <a name="project-service-automation-integration-parameters"></a>Parámetros de integración de Project Service Automation
 
 [!include[banner](../includes/banner.md)]
 
-En la página **Parámetros de integración de Project Service Automation** puede configurar cómo se especifican los datos predeterminados al integrar Microsoft Dynamics 365 for Project Service Automation con Microsoft Dynamics 365 for Finance and Operations. Para que los proyectos se sincronicen con éxito de Project Service Automation en Finance and Operations, debe configurar los siguientes campos.
+En la página **Parámetros de la integración de Project Service Automation** , puede configurar cómo se especifican los datos predeterminados cuando se integra Microsoft Dynamics 365 for Project Service Automation con Microsoft Dynamics 365 for Finance and Operations. Para que los proyectos se sincronicen con éxito de Project Service Automation en Finance and Operations, debe configurar los siguientes campos.
 
 > [!NOTE]
-> - La integración de tareas de proyectos, las categorías de la transacción de gastos, las estimaciones de hora, las estimaciones de gastos y el bloqueo de la función están disponibles en Microsoft Dynamics 365 for Finance and Operations versión 8.0.
-> - La integración de los valores reales está disponible en Microsoft Dynamics 365 for Finance and Operations versión 8.01 o posterior.
+> - La integración de tareas de proyectos, las categorías de transacción de gastos, las estimaciones de hora, las estimaciones de gastos y el bloqueo de funciones están disponibles en Microsoft Dynamics 365 for Finance and Operations versión 8.0.
+> - La integración de los reales está disponible en Microsoft Dynamics 365 for Finance and Operations versión 8.0.1 o posterior.
 > - Si utiliza Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3.0, después de instalar KB 4132657 y 4132660 KB, podrá usar plantillas para integrar tareas de proyecto, categorías de transacción de gastos, estimaciones de hora, estimaciones de gastos y valores reales, y para configurar el bloqueo de funcionalidad. Si debe restablecer las distribuciones contables, se recomienda instalar también KB 4131710.
 
 | Ficha                    | Campo                | Descripción |
@@ -46,4 +45,3 @@ En la página **Parámetros de integración de Project Service Automation** pued
 | Valores predeterminados de tipo de facturación  | Tipo de facturación         | Haga clic en **Nuevo** para agregar una fila donde puede seleccionar el tipo de facturación para el que establecer la propiedad de línea predeterminada. Un tipo de facturación específico puede seleccionarse solo una vez en la configuración. |
 |                        | Propiedad de la línea        | Seleccione la propiedad de línea predeterminada del tipo de facturación seleccionado. Cuando las nuevas estimaciones de hora, las nuevas estimaciones del gasto, o los nuevos valores reales se sincronicen desde Project Service Automation, el campo **Propiedad de línea** se establece en el valor predeterminado para el tipo de facturación. |
 | Bloqueo de funcionalidad  | No aplicable       | Seleccione la funcionalidad que debe deshabilitarse en Finance and Operations para los proyectos y contratos que se originaron desde Project Service Automation. Por ejemplo, puede desactivar la capacidad de editar contratos y proyectos, crear estructuras de descomposición del trabajo y especificar hojas de horas en Finance and Operations. Los campos relacionados con la contabilidad continuarán estando habilitados, incluso si la configuración de parámetros no los deja disponibles. De forma predeterminada, todas las funcionalidades están habilitadas. |
-

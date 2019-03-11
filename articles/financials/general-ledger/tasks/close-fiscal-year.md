@@ -1,13 +1,13 @@
---- 
+---
 title: Cerrar el ejercicio
-description: "Este procedimiento describe el proceso de cierre de fin de año que transfiere los saldos a un nuevo ejercicio."
+description: Este procedimiento describe el proceso de cierre de fin de año que transfiere los saldos a un nuevo ejercicio.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerParameters, LedgerFiscalCloseGroup, LedgerFiscalCloseAddLedger, SysLookupMultiSelectGrid, LedgerFiscalCloseRunGroup
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 628b084dbcc85c3f7c08f209bdb325a110554ad9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 4f2f1f1206f3cb3534ef93923d4945bb63814514
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367924"
 ---
 # <a name="close-the-fiscal-year"></a>Cerrar el ejercicio
 
@@ -67,5 +67,4 @@ Este procedimiento describe el proceso de cierre de fin de año que transfiere l
 23. El cierre de fin de año se ejecuta en lote de forma predeterminada.
     * Es una práctica recomendada para los procesos de larga ejecución que se ejecuten en modo de lotes. Suele ser uno de estos procesos y ese es el motivo por el que el valor predeterminado es utilizar el modo de lotes.  
 24. Haga clic en Aceptar
-
 

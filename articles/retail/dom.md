@@ -1,29 +1,29 @@
 ---
-title: "Gestión de pedidos distribuida (DOM)"
-description: "En este tema se describe la funcionalidad de gestión de pedidos distribuida (DOM) de Microsoft Dynamics 365 for Retail."
+title: Gestión de pedidos distribuida (DOM)
+description: En este tema se describe la funcionalidad de gestión de pedidos distribuida (DOM) de Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 11/15/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
+ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
-ms.dyn365.ops.version: 
-ms.translationtype: HT
-ms.sourcegitcommit: 3331b984693c58c6ee8c49b98ed7d3a8df5b79ff
+ms.dyn365.ops.version: ''
 ms.openlocfilehash: 8f1b07243ec2d42e47073d8d90f00ea563020d82
-ms.contentlocale: es-es
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302853"
 ---
 # <a name="distributed-order-management-dom"></a>Gestión de pedidos distribuida (DOM)
 
@@ -64,7 +64,7 @@ La siguiente ilustración muestra el ciclo de vida de un pedido de ventas en un 
         1. En Microsoft Dynamics Lifecycle Services, abra la Biblioteca de activos compartidos, seleccione **Modelo** como tipo de activo y descargue el archivo **Licencia de DOM**.
         2. Inicie el Administrador de Microsoft Internet Information Services (IIS), haga clic con el botón secundario en **Sitio web de AOSService** y, a continuación, seleccione **Explorar**. Se abre una ventana del Explorador de Windows en **\<Raíz del servicio AOS\>\\webroot**. Anote la ruta de acceso a \<Raíz del servicio AOS\>. La va a utilizar en el paso siguiente.
         3. Copie el archivo de configuración en el directorio **\<Raíz del servicio AOS\>\\PackagesLocalDirectory\\DOM\\bin**.
-        4. Vaya al cliente de Central Retail y abra la página **Parámetros de DOM**. En la pestaña **Solucionador**, en el campo **Tipo de solucionador**, seleccione **Solucionador de producción** y confirme que no aparece ningún mensaje de error.
+        4. Vaya al cliente de Retail Headquarters y abra la página **Parámetros de DOM**. En la pestaña **Solucionador**, en el campo **Tipo de solucionador**, seleccione **Solucionador de producción** y confirme que no aparece ningún mensaje de error.
 
         > [!NOTE]
         > El Solucionador simplificado se proporciona para que los minoristas puedan probar la característica DOM sin tener que implementar la licencia especial. Las organizaciones no deben usar el Solucionador simplificado en entornos de producción.
@@ -229,4 +229,3 @@ Veamos algunas cosas que hay que tener en cuenta al usar la característica DOM:
 - Actualmente, DOM solo tiene en cuenta los pedidos creados en los canales comerciales. Los pedidos de ventas se identifican como pedidos de ventas comerciales cuando la opción **Venta minorista** está establecida en **Sí**.
 - Microsoft no ha probado DOM con funciones avanzadas de gestión de almacenes. Los clientes y los socios deben determinar si DOM es compatible con las capacidades y los procesos avanzados de gestión de almacenes que necesitan.
 - DOM solo está disponible en la versión de Retail para la nube. No se admite en implementaciones locales.
-

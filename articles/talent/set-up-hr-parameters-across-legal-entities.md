@@ -1,13 +1,13 @@
 ---
-title: "Configurar parámetros de recursos humanos (RR. HH.) en entidades jurídicas"
-description: "Debe configurar los parámetros compartidos para los registros que se comparten entre empresas, como registros de puesto. En este artículo se explica cómo configurar parámetros de recursos humanos entre entidades jurídicas."
+title: Configurar parámetros de recursos humanos (RR. HH.) en entidades jurídicas
+description: Debe configurar los parámetros compartidos para los registros que se comparten entre empresas, como registros de puesto. En este artículo se explica cómo configurar parámetros de recursos humanos entre entidades jurídicas.
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmSharedParameters
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: cc5acf7ba1b350ee2c91923c7de3b4780385f3ef
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306033"
 ---
-
 # <a name="set-up-human-resources-hr-parameters-across-legal-entities"></a>Configurar parámetros de recursos humanos (RR. HH.) en entidades jurídicas
 
 [!include [banner](includes/banner.md)]
@@ -39,7 +38,7 @@ En la página **Parámetros compartidos de recursos humanos**, los parámetros s
 ### <a name="previously-released-functionality"></a>Funcionalidad anteriormente liberada
 En la pestaña **Identificación**, debe seleccionar los tipos de identificación que representan los números de identificación enumerados en la página. Debe configurar tipos de identificación para poder especificar la información de identificación para los trabajadores. La información sobre el número de seguridad social, el número de DNI, el número de identificación de salida y el código de identificación personal se mantiene en la página **Tipo de identificación**. Para definir un nuevo tipo de identificación o revisar la lista de tipos existentes, haga clic en **Gestión del personal** &gt; **Ficha Vínculos** &gt; **Confirguración** &gt; **Tipos de identificación**. Puede especificar una descripción y un código simples. 
 
-### <a name="if-youre-using-dynamics-365-for-talent"></a>Si utiliza Dynamics 365 for Talent
+### <a name="if-youre-using-dynamics-365-for-talent"></a>Si usa Dynamics 365 for Talent
 En la pestaña **Identificación**, debe seleccionar los tipos de identificación que representan los números de identificación enumerados en la página. Debe configurar tipos de identificación para poder especificar la información de identificación para los trabajadores. La información sobre el número de seguridad social, el número de DNI, el número de identificación de salida y el código de identificación personal se mantiene en la página **Tipo de identificación**. Para definir un nuevo tipo de identificación o revisar la lista de tipos existentes, haga clic en **Recursos humanos** &gt; **Instalación** &gt; **Tipos de identificación**. Puede especificar una descripción y un código simples. 
 
 En la pestaña **Secuencias numéricas**, puede seleccionar las secuencias numéricas que se usan para los registros siguientes: número de personal, puesto, Id. de solicitud de usuario, documento I-9, candidato, discusión, Id. de prestación y acción de personal (si se permite a este tipo de registro). Para mantener las referencias y los códigos de la secuencia numérica, use la página de lista **Secuencias numéricas**. Para buscar esta página, use la fncionalidad de búsqueda de páginas. 
@@ -54,7 +53,6 @@ En la pestaña **Puestos**, indique si los nuevos puestos están disponibles par
 --------
 
 [Configuración de los parámetros de recursos humanos específicos de la empresa](set-up-company-specific-hr-parameters.md)
-
 
 
 

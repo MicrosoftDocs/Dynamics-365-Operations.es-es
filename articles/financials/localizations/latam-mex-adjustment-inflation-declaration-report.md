@@ -1,13 +1,13 @@
 ---
-title: "Informe de la declaración de inflación de ajuste"
-description: "Los usuarios de Microsoft Dynamics 365 for Finance and Operations pueden procesar ajustes de inflación mediante coeficientes de INPC, distintos métodos (como saldos de apertura, saldo, saldo mensual y fecha de transacción) y diversas dimensiones."
+title: Informe de la declaración de inflación de ajuste
+description: Los usuarios de Microsoft Dynamics 365 for Finance and Operations pueden procesar ajustes de inflación mediante coeficientes de INPC, distintos métodos (como saldos de apertura, saldo, saldo mensual y fecha de transacción) y diversas dimensiones.
 author: sndray
 manager: AnnBe
 ms.date: 10/31/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InflationAdjJournal_MX, InpcRateTable_MX, LedgerParameters, MainAccount
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4b76dad8343b568d82914108695f20a122a92d33
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f84f91d67e88fed737cf7885500c96a79e3aef00
-ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370464"
 ---
-
 # <a name="adjustment-inflation-declaration-report"></a>Informe de la declaración de inflación de ajuste
 
 [!include [banner](../includes/banner.md)]
@@ -122,7 +121,6 @@ Este informe muestra el cálculo del ajuste de inflación del código de cuenta 
 -   El control deslizante **Ajuste de B-10** se encuentra para la cuenta principal.
 -   El tipo de cuenta para la cuenta principal es **Balance** **de situación**, **Activo**, **Pasivo** o **Recursos propios**.
 -   El tipo de ajuste de la cuenta principal es **Fecha** **de la transacción**.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
 title: Generar informes financieros
-description: "Este tema proporciona información acerca de la generación de un informe financiero."
+description: Este tema proporciona información acerca de la generación de un informe financiero.
 author: aprilolson
 manager: AnnBe
 ms.date: 09/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
 ms.openlocfilehash: 70fa1298c3af43f62b8fa0b833fa817f17858c47
-ms.contentlocale: es-es
-ms.lasthandoff: 09/27/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340899"
 ---
-
 # <a name="generate-financial-reports"></a>Generar informes financieros
 
 [!include [banner](../includes/banner.md)]
@@ -115,7 +114,7 @@ Las cuentas que faltan se determinan mediante los valores más bajos y más alto
 > [!TIP]
 > Por motivos de validación, este proceso debería ejecutarse antes de generar los informes mensuales y cuando se crean bloques de creación nuevos.
 
-No suelen faltar cuentas en los informes que tiene intervalos de valores. Si es posible, use los intervalos en el bloque de creación para incluir nuevas cuentas cuando se crean. Si una definición del informe se establece como empresa @ANY, puede iniciar sesión en una empresa específica y ejecutar un análisis de cuentas que faltan para esa empresa.
+No suelen faltar cuentas en los informes que tiene intervalos de valores. Si es posible, use los intervalos en el bloque de creación para incluir nuevas cuentas cuando se crean. Si una definición de informe se establece en una compañía @ANY, podrá iniciar sesión en una compañía específica y ejecutar un análisis de cuenta que falta para ella.
 
 > [!NOTE]
 > Si se ha agregado una nueva empresa, debe agregar la nueva empresa a los organigramas en cualquier informe existente o la empresa no estará incluida en el análisis de cuentas que faltan.
@@ -158,4 +157,3 @@ Cuando se ejecuta un análisis de cuentas que faltan, los métodos abreviados de
 [Informes financieros](financial-reporting-intro.md)
 
 [Interfaz del Diseñador de informes](report-designer-interface.md)
-

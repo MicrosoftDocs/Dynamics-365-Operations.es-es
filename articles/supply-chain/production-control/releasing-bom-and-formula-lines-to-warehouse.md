@@ -1,13 +1,13 @@
 ---
-title: "Liberar las líneas de LM y fórmula al almacén"
-description: "En este tema se describe el proceso para liberar la materia prima para las líneas de LM y las líneas de fórmula al almacén."
+title: Liberar las líneas de LM y fórmula al almacén
+description: En este tema se describe el proceso para liberar la materia prima para las líneas de LM y las líneas de fórmula al almacén.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
 ms.reviewer: josaw
@@ -16,15 +16,14 @@ ms.custom: 1705903
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 8ccdb71f49652d6cca6ced2e9e9764d9ad0fffd8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: 2bccabb033f5ba142b145e69930ce516aad596f2
-ms.contentlocale: es-es
-ms.lasthandoff: 05/23/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343153"
 ---
-
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Liberar las líneas de LM y fórmula al almacén
 
 [!include [banner](../includes/banner.md)]
@@ -99,4 +98,3 @@ Puede liberar la materia prima para una cantidad parcial de producto terminado o
     Las unidades que están disponibles se definen en el ID de grupo de secuencia de unidades del producto terminado.
 
     Por ejemplo, un producto terminado tiene la siguiente conversión de unidades entre las libras (lbs.) y pallet (PL): 1 PL = 100 lbs. Para crear un pedido de producción para 10.000 lbs. de producto terminado, puede liberar las materias primas para el número de pallets que pretenda generar. Seleccione **PL** como unidad y, a continuación, seleccione un número correspondiente en el campo **Cantidad**.
-

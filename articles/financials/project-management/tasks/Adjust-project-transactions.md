@@ -1,13 +1,13 @@
---- 
+---
 title: Ajustar transacciones
-description: "Esta guía de tareas muestra cómo ajustar una transacción en un proyecto."
+description: Esta guía de tareas muestra cómo ajustar una transacción en un proyecto.
 author: KimANelson
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 922914a50932fcf91e80c80333d7ab0b4a66f089
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: 94942b4dc499c225fd636e7080ef253d5370b96e
-ms.contentlocale: es-es
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344510"
 ---
 # <a name="adjust-project-transactions"></a>Ajustar transacciones de proyecto
 
@@ -44,4 +44,3 @@ Esta guía de tareas muestra cómo ajustar una transacción en un proyecto. Sin 
 13. En la lista, marque la fila seleccionada. 
 14. En el campo Precio de coste, escriba un número. 
 15. Haga clic en Registrar. 
-

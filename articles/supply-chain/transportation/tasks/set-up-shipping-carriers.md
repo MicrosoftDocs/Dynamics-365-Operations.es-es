@@ -1,13 +1,13 @@
---- 
-title: "Configuración de transportistas de envío"
-description: "Este procedimiento muestra cómo configurar un transportista y definir detalles como el servicio, el modo de envío, la forma de pago de transporte, las restricciones de transporte y las tarifas de envío."
+---
+title: Configuración de transportistas de envío
+description: Este procedimiento muestra cómo configurar un transportista y definir detalles como el servicio, el modo de envío, la forma de pago de transporte, las restricciones de transporte y las tarifas de envío.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6c5ac13d17c97f20ee79e7faf57c570f02158424
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e27be049bebd63c9266029b8981874417a9f0a8c
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314495"
 ---
 # <a name="set-up-shipping-carriers"></a>Configuración de transportistas de envío
 
@@ -94,5 +94,4 @@ Este procedimiento muestra cómo configurar un transportista y definir detalles 
 18. En el campo Motor de tiempo de tránsito, haga clic en el botón desplegable para abrir la búsqueda.
 19. En la lista, haga clic en el vínculo de la fila seleccionada.
 20. Haga clic en Guardar.
-
 

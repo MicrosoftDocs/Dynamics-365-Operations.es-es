@@ -1,13 +1,13 @@
 ---
-title: "Contenido en Power BI de Aprendizaje"
-description: Este tema describe el contenido de Power BI de Aprendizaje.
+title: Contenido de formación de Power BI
+description: Este tema describe el contenido en Power BI de formación.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations, Talent
@@ -15,28 +15,27 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: a4ea4606f9987bc08565d43a1f05243acf88883c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0ee0cc2e22609d1a87e7d2b6dcd031606191f879
-ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321464"
 ---
-
-# <a name="learning-power-bi-content"></a>Contenido en Power BI de Aprendizaje
+# <a name="learning-power-bi-content"></a>Contenido de formación de Power BI
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe el contenido en Microsoft Power BI de **Aprendizaje**.
+Este tema describe el contenido del **Formación** de Microsoft Power BI.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Informes que se incluyen en el contenido de Power BI
 
-Los informes incluidos en el contenido en Power BI de **Aprendizaje** tienen gráficos y tablas que contienen información adicional. En la siguiente tabla se describen los informes.
+Los informes incluidos en el contenido **Formación** de Power BI tienen gráficos y tablas que contienen información adicional. En la siguiente tabla se describen los informes.
 
 | Informe                | Contenido |
 |-----------------------|----------|
 | Visión general de Aprendizaje     | Resumen de otros informes |
-| Análisis de curso       | Registro por ubicación, participante por estado, cursos por tipo y por empresa y asistencia al curso por trabajo |
+| Análisis de curso       | Registro por ubicación, participante por estado, cursos por tipo y por empresa y asistencia al curso por trabajo |
 | Análisis de registro | Lista de registros |
 | Tipos de cursos          | Tipo de curso por aptitud |
 | Análisis de instructor   | Coeficiente de cursos para instructores, número de instructores, cursos por instructor, cursos según instructor y programa del curso por instructor |
@@ -47,7 +46,7 @@ Puede filtrar los gráficos e iconos en estos informes y anclar los gráficos e 
 
 ## <a name="understanding-the-data-model-and-entities"></a>Comprensión del modelo de datos y de las entidades
 
-Los siguientes datos se usan para rellenar los informes en el contenido de Power BI de **Aprendizaje**. Esta tabla muestra las entidades en las que se basaba el contenido.
+Los siguientes datos se usan para rellenar los informes en el contenido en Power BI de **Formación**. Esta tabla muestra las entidades en las que se basaba el contenido.
 
 | Entidad           | Contenido                                                         | Relaciones con otras entidades |
 |------------------|------------------------------------------------------------------|-----------------------------------|
@@ -64,4 +63,3 @@ Los siguientes datos se usan para rellenar los informes en el contenido de Power
 | Posición         | Puesto, título y equivalente a jornada completa                  | Programa del curso, asistentes al curso |
 | Nombre de empleado    | Nombre, apellido y nombre completo                             | Asistentes al curso |
 | Puesto del empleado   | Cargo y fecha de antigüedad                                         | Asistentes al curso |
-

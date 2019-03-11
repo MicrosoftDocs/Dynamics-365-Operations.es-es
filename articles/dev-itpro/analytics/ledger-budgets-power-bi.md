@@ -1,13 +1,13 @@
 ---
-title: Contenido en Power BI de Real frente a presupuesto
-description: "Este tema describe el contenido en Power BI de Real frente a presupuesto Explica cómo tener acceso a los informes que se incluyen en el contenido, y proporciona información acerca del modelo de datos y las entidades que se utilizaron para generar el contenido."
+title: Contenido Real frente a presupuesto de Power BI
+description: Este tema describe el contenido en Power BI de Real frente a presupuesto Explica cómo tener acceso a los informes que se incluyen en el contenido, y proporciona información acerca del modelo de datos y las entidades que se utilizaron para generar el contenido.
 author: ryansandness
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetTrackingWorkspace
 audience: Application user, IT Pro
 ms.reviewer: sericks
@@ -16,26 +16,25 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: c801544e9e37a528203f5a1730aa8cb526d63dbf
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
-ms.openlocfilehash: fa0c56f4773b9062d616772e2bca9a576ad37ce2
-ms.contentlocale: es-es
-ms.lasthandoff: 12/18/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343498"
 ---
-
-# <a name="actual-vs-budget-power-bi-content"></a>Contenido en Power BI de Real frente a presupuesto
+# <a name="actual-vs-budget-power-bi-content"></a>Contenido Real frente a presupuesto de Power BI
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe el contenido en Microsoft Power BI de **Real frente a presupuesto** Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
+Este tema describe el contenido en Power BI de **Real frente a presupuesto**. Explica cómo obtener acceso a los informes Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
 
 ## <a name="overview"></a>Información general
 
 El contenido en Power BI de **Real rente a presupuesto** se creó para aquellas personas que son responsables de supervisar los valores reales frente al presupuesto en su organización. El contenido en Power BI de **Real frente a presupuesto** proporciona visibilidad en las desviaciones de presupuesto. Puede analizar el presupuesto para el año actual por categoría de cuenta, código de presupuesto, cuenta principal, descripciones de la cuenta principal o período fiscal para obtener una mejor comprensión de los motivos que producen las desviaciones.
 
 ## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI
-Los informes del contenido de Power BI **Valor real frente a presupuesto** se muestran en los espacios de trabajo **Presupuestos y previsiones de libro mayor** y **CFO**.
+Los informes del contenido de Power BI **Real frente a presupuesto** se muestran en los espacios de trabajo **Presupuestos y previsiones de libro mayor** y **CFO**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Informes que se incluyen en el contenido de Power BI
 La siguiente tabla ofrece información sobre las métricas que se encuentran en cada página de informe en el contenido de Power BI de **Real frente a presupuesto**.
@@ -59,4 +58,3 @@ La siguiente tabla ofrece información sobre las métricas que se encuentran en 
 | Libros mayores                   | Libros mayores que se pueden usar para filtrar el informe en la contabilidad actual              |
 | Códigos de presupuesto              | Códigos presupuestarios para filtrar informes                                                |
 | Entidades jurídicas            | Entidades jurídicas que se pueden usar para filtrar el informe para la entidad jurídica actual |
-

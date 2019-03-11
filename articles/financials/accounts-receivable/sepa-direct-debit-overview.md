@@ -1,13 +1,13 @@
 ---
-title: "Descripción de las domiciliaciones SEPA"
-description: "La Zona única de Pagos en Euros (SEPA) lo establece la Comisión Europea y dicta que todos los pagos electrónicos se consideran como nacionales, independientemente del país o región donde se encuentren el individuo, la empresa o la organización y el banco. No hay diferencia entre los pagos nacionales y transfronterizos. SEPA incluye a los 28 estados miembros de la Unión Europea (UE), además de Islandia, Liechtenstein, Noruega, Suiza, Mónaco y San Marino. SEPA ayuda a formar un mercado único para las transacciones de pago en el Área Económica Europea (AEE). En última instancia, se espera que SEPA reduzca el número de formatos de pago con los que deben trabajar los bancos, las empresas y las personas."
+title: Descripción de las domiciliaciones SEPA
+description: La Zona única de Pagos en Euros (SEPA) lo establece la Comisión Europea y dicta que todos los pagos electrónicos se consideran como nacionales, independientemente del país o región donde se encuentren el individuo, la empresa o la organización y el banco. No hay diferencia entre los pagos nacionales y transfronterizos. SEPA incluye a los 28 estados miembros de la Unión Europea (UE), además de Islandia, Liechtenstein, Noruega, Suiza, Mónaco y San Marino. SEPA ayuda a formar un mercado único para las transacciones de pago en el Área Económica Europea (AEE). En última instancia, se espera que SEPA reduzca el número de formatos de pago con los que deben trabajar los bancos, las empresas y las personas.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankAccountTable, CustBankAccounts, CustParameters, CustTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 23c418c6412e4bd300616eed4577e2b1d3f3d181
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fb55f4b0b06019891c2e490eda837cfad882e6db
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359207"
 ---
-
 # <a name="sepa-direct-debit-overview"></a>Descripción de las domiciliaciones SEPA
 
 [!include [banner](../includes/banner.md)]
@@ -80,7 +79,6 @@ Puede generar archivos de pago electrónico para domiciliaciones bancarias SEPA 
 
 ## <a name="how-do-refunds-and-returns-work-with-sepa-direct-debits"></a>¿Cómo funcionan los reembolsos y las devoluciones con las domiciliaciones SEPA?
 En ambos esquemas de domiciliación SEPA, los clientes tienen determinados derechos a devoluciones. Se permite al cliente invertir cualquier transacción autorizada durante un período de ocho semanas después de la fecha de vencimiento, sin tener que dar un motivo. En el caso de las transacciones no autorizadas, el período se amplía a 13 meses después de la fecha de vencimiento. Los pagos realizados se pueden revertir manualmente mediante el botón Cancelar pago de la página Transacciones de clientes.
-
 
 
 

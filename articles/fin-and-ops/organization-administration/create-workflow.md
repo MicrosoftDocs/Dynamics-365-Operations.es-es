@@ -1,13 +1,13 @@
 ---
 title: Crear flujos de trabajo
-description: "Este tema explica cómo crear un flujo de trabajo."
+description: Este tema explica cómo crear un flujo de trabajo.
 author: sericks007
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WorkflowSelectTemplateRnr, WorkflowTableListPageRnr
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
+ms.openlocfilehash: 7d4a3c5e12b226a7d801d8db9abcbd15738c1ce0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 0edf6f1a97b3bbd074168a3cb8bb5c2375492b71
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353365"
 ---
-
 # <a name="create-workflows"></a>Crear flujos de trabajo
 
 [!include [banner](../includes/banner.md)]
@@ -34,7 +33,7 @@ Este tema explica cómo crear un flujo de trabajo.
 
 ## <a name="open-the-workflow-editor"></a>Apertura del editor de flujo de trabajo
 
-El módulo de Microsoft Dynamics 365 for Finance and Operations en el que está trabajando determina los tipos de flujo de trabajo que puede crear. Siga estos pasos para seleccionar el tipo de flujo de trabajo que va a crear y abrir el editor de flujo de trabajo.
+Los tipos de flujos de trabajo que puede crear varían según el módulo de Microsoft Dynamics 365 for Finance and Operations que está usando. Siga estos pasos para seleccionar el tipo de flujo de trabajo que va a crear y abrir el editor de flujo de trabajo.
 
 1. Abra el módulo para el que desea crear un nuevo flujo de trabajo. Por ejemplo, para crear un flujo de trabajo para las solicitudes de compra, haga clic en **Adquisición y suministro de componentes**.
 2. Haga clic en **Configuración** &gt; **Flujos de trabajo de \[nombre del módulo\]**.
@@ -85,4 +84,3 @@ Cuando esté listo para guardar y activar el flujo de trabajo, siga estos pasos.
 
     - Para activar esta versión del flujo de trabajo, haga clic en **Activar la nueva versión**. Cuando un flujo de trabajo está activo, los usuarios pueden enviar documentos a él para que se los procese.
     - Si no desea activar esta versión, haga clic en **No activar la versión nueva**. Podrá activar el flujo de trabajo en otro momento.
-

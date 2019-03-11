@@ -1,13 +1,13 @@
---- 
-title: "Configurar códigos de disposiciones"
-description: "Este procedimiento se centra en la configuración de un código de disposición que se puede utilizar en un dispositivo móvil para el proceso de recepción de pedidos de devolución."
+---
+title: Configurar códigos de disposiciones
+description: Este procedimiento se centra en la configuración de un código de disposición que se puede utilizar en un dispositivo móvil para el proceso de recepción de pedidos de devolución.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/11/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 85402e05d55367da5fe89b242ad8eafc727b441e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c004543188656dfd53d7539717cd6e93d0b9f47a
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324132"
 ---
 # <a name="set-up-dispositions-codes"></a>Configurar códigos de disposiciones
 
@@ -39,5 +39,4 @@ Este procedimiento se centra en la configuración de un código de disposición 
     * Opcional: seleccione un código de plantilla de trabajo asociado a un pedido de devolución. Si no se proporciona ningún valor, la plantilla de trabajo se resolverá con las reglas estándar configuradas en su sistema. La selección de una plantilla de trabajo limitará los procesos con los que se puede usar este código de disposición. Por ejemplo, si un código de disposición tiene una plantilla de trabajo con un pedido de trabajo del tipo de pedido de compra, no puede usarse para registrar artículos devueltos por los clientes.  
 6. En el campo Código de disposición de devolución, escriba un valor.
     * El código de disposición de devolución determina el resto del proceso del pedido de devolución para los artículos registrados. En este ejemplo, el cliente debe recibir una nota de abono. Agregue un código de disposición de devoluciones que contenga una acción de crédito.  
-
 

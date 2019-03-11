@@ -1,13 +1,13 @@
 ---
 title: Recursos humanos
-description: "Recursos humanos simplifica muchas tareas rutinarias de mantenimiento de registros y automatiza un gran número de procesos relacionados con la dotación de personal para la organización. También proporciona un marco de trabajo para que el personal de recursos humanos administre áreas de supervisión. Estas áreas incluyen la contratación y retención de empleados, la administración de prestaciones, la formación, las revisiones de rendimiento y la gestión de cambios."
+description: Recursos humanos simplifica muchas tareas rutinarias de mantenimiento de registros y automatiza un gran número de procesos relacionados con la dotación de personal para la organización. También proporciona un marco de trabajo para que el personal de recursos humanos administre áreas de supervisión. Estas áreas incluyen la contratación y retención de empleados, la administración de prestaciones, la formación, las revisiones de rendimiento y la gestión de cambios.
 author: rschloma
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: faf9b9a70d959719f381ec5171e4fb96af208478
-ms.contentlocale: es-es
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341773"
 ---
-
 # <a name="human-resources"></a>Recursos humanos
 
 [!include [banner](../includes/banner.md)]
@@ -81,7 +80,7 @@ Además de compensar al personal con sueldos, salarios y bonificaciones, puede d
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>Mantener el cumplimiento de normas y la seguridad en el lugar de trabajo
 
-Microsoft Dynamics AX puede ayudarle a mantener un entorno de trabajo seguro en cumplimiento de las leyes aplicables, incluidas la Ley para Personas con Discapacidades (ADA) de Estados Unidos y las leyes de Inmigración y naturalización, entre otras. Por ejemplo, puede gestionar los requisitos físicos para trabajos específicos, así como las solicitudes de trayectoria para alojamientos que pueden ayudar a la organización a optimizar las aptitudes de los recursos.
+Microsoft Dynamics AX puede ayudarle a proteger un entorno de trabajo en cumplimiento de las leyes aplicables, incluida la Ley para Personas con Discapacidades (ADA) de Estados Unidos y las leyes de Inmigración y naturalización, entre otras. Por ejemplo, puede gestionar los requisitos físicos para trabajos específicos, así como las solicitudes de trayectoria para alojamientos que pueden ayudar a la organización a optimizar las aptitudes de los recursos.
 
 - [Comprobación de empleo del formulario I-9](localizations/noam-usa-form-i-9-verification.md)
 - [Cumplimiento de la Ley para Personas con Discapacidades de Estados Unidos (ADA)](localizations/noam-usa-comply-ada.md)
@@ -95,4 +94,3 @@ Puede diseñar y administrar cuestionarios para recopilar información que se us
 - [Diseñar un cuestionario](../../talent/design-questionnaires.md)
 - [Distribuir y completar un cuestionario](../../talent/distribute-questionnaires.md)
 - [Ver y evaluar los resultados de un cuestionario](../../talent/evaluate-questionnaire-results.md)
-

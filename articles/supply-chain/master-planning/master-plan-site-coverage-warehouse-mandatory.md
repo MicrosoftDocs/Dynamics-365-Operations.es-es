@@ -1,13 +1,13 @@
 ---
-title: "Planificación maestra para cobertura de sitios, almacén obligatorio"
-description: "Este tema describe cómo se planifica un artículo que tiene el sitio como dimensión de cobertura. El almacén es una dimensión obligatoria."
+title: Planificación maestra para cobertura de sitios, almacén obligatorio
+description: Este tema describe cómo se planifica un artículo que tiene el sitio como dimensión de cobertura. El almacén es una dimensión obligatoria.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResStorageDimensionGroup, ReqItemTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1f61c142fff73fdeeca573cca3f54e654511af1e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 39f105bd1c6a6da4b73ae2a9c5657b15c6794ec0
-ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328341"
 ---
-
 # <a name="master-planning-for-site-coverage-mandatory-warehouse"></a>Planificación maestra para cobertura de sitios, almacén obligatorio
 
 [!include [banner](../includes/banner.md)]
@@ -61,7 +60,6 @@ El gráfico siguiente ilustra cómo tiene lugar la planificación maestra. Los p
 [Planificación maestra: cobertura de sitios y almacenes, almacén no obligatorio](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
 
 [Planificación maestra: cómo se establece la versión de la lista de materiales](master-plan-bom-version-determined.md)
-
 
 
 

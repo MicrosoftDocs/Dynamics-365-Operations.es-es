@@ -1,13 +1,13 @@
 ---
-title: "Espacio de trabajo móvil Mi equipo"
-description: "Este tema proporciona información sobre el espacio de trabajo Mi equipo, que permite a los administradores ver el personal subordinado directo y ampliado. Los usuarios también pueden enviar elogios a otras personas en su cadena de subordinados."
+title: Espacio de trabajo móvil Mi equipo
+description: Este tema proporciona información sobre el espacio de trabajo Mi equipo, que permite a los administradores ver el personal subordinado directo y ampliado. Los usuarios también pueden enviar elogios a otras personas en su cadena de subordinados.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Operations, Talent
@@ -15,21 +15,20 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: fccbedea611228cc57531c89406f72a6664153c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d049c55a40761d0663e3d558b47b4840e5db9bf1
-ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346925"
 ---
-
 # <a name="my-team-mobile-workspace"></a>Espacio de trabajo móvil Mi equipo
 
 [!include [banner](../includes/banner.md)]
 
 Este tema proporciona información sobre del espacio de trabajo móvil **Mi equipo**. Este espacio de trabajo permite a los administradores ver su personal subordinado directo y ampliado. También pueden enviar elogios a otras personas en su cadena de subordinados.
 
-Este espacio de trabajo móvil se debe usar con la aplicación móvil Microsoft Dynamics 365 for Unified Operations.
+Este espacio de trabajo móvil se debe usar con la aplicación Microsoft Dynamics 365 for Unified Operations mobile.
 
 ## <a name="overview"></a>Información general 
 El espacio de trabajo móvil **Mi equipo** permite a los administradores realizar las tareas siguientes:
@@ -58,7 +57,7 @@ Para poder usar este espacio de trabajo móvil, antes debe satisfacer los siguie
 </ul>
 </td>
 <td>Administrador del sistema</td>
-<td>Si no tiene Finance and Operations en su organización, consulte <a href="../deployment/deploy-demo-environment.md">Implementar un entorno de demostración</a>. Si no tiene Talent en su organización, el administrador del sistema puede obtener acceso a una versión de prueba en la página web de <a href="https://www.microsoft.com/en-us/dynamics365/talent">Talent</a>.
+<td>Si no tiene Finance and Operations implementado en su organización, consulte <a href="../deployment/deploy-demo-environment.md">Implementar un entorno de demostración</a>. Si no tiene Talent en su organización, el administrador del sistema puede obtener acceso a una versión de prueba en la <a href="https://www.microsoft.com/en-us/dynamics365/talent">página web de Talent</a>.
 </td>
 </tr>
 <tr class="even">
@@ -78,7 +77,7 @@ Descargue e instale la aplicación móvil Dynamics 365 for Unified Operations:
 
 ## <a name="sign-in-to-the-mobile-app"></a>Iniciar sesión en la aplicación móvil
 1.  Inicie la aplicación en su dispositivo móvil.
-2.  Escriba la dirección URL de Microsoft Dynamics 365.
+2.  Especifique la dirección URL Microsoft Dynamics 365.
 3.  La primera vez que se inicie sesión, se le solicitará su nombre de usuario y contraseña. Escriba sus credenciales.
 4.  Tras iniciar sesión, se mostrarán los espacios de trabajo disponibles para su empresa. Tenga en cuenta que si el administrador del sistema publica un nuevo espacio de trabajo más tarde, tendrá que actualizar la lista de espacios de trabajo móviles.
 
@@ -99,4 +98,3 @@ Descargue e instale la aplicación móvil Dynamics 365 for Unified Operations:
 1.  Seleccione **Enviar elogio**. 
 1. Escriba el texto del elogio que desee enviar. 
 1. Seleccione **Listo**.
-

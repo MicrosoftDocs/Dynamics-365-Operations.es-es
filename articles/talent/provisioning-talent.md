@@ -5,9 +5,9 @@ author: rschloma
 manager: AnnBe
 ms.date: 09/27/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
 ms.openlocfilehash: 6fb41a8c1ff4ce95bab5b169256955f244e66071
-ms.contentlocale: es-es
-ms.lasthandoff: 11/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306154"
 ---
 # <a name="provision-talent"></a>Aprovisionar Talent
 
@@ -38,7 +38,7 @@ Para usar LCS para administrar sus entornos de Talent, primero debe crear un pro
 1. Inicie sesión en [LCS](https://lcs.dynamics.com/Logon/Index) mediante la cuenta que ha utilizado para suscribirse a Talent.
 2. Seleccione el signo más (**+**) para crear un proyecto.
 3. Seleccione **Microsoft Dynamics 365 for Talent** como nombre del producto y versión del producto.
-4. Seleccione la metodología **Dynamics 365 for Talent**.
+4. Seleccionar la metodología de **Dynamics 365 for Talent**.
 5. Seleccione **Crear**.
 
 Para obtener información sobre cómo comenzar con Talent, consulte la metodología **Talent** que ha creado en su nuevo proyecto. Una vez que haya terminado de crear el proyecto, realice el procedimiento siguiente para aprovisionar el entorno de Talent.
@@ -47,7 +47,7 @@ Para obtener información sobre cómo comenzar con Talent, consulte la metodolog
 Después de crear un proyecto de LCS, puede aprovisionar Talent en un entorno.
 
 1. En su proyecto de LCS seleccione el mosaico **Gestión de la app Talent**.
-2. Talent siempre se aprovisiona en un entorno de Microsoft PowerApps para habilitar la integración de PowerApps y la extensibilidad. Lea la sección “Selección de un entorno de PowerApps” de este tema antes de continuar. Si todavía no tiene un entorno de PowerApps, seleccione Administrar entornos en el LCS o vaya el centro de gestión de PowerApps. A continuación siga los pasos a [Crear entorno de PowerApps](https://docs.microsoft.com/en-us/powerapps/administrator/create-environment).
+2. Talent siempre se aprovisiona en un entorno de Microsoft PowerApps para habilitar la integración y la extensibilidad de PowerApps. Lea la sección “Selección de un entorno de PowerApps” de este tema antes de continuar. Si todavía no tiene un entorno de PowerApps, seleccione Administrar entornos en el LCS o vaya el centro de gestión de PowerApps. A continuación siga los pasos a [Crear entorno de PowerApps](https://docs.microsoft.com/en-us/powerapps/administrator/create-environment).
 
     > [!NOTE]
     > Para ver entornos existentes o crear nuevos entornos, debe asignarse el administrador de inquilinos que aprovisiona Talent a la licencia de PowerApps P2. Si su organización no dispone de una licencia de PowerApps P2, puede obtener una de su CSP o en la [Página de precios para PowerApps](https://powerapps.microsoft.com/en-us/pricing/).
@@ -87,5 +87,4 @@ Use la orientación siguiente al determinar en qué entorno de PowerApps impleme
  
 ## <a name="grant-access-to-the-environment"></a>Conceda acceso al entorno
 De forma predeterminada, solo tiene acceso el administrador global que creó el entorno. Sin embargo, los usuarios de aplicaciones adicionales debe conceder acceso de forma explícita. Para conceder acceso, [agregue usuarios](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) y [asigne los roles adecuados a ellos](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles) en el entorno Core HR. El administrador global que implementó Talent también debe poner en las aplicaciones Attract y Onboard para completar la inicialización y para habilitar el acceso a otros usuarios inquilinos.  Hasta que esto ocurra, otros usuarios no podrán tener acceso a las aplicaciones Attract y Onboard y obtendrán errores de infracción de acceso.
-
 

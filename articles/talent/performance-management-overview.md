@@ -1,13 +1,13 @@
 ---
-title: "Gestión del rendimiento"
-description: "El proceso de gestión del rendimiento permite a los empleados documentar y comentar su rendimiento con el administrador. A su vez, los administradores pueden proporcionar comentarios de retroalimentación y orientación a los empleados."
+title: Gestión del rendimiento
+description: El proceso de gestión del rendimiento permite a los empleados documentar y comentar su rendimiento con el administrador. A su vez, los administradores pueden proporcionar comentarios de retroalimentación y orientación a los empleados.
 author: mikefalkner
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations, Talent
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 67da25514edc6b27f8478a7b317f6690720ab592
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: e7621b4c1358d1ecd6ff1c9ce2f1de08766a4bf6
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306050"
 ---
-
 # <a name="performance-management"></a>Gestión del rendimiento
 
 [!include [banner](includes/banner.md)]
@@ -56,9 +55,9 @@ Cuando se accede desde el espacio de trabajo **ESS**, la página del **diario de
 
 También puede vincular el diario de rendimiento a una página web externa almacenando la dirección URL del sitio. Si el diario está relacionado con los objetivos o evaluaciones de rendimiento, también puede vincularlo a uno o más de ellos. Cuando se accede al diario de rendimiento desde la página **MSS**, puede introducir la misma información que para el diario del empleado. Además, puede especificar el empleado para el que se está creando el diario. Puede elegir si compartir el diario del administrador con el empleado.
 
-### <a name="praise"></a>Reconocimiento
+### <a name="send-feedback"></a>Enviar comentarios
 
-El diario de rendimiento contiene una característica adicional que se denomina Reconocimiento. Al hacer clic en **Enviar reconocimiento**, puede seleccionar un empleado y proporcionar comentarios de retroalimentación a dicho empleado por correo electrónico. El mensaje se envía al empleado al que se está dando reconocimiento, al administrador de ese empleado, al empleado al que se envía el reconocimiento y al administrador de ese empleado. La entrada de diario de rendimiento se crea para cada persona que recibe el mensaje de reconocimiento.
+El diario de rendimiento contiene una característica adicional que se denomina Comentarios. Al hacer clic en **Enviar comentarios**, puede seleccionar un empleado y proporcionar comentarios de retroalimentación a dicho empleado por correo electrónico. El mensaje se envía al empleado que recibe el comentario, al administrador de ese empleado, al empleado que envía el comentario y al administrador de ese empleado. La entrada de diario de rendimiento se crea para cada persona que recibe el mensaje de comentarios.
 
 ## <a name="goals"></a>Objetivos
 La página de **objetivos de rendimiento** ayuda a hacer seguimiento de los objetivos que usted y su administrador han creado para usted. Puede crear cualquier número de objetivos y éstos pueden abarcar períodos y evaluaciones de rendimiento diferentes. También puede crear objetivos simples o complejos, según la cantidad de información que desea especificar acerca del objetivo. Los objetivos no son necesarios para las evaluaciones de rendimiento. 
@@ -151,7 +150,6 @@ Los tipos de origen del diario de rendimiento describen de dónde proceden los d
 ### <a name="review-types"></a>Tipos de evaluación
 
 Los tipos de evaluación de rendimiento ayudan a controlar el comportamiento de una evaluación. Puede habilitar o deshabilitar el flujo de trabajo para una evaluación. Si la evaluación no utiliza flujo de trabajo, puede definir el estado predeterminado que se usará cuando se crea la evaluación. También puede decidir si se requiere que el empleado, el administrador o ambos aprueben la evaluación.
-
 
 
 

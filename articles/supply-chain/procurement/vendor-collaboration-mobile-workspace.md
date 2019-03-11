@@ -1,13 +1,13 @@
 ---
-title: "Espacio de trabajo de móvil de colaboración de proveedor"
-description: "Este tema proporciona información acerca del espacio de trabajo móvil de colaboración de proveedor. Este espacio de trabajo ayuda a los proveedores estar informados sobre los pedidos de compra que les han enviado para su aprobación. También pueden ver la información sobre los pedidos y contactos nuevos y actualizados."
+title: Espacio de trabajo de móvil de colaboración de proveedor
+description: Este tema proporciona información acerca del espacio de trabajo móvil de colaboración de proveedor. Este espacio de trabajo ayuda a los proveedores estar informados sobre los pedidos de compra que les han enviado para su aprobación. También pueden ver la información sobre los pedidos y contactos nuevos y actualizados.
 author: mkirknel
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,24 +17,23 @@ ms.search.region: global
 ms.author: mkirknel
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: df27ff3477443611278436a680d70ea81a21763e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 83fcf1d0432d5afa71d6f9d7d22cea5a583777bf
-ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358655"
 ---
-
 # <a name="vendor-collaboration-mobile-workspace"></a>Espacio de trabajo de móvil de colaboración de proveedor
 
 [!include [banner](../includes/banner.md)]
 
 Este tema proporciona información acerca del espacio de trabajo móvil **Colaboración de proveedor**. Este espacio de trabajo ayuda a los proveedores estar informados sobre los pedidos de compra que les han enviado para su aprobación. También pueden ver la información sobre los pedidos y contactos nuevos y actualizados.
 
-Este espacio de trabajo móvil se debe usar con la aplicación móvil Microsoft Dynamics 365 for Unified Operations.
+Este espacio de trabajo móvil se debe usar con la aplicación Microsoft Dynamics 365 for Unified Operations mobile.
 
 ## <a name="overview"></a>Información general 
-El espacio de trabajo móvil **Colaboración de proveedor** mantiene a los proveedores informados sobre nuevos pedidos de compra de modo que puedan visualizar los pedidos de compra y responder a estos en el cliente web de Microsoft Dynamics 365 for Finance and Operations. 
+El espacio de trabajo móvil de **colaboración de proveedores** mantiene a los proveedores informados sobre nuevos pedidos de compra de modo que puedan ver pedidos y responder a ellos en el cliente web de Microsoft Dynamics 365 for Finance and Operations. 
 
 >[!NOTE]
 > El espacio de trabajo móvil se debe utilizar como un suplemento a la interfaz web de colaboración de proveedor, pero no como sustituto de esta. 
@@ -58,12 +57,12 @@ El espacio de trabajo móvil **Colaboración de proveedor** permite a un proveed
 -   Ver la información sobre una solicitud de usuario que el proveedor envió y seguir el estado de la solicitud. (Esta tarea requiere un rol de seguridad adicional.)
 
 ## <a name="prerequisites"></a>Requisitos previos
-Los requisitos previos varían en función de la versión de Microsoft Dynamics 365 que se ha implementado para su organización.
+Los requisitos previos varían, en función de la versión de Microsoft Dynamics 365 que se ha implementado para su organización.
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Requisitos previos si usa Microsoft Dynamics 365 for Finance and Operations 
 Si Microsoft Dynamics 365 for Finance and Operations se ha implementado para su organización, el administrador del sistema debe publicar el espacio de trabajo móvil **Colaboración de proveedor**. Para obtener instrucciones, consulte [Publicar un espacio de trabajo móvil](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Requisitos si usa Microsoft Dynamics 365 for Operations versión 1611 con actualización de plataforma 3 o posterior
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Los requisitos previos si usa Microsoft Dynamics 365 for Operations versión 1611 con la actualización de plataforma 3 o posterior
 Si se ha implementado Microsoft Dynamics 365 for Operations versión 1611 con actualización de plataforma 3 o posterior en su organización, el administrador del sistema debe cumplir los requisitos siguientes. 
 
 <table>
@@ -76,11 +75,11 @@ Si se ha implementado Microsoft Dynamics 365 for Operations versión 1611 con ac
 </thead>
 <tbody>
 <tr class="odd">
-<td>3216943 KB debe implementarse si usa la actualización 3 de la plataforma.</td>
+<td>KB 3216943 debe implementarse si usa la actualización 3 de la plataforma.</td>
 <td>Administrador del sistema</td>
-<td>3216943 KB es una actualización de binarios requerida si usa la actualización 3 de la plataforma. Para implementar este KB, el administrador del sistema debe seguir estos pasos.
+<td>KB 3216943 es una actualización de binarios requerida si usa la actualización 3 de la plataforma. Para implementar este KB, el administrador del sistema debe seguir estos pasos.
 <ol>
-<li>Descargar KB 3216943 de Microsoft Dynamics Lifecycle Services (LCS).</li>
+<li>Descargue KB 3216943 de Microsoft Dynamics Lifecycle Services (LCS).</li>
 <li>Instalar la actualización de binarios, que se entrega como paquete implementable. Para obtener información acerca de cómo aplicar un paquete implementable, consulte <a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Aplicar un paquete implementable</a>.</li>
 </ol></td>
 </tr>
@@ -120,7 +119,7 @@ Descargue e instale la aplicación móvil Dynamics 365 for Unified Operations:
 
 ## <a name="sign-in-to-the-mobile-app"></a>Iniciar sesión en la aplicación móvil
 1.  Inicie la aplicación en su dispositivo móvil.
-2.  Escriba la dirección URL de Microsoft Dynamics 365.
+2.  Especifique la dirección URL Microsoft Dynamics 365.
 4.  La primera vez que inicie sesión, se le solicitará su nombre de usuario y contraseña. Escriba sus credenciales.
 5.  Tras iniciar sesión, se mostrarán los espacios de trabajo disponibles para su empresa. Tenga en cuenta que si el administrador del sistema publica un nuevo espacio de trabajo más tarde, tendrá que actualizar la lista de espacios de trabajo móviles.
 
@@ -171,4 +170,3 @@ Se muestran los cambios que se han realizado en la respuesta de la línea de ped
 
 ### <a name="open-confirmed-orders"></a>Pedidos confirmados abiertos
 Si el cliente ha confirmado el pedido de compra, (es decir, el estado del pedido de compra ha cambiado a **Confirmado**), aparece en el pedido confirmado abierto. Permanecerá en la lista hasta que se registre como recibido por el cliente.
-

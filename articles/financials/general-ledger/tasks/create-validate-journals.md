@@ -1,13 +1,13 @@
---- 
+---
 title: Crear y validar diarios
-description: "Esta guía de tareas crea y valida diarios y líneas de diarios."
+description: Esta guía de tareas crea y valida diarios y líneas de diarios.
 author: ryansandness
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransDaily
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: c94d992b97e9a2a18299f97c982430f8205cabf2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: ca58d2cfc1788f9a9d4659d52a4bccc255bcfd72
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329974"
 ---
 # <a name="create-and-validate-journals"></a>Crear y validar diarios
 
@@ -44,5 +44,4 @@ Esta guía de tareas crea y valida diarios y líneas de diarios. Esta tarea usa 
 11. Haga clic en Validar.
 12. Haga clic en Registrar.
 13. Haga clic en Asiento.
-
 

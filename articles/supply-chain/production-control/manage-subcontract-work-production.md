@@ -1,13 +1,13 @@
 ---
-title: "Gestionar el trabajo de subcontratación en la producción"
-description: "Este tema explica cómo las operaciones subcontratadas se administran en Microsoft Dynamics 365 for Finance and Operations. Es decir, explica cómo las operaciones de producción asignadas a un recurso son administradas por un proveedor."
+title: Gestionar el trabajo de subcontratación en la producción
+description: Este tema explica cómo se administran las operaciones subcontratadas en Microsoft Dynamics 365 for Finance and Operations. Es decir, explica cómo las operaciones de producción asignadas a un recurso son administradas por un proveedor.
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanDocumentServiceCreation, PlanActivity, ProdBOMVendorListPage, ProdRoute, ProdTable, ProdTableListPage, PurchAgreementSubcontractorLookup, RouteTable, WrkCtrResourceGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f41f13bf1b587cb802579cc3b27ef4eea70a0380
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 26feea4d86cf8b976f41342c8543594593c4b135
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326593"
 ---
-
 # <a name="manage-subcontracting-work-in-production"></a>Gestionar el trabajo de subcontratación en la producción
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo las operaciones subcontratadas se administran en Microsoft Dynamics 365 for Finance and Operations. Es decir, explica cómo las operaciones de producción asignadas a un recurso son administradas por un proveedor.
+Este tema explica cómo se administran las operaciones subcontratadas en Microsoft Dynamics 365 for Finance and Operations. Es decir, explica cómo las operaciones de producción asignadas a un recurso son administradas por un proveedor.
 
 En [procesos de producción](production-process-overview.md), el trabajo se puede realizar por los recursos propiedad o administrados por los proveedores. Normalmente, se usan los recursos del proveedor para compensar el exceso de la demanda periódico que supera la capacidad disponible de los recursos propios de una empresa. El proveedor también puede proporcionar [capacidades de recursos](resource-capabilities.md) específicas o recursos a un precio más bajo.  
 
@@ -101,7 +100,6 @@ Los productos semiterminados son la excepción a esta regla. Para transferir pro
 **Nota:** una ruta de producción para un único pedido de producción no puede atravesar varios sitios. Esta regla también se aplica al trabajo subcontratado. Por lo tanto, los almacenes que representan las ubicaciones de materiales administradas por el proveedor se deben definir en el mismo sitio que los recursos internos que se usan en la ruta. Aunque los flujos de producción pueden atravesar sitios, no pueden transportar los productos semiterminados de un sitio a otro, ya que dicha operación implica un cambio de contexto del coste.  
 
 Normalmente, el almacén y la ubicación de salida de un grupo de recursos subcontratado se asignan directamente al almacén y la ubicación del paso siguiente de la operación en la ruta o el flujo de producción. Esta configuración ayuda a reducir la cantidad de informes de trabajo realizados o el número de operaciones de transferencia adicionales que se deben modelar.
-
 
 
 

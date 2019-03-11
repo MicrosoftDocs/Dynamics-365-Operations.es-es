@@ -1,13 +1,13 @@
---- 
-title: "Crear un código de barras para un producto"
-description: "Este procedimiento muestra cómo crear manualmente un código de barras mediante el número de artículo M0001 como ejemplo."
+---
+title: Crear un código de barras para un producto
+description: Este procedimiento muestra cómo crear manualmente un código de barras mediante el número de artículo M0001 como ejemplo.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductMaintainWorkspace, EcoResProductOpenCasesFormPart, EcoResProductDetailsExtended, InventItemBarcode, InventItemBarcodeLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 2ae2765a125045d60566267d01e380069d5d527c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f53de983389dd8cbfb2c29af84539f1a73dc0a85
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329399"
 ---
 # <a name="create-a-bar-code-for-a-product"></a>Crear un código de barras para un producto
 
@@ -50,5 +50,4 @@ Este procedimiento muestra cómo crear manualmente un código de barras mediante
 16. Cierre la página.
 17. Haga clic en Guardar.
 18. Cierre la página.
-
 

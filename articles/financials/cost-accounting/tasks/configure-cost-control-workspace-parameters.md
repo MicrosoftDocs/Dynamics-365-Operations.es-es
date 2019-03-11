@@ -1,13 +1,13 @@
---- 
-title: "Configurar los parámetros del espacio de trabajo de control de costes"
-description: "Use este procedimiento para configurar el espacio de trabajo de control de costes de modo que los administradores de varios niveles de una organización puedan obtener información detallada sobre los objetos de coste, como los centros de coste y los grupos de productos."
+---
+title: Configurar los parámetros del espacio de trabajo de control de costes
+description: Use este procedimiento para configurar el espacio de trabajo de control de costes de modo que los administradores de varios niveles de una organización puedan obtener información detallada sobre los objetos de coste, como los centros de coste y los grupos de productos.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2f9c50bb0ab7f1b0afadfabb687932f96ab6e689
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 8ede40951d08e159358b713fc3dde46576a1b4e3
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308584"
 ---
 # <a name="configure-cost-control-workspace-parameters"></a>Configurar los parámetros del espacio de trabajo de control de costes
 
@@ -57,5 +57,4 @@ Use este procedimiento para configurar el espacio de trabajo de control de coste
 26. En el campo Periodo de calendario fiscal, especifique o seleccione un valor.
 27. En el campo Nodo de jerarquía de dimensión de objetos de coste, especifique o seleccione un valor.
     * Una vez haya seleccionado una jerarquía de dimensión de objetos de coste, expanda la jerarquía de dimensión de elementos de coste para ver los valores de coste deseados. Por ejemplo, puede expandir la jerarquía a los gastos generales de fabricación para ver el valor.  
-
 

@@ -1,13 +1,13 @@
---- 
-title: "Configurar una directiva de ubicación para apartar un pedido de trabajo"
-description: "Este procedimiento muestra cómo configurar una directiva de ubicación sencilla."
+---
+title: Configurar una directiva de ubicación para apartar un pedido de trabajo
+description: Este procedimiento muestra cómo configurar una directiva de ubicación sencilla.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9ca4b3c2598a268c065011daff31296521faa918
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 4bb4af7cb7aff101a8b9e6162823515f63b12886
-ms.openlocfilehash: 98ce3ad38dddda33be5466490fcd39d81251679c
-ms.contentlocale: es-es
-ms.lasthandoff: 11/02/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349087"
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Configurar una directiva de ubicación para apartar un pedido de trabajo
 
@@ -93,5 +93,4 @@ Este procedimiento muestra cómo configurar una directiva de ubicación sencilla
 4. En el campo Criterios, escriba un valor.
 5. Haga clic en Aceptar
     * Puede continuar agregando líneas de directivas y acciones de directivas hasta que haya cubierto todas las situaciones posibles del almacén.  
-
 

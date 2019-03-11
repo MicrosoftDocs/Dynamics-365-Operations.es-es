@@ -1,13 +1,13 @@
 ---
-title: "Visión general de la actualización del libro amortización"
-description: "En versiones anteriores, había dos conceptos de la evaluación para activos fijos: modelos de valor y libros de depreciación. En Microsoft Dynamics 365 for Operations (1611), la función del modelo de valor y la del libro de amortización se han combinado en un solo concepto que se conoce como libro. Este tema proporciona algunas cosas a tener en cuenta para la actualización."
+title: Visión general de la actualización del libro amortización
+description: 'En versiones anteriores, había dos conceptos de la evaluación para activos fijos: modelos de valor y libros de depreciación. En Microsoft Dynamics 365 for Operations (1611), la función del modelo de valor y la del libro de amortización se han combinado en un solo concepto que se conoce como libro. Este tema proporciona algunas cosas a tener en cuenta para la actualización.'
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 805f6ab1cd1d0996e685278cc997f532213c76c3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e95fa9dd15dfe5e6b26de61b5dbc1a9a6c0d768d
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359322"
 ---
-
 # <a name="depreciation-book-upgrade-overview"></a>Visión general de la actualización del libro amortización
 
 [!include [banner](../includes/banner.md)]
@@ -81,7 +80,6 @@ Al usar el enfoque de la secuencia numérica generado por el sistema (opción 1)
 Al usar el enfoque de la secuencia numérica existente definida por el usuario (opción 2), la actualización de datos comprueba si la secuencia numérica con el ámbito especificado existe en la base de datos para cada parte y empresa con transacciones del libro de depreciación. Si existe, la actualización utilizará el procesamiento de fila por fila para asignar los números de asiento según lo especificó la secuencia numérica mediante el marco de la secuencia numérica. Si la secuencia numérica no existe con el ámbito especificado, la actualización utilizará el enfoque predeterminado de la secuencia numérica definido por el sistema para asignar los números de asiento, y creará una nueva secuencia numérica con parámetros predeterminados especificados después de la asignación.
 
 Con cualquiera de los enfoques, la secuencia de comandos de actualización de datos también utilizará la secuencia numérica del campo **Serie de asientos** en los nuevos nombres de diario de contabilidad general creados para los nombres anteriores del diario del libro amortización.
-
 
 
 

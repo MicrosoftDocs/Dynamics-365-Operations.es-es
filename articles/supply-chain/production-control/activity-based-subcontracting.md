@@ -1,13 +1,13 @@
 ---
-title: "Subcontratación basada en actividad"
-description: "Este tema describe detalladamente cómo usar actividades subcontratadas en un flujo de producción para la lean manufacturing."
+title: Subcontratación basada en actividad
+description: Este tema describe detalladamente cómo usar actividades subcontratadas en un flujo de producción para la lean manufacturing.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanJobSchedulingListPage, LeanRuleReassignmentWizard, PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c219208c7ba5dd3686473d094658ab7f4c1b2b59
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 59b41b31931a128898ee70a583bfb9c515f90abc
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350053"
 ---
-
 # <a name="activity-based-subcontracting"></a>Subcontratación basada en actividad
 
 [!include [banner](../includes/banner.md)]
@@ -104,7 +103,6 @@ Las personas con frecuencia consideran el transporte como algo no productivo y p
 La subcontratación basada en actividades en lean manufacturing permite integrar a los transportistas y a los proveedores de transporte que mueven materiales y productos entre ubicaciones de un flujo de producción. Modelando una actividad de transferencia, puede asignar un transportista o un proveedor. Las actividades de transferencia/trabajo se basan en un acuerdo de compra y servicio y puede crear pedidos de compra y avisos de recepción basados en los trabajos reales de transferencia. Esta funcionalidad es igual a la funcionalidad para las actividades de proceso subcontratadas.  
 
 Por lo tanto, Dynamics 365 for Finance and Operations ahora admite el cálculo de L. MAT que incluye servicios de transporte, la creación de pedidos de compra relacionados, el registro de recepción integrado y la integración de los costes del servicio de transporte en la gestión de costes del flujo de producción.
-
 
 
 

@@ -1,31 +1,30 @@
 ---
-title: "El usuario puede tener acceso a Core HR pero no a la aplicación Onboard ni Attract."
-description: "Este tema explica cómo resolver el problema en el que un usuario puede tener acceso a Microsoft Dynamics 365 for Talent Core HR, pero no puede tener acceso a la aplicación Attract ni Onboard."
+title: El usuario puede tener acceso a Core HR pero no a la aplicación Onboard ni Attract.
+description: Este tema explica cómo resolver el problema en el que un usuario puede tener acceso a Microsoft Dynamics 365 for Talent Core HR, pero no puede tener acceso a la aplicación Attract ni Onboard.
 author: Darinkramer
 manager: AnnBe
 ms.date: 11/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: d3f974f94b6c327fd70b8098d24f9e1f1e1e8eeb
 ms.openlocfilehash: 2e5d0b1bf993aec89c7d2c6d4916732f5824310d
-ms.contentlocale: es-es
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306142"
 ---
-
-# <a name="user-can-access-core-hr-but-not-the-onboard-or-attract-app"></a>El usuario puede tener acceso a Core HR pero no a la aplicación Onboard ni Attract.
+# <a name="user-can-access-core-hr-but-not-the-onboard-or-attract-app"></a>El usuario puede acceder a Core HR pero no a las aplicaciones Onboard y Attract
 
 [!include [banner](includes/banner.md)]
 
@@ -40,11 +39,10 @@ El usuario B puede tener acceso a Core HR, pero no puede tener acceso a la aplic
 
 **Solución**
 
-El usuario B h de tener asignados derechos de ver el entorno de Microsoft PowerApps que el usuario A creó durante el proceso de abastecimiento.
+El usuario B de tener asignados derechos de ver el entorno de Microsoft PowerApps que el usuario A creó durante el proceso de abastecimiento.
 
 Para obtener más información, consulte “Conceder acceso al entorno” en [Aprovisionar Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).
 
 **Solución a largo plazo**
 
 Microsoft está considerando asignar automáticamente los derechos adecuados a Onboard y Attract cuando se agrega un usuario a Core HR.
-

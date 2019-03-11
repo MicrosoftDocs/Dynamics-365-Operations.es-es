@@ -1,13 +1,13 @@
---- 
-title: "Importación de la configuración de domiciliación bancaria ISO20022"
-description: "Este procedimiento muestra cómo importar una configuración de informes electrónicos de pagos de cliente."
+---
+title: Importación de la configuración de domiciliación bancaria ISO20022
+description: Este procedimiento muestra cómo importar una configuración de informes electrónicos de pagos de cliente.
 author: mrolecki
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionImport
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 1757a1477e46f71e327bb70cf4780767b7509e55
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 9911528dbe0d72bb2e01884eaf6a1291d52d130c
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333079"
 ---
 # <a name="import-iso20022-direct-debit-configuration"></a>Importación de la configuración de domiciliación bancaria ISO20022
 
@@ -48,5 +48,4 @@ Este es el primero de cinco procedimientos que muestra el proceso de pago del cl
 8. Haga clic en Importar.
     * Si el botón Importar no está disponible, es que la configuración ya se ha importado.  
 9. Haga clic en Sí.
-
 

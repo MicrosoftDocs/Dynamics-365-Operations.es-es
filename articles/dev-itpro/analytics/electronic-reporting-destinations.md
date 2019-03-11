@@ -1,13 +1,13 @@
 ---
-title: "Destinos de informes electrónicos (ER)"
-description: "Puede configurar un destino para cada configuración de formato de informes electrónicos y su componente de salida (una carpeta o un archivo). A los usuarios que se le conceden los derechos de acceso adecuados también pueden modificar la configuración de destino en tiempo de ejecución. En este artículo se explica la administración de destinos de ER, los tipos de destinos que son compatibles y consideraciones de seguridad."
+title: Destinos de informes electrónicos (ER)
+description: Puede configurar un destino para cada configuración de formato de informes electrónicos y su componente de salida (una carpeta o un archivo). A los usuarios que se le conceden los derechos de acceso adecuados también pueden modificar la configuración de destino en tiempo de ejecución. En este artículo se explica la administración de destinos de ER, los tipos de destinos que son compatibles y consideraciones de seguridad.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable
 audience: Application User
 ms.reviewer: kfend
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 301dccaf154c3c12bcc4d611a147cdef03b8f851
-ms.contentlocale: es-es
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314932"
 ---
-
 # <a name="electronic-reporting-er-destinations"></a>Destinos de informes electrónicos (ER)
 
 [!include [banner](../includes/banner.md)]
@@ -35,9 +34,9 @@ Puede configurar un destino para cada configuración de formato de informes elec
 Las configuraciones de formato de informes electrónicos (ER) suelen contener al menos un componente de salida: un archivo. Normalmente, las configuraciones contienen varios componentes de salida de archivo de diferentes tipos (por ejemplo, XML, TXT o XLSX) que se agrupan en una carpeta única o varias carpetas. La administración de destinos ER le permite preconfigurar lo que ocurre cuando se ejecuta cada componente. De forma predeterminada, cuando se ejecuta una configuración, se muestra un cuadro de diálogo que permite al usuario guardar o abrir el archivo. El mismo comportamiento también se usa al importar una configuración de ER y no configurar destinos específicos para ella. Después de que se cree un destino para un componente de salida principal, ese destino anula el comportamiento predeterminado y la carpeta o el archivo se envía según la configuración del destino.
 
 ## <a name="availability-and-general-prerequisites"></a>Disponibilidad y requisitos previos generales
-La funcionalidad de los destinos de ER no está disponible en Microsoft Dynamics AX 7.0 (febrero de 2016). Por lo tanto, debe instalar la versión 1611 de Microsoft Dynamics 365 for Operations (noviembre de 2016) para utilizar todas las funciones que se describen en este tema. O bien, puede instalar uno de los siguientes requisitos previos. Sin embargo, tenga en cuenta que esta alternativa proporciona una experiencia de destino de ER más limitada.
+La funcionalidad de los destinos de ER no está disponible en Microsoft Dynamics AX 7.0 (febrero de 2016). Por lo tanto, debe instalar Microsoft Dynamics 365 for Operations versión 1611 (noviembre de 2016) para utilizar todas las funciones que se describen en este tema. O bien, puede instalar uno de los siguientes requisitos previos. Sin embargo, tenga en cuenta que esta alternativa proporciona una experiencia de destino de ER más limitada.
 
-- Versión de la aplicación 7.0.1 de Microsoft Dynamics AX (mayo de 2016)
+- Versión de aplicación Microsoft Dynamics AX 7.0.1 (mayo de 2016)
 - [Revisión de aplicación](https://fix.lcs.dynamics.com/issue/results/?q=3160213) de la administración de destinos de ER
 
 Puede configurar destinos solo para configuraciones de ER que se han importado y para los formatos que están disponibles en la página **Configuraciones de informes electrónicos**.
@@ -121,7 +120,7 @@ Si establece **Habilitado** en **Sí** se abre un cuadro de diálogo para abrir 
 
 Si establece **Habilitado** en **Sí**, se crea una vista previa de la salida. Puede ver algunos tipos de archivo, como XML, TXT o PDF, directamente en una ventana de explorador. Para otros tipos de archivo, como Microsoft Excel o Word, se usa el servicio de Microsoft Office Online.
 
-### <a name="power-bi-destination"></a>Destino de Power BI
+### <a name="power-bi-destination"></a>Destino Power BI
 
 Establezca **Habilitado** en **Sí** para usar la configuración de ER para organizar la transferencia de datos de la instancia de Finance and Operations a los servicios de Microsoft Power BI. Los archivos transferidos se almacenan en una instancia de Microsoft SharePoint Server que debe configurarse para ese propósito. Para obtener más información, consulte [Usar una configuración electrónica de informes para proporcionar datos de Finance and Operations a Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md).
 
@@ -165,4 +164,3 @@ El requisito previo es que el formato debe estar disponible en las configuracion
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Visión general de los informes electrónicos](general-electronic-reporting.md)
-

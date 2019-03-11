@@ -1,13 +1,13 @@
 ---
-title: "Colaboración de proveedor con los clientes"
-description: "Este tema describe cómo puede usar la colaboración del proveedor en Microsoft Dynamics 365 for Finance and Operations, para trabajar con los pedidos de compra y supervisar el inventario de entrega."
+title: Colaboración de proveedor con los clientes
+description: Este tema describe cómo puede usar la colaboración del proveedor para trabajar con los pedidos de compra y supervisar el inventario de envío en Microsoft Dynamics 365 for Finance and Operations.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: bd3967da105b3cec4a722ee8e04fac13c798feec
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6ab1d60839131b3d4bb1782319754ba63d54cfd7
-ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342946"
 ---
-
 # <a name="vendor-collaboration-with-customers"></a>Colaboración de proveedor con los clientes
 
 [!include [banner](../includes/banner.md)]
@@ -144,4 +143,3 @@ La información accesible es el nombre del proveedor, direcciones, información 
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Gestionar usuarios de colaboración de proveedor](manage-vendor-collaboration-users.md)
-

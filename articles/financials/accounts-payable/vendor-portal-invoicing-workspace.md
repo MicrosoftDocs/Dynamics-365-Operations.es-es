@@ -1,13 +1,13 @@
 ---
-title: "Espacio de trabajo de facturación de colaboración de proveedor"
-description: "Este tema explica cómo puede ver las facturas de proveedor y enviar las facturas desde el espacio de trabajo de la facturacíon de colaboración de proveedor."
+title: Espacio de trabajo de facturación de colaboración de proveedor
+description: Este tema explica cómo puede ver las facturas de proveedor y enviar las facturas desde el espacio de trabajo de la facturacíon de colaboración de proveedor.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 5520012a00e918e8748b974773eeaf2450f0c55e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2368fae3913f67d9d2ce0bbe6b2e0bee7968bb15
-ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340531"
 ---
-
 # <a name="vendor-collaboration-invoicing-workspace"></a>Espacio de trabajo de facturación de colaboración de proveedor
 
 [!include [banner](../includes/banner.md)]
@@ -60,7 +59,6 @@ Crear una nueva factura a partir de un pedido de compra
 Puede crear una nueva factura de proveedor seleccionando la acción **Nueva** en el espacio de trabajo de **Facturación de colaboración de proveedor**. El proveedor debe proporcionar el número de pedido de compra y de factura. De forma predeterminada, todas las líneas de pedido de compra del proveedor aparecerán en la nueva factura. La información sobre cantidad y coste se puede editar antes de enviar la factura de proveedor al flujo de trabajo. Puede adjuntar archivos, notas, imágenes y direcciones URL a una factura antes de enviarla.
 
 Para obtener más información, consulte [Colaboración de proveedor con proveedores externos](../../supply-chain/procurement/vendor-collaboration-work-external-vendors.md)
-
 
 
 

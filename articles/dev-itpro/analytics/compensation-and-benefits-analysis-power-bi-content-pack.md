@@ -1,13 +1,13 @@
 ---
-title: Contenido de Power BI de compensaciones y de prestaciones
+title: Contenido de compensaciones y prestaciones de Power BI
 description: 'En este tema se describe Finance and Operations: contenido en Power BI de Compensaciones y de prestaciones.'
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 6834940b16749461066e8f1000cbb7c2d4371109
-ms.contentlocale: es-es
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327444"
 ---
-
-# <a name="compensation-and-benefits-power-bi-content"></a>Contenido de Power BI de compensaciones y de prestaciones
+# <a name="compensation-and-benefits-power-bi-content"></a>Contenido de compensaciones y prestaciones de Power BI
 
 [!include [banner](../includes/banner.md)]
 
@@ -68,4 +67,3 @@ Los datos de Finance and Operations se utilizan para rellenar los informes del p
 | Workforce\_WorkerName             | Nombre, apellido y nombre completo                                                                       | Workforce\_CurrentWorker, Workforce\_TerminatedWorker, Workforce\_WorkerTrend |
 | Workforce\_WorkerTitle            | Cargo y fecha de antigüedad                                                                                   | Workforce\_CurrentWorker, Workforce\_TerminatedWorker, Workforce\_WorkerTrend |
 | Workforce\_WorkerTrend            | Trabajadores a lo largo del tiempo, plantilla, empresa y puesto                                                        | Workforce\_Company, Workforce\_Compensation, Workforce\_GeographicLocation, Workforce\_Performance, Workforce\_WorkerName, Workforce\_ReportsToWorkerName, Workforce\_CalendarOffset, Workforces\_Date, Workforce\_WorkerTitle, Workforce\_Demographics, Workforce\_Employment, Workforce\_Job, Workforce\_WorkerBenefit |
-

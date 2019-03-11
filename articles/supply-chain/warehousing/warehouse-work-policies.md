@@ -1,13 +1,13 @@
 ---
-title: "Directivas de trabajo de almacén"
-description: "Control de las directivas de trabajo de almacén si el trabajo del almacén se crea mediante procesos de almacén en la fabricación, en función de tipo de pedido del trabajo, la ubicación de inventario y el producto."
+title: Directivas de trabajo de almacén
+description: Control de las directivas de trabajo de almacén si el trabajo del almacén se crea mediante procesos de almacén en la fabricación, en función de tipo de pedido del trabajo, la ubicación de inventario y el producto.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSWorkPolicy
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
+ms.openlocfilehash: 0710eac8daba7f51f6b5d1522476b812a130960d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c2d72509b0dc4d0cea5b4f2478ae7f8fc163e78c
-ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325604"
 ---
-
 # <a name="warehouse-work-policies"></a>Directivas de trabajo de almacén
 
 [!include [banner](../includes/banner.md)]
 
-Las directivas de trabajo de almacén en Microsoft Dynamics 365 for Finance and Operations controlan si el trabajo del almacén se crea mediante procesos de almacén en la fabricación, en función de tipo de pedido del trabajo, la ubicación de inventario y el producto.
+Control de las directivas de trabajo de almacén en Microsoft Dynamics 365 for Finance and Operations si el trabajo del almacén se crea mediante procesos de almacén en la fabricación, en función de tipo de pedido del trabajo, la ubicación de inventario y el producto.
 
 Esta directiva de trabajo controla si el trabajo del almacén se ha creado para los procesos de almacén en la fabricación. Puede configurar la directiva de trabajo mediante una combinación de **tipos de pedido de trabajo**, la **ubicación del inventario**, y un **producto**. Por ejemplo, se ha informado a la ubicación de salida 001 que el producto L0101 ha finalizado. El producto terminado se consume más adelante en otro pedido de producción en la ubicación de salida 001. En este caso, puede configurar una directiva de trabajo para evitar que el trabajo para productos terminados se deseche por haberse creado cuando se informa a la ubicación de salida 001 que el producto L0101 ha finalizado. La directiva de trabajo es una entidad individual que puede ser descrita mediante la siguiente información:
 
@@ -248,7 +247,6 @@ PASOS (25)
 </tr>
 </tbody>
 </table>
-
 
 
 

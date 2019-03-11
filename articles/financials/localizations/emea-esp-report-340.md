@@ -1,13 +1,13 @@
 ---
-title: "Informe 340 para España"
-description: "En este tema se ofrece información acerca de cómo configurar y generar el informe 340 para España."
+title: Informe 340 para España
+description: En este tema se ofrece información acerca de cómo configurar y generar el informe 340 para España.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 02/08/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Spain
 ms.author: epodkolz
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
 ms.openlocfilehash: 8d98088ed71f01d78f69958cab65ef804673b8ef
-ms.contentlocale: es-es
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370437"
 ---
-
 # <a name="report-340"></a>Informe 340
 
 [!include [banner](../includes/banner.md)]
@@ -128,4 +127,3 @@ Puede validar el formato de archivo mediante uno de los siguientes métodos:
     > Los certificados electrónicos se emiten solo a ciudadanos españoles.
 
 - Cargue el archivo mediante el software gratuito proporcionado por las autoridades fiscales.
-

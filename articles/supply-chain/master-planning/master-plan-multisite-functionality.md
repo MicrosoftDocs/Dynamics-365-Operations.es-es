@@ -1,13 +1,13 @@
 ---
-title: "Planificación maestra y funcionalidad multisitio"
-description: "La planificación maestra tiene en cuenta la configuración del sitio y las dimensiones de inventario de almacén."
+title: Planificación maestra y funcionalidad multisitio
+description: La planificación maestra tiene en cuenta la configuración del sitio y las dimensiones de inventario de almacén.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventLocation, InventSite
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 10981e0fe201566c83fd28c792000865bc533cd3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6800668741bfd86555b72faf8cce01f73cb9a278
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317439"
 ---
-
 # <a name="master-planning-and-multisite-functionality"></a>Planificación maestra y funcionalidad multisitio
 
 [!include [banner](../includes/banner.md)]
@@ -50,7 +49,6 @@ En los siguientes temas se describe el funcionamiento del motor de planificació
 [Planificación maestra: cobertura de sitios y almacenes, almacén no obligatorio](master-plan-site-coverage-warehouse-not-mandatory.md)
 
 [Planificación maestra: cómo se establece la versión de la lista de materiales](master-plan-bom-version-determined.md)
-
 
 
 

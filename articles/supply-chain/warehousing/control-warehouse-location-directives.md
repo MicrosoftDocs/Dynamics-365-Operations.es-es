@@ -1,13 +1,13 @@
 ---
-title: "Controlar el trabajo de almacén usando plantillas de trabajo y directivas de ubicación"
-description: "Este tema describe cómo usar plantillas de trabajo y directivas de ubicación para determinar cómo y dónde se realiza el trabajo en el almacén."
+title: Controlar el trabajo de almacén usando plantillas de trabajo y directivas de ubicación
+description: Este tema describe cómo usar plantillas de trabajo y directivas de ubicación para determinar cómo y dónde se realiza el trabajo en el almacén.
 author: perlynne
 manager: AnnBe
 ms.date: 09/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSLocDirFailure, WHSLocDirHint, WHSLocDirTable, WHSLocDirTableUOM, WHSRFMenuItem, WHSWork, WHSWorkClass, WHSWorkPool, WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: c4428613441424c81f4fd7dd92bbf842c62ce860
 ms.openlocfilehash: 74e7c36fb912f35252d6e40d17477ac2962cbc23
-ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325420"
 ---
-
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Controlar el trabajo de almacén usando plantillas de trabajo y directivas de ubicación
 
 [!include [banner](../includes/banner.md)]
 
 Este tema describe cómo usar plantillas de trabajo y directivas de ubicación para determinar cómo y dónde se realiza el trabajo en el almacén.
 
-Las instrucciones que los trabajadores de almacén reciben en un dispositivo móvil están determinadas por las plantillas de trabajo que se configuran en Microsoft Dynamics 365 for Finance and Operations para definir los distintos procesos y tareas de almacén. Las plantillas de trabajo determinan cómo se realiza el trabajo para cada proceso de almacén. Si vincula un directorio de ubicación a plantillas de trabajo, puede ayudar a garantizar que el trabajo se produce en áreas físicas específicas de los almacenes.
+Las instrucciones que los trabajadores de almacén reciben en un dispositivo móvil están determinadas por las plantillas de trabajo que se configura en Microsoft Dynamics 365 for Finance and Operations para definir los distintos procesos y tareas de almacén. Las plantillas de trabajo determinan cómo se realiza el trabajo para cada proceso de almacén. Si vincula un directorio de ubicación a plantillas de trabajo, puede ayudar a garantizar que el trabajo se produce en áreas físicas específicas de los almacenes.
 
 ## <a name="work-templates"></a>Plantillas de trabajo
 La página **Plantillas de trabajo** le permite definir las operaciones de trabajo que se deben realizar en el almacén. Normalmente, las operaciones de trabajo del almacén constan de un par de acciones: un trabajador de almacén recoge inventario disponible en una ubicación y después pone el inventario seleccionado en otra ubicación. 
@@ -163,4 +162,3 @@ Seleccione esta opción para usar estrategias de lote para los artículos habili
 En este ejemplo, considere un proceso de pedido de compra en el que la directiva de la ubicación debe encontrar capacidad libre dentro de un almacén para los artículos de inventario que acaban de registrarse en el muelle de recepción. Primero, tiene que encontrar capacidad libre dentro del almacén consolidando con el inventario disponible. Si la consolidación no es posible, tendrá que encontrar una ubicación vacía. 
 
 Para esta situación, tiene que definir dos acciones de la directiva de la ubicación. La primera acción de la secuencia debe ser usar la estrategia **Consolidar**, y la segunda debería ser la estrategia **Vaciar la ubicación sin trabajo entrante**. A menos que defina una tercera acción para gestionar una situación de desbordamiento, dos resultados son posibles si no hay capacidad en el almacén: el trabajo puede ser creado aunque no se define ninguna ubicación o el proceso de creación de trabajo puede fallar. El resultado viene determinado por la configuración en la página **Fallos de la directiva de la ubicación**, donde puede decidir si seleccionar la opción **Detener trabajo si falla la directiva de la ubicación** para cada tipo de pedido de trabajo.
-

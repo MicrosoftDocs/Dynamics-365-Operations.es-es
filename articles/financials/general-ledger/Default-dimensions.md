@@ -1,13 +1,13 @@
 ---
 title: Dimensiones financieras y registro
-description: "Cuando planifique y configure su plan contable, debe ver cómo funcionarán conjuntamente los distintos componentes cuando se registre un documento o un diario. Estos componentes incluyen las estructuras contables, reglas avanzadas, y saldo y las dimensiones fijas. Este tema explica cuál es cada componente y cómo los componentes funcionan juntos."
+description: Cuando planifique y configure su plan contable, debe ver cómo funcionarán conjuntamente los distintos componentes cuando se registre un documento o un diario. Estos componentes incluyen las estructuras contables, reglas avanzadas, y saldo y las dimensiones fijas. Este tema explica cuál es cada componente y cómo los componentes funcionan juntos.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerChartofAccounts,DimensionDetails
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 89bc6f1f01f77dac4c24419705737783b07e4ac7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a0530a569978bafffcdcc63c8d502b9bfa645bc5
-ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327950"
 ---
-
 # <a name="financial-dimensions-and-posting"></a>Dimensiones financieras y registro 
 
 [!include [banner](../includes/banner.md)]
@@ -34,7 +33,7 @@ Cuando planifique y configure su plan contable, debe ver cómo funcionarán conj
 
 ## <a name="chart-of-accounts-and-financial-dimension-components"></a>Componentes de plan contable y dimensiones financieras
 
-Microsoft Dynamics 365 for Finance and Operations tiene un sistema rico, basado en reglas para definir combinaciones válidas de cuentas principales y valores de la dimensión financiera. Esta sección ofrece una visión general breve de la funcionalidad de cada componente y explica dónde se puede encontrar el componente.
+Microsoft Dynamics 365 for Finance and Operations, tiene un sistema rico basado en reglas para definir combinaciones válidas de cuentas principales y valores de la dimensión financiera. Esta sección ofrece una visión general breve de la funcionalidad de cada componente y explica dónde se puede encontrar el componente.
 
 ### <a name="account-structures"></a>Estructuras contables
 
@@ -123,9 +122,8 @@ Algunos de los siguientes recursos se refieren a una versión anterior de Financ
 
 [Planificar su plan de cuentas](plan-chart-of-accounts.md) 
 
-[Planee su plan contable en el blog de AX 2012](https://blogs.msdn.microsoft.com/axsa/2014/06/12/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7/) – Este vínculo va a la Parte 1 de una serie de siete partes.
+[Planee su plan te cuentas en el blog de AX 2012](https://blogs.msdn.microsoft.com/axsa/2014/06/12/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7/) – Este vínculo va a la Parte 1 de una serie de siete partes.
 
 [Dimensión que establece como valor predeterminado en distribuciones contables](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2013/12/16/dimension-defaulting-in-accounting-distributions-part-1-introduction/)
 
 [Dimensión que establece como valor predeterminado en marco de las dimensiones](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2014/09/)
-

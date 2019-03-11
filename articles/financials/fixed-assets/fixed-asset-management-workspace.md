@@ -1,30 +1,29 @@
 ---
-title: "Espacio de trabajo de administración de activos fijos"
-description: "Este tema proporciona información acerca del espacio de trabajo Activo fijo. Este espacio de trabajo muestra la información relacionada con los activos fijos que se especifican en el sistema. Incluye una vista resumida y una vista de análisis."
+title: Espacio de trabajo de administración de activos fijos
+description: Este tema proporciona información acerca del espacio de trabajo Activo fijo. Este espacio de trabajo muestra la información relacionada con los activos fijos que se especifican en el sistema. Incluye una vista resumida y una vista de análisis.
 author: saraschi2
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetWorkspace
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 1e8e02bf308b5506aef41d302755911f6a9ce3e4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 8425387d4004e02e9b8adf9ba3b31a0b4e02b6e9
-ms.contentlocale: es-es
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352330"
 ---
-
 # <a name="fixed-asset-management-workspace"></a>Espacio de trabajo de administración de activos fijos
 
 [!include [banner](../includes/banner.md)]
@@ -75,4 +74,3 @@ En la tabla siguiente se muestran las visualizaciones que se encuentran disponib
 | Mapas de valoraciones        | Detalles de activo fijo |
 
 Para ver la analítica con datos, primero debe actualizar la medición de agregado AssetTransactionMeasure en la página **Almacén de entidades** .
-

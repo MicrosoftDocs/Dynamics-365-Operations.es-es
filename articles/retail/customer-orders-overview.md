@@ -1,13 +1,13 @@
 ---
 title: Pedidos de cliente en Retail Modern POS (MPOS)
-description: "Este tema proporciona información acerca de los pedidos de cliente en Retail Modern POS (MPOS). Los pedidos de cliente también se conocen como pedidos especiales. El tema incluye una discusión de parámetros y flujos de transacción relacionados."
+description: Este tema proporciona información sobre los pedidos de clientes en Retail Modern POS (MPOS). Los pedidos de cliente también se conocen como pedidos especiales. El tema incluye una discusión de parámetros y flujos de transacción relacionados.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: b54f39cc7896871d77f9371e6197bf6dbaac51de
-ms.contentlocale: es-es
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336621"
 ---
-
 # <a name="customer-orders-in-retail-modern-pos-mpos"></a>Pedidos de cliente en Retail Modern POS (MPOS)
 
 [!include [banner](includes/banner.md)]
 
-Este tema proporciona información acerca de los pedidos de cliente en Retail Modern POS (MPOS). Los pedidos de cliente también se conocen como pedidos especiales. El tema incluye una discusión de parámetros y flujos de transacción relacionados.
+Este tema proporciona información sobre los pedidos de clientes en Retail Modern POS (MPOS). Los pedidos de cliente también se conocen como pedidos especiales. El tema incluye una discusión de parámetros y flujos de transacción relacionados.
 
 En un mundo de comercio de varios canales simultáneos, muchos minoristas ofrecen la opción de pedidos de cliente, o pedidos especiales, para cumplir diferentes requisitos de producto y de cumplimiento. Aquí hay algunas situaciones habituales:
 
@@ -57,7 +56,7 @@ A continuación se muestran algunos de los parámetros que se pueden configurar 
 
 ## <a name="transaction-flow-for-customer-orders"></a>Flujo de transacciones para pedidos de cliente
 
-### <a name="create-a-customer-order-in-retail-modern-pos"></a>Cree un pedido de cliente en Retail Modern POS
+### <a name="create-a-customer-order-in-retail-modern-pos"></a>Crear un pedido de cliente en Retail Modern POS
 
 1. Agregue un cliente a la transacción.
 2. Agregue productos al carro.
@@ -97,9 +96,8 @@ Los pedidos de cliente se pueden crear en el cliente de punto de venta (PDV) en 
 1. Haga clic en **Retail** &gt; **Configuración de canal** &gt; **Configuración de PDV** &gt; **Perfiles de PDV** &gt; **Perfiles de funcionalidad**.
 2. En la ficha desplegable **General**, establezca la opción **Crear pedido de cliente en modo asincrónico** en **Sí**.
 
-Cuando la opción **Crear pedido de cliente en modo asincrónico** está establecida en **Sí**, los pedidos de cliente se crean siempre en modo asincrónico, incluso si Retail Transaction Service (RTS) está disponible. Si establece esta opción en **No**, los pedidos de cliente siempre se crean en modo sincrónico mediante RTS. Cuando los pedidos de cliente se crean en modo asincrónico, se extraen y se insertan en Retail mediante trabajos de extracción (P). Los pedidos de ventas correspondientes se crean en Retail cuando **Sincronizar pedidos** se ejecuta manualmente o mediante un proceso por lotes.
+Cuando la opción **Crear pedido de cliente en modo asincrónico** está establecido en **Sí**, los pedidos de cliente se crean siempre en modo asincrónico, incluso si Retail Transaction Service (RTS) está disponible. Si establece esta opción en **No**, los pedidos de cliente siempre se crean en modo sincrónico mediante RTS. Cuando los pedidos de cliente se crean en modo asincrónico, se extraen y se insertan en Retail mediante trabajos de extracción (P). Los pedidos de ventas correspondientes se crean en Retail cuando **Sincronizar pedidos** se ejecuta manualmente o mediante un proceso por lotes.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Pedidos de cliente híbridos](hybrid-customer-orders.md)
-

@@ -1,13 +1,13 @@
 ---
-title: "Preguntas más frecuentes sobre acciones del personal"
-description: "Este tema contiene respuestas a preguntas que puede que tenga si su organización usa acciones de personal. Las acciones de personal son pasos adicionales que debe completar cuando realice ciertas tareas relacionadas con el personal."
+title: Preguntas más frecuentes sobre acciones del personal
+description: Este tema contiene respuestas a preguntas que puede que tenga si su organización usa acciones de personal. Las acciones de personal son pasos adicionales que debe completar cuando realice ciertas tareas relacionadas con el personal.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations, Talent
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: 0e68154ec70fdf26d1d783de29a386a336fff92f
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306104"
 ---
-
 # <a name="personnel-actions-faq"></a>Preguntas más frecuentes sobre acciones del personal
 
 [!include [banner](includes/banner.md)]
@@ -94,5 +93,4 @@ Por ejemplo:
 - La fecha de vigencia en el encabezado de una acción **Dar de baja a un trabajador** es la fecha especificada en el campo **Fecha de finalización**.
 - La fecha de vigencia de una acción **Contratar a un trabajador** es la fecha especificada en el campo **Fecha inicial del empleo**.
 - La fecha de vigencia de una acción **Transferir a un trabajador** es la fecha especificada en el campo **Fecha inicial de la asignación** del trabajador.
-
 

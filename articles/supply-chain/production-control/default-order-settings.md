@@ -1,13 +1,13 @@
 ---
-title: "Configuración predeterminada de pedidos para dimensiones y variantes de producto."
-description: "Los configuración de pedido predeterminada define el sitio y el almacén de dónde se originan o almacenan los artículos, las cantidades mínimas, máximas, múltiples y estándar que se usarán en la gestión de comercio o de inventario, los plazos, el indicador de detención y el método prometedor del pedido."
+title: Configuración predeterminada de pedidos para dimensiones y variantes de producto.
+description: Los configuración de pedido predeterminada define el sitio y el almacén de dónde se originan o almacenan los artículos, las cantidades mínimas, máximas, múltiples y estándar que se usarán en la gestión de comercio o de inventario, los plazos, el indicador de detención y el método prometedor del pedido.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventItemOrderSetup
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: b7c36553c9ad5bf4b061285d617be85ce77d0fcd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: d0e8d1ac8b775f9c728d6bfa6ba219dd889bf8a2
-ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326386"
 ---
-
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Configuración predeterminada de pedidos para dimensiones y variantes de producto
 
 [!include [banner](../includes/banner.md)]
@@ -170,7 +169,6 @@ Si el sistema de la regla para la configuración predeterminada de pedido es dem
 | 0    |      |               |       |                                      | 5                  |                    |                                   |                 |
 
 La categoría en este caso no importa realmente, por lo que puede elegir ocultarla. Esta solución presenta potencialmente un problema de mantenimiento. Sin embargo, es posible que desee tener en cuenta esta configuración si considera la integración con los sistemas de Product Lifecycle Management (PLM).
-
 
 
 

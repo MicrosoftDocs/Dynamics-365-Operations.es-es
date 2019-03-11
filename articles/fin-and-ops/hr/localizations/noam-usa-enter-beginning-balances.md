@@ -1,13 +1,13 @@
 ---
-title: "Especificar saldos iniciales de nómina"
-description: "El tema se describen los pasos para especificar los saldos iniciales para los códigos de ganancias, las deducciones, las prestaciones y los impuestos. Esta información tiene valor para que los socios migren o transfieran los datos para una nueva implementación de nóminas desde otro sistema."
+title: Especificar saldos iniciales de nómina
+description: El tema se describen los pasos para especificar los saldos iniciales para los códigos de ganancias, las deducciones, las prestaciones y los impuestos. Esta información tiene valor para que los socios migren o transfieran los datos para una nueva implementación de nóminas desde otro sistema.
 author: kherr75
 manager: AnnBe
 ms.date: 07/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1e7bdfca55e1bdaba0b5ebdf55b46744e584ab2c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 93333757995c874c2cf03514acff28a54ae7f787
-ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313000"
 ---
-
 # <a name="enter-payroll-beginning-balances"></a>Especificar saldos iniciales de nómina
 
 [!include [banner](../../includes/banner.md)]
@@ -168,4 +167,3 @@ Es posible invertir y repetir las transacciones. Para invertir la transacción, 
 2. Haga clic en **Sí** cuando aparezca el mensaje “Cuando se invierte este extracto de pago, se crea un extracto de pago de inversión para compensarlo. Ninguno de los extractos de pago se podrá modificar. ¿Quiere invertir este extracto de pago? . 
 
 Una vez que revierta el extracto de pago, puede generar un nuevo extracto de pago para el trabajador desde el extracto de ganancias que creó anteriormente. Asegúrese de corregir las líneas incorrectas del extracto de ganancias antes de generar la nueva instrucción de pago, y luego genere nuevos extractos de sueldo con los importes correctos. 
-

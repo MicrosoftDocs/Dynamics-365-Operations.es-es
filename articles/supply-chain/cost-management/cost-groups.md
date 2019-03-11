@@ -1,13 +1,13 @@
 ---
 title: Grupos de coste
-description: "Los grupos de costes proporcionan la base para la segmentación y el análisis de contribuciones de coste en el coste calculado de un artículo fabricado como, por ejemplo, las contribuciones de coste de material, mano de obra y gastos generales. La segmentación de grupos de costes tiene varios sinónimos dentro de los entornos de fabricación como, por ejemplo, desglose de costes, descomposición de costes o clasificación de costes."
+description: Los grupos de costes proporcionan la base para la segmentación y el análisis de contribuciones de coste en el coste calculado de un artículo fabricado como, por ejemplo, las contribuciones de coste de material, mano de obra y gastos generales. La segmentación de grupos de costes tiene varios sinónimos dentro de los entornos de fabricación como, por ejemplo, desglose de costes, descomposición de costes o clasificación de costes.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMCostGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1f1f97981c33c72c71e055848e874002dad73813
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f44099c2ce30d917838733af072721dd79148d27
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337426"
 ---
-
 # <a name="cost-groups"></a>Grupos de coste
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ A un grupo de costes se le puede asignar un tipo de grupo de costes y un comport
 
 -   **Tipo de grupo de costes**: cada grupo de costes se debe asignar a un tipo de grupo de costes para indicar que el grupo de costes se aplica a material directo, a fabricación directa o a subcontratación, o para designarlo como indirecto o sin definir. Un grupo de costes designado como material directo se puede asignar a los artículos. Un grupo de costes designado como fabricación directa se puede asignar a categorías de costes. Un grupo de costes de subcontratación directa se puede asignar a un tipo de producto de servicio, lo que le permite clasificar los costes que están asociados a una compra de servicios para actividades de subcontratación. Un grupo de costes indirecto se puede asignar a costes indirectos para suplementos o tasas. Un grupo de costes que está designado como sin definir se puede asignar a artículos, categorías de coste o costes indirectos. La asignación de un tipo de grupo de costes tiene varios propósitos. En primer lugar, limita la capacidad de asignar un grupo de costes y de ver una lista de grupos de costes aplicables. En segundo lugar, proporciona segmentación adicional para fines de generación de informes. En tercer lugar, se puede usar para asignar cuentas de contabilidad para las desviaciones.
 -   **Comportamiento**: a cada grupo de costes se le puede asignar opcionalmente un comportamiento para indicar que el grupo de costes se aplica a costes fijos o a costes variables. Un grupo de costes con un valor nulo para el comportamiento se trata como coste variable. La asignación de un comportamiento solo sirve para la generación de informes. Por ejemplo, los costes se pueden mostrar con la segmentación de costes fijos y variables en la hoja de gestión de costes y en la página**Acumulación de costes por grupo de costes**. Si asigna un porcentaje que establece las ganancias para cada grupo de costes, el cálculo de la lista de materiales (L. MAT.) proporciona un precio de ventas sugerido en función de un enfoque de marcado según coste más margen.
-
 
 
 

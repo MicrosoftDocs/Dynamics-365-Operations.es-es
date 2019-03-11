@@ -1,13 +1,13 @@
 ---
-title: "Área de trabajo de móvil de la aprobación del pedido de compra"
-description: "Este tema proporciona información acerca del Espacio de trabajo móvil de la aprobación del pedido de compra, que le permite ver pedidos de compra y responder a ellos con acciones. Por ejemplo, puede aprobar o rechazar un pedido de compra."
+title: Área de trabajo de móvil de la aprobación del pedido de compra
+description: Este tema proporciona información acerca del Espacio de trabajo móvil de la aprobación del pedido de compra, que le permite ver pedidos de compra y responder a ellos con acciones. Por ejemplo, puede aprobar o rechazar un pedido de compra.
 author: mkirknel
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 75a38b99fe0aee7d4dd386191be236e54097e867
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2f495fa3507fd54499e29b4c09f504dd037c0a6c
-ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348857"
 ---
-
 # <a name="purchase-order-approval-mobile-workspace"></a>Área de trabajo de móvil de la aprobación del pedido de compra
 
 [!include [banner](../includes/banner.md)]
@@ -42,9 +41,9 @@ El espacio de trabajo móvil **Aprobación de pedido de compra** le permite ver 
 Los requisitos varían en función de la versión de Finance and Operations que se haya implementado en su organización.
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Requisitos previos si usa Microsoft Dynamics 365 for Finance and Operations 
-Si Microsoft Dynamics 365 for Finance and Operations se ha implementado en su organización, el administrador del sistema debe publicar el espacio de trabajo móvil **Aprobación del pedido de compra**. Para obtener instrucciones, consulte [Publicar un espacio de trabajo móvil](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+Si Microsoft Dynamics 365 for Finance and Operations se ha implementado para su organización, el administrador del sistema debe publicar el espacio de trabajo móvil **Aprobación del pedido de compra**. Para obtener instrucciones, consulte [Publicar un espacio de trabajo móvil](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Requisitos si usa Microsoft Dynamics 365 for Operations versión 1611 con actualización de plataforma 3 o posterior
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Los requisitos previos si usa Microsoft Dynamics 365 for Operations versión 1611 con la actualización de plataforma 3 o posterior
 Si se ha implementado Microsoft Dynamics 365 for Operations versión 1611 con actualización de plataforma 3 o posterior en su organización, el administrador del sistema debe cumplir los requisitos siguientes. 
 
 <table>
@@ -61,7 +60,7 @@ Si se ha implementado Microsoft Dynamics 365 for Operations versión 1611 con ac
 <td>Administrador del sistema</td>
 <td>KB 4017918 es una actualización X++ o revisión de metadatos que contiene el espacio de trabajo móvil <strong>Aprobación del pedido de compra</strong>. Para implementar KB 4017918, el administrador del sistema debe seguir estos pasos.
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Descargar la revisión de metadatos en Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Descargar la revisión de metadatos de Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
 <li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Instalar la revisión de metadatos</a>.</li>
 <li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Crear un paquete desplegable</a> que contenga el modelo <strong>SCMMobile</strong> y luego cargar el paquete desplegable en LCS.</li>
 <li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Aplicar el paquete implementable</a>.</li>
@@ -76,7 +75,7 @@ Si se ha implementado Microsoft Dynamics 365 for Operations versión 1611 con ac
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>Descargar e instalar la aplicación móvil
-Descargue e instale la aplicación móvil Microsoft Dynamics 365 for Unified Operations:
+Descargue e instale la aplicación Microsoft Dynamics 365 for Unified Operations Mobile:
 
 - [Para teléfonos Android](https://go.microsoft.com/fwlink/?linkid=850662)
 - [Para iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -85,7 +84,7 @@ Descargue e instale la aplicación móvil Microsoft Dynamics 365 for Unified Ope
 ## <a name="sign-in-to-the-mobile-app"></a>Iniciar sesión en la aplicación móvil
 
 1. Inicie la aplicación en su dispositivo móvil.
-2. Escriba la dirección URL de Microsoft Dynamics 365.
+2. Especifique la dirección URL Microsoft Dynamics 365.
 3. La primera vez que se inicie sesión, se le solicitará su nombre de usuario y contraseña. Escriba sus credenciales.
 4. Tras iniciar sesión, se mostrarán los espacios de trabajo disponibles para su empresa. Tenga en cuenta que si el administrador del sistema publica un nuevo espacio de trabajo más tarde, tendrá que actualizar la lista de espacios de trabajo móviles.
 
@@ -116,4 +115,3 @@ Una vez que haya visualizado el pedido de compra que se le ha asignado y leído 
 5. Seleccione la acción adecuada.
 6. En la página **Completar tarea**, escriba un comentario. Tenga en cuenta que si selecciona la acción **Delegar**, debe seleccionar un usuario en el que delegar la tarea.
 7. Seleccione **Listo**. Después de actualizar su espacio de trabajo, el pedido de compra ya no estará en su lista. 
-

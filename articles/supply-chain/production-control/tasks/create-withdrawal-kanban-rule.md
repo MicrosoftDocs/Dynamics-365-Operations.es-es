@@ -1,13 +1,13 @@
---- 
+---
 title: Crear una nueva regla kanban de retirada
-description: "Este procedimiento muestra la configuración necesaria para crear una regla kanban de retirada para transferir material en un entorno de producción ajustada."
+description: Este procedimiento muestra la configuración necesaria para crear una regla kanban de retirada para transferir material en un entorno de producción ajustada.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, InventItemIdLookupSimple, UnitOfMeasureLookup, KanbanCreate
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: a77c66b64512274f2703543293c2f48f2df2acf5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 02c7133d2e02b27fb428874deeda21e2bab28fb6
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341635"
 ---
 # <a name="create-a-withdrawal-kanban-rule"></a>Crear una nueva regla kanban de retirada
 
@@ -63,5 +63,4 @@ Este procedimiento muestra la configuración necesaria para crear una regla kanb
 3. Haga clic en Crear.
     * Esto creará dos kanbans.  
     * Tenga en cuenta que se crearon 2 kanbans, para 5 cada uno, para esta regla kanban de retirada.  Este es el último paso de este procedimiento.  
-
 

@@ -1,13 +1,13 @@
 ---
 title: Diarios de inventario
-description: "Este tema describe cómo puede usar diarios de inventario para registrar diversos tipos de transacciones de inventario físico."
+description: Este tema describe cómo puede usar diarios de inventario para registrar diversos tipos de transacciones de inventario físico.
 author: perlynne
 manager: AnnBe
 ms.date: 04/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalBOM, InventJournalCount, InventJournalCountTag, InventJournalLossProfit, InventJournalMovement, InventJournalTransfer, WMSJournalTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 39d66bb9fd2e121b7ce842d869c2a0a0fa5fa8a5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7e6ac46cc4d4961cdd76f6127d8900a9b3d13a39
-ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361691"
 ---
-
 # <a name="inventory-journals"></a>Diarios de inventario
 
 [!include [banner](../includes/banner.md)]
@@ -34,7 +33,7 @@ ms.lasthandoff: 04/13/2018
 
 Este tema describe cómo puede usar diarios de inventario para registrar diversos tipos de transacciones de inventario físico.
 
-Los diarios de inventario en Microsoft Dynamics 365 for Finance and Operations se usan para registrar transacciones de inventario físico de distintos tipos, como el registro de emisiones y recepciones, los movimientos de inventario, la creación de listas de materiales (BOM) y la conciliación del inventario físico. Todos estos diarios de inventario se usan en forma similar, pero se dividen en diferentes tipos.
+Los diarios de inventario en Microsoft Dynamics 365 for Finance and Operations se usan para registrar transacciones de inventario físico de distintos tipos, como el registro de emisiones y recepciones, los movimientos de inventario, la creación de listas de materiales (L. MAT.) y la conciliación del inventario físico. Todos estos diarios de inventario se usan en forma similar, pero se dividen en diferentes tipos.
 
 ## <a name="types-of-inventory-journals"></a>Tipos de diarios de inventario
 Los siguientes tipos de diarios de inventario están disponibles:
@@ -120,4 +119,3 @@ Estos dos diarios de inventario solo admiten el escenario *Inicializar existenci
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Entidades de datos](../../dev-itpro/data-entities/data-entities.md)
-

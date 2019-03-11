@@ -1,13 +1,13 @@
 ---
-title: "Configurar el proceso de importación avanzada de conciliación bancaria"
-description: "La característica Conciliación bancaria avanzada le permite importar extractos bancarios electrónicos y conciliarlos automáticamente con transacciones bancarias en Microsoft Dynamics 365 for Finance and Operations. En este artículo se explica cómo configurar la funcionalidad de importación para los extractos bancarios."
+title: Configurar el proceso de importación avanzada de conciliación bancaria
+description: La característica de conciliación bancaria avanzada le permite importar extractos bancarios electrónicos y conciliarlos automáticamente con transacciones bancarias en Microsoft Dynamics 365 for Finance and Operations. En este artículo se explica cómo configurar la funcionalidad de importación para los extractos bancarios.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankStatementFormat
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7a04517de6e7695cd27bbc6e6a825e1ccaac7306
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 7292767f48e94f01c50e12ab02a4483c53046ae9
-ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334574"
 ---
-
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Configurar el proceso de importación avanzada de conciliación bancaria
 
 [!include [banner](../includes/banner.md)]
 
-La característica Conciliación bancaria avanzada le permite importar extractos bancarios electrónicos y conciliarlos automáticamente con transacciones bancarias en Microsoft Dynamics 365 for Finance and Operations. En este artículo se explica cómo configurar la funcionalidad de importación para los extractos bancarios. 
+La característica de conciliación bancaria avanzada le permite importar extractos bancarios electrónicos y conciliarlos automáticamente con transacciones bancarias en Microsoft Dynamics 365 for Finance and Operations. En este artículo se explica cómo configurar la funcionalidad de importación para los extractos bancarios. 
 
 La configuración de la importación del extracto bancario varía en función del formato de su extracto bancario electrónico. Finance and Operations admite de serie tres formatos de extractos bancarios: ISO20022, MT940 y BAI2.
 
@@ -176,7 +175,6 @@ El paso final es probar que puede importar el extracto bancario.
 8.  Haga clic en **Aceptar**.
 
 Si la importación es correcta, recibirá un mensaje que indica que se importó la instrucción. Si la importación no fue correcta, en el espacio de trabajo **Administración de datos**, en la sección **Historial de trabajos**, encuentre el trabajo. Haga clic en **Detalles de ejecución** para que el trabajo abra la página **Resumen de ejecución** y, a continuación, haga clic en **Ver registro de ejecución** para ver los errores de importación.
-
 
 
 

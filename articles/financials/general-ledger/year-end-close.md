@@ -1,13 +1,13 @@
 ---
-title: "Cierre de fin de año"
-description: "Este tema describe la configuración y los pasos necesarios para ejecutar el proceso de cierre de fin de año de la contabilidad general."
+title: Cierre de fin de año
+description: Este tema describe la configuración y los pasos necesarios para ejecutar el proceso de cierre de fin de año de la contabilidad general.
 author: kweekley
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerClosingSheet
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9ec2316dd259cd12a5cab187b08dbd17ca100572
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bf9d0a6ab0fcf7d6f5a31813d68f0bd452ce1019
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347891"
 ---
-
 # <a name="year-end-close"></a>Cierre de fin de año
 
 [!include [banner](../includes/banner.md)]
@@ -86,7 +85,6 @@ Si desea revertir un cierre de fin de año anterior del ejercicio seleccionado, 
 El proceso de cierre de fin de año se realiza de forma predeterminada en el modo de lotes. Lo mejor es realizar el proceso en el modo de lotes para permitir volver a otras actividades. Una vez finalizado el proceso de cierre, la **Fecha de último cierre de fin de año** se actualizará a la fecha de la sesión.
 
 Para obtener más información, consulte [Cerrar la contabilidad general al final del período](close-general-ledger-at-period-end.md) y [Cerrar el año fiscal](tasks/close-fiscal-year.md).
-
 
 
 

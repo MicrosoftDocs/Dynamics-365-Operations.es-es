@@ -1,13 +1,13 @@
---- 
+---
 title: Crear cuenta principal
-description: "Esta guía de tareas describe los pasos de la adición de una cuenta principal a un plan contable existente."
+description: Esta guía de tareas describe los pasos de la adición de una cuenta principal a un plan contable existente.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: MainAccount, CompanyInfoList
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5fd332121bae2be55ada39b33e5f381096c9b74d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: db813353eef97375451e78320d6d14de74292309
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331584"
 ---
 # <a name="create-a-main-account"></a>Crear cuenta principal
 
@@ -35,7 +35,7 @@ Esta guía de tareas describe los pasos de la adición de una cuenta principal a
 4. En el campo Nombre, escriba un valor.
 5. En el campo Tipo de cuenta principal, seleccione el tipo que representa mejor la ubicación y el saldo de cuenta de los resultados financieros.
 6. En la lista, seleccione la categoría de cuenta a la que pertenece la cuenta principal.
-    * La categoría de cuenta se usa para los informes financieros predeterminados y el contenido del panel de Power BI.  
+    * La categoría de cuenta se usa para los informes financieros predeterminados y el contenido del panel de información de Power BI.  
 7. En la lista, haga clic en el vínculo de la fila seleccionada.
     * Cambie el saldo de débito o crédito predeterminado.  
 8. En el campo Divisa predeterminada, seleccione un valor en la lista de divisas.
@@ -53,5 +53,4 @@ Esta guía de tareas describe los pasos de la adición de una cuenta principal a
 20. En la lista, haga clic en el vínculo de la fila seleccionada.
 21. En el campo Tipo de traducción de divisa, seleccione el método para calcular tipos de cambio para la cuenta.
 22. Cierre la página.
-
 

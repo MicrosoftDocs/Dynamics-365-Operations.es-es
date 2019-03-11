@@ -1,13 +1,13 @@
---- 
+---
 title: Gestionar retenciones de pedidos
-description: "Este procedimiento demuestra cómo poner en espera los pedidos de ventas del cliente, cómo trabajar con retenciones de pedidos desprotegidas y cómo quitar retenciones de pedido."
+description: Este procedimiento demuestra cómo poner en espera los pedidos de ventas del cliente, cómo trabajar con retenciones de pedidos desprotegidas y cómo quitar retenciones de pedido.
 author: omulvad
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: MCRHoldCodeTable, SalesTableListPage, SalesCreateOrder, SalesTable, MCRHoldCodeTrans
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: ad19ff166c15748b7bbb4b82ef71dbf3e1e8ebd2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 3edb8d2fe0fda6634bc2edb8e3bafc5a60344b7a
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323971"
 ---
 # <a name="manage-order-holds"></a>Gestionar retenciones de pedidos
 
@@ -74,5 +74,4 @@ Puede ejecutar este procedimiento con los datos de la empresa de demostración U
     * La acción Borrar y Enviar sólo es aplicable cuando utilice la funcionalidad del Centro de llamadas.  
 8. Haga clic en Liberar retenciones.
     * La retención se ha liberado del pedido y se ha quitado de la lista de retenciones activas. Para ver todas las retenciones o su subconjunto en función de un estado específico, cambie el valor del campo Mostrar.     
-
 

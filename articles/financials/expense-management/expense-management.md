@@ -1,13 +1,13 @@
 ---
-title: "Gestión de gastos"
-description: "Use la opción de gestión de gastos para crear un flujo de trabajo integrado en el que se puede almacenar información relativa a la forma de pago, importar transacciones de tarjetas de crédito y supervisar el importe de los gastos incurridos por los empleados en la empresa."
+title: Gestión de gastos
+description: Use la opción de gestión de gastos para crear un flujo de trabajo integrado en el que se puede almacenar información relativa a la forma de pago, importar transacciones de tarjetas de crédito y supervisar el importe de los gastos incurridos por los empleados en la empresa.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvExpenseWorkspace
 audience: Application User, IT Pro
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1cd637f1b74056db89520b762255d03afa3855ba
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 1e075a7f114efdea1d9cc62cf302eaaba63c7ba0
-ms.contentlocale: es-es
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313414"
 ---
-
 # <a name="expense-management"></a>Gestión de gastos
 
 [!include [banner](../includes/banner.md)]
@@ -38,13 +37,13 @@ Use la opción de gestión de gastos para crear un flujo de trabajo integrado en
 
 #### <a name="whats-new-and-in-development"></a>Novedades y características en desarrollo
 
-Consulte [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/) (Guía básica de Microsoft Dynamics 365) para ver qué características nuevas hemos lanzado y cuáles están en desarrollo. 
+Consulte la [Guía básica de Microsoft Dynamics 365](https://roadmap.dynamics.com/) para ver qué características nuevas hemos lanzado y cuáles están en desarrollo. 
 
 #### <a name="blogs"></a>Blogs
 
-Puede encontrar opiniones, noticias y otra información sobre Clientes y otras soluciones en el [blog Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
+Puede encontrar opiniones, noticias y otra información sobre clientes y otras soluciones en el [blog Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
 
-Hay muchas publicaciones sobre Clientes en el [blog del equipo del producto Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/). Aunque algunas de estas publicaciones se crearon para la versión anterior de Clientes, aún se aplican los mismos conceptos. Además, los procedimientos también son similares en la versión actual.
+Hay muchas publicaciones sobre clientes en el [blog del equipo del producto Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/). Aunque algunas de estas publicaciones se crearon para la versión anterior de Clientes, aún se aplican los mismos conceptos. Además, los procedimientos también son similares en la versión actual.
 
 El [blog de la comunidad Microsoft Dynamics Operations Partner](https://community.dynamics.com/partner/b/operationspartnercommunityblog) proporciona a los socios de Microsoft Dynamics un único recurso desde el que obtener información sobre las novedades y tendencias de MBS Operations.
 
@@ -54,7 +53,6 @@ Hay ayuda adicional disponible como guías de tareas en Finance and Operations. 
 #### <a name="videos"></a>Vídeos
 
 Consulte los vídeos de procedimientos que se encuentran ahora disponibles en el [canal de YouTube de Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
 
 
 

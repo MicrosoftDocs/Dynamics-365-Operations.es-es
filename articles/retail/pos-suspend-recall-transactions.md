@@ -1,13 +1,13 @@
 ---
-title: "Suspender y reanudar una transacción en el punto de venta (PDV)"
-description: "Este tema explica cómo los usuarios pueden suspender transacciones en curso y reanudarlas después más tarde o en otro registro con Microsoft Dynamics 365 for Retail."
+title: Suspender y reanudar una transacción en el punto de venta (PDV)
+description: Este tema explica cómo los usuarios pueden suspender transacciones en curso y reanudarlas después más tarde o en otro registro con Microsoft Dynamics 365 for Retail.
 author: jblucher
 manager: AnnBe
 ms.date: 11/27/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -18,14 +18,13 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: ffb04609318c7de4b9ef729a8e03a7f9395806b8
-ms.contentlocale: es-es
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333907"
 ---
-
 # <a name="suspend-and-resume-transactions-in-the-point-of-sale-pos"></a>Suspender y reanudar transacciones en el punto de venta (PDV)
 
 [!include [banner](includes/banner.md)]
@@ -83,4 +82,3 @@ Para recuperar de forma rápida y sencilla una transacción suspendida, digitali
 ### <a name="void-a-suspended-transaction"></a>Anular una transacción suspendida
 
 Puede anular transacciones suspendidas recuperando la transacción y después ejecutando la operación **Anular transacción** , o seleccionando la transacción en el lista **Recuperar transacción** y seleccionando **Anular** en la barra de la aplicación. De manera alternativa, el almacén se puede configurar para solicitar a los usuarios que anulen las transacciones suspendidas cuando acaben su turno.
-

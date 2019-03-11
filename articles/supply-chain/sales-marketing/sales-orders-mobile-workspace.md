@@ -1,13 +1,13 @@
 ---
-title: "Espacio de trabajo móvil de pedidos de ventas"
-description: "Este tema proporciona información sobre el espacio de trabajo móvil Pedidos de ventas. Este espacio de trabajo le permitirá estar informado sobre los pedidos de ventas en cualquier momento y cualquier lugar."
+title: Espacio de trabajo móvil de pedidos de ventas
+description: Este tema proporciona información sobre el espacio de trabajo móvil Pedidos de ventas. Este espacio de trabajo le permitirá estar informado sobre los pedidos de ventas en cualquier momento y cualquier lugar.
 author: Mirzaab
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -18,21 +18,20 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 03e8908ecb78b4f72dae8426b0165f9350d5fe85
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a3b06832112779a4b0826a51b696a1ced10711ec
-ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365072"
 ---
-
 # <a name="sales-orders-mobile-workspace"></a>Espacio de trabajo móvil de pedidos de ventas
 
 [!include [banner](../includes/banner.md)]
 
 Este tema proporciona información sobre el espacio de trabajo móvil **Pedidos de ventas**. Este espacio de trabajo le permitirá estar informado sobre los pedidos de ventas en cualquier momento y cualquier lugar. 
 
-Este espacio de trabajo móvil se debe usar con la aplicación móvil Microsoft Dynamics 365 for Unified Operations.
+Este espacio de trabajo móvil se debe usar con la aplicación Microsoft Dynamics 365 for Unified Operations mobile.
 
 ## <a name="overview"></a>Información general
 El espacio de trabajo móvil **Pedidos de ventas** le permite ver información detallada sobre cada pedido de ventas. Esta información incluye el estado del pedido, la información de contacto para el cliente, y la información de contacto del creador del pedido. El espacio de trabajo móvil **Pedidos de ventas** proporciona una vista inmediata de los pedidos de ventas. Puede ver todos los pedidos de ventas, o ver los pedidos de ventas por cliente o ver la información sobre un pedido de ventas concreto. 
@@ -85,9 +84,9 @@ Esta vista muestra pedidos de ventas por cliente.
 Los requisitos previos varían, en función de la versión de Microsoft Dynamics 365 que se ha implementado para su organización.
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Requisitos previos si usa Microsoft Dynamics 365 for Finance and Operations 
-Si la Dynamics 365 for Finance and Operations se ha implementado para su organización, el administrador del sistema debe publicar el espacio de trabajo móvil **Pedidos de ventas**. Para obtener instrucciones, consulte [Publicar un espacio de trabajo móvil](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+Si Dynamics 365 for Finance and Operations se ha implementado para su organización, el administrador del sistema debe publicar el espacio de trabajo móvil **Pedidos de ventas**. Para obtener instrucciones, consulte [Publicar un espacio de trabajo móvil](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Requisitos si usa Dynamics 365 for Operations versión 1611 con actualización de plataforma 3 o posterior
+### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Los requisitos previos si usa Dynamics 365 for Operations versión 1611 con la actualización de plataforma 3 o posterior
 Si se ha implementado Dynamics 365 for Operations versión 1611 con actualización de plataforma 3 o posterior en su organización, el administrador del sistema debe cumplir los requisitos siguientes. 
 
 <table>
@@ -105,7 +104,7 @@ Si se ha implementado Dynamics 365 for Operations versión 1611 con actualizaci�
 
 <td>KB 4013633 es una sustitución de actualización o de metadatos X++ que contiene el espacio de trabajo móvil <strong>Pedidos de ventas</strong>. Para implementar KB 4013633, el administrador del sistema debe seguir estos pasos.
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Descargar la revisión de metadatos en Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Descargar la revisión de metadatos de Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
 <li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Instalar la revisión de metadatos</a>.</li>
 <li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Crear un paquete desplegable</a> que contenga el modelo <strong>SCMMobile</strong> y luego cargar el paquete desplegable en LCS.</li>
 <li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Aplicar el paquete implementable</a>.</li>
@@ -143,4 +142,3 @@ Descargue e instale la aplicación móvil Dynamics 365 for Unified Operations:
 4.  Seleccione el cliente.
 5.  Seleccione **Información de contacto** o **Pedidos de ventas**. Si selecciona **Pedidos de ventas**, se mostrará la lista de pedidos de ventas del cliente.
 6.  Seleccione **Pedido de ventas**. Ahora puede ver información sobre las líneas del pedido de ventas, información sobre los envíos, información de contacto del cliente e información de contacto del creador del pedido.
-

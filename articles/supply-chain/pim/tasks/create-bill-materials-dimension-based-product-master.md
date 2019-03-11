@@ -1,13 +1,13 @@
---- 
+---
 title: Crear una lista de materiales para un producto maestro basado en dimensiones
-description: "Para este procedimiento, debe tener completado las 4 guías anteriores de esta secuencia de ocho registros."
+description: Para este procedimiento, debe tener completado las 4 guías anteriores de esta secuencia de ocho registros.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductMaintainWorkspace, EcoResProductOpenCasesFormPart, EcoResProductDetailsExtended, BOMConsistOf, BOMTable, InventItemIdLookupSimple, HcmWorkerLookUp
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 19578f78c11bf0537708e8d516d478f00b13fa95
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 4f9f9473d0872d68571b87409b93e0cf5455364c
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349754"
 ---
 # <a name="create-a-bill-of-materials-for-a-dimension-based-product-master"></a>Crear una lista de materiales para un producto maestro basado en dimensiones
 
@@ -78,5 +78,4 @@ Para este procedimiento, debe tener completado las 4 guías anteriores de esta s
 4. Seleccione Sí en ¿Desea aprobar también la lista de materiales? .
 5. Haga clic en Aceptar
 6. Haga clic en Activar.
-
 

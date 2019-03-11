@@ -1,13 +1,13 @@
 ---
-title: "Motores de administración del transporte"
-description: "Los motores de administración del transporte definen la lógica que se usa para generar y procesar tasas de transporte en Administración de transporte."
+title: Motores de administración del transporte
+description: Los motores de administración del transporte definen la lógica que se usa para generar y procesar tasas de transporte en Administración de transporte.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSFreightBillType, TMSGenericEngine, TMSMileageEngine, TMSRateEngine, TMSTransitTimeEngine, TMSZoneEngine
 audience: Application User
 ms.reviewer: josaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: dff811723e25952b4c5af20262010ff4b910be7f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 813d13738171969b48d16a5ed52f2b04a8beaeef
-ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361139"
 ---
-
 # <a name="transportation-management-engines"></a>Motores de administración del transporte
 
 [!include [banner](../includes/banner.md)]
 
 Los motores de administración del transporte definen la lógica que se usa para generar y procesar tasas de transporte en Administración de transporte. 
 
-Un motor de administración del transporte calcula tareas como, por ejemplo, la tasa de transporte del transportista. El sistema del motor le permite cambiar las estrategias de cálculo en tiempo de ejecución, basándose en los datos de Microsoft Dynamics 365 for Finance and Operations. Un motor de administración del transporte se asemeja a un complemento relacionado con un contrato concreto del transportista.
+Un motor de administración del transporte calcula tareas como, por ejemplo, la tasa de transporte del transportista. El sistema del motor le permite cambiar estrategias de cálculo en tiempo de ejecución, basándose en datos de Microsoft Dynamics 365 for Finance and Operations. Un motor de administración del transporte se asemeja a un complemento relacionado con un contrato concreto del transportista.
 
 ## <a name="what-engines-are-available"></a>¿Qué motores están disponibles?
 En la siguiente tabla se muestran los motores de administración del transporte disponibles en Microsoft Dynamics 365 for Finance and Operations.
@@ -40,7 +39,7 @@ En la siguiente tabla se muestran los motores de administración del transporte 
 | Motor de administración del transporte | Descripción                                                                                                                                                                                                                                                                                                                 |
 |----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Motor de tasas**                  | Calcula las tasas.                                                                                                                                                                                                                                                                                                           |
-| **Motor genérico**               | Motores auxiliares simples que usan otros motores que no necesitan datos de Microsoft Dynamics 365 for Finance and Operations, por ejemplo, un motor de reparto. Los motores de reparto se usan para reducir los costes finales de transporte en determinados pedidos y líneas, basándose en dimensiones, como el volumen y el peso. |
+| **Motor genérico**               | Motores auxiliares simples que usan otros motores que no necesitan datos de Microsoft Dynamics 365 for Finance and Operations; por ejemplo, un motor de reparto. Los motores de reparto se usan para reducir los costes finales de transporte en determinados pedidos y líneas, basándose en dimensiones, como el volumen y el peso. |
 | **Motor de kilometraje**               | Calcula la distancia de transporte.                                                                                                                                                                                                                                                                                     |
 | **Motor de tiempo de tránsito**          | Calcula el tiempo necesario para desplazarse desde el inicio hasta el destino final.                                                                                                                                                                                                                                       |
 | **Motor de zona**                  | Calcula la zona basada en la dirección actual y calcula el número de zonas que se deben cruzar para desplazarse de la dirección A a la dirección B.                                                                                                                                                                    |
@@ -90,7 +89,7 @@ Los metadatos para motores de administración del transporte se configuran de fo
 | **Motor de zona**                                | Necesita que los metadatos se configuren directamente en la zona maestra.                                                                                                                                                                                                                                                                                                                                                                                                          |
 | **Motor de cálculo de tiempo de tránsito** y **Motor de cálculo de kilometraje** | Recupera los metadatos directamente del formulario de configuración del motor de cálculo de kilometraje.                                                                                                                                                                                                                                                                                                                                                                                  |
 
-  **Ejemplo de metadatos para un motor de tarifas** El motor de administración del transporte requiere la identificación de la dirección de origen, el estado y el país o la región de destino, así como el punto de envío inicial y final. Una vez cumplidos estos requisitos, los metadatos aparecerán como los datos de la tabla siguiente. La tabla también incluye información acerca del tipo de datos de entrada necesario.
+  **Ejemplo de metadatos para un motor de tarifas** El motor de administración del transporte requiere la identificación de la dirección de origen, el estado y el país o la región de destino, así como el punto de envío inicial y final. Una vez cumplidos estos requisitos, los metadatos aparecerán como los datos de la tabla siguiente. La tabla también incluye información acerca del tipo de datos de entrada necesario.
 -   Defina esta información en **Administración de transporte** &gt; **Configurar** en la página **Tipo de base de tasa**.
 
 | Secuencia | Nombre                          | Tipo de campo | Tipo de datos | Tipo de búsqueda    | Obligatorio |
@@ -100,7 +99,6 @@ Los metadatos para motores de administración del transporte se configuran de fo
 | 3        | Código postal inicial de destino | Asignación | Cadena    | Código postal    | Seleccionado  |
 | 4        | Código postal final de destino   | Asignación | Cadena    | Código postal    | Seleccionado  |
 | 5        | País de destino           | Asignación | Cadena    | País o región |           |
-
 
 
 

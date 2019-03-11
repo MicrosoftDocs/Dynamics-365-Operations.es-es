@@ -1,13 +1,13 @@
 ---
-title: "Grupos de revalorización de activos fijos"
-description: "Este tema proporciona información acerca de la revalorización de activos fijos para España."
+title: Grupos de revalorización de activos fijos
+description: Este tema proporciona información acerca de la revalorización de activos fijos para España.
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetRevaluationGroup, AssetBookTable
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Spain
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 180a1f61507f258709950409485371e73187ecfe
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 07d09512ef612b41bf527b74496fa440f23851fc
-ms.openlocfilehash: 123206cad51a328bfea00dc114fa6829314128aa
-ms.contentlocale: es-es
-ms.lasthandoff: 02/14/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370408"
 ---
-
 # <a name="fixed-asset-revaluation-groups"></a>Grupos de revalorización de activos fijos
 
 [!include [banner](../includes/banner.md)]
@@ -88,7 +87,6 @@ Puede configurar un grupo de revalorización en la página **Grupos de revaloriz
 </tr>
 </tbody>
 </table>
-
 
 
 

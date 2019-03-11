@@ -1,13 +1,13 @@
 ---
-title: "Permite sincronizar los valores reales directamente del Project Service Automation al diario de integración del proyecto para el registro en Finance and Operations"
-description: En este tema se describen las plantillas y las tareas subyacentes que se usan para sincronizar directamente los valores reales de Microsoft Dynamics 365 for Project Service Automation a Microsoft Dynamics 365 for Finance and Operations.
+title: Permite sincronizar los valores reales directamente del Project Service Automation al diario de integración del proyecto para el registro en Finance and Operations
+description: En este tema se describen las plantillas y las tareas subyacentes que se usan para sincronizar reales de un proyecto directamente de Microsoft Dynamics 365 for Project Service Automation a Microsoft Dynamics 365 for Finance and Operations.
 author: KimANelson
 manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,23 +17,23 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 0a965e8de596decf39a15977e6df8a6aa9dd35b0
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343360"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Permite sincronizar los valores reales directamente del Project Service Automation al diario de integración del proyecto para el registro en Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-En este tema se describen las plantillas y las tareas subyacentes que se usan para sincronizar directamente los valores reales de Microsoft Dynamics 365 for Project Service Automation a Microsoft Dynamics 365 for Finance and Operations.
+En este tema se describen las plantillas y las tareas subyacentes que se usan para sincronizar reales de un proyecto directamente de Microsoft Dynamics 365 for Project Service Automation a Microsoft Dynamics 365 for Finance and Operations.
 
 La plantilla sincroniza las transacciones de Project Service Automation a una tabla de ensayo en Finance and Operations. Una vez completada la sincronización, **debe** importar los datos desde la tabla de ensayo al diario de integración.
 
 > [!NOTE]
-> - La integración de los valores reales del proyecto está disponible en Microsoft Dynamics 365 for Finance and Operations versión 8.01 o posterior.
+> - La integración de los reales de un proyecto está disponible en Microsoft Dynamics 365 for Finance and Operations versión 8.0.1 o posterior.
 > - Si utiliza Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3.0, después de instalar KB 4132657 y 4132660 KB, podrá usar plantillas para integrar tareas de proyecto, categorías de transacción de gastos, estimaciones de hora, estimaciones de gastos y valores reales, y para configurar el bloqueo de funcionalidad. Si debe restablecer las distribuciones contables, se recomienda instalar también KB 4131710.
 > - Si está usando Finance and Operations 7.3.0 y trae transacciones de cuotas de Project Service Automation, debe instalar KB 4345320 para incluir esas cuotas en la factura del proyecto.
 > - Si especifica importes de impuestos a tiempo o las transacciones de gastos en Project Service Automation, debe instalar la actualización 7 de Project Service Automation. De lo contrario, los valores reales de impuestos no se vincularán con los valores reales de tiempo o gasto asociados y no se sincronizarán con Finance and Operations. Para obtener más información, póngase en contacto con soporte técnico.
@@ -50,7 +50,7 @@ La ilustración siguiente muestra cómo se sincronizan los datos entre Project S
 
 ### <a name="template-and-tasks"></a>Plantilla y tareas
 
-Para obtener acceso a las plantillas disponibles, en el centro de administración de Microsoft PowerApps, seleccione **Proyectos**y, a continuación, en la esquina superior derecha, seleccione **Nuevo proyecto** para seleccionar plantillas públicas.
+Para obtener acceso a las plantillas disponibles, en el centro de administración de Microsoft PowerApps, seleccione **Proyectos** y, a continuación, en la esquina superior derecha, seleccione **Nuevo proyecto** para seleccionar plantillas públicas.
 
 La plantilla y las tareas subyacentes siguientes se usan para sincronizar los valores reales desde Project Service Automation hasta Finance and Operations:
 
@@ -140,4 +140,3 @@ Las siguientes ilustraciones muestran ejemplos de asignaciones de tareas de plan
 [![Asignación de la plantilla](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![Asignación de la plantilla](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
-

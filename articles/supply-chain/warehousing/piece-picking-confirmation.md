@@ -1,13 +1,13 @@
 ---
-title: "Confirmación de picking de pieza"
-description: "Este tema describe cómo configurar y aplicar la confirmación el picking de pieza desde un dispositivo móvil."
+title: Confirmación de picking de pieza
+description: Este tema describe cómo configurar y aplicar la confirmación el picking de pieza desde un dispositivo móvil.
 author: Mirzaab
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFAutoConfirm, WHSRFMenuItem
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9b85414dd1385dc3d8c97632eaaeb252759590ff
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 5ef9ab68c20ae095de03b0a0e05aa15ef5bf8a5d
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349639"
 ---
-
 # <a name="piece-picking-confirmation"></a>Confirmación de picking de pieza
 
 [!include [banner](../includes/banner.md)]
@@ -51,5 +50,4 @@ Las siguientes opciones están disponibles para la selección cuando el tipo de 
 |----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Confirmación de picking de pieza | Disponible para los tipos de trabajo selección y recuento. La confirmación de producto se selecciona automáticamente. Permite confirmar cada pieza de inventario desde el dispositivo móvil. |
 |  Número máximo de piezas  |                   Disponible para el trabajo de selección si la confirmación de picking de piezas está habilitada. Establece un límite en el número de piezas que debe confirmar.                   |
-
 

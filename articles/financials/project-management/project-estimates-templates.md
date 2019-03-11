@@ -1,13 +1,13 @@
 ---
 title: Sincronizar las estimaciones de proyectos directamente desde Project Service Automation a Finance and Operations
-description: En este tema se describen las plantillas y las tareas subyacentes que se usan para sincronizar directamente las estimaciones de horas y de gastos de proyectos directamente de Microsoft Dynamics 365 for Project Service Automation a Microsoft Dynamics 365 for Finance and Operations.
+description: En este tema se describen las plantillas y las tareas subyacentes que se usan para sincronizar cálculos de horas de proyectos y cálculos de gastos de proyectos directamente de Microsoft Dynamics 365 for Project Service Automation en Microsoft Dynamics 365 for Finance and Operations.
 author: KimANelson
 manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,22 +17,22 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 21338b889e0377dbfd5adfd461ea81b39a75baf8
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353963"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronizar las estimaciones de proyectos directamente desde Project Service Automation a Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-En este tema se describen las plantillas y las tareas subyacentes que se usan para sincronizar directamente las estimaciones de horas y de gastos de proyectos directamente de Microsoft Dynamics 365 for Project Service Automation a Microsoft Dynamics 365 for Finance and Operations.
+En este tema se describen las plantillas y las tareas subyacentes que se usan para sincronizar cálculos de horas de proyectos y cálculos de gastos de proyectos directamente desde Microsoft Dynamics 365 for Project Service Automation en Dynamics 365 for Finance and Operations.
 
 > [!NOTE]
-> - La integración de tareas de proyectos, las categorías de la transacción de gastos, las estimaciones de hora, las estimaciones de gastos y el bloqueo de la función están disponibles en Microsoft Dynamics 365 for Finance and Operations versión 8.0.
-> - La integración de los valores reales está disponible en Microsoft Dynamics 365 for Finance and Operations versión 8.01 o posterior.
+> - La integración de tareas de proyectos, las categorías de transacción de gastos, las estimaciones de hora, las estimaciones de gastos y el bloqueo de funciones están disponibles en Microsoft Dynamics 365 for Finance and Operations versión 8.0.
+> - La integración de los reales está disponible en Microsoft Dynamics 365 for Finance and Operations versión 8.0.1 o posterior.
 > - Si utiliza Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3.0, después de instalar KB 4132657 y 4132660 KB, podrá usar plantillas para integrar tareas de proyecto, categorías de transacción de gastos, estimaciones de hora, estimaciones de gastos y valores reales, y para configurar el bloqueo de funcionalidad. Si debe restablecer las distribuciones contables, se recomienda instalar también KB 4131710.
 
 ## <a name="data-flow-for-project-service-automation-to-finance-and-operations"></a>Flujo de datos de Project Service Automation a Finance and Operations
@@ -47,7 +47,7 @@ La ilustración siguiente muestra cómo se sincronizan los datos entre Project S
 
 ### <a name="template-and-tasks"></a>Plantilla y tareas
 
-Para obtener acceso a las plantillas disponibles, en el centro de administración de Microsoft PowerApps, seleccione **Proyectos**y, a continuación, en la esquina superior derecha, seleccione **Nuevo proyecto** para seleccionar plantillas públicas.
+Para obtener acceso a las plantillas disponibles, en el centro de administración de Microsoft PowerApps, seleccione **Proyectos** y, a continuación, en la esquina superior derecha, seleccione **Nuevo proyecto** para seleccionar plantillas públicas.
 
 La plantilla y las tareas subyacentes siguientes se usan para sincronizar las estimaciones de horas de proyectos desde Project Service Automation hasta Finance and Operations:
 
@@ -171,4 +171,3 @@ Las siguientes ilustraciones muestran ejemplos de asignaciones de tareas de plan
 [![Asignación de la plantilla](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
 [![Asignación de la plantilla](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
-

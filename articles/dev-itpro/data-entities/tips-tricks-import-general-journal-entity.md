@@ -5,9 +5,9 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 29cb4b940875b96cabaff540360674da528f8f39
-ms.contentlocale: es-es
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322522"
 ---
-
 # <a name="best-practices-for-importing-vouchers-by-using-the-general-journal-entity"></a>Procedimientos recomendados para importar asientos mediante la entidad Diario general
 
 [!include [banner](../includes/banner.md)]
@@ -67,4 +66,3 @@ Las secciones siguientes describen el efecto de esta configuración y también e
 - Si el campo **número de asiento** se establece en **Generado automáticamente**, la importación no será correcta. No se admite la configuración **Generado automáticamente** para el campo **Número de asiento**.
 
 De forma predeterminada, la entidad Diario general utiliza el procesamiento basado en conjuntos. Después de evaluar los requisitos empresariales para su organización, puede cambiar la configuración **Procesamiento basado en conjuntos** haciendo clic en **Entidades de datos** en el área de trabajo **Administración de datos**. El procesamiento basado en conjuntos se utiliza para acelerar el proceso de importación. Si no utiliza el procesamiento basado en conjuntos, la importación de la entidad Diario general será más lenta.
-

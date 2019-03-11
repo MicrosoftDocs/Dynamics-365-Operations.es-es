@@ -1,13 +1,13 @@
 ---
 title: Configurar productos que pueden fabricarse o suministrarse
-description: "Los productos se pueden suministrar de distintas maneras: se pueden producir (fabricar) o adquirir (comprar). Este artículo describe algunos puntos típicos que se deben tener en cuenta al configurar los productos para admitir el abastecimiento múltiple."
+description: 'Los productos se pueden suministrar de distintas maneras: se pueden producir (fabricar) o adquirir (comprar). Este artículo describe algunos puntos típicos que se deben tener en cuenta al configurar los productos para admitir el abastecimiento múltiple.'
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqGroup, ReqItemTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a910b5782c8f15cfdd4cf93ea883bc28a5ce8e1a
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b5ed8c93c13746249605ad8742549c23bb1e0e10
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "338461"
 ---
-
 # <a name="set-up-products-that-can-be-produced-or-procured"></a>Configurar productos que pueden fabricarse o suministrarse
 
 [!include [banner](../includes/banner.md)]
@@ -38,7 +37,6 @@ El abastecimiento múltiple se usa normalmente para un artículo comprado que a 
 Cuando se usan costes estándar, se puede calcular el registro de costes de artículo para el artículo fabricado. No obstante, es posible que el registro de coste de artículo no coincida con el coste estándar que desee asignar a los artículos de compra. En este caso, deberá especificar manualmente el coste estándar que desee asignar y activarlo en el registro de costes de artículos. Para calcular los costes, puede usar una lista de materiales y una ruta especiales que representan la combinación de suministro del producto a lo largo de un período fiscal, para minimizar las desviaciones en el tiempo. Además, un artículo fabricado en un sitio se puede transferir a otro sitio. Por tanto, el coste del artículo se debe especificar y activar manualmente para el sitio al que se transfiere el artículo. Cuando usa un artículo fabricado como componente de productos de alto nivel, los costes del componente deben tratarse como un artículo comprado. Esta directriz se aplica independientemente de si los costes del componente se calcularon o se especificaron manualmente. En otras palabras, un cálculo de lista de materiales debe tratar los costes del artículo como un componente comprado en lugar de calcular los costes basándose en la información de ruta y la lista de materiales del artículo. 
 
 Para evitar el cálculo, seleccione el indicador **Detener la expansión** incrustado en el grupo de cálculo de lista de materiales asignado al artículo. Para evitar que se utilicen los requisitos de expansión en los cálculos de la programación maestra a través del artículo, defina el indicador de límite de expansión en 0 (cero) días en la cobertura del artículo o en el grupo de cobertura. El cálculo de la programación maestra tratará el artículo como un artículo comprado y no realizará más cálculos en cuanto a información de ruta y lista de materiales del artículo.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Espacio de trabajo móvil de gestión de gastos"
-description: "Este tema proporciona información acerca del espacio de trabajo móvil de gestión de gastos. Este espacio de trabajo permite a los usuarios capturar y cargar un recibo, de modo que puedan adjuntarlo a un informe de gastos posteriormente. Los usuarios también pueden crear rápidamente una línea de gastos mediante un recibo vinculado, y crear y gestionar sus informes de gastos."
+title: Espacio de trabajo móvil de gestión de gastos
+description: Este tema proporciona información acerca del espacio de trabajo móvil de gestión de gastos. Este espacio de trabajo permite a los usuarios capturar y cargar un recibo, de modo que puedan adjuntarlo a un informe de gastos posteriormente. Los usuarios también pueden crear rápidamente una línea de gastos mediante un recibo vinculado, y crear y gestionar sus informes de gastos.
 author: KimANelson
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 6ec9966826830e9ceaa3ed7e1b06e2cb89e8a780
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 6f6add07a2426b1846cbeb9dee149a63f66f779e
-ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344349"
 ---
-
 # <a name="expense-management-mobile-workspace"></a>Espacio de trabajo móvil de gestión de gastos
 
 [!include [banner](../includes/banner.md)]
@@ -32,7 +31,7 @@ ms.lasthandoff: 03/26/2018
 Este tema proporciona información acerca del espacio de trabajo móvil de **gestión de gastos**. Este espacio de trabajo permite a los usuarios capturar y cargar un recibo, de modo que puedan adjuntarlo a un informe de gastos posteriormente. Los usuarios también pueden crear rápidamente una línea de gastos mediante un recibo vinculado, y crear y gestionar sus informes de gastos. Además, los aprobadores pueden usar el espacio de trabajo móvil **Gestión de gastos** para ver los informes de gastos que se les asignan, y aprobar o rechazar los informes de gastos.
 
 
-Este espacio de trabajo móvil se debe usar con la aplicación móvil Microsoft Dynamics 365 for Unified Operations.
+Este espacio de trabajo móvil se debe usar con la aplicación Microsoft Dynamics 365 for Unified Operations mobile.
 
 
 ## <a name="overview"></a>Información general
@@ -42,11 +41,11 @@ Muchas organizaciones requieren que se adjunte al informe de gastos que presenta
 
 En concreto, el espacio de trabajo móvil **Gestión de gastos** permite a los usuarios realizar las tareas siguientes:
 
-- Tomar una foto de un recibo, y cargarla en Microsoft Dynamics 365 for Finance and Operations. Entonces puede vincular esa foto a un informe de gastos más tarde.
+- Tomar una foto de un recibo, y cárguela en Microsoft Dynamics 365 for Finance and Operations. Entonces puede vincular esa foto a un informe de gastos más tarde.
 - Cargar un archivo como un recibo capturado. Entonces puede vincular ese archivo a un informe de gastos más tarde.
 - Crear una nueva línea de gastos mediante un recibo vinculado. Puede agregar el artículo de línea a un informe de gastos más tarde, y enviarlo para su aprobación y reembolso.
 
-Si utiliza Microsoft Dynamics 365 for Finance and Operations, también puede utilizar las características siguientes:
+Si utiliza Microsoft Dynamics 365 for Finance and Operations, puede usar estas características:
 
 - Crear un nuevo informe de gastos.
 - Vincular transacciones de tarjeta de crédito y otros gastos anteriormente creados a un informe de gastos.
@@ -58,13 +57,13 @@ Si utiliza Microsoft Dynamics 365 for Finance and Operations, también puede uti
 - Aprobar o rechazar informes de gastos para los que es un aprobador asignado.
 
 ## <a name="prerequisites"></a>Requisitos previos
-Los requisitos previos varían en función de la versión de Microsoft Dynamics 365 que se haya implementado para su organización.
+Los requisitos previos varían, en función de la versión de Microsoft Dynamics 365 que se ha implementado para su organización.
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Requisitos previos si usa Microsoft Dynamics 365 for Finance and Operations 
-Si Microsoft Dynamics 365 for Finance and Operations se ha implementado para su organización, el administrador del sistema debe publicar el espacio de trabajo móvil **Gestión de gastos**. Para obtener instrucciones, consulte [Publicar un espacio de trabajo móvil](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+Si Microsoft Dynamics 365 for Finance and Operations se ha implementado para su organización, el administrador del sistema debe publicar el espacio de trabajo móvil **Administración de gastos**. Para obtener instrucciones, consulte [Publicar un espacio de trabajo móvil](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Requisitos previos si usa Microsoft Dynamics 365 for Operations versión 1611 con actualización de plataforma 3 o posterior
-Si se ha implementado Microsoft Dynamics 365 for Operations versión 1611 con actualización de plataforma 3 o posterior para su organización, el administrador del sistema debe cumplir los requisitos previos siguientes. 
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Los requisitos previos si usa Microsoft Dynamics 365 for Operations versión 1611 con la actualización de plataforma 3 o posterior
+Si se ha implementado Microsoft Dynamics 365 for Operations versión 1611 con actualización de plataforma 3 o posterior en su organización, el administrador del sistema debe cumplir los requisitos siguientes. 
 
 <table>
 <thead>
@@ -80,7 +79,7 @@ Si se ha implementado Microsoft Dynamics 365 for Operations versión 1611 con ac
 <td>Administrador del sistema</td>
 <td>KB 4019015 es una actualización o una revisión de metadatos X++ que contiene el espacio de trabajo móvil <strong>Gestión de gastos</strong>. Para implementar KB 4019015, el administrador del sistema debe seguir estos pasos.
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Descargar la revisión de metadatos en Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Descargar la revisión de metadatos de Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
 <li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Instalar la revisión de metadatos</a>.</li>
 <li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Crear un paquete desplegable</a> que contenga los modelos <strong>ApplicationSuite</strong> y <strong>ExpenseMobile</strong> y luego cargar el paquete desplegable en LCS.</li>
 <li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Aplicar el paquete implementable</a>.</li>
@@ -94,7 +93,7 @@ Si se ha implementado Microsoft Dynamics 365 for Operations versión 1611 con ac
 </tbody>
 </table>
 
-## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>Descargue e instale la aplicación móvil Dynamics 365 for Operations
+## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>Descargar e instalar la aplicación móvil Dynamics 365 for Operations.
 Descargue e instale la aplicación móvil Dynamics 365 for Unified Operations:
 
 - [Para teléfonos Android](https://go.microsoft.com/fwlink/?linkid=850662)
@@ -243,4 +242,3 @@ Descargue e instale la aplicación móvil Dynamics 365 for Unified Operations:
 22. Seleccione **Enviar**.
 23. Escriba un comentario para el aprobador.
 24. Seleccione **Listo**.
-

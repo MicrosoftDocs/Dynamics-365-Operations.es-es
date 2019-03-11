@@ -1,13 +1,13 @@
 ---
-title: "Obtener un descuento por pronto pago fuera del período de descuento por pronto pago"
-description: "Este artículo proporciona dos escenarios que muestran cómo se puede aplicar un descuento por pronto pago incluso si el pago se realiza fuera del período de descuento por pronto pago."
+title: Obtener un descuento por pronto pago fuera del período de descuento por pronto pago
+description: Este artículo proporciona dos escenarios que muestran cómo se puede aplicar un descuento por pronto pago incluso si el pago se realiza fuera del período de descuento por pronto pago.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f02bba975e5438443c4719e887a38247094cb20b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3ff83f0ab68f7a87921dc2b6c3dcad43e5d331b7
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356884"
 ---
-
 # <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Obtener un descuento por pronto pago fuera del período de descuento por pronto pago
 
 [!include [banner](../includes/banner.md)]
@@ -87,7 +86,6 @@ La información de descuento aparece en la parte inferior de la página **Liquid
 | Utilizar el descuento por pronto pago            | Normal    |
 | Descuento por pronto pago aplicado          | 0,00      |
 | Importe de descuento por pronto pago para aplicar | -5,05     |
-
 
 
 

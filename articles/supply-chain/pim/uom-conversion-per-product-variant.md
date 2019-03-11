@@ -1,14 +1,14 @@
 ---
-title: "Conversión de unidad de medida por variante del producto"
-description: "Este tema explica cómo las conversiones de unidad de medida se pueden configurar en variantes de producto."
+title: Conversión de unidad de medida por variante del producto
+description: Este tema explica cómo las conversiones de unidad de medida se pueden configurar en variantes de producto.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 12/18/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 ROBOTS: noindex, nofollow
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.translationtype: HT
-ms.sourcegitcommit: 8c6cb481f1a3fe48d329c5936118d8df88a4175b
 ms.openlocfilehash: 9d5d6fd65717cd886f1c6576aabf2bc59ca4fcaf
-ms.contentlocale: es-es
-ms.lasthandoff: 12/20/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345936"
 ---
-
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Conversión de unidad de medida por variante del producto
 
 [!include [banner](../includes/banner.md)]
@@ -94,4 +93,3 @@ Las variantes del producto liberado: pequeños, medios y grandes tienen la misma
 Si un producto tiene numerosas variantes de producto con conversiones de unidad diferente, es recomendable exportar las conversiones de unidades de la página **Conversión de unidades** a una hoja de cálculo de Excel, actualizar las conversiones y, a continuación publicarlas de nuevo en Finance and Operations.
 
 La opción para exportar a Excel y publicar las ediciones de nuevo en Finance and Operations se habilita en el elemento de menú **Abrir en Microsoft Office** en el panel de acciones de la página **Conversión de unidades**.
-

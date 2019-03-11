@@ -1,13 +1,13 @@
 ---
-title: "Solución de problemas de presupuesto"
-description: "Este artículo proporciona respuestas a preguntas que puede que tenga cuando configure el presupuesto de puesto. Responde a preguntas frecuentes acerca de cómo crear elementos de costes presupuestarios, grupos de compensación y cuadrículas de compensación."
+title: Solución de problemas de presupuesto
+description: Este artículo proporciona respuestas a preguntas que puede que tenga cuando configure el presupuesto de puesto. Responde a preguntas frecuentes acerca de cómo crear elementos de costes presupuestarios, grupos de compensación y cuadrículas de compensación.
 author: ryansandness
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmBudgetPurposeType, HcmPositionForecast
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0800a4a7c92a1a5f4d4f66bb37032eacccc4cb4e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f2ef04008a5e6339a2193f9fcc77f2e0e6643557
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367119"
 ---
-
 # <a name="position-budgeting-troubleshooting"></a>Solución de problemas de presupuesto
 
 [!include [banner](../includes/banner.md)]
@@ -61,7 +60,6 @@ Las fechas de la línea del elemento de coste de puesto de previsión deben esta
 -   Las fechas de activación y jubilación del puesto.
 -   Las fechas de activación y vencimiento del elemento de coste presupuestario.
 -   Las fechas de inicio y fin del ciclo presupuestario asociado al proceso de planificación presupuestaria del puesto de previsión.
-
 
 
 

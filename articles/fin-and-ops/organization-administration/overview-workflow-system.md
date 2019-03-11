@@ -5,9 +5,9 @@ author: sericks007
 manager: AnnBe
 ms.date: 08/17/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7eb6d743131937081ce83b31988d792185cb28b2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 770796b42e79ad616b469e1dbf5149789bff0788
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308653"
 ---
-
 # <a name="workflow-system"></a>Sistema de flujo de trabajo
 
 [!include [banner](../includes/banner.md)]
@@ -72,4 +71,3 @@ El uso del sistema de flujo de trabajo en una organización ofrece varias ventaj
 + [Configuración de una actividad paralela en un flujo de trabajo](configure-parallel-activity-workflow.md)
 + [Configuración de rama paralela en un flujo de trabajo](configure-parallel-branch-workflow.md)
 + [Configuración de un flujo de trabajo de elementos](configure-line-item-workflow.md)
-

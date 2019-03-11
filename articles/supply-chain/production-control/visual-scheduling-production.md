@@ -1,32 +1,31 @@
 ---
-title: "Gráfico de Gantt para la programación de trabajos"
-description: "Los planificadores de producción pueden controlar y optimizar los planes de producciones mediante diagramas de Gantt."
+title: Gráfico de Gantt para la programación de trabajos
+description: Los planificadores de producción pueden controlar y optimizar los planes de producciones mediante diagramas de Gantt.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 301db69fce18c2ed32e201e7418e628ac57db543
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: c3726038d9782891988e16cb98cf04cf47b7e66c
-ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335241"
 ---
-
 # <a name="gantt-chart-for-job-scheduling"></a>Gráfico de Gantt para la programación de trabajos
 
 [!include [banner](../includes/banner.md)]
@@ -160,5 +159,4 @@ El gráfico de Gantt se puede abrir desde las siguientes páginas.
 [Programación visual con el gráfico de Gantt para pedidos de producción y lotes (vídeo)](https://youtu.be/BtbuShkGj4I)
 
 [Programación visual para producción (script de demostración)](https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/how-to-articles/365finoptvisschep)
-
 

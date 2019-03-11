@@ -1,13 +1,13 @@
 ---
 title: Configurar modos y cargos de entrega del centro de llamadas
-description: "En este tema se describe cómo configurar los modos de entrega y los gastos para un pedido del centro de llamadas en Microsoft Dynamics 365 for Retail."
+description: Este tema describe cómo configurar los modos de entrega y los gastos para un pedido de centro de asistencia telefónica en Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 04/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, MCROrderParameters
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 2571b4ffd6c13dbf755ef2dfa93b757822890d96
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: dc2ab66bf6e3195e1ebf394f99182f59c3ee2125
-ms.openlocfilehash: ebc8ee52da7d10ca18147684a0190e52a495ad5a
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328433"
 ---
-
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Configurar modos y cargos de entrega del centro de llamadas
 
 [!INCLUDE [banner](includes/banner.md)]
@@ -96,4 +95,3 @@ De forma opcional, puede vincular un código de urgencia a cualquier modo de ent
 Por ejemplo, para pedidos que se enviarán por aire al día siguiente, el picking se debe realizar cada día en el almacén aproximadamente las 13:00. En este caso, se puede crear un código de urgencia, y ese código se puede vincular a cualquier modo de entrega al día siguiente que se configure en el sistema. Cuando el almacén crea su oleada de picking, el código de urgencia adecuado en el campo **Urgente** se pueden utilizar como un filtro, de manera que el picking se ejecuta solo para pedidos que tienen modos de entrega que se vinculan a ese código.
 
 Además, cuando se introduce un pedido del centro de llamadas, se puede aplicar manualmente un código de urgencia a la cabecera del pedido de ventas o a una línea de pedido de ventas individual. Una vez más, el código se puede usar con fines de ordenación o creación de informes A veces, un pedido debe manipularse con cuidado debido a un problema de servicio de atención al cliente. En este caso, se puede aplicar un código de urgencia específico a la cabecera o las líneas del pedido para ayudar a identificar y a dar prioridad al pedido durante el proceso de suministro.
-

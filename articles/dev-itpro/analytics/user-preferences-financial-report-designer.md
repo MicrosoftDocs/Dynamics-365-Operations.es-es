@@ -1,13 +1,13 @@
 ---
-title: "Preferencias de usuario en el diseñador de informes financieros"
-description: "En este artículo se explica cómo establecer preferencias de usuario para personalizar sus interacciones de usuario en el diseñador de informes financieros y controlar la experiencia de inicio de sesión inicial. También puede controlar cómo se muestran los informes individuales, la biblioteca de informes y las ubicaciones de archivo predeterminadas."
+title: Preferencias de usuario en el diseñador de informes financieros
+description: En este artículo se explica cómo establecer preferencias de usuario para personalizar sus interacciones de usuario en el diseñador de informes financieros y controlar la experiencia de inicio de sesión inicial. También puede controlar cómo se muestran los informes individuales, la biblioteca de informes y las ubicaciones de archivo predeterminadas.
 author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 5483a1d40907fab3ed3da8174f1dfb8a5bc86960
-ms.contentlocale: es-es
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324224"
 ---
-
 # <a name="user-preferences-in-financial-report-designer"></a>Preferencias de usuario en el diseñador de informes financieros
 
 [!include [banner](../includes/banner.md)]
@@ -74,4 +73,3 @@ En este artículo se explica cómo establecer preferencias de usuario para perso
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Informes financieros](financial-reporting-intro.md)
-

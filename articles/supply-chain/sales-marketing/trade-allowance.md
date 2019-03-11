@@ -1,13 +1,13 @@
 ---
-title: "Administración de concesión de comercialización"
-description: "En este tema se describe la administración de concesiones de comercialización para Microsoft Dynamics 365 for Finance and Operations."
+title: Administración de concesión de comercialización
+description: Este tema describe la administración de concesiones de comercialización para Microsoft Dynamics 365 for Finance and Operations.
 author: t-benebo
 manager: AnnBe
 ms.date: 08/17/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: t-benebo
 ms.search.validFrom: 2018-01-31
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: c3794535cf9230389d7da3f9dbde010e5c48cf2f
 ms.openlocfilehash: 907d59f850d8d761e2dd4e04bd288a696f00964d
-ms.contentlocale: es-es
-ms.lasthandoff: 08/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318819"
 ---
-
 # <a name="trade-allowance-management"></a>Administración de concesión de comercialización
 
 [!include [banner](../includes/banner.md)]
@@ -199,5 +198,4 @@ La pestaña **Créditos de facturación por uso** contiene los detalles de factu
 Para obtener una visión general más analítica de las distintas medidas de rendimiento para la promoción, puede usar la vista de análisis. Para ir a la vista de análisis, haga clic en **Ventas y marketing** \> **Concesiones comerciales** \> **Acuerdos de concesión comercial**. En el panel de acciones, haga clic en la ficha **Análisis**.  
 
 Para obtener una visión general más analítica de las distintas medidas de rendimiento para la promoción, puede usar la vista de análisis. Para ir a la vista de análisis, haga clic en **Ventas y marketing** \> **Concesiones comerciales** \> **Acuerdos de concesión comercial**. En el panel de acciones, haga clic en la ficha **Análisis**. 
-
 

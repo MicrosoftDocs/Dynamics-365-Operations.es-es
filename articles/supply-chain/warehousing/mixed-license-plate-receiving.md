@@ -1,13 +1,13 @@
 ---
-title: "Recepción de matrícula de entidad de almacén mixta"
-description: "Este tema describe cómo usar la recepción de matrícula mixta para registrar y para crear trabajo para varios artículos con un dispositivo móvil."
+title: Recepción de matrícula de entidad de almacén mixta
+description: Este tema describe cómo usar la recepción de matrícula mixta para registrar y para crear trabajo para varios artículos con un dispositivo móvil.
 author: Mirzaab
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFAutoConfirm
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a44165bc59d65a9dfdf8e591152f427b97930b34
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ec3fdff6e1118f4a4ef4146d315fe8c58664f453
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365900"
 ---
-
 # <a name="mixed-license-plate-receiving"></a>Recepción de matrícula de entidad de almacén mixta
 
 [!include [banner](../includes/banner.md)]
@@ -50,4 +49,3 @@ Es necesario crear un nuevo elemento de menú en modo trabajo que no utilice el 
 - Recepción de matrícula de entidad de almacén mixta y ubicación
 
 Las opciones para identificar las líneas de documento de origen son artículos de pedidos de compra, línea de pedido de compra, pedido de devolución, artículo de pedido de transferencia y línea de pedido de transferencia. Estas opciones pueden cambiar el pedido de recepción en una sola matrícula. La última opción es cargar artículos. Puede agregar varios artículos a una matrícula, pero no puede alternar entre las varias cargas.
-

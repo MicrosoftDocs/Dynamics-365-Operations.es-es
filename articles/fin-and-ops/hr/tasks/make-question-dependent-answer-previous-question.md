@@ -1,13 +1,13 @@
---- 
-title: "Realizar una pregunta según la respuesta a la pregunta anterior"
-description: "Las preguntas condicionales le permiten especificar qué pregunta de seguimiento aparecerá, en función de la respuesta a la pregunta anterior."
+---
+title: Realizar una pregunta según la respuesta a la pregunta anterior
+description: Las preguntas condicionales le permiten especificar qué pregunta de seguimiento aparecerá, en función de la respuesta a la pregunta anterior.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KMCollection, KMCollectionQuestion, KMCollectionQuestionTree
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: deb79398f5a0ebdbdb774c106c90ca50a69c275e
-ms.contentlocale: es-es
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341290"
 ---
 # <a name="make-a-question-dependent-on-the-answer-of-the-previous-question"></a>Realizar una pregunta según la respuesta a la pregunta anterior
 
@@ -55,5 +55,4 @@ Las preguntas condicionales le permiten especificar qué pregunta de seguimiento
 9. Haga clic en Guardar.
 10. En el árbol, seleccione "Preguntas\Me pagan justamente por el trabajo que hago".
     * Observe cómo el árbol de preguntas se ha actualizado para mostrar la dependencia.  
-
 

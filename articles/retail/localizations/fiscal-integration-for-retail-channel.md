@@ -1,13 +1,13 @@
 ---
-title: "Integración fiscal para el canal comercial"
-description: "Este tema proporciona una introducción a la integración fiscal para Retail POS."
+title: Visión general de la integración fiscal para canales comerciales
+description: Este tema proporciona una visión general de las capacidades fiscales de integración disponibles en Microsoft Dynamics 365 for Retail.
 author: josaw
 manager: annbe
-ms.date: 11/01/2018
+ms.date: 02/01/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailFunctionalityProfile, RetailFormLayout, RetailParameters
 audience: Application User
 ms.reviewer: josaw
@@ -15,122 +15,104 @@ ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: v-kikozl
-ms.search.validFrom: 2018-11-1
-ms.dyn365.ops.version: 8.1.1
+ms.search.validFrom: 2019-1-16
+ms.dyn365.ops.version: 10
+ms.openlocfilehash: 2dc977e3c53b1f15b41b095f586861b67c973a6d
+ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
 ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
-ms.openlocfilehash: c852d095505abecbd44d29e9e7b53875e9069def
-ms.contentlocale: es-es
-ms.lasthandoff: 11/01/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "377144"
 ---
-# <a name="fiscal-integration-for-retail-channel"></a>Integración fiscal para el canal comercial
+# <a name="overview-of-fiscal-integration-for-retail-channels"></a>Visión general de la integración fiscal para canales comerciales
 
 [!include [banner](../includes/banner.md)]
 
-Este tema es una visión general de la funcionalidad de integración fiscal que está disponible en Microsoft Dynamics 365 for Retail. La funcionalidad de la integración fiscal es un marco diseñado para dar soporte a las leyes fiscales locales que están dirigidas a evitar el fraude en el sector minorista. Situaciones de ejemplo habituales que se pueden cubrir mediante inclusión de la integración fiscal:
+## <a name="introduction"></a>Introducción
 
-- Imprimir un recibo fiscal y dárselo al cliente.
-- Asegurar el envío de la información relacionada con las ventas y devoluciones realizados en POS a un servicio externo proporcionado por la autoridad.
-- Usasr la protección de datos con una firma digital autorizada por la autoridad.
+Este tema es una visión general de las capacidades fiscales de integración disponibles en Microsoft Dynamics 365 for Retail. La integración fiscal incluye la integración con distintos dispositivos fiscales y servicios que habilitan el registro fiscal de la venta minorista de acuerdo con las leyes fiscales locales que se dirijan que impiden fraude fiscal en el sector minorista. A continuación aparecen varias situaciones de ejemplo habituales que se pueden cubrir mediante inclusión de la integración fiscal: 
 
-En este tema se proporcionan instrucciones para configurar la integración fiscal para que los usuarios pueden realizar las siguientes tareas. 
+- Registrar una venta al por menor en un dispositivo fiscal que está conectado al punto de venta al por menor (PDV), como una impresora fiscal, e imprimir un recibo fiscal para el cliente.
+- Enviar la información relacionada con las ventas y las devoluciones que se completan en Retail POS a un servicio Web externa que sea operado por la autoridad fiscal de forma segura.
+- Ayudar a garantizar la inalterabilidad de los datos de transacción de ventas a través de firmas digitales.
 
-- Configurar los conectores fiscales, que son dispositivos o servicios fiscales usados para fines fiscales de registro como el guardado, las firmas digitales y el envío seguro de datos fiscales.
-- Configurar el proveedor de documentos, que define un método de salida y un algoritmo de generación de documentos fiscales.
-- Configurar el proceso de registro fiscal, que define una secuencia de pasos y un grupo de conectores utilizados en cada paso.
-- Asignar procesos de registro fiscales a perfiles de funcionalidad de PDV.
-- Asignar perfiles técnicos de conector a perfiles de hardware (para los conectores fiscales locales) o a perfiles de funcionalidad PDV (para otros tipos de conectores fiscales).
+La funcionalidad fiscal de la integración de ventas al por menor es un marco que ofrece una solución común para el desarrollo y la personalización adicionales de la integración entre Retail POS y dispositivos y servicios fiscales. La funcionalidad también incluye los ejemplos fiscales de integración que admiten los escenarios de ventas al por menor básicas para los países o regiones específicos, y que funcionan con los dispositivos o servicios fiscales específicos. Un ejemplo fiscal de la integración consta de varias extensiones de componente al por menor y se incluye en el kit de desarrollo de software al por menor (SDK). Para obtener más información sobre los ejemplos fiscales de integración que están disponibles en ventas al por menor SDK, consulte [Ejemplos fiscales de integración en el SDK al por menor](#fiscal-integration-samples-in-the-retail-sdk). Para obtener información sobre cómo instalar y usar la ventas al por menor SDK, consulte [Vender la información general del SDK al por menor](../dev-itpro/retail-sdk/retail-sdk-overview.md).
 
-## <a name="fiscal-integration-execution-flow"></a>Flujo de ejecución de integración fiscal
-La situación de ejemplo siguiente muestra el flujo de ejecución de la integración fiscal común.
+Para admitir otros escenarios que no son compatibles por un ejemplo fiscal de la integración, para integrar Retail POS con otros dispositivos o servicios fiscales, o cubrir los requisitos de otros países o regiones, debe remitir un ejemplo fiscal existente de integración o crear un nuevo ejemplo mediante un ejemplo existente como un ejemplo.
 
-1. Inicialización del proceso de registro fiscal.
-  
-   Después de realizar algunos acciones en las que se requiere el registro fiscal, como por ejemplo después de finalizar una transacción al por menor, el proceso de registro fiscal se asocia al perfil de funcionalidad actual de PDV.
+## <a name="fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices"></a>Proceso de registro fiscal y ejemplos fiscales de la integración de los dispositivos fiscales
 
-1. Buscar un conector fiscal.
-   
-   Para cada paso de registro fiscal incluido en el proceso de registro fiscal, el sistema correlaciona la lista de conectores fiscales. Estos conectores tienen un perfil funcional incluido en el grupo de conectores especificados, con una lista de conectores que tienen un perfil técnico asociado al perfil de hardware actual (para un tipo de conector que es **Local** solo) o al perfil de funcionalidad actual de PDV (para otros tipos de conectores).
-   
-1. Realice la integración fiscal.
+Un proceso de registro fiscal en Retail POS puede estar formado por uno o más pasos. Cada paso implica el registro de transacciones fiscales o de eventos comerciales específicos en un dispositivo manual o servicio fiscal. Los siguientes componentes de la solución participan en el registro fiscal en un dispositivo fiscal asociado a una estación de hardware:
 
-   El sistema ejecuta todas las acciones necesarias definidas por un ensamblado vinculado con el conector encontrado. Esto se realiza de acuerdo con los valores del perfil funcional y del perfil técnico que se encontraron en el paso anterior para este conector.
+- **Extensión de (CRT) de tiempo de ejecución de comercio** Este componente serializa la transacción/datos de eventos al por menor en el formato que también se usa para la interacción con el dispositivo fiscal, analiza respuestas del dispositivo fiscal, y almacena las respuestas en la base de datos del canal. La extensión también define las transacciones y los eventos específicos que deben estar registrados. Este componente suele denominarse como un *proveedor del documento fiscal*.
+- **Extensión de la estación de hardware** Este componente inicializa la comunicación con el dispositivo fiscal, envía solicitudes y comandos directos al dispositivo fiscal basado en la transacción/los datos de eventos al por menor de la información del documento fiscal y recibe respuestas del dispositivo fiscal. Este componente suele denominarse como un *conector fiscal*.
 
-## <a name="setup-needed-before-using-fiscal-integration"></a>Configuración necesaria antes de utilizar la integración fiscal
-Antes de usar la funcionalidad de la integración fiscal, debe definir los valores siguientes:
+Un ejemplo fiscal de integración para un dispositivo fiscal contiene el CRT y extensiones de la estación de hardware para un proveedor fiscal de documentos y conector fiscal, respectivamente. También contiene las siguientes configuraciones de componentes:
 
-- Defina la secuencia numérica en la página **Parámetros de ventas** para el número de perfil funcional fiscal.
-  
-- Defina las secuencias numéricas en la página **Parámetros compartidos comerciales** para las referencias siguientes:
-  
-  - Número de perfil técnico fiscal
-  - Número de grupo del conector fiscal
-  - Número de proceso de registro
+- **Configuración del proveedor fiscal del documento** La configuración define un método de salida y el formato de los documentos fiscales. También contiene una asignación de datos para los impuestos y los métodos de pago, para hacer que los datos del Retail POS sean compatibles con los valores que están predefinidas en el firmware fiscal del dispositivo.
+- **Configuración de conector fiscal** La configuración define la comunicación con física el dispositivo fiscal específico.
 
-- Cree un **Conector fiscal** en **Venta minorista > Configuración de canal > integración fiscal > conectores fiscales** para cada dispositivo o servicio que tenga previsto usar para fines de integración fiscal.
+Un proceso de registro fiscal para un registro de PDV específico se define mediante un valor correspondiente del perfil de funcionalidad del PDV. Para obtener más información acerca de cómo configurar un proceso de registro fiscal, cargar el proveedor fiscal de documento y las configuraciones de conector fiscales, y cambiar los parámetros, consulte [Configurar un proceso de registro fiscal](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process).
 
--  Cree **Proveedor de documento fiscal** en **Venta minorista > Configuración de canal > integración fiscal > proveedores de documentos fiscales** para todos los conectores fiscales. La asignación de datos se considera una parte del proveedor de documentos fiscales. Para configurar diferentes asignaciones de datos para el mismo conector (como normas de esetado específicas), debe crear varios proveedores de documentos fiscales.
+El ejemplo siguiente muestra un flujo fiscal típico de la ejecución de registro para un dispositivo fiscal. El flujo empieza con un evento en PDV (por ejemplo, finalización de una transacción de ventas) e implementa la siguiente secuencia de pasos:
 
-- Cree un **Perfil funcional de conector** en **Venta minorista > configurar canal> integración fiscal > perfiles funcionales de conector** para cada proveedor de documentos fiscales.
-  - Seleccione un nombre de conector.
-  - Seleccione un proveedor de documentos.
-  - Especifique los valores de índices de IVA en la pestaña **configuración del servicio**.
-  - Especifique la asignación de códigos de IVA y la asignación de tipo de pago en la pestaña **Asignación de datos**.
+1. El PDV solicita un documento fiscal del CRT.
+2. El CRT determina si el evento actual requiere el registro fiscal.
+3. Según los valores fiscales del proceso de registro, CRT identifica un conector fiscal y un proveedor fiscal correspondiente del documento que desee utilizar para el registro fiscal.
+4. CRT ejecuta el proveedor del documento fiscal que genera un documento fiscal (por ejemplo, un documento XML) que represente la transacción o el evento de ventas al por menor.
+5. El PDV envía el documento fiscal que el CRD prepara para una estación de hardware.
+6. La estación de hardware ejecuta el conector fiscal que procesa el documento fiscal y lo comunica al dispositivo o servicio fiscal.
+7. El PDV analiza la respuesta del dispositivo o servicio fiscal para determinar si el registro fiscal ha tenido éxito.
+8. El CRT guarda la respuesta en la base de datos del canal.
 
-  #### <a name="examples"></a>Ejemplo 
+![Esquema de la solución](media/emea-fiscal-integration-solution.png "Esquema de la solución")
 
-  |  | Formato | Ejemplo | 
-  |--------|--------|--------|
-  | Configuración de índices de IVA | valor: VATrate | 1 : 2000, 2 : 1800 |
-  | Asignación de códigos de IVA | VATcode : valor | vat20 : 1, vat18 : 2 |
-  | Asignación de tipos de forma de pago | TenderTyp: valor | Cash : 1, Card : 2 |
+## <a name="error-handling"></a>Control de errores
 
-- Cree **Grupos del conector fiscal** en **Venta minorista > Configuración de canal > integración fiscal > grupo del conector fiscal**. Un grupo de conectores es un subconjunto de perfiles funcionales vinculados con conectores fiscales que realizan idénticas funciones y se usan en la misma etapa del proceso de registro fiscal.
+El marco fiscal de la integración proporciona las opciones siguientes para gestionar los errores durante el registro fiscal:
 
-   - Agregue perfiles funcionales el grupo de conectores. Haga clic en **Agregar** en la página **Perfiles funcionales** y seleccione un número del perfil.
-   - Si desea suspender el uso del perfil funcional, establezca **Deshabilitar** en **Sí**. 
-   
-     Este cambio afecta al grupo de conectores actuales únicamente. Puede continuar con el mismo perfil funcional en otros grupos de conectores.
+- **Reintentar** – Los operadores pueden usar esta opción cuando el error puede resolver rápidamente, y el registro fiscal se puede volver a ejecutar. Por ejemplo, esta opción se puede usar cuando el dispositivo fiscal no está conectado, la impresora fiscal se encuentra sin papel, o hay un atasco de papel en la impresora fiscal.
+- **Cancelar** La opción permite operadores posponer el registro fiscal de la transacción actual o del evento si falla. Después de que se posponga el registro, el transportista puede continuar trabajando en el PDV y puede completar todas las operaciones para las que el registro fiscal no sea necesario. Cuando cualquier evento que requiera el registro fiscal aparece en el sistema PDV (por ejemplo, se abre una nueva transacción), el cuadro de diálogo de tratamiento de errores aparece automáticamente para notificar el operador que la transacción anterior no se registró correctamente y para proporcionar las opciones de procesamiento de errores.
+- **Omitir** – Los operadores pueden usar esta opción cuando el registro fiscal se puede omitir bajo condiciones específicas y las operaciones regulares se pueden continuar en el PDV. Por ejemplo, esta opción se puede usar cuando una transacción de ventas que no se registró se puede registrar en un diario de papel especial.
+- **Marcar como registrado** – Los operadores pueden usar esta opción cuando se registró la transacción realmente en el dispositivo fiscal (por ejemplo, un recibo fiscal se imprimió), pero se produjo un error cuando la respuesta fiscal se guardada en la base de datos de canal.
 
-     >[!NOTE]
-     > Dentro de un grupo de conectores, cada conector fiscal solo puede tener un perfil funcional.
+> [!NOTE]
+> Las opciones **Omitir** y **Marcar como registrado** se deben activar en el proceso de registro fiscal antes usarse. Además, los permisos correspondientes se deben conceder a los operadores.
 
-- Cree un **Perfil técnico de conector** en **Venta minorista > configurar canal> integración fiscal > perfiles técnicos de conector** para cada conector fiscal.
-  - Seleccione un nombre de conector.
-  - Seleccione un tipo de conector: 
-      - **Local** - Establezca este tipo para los dispositivos o las solicitudes instaladas en un equipo local.
-      - **Interno** - Estableza este tipo para los dispositivos fiscales y servicios conectados a Retail Server.
-      - **Externo** - Para los servicios fiscales externos como un portal Web proporcionado por una autoridad fiscal.
-    
-  - Especifique la configuración en la pestaña **Conexión**.
+Las opciones **Omitir** y **Marcar como registrado** activan códigos de información para capturar cierta información específica acerca del error, como el motivo del error o de una justificación para saltarse el registro fiscal o marcar la transacción como registrada. Para obtener más información sobre cómo gestionar los parámetros de gestión de errores, consulte [Establecer valores de gestión de errores](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 
-      
- >[!NOTE]
- > Una versión actualizada de una configuración que se cargó anteriormente se cargará para los perfiles funcionales y técnicos. Si ya se está usando un conector o un proveedor de documentos adecuado, se le notificará. De forma predeterminada, todos los cambios realizados manualmente en perfiles funcionales y técnicos se guardarán. Para anular estos perfiles con el conjunto de parámetros predeterminado de una configuración, haga clic en **Actualizar** en la página **Perfiles funcionales del conector** y la página **Perfiles técnicos del conector**.
- 
-- Cree un **Proceso de registro fiscal** en **venta minorista > configurar canal > integración fiscal > procesos de registro fiscales** para cada proceso único de integración fiscal. Un proceso de registro se define por la secuencia de los pasos de registro y el grupo de conectores utilizados en cada paso. 
-  
-  - Agregar pasos de registro al proceso:
-      - Haga clic en **Agregar**.
-      - Seleccione un tipo de conector.
-      
-      >[!NOTE]
-      > Este campo define dónde el sistema buscará el conector en un perfil técnico, en los perfiles de hardware para el tipo de conector **local** o en los perfiles de funcionalidad de PDV para otros tipos de conectores fiscales.
-      
-   - Seleccione un grupo de conectores.
-   
-     >[!NOTE]
-     > Haga clic en **Validar** para comprobar la integridad de la estructura del proceso de registro. Se recomienda que se hagan las validaciones en los casos siguientes:
-       >- Para un proceso de registro nuevo después de que toda la configuración se complete, incluidos los perfiles de funcionalidad PDV y los perfiles de hardware.
-       >- Después de crear actualizaciones en un proceso de registro existente.
+## <a name="storing-fiscal-response-in-fiscal-transaction"></a>Almacenar respuesta fiscal en la transacción fiscal
 
--  Vincule los procesos de registro fiscales a los perfiles de funcionalidad del PDV en **Venta minorista > configurar canal > Configuración de PDV > perfiles de PDV > perfiles de funcionalidad**.
-   - Haga clic en **Editar** y seleccione **Número de proceso** en la pestaña **Proceso de registro fiscal**.
-- Vincule los perfiles técnicos de conectores a los perfiles de hardware en **venta minorista > configurar canal > Configuración de PDV > perfiles PDV > perfiles de hardware**.
-   - Haga clic en **Editar** y, a continuación, haga clic en **Nuevo** en la pestaña **Perfil técnico fiscal**.
-   - Seleccione un perfil del técnico de conector en el campo **Número de perfil**.
-   
-     >[!NOTE]
-     > Puede agregar varios perfiles técnicos a un perfil de hardware. Sin embargo, esto no se admite si un perfil de hardware tiene más de una intersección con cualquier grupo de conectores. Para evitar valores incorrectos, se recomienda que valide el proceso de registro después de actualizar todos los perfiles de hardware.
+Cuando el registro fiscal de una transacción o de un evento se ha realizado correctamente, una transacción fiscal se crea en la base de datos del canal y se vincula a la transacción o el evento original. De forma similar, si **Omitir** o la opción **Marcar como registrado** se selecciona para un registro fiscal defectuoso, esta información se almacena en una transacción fiscal. Una transacción fiscal conserva la respuesta fiscal del dispositivo o servicio fiscal. Si el proceso de registro fiscal consta de varios pasos, una transacción fiscal se crea para cada paso del proceso que ha provocado un registro correcto o error.
 
+Las transacciones fiscales son transferidas en Central Retail por *P-trabajo*, junto con las transacciones minoristas. En el FastTab **Transacciones fiscales** de la página **Transacciones de tienda minorista** , puede ver las transacciones fiscales que se vinculan a las transacciones comerciales.
+
+Una transacción fiscal almacena los siguientes datos:
+
+- Detalles fiscales del proceso de registro (proceso, grupo conector, conector, etc.). También guarda el número de serie del dispositivo fiscal en el campo **Número de registro** , si esta información se incluye en la respuesta fiscal.
+- El estado del registro fiscal: **Completado** para registros correctos, **Omitido** si el operador ha seleccionado la opción **Omitir** para un registro defectuoso, o **Marcado como registrado** si el operador ha seleccionado la opción **Marcar como registrado** .
+- Código de información de las transacciones relacionadas con una transacción fiscal seleccionada. Para ver las transacciones de código de información en el FastTab **Transacciones fiscales** , seleccione una transacción fiscal que tiene un estado **Omitido** o **Marcado como registrado**, y después seleccione **Código de información de transacciones**.
+
+## <a name="fiscal-texts-for-discounts"></a>Textos fiscales para descuentos
+
+Algunos países o regiones tienen requisitos especiales sobre los textos adicionales que se deben imprimir en recibos fiscales cuando se aplican los diferentes tipos de descuentos. La funcionalidad fiscal de la integración permite configurar un texto especial para un descuento que se imprime después de una línea de descuento en un recibo fiscal. Para descuentos manuales, puede configurar un texto fiscal para la información codificada especificado como la **Descuento del producto** codificada en el perfil de funcionalidad del PDV. Para obtener más información acerca de cómo configurar los textos fiscales para descuentos, consulte [Instalación de textos fiscales para descuentos](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-texts-for-discounts).
+
+## <a name="printing-fiscal-x-and-fiscal-z-reports"></a>Imprimir X y Z informes fiscales
+
+La funcionalidad fiscal de la integración admite la generación de informes de final del día que son específicas para el dispositivo o servicio fiscal integrado:
+
+- Los nuevos botones que funcionan con las operaciones correspondientes se deben agregar al diseño de pantalla del PDV. Para obtener más información, consulte [Configurar informes fiscales X/Z de PDV](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-xz-reports-from-the-pos).
+- En el ejemplo fiscal de la integración, estas operaciones deben coincidir a las operaciones correspondientes del dispositivo fiscal.
+
+## <a name="fiscal-integration-samples-in-the-retail-sdk"></a>Ejemplos fiscales de integración en el SDK al por menor
+
+Los ejemplos siguientes fiscales de integración están disponibles actualmente en ventas al por menor SDK que se ha liberado con ventas al por menor:
+
+- [Ejemplo de integración de impresora fiscal para Italia](emea-ita-fpi-sample.md)
+- [Ejemplo de integración de impresora fiscal para Polonia](emea-pol-fpi-sample.md)
+
+La siguiente funcionalidad fiscal de integración también está disponible en el SDK al por menor pero no se aprovecha actualmente del marco fiscal de integración. La migración de esta funcionalidad fiscal al marco de integración está prevista para actualizaciones posteriores.
+
+- [Firma digital para Francia](emea-fra-cash-registers.md)
+- [Firma digital para Noruega](emea-nor-cash-registers.md)
+- [Ejemplo de integración de unidad de control para Suecia](../dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)

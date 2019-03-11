@@ -1,13 +1,13 @@
 ---
-title: "Generar previsión estadística de línea base"
-description: "Este artículo proporciona información sobre los parámetros y los filtros que se usan en el cálculo de previsión de demanda."
+title: Generar previsión estadística de línea base
+description: Este artículo proporciona información sobre los parámetros y los filtros que se usan en el cálculo de previsión de demanda.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 30f2ccb8c0b4d7c4755e0b8dc66539e165265090
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 42ea3a6cf85802fc42c53111d17afbce042a6d44
-ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326432"
 ---
-
 # <a name="generate-a-statistical-baseline-forecast"></a>Generar previsión estadística de línea base
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,7 @@ Cuando la estrategia de previsión se establece en **Copiar por encima de demand
 
 Para evitar confusiones en los planes de producción, algunos depósitos de previsión se pueden congelar. Este número se establece en en campo **Límite de tiempo congelado**. En la página **Previsión de la demanda ajustada**, las celdas para cubos congelados están desactivadas, para dar una indicación visual de que estos valores no se deben cambiar. 
 
-La fecha inicial para la previsión de la demanda de línea basa no tiene que ser la fecha actual o una fecha en el futuro. Para establecer una fecha inicial, use el campo **Fecha de inicio de previsión de línea base: desde fecha**. Por ejemplo, en junio, los usuarios pueden generar una previsión para el año siguiente. Dado que faltan los cubos de previsión entre el final de la demanda histórica y el inicio de la línea base, puede que las predicciones no sean exactas. Si está usando el servicio de previsión de demanda de Microsoft Dynamics 365 for Finance and Operations, existen cuatro maneras en las que puede completar los espacios que faltan. Puede elegir el método que desee si configura el parámetro MISSING\_VALUE\_SUBSTITUTION en la página **Parámetros de previsión de demanda**. 
+La fecha inicial para la previsión de la demanda de línea basa no tiene que ser la fecha actual o una fecha en el futuro. Para establecer una fecha inicial, use el campo **Fecha de inicio de previsión de línea base: desde fecha**. Por ejemplo, en junio, los usuarios pueden generar una previsión para el año siguiente. Dado que faltan los cubos de previsión entre el final de la demanda histórica y el inicio de la línea base, puede que las predicciones no sean exactas. Si está usando el servicio de previsión de demanda de Microsoft Dynamics 365 for Finance and Operations, existen cuatro maneras en las que puede completar los espacios que faltan. Puede elegir el método que desee si configura el parámetro MISSING\_VALUE\_SUBSTITUTION en la página **Parámetros de previsión de demanda**. 
 
 El campo **Fecha inicial de la previsión de línea base** - **Desde la fecha** tiene que estar establecido al principio de un cubo de previsión, por ejemplo, en Estados Unidos, un domingo si el cubo de previsión es la semana. El sistema ajusta automáticamente el campo **Fecha inicial de la previsión de línea base** - **Desde la fecha** para que coincida con el inicio de un cubo de previsión. 
 
@@ -72,7 +71,6 @@ Si la previsión no se genera para un conjunto grande de artículos, sino, por e
 [Realización de ajustes manuales realizados en la previsión de línea base](manual-adjustments-baseline-forecast.md)
 
 [Autorización de la previsión ajustada](authorize-adjusted-forecast.md)
-
 
 
 

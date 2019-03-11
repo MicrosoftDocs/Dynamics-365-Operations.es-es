@@ -1,13 +1,13 @@
 ---
-title: "Agregar análisis a espacios de trabajo mediante Power BI Embedded"
-description: "Este tema muestra cómo insertar un informe de Power BI en la ficha Análisis de un espacio de trabajo."
+title: Agregar análisis a espacios de trabajo mediante Power BI Embedded
+description: Este tema muestra cómo insertar un informe de Power BI en la ficha Análisis de un espacio de trabajo.
 author: tjvass
 manager: AnnBe
 ms.date: 06/21/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application user, IT Pro
 ms.reviewer: robinr
 ms.search.scope: Core, Operations
@@ -15,20 +15,19 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: a190e15dc304f60739c80d75222830ee737c5a32
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: 3f6b83166ba942e40e5e1f7c0ef9df40a44bfbc5
-ms.contentlocale: es-es
-ms.lasthandoff: 08/13/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355228"
 ---
-
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Agregar análisis a espacios de trabajo mediante Power BI Embedded
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Esta función se admite en Dynamics 365 for Finance and Operations (versión 7.2 y posteriores).
+> Esta función se admite en Dynamics 365 for Finance and Operations (versión 7.2 y posterior).
 
 ## <a name="introduction"></a>Introducción
 Este tema muestra cómo insertar un informe de Microsoft Power BI en la ficha **Análisis** de un espacio de trabajo. Para el ejemplo que se da aquí, extenderemos el espacio de trabajo **Administración de reserva** en la aplicación de administración de flota para insertar un espacio de trabajo analítico en una pestaña **Análisis** .
@@ -177,4 +176,3 @@ public static void initializeReportControl(
 | showFilterPane   | Un valor booleano que indica si el panel de filtros se debe mostrar (**true**) u ocultar (**false**).     |
 | showNavPane      | Un valor booleano que indica si el panel de navegación se debe mostrar (**true**) u ocultar (**false**). |
 | defaultFilters   | Los filtros predeterminados del informe de Power BI.                                                                 |
-

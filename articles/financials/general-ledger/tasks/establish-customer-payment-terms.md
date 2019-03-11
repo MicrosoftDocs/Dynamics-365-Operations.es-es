@@ -1,13 +1,13 @@
---- 
+---
 title: Establecer condiciones de pago de cliente
-description: "Este procedimiento define una configuración de descuento por pronto pago y fecha de vencimiento."
+description: Este procedimiento define una configuración de descuento por pronto pago y fecha de vencimiento.
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PaymDay, PaymTerm, CashDisc
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 49f4047ab4bff6bdfbe8326a6680f9d8f9762c95
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 4e0e43962bea3ff1c3adafa73da4ce3862963a51
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312494"
 ---
 # <a name="establish-customer-payment-terms"></a>Establecer condiciones de pago de cliente
 
@@ -66,5 +66,4 @@ Este procedimiento define una configuración de descuento por pronto pago y fech
     * Si selecciona “Cuentas en las líneas de factura”, el descuento por pronto pago se registrará en la misma cuenta principal de activos/gastos en las líneas de la factura de proveedor. Si selecciona “Usar cuenta principal para las facturas de proveedor” el descuento por pronto pago se registrará en la cuenta principal que se define en “Cuenta principal para las facturas de proveedor”. En este ejemplo, seleccione “Usar cuenta principal para las facturas de proveedor”.  
 26. Especifique la cuenta principal en la que se registrará el descuento por pronto pago para las facturas de proveedor.
 27. Haga clic en Guardar.
-
 

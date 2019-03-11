@@ -1,13 +1,13 @@
 ---
-title: "Configurar liquidación"
-description: "Cómo y cuándo se liquidan las transacciones puede ser temas complejos, lo que es fundamental que entienda y defina correctamente los parámetros para satisfacer sus requisitos empresariales. Este tema describe los parámetros que se usan para la liquidación tanto para Proveedores como Clientes."
+title: Configurar liquidación
+description: Cómo y cuándo se liquidan las transacciones puede ser temas complejos, lo que es fundamental que entienda y defina correctamente los parámetros para satisfacer sus requisitos empresariales. Este tema describe los parámetros que se usan para la liquidación tanto para Proveedores como Clientes.
 author: kweekley
 manager: AnnBe
 ms.date: 05/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans, CustParameters, VendOpenTrans, VendParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 66e2fdbf7038a2c15fb373d4f96cd6e6c4c87ea0
 ms.openlocfilehash: 1361bce94f6542112cf29e369f2238f211d0647e
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319279"
 ---
-
 # <a name="configure-settlement"></a>Configurar liquidación
 
 [!include [banner](../includes/banner.md)]
@@ -68,4 +67,3 @@ Para evitar los asientos contables adicionales, el débito y el crédito en la m
 
 -   Las organizaciones suelen usar dimensiones fijas para rellenar de ceros una dimensión financiera que no es necesaria. Este es habitualmente el caso para cuentas de balance de situación, como clientes/proveedores. Las estructuras contables se pueden utilizar para no realizar un seguimiento de las dimensiones financieras que suelen rellenarse de ceros.  Puede quitar la dimensión financiera para las cuentas de balance de situación eliminando la necesidad de usar dimensiones fijas.
 -   Si su organización requiere dimensiones fijas en la cuenta principal de clientes/proveedores, encuentre una forma de establecer de manera predeterminada la dimensión fija en el pago, de manera que se el valor de la dimensión fija se almacene en la transacción de proveedor para el pago. Esto permitirá al sistema reconstruir la cuenta principal de clientes/proveedores para incluir los valores de la dimensión fija. El valor de la dimensión fija se puede definir como predeterminado en los proveedores o en el nombre del diario para el diario de pagos.
-

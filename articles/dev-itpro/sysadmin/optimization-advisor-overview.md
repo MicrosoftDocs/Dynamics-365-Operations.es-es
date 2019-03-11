@@ -1,32 +1,31 @@
 ---
-title: "Asesor de optimización"
-description: "Este tema describe cómo puede usar el asesor de optimización para ayudar a garantizar la configuración óptima de Microsoft Dynamics 365 Finance and Operations."
+title: Asesor de optimización
+description: Este tema describe cómo puede usar el asesor de optimización para ayudar a garantizar la configuración óptima de Microsoft Dynamics 365 Finance and Operations.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 03/23/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations, Core
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: roxanad
 ms.search.validFrom: 2017-12-01
-ms.dyn365.ops.version: 7.3
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 206b8a23a52d412d1810b8a355b09ecc461f00b3
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335632"
 ---
-
 # <a name="optimization-advisor"></a>Asesor de optimización
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +38,7 @@ La configuración incorrecta y la configuración de un módulo pueden afectar ne
 
 El espacio de trabajo **Asesor de optimización** es una herramienta que permite a los usuarios avanzados, analistas de negocios, consultores funcionales, y las funciones del soporte para la TI identificar problemas en la configuración y datos empresariales de módulo. El asesor de optimización sugiere las prácticas recomendadas para la configuración de módulo e identifica los datos empresariales que son obsoletos o incorrectos.
 
-El asesor de optimización ejecuta periódicamente un conjunto de reglas de prácticas recomendadas. Se lanza un conjunto predeterminado de reglas junto con Microsoft Dynamics 365 for Finance and Operations versión 8.0 (abril de 2018). Sin embargo, los usuarios también pueden crear reglas que sean específicas a sus personalizaciones, soluciones de fabricantes de software independientes (ISV) y datos de la empresa. Para obtener más información acerca de cómo crear reglas, consulte [Crear nuevas reglas](./create-rules-optimization-advisor.md).
+El asesor de optimización ejecuta periódicamente un conjunto de reglas de prácticas recomendadas. Lanzan al mercado un conjunto de reglas predeterminado así como Microsoft Dynamics 365 for Finance and Operations versión 8.0 (abril de 2018). Sin embargo, los usuarios también pueden crear reglas que sean específicas a sus personalizaciones, soluciones de fabricantes de software independientes (ISV) y datos de la empresa. Para obtener más información acerca de cómo crear reglas, consulte [Crear nuevas reglas](./create-rules-optimization-advisor.md).
 
 Cuando una infracción de una regla se detecta, se genera una oportunidad de optimización y aparece en el espacio de trabajo **Asesor de optimización**. Un usuario puede realizar la acción correctora adecuada directamente desde el espacio de trabajo **Asistente de optimización**.
 
@@ -49,7 +48,7 @@ Las directivas de seguridad estándar se aplican a las oportunidades de optimiza
 
 Cuando realiza acciones en algunas oportunidades de optimización, el sistema calcula el impacto de la oportunidad en términos de reducción del tiempo de ejecución de procesos empresariales. Desafortunadamente, esta característica no está disponible para todas las oportunidades de optimización.
 
-Para obtener más información acerca del asesor de optimización, mire el vídeo corto [Asistente de optimización en Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=MRsAzgFCUSQ).
+Para obtener más información acerca de aviso de optimización, vea el breve vídeo [Asesor de optimización en Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=MRsAzgFCUSQ).
 
 ## <a name="optimization-rules"></a>Reglas de optimización
 
@@ -95,5 +94,4 @@ Para desactivar la evaluación de reglas específicas, seleccione la oportunidad
 
 [Crear nuevas reglas](./create-rules-optimization-advisor.md)
 
-[Asistente de optimización en Dynamics 365 for Finance and Operations (Vídeo)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
-
+[Asesor de optimización en Dynamics 365 for Finance and Operations (vídeo)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)

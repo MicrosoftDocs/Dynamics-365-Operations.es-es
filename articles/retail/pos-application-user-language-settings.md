@@ -1,13 +1,13 @@
 ---
-title: "Configuración de idioma del usuario y aplicación de punto de venta (PDV)"
-description: "Este tema describe cómo cambiar la configuración del idioma en Retail Modern POS (MPOS) y el PDV de la nube."
+title: Configuración de idioma del usuario y aplicación de punto de venta (PDV)
+description: Este tema describe cómo cambiar la configuración del idioma en Retail Modern POS (MPOS) y Cloud POS.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmWorker, RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,23 +19,22 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: faf8cdcee70b55842072298b51789f6cd7a577af
-ms.contentlocale: es-es
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336759"
 ---
-
 # <a name="point-of-sale-pos-application-and-user-language-settings"></a>Configuración de idioma del usuario y aplicación de punto de venta (PDV)
 
 [!include [banner](includes/banner.md)]
 
-Este tema describe cómo cambiar la configuración del idioma en el Retail Modern POS (MPOS) y el PDV de la nube.
+Este tema describe cómo cambiar la configuración del idioma en Retail Modern POS (MPOS) y Cloud POS.
 
-## <a name="overview"></a>Visión general
+## <a name="overview"></a>Información general
 
-Tanto Retail Modern POS (MPOS) como el PDV de la nube admiten entornos en los que la configuración del idioma y las traducciones pueden variar entre los ajustes del usuario y los de la tienda. Por ejemplo, la tienda podría estar situada en una región donde el inglés es más común para sus clientes, pero algunos trabajadores prefieren usar la aplicación con traducciones al francés.
+Retail Modern POS (MPOS) y Cloud POS admiten entornos en los que la configuración del idioma y las traducciones pueden variar entre los ajustes del usuario y los de la tienda. Por ejemplo, la tienda podría estar situada en una región donde el inglés es más común para sus clientes, pero algunos trabajadores prefieren usar la aplicación con traducciones al francés.
 
 ## <a name="data-language"></a>Idioma de los datos
 
@@ -67,4 +66,3 @@ La configuración del idioma del usuario del PDV se define en **Todos los trabaj
 | **Empresa** | Predeterminada                    | Predeterminada                                                       |
 | **Tienda**   | Reemplaza a la empresa          | Reemplaza a la empresa                                             |
 | **Usuario**    | Reemplaza a la tienda o a la empresa | Nunca                                                         |
-

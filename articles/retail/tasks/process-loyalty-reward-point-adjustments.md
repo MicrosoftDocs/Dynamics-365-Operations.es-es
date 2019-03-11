@@ -1,13 +1,13 @@
---- 
-title: "Procesar ajustes de puntos de recompensa de fidelización"
-description: "Este procedimiento muestra cómo buscar información de la tarjeta de fidelización y ajustar puntos de recompensa de fidelización."
+---
+title: Procesar ajustes de puntos de recompensa de fidelización
+description: Este procedimiento muestra cómo buscar información de la tarjeta de fidelización y ajustar puntos de recompensa de fidelización.
 author: scott-tucker
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailLoyaltyCards, RetailLoyaltyCardRewardPointTrans, RetailLoyaltyCardRewardPointAdjustment, RetailAffiliationLookup
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 85aaa82bf56d55c69f39bab49682c79f51247251
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 2bfb5095c1db2a5ab9fb528d08d979ec850543fc
-ms.contentlocale: es-es
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346166"
 ---
 # <a name="process-loyalty-reward-point-adjustments"></a>Procesar ajustes de puntos de recompensa de fidelización
 
@@ -49,5 +49,4 @@ Este procedimiento muestra cómo buscar información de la tarjeta de fidelizaci
     * Normalmente en este punto se actualizaría la página para ver el resultado del ajuste de los puntos de la recompensa en la pestaña de resumen de los puntos de la recompensa. Pero si ejecuta esto como una guía de tareas, le recomendamos que no actualice la página porque la guía de tareas podría pararse.  
 15. Haga clic en Transacciones con tarjeta.
 16. Cierre la página.
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Asiento único con varios registros de cliente o proveedor"
-description: "Este tema proporciona una visión general de lo que sucede cuando se registra un documento único con varios registros del cliente o del proveedor. Esta función se cancelará en futuras versiones de Microsoft Dynamics 365 for Finance and Operations, por eso no se recomienda el uso de este método de registro debido al impacto contable en el procesamiento del acuerdo."
+title: Asiento único con varios registros de cliente o proveedor
+description: Este tema proporciona una visión general de lo que sucede cuando se registra un documento único con varios registros del cliente o del proveedor. Esta función se cancelará en futuras versiones de Microsoft Dynamics 365 for Finance and Operations, por eso no se recomienda el uso de este método de registro debido al impacto contable en el procesamiento del acuerdo.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d27c4182703b4421763036b2a338b3598f9e969b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 4c499e31fb42a69dff6ac41faac0c78f7f4d1876
-ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330365"
 ---
-
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Asiento único con varios registros de cliente o proveedor
 
 [!include [banner](../includes/banner.md)]
@@ -249,7 +248,6 @@ Para evitar problemas no deseados con acuerdos futuros para esta transacción, e
 | **Asiento** | **Tipo de cuenta** | **Cuenta** | **Descripción** | **Débito** | **Crédito** | **Tipo de contrapartida** | **Cuenta de contrapartida** |
 | 001         | Cliente          | US-008      |                 |           |  75,00     | Contabilidad          | 999999---          |
 | 002         | Proveedor           | 1001        |                 |  75,00    |            | Contabilidad          | 999999---          |
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Configuración de selecciones"
-description: "Este artículo describe qué es una selección y explica cómo configurar selecciones en Microsoft Dynamics 365 for Retail."
+title: Configuración de selecciones
+description: Este artículo describe qué es una selección y explica cómo configurar selecciones en Microsoft Dynamics 365 for Retail.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailAssortmentDetails
 audience: Application User
 ms.reviewer: josaw
@@ -19,15 +19,14 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: a9578a0784d4f4fbfca27ec4093a3f61d1068a47
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 91713a4492ad82520f7dde611c17a5ea168ed80d
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314978"
 ---
-
-# <a name="set-up-assortments"></a>Configuración de selecciones
+# <a name="set-up-assortments"></a>Configurar selecciones
 
 [!include [banner](includes/banner.md)]
 
@@ -56,4 +55,3 @@ Después de completar los requisitos previos, puede crear una selección y asign
 2. Seleccionar los canales comerciales o grupos de alto nivel de canales comerciales a los que se aplica la selección.
 3. Agregar categorías de productos, productos individuales o variantes de producto a la selección. Puede incluir todos los productos de una categoría específica o puede excluir los productos seleccionados de una categoría incluida en la selección.
 4. Publicar la selección. Al publicar una selección, se ejecuta automáticamente el programador de selecciones comerciales. Este proceso genera la lista de productos. Al completar el proceso, estos productos estarán disponibles en los canales comerciales asignados a la selección de productos. Si se realizan cambios en una selección publicada o en los canales comerciales asignados a la selección, es necesario actualizar la selección. Para actualizar la selección al realizar cambios, puede ejecutar el programador de selección comercial como trabajo por lotes.
-

@@ -1,13 +1,13 @@
 ---
-title: "Colaboración de proveedor con proveedores externos"
-description: "Este tema explica cómo los agentes de compras pueden colaborar con los proveedores externos para intercambiar información sobre los pedidos de compra y el inventario de entrega."
+title: Colaboración de proveedor con proveedores externos
+description: Este tema explica cómo los agentes de compras pueden colaborar con los proveedores externos para intercambiar información sobre los pedidos de compra y el inventario de entrega.
 author: mkirknel
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchRFQCaseTableListPage, VendVendorPortalInvoicePart
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 65624ce5e668a506ae23b302559d8d0bf4141a12
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 961f0bbc4bb66536d953fa5103f98fcd6924adba
-ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350030"
 ---
-
 # <a name="vendor-collaboration-with-external-vendors"></a>Colaboración de proveedor con proveedores externos
 
 [!include [banner](../includes/banner.md)]
@@ -99,14 +98,14 @@ La siguiente tabla muestra el intercambio de información normal, en función de
 El PO que se envió al proveedor y que se encuentra en estado de <strong>En revisión externa</strong> se actualiza con las fechas de entrega confirmadas en las líneas. Esta actualización inicia una nueva versión que se configura automáticamente en estado <strong>Confirmado</strong>. Cuando se confirma el PO, este aparece en la interfaz de colaboración del proveedor.</td>
 </tr>
 <tr class="odd">
-<td>El proveedor <strong>acepta</strong> el pedido, pero Finance and Operations no está configurado para confirmar automáticamente que el proveedor acepta.</td>
+<td>El proveedor <strong>acepta</strong> el pedido, pero Finance and Operations no está configurado para confirmar pedidos que el proveedor acepta.</td>
 <td>La respuesta del proveedor se registra como <strong>Aceptado</strong> pero el estado del PO permanece como estado <strong>En revisión externa</strong>.
 
 El PO que se envió al proveedor y que se encuentra en estado de <strong>En revisión externa</strong> se actualiza con las fechas de entrega confirmadas en las líneas. Esta actualización inicia una nueva versión que se configura automáticamente en estado <strong>En revisión externa</strong>. A continuación puede confirmar manualmente el PO.</td>
 </tr>
 <tr class="even">
 <td>El proveedor <strong>rechaza</strong> el pedido.</td>
-<td>La respuesta del proveedor se registra como <strong>Rechazado</strong> y el estado de la OC permanece en estado <strong>Revisión externa</strong>. El rechazo se recibe junto con la nota del proveedor.</td>
+<td>La respuesta del proveedor se registra como <strong>Rechazado</strong> y el estado de la OC permanece en estado <strong>Revisión externa</strong>. El rechazo se recibe junto con la nota de los proveedores.</td>
 </tr>
 <tr class="odd">
 <td>El proveedor <strong>acepta</strong> el pedido <strong>con los cambios</strong>. Los cambios se sugieren en el nivel de línea. El proveedor puede aceptar o rechazar líneas individuales. A continuación se muestran algunos otros cambios que el proveedor puede sugerir:
@@ -260,4 +259,3 @@ El usuario que configura los parámetros del proceso de solicitud de presupuesto
 - %createddate%
 
 Si se requiere una modificación y se configura después de que se envíe la solicitud de presupuesto, la solicitud de presupuesto se reenviará a todos los proveedores invitados. El documento publicado también se actualizará en la página **Solicitudes de presupuesto publicadas abiertas**.
-

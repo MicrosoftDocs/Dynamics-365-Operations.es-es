@@ -1,13 +1,13 @@
 ---
-title: "Opciones de letras de cambio españolas"
-description: "Este tema describe opciones y cambios específicos en el proceso de letra de cambio básico implementado en Microsoft Dynamics 365 for Finance and Operations para las entidades jurídicas en España."
+title: Opciones de letras de cambio españolas
+description: Este tema describe opciones y cambios específicos en el proceso de letra de cambio básico implementado en Microsoft Dynamics 365 for Finance and Operations para las entidades jurídicas en España.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustParameters, BankBillOfExchangeTable
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Spain
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 18a1d87406a9de4a78116398a2c2018feb87ff8c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3a6294427fa66d0e95cdb1b8bec4a41f5821675d
-ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370460"
 ---
-
 # <a name="spanish-bill-of-exchange-options"></a>Opciones de letras de cambio españolas
 
 [!include [banner](../includes/banner.md)]
@@ -55,7 +54,6 @@ Si el parámetro **Tratamiento de fecha en diario de letra de cambio** está est
 -   Diario de envíos
 -   Diario de impago de letras de cambio
 -   Diario de renegociación de letras de cambio
-
 
 
 

@@ -1,31 +1,30 @@
 ---
 title: Configurar vales para ventas minoristas
-description: "Este tema proporciona una visión general de los vales comerciales y explica cómo configurarlos."
+description: Este tema proporciona una visión general de los vales comerciales y explica cómo configurarlos.
 author: scott-tucker
 manager: AnnBe
 ms.date: 05/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailCoupon, RetailParameters, RetailSharedParameters
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
+ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: bd3596b6c78c5959ca289c73bcc5785eb770be39
-ms.contentlocale: es-es
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336598"
 ---
-
 # <a name="set-up-coupons-for-retail-sales"></a>Configurar vales para ventas minoristas
 
 [!include [banner](includes/banner.md)]
@@ -38,10 +37,10 @@ Cada vale está relacionado con un descuento minorista. Los grupos de precios as
 
 Esencialmente, los vales son una validación adicional a los descuentos minoristas. El vale proporciona los códigos y los códigos de barras obligatorios, así como los intervalos de fechas para dichos códigos. El vale también proporciona límites de uso opcionales y propiedades requeridas por el cliente. El descuento proporciona el conjunto de productos para los que es válido. Los grupos de precios para el descuento proporcionan el conjunto de clientes, canales o catálogos para los que el vale es válido.
 
-Para crear un vale, cree el descuento y el vale por separado. A continuación vincúlelos seleccionando el descuento en la página de vales en Microsoft Dynamics 365 for Retail.
+Para crear un vale, cree el descuento y el vale por separado. A continuación los vincula seleccionando el descuento en la página de vales en Microsoft Dynamics 365 for Retail.
 
 > [!NOTE]
-> Después de que un vale se vincula a un descuento, varios campos en la página de descuentos en Microsoft Dynamics 365 for Retail se vuelven de sólo lectura, ya que son administrados mediante la configuración del vale. Estos campos incluyen los campos para estado y los intervalos de fechas estándar.
+> Después de vincular un vale a un descuento, varios campos de la página de descuentos de Microsoft Dynamics 365 for Retail se vuelven de solo lectura porque son administrados mediante la configuración del vale. Estos campos incluyen los campos para estado y los intervalos de fechas estándar.
 
 ### <a name="limited-use-coupons"></a>Vales de uso limitado
 
@@ -81,4 +80,3 @@ La funcionalidad de vales incluye varias características distintivas de Dynamic
 - **La central se actualiza parcialmente, pero no se actualizan el servidor de venta al por menor ni los PDV.** En una actualización de la central, se actualizan el vale y las páginas de descuento, y el motor de precios minoristas también se actualiza. Si solo uno de estos dos componentes se actualiza, algunas páginas de Retail no coincidirán los datos de cálculo de precio. Por lo tanto, cálculos de descuento o errores inesperados pueden producirse durante cálculos de descuento.
 - **La central está actualizada, pero ni el servidor de Retail ni los PDV están actualizados (N-1).** Dado que no todas las tiendas se pueden actualizar al mismo tiempo, recomendamos que actualice la central antes de actualizar las tiendas. En la situación N-1, la nueva funcionalidad relacionada con vales no estará disponible en las tiendas que todavía no se hayan actualizado. Por ejemplo, la funcionalidad de vales introduce líneas de “exclusión”. Si usa líneas de exclusión en un descuento, estas no se aplicarán en una tienda que esté ejecutando una versión anterior.
 - **La central no está actualizada, pero el servidor de Retail y los PDV sí (N+1).** Dado que el motor de precios actualizado en el servidor de Retail puede gestionar códigos de descuento antiguos durante los cálculos de precios, la actualización no debe tener ningún impacto funcional en este escenario.
-

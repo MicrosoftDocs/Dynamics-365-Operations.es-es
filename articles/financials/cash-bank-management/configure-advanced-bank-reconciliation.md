@@ -1,13 +1,13 @@
 ---
-title: "Configuración del proceso de conciliación bancaria avanzada"
-description: "La conciliación bancaria avanzada le permite importar extractos bancarios electrónicos y conciliarlos automáticamente con transacciones bancarias en Microsoft Dynamics 365 for Finance and Operations.  En este artículo se explicará la configuración de los procesos de conciliación."
+title: Configuración del proceso de conciliación bancaria avanzada
+description: Conciliación bancaria avanzada le permite importar extractos bancarios electrónicos y conciliarlos automáticamente con transacciones bancarias en Microsoft Dynamics 365 for Finance and Operations.  En este artículo se explicará la configuración de los procesos de conciliación.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankReconciliationMatchRule, BankReconciliationMatchRuleSet
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c95589b013b569f15fce80612a11eca621944f6b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: f77a9c927232c95558ba78037f6a6e9f77e202c2
-ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357344"
 ---
-
 # <a name="advanced-bank-reconciliation-setup-process"></a>Configuración del proceso de conciliación bancaria avanzada
 
 [!include [banner](../includes/banner.md)]
 
-La conciliación bancaria avanzada le permite importar extractos bancarios electrónicos y conciliarlos automáticamente con transacciones bancarias en Microsoft Dynamics 365 for Finance and Operations.  En este artículo se explicará la configuración de los procesos de conciliación.  
+Conciliación bancaria avanzada le permite importar extractos bancarios electrónicos y conciliarlos automáticamente con transacciones bancarias en Microsoft Dynamics 365 for Finance and Operations.  En este artículo se explicará la configuración de los procesos de conciliación.  
 
 Varias partes deben estar configuradas antes de utilizar la funcionalidad avanzada de conciliación bancaria. Para obtener más información sobre la configuración de la importación del extracto bancario, consulte [Configurar el proceso de importación de extractos bancarios](set-up-advanced-bank-reconciliation-import-process.md).  Los requisitos para la configuración del proceso de conciliación se detallan a continuación.
 
@@ -59,7 +58,6 @@ La funcionalidad **Usar extractos bancarios como confirmación de pagos electró
 El campo **Nombre de cuenta bancaria en extractos** es el nombre utilizado para la cuenta bancaria en sus extractos bancarios electrónicos.  Dicho nombre se usa al determinar qué transacciones deben importarse a una cuenta bancaria desde un extracto que puede contener información de varias cuentas bancarias. 
 
 La opción **Conciliar tras la importación** validará automáticamente el extracto bancario, creará una nueva conciliación bancaria y una hoja de cálculo nueva, y ejecutará el conjunto de reglas coincidentes predeterminado.  Esta funcionalidad automatiza el proceso hasta el punto en que deben conciliarse manualmente transacciones.  Al importar se obtendrá de forma predeterminada la configuración de la cuenta bancaria.
-
 
 
 

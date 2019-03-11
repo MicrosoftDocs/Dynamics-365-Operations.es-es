@@ -1,13 +1,13 @@
 ---
 title: Importar tipos de cambio de divisa
-description: "Si una entidad jurídica ha recibido facturas en divisas extranjeras, es necesario convertir la divisa extranjera en la divisa local. Esto significa que se requieren tipos de cambio actualizados para las distintas divisas. Este tema proporciona una visión general de los ajustes y el proceso necesarios para importar las tasas de referencia de divisa extranjera publicadas en Internet por los proveedores de tipos de cambio, como el Banco Central Europeo y el Central Bank of Russia."
+description: Si una entidad jurídica ha recibido facturas en divisas extranjeras, es necesario convertir la divisa extranjera en la divisa local. Esto significa que se requieren tipos de cambio actualizados para las distintas divisas. Este tema proporciona una visión general de los ajustes y el proceso necesarios para importar las tasas de referencia de divisa extranjera publicadas en Internet por los proveedores de tipos de cambio, como el Banco Central Europeo y el Central Bank of Russia.
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ExchangeRateProviderConfiguration
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: edd72b48a640126577dd7a2add3a4891ae505fdf
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: df07066371cb7d9c69976c9714b6d2fe456a0308
-ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333401"
 ---
-
 # <a name="import-currency-exchange-rates"></a>Importar tipos de cambio de divisa
 
 [!include [banner](../includes/banner.md)]
@@ -56,7 +55,6 @@ Puede importar tipos de cambio desde el origen de los proveedores del tipo de ca
 | **Crear pares de divisas necesarias**    | Esta casilla administra la creación automática de los pares de divisas, en caso de que no existan los pares de divisas que se han importado. Es posible que esta opción no esté disponible para algunos proveedores.                                                                                                                                                                                               |
 | **Invalidar tipos de cambio existentes**   | Esta casilla administra la actualización del tipo de cambio existente para un par de divisas cuando ya existe el tipo de cambio para una fecha específica. Si no activa esta casilla, el tipo de cambio para las fechas específicas no se importa si ya existe otro tipo de cambio.                                                                                       |
 | **Evitar la importación en una festividad nacional** | Esta casilla administra la importación del tipo de cambio para una fecha que es un día festivo. Por ejemplo, si selecciona esta casilla y usa el Banco Central Europeo como el proveedor del tipo de cambio, el sistema no actualizará el tipo de cambio en un día festivo que esté relacionado con la entidad jurídica actual. Es posible que esta opción no esté disponible para algunos proveedores. |
-
 
 
 

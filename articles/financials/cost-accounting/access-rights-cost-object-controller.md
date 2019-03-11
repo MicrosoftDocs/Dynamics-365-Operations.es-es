@@ -1,32 +1,31 @@
 ---
 title: Definir los derechos de acceso de un controlador de objeto de coste
-description: "Este tema proporciona información sobre los derechos de acceso para los controladores de objeto de coste."
+description: Este tema proporciona información sobre los derechos de acceso para los controladores de objeto de coste.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostControlWorkspace, CAMParameters
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 290b16eeb99ac7ddb9b552b289215c99a0451660
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1cac3c3b724dda4ab39a65aa5221eda427767eb8
-ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355550"
 ---
-
 # <a name="access-rights-of-a-cost-object-controller"></a>Derechos de acceso de un controlador de objeto de coste
 
 [!include [banner](../includes/banner.md)]
@@ -93,10 +92,10 @@ Los valores para la jerarquía de listas de acceso se utilizan para controlar lo
 
     - Saldos en tarjetas
 
-- Microsoft Power BI:
+- Microsofot Power BI:
 
     - Datos que se muestran en las visualizaciones de Power BI
-    - Visualizaciones de datos de Power BI que se insertan en Microsoft Dynamics 365 for Finance and Operations (cliente)
+    - Visualización de los datos de Power BI que se han incrustado en el cliente de Microsoft Dynamics 365 for Finance and Operations
 
 > [!IMPORTANT]
 > - Antes de que la jerarquía de listas de acceso pueda afectar a los datos de Power BI, se deben emparejar la jerarquía de listas de acceso y la seguridad en Power BI. Para obtener más información, consulte [Configurar la seguridad del paquete del contenido de contabilidad de costes](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
@@ -107,4 +106,3 @@ Recursos adicionales
 - [Espacio de trabajo de control de costes](cost-control-workspace.md)
 - [Jerarquía de dimensiones](dimension-hierarchy.md)
 - [Configurar la seguridad del paquete contenido de contabilidad de costes](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
-

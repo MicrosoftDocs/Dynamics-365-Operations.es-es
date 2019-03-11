@@ -1,13 +1,13 @@
---- 
-title: "MX-00010 Consultar e imprimir una factura electrónica"
-description: "Use el formulario CFDI: facturas electrónicas para ver, exportar, enviar por correo electrónico o imprimir una factura electrónica de CFDI ya generada según la solicitud de un cliente."
+---
+title: MX-00010 Consultar e imprimir una factura electrónica
+description: 'Use el formulario CFDI: facturas electrónicas para ver, exportar, enviar por correo electrónico o imprimir una factura electrónica de CFDI ya generada según la solicitud de un cliente.'
 author: sndray
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EInvoiceCFDIJournal_AR, EInvoiceXMLViewer_MX, DefaultDashboard
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 925bfaf3bcc28155c9b542abb28fb9a9211f0201
-ms.contentlocale: es-es
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370457"
 ---
 # <a name="mx-00010-inquire-and-print-an-electronic-invoice"></a>MX-00010 Consultar e imprimir una factura electrónica
 
@@ -42,5 +42,4 @@ Use el formulario CFDI: facturas electrónicas para ver, exportar, enviar por co
 9. Haga clic en Enviar correo electrónico.
 10. Cierre la página.
 11. Actualice la página.
-
 

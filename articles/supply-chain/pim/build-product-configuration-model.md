@@ -1,13 +1,13 @@
 ---
-title: "Crear un modelo de configuración de productos"
-description: "La necesidad de configurar los productos para cumplir los requisitos especiales se está convirtiendo en la regla en lugar de la excepción, en las relaciones interempresariales y de banca B2C."
+title: Crear un modelo de configuración de productos
+description: La necesidad de configurar los productos para cumplir los requisitos especiales se está convirtiendo en la regla en lugar de la excepción, en las relaciones interempresariales y de banca B2C.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCProductConfigurationModelDetails
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 60a901ce9e87571b2d199a49af2cddbd72fc5808
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 2bfaf16cde329909c167d1ad402e08619bdcd5a2
-ms.contentlocale: es-es
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327467"
 ---
-
 # <a name="build-a-product-configuration-model"></a>Crear un modelo de configuración de productos
 
 [!include [banner](../includes/banner.md)]
@@ -158,7 +157,6 @@ El propósito de la configuración es crear una variante distinta de producto qu
 ### <a name="multiple-sites-and-intercompany"></a>Varios sitios y empresas vinculadas
 
 Si la configuración se realiza en un sitio, o incluso una empresa, que es diferente del sitio o la empresa donde tendrá lugar la producción, la L. MAT. y la ruta se crearán para establecer en el sitio del proveedor en la empresa proveedora. La variante del producto se libera en todas las empresas que participan en la cadena de suministro.
-
 
 
 

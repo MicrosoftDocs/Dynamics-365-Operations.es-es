@@ -1,32 +1,31 @@
 ---
-title: "Cree reglas para el asesor de optimización"
-description: "Este tema describe cómo agregar nuevas reglas al asesor de optimización."
+title: Cree reglas para el asesor de optimización
+description: Este tema describe cómo agregar nuevas reglas al asesor de optimización.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 02/04/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations, Core
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: roxanad
 ms.search.validFrom: 2017-12-01
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: ca73120a5a0da4dc348c2d16dca8e7654876af5d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: a18fac31b5acb7d2a1ec40203122d4eb9d94a439
-ms.contentlocale: es-es
-ms.lasthandoff: 05/23/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354170"
 ---
-
 # <a name="create-rules-for-optimization-advisor"></a>Cree reglas para el asesor de optimización
 
 [!include [banner](../includes/banner.md)]
@@ -103,11 +102,11 @@ Dos métodos más que deben implementarse son **opportunityTitle** y **opportuni
 
 El título devuelto por **opportunityTitle** aparece en la columna **Oportunidad de optimización** en el espacio de trabajo **Asesor de optimización**. También aparece como el encabezado del panel lateral que muestra más información acerca de la oportunidad. Por convención, este método se adorna con el atributo **DiagnosticRuleSubscription**, que toma los siguientes argumentos: 
 
-* **Área de diagnóstico:** una enumeración del tipo **DiagnosticArea** que describe a qué área de la aplicación pertenece la regla, como **DiagnosticArea::SCM**. 
+* **Área de diagnóstico**: una enumeración del tipo **DiagnosticArea** que describe a qué área de la aplicación pertenece la regla, como **DiagnosticArea::SCM**. 
 
 * **Nombre de regla:** una cadena con el nombre de la regla. Esto aparecerá en la columna **Nombre de regla** en el formulario **Regla de validación de diagnóstico** (**DiagnosticsValidationRuleMaintain**). 
 
-* **Frecuencia de ejecución:** una enumeración del tipo **DiagnosticRunFrequency** que describe con qué frecuencia debe ejecutarse la regla, como **DiagnosticRunFrequency::Daily**. 
+* **Frecuencia de ejecución**: una enumeración del tipo **DiagnosticRunFrequency** que describe con qué frecuencia debe ejecutarse la regla, como **DiagnosticRunFrequency::Daily**. 
 
 * **Descripción de la regla:** unna cadena con una descripción más detallada de la regla. Esto aparecerá en la columna **Descripción de la regla** en el formulario **Regla de validación de diagnóstico** (**DiagnosticsValidationRuleMaintain**). 
 
@@ -196,7 +195,7 @@ class ScanNewRulesJob
 
 La regla se mostrará en el formulario **Regla de validación de diagnósticos**, disponible en **Administración del sistema** > **Tareas periódicas** > **Mantener regla de validación de diagnósticos**. Para que sea evaluada, vaya a **Administración del sistema** > **Tareas periódicas** > **Programación de la regla de validación de diagnósticos**, seleccione la frecuencia de la regla, como **Diaria**. Haga clic en **Aceptar**. Vaya a **Administración del sistema** > **Asesor de optimización** para ver la nueva oportunidad. 
 
-El siguiente ejemplo es un fragmento de código con el esqueleto de una regla, incluidos todos los métodos y atributos necesarios. Le ayuda a iniciarse con la escritura de nuevas reglas. Las etiquetas y los elementos de menú de acción que se usan en el ejemplo se utilizan solo para efectos de demostración.
+El siguiente ejemplo es un fragmento de código con el esqueleto de una regla, incluidos todos los métodos y atributos necesarios. Le ayuda a iniciarse con la escritura de nuevas reglas.Las etiquetas y los elementos de menú de acción que se usan en el ejemplo se utilizan solo para efectos de demostración.
 
 ```
 [DiagnosticsRuleAttribute]
@@ -255,5 +254,4 @@ public final class SkeletonSelfHealingRule extends SelfHealingRule implements ID
 }
 ```
 
-Para obtener más información, vea el breve vídeo de YouTube: [Asistente de optimización en Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
-
+Para obtener más información, observe este breve vídeo en YouTube : [Asesor de optimización en Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=MRsAzgFCUSQ)

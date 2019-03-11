@@ -1,32 +1,31 @@
 ---
-title: "Jerarquía de dimensiones"
-description: "Este tema proporciona información sobre las jerarquías de dimensiones. Use una jerarquía de dimensiones para definir la estructura del informe, las directivas de coste y configurar la seguridad en la contabilidad de costes."
+title: Jerarquía de dimensiones
+description: Este tema proporciona información sobre las jerarquías de dimensiones. Use una jerarquía de dimensiones para definir la estructura del informe, las directivas de coste y configurar la seguridad en la contabilidad de costes.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMDimensionHierarchy,
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 55d567eb3b4ad6746f39118b575457bb00fe0a47
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 40a4a1d7549876b72186f30a9c0089f0d27cf3b6
-ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320222"
 ---
-
 # <a name="dimension-hierarchy"></a>Jerarquía de dimensiones
 
 [!include [banner](../includes/banner.md)]
@@ -329,9 +328,8 @@ Los valores para la jerarquía de listas de acceso se utilizan para controlar lo
 - Power BI:
 
     - Datos que se muestran en las visualizaciones de Power BI
-    - Visualizaciones de datos de Power BI que se insertan en Microsoft Dynamics 365 for Finance and Operations (cliente)
+    - Visualización de los datos de Power BI que se insertarán en el cliente de Microsoft Dynamics 365 for Finance and Operations
 
 > [!NOTE] 
 > - Antes de que la jerarquía de listas de acceso pueda afectar a los datos de Power BI, se deben emparejar la jerarquía de listas de acceso y la seguridad en Power BI. Para obtener más información, consulte [Configurar la seguridad del paquete del contenido de contabilidad de costes](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - La jerarquía de la lista de acceso no ayuda a proteger la exportación de datos a Excel. Por lo tanto, esa herramienta de informes solo se debe usar por contables y administradores de costes que deban tener acceso completo para ver los datos.
-

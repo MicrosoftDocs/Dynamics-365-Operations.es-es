@@ -1,13 +1,13 @@
---- 
-title: "Crear una fórmula copiando una fórmula existente"
-description: "Este procedimiento muestra cómo crear rápidamente una fórmula nueva copiando de una fórmula existente."
+---
+title: Crear una fórmula copiando una fórmula existente
+description: Este procedimiento muestra cómo crear rápidamente una fórmula nueva copiando de una fórmula existente.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMTable, BOMRouteCopyDialog, HcmWorkerLookUp
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: c831f3ac78e5ee7b348c72b9e7ebc699a62ec013
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d34ca5befd04b0f82bf9564fd3976f4c2daab0ce
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328939"
 ---
 # <a name="create-a-formula-by-copying-from-an-existing-formula"></a>Crear una fórmula copiando una fórmula existente
 
@@ -56,5 +56,4 @@ Este procedimiento muestra cómo crear rápidamente una fórmula nueva copiando 
 2. En el campo Aprobado por, especifique o seleccione un valor.
 3. Haga clic en Aceptar
 4. Cierre la página.
-
 

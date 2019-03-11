@@ -1,13 +1,13 @@
---- 
+---
 title: Cancelar un activo fijo mediante una factura de servicios
-description: "Este procedimiento muestra cómo adquirir un activo fijo mediante la propuesta de adquisición del diario de activos fijos."
+description: Este procedimiento muestra cómo adquirir un activo fijo mediante la propuesta de adquisición del diario de activos fijos.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetTable, AssetBook, LedgerJournalTable, LedgerJournalTransAsset, SysQueryForm
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 1c58cef0609c8f931eace13ee0dec89f3eee7fed
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 92cd1ea0a6ab6039da7074e032e0f78dd7443cba
-ms.openlocfilehash: 1b1c9719f0697e9d5a51b0e769b3f850dc1690e5
-ms.contentlocale: es-es
-ms.lasthandoff: 09/24/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310746"
 ---
 # <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a>Cancelar un activo fijo mediante una factura de servicios
 
@@ -41,5 +41,4 @@ Este procedimiento muestra la disposición de un activo fijo mediante la factura
 10. Haga clic en Detalles de línea.  
 11. Seleccione el número del activo fijo que se va a vender.
 12. Haga clic en Registrar.
-
 

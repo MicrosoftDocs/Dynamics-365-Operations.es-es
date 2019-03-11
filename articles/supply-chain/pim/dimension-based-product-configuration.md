@@ -1,13 +1,13 @@
 ---
-title: "Configuración de producto basada en dimensiones"
-description: "La configuración de producto basada en dimensiones representa una solución sencilla para crear muchas variantes de producto a partir de un producto maestro único y su lista de materiales."
+title: Configuración de producto basada en dimensiones
+description: La configuración de producto basada en dimensiones representa una solución sencilla para crear muchas variantes de producto a partir de un producto maestro único y su lista de materiales.
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMConfigRule, BOMTable, ConfigChooseFromRoute, ConfigGroup, ConfigHierarchy, EcoResDimensionBasedConfiguration
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: eb2690ec5296f65430268a211108551348a4a060
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 297e60e63b88b610d0886ad16667c4f99cc74ccb
-ms.contentlocale: es-es
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317025"
 ---
-
 # <a name="dimension-based-product-configuration"></a>Configuración de producto basada en dimensiones
 
 [!include [banner](../includes/banner.md)]
@@ -88,5 +87,4 @@ Las siguientes ocho guías de taras se muestran en el orden en que debe completa
 6.  [Definir rutas de configuración (Guía de tareas)](tasks/define-configuration-route.md)
 7.  [Crear reglas de configuración (Guía de tareas)](tasks/create-configuration-rules.md)
 8.  [Crear configuraciones basadas en dimensiones (Guía de tareas)](tasks/create-dimension-based-configurations.md)
-
 

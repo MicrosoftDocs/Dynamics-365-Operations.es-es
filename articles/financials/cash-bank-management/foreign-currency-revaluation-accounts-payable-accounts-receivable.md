@@ -1,13 +1,13 @@
 ---
-title: "Revalorización de divisa extranjera para clientes y proveedores"
-description: "Las fluctuaciones en los tipos de cambio hacen que el valor teórico (valor en los libros) de las transacciones abiertas en divisas extranjeras varíen con el tiempo. Este artículo proporciona información acerca del proceso de revalorización de divisa extranjera que ejecuta para actualizar el valor de las transacciones de proveedores y clientes abiertas."
+title: Revalorización de divisa extranjera para clientes y proveedores
+description: Las fluctuaciones en los tipos de cambio hacen que el valor teórico (valor en los libros) de las transacciones abiertas en divisas extranjeras varíen con el tiempo. Este artículo proporciona información acerca del proceso de revalorización de divisa extranjera que ejecuta para actualizar el valor de las transacciones de proveedores y clientes abiertas.
 author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustExchRateAdjustment, VendExchRateAdjustment
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: da1aee4c678cb4786d52abc81b787edceaa5aa38
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 259b487b0f11b19af9609d63f12114dcaa61be52
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341336"
 ---
-
 # <a name="foreign-currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>Revalorización de divisa extranjera para clientes y proveedores
 
 [!include [banner](../includes/banner.md)]
@@ -63,7 +62,6 @@ Se mantiene un registro cada vez que se ejecuta una revalorización de divisa ex
     -   **Ninguno**: no se contabilizan dimensiones financieras. Si tiene una dimensión financiera necesaria en su estructura contable, el proceso de revalorización se ejecuta y crea los asientos contables sin ninguna dimensión financiera. Recibirá un mensaje de advertencia primero para que pueda cancelar el proceso de revalorización.
     -   **Tabla**: las dimensiones financieras de la cuenta de cliente o de proveedor se contabilizan en las transacciones de revalorización de divisa extranjera.
     -   **Registro**: las dimensiones financieras de la transacción que se está revalorizando se registran en las transacciones de revalorización de divisa extranjera. De forma predeterminada, las dimensiones financieras de la cuenta contable de cliente o proveedor de la transacción original se usarán para la cuenta principal de cliente o proveedor de la transacción de revalorización, y las dimensiones financieras de la cuenta contable de gastos/activos/ingresos de la transacción original se usarán para la cuenta principal de beneficio no realizado y pérdidas de la transacción de revalorización.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Novedades o cambios en la versión de la aplicación Dynamics AX 7.0.1 (mayo de 2016)"
-description: "Este artículo describe las características que son nuevas o que se han cambiado en la versión de la aplicación Microsoft Dynamics AX 7.0.1. Esta versión se publicó en mayo de 2016 y tiene un número de compilación de 7.0.1265.23014."
+title: Novedades o cambios en la aplicación Dynamics AX versión 7.0.1 (mayo de 2016)
+description: Este artículo describe las características que son nuevas o que han cambiado en la aplicación Microsoft Dynamics AX versión 7.0.1. Esta versión se publicó en mayo de 2016 y tiene un número de compilación de 7.0.1265.23014.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: c830952b5d9e4887a816b5ab66d0944bddf5b505
-ms.contentlocale: es-es
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314518"
 ---
-
-# <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>Novedades o cambios en la versión de la aplicación Dynamics AX 7.0.1 (mayo de 2016)
+# <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>Novedades o cambios en la aplicación Dynamics AX versión 7.0.1 (mayo de 2016)
 
 [!include [banner](../includes/banner.md)]
 
-Este artículo describe las características que son nuevas o que se han cambiado en la versión de la aplicación Microsoft Dynamics AX 7.0.1. Esta versión se publicó en mayo de 2016 y tiene un número de compilación de 7.0.1265.23014.
+Este artículo describe las características que son nuevas o que han cambiado en la aplicación Microsoft Dynamics AX versión 7.0.1. Esta versión se publicó en mayo de 2016 y tiene un número de compilación de 7.0.1265.23014.
 
 ## <a name="electronic-reporting-er"></a>Informes electrónicos (ER)
 
@@ -44,13 +43,13 @@ Este artículo describe las características que son nuevas o que se han cambiad
 
 | ¿Qué se puede hacer? | ¿Por qué esto es importante? |
 |------------------|------------------------|
-| Utilice el explorador de Google Chrome. | Los minoristas pueden iniciar ahora PDV en la nube desde el explorador de Chrome y pueden probar toda la funcionalidad que está disponible en la versión de Internet Explorer y Microsoft Edge de PDV en la nube. |
+| Utilice el explorador de Google Chrome. | Los minoristas pueden iniciar ahora Cloud POS desde el explorador de Chrome y pueden probar toda la funcionalidad que está disponible en la versión de Microsoft Edge e Internet Explorer de Cloud POS. |
 
 ## <a name="financial-reporting"></a>Informes financieros
 
 | ¿Qué se puede hacer? | ¿Por qué esto es importante? |
 |------------------|------------------------|
-| Vuelva a generar el data mart de informes financieros. | Al mover las bases de datos de Dynamics AX entre entornos o realizar otros cambios invasivos en el entorno de Dynamics AX, es posible que se tenga que volver a generar la base de datos de informes financieros. Ahora se proporciona un script de Windows PowerShell para volver a generar la base de datos. |
+| Vuelva a generar el data mart de informes financieros. | Al mover las bases de datos de Dynamics AX entre entornos o realizar otros cambios invasivos en el entorno, es posible que se tenga que volver a generar la base de datos de informes financieros. Ahora se proporciona un script de Windows PowerShell para volver a generar la base de datos. |
 | Ya no se pueden seleccionar opciones del diseñador de informes que no son válidas. | Varias opciones del diseñador de informes que se utilizaban en las versiones del mercado de Management Reporter no se aplican a esta versión de Dynamics AX. Estas opciones estaban relacionados con el diseño de informes financieros, salida y vinculación. Estas opciones se han quitado del diseñador de informes financieros para evitar errores de usuario. |
 
 ## <a name="financial-management"></a>Administración financiera
@@ -107,4 +106,3 @@ Este artículo describe las características que son nuevas o que se han cambiad
 [Novedades y cambios](whats-new-changed.md)
 
 [Guías de tareas nuevas o actualizadas (mayo de 2016)](new-updated-task-guides-available-may-2016.md)
-

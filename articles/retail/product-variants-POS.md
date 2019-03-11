@@ -1,32 +1,31 @@
 ---
-title: "Búsqueda de inventario en el punto de venta (PDV)"
-description: "En este tema se describen las opciones disponibles para ver la información de inventario en el punto de venta (PDV)."
+title: Búsqueda de inventario en el punto de venta (PDV)
+description: En este tema se describen las opciones disponibles para ver la información de inventario en el punto de venta (PDV).
 author: ashishmsft
 manager: AnnBe
 ms.date: 03/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: cd2dc460c9e862503ebbf1942dcf998d67829d86
-ms.contentlocale: es-es
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314426"
 ---
-
 # <a name="inventory-lookup-in-the-point-of-sale-pos"></a>Búsqueda de inventario en el punto de venta (PDV)
 
 [!include [banner](includes/banner.md)]
@@ -116,4 +115,3 @@ La siguiente tabla ofrece más información acerca de las acciones adicionales d
 | Disponibilidad         | Muestre la información de NNC para la combinación de variantes seleccionada para la ubicación seleccionada. |
 | Muestre tzodas las ubicaciones   | Cambie a la vista de búsqueda de inventario estándar y resalte la información de disponibilidad del inventario para la variante de artículo en todas las tiendas del grupo de localizadores de tiendas, y también en centros de distribución de tipo **Estándar/Predeterminado**. |
 | Ver detalles del producto | Redirija al usuario a la página **Detalles de producto** del producto maestro asociado. |
-

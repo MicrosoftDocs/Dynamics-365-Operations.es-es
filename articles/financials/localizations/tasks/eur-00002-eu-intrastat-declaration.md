@@ -1,13 +1,13 @@
---- 
-title: "EUR-00002 Generar una declaración de intrastat de la UE"
-description: "Este procedimiento le guía por los pasos necesarios para exportar la declaración de Intrastat en el formato de archivo electrónico y obtener una vista previa los datos de la declaración en formato Excel."
+---
+title: EUR-00002 Generar una declaración de intrastat de la UE
+description: Este procedimiento le guía por los pasos necesarios para exportar la declaración de Intrastat en el formato de archivo electrónico y obtener una vista previa los datos de la declaración en formato Excel.
 author: Anasyash
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionRepositoryTable, ERSolutionImport, IntrastatParameters, IntrastatCommodityLookup, IntrastatCompressParameters, Intrastat, SysQueryForm
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: anasyash
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 1236f27a3a5c208ffec41374a6593d1f0e7c4433
-ms.contentlocale: es-es
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370454"
 ---
 # <a name="eur-00002-generate-an-eu-intrastat-declaration"></a>EUR-00002 Generar una declaración de intrastat de la UE
 
@@ -58,7 +58,7 @@ Este procedimiento se creó con los datos de demostración de la empresa DEMF.
     * Especifique la precisión del redondeo, por ejemplo, especifique “0,01".  
 7. En el campo Número de decimales para el importe, especifique un número.
     * Por ejemplo, escribe "2".  
-8. En el campo Redondeo inferior a 1 kg, seleccione una opción.
+8. En el campo Redondeo inferior a 1 kg, seleccione una opción.
     * Por ejemplo, seleccione "Redondeo a 1 kg".  
 9. En el campo Regla de redondeo, escriba un número
     * Por ejemplo, especifique "1" para redondear el peso al número entero.  
@@ -113,5 +113,4 @@ Este procedimiento se creó con los datos de demostración de la empresa DEMF.
 26. En el campo Dirección, seleccione una opción.
     * Por ejemplo, seleccione "Distribuciones".  
 27. Haga clic en Aceptar
-
 

@@ -1,31 +1,30 @@
 ---
-title: "Contenido de Power BI para Director de práctica"
-description: "En este tema se describe lo que se incluye en el contenido de Power BI para Director de práctica. Explica cómo tener acceso a los informes que se incluyen en el contenido, y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido."
+title: Contenido de director de prácticas de Power BI
+description: En este tema se describe lo que se incluye en el contenido de Power BI para Director de práctica. Explica cómo tener acceso a los informes que se incluyen en el contenido, y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
 author: KimANelson
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjManagementWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 7b2c13573aca2ceb0eca36cf4aeee80d2f56ab8a
-ms.contentlocale: es-es
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367809"
 ---
-
-# <a name="practice-manager-power-bi-content"></a>Contenido de Power BI para Director de práctica
+# <a name="practice-manager-power-bi-content"></a>Contenido de director de prácticas de Power BI
 
 [!include [banner](../includes/banner.md)]
 
@@ -45,7 +44,7 @@ El contenido de Power BI **Director de prácticas** se muestra en el área de tr
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Informes que se incluyen en el contenido de Power BI
 
-La siguiente tabla ofrece información sobre las métricas que se encuentran en cada página de informe en el contenido de Power BI de **Director de práctica** .
+La siguiente tabla ofrece información sobre las métricas que se encuentran en cada página de informe en el contenido de Power BI de **Director de práctica**.
 
 | Página de informes       | Métricas |
 |-------------------|---------|
@@ -119,4 +118,3 @@ En las secciones siguientes se describen las medidas de agregado que se utilizan
 | Medida agregada clave       | Campo               | Descripción |
 |---------------------------------|---------------------|-------------|
 | Coste de la actividad planificada completada | Sum(TotalCostPrice) | Precio de coste total en las estimaciones de todos los tipos de transacciones de proyecto que cuentan con tareas completadas. |
-

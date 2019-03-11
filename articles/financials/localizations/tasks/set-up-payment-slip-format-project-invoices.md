@@ -1,13 +1,13 @@
---- 
-title: "Configuración de un formato de resguardo de pago para facturas de proyecto"
-description: "Las empresas suelen adjuntar resguardos de pago impresos a las facturas para ofrecer asistencia a los clientes y proporcionar una referencia de pago para su registro y liquidación."
+---
+title: Configuración de un formato de resguardo de pago para facturas de proyecto
+description: Las empresas suelen adjuntar resguardos de pago impresos a las facturas para ofrecer asistencia a los clientes y proporcionar una referencia de pago para su registro y liquidación.
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMLegalEntity, CustFormletterParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: b365585e884749bb73f8ba9054e446f210e10f37
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 9700571110a1b488e250dd8ee7b8c5c8f15cbc01
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345614"
 ---
 # <a name="set-up-payment-slip-format-for-project-invoices"></a>Configuración de un formato de resguardo de pago para facturas de proyecto
 
@@ -65,5 +65,4 @@ Esta funcionalidad solo está disponible para entidades jurídicas cuya direcci�
     * Ninguno: no imprimir un resguardo de pago. Elija esta opción si el importe del pago es en una divisa distinta a la corona danesa (DKK).   FIK 751: se imprime un resguardo de pago FIK 751 si desea escribir manualmente el importe y la fecha de vencimiento en el resguardo de pago.   FIK 752: imprima un resguardo del pago FIK 752 si pretende usar un resguardo generado de forma informática con un importe y una fecha de vencimiento de pago ya impresos.  
 16. Haga clic en Guardar.
 17. Cierre la página.
-
 

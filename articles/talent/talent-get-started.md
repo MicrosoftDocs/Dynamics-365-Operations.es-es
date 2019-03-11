@@ -1,13 +1,13 @@
 ---
-title: "Introducción a Talent"
-description: "Este tema proporciona información acerca de cómo adaptar la interfaz de usuario a sus preferencias, así como conectarse a los recursos de Ayuda disponibles en del producto, y en el sitio de docs.microsoft.com."
+title: Introducción a Talent
+description: Este tema proporciona información acerca de cómo adaptar la interfaz de usuario a sus preferencias, así como conectarse a los recursos de Ayuda disponibles en del producto, y en el sitio de docs.microsoft.com.
 author: rschloma
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: ddd7d9315b61cb3aa5e23f86666752ca8280acbf
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306175"
 ---
 # <a name="get-started-with-talent"></a>Introducción a Talent
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 08/09/2018
 En Microsoft Dynamics 365 for Talent es fácil modificar la interfaz de usuario y establecer opciones para hacer el software más intuitivo para sus necesidades. Este tema incluye vínculos a temas que ofrecen información sobre cómo adaptar la interfaz de usuario a sus preferencias. El tema también incluye vínculos a información que puede ayudarle a encontrar información en el sistema con eficiencia y fiabilidad. 
 
 > [!NOTE] 
-> Los siguientes productos están estrechamente relacionados: Dynamics 365 for Finance and Operations, Dynamics 365 for Retail; y Dynamics 365 for Talent. Puede que los tres productos tengan la misma funcionalidad. Como resultado, en los temas relativos principalmente a Retail, el nombre de producto será 365 Dynamics for Retail, en los temas relativos principalmente a Talent, el nombre de producto será Dynamics 365 Talent y en los temas relativos principalmente al producto básico, el nombre del producto será Dynamics 365 for Finance and Operations. Los temas que se redactan para un producto se pueden aplicar a la misma funcionalidad de un producto relacionado.
+> Los tres productos siguientes están estrechamente relacionados: Dynamics 365 for Finance and Operations, Dynamics 365 for Retail y Dynamics 365 for Talent. Puede que los tres productos tengan la misma funcionalidad. Como resultado, en los temas relacionados principalmente con Retail, el nombre del producto será Dynamics 365 for Retail; en los temas relacionados principalmente con Talent, el nombre de producto será Dynamics 365 for Talent y en temas relacionados con el producto principal, el nombre del producto será Dynamics 365 for Finance and Operations. Los temas que se redactan para un producto se pueden aplicar a la misma funcionalidad de un producto relacionado.
 
 ## <a name="personalizing-talent"></a>Personalizar Talent 
 Los temas siguientes muestran cómo configurar muchas características de Dynamics 365 for Talent que facilitan la realización de su trabajo a tiempo. 
@@ -58,12 +58,11 @@ En los temas siguientes se explica cómo utilizar búsquedas, así como las func
 ## <a name="additional-resources"></a>Recursos adicionales
 
 ### <a name="whats-new-and-in-development"></a>Novedades y características en desarrollo
-Consulte [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/#application=c6ae025f-e42a-e711-810d-3863bb363e80) (Guía básica de Microsoft Dynamics 365) para ver qué características nuevas hemos lanzado y cuáles están en desarrollo.
+Consulte la [Guía básica de Microsoft Dynamics 365](https://roadmap.dynamics.com/#application=c6ae025f-e42a-e711-810d-3863bb363e80) para ver qué características nuevas hemos lanzado y cuáles están en desarrollo.
 
 ### <a name="blogs"></a>Blogs
-Puede encontrar opiniones, noticias y otra información sobre Proveedores y otras soluciones en el [Dynamics 365 for Talent](https://community.dynamics.com/enterprise/b/dynamics365fortalent). 
+Puede encontrar opiniones, noticias y otra información sobre proveedores y otras soluciones en el [Dynamics 365 for Talent](https://community.dynamics.com/enterprise/b/dynamics365fortalent). 
 
 ### <a name="videos"></a>Vídeos
 Consulte los vídeos de procedimientos que se encuentran ahora disponibles en el [canal de YouTube de Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
 

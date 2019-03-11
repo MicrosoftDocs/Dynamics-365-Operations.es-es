@@ -1,13 +1,13 @@
 ---
-title: "Métodos de pago en centros de llamadas"
-description: "En este tema se describen los distintos métodos de pago que puede utilizar en un centro de llamadas de Microsoft Dynamics 365 for Retail."
+title: Métodos de pago en centros de llamadas
+description: En este tema se describen los distintos métodos de pago que puede utilizar en un centro de llamadas de Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 03/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: MCRSalesTableOrderHistory, MCRCCAuthManagement
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 825ad4ba3e72e5b34c2ff29f36f88a518810ce49
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 0b86388efab113af605d62c6ad76c8169d9c4643
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355389"
 ---
-
 # <a name="payment-methods-in-call-centers"></a>Métodos de pago en centros de llamadas
 
 [!include [banner](includes/banner.md)]
 
-En Microsoft Dynamics 365 for Retail, la configuración del canal de centro de llamadas incluye una configuración que se **Habilitar finalización de pedidos**. Esta configuración ayuda a garantizar que todos los pedidos que crean los usuarios del canal se liberan para su procesamiento solo si disponen de un pago por adelantado o un pago preautorizado que se encuentra dentro de las tolerancias aprobadas. Si está activada la configuración **Habilitar finalización de pedidos**, los usuarios de centro de llamadas pueden introducir pagos de pedidos de ventas para clientes mediante el uso de las funciones de procesamiento de pagos del Centro de llamadas. Si se desactiva la configuración, los usuarios de centro de llamadas no pueden utilizar las funciones de procesamiento de pagos del Centro de llamadas, pero aún pueden aplicar pagos por adelantado para pedidos de ventas mediante el uso de la función estándar Proveedor.
+En Microsoft Dynamics 365 for Retail, la configuración del canal de centro de llamadas incluye una configuración que se denomina **Habilitar finalización de pedidos**. Esta configuración ayuda a garantizar que todos los pedidos que crean los usuarios del canal se liberan para su procesamiento solo si disponen de un pago por adelantado o un pago preautorizado que se encuentra dentro de las tolerancias aprobadas. Si está activada la configuración **Habilitar finalización de pedidos**, los usuarios de centro de llamadas pueden introducir pagos de pedidos de ventas para clientes mediante el uso de las funciones de procesamiento de pagos del Centro de llamadas. Si se desactiva la configuración, los usuarios de centro de llamadas no pueden utilizar las funciones de procesamiento de pagos del Centro de llamadas, pero aún pueden aplicar pagos por adelantado para pedidos de ventas mediante el uso de la función estándar Proveedor.
 
 Como parte de la configuración del canal, una empresa puede definir los métodos de pago permitidos para un canal de centro de llamadas. El canal de centro de llamadas usa los mismos métodos de pago definidos para los canales de de ventas minoristas.
 
@@ -54,4 +53,3 @@ A medida que se definen los métodos de pago, deben vincularse a un libro mayor 
 Para escenarios de procesamiento de devolución, el Centro de llamadas también utiliza algunos de los métodos de pago definidos en Proveedores. Para configurar estos métodos de pago, vaya a **Venta minorista** \> **Configuración de canal** \> **Configuración de centro de llamadas** \> **Métodos de devolución de centro de llamadas**. Debe completar esta configuración para procesar cheques de devolución a los clientes. Por ejemplo, si un cliente pagó originalmente un pedido mediante efectivo o un cheque, puede que el usuario desee enviar al cliente un cheque de devolución a través de Clientes. En este caso, los tipos de pago en efectivo y en cheque en el centro de llamadas deben asignarse al método de pago correcto en Clientes para ayudar a garantizar que la devolución se procesa correctamente.
 
 Además, si un usuario procesa un pedido de devolución como usuario del centro de llamadas en Retail, pero no puede vincular la devolución a una venta original, el método de pago **Devolución** debe definirse en los parámetros del Centro de llamadas. Vaya **Ventas minorista** \> **Configuración de canal** \> **Configuración del centro de llamadas** \> **Parámetros del centro de llamadas** y, a continuación, en la pestaña **RMA/Devolución**, en el campo **Método de pago**, asegúrese de que se define un método de pago. El método de pago será el método de pago que se utiliza para las devoluciones. Normalmente, se definirá como un método de comprobación o un método de cuenta del cliente.
-

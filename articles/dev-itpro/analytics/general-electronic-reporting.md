@@ -1,13 +1,13 @@
 ---
-title: "Informes electrónicos (ER)"
-description: "Este tema proporciona una visión general de la herramienta de informes electrónicos (ER). Incluye información sobre conceptos clave, escenarios compatibles con ER y una lista con los formatos diseñados y publicados como parte de la solución."
+title: Informes electrónicos (ER)
+description: Este tema proporciona una visión general de la herramienta de informes electrónicos (ER). Incluye información sobre conceptos clave, escenarios compatibles con ER y una lista con los formatos diseñados y publicados como parte de la solución.
 author: NickSelin
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -18,14 +18,13 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 67dc5b5cdec797f19a742addd05c6002aa31cf15
 ms.openlocfilehash: e619b24fc790399452d6233b2d04987357d87186
-ms.contentlocale: es-es
-ms.lasthandoff: 01/03/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310815"
 ---
-
 # <a name="electronic-reporting-er"></a>Informes electrónicos (ER)
 
 [!include [banner](../includes/banner.md)]
@@ -36,12 +35,12 @@ Los informes electrónicos (ER) son una herramienta que puede utilizar para conf
 
 El motor de ER está dirigido a usuarios empresariales en lugar de desarrolladores. Dado que configura formatos, en lugar de código, los procesos de creación y ajuste de formatos para documentos electrónicos son más rápidos y sencillos.
 
-ER admite actualmente los formatos TEXT, XML, documento de Microsoft Word y hoja de cálculo OPENXML. Sin embargo, una interfaz de extensión proporciona compatibilidad con formatos adicionales.
+ER admite actualmente los formatos de hoja de cálculo de texto, XML, documento Microsoft Word y OPENXML. Sin embargo, una interfaz de extensión proporciona compatibilidad con formatos adicionales.
 
 ## <a name="capabilities"></a>Capacidades
 El motor de ER tiene las siguientes capacidades:
 
-- Representa una sola herramienta compartida para realizar informes electrónicos en diferentes ámbitos y reemplaza a más de 20 motores distintos que hacen algún tipo de informe electrónico para Microsoft Dynamics 365 for Finance and Operations.
+- Representa una sola herramienta compartida para informes electrónicos en diferentes ámbitos y reemplaza más de 20 distintos motores que hacen algún tipo de informe electrónico de Microsoft Dynamics 365 for Finance and Operations.
 - Aísla el formato de informe de la implementación actual de Finance and Operations. En otras palabras, el formato es aplicable para diferentes versiones de Finance and Operations.
 - Admite la creación de un formato personalizado que se basa en un formato original. También incluye capacidades para actualizar automáticamente el formato personalizado cuando se producen cambios en el formato original porque se introducen requisitos de localización y personalización.
 - Se convierte en la herramienta estándar principal para la ayuda de los requisitos de localización en los informes electrónicos, tanto para Microsoft como para los socios de MS.
@@ -170,7 +169,7 @@ Un repositorio de **Recursos de Operations** proporciona acceso a la lista de co
 
 Un repositorio del **proyecto de LCS** proporciona acceso a la lista de configuraciones de un proyecto de LCS específico (biblioteca de los activos del proyecto de LCS) que se seleccionó en la etapa de registro del repositorio. ER le permite cargar las configuraciones compartidas de la instancia de Finance and Operations actual a un repositorio específico del **Proyecto LCS**. También puede importar configuraciones de un repositorio del **Proyecto LCS** en la instancia de Finance and Operations actual.
 
-Un repositorio de **Sistema de archivos** proporciona acceso a la lista de configuraciones que están ubicadas como archivos XML en la carpeta específica del sistema de archivos local del equipo en el que se aloja el servicio AOS. La carpeta necesaria se selecciona en la etapa de registro de repositorio. Puede importar configuraciones de un repositorio del **sistema de archivos** en la instancia de Finance and Operations actual. Tenga en cuenta que este tipo de repositorio es accesible en los siguientes entornos de Dynamics 365 for Finance and Operations:
+Un repositorio de **Sistema de archivos** proporciona acceso a la lista de configuraciones que están ubicadas como archivos XML en la carpeta específica del sistema de archivos local del equipo en el que se aloja el servicio AOS. La carpeta necesaria se selecciona en la etapa de registro de repositorio. Puede importar configuraciones de un repositorio del **sistema de archivos** en la instancia de Finance and Operations actual. Tenga en cuenta que este tipo de repositorio es accesible en los entornos Dynamics 365 for Finance and Operations siguientes:
 - entornos alojados en la nube implementados para fines de desarrollo (que contienen los modelos de prueba de suites)
 - entornos implementados localmente (implementación de datos empresariales locales o en local (LBD))
 
@@ -381,4 +380,3 @@ ER le permite adoptar automáticamente los cambios de la última versión del co
 [Requisitos de localización: crear una configuración de informes electrónicos](electronic-reporting-configuration.md)
 
 [Administrar el ciclo de vida de las configuraciones de la notificación electrónica](general-electronic-reporting-manage-configuration-lifecycle.md)
-

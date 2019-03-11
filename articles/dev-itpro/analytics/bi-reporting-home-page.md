@@ -1,13 +1,13 @@
 ---
-title: "Página de inicio de Business Intelligence (BI) y creación de informes"
-description: "En este tema se tratan los recursos que puede usar para obtener más información sobre Business Intelligence y las herramientas de informes disponibles en Microsoft Dynamics 365 for Finance and Operations."
+title: Página de inicio de Business Intelligence (BI) y creación de informes
+description: En este tema se tratan los recursos que puede usar para obtener más información sobre Business Intelligence y las herramientas de informes disponibles en Microsoft Dynamics 365 for Finance and Operations.
 author: sericks007
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 372113f019cbce790dcd3e356a14a7bb49b8afd7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: bd3704f3b51aad7292571e5c4e6de7b93cf9529f
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302831"
 ---
-
 # <a name="business-intelligence-bi-and-reporting-home-page"></a>Página de inicio de Business Intelligence (BI) y creación de informes
 
 [!include [banner](../includes/banner.md)]
@@ -45,7 +44,7 @@ Los usuarios pueden interactuar con los datos tocando o haciendo clic en los ele
 
 Para obtener más información, consulte los siguientes temas:
 
-- [Power BI insertado en espacios de trabajo](embed-power-bi-workspaces.md)
+- [Power BI incrustado en espacios de trabajo](embed-power-bi-workspaces.md)
 - [Integración de Power BI Embedded](power-bi-embedded-integration.md)
 - [Agregar análisis a espacios de trabajo mediante Power BI Embedded](add-analytics-tab-workspaces.md)
 - [Ayudar a proteger los espacios de trabajo e informes de análisis mediante Power BI Embedded](secure-analytical-workspaces.md)
@@ -91,4 +90,3 @@ En los siguientes informes se proporciona información de referencia sobre los o
 - [Informe de códigos de licencia y claves de configuración](../sysadmin/license-codes-configuration-keys-report.md)
 - [Informe de SQL Server Reporting Services](SSRS-report.md)
 - [Informe de tipos de flujo de trabajo](../../fin-and-ops/organization-administration/workflow-types-report.md)
-

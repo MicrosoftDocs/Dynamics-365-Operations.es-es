@@ -1,13 +1,13 @@
---- 
-title: "Informe electrónico Configurar el formato para contar y sumar (Parte 2: Configuración de cálculos)"
-description: "Los pasos siguientes explican cómo un usuario asignado al administrador del sistema o al rol de desarrollador de informes electrónicos puede configurar un formato de informe electrónico (ER) para que realice el recuento y calcule en función de los datos de la salida de texto ya generada."
+---
+title: 'Informe electrónico Configurar el formato para contar y sumar (Parte 2: Configuración de cálculos)'
+description: Los pasos siguientes explican cómo un usuario asignado al administrador del sistema o al rol de desarrollador de informes electrónicos puede configurar un formato de informe electrónico (ER) para que realice el recuento y calcule en función de los datos de la salida de texto ya generada.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERDataSourceAddDropDialog, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 4ef657b13bc1f7f4a84676821e4175ace32c069a
-ms.contentlocale: es-es
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338921"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-2-configure-computations"></a>Informe electrónico Configurar el formato para contar y sumar (Parte 2: Configuración de cálculos)
 
@@ -31,7 +31,7 @@ Los pasos siguientes explican cómo un usuario asignado al administrador del sis
 
 Para completar estos pasos, primero debe completar los pasos del procedimiento "ER Configurar el formato para contar y sumar (Parte 1: Creación de formato)".
 
-Este procedimiento es para una función que se ha añadido en la versión 1611 de Dynamics 365 for Operations.
+Este procedimiento es para una función que se ha agregado en la versión 1611 de Dynamics 365 for Operations.
 
 
 ## <a name="create-a-format-configuration-to-add-counting-and-summing-details"></a>Creación de una configuración de formato para agregar los detalles de recuento y suma
@@ -139,5 +139,4 @@ Este procedimiento es para una función que se ha añadido en la versión 1611 d
 82. Cierre la página.
 83. Haga clic en Guardar.
 84. Cierre la página.
-
 

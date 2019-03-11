@@ -1,13 +1,13 @@
 ---
-title: "Actualización de la planificación presupuestaria"
-description: "Existen diferencias significativas en el presupuesto planificado con Microsoft Dynamics AX 2012 y con Microsoft Dynamics 365 for Finance and Operations. Algunas funciones no se actualizaron y por tanto requieren una reconfiguración. Este tema explica qué debe volver a configurarse y también describe las nuevas características que deben tenerse en cuenta una vez que la actualización se haya completado."
+title: Actualización de la planificación presupuestaria
+description: Existen diferencias significativas en el plan presupuestario entre Microsoft Dynamics AX 2012 y Microsoft Dynamics 365 for Finance and Operations. Algunas funciones no se actualizaron y por tanto requieren una reconfiguración. Este tema explica qué debe volver a configurarse y también describe las nuevas características que deben tenerse en cuenta una vez que la actualización se haya completado.
 author: ryansandness
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: robinr
 ms.search.scope: Core, Operations
@@ -17,21 +17,20 @@ ms.search.region: Global
 ms.author: ryansand
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 3d57419ca5c59be185c87b869302b41bef05a3c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a39f516bb6d023ea18492ba3dfe721bd1127c60e
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342969"
 ---
-
 # <a name="upgrade-budget-planning"></a>Actualización de la planificación presupuestaria
 
 [!include [banner](../includes/banner.md)]
 
-Existen diferencias significativas en el presupuesto planificado con Microsoft Dynamics AX 2012 y con Microsoft Dynamics 365 for Finance and Operations. Algunas funciones no se actualizaron y por tanto requieren una reconfiguración. Este tema explica qué debe volver a configurarse y también describe las nuevas características que deben tenerse en cuenta una vez que la actualización se haya completado.  
+Existen diferencias significativas en el plan presupuestario entre Microsoft Dynamics AX 2012 y Microsoft Dynamics 365 for Finance and Operations. Algunas funciones no se actualizaron y por tanto requieren una reconfiguración. Este tema explica qué debe volver a configurarse y también describe las nuevas características que deben tenerse en cuenta una vez que la actualización se haya completado.  
 
-El presupuesto planificado en Microsoft Dynamics 365 for Finance and Operations tiene muchas mejoras que no estaban disponibles en Microsoft Dynamics AX 2012. Este tema explica los cambios que los clientes que realizan una actualización deben llevar a cabo. También indica las nuevas características que se deben tener en cuenta durante el proceso de actualización. Debido a la extensión de los cambios, no se podrá abrir ningún plan de presupuesto existente hasta que no se hayan llevado a cabo los cambios descritos en este tema. Sin embargo, en principio los informes deben seguir funcionando y no se requerirá efectuar ningún cambio adicional.
+El plan presupuestario de Microsoft Dynamics 365 for Finance and Operations tiene muchos mejoras que no estaban disponibles en Microsoft Dynamics AX 2012. Este tema explica los cambios que los clientes que realizan una actualización deben llevar a cabo. También indica las nuevas características que se deben tener en cuenta durante el proceso de actualización. Debido a la extensión de los cambios, no se podrá abrir ningún plan de presupuesto existente hasta que no se hayan llevado a cabo los cambios descritos en este tema. Sin embargo, en principio los informes deben seguir funcionando y no se requerirá efectuar ningún cambio adicional.
 
 ## <a name="overview-of-changes"></a>Visión general de los cambios
 Se han introducido muchos cambios importantes en la gestión presupuestaria de Finance and Operations. Estos cambios tienen por objeto facilitar la configuración de la planificación presupuestaria y hacer que sea más reutilizable, a fin de reducir el mantenimiento y la configuración año tras año. Las siguientes áreas de AX 2012 ya no existen en Finance and Operations:
@@ -41,7 +40,7 @@ Se han introducido muchos cambios importantes en la gestión presupuestaria de F
 -   Restricciones de escenario (configuración de la planificación presupuestaria)
 -   Plantillas para reglas y plantillas de la etapa de planificación presupuestaria (proceso de planificación presupuestaria)
 -   Campos de matriz de las plantillas de hoja de cálculo
--   Asistente para plantillas de Microsoft Excel para el plan presupuestario
+-   Asistente para plantilla de plan presupuestario de Microsoft Excel
 
 Algunos conceptos nuevos no se pueden actualizar directamente desde la funcionalidad anterior. Por lo tanto, debe ejecutar operaciones de reconfiguración para estos conceptos nuevos. Las secciones siguientes describen los conceptos que han sustituido a los elementos de la lista anterior.
 
@@ -51,11 +50,11 @@ Las columnas son un nuevo concepto que reemplazan a partes de la plantilla de Ex
 
 ### <a name="layouts"></a>Diseños
 
-Los diseños son un nuevo concepto que reemplaza a la plantilla de Excel. Los diseños contienen las columnas que definen qué datos de valores reales o del presupuesto y qué períodos se deben mostrar. Los diseños también se comparten entre el cliente y el complemento de Excel. Por lo tanto, la experiencia del usuario cuando especifica o ve datos en el cliente de Finance and Operations es mejor que con AX 2012. Para especificar datos en un cliente de Finance and Operations, ya no tiene que limitarse a ver un solo escenario y entrar en él en una vista de la transacción. En su lugar, una vista de comparación le permite ver y especificar fácilmente los importes de varios períodos y cuentas al mismo tiempo. Los diseños también pueden definirse de modo que pueda especificar y ver divisas, comentarios y otros datos opcionales. Los diseños también le permiten definir las dimensiones contables y las descripciones de la dimensión que se deben mostrar. Los diseños también integran restricciones de escenario para definir qué columnas de una plantilla se pueden editar y qué columnas deben estar disponibles en Excel. Tras definir un diseño, se genera una plantilla para él. Esta plantilla, a su vez, crea la plantilla de Excel correspondiente. Puede editar la plantilla de Excel para que integre más fórmulas y formato y, a continuación puede cargarla de nuevo. Los diseños se asignan a continuación a cada regla de la etapa en la página **Proceso de planificación presupuestaria**. Por lo tanto, los diseños substituyen a las plantillas, que se asignaban y usaban de la misma manera.
+Los diseños son un nuevo concepto que reemplaza a la plantilla de Excel. Los diseños contienen las columnas que definen qué datos de valores reales o del presupuesto y qué períodos se deben mostrar. Los diseños también se comparten entre el cliente y el complemento de Excel. Por lo tanto, la experiencia de usuario cuando especifica o ve datos en el cliente de Finance and Operations es mejor que la experiencia de usuario en AX 2012. Para especificar datos en un cliente de Finance and Operations, ya no tiene que limitarse a ver un solo escenario y entrar en él en una vista de la transacción. En su lugar, una vista de comparación le permite ver y especificar fácilmente los importes de varios períodos y cuentas al mismo tiempo. Los diseños también pueden definirse de modo que pueda especificar y ver divisas, comentarios y otros datos opcionales. Los diseños también le permiten definir las dimensiones contables y las descripciones de la dimensión que se deben mostrar. Los diseños también integran restricciones de escenario para definir qué columnas de una plantilla se pueden editar y qué columnas deben estar disponibles en Excel. Tras definir un diseño, se genera una plantilla para él. Esta plantilla, a su vez, crea la plantilla de Excel correspondiente. Puede editar la plantilla de Excel para que integre más fórmulas y formato y, a continuación puede cargarla de nuevo. Los diseños se asignan a continuación a cada regla de la etapa en la página **Proceso de planificación presupuestaria**. Por lo tanto, los diseños substituyen a las plantillas, que se asignaban y usaban de la misma manera.
 
 ### <a name="budget-planning-processes"></a>Procesos de planificación presupuestaria
 
-Los procesos de planificación presupuestaria son básicamente iguales que en AX 2012. El cambio más significativo ha sido la sustitución de plantillas por los diseños. Si algunos procesos se completaron previamente en AX 2012, los procesos se actualizan a un estado de en curso para poder realizar los cambios. Debe asignar los diseños que necesitará para cada regla de la etapa para determinar qué escenarios y qué períodos de tiempo aparecen cuando el plan se abre en el cliente. Los diseños también determinan qué plantilla de Excel se abre fuera de Dynamic 365 for Finance and Operations de modo que pueda ver el presupuesto. **Estructura contable predeterminada** es un nuevo campo obligatorio en el proceso de planificación presupuestaria. Para cada proceso de planificación presupuestaria, asigne la estructura contable principal que se debe usar para la gestión presupuestaria.
+Los procesos de planificación presupuestaria son básicamente los mismos que en AX 2012. El cambio más significativo ha sido la sustitución de plantillas por los diseños. Si algunos procesos se completaron previamente en AX 2012, los procesos se actualizan a un estado de en curso para poder realizar los cambios. Debe asignar los diseños que necesitará para cada regla de la etapa para determinar qué escenarios y qué períodos de tiempo aparecen cuando el plan se abre en el cliente. Los diseños también determinan qué plantilla de Excel se abre fuera de Dynamic 365 for Finance and Operations de modo que pueda ver el presupuesto. **Estructura contable predeterminada** es un nuevo campo obligatorio en el proceso de planificación presupuestaria. Para cada proceso de planificación presupuestaria, asigne la estructura contable principal que se debe usar para la gestión presupuestaria.
 
 ### <a name="attachments"></a>Archivos adjuntos
 
@@ -160,7 +159,6 @@ Se han agregado varias entidades de datos para habilitar una implementación rá
 -   Prioridades del plan presupuestario
 -   Columnas del plan presupuestario
 -   Elementos de diseño de plan presupuestario
-
 
 
 

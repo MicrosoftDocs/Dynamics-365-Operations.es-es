@@ -1,13 +1,13 @@
 ---
-title: "Espacio de trabajo de cierre del período financiero"
-description: "Este artículo proporciona una visión general del espacio de trabajo de cierre del período financiero y la configuración asociada."
+title: Espacio de trabajo de cierre del período financiero
+description: Este artículo proporciona una visión general del espacio de trabajo de cierre del período financiero y la configuración asociada.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/29/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerPeriodCloseProjectWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e9c3c7f00d0a0e4379547edc5199f4a9a6727f3c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: b999fd3c26304b81f24389a83faf73e1658c39b3
-ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326915"
 ---
-
 # <a name="financial-period-close-workspace"></a>Espacio de trabajo de cierre del período financiero
 
 [!include [banner](../includes/banner.md)]
@@ -88,7 +87,7 @@ Use una plantilla de cierre financiero para definir todas las tareas que forman 
 
 Puede asignar una tarea en la plantilla a una o más empresas en las que se aplica esa tarea. Si se asigna otra persona para completar ese esfuerzo de trabajo en cada empresa, es posible que resulte útil crear varias tareas para el mismo esfuerzo del trabajo. Cree una tarea para cada empresa. 
 
-El elemento de menú **Vínculo de tarea** está asociado al esfuerzo de trabajo de la tarea y se puede usar para ir directamente a la página asociada desde el vínculo de la tarea en el espacio de trabajo. Por ejemplo, se puede vincular una tarea de cierre para ejecutar el proceso de revalorización de divisa para los proveedores a la página **Revalorización de divisa extranjera** asociada en Microsoft Dynamics 365 for Finance and Operations. También puede vincular a una dirección URL externa. 
+El elemento de menú **Vínculo de tarea** está asociado al esfuerzo de trabajo de la tarea y se puede usar para ir directamente a la página asociada desde el vínculo de la tarea en el espacio de trabajo. Por ejemplo, se puede vincular una tarea cerrada para ejecutar el proceso de revalorización de divisa para los proveedores a la página **Revalorización de divisa extranjera** asociada en Microsoft Dynamics 365 for Finance and Operations. También puede vincular a una dirección URL externa. 
 
 > [!TIP]
 > Si desea vincular un informe específico del Management Reporter a una tarea de cierre del período financiero, puede usar la dirección URL del informe. Para obtener acceso a la dirección URL del informe, abra el informe en el diseñador de informes y, a continuación, haga clic en **Archivo** &gt; **Ver informe** para abrir el informe en un explorador web. A continuación, puede copiar la dirección URL en la barra de dirección del explorador y pegarla en el campo **Vínculo de tareas** **URL**. 
@@ -106,7 +105,6 @@ Asigne el calendario adecuado para la programación de cierre para indicar los d
 También debe definir las empresas que se asociarán a la programación de cierre. Si las tareas de la plantilla se asignan a varias empresas, las tareas individuales se crearán para cada empresa que esté en la programación de cierre y se asignarán a la tarea de la plantilla. 
 
 Después de finalizar una programación de cierre, seleccione la opción **Cerrada** . El historial de tareas seguirá estando disponible en la página de lista **Todas las tareas de cierre del período financiero**, pero la programación de cierre se eliminará del espacio de trabajo. Una vez que se haya marcado una programación de cierre como **Cerrada**, no podrá agregar tareas, editar tareas ni quitar tareas.
-
 
 
 

@@ -1,13 +1,13 @@
---- 
+---
 title: Asignar usuarios a roles de seguridad
-description: Para obtener acceso a Microsoft Dynamics 365 or Finance and Operations, Enterprise edition, los usuarios se deben asignar a roles de seguridad.
+description: Para obtener acceso a Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, se debe asignar a los usuarios a roles de seguridad.
 author: maertenm
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysSecRolesEditUsers, SysSecAssignmentQueryLookup, SysQueryForm, SysSecRoleExcludeUsers
 audience: Application User
 ms.reviewer: margoc
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 55cb085bb5170aa4894a2240a12f6ca451b922fb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 551048af26f46d334c562d1968963aed262a5e03
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349961"
 ---
 # <a name="assign-users-to-security-roles"></a>Asignar usuarios a roles de seguridad
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Para obtener acceso a Microsoft Dynamics 365 or Finance and Operations, Enterprise edition, los usuarios se deben asignar a roles de seguridad. Este procedimiento explica cómo los administradores del sistema pueden asignar usuarios a roles automáticamente, en función de los datos empresariales. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
+Para obtener acceso a Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, se debe asignar a los usuarios a roles de seguridad. Este procedimiento explica cómo los administradores del sistema pueden asignar usuarios a roles automáticamente, en función de los datos empresariales. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 
 
 ## <a name="automatically-assign-users-to-roles"></a>Asignar usuarios automáticamente a roles
@@ -52,5 +52,4 @@ Para obtener acceso a Microsoft Dynamics 365 or Finance and Operations, Enterpri
     * Seleccione un usuario.  
 6. Haga clic en Excluir de rol.
     * Haga clic en Excluir de rol para excluir los usuarios seleccionados del rol. Para quitar exclusiones, seleccione los usuarios para los que desea quitar las exclusiones y, a continuación, haga clic en Restablecer estado. Al eliminar una exclusión restableciendo el estado del usuario, el rol del usuario se asigna de nuevo automáticamente. Sin embargo, el usuario no se asigna inmediatamente al rol o se excluye del rol al restablecer el estado. En su lugar, el usuario se asigna al rol o se elimina del rol la próxima vez que se ejecutan las reglas para la asignación automática de roles.  
-
 

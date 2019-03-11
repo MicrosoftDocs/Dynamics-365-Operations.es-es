@@ -1,13 +1,13 @@
 ---
-title: "Establecer tipos de interés para un código de interés"
-description: "Los códigos de interés contienen la configuración que determina si se carga el interés y cómo se calcula en las cuentas vencidas."
+title: Establecer tipos de interés para un código de interés
+description: Los códigos de interés contienen la configuración que determina si se carga el interés y cómo se calcula en las cuentas vencidas.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: Interest
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 665c58fd29fb986bf51e10f5814c4793940c0a47
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1c19cb68df5be5245722da43f3ef9c2072873a34
-ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317784"
 ---
-
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Establecer tipos de interés para un código de interés
 
 [!include [banner](../includes/banner.md)]
@@ -129,7 +128,6 @@ Configure la información del intervalo de la siguiente manera:
 Los códigos de interés tienen fecha de vigencia. Si desea modificar el tipo de interés, puede crear una **nueva versión** que estará vigente a partir de una fecha futura.
 
 Para ver diferentes versiones, puede usar la opción de menú **Desde fecha** para seleccionar la fecha final. También puede seleccionar **Mostrar todos los registros** para ver todos los códigos de interés en la página.
-
 
 
 

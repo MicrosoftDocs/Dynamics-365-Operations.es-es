@@ -1,13 +1,13 @@
 ---
-title: "Página principal de Gestión presupuestaria"
-description: "Este tema proporciona una visión general de los componentes de la funcionalidad de gestión presupuestaria, las herramientas de gestión presupuestaria y las funciones de informes en Microsoft Dynamics 365 for Finance and Operations."
+title: Página principal de Gestión presupuestaria
+description: Este tema proporciona una visión general de los componentes de la funcionalidad de gestión presupuestaria, las herramientas de gestión presupuestaria y las funciones de informes en Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/09/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanningWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 84321b78c9869a4920c3488373876bb56bcb3a29
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: efe348d9967ab7594afd22a3ebb4df76dc6607f8
-ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302857"
 ---
-
 # <a name="budgeting-home-page"></a>Página principal de Gestión presupuestaria
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,7 @@ Por último, las organizaciones muy maduras pueden establecer una cultura de org
 -   [Planificación presupuestaria: visión general y configuración](budget-planning-overview-configuration.md)
 -   [Previsión de puestos](position-forecasting.md)
 -   [Documentos de justificación de la planificación presupuestaria](budget-planning-justification-docs.md)
--   [Plantillas de Microsoft Excel para la planificación presupuestaria](budget-planning-excel-templates.md)
+-   [Plantillas de Microsoft Excel para planificación presupuestaria](budget-planning-excel-templates.md)
 
 ## <a name="budgeting-tools-in-finance-and-operations"></a>Herramientas de gestión presupuestaria de Finance and Operations
 [![Herramientas de gestión presupuestaria](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
@@ -66,7 +65,6 @@ Para obtener información sobre cómo trasladar los datos de planificación de o
 En Finance and Operations, los usuarios pueden crear planes presupuestarios directamente en el cliente de Finance and Operations (mediante una página de documento de plan presupuestario configurable) o en Excel. Excel ofrece varias capacidades adicionales. Por ejemplo, puede usar los datos externos como origen para un plan presupuestario, realizar cálculos personalizados, y usar gráficos y tablas dinámicas de Microsoft. Se pueden configurar la mayoría de las variables en el proceso de planificación presupuestaria. 
 
 Por ejemplo, puede definir quién realiza los presupuestos, qué se presupuesta y cómo es el proceso. Aunque puede usar Excel para la planificación presupuestaria, Finance and Operations se usa como fuente de información única y ayuda a evitar problemas de control presupuestario. Se pueden usar procesos periódicos para incorporar los datos iniciales de gestión presupuestaria en el plan presupuestario. Para los informes, Finance and Operations ofrece un conjunto de páginas de consulta estándares que le permiten ver y analizar los datos de los presupuestos. A los datos del plan presupuestario se puede obtener acceso a través del Management Reporter y se pueden mostrar escenarios del plan presupuestario independientes como columnas en el informe del Management Reporter.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
 title: Explorador de origen de contabilidad
-description: "Este artículo proporciona información acerca del explorador del origen de contabilidad, que puede usar para análisis detallado de la información de origen detrás de asientos contables de la contabilidad general."
+description: Este artículo proporciona información acerca del explorador del origen de contabilidad, que puede usar para análisis detallado de la información de origen detrás de asientos contables de la contabilidad general.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AccountingSourceExplorer
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: de5de039c0e3332943bae4846768fc628810906e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: cb5a674472936a52b624c548fd37079d57eb6cb7
-ms.openlocfilehash: d21f214ef8a29c19f0af1d4a2bdfc3264987f0b8
-ms.contentlocale: es-es
-ms.lasthandoff: 12/14/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330204"
 ---
-
 # <a name="accounting-source-explorer"></a>Explorador de origen de contabilidad
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,6 @@ Para documentos de origen que usen el concepto de identidades de referencia de d
 -   Descuentos por proveedor, producto, departamento
 
 Para estos documentos, también puede navegar hasta el documento de origen real desde el Explorador de origen de contabilidad.
-
 
 
 

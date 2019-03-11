@@ -1,13 +1,13 @@
---- 
+---
 title: Crear transacciones de impuestos en documentos
-description: "Los impuestos en los documentos se calculan si proporciona un grupo de impuestos y un grupo de impuestos de artículos en las líneas del documento."
+description: Los impuestos en los documentos se calculan si proporciona un grupo de impuestos y un grupo de impuestos de artículos en las líneas del documento.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, TaxTmpWorkTrans
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 02e3ea556da9abefd37ce585086241d1e45aa0fa
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 27bf4ba33bd7d22443512d072572b9b1ffc164fa
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313230"
 ---
 # <a name="create-sales-tax-transactions-on-documents"></a>Crear transacciones de impuestos en documentos
 
@@ -59,5 +59,4 @@ Los impuestos en los documentos se calculan si proporciona un grupo de impuestos
 28. En el panel de acciones, haga clic en Vender.
 29. Haga clic en Impuestos.
 30. Haga clic en Aceptar
-
 

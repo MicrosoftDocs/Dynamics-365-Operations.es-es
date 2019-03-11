@@ -1,13 +1,13 @@
 ---
-title: "Usar un pago de cliente para liquidar varias facturas que abarcan varios períodos de descuento"
-description: "En este tema se muestra cómo se pagan varias facturas cuando cada factura permite un descuento por pronto pago. Los escenarios de su artículo destacan cómo varían los descuentos por pronto pago que se aplican, en función de cuándo se realiza el pago."
+title: Usar un pago de cliente para liquidar varias facturas que abarcan varios períodos de descuento
+description: En este tema se muestra cómo se pagan varias facturas cuando cada factura permite un descuento por pronto pago. Los escenarios de su artículo destacan cómo varían los descuentos por pronto pago que se aplican, en función de cuándo se realiza el pago.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a358af4878de0d02ce4dd3520e786d8779d7f030
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 92a981cbf9803e8adce1efc26a3fcfcb998540da
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319233"
 ---
-
 # <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a>Usar un pago de cliente para liquidar varias facturas que abarcan varios períodos de descuento
 
 [!include [banner](../includes/banner.md)]
@@ -97,7 +96,6 @@ Arnie ve la información en la página **Transacciones de clientes**.
 | FTI-10042  | Factura          | 25/6/2015 | 10042   | 1.000,00                             |                                       | 505,10   | USD      |
 | ARP-10040  | Pago          | 29/6/2015 |         |                                      | 1.485,00                              | 0,00     | USD      |
 | DISC-10040 | Descuento por pronto pago    | 29/6/2015 |         |                                      | 9,90                                  | 0,00     | USD      |
-
 
 
 

@@ -1,13 +1,13 @@
---- 
-title: "Diseñar configuraciones de ER para analizar documentos entrantes"
-description: "Este procedimiento muestra cómo diseñar las configuraciones de los informes electrónicos (ER) para analizar un documento electrónico entrante."
+---
+title: Diseñar configuraciones de ER para analizar documentos entrantes
+description: Este procedimiento muestra cómo diseñar las configuraciones de los informes electrónicos (ER) para analizar un documento electrónico entrante.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 9e5f826afa141c0851a963b33e40c58513e60a07
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326110"
 ---
 # <a name="design-er-configurations-to-parse-incoming-documents"></a>Diseñar configuraciones de ER para analizar documentos entrantes
 
@@ -110,5 +110,4 @@ Se ejecutará la asignación de modelo creado para objetivos de prueba, para ver
     * Haga clic en Examinar y seleccione el archivo Response4.xml.  
 16. Haga clic en Aceptar
     * Revise la salida generada. Tenga en cuenta que ahora el tipo de respuesta ha sido reconocido correctamente como igual para el archivo Response1.xml.  
-
 

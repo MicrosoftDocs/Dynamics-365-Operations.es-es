@@ -1,13 +1,13 @@
---- 
-title: "Asignación de una plantilla de factura de texto libre a un cliente"
-description: "Esta tarea muestra cómo asignar una plantilla de factura de texto libre a un cliente."
+---
+title: Asignación de una plantilla de factura de texto libre a un cliente
+description: Esta tarea muestra cómo asignar una plantilla de factura de texto libre a un cliente.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustTable, CustRecurrenceInvoice
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 317b3bd4c1f395987ef3dbbd268c40be5c688320
-ms.contentlocale: es-es
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318934"
 ---
 # <a name="assign-free-text-invoice-template-to-a-customer"></a>Asignación de una plantilla de factura de texto libre a un cliente
 
@@ -48,5 +48,4 @@ Esta tarea muestra cómo asignar una plantilla de factura de texto libre a un cl
 10. Seleccione el patrón de repetición.
     * Diariamente: seleccione esta opción y especifique el número de días en el campo Por. Por ejemplo, si escribe 15, se generará una factura cada 15 días para este cliente.  Semanal: seleccione esta opción y especifique el número de semanas en el campo Por. Por ejemplo, si escribe 2, se generará una factura cada dos semanas para este cliente.  Mensual: seleccione esta opción y especifique el número de meses en el campo Por. Por ejemplo, si escribe 6, se generará una factura cada seis meses para este cliente.  Anual: seleccione esta opción y especifique el número de años en el campo Por. Por ejemplo, si escribe 2, se generará una factura cada dos años para este cliente.  
 11. En el campo Por, especifique un número.
-
 

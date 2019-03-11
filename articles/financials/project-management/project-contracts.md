@@ -1,13 +1,13 @@
 ---
 title: Contratos de proyecto
-description: "Este tema describe y proporciona ejemplos de contratos de proyecto que puede crear para diversos tipos de proyectos y fuentes de financiación, y cómo puede administrar contratos y clientes de proyecto de facturación en Microsoft Dynamics 365 for Finance and Operations."
+description: Este tema proporciona ejemplos de contratos de proyecto que puede crear para diversos tipos de proyectos y fuentes de financiación, y cómo puede administrar contratos y clientes de proyecto de facturación en Microsoft Dynamics 365 for Finance and Operations.
 author: KimANelson
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c0f0fcec64ce03c6e1d877fb1c8d004bb416bd95
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: e46393b9ac8797bf12cca12099d177980b75ba38
-ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310378"
 ---
-
 # <a name="project-contracts"></a>Contratos de proyecto
 
 [!include [banner](../includes/banner.md)]
 
-Este artículo describe y proporciona ejemplos de contratos de proyecto que puede crear para diversos tipos de proyectos y fuentes de financiación, y cómo puede administrar contratos y clientes de proyecto de facturación en Microsoft Dynamics 365 for Finance and Operations.
+Este artículo proporciona ejemplos de contratos de proyecto que puede crear para diversos tipos de proyectos y fuentes de financiación, y cómo puede administrar contratos y clientes de proyecto de facturación en Microsoft Dynamics 365 for Finance and Operations.
 
 El tipo de proyecto que cree para un contrato de proyecto determinará el método de facturación usado para los clientes del proyecto. Puede cambiar un contrato de proyecto y el proyecto relacionado, pero no puede cambiar el tipo de proyecto. 
 
@@ -342,7 +341,6 @@ Al configurar el contrato de proyecto, acepta cobrar cada vez del cliente por el
 -   Su empresa crea una factura de cliente al final de cada mes natural durante el proyecto.
 
 Durante el primer mes, los asesores registran un total de 800 horas dedicadas al proyecto. El coste de los suministros de oficina que se cargan al proyecto es 2.000. Por tanto, al final del mes, se crea una factura de 122.000, calculada en base a 800 horas a 150 por hora más 2.000 en suministros de oficina.
-
 
 
 

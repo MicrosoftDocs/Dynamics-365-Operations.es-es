@@ -1,13 +1,13 @@
 ---
-title: "Informe de declaración DIOT"
-description: "En este tema se proporciona información acerca del informe de declaración DIOT para México."
+title: Informe de declaración DIOT
+description: En este tema se proporciona información acerca del informe de declaración DIOT para México.
 author: sndray
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DIOTDeclarationConcept_MX, DIOTDeclarationTaxCode_MX, VendTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,21 +18,20 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 12db520aba59b5411dbbe6a4a4ffa88277bd946b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c871d8ef414f23d8e3a343ec48cdd79c1fa7e2e2
-ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370465"
 ---
-
 # <a name="diot-declaration-statement"></a>Informe de declaración DIOT
 
 [!include [banner](../includes/banner.md)]
 
 En este tema se proporciona información acerca del informe de declaración DIOT para México.
 
-El informe de la declaración DIOT (declaración informativa de operaciones con proveedores) se usa para informar de transacciones de proveedores a las autoridades fiscales mexicanas (Servicio de Administración Tributaria \[SAT\]). Puede que tenga que hacerlo si está sujeto a impuestos sobre el valor añadido (IVA). El informe de la declaración DIOT es un archivo de texto. Puede generar este archivo en Microsoft Dynamics 365 for Finance and Operations y, a continuación, importarlo en la herramienta de validación y entrega del gobierno. Los informes consolidados y detallados también se generan para fines de control. El informe incluye transacciones que se generaron de los pedidos de compra, los diarios de registro de facturas, los diarios de aprobación de facturas y los diarios de facturas. También incluye las transacciones de proveedor que se generaron del módulo **Proyecto**. Además, puede incluir transacciones abiertas o transacciones liquidadas.
+El informe de la declaración DIOT (declaración informativa de operaciones con proveedores) se usa para informar de transacciones de proveedores a las autoridades fiscales mexicanas (Servicio de Administración Tributaria \[SAT\]). Puede que tenga que hacerlo si está sujeto a impuestos sobre el valor añadido (IVA). El informe de la declaración DIOT es un archivo de texto. Puede generar este archivo en Microsoft Dynamics 365 for Finance and Operations y, a continuación, importarlo en la herramienta de validación y entrega del gobierno. Los informes consolidados y detallados también se generan para fines de control. El informe incluye transacciones que se generaron de los pedidos de compra, los diarios de registro de facturas, los diarios de aprobación de facturas y los diarios de facturas. También incluye las transacciones de proveedor que se generaron del módulo **Proyecto**. Además, puede incluir transacciones abiertas o transacciones liquidadas.
 
 ## <a name="prerequisites"></a>Requisitos previos
 Debe completar la configuración siguiente para poder generar el archivo de texto de DIOT o informes relacionados:
@@ -131,7 +130,6 @@ En el informe de declaración DIOT, los importes tienen signos positivos o negat
 | Importe de crédito con importe de impuestos negativo | Signo menos (–)             |
 | Importe de débito con importe de impuestos positivo  | Signo menos (–)             |
 | Importe de débito con importe de impuestos negativo  | Signo más (+)              |
-
 
 
 

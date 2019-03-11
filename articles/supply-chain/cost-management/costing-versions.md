@@ -1,13 +1,13 @@
 ---
-title: "Versiones de gestión de costes"
-description: "Este artículo proporciona información acerca de las versiones de gestión de costes, cómo mantenerlas y los tipos de datos que se pueden incluir en ellas. El propósito principal de una versión de gestión de costes es contener los registros de costes acerca de los artículos, las categorías de coste y las fórmulas de cálculo de los costes indirectos."
+title: Versiones de gestión de costes
+description: Este artículo proporciona información acerca de las versiones de gestión de costes, cómo mantenerlas y los tipos de datos que se pueden incluir en ellas. El propósito principal de una versión de gestión de costes es contener los registros de costes acerca de los artículos, las categorías de coste y las fórmulas de cálculo de los costes indirectos.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a73be45d183f3cbdc19efbb9ee29fa621a113c66
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: cb8e8193b3312a63042a44cb082a33a196cbc1be
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330158"
 ---
-
 # <a name="costing-versions"></a>Versiones de gestión de costes
 
 [!include [banner](../includes/banner.md)]
@@ -66,7 +65,6 @@ La razón principal para activar datos de precios de venta es definir los regist
 Para habilitar el contenido sobre el precio de compra, primero se debe definir un grupo de cálculo de lista de materiales que contenga un modelo de precio de coste para el precio de compra del artículo y, a continuación, se debe asignar el grupo de cálculo de lista de materiales a los artículos comprados. Posteriormente, utilizará un modelo de precio de coste para el grupo de cálculo de lista de materiales al efectuar cálculos de lista de materiales que usen costes planificados para calcular el precio de venta de los artículos fabricados. 
 
 Los registros de precio de compra de los artículos se utilizan también como información de referencia. Al cambiar el estado del registro de precio de compra de un artículo de **Pendiente** a **Activo**, se puede actualizar el precio de compra base del artículo. No obstante, el precio de compra base no es específico del sitio y se puede sobrescribir manualmente. El precio de compra base del artículo se usa como precio de compra predeterminado en los pedidos de compra.
-
 
 
 

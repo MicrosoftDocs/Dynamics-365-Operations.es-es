@@ -1,13 +1,13 @@
 ---
 title: Procesamiento de diarios generales
-description: "Este tema describe las capacidades en Microsoft Dynamics 365 for Finance and Operations que pueden facilitar el proceso del diario general y que también pueden ayudar a asegurarse de que se capturan los datos correctos y que no se pone en peligro el control interno."
+description: Este tema describe las capacidades en Microsoft Dynamics 365 for Finance and Operations que pueden facilitar el proceso del diario general y que también puede ayudar a garantizar que se capturan los datos correctos y que no se pone en peligro el control interno.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: cf744bc41ffcca6d029da5dd2031ada607a0109b
 ms.openlocfilehash: e77aafafed5c972a6ad8c064107306d3ebde0b79
-ms.contentlocale: es-es
-ms.lasthandoff: 09/24/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358448"
 ---
-
 # <a name="general-journal-processing"></a>Procesamiento de diarios generales
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe las capacidades en Microsoft Dynamics 365 for Finance and Operations que pueden facilitar el proceso del diario general y que también pueden ayudar a asegurarse de que se capturan los datos correctos y que no se pone en peligro el control interno.  
+Este tema describe las capacidades en Microsoft Dynamics 365 for Finance and Operations que pueden facilitar el proceso del diario general y que también puede ayudar a garantizar que se capturan los datos correctos y que no se pone en peligro el control interno.  
 
 ## <a name="journal-names"></a>Nombres de diarios
 
@@ -97,4 +96,3 @@ Para obtener más información, consulte los siguientes temas:
 Puede encontrar **Simular registro** en el menú **Validar** para la mayoría de los diarios. Cuando se valida un diario mediante la función **Validar**, el sistema prueba el diario para detectar condiciones de error específicas. Si utiliza la función **Simular registro**, el sistema ejecuta todos los mismos procesos que se ejecutan a durante el registro sin registrar realmente el diario. A continuación puede revisar los mensajes de registro que se muestran, corregir todos los errores que encuentre y hacer clic en el menú **registrar** para registrar el diario. 
 
 **Simular el registro** no está disponible para el procesamiento por lotes. Sin embargo, hay un código disponible para simular el registro en lote y los desarrolladores pueden ampliar el código para agregar dicha funcionalidad.  
-

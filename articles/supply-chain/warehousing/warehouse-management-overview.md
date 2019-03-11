@@ -1,13 +1,13 @@
 ---
-title: "Gestión de almacenes"
-description: "Use la gestión de almacenes para supervisar y automatizar procesos de almacén."
+title: Gestión de almacenes
+description: Use la gestión de almacenes para supervisar y automatizar procesos de almacén.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSParameters
 audience: Application User
 ms.reviewer: josaw
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7c9613070e077bced4b272b136985de5f4ddbdd0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: fc039b3c35c9ff8f40bf671e523104031c598171
-ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335264"
 ---
-# <a name="warehouse-management"></a>Gestión de almacenes
+# <a name="warehouse-management"></a>Administración de almacenes
 
 [!include [banner](../includes/banner.md)]
 
-El módulo de gestión de almacenes de Dynamics 365 for Finance and Operations le permite gestionar los procesos de almacén en la fabricación, la distribución y en las empresas al por menor. Este módulo tiene una gran variedad de características que le permitirán sacarle el máximo rendimiento a su instalación de almacén. La gestión de almacenes está completamente integrada con otros procesos empresariales en Finance and Operations, tales como el transporte, la fabricación, el control de calidad, las compras, las ventas, las transferencias y las devoluciones.
+El módulo de gestión de almacenes de Dynamics 365 for Finance and Operations le permite gestionar procesos de almacén en empresas de fabricación, distribución y comercio minorista. Este módulo tiene una gran variedad de características que le permitirán sacarle el máximo rendimiento a su instalación de almacén. La gestión de almacenes está completamente integrada con otros procesos empresariales en Finance and Operations, tales como el transporte, la fabricación, el control de calidad, las compras, las ventas, las transferencias y las devoluciones.
 
 ## <a name="get-started"></a>Introducción
 Para empezar a trabajar con la gestión de almacenes, debe completar la configuración de los parámetros generales del almacén para los procesos empresariales de la empresa.
@@ -66,12 +66,11 @@ Debe configurar los componentes de los flujos de trabajo entrantes y salientes d
 
 ## <a name="additional-resources"></a>Recursos adicionales
 ### <a name="whats-new-and-in-development"></a>Novedades y características en desarrollo
-Consulte [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/) (Guía básica de Microsoft Dynamics 365) para ver qué características nuevas hemos lanzado y cuáles están en desarrollo.
+Consulte la [Guía básica de Microsoft Dynamics 365](https://roadmap.dynamics.com/) para ver qué características nuevas hemos lanzado y cuáles están en desarrollo.
 
 ### <a name="blogs"></a>Blogs
-Puede encontrar opiniones, noticias y otra información sobre la gestión de almacenes y otras soluciones en el [blog de Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog).
+Puede encontrar opiniones, noticias y otra información sobre administración del almacén y otras soluciones en el [blog Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog).
 
 
  
-
 

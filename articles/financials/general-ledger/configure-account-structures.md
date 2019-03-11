@@ -1,13 +1,13 @@
 ---
 title: Configurar estructuras contables
-description: "En este tema se proporciona información acerca de las estructuras contables y las dimensiones financieras."
+description: En este tema se proporciona información acerca de las estructuras contables y las dimensiones financieras.
 author: aprilolson
 manager: AnnBe
 ms.date: 05/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerEliminationRule
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 8435389a523d8393e9d4daa0cb1244203c0dbb12
 ms.openlocfilehash: a0665f5aec2a0809ecb383c1d4adf4c2072c9569
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351732"
 ---
-
 # <a name="configure-account-structures"></a>Configurar estructuras contables
 
 [!include[banner](../includes/banner.md)]
@@ -100,4 +99,3 @@ Al configurar sus estructuras contables existen algunas prácticas recomendadas 
 Cuando esté satisfecho con su nueva configuración o con un cambio en una estructura contable, debe activarla. Si una estructura contable se asigna a un libro mayor, esta activación puede ser un proceso de larga ejecución, ya que todas las transacciones sin registrar en el sistema deben sincronizarse en la nueva estructura. Las transacciones registradas no se ven afectadas por los cambios en la estructura contable.
 
 Para obtener más información, consulte [Planificar su plan de cuentas](plan-chart-of-accounts.md), [Dimensiones financieras](financial-dimensions.md) y [Especificar combinaciones de cuentas y dimensiones (control de entrada segmentada)](enter-account-dimension-combinations-segmented-entry-control.md).
-

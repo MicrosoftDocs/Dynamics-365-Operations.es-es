@@ -1,13 +1,13 @@
 ---
-title: "Grupos para cálculos de lista de materiales"
-description: "Este artículo proporciona información acerca de los grupos de cálculo para listas de materiales y de cómo configurarlos. Para ejecutar un cálculo de L. MAT, debe configurar los grupos de cálculo y asignarlos a artículos individuales o establecer un grupo de cálculo predeterminado. La configuración del cálculo del grupo de cálculo se utiliza a continuación como valores predeterminados en la página Cálculo de L. MAT en el momento del cálculo de L. MAT."
+title: Grupos para cálculos de lista de materiales
+description: Este artículo proporciona información acerca de los grupos de cálculo para listas de materiales y de cómo configurarlos. Para ejecutar un cálculo de L. MAT, debe configurar los grupos de cálculo y asignarlos a artículos individuales o establecer un grupo de cálculo predeterminado. La configuración del cálculo del grupo de cálculo se utiliza a continuación como valores predeterminados en la página Cálculo de L. MAT en el momento del cálculo de L. MAT.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMCalcGroup, BOMCalcTable, BOMCalcTrans, InventItemPrice
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 55bca29016e06b6ed71c0f1a4aa412401976ebdd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 48d1bc67038c6080bb96d524a549deddbc8d4e0b
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362887"
 ---
-
 # <a name="bom-calculations-groups"></a>Grupos de cálculo de lista de materiales
 
 [!include [banner](../includes/banner.md)]
@@ -96,7 +95,6 @@ Un cálculo de L. MAT genera mensajes de advertencia. Puede ver las advertencias
 -   Identifica cuando el artículo de una línea de L. MAT tiene un porcentaje de rentabilidad inferior al deseado.
 
 Puede definir varios grupos de cálculo de L. MAT, en función de los requisitos para las variaciones en los mensajes de advertencia. Por ejemplo, podría ser suficiente un grupo de cálculo de L. MAT que tenga condiciones de advertencia de una L. MAT activa, una cantidad de componente de 0 (cero) y un coste de componente de 0 (cero). Al iniciarse un cálculo de L. MAT, puede anular las condiciones de advertencia asociadas al grupo de cálculo de L. MAT. También puede agregar o eliminar condiciones de advertencia. Por ejemplo, si la situación actual no implica datos de rutas, puede ser necesario eliminar la condición de advertencia sobre una ruta activa. **Nota:** Tiempo y asistencia incluye una página **Grupos de cálculo**, pero la página no tiene relación con los grupos de cálculo de L. MAT. En Tiempo y asistencia, los trabajadores pueden estar asignados a grupos de cálculo que reflejan la agrupación de los trabajadores que están asociados al mismo supervisor o director. El supervisor o director puede efectuar los cálculos de los registros de los trabajadores de forma automática o manual.
-
 
 
 

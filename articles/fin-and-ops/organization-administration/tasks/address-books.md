@@ -1,13 +1,13 @@
---- 
-title: "Configuración de libretas de direcciones"
-description: "Use este procedimiento y las decisiones que tomó en el tema sobre planificación de la configuración de la libreta de direcciones global y libretas de direcciones adicionales para configurar libretas de direcciones adicionales para su organización."
+---
+title: Configuración de libretas de direcciones
+description: Use este procedimiento y las decisiones que tomó en el tema sobre planificación de la configuración de la libreta de direcciones global y libretas de direcciones adicionales para configurar libretas de direcciones adicionales para su organización.
 author: kfend
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DirAddressBook, DirAddressBookTeam
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 325e3974cb38afea46c2f735165ee2fd1a6a22ab
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: e633b35cdd5441f7f9d1c1465dbc468e047cdee5
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353227"
 ---
 # <a name="configure-address-books"></a>Configuración de libretas de direcciones
 
@@ -41,5 +41,4 @@ La empresa de datos de prueba utilizada para crear esta tarea es USMF. Esta grab
 6. En la lista, busque y seleccione el registro deseado.
 7. Haga clic en la flecha para agregar los equipos disponibles seleccionados a la libreta de direcciones.
 8. Haga clic en Guardar.
-
 

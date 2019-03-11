@@ -1,13 +1,13 @@
 ---
-title: "Créditos y cobros en Clientes"
-description: "La información de los cobros de clientes se gestiona en una vista central con la página Cobros de Microsoft Dynamics 365 for Finance and Operations. Los administradores de crédito y cobros pueden usar esta vista central para gestionar los cobros. Los agentes de cobros pueden comenzar el proceso de cobro por las listas de clientes que se generan mediante criterios de cobro predefinidos o por la página Clientes."
+title: Créditos y cobros en Clientes
+description: La información de los cobros de clientes se gestiona en una vista central usando la página Cobros de Microsoft Dynamics 365 for Finance and Operations. Los administradores de crédito y cobros pueden usar esta vista central para gestionar los cobros. Los agentes de cobros pueden comenzar el proceso de cobro por las listas de clientes que se generan mediante criterios de cobro predefinidos o por la página Clientes.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustAgingSnapshot, CustBankAccounts, CustCollections, CustCollectionsActivitiesListPage, CustCollectionsAgent, CustCollectionsCaseListPage, CustCollectionsPool, CustCollectionsPoolsListPage, CustTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c36e7a5d28baf149b982a0afd5fdd79fe8a91850
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 23fc1a160cf25255a1677ca0e501c374746b6e34
-ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351686"
 ---
-
 # <a name="credit-and-collections-in-accounts-receivable"></a>Créditos y cobros en Clientes
 
 [!include [banner](../includes/banner.md)]
@@ -57,7 +56,7 @@ Para cada período de vencimiento de la definición de período de vencimiento, 
 Las secciones de clientes son consultas que definen un grupo de registros de cliente que se pueden mostrar y gestionar para cobros o procesos de vencimiento. Use las secciones de clientes para filtrar información en las páginas Saldos vencidos, Actividades de cobros y Casos de cobros. También se usan las secciones de clientes para filtrar las cuentas de cliente que se incluyen al crear instantáneas de vencimientos.
 
 ## <a name="collections-agents"></a>Agentes de cobros
-De forma predeterminada, los usuarios de Microsoft Dynamics 365 for Finance and Operations pueden ver toda la información de los clientes en las páginas de listas de cobros. Puede usar los registros de agente de cobros para determinar las secciones de clientes disponibles para filtrar la información de las páginas de listas de cobros y en la página Cobros. 
+De forma predeterminada, los usuarios de Microsoft Dynamics 365 for Finance and Operations pueden ver toda la información de clientes en las páginas de listas de cobros. Puede usar los registros de agente de cobros para determinar las secciones de clientes disponibles para filtrar la información de las páginas de listas de cobros y en la página Cobros. 
 
 El agente de cobros es una persona que trabaja con clientes para asegurarse de que los pagos se cobran a tiempo. En Finance and Operations, los agentes de cobros son trabajadores asignados a usuarios en la página Configuración de usuario.
 
@@ -107,7 +106,6 @@ Para obtener más información, consulte [Crear un diario de cancelación para u
 --------------------------------------------
 
 Puede procesar pagos NSF haciendo clic en Pago NSF en la página Cobros. Al hacer clic en este botón, se cancela el pago. Si se aplica una cuota NSF para el cliente, se creará una transacción de cargos en un diario de pagos. El importe de la cuota se basa en la configuración de los cargos automáticos. Los cargos automáticos que se aplican para los pagos NSF se especifican en función del grupo de cargos seleccionado en la página Cuentas bancarias de la cuenta bancaria afectada.
-
 
 
 

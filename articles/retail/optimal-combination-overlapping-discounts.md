@@ -1,13 +1,13 @@
 ---
-title: "Determinar la combinación óptima de descuentos superpuestos"
-description: "Cuando los descuentos se superponen, debe determinar la combinación de descuentos superpuestos que generará el total más bajo de la transacción o el descuento total más alto. Cuando el importe de descuento varía en función del precio de los productos que se han comprado, por ejemplo en el descuento comercial habitual “Compre 1 y llévese otro con X por ciento de descuento” (BOGO), este proceso se convierte en un problema de optimización combinatoria."
+title: Determinar la combinación óptima de descuentos superpuestos
+description: Cuando los descuentos se superponen, debe determinar la combinación de descuentos superpuestos que generará el total más bajo de la transacción o el descuento total más alto. Cuando el importe de descuento varía en función del precio de los productos que se han comprado, por ejemplo en el descuento comercial habitual “Compre 1 y llévese otro con X por ciento de descuento” (BOGO), este proceso se convierte en un problema de optimización combinatoria.
 author: kfend
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailParameters, RetailPeriodicDiscount,
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -19,21 +19,20 @@ ms.search.industry: Retail
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: eebb532071e7c6bae7cfae93bfe795e79bb16c63
-ms.contentlocale: es-es
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360702"
 ---
-
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>Determinar la combinación óptima de descuentos superpuestos
 
 [!include [banner](includes/banner.md)]
 
 Cuando los descuentos se superponen, debe determinar la combinación de descuentos superpuestos que generará el total más bajo de la transacción o el descuento total más alto. Cuando el importe de descuento varía en función del precio de los productos que se han comprado, por ejemplo en el descuento comercial habitual “Compre 1 y llévese otro con X por ciento de descuento” (BOGO), este proceso se convierte en un problema de optimización combinatoria.
 
-Este artículo se aplica a Microsoft Dynamics AX 2012 R3 con 3105973 KB (lanzado al mercado el 2 de noviembre de 2015) o posterior, y a Microsoft Dynamics 365 for Retail. Para determinar la combinación de descuentos superpuestos para aplicarlos de manera oportuna, hemos introducido un método de aplicación descuentos superpuestos. A este nuevo método lo llamamos **clasificación de valor marginal**. La clasificación de valor marginal se usa cuando el tiempo necesario para evaluar las combinaciones posibles de descuentos superpuestos supera un umbral que se puede configurar en la página **Parámetros de ventas al por menor**. En el método de la clasificación de valor marginal, se calcula un valor para cada descuento superpuesto usando el valor del descuento en los productos compartidos. Los descuentos superpuestos se aplican desde el valor relativo más alto hasta el más bajo. Para obtener más información sobre el nuevo método, consulte la sección “Valor marginal”, más adelante en este artículo. La clasificación de valor marginal no se usa cuando los importes de descuento de un producto no se ven afectados por otro producto de la transacción. Por ejemplo, este método no se usa para dos descuentos simples o para un descuento simple y un descuento por cantidad de un producto individual.
+Este artículo se aplica a Microsoft Dynamics AX 2012 R3 con 3105973 KB (liberado el 2 de noviembre de 2015) o posterior, y Microsoft Dynamics 365 for Retail. Para determinar la combinación de descuentos superpuestos para aplicarlos de manera oportuna, hemos introducido un método de aplicación descuentos superpuestos. A este nuevo método lo llamamos **clasificación de valor marginal**. La clasificación de valor marginal se usa cuando el tiempo necesario para evaluar las combinaciones posibles de descuentos superpuestos supera un umbral que se puede configurar en la página **Parámetros de ventas al por menor**. En el método de la clasificación de valor marginal, se calcula un valor para cada descuento superpuesto usando el valor del descuento en los productos compartidos. Los descuentos superpuestos se aplican desde el valor relativo más alto hasta el más bajo. Para obtener más información sobre el nuevo método, consulte la sección “Valor marginal”, más adelante en este artículo. La clasificación de valor marginal no se usa cuando los importes de descuento de un producto no se ven afectados por otro producto de la transacción. Por ejemplo, este método no se usa para dos descuentos simples o para un descuento simple y un descuento por cantidad de un producto individual.
 
 ## <a name="discount-examples"></a>Ejemplos de descuentos
 
@@ -85,4 +84,3 @@ Para resolver el problema de un número de combinaciones que aumenta exponencial
 ![Combinación de descuentos superpuestos 06](./media/overlapping-discount-combo-06.jpg)
 
 Después de calcular el valor marginal de cada descuento en un conjunto de productos compartidos, se aplican los descuentos a los productos compartidos en orden y exhaustivamente desde el valor marginal más alto hasta el más bajo. En este método todas las posibilidades restantes de descuentos no se comparan cada vez que se aplica una instancia única de un descuento. En su lugar, los descuentos superpuestos se comparan una vez y después se aplican en orden. No se realiza ninguna comparación adicional. Puede configurar el umbral para cambiar al método de valor marginal en la ficha **Descuento** de la página **Parámetros de ventas al por menor**. El tiempo aceptable para calcular el descuento total varía en los diferentes sectores minoristas. Sin embargo, este tiempo normalmente va de milésimas de segundo a un segundo.
-

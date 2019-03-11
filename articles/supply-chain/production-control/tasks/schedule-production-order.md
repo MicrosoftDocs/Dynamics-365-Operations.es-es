@@ -1,13 +1,13 @@
---- 
-title: "Programar un pedido de producción"
-description: "Este procedimiento muestra cómo programar un pedido de producción."
+---
+title: Programar un pedido de producción
+description: Este procedimiento muestra cómo programar un pedido de producción.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdTableListPage, ProdSchedule, ProdRouteJob, WrkCtrCapResSum
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 20e7ee023f39cc5d02b0f5b80fbb3ae3ad0c9774
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: dadf0e87eac8522f61bb094c146e37f46a21fc09
-ms.openlocfilehash: 6cbbf509c9e60040e08ab7932fcb0e8eed5ddd22
-ms.contentlocale: es-es
-ms.lasthandoff: 02/06/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346373"
 ---
 # <a name="schedule-a-production-order"></a>Programar un pedido de producción
 
@@ -54,5 +54,4 @@ Este procedimiento muestra cómo programar un pedido de producción. La empresa 
     * La página Carga de capacidad muestra la capacidad reservada mediante la programación de trabajos, el número total de horas actualmente reservadas en el recurso y el número de horas que siguen disponibles para la programación de trabajos en el recurso.  
 6. Cierre la página.
 7. Cierre la página.
-
 

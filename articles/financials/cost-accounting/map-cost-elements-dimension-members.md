@@ -1,13 +1,13 @@
 ---
-title: "Asignar miembros de dimensión de elemento de coste a un conjunto común de miembros de dimensión"
-description: "Asignando diferentes miembros de la dimensión del elemento de coste a un conjunto común de miembros de la dimensión del elemento de coste, los datos se combinan en un formato común para los análisis."
+title: Asignar miembros de dimensión de elemento de coste a un conjunto común de miembros de dimensión
+description: Asignando diferentes miembros de la dimensión del elemento de coste a un conjunto común de miembros de la dimensión del elemento de coste, los datos se combinan en un formato común para los análisis.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMDimension, CAMDimensionMember
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: e5c9387d74443ec6ca5dc70ad923b67f962181dc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6f2384155a07d17004c640160aee90b1e8bdb9f8
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318152"
 ---
-
 # <a name="map-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>Asignar miembros de dimensión de elemento de coste a un conjunto común de miembros de dimensión
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ Los distintos planes contables que use se pueden configurar para utilizar distin
 
 ## <a name="update-mappings-at-any-time"></a>Actualizar las asignaciones en cualquier momento
 Puede actualizar las definiciones de asignación para una dimensión de elemnto de coste en cualquier momento. Dado que las asignaciones no son fechas efectivas, los cambios se aplican la próxima vez que procesa transacciones de coste o ejecuta cálculos de coste.
-
 
 
 

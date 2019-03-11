@@ -1,13 +1,13 @@
 ---
-title: "Visión general de conciliación bancaria avanzada"
-description: "Este artículo describe el flujo del proceso avanzado de conciliación bancaria. La característica de conciliación bancaria avanzada le permite importar los extractos bancarios que se pueden conciliar automáticamente desde dentro de las transacciones bancarias."
+title: Visión general de conciliación bancaria avanzada
+description: Este artículo describe el flujo del proceso avanzado de conciliación bancaria. La característica de conciliación bancaria avanzada le permite importar los extractos bancarios que se pueden conciliar automáticamente desde dentro de las transacciones bancarias.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankReconciliationMatchRule
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5c6cec76ebc8328f221ecb6c30ae93716bd9bfe9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: ff59250b836a73986848109ce48f843fed1d71a9
-ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358218"
 ---
-
 # <a name="advanced-bank-reconciliation-overview"></a>Visión general de conciliación bancaria avanzada
 
 [!include [banner](../includes/banner.md)]
@@ -47,7 +46,6 @@ La característica avanzada de conciliación bancaria le permite importar extrac
     -   Vea extractos bancarios y las transacciones bancarias de Microsoft Dynamics 365 for Finance and Operations en paralelo.
     -   Registre automáticamente transacciones bancarias de Microsoft Dynamics 365 for Finance and Operations si aparecen en un extracto bancario pero no aparecen en Microsoft Dynamics 365 for Finance and Operations.
     -   Genere un extracto de conciliación.
-
 
 
 

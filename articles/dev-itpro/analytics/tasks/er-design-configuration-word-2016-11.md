@@ -1,13 +1,13 @@
---- 
-title: "Diseñar configuraciones de ER para generar informes en formato Word"
-description: "En los pasos siguientes se explica cómo un usuario con rol de administrador del Sistema o de desarrollador de informes electrónicos puede configurar formatos de informes electrónicos para generar archivos de informes en Microsoft Word."
+---
+title: Diseñar configuraciones de ER para generar informes en formato Word
+description: En los pasos siguientes se explica cómo un usuario con rol de administrador del Sistema o de desarrollador de informes electrónicos puede configurar formatos de informes electrónicos para generar archivos de informes en Microsoft Word.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: dc47d44285af4c720d2f450d11fb1004ef461d0f
-ms.contentlocale: es-es
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362358"
 ---
 # <a name="design-er-configurations-to-generate-reports-in-word-format"></a>Diseñar configuraciones de ER para generar informes en formato Word
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-En los pasos siguientes se explica cómo un usuario con rol de administrador del Sistema o de desarrollador de informes electrónicos, puede configurar formatos de informes electrónicos (ER) para generar archivos de informes en Microsoft Word. Estos pasos se pueden llevar a cabo en la empresa GBSI.
+En los pasos siguientes se explica cómo un usuario con rol de administrador del Sistema o de desarrollador de informes electrónicos puede configurar formatos de informes electrónicos (ER) para generar archivos de informes en Microsoft Word. Estos pasos se pueden llevar a cabo en la empresa GBSI.
 
 Para completar estos pasos, primero debe completar los pasos en la guía de tarea "Crear una configuración de ER para generar informes en formato OPENXML”. Previamente deberá descargar y guardar también las plantillas siguientes localmente para el informe de ejemplo:
 
@@ -35,7 +35,7 @@ Para completar estos pasos, primero debe completar los pasos en la guía de tare
 - [Plantilla enlazada de informe de pago](https://go.microsoft.com/fwlink/?linkid=862266)
 
 
-Este procedimiento es para una función que se ha añadido en la versión 1611 de Microsoft Dynamics 365 for Operations.
+Este procedimiento es para una función que se ha agregado en la versión 1611 de Microsoft Dynamics 365 for Operations.
 
 
 ## <a name="select-the-existing-er-report-configuration"></a>Seleccione la configuración existente del informe ER
@@ -99,5 +99,4 @@ Este procedimiento es para una función que se ha añadido en la versión 1611 d
 16. Haga clic en Aceptar
 17. Haga clic en Aceptar
     * Analice la salida generada. Tenga en cuenta que la salida creada se presenta en formato de Word y contiene los detalles de los pagos procesados.  
-
 

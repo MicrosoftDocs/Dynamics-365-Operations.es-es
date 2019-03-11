@@ -1,13 +1,13 @@
 ---
 title: Antes de comprar
-description: "Orientación gradual que se usará cuando esté considerando adquirir Dynamics 365 for Finance and Operations."
+description: Orientación gradual que se usará al considerar comprar Dynamics 365 for Finance and Operations.
 author: kfend
 manager: AnnBe
 ms.date: 01/04/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
 ms.search.scope: Core, Operations
@@ -16,27 +16,26 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.translationtype: HT
-ms.sourcegitcommit: 8166047a768c47219855c55a1008f3dd24cd5344
 ms.openlocfilehash: 7aed6895d526011e353eef7b85e4e2f096a25e5a
-ms.contentlocale: es-es
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345476"
 ---
-
 # <a name="before-you-buy"></a>Antes de comprar
 
 [!include [banner](../includes/banner.md)]
 
-Novedades en Dynamics 365 for Finance and Operations Hemos creado una orientación gradual independientemente de si está evaluando Finance and Operations o si está preparado para comprar.
+¿Nuevo en Dynamics 365 for Finance and Operations? Hemos creado una orientación gradual independientemente de si está evaluando Finance and Operations o si está preparado para comprar.
 
 ## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>Paso uno: Probar Finance and Operations durante un período de prueba gratuito de 30 días
 
-Puede probar Dynamics 365 for Finance and Operations durante 30 días con una simple suscripción por correo electrónico. La versión de prueba de Finance and Operations incluye una guía de tareas de introducción que proporciona instrucciones detalladas que le permiten ver escenarios específicos en acción. El producto está disponible para explorar y hacer uso de escenarios, pero no se puede personalizar. Los datos de prueba se incluyen para facilitar el uso del producto y para que la experiencia sea más significativa. Un correo electrónico de aviso se enviará 3 días antes de la caducidad de la prueba. Obtenga los detalles en [www.microsoft.com/dynamics365/operations](https://www.microsoft.com/dynamics365/operations).
+Puede probar Dynamics 365 for Finance and Operations durante 30 días con una mera suscripción de correo electrónico. La versión de prueba de Finance and Operations incluye una guía de tareas de introducción que proporciona instrucciones detalladas que le permiten ver escenarios específicos en acción. El producto está disponible para explorar y hacer uso de escenarios, pero no se puede personalizar. Los datos de prueba se incluyen para facilitar el uso del producto y para que la experiencia sea más significativa. Un correo electrónico de aviso se enviará 3 días antes de la caducidad de la prueba. Obtenga los detalles en [www.microsoft.com/dynamics365/operations](https://www.microsoft.com/dynamics365/operations).
 
 ## <a name="step-two-choose-a-deployment-option"></a>Paso dos: Elegir una opción de implementación
 
-Ahora puede implementar Microsoft Dynamics 365 for Finance and Operations en la nube o localmente. Las implementaciones en la nube ofrecen un servicio de ERP que Microsoft administra por completo, mientras que las implementaciones locales se implementan localmente en el centro de datos de un cliente.
+Ahora puede implementar Microsoft Dynamics 365 for Finance and Operations en la nube o local. Las implementaciones en la nube ofrecen un servicio de ERP que Microsoft administra por completo, mientras que las implementaciones locales se implementan localmente en el centro de datos de un cliente.
 
 Deben tomarse las siguientes consideraciones cuando elija tomar cuando elija local como opción de implementación:
 
@@ -46,7 +45,7 @@ Deben tomarse las siguientes consideraciones cuando elija tomar cuando elija loc
 - [Requisitos mínimos de la infraestructura](system-requirements-on-prem.md#minimum-infrastructure-requirements)
 
 > [!IMPORTANT]
-> Las implementaciones locales de Microsoft Dynamics 365 for Finance and Operations no se admiten en ninguna infraestructura de nube pública, incluida Azure.
+> Las implementaciones locales Microsoft Dynamics 365 for Finance and Operations no se admiten en ninguna infraestructura interior de la nube, incluyendo Azure.
 
 Para obtener más información, consulte [Opciones de implementación](../../dev-itpro/deployment/choose-deployment-type.md).
 
@@ -54,7 +53,7 @@ Para obtener más información, consulte [Opciones de implementación](../../dev
 
 Para explorar opciones de suscripción, vaya a la página de precios de [Dynamics 365](https://www.microsoft.com/dynamics365/pricing). Esta página incluye varios planes diferentes para que se adapten a las necesidades de su organización.
 
-Hay muchas formas de comprar una suscripción de Dynamics 365 for Finance and Operations:
+Existen varias maneras de adquirir una suscripción Dynamics 365 for Finance and Operations:
 
 - Comprar a través de un socio y usar licencias por volumen (nube o local)
 - Comprar a través de un proveedor de soluciones de nube (solo la nube)
@@ -79,7 +78,7 @@ Un proveedor de soluciones en nube de Microsoft puede trabajar estrechamente con
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>Comprar a través de un partner de Dynamics (local)
 
-Debe trabajar con un socio para comprar Finance and Operations localmente. Para obtener más información, consulte [Comprar Dynamics 365 for Finance and Operations (local)](purchase-on-premises.md)
+Debe trabajar con un socio para comprar Finance and Operations localmente. Para obtener más información, consulte [Comprar Dynamics 365 for Finance and Operations (on-premises)](purchase-on-premises.md).
 
 ### <a name="choose-your-support-option"></a>Elija su opción de soporte
 
@@ -97,4 +96,3 @@ Microsoft FastTrack for Dynamics 365 es nuestro servicio exitoso de cliente dise
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Si se está actualizando desde Dynamics AX 2012 o migrando desde AX 2009
 
 Si es un cliente que se está actualizando desde Microsoft Dynamics AX 2012 o migrando desde Microsoft Dynamics AX 2009, es posible que pueda optar a tener una prueba más larga. Póngase en contacto con <daxcf@microsoft.com> para obtener más información.
-

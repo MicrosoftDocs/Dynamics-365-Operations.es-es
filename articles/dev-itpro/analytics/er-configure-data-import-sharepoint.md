@@ -1,13 +1,13 @@
 ---
-title: "Configurar la importación de datos de SharePoint"
-description: "En este tema se explica cómo importar datos de Microsoft SharePoint."
+title: Configurar la importación de datos de SharePoint
+description: En este tema se explica cómo importar datos de Microsoft SharePoint.
 author: NickSelin
 manager: AnnBe
 ms.date: 11/29/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.translationtype: HT
-ms.sourcegitcommit: 060c3dec71e2b953d9341c5b5c89e60925fda34d
 ms.openlocfilehash: 8053b0316c86c614b87b0e658dffade3a135f2cc
-ms.contentlocale: es-es
-ms.lasthandoff: 12/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331101"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>Configurar la importación de datos de SharePoint
 
 [!include[banner](../includes/banner.md)]
 
-Para importar datos de un archivo entrante mediante el marco de informes electrónicos (ER), debe configurar un formato de ER que admita la importación y luego ejecutar una asignación del modelo del tipo **A destino** que utilice el formato como un origen de datos. Para importar datos, debe navegar hasta el archivo que desee importar. El usuario puede seleccionar manualmente el archivo entrante. Con la nueva capacidad de ER de admitir la importación de datos de Microsoft SharePoint, este proceso se puede configurar de manera automática. Puede usar las configuraciones de ER para realizar la importación de datos de los archivos que se almacenan en las carpetas de Microsoft SharePoint. Este tema explica cómo completar la importación de SharePoint en Microsoft Dynamics 365 para Finance and Operations. Los ejemplos utilizan transacciones del proveedor como datos empresariales.
+Para importar datos de un archivo entrante mediante el marco de informes electrónicos (ER), debe configurar un formato de ER que admita la importación y luego ejecutar una asignación del modelo del tipo **A destino** que utilice el formato como un origen de datos. Para importar datos, debe navegar hasta el archivo que desee importar. El usuario puede seleccionar manualmente el archivo entrante. Con la nueva capacidad de ER de admitir la importación de datos de Microsoft SharePoint, este proceso se puede configurar de manera automática. Puede usar las configuraciones de ER para realizar la importación de datos de los archivos que se almacenan en las carpetas de Microsoft SharePoint. Este tema explica cómo completar la importación de SharePoint a Microsoft Dynamics 365 for Finance and Operations. Los ejemplos utilizan transacciones del proveedor como datos empresariales.
 
 ## <a name="prerequisites"></a>Requisitos previos
 Para completar los ejemplos de este tema, debe tener el acceso siguiente:
@@ -43,7 +43,7 @@ Para completar los ejemplos de este tema, debe tener el acceso siguiente:
 - Configuraciones del formato y el modelo de ER para pagos 1099.
 
 ### <a name="create-required-er-configurations"></a>Crear las configuraciones de ER necesarias
-Reproduzca las guías de tareas **Datos de importación de ER de un archivo de Microsoft Excel**, que forman parte del proceso empresarial **7.5.4.3 Adquirir o desarrollar componentes de soluciones y servicios de TI (10677)**. Estas guías de tareas le guiarán por el proceso de diseño y uso de configuraciones de ER para importar de forma interactiva transacciones del proveedor desde archivos de Microsoft Excel. Para obtener más información, consulte [Analizar documentos de entrada en Microsoft Excel](parse-incoming-documents-excel.md). Cuando haya completado las guías de la tarea, tendrá la siguiente configuración.
+Reproduzca las guías de tareas **Datos de importación de ER de un archivo de Microsoft Excel**, que forman parte del proceso empresarial **7.5.4.3 Adquirir o desarrollar componentes de soluciones y servicios de TI (10677)**. Estas guías de tareas le guiarán por el proceso de diseño y uso de configuraciones de ER para importar de forma interactiva transacciones del proveedor desde archivos de Microsoft Excel. Para obtener más información, consulte [Analizar documentos de entrada enMicrosoft Excel](parse-incoming-documents-excel.md). Cuando haya completado las guías de la tarea, tendrá la siguiente configuración.
 
 #### <a name="er-configurations"></a>Configuraciones ER
 
@@ -56,7 +56,7 @@ Reproduzca las guías de tareas **Datos de importación de ER de un archivo de M
 
 - Archivo de Excel **1099import-data.xlsx**, con las transacciones del proveedor que deben importarse en Finance and Operations.
 
-![Archivo de Microsoft Excel de ejemplo para importar desde SharePoint](./media/GERImportFromSharePoint-02-Excel.PNG)
+![Ejemplo de archivo de Microsoft Excel para importar desde SharePoint](./media/GERImportFromSharePoint-02-Excel.PNG)
     
 > [!NOTE]
 > El formato para importar transacciones del proveedor se selecciona como la asignación del modelo predeterminado. Por lo tanto, si ejecuta una asignación del modelo del **Modelo de pagos 1099**, y esta asignación del modelo es del tipo **A destino**, la asignación del modelo ejecuta este formato para importar datos desde archivos externos. A continuación, emplea esos datos para actualizar tablas de la aplicación.
@@ -82,7 +82,7 @@ Para almacenar archivos electrónicos de informes en una ubicación de SharePoin
 4. En Finance and Operations vaya a **Administración de la organización > administración de documentos > tipos de documento**.
 5. Cree los siguientes tipos de documentos que se usarán para obtener acceso a las carpetas de SharePoint que acaba de crear. Para obtener instrucciones, consulte [Configurar tipos de documentos](../../fin-and-ops/organization-administration/configure-document-management.md#configure-document-types).
 
-|Tipo de documento       | Grupo              | Ubicación      | Carpeta de SharePoint      |
+|Tipo de documento       | Grupo              | Ubicación      | Carpeta SharePoint      |
 |--------------------|--------------------|---------------|------------------------|
 |SP principal             |Archivo                |SharePoint     |Origen de la importación de los archivos (principal)|
 |SP alternativo             |Archivo                |SharePoint     |Origen de la importación de los archivos (alternativa)|
@@ -117,9 +117,9 @@ También puede abrir la página **Estados de archivo para los orígenes** selecc
 ## <a name="import-data-from-excel-files-that-are-in-a-sharepoint-folder"></a>Importar datos de los archivos Excel que están en una carpeta de SharePoint
 1. En SharePoint, cargue el archivo de Microsoft Excel **1099import-data.xlsx** que contiene transacciones de proveedores en la carpeta de SharePoint **Origen de la importación de los archivos (principal)** que creó anteriormente.
 
-    [![Contenido de SharePoint – Archivo de Microsoft Excel para importación](./media/GERImportFromSharePoint-08-UploadFile.png)](./media/GERImportFromSharePoint-08-UploadFile.png)
+    [![SharePoint contenido – archivo Microsoft Excel para importar](./media/GERImportFromSharePoint-08-UploadFile.png)](./media/GERImportFromSharePoint-08-UploadFile.png)
 
-2. En Finance and Operations, en la página **Estados de archivo para los orígenes**, seleccione **Actualizar** para actualizar la página. Tenga en cuenta que el archivo de Excel que se cargó en SharePoint aparecía en esta página con el estado **Preparado**. Actualmente se admiten los siguientes estados:
+2. En Finance and Operations, en la página **Estados de archivo para los orígenes**, seleccione **Actualizar** para actualizar la página. Tenga en cuenta que el archivo de Excel que se cargó en SharePoint  aparecía en esta página con el estado **Preparado**. Actualmente se admiten los siguientes estados:
 
     - **Preparado** - Asignado automáticamente para cada nuevo archivo en una carpeta de SharePoint. Este estado significa que el archivo está listo para la importación.
     - **Importando** - Asignado automáticamente por un informe de ER cuando el archivo se bloquea mediante el proceso de importación para evitar su uso por otros procesos (si muchos de ellos se están ejecutando simultáneamente).
@@ -129,7 +129,7 @@ También puede abrir la página **Estados de archivo para los orígenes** selecc
 
     [![Página de estados de archivo de ER para los orígenes seleccionados](./media/GERImportFromSharePoint-09-FileStatesForm.png)](./media/GERImportFromSharePoint-09-FileStatesForm.png)
 
-## <a name="import-data-from-sharepoint-files"></a>Importar datos desde archivos de SharePoint
+## <a name="import-data-from-sharepoint-files"></a>Importar datos desde archivos SharePoint
 1. Abra el árbol de configuraciones de ER, seleccione el **Modelo de sueldo 1099** y amplíe la lista de componentes del modelo de ER.
 2. Seleccione el nombre de la asignación de modelo para abrir la lista de asignaciones de modelo de la configuración seleccionada del modelo de ER.
 
@@ -165,7 +165,7 @@ También puede abrir la página **Estados de archivo para los orígenes** selecc
 ## <a name="prepare-an-excel-file-for-import"></a>Preparar un archivo de Excel para importación
 1. Abra el archivo de Excel que utilizó anteriormente. En la fila 3 columna 1, agregue un código de proveedor que no exista en la aplicación. Agregue más información del proveedor falsa a la fila.
 
-    [![Archivo de Microsoft Excel de ejemplo para importar desde SharePoint](./media/GERImportFromSharePoint-15-Excel.PNG)](./media/GERImportFromSharePoint-15-Excel.PNG)
+    [![Ejemplo de archivo de Microsoft Excel para importar desde SharePoint](./media/GERImportFromSharePoint-15-Excel.PNG)](./media/GERImportFromSharePoint-15-Excel.PNG)
 
 2. Cargue el archivo de Excel actualizado que contenga transacciones de proveedores en la carpeta de SharePoint **Origen de la importación de los archivos (principal)**.
 3. En Finance and Operations, abra el árbol de configuraciones de ER, seleccione el **Modelo de sueldo 1099** y amplíe la lista de componentes del modelo de ER.
@@ -192,4 +192,3 @@ También puede abrir la página **Estados de archivo para los orígenes** selecc
 11. En Finance and Operations, seleccione **Proveedores** \> **Tareas periódicas** \> **Impuesto 1099** \> **Liquidación del proveedor para 1099**, introduzca los valores adecuados en los campos **Fecha inicial** y **Fecha final** y, a continuación, seleccione **Transacciones 1099 manuales**.
 
     Solo están disponibles las transacciones para el asiento V-00001. No están disponibles las transacciones para el asiento V-00002 aunque se ha encontrado el error para la última transacción importada en el archivo de Excel.
-

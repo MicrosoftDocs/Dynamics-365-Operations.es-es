@@ -1,14 +1,14 @@
 ---
 title: Especificar el tipo de cambio cruzado
-description: "Este tema proporciona información sobre cambios cruzados en Microsoft Dynamics 365 for Finance and Operations."
+description: Este tema proporciona información acerca de cambios cruzados en Microsoft Dynamics 365 for Finance and Operations.
 author: abruer
 manager: AnnBe
 ms.date: 05/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
 ms.openlocfilehash: 112f77738b33aae94babe0cf8e9e61ff2ea3d004
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320245"
 ---
-
 # <a name="specify-the-cross-rate"></a>Especificar el tipo de cambio cruzado
 
 [!include [banner](../includes/banner.md)]
@@ -45,4 +44,3 @@ Por ejemplo, la divisa de contabilidad es USD, la divisa de la factura es CAD y 
 3.  Para un cliente, en la página de lista **Todos los clientes**, vaya a **Cobrar > Liquidar transacciones abiertas**. Para un proveedor, en la página de lista **Todos los proveedores**, vaya a **Factura > Liquidar transacciones abiertas**. 
 4.  Seleccione la transacción que es el pago principal y haga clic en en **Marcar pago**. Se selecciona la casilla de la columna **Marcar** y se muestra un icono de información en la columna **Pago principal**. 
 5.  En el campo **Tipo de cambio cruzado**, especifique el tipo de cambio entre la divisa de la factura y la divisa de pago, en la fecha de liquidación. 
-

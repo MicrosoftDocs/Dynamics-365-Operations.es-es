@@ -1,13 +1,13 @@
 ---
 title: Facturas de anticipo frente a anticipos
-description: "Este tema describe y contrasta los dos métodos que las organizaciones pueden usar para los pagos anticipados (anticipos). En un método, crea una factura de anticipo asociada a un pedido de compra. En el otro método, crea asientos del diario de anticipos creando entradas de diario y marcándolas como asientos del diario de anticipos."
+description: Este tema describe y contrasta los dos métodos que las organizaciones pueden usar para los pagos anticipados (anticipos). En un método, crea una factura de anticipo asociada a un pedido de compra. En el otro método, crea asientos del diario de anticipos creando entradas de diario y marcándolas como asientos del diario de anticipos.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, PurchTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c81045b72d15f4474d82040d7725740cff5eba91
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c1f30e375b759641875ed6a5a7d2f77132715c57
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310148"
 ---
-
 # <a name="prepayment-invoices-vs-prepayments"></a>Facturas de anticipo frente a anticipos
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +38,7 @@ Las organizaciones pueden emitir anticipos o pagos por adelantado a proveedores 
 | Factura en anticipo                                                                | Pagos por adelantado                                                              |
 |-------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
 | Defina un valor de anticipo en el pedido de compra.                                    | No se define un valor de anticipo en el pedido de compra.                    |
-| Clave: deben registrarse una factura en anticipo y una factura final.                       | No se debe haber registrada ninguna factura en anticipo.                                    |
+| Clave: deben registrarse una factura en anticipo y una factura final.                       | No se debe haber registrada ninguna factura en anticipo.                                    |
 | El pasivo para el anticipo se mantiene en la cuenta de anticipo, no la cuenta de proveedores. | El pasivo para el anticipo se mantiene en la cuenta de proveedores.                  |
 | El saldo del proveedor no refleja el valor del anticipo en el proceso.     | El saldo del proveedor refleja el valor del anticipo en el proceso. |
 | La facturación en anticipo está disponible solo en Proveedores.                         | Los anticipos están disponibles en Clientes y Proveedores.    |
@@ -49,21 +48,20 @@ Las prácticas de contabilidad de muchos países o regiones exigen que los antic
 
 1.  Configure un perfil de contabilización para anticipos.
 2.  En los parámetros de clientes y proveedores, en **Impuestos y contabilidad**, seleccione el nuevo perfil de contabilización mediante el parámetro **Perfil de registro para diario de pagos con pagos por adelantado**.
-3.  Cree un diario de pagos y, a continuación, cree el nuevo pago.
+3.  Cree un diario de pagos y, a continuación, cree el nuevo pago.
 4.  Puede marcar el pago como un anticipo. Si el pago se marca como anticipo, el pago se registra en las cuentas contables definidas en el perfil de contabilización que se configura en los pasos 1 y 2. Además, si el pago se marca como anticipo, se calculan los impuestos. Algunos gobiernos exigen pagar los impuestos cuando se registra un anticipo, incluso si no hay una factura.
 5.  Registre el pago por adelantado.
-6.  Opcional: puede liquidar el pago por adelantado con respecto al pedido de compra o el pedido de ventas antes de crear la factura. En la página del pedido de ventas o de compra, en el panel de acciones, use **Liquidar transacciones**.
-7.  Cuando el proveedor entregue los bienes o servicios, registre la factura. Si se liquidó el anticipo con el pedido de compra o de ventas en el paso 6, el anticipo se liquida automáticamente con la factura que creada. Si no liquidó el anticipo con el pedido de compra o el pedido de ventas, puede hacerlo manualmente con la factura mediante **Liquidar transacciones**, en la página del cliente o del proveedor. El importe del anticipo a continuación se revierte de la cuenta contable de proveedor y cliente temporal. Además, si se han calculado los impuestos, estos se revierten, ya que la factura tiene los impuestos reales.
+6.  Opcional: puede liquidar el pago por adelantado con respecto al pedido de compra o el pedido de ventas antes de crear la factura.En la página del pedido de ventas o de compra, en el panel de acciones, use **Liquidar transacciones**.
+7.  Cuando el proveedor entregue los bienes o servicios, registre la factura. Si se liquidó el anticipo con el pedido de compra o de ventas en el paso 6, el anticipo se liquida automáticamente con la factura que creada. Si no liquidó el anticipo con el pedido de compra o el pedido de ventas, puede hacerlo manualmente con la factura mediante **Liquidar transacciones**, en la página del cliente o del proveedor. El importe del anticipo a continuación se revierte de la cuenta contable de proveedor y cliente temporal. Además, si se han calculado los impuestos, estos se revierten, ya que la factura tiene los impuestos reales.
 
 ## <a name="overview-of-the-prepayment-invoicing-process"></a>Información general del proceso de facturación en anticipo
-Las facturas en anticipo son una práctica empresarial habitual. Un proveedor emite facturas en anticipo para exigir un depósito en la compra antes de que se satisfaga el pedido de compra. Por ejemplo, algunos proveedores piden un anticipo para ciertos bienes o servicios personalizados. Si un proveedor emite una factura que exige un anticipo, puede usar la función de factura en anticipo. Se puede definir un valor de anticipo en el pedido de compra, se registra y se paga una factura en anticipo y, a continuación, la factura en anticipo se aplica a la factura final. Siga estos pasos para crear un anticipo:
+Las facturas en anticipo son una práctica empresarial habitual. Un proveedor emite facturas en anticipo para exigir un depósito en la compra antes de que se satisfaga el pedido de compra. Por ejemplo, algunos proveedores piden un anticipo para ciertos bienes o servicios personalizados. Si un proveedor emite una factura que exige un anticipo, puede usar la función de factura en anticipo. Se puede definir un valor de anticipo en el pedido de compra, se registra y se paga una factura en anticipo y, a continuación, la factura en anticipo se aplica a la factura final. Siga estos pasos para crear un anticipo:
 
 1.  El agente de compra crea, confirma y envía un pedido de compra para el cual el proveedor ha pedido un anticipo. El valor del anticipo se define en el pedido de compra como parte del acuerdo.
 2.  El proveedor envía una factura de anticipo.
 3.  El coordinador de Proveedores registra la factura en anticipo con el pedido de compra y, a continuación, se paga la factura de anticipo.
 4.  Cuando el proveedor entrega los bienes o servicios y se reciben las facturas de proveedor, el coordinador de Proveedores aplica el importe de anticipo pagado en la factura.
 5.  El coordinador de Proveedores paga y liquida el importe restante de la factura.
-
 
 
 

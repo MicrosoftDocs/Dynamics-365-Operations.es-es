@@ -1,13 +1,13 @@
 ---
-title: "Devolución de IVA en Gestión de gastos"
-description: "En este tema se explica cómo recibir devoluciones en las transacciones aptas para el impuesto sobre el valor añadido (IVA)."
+title: Devolución de IVA en Gestión de gastos
+description: En este tema se explica cómo recibir devoluciones en las transacciones aptas para el impuesto sobre el valor añadido (IVA).
 author: saraschi2
 manager: AnnBe
 ms.date: 02/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvPerDiems
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8bc9e533de40aa8fe8ddfe422cfe0f4078a360c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 25fa39dc81fc721d7593a25a102ce47041ebc5f0
-ms.openlocfilehash: d1c9357f8f51e1a87aebeb8f802dbe3b5fdd5aa0
-ms.contentlocale: es-es
-ms.lasthandoff: 03/13/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359575"
 ---
-
 # <a name="vat-recovery-in-expense-management"></a>Devolución de IVA en Gestión de gastos
 
 [!include [banner](../includes/banner.md)]
@@ -75,4 +74,3 @@ Cuando Arnie puede enviar los datos del informe de gastos al proveedor de tercer
 Arnie debe comprobar que las transacciones del informe de gastos son aptas para la devolución de IVA y que los recibos digitales se han adjuntado a los informes. Para empezar a procesar los gastos aptos para la devolución nacional, Arnie abre la página **Devolución de impuestos de gastos** y selecciona el informe de gastos que necesita comprobarse. Comprueba que los recibos figuran a nombre de la empresa en lugar del empleado. Para la devolución del IVA, los recibos deben estar a nombre de la empresa. Arnie confirma que se han aplicado los códigos correctos del grupo de impuestos sobre las ventas y de impuestos de ventas de artículos.
 
 Cuando Arnie recibe los recibos en papel, cambia el estado del informe de gastos a **Listo para devolución**. A continuación, puede presentar la devolución ante la autoridad fiscal adecuada. En este caso, la autoridad fiscal adecuada de Estados Unidos es Internal Revenue Service (IRS).
-

@@ -1,32 +1,31 @@
 ---
-title: "Diseños de pantalla de datos de demostración en Retail Modern POS (MPOS) y Cloud POS"
-description: "Este tema proporciona información sobre los diseños de pantalla que se incluyen con el conjunto de datos de demostración para las experiencias de punto de venta (PDV) en Microsoft Dynamics 365 for Retail."
+title: Diseños de pantalla de datos de demostración en Retail Modern POS (MPOS) y Cloud POS
+description: Este tema proporciona información sobre los diseños de pantalla que se incluyen con el conjunto de datos de demostración para las experiencias de punto de venta (PDV) en Microsoft Dynamics 365 for Retail.
 author: zlinster
 manager: AnnBe
 ms.date: 10/05/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: zlinster
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 8fe0ea3e7715fcbebc3ed590c85ee399c6192584
-ms.contentlocale: es-es
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352491"
 ---
-
 # <a name="demo-data-screen-layouts-in-retail-modern-pos-mpos-and-cloud-pos"></a>Diseños de pantalla de datos de demostración en Retail Modern POS (MPOS) y Cloud POS
 
 [!include [banner](includes/banner.md)]
@@ -108,7 +107,7 @@ En la tabla siguiente se muestran los tamaños de diseño que se ofrecen para re
 \* Estos tamaños de diseño adicionales solo están disponibles en los diseños de Adventure Works y de Fabrikam.
 
 > [!TIP]
-> PDV selecciona automáticamente los tamaños de diseño, en función del tamaño más cercano disponible para la resolución de pantalla de la ventana de la aplicación actual. Para buscar el identificador de diseño de pantalla y la resolución de diseño que se usan actualmente, en Retail Modern POS (MPOS) o Retail Cloud POS (CPOS), abra la página **Valores** , y busque en la sección **Información sobre la sesión**. También puede ver la resolución real de la ventana para la aplicación o el marco del explorador actual. Cuando tenga esta información, puede buscar el origen del contenido de diseño en Retail yendo a **Configuración de canal** \> **Configuración de PDV** \> **PDV** \> **Diseños de pantalla**.
+> PDV selecciona automáticamente los tamaños de diseño, en función del tamaño más cercano disponible para la resolución de pantalla de la ventana de la aplicación actual. Para buscar el identificador de diseño de pantalla y la resolución de diseño que se usan actualmente, en Retail Modern POS (POS) o Retail Cloud CPOS (CPOS), abra la página **Valores** , y busque en la sección **Información sobre la sesión**. También puede ver la resolución real de la ventana para la aplicación o el marco del explorador actual. Cuando tenga esta información, puede buscar el origen del contenido de diseño en Retail yendo a **Configuración de canal** \> **Configuración de PDV** \> **PDV** \> **Diseños de pantalla**.
 
 ![Diseños de pantalla y resoluciones/tamaños del diseño en Retail y PDV](../retail/media/demo-screen-layouts-fig-3-1.png)
 
@@ -175,4 +174,3 @@ Se han proporcionado usuarios para los distintos diseños de pantalla. Mediante 
 <!-- Use the [POS Icon and Image Mapping](../retail/media/POS_Icon_and_Image_Mapping.xlsx) reference spreadsheet to locate operation icons, reference photos, swap logos, or provide new images of your own that can be referenced in custom designs. -->
 
 <!-- END HIDDEN CONTENT -->
-

@@ -1,32 +1,30 @@
 ---
-title: "Visión general del flujo de trabajo de suscripción"
-description: "Este tema proporciona una visión general del flujo de trabajo de suscripción."
+title: Visión general del flujo de trabajo de suscripción
+description: Este tema proporciona una visión general del flujo de trabajo de suscripción.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/07/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMASubscriptionGroup, SMASubscriptionCreateDialog
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b5cff6910dcb273fc081443546676426387f6625
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: b4872c0753b54bdddf2c7778a13819726eea4a90
-ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321648"
 ---
-
-
 # <a name="subscription-workflow-overview"></a>Visión general del flujo de trabajo de suscripción 
 
 [!include [banner](../includes/banner.md)]
@@ -57,6 +55,5 @@ Dos días más tarde, el cliente se pone en contacto con usted para indicarle qu
 Al final de cada mes, se pueden acumular los ingresos de un mes de la suscripción del cliente en la cuenta de pérdidas y ganancias y las cuentas de trabajo en curso. Para obtener más información acerca de cómo se acumulan los ingresos de las suscripciones, vea [Acumular ingresos de suscripción](accrue-subscription-revenue.md).
 
   
-
 
 

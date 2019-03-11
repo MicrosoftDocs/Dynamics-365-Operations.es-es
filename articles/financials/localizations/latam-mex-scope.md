@@ -1,14 +1,14 @@
 ---
-title: "Ámbito de localización mexicana"
-description: "Este tema describe la estrategia y el ámbito relativos a impuestos, finanzas, y leyes y normativas de contabilidad en México que se han implementado como parte de Microsoft Dynamics AX o de Microsoft Dynamics 365 for Finance and Operations."
+title: Ámbito de localización mexicana
+description: Este tema describe la estrategia y el ámbito relativos a impuestos, finanzas, y leyes y normativas de contabilidad en México que se han implementado como parte de Microsoft Dynamics AX o de Microsoft Dynamics 365 for Finance and Operations.
 author: sndray
 manager: AnnBe
 ms.date: 04/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -16,14 +16,13 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 71623beb27f63aa457732f23d7ea177c642ddc1f
 ms.openlocfilehash: 5abebdf8c7c87d7f317fe8520628b14804084629
-ms.contentlocale: es-es
-ms.lasthandoff: 08/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370456"
 ---
-
 # <a name="scope-of-the-mexican-localization"></a>Ámbito de la localización mexicana
 
 [!include[banner](../includes/banner.md)]
@@ -554,7 +553,7 @@ Los siguientes requisitos específicos están fuera de ámbito en las localizaci
 - Requisitos de agencias reguladoras o autarquías distintos del SAT.
 
 ### <a name="modules"></a>Módulos
-Los siguientes módulos están fuera de ámbito en las localizaciones mexicanas de Microsoft Dynamics AX y Finance and Operations.
+Los siguientes módulos están fuera de ámbito en las localizaciones mexicanas de Microsoft Dynamics AX y Finance and Operations:
 
 - Gestión presupuestaria
 - Contabilidad de costes
@@ -570,7 +569,7 @@ Los siguientes módulos están fuera de ámbito en las localizaciones mexicanas 
 - Enterprise Portal para Microsoft Dynamics AX
 
 ### <a name="features-and-functionality"></a>Características y funcionalidades
-Los siguientes características y funcionalidades están fuera de ámbito en las localizaciones mexicanas de Microsoft Dynamics AX y Finance and Operations.
+Los siguientes características y funcionalidades están fuera de ámbito en las localizaciones mexicanas de Microsoft Dynamics AX y Finance and Operations:
 
 - Flujo de efectivo
 - Gestión de cobros
@@ -586,15 +585,15 @@ Los siguientes características y funcionalidades están fuera de ámbito en las
 - Portal de autoservicio para proveedores
 
 ### <a name="industries"></a>Sectores
-- **En general** El sector siguiente está fuera de ámbito en las localizaciones mexicanas de Microsoft Dynamics AX y Finance and Operations.
+- **En general:** El sector siguiente está fuera de ámbito en las localizaciones mexicanas de Microsoft Dynamics AX y Finance and Operations.
 
     - Sector público
 
 - **Industrias minoristas:**
 
-    - **Servicios comerciales:** Los servicios en línea siguientes están fuera de ámbito en los servicios comerciales de Microsoft Dynamics AX y Finance and Operations.
+    - **Servicios comerciales**: Los servicios en línea siguientes están fuera de ámbito en los servicios comerciales de Microsoft Dynamics AX y Finance and Operations.
 
-        - Servicios de sitios para Microsoft Dynamics ERP
+        - Sites Services para Microsoft Dynamics ERP
         - Servicios de comercio para Microsoft Dynamics ERP
         - Retail Server y POS modernos
 
@@ -606,4 +605,3 @@ El [Portal de localización de Microsoft Dynamics](https://mbs.microsoft.com/par
 
 ## <a name="notes"></a>Notas
 **Régimen especial (régimen especial)** hace referencia a cualquier tratamiento diferenciado, excepto la liberación de los impuestos, que la autoridad fiscal autoriza con respecto a los requisitos generales de la regla de impuestos (federal, estatal o municipal) y las obligaciones suplementarias, para simplificar el cumplimiento de las obligaciones fiscales del contribuyente en casos peculiares.
-

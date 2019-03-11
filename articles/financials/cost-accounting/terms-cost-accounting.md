@@ -1,13 +1,13 @@
 ---
-title: "Terminología de contabilidad de costes"
-description: "Este tema define los términos clave que se utilizan en la Contabilidad de costes."
+title: Terminología de contabilidad de costes
+description: Este tema define los términos clave que se utilizan en la Contabilidad de costes.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/31/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostAccountingLedger
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 702fa3cb4219aecd95a74d3c225e104be5f281fc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 1ec2f4a407c705fb37681f5593d0f7ea31f4cf0f
-ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365946"
 ---
-
 # <a name="cost-accounting-terminology"></a>Terminología de contabilidad de costes
 
 [!include [banner](../includes/banner.md)]
@@ -119,7 +118,7 @@ Existen dos jerarquías de dimensión: jerarquía de categorización y jerarquí
 La contabilidad de costes admite la integración de datos de los sistemas de origen mediante los conectores de un conjunto de datos. Están disponibles los siguientes conectores de datos:
 
 -  Transacción importadas (preconfiguradas)
--  Dynamics 365 for Finance and Operations (preconfigurado)
+-  Dynamics 365 for Finance and Operations (configurado previamente)
 -  Dynamics AX (configuración necesaria)
 
 **Nota:** las transacciones que importó el conector de datos están basadas en entidades de datos.
@@ -204,6 +203,5 @@ Las instrucciones son vistas para los administradores responsables del control d
 **Versión**
 
 Las versiones se usan para simular, ver y comparar resultados diferentes. De forma predeterminada, todos los costes reales se ven en una versión base que se conoce como *real*. Para los presupuestos y los cálculos, puede trabajar con tantas versiones como sea necesario. Por ejemplo, puede importar datos de presupuesto en una versión original y después revisar el presupuesto en una versión revisada. Para los cálculos, puede crear varias versiones. En estas diferentes versiones, puede crear cálculos mediante diferentes reglas de cálculo que se aplicarán a la asignación de costes.
-
 
 

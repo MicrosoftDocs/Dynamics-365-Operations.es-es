@@ -1,13 +1,13 @@
 ---
 title: Planificar su plan de cuentas
-description: "Este tema proporciona información que le ayudará a planificar el plan de cuentas para su organización."
+description: Este tema proporciona información que le ayudará a planificar el plan de cuentas para su organización.
 author: aprilolson
 manager: AnnBe
 ms.date: 04/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DimensionConfigureAccountStructure, LedgerChartOfAccounts
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 93d5ef19a4b1cb2885c611c8675ac06fd841ac56
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3f8d97fc42cde9053b0552fc1dfe8e6de0f5e03b
-ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337587"
 ---
-
 # <a name="plan-your-chart-of-accounts"></a>Planificar su plan de cuentas
 
 [!include [banner](../includes/banner.md)]
@@ -61,4 +60,3 @@ Para obtener más información, consulte los siguientes temas:
 
 - [Dimensiones financieras](financial-dimensions.md)
 - [Crear y asignar estructuras de reglas avanzadas](tasks/create-assign-advanced-rule-structures.md)
-

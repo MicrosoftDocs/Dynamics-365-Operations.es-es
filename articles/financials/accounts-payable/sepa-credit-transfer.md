@@ -1,13 +1,13 @@
 ---
-title: "Visión general de transferencias de crédito SEPA"
-description: "Este artículo proporciona información general acerca las transferencias de crédito ISO 20022, que incluyen las transferencias de crédito de la Zona Única de Pagos en Euros (SEPA) y cualquier otro pago electrónico para proveedores. La transferencia de crédito SEPA es un tipo específico de pago (en euros) de una empresa o un individuo a otra empresa o individuo. El tema también explica cómo configurar y transmitir un archivo de pago de transferencia de crédito."
+title: Visión general de transferencias de crédito SEPA
+description: Este artículo proporciona información general acerca las transferencias de crédito ISO 20022, que incluyen las transferencias de crédito de la Zona Única de Pagos en Euros (SEPA) y cualquier otro pago electrónico para proveedores. La transferencia de crédito SEPA es un tipo específico de pago (en euros) de una empresa o un individuo a otra empresa o individuo. El tema también explica cómo configurar y transmitir un archivo de pago de transferencia de crédito.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransVendInvoice, LedgerJournalTransVendPaym, VendPaymMode
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d6081c12ea65812a15b50c627330b4566ab4c679
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1aa70dea3b0e7056afbdba96f4475c3e7e71f57c
-ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363784"
 ---
-
 # <a name="sepa-credit-transfer-overview"></a>Visión general de transferencias de crédito SEPA
 
 [!include [banner](../includes/banner.md)]
@@ -124,7 +123,6 @@ El número internacional de cuenta bancaria (IBAN) y el código de identificador
 
 ## <a name="how-do-i-transmit-a-payment-file-to-the-bank"></a>¿Cómo transmito un archivo de pago al banco?
 Al generar pagos, se genera el archivo de pago y se le pedirá que lo guarde desde el explorador web en cualquier ubicación disponible. El siguiente paso es enviar el archivo XML al banco. Este proceso varía de banco a banco. Siga las instrucciones de su banco para enviar los archivos al banco para procesamiento.
-
 
 
 

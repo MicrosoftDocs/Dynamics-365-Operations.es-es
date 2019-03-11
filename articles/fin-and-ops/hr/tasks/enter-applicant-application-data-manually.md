@@ -1,13 +1,13 @@
---- 
+---
 title: Especificar los datos del candidato y de la solicitud manualmente
-description: "Este procedimiento muestra cómo mantener manualmente la información de los candidatos y sus solicitudes."
+description: Este procedimiento muestra cómo mantener manualmente la información de los candidatos y sus solicitudes.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmApplicant, LogisticsContactInfoGrid, HRMApplication,  DirPartyTable
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 60b3d155826d234744c9805b18edf0226e237ed3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6aef83b18ba5f18506921e08f3674b6bb272d3ab
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364543"
 ---
 # <a name="enter-applicant-and-application-data-manually"></a>Especificar los datos del candidato y de la solicitud manualmente
 
@@ -61,5 +61,4 @@ Este procedimiento muestra cómo mantener manualmente la información de los can
     * De forma predeterminada, el trabajo y el departamento se basan en el proyecto de contratación seleccionado.  
 6. Haga clic en Guardar.
     * Tras guardar la solicitud, puede adjuntarle documentos, incluida la experiencia del candidato, los títulos y una carta de presentación.  
-
 

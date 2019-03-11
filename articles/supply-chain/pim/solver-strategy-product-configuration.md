@@ -1,39 +1,38 @@
 ---
-title: "Estrategia de solucionador para la configuración de productos"
-description: "Este tema describe cómo puede usar la estrategia de solucionador para mejorar el rendimiento de la configuración de productos."
+title: Estrategia de solucionador para la configuración de productos
+description: Este tema describe cómo puede usar la estrategia de solucionador para mejorar el rendimiento de la configuración de productos.
 author: cvocph
 manager: AnnBe
 ms.date: 01/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCCreateProductConfigurationModel, PCProductConfigurationModelListPage
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d0abb9313ec62cfdfe3bf7c810e2143dcf502bf9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 4544128e580b30b14a6236a9a6147ff0a8641d72
-ms.contentlocale: es-es
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351157"
 ---
-
 # <a name="solver-strategy-for-product-configuration"></a>Estrategia de solucionador para la configuración de productos
 
 [!include [banner](../includes/banner.md)]
 
 Este tema describe cómo puede usar la estrategia de solucionador para mejorar el rendimiento de la configuración de productos.
 
-El concepto de estrategias de solucionador se introdujo primero en la actualización acumulativa 7 (CU7) para Microsoft Dynamics AX 2012 R2. Se amplió en la actualización acumulativa 8 (CU8) para Microsoft Dynamics AX 2012 R3 y Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3.
+El concepto de estrategias de solucionador se introdujo primero en la actualización acumulativa 7 (CU7) para Microsoft Dynamics AX 2012 R2. Fue ampliado en la actualización acumulativa 8 (CU8) para Microsoft Dynamics AX 2012 R3 y Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3.
 
 El concepto de la estrategia de solucionador consta ahora de las siguientes estrategias:
 
@@ -74,4 +73,3 @@ La siguiente tabla proporciona recomendaciones acerca de la estrategia de soluci
 [Heurística](https://techterms.com/definition/heuristic)
 
 [Problema de satisfacción de restricción](http://aima.cs.berkeley.edu/2nd-ed/newchap05.pdf)
-

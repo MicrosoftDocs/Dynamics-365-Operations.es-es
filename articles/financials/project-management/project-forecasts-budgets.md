@@ -1,13 +1,13 @@
 ---
 title: Previsiones y presupuestos del proyecto
-description: Microsoft Dynamics 365 for Finance and Operations proporciona previsiones y presupuestos de proyecto para gestionar y controlar los proyectos.
+description: Microsoft Dynamics 365 for Finance and Operations proporciona previsiones de proyectos y presupuestos de proyectos para gestionar y controlar los proyectos.
 author: KimANelson
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ForecastModel, ProjYearEndProcess
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 530a2717427c540d80509c4862e6fb8ea7c5694a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: e31a013d6bf33b92b02bd9645a19380ba07f4a05
-ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310401"
 ---
-
 # <a name="project-forecasts-and-budgets"></a>Previsiones y presupuestos del proyecto
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Finance and Operations proporciona dos formas de gestionar y controlar los proyectos: previsiones de proyecto y presupuestos de proyecto. 
+Microsoft Dynamics 365 for Finance and Operations proporciona dos formas para gestionar y controlar los proyectos: las previsiones de proyectos y los presupuestos de proyectos. 
 
 Puede usar la previsión si su organización tiene una perspectiva operativa y se centra en los ingresos y costes derivados de transacciones específicas. Puede usar la gestión presupuestaria si su organización se centra en mayor medida en los importes financieros. 
 
@@ -80,7 +79,6 @@ Los presupuestos de proyecto se asocian automáticamente a dos modelos de previs
 Los modelos de previsión tienen una jerarquía de una sola capa. Esto significa que una previsión de proyecto se debe asociar a un modelo de previsión.
 
 Si utiliza la previsión de proyecto, puede identificar los modelos como submodelos. A continuación, puede crear previsiones por departamentos, períodos de tiempo o regiones. Por ejemplo, podría crear un modelo de previsión para un año y, a continuación, crear submodelos para las previsiones regionales del noreste, el sureste, el noroeste y el suroeste que envían los encargados regionales. Mediante la selección de diferentes opciones en los informes disponibles, puede visualizar la información por previsión total o por submodelos.
-
 
 
 

@@ -1,13 +1,13 @@
---- 
+---
 title: Crear un nuevo producto
-description: "Esta tarea muestra cómo crear un nuevo producto compartido."
+description: Esta tarea muestra cómo crear un nuevo producto compartido.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductListPage, EcoResProductCreate, EcoResProductDetails, EcoResProductInventoryDimensionGroups
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 7a603d89749242a4c6039ab83da286ec6ab727d8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 56ce5d965952d0cb41278915e4631ae9d920f5f9
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328548"
 ---
 # <a name="create-a-new-product"></a>Crear un nuevo producto
 
@@ -46,5 +46,4 @@ Esta tarea muestra cómo crear un nuevo producto compartido. Normalmente se llev
 3. En el campo Grupo de dimensiones de seguimiento, especifique o seleccione un valor.
     * El grupo de dimensiones de seguimiento determina qué dimensiones de seguimiento debe especificar para cada transacción para el producto y cómo se controlará en el inventario.  
 4. Haga clic en Aceptar
-
 

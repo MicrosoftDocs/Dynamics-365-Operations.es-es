@@ -1,14 +1,14 @@
 ---
 title: La extensibilidad en Attract
-description: "Este tema describe cómo puede ampliar la aplicación Microsoft Dynamics 365 for Talent - Attract con Microsoft Power Platform."
+description: Este tema describe cómo puede ampliar la aplicación Microsoft Dynamics 365 for Talent - Attract con la plataforma Microsoft Power.
 author: josaw
 manager: AnnBe
 ms.date: 10/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,23 +18,22 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
+ms.openlocfilehash: d9e1dd3a67c5f64b5d05f0f171226085138e0b44
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: 0af60a0aea0f7a5de793631445aaebb37dbb0d74
-ms.contentlocale: es-es
-ms.lasthandoff: 10/22/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306083"
 ---
-
 # <a name="extensibility-in-attract"></a>La extensibilidad en Attract
 
 [!include[banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent se crea encima de la plataforma Common Data Service (CDS) for Apps y se puede ampliar de distintas formas con Microsoft Power Platform y las capacidades que Common Data Service for Apps ofrece. Por lo tanto, puede configurar y personalizar el sistema mediante Microsoft PowerApps y Microsoft Flow. También puede obtener un análisis adicional sobre personas usando Microsoft Power BI. Además, las nuevas actividades personalizadas, como las actividades de PowerApps y contenido Web (iframe), crean un proceso de contratación más personalizable que nunca. Con estas actividades, puede ajustar el proceso de contratación a sus necesidades y procesos de negocio, y puede asegurarse de que tanto el equipo de contratación como los candidatos tienen una experiencia perfecta y personalizada.
+Microsoft Dynamics 365 for Talent se crea encima de la plataforma Common Data Service (CDS) for Apps y se puede ampliar de distintas formas con la plataforma Microsoft Power y las capacidades que Common Data Service for Apps ofrece. Por lo tanto, puede configurar y personalizar el sistema mediante Microsoft PowerApps y Microsoft Flow. También puede obtener un análisis adicional sobre personas usando Microsoft Power BI. Además, las nuevas actividades personalizadas, como las actividades de PowerApps y contenido Web (iframe), crean un proceso de contratación más personalizable que nunca. Con estas actividades, puede ajustar el proceso de contratación a sus necesidades y procesos de negocio, y puede asegurarse de que tanto el equipo de contratación como los candidatos tienen una experiencia perfecta y personalizada.
 
 ## <a name="take-advantage-of-the-microsoft-power-platform"></a>Aproveche Microsoft Power Platform 
 
-Dado que todos los datos de Attract residen en Common Data Service for Apps, puede usar herramientas de Microsoft Power Platform para especificar sus necesidades empresariales únicas en Attract.
+Dado que todos los datos de Attract residen en Common Data Service for Apps, puede usar herramientas de la plataforma Microsoft Power para especificar sus necesidades empresariales únicas en Attract.
 
 ### <a name="powerapps"></a>PowerApps
 
@@ -44,11 +43,11 @@ Por ejemplo, puede facilitar la asistencia a ferias de carreras universitarias p
 
 ### <a name="microsoft-flow"></a>Microsoft Flow 
 
-Puede usar Microsoft Flow para crear flujos de trabajo automatizados que se ejecutan encima de datos de Attract. Es fácil conectarse a cientos de aplicaciones y servicios populares sin tener que escribir código. Construyendo flujos que interactúan con las entidades de trabajo, candidato, y aplicación en Common Data Service for Apps, puede automatizar distintas acciones. Por ejemplo, cuando un candidato acepta una propuesta, una notificación se puede enviar a un equipo de incorporación, o la noticia se puede anunciar en Twitter. Para obtener más información acerca de flujos, consulte la [documentación de Microsoft Flow](https://docs.microsoft.com/en-us/flow/)
+Puede usar Microsoft Flow para crear flujos de trabajo automatizados que se ejecutan encima de datos de Attract. Es fácil conectarse a cientos de aplicaciones y servicios populares sin tener que escribir código. Construyendo flujos que interactúan con las entidades de trabajo, candidato, y aplicación en Common Data Service for Apps, puede automatizar distintas acciones. Por ejemplo, cuando un candidato acepta una propuesta, una notificación se puede enviar a un equipo de incorporación, o la noticia se puede anunciar en Twitter. Para obtener más información acerca del seguimiento, consulte la [documentación de Microsoft Flow](https://docs.microsoft.com/en-us/flow/).
 
 ### <a name="power-bi"></a>Power BI
 
-Power BI le permite crear y ver informes personalizados y paneles que le proporcionan una penetración más detallada de los datos de Attract. Para obtener más información sobre Power BI y cómo crear informes interactivos y los paneles, consulte [Documentación de Power BI](https://docs.microsoft.com/en-us/power-bi/).
+Power BI le permite crear y ver informes personalizados y paneles que le proporcionan una penetración más detallada de los datos de Attract. Para obtener más información sobre Power BI y cómo crear informes interactivos y los paneles, consulte [la documentación de Power BI](https://docs.microsoft.com/en-us/power-bi/).
 
 ### <a name="custom-activities"></a>Actividades personalizadas 
 
@@ -67,4 +66,3 @@ La actividad de contenido Web (iframe) le permite insertar una solución web per
 
 > [!NOTE]
 > La actividad de contenido web está disponible únicamente con el complemento de contratación completo.
-

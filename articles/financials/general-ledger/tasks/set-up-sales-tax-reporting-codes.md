@@ -1,13 +1,13 @@
---- 
-title: "Configurar códigos de notificación de impuestos"
-description: "Los códigos de notificación de impuestos hacen referencia a un número de campo en un informe de impuestos."
+---
+title: Configurar códigos de notificación de impuestos
+description: Los códigos de notificación de impuestos hacen referencia a un número de campo en un informe de impuestos.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxReportCollection
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 4543cf7eaa0b1ef8e32d3fdafa2c354cd3739256
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: fa32a12e49b6578c41ceb8991237a19ae3f77e17
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335678"
 ---
 # <a name="set-up-sales-tax-reporting-codes"></a>Configurar códigos de notificación de impuestos
 
@@ -41,5 +41,4 @@ Esta grabación usa la empresa de demostración DEMF.
 5. En el campo de texto del informe, escriba una descripción para mostrar en los informes.
 6. En el campo Descripción breve, escriba una descripción para fines internos.
 7. Haga clic en Guardar.
-
 

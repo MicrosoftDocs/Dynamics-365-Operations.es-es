@@ -1,13 +1,13 @@
---- 
+---
 title: Configurar procesamiento de oleadas
-description: "En esta guía se describe cómo configurar los criterios que determinan qué trabajo se genera para un almacén cuando se procesa una oleada y si las oleadas se procesan manual o automáticamente."
+description: En esta guía se describe cómo configurar los criterios que determinan qué trabajo se genera para un almacén cuando se procesa una oleada y si las oleadas se procesan manual o automáticamente.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSParameters, ProdParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 399146d35388a0151abb23e57bc36ec0173be928
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f7a6db585468c235e07c4a0117a83995ec93f4b0
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337518"
 ---
 # <a name="configure-wave-processing"></a>Configurar procesamiento de oleadas
 
@@ -68,5 +68,4 @@ En esta guía se describe cómo configurar los criterios que determinan qué tra
 24. En el campo Liberar al almacén, seleccione una opción.
     * Para los pedidos de ventas y las órdenes de kanban, el inventario se debe reservar antes de que el pedido se libere al almacén. Si no, los artículos o las líneas de asignación no se pueden procesar en una oleada. Para los pedidos de producción, también tiene la opción de elegir Permitir la reserva parcial. Por ejemplo, esto resulta útil si tiene los materiales que necesita para iniciar una producción, y puede esperar hasta que los materiales adicionales estén disponibles para finalizar el proceso. Si selecciona esta opción, debe repetir manualmente el proceso de liberación al almacén cuando los materiales adicionales estén disponibles.  
 25. Cierre la página.
-
 

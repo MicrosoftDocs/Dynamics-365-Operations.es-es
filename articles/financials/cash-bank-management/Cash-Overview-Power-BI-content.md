@@ -1,13 +1,13 @@
 ---
-title: "Contenido de Power BI de visión general de efectivo"
-description: "Este tema describe el contenido de Power BI de visión general de efectivo. Explica cómo tener acceso a los informes que se incluyen en el contenido, y proporciona información acerca del modelo de datos y las entidades que se utilizaron para generar el contenido."
+title: Visión general de contenido de efectivo de Power BI
+description: Este tema describe el contenido de efectivo de Power BI. Explica cómo tener acceso a los informes que se incluyen en el contenido, y proporciona información acerca del modelo de datos y las entidades que se utilizaron para generar el contenido.
 author: saraschi2
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: sericks
@@ -16,23 +16,22 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 5dccb5c5c6c336607603dfc7a935c039e5ac4aa5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: 5d02a009ca988f91a212e467d4f9784248bbae76
-ms.contentlocale: es-es
-ms.lasthandoff: 12/19/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318658"
 ---
-
-# <a name="cash-overview-power-bi-content"></a>Contenido de Power BI de visión general de efectivo
+# <a name="cash-overview-power-bi-content"></a>Visión general de contenido de efectivo de Power BI
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe el contenido de Microsoft Power BI de **visión general de efectivo**. Explica cómo tener acceso a los informes que se incluyen en el contenido, y proporciona información acerca del modelo de datos y las entidades que se utilizaron para generar el contenido.
+Este tema describe el contenido del **Resumen genera de efectivol** de Microsoft Power BI. Explica cómo tener acceso a los informes que se incluyen en el contenido, y proporciona información acerca del modelo de datos y las entidades que se utilizaron para generar el contenido.
 
 ## <a name="overview"></a>Información general
 
-El contenido de Power BI **visión general de efectivo** se creó para las personas responsables del efectivo en su organización. El contenido de Power BI **visión general de efectivo** proporciona visibilidad en su flujo de efectivo. También proporcionan previsiones que pueden ayudarle a tomar decisiones mejores y por tanto mejorar el estado del flujo de efectivo. Puede analizar el efectivo por entidad jurídica, divisa y cuenta bancaria para obtener una mejor comprensión de los excesos y la escasez.
+El contenido de Power BI **Visión general de efectivo** se creó para las personas responsables del efectivo en su organización. El contenido de Power BI **Visión general de efectivo** proporciona visibilidad en su flujo de efectivo. También proporcionan previsiones que pueden ayudarle a tomar decisiones mejores y por tanto mejorar el estado del flujo de efectivo. Puede analizar el efectivo por entidad jurídica, divisa y cuenta bancaria para obtener una mejor comprensión de los excesos y la escasez.
 
 ## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI
 
@@ -43,7 +42,7 @@ Para ver los informes de previsiones de flujo de efectivo con datos, debe primer
 Como demostración, puede agregar datos de demostración de previsiones de flujo de efectivo mediante la página **Generar datos** del módulo de datos de demostración.  Este script insertará datos en tablas de previsiones de flujo de efectivo para rellenar rápidamente la información necesaria para los informes.  Este módulo solo está disponible si tiene el modelo de la suite de datos de demostración implementado en el entorno. 
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Informes que se incluyen en el contenido de Power BI
-La siguiente tabla ofrece información sobre las métricas que se encuentran en cada página de informe en el contenido de Power BI de **visión general de efectivo**.
+La siguiente tabla ofrece información sobre las métricas que se encuentran en cada página de informe en el contenido de Power BI de **Visión general de efectivo**.
 
 | Informe                                | Contenido |
 |---------------------------------------|----------|
@@ -57,7 +56,7 @@ La siguiente tabla ofrece información sobre las métricas que se encuentran en 
 
 ## <a name="understanding-the-data-model-and-entities"></a>Comprensión del modelo de datos y de las entidades
 
-En la tabla siguiente se muestran las entidades en las que se basaba el paquete de contenido de Power BI de **visión general del efectivo**.
+En la tabla siguiente se muestran las entidades en las que se basaba el paquete de contenido de Power BI de **Visión general de efectivo**.
 
 | Entidad                                                                          | Contenido |
 |---------------------------------------------------------------------------------|----------|
@@ -68,6 +67,5 @@ En la tabla siguiente se muestran las entidades en las que se basaba el paquete 
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceCompany    | Entradas, salidas y saldo de efectivo resumidos mediante la divisa de contabilidad de cada empresa |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceEnterprise | Entradas, salidas y saldo de efectivo resumidos mediante la divisa del sistema para todas las empresas |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityTransactionCurrency            | Importe neto de la transacción y saldo de divisas resumidos mediante la divisa de transacción |
-
 
 

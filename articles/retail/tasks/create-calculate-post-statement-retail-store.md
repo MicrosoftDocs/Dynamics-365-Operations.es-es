@@ -1,13 +1,13 @@
---- 
+---
 title: Crear, calcular y registrar un extracto para una tienda
-description: "Este procedimiento le guía por los pasos manuales para crear, calcular y registrar un extracto para un almacén."
+description: Este procedimiento le guía por los pasos manuales para crear, calcular y registrar un extracto para un almacén.
 author: jashanno
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailChannelOperationsWorkspace, RetailStatementTable
 audience: Application User
 ms.reviewer: josaw
@@ -17,18 +17,18 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9ea30e7e008bfcce77a7ee2f4d7d01a6cf1ababc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 33ebb28196baa9ae944dbd124274b05cb587fea4
-ms.contentlocale: es-es
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354400"
 ---
 # <a name="create-calculate-and-post-a-statement-for-a-retail-store"></a>Crear, calcular y registrar un extracto para una tienda
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-Este procedimiento le guía por los pasos manuales para crear, calcular y registrar un extracto para un almacén. También hay trabajos por lotes que se pueden configurar para las mismas tareas. Los pasos para configurar y ejecutar los trabajos por lotes se pueden encontrar en otros temas. Para completar este procedimiento, debe tener transacciones que se completaron en PDV y después se incluyeron en Dynamics AX. Este registro usa la empresa USRT en los datos de demostración. Este procedimiento puede remitir a Microsoft Dynamics AX. Tenga en cuenta que Dynamics AX ahora se denomina Microsoft Dynamics 365 for Operations.
+Este procedimiento le guía por los pasos manuales para crear, calcular y registrar un extracto para un almacén. También hay trabajos por lotes que se pueden configurar para las mismas tareas. Los pasos para configurar y ejecutar los trabajos por lotes se pueden encontrar en otros temas. Para completar este procedimiento, debe tener transacciones que se completaron en PDV y después se incluyeron en Dynamics AX. Este registro usa la empresa USRT en los datos de demostración. Este procedimiento puede referirse a Microsoft Dynamics AX. Tenga en cuenta que Dynamics AX ahora se denomina Microsoft Dynamics 365 for Operations.
 
 1. Vaya a Todos los espacios de trabajo > .. > Operaciones financieras de tienda.
 2. Haga clic en Nuevo extracto.
@@ -47,5 +47,4 @@ Este procedimiento le guía por los pasos manuales para crear, calcular y regist
 10. Haga clic en Cerrar.
 11. Vaya a Venta minorista y comercio > Canales > Operaciones financieras de tienda.
 12. Haga clic en la ficha Extractos registrados.
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Invertir el estado de una orden de producción"
-description: "En este tema se describe cómo invertir el estado del pedido de producción."
+title: Invertir el estado de una orden de producción
+description: En este tema se describe cómo invertir el estado del pedido de producción.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdParmStatusDecrease
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7ca5a62b4509f0c7e49da94128e72eae5f35829e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4761e44b6bbc93ebf4a395948f42c2a73013ecb9
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367326"
 ---
-
 # <a name="reverse-the-production-order-status"></a>Invertir el estado de una orden de producción
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ Al invertir el estado de un pedido de producción de **Liberado** a **Programado
 
 ## <a name="from-started-to-released"></a>De Iniciado a Liberado
 Al invertir el estado de un pedido de producción de **Iniciado** a **Liberado**, todos los artículos notificados como terminados se invierten. Si el material se ha seleccionado o las entregas de entrada y salida se han realizado en producción, esta configuración también se invierte. El campo **Estado de permanencia** de las líneas de L. MAT del pedido de producción se cambia de **Finalizado** a **Consumo de materiales**. Si se ha registrado el tiempo o si han notificado las cantidades como terminadas para las operaciones de la ruta de producción, esta configuración se invertirá. El campo **Estado de permanencia** se cambia de **Finalizado** a **Consumo de ruta** en la ruta de producción. Se invierte la configuración de todos los artículos que se registran como en proceso o trabajo en curso. En la página **Detalles del pedido de producción**, se restablecen los campos que muestran una cantidad que se inició o se notificó como terminada. Las fechas para estas transacciones también se restablecen.
-
 
 
 

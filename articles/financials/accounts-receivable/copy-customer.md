@@ -1,13 +1,13 @@
 ---
-title: "Copiar clientes mediante secuencias numéricas compartidas"
-description: "En este tema se explica cómo usar secuencias numéricas compartidas para copiar un cliente en otra entidad jurídica pero conservando el mismo id. de cliente."
+title: Copiar clientes mediante secuencias numéricas compartidas
+description: En este tema se explica cómo usar secuencias numéricas compartidas para copiar un cliente en otra entidad jurídica pero conservando el mismo id. de cliente.
 author: mikefalkner
 manager: aolson
 ms.date: 08/31/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustTable
 audience: Application User
 ms.reviewer: shylaw
@@ -15,15 +15,14 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-10-31
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: c093c9af7184d93b1200a8bcab16573f2bb4be09
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 7a1e6c6e3a995ad745522d58960e850d72c2ee57
-ms.contentlocale: es-es
-ms.lasthandoff: 01/03/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302823"
 ---
-
 # <a name="copy-customers-by-using-shared-number-sequences"></a>Copiar clientes mediante secuencias numéricas compartidas
 
 [!include [banner](../includes/banner.md)]
@@ -40,7 +39,7 @@ También puede copiar clientes entre entidades jurídicas si usa id. de clientes
 
 ## <a name="copy-a-customer"></a>Copiar un cliente
 
-Para copiar un cliente, seleccione **Nuevo** en la página de lista **Todos los clientes** para abrir el cuadro de diálogo **Crear cliente**. Tenga en cuenta que el nuevo id. de cliente no se asigna inmediatamente. Este comportamiento difiere del comportamiento de versiones anteriores de Microsoft Dynamics 365 for Finance and Operations. Dado que aún no ha seleccionado el grupo de clientes, el sistema no puede determinar la secuencia numérica correcta que se usará. Además, no puede determinar si está intentando crear un cliente nuevo o copiar un cliente. Por lo tanto, no se asigna el id. del cliente hasta que no selecciona **Guardar** en la parte inferior del cuadro de diálogo.
+Para copiar un cliente, seleccione **Nuevo** en la página de lista **Todos los clientes** para abrir el cuadro de diálogo **Crear cliente**. Tenga en cuenta que el nuevo id. de cliente no se asigna inmediatamente. Este comportamiento difiere del comportamiento en las versiones anteriores de Microsoft Dynamics 365 for Finance and Operations. Dado que aún no ha seleccionado el grupo de clientes, el sistema no puede determinar la secuencia numérica correcta que se usará. Además, no puede determinar si está intentando crear un cliente nuevo o copiar un cliente. Por lo tanto, no se asigna el id. del cliente hasta que no selecciona **Guardar** en la parte inferior del cuadro de diálogo.
 
 Si está creando un cliente nuevo, puede continuar rellenando todos los campos como lo hace normalmente. Cuando haya terminado, y seleccione **Guardar**, verá que el id. del cliente se asignó automáticamente. También, para secuencias numéricas manuales, verá que se usó su id. de cliente manual.
 
@@ -66,4 +65,3 @@ También puede copiar clientes mediante la función de búsqueda del número de 
 
 1. Aparece una opción **Copiar cliente**. Esta opción se establece en **No** de forma predeterminada. Para copiar el cliente en la entidad jurídica actual, establezca la opción en **Sí**. 
 2. Seleccione **Seleccionar**. Se crea el nuevo cliente.
-

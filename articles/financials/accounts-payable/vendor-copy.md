@@ -1,13 +1,13 @@
 ---
-title: "Copiar proveedores mediante secuencias numéricas compartidas"
-description: "En este tema se explica cómo usar secuencias numéricas compartidas para copiar un proveedor en otra entidad jurídica pero conservando el mismo id. de proveedor."
+title: Copiar proveedores mediante secuencias numéricas compartidas
+description: En este tema se explica cómo usar secuencias numéricas compartidas para copiar un proveedor en otra entidad jurídica pero conservando el mismo id. de proveedor.
 author: mikefalkner
 manager: aolson
 ms.date: 08/24/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendTable
 audience: Application User
 ms.reviewer: shylaw
@@ -15,15 +15,14 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-10-31
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: a8c033caa8a4c4cf579ec166dce7a9982408d816
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 0c492cd76fc9742aa4cff8fe588541cb2c6f1863
-ms.contentlocale: es-es
-ms.lasthandoff: 10/11/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302867"
 ---
-
 # <a name="copy-vendors-by-using-shared-number-sequences"></a>Copiar proveedores mediante secuencias numéricas compartidas
 
 [!include [banner](../includes/banner.md)]
@@ -40,7 +39,7 @@ También puede copiar proveedores entre entidades jurídicas si usa id. de prove
 
 ## <a name="copy-a-vendor"></a>Copiar proveedor
 
-Para copiar un proveedor, seleccione **Nuevo** en la página de lista **Todos los proveedores** para abrir la página **Todos los proveedores, nuevo registro**. Tenga en cuenta que el nuevo id. de proveedor no se asigna inmediatamente. Este comportamiento difiere del comportamiento de versiones anteriores de Microsoft Dynamics 365 for Finance and Operations. Dado que aún no ha seleccionado el grupo de proveedores, el sistema no puede determinar la secuencia numérica correcta que se usará. Además, no puede determinar si está intentando crear un nuevo proveedor o copiar un proveedor. Por lo tanto, no se asigna el id. del proveedor hasta que no se seleccione **Guardar** en la parte inferior de la página.
+Para copiar un proveedor, seleccione **Nuevo** en la página de lista **Todos los proveedores** para abrir la página **Todos los proveedores, nuevo registro**. Tenga en cuenta que el nuevo id. de proveedor no se asigna inmediatamente. Este comportamiento difiere del comportamiento en las versiones anteriores de Microsoft Dynamics 365 for Finance and Operations. Dado que aún no ha seleccionado el grupo de proveedores, el sistema no puede determinar la secuencia numérica correcta que se usará. Además, no puede determinar si está intentando crear un nuevo proveedor o copiar un proveedor. Por lo tanto, no se asigna el id. del proveedor hasta que no se seleccione **Guardar** en la parte inferior de la página.
 
 Si está creando un proveedor nuevo, puede continuar rellenando todos los campos como lo hace normalmente. Cuando haya terminado, y seleccione **Guardar**, verá que el id. del proveedor se asignó automáticamente. También, para secuencias numéricas manuales, verá que se usó su id. de proveedor manual.
 
@@ -66,4 +65,3 @@ También puede copiar proveedores mediante la función de búsqueda del número 
 
 1. Aparece una opción **Copiar proveedor**. Esta opción se establece en **No** de forma predeterminada. Para copiar el proveedor en la entidad jurídica actual, establezca la opción en **Sí**.
 2. Seleccione **Seleccionar**. Se crea el nuevo proveedor.
-

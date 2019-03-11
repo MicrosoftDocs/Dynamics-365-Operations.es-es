@@ -1,13 +1,13 @@
 ---
 title: Generar formularios FTI imprimibles
-description: "Este tema explica cómo utilizar el marco de informes electrónicos (ER) para generar formularios de facturas de servicio (FTI) imprimibles como documentos de Microsoft Office."
+description: Este tema explica cómo utilizar el marco de informes electrónicos (ER) para generar formularios de facturas de servicio (FTI) imprimibles como documentos de Microsoft Office.
 author: NickSelin
 manager: AnnBe
 ms.date: 07/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: d27a11a0d925b0f1164578f9c04e6abd4736b2b2
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325535"
 ---
-
-# <a name="generate-printable-fti-forms"></a>Generar formularios FTI imprimibles
+# <a name="generate-printable-fti-forms"></a>Generar formularios de FTI imprimibles
 
 [!include[banner](../includes/banner.md)]
 
@@ -114,7 +113,7 @@ El marco de ER admite actualmente los siguientes destinos para documentos genera
 - **Archivo descargado**: los formularios generados se proporcionan como descargas que puede guardar mediante el explorador.
 - **Pantalla**: Microsoft Office 365 Excel se usa para obtener una vista previa de los formularios de FTI generados en formato Excel.
 - **Carpeta de SharePoint**: se almacenan los formularios generados según la configuración del marco de administración de documentos.
-- **Archivo de la aplicación**: los formularios generados se almacenan como archivos adjuntos de los registros de ejecución en Almacenamiento de Microsoft Azure.
+- **Archivo de la aplicación**: los formularios generados se almacenan como archivos adjuntos de los registros de ejecución de Microsoft Azure Storage.
 - **Correo electrónico**: los formularios generados se envía como archivos adjuntos de correo electrónico.
 
 > [!NOTE]
@@ -226,4 +225,3 @@ La expresión **Emailing.TxtToUse.Body** del formato de muestra está configurad
 
 ## <a name="additional-resources"></a>Recursos adicionales
 [Visión general de los informes electrónicos](general-electronic-reporting.md)
-

@@ -1,13 +1,13 @@
 ---
-title: "Programar utilización de carga"
-description: "En este tema se explica cómo configurar y programar la carga para un almacén."
+title: Programar utilización de carga
+description: En este tema se explica cómo configurar y programar la carga para un almacén.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WMSSpaceUtilSetup
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 15f3735f79671ac41789d39a5473722a5f35fde0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 9bb8f84bd038c6bc59ef23d6471a9481c904bdb6
-ms.openlocfilehash: 350666cee8f2643c53e9eed8ee73299bbea1e757
-ms.contentlocale: es-es
-ms.lasthandoff: 04/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332044"
 ---
-
 # <a name="schedule-load-utilization"></a>Programar utilización de carga
 
 [!include[banner](../includes/banner.md)]
@@ -73,4 +72,3 @@ Puede proyectar la utilización del espacio generando el informe **Utilización 
 
 4. En el campo **Tipo de carga**, seleccione **Volumen** o **Peso** para especificar la unidad operativa de almacén para la que desea proyectar espacio.
 5. En el campo **Configuración de utilización del espacio**, seleccione la configuración de la utilización del espacio en la que se basará la proyección.
-

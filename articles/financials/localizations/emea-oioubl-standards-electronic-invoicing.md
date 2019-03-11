@@ -1,30 +1,29 @@
 ---
-title: "Estándares compatibles para la facturación electrónica en Europa"
-description: "Este tema explica el nivel de cobertura que existe para la facturación electrónica en Microsoft Dynamics 365 for Finance and Operations en la región europea."
+title: Estándares compatibles para la facturación electrónica en Europa
+description: Este tema explica el nivel de cobertura que existe en la facturación electrónica en Microsoft Dynamics 365 for Finance and Operations para la región europea.
 author: mrolecki
 manager: AnnBe
 ms.date: 07/11/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 10274
 ms.search.region: Austria, Denmark, Italy, Norway, Spain, France, Belgium, Netherlands
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
+ms.openlocfilehash: 366e67415b82c6bbc6b066b4ce44e4654bd93103
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 354b9fd50dbd628b91fd4d77c4cb323ddc36428f
-ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370415"
 ---
-
 # <a name="supported-standards-for-electronic-invoicing-in-europe"></a>Estándares compatibles para la facturación electrónica en Europa
 
 [!include [banner](../includes/banner.md)]
@@ -78,4 +77,3 @@ Para obtener más información acerca de cómo configurar facturas electrónicas
 
 > [!NOTE] 
 > Aunque estas guías de la tarea fueron creadas para el formato de factura *OIOUBL* específicamente danés, son aplicables en otros países compatibles con desviaciones de menor importancia.
-

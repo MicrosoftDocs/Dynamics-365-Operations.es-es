@@ -1,13 +1,13 @@
 ---
 title: Entregas directas
-description: "Este artículo proporciona información sobre las entregas directas. Las entregas directas son entregas que se envían directamente del proveedor al cliente."
+description: Este artículo proporciona información sobre las entregas directas. Las entregas directas son entregas que se envían directamente del proveedor al cliente.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchCreateFromSalesOrder, SalesTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d9c4a695c591865c52ad5ee6d37a515139f58bf8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1f2cdae674dc88a4d533258e24b1ecf7ec4cf55b
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312287"
 ---
-
 # <a name="direct-deliveries"></a>Entregas directas
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ Si prueba a eliminar una línea de pedido de ventas que tenga un tipo de entrega
 
 ## <a name="warehouse"></a>Almacén
 Cuando crea una entrega directa, los artículos que vende nunca llegan físicamente a su almacén. Sin embargo, debe seguir especificando un almacén en la línea de pedido de ventas. Del mismo modo, los requisitos de picking se pueden especificar en el grupo de modelos de artículos para el artículo. Sin embargo, dado que los artículos nunca llegan físicamente a su almacén, se omiten estos requisitos cuando el pedido de ventas es una entrega directa.
-
 
 
 

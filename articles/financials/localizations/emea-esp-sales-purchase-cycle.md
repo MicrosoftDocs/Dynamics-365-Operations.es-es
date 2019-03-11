@@ -1,13 +1,13 @@
 ---
-title: "Ventas y ciclos de compra para España"
-description: "Este tema describe cómo configurar los ciclos de pedido de ventas o de compra para un proveedor o un cliente para las entidades jurídicas en España."
+title: Ventas y ciclos de compra para España
+description: Este tema describe cómo configurar los ciclos de pedido de ventas o de compra para un proveedor o un cliente para las entidades jurídicas en España.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustParameters, SrmParameters, SalesPurchCycle
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Spain
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 51b19d8c2a3ea6a64c48f36a9cae766d382795da
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 07d09512ef612b41bf527b74496fa440f23851fc
-ms.openlocfilehash: cf24ad58cc396fefc4bf761e5792d128128c2146
-ms.contentlocale: es-es
-ms.lasthandoff: 02/14/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370414"
 ---
-
 # <a name="sales-and-purchase-cycles-for-spain"></a>Ventas y ciclos de compra para España
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ Puede especificar qué documentos estarán activos para un cliente o un proveedo
 
 -   Para configurar un ciclo de documentos de ventas específico para un cliente, en la página **Todos los clientes**, seleccione un cliente. A continuación, haga clic en **Vender** &gt; **Configuración** &gt; **Ciclo de ventas** &gt; **Edición**.
 -   Para configurar un ciclo de documentos de compra específico para un proveedor, en la página **Todos los proveedores**, seleccione un **Proveedor**. A continuación, haga clic en **Adquisición** &gt; **Configuración** &gt; **Ciclo de compra** &gt; **Edición**.
-
 
 
 

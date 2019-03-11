@@ -1,13 +1,13 @@
 ---
 title: Sistema de ayuda de Finance and Operations
-description: "Este tema proporciona una visión general de los componentes del sistema de Ayuda de Microsoft Dynamics 365 for Finance and Operations."
+description: Este tema proporciona una visión general de los componentes del sistema de la Ayuda de Microsoft Dynamics 365 for Finance and Operations.
 author: margoc
 manager: AnnBe
 ms.date: 11/13/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
@@ -18,22 +18,21 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 23bf579c1a4a315d0c12f848a71f89fc297c8625
-ms.contentlocale: es-es
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350743"
 ---
-
 # <a name="finance-and-operations-help-system"></a>Sistema de ayuda de Finance and Operations
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona una visión general de los componentes del sistema de Ayuda de Microsoft Dynamics 365 for Finance and Operations.
+Este tema proporciona una visión general de los componentes del sistema de la Ayuda de Microsoft Dynamics 365 for Finance and Operations.
 
 > [!NOTE]
-> Los siguientes productos están estrechamente relacionados: Dynamics 365 for Finance and Operations, Dynamics 365 for Retail; y Dynamics 365 for Talent. Puede que los tres productos tengan la misma funcionalidad. Como resultado, en los temas relativos principalmente a Retail, el nombre de producto será 365 Dynamics for Retail, en los temas relativos principalmente a Talent, el nombre de producto será Dynamics 365 Talent y en los temas relativos principalmente al producto básico, el nombre del producto será Dynamics 365 for Finance and Operations. Los temas que se redactan para un producto se pueden aplicar a la misma funcionalidad de un producto relacionado.
+> Los tres productos siguientes están estrechamente relacionados: Dynamics 365 for Finance and Operations, Dynamics 365 for Retail y Dynamics 365 for Talent. Puede que los tres productos tengan la misma funcionalidad. Como resultado, en los temas relacionados principalmente con Retail, el nombre del producto será Dynamics 365 for Retail; en los temas relacionados principalmente con Talent, el nombre de producto será Dynamics 365 for Talent y en temas relacionados con el producto principal, el nombre del producto será Dynamics 365 for Finance and Operations. Los temas que se redactan para un producto se pueden aplicar a la misma funcionalidad de un producto relacionado.
 
 El sistema de Ayuda lo comparten los siguientes productos:
 
@@ -158,7 +157,7 @@ En la página **Parámetros del sistema**, siga estos pasos:
 2. Seleccione el proyecto de Lifecycle Services al que conectarse.
 3. Seleccione las bibliotecas de BPM (dentro del proyecto seleccionado) desde la que recuperar grabaciones de tareas.
 
-    - Para Finance and Operations, para el contenido de Microsoft, seleccione la Biblioteca unificada QPC de febrero de 2017 para Microsoft Dynamics 365 for Finance and Operations.
+    - Para contenido de Finance and Operations de Microsoft, seleccione Febrero de 2017 QPC biblioteca unificada para Microsoft Dynamics 365 for Finance and Operations.
     - Para Retail, lanzaremos al mercado una biblioteca en julio.
     - No necesita seleccionar una biblioteca para Talent, la conexión para la biblioteca correcta se establece automáticamente.
 
@@ -194,10 +193,9 @@ En la tabla siguiente aparecen las listas de nuestras páginas web. Los sitios q
 |------------------------------------------------------------------------------------------------|-------------|
 | [Docs.microsoft.com](/dynamics365/)                                                            | Hospeda o vincula a toda la documentación del producto para Dynamics 365. |
 | [Microsoft Learn](https://docs.microsoft.com/learn/)                                           | Sitio de eLearning gratuito de Microsoft. |
-| [Servicios de ciclo de vida](https://lcs.dynamics.com/)\*                                              | Proporciona un espacio de trabajo de colaboración basado en la nube que los clientes y los socios pueden utilizar para gestionar los proyectos de Finance and Operations, desde preventas hasta implementación y operaciones. Este sitio es útil en todas las fases de una implementación. |
-| [Blog de soporte](http://aka.ms/AXSupportBlog)                                                    | Proporciona sugerencias y trucos que publica el Equipo de soporte de Finance and Operations. |
+| [Lifecycle Services](https://lcs.dynamics.com/)\*                                              | Proporciona un espacio de trabajo de colaboración basado en la nube que los clientes y sus socios pueden utilizar para gestionar los proyectos de Dynamics 365 for Finance and Operations desde preventas hasta implementación y operaciones. Este sitio es útil en todas las fases de una implementación. |
+| [Blog de soporte](http://aka.ms/AXSupportBlog)                                                    | Proporciona sugerencias y trucos que se registran por el equipo de soporte de Dynamics 365 for Finance and Operations. |
 | [Docs.microsoft.com/previous versions](https://docs.microsoft.com/previous-versions/dynamics/) | Contenido de host de versiones anteriores. |
 | [Comunidad de Dynamics](https://community.dynamics.com/)                                          | Hospeda blogs, foros y vídeos. |
 | [Microsoft.com/dynamics365/](https://www.microsoft.com/dynamics365/home)                       | Ofrece información de evaluación y ventas. |
 | [CustomerSource](https://mbs.microsoft.com/customersource/)\*                                  | Hospeda algunos recursos de formación para Finance and Operations, informes descargables y documentación técnica, y es el sitio de asistencia principal para los titulares de planes de servicio. Puede requerir un plan de servicio para tener acceso a algunos recursos en el sitio. |
-

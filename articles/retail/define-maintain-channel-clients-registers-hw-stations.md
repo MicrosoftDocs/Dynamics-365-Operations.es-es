@@ -1,13 +1,13 @@
 ---
-title: "Conectar periféricos al punto de venta (PDV)"
-description: "Este tema trata de cómo conectar periféricos a su Retail POS."
+title: Conectar periféricos al punto de venta (PDV)
+description: Este tema trata de cómo conectar periféricos a su Retail POS.
 author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTerminalTable, RetailDevice
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 544f109a4f46bd7511ee564902f627beddd29f15
-ms.contentlocale: es-es
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308791"
 ---
-
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Conectar periféricos al punto de venta (PDV)
 
 [!include [banner](includes/banner.md)]
@@ -34,7 +33,7 @@ ms.lasthandoff: 01/04/2019
 Este tema trata de cómo conectar periféricos a su Retail POS.
 
 > [!NOTE]
-> Para obtener instrucciones específicas de instalación, consulte [Instalación y configuración de la estación de hardware para Retail](retail-hardware-station-configuration-installation.md) e [Instalación y descarga de autoservicio de Retail Modern POS, y activación de dispositivo de Modern POS y Cloud POS](retail-modern-pos-device-activation.md).
+> Para obtener instrucciones específicas de instalación, consulte [Instalación y configuración de la estación de hardware para Retail](retail-hardware-station-configuration-installation.md) e [Instalación y descarga de autoservicio de Retail Modern POSIn, y activación de dispositivo de Modern POS y Cloud POS](retail-modern-pos-device-activation.md).
 
 ## <a name="key-components"></a>Componentes clave
 
@@ -188,4 +187,3 @@ La información adicional relacionada con la activación incluye el trabajador q
 ### <a name="client-data-synchronization"></a>Sincronización de datos del cliente
 
 Todos los cambios a un cliente de PDV, excepto los cambios en el estado de activación del dispositivo, se deben sincronizar para que la base de datos de canales tenga efecto. Para sincronizar los cambios con la base de datos de canales, navegue hasta **Retail** &gt; **TI de venta minorista** &gt; **Programación de distribución** y ejecute la programación de distribución requerida. Para los cambios de clientes, debe ejecutar las programaciones de distribución "Registros" y "Configuración del canal".
-

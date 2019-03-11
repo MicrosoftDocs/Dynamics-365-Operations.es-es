@@ -1,13 +1,13 @@
---- 
+---
 title: Crear un producto semi-terminado (febrero de 2016)
 description: Esta tarea se centra en crear un producto semi-terminado.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, EcoResProductCreate, InventItemOrderSetup, InventItemPrice
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 9caeae552471eed1cb1d8630f387ca31107fcece
-ms.contentlocale: es-es
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362864"
 ---
 # <a name="create-a-semi-finished-product-february-2016"></a>Crear un producto semi-terminado (febrero de 2016)
 
@@ -73,5 +73,4 @@ Esta tarea se centra en crear un producto semi-terminado. Es la segunda tarea en
     * Para este ejemplo, seleccione Coste de grupo M1.  
 30. Use el acceso directo para guardar un registro.
 31. Cierre la página.
-
 

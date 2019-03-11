@@ -1,13 +1,13 @@
 ---
-title: "Liquidar un pago de cliente parcial con varios períodos de descuento"
-description: "En este artículo se muestra cómo se liquidan los pagos de clientes parciales cuando hay varios períodos de descuento."
+title: Liquidar un pago de cliente parcial con varios períodos de descuento
+description: En este artículo se muestra cómo se liquidan los pagos de clientes parciales cuando hay varios períodos de descuento.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 60c8b9b3a5aebed7e1a999335aab0baf83ea952a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ac64ece82abe75f3cba437b1ec1af499fbbce8e4
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337909"
 ---
-
 # <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Liquidar un pago de cliente parcial con varios períodos de descuento
 
 [!include [banner](../includes/banner.md)]
@@ -94,7 +93,6 @@ El saldo de la factura es ahora de 0,00. Arnie ve la información en la página 
 | DISC-10030 |  Descuento por pronto pago   | 28/6/2015 |         |                                      | 6,00                                  | 0,00    | USD      |
 | ARP-10031  |  Pago         | 7/8/2015  |         |                                      | 693,00                                | 0,00    | USD      |
 | DISC-1031  |  Descuento por pronto pago   | 7/8/2015  |         |                                      | 7,00                                  | 0,00    | USD      |
-
 
 
 

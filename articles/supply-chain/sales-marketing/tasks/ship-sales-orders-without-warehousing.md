@@ -1,13 +1,13 @@
---- 
+---
 title: Enviar pedidos de ventas sin almacenamiento
-description: "Esta guía muestra cómo actualizar un pedido de ventas cuando los productos se envían al cliente."
+description: Esta guía muestra cómo actualizar un pedido de ventas cuando los productos se envían al cliente.
 author: omulvad
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesTableListPage, SalesTable, SalesEditLines,  SrsReportViewerForm, SalesTableLineQuantity, CustPackingSlipJournal
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: ae70e09dbc4da90b7d1802d076384eae2d00da0e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 3f1b9dd4b99bcbcc6cfbc5cfd8e3271fa80c628c
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312977"
 ---
 # <a name="ship-sales-orders-without-warehousing"></a>Enviar pedidos de ventas sin almacenamiento
 
@@ -59,5 +59,4 @@ Esta guía muestra cómo actualizar un pedido de ventas cuando los productos se 
 20. En el panel de acciones, haga clic en Seleccionar y empaquetar.
 21. Haga clic en Albarán.
     * La página Diario del albarán contiene todos los documentos de albaranes generados para el pedido. Puede revisar los detalles de cada documento e imprimirlos, si lo desea.  
-
 

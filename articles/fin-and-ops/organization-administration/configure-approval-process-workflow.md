@@ -1,13 +1,13 @@
 ---
-title: "Configurar los procesos de aprobación en un flujo de trabajo"
-description: "Use el siguiente procedimiento para configurar las propiedades del proceso de aprobación."
+title: Configurar los procesos de aprobación en un flujo de trabajo
+description: Use el siguiente procedimiento para configurar las propiedades del proceso de aprobación.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 08641eaac31813a8bee3231118f8e2bf802ea3e1
-ms.contentlocale: es-es
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325650"
 ---
-
 # <a name="configure-approval-processes-in-a-workflow"></a>Configurar los procesos de aprobación en un flujo de trabajo
 
 [!include [banner](../includes/banner.md)]
@@ -124,11 +123,11 @@ Puede enviar notificaciones cuando un documento se ha aprobado, rechazado, deleg
     </tr>
     <tr>
     <td><strong>Usuario</strong></td>
-    <td>Usuarios específicos de Microsoft Dynamics 365 for Finance and Operations</td>
+    <td>Usuarios de Microsoft Dynamics 365 for Finance and Operations específicos</td>
     <td>
     <ol>
     <li>Tras seleccionar <strong>Usuario</strong>, haga clic en la pestaña <strong>Usuario</strong>.</li>
-    <li>La lista de <strong>Usuarios disponibles</strong> incluye a todos los usuarios de Microsoft Dynamics 365 for Finance and Operations. Seleccione aquellos usuarios a los que enviar notificaciones y, a continuación, muévalos a la lista de <strong>Usuarios seleccionados</strong>.</li>
+    <li>La lista <strong>Usuarios disponibles</strong> incluye todos los usuarios de Microsoft Dynamics 365 for Finance and Operations. Seleccione aquellos usuarios a los que enviar notificaciones y, a continuación, muévalos a la lista de <strong>Usuarios seleccionados</strong>.</li>
     </ol>
     </td>
     </tr>
@@ -184,4 +183,3 @@ Los procesos de aprobación se componen de pasos de aprobación. Realice el sigu
 1. En el editor de flujo de trabajo, haga doble clic en el proceso de aprobación. Los pasos del proceso se mostrarán en el editor de flujo de trabajo.
 2. Para agregar un paso de aprobación, arrástrelo desde el área de **Elementos del flujo de trabajo** al lienzo.
 3. Para configurar un paso de aprobación, vea [Configuración de un paso de aprobación](configure-approval-step-workflow.md).
-

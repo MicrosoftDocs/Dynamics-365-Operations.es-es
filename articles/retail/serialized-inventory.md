@@ -1,13 +1,13 @@
 ---
 title: Mejoras en el punto de venta (PDV) para productos serializados
-description: "En este tema se muestran las mejoras que se han realizado en los productos serializados para que pueda ahorrar tiempo y ser más productivo."
+description: En este tema se muestran las mejoras que se han realizado en los productos serializados para que pueda ahorrar tiempo y ser más productivo.
 author: ShalabhjainMSFT
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -16,14 +16,13 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-08-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 17cd46ba9ee972c92db8950eea1cd258d67c2e92
-ms.contentlocale: es-es
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346212"
 ---
-
 # <a name="point-of-sale-pos-improvements-for-serialized-products"></a>Mejoras en el punto de venta (PDV) para productos serializados
 
 [!include [banner](includes/banner.md)]
@@ -43,4 +42,3 @@ Según la configuración de Retail headquarters, los productos se pueden clasifi
 - **Los números de serie no son necesarios para realizar pedidos de cliente**: los pedidos de cliente se pueden realizar en una tienda y cerrar en otra. Un cajero que realiza un pedido de cliente no tiene por qué proporcionar el número de serie. Este número se proporciona durante el paso de selección o de recogida. Sin embargo, se debe proporcionar el número de serie de todos los artículos de línea en los cuales se seleccionó el tipo de entrega **Ejecutar**. Si no, la transacción no se podrá completar.
 - **Los productos serializados no se agregan en la pantalla de la transacción**: la configuración **Productos agregados** del grupo de campo **Terminal** en la página **Perfil de funcionalidad** le permite agregar los mismos productos no serializados en la pantalla de la transacción. Cuando se agregan los mismos productos, estos son fáciles de ver en la cuadrícula de la transacción. Sin embargo, ya que los números de serie suelen ser únicos y como los ayudantes de ventas no tienen que escribir los números de serie hasta que no finaliza la transacción, la configuración **Productos agregados** no se aplica a los productos serializados. Así pues, los productos serializados no se agregarán en la pantalla de la transacción si la opción de configuración **Productos agregados** está seleccionada.
 - **Capacidad de buscar los diarios según el número de serie** - Los diarios se pueden buscar ahora por los números de serie. Para ello, abra la operación "Diarios" y presione el botón de "Búsqueda avanzada" en la barra de la aplicación. Mediante el botón "Agregar filtro", se puede aplicar un filtro para buscar números de serie también.
-

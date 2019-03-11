@@ -1,13 +1,13 @@
 ---
 title: Paga basada en los registros
-description: "Este tema explica cómo se calcula el sueldo en función de los registros del trabajador."
+description: Este tema explica cómo se calcula el sueldo en función de los registros del trabajador.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 03/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgCalcApproveWeekView
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
+ms.openlocfilehash: f36c411ce24dfd8cceacda3d4659ec9a98fd5aa9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1ae0f142ebd2252b1df414998c153d32127bc1b7
-ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321119"
 ---
-
 # <a name="pay-based-on-registrations"></a>Paga basada en los registros
 
 [!include [banner](../includes/banner.md)]
@@ -600,4 +599,3 @@ Si el trabajador no aparece en el trabajo en un día laborable y no hay ausencia
 - Insertar autom. ausencia
 
 Cuando los registros diarios se calculan para un trabajador que está habilitado para horas flexibles, el código de ausencia que se especifica en el campo **Insertar autom. horario flexible-** se usa como código de ausencia predeterminado. Si el trabajador no está habilitado para horas flexibles, se usa el código de ausencia que se especifica en el campo **Ausencia de inserción automática**. Si una empresa tiene una combinación de trabajadores que están habilitados para horas flexibles y trabajadores que no están habilitados para horas flexibles, ambos parámetros deben estar configurados.
-

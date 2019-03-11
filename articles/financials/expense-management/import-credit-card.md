@@ -1,13 +1,13 @@
 ---
-title: "Importar y mantener transacciones de tarjeta de crédito"
-description: "En este tema se explica cómo importar y mantener transacciones de tarjeta de crédito relacionadas con los gastos. Puede configurar estas transacciones para importarlas automáticamente en una programación recurrente o bien, puede importar manualmente las transacciones cada vez si fuera necesario."
+title: Importar y mantener transacciones de tarjeta de crédito
+description: En este tema se explica cómo importar y mantener transacciones de tarjeta de crédito relacionadas con los gastos. Puede configurar estas transacciones para importarlas automáticamente en una programación recurrente o bien, puede importar manualmente las transacciones cada vez si fuera necesario.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvPbsMainDataLines
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 9674cf495b7fdd40d8672580b9d10e9ebe626bb0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e640c9e44add5599be4a2e381b4ffd81f212889c
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322660"
 ---
-
 # <a name="import-and-maintain-credit-card-transactions"></a>Importar y mantener transacciones de tarjeta de crédito
 
 [!include [banner](../includes/banner.md)]
@@ -53,4 +52,3 @@ Para obtener más información acerca de las entidades de datos, consulte [Entid
 Una vez finaliza un registro de empleado, la cuenta Active Directory Domain Services de ese empleado se deshabilita. Sin embargo, es posible que haya transacciones de tarjeta de crédito que todavía deban ser calculadas y reembolsadas. Desde la página **Transacciones de tarjeta de crédito** puede reasignar el empleado de cualquier transacción de tarjeta de crédito cuyo empleado asociado haya sido despedido.
 
 Seleccione una o más transacciones de tarjeta de crédito y, a continuación, seleccione **Volver a asignar las transacciones**. A continuación puede seleccionar otro empleado para asignarle esas transacciones de tarjeta de crédito. Tras reasignar las transacciones de tarjeta de crédito, se pueden seleccionar para un informe de gastos y podrá pagarlas mediante el proceso habitual para el reembolso del informe de gastos.
-

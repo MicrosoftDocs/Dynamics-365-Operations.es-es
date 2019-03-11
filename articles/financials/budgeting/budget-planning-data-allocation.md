@@ -1,13 +1,13 @@
 ---
-title: "Asignación de datos de la planificación presupuestaria"
-description: "Este artículo describe los distintos métodos de asignación que están disponibles en Microsoft Dynamics 365 for Finance and Operations y cómo se pueden usar."
+title: Asignación de datos de la planificación presupuestaria
+description: Este artículo describe los distintos métodos de asignación que están disponibles en Microsoft Dynamics 365 for Finance and Operations y cómo se pueden usar.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 430040f7b3706aa1ad913d70c0dbcab9249ea222
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: b5f262318b4defb941f1216d0bfe06961f62bad4
-ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352514"
 ---
-
 # <a name="budget-planning-data-allocation"></a>Asignación de datos de la planificación presupuestaria
 
 [!include [banner](../includes/banner.md)]
@@ -72,7 +71,6 @@ A continuación, cree una asignación de etapa en la página **Configuración de
 Finalmente, agregue una tarea automatizada para la asignación de la etapa de planificación presupuestaria en la etapa deseada del flujo de trabajo. En el siguiente ejemplo, dos asignaciones de etapa de planificación presupuestaria (destacadas en rojo) se han insertado en el flujo de trabajo.
 
 [![BudgetPlanningStageAllocations](./media/budgetplanningstageallocations-300x300.png)](./media/budgetplanningstageallocations.png)
-
 
 
 

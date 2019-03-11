@@ -1,13 +1,13 @@
 ---
-title: "Cree planes de compensación variable"
-description: "La compensación variable compone la paga irregular de un empleado, como bonificaciones o primas en acciones. Este tema describe los componentes que se deben configurar para poder usar la compensación variable e inscribir un empleado en un plan de compensación variable."
+title: Cree planes de compensación variable
+description: La compensación variable compone la paga irregular de un empleado, como bonificaciones o primas en acciones. Este tema describe los componentes que se deben configurar para poder usar la compensación variable e inscribir un empleado en un plan de compensación variable.
 author: kherr75
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HCMCompEligibility, HcmJobFunction, HcmWorker, HRMCompPerfPlan
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: 338e58522f9b9fba3ce22b22488affbab24b1315
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306179"
 ---
-
 # <a name="create-variable-compensation-plans"></a>Cree planes de compensación variable
 
 [!include [banner](includes/banner.md)]
@@ -104,7 +103,6 @@ Puede usar la ficha **Anulaciones** para anular los valores específicos para el
 --------
 
 [Planes de compensación](compensation-plans.md)
-
 
 
 

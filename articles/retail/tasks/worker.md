@@ -1,13 +1,13 @@
---- 
+---
 title: Configurar un trabajador
-description: "Este procedimiento demuestra cómo configurar a un trabajador comercial como representante de ventas, que sea apto comisión en ventas en PDV."
+description: Este procedimiento demuestra cómo configurar a un trabajador comercial como representante de ventas, que sea apto comisión en ventas en PDV.
 author: jblucher
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CommissionSalesGroup, CommissionSalesMember, DirPartyLookup, HcmWorker
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 797640b487884fc487582addea274007e4ba7a7d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 27b075cf1152f16fc4726b224e877eacb2f2572c
-ms.contentlocale: es-es
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362542"
 ---
 # <a name="configure-a-worker"></a>Configurar un trabajador
 
@@ -56,5 +56,4 @@ Este procedimiento demuestra cómo configurar a un trabajador comercial como rep
 5. Haga clic en Editar.
 6. En el campo Grupo predeterminado, especifique o seleccione un valor.
 7. Haga clic en Guardar.
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Cálculo de costes generales"
-description: "Este tema describe los procesos típicos para calcular y asignar costes generales."
+title: Cálculo de costes generales
+description: Este tema describe los procesos típicos para calcular y asignar costes generales.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/04/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMActualVersion, CAMBudgetVersion, CAMOverheadCalculation
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.translationtype: HT
-ms.sourcegitcommit: 12ae99c15bafcd9cc08b30903fe3f251f446b17d
 ms.openlocfilehash: 4de705324ac497cfb11fae3dadc6f57d038fd0b5
-ms.contentlocale: es-es
-ms.lasthandoff: 10/05/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335126"
 ---
-
 # <a name="overhead-calculation"></a>Cálculo de costes generales
 
 [!include [banner](../includes/banner.md)]
@@ -1413,7 +1412,6 @@ En la contabilidad financiera, un coste de 10.000,00 para electricidad se envía
 
 > [!NOTE]
 > Este tema muestra cómo un artículo de costes principales, 10001 Electricidad, fluye por los objetos de coste. Por tanto, estos gastos generales se asignan al nivel más bajo de la organización. Es decir, los objetos de coste del nivel más bajo son los que soportan el coste. Si necesita un flujo visual del coste entre los objetos de coste, puede usar las reglas de directivas de acumulación de costes para visualizar el flujo del coste. Para obtener más información, consulte [Acumulación de costes](cost-rollup.md).
-
 
 
 

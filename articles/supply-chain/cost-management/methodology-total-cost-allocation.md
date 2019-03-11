@@ -1,13 +1,13 @@
 ---
-title: "Método de asignación de coste total"
-description: "Este tema proporciona directrices para usar la asignación de coste total (TCA). TCA es un método para calcular el coste entre el producto de fórmula principal para un pedido de lote y los coproductos que se definen para la fórmula."
+title: Método de asignación de coste total
+description: Este tema proporciona directrices para usar la asignación de coste total (TCA). TCA es un método para calcular el coste entre el producto de fórmula principal para un pedido de lote y los coproductos que se definen para la fórmula.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMConsistOf, PmfFormulaCoBy
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: cda1c5251b81a3bb73d4d8703d7c3fa1ab4e9c16
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4f3d75411e8c99365f1aba8214c78e93b4741871
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341589"
 ---
-
 # <a name="total-cost-allocation-method"></a>Método de asignación de coste total
 
 [!include [banner](../includes/banner.md)]
@@ -61,7 +60,6 @@ El campo **Asignación de costes de productos derivados** de la página **Coprod
 -   **Porcentaje**: El importe del coste se calcula como porcentaje del coste total de las materias primas que se consumen en la producción. Porcentaje usado para el cálculo especificado en el campo.
 -   **Por serie**: El importe del coste se calcula como importe por tamaño de lote estándar del pedido de producción. Este importe es independiente de la cantidad notificada en la producción. Importe usado para el cálculo especificado en el campo.
 -   **Por cantidad**: El importe del coste se calcula como importe por cantidad notificada del producto de fórmula en la producción. Importe usado para el cálculo especificado en el campo.
-
 
 
 

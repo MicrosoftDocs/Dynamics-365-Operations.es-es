@@ -1,13 +1,13 @@
 ---
-title: "Recepción de producto frente a pedidos de compra"
+title: Recepción de producto frente a pedidos de compra
 description: Este tema describe las distintas opciones para registrar productos como recibidos.
 author: FrankDahl
 manager: AnnBe
 ms.date: 11/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 09432d278c51301f8b01fef8cbd3353af75a88f3
 ms.openlocfilehash: fea28da19c0aa1e9083091d0693404e0d8cb173c
-ms.contentlocale: es-es
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356677"
 ---
-
 # <a name="product-receipt-against-purchase-orders"></a>Recepción de producto frente a pedidos de compra
 
 [!include [banner](../includes/banner.md)]
@@ -53,7 +52,7 @@ Puede crear líneas de pedido de compra donde la opción **Nuevo activo fijo** e
 
 Puede seleccionar varios pedidos y procesar la recepción en todos esos pedidos juntos. Este enfoque no se utiliza con mucha frecuencia, pero puede que desee utilizarlo si un proveedor ha consolidado los envíos para usted en una sola carga. Durante la recepción de producto en la compra, hay una función para realizar las actualizaciones conjuntas. Las actualizaciones conjuntas que le permiten publicar un solo albarán del proveedor para más de un pedido de compra.  
 
-Los pedidos de compra pueden crearse a partir de un pedido de ventas en el que se ha seleccionado la opción **Entrega directa**. Cuando se utiliza la entrega directa, los productos nunca llegan al propio almacén, pero se envían directamente del proveedor al cliente. En este caso, la recepción se suele registrar directamente en el pedido de compra. La recepción se puede realizar automáticamente, como a través de la integración de intercambio electrónico de datos (EDI) con el proveedor. De forma alternativa, si el pedido de compra es un pedido de compra entre empresas vinculadas, Microsoft Dynamics 365 for Finance and Operations automatiza la recepción del pedido de ventas entre empresas vinculadas cuando se produce el envío. Cuando se utiliza la entrega directa, los productos se siguen contabilizando como inventario, a pesar de que no llegan físicamente al almacén. Por tanto, cuando se registre la recepción de producto en el pedido de compra, el pedido de ventas se actualiza automáticamente con un albarán, para que el cambio general en el inventario sea 0 (cero). En los escenarios de entrega directa, no debería requerir el pre-registro. Si utiliza almacenes que están habilitados para la gestión de almacenes, puede eludir el requisito para el registro de matrícula especificando un almacén virtual en su lugar. Especifique este almacén en el campo **Almacén de entrega directa** del producto. 
+Los pedidos de compra pueden crearse a partir de un pedido de ventas en el que se ha seleccionado la opción **Entrega directa**. Cuando se utiliza la entrega directa, los productos nunca llegan al propio almacén, pero se envían directamente del proveedor al cliente. En este caso, la recepción se suele registrar directamente en el pedido de compra. La recepción se puede realizar automáticamente, como a través de la integración de intercambio electrónico de datos (EDI) con el proveedor. De forma alternativa, si el pedido de compra es un pedido de compra de empresas vinculadas, Microsoft Dynamics 365 for Finance and Operations automatiza la recepción del pedido de ventas intercompañía cuando se produce el envío. Cuando se utiliza la entrega directa, los productos se siguen contabilizando como inventario, a pesar de que no llegan físicamente al almacén. Por tanto, cuando se registre la recepción de producto en el pedido de compra, el pedido de ventas se actualiza automáticamente con un albarán, para que el cambio general en el inventario sea 0 (cero). En los escenarios de entrega directa, no debería requerir el pre-registro. Si utiliza almacenes que están habilitados para la gestión de almacenes, puede eludir el requisito para el registro de matrícula especificando un almacén virtual en su lugar. Especifique este almacén en el campo **Almacén de entrega directa** del producto. 
 
 Una vez que se ha procesado la recepción de producto en el pedido de compra, el estado del pedido de compra se establece en **Recibido** para indicar que se puede procesar la factura para el pedido. Puede revisar los detalles acerca de los productos que ya se han recibido en la página **Diarios de recepción de productos**.  
 
@@ -69,7 +68,6 @@ Puede tener acceso a esta página desde el grupo de acción **Recibo** de la pá
 [Confirmación y aprobación del pedido de compra](purchase-order-approval-confirmation.md)
 
 [Visión general de facturas de proveedores](../../financials/accounts-payable/vendor-invoices-overview.md)
-
 
 
 

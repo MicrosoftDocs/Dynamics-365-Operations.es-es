@@ -5,27 +5,26 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 02/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServiceObjectRelation
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 03047b3eccf3c90d4cf7426ddaec83f10dbea1b0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 221b9dae7e83e7f4a535ac60f2a2011533d7861c
-ms.openlocfilehash: 0e54a0dc9b643077d45fe76e073772e81f99ea44
-ms.contentlocale: es-es
-ms.lasthandoff: 02/21/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314380"
 ---
-
 # <a name="service-object-relations"></a>Relaciones de objetos de servicio 
 
 [!include [banner](../includes/banner.md)]
@@ -78,5 +77,4 @@ Acceso al Diseñador de L. MAT mediante una relación de objeto de servicio
 ## <a name="automatically-created-service-orders"></a>Pedidos de servicio creados automáticamente
 
 Si crea pedidos de servicio automáticamente para un acuerdo de servicio, las relaciones de objeto de servicio del acuerdo también se crean en los pedidos de servicio.
-
 

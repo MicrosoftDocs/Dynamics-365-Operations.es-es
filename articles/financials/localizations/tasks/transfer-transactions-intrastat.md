@@ -1,13 +1,13 @@
---- 
+---
 title: Transferir transacciones a intrastat
-description: "Este procedimiento le guía por cómo configurar parámetros de intrastat y transferir transacciones a intrastat."
+description: Este procedimiento le guía por cómo configurar parámetros de intrastat y transferir transacciones a intrastat.
 author: Anasyash
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResCategoryHierarchyListPage, EcoResCategory, UnitOfMeasureLookup, ProcCategoryAddCommodityCode, EcoResProductDetailsExtended, IntrastatCommodityLookup, IntrastatTransactionCode, IntrastatParameters, DeliveryMode, MarkupTable, SalesTableListPage, SalesCreateOrder, SalesTable, MarkupTrans, SalesEditLines,  Intrastat, SysQueryForm
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: anasyash
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 13cc9dc2119ad3dc85d580e92edee7bb9ef2075c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: cc21497a6905cdb57bd687b7bff0d9dc810ba9eb
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "370494"
 ---
 # <a name="transfer-transactions-to-the-intrastat"></a>Transferir transacciones a intrastat
 
@@ -188,5 +188,4 @@ Este procedimiento le guía por cómo configurar parámetros de intrastat y tran
 9. En la lista, busque y seleccione el registro transferido.
 10. Haga clic en la pestaña General.
     * Revise los datos transferidos, incluidos el país o la región de destino/envío, el país de origen, el peso, la cantidad, la cantidad en unidades adicionales, la mercancía, el código de transacción, los importes de factura y los importes estadísticos.   Puede modificar los datos, si procede.  
-
 

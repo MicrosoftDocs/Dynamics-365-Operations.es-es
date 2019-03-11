@@ -1,13 +1,13 @@
 ---
-title: "Página de inicio de Contabilidad general e Informes financieros"
-description: "Use Contabilidad general para definir y gestionar los registros financieros de la entidad jurídica."
+title: Página de inicio de Contabilidad general e Informes financieros
+description: Use Contabilidad general para definir y gestionar los registros financieros de la entidad jurídica.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/31/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: GeneralJournalEntryWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 85afebcc88ad1c087d5f1dabaac56f694534cf98
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 03bab1d03be71c0e23a6ea93f542d6a52a212a1f
-ms.openlocfilehash: 9ee3f73cd11b38ed2237ea3fe08db18000e55f07
-ms.contentlocale: es-es
-ms.lasthandoff: 06/25/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363370"
 ---
-
 # <a name="general-ledger"></a>Contabilidad general 
 
 [!include [banner](../includes/banner.md)]
@@ -64,14 +63,13 @@ Consulte los vídeos de procedimientos que se encuentran ahora disponibles en el
 
 ### <a name="blogs"></a>Blogs
 
-Puede encontrar opiniones, noticias y otra información sobre Proveedores y otras soluciones en el [blog Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
+Puede encontrar opiniones, noticias y otra información sobre proveedores y otras soluciones en el [blog Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
 
-Hay muchas publicaciones sobre el libro de contabilidad general en el [blog del equipo del producto Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/). Aunque la mayoría de ellos se escribieron para la versión anterior de del libro de contabilidad general, aún se aplican los mismos conceptos y, en la versión actual, los procedimientos son también similares.
+Hay muchas publicaciones sobre la Contabilidad general en el [blog del equipo del producto Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/). Aunque la mayoría de ellos se escribieron para la versión anterior de del libro de contabilidad general, aún se aplican los mismos conceptos y, en la versión actual, los procedimientos son también similares.
 
 El [blog de la comunidad Microsoft Dynamics Operations Partner](https://community.dynamics.com/partner/b/operationspartnercommunityblog) proporciona a los socios de Microsoft Dynamics un único recurso desde el que obtener información sobre las novedades y tendencias de MBS Operations.
 
 #### <a name="community-blogs"></a>Blogs de la comunidad
 
-- [Lo que debe saber sobre el libro mayor en Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/04/29/what-you-should-know-about-ledger-in-dynamics-365-for-finance-and-operations)
-
+- [Qué debería saber sobre libro mayor en Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/04/29/what-you-should-know-about-ledger-in-dynamics-365-for-finance-and-operations)
 

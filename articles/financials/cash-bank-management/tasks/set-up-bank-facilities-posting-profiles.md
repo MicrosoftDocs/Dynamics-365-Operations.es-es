@@ -1,13 +1,13 @@
---- 
-title: "Configuración de créditos bancarios y perfiles de contabilización para cartas de garantía"
-description: "Esta tarea crea instalaciones bancarias y un perfil de contabilización necesario para procesar una carta de garantía."
+---
+title: Configuración de créditos bancarios y perfiles de contabilización para cartas de garantía
+description: Esta tarea crea instalaciones bancarias y un perfil de contabilización necesario para procesar una carta de garantía.
 author: kweekley
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankParameters, DefaultDashboard, BankDocumentSetup, BankDocumentPosting
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 0f696f5aa809692a0cc2c4ff559945a301480d7e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 022b5d411b8240390c543ba726fe0d6838752944
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321671"
 ---
 # <a name="set-up-bank-facilities-and-posting-profiles-for-letters-of-guarantee"></a>Configuración de créditos bancarios y perfiles de contabilización para cartas de garantía
 
@@ -77,5 +77,4 @@ Esta tarea usa la empresa de demostración USMF.
 9. En el campo Cuenta de liquidación, seleccione la cuenta de liquidación para la transacción de la carta de garantía. 
 10. Haga clic en Guardar.
 11. Cierre la página.
-
 

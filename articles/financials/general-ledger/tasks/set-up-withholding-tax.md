@@ -1,13 +1,13 @@
---- 
-title: "Configurar retención de impuestos"
-description: "La retención de impuestos es un impuesto sobre los proveedores que no crea transacciones de impuestos."
+---
+title: Configurar retención de impuestos
+description: La retención de impuestos es un impuesto sobre los proveedores que no crea transacciones de impuestos.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxWithholdTable, TaxWithholdData, TaxWithholdGroup
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 382b6332665af2491563960a75d498a4f007aba8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: dc4c0745235052cb4145bc7083fef1a88c8bb5c9
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337242"
 ---
 # <a name="set-up-withholding-tax"></a>Configurar retención de impuestos
 
@@ -50,5 +50,4 @@ La retención de impuestos es un impuesto sobre los proveedores que no crea tran
 19. En el campo Código de retención de impuestos, seleccione el código de retención de impuestos.
 20. En la lista, haga clic en el vínculo de la fila seleccionada.
 21. Haga clic en Guardar.
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Calendarios fiscales, ejercicios y períodos"
-description: "En este artículo se describen los calendarios fiscales, los ejercicios y los períodos y cómo usarlos para entidades jurídicas, activos fijos y gestión presupuestaria."
+title: Calendarios fiscales, ejercicios y períodos
+description: En este artículo se describen los calendarios fiscales, los ejercicios y los períodos y cómo usarlos para entidades jurídicas, activos fijos y gestión presupuestaria.
 author: aprilolson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: FiscalCalendars
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 360695ddfbcf1eab62dd5087e1b5bb34ccaf7c7f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 431d654aaffc27d54fd590dc7d5d2ab6c2313908
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361668"
 ---
-
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>Calendarios fiscales, ejercicios y períodos
 
 [!include [banner](../includes/banner.md)]
@@ -60,7 +59,6 @@ Los ciclos de presupuesto hacen referencia al tiempo durante el que se usa un pr
 
 ## <a name="maintain-periods-for-your-organization"></a>Mantener períodos para la organización
 Puede utilizar la página Calendario contable para ver los detalles del calendario, los ejercicios y los períodos fiscales que utiliza su organización. También puede modificar el estado de los períodos y seleccionar qué usuarios pueden registrar transacciones contables en los períodos. Por ejemplo, al inicio de un nuevo período, es posible que desee que un grupo de usuarios terminen de registrar las transacciones financieras en el período previo mientras otros grupos trabajan únicamente en el nuevo período.
-
 
 
 

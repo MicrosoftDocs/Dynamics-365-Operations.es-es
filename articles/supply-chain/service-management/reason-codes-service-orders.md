@@ -1,31 +1,30 @@
 ---
-title: "Códigos de motivo para pedidos de servicio"
-description: "Use códigos de motivo para ayudar a explicar el estado de un pedido de servicio cuando la fase de un pedido de servicio se actualiza."
+title: Códigos de motivo para pedidos de servicio
+description: Use códigos de motivo para ayudar a explicar el estado de un pedido de servicio cuando la fase de un pedido de servicio se actualiza.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAStageTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: cdade89d07fec6a01926015a8c73bacce015fd7a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 4c7aa0dc995165ce326a7f07dca2fbbb6e50b7bc
-ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363554"
 ---
-
 # <a name="reason-codes-for-service-orders"></a>Códigos de motivo para pedidos de servicio   
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,6 @@ Los códigos de motivo son opcionales. Puede decidir si es obligatorio especific
 ## <a name="see-also"></a>Consulte también
 
 [Configurar las etapas de pedido de servicio](set-up-service-order-stages.md)
-
 
 
 

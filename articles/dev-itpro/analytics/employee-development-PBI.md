@@ -1,13 +1,13 @@
 ---
-title: Contenido en Power BI de Desarrollo de empleados
+title: Contenido de desarrollo de empleados de Power BI
 description: Este tema describe el contenido en Power BI de Desarrollo de empleados.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations, Talent
@@ -15,15 +15,14 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 6b934b87cb5098641fba8c5b9214a0b2b6cde40d
-ms.contentlocale: es-es
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347178"
 ---
-
-# <a name="employee-development-power-bi-content"></a>Contenido en Power BI de Desarrollo de empleados
+# <a name="employee-development-power-bi-content"></a>Contenido de desarrollo de empleados de Power BI
 
 [!include [banner](../includes/banner.md)]
 
@@ -70,4 +69,3 @@ Puede filtrar los gráficos e iconos en estos informes y anclar los gráficos e 
 | Análisis de aptitudes de empleados  | Certificación, nivel, fecha de nivel y aptitud                                                                    | Nombre del empleado, aptitud |
 | Rendimiento              | Calificación, descripción y modelo de calificación                                                                      | Empleado actual, puesto actual, tendencia del empleado, aptitud preferida del trabajo, asignación de puesto anterior, tendencia del puesto, empleado cesado |
 | Aptitud                    | Aptitudes, tipo de aptitud y calificación                                                                              | Análisis de aptitudes de empleados, aptitud preferida del trabajo |
-

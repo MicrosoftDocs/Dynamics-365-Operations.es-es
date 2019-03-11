@@ -1,13 +1,13 @@
 ---
-title: "Códigos de información y grupos de códigos de información"
-description: "Este artículo proporciona información general acerca de códigos de información, grupos de códigos de información y acerca de cómo usarlos."
+title: Códigos de información y grupos de códigos de información
+description: Este artículo proporciona información general acerca de códigos de información, grupos de códigos de información y acerca de cómo usarlos.
 author: mugunthanm
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailInfocodeTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: c9cd9197f395b69f65137a59392a4d83d692f6fa
-ms.contentlocale: es-es
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340830"
 ---
-
 # <a name="info-codes-and-info-code-groups"></a>Códigos de información y grupos de códigos de información
 
 [!include [banner](includes/banner.md)]
@@ -43,7 +42,7 @@ Los códigos de la información proporcionan una forma de capturar datos en un r
 
 ## <a name="info-codes-group"></a>Grupo de códigos de información
 
-En Dynamics 365 for Retail puede crear grupos de códigos de información. Los grupos de códigos de información agregan flexibilidad al permitirle definir menos códigos de información y después usarlos de maneras más versátiles. Puede usar los grupos de códigos de información de las siguientes formas:
+En Dynamics 365 for Retail, puede crear grupos de códigos de información. Los grupos de códigos de información agregan flexibilidad al permitirle definir menos códigos de información y después usarlos de maneras más versátiles. Puede usar los grupos de códigos de información de las siguientes formas:
 
 - Defina menos códigos de información y reutilícelos fácilmente. Los códigos de información que se incluyen en grupos de códigos de información no tienen ninguna dependencia predefinida en otros códigos de información. Puede incluir el mismo código de información de varios grupos de códigos de información y después usar la priorización para presentar los mismos códigos de información en el orden que tiene sentido en cualquier escenario concreto.
 - Vincule códigos de información a otros códigos de información o grupos de códigos de información para recopilar información sobre un producto o una transacción sin tener que definir un código distinto de información o un código de información vinculado para cada situación.
@@ -57,4 +56,3 @@ Puede vincular códigos de información para que cuando se active un código de 
 **Ejemplo 2: Vincular códigos de información a grupos de códigos de información**
 
 Cuando vende determinados productos, por ejemplo, dispositivos móviles, desea siempre recopilar un conjunto específico de información, como el número de teléfono, el identificador móvil (IMEI) y el número de serie. Sin embargo, también desea recopilar información distinta para una tableta en comparación con un teléfono móvil. Puede configurar un grupo del códigos de información que incluya los avisos para el número de teléfono, el IMEI y el número de serie, y después vincular el grupo de códigos de información a un código individual de información. Cuando se activa el código de información específico del producto, el grupo de códigos de información puede activarse a continuación para permitirle recopilar los datos comunes sin tener que definir varios conjuntos de códigos de información vinculados para cada dispositivo.
-

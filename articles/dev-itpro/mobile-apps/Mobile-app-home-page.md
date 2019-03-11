@@ -1,13 +1,13 @@
 ---
-title: "Página principal de la aplicación Dynamics 365 for Unified Operations Mobile"
-description: "Este tema describe la aplicación móvil Microsoft Dynamics 365 for Unified Operations y ofrece vínculos a los recursos que pueden ayudarle a implementarla en su organización."
+title: Página principal de la aplicación Dynamics 365 for Unified Operations Mobile
+description: Este tema describe la aplicación Microsoft Dynamics 365 for Unified Operations mobile y ofrece vínculos a los recursos que pueden ayudarle a implementarla en su organización.
 author: sericks007
 manager: AnnBe
 ms.date: 10/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,22 +17,21 @@ ms.search.region: Global
 ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.translationtype: HT
-ms.sourcegitcommit: 3e9ec83e2cecdf8a7ec4ce3db1a80a310fe07255
 ms.openlocfilehash: 5666bee776e3d97244ce4830ac59971831848e71
-ms.contentlocale: es-es
-ms.lasthandoff: 10/26/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321395"
 ---
-
 # <a name="dynamics-365-for-unified-operations-mobile-app-home-page"></a>Página principal de la aplicación Dynamics 365 for Unified Operations Mobile
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe la aplicación móvil Microsoft Dynamics 365 for Unified Operations y ofrece vínculos a los recursos que pueden ayudarle a implementarla en su organización.
+Este tema describe la aplicación Microsoft Dynamics 365 for Unified Operations mobile y ofrece vínculos a los recursos que pueden ayudarle a implementarla en su organización.
 
 > [!NOTE]
-> La aplicación móvil anteriormente se denominó *Microsoft Dynamics 365 for Finance and Operations*.
+> La aplicación móvil anteriormente se llamaba *Microsoft Dynamics 365 for Finance and Operations*.
 
 <a name="overview"></a>Información general
 --------
@@ -90,7 +89,7 @@ La siguiente tabla incluye vínculos a los recursos que pueden ayudarle a implem
 <tr class="even">
 <td>2</td>
 <td>Administrador del sistema</td>
-<td><strong>Si está usando la versión 1611 de Microsoft Dynamics 365 for Operations:</strong> Descargue e instale los KB que habilitan los espacios de trabajo móvil que proporciona Microsoft.</td>
+<td><strong>Si está usando Microsoft Dynamics 365 for Operations versión 1611:</strong> descargue e instale KB que permitan espacios de trabajo móviles proporcionados por Microsoft.</td>
 <td>Consulte los temas siguientes para obtener más información:
 <ul>
 
@@ -120,7 +119,7 @@ La siguiente tabla incluye vínculos a los recursos que pueden ayudarle a implem
 <td>5</td>
 <td>ISV</td>
 <td>Cree un paquete desplegable que contenga espacios de trabajo móviles personalizados, y cargue el paquete en Microsoft Dynamics Lifecycle Services (LCS).</td>
-<td><a href="../deployment/create-apply-deployable-package.md">Crear un paquete desplegable</a></td>
+<td><a href="../deployment/create-apply-deployable-package.md">Crear un paquete implementable</a></td>
 </tr>
 <tr class="even">
 <td>6</td>
@@ -153,4 +152,3 @@ La siguiente tabla incluye vínculos a los recursos que pueden ayudarle a implem
 </tr>
 </tbody>
 </table>
-

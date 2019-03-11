@@ -1,13 +1,13 @@
 ---
 title: Configurar decisiones manuales en un flujo de trabajo
-description: "Este tema explica cómo configurar las propiedades de una decisión manual."
+description: Este tema explica cómo configurar las propiedades de una decisión manual.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: d09e99a5bf99593a8fa7682f9d4f29eaa4e7c836
-ms.contentlocale: es-es
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341405"
 ---
-
 # <a name="configure-manual-decisions-in-a-workflow"></a>Configurar decisiones manuales en un flujo de trabajo
 
 [!include [banner](../includes/banner.md)]
@@ -164,7 +163,7 @@ Puede enviar notificaciones cuando se haya tomado o delegado una decisión o cua
     </tr>
     <tr>
     <td>Usuario</td>
-    <td>Usuarios específicos de Microsoft Dynamics 365 for Finance and Operations</td>
+    <td>Usuarios de Microsoft Dynamics 365 for Finance and Operations específicos</td>
     <td>
     <ol>
     <li>Tras seleccionar <strong>Usuario</strong>, haga clic en la pestaña <strong>Usuario</strong>.</li>
@@ -372,4 +371,3 @@ Siga estos pasos si la decisión se debe tomar en un plazo específico.
     - **Años**: seleccione el día, la semana y el mes en los que vence el plazo para tomar la decisión. Por ejemplo, tal vez desee que la decisión se haya tomado antes del viernes de la tercera semana de diciembre.
 
 4. Si se supera el límite de tiempo, el sistema toma la decisión. En la lista **Acción**, seleccione la opción que debe seleccionar el sistema.
-

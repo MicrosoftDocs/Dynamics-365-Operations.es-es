@@ -1,13 +1,13 @@
---- 
-title: "Crear un perfil de ubicación"
-description: "Cada ubicación en el almacén requiere un perfil de ubicación asociado que describa las propiedades de la ubicación, por ejemplo, si la ubicación permite artículos mezclados."
+---
+title: Crear un perfil de ubicación
+description: Cada ubicación en el almacén requiere un perfil de ubicación asociado que describa las propiedades de la ubicación, por ejemplo, si la ubicación permite artículos mezclados.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSLocationProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 8bc7705b7db46af8fbe8bf9e78a878a53249b452
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: a4a159b0e849a73efb362ccadb841bd25c323290
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361392"
 ---
 # <a name="create-a-location-profile"></a>Crear un perfil de ubicación
 
@@ -41,5 +41,4 @@ Cada ubicación en el almacén requiere un perfil de ubicación asociado que des
 9. Seleccione Sí en el campo Permitir recuento cíclico.
 10. Haga clic en Guardar.
 11. Vaya a Gestión de almacenes > Configurar > Almacén > Perfiles de ubicación.
-
 

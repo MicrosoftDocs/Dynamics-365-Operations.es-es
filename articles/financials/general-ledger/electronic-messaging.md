@@ -1,33 +1,32 @@
 ---
-title: "Mensajes electrónicos"
-description: "Este tema proporciona información general y la información de configuración de los mensajes electrónicos en Microsoft Dynamics 365 for Finance and Operations."
+title: Mensajes electrónicos
+description: Este tema proporciona información general y de configuración del correo electrónico en Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: 232398a6c4193d0074881e26fff361deb9784bf2
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 082ad886f40a52457900523f44158da3ed939458
-ms.contentlocale: es-es
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357942"
 ---
-
-# <a name="electronic-messaging"></a>Mensajes electrónicos
+# <a name="electronic-messaging"></a>Mensajería electrónica
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona información general y la información de configuración de los mensajes electrónicos en Microsoft Dynamics 365 for Finance and Operations.
+Este tema proporciona información general y de configuración del correo electrónico en Microsoft Dynamics 365 for Finance and Operations.
 
 Recientemente, los gobiernos y las autoridades legislativas de varios países y regiones en todo el mundo han implementado los requisitos de informe para las empresas que se registran en dichos países o regiones. El objetivo de los requisitos es habilitar que los datos que se obtienen de dichas empresas estén en formato electrónico, directamente desde sistemas donde se han contabilizado, almacenado, y procesado.
 
@@ -39,7 +38,7 @@ Los mensajes electrónicos se basan en las entidades siguientes:
 
 - **Mensaje electrónico** – Un informe o una declaración que debe notificarse y/o transmitirse internamente. Un ejemplo es un informe que se envía a una delegación de Hacienda.
 - **Elementos del mensaje electrónico** Registros que se deben incluir en el mensaje que se notifica.
-- **Procesamiento de mensaje electrónico** Una cadena de acciones, vinculadas o no, que se debe ejecutar para obtener los datos necesarios, generar informes, almacenar datos en el almacenamiento de Microsoft Azure Blob, transmitir informes fuera del sistema, obtener respuestas que se encuentran fuera del sistema, y actualizar la base de datos, según la información que se recibe.
+- **Procesamiento de mensaje electrónico**: una cadena de acciones, vinculadas o no, que se debe ejecutar para obtener los datos necesarios, generar informes, almacenar datos en el almacenamiento de Microsoft Azure Blob, transmitir informes fuera del sistema, obtener respuestas que se encuentran fuera del sistema, y actualizar la base de datos, según la información que se recibe.
 
 La ilustración siguiente muestra el flujo de datos de los mensajes electrónicos.
 
@@ -47,7 +46,7 @@ La ilustración siguiente muestra el flujo de datos de los mensajes electrónico
 
 La funcionalidad de los mensajes electrónicos admite los escenarios siguientes:
 
-- Crear manualmente los mensajes y generar los informes basados en formatos de ER asociados de exportación de distintos tipos: Microsoft Excel, XML, JavaScript Object Notation (JSON), PDF, texto, y Microsoft Word.
+- Crear manualmente los mensajes y generar los informes basados en formatos de ER asociados de exportación de distintos tipos: Microsoft Excel, XML, JavaScript Object Notation (JSON), PDF, texto y Microsoft Word.
 - Crear automáticamente y procesar mensajes que se basan en la información que se solicitó y se obtuvo de una autoridad mediante un formato ER de importación asociado.
 - Recopilar y procesar información de un origen de datos (tabla de Finance and Operations) como elementos de mensaje.
 - Almacenar la información adicional, y evaluar los diversos valores llamando a clases ejecutables específicamente definidas en relación con mensajes o elementos de mensajes.
@@ -452,4 +451,3 @@ Ahora puede eliminar o actualizar el estado del mensaje. Para actualizar el esta
 ![Actualizar el estado del mensaje](media/update-status.png)
 
 El estado del mensaje se actualiza a **Preparado**, y ahora puede generar el informe seleccionando **Generar informe**. Se genera el informe, y el estado del mensaje y el registro de acción se actualizan. Para ver el informe generado, seleccione el botón **Datos adjuntos** en el panel de acciones.
-

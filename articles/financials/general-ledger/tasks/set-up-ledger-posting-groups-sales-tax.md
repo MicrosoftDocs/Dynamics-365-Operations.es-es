@@ -1,13 +1,13 @@
---- 
-title: "Configuración de grupos de registro para impuestos"
+---
+title: Configuración de grupos de registro para impuestos
 description: Los impuestos se calculan y registran en las cuentas principales que se especifican en los grupos de registro.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxAccountGroup
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 15421da6f325dfee22a303e9fe83a0e72895fa08
-ms.contentlocale: es-es
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308354"
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a>Configuración de grupos de registro para impuestos
 
@@ -48,5 +48,4 @@ Los impuestos se calculan y registran en las cuentas principales que se especifi
 11. En el campo de descuento por pronto pago del cliente, seleccione la cuenta principal para registrar el descuento por pronto pago para los códigos de impuestos asociados a este grupo de registro.
     * Esto es opcional y, si no se especifica ninguna cuenta, se usará la cuenta principal de códigos de descuento por pronto pago. Puede resultar útil usar cuentas diferentes por cada grupo de registro si se usa la opción Deducir los impuestos del descuento por pronto pago en los grupos de impuestos.  
 12. Haga clic en Guardar.
-
 

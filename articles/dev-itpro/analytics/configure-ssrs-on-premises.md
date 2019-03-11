@@ -1,34 +1,34 @@
 ---
 title: Configurar SQL Server Reporting Services para implementaciones locales
-description: "Este tema proporciona información acerca de la configuración de SQL Server Reporting Services (SSRS) para una implementación local."
+description: Este tema proporciona información acerca de la configuración de SQL Server Reporting Services (SSRS) para una implementación local.
 author: sarvanisathish
 manager: AnnBe
 ms.date: 06/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Operations
 ms.custom: 55651
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: sarvanis
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 166d419f16866f699b96013222ce8da147a5ec21
-ms.contentlocale: es-es
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315139"
 ---
 # <a name="configure-sql-server-reporting-services-for-on-premises-deployments"></a>Configurar SQL Server Reporting Services para implementaciones locales
 
 [!include [banner](../includes/banner.md)]
 
-Use los pasos de este tema para configurar SQL Server Reporting Services (SSRS) para la implementación de su Microsoft Dynamics 365 for Finance and Operations (local).
+Siga los pasos de este tema para configurar SQL Server Reporting Services (SSRS) para una implementación de Microsoft Dynamics 365 for Finance and Operations (on-premises).
 
 1. Abra la aplicación de administrador de configuración de Reporting Services.
 2. Deje el valor predeterminado **Nombre del servidor**, que debe ser el nombre del equipo actual y la **Instancia del servidor de informes**, **MSSQLSERVER**.
@@ -94,4 +94,3 @@ Use los pasos de este tema para configurar SQL Server Reporting Services (SSRS) 
 13. Haga clic en **Salir** para cerrar el **administrador de configuración de Reporting Services**.
 
     [![cerrar el administrador de configuración de Reporting Services](./media/ssrs-config-manager-14.png)](./media/ssrs-config-manager-14.png)
-

@@ -1,13 +1,13 @@
 ---
 title: Funcionalidad de ventas del centro de llamadas
-description: "Este tema proporciona una visión general de la funcionalidad de ventas del centro de llamadas en Microsoft Dynamics 365 for Retail."
+description: Este tema proporciona una visión general de la funcionalidad de ventas de centro de asistencia telefónica en Microsoft Dynamics 365 for Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 04/03/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, MCROrderParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 8b78762ce70b318e1f77e1e49ffaa7b72f01667f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 2b536ad4f29a3bb76294ef2fba30c529c24f1375
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363163"
 ---
-
 # <a name="call-center-sales-functionality"></a>Funcionalidad de ventas del centro de llamadas
 
 [!include [banner](includes/banner.md)]
@@ -68,4 +67,3 @@ Esta página ofrece vínculos a la documentación pertinente relacionada con la 
 ## <a name="configure-continuity-programs"></a>Configurar programas de continuidad
 
 [Configurar un programa de continuidad para un centro de llamadas](set-up-continuity-program.md)
-

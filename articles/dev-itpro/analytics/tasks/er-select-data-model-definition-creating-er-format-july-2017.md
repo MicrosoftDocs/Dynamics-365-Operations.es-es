@@ -1,13 +1,13 @@
---- 
+---
 title: Seleccionar definiciones de modelo de datos al crear formatos
-description: "Para completar los pasos de este procedimiento, primero debe completar los pasos del procedimiento, ER: Creación y activación de un proveedor de configuraciones."
+description: 'Para completar los pasos de este procedimiento, primero debe completar los pasos del procedimiento, ER: Creación y activación de un proveedor de configuraciones.'
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: dc357db8acbdb98741a694a8a9d3c0c0625c50e4
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334505"
 ---
 # <a name="select-data-model-definitions-when-you-create-formats"></a>Seleccionar definiciones de modelo de datos al crear formatos
 
@@ -98,5 +98,4 @@ Este procedimiento se ha creado para los usuarios con los roles de Administrador
 4. En el campo definición del modelo de Datos, introduzca o seleccione un valor.
     * Tenga en cuenta que solo un elemento raíz está disponible ahora asignar a los orígenes de datos de la aplicación. Cuando se introduce al menos una asignación de modelo, solo los artículos raíz del modelo se asignan a los orígenes de datos de la aplicación se pueden seleccionar como definición de modelo cuando se agrega el formato de ER.   
 5. Cierre la página.
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Contenido de Power BI sobre formación organizativa"
-description: "En este tema se describe Finance and Operations, contenido de Power BI sobre formación organizativa."
+title: Contenido de formación organizativa de Power BI
+description: En este tema se describe Finance and Operations, contenido de Power BI sobre formación organizativa.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 6c1855013dc449950877f8727a5453942aeb75de
-ms.contentlocale: es-es
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367533"
 ---
-
-# <a name="organizational-training-power-bi-content"></a>Contenido de Power BI sobre formación organizativa
+# <a name="organizational-training-power-bi-content"></a>Contenido de formación organizativa de Power BI
 
 [!include [banner](../includes/banner.md)]
 
@@ -59,4 +58,3 @@ Los datos de Finance and Operations se usan para rellenar los informes del paque
 | Training\_Position        | Puesto, título y equivalente a jornada completa                  | Training\_CourseAgenda, Training\_CourseAttendees |
 | Training\_WorkerName      | Nombre, apellido y nombre completo                             | Training\_CourseAttendees |
 | Training\_WorkerTitle     | Cargo y fecha de antigüedad                                         | Training\_CourseAttendees |
-

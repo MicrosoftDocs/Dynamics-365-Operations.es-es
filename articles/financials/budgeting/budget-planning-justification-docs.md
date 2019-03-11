@@ -1,13 +1,13 @@
 ---
-title: "Planificación presupuestaria para documentos de justificación"
-description: "Los documentos de justificación proporcionan una descripción para aquellos que solicitan un presupuesto para explicar por qué es necesario un presupuesto específico."
+title: Planificación presupuestaria para documentos de justificación
+description: Los documentos de justificación proporcionan una descripción para aquellos que solicitan un presupuesto para explicar por qué es necesario un presupuesto específico.
 author: ryansandness
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanJustificationTemplate
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: cae6334cd39a91eaf3a2a79f30edc705f484bc8c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c4ac839e69440c8d3f1e86007a074999189e391d
-ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333585"
 ---
-
 # <a name="budget-planning-justification-documents"></a>Planificación presupuestaria para documentos de justificación
 
 [!include [banner](../includes/banner.md)]
@@ -34,9 +33,9 @@ Los documentos de justificación proporcionan una descripción para aquellos que
 
 El administrador presupuestario crea una plantilla del plan presupuestario en Microsoft Word y la asigna al proceso de planificación presupuestaria actual. A continuación, los propietarios de presupuesto pueden abrir la plantilla y tener los datos rellenados automáticamente en Word en función de su solicitud de presupuesto. Posteriormente, pueden agregar texto o datos adicionales antes de guardar y adjuntar el documento de justificación personalizado a su plan presupuestario.
 
-##### <a name="set-up-microsoft-dynamics-office-add-in-for-microsoft-word"></a>Configure el complemento de Microsoft Dynamics Office para Microsoft Word
+##### <a name="set-up-microsoft-dynamics-office-add-in-for-microsoft-word"></a>Configurar el complemento de Microsoft Dynamics Office para Microsoft Word
 
-1.  Abra un nuevo documento de Microsoft Word.
+1.  Abra un documento nuevo de Microsoft Word.
 2.  Haga clic en **Insertar** en la cinta de opciones y haga clic en **Tienda**.
 3.  Busque el complemento de Microsoft Dynamics Office y haga clic en **Agregar**.
 4.  En Word, en el panel derecho, haga clic en **Agregar información de servidor**.
@@ -69,7 +68,6 @@ El administrador presupuestario crea una plantilla del plan presupuestario en Mi
 1.  En Finance and Operations, cree un nuevo plan presupuestario o abra un plan presupuestario existente.
 2.  En el menú desplegable **Justificación**, seleccione **Crear nueva justificación**.
 3.  Tras completar los detalles, seleccione el documento personalizado que desea cargar desde el menú desplegable **Justificación**.
-
 
 
 

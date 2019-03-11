@@ -1,13 +1,13 @@
 ---
 title: Crear una plantilla de proceso en Attract
-description: "Este tema proporciona información sobre cómo crear una plantilla de proceso en Attract."
+description: Este tema proporciona información sobre cómo crear una plantilla de proceso en Attract.
 author: hasrivas
 manager: AnnBe
 ms.date: 10/15/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Talent
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: AX 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: b589a6ce02cdc02436e256f9e81346fe8b766687
 ms.openlocfilehash: 2b9cac68093be65584192757229c20b1a1546342
-ms.contentlocale: es-es
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "306103"
 ---
-
 # <a name="create-a-process-template-in-attract"></a>Crear una plantilla de proceso en Attract
 
 [!include [banner](includes/banner.md)]
 
-Una *plantilla de proceso de contratación* contiene todas las actividades que deben incluirse como parte del proceso de contratación para un trabajo. Este tema describe los elementos de un proceso de contratación en Microsoft Dynamics 365 for Talent: Attract. También se explica cómo crear una plantilla.
+Una *plantilla de proceso de contratación* contiene todas las actividades que deben incluirse como parte del proceso de contratación para un trabajo. Este tema describe los elementos de una plantilla de proceso en Microsoft Dynamics 365 for Talent: Attract. También se explica cómo crear una plantilla.
 
 > [!NOTE]
 > La creación de plantillas es parte del complemento de contratación completo de Attract.
@@ -72,4 +71,3 @@ Siga estos pasos para crear una plantilla de proceso de contratación.
     - Para quitar una actividad, expándala y seleccione el botón de papelera en el encabezado de la actividad.
 
 8. Seleccione **Guardar**.
-

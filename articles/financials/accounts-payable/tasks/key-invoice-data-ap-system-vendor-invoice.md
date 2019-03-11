@@ -1,13 +1,13 @@
---- 
+---
 title: Datos clave en el sistema de proveedores mediante factura de proveedor
-description: "Esta guía de tareas le ayudará a crear una factura de proveedor de un pedido de compra y a ver los resultados de conciliación del pedido de compra, la recepción y la factura (triple conciliación)."
+description: Esta guía de tareas le ayudará a crear una factura de proveedor de un pedido de compra y a ver los resultados de conciliación del pedido de compra, la recepción y la factura (triple conciliación).
 author: abruer
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, PurchEditLines, VendEditInvoice, InventItemIdLookupSimple, VendInvoiceMatchingDetails
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: e1d2e31a5de7cefd20996c18bf4771296a587997
-ms.contentlocale: es-es
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359115"
 ---
 # <a name="key-invoice-data-in-ap-system-using-vendor-invoice"></a>Datos clave en el sistema de proveedores mediante factura de proveedor
 
@@ -79,5 +79,4 @@ Esta guía de tareas le ayudará a crear una factura de proveedor de un pedido d
 19. Haga clic en Registrar.
 20. Cierre el formulario.
     * Tenga en cuenta que el pedido de compra ya no aparece en la lista como recibido, sino como no facturado.  
-
 

@@ -1,31 +1,30 @@
 ---
 title: Novedades y cambios en Dynamics 365 for Talent Core HR (agosto de 2018)
-description: "Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 for Talent Core HR."
+description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 for Talent Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 08/27/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-08-27
 ms.dyn365.ops.version: Talent August 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
 ms.openlocfilehash: cdf0893835c1ee9edd89c43b3c5c842d89e6d526
-ms.contentlocale: es-es
-ms.lasthandoff: 08/29/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306153"
 ---
-
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-august-2018"></a>Novedades y cambios en Dynamics 365 for Talent Core HR (agosto de 2018)
 
 [!include [banner](includes/banner.md)]
@@ -78,7 +77,7 @@ Con esta función puede establecer la base del período de acumulación en el ni
 
 Cuando está configurado para utilizar una de las fechas específicas de un empleado, el proceso de inscripción utilizará la fecha especificada para calcular los períodos de acumulación. La función del período de acumulación también se muestra en la inscripción del plan del empleado para ayudarle a comprender qué se está utilizando durante el proceso de acumulación.
 
-## <a name="microsoft-word-integration"></a>Integración con Microsoft Word
+## <a name="microsoft-word-integration"></a>Integración de Microsoft Word
 
 Las plantillas de documento se han habilitado en todo Core HR. Esta función permite crear cartas e informes basados en las plantillas de Word que cree.
 
@@ -88,4 +87,3 @@ La información adicional sobre esta característica está disponible en [Tutori
 ## <a name="other-fixes"></a>Otras correcciones
 
 Este lanzamiento también incluye varias correcciones de errores, la adición de nuevas entidades, correcciones a las entidades existentes, y cambios de etiquetas localizados.
-

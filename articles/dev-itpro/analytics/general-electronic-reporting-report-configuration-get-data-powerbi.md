@@ -1,13 +1,13 @@
 ---
-title: "Configuración electrónica de informes (ER) para proporcionar datos a Power BI"
-description: "Este tema explica cómo puede usar su configuración de informes electrónicos (ER) para organizar la transferencia de datos de la instancia de Finance and Operations a los servicios de Power BI."
+title: Configurar informes electrónicos (ER) para proporcionar datos a Power BI
+description: Este tema explica cómo puede usar su configuración de informes electrónicos (ER) para organizar la transferencia de datos de la instancia de Finance and Operations a los servicios de Power BI.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -17,23 +17,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: e2d3c03a75fd03dfd3a96a181eff20f934546ec4
-ms.contentlocale: es-es
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335793"
 ---
-
-# <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Configuración electrónica de informes (ER) para proporcionar datos a Power BI
+# <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Configurar informes electrónicos (ER) para proporcionar datos a Power BI
 
 [!include [banner](../includes/banner.md)]
 
 Este tema explica cómo puede usar su configuración de informes electrónicos (ER) para organizar la transferencia de datos de la instancia de Finance and Operations a los servicios de Power BI. Como ejemplo, este tema utiliza transacciones Intrastat como datos empresariales que se deben transferir. La vista de mapa de Power BI usa estos datos de transacción de Intrastat para mostrar una visión para el análisis de actividades de importación/exportación de la empresa en el informe de Power BI.
 
-## <a name="overview"></a>Visión general
+## <a name="overview"></a>Información general
 
-Microsoft Power BI es una recopilación de servicios de desarrollo de programas informáticos, aplicaciones y conectores que funcionan conjuntamente para activar fuentes externas de datos en conocimientos coherentes, visualmente envolventes e interactivos. Los informes electrónicos (ER) permiten a los usuarios de Microsoft Dynamics 365 for Finance and Operations configurar fácilmente los orígenes de los datos y organizar la transferencia de datos de Dynamics 365 for Finance and Operations a Power BI. Los datos se transfieren como archivos en el formato de la hoja de cálculo de OpenXML (archivo del libro de Microsoft Excel). Los archivos transferidos se almacenan en un Servidor de Microsoft SharePoint que se ha configurado para ese propósito. Los archivos almacenados se usan en Power BI para realizar los informes que contengan las vistas (tablas, gráficos, mapas, etc.). Los informes de Power BI se comparten con usuarios de Power BI, y se accede a ellos desde paneles de Power BI y páginas de Finance and Operations. En este tema se describen las siguientes tareas:
+Microsoft Power BI es una recopilación de servicios de desarrollo de programas informáticos, aplicaciones y conectores que funcionan conjuntamente para activar fuentes externas de datos en conocimientos coherentes, visualmente envolventes e interactivos. Los informes electrónicos (ER) permiten a los usuarios de Microsoft Dynamics 365 for Finance and Operations configurar con facilidad orígenes de datos y organizar la transferencia de datos de Finance and Operations a Power BI. Los datos se transfieren como archivos en el formato de la hoja de cálculo de OpenXML (archivo del libro de Microsoft Excel). Los archivos transferidos se almacenan en un servidor de Microsoft SharePoint Server que se ha configurado para ese propósito. Los archivos almacenados se usan en Power BI para realizar los informes que contengan las vistas (tablas, gráficos, mapas, etc.). Los informes de Power BI se comparten con usuarios de Power BI, y se accede a ellos desde paneles de Power BI y páginas de Finance and Operations. En este tema se describen las siguientes tareas:
 
 - Configure Finance and Operations.
 - Prepare la configuración del formato de ER para recopilar datos de Finance and Operations.
@@ -51,11 +50,11 @@ Para completar el ejemplo de este tema, debe tener el acceso siguiente:
     - Administrador del sistema
 
 - Acceso al Servidor de SharePoint configurado para su uso con Finance and Operations
-- Acceso al marco de trabajo de Power BI
+- Acceso al marco Power BI
 
 ## <a name="configure-document-management-parameters"></a>Confugurar los parámetros de gestión de documentos
-1. En la página de **Parámetros de gestión de documentos**, configure el acceso al Servidor de SharePoint que se usará en la empresa en la que se firman (la empresa DEMF de este ejemplo).
-2. Pruebe la conexión al Servidor de SharePoint para asegurarse de que se le ha concedido el acceso.
+1. En la página de **Parámetros de gestión de documentos**, configure el acceso a SharePoint Server que se usará en la empresa en la que se firman (la empresa DEMF de este ejemplo).
+2. Pruebe la conexión a SharePoint Server para asegurarse de que se le ha concedido el acceso.
 
     [![Página Parámetros de gestión de documentos](./media/ger-power-bi-sharepoint-server-setting-1024x369.png)](./media/ger-power-bi-sharepoint-server-setting.png)
 
@@ -113,7 +112,7 @@ Se generará el siguiente resultado de salida. El archivo se denomina **Detalles
 ## <a name="configure-the-er-destination"></a>Configurar el destino de ER
 Debe configurar el marco de ER para enviar el resultado de salida de la nueva configuración del formato de ER de manera especial.
 
-- El resultado de salida se debe enviar a la carpeta del Servidor de SharePoint seleccionado.
+- El resultado de salida se debe enviar a la carpeta del SharePoint Server seleccionado.
 - Cada ejecución de la configuración del formato debe crear una versión nueva del mismo archivo de Excel.
 
 En la página **Informes electrónicos** (**Gestión de la organización** &gt; **Informes electrónicos**), haga clic en el elemento **Destino de informe electrónico**, y añada un nuevo destino. En el campo **Referencia**, seleccione la configuración del formato **Actividades de importación / exportación** que creó anteriormente. Siga estos pasos para agregar un nuevo registro de destino de archivo para la referencia.
@@ -151,7 +150,7 @@ Haga clic en el botón de **Ajustes** para el nuevo registro de destino. A conti
 
     [![Creación de un conjunto de datos](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png)
 
-2. Seleccione la opción **Sitios del equipo de SharePoint** y especifique la ruta del Servidor de SharePoint que utiliza (`https://ax7partner.litware.com` en nuestro ejemplo).
+2. Seleccione la opción **SharePoint - Sitios del equipo** y especifique la ruta del SharePoint Server que utiliza (`https://ax7partner.litware.com` en nuestro ejemplo).
 3. Busque la carpeta **/Documentos compartidos/Datos GER/PowerBI** y seleccione el archivo de Excel que ha creado como origen de los datos para el nuevo conjunto de datos de Power BI.
 
     [![Selección del archivo de Excel](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png)
@@ -160,7 +159,7 @@ Haga clic en el botón de **Ajustes** para el nuevo registro de destino. A conti
 
     [![Conjunto de datos en el panel](./media/ger-power-bi-added-dataset-1024x489.png)](./media/ger-power-bi-added-dataset.png)
 
-5. Configurar la programación de actualización para que este conjunto de datos pueda forzar una actualización periódica. Las actualizaciones periódicas habilitan el consumo de nuevos datos empresariales que vengan de Finance and Operations a través de la ejecución periódica del informe de ER a través de nuevas versiones del archivo de Excel que se crean en el Servidor de SharePoint.
+5. Configurar la programación de actualización para que este conjunto de datos pueda forzar una actualización periódica. Las actualizaciones periódicas habilitan el consumo de nuevos datos empresariales que vengan de Finance and Operations a través de la ejecución periódica del informe de ER a través de nuevas versiones del archivo de Excel que se crean en el SharePoint Server.
 
 ## <a name="create-a-power-bi-report-by-using-the-new-dataset"></a>Crear un informe de Power BI mediante el conjunto de datos nuevos
 1. Haga clic en el conjunto de datos de Power BI **Detalles de importación y exportación** que ha creado.
@@ -187,7 +186,7 @@ Haga clic en el botón de **Ajustes** para el nuevo registro de destino. A conti
 ## <a name="access-power-bi-report-in-finance-and-operations"></a>Acceda al informe de Power BI en Finance and Operations
 Configure la integración entre Finance and Operations y Power BI. Para obtener más información, consulte [Integración de configuración de Power BI para las áreas de trabajo](configure-power-bi-integration.md).
 
-1. En la página del espacio de trabajo de **Informes electrónicos** que admite la integración de Power BI (**Gestión de la organización** &gt; **Espacios de trabajo** &gt; **Espacio de trabajo de informes electrónicos**), haga clic en **Opciones** &gt; **Abrir catálogo de informes**.
+1. En la página del área de trabajo de **Informes electrónicos** que admite la integración de Power BI (**Gestión de la organización** &gt; **Áreas de trabajo** &gt; **Área de trabajo de informes electrónicos**), haga clic en **Opciones** &gt; **Abrir catálogo de informes**.
 2. Seleccione el informe **Detalles de exportación e importación** de Power BI que ha creado, para mostrar dicho informe como un artículo de acción en la página seleccionada.
 3. Haga clic en el elemento de acción para abrir la página de Finance and Operations que muestra el informe que ha diseñado en Power BI.
 
@@ -198,4 +197,3 @@ Configure la integración entre Finance and Operations y Power BI. Para obtener 
 [Destinos de informes electrónicos](electronic-reporting-destinations.md)
 
 [Visión general de los informes electrónicos](general-electronic-reporting.md)
-

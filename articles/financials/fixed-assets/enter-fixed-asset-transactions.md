@@ -1,13 +1,13 @@
 ---
 title: Opciones de transacciones de activos fijos
-description: "Este artículo describe los diferentes métodos disponibles para crear transacciones de activos fijos."
+description: Este tema describe los diferentes métodos disponibles para crear transacciones de activos fijos.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/07/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetTable, PurchCreateOrder
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6362a63bca43b5ac8da14becf6b966e459365ce1
+ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 18352ad921c2e2d110a7535f979272685105662f
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "377191"
 ---
-
 # <a name="fixed-asset-transaction-options"></a>Opciones de transacciones de activos fijos
 
 [!include [banner](../includes/banner.md)]
 
-Este artículo describe los diferentes métodos disponibles para crear transacciones de activos fijos.
+Este tema describe los diferentes métodos disponibles para crear transacciones de activos fijos.
 
 Puede configurar los activos fijos de la integración con los proveedores, clientes, adquisición y abastecimiento y contabilidad general. También puede transferir los artículos en gestión de inventarios a los activos fijos si desea usar dichos artículos internamente.
 
@@ -66,9 +65,6 @@ Cualquier tipo de transacción de activos fijos se puede registrar en la página
 | ** **                               | Clientes      | Factura de servicios                         |
 
 
+El valor restante de los períodos de depreciación del activo fijo no se actualiza cuando una línea de diario del tipo de transacción de depreciación se crea o se importa manualmente a través de una entidad de los datos. Este valor se actualiza cuando el proceso de propuesta de depreciación se utiliza para crear la línea de diario.
 
 Para obtener más información, consulte [Integración de activos fijos](fixed-asset-integration.md).
-
-
-
-

@@ -1,31 +1,30 @@
 ---
 title: Novedades y cambios en Dynamics 365 for Talent Core HR (17 de septiembre de 2018)
-description: "Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 for Talent Core HR."
+description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 for Talent Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 09/17/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-09-14
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: c4428613441424c81f4fd7dd92bbf842c62ce860
 ms.openlocfilehash: 6586761fc62c13c701e8a8f61e15eedc66e2f751
-ms.contentlocale: es-es
-ms.lasthandoff: 09/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306123"
 ---
-
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-september-17-2018"></a>Novedades y cambios en Dynamics 365 for Talent Core HR (17 de septiembre de 2018)
 
 [!include [banner](includes/banner.md)]
@@ -57,4 +56,3 @@ La actualización 18 de la plataforma es ahora parte de la versión de Talent.
 ## <a name="bug-fixes"></a>Correcciones de errores
 
 Este lanzamiento incluye varias correcciones de errores adicionales, incluso las referencias a ACA, ADA, y I9 ahora solo están habilitadas en empresas estadounidenses.
-

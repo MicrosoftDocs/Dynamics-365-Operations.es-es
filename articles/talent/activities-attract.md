@@ -1,14 +1,14 @@
 ---
 title: Actividades en los proceso
-description: "Este tema proporciona información sobre los distintos tipos de actividades que se pueden usar en el proceso de contratación."
-author: 
+description: Este tema proporciona información sobre los distintos tipos de actividades que se pueden usar en el proceso de contratación.
+author: ''
 manager: AnnBe
-ms.date: 12/07/2018
+ms.date: 02/04/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
+ms.openlocfilehash: c32db1f563466f05b9fef1a03578392888c0b7e6
+ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
 ms.translationtype: HT
-ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
-ms.openlocfilehash: 4f59193991420fd9ec05a83049e569058bf81932
-ms.contentlocale: es-es
-ms.lasthandoff: 12/07/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 02/05/2019
+ms.locfileid: "374766"
 ---
-
 # <a name="activities-in-the-hiring-processes"></a>Actividades en los procesos de contratación
 
 [!include[banner](../includes/banner.md)]
@@ -43,31 +42,9 @@ La actividad del candidato potencial controla si los candidatos potenciales se p
 
 La actividad de solicitud se requiere en la plantilla de proceso de contratación. Para enviar mensajes de correo electrónico a los candidatos cuando presentan su solicitud o se agregan a la etapa de solicitud, establezca la opción **Enviar correo al candidato** en **Activado**.
 
-## <a name="scheduler-activity"></a>Actividad de programación
+## <a name="interview-schedule-and-feedback-activity"></a>Programación de entrevista y actividad de comentarios
 
-La actividad del programador es opcional. Esta actividad tiene dos componentes: Disponibilidad del candidato y programación. El componente disponibilidad del candidato le permite utilizar el correo electrónico para solicitar la disponibilidad de un candidato. El componente Programación proporciona la capacidad de programar entrevistas con el candidato y el equipo de contratación. En la actividad del programador, las siguientes opciones se pueden configurar: **Solicitar disponibilidad del candidato**, **Conferencia en línea**, y **Enviar correo al candidato**.
-
-- Para enviar mensajes de correo electrónico a los candidatos para solicitar su disponibilidad, establezca la opción **Solicitar disponibilidad del candidato** en **Activado**. Si establece la opción en **Desactivado**, este paso no se mostrará en el proceso de contratación en el trabajo.
-- Para tener una llamada o una conferencia en directo con Skype Empresarial, establezca el campo **Conferencia en línea** en **Skype Empresarial**. Se agregará el vínculo **Unirse a reunión en Skype** a la solicitud de reunión de entrevista que se envía a las entrevistadores.
-- Para enviar mensajes de correo electrónico a los candidatos para finalizar la programación, establezca la opción **Enviar correo al candidato** en **Activado**. Si establece la opción en **Desactivado**, los candidatos recibirán la programación de la entrevista solo si firman en el portal del candidato.
-
-## <a name="feedback-activity"></a>Actividad de valoración
-
-La actividad de valoración es opcional. Esta actividad permite a los participantes a una entrevista especificar recomendaciones para un candidato. También pueden especificar cualquier comentario valorativo que tengan. Si se activa la opción **Heredar participantes de comentarios del equipo de contratación**, se especifica automáticamente el reclutador, el administrador de contratación, y los entrevistadores en la actividad de valoración. Las organizaciones pueden permitir a los entrevistadores ver los comentarios de otras personas antes enviar su propio comentario. Las organizaciones pueden también permitir que los entrevistadores editen sus comentarios después de enviarlos.
-
-## <a name="interview-activity"></a>Actividad de entrevista
-
-La actividad de entrevista es opcional. Esta actividad tiene tres componentes: Disponibilidad del candidato, programación y comentarios. El componente disponibilidad del candidato le permite utilizar el correo electrónico para solicitar la disponibilidad de un candidato. El componente Programación proporciona la capacidad de programar entrevistas con el candidato y el equipo de contratación. En la actividad del programador, las siguientes opciones se pueden configurar: **Solicitar disponibilidad del candidato**, **Conferencia en línea**, y **Enviar correo al candidato**.
-
-- Para enviar mensajes de correo electrónico a los candidatos para solicitar su disponibilidad, establezca la opción **Solicitar disponibilidad del candidato** en **Activado**. Si establece la opción en **Desactivado**, este paso no se mostrará en el proceso de contratación en el trabajo.
-- Para tener una llamada o una conferencia en directo con Skype Empresarial, establezca el campo **Conferencia en línea** en **Skype Empresarial**. Se agregará el vínculo **Unirse a reunión en Skype** correcto a la solicitud de reunión de entrevista.
-- Para enviar mensajes de correo electrónico a los candidatos para finalizar la programación, establezca la opción **Enviar correo al candidato** en **Activado**. Si establece la opción en **Desactivado**, los candidatos recibirán la programación de la entrevista solo si firman en el portal del candidato.
-
->[!NOTE]
-> - Para todas las entrevistas personales, se envían avisos a los entrevistadores cada 24 horas si el entrevistador no ha respondido (aceptado o rechazado) a la solicitud de la entrevista.
-> - Para todas las entrevistas de panel, no hay avisos automatizados para responder a la solicitud de la entrevista. Para activar un aviso manualmente, edite la entrevista y use la opción **Actualizar y registrar** para enviar la solicitud de nuevo a los entrevistadores.
-
-El componente comentarios permite a las personas especificar recomendaciones para un candidato. También pueden especificar cualquier comentario valorativo que tengan. Si se activa la opción **Heredar participantes de comentarios del equipo de contratación**, se especifica automáticamente el reclutador, el administrador de contratación, y los entrevistadores en el componente de valoración. Las organizaciones pueden permitir a los entrevistadores ver los comentarios de otras personas antes enviar su propio comentario. Las organizaciones pueden también permitir que los entrevistadores editen sus comentarios después de enviarlos.
+Esta actividad tiene tres componentes: solicitud de disponibilidad del candidato, programación y comentarios. Use la actividad de la entrevista en la plantilla de trabajo si desea incluir la solicitud, la programación, y los comentarios del candidato como parte del proceso en lugar de usarlas individualmente como parte del proceso de contratación. Para obtener más información acerca de la programación, consulte [Programación de entrevista y comentarios](interview-scheduling-feedback.md).
 
 ## <a name="powerapps-activity"></a>Actividad de PowerApps
 
@@ -102,4 +79,3 @@ En Microsoft Forms, los autores pueden cambiar su configuración para permitir q
 
 > [!NOTE]
 > La actividad de Microsoft Forms está disponible únicamente con el complemento de contratación completo.
-

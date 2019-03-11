@@ -1,13 +1,13 @@
---- 
-title: "Configurar lógica de creación de contenedores"
-description: "Este procedimiento describe cómo automatizar la creación de contenedores de cargas en Administración de almacenes."
+---
+title: Configurar lógica de creación de contenedores
+description: Este procedimiento describe cómo automatizar la creación de contenedores de cargas en Administración de almacenes.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSContainerType, WHSContainerGroup, WHSContainerizationTable, WHSContainerizationBreak, WHSCreateContainerBreak
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 56fc6adc2a0eeb5b824089ff4b1b781f3a99a34c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: aeb7d956560c513c08d5e20dcf20989b49137a52
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321694"
 ---
 # <a name="set-up-containerization"></a>Configurar lógica de creación de contenedores
 
@@ -115,5 +115,4 @@ Este procedimiento describe cómo automatizar la creación de contenedores de ca
 11. En el campo Tabla, seleccione una opción.
 12. En el campo Selección de campo, especifique o seleccione un valor.
 13. Haga clic en Aceptar
-
 

@@ -1,34 +1,34 @@
 ---
-title: "Página de inicio de implementaciones locales"
-description: "Este tema proporciona información y vínculos al contenido acerca de implementaciones locales."
+title: Página de inicio de implementaciones locales
+description: Este tema proporciona información y vínculos al contenido acerca de implementaciones locales.
 author: kfend
 manager: AnnBe
-ms.date: 11/02/2018
+ms.date: 02/01/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 55651
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
+ms.openlocfilehash: c51cce929384b7e822213dcb9df9007edfe3700c
+ms.sourcegitcommit: bacad87e2b9146e08e6fe16af01356954eb90574
 ms.translationtype: HT
-ms.sourcegitcommit: b8fb8c963e2bba2e6fe7cb31e71a38232f1e8a54
-ms.openlocfilehash: c80a41427db18607577b4f89c8e30fe6c8f872d3
-ms.contentlocale: es-es
-ms.lasthandoff: 11/02/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "373286"
 ---
 # <a name="on-premises-deployments-home-page"></a>Página de inicio de implementaciones locales
 
 [!include [banner](../includes/banner.md)]
 
-Puede implementar Microsoft Dynamics 365 for Finance and Operations (localmente). Cuando selecciona un tipo de implementación local, los requisitos del sistema, el tamaño de hardware y la funcionalidad difieren de una implementación en la nube. Este tema proporciona vínculos al contenido que contienen información específica para implementaciones locales.
+Puede implementar Microsoft Dynamics 365 for Finance and Operations (on-premises). Cuando selecciona un tipo de implementación local, los requisitos del sistema, el tamaño de hardware y la funcionalidad difieren de una implementación en la nube. Este tema proporciona vínculos al contenido que contienen información específica para implementaciones locales.
 
 ## <a name="get-started"></a>Introducción
 - [Opción de implementación local](on-premises-overview.md)
@@ -62,7 +62,8 @@ Puede implementar Microsoft Dynamics 365 for Finance and Operations (localmente)
 - [Configurar, instalar y activar Retail Modern POS (MPOS)](../../retail/retail-modern-pos-device-activation.md)
 - [Configurar e instalar Retail Store Scale Unit](../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
 
-
+## <a name="upgrade"></a>Actualizar
+- [Proceso de actualización in situ para los entornos locales](../migration-upgrade/on-prem-upgrade.md)
 
 ## <a name="other-resources"></a>Otros recursos
 - [Solucionar problemas de implementaciones locales](troubleshoot-on-prem.md)
@@ -71,4 +72,3 @@ Puede implementar Microsoft Dynamics 365 for Finance and Operations (localmente)
 - [Características quitadas u obsoletas](../migration-upgrade/deprecated-features.md)
 - [Directiva del ciclo de vida del software y nuevas soluciones locales](../migration-upgrade/on-prem-version-update-policy.md)
  
-

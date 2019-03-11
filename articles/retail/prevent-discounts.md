@@ -1,13 +1,13 @@
 ---
 title: Opciones para evitar descuentos de productos comerciales
-description: "Existen varios motivos por los que los minoristas pueden querer evitar que algunos de sus productos tengan descuentos, tanto por una promoción o durante la venta PDV."
+description: Existen varios motivos por los que los minoristas pueden querer evitar que algunos de sus productos tengan descuentos, tanto por una promoción o durante la venta PDV.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailPeriodicDiscount
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: c9d3e7af95dffddfddc34059d93a2a5a350d08e5
-ms.contentlocale: es-es
-ms.lasthandoff: 01/15/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346074"
 ---
-
 # <a name="options-for-preventing-discounts-for-retail-products"></a>Opciones para evitar descuentos de productos comerciales
 
 [!include [banner](includes/banner.md)]
@@ -42,4 +41,3 @@ Las opciones siguientes, que se pueden encontrar en la pestaña **Ventas al por 
 > Estos ajustes no limitan la operación de la anulación de precio, ya que esto establece el precio base y no se trata como un descuento.
 
 [![evite el campo de descuentos](./media/prevent-discounts.png)](./media/prevent-discounts.png)
-

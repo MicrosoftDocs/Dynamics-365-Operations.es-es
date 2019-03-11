@@ -1,13 +1,13 @@
---- 
+---
 title: Registrar una factura de proveedor en el diario de facturas
-description: "Esta guía de la tarea muestra cómo registrar facturas de proveedor que no están asociadas a ningún pedido de compra."
+description: Esta guía de la tarea muestra cómo registrar facturas de proveedor que no están asociadas a ningún pedido de compra.
 author: abruer
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendInvoiceWorkspace, LedgerJournalTable, LedgerJournalTransVendInvoice
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 775f3764d34cecbfc071ff7420d32c7832b42308
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 42f93e6d8fcf62babc3e3244bc1fe76d1efd9d13
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348949"
 ---
 # <a name="record-a-vendor-invoice-in-the-invoice-journal"></a>Registrar una factura de proveedor en el diario de facturas
 
@@ -47,5 +47,4 @@ Esta guía de la tarea muestra cómo registrar facturas de proveedor que no est�
     * El descuento por pronto pago proviene de la cuenta de proveedor  
 12. Haga clic en Registrar.
 13. Cierre la página.
-
 

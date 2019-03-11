@@ -1,13 +1,13 @@
---- 
-title: "Ejecutar formatos para usar archivos de administración de documentos en la salida de ER"
-description: "En los pasos siguientes se explica cómo un usuario asignado al administrador del sistema o a un rol de desarrollador de informes electrónicos, puede configurar un formato de informe electrónico (ER) para usar archivos de gestión de documentos (adjuntos) en formato ER."
+---
+title: Ejecutar formatos para usar archivos de administración de documentos en la salida de ER
+description: En los pasos siguientes se explica cómo un usuario asignado al administrador del sistema o a un rol de desarrollador de informes electrónicos, puede configurar un formato de informe electrónico (ER) para usar archivos de gestión de documentos (adjuntos) en formato ER.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenInvoicesListPage, CustInvoiceJournal, SalesTable, ERSolutionTable
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: e87dbb0fa890f4d554c3e2ff09566fb2b1f3206b
-ms.contentlocale: es-es
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364796"
 ---
 # <a name="run-formats-to-use-document-management-files-in-er-output"></a>Ejecutar formatos para usar archivos de administración de documentos en la salida de ER
 
@@ -31,7 +31,7 @@ En los pasos siguientes se explica cómo un usuario asignado al administrador de
 
 Para completar estos pasos, primero debe completar los pasos en el procedimiento "ER Uso de archivos de gestión de documentos en formatos de salida (Parte 3: crear formato)”.
 
-Este procedimiento es para una función que se ha añadido en la versión 1611 de Dynamics 365 for Operations.
+Este procedimiento es para una función que se ha agregado en la versión 1611 de Dynamics 365 for Operations.
 
 
 ## <a name="add-necessary-attachments-for-sales-order-of-a-single-invoice"></a>Agregue los adjuntos necesarios para el pedido de ventas de una única factura
@@ -69,5 +69,4 @@ Este procedimiento es para una función que se ha añadido en la versión 1611 d
 10. Haga clic en Aceptar
 11. Haga clic en Aceptar
     * Revise la salida generada. Tenga en cuenta que se ha creado un nodo XML por cada adjunto. El contenido del adjunto se rellena al archivo de salida XML en formato de texto MIME (base64).  
-
 

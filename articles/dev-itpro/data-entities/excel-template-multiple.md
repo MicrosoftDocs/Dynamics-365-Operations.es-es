@@ -1,35 +1,34 @@
 ---
-title: "Importar datos de las plantillas de la entidad de los datos de Excel que tengan varias hojas de cálculo"
-description: "Este tema describe cómo importar datos mediante las plantillas de la entidad de los datos de Excel en Microsoft Dynamics 365 for Finance and Operations."
+title: Importar datos de las plantillas de la entidad de los datos de Excel que tengan varias hojas de cálculo
+description: Este tema describe cómo importar datos mediante las plantillas de la entidad de los datos de Excel en Microsoft Dynamics 365 for Finance and Operations.
 author: Sunil-Garg
 manager: AnnBe
 ms.date: 01/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.scope: Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 48239b48cbc24e34d74bbac36e8f827a15d7b840
-ms.contentlocale: es-es
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351272"
 ---
-
 # <a name="import-data-from-excel-data-entity-templates-that-have-multiple-worksheets"></a>Importar datos de las plantillas de la entidad de los datos de Excel que tengan varias hojas de cálculo
 
 [!include [banner](../includes/banner.md)]
 
-La administración de datos en Microsoft Dynamics 365 for Finance and Operations admite las plantillas basadas en Microsoft Excel para entidades de datos. Estas plantillas pueden contener una o varias hojas de cálculo. Las plantillas con varias hojas de cálculo se utilizan a menudo cuando es conveniente administrar datos en un solo archivo e importarlos a múltiples entidades de datos. Un ejemplo serían sitios y almacenes.
+La administración de datos en Microsoft Dynamics 365 for Finance and Operations admite plantillas basadas para entidades de datos de Microsoft Excel. Estas plantillas pueden contener una o varias hojas de cálculo. Las plantillas con varias hojas de cálculo se utilizan a menudo cuando es conveniente administrar datos en un solo archivo e importarlos a múltiples entidades de datos. Un ejemplo serían sitios y almacenes.
 
 ## <a name="upload-a-file-once-and-map-it-to-all-entities"></a>Cargar un archivo una vez y asígnarlo a todas las entidades
 Tomemos un ejemplo en el que exista un archivo de Excel con las hojas de cálculo denominadas **Sitios** y **Almacenes**. Para configurar el proyecto de la importación de datos, agregaría la primera entidad de datos, **Sitios** y después cargaría el archivo. Podrá seleccionar **Sitios** como la hoja de cálculo que se utilizará para esta entidad.
@@ -51,4 +50,3 @@ En casos en los que una versión nueva del mismo archivo o un archivo completame
 ## <a name="upload-a-file-using-run-project"></a>Cargar archivo mediante Ejecutar proyecto
 
 Puede cargar un archivo de Excel mediante la opción **Ejecutar proyecto** para ejecutar un proyecto de importación. Debe tener cuidado de cargar solo los archivos con las mismas hojas de cálculo que las asignaciones existentes en entidades de datos en los proyectos de datos. Si una hoja de cálculo no se encuentra en el archivo recién cargado, el sistema muestra un error y detendrá la importación. Si la asignación a la hoja de cálculo debe cambiarse para una entidad, las asignaciones del proyecto de datos se deben actualizar primero desde el proyecto de datos antes de utilizar el archivo en la experiencia **Ejecutar proyecto**.
-

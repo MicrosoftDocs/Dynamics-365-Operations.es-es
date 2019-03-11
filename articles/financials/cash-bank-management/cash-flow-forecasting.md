@@ -1,13 +1,13 @@
 ---
 title: Previsiones de flujo de efectivo
-description: "Este tema proporciona una visión general del proceso de previsión de flujo de efectivo. También explica cómo la previsión de flujo de efectivo se integra con otros módulos del sistema."
+description: Este tema proporciona una visión general del proceso de previsión de flujo de efectivo. También explica cómo la previsión de flujo de efectivo se integra con otros módulos del sistema.
 author: saraschi2
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerCovParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 681817f2879034d65b53666a9d56ec00cc175ad8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 9aefc79897d0abcee14c05f33516181b3eb05e55
-ms.contentlocale: es-es
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324500"
 ---
-
 # <a name="cash-flow-forecasting"></a>Previsiones de flujo de efectivo
 
 [!include [banner](../includes/banner.md)]
@@ -138,5 +137,4 @@ Además, puede ver los datos de previsión de flujo de efectivo para cuentas, pe
 - **Todos los pedidos de compra**: en la pestaña **Factura**, seleccione **Previsiones de flujo de efectivo** para ver el impacto de efectivo previsto del pedido de compras seleccionado.
 - **Previsión de suministro**: seleccione **Previsiones de flujo de efectivo** para ver los flujos de efectivo futuro que están asociados a la previsión de suministro del artículo seleccionado.
 - **Previsión de demanda**: seleccione **Previsiones de flujo de efectivo** para ver los flujos de efectivo futuro que están asociados a la previsión de demanda del artículo seleccionado.
-
 

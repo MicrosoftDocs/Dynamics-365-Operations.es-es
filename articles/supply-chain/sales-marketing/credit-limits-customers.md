@@ -1,13 +1,13 @@
 ---
-title: "Límites de crédito para clientes"
-description: "En este artículo se proporciona información general acerca de cómo funcionan los límites de crédito en Microsoft Dynamics 365 for Finance and Operations."
+title: Límites de crédito para clientes
+description: Este artículo proporciona información general sobre el funcionamiento de los límites de crédito en Microsoft Dynamics 365 for Finance and Operations.
 author: omulvad
 manager: AnnBe
 ms.date: 09/15/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustParameters
 audience: Application User
 ms.reviewer: josaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8fd7022eb1ed2671fcfc2861eb8ec7504ebf9f98
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e00828ea24434da6dfd7443153b007ea728375f3
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312678"
 ---
-
 # <a name="credit-limits-for-customers"></a>Límites de crédito para clientes
 
 [!include [banner](../includes/banner.md)]
@@ -139,4 +138,3 @@ En ocasiones, es posible que deba comprobar manualmente el límite de crédito d
 1.  Haga clic en **Ventas y marketing** \> **Común** \> **Pedidos de ventas** \> **Todos los pedidos de ventas**. Haga doble clic en un pedido de ventas.
 
 2.  En el formulario **Pedido de ventas** del panel de acciones en la ficha **Administrar**, seleccione **Comprobar el límite de crédito**.
-

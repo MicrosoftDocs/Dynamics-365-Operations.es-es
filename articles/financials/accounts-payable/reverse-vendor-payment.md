@@ -1,13 +1,13 @@
 ---
-title: "Inversión de un pago de proveedor"
-description: "Este artículo describe las diferencias entre la inversión, la eliminación, la anulación y el rechazo de un pago. Además, explica los dos métodos para invertir una comprobación de proveedor."
+title: Inversión de un pago de proveedor
+description: Este artículo describe las diferencias entre la inversión, la eliminación, la anulación y el rechazo de un pago. Además, explica los dos métodos para invertir una comprobación de proveedor.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankChequeTable, LedgerJournalTransBankChequeReversal, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d58aac20f9ef54e4ee41464a30b7c8190ade26b7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 019b765cd1e9fa00078018354f0d0792b97faba6
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329629"
 ---
-
 # <a name="reverse-a-vendor-payment"></a>Inversión de un pago de proveedor
 
 [!include [banner](../includes/banner.md)]
@@ -80,7 +79,6 @@ Si el cheque invertido se había emitido para una devolución de cliente, tambi�
 
 -   Se registrará una transacción contra la cuenta de cliente para la inversión de pago, y la liquidación entre el pago original y el documento contra el que se había liquidado el pago originalmente se invertirá (se crea un pago negativo).
 -   Se aplica una inversión de pago al pago original. El campo **Último asiento de liquidación** de la página **Transacciones de cliente** del pago original del proveedor se actualizará para reflejar el número de asiento de la transacción invertida.
-
 
 
 

@@ -1,13 +1,13 @@
---- 
-title: "Configurar requisitos previos para la gestión de disconformidades"
-description: "Use este procedimiento para habilitar procesos de gestión de disconformidades."
+---
+title: Configurar requisitos previos para la gestión de disconformidades
+description: Use este procedimiento para habilitar procesos de gestión de disconformidades.
 author: perlynne
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventParameters, InventTestReportSetup, SysUserManagement, SysUserSetup, InventTestDiagnosticType, InventTestMiscCharges, InventTestOperation, InventProblemType, InventProblemTypeSetup, InventQuarantineZone
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 0a4062acc91e024e3a0a41c0b3cb35ff5ffe2a4a
-ms.contentlocale: es-es
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337679"
 ---
 # <a name="set-up-prerequisites-for-nonconformance-management"></a>Configurar requisitos previos para la gestión de disconformidades
 
@@ -102,5 +102,4 @@ Use este procedimiento para habilitar procesos de gestión de disconformidades. 
 3. En el campo Zona de cuarentena, escriba un valor.
 4. En el campo Descripción, escriba un valor.
 5. Cierre la página.
-
 

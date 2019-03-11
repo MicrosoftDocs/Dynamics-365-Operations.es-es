@@ -1,13 +1,13 @@
 ---
 title: Directivas de unidad de medida y de existencias
-description: "Este artículo describe cómo se usan las unidades predeterminadas, las secuencias de unidad y las conversiones de unidades en los procesos de almacén."
+description: Este artículo describe cómo se usan las unidades predeterminadas, las secuencias de unidad y las conversiones de unidades en los procesos de almacén.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductDetails, EcoResProductDetailsExtended, EcoResStorageDimensionGroup, InventItemOrderSetup, UnitOfMeasureConversion, WHSRFMenuItem, WHSUOMSeqGroupTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c484f814d9f1e726fd326e1cd0ea8fe694f797b9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e0a22e07f5a0e5bc30c8ad9dc87c5a506d62847d
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318106"
 ---
-
 # <a name="unit-of-measure-and-stocking-policies"></a>Directivas de unidad de medida y de existencias
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,6 @@ Para definir las unidades predeterminadas que se deben usar para los procesos de
 
 ## <a name="default-order-settings"></a>Configuración predeterminada de pedido
 Como parte de la creación de productos emitidos, debe seleccionar las unidades predeterminadas para las compras, las ventas y el inventario para procesar los diferentes pedidos. Puede establecer las unidades y las cantidades predeterminadas para varios documentos de origen con las páginas **Configuración predeterminada de pedido** y **Configuración de pedido específica del sitio** . Puede obtener acceso a estas páginas desde la página **Productos emitidos**.
-
 
 
 

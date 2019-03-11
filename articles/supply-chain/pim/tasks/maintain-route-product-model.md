@@ -1,13 +1,13 @@
---- 
+---
 title: Mantener ruta para un modelo de producto
-description: "La ejecución de este procedimiento requiere que existe un modelo de configuración de producto."
+description: La ejecución de este procedimiento requiere que existe un modelo de configuración de producto.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCProductConfigurationModelDetails, PCRouteOperationDetails, WrkCtrCapabilityLookUp
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 0e793466e021671501570aed06959d684d5e9c15
-ms.contentlocale: es-es
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317163"
 ---
 # <a name="maintain-route-for-a-product-model"></a>Mantener ruta para un modelo de producto
 
@@ -66,5 +66,4 @@ La ejecución de este procedimiento requiere que existe un modelo de configuraci
     * Decida si desea especificar recursos o capacidades específicos que debe poseer.  
 15. En el campo Requisito, especifique o seleccione un valor.
 16. Haga clic en Aceptar
-
 

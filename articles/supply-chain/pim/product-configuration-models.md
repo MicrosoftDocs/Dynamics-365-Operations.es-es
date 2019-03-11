@@ -1,13 +1,13 @@
 ---
-title: "Visión general de los modelos de configuración de productos"
-description: "En este artículo se definen los términos y conceptos relevantes para los modelos de configuración de productos. Los modelos de configuración de productos permiten crear una estructura de producto genérico que se puede utilizar para configurar muchas variantes de producto para un solo producto."
+title: Visión general de los modelos de configuración de productos
+description: En este artículo se definen los términos y conceptos relevantes para los modelos de configuración de productos. Los modelos de configuración de productos permiten crear una estructura de producto genérico que se puede utilizar para configurar muchas variantes de producto para un solo producto.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCProductConfigurationModelDetails, PCProductConfigurationModelListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d908b9e58da06646e07ddc5fc4d937cc1f1849cd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0ddc9d43f62df937a6fb18e15c718c37442bb9b4
-ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313966"
 ---
-
 # <a name="product-configuration-models-overview"></a>Visión general de los modelos de configuración de productos
 
 [!include [banner](../includes/banner.md)]
@@ -149,7 +148,6 @@ Puede ver si se puede usar un producto emitido como componente o subcomponente e
 </tr>
 </tbody>
 </table>
-
 
 
 

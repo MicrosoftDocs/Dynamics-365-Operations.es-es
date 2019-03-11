@@ -1,13 +1,13 @@
 ---
-title: "Planificación modo mezcla: combinar abastecimiento producción ajustada, proceso y discreto"
-description: "Este tema proporciona información acerca de la planificación modo mezcla."
+title: 'Planificación modo mezcla: combinar abastecimiento producción ajustada, proceso y discreto'
+description: Este tema proporciona información acerca de la planificación modo mezcla.
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResStorageDimensionGroup, InventItemOrderSetup, ReqItemTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8e6a896b2a073e189b956ef189f63908f08606ed
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bb8fa816d48ee808b92a5bf80c2c39c51f33a195
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358241"
 ---
-
 # <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>Planificación modo mezcla: combinar abastecimiento producción ajustada, proceso y discreto
 
 [!include [banner](../includes/banner.md)]
@@ -67,7 +66,6 @@ Para el trabajo que es independiente de una directiva de suministro, no es neces
 
 ## <a name="process-manufacturing--the-production-type"></a>Fabricación en procesos: el tipo de producción
 Para una flexibilidad completa en modo mezcla, se recomienda usar las L. MAT. del tipo de producción para todos los productos. Puede usar pedidos de producción, kanbans, pedidos de transferencia o pedidos de compra para el suministro de un producto. Para la fabricación de procesos, debe usar un tipo de proceso de **Fórmula**, **Coproducto**, **Producto derivado** o **Artículo de planificación**. Los kanbans y los pedidos de producción no se pueden usar para estos tipos de producción.
-
 
 
 

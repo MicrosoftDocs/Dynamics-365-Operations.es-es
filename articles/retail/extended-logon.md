@@ -1,13 +1,13 @@
 ---
-title: "Configuración de la funcionalidad de inicio de sesión extendido para MPOS y Cloud POS"
-description: "En este tema se abordan las opciones de configuración de inicio de sesión extendido para PDV en la nube y Retail Modern POS (MPOS)."
+title: Configuración de la funcionalidad de inicio de sesión extendido para MPOS y Cloud POS
+description: En este tema se abordan las opciones de configuración de inicio de sesión extendido para Cloud POS y Retail Modern POS (MPOS).
 author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: c5771146723b791eb0b3eb5f571ef012cfaadcb9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 4e3f8042871e5e423b559bb0e0dae0006af00194
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317922"
 ---
-
-# <a name="set-up-extended-logon-functionality-for-mpos-and-cloud-pos"></a>Configuración de la funcionalidad de inicio de sesión extendido para MPOS y Cloud POS
+# <a name="set-up-extended-logon-functionality-for-mpos-and-cloud-pos"></a>Configurar la funcionalidad de inicio de sesión extendido para MPOS y Cloud POS
 
 [!include [banner](includes/banner.md)]
 
-En este tema se abordan las opciones de configuración de inicio de sesión extendido para PDV en la nube y Retail Modern POS (MPOS).
+En este tema se abordan las opciones de configuración de inicio de sesión extendido para Cloud POS y Retail Modern POS (MPOS).
 
 ## <a name="setting-up-extended-logon"></a>Configuración del inicio de sesión extendido
 
@@ -68,4 +67,3 @@ El servicio del inicio de sesión puede ser extendido para admitir dispositivos 
 ## <a name="using-extended-logon"></a>Uso del inicio de sesión extendido
 
 Cuando se configura el inicio de sesión extendido, y se le ha asignado a un trabajador un código de barras o una cinta magnética, el trabajador sólo tiene que pasar o escanear su tarjeta mientras se abre la página de inicio de sesión del PDV. Si una contraseña también es necesaria para que el inicio de sesión pueda continuar, se le pedirá al trabajador que especifique su contraseña.
-

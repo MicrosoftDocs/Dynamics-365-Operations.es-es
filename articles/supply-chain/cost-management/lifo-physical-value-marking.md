@@ -1,13 +1,13 @@
 ---
-title: "LIFO con valor físico y marcado"
-description: "El método de valoración contable LIFO (Último en entrar, primero en salir) es un modelo de inventario según el cual las últimas recepciones (o recepciones más recientes) se emiten primero. Las emisiones del inventario se liquidan contra las últimas recepciones del inventario según la fecha de transacción de inventario."
+title: LIFO con valor físico y marcado
+description: El método de valoración contable LIFO (Último en entrar, primero en salir) es un modelo de inventario según el cual las últimas recepciones (o recepciones más recientes) se emiten primero. Las emisiones del inventario se liquidan contra las últimas recepciones del inventario según la fecha de transacción de inventario.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c0ea2c71458f92d048706a6e263d0da1830bdcde
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: db6d04a64821b3b02679056f787092dc40ef4423
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344211"
 ---
-
 # <a name="lifo-with-physical-value-and-marking"></a>LIFO con valor físico y marcado
 
 [!include [banner](../includes/banner.md)]
@@ -64,7 +63,7 @@ El nuevo precio de coste promedio móvil reflejará la media de transacciones ac
 - Las transacciones de inventario se representan por medio de flechas verticales.
 - Las recepciones de inventario se representan por medio de flechas verticales por encima de la línea de tiempo.
 - Las emisiones de inventario se representan por medio de flechas verticales por debajo de la línea de tiempo.
-- Por encima (o por debajo) de cada flecha vertical, se especifica el valor de la transacción de inventario con el formato precio de Quantity@Unit.
+- Por encima (o por debajo) de cada flecha vertical, se especifica el valor de la transacción de inventario con el formato Cantidad@Precio unitario.
 - Los valores de transacciones de inventario entre paréntesis indican que la transacción de inventario se ha registrado físicamente en el inventario.
 - Los valores de transacciones de inventario que no van entre paréntesis indican que la transacción de inventario se ha registrado financieramente en el inventario.
 - Cada nueva transacción de recepción o emisión está indicada por una nueva etiqueta.
@@ -98,7 +97,7 @@ La ilustración siguiente muestra los efectos del modelo de inventario LIFO sobr
 - Las transacciones de inventario se representan por medio de flechas verticales.
 - Las recepciones de inventario se representan por medio de flechas verticales por encima de la línea de tiempo.
 - Las emisiones de inventario se representan por medio de flechas verticales por debajo de la línea de tiempo.
-- Por encima (o por debajo) de cada flecha vertical, se especifica el valor de la transacción de inventario con el formato precio de Quantity@Unit.
+- Por encima (o por debajo) de cada flecha vertical, se especifica el valor de la transacción de inventario con el formato Cantidad@Precio unitario.
 - Los valores de transacciones de inventario entre paréntesis indican que la transacción de inventario se ha registrado físicamente en el inventario.
 - Los valores de transacciones de inventario que no van entre paréntesis indican que la transacción de inventario se ha registrado financieramente en el inventario.
 - Cada nueva transacción de recepción o emisión está indicada por una nueva etiqueta.
@@ -140,14 +139,13 @@ La ilustración siguiente muestra los efectos del modelo de inventario LIFO en e
 - Las transacciones de inventario se representan por medio de flechas verticales.
 - Las recepciones de inventario se representan por medio de flechas verticales por encima de la línea de tiempo.
 - Las emisiones de inventario se representan por medio de flechas verticales por debajo de la línea de tiempo.
-- Por encima (o por debajo) de cada flecha vertical, se especifica el valor de la transacción de inventario con el formato precio de Quantity@Unit.
+- Por encima (o por debajo) de cada flecha vertical, se especifica el valor de la transacción de inventario con el formato Cantidad@Precio unitario.
 - Los valores de transacciones de inventario entre paréntesis indican que la transacción de inventario se ha registrado físicamente en el inventario.
 - Los valores de transacciones de inventario que no van entre paréntesis indican que la transacción de inventario se ha registrado financieramente en el inventario.
 - Cada nueva transacción de recepción o emisión está indicada por una nueva etiqueta.
 - Cada flecha vertical tiene una etiqueta con un identificador secuencial, por ejemplo, *1a*. Los identificadores indican el orden de los registros de transacciones de inventario en la línea de tiempo.
 - Los cierres de inventario se representan por medio de una línea roja vertical discontinua y la etiqueta *Cierre de inventario*.
 - Las liquidaciones que se llevan a cabo mediante el cierre de inventario se representan por medio de flechas rojas de rayas que van en sentido diagonal desde las recepciones a las emisiones.
-
 
 
 

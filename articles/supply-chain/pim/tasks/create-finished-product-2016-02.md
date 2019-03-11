@@ -1,13 +1,13 @@
---- 
+---
 title: Crear un producto terminado (febrero de 2016)
 description: Esta tarea se centra en crear un producto terminado.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, EcoResProductCreate, InventItemOrderSetup
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 44b3bf17c69f37e7a96c75345a3e4f27ba9eab50
-ms.contentlocale: es-es
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349731"
 ---
 # <a name="create-a-finished-product-february-2016"></a>Crear un producto terminado (febrero de 2016)
 
@@ -53,5 +53,4 @@ Esta tarea se centra en crear un producto terminado. Es la primera tarea en las 
 14. En el campo Sitio de centas, especifique o seleccione un valor.
     * Para este ejemplo, seleccione Sitio 1.  
 15. Cierre la página.
-
 

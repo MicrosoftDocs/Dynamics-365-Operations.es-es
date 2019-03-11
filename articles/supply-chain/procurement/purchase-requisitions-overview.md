@@ -1,13 +1,13 @@
 ---
-title: "Visión general de solicitud de compra"
+title: Visión general de solicitud de compra
 description: Este tema describe el flujo de trabajo de solicitudes de compra y los diferentes estados que puede tener una solicitud de compra.
 author: mkirknel
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f279474d4a1e2f76e810b0df80c8d91171352c17
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 942693ed3d2d54c6e973e5d3f86454b195f0fdee
-ms.contentlocale: es-es
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309849"
 ---
-
 # <a name="purchase-requisition-overview"></a>Visión general de solicitud de compra
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +38,7 @@ Una vez aprobada una solicitud de compra, se puede usar para generar un pedido d
 ## <a name="creating-purchase-requisitions"></a>Creación de solicitudes de compra
 Puede crear una solicitud de compra en la página **Mis solicitudes de compra**, y seleccionar los artículos y los servicios que sea necesario. Puede seleccionar artículos de un catálogo de compras creado por su organización, o bien solicitar artículos que no se encuentran en un catálogo seleccionando una categoría de compra y especificando los detalles del producto.  
 
-Para que una solicitud de compra se pueda enviar a revisión, los flujos de trabajo se deben configurar en Microsoft Dynamics 365 for Finance and Operations. El proceso del flujo de trabajo se usa para mover una solicitud de compra por el proceso de revisión, desde un estado inicial de **Borrador** a un estado final de **Aprobado**.
+Para poder enviar una solicitud de compra para revisarla, es preciso configurar flujos de trabajo en Microsoft Dynamics 365 for Finance and Operations. El proceso del flujo de trabajo se usa para mover una solicitud de compra por el proceso de revisión, desde un estado inicial de **Borrador** a un estado final de **Aprobado**.
 
 ### <a name="purchase-requisition-statuses"></a>Estados de solicitudes de compra
 
@@ -69,7 +68,7 @@ El estado general de una solicitud de compra lo determina el estado de las líne
 <tr class="odd">
 <td>Borrador</td>
 <td>Borrador</td>
-<td>La solicitud de compra y la línea de solicitud de compra se han creado, pero aún no se han enviado a revisión. Las solicitudes de compra y las líneas de solicitud de compra que tienen el estado <strong>Borrador</strong> se pueden modificar. Una solicitud de compra o una línea de solicitud de compra también tiene el estado <strong>Borrador</strong> si se han recuperado, pero no se ha reenviado a revisión. <strong>Nota:</strong> Solo puede enviar o recuperar una solicitud de compra a nivel de documento. Sin embargo, no puede enviar o recuperar una única línea de solicitud de compra.</td>
+<td>La solicitud de compra y la línea de solicitud de compra se han creado, pero aún no se han enviado a revisión. Las solicitudes de compra y las líneas de solicitud de compra que tienen el estado <strong>Borrador</strong> se pueden modificar. Una solicitud de compra o una línea de solicitud de compra también tiene el estado <strong>Borrador</strong> si se han recuperado, pero no se han reenviado a revisión. <strong>Nota:</strong> Solo puede enviar o recuperar una solicitud de compra a nivel de documento. Sin embargo, no puede enviar o recuperar una única línea de solicitud de compra.</td>
 </tr>
 <tr class="even">
 <td>En revisión</td>
@@ -142,7 +141,7 @@ En las directivas de compra, puede controlar los propósitos de solicitud dispon
 
 ### <a name="requisitions-that-have-a-purpose-of-consumption"></a>Solicitudes con el propósito de consumo
 
-Una solicitud con un propósito de consumo representa una demanda para los artículos o servicios que se usarán internamente en la organización. La demanda que se crea mediante este tipo de solicitud siempre la cumple un pedido de compra. Si Microsoft Dynamics 365 for Finance and Operations se ha configurado para generar pedidos de compra automáticamente, los pedidos de compra se crean tras la aprobación de la solicitud de compra.
+Una solicitud con un propósito de consumo representa una demanda para los artículos o servicios que se usarán internamente en la organización. La demanda que se crea mediante este tipo de solicitud siempre la cumple un pedido de compra. Si Microsoft Dynamics 365 for Finance and Operations se configuró para generar pedidos de compra automáticamente, los pedidos de compra se crean después la aprobación de la solicitud de compra.
 
 ### <a name="requisitions-that-have-a-purpose-of-replenishment"></a>Solicitudes con el propósito de reabastecimiento
 
@@ -198,7 +197,6 @@ Para consolidar las líneas de solicitud de compra aprobadas, siga estos pasos:
 [Creación de un pedido para consumo (Guía de tareas)](tasks/create-requisition-consumption.md)
 
 [Flujo de trabajo de solicitudes de compra](purchase-requisitions-workflow.md)
-
 
 
 

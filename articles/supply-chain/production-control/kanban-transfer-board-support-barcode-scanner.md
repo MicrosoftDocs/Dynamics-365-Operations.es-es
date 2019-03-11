@@ -1,13 +1,13 @@
 ---
-title: "Compatibilidad del tablero de transferencia kanban para escáneres de códigos de barras"
-description: "El tablero de transferencia kanban admite la entrada del escáner desde un lector de códigos de barras de widget para seleccionar, iniciar, completar y vaciar un trabajo kanban."
+title: Compatibilidad del tablero de transferencia kanban para escáneres de códigos de barras
+description: El tablero de transferencia kanban admite la entrada del escáner desde un lector de códigos de barras de widget para seleccionar, iniciar, completar y vaciar un trabajo kanban.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanBoardTransferJob
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e63a33af63144b78d0c375022b9802e11c255598
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a8393efd51032271d3023f1e0569425a16222cc3
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319463"
 ---
-
 # <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Compatibilidad del tablero de transferencia kanban para escáneres de códigos de barras
 
 [!include [banner](../includes/banner.md)]
@@ -45,11 +44,11 @@ En la ficha desplegable **Registro de escáner**, puede seleccionar el modo de r
 | Vacía                 | Registra la unidad de gestión de material a la que hace referencia una tarjeta kanban como vacía.              |
 | Seleccionar                | Registra un número de tarjeta kanban y selecciona automáticamente el trabajo al que se hace referencia en la lista de trabajos kanban. |
 
- 
-<a name="registration-mode-select"></a>Seleccionar el modo de registro
+ 
+Seleccionar el modo de registro
 ------------------------
 
-Cuando se usa un lector de códigos de barras para seleccionar un trabajo, el modo de visualización del tablero kanban cambia. De esta manera, se aplicarán las condiciones siguientes:
+Cuando se usa un lector de códigos de barras para seleccionar un trabajo, el modo de visualización del tablero kanban cambia.De esta manera, se aplicarán las condiciones siguientes:
 
 -   Solo se muestra el trabajo kanban escaneado.
 -   Los detalles del trabajo seleccionado se muestran en la ficha desplegable **Detalles**.
@@ -188,7 +187,6 @@ El estado del trabajo seleccionado y el estado de cualquier trabajo fijado para 
 </tr>
 </tbody>
 </table>
-
 
 
 

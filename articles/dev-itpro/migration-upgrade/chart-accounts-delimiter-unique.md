@@ -1,13 +1,13 @@
 ---
-title: "Convertir el delimitador del plan de cuentas en único"
-description: "En Dynamics 365 for Finance and Operations, no puede tener el mismo delimitador para el plan de cuentas y los valores de dimensión. Debe cambiar los valores del delimitador tras la actualización."
+title: Hacer único el delimitador del plan de cuentas
+description: En Dynamics 365 for Finance and Operations, no puede tener el mismo delimitador para el plan contable y los valores de dimensión. Debe cambiar los valores del delimitador tras la actualización.
 author: ryansandness
 manager: AnnBe
 ms.date: 03/30/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: e197a1b44e038a97b8bf6db692dcc2eef2bc5f7b
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335862"
 ---
-
-# <a name="make-the-chart-of-accounts-delimiter-unique"></a>Convertir el delimitador del plan de cuentas en único
+# <a name="make-the-chart-of-accounts-delimiter-unique"></a>Hacer único el delimitador del plan de cuentas
 
 [!include [banner](../includes/banner.md)]
 
-En Microsoft Dynamics AX 2012, puede utilizar el mismo delimitador para el plan de cuentas y los valores de dimensión. En Dynamics 365 for Finance and Operations, no puede tener el mismo delimitador para el plan de cuentas y los valores de dimensión. Si hay un delimitador duplicado, puede cambiarlo tras la actualización. 
+En Microsoft Dynamics AX 2012, puede utilizar el mismo delimitador para el plan de cuentas y los valores de dimensión. En Dynamics 365 for Finance and Operations, no puede tener el mismo delimitador para el plan contable y los valores de dimensión. Si hay un delimitador duplicado, puede cambiarlo tras la actualización. 
 
 Esta característica está disponible en:
 - Dynamics 365 for Finance and Operations versión 8.0
@@ -43,4 +42,3 @@ Si existe conflicto con el plan de cuentas, se puede cambiar el delimitador del 
 
 ## <a name="how-to-determine-if-your-environment-requires-updated-delimiters"></a>Cómo determinar si el entorno requiere delimitadores actualizados 
 Si los delimitadores en el entorno actualizado están en conflicto, es posible que se produzca inestabilidad al especificar valores en un control de entrada segmentado o control de entrada de dimensiones. Esto significa que deberá usar siempre búsquedas o un menú desplegable al especificar combinaciones de cuenta y dimensión.
-

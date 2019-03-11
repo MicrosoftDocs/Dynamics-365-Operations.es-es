@@ -1,13 +1,13 @@
 ---
 title: Abrir los datos de entidad en Excel y actualizarlos mediante el complemento de Excel
-description: "Este tema explica cómo abrir los datos de la entidad en Microsoft Excel y, a continuación, ver, actualizar y editar los datos mediante el complemento de Microsoft Dynamics Office para Excel."
+description: Este tema explica cómo abrir los datos de la entidad en Microsoft Excel y, a continuación, ver, actualizar y editar los datos mediante el complemento de Microsoft Dynamics para Excel.
 author: ChrisGarty
 manager: AnnBe
 ms.date: 04/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,21 +17,20 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 01474a82e860c6f51b316cb683cd44fb9bf2a6bc
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340646"
 ---
-
 # <a name="open-entity-data-in-excel-and-update-it-by-using-the-excel-add-in"></a>Abrir los datos de entidad en Excel y actualizarlos mediante el complemento de Excel
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo abrir los datos de la entidad en Microsoft Excel y, a continuación, ver, actualizar y editar los datos mediante el complemento de Microsoft Dynamics Office para Excel. Para abrir los datos de la entidad, puede iniciar desde Excel o Microsoft Dynamics 365 for Finance and Operations.
+Este tema explica cómo abrir los datos de la entidad en Microsoft Excel y, a continuación, ver, actualizar y editar los datos mediante el complemento de Microsoft Dynamics para Excel. Para abrir los datos de la entidad, puede comenzar desde Excel o Microsoft Dynamics 365 for Finance and Operations.
 
-Al abrir los datos de la entidad en Excel, puede ver y editar los datos de forma rápida y sencilla mediante el complemento de Excel. Este complemento requiere Microsoft Excel 2016.
+Al abrir los datos de la entidad en Excel, puede ver y editar los datos de forma rápida y sencilla mediante el complemento de Excel. Este complemento necesita Microsoft Excel 2016.
 
 > [!NOTE]
 > Si su inquilino de Microsoft Azure Active Directory (Azure AD) está configurado para usar Servicios de federación de Active Directory (AD FS), debe asegurarse de que se haya aplicado la actualización de mayo de 2016 para Office, de modo que el complemento de Excel pueda registrarle correctamente.
@@ -125,4 +124,3 @@ Existen problemas que se pueden resolver con unos sencillos pasos.
 - **Aparece el botón Cargar applets** - Si el complemento de Excel tiene un botón **Cargar applets** tras el inicio de sesión, probablemente no haya iniciado sesión como el usuario correcto. Para resolver este problema, compruebe que el nombre de usuario correcto aparece en la esquina superior derecha del complemento de Excel. Si aparece un nombre de usuario incorrecto, selecciónelo, cierre la sesión y vuelva a abrirla.
 - **Recibe un "Mensaje prohibido"** - Si recibe un mensaje “Prohibido” mientras que el complemento de Excel está cargando metadatos, la cuenta que ha iniciado sesión en el complemento de Excel no tiene permisos para usar el servicio, la instancia o en la base de datos objetivo. Para resolver este problema, compruebe que el nombre de usuario correcto aparece en la esquina superior derecha del complemento de Excel. Si aparece un nombre de usuario incorrecto, selecciónelo, cierre la sesión y vuelva a abrirla.
 - **Aparece una página web en blanco sobre Excel** - Si se abre una página web en blanco durante proceso de inicio de sesión, la cuenta requiere AD FS, pero la versión de Excel que está ejecutando el complemento de Excel no es lo suficientemente reciente para cargar el cuadro de diálogo de inicio de sesión. Para resolver este problema, actualice la versión de Excel que usa. Para actualizar la versión de Excel si se encuentra en una empresa que está en el canal diferido, utilice la [Herramienta de implementación de Office](https://technet.microsoft.com/library/jj219422.aspx) para [cambiar del canal diferido al canal actual](https://technet.microsoft.com/library/mt455210.aspx).
-

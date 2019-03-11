@@ -5,9 +5,9 @@ author: johanhoffmann
 manager: AnnBe
 ms.date: 03/15/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
+ms.openlocfilehash: 63b986f9f3a1505dba4c2f64f872b9472e1aca87
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7d00df6263530ba9fff4c246cb3593cd607f6719
-ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358632"
 ---
-
 # <a name="batch-balancing"></a>Equilibrio por lotes
 
 [!include [banner](../includes/banner.md)]
 
 En este tema se describe cómo se admite el proceso de equilibrio por lotes. 
 
-Ver [vídeo sobre equilibrio por lotes en Microsoft Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be)
+Ver un [vídeo sobre equilibrio de lotes en Microsoft Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be)
 
 En el proceso de equilibrio por lotes, la cantidad de ingredientes que va a utilizar en un lote de producción se calcula a partir de la concentración de ingredientes activos en lotes de producto seleccionados.
 
@@ -194,4 +193,3 @@ Existe una excepción a la regla de que los pedidos de lote se pueden aplicar al
 Si una fórmula contiene un ingrediente activo para un producto que está habilitado para los procesos de gestión de almacenes, pero el número de lote está debajo de la ubicación en la jerarquía de reservas, el pedido de lote no se aplica al equilibrio por lotes.
 
 Un pedido de lote que no se aplica al equilibrio por lotes pasa por el ciclo de proceso habitual para los pedidos de lote.
-

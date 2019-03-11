@@ -1,13 +1,13 @@
 ---
-title: "Sustitución material en la fabricación"
-description: "Este tema describe cómo sustituir materiales durante el proceso de producción."
+title: Sustitución material en la fabricación
+description: Este tema describe cómo sustituir materiales durante el proceso de producción.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdBOM
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 461b717acafb5ccf37acae23a1564069cea6828a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b3e70a6ad074911438ef45b6aac2523a4a9fccf8
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327628"
 ---
-
 # <a name="material-substitution-in-manufacturing"></a>Sustitución material en la fabricación
 
 [!include [banner](../includes/banner.md)]
@@ -47,7 +46,6 @@ Puede sustituir materiales durante la planificación únicamente cuando se está
 
 ## <a name="substituting-material-during-production"></a>Sustitución de material durante la producción
 Imagine el caso siguiente: se necesita una placa de metal para una operación de soldadura. Al realizar esta tarea, un trabajador de almacén informa al operador de la máquina de que no quedan placas. Sin embargo, se ha decidido que la placa se puede reemplazar por una placa ligeramente más gruesa. De esta manera, el trabajo se puede terminar. El material se puede agregar a la lista de materiales para un pedido de producción abierto. Si el pedido de producción tiene estado **Iniciado**, se solicita a los usuarios que vuelvan a estimar el pedido cuando agreguen un nuevo artículo a la lista de materiales de producción. Después de agregar el material, se puede crear una nueva lista de selección para el artículo nuevo. No es necesario agregar el nuevo material a la lista de materiales de producción. En su lugar, podrá agregarlo directamente a la lista de selección de producción. Posteriormente, cuando se registre la lista de selección, el sistema agregará el material a la lista de materiales de producción.
-
 
 
 

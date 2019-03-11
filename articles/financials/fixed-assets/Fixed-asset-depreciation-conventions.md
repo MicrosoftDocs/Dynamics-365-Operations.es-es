@@ -1,13 +1,13 @@
 ---
-title: "Convenciones de depreciación de activos fijos"
-description: "Este tema proporciona información general de convenciones de depreciación de los activos fijos."
+title: Convenciones de depreciación de activos fijos
+description: Este tema proporciona información general de convenciones de depreciación de los activos fijos.
 author: saraschi2
 manager: AnnBe
 ms.date: 03/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ff8575749a33321450ea61fe1f01105c005e9092
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c69fd798c2e978935a63b079fb11c68d8555594c
-ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337449"
 ---
-
 # <a name="fixed-asset-depreciation-conventions"></a>Convenciones de depreciación de activos fijos
 
 [!include [banner](../includes/banner.md)]
@@ -45,5 +44,4 @@ Las convenciones de depreciación se pueden asignar a la configuración para un 
 | Medio mes (el día 15 del mes) |                                                                                                                                                        Para calcular su deducción de depreciación para el año en el que se la propiedad se pone en servicio, multiplique la depreciación de un año completo por una fracción. El numerador (número superior) de esta fracción es el número de meses completos en el año que la propiedad se encuentra en servicio, más el 1/2 o (0,5). El denominador (número inferior) es 12. Si se dispone de la propiedad antes de final del período de la recuperación, use el mismo método para calcular su deducción de depreciación para el año de disposición.                                                                                                                                                        |
 | Medio año (inicio de año) |                                                                                                                                                                                                                                                          Activos que tengan una fecha de <strong>Puesta en servicio</strong> en la primera mitad del año empiezan la depreciación el primer día del año (año completo). Activos que tengan una fecha de <strong>Puesta en servicio</strong> en la segunda mitad del año empiezan la depreciación a mitad de año.                                                                                                                                                                                                                                                          |
 |   Medio año (próximo año)   |                                                            Activos que tengan una fecha de <strong>Puesta en servicio</strong> en la primera mitad del año empiezan la depreciación el primer día del año (año completo). Activos que tengan una fecha de <strong>Puesta en servicio</strong> en la segunda mitad del año empiezan la depreciación el primer día del año siguiente. Los activos que se retiran en la primera mitad del año se consideran retirados para la depreciación en el último día del año anterior. Cualquier depreciación que se registre en el año actual se debe revertir o ajustar. Los activos se retiran en la segunda mitad del año se consideran retirados para la depreciación el último día del año de retirada.                                                            |
-
 

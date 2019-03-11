@@ -1,13 +1,13 @@
 ---
 title: Seguimiento de las comisiones en el punto de venta (POS) mediante los grupos de ventas
-description: "Es habitual en la práctica del comercio al por menor realizar un seguimiento de las ventas en función del asociado que trabajó con el cliente (dando asistencia, vendiendo productos adicionales, facilitando ventas cruzadas y procesando la transacción)."
+description: Es habitual en la práctica del comercio al por menor realizar un seguimiento de las ventas en función del asociado que trabajó con el cliente (dando asistencia, vendiendo productos adicionales, facilitando ventas cruzadas y procesando la transacción).
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -18,14 +18,13 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: ed4f9b3055e164600827b62d57b7a5068edb3b1a
-ms.contentlocale: es-es
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325121"
 ---
-
 # <a name="track-commissions-in-the-point-of-sale-pos-by-using-sales-groups"></a>Seguimiento de las comisiones en el punto de venta (POS) mediante los grupos de ventas
 
 [!include [banner](includes/banner.md)]
@@ -89,4 +88,3 @@ PDV permite a los usuarios configurar cuadrículas de botones, que se incluyen e
 ## <a name="calculating-commissions"></a>Cálculos de comisiones
 
 La comisión se calcula para los trabajadores de grupos de ventas especificados en el momento del registro de la declaración o del registro de pedido de ventas. El importe de la comisión se determina en función de la parte de la comisión del trabajador, como se define en la configuración del cálculo de la comisión asociada y en el grupo de ventas para el cliente o los productos de la transacción.
-

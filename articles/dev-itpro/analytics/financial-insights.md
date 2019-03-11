@@ -1,13 +1,13 @@
 ---
 title: Financial Insights
-description: "Financial Insights utiliza Microsoft Power BI para reunir los indicadores clave de rendimiento financieros (KPI), los gráficos y los informes financieros."
+description: Financial Insights utiliza Microsoft Power BI para reunir los indicadores clave de rendimiento financieros (KPI), los gráficos y los informes financieros.
 author: kweekley
 manager: AnnBe
 ms.date: 08/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,20 +16,19 @@ ms.assetid: 517e6a88-e7a1-4398-9971-b22fa83306ba
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: 7.3
-ms.translationtype: HT
-ms.sourcegitcommit: 4f4cb254ad2d4328e146f5dba471aafb21660986
+ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 2c261d2aea66b578bc976a66b6184384f0a5bf5d
-ms.contentlocale: es-es
-ms.lasthandoff: 08/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308860"
 ---
-
 # <a name="financial-insights"></a>Financial Insights
 
 [!include [banner](../includes/banner.md)]
 
-**Financial Insights** utiliza Microsoft Power BI para reunir los indicadores clave de rendimiento financieros (KPI), los gráficos y los informes financieros. Power BI está incrustado en Microsoft Dynamics 365 for Finance and Operations. El enfoque de **Financial Insights** es un informe analítico. Las personas de una organización pueden ver, investigar, entender y actuar. 
+**Financial Insights** utiliza Microsoft Power BI para reunir los indicadores clave de rendimiento financieros (KPI), los gráficos y los informes financieros. Power BI forma parte de Microsoft Dynamics 365 Finance and Operations. El enfoque de **Financial Insights** es un informe analítico. Las personas de una organización pueden ver, investigar, entender y actuar. 
 
 **Financial Insights** combina datos de la contabilidad general y las auxiliares para dar una imagen más completa del estado financiero de una organización.
 
@@ -87,7 +86,7 @@ Actualmente, los datos en informes incrustados de Power BI no pueden limitarse a
 |-----------------------------------------|-------|------------|
 | Ver espacio de trabajo de la visión general del director financiero             | Director financiero | Este derecho proporciona acceso al espacio de trabajo de la visión general de director financiero (CFO). De forma predeterminada, la empresa activa se usa como filtro. Sin embargo, puede agregar todas las entidades jurídicas, independientemente de si el usuario tiene acceso a otras entidades jurídicas. |
 | Ver información financiera de la empresa actual | <ul><li>Contable</li><li>Administrador contable</li><li>Supervisor contable</li><li>Auditor</li><li>Administrador presupuestario</li><li>Director General</li><li>Director financiero</li><li>Controlador financiero</li></ul> | Este derecho proporciona acceso a Financial Insights. De forma predeterminada, la empresa activa se usa como filtro. No puede agregar otras entidades jurídicas. |
-| Ver información financiera entre empresas   | En Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3, este derecho no se asigna a un rol. En la siguiente versión, este derecho se asignará al rol del director financiero. | Este derecho proporciona acceso al elemento del menú para el espacio de trabajo de la visión general de director financiero (CFO). De forma predeterminada, la empresa activa se usa como filtro. Sin embargo, puede agregar todas las entidades jurídicas, independientemente de si el usuario tiene acceso a otras entidades jurídicas. |
+| Ver información financiera entre empresas   | En Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3, este derecho no se asigna a un rol. En la siguiente versión, este derecho se asignará al rol del director financiero. | Este derecho proporciona acceso al elemento del menú para el espacio de trabajo de la visión general de director financiero (CFO). De forma predeterminada, la empresa activa se usa como filtro. Sin embargo, puede agregar todas las entidades jurídicas, independientemente de si el usuario tiene acceso a otras entidades jurídicas. |
 
 
 ## <a name="financial-reporting-vs-finanical-insights"></a>Informe financiero frente Finanical Insights
@@ -250,4 +249,3 @@ No se requiere la información de los siguientes recursos para habilitar los inf
 - <https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/>
 
 - <https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces>
-

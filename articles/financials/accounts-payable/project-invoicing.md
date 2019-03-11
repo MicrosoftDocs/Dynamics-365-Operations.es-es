@@ -1,13 +1,13 @@
 ---
-title: "Facturación del proyecto"
-description: "Este artículo proporciona una visión general de la facturación del proyecto para Proyectos de tiempo y material y Proyectos de precio fijo. Incluye información acerca de las propuestas de factura (facturas preliminares), control de facturas, facturación a cuenta, facturación de proveedor y notas de abono."
+title: Facturación del proyecto
+description: Este artículo proporciona una visión general de la facturación del proyecto para Proyectos de tiempo y material y Proyectos de precio fijo. Incluye información acerca de las propuestas de factura (facturas preliminares), control de facturas, facturación a cuenta, facturación de proveedor y notas de abono.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjInvoiceCashFlow, ProjInvoiceControl, ProjInvoiceListPage, ProjInvoiceProposalDetail, ProjInvoiceProposalListPage
 audience: Application User, IT Pro
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5dd51e442479a05ce715fe91ebab0c99df9a8b6f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2434e0a97846ce9ca0643327a7a032a9998bde5b
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346327"
 ---
-
 # <a name="project-invoicing"></a>Facturación del proyecto
 
 [!include [banner](../includes/banner.md)]
@@ -121,7 +120,6 @@ El mismo documento puede incluir transacciones seleccionadas para la asignación
 Para abonar un importe facturado, se debe seleccionar primero el importe facturado para abonar y crear a continuación una nota de abono. Se debe crear una nota de abono mediante el mismo procedimiento usado para generar una factura de cliente. 
 
 Puede crear una factura con un importe negativo, que se convierte en una factura que se clasifica como nota de abono. Para crear e imprimir una nota de abono, debe seleccionar las transacciones que se han registrado anteriormente para una factura de cliente y, a continuación, modificar las transacciones. A menos que la dirección principal de la entidad jurídica se encuentre en Alemania, la título de la factura será "Factura correctiva".
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Crear dimensiones e importar miembros de dimensión"
-description: "La contabilidad de costes es un módulo independiente que requiere datos maestros de otros módulos."
+title: Crear dimensiones e importar miembros de dimensión
+description: La contabilidad de costes es un módulo independiente que requiere datos maestros de otros módulos.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMDimension
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: d48ba0a0b80d251e107baa0ceeb66d8e328f13dc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0012761b3aa8ce391b956329a9e249e5c9339db7
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342325"
 ---
-
 # <a name="create-dimensions-and-import-dimension-members"></a>Crear dimensiones e importar miembros de dimensión
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ Una vez se importan los datos en la contabilidad de costes, puede usarlos para c
 -  [Asignar miembros de dimensión de elemento de coste a un conjunto común de miembros de dimensión](map-cost-elements-dimension-members.md)
 -  [Asignar una dimensión de elemento de coste (Guía de tareas)](./tasks/map-cost-element-dimension.md)
 -  [Miembros de dimensiones estadísticas y plantillas de proveedor de medidas estadísticas](statistical-measure-provider-template.md)
-
 
 
 

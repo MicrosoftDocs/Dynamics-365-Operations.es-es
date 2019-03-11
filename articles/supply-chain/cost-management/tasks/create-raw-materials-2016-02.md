@@ -1,13 +1,13 @@
---- 
-title: "Crear materias primas (febrero de 2016 únicamente)"
+---
+title: Crear materias primas (febrero de 2016 únicamente)
 description: Esta tarea tarea se centra en crear los componentes de productos terminados y semiterminados.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 02/07/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 869acddf6f7e9754bb4952176ded4b22c74eaffd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 8ed33e2e80915a80eb4c6de014091f1884799098
-ms.contentlocale: es-es
-ms.lasthandoff: 01/17/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327306"
 ---
 # <a name="create-raw-materials-february-2016-only"></a>Crear materias primas (febrero de 2016 únicamente)
 
@@ -155,5 +155,4 @@ Esta tarea tarea se centra en crear los componentes de productos terminados y se
 25. Haga clic en Activar precios pendientes.
 26. Cierre la página.
 27. Cierre la página.
-
 

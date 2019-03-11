@@ -1,13 +1,13 @@
---- 
-title: "Crear una regla kanban con un evento de línea de kanban"
-description: "Este procedimiento crea una regla kanban mediante el evento de línea kanban para desencadenar una extracción de una actividad de proceso."
+---
+title: Crear una regla kanban con un evento de línea de kanban
+description: Este procedimiento crea una regla kanban mediante el evento de línea kanban para desencadenar una extracción de una actividad de proceso.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, SalesTableListPage, SalesCreateOrder, SalesTable
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: bff5f16c1911739a29d50c546c3c2a9ab85c2371
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 9ef7b8e920d22cbc4f96676e68a263f2da7f232c
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350237"
 ---
 # <a name="create-a-kanban-rule-using-a-kanban-line-event"></a>Crear una regla kanban con un evento de línea de kanban
 
@@ -68,5 +68,4 @@ Este procedimiento crea una regla kanban mediante el evento de línea kanban par
 3. Expanda la sección Kanbans.
     * Observe que se creó un kanban para 27 para procesar la actividad basada en la regla kanban creada.  
     * Este es el último paso.  
-
 

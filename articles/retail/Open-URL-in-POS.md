@@ -1,36 +1,35 @@
 ---
 title: Abrir URL en POS
-description: "En este tema se proporciona una visión general de las mejoras que se han realizado en la funcionalidad de búsqueda de productos y clientes en Microsoft Dynamics 365 for Retail."
+description: En este tema se proporciona una visión general de las mejoras que se han realizado en la funcionalidad de búsqueda de productos y clientes en Microsoft Dynamics 365 for Retail.
 author: AamirAllaq
 manager: AnnBe
-ms.date: 11/14/2018
+ms.date: 01/28/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
 ms.search.scope: Core, Operations, Retail
 ms.custom: 141393
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.1.1
+ms.openlocfilehash: b07406b4e218b45bdde87c4a579814fe0edbc286
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
-ms.openlocfilehash: d2b692ac86244eca31780a558112167391fc6d77
-ms.contentlocale: es-es
-ms.lasthandoff: 01/04/2019
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327099"
 ---
-
-# <a name="open-url-in-pos"></a>Abrir URL en POS
+# <a name="open-url-in-pos"></a>Abrir dirección URL en el punto de venta
 
 [!include [banner](includes/banner.md)]
 
-Este tema describe cómo puede configurar un botón en Retail POS (PDV) para abrir una dirección URL. Esta función no requiere una personalización de código, y se puede configurar por una persona con un rol que no es un desarrollador.
+Este tema describe cómo puede configurar un botón en Retail POS (PDV) para abrir una dirección URL. Esta función no requiere una personalización de código, y se puede configurar por una persona con un rol que no es un desarrollador. Esta función está disponible como parte de liberación de la versión 8.1.3 Dynamics 365 for Finance and Operations (generación 8.1.227.10014) y posterior. 
 
 Esta característica permite la configuración de un botón en PDV, mediante el Diseñador de la cuadrícula de botones para abrir una dirección URL. Actualmente, esto se admite en las siguientes configuraciones:
 
@@ -84,4 +83,3 @@ Para configurar una dirección URL para ser abierta en PDV, realice los pasos si
 5. Seleccione **Abrir URL** como la acción.
 6. Especifique la dirección URL que desee usar.
 7. Configurar si abrir la dirección URL en una ventana nueva.
-

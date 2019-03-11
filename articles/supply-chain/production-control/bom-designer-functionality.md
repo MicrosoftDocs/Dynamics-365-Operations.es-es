@@ -1,13 +1,13 @@
 ---
-title: "Funcionalidad del diseñador de lista de materiales"
-description: "Este tema describe cómo puede usar la página del diseñador de L. MAT para diseñar y trabajar con estructuras de árbol para las listas de materiales (L. MAT)."
+title: Funcionalidad del diseñador de lista de materiales
+description: Este tema describe cómo puede usar la página del diseñador de L. MAT para diseñar y trabajar con estructuras de árbol para las listas de materiales (L. MAT).
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMDesigner
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d3bae68c9daf7aaaee1802e1def64d04ccea01b8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b7d4530ecccf18d9370d84ff2b61be1514b80192
-ms.contentlocale: es-es
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338162"
 ---
-
 # <a name="bom-designer-functionality"></a>Funcionalidad del diseñador de lista de materiales
 
 [!include [banner](../includes/banner.md)]
@@ -65,7 +64,7 @@ El filtro que se aplica para la lista de materiales y la ruta se muestra en el e
 <tbody>
 <tr class="odd">
 <td>Dimensiones de producto</td>
-<td>Si el producto terminado seleccionado es un producto maestro, puede definir las dimensiones de producto activas para la selección principal. <strong>Nota:</strong> Si abre el diseñador de L. MAT para un artículo que no sea un producto maestro, no se pueden seleccionar dimensiones del producto en el cuadro de diálogo <strong>Filtro</strong>.</td>
+<td>Si el producto terminado seleccionado es un producto maestro, puede definir las dimensiones de producto activas para la selección principal. <strong>Nota:</strong> Si abre el diseñador de L. MAT para un artículo que no sea un producto maestro, no se pueden seleccionar dimensiones de producto en el cuadro de diálogo <strong>Filtro</strong>.</td>
 </tr>
 <tr class="even">
 <td>Sitio</td>
@@ -117,7 +116,6 @@ Haga clic en **Configurar** para personalizar la información que se muestra en 
 |-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | L. MAT         | Sírvase de las casillas de verificación para seleccionar los criterios que se ven en la estructura de árbol. El diseñador de lista de materiales mostrará los criterios seleccionados en la parte inferior de ambas fichas. |
 | Ruta       | Sírvase de las casillas de verificación para seleccionar los criterios que se ven para las rutas.                                                                                    |
-
 
 
 

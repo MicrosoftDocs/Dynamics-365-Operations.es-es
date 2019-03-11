@@ -1,13 +1,13 @@
---- 
-title: "Diseñe expresiones de ER para abrir métodos de clase de aplicación"
-description: "Esta guía proporciona información acerca de cómo volver a usar la lógica de aplicación existente en las configuraciones de informes electrónicos (ER) llamando a los métodos necesarios de clases de aplicación en expresiones de ER."
+---
+title: Diseñe expresiones de ER para abrir métodos de clase de aplicación
+description: Esta guía proporciona información acerca de cómo volver a usar la lógica de aplicación existente en las configuraciones de informes electrónicos (ER) llamando a los métodos necesarios de clases de aplicación en expresiones de ER.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: fdacd852eeed33b443a3c79b96fc4c4af04bb6b2
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357252"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>Diseñe expresiones de ER para abrir métodos de clase de aplicación
 
@@ -157,5 +157,4 @@ Para comprobar, ejecute la asignación de formato mediante el archivo SampleInco
     * Haga clic en Examinar y desplácese hasta el archivo SampleIncomingMessage.txt que ha descargado previamente.  
 2. Haga clic en Aceptar
     * Revise la salida en formato XML que representa los datos que se han importado del archivo seleccionado y se han trasladado al modelo de datos. Tenga en cuenta que solo las líneas 3 del archivo TXT importado se procesaron. El código de IBAN de la línea 4 que no es válida se saltó y se proporcionó un mensaje de error en el registro de información.  
-
 

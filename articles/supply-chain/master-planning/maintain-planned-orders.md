@@ -1,13 +1,13 @@
 ---
 title: Mantener pedidos planificados
-description: "En este tema se proporciona información sobre el modo de administrar pedidos planificados. Describe cómo puede actualizar el estado de los pedidos planificados, ponerlos en firme y filtrar por pedidos planificados que tengan el mismo estado que un pedido planificado seleccionado."
+description: En este tema se proporciona información sobre el modo de administrar pedidos planificados. Describe cómo puede actualizar el estado de los pedidos planificados, ponerlos en firme y filtrar por pedidos planificados que tengan el mismo estado que un pedido planificado seleccionado.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 10/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqTransPo
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bf578d98abc4825c5607ec031da6ab6737c3183a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ad0083018d2734cb1e36cbf5f94105376c57cdf9
-ms.openlocfilehash: e0e3e86ae85b59b10dc8d9ca9b0130d218469118
-ms.contentlocale: es-es
-ms.lasthandoff: 10/02/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360472"
 ---
-
 # <a name="maintain-planned-orders"></a>Mantener pedidos planificados
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ Al poner en firme un pedido planificado, este se mueve a la sección de pedidos 
 --------
 
 [Planes maestros](master-plans.md)
-
 
 
 

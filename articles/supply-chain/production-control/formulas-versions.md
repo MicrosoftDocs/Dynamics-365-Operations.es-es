@@ -1,32 +1,31 @@
 ---
-title: "Fórmulas y versiones de fórmula"
-description: "Este tema proporciona información sobre fórmulas y versiones de fórmula. Una fórmula define el material, los ingredientes y los resultados de un proceso determinado en la fabricación de procesos. Las fórmulas se utilizan para planificar y generar productos en la fabricación de procesos."
+title: Fórmulas y versiones de fórmula
+description: Este tema proporciona información sobre fórmulas y versiones de fórmula. Una fórmula define el material, los ingredientes y los resultados de un proceso determinado en la fabricación de procesos. Las fórmulas se utilizan para planificar y generar productos en la fabricación de procesos.
 author: cvocph
 manager: AnnBe
 ms.date: 09/12/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bbffc298ff5d2442092f8f0c987b7e79a7934a84
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4475695b1a00213ab7e3b5060fd38cc71883d2bd
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350122"
 ---
-
 # <a name="formulas-and-formula-versions"></a>Fórmulas y versiones de fórmula
 
 [!include [banner](../includes/banner.md)]
@@ -72,4 +71,3 @@ La característica escalable solo está disponible si se establecen todos los co
 
 ## <a name="use-step-consumption"></a>Usar el consumo de pasos
 El consumo de pasos elimina la necesidad de especificar una cantidad en la pestaña **Línea de fórmula** de un ingrediente. En su lugar, se configura el consumo de pasos de modo que tenga un valor **Serie inicial** y un valor **Cantidad** . Se selecciona la información del registro del consumo de pasos por serie que cumple con la cantidad especificada en el pedido de lote. El consumo de pasos es útil cuando la tasa de consumo no es lineal con respecto al tamaño del pedido de lote y solo aumenta el requisito cuando se llega a un umbral específico de la cantidad. Para habilitar esta característica en una nueva fórmula, en el grupo **Cálculo del consumo**, cambie la configuración de la fórmula del ingrediente aplicable de **Estándar** a **Paso**. Especifique este método de consumo en la pestaña **Configuración** de la página **Línea de fórmula**.
-

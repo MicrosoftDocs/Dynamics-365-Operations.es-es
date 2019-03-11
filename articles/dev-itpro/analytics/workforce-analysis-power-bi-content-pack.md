@@ -1,13 +1,13 @@
 ---
-title: "Contenido de BI sobre métricas de recursos"
-description: "Este tema describe el contenido en Power BI de métricas de recursos. Explica cómo obtener acceso a los informes y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido."
+title: Contenido de Power BI de métricas de recursos
+description: Este tema describe el contenido en Power BI de métricas de recursos. Explica cómo obtener acceso a los informes y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmWorkforceWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 1bb4b55fd929c105c20a1d4b1086bbb7f07d5eb1
-ms.contentlocale: es-es
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345798"
 ---
-
-# <a name="workforce-metrics-power-bi-content"></a>Contenido de BI sobre métricas de recursos
+# <a name="workforce-metrics-power-bi-content"></a>Contenido de Power BI de métricas de recursos
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe el contenido en Microsoft Power BI de **métricas de recursos**. Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
+Este tema describe el contenido en Microsoft Power BI de **métricas de recursos**. Explica cómo obtener acceso a los informes Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
 
 ## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI
 El contenido en Power BI de **métricas de recursos** se muestra en el espacio de trabajo **Administración de personal** si usa uno de estos productos:
@@ -59,7 +58,7 @@ En la tabla siguiente se enumeran las métricas que se muestran en cada informe.
 
 Puede filtrar los gráficos e iconos en estos informes y anclar los gráficos e iconos al panel de información. Para obtener más información acerca de cómo filtrar y anclar en Power BI, consulte [Crear y configurar un panel de información](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
-Asegúrese de descargar el contenido en Power BI de **métricas de recursos** que se aplica a la versión de Microsoft Dynamics 365 que esté usando.
+Asegúrese de descargar el contenido de Power BI **Métricas de recursos** que se aplica a la versión de Microsoft Dynamics 365 que esté usando.
 
 > [!NOTE]
 > Los archivos .pbix disponibles en Lifecycle Services se aplican solamente a Finance and Operations.
@@ -88,4 +87,3 @@ En la tabla siguiente se muestran las entidades en las que se basaba el contenid
 | Tendencia del empleado           | Trabajadores a lo largo del tiempo, plantilla, empresa y puesto                                 | Empresa, ubicación geográfica, nombre del empleado, responsable ante, contrapartida del calendario, fecha, puesto del empleado, demografía, empleo, trabajo |
 | Proyecto de contratación masiva        | Número de proyectos de contratación masiva, propietario del proyecto, y estado de proyecto                     | Empresa, línea de contratación masiva |
 | Línea de contratación masiva           | Departamento, tipo de empleo y puesto                                           | Fecha, trabajo, proyecto de contratación masiva |
-

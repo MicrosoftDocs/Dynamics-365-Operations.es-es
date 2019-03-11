@@ -1,13 +1,13 @@
 ---
-title: "Características quitadas u obsoletas"
-description: "Este tema describe las funciones que se han eliminado, o que está previsto que se eliminen."
+title: Características quitadas u obsoletas
+description: Este tema describe las funciones que se han eliminado, o que está previsto que se eliminen.
 author: sericks007
 manager: AnnBe
 ms.date: 12/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8f4413573f2e269e5a523940fbb841358e178d10
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 48e2eea2cc986edc49d5192945c3d913c3bb9756
-ms.openlocfilehash: 8a3405c434e402af68e59950f1e4d1a31cbf2813
-ms.contentlocale: es-es
-ms.lasthandoff: 12/04/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329261"
 ---
-
 # <a name="removed-or-deprecated-features"></a>Características quitadas o en desuso
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe las características que se han quitado o que están en desuso de Microsoft Dynamics 365 for Finance and Operations.
+Este tema describe las funciones que se han eliminado, o están en desuso en Dynamics 365 for Finance and Operations.
 
 - Una función *quitada* dejará de estar disponible en el producto.
 - Una función *en desuso* no está en el desarrollo activo y se puedría quitar en una actualización futura.
@@ -42,7 +41,7 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 > [!Note]
 > La información detallada sobre los objetos de Finance and Operations se puede encontrar en los [informes de referencia técnica](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de Finance and Operations.
 
-## <a name="dynamics-365-for-finance-and-operations-81-with-platform-update-20"></a>Dynamics 365 for Finance and Operations 8.1 con acutlización 20 de la plataforma
+## <a name="dynamics-365-for-finance-and-operations-81-with-platform-update-20"></a>Dynamics 365 for Finance and Operations 8.1 con actualización de plataforma 20
 
 ### <a name="batch-transfer-rules-for-subledger-journal-account-entries"></a>Reglas de transferencia por lotes para los asientos contables del subdiario contable
 El modo de transferencia sincrónico se está abandonando en los parámetros de contabilidad general.  Este modo se sustituye solo por el lote asincrónico y programado, que ya existe como opciones para la transferencia. 
@@ -62,9 +61,9 @@ Característica para configurar formatos de archivo .txt y .xml de declaraciones
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Se reemplaza por informes electrónicos. |
 | **¿Reemplazado por otra característica?**   | Sí. |
-| **Áreas de producto afectadas**         | Libro mayor general |
+| **Áreas de producto afectadas**         | Contabilidad general |
 | **Opción de implementación**              | Todas |
-| **Estado**                         | Se eliminó de Dynamics 365 for Finance and Operations 8.1 con la actualización 20 de la plataforma. |
+| **Estado**                         | Eliminado desde Dynamics 365 for Finance and Operations 8.1 con la plataforma actualice 20. |
 
 ### <a name="financial-reports-generator-for-russia"></a>Generador de informes financieros para Rusia
 Una herramienta para configurar recopilaciones de datos para los informes de contabilidad e impuestos y para exportar datos a plantillas de informes DOC y XLS. Partes funcionales: se eliminan la exportación de datos a plantillas de informes de XLS y de DOC, consultas, y requisitos fijos. 
@@ -75,7 +74,7 @@ Una herramienta para configurar recopilaciones de datos para los informes de con
 | **¿Reemplazado por otra característica?**   | Sí. La interfaz de usuario de configuración de informes financieros se debe usar para configurar reglas de recopilación de datos según cuentas de contabilidad general o registros de impuestos. La exportación de datos a distintos tipos de archivo, los requisitos y las consultas fijos, como las reglas de recopilación de datos, se deben configurar en el informe electrónico. |
 | **Áreas de producto afectadas**         | Contabilidad general |
 | **Opción de implementación**              | Todas |
-| **Estado**                         | Se eliminó de Dynamics 365 for Finance and Operations 8.1 con la actualización 20 de la plataforma. |
+| **Estado**                         | Eliminado desde Dynamics 365 for Finance and Operations 8.1 con la plataforma actualice 20. |
 
 ### <a name="integration-with-external-providers-for-sending-electronic-reporting-through-communication-channels-for-russia"></a>Integración con los proveedores externos para enviar notificaciones electrónicas a través de los canales de comunicación para Rusia
 Característica que exporta archivos electrónicos generados de declaraciones a la carpeta para el envío adicional a los proveedores oficiales de informes electrónicos así como su importación.
@@ -86,7 +85,7 @@ Característica que exporta archivos electrónicos generados de declaraciones a 
 | **¿Reemplazado por otra característica?**   | Sí.  |
 | **Áreas de producto afectadas**         | Contabilidad general, impuestos |
 | **Opción de implementación**              | Todas |
-| **Estado**                         | Se eliminó de Dynamics 365 for Finance and Operations 8.1 con la actualización 20 de la plataforma. |
+| **Estado**                         | Eliminado desde Dynamics 365 for Finance and Operations 8.1 con la plataforma actualice 20. |
 
 
 ### <a name="profit-tax-register-wizard"></a>Asistente del registro de impuesto de ganancias
@@ -94,17 +93,17 @@ Característica para crear plantillas para nuevos registros de impuestos sobre g
 
 |   |  |
 |------------|--------------------|
-| **Motivo de la depreciación/eliminación** | La característica no es compatible con el modelo de extensibilidad de Dynamics 365 for Finance and Operations. |
-| **¿Reemplazado por otra característica?**   | N.º |
-| **Áreas de producto afectadas**         | Impuesto |
+| **Motivo de la depreciación/eliminación** | La característica no es compatible con el modelo de extensibilidad de Dynamics 365 for Finance and Operations . |
+| **¿Reemplazado por otra característica?**   | Nº |
+| **Áreas de producto afectadas**         | Impuestos |
 | **Opción de implementación**              | Todas |
-| **Estado**                         | Se eliminó de Dynamics 365 for Finance and Operations 8.1 con la actualización 20 de la plataforma. |
+| **Estado**                         | Eliminado desde Dynamics 365 for Finance and Operations 8.1 con la plataforma actualice 20. |
 
 
-## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>Dynamics 365 for Finance and Operations 8.0 con acutlización 15 de la plataforma
+## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>Dynamics 365 for Finance and Operations 8.0 con actualización de plataforma 15
 No se ha quitado ni se ha dejado de utilizar ninguna función con esta versión. La actualización de la plataforma 15 es acumulativa y contiene nuevas o mejoradas funciones de la actualización de la plataforma 13, la actualización de la plataforma 14 y la actualización de la plataforma 15.
 
-## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 con acutlización 12 de la plataforma
+## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Dynamics 365 for Finance and Operations, Enterprise edition 7.3 con actualización de plataforma 12
 
 ### <a name="personalized-product-recommendations"></a>Recomendaciones de productos personalizados 
 A partir del 15 de febrero de 2018, los minoristas no podrán mostrar recomendaciones personalizadas de productos en un dispositivo de punto de venta (PDV). Para obtener más información, consulte [Recomendaciones personalizadas de productos](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations).  
@@ -126,7 +125,7 @@ La posibilidad de especificar las funciones personalizadas que se utilizarán en
 | **¿Reemplazado por otra característica?**   | Ninguno. Siempre que se necesite una nueva función integrada, se debe dirigir una nueva solicitud de extensión al equipo del marco de ER.<br><br>Como solución temporal mientras que la función solicitada está en proceso de desarrollo por equipo de ER, se puede programar la lógica necesaria como método de clase de aplicación personalizada. A este método se puede acceder en una expresión del ER como una propiedad del origen de datos agregado del ER del tipo de **Aplicación\clase** que hace referencia a esa clase de aplicación personalizada.  |
 | **Áreas de producto afectadas**         | Parámetros de informes de marco                                                      |
 | **Opción de implementación**              | Todas                                                                                      |
-| **Estado**                         | Quitado de Dynamics 365 for Finance and Operations, Enterprise Edition 7.3.    |
+| **Estado**                         | Eliminado desde Dynamics 365 for Finance and Operations, Enterprise edition 7.3.    |
 
 ### <a name="inventory-by-item-group-and-inventory-by-inventory-dimension-aging-reports"></a>Inventario por grupo de artículos e inventario por informes de antigüedad de dimensión de inventario
 
@@ -140,13 +139,13 @@ Estos dos informes ya no se admiten en Finance and Operations. En su lugar, el i
 | **Opción de implementación**        | Todas|
 | **Estado**                       | En desuso: Los elementos de menú para los dos informes se han quitado en la versión 7.3. Sin embargo, el código para los informes permanece en el producto. El plan es quitar el código en una versión futura. |
 
-### <a name="power-bi-content-packs-available-on-appsource"></a>Paquetes de contenido de Power BI disponibles en AppSource
-Los paquetes de contenido **Administración de costes**, **Rendimiento financiero** y **Rendimiento de canal comercial**, disponibles en el sitio [Microsoft AppSource](https://appsource.microsoft.com) están en desuso como consecuencia de actualizaciones de producto en Microsoft Power BI. Los formularios de administración del sistema utilizados para implementar estos paquetes de contenido a PowerBI.com también se están a dejar de utilizar en Finance and Operations.
+### <a name="power-bi-content-packs-available-on-appsource"></a>Paquetes de contenido Power BI disponibles en AppSource
+Los paquetes de contenido **Administración de costes**, **Rendimiento financiero** y **Retail Channel Performance**, disponibles en el sitio [Microsoft AppSource](https://appsource.microsoft.com) están en desuso como consecuencia de actualizaciones de producto en Microsoft Power BI. Los formularios de administración del sistema utilizados para implementar estos paquetes de contenido a PowerBI.com también se están a dejar de utilizar en Finance and Operations.
 
 |   |  |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Actualizaciones de producto en Microsoft Power BI. |
-| **¿Reemplazado por otra característica?**   | Los paquetes de contenido **Gestión de costes**, **Rendimiento financiero** y **Rendimiento de canal comercial**, disponibles en el sitio [AppSource](https://appsource.microsoft.com), se van a sustituir por las aplicaciones analíticas que permiten integraciones de la solución en el nivel de la base de datos. Para obtener más información acerca de aplicaciones analíticas, consulte [Power BI incrustada en áreas de trabajo](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
+| **¿Reemplazado por otra característica?**   | Los paquetes de contenido **Gestión de costes**, **Rendimiento financiero** y **Retail Channel Performance**, disponibles en el sitio [AppSource](https://appsource.microsoft.com), se van a sustituir por las aplicaciones analíticas que permiten integraciones de la solución en el nivel de la base de datos. Para obtener más información acerca de aplicaciones analíticas, consulte [Power BI incrustado en áreas de trabajo](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
 | **Áreas de producto afectadas**         | Administración de costes, Finanzas, y Retail                                                                                               |
 | **Opción de implementación**              | Solo en la nube (la integración con PowerBI.com no se admite en implementaciones locales).                                                                                                            |
 | **Estado**                         | En desuso: La fecha prevista para la eliminación de la funcionalidad es el segundo trimestre de 2018.    |
@@ -223,7 +222,7 @@ A partir del 15 de febrero de 2018, los minoristas no podrán mostrar recomendac
 | **Estado**                         |Se quitó el 15 de febrero de 2018. Esto afecta a los clientes que ejecutan Dynamics 365 for Retail 7.2 y posteriores. |
 
 
-## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>Dynamics 365 for Finance and Operations, Enterprise Edition julio 2017 con acutlización 8 de la plataforma
+## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>Dynamics 365 for Finance and Operations, Enterprise edition Julio 2017 con actualización de plataforma 8
 
 ### <a name="currency-conversion-for-accounting-and-reporting-currencies"></a>Conversión de divisa para contabilidad y divisas de notificación
 
@@ -244,7 +243,7 @@ El portal de dispositivos móviles de almacén (WMDP) era componente independien
 |   |  |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Funcionalidad duplicada.       |
-| **¿Reemplazado por otra característica?**   | Sí. Esta función se ha sustituido por Finance and Operations - Warehousing. Para obtener más información sobre la configuración y requisitos previos, consulte [Instalar y configurar Microsoft Dynamics 365 for Finance and Operations - Warehousing](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
+| **¿Reemplazado por otra característica?**   | Sí. Esta función se ha sustituido por Finance and Operations - Warehousing. Para obtener más información sobre la configuración y prerequisitos, consulte [Instalar y configurar Microsoft Dynamics 365 for Finance and Operations - Almacenaje](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
 | **Áreas de producto afectadas**         | Gestión de almacenes y administración de transporte     |
 | **Opción de implementación**              | El portal de dispositivos móviles de almacén (WMDP) era componente independiente pensando para la implementación propia localmente.               |
 | **Estado**                         | En desuso: La fecha prevista para la eliminación de la funcionalidad es el cuarto trimestre de 2019.   |
@@ -261,7 +260,7 @@ Una regla de coincidencia se utilizó para seleccionar y marcar un documento ban
 | **Opción de implementación**              | Todas                                                                                    |
 | **Estado**                         | Se quitó en julio 2017.                                                               |
 
-## <a name="dynamics-365-for-operations-1611-with-platform-update-3"></a>Dynamics 365 for Operations 1611 con la actualización 3 de la plataforma
+## <a name="dynamics-365-for-operations-1611-with-platform-update-3"></a>Dynamics 365 for Operations 1611 con actualización de plataforma 3
 
 ### <a name="aeb-payment-formats-for-spain"></a>Formatos de pago de AEB para España
 
@@ -481,7 +480,7 @@ Información de nómina en Recursos humanos
 | **Motivo de la depreciación/eliminación** | Esta funcionalidad se ha sustituido por páginas principales de nóminas y Recursos Humanos.  |
 | **¿Reemplazado por otra característica?**   | Se han reconfigurado las páginas **Prestaciones**, **Ganancias** y otras páginas relacionadas que estaban anteriormente en nóminas de Estados Unidos y ahora forman parte de la configuración de Recursos humanos base para ayudar con el procesamiento externo de nóminas. A esta función se accede mediante la clave de configuración **Recursos humanos 1** \> **Nómina**. |
 | **Áreas de producto afectadas**         | Recursos humanos, Nómina   |
-| **Estado**                         | Quitado de la versión 1611 de Dynamics 365 for Operations.    |
+| **Estado**                         | Se quitó en Dynamics 365 for Operations versión 1611.    |
 
 ### <a name="performance-management-goal-workflow"></a>Flujo de trabajo de objetivo de gestión del rendimiento
 
@@ -492,7 +491,7 @@ La gestión del rendimiento incluye la administración y la integración del obj
 | **Motivo de la depreciación/eliminación** | La gestión del rendimiento se diseñó de nuevo y el número de páginas de objetivos se redujo para simplificar el proceso.                 |
 | **¿Reemplazado por otra característica?**   | N. º Los objetivos son visibles para los administradores a través del portal Manager Self Service, y se pueden ver y cambiar por el administrador. |
 | **Áreas de producto afectadas**         | Gestión del capital humano       |
-| **Estado**                         | Quitado de la versión 1611 de Dynamics 365 for Operations.    |
+| **Estado**                         | Se quitó en Dynamics 365 for Operations versión 1611.    |
 
 ### <a name="postgirot-and-postgirot-utland-payment-formats-for-sweden"></a>Formatos de pago de Postgirot y Postgirot Utland para Suecia
 
@@ -513,8 +512,8 @@ La identificación por radiofrecuencia (RFID) es una tecnología de recopilació
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Poco uso de cliente y conjunto limitado de funciones.   |
 | **¿Reemplazado por otra característica?**   | N.º                                              |
-| **Áreas de producto afectadas**         | Gestión del inventario                            |
-| **Estado**                         | Quitado de Dynamics 365 for Operations 1611. |
+| **Áreas de producto afectadas**         | Gestión de inventarios                            |
+| **Estado**                         | Eliminado desde Dynamics 365 for Operations 1611. |
 
 ### <a name="report-about-state-invoices-numbering-for-latvia"></a>Informe sobre la numeración del estado de las facturas para Letonia
 
@@ -545,7 +544,7 @@ Los nombres del administrador y el contable general de una empresa se pueden esp
 | **Motivo de la depreciación/eliminación** | Funcionalidad duplicada   |
 | **¿Reemplazado por otra característica?**   | Reemplazado parcialmente por la administración de transporte |
 | **Áreas de producto afectadas**         | Ventas y marketing, Gestión de inventarios  |
-| **Estado**                         | Quitado de la versión 1611 de Dynamics 365 for Operations.  |
+| **Estado**                         | Se quitó en Dynamics 365 for Operations versión 1611.  |
 
 ### <a name="telepay-payment-formats-for-norway"></a>Formatos de pago Telepay para Noruega
 
@@ -573,10 +572,10 @@ Dos formatos para exportar pagos están disponibles para Finlandia. LM02 (FI) se
 
 |   |  |
 |------------|--------------------|
-| **Motivo de la depreciación/eliminación** | La solución Gestión de almacenes II (WMS II) que estaba disponible en el módulo **Gestión de inventarios** duplica la funcionalidad en el módulo **Gestión de almacenes** que se lanzó en Microsoft Dynamics AX 2012 R3.                                                                         |
+| **Motivo de la depreciación/eliminación** | La solución Warehouse Management II (WMS II) que estaba disponible en el módulo **Gestión de inventarios** duplica la funcionalidad en el módulo de **Gestión de almacenes** que se lanzó en Microsoft Dynamics AX 2012 R3.                                                                         |
 | **¿Reemplazado por otra característica?**   | El módulo **Administración de almacenes** lanzado en AX 2012 R3, Microsoft Dynamics AX 2012 R3 CU8 y Dynamics AX 2012 R3 CU9 reemplaza las funciones de Gestión de almacenes II. El nuevo módulo dispone de características más avanzadas y procesos más flexibles de gestión de almacenes que Gestión de almacenes II. |
 | **Áreas de producto afectadas**         | Gestión del inventario, ventas y marketing, adquisición y abastecimiento   |
-| **Estado**                         | Quitado de la versión 1611 de Dynamics 365 for Operations.    |
+| **Estado**                         | Se quitó en Dynamics 365 for Operations versión 1611.    |
 
 ### <a name="worker-reminders-in-human-resources"></a>Recordatorios de trabajador en Recursos humanos
 
@@ -587,7 +586,7 @@ Información de nómina en Recursos humanos
 | **Motivo de la depreciación/eliminación** | Poco uso                                                           |
 | **¿Reemplazado por otra característica?**   | N.º                                                                  |
 | **Áreas de producto afectadas**         | Recursos humanos                                                     |
-| **Estado**                         | Quitado de la versión 1611 de Dynamics 365 for Operations |
+| **Estado**                         | Se quitó en Dynamics 365 for Operations versión 1611 |
 
 ### <a name="workflow-for-creating-goals"></a>Flujo de trabajo para crear objetivos
 
@@ -595,10 +594,10 @@ Un flujo de trabajo para gestionar la creación de los objetivos del empleado es
 
 |   |  |
 |------------|--------------------|
-| **Motivo de la depreciación/eliminación** | La gestión del rendimiento se ha vuelto a diseñar por completo en Microsoft Dynamics 365 for Finance and Operations.     |
+| **Motivo de la depreciación/eliminación** | En Microsoft Dynamics 365 for Finance and Operations la administración del rendimiento se ha rediseñado por completo.     |
 | **¿Reemplazado por otra característica?**   | La característica de Gestión del rendimiento que se ha diseñado de nuevo proporciona más control sobre el contenido de los objetivos, las medidas que se utilizan para realizar el seguimiento del progreso y los datos adjuntos de la documentación correspondiente. Los objetivos se pueden almacenar como plantillas y volverse a utilizar. Esta función puede ayudarle a configurar los objetivos adicionales para sus empleados con más rapidez. |
 | **Áreas de producto afectadas**         | Gestión del capital humano                 |
-| **Estado**                         | Quitado de la versión 1611 de Dynamics 365 for Operations. |
+| **Estado**                         | Se quitó en Dynamics 365 for Operations versión 1611. |
 
 ## <a name="dynamics-ax-70"></a>Dynamics AX 7.0 
 
@@ -610,7 +609,7 @@ Un flujo de trabajo para gestionar la creación de los objetivos del empleado es
 | **Motivo de la depreciación/eliminación** | Mejora del rendimiento        |
 | **¿Reemplazado por otra característica?**   | N.º                             |
 | **Áreas de producto afectadas**         | Proveedores               |
-| **Estado**                         | Quitado a partir de Dynamics AX 7.0. |
+| **Estado**                         | Eliminado a partir de Dynamics AX 7.0. |
 
 ### <a name="aif-axd-and-axbc-integrations"></a>Integración de AIF, Axd y AxBC
 
@@ -621,18 +620,18 @@ En Application Integration Framework (AIF), los datos se pueden intercambiar con
 | **Motivo de la depreciación/eliminación** | La arquitectura de AIF y de AxDs no se podría escalar un servicio de nube. Ha habido problemas de rendimiento en la importación masiva.                                        |
 | **¿Reemplazado por otra característica?**   | Esta característica se sustituye por el marco de importación y exportación de datos, compatible con la importación y exportación masiva recurrente. Para AxBC, se recomienda usar las tablas reales. |
 | **Áreas de producto afectadas**         | AxDs, AxBC y AIF   |
-| **Estado**                         | Quitado a partir de Dynamics AX 7.0.   |
+| **Estado**                         | Eliminado a partir de Dynamics AX 7.0.   |
 
 ### <a name="boms-without-bom-versions"></a>L. MAT sin versiones de L. MAT
 
-Cuando la clave de configuración **Versiones de L. MAT.** se deshabilita, las versiones de la lista de materiales se ocultan en todos los formularios, y el sistema fuerza una relación 1:1 entre los productos liberados y las listas de materiales. En la versión actual de Dynamics AX, no se puede deshabilitar la clave de configuración **Versiones de L. MAT**.
+Cuando la clave de configuración **Versiones de L. MAT.** se deshabilita, las versiones de la lista de materiales se ocultan en todos los formularios, y el sistema fuerza una relación 1:1 entre los productos liberados y las listas de materiales. En la versión actual de Dynamics AX, no se puede deshabilitar la clave de configuración de las **versiones BOM**.
 
 |   |  |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | El uso de una clave de configuración para controlar las versiones de listas de materiales no se escala en un entorno de nube. |
 | **¿Reemplazado por otra característica?**   | N.º                                                                                      |
 | **Áreas de producto afectadas**         | Gestión de información de productos, Gestión de inventarios                                    |
-| **Estado**                         | Quitado a partir de Dynamics AX 7.0.                                                          |
+| **Estado**                         | Eliminado a partir de Dynamics AX 7.0.                                                          |
 
 ### <a name="brazilian-bordero"></a>Bordero brasileño
 
@@ -687,7 +686,7 @@ La configuración de consultas de estadísticas comerciales que le pueden ayudar
 | **Motivo de la depreciación/eliminación** | Método de herencia para la inteligencia empresarial (BI), poco uso por parte del cliente y un conjunto limitado de características |
 | **¿Reemplazado por otra característica?**   | Nuevas soluciones de inteligencia empresarial para la versión actual de Dynamics AX                                      |
 | **Áreas de producto afectadas**         | Adquisición y abastecimiento, Proveedores, Ventas y marketing, Clientes.         |
-| **Estado**                         | Quitado a partir de Dynamics AX 7.0.                                                               |
+| **Estado**                         | Eliminado a partir de Dynamics AX 7.0.                                                               |
 
 ### <a name="change-document-date-function-in-invoice-approval-journal"></a>Cambio de la función de fecha de documento en el diario de aprobación de facturas
 
@@ -696,7 +695,7 @@ La configuración de consultas de estadísticas comerciales que le pueden ayudar
 | **Motivo de la depreciación/eliminación** | Poco uso                                                               |
 | **¿Reemplazado por otra característica?**   | Sí. La fecha de documento en la transacción de proveedor registrada puede cambiarse. |
 | **Áreas de producto afectadas**         | Proveedores                                                        |
-| **Estado**                         | Quitado a partir de Dynamics AX 7.0.                                          |
+| **Estado**                         | Eliminado a partir de Dynamics AX 7.0.                                          |
 
 ### <a name="clieop03-payment-format-for-the-netherlands"></a>Formato de pago ClieOp03 para Países Bajos
 
@@ -716,7 +715,7 @@ El Centro de cumplimiento era un sitio de Enterprise Portal para gestionar los r
 | **Motivo de la depreciación/eliminación** | Falta de uso del cliente. Microsoft SharePoint incluye la misma capacidad que estaba disponible en el Centro de cumplimiento. |
 | **¿Reemplazado por otra característica?**   | N.º   |
 | **Áreas de producto afectadas**         | Cumplimiento y controles internos  |
-| **Estado**                         | Quitado a partir de Dynamics AX 7.0.    |
+| **Estado**                         | Eliminado a partir de Dynamics AX 7.0.    |
 
 ### <a name="connector-for-microsoft-dynamics"></a>Conector para Microsoft Dynamics
 
@@ -725,9 +724,9 @@ Esta herramienta se usó para integrar datos clave de Microsoft Dynamics CRM en 
 |   |  |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Esta funcionalidad se ha reemplazado por otra característica. |
-| **¿Reemplazado por otra característica?**   | Common Data Service                                      |
+| **¿Reemplazado por otra característica?**   | Common data service                                      |
 | **Áreas de producto afectadas**         | Conector para Microsoft Dynamics                         |
-| **Estado**                         | Quitado a partir de Dynamics AX 7.0.                           |
+| **Estado**                         | Eliminado a partir de Dynamics AX 7.0.                           |
 
 ### <a name="container-unit-and-multi-dimension-on-hand"></a>Unidad de contenedor y multidimensión disponibles
 
@@ -736,7 +735,7 @@ Esta herramienta se usó para integrar datos clave de Microsoft Dynamics CRM en 
 | **Motivo de la depreciación/eliminación** | Funcionalidad duplicada |
 | **¿Reemplazado por otra característica?**   | Sí. Desde AX 2012, esta funcionalidad se ha reemplazado por el conjunto de características de pedidos de lotes consolidados. Este conjunto de características incluye la vista disponible consolidada. |
 | **Áreas de producto afectadas**         | Gestión de información de productos, Control de producción, Administración de inventario, Ventas y marketing  |
-| **Estado**                         | Quitado a partir de Dynamics AX 7.0. |
+| **Estado**                         | Eliminado a partir de Dynamics AX 7.0. |
 
 ### <a name="cue-group-metadata"></a>Metadatos de grupo de pilas
 
@@ -745,7 +744,7 @@ Esta herramienta se usó para integrar datos clave de Microsoft Dynamics CRM en 
 | **Motivo de la depreciación/eliminación** | Los grupos de pilas se usaban para mostrar una o más pilas en el área de cuadro informativo. La capacidad era limitada y había también problemas de rendimiento, porque un cambio de registro en un formulario principal generaba una consulta por pila en el grupo de pilas. |
 | **¿Reemplazado por otra característica?**   | N.º      |
 | **Áreas de producto afectadas**         | Todos los módulos    |
-| **Estado**                         | Quitado a partir de Dynamics AX 7.0.  |
+| **Estado**                         | Eliminado a partir de Dynamics AX 7.0.  |
 
 ### <a name="cue-metadata"></a>Metadatos de pila
 
@@ -754,7 +753,7 @@ Esta herramienta se usó para integrar datos clave de Microsoft Dynamics CRM en 
 | **Motivo de la depreciación/eliminación** | Los metadatos de pila estaban limitados a contar o sumar información.    |
 | **¿Reemplazado por otra característica?**   | Los metadatos de icono se introdujeron para proporcionar más flexibilidad para modelar. Por ejemplo, puede modelar recuentos actuales, navegación e indicadores de rendimiento clave (KPI). Los metadatos de icono de recuento sustituyen directamente a los metadatos de pila. |
 | **Áreas de producto afectadas**         | Todos los módulos           |
-| **Estado**                         | Quitado a partir de Dynamics AX 7.0      |
+| **Estado**                         | Eliminado a partir de Dynamics AX 7.0      |
 
 ### <a name="danish-check-format"></a>Formato de cheque danés
 
@@ -771,10 +770,10 @@ Las particiones de los datos proporcionan una separación lógica de datos en la
 
 |   |  |
 |------------|--------------------|
-| **Motivo de la depreciación/eliminación** | Las particiones de datos se introdujeron en Microsoft Dynamics AX 2012 R2 para habilitar el aislamiento de los datos. En un escenario común, una compañía tiene filiales y los datos de una filial no deben ser visibles para otra, aunque el mismo departamento de TI administre ambas filiales. Sin embargo, se requerían gastos generales de administración y scripts adicionales en todo el programa para crear nuevas particiones y rellenarlas con datos y hacer copia de seguridad de los datos de partición. En la nube, donde tenemos acceso a la plataforma como servicios de base de datos (Base de datos SQL de Microsoft Azure) de un servicio (PaaS), es mucho más eficaz utilizar una base de datos como el contenedor de aislamiento para realizar el aislamiento en el programa. Con independencia de si se requiere la partición de datos para filiales, para varios inquilinos o simplemente para escala, creemos que los escenarios se pueden controlar mejor a través de varias instancias de Finance and Operations. |
+| **Motivo de la depreciación/eliminación** | Las particiones de datos se introdujeron en Microsoft Dynamics AX 2012 R2 para habilitar el aislamiento de los datos. En un escenario común, una compañía tiene filiales y los datos de una filial no deben ser visibles para otra, aunque el mismo departamento de TI administre ambas filiales. Sin embargo, se requerían gastos generales de administración y scripts adicionales en todo el programa para crear nuevas particiones y rellenarlas con datos y hacer copia de seguridad de los datos de partición. En la nube, donde tenemos acceso a la plataforma como servicios de base de datos (Base de datos SQL Microsoft Azure) de un servicio (PaaS), es mucho más eficaz utilizar una base de datos como el contenedor de aislamiento para realizar el aislamiento en el programa. Con independencia de si se requiere la partición de datos para filiales, para varios inquilinos o simplemente para escala, creemos que los escenarios se pueden controlar mejor a través de varias instancias de Finance and Operations. |
 | **¿Reemplazado por otra característica?**   | Los clientes que usan particiones de datos deben usar varias instancias de Finance and Operations si la separación de nivel de base de datos es un asunto crítico.    |
 | **Áreas de producto afectadas**         | Todos los módulos  |
-| **Estado**                         | Quitado a partir de Dynamics AX 7.0.  |
+| **Estado**                         | Eliminado a partir de Dynamics AX 7.0.  |
 
 
 ### <a name="database-and-file-share-storage-for-attachments"></a>Almacenamiento de recursos compartidos de archivo y base de datos para los datos adjuntos
@@ -786,7 +785,7 @@ Microsoft Dynamics AX 2012 permitía el almacenamiento de datos adjuntos en los 
 | **Motivo de la depreciación/eliminación** | El almacenamiento de recurso compartido de archivos ya no se admite ya que los entornos hospedados en la nube no pueden comunicarse con los recursos compartidos de archivos. El almacenamiento de base de datos se ha dejado de utilizar en favor del almacenamiento de blobs de Azure. El almacenamiento de blobs de Azure es equivalente al almacenamiento en la base de datos, ya que solo se puede tener acceso a los documentos a través de formularios cliente de Dynamics 365 for Finance and Operations. Esto ofrece la ventaja adicional de proporcionar almacenamiento que no afecte negativamente al rendimiento de la base de datos. El almacenamiento de blobs es el mecanismo predeterminado de almacenamiento para la gestión de documentos y funciona inmediatamente. |
 | **¿Reemplazado por otra característica?**   | El almacenamiento de base de datos se ha dejado de utilizar en favor del almacenamiento de blobs de Azure.   |
 | **Áreas de producto afectadas**         | Todos los módulos  |
-| **Estado**                         | Quitado a partir de Dynamics AX 7.0.   |
+| **Estado**                         | Eliminado a partir de Dynamics AX 7.0.   |
 
 ### <a name="delimitation"></a>Delimitación
 
@@ -795,7 +794,7 @@ Microsoft Dynamics AX 2012 permitía el almacenamiento de datos adjuntos en los 
 | **Motivo de la depreciación/eliminación** | No se ha encontrado ningún uso de la función. |
 | **¿Reemplazado por otra característica?**   | N.º                                     |
 | **Áreas de producto afectadas**         | Tiempo y asistencia                    |
-| **Estado**                         | Quitado a partir de Dynamics AX 7.0.         |
+| **Estado**                         | Eliminado a partir de Dynamics AX 7.0.         |
 
 ### <a name="desktop-client"></a>Cliente de escritorio
 
@@ -804,7 +803,7 @@ Microsoft Dynamics AX 2012 permitía el almacenamiento de datos adjuntos en los 
 | **Motivo de la depreciación/eliminación** | La experiencia de cliente de Dynamics AX se ha rediseñado para mejorar la capacidad de uso en varias plataformas y dispositivos.                      |
 | **¿Reemplazado por otra característica?**   | El nuevo cliente web se basa en los metadatos de formulario de escritorio y el modelo de programación que se han modificado para proporcionar una plataforma web enriquecida. |
 | **Áreas de producto afectadas**         | Todos los módulos  |
-| **Estado**                         | Quitado a partir de Dynamics AX 7.0.   |
+| **Estado**                         | Eliminado a partir de Dynamics AX 7.0.   |
 
 ### <a name="direct-database-connection"></a>Conexión con base de datos directa
 
@@ -815,7 +814,7 @@ En Dynamics AX 2012 R3, Retail Modern POS podía conectarse directamente a la ba
 | **Motivo de la depreciación/eliminación** | La conectividad directa de la base de datos requería protocolos de seguridad inferiores y se usaba principalmente para alcanzar niveles de rendimiento más altos. Debido a las mejoras del rendimiento y de seguridad que se han producido en Finance and Operations, esta funcionalidad ahora está dando más problemas que soluciones. |
 | **¿Reemplazado por otra característica?**   | N. º Ahora solo se da soporte a la comunicación de Retail Server estándar.  |
 | **Áreas de producto afectadas**         | Base de datos de canales/Retail Modern POS   |
-| **Estado**                         | Quitado a partir de Dynamics AX 7.0.  |
+| **Estado**                         | Eliminado a partir de Dynamics AX 7.0.  |
 
 ### <a name="dutch-swift-mt940"></a>SWIFT MT940 holandés
 
@@ -844,7 +843,7 @@ Esta funcionalidad proporcionaba salida en el lenguaje eXtensible Business Repor
 | **Motivo de la depreciación/eliminación** | Se ha proporcionado una sola plataforma de cliente.  |
 | **¿Reemplazado por otra característica?**   | El nuevo cliente web se basa en los metadatos del formulario de escritorio y el modelo de programación que se han modificado para proporcionar una plataforma web enriquecida. |
 | **Áreas de producto afectadas**         | Todos los módulos  |
-| **Estado**                         | Quitado a partir de Dynamics AX 7.0.   |
+| **Estado**                         | Eliminado a partir de Dynamics AX 7.0.   |
 
 ### <a name="environmental-sustainability"></a>Sustentabilidad ambiental
 
@@ -853,7 +852,7 @@ Esta funcionalidad proporcionaba salida en el lenguaje eXtensible Business Repor
 | **Motivo de la depreciación/eliminación** | Poco uso de cliente y conjunto limitado de funciones  |
 | **¿Reemplazado por otra característica?**   | N.º              |
 | **Áreas de producto afectadas**         | Cumplimiento y controles internos, Proveedores  |
-| **Estado**                         | Quitado a partir de Dynamics AX 7.0. |
+| **Estado**                         | Eliminado a partir de Dynamics AX 7.0. |
 
 ### <a name="form-activex-and-managed-host-controls"></a>Controles de formulario de host administrados y ActiveX
 
@@ -862,7 +861,7 @@ Esta funcionalidad proporcionaba salida en el lenguaje eXtensible Business Repor
 | **Motivo de la depreciación/eliminación** | Los controles ActiveX y de host administrados se basan en el cliente de escritorio obsoleto. |
 | **¿Reemplazado por otra característica?**   | El marco de controles extensibles admite la creación de nuevos controles que se basan en HTML, CSS y Javascript, y es un control de primera clase en el entorno de Microsoft Visual Studio Tooling. |
 | **Áreas de producto afectadas**         | Todos los módulos     |
-| **Estado**                         | Quitado a partir de Dynamics AX 7.0.       |
+| **Estado**                         | Eliminado a partir de Dynamics AX 7.0.       |
 
 ### <a name="generate-prenotes-by-using-a-batch"></a>Generación de prenotas mediante un lote
 
@@ -873,7 +872,7 @@ La generación de prenotas no se puede hacer mediante un lote pero sí la puede 
 | **Motivo de la depreciación/eliminación** | No hay manera de persistir y mostrar el archivo de prenota resultante cuando se genera mediante un lote. |
 | **¿Reemplazado por otra característica?**   | Aún se pueden generar prenotas y el usuario tiene control sobre la ubicación en la que se guarda el archivo.   |
 | **Áreas de producto afectadas**         | Clientes, Proveedores, Gestión de efectivo y bancos  |
-| **Estado**                         | Quitado a partir de Dynamics AX 7.0.    |
+| **Estado**                         | Eliminado desde AX 7.0.    |
 
 ### <a name="german-dtaus-payment-export-and-account-statement-import-totals-and-transactions"></a>Exportación de pagos DTAUS alemanes e importación de extractos de cuentas (totales y transacciones)
 
@@ -920,7 +919,7 @@ Se han retirado los informes que incluyen los siguientes elementos de menú: **R
 | **Motivo de la depreciación/eliminación** | Los informes de Financial Microsoft SQL Server Reporting Services (SSRS) han sido reemplazados con capacidades de Management Reporter e informes predeterminados. |
 | **¿Reemplazado por otra característica?**   | Management Reporter (etiquetado **Informes financieros** en la versión actual de Dynamics AX)    |
 | **Áreas de producto afectadas**         | Contabilidad general   |
-| **Estado**                         | Quitado a partir de Dynamics AX 7.0.   |
+| **Estado**                         | Eliminado a partir de Dynamics AX 7.0.   |
 
 ### <a name="infopart-and-formpart-metadata"></a>Metadatos de InfoPart y FormPart
 
@@ -929,7 +928,7 @@ Se han retirado los informes que incluyen los siguientes elementos de menú: **R
 | **Motivo de la depreciación/eliminación** | Los metadatos de InfoPart y de FormPart permitieron la creación de cuadros informativos para dos clientes diferentes. |
 | **¿Reemplazado por otra característica?**   | Los metadatos de InfoPart, que eran una definición simplificada de formulario, se han convertido a un formulario mediante herramientas de actualización. Los metadatos de FormPart, con un formulario al que se hace referencia, se han sustituido por una referencia más directa creada mediante herramientas de actualización. |
 | **Áreas de producto afectadas**         | Todos los módulos    |
-| **Estado**                         | Quitado a partir de Dynamics AX 7.0.        |
+| **Estado**                         | Eliminado a partir de Dynamics AX 7.0.        |
 
 ### <a name="main-account-list-page"></a>Página de lista Cuenta principal
 
@@ -940,7 +939,7 @@ Una lista de cuentas para la entidad jurídica y la información relacionada de 
 | **Motivo de la depreciación/eliminación** | La información del saldo está disponible en la página de lista **Saldo de comprobación** por cuenta y dimensión.  |
 | **¿Reemplazado por otra característica?**   | **Cuentas principales** contiene la misma lista de cuentas que contenía la página de lista **Cuenta principal**. La vista de cuadrícula en **Cuentas principales** también muestra una vista más pequeña tipo cuadrícula. |
 | **Áreas de producto afectadas**         | Contabilidad general      |
-| **Estado**                         | Quitado a partir de Dynamics AX 7.0.    |
+| **Estado**                         | Eliminado a partir de Dynamics AX 7.0.    |
 
 ### <a name="malaysia-and-singapore-bank-cash-flow-report"></a>Informe de flujo de efectivo bancario de Malasia y Singapur
 
@@ -980,10 +979,10 @@ Microsoft Dynamics AX 2012 gestionaba el impuesto sobre el valor añadido (IVA) 
 
 |   |  |
 |------------|--------------------|
-| **Motivo de la depreciación/eliminación** | Esta funcionalidad se ha reemplazado por la integración de Microsoft Exchange Server. |
+| **Motivo de la depreciación/eliminación** | Esta funcionalidad se ha reemplazado por la integración Microsoft Exchange Server. |
 | **¿Reemplazado por otra característica?**   | Sí                                                                            |
-| **Áreas de producto afectadas**         | Ventas y marketing                                                            |
-| **Estado**                         | Quitado a partir de Dynamics AX 7.0.                                                 |
+| **Áreas de producto afectadas**         | Sales and Marketing                                                            |
+| **Estado**                         | Eliminado a partir de Dynamics AX 7.0.                                                 |
 
 ### <a name="private-blocking-of-inventory-and-warehouse-management-journals"></a>Bloqueo privado de los diarios de gestión de almacenes e inventarios
 
@@ -993,8 +992,8 @@ Los diarios de almacén e inventario ya no admiten la opción de marcar un diari
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | No se ha encontrado ningún uso de la función. |
 | **¿Reemplazado por otra característica?**   | N.º                                     |
-| **Áreas de producto afectadas**         | Gestión del inventario                   |
-| **Estado**                         | Quitado a partir de Dynamics AX 7.0.         |
+| **Áreas de producto afectadas**         | Gestión de inventarios                   |
+| **Estado**                         | Eliminado a partir de Dynamics AX 7.0.         |
 
 ### <a name="product-builder"></a>Configurador de productos
 
@@ -1005,14 +1004,14 @@ El configurador de productos se usaba para configurar dinámicamente artículos 
 | **Motivo de la depreciación/eliminación** | El configurador de productos exponía el código X++ a los usuarios finales y no se admite en la versión actual de Dynamics AX. Se ha retirado para evitar esfuerzos duplicados en bases de código superpuestas y cuantiosas.  |
 | **¿Reemplazado por otra característica?**   | Sí. La configuración basada en restricciones se introdujo en Dynamics AX 2012 donde ya se anunciaba la depreciación del generador de productos en futuras versiones. La tecnología de configuración basada restricciones se selecciona en los productos maestros para habilitar la configuración. Para obtener más información, consulte [Crear un modelo de configuración de productos](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/pim/build-product-configuration-model). |
 | **Áreas de producto afectadas**         | Gestión de información de productos, Ventas y marketing  |
-| **Estado**                         | Quitado a partir de Dynamics AX 7.0.      |
+| **Estado**                         | Eliminado a partir de Dynamics AX 7.0.      |
 
 ### <a name="production-floor-app"></a>Aplicación de planta de producción
 Esta es la aplicación de los dispositivos tabletas que ejecutan Windows 8.1 RT y Windows 8.1 Pro.
 
 |   |  |
 |------------|--------------------|
-| **Motivo de la depreciación/eliminación** | Con el cambio a un cliente basado en Internet, es posible entregar funciones similares a través del cliente nativo de Dynamics AX 7.0. El dispositivo de tarjeta de trabajo proporciona una interfaz de usuario de planta de la producción que se optimiza para los factores de forma de contacto y tabletas. |
+| **Motivo de la depreciación/eliminación** | Con el cambio a un cliente basado en la red, es posible entregar funciones similares a través del cliente nativo de Dynamics AX 7.0. El dispositivo de tarjeta de trabajo proporciona una interfaz de usuario de planta de la producción que se optimiza para los factores de forma de contacto y tabletas. |
 | **¿Reemplazado por otra característica?**   | Sí. El dispositivo de la tarjeta de trabajo, que es una parte nativa de Dynamics AX 7.0.                                                                           |
 | **Áreas de producto afectadas**         | Control de producción                                                |
 | **Estado**                         | Desusado: Una fecha de eliminación de la tienda de Microsoft todavía no se ha establecido para esta función.                                                |
@@ -1027,7 +1026,7 @@ Esta función le permite cambiar el nombre de una de las tres dimensiones de pro
 | **Motivo de la depreciación/eliminación** | La versión actual de Dynamics AX no admite cambios de etiqueta en tiempo de ejecución. |
 | **¿Reemplazado por otra característica?**   | N.º                                                                            |
 | **Áreas de producto afectadas**         | Gestión de información de productos                                                |
-| **Estado**                         | Quitado a partir de Dynamics AX 7.0.                                                |
+| **Estado**                         | Eliminado a partir de Dynamics AX 7.0.                                                |
 
 ### <a name="retail-server-connectivity-using-http"></a>Conectividad de Retail Server mediante HTTP
 
@@ -1038,16 +1037,16 @@ En Dynamics AX 2012 R3, Retail Server podía trabajar usando la comunicación HT
 | **Motivo de la depreciación/eliminación** | Debido a los nuevos requisitos de seguridad, ahora solo se admite la comunicación segura mediante TLS 1.2 (o un número superior, si está disponible). El instalador de autoservicio configurará automáticamente el equipo para esta comunicación. |
 | **¿Reemplazado por otra característica?**   | N. º Ahora solo se da soporte a la comunicación de HTTPS estándar. |
 | **Áreas de producto afectadas**         | Retail Server  |
-| **Estado**                         | Quitado a partir de Dynamics AX 7.0. |
+| **Estado**                         | Eliminado a partir de Dynamics AX 7.0. |
 
 ### <a name="role-center-pages"></a>Páginas de áreas de trabajo
 
 |   |  |
 |------------|--------------------|
-| **Motivo de la depreciación/eliminación** | Las páginas de área de trabajo se crearon en la plataforma de Enterprise Portal obsoleta, la cual se ha actualizado mediante la nueva plataforma de cliente web en la versión actual de Dynamics AX. |
+| **Motivo de la depreciación/eliminación** | Las páginas de área de trabajo se crearon en la plataforma de Enterprise Portal obsoleta, la cual se ha actualizado mediante la nueva plataforma de cliente web en la versión actual de Dynamics AX. |
 | **¿Reemplazado por otra característica?**   | El nuevo patrón del formulario de espacio de trabajo proporciona a los usuarios un diseño centrado en el proceso de fácil acceso a las tareas de uso general dentro de dicho proceso.                       |
 | **Áreas de producto afectadas**         | Todos los módulos    |
-| **Estado**                         | Quitado a partir de Dynamics AX 7.0   |
+| **Estado**                         | Eliminado a partir de Dynamics AX 7.0   |
 
 ### <a name="sales-tax-jurisdictions"></a>Jurisdicciones de impuestos
 
@@ -1056,7 +1055,7 @@ En Dynamics AX 2012 R3, Retail Server podía trabajar usando la comunicación HT
 | **Motivo de la depreciación/eliminación** | Poco uso de cliente y conjunto limitado de funciones |
 | **¿Reemplazado por otra característica?**   | N.º                                           |
 | **Áreas de producto afectadas**         | Impuestos de EE.UU                                 |
-| **Estado**                         | Quitado a partir de Dynamics AX 7.0.               |
+| **Estado**                         | Eliminado a partir de Dynamics AX 7.0.               |
 
 ### <a name="sites-services"></a>Sites Service
 
@@ -1064,10 +1063,10 @@ Servicios de sitios le permite crear sitios web que amplía sus procesos empresa
 
 |   |  |
 |------------|--------------------|
-| **Motivo de la depreciación/eliminación** | La infraestructura de Microsoft Azure que se usa por Dynamics AX tiene nuevas capacidades que se pueden usar en su lugar (por ejemplo, sitios de Azure). |
+| **Motivo de la depreciación/eliminación** | La infraestructura de Microsoft Azure que usa Dynamics AX tiene nuevas capacidades que se pueden usar en su lugar (por ejemplo, sitios de Azure). |
 | **¿Reemplazado por otra característica?**   | N.º   |
 | **Áreas de producto afectadas**         | Reclutamiento de recursos humanos, gestión de casos, solicitudes de presupuesto, registro de proveedores, áreas de trabajo colaborativas para oportunidades y campañas  |
-| **Estado**                         | Quitado a partir de Dynamics AX 7.0.    |
+| **Estado**                         | Eliminado a partir de Dynamics AX 7.0.    |
 
 ### <a name="ssas-demand-forecasting-strategy"></a>Estrategia de previsión de la demanda de SSAS
 
@@ -1076,7 +1075,7 @@ Servicios de sitios le permite crear sitios web que amplía sus procesos empresa
 | **Motivo de la depreciación/eliminación** | El diseño de la característica no se admite en la nueva arquitectura de la nube. |
 | **¿Reemplazado por otra característica?**   | Estrategia de previsión de demanda de Aprendizaje automático de Azure                           |
 | **Áreas de producto afectadas**         | Planificación maestra                                                              |
-| **Estado**                         | Quitado a partir de Dynamics AX 7.0.                                               |
+| **Estado**                         | Eliminado a partir de Dynamics AX 7.0.                                               |
 
 ### <a name="vendor-invoice-pool-excluding-posting-details"></a>Ver detalles de grupo de facturas de proveedor excluidas del registro
 
@@ -1085,7 +1084,7 @@ Servicios de sitios le permite crear sitios web que amplía sus procesos empresa
 | **Motivo de la depreciación/eliminación** | Poco uso. Esta funcionalidad se ha reemplazado por el Diario de facturas que tiene la funcionalidad del flujo de trabajo. |
 | **¿Reemplazado por otra característica?**   | Capacidades del flujo de trabajo del Diario de facturas.     |
 | **Áreas de producto afectadas**         | Proveedores |
-| **Estado**                         | Quitado a partir de Dynamics AX 7.0.    |
+| **Estado**                         | Eliminado a partir de Dynamics AX 7.0.    |
 
 
 ### <a name="virtual-company-accounts"></a>Cuentas de empresa virtuales
@@ -1097,7 +1096,7 @@ La característica de empresas virtuales ya no se admite en Dynamics AX. La cara
 | **Motivo de la depreciación/eliminación** | - Las empresas virtuales deben configurarse antes de que los datos se almacenen en las tablas. La retroadaptación de las empresas virtuales en la implementación existente es muy difícil.<br><br>- Dado que se han normalizado tantos datos en la versión actual de Microsoft Dynamics AX, se ha hecho difícil saber qué agregar a las colecciones de tablas. Por ejemplo, es difícil saber qué tablas compartir. Todas las tablas a las que se hace referencia desde las tablas en una empresa virtual también se deben agregar. Debido a la normalización de la tabla, incluso los datos maestros sencillos que se extienden en múltiples tablas deben formar parte de la empresa virtual. Cualquier error que se realice producirá problemas funcionales.<br><br>- Cuando una tabla forma parte de una empresa virtual, pierde la información acerca del origen de los datos y solo se registra la empresa virtual.   |
 | **¿Reemplazado por otra característica?** | Se pueden usar tablas globales para que las tablas sean accesibles desde todas las empresas. Actualmente no hay ninguna sustitución. |   
 | **Áreas de producto afectadas**       | Todos los módulos |   
-| **Estado**                       | Quitado a partir de Dynamics AX 7.0.   |   
+| **Estado**                       | Eliminado a partir de Dynamics AX 7.0.   |   
 
 ### <a name="windows-8-tablet-app"></a>Aplicación para tabletas con Windows 8
 
@@ -1126,6 +1125,5 @@ La aplicación para tabletas con Windows 8 ofrecía funcionalidad para la entrad
 | <strong>Motivo de la depreciación/eliminación</strong> |                         Esta funcionalidad se ha reemplazado por otra característica.                         |
 |  <strong>¿Reemplazado por otra característica?</strong>  | Management Reporter (etiquetado <strong>Informes financieros</strong> en la versión actual de Dynamics AX) |
 |     <strong>Áreas de producto afectadas</strong>     |                                              Contabilidad general                                              |
-|             <strong>Estado</strong>             |                                      Quitado a partir de Dynamics AX 2012                                      |
-
+|             <strong>Estado</strong>             |                                      Eliminado a partir de Dynamics AX 2012                                      |
 

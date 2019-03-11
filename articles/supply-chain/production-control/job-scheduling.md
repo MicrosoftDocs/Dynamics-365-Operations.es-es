@@ -1,13 +1,13 @@
 ---
-title: "Programación de trabajos"
-description: "Este artículo proporciona información acerca de la programación de trabajos, que es un formulario más detallado de programación que la programación de operaciones. Puede utilizar una programación de trabajos para programar trabajos o pedidos de tienda y controlar el entorno de fabricación."
+title: Programación de trabajos
+description: Este artículo proporciona información acerca de la programación de trabajos, que es un formulario más detallado de programación que la programación de operaciones. Puede utilizar una programación de trabajos para programar trabajos o pedidos de tienda y controlar el entorno de fabricación.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdSchedule
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d506a6fbeb7e88dc6b1709203bc0822b1f4dc0f8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8162797256e221192dc3e1a12aa145e28d5bc0f5
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339542"
 ---
-
 # <a name="job-scheduling"></a>Programación de trabajos
 
 [!include [banner](../includes/banner.md)]
@@ -75,7 +74,6 @@ Los recursos se asignan a los trabajos con la programación de trabajos. Pueden 
 
 ## <a name="resource-efficiency"></a>Eficiencia de recursos
 La programación de trabajos considera los porcentajes de eficacia especificados para los recursos. Los porcentajes de eficiencia reducen o aumentan el tiempo reservado para el recurso. En consecuencia, el plazo también aumenta o se reduce. Para el cálculo se usa la fórmula siguiente: Tiempo de programación = Tiempo x 100 ÷ Porcentaje de eficiencia En esta fórmula, *Tiempo* incluye el tiempo de ejecución y el tiempo de configuración.
-
 
 
 

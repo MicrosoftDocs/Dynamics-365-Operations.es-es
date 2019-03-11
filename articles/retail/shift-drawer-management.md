@@ -1,13 +1,13 @@
 ---
-title: "Gestión de turnos y caja registradora"
-description: "Este tema explica cómo configurar y utilizar los turnos en el punto de venta (PDV) comercial."
+title: Gestión de turnos y caja registradora
+description: Este tema explica cómo configurar y utilizar los turnos en el punto de venta (PDV) comercial.
 author: jblucher
 manager: AnnBe
 ms.date: 05/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailHardwareProfile, RetailTerminalTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 7ad3c3fd17e88f364be12c122e2f5c155b7b9064
-ms.contentlocale: es-es
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313023"
 ---
-
 # <a name="shift-and-cash-drawer-management"></a>Gestión de turnos y caja registradora
 
 [!include [banner](includes/banner.md)]
@@ -70,7 +69,7 @@ Para turnos compartidos que se utilizarán en una tienda, la caja registradora d
 
 ## <a name="shift-and-drawer-operations"></a>Operaciones de turnos y caja registradora
 
-Se pueden realizar distintas operaciones para cambiar el estado de un turno, o para aumentar o reducir el importe de dinero en la caja registradora. Esta sección describe estas operaciones de turnos para Microsoft Dynamics 365 for Retail Modern POS y Cloud POS.
+Se pueden realizar distintas operaciones para cambiar el estado de un turno, o para aumentar o reducir el importe de dinero en la caja registradora. Esta sección describe estas operaciones de cambio para Microsoft Dynamics 365 for Retail Modern POS y Cloud POS.
 
 ### <a name="open-shift"></a>Turno abierto
 
@@ -159,4 +158,3 @@ Vaya a **Retail \> Canales \> Tiendas \> Todas las tiendas minoristas \> Extract
 Esta configuración ayuda a garantizar que los extractos de back-office incluyan las mismas transacciones que los turnos en el PDV, y que los datos se resumen en ese turno.
 
 Para obtener más información sobre los métodos de extracto y de cierre, consulte [Almacenar configuraciones para los extractos de Retail](https://docs.microsoft.com/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements).
-

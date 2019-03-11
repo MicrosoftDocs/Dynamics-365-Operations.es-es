@@ -1,13 +1,13 @@
---- 
-title: "Programación de trabajos kanban"
+---
+title: Programación de trabajos kanban
 description: Este procedimiento se centra en programar trabajos kanban de proceso para una celda de trabajo concreta.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanJobSchedulingListPage, KanbanPeriodCapacityPart, SysLookupMultiSelectGrid, KanbanBoardScheduleJobForward
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5170fecf0190591d74f45d35fecc4472e7f5e900
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f36544993a9280ae10489a19252bc105abd40ac9
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359552"
 ---
 # <a name="schedule-kanban-jobs"></a>Programación de trabajos kanban
 
@@ -61,5 +61,4 @@ Este procedimiento se centra en programar trabajos kanban de proceso para una ce
 6. Haga clic en Programar.
     * Observe que los dos trabajos se han agregado al período deseado.  
     * En la sección de la Capacidad de período puede ver la carga para cada período. El campo Consumo muestra el consumo programado en este período. Si el consumo programado es superior a la capacidad disponible en este período, se seleccionará el consumo sobrecargado.  
-
 

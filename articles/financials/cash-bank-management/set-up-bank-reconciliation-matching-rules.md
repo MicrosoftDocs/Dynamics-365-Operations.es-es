@@ -1,13 +1,13 @@
 ---
-title: "Configurar las reglas de coincidencia de conciliación bancaria"
-description: "Este tema explica cómo configurar reglas de coincidencia de conciliación y conjuntos de reglas de coincidencia de conciliación para ayudar con el proceso de conciliación bancaria. Las reglas de coincidencia de conciliación son un conjunto de criterios que se usan para filtrar líneas de extracto bancario y líneas de documento bancario durante el proceso de conciliación."
+title: Configurar las reglas de coincidencia de conciliación bancaria
+description: Este tema explica cómo configurar reglas de coincidencia de conciliación y conjuntos de reglas de coincidencia de conciliación para ayudar con el proceso de conciliación bancaria. Las reglas de coincidencia de conciliación son un conjunto de criterios que se usan para filtrar líneas de extracto bancario y líneas de documento bancario durante el proceso de conciliación.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankReconciliationMatchRule, BankReconciliationMatchRuleSet
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 32a416a79802a9f1d7a6e79705c3fd088124a141
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: b48accdc7aaaa65b4c620777546b20056038905b
-ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357229"
 ---
-
 # <a name="set-up-bank-reconciliation-matching-rules"></a>Configurar las reglas de coincidencia de conciliación bancaria
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,6 @@ En la página **Reglas de coincidencia de conciliación**, puede seleccionar las
 | **Hacer coincidir con documento bancario**       | Cree criterios para especificar cómo se concilian los documentos bancarios y las líneas del extracto bancario cuando la regla de coincidencia se ejecuta desde la página **Hoja de cálculo de conciliación bancaria**. Las líneas de transacción se seleccionan según los criterios adicionales configurados en las fichas desplegables.                                | **Paso 1: Defina la regla de conciliación**: seleccione criterios para especificar qué extractos bancarios se deben conciliar con las transacciones bancarias de Finance and Operations. **Paso 2 (opcional). Seleccione las líneas de extracto para las que se ejecutarán reglas de conciliación:** Aplicar un filtro con el que se ejecutará la línea de extracto.                                                                                                                                                                                                                                                                                                               |
 | **Borrar líneas de extracto de inversión** | Cree criterios para especificar cómo las líneas de extracto de inversión se deben quitar de la página **Hoja de cálculo de conciliación bancaria** cuando se ejecute la regla de coincidencia. Esta opción se usa cuando un error del banco hace que se muestren dos líneas de extracto bancario en el extracto bancario importado y las líneas se deben conciliar. | **Paso 1**:**Busque líneas de extracto de inversión.** Agregue los criterios de selección para seleccionar líneas seleccionar líneas de extracto bancario de inversión. Por ejemplo, para seleccionar solo los cheques, seleccione **Código de transacción bancaria** en el campo Campo, seleccione el signo más (+) en el campo **Operador** y especifique **Cheques** en el campo Valor. **Paso 2: Busque líneas de extracto originales**. Puede agregar criterios de selección para hacer coincidir líneas de documento bancario con las líneas del extracto bancario. **Paso 3: Busque transacciones bancarias de Finance and Operations**: puede agregar criterios de selección para hacer coincidir transacciones bancarias de Finance and Operations con la líneas del extracto bancario. |
 | **Marcar transacciones nuevas**          | Cree criterios para especificar cómo se deben marcar las nuevas transacciones en la página **Hoja de cálculo de conciliación bancaria** cuando se ejecute la regla de coincidencia.                                                                                                                                                                 | **Paso 1: Busque líneas de extracto.** Agregue campos de selección para especificar qué líneas de extracto bancario se deben seleccionar en la página **Hoja de cálculo de conciliación bancaria**. **Paso 2: Busque en Finance and Operations**: puede agregar criterios de selección para buscar líneas de documentos bancarios. Si no se encuentra ningún documento bancario, una línea de extracto se marcará como nueva transacción.                                                                                                                                                                                                                                             |
-
 
 
 

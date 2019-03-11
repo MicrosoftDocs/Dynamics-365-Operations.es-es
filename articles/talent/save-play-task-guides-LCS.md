@@ -1,37 +1,36 @@
 ---
-title: "Guardar las guías de tarea al LCS y reproducirlas"
-description: "Este tema explica cómo guardar las guías de la tarea en Microsoft Dynamics Lifecycle Services (LCS) y volver a reproducirlas."
+title: Guarda las guías de tareas en LCS y reproducirlas
+description: Este tema explica cómo guardar las guías de la tarea en Microsoft Dynamics Lifecycle Services (LCS) y volver a reproducirlas.
 author: Darinkramer
 manager: AnnBe
 ms.date: 11/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: d3f974f94b6c327fd70b8098d24f9e1f1e1e8eeb
 ms.openlocfilehash: 40b4c3154a04a557b8a670e1f1ae3722c71122fe
-ms.contentlocale: es-es
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306124"
 ---
-
-# <a name="save-task-guides-to-lcs-and-replay-them"></a>Guardar las guías de tarea al LCS y reproducirlas
+# <a name="save-task-guides-to-lcs-and-replay-them"></a>Guarda las guías de tareas en LCS y reproducirlas
 
 [!include [banner](includes/banner.md)]
 
 **Detalles del entorno** 
 
-Microsoft Dynamics 365 for Talent, que se ha implementado mediante los Microsoft Dynamics Lifecycle Services (LCS)
+Microsoft Dynamics 365 for Talent, que se ha implementado mediante Microsoft Dynamics Lifecycle Services (LCS)
 
 **Emisión**
 
@@ -66,4 +65,3 @@ Siga estos pasos para volver a consultar una guía de tareas desde LCS.
 2. Seleccione **Abrir desde LCS**.
 3. Seleccione la biblioteca y el nodo de BPM que tienen la guía de tareas guardada.
 4. Abra la guía de tareas.
-

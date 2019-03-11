@@ -1,28 +1,27 @@
 ---
-title: "Configurar la integración de nóminas entre Talent y Dayforce"
-description: "Este tema explica cómo configurar la integración entre Microsoft Dynamics 365 for Talent y Ceridian Dayforce de modo que pueda procesar un período de pago."
+title: Configurar la integración de nóminas entre Talent y Dayforce
+description: Este tema explica cómo configurar la integración entre Microsoft Dynamics 365 for Talent y Ceridian Dayforce de modo que pueda procesar un período de pago.
 author: jcart1106
 manager: AnnBe
 ms.date: 07/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations, Talent
 ms.search.region: Global
 ms.author: jcart
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.search.validFrom: ''
+ms.dyn365.ops.version: ''
 ms.openlocfilehash: fcddf82cffb9f0ba94b83eb21809b810585ebc9e
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "306079"
 ---
-
 # <a name="configure-the-payroll-integration-between-talent-and-dayforce"></a>Configurar la integración de nóminas entre Talent y Dayforce
 
 [!include [banner](includes/banner.md)]
@@ -662,4 +661,3 @@ Los empleados pueden declarar la información del pasaporte. Esta información e
 - Fecha de vencimiento
 
 Los empleados pueden declarar números de identificación múltiples del tipo de identificación del **Pasaporte**. Sin embargo, solo la entrada de pasaporte activa actual se integra en Dayforce. Si todas las entradas de pasaporte han caducado, el pasaporte que se emitió más recientemente se integra en Dayforce.
-

@@ -1,13 +1,13 @@
---- 
+---
 title: Generar un documento de transferencia para una transferencia de inventario interna
-description: "Este procedimiento muestra cómo crear documentos de transferencia para movimiento de mercancías dentro de una empresa."
+description: Este procedimiento muestra cómo crear documentos de transferencia para movimiento de mercancías dentro de una empresa.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventTransferOrders, InventLocationIdLookup, TransportationDocument, HcmWorkerLookUp, SrsReportViewerForm, InventTransferParmShip
 audience: Application User
 ms.reviewer: shylaw
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 4b9ef0026129d958b4214bb6e235c288de023d10
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 30e5f6ad184720d0e119f86fb703ed7211b27fab
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321372"
 ---
 # <a name="generate-a-transfer-document-for-an-internal-inventory-transfer"></a>Generar un documento de transferencia para una transferencia de inventario interna
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimiento muestra cómo crear documentos de transferencia para movimiento de mercancías dentro de una empresa. Este procedimiento sólo está disponible para entidades jurídicas con dirección principal en Lituania. Este procedimiento se ha creado con los datos de demostración de la empresa DEMF, con una dirección principal en Lituania. Antes de completar este procedimiento, deberá completar el procedimiento de “Configuración de los documentos de transferencia de mercancías dentro de una empresa”. Este procedimiento está dirigido a contables de inventario. Este procedimiento es para una función que se ha añadido en la versión 1611 de Dynamics 365 for Operations.
+Este procedimiento muestra cómo crear documentos de transferencia para movimiento de mercancías dentro de una empresa. Este procedimiento sólo está disponible para entidades jurídicas con dirección principal en Lituania. Este procedimiento se ha creado con los datos de demostración de la empresa DEMF, con una dirección principal en Lituania. Antes de completar este procedimiento, deberá completar el procedimiento de “Configuración de los documentos de transferencia de mercancías dentro de una empresa”. Este procedimiento está dirigido a contables de inventario. Este procedimiento es para una función que se ha agregado en la versión 1611 de Dynamics 365 for Operations.
 
 
 ## <a name="create-a-transfer-order"></a>Creación de un pedido de transferencia
@@ -73,5 +73,4 @@ Este procedimiento muestra cómo crear documentos de transferencia para movimien
 9. En el panel de acciones, haga clic en Enviar.
 10. Haga clic en Albarán.
 11. Haga clic en Aceptar
-
 

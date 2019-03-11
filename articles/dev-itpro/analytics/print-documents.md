@@ -1,13 +1,13 @@
 ---
-title: "Impresión de documentos"
-description: "En Microsoft Dynamics 365 for Finance and Operations, puede imprimir documentos mediante una impresora local o un dispositivo conectado a la red. Este artículo proporciona una visión general de cómo se imprimen los documentos."
+title: Impresión de documentos
+description: En Microsoft Dynamics 365 for Finance and Operations, puede imprimir documentos mediante una impresora local o un dispositivo conectado a la red. Este artículo proporciona una visión general de cómo se imprimen los documentos.
 author: TJVass
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: IT Pro, Application User
 ms.reviewer: sericks
 ms.search.scope: Operations, Core
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 4fd20022ff91fedb6d0323e82fbe3c1acae38e48
-ms.contentlocale: es-es
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362059"
 ---
-
 # <a name="document-printing"></a>Impresión de documentos
 
 [!include [banner](../includes/banner.md)]
@@ -33,7 +32,7 @@ En Microsoft Dynamics 365 for Finance and Operations, puede imprimir documentos 
 
 ## <a name="printing-overview"></a>Visión general de la impresión
 
-Microsoft Dynamics 365 for Finance and Operations proporciona los servicios integrados y las aplicaciones cliente que facilitan la generaración, el almacenamiento y la distribución de documentos que respaldan la actividad empresarial. En Finance and Operations, puede imprimir documentos mediante una impresora local o un dispositivo conectado a la red. Además, puede exportar páginas e informes de Finance and Operations directamente desde el cliente, como archivos PDF o documentos de Microsoft Office. Finalmente, la carga de trabajo distribuida le permite imprimir documentos empresariales directamente desde un dispositivo móvil mediante el uso de recursos de red. Aunque los requisitos de impresión pueden variar, normalmente todas las industrias deben crear copias impresas de documentos empresariales mediante Finance and Operations. La impresión de documentos en dispositivos de red desde aplicaciones hospedadas presenta un conjunto exclusivo de retos. A continuación se incluyen algunos ejemplos:
+Microsoft Dynamics 365 for Finance and Operations proporciona los servicios integrados y las aplicaciones cliente que facilitan la generación, el almacenamiento y la distribución de documentos que respaldan la actividad empresarial. En Finance and Operations, puede imprimir documentos mediante una impresora local o un dispositivo conectado a la red. Además, puede exportar páginas e informes de Finance and Operations directamente desde el cliente, como archivos PDF o documentos de Microsoft Office. Finalmente, la carga de trabajo distribuida le permite imprimir documentos empresariales directamente desde un dispositivo móvil mediante el uso de recursos de red. Aunque los requisitos de impresión pueden variar, normalmente todas las industrias deben crear copias impresas de documentos empresariales mediante Finance and Operations. La impresión de documentos en dispositivos de red desde aplicaciones hospedadas presenta un conjunto exclusivo de retos. A continuación se incluyen algunos ejemplos:
 
 - Puede que los controladores de impresión no estén disponibles en el dispositivo del usuario.
 - Puede que el dispositivo del usuario no esté conectado a la red corporativa.
@@ -76,4 +75,3 @@ En el siguiente diagrama se muestran los componentes básicos que ayudan con las
 [![componentes de servicio para la impresión de red\_2016](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)
 
 Tenga en cuenta que una sola impresora se puede registrar con varios agentes de ruta de documento. Para resolver las preferencias de la impresora, el servicio hospedado utiliza la ruta de red que identifica de manera única a cada impresora de red. Como resultado, incluso cuando una impresora es registrada por varios clientes, aparece como única selección en la lista de impresoras disponibles en las aplicaciones de Finance and Operations.
-

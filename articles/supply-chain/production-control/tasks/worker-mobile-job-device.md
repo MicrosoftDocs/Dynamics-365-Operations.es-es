@@ -1,13 +1,13 @@
---- 
-title: "Configurar un trabajador mediante el dispositivo móvil de trabajo"
-description: "Este procedimiento le muestra cómo asignar los roles correctos a la cuenta de usuario de un trabajador y, a continuación, habilitar al trabajador para que realice registros de planta."
+---
+title: Configurar un trabajador mediante el dispositivo móvil de trabajo
+description: Este procedimiento le muestra cómo asignar los roles correctos a la cuenta de usuario de un trabajador y, a continuación, habilitar al trabajador para que realice registros de planta.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysUserManagement, HcmWorker, JmgRegistrationSetupTouch, JmgRegistrationSetupAssignUsers
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 1bb4d806810660e55ef13a9ff21c07e0ce194496
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: dadf0e87eac8522f61bb094c146e37f46a21fc09
-ms.openlocfilehash: f9de2f79c68fead5ede714ff05bba97118874aad
-ms.contentlocale: es-es
-ms.lasthandoff: 02/06/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327398"
 ---
 # <a name="configure-a-worker-using-the-mobile-job-device"></a>Configurar un trabajador mediante el dispositivo móvil de trabajo
 
@@ -69,5 +69,4 @@ Este procedimiento le muestra cómo asignar los roles correctos a la cuenta de u
 5. Haga clic en Editar.
 6. En el campo Unidad de producción, puede establecer el filtro predeterminado para el trabajador. Esto asegurará que solo se muestran los trabajos de producción para la unidad de producción seleccionada cuando el trabajador inicia sesión en el dispositivo.
 7. Cierre la página.
-
 

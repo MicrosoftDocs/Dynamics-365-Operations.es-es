@@ -1,13 +1,13 @@
---- 
+---
 title: Crear pedidos de ventas
-description: "Este procedimiento muestra cómo crear un pedido de ventas."
+description: Este procedimiento muestra cómo crear un pedido de ventas.
 author: omulvad
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, InventDimParmFixed, InventProductDimensionLookup, SalesTotals
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 8af0333d979ba3a4e12d4f22b1225f3b72d66a7a
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 4ccd2c4ace41f07dce14498031e3cc29ecb61b1c
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "352123"
 ---
 # <a name="create-sales-orders"></a>Crear pedidos de ventas
 
@@ -68,5 +68,4 @@ Este procedimiento muestra cómo crear un pedido de ventas. Puede utilizar el pr
 2. Haga clic en Totales.
     * La página Totales muestra los detalles sobre todo el pedido. Esto incluye el importe del subtotal, que es una suma de todos los importes netos de línea ajustados según los eventuales descuentos de línea, el importe bruto de factura, que es un importe subtotal ajustado en función de eventuales descuentos, gastos e impuestos del nivel de pedido, la situación de límite de crédito del cliente, etc.  El importe de la factura es el importe que aparecerá en el documento de factura del cliente.  
 3. Haga clic en Aceptar
-
 

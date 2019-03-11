@@ -1,13 +1,13 @@
 ---
-title: "Incorporación de proveedores"
-description: "En este tema se describe el proceso para incorporación de nuevos proveedores. Explica las acciones que requieren para varios roles durante este proceso."
+title: Incorporación de proveedores
+description: En este tema se describe el proceso para incorporación de nuevos proveedores. Explica las acciones que requieren para varios roles durante este proceso.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests,SysUserRequestListPage
 audience: Application User
 ms.reviewer: josaw
@@ -15,15 +15,14 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 5fda191a41300eea7f3036af54852857d8ff653d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: f831d986d7b534bf030bee0fa0c5dcb97af03289
-ms.contentlocale: es-es
-ms.lasthandoff: 05/23/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322154"
 ---
-
 # <a name="onboard-vendors"></a>Incorporación de proveedores
 [!include [banner](../includes/banner.md)]
 
@@ -35,7 +34,7 @@ El proceso consta de los siguientes pasos, donde los distintos roles realizan ac
 
 1. **Administración de datos OData**: Importación de la entidad - la solicitud inicial es la solicitud de registro del proveedor potencial. Normalmente, esta solicitud procede de un origen como una página Web cliente hospedado que permite acceso anónimo. Los proveedores pueden realizar la inscripción al proporcionar información básica, como el nombre del proveedor, la justificación, el número de organización y el nombre y la dirección de correo electrónico de la persona de contacto. Las solicitudes se importan mediante la interfaz de gestión de datos.
 2. **Página de lista de la solicitud de registro del proveedor potencial** - Según la información que se ofrece en la solicitud de registro del proveedor potencial, el profesional de compras va a decidir si el proveedor debe incorporarse. El profesional de compras ve la petición entrante en la página de lista **Solicitudes de registro del proveedor potencial** en Finance and Operations.
-3. **Flujo de trabajo de abastecimiento de usuario** - Cuando un profesional de compras ha comprobado la información en la solicitud entrante y ha decidido continuar con el proceso incorporación, el flujo de trabajo de la solicitud de usuario aprovisiona al nuevo usuario y envia un mensaje de correo electrónico de invitación para aceptar a la persona de contacto como usuario autenticado de Microsoft Dynamics 365.
+3. **Flujo de trabajo de abastecimiento de usuario** - Cuando un profesional de compras ha comprobado la información en la solicitud entrante y ha decidido continuar con el proceso de incorporación, el flujo de trabajo de la solicitud de usuario aprovisiona al nuevo usuario y envía un mensaje de correo electrónico de invitación para aceptar a la persona de contacto como usuario autenticado de Microsoft Dynamics 365.
 4. **Asistente de registro de proveedor** - la persona de contacto del proveedor inicia sesión en Finance and Operations mediante la nueva cuenta de usuario. Completa un asistente de registro de proveedor para proporcionar información como direcciones, información empresarial, categorías de compras y respuestas del cuestionario.
 5. **Flujo de trabajo de aprobación** - Se crea la solicitud de proveedor que incluye la información de registro. Esta solicitud de proveedor se envía a un flujo de trabajo y se enruta para su revisión y aprobación.
 6. **Creación de un maestro de proveedores y modificación del rol de usuario** - Cuando se aprueba la solicitud de proveedor, se crea un registro de proveedor. A la cuenta de usuario de la persona de contacto del proveedor se le concede permiso para la colaboración del proveedor o se desactiva.
@@ -46,10 +45,10 @@ En la tabla siguiente muestran los pasos y los roles que están involucrados en 
 |--------------------------|---|---|---|---|---|---|
 | System                   | Se importa la solicitud de un nuevo proveedor. | | | | | Tras aceptar la solicitud de proveedor, se crea el registro de proveedor. |
 | Profesional de compras | | Iniciar el proceso de incorporación. | | | Revisar y aceptar o rechazar la solicitud de proveedor. | |
-| Administrador            | | | Crear una cuenta de usuario en Finance and Operations y Microsoft Azure. | | | |
+| Administrador            | | | Crear una cuenta de usuario en Finance and Operations y en Microsoft Azure. | | | |
 | Persona de contacto del proveedor    | | | Enviar correo electrónico a la persona de contacto. | Registrar la información del proveedor. | | |
 
-Para ver una demostración rápida del proceso de integración del proveedor, vea este vídeo corto de YouTube: [Integrar a un nuevo proveedor en Dynamics 365 for Finance and Operations] (https://www.youtube.com/watch?v=0KUc3AGaTKk}.
+Para obtener una demostración rápida del proceso de incorporación de proveedores, vea este breve vídeo de YouTube: [Integrar a un nuevo proveedor en Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=0KUc3AGaTKk}).
 
 ## <a name="importing-the-prospective-vendor-registration-request"></a>Importar la solicitud de registro del proveedor potencial
 
@@ -66,7 +65,7 @@ En la tabla siguiente se muestra la información que contiene esta entidad y que
 | Nombre de la persona de contacto  | El nombre de la persona que será invitada para registrar la información de proveedor. |
 | Segundo nombre de la persona contacto | El segundo nombre de la persona que será invitada para registrar la información de proveedor. |
 | Apellido de la persona de contacto   | El apellido de la persona que será invitada para registrar la información de proveedor. |
-| Dirección de correo electrónico de la persona de contacto       | La dirección de correo electrónico que se usará para crear un nuevo usuario en Finance and Operations y que se registrará en la cuenta de unquilino de Azure Active Directory (Azure AD). |
+| Dirección de correo electrónico de la persona de contacto       | La dirección de correo electrónico que se usará para crear un nuevo usuario en Finance and Operations y que se registrará en la cuenta de un inquilino de Azure Active Directory (Azure AD). |
 | Fecha de envío               | La fecha en la que se creó la solicitud en un sistema externo. |
 | Entidad jurídica                 | La entidad jurídica en la que el proveedor solicita hacerse proveedor. Este valor debe ser un código de entidad jurídica que se haya registrado en Finance and Operations. Si no se ha recibido ningún valor en el proceso de importación, se aplica un valor de los parámetros de la adquisición y abastecimiento. |
 | Tipo de proveedor                  | El proveedor puede ser una organización o una persona. El tipo de proveedor determina cómo se crea el proveedor finalmente. |
@@ -174,5 +173,4 @@ Mediante la acción **Eliminar** en la solicitud de registro del proveedor poten
 |  Solicitud de proveedor creada  |                                                                     El asistente de registro del proveedor se ha completado.                                                                      | Se crea una solicitud para desactivar el usuario y se eliminan la solicitud de registro del proveedor potencial, los datos que se especificaron en el asistente de registro del proveedor y la solicitud del proveedor.<blockquote>[!NOTE]<br>No puede usar la acción <strong>Eliminar</strong> cuando la solicitud del proveedor se encuentra en un proceso de revisión del flujo de trabajo.</blockquote> |
 |         Aprobada         |                                                                               La solicitud del proveedor ha sido aprobada.                                                                               |                                                                                                   Se eliminan la solicitud de registro del proveedor potencial, los datos que se especificaron en el asistente de registro del proveedor y la solicitud del proveedor.                                                                                                    |
 |         Rechazado         |                                                                               La solicitud del proveedor ha sido rechazada.                                                                               |                                                                                                   Se eliminan la solicitud de registro del proveedor potencial, los datos que se especificaron en el asistente de registro del proveedor y la solicitud del proveedor.                                                                                                    |
-
 

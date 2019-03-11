@@ -1,13 +1,13 @@
 ---
-title: "Contenido en Power BI de Administración de créditos y cobros"
-description: "Este tema describe lo que se incluye en el contenido en Power BI de Administración de créditos y cobros Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido."
+title: Contenido de administración de créditos y cobros de Power BI
+description: Este tema describe lo que se incluye en el contenido en Power BI de Administración de créditos y cobros. Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,19 +16,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: a80a180623d1cca77c633f12bcd92a088e089ee5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 6ce0b7b35264c05555d8b3a18e70484202a289d6
-ms.openlocfilehash: 3832cabb11d67eda7afd7f3d5322c005b36dc1f5
-ms.contentlocale: es-es
-ms.lasthandoff: 03/07/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325190"
 ---
-
-# <a name="credit-and-collections-management-power-bi-content"></a>Contenido en Power BI de Administración de créditos y cobros
+# <a name="credit-and-collections-management-power-bi-content"></a>Contenido de administración de créditos y cobros de Power BI
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe lo que se incluye en el contenido en Microsoft Power BI de **Administración de créditos y cobros**. Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
+Este tema describe lo que se incluye en el contenido **Administración de créditos y cobros** de Microsoft Power BI. Explica cómo obtener acceso a los informes Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
 
 ## <a name="overview"></a>Información general
 
@@ -88,5 +87,4 @@ Los datos siguientes se usan para rellenar las páginas de informes en el conten
 |        CustCollectionsBIInterestNote        |             InterestNote             |           CustInterestJour           |                    Count(InterestNote)                     |                El número de notas de interés que se crearon.                |
 |        CustCollectionsBISalesOnHold         |               SalesId                |              SalesTable              |                       Count(SalesId)                       |                 El número pedidos de venta totales que están en espera.                 |
 |          CustCollectionsBIWriteOff          |            WriteOffAmount            |    CustCollectionsBIWriteOffView     |                 Sum(SystemCurrencyAmount)                  |                La suma de transacciones que se han cancelado.                 |
-
 

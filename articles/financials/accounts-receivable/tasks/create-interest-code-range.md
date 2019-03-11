@@ -1,13 +1,13 @@
---- 
-title: "Crear un código de interés con un intervalo"
-description: "Los códigos de interés se pueden configurar para calcular diferentes importes de interés basados en un intervalo de valores."
+---
+title: Crear un código de interés con un intervalo
+description: Los códigos de interés se pueden configurar para calcular diferentes importes de interés basados en un intervalo de valores.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: Interest, CustInterestRange
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 2d76ae320ee43a473b64afe311876cc94b953b20
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 05ca41dd5d660e9f0ef72ee5bd49d800645081a5
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367648"
 ---
 # <a name="create-an-interest-code-with-a-range"></a>Crear un código de interés con un intervalo
 
@@ -51,5 +51,4 @@ Los códigos de interés se pueden configurar para calcular diferentes importes 
 20. Especifique el siguiente Valor inicial como 7, que es el siguiente mes en que calculará un nuevo importe de interés.
 21. Especifique el porcentaje de interés al mes que se usará para calcular el interés que empieza el mes 7. Para este ejemplo, es 2.5.
 22. Haga clic en Cerrar para completar la configuración.
-
 

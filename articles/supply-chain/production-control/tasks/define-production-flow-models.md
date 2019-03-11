@@ -1,13 +1,13 @@
---- 
-title: "Definir modelos de flujo de producción"
-description: "Los modelos de flujo de producción describen cómo se calcula y mantienen la capacidad de celdas de trabajo de lean manufacturing."
+---
+title: Definir modelos de flujo de producción
+description: Los modelos de flujo de producción describen cómo se calcula y mantienen la capacidad de celdas de trabajo de lean manufacturing.
 author: cvocph
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanProductionFlowModel
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: e410928bc850e1f3427c9536e9943d1196be7a05
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7850a121ca06f25f6c532e49e18c0b6811bd7455
-ms.contentlocale: es-es
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336736"
 ---
 # <a name="define-production-flow-models"></a>Definir modelos de flujo de producción
 
@@ -45,5 +45,4 @@ Los modelos de flujo de producción describen cómo se calcula y mantienen la ca
     * El límite de tiempo de planificación describe el número de días en el que las reservas de capacidades se pueden realizar para las celdas de trabajo relacionadas. En el Límite de tiempo de planificación, escriba el número de días.   Los trabajos de proceso kanban que se encuentran fuera de este período no se planifican con la planificación automática. El límite de tiempo de planificación suele ser normalmente el doble del plazo medio de inventario de los productos producidos en un flujo de producción o una celda de trabajo. El ciclo de EPE no debe ser superior a la mitad del límite de tiempo de planificación.     
 8. En el campo Reacción por escasez de capacidad, seleccione una opción.
     * Se incluyen las siguientes opciones: Posponer: posponer la demanda completa del evento de programación al día siguiente de producción disponible, con capacidad de proceso disponible. Cancelar: complete la planificación automática para el evento de programación y deje los trabajos relacionados no planificados.   Agregar al día solicitado: planifique los trabajos solicitados para el período pedido. Esto sobrecarga a la celda para este día y requiere que el planificador lo revise e interactúe manualmente.   Distribuya a períodos disponibles - distribuya los diferentes trabajos del evento a todos los días disponibles de la producción, empezando por primer día disponible. La cantidad de distribución mínima es la cantidad de trabajo kanban. La distribución asigna la cantidad de planificación mínima (cantidad kanban) a cada día con suficiente capacidad de proceso disponible.  
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Gestionar actualizaciones de coste estándar"
-description: "Las actualizaciones los datos de coste estándar se pueden gestionar con dos métodos diferentes: el método de una versión o el de dos versiones."
+title: Gestionar actualizaciones de coste estándar
+description: 'Las actualizaciones los datos de coste estándar se pueden gestionar con dos métodos diferentes: el método de una versión o el de dos versiones.'
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostingVersion
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8e72d4e90ac83787ed7c58d91c2102696acfac68
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b64d9e53736fd3b81ee997ed28ccfa62ed7e9ce6
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367556"
 ---
-
 # <a name="manage-standard-cost-updates"></a>Gestionar actualizaciones de coste estándar
 
 [!include [banner](../includes/banner.md)]
@@ -45,7 +44,6 @@ En el ejemplo siguiente se muestra cómo se pueden usar los métodos de una vers
 -   **Método de dos versiones de actualización de datos de costes**: el método de dos versiones requiere una versión de gestión de costes adicional que contenga sólo las actualizaciones de costes. El identificador de esta versión es 2016-STD-CHANGES. Las actualizaciones de coste se registran en 2016-STD-CHANGES y su estado se define como “Pendiente”. Con el enfoque de dos versiones, los cálculos de L. MAT de costes pendientes para artículos fabricados requieren un origen de datos de reserva. Esto se debe a que la versión de gestión de costes adicional 2016-STD-CHANGES sólo contiene un subconjunto de datos de coste. La reserva se puede expresar como los costes activos o la versión de gestión de costes 2016-STD, ya que ambos identifican el origen de los datos de coste si no se incluye en 2016-STD-CHANGES. Después de activar los costes pendientes, la versión de gestión de costes 2016-STD-CHANGES contendrá los costes actuales activos que reflejan las actualizaciones, mientras que la versión de gestión de costes original 2016-STD no se verá afectada. Si usa el método de dos versiones, es necesario configurar directivas de bloqueos para la versión de gestión de costes original a fin de impedir actualizaciones. También se deben configurar directivas de bloqueos idénticas para la versión de gestión de costes adicional, con la excepción de la fecha de inicio especificada y el uso selectivo de directivas de bloqueos para permitir actualizaciones. La fecha de inicio especificada debería actualizarse con cada lote de cambios para reflejar la fecha de activación programada.
 
 En este ejemplo se usa una versión de gestión de costes adicional para administrar las actualizaciones del año 2016. Es posible usar más de una versión de gestión de costes adicional como, por ejemplo, una versión independiente para cada lote de actualizaciones. Cuando se usa más de una gestión de costes adicional, la reserva se debe expresar como costes activos, ya que los costes activos abarcan varias versiones de gestión de costes.
-
 
 
 

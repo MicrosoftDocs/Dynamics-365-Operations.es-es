@@ -1,13 +1,13 @@
 ---
-title: "Plantillas de planificación presupuestaria para Excel"
-description: "Este tema describe cómo crear plantillas de Microsoft Excel que se puedan utilizar con planes presupuestarios."
+title: Plantillas de planificación presupuestaria para Excel
+description: Este tema describe cómo crear plantillas de Microsoft Excel que se puedan utilizar con planes presupuestarios.
 author: ryansandness
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanSetLayout
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 079aa6bb4be020fc050b81c400050ed23d48f6ca
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 156688b705337331e083ebc19fded57b028acb67
-ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337058"
 ---
-
 # <a name="budget-planning-templates-for-excel"></a>Plantillas de planificación presupuestaria para Excel
 
 [!include [banner](../includes/banner.md)]
@@ -136,7 +135,6 @@ Sí, la mayoría de las capacidades estándar de Excel funcionarán en las plant
 También puede crear y usar las tablas dinámicas y gráficos para agrupaciones adicionales y visualizaciones de los datos presupuestarios. En la ficha **Datos**, en el grupo **Conexiones**, haga clic en **Actualizar todo** y, a continuación, en **Propiedades de conexión**. Haga clic en la pestaña **Uso**. En **Actualización**, seleccione la casilla **Actualizar datos al abrir el archivo**. 
 
 [![bpt17](./media/bpt17-1024x614.png)](./media/bpt17.png)
-
 
 
 

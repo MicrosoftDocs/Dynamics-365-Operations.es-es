@@ -1,13 +1,13 @@
---- 
-title: "Búsqueda de precios y descuentos aplicables"
-description: "Este procedimiento muestra cómo encontrar el precio y/o el descuento para un producto actualmente válido para un cliente concreto, sin crear un pedido de ventas."
+---
+title: Búsqueda de precios y descuentos aplicables
+description: Este procedimiento muestra cómo encontrar el precio y/o el descuento para un producto actualmente válido para un cliente concreto, sin crear un pedido de ventas.
 author: omulvad
 manager: AnnBe
 ms.date: 11/10/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ba95e651898da0e0fbd1221f61436ffac59db09e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 809a1466b0f4674f503bc654175d8f94b37a6508
-ms.openlocfilehash: 7ef63151f352b3664bccd7a59e7417dfddc7470b
-ms.contentlocale: es-es
-ms.lasthandoff: 11/02/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359874"
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>Búsqueda de precios y descuentos aplicables
 
@@ -59,5 +59,4 @@ Este procedimiento muestra cómo encontrar el precio y/o el descuento para un pr
 3. Haga clic en Ver descuento de línea.
     * Existen dos acuerdos de descuento de línea para el producto T0012: un 5 por ciento de descuento para pedidos de 1 a 10 y un 7 por ciento de descuento para pedidos de más de 10. Observe cómo se aplican los descuentos a un grupo de productos, en este ejemplo, el código de grupo 01, al cual pertenece el producto T0012.  
 4. Cierre la página.
-
 

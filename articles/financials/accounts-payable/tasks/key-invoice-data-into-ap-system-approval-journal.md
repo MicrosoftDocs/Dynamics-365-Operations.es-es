@@ -1,13 +1,13 @@
---- 
-title: "Datos clave de facturas en el sistema de proveedores mediante el diario de aprobación"
-description: "Esta guía de la tarea le mostrará cómo usar el registro de facturas para crear facturas y, después, utilizar el diario de aprobación para actualizar las cuentas de gastos."
+---
+title: Datos clave de facturas en el sistema de proveedores mediante el diario de aprobación
+description: Esta guía de la tarea le mostrará cómo usar el registro de facturas para crear facturas y, después, utilizar el diario de aprobación para actualizar las cuentas de gastos.
 author: abruer
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransInvoiceRegister, HcmWorkerLookUp, LedgerJournalTransApprove, LedgerJournalTransApproveFetchVouchers, LedgerTransVoucher
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 048eda77064b6aa3f666e998a8e551d2f7adc385
-ms.contentlocale: es-es
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363531"
 ---
 # <a name="key-invoice-data-into-ap-system-using-approval-journal"></a>Datos clave de facturas en el sistema de proveedores mediante el diario de aprobación
 
@@ -62,5 +62,4 @@ Esta guía de la tarea le mostrará cómo usar el registro de facturas para crea
 12. Haga clic en Registrar.
 13. Haga clic en el asiento para ver las entradas que se han registrado.
     * La cuenta de factura pendiente de aprobación se anula y se reemplaza con la cuenta de gastos real.  
-
 

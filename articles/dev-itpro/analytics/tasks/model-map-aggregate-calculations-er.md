@@ -1,13 +1,13 @@
---- 
-title: "Usar las configuraciones de asignación de modelo para cálculos agregados en el nivel de la base de datos"
-description: "Este procedimiento proporciona información acerca de cómo diseñar una nueva configuración de asignación de modelo de informes electrónicos (ER) y utilizar las funciones de ER integradas para realizar cálculos agregados eficientes."
+---
+title: Usar las configuraciones de asignación de modelo para cálculos agregados en el nivel de la base de datos
+description: Este procedimiento proporciona información acerca de cómo diseñar una nueva configuración de asignación de modelo de informes electrónicos (ER) y utilizar las funciones de ER integradas para realizar cálculos agregados eficientes.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: a462a3997644a494b5cea89c9530ddba67c32450
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313644"
 ---
 # <a name="use-model-mapping-configurations-for-aggregate-calculations-at-the-database-level"></a>Usar las configuraciones de asignación de modelo para cálculos agregados en el nivel de la base de datos
 
@@ -116,5 +116,4 @@ Este procedimiento se ha creado para los usuarios con los roles Administrador de
 67. En el árbol, expanda 'Commodity record(Intrastat)'.
 68. Haga clic en Guardar.
     * Tenga en cuenta que el campo "Ejecución en" indica que esta agrupación se llevará a cabo en la memoria del tiempo de ejecución aunque no haya agregaciones definidas y el origen de datos seleccionado del tipo "Registros de tabla” haga referencia a la misma tabla de "Intrastat". Esto se debe a que el origen de datos contiene algunos campos calculados que no se pueden traducir aún al nivel de la base de datos SQL.  
-
 

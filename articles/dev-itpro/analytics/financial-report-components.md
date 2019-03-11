@@ -1,13 +1,13 @@
 ---
 title: Componentes de los informes financieros
-description: "En este artículo se describe cómo se utilizan los componentes o bloques de creación, de las definiciones de informe en los informes financieros. Estos bloques de creación incluyen definiciones de filas, definiciones de columnas y definiciones de organigramas. El artículo explica cómo organizar y bloquear bloques de creación y cómo trabajar con grupos de bloques de creación."
+description: En este artículo se describe cómo se utilizan los componentes o bloques de creación, de las definiciones de informe en los informes financieros. Estos bloques de creación incluyen definiciones de filas, definiciones de columnas y definiciones de organigramas. El artículo explica cómo organizar y bloquear bloques de creación y cómo trabajar con grupos de bloques de creación.
 author: aprilolson
 manager: AnnBe
 ms.date: 10/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 0829c9eb54a8a5ca1f78bfe85de4779e541b945a
-ms.contentlocale: es-es
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "368154"
 ---
-
 # <a name="financial-report-components"></a>Componentes de los informes financieros
 
 [!include [banner](../includes/banner.md)]
@@ -82,7 +81,7 @@ Puede ver todos los bloques de creación asignados a un grupo de bloques de crea
 
 ### <a name="export-a-building-block-group"></a>Exportar un grupo de bloques de creación
 
-Puede exportar un grupo de bloques de creación o bloques de creación de informe a un grupo de bloques de creación. Puede usar el grupo de bloques de creación exportado como copia de seguridad. También puede copiar los datos exportados entre instalaciones de Finance and Operations. El diseñador de informes incluye los conjuntos de dimensiones y los estilos de fuente a los que se hace referencia junto con el grupo de bloques de creación.
+Puede exportar un grupo de bloques de creación o bloques de creación de informe a un grupo de bloques de creación.Puede usar el grupo de bloques de creación exportado como copia de seguridad. También puede copiar los datos exportados entre instalaciones de Finance and Operations.El diseñador de informes incluye los conjuntos de dimensiones y los estilos de fuente a los que se hace referencia junto con el grupo de bloques de creación.
 
 1. En el diseñador de informes, en el menú **Empresa**, haga clic en **Grupos de bloques de creación**.
 2. En el cuadro de diálogo **Grupos de bloques de creación**, seleccione el grupo de bloques de creación que se va a exportar y, a continuación, haga clic en **Exportar**.
@@ -128,4 +127,3 @@ Cuando abre un bloque de creación, otros usuarios tienen acceso de solo lectura
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Informes financieros](financial-reporting-intro.md)
-

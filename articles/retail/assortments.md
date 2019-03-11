@@ -1,13 +1,13 @@
 ---
-title: "Administración de surtidos."
-description: "En este tema se explican los conceptos básicos de administración de surtidos en Microsoft Dynamics 365 for Retail y se proporcionan consideraciones sobre implementaciones para el proyecto."
+title: Administración de surtidos.
+description: En este tema se explican los conceptos básicos de administración de surtidos en Microsoft Dynamics 365 for Retail y se proporcionan consideraciones sobre implementaciones para el proyecto.
 author: jblucher
 manager: AnnBe
 ms.date: 03/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
 ms.search.scope: Retail, Operations
@@ -15,15 +15,14 @@ ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
+ms.openlocfilehash: b4de2a97a19be6d4e52c43180e36baf7adf6a649
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 033968667048faf475b13f8fb95e693dc26935ca
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365049"
 ---
-
-# <a name="assortment-management"></a>Administración de surtidos.
+# <a name="assortment-management"></a>Administración de surtidos
 
 [!include [banner](../includes/banner.md)]
 
@@ -108,4 +107,3 @@ Tenga en cuenta los siguientes requisitos de implementación a medida que planif
 - **Ventas y devoluciones fuera de surtidos**: esta capacidad ayuda a los minoristas a administrar con eficacia sus surtidos al dejarles limitar el número de productos disponibles a productos que pertenecen a la combinación de producto principal para la tienda. Esta capacidad también ayuda a los minoristas a gestionar las situaciones en las que un producto se omitió por error de un surtido, o en las que un producto se devolvió fuera de las fechas de vigencia para el surtido.
 
 Si no existen datos de un producto en la base de datos del canal, el PDV realiza llamadas en tiempo real a la sede para recuperar la información necesaria, de manera que el producto pueda venderse, devolverse o colocarse en el pedido de un cliente. La información del producto que se recupera de esta manera solo está disponible durante el ámbito de la transacción. El producto no se agrega a la definición del surtido. Por lo tanto, las llamadas en tiempo real posteriores se harán cuando sea necesario.
-

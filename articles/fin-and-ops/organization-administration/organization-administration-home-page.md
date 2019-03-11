@@ -1,13 +1,13 @@
 ---
-title: "Página principal de administración de la organización"
-description: "En este tema se indican recursos que le ayudarán a usar Microsoft Dynamics 365 for Finance and Operations en una organización."
+title: Página principal de administración de la organización
+description: Este tema nos señala los recursos que le ayudarán a usar Microsoft Dynamics 365 for Finance and Operations en una organización.
 author: sericks007
 manager: AnnBe
 ms.date: 08/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0a693529b55b66eb940f8215a336d5c4ae0acedd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a2c1d846527eac4db0a043c7f1c51da0e73bd796
-ms.contentlocale: es-es
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332826"
 ---
-
 # <a name="organization-administration-home-page"></a>Página principal de administración de la organización
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se detalla el contenido que ayudará a los usuarios avanzados y a los administradores a configurar Microsoft Dynamics 365 for Finance and Operations. Gracias a este contenido será posible configurar el sistema de su organización y negocio para que funcione de forma rápida y efectiva.
+Este tema señala los contenidos que ayudarán usuarios avanzados y a los administradores a configurar Microsoft Dynamics 365 for Finance and Operations. Gracias a este contenido será posible configurar el sistema de su organización y negocio para que funcione de forma rápida y efectiva.
 
 La mayor parte del contenido que se detalla aquí se aplica a características del módulo **Administración de organización** . Sin embargo, existen un par de tareas, como la creación y el uso de una plantilla de registro, que se pueden realizar en cualquier módulo y así permitirle perfeccionar el funcionamiento de su organización.
 
@@ -103,4 +102,3 @@ Las plantillas de registro pueden ayudarle a crear registros más rápidamente. 
 - [Configurar la gestión de documentos](configure-document-management.md)
 - [Configurar y enviar correo electrónico](configure-email.md)
 - [Datos de fecha y hora y las zonas horarias](date-time-zones.md)
-

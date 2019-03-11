@@ -1,13 +1,13 @@
 ---
-title: "Conciliar el flete en la administración del transporte"
-description: "En este artículo se describe el proceso de conciliación de flete."
+title: Conciliar el flete en la administración del transporte
+description: En este artículo se describe el proceso de conciliación de flete.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSAuditMaster, TMSFreightBillInvoiceReconcile, TMSFreightBillSummary, TMSFreightBillType, TMSFreightMatchReason, TMSInvoiceTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1f92808f904ba93513e20b74bd2b597712cb93d4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 722c52c22a98317dd67887f50fc95f3e3764ed83
-ms.contentlocale: es-es
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344786"
 ---
-
 # <a name="reconcile-freight-in-transportation-management"></a>Conciliar el flete en la administración del transporte
 
 [!include [banner](../includes/banner.md)]
@@ -41,11 +40,10 @@ Las tasas de flete se calculan por el motor de velocidad que está asociado al t
 [![Proceso de conciliación de flete](./media/freight-reconcilation-process.jpg)](./media/freight-reconcilation-process.jpg)
 
 ## <a name="manual-reconciliation"></a>Conciliación manual
-Si está conciliando el flete manualmente, deben conciliar cada línea de factura con la línea o líneas del albarán de flete para la carga que se factura. Esto se hace conciliando en la página **Conciliación de albaranes de flete y facturas**. Si el importe de la línea de factura no coincide con el importe del albarán de flete, debe seleccionar un motivo de conciliación para la diferencia. Si hay varios motivos para la conciliación, puede dividir el importe no conciliado entre ellos. El motivo de conciliación determina cómo se registran los importes de diferencia en la contabilidad general. Cuando se contabiliza la conciliación de todo el importe de la factura, se envía para aprobación y, a continuación, se registra el diario. En la ilustración siguiente se muestra cómo generar una factura de transporte y realizar la conciliación de transporte en Microsoft Dynamics 365 for Finance and Operations. 
+Si está conciliando el flete manualmente, deben conciliar cada línea de factura con la línea o líneas del albarán de flete para la carga que se factura. Esto se hace conciliando en la página **Conciliación de albaranes de flete y facturas**. Si el importe de la línea de factura no coincide con el importe del albarán de flete, debe seleccionar un motivo de conciliación para la diferencia. Si hay varios motivos para la conciliación, puede dividir el importe no conciliado entre ellos. El motivo de conciliación determina cómo se registran los importes de diferencia en la contabilidad general. Cuando se contabiliza la conciliación de todo el importe de la factura, se envía para aprobación y, a continuación, se registra el diario. En la ilustración siguiente se muestra cómo generar una factura de flete y realizar la conciliación de flete en Microsoft Dynamics 365 for Finance and Operations. 
 [![Tareas de conciliación de flete en Dynamics AX](./media/processflowforfreightreconciliation.jpg)](./media/processflowforfreightreconciliation.jpg)
 ## <a name="automatic-reconciliation"></a>Conciliación automática
 Para utilizar la conciliación automática, debe especificar la programación de conciliación y las facturas y los transportistas de envío que se utilizarán. La conciliación de las líneas de factura y los albaranes de flete se realiza según la configuración del tipo de albarán de flete y el maestro de auditoría. Tras la ejecución de la conciliación automática, debe controlar todas las facturas que el sistema no puede conciliar. A continuación, debe procesar estas facturas manualmente para poder registrar todas las facturas para el pago.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Condonar, restablecer o revertir cuotas de interés"
-description: "Este artículo explica cómo condonar, restablecer e invertir los gastos para el interés y las cuotas."
+title: Condonar, restablecer o revertir cuotas de interés
+description: Este artículo explica cómo condonar, restablecer e invertir los gastos para el interés y las cuotas.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustInterestJourList
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: cfeab6f393b63b25d595067de3eb90fc899c508b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: ae4a84f0e2823d1e7686696eae72e050a320e3f1
-ms.contentlocale: es-es
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319095"
 ---
-
 # <a name="waive-reinstate-or-reverse-interest-fees"></a>Condonar, restablecer o revertir cuotas de interés
 
 [!include [banner](../includes/banner.md)]
@@ -93,7 +92,6 @@ Puede invertir transacciones de interés mediante el botón **Interés de transa
 Puede ver el historial detallado de ajustes que se han realizado para notas de interés, como el usuario que ha especificado el ajuste, el tipo de ajuste, el importe y la fecha del ajuste. Por ejemplo, es posible que desee ver los ajustes anteriores que se especificaron para una nota de interés antes de crear una nueva. 
 
 Puede invertir transacciones de interés mediante el botón **Historia**en el separador **Recopilar** de la página **Cliente**.
-
 
 
 

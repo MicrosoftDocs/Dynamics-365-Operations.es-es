@@ -1,13 +1,13 @@
 ---
 title: Alertas
-description: "Este tema proporciona información general sobre las alertas de Microsoft Dynamics 365 for Finance and Operations. Puede usar alertas para permanecer informado acerca de los eventos de los que desea realizar un seguimiento durante el día laborable."
+description: Este tema proporciona información general acerca de alertas en Microsoft Dynamics 365 for Finance and Operations. Puede usar alertas para permanecer informado acerca de los eventos de los que desea realizar un seguimiento durante el día laborable.
 author: tjvass
 manager: AnnBe
 ms.date: 07/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
@@ -16,20 +16,19 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
+ms.openlocfilehash: 28ee34cd9133c634af98a50168e22efd0f74abce
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 38309e986c1d284ed63be760745b20a5415adb4c
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367464"
 ---
-
 # <a name="alerts"></a>Alertas
 
 [!include [banner](../includes/banner.md)]
 
 ## <a name="about-alerts"></a>Acerca de los avisos
-Las alertas forman un sistema de notificación para los eventos más importantes en Microsoft Dynamics 365 for Finance and Operations. Puede usar alertas para permanecer informado acerca de los eventos de los que desea realizar un seguimiento durante el día laborable. Puede crear con facilidad su propio conjunto de reglas de alertas para recibir alertas sobre las entregas vencidas, pedidos eliminados, precios que cambian u otros eventos a los que debe responder.
+Las alertas forman un sistema de notificaciones para eventos críticos en Microsoft Dynamics 365 for Finance and Operations. Puede usar alertas para permanecer informado acerca de los eventos de los que desea realizar un seguimiento durante el día laborable. Puede crear con facilidad su propio conjunto de reglas de alertas para recibir alertas sobre las entregas vencidas, pedidos eliminados, precios que cambian u otros eventos a los que debe responder.
 
 En (ERP) la planificación de recursos empresariales, hay varias situaciones habituales donde la función de avisos de Finance and Operations se puede usar. Aquí hay algunos ejemplos.
 
@@ -78,4 +77,3 @@ Una regla de alertas tiene cinco componentes:
 ## <a name="email-notifications-from-alerts"></a>Notificaciones por correo electrónico de alertas
 
 Las notificaciones por correo electrónico de alertas aún no están habilitadas. Esto se habilitará en una actualización futura.
-

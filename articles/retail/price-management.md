@@ -1,14 +1,14 @@
 ---
-title: "Administración de precio de ventas minoristas"
+title: Administración de precio de ventas minoristas
 description: En este tema se describen los conceptos para crear y administrar precios de ventas en Microsoft Dynamics 365 for Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
 ms.date: 04/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-retail
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -17,19 +17,18 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 28a095588bd3c312a2d1c4b83e668487a209077f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6da38f69abe72665fc79a43e0e163a856f9ee34d
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362151"
 ---
-
-# <a name="retail-sales-price-management"></a>Administración de precio de ventas minoristas
+# <a name="retail-sales-price-management"></a>Administración de precios de venta minorista
 
 [!include [banner](includes/banner.md)]
 
-En este tema se proporciona información sobre el proceso de crear y administrar precios de ventas en Microsoft Dynamics 365 for Retail. Se centra en los conceptos implicados en este proceso y en los efectos de las distintas opciones de configuración para los precios de venta.
+Este tema proporciona información acerca del proceso de creación y la administración de precios de ventas en Microsoft Dynamics 365 for Retail. Se centra en los conceptos implicados en este proceso y en los efectos de las distintas opciones de configuración para los precios de venta.
 
 ## <a name="terminology"></a>Terminología
 
@@ -212,7 +211,7 @@ Microsoft SQL Server Express se suele utilizar para las bases de datos de canale
 
 ## <a name="prices-that-include-tax-vs-prices-that-exclude-tax"></a>Precios que incluyen impuestos frente a precios sin impuestos
 
-Al estabelcer precios de venta en Microsoft Dynamics 365, no especifica si el valor del precio que está configurando incluye o excluye impuestos. El valor es solo el precio. Sin embargo, la configuración **El pecio incluye impuestos** en los canales minoristas le permite configurar los canales minoristas para que incluyan o excluyan los impuestos de los precios. Esta configuración se establece en el canal y puede cambiar incluso en una sola empresa.
+Al establecer precios de venta en Microsoft Dynamics 365, no especifica si el valor del precio que está configurando incluye o excluye impuestos. El valor es solo el precio. Sin embargo, la configuración **El pecio incluye impuestos** en los canales minoristas le permite configurar los canales minoristas para que incluyan o excluyan los impuestos de los precios. Esta configuración se establece en el canal y puede cambiar incluso en una sola empresa.
 
 Si trabaja con tipos de impuestos incluidos y exclusivos, es muy importante que configure los precios correctamente, ya que el importe total que el cliente paga cambiará si se cambia la configuración **El precio incluye impuestos** en el canal.
 
@@ -232,4 +231,3 @@ Además, el motor de precios al por menor **solo** admite las siguientes funcion
 
 - El precio se basa en dimensiones del producto, en orden desde el precio variable más específico al precio variable menos específico para el precio del producto maestro. Un precio que se establece mediante el uso de dos dimensiones del producto (por ejemplo, Color y Tamaño) se utiliza antes que un precio que se establece usando solo una dimensión del producto (por ejemplo, Tamaño).
 - Se puede utilizar el mismo grupo de precios para controlar precios y descuentos.
-

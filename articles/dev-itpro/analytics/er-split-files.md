@@ -1,13 +1,13 @@
 ---
-title: "Dividir los archivos XML generados según su tamaño y la cantidad de contenido"
-description: "En este tema se proporciona información acerca de cómo dividir archivos generados según su tamaño y la cantidad de elementos del contenido."
+title: Dividir los archivos XML generados según su tamaño y la cantidad de contenido
+description: En este tema se proporciona información acerca de cómo dividir archivos generados según su tamaño y la cantidad de elementos del contenido.
 author: NickSelin
 manager: AnnBe
 ms.date: 05/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
+ms.openlocfilehash: 8c3899d5c6602b3afe13b447b40f0b4dcc701448
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 0f13194575e2f19f585f09ffad99144c9a9fc3b1
-ms.contentlocale: es-es
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: es-ES
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347109"
 ---
-
 # <a name="split-generated-xml-files-based-on-file-size-and-content-quantity"></a>Dividir los archivos XML generados según su tamaño y la cantidad de contenido
 
 [!include[banner](../includes/banner.md)]
@@ -49,4 +48,3 @@ Para obtener más información acerca de esta función, reproduzca la guía de t
 [Destinos de informes electrónicos](electronic-reporting-destinations.md)
 
 [Diseñador de fórmulas en los informes electrónicos](general-electronic-reporting-formula-designer.md)
-
