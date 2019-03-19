@@ -5,44 +5,52 @@ items:
   - name: Introducción
     href: talent-get-started.md
     items:
-    - name: Novedades y cambios
+    - name: Novedades y cambios en Talent
       href: whats-new.md
       items:
-      - name: Novedades y cambios en Dynamics 365 for Talent Core HR (31 de enero de 2019)
+      - name: 5 de marzo de 2019
+        href: whats-new-talent-march-5.md
+      - name: 27 de febrero de 2019
+        href: whats-new-talent-feb-27.md
+      - name: 14 de febrero de 2019
+        href: whats-new-talent-feb14.md
+      - name: 7 de febrero de 2019
+        href: whats-new-talent-february-7.md
+      - name: 31 de enero de 2019
         href: whats-new-talent-january-29.md
-      - name: Novedades y cambios en Dynamics 365 for Talent Core HR (23 de enero de 2019)
+      - name: 23 de enero de 2019
         href: whats-new-talent-january-23.md
-      - name: Novedades y cambios en Dynamics 365 for Talent Core HR (17 de enero de 2019)
+      - name: 17 de enero de 2019
         href: whats-new-talent-january-17.md
-      - name: Novedades y cambios en Dynamics 365 for Talent Core HR (11 de enero de 2019)
+      - name: 11 de enero de 2019
         href: whats-new-talent-january-11.md
-      - name: Novedades y cambios en Dynamics 365 for Talent Core HR (14 de diciembre de 2018)
+      - name: 14 de diciembre de 2018
         href: whats-new-talent-december-14.md
-      - name: Novedades y cambios en Dynamics 365 for Talent Core HR (6 de diciembre de 2018)
+      - name: 6 de diciembre de 2018
         href: whats-new-talent-december-6.md
-      - name: Novedades y cambios en Dynamics 365 for Talent Core HR (27 de noviembre de 2018)
+      - name: 27 de noviembre de 2018
         href: whats-new-talent-november-27.md
-      - name: Novedades y cambios en Dynamics 365 for Talent Core HR (15 de noviembre de 2018)
+      - name: 15 de noviembre de 2018
         href: whats-new-talent-november-15.md
-      - name: Novedades y cambios en Dynamics 365 for Talent Core HR (31 de octubre de 2018)
+      - name: 31 de octubre de 2018
         href: whats-new-talent-october-31.md
-      - name: Novedades y cambios en Dynamics 365 for Talent Core HR (19 de octubre de 2018)
+      - name: 19 de octubre de 2018
         href: whats-new-talent-october-19.md
-      - name: Novedades y cambios en Dynamics 365 for Talent Core HR (15 de octubre de 2018)
+      - name: 15 de octubre de 2018
         href: whats-new-talent-october-11.md
-      - name: Novedades y cambios en Dynamics 365 for Talent Core HR (8 de octubre de 2018)
+      - name: 8 de octubre de 2018
         href: whats-new-talent-october-8.md
-      - name: Novedades y cambios en Dynamics 365 for Talent Core HR (1 de octubre de 2018)
+      - name: 1 de octubre de 2018
         href: whats-new-talent-october-01.md
-      - name: Novedades y cambios en Dynamics 365 for Talent Core HR (24 de septiembre de 2018)
+      - name: 24 de septiembre de 2018
         href: whats-new-talent-september-24.md
-      - name: Novedades y cambios en Dynamics 365 for Talent Core HR (17 de septiembre de 2018)
+      - name: 17 de septiembre de 2018
         href: whats-new-talent-september-17-2018.md
-      - name: Novedades y cambios en Dynamics 365 for Talent Core HR (10 de septiembre de 2018)
+      - name: 10 de septiembre de 2018
         href: whats-new-talent-september-10.md
-      - name: Novedades y cambios en Dynamics 365 for Talent Core HR (agosto de 2018)
+      - name: Agosto de 2018
         href: whats-new-talent-august2018.md
-      - name: Novedades y cambios en Dynamics 365 for Talent Core HR (julio de 2018)
+      - name: Julio de 2018
         href: whats-new-talent-july2018.md
     - name: Requisitos del sistema y directiva de actualización
       href: talent-versions-update-policy.md
@@ -193,6 +201,8 @@ items:
       href: data-integration.md
     - name: Preguntas más frecuentes sobre integración
       href: talent-fo-integration.md
+    - name: Exportación de datos periódicos mediante Azure Logic Apps
+      href: tutorial-integration-recurring-export.md
   - name: Integración con Office
     items:
     - name: Tutorial de integración con Office
@@ -322,9 +332,9 @@ items:
       href: talent-FO-integration.md
     - name: No se encuentran usuarios de Azure Active Directory en el selector de personas
       href: people-picker-user-not-found.md
-ms.openlocfilehash: 2e3035ec9aa71fd66cba7b394bf5007880646aca
-ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
+ms.openlocfilehash: 4123fb80126695bb35a02d3d2fc00b3ea38c1881
+ms.sourcegitcommit: 479b8cda7e411830bf1f579fab3692c980dcf850
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2019
-ms.locfileid: "374836"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "782761"
