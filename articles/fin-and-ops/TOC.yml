@@ -30,17 +30,11 @@ items:
         href: get-started/public-preview-releases.md
       - name: Comprar Finance and Operations
         items:
-        - name: Comprar Finance and Operations (On-Premises)
+        - name: Comprar Finance and Operations (on-premises)
           href: get-started/purchase-on-premises.md
     - name: Novedades y cambios
       href: get-started/whats-new-changed.md
       items:
-      - name: Preguntas frecuentes sobre actualizaciones del servicio de una versión
-        href: get-started/one-version.md
-      - name: Directiva del ciclo de vida del software y versiones de nube
-        href: ../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json
-      - name: Directiva del ciclo de vida del software y nuevas soluciones locales
-        href: ../dev-itpro/migration-upgrade/on-prem-version-update-policy.md?toc=/fin-and-ops/toc.json
       - name: Final del soporte estándar para Microsoft Dynamics AX 2009 y 2012
         href: get-started/mainstream-support-ax-2009-2012.md
       - name: Características quitadas u obsoletas
@@ -49,10 +43,14 @@ items:
         href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
       - name: Características no implementadas en implementaciones locales
         href: get-started/features-not-implemented-on-prem.md
+      - name: Características de vista previa en Finance and Operations versión 10.0.1 (abril 2019)
+        href: get-started/whats-new-changed-10-0-1.md
       - name: Versión 10.0 de Finance and Operations (abril de 2019)
         href: get-started/whats-new-changed-10.md
       - name: Versión 8.1.3 de Finance and Operations (enero de 2019)
         href: get-started/whats-new-changed-8-1-3.md
+      - name: Características de vista previa en Finance and Operations Platform update 25 (abril 2019)
+        href: get-started/whats-new-platform-25.md
       - name: Platform update 24 (marzo de 2019)
         href: get-started/whats-new-platform-update-24.md
       - name: Platform update 23 (enero de 2019)
@@ -202,6 +200,29 @@ items:
       href: get-started/move-lcs-implementation-project-tenant.md
     - name: Múltiples proyectos de LCS y entornos de producción en un inquilino de Azure AD
       href: get-started/implement-multiple-projects-aad-tenant.md
+  - name: Actualizaciones del servicio de una versión
+    href: ../dev-itpro/lifecycle-services/oneversion-overview.md
+    items:
+    - name: Preguntas frecuentes sobre actualizaciones del servicio de una versión
+      href: get-started/one-version.md
+    - name: 'Directiva del ciclo de vida del software: nube'
+      href: ../dev-itpro/migration-upgrade/versions-update-policy.md
+    - name: 'Directiva del ciclo de vida del software: local'
+      href: ../dev-itpro/migration-upgrade/on-prem-version-update-policy.md
+    - name: Actualizaciones de servicio de primera versión y versión estándar
+      href: get-started/public-preview-releases.md
+    - name: Aplicar actualizaciones a entornos de nube
+      href: ../dev-itpro/deployment/apply-deployable-package-system.md
+    - name: Configurar actualizaciones de servicio
+      href: ../dev-itpro/lifecycle-services/configure-service-updates.md
+    - name: Pausar actualizaciones de servicio
+      href: ../dev-itpro/lifecycle-services/pause-service-updates.md
+    - name: Recibir notificaciones acerca de las actualizaciones de servicio
+      href: ../dev-itpro/lifecycle-services/notifications-service-updates.md
+    - name: Automatización de tarea de datos
+      href: ../dev-itpro/data-entities/data-task-automation.md
+    - name: Regression Suite Automation tool
+      href: ../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
   - name: Eventos de negocio
     href: ../dev-itpro/business-events/home-page.md
     items:
@@ -401,7 +422,7 @@ items:
             href: ../supply-chain/sales-marketing/synchronize-project-list.md
           - name: Sincronizar almacenes de Finance and Operations a Field Service
             href: ../supply-chain/sales-marketing/synchronize-warehouse.md
-          - name: Sincronizar pedidos de trabajo de Finance and Operations a Field Service
+          - name: Sincronizar pedidos de trabajo con proyecto de Field Service a Finance and Operations
             href: ../supply-chain/sales-marketing/synchronize-work-orders.md
         - name: Configurar la integración de Project Service Automation
           href: ../financials/project-management/PSA-integration.md?toc=/fin-and-ops/toc.json
@@ -1416,6 +1437,8 @@ items:
           href: ../financials/localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
         - name: Configurar parámetros de NF-e para un establecimiento fiscal
           href: ../financials/localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
+      - name: SPED ECD
+        href: ../financials/localizations/latam-bra-sped-ecd.md
       - name: Informe de impuestos SPED-Reinf
         href: ../financials/localizations/latam-bra-sped-reinf.md
       - name: Parámetros para las entidades jurídicas
@@ -2236,6 +2259,8 @@ items:
           href: ../financials/localizations/rus-sales-books-purchase-books.md
       - name: Activos fijos
         items:
+        - name: Configurar activos fijos
+          href: ../financials/localizations/rus-set-up-fixed-assets.md
         - name: Adquiriendo activos fijos y poniéndolos en operación
           href: ../financials/localizations/rus-fixed-asset-acquisition.md
         - name: Registrar adquisiciones de activos fijos
@@ -2266,6 +2291,18 @@ items:
           href: ../financials/localizations/rus-bonus-depreciation.md
         - name: Calcular depreciación
           href: ../financials/localizations/rus-depreciation-calculation.md
+      - name: Proveedores y clientes
+        items:
+        - name: Facturas para pago
+          href: ../financials/localizations/rus-invoice-payment.md
+        - name: Configurar control de dimensión para liquidaciones
+          href: ../financials/localizations/rus-transactions-settlement-date.md
+        - name: Administración de flujos de efectivo
+          href: ../financials/localizations/rus-cash-flow.md
+      - name: Informes
+        items:
+        - name: Informes financieros
+          href: ../financials/localizations/rus-financial-reports.md
       - name: Divisiones de empresas
         href: ../financials/localizations/rus-company-divisions.md
       - name: Configurar tipos de cambio para transacciones de divisa
@@ -2280,8 +2317,10 @@ items:
         href: ../financials/localizations/rus-invoice-payment.md
       - name: Informes financieros
         href: ../financials/localizations/rus-financial-reports.md
-      - name: Crear un libro de compras
-        href: ../financials/localizations/rus-sales-books-purchase-books.md
+      - name: Informes de contabilidad en formato electrónico
+        href: ../financials/localizations/rus-accounting-reporting.md
+      - name: Administración de flujos de efectivo
+        href: ../financials/localizations/rus-cash-flow.md
     - name: Arabia Saudí
       href: ../financials/localizations/saudi-arabia.md
       items:
@@ -2367,6 +2406,8 @@ items:
         href: ../financials/localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
       - name: Configurar grupos de impuestos para IVA de cargo invertido
         href: ../financials/localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
+      - name: Crear impuestos digitales para IVA
+        href: ../financials/localizations/emea-gbr-mtd-vat-integration.md
     - name: Estados Unidos
       href: ../financials/localizations/united-states.md
       items:
@@ -2677,7 +2718,7 @@ items:
           href: ../dev-itpro/analytics/run-document-routing-agent-as-windows-service.md?toc=/fin-and-ops/toc.json
       - name: Ayudar a evitar el tiempo de espera de informes de larga ejecución
         href: ../dev-itpro/analytics/prevent-long-running-reports-timing-out.md?toc=/fin-and-ops/toc.json
-      - name: Informes disponibles de Microsoft SQL Server Reporting Services
+      - name: Informes disponibles de SQL Server Reporting Services
         href: ../dev-itpro/analytics/SSRS-report.md?toc=/fin-and-ops/toc.json
       - name: Crear soluciones de informes
         href: ../dev-itpro/analytics/create-nextgen-reporting-solutions.md?toc=/fin-and-ops/toc.json
@@ -2827,6 +2868,8 @@ items:
           href: ../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json
         - name: Cambios en la API del marco de informes electrónicos para Application update 7.3
           href: ../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json
+        - name: Especificar un almacenamiento personalizado para documentos generados
+          href: ../dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/fin-and-ops/toc.json
     - name: Soluciones analíticas incrustadas
       items:
       - name: Power BI incrustado en espacios de trabajo
@@ -3281,6 +3324,8 @@ items:
         href: organization-administration/tasks/users-receive-workflow-related-email-messages.md
       - name: Informe de tipos de flujo de trabajo
         href: organization-administration/workflow-types-report.md
+      - name: Preguntas frecuentes de flujo de trabajo
+        href: organization-administration/workflow-FAQ.md
     - name: Alertas
       href: get-started/alerts-overview.md
       items:
@@ -3799,8 +3844,6 @@ items:
         href: ../supply-chain/sales-marketing/tasks/enter-sales-agreements.md
       - name: Cumplimiento de acuerdos de venta
         href: ../supply-chain/sales-marketing/tasks/fulfill-sales-agreements.md
-      - name: Crear un nuevo acuerdo comercial
-        href: ../supply-chain/sales-marketing/tasks/create-new-trade-agreement.md
       - name: Generar y procesar devoluciones de cliente
         href: ../supply-chain/sales-marketing/tasks/process-customer-rebates.md
       - name: Procesamiento de devoluciones para pago
@@ -3827,6 +3870,8 @@ items:
         href: ../supply-chain/sales-marketing/tasks/set-up-sales-commission-rules.md
     - name: Concesión de comercialización
       href: ../supply-chain/sales-marketing/trade-allowance.md
+    - name: Crear un nuevo acuerdo comercial
+      href: ../supply-chain/sales-marketing/tasks/create-new-trade-agreement.md
   - name: Gestión de servicio
     href: ../supply-chain/service-management/service-management-home-page.md
     items:
@@ -4241,9 +4286,9 @@ items:
   href: ../dev-itpro/toc.yml
 - name: Dynamics 365 for Retail
   href: ../retail/toc.yml
-ms.openlocfilehash: cb58a9f8fa8305a3d8b956804ef74bef86ca04b9
-ms.sourcegitcommit: 7e0097bdd835e04521bffbce2fd802e6381dde0d
+ms.openlocfilehash: a1c64fd645063db11c632b34e8e0b934c97f2251
+ms.sourcegitcommit: d9ed934a142b88340d268fd2bd3753475a3712b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "376927"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "836405"

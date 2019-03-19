@@ -5,6 +5,10 @@ items:
   items:
   - name: Novedades y cambios
     href: get-started/whats-new.md
+  - name: Características de vista previa en Dynamics 365 for Retail 10.0.1
+    href: get-started/whats-new-10-0-1.md
+  - name: Novedades y cambios en Dynamics 365 for Retail (abril de 2019)
+    href: get-started/april-whats-new.md
   - name: Antes de comprar Retail
     href: get-started/before-you-buy.md
   - name: Registrarse para una suscripción de vista previa
@@ -109,7 +113,11 @@ items:
   - name: Importe completo y opciones de cálculo de Intervalo para los códigos de impuestos
     href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
 - name: Cargos automáticos avanzados omnicanal
-  href: omni-auto-charges.md
+  items:
+  - name: Configurar y usar cargos automáticos avanzados
+    href: omni-auto-charges.md
+  - name: Prorrateo y agrupación de cargos automáticos de encabezado
+    href: pro-rate-charges-matching-lines.md
 - name: Centro de llamadas
   items:
   - name: Funcionalidad de ventas del centro de llamadas
@@ -387,7 +395,7 @@ items:
     - name: Funcionalidad de caja registradora
       href: localizations/emea-swe-cash-registers.md
     - name: Muestra de integración de Retail POS con unidades de control
-      href: dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md
+      href: localizations/retail-sdk-control-unit-sample.md
 - name: Tareas de Retail
   items:
   - name: Crear un producto
@@ -553,6 +561,8 @@ items:
       href: dev-itpro/hybridApp.md
     - name: Anular controlador de solicitud de PDV
       href: dev-itpro/pos-handler.md
+    - name: Ver información de paquete de extensión de PDV
+      href: view-pos-extension-package-details.md
   - name: Hardware Station y extensibilidad
     href: dev-itpro/hardware-station-extensibility.md
   - name: Extensibilidad de Retail Server
@@ -659,9 +669,9 @@ items:
     items:
     - name: Extensión de fidelidad
       href: dev-itpro/retail-sdk/loyalty-extension-sample.md
-ms.openlocfilehash: 1f86096b0572f0309afa04e086d53294a7a8f4fa
-ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
+ms.openlocfilehash: 0d6ec0ba8723f81c21d735be455e35d8f1b62187
+ms.sourcegitcommit: 39c17fe619b075f56e8baffd087a830fc2fb8022
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "377260"
+ms.lasthandoff: 03/09/2019
+ms.locfileid: "791647"

@@ -1,29 +1,25 @@
 ---
+# required metadata
 title: Esto es Dynamics 365 for Talent
-description: Talent simplifica muchas tareas rutinarias de mantenimiento de registros y automatiza un gran número de procesos relacionados con la dotación de personal para la organización. Estos procesos incluyen la conservación de empleados, la administración de prestaciones, la formación, las evaluaciones de desempeño y la administración de cambios.
+description: 'Talent simplifica muchas tareas rutinarias de mantenimiento de registros y automatiza un gran número de procesos relacionados con la dotación de personal para la organización. Estos procesos incluyen la conservación de empleados, la administración de prestaciones, la formación, las evaluaciones de desempeño y la administración de cambios.'
 author: josaw
 manager: AnnBe
 ms.date: 06/04/2018
 ms.topic: index-page
-ms.prod: ''
+ms.prod: null
 ms.service: dynamics-365-talent
-ms.technology: ''
+ms.technology: null
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Core, Operations, Talent
+ms.search.scope: 'Core, Operations, Talent'
 ms.custom: 20931
 ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
 ms.author: rschloma
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: e31cd1e0acc8f3ab450ec4acda62b88b189f036d
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "302829"
+ms.search.validFrom: '2016-02-28'
+ms.dyn365.ops.version: 'AX 7.0.0, Talent July 2017 update'
 ---
+
 # <a name="welcome-to-dynamics-365-for-talent"></a>Esto es Dynamics 365 for Talent
 
 [!include [banner](includes/banner.md)]
@@ -79,7 +75,7 @@ Puede configurar planes para administrar la compensación de forma eficaz y equi
 
 ## <a name="develop-and-train-employees"></a>Desarrollar y formar a empleados
 
-Para ayudar a que sus empleados alcancen sus objetivos profesionales al mismo tiempo que satisfacen las necesidades críticas del negocio, puede establecer metas, crear revisiones de rendimiento y realizar un seguimiento de opiniones. Para ayudar a los empleados a desarrollar sus capacidades, también puede configurar instructores, tipos de curso, cursos, descripciones de curso, programas, trayectorias y sesiones antes de asignar a un instructor a un curso, o registrar a alguien para un curso. Los instructores deben existir como trabajadores, candidatos, o contactos.
+Para ayudar a sus empleados a alcanzar los objetivos profesionales mientras atiende necesidades empresariales críticas, puede configurar objetivos, crear evaluaciones de rendimiento y seguir realimentación. Para ayudar a los empleados a desarrollar habilidades necesarias, también puede configurar instructores, tipos de curso, cursos, descripciones de curso, programas, trayectorias y sesiones antes de asignar a un instructor a un curso, o registrar a alguien para un curso. Los instructores deben existir como trabajadores, candidatos, o contactos.
 
 -   [Gestión del rendimiento](performance-management-overview.md)
 -   [Alineación de las aptitudes de los recursos y las necesidades empresariales](skills.md)
