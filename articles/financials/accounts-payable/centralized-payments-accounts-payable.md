@@ -3,7 +3,7 @@ title: Pagos centralizados para Proveedores
 description: Las organizaciones que constan de diversas entidades jurídicas pueden crear y administrar pagos con una entidad jurídica única que controle todos los pagos. Por lo tanto, los mismos pagos no tienen que se especificarse en varias entidades jurídicas. Este artículo proporciona ejemplos que muestran cómo el registro para pagos centralizados se gestiona en distintos escenarios.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/12/2017
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e6744aae97499385405e192cd6d6cb8590dd79b7
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: b61320617dd85a880414b31ad6c88e611beca161
+ms.sourcegitcommit: ca1a472a670393f7aa208189dc8964c9691e2cdc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "327076"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "390175"
 ---
 # <a name="centralized-payments-for-accounts-payable"></a>Pagos centralizados para Proveedores
 
@@ -33,7 +33,7 @@ Las organizaciones que constan de diversas entidades jurídicas pueden crear y a
 
 Las organizaciones que constan de diversas entidades jurídicas pueden crear y administrar pagos con una entidad jurídica que controle todos los pagos. Por lo tanto, los mismos pagos no tienen que se especificarse en varias entidades jurídicas. Además, la organización ahorra tiempo, ya que se simplifica el proceso de pago.
 
-En una organización de pagos centralizados, existen muchas entidades jurídicas para realizar las operaciones, y cada entidad jurídica operativa administra sus propias facturas de proveedores. Los pagos de las entidades jurídicas operativas se generan desde una única entidad jurídica conocida como la entidad jurídica del pago. Durante el proceso de liquidación, se generan las transacciones vencidas en el intervalo de fechas aplicable. Puede especificar la entidad jurídica de la organización que recibirá las transacciones de pérdidas o de beneficios realizados, y cómo se administrarán las transacciones de descuento por pronto pago relacionadas con los pagos entre empresas. 
+En una organización de pagos centralizados, existen muchas entidades jurídicas para realizar las operaciones, y cada entidad jurídica operativa administra sus propias facturas de proveedores. Los pagos de las entidades jurídicas operativas se generan desde una única entidad jurídica conocida como la entidad jurídica del pago. Durante el proceso de liquidación, se generan las transacciones vencidas en el intervalo de fechas aplicable. Puede especificar la entidad jurídica de la organización que recibirá las transacciones de pérdidas o de beneficios realizados, y cómo se administrarán las transacciones de descuento por pronto pago relacionadas con los pagos entre empresas. En la línea de diario de pago centralizado, el **Tipo de cuenta** se debe establecer en el proveedor. El **Tipo de cuenta de contrapartida** debe establecerse en banco o libro mayor. La cuenta bancaria debe estar en la empresa actual. 
 
 En los siguientes ejemplos se muestra cómo se gestionan los registros en distintas situaciones. Se usa la siguiente configuración en todos los ejemplos:
 

@@ -3,7 +3,7 @@ title: Claves de reducción
 description: Este artículo proporciona ejemplos que muestran cómo configurar una clave de reducción. Incluye información sobre los distintos ajustes de la clave de reducción y los resultados de cada uno. Puede usar una clave de reducción para definir cómo reducir los requisitos de previsión.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e62431a1fdbeb81dda68297f034ee00adece079
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 7457aca4ca4d5188bafb497d3052276cfc154ad1
+ms.sourcegitcommit: 704d273485dcdc25c97a222bc0ef0695aad334d2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "364819"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "770925"
 ---
 # <a name="reduction-keys"></a>Claves de reducción
 
@@ -98,6 +98,7 @@ En la mayoría de los casos, se configuran los sistemas de modo que las transacc
 
    En esta previsión, no hay un período claro entre las fechas de previsión: entre la primera y la segunda fecha hay un lapso de cuatro días, y entre la segunda y la tercera fecha hay un lapso de siete días. Estos distintos lapsos son períodos dinámicos.
 2. Cree líneas de pedidos de venta como sigue.
+
    | Fecha                             | Cantidad de pedido de ventas |
    |----------------------------------|----------------------|
    | 15 de diciembre en el año anterior | 500                  |

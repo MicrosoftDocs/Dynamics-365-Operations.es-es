@@ -3,7 +3,7 @@ title: Búsqueda de productos y de clientes en el punto de venta (PDV)
 description: En este tema se proporciona una visión general de las mejoras que se han realizado en la funcionalidad de búsqueda de productos y clientes en Microsoft Dynamics 365 for Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 03/28/2018
+ms.date: 03/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 1fa38002377fac24a5f3e25bd5924ecb23fec70a
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a1593445af41cba30bdc35933302d0873e313585
+ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "313598"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "789878"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Búsqueda de productos y de clientes en el punto de venta (PDV)
 
@@ -69,7 +69,7 @@ La experiencia de la búsqueda de producto local es ahora más sencilla. Se real
 
 ## <a name="customer-search"></a>Búsqueda de clientes
 
-La búsqueda de clientes se utiliza para buscar clientes para distintos fines. Por ejemplo, es posible que los cajeros quieran ver la lista de solicitudes o el historial de compra de algún cliente o agregar al cliente a alguna transacción. En el caso de búsquedas con varias palabras clave, el algoritmo de búsqueda de clientes devuelve todos aquellos clientes que coincidan con cualquiera de las palabras clave introducidas. Sin embargo, los clientes que coinciden con la mayoría de las palabras clave aparecen en la parte superior de los resultados. Este comportamiento es análogo al modo que otros motores de búsqueda muestran los resultados. Primero muestran los resultados que coincidan con los términos más buscados y, a continuación, muestran los resultados que coincidan parcialmente con las palabras clave de la búsqueda. Este comportamiento es útil si los cajeros usan varias palabras clave en su búsqueda, pero una de las palabras tiene un error de ortografía.
+La búsqueda de clientes se utiliza para buscar clientes para distintos fines. Por ejemplo, es posible que los cajeros quieran ver la lista de solicitudes o el historial de compra de algún cliente o agregar al cliente a alguna transacción. El algoritmo de búsqueda coincide con los términos de búsqueda con los valores presentes en las siguientes propiedades del cliente: nombre, correo electrónico, teléfono, el número de tarjeta de fidelización, dirección, y el número de cuenta. Entre ellos, la propiedad del nombre ofrece la mayor flexibilidad cuando se trata de búsquedas de varias palabras clave ya que el algoritmo devuelve todos los clientes que coinciden con algunas de las palabras clave buscadas y los clientes que coinciden con la mayoría de las palabras clave, aparecen en la parte superior de los resultados. Este comportamiento ayuda a los cajeros en situaciones en las que realizan búsquedas escribiendo el nombre completo, pero el apellido y el nombre fueron intercambiados durante la entrada de datos inicial. Sin embargo, por motivos de rendimiento, el resto de propiedades conservan el orden de las palabras clave de búsqueda, por lo que si las palabras clave de la búsqueda no coinciden con el orden en que se almacenan los datos, no se mostrará ningún resultado.
 
 De forma predeterminada, una búsqueda de clientes se realiza en los libros de direcciones de cliente que están asociados a la tienda. Este tipo de búsqueda se conoce como *búsqueda de cliente local*. Asimismo, los empleados también pueden buscar clientes de manera global. Es decir, pueden buscar en las tiendas de la empresa y a través de las demás entidades jurídicas. Este tipo de búsqueda se conoce como *búsqueda de cliente remota*.
 

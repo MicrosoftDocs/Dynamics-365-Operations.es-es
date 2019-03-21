@@ -3,7 +3,7 @@ title: Calendarios fiscales, ejercicios y períodos
 description: En este artículo se describen los calendarios fiscales, los ejercicios y los períodos y cómo usarlos para entidades jurídicas, activos fijos y gestión presupuestaria.
 author: aprilolson
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 360695ddfbcf1eab62dd5087e1b5bb34ccaf7c7f
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 01f8f939079d55d5a75d1a4b1fd718bf2a3f9700
+ms.sourcegitcommit: 065d9fab832b6bcc88c00dc78ac1ae854c762ec7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "361668"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "778210"
 ---
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>Calendarios fiscales, ejercicios y períodos
 
@@ -43,7 +43,7 @@ Se usan los períodos de cierre para separar las transacciones del libro mayor q
 Al crear un período de cierre, seleccione un período cuyo estado sea Abierto y que contenga las fechas que desee usar. El nuevo período de cierre copiará las fechas inicial y final del período existente. El período original seguirá existiendo. Por ejemplo, selecciona Período 12, que es el último período del ejercicio y cuenta con las fechas comprendidas entre el 1 y el 31 de agosto. Especifica un nombre para el período de cierre, como Cierre. Tras la creación del nuevo período de cierre, dispondrá del período original y del período de cierre. Ambos cuentan con las fechas comprendidas entre el 1 y el 31 de agosto.
 
 ## <a name="select-fiscal-calendars-for-ledgers-fixed-assets-and-budget-cycles"></a>Seleccionar los calendarios fiscales para los ciclos presupuestarios, activos fijos y para la contabilidad
-Los calendarios fiscales se usan con la depreciación de activos fijos, transacciones financieras y ciclos presupuestarios. Una vez creado un año fiscal, puede utilizarlo para distintos fines. Puede seleccionar un calendario fiscal para un modelo de valor o libro de amortización para convertirlo en un calendario de activos fijos. Puede seleccionar un calendario fiscal para un libro mayor para convertirlo en un calendario contable. También puede seleccionar un calendario fiscal para un ciclo de presupuesto para convertirlo en un calendario de presupuesto. Puede utilizar el mismo calendario fiscal para todo esto.
+Los calendarios fiscales se usan con la depreciación de activos fijos, transacciones financieras y ciclos presupuestarios. Una vez creado un año fiscal, puede utilizarlo para distintos fines. Puede seleccionar un calendario fiscal para un libro de activo fijo para convertirlo en un calendario de activos fijos. Puede seleccionar un calendario fiscal para un libro mayor para convertirlo en un calendario contable. También puede seleccionar un calendario fiscal para un ciclo de presupuesto para convertirlo en un calendario de presupuesto. Puede utilizar el mismo calendario fiscal para todo esto.
 
 ### <a name="select-a-fiscal-calendar-for-your-legal-entity"></a>Seleccionar un calendario fiscal para la entidad jurídica
 
@@ -51,7 +51,7 @@ Seleccione el calendario fiscal que desea utilizar para el libro mayor en la ent
 
 ### <a name="select-a-fiscal-calendar-for-fixed-assets"></a>Seleccionar un calendario fiscal para los activos fijos
 
-Puede seleccionar un calendario fiscal para el modelo de valor o libro de amortización que vayan a utilizar los activos fijos que usan el modelo de valor o libro de amortización seleccionados. Puede seleccionar cualquier calendario fiscal definido en la página Calendarios fiscales.
+Puede seleccionar un calendario fiscal para un libro de activo fijo que vayan a utilizar los activos fijos que usan el libro seleccionado. Puede seleccionar cualquier calendario fiscal definido en la página Calendarios fiscales.
 
 ### <a name="define-budget-cycle-time-spans"></a>Definir intervalos de tiempo del ciclo presupuestario
 

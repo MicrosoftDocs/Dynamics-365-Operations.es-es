@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: d277bc4c4c815317bade8a04b9111232fb707086
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: e11742c62ea8d10f391ed2d417024f9c80e39591
+ms.sourcegitcommit: 21bbdac152e0cbb0576df9d5e6e90283175834ef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "340738"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "768423"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Requisitos de dimensionamiento de hardware para entornos locales
 
@@ -86,7 +86,7 @@ Para comprender los requisitos de dimensionamiento, tiene que conocer el volumen
     - Uso de la funcionalidad adicional, como registro de base de datos y alertas. El registro extremo de base de datos reducirá aún más el rendimiento por hora por núcleo por debajo de las 3000 líneas.
     - Complejidad de la composición de datos - Un plan de cuentas sencillo frente a un plan de cuentas fino y detallado tiene implicaciones en el rendimiento (como un ejemplo).
     - Caracterización de la transacción.
-    - 2 GB a 4 GB de memoria para cada núcleo
+    - 2 GB a 16 GB de memoria para cada núcleo
     - Bases de datos auxiliares en servidor DB como Management Reporter y bases de datos de SSRS.
     - DB temporal = 15% del tamaño de la DB, con tantos archivos como procesadores físicos.
     - Tamaño y rendimiento de SAN basados en el volumen/uso total de la transacción simultánea.

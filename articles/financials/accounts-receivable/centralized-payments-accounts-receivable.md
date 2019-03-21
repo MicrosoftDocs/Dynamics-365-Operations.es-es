@@ -3,7 +3,7 @@ title: Pagos centralizados para Clientes
 description: Las organizaciones que constan de diversas entidades jurídicas pueden crear y administrar pagos con una entidad jurídica única que controle todos los pagos. Por lo tanto, no tiene que especificarse la misma transacción en varias entidades jurídicas. Este artículo proporciona ejemplos que muestran cómo el registro para pagos centralizados se gestiona en distintos escenarios.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 02/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9eb935d32e61b2cf0ec8710f6c2cfb18ecfe034
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: f6b8b1548bf70363431ad58482ba82cf11017332
+ms.sourcegitcommit: ca1a472a670393f7aa208189dc8964c9691e2cdc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "330756"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "390152"
 ---
 # <a name="centralized-payments-for-accounts-receivable"></a>Pagos centralizados para Clientes
 
@@ -33,7 +33,7 @@ Las organizaciones que constan de diversas entidades jurídicas pueden crear y a
 
 Las organizaciones que constan de diversas entidades jurídicas pueden crear y administrar pagos con una entidad jurídica que controle todos los pagos. Por lo tanto, no tiene que especificarse la misma transacción en varias entidades jurídicas. Además, la organización ahorra tiempo, ya que los procesos para las propuestas de pago, las liquidaciones y la edición de transacciones abiertas y cerradas para pagos centralizados se simplifican. 
 
-En una organización de pagos centralizados, existen muchas entidades jurídicas para las operaciones y cada entidad jurídica operativa administra su propia información de facturas de clientes. Los pagos de las entidades jurídicas operativas se reciben desde una única entidad jurídica denominada entidad jurídica del pago. Durante el proceso de liquidación, se generan las transacciones vencidas en el intervalo de fechas aplicable. Puede especificar la entidad jurídica de la organización que recibe las transacciones de pérdidas o de beneficios realizados y cómo se administrarán las transacciones de descuento por pronto pago relacionadas con los pagos centralizados. 
+En una organización de pagos centralizados, existen muchas entidades jurídicas para las operaciones y cada entidad jurídica operativa administra su propia información de facturas de clientes. Los pagos de las entidades jurídicas operativas se reciben desde una única entidad jurídica denominada entidad jurídica del pago. Durante el proceso de liquidación, se generan las transacciones vencidas en el intervalo de fechas aplicable. Puede especificar la entidad jurídica de la organización que recibe las transacciones de pérdidas o de beneficios realizados y cómo se administrarán las transacciones de descuento por pronto pago relacionadas con los pagos centralizados. En la línea de diario de pago centralizado, el **Tipo de cuenta** se debe establecer en el cliente. El **Tipo de cuenta de contrapartida** debe establecerse en banco o libro mayor. La cuenta bancaria debe estar en la empresa actual. 
 
 En los siguientes ejemplos se muestra cómo se gestionan los registros en distintas situaciones. Se usa la siguiente configuración en todos los ejemplos:
 
@@ -296,8 +296,3 @@ Fabrikam recibe un pago de 75,00 del cliente 4000, Northwind Traders. El pago se
 | Clientes (Fabrikam Oeste)    |              | 75,00         |
 | Importe debido de Fabrikam Este (Fabrikam Oeste) | 25,00        |               |
 | Clientes (Fabrikam Oeste)    |              | 25,00         |
-
-
-
-
-
