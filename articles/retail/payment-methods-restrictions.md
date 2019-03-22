@@ -3,7 +3,7 @@ title: Restringir métodos de pago para devoluciones sin un recibo
 description: Este tema describe cómo determinados tipos de pago se pueden limitar para la devolución si las devoluciones se crean sin un recibo.
 author: rapraj
 manager: AnnBe
-ms.date: 01/24/2019
+ms.date: 013/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,16 +19,16 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2019-02-01
 ms.dyn365.ops.version: AX 10.0.0, Retail Feb 2019 update
-ms.openlocfilehash: 1f84a6382453c0ba7540e618ad90ae1d3c684a2b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 6e2c32aae06ce7bbdde30809d7a197f43b856af1
+ms.sourcegitcommit: bacec397ee48ac583596be156c87ead474ee07df
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "315921"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "777186"
 ---
 # <a name="restrict-payment-methods-for-returns-without-a-receipt"></a>Restringir métodos de pago para devoluciones sin un recibo
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Al configurar el sistema, se deben configurar todos los tipos de pago que acepte un minorista. Este tema describe cómo determinados tipos de pago se pueden limitar para la devolución si las devoluciones se crean sin un recibo.

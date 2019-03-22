@@ -3,7 +3,7 @@ title: Integración de activos fijos
 description: Los activos fijos se pueden integrar con el Libro mayor, la Gestión de inventario, los Clientes y los Proveedores. También es posible configurar los activos fijos para que se integren con los pedidos de compra.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af5d33de3af05668bc9aedc94894b12d16daf78e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 2023d68a1455c6bb5ec569b6ae19fc3268f8769d
+ms.sourcegitcommit: 065d9fab832b6bcc88c00dc78ac1ae854c762ec7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "336989"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "778164"
 ---
 # <a name="fixed-assets-integration"></a>Integración de activos fijos
 
@@ -41,7 +41,7 @@ En la página **Perfiles de contabilización de activos fijos** se definen las c
 ## <a name="inventory-management"></a>Gestión del inventario
 En el diario de inventario para los activos fijos, puede especificar la adquisición de activos fijos que la entidad jurídica ha producido o construido por sí misma. A continuación puede transferir los artículos de inventario a los activos fijos como adquisición o como parte de una adquisición. 
 
-También puede adquirir los activos mediante los pedidos de compra. Cuando los pedidos de compra contienen artículos de inventario designados como activos fijos, la configuración de la opción **Permitir la adquisición de activos desde Compras** de la página **Parámetros de activos fijos** determina si se registra una adquisición para el activo fijo cuando se registra la factura. El efecto que la adquisición de activos fijos tiene en el inventario depende de la configuración de la entidad jurídica. 
+También puede adquirir los activos mediante los pedidos de compra. Cuando los pedidos de compra contienen artículos de inventario designados como activos fijos, la configuración de la opción **Permitir la adquisición de activos desde Compras** de la página **Parámetros de activos fijos** determina si se registra una adquisición para el activo fijo cuando se registra la factura. Una línea de compra creará un activo fijo, independientemente de la cantidad. El efecto que la adquisición de activos fijos tiene en el inventario depende de la configuración de la entidad jurídica. 
 
 Cuando un artículo de inventario se convierte en una adquisición de activos fijos, mediante el diario de inventario, un pedido de compra o una propuesta de adquisición, se crea una transacción de adquisición de libro de activo fijo. Si una adquisición de libro incluye un libro derivado, también se creará una transacción de adquisición de libro derivado. 
 

@@ -3,7 +3,7 @@ title: Trabajos de exportación e importación de datos
 description: Use el espacio de trabajo de gestión de datos para crear y administrar trabajos de importación y exportación de datos.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 08/28/2017
+ms.date: 03/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 68cafc167c178e2feeb0a5af764a491ea6b3c60b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ceb2dfa37b53af83c4faedffa5b312d654c44593
+ms.sourcegitcommit: 7b438a94b59ab52518e03b22217cb48e41fbeb71
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "360219"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "834669"
 ---
 # <a name="data-import-and-export-jobs"></a>Trabajos de exportación e importación de datos
 
@@ -128,6 +128,9 @@ Un trabajo se puede proteger según los roles, usuarios y entidades jurídicas a
 
 ## <a name="run-the-import-or-export-job"></a>Ejecutar el trabajo de importación o exportación
 Puede ejecutar un trabajo una vez; para ello, seleccione el botón **Importar** o **Exportar** después de definir el trabajo. Para configurar un trabajo periódico, seleccione **Crear un trabajo de datos recurrente**.
+
+[!NOTE]
+Un trabajo de importación o exportación se puede ejecutar de manera asíncrona seleccionando el botón **Importar** o **Exportar** . La ejecución asíncrona utiliza el marco de asincronía de Finance and Operations, que es diferente del marco por lotes. Sin embargo, como el marco por lotes, el marco de asincronía también puede tener limitaciones y como consecuencia, el trabajo puede no ejecutarse inmediatamente. Los trabajos también se pueden ejecutar sincrónicamente seleccionando **Importar ahora** o **Exportar ahora**. Esto inicia el trabajo inmediatamente y resulta útil si la asincronía o un lote no empiezan debido a limitaciones. Los trabajos también se pueden ejecutar en un lote eligiendo la opción **Ejecutar en lote**. Los recursos por lote están sujetos a limitaciones, por lo que el trabajo por lotes podría no empezar inmediatamente. La opción de asincronía es útil cuando los usuarios interactúan directamente con la interfaz de usuario y no son usuarios avanzados para comprender la programación por lotes. El uso de un lote es una opción alternativa si es necesario exportar o importar grandes volúmenes. Los trabajos por lotes se pueden programar para su ejecución en grupos por lotes específicos, que permiten más control desde una perspectiva de equilibrio de carga. Si la asincronía y los lotes tienen ambos limitaciones debido a la utilización alta de recursos en el sistema, como solución alternativa inmediata, se puede usar la versión síncrona de importación o la exportación. La opción síncrona comenzará inmediatamente y bloqueará la interfaz de usuario porque se ejecuta de forma sincrónica. La ventana de explorador debe permanecer abierta cuando la operación síncrona está en curso.
 
 ## <a name="validate-that-the-job-ran-as-expected"></a>Confirme que el trabajo funciona como es debido.
 Tiene disponible el historial de trabajos por si necesita solucionar algún problema o investigar algún trabajo de importación o exportación. Las ejecuciones de trabajos del historial se organizan según intervalos de tiempo.

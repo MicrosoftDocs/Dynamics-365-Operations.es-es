@@ -3,7 +3,7 @@ title: Adquisición de activos mediante compra
 description: Este tema describe la manera de configurar la integración entre Activos fijos y Proveedores para crear automáticamente activos fijos a partir de pedidos de compra o facturas de proveedor, o registrar automáticamente transacciones de adquisición o transacciones de ajuste de adquisición de activos fijos.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/27/2017
+ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eef69de1c93de5c19b9f197838f1f2d3eb2e7645
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ba3484e62caa790a5b05ae0693f69926514f6425
+ms.sourcegitcommit: 065d9fab832b6bcc88c00dc78ac1ae854c762ec7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "355803"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "778233"
 ---
 # <a name="acquire-assets-through-procurement"></a>Adquisición de activos mediante compra
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe la manera de configurar la integración entre Activos fijos y Proveedores para crear automáticamente activos fijos a partir de pedidos de compra o facturas de proveedor, o registrar automáticamente transacciones de adquisición o transacciones de ajuste de adquisición de activos fijos.
+Este tema describe la manera de configurar la integración entre Activos fijos y Proveedores para crear automáticamente activos fijos a partir de pedidos de compra o facturas de proveedor, o registrar automáticamente transacciones de adquisición o transacciones de ajuste de adquisición de activos fijos. Una línea de compra creará un activo, independientemente de la cantidad en la línea de compra. Si necesita crear varios activos fijos, debe crear varias líneas de compra.
 
  Existen los métodos siguientes para integrar los activos fijos y los proveedores, y se debe utilizar el mismo método para todos los activos fijos:
 -   Se crea manualmente un activo fijo, antes de agregar el número de activo fijo a la línea del pedido de compra o de la factura de proveedor. Automáticamente se registra una transacción de adquisición para el activo al registrar la factura de proveedor. Este es el método predeterminado.

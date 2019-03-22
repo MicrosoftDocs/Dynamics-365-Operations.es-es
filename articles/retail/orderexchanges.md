@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 45b628376a483d3d639e5c018dd93570ed8ce7af
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 43571099727830e81c41416b6fe250dba398b3f8
+ms.sourcegitcommit: ca4562fafa33b3512f0a5e246b15545fcf53e834
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "302839"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "379933"
 ---
 # <a name="configure-and-process-an-exchange-on-a-return-order"></a>Configurar y procesar un cambio en un pedido de devolución
 

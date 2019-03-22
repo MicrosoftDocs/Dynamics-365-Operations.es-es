@@ -3,7 +3,7 @@ title: Cargos automáticos avanzados omnicanal
 description: Este tema describe las capacidades para gestionar los cargos adicionales de pedidos de los pedidos del canal de minoristas mediante las el uso de varias funciones avanzadas de cargos automáticos.
 author: hhaines
 manager: annbe
-ms.date: 01/22/2019
+ms.date: 03/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,16 +19,15 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: a980ae9571fb47522d3966dc172b2343641b827e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 6b63a1bb8791ab3f0c71a2fd03677e7d0bf71e62
+ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "345568"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "789780"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Cargos automáticos avanzados omnicanal
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 Este tema proporciona información acerca de la configuración y la implementación de características avanzadas de cargos automáticos disponibles en Dynamics 365 for Retail versión 10.0.
@@ -49,7 +48,7 @@ En la página **Ventas al por menor \> Configuración de sede \> Parámetros \> 
 
 ![Parámetros de cargos automáticos avanzados](media/advancedchargesparameter.png)
 
-Cuando se habilitan los cargos automáticos, se debe pedir a los usuarios que especifiquen manualmente un cargo de envío en el terminal del PDV al crear un pedido de cliente con enviar todo o enviar selección. Los cargos de pedidos PDV se calculan sistemáticamente y se añaden a la transacción del PDV (si se encuentra la tabla correspondiente de cargos automáticos que coincide con el criterio del pedido que se está creando). Los usuarios también pueden agregar o mantener los cargos de encabezado o de nivel de línea manualmente con las operaciones recién agregadas de PDV que se pueden agregar a los diseños de pantalla de PDV.  
+Cuando se habilitan los cargos automáticos, ya no se pide a los usuarios que especifiquen manualmente un cargo de envío en el terminal del PDV al crear un pedido de cliente con enviar todo o enviar selección. Los cargos de pedidos PDV se calculan sistemáticamente y se añaden a la transacción del PDV (si se encuentra la tabla correspondiente de cargos automáticos que coincide con el criterio del pedido que se está creando). Los usuarios también pueden agregar o mantener los cargos de encabezado o de nivel de línea manualmente con las operaciones recién agregadas de PDV que se pueden agregar a los diseños de pantalla de PDV.  
 
 Cuando habilitan los cargos automáticos, los **Parámetros de ventas** existentes para **Código de los cargos de envío** y **cargos de envío de la devolución** ya no se usan. Estos parámetros solo son aplicables si el parámetro **Usar cargos automáticos avanzados** se establece en **No**.
 
@@ -67,6 +66,8 @@ Las nuevas operaciones son las siguientes.
 - **143 - Actualizar los cargos** - Esta operación permite realizar un cálculo completo de los cargos para la transacción de ventas. Actualizará cualquier cargo automático sobrescrito por el usuario basándose en la configuración de carrito actual.  
 
 Como con todas las operaciones de PDV, las configuraciones de seguridad se pueden crear para requerir la aprobación del director para ejecutar la operación.
+
+Es importante tener en cuenta que las operaciones arriba enumeradas de PDV también se pueden agregar al diseño de PDV incluso si se deshabilita el parámetro **Usar cargos automáticos avanzados**. En esta situación, las organizaciones seguirán con los beneficios agregados de poder ver los gastos manualmente agregados y editarlos mediante la operación **Gestionar cargos**. Los usuarios también pueden usar las operaciones **Agregar cargos de encabezado** y **Agregar cargos de línea** para las transacciones de PDV incluso cuando se deshabilita el parámetro **Usar cargos automáticos avanzados**. La operación **Actualizar los cargos** tiene menos funcionalidad si se usa cuando se deshabilita **Usar cargos automáticos avanzados**. En este caso, no se actualizaría nada y cualquier cargo agregado manualmente a la transacción se restablecería en $0,00.
 
 ## <a name="use-case-examples"></a>Ejemplos de caso de uso
 En esta sección, los casos de uso del ejemplo se muestran para ayudarle a comprender la configuración y uso de cargos automáticos y cargos varios en el contexto de pedidos del canal minoristas. En los ejemplos se muestra el comportamiento de la aplicación cuando se ha habilitado el parámetro **Usar cargos automáticos avanzados** .
@@ -207,3 +208,7 @@ Se recomienda que la organización también añada campos de texto libre al pie 
 ### <a name="preventing-charges-from-being-calculated-until-the-pos-order-is-completed"></a>Evitar que se calculen los cargos hasta que el pedido de PDV se complete
 
 Algunas organizaciones pueden preferir espera hasta que el usuario haya terminado de agregar todas las líneas de ventas a la transacción PDV antes de calcular los cargos. Para evitar el cálculo de cargos en artículos a medida que se agregan a la transacción PDV, active el parámetro **Cálculo del cargo manual** en el **Perfil de funcionalidad** que usa la tienda. Habilitar este parámetro requerirán al usuario PDV usar la operación **Calcular totales** cuando han terminado de añadir los productos a la transacción PDV. La operación **Calcular totales** se activará y calculará cualquier cargo automático para el encabezado o líneas del pedido, según sea aplicable.
+
+### <a name="charges-override-reports"></a>Informes de anulación de cargos
+
+Si los usuarios manualmente anulan los gastos calculados o agregan gastos manualmente a la transacción, estos datos estarán disponibles para fines de auditoría en el informe **Historial de la anulación de cargos**. El informe se puede encontrar en **Ventas al por menor \> Consultas e informes \> Historial de la anulación de cargos**.  Es importante tener en cuenta que los datos necesarios para este informe se importan de la base de datos del canal en la Sede a través de los trabajos de la programación de distribución “P”. Por lo tanto, la información sobre anulaciones recién efectuadas en el PDV puede no estar disponible inmediatamente en este informe hasta que el trabajo haya cargado los datos de transacciones de la tienda en la Sede. 

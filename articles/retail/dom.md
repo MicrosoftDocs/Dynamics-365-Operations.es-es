@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8f1b07243ec2d42e47073d8d90f00ea563020d82
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 4f682e0c98ff70d526648bc50f8a5d6cb884ac93
+ms.sourcegitcommit: ca4562fafa33b3512f0a5e246b15545fcf53e834
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "302853"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "380025"
 ---
 # <a name="distributed-order-management-dom"></a>Gestión de pedidos distribuida (DOM)
 
@@ -62,8 +62,8 @@ La siguiente ilustración muestra el ciclo de vida de un pedido de ventas en un 
     - **Tipo de solucionador**: seleccione un valor. Retail incluye dos tipos de solucionador: **Solucionador de producción** y **Solucionador simplificado**. Para todos los equipos que ejecuten DOM (es decir, todos los servidores que formen parte del grupo DOMBatch) hay que seleccionar **Solucionador de producción**. El Solucionador de producción requiere la clave de licencia especial que, de forma predeterminada, se otorga e implementa en los entornos de producción. Para los entornos que no sean de producción esta clave de licencia debe implementarse manualmente. Siga estos pasos para implementar manualmente la clave de licencia:
 
         1. En Microsoft Dynamics Lifecycle Services, abra la Biblioteca de activos compartidos, seleccione **Modelo** como tipo de activo y descargue el archivo **Licencia de DOM**.
-        2. Inicie el Administrador de Microsoft Internet Information Services (IIS), haga clic con el botón secundario en **Sitio web de AOSService** y, a continuación, seleccione **Explorar**. Se abre una ventana del Explorador de Windows en **\<Raíz del servicio AOS\>\\webroot**. Anote la ruta de acceso a \<Raíz del servicio AOS\>. La va a utilizar en el paso siguiente.
-        3. Copie el archivo de configuración en el directorio **\<Raíz del servicio AOS\>\\PackagesLocalDirectory\\DOM\\bin**.
+        2. Inicie el Administrador de Microsoft Internet Information Services (IIS), haga clic con el botón secundario en **Sitio web de AOSService** y, a continuación, seleccione **Explorar**. Se abre una ventana del Explorador de Windows en **\<AOS Service root\>\\webroot**. Anote la ruta de acceso a \<AOS Service root\>. La va a utilizar en el paso siguiente.
+        3. Copie el archivo de configuración en el directorio **\<AOS Service root\>\\PackagesLocalDirectory\\DOM\\bin**.
         4. Vaya al cliente de Retail Headquarters y abra la página **Parámetros de DOM**. En la pestaña **Solucionador**, en el campo **Tipo de solucionador**, seleccione **Solucionador de producción** y confirme que no aparece ningún mensaje de error.
 
         > [!NOTE]

@@ -3,7 +3,7 @@ title: Crear, aprobar y publicar trabajos en Attract
 description: Este tema describe los elementos de un trabajo en Attract. También se explica cómo crear un trabajo.
 author: josaw
 manager: AnnBe
-ms.date: 12/21/2018
+ms.date: 02/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: josaw
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 6c5daa4050d63303f1ac10c24901e5b1182cb62b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 2f7e0ec7d33579f213909ff9ad911d26800c2b76
+ms.sourcegitcommit: ceef0ee77ffc245e57637e2ea84e1a71a214b3d7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "306129"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "772820"
 ---
 # <a name="create-approve-and-post-jobs-in-attract"></a>Crear, aprobar y publicar trabajos en Attract
 
@@ -76,8 +76,23 @@ Para obtener más información sobre las actividades que se pueden agregar al pr
 
 Después de que se active un trabajo, este se puede registrar. Solo los reclutadores y los administradores pueden registrar trabajos. El trabajo se puede registrar en Talent Careers (un sitio de carreras de Microsoft Dynamics 365 for Talent) o LinkedIn. 
 
+El equipo de Attract trabaja continuamente para asociarse con los agregadores tableros de trabajo. Esta lista se expandirá con el tiempo.
+
+Para obtener más información acerca de registros de trabajo, consulte [La funcionalidad del sitio de carreras en Attract](career-site.md).
+
 > [!NOTE]
-> Existen tres elementos importantes que hay que tener en cuenta sobre el proceso de oferta de empleo en LinkedIn.
+> La funcionalidad de registro de trabajo está disponible únicamente con el complemento de contratación completa de Attract.
+
+### <a name="posting-jobs-to-linkedin"></a>Publicación de trabajos en LinkedIn 
+
+Antes de registrar un trabajo desde Attract hasta LinkedIn, el administrador debe agregar el identificador de empresa de LinkedIn y el nombre de empresa de LinkedIn en **Configuración de administración**. El identificador de empresa de LinkedIn es necesario para asegurarse de que los trabajos que ha publicado desde Attract se asignan a la página correcta de empresa.
+
+Su identificador de empresa de LinkedIn es una cadena de números que identifica de forma exclusiva su empresa dentro de LinkedIn. Para obtener más información sobre cómo encontrar su identificador de empresa de LinkedIn, visite el [sitio de LinkedIn](https://aka.ms/findID).
+
+Para actualizar su empresa de LinkedIn, seleccione **centro de administración** en el menú **Configuración** (el símbolo de engranaje) y, a continuación la ficha **Integración de LinkedIn** . En la sección **Conectar con LinkedIn** , escriba su nombre de empresa de LinkedIn y el ID de empresa y luego guarde los valores.
+
+> [!NOTE]
+> Existen cuatro elementos importantes que hay que tener en cuenta sobre el proceso de oferta de empleo en LinkedIn.
 > 1. Los trabajos enviados a LinkedIn se registran como trabajos de "listas limitadas”. Los trabajos de listas limitadas no se pueden promocionar por todo el sitio de LinkedIn. Si desea promocionar trabajos de listas limitadas enviados a LinkedIn desde Attract, debe trabajar con LinkedIn para habilitar el “ajuste de trabajo”. Consulte los vínculos siguientes y póngase en contacto con el soporte de LinkedIn para obtener más detalles.
 >
 >    [Listas limitadas y registros de trabajos premium para el ajuste de trabajo](https://www.linkedin.com/help/recruiter/answer/79049/limited-listings-vs-premium-job-slots-for-job-wrapping)
@@ -90,14 +105,10 @@ Después de que se active un trabajo, este se puede registrar. Solo los reclutad
 >
 >    Si tiene problemas después de que este paso, contacte con el soporte de LinkedIn. 
 > 
+> 1. Los trabajos enviados a LinkedIn aparecen en el sitio de LinkedIn activo. No hay entorno de prueba para registrar trabajos en LinkedIn. 
+>
 > 1. Puede tardar hasta 24 horas que los trabajos enviados a LinkedIn estén visibles para candidatos de dentro de LinkedIn, como consecuencia del proceso de registro actual de trabajos por lotes de LinkedIn.
 
-El equipo de Attract trabaja continuamente para asociarse con los agregadores tableros de trabajo. Esta lista se expandirá con el tiempo.
-
-Para obtener más información acerca de registros de trabajo, consulte [La funcionalidad del sitio de carreras en Attract](./career-site.md).
-
-> [!NOTE]
-> La funcionalidad de registro de trabajo está disponible únicamente con el complemento de contratación completa de Attract.
 
 ## <a name="activate"></a>Activar
 

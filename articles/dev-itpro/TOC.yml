@@ -46,6 +46,10 @@ items:
       href: dev-tools/development-tools-overview.md
     - name: Tutorial de herramientas de desarrollo
       href: dev-tools/introduction-visual-studio.md
+    - name: AppChecker
+      items:
+      - name: Instalar BaseX para AppChecker
+        href: dev-tools/install-basex.md
     - name: Application Explorer
       href: dev-tools/application-explorer.md
     - name: Crear y depurar proyectos
@@ -264,6 +268,8 @@ items:
         href: extensibility/extensibility-changes-812.md
       - name: Cambios de extensibilidad de la versión 8.1.3
         href: extensibility/extensibility-changes-813.md
+      - name: Cambios de extensibilidad de la versión 10.0
+        href: extensibility/extensibility-changes-10.md
     - name: Conceptos fundamentales
       items:
       - name: Personalizaciones intrusivas
@@ -887,6 +893,7 @@ items:
   - name: Implementar entornos de demostración
     href: deployment/deploy-demo-environment.md
   - name: Implementación en la nube
+    href: deployment/cloud-deployment-overview.md
     items:
     - name: Implementación de autoservicio
       href: deployment/infrastructure-stack.md
@@ -1073,10 +1080,12 @@ items:
       href: dev-tools/update-development-tools.md
   - name: Ceses de uso
     items:
-    - name: API en desuso
-      href: migration-upgrade/deprecated-apis.md
-    - name: Características en desuso
+    - name: Características quitadas u obsoletas
       href: migration-upgrade/deprecated-features.md
+    - name: Amortización de métodos y elementos de metadatos
+      href: migration-upgrade/deprecation-deletion-apis.md
+    - name: API en desuso (junio de 2017)
+      href: migration-upgrade/deprecated-apis.md
 - name: Administración del sistema
   href: sysadmin/system-administration-home-page.md
   items:
@@ -1122,6 +1131,8 @@ items:
       href: sysadmin/activeperiod.md
     - name: Rol de seguridad de administrador de lotes
       href: sysadmin/runby.md
+    - name: Trabajo por lotes para administrar la desfragmentación del índice de SQL
+      href: sysadmin/batch-job-SQL-defragmentation.md
   - name: Asesor de optimización
     href: sysadmin/optimization-advisor-overview.md
     items:
@@ -1200,19 +1211,31 @@ items:
       href: lifecycle-services/use-translation-service-ua.md
     - name: Archivos de memoria de traducción
       href: lifecycle-services/use-translation-service-tm.md
-- name: Administración de bases de datos
+- name: Operaciones de movimientos de base de datos
   items:
-  - name: Copiar bases de datos de Azure SQL Database a entornos de SQL Server
-    href: database/copy-database-from-azure-sql-to-sql-server.md
-  - name: Copiar bases de datos de SQL Server a entornos de producción de Azure SQL Database
-    href: database/copy-database-from-sql-server-to-azure-sql.md
-  - name: Restaurar bases de datos en entornos que no sean de producción
-    href: database/request-point-in-time-restore.md
-  - name: Exportar copias de bases de datos para restaurarla más adelante
-    href: database/copy-operations-database.md
-  - name: Solicitar actualizaciones de base de datos de espacio aislado
-    href: database/database-refresh.md
-- name: Compatibilidad
+  - name: Información general
+    href: database/dbmovement-operations.md
+  - name: Guías de inicio rápido
+    items:
+    - name: Actualizar la base de datos
+      href: database/database-refresh.md
+    - name: Exportar una base de datos
+      href: database/export-database.md
+    - name: Importar una base de datos
+      href: database/import-database.md
+    - name: Restauración en un momento determinado de la base de datos
+      href: database/database-point-in-time-restore.md
+  - name: Tutoriales
+    items:
+    - name: Actualización para fines de formación
+      href: database/dbmovement-scenario-general-refresh.md
+    - name: Depuración y diagnóstico
+      href: database/dbmovement-scenario-debugdiag.md
+    - name: Promoción de configuración de impuestos dorados
+      href: database/dbmovement-scenario-goldenconfig.md
+    - name: Prueba destructiva
+      href: database/dbmovement-scenario-destructivetests.md
+- name: Soporte
   items:
   - name: Obtener soporte técnico para Finance and Operations y Lifecycle Services
     href: lifecycle-services/lcs-support.md
@@ -1228,9 +1251,9 @@ items:
     href: lifecycle-services/cloud-operations-servicing.md
   - name: Gestionar las experiencias de compatibilidad con Finance and Operations
     href: lifecycle-services/cloud-powered-support-lcs.md
-ms.openlocfilehash: 9baabd73eb9a6e0c33b41bc30a1ba0788a858ce9
-ms.sourcegitcommit: bacad87e2b9146e08e6fe16af01356954eb90574
+ms.openlocfilehash: b2462f8391ba3253b61c72bea481266d04ac8721
+ms.sourcegitcommit: 32e98213118968307c48b656b663c3df897faa79
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "373332"
+ms.lasthandoff: 03/04/2019
+ms.locfileid: "773811"

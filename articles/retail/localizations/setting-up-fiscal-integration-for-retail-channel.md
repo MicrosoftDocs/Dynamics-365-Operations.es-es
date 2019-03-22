@@ -3,7 +3,7 @@ title: Configurar la integración fiscal para canales comerciales
 description: En este tema se proporcionan instrucciones para configurar la funcionalidad de integración fiscal para canales minoristas.
 author: josaw
 manager: annbe
-ms.date: 2/01/2019
+ms.date: 02/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 3c2945c4310dc4c1ae74f215e9b28056e7d1ede9
-ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
+ms.openlocfilehash: 685340141ed35f4a2b57742328c69d3bbf9a73d2
+ms.sourcegitcommit: 70aeb93612ccd45ee88c605a1a4b87c469e3ff57
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "377327"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "773336"
 ---
 # <a name="set-up-the-fiscal-integration-for-retail-channels"></a>Configurar la integración fiscal para canales comerciales
 
@@ -175,7 +175,7 @@ En algunos casos, un texto especial se debe imprimir en un recibo fiscal si se a
     3. En el campo **Texto de recibo fiscal**, especifique un texto fiscal que se debe imprimir en un recibo fiscal.
 
     > [!NOTE]
-    > Si varios descuentos se aplican a la misma línea de transacción, la recepción fiscal contendrá los textos fiscales de todos los descuentos vinculados a dichas líneas de transacción. 
+    > Si varios descuentos se aplican a la misma línea de transacción, la recepción fiscal contendrá los textos fiscales de todos los descuentos vinculados a dichas líneas de transacción.
 
 ## <a name="set-error-handling-settings"></a>Establecimiento de la configuración de tratamiento de errores
 
@@ -210,3 +210,4 @@ Para habilitar los informes fiscales de X/Z que se ejecutarán desde PDV, debe a
     2. Agregue un nuevo botón y defina la propiedad del botón **Impresión fiscal X**.
     3. Agregue un nuevo botón y defina la propiedad del botón **Impresión fiscal Z**.
     4. En la página **Programación de distribución**, ejecute el trabajo **1090** para transferir cambios a la base de datos del canal.
+

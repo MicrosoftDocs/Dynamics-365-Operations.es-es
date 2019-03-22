@@ -1,9 +1,9 @@
 ---
-title: Modifique las celdas de definición de filas
-description: En este artículo se describe la información que se requiere para cada celda de una definición de fila en un informe financiero y se explica cómo escribir esa información.
+title: Modificar celdas de definición de filas
+description: En este tema se describe la información que se requiere para cada celda de una definición de fila en un informe financiero y se explica cómo escribir esa información.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6193d70c53ee09a28aa8763cb625b315ec180b95
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: d6f6e94fd8e7ddf92e89fedfab09ef0684505819
+ms.sourcegitcommit: eb24b63b10c4d06f7550bba9fbd1910ba2719b0a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "323649"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "379673"
 ---
-# <a name="modify-row-definition-cells"></a>Modifique las celdas de definición de filas
+# <a name="modify-row-definition-cells"></a>Modificar celdas de definición de filas
 
 [!include [banner](../includes/banner.md)]
 
-En este artículo se describe la información que se requiere para cada celda de una definición de fila en un informe financiero y se explica cómo escribir esa información.
+En este tema se describe la información que se requiere para cada celda de una definición de fila en un informe financiero y se explica cómo escribir esa información.
 
 ## <a name="specify-a-row-code-in-a-row-definition"></a>Especifique un código de fila en una definición de filas
 
@@ -386,7 +386,7 @@ Puede limitar una fila a un código existente del libro. La definición de la co
 Algunos sistemas contables admiten atributos de cuentas y atributos de transacción en los datos financieros. Estos atributos actúan como segmentos virtuales de la cuenta y pueden contener información adicional sobre la cuenta o la transacción. Esta información adicional podría ser identificadores de la cuenta, identificadores de lote, códigos postales u otro atributos. Si su sistema contable admite atributos, puede usar atributos de cuenta o atributos de transacción como modificadores de la fila en la definición de filas. Para obtener información sobre cómo anular la información de la fila, consulte la sección “Anulación de la definición de la columna” mendionada anteriormente en este artículo.
 
 ## <a name="specify-a-link-to-financial-dimensions-cell"></a>Especificar un vínculo a la celda de las dimensiones financieras
-La celda **Vincular a las dimensiones financieras** contiene vínculos a los datos financieros que se deben incluir en cada fila del informe. Esta celda contiene valores de dimensión. Sin embargo, puede especificar celdas de una hoja de cálculo de Microsoft Excel en lugar o además de valores de segmento o de dimensión. Para abrir el cuadro de diálogo **Dimensiones**, haga doble clic en la celda **Vínculo a las dimensiones financieras**.
+La celda **Vincular a las dimensiones financieras** contiene vínculos a los datos financieros que se deben incluir en cada fila del informe. Esta celda contiene valores de dimensión. Para abrir el cuadro de diálogo **Dimensiones**, haga doble clic en la celda **Vínculo a las dimensiones financieras**.
 
 > [!NOTE]
 > El diseñador de informes no puede seleccionar cuentas, dimensiones ni campos del sistema de Microsoft Dynamics ERP que incluyan los siguientes caracteres reservados: &, \*, \[, \], { o }. Para especificar información de una fila que ya se encuentra en la definición de fila, agregue la información a la celda **Vínculo a dimensiones financieras**. Para agregar nuevas filas que vinculan a los datos financieros, use el cuadro de diálogo **Insertar filas desde** para crear nuevas filas en la definición del informe. El título de la columna cambia, en función de cómo se configura la columna, tal y como se muestra en la siguiente tabla.
@@ -394,13 +394,11 @@ La celda **Vincular a las dimensiones financieras** contiene vínculos a los dat
 | Tipo de vínculo que se selecciona       | La descripción de la columna de vínculo cambia a esto |
 |----------------------------------|----------------------------------------------------|
 | Dimensiones financieras             | Vínculo a dimensiones financieras                       |
-| Hoja de cálculo externa               | Vincular a la hoja de cálculo                                  |
-| Dimensiones financieras + Hoja de cálculo | Vincular a dimensiones financieras + Hojas de cálculo           |
-| Informe de Management Reporter       | Informe de Management Reporter                         |
+| Hoja de cálculo de informe                 | Informe de de informes financieros                         |
 
 ### <a name="specify-a-dimension-or-range"></a>Especificar una dimensión o un intervalo
 
-1. En el diseñador de informes, abra la definición de filas para modificarla.
+1. En el Diseñador de informes, abra la definición de fila que desee modificar.
 2. Haga doble clic en una celda de la columna **Vínculo a dimensiones financieras**.
 3. En el cuadro de diálogo **Dimensiones**, haga doble clic en una celda situada bajo el nombre de la dimensión.
 4. En el cuadro de diálogo para la dimensión, seleccione **Individual o intervalo**.

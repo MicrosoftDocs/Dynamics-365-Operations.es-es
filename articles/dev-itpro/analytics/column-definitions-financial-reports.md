@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e92d50828f6511329401b43154895da1244788cd
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 872e7c833416f0f7d9aa0c55aadf72aec65ddaab
+ms.sourcegitcommit: f6fc90585632918d9357a384b27028f2aebe9b5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "356355"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "832157"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Definiciones de columna en los informes financieros
 
@@ -62,7 +62,7 @@ Una definición de columna puede contener de dos a 255 columnas.
 Una definición de columna incluye la información siguiente:
 
 - Una columna de las descripciones para la definición de filas
-- Columnas de importe que muestran datos de los datos financieros, una hoja de cálculo de Microsoft Excel, o los cálculos que se basan en otros datos en la definición de la columna
+- Columnas de importe que muestran datos de los datos financieros o cálculos que se basan en otros datos en la definición de la columna
 - Formato de columnas
 - Atribuir columnas
 
@@ -170,7 +170,7 @@ Puede usar la caja de diálogo **Encabezado de columna** para agregar, modificar
 
 ### <a name="create-an-automatically-generated-header"></a>Crear un encabezado generado automáticamente
 
-El diseñador de informes puede generar automáticamente encabezados de columna, en función de códigos de autotexto. Los códigos de Autotexto son variables que se actualizan cada vez que un informe se genera. Cualquier encabezado de columna puede incluir estos códigos para especificar la información de informe que puede variar, como fechas o números de período. Por lo tanto, puede usar una definición de columna para las definiciones de varios informes, períodos de tiempo y organigramas. Dado que los códigos de autotexto confían en la información del calendario de las filas de detalle de la definición de la columna, se admiten solo para las columnas **CALC** **FD** y **WKS**. La forma en que un código de autotexto aparece en la celda de encabezado de columna afecta a cómo dicha información aparece en el informe. En el cuadro de diálogo **Encabezado de columna**, los códigos de autotexto aparecen en mayúscula y minúscula. Por lo tanto, el texto aparece en mayúsculas y minúsculas en el informe. Por ejemplo, en un año natural estándar, **@CalMonthLong** resuelve el mes **7** en **Julio**. Si el nombre del mes debe aparecer en mayúsculas (por ejemplo, **JULIO**), introduzca el código de autotexto en mayúsculas en el campo **Encabezado de columna**. Por ejemplo, introduzca **@CALMONTHLONG**. Puede mezclar códigos y el texto. Por ejemplo, puede especificar el siguiente texto de encabezado: **Period @FiscalPeriod-@FiscalYear from @StartDate to @EndDate**. El encabezado del informe que se genera se asemeja al texto siguiente: **Período 1-02 desde 01/01/02 a 01/31/02**.
+El diseñador de informes puede generar automáticamente encabezados de columna, en función de códigos de autotexto. Los códigos de Autotexto son variables que se actualizan cada vez que un informe se genera. Cualquier encabezado de columna puede incluir estos códigos para especificar la información de informe que puede variar, como fechas o números de período. Por lo tanto, puede usar una definición de columna para las definiciones de varios informes, períodos de tiempo y organigramas. Dado que los códigos de autotexto confían en la información del calendario de las filas de detalle de la definición de la columna, se admiten solo para las columnas **CALC** y **FD**. La forma en que un código de autotexto aparece en la celda de encabezado de columna afecta a cómo dicha información aparece en el informe. En el cuadro de diálogo **Encabezado de columna**, los códigos de autotexto aparecen en mayúscula y minúscula. Por lo tanto, el texto aparece en mayúsculas y minúsculas en el informe. Por ejemplo, en un año natural estándar, **@CalMonthLong** resuelve el mes **7** en **Julio**. Si el nombre del mes debe aparecer en mayúsculas (por ejemplo, **JULIO**), introduzca el código de autotexto en mayúsculas en el campo **Encabezado de columna**. Por ejemplo, introduzca **@CALMONTHLONG**. Puede mezclar códigos y el texto. Por ejemplo, puede especificar el siguiente texto de encabezado: **Period @FiscalPeriod-@FiscalYear from @StartDate to @EndDate**. El encabezado del informe que se genera se asemeja al texto siguiente: **Período 1-02 desde 01/01/02 a 01/31/02**.
 
 > [!NOTE]
 > El formato de parte del texto, como la fecha larga, depende de la configuración regional en el servidor de Finance and Operations. Para cambiar estos ajustes, haga clic en el botón **Iniciar**, haga clic en **Panel de control** y luego en **Región y idioma**. En la tabla siguiente se enumeran las opciones disponibles de autotexto para encabezados de columna.
@@ -291,7 +291,7 @@ La celda **Espacios adicionales antes de la columna** especifica la anchura del 
 1. En el diseñador de informes, abra la definición de la columna para modificarla.
 2. En la celda **Espacios adicionales antes de la columna**, especifique el número de espacios para insertar entre las columnas.
 
-### <a name="specify-a-currency"></a>Especificar una divisa
+### <a name="specify-a-format-currency-override"></a>Especificar una anulación de divisa de formato
 
 La celda **Anulación de formato o de divisa** especifica el formato de decimal, divisa e importes de porcentaje de la columna. Este formato reemplaza el formato que se especifica en la definición del informe o valores predeterminados del sistema.
 
@@ -361,7 +361,7 @@ El tipo de información que cada columna en un informe incluye se especifica con
     <tbody>
     <tr>
     <td>FD</td>
-    <td>Muestra datos financieros o de una hoja de cálculo de Excel cuando usa una columna <strong>Vínculo a dimensiones financieras</strong> o <strong>Vínculo a hoja de cálculo</strong> en la definición de fila. Si selecciona el tipo de columna <strong>FD</strong>, se especifica automáticamente la configuración predeterminada para las filas siguientes: <ul>
+    <td>Muestra datos financieros cuando usa una columna <strong>Vínculo a dimensiones financieras</strong> en la definición de fila. Si selecciona el tipo de columna <strong>FD</strong>, se especifica automáticamente la configuración predeterminada para las filas siguientes: <ul>
     <li><strong>Código del libro/Categoría de atributo:</strong> REAL</li>
     <li><strong>Código del libro/Categoría de atributo:</strong> REAL</li>
     <li><strong>Año fiscal:</strong> BASE</li>
@@ -394,14 +394,6 @@ Es posible cambiar estos ajustes predeterminados.</td>
     <tr>
     <td>PÁGINA</td>
     <td>Insertar un salto de página vertical en el informe. Las columnas que están a la derecha de la columna <strong>PAG</strong> aparecen en una página diferente.</td>
-    </tr>
-    <tr>
-    <td>WKS</td>
-    <td>Visualizar datos que se tiran de una hoja de cálculo de Excel. Si selecciona el tipo de columna <strong>HOJ</strong>, se especifica automáticamente la configuración predeterminada para las filas siguientes: <ul>
-    <li><strong>Año fiscal:</strong> PERIODIC</li>
-    <li><strong>Período:</strong> BASE</li>
-    </ul>
-Es posible cambiar estos ajustes predeterminados.</td>
     </tr>
     <tr>
     <td>ATTR</td>
@@ -518,13 +510,13 @@ También puede usar cualquier combinación de caracteres alfanuméricos para una
 
 ### <a name="format-a-multiple-currency-report-in-a-column-definition"></a>Aplicar formato a un informe de varias divisas en una definición de la columna
 
-Un informe de varias divisas puede mostrar importes en la divisa natural (local), la divisa funcional (predeterminada) o la divisa de notificación. La divisa funcional de una empresa se define en el sistema de Microsoft Dynamics ERP. No confunda esta configuración de ERP con las opciones de configuración regionales del sistema operativo, donde puede configurar los símbolos de la divisa predeterminada que se usan en los informes. Las siguientes celdas relacionadas con la divisa están disponibles en la definición de la columna:
+Un informe de varias divisas puede mostrar importes en la divisa de contabilidad del libro mayor, el informe de libro mayor, la divisa de la transacción de origen, o la divisa de notificación traducida. La divisa de contabilidad de una empresa se define en la instalación del libro mayor. No confunda esta configuración con las opciones de configuración regionales del sistema operativo, donde puede configurar los símbolos de la divisa predeterminada que se usan en los informes. Las siguientes celdas relacionadas con la divisa están disponibles en la definición de la columna:
 
-- **Visualización de divisa**: especificar el tipo de divisa (natural, funcional o de notificación) en que muestran las transacciones. Esta función se denomina a veces traducción de la divisa. La traducción de la divisa es la capacidad de notificar importes de la contabilidad general en una divisa que puede no ser la divisa funcional de la empresa o la divisa en que se registró la transacción.
+- **Visualización de divisa**: especificar el tipo de divisa (contabilidad, informes, transacción o informe traducido) donde se muestran las transacciones. La funcionalidad de traducido a una divisa de notificación se denomina en ocasiones traducción de la divisa. La traducción de la divisa es la capacidad de notificar importes de la contabilidad general en una divisa que puede no ser la divisa funcional de la empresa o la divisa de notificación en que se registró la transacción.
 - **Filtro de la divisa**: especifique un filtro de la divisa. Solo las transacciones que se especifican en la divisa seleccionada se muestran en el informe.
 
-> [!NOTE]
-> Para crear informes que usan varias divisas, debe seleccionar la casilla de verificación **Incluir todas las divisas de notificación** en la pestaña **Informe** de la definición del informe. Para determinar la divisa funcional de una empresa, siga estos pasos.
+> 
+Para determinar la divisa de contabilidad de una empresa, siga estos pasos.
 
 1. En el Diseñador de informes, en el menú **Compañía**, haga clic en **Compañías**.
 2. En el cuadro de diálogo **Empresas**, seleccione una empresa, y haga clic en **Ver**.
@@ -533,20 +525,18 @@ Un informe de varias divisas puede mostrar importes en la divisa natural (local)
 #### <a name="specify-the-currency-on-a-multiple-currency-report"></a>Especificar la divisa en un informe de varias divisas
 
 1. En el diseñador de informes, abra la definición de la columna para modificarla.
-2. Haga doble clic en la celda **Visualización de divisa** en a columna **FD** correspondiente, y seleccione la opción para mostrar la información de divisa: **Divisa natural/originaria**, **Divisa funcional de la información de empresa** o divisa de notificación.
+2. Haga doble clic en la celda **Visualización de divisa** en a columna **FD** correspondiente, y seleccione la opción para mostrar la información de divisa: **Divisa de contabilidad del libro mayor**, **Divisa de notificación**, divisa de transacción o seleccione traducir a otra divisa de notificación.
 3. Haga doble clic en la celda **Filtro de la divisa** en la columna **FD** correspondiente, y seleccione el código de divisa correspondiente en la lista. Solo las transacciones que se especifican en esta divisa se muestran en el informe.
 
-> [!NOTE]
-> Las opciones que se describen aquí pueden variar, en función del sistema ERP. Para obtener más información, consulte [Documentación del sistema de ERP de Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=5916).
 
 ### <a name="example-for-currency-display-and-currency-filter-cells"></a>Ejemplo para las celdas de visualización de la divisa y filtro de la divisa
 
 Fátima ha realizado las siguientes selecciones de divisa en la definición de la columna:
 
 - **Filtro de la divisa:** Yen
-- **Visualización de divisa:** Funcional (dólares estadounidenses).
+- **Visualización de la divisa:** divisa contable del libro mayor (dólares estadounidenses).
 
-Debido al filtro de la divisa que Fátima ha seleccionado, el informe incluye solo las transacciones especificadas en yenes japoneses (JPY). Debido a la visualización de la divisa que ha seleccionado, el informe muestra las transacciones en la divisa funcional, dólares estadounidenses (USD).
+Debido al filtro de la divisa que Fátima ha seleccionado, el informe incluye solo las transacciones especificadas en yenes japoneses (JPY). Debido a la visualización de la divisa que ha seleccionado, el informe muestra las transacciones en la divisa contable, dólares estadounidenses (USD).
 
 #### <a name="currency-filter-and-currency-display-combinations"></a>Combinaciones del filtro de la divisa y la visualización de la divisa
 
@@ -555,10 +545,10 @@ En la tabla siguiente se muestran los resultados del informe en los que se puede
 
 | Celda de visualización de divisa                        | Celda de filtro de la divisa | Resultado del informe |
 |----------------------------------------------|----------------------|---------------|
-| Divisa natural u originaria                 | **YEN**              | **Y6.000**: el resultado muestra solo las transacciones especificadas en JPY. |
-| Divisa funcional de la información de empresa | **YEN**              |**$60**: el resultado muestra solo las transacciones especificadas en JPY y muestra esas transacciones en USD.<blockquote>[!NOTE] El índice de conversión es aproximadamente 100 JPY por USD.</blockquote> |
-| Moneda funcional de la información de la compañía | Vacía                | **$2.310**: el resultado muestra todos los datos en la divisa funcional que se especifica en la información de empresa.<blockquote>[!NOTE] Este importe es la suma de todas las transacciones en divisa funcional.</blockquote> |
-| Divisa natural u originaria                 | Vacía                | **$2.250**: el resultado muestra todos los importes en la divisa en la que se ha realizado la transacción. |
+| Divisa de la transacción                 | **YEN**              | **Y6.000**: el resultado muestra solo las transacciones especificadas en JPY. |
+| Divisa de contabilidad del libro mayor | **YEN**              |**$60**: el resultado muestra solo las transacciones especificadas en JPY y muestra esas transacciones en USD.<blockquote>[!NOTE] El índice de conversión es aproximadamente 100 JPY por USD.</blockquote> |
+| Divisa de contabilidad del libro mayor | Vacía                | **$2310**: el resultado muestra todos los datos en la divisa contable que se especifica en el libro mayor.<blockquote>[!NOTE] Este importe es la suma de todas las transacciones en divisa contable.</blockquote> |
+| Divisa de la transacción                 | Vacía                | **$2.250**: el resultado muestra todos los importes en la divisa en la que se ha realizado la transacción. Esto significa que el total agrega todos los importes de las distintas divisas. |
 
 ### <a name="calculation-column-in-a-column-definition"></a>Columna de cálculo en una definición de columna
 

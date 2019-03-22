@@ -3,7 +3,7 @@ title: Procesamiento de producto con peso capturado con la gestión de almacenes
 description: Este tema describe cómo usar plantillas de trabajo y directivas de ubicación para determinar cómo y dónde se realiza el trabajo en el almacén.
 author: perlynne
 manager: AnnBe
-ms.date: 01/10/2018
+ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,23 +17,23 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 5161860e3b1c5b0ae795d109159268be085ec5af
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ced22a144e57b624ceacb8bb5c3032218db3a0eb
+ms.sourcegitcommit: bacec397ee48ac583596be156c87ead474ee07df
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "334068"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "777281"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Procesamiento de producto con peso capturado con la gestión de almacenes
-[!include [preview banner](../../includes/preview-banner.md)]
+
 [!include [banner](../includes/banner.md)]
 
-**Exposición de la función**
+## <a name="feature-exposure"></a>Exposición de la función
 
 Para usar la gestión de almacén para procesar los productos con peso capturado, debe usar una clave de configuración de la licencia para activar la funcionalidad. (Vaya a **Administración del sistema \> Configuración \> Configuración de licencias**. A continuación, en la pestaña **Claves de configuración** , expanda **Comercio \> Administración del almacén y el transporte**, y seleccione la casilla para **Peso capturado para el almacén**).
 
 > [!NOTE]
-> Tanto la clave de configuración de la licencia **Administración del almacén y el transporte** y las claves de configuración de la licencia **Peso capturado del proceso de distribución** también se deben activar.
+> Tanto la clave de configuración de la licencia **Administración del almacén y el transporte** y las claves de configuración de la licencia **Procesar distribución \> Peso capturado** también se deben activar.
 
 Después de que se vuelva a activar la clave de configuración de la licencia, al crear un producto liberado, puede seleccionar **Peso capturado**. También puede asociar el producto lanzado a un grupo de dimensiones de almacenamiento que el parámetro **Procesos de gestión de almacenes de uso** se ha seleccionado.
 

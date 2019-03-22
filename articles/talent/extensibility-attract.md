@@ -3,7 +3,7 @@ title: La extensibilidad en Attract
 description: Este tema describe cómo puede ampliar la aplicación Microsoft Dynamics 365 for Talent - Attract con la plataforma Microsoft Power.
 author: josaw
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 03/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,18 +18,41 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: d9e1dd3a67c5f64b5d05f0f171226085138e0b44
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: c77c64070cb82180441f4b629b6884981b9b81d2
+ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "306083"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "789660"
 ---
 # <a name="extensibility-in-attract"></a>La extensibilidad en Attract
 
 [!include[banner](../includes/banner.md)]
 
 Microsoft Dynamics 365 for Talent se crea encima de la plataforma Common Data Service (CDS) for Apps y se puede ampliar de distintas formas con la plataforma Microsoft Power y las capacidades que Common Data Service for Apps ofrece. Por lo tanto, puede configurar y personalizar el sistema mediante Microsoft PowerApps y Microsoft Flow. También puede obtener un análisis adicional sobre personas usando Microsoft Power BI. Además, las nuevas actividades personalizadas, como las actividades de PowerApps y contenido Web (iframe), crean un proceso de contratación más personalizable que nunca. Con estas actividades, puede ajustar el proceso de contratación a sus necesidades y procesos de negocio, y puede asegurarse de que tanto el equipo de contratación como los candidatos tienen una experiencia perfecta y personalizada.
+
+## <a name="extending-option-sets-in-attract"></a>Ampliación de conjuntos de opciones en Attract
+
+Un **conjunto de opciones** (Lista de selección) es un tipo de campo que puede incluirse en una entidad. Define un conjunto de opciones. Cuando un conjunto de opciones se muestra en un formulario utiliza un control de la lista desplegable.  En Attract, hay varios campos que son conjuntos de opciones.  Estamos empezando a introducir la capacidad de extender los conjuntos de opciones, comenzando por el campo de motivo Rechazo, el campo Tipo de empleo , y el campo Tipo de la antigüedad.   Además, puede agregar las etiquetas localizadas de visualización para las opciones que desee agregar.  Consulte el siguiente enlace para obtener más información:  [Personalizar las etiquetas de conjuntos de opciones](https://docs.microsoft.com/en-us/poweapps/developer/common-data-service/customize-labels-suport-multiple-languages)
+
+> [!NOTE]
+> La propuesta de empleo en la funcionalidad de LinkedIn requiere el uso de los campos **Tipo de empleo** y **Tipo de antigüedad** en la página **Detalles del trabajo**. Los valores predeterminados de estos campos son compatibles con LinkedIn y se visualizan cuando se registra el trabajo. Por lo tanto, si va a publicar trabajos en LinkedIn y modifica los valores del conjunto de opciones existente para estos campos, el trabajo seguirá publicado, pero LinkedIn no mostrará los valores de **Tipo de empleo** y **Tipo de la antigüedad** personalizados.  
+
+A continuación, se enumeran los pasos para actualizar el campo **Motivo de rechazo** con los valores específicos de su negocio.  
+
+1. Para ampliar el conjunto de opciones **Motivo de rechazo**, desplácese a [Página Web de gestión de PowerApps.](Https://admin.powerapps.microsoft.com)
+2. Puede que se le solicite iniciar sesión en la cuenta. Proporcione sus credenciales de ID de usuario y la contraseña que usa para iniciar sesión en Dynamics365 y/o Office365 y, a continuación haga clic en **Siguiente**.
+3. En la pestaña **Entornos** , seleccione el entorno que desea administrar, y haga doble clic para ir a la ficha **Detalles**.
+4. En la pestaña **Detalles** , seleccione **Centro administración de Dynamics 365**.
+5. Seleccione la instancia que desea modificar y seleccione **abierto**.
+6. Vaya a **Valores**y luego a **Personalizaciones**, y seleccione **Personalizar el sistema**.
+7. Busque la entidad cuyo conjunto de opciones desea expandir seleccionando **Entidades** y expandiendo el grupo. En este ejemplo, será la **Entidad de aplicación de trabajo**.
+8. Vaya al campo cuyo conjunto de opciones desea ampliar seleccionando la opción **Campos**. En este ejemplo, será **msdyn_rejectionreason**. Haga doble clic en el campo.
+9. En el campo **Conjunto de opciones**, seleccione **Editar**.
+10. Seleccione el icono **+**.
+11. Especifique una **Etiqueta**.  (Debe ser un valor único - sin duplicados).
+12. Seleccione **Guardar**.
+13. Seleccione **Publicar** en la parte superior de la página.
 
 ## <a name="take-advantage-of-the-microsoft-power-platform"></a>Aproveche Microsoft Power Platform 
 

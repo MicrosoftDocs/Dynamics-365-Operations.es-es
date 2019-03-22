@@ -3,7 +3,7 @@ title: Estrategia de solucionador para la configuración de productos
 description: Este tema describe cómo puede usar la estrategia de solucionador para mejorar el rendimiento de la configuración de productos.
 author: cvocph
 manager: AnnBe
-ms.date: 01/02/2018
+ms.date: 02/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0abb9313ec62cfdfe3bf7c810e2143dcf502bf9
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 16a11c5030f5641abb87830f5221ded5bb7ac038
+ms.sourcegitcommit: 0ceee30a60468a01db6f5b3526dcb9c6abc9d4dc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "351157"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "403925"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>Estrategia de solucionador para la configuración de productos
 
@@ -62,8 +62,8 @@ La siguiente tabla proporciona recomendaciones acerca de la estrategia de soluci
 | Estrategia de solucionador      | Use la estrategia en este escenario |
 |----------------------|-----------------------------------|
 | Valor predeterminado              | La estrategia **Predeterminada** se ha optimizado para solucionar los modelos que se basan en restricciones de tabla. Los estudios de implementación de cliente han mostrado que esta estrategia es la estrategia más eficiente en escenarios donde las restricciones de tabla se utilizan extensivamente. |
-| Dominio mínimo primero | Las estrategias **Dominio mínimo primero** y **De arriba a abajo** se encuentran íntimamente relacionadas. Los estudios de implementación de cliente han mostrado que la estrategia **De arriba a abajo**, que se introdujo en CU8, supera la estrategia **Dominio mínimo primero** . Sin embargo, la estrategia **Dominio mínimo primero** se mantiene en el producto para una compatibilidad con versiones anteriores. Ambas estas estrategias de solucionador han demostrado ser más eficientes a la hora de resolver modelos que contienen varias expresiones aritméticas en las que no se utilizan restricciones de tabla. Sin embargo, en algunos casos, la estrategia **Predeterminada** supera estas dos estrategias. Por lo tanto, no olvide probar cada estrategia. |
-| De arriba a abajo             | Las estrategias **Dominio mínimo primero** y **De arriba a abajo** se encuentran íntimamente relacionadas. Los estudios de implementación de cliente han mostrado que la estrategia **De arriba a abajo**, que se introdujo en CU8, supera la estrategia **Dominio mínimo primero** . Sin embargo, la estrategia **Dominio mínimo primero** se mantiene en el producto para una compatibilidad con versiones anteriores. Ambas estas estrategias de solucionador han demostrado ser más eficientes a la hora de resolver modelos que contienen varias expresiones aritméticas en las que no se utilizan restricciones de tabla. Sin embargo, en algunos casos, la estrategia **Predeterminada** supera estas dos estrategias. Por lo tanto, no olvide probar cada estrategia. |
+| Dominios mínimos primero | Las estrategias **Dominios mínimos primero** y **De arriba abajo** se encuentran íntimamente relacionadas. Los estudios de implementación de cliente han mostrado que la estrategia **De arriba abajo**, supera la estrategia **Dominios mínimos primero**. Sin embargo, la estrategia **Dominios mínimos primero** se mantiene en el producto para una compatibilidad con versiones anteriores. Ambas estas estrategias de solucionador han demostrado ser más eficientes a la hora de resolver modelos que contienen varias expresiones aritméticas en las que no se utilizan restricciones de tabla. Sin embargo, en algunos casos, la estrategia **Predeterminada** supera estas dos estrategias. Por lo tanto, no olvide probar cada estrategia. |
+| De arriba a abajo             | Las estrategias **Dominios mínimos primero** y **De arriba abajo** se encuentran íntimamente relacionadas. Los estudios de implementación de cliente han mostrado que la estrategia **De arriba abajo**, supera la estrategia **Dominios mínimos primero**. Sin embargo, la estrategia **Dominios mínimos primero** se mantiene en el producto para una compatibilidad con versiones anteriores. Ambas estas estrategias de solucionador han demostrado ser más eficientes a la hora de resolver modelos que contienen varias expresiones aritméticas en las que no se utilizan restricciones de tabla. Sin embargo, en algunos casos, la estrategia **Predeterminada** supera estas dos estrategias. Por lo tanto, no olvide probar cada estrategia. |
 | Z3                   | Le recomendamos que utilice la estrategia **Z3** como la estrategia de solucionador predeterminada. Si le preocupa el rendimiento y la escalabilidad, puede evaluar las otras estrategias. |
 
 ## <a name="additional-resources"></a>Recursos adicionales

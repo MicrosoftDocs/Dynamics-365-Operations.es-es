@@ -3,7 +3,7 @@ title: Página principal de proveedores
 description: Este tema proporciona una visión general de los proveedores.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/18/2017
+ms.date: 02/15/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 6cc7ee98b3fabb774339dd1fc027d38d00d8b31f
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: f1acf2bade2bb279a35fdf4689bbbcc49e64101f
+ms.sourcegitcommit: afab5269613d1d1dfd79cd39370b747dee13d3fc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "302843"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "403294"
 ---
 # <a name="accounts-payable-home-page"></a>Página principal de proveedores
 
@@ -123,15 +123,17 @@ En los temas siguientes se proporciona información acerca de las liquidaciones.
 
 #### <a name="whats-new-and-in-development"></a>Novedades y características en desarrollo
 
-Consulte la [Guía básica de Microsoft Dynamics 365](https://roadmap.dynamics.com/) para ver qué características nuevas hemos lanzado y cuáles están en desarrollo. 
+Vaya a las [Notas de la versión Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) para ver qué nuevas características están planificadas. 
 
 #### <a name="blogs"></a>Blogs
 
-Puede encontrar opiniones, noticias y otra información sobre proveedores y otras soluciones en el [blog Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
-
-Hay muchas publicaciones sobre proveedores en el [blog del equipo del producto Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/). Aunque la mayoría de ellos se escribieron para la versión anterior de Proveedores, aún se aplican los mismos conceptos y, en la versión actual, los procedimientos son también similares.
+Encontrará opiniones, noticias y otra información sobre proveedores y otras soluciones en el blog [Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) y el blog [Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 El [blog de la comunidad Microsoft Dynamics Operations Partner](https://community.dynamics.com/partner/b/operationspartnercommunityblog) proporciona a los socios de Microsoft Dynamics un único recurso desde el que obtener información sobre las novedades y tendencias de MBS Operations.
+
+#### <a name="community-blogs"></a>Blogs de la comunidad
+
+[Cómo administrar los proveedores en Dynamics 365 for Finance and Operations](https://financefunction.tech/2019/02/15/how-to-manage-payables-in-dynamics-365-for-finance-and-operations)
 
 #### <a name="task-guides"></a>Guías de tareas
 Hay ayuda adicional disponible como guías de tareas en Finance and Operations. Para tener acceso a las guías de tareas, haga clic en el botón Ayuda en cualquier página.

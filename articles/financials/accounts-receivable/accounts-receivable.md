@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 303d67c0b662e6c21cebb5aa10ed28555459522e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 98ec7d9a57cc39c22a31c025754c83dc1a95139e
+ms.sourcegitcommit: afab5269613d1d1dfd79cd39370b747dee13d3fc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "302861"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "403387"
 ---
 # <a name="accounts-receivable-home-page"></a>Página principal de clientes
 
@@ -96,13 +96,11 @@ Acepte diferentes tipos de pago de los clientes, como letras de cambio, efectivo
 
 #### <a name="whats-new-and-in-development"></a>Novedades y características en desarrollo
 
-Consulte la [Guía básica de Microsoft Dynamics 365](https://roadmap.dynamics.com/) para ver qué características nuevas hemos lanzado y cuáles están en desarrollo. 
+Vaya a la [Guía básica de Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) para ver qué nuevas características están planificadas. 
 
 #### <a name="blogs"></a>Blogs
 
-Puede encontrar opiniones, noticias y otra información sobre clientes y otras soluciones en el [blog Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
-
-Hay muchas publicaciones sobre clientes en el [blog del equipo del producto Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/). Aunque algunas de estas publicaciones se crearon para la versión anterior de Clientes, aún se aplican los mismos conceptos. Además, los procedimientos también son similares en la versión actual.
+Encontrará opiniones, noticias y otra información sobre clientes y otras soluciones en el blog [Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) y el blog [Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 El [blog de la comunidad Microsoft Dynamics Operations Partner](https://community.dynamics.com/partner/b/operationspartnercommunityblog) proporciona a los socios de Microsoft Dynamics un único recurso desde el que obtener información sobre las novedades y tendencias de MBS Operations.
 

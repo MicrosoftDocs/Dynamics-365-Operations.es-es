@@ -3,7 +3,7 @@ title: Seguridad y gestión de roles en Attract
 description: Este tema proporciona información sobre la seguridad de los roles en Microsoft Dynamics 365 for Talent - Attract.
 author: josaw1
 manager: AnnBe
-ms.date: 10/18/2018
+ms.date: 03/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw1
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 5674df1657b46aa31e2011562f4ebbff2c16fee9
-ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
+ms.openlocfilehash: bb313c489a3bdaa71f8db870cab729d86088f4db
+ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2019
-ms.locfileid: "374789"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "789706"
 ---
 # <a name="security-and-role-management-in-attract"></a>Seguridad y gestión de roles en Attract
 
@@ -100,14 +100,16 @@ Los privilegios siguientes se aplican a los datos específicos del trabajo y las
 | Datos o acciones          | Técnico de selección de personal | Responsable de contratación | Entrevistador |
 |-------------------------|-----------|----------------|-------------|
 | Documentos de solicitudes   | Crear, leer, actualizar y eliminar trabajos para los que el usuario se encuentra en el equipo de contratación | Crear, leer, actualizar y eliminar trabajos para los que el usuario se encuentra en el equipo de contratación | Sólo lectura |
-| Notas de solicitudes       | Crear, leer, actualizar y eliminar trabajos para los que el usuario se encuentra en el equipo de contratación | Crear, leer, actualizar y eliminar trabajos para los que el usuario se encuentra en el equipo de contratación | Crear |
+| Notas de solicitudes       | Crear, leer, actualizar y eliminar trabajos para los que el usuario se encuentra en el equipo de contratación | Crear, leer, actualizar y eliminar trabajos para los que el usuario se encuentra en el equipo de contratación | Sólo lectura|
 | Actividad de solicitud    | Ver, si el usuario se encuentra en el equipo de contratación | Ver, si el usuario se encuentra en el equipo de contratación | Sólo lectura |
 | Valoración de solicitud    | Agregar y ver todas las valoraciones si el usuario se encuentra en el equipo de contratación | Agregar y ver todas las valoraciones si el usuario se encuentra en el equipo de contratación | Se pueden agregar valoraciones\*\* |
 | Rechazar valoración      | Se puede rechazar si el usuario se encuentra en el equipo de contratación | No permitido | No permitido |
 | Avanzar etapa           | Se puede rechazar si el usuario se encuentra en el equipo de contratación | Se puede avanzar si el usuario se encuentra en el equipo de contratación | No permitido |
 | Lazar administración de ofertas | Puede iniciar la administración de la propuesta | Hay una opción de configuración en la actividad de la propuesta. | No permitido |
 
-\*\* Una opción de configuración en la [configuración de actividad de valoración](activities-attract.md#feedback-activity) controla si los entrevistadores pueden ver las valoraciones de los demás.
+
+\*\* Una opción de configuración en la [configuración de actividad de valoración](./activities-attract.md) controla si los entrevistadores pueden ver las valoraciones de los demás.
+
 
 ## <a name="process-templates"></a>Plantillas de proceso
 

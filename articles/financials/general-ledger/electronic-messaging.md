@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 082ad886f40a52457900523f44158da3ed939458
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 5326642553c7efcebc6c6af953e2dafe9e62e9ec
+ms.sourcegitcommit: f6fc90585632918d9357a384b27028f2aebe9b5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "357942"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "832204"
 ---
 # <a name="electronic-messaging"></a>Mensajería electrónica
 
@@ -69,6 +69,7 @@ Si no importa un paquete de entidad de datos, puede configurar manualmente la fu
 - [Campos adicionales](#additional-fields)
 - [Configuración de clase ejecutable](#executable-class-settings)
 - [Acciones de llenado de registros](#populate-records-actions)
+- [Aplicaciones web](#web-applications)
 - [Configuración de servicio web](#web-service-settings)
 - [Acciones de procesamiento de mensajes](#message-processing-actions)
 - [Procesamiento de mensaje electrónico](#electronic-message-processing)
@@ -85,27 +86,49 @@ Los tipos de elementos de mensaje identifican los tipos de registros que se usar
 
 Los estados del elemento de mensaje identifican los estados que se aplicarán a los elementos del mensaje en el proceso que está configurando. Puede configurar los tipos de elementos del mensaje en la página **Estados de elemento de mensaje** (**Impuestos** \> **Configuración** \> **Mensajes electrónicos** \> **Estados de elemento de mensaje**).
 
+El parámetro**Permitir la cancelación** de un estado de elemento de mensaje define si se permitirá al usuario eliminar un elemento de mensaje en este estado mediante el formulario **Mensajes electrónicos** o el formulario **Elementos del mensaje electrónico** . 
+
 ### <a name="message-statuses"></a>Estados de mensaje
 
 Configure los estados del mensaje que deben estar disponibles en el procesamiento de mensajes. Puede configurar los estados del mensaje en la página **Estados de mensaje** (**Impuestos** \> **Configuración** \> **Mensajes electrónicos** \> **Estados de mensaje**).
+
+Descripción de los campos:
+
+| Nombre del campo           | Descripción |
+|----------------------|-------------|
+|Estado del mensaje        | Nombre único del estado del mensaje electrónico que caracteriza al estado de un mensaje en cada momento de tiempo. Este nombre aparece en el formulario de los mensajes electrónicos y en un registro relacionado con el mensaje electrónico. |
+|Descripción           | Descripción relacionada con el estado de mensaje electrónico      |
+|Tipo de respuesta         | Algunas acciones en un proceso pueden generar más de un tipo de respuesta. Como por ejemplo, la acción del tipo **Servicio web** puede dar como resultado el tipo de respuesta **Ejecutado correctamente** o  **Error técnico** en función del resultado de su ejecución. En este caso el estado del mensaje para ambos tipos de respuesta debe estar definido. Consulte [Tipos de acción de procesamiento de mensajes](#message-processing-action-types) para obtener más información sobre los tipos de acción y sus tipos de respuesta relacionados. |
+|Estado de elemento de mensaje   |Existen casos en los que el estado del mensaje electrónico debe influir respectivamente en los estados de elementos de mensaje relacionados. Asocie tal estado del elemento del mensaje de este campo seleccionándolo desde la búsqueda. |
+|Permitir eliminación          | El parámetro **Permitir eliminación** de un estado de mensaje electrónico define si se permitirá al usuario eliminar un mensaje electrónico en este estado mediante el formulario **Mensajes electrónicos**.            |
 
 ### <a name="additional-fields"></a>Campos adicionales
 
 La funcionalidad de los mensajes electrónicos permite rellenar los registros desde una tabla transaccional. De esta manera, puede preparar los registros para informar y luego informarlos. A veces, no hay suficiente información en la tabla transaccional para notificar un registro según los requisitos de informe. Puede completar toda la información que se debe notificar para un registro configurando campos adicionales. Los campos adicionales se pueden asociar con mensajes y elementos de mensaje. Puede configurar campos adicionales en la página **Campos adicionales** (**Impuestos** \> **Configuración** \> **Mensajes electrónicos** \> **Campos adicionales**).
 
-En la tabla siguiente se describen los campos en la página **Campos adicionales**.
+En la tabla siguiente se describen los campos generales en la página **Campos adicionales**:
 
 | Campo                | Descripción |
 |----------------------|-------------|
 | Nombre del campo           | Escriba el nombre del atributo adicional de elementos de mensaje relacionados con el proceso. Este nombre aparece en la interfaz de usuario mientras trabaja con el proceso. También se puede usar en configuraciones de ER relacionadas con el proceso. |
 | Descripción          | Escriba una descripción del atributo adicional de elementos de mensaje relacionados con el proceso. |
-| Valor del campo          | Especifique el valor de campo que se va a usar en relación con un elemento de mensaje durante la notificación. |
-| Descripción del campo    | Especifique una descripción del valor de campo que se va a usar en relación con un elemento de mensaje durante la notificación. |
+| Edición de usuario            | En el caso de que un usuario deba poder cambiar el valor del campo adicional desde una interfaz del usuario, configure esta casilla en **Sí**, si no **No**. |
+| Contador              | Si el campo adicional debe contener un número de secuencia dentro de un mensaje electrónico, marque esta casilla. Los valores del campo adicional se rellenarán automáticamente durante la ejecución de una acción del tipo “exportación de informes electrónicos”.  |
+| Oculto               | Si el campo adicional se debe ocultar de la interfaz de usuario, marque esta casilla.  |
+
+Cada campo adicional puede tener diferentes valores para el procesamiento. Puede definir estos parámetros en la ficha desplegable Valores:
+
+| Campo                | Descripción |
+|----------------------|-------------|
+| Valor del campo          | Especifique el valor de campo que se va a usar en relación con un elemento de mensaje o un mensaje durante la notificación. |
+| Descripción del campo    | Especifique una descripción del valor de campo que se va a usar en relación con un elemento de mensaje o un mensaje durante la notificación. |
 | Tipo de cuenta         | Algunos valores adicionales de campos adicionales pueden limitarse a tipos de cuenta específicos. Seleccione uno de los valores siguientes: **Todo**, **Cliente** o **Proveedor**. |
 | Código de cuenta         | Si seleccionó **Cliente** o **Proveedor** en el campo **Tipo de cuenta** , puede limitar aún más el uso de valores de campo a un grupo o a una tabla específico. |
 | Número de grupo/cuenta | Si seleccionó **Cliente** o **Proveedor** en el campo **Tipo de cuenta** , y si especificó un grupo o una tabla en el campo **Código de cuenta** , puede especificar un grupo o contratista específico en este campo. |
 | Vigente            | Especifique la fecha en que el valor debe comenzar a ser considerado. |
 | Caducidad           | Especifique la fecha en que el valor debe terminar de ser considerado. |
+
+Las combinaciones de criterios definidos en **Número de la cuenta o de grupo**, **Código de cuenta**, **Efectivo**, **Caducidad** no influyen de forma predeterminada en la selección de valor para el campo adicional pero se pueden usar en clase ejecutable para implementar cierta lógica de cálculo específica de un valor de campo adicional.
 
 ### <a name="executable-class-settings"></a>Configuración de clase ejecutable
 
@@ -120,6 +143,8 @@ Puede configurar manualmente una clase ejecutable en la página **Configuración
 | Nombre de la clase ejecutable | Seleccione una clase ejecutable X++. |
 | Nivel de ejecución       | Este campo se establece automáticamente, porque el valor debe predefinirse para la clase ejecutable seleccionada. Este campo limita el nivel en que se ejecuta la evaluación relacionada. |
 | Descripción de la clase     | Este campo se establece automáticamente, porque el valor debe predefinirse para la clase ejecutable seleccionada. |
+
+Algunas clases ejecutables pueden tener parámetros obligatorios que se deben definir antes de que la clase ejecutable se ejecute por primera vez. Para definir tales parámetros, haga clic en el botón **Parámetros** en el panel de acciones, configure los valores y los campos correspondientes en ventana de cuadro de diálogo y haga clic en el botón **Aceptar**. Es importante hacer clic en el botón **Aceptar** aquí, ya que si no lo hace, los parámetros no se guardarán a la base y no se llamará correctamente a la clase ejecutable.
 
 ### <a name="populate-records-actions"></a>Acciones de llenado de registros
 
@@ -143,6 +168,37 @@ En la ficha desplegable **Configuración de orígenes de datos**, agregue una l�
 | Campo de cuenta de documento | Seleccione el campo de dónde debe tomarse la cuenta de documento en la tabla seleccionada. |
 | Consulta de usuario             | Si se activa esta casilla, puede configurar una consulta seleccionando **Editar consulta** sobre la cuadrícula. Si no, todos los registros se rellenarán desde el origen de datos. |
 
+### <a name="web-applications"></a>Aplicaciones web
+
+La página de aplicaciones Web se usa para configurar parámetros de una aplicación web para admitir el estándar abierto OAuth 2.0 que permite a los usuarios “conceder acceso seguro delegado” a la aplicación en su nombre, sin compartir sus credenciales de acceso. Desde esta página también puede pasar por el proceso de autorización obteniendo un código de autorización y un símbolo de acceso. Puede configurar los parámetros de aplicaciones Web en la página **aplicaciones Web** (**Impuestos** \> **Configuración** \> **Mensajes electrónicos** \> **Aplicaciones Web**).
+
+En la tabla siguiente se describen los campos en la página **Aplicaciones web**.
+
+| Campo                         | Descripción |
+|-------------------------------|-------------|
+| Nombre de la aplicación              | Escriba un nombre para la aplicación Web. |
+| Descripción                   | Especifique una descripción para la aplicación web. |
+| Dirección URL base                      | Permite especificar la dirección de internet base de la aplicación Web. |
+| Ruta URL de autorización        | Especifique la ruta para producir la URL para la autorización.  |
+| Ruta URL de token                | Especifique la ruta para producir la URL del token.  |
+| URL de redireccionamiento                  | Especifique la dirección URL de redireccionamiento.  |
+| Id. de cliente                     | Especifique el identificador del cliente de la aplicación web.  |
+| Secreto de cliente                 | Especifique el secreto del cliente de la aplicación web.  |
+| Token de servidor                  | Especifique el token de servidor de la aplicación web.  |
+| Asignación de formato de autorización  | Seleccione un formato de informe electrónico (ER) que se utilizará para generar el pedido de autorización.   |
+| Importar asignación de modelo de token    | Seleccione una asignación de modelo de importación ER que se utilizará para almacenar el símbolo de acceso.  |
+| Ámbito concedido      en el que expirará el símbolo de acceso  | Este campo se actualizará automáticamente. Su valor muestra el ámbito concedido de solicitudes a la aplicación web.  |
+| Aceptar                        | Especifique la propiedad de aceptación de solicitud web. Por ejemplo, "application/vnd.hmrc.1.0+json".  |
+| Tipo de contenido           | Especifique el tipo de contenido. Por ejemplo, "application/json".  |
+
+Las funciones siguientes esetán disponibles desde la página **Aplicaciones Web** para admitir el proceso de autorización:
+-   **Obtener código de autorización** - para inicializar la autorización de la aplicación web.
+-   **Obtener símbolo de acceso** - para inicializar la obtención de un símbolo de acceso.
+-   **Actualizar símbolo de acceso** - para actualizar un símbolo de acceso.
+
+Cuando un símbolo de acceso a una aplicación web almacenada en la base de datos del sistema está en formato cifrado se puede usar para las solicitudes a un servicio web. Por motivos de seguridad el acceso al símbolo de acceso se debe restringir sólo a los roles de seguridad a los que se debe permitir tratar dichas solicitudes. Cuando un usuario de fuera del grupo de seguridad intenta dirigir una solicitud, una excepción notificará al usuario que él/ella no puede interoperar mediante la aplicación web seleccionada.
+Use la ficha desplegable **Roles de seguridad** de la página de impuestos > configuración > mensajes electrónicos > aplicaciones Web para configurar las funciones que deben tener acceso al símbolo de acceso. Cuando los roles de seguridad no se definen para una aplicación Web, solo un administrador del sistema podrá interoperar mediante esta aplicación Web.
+
 ### <a name="web-service-settings"></a>Configuración de servicio web
 
 Use los valores de servicio Web para configurar la transmisión de datos directa a un servicio web. Puede configurar los parámetros de servicio Web en la página **Configuración de servicio Web** (**Impuestos** \> **Configuración** \> **Mensajes electrónicos** \> **Configuración de servicio Web**).
@@ -153,13 +209,17 @@ En la tabla siguiente se describen los campos en la página **Configuración de 
 |-------------------------|-------------|
 | Servicio web             | Escriba un nombre para el servicio Web. |
 | Descripción             | Especificar una descripción del servicio web. |
-| Dirección de Internet        | Permite especificar la dirección del servicio Web. |
+| Dirección de Internet        | Permite especificar la dirección del servicio Web. Si una aplicación web se especifica para un servicio Web y la dirección de Internet tiene que ser la misma que la que se ha definido para la aplicación Web seleccionada, haga clic en el botón **Copiar URL base** para copiar la **Dirección URL base** de la aplicación web al campo **Dirección de Internet** del servicio Web.  |
 | Certificado             | Seleccionar un certificado de Key Vault que se ha configurado previamente. |
+| Aplicación web         | Seleccionar un certificado de Key Vault que se ha configurado previamente. |
 | Tipo de respuesta – XML | Establezca esta opción en **Sí** si el tipo de respuesta es XML. |
 | Método de solicitud          | Especifique el método de la solicitud. HTTP define un conjuntos de métodos de solicitud que indican la acción que se debe realizar para un recurso determinado. El método puede ser **GET**, **POST**, o bien otro método HTTP. |
 | Encabezados de solicitud         | Especifique los encabezados de solicitud. Un encabezado de solicitud es un encabezado HTTP que se puede usar en una solicitud HTTP, y que no está relacionado con el contenido del mensaje. |
+| Aceptar                  | Especifique la propiedad de aceptación de solicitud web. |
 | Aceptar codificación         | Especifique el Accept-Encoding. El encabezado HTTP de solicitud Accept-Encoding hace publicidad de codificación de contenido que el cliente puede entender. Esta codificación de contenido es normalmente un algoritmo de compresión. |
 | Tipo de contenido            | Especifique el tipo de contenido. El encabezado de la entidad del tipo de contenido indica el tipo de medio del recurso. |
+| Código de respuesta correcto   | Especifique el código de estado HTTP que indica que la solicitud ha sido correcta. |
+| Asignación de formato de encabezados de solicitud  | Seleccione el formato de ER para la generación de encabezados de solicitud Web. |
 
 ### <a name="message-processing-actions"></a>Acciones de procesamiento de mensajes
 
@@ -172,17 +232,21 @@ Las siguientes tablas describen los campos de la página **Acciones de procesami
 | Campo                   | Descripción |
 |-------------------------|-------------|
 | Tipo de acción             | Seleccione el tipo de acción. Para obtener información acerca de las opciones disponibles, consulte la sección [Tipos de acción de procesamiento de mensajes](#message-processing-action-types). |
-| Asignación de formato          | Seleccione el formato de ER que se debe llamar para la acción. Este campo solo está disponible para las acciones de tipo **Exportación de informes electrónicos**, **Importación de informes electrónicos**, y **Mensaje de exportación de informes electrónicos** . |
-| Tipo de elemento de mensaje       | Seleccione el tipo de registros para los que debe evaluarse la acción. Este campo está disponible para las acciones de tipo **Nivel de ejecución de artículo de mensaje**, **Exportación de informes electrónicos**, y **Importación de informes electrónicos** y también algunos tipos más. Si deja este campo en blanco, se evalúan todos los tipos de elementos de mensaje que se definen para el procesamiento de mensajes. |
+| Asignación de formato          | Seleccione el formato de ER que se debe llamar para la acción. Este campo solo está disponible para las acciones de tipo **Exportación de informes electrónicos**, **Importación de informes electrónicos**, **Mensaje de exportación de informes electrónicos** . |
+| Asignación de formato para ruta URL | Seleccione el formato de ER que se debe llamar para la acción. Este campo solo está disponible para las acciones de los tipos **Servicio web** y se utiliza para crear la ruta de la dirección URL que se agregará a la dirección Internet base especificada para el servidor web seleccionado. |
+| Tipo de elemento de mensaje       | Seleccione el tipo de registros para los que debe evaluarse la acción. Este campo está disponible para los tipos **Nivel de ejecución de elemento de mensaje**, **Exportación de informes electrónicos**, y **Importación de informes electrónicos**, **Servicio web** y también algunos tipos más. Si deja este campo en blanco, se evalúan todos los tipos de elementos de mensaje que se definen para el procesamiento de mensajes. |
 | Clase ejecutable        | Seleccione los valores de clase de ejecutable anteriormente creados. Este campo solo está disponible para las acciones del tipo **Nivel de ejecución de elemento de mensaje** y **Nivel de ejecución de elemento de mensaje**. |
 | Acción de llenado de registros | Seleccione una acción de rellenar registros que se configuró anteriormente. Este campo solo está disponible para las acciones del tipo **Rellenar registros** . |
+| Servicio web  | Seleccione un servicio web que se configuró anteriormente. Este campo solo está disponible para las acciones del tipo **Servicio web**.  |
+| Nombre de archivo  | Especifique el nombre del archivo que generará la acción como una respuesta del servidor Web o la generación de un informe. Este campo solo está disponible para las acciones del tipo **Servicio web** y **Mensaje de la exportación del informe electrónico**.   |
+| Mostrar cuadro de diálogo  | Activar esta casilla si un diálogo se debe mostrar a un usuario antes de la generación de informes. Este campo solo está disponible para las acciones del tipo **Mensaje de la exportación del informe electrónico**.   |
 
 ##### <a name="message-processing-action-types"></a>Tipo de acciones de procesamiento de mensajes
 
 Las opciones siguientes están disponibles en el campo **Tipo de acción**:
 
-- **Rellenar registros** Una acción **Rellenar registros** debe estar configurada previamente. Asóciela con una acción del tipo **Rellenar registros** para habilitarla para incluirla en el procesamiento. Se asume que este tipo de acción se usa para la primera acción del procesamiento de mensajes. Por lo tanto, solo un estado del resultado se puede configurar para una acción de este tipo. Un estado inicial no se puede configurar.
 - **Crear mensaje** Use este tipo para permitir a los usuarios manualmente crear mensajes en la página **Mensaje electrónico**. Un estado inicial no se puede configurar para una acción de este tipo.
+- **Rellenar registros** Una acción **Rellenar registros** debe estar configurada previamente. Asóciela con una acción del tipo **Rellenar registros** para habilitarla para incluirla en el procesamiento. Se presupone que se usa este tipo de acción para la primera acción del procesamiento de mensajes (cuando no se crea ningún mensaje electrónico por adelantado) o como una acción que agrega elementos de mensaje a un mensaje creado previamente (mediante una acción del tipo **Crear mensaje**). Por lo tanto, el estado del resultado de solo elementos de mensaje se puede configurar para una acción de este tipo. Un estado inicial se puede configurar solo para mensajes.
 - **Nivel de ejecución de mensaje** Use este tipo para configurar una clase ejecutable que se debe evaluar en el nivel de mensaje.
 - **Nivel de ejecución de artículo de mensaje** Use este tipo para configurar una clase ejecutable que se debe evaluar en el nivel de elemento de mensaje.
 - **Exportación de informes electrónicos** Use este tipo para las acciones que deben generar un informe basado en una configuración de ER de exportación en el nivel de elemento de mensaje.
@@ -190,13 +254,13 @@ Las opciones siguientes están disponibles en el campo **Tipo de acción**:
 - **Importación de informes electrónicos** Use este tipo para las acciones que deben generar un informe basado en una configuración de ER de importación en el nivel de elemento de mensaje.
 - **Procesamiento de usuario de nivel de mensaje** Use este tipo para acciones que presuponen algunas acciones manuales por parte del usuario. Por ejemplo, el usuario podría actualizar el estado de los mensajes.
 - **Procesamiento de usuarios** Use este tipo para acciones que presuponen algún tipo de acción manual por parte del usuario. Por ejemplo, el usuario podría actualizar el estado de los elementos de mensajes.
-- **Servicio web** Use este tipo para las acciones que deben transmitir un informe generado a un servicio web. No se usa este tipo de acción para los informes italianos de comunicación de la compra y las facturas de ventas.
+- **Servicio web** Use este tipo para las acciones que deben transmitir un informe generado a un servicio web. No se usa este tipo de acción para los informes italianos de comunicación de la compra y las facturas de ventas. Para acciones del tipo **Servicio web** puede especificar un **Texto de confirmación** en la ficha desplegable **Detalles varios** de **Acciones de procesamiento de mensajes**. Este texto de confirmación se presentará al usuario antes de que la solicitud del servicio Web seleccionado se aborde.
 - **Comprobación de solicitud** Use este tipo para solicitar la comprobación desde un servidor.
 
 #### <a name="initial-statuses-fasttab"></a>Ficha desplegable Estados iniciales
 
 > [!NOTE]
-> La ficha desplegable **Estados iniciales** no está disponible para acciones que tienen un tipo inicial **Rellenar registros** o **Crear mensaje**.
+> La ficha desplegable **Estados iniciales** no está disponible para acciones que tienen un tipo inicial **Crear mensaje**.
 
 | Campo               | Descripción                                                                                         |
 |---------------------|-----------------------------------------------------------------------------------------------------|
@@ -212,11 +276,29 @@ Las opciones siguientes están disponibles en el campo **Tipo de acción**:
 | Tipo de respuesta       | El tipo de respuesta del estado de mensaje seleccionado. |
 | Estado de elemento de mensaje | Seleccione los estados obtenidos que deben estar disponibles después de evaluarse la acción de procesamiento de mensaje seleccionada. Este campo solo está disponible para las acciones de procesamiento de mensajes que se evalúan en el nivel de elemento de mensaje. Por ejemplo, está disponible para las acciones de los tipos **Procesamiento de usuario** y **Nivel de ejecución de artículo de mensaje**. Para acciones de procesamiento de mensajes que se evalúan en el nivel de mensaje, este campo muestra el estado del elemento de mensaje configurado para el estado del mensaje seleccionado. |
 
+La tabla siguiente muestra qué estados del resultado se deben configurar en relación con los tipos de acciones:
+
+| Tipo de acción de mensaje electrónico \ Tipo de respuesta  | Ejecutado correctamente  | Error empresarial  | Error técnico  | Definido por el usuario  | Cancelar  |
+|-------------------------------------------------|--------------|---------|-------|-----|-----------------|
+| Crear mensaje                                  | X            |         |       |     |                 |
+| Exportación de informes electrónicos                     | X            |         |       |     |                 |
+| Importación de informes electrónicos                     |              |         |       |     |                 |
+| Servicio web                                     | X            |         | X     |     |                 |
+| Procesamiento de usuarios                                 |              |         |       |     |                 |
+| Nivel de ejecución de mensaje                         |              |         |       |     |                 |
+| Rellenar registros                                |              |         |       |     |                 |
+| Nivel de ejecución de artículo de mensaje                    |              |         |       |     |                 |
+| Comprobación de solicitud                            | X            |  X      | X     |     |                 |
+| Mensaje de exportación de informes electrónicos             | X            |         |       |     |                 |
+| Procesamiento de usuario de nivel de mensaje                   |              |         |       |     |                 |
+
 ### <a name="electronic-message-processing"></a>Procesamiento de mensaje electrónico
 
-El procesamiento de mensajes electrónicos es un concepto básico de la funcionalidad de los mensajes electrónicos. Agrega las acciones que se deben evaluar para el mensaje electrónico. Las acciones se pueden vincular a través de un estado inicial y un estado de resultado. Como alternativa, las acciones del tipo **Procesamiento de usuario** se pueden iniciar de forma independiente. En la página **Procesamiento de mensaje electrónico** (**Impuestos** \> **Configuración** \> **Mensajes electrónicos** \> **Procesamiento de mensaje electrónico**), también puede seleccionar los campos adicionales que deben admitirse para el procesamiento.
+El procesamiento de mensajes electrónicos es un concepto básico de la funcionalidad de los mensajes electrónicos. Agrega las acciones que se deben evaluar para el mensaje electrónico. Las acciones se pueden vincular a través de un estado inicial y un estado de resultado. Como alternativa, las acciones del tipo **Procesamiento de usuario** se pueden iniciar de forma independiente. En la página **Procesamiento de mensaje electrónico** (**Impuestos** \> **Configuración** \> **Mensajes electrónicos** \> **Procesamiento de mensaje electrónico**), también puede seleccionar los campos adicionales que deben admitirse para el procesamiento ya sea en el nivel de mensaje o en el nivel de elementos de mensaje.
 
-La ficha desplegable **Acción** permite agregar acciones predefinidas al procesamiento. Puede especificar si una acción se debe ejecutar por separado, o si puede iniciarse por el procesamiento. (Las acciones del usuario deben ejecutarse por separado.)
+La ficha desplegable **Acción** permite agregar acciones predefinidas al procesamiento. Puede especificar si una acción se debe ejecutar por separado, o si puede iniciarse por el procesamiento. Para definir si la acción la puede inicializar un usuario únicamente, marque la casilla de verificación **Funcionamiento por separado** para la acción en el procesamiento. Desmarque el parámetro **Funcionamiento por separado** si desea que la acción se inicie procesando cuándo se hará para mensajes o elementos de mensaje en el estado definido como estado inicial de esta acción. La acción del tipo **Acción del usuario** se debe ejecutar sólo por separado. 
+
+A veces puede ser necesario agregar varias acciones en una secuencia incluso cuando la primera de ellas se define para ser ejecutada por separado. Por ejemplo, cuando se requiere que la generación de informes debe ser inicializada por un usuario pero una vez que se haya generado el informe este debe enviarse inmediatamente al servicio Web y la respuesta del servicio Web debe reflejarse en el sistema. Puede usar para tal propósito **Secuencia inseparable**. Para ello, haga clic en el botón **Secuencia inseparable** en el panel de acciones de la ficha rápida **Acción** de página **Procesamiento de mensajes electrónicos** , cree una secuencia y selecciónela en la columna **Secuencia inseparable** para las acciones que se deben ejecutar siempre conjuntamente. El primer acción en este caso se puede configurar como **Funcionamiento por separado** pero todas las otras no.
 
 La ficha desplegable **Campos adicionales de elemento de mensaje** permite agregar campos adicionales predefinidos relacionados con los elementos del mensaje. Debe agregar campos adicionales para cada tipo de elemento de mensaje con el que los campos están relacionados.
 
@@ -238,16 +320,22 @@ La ficha desplegable **Mensajes** muestra mensajes electrónicos para el procesa
 
 - **Nuevo** Este botón está asociado a las acciones del tipo **Crear mensaje**.
 - **Eliminar** Este botón está disponible si la casilla de verificación **Permitir la cancelación** está seleccionada para el estado actual del mensaje seleccionado.
+- **Recopilar datos** - Este botón está asociado a una acción del tipo **Rellenar registros**.
 - **Generar informe** Este botón está asociado a acciones del tipo **Mensaje de exportación de informes electrónicos**.
 - **Enviar informe** Este botón está asociado a acciones del tipo **Servicio web**.
+- **Importar respuesta** Este botón está asociado a acciones del tipo **Importar informes electrónicos**.
 - **Actualizar estado** Este botón está asociado a las acciones del tipo **Procesamiento de usuario de nivel de mensaje**.
 - **Elementos de mensaje** Abre la página **Elementos del mensaje electrónico**.
 
-La ficha desplegable **Registro de acción** muestra información acerca de todas las acciones que se han ejecutado para el mensaje seleccionado.
+La ficha desplegable **Registro de acción** muestra información acerca de todas las acciones que se han ejecutado para el mensaje seleccionado. Si una acción genera un error, la información acerca del error se vinculará a la línea de registro de la acción relacionada. Seleccione la línea y haga clic en el botón **clip** en la esquina superior derecha de la página para revisar información acerca del error.
 
 La ficha desplegable **Campos adicionales de mensaje** muestra todos los campos adicionales que se han definido para los mensajes en la configuración de procesamiento. También muestra los valores de estos campos adicionales.
 
-La ficha desplegable **Elementos de mensaje** muestra todos los elementos de mensaje relacionados con el mensaje seleccionado.
+La ficha desplegable **Elementos de mensaje** muestra todos los elementos de mensaje relacionados con el mensaje seleccionado. Para cada uno de los elementos de mensaje, la función siguiente se puede usar en función del estado de este elemento de mensaje:
+
+- **Eliminar** Este botón está disponible si la casilla de verificación **Permitir la cancelación** está seleccionada para el estado actual del elemento de mensaje seleccionado.
+- **Actualizar estado** Este botón está asociado a las acciones del tipo **Procesamiento de usuario**.
+- **Documento original** - Este botón permite al usuario abrir una página con el documento original del mensaje seleccionado.
 
 Puede revisar todos los datos adjuntos para el mensaje seleccionado. Los archivos adjuntos son informes que ya se han generado y recibido. Seleccione el mensaje para revisar los datos adjuntos y seleccione el botón **Datos adjuntos** en el panel de acciones.
 

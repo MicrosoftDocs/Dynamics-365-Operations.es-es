@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7eb6d743131937081ce83b31988d792185cb28b2
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a35184a48eff9e320087cb9390a0f1eed1e7ba19
+ms.sourcegitcommit: 9a723737565ac78c884e40f7129d0f5aad747524
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "308653"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "773097"
 ---
 # <a name="workflow-system"></a>Sistema de flujo de trabajo
 
@@ -36,7 +36,7 @@ El término *flujo de trabajo* se puede definir de dos maneras: como sistema y c
 
 ### <a name="workflow-is-a-system"></a>Flujo de trabajo es un sistema
 
-El flujo de trabajo es un sistema que se instala junto con Dynamics 365 for Finance and Operations y se ejecuta en Application Object Server (AOS). El sistema de flujo de trabajo proporciona funciones que se pueden usar para crear flujos de trabajo individuales, o procesos empresariales.
+El flujo de trabajo es un sistema que se instala Finance and Operations y se ejecuta en Application Object Server (AOS). El sistema de flujo de trabajo proporciona funciones que se pueden usar para crear flujos de trabajo individuales, o procesos empresariales.
 
 ### <a name="workflow-is-a-business-process"></a>Flujo de trabajo es un proceso empresarial
 
@@ -71,3 +71,4 @@ El uso del sistema de flujo de trabajo en una organización ofrece varias ventaj
 + [Configuración de una actividad paralela en un flujo de trabajo](configure-parallel-activity-workflow.md)
 + [Configuración de rama paralela en un flujo de trabajo](configure-parallel-branch-workflow.md)
 + [Configuración de un flujo de trabajo de elementos](configure-line-item-workflow.md)
++ [Preguntas frecuentes de flujo de trabajo](workflow-FAQ.md)

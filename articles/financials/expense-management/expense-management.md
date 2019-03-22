@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1cd637f1b74056db89520b762255d03afa3855ba
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 11445390acef5ddfd57a1a0017e8bc423cdb1914
+ms.sourcegitcommit: afab5269613d1d1dfd79cd39370b747dee13d3fc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "313414"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "403223"
 ---
 # <a name="expense-management"></a>Gestión de gastos
 
@@ -37,15 +37,13 @@ Use la opción de gestión de gastos para crear un flujo de trabajo integrado en
 
 #### <a name="whats-new-and-in-development"></a>Novedades y características en desarrollo
 
-Consulte la [Guía básica de Microsoft Dynamics 365](https://roadmap.dynamics.com/) para ver qué características nuevas hemos lanzado y cuáles están en desarrollo. 
+Vaya a las [Notas de la versión Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) para ver qué nuevas características se han planificado. 
 
 #### <a name="blogs"></a>Blogs
 
-Puede encontrar opiniones, noticias y otra información sobre clientes y otras soluciones en el [blog Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
+Encontrará opiniones, noticias y otra información en el blog [Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) y el blog [Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
 
-Hay muchas publicaciones sobre clientes en el [blog del equipo del producto Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/). Aunque algunas de estas publicaciones se crearon para la versión anterior de Clientes, aún se aplican los mismos conceptos. Además, los procedimientos también son similares en la versión actual.
-
-El [blog de la comunidad Microsoft Dynamics Operations Partner](https://community.dynamics.com/partner/b/operationspartnercommunityblog) proporciona a los socios de Microsoft Dynamics un único recurso desde el que obtener información sobre las novedades y tendencias de MBS Operations.
+El [blog de la comunidad Microsoft Dynamics Operations Partner](https://community.dynamics.com/partner/b/operationspartnercommunityblog) proporciona a los socios de Microsoft Dynamics un único recurso desde el que obtener información sobre las novedades y tendencias de MBS Operations. 
 
 #### <a name="task-guides"></a>Guías de tareas
 Hay ayuda adicional disponible como guías de tareas en Finance and Operations. Para tener acceso a las guías de tareas, haga clic en el botón Ayuda en cualquier página.

@@ -3,7 +3,7 @@ title: Características quitadas u obsoletas
 description: Este tema describe las funciones que se han eliminado, o que está previsto que se eliminen.
 author: sericks007
 manager: AnnBe
-ms.date: 12/10/2018
+ms.date: 03/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f4413573f2e269e5a523940fbb841358e178d10
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a4dc8f11cfef7c0f42c62c42cd984438a3e119a5
+ms.sourcegitcommit: d9ed934a142b88340d268fd2bd3753475a3712b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "329261"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "836357"
 ---
 # <a name="removed-or-deprecated-features"></a>Características quitadas o en desuso
 
@@ -35,11 +35,77 @@ Este tema describe las funciones que se han eliminado, o están en desuso en Dyn
 
 Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y deprecaciones para su propia planificación. 
 
-> [!Note]
+> [!NOTE]
 > Desde Dynamics 365 for Finance and Operations, versión de julio de 2017 con actualización de la plataforma 8, se indica el tipo de implementaciones para cada características quitada u obsoleta. Todas las versiones anteriores de la lista de este tema admitían implementaciones de la nube únicamente.
 
-> [!Note]
+> [!NOTE]
 > La información detallada sobre los objetos de Finance and Operations se puede encontrar en los [informes de referencia técnica](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de Finance and Operations.
+
+## <a name="dynamics-365-for-finance-and-operations-1001-with-platform-update-25"></a>Dynamics 365 for Finance and Operations 10.0.1 con actualización de plataforma 25
+
+> [!IMPORTANT]
+> Dynamics 365 for Finance and Operations 10.0.1 con actualización de plataforma 25 está disponible para los usuarios a los que está dirigida como parte de un lanzamiento de versión preliminar. El contenido y la funcionalidad están sujetos a cambios. Para obtener más información acerca las versiones preliminares, consulte [Actualizaciones de servicio de primera versión y versión estándar](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
+
+### <a name="deprecated-apis-and-potential-breaking-changes"></a>API en desuso y potencial cambios que generan interrupciones
+
+#### <a name="deriving-from-internal-classes-is-deprecated"></a>La derivación de clases internas se deja de utilizar
+
+|   |  |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | En las versiones anteriores a la actualización 25 de la plataforma, era posible crear una clase o tabla derivada de una clase o una tabla interna que está definida en otro paquete/módulo. No es una práctica segura de codificación. Comenzando por la actualización 25 de la plataforma, el compilador mostrará un mensaje de advertencia si intenta hacerlo.|
+| **¿Reemplazado por otra característica?**   | La advertencia del compilador se reemplazará por un error en una actualización de plataforma próxima. Este cambio es compatible con versiones anteriores en el tiempo de ejecución, lo que significa que si ejecuta la actualización 25 o posterior de la plataforma, esto se puede implementar en cualquier espacio aislado o entorno de producción sin la necesidad de modificar código personalizado. Este cambio afecta únicamente al desarrollo y el tiempo de compilación. |
+| **Áreas de producto afectadas**         | Herramientas de desarrollo de Visual Studio. |
+| **Opción de implementación**              | Todas |
+| **Estado**                         | En desuso - La advertencia se convertirá en un error de compilación en una actualización de plataforma próxima. |
+
+#### <a name="overriding-internal-methods-is-deprecated"></a>La anulación de métodos internos se deja de utilizar
+
+|   |  |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | En las versiones anteriores a la actualización 25 de la plataforma, era posible anular un método interno en una clase derivada que está definida en otro paquete/módulo. No es una práctica segura de codificación. Comenzando por la actualización 25 de la plataforma, el compilador mostrará un mensaje de advertencia si intenta hacerlo.|
+| **¿Reemplazado por otra característica?**   | Esta advertencia se reemplazará por un error de compilación en una actualización de plataforma próxima. Este cambio es compatible con versiones anteriores en el tiempo de ejecución, lo que significa que si ejecuta la actualización 25 o posterior de la plataforma, esto se puede implementar en cualquier espacio aislado o entorno de producción sin la necesidad de modificar código personalizado. Este cambio afecta únicamente al desarrollo y el tiempo de compilación. |
+| **Áreas de producto afectadas**         | Herramientas de desarrollo de Visual Studio. |
+| **Opción de implementación**              | Todas |
+| **Estado**                         | En desuso - La advertencia se convertirá en un error de compilación en una actualización de plataforma próxima. |
+
+## <a name="dynamics-365-for-finance-and-operations-813-with-platform-update-23"></a>Dynamics 365 for Finance and Operations 8.1.3 con actualización de plataforma 23
+
+### <a name="print-to-screen-functionality"></a>Funcionalidad de impresión en pantalla
+Los clientes pueden utilizar la acción **Importación** proporcionada por el control del visor de informes a los documentos producidos por las aplicaciones de Finance and Operations. Esta presentación basada en HTML del informe proporciona a los usuarios una vista previa no paginada del documento.
+
+|   |  |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | La naturaleza no paginada de la experiencia de vista previa basada en HTML **no** presta fidelidad a los documentos físicos elaborados en última instancia por Finance and Operations. Al adoptar plenamente PDF como el formato estándar para las operaciones comerciales, podemos drásticamente simplificar las opciones de usuario para interactuar con informes de aplicación y agilizar el proceso de representación de documentos. |
+| **¿Reemplazado por otra característica?**   | En adelante, los documentos de PDF serán el formato predeterminado para los informes generados por Finance and Operations.   |
+| **Áreas de producto afectadas**         | Este cambio **no** repercute en los escenarios de cliente donde los informes se distribuyen electrónicamente o se envían directamente a impresoras.    |
+| **Opción de implementación**              | Todas  |
+| **Estado**                         | En desuso: No se ha establecido una fecha de eliminación para esta función. La funcionalidad de descargar automáticamente informes de aplicaciones en el explorador como documentos PDF se prevé para la actualización de la plataforma de mayo de 2019. <br><br>**Impdortante** se aconseja a los clientes que se basan en la función Imprimir en pantalla que notifiquen a [Soporte](../lifecycle-services/lcs-support.md) por adelantado la actualización a la plataforma 26. |
+
+### <a name="client-kpi-controls"></a>Controles de KPI del cliente
+Los indicadores de rendimiento clave incrustados (KPIs) podrían ser modelados en Visual Studio por un programador y personalizados aún más por el usuario final.
+
+|   |  |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | Los controles de clientes nativos utilizados para definir los KPI tienen una respuesta del cliente baja y se basan en un desarrollador para agregar medidas rastreables. |
+| **¿Reemplazado por otra característica?**   | El servicio de PowerBI.com proporciona herramientas de calidad mundial para definir y administrar KPI basados en datos de fuentes externas.  En una próxima versión, planeamos habilitar soluciones integradas alojadas en PowerBI.com en espacios de trabajo de aplicaciones.   |
+| **Áreas de producto afectadas**         | Esta actualización impedirá que los programadores introduzcan nuevos controles de KPI en el diseñador de Visual Studio.    |
+| **Opción de implementación**              | Todas  |
+| **Estado**                         | En desuso: No se ha establecido una fecha de eliminación para esta función. |
+
+### <a name="deprecated-apis-and-future-breaking-changes"></a>API en desuso y futuros cambios que generan interrupciones
+
+#### <a name="field-groups-containing-invalid-field-references"></a>Grupos de campos que contienen referencias de campo no válidas
+
+|   |  |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | Es posible que las definiciones de metadatos de la tabla tengan grupos de campos que contienen referencias no válidas del campo. Este problema se categoriza actualmente como *advertencia del compilador* en lugar de *error*, lo que significa que la creación y la implementación de paquete desplegable puede continuar sin corregirse el problema. Si se implementa, esto puede provocar errores del tiempo de ejecución en Financial Reporting y SQL Server Reporting Services (SSRS). Para solucionar este problema:<br><br>1. Quite la referencia de campo no válida de la definición del grupo de campos de tabla.<br><br>2. Vuelva a compilar.<br><br>3. Asegúrese de que las advertencias o los errores se abordan. |
+| **¿Reemplazado por otra característica?**   | Esta advertencia se reemplazará por un error de compilación en el futuro.  |
+| **Áreas de producto afectadas**         | Herramientas de desarrollo de Visual Studio. |
+| **Opción de implementación**              | Todos. |
+| **Estado**                         | En desuso - La advertencia se convertirá en un error de tiempo de compilación en el futuro. Actualmente tomamos como objetivo la actualización 30 de la plataforma. |
+
+#### <a name="complete-list"></a>Lista completa
+Para obtener acceso a la lista completa de API que se están dejando de utilizar, consulte [Deprecación de métodos y elementos de metadatos](deprecation-deletion-apis.md).
 
 ## <a name="dynamics-365-for-finance-and-operations-81-with-platform-update-20"></a>Dynamics 365 for Finance and Operations 8.1 con actualización de plataforma 20
 
@@ -1093,7 +1159,7 @@ La característica de empresas virtuales ya no se admite en Dynamics AX. La cara
 
 |   |  | 
 |------------|--------------------|
-| **Motivo de la depreciación/eliminación** | - Las empresas virtuales deben configurarse antes de que los datos se almacenen en las tablas. La retroadaptación de las empresas virtuales en la implementación existente es muy difícil.<br><br>- Dado que se han normalizado tantos datos en la versión actual de Microsoft Dynamics AX, se ha hecho difícil saber qué agregar a las colecciones de tablas. Por ejemplo, es difícil saber qué tablas compartir. Todas las tablas a las que se hace referencia desde las tablas en una empresa virtual también se deben agregar. Debido a la normalización de la tabla, incluso los datos maestros sencillos que se extienden en múltiples tablas deben formar parte de la empresa virtual. Cualquier error que se realice producirá problemas funcionales.<br><br>- Cuando una tabla forma parte de una empresa virtual, pierde la información acerca del origen de los datos y solo se registra la empresa virtual.   |
+| **Motivo de la depreciación/eliminación** | - Las empresas virtuales deben configurarse antes de que los datos se almacenen en las tablas. La retroadaptación de las empresas virtuales en la implementación existente es muy difícil.<br><br>- Dado que se han normalizado tantos datos en la versión actual de Dynamics AX, se ha hecho difícil saber qué agregar a las colecciones de tablas. Por ejemplo, es difícil saber qué tablas compartir. Todas las tablas a las que se hace referencia desde las tablas en una empresa virtual también se deben agregar. Debido a la normalización de la tabla, incluso los datos maestros sencillos que se extienden en múltiples tablas deben formar parte de la empresa virtual. Cualquier error que se realice producirá problemas funcionales.<br><br>- Cuando una tabla forma parte de una empresa virtual, pierde la información acerca del origen de los datos y solo se registra la empresa virtual.   |
 | **¿Reemplazado por otra característica?** | Se pueden usar tablas globales para que las tablas sean accesibles desde todas las empresas. Actualmente no hay ninguna sustitución. |   
 | **Áreas de producto afectadas**       | Todos los módulos |   
 | **Estado**                       | Eliminado a partir de Dynamics AX 7.0.   |   
