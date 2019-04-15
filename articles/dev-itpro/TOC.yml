@@ -278,7 +278,7 @@ items:
         href: extensibility/class-extensions.md
       - name: Extensión de clase a través de ajuste de métodos y cadena de comando
         href: extensibility/method-wrapping-coc.md
-      - name: Denominar directrices para extensiones de modelo
+      - name: Denominar directrices para extensiones
         href: extensibility/naming-guidelines-extensions.md
       - name: Relajar las restricciones del modelo para refactorizar el exceso de capas en extensiones
         href: extensibility/refactoring-over-layering.md
@@ -354,7 +354,7 @@ items:
         href: extensibility/breaking-changes.md
   - name: Rendimiento
     items:
-    - name: Tomar seguimientos mediante Trace parser
+    - name: Tomar seguimientos mediante Trace Parser
       href: perf-test/trace-trace-tutorial.md
     - name: Performance SDK y pruebas multiusuario mediante Visual Studio Online
       href: perf-test/perfsdk-tutorial.md
@@ -374,6 +374,28 @@ items:
       href: perf-test/continuous-build-test-automation.md
     - name: Filtrado de SysTest usando atributos de clase y método
       href: perf-test/systest-filtering.md
+    - name: Biblioteca de prueba de aceptación
+      href: perf-test/acceptance-test-library.md
+    - name: Conceptos de navegación
+      href: perf-test/concepts-navigation.md
+    - name: Métodos de los datos de prueba
+      href: perf-test/test-data-methods.md
+    - name: Entidades en la biblioteca de la prueba de aceptación
+      href: perf-test/concepts-entities.md
+    - name: Comandos de la biblioteca de prueba de aceptación
+      href: perf-test/concepts-commands.md
+    - name: Creadores en la biblioteca de la prueba de aceptación
+      href: perf-test/concepts-creators.md
+    - name: Consultas en la biblioteca de la prueba de aceptación
+      href: perf-test/concepts-queries.md
+    - name: Clases de la especificación
+      href: perf-test/concepts-specifications.md
+    - name: Asistente para la generación de código de la biblioteca de la prueba de aceptación
+      href: perf-test/code-generation-wizard.md
+    - name: Prácticas recomendadas para la biblioteca de la prueba de aceptación
+      href: perf-test/atl-best-practices.md
+    - name: Preguntas frecuentes
+      href: perf-test/atl-faq.md
   - name: Fecha de vigencia
     href: dev-tools/date-effectivity.md
   - name: Licencias de ISV
@@ -451,6 +473,8 @@ items:
       href: user-interface/control-checklist.md
   - name: Mensajes
     items:
+    - name: Llamadas de características
+      href: user-interface/feature-callouts.md
     - name: Control deslizante y diálogos de MessageBox
       href: user-interface/slider-messagebox.md
     - name: Centro de mensajes, barra de mensajes y API de detalles de mensajes
@@ -920,7 +944,7 @@ items:
       href: deployment/apply-deployable-package-system.md
     - name: Aplicar actualizaciones y extensiones para componentes de canal de Retail hospedado en la nube
       href: deployment/Update-retail-channel.md
-    - name: Inicializar componentes de canal de Retail hospedado en la nube
+    - name: Inicializar Retail Cloud Scale Unit
       href: deployment/Initialize-Retail-Channels.md
   - name: Implementación local
     href: deployment/on-premises-deployment-landing-page.md
@@ -1044,7 +1068,7 @@ items:
     items:
     - name: Proceso para cambiar a la actualización más reciente
       href: migration-upgrade/upgrade-latest-update.md
-    - name: Actualizar entornos de la versión 8.0 a 8.1
+    - name: Actualizar entornos de la versión 8.0 a 8.1.X/10.X
       href: migration-upgrade/appupdate-80-81.md
     - name: Directiva del ciclo de vida del software y versiones de nube
       href: migration-upgrade/versions-update-policy.md
@@ -1133,6 +1157,12 @@ items:
       href: sysadmin/runby.md
     - name: Trabajo por lotes para administrar la desfragmentación del índice de SQL
       href: sysadmin/batch-job-SQL-defragmentation.md
+    - name: Configurar las alertas de lote
+      href: sysadmin/alerts.md
+    - name: Formularios ampliados de lote
+      href: sysadmin/enhanced-forms.md
+    - name: Limpiar el historial de trabajos por lotes
+      href: sysadmin/batch-history-cleanup.md
   - name: Asesor de optimización
     href: sysadmin/optimization-advisor-overview.md
     items:
@@ -1229,13 +1259,15 @@ items:
     items:
     - name: Actualización para fines de formación
       href: database/dbmovement-scenario-general-refresh.md
-    - name: Depuración y diagnóstico
+    - name: Depurar una copia de la base de datos de producción
       href: database/dbmovement-scenario-debugdiag.md
+    - name: Exportar una copia de la base de datos (UAT) de la prueba de aceptación de usuario estándar
+      href: database/dbmovement-scenario-exportuat.md
     - name: Promoción de configuración de impuestos dorados
       href: database/dbmovement-scenario-goldenconfig.md
     - name: Prueba destructiva
       href: database/dbmovement-scenario-destructivetests.md
-- name: Soporte
+- name: Compatibilidad
   items:
   - name: Obtener soporte técnico para Finance and Operations y Lifecycle Services
     href: lifecycle-services/lcs-support.md
@@ -1251,9 +1283,9 @@ items:
     href: lifecycle-services/cloud-operations-servicing.md
   - name: Gestionar las experiencias de compatibilidad con Finance and Operations
     href: lifecycle-services/cloud-powered-support-lcs.md
-ms.openlocfilehash: b2462f8391ba3253b61c72bea481266d04ac8721
-ms.sourcegitcommit: 32e98213118968307c48b656b663c3df897faa79
+ms.openlocfilehash: 93081e4ccc64b68ae8f5cb3aa0f0c499bc1a426b
+ms.sourcegitcommit: 4d77340f5b3480f60a3a28c854fafc83e959f192
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "773811"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "976021"
