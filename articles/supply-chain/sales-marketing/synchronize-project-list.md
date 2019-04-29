@@ -3,7 +3,7 @@ title: Sincronizar lista de proyectos de Finance and Operations a Field Service
 description: En este tema se describe las plantillas y las tareas subyacentes que se usan para sincronizar proyectos de Microsoft Dynamics 365 for Finance and Operations a Microsoft Dynamics 365 for Field Service.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/14/2019
+ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: b5aeb4c3925994d7488e8e113e88b9d06ee6b350
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ea5c188891bb97ba73d2d022e86bbff50897381b
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "312517"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842613"
 ---
 # <a name="synchronize-project-list-from-finance-and-operations-to-field-service"></a>Sincronizar lista de proyectos de Finance and Operations a Field Service
 
@@ -38,13 +38,13 @@ En este tema se describe las plantillas y las tareas subyacentes que se usan par
 Se utilizan la plantilla y las tareas subyacentes siguientes para ejecutar la sincronización de proyectos de Microsoft Dynamics 365 for Finance and Operations en Microsoft Dynamics 365 for Field Service.
 
 **Plantilla en la integración de datos**
-- Proyectos (desde Finance and Operations a Field Service)
+- Proyectos (Fin and Ops a Field Service)
 
 **Tarea en el proyecto de integración de datos**
 - Proyectos
 
 Las siguientes tareas de sincronización son necesarias antes de que pueda producirse la sincronización de la lista de proyectos:
-- Cuentas (de Sales a Finance and Operations) 
+- Cuentas (Sales a Fin and Ops) 
 
 ## <a name="entity-set"></a>Conjunto de entidades
 | Field Service           | Finance and Operations  |
@@ -64,6 +64,6 @@ Habilitar el seguimiento de cambios de proyectos de entidad de datos.
 ## <a name="template-mapping-in-data-integration"></a>Asignación de la plantilla en la integración de datos
 
 
-### <a name="projects-finance-and-operations-to-field-service-projects"></a>Proyectos (desde Finance and Operations a Field Service): proyectos
+### <a name="projects-fin-and-ops-to-field-service-projects"></a>Proyectos (Fin and Ops a Field Service): proyectos
 
 [![Asignación de la plantilla en la integración de datos](./media/FSProject1.png)](./media/FSProject1.png)

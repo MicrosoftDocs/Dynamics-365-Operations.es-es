@@ -1,7 +1,7 @@
 ---
 title: Aprobaciones de factura móvil
 description: Este tema está pensando para proporcionar un método práctico de diseñar escenarios móviles en Dynamics 365 for Finance and Operations con las aprobaciones de facturas de proveedores para aplicaciones móviles como un caso de uso.
-author: ShivamPandey-msft
+author: abruer
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e39d81b0d600012f936865b53f8556eb3ef0a3d9
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 5a48ea7b0c1faf5726de21a246e3d8b4d98f166a
+ms.sourcegitcommit: dd1e1636d351a15f9c1b6808bea359417a9bd690
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "314403"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "897187"
 ---
 # <a name="mobile-invoice-approvals"></a>Aprobaciones de factura móvil
 
@@ -37,7 +37,7 @@ Las capacidades móviles en Microsoft Dynamics 365 for Finance and Operations pe
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Manual sobre capacidades móviles de lectura previa                                                                                |[Plataforma móvil](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
 | Dynamics 365 for Finance and Operations                                                                             | Un entorno que tiene la versión 1611 de Microsoft Dynamics 365 for Operations y Microsoft Dynamics for Operations con la actualización de plataforma 3 (noviembre de 2016)                   |
-| Instalar revisión KB 3204341.                                                                              | El grabador de tareas puede registrar de forma errónea dos comandos Close para diálogos desplegables incluidos en la actualización 3 de Dynamics 365 for Operations (noviembre de 2016) |
+| Instalar revisión KB 3204341.                                                                              | El grabador de tareas puede registrar de forma errónea dos comandos Close para diálogos desplegables incluidos en Dynamices 365 for Operation Platform update 3 (noviembre de 2016) |
 | Instalar revisión KB 3207800.                                                                              | Esta revisión habilita los datos adjuntos que se verán en el cliente móvil, lo cual se incluye en la actualización 3 de Dynamics 365 for Operation (noviembre de 2016).           |
 | Instalar revisión KB 3208224.                                                                              | El código de la aplicación para la aplicación de aprobación de facturas de proveedores móviles se incluye en la aplicación 7.0.1 de Microsoft Dynamics AX (mayo de 2016).                          |
 | Un dispositivo Android, iOS o Windows que tengan la aplicación móvil instalada para Finance and Operations | Busque la aplicación en la tienda de aplicaciones apropiada.                                                                                                                     |

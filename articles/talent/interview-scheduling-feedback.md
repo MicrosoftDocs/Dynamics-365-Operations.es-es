@@ -1,25 +1,25 @@
 ---
 title: Programación y realimentación de la entrevista
 description: Este tema proporciona información acerca de la programación de la entrevista y las actividades de realimentación en Attract.
-author: ''
+author: hasrivas
 manager: AnnBe
-ms.date: 02/01/2019
+ms.date: 04/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.search.region: Global
-ms.author: hasrivas
-ms.openlocfilehash: 7bc5a66bb221cb0ab2c69fcb1013ed48a7c664a6
-ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
+ms.author: shielas
+ms.openlocfilehash: 39b14f3ca855ca283a7484e480ff2547623938ef
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2019
-ms.locfileid: "374975"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "989946"
 ---
 # <a name="interview-scheduling-and-feedback"></a>Programación y realimentación de la entrevista
 
@@ -28,6 +28,8 @@ ms.locfileid: "374975"
 ## <a name="scheduler-activity"></a>Actividad de programación
 
 La actividad del programador es opcional y tiene dos componentes: Solicitud de disponibilidad del candidato y programación. El componente disponibilidad del candidato le permite utilizar el correo electrónico para solicitar la disponibilidad de un candidato. El componente Programación proporciona la capacidad de programar entrevistas con el candidato y el equipo de contratación.
+
+Para configurar la actividad del programador para incluir o limitar los candidatos que se programarán, seleccione un valor en el campo **A quién está programando**. Las opciones disponibles son **Todos los candidatos**, **Candidatos externos** y **Candidatos internos**. Por ejemplo, si desea omitir candidatos internos en la primera ronda de programación, puede asignar la actividad de la programación solo a los candidatos externos estableciendo **A quién está programando** en **Candidatos externos**.
 
 ### <a name="candidate-availability-request"></a>Solicitud de disponibilidad del candidato
 
@@ -54,7 +56,7 @@ Existen varias configuraciones disponibles para que el programador de la entrevi
 
 2. Seleccione la duración de la entrevista para cada evento de la entrevista y, a continuación hacen clic en **Aceptar** para iniciar la programación.
 
-    Si se selecciona **Recomendaciones**, las sugerencias se mostrarán y se preparará la cuadrícula de la entrevista. Podrá ver la disponibilidad del calendario actual de toda los entrevistadores seleccionados. También podrá ver el calendario del candidato si es un candidato interno.
+    Si se selecciona **Recomendaciones**, las sugerencias se mostrarán y se preparará la cuadrícula de la entrevista. Podrá ver la disponibilidad del calendario actual de toda los entrevistadores seleccionados. También podrá ver el calendario del candidato si es un candidato interno. Para los entrevistadores y candidatos internos, puede ver sus franjas horarias No disponibles, el horario laboral, sus horas fuera de la oficina y también identificar si han marcado sus calendarios como trabajando en otra parte para las franjas horarias específicas. 
 
 3. Si no hay sugerencias disponibles, en la columna **Entrevistadores**, haga clic en una franja horaria, proporcione el título de la entrevista, detalles y rellene los detalles de la ubicación, según sea necesario. Puede elegir incluir el vínculo **Skype Empresarial** para la entrevista.
 
@@ -73,19 +75,30 @@ Existen varias configuraciones disponibles para que el programador de la entrevi
 
     Se capturan las respuestas de entrevistador y se muestran en Attract. Si un entrevistador rechaza la invitación, se le notificará para realizar un cambio. Para ver su respuesta en la vista de cuadrícula **Programador**, haga clic en el icono de la burbuja.
 
-[![Vista del reclutador de Attract de la respuesta de un entrevistador](./media/schedule-interviewer-response.png)](./media/schedule-interviewer-response.png)
+[![Vista del reclutador de Attract de la respuesta de un entrevistador](./media/schedule-interviewer-response2.png)](./media/schedule-interviewer-response2.png)
 
 7. Una vez que la programación de la entrevista está lista para compartirse con el candidato, haga clic en **Enviar al candidato**. Puede elegir ocultar o mostrar los nombres y las franjas del entrevistador con el candidato.
 
-8. Seleccione una plantilla de correo y envíe el resumen de la entrevista al candidato. El candidato puede ver esta información en su correo electrónico así como en su portal del candidato.
+8. Seleccione una plantilla de correo electrónico y envíe el resumen de la entrevista al candidato. El candidato puede ver esta información en su correo electrónico así como en su portal del candidato.
     
 >[!NOTE] 
 > El calendario de disponibilidad de un candidato se muestra si el candidato es interno. Del mismo modo, solo los candidatos internos pueden ser utilizados para ampliar recomendaciones de la programación de la entrevista. Actualmente, los candidatos (internos o externos) no reciben un correo electrónico con la invitación a la reunión, en su lugar el candidato recibe sólo un resumen de las entrevistas.
 
-## <a name="feedback-activity"></a>Actividad de valoración
+Los candidatos recibirán un correo electrónico con el resumen del bucle de su entrevista. Los correos electrónicos contienen un archivo .ics que se pueda guardar en los calendarios personales para un acceso más fácil y ver las notificaciones sobre la entrevista.
 
-La actividad de comentarios es opcional en una plantilla de trabajo. Esta actividad permite a los participantes en una entrevista añadir recomendaciones o comentarios para un candidato. Si se activa el campo **Heredar participantes de comentarios del equipo de contratación**, se especifica automáticamente el reclutador, el administrador de contratación, y los entrevistadores en la actividad de comentarios. Las organizaciones pueden permitir a los entrevistadores ver los comentarios de otras personas antes enviar su propio comentario. Las organizaciones pueden también permitir que los entrevistadores editen sus comentarios después de enviarlos. Se recuerdaa los entrevistadores registrar los comentarios de las entrevistas que han realizado recientemente según la configuración preestablecida como parte de la plantilla de trabajo. El administrador de contratación o un reclutador en el trabajo puede elegir también para recordar manualmente a un entrevistador enviar comentarios.
+>[!TIP] 
+> En caso de que se vuelva a enviar la programación de la entrevista al candidato, este recibirá otro archivo adjunto .ics. Es recomendable actualizar las plantillas de correo electrónico para el resumen de la entrevista del candidato para garantizar que los candidatos eliminan los eventos anteriormente agregados de la entrevista y no ven duplicados en su calendario. 
+
+## <a name="feedback-activity"></a>Actividad de comentarios
+
+La actividad de comentarios es opcional en una plantilla de trabajo. Esta actividad permite a los participantes en una entrevista añadir recomendaciones o comentarios para un candidato. 
+
+Para incluir o limitar los candidatos sobre los que proporcionar comentarios, seleccione un valor en el campo **De quién deben hacer comentarios los entrevistadores**.  Las opciones disponibles son **Todos los candidatos**, **Candidatos externos** y **Candidatos internos**. Por ejemplo, si desea omitir candidatos internos en la primera ronda de programación, establezca **De quién deben hacer comentarios los entrevistadores** en **Candidatos externos**.
+
+Si se selecciona el campo **Heredar participantes de comentarios del equipo de contratación**, se especifica automáticamente el reclutador, el administrador de contratación, y los entrevistadores en la actividad de comentarios. Las organizaciones pueden permitir a los entrevistadores ver los comentarios de otras personas antes enviar su propio comentario. Las organizaciones pueden también permitir que los entrevistadores editen sus comentarios después de enviarlos. Se recuerdaa los entrevistadores registrar los comentarios de las entrevistas que han realizado recientemente según la configuración preestablecida como parte de la plantilla de trabajo. El administrador de contratación o un reclutador en el trabajo puede elegir también para recordar manualmente a un entrevistador enviar comentarios.
 
 ## <a name="interview-activity"></a>Actividad de entrevista
 
-La actividad de la entrevista es una actividad opcional con tres componentes: solicitud de disponibilidad del candidato, programación y comentarios. Use la actividad de la entrevista en la plantilla de trabajo si desea solicitar toda la programación de disponibilidad del candidato. y comentarios como parte del proceso en lugar de usarlos individualmente como parte del proceso de contratación.
+La actividad de la entrevista es una actividad opcional con tres componentes: **Solicitud de disponibilidad del candidato**, **Programación** y **Comentarios**. Use la actividad de la entrevista en la plantilla de trabajo si desea toda la solicitud, la programación y los comentarios del candidato en lugar de usarlos individualmente.
+
+Para incluir o limitar los candidatos que se entrevistarán con, seleccione un valor en el campo **A quién está entrevistando**. Las opciones disponibles son **Todos los candidatos**, **Candidatos externos** y **Candidatos internos**. Por ejemplo, si desea omitir candidatos internos en la primera ronda de entrevistas, establezca **A quién está entrevistando** en **Candidatos externos**.

@@ -1,29 +1,29 @@
 ---
 title: Conseguir candidatos usando grupos de talentos
 description: Este tema explica cómo crear y configurar grupos de talentos en Attract.
-author: ''
+author: andreabichsel
 manager: AnnBe
-ms.date: 10/22/2018
+ms.date: 04/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: rschloma
+ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: cac68799ee5b6e2c8f864acf6d1677a7213b4aaf
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 13b5e3091a4bcdbf1bfbe077ffb04ec8d08a0911
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "306097"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949353"
 ---
 # <a name="source-candidates-by-using-talent-pools"></a>Conseguir candidatos usando grupos de talentos
 
@@ -34,7 +34,7 @@ Los reclutadores y los administradores de contratación pueden organizar a los c
 
 ## <a name="create-and-share-a-talent-pool"></a>Crear y compartir un grupo de talentos
 
-Cualquier usuario que tenga el la función de reclutador, administrador de contratación, o administrador de Attract puede crear grupos de talentos. El propietario de un grupo de talentos también puede compartir dicho conjunto con otros usuarios de modo que grupos de usuarios, especialmente reclutadores, puedan estudiar un conjunto compartido de candidatos.
+Cualquier usuario que tenga el rol de reclutador, administrador de contratación, o administrador de Attract puede crear grupos de talentos. El propietario de un grupo de talentos también puede compartir dicho conjunto con otros usuarios de modo que grupos de usuarios, especialmente reclutadores, puedan estudiar un conjunto compartido de candidatos.
 
 Los contribuidores a un grupo de talentos pueden ver la lista de candidatos en dicho grupo. También pueden agregar a candidatos al grupo o eliminar candidatos de él.
 
@@ -44,7 +44,7 @@ Ejecute los pasos siguientes para crear y compartir un grupo de talentos.
 
     La pestaña **Mis grupos de talentos** muestra todos los grupos de talentos a los que tiene acceso, con detalles acerca de cada uno. Los detalles incluyen el propietario del grupo y el número de candidatos que contiene.
 
-1. En la parte superior derecha, seleccione **+ Nuevo** para abrir el cuadro de diálogo **Crear grupo de talentos**.
+1. En la parte superior derecha de la página, seleccione **Nuevo** para abrir el cuadro de diálogo **Crear grupo de talentos**.
 1. Escriba un nombre único para el grupo de talentos.
 1. Para agregar personas como colaboradores del grupo, encuentre sus nombres mediante el selector de personas y, a continuación, agréguelos a la lista. Puede compartir un grupo de talentos solo con usuario que tienen la función de reclutador, administrador de contratación, o administrador de Attract.
 1. Seleccione **Agregar** para crear el grupo de talentos.
@@ -78,26 +78,35 @@ El propietario y los contribuidores al grupo de talentos pueden agregar candidat
 
 ## <a name="search-and-view-candidate-profiles"></a>Buscar y ver perfiles del candidato
 
-Los usuarios de un grupo de talentos pueden ver el perfil de un candidato, su información de LinkedIn, los documentos relacionados, o el historial completo de la aplicación del candidato. También puede buscar en toda la base de datos cualquier candidato que haya solicitado un trabajo en su organización, o que se haya agregado a cualquier grupo de talentos.
+> [!NOTE] 
+> Esta característica está actualmente en vista previa. Si desea probarlo, debe [activarlo en la configuración de administrador de Attract](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature). 
 
-1. Use el campo de búsqueda de la parte superior de la ficha **Mis grupos de talentos** para buscar en la base de datos completa de candidatos.
-1. Buscar entre diversos atributos del perfil. Seleccione la categoría de atributo de búsqueda, cree una consulta de búsqueda, y seleccione el botón de flecha derecha (**-\>**) para ejecutar la búsqueda.
+Las reservas de talentos le permiten ver el perfil de un candidato, la información de LinkedIn, documentos relacionados y el historial de la aplicación. Puede buscar la base de datos completa de todos los candidatos agregados a cualquier reserva de talentos, incluidos candidatos cerrados y activos.
 
-    Puede buscar candidatos por su nombre, la organización para la que trabajan, las aptitudes que tienen etiquetadas, el historial de la formación, su puesto de trabajo actual, o el grado que han obtenido, si esta información está incluida en su perfil.
+>[!NOTE]
+> Al agregar nuevos candidatos, las nuevas adiciones pueden tardar hasta 15 minutos en ser indexadas para la búsqueda.
 
-    También puede crear una consulta de búsqueda que utilice dos o más de estos atributos como criterios. Combine los criterios mediante un operador **and**.
+Con la experiencia mejorada de la búsqueda, puede buscar en todos los documentos de candidato y filtrar por los medallistas de plata, los orígenes, las aptitudes, la formación, etc. En versiones anteriores, se tenía que especificar la entidad que se quiere buscar. Attract ahora puede buscar todos los campos relacionados con el candidato y alinear los resultados.
 
-    Si algún candidato coincide con su búsqueda, se muestra en los resultados de la búsqueda.
+1. Para iniciar una búsqueda nueva en la base de datos del candidato, escriba el texto que desea buscar en el cuadro de búsqueda en la pestaña **Reservas de talentos**. 
 
-1. Para restringir los resultados, puede actualizar la consulta de búsqueda mediante el campo de búsqueda de la parte superior.
+Puede escribir cualquier el nombre del candidato o cualquier atributo que esté buscando. Para separar atributos, use un espacio.
 
-    Como alternativa, utilice la lista de filtros inteligentes de la derecha. Estos filtros inteligentes se extraen de forma dinámica, en función de los resultados de la búsqueda.
+Puede limitar los resultados cambiando su consulta de búsqueda o con los filtros inteligentes en el lado izquierdo de la página.
 
-    Los resultados de la búsqueda muestran las 20 principales aptitudes, las escuelas, la organización, etc., que se encuentran con mayor frecuencia en la lista de candidatos. Puede agregar más filtros para cualquiera de estos atributos para restringir los resultados de la búsqueda aún más.
+Los resultados de la búsqueda muestran resaltados los atributos que coincidan con la consulta de búsqueda. Permite seleccionar cualquier candidato interesado en ver su perfil.
 
-1. Una vez que haya identificado a un candidato, seleccione la fila para que dicho candidato vea su perfil.
+### <a name="syntax-highlights"></a>Resaltes de la sintaxis 
 
-Todos los usuarios tienen una vista común de los perfiles del candidato. Seleccione la fila correspondiente a un candidato en un conjunto de resultados de búsqueda o un grupo de talentos para ver su perfil. La pestaña **Perfil** muestra la información acerca de las aptitudes, experiencia profesional, y educación que el candidato ha actualizado desde el portal de Proyectos profesionales.
+| Operador | Uso                                                      | Ejemplo              |
+|----------|------------------------------------------------------------|----------------------|
+| \*       | Permite buscar las subcadenas; se puede utilizar para devolver todos los registros | Entrada: Mi\* <br></br> Resultado: todos los registros con campos que empiecen por "Mi", por ejemplo, Microsoft los sistemas micro, las empresas de Midtown, o Middleton <br></br>Entrada: \* <br></br> Resultado: todos los registros en la base de datos |
+| “”       | Búsquedas de una coincidencia exacta                                | Entrada: “Microsoft” <br></br> Resultado: todos los registros que contengan “Microsoft”                    |
+
+>[!WARNING]
+> No desactive la búsqueda de relevancia para su instancia de Common Data Service. Esto deshabilitará la experiencia de búsqueda en Attract.
+
+Todos los usuarios tienen una vista común de los perfiles del candidato. La pestaña **Perfil** muestra la información acerca de las aptitudes, experiencia profesional, y educación que el candidato ha proporcionado como parte de su solicitud usando el portal de proyectos profesionales.
 
 - Puede ver los detalles del contacto para el candidato. También puede editar o actualizar la información según sea necesario mediante el botón **Detalles de edición**.
 
@@ -109,7 +118,7 @@ Todos los usuarios tienen una vista común de los perfiles del candidato. Selecc
 
     Para ver un documento, seleccione el nombre del documento en la lista de documentos. Puede ver los documentos Microsoft Word en la aplicación mediante Microsoft Office 365. También puede descargar los documentos en su equipo local mediante la opción **Descargar** para cada documento.
 
-- La pestaña **LinkedIn** muestra la información de LinkedIn del candidato. Para usar esta ficha, debe conectar su cuenta de LinkedIn en la configuración del usuario, y su conexión de reclutador de LinkedIn del entorno debe establecerse. Para obtener más información, consulte [Abastecimiento con LinkedIn Recruiter](./attract-linked-in-recruiter.md).
+- La pestaña **LinkedIn** muestra la información de LinkedIn del candidato. Para usar esta ficha, debe conectar su cuenta de LinkedIn en la configuración del usuario, y su conexión de LinkedIn Recruiter del entorno debe establecerse. Para obtener más información, consulte [Abastecimiento con LinkedIn Recruiter](./attract-linked-in-recruiter.md).
 
 ## <a name="add-candidates-from-a-talent-pool-to-a-job"></a>Agregue los candidatos de un grupo de talentos a un trabajo
 
@@ -117,7 +126,7 @@ Desde los resultados de búsqueda o un grupo de talentos, puede insertar un cand
 
 1. Encuentre el candidato usando la opción de la búsqueda y, a continuación, abra su perfil. Como alternativa, abra el grupo de talentos desde la ficha **Mis grupos de talentos**, busque el candidato en su grupo de talentos y, a continuación, abra su perfil.
 
-1. En la página de perfil del candidato, seleccione **+ Agregar al trabajo** en la parte superior derecha. 
+1. En la página de perfil del candidato, seleccione **Agregar al trabajo** en la parte superior derecha. 
      
      Se muestra una lista de trabajos en relación a los cuales pertenece al equipo de contratación, como reclutador o jefe de contratación.
 

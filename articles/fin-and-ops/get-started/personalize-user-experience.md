@@ -3,7 +3,7 @@ title: Personalizar la experiencia del usuario
 description: Este tema explica cómo puede personalizar Microsoft Dynamics 365 for Finance and Operations.
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 09/28/2018
+ms.date: 04/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,16 +18,17 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 53aff09746b92372bb38908a526942ebe9bb4c52
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 517e1dfa19433f19ebeb9d0a50a124002ca46a24
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "363485"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "975860"
 ---
 # <a name="personalize-the-user-experience"></a>Personalizar la experiencia del usuario
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Este tema explica cómo puede personalizar Microsoft Dynamics 365 for Finance and Operations.
 
@@ -47,6 +48,8 @@ La página **Opciones de usuario** contiene varios valores para todo el sistema 
 - **Preferencias**: seleccione los valores predeterminados que se emplean cada vez que inicie Finance and Operations. Estos valores incluyen la empresa, la página de inicio, y el modo de visualización o edición predeterminado. (El modo de edición o visualización determina si una página tiene bloqueada la visualización o está abierta para su edición cada vez que la abre). Esta ficha también incluye las opciones del idioma, la zona horaria, y la fecha, el tiempo, y el formato de número. Finalmente, esta ficha incluye varias preferencias distintas que varían de versión en versión.
 - **Cuenta:**: Ajuste su nombre de usuario y otras opciones relacionadas con la cuenta.
 - **Flujo de trabajo**: seleccione las opciones relacionadas con el flujo de trabajo.
+
+Además de modificar la configuración del usuario, también puede ver y eliminar sus datos de uso y personalizaciones haciendo clic en el botón **Datos de uso**. Cuando se utiliza la aplicación, muchas de las selecciones se recuerdan para que pueda utilizar el sistema más fácilmente en el futuro. La pestaña **Personalización** en particular, le permite ver y gestionar los cambios personales que realizó en las páginas del sistema. Las llamadas de característica, las ventanas emergentes que le presentan las nuevas características del producto (disponible en la Platform update 26), también puede reiniciarse desde esta ficha para reciba avisos de nuevo sobre las características anteriormente presentadas.  
 
 ## <a name="implicit-personalizations"></a>Personalizaciones implícitas
 
@@ -160,7 +163,7 @@ Los usuarios con privilegios de administración también pueden gestionar las pe
 
 - **Aplicar**: puede importar o seleccionar una personalización para uno o varios usuarios. Para aplicar una personalización a uno o varios usuarios, seleccione primero un rol y a los usuarios con dicho rol. A continuación seleccione una personalización para aplicarla a los usuarios seleccionados o importe un archivo de personalización. La personalización se validará y aplicará a todos los usuarios seleccionados la próxima vez que abran la página seleccionada.
 - **Borrar**: puede borrar todas las personalizaciones de una página o espacio de trabajo de uno o varios usuarios. Primero seleccione una página o espacio de trabajo para ver la lista de los usuarios que la han personalizado. A continuación, seleccione los usuarios que deberían tener borradas las personalizaciones de esa página o espacio de trabajo, y seleccione **Borrar**. Se eliminan todas las personalizaciones que los usuarios seleccionados han aplicado a la página o al espacio de trabajo seleccionado. Esta acción no se puede deshacer. Sin embargo, si se guardó una personalización para la página o el espacio de trabajo, se podrá volver a importar dicha personalización.
-- **Administrador por usuario** Seleccione un usuario para ver la lista de páginas que esta persona ha personalizado. A continuación puede habilitar o deshabilitar la capacidad del usuario seleccionado para utilizar personalizaciones para páginas determinadas o el sistema completo. También puede importar, exportar o borrar una personalización para el usuario seleccionado.
+- **Administrador por usuario** Seleccione un usuario para ver la lista de páginas que este usuario ha personalizado. A continuación puede habilitar o deshabilitar la capacidad del usuario seleccionado para utilizar personalizaciones para páginas determinadas o el sistema completo. También puede importar, exportar o borrar una personalización para el usuario seleccionado. Además, puede restablecer las llamadas de función para el usuario seleccionado, lo que hará que todas las ventanas emergentes anteriormente despedidas que presentaron características nuevas aparezcan de nuevo la próxima vez que el usuario encuentra dichas características.   
 - **Sistema:** – Puede desactivar temporalmente todas las personalizaciones para todos los usuarios del sistema. En este caso, las personalizaciones se eliminan. Todas las páginas simplemente se restablecen a su estado predeterminado para todos los usuarios. Si vuelve a habilitar más tarde la personalización, todas las personalizaciones se volverán a aplicar. También puede desactivar permanentemente todas las personalizaciones para todos los usuarios del sistema. No es posible recuperar las personalizaciones que se han eliminado. Por lo tanto, antes de realizar esta tarea, asegúrese de exportar todas las personalizaciones que pueda querer más tarde.
 
 ## <a name="personalization-of-inventory-dimensions"></a>Personalización de dimensiones de inventario

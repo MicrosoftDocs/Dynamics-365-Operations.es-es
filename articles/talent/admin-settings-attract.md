@@ -1,7 +1,7 @@
 ---
 title: Configuración de administrador en Attract
 description: Este tema explica cómo habilitar la funcionalidad de la función para las organizaciones y los usuarios de Attract.
-author: ''
+author: andreabichsel
 manager: AnnBe
 ms.date: 12/07/2018
 ms.topic: article
@@ -10,20 +10,20 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: rschloma
+ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: fb7b5e5b98ddb8e0e44fccbb0ddbb05199265414
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 0de215103306ef7115ba390b1b4855179979c77b
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "306095"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "856379"
 ---
 # <a name="admin-settings-in-attract"></a>Configuración de administrador en Attract
 [!include[banner](../includes/banner.md)]
@@ -36,7 +36,7 @@ Especifique un nombre para mostrar para la empresa, y agregue un logotipo de la 
 
 ## <a name="linkedin-integration"></a>Integración de LinkedIn
 
-Configurar la integración con con LinkedIn Recruiter System Connect (RSC). Tras conectarse a LinkedIn mediante sus credenciales de LinkedIn, puede sincronizar el perfil de LinkedIn, las solicitudes, las valoraciones de entrevista y las notas de equipo para un candidato. Se requiere una licencia completa de reclutador de LinkedIn. Para obtener más información sobre LinkedIn Recruite, consulte [Recruiter System Connect (RSC) – Preguntas más frecuentes](https://www.linkedin.com/help/recruiter/answer/90483).
+Configurar la integración con LinkedIn Recruiter System Connect (RSC). Tras conectarse a LinkedIn mediante sus credenciales de LinkedIn, puede sincronizar el perfil de LinkedIn, las solicitudes, las valoraciones de entrevista y las notas de equipo para un candidato. Se requiere una licencia completa de reclutador de LinkedIn. Para obtener más información sobre LinkedIn Recruiter, consulte, [Recruiter System Connect (RSC) – Preguntas más frecuentes](https://www.linkedin.com/help/recruiter/answer/90483).
 
 ## <a name="user-permissions"></a>Permisos de usuario
 

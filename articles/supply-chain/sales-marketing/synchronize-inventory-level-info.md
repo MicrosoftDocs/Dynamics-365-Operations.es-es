@@ -3,7 +3,7 @@ title: Sincronizar la información de nivel de inventario desde Finance and Oper
 description: En este tema se describe las plantillas y las tareas subyacentes que se usan para sincronizar información de nivel de inventario de Microsoft Dynamics 365 for Finance and Operations a Microsoft Dynamics 365 for Field Service.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/14/2019
+ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: b81694f1ed56d8542de46203ac5faf5fae2b6645
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 6b2bdf1ca6f6ae43cd85c8a1353ee8305052761d
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "356792"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842565"
 ---
 # <a name="synchronize-inventory-level-information-from-finance-and-operations-to-field-service"></a>Sincronizar información de nivel de inventario de Finance and Operations a Field Service 
 
@@ -38,14 +38,14 @@ En este tema se describe las plantillas y las tareas subyacentes que se usan par
 La plantilla siguiente y las tareas subyacentes se usan para sincronizar niveles disponibles de inventario de Microsoft Dynamics 365 for Finance and Operations a Microsoft Dynamics 365 for Field Service.
 
 **Plantilla en la integración de datos**
-- Inventario de producto (desde Finance and Operations a Field Service)
+- Inventario de productos (Fin and Ops a Field Service)
   
 **Tarea en el proyecto de integración de datos**
 - Inventario de producto
 
 Las siguientes tareas de sincronización son necesarias antes de que pueda producirse la sincronización de los niveles de inventario:
-- Almacenes (desde Finance and Operations a Field Service) 
-- Productos de Field Service con unidad Inventario (desde Finance and Operations a Sales) 
+- Almacenes (Fin and Ops a Field Service) 
+- Productos de Field Service con unidad Inventario (Fin and Ops a Sales) 
 
 ## <a name="entity-set"></a>Conjunto de entidades
 
@@ -80,6 +80,6 @@ Puede aplicar filtros con la consulta y un filtrado avanzados para que sólo det
 
 ## <a name="template-mapping-in-data-integration"></a>Asignación de la plantilla en la integración de datos
 
-### <a name="product-inventory-finance-and-operations-to-field-service-product-inventory"></a>Inventario de productos (desde Finance and Operations hasta Field Service): inventario de productos
+### <a name="product-inventory-fin-and-ops-to-field-service-product-inventory"></a>Inventario de productos (Fin and Ops a Field Service): inventario de productos
 
 [![Asignación de la plantilla en la integración de datos](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)

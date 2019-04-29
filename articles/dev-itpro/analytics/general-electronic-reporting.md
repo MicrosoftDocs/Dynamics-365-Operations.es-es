@@ -3,14 +3,14 @@ title: Informes electrónicos (ER)
 description: Este tema proporciona una visión general de la herramienta de informes electrónicos (ER). Incluye información sobre conceptos clave, escenarios compatibles con ER y una lista con los formatos diseñados y publicados como parte de la solución.
 author: NickSelin
 manager: AnnBe
-ms.date: 11/01/2017
+ms.date: 03/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
-ms.reviewer: kfend
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 58941
 ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e619b24fc790399452d6233b2d04987357d87186
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: bc544211891c19104b2b3cb704b55a074784d608
+ms.sourcegitcommit: b95bc0f81bd3bb3d9ec4c61f64f93b5c2bef9e05
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "310815"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "902969"
 ---
 # <a name="electronic-reporting-er"></a>Informes electrónicos (ER)
 
@@ -163,21 +163,33 @@ Para obtener información sobre cómo registrar un nuevo proveedor de ER, reprod
 
 #### <a name="repository"></a>Repositorio
 
-Un repositorio de ER guarda las configuraciones de ER. Cuatro tipos de repositorios de ER actualmente se admiten: **Recursos de operaciones**, **Proyecto de LCS (LCS)**, **Sistema de archivos**, y **Servicios de configuración reglamentaria (RCS)**.
+Un repositorio de ER guarda las configuraciones de ER. Los tipos de repositorios de ER siguientes son compatibles: 
 
-Un repositorio de **Recursos de Operations** proporciona acceso a la lista de configuraciones que libera Microsoft, como el proveedor de configuración de ER, como parte de la solución de Finance and Operations. Esas configuraciones se pueden importar a la instancia actual de Finance and Operations y usar para los informes electrónicos. También se pueden utilizar para localizaciones y personalizaciones adicionales.
+- Biblioteca compartida LCS
+- Proyecto LCS
+- Sistema de archivo
+- Regulatory Configuration Services (RCS)
+- Recursos de operaciones
+
+
+Un repositorio **Biblioteca compartida LCS** proporciona acceso a la lista de configuraciones dentro de la biblioteca de activos compartidos en Lifecycle Services (LCS). Este tipo de repositorio de ER se puede registrar solo para el proveedor de Microsoft. En la biblioteca compartida LCS del activo puede importar las últimas versiones de las configuraciones de ER en la instancia actual de Finance and Operations.
 
 Un repositorio del **proyecto de LCS** proporciona acceso a la lista de configuraciones de un proyecto de LCS específico (biblioteca de los activos del proyecto de LCS) que se seleccionó en la etapa de registro del repositorio. ER le permite cargar las configuraciones compartidas de la instancia de Finance and Operations actual a un repositorio específico del **Proyecto LCS**. También puede importar configuraciones de un repositorio del **Proyecto LCS** en la instancia de Finance and Operations actual.
 
-Un repositorio de **Sistema de archivos** proporciona acceso a la lista de configuraciones que están ubicadas como archivos XML en la carpeta específica del sistema de archivos local del equipo en el que se aloja el servicio AOS. La carpeta necesaria se selecciona en la etapa de registro de repositorio. Puede importar configuraciones de un repositorio del **sistema de archivos** en la instancia de Finance and Operations actual. Tenga en cuenta que este tipo de repositorio es accesible en los entornos Dynamics 365 for Finance and Operations siguientes:
-- entornos alojados en la nube implementados para fines de desarrollo (que contienen los modelos de prueba de suites)
-- entornos implementados localmente (implementación de datos empresariales locales o en local (LBD))
+Un repositorio de **Sistema de archivos** proporciona acceso a la lista de configuraciones que están ubicadas como archivos XML en la carpeta específica del sistema de archivos local del equipo en el que se aloja el servicio AOS. La carpeta necesaria se selecciona en la etapa de registro de repositorio. Puede importar configuraciones de un repositorio del **sistema de archivos** en la instancia de Finance and Operations actual. 
 
-Visite la página [Importar configuraciones de informes electrónicos (ER)](./electronic-reporting-import-ger-configurations.md) para obtener más información sobre ésta.
+Tenga en cuenta que este tipo de repositorio es accesible en los entornos Dynamics 365 for Finance and Operations siguientes:
 
-Un repositorio de **instancia RCS** proporciona acceso a la lista de configuraciones de una instancia RCS específica que se seleccionó en la etapa de registro del repositorio. ER le permite importar configuraciones completadas o compartidas desde la instancia de RCS seleccionada a la instancia de Finance and Operations actual utilizada para el informe de errores electrónico.
+- Los entornos hospedados en la nube implementados para fines de desarrollo (que contienen los modelos de prueba de suites)
+- Entornos implementados localmente
 
-Visite la página [Importar configuraciones de informes electrónicos (ER) desde Servicios de configuración reglamentaria (RCS)](./rcs-download-configurations.md) para obtener más información sobre ésta.
+Para obtener más información, consulte [Importar configuraciones de informes electrónicos (ER)](./electronic-reporting-import-ger-configurations.md).
+
+Un repositorio de **instancia RCS** proporciona acceso a la lista de configuraciones de una instancia RCS específica que se seleccionó en la etapa de registro del repositorio. ER le permite importar configuraciones completadas o compartidas desde la instancia de RCS seleccionada a la instancia de Finance and Operations para que pueda usarlas en los informes electrónicos.
+
+Para más información, consulte [Importar configuraciones de informes electrónicos (ER) de Regulatory Configuration Services (RCS)](./rcs-download-configurations.md).
+
+Un repositorio de **Recursos de Operations** proporciona acceso a la lista de configuraciones que libera Microsoft, como el proveedor de configuración de ER, como parte inicial de la solución de Finance and Operations. Estas configuraciones se pueden importar a la instancia actual de Finance and Operations y usar para los informes electrónicos o realizar tareas de guía de muestra. También se pueden utilizar para localizaciones y personalizaciones adicionales. Tenga en cuenta que las últimas versiones proporcionados por las configuraciones de Microsoft ER deben importarse de la biblioteca de activos compartidos de LCS usando el repositorio ER correspondiente.
 
 Los repositorios necesarios del **Proyecto LCS**, **Sistema de archivos** y **Servicios de configuración reglamentaria (RCS)** se pueden registrar de manera individual para cada proveedor de configuración de la instancia actual de Finance and Operations. Cada repositorio se puede dedicar a un proveedor de configuración específico.
 
@@ -209,7 +221,7 @@ ER proporciona un diseñador de asignación de modelos que permite a los usuario
 
 [![Ejemplo de una asignación de modelo de datos](./media/ER-overview-07.png)](./media/ER-overview-07.png)
 
-Para familiarizarse con los detalles de este escenario, reproduzca las guías de tareas **CE Definir asignación del modelo y seleccionar orígenes de datos** y **CE Asignar modelo de datos a los orígenes de datos seleccionados** (parte del proceso de negocio **7.5.4.3 Adquirir/Desarrollar componentes de solución/servicios de la TI (10677))**.
+Para familiarizarse con los detalles de este escenario, reproduzca las guías de tareas **CE Definir asignación del modelo y seleccionar orígenes de datos** y **CE Asignar modelo de datos a los orígenes de datos seleccionados** (parte del proceso de negocio **7.5.4.3 Adquirir/Desarrollar componentes de solución/servicios de la TI (10677)**).
 
 ### <a name="configuring-data-model-mappings-for-incoming-documents"></a>Configurar asignaciones del modelo de datos para los documentos de entrada
 ER proporciona un diseñador de asignación de modelos que permite a los usuarios asignar modelos de datos que se han diseñado para destinos específicos. Por ejemplo, los modelos de datos se pueden asignar a Finance and Operations para los componentes de datos que se puede actualizar (tablas, entidades de datos y vistas). En función de la asignación, los datos de Finance and Operations se actualizarán en tiempo de ejecución con los datos del modelo de datos. Como almacenamiento abstracto del formato de ER, el modelo de datos se rellena con los datos que se importan de un documento electrónico entrante. En la siguiente ilustración se muestra un ejemplo de este tipo de asignación de modelo de datos. En este ejemplo, la asignación del modelo **Asignación de importación para NETS** del modelo de datos del dominio de pago se utiliza para permitir la importación de extractos bancarios en el formato bancario NETS para Noruega.
@@ -377,6 +389,5 @@ ER le permite adoptar automáticamente los cambios de la última versión del co
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Requisitos de localización: crear una configuración de informes electrónicos](electronic-reporting-configuration.md)
-
-[Administrar el ciclo de vida de las configuraciones de la notificación electrónica](general-electronic-reporting-manage-configuration-lifecycle.md)
+- [Requisitos de localización: crear una configuración de informes electrónicos](electronic-reporting-configuration.md)
+- [Administrar el ciclo de vida de las configuraciones de la notificación electrónica](general-electronic-reporting-manage-configuration-lifecycle.md)

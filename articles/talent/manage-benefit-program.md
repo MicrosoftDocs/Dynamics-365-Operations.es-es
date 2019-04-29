@@ -1,7 +1,7 @@
 ---
 title: Definir y gestionar un programa de prestaciones
 description: Los Recursos humanos ofrecen una serie de herramientas que se pueden usar para configurar y mantener prestaciones, deducciones y los planes de compensación de los trabajadores que una organización ofrece o procesa para sus trabajadores. En este artículo se ofrece información acerca de cómo configurar y gestionar prestaciones.
-author: kherr75
+author: andreabichsel
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
@@ -10,20 +10,20 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: HcmBenefitEligibilityDetail, HcmBenefitSelection, SysPolicyListPage, SysPolicySourceDocumentRuleType
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations, Talent
 ms.custom: 15681
 ms.assetid: 6aee97ac-29f7-4b3c-8aa1-c65810de3090
 ms.search.region: Global
-ms.author: kherr
+ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: fc325b519299098a4f8257c013bce0842237f9ea
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 033377f7d45bfa2b798c098be2dde0c21739bb51
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "306144"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "857439"
 ---
 # <a name="define-and-manage-a-benefits-program"></a>Definir y gestionar un programa de prestaciones
 
@@ -50,7 +50,7 @@ Para cada tipo de prestación, como de visión o dental, una organización puede
 [![imagen de prestación](./media/benefit-pic.png)](./media/benefit-pic.png)
 
 ## <a name="eligibility"></a>Idoneidad
-Muchos factores determinan la idoneidad del trabajador para los distintos tipos de prestaciones que el empleador ofrece. Al crear una prestación en Microsoft Dynamics Talent, puede establecer el tipo de idoneidad que se aplica a dicha prestación. 
+Muchos factores determinan la idoneidad del trabajador para los distintos tipos de prestaciones que el empleador ofrece. Al crear una prestación en Microsoft Talent, puede establecer el tipo de idoneidad que se aplica a dicha prestación. 
 
 Puede hacer que una prestación esté disponible para todos los trabajadores. Por ejemplo, algunas empresas ofrecen pases de aparcamiento para todos los empleados como beneficio complementario. Cuando crea esta prestación, establece la idoneidad en **Todos los trabajadores son aptos**. 
 

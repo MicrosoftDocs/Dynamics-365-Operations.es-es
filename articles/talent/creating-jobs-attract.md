@@ -1,30 +1,30 @@
 ---
 title: Crear, aprobar y publicar trabajos en Attract
 description: Este tema describe los elementos de un trabajo en Attract. También se explica cómo crear un trabajo.
-author: josaw
+author: hasrivas
 manager: AnnBe
-ms.date: 02/26/2019
+ms.date: 03/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: josaw
+ms.author: hasrivas
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 2f7e0ec7d33579f213909ff9ad911d26800c2b76
-ms.sourcegitcommit: ceef0ee77ffc245e57637e2ea84e1a71a214b3d7
+ms.openlocfilehash: 1e76572c1a843fe7abd515333d5b7cb03b91eb11
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "772820"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "969358"
 ---
 # <a name="create-approve-and-post-jobs-in-attract"></a>Crear, aprobar y publicar trabajos en Attract
 
@@ -44,7 +44,7 @@ La pestaña **Detalles del trabajo** contiene detalles sobre las responsabilidad
 
 De forma predeterminada, el campo **Número de vacantes** se establece en **1**. Sin embargo, se puede cambiar este valor. Cuando una oferta se ha preparado para un trabajo, el valor del campo **Número de vacantes disponibles** disminuye.
 
-Si se ha activado la gestión del puesto en el Centro de administración, la búsqueda **Actualizar puestos** está disponible. Esta búsqueda lee la entidad JobPosition en el Common Data Service for Apps y devuelve una lista de puestos que se pueden seleccionar para el trabajo. Si el número de puestos que selecciona supera el número de puestos vacantes, se mostrará una advertencia. También recibe una advertencia si un puesto se utiliza en varios trabajos.
+Si se ha activado la gestión del puesto en el Centro de administración, la búsqueda **Actualizar puestos** está disponible. Esta búsqueda lee la entidad JobPosition en el Common Data Service y devuelve una lista de puestos que se pueden seleccionar para el trabajo. Si el número de puestos que selecciona supera el número de puestos vacantes, se mostrará una advertencia. También recibe una advertencia si un puesto se utiliza en varios trabajos.
 
 > [!NOTE]
 > La gestión de puestos está disponible con el complemento de contratación completa.
@@ -74,9 +74,7 @@ Para obtener más información sobre las actividades que se pueden agregar al pr
 
 ## <a name="postings"></a>Registros
 
-Después de que se active un trabajo, este se puede registrar. Solo los reclutadores y los administradores pueden registrar trabajos. El trabajo se puede registrar en Talent Careers (un sitio de carreras de Microsoft Dynamics 365 for Talent) o LinkedIn. 
-
-El equipo de Attract trabaja continuamente para asociarse con los agregadores tableros de trabajo. Esta lista se expandirá con el tiempo.
+Después de que se active un trabajo, este se puede registrar. Solo los reclutadores y los administradores pueden registrar trabajos. El trabajo se puede registrar en Talent Careers (un sitio de carreras de Microsoft Dynamics 365 for Talent) o LinkedIn. El equipo de Attract trabaja continuamente para asociarse con los agregadores tableros de trabajo. Esta lista se expandirá con el tiempo. Cuando un trabajo se registra como interno únicamente, los candidatos necesitan una cuenta de DAA para ver y solicitar el trabajo. Si el trabajo se muestra como público, los candidatos pueden ver y solicitar trabajos usando todas las opciones de autenticación. 
 
 Para obtener más información acerca de registros de trabajo, consulte [La funcionalidad del sitio de carreras en Attract](career-site.md).
 
@@ -137,9 +135,14 @@ Una vez guardado un trabajo, puede ser enviado para su aprobación. En la tabla 
 
 En la lista de trabajos, puede filtrar por los estados de trabajo.
 
-Las aprobaciones se pueden enviar a cualquier usuario de Microsoft Azure Active Directory (Azure AD) en la empresa. Las aprobaciones se envían en paralelo a todas las personas que aparecen como aprobadores. Después de que se apruebe un trabajo, este se puede activar.
+Las aprobaciones se pueden enviar a cualquier usuario de Microsoft Azure Active Directory (Azure AD) en la empresa. Las aprobaciones se envían en paralelo a todas las personas que aparecen como aprobadores. Todos los aprobadores deben aprobar el trabajo antes de que este pueda avanzar. Si un único aprobador rechaza el trabajo, el trabajo mostrará un estado **Rechazado**. Después de que se apruebe un trabajo, este se puede activar.
 
-Las personas que figuran como aprobadores recibirán una notificación en Attract para informarles de que tienen un elemento por aprobar. También aparecerá un elemento de aprobación en la sección **Asignadas a usted** en el panel. Una vez que alguien acepte o aprueebe un trabajo, el equipo de contratación recibirá una notificación. Finalmente, el equipo de contratación recibirá una notificación cuando se apruebe el trabajo.
+Si un usuario edita el trabajo después de que se apruebe, pero no está activado, restablecerá el estado del trabajo a **Borrador**, y el trabajo se debe volver a aprobar. Una vez un trabajo aprobado es activado, no se puede editar.
+
+Las personas que figuran como aprobadores recibirán una notificación en Attract y un correo electrónico para informarles de que tienen un elemento por aprobar.  En el correo electrónico, los aprobadores pueden hacer clic en el vínculo para abrir el trabajo, revisar los detalles, y aprobarlo o rechazarlo. Después de que el valor del estado del trabajo pase a **Aprobado** o **Rechazado**, se notificará al usuario en Attract y recibirá un correo electrónico. Además, los aprobadores recibirán un correo electrónico de alerta si no han respondido a la solicitud de aprobación en 24 horas.
+
+> [!NOTE]
+> Puede crear plantillas de correo electrónico personalizadas de los correos electrónicos de aprobación. Para obtener más información, consulte [Crear y gestionar plantillas de correo electrónico](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/email-templates).
 
 ## <a name="create-a-job"></a>Creación de un trabajo
 

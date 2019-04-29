@@ -1,7 +1,7 @@
 ---
 title: Seguridad y gestión de roles en Attract
 description: Este tema proporciona información sobre la seguridad de los roles en Microsoft Dynamics 365 for Talent - Attract.
-author: josaw1
+author: andreabichsel
 manager: AnnBe
 ms.date: 03/08/2019
 ms.topic: article
@@ -10,20 +10,20 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: josaw1
+ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: bb313c489a3bdaa71f8db870cab729d86088f4db
-ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
+ms.openlocfilehash: 9c0f9d3304b1b15aa84fd1a296267d606bf9c59d
+ms.sourcegitcommit: 1653d1e28d02f8a9a4bea8df562ac98d7a350ed1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "789706"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "993700"
 ---
 # <a name="security-and-role-management-in-attract"></a>Seguridad y gestión de roles en Attract
 
@@ -70,6 +70,16 @@ Cualquier usuario que tenga una cuenta de Microsoft Azure Active Directory (Azur
 
 Los usuarios que tienen asignado el rol de solo lectura tienen acceso de solo lectura a todos los datos del entorno de Attract. Sin embargo, no pueden crear o editar los datos.
 
+## <a name="find-out-which-roles-you-have"></a>Descubra qué roles tiene
+
+1.  En Attract, haga clic en el signo de interrogación (**?**) en la esquina superior derecha de la página.
+
+2.  Haga clic en **Acerca de**.
+
+    Verá los roles que tiene para Attract en la ventana que aparece:
+
+    ![Vea su tipo de licencia de Attract](media/attract-license-types.png)
+    
 ## <a name="delegated-roles"></a>Roles delegados
 
 Para cada trabajo para el que se encuentren en el equipo de contratación, los reclutadores, y los directores de contratación pueden designar uno o más delegados que los representen. Sin embargo, no pueden designar delegados para otras personas que estén en el equipo de contratación.

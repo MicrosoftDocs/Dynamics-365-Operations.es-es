@@ -3,7 +3,7 @@ title: Sincronizar las transferencias y los ajustes de inventario desde Field Se
 description: En este tema se describe las plantillas y las tareas subyacentes que se usan para sincronizar transferencias y ajustes de inventario de Microsoft Dynamics 365 for Finance and Operations a Microsoft Dynamics 365 for Field Service.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/14/2019
+ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: aa54945cea5821da163e1f6ea1747ac29b31a3ce
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 75181661c41d238cdc06ffbb6969a2efd7d88d46
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "308377"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842424"
 ---
 # <a name="synchronize-inventory-adjustments-from-field-service-to-finance-and-operations"></a>Sincronizar los ajustes de inventario desde Field Service a Finance and Operations
 
@@ -38,8 +38,8 @@ En este tema se describe las plantillas y las tareas subyacentes que se usan par
 La plantilla siguiente y las tareas subyacentes se usan para sincronizar transferencias y ajustes de inventario de Microsoft Dynamics 365 for Field Service a Microsoft Dynamics 365 for Finance and Operations.
 
 **Plantillas en la integración de datos**
-- Ajuste de inventario (desde Field Service a Finance and Operations)
-- Transferencias de inventario (desde Field Service a Finance and Operations)
+- Ajuste de inventario (desde Field Service a Fin and Ops)
+- Transferencias de inventario (desde Field Service a Fin and Ops)
 
 **Tareas en los proyectos de integración de datos**
 - Ajustes de inventario
@@ -71,11 +71,11 @@ Los diarios de inventario de integración generados mediante la integración se 
 
 Las siguientes ilustraciones muestran la asignación de plantilla en la integración de datos.
 
-### <a name="inventory-adjustment-field-service-to-finance-and-operations-inventory-adjustment"></a>Ajuste de inventario (desde Field Service a Finance and Operations): ajuste de inventario
+### <a name="inventory-adjustment-field-service-to-fin-and-ops-inventory-adjustment"></a>Ajuste de inventario (desde Field Service a Fin and Ops): ajuste de inventario
 
 [![Asignación de la plantilla en la integración de datos](./media/FSAdj1.png)](./media/FSAdj1.png)
 
 
-### <a name="inventory-transfer-field-service-to-finance-and-operations-inventory-transfer"></a>Transferencia de inventario (desde Field Service a Finance and Operations): transferencia de inventario
+### <a name="inventory-transfer-field-service-to-fin-and-ops-inventory-transfer"></a>Transferencia de inventario (desde Field Service a Fin and Ops): transferencia de inventario
 
 [![Asignación de la plantilla en la integración de datos](./media/FSTrans1.png)](./media/FSTrans1.png)

@@ -1,7 +1,7 @@
 ---
 title: Organizar los recursos mediante departamentos, trabajos y puestos
 description: Los departamentos, los trabajos y los puestos son elementos de organización que se mantienen dentro de Recursos Humanos. En este tema se describe información conceptual acerca de estos elementos.
-author: rschloma
+author: andreabichsel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,20 +10,20 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: HcmJob, HcmPosition, OMOperatingUnit
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations, Talent, Retail
 ms.custom: 87933
 ms.assetid: eb5dcacb-a5fe-451d-b30a-7ef14da65d81
 ms.search.region: Global
-ms.author: dkrame
+ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 8b74542b85810409e062a42e323c0527711d562f
-ms.sourcegitcommit: 49a642cd5e0519e381ff558f59c993ee77f55108
+ms.openlocfilehash: 968167f735cfa05ef17348ce1d55a184e355fbad
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2019
-ms.locfileid: "374406"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "857347"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Organizar los recursos mediante departamentos, trabajos y puestos
 

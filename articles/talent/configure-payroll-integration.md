@@ -1,26 +1,26 @@
 ---
 title: Configurar la integración de nóminas entre Talent y Dayforce
 description: Este tema explica cómo configurar la integración entre Microsoft Dynamics 365 for Talent y Ceridian Dayforce de modo que pueda procesar un período de pago.
-author: jcart1106
+author: andreabichsel
 manager: AnnBe
-ms.date: 07/10/2018
+ms.date: 03/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations, Talent
 ms.search.region: Global
-ms.author: jcart
+ms.author: anbichse
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fcddf82cffb9f0ba94b83eb21809b810585ebc9e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 9a88bf61dbb12520b555ceb7363b1c646d95386e
+ms.sourcegitcommit: 204e4554e409c39fbbf7b273ad138ce2809931a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "306079"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "898453"
 ---
 # <a name="configure-the-payroll-integration-between-talent-and-dayforce"></a>Configurar la integración de nóminas entre Talent y Dayforce
 
@@ -357,6 +357,9 @@ Si va a generar el sueldo de los empleados en Estados Unidos y Canadá, los sigu
 
 - Se requieren departamentos en los puestos.
 - Los centros de coste deben configurarse como dimensiones financieras y deben ser el primer elemento de la cadena de dimensión financiera predeterminada.
+
+> [!NOTE] 
+> Puede configurar Talent para requerir que los puestos especifiquen un departamento. Para ello, vaya a **Puestos compartidos de recursos humanos > Puestos > Requerir departamentos en puestos**. Recomendamos que este valor se aplique para la integración.
 
 ### <a name="job-types"></a>Tipos de trabajo
 
