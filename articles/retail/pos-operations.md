@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9354e0dbf8bed9383a9dfcc383a2c9db57457dd0
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 85708c7197a71e6ad9b814e2e63d62122c8890f6
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "353825"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842731"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Operaciones de punto de venta (PDV) en línea y sin conexión
 
@@ -93,7 +93,7 @@ Las columnas siguientes especifican dónde pueden ser invocadas las operaciones:
 | 614 | Editar pedido de cliente | Recupere el pedido seleccionado para que se pueda modificar en el PDV. | N.º | N.º | N.º | N.º | N.º |
 | 615 | Editar presupuesto | Recupere el presupuesto seleccionado para que se pueda modificar en el PDV. | N.º | N.º | N.º | N.º | N.º |
 | 518 | Cuentas de gastos | Registre el dinero retirado de la caja registradora para gastos ocasionales. | Sí | Sí | Sí | Sí | N.º |
-| 919 | Inicio de sesión extendido | Permite asignar o quitar el permiso para iniciar sesión mediante la digitalización de un código de barras o el pase de una tarjeta. | Sí | Sí | Sí | N.º | N.º |
+| 919 | Inicio de sesión extendido | Permite asignar o quitar el permiso para iniciar sesión mediante la digitalización de un código de barras o el pase de una tarjeta. | Sí | Sí | Sí | Sí | No |
 | 1201 | Entrada flotante | Esta operación permite al usuario agregar dinero adicional a la caja registradora o el turno actual. | Sí | Sí | Sí | Sí | N.º |
 | 1218 | Forzar desbloqueo de periférico | El sistema usa esta operación internamente para desbloquear periféricos de PDV. | No aplicable | No aplicable | No aplicable | No aplicable | N.º |
 | 520 | Saldo de tarjeta regalo | Muestra el saldo de una tarjeta regalo. | Sí | Sí | N.º | N.º | N.º |

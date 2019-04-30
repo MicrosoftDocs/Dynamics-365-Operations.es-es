@@ -1,7 +1,7 @@
 ---
 title: Resolver las discrepancias durante la conciliación de los totales de las facturas
 description: Puede usar la conciliación de totales de factura para asegurarse de que los importes totales de factura no se desvían de los importes planificados más de la desviación aceptable.
-author: ShivamPandey-msft
+author: abruer
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 67aa0b89eed1f82290659029dfcce92ca3710aea
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 63f4747c13d70d45404069a200124336d6f54947
+ms.sourcegitcommit: dd1e1636d351a15f9c1b6808bea359417a9bd690
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "331515"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "896359"
 ---
 # <a name="resolve-discrepancies-during-invoice-totals-matching"></a>Resolver las discrepancias durante la conciliación de los totales de las facturas
 

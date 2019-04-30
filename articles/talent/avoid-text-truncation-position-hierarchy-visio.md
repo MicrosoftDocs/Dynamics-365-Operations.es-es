@@ -1,7 +1,7 @@
 ---
 title: Evitar truncamiento del texto en la jerarquía de puestos y exportar a Visio
 description: Este tema explica cómo resolver un problema en el que los nombres de personas y de puestos se truncan cuando los clientes ven la jerarquía de puestos en Microsoft Dynamics 365 for Talent. El truncamiento de texto puede hacer difícil tomar una captura de pantalla o imprimir la jerarquía.
-author: Darinkramer
+author: andreabichsel
 manager: AnnBe
 ms.date: 11/02/2018
 ms.topic: article
@@ -9,20 +9,20 @@ ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b688a396e3b384aedb06c470b1634150ae7aa038
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 87d1c1994b14fac45fa305a9223ed45ee363a70c
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "306074"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "859906"
 ---
 # <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>Evitar truncamiento del texto en la jerarquía de puestos y exportar a Visio
 
@@ -50,7 +50,7 @@ Siga estos pasos para exportar a Visio.
 
 2. En el panel de acciones, seleccione el botón **Abrir en Microsoft Office** y, a continuación, en **Exportar a Excel**, seleccione **Puestos**. Como alternativa, presione Ctrl+T.
 
-    ![Exportación de la página de lista de puestos a Microsoft Excel](media/org-admin.png)
+    ![Exportación de la página de lista de puestos a Excel](media/org-admin.png)
 
 3. Guarde el archivo de Excel que se exporta.
 

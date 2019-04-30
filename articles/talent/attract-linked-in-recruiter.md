@@ -1,7 +1,7 @@
 ---
 title: Abastecimiento con LinkedIn Recruiter
 description: Este tema proporciona información sobre el uso del aprendizaje automático para obtener recomendaciones del trabajo y del candidato de trabajo.
-author: josaw
+author: andreabichsel
 manager: AnnBe
 ms.date: 12/07/2018
 ms.topic: article
@@ -10,21 +10,21 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: josaw
+ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 9bb323728923ff3b09ff0bfba3849f3c5d84eb34
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 4ac7a302e5bf589beb2b560b0ff5818e90c67139
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "306055"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "859583"
 ---
 # <a name="sourcing-with-linkedin-recruiter"></a>Abastecimiento con LinkedIn Recruiter
 [!include[banner](../includes/banner.md)]
@@ -32,11 +32,11 @@ ms.locfileid: "306055"
 LinkedIn es la base de datos más grande del mundo y a menudo el principal sistema que los reclutadores utilizan para buscar candidatos, comunicarse con ellos y conseguir candidatos para trabajos que los reclutadores quieren cubrir. La integración de LinkedIn Recruiter con Dynamics 365 for Talent: Attract facilita que los usuarios empleen, y conserven los datos en sincronización entre los dos sistemas.
 
 > [!NOTE]
-> Necesita el complemento de contratación completa y usuarios de Linkedin Recruiter para poder usar la integración de LinkedIn Recruiter con Attract.
+> Necesita el complemento de contratación completa y asientos de LinkedIn Recruiter para poder usar la integración de LinkedIn Recruiter con Attract.
 
-## <a name="set-up-linkedin-recruiter-with-attract"></a>Configuración de LinkedIn Recruiter con Attract 
+## <a name="set-up-linkedin-recruiter-with-attract"></a>Configurar LinkedIn Recruiter con Attract 
 
-Para poder usar las capacidades de LinkedIn Recruiter, debe configurar el acceso de nivel de contrato o de nivel de emrpesa con su instancia de Attract. Para completar el proceso de configuración, debe trabajar con el usuario que es un administrador en su contrato de LinkedIn Recruiter. Realice los pasos siguientes para configurar LinkedIn Recruiter con Attract.
+Para poder usar las capacidades de LinkedIn Recruiter, primero debe configurar el acceso de nivel de contrato o de nivel de empresa con su instancia de Attract. Para completar el proceso de configuración, debe trabajar con el usuario que es un administrador en su contrato de LinkedIn Recruiter. Realice los pasos siguientes para configurar LinkedIn Recruiter con Attract.
 
 1.  Inicie sesión en Attract como administrador y vaya a **Configuración de administrador**.
 
@@ -74,7 +74,7 @@ El sistema de Attract se mostrará con un par de opciones que se pueden activar.
 
 [![Integración de LinkedIn Recruiter completa](./media/RSCSetupComplete.png)](./media/RSCSetupComplete.png)
 
-## <a name="using-linkedin-recruiter-capabilities"></a>Uso de las capacidades de LinkedIn Recruiter
+## <a name="using-linkedin-recruiter-capabilities"></a>Usar las capacidades de LinkedIn Recruiter
 
 Después de que las capacidades de LinkedIn Recruiter hayan sido habilitadas por el administrador de Attract, están disponibles para que los administradores y los reclutadores de contratación puedan acceder a ellas. Para usar estas capacidades, conecte su cuenta de LinkedIn en **Configuración del usuario**. Varias capacidades estarán disponibles después de que se hayan conectado la configuración de gestión y de usuario.
 
@@ -122,17 +122,17 @@ Usando LinkedIn Recruiter, puede saber si un candidato ha solicitado otros traba
 6.  Seleccione la pestaña **Notas** para ver las notas que se han capturado para este candidato en Attract.
 
 > [!NOTE]
-> El candidato y los datos de la aplicación no se sincronizarán con el reclutador de LinkedIn si el candidato no ha pasado de la etapa de cliente potencial.
+> El candidato y los datos de la aplicación no se sincronizarán con el LinkedIn Recruiter si el candidato no ha pasado de la etapa de candidato.
 
 ### <a name="inmail-history"></a>Historial de InMail
 
-E historial de LinkedIn InMail está disponibles con acceso de nivel de contrato con LinkedIn Recruiter. Cuando se habilita, puede ver el historial completo de InMail con el candidato. También puede ver quién más de su organización ha intercambiado InMail con el candidato, aunque no puede ver los mensajes intercambiados entre ellos.
+El historial de LinkedIn InMail está disponibles con acceso de nivel de contrato con LinkedIn Recruiter. Cuando se habilita, puede ver el historial completo de InMail con el candidato. También puede ver quién más de su organización ha intercambiado InMail con el candidato, aunque no puede ver los mensajes intercambiados entre ellos.
 
 Para ver el historial de InMail, vaya al perfil de un candidato, vaya a la ficha **LinkedIn** y desplácese a la parte inferior de la página para ver el historial. Puede ver el historial de InMail si ha tenido una conversación con el candidato. Los mensajes de InMail se sincronizarán con Attract cada par de horas.
 
 ### <a name="notes-history"></a>Historial de notas 
 
-El notas de LinkedIn están disponibles con acceso de nivel de contrato con LinkedIn Recruiter. Cuando se habilitan, puede ver las notas sobre el candidato que han sido capturadas por varios reclutadores de su organización.
+El historial de notas de LinkedIn está disponibles con acceso de nivel de contrato con LinkedIn Recruiter. Cuando se habilitan, puede ver las notas sobre el candidato que han sido capturadas por varios reclutadores de su organización.
 
 Para ver el historial de notas, vaya al perfil de un candidato, vaya a la ficha **LinkedIn** y desplácese a la parte inferior de la página para ver el historial. Puede ver todas las notas sobre el candidato desde LinkedIn Recruiter.
 

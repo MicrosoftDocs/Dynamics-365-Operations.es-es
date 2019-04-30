@@ -1,7 +1,7 @@
 ---
 title: Conciliación de facturas de proveedores
 description: La conciliación de facturas de proveedores es el proceso de conciliación de la factura de proveedor, el pedido de compra y la información de recepción de producto.
-author: ShivamPandey-msft
+author: abruer
 manager: AnnBe
 ms.date: 02/13/2019
 ms.topic: article
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6d1582d268be759cd1f1686c9e80f6cf7eeb2da8
-ms.sourcegitcommit: 1ee613a88edddab036d145f27f19d071a4b8ad24
+ms.openlocfilehash: 74a1f7e16064a954bb22dc233a77bf28747f7f11
+ms.sourcegitcommit: dd1e1636d351a15f9c1b6808bea359417a9bd690
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "389942"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "896957"
 ---
 # <a name="accounts-payable-invoice-matching"></a>Conciliación de facturas de proveedores
 

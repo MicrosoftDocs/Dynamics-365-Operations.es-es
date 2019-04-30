@@ -3,7 +3,7 @@ title: Gestión de proyectos y contabilidad
 description: La funcionalidad de gestión de proyectos y contabilidad se puede usar en varias industrias para proporcionar un servicio, producir un producto o lograr un resultado.
 author: KimANelson
 manager: AnnBe
-ms.date: 01/10/2018
+ms.date: 02/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c21587499a68143d403760ad32bea65948d7fbc9
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 82a2da882ba951c2ff6420b726e0546e9073d2e4
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "311344"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "969409"
 ---
 # <a name="project-management-and-accounting"></a>Gestión de proyectos y contabilidad
 
@@ -80,7 +80,7 @@ Puede usar la previsión si su organización tiene una perspectiva operativa y s
 
 ### <a name="create-projects"></a>Crear proyectos
 
-Puede crear seis tipos de proyectos en Microsoft Dynamics 365 for Finance and Operations. Cada tipo de proyecto se configura de manera diferente para costes y reconocimiento de ingresos. El tipo de proyecto que seleccione dependerá del objetivo del proyecto. En la tabla siguiente se describe el uso habitual de cada tipo de proyecto.
+Puede crear seis tipos de proyectos en Microsoft Finance and Operations. Cada tipo de proyecto se configura de manera diferente para costes y reconocimiento de ingresos. El tipo de proyecto que seleccione dependerá del objetivo del proyecto. En la tabla siguiente se describe el uso habitual de cada tipo de proyecto.
                                                                                                             
 <table>
   <tr>

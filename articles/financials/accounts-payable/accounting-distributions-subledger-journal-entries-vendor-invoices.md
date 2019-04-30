@@ -1,7 +1,7 @@
 ---
 title: Distribuciones contables y asientos del subdiario contable para las facturas de proveedor
 description: Las distribuciones contables se usan para definir cómo un importe se justificará, por ejemplo, cómo se justificarán los gastos, impuestos o cargos en la factura de un proveedor. Cada importe que se debe justificar cuando se registre en el diario la factura de proveedor tendrá una o varias distribuciones contables.
-author: ShivamPandey-msft
+author: abruer
 manager: AnnBe
 ms.date: 08/20/2017
 ms.topic: article
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f59eb2f61bc6bc887461683408b57c4672ce5bf1
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 3b75b1c8d98c15579909bd8816f2f7df8e6a5ba0
+ms.sourcegitcommit: dd1e1636d351a15f9c1b6808bea359417a9bd690
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "351364"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "896750"
 ---
 # <a name="accounting-distributions-and-subledger-journal-entries-for-vendor-invoices"></a>Distribuciones contables y asientos del subdiario contable para las facturas de proveedor
 

@@ -1,28 +1,28 @@
 ---
 title: Comparación de las características en la nube y locales
 description: En este tema se muestran qué características se admiten en la nube y en local.
-author: robinarh
+author: sericks007
 manager: AnnBe
-ms.date: 11/02/2018
+ms.date: 04/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: robinr
+ms.reviewer: sericks
 ms.search.scope: Operations
 ms.custom: 89563
 ms.assetid: ''
 ms.search.region: Global
-ms.author: robinr
+ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 2abddec24776dc84860116cc708e4d8e102dc503
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 18f668bdc49da1022230278f1de8494150e8a5f9
+ms.sourcegitcommit: bdcdcdddcb0517f0c64d541258ccbd119b960719
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "313989"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "977215"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Comparación de las características en la nube y locales
 
@@ -42,7 +42,7 @@ Las tablas siguientes muestran las áreas del producto. El soporte en la nube y 
 | Cumplimiento y certificaciones | | Sí | Sí |
 | | Certificación SOC 1 de tipo 1 | Sí | Nº |
 | Contabilidad de costes | | Sí | Sí |
-| | Paquete de contenido de Power BI sobre la contabilidad de costes Power BI | Sí | Nº |
+| | Paquete de contenido de contabilidad de costes para Power BI | Sí | Nº |
 | | Área de trabajo de la contabilidad de costes para aplicaciones móviles | Sí | Nº |
 | Gestión de costes | | Sí | Sí |
 | | Paquete de contenido gestión de costes para Power BI | Sí | Nº |
@@ -55,10 +55,13 @@ Las tablas siguientes muestran las áreas del producto. El soporte en la nube y 
 | Administración financiera | | Sí | Sí |
 | Ayuda | | Sí | N.º |
 | Recursos humanos | | Sí | Sí |
-| Intelligence | | Sí | Sí |
-| | Informes electrónicos (ER) - Integración con LCS | Sí | Nº |
-| | Informes electrónicos (ER) - Integración con SharePoint | Sí | Nº |
-| | Integración con PowerBI.com | Sí | Nº |
+| Inteligencia | | Sí | Sí |
+| | Informes electrónicos (ER) | Sí | Sí |
+| | ER: integración con LCS | Sí | No |
+| | ER: integración con SharePoint | Sí | No |
+| | ER: Integración con Regulatory Configuration Services (RCS) | Sí | No |
+| | ER: permite usar el sistema de archivos local como almacenamiento de las configuraciones de ER accesibles mediante los repositorios de ER | No | Sí |
+| | Integración con PowerBI.com | Sí | No |
 | | Espacios de trabajo analíticos | Sí | N.º |
 | | Proceso empresarial inteligente: recomendaciones | Sí | Nº |
 | | Creación de informes de Power BI con OData mediante el escritorio de Power BI o herramientas de Excel PowerQuery | Sí | Nº |

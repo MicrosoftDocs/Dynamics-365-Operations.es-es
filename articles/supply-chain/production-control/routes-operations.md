@@ -3,7 +3,7 @@ title: Rutas y operaciones.
 description: Este tema proporciona información acerca de las rutas y las operaciones.
 author: sorenva
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 03/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 417fd960a43ad3fd023ea0c4a17be735b69743de
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 961cc6fe5bd1bfbb0f5c9116024415a5d53f569e
+ms.sourcegitcommit: dc90d56050d7353930d048476451542cce147e37
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "333355"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "850677"
 ---
 # <a name="routes-and-operations"></a>Rutas y operaciones.
 
@@ -57,13 +57,12 @@ Si solo habilita rutas simples en los parámetros de control de producción, Fin
 
 Si habilita redes de rutas más complejas en los parámetros de control de producción, puede definir las rutas que tengan múltiples puntos de inicio y operaciones que se pueden ejecutar en paralelo.  
 
-[![Red de rutas](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
+[![Red de las rutas](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
 
-**Notas:**
-
--   Cada operación solo puede tener una operación sucesora y la totalidad de la ruta debe terminar en una sola operación.
--   No se garantiza que múltiples operaciones con la misma operación sucesora (por ejemplo, las operaciones 30 y 40 en la ilustración anterior) se vayan a ejecutar realmente en paralelo. La disponibilidad y la capacidad de los recursos puede limitar la forma en que se programan las operaciones.
--   No puede usar 0 (cero) como el número de operación. Ese número se reserva y utiliza para especificar que la última operación de la ruta no tiene ninguna operación sucesora.
+> [!NOTE]
+> -   Cada operación solo puede tener una operación sucesora y la totalidad de la ruta debe terminar en una sola operación.
+> -   Esto no garantiza que múltiples operaciones con la misma operación sucesora (por ejemplo, las operaciones 30 y 40 en la ilustración anterior) se vayan a ejecutar realmente en paralelo. La disponibilidad y la capacidad de los recursos puede limitar la forma en que se programan las operaciones.
+> -   No puede usar 0 (cero) como el número de operación. Ese número se reserva y utiliza para especificar que la última operación de la ruta no tiene ninguna operación sucesora.
 
 ### <a name="parallel-operations"></a>Operaciones paralelas
 
@@ -122,7 +121,8 @@ También puede especificar que una relación de operación es específica de un 
 
 Las relaciones de operación proporcionan gran flexibilidad al definir sus rutas. Además, la capacidad de definir las propiedades predeterminadas ayuda a reducir la cantidad de datos maestros que debe mantener. Sin embargo, esta flexibilidad también indica debe tener en cuenta el contexto en el que modifica una relación de operación.  
 
-**Nota**: Dado que las propiedades operativas se almacenan en relaciones de operaciones por operación y por ruta, todas las repeticiones de la misma operación (por ejemplo, ensamblado) tienen el mismo tiempo de preparación, tiempo de ejecución, requisitos de recurso, etc. Por lo tanto, si debe haber dos repeticiones de una operación en la misma ruta pero deben tener distintos tiempos de ejecución, tendrá que crear dos operaciones distintas, como Ensamblado1 y Ensamblado2.
+> [!NOTE]
+> Dado que las propiedades operativas se almacenan en relaciones de operaciones por operación y por ruta, todas las repeticiones de la misma operación (por ejemplo, ensamblado) tienen el mismo tiempo de preparación, tiempo de ejecución y requisitos de recurso. Por lo tanto, si debe haber dos repeticiones de una operación en la misma ruta pero deben tener distintos tiempos de ejecución, tendrá que crear dos operaciones distintas, como Ensamblado1 y Ensamblado2.
 
 ### <a name="modifying-product-specific-routes"></a>Modificar rutas de específicas de un producto
 
@@ -132,7 +132,8 @@ En la página **Ruta**, puede modificar las propiedades operativas de la operaci
 
 También puede crear manualmente una operación que sea específica para una ruta y un producto liberado mediante la función **Copiar y editar relación**.  
 
-**Nota:** Si agrega una nueva operación a una ruta en la página **Ruta**, una relación de operación de relación se crea únicamente para el producto liberado actual. Por lo tanto, si la ruta también se usa para generar otros productos emitidos, no existirá ninguna relación de operación aplicable para dichos productos liberados, y la ruta ya no se podrá usar para esos productos liberados.
+> [!NOTE]
+> Si agrega una nueva operación a una ruta en la página **Ruta**, una relación de operación de relación se crea únicamente para el producto liberado actual. Por lo tanto, si la ruta también se usa para generar otros productos emitidos, no existirá ninguna relación de operación aplicable para dichos productos liberados, y la ruta ya no se podrá usar para esos productos liberados.
 
 ### <a name="maintaining-operation-relations-per-route"></a>Mantener relaciones de operación por ruta
 
@@ -228,17 +229,32 @@ Si no especifica un recurso de operaciones o un grupo de recursos como parte de 
 -   **Lote:** una capacidad de lote se calcula usando la información de la relación de operación. El número de lotes y, por tanto, el tiempo del proceso se pueden calcular en función de la cantidad del pedido.
 -   **Lote de recursos:** esta opción es básicamente la misma que la opción **Lote**. Sin embargo, el cálculo incluye el campo **Capacidad de lote** del recurso de operaciones. Por lo tanto, el tiempo depende de los recursos.
 
+### <a name="set-up-route-groups"></a>Configurar grupos de rutas
 
-<a name="additional-resources"></a>Recursos adicionales
---------
+Puede definir los grupos de rutas y la configuración de su ruta o tipos de trabajo en **Control de producción > Configuración > Rutas > Grupos de rutas**. Para cada ruta/tipo de trabajo en el grupo de rutas, podrá seleccionar o borrar las siguientes opciones:
 
-[Listas de materiales y fórmulas](bill-of-material-bom.md)
+- **Activación**: seleccione esta opción para habilitar cálculos y la programación del tipo de trabajo seleccionado y para recibir comentarios de trabajos cuando se ejecuta la programación de trabajos. Necesita seleccionar esta opción para habilitar el tipo de trabajo y a continuación, seleccionar el resto de las opciones para ese tipo de trabajo. Si la activación no está seleccionada, este tibo de trabajo no se habilitará, independientemente de la selección de las otras opciones. 
+- **Gestión de trabajo**: seleccione esta opción para incluir el tipo de trabajo en la gestión de trabajo cuando ejecuta la programación de trabajos. 
+- **Tiempo de trabajo**: seleccione esta opción para programar el tipo de trabajo de acuerdo con el calendario de horas de trabajo que se define para el recurso de operaciones, de lo contrario se usará el calendario gregoriano. El horario de trabajo se puede programar según el calendario gregoriano o según el calendario de trabajo definido. Si activa esta opción, la programación se basará en el calendario de horario de trabajo definido. Además, el trabajo del tipo de trabajo se programa desde la medianoche de la fecha que se define como la fecha de inicio del trabajo.
+- **Capacidad**: seleccione esta opción para reservar capacidad para el tipo de trabajo cuando ejecuta la programación de trabajos. Si activa esta opción, se reserva capacidad cuando se ejecuta la programación del tipo de trabajo seleccionado. Esto le proporciona una visión general de los tipos de trabajo en cada grupo de rutas que usan los recursos de operaciones. Por ejemplo, en una situación en la que recursos de sequía son recursos de cuello de botella, estos recursos se deben especificar como cuellos de botella. Las operaciones de sequía que se asignan a los tipos de trabajo del tiempo en cola reservarán recursos de sequía. 
 
-[Categorías de costes utilizadas en las rutas de producción](../cost-management/cost-categories-used-production-routings.md)
+Para cada uno de los tipos de trabajo, primero debe activarlo o desactivarlo. Cuando se desactiva, no se tendrá en cuenta ninguna otra de configuración (gestión de trabajos, horario de trabajo y capacidad), ya que el tipo de trabajo no estará activo. 
 
-[Capacidades de recursos](resource-capabilities.md)
+Entre los tipos de trabajo puede encontrar Superposición. La superposición permite que diferentes trabajos sean efectuados al mismo tiempo. Cuando los trabajos están superpuestos, los recursos pueden ser utilizados pero no se pueden reservar para trabajos específicos.
+Por lo tanto, cuando la activación se selecciona para la superposición, el resto de los valores (gestión de trabajos, horario de trabajo, y capacidad) no crea ningún impacto en el grupo de rutas. 
 
-[Visión general de la firma electrónica](../../fin-and-ops/organization-administration/electronic-signature-overview.md)
+> [!NOTE]
+> Al actualizar las versiones puede encontrar el siguiente error: **“Error de CRL producido como al llamar al motor de programación”**. Si recibe este error, vaya a la página **Grupos de rutas** y para todas las rutas donde ha activado **Superposición**, desactive las opciones **Gestión de trabajos**, **Horario de trabajo** y **Capacidad**. 
+
+## <a name="additional-resources"></a>Recursos adicionales
+
+- [Listas de materiales y fórmulas](bill-of-material-bom.md)
+
+- [Categorías de costes utilizadas en las rutas de producción](../cost-management/cost-categories-used-production-routings.md)
+
+- [Capacidades de recursos](resource-capabilities.md)
+
+- [Visión general de la firma electrónica](../../fin-and-ops/organization-administration/electronic-signature-overview.md)
 
 
 

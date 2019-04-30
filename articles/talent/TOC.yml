@@ -8,6 +8,14 @@ items:
     - name: Novedades y cambios en Talent
       href: whats-new.md
       items:
+      - name: 2 de abril de 2019
+        href: whats-new-talent-april-2-2019.md
+      - name: 26 de marzo de 2019
+        href: whats-new-talent-march-26-2019.md
+      - name: 20 de marzo de 2019
+        href: whats-new-talent-march-20.md
+      - name: 14 de marzo de 2019
+        href: whats-new-talent-march-14.md
       - name: 5 de marzo de 2019
         href: whats-new-talent-march-5.md
       - name: 27 de febrero de 2019
@@ -20,38 +28,42 @@ items:
         href: whats-new-talent-january-29.md
       - name: 23 de enero de 2019
         href: whats-new-talent-january-23.md
-      - name: 17 de enero de 2019
-        href: whats-new-talent-january-17.md
-      - name: 11 de enero de 2019
-        href: whats-new-talent-january-11.md
-      - name: 14 de diciembre de 2018
-        href: whats-new-talent-december-14.md
-      - name: 6 de diciembre de 2018
-        href: whats-new-talent-december-6.md
-      - name: 27 de noviembre de 2018
-        href: whats-new-talent-november-27.md
-      - name: 15 de noviembre de 2018
-        href: whats-new-talent-november-15.md
-      - name: 31 de octubre de 2018
-        href: whats-new-talent-october-31.md
-      - name: 19 de octubre de 2018
-        href: whats-new-talent-october-19.md
-      - name: 15 de octubre de 2018
-        href: whats-new-talent-october-11.md
-      - name: 8 de octubre de 2018
-        href: whats-new-talent-october-8.md
-      - name: 1 de octubre de 2018
-        href: whats-new-talent-october-01.md
-      - name: 24 de septiembre de 2018
-        href: whats-new-talent-september-24.md
-      - name: 17 de septiembre de 2018
-        href: whats-new-talent-september-17-2018.md
-      - name: 10 de septiembre de 2018
-        href: whats-new-talent-september-10.md
-      - name: Agosto de 2018
-        href: whats-new-talent-august2018.md
-      - name: Julio de 2018
-        href: whats-new-talent-july2018.md
+      - name: Novedades en los archivos 2019
+        items:
+        - name: 17 de enero de 2019
+          href: whats-new-talent-january-17.md
+        - name: 11 de enero de 2019
+          href: whats-new-talent-january-11.md
+      - name: Novedades en los archivos 2018
+        items:
+        - name: 14 de diciembre de 2018
+          href: whats-new-talent-december-14.md
+        - name: 6 de diciembre de 2018
+          href: whats-new-talent-december-6.md
+        - name: 27 de noviembre de 2018
+          href: whats-new-talent-november-27.md
+        - name: 15 de noviembre de 2018
+          href: whats-new-talent-november-15.md
+        - name: 31 de octubre de 2018
+          href: whats-new-talent-october-31.md
+        - name: 19 de octubre de 2018
+          href: whats-new-talent-october-19.md
+        - name: 15 de octubre de 2018
+          href: whats-new-talent-october-11.md
+        - name: 8 de octubre de 2018
+          href: whats-new-talent-october-8.md
+        - name: 1 de octubre de 2018
+          href: whats-new-talent-october-01.md
+        - name: 24 de septiembre de 2018
+          href: whats-new-talent-september-24.md
+        - name: 17 de septiembre de 2018
+          href: whats-new-talent-september-17-2018.md
+        - name: 10 de septiembre de 2018
+          href: whats-new-talent-september-10.md
+        - name: Agosto de 2018
+          href: whats-new-talent-august2018.md
+        - name: Julio de 2018
+          href: whats-new-talent-july2018.md
     - name: Requisitos del sistema y directiva de actualización
       href: talent-versions-update-policy.md
     - name: Aprovisionar Talent
@@ -62,7 +74,7 @@ items:
       href: modular-app-tech-faq.md
     - name: Integrar aplicaciones de PowerApps
       href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Core HR y Common Data Service para aplicaciones
+    - name: Core HR y Common Data Service
       href: CoreHREntities.md
     - name: Acceder a características de vista previa
       href: access-preview-feature.md
@@ -102,6 +114,8 @@ items:
       href: Process-templates-Attract.md
     - name: Crear, aprobar y publicar trabajos en Attract
       href: Creating-jobs-Attract.md
+    - name: Publicar trabajos en sitios externos desde Attract
+      href: posting-jobs-external.md
     - name: Abastecimiento con Grupos de talentos
       href: attract-talent-pools.md
     - name: Abastecimiento con LinkedIn Recruiter
@@ -128,6 +142,8 @@ items:
       href: Intelligent-Recommendations.md
     - name: Crear una experiencia de incorporación interesante
       href: create-onboarding-experience.md
+    - name: Seguir fuentes para los perfiles y las solicitudes del candidato
+      href: source-tracking.md
     - name: Capacidades complementarias de contratación completa de Attract
       href: attract-comprehensive-hiring.md
   - name: Motivar a los empleados
@@ -203,6 +219,14 @@ items:
       href: talent-fo-integration.md
     - name: Exportación de datos periódicos mediante Azure Logic Apps
       href: tutorial-integration-recurring-export.md
+  - name: Extensibilidad
+    items:
+    - name: Extender Talent mediante PowerApps y Microsoft Flow - escenarios de ejemplo
+      href: extensibility-examples.md
+    - name: Extensibilidad en Attract
+      href: extensibility-attract.md
+    - name: Campos personalizados en Core HR
+      href: corehr-custom-fields.md
   - name: Integración con Office
     items:
     - name: Tutorial de integración con Office
@@ -322,7 +346,7 @@ items:
       href: save-play-task-guides-LCS.md
     - name: Acceder a direcciones privadas por rol de seguridad
       href: security-roles-addresses.md
-    - name: Talent no figura entre las aplicaciones de Microsoft Dynamics 365 (CDS1.0)
+    - name: Talent no figura entre las aplicaciones de Microsoft Dynamics 365 (Common Data Service 1.0)
       href: talent-not-in-home-CDS.md
     - name: El usuario puede acceder a Core HR pero no a las aplicaciones Onboard y Attract
       href: user-access-core-hr.md
@@ -332,9 +356,9 @@ items:
       href: talent-FO-integration.md
     - name: No se encuentran usuarios de Azure Active Directory en el selector de personas
       href: people-picker-user-not-found.md
-ms.openlocfilehash: 4123fb80126695bb35a02d3d2fc00b3ea38c1881
-ms.sourcegitcommit: 479b8cda7e411830bf1f579fab3692c980dcf850
+ms.openlocfilehash: 0454094f05b3e571a38b8361fa9573c929647551
+ms.sourcegitcommit: 594fd4c7b937695396a7154a906563f43293926a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "782761"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "969456"

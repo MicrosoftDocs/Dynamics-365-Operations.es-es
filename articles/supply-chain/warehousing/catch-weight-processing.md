@@ -3,7 +3,7 @@ title: Procesamiento de producto con peso capturado con la gestión de almacenes
 description: Este tema describe cómo usar plantillas de trabajo y directivas de ubicación para determinar cómo y dónde se realiza el trabajo en el almacén.
 author: perlynne
 manager: AnnBe
-ms.date: 03/05/2019
+ms.date: 03/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: ced22a144e57b624ceacb8bb5c3032218db3a0eb
-ms.sourcegitcommit: bacec397ee48ac583596be156c87ead474ee07df
+ms.openlocfilehash: d4082464dafebfcadd02425081f5f9b5716af01a
+ms.sourcegitcommit: 118cd383a327519a266dfe27720b12e9bbfbac14
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "777281"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "946442"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Procesamiento de producto con peso capturado con la gestión de almacenes
 
@@ -97,7 +97,9 @@ Por ejemplo, **Caja** es la unidad de peso capturado, y usted recibe un pallet d
 
 Cuando el seguimiento de la etiqueta de peso capturado no se usa, el peso se puede obtener para cada conjunto de dimensiones (por ejemplo, para cada matrícula de entidad y dimensión de seguimiento). Como alternativa, el peso se puede capturar en función de un nivel agregado, como cinco matrículas de entidad (pallets).
 
-Para los métodos para capturar el peso de salida, puede definir si el pesado se realiza para cada unidad de peso capturado (es decir, por caja), o si el peso se captura basándose en la cantidad que se seleccionada (por ejemplo, tres cajas). Tenga en cuenta que para el proceso de selección de la línea de producción, el peso medio se usará si se usa la opción **No capturado** .
+Para los métodos para capturar el peso de salida, puede definir si el pesado se realiza para cada unidad de peso capturado (es decir, por caja), o si el peso se captura basándose en la cantidad que se seleccionada (por ejemplo, tres cajas). Tenga en cuenta que para el proceso de selección de la línea y el de movimiento interno, el peso medio se usará si se usa la opción **No capturado**.
+
+Para limitar que los procesos de selección de la gestión de almacenes capturen pesos que puedan generar ajustes beneficios/pérdidas en los pesos capturados, puede usar el método de varianza de peso de salida.
 
 ## <a name="supported-scenarios"></a>Escenarios admitidos
 
@@ -121,14 +123,12 @@ No todos los flujos de trabajo son compatibles con el procesamiento de producto 
  
 ### <a name="order-processing"></a>Procesamiento de pedidos
 
-- No se admite el procesamiento de pedido de empresas vinculadas.
 - La creación de aviso de envío por adelantado (estructuras de ASN/embalaje) no admite la información de peso.
 - La cantidad del pedido debe mantenerse según la unidad de peso capturado.
  
 ### <a name="inbound-warehouse-processing"></a>Procesamiento de entradas en el almacén
 
 - Recibir las matrículas requiere que los pesos sean asignados durante el registro, porque la información del peso no se admite como parte del aviso de envío por adelantado. Cuando se usan los procesos de la etiqueta de peso capturado, el número de etiqueta se debe asignar manualmente por unidad de peso capturado.
-- Los productos de peso capturado no admiten las matrículas de entidad mixtas.
  
 ### <a name="inventory-and-warehouse-operations"></a>Operaciones de inventarios y almacenes
 
@@ -169,7 +169,6 @@ No todos los flujos de trabajo son compatibles con el procesamiento de producto 
  
 ### <a name="other-restrictions-and-behaviors-for-catch-weight-product-processing-with-warehouse-management"></a>Otras restricciones y comportamientos para el procesamiento de productos con peso capturado con la gestión de almacenes
 
-- Cuando las etiquetas de peso capturado se obtienen como parte del procesamiento de la aplicación de almacenes, el usuario no puede cancelar el flujo de trabajo.
 - Durante los procesos de la selección en los que no se pide al usuario identificar dimensiones de seguimiento, la asignación del peso se realiza en función del peso medio. Este comportamiento aparece si, por ejemplo, una combinación de dimensiones de seguimiento se usa en la misma ubicación y, después de que un usuario procese selección, sólo un valor de la dimensión de seguimiento se deja en la ubicación.
 - Cuando el inventario se reserva para un producto con peso capturado que está configurado para los procesos de gestión de almacenes, la reserva se realiza en función del peso mínima definido, incluso si esta cantidad es la cantidad que se ha administrado a mano. Este comportamiento difiere del comportamiento de los artículos que no se configuran para los procesos de la gestión de almacenes.
 - Los procesos que usan el peso como parte de los cálculos de la capacidad (umbrales de la gama, descansos del máximo del trabajo, máximos de contenedor, capacidades de carga de la ubicación, etc.) no utilizan el peso real del inventario. En su lugar, los procesos se basan en el peso de administración física que se define para el producto.
@@ -193,3 +192,5 @@ Actualmente, la funcionalidad de las etiquetas de peso capturado sólo admite co
 - Cuando se vuelven a abrir los contenedores.
 - Cuando los productos de la fórmula se notifican como terminado mediante la aplicación del almacén.
 - Cuando las cargas de transporte se procesan usando la aplicación del almacén.
+
+Una etiqueta de peso capturado se puede crear mediante un proceso de la aplicación de almacenamiento de datos, manualmente en el formulario o crearla mediante un proceso de la entidad de los datos. Si una etiqueta de peso capturado se asocia a una línea de entrada del documento de origen, como por ejemplo una línea de pedido de compra, la etiqueta es registrada. Si la línea se usa para el procesamiento de salida. La etiqueta se actualizará como enviada.

@@ -5,7 +5,9 @@ items:
   items:
   - name: Novedades y cambios
     href: get-started/whats-new.md
-  - name: Características de vista previa en Dynamics 365 for Retail 10.0.1
+  - name: Características de vista previa en Dynamics 365 for Retail 10.0.2
+    href: get-started/whats-new-10-0-2.md
+  - name: Novedades y cambios en Dynamics 365 for Retail 10.0.1
     href: get-started/whats-new-10-0-1.md
   - name: Novedades y cambios en Dynamics 365 for Retail (abril de 2019)
     href: get-started/april-whats-new.md
@@ -116,7 +118,7 @@ items:
   items:
   - name: Configurar y usar cargos automáticos avanzados
     href: omni-auto-charges.md
-  - name: Prorrateo y agrupación de cargos automáticos de encabezado
+  - name: Prorratear los cargos de encabezado con las líneas de ventas coincidentes
     href: pro-rate-charges-matching-lines.md
 - name: Centro de llamadas
   items:
@@ -274,14 +276,16 @@ items:
     href: price-management.md
   - name: Ajustes de precios y descuentos
     href: price-adjustments-discounts.md
-  - name: Aplicar varios descuentos comerciales a un producto
+  - name: Aplicar varios descuentos a un producto
     href: Apply-multiple-retail-discounts.md
   - name: Determinar la combinación óptima de descuentos superpuestos
     href: optimal-combination-overlapping-discounts.md
   - name: Definir descuentos específicos de un canal
     href: define-channel-specific-discounts.md
-  - name: Opciones para evitar descuentos de productos al por menor
+  - name: Opciones para evitar descuentos de productos comerciales
     href: prevent-discounts.md
+  - name: Visión general de descuento de envío
+    href: retail-shipping-discount.md
   - name: Configurar vales para ventas minoristas
     href: retail-coupons.md
 - name: Productos y comercialización
@@ -354,6 +358,10 @@ items:
     href: localizations/fiscal-integration-for-retail-channel.md
   - name: Configurar integración fiscal para el canal comercial
     href: localizations/setting-up-fiscal-integration-for-retail-channel.md
+  - name: Austria
+    items:
+    - name: Ejemplo de integración de servicio de registro para Austria
+      href: localizations/emea-aut-fi-sample.md
   - name: Europa del Este
     items:
     - name: Facturas anticipadas para Retail para Europa del Este
@@ -366,6 +374,8 @@ items:
       href: localizations/emea-eeu-deployment.md
     - name: Ejemplo de integración de impresora fiscal para Polonia
       href: localizations/emea-pol-fpi-sample.md
+    - name: Ejemplo de integración de servicio de registro fiscal para la República Checa
+      href: localizations/emea-cze-fi-sample.md
   - name: Francia
     items:
     - name: Funcionalidad de caja registradora
@@ -477,6 +487,8 @@ items:
       href: retail-components.md
     - name: Arquitectura de Retail Server
       href: dev-itpro/retail-server-architecture.md
+    - name: Seleccione una topología en tienda
+      href: dev-itpro/retail-in-store-topology.md
     - name: Commerce Data Exchange y comunicaciones del canal comercial
       href: dev-itpro/define-retail-channel-communications-cdx.md
     - name: Arquitectura de Retail Modern POS
@@ -562,7 +574,7 @@ items:
     - name: Anular controlador de solicitud de PDV
       href: dev-itpro/pos-handler.md
     - name: Ver información de paquete de extensión de PDV
-      href: view-pos-extension-package-details.md
+      href: dev-itpro/view-pos-extension-package-details.md
   - name: Hardware Station y extensibilidad
     href: dev-itpro/hardware-station-extensibility.md
   - name: Extensibilidad de Retail Server
@@ -669,9 +681,9 @@ items:
     items:
     - name: Extensión de fidelidad
       href: dev-itpro/retail-sdk/loyalty-extension-sample.md
-ms.openlocfilehash: 0d6ec0ba8723f81c21d735be455e35d8f1b62187
-ms.sourcegitcommit: 39c17fe619b075f56e8baffd087a830fc2fb8022
+ms.openlocfilehash: 179295f4397120f46391885760c980b2c9baa028
+ms.sourcegitcommit: 4d77340f5b3480f60a3a28c854fafc83e959f192
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "791647"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "975929"

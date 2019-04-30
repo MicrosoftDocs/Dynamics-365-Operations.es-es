@@ -1,29 +1,29 @@
 ---
 title: La funcionalidad del sitio de Proyectos profesionales en Attract
 description: Este tema proporciona una visión general de la funcionalidad del sitio de Proyectos profesionales para el candidato en Attract
-author: josaw1
+author: hasrivas
 manager: AnnBe
-ms.date: 02/12/2019
+ms.date: 03/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: josaw
+ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: 087ab4034a1e601e7f3514c77d56ef54b0c5c52d
-ms.sourcegitcommit: 1ee613a88edddab036d145f27f19d071a4b8ad24
+ms.openlocfilehash: a56f162ccc6b6099fd62e0cb7e10076368d8e653
+ms.sourcegitcommit: 063a9296e645e0da182241941869d8102954540a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "389984"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "898940"
 ---
 # <a name="career-site-functionality-in-attract"></a>La funcionalidad del sitio de Proyectos profesionales en Attract
 
@@ -43,15 +43,15 @@ Para establecer los valores para los siguientes elementos, inicie sesión en Att
 
 -   **Logotipo de la organización:** Una imagen del logotipo de la organización aparece en la parte superior izquierda del sitio de Proyectos profesionales. Mediante la selección de la imagen del logotipo, los candidatos van a una página que enumera las vacantes.
 
-    >   [!NOTE] 
-    >   La imagen del logotipo que aparece en el sitio de Proyectos profesionales tiene un altitud fija de 20 píxeles (px). La imagen que agrega en el centro de gestión se escala para caber. Por lo tanto, en función de la imagen, el ancho puede cambiar.
+    > [!NOTE] 
+    > La imagen del logotipo que aparece en el sitio de Proyectos profesionales tiene un altitud fija de 20 píxeles (px). La imagen que agrega en el centro de gestión se escala para encajar. Por lo tanto, en función de la imagen, el ancho puede cambiar.
  
 Para establecer los valores para los siguientes elementos, inicie sesión en Attract como administrador, seleccione **Centro de administración** en el menú **Parámetros** (el símbolo de engranaje), y seleccione la pestaña **Gestión del sitio de desarrollo profesional**.
 
 -   **Optimización del motor de búsqueda** - Cuando está habilitado, todos los trabajos públicos publicados en el sitio de Proyectos profesionales de Attract se podrán buscar mediante motores de búsqueda como Bing y Google.
 
-    >   [!NOTE] 
-    >   Es posible que haya un retraso entre activar este valor y buscar los resultados que aparecen, en función del motor de búsqueda que esté usando.
+    > [!NOTE] 
+    > Es posible que haya un retraso entre activar este valor y buscar los resultados que aparecen, en función del motor de búsqueda que esté usando.
          
 ## <a name="career-site-urls"></a>URL del sitio de desarrollo profesional
 
@@ -81,15 +81,17 @@ Los candidatos tienen las siguientes opciones de inicio de sesión para un sitio
 
     -   Microsoft Azure Active Directory (Azure AD)
 
-El inicio de sesión de Azure AD es solo para candidatos internos. Por lo tanto, solo funciona para candidatos internos que usan las credenciales de Azure AD de la empresa. Por ejemplo, un candidato que está actualmente empleado en Contoso Ltd quiere solicitar un trabajo en una empresa sin relación con la suya, Alpine Ski House. En este caso, el inicio de sesión no tendrá éxito si el empleado intenta usar sus credenciales de Azure AD de Contoso Ltd.
+El inicio de sesión de Azure AD es solo para candidatos internos. Por lo tanto, solo funciona para candidatos internos que usan las credenciales de Azure AD de la empresa. Por ejemplo, un candidato que está actualmente empleado en Contoso Ltd quiere solicitar un trabajo en una empresa sin relación con la suya, Alpine Ski House. En este caso, el inicio de sesión no tendrá éxito si el empleado intenta usar sus credenciales de Azure AD de Contoso Ltd. 
+
+Los candidatos deben iniciar sesión mediante Azure AD si el trabajo que están viendo o solicitando aparece como solo interno.
 
 ## <a name="create-and-maintain-a-profile"></a>Creación y mantenimiento de un perfil
 
 Una vez que los candidatos hana iniciado sesión en el sitio de Proyectos profesionales, pueden seleccionar **Mi perfil** en la barra de navegación en la parte superior de la página para crear y mantener su perfil.
 El perfil incluye información personal, información sobre la experiencia profesional, detalles de formación, documentos, vínculos, e información acerca de habilidades. Una vez que se ha creado un perfil, se puede usar para solicitar trabajos en los que el candidato está interesado. Los perfiles también ayudan a Attract a recomendar los trabajos adecuados para los candidatos.
 
->   [!NOTE]
->   Si un candidato utiliza un identificador de correo electrónico para iniciar sesión mediante uno de los proveedores de autenticación enumerados anteriormente, ese identificador de correo electrónico predeterminado será el identificador de correo electrónico del contacto asociado al perfil. Sin embargo, este último se puede cambiar en cualquier momento y es completamente independiente del anterior. Attract siempre utilizará el identificador de correo electrónico del contacto para asociarlo con su perfil para todas las comunicaciones de correo electrónico.
+> [!NOTE]
+> Si un candidato utiliza un identificador de correo electrónico para iniciar sesión mediante uno de los proveedores de autenticación enumerados anteriormente, ese identificador de correo electrónico predeterminado será el identificador de correo electrónico del contacto asociado al perfil. Sin embargo, este último se puede cambiar en cualquier momento y es completamente independiente del anterior. Attract siempre utilizará el identificador de correo electrónico del contacto para asociarlo con su perfil para todas las comunicaciones de correo electrónico.
 
 ## <a name="find-the-right-job"></a>Encuentre el trabajo correcto
 
@@ -97,13 +99,38 @@ En la página de la lista de trabajos, los candidatos pueden buscar un trabajo e
 
 Los candidatos también pueden ver un conjunto de trabajos que se recomiendan en el sitio de Proyectos profesionales. Los trabajos que se recomiendan a un candidato se basan en las solicitudes, perfil, y curriculums vitae anteriores del candidato.
 
->   [!NOTE] 
->   Se muestran las recomendaciones de trabajo si al menos hay 10 trabajos publicados en el sitio de Proyectos profesionales, y si el candidato ha completado su perfil.
+> [!NOTE] 
+> Se muestran las recomendaciones de trabajo si al menos hay 10 trabajos publicados en el sitio de Proyectos profesionales, y si el candidato ha completado su perfil.
+
+Los candidatos internos pueden ver también quién es el administrador y/o el reclutador de contratación para un trabajo, en caso de que deseen contactar con dichos miembros del equipo de contratación. Sin embargo, los candidatos externos no pueden ver a los miembros del equipo de contratación de ningún trabajo.
+
+## <a name="contact-the-hiring-team"></a>Ponerse en contacto con el equipo de contratación
+Solo los candidatos internos pueden ponerse en contacto con el equipo de contratación. Esta limitación se aplica a todos los trabajos, independientemente de si son internos únicamente o se registraron en público.
+
+Los candidatos podrían desear ponerse en contacto con el equipo de contratación para expresar interés en un trabajo registrado o para obtener más información sobre él. Pueden contactar con cualquiera de los miembros del equipo de contratación mostrado (administrador de contratación o los reclutadores). También pueden vincular opcionalmente un currículum al mensaje, o pueden seleccionar un currículum existente que cargaron anteriormente como parte de su perfil.
+
+Después de que un candidato interno seleccione los miembros del equipo de contratación ponerse en contacto, Attract envía un mensaje de correo electrónico a dichas entidades en nombre del candidato. Al mismo tiempo, el perfil del candidato se agrega a la fase **Candidato** , si esa fase está disponible para el trabajo. En la etapa **Candidato** , los reclutadores o gerentes de contratación pueden ver los candidatos que han contactado con ellos. También pueden revisar perfiles del candidato e invitar a los candidatos potenciales a que soliciten el empleo.
+
+Los candidatos pueden solicitar un trabajo para el que ya hayan contactado con los miembros del equipo de contratación. Una vez lo soliciten, los candidatos no pueden ponerse en contacto con más al equipo de contratación a través del sitio de proyectos profesionales.
 
 ## <a name="apply-for-jobs"></a>Solicitud de trabajos
 
-Una vez que los candidatos encuentren el trabajo correcto, pueden solicitar el trabajo mediante el botón **Solicitar** en la página de **detalles del trabajo**. En este punto, los candidatos pueden crear un perfil nuevo o revisar la información en su perfil existente.
+Una vez que los candidatos encuentren el trabajo correcto, pueden solicitar el trabajo mediante el botón  **Solicitar**  en la página de  **Detalles del trabajo**. En este punto, los candidatos pueden crear un perfil nuevo o revisar la información en su perfil existente.
 Los candidatos también pueden cargar un currículum, según convenga, y después enviar la solicitud de trabajo.
+
+### <a name="enable-applying-for-jobs-with-linkedin-profiles"></a>Activar solicitar trabajos con perfiles de LinkedIn
+
+Puede facilitarles a los candidatos solicitar sus puestos configurando Attract para permitir que soliciten con LinkedIn.
+
+> [!NOTE] 
+> Sólo debe tener una o más licencias de reclutador de LinkedIn para poder permitir que los candidatos soliciten con LinkedIn.
+
+1. Iniciar sesión en Attract como administrador.
+2. Seleccione el botón **Configuración** (el símbolo de engranaje) en la esquina superior derecha de la página y a continuación seleccione **Centro de administración**.
+3. Seleccione la pestaña **Integración con LinkedIn** y conecte con una cuenta de LinkedIn Recruiter.
+4. En la sección **Integración con LinkedIn Recruiter System Connect**, seleccione **Habilitado** para la configuración **Solicitar con LinkedIn** .
+
+Una vez que haya habilitado el valor, los candidatos pueden solicitar mediante los datos existentes del perfil de LinkedIn. Cuando los candidatos solicitan eligiendo el botón **Solicitar con LinkedIn** , se les pedirá autenticar con LinkedIn si todavía no han iniciado sesión. Una vez que se hayan autenticado, su perfil de LinkedIn reemplaza los datos del perfil existente que se muestra en la página de la solicitud. Los candidatos pueden editar la información si es necesario y después enviar la solicitud. Si un candidato navega fuera de la página sin solicitar el trabajo, su información del perfil no se actualiza en Attract.
 
 ## <a name="check-application-status"></a>Comprobar el estado de la solicitud
 

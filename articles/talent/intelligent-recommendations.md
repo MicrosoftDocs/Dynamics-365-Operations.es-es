@@ -1,29 +1,29 @@
 ---
 title: Recomendaciones inteligentes
 description: Este tema explica cómo se puede usar el aprendizaje automático para proporcionar recomendaciones para los trabajos y los candidatos de trabajo.
-author: josaw
+author: andreabichsel
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 03/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: rschloma
+ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: c6225a311f5ba0b65b45092a1f626b9d6aff3f5e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: fb31b413cfe3cd168bbb12ce6070325ff5f736da
+ms.sourcegitcommit: dd1e1636d351a15f9c1b6808bea359417a9bd690
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "306113"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "896566"
 ---
 # <a name="intelligent-recommendations"></a>Recomendaciones inteligentes
 
@@ -32,8 +32,9 @@ ms.locfileid: "306113"
 El aprendizaje automático puede ayudar reclutadores y a los administradores de contratación a identificar rápidamente a los candidatos mejor situados para un puesto. También puede ayudar a los candidatos viables a encontrar el puesto que mejor se adapta a su perfil e intereses. A medida que se usan estas características, y se proporcionan valoraciones, las recomendaciones mejorarán.
 
 > [!NOTE] 
-> - Las características de recomendación inteligente solo están disponibles con el complemento de contratación completa.
-> - Para habilitar las características de recomendación del candidato y el trabajo, un administrador tiene que activar las opciones de vista previa para ellos. En el centro de gestión, en la pestaña **Administración de la función**, asegúrese de que la opción **Funciones de vista previa** está configurada en **Activado**. A continuación asegúrese de que las opciones **Recomendación del candidato** y **Recomendación de trabajo** están configurados en **Activado**.
+> - Las características de recomendación inteligente solo están disponibles con el [Complemento de contratación completa](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
+> - La funcionalidad de la que se habla en este tema esta disponible como parte de una versión preliminar. El contenido y la funcionalidad están sujetos a cambios. Para utilizar esta función, pida que un administrador la active usando la **Configuración de administración** en Attract. Establezca **Recomendación del candidato**, **Recomendación de trabajo**, y **Recomendación del candidato** a **Activado**. Para obtener más información, consulte [Acceder a las características de vista previa en Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature). 
+
 
 ## <a name="candidate-recommendations"></a>Recomendaciones de candidatos
 
@@ -43,4 +44,15 @@ Para cualquier candidato recomendado, puede seleccionar **Ver candidato** en la 
 
 ## <a name="job-recommendations"></a>Recomendación de trabajos 
 
-Cuando un empleado potencial utiliza el sitio de Proyectos profesionales para solicitar un trabajo, otros puestos vacantes en la organización se recomiendan. Estas recomendaciones se basan en las solicitudes anteriores del cliente viable y en su currículum o perfil de candidato. Por lo tanto, las recomendaciones de trabajo ayudan a los candidatos viables a identificar rápidamente los trabajos que se ajusten mejor a ellos. Las recomendaciones de trabajo se ofrecen a los clientes viables si hay más de diez trabajos publicados en el sitio de Proyectos profesionales. Los candidatos potenciales pueden abrir los detalles de una oferta de empleo desde la tarjeta de recomendación. También pueden proporcionar comentarios sobre una recomendación para ayudar a mejorar las recomendaciones futuras.
+Cuando un empleado potencial utiliza el sitio de Proyectos profesionales para solicitar un trabajo, Attract recomienda otros puestos vacantes en la organización. Estas recomendaciones se basan en las solicitudes anteriores del cliente viable y en su currículum o perfil del candidato. Por lo tanto, las recomendaciones de trabajo ayudan a los candidatos viables a identificar rápidamente los trabajos que se ajusten mejor a ellos. Las recomendaciones de trabajo se ofrecen a los clientes viables si hay más de diez trabajos publicados en el sitio de Proyectos profesionales. Los candidatos potenciales pueden abrir los detalles de una oferta de empleo desde la tarjeta de recomendación. También pueden proporcionar comentarios sobre una recomendación para ayudar a mejorar las recomendaciones futuras.
+
+## <a name="prospect-recommendations"></a>Recomendaciones de candidato 
+
+Cuando un puesto nuevo está disponible, revisar todos los últimos candidatos y su red de talento completa puede llevar tiempo. Para que Attract le ayude a hacer esto, puede usar algoritmos de aprendizaje automático. Esto significa que Attract revisa todos los candidatos y sugiere a aquellos que son una buena coincidencia tan pronto como cree el trabajo. Para ver estas recomendaciones, active la fase **Candidato** para el trabajo. Puede tardar hasta un minuto para que Attract digitalice toda la base de datos de candidatos para hacer recomendaciones.
+
+Las recomendaciones aparecen como tarjetas en la pestaña **Candidatos** de los trabajos que tengan la fase **Candidato** activada. Estas tarjetas enumeran las aptitudes que se encuentran en el perfil de candidatos, junto con cualquier información de la calificación de la formación. Si encuentra una recomendación que le interese, puede agregar al candidato como posible candidato para el trabajo.
+
+> [!NOTE]
+> Si ha empezado a usar Attract recientemente, deberá esperar a tener 10 o más candidatos con perfiles completos o curriculums vitae antes de que pueda usar esta capacidad.
+
+Para evitar cualquier prejuicio potencial en las recomendaciones, Attract solo analiza los perfiles del candidato según aptitudes, las cualificaciones y otras palabras clave que coinciden con la descripción del trabajo. Además, antes de la evaluación, Attract elimina la información personal que podría identificar al candidato de los perfiles.

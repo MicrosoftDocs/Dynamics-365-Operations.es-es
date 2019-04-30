@@ -1,64 +1,87 @@
 ---
-title: Capacidades complementarias de contratación completa de Attract
-description: Este tema proporciona información sobre las capacidades en el complemento de Microsoft Dynamics 365 for Talent , Attract con el alquiler completo.
-author: ''
+title: Qué versión de Attract
+description: Este tema proporciona información sobre las capacidades en las diferentes versiones de Microsoft Dynamics 365 for Talent - Attract.
+author: andreabichsel
 manager: AnnBe
-ms.date: 02/01/2019
+ms.date: 04/04/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: rschloma
+ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 6adc2398d9ebcc655ad7ac7e0c949f44dc011013
-ms.sourcegitcommit: 3b12ff5ca81650ae666ff443b0bc998182f3931e
+ms.openlocfilehash: b061233239fcaee768579cde9d1015ebbeaa66cb
+ms.sourcegitcommit: 1653d1e28d02f8a9a4bea8df562ac98d7a350ed1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "376445"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "993631"
 ---
-# <a name="attract-comprehensive-hiring-add-on-capabilities"></a>Capacidades complementarias de contratación completa de Attract
+# <a name="which-version-of-attract"></a>¿Qué versión de Attract?
 
 [!include[banner](../includes/banner.md)]
 
-Las organizaciones diferentes valoran los distintos conjuntos de funciones de Attract. Como resultado, hay dos "niveles" de productos de Attract. Hay un producto en el Attract se dirige a equipos o organizaciones más pequeños, donde el usuario principal es el jefe de contratación para el proceso de contratación. También un complemento de contratación completo que se puede agregar al producto Attract a un coste adicional, que indica el medio a los equipos u organizaciones grandes dónde el usuario principal es el especialista de reclutamiento o talento para el proceso de contratación.
-Para obtener más información sobre los precios y potenciar, consulte la [guía de licencias](https://mbs.microsoft.com/Files/public/365/Dynamics365LicensingGuide.pdf) más reciente.
+La versión de Microsoft Dynamics 365 for Talent: Attract correcta para usted depende del tamaño de la organización y necesidades. La versión básica Attract proporciona un subconjunto de funciones dirigidas a equipos o organizaciones más pequeñas dónde el usuario principal es el jefe de contratación. Puede empezar a usar la versión básica Attract con una o más licencias.
 
-Las pruebas gratuitas de Attract incluyen automáticamente el complemento de contratación completo para el período de prueba. Si el complemento de contratación completo es necesario para sus necesidades de organización, encuentre un [socio Dynamics 365 for Talent local](https://dynamics.microsoft.com/partners/find-a-partner/) para ayudarle con sus necesidades.
+Atracct con el complemento de contratación completo está dirigido a equipos u organizaciones medianas y grandes en las que reclutador o el especialista de talento es el usuario principal. El complemento de contratación completo requiere que las licencias están adquiridas mediante un [socio de Microsoft Dynamics 365](https://dynamics.microsoft.com/partners/find-a-partner/)
 
-## <a name="capability-details"></a>Detalles de la capacidad
+> [!NOTE]
+> La prueba de Attract muestra Attract con el complemento de contratación completo. Este complemento proporciona capacidades de contratación y de contratación completas, como la capacidad de registrar trabajos en un sitio laboral de Attract o un sitio de contratación externo como LinkedIn. Si elige la versión sw Attract básica, su suscripción incluirá un subconjunto de las capacidades que se proporcionan en la versión de prueba.
 
-La visión general siguiente se muestran las capacidades de Attract a través de Attract y Attract con complemento de contratación completo.
+Para obtener más información sobre los precios y licencias, consulte la [Guía de licencias de Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544).
 
-| **Capacidad**                                           | **Atraer**         | **Attract con contratación completa** |
-|----------------------------------------------------------|---------------------|---------------------------------------|
-| **Audiencia/principal** **Persona**                      | **Administradores de personal** | **Reclutadores/especialistas de talento**    |
-| Gestión requisitos de trabajo                                | :heavy_check_mark:   | :heavy_check_mark:                    |
-| Configuración de proceso de nivel de proceso de contratación de trabajo                    | :heavy_check_mark:   | :heavy_check_mark:                    |
-| Creación del candidato y gestión de perfil                  | :heavy_check_mark:   | :heavy_check_mark:                    |
-| Programación inteligente de la entrevista                         | :heavy_check_mark:  | :heavy_check_mark:                    |
-| Configuración personal de reserva de talentos única                        | :heavy_check_mark:   | :heavy_check_mark:                    |
-| Seguridad y gestión de roles                              | :heavy_check_mark:   | :heavy_check_mark:                    |
-| Panel de información básico                                          | :heavy_check_mark:   | :heavy_check_mark:                    |
-| Acceso del candidato a los detalles individuales de la aplicación        | :heavy_check_mark:   | :heavy_check_mark:                    |
-| Flujo de aprobación de solicitud de trabajo                             |                     | :heavy_check_mark:                    |
-| Administración de proceso de contratación a nivel de asignación de la plantilla de la organización    |                     | :heavy_check_mark:                    |
-| Publicación de trabajo en el sitio laboral de Attract                       |                     | :heavy_check_mark:                    |
-| La aplicación del candidato fluye a través del sitio laboral de Attract   |                      | :heavy_check_mark:                    |
-| Acceso del candidato al historial completo del perfil y de la aplicación |                     | :heavy_check_mark:                    |
-| Conexión de reclutador de LinkedIn<sup>1</sup>                |                     | :heavy_check_mark:                    |
-| Offer Management                                         |                     | :heavy_check_mark:                    |
-| Configuración de reservas de talentos compartidas y globales                     |                     | :heavy_check_mark:                    |
-| Gestión de plantillas de correo electrónico                                |                     | :heavy_check_mark:                    |
-| Recomendaciones de candidatos y trabajos                        |                     | :heavy_check_mark:                    |
+## <a name="feature-comparison"></a>Comparación de la función
 
+| Capacidad | Atraer | Complemento de contratación completa |
+| ---------- | :-----------: | :-------------------: |
+| Panel de información básico | :heavy_check_mark: | :heavy_check_mark: |
+| Gestión de seguridad y roles | :heavy_check_mark: | :heavy_check_mark: |
+| Gestión de requisitos de trabajo | :heavy_check_mark: | :heavy_check_mark: |
+| Crear un proceso de contratación a nivel de trabajo | :heavy_check_mark: | :heavy_check_mark: |
+| Crear candidatos y administrar perfiles | :heavy_check_mark: | :heavy_check_mark: |
+| Creación una sola reserva talento | :heavy_check_mark: | :heavy_check_mark: |
+| Programar entrevistas | :heavy_check_mark: | :heavy_check_mark: |
+| Proporcionar acceso al candidato a los detalles de la solicitud | :heavy_check_mark: | :heavy_check_mark: |
+| Crear flujos de aprobación para solicitudes de trabajo | | :heavy_check_mark: |
+| Administrar procesos de contratación a nivel administrativo | | :heavy_check_mark: |
+| Registrar trabajos en Attract y sitios externos profesionales | | :heavy_check_mark: |
+| Crear flujos de solicitud de candidato mediante un sitio laboral de Attract | | :heavy_check_mark: |
+| Proporcionar acceso del candidato al historial completo del perfil y de la aplicación | | :heavy_check_mark: |
+| Conectar con LinkedIn Recruiter<br></br>Esta capacidad requiere una licencia de LinkedIn Recruiter , que debe ser <br></br> comprada por separada a través de LinkedIn.</blockquote> | | :heavy_check_mark: |
+| Gestionar ofertas | | :heavy_check_mark: |
+| Crear reservas de talentos compartidas y globales | | :heavy_check_mark: |
+| Gestionar plantillas de correo electrónico | | :heavy_check_mark: |
+| Proporcionar recomendaciones de candidatos y trabajos | | :heavy_check_mark: |
 
-<sup>1</sup>Las licencias de reclutador de LinkedIn, que se deben comprar por separado con LinkedIn, son un requisito previo para esta función.
+## <a name="find-out-which-version-of-attract-you-have"></a>Descubra qué versión de Attract tiene
+
+1. En Attract, seleccione el signo de interrogación (**?**) en la esquina superior derecha de la página.
+2. Seleccione **Acerca de**.
+
+    La ventana que aparece las muestra el tipo de licencia tiene para Attract.
+
+    ![Vea su tipo de licencia de Attract](media/attract-license-types.png)
+
+## <a name="frequently-asked-questions"></a>Preguntas frecuentes
+
+### <a name="why-dont-i-see-all-the-features-that-were-included-in-the-attract-trial"></a>¿Por qué no veo todas las funciones incluidas en el prueba de Attract?
+
+Existen varias razones por las que es posible que no vea todas las funciones incluidas en el prueba de Attract:
+
+- La prueba de Attract muestra Attract con el complemento de contratación completo y usted ahora tiene la versión básica de Attract. La versión básica de Attract incluye un subconjunto de características dirigidas a los administradores de contratación para los equipos y organizaciones pequeñas.
+- Tiene Attract con el complemento de contratación completo, pero no ha asignado los roles adecuados para usar todas las funciones. Para obtener más información, consulte [La seguridad y la gestión de roles en Attract](security-attract.md).
+
+### <a name="why-dont-i-see-all-the-attract-features-that-my-coworker-sees"></a>¿Por qué no veo todas las funciones de Attract que ve mi compañero de trabajo?
+
+Existen varias razones por las que es posible que no vea todas las funciones de Attract que ve su compañero de trabajo:
+
+- Su compañero de trabajo está trabajando con una prueba o una licencia para Attract con el complemento de contratación completo, mientras que usted trabaja con la versión básica de Attract.
+- Tiene Attract con el complemento de contratación completo, pero no ha asignado los roles adecuados para usar todas las funciones. Para obtener más información, consulte [La seguridad y la gestión de roles en Attract](security-attract.md).

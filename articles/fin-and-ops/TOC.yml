@@ -26,7 +26,7 @@ items:
           href: get-started/system-requirements-on-prem.md
         - name: Configurar Warehousing para implementaciones locales
           href: ../dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/fin-and-ops/toc.json
-      - name: Actualizaciones de servicio de primera versión y versión estándar
+      - name: Disponibilidad de actualización del servicio
         href: get-started/public-preview-releases.md
       - name: Comprar Finance and Operations
         items:
@@ -43,13 +43,17 @@ items:
         href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
       - name: Características no implementadas en implementaciones locales
         href: get-started/features-not-implemented-on-prem.md
-      - name: Características de vista previa en Finance and Operations versión 10.0.1 (abril 2019)
+      - name: Características de vista previa en Finance and Operations versión 10.0.2 (mayo 2019)
+        href: get-started/whats-new-changed-10-0-2.md
+      - name: Versión 10.0.1 de Finance and Operations (abril de 2019)
         href: get-started/whats-new-changed-10-0-1.md
       - name: Versión 10.0 de Finance and Operations (abril de 2019)
         href: get-started/whats-new-changed-10.md
       - name: Versión 8.1.3 de Finance and Operations (enero de 2019)
         href: get-started/whats-new-changed-8-1-3.md
-      - name: Características de vista previa en Finance and Operations Platform update 25 (abril 2019)
+      - name: Características de vista previa en Finance and Operations Platform update 26 (mayo 2019)
+        href: get-started/whats-new-platform-update-26.md
+      - name: Finance and Operations platform update 25 (abril 2019)
         href: get-started/whats-new-platform-25.md
       - name: Platform update 24 (marzo de 2019)
         href: get-started/whats-new-platform-update-24.md
@@ -209,7 +213,7 @@ items:
       href: ../dev-itpro/migration-upgrade/versions-update-policy.md
     - name: 'Directiva del ciclo de vida del software: local'
       href: ../dev-itpro/migration-upgrade/on-prem-version-update-policy.md
-    - name: Actualizaciones de servicio de primera versión y versión estándar
+    - name: Disponibilidad de actualización del servicio
       href: get-started/public-preview-releases.md
     - name: Aplicar actualizaciones a entornos de nube
       href: ../dev-itpro/deployment/apply-deployable-package-system.md
@@ -226,17 +230,21 @@ items:
   - name: Eventos de negocio
     href: ../dev-itpro/business-events/home-page.md
     items:
-    - name: Eventos de negocio de la aplicación
+    - name: Eventos de negocio de la solicitud
       href: ../dev-itpro/business-events/app-business-events.md
     - name: Eventos de negocio del flujo de trabajo
       href: ../dev-itpro/business-events/business-events-workflow.md
+    - name: Alertas como eventos de negocio
+      href: ../dev-itpro/business-events/alerts-business-events.md
     - name: Eventos de negocio en Microsoft Flow
       href: ../dev-itpro/business-events/business-events-flow.md
     - name: Documentación para desarrolladores de eventos de negocio
       href: ../dev-itpro/business-events/business-events-dev-doc.md
     - name: Solucionar problemas de eventos de negocio
       href: ../dev-itpro/business-events/troubleshooting.md
-  - name: Cumplimiento
+    - name: Casos de uso para los eventos de negocio
+      href: ../dev-itpro/business-events/potential-use-cases.md
+  - name: Conformidad
     items:
     - name: Reglas de directivas de auditoría
       href: ../financials/general-ledger/audit-policy-rules.md
@@ -370,6 +378,8 @@ items:
         href: ../dev-itpro/data-entities/recurring-integrations.md?toc=/fin-and-ops/toc.json
       - name: Probar servicios usando utilidades de terceros
         href: ../dev-itpro/data-entities/third-party-service-test.md
+    - name: Conector de Finance and Operations
+      href: ../dev-itpro/data-entities/fin-ops-connector.md
     - name: Desarrollo para la integración
       items:
       - name: Integración de datos mediante entidades de datos
@@ -722,7 +732,7 @@ items:
         href: ../financials/budgeting/budget-planning-overview-configuration.md
       - name: Visión general del control presupuestario
         href: ../financials/budgeting/budget-control-overview-configuration.md
-      - name: 'Visión general de Gestión presupuestaria '
+      - name: Visión general de Gestión presupuestaria
         href: ../financials/budgeting/basic-budgeting-overview-configuration.md
       - name: Previsión de puestos
         href: ../financials/budgeting/position-forecasting.md
@@ -747,6 +757,8 @@ items:
         href: ../financials/cash-bank-management/cash-flow-forecasting.md
       - name: Espacio de trabajo para la gestión bancaria
         href: ../financials/cash-bank-management/Bank-management-workspace.md
+      - name: Revalorización bancaria de divisa extranjera
+        href: ../financials/cash-bank-management/bank-revaluation.md
       - name: Descuentos por pronto pago
         href: ../financials/cash-bank-management/cash-discounts.md
       - name: Descuentos por pronto pago para sobrepagos
@@ -1043,7 +1055,7 @@ items:
           href: ../financials/general-ledger/example-balanced-journals-interunit-accounting.md
         - name: Definiciones de contabilización
           href: ../financials/general-ledger/posting-definitions.md
-        - name: 'Ejemplos de definición de contabilización '
+        - name: Ejemplos de definición de contabilización
           href: ../financials/general-ledger/example-posting-definitions.md
         - name: Saldos de cuentas de contabilidad
           href: ../financials/general-ledger/general-ledger-account-balances.md
@@ -1439,7 +1451,7 @@ items:
           href: ../financials/localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
       - name: SPED ECD
         href: ../financials/localizations/latam-bra-sped-ecd.md
-      - name: Informe de impuestos SPED-Reinf
+      - name: Extracto de impuestos SPED-Reinf
         href: ../financials/localizations/latam-bra-sped-reinf.md
       - name: Parámetros para las entidades jurídicas
         href: ../financials/localizations/latam-bra-legal-entity-parameters.md
@@ -1510,7 +1522,7 @@ items:
           href: ../financials/localizations/latam-bra-tax-payments.md
         - name: Impuesto en presupuestos de ventas
           href: ../financials/localizations/tasks/br-00057-brazilian-taxes-sales-quotation.md
-        - name: 'Retención de impuestos '
+        - name: Retención de impuestos
           href: ../financials/localizations/tasks/br-00009-brazilian-withholding-taxes.md
         - name: Retención de impuestos sobre los pagos de cliente
           href: ../financials/localizations/tasks/br-00042-withholding-taxes-customers-payments.md
@@ -1893,6 +1905,8 @@ items:
           href: ../financials/localizations/apac-ind-gst-reference-groups.md
         - name: Integración de GST para cajas registradoras
           href: ../retail/localizations/apac-ind-cash-registers.md?toc=/fin-and-ops/toc.json
+        - name: Adquisición de un artículo sujeto a impuestos de un proveedor no registrado
+          href: ../financials/localizations/apac-ind-gst-unregistered-vendor-purchase.md
       - name: Directrices de implementación para cajas registradoras
         href: ../retail/localizations/apac-ind-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
       - name: Visión general del motor de impuestos
@@ -2291,6 +2305,8 @@ items:
           href: ../financials/localizations/rus-bonus-depreciation.md
         - name: Calcular depreciación
           href: ../financials/localizations/rus-depreciation-calculation.md
+        - name: Transferir activos fijos
+          href: ../financials/localizations/rus-fixed-asset-transfer.md
       - name: Proveedores y clientes
         items:
         - name: Facturas para pago
@@ -2303,6 +2319,8 @@ items:
         items:
         - name: Informes financieros
           href: ../financials/localizations/rus-financial-reports.md
+        - name: Configurar los informes financieros en Excel
+          href: ../financials/localizations/rus-excel-financial-report.md
       - name: Divisiones de empresas
         href: ../financials/localizations/rus-company-divisions.md
       - name: Configurar tipos de cambio para transacciones de divisa
@@ -2321,6 +2339,10 @@ items:
         href: ../financials/localizations/rus-accounting-reporting.md
       - name: Administración de flujos de efectivo
         href: ../financials/localizations/rus-cash-flow.md
+      - name: Ventas, compras y transferencias en divisa extranjera
+        href: ../financials/localizations/rus-currency-sale-purchase.md
+      - name: Declaraciones de impuestos evaluadas
+        href: ../financials/localizations/rus-assessed-tax-declaration.md
     - name: Arabia Saudí
       href: ../financials/localizations/saudi-arabia.md
       items:
@@ -2669,6 +2691,8 @@ items:
         href: ../dev-itpro/analytics/employee-competencies-and-development-analysis-power-bi-content-pack.md?toc=/fin-and-ops/toc.json
       - name: Desarrollo de los empleados
         href: ../dev-itpro/analytics/employee-development-PBI.md?toc=/fin-and-ops/toc.json
+      - name: Contenidos de gestión de gastos de Power BI
+        href: ../dev-itpro/analytics/expense-management-content-pack.md?toc=/fin-and-ops/toc.json
       - name: Rendimiento financiero
         href: ../dev-itpro/analytics/financial-performance-power-bi-content-pack.md?toc=/fin-and-ops/toc.json
       - name: Información financiera
@@ -2687,7 +2711,7 @@ items:
         href: ../dev-itpro/analytics/purchase-content-pack-for-power-bi.md?toc=/fin-and-ops/toc.json
       - name: Contratación
         href: ../dev-itpro/analytics/recruiting-analysis-power-bi-content-pack.md?toc=/fin-and-ops/toc.json
-      - name: 'Rendimiento de canal comercial '
+      - name: Rendimiento de canal comercial
         href: ../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/fin-and-ops/toc.json
       - name: Rendimiento de ventas y rentabilidad
         href: ../dev-itpro/analytics/sales-profitability-performance-content-pack.md?toc=/fin-and-ops/toc.json
@@ -3092,8 +3116,12 @@ items:
         href: ../dev-itpro/mobile-apps/invoice-approval-mobile-workspace.md?toc=/fin-and-ops/toc.json
       - name: Mi equipo
         href: ../dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/fin-and-ops/toc.json
+      - name: Visión general de las aplicaciones móviles del proyecto
+        href: ../financials/project-management/project-mobile-application-overview.md
       - name: Entrada de tiempo del proyecto
         href: ../financials/project-management/project-time-entry-mobile-workspace.md
+      - name: Hojas de horas del proyecto
+        href: ../financials/project-management/project-timesheet.md
       - name: Aprobación de pedidos de compra
         href: ../supply-chain/procurement/purchase-order-mobile-workspace.md
       - name: Pedidos de ventas
@@ -3333,6 +3361,8 @@ items:
         href: get-started/create-alerts.md
       - name: Procesamiento por lotes de alertas
         href: get-started/alerts-managing.md
+      - name: Notificaciones por correo electrónico de alertas del cliente
+        href: get-started/alert-email-notifications.md
     - name: Firmas electrónicas
       href: organization-administration/electronic-signature-overview.md
       items:
@@ -3373,6 +3403,8 @@ items:
           href: ../supply-chain/production-control/bill-of-material-bom.md
         - name: Funcionalidad del diseñador de lista de materiales
           href: ../supply-chain/production-control/bom-designer-functionality.md
+        - name: Artículos fantasma
+          href: ../supply-chain/production-control/phantom-items.md
         - name: Cálculos MAT
           href: ../supply-chain/cost-management/bom-calculations.md
         - name: Gestionar la unidad de medida
@@ -3787,6 +3819,8 @@ items:
       href: ../financials/project-management/project-contracts.md
     - name: Previsiones y presupuestos del proyecto
       href: ../financials/project-management/project-forecasts-budgets.md
+    - name: Pedidos de ventas del proyecto
+      href: ../financials/project-management/project-sales-orders.md
     - name: Pedidos de compra para un proyecto
       href: ../financials/project-management/project-purchase-orders.md
     - name: Presupuestos de proyecto
@@ -3800,8 +3834,12 @@ items:
       items:
       - name: Integración con cliente de Microsoft Project
         href: ../financials/project-management/project-integration.md
+    - name: Visión general de las aplicaciones móviles del proyecto
+      href: ../financials/project-management/project-mobile-application-overview.md
     - name: Espacio de trabajo móvil de entrada de tiempo de proyecto
       href: ../financials/project-management/project-time-entry-mobile-workspace.md
+    - name: Aplicación móvil de la hoja de horas del proyecto
+      href: ../financials/project-management/project-timesheet.md
   - name: Ventas y marketing
     href: ../supply-chain/sales-marketing/overview-sales-marketing.md
     items:
@@ -4073,7 +4111,7 @@ items:
             href: ../supply-chain/service-management/reverse-changes-in-a-dispatch-board.md
           - name: Ver pedidos de servicio no distribuidos
             href: ../supply-chain/service-management/view-undispatched-service-orders.md
-          - name: 'Modificar una L. MAT. de servicio '
+          - name: Modificar una L. MAT. de servicio
             href: ../supply-chain/service-management/modify-service-bom.md
         - name: Prestar servicios
           items:
@@ -4218,11 +4256,11 @@ items:
         href: ../supply-chain/inventory/inventory-blocking.md
       - name: Recuento cíclico
         href: ../supply-chain/warehousing/cycle-counting.md
-      - name: 'Definir el recuento cíclico '
+      - name: Definir el recuento cíclico
         href: ../supply-chain/warehousing/tasks/define-cycle-counting-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017.md
       - name: Recuento cíclico de ubicaciones parcial
         href: ../supply-chain/warehousing/partial-location-cycle-counting.md
-      - name: 'Definir proceso de recuento cíclico de ubicaciones parcial '
+      - name: Definir proceso de recuento cíclico de ubicaciones parcial
         href: ../supply-chain/warehousing/tasks/define-partial-location-cycle-counting-process.md
       - name: Diario de inventario
         href: ../supply-chain/inventory/inventory-journals.md
@@ -4241,7 +4279,7 @@ items:
         href: ../supply-chain/warehousing/material-replenishment-withdrawal-kanban.md
       - name: Configurar un proceso de reabastecimiento mínimo-máximo
         href: ../supply-chain/warehousing/tasks/set-up-min-max-replenishment-process.md
-    - name: 'Instalar y configurar la aplicación Warehousing '
+    - name: Instalar y configurar la aplicación Warehousing
       href: ../supply-chain/warehousing/install-configure-warehousing-app.md
       items:
       - name: Configuración de nombres de campo en la aplicación Warehousing
@@ -4286,9 +4324,9 @@ items:
   href: ../dev-itpro/toc.yml
 - name: Dynamics 365 for Retail
   href: ../retail/toc.yml
-ms.openlocfilehash: a1c64fd645063db11c632b34e8e0b934c97f2251
-ms.sourcegitcommit: d9ed934a142b88340d268fd2bd3753475a3712b0
+ms.openlocfilehash: 9cb4d9114b745a42ad7c7650686639efe33c6192
+ms.sourcegitcommit: 4d77340f5b3480f60a3a28c854fafc83e959f192
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "836405"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "975975"
