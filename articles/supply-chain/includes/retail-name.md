@@ -1,2 +1,2 @@
 > [!NOTE]
-> <span data-ttu-id="53daa-101">Este tema se aplica a Dynamics 365 for Finance and Operations y a Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="53daa-101">This topic applies to both Dynamics 365 for Finance and Operations and to Dynamics 365 for Retail.</span></span> 
+> <span data-ttu-id="e802a-101">Esto tema está relacionado tanto con Dynamics 365 for Finance and Operations como Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="e802a-101">This topic applies to both Dynamics 365 for Finance and Operations and to Dynamics 365 for Retail.</span></span> 

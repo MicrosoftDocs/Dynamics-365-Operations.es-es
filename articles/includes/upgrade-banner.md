@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> <span data-ttu-id="15c0c-101">Actualmente esta característica solo está disponible mediante invitación.</span><span class="sxs-lookup"><span data-stu-id="15c0c-101">This feature is currently available by invitation only.</span></span> <span data-ttu-id="15c0c-102">Para nominar a su organización para participar, complete [esta encuesta](https://aka.ms/ax2012upgrade).</span><span class="sxs-lookup"><span data-stu-id="15c0c-102">To nominate your organization to participate, please complete [this survey](https://aka.ms/ax2012upgrade).</span></span> 
