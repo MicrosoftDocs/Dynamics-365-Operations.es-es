@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 43571099727830e81c41416b6fe250dba398b3f8
-ms.sourcegitcommit: ca4562fafa33b3512f0a5e246b15545fcf53e834
+ms.openlocfilehash: 5a0a6a060a1b4a4d5a80c797f61b212a828d2f04
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "379933"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517164"
 ---
 # <a name="configure-and-process-an-exchange-on-a-return-order"></a>Configurar y procesar un cambio en un pedido de devolución
 
@@ -44,7 +44,7 @@ Siga estos pasos para configurar el sistema de forma que admita cambios en pedid
 
 Una vez que el sistema se haya configurado de la manera descrita en la sección anterior, el usuario del punto de venta (PDV) seleccionará un pedido de ventas o una factura de ventas para procesar una devolución, como en las versiones anteriores de Retail. Sin embargo, después de agregar los artículos devueltos al carro, el usuario podrá agregar nuevas líneas de ventas al carro.
 
-Para estas nuevas líneas de ventas, el usuario debe definir todos los atributos necesarios para procesar una línea de pedidos de cliente. Estos atributos incluyen el método de entrega y la ubicación de cumplimiento. El pago para la transacción será el valor neto de las líneas de pedido de devolución y las líneas de pedido de ventas. Si se realiza el pago para la transacción, el pedido de devolución se registrará como un documento de pedido de ventas en Retail Headquarters, y el sistema facturará inmediatamente las líneas de devolución.
+Para estas nuevas líneas de ventas, el usuario debe definir todos los atributos necesarios para procesar una línea de pedidos de cliente. Estos atributos incluyen el método de entrega y la ubicación de cumplimiento. El pago para la transacción será el valor neto de las líneas de pedido de devolución y las líneas de pedido de ventas. Si se realiza el pago para la transacción, el pedido de devolución se registrará como un documento de pedido de ventas en Retail Headquarters y el sistema facturará inmediatamente las líneas de devolución.
 
 Para proporcionar mayor visibilidad de los distintos importes del carro, se han agregado al carro tres nuevos campos de importe. Puede usar el diseñador de pantalla para hacer que estos campos nuevos estén disponibles en la interfaz de usuario del punto de venta.
 

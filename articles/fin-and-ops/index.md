@@ -1,25 +1,29 @@
 ---
-# required metadata
 title: Documentación de Microsoft Dynamics 365 for Finance and Operations
 description: Documentación para Microsoft Dynamics 365 for Finance and Operations.
 author: margoc
 manager: AnnBe
-ms.date: 03/08/2019
+ms.date: 04/11/2019
 ms.topic: index-page
-ms.prod: null
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: null
+ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
 ms.reviewer: margoc
-ms.search.scope: 'Core, Operations'
+ms.search.scope: Core, Operations
 ms.custom: 62303
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: '2016-02-28'
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4547a0c8d43584e4cb8981e0a055c514c184f6dd
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1507598"
 ---
-
 # <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>Documentación de Microsoft Dynamics 365 for Finance and Operations
 
 [!include [banner](includes/banner.md)]
@@ -59,7 +63,12 @@ Mucho de este contenido también se aplica a los productos relacionados: Microso
 <p><a href="../dev-itpro/lifecycle-services/pause-service-updates.md">Pausar actualizaciones de servicio</a></p>
 <p><a href="../dev-itpro/lifecycle-services/notifications-service-updates.md">Recibir notificaciones acerca de las actualizaciones de servicio</a></p>
 <p><a href="../dev-itpro/data-entities/data-task-automation.md">Automatización de tarea de datos</a></p>
-<p><a href="../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md">Regression Suite Automation tool</a></p>
+<p><a href="../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md">Regression Suite Automation Tool</a></p>
+
+<h3><a href="../dev-itpro/data-entities/integration-overview.md">Integraciones</a></h3>
+<p><a href="../dev-itpro/business-events/home-page.md">Eventos de negocio</a></p>
+<p><a href="../dev-itpro/data-entities/data-entities.md">Entidades de datos</a></p>
+<p><a href="../dev-itpro/data-entities/fin-ops-connector.md">Integración mediante Microsoft Flow</a></p>
 
 <h3><a href="../financials/index.md">Administración financiera</a></h3>
 <p><a href="../financials/accounts-payable/accounts-payable.md">Proveedores</a></p>
@@ -105,10 +114,6 @@ Mucho de este contenido también se aplica a los productos relacionados: Microso
 
 <h3><a href="../dev-itpro/dev-tools/developer-home-page.md">Desarrollo</h3>
 <p><a href="../dev-itpro/extensibility/extensibility-home-page.md">Extensibilidad</a></p>
-
-<p><a href="../dev-itpro/data-entities/integration-overview.md">Integración de datos</a></p>
-<p><a href="../dev-itpro/data-entities/data-entities.md">Administración de datos</a></p>
-
 <p><a href="../dev-itpro/office-integration/office-integration.md">Integración con Office</a></p>
 <p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md">Entrega continua</a></p>
 <p><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md">Plataforma móvil</a></p>
@@ -119,7 +124,6 @@ Mucho de este contenido también se aplica a los productos relacionados: Microso
 <p><a href="../dev-itpro/deployment/on-premises-deployment-landing-page.md">Implementación local</a></p>
 <p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">Actualización</a></p>
 <p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md#servicing">Servicio</a></p>
-<p><a href="../dev-itpro/data-entities/data-entities.md">Marco de administración de datos</a></p>
 <p><a href="../dev-itpro/lifecycle-services/lcs.md">Lifecycle Services</a></p>
 <p><a href="organization-administration/organization-administration-home-page.md">Administración de la organización</a></p>
 </td>
