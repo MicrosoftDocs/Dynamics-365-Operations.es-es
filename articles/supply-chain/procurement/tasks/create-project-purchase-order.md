@@ -18,33 +18,33 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 0fa5f60abafb1200a61e1c9d8013fb9e28e28f48
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "315231"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1559168"
 ---
-# <a name="create-project-purchase-order"></a><span data-ttu-id="617ac-103">Crear pedido de compra de proyecto</span><span class="sxs-lookup"><span data-stu-id="617ac-103">Create project purchase order</span></span>
+# <a name="create-project-purchase-order"></a><span data-ttu-id="79b41-103">Crear pedido de compra de proyecto</span><span class="sxs-lookup"><span data-stu-id="79b41-103">Create project purchase order</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="617ac-104">Este procedimiento muestra cómo crear un pedido de compra del proyecto.</span><span class="sxs-lookup"><span data-stu-id="617ac-104">This procedure shows you how to create a project purchase order.</span></span> <span data-ttu-id="617ac-105">Esta tarea usa el conjunto de datos USSI.</span><span class="sxs-lookup"><span data-stu-id="617ac-105">This task uses the USSI data set.</span></span>
+<span data-ttu-id="79b41-104">Este procedimiento muestra cómo crear un pedido de compra del proyecto.</span><span class="sxs-lookup"><span data-stu-id="79b41-104">This procedure shows you how to create a project purchase order.</span></span> <span data-ttu-id="79b41-105">Esta tarea usa el conjunto de datos USSI.</span><span class="sxs-lookup"><span data-stu-id="79b41-105">This task uses the USSI data set.</span></span>
 
-1. <span data-ttu-id="617ac-106">Vaya a Gestión de proyectos y contabilidad > Proyectos > Todos los proyectos.</span><span class="sxs-lookup"><span data-stu-id="617ac-106">Go to Project management and accounting > Projects > All projects.</span></span>
-2. <span data-ttu-id="617ac-107">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="617ac-107">In the list, click the link in the selected row.</span></span>
-3. <span data-ttu-id="617ac-108">En el panel de acciones, haga clic en Gestionar.</span><span class="sxs-lookup"><span data-stu-id="617ac-108">On the Action Pane, click Manage.</span></span>
-4. <span data-ttu-id="617ac-109">Haga clic en Tarea de artículo.</span><span class="sxs-lookup"><span data-stu-id="617ac-109">Click Item task.</span></span>
-5. <span data-ttu-id="617ac-110">Haga clic en Pedido de compra.</span><span class="sxs-lookup"><span data-stu-id="617ac-110">Click Purchase order.</span></span>
-6. <span data-ttu-id="617ac-111">En el campo Cuenta de proveedor, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="617ac-111">In the Vendor account field, enter or select a value.</span></span>
-7. <span data-ttu-id="617ac-112">En el campo Sitio, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="617ac-112">In the Site field, enter or select a value.</span></span>
-    * <span data-ttu-id="617ac-113">Estos pasos no son necesarios, pero simplifican el pedido de compra configurando un sitio predeterminado y un almacén para las líneas de pedido de compra.</span><span class="sxs-lookup"><span data-stu-id="617ac-113">These steps aren't required, but they do simplify the purchase order by setting up a default site and warehouse for the purchase order lines.</span></span>  
-8. <span data-ttu-id="617ac-114">En el campo Almacén, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="617ac-114">In the Warehouse field, enter or select a value.</span></span>
-9. <span data-ttu-id="617ac-115">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="617ac-115">Click OK.</span></span>
-10. <span data-ttu-id="617ac-116">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="617ac-116">In the list, mark the selected row.</span></span>
-11. <span data-ttu-id="617ac-117">En el campo Número de artículo, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="617ac-117">In the Item number field, enter or select a value.</span></span>
-    * <span data-ttu-id="617ac-118">Esto puede ser el número de artículo o una categoría de compras.</span><span class="sxs-lookup"><span data-stu-id="617ac-118">This can be the item number or a procurement category.</span></span>  
-12. <span data-ttu-id="617ac-119">Expanda la sección Detalles de línea.</span><span class="sxs-lookup"><span data-stu-id="617ac-119">Expand the Line details section.</span></span>
-13. <span data-ttu-id="617ac-120">Haga clic en la pestaña Projecto.</span><span class="sxs-lookup"><span data-stu-id="617ac-120">Click the Project tab.</span></span>
-    * <span data-ttu-id="617ac-121">Compruebe que las ventas y los precios de coste están disponibles.</span><span class="sxs-lookup"><span data-stu-id="617ac-121">Verify that the sales and cost prices are available.</span></span> <span data-ttu-id="617ac-122">Si no están disponibles pero son necesarias, especifique la información.</span><span class="sxs-lookup"><span data-stu-id="617ac-122">If they are not available but needed, enter the information.</span></span>  
-14. <span data-ttu-id="617ac-123">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="617ac-123">Click Save.</span></span>
+1. <span data-ttu-id="79b41-106">Vaya a Gestión de proyectos y contabilidad > Proyectos > Todos los proyectos.</span><span class="sxs-lookup"><span data-stu-id="79b41-106">Go to Project management and accounting > Projects > All projects.</span></span>
+2. <span data-ttu-id="79b41-107">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="79b41-107">In the list, click the link in the selected row.</span></span>
+3. <span data-ttu-id="79b41-108">En el panel de acciones, haga clic en Gestionar.</span><span class="sxs-lookup"><span data-stu-id="79b41-108">On the Action Pane, click Manage.</span></span>
+4. <span data-ttu-id="79b41-109">Haga clic en Tarea de artículo.</span><span class="sxs-lookup"><span data-stu-id="79b41-109">Click Item task.</span></span>
+5. <span data-ttu-id="79b41-110">Haga clic en Pedido de compra.</span><span class="sxs-lookup"><span data-stu-id="79b41-110">Click Purchase order.</span></span>
+6. <span data-ttu-id="79b41-111">En el campo Cuenta de proveedor, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="79b41-111">In the Vendor account field, enter or select a value.</span></span>
+7. <span data-ttu-id="79b41-112">En el campo Sitio, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="79b41-112">In the Site field, enter or select a value.</span></span>
+    * <span data-ttu-id="79b41-113">Estos pasos no son necesarios, pero simplifican el pedido de compra configurando un sitio predeterminado y un almacén para las líneas de pedido de compra.</span><span class="sxs-lookup"><span data-stu-id="79b41-113">These steps aren't required, but they do simplify the purchase order by setting up a default site and warehouse for the purchase order lines.</span></span>  
+8. <span data-ttu-id="79b41-114">En el campo Almacén, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="79b41-114">In the Warehouse field, enter or select a value.</span></span>
+9. <span data-ttu-id="79b41-115">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="79b41-115">Click OK.</span></span>
+10. <span data-ttu-id="79b41-116">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="79b41-116">In the list, mark the selected row.</span></span>
+11. <span data-ttu-id="79b41-117">En el campo Número de artículo, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="79b41-117">In the Item number field, enter or select a value.</span></span>
+    * <span data-ttu-id="79b41-118">Esto puede ser el número de artículo o una categoría de compras.</span><span class="sxs-lookup"><span data-stu-id="79b41-118">This can be the item number or a procurement category.</span></span>  
+12. <span data-ttu-id="79b41-119">Expanda la sección Detalles de línea.</span><span class="sxs-lookup"><span data-stu-id="79b41-119">Expand the Line details section.</span></span>
+13. <span data-ttu-id="79b41-120">Haga clic en la pestaña Projecto.</span><span class="sxs-lookup"><span data-stu-id="79b41-120">Click the Project tab.</span></span>
+    * <span data-ttu-id="79b41-121">Compruebe que las ventas y los precios de coste están disponibles.</span><span class="sxs-lookup"><span data-stu-id="79b41-121">Verify that the sales and cost prices are available.</span></span> <span data-ttu-id="79b41-122">Si no están disponibles pero son necesarias, especifique la información.</span><span class="sxs-lookup"><span data-stu-id="79b41-122">If they are not available but needed, enter the information.</span></span>  
+14. <span data-ttu-id="79b41-123">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="79b41-123">Click Save.</span></span>
 
