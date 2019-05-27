@@ -18,11 +18,11 @@ ms.author: mkirknel
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.openlocfilehash: df27ff3477443611278436a680d70ea81a21763e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "358655"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1552610"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Espacio de trabajo de móvil de colaboración de proveedor
 
@@ -104,7 +104,7 @@ Si se ha implementado Microsoft Dynamics 365 for Operations versión 1611 con ac
 <li><a href="vendor-collaboration-work-external-vendors.md">Use la colaboración de proveedor para trabajar con proveedores externos</a></li>
 <li><a href="manage-vendor-collaboration-users.md">Gestionar usuarios de colaboración de proveedor</a></li>
 <li><a href="set-up-maintain-vendor-collaboration.md">Configurar y mantener la colaboración de proveedor</a></li>
-<li><a href="vendor-collaboration-work-customers-dynamics-365-operations.md">Use la colaboración de proveedor para trabajar con los clientes en Dynamics 365 for Finance and Operations</a></li>
+<li><a href="vendor-collaboration-work-customers-dynamics-365-operations.md">Use la colaboración de proveedor para trabajar con los clientes en Finance and Operations</a></li>
 </ul></td>
 </tr>
 </tbody>

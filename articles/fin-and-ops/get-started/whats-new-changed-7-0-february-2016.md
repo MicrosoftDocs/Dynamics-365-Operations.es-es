@@ -18,11 +18,11 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: cdd8acea22fb3298d1d0e7ccce0ca42c1427fe80
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "334896"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1561819"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Novedades o cambios en Dynamics AX 7.0 (febrero de 2016)
 
@@ -119,7 +119,7 @@ Esta función es independiente de los métodos de costes asignados al artículo 
 | Compile el lenguaje CIL (Common Intermediate Language) para todas las funciones. | X++ se compila en código de programa. | El nuevo compilador X++ genera CIL para todas las funciones. CIL es el mismo lenguaje intermedio que usan otros lenguajes basados en .NET. | CIL es más rápido, puede hacer referencia eficientemente a las clases en bibliotecas de vínculos dinámicos (DLL) gestionadas y puede ejecutarse con muchas herramientas de utilidades .NET. |
 | Incruste informes de inteligencia empresarial (BI) y visualizaciones en el cliente de Microsoft Dynamics AX. | No disponible | Cree visualizaciones muy intuitivas y fluidas. | Proporcione información para la toma de decisiones basada en inteligencia empresarial. |
 | Intégrese con Microsoft Office. | No disponible | Las nuevas capacidades incluyen la aplicación de conector de datos de Excel, la página **Diseñador de libros**, Exportar API y Gestión de documentos. | Puede crear soluciones de productividad de sus usuarios finales. |
-| Automatice la creación, las pruebas y la implementación. | Disponible parcialmente | Implemente la topología de desarrollador mediante Developer y Build VM. Configure automáticamente Build VM para detectar, crear módulos desde Visual Studio Online (VSO) y ejecutar pruebas. También se admiten referencias y compilaciones de módulo C\# y X++. | Aumenta la productividad del desarrollador reduciendo el coste y el esfuerzo asociado a las pruebas y validaciones. |
+| Automatice la creación, las pruebas y la implementación. | Disponible parcialmente | Implemente la topología de desarrollador mediante Developer y Build VM. Configurar automáticamente Build VM para detectar, crear módulos desde Visual Studio Online (VSO) y ejecutar pruebas. También se admiten referencias y compilaciones de módulo C\# y X++. | Aumenta la productividad del desarrollador reduciendo el coste y el esfuerzo asociado a las pruebas y validaciones. |
 | Personalice con superposiciones y extensiones. | No hay extensiones disponibles. | La versión actual de Dynamics AX tiene un nuevo modelo de personalización. | Puede personalizar código de origen y metadatos de elementos de modelo proporcionados por Microsoft o terceros. |
 | Genere nuevos controles y elementos de interfaz de usuario mediante X++ y un moderno marco web. | Los controles personalizados se basan en marcos externos como Microsoft ActiveX y Windows Presentation Foundation (WPF). | Resulta más fácil crear controles en la versión actual. El marco X++ se puede usar para dirigir el comportamiento de la aplicación y la lógica empresarial, y un cliente basado en HTML/JavaScript permite utilizar modernas visualizaciones. | Sus controles se pueden diseñar para parecer y para comportarse como los controles integrados de Dynamics AX. |
 | Evalúe y adapte el rendimiento mediante nuevas herramientas. | PerfSDK, Data Expansion Toolkit, la aplicación Trace Parser WEb y PerfTimer no están disponibles. | PerfSDK, Data Expansion Toolkit, la aplicación Trace Parser Web y PerfTimer son nuevos. | El kit de desarrollo de software (SDK) le permite probar y validar el rendimiento de todos los procesos empresariales críticos en una prueba de un usuario y, si procede, de varios usuarios. El conjunto de herramientas Data Expansion le permite ampliar correctamente todas las pruebas de rendimiento que deben tener datos maestros y datos transaccionales correctamente expandidos. Trace Parser le permite validar una prueba de rendimiento de un solo usuario o varios usuarios. PerfTimer le permite ver si hay alguna pregunta o llamada de método específica que esté causando un problema de rendimiento. Por lo tanto, no tiene que hacer un seguimiento y analizar todo detalladamente. |

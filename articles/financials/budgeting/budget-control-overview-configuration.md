@@ -19,11 +19,11 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 4dbbbdf403c3e3f7c1bfa391cc32f80505098db9
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "308538"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1568198"
 ---
 # <a name="budget-control-overview"></a>Visión general del control presupuestario
 
@@ -36,7 +36,7 @@ Este artículo presenta el control presupuestario y proporciona información par
 
 El control presupuestario en Microsoft Dynamics 365 for Finance and Operations admite la administración de los recursos financieros de una organización a través del plan de cuentas, los flujos de trabajo, los grupos de usuarios, los documentos de origen y los diarios, el cálculo configurable de los fondos disponibles, los ciclos presupuestarios y los umbrales. Cuando los controles están vigentes, una organización puede planear, medir, gestionar y realizar una previsión de sus recursos financieros en su ejercicio. 
 
-Una vez se hayan aprobado los presupuestos en Dynamics 365 for Finance and Operations, puede usar planes presupuestarios para generar asientos de registro presupuestario para registrar el presupuesto de gastos para una organización. También puede crear o importar asientos de registro presupuestario desde un programa de terceros en lugar de usar la funcionalidad de planificación presupuestaria. 
+Una vez se hayan aprobado los presupuestos en Finance and Operations, puede usar planes presupuestarios para generar asientos de registro presupuestario para registrar el presupuesto de gastos para una organización. También puede crear o importar asientos de registro presupuestario desde un programa de terceros en lugar de usar la funcionalidad de planificación presupuestaria. 
 
 Los gastos se pueden registrar mediante cuentas principales y dimensiones financieras. Puede configurar el control del gasto total para cumplir las directivas y los requisitos de la organización agrupando combinaciones de dimensiones financieras y cuentas principales. 
 
@@ -52,7 +52,7 @@ Puede configurar el control presupuestario de acuerdo con varios factores:
 -   **Cálculo de fondos disponibles**: ¿Se deben considerar los documentos como las solicitudes de compra (pre-reserva de gasto) y los pedidos de compra (reservas de gastos) en el cálculo de los fondos disponibles? ¿Se deben considerar los documentos con estado de borrador en el cálculo?
 -   **Permiso de anulación**: ¿Quién tiene permiso para superar el presupuesto disponible?
 
-El control presupuestario está completamente integrado con Dynamics 365 for Finance and Operations. Por tanto, puede evaluar el presupuesto disponible tanto para las compras planificadas como para las compras reales. Los informes y las consultas de presupuesto están disponibles. Por tanto, los usuarios pueden evaluar el presupuesto a lo largo del ciclo presupuestario y, a continuación, puede realizar ajustes necesarios, en forma de transferencias o revisiones presupuestarias. Un director de presupuestos también puede exportar el presupuesto y los valores reales en Microsoft Excel para analizar mejor y realizar la previsión según sea necesario.
+El control presupuestario está completamente integrado con Finance and Operations. Por tanto, puede evaluar el presupuesto disponible tanto para las compras planificadas como para las compras reales. Los informes y las consultas de presupuesto están disponibles. Por tanto, los usuarios pueden evaluar el presupuesto a lo largo del ciclo presupuestario y, a continuación, puede realizar ajustes necesarios, en forma de transferencias o revisiones presupuestarias. Un director de presupuestos también puede exportar el presupuesto y los valores reales en Microsoft Excel para analizar mejor y realizar la previsión según sea necesario.
 
 ## <a name="configuring-budget-control"></a>Configuración del control presupuestario
 ### <a name="budget-cycle-time-span"></a>Intervalo de tiempo del ciclo presupuestario
