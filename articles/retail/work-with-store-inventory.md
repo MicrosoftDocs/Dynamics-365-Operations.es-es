@@ -3,7 +3,7 @@ title: Gestión de inventario en tienda
 description: En este tema se describen los tipos de documentos que puede usar para gestionar el inventario.
 author: rubencdelgado
 manager: AnnBe
-ms.date: 01/18/2019
+ms.date: 04/23/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,20 +18,16 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 02f8afbe3bb6f94c66a8b5aa02531c219adc3963
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: efc729c83b81bd8afb806c403d52fd85b36efc9d
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "339243"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1523770"
 ---
 # <a name="store-inventory-management"></a>Gestión de inventario en tienda
 
 [!include [banner](includes/banner.md)]
-
-En este tema se describen los tipos de documentos que puede usar para gestionar el inventario.
-
-Puede utilizar los siguientes tipos de documentos para gestionar el inventario de la organización.
 
 Al trabajar con el inventario en Dynamics 365 for Retail y con la aplicación de PDV, es importante tener en cuenta que PDV ofrece compatibilidad limitada para las dimensiones de inventario y algunos tipos de artículos de inventario.  
 
@@ -46,10 +42,10 @@ La aplicación de PDV no admite actualmente las dimensiones de seguimiento sigui
 
 La solución de PDV ofrece compatibilidad limitada para las dimensiones siguientes. La compatibilidad limitada indica que el PDV puede establecer como valor predeterminado algunas de estas dimensiones en transacciones de inventario basadas automáticamente en la configuración del almacén o la tienda. PDV no será totalmente compatible con las dimensiones de la manera en que se admiten si una transacción de ventas se introduce manualmente en el ERP. 
 
-- Ubicación
-- Placa (solo aplicable cuando se ha habilitado **Usar proceso de gestión de almacenes** en el artículo y el almacén de la tienda)
-- Número de serie
-- Estado de inventario
+- **Ubicación de almacén**: los usuarios no tendrán la capacidad de administrar la ubicación del almacén de recepción de los artículos recibidos en un almacén cuando la tienda no haya sido configurada para usar el proceso de gestión de almacenes.  Una ubicación de recepción predeterminada definida en el almacén de tienda se usará para estos artículos.  Si el proceso de gestión de almacenes se ha habilitado para el almacén, la compatibilidad limitada que solicita al usuario seleccionar una ubicación de recepción de la recepción completo se activará.  Los artículos vendidos del almacén siempre se venderán fuera de la ubicación minorista predeterminada como se definió en la configuración del almacén de tienda.   La ubicación para gestionar la devolución de inventario se puede controlar con la definición de la ubicación de devolución predeterminada en el almacén de tienda o basarse en códigos de motivo de devolución como se define en la directiva de devolución de la ubicación.
+- **Matrícula de entidad de almacén** - Las matrículas de entidad de almacén solo se aplican cuando se ha habilitado **Usar proceso de gestión de almacenes** en el artículo y el almacén de la tienda.  En PDV, si el inventario se recibe en un almacén de tienda donde se ha habilitado el proceso de gestión de almacenes y la ubicación elegida para recibir el artículo está vinculada a un perfil de ubicación que requiere el control de la matrícula de entidad de almacén, la aplicación de PDV aplicará sistemáticamente una matrícula de entidad de almacén a la línea de recepción.  Los usuarios de PDV no tendrán la capacidad de cambiar o de administrar estos datos del número de matrícula de entidad de almacén.   Si la administración completa de matrícula de entidad de almacén es necesaria, se sugiere el uso de la tienda la aplicación móvil de WMS o el área de operaciones del cliente de ERP para administrar la recepción de estos elementos.
+- **Número de serie** - La aplicación de PDV tiene compatibilidad limitada para que solo un número de serie se registre en una línea de ventas de transacción para los pedidos creadas en el sistema PDV con los artículos serializados.  Este número de serie no se valida contra los números de serie ya registrados en el inventario.  Si un pedido de ventas se crea en el canal de centro de asistencia telefónica o satisfecho a través de ERP y varios números de serie se registran a una sola línea de ventas durante el proceso de cumplimiento en el ERP, estos números de serie no se podrán aplicar o validarse si una devolución se procesa en el sistema PDV para estos pedidos.
+- **Estado de inventario** - Para artículos que usan el proceso de la gestión de almacenes y requieren un estado de inventario, este campo de estado no se puede establecer o modificarse con la aplicación de PDV.  Utilizará el estado de inventario predeterminado que se define en la configuración del almacén de tienda cuando los artículos se reciben en inventario.  
 
 > [!NOTE]
 > Todas las organizaciones deben probar las configuraciones de artículo con PDV en entornos de desarrollo o de prueba antes de implementarlos para la producción. Pruebe los artículos realizando transacciones de ventas al contacto habituales de tiendas y creando pedidos de cliente (si procede) con PDV con sus artículos. La prueba debe incluir la ejecución de procesos de registro de extractos completos en el entorno de prueba y la verificación de que no hay problemas.
@@ -57,16 +53,18 @@ La solución de PDV ofrece compatibilidad limitada para las dimensiones siguient
 
 ## <a name="purchase-orders"></a>Pedidos de compra
 
-Los pedidos de compra se crean en la oficina central. Si se incluye un almacén comercial en el encabezado del pedido de compra, el pedido se puede recibir en la tienda mediante Modern POS (MPOS) o Cloud POS en Microsoft Dynamics 365 for Retail. Después de especificar las cantidades que se reciben en la tienda, se pueden guardar de manera local para realizar otras modificaciones. Otra opción es que las cantidades se comprometan y se envíen a la oficina central. En la oficina central, las cantidades que se han recibido en la tienda se muestran en Dynamics 365 for Retail, en el campo **Recibir ahora** del pedido de compra.
+Los pedidos de compra se crean en la oficina central. Si se incluye un almacén comercial en el encabezado del pedido de compra, el pedido se puede recibir en la tienda mediante Modern POS (MPOS) o Cloud POS en Microsoft Dynamics 365 for Retail a través de la operación **Recogida/Recepción**. Después de las cantidades que se reciban en el almacén se introduzcan en el campo **Recibir ahora** en el PDV para el documento de pedido de compra, éstos se puede guardar o localmente se compromete. Guardar estos datos localmente no tiene ningún efecto en inventario en existencias. El guardado solo se debe hacer si el usuario no está listo para enviar la recepción a la Sede y necesita una forma de almacenar los datos temporalmente especificados anteriormente **Recibir ahora** .  Esto guarda los datos de recibido ahora localmente en la base de datos de canal del usuario. Una vez que el documento se procese mediante la opción **Confirmación**, los datos **Recibir ahora** se envían a la Sede y la recepción de pedido de compra se registrará. 
 
 ## <a name="transfer-orders"></a>Pedidos de transferencia
 
-Un pedido de transferencia puede especificar que una tienda concreta es una ubicación desde la que se pueden enviar artículos. En este caso, el pedido de transferencia aparece en la tienda como una solicitud de selección en MPOS o PDV en la nube. Después de seleccionar las cantidades solicitadas, se comprometen y se envían a la oficina central. En la oficina central, las cantidades seleccionadas en la tienda se muestran en Dynamics 365 for Retail, en el campo **Enviar ahora** del pedido de transferencia. Un pedido de transferencia puede especificar que una tienda concreta es una ubicación a la que se pueden enviar artículos. En este caso, el pedido de transferencia aparece en la tienda como una solicitud de recepción en MPOS o PDV en la nube. Después de especificar las cantidades que se reciben en la tienda, se pueden guardar de manera local para realizar otras modificaciones. Otra opción es que las cantidades se comprometan y se envíen a la oficina central. En la oficina central, las cantidades que se han recibido en la tienda se muestran en Dynamics 365 for Retail, en el campo **Recibir ahora** del pedido de transferencia.
+Un pedido de transferencia puede especificar que un almacén específico es la ubicación a la que los artículos se pueden enviar o la ubicación donde se recibirá el inventario. Si el usuario PDV es el almacén de envío para un pedido de transferencia, podrán especificar las cantidades **Enviar ahora** de PDV.  Los datos que especifique el almacén de envío pueden guardarse localmente o confirmarse.  Cuando se guardan localmente, no se realizan actualizaciones del documento de pedido de transferencia en la Sede. El guardado solo se debe hacer si el usuario no está listo para enviar el envío a la Sede y necesita una forma de almacenar los datos temporalmente especificados anteriormente en **Enviar ahora** . Una vez que el almacén esté listo para confirmar el envío, la opción **Confirmación** debe seleccionarse. Esto envía la entrega del pedido de transferencia en la Sede de modo que el almacén de recepción pueda recibirlo contra él. 
+
+Si el usuario PDV es el almacén receptor para un pedido de transferencia, podrán especificar las cantidades **Recibir ahora** de PDV.  Los datos que especifique el almacén de recepción pueden guardarse localmente o confirmarse. El guardado solo se debe hacer si el usuario no está listo para enviar la recepción a la Sede y necesita una forma de almacenar los datos temporalmente especificados anteriormente **Recibir ahora** . Esto guarda los datos de recibido ahora localmente en la base de datos de canal del usuario. Una vez que el documento se procese mediante la opción **Confirmación**, los datos **Recibir ahora** se envían a la Sede y la transferencia de pedido de compra se registrará. Es importante tener en cuenta que la tienda receptora sólo se limita a poder confirmar si recibe las cantidades iguales o menores a las enviadas. Intentar recibir las cantidades en un pedido de transferencia que no se han registrado previamente generará errores y la recepción no será confirmado en la Sede.
 
 ## <a name="stock-counts"></a>Recuentos de existencias
 
-Los recuentos de existencias se pueden programar o no. Los recuentos de existencias programados se inician en la oficina central, que especifica los artículos que se deben contar. La oficina central crea un documento que se puede recibir en la tienda, donde se especifican las cantidades de existencias disponibles reales en MPOS o PDV en la nube. Los recuentos de existencias no programados se inician en una tienda y las cantidades de existencias disponibles se actualizan en MPOS o PDV en la nube. A diferencia de los recuentos programados de existencias, los recuentos no programados de existencias no tienen una lista predefinida de artículos. Cuando finaliza un recuento de existencias de cualquier tipo, se compromete y se envía a la oficina central. En la oficina central, se valida y se registra el recuento.
+Los recuentos de existencias se pueden programar o no. Los recuentos de existencias programados se inician en la oficina central, que especifica los artículos que se deben contar. La oficina central crea un documento que se puede recibir en la tienda, donde se especifican las cantidades de existencias disponibles reales en MPOS o PDV en la nube. Los recuentos de existencias no programados se inician en una tienda y las cantidades de existencias disponibles se actualizan en MPOS o PDV en la nube. A diferencia de los recuentos programados de existencias, los recuentos no programados de existencias no tienen una lista predefinida de artículos. Cuando finaliza un recuento de existencias de cualquier tipo, se compromete y se envía a la oficina central. En la oficina central, se valida y se registra el recuento como un paso aparte.
 
 ## <a name="inventory-lookup"></a>Búsqueda de inventario
 
-La cantidad de producto disponible actualmente para múltiples tiendas y almacenes se puede ver en la página de consulta de inventario. Además de la cantidad disponible actual, las cantidades futuras de neto no comprometido (NNC) se pueden visualizar para cada tienda. Para ello, seleccione la tienda para la que desea ver el NNC y después para haga clic en **Mostrar disponibilidad en tienda**.
+La cantidad de producto disponible actualmente para múltiples tiendas y almacenes se puede ver en la página de **Consulta de inventario**. Además de la cantidad disponible actual, las cantidades futuras de neto no comprometido (NNC) se pueden visualizar para cada tienda. Para ello, seleccione la tienda para la que desea ver el NNC y después para haga clic en **Mostrar disponibilidad en tienda**.

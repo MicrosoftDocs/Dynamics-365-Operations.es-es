@@ -3,7 +3,7 @@ title: Revalorización bancaria de divisa extranjera
 description: Este tema proporciona una visión general del proceso de revalorización de divisa extranjera del banco. Incluye información sobre la configuración, la ejecución del proceso, el cálculo para el proceso, y la inversión de transacciones de revalorización.
 author: mikefalkner
 manager: AnnBe
-ms.date: 03/27/2019
+ms.date: 04/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 3aed5a6c12e8dd39956f906f922bfbed1b8fb680
-ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
+ms.openlocfilehash: 4ec9814a4a35a1b3ba7ba05a04b53e5b150f4a04
+ms.sourcegitcommit: be447fc81bc874982bc0185fcb4d87d99bd742c5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "976701"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "1538641"
 ---
 # <a name="bank-foreign-currency-revaluation"></a>Revalorización bancaria de divisa extranjera
 
@@ -52,7 +52,7 @@ Debe activar la característica de la revalorización de divisa extranjera del b
 3. En la pestaña **Secuencias numéricas** , agregue una secuencia numérica para la revalorización de divisa extranjera.
 4. Actualice el explorador para ver **Revalorización de divisa extranjera** en la sección **Tareas periódicas** de la página de área.
 
-Debe activar la función para cada entidad jurídica que utiliza la revalorización de divisa extranjera.
+Debe activar la función para cada entidad jurídica que utiliza la revalorización de divisa extranjera. Si tiene asignado el rol de administrador del sistema o el rol de administrador de características, puede eliminar este paso habilitando la característica denominada **Habilitar la revalorización del banco sin un parámetro** en el área de trabajo **Administración de características**.
 
 > [!NOTE]
 > Si su entidad jurídica usa un ruso, un polaco, o un país/húngaro un código de región, puede hacer ya la revalorización de divisa extranjera del banco. No podrá utilizar la revalorización de divisa extranjera usada por otros países o regiones.

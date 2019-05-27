@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 20a7781486c6e0612c27af02a1bccbc48c55a932
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: c5cfe92b8733a0a6d76e074cc31eec3f3935b512
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "353802"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1530877"
 ---
 # <a name="define-financial-dimensions"></a>Definir dimensiones financieras
 
@@ -33,7 +33,7 @@ Esta guía de tareas muestra la adición de una dimensión financiera respaldada
 ## <a name="create-an-entity-backed-financial-dimension"></a>Crear una dimensión financiera respaldada por entidad
 1. Vaya a Contabilidad general > Plan contable > Dimensiones > Dimensiones financieras.
 2. Haga clic en Nuevo.
-3. En el campo Usar valores de, seleccione una entidad definida por el sistema en la que desea basar la dimensión financiera. 
+3. En el campo del formulario Valores del usuario, seleccione una entidad definida por el sistema en la que desea basar la dimensión financiera. 
 4. En el campo Nombre de dimensión, escriba un valor para describir la dimensión financiera.
     * El nombre puede ser diferente de la entidad definida por el sistema pero no puede contener espacios ni caracteres especiales.  
 5. Haga clic en Activar.
@@ -47,7 +47,7 @@ Esta guía de tareas muestra la adición de una dimensión financiera respaldada
 ## <a name="create-a-custom-financial-dimension"></a>Crear una dimensión financiera personalizada
 1. Cierre la página.
 2. Haga clic en Nuevo.
-3. En el campo Usar valores, seleccione <Custom dimension>.
+3. En el campo Usar valores de, seleccione Dimensión personalizada.
 4. En el campo Nombre de dimensión, escriba un valor para describir la dimensión financiera.
     * El nombre no puede contener espacios o caracteres especiales.  
     * También puede especificar una máscara de cuenta para limitar el importe y el tipo de información que puede especificar para valores de dimensión.   

@@ -18,12 +18,12 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 12db520aba59b5411dbbe6a4a4ffa88277bd946b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 6cb5b392e7f48db3a6febc09020b5b779dad5ee5
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "370465"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1513005"
 ---
 # <a name="diot-declaration-statement"></a>Informe de declaración DIOT
 

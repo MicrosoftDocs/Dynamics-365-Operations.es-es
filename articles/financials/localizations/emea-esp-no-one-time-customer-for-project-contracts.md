@@ -17,12 +17,12 @@ ms.search.region: Spain
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6b94aec0956a967c1c342607cb4758e7220dffcb
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 2f42d2f6bdc7a87b8ca81b0ab09e2e4ce6190c22
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "370405"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1537803"
 ---
 # <a name="one-time-customers"></a>Clientes plantilla
 

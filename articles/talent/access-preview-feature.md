@@ -1,12 +1,12 @@
 ---
 title: Obtener acceso a las características de vista previa de Talent
 description: Este tema describe cómo un administrador puede habilitar las características de vista previa, y enumera las características que se habilitan actualmente para la vista previa.
-author: andreabichsel
+author: tracykeya
 manager: AnnBe
-ms.date: 04/17/2018
+ms.date: 04/29/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,15 +15,15 @@ ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: anbichse
+ms.author: trkeya
 ms.search.validFrom: 2018-04-30
-ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: 060a36185641d5bb7912631b7c857c5c4331c8b7
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
+ms.openlocfilehash: 72e2a3c62c7aab0f5cf8900c540a22d91be00609
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "856333"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1519064"
 ---
 # <a name="access-preview-features-in-talent"></a>Obtener acceso a las características de vista previa de Talent
 
@@ -72,6 +72,7 @@ Puede usar la configuración **Funciones de vista previa** del centro de gestió
 
 - **Aplicación de candidato** Los candidatos internos y externos podrán presentarse directamente desde la página de trabajo en el sitio de Proyectos profesionales.
 - **Administración de la propuesta** – Los usuarios podrán crear cartas a partir de plantillas que incluyen marcadores de posición. A medida que los candidatos avanzan a la etapa de propuesta, los reclutadores y los administradores de contratación pueden usar la herramienta de oferta para preparar la propuesta formal de un candidato a través de plantillas, enviar la propuesta para la aprobación interna y, finalmente, enviar la oferta al candidato para la firma. Se agregarán muchas nuevas capacidades a la herramienta de la propuesta a medida que se avance, y la función de vista previa se actualizará con estas capacidades cuando estemos listos para lanzarlas al mercado para obtener una vista previa.
+- **[Informes analíticos](analytic-reports.md)** – Los equipos de contratación pueden ver medidas clave para un trabajo único con los Análisis del trabajo o medidas agregada a través de todos los trabajos del Centro de análisis.
 
 ### <a name="core-hr"></a>Core HR
 

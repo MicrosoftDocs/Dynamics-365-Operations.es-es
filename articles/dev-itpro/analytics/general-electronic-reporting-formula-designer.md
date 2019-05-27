@@ -3,7 +3,7 @@ title: Diseñador de fórmulas en los informes electrónicos (ER)
 description: Este tema explica cómo usar el diseñador de fórmula en Informes electrónicos (ER).
 author: NickSelin
 manager: AnnBe
-ms.date: 10/03/2018
+ms.date: 05/14/2014
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1dc584355c8992ee701169fd5d29ad7b0300a498
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: dc02d51cedc7f732601c77c0ba5b473272fbccb4
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "331285"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "1541277"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Diseñador de fórmulas en los informes electrónicos (ER)
 
@@ -439,6 +439,11 @@ IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)
 <td>FILTRAR (lista, condición)</td>
 <td>Devuelve la lista especificada después de que se haya modificado la consulta para filtrar por la condición especificada. Esta función difiere de la función <strong>DONDE</strong>, ya que la condición especificada se aplica a cualquier origen de datos de ER del tipo <strong>Registros de la tabla</strong> a nivel de la base de datos. La lista y la condición se pueden definir mediante tablas y relaciones.</td>
 <td>Si <strong>Proveedor</strong> se configura como origen de datos de ER que hace referencia a la tabla VendTable, <strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> devuelve una lista solo de proveedores que pertenece al grupo de proveedores 40. Si <strong>Proveedor</strong> se configura como origen de datos de ER que hace referencia a la tabla VendTable, y si <strong>parmVendorBankGroup</strong> que está configurado como un origen de datos de ER que devuelve un valor del tipo de datos <strong>Cadena</strong>, <strong>FILTER (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> devuelve una lista solo de cuentas de proveedores que pertenecen a un grupo bancario específico.</td>
+</tr>
+<tr>
+<td>INDEX (lista, índice)</td>
+<td>Esta función devuelve un registro que se selecciona mediante un índice numérico específico en la lista. Se produce una excepción si el índice está fuera del intervalo de los registros de la lista.</td>
+<td>Si especifica el origen de datos <strong>DS</strong> para el tipo <strong>Campo calculado</strong> y este contiene la expresión <strong>SPLIT ("A|B|C", “|”), 2)</strong>, la expresión <strong>DS.Value</strong> devuelve el valor de texto, “B”. La expresión <strong>INDEX (SPLIT ("A|B|C", “|”), 2).Value</strong> también devuelve el valor de texto ”B”.</td>
 </tr>
 </tbody>
 </table>

@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 85708c7197a71e6ad9b814e2e63d62122c8890f6
-ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
+ms.openlocfilehash: 44a2ec48f868c803c80c8df8eb809bc2254e63da
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "842731"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1505105"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Operaciones de punto de venta (PDV) en línea y sin conexión
 
@@ -70,7 +70,9 @@ Las columnas siguientes especifican dónde pueden ser invocadas las operaciones:
 | 106 | Borrar cantidad | Restablezca la cantidad en la línea seleccionada actualmente como **1**. | Sí | Sí | N.º | Sí | N.º |
 | 640 | Borrar representante de ventas en línea | Quite el grupo de ventas de la comisión (representante de ventas) de la línea seleccionada actualmente. | Sí | Sí | N.º | Sí | N.º |
 | 121 | Borrar vendedor | Esta operación no se admite. | No aplicable | No aplicable | No aplicable | No aplicable | N.º |
-| 1055 | Cerrar turno | Cierre el turno actual, imprima un informe Z y cierre la sesión del usuario del sistema. | Sí | Sí | Sí | N.º | N.º |
+| 1055 | Cerrar turno | Cierre el turno actual, imprima un informe Z y cierre la sesión del usuario del sistema. | Sí | Sí | Sí | No | No |
+| 139 | Concluir transacción | Pide confirmación al usuario para seleccionar el método de pago | Sí | Sí | No | Sí | No |
+| 620 | Crear pedido de cliente | Convierta la transacción de PDV en un pedido del cliente. | Sí | Sí | No | Sí\* | No |
 | 925 | Copiar el cheque bancario | Esta operación no se admite. | No aplicable | No aplicable | No aplicable | No aplicable | Sí |
 | 620 | Crear pedido de cliente | Convierta la transacción de PDV en un pedido del cliente. | Sí | Sí | N.º | Sí\* | N.º |
 | 621 | Crear presupuesto | Convierta la transacción de PDV en un presupuesto de ventas. | Sí | Sí | N.º | Sí\* | N.º |

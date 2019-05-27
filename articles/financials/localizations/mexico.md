@@ -16,12 +16,12 @@ ms.search.region: Mexico
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 198b192d0d25a4b39ac061cdbd50c5dae9b3309d
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 7cf41af155fb67bfa39ca072a87d84948f33b2d9
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "370469"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1537791"
 ---
 # <a name="mexico"></a>México 
 
@@ -37,7 +37,7 @@ Este tema incluye información y vínculos a recursos que pueden ayudarle a conf
 - [Id. de registro de cliente y otra información](tasks/mx-00007-customer-registration-ids-other-information.md)
 - [Informe de declaración DIOT](latam-mex-diot-declaration-statement.md)
 - [Facturación electrónica de CFDI](tasks/mx-00010-e-invoicing-cfdi.md)
-- [Facturas electrónicas ](latam-mex-CFDI-electronic-invoices.md)
+- [Facturas electrónicas](latam-mex-CFDI-electronic-invoices.md)
 - [Extractos electrónicos de cuenta contable](latam-mex-electronic-ledger-accounting-statements.md)
 - [Especificar los identificadores de registro de impuestos para las entidades jurídicas mexicanas](tasks/mx-00010-enter-tax-registration-ids-mexican-legal-entities.md)
 - [Consultar e imprimir una factura electrónica](tasks/mx-00010-inquire-print-electronic-invoice.md)
