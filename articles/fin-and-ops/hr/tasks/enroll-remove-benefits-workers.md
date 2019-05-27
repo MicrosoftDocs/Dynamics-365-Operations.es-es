@@ -17,44 +17,44 @@ ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 92da6d24f3fc4282de5673a8155b6ab6316e55aa
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "857485"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1510437"
 ---
-# <a name="enroll-and-remove-benefits-from-workers"></a><span data-ttu-id="bbea3-103">Inscribir y quitar prestaciones para trabajadores</span><span class="sxs-lookup"><span data-stu-id="bbea3-103">Enroll and remove benefits from workers</span></span>
+# <a name="enroll-and-remove-benefits-from-workers"></a><span data-ttu-id="65bf8-103">Inscribir y quitar prestaciones para trabajadores</span><span class="sxs-lookup"><span data-stu-id="65bf8-103">Enroll and remove benefits from workers</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="bbea3-104">Este procedimiento muestra cómo se puede inscribir un único trabajador en una o más prestaciones, así como varios trabajadores se pueden inscribir en una prestación.</span><span class="sxs-lookup"><span data-stu-id="bbea3-104">This procedure demonstrates how a single worker can be enrolled in one or more benefits, as well as multiple workers can be enrolled in a benefit.</span></span> <span data-ttu-id="bbea3-105">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="bbea3-105">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="65bf8-104">Este procedimiento muestra cómo se puede inscribir un único trabajador en una o más prestaciones, así como varios trabajadores se pueden inscribir en una prestación.</span><span class="sxs-lookup"><span data-stu-id="65bf8-104">This procedure demonstrates how a single worker can be enrolled in one or more benefits, as well as multiple workers can be enrolled in a benefit.</span></span> <span data-ttu-id="65bf8-105">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="65bf8-105">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="enroll-a-single-worker-in-benefits"></a><span data-ttu-id="bbea3-106">Inscripción de un trabajador en prestaciones</span><span class="sxs-lookup"><span data-stu-id="bbea3-106">Enroll a single worker in benefits</span></span>
-1. <span data-ttu-id="bbea3-107">Vaya a Recursos humanos > Trabajadores > Empleados.</span><span class="sxs-lookup"><span data-stu-id="bbea3-107">Go to Human resources > Workers > Employees</span></span>
-2. <span data-ttu-id="bbea3-108">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="bbea3-108">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="bbea3-109">Haga clic en Prestaciones.</span><span class="sxs-lookup"><span data-stu-id="bbea3-109">Click Benefits.</span></span>
-4. <span data-ttu-id="bbea3-110">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="bbea3-110">Click New.</span></span>
-5. <span data-ttu-id="bbea3-111">En el campo Prestación, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="bbea3-111">In the Benefit field, enter or select a value.</span></span>
-6. <span data-ttu-id="bbea3-112">En el campo Fecha de inicio de la cobertura, especifique una fecha y una hora.</span><span class="sxs-lookup"><span data-stu-id="bbea3-112">In the Coverage start date field, enter a date and time.</span></span>
-7. <span data-ttu-id="bbea3-113">En el campo Fecha final de la cobertura, especifique una fecha y una hora.</span><span class="sxs-lookup"><span data-stu-id="bbea3-113">In the Coverage end date field, enter a date and time.</span></span>
-8. <span data-ttu-id="bbea3-114">Expanda la sección Beneficiarios si los beneficiarios se deben agregar a la prestación.</span><span class="sxs-lookup"><span data-stu-id="bbea3-114">Expand the Beneficiaries section if beneficiaries need to be added to the benefit.</span></span> <span data-ttu-id="bbea3-115">También puede agregar dependientes de esta página en caso de ser aplicable para la prestación.</span><span class="sxs-lookup"><span data-stu-id="bbea3-115">You can also add dependents from this page if applicable to the benefit.</span></span>
-9. <span data-ttu-id="bbea3-116">También puede editar los detalles de la inscripción de un beneficio o eliminar una inscripción en esta página.</span><span class="sxs-lookup"><span data-stu-id="bbea3-116">You can also edit the details of a benefit enrollment or delete an enrollment on this page.</span></span> <span data-ttu-id="bbea3-117">Cuando termine de realizar los cambios en la inscripción de la prestación, cierre la página.</span><span class="sxs-lookup"><span data-stu-id="bbea3-117">When you have finished making changes to the benefit enrollment, close the page.</span></span>
+## <a name="enroll-a-single-worker-in-benefits"></a><span data-ttu-id="65bf8-106">Inscripción de un trabajador en prestaciones</span><span class="sxs-lookup"><span data-stu-id="65bf8-106">Enroll a single worker in benefits</span></span>
+1. <span data-ttu-id="65bf8-107">Vaya a Recursos humanos > Trabajadores > Empleados.</span><span class="sxs-lookup"><span data-stu-id="65bf8-107">Go to Human resources > Workers > Employees</span></span>
+2. <span data-ttu-id="65bf8-108">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="65bf8-108">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="65bf8-109">Haga clic en Prestaciones.</span><span class="sxs-lookup"><span data-stu-id="65bf8-109">Click Benefits.</span></span>
+4. <span data-ttu-id="65bf8-110">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="65bf8-110">Click New.</span></span>
+5. <span data-ttu-id="65bf8-111">En el campo Prestación, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="65bf8-111">In the Benefit field, enter or select a value.</span></span>
+6. <span data-ttu-id="65bf8-112">En el campo Fecha de inicio de la cobertura, especifique una fecha y una hora.</span><span class="sxs-lookup"><span data-stu-id="65bf8-112">In the Coverage start date field, enter a date and time.</span></span>
+7. <span data-ttu-id="65bf8-113">En el campo Fecha final de la cobertura, especifique una fecha y una hora.</span><span class="sxs-lookup"><span data-stu-id="65bf8-113">In the Coverage end date field, enter a date and time.</span></span>
+8. <span data-ttu-id="65bf8-114">Expanda la sección Beneficiarios si los beneficiarios se deben agregar a la prestación.</span><span class="sxs-lookup"><span data-stu-id="65bf8-114">Expand the Beneficiaries section if beneficiaries need to be added to the benefit.</span></span> <span data-ttu-id="65bf8-115">También puede agregar dependientes de esta página en caso de ser aplicable para la prestación.</span><span class="sxs-lookup"><span data-stu-id="65bf8-115">You can also add dependents from this page if applicable to the benefit.</span></span>
+9. <span data-ttu-id="65bf8-116">También puede editar los detalles de la inscripción de un beneficio o eliminar una inscripción en esta página.</span><span class="sxs-lookup"><span data-stu-id="65bf8-116">You can also edit the details of a benefit enrollment or delete an enrollment on this page.</span></span> <span data-ttu-id="65bf8-117">Cuando termine de realizar los cambios en la inscripción de la prestación, cierre la página.</span><span class="sxs-lookup"><span data-stu-id="65bf8-117">When you have finished making changes to the benefit enrollment, close the page.</span></span>
 
-## <a name="enroll-multiple-workers-in-a-benefit"></a><span data-ttu-id="bbea3-118">Inscribir varios trabajadores en una prestación</span><span class="sxs-lookup"><span data-stu-id="bbea3-118">Enroll multiple workers in a benefit</span></span>
-1. <span data-ttu-id="bbea3-119">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="bbea3-119">Close the page.</span></span>
-2. <span data-ttu-id="bbea3-120">Vaya a Recursos humanos > Trabajadores > Empleados.</span><span class="sxs-lookup"><span data-stu-id="bbea3-120">Go to Human resources > Workers > Employees</span></span>
-3. <span data-ttu-id="bbea3-121">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="bbea3-121">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="bbea3-122">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="bbea3-122">In the list, find and select the desired record.</span></span>
-5. <span data-ttu-id="bbea3-123">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="bbea3-123">In the list, find and select the desired record.</span></span>
-6. <span data-ttu-id="bbea3-124">Haga clic en Inscribirse en prestaciones.</span><span class="sxs-lookup"><span data-stu-id="bbea3-124">Click Enroll in benefits.</span></span>
-7. <span data-ttu-id="bbea3-125">En el campo Prestación, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="bbea3-125">In the Benefit field, enter or select a value.</span></span>
-8. <span data-ttu-id="bbea3-126">En el campo Fecha de inicio de la cobertura, especifique una fecha y una hora.</span><span class="sxs-lookup"><span data-stu-id="bbea3-126">In the Coverage start date field, enter a date and time.</span></span>
-9. <span data-ttu-id="bbea3-127">En el campo Fecha final de la cobertura, especifique una fecha y una hora.</span><span class="sxs-lookup"><span data-stu-id="bbea3-127">In the Coverage end date field, enter a date and time.</span></span>
-10. <span data-ttu-id="bbea3-128">Haga clic en Inscribir.</span><span class="sxs-lookup"><span data-stu-id="bbea3-128">Click Enroll.</span></span>
-11. <span data-ttu-id="bbea3-129">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="bbea3-129">Close the page.</span></span>
-12. <span data-ttu-id="bbea3-130">Vaya a Recursos humanos > Prestaciones > Inscripción > Resultados de la inscripción a prestaciones.</span><span class="sxs-lookup"><span data-stu-id="bbea3-130">Go to Human Resources > Benefits > Enrollment > Benefit enrollment results</span></span>
-13. <span data-ttu-id="bbea3-131">Busque el registro de los resultados de la prestación que busca.</span><span class="sxs-lookup"><span data-stu-id="bbea3-131">Find the benefit results record that you are looking for.</span></span>
-14. <span data-ttu-id="bbea3-132">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="bbea3-132">In the list, click the link in the selected row.</span></span>
-15. <span data-ttu-id="bbea3-133">Esta página le permite ver qué trabajadores se han inscrito en la prestación, junto con los empleados que no se han inscrito.</span><span class="sxs-lookup"><span data-stu-id="bbea3-133">This page allows you to view which employees have been enrolled in the benefit, as well as any employees who were not enrolled.</span></span>
+## <a name="enroll-multiple-workers-in-a-benefit"></a><span data-ttu-id="65bf8-118">Inscribir varios trabajadores en una prestación</span><span class="sxs-lookup"><span data-stu-id="65bf8-118">Enroll multiple workers in a benefit</span></span>
+1. <span data-ttu-id="65bf8-119">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="65bf8-119">Close the page.</span></span>
+2. <span data-ttu-id="65bf8-120">Vaya a Recursos humanos > Trabajadores > Empleados.</span><span class="sxs-lookup"><span data-stu-id="65bf8-120">Go to Human resources > Workers > Employees</span></span>
+3. <span data-ttu-id="65bf8-121">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="65bf8-121">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="65bf8-122">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="65bf8-122">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="65bf8-123">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="65bf8-123">In the list, find and select the desired record.</span></span>
+6. <span data-ttu-id="65bf8-124">Haga clic en Inscribirse en prestaciones.</span><span class="sxs-lookup"><span data-stu-id="65bf8-124">Click Enroll in benefits.</span></span>
+7. <span data-ttu-id="65bf8-125">En el campo Prestación, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="65bf8-125">In the Benefit field, enter or select a value.</span></span>
+8. <span data-ttu-id="65bf8-126">En el campo Fecha de inicio de la cobertura, especifique una fecha y una hora.</span><span class="sxs-lookup"><span data-stu-id="65bf8-126">In the Coverage start date field, enter a date and time.</span></span>
+9. <span data-ttu-id="65bf8-127">En el campo Fecha final de la cobertura, especifique una fecha y una hora.</span><span class="sxs-lookup"><span data-stu-id="65bf8-127">In the Coverage end date field, enter a date and time.</span></span>
+10. <span data-ttu-id="65bf8-128">Haga clic en Inscribir.</span><span class="sxs-lookup"><span data-stu-id="65bf8-128">Click Enroll.</span></span>
+11. <span data-ttu-id="65bf8-129">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="65bf8-129">Close the page.</span></span>
+12. <span data-ttu-id="65bf8-130">Vaya a Recursos humanos > Prestaciones > Inscripción > Resultados de la inscripción a prestaciones.</span><span class="sxs-lookup"><span data-stu-id="65bf8-130">Go to Human Resources > Benefits > Enrollment > Benefit enrollment results</span></span>
+13. <span data-ttu-id="65bf8-131">Busque el registro de los resultados de la prestación que busca.</span><span class="sxs-lookup"><span data-stu-id="65bf8-131">Find the benefit results record that you are looking for.</span></span>
+14. <span data-ttu-id="65bf8-132">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="65bf8-132">In the list, click the link in the selected row.</span></span>
+15. <span data-ttu-id="65bf8-133">Esta página le permite ver qué trabajadores se han inscrito en la prestación, junto con los empleados que no se han inscrito.</span><span class="sxs-lookup"><span data-stu-id="65bf8-133">This page allows you to view which employees have been enrolled in the benefit, as well as any employees who were not enrolled.</span></span>
 
