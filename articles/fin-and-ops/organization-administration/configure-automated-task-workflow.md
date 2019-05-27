@@ -18,11 +18,11 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 5a9f37228beedafa085987668d5c89b06c6c9d61
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "365118"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1557414"
 ---
 # <a name="configure-automated-tasks-in-a-workflow"></a>Configurar tareas automatizadas en un flujo de trabajo
 
@@ -103,7 +103,7 @@ Puede enviar notificaciones cuando se ha ejecutado o cancelado una tarea automat
     <td>
     <ol>
     <li>Tras seleccionar <strong>Usuario</strong>, haga clic en la pestaña <strong>Usuario</strong>.</li>
-    <li>La lista de <strong>Usuarios disponibles</strong> incluye a todos los usuarios de Dynamics 365 for Finance and Operations. Seleccione aquellos a los que desea enviar notificaciones y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
+    <li>La lista de <strong>Usuarios disponibles</strong> incluye a todos los usuarios de Finance and Operations. Seleccione aquellos a los que desea enviar notificaciones y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
     </ol>
     </td>
     </tr>

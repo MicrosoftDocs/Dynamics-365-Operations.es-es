@@ -20,11 +20,11 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: f5e99351d79cb5898c6d5565d3d3197a8fe860df
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "316128"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1559195"
 ---
 # <a name="install-and-configure-microsoft-dynamics-365-for-finance-and-operations-8211-warehousing"></a>Instalar y configurar Microsoft Dynamics 365 for Finance and Operations &#8211; Warehousing
 
@@ -40,7 +40,7 @@ Este tema describe cómo instalar y configurar Microsoft Dynamics 365 for Financ
 Finance and Operations - Warehousing es una aplicación disponible en Google Play Store y Windows Store. En la versión actual de Finance and Operations, esta aplicación se proporciona como componente independiente, con implementación propia en los dispositivos utilizados para las tareas de almacén. Para usar la aplicación en su entorno de Finance and Operations, deberá descargar la aplicación en cada dispositivo y configurarla para conectarse al entorno de Finance and Operations. Este tema describe cómo instalar la aplicación en los dispositivos. También se explica cómo configurar la aplicación para conectarla al entorno de Finance and Operations.
 
 ## <a name="prerequisites"></a>Requisitos previos
-La aplicación está disponible en Android para los sistemas operativos Android y Windows. Para utilizar esta aplicación, debe tener uno de los sistemas operativos admitidos siguientes instalado en los dispositivos. También debe tener una de las siguientes versiones admitidas de Finance and Operations. Use la información de la siguiente tabla para evaluar si su entorno de hardware y software está listo para admitir la instalación.
+La aplicación está disponible para los sistemas operativos Android y Windows. Para utilizar esta aplicación, debe tener uno de los sistemas operativos admitidos siguientes instalado en los dispositivos. También debe tener una de las siguientes versiones admitidas de Finance and Operations. Use la información de la siguiente tabla para evaluar si su entorno de hardware y software está listo para admitir la instalación.
 
 | Plataforma                    | Versión                                                                                                                                                                     |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

@@ -20,11 +20,11 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 59fb8938720ce1634735dd728eee3874660a4289
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "330457"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1551966"
 ---
 # <a name="demand-forecasting-setup"></a>Configuración de la previsión de la demanda
 
@@ -44,7 +44,7 @@ Para agregar una referencia de almacén (SKU) a una clave de asignación de art�
 ## <a name="intercompany-planning-groups"></a>Grupos de planificación de empresas vinculadas
 La previsión de demanda genera previsiones entre empresas. En Microsoft Dynamics 365 for Finance and Operations, se agrupa a las empresas que se planifican conjuntamente en un grupo de planificación de empresas vinculadas. Para especificar, según la empresa, las claves de asignación de artículos que se deben tener en cuenta para la previsión de demanda, asocie una clave de asignación de artículos con el miembro de planificación de empresas vinculadas del grupo yendo a **Planificación maestra** &gt; **Configuración** &gt; **Grupos de planificación de empresas vinculadas**. 
 
-De forma predeterminada, si no se ha asignado ninguna clave de asignación de artículos a los miembros del grupo de planificación de empresas vinculadas, se calcula una previsión de la demanda para todos los artículos asignados a todas las claves de asignación de artículos de todas las empresas de Dynamics 365 for Finance and Operations. Las opciones de filtrado adicionales para las empresas y las claves de asignación de artículos están disponibles en la página **Generar la previsión estadística de línea base**. 
+De forma predeterminada, si no se ha asignado ninguna clave de asignación de artículos a los miembros del grupo de planificación de empresas vinculadas, se calcula una previsión de la demanda para todos los artículos asignados a todas las claves de asignación de artículos de todas las empresas de Finance and Operations. Las opciones de filtrado adicionales para las empresas y las claves de asignación de artículos están disponibles en la página **Generar la previsión estadística de línea base**. 
 
 Revisión del número de artículos que están previstos. Los artículos innecesarios podrían incrementar los costes cuando se usa el aprendizaje automático de Microsoft Azure.
 
@@ -55,7 +55,7 @@ La previsión de demanda genera la previsión en cantidades. Por lo tanto, la un
 
 La previsión de demanda se puede usar para hacer una previsión de la demanda dependiente y la demanda independiente. Por ejemplo, si solo se activa la casilla **Pedido de ventas** y si todos los artículos que se consideran para la previsión de demanda son los artículos vendidos, el sistema calculará demanda independiente. Sin embargo, se pueden agregas subcomponentes importantes a las claves de asignación de artículos e incluirlos en la previsión de demanda. En este caso, si se activa la casilla **Línea de producción**, se calcula una previsión dependiente. 
 
-Existen dos métodos para crear una previsión de línea base en Dynamics 365 for Finance and Operations. Puede usar modelos de previsión por encima de datos históricos, o simplemente copiar sobre los datos históricos en la previsión. El campo **Estrategia de la generación de previsión** permite seleccionar entre estos dos métodos. Para usar los modelos de previsión, seleccione **Aprendizaje automático de Azure**. 
+Existen dos métodos para crear una previsión de línea base en Finance and Operations. Puede usar modelos de previsión por encima de datos históricos, o simplemente copiar sobre los datos históricos en la previsión. El campo **Estrategia de la generación de previsión** permite seleccionar entre estos dos métodos. Para usar los modelos de previsión, seleccione **Aprendizaje automático de Azure**. 
 
 Si hace clic en **Dimensiones de previsión** en el panel izquierdo de la página **Parámetros de previsión de demanda**, también podrá seleccionar el conjunto de dimensiones de previsión que desea usar cuando se genera la previsión de la demanda. Una dimensión de la previsión indica el nivel de detalle para el que se define la previsión. Empresa, sitio y la clave de asignación de artículos son dimensiones obligatorias de previsión, pero también puede generar previsiones en el almacén, estado de inventario, grupo de clientes, cuenta de cliente, país o región, comunidad autónoma y artículo además de todos los niveles de la dimensión de artículo. 
 
@@ -63,7 +63,7 @@ En cualquier momento puede agregar dimensiones de previsión a la lista de dimen
 
 No todos los artículos se comportan de manera semejante desde una perspectiva de previsión de demanda. Los artículos similares se pueden agrupar en una clave de asignación de artículos, y los parámetros como los tipos de transacción y la configuración del método de previsión se pueden definir por clave de asignación de artículos. Haga clic en **Claves de asignación de artículos** en el panel izquierdo de la página **Parámetros de previsión de demanda**. 
 
-Para generar la previsión, Dynamics 365 for Finance and Operations usa un servicio web de Aprendizaje automático. Para conectarse con el servicio, debe proporcionar a Dynamics 365 for Finance and Operations la siguiente información si inicia sesión en Estudio de aprendizaje automático de Microsoft Azure.
+Para generar la previsión, Finance and Operations usa un servicio web de Aprendizaje automático. Para conectarse con el servicio, debe proporcionar a Finance and Operations la siguiente información si inicia sesión en Estudio de aprendizaje automático de Microsoft Azure.
 
 -   Configurar la clave de la interfaz de programación de aplicaciones (API) de servicio
 -   URL del extremo del servicio web
