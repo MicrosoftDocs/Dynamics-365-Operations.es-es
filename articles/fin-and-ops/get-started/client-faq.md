@@ -18,11 +18,11 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 74f85f7a1c390d1f21d0423a794ff16c7250d9fa
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "316726"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1546856"
 ---
 # <a name="finance-and-operations-client-faq"></a>Preguntas frecuentes para clientes de Finance and Operations
 
@@ -30,7 +30,7 @@ ms.locfileid: "316726"
 
 Este artículo proporciona respuestas a preguntas frecuentes acerca del cliente de Microsoft Dynamics 365 for Finance and Operations.
 
-## <a name="why-arent-symbols-loaded-when-i-use-finance-and-operations"></a>¿Por qué no se cargan los símbolos cuando uso Dynamics 365 for Finance and Operations?
+## <a name="why-arent-symbols-loaded-when-i-use-finance-and-operations"></a>¿Por qué no se cargan los símbolos cuando uso Finance and Operations?
 
 Las opciones de seguridad del explorador pueden impedir que los símbolos se carguen correctamente. Para resolver este problema, pruebe los siguientes pasos:
 
