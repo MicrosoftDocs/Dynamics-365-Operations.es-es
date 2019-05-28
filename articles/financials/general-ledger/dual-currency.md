@@ -3,7 +3,7 @@ title: Divisa dual
 description: Este tema proporciona información sobre la divisa dual, donde la divisa de notificación se usa como segunda divisa de contabilidad para Microsoft Dynamics 365 for Finance and Operations.
 author: kweekley
 manager: AnnBe
-ms.date: 10/10/2018
+ms.date: 05/06/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8de178ec80f7408d657e746b633703f386c8e02d
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 3665ec1cb15fc63e5707a4721699872fe81424a0
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "330319"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1532257"
 ---
 # <a name="dual-currency"></a>Divisa dual
 
@@ -61,6 +61,9 @@ Para varios informes y consultas, también se añadió lógica para suprimir los
 ## <a name="financial-journals"></a>Diarios financieros
 
 Los diarios financieros, como el diario y el diario de facturas de proveedor, se han actualizado para que incluyan información adicional sobre la divisa de notificación. Ahora los totales para el asiento y el diario se muestran en la divisa de notificación. Además, la información acerca del tipo de cambio de la divisa de notificación aparece ahora en la pestaña **General** de líneas de diario. Por lo tanto, puede anular el tipo de cambio de la divisa de notificación al entrar transacciones.
+
+## <a name="vendor-invoices-sales-orders-and-sales-agreements"></a>Facturas de proveedor, pedidos de ventas y acuerdos de venta
+Se han actualizado las facturas de proveedor, los pedidos de ventas, y los acuerdos de venta para incluir un tipo de cambio fijo para la divisa de notificación. Un tipo de cambio fijo se puede definir para la divisa de contabilidad y la divisa de notificación cuando la divisa de la transacción es diferente. Cuando la divisa de contabilidad y la divisa de notificación coinciden, mantendrán el tipo de cambio fijo mediante la sincronización la tarifa fija de la divisa de contabilidad como la tarifa fija de la divisa de notificación. El tipo de cambio fijo de la divisa de notificación no se puede cambiar para esta configuración. Cuando la divisa de contabilidad y la divisa de notificación difieren, se puede definir un tipo de cambio fijo para la divisa de contabilidad y la divisa de notificación durante la introducción de la transacción. Si la divisa de notificación no se ha definido en la contabilidad, el campo **Tipo de cambio fijo de la divisa de notificación** no está habilitado y no se calcula ningún importe de la divisa de notificación.
 
 ## <a name="module-changes"></a>Cambios en módulos
 

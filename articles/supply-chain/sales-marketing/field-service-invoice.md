@@ -20,11 +20,11 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.openlocfilehash: 55301ba39dd28fbae5b6c21b1da3c3d9cf6afd8a
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "333263"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1560175"
 ---
 # <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-finance-and-operations"></a>Sincronizar facturas de acuerdos en Field Service con facturas de servicios en Finance and Operations
 

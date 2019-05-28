@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7201397cd839048465ee0cd8e97c267ab8cbfeb7
-ms.sourcegitcommit: 073257c2ec810e3599c1aad5a493bc9f16ffc30d
+ms.openlocfilehash: 7afe26b535ca2578d2db17f676c3cae4bafc355f
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "992892"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1527680"
 ---
 # <a name="removed-or-deprecated-features"></a>Características quitadas o en desuso
 
@@ -66,26 +66,6 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 | **Áreas de producto afectadas**         | Cliente web |
 | **Opción de implementación**              | Todas |
 | **Estado**                         | Desusado: a partir de abril de 2020, la experiencia mejorada "es uno de" será el comportamiento predeterminado, sin un mecanismo para volver al antiguo comportamiento. |
-
-### <a name="deriving-from-internal-classes-is-deprecated"></a>La derivación de clases internas se deja de utilizar
-
-|   |  |
-|------------|--------------------|
-| **Motivo de la depreciación/eliminación** | En las versiones anteriores a la Platform update 25, era posible crear una clase o tabla derivada de una clase o una tabla interna que está definida en otro paquete/módulo. No es una práctica segura de codificación. A partir de la Platform update 25, el compilador mostrará una advertencia. |
-| **¿Reemplazado por otra característica?**   | La advertencia del compilador se reemplazará por un error en la Platform update 26. Este cambio es compatible con versiones anteriores en el tiempo de ejecución, lo que significa que si ejecuta la Platform update 25 o posterior, esto se puede implementar en cualquier espacio aislado o entorno de producción sin la necesidad de modificar código personalizado. Este cambio afecta únicamente al desarrollo y el tiempo de compilación.|
-| **Áreas de producto afectadas**         | Herramientas de desarrollo de Visual Studio |
-| **Opción de implementación**              | Todas |
-| **Estado**                         | En desuso: la advertencia se convertirá en un error de compilación en la Platform update 26. |
-
-### <a name="overriding-internal-methods-is-deprecated"></a>La anulación de métodos internos se deja de utilizar
-
-|   |  |
-|------------|--------------------|
-| **Motivo de la depreciación/eliminación** | Antes de la Platform update 25, era posible anular un método interno en una clase derivada que está definida en otro paquete/módulo. No es una práctica segura de codificación. A partir de la Platform update 25, el compilador mostrará una advertencia. |
-| **¿Reemplazado por otra característica?**   | Esta advertencia del compilador se reemplazará por un error de compilación en la Platform update 26. Este cambio es compatible con versiones anteriores en el tiempo de ejecución, lo que significa que si ejecuta la Platform update 25 o posterior, esto se puede implementar en cualquier espacio aislado o entorno de producción sin la necesidad de modificar código personalizado. Este cambio afecta únicamente al desarrollo y el tiempo de compilación. |
-| **Áreas de producto afectadas**         | Herramientas de desarrollo de Visual Studio |
-| **Opción de implementación**              | Todas |
-| **Estado**                         | En desuso: la advertencia se convertirá en un error de compilación en la Platform update 26. |
 
 ### <a name="parameter-to-enable-sales-orders-with-multiple-project-contract-funding-sources"></a>Parámetro para habilitar los pedidos de ventas con varias fuentes de financiación del contrato de proyecto
 La compatibilidad para crear los pedidos de ventas basados en proyectos donde el contrato de proyecto tiene varias fuentes de financiación se habilita con la configuración **Parámetros de la gestión de proyectos** **Permitir pedidos de ventas del proyecto con varias fuentes de financiación**. De forma predeterminada, este parámetro no está habilitado. 

@@ -3,7 +3,7 @@ title: Sincronizar la información de nivel de inventario desde Finance and Oper
 description: En este tema se describe las plantillas y las tareas subyacentes que se usan para sincronizar información de nivel de inventario de Microsoft Dynamics 365 for Finance and Operations a Microsoft Dynamics 365 for Field Service.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 03/13/2019
+ms.date: 05/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 6b2bdf1ca6f6ae43cd85c8a1353ee8305052761d
-ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
+ms.openlocfilehash: c7dce4427810b93e0ee4f1a27881c2b1b04fb125
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "842565"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1535707"
 ---
 # <a name="synchronize-inventory-level-information-from-finance-and-operations-to-field-service"></a>Sincronizar información de nivel de inventario de Finance and Operations a Field Service 
 
@@ -75,6 +75,14 @@ La entidad del **inventario de productos externos** solo se usa para back end en
 
 ## <a name="prerequisites-and-mapping-setup"></a>Condiciones previas y configuración de asignación
 
+### <a name="data-integration"></a>Integración de datos
+Para que funcione el proyecto, debe asegurarse de que la clave de Integración esté actualizada para msdynce_externalproductinventories.
+1.  Vaya a **Integración de datos > Conjuntos de conexión**.
+2.  Seleccione el Conjunto de conexión utilizado.
+3.  En la pestaña **Clave de integración**, asegúrese de que las claves siguientes se agreguen a msdynce_externalproductinventories:
+      - msdynce_productnumber (número de producto)
+      - msdynce_warehouseid (identificador de almacén)
+      
 ### <a name="data-integration-project"></a>Proyecto de integración de datos
 Puede aplicar filtros con la consulta y un filtrado avanzados para que sólo determinados productos y almacenes envíen información del nivel de inventario desde Finance and Operations hasta Field Service.
 

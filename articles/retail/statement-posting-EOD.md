@@ -3,7 +3,7 @@ title: Mejoras en la funcionalidad del registro de extractos
 description: En este tema se describen mejoras que se han realizado en la función de registro de extractos.
 author: josaw1
 manager: AnnBe
-ms.date: 04/26/2016
+ms.date: 05/14/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.industry: retail
 ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 3e8c5466a68fa87326c46a4e36bf7399be1279c6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 02880edda6c34c24f8dad8cc8cbeafe215f46896
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "321441"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "1541300"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Mejoras en la funcionalidad del registro de extractos
 
@@ -43,7 +43,7 @@ Finance and Operations incluye las siguientes validaciones relacionadas con esta
 - Se deben usar las mismas claves de configuración para todas las operaciones que se realizan en un extracto determinado durante su ciclo de vida (Crear, Calcular, Borrar, Registrar, etc.). Por ejemplo, no puede crear y calcular un extracto mientras está activada la clave de configuración **Extracto comercial (herencia)** y, a continuación intentar registrar el mismo extracto con la clave de configuración **Extracto comercial** activada.
 
 > [!NOTE]
-> Recomendamos que utilice la clave de configuración **Extractos comerciales** para la función mejorada de registro de extractos, a menos que tenga motivos de peso para utilizar la clave de configuración **Extractos comerciales (herencia)** en su lugar. Microsoft seguirá invirtiendo en la nueva función mejorada de registro de extractos, y es importante que empiece a utilizarla lo antes posible para beneficiarse de ella. La función de registro de extractos heredada quedará obsoleta en una versión futura.
+> Recomendamos que utilice la clave de configuración **Extractos comerciales** para la función mejorada de registro de extractos, a menos que tenga motivos de peso para utilizar la clave de configuración **Extractos comerciales (herencia)** en su lugar. Microsoft seguirá invirtiendo en la nueva función mejorada de registro de extractos, y es importante que empiece a utilizarla lo antes posible para beneficiarse de ella. La función de registro de extractos heredada quedará obsoleta a partir de la versión 8.0.
 
 ## <a name="setup"></a>Configuración
 
@@ -56,11 +56,15 @@ Como parte de las mejoras de la función de registro de extractos, se han inclui
 
 - **Deshabilitar recuento obligatorio**: si esta opción está establecida en **Sí**, el proceso de registro de un extracto continua, incluso si la diferencia entre el importe contado y el importe de transacción en el extracto está fuera del umbral definido en la ficha desplegable **Extracto** para tiendas.
 
-Además, se ha introducido el campo **Número máximo de extractos registrados en paralelo** en la ficha desplegable **Procesamiento por lotes** . Este campo define el número de tareas por lotes que se deben ejecutar al mismo tiempo. Actualmente hay que establecer manualmente el valor de este campo.
+Además, los siguientes parámetros se introducen en la ficha desplegable **Procesamiento por lotes** en la pestaña **Registro** de la página **Parámetros de ventas** : 
 
-Asimismo, con el nuevo proceso de registro, es necesario definir un **Producto de tarjeta regalo** en la ficha desplegable **Tarjeta regalo** de la pestaña **Registrar** de la página **Parámetros comerciales**. Esto ocurre incluso si la organización no utiliza tarjetas regalo.
+- **Número máximo de envío de extractos paralelos** - Este campo define el número de tareas por lotes que se utilizan para enviar varios extractos. 
+- **Subprocesos máximos para el procesamiento del pedido por extracto** - Este campo representa el número máximo de subprocesos usados por el trabajo por lotes del registro de extractos para crear y facturar los pedidos de ventas para un único extracto. El número total de subprocesos que se utilizan en el proceso de registro del extracto se calculará en función del valor de este parámetro multiplicado por el valor del parámetro **Número máximo de registros paralelos del extracto** . Establecer el valor del parámetro demasiado alto puede tener un impacto negativo en el rendimiento del proceso de registro del extracto.
+- **Líneas de transacción máximas incluidas en la agregación** - Este campo define el número de líneas de transacción que se incluyen en una única transacción agregada antes de que se cree uno nueva. Las transacciones agregadas se crean en función de diversos criterios de agregación como cliente, fecha de negocio o dimensiones financieras. Es importante tener en cuenta que las líneas de una sola transacción al por menor no se dividirán entre diversas transacciones agregadas. Esto significa que hay la posibilidad de que el número de líneas en una transacción agregada sean ligeramente mayores o menores basadas en factores como número de productos únicos.
+- **Número máximo de subprocesos para validar transacciones de la tienda** - Este campo define el número de subprocesos que se utilizan para validar transacciones comerciales. Validar transacciones comerciales es un paso necesario que debe aparecer antes de que las transacciones se pueden añadir a los extractos. También es necesario definir un **Producto de tarjeta regalo** en la ficha desplegable **Tarjeta regalo** de la pestaña **Registrar** de la página **Parámetros comerciales**. Esto necesita definirse incluso si la organización no utiliza tarjetas regalo.
 
-Tenga en cuenta que todos los valores y parámetros asociados a los registros de extracto, y que se definen en las tiendas y en la página **Parámetros comerciales**, son aplicables a la función mejorada del registro de extractos.
+> [!NOTE]
+> Todos los valores y parámetros asociados a los registros de extracto y que se definen en las tiendas y en la página **Parámetros comerciales**, son aplicables a la función mejorada del registro de extractos.
 
 ## <a name="processing"></a>En procesamiento
 

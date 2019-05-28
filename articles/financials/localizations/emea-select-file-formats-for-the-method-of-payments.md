@@ -17,12 +17,12 @@ ms.search.region: Belgium, France, Germany, Norway, Spain, Sweden, Switzerland
 ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 350bea3e4a698e5e7c71fe4fcbb7e7386939511e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 21414624e1b0fe74a9a1c390f9c118892a480779
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "370462"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1537796"
 ---
 # <a name="file-formats-for-methods-of-payment"></a>Formatos de archivo para métodos de pago
 

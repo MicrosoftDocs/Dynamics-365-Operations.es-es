@@ -16,11 +16,11 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 137fb8cae0766bed16b6b32d99e1d2c6c9f7b606
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "321740"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1545471"
 ---
 # <a name="europe"></a>Europa 
 
@@ -69,7 +69,7 @@ Este tema incluye información y vínculos a recursos que pueden ayudarle a conf
 - [Búsqueda de parte mediante id. de IVA](tasks/eur-00015-party-search-vat-id.md)
 - [Herramienta de generación de referencias de pago (Europa del Este)](tasks/ee-00015-payment-reference-generation-tool.md)
 - [Informe de resguardo de pago](emea-eur-payment-slip-report-giro.md)
-- [Caja en metálico](emea-petty-cash.md)
+- [Caja chica](emea-petty-cash.md)
 - [Registrar la adquisición previa de un activo fijo](emea-pre-acquisition-acquisition-fixed-asset.md)
 - [Códigos postales](emea-import-create-postal-codes-manually.md)
 - [Recibir un certificado de entrada de la UE](tasks/eur-00012-receive-eu-entry-certificate.md)
@@ -90,7 +90,7 @@ Este tema incluye información y vínculos a recursos que pueden ayudarle a conf
   - [Tipos de cambio de IVA](emea-vat-exchange-rate.md)
   - [Informe de conciliación del IVA](tasks/eur-00018-vat-reconciliation-report.md)
   - [Transacciones de registro del IVA para Europa del Este](emea-vat-register-transactions.md)
-  - [Informes de IVA](emea-vat-reporting.md)
+  - [Informe de IVA](emea-vat-reporting.md)
   - [Crear y enviar un informe de IVA](tasks/create-submit-vat-report.md)
   - [Ver transacciones sobre la liquidación](emea-transactions-settlement-form.md)
 

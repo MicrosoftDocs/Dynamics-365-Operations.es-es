@@ -17,12 +17,12 @@ ms.search.region: Spain
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f9b2d8c851baf4625192bcd40ea5bb55fad830ef
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 0de615092d2494e0712674e22a605c379edc89ad
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "370485"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1537808"
 ---
 # <a name="spanish-promissory-note-options"></a>Opciones de pagaré español
 

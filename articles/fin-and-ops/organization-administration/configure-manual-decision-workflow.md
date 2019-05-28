@@ -18,11 +18,11 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: d09e99a5bf99593a8fa7682f9d4f29eaa4e7c836
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "341405"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1569368"
 ---
 # <a name="configure-manual-decisions-in-a-workflow"></a>Configurar decisiones manuales en un flujo de trabajo
 
@@ -167,7 +167,7 @@ Puede enviar notificaciones cuando se haya tomado o delegado una decisión o cua
     <td>
     <ol>
     <li>Tras seleccionar <strong>Usuario</strong>, haga clic en la pestaña <strong>Usuario</strong>.</li>
-    <li>La lista de <strong>Usuarios disponibles</strong> incluye a todos los usuarios de Dynamics 365 for Finance and Operations. Seleccione aquellos a los que desea enviar notificaciones y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
+    <li>La lista de <strong>Usuarios disponibles</strong> incluye a todos los usuarios de Finance and Operations. Seleccione aquellos a los que desea enviar notificaciones y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
     </ol>
     </td>
     </tr>
@@ -237,7 +237,7 @@ Siga estos pasos para especificar a quién se debe asignar una decisión manual.
     <td>
     <ol>
     <li>Tras seleccionar <strong>Usuario</strong>, haga clic en la pestaña <strong>Usuario</strong>.</li>
-    <li>La lista de <strong>Usuarios disponibles</strong> incluye a todos los usuarios de Dynamics 365 for Finance and Operations. Seleccione aquellos a los que desea asignar la decisión y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
+    <li>La lista de <strong>Usuarios disponibles</strong> incluye a todos los usuarios de Finance and Operations. Seleccione aquellos a los que desea asignar la decisión y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
     </ol>
     </td>
     </tr>
@@ -335,7 +335,7 @@ Si un usuario no toma la decisión en el tiempo asignado, la decisión se consid
     <td>
     <ol>
     <li>Tras seleccionar <strong>Usuario</strong>, haga clic en la pestaña <strong>Usuario</strong>.</li>
-    <li>La lista de <strong>Usuarios disponibles</strong> incluye a todos los usuarios de Dynamics 365 for Finance and Operations. Seleccione aquellos a los que desea remitir la decisión para una instancia superior y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
+    <li>La lista de <strong>Usuarios disponibles</strong> incluye a todos los usuarios de Finance and Operations. Seleccione aquellos a los que desea remitir la decisión para una instancia superior y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
     </ol>
     </td>
     </tr>

@@ -20,11 +20,11 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 301db69fce18c2ed32e201e7418e628ac57db543
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "335241"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1571849"
 ---
 # <a name="gantt-chart-for-job-scheduling"></a>Gráfico de Gantt para la programación de trabajos
 

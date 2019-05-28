@@ -19,11 +19,11 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 673b01648127fe1d19fb3c75c4d6812c4f22c761
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "317738"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1561984"
 ---
 # <a name="connect-the-help-system"></a>Conectar el sistema de ayuda
 
@@ -33,7 +33,7 @@ Este tema describe los componentes del sistema de ayuda de Microsoft Dynamics 36
 
 ## <a name="help-architecture"></a>Arquitectura de la Ayuda
 
-En la ilustración siguiente se muestran las partes del sistema de Ayuda de Microsoft Dynamics 365 for Finance and Operations. El sistema de Ayuda del producto extrae artículos del sitio de Dynamics 365 for Finance and Operations en https://docs.microsoft.com, además de guías de tareas guardadas en el Modelador de procesos empresariales de Microsoft Dynamics Lifecycle Services (LCS).
+En la ilustración siguiente se muestran las partes del sistema de Ayuda de Finance and Operations. El sistema de Ayuda del producto extrae artículos del sitio de Finance and Operations en https://docs.microsoft.com, además de guías de tareas guardadas en el Modelador de procesos empresariales de Lifecycle Services (LCS).
 
 > [!NOTE]
 > Las características que aparecen en el diagrama con un asterisco (\*) están planificadas, pero aún no se encuentran disponibles.
@@ -72,7 +72,7 @@ Una vez complete estos pasos, puede abrir el panel de **Ayuda** y hacer clic en 
 Las guías de tareas traducidas se incluyeron por primera vez en la biblioteca unificada APQC de mayo de 2016 y en la biblioteca de introducción. En Finance and Operations, para ver la ayuda de la guía de tareas localizada, asegúrese de que está conectado a la biblioteca de mayo. El idioma en el que aparece una guía de tareas se controla para cada usuario mediante la configuración de idioma en **Opciones** &gt; **Preferencias**.
 
 > [!NOTE]
-> Aunque se hayan traducido muchas guías de tareas, actualmente el cliente de Dynamics 365 for Finance and Operations no muestra los nombres traducidos de las guías de tareas. Además, en la biblioteca de mayo de solo están disponibles en este momento las guías de tareas que se publicaron en febrero de 2016. Publicaremos una biblioteca actualizada con traducciones adicionales.
+> Aunque se hayan traducido muchas guías de tareas, actualmente el cliente de Finance and Operations no muestra los nombres traducidos de las guías de tareas. Además, en la biblioteca de mayo de solo están disponibles en este momento las guías de tareas que se publicaron en febrero de 2016. Publicaremos una biblioteca actualizada con traducciones adicionales.
 >
 > - Si se ha traducido una guía de tareas, al abrir esa guía de tareas, todo el texto de la guía de tareas aparecerá en el idioma seleccionado.
 > - Si se ha traducido aún una guía de tareas, al abrirla, solo parte del texto (el texto de los controles) aparecerá en el idioma seleccionado.

@@ -16,12 +16,12 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 925bfaf3bcc28155c9b542abb28fb9a9211f0201
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 55c3a8ce328643811b2a2eecf7cf853b7c020d2c
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "370457"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1512982"
 ---
 # <a name="mx-00010-inquire-and-print-an-electronic-invoice"></a>MX-00010 Consultar e imprimir una factura electrónica
 

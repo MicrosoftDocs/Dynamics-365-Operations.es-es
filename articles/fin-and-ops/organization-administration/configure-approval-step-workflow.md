@@ -18,11 +18,11 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 8f52b6ffed7c1edb97c7a673cefbc8bf486ba831
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "368062"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1570772"
 ---
 # <a name="configure-approval-steps-in-a-workflow"></a>Configurar los pasos de aprobación en un flujo de trabajo
 
@@ -138,7 +138,7 @@ Siga estos pasos para especificar a quién se debe asignar el paso de aprobació
     <td>
     <ol>
     <li>Tras seleccionar <strong>Usuario</strong>, haga clic en la pestaña <strong>Usuario</strong>.</li>
-    <li>La lista de <strong>Usuarios disponibles</strong> incluye a todos los usuarios de Dynamics 365 for Finance and Operations. Seleccione aquellos a los que desea asignar el paso y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
+    <li>La lista de <strong>Usuarios disponibles</strong> incluye a todos los usuarios de Finance and Operations. Seleccione aquellos a los que desea asignar el paso y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
     </ol>
     </td>
     </tr>
@@ -260,7 +260,7 @@ Si un usuario no realiza ninguna acción en un documento en el tiempo asignado, 
     <td>
     <ol>
     <li>Tras seleccionar <strong>Usuario</strong>, haga clic en la pestaña <strong>Usuario</strong>.</li>
-    <li>La lista de <strong>Usuarios disponibles</strong> incluye a todos los usuarios de Dynamics 365 for Finance and Operations. Seleccione aquellos a los que desea remitir el documento para una instancia superior y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
+    <li>La lista de <strong>Usuarios disponibles</strong> incluye a todos los usuarios de Finance and Operations. Seleccione aquellos a los que desea remitir el documento para una instancia superior y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
     </ol>
     </td>
     </tr>

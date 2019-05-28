@@ -1,27 +1,27 @@
 ---
 title: Definir directivas de gastos
 description: Se pueden definir políticas de gastos que deben cumplir sus trabajadores al especificar y enviar informes de gastos y pedidos de viaje en Microsoft Dynamics 365 for Finance and Operations.
-author: saraschi2
+author: ryansandness
 manager: AnnBe
-ms.date: 02/23/2018
+ms.date: 04/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicyListPage, TrvPolicyRule
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: saraschi
+ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 04eaff110fea021ddee32be650be540894eb703b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 9f0ff56f0ff106bc168b6a27612e08743a539a07
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "342440"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1514448"
 ---
 # <a name="expense-policies"></a>Directivas de gastos
 
@@ -42,9 +42,13 @@ Puede definir tres tipos de directivas:
 
 - Error: requiere que el trabajador revise el gasto para cumplir con la directiva antes de enviar el informe de gastos o el pedido de viaje.       
  
-  - Justificación: requiere que el trabajador o un director especifique una justificación para exceder el importe de la directiva antes de enviar el informe de gastos o el pedido de viaje.        
- 
-  También puede configurar un intervalo de fechas para el que estarán vigentes las directivas de gastos. Por ejemplo, las tarifas aéreas entre Dinamarca      
-  y Nueva York pueden resultar caras durante la época de vacaciones. Puede definir una regla de gastos que restrinja el      
-  coste de los vuelos a Nueva York a un límite de 5000 DKK y especificar que esta regla estará en vigor del 15 de marzo      
-  al 15 de septiembre.
+ - Justificación: requiere que el trabajador o un director especifique una justificación para exceder el importe de la directiva antes de enviar el informe de gastos o el pedido de viaje.        
+
+# <a name="policy-tips"></a>Consejos de directiva
+Aquí hay algunas sugerencias que pueden ayudarle cuando cree nuevas directivas para la gestión de gastos. 
+* Las directivas son entran en vigor por fecha y no surtirán efecto si la directiva se crea con una fecha posterior a la fecha que el gasto produjo. Por ejemplo, si crea una nueva directiva hoy para aplicar un gasto máximo de comida de 50 €, ningún gasto existente especificado ayer no será comprobado con esta directiva.
+* Al crear una directiva para una categoría de gastos que se pueda detallar, considere agregar una condición para el tipo de línea de gastos. Algunas directivas como requerir un recibo puede que no tengan sentido para las líneas detalladas y se deben aplicar únicamente a la línea de encabezado o línea no detallada. 
+
+# <a name="when-to-evaluate-policies"></a>Cuándo evaluar directivas
+
+En parámetros de gestión de gastos, hay una opción para evaluar cualquier directiva de gestión de gastos cuando se guarda una línea o cuando se envía un informe de gastos. Si elige evaluar cuando se guarda una línea, esto garantiza que los usuarios tengan visibilidad anterior en lo que necesitan hacer para completar su informe de gastos de una vez. Si no, se puede retrasar la evaluación de la directiva y ahorrar tiempo si hace que la validación aparezca al final, durante el envío al flujo de trabajo.

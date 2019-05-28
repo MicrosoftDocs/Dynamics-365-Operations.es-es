@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 23bf579c1a4a315d0c12f848a71f89fc297c8625
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 17697677e0264c98088d5803e867e78ff3fdb5de
+ms.sourcegitcommit: 86d48d077589470bd1ea23b9c6fe01835088b6ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "350743"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "1538965"
 ---
 # <a name="finance-and-operations-help-system"></a>Sistema de ayuda de Finance and Operations
 
@@ -58,12 +58,12 @@ El sitio docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations]
 
 - **Acceso al contenido más actualizado**: el sitio nos ofrece una manera más rápida y flexible de crear, entregar y actualizar documentación del producto. Por lo tanto, ayuda a garantizar que puede acceder a la información técnica más reciente.
 - **Contenido escrito por expertos**: el sitio proporciona un conjunto enriquecido de documentación de producto que se puede mejorar por los miembros de la comunidad tanto dentro como fuera de Microsoft.
-- **Acceso a diferentes tipos de contenido**: el sitio proporciona acceso rápido a diferentes tipos de contenido sobre Dynamics 365 for Finance and Operations como guías de tareas, vídeos y temas.
+- **Acceso a diferentes tipos de contenido**: el sitio proporciona acceso rápido a diferentes tipos de contenido sobre Finance and Operations como guías de tareas, vídeos y temas.
 - **Contenido que admite sus procesos empresariales**: el sitio incluye contenido centrado en procesos empresariales que aprovecha el Modelador de procesos empresariales (BPM) de Microsoft Dynamics Lifecycle Services (LCS).
 
 ### <a name="searching-on-docsmicrosoftcom"></a>Cómo buscar en docs.microsoft.com
 
-Recibimos muchas preguntas sobre cómo realizar búsquedas en nuestro contenido. En nuestro sitio, si empieza desde una página sobre Dynamics 365 for Finance and Operations, la búsqueda se limitará a contenido sobre Dynamics 365 for Finance and Operations. Para quitar esta restricción de ámbito, haga clic en la X situada junto a Unified Operations en el cuadro de búsqueda.
+Recibimos muchas preguntas sobre cómo realizar búsquedas en nuestro contenido. En nuestro sitio, si empieza desde una página sobre Finance and Operations, la búsqueda se limitará a contenido sobre Finance and Operations. Para quitar esta restricción de ámbito, haga clic en la X situada junto a Unified Operations en el cuadro de búsqueda.
 
 ![Buscar pedidos](./media/search-scope-2.png)
 
@@ -90,8 +90,6 @@ Nos encantan los comentarios de los clientes. Puede comentar o sugerir cambios e
 Si tiene opiniones o preguntas sobre un tema, déjenos un comentario en la parte inferior de la página.
 
 1. Haga clic en **Comentarios** para acceder a los comentarios de la parte inferior de la página y, a continuación, haga clic en **Comentarios sobre el producto** o **Iniciar sesión para proporcionar comentarios sobre la documentación**.
-
-    ![Realimentación](./media/comments.png)
 
 2. Empiece a escribir sus comentarios y, continuación, haga clic en **Enviar comentarios**.
 

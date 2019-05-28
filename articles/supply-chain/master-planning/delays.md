@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c26fedf15118a304469604527c33a25871356be
-ms.sourcegitcommit: 8eac5eee94bb32143df44c82a2dfdbe903967af8
+ms.openlocfilehash: c1a8c738fffda76f2a8492c20e2c67a154c68559
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "878319"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1522298"
 ---
 # <a name="delays"></a>Retrasos
 
@@ -42,7 +42,8 @@ Puede configurar cómo calcular los retrasos para un grupo de cobertura. Más ad
 
 En la página **Parámetros de planificación maestra** puede establecer el momento de inicio para el cálculo de retrasos. Si se satisface un pedido después de este momento, entonces se añade un retraso de un día a la fecha de retraso del pedido. 
 
-> [!NOTA} en versiones anteriores, los retrasos calculados se conocían como *mensajes de futuros*, la fecha retrasada como *fecha de futuros* y las transacciones retrasadas como *transacciones establecidas en una fecha futura*.
+> [!NOTE]
+> En versiones anteriores, los retrasos calculados se conocían como *mensajes de futuros*, la fecha retrasada como *fecha de futuros* y las transacciones retrasadas como *transacciones establecidas en una fecha futura*.
 
 ## <a name="desired-date"></a>Fecha deseada
 

@@ -17,12 +17,12 @@ ms.search.region: Spain
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 805fc2e8fcadc9538e69a0e8d945cae3b52f4b8d
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 717cb0b5a200404de7dcda48885e2bacd5ab27db
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "370474"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1537810"
 ---
 # <a name="use-fiscal-data-from-the-invoice-account"></a>Usar datos fiscales de la cuenta de factura
 

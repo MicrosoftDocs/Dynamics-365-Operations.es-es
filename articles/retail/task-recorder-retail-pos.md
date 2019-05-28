@@ -20,11 +20,11 @@ ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: a74a1275f08e3dba60a1002a102e143eb37fcd9a
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "346005"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1548563"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Grabador de tareas y ayuda para Retail Modern POS (MPOS) y Cloud POS
 
@@ -38,7 +38,7 @@ El Grabador de tareas en Retail Modern POS o Cloud POS en la nube de venta minor
 
 ## <a name="architecture"></a>Arquitectura
 
-El Grabador de tareas puede registrar las acciones del usuario en el cliente con fidelidad exacta. Cada control está instrumentado para notificar al Grabador de tareas la ejecución de una acción de usuario. El control notifica el Grabador de tareas que se ha producido un evento y le pasa toda la información pertinente sobre la acción de usuario en tiempo real. A partir de esta información, el Grabador de tareas puede determinar el tipo de acción de usuario (como un clic en un botón, la especificación de un valor o una acción de navegación) y de los datos relacionados con la acción del usuario (como el valor y el tipo de los datos especificados, el contexto del formulario o el contexto de grabación). El Grabador de tareas conserva la información con suficiente detalle para garantizar que una reproducción de la grabación puede realizar las acciones grabadas exactamente igual que las realizadas por el usuario. (La función de reproducción aún no está implementada para Retail Modern POS o el PDV en la nube)
+El Grabador de tareas puede registrar las acciones del usuario en el cliente con fidelidad exacta. Cada control está instrumentado para notificar al Grabador de tareas la ejecución de una acción de usuario. El control notifica el Grabador de tareas que se ha producido un evento y le pasa toda la información pertinente sobre la acción de usuario en tiempo real. A partir de esta información, el Grabador de tareas puede determinar el tipo de acción de usuario (como un clic en un botón, la especificación de un valor o una acción de navegación) y de los datos relacionados con la acción del usuario (como el valor y el tipo de los datos especificados, el contexto del formulario o el contexto de grabación). El Grabador de tareas conserva la información con suficiente detalle para garantizar que una reproducción de la grabación puede realizar las acciones grabadas exactamente igual que las realizadas por el usuario. (La función de reproducción aún no está implementada para Retail Modern POS o el Cloud POS)
 
 ## <a name="basic-configuration"></a>Configuración básica
 

@@ -3,7 +3,7 @@ title: Sincronización de pedidos de ventas directamente entre Sales y Finance a
 description: En el tema se abordan las plantillas y las tareas subyacentes que se usan para sincronizar pedidos de ventas directamente entre Microsoft Dynamics 365 for Sales y Microsoft Dynamics 365 for Finance and Operations.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/11/2018
+ms.date: 05/09/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 985a5a908308bc2268b80e8eef7117fdd6d54af6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a427bff3cd07adbf4d3d81f98bdf7f85a194730b
+ms.sourcegitcommit: 3f02d8a874d1696cbf21d100f1ad205c57224e4b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "339128"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "1539123"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-finance-and-operations"></a>Sincronización de pedidos de ventas entre Sales y Finance and Operations
 
@@ -146,6 +146,16 @@ Antes de sincronizar pedidos de ventas, es importante actualizar la configuraci�
 ### <a name="setup-in-finance-and-operations"></a>Configuración en Finance and Operations
 
 - Vaya a **Ventas y marketing** &gt; **Tareas periódicas** &gt; **Calcular ventas totales**, y configure el trabajo para ejecutar como un trabajo por lotes. Establezca la opción **Calcular totales para pedidos de ventas** como **Sí**. Este paso es importante, porque solo se sincronizan con Sales los pedidos de ventas en los que se calculan las ventas totales. La frecuencia del trabajo por lotes debe coincidir con la frecuencia de la sincronización del pedido de ventas.
+
+Si también usa la integración de pedidos de trabajo, debe configurar el origen de ventas. El origen de la venta se utiliza para distinguir los pedidos de ventas en Finance and Operations creados a partir de pedidos de trabajo en Field Service. Cuando un pedido de ventas tiene un origen de ventas del tipo **Integración del pedido de trabajo** aparece en la pestaña **Estado del pedido de trabajo externo** en el encabezado del pedido de ventas. Además, el origen de la venta garantiza que los pedidos de ventas creados a partir de pedidos de trabajo en Field Service se filtren durante la sincronización del pedido de ventas de Finance and Operations a Field Service.
+
+1. Vaya a **Ventas y marketing** \> **Configuración** \> **Pedidos de ventas** \> **Origen de ventas**.
+2. Seleccione **Nuevo** para crear un nuevo origen de ventas.
+3. En el campo **Origen de ventas**, especifique un nombre para el origen de la venta, como **SalesOrder**.
+4. En el campo **Descripción**, especifique una descripción, como **Pedido de ventas desde ventas**.
+5. Seleccione la casilla de verificación **Asignación de tipo de origen**.
+6. Establezca el campo **Tipo de origen de ventas** a **Integración del pedido de ventas**.
+7. Seleccione **Guardar**.
 
 ### <a name="setup-in-the-sales-orders-sales-to-fin-and-ops---direct-data-integration-project"></a>Configuración en los pedidos de ventas (Sales a Fin and Ops) - Proyecto de integración de datos directos
 

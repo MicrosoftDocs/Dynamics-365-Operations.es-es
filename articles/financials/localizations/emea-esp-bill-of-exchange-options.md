@@ -17,12 +17,12 @@ ms.search.region: Spain
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 18a1d87406a9de4a78116398a2c2018feb87ff8c
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: cc4fc99877d48b9d10bf45d71d801e4aabe24d83
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "370460"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1513111"
 ---
 # <a name="spanish-bill-of-exchange-options"></a>Opciones de letras de cambio españolas
 

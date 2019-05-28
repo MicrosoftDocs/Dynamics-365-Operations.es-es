@@ -20,11 +20,11 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: f67b1c901267bdf79c94e4f4c698c8731c515bb4
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "327812"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1548659"
 ---
 # <a name="cost-management-power-bi-content"></a>Contenido de gestión de costes de Power BI
 
@@ -32,7 +32,7 @@ ms.locfileid: "327812"
 
 ## <a name="overview"></a>Información general
 
-El contenido de Power BI de **Gestión de costes** de Microsoft Power BI está destinado a los contables de inventario o individuos en la organización que son responsable o están interesados en el estado del inventario o del trabajo en curso (WIP), o que son responsables o están interesados en el análisis de desviaciones de coste estándar.
+El contenido de **Gestión de costes** de Microsoft Power BI está destinado a los contables de inventario o individuos en la organización que son responsable o están interesados en el estado del inventario o del trabajo en curso (WIP), o que son responsables o están interesados en el análisis de desviaciones de coste estándar.
 
 > [!NOTE]
 > Los contenidos de **Gestión de costes** Power BI descrito en este tema se aplican a Dynamics 365 for Finance and Operations 8.0.
@@ -172,7 +172,7 @@ Las tabla siguientes proporcionan una visión general de las visualizaciones en 
 
 ## <a name="understanding-the-data-model-and-entities"></a>Comprensión del modelo de datos y de las entidades
 
-Los datos de Microsoft Dynamics 365 for Finance and Operations se usan para rellenar las páginas de informes del contenido **Gestión de costes** Power BI . Estos datos se representan como medidas globales que se realizan en la tienda de la entidad, que es una base de datos de Microsoft SQL Server que se optimiza para análisis. Para obtener más información, consulte [Power BI integración de Power BI con el almacén de entidades](power-bi-integration-entity-store.md).
+Los datos de Microsoft Dynamics 365 for Finance and Operations se usan para rellenar las páginas de informes del contenido **Gestión de costes** Power BI . Estos datos se representan como medidas globales que se realizan en la tienda de la entidad, que es una base de datos de Microsoft SQL Server que se optimiza para análisis. Para obtener más información, consulte [Integración de Power BI con el almacén de entidades](power-bi-integration-entity-store.md).
 
 Las medidas agregadas clave de los objetos siguientes se usan como base del contenido de Power BI.
 

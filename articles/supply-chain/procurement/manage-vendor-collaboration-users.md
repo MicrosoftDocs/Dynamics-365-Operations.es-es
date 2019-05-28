@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 520dcaa1eec3c0fb8aa72fc7f75a56622069881f
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "356700"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1555070"
 ---
 # <a name="manage-vendor-collaboration-users"></a>Gestionar usuarios de colaboración de proveedor
 
@@ -31,7 +31,7 @@ ms.locfileid: "356700"
 
 Este tema describe cómo puede solicitar el aprovisionamiento de los nuevos usuarios de colaboración del proveedor, y cómo añadir nuevos contactos de colaboración. 
 
-La interfaz de colaboración del proveedor en Microsoft Dynamics 365 for Finance and Operations expone información a los proveedores externos acerca de pedidos de compra, facturas y consignación de existencias. Puede crear nuevos contactos de colaboración del proveedor y solicitar que se aprovisione a los nuevos usuarios si trabaja como proveedor externo con el rol de seguridad **Gestión de proveedores (externo)**, o con permisos similares. También puede realizar estas tareas si trabaja como profesional de compras. En este tema, este rol hace referencia a un responsable de compras que trabaja dentro de la empresa que posee la instancia de Dynamics 365 for Finance and Operations. Para obtener más información sobre cómo usar la colaboración del proveedor si es proveedor externo, consulte [Proveedor con clientes](vendor-collaboration-work-customers-dynamics-365-operations.md).  
+La interfaz de colaboración del proveedor en Microsoft Dynamics 365 for Finance and Operations expone información a los proveedores externos acerca de pedidos de compra, facturas y consignación de existencias. Puede crear nuevos contactos de colaboración del proveedor y solicitar que se aprovisione a los nuevos usuarios si trabaja como proveedor externo con el rol de seguridad **Gestión de proveedores (externo)**, o con permisos similares. También puede realizar estas tareas si trabaja como profesional de compras. En este tema, este rol hace referencia a un responsable de compras que trabaja dentro de la empresa que posee la instancia de Finance and Operations. Para obtener más información sobre cómo usar la colaboración del proveedor si es proveedor externo, consulte [Proveedor con clientes](vendor-collaboration-work-customers-dynamics-365-operations.md).  
 
 Para obtener más información sobre cómo usar la colaboración del proveedor si es un profesional de compras, consulte [Colaboración de proveedor con proveedores externos](vendor-collaboration-work-external-vendors.md).
 

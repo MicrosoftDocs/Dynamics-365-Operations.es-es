@@ -3,14 +3,14 @@ title: Extender Talent mediante PowerApps y Microsoft Flow - escenarios de ejemp
 description: En este tema se describen algunos ejemplos de los escenarios de la extensibilidad para Microsoft Dynamics 365 for Talent que usan Microsoft PowerApps y Microsoft Flow.
 author: negudava
 manager: Annbe
-ms.date: 03/04/2018
+ms.date: 05/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: Dynamics 365 for Talent;PowerApps;Flow;Common Data Service
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent;Core;Experience Apps
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 0aa3578047b9397682a7039d0dbcc05cc1b167e4
-ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
+ms.openlocfilehash: c113b0f4ab2c8e44d00fcfca3f0a6ca828a854ae
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "949929"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1519006"
 ---
 # <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>Extender Talent mediante PowerApps y Microsoft Flow - escenarios de ejemplo
 
@@ -101,7 +101,21 @@ Esta plantilla puede ser ampliada para que pueda usar para cualquier escenario q
 
 Para descargar la plantilla **Flow – Integración con SharePoint**, vaya a [Flow – Integración con SharePoint](https://go.microsoft.com/fwlink/?linkid=2082109) en el Centro de descarga de Microsoft.
 
+## <a name="admin-console-to-manage-talent-pools"></a>Consola de administración para administrar las reservas de talentos
 
+Si habilita la integración con LinkedIn, Attract automáticamente crea una reserva de talentos de LinkedIn. Cuando un reclutador intercambia InMail con un empleado nuevo mediante LinkedIn, Attract crea un perfil para el empleado nuevo, y este se hace miembro de la reserva de talentos de LinkedIn. Esta aplicación de PowerApps es útil para reorganizar candidatos en las reservas de talentos basadas en aptitudes.
+
+Ejecute esta aplicación de PowerApps como consola de administración para realizar las siguientes tareas:
+
+- Listar candidatos en un grupo de talentos
+- Agregar y eliminar candidatos de un grupo de talentos
+- Trasladar a los candidatos de una reserva de talentos a otra
+- Determinar si los candidatos ya son parte de una reserva de talentos antes de moverlos
+- Comprobar las aptitudes de los candidatos antes de moverlos a otras reservas de talentos
+
+Esta aplicación de PowerApps usa relaciones de varios a varios, por lo que puede usarla como plantilla para otros escenarios donde debe extraer los registros con relaciones de varios a varios.
+
+Para descargar la plantilla **Consola de administración administrar las reservas de talentos** vaya a la [Consola de administración administrar las reservas de talentos](http://www.microsoft.com/downloads/details.aspx?FamilyID=780a5eee-0e2a-4159-9a83-009f9ccdc469) en el Centro de descarga de Microsoft.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

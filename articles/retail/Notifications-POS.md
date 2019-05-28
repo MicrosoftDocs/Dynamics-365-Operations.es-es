@@ -1,9 +1,9 @@
 ---
 title: Mostrar notificaciones de pedidos en el punto de venta (PDV)
-description: En este tema se describe cómo habilitar notificaciones de pedidos en el punto de venta y el marco de las notificaciones. Finalmente, los desarrolladores podrán ampliar estas notificaciones a operaciones además de operaciones de cumplimiento de pedido.
+description: En este tema se describe cómo habilitar notificaciones de pedidos en el punto de venta y el marco de las notificaciones.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 03/13/2018
+ms.date: 04/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 41f16d13051f6095bdb04af1586ec06fe0ce93f6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: e7aceed380f6722353574470d6dee75ebe105c18
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "361346"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1530279"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Mostrar notificaciones de pedidos en el punto de venta (PDV)
 
@@ -67,6 +67,10 @@ Los botones de PDV pueden mostrar ahora un recuento para ayudar a los trabajador
 La siguiente ilustración muestra la configuración de contenido en vivo en el diseñador de cuadrícula de botones.
 
 ![Configuración de contenido en vivo en el diseñador de cuadrícula de botones](./media/ButtonGridDesigner.png "Configuración de contenido en vivo en el diseñador de cuadrícula de botones")
+
+Para mostrar el recuento de la notificación en un botón, deberá asegurarse que se esté actualizando el diseño de pantalla correcto. Para determinar el diseño de pantalla que está siendo usado por el PDV, seleccione el icono **Valores** en esquina superior derecha y anote el **Identificador de diseño de pantalla** y la **Resolución de diseño**. Ahora mediante el explorador Edge, vaya a la página **Diseño de Pantalla** en Dynamics 365 for Finance and Operations, encuentre el **Identificador de diseño de pantalla** y la **Resolución de diseño** identificados arriba y seleccione la casilla de verificación **Activar contenido activo** . Vuelva **Ventas al por menor > TI de venta minorista > Programación distribución** y ejecuta el trabajo 1090 (Registros) para sincronizar los cambios de diseño. 
+
+![Encuentre el diseño de pantalla utilizado por PDV](./media/Choose_screen_layout.png "Encuentre el diseño de pantalla utilizado por PDV ")
 
 La siguiente ilustración muestra el efecto de seleccionar **Superior derecha** frente **Centro** en el campo **Alineación de contenido** para los botones de varios tamaños.
 

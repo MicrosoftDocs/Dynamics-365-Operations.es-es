@@ -19,11 +19,11 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: de5de039c0e3332943bae4846768fc628810906e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "330204"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1559388"
 ---
 # <a name="accounting-source-explorer"></a>Explorador de origen de contabilidad
 
@@ -31,7 +31,7 @@ ms.locfileid: "330204"
 
 Este artículo proporciona información acerca del explorador del origen de contabilidad, que puede usar para análisis detallado de la información de origen detrás de asientos contables de la contabilidad general.
 
-El Explorador de origen de la contabilidad es una nueva página que muestra la información de origen. Puede usar el Explorador del origen de contabilidad como herramienta independiente o analizar los detalles detrás de asientos contables de la contabilidad general. Por ejemplo, puede usar el Explorador de origen de contabilidad para obtener la información de origen detallada para un saldo en Saldo de comprobación o para una transacción de asiento. Puede usar la característica Exportar a Microsoft Excel para segmentar y desglosar la información en Microsoft Excel (por ejemplo, en una tabla dinámica o un informe de tablas dinámicas).
+El Explorador de origen de la contabilidad es una nueva página que muestra la información de origen. Puede usar el Explorador del origen de contabilidad como herramienta independiente o analizar los detalles detrás de asientos contables de la contabilidad general. Por ejemplo, puede usar el Explorador de origen de contabilidad para obtener la información de origen detallada para un saldo en Saldo de comprobación o para una transacción de asiento. Puede usar la característica Exportar a MS Excel para segmentar y desglosar la información en Microsoft Excel (por ejemplo, en una tabla dinámica o un informe de tablas dinámicas).
 
 El Explorador de origen de contabilidad siempre muestra el mismo importe total por cuenta contable que muestra la Contabilidad general (por ejemplo, en un Saldo de comprobación). Como en un Saldo de comprobación, puede mostrar segmentos en columnas independientes. Solo tiene que seleccionar el conjunto adecuado de dimensiones financieras. 
 

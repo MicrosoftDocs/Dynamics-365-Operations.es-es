@@ -1,16 +1,16 @@
 ---
 title: Opciones de formato avanzadas en informes financieros
 description: Al crear un informe en informes financieros, las funciones adicionales de formato están disponibles, incluidos los filtros para dimensiones, las restricciones de columnas y las unidades de informes, las filas sin impresión y las instrucciones IF/THEN/ELSE en los cálculos.
-author: ShylaThompson
+author: ryansandness
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 04/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.custom: 106571
 ms.assetid: 895b5127-01d6-4495-b127-343387b743aa
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8c95f3bfc33730fcf03bd65cd1e66ec104f1e236
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 70f69fdad3d9186886190c62fba08af06d2a24d6
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "335586"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1502574"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Opciones de formato avanzadas en informes financieros
 
@@ -41,6 +41,7 @@ La siguiente tabla explica las funciones avanzadas del formato que están dispon
 | Restricción de columna         | La restricción de la columna de la definición de filas es útil para ocultar los valores relevantes solo en algunas filas del informe. Cuando los cálculos de porcentaje se realizan en una fila, la restricción de la columna impide que las columnas totales u otras columnas se impriman cuando dichos números no se aplican. |
 | Salto de columna               | Puede agregar saltos de la columna en una definición de fila para mostrar la información del informe a su lado. Puede agregar varios saltos de columna en una única definición de filas, y los encabezados de columna se repite en la parte superior de cada columna tras el salto de laolumna. Los comentarios para un informe se muestran entre los saltos de columna. |
 | Instrucción IF/THEN/ELSE     | Puede modificar cálculos de una definición de fila o una definición de la columna. |
+| Use apóstrofes (' ') y una Y comercial (&) para los valores de dimensión | Puede usar valores de dimensión, incluido el carácter de la Y comercial para el diseño de informe. |
 
 ## <a name="advanced-cell-placement"></a>Colocación de celda avanzada
 La posición de celda avanzada, o *forzar*, implica la posición de valores específicos en las celdas específicas. Por ejemplo, forzar se usa a menudo para mover los saldos correctos en un extracto de flujo de efectivo. Puede utilizar forzar para lo siguiente:
@@ -297,3 +298,9 @@ Una expresión **IF/THEN/ELSE** permite a cualquier cálculo depender de los res
 
 > [!NOTE]
 > No puede poner los resultados del cálculo en ninguna otra columna. Los resultados deben encontrarse en la columna que contiene la fórmula.
+
+#### <a name="use-single-quotes-and-an-ampersand-for-dimension-values-in-a-row-column-or-tree"></a>Use apóstrofes y una Y comercial para los valores de dimensión en una fila, columna o árbol
+
+Puede diseñar informes mediante los valores de dimensión que contengan una Y comercial (&). 
+
+Dentro de cualquier campo **Vincular a la dimensión financiera**, puede especificar un valor como **'Pérdidas y ganancias'**. Incluir apóstrofes (' ') a ambos lados del valor de dimensión indica que utiliza el valor literal, como incluir el carácter de la Y comercial (&). 

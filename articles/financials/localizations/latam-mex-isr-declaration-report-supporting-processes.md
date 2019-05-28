@@ -18,12 +18,12 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b347eec8ccbf6ef366270fd2735bd2168435f09f
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 372db7093bbbf6b0d99fe40ef8e609e8b8ed665b
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "370443"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1513008"
 ---
 # <a name="isr-declaration-report-and-supporting-processes-for-mexico"></a>Informe de declaración de ISR y procesos auxiliares para México
 

@@ -16,11 +16,11 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 94ef09c8906c793b0187d82cef259122c91a8e01
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "348650"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1567616"
 ---
 # <a name="assign-a-product-lifecycle-state-to-a-released-product"></a>Asignar un estado del ciclo de vida del producto a un producto liberado
 

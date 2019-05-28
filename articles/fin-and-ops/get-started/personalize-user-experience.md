@@ -3,7 +3,7 @@ title: Personalizar la experiencia del usuario
 description: Este tema explica cómo puede personalizar Microsoft Dynamics 365 for Finance and Operations.
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 04/08/2019
+ms.date: 04/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 517e1dfa19433f19ebeb9d0a50a124002ca46a24
-ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
+ms.openlocfilehash: 78c96c58b8c3331fcadb3e5c9b25dfef3b1b4cbc
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "975860"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1528853"
 ---
 # <a name="personalize-the-user-experience"></a>Personalizar la experiencia del usuario
 
@@ -75,7 +75,7 @@ Algunos de los cambios más habituales y más importantes que se pueden realizar
 
 Además, los tipos más básicos de personalización explícita están disponibles haciendo clic con el botón secundario en un elemento y después seleccionando **Personalizar**. (Tenga en cuenta que no todos los elementos en su página se pueden personalizar.) Si usa este método de personalización, aparecerá la ventana de la propiedad del elemento.
 
-[![Personalización de las propiedades de un elemento](./media/personalization-element-properties.jpg)](./media/personalization-element-properties.jpg)
+[![Personalización de las propiedades de un elemento](./media/personalization-element-properties.png)](./media/personalization-element-properties.png)
 
 Puede usar la ventana de propiedad para personalizar un elemento de las siguientes formas:
 
@@ -91,7 +91,7 @@ La ventana de la propiedad puede incluir otras capacidades de personalización, 
 
 Si desea implementar varios cambios en una página o hacer cambios que no están disponibles con otros mecanismos (como reordenar elementos), puede utilizar la barra de herramientas **Personalización**. Para abrir la barra de herramientas **Personalización**, seleccione **Personalizar este formulario** en la ventana de la propiedad del elemento. También puede seleccionar **Personalizar este formulario** en el grupo **Personalizar** de la pestaña **Opciones** del panel de acciones de cada página.
 
-[![Barra de herramientas de personalización](./media/personalization-personalizationtoolbar.jpg)](./media/personalization-personalizationtoolbar.jpg)
+[![Barra de herramientas de personalización](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
 
 #### <a name="navigating-the-page"></a>Navegación por la página
 

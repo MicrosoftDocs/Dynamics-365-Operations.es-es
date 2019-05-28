@@ -3,7 +3,7 @@ title: Contenido de Power BI del análisis de compras y gastos
 description: Este tema describe lo que se incluye en el contenido de Power BI acerca de análisis de compras y gastos. Explica cómo tener acceso a los informes que se incluyen en el contenido, y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
 author: FrankDahl
 manager: AnnBe
-ms.date: 12/18/2017
+ms.date: 04/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 069c4dc21959ab603ba6ca3da0ac68ef20325265
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 3206573022c0f843b07a468987a112ca6ac435ef
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "313851"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1527726"
 ---
 # <a name="purchase-spend-analysis-power-bi-content"></a>Contenido de Power BI del análisis de compras y gastos
 
@@ -33,7 +33,7 @@ Este tema describe lo que se incluye en el contenido de Microsoft Power BI acerc
 
 ## <a name="overview"></a>Información general
 
-El contenido de Power BI sobre **Análisis de compras y gastos** se ha diseñado para ayudar a directores de compras y los administradores responsables de presupuestos a vigilar los gastos en adquisiciones. Los directores pueden analizar su gasto en adquisiciones de las siguientes formas:
+El contenido de Power BI sobre **Análisis de compras y gastos** se ha diseñado para ayudar a directores de compras y los administradores responsables de presupuestos y seguir los gastos en adquisiciones. Los directores pueden analizar su gasto en adquisiciones de las siguientes formas:
 
 - Compras hasta la fecha (por grupo de proveedores y proveedores individuales, productos de la categoría de compras e individuales y ubicación del proveedor)
 - Cambio de las compras año por año (por grupo de proveedores y categoría de compras)
@@ -44,88 +44,88 @@ El contenido usa datos transaccionales de compras y proporciona tanto una visió
 El contenido de Power BI **Análisis de compras y gastos** se muestra en la página **Análisis de compras y gastos** (**Adquisición y abastecimiento** \> **Consultas e informes** \> **Análisis del rendimiento de compra** \> **Análisis de compras y gastos**).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Métricas que se incluyen en el contenido de Power BI
-El contenido de Power BI de **análisis de los gastos de compra** incluye un informe compuesto por un conjunto de medidas. Estas métricas se visualizan como gráficos, mosaicos y tablas. La tabla siguiente muestra una visión general de las visualizaciones.
+El contenido de Power BI de **análisis de los gastos de compra** incluye un informe compuesto por un conjunto de medidas. Estas métricas se visualizan como gráficos, mosaicos y tablas. 
 
-<table>
-<thead>
-<tr>
-<th>Página de informes</th>
-<th>Gráficos</th>
-<th>Mosaicos</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Compras por proveedor</td>
-<td><ul>
-<li>Los 10 principales proveedores por compra (gráfico de barras apiladas)</li>
-<li>Compras totales por grupo de proveedores/país/nombre (gráfico circular)</li>
-<li>Compras por grupo de proveedores/país/nombre (gráfico de columnas)</li>
-<li>Promedio de compras por grupo de proveedores/país/nombre (gráfico de columnas)</li>
-</ul></td>
-<td><ul>
-<li>Total de la compra</li>
-<li>Crecimiento de compras interanual</li>
-<li>N.º total de proveedores</li>
-<li>N.º total de proveedores activos</li>
-</ul></td>
-</tr>
-<tr>
-<td>Compras por producto</td>
-<td><ul>
-<li>Compras por categoría de compras o nombre del producto (gráfico de columnas)</li>
-<li>Compra total por categoría de compras o nombre del producto (gráfico circular)</li>
-<li>Los 10 principales productos por compra (gráfico de barras apiladas)</li>
-</ul></td>
-<td><ul>
-<li>N.º total de productos</li>
-<li>Porcentaje total de productos activos de n.º total de productos</li>
-<li>Número de productos que representan el 80 % de la compra</li>
-</ul></td>
-</tr>
-<tr>
-<td>Compras por período*</td>
-<td><ul>
-<li>Compras por mes/día (gráfico de columnas)</li>
-<li>Desviación interanual de compras acumuladas (gráfico de cascada)</li>
-<li>Crecimiento total de la compra interanual (gráfico de columnas)</li>
-<li>Extracto de compras (matriz)</li>
-</ul></td>
-<td><ul>
-<li>Crecimiento de compras interanual</li>
-<li>% de crecimiento de compras interanual</li>
-</ul></td>
-</tr>
-<tr>
-<td>Compras por ubicación de proveedor</td>
-<td><ul>
-<li>Compras por ciudad</li>
-<li>% de crecimiento de compras interanual</li>
-<li>Compras por país</li>
-</ul></td>
-<td></td>
-</tr>
-<tr>
-<td>Análisis de gasto de compras por hora</td>
-<td><ul>
-<li>Compras de año actual por mes/día (gráfico de líneas)</li>
-<li>Compras este año y el año anterior (gráficos de líneas y columnas)</li>
-</ul></td>
-<td></td>
-</tr>
-<tr>
-<td>Análisis de gasto de compras por proveedor</td>
-<td><ul>
-<li>% de compras de los 10 principales proveedores sobre el total de compras (embudo)</li>
-<li>10 principales proveedores con aumento de gastos interanual</li>
-<li>10 principales proveedores con disminución de gastos interanual</li>
-</ul></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+Las secciones siguientes muestran una visión general de las visualizaciones.
 
-\* Compras este año y el año anterior, y crecimiento por categoría de compras
+### <a name="purchase-by-vendor-report-page"></a>Compras por página del informe del proveedor
+**Gráficos**
+- Los 10 principales proveedores por compra (gráfico de barras apiladas)
+- Compras totales por grupo de proveedores/país/nombre (gráfico circular)
+- Compras por grupo de proveedores/país/nombre (gráfico de columnas)
+- Promedio de compras por grupo de proveedores/país/nombre (gráfico de columnas)
+
+**Mosaicos**
+- Total de la compra
+- Crecimiento de compras interanual
+- N.º total de proveedores
+- N.º total de proveedores activos
+
+**Ejemplo**
+<img src="media/spend1.PNG" alt="Purchase by vendor">
+
+### <a name="purchase-by-product-report-page"></a>Compras por página del informe de producto
+
+**Gráficos**
+- Compras por categoría de compras o nombre del producto (gráfico de columnas)
+- Compra total por categoría de compras o nombre del producto (gráfico circular)
+- Los 10 principales productos por compra (gráfico de barras apiladas)
+
+**Mosaicos**
+- N.º total de productos</li>
+- Porcentaje total de productos activos de n.º total de productos
+- Número de productos que representan el 80 % de la compra
+
+**Ejemplo**
+
+
+<img src="media/purchaseByProduct.PNG" alt="Purchase by Product">
+
+### <a name="purchase-by-period-report-page"></a>Compras por página del informe de período
+Esta página muestra compras este año y el año anterior, y crecimiento por categoría de compras.
+
+**Gráficos** 
+- Compras por mes/día (gráfico de columnas)
+- Desviación interanual de compras acumuladas (gráfico de cascada)
+- Crecimiento total de la compra interanual (gráfico de columnas)
+- Extracto de compras (matriz)
+
+**Mosaicos**
+- Crecimiento de compras interanual
+- % de crecimiento de compras interanual
+
+**Ejemplo**
+<img src="media/purchaseByPeriod.PNG" alt="Purchase by Period">
+
+### <a name="purchase-by-vendor-location-report-page"></a>Compras por página del informe de ubicación
+
+**Gráficos**
+- Compras por ciudad
+- % de crecimiento de compras interanual
+- Compras por país
+
+**Ejemplo**
+<img src="media/purchByVendorLocation.PNG" alt="Purchase by Vendor Location">
+
+### <a name="purchase-spend-analysis-by-time-report-page"></a>Análisis de gasto de compras por página de hora del informe
+
+**Gráficos** 
+- Compras de año actual por mes/día (gráfico de líneas)
+- Compras este año y el año anterior (gráficos de líneas y columnas)
+
+**Ejemplo**
+<img src="media/PurchByTIme.PNG" alt="Purchase by Time">
+
+### <a name="purchase-spend-analysis-by-vendor-report-page"></a>Análisis de gasto de compras por página de proveedor del informe
+
+**Gráficos** 
+- % de compras de los 10 principales proveedores sobre el total de compras (embudo)
+- 10 principales proveedores con aumento de gastos interanual
+- 10 principales proveedores con disminución de gastos interanual
+
+**Ejemplo** 
+<img src="media/PurchSpendAnalysisByVendor.PNG" alt="Purchase spend by vendor">
+
 
 ## <a name="data-model-and-entities"></a>Modelo de datos y entidades
 Los datos siguientes se usan para rellenar las páginas de informes en el contenido de Power BI sobre **Análisis de compras y gastos**. Estos datos se representan como medidas agregadas que se realizan en el almacén de la entidad. El almacén de la entidad es una base de datos de Microsoft SQL Server que se optimiza para el análisis. Para obtener más información, consulte [Visión general de la integración de Power BI con el almacén de entidades](power-bi-integration-entity-store.md).

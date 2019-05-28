@@ -19,11 +19,11 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 3ba6a581efe8353ccb9e02606db58d18550d71af
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "320475"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1559489"
 ---
 # <a name="accounting-distributions"></a>Distribuciones contables
 
@@ -52,7 +52,7 @@ Las capacidades genéricas de distribución contable proporcionan las siguientes
     -   El botón **Correcto** aparece y está habilitado para documentos que admiten correcciones. **Correcto** crea nuevas distribuciones. Primero, se crean las distribuciones que invierten las distribuciones originales. Estas distribuciones no se pueden modificar. A continuación se crean las nuevas distribuciones contables correctas. Estas distribuciones se pueden modificar si las distribuciones originales se pueden modificar.
     -   El botón **Detalles del proyecto** está habilitado como extensión cuando una línea está relacionada con un proyecto. Las distribuciones contables del proyecto le permiten modificar detalles como la fuente de financiación y las propiedades de la línea.
     -   Puede ver el estado de contabilidad del documento actual en **Referencia**. El estado es para el documento entero, e indica si el documento se encuentra en proceso o completado.
--   ** Ver distribuciones**: permite ver las distribuciones contables para todas las líneas y todos los importes monetarios en el documento. No pueden modificar las distribuciones contables desde esta vista.
+-   **Ver distribuciones**: permite ver las distribuciones contables para todas las líneas y todos los importes monetarios en el documento. No pueden modificar las distribuciones contables desde esta vista.
 
 
 Para obtener más información, consulte [Distribuciones contables y asientos del subdiario contable para las facturas de servicios](accounting-distributions-subledger-journal-entries-vendor-invoices.md).

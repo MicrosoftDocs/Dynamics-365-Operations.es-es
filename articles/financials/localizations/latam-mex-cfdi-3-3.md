@@ -15,12 +15,12 @@ ms.search.scope: Core, Operations
 ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2017-12-01
-ms.openlocfilehash: 149103c7e5fd579b230f49bf26ca4ac838c68431
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: d5be3a3614ebc7624b403f64e3057adf76ecfeb1
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "370402"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1513080"
 ---
 # <a name="cfdi-layout-version-33"></a>Versión 3.3 del diseño CFDI
 
