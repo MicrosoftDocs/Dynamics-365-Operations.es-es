@@ -1,63 +1,366 @@
----
-title: Actualizaciones reglamentarias
-description: Este tema proporciona una lista de actualizaciones normativas planificadas y publicadas para Microsoft Dynamics 365 for Finance and Operations.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 04/12/2019
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
-ms.search.region: Global
-ms.author: shylaw
-ms.search.validFrom: 2019-3-31
-ms.dyn365.ops.version: 10
-ms.openlocfilehash: 0bd72bb5bebed84c092142b2b18f8fbbc3d4f711
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1530716"
----
-# <a name="regulatory-updates"></a>Actualizaciones reglamentarias
-
-[!include [banner](../includes/banner.md)]
-
-Este tema muestra las actualizaciones normativas que se planifican para emitirse en las ubicaciones admitidas por Microsoft Dynamics 365 for Finance and Operations. Las escalas de tiempo de entrega pueden cambiar, y la funcionalidad prevista puede cambiar o puede que no se publique. Lea [Directiva de Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2007332) para obtener más información. 
-
-Las actualizaciones normativas son características que se implementan para admitir la legislación nueva o modificada específica del país. Para obtener información sobre otras características normativas planeadas y emitidas, consulte los siguientes recursos:
-
-- [Notas de la versión de Dynamics 365 y Power Platform](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Novedades en Microsoft Dynamics 365 for Finance and Operations](../../fin-and-ops/get-started/whats-new-changed.md)
-
-Microsoft se esfuerza en implementar las nuevas normas legales lo antes posible. La fecha de entrega real depende de la fecha de presentación de la ley, de la disponibilidad de los detalles del requisito de las autoridades locales, de la disponibilidad de las herramientas de validación y el tamaño y la complejidad del cambio. 
-
-Planeamos crear actualizaciones normativas en las actualizaciones de servicio de One Version que se publican a tiempo para que los clientes se actualicen y para estar listas en ser la fecha de cumplimiento (para las actualizaciones normativas transaccionales), o para la primera fecha límite de notificación (obligatorio para las actualizaciones normativas relacionadas con la notificación). Los clientes y socios pueden obtener una vista preliminar de las nuevas actualizaciones normativas en el programa de adopción temprana de la vista previa (PEAP).
-
-En el caso de fechas de alerta tardías, de disponibilidad tardía de los detalles del requisito o de herramientas de validación, o de cambios excepcionalmente grandes y complejo, puede que no sea posible crear una actualización regulatoria en la fecha de la actualización mensual de disponibilidad general. En estos casos, la actualización regulatoria se proporcionará como correcciones urgentes para algunas actualizaciones mensuales disponibles.
-
-Para ver los últimos planes de actualizaciones regulatorias, consulte la siguiente tabla. 
-
-|Fecha de lanzamiento planeada:|Versión|País|Actualización reglamentaria|
-|--------------------|---------------|-------|-------|
-|      2019 de marzo          |   10.0.0      | Austria      |   Cambios en Kammerumlage 2019 (arancel sobre compra)    |
-|      2019 de marzo          |   10.0.0      |   Brasil    |     Contribuciones SPED EFD- Disposición 004 y 005  |
-|      2019 de marzo          |   10.0.0      |    Malasia     |Malasia reemplaza GST por un impuesto sobre ventas y servicio fiscal de SST        |
-|      2019 de abril          |   10.0.1      |    Austria     |Venta minorista - Integración fiscal         |
-|      2019 de abril          |   10.0.1      |    Europa     |Facturación electrónico - Las facturas de los clientes se exportan en formato PEPPOL BIS 3         |
-|      2019 de abril          |   10.0.1      |    Europa     |Facturación electrónica - Las facturas de los proveedores se importan desde el formato PEPPOL BIS 3         |
-|      2019 de abril          |   10.0.1      |   Alemania     |Facturación electrónico - Las facturas de los clientes se exportan en formato xRechnung 1.1         |
-|      2019 de abril          |   10.0.1      |    Reino Unido     |[Cambios del envío de la declaración de IVA (Crear impuestos digitales)](emea-gbr-mtd-vat-integration.md)    |    
-|      2019 de abril          |   10.0.1      |    Brasil     |Nueva nota fiscal electrónica NT 2018.005         |
-|      2019 de abril          |   10.0.1      |    Rusia     |El formato de la declaración de IVA cambia a partir de 2019         |
-|      2019 de abril          |   10.0.1      |    Rusia     |El formato de la declaración de IVA cambia a partir de 2019 (formatos de los libros de ventas y de compra) 
-|      mayo de 2019            |   10.0.2      | Brasil      |   SPED ECD Diseño 7   |
-
-
-## <a name="additional-resources"></a>Recursos adicionales
-- Buscar todas las actualizaciones normativas planificadas y publicadas [Servicio del ciclo de vida - búsqueda de temas](https://lcs.dynamics.com/Logon/Index) (inicio de sesión obligatorio).
-- Para consultar una lista de las ubicaciones que se admiten para Dynamics 365 for Finance and Operations, consulte la [Guía de disponibilidad internacional](https://aka.ms/dynamics_365_international_availability_deck).
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="regulatory-updates.md" target-language="es-ES">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>regulatory-updates.de46f8.8b79dd65c38d878303a75490721a3c7e6f1c6d09.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>8b79dd65c38d878303a75490721a3c7e6f1c6d09</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>d153bde74651400118bbd37b69ff5e7e161f1db7</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/21/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\localizations\regulatory-updates.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Regulatory updates</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Actualizaciones reglamentarias</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic provides a list of planned and released reguatory updates for Microsoft Dynamics 365 for Finance and Operations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este tema proporciona una lista de actualizaciones normativas planificadas y publicadas para Microsoft Dynamics 365 for Finance and Operations.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Regulatory updates</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Actualizaciones reglamentarias</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>This topic lists the regulatory updates that are planned for release in Microsoft Dynamics 365 for Finance and Operations supported localizations.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este tema muestra las actualizaciones normativas que se planifican para emitirse en las ubicaciones admitidas por Microsoft Dynamics 365 for Finance and Operations.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>Delivery timelines might change, and projected functionality might change or might not be released.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Las escalas de tiempo de entrega pueden cambiar, y la funcionalidad prevista puede cambiar o puede que no se publique.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>Read <bpt id="p1">[</bpt>Microsoft policy<ept id="p1">](https://go.microsoft.com/fwlink/p/?linkid=2007332)</ept> for more information.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lea <bpt id="p1">[</bpt>Directiva de Microsoft<ept id="p1">](https://go.microsoft.com/fwlink/p/?linkid=2007332)</ept> para obtener más información.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>Regulatory updates are features that are implemented to support new or changed country-specific legislation.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Las actualizaciones normativas son características que se implementan para admitir la legislación nueva o modificada específica del país.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>To learn about other planned and released country-specific features, refer to the following resources:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para obtener información sobre otras características normativas planeadas y emitidas, consulte los siguientes recursos:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source><bpt id="p1">[</bpt>Dynamics 365 and Power Platform Release Notes<ept id="p1">](https://docs.microsoft.com/business-applications-release-notes/index)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Notas de la versión de Dynamics 365 y Power Platform<ept id="p1">](https://docs.microsoft.com/business-applications-release-notes/index)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source><bpt id="p1">[</bpt>What's new for Microsoft Dynamics 365 for Finance and Operations<ept id="p1">](../../fin-and-ops/get-started/whats-new-changed.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Novedades en Microsoft Dynamics 365 for Finance and Operations<ept id="p1">](../../fin-and-ops/get-started/whats-new-changed.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>Microsoft strives to implement new regulatory requirements as early as possible.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft se esfuerza en implementar las nuevas normas legales lo antes posible.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>The actual delivery date depends on the law announcement date, availability of the requirement details from the local authorities, the availability of the validation tools, and on the size and complexity of the change.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La fecha de entrega real depende de la fecha de presentación de la ley, de la disponibilidad de los detalles del requisito de las autoridades locales, de la disponibilidad de las herramientas de validación y el tamaño y la complejidad del cambio.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>We plan to deliver regulatory updates in One Version service updates that are released in time for customers to update and be ready for the enforcement date (for transactional regulatory updates), or for the first mandatory reporting deadline (for regulatory updates related to reporting).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Planeamos crear actualizaciones normativas en las actualizaciones de servicio de One Version que se publican a tiempo para que los clientes se actualicen y para estar listas en ser la fecha de cumplimiento (para las actualizaciones normativas transaccionales), o para la primera fecha límite de notificación (obligatorio para las actualizaciones normativas relacionadas con la notificación).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>Customers and partners can preview the new regulatory updates in the Preview Early Adoption Program (PEAP).</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los clientes y socios pueden obtener una vista preliminar de las nuevas actualizaciones normativas en el programa de adopción temprana de la vista previa (PEAP).</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>In case of late announcement dates, late availability of requirement details or validation tools, or exceptionally large and complex changes, it might not be possible to make a regulatory update available by the General Availability date of a monthly update.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En el caso de fechas de alerta tardías, de disponibilidad tardía de los detalles del requisito o de herramientas de validación, o de cambios excepcionalmente grandes y complejo, puede que no sea posible crear una actualización regulatoria en la fecha de la actualización mensual de disponibilidad general.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>In these cases, the regulatory update will be shipped as hot fixes for some available monthly updates.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">En estos casos, la actualización regulatoria se proporcionará como correcciones urgentes para algunas actualizaciones mensuales disponibles.</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>For the latest regulatory update plans, refer to the following table.</source><target logoport:matchpercent="89" state="translated" state-qualifier="x-fuzzy-match-unedited">Para ver los últimos planes de actualizaciones regulatorias, consulte la siguiente tabla.</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>Planned release date</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Fecha de lanzamiento planeada:</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>Release version</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Versión</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>Country</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">País</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>Regulatory update</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Actualización reglamentaria</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>March 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2019 de marzo</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>10.0.0</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10.0.0</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>Austria</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Austria</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>Changes in Kammerumlage 2019 (Purchase duty)</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cambios en Kammerumlage 2019 (arancel sobre compra)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>March 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2019 de marzo</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>10.0.0</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10.0.0</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>Brazil</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Brasil</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>SPED EFD Contributions - Layout  004 and 005</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Contribuciones SPED EFD- Disposición 004 y 005</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>March 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2019 de marzo</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>10.0.0</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10.0.0</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>Malaysia</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Malasia</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>Malaysia replaces GST with SST sales &amp; service tax</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Malasia reemplaza GST por un impuesto sobre ventas y servicio fiscal de SST</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>April 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2019 de abril</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>10.0.1</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10.0.1</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>Austria</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Austria</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>Retail - Fiscal integration</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Venta minorista - Integración fiscal</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>April 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2019 de abril</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>10.0.1</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10.0.1</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>Europe</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Europa</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>E-invoicing - Customers invoices export in PEPPOL BIS 3 format</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Facturación electrónico - Las facturas de los clientes se exportan en formato PEPPOL BIS 3</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>April 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2019 de abril</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>10.0.1</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10.0.1</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>Europe</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Europa</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>E-invoicing - Vendors invoices import from PEPPOL BIS 3 format</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Facturación electrónica - Las facturas de los proveedores se importan desde el formato PEPPOL BIS 3</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>April 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2019 de abril</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>10.0.1</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10.0.1</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>Germany</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Alemania</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>E-invoicing - Customers invoices export in xRechnung 1.1 format</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Facturación electrónico - Las facturas de los clientes se exportan en formato xRechnung 1.1</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>April 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2019 de abril</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>10.0.1</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10.0.1</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>United Kingdom</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Reino Unido</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source><bpt id="p1">[</bpt>VAT Statement submission changes (Making Tax Digital)<ept id="p1">](emea-gbr-mtd-vat-integration.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Cambios del envío de la declaración de IVA (Crear impuestos digitales)<ept id="p1">](emea-gbr-mtd-vat-integration.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>April 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2019 de abril</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>10.0.1</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10.0.1</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>Brazil</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Brasil</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>NF-e new NT 2018.005</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nueva nota fiscal electrónica NT 2018.005</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>April 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2019 de abril</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source>10.0.1</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10.0.1</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source>Russia</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rusia</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source><bpt id="p1">[</bpt>VAT declaration format changes from 2019<ept id="p1">](rus-VAT-declaration.md)</ept></source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>El formato de la declaración de IVA cambia a partir de 2019<ept id="p1">](rus-VAT-declaration.md)</ept></target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source>April 2019</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2019 de abril</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="163">
+          <source>10.0.1</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10.0.1</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="164">
+          <source>Russia</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rusia</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="165">
+          <source>VAT declaration format changes from 2019 (Sales and Purchase books)</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">El formato de la declaración de IVA cambia a partir de 2019 (formatos de los libros de ventas y de compra)</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="166">
+          <source>April 2019</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">2019 de abril</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="167">
+          <source>10.0.1</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">10.0.1</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="168">
+          <source>Russia</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Rusia</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="169">
+          <source>Land tax declaration changes from 2018</source><target logoport:matchpercent="78" state="translated" state-qualifier="fuzzy-match">Cambios en la declaración de impuestos territoriales para 2018</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="170">
+          <source>April 2019</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">2019 de abril</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="171">
+          <source>10.0.1</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">10.0.1</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="172">
+          <source>Russia</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Rusia</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="173">
+          <source><bpt id="p1">[</bpt>Property tax declaration changes from 2019<ept id="p1">](rus-assessed-tax-declaration.md)</ept></source><target logoport:matchpercent="82" state="translated" state-qualifier="fuzzy-match"><bpt id="p1">[</bpt>Cambios en la declaración de impuestos sobre la propiedad para 2019<ept id="p1">](rus-assessed-tax-declaration.md)</ept></target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="174">
+          <source>April 2019</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">2019 de abril</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="175">
+          <source>10.0.1</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">10.0.1</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="176">
+          <source>Russia</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Rusia</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="177">
+          <source>Transport tax declaration changes from 2019</source><target logoport:matchpercent="82" state="translated" state-qualifier="fuzzy-match">Cambios en la declaración de impuestos sobre el transporte para 2019</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="178">
+          <source>April 2019</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">2019 de abril</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="179">
+          <source>10.0.1</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">10.0.1</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="180">
+          <source>Hungary</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Hungría</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="181">
+          <source>Hungary: Online invoicing v.1.1 2019 on Microsoft Dynamics 365 for Finance and Operations</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Hungría: V.1.1 de facturación en línea 2019 en Microsoft Dynamics 365 for Finance and Operations</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="182">
+          <source>May 2019</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">mayo de 2019</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="183">
+          <source>10.0.2</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">10.0.2</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="184">
+          <source>Brazil</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Brasil</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="185">
+          <source>SPED ECD Layout 7</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">SPED ECD Diseño 7</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="186">
+          <source>Pending</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Pendientes</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="187">
+          <source>10.0.3</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">10.0.3</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="188">
+          <source>Brazil</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Brasil</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="189">
+          <source>NF-e new NT 2018.005 - v.1.20</source><target logoport:matchpercent="0" state="translated">NF-e nuevo NT 2018.005 - v.1.20</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="190">
+          <source>Pending</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Pendientes</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="191">
+          <source>10.0.3</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">10.0.3</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="192">
+          <source>Brazil</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Brasil</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="193">
+          <source>SPED ECD Layout 7</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-inherited">SPED ECD Diseño 7</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="194">
+          <source>Pending</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Pendientes</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="195">
+          <source>10.0.3</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">10.0.3</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="196">
+          <source>Brazil</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Brasil</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="197">
+          <source>SPED ECF - Layout 5 for 2019</source><target logoport:matchpercent="0" state="translated">SPED ECF - Layout 5 para 2019</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="198">
+          <source>Pending</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Pendientes</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="199">
+          <source>10.0.3</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">10.0.3</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="200">
+          <source>Lithuania</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Lituania</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="201">
+          <source>i.SAF report let's user define system Sales tax codes in association with legal tax codes</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">El informe de i.SAF nos dejó usuario definir códigos de impuestos del sistema en asociación con códigos de impuestos legales</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="202">
+          <source>Pending</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Pendientes</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="203">
+          <source>10.0.3</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">10.0.3</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="204">
+          <source>Poland</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Polonia</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="205">
+          <source>SAF invoices (JPK_FA) v.2 from 1Jul2019</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Facturas SAF (JPK_FA) v.2 a partir del 1 de julio de 2019</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="206">
+          <source>Pending</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Pendientes</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="207">
+          <source>10.0.3</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">10.0.3</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="208">
+          <source>Brazil</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Brasil</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="209">
+          <source>ICMS fiscal document adjustments enable table 5.2</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Cuadro fiscal 5.2 de permisos de los ajustes del documento de ICMS</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="210">
+          <source>Pending</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Pendientes</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="211">
+          <source>10.0.3</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">10.0.3</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="212">
+          <source>Brazil</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Brasil</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="213">
+          <source>NF-e Decree 54.308/18 (RS)</source><target logoport:matchpercent="0" state="translated">NF-e Decreto 54.308/18 (RS)</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="214">
+          <source>Additional resources</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Recursos adicionales</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="215">
+          <source>Find all planned and released regulatory updates on <bpt id="p1">[</bpt>Lifecycle Service - Issue search<ept id="p1">](https://lcs.dynamics.com/Logon/Index)</ept> (sign in required).</source><target logoport:matchpercent="94" state="translated" state-qualifier="fuzzy-match">Buscar todas las actualizaciones normativas planificadas y publicadas <bpt id="p1">[</bpt>Lifecycle Service - búsqueda de temas<ept id="p1">](https://lcs.dynamics.com/Logon/Index)</ept> (inicio de sesión obligatorio).</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="216">
+          <source>For a list of the localizations that are supported for Dynamics 365 for Finance and Operations, see the <bpt id="p1">[</bpt>International availability guide<ept id="p1">](https://aka.ms/dynamics_365_international_availability_deck)</ept>.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Para consultar una lista de las ubicaciones que se admiten para Dynamics 365 for Finance and Operations, consulte la <bpt id="p1">[</bpt>Guía de disponibilidad internacional<ept id="p1">](https://aka.ms/dynamics_365_international_availability_deck)</ept>.</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
