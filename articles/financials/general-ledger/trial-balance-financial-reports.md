@@ -1,258 +1,112 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="trial-balance-financial-reports.md" target-language="es-ES">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>trial-balance-financial-reports.b5c612.cd500c2880545ccae3cde7e2ead2fc5b83167d32.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>cd500c2880545ccae3cde7e2ead2fc5b83167d32</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>574d4dda83dcab94728a3d35fc53ee7e2b90feb0</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/22/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\general-ledger\trial-balance-financial-reports.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Trial balance financial reports</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Informes financieros de saldo de comprobación</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This article describes the default reports for trial balances.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En este artículo se describen los informes predeterminados para los saldos de comprobación.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103" restype="x-metadata">
-          <source>It also describes the building blocks that are associated with these reports and how you can modify the reports to fit your business requirements.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">También se describen los componentes asociados a estos informes y cómo puede modificar los informes para que se adapten a sus requisitos empresariales.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>Trial balance financial reports</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Informes financieros de saldo de comprobación</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>This article describes the default reports for trial balances.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En este artículo se describen los informes predeterminados para los saldos de comprobación.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>It also describes the building blocks that are associated with these reports and how you can modify the reports to fit your business requirements.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">También se describen los componentes asociados a estos informes y cómo puede modificar los informes para que se adapten a sus requisitos empresariales.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>Default trial balance reports</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Informes de saldo de comprobación predeterminados</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>Three trial balance reports are available in Financial reporting in Microsoft Dynamics 365 for Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hay tres informes de saldo de comprobación disponibles en Informes financieros en Microsoft Dynamics 365 for Finance and Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>Default report</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Informe predeterminado</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>What it does</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Qué hace</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>Detailed Trial Balance - Default</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saldo de comprobación detallado - predeterminado</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>Provides balance information for all accounts, and includes debit and credit balances, and the net of these, together with the transaction date, voucher, and journal description.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ofrece información de saldo para todas las cuentas e incluye saldos de débito y de crédito, y el neto de estos, junto con la fecha de transacción, el asiento y la descripción del diario.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>Summary Trial Balance – Default</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Resumen de saldo de comprobación – predeterminado</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>Provides balance information for all accounts, and includes opening and closing balances, and debit and credit balances, together with their net difference.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ofrece información de saldo para todas las cuentas e incluye saldos de apertura y de cierre, y saldos de débito y crédito, junto con su diferencia neta.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>Summary Trial Balance Year Over Year – Default</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Resumen de saldo de comprobación año por año – predeterminado</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>Provides balance information for all accounts, and includes opening and closing balances, and debit and credit balances, together with their net difference for the current year and the past year.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ofrece información de saldo para todas las cuentas e incluye saldos de apertura y cierre, y saldos de débito y crédito, junto con su diferencia neta para el año actual y el anterior.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Building blocks</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bloques de creación</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>The trial balance financial reports use the following building blocks.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los informes financieros del saldo de comprobación usan los siguientes bloques de creación.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>Default report</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Informe predeterminado</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>Row definition</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Definición de filas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>Column definition</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Definición de columnas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>Detailed Trial Balance - Default</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saldo de comprobación detallado - predeterminado</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Trial Balance - Default</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saldo de comprobación - predeterminado</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>Detailed Trial Balance - Default</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saldo de comprobación detallado - predeterminado</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>Summary Trial Balance – Default</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Resumen de saldo de comprobación – predeterminado</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>Trial Balance - Default</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saldo de comprobación - predeterminado</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>Summary Trial Balance - Default</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Resumen de saldo de comprobación - predeterminado</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>Summary Trial Balance Year Over Year – Default</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Resumen de saldo de comprobación año por año – predeterminado</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>Trial Balance - Default</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saldo de comprobación - predeterminado</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>Summary Trial Balance Year Over Year - Default</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Resumen de saldo de comprobación año por año - predeterminado</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>Row definition</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Definición de filas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>The row definition, Trial Balance – Default, contains a single row that pulls in all main accounts.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La definición de filas, Saldo de comprobación – Predeterminado, contiene una sola fila que extrae todas las cuentas principales.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>Therefore, anyone can generate the report without having to make any modifications.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Por tanto, cualquier persona puede generar el informe sin tener que realizar ninguna modificación.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>When you view the report, you drill into the single row to see details about each account.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cuando ve el informe, explora la fila única para ver los detalles acerca de cada cuenta.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>You can modify the row definition so that it includes more detail.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Puede modificar la definición de filas para que incluya más detalle.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>To modify the Trial Balance – Default row definition so that it includes rows for all accounts, follow these steps.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para modificar la definición de filas Saldo de comprobación - predeterminado para que incluya filas para todas las cuentas, siga estos pasos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>Click <bpt id="p1">**</bpt>Edit<ept id="p1">**</ept>, and then click <bpt id="p2">**</bpt>Insert Rows from Dimensions<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haga clic en <bpt id="p2">**</bpt>Editar<ept id="p2">**</ept> y, a continuación, en <bpt id="p1">**</bpt>Insertar filas de dimensiones<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>The <bpt id="p1">**</bpt>Insert Rows from Dimensions<ept id="p1">**</ept> command lets you choose the dimensions that you want to have in your row definition.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El comando <bpt id="p1">**</bpt>Insertar filas de dimensiones<ept id="p1">**</ept> le permite elegir las dimensiones que desea tener en la definición de filas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>For this row definition, you're going to use <bpt id="p1">**</bpt>Main Account<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para esta definición de filas, va a usar <bpt id="p1">**</bpt>Cuenta principal<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>Make sure that <bpt id="p1">**</bpt>Main Account<ept id="p1">**</ept> contains all ampersands (&amp;), and then click <bpt id="p2">**</bpt>OK<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Asegúrese de que <bpt id="p1">**</bpt>Cuenta principal<ept id="p1">**</ept> contiene todos los ampersands (&amp;) y haga clic en <bpt id="p2">**</bpt>Aceptar<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>The row definition now contains all the main accounts for your default legal entity.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La definición de filas contiene ahora todas las cuentas principales para la entidad jurídica predeterminada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>Column definition</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Definición de columnas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>Each trial balance report uses a different column definition.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cada informe de saldo de comprobación usa otra definición de columna.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>These column definitions contain different types of columns to provide different levels of detail and financial data.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Estas definiciones de columnas contienen diversos tipos de columnas para proporcionar distintos niveles de detalle y datos financieros.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source><bpt id="p1">**</bpt>Detailed Trial Balance – Default column types:<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Tipos de columnas de Saldo de comprobación detallados – predeterminado:<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source><bpt id="p1">**</bpt>DESC<ept id="p1">**</ept> – The description from the row definition</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>DESC<ept id="p1">**</ept> : la descripción de la definición de filas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source><bpt id="p1">**</bpt>ACCT<ept id="p1">**</ept> – Account codes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>ACCT<ept id="p1">**</ept>: códigos de cuenta</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source><bpt id="p1">**</bpt>ATTR (3)<ept id="p1">**</ept> – Attributes:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>ATTR (3)<ept id="p1">**</ept> atributos:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>Transaction Date</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fecha de la transacción</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>Voucher</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Comprobante</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>Journal Description</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Descripción del diario</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source><bpt id="p1">**</bpt>FD<ept id="p1">**</ept> – Financial data that contains only debits</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>FD<ept id="p1">**</ept>: los datos financieros que contienen solo débitos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source><bpt id="p1">**</bpt>FD<ept id="p1">**</ept> – Financial data that contains only credits</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>FD<ept id="p1">**</ept>: los datos financieros que contienen solo créditos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source><bpt id="p1">**</bpt>CALC<ept id="p1">**</ept> – The net difference</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>CALC<ept id="p1">**</ept>: la diferencia neta</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source><bpt id="p1">**</bpt>Summary Trial Balance – Default columns types:<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Tipos de columnas de Resumen de saldo de comprobación - predeterminado:<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source><bpt id="p1">**</bpt>ACCT<ept id="p1">**</ept> – Account codes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>ACCT<ept id="p1">**</ept>: códigos de cuenta</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source><bpt id="p1">**</bpt>DESC<ept id="p1">**</ept> – The description from the row definition</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>DESC<ept id="p1">**</ept> : la descripción de la definición de filas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source><bpt id="p1">**</bpt>ATTR<ept id="p1">**</ept> – An attribute:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>ATTR<ept id="p1">**</ept>: un atributo:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>Voucher</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Comprobante</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source><bpt id="p1">**</bpt>FD<ept id="p1">**</ept> – The beginning balance financial data</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>FD<ept id="p1">**</ept>: los datos financieros de saldo inicial</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source><bpt id="p1">**</bpt>FD<ept id="p1">**</ept> – Financial data that contains only debits</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>FD<ept id="p1">**</ept>: los datos financieros que contienen solo débitos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source><bpt id="p1">**</bpt>FD<ept id="p1">**</ept> – Financial data that contains only credits</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>FD<ept id="p1">**</ept>: los datos financieros que contienen solo créditos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source><bpt id="p1">**</bpt>CALC<ept id="p1">**</ept> – The net difference</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>CALC<ept id="p1">**</ept>: la diferencia neta</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source><bpt id="p1">**</bpt>CALC<ept id="p1">**</ept> – The closing balance</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>CALC<ept id="p1">**</ept>: el saldo de cierre</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source><bpt id="p1">**</bpt>Summary Trial Balance Year Over Year – Default:<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Resumen de saldo de comprobación año por año - predeterminado:<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="166">
-          <source><bpt id="p1">**</bpt>ACCT<ept id="p1">**</ept> – Account codes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>ACCT<ept id="p1">**</ept>: códigos de cuenta</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="167">
-          <source><bpt id="p1">**</bpt>DESC<ept id="p1">**</ept> – The description from the row definition</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>DESC<ept id="p1">**</ept> : la descripción de la definición de filas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="168">
-          <source><bpt id="p1">**</bpt>ATTR<ept id="p1">**</ept> – An attribute</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>ATTR<ept id="p1">**</ept>: un atributo</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="169">
-          <source>Voucher</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Comprobante</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="170">
-          <source><bpt id="p1">**</bpt>FD<ept id="p1">**</ept> – The beginning balance financial data for the current year</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>FD<ept id="p1">**</ept>: datos financieros de saldo inicial para el año actual</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="171">
-          <source><bpt id="p1">**</bpt>FD<ept id="p1">**</ept> – Financial data that contains only debits for the current year</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>FD<ept id="p1">**</ept>: los datos financieros que solo contienen débitos para el año actual</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="172">
-          <source><bpt id="p1">**</bpt>FD<ept id="p1">**</ept> – Financial data that contains only credits for the current year</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>FD<ept id="p1">**</ept>: los datos financieros que solo contienen créditos para el año actual</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="173">
-          <source><bpt id="p1">**</bpt>CALC<ept id="p1">**</ept> – The net difference</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>CALC<ept id="p1">**</ept>: la diferencia neta</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="174">
-          <source><bpt id="p1">**</bpt>CALC<ept id="p1">**</ept> – The closing balance</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>CALC<ept id="p1">**</ept>: el saldo de cierre</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="175">
-          <source><bpt id="p1">**</bpt>FD<ept id="p1">**</ept> – Financial data that contains only debits for the last year</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>FD<ept id="p1">**</ept>: los datos financieros que solo contienen débitos para el año pasado</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="176">
-          <source><bpt id="p1">**</bpt>FD<ept id="p1">**</ept> – Financial data that contains only credits for the last year</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>FD<ept id="p1">**</ept>: los datos financieros que solo contienen créditos para el año pasado</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="177">
-          <source>Additional resources</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Recursos adicionales</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="178">
-          <source><bpt id="p1">[</bpt>Financial reporting<ept id="p1">](financial-reporting-getting-started.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Informes financieros<ept id="p1">](financial-reporting-getting-started.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="179">
-          <source><bpt id="p1">[</bpt>View financial reports<ept id="p1">](view-financial-reports.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Ver informes financieros<ept id="p1">](view-financial-reports.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="180">
-          <source><bpt id="p1">[</bpt>Dynamics Financial Reporting Blog<ept id="p1">](https://blogs.msdn.com/b/dynamics_financial_reporting/)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Blog de informes financieros de Dynamics<ept id="p1">](https://blogs.msdn.com/b/dynamics_financial_reporting/)</ept></target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Informes financieros de saldo de comprobación
+description: En este artículo se describen los informes predeterminados para los saldos de comprobación. También se describen los componentes asociados a estos informes y cómo puede modificar los informes para que se adapten a sus requisitos empresariales.
+author: jcart1106
+manager: AnnBe
+ms.date: 06/20/2017
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: LedgerTrialBalanceListPage
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.custom: 12314
+ms.assetid: 3b77d6f3-fd07-41a7-9ddb-1b22d1ae33fc
+ms.search.region: Global
+ms.author: jcart
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: cd500c2880545ccae3cde7e2ead2fc5b83167d32
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595371"
+---
+# <a name="trial-balance-financial-reports"></a><span data-ttu-id="4d209-104">Informes financieros de saldo de comprobación</span><span class="sxs-lookup"><span data-stu-id="4d209-104">Trial balance financial reports</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="4d209-105">En este artículo se describen los informes predeterminados para los saldos de comprobación.</span><span class="sxs-lookup"><span data-stu-id="4d209-105">This article describes the default reports for trial balances.</span></span> <span data-ttu-id="4d209-106">También se describen los componentes asociados a estos informes y cómo puede modificar los informes para que se adapten a sus requisitos empresariales.</span><span class="sxs-lookup"><span data-stu-id="4d209-106">It also describes the building blocks that are associated with these reports and how you can modify the reports to fit your business requirements.</span></span> 
+
+<a name="default-trial-balance-reports"></a><span data-ttu-id="4d209-107">Informes de saldo de comprobación predeterminados</span><span class="sxs-lookup"><span data-stu-id="4d209-107">Default trial balance reports</span></span>
+-----------------------------
+
+<span data-ttu-id="4d209-108">Hay tres informes de saldo de comprobación disponibles en Informes financieros en Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="4d209-108">Three trial balance reports are available in Financial reporting in Microsoft Dynamics 365 for Finance and Operations.</span></span>
+
+| <span data-ttu-id="4d209-109">Informe predeterminado</span><span class="sxs-lookup"><span data-stu-id="4d209-109">Default report</span></span>                                 | <span data-ttu-id="4d209-110">Qué hace</span><span class="sxs-lookup"><span data-stu-id="4d209-110">What it does</span></span>                                                                                                                                                                                        |
+|------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="4d209-111">Saldo de comprobación detallado - predeterminado</span><span class="sxs-lookup"><span data-stu-id="4d209-111">Detailed Trial Balance - Default</span></span>               | <span data-ttu-id="4d209-112">Ofrece información de saldo para todas las cuentas e incluye saldos de débito y de crédito, y el neto de estos, junto con la fecha de transacción, el asiento y la descripción del diario.</span><span class="sxs-lookup"><span data-stu-id="4d209-112">Provides balance information for all accounts, and includes debit and credit balances, and the net of these, together with the transaction date, voucher, and journal description.</span></span>                  |
+| <span data-ttu-id="4d209-113">Resumen de saldo de comprobación – predeterminado</span><span class="sxs-lookup"><span data-stu-id="4d209-113">Summary Trial Balance – Default</span></span>                | <span data-ttu-id="4d209-114">Ofrece información de saldo para todas las cuentas e incluye saldos de apertura y de cierre, y saldos de débito y crédito, junto con su diferencia neta.</span><span class="sxs-lookup"><span data-stu-id="4d209-114">Provides balance information for all accounts, and includes opening and closing balances, and debit and credit balances, together with their net difference.</span></span>                                        |
+| <span data-ttu-id="4d209-115">Resumen de saldo de comprobación año por año – predeterminado</span><span class="sxs-lookup"><span data-stu-id="4d209-115">Summary Trial Balance Year Over Year – Default</span></span> | <span data-ttu-id="4d209-116">Ofrece información de saldo para todas las cuentas e incluye saldos de apertura y cierre, y saldos de débito y crédito, junto con su diferencia neta para el año actual y el anterior.</span><span class="sxs-lookup"><span data-stu-id="4d209-116">Provides balance information for all accounts, and includes opening and closing balances, and debit and credit balances, together with their net difference for the current year and the past year.</span></span> |
+
+## <a name="building-blocks"></a><span data-ttu-id="4d209-117">Bloques de creación</span><span class="sxs-lookup"><span data-stu-id="4d209-117">Building blocks</span></span>
+<span data-ttu-id="4d209-118">Los informes financieros del saldo de comprobación usan los siguientes bloques de creación.</span><span class="sxs-lookup"><span data-stu-id="4d209-118">The trial balance financial reports use the following building blocks.</span></span>
+
+| <span data-ttu-id="4d209-119">Informe predeterminado</span><span class="sxs-lookup"><span data-stu-id="4d209-119">Default report</span></span>                                 | <span data-ttu-id="4d209-120">Definición de filas</span><span class="sxs-lookup"><span data-stu-id="4d209-120">Row definition</span></span>          | <span data-ttu-id="4d209-121">Definición de columnas</span><span class="sxs-lookup"><span data-stu-id="4d209-121">Column definition</span></span>                              |
+|------------------------------------------------|-------------------------|------------------------------------------------|
+| <span data-ttu-id="4d209-122">Saldo de comprobación detallado - predeterminado</span><span class="sxs-lookup"><span data-stu-id="4d209-122">Detailed Trial Balance - Default</span></span>               | <span data-ttu-id="4d209-123">Saldo de comprobación - predeterminado</span><span class="sxs-lookup"><span data-stu-id="4d209-123">Trial Balance - Default</span></span> | <span data-ttu-id="4d209-124">Saldo de comprobación detallado - predeterminado</span><span class="sxs-lookup"><span data-stu-id="4d209-124">Detailed Trial Balance - Default</span></span>               |
+| <span data-ttu-id="4d209-125">Resumen de saldo de comprobación – predeterminado</span><span class="sxs-lookup"><span data-stu-id="4d209-125">Summary Trial Balance – Default</span></span>                | <span data-ttu-id="4d209-126">Saldo de comprobación - predeterminado</span><span class="sxs-lookup"><span data-stu-id="4d209-126">Trial Balance - Default</span></span> | <span data-ttu-id="4d209-127">Resumen de saldo de comprobación - predeterminado</span><span class="sxs-lookup"><span data-stu-id="4d209-127">Summary Trial Balance - Default</span></span>                |
+| <span data-ttu-id="4d209-128">Resumen de saldo de comprobación año por año – predeterminado</span><span class="sxs-lookup"><span data-stu-id="4d209-128">Summary Trial Balance Year Over Year – Default</span></span> | <span data-ttu-id="4d209-129">Saldo de comprobación - predeterminado</span><span class="sxs-lookup"><span data-stu-id="4d209-129">Trial Balance - Default</span></span> | <span data-ttu-id="4d209-130">Resumen de saldo de comprobación año por año - predeterminado</span><span class="sxs-lookup"><span data-stu-id="4d209-130">Summary Trial Balance Year Over Year - Default</span></span> |
+
+### <a name="row-definition"></a><span data-ttu-id="4d209-131">Definición de filas</span><span class="sxs-lookup"><span data-stu-id="4d209-131">Row definition</span></span>
+
+<span data-ttu-id="4d209-132">La definición de filas, Saldo de comprobación – Predeterminado, contiene una sola fila que extrae todas las cuentas principales.</span><span class="sxs-lookup"><span data-stu-id="4d209-132">The row definition, Trial Balance – Default, contains a single row that pulls in all main accounts.</span></span> <span data-ttu-id="4d209-133">Por tanto, cualquier persona puede generar el informe sin tener que realizar ninguna modificación.</span><span class="sxs-lookup"><span data-stu-id="4d209-133">Therefore, anyone can generate the report without having to make any modifications.</span></span> <span data-ttu-id="4d209-134">Cuando ve el informe, explora la fila única para ver los detalles acerca de cada cuenta.</span><span class="sxs-lookup"><span data-stu-id="4d209-134">When you view the report, you drill into the single row to see details about each account.</span></span> <span data-ttu-id="4d209-135">Puede modificar la definición de filas para que incluya más detalle.</span><span class="sxs-lookup"><span data-stu-id="4d209-135">You can modify the row definition so that it includes more detail.</span></span> <span data-ttu-id="4d209-136">Para modificar la definición de filas Saldo de comprobación - predeterminado para que incluya filas para todas las cuentas, siga estos pasos.</span><span class="sxs-lookup"><span data-stu-id="4d209-136">To modify the Trial Balance – Default row definition so that it includes rows for all accounts, follow these steps.</span></span>
+
+1.  <span data-ttu-id="4d209-137">Haga clic en **Editar** y, a continuación, en **Insertar filas de dimensiones**.</span><span class="sxs-lookup"><span data-stu-id="4d209-137">Click **Edit**, and then click **Insert Rows from Dimensions**.</span></span> <span data-ttu-id="4d209-138">El comando **Insertar filas de dimensiones** le permite elegir las dimensiones que desea tener en la definición de filas.</span><span class="sxs-lookup"><span data-stu-id="4d209-138">The **Insert Rows from Dimensions** command lets you choose the dimensions that you want to have in your row definition.</span></span> <span data-ttu-id="4d209-139">Para esta definición de filas, va a usar **Cuenta principal**.</span><span class="sxs-lookup"><span data-stu-id="4d209-139">For this row definition, you're going to use **Main Account**.</span></span>
+2.  <span data-ttu-id="4d209-140">Asegúrese de que **Cuenta principal** contiene todos los ampersands (&) y haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="4d209-140">Make sure that **Main Account** contains all ampersands (&), and then click **OK**.</span></span>
+
+<span data-ttu-id="4d209-141">La definición de filas contiene ahora todas las cuentas principales para la entidad jurídica predeterminada.</span><span class="sxs-lookup"><span data-stu-id="4d209-141">The row definition now contains all the main accounts for your default legal entity.</span></span>
+
+### <a name="column-definition"></a><span data-ttu-id="4d209-142">Definición de columnas</span><span class="sxs-lookup"><span data-stu-id="4d209-142">Column definition</span></span>
+
+<span data-ttu-id="4d209-143">Cada informe de saldo de comprobación usa otra definición de columna.</span><span class="sxs-lookup"><span data-stu-id="4d209-143">Each trial balance report uses a different column definition.</span></span> <span data-ttu-id="4d209-144">Estas definiciones de columnas contienen diversos tipos de columnas para proporcionar distintos niveles de detalle y datos financieros.</span><span class="sxs-lookup"><span data-stu-id="4d209-144">These column definitions contain different types of columns to provide different levels of detail and financial data.</span></span>
+
+-   <span data-ttu-id="4d209-145">**Tipos de columnas de Saldo de comprobación detallados – predeterminado:**</span><span class="sxs-lookup"><span data-stu-id="4d209-145">**Detailed Trial Balance – Default column types:**</span></span>
+    -   <span data-ttu-id="4d209-146">**DESC** : la descripción de la definición de filas.</span><span class="sxs-lookup"><span data-stu-id="4d209-146">**DESC** – The description from the row definition</span></span>
+    -   <span data-ttu-id="4d209-147">**ACCT**: códigos de cuenta</span><span class="sxs-lookup"><span data-stu-id="4d209-147">**ACCT** – Account codes</span></span>
+    -   <span data-ttu-id="4d209-148">**ATTR (3)** atributos:</span><span class="sxs-lookup"><span data-stu-id="4d209-148">**ATTR (3)** – Attributes:</span></span>
+        -   <span data-ttu-id="4d209-149">Fecha de la transacción</span><span class="sxs-lookup"><span data-stu-id="4d209-149">Transaction Date</span></span>
+        -   <span data-ttu-id="4d209-150">Comprobante</span><span class="sxs-lookup"><span data-stu-id="4d209-150">Voucher</span></span>
+        -   <span data-ttu-id="4d209-151">Descripción del diario</span><span class="sxs-lookup"><span data-stu-id="4d209-151">Journal Description</span></span>
+    -   <span data-ttu-id="4d209-152">**FD**: los datos financieros que contienen solo débitos</span><span class="sxs-lookup"><span data-stu-id="4d209-152">**FD** – Financial data that contains only debits</span></span>
+    -   <span data-ttu-id="4d209-153">**FD**: los datos financieros que contienen solo créditos</span><span class="sxs-lookup"><span data-stu-id="4d209-153">**FD** – Financial data that contains only credits</span></span>
+    -   <span data-ttu-id="4d209-154">**CALC**: la diferencia neta</span><span class="sxs-lookup"><span data-stu-id="4d209-154">**CALC** – The net difference</span></span>
+-   <span data-ttu-id="4d209-155">**Tipos de columnas de Resumen de saldo de comprobación - predeterminado:**</span><span class="sxs-lookup"><span data-stu-id="4d209-155">**Summary Trial Balance – Default columns types:**</span></span>
+    -   <span data-ttu-id="4d209-156">**ACCT**: códigos de cuenta</span><span class="sxs-lookup"><span data-stu-id="4d209-156">**ACCT** – Account codes</span></span>
+    -   <span data-ttu-id="4d209-157">**DESC** : la descripción de la definición de filas.</span><span class="sxs-lookup"><span data-stu-id="4d209-157">**DESC** – The description from the row definition</span></span>
+    -   <span data-ttu-id="4d209-158">**ATTR**: un atributo:</span><span class="sxs-lookup"><span data-stu-id="4d209-158">**ATTR** – An attribute:</span></span>
+        -   <span data-ttu-id="4d209-159">Comprobante</span><span class="sxs-lookup"><span data-stu-id="4d209-159">Voucher</span></span>
+    -   <span data-ttu-id="4d209-160">**FD**: los datos financieros de saldo inicial</span><span class="sxs-lookup"><span data-stu-id="4d209-160">**FD** – The beginning balance financial data</span></span>
+    -   <span data-ttu-id="4d209-161">**FD**: los datos financieros que contienen solo débitos</span><span class="sxs-lookup"><span data-stu-id="4d209-161">**FD** – Financial data that contains only debits</span></span>
+    -   <span data-ttu-id="4d209-162">**FD**: los datos financieros que contienen solo créditos</span><span class="sxs-lookup"><span data-stu-id="4d209-162">**FD** – Financial data that contains only credits</span></span>
+    -   <span data-ttu-id="4d209-163">**CALC**: la diferencia neta</span><span class="sxs-lookup"><span data-stu-id="4d209-163">**CALC** – The net difference</span></span>
+    -   <span data-ttu-id="4d209-164">**CALC**: el saldo de cierre</span><span class="sxs-lookup"><span data-stu-id="4d209-164">**CALC** – The closing balance</span></span>
+-   <span data-ttu-id="4d209-165">**Resumen de saldo de comprobación año por año - predeterminado:**</span><span class="sxs-lookup"><span data-stu-id="4d209-165">**Summary Trial Balance Year Over Year – Default:**</span></span>
+    -   <span data-ttu-id="4d209-166">**ACCT**: códigos de cuenta</span><span class="sxs-lookup"><span data-stu-id="4d209-166">**ACCT** – Account codes</span></span>
+    -   <span data-ttu-id="4d209-167">**DESC** : la descripción de la definición de filas.</span><span class="sxs-lookup"><span data-stu-id="4d209-167">**DESC** – The description from the row definition</span></span>
+    -   <span data-ttu-id="4d209-168">**ATTR**: un atributo</span><span class="sxs-lookup"><span data-stu-id="4d209-168">**ATTR** – An attribute</span></span>
+        -   <span data-ttu-id="4d209-169">Comprobante</span><span class="sxs-lookup"><span data-stu-id="4d209-169">Voucher</span></span>
+    -   <span data-ttu-id="4d209-170">**FD**: datos financieros de saldo inicial para el año actual</span><span class="sxs-lookup"><span data-stu-id="4d209-170">**FD** – The beginning balance financial data for the current year</span></span>
+    -   <span data-ttu-id="4d209-171">**FD**: los datos financieros que solo contienen débitos para el año actual</span><span class="sxs-lookup"><span data-stu-id="4d209-171">**FD** – Financial data that contains only debits for the current year</span></span>
+    -   <span data-ttu-id="4d209-172">**FD**: los datos financieros que solo contienen créditos para el año actual</span><span class="sxs-lookup"><span data-stu-id="4d209-172">**FD** – Financial data that contains only credits for the current year</span></span>
+    -   <span data-ttu-id="4d209-173">**CALC**: la diferencia neta</span><span class="sxs-lookup"><span data-stu-id="4d209-173">**CALC** – The net difference</span></span>
+    -   <span data-ttu-id="4d209-174">**CALC**: el saldo de cierre</span><span class="sxs-lookup"><span data-stu-id="4d209-174">**CALC** – The closing balance</span></span>
+    -   <span data-ttu-id="4d209-175">**FD**: los datos financieros que solo contienen débitos para el año pasado</span><span class="sxs-lookup"><span data-stu-id="4d209-175">**FD** – Financial data that contains only debits for the last year</span></span>
+    -   <span data-ttu-id="4d209-176">**FD**: los datos financieros que solo contienen créditos para el año pasado</span><span class="sxs-lookup"><span data-stu-id="4d209-176">**FD** – Financial data that contains only credits for the last year</span></span>
+
+
+
+<a name="additional-resources"></a><span data-ttu-id="4d209-177">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="4d209-177">Additional resources</span></span>
+--------
+
+[<span data-ttu-id="4d209-178">Informes financieros</span><span class="sxs-lookup"><span data-stu-id="4d209-178">Financial reporting</span></span>](financial-reporting-getting-started.md)
+
+[<span data-ttu-id="4d209-179">Ver informes financieros</span><span class="sxs-lookup"><span data-stu-id="4d209-179">View financial reports</span></span>](view-financial-reports.md)
+
+[<span data-ttu-id="4d209-180">Blog de informes financieros de Dynamics</span><span class="sxs-lookup"><span data-stu-id="4d209-180">Dynamics Financial Reporting Blog</span></span>](https://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
+

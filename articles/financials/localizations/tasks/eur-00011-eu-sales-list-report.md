@@ -1,240 +1,103 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="eur-00011-eu-sales-list-report.md" target-language="es-ES">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>eur-00011-eu-sales-list-report.8c82a6.9fcafa2beca5d998b2556ba73e9f3cc2bdd314ba.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>9fcafa2beca5d998b2556ba73e9f3cc2bdd314ba</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\localizations\tasks\eur-00011-eu-sales-list-report.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>EUR-00011 Generate the EU sales list report</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EUR-00011 Generar el informe de lista de ventas de la UE</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This procedure walks you through generating the EU sales list report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este procedimiento le guía por la generación del informe de la lista de ventas de la UE.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>EUR-00011 Generate the EU sales list report</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EUR-00011 Generar el informe de lista de ventas de la UE</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>This procedure walks you through generating the EU sales list report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este procedimiento le guía por la generación del informe de la lista de ventas de la UE.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>This includes transferring intra-community trade transactions to the EU sales list and running the report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esto incluye la transferencia de las transacciones comerciales intracomunitarias a la lista de ventas de la UE y la ejecución del informe.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>This  procedure also includes creating an intra-community trade transaction for demo purposes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este procedimiento también incluye la creación de una transacción comercial intracomunitaria para fines de demostración.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>For more information about EU Sales list reporting, including required prerequisites, refer to the Dynamics 365 for Finance and Operations Help.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para obtener más información acerca de los informes de la lista de ventas de la UE, incluidos requisitos previos necesarios, remítase a la Dynamics 365 for Finance and Operations Ayuda.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>This procedure applies to all European countries/regions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este procedimiento se aplica a todos los países o regiones europeos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>The procedure was created using the demo data company DEMF and consequently Germany as an exemplar domestic country/region.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El procedimiento se creó con la empresa de datos de demostración DEMF y, por tanto, Alemania como país o región nacional de ejemplo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>The procedure also uses Portugal as an exemplar EU country/region.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El procedimiento también utiliza Portugal como país o región de la UE de ejemplo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>Before you can complete this procedure, you must configure EU sales list reporting.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para poder completar este procedimiento, debe configurar los informes de listas de ventas de la UE.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>This procedure is intended for accountants.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este procedimiento está pensado para contables.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>Create an intra-community sales transaction for demo purposes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Crear una transacción de ventas intracomunitaria para fines de demostración</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>Go to Accounts receivable &gt; Orders &gt; All sales orders.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vaya a Clientes &gt; Pedidos &gt; Todos los pedidos de venta.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haga clic en Nuevo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>In the Customer account field, type 'PRT-001'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En el campo Cuenta de cliente, escriba "PRT-001".</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haga clic en Aceptar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>In the Item number field, type 'D0001'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En el campo Código de artículo, escriba 'D0001'.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>Expand the Line details section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Expanda la sección Detalles de línea.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>Click the Setup tab.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haga clic en la ficha Configurar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>In the Item sales tax group field, type 'FULL'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En el campo Grupo de impuestos de artículos, escriba "FULL".</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>Click Add line.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haga clic en Agregar línea.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>In the Item number field, type 'D0003'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En el campo Código de artículo, escriba 'D0003'.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>In the Item sales tax group field, type 'RED'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En el campo Grupo de impuestos de artículos, escriba "RED".</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haga clic en Guardar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>On the Action Pane, click Invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En el panel de acciones, haga clic en Factura.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>Click Invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haga clic en Factura.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>Expand the Parameters section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Expanda la sección Parámetros.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>In the Quantity field, select 'All'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En el campo Cantidad, seleccione 'Todo'.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>Expand the Setup section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Expanda la sección Configuración.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>In the Invoice date field, set the date to '01/11/2016'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En el campo Fecha de factura, establezca la fecha en "11/01/2016".</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haga clic en Aceptar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haga clic en Aceptar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>Transfer intra-community trade transactions to the EU sales list</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Transferir transacciones intracomunitarias a la lista de ventas de la UE</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>Go to Tax &gt; Declarations &gt; Foreign trade &gt; EU sales list.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vaya a Impuestos &gt; Declaraciones &gt; Comercio exterior &gt; Lista de ventas de la UE.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>Click Transfer.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haga clic en Transferir.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>Select Yes in the Item field to transfer item transactions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seleccione Sí en el campo Artículo para transferir transacciones de artículos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>Select Yes in the Service field to transfer service transactions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seleccione Sí en el campo Servicio para transferir transacciones de servicio.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>You can also specify additional filters on intra-community trade transactions to transfer.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">También puede especificar filtros adicionales en transacciones comerciales intracomunitarias para transferencia.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>Click Transfer.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haga clic en Transferir.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>Verify that the intra-community sales transaction is successfully transferred to the EU sales list.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Compruebe que la transacción de ventas intracomunitaria se transfiere correctamente a la lista de ventas de la UE.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>Generate the EU sales list report</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"> Generar el informe de lista de ventas de la UE</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>Click Reporting.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haga clic en Informes.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>In the Reporting period field, select 'Monthly'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En el campo Período de notificación, seleccione "Mensual".</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>In the From date field, set the date to '01/01/2016'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En el campo Fecha inicial, defina la fecha en "01/01/2016".</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>Select Yes in the Generate file field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seleccione Sí en el campo Generar archivo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>Select Yes in the Generate report field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seleccione Sí en el campo Generar informe.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>In the File name field, type 'EUSalesList'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En el campo Nombre de archivo, escriba "EUSalesList".</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>In the Report file name field, type 'EUSalesList'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En el campo Nombre de archivo de informe, escriba "EUSalesList".</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>In the EU Sales List Registration ID field, type '123'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En el campo Id. de registro de lista de ventas de la UE, escriba "123".</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>This field is only available for Germany.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este campo solo está disponible para Alemania.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>You can also specify additional filters on intra-community trade transactions to include in the report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">También puede especificar filtros adicionales en transacciones comerciales intracomunitarias para incluirlas en el informe.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haga clic en Aceptar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>Verify that pop-up windows appear to confirm that the file and the control report are being downloaded.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Compruebe que las ventanas emergentes aparecen para confirmar que se están descargando el archivo y el informe de control.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>Mark EU sales list lines as Reported</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Marcar las líneas de la lista de ventas de la UE como notificadas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>Click Mark.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haga clic en Marcar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>Click Mark as reported.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haga clic en Marcar como notificado.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source>In the list, select the row for the Invoice date field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En la lista, seleccione la fila para el campo Fecha de factura.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>In the Criteria field, type '01/01/2016..01/31/2016'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En el campo Criterios, escriba "01/01/2016..01/31/2016".</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>In the list, select the row for the Reporting status field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En la lista, seleccione la fila para el campo Estado de notificación.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source>In the Criteria field, select 'Included'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En el campo Criterios, seleccione "Incluido".</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>You can also specify additional filters on intra-community trade transactions to mark as Reported.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">También puede especificar filtros adicionales en transacciones comerciales intracomunitarias para marcarlas como notificadas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haga clic en Aceptar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source>In the Selection field, select 'Reported'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En el campo Selección, seleccione "Notificado".</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source>Mark EU sales list lines as Closed</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Marcar las líneas de la lista de ventas de la UE como cerradas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="166">
-          <source>Click Mark.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haga clic en Marcar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="167">
-          <source>Click Mark as closed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haga clic en Marcar como cerrado.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="168">
-          <source>In the list, mark the row for the Invoice date field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En la lista, marque la fila para el campo Fecha de factura.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="169">
-          <source>In the Criteria field, type '01/01/2016..01/31/2016'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En el campo Criterios, escriba "01/01/2016..01/31/2016".</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="170">
-          <source>In the list, mark the row for the Reporting status field.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En la lista, marque la fila para el campo Estado de notificación.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="171">
-          <source>In the Criteria field, select ‘Reported’.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En el campo Criterios, seleccione "Notificado".</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="172">
-          <source>You can also specify additional filters on intra-community trade transactions to mark as Closed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">También puede especificar filtros adicionales en transacciones comerciales intracomunitarias para marcarlas como cerradas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="173">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haga clic en Aceptar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="174">
-          <source>In the Selection field, select 'Closed'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En el campo Selección, seleccione "Cerrado".</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: EUR-00011 Generar el informe de lista de ventas de la UE
+description: Este procedimiento le guía por la generación del informe de la lista de ventas de la UE.
+author: ShylaThompson
+manager: AnnBe
+ms.date: 08/29/2018
+ms.topic: business-process
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, SalesEditLines,  EUSalesList, EUSalesListSelection, SysQueryForm, SysLookup
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
+ms.author: epopov
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9fcafa2beca5d998b2556ba73e9f3cc2bdd314ba
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1564437"
+---
+# <a name="eur-00011-generate-the-eu-sales-list-report"></a><span data-ttu-id="91c30-103">EUR-00011 Generar el informe de lista de ventas de la UE</span><span class="sxs-lookup"><span data-stu-id="91c30-103">EUR-00011 Generate the EU sales list report</span></span>
+
+[!include [task guide banner](../../includes/task-guide-banner.md)]
+
+<span data-ttu-id="91c30-104">Este procedimiento le guía por la generación del informe de la lista de ventas de la UE.</span><span class="sxs-lookup"><span data-stu-id="91c30-104">This procedure walks you through generating the EU sales list report.</span></span> <span data-ttu-id="91c30-105">Esto incluye la transferencia de las transacciones comerciales intracomunitarias a la lista de ventas de la UE y la ejecución del informe.</span><span class="sxs-lookup"><span data-stu-id="91c30-105">This includes transferring intra-community trade transactions to the EU sales list and running the report.</span></span> <span data-ttu-id="91c30-106">Este procedimiento también incluye la creación de una transacción comercial intracomunitaria para fines de demostración.</span><span class="sxs-lookup"><span data-stu-id="91c30-106">This  procedure also includes creating an intra-community trade transaction for demo purposes.</span></span> <span data-ttu-id="91c30-107">Para obtener más información acerca de los informes de la lista de ventas de la UE, incluidos requisitos previos necesarios, remítase a la Dynamics 365 for Finance and Operations Ayuda.</span><span class="sxs-lookup"><span data-stu-id="91c30-107">For more information about EU Sales list reporting, including required prerequisites, refer to the Dynamics 365 for Finance and Operations Help.</span></span>
+
+<span data-ttu-id="91c30-108">Este procedimiento se aplica a todos los países o regiones europeos.</span><span class="sxs-lookup"><span data-stu-id="91c30-108">This procedure applies to all European countries/regions.</span></span> <span data-ttu-id="91c30-109">El procedimiento se creó con la empresa de datos de demostración DEMF y, por tanto, Alemania como país o región nacional de ejemplo.</span><span class="sxs-lookup"><span data-stu-id="91c30-109">The procedure was created using the demo data company DEMF and consequently Germany as an exemplar domestic country/region.</span></span> <span data-ttu-id="91c30-110">El procedimiento también utiliza Portugal como país o región de la UE de ejemplo.</span><span class="sxs-lookup"><span data-stu-id="91c30-110">The procedure also uses Portugal as an exemplar EU country/region.</span></span> <span data-ttu-id="91c30-111">Para poder completar este procedimiento, debe configurar los informes de listas de ventas de la UE.</span><span class="sxs-lookup"><span data-stu-id="91c30-111">Before you can complete this procedure, you must configure EU sales list reporting.</span></span>
+
+<span data-ttu-id="91c30-112">Este procedimiento está pensado para contables.</span><span class="sxs-lookup"><span data-stu-id="91c30-112">This procedure is intended for accountants.</span></span>
+
+
+## <a name="create-an-intra-community-sales-transaction-for-demo-purposes"></a><span data-ttu-id="91c30-113">Crear una transacción de ventas intracomunitaria para fines de demostración</span><span class="sxs-lookup"><span data-stu-id="91c30-113">Create an intra-community sales transaction for demo purposes</span></span>
+1. <span data-ttu-id="91c30-114">Vaya a Clientes > Pedidos > Todos los pedidos de venta.</span><span class="sxs-lookup"><span data-stu-id="91c30-114">Go to Accounts receivable > Orders > All sales orders.</span></span>
+2. <span data-ttu-id="91c30-115">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="91c30-115">Click New.</span></span>
+3. <span data-ttu-id="91c30-116">En el campo Cuenta de cliente, escriba "PRT-001".</span><span class="sxs-lookup"><span data-stu-id="91c30-116">In the Customer account field, type 'PRT-001'.</span></span>
+4. <span data-ttu-id="91c30-117">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="91c30-117">Click OK.</span></span>
+5. <span data-ttu-id="91c30-118">En el campo Código de artículo, escriba 'D0001'.</span><span class="sxs-lookup"><span data-stu-id="91c30-118">In the Item number field, type 'D0001'.</span></span>
+6. <span data-ttu-id="91c30-119">Expanda la sección Detalles de línea.</span><span class="sxs-lookup"><span data-stu-id="91c30-119">Expand the Line details section.</span></span>
+7. <span data-ttu-id="91c30-120">Haga clic en la ficha Configurar.</span><span class="sxs-lookup"><span data-stu-id="91c30-120">Click the Setup tab.</span></span>
+8. <span data-ttu-id="91c30-121">En el campo Grupo de impuestos de artículos, escriba "FULL".</span><span class="sxs-lookup"><span data-stu-id="91c30-121">In the Item sales tax group field, type 'FULL'.</span></span>
+9. <span data-ttu-id="91c30-122">Haga clic en Agregar línea.</span><span class="sxs-lookup"><span data-stu-id="91c30-122">Click Add line.</span></span>
+10. <span data-ttu-id="91c30-123">En el campo Código de artículo, escriba 'D0003'.</span><span class="sxs-lookup"><span data-stu-id="91c30-123">In the Item number field, type 'D0003'.</span></span>
+11. <span data-ttu-id="91c30-124">En el campo Grupo de impuestos de artículos, escriba "RED".</span><span class="sxs-lookup"><span data-stu-id="91c30-124">In the Item sales tax group field, type 'RED'.</span></span>
+12. <span data-ttu-id="91c30-125">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="91c30-125">Click Save.</span></span>
+13. <span data-ttu-id="91c30-126">En el panel de acciones, haga clic en Factura.</span><span class="sxs-lookup"><span data-stu-id="91c30-126">On the Action Pane, click Invoice.</span></span>
+14. <span data-ttu-id="91c30-127">Haga clic en Factura.</span><span class="sxs-lookup"><span data-stu-id="91c30-127">Click Invoice.</span></span>
+15. <span data-ttu-id="91c30-128">Expanda la sección Parámetros.</span><span class="sxs-lookup"><span data-stu-id="91c30-128">Expand the Parameters section.</span></span>
+16. <span data-ttu-id="91c30-129">En el campo Cantidad, seleccione 'Todo'.</span><span class="sxs-lookup"><span data-stu-id="91c30-129">In the Quantity field, select 'All'.</span></span>
+17. <span data-ttu-id="91c30-130">Expanda la sección Configuración.</span><span class="sxs-lookup"><span data-stu-id="91c30-130">Expand the Setup section.</span></span>
+18. <span data-ttu-id="91c30-131">En el campo Fecha de factura, establezca la fecha en "11/01/2016".</span><span class="sxs-lookup"><span data-stu-id="91c30-131">In the Invoice date field, set the date to '01/11/2016'.</span></span>
+19. <span data-ttu-id="91c30-132">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="91c30-132">Click OK.</span></span>
+20. <span data-ttu-id="91c30-133">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="91c30-133">Click OK.</span></span>
+
+## <a name="transfer-intra-community-trade-transactions-to-the-eu-sales-list"></a><span data-ttu-id="91c30-134">Transferir transacciones intracomunitarias a la lista de ventas de la UE</span><span class="sxs-lookup"><span data-stu-id="91c30-134">Transfer intra-community trade transactions to the EU sales list</span></span>
+1. <span data-ttu-id="91c30-135">Vaya a Impuestos > Declaraciones > Comercio exterior > Lista de ventas de la UE.</span><span class="sxs-lookup"><span data-stu-id="91c30-135">Go to Tax > Declarations > Foreign trade > EU sales list.</span></span>
+2. <span data-ttu-id="91c30-136">Haga clic en Transferir.</span><span class="sxs-lookup"><span data-stu-id="91c30-136">Click Transfer.</span></span>
+3. <span data-ttu-id="91c30-137">Seleccione Sí en el campo Artículo para transferir transacciones de artículos.</span><span class="sxs-lookup"><span data-stu-id="91c30-137">Select Yes in the Item field to transfer item transactions.</span></span>
+4. <span data-ttu-id="91c30-138">Seleccione Sí en el campo Servicio para transferir transacciones de servicio.</span><span class="sxs-lookup"><span data-stu-id="91c30-138">Select Yes in the Service field to transfer service transactions.</span></span>
+    * <span data-ttu-id="91c30-139">También puede especificar filtros adicionales en transacciones comerciales intracomunitarias para transferencia.</span><span class="sxs-lookup"><span data-stu-id="91c30-139">You can also specify additional filters on intra-community trade transactions to transfer.</span></span>  
+5. <span data-ttu-id="91c30-140">Haga clic en Transferir.</span><span class="sxs-lookup"><span data-stu-id="91c30-140">Click Transfer.</span></span>
+    * <span data-ttu-id="91c30-141">Compruebe que la transacción de ventas intracomunitaria se transfiere correctamente a la lista de ventas de la UE.</span><span class="sxs-lookup"><span data-stu-id="91c30-141">Verify that the intra-community sales transaction is successfully transferred to the EU sales list.</span></span>  
+
+## <a name="generate-the-eu-sales-list-report"></a><span data-ttu-id="91c30-142"> Generar el informe de lista de ventas de la UE</span><span class="sxs-lookup"><span data-stu-id="91c30-142">Generate the EU sales list report</span></span>
+1. <span data-ttu-id="91c30-143">Haga clic en Informes.</span><span class="sxs-lookup"><span data-stu-id="91c30-143">Click Reporting.</span></span>
+2. <span data-ttu-id="91c30-144">En el campo Período de notificación, seleccione "Mensual".</span><span class="sxs-lookup"><span data-stu-id="91c30-144">In the Reporting period field, select 'Monthly'.</span></span>
+3. <span data-ttu-id="91c30-145">En el campo Fecha inicial, defina la fecha en "01/01/2016".</span><span class="sxs-lookup"><span data-stu-id="91c30-145">In the From date field, set the date to '01/01/2016'.</span></span>
+4. <span data-ttu-id="91c30-146">Seleccione Sí en el campo Generar archivo.</span><span class="sxs-lookup"><span data-stu-id="91c30-146">Select Yes in the Generate file field.</span></span>
+5. <span data-ttu-id="91c30-147">Seleccione Sí en el campo Generar informe.</span><span class="sxs-lookup"><span data-stu-id="91c30-147">Select Yes in the Generate report field.</span></span>
+6. <span data-ttu-id="91c30-148">En el campo Nombre de archivo, escriba "EUSalesList".</span><span class="sxs-lookup"><span data-stu-id="91c30-148">In the File name field, type 'EUSalesList'.</span></span>
+7. <span data-ttu-id="91c30-149">En el campo Nombre de archivo de informe, escriba "EUSalesList".</span><span class="sxs-lookup"><span data-stu-id="91c30-149">In the Report file name field, type 'EUSalesList'.</span></span>
+8. <span data-ttu-id="91c30-150">En el campo Id. de registro de lista de ventas de la UE, escriba "123".</span><span class="sxs-lookup"><span data-stu-id="91c30-150">In the EU Sales List Registration ID field, type '123'.</span></span>
+    * <span data-ttu-id="91c30-151">Este campo solo está disponible para Alemania.</span><span class="sxs-lookup"><span data-stu-id="91c30-151">This field is only available for Germany.</span></span>  
+    * <span data-ttu-id="91c30-152">También puede especificar filtros adicionales en transacciones comerciales intracomunitarias para incluirlas en el informe.</span><span class="sxs-lookup"><span data-stu-id="91c30-152">You can also specify additional filters on intra-community trade transactions to include in the report.</span></span>  
+9. <span data-ttu-id="91c30-153">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="91c30-153">Click OK.</span></span>
+    * <span data-ttu-id="91c30-154">Compruebe que las ventanas emergentes aparecen para confirmar que se están descargando el archivo y el informe de control.</span><span class="sxs-lookup"><span data-stu-id="91c30-154">Verify that pop-up windows appear to confirm that the file and the control report are being downloaded.</span></span>  
+
+## <a name="mark-eu-sales-list-lines-as-reported"></a><span data-ttu-id="91c30-155">Marcar las líneas de la lista de ventas de la UE como notificadas</span><span class="sxs-lookup"><span data-stu-id="91c30-155">Mark EU sales list lines as Reported</span></span>
+1. <span data-ttu-id="91c30-156">Haga clic en Marcar.</span><span class="sxs-lookup"><span data-stu-id="91c30-156">Click Mark.</span></span>
+2. <span data-ttu-id="91c30-157">Haga clic en Marcar como notificado.</span><span class="sxs-lookup"><span data-stu-id="91c30-157">Click Mark as reported.</span></span>
+3. <span data-ttu-id="91c30-158">En la lista, seleccione la fila para el campo Fecha de factura.</span><span class="sxs-lookup"><span data-stu-id="91c30-158">In the list, select the row for the Invoice date field.</span></span>
+4. <span data-ttu-id="91c30-159">En el campo Criterios, escriba "01/01/2016..01/31/2016".</span><span class="sxs-lookup"><span data-stu-id="91c30-159">In the Criteria field, type '01/01/2016..01/31/2016'.</span></span>
+5. <span data-ttu-id="91c30-160">En la lista, seleccione la fila para el campo Estado de notificación.</span><span class="sxs-lookup"><span data-stu-id="91c30-160">In the list, select the row for the Reporting status field.</span></span>
+6. <span data-ttu-id="91c30-161">En el campo Criterios, seleccione "Incluido".</span><span class="sxs-lookup"><span data-stu-id="91c30-161">In the Criteria field, select 'Included'.</span></span>
+    * <span data-ttu-id="91c30-162">También puede especificar filtros adicionales en transacciones comerciales intracomunitarias para marcarlas como notificadas.</span><span class="sxs-lookup"><span data-stu-id="91c30-162">You can also specify additional filters on intra-community trade transactions to mark as Reported.</span></span>  
+7. <span data-ttu-id="91c30-163">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="91c30-163">Click OK.</span></span>
+8. <span data-ttu-id="91c30-164">En el campo Selección, seleccione "Notificado".</span><span class="sxs-lookup"><span data-stu-id="91c30-164">In the Selection field, select 'Reported'.</span></span>
+
+## <a name="mark-eu-sales-list-lines-as-closed"></a><span data-ttu-id="91c30-165">Marcar las líneas de la lista de ventas de la UE como cerradas</span><span class="sxs-lookup"><span data-stu-id="91c30-165">Mark EU sales list lines as Closed</span></span>
+1. <span data-ttu-id="91c30-166">Haga clic en Marcar.</span><span class="sxs-lookup"><span data-stu-id="91c30-166">Click Mark.</span></span>
+2. <span data-ttu-id="91c30-167">Haga clic en Marcar como cerrado.</span><span class="sxs-lookup"><span data-stu-id="91c30-167">Click Mark as closed.</span></span>
+3. <span data-ttu-id="91c30-168">En la lista, marque la fila para el campo Fecha de factura.</span><span class="sxs-lookup"><span data-stu-id="91c30-168">In the list, mark the row for the Invoice date field.</span></span>
+4. <span data-ttu-id="91c30-169">En el campo Criterios, escriba "01/01/2016..01/31/2016".</span><span class="sxs-lookup"><span data-stu-id="91c30-169">In the Criteria field, type '01/01/2016..01/31/2016'.</span></span>
+5. <span data-ttu-id="91c30-170">En la lista, marque la fila para el campo Estado de notificación.</span><span class="sxs-lookup"><span data-stu-id="91c30-170">In the list, mark the row for the Reporting status field.</span></span>
+6. <span data-ttu-id="91c30-171">En el campo Criterios, seleccione "Notificado".</span><span class="sxs-lookup"><span data-stu-id="91c30-171">In the Criteria field, select ‘Reported’.</span></span>
+    * <span data-ttu-id="91c30-172">También puede especificar filtros adicionales en transacciones comerciales intracomunitarias para marcarlas como cerradas.</span><span class="sxs-lookup"><span data-stu-id="91c30-172">You can also specify additional filters on intra-community trade transactions to mark as Closed.</span></span>  
+7. <span data-ttu-id="91c30-173">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="91c30-173">Click OK.</span></span>
+8. <span data-ttu-id="91c30-174">En el campo Selección, seleccione "Cerrado".</span><span class="sxs-lookup"><span data-stu-id="91c30-174">In the Selection field, select 'Closed'.</span></span>
+

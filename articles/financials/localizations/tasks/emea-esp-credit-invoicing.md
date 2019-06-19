@@ -1,213 +1,94 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="emea-esp-credit-invoicing.md" target-language="es-ES">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>emea-esp-credit-invoicing.9c1bca.9b73ca0e447b89045ff06b1d48d6c1ddb6d011c5.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>9b73ca0e447b89045ff06b1d48d6c1ddb6d011c5</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\localizations\tasks\emea-esp-credit-invoicing.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Create a corrective invoice (Spain)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Crear una factura correctiva (España)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This procedure walks you through how to create a corrective invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este procedimiento le guía por la manera de crear una factura de corrección.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Create a corrective invoice (Spain)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Crear una factura correctiva (España)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>This procedure walks you through how to create a corrective invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este procedimiento le guía por la manera de crear una factura de corrección.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>This procedure was created using the demo data company DEMF with a primary address in Spain.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este procedimiento se ha creado con los datos de demostración de la empresa DEMF y con una dirección principal en España.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>Create a purchase invoice</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cree una factura de compra.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>Go to Project management and accounting &gt; Projects &gt; All projects.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vaya a Gestión de proyectos y contabilidad &gt; Proyectos &gt; Todos los proyectos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>In the list, click the link in the selected row.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En la lista, haga clic en el vínculo de la fila seleccionada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>Click Item task.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haga clic en Tarea de artículo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>Click Purchase order.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haga clic en Pedido de compra.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>In the Vendor account field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En el campo Cuenta de proveedor, especifique o seleccione un valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haga clic en Aceptar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>In the list, mark the selected row.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En la lista, marque la fila seleccionada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>Click Edit.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haga clic en Editar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>In the Item number field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En el campo Número de artículo, especifique o seleccione un valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>In the Quantity field, enter a number.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En el campo Cantidad, especifique un número.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>On the Action Pane, click Purchase.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En el panel de acciones, haga clic en Compra.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>Click Confirm.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haga clic en Confirmar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>On the Action Pane, click Invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En el panel de acciones, haga clic en Factura.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>Click Invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haga clic en Factura.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>Click Default from: Product receipt quantity to open the drop dialog.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haga clic en Valor predeterminado de origen: Cantidad de recepción de producto para abrir el cuadro de diálogo desplegable.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>In the Default quantity for lines field, select an option.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En el campo Cantidad predeterminada para líneas, seleccione una opción.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haga clic en Aceptar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>In the Number field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En el campo Número, escriba un valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haga clic en Guardar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>Click Post.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haga clic en Registrar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>Post a credit note on a purchase</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Registrar una nota de abono en una compra</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>Go to Project management and accounting &gt; Projects &gt; All projects.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vaya a Gestión de proyectos y contabilidad &gt; Proyectos &gt; Todos los proyectos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>In the list, click the link in the selected row.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En la lista, haga clic en el vínculo de la fila seleccionada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>Click Item task.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haga clic en Tarea de artículo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>Click Purchase order.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haga clic en Pedido de compra.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>In the Vendor account field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En el campo Cuenta de proveedor, especifique o seleccione un valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haga clic en Aceptar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>On the Action Pane, click Purchase.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En el panel de acciones, haga clic en Compra.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>Click Credit note.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haga clic en Nota de abono.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>Expand the Invoices section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Expanda la sección Facturas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>Select the Select all check box.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seleccione la casilla de verificación Seleccionar todo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>Expand the Parameters section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Expanda la sección Parámetros.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haga clic en Aceptar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>On the Action Pane, click Invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En el panel de acciones, haga clic en Factura.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>Click Credit invoicing.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haga clic en Factura rectificativa.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>In the Reason code field, select an option.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En el campo Código de motivo, seleccione una opción.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>In the Reason for correction field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En el campo Razón para la corrección, escriba un valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>In the Correction method field, select an option.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En el campo Método de corrección, seleccione una opción.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haga clic en Aceptar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>Click Financials.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haga clic en Operaciones financieras.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>Click Credit invoicing.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haga clic en Factura rectificativa.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>In the Reason code field, select an option.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En el campo Código de motivo, seleccione una opción.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>In the Reason for correction field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En el campo Razón para la corrección, escriba un valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>In the Correction method field, select an option.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En el campo Método de corrección, seleccione una opción.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haga clic en Aceptar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>Collapse the Line details section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Contraiga la sección Detalles de línea.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haga clic en Guardar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>On the Action Pane, click Purchase.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En el panel de acciones, haga clic en Compra.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>Click Confirm.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haga clic en Confirmar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>On the Action Pane, click Invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En el panel de acciones, haga clic en Factura.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>Click Invoice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haga clic en Factura.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source>Click No.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haga clic en No.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>In the Number field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En el campo Número, escriba un valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>Click Post.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haga clic en Registrar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source>Verify the posted invoice has the correct information</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Compruebe que la factura registrada tenga la información correcta</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>Go to Accounts payable &gt; Vendors &gt; All vendors.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vaya a Proveedores &gt; Proveedores &gt; Todos los proveedores.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source>In the list, click the link in the selected row.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En la lista, haga clic en el vínculo de la fila seleccionada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source>Click Transactions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haga clic en Transacciones.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source>Click the General tab.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Haga clic en la pestaña General.</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Crear una factura correctiva (España)
+description: Este procedimiento le guía por la manera de crear una factura de corrección.
+author: ShylaThompson
+manager: AnnBe
+ms.date: 12/06/2017
+ms.topic: business-process
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Operations
+ms.search.region: Spain
+ms.author: shylaw
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9b73ca0e447b89045ff06b1d48d6c1ddb6d011c5
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1565061"
+---
+# <a name="create-a-corrective-invoice-spain"></a><span data-ttu-id="a935d-103">Crear una factura correctiva (España)</span><span class="sxs-lookup"><span data-stu-id="a935d-103">Create a corrective invoice (Spain)</span></span>
+
+[!include [task guide banner](../../includes/task-guide-banner.md)]
+
+<span data-ttu-id="a935d-104">Este procedimiento le guía por la manera de crear una factura de corrección.</span><span class="sxs-lookup"><span data-stu-id="a935d-104">This procedure walks you through how to create a corrective invoice.</span></span> <span data-ttu-id="a935d-105">Este procedimiento se ha creado con los datos de demostración de la empresa DEMF y con una dirección principal en España.</span><span class="sxs-lookup"><span data-stu-id="a935d-105">This procedure was created using the demo data company DEMF with a primary address in Spain.</span></span>
+
+
+## <a name="create-a-purchase-invoice"></a><span data-ttu-id="a935d-106">Cree una factura de compra.</span><span class="sxs-lookup"><span data-stu-id="a935d-106">Create a purchase invoice</span></span>
+1. <span data-ttu-id="a935d-107">Vaya a Gestión de proyectos y contabilidad > Proyectos > Todos los proyectos.</span><span class="sxs-lookup"><span data-stu-id="a935d-107">Go to Project management and accounting > Projects > All projects.</span></span>
+2. <span data-ttu-id="a935d-108">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="a935d-108">In the list, click the link in the selected row.</span></span>
+3. <span data-ttu-id="a935d-109">Haga clic en Tarea de artículo.</span><span class="sxs-lookup"><span data-stu-id="a935d-109">Click Item task.</span></span>
+4. <span data-ttu-id="a935d-110">Haga clic en Pedido de compra.</span><span class="sxs-lookup"><span data-stu-id="a935d-110">Click Purchase order.</span></span>
+5. <span data-ttu-id="a935d-111">En el campo Cuenta de proveedor, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="a935d-111">In the Vendor account field, enter or select a value.</span></span>
+6. <span data-ttu-id="a935d-112">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="a935d-112">Click OK.</span></span>
+7. <span data-ttu-id="a935d-113">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="a935d-113">In the list, mark the selected row.</span></span>
+8. <span data-ttu-id="a935d-114">Haga clic en Editar.</span><span class="sxs-lookup"><span data-stu-id="a935d-114">Click Edit.</span></span>
+9. <span data-ttu-id="a935d-115">En el campo Número de artículo, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="a935d-115">In the Item number field, enter or select a value.</span></span>
+10. <span data-ttu-id="a935d-116">En el campo Cantidad, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="a935d-116">In the Quantity field, enter a number.</span></span>
+11. <span data-ttu-id="a935d-117">En el panel de acciones, haga clic en Compra.</span><span class="sxs-lookup"><span data-stu-id="a935d-117">On the Action Pane, click Purchase.</span></span>
+12. <span data-ttu-id="a935d-118">Haga clic en Confirmar.</span><span class="sxs-lookup"><span data-stu-id="a935d-118">Click Confirm.</span></span>
+13. <span data-ttu-id="a935d-119">En el panel de acciones, haga clic en Factura.</span><span class="sxs-lookup"><span data-stu-id="a935d-119">On the Action Pane, click Invoice.</span></span>
+14. <span data-ttu-id="a935d-120">Haga clic en Factura.</span><span class="sxs-lookup"><span data-stu-id="a935d-120">Click Invoice.</span></span>
+15. <span data-ttu-id="a935d-121">Haga clic en Valor predeterminado de origen: Cantidad de recepción de producto para abrir el cuadro de diálogo desplegable.</span><span class="sxs-lookup"><span data-stu-id="a935d-121">Click Default from: Product receipt quantity to open the drop dialog.</span></span>
+16. <span data-ttu-id="a935d-122">En el campo Cantidad predeterminada para líneas, seleccione una opción.</span><span class="sxs-lookup"><span data-stu-id="a935d-122">In the Default quantity for lines field, select an option.</span></span>
+17. <span data-ttu-id="a935d-123">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="a935d-123">Click OK.</span></span>
+18. <span data-ttu-id="a935d-124">En el campo Número, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="a935d-124">In the Number field, type a value.</span></span>
+19. <span data-ttu-id="a935d-125">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="a935d-125">Click Save.</span></span>
+20. <span data-ttu-id="a935d-126">Haga clic en Registrar.</span><span class="sxs-lookup"><span data-stu-id="a935d-126">Click Post.</span></span>
+
+## <a name="post-a-credit-note-on-a-purchase"></a><span data-ttu-id="a935d-127">Registrar una nota de abono en una compra</span><span class="sxs-lookup"><span data-stu-id="a935d-127">Post a credit note on a purchase</span></span>
+1. <span data-ttu-id="a935d-128">Vaya a Gestión de proyectos y contabilidad > Proyectos > Todos los proyectos.</span><span class="sxs-lookup"><span data-stu-id="a935d-128">Go to Project management and accounting > Projects > All projects.</span></span>
+2. <span data-ttu-id="a935d-129">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="a935d-129">In the list, click the link in the selected row.</span></span>
+3. <span data-ttu-id="a935d-130">Haga clic en Tarea de artículo.</span><span class="sxs-lookup"><span data-stu-id="a935d-130">Click Item task.</span></span>
+4. <span data-ttu-id="a935d-131">Haga clic en Pedido de compra.</span><span class="sxs-lookup"><span data-stu-id="a935d-131">Click Purchase order.</span></span>
+5. <span data-ttu-id="a935d-132">En el campo Cuenta de proveedor, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="a935d-132">In the Vendor account field, enter or select a value.</span></span>
+6. <span data-ttu-id="a935d-133">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="a935d-133">Click OK.</span></span>
+7. <span data-ttu-id="a935d-134">En el panel de acciones, haga clic en Compra.</span><span class="sxs-lookup"><span data-stu-id="a935d-134">On the Action Pane, click Purchase.</span></span>
+8. <span data-ttu-id="a935d-135">Haga clic en Nota de abono.</span><span class="sxs-lookup"><span data-stu-id="a935d-135">Click Credit note.</span></span>
+9. <span data-ttu-id="a935d-136">Expanda la sección Facturas.</span><span class="sxs-lookup"><span data-stu-id="a935d-136">Expand the Invoices section.</span></span>
+10. <span data-ttu-id="a935d-137">Seleccione la casilla de verificación Seleccionar todo.</span><span class="sxs-lookup"><span data-stu-id="a935d-137">Select the Select all check box.</span></span>
+11. <span data-ttu-id="a935d-138">Expanda la sección Parámetros.</span><span class="sxs-lookup"><span data-stu-id="a935d-138">Expand the Parameters section.</span></span>
+12. <span data-ttu-id="a935d-139">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="a935d-139">Click OK.</span></span>
+13. <span data-ttu-id="a935d-140">En el panel de acciones, haga clic en Factura.</span><span class="sxs-lookup"><span data-stu-id="a935d-140">On the Action Pane, click Invoice.</span></span>
+14. <span data-ttu-id="a935d-141">Haga clic en Factura rectificativa.</span><span class="sxs-lookup"><span data-stu-id="a935d-141">Click Credit invoicing.</span></span>
+15. <span data-ttu-id="a935d-142">En el campo Código de motivo, seleccione una opción.</span><span class="sxs-lookup"><span data-stu-id="a935d-142">In the Reason code field, select an option.</span></span>
+16. <span data-ttu-id="a935d-143">En el campo Razón para la corrección, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="a935d-143">In the Reason for correction field, type a value.</span></span>
+17. <span data-ttu-id="a935d-144">En el campo Método de corrección, seleccione una opción.</span><span class="sxs-lookup"><span data-stu-id="a935d-144">In the Correction method field, select an option.</span></span>
+18. <span data-ttu-id="a935d-145">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="a935d-145">Click OK.</span></span>
+19. <span data-ttu-id="a935d-146">Haga clic en Operaciones financieras.</span><span class="sxs-lookup"><span data-stu-id="a935d-146">Click Financials.</span></span>
+20. <span data-ttu-id="a935d-147">Haga clic en Factura rectificativa.</span><span class="sxs-lookup"><span data-stu-id="a935d-147">Click Credit invoicing.</span></span>
+21. <span data-ttu-id="a935d-148">En el campo Código de motivo, seleccione una opción.</span><span class="sxs-lookup"><span data-stu-id="a935d-148">In the Reason code field, select an option.</span></span>
+22. <span data-ttu-id="a935d-149">En el campo Razón para la corrección, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="a935d-149">In the Reason for correction field, type a value.</span></span>
+23. <span data-ttu-id="a935d-150">En el campo Método de corrección, seleccione una opción.</span><span class="sxs-lookup"><span data-stu-id="a935d-150">In the Correction method field, select an option.</span></span>
+24. <span data-ttu-id="a935d-151">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="a935d-151">Click OK.</span></span>
+25. <span data-ttu-id="a935d-152">Contraiga la sección Detalles de línea.</span><span class="sxs-lookup"><span data-stu-id="a935d-152">Collapse the Line details section.</span></span>
+26. <span data-ttu-id="a935d-153">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="a935d-153">Click Save.</span></span>
+27. <span data-ttu-id="a935d-154">En el panel de acciones, haga clic en Compra.</span><span class="sxs-lookup"><span data-stu-id="a935d-154">On the Action Pane, click Purchase.</span></span>
+28. <span data-ttu-id="a935d-155">Haga clic en Confirmar.</span><span class="sxs-lookup"><span data-stu-id="a935d-155">Click Confirm.</span></span>
+29. <span data-ttu-id="a935d-156">En el panel de acciones, haga clic en Factura.</span><span class="sxs-lookup"><span data-stu-id="a935d-156">On the Action Pane, click Invoice.</span></span>
+30. <span data-ttu-id="a935d-157">Haga clic en Factura.</span><span class="sxs-lookup"><span data-stu-id="a935d-157">Click Invoice.</span></span>
+31. <span data-ttu-id="a935d-158">Haga clic en No.</span><span class="sxs-lookup"><span data-stu-id="a935d-158">Click No.</span></span>
+32. <span data-ttu-id="a935d-159">En el campo Número, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="a935d-159">In the Number field, type a value.</span></span>
+33. <span data-ttu-id="a935d-160">Haga clic en Registrar.</span><span class="sxs-lookup"><span data-stu-id="a935d-160">Click Post.</span></span>
+
+## <a name="verify-the-posted-invoice-has-the-correct-information"></a><span data-ttu-id="a935d-161">Compruebe que la factura registrada tenga la información correcta</span><span class="sxs-lookup"><span data-stu-id="a935d-161">Verify the posted invoice has the correct information</span></span>
+1. <span data-ttu-id="a935d-162">Vaya a Proveedores > Proveedores > Todos los proveedores.</span><span class="sxs-lookup"><span data-stu-id="a935d-162">Go to Accounts payable > Vendors > All vendors.</span></span>
+2. <span data-ttu-id="a935d-163">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="a935d-163">In the list, click the link in the selected row.</span></span>
+3. <span data-ttu-id="a935d-164">Haga clic en Transacciones.</span><span class="sxs-lookup"><span data-stu-id="a935d-164">Click Transactions.</span></span>
+4. <span data-ttu-id="a935d-165">Haga clic en la pestaña General.</span><span class="sxs-lookup"><span data-stu-id="a935d-165">Click the General tab.</span></span>
+
