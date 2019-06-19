@@ -1,123 +1,76 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="public-sector-functionality.md" target-language="es-ES">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>public-sector-functionality.df9d27.1b77e9289bd360631ea646951809705d58c9e189.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>1b77e9289bd360631ea646951809705d58c9e189</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\public-sector\public-sector-functionality.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Public sector home page</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Página principal de Sector público</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>Microsoft Dynamics 365 for Finance and Operations enable business processes that are common to both the public and private sectors, such as budgeting, purchasing, accounts payable, and accounts receivable tasks.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics 365 for Finance and Operations permite procesos empresariales que son comunes para los sectores público y privado, como las tareas de gestión presupuestaria, pago de proveedores y pago de clientes.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Public sector home page</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Página principal de Sector público</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>Finance and Operations enable business processes that are common to both the public and private sectors, such as budgeting, purchasing, accounts payable, and accounts receivable tasks.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finance and Operations permite procesos empresariales que son comunes para los sectores público y privado, como las tareas de gestión presupuestaria, pago de proveedores y pago de clientes.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>Use the Public sector functionality to meet the rules, regulations, and reporting requirements for organizations that serve the public.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Use la funcionalidad de Sector público para satisfacer las reglas, los reglamentos y los requisitos de informes de las organizaciones que trabajan para el sector público.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>The business processes affected include:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los procesos empresariales afectados incluyen:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>Fund accounting, derived financial hierarchies, and posting definitions for accounts receivable and the general ledger.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Contabilidad de fondo, jerarquías financieras derivadas y definiciones de contabilización para clientes y la contabilidad general.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>Preliminary budgets, apportionments, and commitments.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Presupuestos preliminares, repartos y compromisos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>Billing codes, billing classifications, trading partner codes, and custom fields for free text invoices.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Códigos de facturación, clasificaciones de la facturación, códigos de socios comerciales y campos personalizados para facturas de servicios.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>General ledger year-end processing, which includes encumbrances and commitments on purchase orders.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Procesamiento de fin de año de contabilidad general, que incluye reservas de gasto y compromisos en pedidos de compra.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>Electronic payments to vendors, signature pages for payment reports, and invoice payment holds.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pagos electrónicos a proveedores, páginas de firma para informes de pago y retenciones de pagos de facturas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>For more information, see the following topics:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para obtener más información, consulte los siguientes temas:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source><bpt id="p1">[</bpt>Planning for Public sector functionality<ept id="p1">](plan-public-sector-functionality.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Planificación para la funcionalidad del sector público<ept id="p1">](plan-public-sector-functionality.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source><bpt id="p1">[</bpt>Accounts payable in the Public sector<ept id="p1">](accounts-payable-public-sector.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Pagos de proveedores en el sector público<ept id="p1">](accounts-payable-public-sector.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source><bpt id="p1">[</bpt>Accounts receivable in the Public sector<ept id="p1">](accounts-receivable-public-sector.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Pagos de clientes en el sector público<ept id="p1">](accounts-receivable-public-sector.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source><bpt id="p1">[</bpt>Budgeting in the Public sector<ept id="p1">](budgeting-public-sector.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Gestión presupuestaria en el sector público<ept id="p1">](budgeting-public-sector.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source><bpt id="p1">[</bpt>Fixed assets in the Public sector<ept id="p1">](fixed-asset-public-sector.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Activos fijos en el sector público<ept id="p1">](fixed-asset-public-sector.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source><bpt id="p1">[</bpt>French regulatory features<ept id="p1">](../localizations/emea-fra-public-sector-accounting.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Características normativas de Francia<ept id="p1">](../localizations/emea-fra-public-sector-accounting.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source><bpt id="p1">[</bpt>General ledger in the Public sector<ept id="p1">](general-ledger-public-sector.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Contabilidad general en el sector público<ept id="p1">](general-ledger-public-sector.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source><bpt id="p1">[</bpt>Procurement and sourcing in the Public sector<ept id="p1">](procurement-sourcing-public-sector.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Adquisición y abastecimiento en el sector público<ept id="p1">](procurement-sourcing-public-sector.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source><bpt id="p1">[</bpt>Security roles in the Public sector<ept id="p1">](security-roles-public-sector.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Roles de seguridad en el sector público<ept id="p1">](security-roles-public-sector.md)</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source><ph id="ph1">\*</ph> Applicable only if your organization is in France.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><ph id="ph1">\*</ph> Aplicable sólo si su organización se encuentra en Francia.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Why do I need the Public sector configuration key?</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">¿Por qué necesito la clave de configuración Sector público?</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>The <bpt id="p1">**</bpt>Public sector<ept id="p1">**</ept> configuration key enables pages and controls that supplement the core apps .</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La clave de configuración <bpt id="p1">**</bpt>Sector público<ept id="p1">**</ept> habilita las páginas y los controles que complementan las aplicaciones básicas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>You can enable or disable this key on the <bpt id="p1">**</bpt>License configuration<ept id="p1">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Puede habilitar o deshabilitar esta clave en la página <bpt id="p1">**</bpt>Configuración de licencia<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>How does the Public sector configuration key relate to other configuration keys?</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">¿Cómo se relaciona la clave de configuración Sector público con otras claves de configuración?</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>The following table provides information about how this configuration key relates to other configuration keys.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La siguiente tabla ofrece información acerca de cómo esta clave de configuración hace referencia a otras claves de configuración.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source><bpt id="p1">**</bpt>Detail<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Detalle<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source><bpt id="p1">**</bpt>Description<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Descripción<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>Parent key</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clave principal</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>None</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ninguno</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>Child keys</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Claves secundarias</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source><bpt id="p1">**</bpt>Advanced ledger entry<ept id="p1">**</ept> configuration key (AdvancedLedgerEntry) <bpt id="p2">**</bpt>Public sector 1099G<ept id="p2">**</ept> configuration key (Tax1099G) <bpt id="p3">**</bpt>Public sector 1099S<ept id="p3">**</ept> configuration key (Tax1099S) <bpt id="p4">**</bpt>French regulatory<ept id="p4">**</ept> configuration key</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clave de configuración <bpt id="p1">**</bpt>Asiento contable avanzado<ept id="p1">**</ept> (AdvancedLedgerEntry) Clave de configuración <bpt id="p2">**</bpt>Sector público 1099G<ept id="p2">**</ept> (Tax1099G) Clave de configuración <bpt id="p3">**</bpt>Sector público 1099S<ept id="p3">**</ept> (Tax1099S) Clave de configuración <bpt id="p4">**</bpt>Normativa francesa<ept id="p4">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>Additional resources</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Recursos adicionales</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source><bpt id="p1">[</bpt>Planning for public sector functionality<ept id="p1">](plan-public-sector-functionality.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Planificación para la funcionalidad del sector público<ept id="p1">](plan-public-sector-functionality.md)</ept></target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Página principal de Sector público
+description: Microsoft Dynamics 365 for Finance and Operations permite procesos empresariales que son comunes para los sectores público y privado, como las tareas de gestión presupuestaria, pago de proveedores y pago de clientes.
+author: ShylaThompson
+manager: AnnBe
+ms.date: 06/20/2017
+ms.topic: index-page
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: SysConfiguration
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.custom: 20691
+ms.assetid: 391a6899-7011-40bc-b54b-5665b06bcecb
+ms.search.region: Global
+ms.search.industry: Public sector
+ms.author: shylaw
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1b77e9289bd360631ea646951809705d58c9e189
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1550243"
+---
+# <a name="public-sector-home-page"></a>Página principal de Sector público
+
+[!include [banner](../includes/banner.md)]
+
+Finance and Operations permite procesos empresariales que son comunes para los sectores público y privado, como las tareas de gestión presupuestaria, pago de proveedores y pago de clientes. 
+
+Use la funcionalidad de Sector público para satisfacer las reglas, los reglamentos y los requisitos de informes de las organizaciones que trabajan para el sector público. Los procesos empresariales afectados incluyen: 
+
+- Contabilidad de fondo, jerarquías financieras derivadas y definiciones de contabilización para clientes y la contabilidad general.
+- Presupuestos preliminares, repartos y compromisos.
+- Códigos de facturación, clasificaciones de la facturación, códigos de socios comerciales y campos personalizados para facturas de servicios.
+- Procesamiento de fin de año de contabilidad general, que incluye reservas de gasto y compromisos en pedidos de compra.
+- Pagos electrónicos a proveedores, páginas de firma para informes de pago y retenciones de pagos de facturas.
+
+  Para obtener más información, consulte los siguientes temas:
+
+- [Planificación para la funcionalidad del sector público](plan-public-sector-functionality.md)
+- [Pagos de proveedores en el sector público](accounts-payable-public-sector.md)
+- [Pagos de clientes en el sector público](accounts-receivable-public-sector.md)
+- [Gestión presupuestaria en el sector público](budgeting-public-sector.md)
+- [Activos fijos en el sector público](fixed-asset-public-sector.md)
+- [Características normativas de Francia](../localizations/emea-fra-public-sector-accounting.md)
+- [Contabilidad general en el sector público](general-ledger-public-sector.md)
+- [Adquisición y abastecimiento en el sector público](procurement-sourcing-public-sector.md)
+- [Roles de seguridad en el sector público](security-roles-public-sector.md)
+
+\* Aplicable sólo si su organización se encuentra en Francia.
+
+## <a name="why-do-i-need-the-public-sector-configuration-key"></a>¿Por qué necesito la clave de configuración Sector público?
+La clave de configuración **Sector público** habilita las páginas y los controles que complementan las aplicaciones básicas. Puede habilitar o deshabilitar esta clave en la página **Configuración de licencia**.
+
+## <a name="how-does-the-public-sector-configuration-key-relate-to-other-configuration-keys"></a>¿Cómo se relaciona la clave de configuración Sector público con otras claves de configuración?
+La siguiente tabla ofrece información acerca de cómo esta clave de configuración hace referencia a otras claves de configuración.
+
+|            |                                                                                                                                                                                                                     |
+|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Detalle** | **Descripción**                                                                                                                                                                                                     |
+| Clave principal | Ninguno                                                                                                                                                                                                                |
+| Claves secundarias | Clave de configuración **Asiento contable avanzado** (AdvancedLedgerEntry) Clave de configuración **Sector público 1099G** (Tax1099G) Clave de configuración **Sector público 1099S** (Tax1099S) Clave de configuración **Normativa francesa** |
+
+
+<a name="additional-resources"></a>Recursos adicionales
+--------
+
+[Planificación para la funcionalidad del sector público](plan-public-sector-functionality.md)
+
+
+
