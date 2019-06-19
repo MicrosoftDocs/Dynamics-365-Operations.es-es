@@ -1,132 +1,94 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="emea-esp-fixed-asset-group-revaluation.md" target-language="es-ES">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>emea-esp-fixed-asset-group-revaluation.99ab22.180a1f61507f258709950409485371e73187ecfe.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>180a1f61507f258709950409485371e73187ecfe</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\localizations\emea-esp-fixed-asset-group-revaluation.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Fixed asset revaluation groups</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Grupos de revalorización de activos fijos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This topic provides information about fixed asset revaluation groups for Spain.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este tema proporciona información acerca de la revalorización de activos fijos para España.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Fixed asset revaluation groups</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Grupos de revalorización de activos fijos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>This topic provides information about fixed asset revaluation groups for Spain.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este tema proporciona información acerca de la revalorización de activos fijos para España.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>Revaluation groups are used to set up revaluation conditions for the fixed asset.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los grupos de revalorización se usan para configurar condiciones de revalorización para el activo fijo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>For example, the revaluation group could be a factor or revaluation date.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Por ejemplo, el grupo de revalorización podría ser un factor o una fecha de revalorización.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>Value from the revaluation group will be used in the fixed asset journal for revaluation proposals and for individual value adjustments of revaluation transactions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El valor del grupo de revalorización se usará en el diario de activos fijos para las propuestas de revalorización y para los ajustes de valores individuales de transacciones de revalorización.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>To revaluate a fixed asset, you must specify the revaluation group on the <bpt id="p1">**</bpt>Books<ept id="p1">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para revalorizar un activo fijo debe especificar el grupo de revalorización en la página <bpt id="p1">**</bpt>Libros<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>Value from the revaluation group will be used in the fixed asset journal for revaluation proposals and for individual value adjustments of revaluation transactions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El valor del grupo de revalorización se usará en el diario de activos fijos para las propuestas de revalorización y para los ajustes de valores individuales de transacciones de revalorización.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>Revaluation group setup</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Configuración de grupo de revalorización</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>You can set up a revaluation group in the <bpt id="p1">**</bpt>Revaluation groups<ept id="p1">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Puede configurar un grupo de revalorización en la página <bpt id="p1">**</bpt>Grupos de revalorización<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>In the upper pane, create an identifier for the revaluation group.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El panel superior, cree un identificador para el grupo de revalorización.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>In the lower pane, enter the date of the revaluation and the factor that the value will increase or decrease by.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En el panel inferior, especifique la fecha de la revalorización y el factor por el que se aumentará o disminuirá el valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source><bpt id="p1">&lt;strong&gt;</bpt>Field<ept id="p1">&lt;/strong&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Campo<ept id="p1">&lt;/strong&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source><bpt id="p1">&lt;strong&gt;</bpt>Description<ept id="p1">&lt;/strong&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Descripción<ept id="p1">&lt;/strong&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source><bpt id="p1">&lt;strong&gt;</bpt>Revaluation group<ept id="p1">&lt;/strong&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Grupo de revalorización<ept id="p1">&lt;/strong&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Enter the identification of the revaluation group.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Especificar la identificación del grupo de revalorización.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>For fixed assets that will be set up for revaluation, a revaluation group must be allocated to the fixed asset per value model.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En el caso de los activos fijos que se van a configurar para la revalorización, el grupo de revalorización se debe asignar al activo fijo por modelo de valor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source><bpt id="p1">&lt;strong&gt;</bpt>Description<ept id="p1">&lt;/strong&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Descripción<ept id="p1">&lt;/strong&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>Enter the description of the revaluation group that describes the purpose of each group.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Especifique la descripción del grupo de revalorización que describe el propósito de cada grupo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source><bpt id="p1">&lt;strong&gt;</bpt>Date<ept id="p1">&lt;/strong&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Fecha<ept id="p1">&lt;/strong&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>Enter the date from which the revaluation factor is valid.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Especificar la fecha a partir de la cual es válido el factor de revalorización.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source><bpt id="p1">&lt;strong&gt;</bpt>Factor<ept id="p1">&lt;/strong&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Factor<ept id="p1">&lt;/strong&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>Enter the factor and the acquisition price that determines the revaluation proposal for the fixed asset.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Especificar el factor y el precio de adquisición que determina la propuesta de revalorización del activo fijo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>For example, suppose the acquisition amount was 100,000.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Por ejemplo, supongamos que el importe de la adquisición es de 100.000.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>Using the equation <bpt id="p1">&lt;em&gt;</bpt>Acquisition amount - (Acquisition amount * factor),<ept id="p1">&lt;/em&gt;</ept> the following table displays the result of different factors.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Con la ecuación <bpt id="p1">&lt;em&gt;</bpt>Importe de la adquisición - (importe de adquisición * factor)<ept id="p1">&lt;/em&gt;</ept>, la siguiente tabla muestra el resultado de distintos factores.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source><bpt id="p1">&lt;strong&gt;</bpt>Factor<ept id="p1">&lt;/strong&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Factor<ept id="p1">&lt;/strong&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source><bpt id="p1">&lt;strong&gt;</bpt>Formula<ept id="p1">&lt;/strong&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Fórmula<ept id="p1">&lt;/strong&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source><bpt id="p1">&lt;strong&gt;</bpt>Transaction<ept id="p1">&lt;/strong&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Transacción<ept id="p1">&lt;/strong&gt;</ept> </target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>1</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>100,000 - (100,000 * 1)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">100.000 - (100.000 * 1)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>No transaction</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sin transacción</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>10</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>100,000 - (100,000 * 10)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">100.000 - (100.000 * 10)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>900,000 Debit</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Débito 900.000</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>0.5</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">0.5</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>100,000 - (100,000 * 0.5)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">100.000 - (100.000 * 0,5)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>50,000 Credit</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Crédito 50.000</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Grupos de revalorización de activos fijos
+description: Este tema proporciona información acerca de la revalorización de activos fijos para España.
+author: EvgenyPopovMBS
+manager: AnnBe
+ms.date: 06/20/2017
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: AssetRevaluationGroup, AssetBookTable
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.custom: 264994
+ms.search.region: Spain
+ms.author: epopov
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 180a1f61507f258709950409485371e73187ecfe
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1549525"
+---
+# <a name="fixed-asset-revaluation-groups"></a><span data-ttu-id="6d033-103">Grupos de revalorización de activos fijos</span><span class="sxs-lookup"><span data-stu-id="6d033-103">Fixed asset revaluation groups</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="6d033-104">Este tema proporciona información acerca de la revalorización de activos fijos para España.</span><span class="sxs-lookup"><span data-stu-id="6d033-104">This topic provides information about fixed asset revaluation groups for Spain.</span></span>
+
+<span data-ttu-id="6d033-105">Los grupos de revalorización se usan para configurar condiciones de revalorización para el activo fijo.</span><span class="sxs-lookup"><span data-stu-id="6d033-105">Revaluation groups are used to set up revaluation conditions for the fixed asset.</span></span> <span data-ttu-id="6d033-106">Por ejemplo, el grupo de revalorización podría ser un factor o una fecha de revalorización.</span><span class="sxs-lookup"><span data-stu-id="6d033-106">For example, the revaluation group could be a factor or revaluation date.</span></span> <span data-ttu-id="6d033-107">El valor del grupo de revalorización se usará en el diario de activos fijos para las propuestas de revalorización y para los ajustes de valores individuales de transacciones de revalorización.</span><span class="sxs-lookup"><span data-stu-id="6d033-107">Value from the revaluation group will be used in the fixed asset journal for revaluation proposals and for individual value adjustments of revaluation transactions.</span></span> <span data-ttu-id="6d033-108">Para revalorizar un activo fijo debe especificar el grupo de revalorización en la página **Libros**.</span><span class="sxs-lookup"><span data-stu-id="6d033-108">To revaluate a fixed asset, you must specify the revaluation group on the **Books** page.</span></span> <span data-ttu-id="6d033-109">El valor del grupo de revalorización se usará en el diario de activos fijos para las propuestas de revalorización y para los ajustes de valores individuales de transacciones de revalorización.</span><span class="sxs-lookup"><span data-stu-id="6d033-109">Value from the revaluation group will be used in the fixed asset journal for revaluation proposals and for individual value adjustments of revaluation transactions.</span></span>
+
+## <a name="revaluation-group-setup"></a><span data-ttu-id="6d033-110">Configuración de grupo de revalorización</span><span class="sxs-lookup"><span data-stu-id="6d033-110">Revaluation group setup</span></span>
+<span data-ttu-id="6d033-111">Puede configurar un grupo de revalorización en la página **Grupos de revalorización**.</span><span class="sxs-lookup"><span data-stu-id="6d033-111">You can set up a revaluation group in the **Revaluation groups** page.</span></span> <span data-ttu-id="6d033-112">El panel superior, cree un identificador para el grupo de revalorización.</span><span class="sxs-lookup"><span data-stu-id="6d033-112">In the upper pane, create an identifier for the revaluation group.</span></span> <span data-ttu-id="6d033-113">En el panel inferior, especifique la fecha de la revalorización y el factor por el que se aumentará o disminuirá el valor.</span><span class="sxs-lookup"><span data-stu-id="6d033-113">In the lower pane, enter the date of the revaluation and the factor that the value will increase or decrease by.</span></span>
+
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><span data-ttu-id="6d033-114"><strong>Campo</strong></span><span class="sxs-lookup"><span data-stu-id="6d033-114"><strong>Field</strong></span></span></td>
+<td><span data-ttu-id="6d033-115"><strong>Descripción</strong></span><span class="sxs-lookup"><span data-stu-id="6d033-115"><strong>Description</strong></span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="6d033-116"><strong>Grupo de revalorización</strong></span><span class="sxs-lookup"><span data-stu-id="6d033-116"><strong>Revaluation group</strong></span></span></td>
+<td><span data-ttu-id="6d033-117">Especificar la identificación del grupo de revalorización.</span><span class="sxs-lookup"><span data-stu-id="6d033-117">Enter the identification of the revaluation group.</span></span> <span data-ttu-id="6d033-118">En el caso de los activos fijos que se van a configurar para la revalorización, el grupo de revalorización se debe asignar al activo fijo por modelo de valor.</span><span class="sxs-lookup"><span data-stu-id="6d033-118">For fixed assets that will be set up for revaluation, a revaluation group must be allocated to the fixed asset per value model.</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="6d033-119"><strong>Descripción</strong></span><span class="sxs-lookup"><span data-stu-id="6d033-119"><strong>Description</strong></span></span></td>
+<td><span data-ttu-id="6d033-120">Especifique la descripción del grupo de revalorización que describe el propósito de cada grupo.</span><span class="sxs-lookup"><span data-stu-id="6d033-120">Enter the description of the revaluation group that describes the purpose of each group.</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="6d033-121"><strong>Fecha</strong></span><span class="sxs-lookup"><span data-stu-id="6d033-121"><strong>Date</strong></span></span></td>
+<td><span data-ttu-id="6d033-122">Especificar la fecha a partir de la cual es válido el factor de revalorización.</span><span class="sxs-lookup"><span data-stu-id="6d033-122">Enter the date from which the revaluation factor is valid.</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="6d033-123"><strong>Factor</strong></span><span class="sxs-lookup"><span data-stu-id="6d033-123"><strong>Factor</strong></span></span></td>
+<td><span data-ttu-id="6d033-124">Especificar el factor y el precio de adquisición que determina la propuesta de revalorización del activo fijo.</span><span class="sxs-lookup"><span data-stu-id="6d033-124">Enter the factor and the acquisition price that determines the revaluation proposal for the fixed asset.</span></span> <span data-ttu-id="6d033-125">Por ejemplo, supongamos que el importe de la adquisición es de 100.000.</span><span class="sxs-lookup"><span data-stu-id="6d033-125">For example, suppose the acquisition amount was 100,000.</span></span> <span data-ttu-id="6d033-126">Con la ecuación <em>Importe de la adquisición - (importe de adquisición \* factor)</em>, la siguiente tabla muestra el resultado de distintos factores.</span><span class="sxs-lookup"><span data-stu-id="6d033-126">Using the equation <em>Acquisition amount - (Acquisition amount \* factor),</em> the following table displays the result of different factors.</span></span>
+<table>
+<tbody>
+<tr class="odd">
+<td><span data-ttu-id="6d033-127"><strong>Factor</strong></span><span class="sxs-lookup"><span data-stu-id="6d033-127"><strong>Factor</strong></span></span></td>
+<td><span data-ttu-id="6d033-128"><strong>Fórmula</strong></span><span class="sxs-lookup"><span data-stu-id="6d033-128"><strong>Formula</strong></span></span></td>
+<td><span data-ttu-id="6d033-129"><strong>Transacción</strong> </span><span class="sxs-lookup"><span data-stu-id="6d033-129"><strong>Transaction</strong></span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="6d033-130">1</span><span class="sxs-lookup"><span data-stu-id="6d033-130">1</span></span></td>
+<td><span data-ttu-id="6d033-131">100.000 - (100.000 \* 1)</span><span class="sxs-lookup"><span data-stu-id="6d033-131">100,000 - (100,000 \* 1)</span></span></td>
+<td><span data-ttu-id="6d033-132">Sin transacción</span><span class="sxs-lookup"><span data-stu-id="6d033-132">No transaction</span></span></td>
+</tr>
+<tr class="odd">
+<td><span data-ttu-id="6d033-133">10</span><span class="sxs-lookup"><span data-stu-id="6d033-133">10</span></span></td>
+<td><span data-ttu-id="6d033-134">100.000 - (100.000 \* 10)</span><span class="sxs-lookup"><span data-stu-id="6d033-134">100,000 - (100,000 \* 10)</span></span></td>
+<td><span data-ttu-id="6d033-135">Débito 900.000</span><span class="sxs-lookup"><span data-stu-id="6d033-135">900,000 Debit</span></span></td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="6d033-136">0.5</span><span class="sxs-lookup"><span data-stu-id="6d033-136">0.5</span></span></td>
+<td><span data-ttu-id="6d033-137">100.000 - (100.000 \* 0,5)</span><span class="sxs-lookup"><span data-stu-id="6d033-137">100,000 - (100,000 \* 0.5)</span></span></td>
+<td><span data-ttu-id="6d033-138">Crédito 50.000</span><span class="sxs-lookup"><span data-stu-id="6d033-138">50,000 Credit</span></span></td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+

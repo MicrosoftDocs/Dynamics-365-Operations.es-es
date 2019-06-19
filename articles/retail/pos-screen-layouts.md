@@ -1,513 +1,196 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="pos-screen-layouts.md" target-language="es-ES">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>pos-screen-layouts.280407.e9536563ce7ddfc4aef54ae05267316ea8139263.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>e9536563ce7ddfc4aef54ae05267316ea8139263</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>e2fb0846fcc6298050a0ec82c302e5eb5254e0b5</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/27/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\retail\pos-screen-layouts.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Screen layouts for the point of sale (POS)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Diseños de pantalla para el punto de venta (POS)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This topic provides information about screen layouts for Microsoft Dynamics 365 for Retail point of sale (POS) experiences.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este tema proporciona información sobre los diseños de pantalla para experiencias con Microsoft Dynamics 365 for Retail point of sale (POS).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Screen layouts for the point of sale (POS)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Diseños de pantalla para el punto de venta (POS)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>This topic provides information about screen layouts for Microsoft Dynamics 365 for Retail point of sale (POS) experiences.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este tema proporciona información sobre los diseños de pantalla para experiencias con Microsoft Dynamics 365 for Retail point of sale (POS).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>The Retail POS user interface (UI) can be configured by using a combination of visual profiles and screen layouts that are assigned to stores, registers, and/or users.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La interfaz de usuario (IU) de Retail POS se puede configurar mediante una combinación de perfiles visuales y diseños de pantalla que se asignan a tiendas, registros y/o usuarios.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>The following illustration shows the relationships among the various entities that make up the configurable aspects of the POS UI.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La siguiente ilustración muestra las relaciones entre las distintas entidades que comprenden los aspectos configurables de la IU del sistema PDV.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>POS screen layout entities</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Entidades de diseño de pantalla de PDV</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>Visual profile</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Perfil visual</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>Visual profiles are assigned to registers, and they specify the visual elements that are register-specific and shared across users.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los perfiles visuales se asignan a registros y especifican los elementos visuales que son específicos del registro y que se comparten entre los usuarios.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>Every user who signs in to the register sees the same theme, colors, and images.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cada usuario que inicia sesión en el registro ve el mismo tema, colores e imágenes.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>POS welcome screen with Light theme</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pantalla de bienvenida de PDV con tema claro</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>POS Transaction screen with Dark theme</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pantalla de transacción de PDV con tema oscuro</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source><bpt id="p1">**</bpt>Profile number<ept id="p1">**</ept> – The profile number is the unique identifier of the visual profile.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Número de perfil<ept id="p1">**</ept> – El número del perfil es el identificador exclusivo del perfil visual.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source><bpt id="p1">**</bpt>Description<ept id="p1">**</ept> – You can specify a meaningful name that will help identify the correct profile for your situation.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Descripción<ept id="p1">**</ept> – Puede especificar un nombre descriptivo que ayude a identificar el perfil correcto para su situación.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source><bpt id="p1">**</bpt>Theme<ept id="p1">**</ept> – You can select between the Light and Dark application themes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Tema<ept id="p1">**</ept> – Puede seleccionar entre los temas de aplicación claro u oscuro.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>The theme affects the font and background colors throughout the application.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El tema afecta a los colores de fuente y de fondo en toda la aplicación.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source><bpt id="p1">**</bpt>Accent color<ept id="p1">**</ept> – The accent color is used throughout the POS to differentiate or highlight specific visual elements, such as tiles, command buttons, and hyperlinks.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Color de acento<ept id="p1">**</ept> – El color de acento se utiliza en el sistema PDV para distinguir o resaltar elementos visuales específicos como mosaicos, botones de comandos e hipervínculos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>Typically, these elements are actionable.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Normalmente, estos elementos se pueden accionar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source><bpt id="p1">**</bpt>Header color<ept id="p1">**</ept> – You can configure the color of the page header to meet the retailer's branding requirements.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Color de encabezado<ept id="p1">**</ept> – Puede configurar el color del encabezado de la página para cumplir los requisitos de las marcas del minorista.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>This feature is available only in Microsoft Dynamics 365 for Retail version 1611.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Esta función solo está disponible en Microsoft Dynamics 365 for Retail versión 1611.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source><bpt id="p1">**</bpt>Show date/time<ept id="p1">**</ept> – When enbled, the current date and time will be displayed in the POS header.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt"><bpt id="p1">**</bpt>Mostrar fecha/hora<ept id="p1">**</ept> - Cuando se activa, la fecha y hora actuales se mostrará en el encabezado del PDV.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source><bpt id="p1">**</bpt>Login backgrounds<ept id="p1">**</ept> – You can specify a background image for the sign-in screen.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Fondo de inicio de sesión<ept id="p1">**</ept> – Puede especificar una imagen de fondo para la pantalla de inicio de sesión.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>The file size of background images should be kept as small as possible, because storing and loading large files can affect application behavior and performance.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El tamaño de archivo de las imágenes de fondo se debe mantener lo más pequeño posible, ya que el almacenamiento y la carga de archivos grandes podría afectar al comportamiento y al rendimiento de la aplicación.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source><bpt id="p1">**</bpt>Application background<ept id="p1">**</ept> – You can specify a background image that is used instead of the solid theme color throughout the application.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Fondo de la aplicación<ept id="p1">**</ept> – Puede especificar una imagen de fondo que se utiliza en lugar del color liso del tema en toda la aplicación.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>As for login backgrounds, the file size should be kept as small as possible.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En cuanto a los fondos de inicio de sesión, el tamaño del archivo debe mantenerse lo más pequeño posible.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>Screen layouts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Diseños de pantalla</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>Screen layout configurations determine the actions, content, and placement of UI controls on the POS welcome screen and <bpt id="p1">**</bpt>Transaction<ept id="p1">**</ept> screen.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Las configuraciones del diseño de pantalla determinan las acciones, el contenido y la posición de los controles de la interfaz de usuario en la pantalla de bienvenida del PDV y en la pantalla <bpt id="p1">**</bpt>Transacción<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>POS Screen layout view</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vista Diseño de pantalla de PDV</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source><bpt id="p1">**</bpt>Welcome screen<ept id="p1">**</ept> – In most cases, the welcome screen is the page that users see when they first sign in to the POS.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Pantalla de bienvenida<ept id="p1">**</ept> – En la mayoría de los casos, la pantalla de bienvenida es la página que verán los usuarios la primera vez que inicien sesión en el PDV.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>The welcome screen can consist of a branding image and button grids that provide access to POS operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La pantalla de bienvenida puede constar de una imagen de marca y de cuadrículas de botones que proporcionan acceso a las operaciones del PDV.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>Typically, operations that aren't specific to the current transaction are put on this screen.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Normalmente, las operaciones que no son específicas de la transacción actual se colocan en esta pantalla.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>POS welcome screen</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pantalla de bienvenida de PDV</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source><bpt id="p1">**</bpt>Transaction screen<ept id="p1">**</ept> – The <bpt id="p2">**</bpt>Transaction<ept id="p2">**</ept> screen is the main screen in the POS for processing sales transactions and orders.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Pantalla de transacción<ept id="p1">**</ept> – La pantalla <bpt id="p2">**</bpt>Transacción<ept id="p2">**</ept> es la pantalla principal del PDV para procesar transacciones de venta y pedidos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>The content and layout are configured by using the screen layout designer.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El contenido y el diseño se configuran mediante el diseñador de pantalla.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>POS Transaction screen</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pantalla de transacción del PDV</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source><bpt id="p1">**</bpt>Default start screen<ept id="p1">**</ept> – Some retailers prefer that cashiers go directly to the <bpt id="p2">**</bpt>Transaction<ept id="p2">**</ept> screen after sign-in.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Pantalla de inicio predeterminada<ept id="p1">**</ept> – Algunos minoristas prefieren que los cajeros vayan directamente a la pantalla <bpt id="p2">**</bpt>Transacción<ept id="p2">**</ept> después de iniciar sesión.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>The <bpt id="p1">**</bpt>Default start screen<ept id="p1">**</ept> setting lets you specify the default screen that appears after sign-in for each screen layout.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La configuración <bpt id="p1">**</bpt>Pantalla de inicio predeterminada<ept id="p1">**</ept> le permite especificar la pantalla predeterminada que aparece después de iniciar sesión para cada diseño de pantalla.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>Assignment</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Asignación</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>Screen layouts can be assigned at the store, register, or user level.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los diseños de pantalla se pueden asignar a la tienda, el registro o el nivel de usuario.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>The user assignment overrides the register and store assignments, and the register assignment overrides the store assignment.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La asignación del usuario anula las asignaciones del registro y tienda, y la asignación del registro anula la asignación de la tienda.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>In a simple scenario where all users use the same layout, regardless of register or role, the screen layout can be set only at the store level.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En una situación sencilla en la que todos los usuarios utilizan el mismo diseño, independientemente del registro o el rol, el diseño de pantalla solo puede establecerse en el nivel de tienda.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>In scenarios where specific registers or users require specialized layouts, those layouts can be assigned.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En escenarios en los que registros o usuarios específicos necesiten diseños especializados, se pueden asignar esos diseños.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>Layout sizes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tamaños de diseño</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>Most aspects of the POS UI are responsive, and the layout is automatically resized and adjusted based on the screen size and orientation.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La mayoría de aspectos de la interfaz de usuario del sistema PDV son dinámicos, y el diseño cambia de tamaño automáticamente y se ajusta en función del tamaño y la orientación de la pantalla.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>However, the POS <bpt id="p1">**</bpt>Transaction<ept id="p1">**</ept> screen must be configured for every screen resolution that is expected.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sin embargo, la pantalla <bpt id="p1">**</bpt>Transacción<ept id="p1">**</ept> de PDV debe configurarse para cada resolución de pantalla prevista.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>At startup, the POS application automatically selects the closest layout size that is configured for the device.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Al iniciar, la aplicación del PDV selecciona automáticamente el tamaño de diseño más cercano que está configurado para el dispositivo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>A screen layout can also contain configurations for both landscape and portrait modes, and for both full-size and compact devices.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Un diseño de pantalla también puede contener configuraciones para los modos horizontal y vertical, y para dispositivos compactos y de tamaño completo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>Therefore, users can be assigned to a single screen layout that works across various sizes and form factors that are used in the store.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Por tanto, se puede asignar a los usuarios un diseño monopantalla que funciona con diferentes tamaños y factores de formulario que se utilizan en la tienda.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>POS layout sizes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tamaños de diseño de PDV</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source><bpt id="p1">**</bpt>Name<ept id="p1">**</ept> – You can enter a meaningful name to identify the screen size.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Nombre<ept id="p1">**</ept> – Puede introducir un nombre descriptivo para identificar el tamaño de la pantalla.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source><bpt id="p1">**</bpt>Layout type<ept id="p1">**</ept> – The POS application can show its UI in various modes to provide the best user experience on a given device.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Tipo de diseño<ept id="p1">**</ept> – La aplicación de PDV puede mostrar su interfaz de usuario en distintos modos para ofrecer la mejor experiencia del usuario en un dispositivo determinado.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source><bpt id="p1">**</bpt>Modern POS – Full<ept id="p1">**</ept> – Full layouts are typically best for larger displays, such as desktop monitors and tablets.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Modern POS – Completo<ept id="p1">**</ept> – Los diseños completos suelen emplearse mejor para pantallas más grandes como monitores de escritorio y tabletas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>You can select the UI elements to include, specify the size and placement of those elements, and configure their detailed properties.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Puede seleccionar los elementos de la interfaz de usuario que desea incluir, especificar el tamaño y la posición de esos elementos y configurar sus propiedades detalladas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>Full layouts support both portrait and landscape configurations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los diseños completos admiten la configuración vertical y horizontal.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source><bpt id="p1">**</bpt>Modern POS – Compact<ept id="p1">**</ept> – Compact layouts are typically best for phones and small tablets.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Modern POS – Compacto<ept id="p1">**</ept> – Los diseños compactos suelen ser mejores para teléfonos y tabletas pequeñas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>The design possibilities for compact devices are limited.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Las posibilidades de diseño en los dispositivos compactos son limitadas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>You can configure the columns and fields for the receipt and totals panels.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Puede configurar las columnas y los campos para los paneles de totales y de recepción.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source><bpt id="p1">**</bpt>Width/Height<ept id="p1">**</ept> – These values represent the effective screen size, in pixels, that is expected for the layout.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ancho/Alto<ept id="p1">**</ept> – Estos valores representan el tamaño efectivo de pantalla, en píxeles, que se espera para el diseño.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>Remember that some operating systems use scaling for high-resolution displays.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Recuerde que algunos sistemas operativos utilizan una escala para pantallas de alta resolución.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>You can learn the layout size that is required for a POS screen by viewing the resolution in the app.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Puede conocer el tamaño de diseño necesario para una pantalla del PDV viendo la resolución en la aplicación.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source>Start the POS, and go to <bpt id="p1">**</bpt>Settings <ph id="ph1">\&gt;</ph> Session information<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Inicie el PDV y vaya <bpt id="p1">**</bpt>Configuración <ph id="ph1">\&gt;</ph> Información sobre la sesión<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>POS shows the screen layout that is currently loaded, the layout size, and the resolution of the app window.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El PDV muestra el diseño de pantalla que se carga actualmente, el tamaño de diseño y la resolución de la ventana de la aplicación.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source>POS layout sizes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tamaños de diseño de PDV</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source>Button grids</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cuadrículas de botones</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source>For each layout size in a screen layout, you can configure and assign button grids for the POS welcome screen and <bpt id="p1">**</bpt>Transaction<ept id="p1">**</ept> screen.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para cada tamaño de diseño de un diseño de pantalla, puede configurar y asignar cuadrículas de botones para la pantalla de bienvenida de PDV y la pantalla <bpt id="p1">**</bpt>Transacción<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="166">
-          <source>Button grids for the welcome screen are automatically laid out from left to right, from the lowest number (Welcome screen 1) to the highest number.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Las cuadrículas de botones para la pantalla de bienvenida se disponen automáticamente de izquierda a derecha, del número inferior (pantalla de bienvenida 1) al número más alto.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="167">
-          <source>In Full POS layouts, the placement of button grids is specified in the screen layout designer.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En diseños de PDV completa, la colocación de las cuadrículas de botones se especifica en el diseñador de pantalla.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="168">
-          <source>In Compact POS layouts, the button grids are automatically laid out from top to bottom, from the lowest number (Transaction screen 1) to the highest number.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En diseños de PDV compacto, las cuadrículas de botones se disponen automáticamente de arriba a abajo, del número inferior (pantalla de transacción 1) al número más alto.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="169">
-          <source>They can be accessed on the <bpt id="p1">**</bpt>Actions<ept id="p1">**</ept> menu.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pueden obtener acceso en el menú <bpt id="p1">**</bpt>Acciones<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="170">
-          <source>Compact layout button grids</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cuadrículas de botones de diseño compacto</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="171">
-          <source>Images</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Imágenes</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="172">
-          <source>For each layout size in a screen layout, you can specify images to include in the POS UI.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para cada tamaño de diseño de un diseño de pantalla, puede especificar imágenes para incluirlas en la interfaz de usuario del sistema PDV.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="173">
-          <source>For Full POS layouts, a single image can be specified for the welcome screen.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para los diseños de PDV completos, se puede especificar una sola imagen para la pantalla de bienvenida.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="174">
-          <source>This image appears as the first UI element on the left.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En la izquierda aparece una imagen como el primer elemento de la interfaz de usuario.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="175">
-          <source>On the <bpt id="p1">**</bpt>Transaction<ept id="p1">**</ept> screen, images can be used as tab images or as a logo.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En la pantalla <bpt id="p1">**</bpt>Transacción<ept id="p1">**</ept>, las imágenes se pueden utilizar como imágenes de pestaña o como un logotipo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="176">
-          <source>Compact POS layouts don't use these images.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los diseños de PDV compactos no utilizan estas imágenes.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="177">
-          <source>Screen layout designer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Diseñador de pantalla</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="178">
-          <source>The screen layout designer lets you configure various aspects of the POS <bpt id="p1">**</bpt>Transaction<ept id="p1">**</ept> screen for each layout size, in both portrait and landscape modes, and for both Full and Compact layouts.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El diseñador de pantalla le permite configurar diversos aspectos de la pantalla <bpt id="p1">**</bpt>Transacción<ept id="p1">**</ept> de PDV para cada tamaño de diseño, en modos horizontal y vertical, y para los diseños completo y compacto.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="179">
-          <source>The screen layout designer uses the ClickOnce deployment technology to download, install, and start the latest version of the application every time that users access it.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El diseñador de pantalla emplea la tecnología de implementación ClickOnce para descargar, instalar e iniciar la última versión de la aplicación cada vez que los usuarios acceden a ella.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="180">
-          <source>Be sure to check the browser requirements for ClickOnce.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Asegúrese de comprobar los requisitos del explorador para ClickOnce.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="181">
-          <source>Some browsers, such as Google Chrome, require extensions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Algunos exploradores, como Google Chrome, requieren extensiones.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="182">
-          <source>You must configure a screen layout for each layout size that is defined and that is used by the POS.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Debe configurar un diseño de pantalla para cada tamaño de diseño que se defina y que se utilice en el PDV.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="183">
-          <source>Full layout designer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Diseñador completo</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="184">
-          <source>The Full layout designer lets users drag UI controls onto the POS <bpt id="p1">**</bpt>Transaction<ept id="p1">**</ept> screen and configure the settings of those controls.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El diseñador completo permite a los usuarios arrastrar controles de la interfaz de usuario en la pantalla <bpt id="p1">**</bpt>Transacción<ept id="p1">**</ept> de PDV y configurar los valores de estos controles.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="185">
-          <source>POS Full layout designer (landscape mode)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Diseñador completo de PDV (modo horizontal)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="186">
-          <source><bpt id="p1">**</bpt>Import layout/Export layout<ept id="p1">**</ept> – You can export and import POS screen layout designs as XML files, so that you can easily reuse and share them across environments.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Importar diseño/Exportar diseño<ept id="p1">**</ept> – Puede exportar e importar diseños de pantalla de PDV como archivos XML, de manera que pueda volver a utilizarlos y compartirlos con facilidad entre entornos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="187">
-          <source>It's important that you import layout designs for the correct layout sizes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Es importante que importe diseños para los tamaños de diseño correctos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="188">
-          <source>Otherwise, UI elements might not fit correctly on the screen.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De lo contrario, puede que los elementos de interfaz de usuario no se ajusten correctamente en la pantalla.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="189">
-          <source><bpt id="p1">**</bpt>Landscape/Portrait<ept id="p1">**</ept> – If the POS device lets users switch between landscape and portrait modes, you must define a screen layout for each mode.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Horizontal/Vertical<ept id="p1">**</ept> – Si el dispositivo de PDV permite a los usuarios cambiar entre los modos horizontal y vertical, debe definir un diseño de pantalla para cada modo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="190">
-          <source>The POS automatically detects screen rotation and shows the correct layout.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El PDV detecta automáticamente la rotación de la pantalla y muestra el diseño correcto.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="191">
-          <source><bpt id="p1">**</bpt>Layout grid<ept id="p1">**</ept> – The POS layout designer uses a 4-pixel grid.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Cuadrícula de diseño<ept id="p1">**</ept> – El diseñador de PDV emplea una cuadrícula de 4 píxeles.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="192">
-          <source>UI controls "snap" to the grid to help you correctly align the content.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los controles de la interfaz de usuario "se ajustan" a la cuadrícula para ayudarle a alinear correctamente el contenido.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="193">
-          <source><bpt id="p1">**</bpt>Designer zoom<ept id="p1">**</ept> – You can zoom the designer view in and out to better view the content on the POS screen.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Zoom del diseñador<ept id="p1">**</ept> – Puede acercar o alejar la vista de diseñador para ver mejor el contenido en la pantalla de PDV.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="194">
-          <source>This feature is useful when the screen resolution on the POS differs greatly from the resolution of the screen that is used in the designer.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta función resulta útil cuando la resolución de pantalla en el sistema PDV difiere significativamente de la resolución de la pantalla que se utiliza en el diseñador.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="195">
-          <source><bpt id="p1">**</bpt>Show/hide navigation bar<ept id="p1">**</ept> – For Full POS layouts, you can select whether the left navigation bar is visible on the <bpt id="p2">**</bpt>Transaction<ept id="p2">**</ept> screen.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Mostrar/ocultar barra de navegación<ept id="p1">**</ept> – Para diseños de PDV completos, puede seleccionar si la barra de navegación izquierda es visible en la pantalla <bpt id="p2">**</bpt>Transacción<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="196">
-          <source>This feature is helpful for displays that have a lower resolution.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta función resulta útil para pantallas que tiene una resolución más baja.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="197">
-          <source>To set the visibility, right-click the navigation bar in the designer, and select or clear the <bpt id="p1">**</bpt>Always visible<ept id="p1">**</ept> check box.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para establecer la visibilidad, haga clic con el botón derecho en la barra de exploración del diseñador, y active o desactive la casilla de verificación <bpt id="p1">**</bpt>Siempre visible<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="198">
-          <source>If the navigation bar is hidden, POS users can still access it by using the menu in the upper left.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Si la barra de navegación está oculta, los usuarios del PDV pueden seguir teniendo acceso mediante el menú de la parte superior izquierda.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="199">
-          <source>Show/hide navigation bar</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mostrar/ocultar barra de navegación</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="200">
-          <source><bpt id="p1">**</bpt>POS controls<ept id="p1">**</ept> – The POS layout designer supports the following controls.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Controles de PDV<ept id="p1">**</ept> – El diseñador de PDV admite los siguientes controles.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="201">
-          <source>You can configure many controls by right-clicking and using the shortcut menu.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Puede configurar muchos controles haciendo clic con el botón derecho y usando el menú contextual.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="202">
-          <source>POS UI controls</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Controles de interfaz de usuario de PDV</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="203">
-          <source><bpt id="p1">**</bpt>Number pad<ept id="p1">**</ept> – The number pad is the main mechanism for user input on the POS <bpt id="p2">**</bpt>Transaction<ept id="p2">**</ept> screen.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Teclado numérico<ept id="p1">**</ept> – El teclado numérico es el mecanismo principal para la entrada de usuario en la pantalla <bpt id="p2">**</bpt>Transacción<ept id="p2">**</ept> del PDV.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="204">
-          <source>You can configure the control so that the full number pad is shown.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Puede configurar el control para que se muestre el teclado numérico completo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="205">
-          <source>This option is ideal for touchscreen devices.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta opción es ideal para dispositivos con pantalla táctil.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="206">
-          <source>Alternatively, you can configure it so that only the input field is shown.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De forma alternativa, puede configurarla para que se muestre solo el campo de entrada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="207">
-          <source>In this case, a physical keyboard is used for input.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En este caso, se utiliza un teclado físico para la entrada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="208">
-          <source>The number pad settings are available only for Full layouts.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los ajustes del teclado numérico están disponibles solo en los diseños completos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="209">
-          <source>For Compact layouts, the full number pad is always shown on the <bpt id="p1">**</bpt>Transaction<ept id="p1">**</ept> screen.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para diseños compactos, el teclado numérico completo siempre se muestra en la pantalla <bpt id="p1">**</bpt>Transacción<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="210">
-          <source><bpt id="p1">**</bpt>Totals panel<ept id="p1">**</ept> – You can configure the totals panel in either one column or two columns, to show values such as the line count, discount amount, charges, subtotal, and tax.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Panel de totales<ept id="p1">**</ept> – Puede configurar el panel de totales en una o dos columnas para mostrar valores como el recuento de líneas, el importe de descuento, los gastos, el subtotal y los impuestos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="211">
-          <source>Compact layouts support only a single column.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los diseño compactos solo admiten una única columna.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="212">
-          <source><bpt id="p1">**</bpt>Receipt panel<ept id="p1">**</ept> – The receipt panel contains the sales lines, payment lines, and delivery information for the products and services that are processed in the POS.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Panel de recepción<ept id="p1">**</ept> – El panel de recepción contiene las líneas de ventas, las líneas de pago y la información de entrega para los productos y servicios que se procesan en el PDV.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="213">
-          <source>You can specify columns, widths, and placement.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Puede especificar columnas, anchos y posiciones.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="214">
-          <source>In Compact layouts, you can also configure additional information that appears in the row under the main line.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En diseños compactos, también puede configurar información adicional que aparece en la fila debajo de la línea principal.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="215">
-          <source><bpt id="p1">**</bpt>Customer card<ept id="p1">**</ept> – The customer card shows information about the customer who is associated with the current transaction.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Tarjeta de cliente<ept id="p1">**</ept> – La tarjeta del cliente muestra información sobre el cliente que está asociado a la transacción actual.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="216">
-          <source>You can configure the customer card to hide or show additional information.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Puede configurar la tarjeta del cliente para que se oculte o muestre la información adicional.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="217">
-          <source><bpt id="p1">**</bpt>Tab control<ept id="p1">**</ept> – You can add the tab control to a screen layout, and then put other controls, such as the number pad, customer card, or button grids, in it.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Control de fichas<ept id="p1">**</ept> – Puede agregar el control de fichas a un diseño de pantalla y, a continuación, colocar otros controles como el teclado numérico, la tarjeta de cliente o las cuadrículas de botones, dentro de la ficha.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="218">
-          <source>The tab control is a container that helps you fit more content on the screen.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El control de fichas es un contenedor que le ayuda a introducir más contenido en la pantalla.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="219">
-          <source>The tab control is available only for Full layouts.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El control de fichas solo está disponible en los diseños completos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="220">
-          <source><bpt id="p1">**</bpt>Image<ept id="p1">**</ept> – You can use the image control to show the store's logo or another branding image on the <bpt id="p2">**</bpt>Transaction<ept id="p2">**</ept> screen.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Imagen<ept id="p1">**</ept> – Puede usar el control de imagen para mostrar el logotipo de la tienda u otra imagen de marca en la pantalla <bpt id="p2">**</bpt>Transacción<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="221">
-          <source>The image control is available only for Full layouts.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El control de imagen solo está disponible en los diseños completos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="222">
-          <source><bpt id="p1">**</bpt>Recommended products<ept id="p1">**</ept> – If the recommended products control is configured for the environment, it shows product suggestions, based on machine learning.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Productos recomendados<ept id="p1">**</ept> - Si el control de productos recomendados está configurado para el entorno, muestra las sugerencias de productos del aprendizaje automático.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="223">
-          <source><bpt id="p1">**</bpt>Custom control<ept id="p1">**</ept> – The custom control acts as a placeholder in the screen layout and lets you reserve space for custom content.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Control personalizado<ept id="p1">**</ept> – El control personalizado actúa como un marcador de posición en el diseño de pantalla y le permite reservar espacio para el contenido personalizado.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="224">
-          <source>The custom control is available only for Full layouts.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El control personalizado solo está disponible en los diseños completos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="225">
-          <source>Compact layout designer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Diseñador de diseño compacto</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="226">
-          <source>Like the Full layout designer, the Compact layout designer lets you configure the POS screen layout for phones and small tablets.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Al igual que el diseñador de diseño completo, el diseñador de diseño compacto le permite configurar el diseño de pantalla de PDV para teléfonos y tabletas pequeñas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="227">
-          <source>However, in this case, the layout itself is fixed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sin embargo, en este caso, el diseño en sí es fijo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="228">
-          <source>You can configure the controls in the layout by right-clicking and using the shortcut menu.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Puede configurar los controles en el diseño haciendo clic con el botón derecho y usando el menú contextual.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="229">
-          <source>However, you can't use drag-and-drop operations for additional content.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sin embargo, no puede usar la función de arrastrar y colocar para contenido adicional.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="230">
-          <source>Compact layout designer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Diseñador de diseño compacto</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="231">
-          <source>Button grid designer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Diseñador de cuadrícula de botones</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="232">
-          <source>The button grid designer lets you configure button grids that can be used on the POS welcome screen and <bpt id="p1">**</bpt>Transaction<ept id="p1">**</ept> screen for both Full and Compact layouts.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El diseñador de cuadrícula de botones le permite configurar botones de cuadrícula que se pueden usar en la pantalla de bienvenida de PDV y la pantalla <bpt id="p1">**</bpt>Transacción<ept id="p1">**</ept> para diseños completos y compactos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="233">
-          <source>The same button grid can be used across layouts and layout types.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La misma cuadrícula de botones se puede usar en diseños y tipos de diseño.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="234">
-          <source>Like the screen layout designer, the button grid designer uses the ClickOnce deployment technology to download, install, and start the latest version of the application every time that users access it.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Al igual que el diseñador de pantalla, el diseño de cuadrícula de botones emplea la tecnología de implementación ClickOnce para descargar, instalar e iniciar la última versión de la aplicación cada vez que los usuarios acceden a ella.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="235">
-          <source>Be sure to check the browser requirements for ClickOnce.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Asegúrese de comprobar los requisitos del explorador para ClickOnce.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="236">
-          <source>Some browsers, such as Google Chrome, require extensions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Algunos exploradores, como Google Chrome, requieren extensiones.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="237">
-          <source>Button grid designer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Diseñador de cuadrícula de botones</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="238">
-          <source><bpt id="p1">**</bpt>New button<ept id="p1">**</ept> – Click to add a new button to the button grid.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Nuevo botón<ept id="p1">**</ept> – Haga clic para agregar un nuevo botón a la cuadrícula de botones.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="239">
-          <source>By default, new buttons appear in the upper-left corner of the grid.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De forma predeterminada, los nuevos botones aparecen en la esquina superior izquierda de la cuadrícula.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="240">
-          <source>However, you can arrange buttons by dragging them in the layout.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sin embargo, puede organizar los botones arrastrándolos en el diseño.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="241">
-          <source>The contents of the button grid can overlap.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El contenido de la cuadrícula de botones se puede superponer.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="242">
-          <source>When you arrange buttons, make sure that they don't hide other buttons.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cuando organice botones, asegúrese de que no oculten otros botones.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="243">
-          <source><bpt id="p1">**</bpt>New design<ept id="p1">**</ept> – Click to automatically set up a button grid layout by specifying the number of buttons per row and column.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Nuevo diseño<ept id="p1">**</ept> – Haga clic para configurar automáticamente un diseño de cuadrícula de botones especificando el número de botones por fila y columna.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="244">
-          <source><bpt id="p1">**</bpt>Button properties<ept id="p1">**</ept> – You can configure button properties by right-clicking the button and using the shortcut menu.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Propiedades de botón<ept id="p1">**</ept> – Puede configurar las propiedades del botón haciendo clic con el botón derecho en el botón y usando el menú contextual.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="245">
-          <source>Some button grid settings apply only to Enterprise POS, not to Retail Modern POS or Cloud POS.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Algunos ajustes de la cuadrícula de botones solo se aplican a Enterprise POS, no a Retail Modern POS o Cloud POS.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="246">
-          <source>Button grid button properties</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Propiedades del botón de cuadrícula de botones</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="247">
-          <source><bpt id="p1">**</bpt>Action<ept id="p1">**</ept> – In the list of applicable POS operations, select the operation that is invoked when the button is clicked in the POS.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Acción<ept id="p1">**</ept> – En la lista de operaciones de PDV aplicables, seleccione la operación que se invoca cuando se hace clic en el botón en el PDV.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="248">
-          <source>For the list of supported POS operations, see <bpt id="p1">[</bpt>POS operations, online and offline<ept id="p1">](pos-operations.md)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para la lista de operaciones de PDV admitidas, consulte <bpt id="p1">[</bpt>Operaciones de PDV, en línea y sin conexión<ept id="p1">](pos-operations.md)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="249">
-          <source><bpt id="p1">**</bpt>Action parameters<ept id="p1">**</ept> – Some POS operations use additional parameters when they are invoked.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Parámetros de acción<ept id="p1">**</ept> – Algunas operaciones de PDV utilizan parámetros adicionales cuando se invocan.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="250">
-          <source>For example, for the Add product operation, users can specify the product to add.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Por ejemplo, para la operación Agregar producto, los usuarios pueden especificar el producto que desea agregar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="251">
-          <source><bpt id="p1">**</bpt>Button text<ept id="p1">**</ept> – Specify the text that appears on the button in the POS.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Texto del botón<ept id="p1">**</ept> – Especifique el texto que aparece en el botón del PDV.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="252">
-          <source><bpt id="p1">**</bpt>Hide button text<ept id="p1">**</ept> – Use this check box to hide or show the button text.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Ocultar texto del botón<ept id="p1">**</ept> – Utilice esta casilla de verificación para ocultar o mostrar el texto del botón.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="253">
-          <source>Button text is often hidden for small buttons that show only an icon.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El texto del botón suele estar oculto para botones pequeños que solo muestran un icono.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="254">
-          <source><bpt id="p1">**</bpt>Tooltip<ept id="p1">**</ept> – Specify additional Help text that appears when users mouse over the button.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Información sobre herramientas<ept id="p1">**</ept> – Especifique texto de Ayuda adicional que aparece cuando los usuarios pasan el ratón por encima del botón.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="255">
-          <source><bpt id="p1">**</bpt>Size in columns/Size in rows<ept id="p1">**</ept> – You can specify how tall and wide the button is.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Tamaño en columnas/Tamaño en filas<ept id="p1">**</ept> – Puede especificar lo alto y ancho que es el botón.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="256">
-          <source>POS button sizes in rows and columns</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tamaños de los botones del PDV en filas y columnas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="257">
-          <source><bpt id="p1">**</bpt>Custom font<ept id="p1">**</ept> – When you select the <bpt id="p2">**</bpt>Enable custom font for POS<ept id="p2">**</ept> check box, you can specify a font other than the default system font for the POS.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Fuente personalizada<ept id="p1">**</ept> – Cuando seleccione la casilla de verificación <bpt id="p2">**</bpt>Habilitar fuente personalizada para PDV<ept id="p2">**</ept>, puede especificar una fuente distinta de la fuente predeterminada del sistema para el PDV.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="258">
-          <source><bpt id="p1">**</bpt>Custom theme<ept id="p1">**</ept> – By default, POS buttons use the accent color from the visual profile.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Tema personalizado<ept id="p1">**</ept> – De forma predeterminada, los botones de PDV emplean el color de acento del perfil visual.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="259">
-          <source>When you select the <bpt id="p1">**</bpt>Use custom theme<ept id="p1">**</ept> check box, you can specify additional colors.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Al seleccionar la casilla de verificación <bpt id="p1">**</bpt>Usar tema personalizado<ept id="p1">**</ept>, puede especificar colores adicionales.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="260">
-          <source>Retail Modern POS and Cloud POS use only the <bpt id="p1">**</bpt>Back color<ept id="p1">**</ept> and <bpt id="p2">**</bpt>Font color<ept id="p2">**</ept> values.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail Modern POS y Cloud POS utilizan solo los valores <bpt id="p1">**</bpt>Color de fondo<ept id="p1">**</ept> y <bpt id="p2">**</bpt>Color de fuente<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="261">
-          <source><bpt id="p1">**</bpt>Button image<ept id="p1">**</ept> – Buttons can include images or icons.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Imagen de los botones<ept id="p1">**</ept> – Los botones pueden incluir imágenes o iconos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="262">
-          <source>Select among the available images that are specified at <bpt id="p1">**</bpt>Retail <ph id="ph1">\&gt;</ph> Channel setup <ph id="ph2">\&gt;</ph> POS setup <ph id="ph3">\&gt;</ph> POS <ph id="ph4">\&gt;</ph> Images<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Seleccione entre las imágenes disponibles que se especifican en <bpt id="p1">**</bpt>Retail <ph id="ph1">\&gt;</ph> Configuración de canal <ph id="ph2">\&gt;</ph> Configuración de PDV <ph id="ph3">\&gt;</ph> PDV <ph id="ph4">\&gt;</ph> Imágenes<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="263">
-          <source>Example button grid in the POS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cuadrícula de botones de ejemplo en el PDV</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="264">
-          <source>Additional resources</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Recursos adicionales</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="265">
-          <source><bpt id="p1">[</bpt>Install the Retail POS Layout designer<ept id="p1">](install-pos-layout-designer.md)</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Instalar el diseñador de Retail POS<ept id="p1">](install-pos-layout-designer.md)</ept></target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Diseños de pantalla para el punto de venta (POS)
+description: Este tema proporciona información sobre los diseños de pantalla para experiencias con Microsoft Dynamics 365 for Retail point of sale (POS).
+author: jblucher
+manager: AnnBe
+ms.date: 05/20/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-retail
+ms.technology: ''
+ms.search.form: RetailTillLayout
+audience: Application user
+ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
+ms.custom: 90573
+ms.assetid: a6868f93-02ed-4928-9f6a-3b7383e7e399
+ms.search.region: global
+ms.search.industry: Retail
+ms.author: jeffbl
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: e9536563ce7ddfc4aef54ae05267316ea8139263
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1607055"
+---
+# <a name="screen-layouts-for-the-point-of-sale-pos"></a><span data-ttu-id="f863e-103">Diseños de pantalla para el punto de venta (POS)</span><span class="sxs-lookup"><span data-stu-id="f863e-103">Screen layouts for the point of sale (POS)</span></span>
+
+[!include [banner](includes/banner.md)]
+
+<span data-ttu-id="f863e-104">Este tema proporciona información sobre los diseños de pantalla para experiencias con Microsoft Dynamics 365 for Retail point of sale (POS).</span><span class="sxs-lookup"><span data-stu-id="f863e-104">This topic provides information about screen layouts for Microsoft Dynamics 365 for Retail point of sale (POS) experiences.</span></span>
+
+<span data-ttu-id="f863e-105">La interfaz de usuario (IU) de Retail POS se puede configurar mediante una combinación de perfiles visuales y diseños de pantalla que se asignan a tiendas, registros y/o usuarios.</span><span class="sxs-lookup"><span data-stu-id="f863e-105">The Retail POS user interface (UI) can be configured by using a combination of visual profiles and screen layouts that are assigned to stores, registers, and/or users.</span></span>
+
+<span data-ttu-id="f863e-106">La siguiente ilustración muestra las relaciones entre las distintas entidades que comprenden los aspectos configurables de la IU del sistema PDV.</span><span class="sxs-lookup"><span data-stu-id="f863e-106">The following illustration shows the relationships among the various entities that make up the configurable aspects of the POS UI.</span></span>
+
+![Entidades de diseño de pantalla de PDV](../retail/media/POS-layout-configuration-entities-diagram.png)
+
+## <a name="visual-profile"></a><span data-ttu-id="f863e-108">Perfil visual</span><span class="sxs-lookup"><span data-stu-id="f863e-108">Visual profile</span></span>
+
+<span data-ttu-id="f863e-109">Los perfiles visuales se asignan a registros y especifican los elementos visuales que son específicos del registro y que se comparten entre los usuarios.</span><span class="sxs-lookup"><span data-stu-id="f863e-109">Visual profiles are assigned to registers, and they specify the visual elements that are register-specific and shared across users.</span></span> <span data-ttu-id="f863e-110">Cada usuario que inicia sesión en el registro ve el mismo tema, colores e imágenes.</span><span class="sxs-lookup"><span data-stu-id="f863e-110">Every user who signs in to the register sees the same theme, colors, and images.</span></span>
+
+![Pantalla de bienvenida de PDV con tema claro](../retail/media/POS-Welcome-Screen-with-Light-theme.png)
+
+![Pantalla de transacción de PDV con tema oscuro](../retail/media/POS-Transaction-Screen-with-Dark-theme.png)
+
+- <span data-ttu-id="f863e-113">**Número de perfil** – El número del perfil es el identificador exclusivo del perfil visual.</span><span class="sxs-lookup"><span data-stu-id="f863e-113">**Profile number** – The profile number is the unique identifier of the visual profile.</span></span>
+- <span data-ttu-id="f863e-114">**Descripción** – Puede especificar un nombre descriptivo que ayude a identificar el perfil correcto para su situación.</span><span class="sxs-lookup"><span data-stu-id="f863e-114">**Description** – You can specify a meaningful name that will help identify the correct profile for your situation.</span></span>
+- <span data-ttu-id="f863e-115">**Tema** – Puede seleccionar entre los temas de aplicación claro u oscuro.</span><span class="sxs-lookup"><span data-stu-id="f863e-115">**Theme** – You can select between the Light and Dark application themes.</span></span> <span data-ttu-id="f863e-116">El tema afecta a los colores de fuente y de fondo en toda la aplicación.</span><span class="sxs-lookup"><span data-stu-id="f863e-116">The theme affects the font and background colors throughout the application.</span></span>
+- <span data-ttu-id="f863e-117">**Color de acento** – El color de acento se utiliza en el sistema PDV para distinguir o resaltar elementos visuales específicos como mosaicos, botones de comandos e hipervínculos.</span><span class="sxs-lookup"><span data-stu-id="f863e-117">**Accent color** – The accent color is used throughout the POS to differentiate or highlight specific visual elements, such as tiles, command buttons, and hyperlinks.</span></span> <span data-ttu-id="f863e-118">Normalmente, estos elementos se pueden accionar.</span><span class="sxs-lookup"><span data-stu-id="f863e-118">Typically, these elements are actionable.</span></span>
+- <span data-ttu-id="f863e-119">**Color de encabezado** – Puede configurar el color del encabezado de la página para cumplir los requisitos de las marcas del minorista.</span><span class="sxs-lookup"><span data-stu-id="f863e-119">**Header color** – You can configure the color of the page header to meet the retailer's branding requirements.</span></span> <span data-ttu-id="f863e-120">Esta función solo está disponible en Microsoft Dynamics 365 for Retail versión 1611.</span><span class="sxs-lookup"><span data-stu-id="f863e-120">This feature is available only in Microsoft Dynamics 365 for Retail version 1611.</span></span>
+- <span data-ttu-id="f863e-121">**Mostrar fecha/hora** - Cuando se activa, la fecha y hora actuales se mostrará en el encabezado del PDV.</span><span class="sxs-lookup"><span data-stu-id="f863e-121">**Show date/time** – When enbled, the current date and time will be displayed in the POS header.</span></span>
+- <span data-ttu-id="f863e-122">**Fondo de inicio de sesión** – Puede especificar una imagen de fondo para la pantalla de inicio de sesión.</span><span class="sxs-lookup"><span data-stu-id="f863e-122">**Login backgrounds** – You can specify a background image for the sign-in screen.</span></span> <span data-ttu-id="f863e-123">El tamaño de archivo de las imágenes de fondo se debe mantener lo más pequeño posible, ya que el almacenamiento y la carga de archivos grandes podría afectar al comportamiento y al rendimiento de la aplicación.</span><span class="sxs-lookup"><span data-stu-id="f863e-123">The file size of background images should be kept as small as possible, because storing and loading large files can affect application behavior and performance.</span></span>
+- <span data-ttu-id="f863e-124">**Fondo de la aplicación** – Puede especificar una imagen de fondo que se utiliza en lugar del color liso del tema en toda la aplicación.</span><span class="sxs-lookup"><span data-stu-id="f863e-124">**Application background** – You can specify a background image that is used instead of the solid theme color throughout the application.</span></span> <span data-ttu-id="f863e-125">En cuanto a los fondos de inicio de sesión, el tamaño del archivo debe mantenerse lo más pequeño posible.</span><span class="sxs-lookup"><span data-stu-id="f863e-125">As for login backgrounds, the file size should be kept as small as possible.</span></span>
+
+## <a name="screen-layouts"></a><span data-ttu-id="f863e-126">Diseños de pantalla</span><span class="sxs-lookup"><span data-stu-id="f863e-126">Screen layouts</span></span>
+
+<span data-ttu-id="f863e-127">Las configuraciones del diseño de pantalla determinan las acciones, el contenido y la posición de los controles de la interfaz de usuario en la pantalla de bienvenida del PDV y en la pantalla **Transacción**.</span><span class="sxs-lookup"><span data-stu-id="f863e-127">Screen layout configurations determine the actions, content, and placement of UI controls on the POS welcome screen and **Transaction** screen.</span></span>
+
+![Vista Diseño de pantalla de PDV](../retail/media/POS-Screen-Layout-View.png)
+
+- <span data-ttu-id="f863e-129">**Pantalla de bienvenida** – En la mayoría de los casos, la pantalla de bienvenida es la página que verán los usuarios la primera vez que inicien sesión en el PDV.</span><span class="sxs-lookup"><span data-stu-id="f863e-129">**Welcome screen** – In most cases, the welcome screen is the page that users see when they first sign in to the POS.</span></span> <span data-ttu-id="f863e-130">La pantalla de bienvenida puede constar de una imagen de marca y de cuadrículas de botones que proporcionan acceso a las operaciones del PDV.</span><span class="sxs-lookup"><span data-stu-id="f863e-130">The welcome screen can consist of a branding image and button grids that provide access to POS operations.</span></span> <span data-ttu-id="f863e-131">Normalmente, las operaciones que no son específicas de la transacción actual se colocan en esta pantalla.</span><span class="sxs-lookup"><span data-stu-id="f863e-131">Typically, operations that aren't specific to the current transaction are put on this screen.</span></span>
+
+    ![Pantalla de bienvenida de PDV](../retail/media/POS-Welcome-Screen.png)
+
+- <span data-ttu-id="f863e-133">**Pantalla de transacción** – La pantalla **Transacción** es la pantalla principal del PDV para procesar transacciones de venta y pedidos.</span><span class="sxs-lookup"><span data-stu-id="f863e-133">**Transaction screen** – The **Transaction** screen is the main screen in the POS for processing sales transactions and orders.</span></span> <span data-ttu-id="f863e-134">El contenido y el diseño se configuran mediante el diseñador de pantalla.</span><span class="sxs-lookup"><span data-stu-id="f863e-134">The content and layout are configured by using the screen layout designer.</span></span>
+
+    ![Pantalla de transacción del PDV](../retail/media/POS-Transaction-Screen.png)
+
+- <span data-ttu-id="f863e-136">**Pantalla de inicio predeterminada** – Algunos minoristas prefieren que los cajeros vayan directamente a la pantalla **Transacción** después de iniciar sesión.</span><span class="sxs-lookup"><span data-stu-id="f863e-136">**Default start screen** – Some retailers prefer that cashiers go directly to the **Transaction** screen after sign-in.</span></span> <span data-ttu-id="f863e-137">La configuración **Pantalla de inicio predeterminada** le permite especificar la pantalla predeterminada que aparece después de iniciar sesión para cada diseño de pantalla.</span><span class="sxs-lookup"><span data-stu-id="f863e-137">The **Default start screen** setting lets you specify the default screen that appears after sign-in for each screen layout.</span></span>
+
+### <a name="assignment"></a><span data-ttu-id="f863e-138">Asignación</span><span class="sxs-lookup"><span data-stu-id="f863e-138">Assignment</span></span>
+
+<span data-ttu-id="f863e-139">Los diseños de pantalla se pueden asignar a la tienda, el registro o el nivel de usuario.</span><span class="sxs-lookup"><span data-stu-id="f863e-139">Screen layouts can be assigned at the store, register, or user level.</span></span> <span data-ttu-id="f863e-140">La asignación del usuario anula las asignaciones del registro y tienda, y la asignación del registro anula la asignación de la tienda.</span><span class="sxs-lookup"><span data-stu-id="f863e-140">The user assignment overrides the register and store assignments, and the register assignment overrides the store assignment.</span></span> <span data-ttu-id="f863e-141">En una situación sencilla en la que todos los usuarios utilizan el mismo diseño, independientemente del registro o el rol, el diseño de pantalla solo puede establecerse en el nivel de tienda.</span><span class="sxs-lookup"><span data-stu-id="f863e-141">In a simple scenario where all users use the same layout, regardless of register or role, the screen layout can be set only at the store level.</span></span> <span data-ttu-id="f863e-142">En escenarios en los que registros o usuarios específicos necesiten diseños especializados, se pueden asignar esos diseños.</span><span class="sxs-lookup"><span data-stu-id="f863e-142">In scenarios where specific registers or users require specialized layouts, those layouts can be assigned.</span></span>
+
+### <a name="layout-sizes"></a><span data-ttu-id="f863e-143">Tamaños de diseño</span><span class="sxs-lookup"><span data-stu-id="f863e-143">Layout sizes</span></span>
+
+<span data-ttu-id="f863e-144">La mayoría de aspectos de la interfaz de usuario del sistema PDV son dinámicos, y el diseño cambia de tamaño automáticamente y se ajusta en función del tamaño y la orientación de la pantalla.</span><span class="sxs-lookup"><span data-stu-id="f863e-144">Most aspects of the POS UI are responsive, and the layout is automatically resized and adjusted based on the screen size and orientation.</span></span> <span data-ttu-id="f863e-145">Sin embargo, la pantalla **Transacción** de PDV debe configurarse para cada resolución de pantalla prevista.</span><span class="sxs-lookup"><span data-stu-id="f863e-145">However, the POS **Transaction** screen must be configured for every screen resolution that is expected.</span></span>
+
+<span data-ttu-id="f863e-146">Al iniciar, la aplicación del PDV selecciona automáticamente el tamaño de diseño más cercano que está configurado para el dispositivo.</span><span class="sxs-lookup"><span data-stu-id="f863e-146">At startup, the POS application automatically selects the closest layout size that is configured for the device.</span></span> <span data-ttu-id="f863e-147">Un diseño de pantalla también puede contener configuraciones para los modos horizontal y vertical, y para dispositivos compactos y de tamaño completo.</span><span class="sxs-lookup"><span data-stu-id="f863e-147">A screen layout can also contain configurations for both landscape and portrait modes, and for both full-size and compact devices.</span></span> <span data-ttu-id="f863e-148">Por tanto, se puede asignar a los usuarios un diseño monopantalla que funciona con diferentes tamaños y factores de formulario que se utilizan en la tienda.</span><span class="sxs-lookup"><span data-stu-id="f863e-148">Therefore, users can be assigned to a single screen layout that works across various sizes and form factors that are used in the store.</span></span>
+
+![Tamaños de diseño de PDV](../retail/media/POS-Screen-Layout-Sizes.png)
+
+- <span data-ttu-id="f863e-150">**Nombre** – Puede introducir un nombre descriptivo para identificar el tamaño de la pantalla.</span><span class="sxs-lookup"><span data-stu-id="f863e-150">**Name** – You can enter a meaningful name to identify the screen size.</span></span>
+- <span data-ttu-id="f863e-151">**Tipo de diseño** – La aplicación de PDV puede mostrar su interfaz de usuario en distintos modos para ofrecer la mejor experiencia del usuario en un dispositivo determinado.</span><span class="sxs-lookup"><span data-stu-id="f863e-151">**Layout type** – The POS application can show its UI in various modes to provide the best user experience on a given device.</span></span>
+
+    - <span data-ttu-id="f863e-152">**Modern POS – Completo** – Los diseños completos suelen emplearse mejor para pantallas más grandes como monitores de escritorio y tabletas.</span><span class="sxs-lookup"><span data-stu-id="f863e-152">**Modern POS – Full** – Full layouts are typically best for larger displays, such as desktop monitors and tablets.</span></span> <span data-ttu-id="f863e-153">Puede seleccionar los elementos de la interfaz de usuario que desea incluir, especificar el tamaño y la posición de esos elementos y configurar sus propiedades detalladas.</span><span class="sxs-lookup"><span data-stu-id="f863e-153">You can select the UI elements to include, specify the size and placement of those elements, and configure their detailed properties.</span></span> <span data-ttu-id="f863e-154">Los diseños completos admiten la configuración vertical y horizontal.</span><span class="sxs-lookup"><span data-stu-id="f863e-154">Full layouts support both portrait and landscape configurations.</span></span>
+    - <span data-ttu-id="f863e-155">**Modern POS – Compacto** – Los diseños compactos suelen ser mejores para teléfonos y tabletas pequeñas.</span><span class="sxs-lookup"><span data-stu-id="f863e-155">**Modern POS – Compact** – Compact layouts are typically best for phones and small tablets.</span></span> <span data-ttu-id="f863e-156">Las posibilidades de diseño en los dispositivos compactos son limitadas.</span><span class="sxs-lookup"><span data-stu-id="f863e-156">The design possibilities for compact devices are limited.</span></span> <span data-ttu-id="f863e-157">Puede configurar las columnas y los campos para los paneles de totales y de recepción.</span><span class="sxs-lookup"><span data-stu-id="f863e-157">You can configure the columns and fields for the receipt and totals panels.</span></span>
+
+- <span data-ttu-id="f863e-158">**Ancho/Alto** – Estos valores representan el tamaño efectivo de pantalla, en píxeles, que se espera para el diseño.</span><span class="sxs-lookup"><span data-stu-id="f863e-158">**Width/Height** – These values represent the effective screen size, in pixels, that is expected for the layout.</span></span> <span data-ttu-id="f863e-159">Recuerde que algunos sistemas operativos utilizan una escala para pantallas de alta resolución.</span><span class="sxs-lookup"><span data-stu-id="f863e-159">Remember that some operating systems use scaling for high-resolution displays.</span></span>
+
+> [!TIP]
+> <span data-ttu-id="f863e-160">Puede conocer el tamaño de diseño necesario para una pantalla del PDV viendo la resolución en la aplicación.</span><span class="sxs-lookup"><span data-stu-id="f863e-160">You can learn the layout size that is required for a POS screen by viewing the resolution in the app.</span></span> <span data-ttu-id="f863e-161">Inicie el PDV y vaya **Configuración \> Información sobre la sesión**.</span><span class="sxs-lookup"><span data-stu-id="f863e-161">Start the POS, and go to **Settings \> Session information**.</span></span> <span data-ttu-id="f863e-162">El PDV muestra el diseño de pantalla que se carga actualmente, el tamaño de diseño y la resolución de la ventana de la aplicación.</span><span class="sxs-lookup"><span data-stu-id="f863e-162">POS shows the screen layout that is currently loaded, the layout size, and the resolution of the app window.</span></span>
+
+![Tamaños de diseño de PDV](../retail/media/POS-Session-Information.png)
+
+### <a name="button-grids"></a><span data-ttu-id="f863e-164">Cuadrículas de botones</span><span class="sxs-lookup"><span data-stu-id="f863e-164">Button grids</span></span>
+
+<span data-ttu-id="f863e-165">Para cada tamaño de diseño de un diseño de pantalla, puede configurar y asignar cuadrículas de botones para la pantalla de bienvenida de PDV y la pantalla **Transacción**.</span><span class="sxs-lookup"><span data-stu-id="f863e-165">For each layout size in a screen layout, you can configure and assign button grids for the POS welcome screen and **Transaction** screen.</span></span> <span data-ttu-id="f863e-166">Las cuadrículas de botones para la pantalla de bienvenida se disponen automáticamente de izquierda a derecha, del número inferior (pantalla de bienvenida 1) al número más alto.</span><span class="sxs-lookup"><span data-stu-id="f863e-166">Button grids for the welcome screen are automatically laid out from left to right, from the lowest number (Welcome screen 1) to the highest number.</span></span>
+
+<span data-ttu-id="f863e-167">En diseños de PDV completa, la colocación de las cuadrículas de botones se especifica en el diseñador de pantalla.</span><span class="sxs-lookup"><span data-stu-id="f863e-167">In Full POS layouts, the placement of button grids is specified in the screen layout designer.</span></span>
+
+<span data-ttu-id="f863e-168">En diseños de PDV compacto, las cuadrículas de botones se disponen automáticamente de arriba a abajo, del número inferior (pantalla de transacción 1) al número más alto.</span><span class="sxs-lookup"><span data-stu-id="f863e-168">In Compact POS layouts, the button grids are automatically laid out from top to bottom, from the lowest number (Transaction screen 1) to the highest number.</span></span> <span data-ttu-id="f863e-169">Pueden obtener acceso en el menú **Acciones**.</span><span class="sxs-lookup"><span data-stu-id="f863e-169">They can be accessed on the **Actions** menu.</span></span>
+
+![Cuadrículas de botones de diseño compacto](../retail/media/Compact-View-Button-Grids.png)
+
+### <a name="images"></a><span data-ttu-id="f863e-171">Imágenes</span><span class="sxs-lookup"><span data-stu-id="f863e-171">Images</span></span>
+
+<span data-ttu-id="f863e-172">Para cada tamaño de diseño de un diseño de pantalla, puede especificar imágenes para incluirlas en la interfaz de usuario del sistema PDV.</span><span class="sxs-lookup"><span data-stu-id="f863e-172">For each layout size in a screen layout, you can specify images to include in the POS UI.</span></span> <span data-ttu-id="f863e-173">Para los diseños de PDV completos, se puede especificar una sola imagen para la pantalla de bienvenida.</span><span class="sxs-lookup"><span data-stu-id="f863e-173">For Full POS layouts, a single image can be specified for the welcome screen.</span></span> <span data-ttu-id="f863e-174">En la izquierda aparece una imagen como el primer elemento de la interfaz de usuario.</span><span class="sxs-lookup"><span data-stu-id="f863e-174">This image appears as the first UI element on the left.</span></span> <span data-ttu-id="f863e-175">En la pantalla **Transacción**, las imágenes se pueden utilizar como imágenes de pestaña o como un logotipo.</span><span class="sxs-lookup"><span data-stu-id="f863e-175">On the **Transaction** screen, images can be used as tab images or as a logo.</span></span> <span data-ttu-id="f863e-176">Los diseños de PDV compactos no utilizan estas imágenes.</span><span class="sxs-lookup"><span data-stu-id="f863e-176">Compact POS layouts don't use these images.</span></span>
+
+### <a name="screen-layout-designer"></a><span data-ttu-id="f863e-177">Diseñador de pantalla</span><span class="sxs-lookup"><span data-stu-id="f863e-177">Screen layout designer</span></span>
+
+<span data-ttu-id="f863e-178">El diseñador de pantalla le permite configurar diversos aspectos de la pantalla **Transacción** de PDV para cada tamaño de diseño, en modos horizontal y vertical, y para los diseños completo y compacto.</span><span class="sxs-lookup"><span data-stu-id="f863e-178">The screen layout designer lets you configure various aspects of the POS **Transaction** screen for each layout size, in both portrait and landscape modes, and for both Full and Compact layouts.</span></span> <span data-ttu-id="f863e-179">El diseñador de pantalla emplea la tecnología de implementación ClickOnce para descargar, instalar e iniciar la última versión de la aplicación cada vez que los usuarios acceden a ella.</span><span class="sxs-lookup"><span data-stu-id="f863e-179">The screen layout designer uses the ClickOnce deployment technology to download, install, and start the latest version of the application every time that users access it.</span></span> <span data-ttu-id="f863e-180">Asegúrese de comprobar los requisitos del explorador para ClickOnce.</span><span class="sxs-lookup"><span data-stu-id="f863e-180">Be sure to check the browser requirements for ClickOnce.</span></span> <span data-ttu-id="f863e-181">Algunos exploradores, como Google Chrome, requieren extensiones.</span><span class="sxs-lookup"><span data-stu-id="f863e-181">Some browsers, such as Google Chrome, require extensions.</span></span>
+
+> [!IMPORTANT]
+> <span data-ttu-id="f863e-182">Debe configurar un diseño de pantalla para cada tamaño de diseño que se defina y que se utilice en el PDV.</span><span class="sxs-lookup"><span data-stu-id="f863e-182">You must configure a screen layout for each layout size that is defined and that is used by the POS.</span></span>
+
+### <a name="full-layout-designer"></a><span data-ttu-id="f863e-183">Diseñador completo</span><span class="sxs-lookup"><span data-stu-id="f863e-183">Full layout designer</span></span>
+
+<span data-ttu-id="f863e-184">El diseñador completo permite a los usuarios arrastrar controles de la interfaz de usuario en la pantalla **Transacción** de PDV y configurar los valores de estos controles.</span><span class="sxs-lookup"><span data-stu-id="f863e-184">The Full layout designer lets users drag UI controls onto the POS **Transaction** screen and configure the settings of those controls.</span></span>
+
+![Diseñador completo de PDV (modo horizontal)](../retail/media/POS-Full-Layout-Designer-Landscape.png)
+
+- <span data-ttu-id="f863e-186">**Importar diseño/Exportar diseño** – Puede exportar e importar diseños de pantalla de PDV como archivos XML, de manera que pueda volver a utilizarlos y compartirlos con facilidad entre entornos.</span><span class="sxs-lookup"><span data-stu-id="f863e-186">**Import layout/Export layout** – You can export and import POS screen layout designs as XML files, so that you can easily reuse and share them across environments.</span></span> <span data-ttu-id="f863e-187">Es importante que importe diseños para los tamaños de diseño correctos.</span><span class="sxs-lookup"><span data-stu-id="f863e-187">It's important that you import layout designs for the correct layout sizes.</span></span> <span data-ttu-id="f863e-188">De lo contrario, puede que los elementos de interfaz de usuario no se ajusten correctamente en la pantalla.</span><span class="sxs-lookup"><span data-stu-id="f863e-188">Otherwise, UI elements might not fit correctly on the screen.</span></span>
+- <span data-ttu-id="f863e-189">**Horizontal/Vertical** – Si el dispositivo de PDV permite a los usuarios cambiar entre los modos horizontal y vertical, debe definir un diseño de pantalla para cada modo.</span><span class="sxs-lookup"><span data-stu-id="f863e-189">**Landscape/Portrait** – If the POS device lets users switch between landscape and portrait modes, you must define a screen layout for each mode.</span></span> <span data-ttu-id="f863e-190">El PDV detecta automáticamente la rotación de la pantalla y muestra el diseño correcto.</span><span class="sxs-lookup"><span data-stu-id="f863e-190">The POS automatically detects screen rotation and shows the correct layout.</span></span>
+- <span data-ttu-id="f863e-191">**Cuadrícula de diseño** – El diseñador de PDV emplea una cuadrícula de 4 píxeles.</span><span class="sxs-lookup"><span data-stu-id="f863e-191">**Layout grid** – The POS layout designer uses a 4-pixel grid.</span></span> <span data-ttu-id="f863e-192">Los controles de la interfaz de usuario "se ajustan" a la cuadrícula para ayudarle a alinear correctamente el contenido.</span><span class="sxs-lookup"><span data-stu-id="f863e-192">UI controls "snap" to the grid to help you correctly align the content.</span></span>
+- <span data-ttu-id="f863e-193">**Zoom del diseñador** – Puede acercar o alejar la vista de diseñador para ver mejor el contenido en la pantalla de PDV.</span><span class="sxs-lookup"><span data-stu-id="f863e-193">**Designer zoom** – You can zoom the designer view in and out to better view the content on the POS screen.</span></span> <span data-ttu-id="f863e-194">Esta función resulta útil cuando la resolución de pantalla en el sistema PDV difiere significativamente de la resolución de la pantalla que se utiliza en el diseñador.</span><span class="sxs-lookup"><span data-stu-id="f863e-194">This feature is useful when the screen resolution on the POS differs greatly from the resolution of the screen that is used in the designer.</span></span>
+- <span data-ttu-id="f863e-195">**Mostrar/ocultar barra de navegación** – Para diseños de PDV completos, puede seleccionar si la barra de navegación izquierda es visible en la pantalla **Transacción**.</span><span class="sxs-lookup"><span data-stu-id="f863e-195">**Show/hide navigation bar** – For Full POS layouts, you can select whether the left navigation bar is visible on the **Transaction** screen.</span></span> <span data-ttu-id="f863e-196">Esta función resulta útil para pantallas que tiene una resolución más baja.</span><span class="sxs-lookup"><span data-stu-id="f863e-196">This feature is helpful for displays that have a lower resolution.</span></span> <span data-ttu-id="f863e-197">Para establecer la visibilidad, haga clic con el botón derecho en la barra de exploración del diseñador, y active o desactive la casilla de verificación **Siempre visible**.</span><span class="sxs-lookup"><span data-stu-id="f863e-197">To set the visibility, right-click the navigation bar in the designer, and select or clear the **Always visible** check box.</span></span> <span data-ttu-id="f863e-198">Si la barra de navegación está oculta, los usuarios del PDV pueden seguir teniendo acceso mediante el menú de la parte superior izquierda.</span><span class="sxs-lookup"><span data-stu-id="f863e-198">If the navigation bar is hidden, POS users can still access it by using the menu in the upper left.</span></span>
+
+    ![Mostrar/ocultar barra de navegación](../retail/media/Navigation-Bar.PNG)
+
+- <span data-ttu-id="f863e-200">**Controles de PDV** – El diseñador de PDV admite los siguientes controles.</span><span class="sxs-lookup"><span data-stu-id="f863e-200">**POS controls** – The POS layout designer supports the following controls.</span></span> <span data-ttu-id="f863e-201">Puede configurar muchos controles haciendo clic con el botón derecho y usando el menú contextual.</span><span class="sxs-lookup"><span data-stu-id="f863e-201">You can configure many controls by right-clicking and using the shortcut menu.</span></span>
+
+    ![Controles de interfaz de usuario de PDV](../retail/media/POS-UI-Controls.png)
+
+    - <span data-ttu-id="f863e-203">**Teclado numérico** – El teclado numérico es el mecanismo principal para la entrada de usuario en la pantalla **Transacción** del PDV.</span><span class="sxs-lookup"><span data-stu-id="f863e-203">**Number pad** – The number pad is the main mechanism for user input on the POS **Transaction** screen.</span></span> <span data-ttu-id="f863e-204">Puede configurar el control para que se muestre el teclado numérico completo.</span><span class="sxs-lookup"><span data-stu-id="f863e-204">You can configure the control so that the full number pad is shown.</span></span> <span data-ttu-id="f863e-205">Esta opción es ideal para dispositivos con pantalla táctil.</span><span class="sxs-lookup"><span data-stu-id="f863e-205">This option is ideal for touchscreen devices.</span></span> <span data-ttu-id="f863e-206">De forma alternativa, puede configurarla para que se muestre solo el campo de entrada.</span><span class="sxs-lookup"><span data-stu-id="f863e-206">Alternatively, you can configure it so that only the input field is shown.</span></span> <span data-ttu-id="f863e-207">En este caso, se utiliza un teclado físico para la entrada.</span><span class="sxs-lookup"><span data-stu-id="f863e-207">In this case, a physical keyboard is used for input.</span></span> <span data-ttu-id="f863e-208">Los ajustes del teclado numérico están disponibles solo en los diseños completos.</span><span class="sxs-lookup"><span data-stu-id="f863e-208">The number pad settings are available only for Full layouts.</span></span> <span data-ttu-id="f863e-209">Para diseños compactos, el teclado numérico completo siempre se muestra en la pantalla **Transacción**.</span><span class="sxs-lookup"><span data-stu-id="f863e-209">For Compact layouts, the full number pad is always shown on the **Transaction** screen.</span></span>
+    - <span data-ttu-id="f863e-210">**Panel de totales** – Puede configurar el panel de totales en una o dos columnas para mostrar valores como el recuento de líneas, el importe de descuento, los gastos, el subtotal y los impuestos.</span><span class="sxs-lookup"><span data-stu-id="f863e-210">**Totals panel** – You can configure the totals panel in either one column or two columns, to show values such as the line count, discount amount, charges, subtotal, and tax.</span></span> <span data-ttu-id="f863e-211">Los diseño compactos solo admiten una única columna.</span><span class="sxs-lookup"><span data-stu-id="f863e-211">Compact layouts support only a single column.</span></span>
+    - <span data-ttu-id="f863e-212">**Panel de recepción** – El panel de recepción contiene las líneas de ventas, las líneas de pago y la información de entrega para los productos y servicios que se procesan en el PDV.</span><span class="sxs-lookup"><span data-stu-id="f863e-212">**Receipt panel** – The receipt panel contains the sales lines, payment lines, and delivery information for the products and services that are processed in the POS.</span></span> <span data-ttu-id="f863e-213">Puede especificar columnas, anchos y posiciones.</span><span class="sxs-lookup"><span data-stu-id="f863e-213">You can specify columns, widths, and placement.</span></span> <span data-ttu-id="f863e-214">En diseños compactos, también puede configurar información adicional que aparece en la fila debajo de la línea principal.</span><span class="sxs-lookup"><span data-stu-id="f863e-214">In Compact layouts, you can also configure additional information that appears in the row under the main line.</span></span>
+    - <span data-ttu-id="f863e-215">**Tarjeta de cliente** – La tarjeta del cliente muestra información sobre el cliente que está asociado a la transacción actual.</span><span class="sxs-lookup"><span data-stu-id="f863e-215">**Customer card** – The customer card shows information about the customer who is associated with the current transaction.</span></span> <span data-ttu-id="f863e-216">Puede configurar la tarjeta del cliente para que se oculte o muestre la información adicional.</span><span class="sxs-lookup"><span data-stu-id="f863e-216">You can configure the customer card to hide or show additional information.</span></span>
+    - <span data-ttu-id="f863e-217">**Control de fichas** – Puede agregar el control de fichas a un diseño de pantalla y, a continuación, colocar otros controles como el teclado numérico, la tarjeta de cliente o las cuadrículas de botones, dentro de la ficha.</span><span class="sxs-lookup"><span data-stu-id="f863e-217">**Tab control** – You can add the tab control to a screen layout, and then put other controls, such as the number pad, customer card, or button grids, in it.</span></span> <span data-ttu-id="f863e-218">El control de fichas es un contenedor que le ayuda a introducir más contenido en la pantalla.</span><span class="sxs-lookup"><span data-stu-id="f863e-218">The tab control is a container that helps you fit more content on the screen.</span></span> <span data-ttu-id="f863e-219">El control de fichas solo está disponible en los diseños completos.</span><span class="sxs-lookup"><span data-stu-id="f863e-219">The tab control is available only for Full layouts.</span></span>
+    - <span data-ttu-id="f863e-220">**Imagen** – Puede usar el control de imagen para mostrar el logotipo de la tienda u otra imagen de marca en la pantalla **Transacción**.</span><span class="sxs-lookup"><span data-stu-id="f863e-220">**Image** – You can use the image control to show the store's logo or another branding image on the **Transaction** screen.</span></span> <span data-ttu-id="f863e-221">El control de imagen solo está disponible en los diseños completos.</span><span class="sxs-lookup"><span data-stu-id="f863e-221">The image control is available only for Full layouts.</span></span>
+    - <span data-ttu-id="f863e-222">**Productos recomendados** - Si el control de productos recomendados está configurado para el entorno, muestra las sugerencias de productos del aprendizaje automático.</span><span class="sxs-lookup"><span data-stu-id="f863e-222">**Recommended products** – If the recommended products control is configured for the environment, it shows product suggestions, based on machine learning.</span></span>
+    - <span data-ttu-id="f863e-223">**Control personalizado** – El control personalizado actúa como un marcador de posición en el diseño de pantalla y le permite reservar espacio para el contenido personalizado.</span><span class="sxs-lookup"><span data-stu-id="f863e-223">**Custom control** – The custom control acts as a placeholder in the screen layout and lets you reserve space for custom content.</span></span> <span data-ttu-id="f863e-224">El control personalizado solo está disponible en los diseños completos.</span><span class="sxs-lookup"><span data-stu-id="f863e-224">The custom control is available only for Full layouts.</span></span>
+
+### <a name="compact-layout-designer"></a><span data-ttu-id="f863e-225">Diseñador de diseño compacto</span><span class="sxs-lookup"><span data-stu-id="f863e-225">Compact layout designer</span></span>
+
+<span data-ttu-id="f863e-226">Al igual que el diseñador de diseño completo, el diseñador de diseño compacto le permite configurar el diseño de pantalla de PDV para teléfonos y tabletas pequeñas.</span><span class="sxs-lookup"><span data-stu-id="f863e-226">Like the Full layout designer, the Compact layout designer lets you configure the POS screen layout for phones and small tablets.</span></span> <span data-ttu-id="f863e-227">Sin embargo, en este caso, el diseño en sí es fijo.</span><span class="sxs-lookup"><span data-stu-id="f863e-227">However, in this case, the layout itself is fixed.</span></span> <span data-ttu-id="f863e-228">Puede configurar los controles en el diseño haciendo clic con el botón derecho y usando el menú contextual.</span><span class="sxs-lookup"><span data-stu-id="f863e-228">You can configure the controls in the layout by right-clicking and using the shortcut menu.</span></span> <span data-ttu-id="f863e-229">Sin embargo, no puede usar la función de arrastrar y colocar para contenido adicional.</span><span class="sxs-lookup"><span data-stu-id="f863e-229">However, you can't use drag-and-drop operations for additional content.</span></span>
+
+![Diseñador de diseño compacto](../retail/media/Compact-Layout-Designer.png)
+
+### <a name="button-grid-designer"></a><span data-ttu-id="f863e-231">Diseñador de cuadrícula de botones</span><span class="sxs-lookup"><span data-stu-id="f863e-231">Button grid designer</span></span>
+
+<span data-ttu-id="f863e-232">El diseñador de cuadrícula de botones le permite configurar botones de cuadrícula que se pueden usar en la pantalla de bienvenida de PDV y la pantalla **Transacción** para diseños completos y compactos.</span><span class="sxs-lookup"><span data-stu-id="f863e-232">The button grid designer lets you configure button grids that can be used on the POS welcome screen and **Transaction** screen for both Full and Compact layouts.</span></span> <span data-ttu-id="f863e-233">La misma cuadrícula de botones se puede usar en diseños y tipos de diseño.</span><span class="sxs-lookup"><span data-stu-id="f863e-233">The same button grid can be used across layouts and layout types.</span></span> <span data-ttu-id="f863e-234">Al igual que el diseñador de pantalla, el diseño de cuadrícula de botones emplea la tecnología de implementación ClickOnce para descargar, instalar e iniciar la última versión de la aplicación cada vez que los usuarios acceden a ella.</span><span class="sxs-lookup"><span data-stu-id="f863e-234">Like the screen layout designer, the button grid designer uses the ClickOnce deployment technology to download, install, and start the latest version of the application every time that users access it.</span></span> <span data-ttu-id="f863e-235">Asegúrese de comprobar los requisitos del explorador para ClickOnce.</span><span class="sxs-lookup"><span data-stu-id="f863e-235">Be sure to check the browser requirements for ClickOnce.</span></span> <span data-ttu-id="f863e-236">Algunos exploradores, como Google Chrome, requieren extensiones.</span><span class="sxs-lookup"><span data-stu-id="f863e-236">Some browsers, such as Google Chrome, require extensions.</span></span>
+
+![Diseñador de cuadrícula de botones](../retail/media/Button-Grid-Designer.png)
+
+- <span data-ttu-id="f863e-238">**Nuevo botón** – Haga clic para agregar un nuevo botón a la cuadrícula de botones.</span><span class="sxs-lookup"><span data-stu-id="f863e-238">**New button** – Click to add a new button to the button grid.</span></span> <span data-ttu-id="f863e-239">De forma predeterminada, los nuevos botones aparecen en la esquina superior izquierda de la cuadrícula.</span><span class="sxs-lookup"><span data-stu-id="f863e-239">By default, new buttons appear in the upper-left corner of the grid.</span></span> <span data-ttu-id="f863e-240">Sin embargo, puede organizar los botones arrastrándolos en el diseño.</span><span class="sxs-lookup"><span data-stu-id="f863e-240">However, you can arrange buttons by dragging them in the layout.</span></span>
+
+    > [!IMPORTANT]
+    > <span data-ttu-id="f863e-241">El contenido de la cuadrícula de botones se puede superponer.</span><span class="sxs-lookup"><span data-stu-id="f863e-241">The contents of the button grid can overlap.</span></span> <span data-ttu-id="f863e-242">Cuando organice botones, asegúrese de que no oculten otros botones.</span><span class="sxs-lookup"><span data-stu-id="f863e-242">When you arrange buttons, make sure that they don't hide other buttons.</span></span>
+
+- <span data-ttu-id="f863e-243">**Nuevo diseño** – Haga clic para configurar automáticamente un diseño de cuadrícula de botones especificando el número de botones por fila y columna.</span><span class="sxs-lookup"><span data-stu-id="f863e-243">**New design** – Click to automatically set up a button grid layout by specifying the number of buttons per row and column.</span></span>
+- <span data-ttu-id="f863e-244">**Propiedades de botón** – Puede configurar las propiedades del botón haciendo clic con el botón derecho en el botón y usando el menú contextual.</span><span class="sxs-lookup"><span data-stu-id="f863e-244">**Button properties** – You can configure button properties by right-clicking the button and using the shortcut menu.</span></span>
+
+    > [!IMPORTANT]
+    > <span data-ttu-id="f863e-245">Algunos ajustes de la cuadrícula de botones solo se aplican a Enterprise POS, no a Retail Modern POS o Cloud POS.</span><span class="sxs-lookup"><span data-stu-id="f863e-245">Some button grid settings apply only to Enterprise POS, not to Retail Modern POS or Cloud POS.</span></span>
+
+    ![Propiedades del botón de cuadrícula de botones](../retail/media/Button-grid-button-properties.png)
+
+    - <span data-ttu-id="f863e-247">**Acción** – En la lista de operaciones de PDV aplicables, seleccione la operación que se invoca cuando se hace clic en el botón en el PDV.</span><span class="sxs-lookup"><span data-stu-id="f863e-247">**Action** – In the list of applicable POS operations, select the operation that is invoked when the button is clicked in the POS.</span></span>
+
+        <span data-ttu-id="f863e-248">Para la lista de operaciones de PDV admitidas, consulte [Operaciones de PDV, en línea y sin conexión](pos-operations.md).</span><span class="sxs-lookup"><span data-stu-id="f863e-248">For the list of supported POS operations, see [POS operations, online and offline](pos-operations.md).</span></span>
+
+    - <span data-ttu-id="f863e-249">**Parámetros de acción** – Algunas operaciones de PDV utilizan parámetros adicionales cuando se invocan.</span><span class="sxs-lookup"><span data-stu-id="f863e-249">**Action parameters** – Some POS operations use additional parameters when they are invoked.</span></span> <span data-ttu-id="f863e-250">Por ejemplo, para la operación Agregar producto, los usuarios pueden especificar el producto que desea agregar.</span><span class="sxs-lookup"><span data-stu-id="f863e-250">For example, for the Add product operation, users can specify the product to add.</span></span>
+    - <span data-ttu-id="f863e-251">**Texto del botón** – Especifique el texto que aparece en el botón del PDV.</span><span class="sxs-lookup"><span data-stu-id="f863e-251">**Button text** – Specify the text that appears on the button in the POS.</span></span>
+    - <span data-ttu-id="f863e-252">**Ocultar texto del botón** – Utilice esta casilla de verificación para ocultar o mostrar el texto del botón.</span><span class="sxs-lookup"><span data-stu-id="f863e-252">**Hide button text** – Use this check box to hide or show the button text.</span></span> <span data-ttu-id="f863e-253">El texto del botón suele estar oculto para botones pequeños que solo muestran un icono.</span><span class="sxs-lookup"><span data-stu-id="f863e-253">Button text is often hidden for small buttons that show only an icon.</span></span>
+    - <span data-ttu-id="f863e-254">**Información sobre herramientas** – Especifique texto de Ayuda adicional que aparece cuando los usuarios pasan el ratón por encima del botón.</span><span class="sxs-lookup"><span data-stu-id="f863e-254">**Tooltip** – Specify additional Help text that appears when users mouse over the button.</span></span>
+    - <span data-ttu-id="f863e-255">**Tamaño en columnas/Tamaño en filas** – Puede especificar lo alto y ancho que es el botón.</span><span class="sxs-lookup"><span data-stu-id="f863e-255">**Size in columns/Size in rows** – You can specify how tall and wide the button is.</span></span>
+
+        ![Tamaños de los botones del PDV en filas y columnas](../retail/media/POS-Button-Sizes-In-Rows-And-Columns.png)
+
+    - <span data-ttu-id="f863e-257">**Fuente personalizada** – Cuando seleccione la casilla de verificación **Habilitar fuente personalizada para PDV**, puede especificar una fuente distinta de la fuente predeterminada del sistema para el PDV.</span><span class="sxs-lookup"><span data-stu-id="f863e-257">**Custom font** – When you select the **Enable custom font for POS** check box, you can specify a font other than the default system font for the POS.</span></span>
+    - <span data-ttu-id="f863e-258">**Tema personalizado** – De forma predeterminada, los botones de PDV emplean el color de acento del perfil visual.</span><span class="sxs-lookup"><span data-stu-id="f863e-258">**Custom theme** – By default, POS buttons use the accent color from the visual profile.</span></span> <span data-ttu-id="f863e-259">Al seleccionar la casilla de verificación **Usar tema personalizado**, puede especificar colores adicionales.</span><span class="sxs-lookup"><span data-stu-id="f863e-259">When you select the **Use custom theme** check box, you can specify additional colors.</span></span>
+
+        > [!NOTE]
+        > <span data-ttu-id="f863e-260">Retail Modern POS y Cloud POS utilizan solo los valores **Color de fondo** y **Color de fuente**.</span><span class="sxs-lookup"><span data-stu-id="f863e-260">Retail Modern POS and Cloud POS use only the **Back color** and **Font color** values.</span></span>
+
+    - <span data-ttu-id="f863e-261">**Imagen de los botones** – Los botones pueden incluir imágenes o iconos.</span><span class="sxs-lookup"><span data-stu-id="f863e-261">**Button image** – Buttons can include images or icons.</span></span> <span data-ttu-id="f863e-262">Seleccione entre las imágenes disponibles que se especifican en **Retail \> Configuración de canal \> Configuración de PDV \> PDV \> Imágenes**.</span><span class="sxs-lookup"><span data-stu-id="f863e-262">Select among the available images that are specified at **Retail \> Channel setup \> POS setup \> POS \> Images**.</span></span>
+
+![Cuadrícula de botones de ejemplo en el PDV](../retail/media/Example-Button-Grid-In-POS.png)
+
+## <a name="additional-resources"></a><span data-ttu-id="f863e-264">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="f863e-264">Additional resources</span></span>
+
+[<span data-ttu-id="f863e-265">Instalar el diseñador de Retail POS</span><span class="sxs-lookup"><span data-stu-id="f863e-265">Install the Retail POS Layout designer</span></span>](install-pos-layout-designer.md)
