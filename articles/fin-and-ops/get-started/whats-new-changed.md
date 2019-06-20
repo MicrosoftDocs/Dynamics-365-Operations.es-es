@@ -1,645 +1,334 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="whats-new-changed.md" target-language="es-ES">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-d915bc8" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>whats-new-changed.2c9c21.bc13efe11f383157338ccd6b2ae378ee1f92a698.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>bc13efe11f383157338ccd6b2ae378ee1f92a698</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>bbc9aa0d6b94a942e1f4d5b038601509dcc87937</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>06/05/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\fin-and-ops\get-started\whats-new-changed.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>What's new or changed</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novedades y cambios</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This page points you to topics that can help you learn about the new features in the latest versions of Microsoft Dynamics 365 for Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta página le señala a temas que pueden ayudarle a obtener información acerca de las nuevas características de las versiones más recientes de Microsoft Dynamics 365 for Finance and Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>What's new or changed</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Novedades y cambios</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>This page points you to topics that can help you learn about the new features in the latest versions of Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta página le señala a temas que pueden ayudarle a obtener información acerca de las nuevas características de las versiones más recientes de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>For information about how to upgrade to the latest version, see <bpt id="p1">[</bpt>Process for upgrading to the latest update<ept id="p1">](../../dev-itpro/migration-upgrade/upgrade-latest-update.md)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para obtener información sobre cómo actualizar a la versión más reciente, vea <bpt id="p1">[</bpt>Proceso para ir a la actualización más reciente<ept id="p1">](../../dev-itpro/migration-upgrade/upgrade-latest-update.md)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>Application releases</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Liberaciones de aplicación</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>This table lists the major releases of the application.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta tabla enumera las principales versiones de la aplicación.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>For monthly cloud updates, see <bpt id="p1">[</bpt>Software lifecycle policy and cloud releases<ept id="p1">](../../dev-itpro/migration-upgrade/versions-update-policy.md)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para las actualizaciones mensuales de la nube, consulte <bpt id="p1">[</bpt>Directiva del ciclo de vida del software y nuevas soluciones de nube<ept id="p1">](../../dev-itpro/migration-upgrade/versions-update-policy.md)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>Release</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Liberar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>Version</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Versión</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>Build number</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Crear número</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>Availability</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Disponibilidad</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>Learn more</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Más información</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>Microsoft Dynamics 365 for Finance and Operations</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics 365 for Finance and Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>10.0.4</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">10.0.4</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>10.0.136</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">10.0.136</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>July 2019</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Julio de 2019</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source><bpt id="p1">&lt;a href="whats-new-changed-10-0-4.md"&gt;</bpt>Preview features in Dynamics 365 for Finance and Operations version 10.0.4 (July 2019)<ept id="p1">&lt;/a&gt;</ept></source><target logoport:matchpercent="90" state="translated" state-qualifier="fuzzy-match"><bpt id="p1">&lt;a href="whats-new-changed-10-0-4.md"&gt;</bpt>Obtener una vista preliminar de las características de Dynamics 365 for Finance and Operations versión 10.0.4 (julio de 2019)<ept id="p1">&lt;/a&gt;</ept></target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>Microsoft Dynamics 365 for Finance and Operations</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics 365 for Finance and Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>10.0.3</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">10.0.3</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>10.0.107</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">10.0.107</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>June 2019</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">2019 de junio</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source><bpt id="p1">&lt;a href="whats-new-changed-10-0-3.md"&gt;</bpt>Preview features in Dynamics 365 for Finance and Operations version 10.0.3 (June 2019)<ept id="p1">&lt;/a&gt;</ept></source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;a href="whats-new-changed-10-0-3.md"&gt;</bpt>Obtener una vista preliminar de las características de Dynamics 365 for Finance and Operations versión 10.0.3 (junio de 2019)<ept id="p1">&lt;/a&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>Microsoft Dynamics 365 for Finance and Operations</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics 365 for Finance and Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>10.0.2</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">10.0.2</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>10.0.80</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">10.0.80</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>May 2019</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">mayo de 2019</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source><bpt id="p1">&lt;a href="whats-new-changed-10-0-2.md"&gt;</bpt>What's new or changed in Dynamics 365 for Finance and Operations version 10.0.2 (May 2019)<ept id="p1">&lt;/a&gt;</ept></source><target logoport:matchpercent="86" state="translated" state-qualifier="fuzzy-match"><bpt id="p1">&lt;a href="whats-new-changed-10-0-2.md"&gt;</bpt>Novedades y cambios en Dynamics 365 for Finance and Operations versión 10.0.2 (mayo de 2019)<ept id="p1">&lt;/a&gt;</ept></target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>Microsoft Dynamics 365 for Finance and Operations</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics 365 for Finance and Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>10.0.1</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">10.0.1</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>10.0.51</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">10.0.51</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>April 2019</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">2019 de abril</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source><bpt id="p1">&lt;a href="whats-new-changed-10-0-1.md"&gt;</bpt>What's new or changed in Dynamics 365 for Finance and Operations version 10.0.1 (April 2019)<ept id="p1">&lt;/a&gt;</ept></source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;a href="whats-new-changed-10-0-1.md"&gt;</bpt>Novedades y cambios en Dynamics 365 for Finance and Operations versión 10.0.1 (abril de 2019)<ept id="p1">&lt;/a&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>Microsoft Dynamics 365 for Finance and Operations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics 365 for Finance and Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>10.0</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10.0</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>10.0.8</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10.0.8</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>April 2019</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2019 de abril</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source><bpt id="p1">&lt;a href="whats-new-changed-10-0-1.md"&gt;</bpt>What's new or changed in Finance and Operations version 10.0 (April 2019) <ept id="p1">&lt;/a&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;a href="whats-new-changed-10-0-1.md"&gt;</bpt>Novedades o cambios en Finance and Operations, versión 10.0 (abril de 2019) <ept id="p1">&lt;/a&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>Microsoft Dynamics 365 for Finance and Operations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics 365 for Finance and Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>8.1.3</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">8.1.3</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>8.1.227</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">8.1.227</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>January 2019</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">enero de 2019</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source><bpt id="p1">&lt;a href="whats-new-changed-8-1-3.md"&gt;</bpt>What's new or changed in Dynamics 365 for Finance and Operations version 8.1.3 (January 2019)<ept id="p1">&lt;/a&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;a href="whats-new-changed-8-1-3.md"&gt;</bpt>Novedades y cambios en Dynamics 365 for Finance and Operations versión 8.1.3 (enero de 2019)<ept id="p1">&lt;/a&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>Microsoft Dynamics 365 for Finance and Operations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics 365 for Finance and Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>8.1.2</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">8.1.2</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>8.1.195</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">8.1.195</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>December 2018</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2018 de diciembre</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source><bpt id="p1">&lt;a href="whats-new-changed-8-1-2.md"&gt;</bpt>What's new or changed in Dynamics 365 for Finance and Operations version 8.1.2 (December 2018)<ept id="p1">&lt;/a&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;a href="whats-new-changed-8-1-2.md"&gt;</bpt>Novedades y cambios en Dynamics 365 for Finance and Operations versión 8.1.2 (diciembre de 2018)<ept id="p1">&lt;/a&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>Microsoft Dynamics 365 for Finance and Operations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics 365 for Finance and Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>8.1.1</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">8.1.1</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>8.1.170</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">8.1.170</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>October 2018</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Octubre de 2018</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source><bpt id="p1">&lt;a href="whats-new-changed-8-1-1.md"&gt;</bpt>What's new or changed in Dynamics 365 for Finance and Operations version 8.1.1 (October 2018)<ept id="p1">&lt;/a&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;a href="whats-new-changed-8-1-1.md"&gt;</bpt>Novedades y cambios en Dynamics 365 for Finance and Operations versión 8.1.1 (octubre de 2018)<ept id="p1">&lt;/a&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>Microsoft Dynamics 365 for Finance and Operations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics 365 for Finance and Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>8.1</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">8.1</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>8.1.136</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">8.1.136</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>October 2018</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Octubre de 2018</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source><bpt id="p1">&lt;a href="whats-new-changed-8-1-October-2018.md"&gt;</bpt>What's new or changed in Dynamics 365 for Finance and Operations version 8.1 (October 2018)<ept id="p1">&lt;/a&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;a href="whats-new-changed-8-1-October-2018.md"&gt;</bpt>Novedades y cambios en Dynamics 365 for Finance and Operations versión 8.1 (octubre de 2018)<ept id="p1">&lt;/a&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>Microsoft Dynamics 365 for Finance and Operations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics 365 for Finance and Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>8.0</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">8.0</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source>8.0.30, 8.0.35</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">8.0.30, 8.0.35</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>April 2018</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2018 de abril</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source><bpt id="p1">&lt;a href="whats-new-changed-8-0-April-2018.md"&gt;</bpt>What's new or changed in Dynamics 365 for Finance and Operations version 8.0 (April 2018)<ept id="p1">&lt;/a&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;a href="whats-new-changed-8-0-April-2018.md"&gt;</bpt>Novedades y cambios en Dynamics 365 for Finance and Operations versión 8.0 (abril de 2018)<ept id="p1">&lt;/a&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source>7.3</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">7.3</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="166">
-          <source>7.3.11971.56116</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">7.3.11971.56116</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="167">
-          <source>December 2017</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2017 de diciembre</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="168">
-          <source><bpt id="p1">&lt;a href="whats-new-application-7.3-update.md"&gt;</bpt>What's new or changed in Dynamics 365 for Finance and Operations, Enterprise edition 7.3<ept id="p1">&lt;/a&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;a href="whats-new-application-7.3-update.md"&gt;</bpt>Novedades y cambios en Dynamics 365 for Finance and Operations, Enterprise Edition 7.3<ept id="p1">&lt;/a&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="169">
-          <source>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="170">
-          <source>July 2017</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Julio de 2017</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="171">
-          <source>7.2.11792.56024</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">7.2.11792.56024</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="172">
-          <source>June 2017</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2017 de junio</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="173">
-          <source><bpt id="p1">&lt;a href="whats-new-application-July-2017-update.md"&gt;</bpt>What's new or changed in Dynamics 365 for Finance and Operations, Enterprise edition (July 2017)<ept id="p1">&lt;/a&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;a href="whats-new-application-July-2017-update.md"&gt;</bpt>Novedades y cambios en Dynamics 365 for Finance and Operations, Enterprise Edition 2017 (julio de 2017)<ept id="p1">&lt;/a&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="174">
-          <source>Microsoft Dynamics 365 for Operations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics 365 for Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="175">
-          <source>1611</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1611</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="176">
-          <source>7.1.1541.3036</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">7.1.1541.3036</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="177">
-          <source>November 2016</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">noviembre de 2016</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="178">
-          <source><bpt id="p1">&lt;a href="whats-new-dynamics-365-operations-1611.md"&gt;</bpt>What's new or changed in Dynamics 365 for Operations version 1611 (November 2016)<ept id="p1">&lt;/a&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;a href="whats-new-dynamics-365-operations-1611.md"&gt;</bpt>Novedades y cambios en Dynamics 365 for Operations versión 1611 (noviembre de 2016)<ept id="p1">&lt;/a&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="179">
-          <source>Microsoft Dynamics AX</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics AX</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="180">
-          <source>7.0.1</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">7.0.1</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="181">
-          <source>7.0.1265.23014</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">7.0.1265.23014</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="182">
-          <source>May 2016</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">mayo de 2016</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="183">
-          <source><bpt id="p1">&lt;a href="whats-new-changed-application-version-7-0-1-may-2016.md"&gt;</bpt>What's new or changed in Dynamics AX application version 7.0.1 (May 2016)<ept id="p1">&lt;/a&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;a href="whats-new-changed-application-version-7-0-1-may-2016.md"&gt;</bpt>Novedades o cambios en la versión de la aplicación Dynamics AX 7.0.1 (mayo de 2016)<ept id="p1">&lt;/a&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="184">
-          <source>Microsoft Dynamics AX</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics AX</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="185">
-          <source>7.0</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">7.0</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="186">
-          <source>7.0.1265.3015</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">7.0.1265.3015</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="187">
-          <source>February 2016</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2016 de febrero</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="188">
-          <source><bpt id="p1">&lt;a href="whats-new-changed-7-0-february-2016.md"&gt;</bpt>What's new or changed in Dynamics AX 7.0 (February 2016)<ept id="p1">&lt;/a&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;a href="whats-new-changed-7-0-february-2016.md"&gt;</bpt>Novedades o cambios en Dynamics AX 7.0 (febrero de 2016)<ept id="p1">&lt;/a&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="189">
-          <source>Platform releases</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Publicaciones de la plataforma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="190">
-          <source>Release</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Liberar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="191">
-          <source>Version</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Versión</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="192">
-          <source>Build number</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Crear número</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="193">
-          <source>Availability</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Disponibilidad</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="194">
-          <source>Learn more</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Más información</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="195">
-          <source>Microsoft Dynamics 365 for Finance and Operations</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics 365 for Finance and Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="196">
-          <source>Platform update 28</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Actualización 28 de la plataforma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="197">
-          <source>7.0.5314</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">7.0.5314</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="198">
-          <source>July 2019</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Julio de 2019</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="199">
-          <source><bpt id="p1">&lt;a href="whats-new-platform-update-28.md"&gt;</bpt>Preview features in Dynamics 365 for Finance and Operations platform update 28 (July 2019)<ept id="p1">&lt;/a&gt;</ept></source><target logoport:matchpercent="92" state="translated" state-qualifier="fuzzy-match"><bpt id="p1">&lt;a href="whats-new-platform-update-28.md"&gt;</bpt>Vista previa de las características de la actualización 28 de la plataforma Dynamics 365 for Finance and Operations (julio de 2019)<ept id="p1">&lt;/a&gt;</ept></target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="200">
-          <source>Microsoft Dynamics 365 for Finance and Operations</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics 365 for Finance and Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="201">
-          <source>Platform update 27</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Actualización 27 de la plataforma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="202">
-          <source>7.0.5286</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">7.0.5286</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="203">
-          <source>June 2019</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">2019 de junio</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="204">
-          <source><bpt id="p1">&lt;a href="whats-new-platform-update-27.md"&gt;</bpt>Preview features in Dynamics 365 for Finance and Operations platform update 27 (June 2019)<ept id="p1">&lt;/a&gt;</ept></source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;a href="whats-new-platform-update-27.md"&gt;</bpt>Vista previa de las características de la actualización 27 de la plataforma Dynamics 365 for Finance and Operations (junio de 2019)<ept id="p1">&lt;/a&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="205">
-          <source>Microsoft Dynamics 365 for Finance and Operations</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics 365 for Finance and Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="206">
-          <source>Platform update 26</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Actualización 26 de la plataforma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="207">
-          <source>7.0.5257</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">7.0.5257</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="208">
-          <source>May 2019</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">mayo de 2019</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="209">
-          <source><bpt id="p1">&lt;a href="whats-new-platform-update-26.md"&gt;</bpt>What's new or changed in Dynamics 365 for Finance and Operations platform update 26 (May 2019)<ept id="p1">&lt;/a&gt;</ept></source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;a href="whats-new-platform-update-26.md"&gt;</bpt>Novedades o cambios en la actualización 26 de la plataforma de Dynamics 365 for Finance and Operations (mayo de 2019)<ept id="p1">&lt;/a&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="210">
-          <source>Microsoft Dynamics 365 for Finance and Operations</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics 365 for Finance and Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="211">
-          <source>Platform update 25</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Actualización 25 de la plataforma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="212">
-          <source>7.0.5222</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">7.0.5222</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="213">
-          <source>April 2019</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2019 de abril</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="214">
-          <source><bpt id="p1">&lt;a href="whats-new-platform-25.md"&gt;</bpt>What's new or changed in Dynamics 365 for Finance and Operations platform update 25 (April 2019)<ept id="p1">&lt;/a&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;a href="whats-new-platform-25.md"&gt;</bpt>Novedades o cambios en la actualización 25 de la plataforma de Dynamics 365 for Finance and Operations (abril de 2019)<ept id="p1">&lt;/a&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="215">
-          <source>Microsoft Dynamics 365 for Finance and Operations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics 365 for Finance and Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="216">
-          <source>Platform update 24</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Actualización 24 de la plataforma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="217">
-          <source>7.0.5179</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">7.0.5179</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="218">
-          <source>March 2019</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2019 de marzo</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="219">
-          <source><bpt id="p1">&lt;a href="whats-new-platform-update-24.md"&gt;</bpt>What's new or changed in Dynamics 365 for Finance and Operations platform update 24 (March 2019)<ept id="p1">&lt;/a&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;a href="whats-new-platform-update-24.md"&gt;</bpt>Novedades o cambios en la actualización 24 de la plataforma de Dynamics 365 for Finance and Operations (marzo de 2019)<ept id="p1">&lt;/a&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="220">
-          <source>Microsoft Dynamics 365 for Finance and Operations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics 365 for Finance and Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="221">
-          <source>Platform update 23</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Actualización de la plataforma 23</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="222">
-          <source>7.0.5126</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">7.0.5126</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="223">
-          <source>January 2019</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">enero de 2019</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="224">
-          <source><bpt id="p1">&lt;a href="whats-new-platform-update-23.md"&gt;</bpt>What's new or changed in Dynamics 365 for Finance and Operations platform update 23 (January 2019)<ept id="p1">&lt;/a&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;a href="whats-new-platform-update-23.md"&gt;</bpt>Novedades o cambios en la actualización 23 de la plataforma de Dynamics 365 for Finance and Operations (enero de 2019)<ept id="p1">&lt;/a&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="225">
-          <source>Microsoft Dynamics 365 for Finance and Operations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics 365 for Finance and Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="226">
-          <source>Platform update 22</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Actualización de la plataforma 22</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="227">
-          <source>7.0.5095</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">7.0.5095</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="228">
-          <source>December 2018</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2018 de diciembre</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="229">
-          <source><bpt id="p1">&lt;a href="whats-new-platform-update-22.md"&gt;</bpt>What's new or changed in Dynamics 365 for Finance and Operations platform update 22 (December 2018)<ept id="p1">&lt;/a&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;a href="whats-new-platform-update-22.md"&gt;</bpt>Novedades o cambios en la actualización 22 de la plataforma de Dynamics 365 for Finance and Operations (diciembre de 2018)<ept id="p1">&lt;/a&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="230">
-          <source>Microsoft Dynamics 365 for Finance and Operations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics 365 for Finance and Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="231">
-          <source>Platform update 21</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Actualización de la plataforma 21</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="232">
-          <source>7.0.5073</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">7.0.5073</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="233">
-          <source>November 2018</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">noviembre de 2018</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="234">
-          <source><bpt id="p1">&lt;a href="whats-new-platform-update-21.md"&gt;</bpt>What's new or changed in Dynamics 365 for Finance and Operations platform update 21 (November 2018)<ept id="p1">&lt;/a&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;a href="whats-new-platform-update-21.md"&gt;</bpt>Novedades o cambios en la actualización 21 de la plataforma de Dynamics 365 for Finance and Operations (noviembre de 2018)<ept id="p1">&lt;/a&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="235">
-          <source>Microsoft Dynamics 365 for Finance and Operations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics 365 for Finance and Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="236">
-          <source>Platform update 20</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Actualización de la plataforma 20</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="237">
-          <source>7.0.5030</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">7.0.5030</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="238">
-          <source>September 2018</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2018 de septiembre</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="239">
-          <source><bpt id="p1">&lt;a href="whats-new-platform-update-20.md"&gt;</bpt>What's new or changed in Dynamics 365 for Finance and Operations platform update 20 (September 2018)<ept id="p1">&lt;/a&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;a href="whats-new-platform-update-20.md"&gt;</bpt>Novedades o cambios en la actualización 20 de la plataforma de Dynamics 365 for Finance and Operations (septiembre de 2018)<ept id="p1">&lt;/a&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="240">
-          <source>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="241">
-          <source>Platform update 15</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Actualización de la plataforma 15</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="242">
-          <source>7.0.4841</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">7.0.4841</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="243">
-          <source>March 2018</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2018 de marzo</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="244">
-          <source><bpt id="p1">&lt;a href="whats-new-platform-update-15.md"&gt;</bpt>What's new or changed in Dynamics 365 for Finance and Operations, Enterprise edition platform update 15 (March 2018)<ept id="p1">&lt;/a&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;a href="whats-new-platform-update-15.md"&gt;</bpt>Novedades o cambios en la actualización 15 de la plataforma de Dynamics 365 for Finance and Operations, Enterprise Edition (marzo de 2018)<ept id="p1">&lt;/a&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="245">
-          <source>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="246">
-          <source>Platform update 12</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Actualización de la plataforma 12</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="247">
-          <source>7.0.4709</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">7.0.4709</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="248">
-          <source>November 2017</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">noviembre de 2017</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="249">
-          <source><bpt id="p1">&lt;a href="whats-new-platform-update-12.md"&gt;</bpt>What's new or changed in Dynamics 365 for Finance and Operations, Enterprise edition platform update 12 (November 2017)<ept id="p1">&lt;/a&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;a href="whats-new-platform-update-12.md"&gt;</bpt>Novedades o cambios en la actualización 12 de la plataforma de Dynamics 365 for Finance and Operations, Enterprise Edition (noviembre de 2017)<ept id="p1">&lt;/a&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="250">
-          <source>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="251">
-          <source>Platform update 11</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Actualización de la plataforma 11</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="252">
-          <source>7.0.4679.35176</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">7.0.4679.35176</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="253">
-          <source>October 2017</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Octubre de 2017</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="254">
-          <source><bpt id="p1">&lt;a href="whats-new-platform-update-11.md"&gt;</bpt>What's new or changed in Dynamics 365 for Finance and Operations, Enterprise edition platform update 11 (October 2017)<ept id="p1">&lt;/a&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;a href="whats-new-platform-update-11.md"&gt;</bpt>Novedades o cambios en la actualización 11 de la plataforma de Dynamics 365 for Finance and Operations, Enterprise Edition (octubre de 2017)<ept id="p1">&lt;/a&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="255">
-          <source>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="256">
-          <source>Platform update 10</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Actualización de la plataforma 10</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="257">
-          <source>7.0.4641.16233</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">7.0.4641.16233</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="258">
-          <source>August 2017</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2017 de agosto</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="259">
-          <source><bpt id="p1">&lt;a href="whats-new-platform-update-10.md"&gt;</bpt>What's new or changed in Dynamics 365 for Finance and Operations, Enterprise edition platform update 10 (August 2017)<ept id="p1">&lt;/a&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;a href="whats-new-platform-update-10.md"&gt;</bpt>Novedades o cambios en la actualización 10 de la plataforma de Dynamics 365 for Finance and Operations, Enterprise Edition (agosto de 2017)<ept id="p1">&lt;/a&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="260">
-          <source>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="261">
-          <source>Platform update 9</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Actualización 9 de la plataforma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="262">
-          <source>7.0.4612.35162</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">7.0.4612.35162</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="263">
-          <source>July 2017</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Julio de 2017</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="264">
-          <source><bpt id="p1">&lt;a href="whats-new-platform-update-9.md"&gt;</bpt>What's new or changed in Dynamics 365 for Finance and Operations, Enterprise edition platform update 9 (July 2017)<ept id="p1">&lt;/a&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;a href="whats-new-platform-update-9.md"&gt;</bpt>Novedades o cambios en la actualización 9 de la plataforma de Dynamics 365 for Finance and Operations, Enterprise Edition (julio de 2017)<ept id="p1">&lt;/a&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="265">
-          <source>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="266">
-          <source>Platform update 8</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Actualización 8 de la plataforma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="267">
-          <source>7.0.4565.16212</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">7.0.4565.16212</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="268">
-          <source>June 2017</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2017 de junio</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="269">
-          <source><bpt id="p1">&lt;a href="whats-new-platform-update-8.md"&gt;</bpt>What's new or changed in Dynamics 365 for Finance and Operations, Enterprise edition platform update 8 (June 2017)<ept id="p1">&lt;/a&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;a href="whats-new-platform-update-8.md"&gt;</bpt>Novedades o cambios en la actualización 8 de la plataforma de Dynamics 365 for Finance and Operations, Enterprise Edition (junio de 2017)<ept id="p1">&lt;/a&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="270">
-          <source>Microsoft Dynamics 365 for Operations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics 365 for Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="271">
-          <source>Platform update 7</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Actualización 7 de la plataforma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="272">
-          <source>7.0.4542.16189</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">7.0.4542.16189</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="273">
-          <source>May 2017</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">mayo de 2017</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="274">
-          <source><bpt id="p1">&lt;a href="whats-new-platform-update-7.md"&gt;</bpt>What's new or changed in Dynamics 365 for Operations platform update 7 (May 2017)<ept id="p1">&lt;/a&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;a href="whats-new-platform-update-7.md"&gt;</bpt>Novedades o cambios en la actualización 7 de la plataforma de Dynamics 365 for Operations (mayo de 2017)<ept id="p1">&lt;/a&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="275">
-          <source>Dynamics 365 for Operations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dynamics 365 for Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="276">
-          <source>Platform update 6</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Actualización 6 de la plataforma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="277">
-          <source>7.0.4509.16180</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">7.0.4509.16180</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="278">
-          <source>April 2017</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2017 de abril</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="279">
-          <source><bpt id="p1">&lt;a href="whats-new-platform-update-6.md"&gt;</bpt>What's new or changed in Dynamics 365 for Operations platform update 6 (April 2017)<ept id="p1">&lt;/a&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;a href="whats-new-platform-update-6.md"&gt;</bpt>Novedades o cambios en la actualización 6 de la plataforma de Dynamics 365 for Operations (abril de 2017)<ept id="p1">&lt;/a&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="280">
-          <source>Dynamics 365 for Operations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dynamics 365 for Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="281">
-          <source>Platform update 5</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Actualización 5 de la plataforma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="282">
-          <source>7.0.4475.16165</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">7.0.4475.16165</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="283">
-          <source>March 2017</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2017 de marzo</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="284">
-          <source><bpt id="p1">&lt;a href="whats-new-platform-update-5.md"&gt;</bpt>What's new or changed in Dynamics 365 for Operations platform update 5 (March 2017)<ept id="p1">&lt;/a&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;a href="whats-new-platform-update-5.md"&gt;</bpt>Novedades o cambios en la actualización 5 de la plataforma de Dynamics 365 for Operations (marzo de 2017)<ept id="p1">&lt;/a&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="285">
-          <source>Dynamics 365 for Operations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dynamics 365 for Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="286">
-          <source>Platform update 4</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Actualización 4 de la plataforma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="287">
-          <source>7.0.4425.16161</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">7.0.4425.16161</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="288">
-          <source>February 2017</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2017 de febrero</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="289">
-          <source><bpt id="p1">&lt;a href="whats-new-platform-update-4.md"&gt;</bpt>What's new or changed in Dynamics 365 for Operations platform update 4 (February 2017)<ept id="p1">&lt;/a&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;a href="whats-new-platform-update-4.md"&gt;</bpt>Novedades o cambios en la actualización 4 de la plataforma de Dynamics 365 for Operations (febrero de 2017)<ept id="p1">&lt;/a&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="290">
-          <source>Dynamics 365 for Operations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dynamics 365 for Operations</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="291">
-          <source>Platform update 3</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Actualización 3 de la plataforma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="292">
-          <source>7.0.4307.16141</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">7.0.4307.16141</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="293">
-          <source>November 2016</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">noviembre de 2016</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="294">
-          <source><bpt id="p1">&lt;a href="whats-new-platform-update-3.md"&gt;</bpt>What's new or changed in Dynamics 365 for Operations platform update 3 (November 2016)<ept id="p1">&lt;/a&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;a href="whats-new-platform-update-3.md"&gt;</bpt>Novedades o cambios en la actualización 3 de la plataforma de Dynamics 365 for Operations (noviembre de 2016)<ept id="p1">&lt;/a&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="295">
-          <source>Microsoft Dynamics AX</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics AX</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="296">
-          <source>Platform update 2</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Actualización 2 de la plataforma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="297">
-          <source>7.0.4230.16130</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">7.0.4230.16130</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="298">
-          <source>August 2016</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2016 de agosto</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="299">
-          <source><bpt id="p1">&lt;a href="whats-new-platform-update-2.md"&gt;</bpt>What's new or changed in Dynamics AX platform update 2 (August 2016)<ept id="p1">&lt;/a&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;a href="whats-new-platform-update-2.md"&gt;</bpt>Novedades o cambios en la actualización 2 de la plataforma de Dynamics AX (agosto de 2016)<ept id="p1">&lt;/a&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="300">
-          <source>Microsoft Dynamics AX</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics AX</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="301">
-          <source>Platform update 1</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Actualización 1 de la plataforma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="302">
-          <source>7.0.4127.16103</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">7.0.4127.16103</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="303">
-          <source>May 2016</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">mayo de 2016</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="304">
-          <source><bpt id="p1">&lt;a href="whats-new-changed-platform-version-7-1-may-2016.md"&gt;</bpt>What's new or changed in Dynamics AX platform update 1 (May 2016)<ept id="p1">&lt;/a&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;a href="whats-new-changed-platform-version-7-1-may-2016.md"&gt;</bpt>Novedades o cambios en la actualización 1 de la plataforma de Dynamics AX (mayo de 2016)<ept id="p1">&lt;/a&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="305">
-          <source>Microsoft Dynamics AX</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics AX</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="306">
-          <source>7.0</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">7.0</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="307">
-          <source>7.0.4030.16079</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">7.0.4030.16079</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="308">
-          <source>February 2016</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2016 de febrero</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="309">
-          <source><bpt id="p1">&lt;a href="whats-new-changed-7-0-february-2016.md"&gt;</bpt>What's new or changed in Dynamics AX 7.0 (February 2016)<ept id="p1">&lt;/a&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;a href="whats-new-changed-7-0-february-2016.md"&gt;</bpt>Novedades o cambios en Dynamics AX 7.0 (febrero de 2016)<ept id="p1">&lt;/a&gt;</ept></target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Novedades y cambios
+description: Esta página le señala a temas que pueden ayudarle a obtener información acerca de las nuevas características de las versiones más recientes de Microsoft Dynamics 365 for Finance and Operations.
+author: josaw1
+manager: AnnBe
+ms.date: 06/04/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-platform
+ms.technology: ''
+ms.search.form: DefaultDashboard
+audience: Application User, Developer, IT Pro
+ms.reviewer: sericks
+ms.search.scope: Core, Operations
+ms.custom: 27141
+ms.assetid: b86934d4-d9dd-4a07-bfd1-4adb948a5139
+ms.search.region: Global
+ms.author: josaw
+ms.search.validFrom: 2016-08-30
+ms.dyn365.ops.version: Platform update 2
+ms.openlocfilehash: bc13efe11f383157338ccd6b2ae378ee1f92a698
+ms.sourcegitcommit: bbc9aa0d6b94a942e1f4d5b038601509dcc87937
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "1619201"
+---
+# <a name="whats-new-or-changed"></a><span data-ttu-id="59b17-103">Novedades y cambios</span><span class="sxs-lookup"><span data-stu-id="59b17-103">What's new or changed</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="59b17-104">Esta página le señala a temas que pueden ayudarle a obtener información acerca de las nuevas características de las versiones más recientes de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.</span><span class="sxs-lookup"><span data-stu-id="59b17-104">This page points you to topics that can help you learn about the new features in the latest versions of Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span>
+
+<span data-ttu-id="59b17-105">Para obtener información sobre cómo actualizar a la versión más reciente, vea [Proceso para ir a la actualización más reciente](../../dev-itpro/migration-upgrade/upgrade-latest-update.md).</span><span class="sxs-lookup"><span data-stu-id="59b17-105">For information about how to upgrade to the latest version, see [Process for upgrading to the latest update](../../dev-itpro/migration-upgrade/upgrade-latest-update.md).</span></span>
+
+
+[!include [release notes](../includes/release-notes.md)]
+
+## <a name="application-releases"></a><span data-ttu-id="59b17-106">Liberaciones de aplicación</span><span class="sxs-lookup"><span data-stu-id="59b17-106">Application releases</span></span>
+
+<span data-ttu-id="59b17-107">Esta tabla enumera las principales versiones de la aplicación.</span><span class="sxs-lookup"><span data-stu-id="59b17-107">This table lists the major releases of the application.</span></span> <span data-ttu-id="59b17-108">Para las actualizaciones mensuales de la nube, consulte [Directiva del ciclo de vida del software y nuevas soluciones de nube](../../dev-itpro/migration-upgrade/versions-update-policy.md).</span><span class="sxs-lookup"><span data-stu-id="59b17-108">For monthly cloud updates, see [Software lifecycle policy and cloud releases](../../dev-itpro/migration-upgrade/versions-update-policy.md).</span></span>
+
+<table>
+<thead>
+<tr>
+<th><span data-ttu-id="59b17-109">Liberar</span><span class="sxs-lookup"><span data-stu-id="59b17-109">Release</span></span></th>
+<th><span data-ttu-id="59b17-110">Versión</span><span class="sxs-lookup"><span data-stu-id="59b17-110">Version</span></span></th>
+<th><span data-ttu-id="59b17-111">Crear número</span><span class="sxs-lookup"><span data-stu-id="59b17-111">Build number</span></span></th>
+<th><span data-ttu-id="59b17-112">Disponibilidad</span><span class="sxs-lookup"><span data-stu-id="59b17-112">Availability</span></span></th>
+<th><span data-ttu-id="59b17-113">Más información</span><span class="sxs-lookup"><span data-stu-id="59b17-113">Learn more</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span data-ttu-id="59b17-114">Microsoft Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="59b17-114">Microsoft Dynamics 365 for Finance and Operations</span></span></td>
+<td><span data-ttu-id="59b17-115">10.0.4</span><span class="sxs-lookup"><span data-stu-id="59b17-115">10.0.4</span></span></td>
+<td><span data-ttu-id="59b17-116">10.0.136</span><span class="sxs-lookup"><span data-stu-id="59b17-116">10.0.136</span></span></td>
+<td><span data-ttu-id="59b17-117">Julio de 2019</span><span class="sxs-lookup"><span data-stu-id="59b17-117">July 2019</span></span></td>
+<td><span data-ttu-id="59b17-118"><a href="whats-new-changed-10-0-4.md">Obtener una vista preliminar de las características de Dynamics 365 for Finance and Operations versión 10.0.4 (julio de 2019)</a></span><span class="sxs-lookup"><span data-stu-id="59b17-118"><a href="whats-new-changed-10-0-4.md">Preview features in Dynamics 365 for Finance and Operations version 10.0.4 (July 2019)</a></span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="59b17-119">Microsoft Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="59b17-119">Microsoft Dynamics 365 for Finance and Operations</span></span></td>
+<td><span data-ttu-id="59b17-120">10.0.3</span><span class="sxs-lookup"><span data-stu-id="59b17-120">10.0.3</span></span></td>
+<td><span data-ttu-id="59b17-121">10.0.107</span><span class="sxs-lookup"><span data-stu-id="59b17-121">10.0.107</span></span></td>
+<td><span data-ttu-id="59b17-122">2019 de junio</span><span class="sxs-lookup"><span data-stu-id="59b17-122">June 2019</span></span></td>
+<td><span data-ttu-id="59b17-123"><a href="whats-new-changed-10-0-3.md">Obtener una vista preliminar de las características de Dynamics 365 for Finance and Operations versión 10.0.3 (junio de 2019)</a></span><span class="sxs-lookup"><span data-stu-id="59b17-123"><a href="whats-new-changed-10-0-3.md">Preview features in Dynamics 365 for Finance and Operations version 10.0.3 (June 2019)</a></span></span></td>
+</tr><tr>
+<td><span data-ttu-id="59b17-124">Microsoft Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="59b17-124">Microsoft Dynamics 365 for Finance and Operations</span></span></td>
+<td><span data-ttu-id="59b17-125">10.0.2</span><span class="sxs-lookup"><span data-stu-id="59b17-125">10.0.2</span></span></td>
+<td><span data-ttu-id="59b17-126">10.0.80</span><span class="sxs-lookup"><span data-stu-id="59b17-126">10.0.80</span></span></td>
+<td><span data-ttu-id="59b17-127">mayo de 2019</span><span class="sxs-lookup"><span data-stu-id="59b17-127">May 2019</span></span></td>
+<td><span data-ttu-id="59b17-128"><a href="whats-new-changed-10-0-2.md">Novedades y cambios en Dynamics 365 for Finance and Operations versión 10.0.2 (mayo de 2019)</a></span><span class="sxs-lookup"><span data-stu-id="59b17-128"><a href="whats-new-changed-10-0-2.md">What's new or changed in Dynamics 365 for Finance and Operations version 10.0.2 (May 2019)</a></span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="59b17-129">Microsoft Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="59b17-129">Microsoft Dynamics 365 for Finance and Operations</span></span></td>
+<td><span data-ttu-id="59b17-130">10.0.1</span><span class="sxs-lookup"><span data-stu-id="59b17-130">10.0.1</span></span></td>
+<td><span data-ttu-id="59b17-131">10.0.51</span><span class="sxs-lookup"><span data-stu-id="59b17-131">10.0.51</span></span></td>
+<td><span data-ttu-id="59b17-132">2019 de abril</span><span class="sxs-lookup"><span data-stu-id="59b17-132">April 2019</span></span></td>
+<td><span data-ttu-id="59b17-133"><a href="whats-new-changed-10-0-1.md">Novedades y cambios en Dynamics 365 for Finance and Operations versión 10.0.1 (abril de 2019)</a></span><span class="sxs-lookup"><span data-stu-id="59b17-133"><a href="whats-new-changed-10-0-1.md">What's new or changed in Dynamics 365 for Finance and Operations version 10.0.1 (April 2019)</a></span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="59b17-134">Microsoft Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="59b17-134">Microsoft Dynamics 365 for Finance and Operations</span></span></td>
+<td><span data-ttu-id="59b17-135">10.0</span><span class="sxs-lookup"><span data-stu-id="59b17-135">10.0</span></span></td>
+<td><span data-ttu-id="59b17-136">10.0.8</span><span class="sxs-lookup"><span data-stu-id="59b17-136">10.0.8</span></span></td>
+<td><span data-ttu-id="59b17-137">2019 de abril</span><span class="sxs-lookup"><span data-stu-id="59b17-137">April 2019</span></span></td>
+<td><span data-ttu-id="59b17-138"><a href="whats-new-changed-10-0-1.md">Novedades o cambios en Finance and Operations, versión 10.0 (abril de 2019) </a></span><span class="sxs-lookup"><span data-stu-id="59b17-138"><a href="whats-new-changed-10-0-1.md">What's new or changed in Finance and Operations version 10.0 (April 2019) </a></span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="59b17-139">Microsoft Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="59b17-139">Microsoft Dynamics 365 for Finance and Operations</span></span></td>
+<td><span data-ttu-id="59b17-140">8.1.3</span><span class="sxs-lookup"><span data-stu-id="59b17-140">8.1.3</span></span></td>
+<td><span data-ttu-id="59b17-141">8.1.227</span><span class="sxs-lookup"><span data-stu-id="59b17-141">8.1.227</span></span></td>
+<td><span data-ttu-id="59b17-142">enero de 2019</span><span class="sxs-lookup"><span data-stu-id="59b17-142">January 2019</span></span></td>
+<td><span data-ttu-id="59b17-143"><a href="whats-new-changed-8-1-3.md">Novedades y cambios en Dynamics 365 for Finance and Operations versión 8.1.3 (enero de 2019)</a></span><span class="sxs-lookup"><span data-stu-id="59b17-143"><a href="whats-new-changed-8-1-3.md">What's new or changed in Dynamics 365 for Finance and Operations version 8.1.3 (January 2019)</a></span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="59b17-144">Microsoft Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="59b17-144">Microsoft Dynamics 365 for Finance and Operations</span></span></td>
+<td><span data-ttu-id="59b17-145">8.1.2</span><span class="sxs-lookup"><span data-stu-id="59b17-145">8.1.2</span></span></td>
+<td><span data-ttu-id="59b17-146">8.1.195</span><span class="sxs-lookup"><span data-stu-id="59b17-146">8.1.195</span></span></td>
+<td><span data-ttu-id="59b17-147">2018 de diciembre</span><span class="sxs-lookup"><span data-stu-id="59b17-147">December 2018</span></span></td>
+<td><span data-ttu-id="59b17-148"><a href="whats-new-changed-8-1-2.md">Novedades y cambios en Dynamics 365 for Finance and Operations versión 8.1.2 (diciembre de 2018)</a></span><span class="sxs-lookup"><span data-stu-id="59b17-148"><a href="whats-new-changed-8-1-2.md">What's new or changed in Dynamics 365 for Finance and Operations version 8.1.2 (December 2018)</a></span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="59b17-149">Microsoft Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="59b17-149">Microsoft Dynamics 365 for Finance and Operations</span></span></td>
+<td><span data-ttu-id="59b17-150">8.1.1</span><span class="sxs-lookup"><span data-stu-id="59b17-150">8.1.1</span></span></td>
+<td><span data-ttu-id="59b17-151">8.1.170</span><span class="sxs-lookup"><span data-stu-id="59b17-151">8.1.170</span></span></td>
+<td><span data-ttu-id="59b17-152">Octubre de 2018</span><span class="sxs-lookup"><span data-stu-id="59b17-152">October 2018</span></span></td>
+<td><span data-ttu-id="59b17-153"><a href="whats-new-changed-8-1-1.md">Novedades y cambios en Dynamics 365 for Finance and Operations versión 8.1.1 (octubre de 2018)</a></span><span class="sxs-lookup"><span data-stu-id="59b17-153"><a href="whats-new-changed-8-1-1.md">What's new or changed in Dynamics 365 for Finance and Operations version 8.1.1 (October 2018)</a></span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="59b17-154">Microsoft Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="59b17-154">Microsoft Dynamics 365 for Finance and Operations</span></span></td>
+<td><span data-ttu-id="59b17-155">8.1</span><span class="sxs-lookup"><span data-stu-id="59b17-155">8.1</span></span></td>
+<td><span data-ttu-id="59b17-156">8.1.136</span><span class="sxs-lookup"><span data-stu-id="59b17-156">8.1.136</span></span></td>
+<td><span data-ttu-id="59b17-157">Octubre de 2018</span><span class="sxs-lookup"><span data-stu-id="59b17-157">October 2018</span></span></td>
+<td><span data-ttu-id="59b17-158"><a href="whats-new-changed-8-1-October-2018.md">Novedades y cambios en Dynamics 365 for Finance and Operations versión 8.1 (octubre de 2018)</a></span><span class="sxs-lookup"><span data-stu-id="59b17-158"><a href="whats-new-changed-8-1-October-2018.md">What's new or changed in Dynamics 365 for Finance and Operations version 8.1 (October 2018)</a></span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="59b17-159">Microsoft Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="59b17-159">Microsoft Dynamics 365 for Finance and Operations</span></span></td>
+<td><span data-ttu-id="59b17-160">8.0</span><span class="sxs-lookup"><span data-stu-id="59b17-160">8.0</span></span></td>
+<td><span data-ttu-id="59b17-161">8.0.30, 8.0.35</span><span class="sxs-lookup"><span data-stu-id="59b17-161">8.0.30, 8.0.35</span></span></td>
+<td><span data-ttu-id="59b17-162">2018 de abril</span><span class="sxs-lookup"><span data-stu-id="59b17-162">April 2018</span></span></td>
+<td><span data-ttu-id="59b17-163"><a href="whats-new-changed-8-0-April-2018.md">Novedades y cambios en Dynamics 365 for Finance and Operations versión 8.0 (abril de 2018)</a></span><span class="sxs-lookup"><span data-stu-id="59b17-163"><a href="whats-new-changed-8-0-April-2018.md">What's new or changed in Dynamics 365 for Finance and Operations version 8.0 (April 2018)</a></span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="59b17-164">Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</span><span class="sxs-lookup"><span data-stu-id="59b17-164">Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</span></span></td>
+<td><span data-ttu-id="59b17-165">7.3</span><span class="sxs-lookup"><span data-stu-id="59b17-165">7.3</span></span></td>
+<td><span data-ttu-id="59b17-166">7.3.11971.56116</span><span class="sxs-lookup"><span data-stu-id="59b17-166">7.3.11971.56116</span></span></td>
+<td><span data-ttu-id="59b17-167">2017 de diciembre</span><span class="sxs-lookup"><span data-stu-id="59b17-167">December 2017</span></span></td>
+<td><span data-ttu-id="59b17-168"><a href="whats-new-application-7.3-update.md">Novedades y cambios en Dynamics 365 for Finance and Operations, Enterprise Edition 7.3</a></span><span class="sxs-lookup"><span data-stu-id="59b17-168"><a href="whats-new-application-7.3-update.md">What's new or changed in Dynamics 365 for Finance and Operations, Enterprise edition 7.3</a></span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="59b17-169">Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</span><span class="sxs-lookup"><span data-stu-id="59b17-169">Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</span></span></td>
+<td><span data-ttu-id="59b17-170">Julio de 2017</span><span class="sxs-lookup"><span data-stu-id="59b17-170">July 2017</span></span></td>
+<td><span data-ttu-id="59b17-171">7.2.11792.56024</span><span class="sxs-lookup"><span data-stu-id="59b17-171">7.2.11792.56024</span></span></td>
+<td><span data-ttu-id="59b17-172">2017 de junio</span><span class="sxs-lookup"><span data-stu-id="59b17-172">June 2017</span></span></td>
+<td><span data-ttu-id="59b17-173"><a href="whats-new-application-July-2017-update.md">Novedades y cambios en Dynamics 365 for Finance and Operations, Enterprise Edition 2017 (julio de 2017)</a></span><span class="sxs-lookup"><span data-stu-id="59b17-173"><a href="whats-new-application-July-2017-update.md">What's new or changed in Dynamics 365 for Finance and Operations, Enterprise edition (July 2017)</a></span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="59b17-174">Microsoft Dynamics 365 for Operations</span><span class="sxs-lookup"><span data-stu-id="59b17-174">Microsoft Dynamics 365 for Operations</span></span></td>
+<td><span data-ttu-id="59b17-175">1611</span><span class="sxs-lookup"><span data-stu-id="59b17-175">1611</span></span></td>
+<td><span data-ttu-id="59b17-176">7.1.1541.3036</span><span class="sxs-lookup"><span data-stu-id="59b17-176">7.1.1541.3036</span></span></td>
+<td><span data-ttu-id="59b17-177">noviembre de 2016</span><span class="sxs-lookup"><span data-stu-id="59b17-177">November 2016</span></span></td>
+<td><span data-ttu-id="59b17-178"><a href="whats-new-dynamics-365-operations-1611.md">Novedades y cambios en Dynamics 365 for Operations versión 1611 (noviembre de 2016)</a></span><span class="sxs-lookup"><span data-stu-id="59b17-178"><a href="whats-new-dynamics-365-operations-1611.md">What's new or changed in Dynamics 365 for Operations version 1611 (November 2016)</a></span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="59b17-179">Microsoft Dynamics AX</span><span class="sxs-lookup"><span data-stu-id="59b17-179">Microsoft Dynamics AX</span></span></td>
+<td><span data-ttu-id="59b17-180">7.0.1</span><span class="sxs-lookup"><span data-stu-id="59b17-180">7.0.1</span></span></td>
+<td><span data-ttu-id="59b17-181">7.0.1265.23014</span><span class="sxs-lookup"><span data-stu-id="59b17-181">7.0.1265.23014</span></span></td>
+<td><span data-ttu-id="59b17-182">mayo de 2016</span><span class="sxs-lookup"><span data-stu-id="59b17-182">May 2016</span></span></td>
+<td><span data-ttu-id="59b17-183"><a href="whats-new-changed-application-version-7-0-1-may-2016.md">Novedades o cambios en la versión de la aplicación Dynamics AX 7.0.1 (mayo de 2016)</a></span><span class="sxs-lookup"><span data-stu-id="59b17-183"><a href="whats-new-changed-application-version-7-0-1-may-2016.md">What's new or changed in Dynamics AX application version 7.0.1 (May 2016)</a></span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="59b17-184">Microsoft Dynamics AX</span><span class="sxs-lookup"><span data-stu-id="59b17-184">Microsoft Dynamics AX</span></span></td>
+<td><span data-ttu-id="59b17-185">7.0</span><span class="sxs-lookup"><span data-stu-id="59b17-185">7.0</span></span></td>
+<td><span data-ttu-id="59b17-186">7.0.1265.3015</span><span class="sxs-lookup"><span data-stu-id="59b17-186">7.0.1265.3015</span></span></td>
+<td><span data-ttu-id="59b17-187">2016 de febrero</span><span class="sxs-lookup"><span data-stu-id="59b17-187">February 2016</span></span></td>
+<td><span data-ttu-id="59b17-188"><a href="whats-new-changed-7-0-february-2016.md">Novedades o cambios en Dynamics AX 7.0 (febrero de 2016)</a></span><span class="sxs-lookup"><span data-stu-id="59b17-188"><a href="whats-new-changed-7-0-february-2016.md">What's new or changed in Dynamics AX 7.0 (February 2016)</a></span></span></td>
+</tr>
+</tbody>
+</table>
+
+## <a name="platform-releases"></a><span data-ttu-id="59b17-189">Publicaciones de la plataforma</span><span class="sxs-lookup"><span data-stu-id="59b17-189">Platform releases</span></span>
+
+<table>
+<thead>
+<tr>
+<th><span data-ttu-id="59b17-190">Liberar</span><span class="sxs-lookup"><span data-stu-id="59b17-190">Release</span></span></th>
+<th><span data-ttu-id="59b17-191">Versión</span><span class="sxs-lookup"><span data-stu-id="59b17-191">Version</span></span></th>
+<th><span data-ttu-id="59b17-192">Crear número</span><span class="sxs-lookup"><span data-stu-id="59b17-192">Build number</span></span></th>
+<th><span data-ttu-id="59b17-193">Disponibilidad</span><span class="sxs-lookup"><span data-stu-id="59b17-193">Availability</span></span></th>
+<th><span data-ttu-id="59b17-194">Más información</span><span class="sxs-lookup"><span data-stu-id="59b17-194">Learn more</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span data-ttu-id="59b17-195">Microsoft Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="59b17-195">Microsoft Dynamics 365 for Finance and Operations</span></span></td>
+<td><span data-ttu-id="59b17-196">Actualización 28 de la plataforma</span><span class="sxs-lookup"><span data-stu-id="59b17-196">Platform update 28</span></span></td>
+<td><span data-ttu-id="59b17-197">7.0.5314</span><span class="sxs-lookup"><span data-stu-id="59b17-197">7.0.5314</span></span></td>
+<td><span data-ttu-id="59b17-198">Julio de 2019</span><span class="sxs-lookup"><span data-stu-id="59b17-198">July 2019</span></span></td>
+<td><span data-ttu-id="59b17-199"><a href="whats-new-platform-update-28.md">Vista previa de las características de la actualización 28 de la plataforma Dynamics 365 for Finance and Operations (julio de 2019)</a></span><span class="sxs-lookup"><span data-stu-id="59b17-199"><a href="whats-new-platform-update-28.md">Preview features in Dynamics 365 for Finance and Operations platform update 28 (July 2019)</a></span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="59b17-200">Microsoft Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="59b17-200">Microsoft Dynamics 365 for Finance and Operations</span></span></td>
+<td><span data-ttu-id="59b17-201">Actualización 27 de la plataforma</span><span class="sxs-lookup"><span data-stu-id="59b17-201">Platform update 27</span></span></td>
+<td><span data-ttu-id="59b17-202">7.0.5286</span><span class="sxs-lookup"><span data-stu-id="59b17-202">7.0.5286</span></span></td>
+<td><span data-ttu-id="59b17-203">2019 de junio</span><span class="sxs-lookup"><span data-stu-id="59b17-203">June 2019</span></span></td>
+<td><span data-ttu-id="59b17-204"><a href="whats-new-platform-update-27.md">Vista previa de las características de la actualización 27 de la plataforma Dynamics 365 for Finance and Operations (junio de 2019)</a></span><span class="sxs-lookup"><span data-stu-id="59b17-204"><a href="whats-new-platform-update-27.md">Preview features in Dynamics 365 for Finance and Operations platform update 27 (June 2019)</a></span></span></td>
+</tr><tr>
+<td><span data-ttu-id="59b17-205">Microsoft Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="59b17-205">Microsoft Dynamics 365 for Finance and Operations</span></span></td>
+<td><span data-ttu-id="59b17-206">Actualización 26 de la plataforma</span><span class="sxs-lookup"><span data-stu-id="59b17-206">Platform update 26</span></span></td>
+<td><span data-ttu-id="59b17-207">7.0.5257</span><span class="sxs-lookup"><span data-stu-id="59b17-207">7.0.5257</span></span></td>
+<td><span data-ttu-id="59b17-208">mayo de 2019</span><span class="sxs-lookup"><span data-stu-id="59b17-208">May 2019</span></span></td>
+<td><span data-ttu-id="59b17-209"><a href="whats-new-platform-update-26.md">Novedades o cambios en la actualización 26 de la plataforma de Dynamics 365 for Finance and Operations (mayo de 2019)</a></span><span class="sxs-lookup"><span data-stu-id="59b17-209"><a href="whats-new-platform-update-26.md">What's new or changed in Dynamics 365 for Finance and Operations platform update 26 (May 2019)</a></span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="59b17-210">Microsoft Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="59b17-210">Microsoft Dynamics 365 for Finance and Operations</span></span></td>
+<td><span data-ttu-id="59b17-211">Actualización 25 de la plataforma</span><span class="sxs-lookup"><span data-stu-id="59b17-211">Platform update 25</span></span></td>
+<td><span data-ttu-id="59b17-212">7.0.5222</span><span class="sxs-lookup"><span data-stu-id="59b17-212">7.0.5222</span></span></td>
+<td><span data-ttu-id="59b17-213">2019 de abril</span><span class="sxs-lookup"><span data-stu-id="59b17-213">April 2019</span></span></td>
+<td><span data-ttu-id="59b17-214"><a href="whats-new-platform-25.md">Novedades o cambios en la actualización 25 de la plataforma de Dynamics 365 for Finance and Operations (abril de 2019)</a></span><span class="sxs-lookup"><span data-stu-id="59b17-214"><a href="whats-new-platform-25.md">What's new or changed in Dynamics 365 for Finance and Operations platform update 25 (April 2019)</a></span></span></td>
+</tr><tr>
+<td><span data-ttu-id="59b17-215">Microsoft Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="59b17-215">Microsoft Dynamics 365 for Finance and Operations</span></span></td>
+<td><span data-ttu-id="59b17-216">Actualización 24 de la plataforma</span><span class="sxs-lookup"><span data-stu-id="59b17-216">Platform update 24</span></span></td>
+<td><span data-ttu-id="59b17-217">7.0.5179</span><span class="sxs-lookup"><span data-stu-id="59b17-217">7.0.5179</span></span></td>
+<td><span data-ttu-id="59b17-218">2019 de marzo</span><span class="sxs-lookup"><span data-stu-id="59b17-218">March 2019</span></span></td>
+<td><span data-ttu-id="59b17-219"><a href="whats-new-platform-update-24.md">Novedades o cambios en la actualización 24 de la plataforma de Dynamics 365 for Finance and Operations (marzo de 2019)</a></span><span class="sxs-lookup"><span data-stu-id="59b17-219"><a href="whats-new-platform-update-24.md">What's new or changed in Dynamics 365 for Finance and Operations platform update 24 (March 2019)</a></span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="59b17-220">Microsoft Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="59b17-220">Microsoft Dynamics 365 for Finance and Operations</span></span></td>
+<td><span data-ttu-id="59b17-221">Actualización de la plataforma 23</span><span class="sxs-lookup"><span data-stu-id="59b17-221">Platform update 23</span></span></td>
+<td><span data-ttu-id="59b17-222">7.0.5126</span><span class="sxs-lookup"><span data-stu-id="59b17-222">7.0.5126</span></span></td>
+<td><span data-ttu-id="59b17-223">enero de 2019</span><span class="sxs-lookup"><span data-stu-id="59b17-223">January 2019</span></span></td>
+<td><span data-ttu-id="59b17-224"><a href="whats-new-platform-update-23.md">Novedades o cambios en la actualización 23 de la plataforma de Dynamics 365 for Finance and Operations (enero de 2019)</a></span><span class="sxs-lookup"><span data-stu-id="59b17-224"><a href="whats-new-platform-update-23.md">What's new or changed in Dynamics 365 for Finance and Operations platform update 23 (January 2019)</a></span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="59b17-225">Microsoft Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="59b17-225">Microsoft Dynamics 365 for Finance and Operations</span></span></td>
+<td><span data-ttu-id="59b17-226">Actualización de la plataforma 22</span><span class="sxs-lookup"><span data-stu-id="59b17-226">Platform update 22</span></span></td>
+<td><span data-ttu-id="59b17-227">7.0.5095</span><span class="sxs-lookup"><span data-stu-id="59b17-227">7.0.5095</span></span></td>
+<td><span data-ttu-id="59b17-228">2018 de diciembre</span><span class="sxs-lookup"><span data-stu-id="59b17-228">December 2018</span></span></td>
+<td><span data-ttu-id="59b17-229"><a href="whats-new-platform-update-22.md">Novedades o cambios en la actualización 22 de la plataforma de Dynamics 365 for Finance and Operations (diciembre de 2018)</a></span><span class="sxs-lookup"><span data-stu-id="59b17-229"><a href="whats-new-platform-update-22.md">What's new or changed in Dynamics 365 for Finance and Operations platform update 22 (December 2018)</a></span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="59b17-230">Microsoft Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="59b17-230">Microsoft Dynamics 365 for Finance and Operations</span></span></td>
+<td><span data-ttu-id="59b17-231">Actualización de la plataforma 21</span><span class="sxs-lookup"><span data-stu-id="59b17-231">Platform update 21</span></span></td>
+<td><span data-ttu-id="59b17-232">7.0.5073</span><span class="sxs-lookup"><span data-stu-id="59b17-232">7.0.5073</span></span></td>
+<td><span data-ttu-id="59b17-233">noviembre de 2018</span><span class="sxs-lookup"><span data-stu-id="59b17-233">November 2018</span></span></td>
+<td><span data-ttu-id="59b17-234"><a href="whats-new-platform-update-21.md">Novedades o cambios en la actualización 21 de la plataforma de Dynamics 365 for Finance and Operations (noviembre de 2018)</a></span><span class="sxs-lookup"><span data-stu-id="59b17-234"><a href="whats-new-platform-update-21.md">What's new or changed in Dynamics 365 for Finance and Operations platform update 21 (November 2018)</a></span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="59b17-235">Microsoft Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="59b17-235">Microsoft Dynamics 365 for Finance and Operations</span></span></td>
+<td><span data-ttu-id="59b17-236">Actualización de la plataforma 20</span><span class="sxs-lookup"><span data-stu-id="59b17-236">Platform update 20</span></span></td>
+<td><span data-ttu-id="59b17-237">7.0.5030</span><span class="sxs-lookup"><span data-stu-id="59b17-237">7.0.5030</span></span></td>
+<td><span data-ttu-id="59b17-238">2018 de septiembre</span><span class="sxs-lookup"><span data-stu-id="59b17-238">September 2018</span></span></td>
+<td><span data-ttu-id="59b17-239"><a href="whats-new-platform-update-20.md">Novedades o cambios en la actualización 20 de la plataforma de Dynamics 365 for Finance and Operations (septiembre de 2018)</a></span><span class="sxs-lookup"><span data-stu-id="59b17-239"><a href="whats-new-platform-update-20.md">What's new or changed in Dynamics 365 for Finance and Operations platform update 20 (September 2018)</a></span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="59b17-240">Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</span><span class="sxs-lookup"><span data-stu-id="59b17-240">Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</span></span></td>
+<td><span data-ttu-id="59b17-241">Actualización de la plataforma 15</span><span class="sxs-lookup"><span data-stu-id="59b17-241">Platform update 15</span></span></td>
+<td><span data-ttu-id="59b17-242">7.0.4841</span><span class="sxs-lookup"><span data-stu-id="59b17-242">7.0.4841</span></span></td>
+<td><span data-ttu-id="59b17-243">2018 de marzo</span><span class="sxs-lookup"><span data-stu-id="59b17-243">March 2018</span></span></td>
+<td><span data-ttu-id="59b17-244"><a href="whats-new-platform-update-15.md">Novedades o cambios en la actualización 15 de la plataforma de Dynamics 365 for Finance and Operations, Enterprise Edition (marzo de 2018)</a></span><span class="sxs-lookup"><span data-stu-id="59b17-244"><a href="whats-new-platform-update-15.md">What's new or changed in Dynamics 365 for Finance and Operations, Enterprise edition platform update 15 (March 2018)</a></span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="59b17-245">Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</span><span class="sxs-lookup"><span data-stu-id="59b17-245">Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</span></span></td>
+<td><span data-ttu-id="59b17-246">Actualización de la plataforma 12</span><span class="sxs-lookup"><span data-stu-id="59b17-246">Platform update 12</span></span></td>
+<td><span data-ttu-id="59b17-247">7.0.4709</span><span class="sxs-lookup"><span data-stu-id="59b17-247">7.0.4709</span></span></td>
+<td><span data-ttu-id="59b17-248">noviembre de 2017</span><span class="sxs-lookup"><span data-stu-id="59b17-248">November 2017</span></span></td>
+<td><span data-ttu-id="59b17-249"><a href="whats-new-platform-update-12.md">Novedades o cambios en la actualización 12 de la plataforma de Dynamics 365 for Finance and Operations, Enterprise Edition (noviembre de 2017)</a></span><span class="sxs-lookup"><span data-stu-id="59b17-249"><a href="whats-new-platform-update-12.md">What's new or changed in Dynamics 365 for Finance and Operations, Enterprise edition platform update 12 (November 2017)</a></span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="59b17-250">Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</span><span class="sxs-lookup"><span data-stu-id="59b17-250">Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</span></span></td>
+<td><span data-ttu-id="59b17-251">Actualización de la plataforma 11</span><span class="sxs-lookup"><span data-stu-id="59b17-251">Platform update 11</span></span></td>
+<td><span data-ttu-id="59b17-252">7.0.4679.35176</span><span class="sxs-lookup"><span data-stu-id="59b17-252">7.0.4679.35176</span></span></td>
+<td><span data-ttu-id="59b17-253">Octubre de 2017</span><span class="sxs-lookup"><span data-stu-id="59b17-253">October 2017</span></span></td>
+<td><span data-ttu-id="59b17-254"><a href="whats-new-platform-update-11.md">Novedades o cambios en la actualización 11 de la plataforma de Dynamics 365 for Finance and Operations, Enterprise Edition (octubre de 2017)</a></span><span class="sxs-lookup"><span data-stu-id="59b17-254"><a href="whats-new-platform-update-11.md">What's new or changed in Dynamics 365 for Finance and Operations, Enterprise edition platform update 11 (October 2017)</a></span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="59b17-255">Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</span><span class="sxs-lookup"><span data-stu-id="59b17-255">Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</span></span></td>
+<td><span data-ttu-id="59b17-256">Actualización de la plataforma 10</span><span class="sxs-lookup"><span data-stu-id="59b17-256">Platform update 10</span></span></td>
+<td><span data-ttu-id="59b17-257">7.0.4641.16233</span><span class="sxs-lookup"><span data-stu-id="59b17-257">7.0.4641.16233</span></span></td>
+<td><span data-ttu-id="59b17-258">2017 de agosto</span><span class="sxs-lookup"><span data-stu-id="59b17-258">August 2017</span></span></td>
+<td><span data-ttu-id="59b17-259"><a href="whats-new-platform-update-10.md">Novedades o cambios en la actualización 10 de la plataforma de Dynamics 365 for Finance and Operations, Enterprise Edition (agosto de 2017)</a></span><span class="sxs-lookup"><span data-stu-id="59b17-259"><a href="whats-new-platform-update-10.md">What's new or changed in Dynamics 365 for Finance and Operations, Enterprise edition platform update 10 (August 2017)</a></span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="59b17-260">Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</span><span class="sxs-lookup"><span data-stu-id="59b17-260">Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</span></span></td>
+<td><span data-ttu-id="59b17-261">Actualización 9 de la plataforma</span><span class="sxs-lookup"><span data-stu-id="59b17-261">Platform update 9</span></span></td>
+<td><span data-ttu-id="59b17-262">7.0.4612.35162</span><span class="sxs-lookup"><span data-stu-id="59b17-262">7.0.4612.35162</span></span></td>
+<td><span data-ttu-id="59b17-263">Julio de 2017</span><span class="sxs-lookup"><span data-stu-id="59b17-263">July 2017</span></span></td>
+<td><span data-ttu-id="59b17-264"><a href="whats-new-platform-update-9.md">Novedades o cambios en la actualización 9 de la plataforma de Dynamics 365 for Finance and Operations, Enterprise Edition (julio de 2017)</a></span><span class="sxs-lookup"><span data-stu-id="59b17-264"><a href="whats-new-platform-update-9.md">What's new or changed in Dynamics 365 for Finance and Operations, Enterprise edition platform update 9 (July 2017)</a></span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="59b17-265">Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</span><span class="sxs-lookup"><span data-stu-id="59b17-265">Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</span></span></td>
+<td><span data-ttu-id="59b17-266">Actualización 8 de la plataforma</span><span class="sxs-lookup"><span data-stu-id="59b17-266">Platform update 8</span></span></td>
+<td><span data-ttu-id="59b17-267">7.0.4565.16212</span><span class="sxs-lookup"><span data-stu-id="59b17-267">7.0.4565.16212</span></span></td>
+<td><span data-ttu-id="59b17-268">2017 de junio</span><span class="sxs-lookup"><span data-stu-id="59b17-268">June 2017</span></span></td>
+<td><span data-ttu-id="59b17-269"><a href="whats-new-platform-update-8.md">Novedades o cambios en la actualización 8 de la plataforma de Dynamics 365 for Finance and Operations, Enterprise Edition (junio de 2017)</a></span><span class="sxs-lookup"><span data-stu-id="59b17-269"><a href="whats-new-platform-update-8.md">What's new or changed in Dynamics 365 for Finance and Operations, Enterprise edition platform update 8 (June 2017)</a></span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="59b17-270">Microsoft Dynamics 365 for Operations</span><span class="sxs-lookup"><span data-stu-id="59b17-270">Microsoft Dynamics 365 for Operations</span></span></td>
+<td><span data-ttu-id="59b17-271">Actualización 7 de la plataforma</span><span class="sxs-lookup"><span data-stu-id="59b17-271">Platform update 7</span></span></td>
+<td><span data-ttu-id="59b17-272">7.0.4542.16189</span><span class="sxs-lookup"><span data-stu-id="59b17-272">7.0.4542.16189</span></span></td>
+<td><span data-ttu-id="59b17-273">mayo de 2017</span><span class="sxs-lookup"><span data-stu-id="59b17-273">May 2017</span></span></td>
+<td><span data-ttu-id="59b17-274"><a href="whats-new-platform-update-7.md">Novedades o cambios en la actualización 7 de la plataforma de Dynamics 365 for Operations (mayo de 2017)</a></span><span class="sxs-lookup"><span data-stu-id="59b17-274"><a href="whats-new-platform-update-7.md">What's new or changed in Dynamics 365 for Operations platform update 7 (May 2017)</a></span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="59b17-275">Dynamics 365 for Operations</span><span class="sxs-lookup"><span data-stu-id="59b17-275">Dynamics 365 for Operations</span></span></td>
+<td><span data-ttu-id="59b17-276">Actualización 6 de la plataforma</span><span class="sxs-lookup"><span data-stu-id="59b17-276">Platform update 6</span></span></td>
+<td><span data-ttu-id="59b17-277">7.0.4509.16180</span><span class="sxs-lookup"><span data-stu-id="59b17-277">7.0.4509.16180</span></span></td>
+<td><span data-ttu-id="59b17-278">2017 de abril</span><span class="sxs-lookup"><span data-stu-id="59b17-278">April 2017</span></span></td>
+<td><span data-ttu-id="59b17-279"><a href="whats-new-platform-update-6.md">Novedades o cambios en la actualización 6 de la plataforma de Dynamics 365 for Operations (abril de 2017)</a></span><span class="sxs-lookup"><span data-stu-id="59b17-279"><a href="whats-new-platform-update-6.md">What's new or changed in Dynamics 365 for Operations platform update 6 (April 2017)</a></span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="59b17-280">Dynamics 365 for Operations</span><span class="sxs-lookup"><span data-stu-id="59b17-280">Dynamics 365 for Operations</span></span></td>
+<td><span data-ttu-id="59b17-281">Actualización 5 de la plataforma</span><span class="sxs-lookup"><span data-stu-id="59b17-281">Platform update 5</span></span></td>
+<td><span data-ttu-id="59b17-282">7.0.4475.16165</span><span class="sxs-lookup"><span data-stu-id="59b17-282">7.0.4475.16165</span></span></td>
+<td><span data-ttu-id="59b17-283">2017 de marzo</span><span class="sxs-lookup"><span data-stu-id="59b17-283">March 2017</span></span></td>
+<td><span data-ttu-id="59b17-284"><a href="whats-new-platform-update-5.md">Novedades o cambios en la actualización 5 de la plataforma de Dynamics 365 for Operations (marzo de 2017)</a></span><span class="sxs-lookup"><span data-stu-id="59b17-284"><a href="whats-new-platform-update-5.md">What's new or changed in Dynamics 365 for Operations platform update 5 (March 2017)</a></span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="59b17-285">Dynamics 365 for Operations</span><span class="sxs-lookup"><span data-stu-id="59b17-285">Dynamics 365 for Operations</span></span></td>
+<td><span data-ttu-id="59b17-286">Actualización 4 de la plataforma</span><span class="sxs-lookup"><span data-stu-id="59b17-286">Platform update 4</span></span></td>
+<td><span data-ttu-id="59b17-287">7.0.4425.16161</span><span class="sxs-lookup"><span data-stu-id="59b17-287">7.0.4425.16161</span></span></td>
+<td><span data-ttu-id="59b17-288">2017 de febrero</span><span class="sxs-lookup"><span data-stu-id="59b17-288">February 2017</span></span></td>
+<td><span data-ttu-id="59b17-289"><a href="whats-new-platform-update-4.md">Novedades o cambios en la actualización 4 de la plataforma de Dynamics 365 for Operations (febrero de 2017)</a></span><span class="sxs-lookup"><span data-stu-id="59b17-289"><a href="whats-new-platform-update-4.md">What's new or changed in Dynamics 365 for Operations platform update 4 (February 2017)</a></span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="59b17-290">Dynamics 365 for Operations</span><span class="sxs-lookup"><span data-stu-id="59b17-290">Dynamics 365 for Operations</span></span></td>
+<td><span data-ttu-id="59b17-291">Actualización 3 de la plataforma</span><span class="sxs-lookup"><span data-stu-id="59b17-291">Platform update 3</span></span></td>
+<td><span data-ttu-id="59b17-292">7.0.4307.16141</span><span class="sxs-lookup"><span data-stu-id="59b17-292">7.0.4307.16141</span></span></td>
+<td><span data-ttu-id="59b17-293">noviembre de 2016</span><span class="sxs-lookup"><span data-stu-id="59b17-293">November 2016</span></span></td>
+<td><span data-ttu-id="59b17-294"><a href="whats-new-platform-update-3.md">Novedades o cambios en la actualización 3 de la plataforma de Dynamics 365 for Operations (noviembre de 2016)</a></span><span class="sxs-lookup"><span data-stu-id="59b17-294"><a href="whats-new-platform-update-3.md">What's new or changed in Dynamics 365 for Operations platform update 3 (November 2016)</a></span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="59b17-295">Microsoft Dynamics AX</span><span class="sxs-lookup"><span data-stu-id="59b17-295">Microsoft Dynamics AX</span></span></td>
+<td><span data-ttu-id="59b17-296">Actualización 2 de la plataforma</span><span class="sxs-lookup"><span data-stu-id="59b17-296">Platform update 2</span></span></td>
+<td><span data-ttu-id="59b17-297">7.0.4230.16130</span><span class="sxs-lookup"><span data-stu-id="59b17-297">7.0.4230.16130</span></span></td>
+<td><span data-ttu-id="59b17-298">2016 de agosto</span><span class="sxs-lookup"><span data-stu-id="59b17-298">August 2016</span></span></td>
+<td><span data-ttu-id="59b17-299"><a href="whats-new-platform-update-2.md">Novedades o cambios en la actualización 2 de la plataforma de Dynamics AX (agosto de 2016)</a></span><span class="sxs-lookup"><span data-stu-id="59b17-299"><a href="whats-new-platform-update-2.md">What's new or changed in Dynamics AX platform update 2 (August 2016)</a></span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="59b17-300">Microsoft Dynamics AX</span><span class="sxs-lookup"><span data-stu-id="59b17-300">Microsoft Dynamics AX</span></span></td>
+<td><span data-ttu-id="59b17-301">Actualización 1 de la plataforma</span><span class="sxs-lookup"><span data-stu-id="59b17-301">Platform update 1</span></span></td>
+<td><span data-ttu-id="59b17-302">7.0.4127.16103</span><span class="sxs-lookup"><span data-stu-id="59b17-302">7.0.4127.16103</span></span></td>
+<td><span data-ttu-id="59b17-303">mayo de 2016</span><span class="sxs-lookup"><span data-stu-id="59b17-303">May 2016</span></span></td>
+<td><span data-ttu-id="59b17-304"><a href="whats-new-changed-platform-version-7-1-may-2016.md">Novedades o cambios en la actualización 1 de la plataforma de Dynamics AX (mayo de 2016)</a></span><span class="sxs-lookup"><span data-stu-id="59b17-304"><a href="whats-new-changed-platform-version-7-1-may-2016.md">What's new or changed in Dynamics AX platform update 1 (May 2016)</a></span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="59b17-305">Microsoft Dynamics AX</span><span class="sxs-lookup"><span data-stu-id="59b17-305">Microsoft Dynamics AX</span></span></td>
+<td><span data-ttu-id="59b17-306">7.0</span><span class="sxs-lookup"><span data-stu-id="59b17-306">7.0</span></span></td>
+<td><span data-ttu-id="59b17-307">7.0.4030.16079</span><span class="sxs-lookup"><span data-stu-id="59b17-307">7.0.4030.16079</span></span></td>
+<td><span data-ttu-id="59b17-308">2016 de febrero</span><span class="sxs-lookup"><span data-stu-id="59b17-308">February 2016</span></span></td>
+<td><span data-ttu-id="59b17-309"><a href="whats-new-changed-7-0-february-2016.md">Novedades o cambios en Dynamics AX 7.0 (febrero de 2016)</a></span><span class="sxs-lookup"><span data-stu-id="59b17-309"><a href="whats-new-changed-7-0-february-2016.md">What's new or changed in Dynamics AX 7.0 (February 2016)</a></span></span></td>
+</tr>
+</tbody>
+</table>

@@ -1,4029 +1,1282 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="deprecated-features.md" target-language="es-ES">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-d915bc8" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>deprecated-features.a8ef67.9daba2449b6a20634c13117cedb6b63fcc8ee674.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>9daba2449b6a20634c13117cedb6b63fcc8ee674</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>fcae2e7938d7dbd94b76b0948b084d90d5fc919c</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>06/05/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\dev-itpro\migration-upgrade\deprecated-features.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Removed or deprecated features</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Características quitadas u obsoletas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This topic describes features that have been removed, or that are planned for removal.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este tema describe las funciones que se han eliminado, o que está previsto que se eliminen.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Removed or deprecated features</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Características quitadas o en desuso</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>This topic describes features that have been removed or deprecated for Dynamics 365 for Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este tema describe las funciones que se han eliminado, o están en desuso en Dynamics 365 for Finance and Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>A <bpt id="p1">*</bpt>removed<ept id="p1">*</ept> feature is no longer available in the product.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Una función <bpt id="p1">*</bpt>quitada<ept id="p1">*</ept> dejará de estar disponible en el producto.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>A <bpt id="p1">*</bpt>deprecated<ept id="p1">*</ept> feature is not in active development and may be removed in a future update.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Una función <bpt id="p1">*</bpt>en desuso<ept id="p1">*</ept> no está en el desarrollo activo y se puedría quitar en una actualización futura.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>This list is intended to help you consider these removals and deprecations for your own planning.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y deprecaciones para su propia planificación.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>Starting with the Dynamics 365 for Finance and Operations July 2017 release with platform update 8, the type of deployments are noted for each removed or deprecated feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Desde Dynamics 365 for Finance and Operations, versión de julio de 2017 con actualización de la plataforma 8, se indica el tipo de implementaciones para cada características quitada u obsoleta.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>All of the previous releases mentioned in this topic supported cloud deployments only.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todas las versiones anteriores de la lista de este tema admitían implementaciones de la nube únicamente.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>Detailed information about objects in Finance and Operations can be found in the <bpt id="p1">[</bpt>Technical reference reports<ept id="p1">](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La información detallada sobre los objetos de Finance and Operations se puede encontrar en los <bpt id="p1">[</bpt>informes de referencia técnica<ept id="p1">](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>You can compare the different versions of these reports to learn about objects that have changed or been removed in each version of Finance and Operations.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de Finance and Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>Dynamics 365 for Finance and Operations 10.0.4</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Dynamics 365 for Finance and Operations 10.0.4</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>France: FEC Accounting data export in XML</source><target logoport:matchpercent="73" state="translated" state-qualifier="fuzzy-match">Francia: Formato XML de exportación de datos contables FEC</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>Replaced by TXT format, <bpt id="p1">**</bpt>French FEC audit file<ept id="p1">**</ept> is available through <bpt id="p2">**</bpt>General ledger<ept id="p2">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p3">**</bpt>Periodic tasks<ept id="p3">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p4">**</bpt>Data export<ept id="p4">**</ept>.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Reemplazado por el formato de TXT,  <bpt id="p1">**</bpt>Archivo de auditoría francés de FEC<ept id="p1">**</ept> está disponible en <bpt id="p2">**</bpt>Contabilidad general<ept id="p2">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p3">**</bpt>Tareas periódicas<ept id="p3">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p4">**</bpt>Exportación de datos<ept id="p4">**</ept>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Yes</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Sí</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>General ledger</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Contabilidad general</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Opción de implementación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>All</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Todas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Deprecated.</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">En desuso.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>Target timeframe for the functionality to be removed is July 2020.</source><target logoport:matchpercent="87" state="translated" state-qualifier="fuzzy-match">La fecha prevista para la eliminación de la funcionalidad es julio de 2020.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>Dynamics 365 for Finance and Operations 10.0.4 with Platform update 28</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Dynamics 365 for Finance and Operations 10.0.4 con Platform update 28</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>Dynamics 365 for Finance and Operations 10.0.4 with Platform update 28 is available to targeted users as part of a preview release.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Dynamics 365 for Finance and Operations 10.0.4 con Platform update 28 está disponible para los usuarios a los que está dirigida como parte de un lanzamiento de versión preliminar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>The content and the functionality are subject to change.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El contenido y la funcionalidad están sujetos a cambios.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>For more information about preview releases, see <bpt id="p1">[</bpt>Service update availability<ept id="p1">](../../fin-and-ops/get-started/public-preview-releases.md)</ept>.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Para obtener más información acerca las versiones preliminares, consulte <bpt id="p1">[</bpt>Disponibilidad de actualización del servicio<ept id="p1">](../../fin-and-ops/get-started/public-preview-releases.md)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>Legacy navigation bar</source><target logoport:matchpercent="69" state="translated" state-qualifier="fuzzy-match">Barra de navegación antigua</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>Header alignment with other Dynamics and Office products.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Alineación de cabecera con otros productos de Dynamics y de Office.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>For more details, see <bpt id="p1">[</bpt>Updated navigation bar that aligns with the Office header<ept id="p1">](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/updatednavbar)</ept>.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Para más información, consulte <bpt id="p1">[</bpt>Barra de exploración que se alinea con el encabezado de Office<ept id="p1">](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/updatednavbar)</ept>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-inherited"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>Starting in Platform update 24, a restyled navigation bar that features search was introduced.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">A partir de la Platform update 24 se introdujo una barra de navegación rediseñada que cuenta con búsqueda.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>Web client</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Cliente web</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Opción de implementación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>All</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Todas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>Deprecated: Starting in April 2020, the legacy navigation bar will no longer be available.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">En desuso: a partir de abril de 2020, la antigua barra de navegación ya no estará disponible.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>Until that point, customers can revert to the legacy navigation bar through the <bpt id="p1">**</bpt>Client performance options<ept id="p1">**</ept> page.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Hasta que ese punto, los clientes puede volver a la antigua barra de navegación a través de la página <bpt id="p1">**</bpt>Opciones de rendimiento del cliente<ept id="p1">**</ept>.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>Dynamics 365 for Finance and Operations 10.0.2 with Platform update 26</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Dynamics 365 for Finance and Operations 10.0.2 con Platform update 26</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>Dynamics 365 for Finance and Operations 10.0.2 with Platform update 26 is available to targeted users as part of a preview release.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Dynamics 365 for Finance and Operations 10.0.2 con Platform update 26 está disponible para los usuarios a los que está dirigida como parte de un lanzamiento de versión preliminar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>The content and the functionality are subject to change.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El contenido y la funcionalidad están sujetos a cambios.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>For more information about preview releases, see <bpt id="p1">[</bpt>Service update availability<ept id="p1">](../../fin-and-ops/get-started/public-preview-releases.md)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para obtener más información acerca las versiones preliminares, consulte <bpt id="p1">[</bpt>Disponibilidad de actualización del servicio<ept id="p1">](../../fin-and-ops/get-started/public-preview-releases.md)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>Legacy default action behavior</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Comportamiento predeterminado de la acción de herencia</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>The legacy behavior for default actions in grids results in an unexpected column having the default action link after grid columns have been reordered via personalization.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El comportamiento heredado de las acciones predeterminadas de las cuadrículas resulta en una columna inesperada que tiene el vínculo predeterminado de la acción después de que las columnas de la cuadrícula se hayan reordenado a través de la personalización.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>The new sticky default action feature corrects this.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La nueva función acción adhesiva predeterminada corrige esto.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>For more details, see <bpt id="p1">[</bpt>Sticky default actions in grids<ept id="p1">](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para más información, consulte <bpt id="p1">[</bpt>Acciones adhesivas predeterminadas en cuadrículas<ept id="p1">](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>Starting in Platform update 21, a feature for "sticky default actions" was introduced.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A partir de Platform update 21 se añadió una función para "acciones adhesivas predeterminadas".</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>This feature can be enabled on the <bpt id="p1">**</bpt>Client performance options<ept id="p1">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta función se puede habilitar en la página <bpt id="p1">**</bpt>Opciones de rendimiento del cliente<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>Grids in the web client</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cuadrículas en el cliente web</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Opción de implementación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>All</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>Deprecated: Starting in April 2020, sticky default actions will be the default behavior, without a mechanism to revert to the legacy behavior.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Desusado: a partir en abril de 2020, las acciones predeterminados adhesivas serán el comportamiento predeterminado, sin un mecanismo para volver al antiguo comportamiento.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>Legacy "is one of" filtering experience</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Heredado es una experiencia de filtrado "es uno de"</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>The "is one of" filtering experience went through a redesign in Platform update 22,with the plan for this to eventually be the only "is one of" filtering experience.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La experiencia de filtrado "es uno de" se ha rediseñado en la Platform update 22, y se planea que acabe siendo la única experiencia de filtrado "es uno de".</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source>Starting in Platform update 22, an improved "is one of" filtering experience became available on the <bpt id="p1">**</bpt>Client performance options<ept id="p1">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A partir de la Platform update 22 tiene disponible una experiencia filtrado mejorada "es uno de" en la página <bpt id="p1">**</bpt>Opciones de rendimiento del cliente<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source>For more information, see <bpt id="p1">[</bpt>Optimized is one of filtering experience<ept id="p1">](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para más información, consulte <bpt id="p1">[</bpt>Optimizado es una experiencia de filtrado es uno de<ept id="p1">](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="166">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="167">
-          <source>Web client</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliente web</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="168">
-          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Opción de implementación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="169">
-          <source>All</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="170">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="171">
-          <source>Deprecated: Starting in April 2020, the improved "is one of" experience will be the default behavior, without a mechanism to revert to the legacy behavior.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Desusado: a partir de abril de 2020, la experiencia mejorada "es uno de" será el comportamiento predeterminado, sin un mecanismo para volver al antiguo comportamiento.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="172">
-          <source>Parameter to enable sales orders with multiple project contract funding sources</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parámetro para habilitar los pedidos de ventas con varias fuentes de financiación del contrato de proyecto</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="173">
-          <source>Support for creating project-based sales orders where the project contract has multiple funding sources is enabled with the <bpt id="p1">**</bpt>Project management parameters<ept id="p1">**</ept> setting <bpt id="p2">**</bpt>Allow sales orders for project with multiple funding sources<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La compatibilidad para crear los pedidos de ventas basados en proyectos donde el contrato de proyecto tiene varias fuentes de financiación se habilita con la configuración <bpt id="p1">**</bpt>Parámetros de la gestión de proyectos<ept id="p1">**</ept> <bpt id="p2">**</bpt>Permitir pedidos de ventas del proyecto con varias fuentes de financiación<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="174">
-          <source>By default, this parameter is not enabled.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De forma predeterminada, este parámetro no está habilitado.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="175">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="176">
-          <source>The functionality will always be enabled after the parameter is removed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La funcionalidad siempre será habilitada después de que se elimine el parámetro.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="177">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="178">
-          <source>No.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">N. º</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="179">
-          <source>The functionality to support project-based sales orders with multiple funding sources will always be enabled.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La funcionalidad para admitir pedidos de ventas basados en proyectos con varias fuentes de financiación siempre estará habilitada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="180">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="181">
-          <source>The <bpt id="p1">**</bpt>Allow sales orders for projects with multiple funding sources<ept id="p1">**</ept> parameter will be removed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El parámetro <bpt id="p1">**</bpt>Permitir pedidos de ventas para proyectos con varias fuentes de financiación<ept id="p1">**</ept> se eliminará.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="182">
-          <source>The following methods will be modified when the parameter is removed: <bpt id="p1">**</bpt>ctrlSalesOrderTable<ept id="p1">**</ept> method in <bpt id="p2">**</bpt>ProjStatusType<ept id="p2">**</ept> class, <bpt id="p3">**</bpt>validate<ept id="p3">**</ept> method for <bpt id="p4">**</bpt>ProjId<ept id="p4">**</ept> field, and <bpt id="p5">**</bpt>run<ept id="p5">**</ept> method in <bpt id="p6">**</bpt>SalescreateOrder<ept id="p6">**</ept> form.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los métodos siguientes estarán modificados cuando se quita el parámetro: el método <bpt id="p1">**</bpt>ctrlSalesOrderTable<ept id="p1">**</ept> en la clase <bpt id="p2">**</bpt>ProjStatusType<ept id="p2">**</ept> , el método <bpt id="p3">**</bpt>validar<ept id="p3">**</ept> para el campo <bpt id="p4">**</bpt>ProjId<ept id="p4">**</ept> y el método <bpt id="p5">**</bpt>ejecución<ept id="p5">**</ept> en el formulario <bpt id="p6">**</bpt>SalescreateOrder<ept id="p6">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="183">
-          <source>The following methods will be deprecated when the parameter is removed: <bpt id="p1">**</bpt>IsSalesOrderAllowedForMultipleFundingSources<ept id="p1">**</ept> in <bpt id="p2">**</bpt>ProjTable<ept id="p2">**</ept> table file, <bpt id="p3">**</bpt>IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled<ept id="p3">**</ept> method in <bpt id="p4">**</bpt>ProjTable<ept id="p4">**</ept> table file, <bpt id="p5">**</bpt>AllowSalesOrdersForMultipleFundingSources<ept id="p5">**</ept> data field in <bpt id="p6">**</bpt>ProjParameters<ept id="p6">**</ept> form and <bpt id="p7">**</bpt>ProjParameterEntity<ept id="p7">**</ept> files, <bpt id="p8">**</bpt>IsAssociatedToMultipleFundingSourcesContract<ept id="p8">**</ept> private method in <bpt id="p9">**</bpt>ProjTable<ept id="p9">**</ept> table file.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los siguientes métodos se dejarán de usar cuando se quita el parámetro: <bpt id="p1">**</bpt>IsSalesOrderAllowedForMultipleFundingSources<ept id="p1">**</ept> en archivo de tabla <bpt id="p2">**</bpt>ProjTable<ept id="p2">**</ept> , el método <bpt id="p3">**</bpt>IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled<ept id="p3">**</ept> en el archivo de tabla <bpt id="p4">**</bpt>ProjTable<ept id="p4">**</ept> , el campo de datos <bpt id="p5">**</bpt>AllowSalesOrdersForMultipleFundingSources<ept id="p5">**</ept> en el formulario <bpt id="p6">**</bpt>ProjParameters<ept id="p6">**</ept> y los archivos <bpt id="p7">**</bpt>ProjParameterEntity<ept id="p7">**</ept> , el método privado <bpt id="p8">**</bpt>IsAssociatedToMultipleFundingSourcesContract<ept id="p8">**</ept> en el archivo de tabla <bpt id="p9">**</bpt>ProjTable<ept id="p9">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="184">
-          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Opción de implementación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="185">
-          <source>All</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="186">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="187">
-          <source>Deprecation is planned for the April 2020 release wave.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La deprecación se planifica para la oleada liberada en abril de 2020.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="188">
-          <source>Legacy workflow reports for tracking and instance status</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Informes de flujo de trabajo antiguos el estado y seguimiento de la instancia</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="189">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="190">
-          <source>The legacy workflow reports for tracking and instance status are being deprecated because they are no longer referenced from the navigation.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los antiguos informes del flujo de trabajo para el estado y seguimiento de la instancia se están dejando de utilizar porque ya no se referencian desde la navegación.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="191">
-          <source>The report names are WorkflowWorkflowInstanceByStatusReport and WorkflowWorkflowTrackingReport.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los nombres de informe son WorkflowWorkflowInstanceByStatusReport y WorkflowWorkflowTrackingReport.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="192">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="193">
-          <source>The workflow history form can be used instead.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El formulario Historial del flujo de trabajo se puede usar en su lugar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="194">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="195">
-          <source>Web client</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliente web</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="196">
-          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Opción de implementación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="197">
-          <source>All</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="198">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="199">
-          <source>Deprecated: Target timeframe for the functionality to be removed is April 2020.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: La fecha prevista para la eliminación de la funcionalidad es abril de 2020.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="200">
-          <source>Dynamics 365 for Finance and Operations 10.0.1 with platform update 25</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dynamics 365 for Finance and Operations 10.0.1 con actualización de plataforma 25</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="201">
-          <source>Dynamics 365 for Finance and Operations 10.0.1 with Platform update 25 is available to targeted users as part of a preview release.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dynamics 365 for Finance and Operations 10.0.1 con Platform update 25 está disponible para los usuarios a los que está dirigida como parte de un lanzamiento de versión preliminar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="202">
-          <source>The content and the functionality are subject to change.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El contenido y la funcionalidad están sujetos a cambios.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="203">
-          <source>For more information about preview releases, see <bpt id="p1">[</bpt>Service update availability<ept id="p1">](../../fin-and-ops/get-started/public-preview-releases.md)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para obtener más información acerca las versiones preliminares, consulte <bpt id="p1">[</bpt>Disponibilidad de actualización del servicio<ept id="p1">](../../fin-and-ops/get-started/public-preview-releases.md)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="204">
-          <source>Deprecated APIs and potential breaking changes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">API en desuso y potencial cambios que generan interrupciones</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="205">
-          <source>Deriving from internal classes is deprecated</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La derivación de clases internas se deja de utilizar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="206">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="207">
-          <source>Before Platform update 25, it was possible to create a class or table that derives from an internal class/table that is defined in another package/module.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En las versiones anteriores a la Platform update 25, era posible crear una clase o tabla derivada de una clase o una tabla interna que está definida en otro paquete/módulo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="208">
-          <source>This is not a safe coding practice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No es una práctica segura de codificación.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="209">
-          <source>As of Platform update 25, the compiler will display a warning.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A partir de la Platform update 25, el compilador mostrará una advertencia.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="210">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="211">
-          <source>The compiler warning will be replaced by an error in Platform update 26.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La advertencia del compilador se reemplazará por un error en la Platform update 26.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="212">
-          <source>This change is backward compatible at runtime, which means that Platform update 25 or newer can be deployed on any sandbox or production environment without the need to modify custom code.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este cambio es compatible con versiones anteriores en el tiempo de ejecución, lo que significa que si ejecuta la Platform update 25 o posterior, esto se puede implementar en cualquier espacio aislado o entorno de producción sin la necesidad de modificar código personalizado.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="213">
-          <source>This change only affects development and compile time.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este cambio afecta únicamente al desarrollo y el tiempo de compilación.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="214">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="215">
-          <source>Visual Studio development tools</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Herramientas de desarrollo de Visual Studio</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="216">
-          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Opción de implementación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="217">
-          <source>All</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="218">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="219">
-          <source>Deprecated: The warning will become a compilation error in Platform update 26.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: la advertencia se convertirá en un error de compilación en la Platform update 26.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="220">
-          <source>Overriding internal methods is deprecated</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La anulación de métodos internos se deja de utilizar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="221">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="222">
-          <source>Before Platform update 25, it was possible to override an internal method in a derived class that is defined in another package/module.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Antes de la Platform update 25, era posible anular un método interno en una clase derivada que está definida en otro paquete/módulo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="223">
-          <source>This is not a safe coding practice.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No es una práctica segura de codificación.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="224">
-          <source>As of Platform update 25, the compiler will display a warning.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A partir de la Platform update 25, el compilador mostrará una advertencia.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="225">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="226">
-          <source>This warning will be replaced by a compile error in Platform update 26.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta advertencia del compilador se reemplazará por un error de compilación en la Platform update 26.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="227">
-          <source>This change is backward compatible at runtime, which means that Platform update 25 or newer can be deployed on any sandbox or production environment without the need to modify custom code.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este cambio es compatible con versiones anteriores en el tiempo de ejecución, lo que significa que si ejecuta la Platform update 25 o posterior, esto se puede implementar en cualquier espacio aislado o entorno de producción sin la necesidad de modificar código personalizado.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="228">
-          <source>This change only affects development and compile time.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este cambio afecta únicamente al desarrollo y el tiempo de compilación.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="229">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="230">
-          <source>Visual Studio development tools</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Herramientas de desarrollo de Visual Studio</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="231">
-          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Opción de implementación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="232">
-          <source>All</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="233">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="234">
-          <source>Deprecated: The warning will become a compilation error in Platform update 26.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: la advertencia se convertirá en un error de compilación en la Platform update 26.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="235">
-          <source>Dynamics 365 for Finance and Operations 8.1.3 with platform update 23</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dynamics 365 for Finance and Operations 8.1.3 con actualización de plataforma 23</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="236">
-          <source>SQL Server Reporting Services ReportViewer Control</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Control ReportViewer de SQL Server Reporting Services</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="237">
-          <source>Customers can use the <bpt id="p1">**</bpt>Export<ept id="p1">**</ept> action provided by the embedded SQL Server Reporting Services (SSRS) ReportViewer control to download documents produced by Finance and Operations applications.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los clientes pueden utilizar la acción <bpt id="p1">**</bpt>Exportar<ept id="p1">**</ept> proporcionada por el control incrustado SQL Server Reporting Services (SSRS) ReportViewer para descargar documentos producidos por las aplicaciones de Finance and Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="238">
-          <source>This HTML-based presentation of the report offers users a non-paginated preview of the document.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta presentación basada en HTML del informe proporciona a los usuarios una vista previa no paginada del documento.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="239">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="240">
-          <source>The non-paginated nature of the HTML-based preview experience does <bpt id="p1">**</bpt>not<ept id="p1">**</ept> deliver fidelity with the physical documents ultimately produced by Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La naturaleza no paginada de la experiencia de vista previa basada en HTML <bpt id="p1">**</bpt>no<ept id="p1">**</ept> presta fidelidad a los documentos físicos elaborados en última instancia por Finance and Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="241">
-          <source>By fully embracing PDF as the standard format for business documents, users are able to take advantage of a modern viewing experience with improved performance when producing application reports.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Al abrazar completamente PDF como el formato estándar para documentos empresariales, los usuarios pueden aprovechar una experiencia moderna de visualización con rendimiento mejorado al generar informes de aplicación.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="242">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="243">
-          <source>Going forward, PDF documents will be the default format for reports rendered by Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En adelante, los documentos de PDF serán el formato predeterminado para los informes generados por Finance and Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="244">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="245">
-          <source>This change does <bpt id="p1">**</bpt>not<ept id="p1">**</ept> impact customer scenarios where reports are distributed electronically or sent directly to printers.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este cambio <bpt id="p1">**</bpt>no<ept id="p1">**</ept> repercute en los escenarios de cliente donde los informes se distribuyen electrónicamente o se envían directamente a impresoras.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="246">
-          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Opción de implementación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="247">
-          <source>All</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="248">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="249">
-          <source>Deprecated: A removal date has not been set for this feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: No se ha establecido una fecha de eliminación para esta función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="250">
-          <source>The functionality to automatically preview application reports using an embedded PDF viewer is planned for the May 2019 Platform update.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La funcionalidad de vista previa automática de informes de aplicaciones usando un visor de PDF incrustado se prevé para la Platform update de mayo de 2019.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="251">
-          <source>Client KPI controls</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Controles de KPI del cliente</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="252">
-          <source>Embedded key performance indicators (KPIs) could be modeled in Visual Studio by a developer and further customized by the end user.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los indicadores de rendimiento clave incrustados (KPIs) podrían ser modelados en Visual Studio por un programador y personalizados aún más por el usuario final.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="253">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="254">
-          <source>The native client controls used to define KPIs have low customer uptake and rely on a developer to add trackable metrics.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los controles de clientes nativos utilizados para definir los KPI tienen una respuesta del cliente baja y se basan en un desarrollador para agregar medidas rastreables.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="255">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="256">
-          <source>PowerBI.com service delivers world-class tooling for defining and managing KPIs based on data from external sources.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El servicio de PowerBI.com proporciona herramientas de calidad mundial para definir y administrar KPI basados en datos de fuentes externas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="257">
-          <source>In an upcoming release, we plan to enable you to embed solutions hosted on PowerBI.com in application workspaces.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En una próxima versión, planeamos habilitar soluciones integradas alojadas en PowerBI.com en espacios de trabajo de aplicaciones.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="258">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="259">
-          <source>This update will prevent developers from introducing new KPI controls in Visual Studio designer.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta actualización impedirá que los programadores introduzcan nuevos controles de KPI en el diseñador de Visual Studio.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="260">
-          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Opción de implementación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="261">
-          <source>All</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="262">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="263">
-          <source>Deprecated: A removal date has not been set for this feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: No se ha establecido una fecha de eliminación para esta función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="264">
-          <source>Deprecated APIs and future breaking changes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">API en desuso y futuros cambios que generan interrupciones</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="265">
-          <source>Field groups containing invalid field references</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Grupos de campos que contienen referencias de campo no válidas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="266">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="267">
-          <source>It is possible for table metadata definitions to have field groups containing invalid field references.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Es posible que las definiciones de metadatos de la tabla tengan grupos de campos que contienen referencias no válidas del campo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="268">
-          <source>This issue is currently categorized as a <bpt id="p1">*</bpt>compiler warning<ept id="p1">*</ept> rather than an <bpt id="p2">*</bpt>error<ept id="p2">*</ept>, meaning that the deployable package creation and deployment can proceed without fixing the issue.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este problema se categoriza actualmente como <bpt id="p1">*</bpt>advertencia del compilador<ept id="p1">*</ept> en lugar de <bpt id="p2">*</bpt>error<ept id="p2">*</ept>, lo que significa que la creación y la implementación de paquete desplegable puede continuar sin corregirse el problema.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="269">
-          <source>If deployed, this can cause runtime failures in Financial Reporting and SQL Server Reporting Services (SSRS).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Si se implementa, esto puede provocar errores del tiempo de ejecución en Financial Reporting y SQL Server Reporting Services (SSRS).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="270">
-          <source>To fix this issue:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para solucionar este problema:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="271">
-          <source>1. Remove the invalid field reference from the table field group definition.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1. Quite la referencia de campo no válida de la definición del grupo de campos de tabla.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="272">
-          <source>2. Recompile.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2. Vuelva a compilar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="273">
-          <source>3. Ensure any warnings or errors are addressed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3. Asegúrese de que las advertencias o los errores se abordan.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="274">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="275">
-          <source>This warning will be replaced by a compile error in the future.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta advertencia se reemplazará por un error de compilación en el futuro.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="276">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="277">
-          <source>Visual Studio development tools.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Herramientas de desarrollo de Visual Studio.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="278">
-          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Opción de implementación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="279">
-          <source>All.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="280">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="281">
-          <source>Deprecated: The warning will become a compile-time error in the future.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: la advertencia se convertirá en un error de tiempo de compilación en el futuro.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="282">
-          <source>We're currently targeting Platform update 30.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Actualmente tomamos como objetivo la actualización 30 de la plataforma.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="283">
-          <source>Complete list</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lista completa</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="284">
-          <source>To access the full list of APIs that are being deprecated, see <bpt id="p1">[</bpt>Deprecation of methods and meta data elements<ept id="p1">](deprecation-deletion-apis.md)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para obtener acceso a la lista completa de API que se están dejando de utilizar, consulte <bpt id="p1">[</bpt>Deprecación de métodos y elementos de metadatos<ept id="p1">](deprecation-deletion-apis.md)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="285">
-          <source>Dynamics 365 for Finance and Operations 8.1 with platform update 20</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dynamics 365 for Finance and Operations 8.1 con actualización de plataforma 20</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="286">
-          <source>Batch transfer rules for subledger journal account entries</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Reglas de transferencia por lotes para los asientos contables del subdiario contable</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="287">
-          <source>The Synchronous transfer mode is being deprecated in the General ledger parameters.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El modo de transferencia sincrónico se está abandonando en los parámetros de contabilidad general.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="288">
-          <source>This mode is replaced by Asynchronous and scheduled batch only, which already exist as options for transfer.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este modo se sustituye solo por el lote asincrónico y programado, que ya existe como opciones para la transferencia.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="289">
-          <source>For additional information, see the <bpt id="p1">[</bpt>General Ledger Parameters – Batch transfer rules<ept id="p1">](https://community.dynamics.com/365/financeandoperations/b/financials/archive/2019/03/15/general-ledger-parameters-batch-transfer-rules)</ept> blog.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para obtener información adicional, consulte el blog <bpt id="p1">[</bpt>Parámetros de Contabilidad general – reglas de transferencia por lotes<ept id="p1">](https://community.dynamics.com/365/financeandoperations/b/financials/archive/2019/03/15/general-ledger-parameters-batch-transfer-rules)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="290">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="291">
-          <source>We are removing the synchronous option due to performance impact to the system.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Estamos quitando la opción síncrona debido al impacto del rendimiento en el sistema.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="292">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="293">
-          <source>Asynchronous and scheduled batch are options to use in place of Synchronous.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El lote programado y el lote asincrónico son opciones que se utilizan en lugar de sincrónico.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="294">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="295">
-          <source>General Ledger, Accounts payable, Accounts Receivable, Procurement, Expense</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Contabilidad general, proveedores, clientes, compra, gasto</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="296">
-          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Opción de implementación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="297">
-          <source>All</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="298">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="299">
-          <source>Deprecated: Target timeframe for the functionality to be removed is the 10.0 version.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: La fecha prevista para la eliminación de la funcionalidad es la versión 10.0.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="300">
-          <source>Electronic reporting for Russia</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Informes electrónicos para Rusia</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="301">
-          <source>Feature for configuring .txt and .xml file formats of declarations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Característica para configurar formatos de archivo .txt y .xml de declaraciones.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="302">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="303">
-          <source>Replaced with Electronic reporting.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se reemplaza por informes electrónicos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="304">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="305">
-          <source>Yes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sí.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="306">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="307">
-          <source>General Ledger</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Contabilidad general</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="308">
-          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Opción de implementación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="309">
-          <source>All</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="310">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="311">
-          <source>Removed as of Dynamics 365 for Finance and Operations 8.1 with platform update 20.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eliminado desde Dynamics 365 for Finance and Operations 8.1 con la plataforma actualice 20.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="312">
-          <source>Financial reports generator for Russia</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Generador de informes financieros para Rusia</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="313">
-          <source>A tool for setting up data collection for accounting and tax reports, and to export data to XLS and DOC report templates.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Una herramienta para configurar recopilaciones de datos para los informes de contabilidad e impuestos y para exportar datos a plantillas de informes DOC y XLS.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="314">
-          <source>Functional parts: Export data to XLS and DOC report templates, queries, fixed requisites are removed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Partes funcionales: se eliminan la exportación de datos a plantillas de informes de XLS y de DOC, consultas, y requisitos fijos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="315">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="316">
-          <source>Removed parts are replaced with Electronic reporting.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Las partes quitadas se reemplazan con los informes electrónicos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="317">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="318">
-          <source>Yes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sí.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="319">
-          <source>Financial reports setup user interface should be used for setting up data collection rules by GL accounts or tax registers.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La interfaz de usuario de configuración de informes financieros se debe usar para configurar reglas de recopilación de datos según cuentas de contabilidad general o registros de impuestos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="320">
-          <source>Export data to various file types, fixed requisites and query-like data collection rules should be configured in Electronic reporting.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La exportación de datos a distintos tipos de archivo, los requisitos y las consultas fijos, como las reglas de recopilación de datos, se deben configurar en el informe electrónico.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="321">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="322">
-          <source>General ledger.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Contabilidad general</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="323">
-          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Opción de implementación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="324">
-          <source>All</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="325">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="326">
-          <source>Removed as of Dynamics 365 for Finance and Operations 8.1 with platform update 20.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eliminado desde Dynamics 365 for Finance and Operations 8.1 con la plataforma actualice 20.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="327">
-          <source>Integration with external providers for sending electronic reporting through communication channels for Russia</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Integración con los proveedores externos para enviar notificaciones electrónicas a través de los canales de comunicación para Rusia</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="328">
-          <source>Feature exporting generated electronic files of declarations to folder for further sending to official providers of electronic reporting as well as importing state back.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Característica que exporta archivos electrónicos generados de declaraciones a la carpeta para el envío adicional a los proveedores oficiales de informes electrónicos así como su importación.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="329">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="330">
-          <source>Replaced with electronic messages configurable feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Reemplazada con la función configurable de los mensajes electrónicos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="331">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="332">
-          <source>Yes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sí.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="333">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="334">
-          <source>General Ledger, Tax</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Contabilidad general, impuestos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="335">
-          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Opción de implementación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="336">
-          <source>All</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="337">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="338">
-          <source>Removed as of Dynamics 365 for Finance and Operations 8.1 with platform update 20.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eliminado desde Dynamics 365 for Finance and Operations 8.1 con la plataforma actualice 20.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="339">
-          <source>Profit tax register wizard</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Asistente del registro de impuesto de ganancias</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="340">
-          <source>Feature for creating templates for new profit tax registers.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Característica para crear plantillas para nuevos registros de impuestos sobre ganancias.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="341">
-          <source>This feature creates X++ objects for new registers, which are then  created as templates with the appropriate calculation logic added in.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta característica crea objetos X++ para nuevos registros, que se crean como plantillas con la lógica de cálculo apropiada agregada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="342">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="343">
-          <source>Feature is not compatible with the Dynamics 365 for Finance and Operations extensibility model.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La característica no es compatible con el modelo de extensibilidad de Dynamics 365 for Finance and Operations .</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="344">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="345">
-          <source>No</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nº</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="346">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="347">
-          <source>Tax</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Impuestos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="348">
-          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Opción de implementación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="349">
-          <source>All</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="350">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="351">
-          <source>Removed as of Dynamics 365 for Finance and Operations 8.1 with platform update 20.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eliminado desde Dynamics 365 for Finance and Operations 8.1 con la plataforma actualice 20.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="352">
-          <source>Dynamics 365 for Finance and Operations 8.0 with platform update 15</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dynamics 365 for Finance and Operations 8.0 con actualización de plataforma 15</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="353">
-          <source>No features have been removed or deprecated with this release.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No se ha quitado ni se ha dejado de utilizar ninguna función con esta versión.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="354">
-          <source>Platform update 15 is cumulative and contains new or changed features from Platform update 13, Platform update 14, and Platform update 15.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La actualización de la plataforma 15 es acumulativa y contiene nuevas o mejoradas funciones de la actualización de la plataforma 13, la actualización de la plataforma 14 y la actualización de la plataforma 15.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="355">
-          <source>Dynamics 365 for Finance and Operations, Enterprise edition 7.3 with platform update 12</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dynamics 365 for Finance and Operations, Enterprise edition 7.3 con actualización de plataforma 12</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="356">
-          <source>Personalized product recommendations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Recomendaciones de productos personalizados</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="357">
-          <source>Starting February 15, 2018, retailers will no longer be able to display personalized product recommendations on a point of sale (POS) device.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A partir del 15 de febrero de 2018, los minoristas no podrán mostrar recomendaciones personalizadas de productos en un dispositivo de punto de venta (PDV).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="358">
-          <source>For more information, see <bpt id="p1">[</bpt>Personalized product recommendations<ept id="p1">](../../retail/personalized-product-recommendations.md)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para obtener más información, consulte <bpt id="p1">[</bpt>Recomendaciones personalizadas de productos<ept id="p1">](../../retail/personalized-product-recommendations.md)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="359">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="360">
-          <source>We are removing the current version of the product recommendation service as we redesign this feature with a better algorithm and newer retail-oriented capabilities.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Estamos retirando la versión actual del servicio de recomendación de productos ya que rediseñamos esta función con un algoritmo mejor y capacidades más nuevas orientadas a la venta minorista.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="361">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="362">
-          <source>No.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">N. º</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="363">
-          <source>However, after Spring 2018, we plan to bring back this feature to leverage a new recommendation service.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sin embargo, después de la primavera de 2018, tenemos previsto volver a traer esta función para utilizar un nuevo servicio de recomendación.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="364">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="365">
-          <source>Personalized product recommendations in POS.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Recomendaciones de productos personalizados en PDV.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="366">
-          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Opción de implementación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="367">
-          <source>All</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="368">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="369">
-          <source>Removed as of February 15, 2018.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se quitó el 15 de febrero de 2018.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="370">
-          <source>This affects customers running Dynamics 365 for Operations 1611 and later.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esto afecta a los clientes que ejecutan Dynamics 365 for Operations 1611 y posteriores.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="371">
-          <source>Extension of the list of Electronic reporting (ER) functions</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ampliación de la lista de funciones de Informes electrónicos (ER)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="372">
-          <source>The possibility to introduce custom functions to be used in the ER expression builder (for more information, see <bpt id="p1">[</bpt>Extend the list of Electronic reporting functions<ept id="p1">](../../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md)</ept>) is not supported any more.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La posibilidad de especificar las funciones personalizadas que se utilizarán en el generador de expresiones de ER (para obtener más información, consulte <bpt id="p1">[</bpt>Extiende la lista de funciones electrónicas de informes<ept id="p1">](../../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md)</ept>) no se admite más.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="373">
-          <source>Due to changes of the ER APIs, the API to call built-in functions from the ER expression builder became internal and can’t be extended any longer.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Debido a los cambios de ER API, API para llamar funciones integradas del generador de expresiones de ER se han hecho interno y ya no se puede extender.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="374">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="375">
-          <source>Code sealing initiative</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Iniciativa de sellado de códigos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="376">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="377">
-          <source>None.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ninguno.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="378">
-          <source>Whenever a new built-in function is needed, a new extension request must be addressed to the ER framework team.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Siempre que se necesite una nueva función integrada, se debe dirigir una nueva solicitud de extensión al equipo del marco de ER.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="379">
-          <source>As a temporary work around while the requested function is under development by the ER team, the required logic can be programmed as a method of a custom application class.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Como solución temporal mientras que la función solicitada está en proceso de desarrollo por equipo de ER, se puede programar la lógica necesaria como método de clase de aplicación personalizada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="380">
-          <source>This method can be accessed in an ER expression as a property of the added ER data source of the <bpt id="p1">**</bpt>Application\Class<ept id="p1">**</ept> type that refers to that custom application class.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A este método se puede acceder en una expresión del ER como una propiedad del origen de datos agregado del ER del tipo de <bpt id="p1">**</bpt>Aplicación\clase<ept id="p1">**</ept> que hace referencia a esa clase de aplicación personalizada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="381">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="382">
-          <source>Electronic reporting framework</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parámetros de informes de marco</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="383">
-          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Opción de implementación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="384">
-          <source>All</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="385">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="386">
-          <source>Removed as of Dynamics 365 for Finance and Operations, Enterprise edition 7.3.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eliminado desde Dynamics 365 for Finance and Operations, Enterprise edition 7.3.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="387">
-          <source>Inventory by item group and Inventory by inventory dimension aging reports</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Inventario por grupo de artículos e inventario por informes de antigüedad de dimensión de inventario</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="388">
-          <source>These two reports are no longer supported in Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Estos dos informes ya no se admiten en Finance and Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="389">
-          <source>Instead, the <bpt id="p1">**</bpt>Inventory aging<ept id="p1">**</ept> report can be used to improve the user experience.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En su lugar, el informe de <bpt id="p1">**</bpt>antigüedad de inventario<ept id="p1">**</ept> se puede usar para mejorar la experiencia del usuario.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="390">
-          <source><bpt id="p1">**</bpt>Reason for deprecation<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="391">
-          <source>Duplicate functionality</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Funcionalidad duplicada</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="392">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="393">
-          <source>Yes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sí.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="394">
-          <source>The two reports have been replaced by the <bpt id="p1">**</bpt>Inventory aging<ept id="p1">**</ept> report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los dos informes han sido reemplazados por el informe <bpt id="p1">**</bpt>Antigüedad de inventario<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="395">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="396">
-          <source>Inventory management, Cost management</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gestión del inventario, administración de costes</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="397">
-          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Opción de implementación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="398">
-          <source>All</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="399">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="400">
-          <source>Deprecated: The menu items for the two reports have been removed in version 7.3.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: Los elementos de menú para los dos informes se han quitado en la versión 7.3.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="401">
-          <source>However, the code for the reports remains in the product.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sin embargo, el código para los informes permanece en el producto.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="402">
-          <source>The plan is to remove the code in a future release.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El plan es quitar el código en una versión futura.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="403">
-          <source>Power BI content packs available on AppSource</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Paquetes de contenido Power BI disponibles en AppSource</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="404">
-          <source>The <bpt id="p1">**</bpt>Cost management<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Financial performance<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Retail channel performance<ept id="p3">**</ept> content packs, available on the <bpt id="p4">[</bpt>Microsoft AppSource<ept id="p4">](https://appsource.microsoft.com)</ept> site, are deprecated as a consequence of product updates in Microsoft Power BI.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los paquetes de contenido <bpt id="p1">**</bpt>Administración de costes<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Rendimiento financiero<ept id="p2">**</ept> y <bpt id="p3">**</bpt>Retail Channel Performance<ept id="p3">**</ept>, disponibles en el sitio <bpt id="p4">[</bpt>Microsoft AppSource<ept id="p4">](https://appsource.microsoft.com)</ept> están en desuso como consecuencia de actualizaciones de producto en Microsoft Power BI.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="405">
-          <source>System administration forms used to deploy these content packs to PowerBI.com are also being deprecated in Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los formularios de administración del sistema utilizados para implementar estos paquetes de contenido a PowerBI.com también se están a dejar de utilizar en Finance and Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="406">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="407">
-          <source>Product updates in Microsoft Power BI.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Actualizaciones de producto en Microsoft Power BI.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="408">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="409">
-          <source>The <bpt id="p1">**</bpt>Cost management<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Financial performance<ept id="p2">**</ept>, and <bpt id="p3">**</bpt>Retail channel performance<ept id="p3">**</ept> content packs, available on the <bpt id="p4">[</bpt>AppSource<ept id="p4">](https://appsource.microsoft.com)</ept> site, are being replaced by analytical applications which allow for solution integrations at the database level.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los paquetes de contenido <bpt id="p1">**</bpt>Gestión de costes<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Rendimiento financiero<ept id="p2">**</ept> y <bpt id="p3">**</bpt>Retail Channel Performance<ept id="p3">**</ept>, disponibles en el sitio <bpt id="p4">[</bpt>AppSource<ept id="p4">](https://appsource.microsoft.com)</ept>, se van a sustituir por las aplicaciones analíticas que permiten integraciones de la solución en el nivel de la base de datos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="410">
-          <source>For more information about analytical applications, see <bpt id="p1">[</bpt>Embedded Power BI in workspackes<ept id="p1">](../../dev-itpro/analytics/embed-power-bi-workspaces.md)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para obtener más información acerca de aplicaciones analíticas, consulte <bpt id="p1">[</bpt>Power BI incrustado en áreas de trabajo<ept id="p1">](../../dev-itpro/analytics/embed-power-bi-workspaces.md)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="411">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="412">
-          <source>Cost management, Finance, and Retail</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Administración de costes, Finanzas, y Retail</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="413">
-          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Opción de implementación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="414">
-          <source>Cloud only (Integration with PowerBI.com is not supported in on-premises deployments.)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Solo en la nube (la integración con PowerBI.com no se admite en implementaciones locales).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="415">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="416">
-          <source>Deprecated: Target timeframe for the functionality removal is Q2 2018.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: La fecha prevista para la eliminación de la funcionalidad es el segundo trimestre de 2018.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="417">
-          <source>Standard UI in data management workspace</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interfaz de usuario estándar en área de trabajo de gestión de datos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="418">
-          <source>The standard UI in data management is the legacy UI, which is the default UI presented to the users when they visit the data management workspace.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La interfaz de usuario estándar en administración de datos es la antigua interfaz de usuario, que es la interfaz de usuario predeterminada que se muestra a los usuarios cuando visitan el espacio de trabajo de gestión de datos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="419">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="420">
-          <source>We are investing in providing new user experiences in the new UI.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Estamos invirtiendo en suministrar nuevas experiencias de usuario en la nueva interfaz de usuario.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="421">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="422">
-          <source>The new UI called <bpt id="p1">*</bpt>Enhanced views<ept id="p1">*</ept> is replacing the old UI.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La nueva interfaz de usuario denominada <bpt id="p1">*</bpt>Vistas mejoradas<ept id="p1">*</ept> está reemplazando la interfaz de usuario antigua.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="423">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="424">
-          <source>Data management workspace</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Espacio de trabajo para la gestión de datos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="425">
-          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Opción de implementación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="426">
-          <source>All</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="427">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="428">
-          <source>Deprecated: Target timeframe for the functionality to be removed is Q2 2018.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: La fecha prevista para la eliminación de la funcionalidad es el segundo trimestre de 2018.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="429">
-          <source>Excise, Sales Tax, Service Tax for India</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Impuestos especiales, impuestos sobre ventas, impuesto de servicios de la India</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="430">
-          <source>These taxes have been subsumed into Indian GST.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Estos impuestos se han incluido en el GST indio.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="431">
-          <source><bpt id="p1">**</bpt>Reason for removal or deprecation<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la eliminación o depreciación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="432">
-          <source>These taxes have been subsumed into Indian GST.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Estos impuestos se han incluido en el GST indio.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="433">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="434">
-          <source>Indian GST</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">GST indio</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="435">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="436">
-          <source>Tax</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Impuesto</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="437">
-          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Opción de implementación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="438">
-          <source>All modules</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todos los módulos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="439">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="440">
-          <source>Deprecated: A removal date has not been set for this feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: No se ha establecido una fecha de eliminación para esta función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="441">
-          <source>File Validation Utility (FVU) for India</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">File Validation Utility (FVU) para la India</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="442">
-          <source><bpt id="p1">**</bpt>Reason for removal or deprecation<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la eliminación o depreciación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="443">
-          <source>Lack of customer usage</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Falta de uso del cliente</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="444">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="445">
-          <source>No</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">N.º</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="446">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="447">
-          <source>Indian withholding tax</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retención de impuestos de la India</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="448">
-          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Opción de implementación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="449">
-          <source>All modules</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todos los módulos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="450">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="451">
-          <source>Deprecated: A removal date has not been set for this feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: No se ha establecido una fecha de eliminación para esta función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="452">
-          <source>TDS/TCS certificate for India</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Certificado de TDS/TCS para la India</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="453">
-          <source>Users can download this from the government portal.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los usuarios pueden descargar esto del portal gubernamental.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="454">
-          <source><bpt id="p1">**</bpt>Reason for removal or deprecation<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la eliminación o depreciación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="455">
-          <source>Lack of customer usage</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Falta de uso del cliente</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="456">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="457">
-          <source>No</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">N.º</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="458">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="459">
-          <source>Indian withholding tax</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retención de impuestos de la India</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="460">
-          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Opción de implementación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="461">
-          <source>All modules</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todos los módulos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="462">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="463">
-          <source>Deprecated: A removal date has not been set for this feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: No se ha establecido una fecha de eliminación para esta función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="464">
-          <source>Export/import (EXIM) incentive scheme for India</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esquema de incentivo de exportación/importación (EXIM) para la India</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="465">
-          <source><bpt id="p1">**</bpt>Reason for removal or deprecation<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la eliminación o depreciación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="466">
-          <source>Lack of customer usage</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Falta de uso del cliente</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="467">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="468">
-          <source>No</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">N.º</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="469">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="470">
-          <source>Import and export</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Importar y exportar</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="471">
-          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Opción de implementación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="472">
-          <source>All modules</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todos los módulos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="473">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="474">
-          <source>Deprecated: A removal date has not been set for this feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: No se ha establecido una fecha de eliminación para esta función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="475">
-          <source>Dynamics 365 for Retail 7.2</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dynamics 365 for Retail 7.2</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="476">
-          <source>Personalized product recommendations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Recomendaciones de productos personalizados</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="477">
-          <source>Starting February 15, 2018, retailers will no longer be able to display personalized product recommendations on a point of sale (POS) device.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A partir del 15 de febrero de 2018, los minoristas no podrán mostrar recomendaciones personalizadas de productos en un dispositivo de punto de venta (PDV).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="478">
-          <source>For more information, see <bpt id="p1">[</bpt>Personalized product recommendations<ept id="p1">](../../retail/personalized-product-recommendations.md)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para obtener más información, consulte <bpt id="p1">[</bpt>Recomendaciones personalizadas de productos<ept id="p1">](../../retail/personalized-product-recommendations.md)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="479">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="480">
-          <source>We are removing the current version of the product recommendation service as we redesign this feature with a better algorithm and newer retail-oriented capabilities.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Estamos retirando la versión actual del servicio de recomendación de productos ya que rediseñamos esta función con un algoritmo mejor y capacidades más nuevas orientadas a la venta minorista.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="481">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="482">
-          <source>No.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">N. º</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="483">
-          <source>However, after Spring 2018, we plan to bring back this feature to leverage a new recommendation service.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sin embargo, después de la primavera de 2018, tenemos previsto volver a traer esta función para utilizar un nuevo servicio de recomendación.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="484">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="485">
-          <source>Personalized product recommendations in POS.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Recomendaciones de productos personalizados en PDV.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="486">
-          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Opción de implementación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="487">
-          <source>All</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="488">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="489">
-          <source>Removed as of February 15, 2018.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se quitó el 15 de febrero de 2018.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="490">
-          <source>This affects customers running Dynamics 365 for Retail 7.2  and later.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esto afecta a los clientes que ejecutan Dynamics 365 for Retail 7.2 y posteriores.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="491">
-          <source>Dynamics 365 for Finance and Operations, Enterprise edition July 2017 with platform update 8</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dynamics 365 for Finance and Operations, Enterprise edition Julio 2017 con actualización de plataforma 8</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="492">
-          <source>Currency conversion for accounting and reporting currencies</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Conversión de divisa para contabilidad y divisas de notificación</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="493">
-          <source>Currency conversion for accounting and reporting currencies was introduced when the euro was introduced.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La conversión de divisas para contabilidad y divisas de notificación se introdujo cuando se introdujo el euro.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="494">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="495">
-          <source>Limited usage and addition of the Copy legal entity functionality as a replacement.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uso y adición limitados de la funcionalidad Copiar entidad jurídica como sustitución.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="496">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="497">
-          <source>No, but the Copy legal entity and Configurations features were added to make it easier to move to a company that has changing core requirements.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No, pero las funciones Copiar entidad jurídica y Configuraciones se agregaron para facilitar el cambio a una empresa que tiene requisitos básicos cambiantes.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="498">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="499">
-          <source>Financial management</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Administración financiera</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="500">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="501">
-          <source>Deprecated: A removal date has not been set for this feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: No se ha establecido una fecha de eliminación para esta función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="502">
-          <source>Warehouse mobile devices portal</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Portal de dispositivos móviles de almacén</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="503">
-          <source>Warehouse mobile devices portal (WMDP) was a standalone component that was intended for on-premises self-deployment.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El portal de dispositivos móviles de almacén (WMDP) era componente independiente pensando para la implementación propia localmente.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="504">
-          <source>This component is no longer supported in Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este componente ya no se admite en Finance and Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="505">
-          <source>A native app that improves the user experience has replaced the functionality of WMDP.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Una aplicación nativa que mejora la experiencia del usuario ha sustituido a la funcionalidad de WMDP.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="506">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="507">
-          <source>Duplicate functionality.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Funcionalidad duplicada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="508">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="509">
-          <source>Yes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sí.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="510">
-          <source>This feature has been replaced by Finance and Operations - Warehousing.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta función se ha sustituido por Finance and Operations - Warehousing.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="511">
-          <source>For more information about setup and prerequisites, see <bpt id="p1">[</bpt>Install and configure Microsoft Dynamics 365 for Finance and Operations - Warehousing<ept id="p1">](../../supply-chain/warehousing/install-configure-warehousing-app.md)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para obtener más información sobre la configuración y prerequisitos, consulte <bpt id="p1">[</bpt>Instalar y configurar Microsoft Dynamics 365 for Finance and Operations - Almacenaje<ept id="p1">](../../supply-chain/warehousing/install-configure-warehousing-app.md)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="512">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="513">
-          <source>Warehouse management, Transportation management</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gestión de almacenes y administración de transporte</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="514">
-          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Opción de implementación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="515">
-          <source>Warehouse mobile devices portal (WMDP) was a standalone component that was intended for on-premises self-deployment.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El portal de dispositivos móviles de almacén (WMDP) era componente independiente pensando para la implementación propia localmente.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="516">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="517">
-          <source>Deprecated: Target timeframe for the functionality to be removed is Q4 2019.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: La fecha prevista para la eliminación de la funcionalidad es el cuarto trimestre de 2019.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="518">
-          <source>Advanced bank reconciliation matching rule for manual matching</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Regla de correspondencia de conciliación bancaria para coincidencia manual</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="519">
-          <source>A matching rule was used to select and mark a bank document when documents were manually matched in the reconciliation worksheet.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Una regla de coincidencia se utilizó para seleccionar y marcar un documento bancario cuando los documentos se conciliaron manualmente en la hoja de cálculo de conciliación.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="520">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="521">
-          <source>Limited usage.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uso limitado.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="522">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="523">
-          <source>No.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">N. º</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="524">
-          <source>Column filtering capabilities should be used to find documents for reconciliation.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Las capacidades de filtro de columnas se deben usar para buscar los documentos de la conciliación.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="525">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="526">
-          <source>Cash and bank management</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gestión de efectivo y bancos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="527">
-          <source><bpt id="p1">**</bpt>Deployment option<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Opción de implementación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="528">
-          <source>All</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="529">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="530">
-          <source>Removed as of July 2017.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se quitó en julio 2017.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="531">
-          <source>Dynamics 365 for Operations 1611 with platform update 3</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dynamics 365 for Operations 1611 con actualización de plataforma 3</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="532">
-          <source>AEB payment formats for Spain</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Formatos de pago de AEB para España</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="533">
-          <source>The Consejo Superior Bancario payment formats were used to send remittance files to the bank for customer payments and vendor payments.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los formatos de pago del Consejo Superior Bancario se usaron para enviar archivos de remesas al banco de los pagos de clientes y proveedores.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="534">
-          <source>The content of these formats was determined by the Asociación Española de Banca.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El contenido de estos formatos lo determinaba la Asociación Española de Banca.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="535">
-          <source>It covers Cuaderno 19, 32, 58, 34.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cubre Cuadernos 19, 32, 58, 34.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="536">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="537">
-          <source>The payment formats are no longer used.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los formatos de pago ya no se usan.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="538">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="539">
-          <source>Yes, ISO20022 Credit transfer and Direct debit payment formats for Spain</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sí, transferencia de crédito ISO20022 y formatos de pago de domiciliación bancaria para España</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="540">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="541">
-          <source>Accounts payable, Accounts receivable</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cuentas de proveedores, cuentas de clientes</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="542">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="543">
-          <source>Deprecated: A removal date has not been set for this feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: No se ha establecido una fecha de eliminación para esta función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="544">
-          <source>Bank payments transfer for Lithuania</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Transferencia de pagos bancarios para Lituania</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="545">
-          <source>Bank payment transfers were generated and printed by using the Payment transfer (LT) export format for Lithuania.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Las transferencias de los pagos bancarios se generaban e imprimían mediante el formato de exportación de transferencia de pagos para Lituania (LT).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="546">
-          <source>The Lithuanian market began to use LITAS, the unified electronic banking system, in 2005.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El mercado lituano empezó a usar LITAS, el sistema unificado de banca electrónica, en 2005.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="547">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="548">
-          <source>The payment formats are no longer used.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los formatos de pago ya no se usan.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="549">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="550">
-          <source>Yes, ISO20022 Credit transfer payment format for Lithuania</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sí, formato de pago de transferencia de crédito ISO20022 para Lituania</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="551">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="552">
-          <source>Accounts payable</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Proveedores</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="553">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="554">
-          <source>Deprecated: A removal date has not been set for this feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: No se ha establecido una fecha de eliminación para esta función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="555">
-          <source>BBS Direkte Remittering payment formats for Norway</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Formatos de pago de BBS Direkte Remittering para Noruega</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="556">
-          <source>BBS Direkte Remittering payment formats include customer payment collection export (direct debit) and return message import.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los formatos de pago de BBS Direkte Remittering incluyen la exportación del cobro de pago de cliente (domiciliación bancaria) y la importación de la devolución del mensaje.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="557">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="558">
-          <source>The payment formats are no longer used.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los formatos de pago ya no se usan.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="559">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="560">
-          <source>The AvtaleGiro customer payment format for Norway can be used to generate direct debit messages.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El formato de pago de un cliente de AvtaleGiro para Noruega se puede usar para generar los mensajes de domiciliación bancaria.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="561">
-          <source>Return message import will be implemented in future releases.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La importación de la devolución del mensaje será implementada en próximas versiones.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="562">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="563">
-          <source>Accounts payable, Accounts receivable</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cuentas de proveedores, cuentas de clientes</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="564">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="565">
-          <source>Deprecated: A removal date has not been set for this feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: No se ha establecido una fecha de eliminación para esta función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="566">
-          <source>Chart of Accounts tool for Spain</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Herramienta para el plan de cuentas para España</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="567">
-          <source>This tool is used when a chart of accounts in Spain requires major changes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se utiliza esta herramienta cuando un plan de cuentas en España requiere cambios importantes.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="568">
-          <source>Users can import a new chart of accounts in Microsoft Excel or text format, and can also import financial statements.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los usuarios pueden importar un nuevo plan de cuentas en Microsoft Excel o en formato de texto, y también pueden importar los informes financieros.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="569">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="570">
-          <source>Limited usage</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uso limitado</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="571">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="572">
-          <source>No</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">N.º</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="573">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="574">
-          <source>General ledger</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Contabilidad general</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="575">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="576">
-          <source>Deprecated: A removal date has not been set for this feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: No se ha establecido una fecha de eliminación para esta función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="577">
-          <source>Dom80 payment format for Belgium</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Formato de pago Dom80 para Bélgica</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="578">
-          <source>Legacy Belgian payment format for payment collection (direct debit).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Formato de pago Legacy Belga para cobro de pago (domiciliación bancaria).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="579">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="580">
-          <source>The payment format is no longer used.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El formato de pago ya no se usa.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="581">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="582">
-          <source>Yes, ISO 20022 Direct debit payment format for Belgium</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sí, formato de pago de domiciliación bancaria ISO 20022 para Bélgica.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="583">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="584">
-          <source>Accounts receivable</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clientes</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="585">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="586">
-          <source>Deprecated: A removal date has not been set for this feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: No se ha establecido una fecha de eliminación para esta función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="587">
-          <source>DTA/EZAG payment formats for Switzerland</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Formatos de pago DTA/EZAG para Suiza</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="588">
-          <source>DTA/EZAG formats are integrated into the ESR system, because they can carry on the reference number.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los formatos DTA/EZAG se integran en el sistema ESR, ya que pueden contener un número de referencia.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="589">
-          <source>Because the reference number isn’t mandatory, these formats can be used to process any vendor payments.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Puesto que el número de referencia no es obligatorio, los formatos se pueden usar para procesar los pagos de cualquier proveedor.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="590">
-          <source>These formats are used by companies that have a bank account in a location other than “Postfinance.”</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Estos formatos los usan las empresas con una cuenta bancaria en una ubicación diferente de “Postfinance.”</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="591">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="592">
-          <source>The payment formats are no longer used.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los formatos de pago ya no se usan.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="593">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="594">
-          <source>Yes, ISO20022 Credit transfer payment format for Switzerland</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sí, formato de pago de transferencia de crédito ISO20022 para Suiza</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="595">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="596">
-          <source>Accounts payable</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Proveedores</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="597">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="598">
-          <source>Deprecated: A removal date has not been set for this feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: No se ha establecido una fecha de eliminación para esta función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="599">
-          <source>EDIFACT-DIRDEB payment format for Austria</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Formato de pago de EDIFACT-DIRDEB para Austria</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="600">
-          <source>EDIFACT-DIRDEB payment format for payment collection (direct debit).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Formato de pago de EDIFACT-DIRDEB para cobro de pago (domiciliación bancaria).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="601">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="602">
-          <source>The payment format is no longer used.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El formato de pago ya no se usa.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="603">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="604">
-          <source>Yes, ISO 20022 Direct debit payment format for Austria</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sí, formato de pago de domiciliación bancaria ISO 20022 para Austria</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="605">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="606">
-          <source>Accounts receivable</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clientes</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="607">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="608">
-          <source>Deprecated: A removal date has not been set for this feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: No se ha establecido una fecha de eliminación para esta función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="609">
-          <source>EDIVAT for Belgium</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EDIVAT para Bélgica</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="610">
-          <source>EDIVAT is an obsolete Belgian standard for electronic declaration via secure mail.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EDIVAT es una norma belga obsoleta para la declaración electrónica a través de correo seguro.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="611">
-          <source>Microsoft Dynamics AX 2012 retains the read-only solution to enable access to the historical data.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics AX 2012 conserva la opción de sólo lectura para habilitar el acceso a los datos históricos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="612">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="613">
-          <source>The functionality is no longer used.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La función ya no se usa.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="614">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="615">
-          <source>No</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">N.º</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="616">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="617">
-          <source>General ledger</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Contabilidad general</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="618">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="619">
-          <source>Deprecated: A removal date has not been set for this feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: No se ha establecido una fecha de eliminación para esta función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="620">
-          <source>eGiro EDIFACT CREMUL payment import format for Norway</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Formato de importación de pago de eGiro EDIFACT CREMUL para Noruega</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="621">
-          <source>eGiro is based on the international UN EDIFACT CREMUL (Multiple Credit Advice Message) standard that is used for automatic posting of customer payments.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">eGiro se basa en la norma internacional UN EDIFACT CREMUL (Mensaje de aviso de crédito múltiple), que se usa para el registro automático de pagos del cliente.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="622">
-          <source>In Microsoft Dynamics AX, eGiro is implemented as a customer payment import format.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En Microsoft Dynamics AX, eGiro se implementa como formato de importación de pago de cliente.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="623">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="624">
-          <source>The payment format is no longer used.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El formato de pago ya no se usa.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="625">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="626">
-          <source>No.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">N. º</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="627">
-          <source>The format will be replaced by ISO 20022 statement import formats in future releases.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El formato se sustituirá por formatos ISO 20022 de importación de criterio en próximas versiones.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="628">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="629">
-          <source>Accounts receivable</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clientes</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="630">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="631">
-          <source>Deprecated: A removal date has not been set for this feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: No se ha establecido una fecha de eliminación para esta función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="632">
-          <source>External inventory for Poland</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Inventario externo para Polonia</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="633">
-          <source>Evidence of goods that are taken from a vendor for sales without purchase.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pruebas de mercancías que se toman de un proveedor para las venta sin compra.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="634">
-          <source>Goods that are handled in external inventory don’t affect standard inventory, and can be sold and then purchased automatically.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Las mercancías que son gestionadas en un inventario externo no afectan al inventario estándar y se pueden vender y después comprar automáticamente.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="635">
-          <source>This process creates real inventory movements.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este proceso crea los movimientos de inventario reales.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="636">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="637">
-          <source>Replaced by another feature</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Reemplazado por otra característica</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="638">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="639">
-          <source>Yes, the core Inbound consignment functionality</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sí, la funcionalidad básica de entrada de envío</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="640">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="641">
-          <source>Accounts payable, Inventory management</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cuentas de proveedores, gestión de inventario</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="642">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="643">
-          <source>Deprecated: A removal date has not been set for this feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: No se ha establecido una fecha de eliminación para esta función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="644">
-          <source>Financial reports generator for Eastern Europe</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Generador de informes financieros para Europa Oriental</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="645">
-          <source>A tool is used to set up data collection for accounting and tax reports, and to export data to XLS and DOC report templates.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se utiliza una herramienta para configurar la recopilación de datos para los informes de contabilidad e impuestos, y para exportar datos a plantillas de informes XLS y DOC.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="646">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="647">
-          <source>Limited usage</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uso limitado</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="648">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="649">
-          <source>No.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">N. º</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="650">
-          <source>The tool will be replaced by Electronic reporting configurations in future releases.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La herramienta se reemplazará por las configuraciones de informes electrónicas en próximas versiones.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="651">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="652">
-          <source>General Ledger</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Libro mayor general</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="653">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="654">
-          <source>Deprecated: A removal date has not been set for this feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: No se ha establecido una fecha de eliminación para esta función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="655">
-          <source>Import of customer payment transactions for Finland</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Importación de las transacciones de pago del cliente para Finlandia</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="656">
-          <source>You can select an import format for Finnish payments to import customer payment transactions from an external file that the bank provides.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Puede seleccionar un formato de importación para los pagos finlandeses para importar las transacciones de pago del cliente desde un archivo externo proporcionado por el banco.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="657">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="658">
-          <source>The payment format is no longer used.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El formato de pago ya no se usa.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="659">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="660">
-          <source>No.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">N. º</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="661">
-          <source>The format will be replaced by ISO 20022 statement import formats in future releases.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El formato se sustituirá por formatos ISO 20022 de importación de criterio en próximas versiones.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="662">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="663">
-          <source>Accounts receivable</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clientes</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="664">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="665">
-          <source>Deprecated: A removal date has not been set for this feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: No se ha establecido una fecha de eliminación para esta función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="666">
-          <source>Import of payment transactions into a general ledger journal for Finland</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Importación de transacciones de pago en un diario de contabilidad general para Finlandia</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="667">
-          <source>A format that is specific to Finland is used to import accounting transactions into the general ledger.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se usa un formato específico para Finlandia para importar las transacciones de contabilidad en la contabilidad general.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="668">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="669">
-          <source>The payment format is no longer used.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El formato de pago ya no se usa.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="670">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="671">
-          <source>No.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">N. º</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="672">
-          <source>The format will be replaced by ISO 20022 statement import formats in future releases.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El formato se sustituirá por formatos ISO 20022 de importación de criterio en próximas versiones.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="673">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="674">
-          <source>Accounts receivable</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clientes</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="675">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="676">
-          <source>Deprecated: A removal date has not been set for this feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: No se ha establecido una fecha de eliminación para esta función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="677">
-          <source>Integration with Isabel synchronized (CIS) for Belgium</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Integración con el software Isabel sincronizado (CIS) para Bélgica</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="678">
-          <source>Isabel is the framework for electronic banking in Europe and is a de-facto standard in Belgium.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Isabel es el marco de trabajo de la banca electrónica en Europa y es una norma de hecho en Bélgica.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="679">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="680">
-          <source>Integration with Isabel client has been discontinued.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La integración con el cliente Isabel se ha interrumpido.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="681">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="682">
-          <source>No.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">N. º</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="683">
-          <source>The payment formats that are no longer used are replaced by ISO20022 Credit transfer payment format for Belgium.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los formatos de pago que ya no se usan son reemplazados por el formato de pago de transferencia de crédito ISO20022 para Bélgica.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="684">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="685">
-          <source>Accounts payable</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Proveedores</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="686">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="687">
-          <source>Deprecated: A removal date has not been set for this feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: No se ha establecido una fecha de eliminación para esta función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="688">
-          <source>Modifications in the chart of accounts and accounting rules for Spain</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modificaciones del plan de cuentas y reglas de contabilidad para España</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="689">
-          <source>This feature is used for changes in the chart of accounts and accounting rules in Spain.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta característica se usa para los cambios en el plan de cuentas y en las reglas de contabilidad de España.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="690">
-          <source>It maps accounts to help transform the old chart of accounts into the new chart of accounts, and compares the previous fiscal year with the new fiscal year, even if they were posted to different account numbers.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Asigna cuentas para ayudar a transformar el antiguo plan de cuentas en el nuevo plan contable, y compara el ejercicio anterior con el nuevo ejercicio, incluso si se han registrado en números de cuenta distintos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="691">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="692">
-          <source>Limited usage</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Uso limitado</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="693">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="694">
-          <source>No</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">N.º</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="695">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="696">
-          <source>General ledger</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Contabilidad general</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="697">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="698">
-          <source>Deprecated: A removal date has not been set for this feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: No se ha establecido una fecha de eliminación para esta función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="699">
-          <source>Pagamento Fornittori vendor payment format</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Formato de pago de proveedor de Pagamento Fornittori</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="700">
-          <source>Legacy Italian payment format for credit transfers.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Formato de pago de transferencia de crédito de Legacy italiano.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="701">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="702">
-          <source>The payment format is no longer used.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El formato de pago ya no se usa.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="703">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="704">
-          <source>Yes, ISO20022 Credit transfer payment format for Italy</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sí, formato de pago de transferencia de crédito ISO20022 para Italia</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="705">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="706">
-          <source>Accounts payable</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Proveedores</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="707">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="708">
-          <source>Deprecated: A removal date has not been set for this feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: No se ha establecido una fecha de eliminación para esta función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="709">
-          <source>Payment export formats for Estonia</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Formatos de exportación de pagos para Estonia</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="710">
-          <source>The Telehansa and Teleservice formats are used for bank payment export.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los formatos de Telehansa y Teleservicio se usan para la exportación de pago bancario.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="711">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="712">
-          <source>The payment formats are no longer used.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los formatos de pago ya no se usan.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="713">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="714">
-          <source>Yes, ISO20022 Credit transfer payment format for Estonia</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sí, formato de pago de transferencia de crédito ISO20022 para Estonia</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="715">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="716">
-          <source>Accounts payable</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Proveedores</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="717">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="718">
-          <source>Deprecated: A removal date has not been set for this feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: No se ha establecido una fecha de eliminación para esta función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="719">
-          <source>Payment file archive for Norway</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Archivo de pago para Noruega</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="720">
-          <source>When payment files are generated, the file archive automatically archives all files that are created, even files that were previously written or read.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cuando se generan los archivos de pago, el archivo almacena automáticamente todos los archivos que se crean, incluso los que se han escrito o leído con anterioridad.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="721">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="722">
-          <source>Replaced by another feature</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Reemplazado por otra característica</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="723">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="724">
-          <source>Yes, Electronic reporting archived jobs</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sí, trabajos archivados de informes electrónicos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="725">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="726">
-          <source>Accounts payable, Accounts receivable, Organization administration</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cuentas de proveedores, cuentas de clientes, administración de la empresa</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="727">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="728">
-          <source>Deprecated: A removal date has not been set for this feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: No se ha establecido una fecha de eliminación para esta función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="729">
-          <source>Payment import formats for Estonia</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Formatos de importación de pagos para Estonia</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="730">
-          <source>The Telehansa and TeleTeenus formats are used for bank payment import.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los formatos de Telehansa y TeleTeenus se usan para la importación de pago bancario.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="731">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="732">
-          <source>The payment formats are no longer used.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los formatos de pago ya no se usan.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="733">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="734">
-          <source>No.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">N. º</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="735">
-          <source>The formats will be replaced by ISO 20022 statement import formats in future releases.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los formatos se sustituirán por formatos ISO 20022 de importación de criterio en próximas versiones.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="736">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="737">
-          <source>Accounts receivable</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clientes</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="738">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="739">
-          <source>Deprecated: A removal date has not been set for this feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: No se ha establecido una fecha de eliminación para esta función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="740">
-          <source>Payroll information in Human Resources</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Información de nómina en Recursos humanos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="741">
-          <source>Human Resources Payroll information</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Información de nómina en Recursos humanos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="742">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="743">
-          <source>This functionality has been replaced by core Payroll and Human Resources pages.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta funcionalidad se ha sustituido por páginas principales de nóminas y Recursos Humanos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="744">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="745">
-          <source><bpt id="p1">**</bpt>Benefits<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Earnings<ept id="p2">**</ept>, and other related pages that were previously in US Payroll have been reconfigured, and are now part of the core Human Resources configuration to help support external payroll processing.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se han reconfigurado las páginas <bpt id="p1">**</bpt>Prestaciones<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Ganancias<ept id="p2">**</ept> y otras páginas relacionadas que estaban anteriormente en nóminas de Estados Unidos y ahora forman parte de la configuración de Recursos humanos base para ayudar con el procesamiento externo de nóminas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="746">
-          <source>This functionality is accessed by using the <bpt id="p1">**</bpt>Human Resources 1<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Payroll<ept id="p2">**</ept> configuration key.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A esta función se accede mediante la clave de configuración <bpt id="p1">**</bpt>Recursos humanos 1<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Nómina<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="747">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="748">
-          <source>Human Resources, Payroll</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Recursos humanos, Nómina</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="749">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="750">
-          <source>Removed as of Dynamics 365 for Operations version 1611.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se quitó en Dynamics 365 for Operations versión 1611.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="751">
-          <source>Performance management goal workflow</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Flujo de trabajo de objetivo de gestión del rendimiento</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="752">
-          <source>Performance management includes goal management and integration with performance reviews.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La gestión del rendimiento incluye la administración y la integración del objetivo con las evaluaciones de rendimiento.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="753">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="754">
-          <source>Performance management was redesigned, and the number of goal pages was reduced to simplify the process.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La gestión del rendimiento se diseñó de nuevo y el número de páginas de objetivos se redujo para simplificar el proceso.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="755">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="756">
-          <source>No.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">N. º</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="757">
-          <source>Goals are visible to managers through the Manager Self Service portal, and can be changed and viewed by the manager.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los objetivos son visibles para los administradores a través del portal Manager Self Service, y se pueden ver y cambiar por el administrador.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="758">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="759">
-          <source>Human capital management</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gestión del capital humano</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="760">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="761">
-          <source>Removed as of Dynamics 365 for Operations version 1611.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se quitó en Dynamics 365 for Operations versión 1611.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="762">
-          <source>Postgirot and Postgirot Utland payment formats for Sweden</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Formatos de pago de Postgirot y Postgirot Utland para Suecia</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="763">
-          <source>Postgirot and Postgirot Utland payment formats for Sweden.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Formatos de pago de Postgirot y Postgirot Utland para Suecia.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="764">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="765">
-          <source>The payment formats are no longer used.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los formatos de pago ya no se usan.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="766">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="767">
-          <source>Yes, ISO20022 Credit transfer payment format for Sweden</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sí, formato de pago de transferencia de crédito ISO20022 para Suecia</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="768">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="769">
-          <source>Accounts payable</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Proveedores</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="770">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="771">
-          <source>Deprecated: A removal date has not been set for this feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: No se ha establecido una fecha de eliminación para esta función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="772">
-          <source>Radio frequency identifier</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Identificador por radiofrecuencia</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="773">
-          <source>Radio Frequency Identification (RFID) is a data-collection technology that uses electronic tags to store identification data and a no-line-of-sight requirement reader to capture the identification data.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La identificación por radiofrecuencia (RFID) es una tecnología de recopilación de datos que utiliza etiquetas electrónicas para almacenar datos de identificación y no precisa ningún lector de requisitos visuales para capturarlos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="774">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="775">
-          <source>Low customer usage and a limited feature set.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Poco uso de cliente y conjunto limitado de funciones.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="776">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="777">
-          <source>No</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">N.º</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="778">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="779">
-          <source>Inventory management</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gestión de inventarios</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="780">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="781">
-          <source>Removed as of Dynamics 365 for Operations 1611.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eliminado desde Dynamics 365 for Operations 1611.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="782">
-          <source>Report about state invoices numbering for Latvia</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Informe sobre la numeración del estado de las facturas para Letonia</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="783">
-          <source>Latvian legislation provides specific rules about the numbering of sales invoices.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La legislación letona proporciona reglas específicas acerca de la numeración de las facturas de ventas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="784">
-          <source>The functionality lets you assign specific numbers to sales invoices, based on the user or user group.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dicha funcionalidad le permite asignar números específicos a las facturas de ventas, en función del usuario o del grupo de usuarios.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="785">
-          <source>You can then generate a report or an XML file.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">A continuación puede generar un informe o un archivo XML.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="786">
-          <source>You can also print a report about invoice numbers that are used.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">También puede imprimir un informe sobre los números de factura que se usan.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="787">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="788">
-          <source>The state invoice numbering no longer has to be maintained.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La numeración de la factura de estado ya no tiene que mantenerse.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="789">
-          <source>The report about used invoice numbers is no longer required.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El informe sobre números de factura utilizados ya no es necesario.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="790">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="791">
-          <source>No</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">N.º</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="792">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="793">
-          <source>Accounts receivable</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clientes</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="794">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="795">
-          <source>Deprecated: A removal date has not been set for this feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: No se ha establecido una fecha de eliminación para esta función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="796">
-          <source>Set up the names of the manager and general accountant of a company for Lithuania</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Configuración de los nombres del administrador y el contable general de una empresa para Lituania</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="797">
-          <source>The names of the manager and the general accountant of a company can be specified in the company information and used in different local report printouts.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los nombres del administrador y el contable general de una empresa se pueden especificar en la información de la empresa y usar en distintas copias impresas locales del informe.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="798">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="799">
-          <source>Replaced by another feature</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Reemplazado por otra característica</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="800">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="801">
-          <source>Yes, the setup of officials can be used for the same purpose.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sí, la configuración de funcionarios se puede usar con el mismo propósito.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="802">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="803">
-          <source>Accounts payable, Accounts receivable, Cash and bank management</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clientes, Proveedores, Gestión de efectivo y bancos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="804">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="805">
-          <source>Deprecated: A removal date has not been set for this feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: No se ha establecido una fecha de eliminación para esta función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="806">
-          <source>Shipping carrier interface</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interfaz de transportistas de envío</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="807">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="808">
-          <source>Duplicate functionality</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Funcionalidad duplicada</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="809">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="810">
-          <source>Partially replaced by Transportation management</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Reemplazado parcialmente por la administración de transporte</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="811">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="812">
-          <source>Sales and marketing, Inventory management</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ventas y marketing, Gestión de inventarios</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="813">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="814">
-          <source>Removed as of Dynamics 365 for Operations version 1611.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se quitó en Dynamics 365 for Operations versión 1611.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="815">
-          <source>Telepay payment formats for Norway</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Formatos de pago Telepay para Noruega</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="816">
-          <source>Telepay payment formats include vendor payment export (credit transfer) and customer payment collection (direct debit).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los formatos de pago Telepay incluyen la exportación del pago de proveedor (transferencia de crédito) y el cobro de pago del cliente (domiciliación bancaria).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="817">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="818">
-          <source>The payment formats are no longer used.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los formatos de pago ya no se usan.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="819">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="820">
-          <source>Yes, ISO20022 Credit transfer payment format and AvtaleGiro customer payment format for Norway</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sí, formato de pago de transferencia de crédito ISO20022 y formato de pago del cliente de AvtaleGiro para Noruega</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="821">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="822">
-          <source>Accounts payable, Accounts receivable</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cuentas de proveedores, cuentas de clientes</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="823">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="824">
-          <source>Deprecated: A removal date has not been set for this feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: No se ha establecido una fecha de eliminación para esta función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="825">
-          <source>Vendor payment export formats for Finland</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Formatos de exportación de pago de proveedores para Finlandia</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="826">
-          <source>Two formats for exporting payments are available for Finland.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dos formatos para exportar pagos están disponibles para Finlandia.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="827">
-          <source>LM02 (FI) is used for domestic payments, and LUM2 (FI) is used for foreign payments.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">LM02 (FI) se usa para pagos nacionales y LUM2 (FI) se usa para pagos extranjeros.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="828">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="829">
-          <source>The payment formats are no longer used.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los formatos de pago ya no se usan.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="830">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="831">
-          <source>Yes, ISO20022 Credit transfer payment format for Finland</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sí, formato de pago de transferencia de crédito ISO20022 para Finlandia</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="832">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="833">
-          <source>Accounts payable</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Proveedores</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="834">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="835">
-          <source>Deprecated: A removal date has not been set for this feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: No se ha establecido una fecha de eliminación para esta función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="836">
-          <source>Warehouse management II</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gestión de almacenes II</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="837">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="838">
-          <source>The Warehouse management II solution (WMS II) that was available in the <bpt id="p1">**</bpt>Inventory management<ept id="p1">**</ept> module duplicates functionality that is in the <bpt id="p2">**</bpt>Warehouse management<ept id="p2">**</ept> module that was released in Microsoft Dynamics AX 2012 R3.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La solución Warehouse Management II (WMS II) que estaba disponible en el módulo <bpt id="p1">**</bpt>Gestión de inventarios<ept id="p1">**</ept> duplica la funcionalidad en el módulo de <bpt id="p2">**</bpt>Gestión de almacenes<ept id="p2">**</ept> que se lanzó en Microsoft Dynamics AX 2012 R3.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="839">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="840">
-          <source>The <bpt id="p1">**</bpt>Warehouse management<ept id="p1">**</ept> module that was released in AX 2012 R3, Microsoft Dynamics AX 2012 R3 CU8, and Dynamics AX 2012 R3 CU9 replaces the Warehouse management II features.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El módulo <bpt id="p1">**</bpt>Administración de almacenes<ept id="p1">**</ept> lanzado en AX 2012 R3, Microsoft Dynamics AX 2012 R3 CU8 y Dynamics AX 2012 R3 CU9 reemplaza las funciones de Gestión de almacenes II.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="841">
-          <source>The new module has more advanced features and more flexible warehouse management processes than Warehouse management II.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El nuevo módulo dispone de características más avanzadas y procesos más flexibles de gestión de almacenes que Gestión de almacenes II.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="842">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="843">
-          <source>Inventory management, Sales and marketing, Procurement and sourcing</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gestión del inventario, ventas y marketing, adquisición y abastecimiento</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="844">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="845">
-          <source>Removed as of Dynamics 365 for Operations version 1611.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se quitó en Dynamics 365 for Operations versión 1611.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="846">
-          <source>Worker reminders in Human Resources</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Recordatorios de trabajador en Recursos humanos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="847">
-          <source>Human Resources Payroll information</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Información de nómina en Recursos humanos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="848">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="849">
-          <source>Low usage</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Poco uso</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="850">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="851">
-          <source>No</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">N.º</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="852">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="853">
-          <source>Human resources</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Recursos humanos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="854">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="855">
-          <source>Removed as of Dynamics 365 for Operations version 1611</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se quitó en Dynamics 365 for Operations versión 1611</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="856">
-          <source>Workflow for creating goals</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Flujo de trabajo para crear objetivos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="857">
-          <source>A workflow for managing the creation of employee goals is one of several workflows that were available to help coordinate the performance management process.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Un flujo de trabajo para gestionar la creación de los objetivos del empleado es uno de varios flujos de trabajo que estaban disponibles para ayudar a coordinar el proceso de gestión del rendimiento.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="858">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="859">
-          <source>Performance management has been completely redesigned in Microsoft Dynamics 365 for Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En Microsoft Dynamics 365 for Finance and Operations la administración del rendimiento se ha rediseñado por completo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="860">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="861">
-          <source>The redesigned Performance management feature gives more control over the content of the goals, the measurements that are used to track progress, and the attachment of supporting documentation.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La característica de Gestión del rendimiento que se ha diseñado de nuevo proporciona más control sobre el contenido de los objetivos, las medidas que se utilizan para realizar el seguimiento del progreso y los datos adjuntos de la documentación correspondiente.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="862">
-          <source>Goals can be stored as templates and then reused.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los objetivos se pueden almacenar como plantillas y volverse a utilizar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="863">
-          <source>This feature can help you set up additional goals for your employees more quickly.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta función puede ayudarle a configurar los objetivos adicionales para sus empleados con más rapidez.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="864">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="865">
-          <source>Human capital management</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gestión del capital humano</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="866">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="867">
-          <source>Removed as of Dynamics 365 for Operations version 1611.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se quitó en Dynamics 365 for Operations versión 1611.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="868">
-          <source>Dynamics AX 7.0</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dynamics AX 7.0</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="869">
-          <source>Ability to cancel changes to a vendor invoice</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Capacidad para cancelar cambios en una factura de proveedor</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="870">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="871">
-          <source>Performance enhancement</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mejora del rendimiento</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="872">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="873">
-          <source>No</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">N.º</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="874">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="875">
-          <source>Accounts payable</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Proveedores</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="876">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="877">
-          <source>Removed as of Dynamics AX 7.0.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eliminado a partir de Dynamics AX 7.0.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="878">
-          <source>AIF, AxD, and AxBC integrations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Integración de AIF, Axd y AxBC</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="879">
-          <source>In Application Integration Framework (AIF), data can be exchanged with external systems through business logic that is exposed as services.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En Application Integration Framework (AIF), los datos se pueden intercambiar con sistemas externos por medio de lógica de negocios expuesta como servicios.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="880">
-          <source>Dynamics AX includes services that are based on documents and .NET Business Connector (AxBC).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Dynamics AX incluye servicios que se basan en documentos y en .NET Business Connector (AxBC).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="881">
-          <source>A document is created by using XML.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los documentos se crean mediante XML.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="882">
-          <source>The XML includes header information that is added to create a <bpt id="p1">*</bpt>message<ept id="p1">*</ept> that can be transferred into or out of Dynamics AX.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El XML incluye información de encabezado que se agrega para crear un <bpt id="p1">*</bpt>mensaje<ept id="p1">*</ept> que se puede transferir a o de Dynamics AX.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="883">
-          <source>Examples of documents include sales orders and purchase orders.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Algunos ejemplos de documentos son los pedidos de compra y venta.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="884">
-          <source>However, almost any entity, such as a customer, can be represented by a document.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No obstante, casi cualquier entidad, como un cliente, puede ser representado por un documento.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="885">
-          <source>Services that are based on documents use the <bpt id="p1">**</bpt>Axd <ph id="ph1">\&lt;</ph>Document<ph id="ph2">\&gt;</ph><ept id="p1">**</ept> classes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los servicios que se basan en documentos usan las clases <bpt id="p1">**</bpt>Axd <ph id="ph1">\&lt;</ph>Documento<ph id="ph2">\&gt;</ph><ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="886">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="887">
-          <source>The architecture of AIF and AxDs could not be scaled to a cloud service.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La arquitectura de AIF y de AxDs no se podría escalar un servicio de nube.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="888">
-          <source>There were performance issues around bulk import.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ha habido problemas de rendimiento en la importación masiva.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="889">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="890">
-          <source>This feature is replaced by the Data Import/Export framework, which supports recurring bulk import/export.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta característica se sustituye por el marco de importación y exportación de datos, compatible con la importación y exportación masiva recurrente.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="891">
-          <source>For AxBC, we recommend that you use the actual tables.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para AxBC, se recomienda usar las tablas reales.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="892">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="893">
-          <source>AxDs, AxBCs, and AIF</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">AxDs, AxBC y AIF</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="894">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="895">
-          <source>Removed as of Dynamics AX 7.0.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eliminado a partir de Dynamics AX 7.0.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="896">
-          <source>Billing code rate scripts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Secuencias de comandos de índice de código de facturación</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="897">
-          <source>Billing scripts were used to calculate billing rates for billing codes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Las secuencias de facturación se usaban para calcular aranceles de factura para los códigos de facturación.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="898">
-          <source>This scripts required custom development in the C Sharp or Visual Basic programming language.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Estas secuencias de comandos requerían desarrollo personalizado en C# o el lenguaje de programación Visual Basic.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="899">
-          <source>In the current version of Dynamics AX, the <bpt id="p1">**</bpt>billing code rate scripts<ept id="p1">**</ept> are not supported.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En la versión actual de Dynamics AX, los <bpt id="p1">**</bpt>scripts de la tasa de código de facturación<ept id="p1">**</ept> no se admiten.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="900">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="901">
-          <source>The support for the custom C Sharp or Visual Basic scripts was not added in Dynamics AX 7.0.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La compatibilidad para los scripts de C# o Visual Basic personalizados no se ha agregado a Dynamics AX 7.0.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="902">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="903">
-          <source>No</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="904">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="905">
-          <source>Public sector, Accounts receivable</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sector público, clientes</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="906">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="907">
-          <source>Removed as of Dynamics AX 7.0.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eliminado a partir de Dynamics AX 7.0.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="908">
-          <source>BOMs without BOM versions</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">L. MAT sin versiones de L. MAT</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="909">
-          <source>When the <bpt id="p1">**</bpt>BOM versions<ept id="p1">**</ept> configuration key was disabled, bill of materials (BOM) versions were hidden in all forms, and the system forced a 1:1 relationship between released products and BOMs.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cuando la clave de configuración <bpt id="p1">**</bpt>Versiones de L. MAT.<ept id="p1">**</ept> se deshabilita, las versiones de la lista de materiales se ocultan en todos los formularios, y el sistema fuerza una relación 1:1 entre los productos liberados y las listas de materiales.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="910">
-          <source>In the current version of Dynamics AX, the <bpt id="p1">**</bpt>BOM versions<ept id="p1">**</ept> configuration key can't be disabled.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En la versión actual de Dynamics AX, no se puede deshabilitar la clave de configuración de las <bpt id="p1">**</bpt>versiones BOM<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="911">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="912">
-          <source>Using a configuration key to control BOM versions doesn't scale in a cloud environment.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El uso de una clave de configuración para controlar las versiones de listas de materiales no se escala en un entorno de nube.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="913">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="914">
-          <source>No</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">N.º</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="915">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="916">
-          <source>Product information management, Inventory management</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gestión de información de productos, Gestión de inventarios</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="917">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="918">
-          <source>Removed as of Dynamics AX 7.0.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eliminado a partir de Dynamics AX 7.0.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="919">
-          <source>Brazilian Bordero</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bordero brasileño</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="920">
-          <source>Specific method of payment for Brazilian companies</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Forma de pago específica para las empresas brasileñas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="921">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="922">
-          <source>Support for the Brazilian Bordero method of payment has been discontinued from Brazilian localization</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La ayuda de la forma de pago para el Bordero brasileño se ha interrumpido para la ubicación brasileña</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="923">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="924">
-          <source>No</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">N.º</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="925">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="926">
-          <source>Accounts payable</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Proveedores</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="927">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="928">
-          <source>Deprecated: A removal date has not been set for this feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: No se ha establecido una fecha de eliminación para esta función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="929">
-          <source>Brazilian Sintegra statement</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Extracto de Sintegra brasileño</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="930">
-          <source>Federal tax statement for ICMS tax</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Extracto del impuesto federal para el impuesto de ICMS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="931">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="932">
-          <source>This statement is no longer applicable in some Brazilian states.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este extracto ya no se aplica en algunos estados brasileños.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="933">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="934">
-          <source>No.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">N. º</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="935">
-          <source>Users can use Generic Electronic reporting tool to configure the statement if required under specific situations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los usuarios pueden utilizar la herramienta de informes electrónica genérica para configurar el extracto si es necesario de acuerdo a situaciones específicas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="936">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="937">
-          <source>Fiscal books</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Libros fiscales</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="938">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="939">
-          <source>Deprecated: A removal date has not been set for this feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: No se ha establecido una fecha de eliminación para esta función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="940">
-          <source>Brazilian SCAN contingency mode for NF-e</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Modo brasileño de contingencia SCAN brasileña para NF-e</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="941">
-          <source>(SCAN) contingency environment is used to generate, export, and import the status of a Nota Fiscal eletrônica (NF-e) when the environment of Secretaria da Fazenda (SEFAZ) is not available.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El entorno de contingencia de (SCAN) se usa para generar, exportar e importar el estado de una Nota fiscal electrónica (NF-e) cuando el entorno de la Secretaría de Hacienda (SEFAZ) no está disponible.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="942">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="943">
-          <source>This method of contingency is no longer applicable in all Brazilian states</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este método de contingencia ya no es un aplicable en todos los estados brasileños</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="944">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="945">
-          <source>No</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">N.º</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="946">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="947">
-          <source>Accounts receivable</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clientes</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="948">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="949">
-          <source>Deprecated: A removal date has not been set for this feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: No se ha establecido una fecha de eliminación para esta función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="950">
-          <source>Business Analyzer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Analizador de negocio</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="951">
-          <source>This mobile application let users review key business metrics.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta aplicación móvil permite a los usuarios revisar métricas de negocio clave.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="952">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="953">
-          <source>This functionality has been replaced by another feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta funcionalidad se ha reemplazado por otra característica.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="954">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="955">
-          <source>The Monitor financial performance content pack for Microsoft Power BI will include key financial metrics that were previously available in Business Analyzer.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El paquete de contenido de supervisión del rendimiento financiero para Microsoft Power BI incluirá métricas financieras clave anteriormente disponibles en Business Analyzer.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="956">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="957">
-          <source>General ledger</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Contabilidad general</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="958">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="959">
-          <source>Deprecated: The use of Business Analyzer has been deprecated.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: El uso de un analizador de negocio está en desuso.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="960">
-          <source>Business statistics</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Estadísticas comerciales</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="961">
-          <source>The setup of business statistics inquiries that can help you analyze the performance of the organization</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La configuración de consultas de estadísticas comerciales que le pueden ayudar a analizar el rendimiento de la organización</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="962">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="963">
-          <source>Legacy approach to business intelligence (BI), low customer usage, and a limited feature set</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Método de herencia para la inteligencia empresarial (BI), poco uso por parte del cliente y un conjunto limitado de características</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="964">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="965">
-          <source>New BI solutions for the current version of Dynamics AX</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nuevas soluciones de inteligencia empresarial para la versión actual de Dynamics AX</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="966">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="967">
-          <source>Procurement and sourcing, Accounts payable, Sales and marketing, Accounts receivable</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Adquisición y abastecimiento, Proveedores, Ventas y marketing, Clientes.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="968">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="969">
-          <source>Removed as of Dynamics AX 7.0.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eliminado a partir de Dynamics AX 7.0.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="970">
-          <source>Change document date function in Invoice approval journal</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cambio de la función de fecha de documento en el diario de aprobación de facturas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="971">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="972">
-          <source>Low usage</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Poco uso</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="973">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="974">
-          <source>Yes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sí.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="975">
-          <source>The document date on the posted vendor transaction can be changed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La fecha de documento en la transacción de proveedor registrada puede cambiarse.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="976">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="977">
-          <source>Accounts payable</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Proveedores</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="978">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="979">
-          <source>Removed as of Dynamics AX 7.0.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eliminado a partir de Dynamics AX 7.0.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="980">
-          <source>ClieOp03 payment format for the Netherlands</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Formato de pago ClieOp03 para Países Bajos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="981">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="982">
-          <source>The format is no longer applicable in the Netherlands, because it has been replaced by SEPA functionality.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El formato ya no es aplicable en los Países bajos, ya que se ha sustituido por la funcionalidad SEPA.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="983">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="984">
-          <source>SEPA payments export</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Exportación de pagos SEPA</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="985">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="986">
-          <source>All modules</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todos los módulos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="987">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="988">
-          <source>Deprecated: A removal date has not been set for this feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: No se ha establecido una fecha de eliminación para esta función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="989">
-          <source>Compliance Center</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Centro de cumplimiento</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="990">
-          <source>The Compliance Center was an Enterprise Portal site for managing the documentation requirements for compliance initiatives that are related to the Sarbanes-Oxley law.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El Centro de cumplimiento era un sitio de Enterprise Portal para gestionar los requisitos de documentación para las iniciativas de conformidad relacionadas con la ley Sarbanes-Oxley.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="991">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="992">
-          <source>Lack of customer usage.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Falta de uso del cliente.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="993">
-          <source>Microsoft SharePoint includes the same capability that was available in the Compliance Center.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft SharePoint incluye la misma capacidad que estaba disponible en el Centro de cumplimiento.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="994">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="995">
-          <source>No</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">N.º</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="996">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="997">
-          <source>Compliance and internal controls</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cumplimiento y controles internos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="998">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="999">
-          <source>Removed as of Dynamics AX 7.0.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eliminado a partir de Dynamics AX 7.0.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1000">
-          <source>Connector for Microsoft Dynamics</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Conector para Microsoft Dynamics</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1001">
-          <source>This tool was used to integrate key data from Microsoft Dynamics CRM to Microsoft Dynamics ERP applications.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta herramienta se usó para integrar datos clave de Microsoft Dynamics CRM en las aplicaciones de Microsoft Dynamics ERP.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1002">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1003">
-          <source>This functionality has been replaced by another feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta funcionalidad se ha reemplazado por otra característica.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1004">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1005">
-          <source>Common data service</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Common data service</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1006">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1007">
-          <source>Connector for Microsoft Dynamics</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Conector para Microsoft Dynamics</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1008">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1009">
-          <source>Removed as of Dynamics AX 7.0.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eliminado a partir de Dynamics AX 7.0.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1010">
-          <source>Container unit and multi dimension on-hand</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Unidad de contenedor y multidimensión disponibles</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1011">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1012">
-          <source>Duplicate functionality</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Funcionalidad duplicada</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1013">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1014">
-          <source>Yes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sí.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1015">
-          <source>Since AX 2012, this functionality has been replaced by the consolidated batch orders feature set.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Desde AX 2012, esta funcionalidad se ha reemplazado por el conjunto de características de pedidos de lotes consolidados.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1016">
-          <source>This feature set includes the consolidated on-hand view.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este conjunto de características incluye la vista disponible consolidada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1017">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1018">
-          <source>Product information management, Production control, Inventory management, Sales and marketing</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gestión de información de productos, Control de producción, Administración de inventario, Ventas y marketing</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1019">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1020">
-          <source>Removed as of Dynamics AX 7.0.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eliminado a partir de Dynamics AX 7.0.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1021">
-          <source>Cue group metadata</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Metadatos de grupo de pilas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1022">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1023">
-          <source>Cue groups were used to display one or more Cues in the FactBox area.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los grupos de pilas se usaban para mostrar una o más pilas en el área de cuadro informativo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1024">
-          <source>There was limited uptake, and there were also performance concerns, because a record change in a parent form caused one query per Cue in the Cue group.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La capacidad era limitada y había también problemas de rendimiento, porque un cambio de registro en un formulario principal generaba una consulta por pila en el grupo de pilas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1025">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1026">
-          <source>No</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">N.º</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1027">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1028">
-          <source>All modules</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todos los módulos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1029">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1030">
-          <source>Removed as of Dynamics AX 7.0.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eliminado a partir de Dynamics AX 7.0.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1031">
-          <source>Cue metadata</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Metadatos de pila</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1032">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1033">
-          <source>Cue metadata was limited to count or sum information.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los metadatos de pila estaban limitados a contar o sumar información.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1034">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1035">
-          <source>Tile metadata was introduced to provide more flexibility for modeling.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los metadatos de icono se introdujeron para proporcionar más flexibilidad para modelar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1036">
-          <source>For example, you can model current counts, navigation, and key performance indicators (KPIs).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Por ejemplo, puede modelar recuentos actuales, navegación e indicadores de rendimiento clave (KPI).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1037">
-          <source>Count tile metadata is the direct replacement of the Cue metadata.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los metadatos de icono de recuento sustituyen directamente a los metadatos de pila.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1038">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1039">
-          <source>All modules</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todos los módulos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1040">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1041">
-          <source>Removed as of Dynamics AX 7.0</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eliminado a partir de Dynamics AX 7.0</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1042">
-          <source>Danish check format</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Formato de cheque danés</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1043">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1044">
-          <source>Support for the Danish check format layout has been discontinued, and the report has been removed from DK localization.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se ha dejado de permitir usar el diseño de formato de cheque danés, y el informe se ha retirado de la localización DK.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1045">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1046">
-          <source>No</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">N.º</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1047">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1048">
-          <source>All modules</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todos los módulos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1049">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1050">
-          <source>Deprecated: A removal date has not been set for this feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: No se ha establecido una fecha de eliminación para esta función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1051">
-          <source>Data partitions</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Particiones de datos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1052">
-          <source>Data partitions provide a logical separation of data in the Microsoft Dynamics AX database.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Las particiones de los datos proporcionan una separación lógica de datos en la base de datos de Microsoft Dynamics AX.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1053">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1054">
-          <source>Data partitions were introduced in Microsoft Dynamics AX 2012 R2 to enable data isolation.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Las particiones de datos se introdujeron en Microsoft Dynamics AX 2012 R2 para habilitar el aislamiento de los datos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1055">
-          <source>In a common scenario, a company has subsidiaries, and the data from one subsidiary should not be visible to another subsidiary, even though both subsidiaries are managed by the same IT department.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En un escenario común, una compañía tiene filiales y los datos de una filial no deben ser visibles para otra, aunque el mismo departamento de TI administre ambas filiales.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1056">
-          <source>However, extra scripts and management overhead throughout the program were required in order to create new partitions and populate them with data, and to back up partition data.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sin embargo, se requerían gastos generales de administración y scripts adicionales en todo el programa para crear nuevas particiones y rellenarlas con datos y hacer copia de seguridad de los datos de partición.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1057">
-          <source>In the cloud, where we have access to platform as a service (PaaS) database services (Microsoft Azure SQL Database), it's much more efficient to use a database as the isolation container than to do isolation in the program.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En la nube, donde tenemos acceso a la plataforma como servicios de base de datos (Base de datos SQL Microsoft Azure) de un servicio (PaaS), es mucho más eficaz utilizar una base de datos como el contenedor de aislamiento para realizar el aislamiento en el programa.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1058">
-          <source>Regardless of whether data partitioning is required for subsidiaries, for multiple tenants, or just for scale, we believe that the scenarios can be handled better through multiple instances of Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Con independencia de si se requiere la partición de datos para filiales, para varios inquilinos o simplemente para escala, creemos que los escenarios se pueden controlar mejor a través de varias instancias de Finance and Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1059">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1060">
-          <source>Customers using data partitions must use multiple instances of Finance and Operations if database level separation is a critical issue.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los clientes que usan particiones de datos deben usar varias instancias de Finance and Operations si la separación de nivel de base de datos es un asunto crítico.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1061">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1062">
-          <source>All modules</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todos los módulos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1063">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1064">
-          <source>Removed as of Dynamics AX 7.0.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eliminado a partir de Dynamics AX 7.0.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1065">
-          <source>Database and file share storage for attachments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Almacenamiento de recursos compartidos de archivo y base de datos para los datos adjuntos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1066">
-          <source>Microsoft Dynamics AX 2012 allowed storage of attachments in the database and in file shares.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics AX 2012 permitía el almacenamiento de datos adjuntos en los recursos compartidos de archivos y la base de datos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1067">
-          <source>Both of those options are no longer supported.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ambas opciones ya no se admiten.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1068">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1069">
-          <source>Files share storage is no longer supported because cloud-hosted environments cannot communicate with local file shares.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El almacenamiento de recurso compartido de archivos ya no se admite ya que los entornos hospedados en la nube no pueden comunicarse con los recursos compartidos de archivos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1070">
-          <source>Database storage has been deprecated in favor of Azure Blob storage.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El almacenamiento de base de datos se ha dejado de utilizar en favor del almacenamiento de blobs de Azure.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1071">
-          <source>Azure Blob storage is equivalent to storage in the database, as documents can only be accessed through Dynamics 365 for Finance and Operations client forms.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El almacenamiento de blobs de Azure es equivalente al almacenamiento en la base de datos, ya que solo se puede tener acceso a los documentos a través de formularios cliente de Dynamics 365 for Finance and Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1072">
-          <source>This provides the added benefit of providing storage that doesn't negatively affect the performance of the database.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esto ofrece la ventaja adicional de proporcionar almacenamiento que no afecte negativamente al rendimiento de la base de datos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1073">
-          <source>Blob storage is the default storage mechanism for Document Management and works immediately.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El almacenamiento de blobs es el mecanismo predeterminado de almacenamiento para la gestión de documentos y funciona inmediatamente.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1074">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1075">
-          <source>Database storage has been deprecated in favor of Azure Blob storage.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El almacenamiento de base de datos se ha dejado de utilizar en favor del almacenamiento de blobs de Azure.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1076">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1077">
-          <source>All modules</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todos los módulos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1078">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1079">
-          <source>Removed as of Dynamics AX 7.0.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eliminado a partir de Dynamics AX 7.0.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1080">
-          <source>Delimitation</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Delimitación</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1081">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1082">
-          <source>No use of the functionality was found.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No se ha encontrado ningún uso de la función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1083">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1084">
-          <source>No</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">N.º</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1085">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1086">
-          <source>Time and attendance</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tiempo y asistencia</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1087">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1088">
-          <source>Removed as of Dynamics AX 7.0.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eliminado a partir de Dynamics AX 7.0.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1089">
-          <source>Desktop client</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliente de escritorio</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1090">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1091">
-          <source>The Dynamics AX client experience has been redesigned to improve usability across multiple platforms and devices.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La experiencia de cliente de Dynamics AX se ha rediseñado para mejorar la capacidad de uso en varias plataformas y dispositivos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1092">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1093">
-          <source>The new web client is based on the desktop Form metadata and programming model that have been modified to provide a rich web platform.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El nuevo cliente web se basa en los metadatos de formulario de escritorio y el modelo de programación que se han modificado para proporcionar una plataforma web enriquecida.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1094">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1095">
-          <source>All modules</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todos los módulos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1096">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1097">
-          <source>Removed as of Dynamics AX 7.0.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eliminado a partir de Dynamics AX 7.0.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1098">
-          <source>Direct database connection</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Conexión con base de datos directa</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1099">
-          <source>In Dynamics AX 2012 R3, Retail Modern POS could connect directly to the Channel DB in similar fashion to Enterprise POS.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En Dynamics AX 2012 R3, Retail Modern POS podía conectarse directamente a la base de datos de canales de forma parecida a la de Enterprise POS.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1100">
-          <source>This was in addition to the standard communication method of Retail Modern POS communicating through Retail Server.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esto se añadía al método de comunicación estándar en que Retail Modern POS se comunicaba mediante Retail Server.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1101">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1102">
-          <source>Direct database connectivity required lower security protocols and was primarily used to achieve the highest levels of performance.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La conectividad directa de la base de datos requería protocolos de seguridad inferiores y se usaba principalmente para alcanzar niveles de rendimiento más altos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1103">
-          <source>Due to the performance and security enhancements that have occurred in Finance and Operations, this functionality now causes more issues than it solves.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Debido a las mejoras del rendimiento y de seguridad que se han producido en Finance and Operations, esta funcionalidad ahora está dando más problemas que soluciones.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1104">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1105">
-          <source>No.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">N. º</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1106">
-          <source>Only standard Retail Server communication is now supported.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ahora solo se da soporte a la comunicación de Retail Server estándar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1107">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1108">
-          <source>Channel DB/Retail Modern POS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Base de datos de canales/Retail Modern POS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1109">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1110">
-          <source>Removed as of Dynamics AX 7.0.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eliminado a partir de Dynamics AX 7.0.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1111">
-          <source>Dutch SWIFT MT940</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">SWIFT MT940 holandés</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1112">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1113">
-          <source>Generic functionality is now used instead of localized functionality.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ahora se utiliza la función genérica en lugar de la función localizada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1114">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1115">
-          <source>Yes, this functionality has been replaced by Advanced bank reconciliation functionality.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sí, esta función se ha reemplazado por la funcionalidad avanzada de conciliación bancaria.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1116">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1117">
-          <source>All modules</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todos los módulos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1118">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1119">
-          <source>Deprecated: A removal date has not been set for this feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: No se ha establecido una fecha de eliminación para esta función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1120">
-          <source>eBilanz (XBRL for Germany)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">eBilanz (XBRL para Alemania)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1121">
-          <source>This functionality provided eXtensible Business Reporting Language (XBRL) output that is intended specifically for the German eBilanz taxonomy.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta funcionalidad proporcionaba salida en el lenguaje eXtensible Business Reporting Language (XBRL) pensada específicamente para la taxonomía alemana eBilanz.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1122">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1123">
-          <source>Lack of customer usage</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Falta de uso del cliente</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1124">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1125">
-          <source>This feature hasn't been replaced by another feature, but multiple specialized XBRL packages that provide rich XBRL functionality are available for the German market.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta característica no se ha sustituido por otra, pero hay disponibles varios paquetes XBRL especializados que proporcionan funcionalidad XBRL enriquecida para el mercado alemán.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1126">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1127">
-          <source>Management Reporter</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Management Reporter</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1128">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1129">
-          <source>Deprecated: A removal date has not been set for this feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: No se ha establecido una fecha de eliminación para esta función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1130">
-          <source>Enterprise Portal client</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cliente de Enterprise Portal</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1131">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1132">
-          <source>A single client platform has been provided.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se ha proporcionado una sola plataforma de cliente.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1133">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1134">
-          <source>The new web client is based on the desktop form metadata and programming model that have been modified to provide a rich web platform.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El nuevo cliente web se basa en los metadatos del formulario de escritorio y el modelo de programación que se han modificado para proporcionar una plataforma web enriquecida.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1135">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1136">
-          <source>All modules</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todos los módulos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1137">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1138">
-          <source>Removed as of Dynamics AX 7.0.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eliminado a partir de Dynamics AX 7.0.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1139">
-          <source>Environmental sustainability</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sustentabilidad ambiental</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1140">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1141">
-          <source>Low customer usage and a limited feature set</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Poco uso de cliente y conjunto limitado de funciones</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1142">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1143">
-          <source>No</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">N.º</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1144">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1145">
-          <source>Compliance and internal controls, Accounts payable</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cumplimiento y controles internos, Proveedores</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1146">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1147">
-          <source>Removed as of Dynamics AX 7.0.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eliminado a partir de Dynamics AX 7.0.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1148">
-          <source>Form ActiveX and Managed Host controls</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Controles de formulario de host administrados y ActiveX</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1149">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1150">
-          <source>The ActiveX and Managed Host controls are based on the deprecated desktop client.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los controles ActiveX y de host administrados se basan en el cliente de escritorio obsoleto.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1151">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1152">
-          <source>The extensible control framework supports building new controls that are based on HTML, CSS, and JavaScript, and is a first-class control in the Microsoft Visual Studio Tooling environment.</source><target logoport:matchpercent="94" state="translated" state-qualifier="fuzzy-match">El marco de controles extensibles admite la creación de nuevos controles que se basan en HTML, CSS y Javascript, y es un control de primera clase en el entorno de Microsoft Visual Studio Tooling.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1153">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1154">
-          <source>All modules</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todos los módulos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1155">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1156">
-          <source>Removed as of Dynamics AX 7.0.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eliminado a partir de Dynamics AX 7.0.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1157">
-          <source>Generate prenotes by using a batch</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Generación de prenotas mediante un lote</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1158">
-          <source>Prenote generation can't be done by using a batch, but it can still be done by a user.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La generación de prenotas no se puede hacer mediante un lote pero sí la puede realizar un usuario.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1159">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1160">
-          <source>No form exists to persist and display the resulting prenote file when it's generated by using a batch.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No hay manera de persistir y mostrar el archivo de prenota resultante cuando se genera mediante un lote.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1161">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1162">
-          <source>Prenotes can still be generated, and the user has control over the location where the file is saved.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aún se pueden generar prenotas y el usuario tiene control sobre la ubicación en la que se guarda el archivo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1163">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1164">
-          <source>Accounts payable, Accounts receivable, Cash and bank management</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clientes, Proveedores, Gestión de efectivo y bancos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1165">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1166">
-          <source>Removed as of AX 7.0.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eliminado desde AX 7.0.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1167">
-          <source>German DTAUS payment export and account statement import (totals and transactions)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Exportación de pagos DTAUS alemanes e importación de extractos de cuentas (totales y transacciones)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1168">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1169">
-          <source>The format is no longer applicable in Germany, because it has been replaced by Single Euro Payments Area (SEPA) functionality.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El formato ya no es aplicable en Alemania, ya que se ha sustituido por la funcionalidad SEPA (zona única de pagos en euros).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1170">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1171">
-          <source>Yes, this functionality has been replaced by SEPA payment export and advanced bank reconciliation functionality for importing account statements.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sí, esta funcionalidad se ha reemplazado por la funcionalidad de exportación de pagos SEPA y conciliación bancaria avanzada para importar extractos de cuenta.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1172">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1173">
-          <source>All modules</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todos los módulos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1174">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1175">
-          <source>Deprecated: A removal date has not been set for this feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: No se ha establecido una fecha de eliminación para esta función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1176">
-          <source>German DTAZV payment format</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Formato de pago DTAZV para Alemania</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1177">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1178">
-          <source>The format is no longer applicable in Germany, because it has been replaced by SEPA functionality.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El formato ya no es aplicable en Alemania, ya que se ha sustituido por la funcionalidad SEPA.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1179">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1180">
-          <source>SEPA payments export</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Exportación de pagos SEPA</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1181">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1182">
-          <source>All modules</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todos los módulos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1183">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1184">
-          <source>Deprecated: A removal date has not been set for this feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: No se ha establecido una fecha de eliminación para esta función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1185">
-          <source>German MT940 import</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Importación MT940 alemana</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1186">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1187">
-          <source>Generic functionality is now used instead of localized functionality.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ahora se utiliza la función genérica en lugar de la función localizada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1188">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1189">
-          <source>Yes, this functionality has been replaced by Advanced bank reconciliation functionality.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sí, esta función se ha reemplazado por la funcionalidad avanzada de conciliación bancaria.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1190">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1191">
-          <source>All modules</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todos los módulos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1192">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1193">
-          <source>Deprecated: A removal date has not been set for this feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: No se ha establecido una fecha de eliminación para esta función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1194">
-          <source>German XML EU Sales list</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lista de ventas UE XML para Alemania</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1195">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1196">
-          <source>The XML format for German EU Sales List reporting is no longer supported.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ya no se admite el formato XML para los informes de Lista de ventas de la UE para Alemania.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1197">
-          <source>Only the ELMA5 text file format can be used to submit the EU Sales List report to the German Tax Office.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Solo se puede usar el formato de archivo de texto ELMA5 para enviar el informe de la Lista de ventas de la UE a la delegación de hacienda alemana.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1198">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1199">
-          <source>No</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">N.º</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1200">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1201">
-          <source>Tax</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Impuesto</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1202">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1203">
-          <source>Deprecated: A removal date has not been set for this feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: No se ha establecido una fecha de eliminación para esta función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1204">
-          <source>GL SSRS reports</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Informes GL SSRS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1205">
-          <source>Reports that include the following menu items have been removed: <bpt id="p1">**</bpt>Summary trial balance<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Detailed trial balance<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Chart of accounts<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Audit trail<ept id="p4">**</ept>, <bpt id="p5">**</bpt>Balances<ept id="p5">**</ept>, and <bpt id="p6">**</bpt>Balance list<ept id="p6">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se han retirado los informes que incluyen los siguientes elementos de menú: <bpt id="p1">**</bpt>Resumen de saldo de comprobación<ept id="p1">**</ept>, <bpt id="p2">**</bpt>Saldo de comprobación detallado<ept id="p2">**</ept>, <bpt id="p3">**</bpt>Plan contable<ept id="p3">**</ept>, <bpt id="p4">**</bpt>Traza de auditoría<ept id="p4">**</ept>, <bpt id="p5">**</bpt>Saldos<ept id="p5">**</ept> y <bpt id="p6">**</bpt>Lista de saldo<ept id="p6">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1206">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1207">
-          <source>Financial Microsoft SQL Server Reporting Services (SSRS) reports have been replaced by Management Reporter capabilities and default reports.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los informes de Financial Microsoft SQL Server Reporting Services (SSRS) han sido reemplazados con capacidades de Management Reporter e informes predeterminados.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1208">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1209">
-          <source>Management Reporter (labeled <bpt id="p1">**</bpt>Financial reporting<ept id="p1">**</ept> in the current version of Dynamics AX)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Management Reporter (etiquetado <bpt id="p1">**</bpt>Informes financieros<ept id="p1">**</ept> en la versión actual de Dynamics AX)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1210">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1211">
-          <source>General ledger</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Contabilidad general</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1212">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1213">
-          <source>Removed as of Dynamics AX 7.0.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eliminado a partir de Dynamics AX 7.0.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1214">
-          <source>InfoPart and FormPart metadata</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Metadatos de InfoPart y FormPart</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1215">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1216">
-          <source>InfoPart and FormPart metadata enabled the creation of FactBoxes for two different clients.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los metadatos de InfoPart y de FormPart permitieron la creación de cuadros informativos para dos clientes diferentes.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1217">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1218">
-          <source>InfoPart metadata, which was a simplified form definition, is converted into a Form by upgrade tooling.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los metadatos de InfoPart, que eran una definición simplificada de formulario, se han convertido a un formulario mediante herramientas de actualización.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1219">
-          <source>FormPart metadata, which referenced a Form, is replaced by a more direct reference that is created by upgrade tooling.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los metadatos de FormPart, con un formulario al que se hace referencia, se han sustituido por una referencia más directa creada mediante herramientas de actualización.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1220">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1221">
-          <source>All modules</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todos los módulos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1222">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1223">
-          <source>Removed as of Dynamics AX 7.0.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eliminado a partir de Dynamics AX 7.0.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1224">
-          <source>Main account list page</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Página de lista Cuenta principal</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1225">
-          <source>A list of accounts for the legal entity and related balance information</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Una lista de cuentas para la entidad jurídica y la información relacionada de saldo</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1226">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1227">
-          <source>Balance information is available on the <bpt id="p1">**</bpt>Trial balance<ept id="p1">**</ept> list page by account and dimension.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La información del saldo está disponible en la página de lista <bpt id="p1">**</bpt>Saldo de comprobación<ept id="p1">**</ept> por cuenta y dimensión.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1228">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1229">
-          <source><bpt id="p1">**</bpt>Main accounts<ept id="p1">**</ept> contains the same list of accounts that the <bpt id="p2">**</bpt>Main account<ept id="p2">**</ept> list page contained.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Cuentas principales<ept id="p1">**</ept> contiene la misma lista de cuentas que contenía la página de lista <bpt id="p2">**</bpt>Cuenta principal<ept id="p2">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1230">
-          <source>The grid view in <bpt id="p1">**</bpt>Main accounts<ept id="p1">**</ept> also shows an even smaller, grid-like view.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La vista de cuadrícula en <bpt id="p1">**</bpt>Cuentas principales<ept id="p1">**</ept> también muestra una vista más pequeña tipo cuadrícula.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1231">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1232">
-          <source>General ledger</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Contabilidad general</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1233">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1234">
-          <source>Removed as of Dynamics AX 7.0.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eliminado a partir de Dynamics AX 7.0.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1235">
-          <source>Malaysia and Singapore bank cash flow report</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Informe de flujo de efectivo bancario de Malasia y Singapur</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1236">
-          <source>This feature let the user print a cash flow report that shows transactions and details of the cash inflows and outflows for a specific date range for selected bank accounts.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta función permite al usuario imprimir un informe de flujo de efectivo que muestra transacciones y detalles de flujos de entrada y de salida de efectivo para un intervalo específico de fechas para las cuentas bancarias seleccionadas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1237">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1238">
-          <source>The same information can be obtained from the Inquiry bank transaction.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La misma información se puede obtener desde la transacción bancaria de consulta.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1239">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1240">
-          <source>The Inquiry bank transaction</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La transacción bancaria de consulta</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1241">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1242">
-          <source>Cash and bank management</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gestión de efectivo y bancos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1243">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1244">
-          <source>Deprecated: A removal date has not been set for this feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: No se ha establecido una fecha de eliminación para esta función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1245">
-          <source>Mexican CFD electronic invoice</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Factura electrónica CFD mexicana</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1246">
-          <source>This feature enabled the generation of Mexican electronic invoices by using the Comprobante Fiscal Digital (CFD) method, where the company signs the invoice by requesting the related authorization from the government.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta función habilitó la generación de facturas electrónicas mexicanas mediante el método Comprobante Fiscal Digital (CFD), donde la empresa firma la factura solicitando el permiso correspondiente del gobierno.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1247">
-          <source>This feature also provides a monthly report that includes all electronics invoices that were issued in the period.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta función también proporciona un informe mensual con todas las facturas electrónicas emitidas en el período.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1248">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1249">
-          <source>The method is no longer applicable.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El método ya no es aplicable.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1250">
-          <source>The generation of electronic invoices by using the CFD method was deprecated by the tax authorities and replaced by the Comprobante Fiscal Digital a través de Internet (CFDI) method, where the signing is delegated to the third-party provider (PAC).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La generación de facturas electrónicas usando el método CFD ha sido derogada por las autoridades fiscales y se ha sustituido por el Comprobante Fiscal Digital a través de Internet (CFDI), donde la firma se delega al tercer proveedor (PAC).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1251">
-          <source>The monthly report has been removed, and an inquiry option lets users inquire about historical transactions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se ha quitado el informe mensual, y una opción de consulta permite a los usuarios consultar transacciones históricas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1252">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1253">
-          <source>No</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">N.º</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1254">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1255">
-          <source>Account receivables, Project</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Clientes, Proyecto</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1256">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1257">
-          <source>Deprecated: A removal date has not been set for this feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: No se ha establecido una fecha de eliminación para esta función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1258">
-          <source>Mexico realized and unrealized VAT</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">IVA realizado y sin realizar en México</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1259">
-          <source>Microsoft Dynamics AX 2012 managed unrealized value-added tax (VAT) by using Mexico-specific functionality for unrealized tax.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft Dynamics AX 2012 gestionaba el impuesto sobre el valor añadido (IVA) no realizado mediante la funcionalidad específica para México de impuestos no realizados.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1260">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1261">
-          <source>Duplicate functionality</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Funcionalidad duplicada</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1262">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1263">
-          <source>Yes, this functionality has been replaced by standard conditional sales tax functionality that is provided by Core.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sí, esta funcionalidad se ha reemplazado por la funcionalidad estándar de impuestos condicional proporcionada por Core.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1264">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1265">
-          <source>Tax</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Impuesto</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1266">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1267">
-          <source>Deprecated: A removal date has not been set for this feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En desuso: No se ha establecido una fecha de eliminación para esta función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1268">
-          <source>Microsoft Outlook integration</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Integración de Microsoft Outlook</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1269">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1270">
-          <source>This functionality has been replaced by Microsoft Exchange Server integration.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta funcionalidad se ha reemplazado por la integración Microsoft Exchange Server.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1271">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1272">
-          <source>Yes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sí</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1273">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1274">
-          <source>Sales and marketing</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sales and Marketing</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1275">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1276">
-          <source>Removed as of Dynamics AX 7.0.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eliminado a partir de Dynamics AX 7.0.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1277">
-          <source>Private blocking of inventory and warehouse management journals</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bloqueo privado de los diarios de gestión de almacenes e inventarios</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1278">
-          <source>The inventory and warehouse journals no longer support the ability to mark a journal as private for a selected user.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los diarios de almacén e inventario ya no admiten la opción de marcar un diario como privado para un usuario seleccionado.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1279">
-          <source>Only the process of blocking journals as private for user groups and blocking during editing is supported.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Solo se admite el proceso de bloqueo de diarios como privado para grupos de usuarios y bloqueo durante la edición.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1280">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1281">
-          <source>No use of the functionality was found.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No se ha encontrado ningún uso de la función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1282">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1283">
-          <source>No</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">N.º</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1284">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1285">
-          <source>Inventory management</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gestión de inventarios</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1286">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1287">
-          <source>Removed as of Dynamics AX 7.0.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eliminado a partir de Dynamics AX 7.0.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1288">
-          <source>Product builder</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Configurador de productos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1289">
-          <source>Product builder was used to dynamically configure items from a sales order, purchase order, production order, sales quotation, project quotation, or item requirement.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El configurador de productos se usaba para configurar dinámicamente artículos desde un pedido de ventas, presupuesto de ventas, pedido de compra, orden de producción, presupuesto de venta, presupuesto del proyecto o petición de artículo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1290">
-          <source>Based on a product model that had modeling variables, the user could select values to meet the customer requirements and get a unique product variant that had a BOM and route.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De acuerdo con un modelo de producto que tenía variables de modelo, el usuario podía seleccionar valores para cumplir con los requisitos del cliente y obtener una variante del producto única con una lista de materiales y una ruta.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1291">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1292">
-          <source>Product builder exposed X++ code to end users and isn't supported in the current version of Dynamics AX.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El configurador de productos exponía el código X++ a los usuarios finales y no se admite en la versión actual de Dynamics AX.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1293">
-          <source>It has been removed to avoid duplicate maintenance efforts on overlapping, sizeable codebases.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se ha retirado para evitar esfuerzos duplicados en bases de código superpuestas y cuantiosas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1294">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1295">
-          <source>Yes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sí.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1296">
-          <source>The constraint-based configuration was introduced in Dynamics AX 2012 where the depreciation of Product builder in future versions was already announced.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La configuración basada en restricciones se introdujo en Dynamics AX 2012 donde ya se anunciaba la depreciación del generador de productos en futuras versiones.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1297">
-          <source>The constraint-based configuration technology is selected on the product masters to enable the configuration.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La tecnología de configuración basada restricciones se selecciona en los productos maestros para habilitar la configuración.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1298">
-          <source>To learn more, see <bpt id="p1">[</bpt>Build a product configuration model<ept id="p1">](../../supply-chain/pim/build-product-configuration-model.md)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para obtener más información, consulte <bpt id="p1">[</bpt>Crear un modelo de configuración de productos<ept id="p1">](../../supply-chain/pim/build-product-configuration-model.md)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1299">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1300">
-          <source>Product information management, Sales and marketing</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gestión de información de productos, Ventas y marketing</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1301">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1302">
-          <source>Removed as of Dynamics AX 7.0.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eliminado a partir de Dynamics AX 7.0.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1303">
-          <source>Production Floor app</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aplicación de planta de producción</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1304">
-          <source>This is the app for tablet devices running Windows 8.1 RT and Windows 8.1 Pro.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta es la aplicación de los dispositivos tabletas que ejecutan Windows 8.1 RT y Windows 8.1 Pro.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1305">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1306">
-          <source>With the change to a web-based client, it is possible to deliver similar functionality through the native Dynamics AX 7.0 client.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Con el cambio a un cliente basado en la red, es posible entregar funciones similares a través del cliente nativo de Dynamics AX 7.0.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1307">
-          <source>The Job Card Device provides a production floor user interface that is optimized for touch and tablet form factors.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El dispositivo de tarjeta de trabajo proporciona una interfaz de usuario de planta de la producción que se optimiza para los factores de forma de contacto y tabletas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1308">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1309">
-          <source>Yes.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sí.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1310">
-          <source>The Job Card Device, which is a native part of Dynamics AX 7.0.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El dispositivo de la tarjeta de trabajo, que es una parte nativa de Dynamics AX 7.0.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1311">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1312">
-          <source>Production control</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Control de producción</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1313">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1314">
-          <source>Deprecated: A removal date from the Microsoft store has not yet been set for this feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Desusado: Una fecha de eliminación de la tienda de Microsoft todavía no se ha establecido para esta función.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1315">
-          <source>Rename product dimension</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Asignar un nuevo nombre a la dimensión del producto</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1316">
-          <source>This feature let you change the name of one of the three standard product dimensions (size, color, or style) to a name that better suited your business requirements.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta función le permite cambiar el nombre de una de las tres dimensiones de producto estándar (tamaño, color o estilo) a un nombre que cumpla mejor con sus requisitos empresariales.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1317">
-          <source>Renaming included all the labels where the product dimension name was used.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El cambio de nombre incluía todas las etiquetas donde se aislaba el nombre de la dimensión de producto.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1318">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1319">
-          <source>The current version of Dynamics AX doesn't support label changes at run time.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La versión actual de Dynamics AX no admite cambios de etiqueta en tiempo de ejecución.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1320">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1321">
-          <source>No</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">N.º</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1322">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1323">
-          <source>Product information management</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gestión de información de productos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1324">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1325">
-          <source>Removed as of Dynamics AX 7.0.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eliminado a partir de Dynamics AX 7.0.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1326">
-          <source>Retail Server connectivity using HTTP</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Conectividad de Retail Server mediante HTTP</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1327">
-          <source>In Dynamics AX 2012 R3, the Retail Server could function using HTTP communication (non-secured).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">En Dynamics AX 2012 R3, Retail Server podía trabajar usando la comunicación HTTP (sin seguridad).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1328">
-          <source>This was in addition to the standard communication using HTTPS.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esto estaba además de la comunicación estándar mediante HTTPS.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1329">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1330">
-          <source>Due to new security requirements, only secured communication using TLS 1.2 (or above, as available) is now supported.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Debido a los nuevos requisitos de seguridad, ahora solo se admite la comunicación segura mediante TLS 1.2 (o un número superior, si está disponible).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1331">
-          <source>The self-service installer will automatically configure the computer for this communication.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El instalador de autoservicio configurará automáticamente el equipo para esta comunicación.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1332">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1333">
-          <source>No.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">N. º</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1334">
-          <source>Only standard HTTPS communication is now supported.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ahora solo se da soporte a la comunicación de HTTPS estándar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1335">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1336">
-          <source>Retail Server</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail Server</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1337">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1338">
-          <source>Removed as of Dynamics AX 7.0.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eliminado a partir de Dynamics AX 7.0.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1339">
-          <source>Role Center pages</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Páginas de áreas de trabajo</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1340">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1341">
-          <source>Role Center pages were built on the deprecated Enterprise Portal platform, which has been replaced by the new web client platform in the current version of Dynamics AX.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Las páginas de área de trabajo se crearon en la plataforma de Enterprise Portal obsoleta, la cual se ha actualizado mediante la nueva plataforma de cliente web en la versión actual de Dynamics AX.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1342">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1343">
-          <source>The new Workspace form pattern provides users with a process-centered design that provides easy access to commonly used tasks within that process.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El nuevo patrón del formulario de espacio de trabajo proporciona a los usuarios un diseño centrado en el proceso de fácil acceso a las tareas de uso general dentro de dicho proceso.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1344">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1345">
-          <source>All modules</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todos los módulos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1346">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1347">
-          <source>Removed as of Dynamics AX 7.0</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eliminado a partir de Dynamics AX 7.0</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1348">
-          <source>Sales tax jurisdictions</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jurisdicciones de impuestos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1349">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1350">
-          <source>Low customer usage and a limited feature set</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Poco uso de cliente y conjunto limitado de funciones</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1351">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1352">
-          <source>No</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">N.º</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1353">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1354">
-          <source>US sales tax</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Impuestos de EE.UU</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1355">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1356">
-          <source>Removed as of Dynamics AX 7.0.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eliminado a partir de Dynamics AX 7.0.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1357">
-          <source>Sites Services</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sites Service</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1358">
-          <source>Sites Services let you build websites that extend your business processes to the Internet without IT support.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Servicios de sitios le permite crear sitios web que amplía sus procesos empresariales a Internet sin el soporte técnico de TI.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1359">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1360">
-          <source>The Microsoft Azure infrastructure that is used by Dynamics AX has new capabilities that can be used instead (for example, Azure sites).</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La infraestructura de Microsoft Azure que usa Dynamics AX tiene nuevas capacidades que se pueden usar en su lugar (por ejemplo, sitios de Azure).</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1361">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1362">
-          <source>No</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">N.º</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1363">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1364">
-          <source>HR recruiting, Case management, Request for quotes, Vendor registration, Collaborative workspaces for opportunities and campaigns</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Reclutamiento de recursos humanos, gestión de casos, solicitudes de presupuesto, registro de proveedores, áreas de trabajo colaborativas para oportunidades y campañas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1365">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1366">
-          <source>Removed as of Dynamics AX 7.0.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eliminado a partir de Dynamics AX 7.0.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1367">
-          <source>SSAS demand forecasting strategy</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Estrategia de previsión de la demanda de SSAS</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1368">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1369">
-          <source>The design of the feature cannot be supported in the new cloud architecture.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El diseño de la característica no se admite en la nueva arquitectura de la nube.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1370">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1371">
-          <source>Azure Machine Learning demand forecasting strategy</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Estrategia de previsión de demanda de Aprendizaje automático de Azure</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1372">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1373">
-          <source>Master planning</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Planificación maestra</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1374">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1375">
-          <source>Removed as of Dynamics AX 7.0.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eliminado a partir de Dynamics AX 7.0.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1376">
-          <source>Vendor invoice pool excluding posting details</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ver detalles de grupo de facturas de proveedor excluidas del registro</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1377">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1378">
-          <source>Low usage.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Poco uso.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1379">
-          <source>This functionality has been replaced by the Invoice journal that has workflow functionality.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta funcionalidad se ha reemplazado por el Diario de facturas que tiene la funcionalidad del flujo de trabajo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1380">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1381">
-          <source>Workflow capabilities of the Invoice journal.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Capacidades del flujo de trabajo del Diario de facturas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1382">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1383">
-          <source>Accounts payable</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Proveedores</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1384">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1385">
-          <source>Removed as of Dynamics AX 7.0.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eliminado a partir de Dynamics AX 7.0.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1386">
-          <source>Virtual company accounts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cuentas de empresa virtuales</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1387">
-          <source>The virtual companies feature is no longer supported in Dynamics AX.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La característica de empresas virtuales ya no se admite en Dynamics AX.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1388">
-          <source>The virtual companies feature let users set up tables that could be shared by a set of companies.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La característica de empresas virtuales permite a los usuarios configurar tablas que se puedan compartidas por un conjunto de empresas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1389">
-          <source>For a description of the feature, see <bpt id="p1">[</bpt>Company accounts and Virtual company accounts<ept id="p1">](https://msdn.microsoft.com/en-us/library/aa834382(v=ax.10).aspx)</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Puede obtener una descripción de la función, vea <bpt id="p1">[</bpt>Cuentas de empresa y cuentas de empresa virtuales<ept id="p1">](https://msdn.microsoft.com/en-us/library/aa834382(v=ax.10).aspx)</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1390">
-          <source>The feature works by grouping tables into collections that are assigned to virtual companies, which are groups of existing “real” companies.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La función trabaja agrupando tablas en recopilaciones que se asignan a empresas virtuales, que son grupos de empresas “reales” existentes.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1391">
-          <source>Queries are created so that all the companies in the virtual company can access the data in the tables of the associated table collections.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se crean consultas de modo que todas las empresas de la empresa virtual puedan obtener acceso a los datos de las tablas de las recopilaciones de tablas asociadas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1392">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1393">
-          <source>- Virtual companies must be set up before data is stored in the tables.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">- Las empresas virtuales deben configurarse antes de que los datos se almacenen en las tablas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1394">
-          <source>Retrofitting virtual companies onto an existing implementation is very difficult.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La retroadaptación de las empresas virtuales en la implementación existente es muy difícil.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1395">
-          <source>- Because there has been so much data normalization in the current version of Dynamics AX, it has become difficult to know what to add to the table collections.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">- Dado que se han normalizado tantos datos en la versión actual de Dynamics AX, se ha hecho difícil saber qué agregar a las colecciones de tablas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1396">
-          <source>For example, it's difficult to know which tables to share.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Por ejemplo, es difícil saber qué tablas compartir.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1397">
-          <source>All the tables referenced from tables that are in a virtual company must also added.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todas las tablas a las que se hace referencia desde las tablas en una empresa virtual también se deben agregar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1398">
-          <source>Because of table normalization, even simple master data that is spread across multiple tables must be part of the virtual company.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Debido a la normalización de la tabla, incluso los datos maestros sencillos que se extienden en múltiples tablas deben formar parte de la empresa virtual.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1399">
-          <source>Any mistake that is made here will cause functional issues.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cualquier error que se realice producirá problemas funcionales.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1400">
-          <source>- When a table is part of a virtual company, it loses information about the origin of the data, and only the virtual company is recorded.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">- Cuando una tabla forma parte de una empresa virtual, pierde la información acerca del origen de los datos y solo se registra la empresa virtual.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1401">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1402">
-          <source>Global tables can be used to make tables accessible from all companies.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se pueden usar tablas globales para que las tablas sean accesibles desde todas las empresas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1403">
-          <source>Currently, there is no replacement.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Actualmente no hay ninguna sustitución.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1404">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1405">
-          <source>All modules</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todos los módulos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1406">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1407">
-          <source>Removed as of Dynamics AX 7.0.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eliminado a partir de Dynamics AX 7.0.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1408">
-          <source>Windows 8 tablet app</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aplicación para tabletas con Windows 8</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1409">
-          <source>The Windows 8 tablet app provided functionality for expense entry and approval.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La aplicación para tabletas con Windows 8 ofrecía funcionalidad para la entrada y la aprobación de gastos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1410">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1411">
-          <source>Finance and Operations is compatible with tablets.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Finance and Operations es compatible con las tabletas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1412">
-          <source>The tablet app is no longer required.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La aplicación para tabletas ya no se requiere.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1413">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1414">
-          <source>No.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">N. º</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1415">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1416">
-          <source>Expense management</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gestión de gastos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1417">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1418">
-          <source>Removed: This functionality is only available for Dynamics AX 2012 R3.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Quitado: Esta funcionalidad sólo está disponible para Dynamics AX 2012 R3.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1419">
-          <source>Workplanner</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Planificador de trabajo</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1420">
-          <source><bpt id="p1">**</bpt>Reason for deprecation/removal<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Motivo de la depreciación/eliminación<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1421">
-          <source>Low usage</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Poco uso</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1422">
-          <source><bpt id="p1">**</bpt>Replaced by another feature?<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>¿Reemplazado por otra característica?<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1423">
-          <source>No, but the <bpt id="p1">**</bpt>Profile relation<ept id="p1">**</ept> page, which is opened from the <bpt id="p2">**</bpt>Profile groups<ept id="p2">**</ept> page, supports the same business scenario as the deprecated <bpt id="p3">**</bpt>Workplanner<ept id="p3">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No, pero la página <bpt id="p1">**</bpt>Relación de perfiles<ept id="p1">**</ept>, que se abre desde la página <bpt id="p2">**</bpt>Grupos de perfiles<ept id="p2">**</ept>, admite el mismo escenario empresarial que la página <bpt id="p3">**</bpt>Planificador de trabajo<ept id="p3">**</ept> desaprobada.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1424">
-          <source><bpt id="p1">**</bpt>Product areas affected<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Áreas de producto afectadas<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1425">
-          <source>Time and attendance</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tiempo y asistencia</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1426">
-          <source><bpt id="p1">**</bpt>Status<ept id="p1">**</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">**</bpt>Estado<ept id="p1">**</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1427">
-          <source>The code has not been removed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No se ha quitado el código.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1428">
-          <source>However, the form, JmgWorkPlanner, was not migrated.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sin embargo, el formulario, JmgWorkPlanner, no se ha migrado.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1429">
-          <source>X++ financial statements</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Informes financieros de X++</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1430">
-          <source><bpt id="p1">&lt;strong&gt;</bpt>Reason for deprecation/removal<ept id="p1">&lt;/strong&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Motivo de la depreciación/eliminación<ept id="p1">&lt;/strong&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1431">
-          <source>This functionality has been replaced by another feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta funcionalidad se ha reemplazado por otra característica.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1432">
-          <source><bpt id="p1">&lt;strong&gt;</bpt>Replaced by another feature?<ept id="p1">&lt;/strong&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>¿Reemplazado por otra característica?<ept id="p1">&lt;/strong&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1433">
-          <source>Management Reporter (labeled <bpt id="p1">&lt;strong&gt;</bpt>Financial reporting<ept id="p1">&lt;/strong&gt;</ept> in the current version of Dynamics AX)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Management Reporter (etiquetado <bpt id="p1">&lt;strong&gt;</bpt>Informes financieros<ept id="p1">&lt;/strong&gt;</ept> en la versión actual de Dynamics AX)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1434">
-          <source><bpt id="p1">&lt;strong&gt;</bpt>Product areas affected<ept id="p1">&lt;/strong&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Áreas de producto afectadas<ept id="p1">&lt;/strong&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1435">
-          <source>General ledger</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Contabilidad general</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1436">
-          <source><bpt id="p1">&lt;strong&gt;</bpt>Status<ept id="p1">&lt;/strong&gt;</ept></source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"><bpt id="p1">&lt;strong&gt;</bpt>Estado<ept id="p1">&lt;/strong&gt;</ept></target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="1437">
-          <source>Removed as of Dynamics AX 2012</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Eliminado a partir de Dynamics AX 2012</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Características quitadas u obsoletas
+description: Este tema describe las funciones que se han eliminado, o que está previsto que se eliminen.
+author: sericks007
+manager: AnnBe
+ms.date: 06/05/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User, Developer, IT Pro
+ms.reviewer: sericks
+ms.search.scope: Operations
+ms.custom: 21821
+ms.assetid: 31019808-4cbf-47d7-b1ba-d791db4281ae
+ms.search.region: Global
+ms.author: sericks
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9daba2449b6a20634c13117cedb6b63fcc8ee674
+ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "1620654"
+---
+# <a name="removed-or-deprecated-features"></a><span data-ttu-id="9be34-103">Características quitadas o en desuso</span><span class="sxs-lookup"><span data-stu-id="9be34-103">Removed or deprecated features</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="9be34-104">Este tema describe las funciones que se han eliminado, o están en desuso en Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="9be34-104">This topic describes features that have been removed or deprecated for Dynamics 365 for Finance and Operations.</span></span>
+
+- <span data-ttu-id="9be34-105">Una función *quitada* dejará de estar disponible en el producto.</span><span class="sxs-lookup"><span data-stu-id="9be34-105">A *removed* feature is no longer available in the product.</span></span>
+- <span data-ttu-id="9be34-106">Una función *en desuso* no está en el desarrollo activo y se puedría quitar en una actualización futura.</span><span class="sxs-lookup"><span data-stu-id="9be34-106">A *deprecated* feature is not in active development and may be removed in a future update.</span></span>
+
+<span data-ttu-id="9be34-107">Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y deprecaciones para su propia planificación.</span><span class="sxs-lookup"><span data-stu-id="9be34-107">This list is intended to help you consider these removals and deprecations for your own planning.</span></span> 
+
+> [!NOTE]
+> <span data-ttu-id="9be34-108">Desde Dynamics 365 for Finance and Operations, versión de julio de 2017 con actualización de la plataforma 8, se indica el tipo de implementaciones para cada características quitada u obsoleta.</span><span class="sxs-lookup"><span data-stu-id="9be34-108">Starting with the Dynamics 365 for Finance and Operations July 2017 release with platform update 8, the type of deployments are noted for each removed or deprecated feature.</span></span> <span data-ttu-id="9be34-109">Todas las versiones anteriores de la lista de este tema admitían implementaciones de la nube únicamente.</span><span class="sxs-lookup"><span data-stu-id="9be34-109">All of the previous releases mentioned in this topic supported cloud deployments only.</span></span>
+
+> <span data-ttu-id="9be34-110">La información detallada sobre los objetos de Finance and Operations se puede encontrar en los [informes de referencia técnica](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep).</span><span class="sxs-lookup"><span data-stu-id="9be34-110">Detailed information about objects in Finance and Operations can be found in the [Technical reference reports](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep).</span></span> <span data-ttu-id="9be34-111">Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="9be34-111">You can compare the different versions of these reports to learn about objects that have changed or been removed in each version of Finance and Operations.</span></span>
+
+## <a name="dynamics-365-for-finance-and-operations-1004"></a><span data-ttu-id="9be34-112">Dynamics 365 for Finance and Operations 10.0.4</span><span class="sxs-lookup"><span data-stu-id="9be34-112">Dynamics 365 for Finance and Operations 10.0.4</span></span> 
+
+### <a name="france-fec-accounting-data-export-in-xml"></a><span data-ttu-id="9be34-113">Francia: Formato XML de exportación de datos contables FEC</span><span class="sxs-lookup"><span data-stu-id="9be34-113">France: FEC Accounting data export in XML</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-114">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-114">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-115">Reemplazado por el formato de TXT,  **Archivo de auditoría francés de FEC** está disponible en **Contabilidad general** \> **Tareas periódicas** \> **Exportación de datos**.</span><span class="sxs-lookup"><span data-stu-id="9be34-115">Replaced by TXT format, **French FEC audit file** is available through **General ledger** \> **Periodic tasks** \> **Data export**.</span></span>
+| <span data-ttu-id="9be34-116">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-116">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-117">Sí</span><span class="sxs-lookup"><span data-stu-id="9be34-117">Yes</span></span> |
+| <span data-ttu-id="9be34-118">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-118">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-119">Contabilidad general</span><span class="sxs-lookup"><span data-stu-id="9be34-119">General ledger</span></span> |
+| <span data-ttu-id="9be34-120">**Opción de implementación**</span><span class="sxs-lookup"><span data-stu-id="9be34-120">**Deployment option**</span></span>              | <span data-ttu-id="9be34-121">Todas</span><span class="sxs-lookup"><span data-stu-id="9be34-121">All</span></span> |
+| <span data-ttu-id="9be34-122">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-122">**Status**</span></span>                         | <span data-ttu-id="9be34-123">En desuso.</span><span class="sxs-lookup"><span data-stu-id="9be34-123">Deprecated.</span></span> <span data-ttu-id="9be34-124">La fecha prevista para la eliminación de la funcionalidad es julio de 2020.</span><span class="sxs-lookup"><span data-stu-id="9be34-124">Target timeframe for the functionality to be removed is July 2020.</span></span> |
+
+=======
+## <a name="dynamics-365-for-finance-and-operations-1004-with-platform-update-28"></a><span data-ttu-id="9be34-125">Dynamics 365 for Finance and Operations 10.0.4 con Platform update 28</span><span class="sxs-lookup"><span data-stu-id="9be34-125">Dynamics 365 for Finance and Operations 10.0.4 with Platform update 28</span></span>
+
+> [!IMPORTANT]
+> <span data-ttu-id="9be34-126">Dynamics 365 for Finance and Operations 10.0.4 con Platform update 28 está disponible para los usuarios a los que está dirigida como parte de un lanzamiento de versión preliminar.</span><span class="sxs-lookup"><span data-stu-id="9be34-126">Dynamics 365 for Finance and Operations 10.0.4 with Platform update 28 is available to targeted users as part of a preview release.</span></span> <span data-ttu-id="9be34-127">El contenido y la funcionalidad están sujetos a cambios.</span><span class="sxs-lookup"><span data-stu-id="9be34-127">The content and the functionality are subject to change.</span></span> <span data-ttu-id="9be34-128">Para obtener más información acerca las versiones preliminares, consulte [Disponibilidad de actualización del servicio](../../fin-and-ops/get-started/public-preview-releases.md).</span><span class="sxs-lookup"><span data-stu-id="9be34-128">For more information about preview releases, see [Service update availability](../../fin-and-ops/get-started/public-preview-releases.md).</span></span>
+
+### <a name="legacy-navigation-bar"></a><span data-ttu-id="9be34-129">Barra de navegación antigua</span><span class="sxs-lookup"><span data-stu-id="9be34-129">Legacy navigation bar</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-130">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-130">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-131">Alineación de cabecera con otros productos de Dynamics y de Office.</span><span class="sxs-lookup"><span data-stu-id="9be34-131">Header alignment with other Dynamics and Office products.</span></span> <span data-ttu-id="9be34-132">Para más información, consulte [Barra de exploración que se alinea con el encabezado de Office](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/updatednavbar).</span><span class="sxs-lookup"><span data-stu-id="9be34-132">For more details, see [Updated navigation bar that aligns with the Office header](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/updatednavbar).</span></span>
+| <span data-ttu-id="9be34-133">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-133">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-134">A partir de la Platform update 24 se introdujo una barra de navegación rediseñada que cuenta con búsqueda.</span><span class="sxs-lookup"><span data-stu-id="9be34-134">Starting in Platform update 24, a restyled navigation bar that features search was introduced.</span></span> |
+| <span data-ttu-id="9be34-135">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-135">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-136">Cliente web</span><span class="sxs-lookup"><span data-stu-id="9be34-136">Web client</span></span> |
+| <span data-ttu-id="9be34-137">**Opción de implementación**</span><span class="sxs-lookup"><span data-stu-id="9be34-137">**Deployment option**</span></span>              | <span data-ttu-id="9be34-138">Todas</span><span class="sxs-lookup"><span data-stu-id="9be34-138">All</span></span> |
+| <span data-ttu-id="9be34-139">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-139">**Status**</span></span>                         | <span data-ttu-id="9be34-140">En desuso: a partir de abril de 2020, la antigua barra de navegación ya no estará disponible.</span><span class="sxs-lookup"><span data-stu-id="9be34-140">Deprecated: Starting in April 2020, the legacy navigation bar will no longer be available.</span></span> <span data-ttu-id="9be34-141">Hasta que ese punto, los clientes puede volver a la antigua barra de navegación a través de la página **Opciones de rendimiento del cliente**.</span><span class="sxs-lookup"><span data-stu-id="9be34-141">Until that point, customers can revert to the legacy navigation bar through the **Client performance options** page.</span></span> |
+
+
+## <a name="dynamics-365-for-finance-and-operations-1002-with-platform-update-26"></a><span data-ttu-id="9be34-142">Dynamics 365 for Finance and Operations 10.0.2 con Platform update 26</span><span class="sxs-lookup"><span data-stu-id="9be34-142">Dynamics 365 for Finance and Operations 10.0.2 with Platform update 26</span></span>
+
+> [!IMPORTANT]
+> <span data-ttu-id="9be34-143">Dynamics 365 for Finance and Operations 10.0.2 con Platform update 26 está disponible para los usuarios a los que está dirigida como parte de un lanzamiento de versión preliminar.</span><span class="sxs-lookup"><span data-stu-id="9be34-143">Dynamics 365 for Finance and Operations 10.0.2 with Platform update 26 is available to targeted users as part of a preview release.</span></span> <span data-ttu-id="9be34-144">El contenido y la funcionalidad están sujetos a cambios.</span><span class="sxs-lookup"><span data-stu-id="9be34-144">The content and the functionality are subject to change.</span></span> <span data-ttu-id="9be34-145">Para obtener más información acerca las versiones preliminares, consulte [Disponibilidad de actualización del servicio](../../fin-and-ops/get-started/public-preview-releases.md).</span><span class="sxs-lookup"><span data-stu-id="9be34-145">For more information about preview releases, see [Service update availability](../../fin-and-ops/get-started/public-preview-releases.md).</span></span>
+
+### <a name="legacy-default-action-behavior"></a><span data-ttu-id="9be34-146">Comportamiento predeterminado de la acción de herencia</span><span class="sxs-lookup"><span data-stu-id="9be34-146">Legacy default action behavior</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-147">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-147">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-148">El comportamiento heredado de las acciones predeterminadas de las cuadrículas resulta en una columna inesperada que tiene el vínculo predeterminado de la acción después de que las columnas de la cuadrícula se hayan reordenado a través de la personalización.</span><span class="sxs-lookup"><span data-stu-id="9be34-148">The legacy behavior for default actions in grids results in an unexpected column having the default action link after grid columns have been reordered via personalization.</span></span> <span data-ttu-id="9be34-149">La nueva función acción adhesiva predeterminada corrige esto.</span><span class="sxs-lookup"><span data-stu-id="9be34-149">The new sticky default action feature corrects this.</span></span> <span data-ttu-id="9be34-150">Para más información, consulte [Acciones adhesivas predeterminadas en cuadrículas](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action).</span><span class="sxs-lookup"><span data-stu-id="9be34-150">For more details, see [Sticky default actions in grids](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action).</span></span> |
+| <span data-ttu-id="9be34-151">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-151">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-152">A partir de Platform update 21 se añadió una función para "acciones adhesivas predeterminadas".</span><span class="sxs-lookup"><span data-stu-id="9be34-152">Starting in Platform update 21, a feature for "sticky default actions" was introduced.</span></span> <span data-ttu-id="9be34-153">Esta función se puede habilitar en la página **Opciones de rendimiento del cliente**.</span><span class="sxs-lookup"><span data-stu-id="9be34-153">This feature can be enabled on the **Client performance options** page.</span></span> |
+| <span data-ttu-id="9be34-154">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-154">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-155">Cuadrículas en el cliente web</span><span class="sxs-lookup"><span data-stu-id="9be34-155">Grids in the web client</span></span> |
+| <span data-ttu-id="9be34-156">**Opción de implementación**</span><span class="sxs-lookup"><span data-stu-id="9be34-156">**Deployment option**</span></span>              | <span data-ttu-id="9be34-157">Todas</span><span class="sxs-lookup"><span data-stu-id="9be34-157">All</span></span> |
+| <span data-ttu-id="9be34-158">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-158">**Status**</span></span>                         | <span data-ttu-id="9be34-159">Desusado: a partir en abril de 2020, las acciones predeterminados adhesivas serán el comportamiento predeterminado, sin un mecanismo para volver al antiguo comportamiento.</span><span class="sxs-lookup"><span data-stu-id="9be34-159">Deprecated: Starting in April 2020, sticky default actions will be the default behavior, without a mechanism to revert to the legacy behavior.</span></span> |
+
+### <a name="legacy-is-one-of-filtering-experience"></a><span data-ttu-id="9be34-160">Heredado es una experiencia de filtrado "es uno de"</span><span class="sxs-lookup"><span data-stu-id="9be34-160">Legacy "is one of" filtering experience</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-161">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-161">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-162">La experiencia de filtrado "es uno de" se ha rediseñado en la Platform update 22, y se planea que acabe siendo la única experiencia de filtrado "es uno de".</span><span class="sxs-lookup"><span data-stu-id="9be34-162">The "is one of" filtering experience went through a redesign in Platform update 22,with the plan for this to eventually be the only "is one of" filtering experience.</span></span> |
+| <span data-ttu-id="9be34-163">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-163">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-164">A partir de la Platform update 22 tiene disponible una experiencia filtrado mejorada "es uno de" en la página **Opciones de rendimiento del cliente**.</span><span class="sxs-lookup"><span data-stu-id="9be34-164">Starting in Platform update 22, an improved "is one of" filtering experience became available on the **Client performance options** page.</span></span> <span data-ttu-id="9be34-165">Para más información, consulte [Optimizado es una experiencia de filtrado es uno de](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering).</span><span class="sxs-lookup"><span data-stu-id="9be34-165">For more information, see [Optimized is one of filtering experience](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering).</span></span> |
+| <span data-ttu-id="9be34-166">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-166">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-167">Cliente web</span><span class="sxs-lookup"><span data-stu-id="9be34-167">Web client</span></span> |
+| <span data-ttu-id="9be34-168">**Opción de implementación**</span><span class="sxs-lookup"><span data-stu-id="9be34-168">**Deployment option**</span></span>              | <span data-ttu-id="9be34-169">Todas</span><span class="sxs-lookup"><span data-stu-id="9be34-169">All</span></span> |
+| <span data-ttu-id="9be34-170">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-170">**Status**</span></span>                         | <span data-ttu-id="9be34-171">Desusado: a partir de abril de 2020, la experiencia mejorada "es uno de" será el comportamiento predeterminado, sin un mecanismo para volver al antiguo comportamiento.</span><span class="sxs-lookup"><span data-stu-id="9be34-171">Deprecated: Starting in April 2020, the improved "is one of" experience will be the default behavior, without a mechanism to revert to the legacy behavior.</span></span> |
+
+### <a name="parameter-to-enable-sales-orders-with-multiple-project-contract-funding-sources"></a><span data-ttu-id="9be34-172">Parámetro para habilitar los pedidos de ventas con varias fuentes de financiación del contrato de proyecto</span><span class="sxs-lookup"><span data-stu-id="9be34-172">Parameter to enable sales orders with multiple project contract funding sources</span></span>
+<span data-ttu-id="9be34-173">La compatibilidad para crear los pedidos de ventas basados en proyectos donde el contrato de proyecto tiene varias fuentes de financiación se habilita con la configuración **Parámetros de la gestión de proyectos** **Permitir pedidos de ventas del proyecto con varias fuentes de financiación**.</span><span class="sxs-lookup"><span data-stu-id="9be34-173">Support for creating project-based sales orders where the project contract has multiple funding sources is enabled with the **Project management parameters** setting **Allow sales orders for project with multiple funding sources**.</span></span> <span data-ttu-id="9be34-174">De forma predeterminada, este parámetro no está habilitado.</span><span class="sxs-lookup"><span data-stu-id="9be34-174">By default, this parameter is not enabled.</span></span> 
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-175">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-175">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-176">La funcionalidad siempre será habilitada después de que se elimine el parámetro.</span><span class="sxs-lookup"><span data-stu-id="9be34-176">The functionality will always be enabled after the parameter is removed.</span></span> |
+| <span data-ttu-id="9be34-177">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-177">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-178">N. º</span><span class="sxs-lookup"><span data-stu-id="9be34-178">No.</span></span> <span data-ttu-id="9be34-179">La funcionalidad para admitir pedidos de ventas basados en proyectos con varias fuentes de financiación siempre estará habilitada.</span><span class="sxs-lookup"><span data-stu-id="9be34-179">The functionality to support project-based sales orders with multiple funding sources will always be enabled.</span></span>   |
+| <span data-ttu-id="9be34-180">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-180">**Product areas affected**</span></span>         |<span data-ttu-id="9be34-181">El parámetro **Permitir pedidos de ventas para proyectos con varias fuentes de financiación** se eliminará.</span><span class="sxs-lookup"><span data-stu-id="9be34-181">The **Allow sales orders for projects with multiple funding sources** parameter will be removed.</span></span> <span data-ttu-id="9be34-182">Los métodos siguientes estarán modificados cuando se quita el parámetro: el método **ctrlSalesOrderTable** en la clase **ProjStatusType** , el método **validar** para el campo **ProjId** y el método **ejecución** en el formulario **SalescreateOrder**.</span><span class="sxs-lookup"><span data-stu-id="9be34-182">The following methods will be modified when the parameter is removed: **ctrlSalesOrderTable** method in **ProjStatusType** class, **validate** method for **ProjId** field, and **run** method in **SalescreateOrder** form.</span></span> <span data-ttu-id="9be34-183">Los siguientes métodos se dejarán de usar cuando se quita el parámetro: **IsSalesOrderAllowedForMultipleFundingSources** en archivo de tabla **ProjTable** , el método **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled** en el archivo de tabla **ProjTable** , el campo de datos **AllowSalesOrdersForMultipleFundingSources** en el formulario **ProjParameters** y los archivos **ProjParameterEntity** , el método privado **IsAssociatedToMultipleFundingSourcesContract** en el archivo de tabla **ProjTable**.</span><span class="sxs-lookup"><span data-stu-id="9be34-183">The following methods will be deprecated when the parameter is removed: **IsSalesOrderAllowedForMultipleFundingSources** in **ProjTable** table file, **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled** method in **ProjTable** table file, **AllowSalesOrdersForMultipleFundingSources** data field in **ProjParameters** form and **ProjParameterEntity** files, **IsAssociatedToMultipleFundingSourcesContract** private method in **ProjTable** table file.</span></span> |
+| <span data-ttu-id="9be34-184">**Opción de implementación**</span><span class="sxs-lookup"><span data-stu-id="9be34-184">**Deployment option**</span></span>              | <span data-ttu-id="9be34-185">Todas</span><span class="sxs-lookup"><span data-stu-id="9be34-185">All</span></span>  |
+| <span data-ttu-id="9be34-186">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-186">**Status**</span></span>                         | <span data-ttu-id="9be34-187">La deprecación se planifica para la oleada liberada en abril de 2020.</span><span class="sxs-lookup"><span data-stu-id="9be34-187">Deprecation is planned for the April 2020 release wave.</span></span> |
+
+### <a name="legacy-workflow-reports-for-tracking-and-instance-status"></a><span data-ttu-id="9be34-188">Informes de flujo de trabajo antiguos el estado y seguimiento de la instancia</span><span class="sxs-lookup"><span data-stu-id="9be34-188">Legacy workflow reports for tracking and instance status</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-189">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-189">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-190">Los antiguos informes del flujo de trabajo para el estado y seguimiento de la instancia se están dejando de utilizar porque ya no se referencian desde la navegación.</span><span class="sxs-lookup"><span data-stu-id="9be34-190">The legacy workflow reports for tracking and instance status are being deprecated because they are no longer referenced from the navigation.</span></span> <span data-ttu-id="9be34-191">Los nombres de informe son WorkflowWorkflowInstanceByStatusReport y WorkflowWorkflowTrackingReport.</span><span class="sxs-lookup"><span data-stu-id="9be34-191">The report names are WorkflowWorkflowInstanceByStatusReport and WorkflowWorkflowTrackingReport.</span></span> |
+| <span data-ttu-id="9be34-192">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-192">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-193">El formulario Historial del flujo de trabajo se puede usar en su lugar.</span><span class="sxs-lookup"><span data-stu-id="9be34-193">The workflow history form can be used instead.</span></span> |
+| <span data-ttu-id="9be34-194">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-194">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-195">Cliente web</span><span class="sxs-lookup"><span data-stu-id="9be34-195">Web client</span></span> |
+| <span data-ttu-id="9be34-196">**Opción de implementación**</span><span class="sxs-lookup"><span data-stu-id="9be34-196">**Deployment option**</span></span>              | <span data-ttu-id="9be34-197">Todas</span><span class="sxs-lookup"><span data-stu-id="9be34-197">All</span></span> |
+| <span data-ttu-id="9be34-198">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-198">**Status**</span></span>                         | <span data-ttu-id="9be34-199">En desuso: La fecha prevista para la eliminación de la funcionalidad es abril de 2020.</span><span class="sxs-lookup"><span data-stu-id="9be34-199">Deprecated: Target timeframe for the functionality to be removed is April 2020.</span></span> |
+
+## <a name="dynamics-365-for-finance-and-operations-1001-with-platform-update-25"></a><span data-ttu-id="9be34-200">Dynamics 365 for Finance and Operations 10.0.1 con actualización de plataforma 25</span><span class="sxs-lookup"><span data-stu-id="9be34-200">Dynamics 365 for Finance and Operations 10.0.1 with platform update 25</span></span>
+
+> [!IMPORTANT]
+> <span data-ttu-id="9be34-201">Dynamics 365 for Finance and Operations 10.0.1 con Platform update 25 está disponible para los usuarios a los que está dirigida como parte de un lanzamiento de versión preliminar.</span><span class="sxs-lookup"><span data-stu-id="9be34-201">Dynamics 365 for Finance and Operations 10.0.1 with Platform update 25 is available to targeted users as part of a preview release.</span></span> <span data-ttu-id="9be34-202">El contenido y la funcionalidad están sujetos a cambios.</span><span class="sxs-lookup"><span data-stu-id="9be34-202">The content and the functionality are subject to change.</span></span> <span data-ttu-id="9be34-203">Para obtener más información acerca las versiones preliminares, consulte [Disponibilidad de actualización del servicio](../../fin-and-ops/get-started/public-preview-releases.md).</span><span class="sxs-lookup"><span data-stu-id="9be34-203">For more information about preview releases, see [Service update availability](../../fin-and-ops/get-started/public-preview-releases.md).</span></span>
+
+### <a name="deprecated-apis-and-potential-breaking-changes"></a><span data-ttu-id="9be34-204">API en desuso y potencial cambios que generan interrupciones</span><span class="sxs-lookup"><span data-stu-id="9be34-204">Deprecated APIs and potential breaking changes</span></span>
+
+
+#### <a name="deriving-from-internal-classes-is-deprecated"></a><span data-ttu-id="9be34-205">La derivación de clases internas se deja de utilizar</span><span class="sxs-lookup"><span data-stu-id="9be34-205">Deriving from internal classes is deprecated</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-206">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-206">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-207">En las versiones anteriores a la Platform update 25, era posible crear una clase o tabla derivada de una clase o una tabla interna que está definida en otro paquete/módulo.</span><span class="sxs-lookup"><span data-stu-id="9be34-207">Before Platform update 25, it was possible to create a class or table that derives from an internal class/table that is defined in another package/module.</span></span> <span data-ttu-id="9be34-208">No es una práctica segura de codificación.</span><span class="sxs-lookup"><span data-stu-id="9be34-208">This is not a safe coding practice.</span></span> <span data-ttu-id="9be34-209">A partir de la Platform update 25, el compilador mostrará una advertencia.</span><span class="sxs-lookup"><span data-stu-id="9be34-209">As of Platform update 25, the compiler will display a warning.</span></span> |
+| <span data-ttu-id="9be34-210">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-210">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-211">La advertencia del compilador se reemplazará por un error en la Platform update 26.</span><span class="sxs-lookup"><span data-stu-id="9be34-211">The compiler warning will be replaced by an error in Platform update 26.</span></span> <span data-ttu-id="9be34-212">Este cambio es compatible con versiones anteriores en el tiempo de ejecución, lo que significa que si ejecuta la Platform update 25 o posterior, esto se puede implementar en cualquier espacio aislado o entorno de producción sin la necesidad de modificar código personalizado.</span><span class="sxs-lookup"><span data-stu-id="9be34-212">This change is backward compatible at runtime, which means that Platform update 25 or newer can be deployed on any sandbox or production environment without the need to modify custom code.</span></span> <span data-ttu-id="9be34-213">Este cambio afecta únicamente al desarrollo y el tiempo de compilación.</span><span class="sxs-lookup"><span data-stu-id="9be34-213">This change only affects development and compile time.</span></span>|
+| <span data-ttu-id="9be34-214">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-214">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-215">Herramientas de desarrollo de Visual Studio</span><span class="sxs-lookup"><span data-stu-id="9be34-215">Visual Studio development tools</span></span> |
+| <span data-ttu-id="9be34-216">**Opción de implementación**</span><span class="sxs-lookup"><span data-stu-id="9be34-216">**Deployment option**</span></span>              | <span data-ttu-id="9be34-217">Todas</span><span class="sxs-lookup"><span data-stu-id="9be34-217">All</span></span> |
+| <span data-ttu-id="9be34-218">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-218">**Status**</span></span>                         | <span data-ttu-id="9be34-219">En desuso: la advertencia se convertirá en un error de compilación en la Platform update 26.</span><span class="sxs-lookup"><span data-stu-id="9be34-219">Deprecated: The warning will become a compilation error in Platform update 26.</span></span> |
+
+#### <a name="overriding-internal-methods-is-deprecated"></a><span data-ttu-id="9be34-220">La anulación de métodos internos se deja de utilizar</span><span class="sxs-lookup"><span data-stu-id="9be34-220">Overriding internal methods is deprecated</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-221">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-221">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-222">Antes de la Platform update 25, era posible anular un método interno en una clase derivada que está definida en otro paquete/módulo.</span><span class="sxs-lookup"><span data-stu-id="9be34-222">Before Platform update 25, it was possible to override an internal method in a derived class that is defined in another package/module.</span></span> <span data-ttu-id="9be34-223">No es una práctica segura de codificación.</span><span class="sxs-lookup"><span data-stu-id="9be34-223">This is not a safe coding practice.</span></span> <span data-ttu-id="9be34-224">A partir de la Platform update 25, el compilador mostrará una advertencia.</span><span class="sxs-lookup"><span data-stu-id="9be34-224">As of Platform update 25, the compiler will display a warning.</span></span> |
+| <span data-ttu-id="9be34-225">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-225">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-226">Esta advertencia del compilador se reemplazará por un error de compilación en la Platform update 26.</span><span class="sxs-lookup"><span data-stu-id="9be34-226">This warning will be replaced by a compile error in Platform update 26.</span></span> <span data-ttu-id="9be34-227">Este cambio es compatible con versiones anteriores en el tiempo de ejecución, lo que significa que si ejecuta la Platform update 25 o posterior, esto se puede implementar en cualquier espacio aislado o entorno de producción sin la necesidad de modificar código personalizado.</span><span class="sxs-lookup"><span data-stu-id="9be34-227">This change is backward compatible at runtime, which means that Platform update 25 or newer can be deployed on any sandbox or production environment without the need to modify custom code.</span></span> <span data-ttu-id="9be34-228">Este cambio afecta únicamente al desarrollo y el tiempo de compilación.</span><span class="sxs-lookup"><span data-stu-id="9be34-228">This change only affects development and compile time.</span></span> |
+| <span data-ttu-id="9be34-229">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-229">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-230">Herramientas de desarrollo de Visual Studio</span><span class="sxs-lookup"><span data-stu-id="9be34-230">Visual Studio development tools</span></span> |
+| <span data-ttu-id="9be34-231">**Opción de implementación**</span><span class="sxs-lookup"><span data-stu-id="9be34-231">**Deployment option**</span></span>              | <span data-ttu-id="9be34-232">Todas</span><span class="sxs-lookup"><span data-stu-id="9be34-232">All</span></span> |
+| <span data-ttu-id="9be34-233">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-233">**Status**</span></span>                         | <span data-ttu-id="9be34-234">En desuso: la advertencia se convertirá en un error de compilación en la Platform update 26.</span><span class="sxs-lookup"><span data-stu-id="9be34-234">Deprecated: The warning will become a compilation error in Platform update 26.</span></span> |
+
+
+## <a name="dynamics-365-for-finance-and-operations-813-with-platform-update-23"></a><span data-ttu-id="9be34-235">Dynamics 365 for Finance and Operations 8.1.3 con actualización de plataforma 23</span><span class="sxs-lookup"><span data-stu-id="9be34-235">Dynamics 365 for Finance and Operations 8.1.3 with platform update 23</span></span>
+
+### <a name="sql-server-reporting-services-reportviewer-control"></a><span data-ttu-id="9be34-236">Control ReportViewer de SQL Server Reporting Services</span><span class="sxs-lookup"><span data-stu-id="9be34-236">SQL Server Reporting Services ReportViewer Control</span></span>
+<span data-ttu-id="9be34-237">Los clientes pueden utilizar la acción **Exportar** proporcionada por el control incrustado SQL Server Reporting Services (SSRS) ReportViewer para descargar documentos producidos por las aplicaciones de Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="9be34-237">Customers can use the **Export** action provided by the embedded SQL Server Reporting Services (SSRS) ReportViewer control to download documents produced by Finance and Operations applications.</span></span> <span data-ttu-id="9be34-238">Esta presentación basada en HTML del informe proporciona a los usuarios una vista previa no paginada del documento.</span><span class="sxs-lookup"><span data-stu-id="9be34-238">This HTML-based presentation of the report offers users a non-paginated preview of the document.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-239">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-239">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-240">La naturaleza no paginada de la experiencia de vista previa basada en HTML **no** presta fidelidad a los documentos físicos elaborados en última instancia por Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="9be34-240">The non-paginated nature of the HTML-based preview experience does **not** deliver fidelity with the physical documents ultimately produced by Finance and Operations.</span></span> <span data-ttu-id="9be34-241">Al abrazar completamente PDF como el formato estándar para documentos empresariales, los usuarios pueden aprovechar una experiencia moderna de visualización con rendimiento mejorado al generar informes de aplicación.</span><span class="sxs-lookup"><span data-stu-id="9be34-241">By fully embracing PDF as the standard format for business documents, users are able to take advantage of a modern viewing experience with improved performance when producing application reports.</span></span> |
+| <span data-ttu-id="9be34-242">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-242">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-243">En adelante, los documentos de PDF serán el formato predeterminado para los informes generados por Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="9be34-243">Going forward, PDF documents will be the default format for reports rendered by Finance and Operations.</span></span>   |
+| <span data-ttu-id="9be34-244">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-244">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-245">Este cambio **no** repercute en los escenarios de cliente donde los informes se distribuyen electrónicamente o se envían directamente a impresoras.</span><span class="sxs-lookup"><span data-stu-id="9be34-245">This change does **not** impact customer scenarios where reports are distributed electronically or sent directly to printers.</span></span>    |
+| <span data-ttu-id="9be34-246">**Opción de implementación**</span><span class="sxs-lookup"><span data-stu-id="9be34-246">**Deployment option**</span></span>              | <span data-ttu-id="9be34-247">Todas</span><span class="sxs-lookup"><span data-stu-id="9be34-247">All</span></span>  |
+| <span data-ttu-id="9be34-248">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-248">**Status**</span></span>                         | <span data-ttu-id="9be34-249">En desuso: No se ha establecido una fecha de eliminación para esta función.</span><span class="sxs-lookup"><span data-stu-id="9be34-249">Deprecated: A removal date has not been set for this feature.</span></span> <span data-ttu-id="9be34-250">La funcionalidad de vista previa automática de informes de aplicaciones usando un visor de PDF incrustado se prevé para la Platform update de mayo de 2019.</span><span class="sxs-lookup"><span data-stu-id="9be34-250">The functionality to automatically preview application reports using an embedded PDF viewer is planned for the May 2019 Platform update.</span></span> |
+
+### <a name="client-kpi-controls"></a><span data-ttu-id="9be34-251">Controles de KPI del cliente</span><span class="sxs-lookup"><span data-stu-id="9be34-251">Client KPI controls</span></span>
+<span data-ttu-id="9be34-252">Los indicadores de rendimiento clave incrustados (KPIs) podrían ser modelados en Visual Studio por un programador y personalizados aún más por el usuario final.</span><span class="sxs-lookup"><span data-stu-id="9be34-252">Embedded key performance indicators (KPIs) could be modeled in Visual Studio by a developer and further customized by the end user.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-253">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-253">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-254">Los controles de clientes nativos utilizados para definir los KPI tienen una respuesta del cliente baja y se basan en un desarrollador para agregar medidas rastreables.</span><span class="sxs-lookup"><span data-stu-id="9be34-254">The native client controls used to define KPIs have low customer uptake and rely on a developer to add trackable metrics.</span></span> |
+| <span data-ttu-id="9be34-255">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-255">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-256">El servicio de PowerBI.com proporciona herramientas de calidad mundial para definir y administrar KPI basados en datos de fuentes externas.</span><span class="sxs-lookup"><span data-stu-id="9be34-256">PowerBI.com service delivers world-class tooling for defining and managing KPIs based on data from external sources.</span></span>  <span data-ttu-id="9be34-257">En una próxima versión, planeamos habilitar soluciones integradas alojadas en PowerBI.com en espacios de trabajo de aplicaciones.</span><span class="sxs-lookup"><span data-stu-id="9be34-257">In an upcoming release, we plan to enable you to embed solutions hosted on PowerBI.com in application workspaces.</span></span>   |
+| <span data-ttu-id="9be34-258">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-258">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-259">Esta actualización impedirá que los programadores introduzcan nuevos controles de KPI en el diseñador de Visual Studio.</span><span class="sxs-lookup"><span data-stu-id="9be34-259">This update will prevent developers from introducing new KPI controls in Visual Studio designer.</span></span>    |
+| <span data-ttu-id="9be34-260">**Opción de implementación**</span><span class="sxs-lookup"><span data-stu-id="9be34-260">**Deployment option**</span></span>              | <span data-ttu-id="9be34-261">Todas</span><span class="sxs-lookup"><span data-stu-id="9be34-261">All</span></span>  |
+| <span data-ttu-id="9be34-262">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-262">**Status**</span></span>                         | <span data-ttu-id="9be34-263">En desuso: No se ha establecido una fecha de eliminación para esta función.</span><span class="sxs-lookup"><span data-stu-id="9be34-263">Deprecated: A removal date has not been set for this feature.</span></span> |
+
+### <a name="deprecated-apis-and-future-breaking-changes"></a><span data-ttu-id="9be34-264">API en desuso y futuros cambios que generan interrupciones</span><span class="sxs-lookup"><span data-stu-id="9be34-264">Deprecated APIs and future breaking changes</span></span>
+
+#### <a name="field-groups-containing-invalid-field-references"></a><span data-ttu-id="9be34-265">Grupos de campos que contienen referencias de campo no válidas</span><span class="sxs-lookup"><span data-stu-id="9be34-265">Field groups containing invalid field references</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-266">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-266">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-267">Es posible que las definiciones de metadatos de la tabla tengan grupos de campos que contienen referencias no válidas del campo.</span><span class="sxs-lookup"><span data-stu-id="9be34-267">It is possible for table metadata definitions to have field groups containing invalid field references.</span></span> <span data-ttu-id="9be34-268">Este problema se categoriza actualmente como *advertencia del compilador* en lugar de *error*, lo que significa que la creación y la implementación de paquete desplegable puede continuar sin corregirse el problema.</span><span class="sxs-lookup"><span data-stu-id="9be34-268">This issue is currently categorized as a *compiler warning* rather than an *error*, meaning that the deployable package creation and deployment can proceed without fixing the issue.</span></span> <span data-ttu-id="9be34-269">Si se implementa, esto puede provocar errores del tiempo de ejecución en Financial Reporting y SQL Server Reporting Services (SSRS).</span><span class="sxs-lookup"><span data-stu-id="9be34-269">If deployed, this can cause runtime failures in Financial Reporting and SQL Server Reporting Services (SSRS).</span></span> <span data-ttu-id="9be34-270">Para solucionar este problema:</span><span class="sxs-lookup"><span data-stu-id="9be34-270">To fix this issue:</span></span><br><br><span data-ttu-id="9be34-271">1. Quite la referencia de campo no válida de la definición del grupo de campos de tabla.</span><span class="sxs-lookup"><span data-stu-id="9be34-271">1. Remove the invalid field reference from the table field group definition.</span></span><br><br><span data-ttu-id="9be34-272">2. Vuelva a compilar.</span><span class="sxs-lookup"><span data-stu-id="9be34-272">2. Recompile.</span></span><br><br><span data-ttu-id="9be34-273">3. Asegúrese de que las advertencias o los errores se abordan.</span><span class="sxs-lookup"><span data-stu-id="9be34-273">3. Ensure any warnings or errors are addressed.</span></span> |
+| <span data-ttu-id="9be34-274">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-274">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-275">Esta advertencia se reemplazará por un error de compilación en el futuro.</span><span class="sxs-lookup"><span data-stu-id="9be34-275">This warning will be replaced by a compile error in the future.</span></span>  |
+| <span data-ttu-id="9be34-276">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-276">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-277">Herramientas de desarrollo de Visual Studio.</span><span class="sxs-lookup"><span data-stu-id="9be34-277">Visual Studio development tools.</span></span> |
+| <span data-ttu-id="9be34-278">**Opción de implementación**</span><span class="sxs-lookup"><span data-stu-id="9be34-278">**Deployment option**</span></span>              | <span data-ttu-id="9be34-279">Todos.</span><span class="sxs-lookup"><span data-stu-id="9be34-279">All.</span></span> |
+| <span data-ttu-id="9be34-280">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-280">**Status**</span></span>                         | <span data-ttu-id="9be34-281">En desuso: la advertencia se convertirá en un error de tiempo de compilación en el futuro.</span><span class="sxs-lookup"><span data-stu-id="9be34-281">Deprecated: The warning will become a compile-time error in the future.</span></span> <span data-ttu-id="9be34-282">Actualmente tomamos como objetivo la actualización 30 de la plataforma.</span><span class="sxs-lookup"><span data-stu-id="9be34-282">We're currently targeting Platform update 30.</span></span> |
+
+#### <a name="complete-list"></a><span data-ttu-id="9be34-283">Lista completa</span><span class="sxs-lookup"><span data-stu-id="9be34-283">Complete list</span></span>
+<span data-ttu-id="9be34-284">Para obtener acceso a la lista completa de API que se están dejando de utilizar, consulte [Deprecación de métodos y elementos de metadatos](deprecation-deletion-apis.md).</span><span class="sxs-lookup"><span data-stu-id="9be34-284">To access the full list of APIs that are being deprecated, see [Deprecation of methods and meta data elements](deprecation-deletion-apis.md).</span></span>
+
+## <a name="dynamics-365-for-finance-and-operations-81-with-platform-update-20"></a><span data-ttu-id="9be34-285">Dynamics 365 for Finance and Operations 8.1 con actualización de plataforma 20</span><span class="sxs-lookup"><span data-stu-id="9be34-285">Dynamics 365 for Finance and Operations 8.1 with platform update 20</span></span>
+
+### <a name="batch-transfer-rules-for-subledger-journal-account-entries"></a><span data-ttu-id="9be34-286">Reglas de transferencia por lotes para los asientos contables del subdiario contable</span><span class="sxs-lookup"><span data-stu-id="9be34-286">Batch transfer rules for subledger journal account entries</span></span>
+<span data-ttu-id="9be34-287">El modo de transferencia sincrónico se está abandonando en los parámetros de contabilidad general.</span><span class="sxs-lookup"><span data-stu-id="9be34-287">The Synchronous transfer mode is being deprecated in the General ledger parameters.</span></span>  <span data-ttu-id="9be34-288">Este modo se sustituye solo por el lote asincrónico y programado, que ya existe como opciones para la transferencia.</span><span class="sxs-lookup"><span data-stu-id="9be34-288">This mode is replaced by Asynchronous and scheduled batch only, which already exist as options for transfer.</span></span> <span data-ttu-id="9be34-289">Para obtener información adicional, consulte el blog [Parámetros de Contabilidad general – reglas de transferencia por lotes](https://community.dynamics.com/365/financeandoperations/b/financials/archive/2019/03/15/general-ledger-parameters-batch-transfer-rules).</span><span class="sxs-lookup"><span data-stu-id="9be34-289">For additional information, see the [General Ledger Parameters – Batch transfer rules](https://community.dynamics.com/365/financeandoperations/b/financials/archive/2019/03/15/general-ledger-parameters-batch-transfer-rules) blog.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-290">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-290">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-291">Estamos quitando la opción síncrona debido al impacto del rendimiento en el sistema.</span><span class="sxs-lookup"><span data-stu-id="9be34-291">We are removing the synchronous option due to performance impact to the system.</span></span> |
+| <span data-ttu-id="9be34-292">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-292">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-293">El lote programado y el lote asincrónico son opciones que se utilizan en lugar de sincrónico.</span><span class="sxs-lookup"><span data-stu-id="9be34-293">Asynchronous and scheduled batch are options to use in place of Synchronous.</span></span>   |
+| <span data-ttu-id="9be34-294">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-294">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-295">Contabilidad general, proveedores, clientes, compra, gasto</span><span class="sxs-lookup"><span data-stu-id="9be34-295">General Ledger, Accounts payable, Accounts Receivable, Procurement, Expense</span></span>    |
+| <span data-ttu-id="9be34-296">**Opción de implementación**</span><span class="sxs-lookup"><span data-stu-id="9be34-296">**Deployment option**</span></span>              | <span data-ttu-id="9be34-297">Todas</span><span class="sxs-lookup"><span data-stu-id="9be34-297">All</span></span>  |
+| <span data-ttu-id="9be34-298">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-298">**Status**</span></span>                         | <span data-ttu-id="9be34-299">En desuso: La fecha prevista para la eliminación de la funcionalidad es la versión 10.0.</span><span class="sxs-lookup"><span data-stu-id="9be34-299">Deprecated: Target timeframe for the functionality to be removed is the 10.0 version.</span></span>|
+
+### <a name="electronic-reporting-for-russia"></a><span data-ttu-id="9be34-300">Informes electrónicos para Rusia</span><span class="sxs-lookup"><span data-stu-id="9be34-300">Electronic reporting for Russia</span></span>
+<span data-ttu-id="9be34-301">Característica para configurar formatos de archivo .txt y .xml de declaraciones.</span><span class="sxs-lookup"><span data-stu-id="9be34-301">Feature for configuring .txt and .xml file formats of declarations.</span></span> 
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-302">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-302">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-303">Se reemplaza por informes electrónicos.</span><span class="sxs-lookup"><span data-stu-id="9be34-303">Replaced with Electronic reporting.</span></span> |
+| <span data-ttu-id="9be34-304">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-304">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-305">Sí.</span><span class="sxs-lookup"><span data-stu-id="9be34-305">Yes.</span></span> |
+| <span data-ttu-id="9be34-306">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-306">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-307">Contabilidad general</span><span class="sxs-lookup"><span data-stu-id="9be34-307">General Ledger</span></span> |
+| <span data-ttu-id="9be34-308">**Opción de implementación**</span><span class="sxs-lookup"><span data-stu-id="9be34-308">**Deployment option**</span></span>              | <span data-ttu-id="9be34-309">Todas</span><span class="sxs-lookup"><span data-stu-id="9be34-309">All</span></span> |
+| <span data-ttu-id="9be34-310">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-310">**Status**</span></span>                         | <span data-ttu-id="9be34-311">Eliminado desde Dynamics 365 for Finance and Operations 8.1 con la plataforma actualice 20.</span><span class="sxs-lookup"><span data-stu-id="9be34-311">Removed as of Dynamics 365 for Finance and Operations 8.1 with platform update 20.</span></span> |
+
+### <a name="financial-reports-generator-for-russia"></a><span data-ttu-id="9be34-312">Generador de informes financieros para Rusia</span><span class="sxs-lookup"><span data-stu-id="9be34-312">Financial reports generator for Russia</span></span>
+<span data-ttu-id="9be34-313">Una herramienta para configurar recopilaciones de datos para los informes de contabilidad e impuestos y para exportar datos a plantillas de informes DOC y XLS.</span><span class="sxs-lookup"><span data-stu-id="9be34-313">A tool for setting up data collection for accounting and tax reports, and to export data to XLS and DOC report templates.</span></span> <span data-ttu-id="9be34-314">Partes funcionales: se eliminan la exportación de datos a plantillas de informes de XLS y de DOC, consultas, y requisitos fijos.</span><span class="sxs-lookup"><span data-stu-id="9be34-314">Functional parts: Export data to XLS and DOC report templates, queries, fixed requisites are removed.</span></span> 
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-315">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-315">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-316">Las partes quitadas se reemplazan con los informes electrónicos.</span><span class="sxs-lookup"><span data-stu-id="9be34-316">Removed parts are replaced with Electronic reporting.</span></span> |
+| <span data-ttu-id="9be34-317">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-317">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-318">Sí.</span><span class="sxs-lookup"><span data-stu-id="9be34-318">Yes.</span></span> <span data-ttu-id="9be34-319">La interfaz de usuario de configuración de informes financieros se debe usar para configurar reglas de recopilación de datos según cuentas de contabilidad general o registros de impuestos.</span><span class="sxs-lookup"><span data-stu-id="9be34-319">Financial reports setup user interface should be used for setting up data collection rules by GL accounts or tax registers.</span></span> <span data-ttu-id="9be34-320">La exportación de datos a distintos tipos de archivo, los requisitos y las consultas fijos, como las reglas de recopilación de datos, se deben configurar en el informe electrónico.</span><span class="sxs-lookup"><span data-stu-id="9be34-320">Export data to various file types, fixed requisites and query-like data collection rules should be configured in Electronic reporting.</span></span> |
+| <span data-ttu-id="9be34-321">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-321">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-322">Contabilidad general</span><span class="sxs-lookup"><span data-stu-id="9be34-322">General ledger.</span></span> |
+| <span data-ttu-id="9be34-323">**Opción de implementación**</span><span class="sxs-lookup"><span data-stu-id="9be34-323">**Deployment option**</span></span>              | <span data-ttu-id="9be34-324">Todas</span><span class="sxs-lookup"><span data-stu-id="9be34-324">All</span></span> |
+| <span data-ttu-id="9be34-325">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-325">**Status**</span></span>                         | <span data-ttu-id="9be34-326">Eliminado desde Dynamics 365 for Finance and Operations 8.1 con la plataforma actualice 20.</span><span class="sxs-lookup"><span data-stu-id="9be34-326">Removed as of Dynamics 365 for Finance and Operations 8.1 with platform update 20.</span></span> |
+
+### <a name="integration-with-external-providers-for-sending-electronic-reporting-through-communication-channels-for-russia"></a><span data-ttu-id="9be34-327">Integración con los proveedores externos para enviar notificaciones electrónicas a través de los canales de comunicación para Rusia</span><span class="sxs-lookup"><span data-stu-id="9be34-327">Integration with external providers for sending electronic reporting through communication channels for Russia</span></span>
+<span data-ttu-id="9be34-328">Característica que exporta archivos electrónicos generados de declaraciones a la carpeta para el envío adicional a los proveedores oficiales de informes electrónicos así como su importación.</span><span class="sxs-lookup"><span data-stu-id="9be34-328">Feature exporting generated electronic files of declarations to folder for further sending to official providers of electronic reporting as well as importing state back.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-329">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-329">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-330">Reemplazada con la función configurable de los mensajes electrónicos.</span><span class="sxs-lookup"><span data-stu-id="9be34-330">Replaced with electronic messages configurable feature.</span></span> |
+| <span data-ttu-id="9be34-331">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-331">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-332">Sí.</span><span class="sxs-lookup"><span data-stu-id="9be34-332">Yes.</span></span>  |
+| <span data-ttu-id="9be34-333">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-333">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-334">Contabilidad general, impuestos</span><span class="sxs-lookup"><span data-stu-id="9be34-334">General Ledger, Tax</span></span> |
+| <span data-ttu-id="9be34-335">**Opción de implementación**</span><span class="sxs-lookup"><span data-stu-id="9be34-335">**Deployment option**</span></span>              | <span data-ttu-id="9be34-336">Todas</span><span class="sxs-lookup"><span data-stu-id="9be34-336">All</span></span> |
+| <span data-ttu-id="9be34-337">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-337">**Status**</span></span>                         | <span data-ttu-id="9be34-338">Eliminado desde Dynamics 365 for Finance and Operations 8.1 con la plataforma actualice 20.</span><span class="sxs-lookup"><span data-stu-id="9be34-338">Removed as of Dynamics 365 for Finance and Operations 8.1 with platform update 20.</span></span> |
+
+
+### <a name="profit-tax-register-wizard"></a><span data-ttu-id="9be34-339">Asistente del registro de impuesto de ganancias</span><span class="sxs-lookup"><span data-stu-id="9be34-339">Profit tax register wizard</span></span>
+<span data-ttu-id="9be34-340">Característica para crear plantillas para nuevos registros de impuestos sobre ganancias.</span><span class="sxs-lookup"><span data-stu-id="9be34-340">Feature for creating templates for new profit tax registers.</span></span> <span data-ttu-id="9be34-341">Esta característica crea objetos X++ para nuevos registros, que se crean como plantillas con la lógica de cálculo apropiada agregada.</span><span class="sxs-lookup"><span data-stu-id="9be34-341">This feature creates X++ objects for new registers, which are then  created as templates with the appropriate calculation logic added in.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-342">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-342">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-343">La característica no es compatible con el modelo de extensibilidad de Dynamics 365 for Finance and Operations .</span><span class="sxs-lookup"><span data-stu-id="9be34-343">Feature is not compatible with the Dynamics 365 for Finance and Operations extensibility model.</span></span> |
+| <span data-ttu-id="9be34-344">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-344">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-345">Nº</span><span class="sxs-lookup"><span data-stu-id="9be34-345">No</span></span> |
+| <span data-ttu-id="9be34-346">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-346">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-347">Impuestos</span><span class="sxs-lookup"><span data-stu-id="9be34-347">Tax</span></span> |
+| <span data-ttu-id="9be34-348">**Opción de implementación**</span><span class="sxs-lookup"><span data-stu-id="9be34-348">**Deployment option**</span></span>              | <span data-ttu-id="9be34-349">Todas</span><span class="sxs-lookup"><span data-stu-id="9be34-349">All</span></span> |
+| <span data-ttu-id="9be34-350">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-350">**Status**</span></span>                         | <span data-ttu-id="9be34-351">Eliminado desde Dynamics 365 for Finance and Operations 8.1 con la plataforma actualice 20.</span><span class="sxs-lookup"><span data-stu-id="9be34-351">Removed as of Dynamics 365 for Finance and Operations 8.1 with platform update 20.</span></span> |
+
+
+## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a><span data-ttu-id="9be34-352">Dynamics 365 for Finance and Operations 8.0 con actualización de plataforma 15</span><span class="sxs-lookup"><span data-stu-id="9be34-352">Dynamics 365 for Finance and Operations 8.0 with platform update 15</span></span>
+<span data-ttu-id="9be34-353">No se ha quitado ni se ha dejado de utilizar ninguna función con esta versión.</span><span class="sxs-lookup"><span data-stu-id="9be34-353">No features have been removed or deprecated with this release.</span></span> <span data-ttu-id="9be34-354">La actualización de la plataforma 15 es acumulativa y contiene nuevas o mejoradas funciones de la actualización de la plataforma 13, la actualización de la plataforma 14 y la actualización de la plataforma 15.</span><span class="sxs-lookup"><span data-stu-id="9be34-354">Platform update 15 is cumulative and contains new or changed features from Platform update 13, Platform update 14, and Platform update 15.</span></span>
+
+## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-73-with-platform-update-12"></a><span data-ttu-id="9be34-355">Dynamics 365 for Finance and Operations, Enterprise edition 7.3 con actualización de plataforma 12</span><span class="sxs-lookup"><span data-stu-id="9be34-355">Dynamics 365 for Finance and Operations, Enterprise edition 7.3 with platform update 12</span></span>
+
+### <a name="personalized-product-recommendations"></a><span data-ttu-id="9be34-356">Recomendaciones de productos personalizados</span><span class="sxs-lookup"><span data-stu-id="9be34-356">Personalized product recommendations</span></span> 
+<span data-ttu-id="9be34-357">A partir del 15 de febrero de 2018, los minoristas no podrán mostrar recomendaciones personalizadas de productos en un dispositivo de punto de venta (PDV).</span><span class="sxs-lookup"><span data-stu-id="9be34-357">Starting February 15, 2018, retailers will no longer be able to display personalized product recommendations on a point of sale (POS) device.</span></span> <span data-ttu-id="9be34-358">Para obtener más información, consulte [Recomendaciones personalizadas de productos](../../retail/personalized-product-recommendations.md).</span><span class="sxs-lookup"><span data-stu-id="9be34-358">For more information, see [Personalized product recommendations](../../retail/personalized-product-recommendations.md).</span></span>  
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-359">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-359">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-360">Estamos retirando la versión actual del servicio de recomendación de productos ya que rediseñamos esta función con un algoritmo mejor y capacidades más nuevas orientadas a la venta minorista.</span><span class="sxs-lookup"><span data-stu-id="9be34-360">We are removing the current version of the product recommendation service as we redesign this feature with a better algorithm and newer retail-oriented capabilities.</span></span>  |
+| <span data-ttu-id="9be34-361">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-361">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-362">N. º</span><span class="sxs-lookup"><span data-stu-id="9be34-362">No.</span></span> <span data-ttu-id="9be34-363">Sin embargo, después de la primavera de 2018, tenemos previsto volver a traer esta función para utilizar un nuevo servicio de recomendación.</span><span class="sxs-lookup"><span data-stu-id="9be34-363">However, after Spring 2018, we plan to bring back this feature to leverage a new recommendation service.</span></span>   |
+| <span data-ttu-id="9be34-364">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-364">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-365">Recomendaciones de productos personalizados en PDV.</span><span class="sxs-lookup"><span data-stu-id="9be34-365">Personalized product recommendations in POS.</span></span>                                                    |
+| <span data-ttu-id="9be34-366">**Opción de implementación**</span><span class="sxs-lookup"><span data-stu-id="9be34-366">**Deployment option**</span></span>              | <span data-ttu-id="9be34-367">Todas</span><span class="sxs-lookup"><span data-stu-id="9be34-367">All</span></span>                                                                                      |
+| <span data-ttu-id="9be34-368">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-368">**Status**</span></span>                         |<span data-ttu-id="9be34-369">Se quitó el 15 de febrero de 2018.</span><span class="sxs-lookup"><span data-stu-id="9be34-369">Removed as of February 15, 2018.</span></span> <span data-ttu-id="9be34-370">Esto afecta a los clientes que ejecutan Dynamics 365 for Operations 1611 y posteriores.</span><span class="sxs-lookup"><span data-stu-id="9be34-370">This affects customers running Dynamics 365 for Operations 1611 and later.</span></span>  |
+
+### <a name="extension-of-the-list-of-electronic-reporting-er-functions"></a><span data-ttu-id="9be34-371">Ampliación de la lista de funciones de Informes electrónicos (ER)</span><span class="sxs-lookup"><span data-stu-id="9be34-371">Extension of the list of Electronic reporting (ER) functions</span></span>
+<span data-ttu-id="9be34-372">La posibilidad de especificar las funciones personalizadas que se utilizarán en el generador de expresiones de ER (para obtener más información, consulte [Extiende la lista de funciones electrónicas de informes](../../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md)) no se admite más.</span><span class="sxs-lookup"><span data-stu-id="9be34-372">The possibility to introduce custom functions to be used in the ER expression builder (for more information, see [Extend the list of Electronic reporting functions](../../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md)) is not supported any more.</span></span> <span data-ttu-id="9be34-373">Debido a los cambios de ER API, API para llamar funciones integradas del generador de expresiones de ER se han hecho interno y ya no se puede extender.</span><span class="sxs-lookup"><span data-stu-id="9be34-373">Due to changes of the ER APIs, the API to call built-in functions from the ER expression builder became internal and can’t be extended any longer.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-374">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-374">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-375">Iniciativa de sellado de códigos</span><span class="sxs-lookup"><span data-stu-id="9be34-375">Code sealing initiative</span></span>  |
+| <span data-ttu-id="9be34-376">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-376">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-377">Ninguno.</span><span class="sxs-lookup"><span data-stu-id="9be34-377">None.</span></span> <span data-ttu-id="9be34-378">Siempre que se necesite una nueva función integrada, se debe dirigir una nueva solicitud de extensión al equipo del marco de ER.</span><span class="sxs-lookup"><span data-stu-id="9be34-378">Whenever a new built-in function is needed, a new extension request must be addressed to the ER framework team.</span></span><br><br><span data-ttu-id="9be34-379">Como solución temporal mientras que la función solicitada está en proceso de desarrollo por equipo de ER, se puede programar la lógica necesaria como método de clase de aplicación personalizada.</span><span class="sxs-lookup"><span data-stu-id="9be34-379">As a temporary work around while the requested function is under development by the ER team, the required logic can be programmed as a method of a custom application class.</span></span> <span data-ttu-id="9be34-380">A este método se puede acceder en una expresión del ER como una propiedad del origen de datos agregado del ER del tipo de **Aplicación\clase** que hace referencia a esa clase de aplicación personalizada.</span><span class="sxs-lookup"><span data-stu-id="9be34-380">This method can be accessed in an ER expression as a property of the added ER data source of the **Application\Class** type that refers to that custom application class.</span></span>  |
+| <span data-ttu-id="9be34-381">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-381">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-382">Parámetros de informes de marco</span><span class="sxs-lookup"><span data-stu-id="9be34-382">Electronic reporting framework</span></span>                                                      |
+| <span data-ttu-id="9be34-383">**Opción de implementación**</span><span class="sxs-lookup"><span data-stu-id="9be34-383">**Deployment option**</span></span>              | <span data-ttu-id="9be34-384">Todas</span><span class="sxs-lookup"><span data-stu-id="9be34-384">All</span></span>                                                                                      |
+| <span data-ttu-id="9be34-385">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-385">**Status**</span></span>                         | <span data-ttu-id="9be34-386">Eliminado desde Dynamics 365 for Finance and Operations, Enterprise edition 7.3.</span><span class="sxs-lookup"><span data-stu-id="9be34-386">Removed as of Dynamics 365 for Finance and Operations, Enterprise edition 7.3.</span></span>    |
+
+### <a name="inventory-by-item-group-and-inventory-by-inventory-dimension-aging-reports"></a><span data-ttu-id="9be34-387">Inventario por grupo de artículos e inventario por informes de antigüedad de dimensión de inventario</span><span class="sxs-lookup"><span data-stu-id="9be34-387">Inventory by item group and Inventory by inventory dimension aging reports</span></span>
+
+<span data-ttu-id="9be34-388">Estos dos informes ya no se admiten en Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="9be34-388">These two reports are no longer supported in Finance and Operations.</span></span> <span data-ttu-id="9be34-389">En su lugar, el informe de **antigüedad de inventario** se puede usar para mejorar la experiencia del usuario.</span><span class="sxs-lookup"><span data-stu-id="9be34-389">Instead, the **Inventory aging** report can be used to improve the user experience.</span></span>
+
+|   |  |
+|--------------|-----------------------|
+| <span data-ttu-id="9be34-390">**Motivo de la eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-390">**Reason for deprecation**</span></span>       | <span data-ttu-id="9be34-391">Funcionalidad duplicada</span><span class="sxs-lookup"><span data-stu-id="9be34-391">Duplicate functionality</span></span>  |
+| <span data-ttu-id="9be34-392">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-392">**Replaced by another feature?**</span></span> | <span data-ttu-id="9be34-393">Sí.</span><span class="sxs-lookup"><span data-stu-id="9be34-393">Yes.</span></span> <span data-ttu-id="9be34-394">Los dos informes han sido reemplazados por el informe **Antigüedad de inventario**.</span><span class="sxs-lookup"><span data-stu-id="9be34-394">The two reports have been replaced by the **Inventory aging** report.</span></span>     |
+| <span data-ttu-id="9be34-395">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-395">**Product areas affected**</span></span>       | <span data-ttu-id="9be34-396">Gestión del inventario, administración de costes</span><span class="sxs-lookup"><span data-stu-id="9be34-396">Inventory management, Cost management</span></span>        |
+| <span data-ttu-id="9be34-397">**Opción de implementación**</span><span class="sxs-lookup"><span data-stu-id="9be34-397">**Deployment option**</span></span>        | <span data-ttu-id="9be34-398">Todas</span><span class="sxs-lookup"><span data-stu-id="9be34-398">All</span></span>|
+| <span data-ttu-id="9be34-399">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-399">**Status**</span></span>                       | <span data-ttu-id="9be34-400">En desuso: Los elementos de menú para los dos informes se han quitado en la versión 7.3.</span><span class="sxs-lookup"><span data-stu-id="9be34-400">Deprecated: The menu items for the two reports have been removed in version 7.3.</span></span> <span data-ttu-id="9be34-401">Sin embargo, el código para los informes permanece en el producto.</span><span class="sxs-lookup"><span data-stu-id="9be34-401">However, the code for the reports remains in the product.</span></span> <span data-ttu-id="9be34-402">El plan es quitar el código en una versión futura.</span><span class="sxs-lookup"><span data-stu-id="9be34-402">The plan is to remove the code in a future release.</span></span> |
+
+### <a name="power-bi-content-packs-available-on-appsource"></a><span data-ttu-id="9be34-403">Paquetes de contenido Power BI disponibles en AppSource</span><span class="sxs-lookup"><span data-stu-id="9be34-403">Power BI content packs available on AppSource</span></span>
+<span data-ttu-id="9be34-404">Los paquetes de contenido **Administración de costes**, **Rendimiento financiero** y **Retail Channel Performance**, disponibles en el sitio [Microsoft AppSource](https://appsource.microsoft.com) están en desuso como consecuencia de actualizaciones de producto en Microsoft Power BI.</span><span class="sxs-lookup"><span data-stu-id="9be34-404">The **Cost management**, **Financial performance**, and **Retail channel performance** content packs, available on the [Microsoft AppSource](https://appsource.microsoft.com) site, are deprecated as a consequence of product updates in Microsoft Power BI.</span></span> <span data-ttu-id="9be34-405">Los formularios de administración del sistema utilizados para implementar estos paquetes de contenido a PowerBI.com también se están a dejar de utilizar en Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="9be34-405">System administration forms used to deploy these content packs to PowerBI.com are also being deprecated in Finance and Operations.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-406">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-406">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-407">Actualizaciones de producto en Microsoft Power BI.</span><span class="sxs-lookup"><span data-stu-id="9be34-407">Product updates in Microsoft Power BI.</span></span> |
+| <span data-ttu-id="9be34-408">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-408">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-409">Los paquetes de contenido **Gestión de costes**, **Rendimiento financiero** y **Retail Channel Performance**, disponibles en el sitio [AppSource](https://appsource.microsoft.com), se van a sustituir por las aplicaciones analíticas que permiten integraciones de la solución en el nivel de la base de datos.</span><span class="sxs-lookup"><span data-stu-id="9be34-409">The **Cost management**, **Financial performance**, and **Retail channel performance** content packs, available on the [AppSource](https://appsource.microsoft.com) site, are being replaced by analytical applications which allow for solution integrations at the database level.</span></span> <span data-ttu-id="9be34-410">Para obtener más información acerca de aplicaciones analíticas, consulte [Power BI incrustado en áreas de trabajo](../../dev-itpro/analytics/embed-power-bi-workspaces.md).</span><span class="sxs-lookup"><span data-stu-id="9be34-410">For more information about analytical applications, see [Embedded Power BI in workspackes](../../dev-itpro/analytics/embed-power-bi-workspaces.md).</span></span>    |
+| <span data-ttu-id="9be34-411">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-411">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-412">Administración de costes, Finanzas, y Retail</span><span class="sxs-lookup"><span data-stu-id="9be34-412">Cost management, Finance, and Retail</span></span>                                                                                               |
+| <span data-ttu-id="9be34-413">**Opción de implementación**</span><span class="sxs-lookup"><span data-stu-id="9be34-413">**Deployment option**</span></span>              | <span data-ttu-id="9be34-414">Solo en la nube (la integración con PowerBI.com no se admite en implementaciones locales).</span><span class="sxs-lookup"><span data-stu-id="9be34-414">Cloud only (Integration with PowerBI.com is not supported in on-premises deployments.)</span></span>                                                                                                            |
+| <span data-ttu-id="9be34-415">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-415">**Status**</span></span>                         | <span data-ttu-id="9be34-416">En desuso: La fecha prevista para la eliminación de la funcionalidad es el segundo trimestre de 2018.</span><span class="sxs-lookup"><span data-stu-id="9be34-416">Deprecated: Target timeframe for the functionality removal is Q2 2018.</span></span>    |
+
+### <a name="standard-ui-in-data-management-workspace"></a><span data-ttu-id="9be34-417">Interfaz de usuario estándar en área de trabajo de gestión de datos</span><span class="sxs-lookup"><span data-stu-id="9be34-417">Standard UI in data management workspace</span></span>
+
+<span data-ttu-id="9be34-418">La interfaz de usuario estándar en administración de datos es la antigua interfaz de usuario, que es la interfaz de usuario predeterminada que se muestra a los usuarios cuando visitan el espacio de trabajo de gestión de datos.</span><span class="sxs-lookup"><span data-stu-id="9be34-418">The standard UI in data management is the legacy UI, which is the default UI presented to the users when they visit the data management workspace.</span></span>
+
+|   |  |
+|------------------|-------------------------|
+| <span data-ttu-id="9be34-419">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-419">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-420">Estamos invirtiendo en suministrar nuevas experiencias de usuario en la nueva interfaz de usuario.</span><span class="sxs-lookup"><span data-stu-id="9be34-420">We are investing in providing new user experiences in the new UI.</span></span>             |
+| <span data-ttu-id="9be34-421">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-421">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-422">La nueva interfaz de usuario denominada *Vistas mejoradas* está reemplazando la interfaz de usuario antigua.</span><span class="sxs-lookup"><span data-stu-id="9be34-422">The new UI called *Enhanced views* is replacing the old UI.</span></span>            |
+| <span data-ttu-id="9be34-423">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-423">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-424">Espacio de trabajo para la gestión de datos</span><span class="sxs-lookup"><span data-stu-id="9be34-424">Data management workspace</span></span>                                                     |
+| <span data-ttu-id="9be34-425">**Opción de implementación**</span><span class="sxs-lookup"><span data-stu-id="9be34-425">**Deployment option**</span></span>              | <span data-ttu-id="9be34-426">Todas</span><span class="sxs-lookup"><span data-stu-id="9be34-426">All</span></span>                                                                           |
+| <span data-ttu-id="9be34-427">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-427">**Status**</span></span>                         | <span data-ttu-id="9be34-428">En desuso: La fecha prevista para la eliminación de la funcionalidad es el segundo trimestre de 2018.</span><span class="sxs-lookup"><span data-stu-id="9be34-428">Deprecated: Target timeframe for the functionality to be removed is Q2 2018.</span></span> |
+
+### <a name="excise-sales-tax-service-tax-for-india"></a><span data-ttu-id="9be34-429">Impuestos especiales, impuestos sobre ventas, impuesto de servicios de la India</span><span class="sxs-lookup"><span data-stu-id="9be34-429">Excise, Sales Tax, Service Tax for India</span></span>
+
+<span data-ttu-id="9be34-430">Estos impuestos se han incluido en el GST indio.</span><span class="sxs-lookup"><span data-stu-id="9be34-430">These taxes have been subsumed into Indian GST.</span></span>
+
+|                                             |                                                                         |
+|---------------------------------------------|-------------------------------------------------------------------------|
+| <span data-ttu-id="9be34-431">**Motivo de la eliminación o depreciación**</span><span class="sxs-lookup"><span data-stu-id="9be34-431">**Reason for removal or deprecation**</span></span>       | <span data-ttu-id="9be34-432">Estos impuestos se han incluido en el GST indio.</span><span class="sxs-lookup"><span data-stu-id="9be34-432">These taxes have been subsumed into Indian GST.</span></span>                          |
+| <span data-ttu-id="9be34-433">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-433">**Replaced by another feature?**</span></span>            | <span data-ttu-id="9be34-434">GST indio</span><span class="sxs-lookup"><span data-stu-id="9be34-434">Indian GST</span></span>                                                              |
+| <span data-ttu-id="9be34-435">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-435">**Product areas affected**</span></span>                  | <span data-ttu-id="9be34-436">Impuesto</span><span class="sxs-lookup"><span data-stu-id="9be34-436">Tax</span></span>                                                                     |
+| <span data-ttu-id="9be34-437">**Opción de implementación**</span><span class="sxs-lookup"><span data-stu-id="9be34-437">**Deployment option**</span></span>                       | <span data-ttu-id="9be34-438">Todos los módulos</span><span class="sxs-lookup"><span data-stu-id="9be34-438">All modules</span></span>                                                   |
+| <span data-ttu-id="9be34-439">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-439">**Status**</span></span>                                  | <span data-ttu-id="9be34-440">En desuso: No se ha establecido una fecha de eliminación para esta función.</span><span class="sxs-lookup"><span data-stu-id="9be34-440">Deprecated: A removal date has not been set for this feature.</span></span> |    
+
+### <a name="file-validation-utility-fvu-for-india"></a><span data-ttu-id="9be34-441">File Validation Utility (FVU) para la India</span><span class="sxs-lookup"><span data-stu-id="9be34-441">File Validation Utility (FVU) for India</span></span>
+
+|                                             |                                                                         |
+|---------------------------------------------|-------------------------------------------------------------------------|
+| <span data-ttu-id="9be34-442">**Motivo de la eliminación o depreciación**</span><span class="sxs-lookup"><span data-stu-id="9be34-442">**Reason for removal or deprecation**</span></span>       | <span data-ttu-id="9be34-443">Falta de uso del cliente</span><span class="sxs-lookup"><span data-stu-id="9be34-443">Lack of customer usage</span></span>                                                  |
+| <span data-ttu-id="9be34-444">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-444">**Replaced by another feature?**</span></span>            | <span data-ttu-id="9be34-445">N.º</span><span class="sxs-lookup"><span data-stu-id="9be34-445">No</span></span>                                                                      |
+| <span data-ttu-id="9be34-446">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-446">**Product areas affected**</span></span>                  | <span data-ttu-id="9be34-447">Retención de impuestos de la India</span><span class="sxs-lookup"><span data-stu-id="9be34-447">Indian withholding tax</span></span>                                                  |
+| <span data-ttu-id="9be34-448">**Opción de implementación**</span><span class="sxs-lookup"><span data-stu-id="9be34-448">**Deployment option**</span></span>                       | <span data-ttu-id="9be34-449">Todos los módulos</span><span class="sxs-lookup"><span data-stu-id="9be34-449">All modules</span></span>                                                                    |
+| <span data-ttu-id="9be34-450">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-450">**Status**</span></span>                                  | <span data-ttu-id="9be34-451">En desuso: No se ha establecido una fecha de eliminación para esta función.</span><span class="sxs-lookup"><span data-stu-id="9be34-451">Deprecated: A removal date has not been set for this feature.</span></span>   |        
+
+### <a name="tdstcs-certificate-for-india"></a><span data-ttu-id="9be34-452">Certificado de TDS/TCS para la India</span><span class="sxs-lookup"><span data-stu-id="9be34-452">TDS/TCS certificate for India</span></span>
+
+<span data-ttu-id="9be34-453">Los usuarios pueden descargar esto del portal gubernamental.</span><span class="sxs-lookup"><span data-stu-id="9be34-453">Users can download this from the government portal.</span></span>
+
+|                                             |                                                                         |
+|---------------------------------------------|-------------------------------------------------------------------------|
+| <span data-ttu-id="9be34-454">**Motivo de la eliminación o depreciación**</span><span class="sxs-lookup"><span data-stu-id="9be34-454">**Reason for removal or deprecation**</span></span>       | <span data-ttu-id="9be34-455">Falta de uso del cliente</span><span class="sxs-lookup"><span data-stu-id="9be34-455">Lack of customer usage</span></span>                                                  |
+| <span data-ttu-id="9be34-456">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-456">**Replaced by another feature?**</span></span>            | <span data-ttu-id="9be34-457">N.º</span><span class="sxs-lookup"><span data-stu-id="9be34-457">No</span></span>                                                                      |
+| <span data-ttu-id="9be34-458">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-458">**Product areas affected**</span></span>                  | <span data-ttu-id="9be34-459">Retención de impuestos de la India</span><span class="sxs-lookup"><span data-stu-id="9be34-459">Indian withholding tax</span></span>                                                  |
+| <span data-ttu-id="9be34-460">**Opción de implementación**</span><span class="sxs-lookup"><span data-stu-id="9be34-460">**Deployment option**</span></span>                       | <span data-ttu-id="9be34-461">Todos los módulos</span><span class="sxs-lookup"><span data-stu-id="9be34-461">All modules</span></span>                                                                   |
+| <span data-ttu-id="9be34-462">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-462">**Status**</span></span>                                  | <span data-ttu-id="9be34-463">En desuso: No se ha establecido una fecha de eliminación para esta función.</span><span class="sxs-lookup"><span data-stu-id="9be34-463">Deprecated: A removal date has not been set for this feature.</span></span>     |    
+
+### <a name="exportimport-exim-incentive-scheme-for-india"></a><span data-ttu-id="9be34-464">Esquema de incentivo de exportación/importación (EXIM) para la India</span><span class="sxs-lookup"><span data-stu-id="9be34-464">Export/import (EXIM) incentive scheme for India</span></span>
+
+
+|                                             |                                                                         |
+|---------------------------------------------|-------------------------------------------------------------------------|
+| <span data-ttu-id="9be34-465">**Motivo de la eliminación o depreciación**</span><span class="sxs-lookup"><span data-stu-id="9be34-465">**Reason for removal or deprecation**</span></span>       | <span data-ttu-id="9be34-466">Falta de uso del cliente</span><span class="sxs-lookup"><span data-stu-id="9be34-466">Lack of customer usage</span></span>                                                  |
+| <span data-ttu-id="9be34-467">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-467">**Replaced by another feature?**</span></span>            | <span data-ttu-id="9be34-468">N.º</span><span class="sxs-lookup"><span data-stu-id="9be34-468">No</span></span>                                                                      |
+| <span data-ttu-id="9be34-469">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-469">**Product areas affected**</span></span>                  | <span data-ttu-id="9be34-470">Importar y exportar</span><span class="sxs-lookup"><span data-stu-id="9be34-470">Import and export</span></span>                                                       |
+| <span data-ttu-id="9be34-471">**Opción de implementación**</span><span class="sxs-lookup"><span data-stu-id="9be34-471">**Deployment option**</span></span>                       | <span data-ttu-id="9be34-472">Todos los módulos</span><span class="sxs-lookup"><span data-stu-id="9be34-472">All modules</span></span>                                                                    |
+| <span data-ttu-id="9be34-473">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-473">**Status**</span></span>                                  | <span data-ttu-id="9be34-474">En desuso: No se ha establecido una fecha de eliminación para esta función.</span><span class="sxs-lookup"><span data-stu-id="9be34-474">Deprecated: A removal date has not been set for this feature.</span></span>  |    
+
+
+## <a name="dynamics-365-for-retail-72"></a><span data-ttu-id="9be34-475">Dynamics 365 for Retail 7.2</span><span class="sxs-lookup"><span data-stu-id="9be34-475">Dynamics 365 for Retail 7.2</span></span>
+
+### <a name="personalized-product-recommendations"></a><span data-ttu-id="9be34-476">Recomendaciones de productos personalizados</span><span class="sxs-lookup"><span data-stu-id="9be34-476">Personalized product recommendations</span></span> 
+<span data-ttu-id="9be34-477">A partir del 15 de febrero de 2018, los minoristas no podrán mostrar recomendaciones personalizadas de productos en un dispositivo de punto de venta (PDV).</span><span class="sxs-lookup"><span data-stu-id="9be34-477">Starting February 15, 2018, retailers will no longer be able to display personalized product recommendations on a point of sale (POS) device.</span></span> <span data-ttu-id="9be34-478">Para obtener más información, consulte [Recomendaciones personalizadas de productos](../../retail/personalized-product-recommendations.md).</span><span class="sxs-lookup"><span data-stu-id="9be34-478">For more information, see [Personalized product recommendations](../../retail/personalized-product-recommendations.md).</span></span>  
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-479">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-479">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-480">Estamos retirando la versión actual del servicio de recomendación de productos ya que rediseñamos esta función con un algoritmo mejor y capacidades más nuevas orientadas a la venta minorista.</span><span class="sxs-lookup"><span data-stu-id="9be34-480">We are removing the current version of the product recommendation service as we redesign this feature with a better algorithm and newer retail-oriented capabilities.</span></span>  |
+| <span data-ttu-id="9be34-481">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-481">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-482">N. º</span><span class="sxs-lookup"><span data-stu-id="9be34-482">No.</span></span> <span data-ttu-id="9be34-483">Sin embargo, después de la primavera de 2018, tenemos previsto volver a traer esta función para utilizar un nuevo servicio de recomendación.</span><span class="sxs-lookup"><span data-stu-id="9be34-483">However, after Spring 2018, we plan to bring back this feature to leverage a new recommendation service.</span></span>   |
+| <span data-ttu-id="9be34-484">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-484">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-485">Recomendaciones de productos personalizados en PDV.</span><span class="sxs-lookup"><span data-stu-id="9be34-485">Personalized product recommendations in POS.</span></span>                                                    |
+| <span data-ttu-id="9be34-486">**Opción de implementación**</span><span class="sxs-lookup"><span data-stu-id="9be34-486">**Deployment option**</span></span>              | <span data-ttu-id="9be34-487">Todas</span><span class="sxs-lookup"><span data-stu-id="9be34-487">All</span></span>                                                                                      |
+| <span data-ttu-id="9be34-488">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-488">**Status**</span></span>                         |<span data-ttu-id="9be34-489">Se quitó el 15 de febrero de 2018.</span><span class="sxs-lookup"><span data-stu-id="9be34-489">Removed as of February 15, 2018.</span></span> <span data-ttu-id="9be34-490">Esto afecta a los clientes que ejecutan Dynamics 365 for Retail 7.2 y posteriores.</span><span class="sxs-lookup"><span data-stu-id="9be34-490">This affects customers running Dynamics 365 for Retail 7.2  and later.</span></span> |
+
+
+## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a><span data-ttu-id="9be34-491">Dynamics 365 for Finance and Operations, Enterprise edition Julio 2017 con actualización de plataforma 8</span><span class="sxs-lookup"><span data-stu-id="9be34-491">Dynamics 365 for Finance and Operations, Enterprise edition July 2017 with platform update 8</span></span>
+
+### <a name="currency-conversion-for-accounting-and-reporting-currencies"></a><span data-ttu-id="9be34-492">Conversión de divisa para contabilidad y divisas de notificación</span><span class="sxs-lookup"><span data-stu-id="9be34-492">Currency conversion for accounting and reporting currencies</span></span>
+
+<span data-ttu-id="9be34-493">La conversión de divisas para contabilidad y divisas de notificación se introdujo cuando se introdujo el euro.</span><span class="sxs-lookup"><span data-stu-id="9be34-493">Currency conversion for accounting and reporting currencies was introduced when the euro was introduced.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-494">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-494">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-495">Uso y adición limitados de la funcionalidad Copiar entidad jurídica como sustitución.</span><span class="sxs-lookup"><span data-stu-id="9be34-495">Limited usage and addition of the Copy legal entity functionality as a replacement.</span></span>      |
+| <span data-ttu-id="9be34-496">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-496">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-497">No, pero las funciones Copiar entidad jurídica y Configuraciones se agregaron para facilitar el cambio a una empresa que tiene requisitos básicos cambiantes.</span><span class="sxs-lookup"><span data-stu-id="9be34-497">No, but the Copy legal entity and Configurations features were added to make it easier to move to a company that has changing core requirements.</span></span> |
+| <span data-ttu-id="9be34-498">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-498">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-499">Administración financiera</span><span class="sxs-lookup"><span data-stu-id="9be34-499">Financial management</span></span>     |
+| <span data-ttu-id="9be34-500">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-500">**Status**</span></span>                         | <span data-ttu-id="9be34-501">En desuso: No se ha establecido una fecha de eliminación para esta función.</span><span class="sxs-lookup"><span data-stu-id="9be34-501">Deprecated: A removal date has not been set for this feature.</span></span>   |
+
+
+### <a name="warehouse-mobile-devices-portal"></a><span data-ttu-id="9be34-502">Portal de dispositivos móviles de almacén</span><span class="sxs-lookup"><span data-stu-id="9be34-502">Warehouse mobile devices portal</span></span>
+
+<span data-ttu-id="9be34-503">El portal de dispositivos móviles de almacén (WMDP) era componente independiente pensando para la implementación propia localmente.</span><span class="sxs-lookup"><span data-stu-id="9be34-503">Warehouse mobile devices portal (WMDP) was a standalone component that was intended for on-premises self-deployment.</span></span> <span data-ttu-id="9be34-504">Este componente ya no se admite en Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="9be34-504">This component is no longer supported in Finance and Operations.</span></span> <span data-ttu-id="9be34-505">Una aplicación nativa que mejora la experiencia del usuario ha sustituido a la funcionalidad de WMDP.</span><span class="sxs-lookup"><span data-stu-id="9be34-505">A native app that improves the user experience has replaced the functionality of WMDP.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-506">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-506">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-507">Funcionalidad duplicada.</span><span class="sxs-lookup"><span data-stu-id="9be34-507">Duplicate functionality.</span></span>       |
+| <span data-ttu-id="9be34-508">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-508">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-509">Sí.</span><span class="sxs-lookup"><span data-stu-id="9be34-509">Yes.</span></span> <span data-ttu-id="9be34-510">Esta función se ha sustituido por Finance and Operations - Warehousing.</span><span class="sxs-lookup"><span data-stu-id="9be34-510">This feature has been replaced by Finance and Operations - Warehousing.</span></span> <span data-ttu-id="9be34-511">Para obtener más información sobre la configuración y prerequisitos, consulte [Instalar y configurar Microsoft Dynamics 365 for Finance and Operations - Almacenaje](../../supply-chain/warehousing/install-configure-warehousing-app.md).</span><span class="sxs-lookup"><span data-stu-id="9be34-511">For more information about setup and prerequisites, see [Install and configure Microsoft Dynamics 365 for Finance and Operations - Warehousing](../../supply-chain/warehousing/install-configure-warehousing-app.md).</span></span> |
+| <span data-ttu-id="9be34-512">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-512">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-513">Gestión de almacenes y administración de transporte</span><span class="sxs-lookup"><span data-stu-id="9be34-513">Warehouse management, Transportation management</span></span>     |
+| <span data-ttu-id="9be34-514">**Opción de implementación**</span><span class="sxs-lookup"><span data-stu-id="9be34-514">**Deployment option**</span></span>              | <span data-ttu-id="9be34-515">El portal de dispositivos móviles de almacén (WMDP) era componente independiente pensando para la implementación propia localmente.</span><span class="sxs-lookup"><span data-stu-id="9be34-515">Warehouse mobile devices portal (WMDP) was a standalone component that was intended for on-premises self-deployment.</span></span>               |
+| <span data-ttu-id="9be34-516">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-516">**Status**</span></span>                         | <span data-ttu-id="9be34-517">En desuso: La fecha prevista para la eliminación de la funcionalidad es el cuarto trimestre de 2019.</span><span class="sxs-lookup"><span data-stu-id="9be34-517">Deprecated: Target timeframe for the functionality to be removed is Q4 2019.</span></span>   |
+
+### <a name="advanced-bank-reconciliation-matching-rule-for-manual-matching"></a><span data-ttu-id="9be34-518">Regla de correspondencia de conciliación bancaria para coincidencia manual</span><span class="sxs-lookup"><span data-stu-id="9be34-518">Advanced bank reconciliation matching rule for manual matching</span></span>
+
+<span data-ttu-id="9be34-519">Una regla de coincidencia se utilizó para seleccionar y marcar un documento bancario cuando los documentos se conciliaron manualmente en la hoja de cálculo de conciliación.</span><span class="sxs-lookup"><span data-stu-id="9be34-519">A matching rule was used to select and mark a bank document when documents were manually matched in the reconciliation worksheet.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-520">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-520">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-521">Uso limitado.</span><span class="sxs-lookup"><span data-stu-id="9be34-521">Limited usage.</span></span>                                                                         |
+| <span data-ttu-id="9be34-522">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-522">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-523">N. º</span><span class="sxs-lookup"><span data-stu-id="9be34-523">No.</span></span> <span data-ttu-id="9be34-524">Las capacidades de filtro de columnas se deben usar para buscar los documentos de la conciliación.</span><span class="sxs-lookup"><span data-stu-id="9be34-524">Column filtering capabilities should be used to find documents for reconciliation.</span></span> |
+| <span data-ttu-id="9be34-525">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-525">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-526">Gestión de efectivo y bancos</span><span class="sxs-lookup"><span data-stu-id="9be34-526">Cash and bank management</span></span>                                                               |
+| <span data-ttu-id="9be34-527">**Opción de implementación**</span><span class="sxs-lookup"><span data-stu-id="9be34-527">**Deployment option**</span></span>              | <span data-ttu-id="9be34-528">Todas</span><span class="sxs-lookup"><span data-stu-id="9be34-528">All</span></span>                                                                                    |
+| <span data-ttu-id="9be34-529">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-529">**Status**</span></span>                         | <span data-ttu-id="9be34-530">Se quitó en julio 2017.</span><span class="sxs-lookup"><span data-stu-id="9be34-530">Removed as of July 2017.</span></span>                                                               |
+
+## <a name="dynamics-365-for-operations-1611-with-platform-update-3"></a><span data-ttu-id="9be34-531">Dynamics 365 for Operations 1611 con actualización de plataforma 3</span><span class="sxs-lookup"><span data-stu-id="9be34-531">Dynamics 365 for Operations 1611 with platform update 3</span></span>
+
+### <a name="aeb-payment-formats-for-spain"></a><span data-ttu-id="9be34-532">Formatos de pago de AEB para España</span><span class="sxs-lookup"><span data-stu-id="9be34-532">AEB payment formats for Spain</span></span>
+
+<span data-ttu-id="9be34-533">Los formatos de pago del Consejo Superior Bancario se usaron para enviar archivos de remesas al banco de los pagos de clientes y proveedores.</span><span class="sxs-lookup"><span data-stu-id="9be34-533">The Consejo Superior Bancario payment formats were used to send remittance files to the bank for customer payments and vendor payments.</span></span> <span data-ttu-id="9be34-534">El contenido de estos formatos lo determinaba la Asociación Española de Banca.</span><span class="sxs-lookup"><span data-stu-id="9be34-534">The content of these formats was determined by the Asociación Española de Banca.</span></span> <span data-ttu-id="9be34-535">Cubre Cuadernos 19, 32, 58, 34.</span><span class="sxs-lookup"><span data-stu-id="9be34-535">It covers Cuaderno 19, 32, 58, 34.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-536">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-536">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-537">Los formatos de pago ya no se usan.</span><span class="sxs-lookup"><span data-stu-id="9be34-537">The payment formats are no longer used.</span></span>                                  |
+| <span data-ttu-id="9be34-538">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-538">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-539">Sí, transferencia de crédito ISO20022 y formatos de pago de domiciliación bancaria para España</span><span class="sxs-lookup"><span data-stu-id="9be34-539">Yes, ISO20022 Credit transfer and Direct debit payment formats for Spain</span></span> |
+| <span data-ttu-id="9be34-540">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-540">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-541">Cuentas de proveedores, cuentas de clientes</span><span class="sxs-lookup"><span data-stu-id="9be34-541">Accounts payable, Accounts receivable</span></span>                                    |
+| <span data-ttu-id="9be34-542">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-542">**Status**</span></span>                         | <span data-ttu-id="9be34-543">En desuso: No se ha establecido una fecha de eliminación para esta función.</span><span class="sxs-lookup"><span data-stu-id="9be34-543">Deprecated: A removal date has not been set for this feature.</span></span>           |
+
+### <a name="bank-payments-transfer-for-lithuania"></a><span data-ttu-id="9be34-544">Transferencia de pagos bancarios para Lituania</span><span class="sxs-lookup"><span data-stu-id="9be34-544">Bank payments transfer for Lithuania</span></span>
+
+<span data-ttu-id="9be34-545">Las transferencias de los pagos bancarios se generaban e imprimían mediante el formato de exportación de transferencia de pagos para Lituania (LT).</span><span class="sxs-lookup"><span data-stu-id="9be34-545">Bank payment transfers were generated and printed by using the Payment transfer (LT) export format for Lithuania.</span></span> <span data-ttu-id="9be34-546">El mercado lituano empezó a usar LITAS, el sistema unificado de banca electrónica, en 2005.</span><span class="sxs-lookup"><span data-stu-id="9be34-546">The Lithuanian market began to use LITAS, the unified electronic banking system, in 2005.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-547">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-547">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-548">Los formatos de pago ya no se usan.</span><span class="sxs-lookup"><span data-stu-id="9be34-548">The payment formats are no longer used.</span></span>                        |
+| <span data-ttu-id="9be34-549">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-549">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-550">Sí, formato de pago de transferencia de crédito ISO20022 para Lituania</span><span class="sxs-lookup"><span data-stu-id="9be34-550">Yes, ISO20022 Credit transfer payment format for Lithuania</span></span>     |
+| <span data-ttu-id="9be34-551">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-551">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-552">Proveedores</span><span class="sxs-lookup"><span data-stu-id="9be34-552">Accounts payable</span></span>                                               |
+| <span data-ttu-id="9be34-553">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-553">**Status**</span></span>                         | <span data-ttu-id="9be34-554">En desuso: No se ha establecido una fecha de eliminación para esta función.</span><span class="sxs-lookup"><span data-stu-id="9be34-554">Deprecated: A removal date has not been set for this feature.</span></span> |
+
+### <a name="bbs-direkte-remittering-payment-formats-for-norway"></a><span data-ttu-id="9be34-555">Formatos de pago de BBS Direkte Remittering para Noruega</span><span class="sxs-lookup"><span data-stu-id="9be34-555">BBS Direkte Remittering payment formats for Norway</span></span>
+
+<span data-ttu-id="9be34-556">Los formatos de pago de BBS Direkte Remittering incluyen la exportación del cobro de pago de cliente (domiciliación bancaria) y la importación de la devolución del mensaje.</span><span class="sxs-lookup"><span data-stu-id="9be34-556">BBS Direkte Remittering payment formats include customer payment collection export (direct debit) and return message import.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-557">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-557">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-558">Los formatos de pago ya no se usan.</span><span class="sxs-lookup"><span data-stu-id="9be34-558">The payment formats are no longer used.</span></span>  |
+| <span data-ttu-id="9be34-559">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-559">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-560">El formato de pago de un cliente de AvtaleGiro para Noruega se puede usar para generar los mensajes de domiciliación bancaria.</span><span class="sxs-lookup"><span data-stu-id="9be34-560">The AvtaleGiro customer payment format for Norway can be used to generate direct debit messages.</span></span> <span data-ttu-id="9be34-561">La importación de la devolución del mensaje será implementada en próximas versiones.</span><span class="sxs-lookup"><span data-stu-id="9be34-561">Return message import will be implemented in future releases.</span></span> |
+| <span data-ttu-id="9be34-562">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-562">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-563">Cuentas de proveedores, cuentas de clientes</span><span class="sxs-lookup"><span data-stu-id="9be34-563">Accounts payable, Accounts receivable</span></span>   |
+| <span data-ttu-id="9be34-564">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-564">**Status**</span></span>                         | <span data-ttu-id="9be34-565">En desuso: No se ha establecido una fecha de eliminación para esta función.</span><span class="sxs-lookup"><span data-stu-id="9be34-565">Deprecated: A removal date has not been set for this feature.</span></span>                                                                                                 |
+
+### <a name="chart-of-accounts-tool-for-spain"></a><span data-ttu-id="9be34-566">Herramienta para el plan de cuentas para España</span><span class="sxs-lookup"><span data-stu-id="9be34-566">Chart of Accounts tool for Spain</span></span>
+
+<span data-ttu-id="9be34-567">Se utiliza esta herramienta cuando un plan de cuentas en España requiere cambios importantes.</span><span class="sxs-lookup"><span data-stu-id="9be34-567">This tool is used when a chart of accounts in Spain requires major changes.</span></span> <span data-ttu-id="9be34-568">Los usuarios pueden importar un nuevo plan de cuentas en Microsoft Excel o en formato de texto, y también pueden importar los informes financieros.</span><span class="sxs-lookup"><span data-stu-id="9be34-568">Users can import a new chart of accounts in Microsoft Excel or text format, and can also import financial statements.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-569">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-569">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-570">Uso limitado</span><span class="sxs-lookup"><span data-stu-id="9be34-570">Limited usage</span></span>                                                  |
+| <span data-ttu-id="9be34-571">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-571">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-572">N.º</span><span class="sxs-lookup"><span data-stu-id="9be34-572">No</span></span>                                                             |
+| <span data-ttu-id="9be34-573">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-573">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-574">Contabilidad general</span><span class="sxs-lookup"><span data-stu-id="9be34-574">General ledger</span></span>                                                 |
+| <span data-ttu-id="9be34-575">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-575">**Status**</span></span>                         | <span data-ttu-id="9be34-576">En desuso: No se ha establecido una fecha de eliminación para esta función.</span><span class="sxs-lookup"><span data-stu-id="9be34-576">Deprecated: A removal date has not been set for this feature.</span></span> |
+
+### <a name="dom80-payment-format-for-belgium"></a><span data-ttu-id="9be34-577">Formato de pago Dom80 para Bélgica</span><span class="sxs-lookup"><span data-stu-id="9be34-577">Dom80 payment format for Belgium</span></span>
+
+<span data-ttu-id="9be34-578">Formato de pago Legacy Belga para cobro de pago (domiciliación bancaria).</span><span class="sxs-lookup"><span data-stu-id="9be34-578">Legacy Belgian payment format for payment collection (direct debit).</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-579">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-579">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-580">El formato de pago ya no se usa.</span><span class="sxs-lookup"><span data-stu-id="9be34-580">The payment format is no longer used.</span></span>                          |
+| <span data-ttu-id="9be34-581">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-581">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-582">Sí, formato de pago de domiciliación bancaria ISO 20022 para Bélgica.</span><span class="sxs-lookup"><span data-stu-id="9be34-582">Yes, ISO 20022 Direct debit payment format for Belgium</span></span>         |
+| <span data-ttu-id="9be34-583">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-583">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-584">Clientes</span><span class="sxs-lookup"><span data-stu-id="9be34-584">Accounts receivable</span></span>                                            |
+| <span data-ttu-id="9be34-585">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-585">**Status**</span></span>                         | <span data-ttu-id="9be34-586">En desuso: No se ha establecido una fecha de eliminación para esta función.</span><span class="sxs-lookup"><span data-stu-id="9be34-586">Deprecated: A removal date has not been set for this feature.</span></span> |
+
+### <a name="dtaezag-payment-formats-for-switzerland"></a><span data-ttu-id="9be34-587">Formatos de pago DTA/EZAG para Suiza</span><span class="sxs-lookup"><span data-stu-id="9be34-587">DTA/EZAG payment formats for Switzerland</span></span>
+
+<span data-ttu-id="9be34-588">Los formatos DTA/EZAG se integran en el sistema ESR, ya que pueden contener un número de referencia.</span><span class="sxs-lookup"><span data-stu-id="9be34-588">DTA/EZAG formats are integrated into the ESR system, because they can carry on the reference number.</span></span> <span data-ttu-id="9be34-589">Puesto que el número de referencia no es obligatorio, los formatos se pueden usar para procesar los pagos de cualquier proveedor.</span><span class="sxs-lookup"><span data-stu-id="9be34-589">Because the reference number isn’t mandatory, these formats can be used to process any vendor payments.</span></span> <span data-ttu-id="9be34-590">Estos formatos los usan las empresas con una cuenta bancaria en una ubicación diferente de “Postfinance.”</span><span class="sxs-lookup"><span data-stu-id="9be34-590">These formats are used by companies that have a bank account in a location other than “Postfinance.”</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-591">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-591">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-592">Los formatos de pago ya no se usan.</span><span class="sxs-lookup"><span data-stu-id="9be34-592">The payment formats are no longer used.</span></span>                        |
+| <span data-ttu-id="9be34-593">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-593">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-594">Sí, formato de pago de transferencia de crédito ISO20022 para Suiza</span><span class="sxs-lookup"><span data-stu-id="9be34-594">Yes, ISO20022 Credit transfer payment format for Switzerland</span></span>   |
+| <span data-ttu-id="9be34-595">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-595">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-596">Proveedores</span><span class="sxs-lookup"><span data-stu-id="9be34-596">Accounts payable</span></span>                                               |
+| <span data-ttu-id="9be34-597">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-597">**Status**</span></span>                         | <span data-ttu-id="9be34-598">En desuso: No se ha establecido una fecha de eliminación para esta función.</span><span class="sxs-lookup"><span data-stu-id="9be34-598">Deprecated: A removal date has not been set for this feature.</span></span> |
+
+### <a name="edifact-dirdeb-payment-format-for-austria"></a><span data-ttu-id="9be34-599">Formato de pago de EDIFACT-DIRDEB para Austria</span><span class="sxs-lookup"><span data-stu-id="9be34-599">EDIFACT-DIRDEB payment format for Austria</span></span>
+
+<span data-ttu-id="9be34-600">Formato de pago de EDIFACT-DIRDEB para cobro de pago (domiciliación bancaria).</span><span class="sxs-lookup"><span data-stu-id="9be34-600">EDIFACT-DIRDEB payment format for payment collection (direct debit).</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-601">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-601">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-602">El formato de pago ya no se usa.</span><span class="sxs-lookup"><span data-stu-id="9be34-602">The payment format is no longer used.</span></span>                          |
+| <span data-ttu-id="9be34-603">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-603">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-604">Sí, formato de pago de domiciliación bancaria ISO 20022 para Austria</span><span class="sxs-lookup"><span data-stu-id="9be34-604">Yes, ISO 20022 Direct debit payment format for Austria</span></span>         |
+| <span data-ttu-id="9be34-605">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-605">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-606">Clientes</span><span class="sxs-lookup"><span data-stu-id="9be34-606">Accounts receivable</span></span>                                            |
+| <span data-ttu-id="9be34-607">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-607">**Status**</span></span>                         | <span data-ttu-id="9be34-608">En desuso: No se ha establecido una fecha de eliminación para esta función.</span><span class="sxs-lookup"><span data-stu-id="9be34-608">Deprecated: A removal date has not been set for this feature.</span></span> |
+
+### <a name="edivat-for-belgium"></a><span data-ttu-id="9be34-609">EDIVAT para Bélgica</span><span class="sxs-lookup"><span data-stu-id="9be34-609">EDIVAT for Belgium</span></span>
+
+<span data-ttu-id="9be34-610">EDIVAT es una norma belga obsoleta para la declaración electrónica a través de correo seguro.</span><span class="sxs-lookup"><span data-stu-id="9be34-610">EDIVAT is an obsolete Belgian standard for electronic declaration via secure mail.</span></span> <span data-ttu-id="9be34-611">Microsoft Dynamics AX 2012 conserva la opción de sólo lectura para habilitar el acceso a los datos históricos.</span><span class="sxs-lookup"><span data-stu-id="9be34-611">Microsoft Dynamics AX 2012 retains the read-only solution to enable access to the historical data.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-612">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-612">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-613">La función ya no se usa.</span><span class="sxs-lookup"><span data-stu-id="9be34-613">The functionality is no longer used.</span></span>                           |
+| <span data-ttu-id="9be34-614">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-614">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-615">N.º</span><span class="sxs-lookup"><span data-stu-id="9be34-615">No</span></span>                                                             |
+| <span data-ttu-id="9be34-616">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-616">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-617">Contabilidad general</span><span class="sxs-lookup"><span data-stu-id="9be34-617">General ledger</span></span>                                                 |
+| <span data-ttu-id="9be34-618">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-618">**Status**</span></span>                         | <span data-ttu-id="9be34-619">En desuso: No se ha establecido una fecha de eliminación para esta función.</span><span class="sxs-lookup"><span data-stu-id="9be34-619">Deprecated: A removal date has not been set for this feature.</span></span> |
+
+### <a name="egiro-edifact-cremul-payment-import-format-for-norway"></a><span data-ttu-id="9be34-620">Formato de importación de pago de eGiro EDIFACT CREMUL para Noruega</span><span class="sxs-lookup"><span data-stu-id="9be34-620">eGiro EDIFACT CREMUL payment import format for Norway</span></span>
+
+<span data-ttu-id="9be34-621">eGiro se basa en la norma internacional UN EDIFACT CREMUL (Mensaje de aviso de crédito múltiple), que se usa para el registro automático de pagos del cliente.</span><span class="sxs-lookup"><span data-stu-id="9be34-621">eGiro is based on the international UN EDIFACT CREMUL (Multiple Credit Advice Message) standard that is used for automatic posting of customer payments.</span></span> <span data-ttu-id="9be34-622">En Microsoft Dynamics AX, eGiro se implementa como formato de importación de pago de cliente.</span><span class="sxs-lookup"><span data-stu-id="9be34-622">In Microsoft Dynamics AX, eGiro is implemented as a customer payment import format.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-623">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-623">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-624">El formato de pago ya no se usa.</span><span class="sxs-lookup"><span data-stu-id="9be34-624">The payment format is no longer used.</span></span>                                                     |
+| <span data-ttu-id="9be34-625">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-625">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-626">N. º</span><span class="sxs-lookup"><span data-stu-id="9be34-626">No.</span></span> <span data-ttu-id="9be34-627">El formato se sustituirá por formatos ISO 20022 de importación de criterio en próximas versiones.</span><span class="sxs-lookup"><span data-stu-id="9be34-627">The format will be replaced by ISO 20022 statement import formats in future releases.</span></span> |
+| <span data-ttu-id="9be34-628">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-628">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-629">Clientes</span><span class="sxs-lookup"><span data-stu-id="9be34-629">Accounts receivable</span></span>                                                                       |
+| <span data-ttu-id="9be34-630">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-630">**Status**</span></span>                         | <span data-ttu-id="9be34-631">En desuso: No se ha establecido una fecha de eliminación para esta función.</span><span class="sxs-lookup"><span data-stu-id="9be34-631">Deprecated: A removal date has not been set for this feature.</span></span>                            |
+
+### <a name="external-inventory-for-poland"></a><span data-ttu-id="9be34-632">Inventario externo para Polonia</span><span class="sxs-lookup"><span data-stu-id="9be34-632">External inventory for Poland</span></span>
+
+<span data-ttu-id="9be34-633">Pruebas de mercancías que se toman de un proveedor para las venta sin compra.</span><span class="sxs-lookup"><span data-stu-id="9be34-633">Evidence of goods that are taken from a vendor for sales without purchase.</span></span> <span data-ttu-id="9be34-634">Las mercancías que son gestionadas en un inventario externo no afectan al inventario estándar y se pueden vender y después comprar automáticamente.</span><span class="sxs-lookup"><span data-stu-id="9be34-634">Goods that are handled in external inventory don’t affect standard inventory, and can be sold and then purchased automatically.</span></span> <span data-ttu-id="9be34-635">Este proceso crea los movimientos de inventario reales.</span><span class="sxs-lookup"><span data-stu-id="9be34-635">This process creates real inventory movements.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-636">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-636">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-637">Reemplazado por otra característica</span><span class="sxs-lookup"><span data-stu-id="9be34-637">Replaced by another feature</span></span>                                    |
+| <span data-ttu-id="9be34-638">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-638">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-639">Sí, la funcionalidad básica de entrada de envío</span><span class="sxs-lookup"><span data-stu-id="9be34-639">Yes, the core Inbound consignment functionality</span></span>                |
+| <span data-ttu-id="9be34-640">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-640">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-641">Cuentas de proveedores, gestión de inventario</span><span class="sxs-lookup"><span data-stu-id="9be34-641">Accounts payable, Inventory management</span></span>                         |
+| <span data-ttu-id="9be34-642">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-642">**Status**</span></span>                         | <span data-ttu-id="9be34-643">En desuso: No se ha establecido una fecha de eliminación para esta función.</span><span class="sxs-lookup"><span data-stu-id="9be34-643">Deprecated: A removal date has not been set for this feature.</span></span> |
+
+### <a name="financial-reports-generator-for-eastern-europe"></a><span data-ttu-id="9be34-644">Generador de informes financieros para Europa Oriental</span><span class="sxs-lookup"><span data-stu-id="9be34-644">Financial reports generator for Eastern Europe</span></span>
+
+<span data-ttu-id="9be34-645">Se utiliza una herramienta para configurar la recopilación de datos para los informes de contabilidad e impuestos, y para exportar datos a plantillas de informes XLS y DOC.</span><span class="sxs-lookup"><span data-stu-id="9be34-645">A tool is used to set up data collection for accounting and tax reports, and to export data to XLS and DOC report templates.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-646">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-646">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-647">Uso limitado</span><span class="sxs-lookup"><span data-stu-id="9be34-647">Limited usage</span></span>                                                                            |
+| <span data-ttu-id="9be34-648">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-648">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-649">N. º</span><span class="sxs-lookup"><span data-stu-id="9be34-649">No.</span></span> <span data-ttu-id="9be34-650">La herramienta se reemplazará por las configuraciones de informes electrónicas en próximas versiones.</span><span class="sxs-lookup"><span data-stu-id="9be34-650">The tool will be replaced by Electronic reporting configurations in future releases.</span></span> |
+| <span data-ttu-id="9be34-651">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-651">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-652">Libro mayor general</span><span class="sxs-lookup"><span data-stu-id="9be34-652">General Ledger</span></span>                                                                           |
+| <span data-ttu-id="9be34-653">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-653">**Status**</span></span>                         | <span data-ttu-id="9be34-654">En desuso: No se ha establecido una fecha de eliminación para esta función.</span><span class="sxs-lookup"><span data-stu-id="9be34-654">Deprecated: A removal date has not been set for this feature.</span></span>                           |
+
+### <a name="import-of-customer-payment-transactions-for-finland"></a><span data-ttu-id="9be34-655">Importación de las transacciones de pago del cliente para Finlandia</span><span class="sxs-lookup"><span data-stu-id="9be34-655">Import of customer payment transactions for Finland</span></span>
+
+<span data-ttu-id="9be34-656">Puede seleccionar un formato de importación para los pagos finlandeses para importar las transacciones de pago del cliente desde un archivo externo proporcionado por el banco.</span><span class="sxs-lookup"><span data-stu-id="9be34-656">You can select an import format for Finnish payments to import customer payment transactions from an external file that the bank provides.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-657">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-657">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-658">El formato de pago ya no se usa.</span><span class="sxs-lookup"><span data-stu-id="9be34-658">The payment format is no longer used.</span></span>                                                     |
+| <span data-ttu-id="9be34-659">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-659">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-660">N. º</span><span class="sxs-lookup"><span data-stu-id="9be34-660">No.</span></span> <span data-ttu-id="9be34-661">El formato se sustituirá por formatos ISO 20022 de importación de criterio en próximas versiones.</span><span class="sxs-lookup"><span data-stu-id="9be34-661">The format will be replaced by ISO 20022 statement import formats in future releases.</span></span> |
+| <span data-ttu-id="9be34-662">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-662">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-663">Clientes</span><span class="sxs-lookup"><span data-stu-id="9be34-663">Accounts receivable</span></span>                                                                       |
+| <span data-ttu-id="9be34-664">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-664">**Status**</span></span>                         | <span data-ttu-id="9be34-665">En desuso: No se ha establecido una fecha de eliminación para esta función.</span><span class="sxs-lookup"><span data-stu-id="9be34-665">Deprecated: A removal date has not been set for this feature.</span></span>                            |
+
+### <a name="import-of-payment-transactions-into-a-general-ledger-journal-for-finland"></a><span data-ttu-id="9be34-666">Importación de transacciones de pago en un diario de contabilidad general para Finlandia</span><span class="sxs-lookup"><span data-stu-id="9be34-666">Import of payment transactions into a general ledger journal for Finland</span></span>
+
+<span data-ttu-id="9be34-667">Se usa un formato específico para Finlandia para importar las transacciones de contabilidad en la contabilidad general.</span><span class="sxs-lookup"><span data-stu-id="9be34-667">A format that is specific to Finland is used to import accounting transactions into the general ledger.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-668">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-668">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-669">El formato de pago ya no se usa.</span><span class="sxs-lookup"><span data-stu-id="9be34-669">The payment format is no longer used.</span></span>                                                     |
+| <span data-ttu-id="9be34-670">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-670">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-671">N. º</span><span class="sxs-lookup"><span data-stu-id="9be34-671">No.</span></span> <span data-ttu-id="9be34-672">El formato se sustituirá por formatos ISO 20022 de importación de criterio en próximas versiones.</span><span class="sxs-lookup"><span data-stu-id="9be34-672">The format will be replaced by ISO 20022 statement import formats in future releases.</span></span> |
+| <span data-ttu-id="9be34-673">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-673">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-674">Clientes</span><span class="sxs-lookup"><span data-stu-id="9be34-674">Accounts receivable</span></span>                                                                       |
+| <span data-ttu-id="9be34-675">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-675">**Status**</span></span>                         | <span data-ttu-id="9be34-676">En desuso: No se ha establecido una fecha de eliminación para esta función.</span><span class="sxs-lookup"><span data-stu-id="9be34-676">Deprecated: A removal date has not been set for this feature.</span></span>                            |
+
+### <a name="integration-with-isabel-synchronized-cis-for-belgium"></a><span data-ttu-id="9be34-677">Integración con el software Isabel sincronizado (CIS) para Bélgica</span><span class="sxs-lookup"><span data-stu-id="9be34-677">Integration with Isabel synchronized (CIS) for Belgium</span></span>
+
+<span data-ttu-id="9be34-678">Isabel es el marco de trabajo de la banca electrónica en Europa y es una norma de hecho en Bélgica.</span><span class="sxs-lookup"><span data-stu-id="9be34-678">Isabel is the framework for electronic banking in Europe and is a de-facto standard in Belgium.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-679">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-679">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-680">La integración con el cliente Isabel se ha interrumpido.</span><span class="sxs-lookup"><span data-stu-id="9be34-680">Integration with Isabel client has been discontinued.</span></span>   |
+| <span data-ttu-id="9be34-681">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-681">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-682">N. º</span><span class="sxs-lookup"><span data-stu-id="9be34-682">No.</span></span> <span data-ttu-id="9be34-683">Los formatos de pago que ya no se usan son reemplazados por el formato de pago de transferencia de crédito ISO20022 para Bélgica.</span><span class="sxs-lookup"><span data-stu-id="9be34-683">The payment formats that are no longer used are replaced by ISO20022 Credit transfer payment format for Belgium.</span></span> |
+| <span data-ttu-id="9be34-684">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-684">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-685">Proveedores</span><span class="sxs-lookup"><span data-stu-id="9be34-685">Accounts payable</span></span>     |
+| <span data-ttu-id="9be34-686">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-686">**Status**</span></span>                         | <span data-ttu-id="9be34-687">En desuso: No se ha establecido una fecha de eliminación para esta función.</span><span class="sxs-lookup"><span data-stu-id="9be34-687">Deprecated: A removal date has not been set for this feature.</span></span>    |
+
+### <a name="modifications-in-the-chart-of-accounts-and-accounting-rules-for-spain"></a><span data-ttu-id="9be34-688">Modificaciones del plan de cuentas y reglas de contabilidad para España</span><span class="sxs-lookup"><span data-stu-id="9be34-688">Modifications in the chart of accounts and accounting rules for Spain</span></span>
+
+<span data-ttu-id="9be34-689">Esta característica se usa para los cambios en el plan de cuentas y en las reglas de contabilidad de España.</span><span class="sxs-lookup"><span data-stu-id="9be34-689">This feature is used for changes in the chart of accounts and accounting rules in Spain.</span></span> <span data-ttu-id="9be34-690">Asigna cuentas para ayudar a transformar el antiguo plan de cuentas en el nuevo plan contable, y compara el ejercicio anterior con el nuevo ejercicio, incluso si se han registrado en números de cuenta distintos.</span><span class="sxs-lookup"><span data-stu-id="9be34-690">It maps accounts to help transform the old chart of accounts into the new chart of accounts, and compares the previous fiscal year with the new fiscal year, even if they were posted to different account numbers.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-691">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-691">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-692">Uso limitado</span><span class="sxs-lookup"><span data-stu-id="9be34-692">Limited usage</span></span>                                                  |
+| <span data-ttu-id="9be34-693">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-693">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-694">N.º</span><span class="sxs-lookup"><span data-stu-id="9be34-694">No</span></span>                                                             |
+| <span data-ttu-id="9be34-695">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-695">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-696">Contabilidad general</span><span class="sxs-lookup"><span data-stu-id="9be34-696">General ledger</span></span>                                                 |
+| <span data-ttu-id="9be34-697">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-697">**Status**</span></span>                         | <span data-ttu-id="9be34-698">En desuso: No se ha establecido una fecha de eliminación para esta función.</span><span class="sxs-lookup"><span data-stu-id="9be34-698">Deprecated: A removal date has not been set for this feature.</span></span> |
+
+### <a name="pagamento-fornittori-vendor-payment-format"></a><span data-ttu-id="9be34-699">Formato de pago de proveedor de Pagamento Fornittori</span><span class="sxs-lookup"><span data-stu-id="9be34-699">Pagamento Fornittori vendor payment format</span></span>
+
+<span data-ttu-id="9be34-700">Formato de pago de transferencia de crédito de Legacy italiano.</span><span class="sxs-lookup"><span data-stu-id="9be34-700">Legacy Italian payment format for credit transfers.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-701">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-701">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-702">El formato de pago ya no se usa.</span><span class="sxs-lookup"><span data-stu-id="9be34-702">The payment format is no longer used.</span></span>                          |
+| <span data-ttu-id="9be34-703">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-703">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-704">Sí, formato de pago de transferencia de crédito ISO20022 para Italia</span><span class="sxs-lookup"><span data-stu-id="9be34-704">Yes, ISO20022 Credit transfer payment format for Italy</span></span>         |
+| <span data-ttu-id="9be34-705">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-705">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-706">Proveedores</span><span class="sxs-lookup"><span data-stu-id="9be34-706">Accounts payable</span></span>                                               |
+| <span data-ttu-id="9be34-707">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-707">**Status**</span></span>                         | <span data-ttu-id="9be34-708">En desuso: No se ha establecido una fecha de eliminación para esta función.</span><span class="sxs-lookup"><span data-stu-id="9be34-708">Deprecated: A removal date has not been set for this feature.</span></span> |
+
+### <a name="payment-export-formats-for-estonia"></a><span data-ttu-id="9be34-709">Formatos de exportación de pagos para Estonia</span><span class="sxs-lookup"><span data-stu-id="9be34-709">Payment export formats for Estonia</span></span>
+
+<span data-ttu-id="9be34-710">Los formatos de Telehansa y Teleservicio se usan para la exportación de pago bancario.</span><span class="sxs-lookup"><span data-stu-id="9be34-710">The Telehansa and Teleservice formats are used for bank payment export.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-711">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-711">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-712">Los formatos de pago ya no se usan.</span><span class="sxs-lookup"><span data-stu-id="9be34-712">The payment formats are no longer used.</span></span>                        |
+| <span data-ttu-id="9be34-713">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-713">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-714">Sí, formato de pago de transferencia de crédito ISO20022 para Estonia</span><span class="sxs-lookup"><span data-stu-id="9be34-714">Yes, ISO20022 Credit transfer payment format for Estonia</span></span>       |
+| <span data-ttu-id="9be34-715">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-715">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-716">Proveedores</span><span class="sxs-lookup"><span data-stu-id="9be34-716">Accounts payable</span></span>                                               |
+| <span data-ttu-id="9be34-717">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-717">**Status**</span></span>                         | <span data-ttu-id="9be34-718">En desuso: No se ha establecido una fecha de eliminación para esta función.</span><span class="sxs-lookup"><span data-stu-id="9be34-718">Deprecated: A removal date has not been set for this feature.</span></span> |
+
+### <a name="payment-file-archive-for-norway"></a><span data-ttu-id="9be34-719">Archivo de pago para Noruega</span><span class="sxs-lookup"><span data-stu-id="9be34-719">Payment file archive for Norway</span></span>
+
+<span data-ttu-id="9be34-720">Cuando se generan los archivos de pago, el archivo almacena automáticamente todos los archivos que se crean, incluso los que se han escrito o leído con anterioridad.</span><span class="sxs-lookup"><span data-stu-id="9be34-720">When payment files are generated, the file archive automatically archives all files that are created, even files that were previously written or read.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-721">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-721">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-722">Reemplazado por otra característica</span><span class="sxs-lookup"><span data-stu-id="9be34-722">Replaced by another feature</span></span>                                        |
+| <span data-ttu-id="9be34-723">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-723">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-724">Sí, trabajos archivados de informes electrónicos</span><span class="sxs-lookup"><span data-stu-id="9be34-724">Yes, Electronic reporting archived jobs</span></span>                            |
+| <span data-ttu-id="9be34-725">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-725">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-726">Cuentas de proveedores, cuentas de clientes, administración de la empresa</span><span class="sxs-lookup"><span data-stu-id="9be34-726">Accounts payable, Accounts receivable, Organization administration</span></span> |
+| <span data-ttu-id="9be34-727">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-727">**Status**</span></span>                         | <span data-ttu-id="9be34-728">En desuso: No se ha establecido una fecha de eliminación para esta función.</span><span class="sxs-lookup"><span data-stu-id="9be34-728">Deprecated: A removal date has not been set for this feature.</span></span>     |
+
+### <a name="payment-import-formats-for-estonia"></a><span data-ttu-id="9be34-729">Formatos de importación de pagos para Estonia</span><span class="sxs-lookup"><span data-stu-id="9be34-729">Payment import formats for Estonia</span></span>
+
+<span data-ttu-id="9be34-730">Los formatos de Telehansa y TeleTeenus se usan para la importación de pago bancario.</span><span class="sxs-lookup"><span data-stu-id="9be34-730">The Telehansa and TeleTeenus formats are used for bank payment import.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-731">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-731">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-732">Los formatos de pago ya no se usan.</span><span class="sxs-lookup"><span data-stu-id="9be34-732">The payment formats are no longer used.</span></span>                                                    |
+| <span data-ttu-id="9be34-733">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-733">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-734">N. º</span><span class="sxs-lookup"><span data-stu-id="9be34-734">No.</span></span> <span data-ttu-id="9be34-735">Los formatos se sustituirán por formatos ISO 20022 de importación de criterio en próximas versiones.</span><span class="sxs-lookup"><span data-stu-id="9be34-735">The formats will be replaced by ISO 20022 statement import formats in future releases.</span></span> |
+| <span data-ttu-id="9be34-736">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-736">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-737">Clientes</span><span class="sxs-lookup"><span data-stu-id="9be34-737">Accounts receivable</span></span>                                                                        |
+| <span data-ttu-id="9be34-738">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-738">**Status**</span></span>                         | <span data-ttu-id="9be34-739">En desuso: No se ha establecido una fecha de eliminación para esta función.</span><span class="sxs-lookup"><span data-stu-id="9be34-739">Deprecated: A removal date has not been set for this feature.</span></span>                             |
+
+### <a name="payroll-information-in-human-resources"></a><span data-ttu-id="9be34-740">Información de nómina en Recursos humanos</span><span class="sxs-lookup"><span data-stu-id="9be34-740">Payroll information in Human Resources</span></span>
+
+<span data-ttu-id="9be34-741">Información de nómina en Recursos humanos</span><span class="sxs-lookup"><span data-stu-id="9be34-741">Human Resources Payroll information</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-742">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-742">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-743">Esta funcionalidad se ha sustituido por páginas principales de nóminas y Recursos Humanos.</span><span class="sxs-lookup"><span data-stu-id="9be34-743">This functionality has been replaced by core Payroll and Human Resources pages.</span></span>  |
+| <span data-ttu-id="9be34-744">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-744">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-745">Se han reconfigurado las páginas **Prestaciones**, **Ganancias** y otras páginas relacionadas que estaban anteriormente en nóminas de Estados Unidos y ahora forman parte de la configuración de Recursos humanos base para ayudar con el procesamiento externo de nóminas.</span><span class="sxs-lookup"><span data-stu-id="9be34-745">**Benefits**, **Earnings**, and other related pages that were previously in US Payroll have been reconfigured, and are now part of the core Human Resources configuration to help support external payroll processing.</span></span> <span data-ttu-id="9be34-746">A esta función se accede mediante la clave de configuración **Recursos humanos 1** \> **Nómina**.</span><span class="sxs-lookup"><span data-stu-id="9be34-746">This functionality is accessed by using the **Human Resources 1** \> **Payroll** configuration key.</span></span> |
+| <span data-ttu-id="9be34-747">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-747">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-748">Recursos humanos, Nómina</span><span class="sxs-lookup"><span data-stu-id="9be34-748">Human Resources, Payroll</span></span>   |
+| <span data-ttu-id="9be34-749">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-749">**Status**</span></span>                         | <span data-ttu-id="9be34-750">Se quitó en Dynamics 365 for Operations versión 1611.</span><span class="sxs-lookup"><span data-stu-id="9be34-750">Removed as of Dynamics 365 for Operations version 1611.</span></span>    |
+
+### <a name="performance-management-goal-workflow"></a><span data-ttu-id="9be34-751">Flujo de trabajo de objetivo de gestión del rendimiento</span><span class="sxs-lookup"><span data-stu-id="9be34-751">Performance management goal workflow</span></span>
+
+<span data-ttu-id="9be34-752">La gestión del rendimiento incluye la administración y la integración del objetivo con las evaluaciones de rendimiento.</span><span class="sxs-lookup"><span data-stu-id="9be34-752">Performance management includes goal management and integration with performance reviews.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-753">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-753">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-754">La gestión del rendimiento se diseñó de nuevo y el número de páginas de objetivos se redujo para simplificar el proceso.</span><span class="sxs-lookup"><span data-stu-id="9be34-754">Performance management was redesigned, and the number of goal pages was reduced to simplify the process.</span></span>                 |
+| <span data-ttu-id="9be34-755">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-755">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-756">N. º</span><span class="sxs-lookup"><span data-stu-id="9be34-756">No.</span></span> <span data-ttu-id="9be34-757">Los objetivos son visibles para los administradores a través del portal Manager Self Service, y se pueden ver y cambiar por el administrador.</span><span class="sxs-lookup"><span data-stu-id="9be34-757">Goals are visible to managers through the Manager Self Service portal, and can be changed and viewed by the manager.</span></span> |
+| <span data-ttu-id="9be34-758">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-758">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-759">Gestión del capital humano</span><span class="sxs-lookup"><span data-stu-id="9be34-759">Human capital management</span></span>       |
+| <span data-ttu-id="9be34-760">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-760">**Status**</span></span>                         | <span data-ttu-id="9be34-761">Se quitó en Dynamics 365 for Operations versión 1611.</span><span class="sxs-lookup"><span data-stu-id="9be34-761">Removed as of Dynamics 365 for Operations version 1611.</span></span>    |
+
+### <a name="postgirot-and-postgirot-utland-payment-formats-for-sweden"></a><span data-ttu-id="9be34-762">Formatos de pago de Postgirot y Postgirot Utland para Suecia</span><span class="sxs-lookup"><span data-stu-id="9be34-762">Postgirot and Postgirot Utland payment formats for Sweden</span></span>
+
+<span data-ttu-id="9be34-763">Formatos de pago de Postgirot y Postgirot Utland para Suecia.</span><span class="sxs-lookup"><span data-stu-id="9be34-763">Postgirot and Postgirot Utland payment formats for Sweden.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-764">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-764">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-765">Los formatos de pago ya no se usan.</span><span class="sxs-lookup"><span data-stu-id="9be34-765">The payment formats are no longer used.</span></span>                        |
+| <span data-ttu-id="9be34-766">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-766">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-767">Sí, formato de pago de transferencia de crédito ISO20022 para Suecia</span><span class="sxs-lookup"><span data-stu-id="9be34-767">Yes, ISO20022 Credit transfer payment format for Sweden</span></span>        |
+| <span data-ttu-id="9be34-768">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-768">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-769">Proveedores</span><span class="sxs-lookup"><span data-stu-id="9be34-769">Accounts payable</span></span>                                               |
+| <span data-ttu-id="9be34-770">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-770">**Status**</span></span>                         | <span data-ttu-id="9be34-771">En desuso: No se ha establecido una fecha de eliminación para esta función.</span><span class="sxs-lookup"><span data-stu-id="9be34-771">Deprecated: A removal date has not been set for this feature.</span></span> |
+
+### <a name="radio-frequency-identifier"></a><span data-ttu-id="9be34-772">Identificador por radiofrecuencia</span><span class="sxs-lookup"><span data-stu-id="9be34-772">Radio frequency identifier</span></span>
+
+<span data-ttu-id="9be34-773">La identificación por radiofrecuencia (RFID) es una tecnología de recopilación de datos que utiliza etiquetas electrónicas para almacenar datos de identificación y no precisa ningún lector de requisitos visuales para capturarlos.</span><span class="sxs-lookup"><span data-stu-id="9be34-773">Radio Frequency Identification (RFID) is a data-collection technology that uses electronic tags to store identification data and a no-line-of-sight requirement reader to capture the identification data.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-774">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-774">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-775">Poco uso de cliente y conjunto limitado de funciones.</span><span class="sxs-lookup"><span data-stu-id="9be34-775">Low customer usage and a limited feature set.</span></span>   |
+| <span data-ttu-id="9be34-776">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-776">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-777">N.º</span><span class="sxs-lookup"><span data-stu-id="9be34-777">No</span></span>                                              |
+| <span data-ttu-id="9be34-778">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-778">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-779">Gestión de inventarios</span><span class="sxs-lookup"><span data-stu-id="9be34-779">Inventory management</span></span>                            |
+| <span data-ttu-id="9be34-780">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-780">**Status**</span></span>                         | <span data-ttu-id="9be34-781">Eliminado desde Dynamics 365 for Operations 1611.</span><span class="sxs-lookup"><span data-stu-id="9be34-781">Removed as of Dynamics 365 for Operations 1611.</span></span> |
+
+### <a name="report-about-state-invoices-numbering-for-latvia"></a><span data-ttu-id="9be34-782">Informe sobre la numeración del estado de las facturas para Letonia</span><span class="sxs-lookup"><span data-stu-id="9be34-782">Report about state invoices numbering for Latvia</span></span>
+
+<span data-ttu-id="9be34-783">La legislación letona proporciona reglas específicas acerca de la numeración de las facturas de ventas.</span><span class="sxs-lookup"><span data-stu-id="9be34-783">Latvian legislation provides specific rules about the numbering of sales invoices.</span></span> <span data-ttu-id="9be34-784">Dicha funcionalidad le permite asignar números específicos a las facturas de ventas, en función del usuario o del grupo de usuarios.</span><span class="sxs-lookup"><span data-stu-id="9be34-784">The functionality lets you assign specific numbers to sales invoices, based on the user or user group.</span></span> <span data-ttu-id="9be34-785">A continuación puede generar un informe o un archivo XML.</span><span class="sxs-lookup"><span data-stu-id="9be34-785">You can then generate a report or an XML file.</span></span> <span data-ttu-id="9be34-786">También puede imprimir un informe sobre los números de factura que se usan.</span><span class="sxs-lookup"><span data-stu-id="9be34-786">You can also print a report about invoice numbers that are used.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-787">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-787">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-788">La numeración de la factura de estado ya no tiene que mantenerse.</span><span class="sxs-lookup"><span data-stu-id="9be34-788">The state invoice numbering no longer has to be maintained.</span></span> <span data-ttu-id="9be34-789">El informe sobre números de factura utilizados ya no es necesario.</span><span class="sxs-lookup"><span data-stu-id="9be34-789">The report about used invoice numbers is no longer required.</span></span> |
+| <span data-ttu-id="9be34-790">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-790">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-791">N.º</span><span class="sxs-lookup"><span data-stu-id="9be34-791">No</span></span>       |
+| <span data-ttu-id="9be34-792">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-792">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-793">Clientes</span><span class="sxs-lookup"><span data-stu-id="9be34-793">Accounts receivable</span></span>    |
+| <span data-ttu-id="9be34-794">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-794">**Status**</span></span>                         | <span data-ttu-id="9be34-795">En desuso: No se ha establecido una fecha de eliminación para esta función.</span><span class="sxs-lookup"><span data-stu-id="9be34-795">Deprecated: A removal date has not been set for this feature.</span></span>  |
+
+### <a name="set-up-the-names-of-the-manager-and-general-accountant-of-a-company-for-lithuania"></a><span data-ttu-id="9be34-796">Configuración de los nombres del administrador y el contable general de una empresa para Lituania</span><span class="sxs-lookup"><span data-stu-id="9be34-796">Set up the names of the manager and general accountant of a company for Lithuania</span></span>
+
+<span data-ttu-id="9be34-797">Los nombres del administrador y el contable general de una empresa se pueden especificar en la información de la empresa y usar en distintas copias impresas locales del informe.</span><span class="sxs-lookup"><span data-stu-id="9be34-797">The names of the manager and the general accountant of a company can be specified in the company information and used in different local report printouts.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-798">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-798">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-799">Reemplazado por otra característica</span><span class="sxs-lookup"><span data-stu-id="9be34-799">Replaced by another feature</span></span>                                     |
+| <span data-ttu-id="9be34-800">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-800">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-801">Sí, la configuración de funcionarios se puede usar con el mismo propósito.</span><span class="sxs-lookup"><span data-stu-id="9be34-801">Yes, the setup of officials can be used for the same purpose.</span></span>   |
+| <span data-ttu-id="9be34-802">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-802">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-803">Clientes, Proveedores, Gestión de efectivo y bancos</span><span class="sxs-lookup"><span data-stu-id="9be34-803">Accounts payable, Accounts receivable, Cash and bank management</span></span> |
+| <span data-ttu-id="9be34-804">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-804">**Status**</span></span>                         | <span data-ttu-id="9be34-805">En desuso: No se ha establecido una fecha de eliminación para esta función.</span><span class="sxs-lookup"><span data-stu-id="9be34-805">Deprecated: A removal date has not been set for this feature.</span></span>  |
+
+### <a name="shipping-carrier-interface"></a><span data-ttu-id="9be34-806">Interfaz de transportistas de envío</span><span class="sxs-lookup"><span data-stu-id="9be34-806">Shipping carrier interface</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-807">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-807">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-808">Funcionalidad duplicada</span><span class="sxs-lookup"><span data-stu-id="9be34-808">Duplicate functionality</span></span>   |
+| <span data-ttu-id="9be34-809">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-809">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-810">Reemplazado parcialmente por la administración de transporte</span><span class="sxs-lookup"><span data-stu-id="9be34-810">Partially replaced by Transportation management</span></span> |
+| <span data-ttu-id="9be34-811">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-811">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-812">Ventas y marketing, Gestión de inventarios</span><span class="sxs-lookup"><span data-stu-id="9be34-812">Sales and marketing, Inventory management</span></span>  |
+| <span data-ttu-id="9be34-813">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-813">**Status**</span></span>                         | <span data-ttu-id="9be34-814">Se quitó en Dynamics 365 for Operations versión 1611.</span><span class="sxs-lookup"><span data-stu-id="9be34-814">Removed as of Dynamics 365 for Operations version 1611.</span></span>  |
+
+### <a name="telepay-payment-formats-for-norway"></a><span data-ttu-id="9be34-815">Formatos de pago Telepay para Noruega</span><span class="sxs-lookup"><span data-stu-id="9be34-815">Telepay payment formats for Norway</span></span>
+
+<span data-ttu-id="9be34-816">Los formatos de pago Telepay incluyen la exportación del pago de proveedor (transferencia de crédito) y el cobro de pago del cliente (domiciliación bancaria).</span><span class="sxs-lookup"><span data-stu-id="9be34-816">Telepay payment formats include vendor payment export (credit transfer) and customer payment collection (direct debit).</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-817">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-817">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-818">Los formatos de pago ya no se usan.</span><span class="sxs-lookup"><span data-stu-id="9be34-818">The payment formats are no longer used.</span></span>                                                        |
+| <span data-ttu-id="9be34-819">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-819">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-820">Sí, formato de pago de transferencia de crédito ISO20022 y formato de pago del cliente de AvtaleGiro para Noruega</span><span class="sxs-lookup"><span data-stu-id="9be34-820">Yes, ISO20022 Credit transfer payment format and AvtaleGiro customer payment format for Norway</span></span> |
+| <span data-ttu-id="9be34-821">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-821">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-822">Cuentas de proveedores, cuentas de clientes</span><span class="sxs-lookup"><span data-stu-id="9be34-822">Accounts payable, Accounts receivable</span></span>                                                          |
+| <span data-ttu-id="9be34-823">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-823">**Status**</span></span>                         | <span data-ttu-id="9be34-824">En desuso: No se ha establecido una fecha de eliminación para esta función.</span><span class="sxs-lookup"><span data-stu-id="9be34-824">Deprecated: A removal date has not been set for this feature.</span></span>                                 |
+
+### <a name="vendor-payment-export-formats-for-finland"></a><span data-ttu-id="9be34-825">Formatos de exportación de pago de proveedores para Finlandia</span><span class="sxs-lookup"><span data-stu-id="9be34-825">Vendor payment export formats for Finland</span></span>
+
+<span data-ttu-id="9be34-826">Dos formatos para exportar pagos están disponibles para Finlandia.</span><span class="sxs-lookup"><span data-stu-id="9be34-826">Two formats for exporting payments are available for Finland.</span></span> <span data-ttu-id="9be34-827">LM02 (FI) se usa para pagos nacionales y LUM2 (FI) se usa para pagos extranjeros.</span><span class="sxs-lookup"><span data-stu-id="9be34-827">LM02 (FI) is used for domestic payments, and LUM2 (FI) is used for foreign payments.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-828">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-828">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-829">Los formatos de pago ya no se usan.</span><span class="sxs-lookup"><span data-stu-id="9be34-829">The payment formats are no longer used.</span></span>                        |
+| <span data-ttu-id="9be34-830">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-830">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-831">Sí, formato de pago de transferencia de crédito ISO20022 para Finlandia</span><span class="sxs-lookup"><span data-stu-id="9be34-831">Yes, ISO20022 Credit transfer payment format for Finland</span></span>       |
+| <span data-ttu-id="9be34-832">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-832">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-833">Proveedores</span><span class="sxs-lookup"><span data-stu-id="9be34-833">Accounts payable</span></span>                                               |
+| <span data-ttu-id="9be34-834">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-834">**Status**</span></span>                         | <span data-ttu-id="9be34-835">En desuso: No se ha establecido una fecha de eliminación para esta función.</span><span class="sxs-lookup"><span data-stu-id="9be34-835">Deprecated: A removal date has not been set for this feature.</span></span> |
+
+### <a name="warehouse-management-ii"></a><span data-ttu-id="9be34-836">Gestión de almacenes II</span><span class="sxs-lookup"><span data-stu-id="9be34-836">Warehouse management II</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-837">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-837">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-838">La solución Warehouse Management II (WMS II) que estaba disponible en el módulo **Gestión de inventarios** duplica la funcionalidad en el módulo de **Gestión de almacenes** que se lanzó en Microsoft Dynamics AX 2012 R3.</span><span class="sxs-lookup"><span data-stu-id="9be34-838">The Warehouse management II solution (WMS II) that was available in the **Inventory management** module duplicates functionality that is in the **Warehouse management** module that was released in Microsoft Dynamics AX 2012 R3.</span></span>                                                                         |
+| <span data-ttu-id="9be34-839">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-839">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-840">El módulo **Administración de almacenes** lanzado en AX 2012 R3, Microsoft Dynamics AX 2012 R3 CU8 y Dynamics AX 2012 R3 CU9 reemplaza las funciones de Gestión de almacenes II.</span><span class="sxs-lookup"><span data-stu-id="9be34-840">The **Warehouse management** module that was released in AX 2012 R3, Microsoft Dynamics AX 2012 R3 CU8, and Dynamics AX 2012 R3 CU9 replaces the Warehouse management II features.</span></span> <span data-ttu-id="9be34-841">El nuevo módulo dispone de características más avanzadas y procesos más flexibles de gestión de almacenes que Gestión de almacenes II.</span><span class="sxs-lookup"><span data-stu-id="9be34-841">The new module has more advanced features and more flexible warehouse management processes than Warehouse management II.</span></span> |
+| <span data-ttu-id="9be34-842">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-842">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-843">Gestión del inventario, ventas y marketing, adquisición y abastecimiento</span><span class="sxs-lookup"><span data-stu-id="9be34-843">Inventory management, Sales and marketing, Procurement and sourcing</span></span>   |
+| <span data-ttu-id="9be34-844">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-844">**Status**</span></span>                         | <span data-ttu-id="9be34-845">Se quitó en Dynamics 365 for Operations versión 1611.</span><span class="sxs-lookup"><span data-stu-id="9be34-845">Removed as of Dynamics 365 for Operations version 1611.</span></span>    |
+
+### <a name="worker-reminders-in-human-resources"></a><span data-ttu-id="9be34-846">Recordatorios de trabajador en Recursos humanos</span><span class="sxs-lookup"><span data-stu-id="9be34-846">Worker reminders in Human Resources</span></span>
+
+<span data-ttu-id="9be34-847">Información de nómina en Recursos humanos</span><span class="sxs-lookup"><span data-stu-id="9be34-847">Human Resources Payroll information</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-848">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-848">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-849">Poco uso</span><span class="sxs-lookup"><span data-stu-id="9be34-849">Low usage</span></span>                                                           |
+| <span data-ttu-id="9be34-850">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-850">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-851">N.º</span><span class="sxs-lookup"><span data-stu-id="9be34-851">No</span></span>                                                                  |
+| <span data-ttu-id="9be34-852">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-852">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-853">Recursos humanos</span><span class="sxs-lookup"><span data-stu-id="9be34-853">Human resources</span></span>                                                     |
+| <span data-ttu-id="9be34-854">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-854">**Status**</span></span>                         | <span data-ttu-id="9be34-855">Se quitó en Dynamics 365 for Operations versión 1611</span><span class="sxs-lookup"><span data-stu-id="9be34-855">Removed as of Dynamics 365 for Operations version 1611</span></span> |
+
+### <a name="workflow-for-creating-goals"></a><span data-ttu-id="9be34-856">Flujo de trabajo para crear objetivos</span><span class="sxs-lookup"><span data-stu-id="9be34-856">Workflow for creating goals</span></span>
+
+<span data-ttu-id="9be34-857">Un flujo de trabajo para gestionar la creación de los objetivos del empleado es uno de varios flujos de trabajo que estaban disponibles para ayudar a coordinar el proceso de gestión del rendimiento.</span><span class="sxs-lookup"><span data-stu-id="9be34-857">A workflow for managing the creation of employee goals is one of several workflows that were available to help coordinate the performance management process.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-858">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-858">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-859">En Microsoft Dynamics 365 for Finance and Operations la administración del rendimiento se ha rediseñado por completo.</span><span class="sxs-lookup"><span data-stu-id="9be34-859">Performance management has been completely redesigned in Microsoft Dynamics 365 for Finance and Operations.</span></span>     |
+| <span data-ttu-id="9be34-860">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-860">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-861">La característica de Gestión del rendimiento que se ha diseñado de nuevo proporciona más control sobre el contenido de los objetivos, las medidas que se utilizan para realizar el seguimiento del progreso y los datos adjuntos de la documentación correspondiente.</span><span class="sxs-lookup"><span data-stu-id="9be34-861">The redesigned Performance management feature gives more control over the content of the goals, the measurements that are used to track progress, and the attachment of supporting documentation.</span></span> <span data-ttu-id="9be34-862">Los objetivos se pueden almacenar como plantillas y volverse a utilizar.</span><span class="sxs-lookup"><span data-stu-id="9be34-862">Goals can be stored as templates and then reused.</span></span> <span data-ttu-id="9be34-863">Esta función puede ayudarle a configurar los objetivos adicionales para sus empleados con más rapidez.</span><span class="sxs-lookup"><span data-stu-id="9be34-863">This feature can help you set up additional goals for your employees more quickly.</span></span> |
+| <span data-ttu-id="9be34-864">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-864">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-865">Gestión del capital humano</span><span class="sxs-lookup"><span data-stu-id="9be34-865">Human capital management</span></span>                 |
+| <span data-ttu-id="9be34-866">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-866">**Status**</span></span>                         | <span data-ttu-id="9be34-867">Se quitó en Dynamics 365 for Operations versión 1611.</span><span class="sxs-lookup"><span data-stu-id="9be34-867">Removed as of Dynamics 365 for Operations version 1611.</span></span> |
+
+## <a name="dynamics-ax-70"></a><span data-ttu-id="9be34-868">Dynamics AX 7.0</span><span class="sxs-lookup"><span data-stu-id="9be34-868">Dynamics AX 7.0</span></span> 
+
+
+### <a name="ability-to-cancel-changes-to-a-vendor-invoice"></a><span data-ttu-id="9be34-869">Capacidad para cancelar cambios en una factura de proveedor</span><span class="sxs-lookup"><span data-stu-id="9be34-869">Ability to cancel changes to a vendor invoice</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-870">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-870">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-871">Mejora del rendimiento</span><span class="sxs-lookup"><span data-stu-id="9be34-871">Performance enhancement</span></span>        |
+| <span data-ttu-id="9be34-872">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-872">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-873">N.º</span><span class="sxs-lookup"><span data-stu-id="9be34-873">No</span></span>                             |
+| <span data-ttu-id="9be34-874">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-874">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-875">Proveedores</span><span class="sxs-lookup"><span data-stu-id="9be34-875">Accounts payable</span></span>               |
+| <span data-ttu-id="9be34-876">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-876">**Status**</span></span>                         | <span data-ttu-id="9be34-877">Eliminado a partir de Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="9be34-877">Removed as of Dynamics AX 7.0.</span></span> |
+
+### <a name="aif-axd-and-axbc-integrations"></a><span data-ttu-id="9be34-878">Integración de AIF, Axd y AxBC</span><span class="sxs-lookup"><span data-stu-id="9be34-878">AIF, AxD, and AxBC integrations</span></span>
+
+<span data-ttu-id="9be34-879">En Application Integration Framework (AIF), los datos se pueden intercambiar con sistemas externos por medio de lógica de negocios expuesta como servicios.</span><span class="sxs-lookup"><span data-stu-id="9be34-879">In Application Integration Framework (AIF), data can be exchanged with external systems through business logic that is exposed as services.</span></span> <span data-ttu-id="9be34-880">Dynamics AX incluye servicios que se basan en documentos y en .NET Business Connector (AxBC).</span><span class="sxs-lookup"><span data-stu-id="9be34-880">Dynamics AX includes services that are based on documents and .NET Business Connector (AxBC).</span></span> <span data-ttu-id="9be34-881">Los documentos se crean mediante XML.</span><span class="sxs-lookup"><span data-stu-id="9be34-881">A document is created by using XML.</span></span> <span data-ttu-id="9be34-882">El XML incluye información de encabezado que se agrega para crear un *mensaje* que se puede transferir a o de Dynamics AX.</span><span class="sxs-lookup"><span data-stu-id="9be34-882">The XML includes header information that is added to create a *message* that can be transferred into or out of Dynamics AX.</span></span> <span data-ttu-id="9be34-883">Algunos ejemplos de documentos son los pedidos de compra y venta.</span><span class="sxs-lookup"><span data-stu-id="9be34-883">Examples of documents include sales orders and purchase orders.</span></span> <span data-ttu-id="9be34-884">No obstante, casi cualquier entidad, como un cliente, puede ser representado por un documento.</span><span class="sxs-lookup"><span data-stu-id="9be34-884">However, almost any entity, such as a customer, can be represented by a document.</span></span> <span data-ttu-id="9be34-885">Los servicios que se basan en documentos usan las clases **Axd \<Documento\>**.</span><span class="sxs-lookup"><span data-stu-id="9be34-885">Services that are based on documents use the **Axd \<Document\>** classes.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-886">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-886">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-887">La arquitectura de AIF y de AxDs no se podría escalar un servicio de nube.</span><span class="sxs-lookup"><span data-stu-id="9be34-887">The architecture of AIF and AxDs could not be scaled to a cloud service.</span></span> <span data-ttu-id="9be34-888">Ha habido problemas de rendimiento en la importación masiva.</span><span class="sxs-lookup"><span data-stu-id="9be34-888">There were performance issues around bulk import.</span></span>                                        |
+| <span data-ttu-id="9be34-889">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-889">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-890">Esta característica se sustituye por el marco de importación y exportación de datos, compatible con la importación y exportación masiva recurrente.</span><span class="sxs-lookup"><span data-stu-id="9be34-890">This feature is replaced by the Data Import/Export framework, which supports recurring bulk import/export.</span></span> <span data-ttu-id="9be34-891">Para AxBC, se recomienda usar las tablas reales.</span><span class="sxs-lookup"><span data-stu-id="9be34-891">For AxBC, we recommend that you use the actual tables.</span></span> |
+| <span data-ttu-id="9be34-892">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-892">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-893">AxDs, AxBC y AIF</span><span class="sxs-lookup"><span data-stu-id="9be34-893">AxDs, AxBCs, and AIF</span></span>   |
+| <span data-ttu-id="9be34-894">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-894">**Status**</span></span>                         | <span data-ttu-id="9be34-895">Eliminado a partir de Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="9be34-895">Removed as of Dynamics AX 7.0.</span></span>   |
+
+### <a name="billing-code-rate-scripts"></a><span data-ttu-id="9be34-896">Secuencias de comandos de índice de código de facturación</span><span class="sxs-lookup"><span data-stu-id="9be34-896">Billing code rate scripts</span></span>
+
+<span data-ttu-id="9be34-897">Las secuencias de facturación se usaban para calcular aranceles de factura para los códigos de facturación.</span><span class="sxs-lookup"><span data-stu-id="9be34-897">Billing scripts were used to calculate billing rates for billing codes.</span></span> <span data-ttu-id="9be34-898">Estas secuencias de comandos requerían desarrollo personalizado en C# o el lenguaje de programación Visual Basic.</span><span class="sxs-lookup"><span data-stu-id="9be34-898">This scripts required custom development in the C Sharp or Visual Basic programming language.</span></span> <span data-ttu-id="9be34-899">En la versión actual de Dynamics AX, los **scripts de la tasa de código de facturación** no se admiten.</span><span class="sxs-lookup"><span data-stu-id="9be34-899">In the current version of Dynamics AX, the **billing code rate scripts** are not supported.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-900">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-900">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-901">La compatibilidad para los scripts de C# o Visual Basic personalizados no se ha agregado a Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="9be34-901">The support for the custom C Sharp or Visual Basic scripts was not added in Dynamics AX 7.0.</span></span> |
+| <span data-ttu-id="9be34-902">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-902">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-903">No</span><span class="sxs-lookup"><span data-stu-id="9be34-903">No</span></span>                                                                                      |
+| <span data-ttu-id="9be34-904">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-904">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-905">Sector público, clientes</span><span class="sxs-lookup"><span data-stu-id="9be34-905">Public sector, Accounts receivable</span></span>                                    |
+| <span data-ttu-id="9be34-906">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-906">**Status**</span></span>                         | <span data-ttu-id="9be34-907">Eliminado a partir de Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="9be34-907">Removed as of Dynamics AX 7.0.</span></span>                                                          |
+
+### <a name="boms-without-bom-versions"></a><span data-ttu-id="9be34-908">L. MAT sin versiones de L. MAT</span><span class="sxs-lookup"><span data-stu-id="9be34-908">BOMs without BOM versions</span></span>
+
+<span data-ttu-id="9be34-909">Cuando la clave de configuración **Versiones de L. MAT.** se deshabilita, las versiones de la lista de materiales se ocultan en todos los formularios, y el sistema fuerza una relación 1:1 entre los productos liberados y las listas de materiales.</span><span class="sxs-lookup"><span data-stu-id="9be34-909">When the **BOM versions** configuration key was disabled, bill of materials (BOM) versions were hidden in all forms, and the system forced a 1:1 relationship between released products and BOMs.</span></span> <span data-ttu-id="9be34-910">En la versión actual de Dynamics AX, no se puede deshabilitar la clave de configuración de las **versiones BOM**.</span><span class="sxs-lookup"><span data-stu-id="9be34-910">In the current version of Dynamics AX, the **BOM versions** configuration key can't be disabled.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-911">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-911">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-912">El uso de una clave de configuración para controlar las versiones de listas de materiales no se escala en un entorno de nube.</span><span class="sxs-lookup"><span data-stu-id="9be34-912">Using a configuration key to control BOM versions doesn't scale in a cloud environment.</span></span> |
+| <span data-ttu-id="9be34-913">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-913">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-914">N.º</span><span class="sxs-lookup"><span data-stu-id="9be34-914">No</span></span>                                                                                      |
+| <span data-ttu-id="9be34-915">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-915">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-916">Gestión de información de productos, Gestión de inventarios</span><span class="sxs-lookup"><span data-stu-id="9be34-916">Product information management, Inventory management</span></span>                                    |
+| <span data-ttu-id="9be34-917">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-917">**Status**</span></span>                         | <span data-ttu-id="9be34-918">Eliminado a partir de Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="9be34-918">Removed as of Dynamics AX 7.0.</span></span>                                                          |
+
+### <a name="brazilian-bordero"></a><span data-ttu-id="9be34-919">Bordero brasileño</span><span class="sxs-lookup"><span data-stu-id="9be34-919">Brazilian Bordero</span></span>
+
+<span data-ttu-id="9be34-920">Forma de pago específica para las empresas brasileñas</span><span class="sxs-lookup"><span data-stu-id="9be34-920">Specific method of payment for Brazilian companies</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-921">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-921">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-922">La ayuda de la forma de pago para el Bordero brasileño se ha interrumpido para la ubicación brasileña</span><span class="sxs-lookup"><span data-stu-id="9be34-922">Support for the Brazilian Bordero method of payment has been discontinued from Brazilian localization</span></span> |
+| <span data-ttu-id="9be34-923">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-923">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-924">N.º</span><span class="sxs-lookup"><span data-stu-id="9be34-924">No</span></span>   |
+| <span data-ttu-id="9be34-925">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-925">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-926">Proveedores</span><span class="sxs-lookup"><span data-stu-id="9be34-926">Accounts payable</span></span>   |
+| <span data-ttu-id="9be34-927">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-927">**Status**</span></span>                         | <span data-ttu-id="9be34-928">En desuso: No se ha establecido una fecha de eliminación para esta función.</span><span class="sxs-lookup"><span data-stu-id="9be34-928">Deprecated: A removal date has not been set for this feature.</span></span> |
+
+### <a name="brazilian-sintegra-statement"></a><span data-ttu-id="9be34-929">Extracto de Sintegra brasileño</span><span class="sxs-lookup"><span data-stu-id="9be34-929">Brazilian Sintegra statement</span></span>
+
+<span data-ttu-id="9be34-930">Extracto del impuesto federal para el impuesto de ICMS</span><span class="sxs-lookup"><span data-stu-id="9be34-930">Federal tax statement for ICMS tax</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-931">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-931">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-932">Este extracto ya no se aplica en algunos estados brasileños.</span><span class="sxs-lookup"><span data-stu-id="9be34-932">This statement is no longer applicable in some Brazilian states.</span></span> |
+| <span data-ttu-id="9be34-933">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-933">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-934">N. º</span><span class="sxs-lookup"><span data-stu-id="9be34-934">No.</span></span> <span data-ttu-id="9be34-935">Los usuarios pueden utilizar la herramienta de informes electrónica genérica para configurar el extracto si es necesario de acuerdo a situaciones específicas.</span><span class="sxs-lookup"><span data-stu-id="9be34-935">Users can use Generic Electronic reporting tool to configure the statement if required under specific situations.</span></span> |
+| <span data-ttu-id="9be34-936">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-936">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-937">Libros fiscales</span><span class="sxs-lookup"><span data-stu-id="9be34-937">Fiscal books</span></span>    |
+| <span data-ttu-id="9be34-938">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-938">**Status**</span></span>                         | <span data-ttu-id="9be34-939">En desuso: No se ha establecido una fecha de eliminación para esta función.</span><span class="sxs-lookup"><span data-stu-id="9be34-939">Deprecated: A removal date has not been set for this feature.</span></span>   |
+
+### <a name="brazilian-scan-contingency-mode-for-nf-e"></a><span data-ttu-id="9be34-940">Modo brasileño de contingencia SCAN brasileña para NF-e</span><span class="sxs-lookup"><span data-stu-id="9be34-940">Brazilian SCAN contingency mode for NF-e</span></span>
+
+<span data-ttu-id="9be34-941">El entorno de contingencia de (SCAN) se usa para generar, exportar e importar el estado de una Nota fiscal electrónica (NF-e) cuando el entorno de la Secretaría de Hacienda (SEFAZ) no está disponible.</span><span class="sxs-lookup"><span data-stu-id="9be34-941">(SCAN) contingency environment is used to generate, export, and import the status of a Nota Fiscal eletrônica (NF-e) when the environment of Secretaria da Fazenda (SEFAZ) is not available.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-942">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-942">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-943">Este método de contingencia ya no es un aplicable en todos los estados brasileños</span><span class="sxs-lookup"><span data-stu-id="9be34-943">This method of contingency is no longer applicable in all Brazilian states</span></span> |
+| <span data-ttu-id="9be34-944">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-944">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-945">N.º</span><span class="sxs-lookup"><span data-stu-id="9be34-945">No</span></span>                                                                          |
+| <span data-ttu-id="9be34-946">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-946">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-947">Clientes</span><span class="sxs-lookup"><span data-stu-id="9be34-947">Accounts receivable</span></span>                                                         |
+| <span data-ttu-id="9be34-948">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-948">**Status**</span></span>                         | <span data-ttu-id="9be34-949">En desuso: No se ha establecido una fecha de eliminación para esta función.</span><span class="sxs-lookup"><span data-stu-id="9be34-949">Deprecated: A removal date has not been set for this feature.</span></span>              |
+
+### <a name="business-analyzer"></a><span data-ttu-id="9be34-950">Analizador de negocio</span><span class="sxs-lookup"><span data-stu-id="9be34-950">Business Analyzer</span></span>
+
+<span data-ttu-id="9be34-951">Esta aplicación móvil permite a los usuarios revisar métricas de negocio clave.</span><span class="sxs-lookup"><span data-stu-id="9be34-951">This mobile application let users review key business metrics.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-952">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-952">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-953">Esta funcionalidad se ha reemplazado por otra característica.</span><span class="sxs-lookup"><span data-stu-id="9be34-953">This functionality has been replaced by another feature.</span></span>   |
+| <span data-ttu-id="9be34-954">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-954">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-955">El paquete de contenido de supervisión del rendimiento financiero para Microsoft Power BI incluirá métricas financieras clave anteriormente disponibles en Business Analyzer.</span><span class="sxs-lookup"><span data-stu-id="9be34-955">The Monitor financial performance content pack for Microsoft Power BI will include key financial metrics that were previously available in Business Analyzer.</span></span> |
+| <span data-ttu-id="9be34-956">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-956">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-957">Contabilidad general</span><span class="sxs-lookup"><span data-stu-id="9be34-957">General ledger</span></span>      |
+| <span data-ttu-id="9be34-958">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-958">**Status**</span></span>                         | <span data-ttu-id="9be34-959">En desuso: El uso de un analizador de negocio está en desuso.</span><span class="sxs-lookup"><span data-stu-id="9be34-959">Deprecated: The use of Business Analyzer has been deprecated.</span></span>    |
+
+### <a name="business-statistics"></a><span data-ttu-id="9be34-960">Estadísticas comerciales</span><span class="sxs-lookup"><span data-stu-id="9be34-960">Business statistics</span></span>
+
+<span data-ttu-id="9be34-961">La configuración de consultas de estadísticas comerciales que le pueden ayudar a analizar el rendimiento de la organización</span><span class="sxs-lookup"><span data-stu-id="9be34-961">The setup of business statistics inquiries that can help you analyze the performance of the organization</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-962">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-962">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-963">Método de herencia para la inteligencia empresarial (BI), poco uso por parte del cliente y un conjunto limitado de características</span><span class="sxs-lookup"><span data-stu-id="9be34-963">Legacy approach to business intelligence (BI), low customer usage, and a limited feature set</span></span> |
+| <span data-ttu-id="9be34-964">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-964">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-965">Nuevas soluciones de inteligencia empresarial para la versión actual de Dynamics AX</span><span class="sxs-lookup"><span data-stu-id="9be34-965">New BI solutions for the current version of Dynamics AX</span></span>                                      |
+| <span data-ttu-id="9be34-966">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-966">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-967">Adquisición y abastecimiento, Proveedores, Ventas y marketing, Clientes.</span><span class="sxs-lookup"><span data-stu-id="9be34-967">Procurement and sourcing, Accounts payable, Sales and marketing, Accounts receivable</span></span>         |
+| <span data-ttu-id="9be34-968">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-968">**Status**</span></span>                         | <span data-ttu-id="9be34-969">Eliminado a partir de Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="9be34-969">Removed as of Dynamics AX 7.0.</span></span>                                                               |
+
+### <a name="change-document-date-function-in-invoice-approval-journal"></a><span data-ttu-id="9be34-970">Cambio de la función de fecha de documento en el diario de aprobación de facturas</span><span class="sxs-lookup"><span data-stu-id="9be34-970">Change document date function in Invoice approval journal</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-971">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-971">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-972">Poco uso</span><span class="sxs-lookup"><span data-stu-id="9be34-972">Low usage</span></span>                                                               |
+| <span data-ttu-id="9be34-973">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-973">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-974">Sí.</span><span class="sxs-lookup"><span data-stu-id="9be34-974">Yes.</span></span> <span data-ttu-id="9be34-975">La fecha de documento en la transacción de proveedor registrada puede cambiarse.</span><span class="sxs-lookup"><span data-stu-id="9be34-975">The document date on the posted vendor transaction can be changed.</span></span> |
+| <span data-ttu-id="9be34-976">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-976">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-977">Proveedores</span><span class="sxs-lookup"><span data-stu-id="9be34-977">Accounts payable</span></span>                                                        |
+| <span data-ttu-id="9be34-978">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-978">**Status**</span></span>                         | <span data-ttu-id="9be34-979">Eliminado a partir de Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="9be34-979">Removed as of Dynamics AX 7.0.</span></span>                                          |
+
+### <a name="clieop03-payment-format-for-the-netherlands"></a><span data-ttu-id="9be34-980">Formato de pago ClieOp03 para Países Bajos</span><span class="sxs-lookup"><span data-stu-id="9be34-980">ClieOp03 payment format for the Netherlands</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-981">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-981">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-982">El formato ya no es aplicable en los Países bajos, ya que se ha sustituido por la funcionalidad SEPA.</span><span class="sxs-lookup"><span data-stu-id="9be34-982">The format is no longer applicable in the Netherlands, because it has been replaced by SEPA functionality.</span></span> |
+| <span data-ttu-id="9be34-983">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-983">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-984">Exportación de pagos SEPA</span><span class="sxs-lookup"><span data-stu-id="9be34-984">SEPA payments export</span></span>  |
+| <span data-ttu-id="9be34-985">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-985">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-986">Todos los módulos</span><span class="sxs-lookup"><span data-stu-id="9be34-986">All modules</span></span>     |
+| <span data-ttu-id="9be34-987">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-987">**Status**</span></span>                         | <span data-ttu-id="9be34-988">En desuso: No se ha establecido una fecha de eliminación para esta función.</span><span class="sxs-lookup"><span data-stu-id="9be34-988">Deprecated: A removal date has not been set for this feature.</span></span>   |
+
+### <a name="compliance-center"></a><span data-ttu-id="9be34-989">Centro de cumplimiento</span><span class="sxs-lookup"><span data-stu-id="9be34-989">Compliance Center</span></span>
+
+<span data-ttu-id="9be34-990">El Centro de cumplimiento era un sitio de Enterprise Portal para gestionar los requisitos de documentación para las iniciativas de conformidad relacionadas con la ley Sarbanes-Oxley.</span><span class="sxs-lookup"><span data-stu-id="9be34-990">The Compliance Center was an Enterprise Portal site for managing the documentation requirements for compliance initiatives that are related to the Sarbanes-Oxley law.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-991">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-991">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-992">Falta de uso del cliente.</span><span class="sxs-lookup"><span data-stu-id="9be34-992">Lack of customer usage.</span></span> <span data-ttu-id="9be34-993">Microsoft SharePoint incluye la misma capacidad que estaba disponible en el Centro de cumplimiento.</span><span class="sxs-lookup"><span data-stu-id="9be34-993">Microsoft SharePoint includes the same capability that was available in the Compliance Center.</span></span> |
+| <span data-ttu-id="9be34-994">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-994">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-995">N.º</span><span class="sxs-lookup"><span data-stu-id="9be34-995">No</span></span>   |
+| <span data-ttu-id="9be34-996">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-996">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-997">Cumplimiento y controles internos</span><span class="sxs-lookup"><span data-stu-id="9be34-997">Compliance and internal controls</span></span>  |
+| <span data-ttu-id="9be34-998">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-998">**Status**</span></span>                         | <span data-ttu-id="9be34-999">Eliminado a partir de Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="9be34-999">Removed as of Dynamics AX 7.0.</span></span>    |
+
+### <a name="connector-for-microsoft-dynamics"></a><span data-ttu-id="9be34-1000">Conector para Microsoft Dynamics</span><span class="sxs-lookup"><span data-stu-id="9be34-1000">Connector for Microsoft Dynamics</span></span>
+
+<span data-ttu-id="9be34-1001">Esta herramienta se usó para integrar datos clave de Microsoft Dynamics CRM en las aplicaciones de Microsoft Dynamics ERP.</span><span class="sxs-lookup"><span data-stu-id="9be34-1001">This tool was used to integrate key data from Microsoft Dynamics CRM to Microsoft Dynamics ERP applications.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-1002">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-1002">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-1003">Esta funcionalidad se ha reemplazado por otra característica.</span><span class="sxs-lookup"><span data-stu-id="9be34-1003">This functionality has been replaced by another feature.</span></span> |
+| <span data-ttu-id="9be34-1004">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-1004">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-1005">Common data service</span><span class="sxs-lookup"><span data-stu-id="9be34-1005">Common data service</span></span>                                      |
+| <span data-ttu-id="9be34-1006">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-1006">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-1007">Conector para Microsoft Dynamics</span><span class="sxs-lookup"><span data-stu-id="9be34-1007">Connector for Microsoft Dynamics</span></span>                         |
+| <span data-ttu-id="9be34-1008">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-1008">**Status**</span></span>                         | <span data-ttu-id="9be34-1009">Eliminado a partir de Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="9be34-1009">Removed as of Dynamics AX 7.0.</span></span>                           |
+
+### <a name="container-unit-and-multi-dimension-on-hand"></a><span data-ttu-id="9be34-1010">Unidad de contenedor y multidimensión disponibles</span><span class="sxs-lookup"><span data-stu-id="9be34-1010">Container unit and multi dimension on-hand</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-1011">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-1011">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-1012">Funcionalidad duplicada</span><span class="sxs-lookup"><span data-stu-id="9be34-1012">Duplicate functionality</span></span> |
+| <span data-ttu-id="9be34-1013">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-1013">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-1014">Sí.</span><span class="sxs-lookup"><span data-stu-id="9be34-1014">Yes.</span></span> <span data-ttu-id="9be34-1015">Desde AX 2012, esta funcionalidad se ha reemplazado por el conjunto de características de pedidos de lotes consolidados.</span><span class="sxs-lookup"><span data-stu-id="9be34-1015">Since AX 2012, this functionality has been replaced by the consolidated batch orders feature set.</span></span> <span data-ttu-id="9be34-1016">Este conjunto de características incluye la vista disponible consolidada.</span><span class="sxs-lookup"><span data-stu-id="9be34-1016">This feature set includes the consolidated on-hand view.</span></span> |
+| <span data-ttu-id="9be34-1017">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-1017">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-1018">Gestión de información de productos, Control de producción, Administración de inventario, Ventas y marketing</span><span class="sxs-lookup"><span data-stu-id="9be34-1018">Product information management, Production control, Inventory management, Sales and marketing</span></span>  |
+| <span data-ttu-id="9be34-1019">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-1019">**Status**</span></span>                         | <span data-ttu-id="9be34-1020">Eliminado a partir de Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="9be34-1020">Removed as of Dynamics AX 7.0.</span></span> |
+
+### <a name="cue-group-metadata"></a><span data-ttu-id="9be34-1021">Metadatos de grupo de pilas</span><span class="sxs-lookup"><span data-stu-id="9be34-1021">Cue group metadata</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-1022">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-1022">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-1023">Los grupos de pilas se usaban para mostrar una o más pilas en el área de cuadro informativo.</span><span class="sxs-lookup"><span data-stu-id="9be34-1023">Cue groups were used to display one or more Cues in the FactBox area.</span></span> <span data-ttu-id="9be34-1024">La capacidad era limitada y había también problemas de rendimiento, porque un cambio de registro en un formulario principal generaba una consulta por pila en el grupo de pilas.</span><span class="sxs-lookup"><span data-stu-id="9be34-1024">There was limited uptake, and there were also performance concerns, because a record change in a parent form caused one query per Cue in the Cue group.</span></span> |
+| <span data-ttu-id="9be34-1025">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-1025">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-1026">N.º</span><span class="sxs-lookup"><span data-stu-id="9be34-1026">No</span></span>      |
+| <span data-ttu-id="9be34-1027">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-1027">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-1028">Todos los módulos</span><span class="sxs-lookup"><span data-stu-id="9be34-1028">All modules</span></span>    |
+| <span data-ttu-id="9be34-1029">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-1029">**Status**</span></span>                         | <span data-ttu-id="9be34-1030">Eliminado a partir de Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="9be34-1030">Removed as of Dynamics AX 7.0.</span></span>  |
+
+### <a name="cue-metadata"></a><span data-ttu-id="9be34-1031">Metadatos de pila</span><span class="sxs-lookup"><span data-stu-id="9be34-1031">Cue metadata</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-1032">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-1032">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-1033">Los metadatos de pila estaban limitados a contar o sumar información.</span><span class="sxs-lookup"><span data-stu-id="9be34-1033">Cue metadata was limited to count or sum information.</span></span>    |
+| <span data-ttu-id="9be34-1034">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-1034">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-1035">Los metadatos de icono se introdujeron para proporcionar más flexibilidad para modelar.</span><span class="sxs-lookup"><span data-stu-id="9be34-1035">Tile metadata was introduced to provide more flexibility for modeling.</span></span> <span data-ttu-id="9be34-1036">Por ejemplo, puede modelar recuentos actuales, navegación e indicadores de rendimiento clave (KPI).</span><span class="sxs-lookup"><span data-stu-id="9be34-1036">For example, you can model current counts, navigation, and key performance indicators (KPIs).</span></span> <span data-ttu-id="9be34-1037">Los metadatos de icono de recuento sustituyen directamente a los metadatos de pila.</span><span class="sxs-lookup"><span data-stu-id="9be34-1037">Count tile metadata is the direct replacement of the Cue metadata.</span></span> |
+| <span data-ttu-id="9be34-1038">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-1038">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-1039">Todos los módulos</span><span class="sxs-lookup"><span data-stu-id="9be34-1039">All modules</span></span>           |
+| <span data-ttu-id="9be34-1040">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-1040">**Status**</span></span>                         | <span data-ttu-id="9be34-1041">Eliminado a partir de Dynamics AX 7.0</span><span class="sxs-lookup"><span data-stu-id="9be34-1041">Removed as of Dynamics AX 7.0</span></span>      |
+
+### <a name="danish-check-format"></a><span data-ttu-id="9be34-1042">Formato de cheque danés</span><span class="sxs-lookup"><span data-stu-id="9be34-1042">Danish check format</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-1043">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-1043">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-1044">Se ha dejado de permitir usar el diseño de formato de cheque danés, y el informe se ha retirado de la localización DK.</span><span class="sxs-lookup"><span data-stu-id="9be34-1044">Support for the Danish check format layout has been discontinued, and the report has been removed from DK localization.</span></span> |
+| <span data-ttu-id="9be34-1045">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-1045">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-1046">N.º</span><span class="sxs-lookup"><span data-stu-id="9be34-1046">No</span></span>    |
+| <span data-ttu-id="9be34-1047">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-1047">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-1048">Todos los módulos</span><span class="sxs-lookup"><span data-stu-id="9be34-1048">All modules</span></span>    |
+| <span data-ttu-id="9be34-1049">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-1049">**Status**</span></span>                         | <span data-ttu-id="9be34-1050">En desuso: No se ha establecido una fecha de eliminación para esta función.</span><span class="sxs-lookup"><span data-stu-id="9be34-1050">Deprecated: A removal date has not been set for this feature.</span></span>  |
+
+### <a name="data-partitions"></a><span data-ttu-id="9be34-1051">Particiones de datos</span><span class="sxs-lookup"><span data-stu-id="9be34-1051">Data partitions</span></span>
+
+<span data-ttu-id="9be34-1052">Las particiones de los datos proporcionan una separación lógica de datos en la base de datos de Microsoft Dynamics AX.</span><span class="sxs-lookup"><span data-stu-id="9be34-1052">Data partitions provide a logical separation of data in the Microsoft Dynamics AX database.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-1053">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-1053">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-1054">Las particiones de datos se introdujeron en Microsoft Dynamics AX 2012 R2 para habilitar el aislamiento de los datos.</span><span class="sxs-lookup"><span data-stu-id="9be34-1054">Data partitions were introduced in Microsoft Dynamics AX 2012 R2 to enable data isolation.</span></span> <span data-ttu-id="9be34-1055">En un escenario común, una compañía tiene filiales y los datos de una filial no deben ser visibles para otra, aunque el mismo departamento de TI administre ambas filiales.</span><span class="sxs-lookup"><span data-stu-id="9be34-1055">In a common scenario, a company has subsidiaries, and the data from one subsidiary should not be visible to another subsidiary, even though both subsidiaries are managed by the same IT department.</span></span> <span data-ttu-id="9be34-1056">Sin embargo, se requerían gastos generales de administración y scripts adicionales en todo el programa para crear nuevas particiones y rellenarlas con datos y hacer copia de seguridad de los datos de partición.</span><span class="sxs-lookup"><span data-stu-id="9be34-1056">However, extra scripts and management overhead throughout the program were required in order to create new partitions and populate them with data, and to back up partition data.</span></span> <span data-ttu-id="9be34-1057">En la nube, donde tenemos acceso a la plataforma como servicios de base de datos (Base de datos SQL Microsoft Azure) de un servicio (PaaS), es mucho más eficaz utilizar una base de datos como el contenedor de aislamiento para realizar el aislamiento en el programa.</span><span class="sxs-lookup"><span data-stu-id="9be34-1057">In the cloud, where we have access to platform as a service (PaaS) database services (Microsoft Azure SQL Database), it's much more efficient to use a database as the isolation container than to do isolation in the program.</span></span> <span data-ttu-id="9be34-1058">Con independencia de si se requiere la partición de datos para filiales, para varios inquilinos o simplemente para escala, creemos que los escenarios se pueden controlar mejor a través de varias instancias de Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="9be34-1058">Regardless of whether data partitioning is required for subsidiaries, for multiple tenants, or just for scale, we believe that the scenarios can be handled better through multiple instances of Finance and Operations.</span></span> |
+| <span data-ttu-id="9be34-1059">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-1059">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-1060">Los clientes que usan particiones de datos deben usar varias instancias de Finance and Operations si la separación de nivel de base de datos es un asunto crítico.</span><span class="sxs-lookup"><span data-stu-id="9be34-1060">Customers using data partitions must use multiple instances of Finance and Operations if database level separation is a critical issue.</span></span>    |
+| <span data-ttu-id="9be34-1061">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-1061">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-1062">Todos los módulos</span><span class="sxs-lookup"><span data-stu-id="9be34-1062">All modules</span></span>  |
+| <span data-ttu-id="9be34-1063">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-1063">**Status**</span></span>                         | <span data-ttu-id="9be34-1064">Eliminado a partir de Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="9be34-1064">Removed as of Dynamics AX 7.0.</span></span>  |
+
+
+### <a name="database-and-file-share-storage-for-attachments"></a><span data-ttu-id="9be34-1065">Almacenamiento de recursos compartidos de archivo y base de datos para los datos adjuntos</span><span class="sxs-lookup"><span data-stu-id="9be34-1065">Database and file share storage for attachments</span></span>
+
+<span data-ttu-id="9be34-1066">Microsoft Dynamics AX 2012 permitía el almacenamiento de datos adjuntos en los recursos compartidos de archivos y la base de datos.</span><span class="sxs-lookup"><span data-stu-id="9be34-1066">Microsoft Dynamics AX 2012 allowed storage of attachments in the database and in file shares.</span></span> <span data-ttu-id="9be34-1067">Ambas opciones ya no se admiten.</span><span class="sxs-lookup"><span data-stu-id="9be34-1067">Both of those options are no longer supported.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-1068">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-1068">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-1069">El almacenamiento de recurso compartido de archivos ya no se admite ya que los entornos hospedados en la nube no pueden comunicarse con los recursos compartidos de archivos.</span><span class="sxs-lookup"><span data-stu-id="9be34-1069">Files share storage is no longer supported because cloud-hosted environments cannot communicate with local file shares.</span></span> <span data-ttu-id="9be34-1070">El almacenamiento de base de datos se ha dejado de utilizar en favor del almacenamiento de blobs de Azure.</span><span class="sxs-lookup"><span data-stu-id="9be34-1070">Database storage has been deprecated in favor of Azure Blob storage.</span></span> <span data-ttu-id="9be34-1071">El almacenamiento de blobs de Azure es equivalente al almacenamiento en la base de datos, ya que solo se puede tener acceso a los documentos a través de formularios cliente de Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="9be34-1071">Azure Blob storage is equivalent to storage in the database, as documents can only be accessed through Dynamics 365 for Finance and Operations client forms.</span></span> <span data-ttu-id="9be34-1072">Esto ofrece la ventaja adicional de proporcionar almacenamiento que no afecte negativamente al rendimiento de la base de datos.</span><span class="sxs-lookup"><span data-stu-id="9be34-1072">This provides the added benefit of providing storage that doesn't negatively affect the performance of the database.</span></span> <span data-ttu-id="9be34-1073">El almacenamiento de blobs es el mecanismo predeterminado de almacenamiento para la gestión de documentos y funciona inmediatamente.</span><span class="sxs-lookup"><span data-stu-id="9be34-1073">Blob storage is the default storage mechanism for Document Management and works immediately.</span></span> |
+| <span data-ttu-id="9be34-1074">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-1074">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-1075">El almacenamiento de base de datos se ha dejado de utilizar en favor del almacenamiento de blobs de Azure.</span><span class="sxs-lookup"><span data-stu-id="9be34-1075">Database storage has been deprecated in favor of Azure Blob storage.</span></span>   |
+| <span data-ttu-id="9be34-1076">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-1076">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-1077">Todos los módulos</span><span class="sxs-lookup"><span data-stu-id="9be34-1077">All modules</span></span>  |
+| <span data-ttu-id="9be34-1078">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-1078">**Status**</span></span>                         | <span data-ttu-id="9be34-1079">Eliminado a partir de Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="9be34-1079">Removed as of Dynamics AX 7.0.</span></span>   |
+
+### <a name="delimitation"></a><span data-ttu-id="9be34-1080">Delimitación</span><span class="sxs-lookup"><span data-stu-id="9be34-1080">Delimitation</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-1081">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-1081">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-1082">No se ha encontrado ningún uso de la función.</span><span class="sxs-lookup"><span data-stu-id="9be34-1082">No use of the functionality was found.</span></span> |
+| <span data-ttu-id="9be34-1083">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-1083">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-1084">N.º</span><span class="sxs-lookup"><span data-stu-id="9be34-1084">No</span></span>                                     |
+| <span data-ttu-id="9be34-1085">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-1085">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-1086">Tiempo y asistencia</span><span class="sxs-lookup"><span data-stu-id="9be34-1086">Time and attendance</span></span>                    |
+| <span data-ttu-id="9be34-1087">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-1087">**Status**</span></span>                         | <span data-ttu-id="9be34-1088">Eliminado a partir de Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="9be34-1088">Removed as of Dynamics AX 7.0.</span></span>         |
+
+### <a name="desktop-client"></a><span data-ttu-id="9be34-1089">Cliente de escritorio</span><span class="sxs-lookup"><span data-stu-id="9be34-1089">Desktop client</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-1090">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-1090">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-1091">La experiencia de cliente de Dynamics AX se ha rediseñado para mejorar la capacidad de uso en varias plataformas y dispositivos.</span><span class="sxs-lookup"><span data-stu-id="9be34-1091">The Dynamics AX client experience has been redesigned to improve usability across multiple platforms and devices.</span></span>                      |
+| <span data-ttu-id="9be34-1092">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-1092">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-1093">El nuevo cliente web se basa en los metadatos de formulario de escritorio y el modelo de programación que se han modificado para proporcionar una plataforma web enriquecida.</span><span class="sxs-lookup"><span data-stu-id="9be34-1093">The new web client is based on the desktop Form metadata and programming model that have been modified to provide a rich web platform.</span></span> |
+| <span data-ttu-id="9be34-1094">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-1094">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-1095">Todos los módulos</span><span class="sxs-lookup"><span data-stu-id="9be34-1095">All modules</span></span>  |
+| <span data-ttu-id="9be34-1096">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-1096">**Status**</span></span>                         | <span data-ttu-id="9be34-1097">Eliminado a partir de Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="9be34-1097">Removed as of Dynamics AX 7.0.</span></span>   |
+
+### <a name="direct-database-connection"></a><span data-ttu-id="9be34-1098">Conexión con base de datos directa</span><span class="sxs-lookup"><span data-stu-id="9be34-1098">Direct database connection</span></span>
+
+<span data-ttu-id="9be34-1099">En Dynamics AX 2012 R3, Retail Modern POS podía conectarse directamente a la base de datos de canales de forma parecida a la de Enterprise POS.</span><span class="sxs-lookup"><span data-stu-id="9be34-1099">In Dynamics AX 2012 R3, Retail Modern POS could connect directly to the Channel DB in similar fashion to Enterprise POS.</span></span> <span data-ttu-id="9be34-1100">Esto se añadía al método de comunicación estándar en que Retail Modern POS se comunicaba mediante Retail Server.</span><span class="sxs-lookup"><span data-stu-id="9be34-1100">This was in addition to the standard communication method of Retail Modern POS communicating through Retail Server.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-1101">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-1101">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-1102">La conectividad directa de la base de datos requería protocolos de seguridad inferiores y se usaba principalmente para alcanzar niveles de rendimiento más altos.</span><span class="sxs-lookup"><span data-stu-id="9be34-1102">Direct database connectivity required lower security protocols and was primarily used to achieve the highest levels of performance.</span></span> <span data-ttu-id="9be34-1103">Debido a las mejoras del rendimiento y de seguridad que se han producido en Finance and Operations, esta funcionalidad ahora está dando más problemas que soluciones.</span><span class="sxs-lookup"><span data-stu-id="9be34-1103">Due to the performance and security enhancements that have occurred in Finance and Operations, this functionality now causes more issues than it solves.</span></span> |
+| <span data-ttu-id="9be34-1104">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-1104">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-1105">N. º</span><span class="sxs-lookup"><span data-stu-id="9be34-1105">No.</span></span> <span data-ttu-id="9be34-1106">Ahora solo se da soporte a la comunicación de Retail Server estándar.</span><span class="sxs-lookup"><span data-stu-id="9be34-1106">Only standard Retail Server communication is now supported.</span></span>  |
+| <span data-ttu-id="9be34-1107">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-1107">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-1108">Base de datos de canales/Retail Modern POS</span><span class="sxs-lookup"><span data-stu-id="9be34-1108">Channel DB/Retail Modern POS</span></span>   |
+| <span data-ttu-id="9be34-1109">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-1109">**Status**</span></span>                         | <span data-ttu-id="9be34-1110">Eliminado a partir de Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="9be34-1110">Removed as of Dynamics AX 7.0.</span></span>  |
+
+### <a name="dutch-swift-mt940"></a><span data-ttu-id="9be34-1111">SWIFT MT940 holandés</span><span class="sxs-lookup"><span data-stu-id="9be34-1111">Dutch SWIFT MT940</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-1112">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-1112">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-1113">Ahora se utiliza la función genérica en lugar de la función localizada.</span><span class="sxs-lookup"><span data-stu-id="9be34-1113">Generic functionality is now used instead of localized functionality.</span></span>                    |
+| <span data-ttu-id="9be34-1114">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-1114">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-1115">Sí, esta función se ha reemplazado por la funcionalidad avanzada de conciliación bancaria.</span><span class="sxs-lookup"><span data-stu-id="9be34-1115">Yes, this functionality has been replaced by Advanced bank reconciliation functionality.</span></span> |
+| <span data-ttu-id="9be34-1116">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-1116">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-1117">Todos los módulos</span><span class="sxs-lookup"><span data-stu-id="9be34-1117">All modules</span></span>                                                                              |
+| <span data-ttu-id="9be34-1118">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-1118">**Status**</span></span>                         | <span data-ttu-id="9be34-1119">En desuso: No se ha establecido una fecha de eliminación para esta función.</span><span class="sxs-lookup"><span data-stu-id="9be34-1119">Deprecated: A removal date has not been set for this feature.</span></span>                           |
+
+### <a name="ebilanz-xbrl-for-germany"></a><span data-ttu-id="9be34-1120">eBilanz (XBRL para Alemania)</span><span class="sxs-lookup"><span data-stu-id="9be34-1120">eBilanz (XBRL for Germany)</span></span>
+
+<span data-ttu-id="9be34-1121">Esta funcionalidad proporcionaba salida en el lenguaje eXtensible Business Reporting Language (XBRL) pensada específicamente para la taxonomía alemana eBilanz.</span><span class="sxs-lookup"><span data-stu-id="9be34-1121">This functionality provided eXtensible Business Reporting Language (XBRL) output that is intended specifically for the German eBilanz taxonomy.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-1122">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-1122">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-1123">Falta de uso del cliente</span><span class="sxs-lookup"><span data-stu-id="9be34-1123">Lack of customer usage</span></span>  |
+| <span data-ttu-id="9be34-1124">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-1124">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-1125">Esta característica no se ha sustituido por otra, pero hay disponibles varios paquetes XBRL especializados que proporcionan funcionalidad XBRL enriquecida para el mercado alemán.</span><span class="sxs-lookup"><span data-stu-id="9be34-1125">This feature hasn't been replaced by another feature, but multiple specialized XBRL packages that provide rich XBRL functionality are available for the German market.</span></span> |
+| <span data-ttu-id="9be34-1126">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-1126">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-1127">Management Reporter</span><span class="sxs-lookup"><span data-stu-id="9be34-1127">Management Reporter</span></span>      |
+| <span data-ttu-id="9be34-1128">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-1128">**Status**</span></span>                         | <span data-ttu-id="9be34-1129">En desuso: No se ha establecido una fecha de eliminación para esta función.</span><span class="sxs-lookup"><span data-stu-id="9be34-1129">Deprecated: A removal date has not been set for this feature.</span></span>  |
+
+### <a name="enterprise-portal-client"></a><span data-ttu-id="9be34-1130">Cliente de Enterprise Portal</span><span class="sxs-lookup"><span data-stu-id="9be34-1130">Enterprise Portal client</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-1131">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-1131">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-1132">Se ha proporcionado una sola plataforma de cliente.</span><span class="sxs-lookup"><span data-stu-id="9be34-1132">A single client platform has been provided.</span></span>  |
+| <span data-ttu-id="9be34-1133">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-1133">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-1134">El nuevo cliente web se basa en los metadatos del formulario de escritorio y el modelo de programación que se han modificado para proporcionar una plataforma web enriquecida.</span><span class="sxs-lookup"><span data-stu-id="9be34-1134">The new web client is based on the desktop form metadata and programming model that have been modified to provide a rich web platform.</span></span> |
+| <span data-ttu-id="9be34-1135">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-1135">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-1136">Todos los módulos</span><span class="sxs-lookup"><span data-stu-id="9be34-1136">All modules</span></span>  |
+| <span data-ttu-id="9be34-1137">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-1137">**Status**</span></span>                         | <span data-ttu-id="9be34-1138">Eliminado a partir de Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="9be34-1138">Removed as of Dynamics AX 7.0.</span></span>   |
+
+### <a name="environmental-sustainability"></a><span data-ttu-id="9be34-1139">Sustentabilidad ambiental</span><span class="sxs-lookup"><span data-stu-id="9be34-1139">Environmental sustainability</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-1140">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-1140">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-1141">Poco uso de cliente y conjunto limitado de funciones</span><span class="sxs-lookup"><span data-stu-id="9be34-1141">Low customer usage and a limited feature set</span></span>  |
+| <span data-ttu-id="9be34-1142">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-1142">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-1143">N.º</span><span class="sxs-lookup"><span data-stu-id="9be34-1143">No</span></span>              |
+| <span data-ttu-id="9be34-1144">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-1144">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-1145">Cumplimiento y controles internos, Proveedores</span><span class="sxs-lookup"><span data-stu-id="9be34-1145">Compliance and internal controls, Accounts payable</span></span>  |
+| <span data-ttu-id="9be34-1146">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-1146">**Status**</span></span>                         | <span data-ttu-id="9be34-1147">Eliminado a partir de Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="9be34-1147">Removed as of Dynamics AX 7.0.</span></span> |
+
+### <a name="form-activex-and-managed-host-controls"></a><span data-ttu-id="9be34-1148">Controles de formulario de host administrados y ActiveX</span><span class="sxs-lookup"><span data-stu-id="9be34-1148">Form ActiveX and Managed Host controls</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-1149">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-1149">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-1150">Los controles ActiveX y de host administrados se basan en el cliente de escritorio obsoleto.</span><span class="sxs-lookup"><span data-stu-id="9be34-1150">The ActiveX and Managed Host controls are based on the deprecated desktop client.</span></span> |
+| <span data-ttu-id="9be34-1151">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-1151">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-1152">El marco de controles extensibles admite la creación de nuevos controles que se basan en HTML, CSS y Javascript, y es un control de primera clase en el entorno de Microsoft Visual Studio Tooling.</span><span class="sxs-lookup"><span data-stu-id="9be34-1152">The extensible control framework supports building new controls that are based on HTML, CSS, and JavaScript, and is a first-class control in the Microsoft Visual Studio Tooling environment.</span></span> |
+| <span data-ttu-id="9be34-1153">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-1153">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-1154">Todos los módulos</span><span class="sxs-lookup"><span data-stu-id="9be34-1154">All modules</span></span>     |
+| <span data-ttu-id="9be34-1155">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-1155">**Status**</span></span>                         | <span data-ttu-id="9be34-1156">Eliminado a partir de Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="9be34-1156">Removed as of Dynamics AX 7.0.</span></span>       |
+
+### <a name="generate-prenotes-by-using-a-batch"></a><span data-ttu-id="9be34-1157">Generación de prenotas mediante un lote</span><span class="sxs-lookup"><span data-stu-id="9be34-1157">Generate prenotes by using a batch</span></span>
+
+<span data-ttu-id="9be34-1158">La generación de prenotas no se puede hacer mediante un lote pero sí la puede realizar un usuario.</span><span class="sxs-lookup"><span data-stu-id="9be34-1158">Prenote generation can't be done by using a batch, but it can still be done by a user.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-1159">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-1159">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-1160">No hay manera de persistir y mostrar el archivo de prenota resultante cuando se genera mediante un lote.</span><span class="sxs-lookup"><span data-stu-id="9be34-1160">No form exists to persist and display the resulting prenote file when it's generated by using a batch.</span></span> |
+| <span data-ttu-id="9be34-1161">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-1161">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-1162">Aún se pueden generar prenotas y el usuario tiene control sobre la ubicación en la que se guarda el archivo.</span><span class="sxs-lookup"><span data-stu-id="9be34-1162">Prenotes can still be generated, and the user has control over the location where the file is saved.</span></span>   |
+| <span data-ttu-id="9be34-1163">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-1163">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-1164">Clientes, Proveedores, Gestión de efectivo y bancos</span><span class="sxs-lookup"><span data-stu-id="9be34-1164">Accounts payable, Accounts receivable, Cash and bank management</span></span>  |
+| <span data-ttu-id="9be34-1165">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-1165">**Status**</span></span>                         | <span data-ttu-id="9be34-1166">Eliminado desde AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="9be34-1166">Removed as of AX 7.0.</span></span>    |
+
+### <a name="german-dtaus-payment-export-and-account-statement-import-totals-and-transactions"></a><span data-ttu-id="9be34-1167">Exportación de pagos DTAUS alemanes e importación de extractos de cuentas (totales y transacciones)</span><span class="sxs-lookup"><span data-stu-id="9be34-1167">German DTAUS payment export and account statement import (totals and transactions)</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-1168">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-1168">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-1169">El formato ya no es aplicable en Alemania, ya que se ha sustituido por la funcionalidad SEPA (zona única de pagos en euros).</span><span class="sxs-lookup"><span data-stu-id="9be34-1169">The format is no longer applicable in Germany, because it has been replaced by Single Euro Payments Area (SEPA) functionality.</span></span>                    |
+| <span data-ttu-id="9be34-1170">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-1170">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-1171">Sí, esta funcionalidad se ha reemplazado por la funcionalidad de exportación de pagos SEPA y conciliación bancaria avanzada para importar extractos de cuenta.</span><span class="sxs-lookup"><span data-stu-id="9be34-1171">Yes, this functionality has been replaced by SEPA payment export and advanced bank reconciliation functionality for importing account statements.</span></span> |
+| <span data-ttu-id="9be34-1172">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-1172">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-1173">Todos los módulos</span><span class="sxs-lookup"><span data-stu-id="9be34-1173">All modules</span></span>  |
+| <span data-ttu-id="9be34-1174">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-1174">**Status**</span></span>                         | <span data-ttu-id="9be34-1175">En desuso: No se ha establecido una fecha de eliminación para esta función.</span><span class="sxs-lookup"><span data-stu-id="9be34-1175">Deprecated: A removal date has not been set for this feature.</span></span> |
+
+### <a name="german-dtazv-payment-format"></a><span data-ttu-id="9be34-1176">Formato de pago DTAZV para Alemania</span><span class="sxs-lookup"><span data-stu-id="9be34-1176">German DTAZV payment format</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-1177">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-1177">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-1178">El formato ya no es aplicable en Alemania, ya que se ha sustituido por la funcionalidad SEPA.</span><span class="sxs-lookup"><span data-stu-id="9be34-1178">The format is no longer applicable in Germany, because it has been replaced by SEPA functionality.</span></span> |
+| <span data-ttu-id="9be34-1179">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-1179">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-1180">Exportación de pagos SEPA</span><span class="sxs-lookup"><span data-stu-id="9be34-1180">SEPA payments export</span></span>    |
+| <span data-ttu-id="9be34-1181">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-1181">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-1182">Todos los módulos</span><span class="sxs-lookup"><span data-stu-id="9be34-1182">All modules</span></span>   |
+| <span data-ttu-id="9be34-1183">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-1183">**Status**</span></span>                         | <span data-ttu-id="9be34-1184">En desuso: No se ha establecido una fecha de eliminación para esta función.</span><span class="sxs-lookup"><span data-stu-id="9be34-1184">Deprecated: A removal date has not been set for this feature.</span></span>    |
+
+### <a name="german-mt940-import"></a><span data-ttu-id="9be34-1185">Importación MT940 alemana</span><span class="sxs-lookup"><span data-stu-id="9be34-1185">German MT940 import</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-1186">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-1186">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-1187">Ahora se utiliza la función genérica en lugar de la función localizada.</span><span class="sxs-lookup"><span data-stu-id="9be34-1187">Generic functionality is now used instead of localized functionality.</span></span>                    |
+| <span data-ttu-id="9be34-1188">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-1188">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-1189">Sí, esta función se ha reemplazado por la funcionalidad avanzada de conciliación bancaria.</span><span class="sxs-lookup"><span data-stu-id="9be34-1189">Yes, this functionality has been replaced by Advanced bank reconciliation functionality.</span></span> |
+| <span data-ttu-id="9be34-1190">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-1190">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-1191">Todos los módulos</span><span class="sxs-lookup"><span data-stu-id="9be34-1191">All modules</span></span>                                                                              |
+| <span data-ttu-id="9be34-1192">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-1192">**Status**</span></span>                         | <span data-ttu-id="9be34-1193">En desuso: No se ha establecido una fecha de eliminación para esta función.</span><span class="sxs-lookup"><span data-stu-id="9be34-1193">Deprecated: A removal date has not been set for this feature.</span></span>                           |
+
+### <a name="german-xml-eu-sales-list"></a><span data-ttu-id="9be34-1194">Lista de ventas UE XML para Alemania</span><span class="sxs-lookup"><span data-stu-id="9be34-1194">German XML EU Sales list</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-1195">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-1195">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-1196">Ya no se admite el formato XML para los informes de Lista de ventas de la UE para Alemania.</span><span class="sxs-lookup"><span data-stu-id="9be34-1196">The XML format for German EU Sales List reporting is no longer supported.</span></span> <span data-ttu-id="9be34-1197">Solo se puede usar el formato de archivo de texto ELMA5 para enviar el informe de la Lista de ventas de la UE a la delegación de hacienda alemana.</span><span class="sxs-lookup"><span data-stu-id="9be34-1197">Only the ELMA5 text file format can be used to submit the EU Sales List report to the German Tax Office.</span></span> |
+| <span data-ttu-id="9be34-1198">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-1198">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-1199">N.º</span><span class="sxs-lookup"><span data-stu-id="9be34-1199">No</span></span>         |
+| <span data-ttu-id="9be34-1200">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-1200">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-1201">Impuesto</span><span class="sxs-lookup"><span data-stu-id="9be34-1201">Tax</span></span>        |
+| <span data-ttu-id="9be34-1202">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-1202">**Status**</span></span>                         | <span data-ttu-id="9be34-1203">En desuso: No se ha establecido una fecha de eliminación para esta función.</span><span class="sxs-lookup"><span data-stu-id="9be34-1203">Deprecated: A removal date has not been set for this feature.</span></span>   |
+
+### <a name="gl-ssrs-reports"></a><span data-ttu-id="9be34-1204">Informes GL SSRS</span><span class="sxs-lookup"><span data-stu-id="9be34-1204">GL SSRS reports</span></span>
+
+<span data-ttu-id="9be34-1205">Se han retirado los informes que incluyen los siguientes elementos de menú: **Resumen de saldo de comprobación**, **Saldo de comprobación detallado**, **Plan contable**, **Traza de auditoría**, **Saldos** y **Lista de saldo**.</span><span class="sxs-lookup"><span data-stu-id="9be34-1205">Reports that include the following menu items have been removed: **Summary trial balance**, **Detailed trial balance**, **Chart of accounts**, **Audit trail**, **Balances**, and **Balance list**.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-1206">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-1206">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-1207">Los informes de Financial Microsoft SQL Server Reporting Services (SSRS) han sido reemplazados con capacidades de Management Reporter e informes predeterminados.</span><span class="sxs-lookup"><span data-stu-id="9be34-1207">Financial Microsoft SQL Server Reporting Services (SSRS) reports have been replaced by Management Reporter capabilities and default reports.</span></span> |
+| <span data-ttu-id="9be34-1208">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-1208">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-1209">Management Reporter (etiquetado **Informes financieros** en la versión actual de Dynamics AX)</span><span class="sxs-lookup"><span data-stu-id="9be34-1209">Management Reporter (labeled **Financial reporting** in the current version of Dynamics AX)</span></span>    |
+| <span data-ttu-id="9be34-1210">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-1210">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-1211">Contabilidad general</span><span class="sxs-lookup"><span data-stu-id="9be34-1211">General ledger</span></span>   |
+| <span data-ttu-id="9be34-1212">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-1212">**Status**</span></span>                         | <span data-ttu-id="9be34-1213">Eliminado a partir de Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="9be34-1213">Removed as of Dynamics AX 7.0.</span></span>   |
+
+### <a name="infopart-and-formpart-metadata"></a><span data-ttu-id="9be34-1214">Metadatos de InfoPart y FormPart</span><span class="sxs-lookup"><span data-stu-id="9be34-1214">InfoPart and FormPart metadata</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-1215">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-1215">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-1216">Los metadatos de InfoPart y de FormPart permitieron la creación de cuadros informativos para dos clientes diferentes.</span><span class="sxs-lookup"><span data-stu-id="9be34-1216">InfoPart and FormPart metadata enabled the creation of FactBoxes for two different clients.</span></span> |
+| <span data-ttu-id="9be34-1217">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-1217">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-1218">Los metadatos de InfoPart, que eran una definición simplificada de formulario, se han convertido a un formulario mediante herramientas de actualización.</span><span class="sxs-lookup"><span data-stu-id="9be34-1218">InfoPart metadata, which was a simplified form definition, is converted into a Form by upgrade tooling.</span></span> <span data-ttu-id="9be34-1219">Los metadatos de FormPart, con un formulario al que se hace referencia, se han sustituido por una referencia más directa creada mediante herramientas de actualización.</span><span class="sxs-lookup"><span data-stu-id="9be34-1219">FormPart metadata, which referenced a Form, is replaced by a more direct reference that is created by upgrade tooling.</span></span> |
+| <span data-ttu-id="9be34-1220">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-1220">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-1221">Todos los módulos</span><span class="sxs-lookup"><span data-stu-id="9be34-1221">All modules</span></span>    |
+| <span data-ttu-id="9be34-1222">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-1222">**Status**</span></span>                         | <span data-ttu-id="9be34-1223">Eliminado a partir de Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="9be34-1223">Removed as of Dynamics AX 7.0.</span></span>        |
+
+### <a name="main-account-list-page"></a><span data-ttu-id="9be34-1224">Página de lista Cuenta principal</span><span class="sxs-lookup"><span data-stu-id="9be34-1224">Main account list page</span></span>
+
+<span data-ttu-id="9be34-1225">Una lista de cuentas para la entidad jurídica y la información relacionada de saldo</span><span class="sxs-lookup"><span data-stu-id="9be34-1225">A list of accounts for the legal entity and related balance information</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-1226">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-1226">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-1227">La información del saldo está disponible en la página de lista **Saldo de comprobación** por cuenta y dimensión.</span><span class="sxs-lookup"><span data-stu-id="9be34-1227">Balance information is available on the **Trial balance** list page by account and dimension.</span></span>  |
+| <span data-ttu-id="9be34-1228">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-1228">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-1229">**Cuentas principales** contiene la misma lista de cuentas que contenía la página de lista **Cuenta principal**.</span><span class="sxs-lookup"><span data-stu-id="9be34-1229">**Main accounts** contains the same list of accounts that the **Main account** list page contained.</span></span> <span data-ttu-id="9be34-1230">La vista de cuadrícula en **Cuentas principales** también muestra una vista más pequeña tipo cuadrícula.</span><span class="sxs-lookup"><span data-stu-id="9be34-1230">The grid view in **Main accounts** also shows an even smaller, grid-like view.</span></span> |
+| <span data-ttu-id="9be34-1231">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-1231">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-1232">Contabilidad general</span><span class="sxs-lookup"><span data-stu-id="9be34-1232">General ledger</span></span>      |
+| <span data-ttu-id="9be34-1233">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-1233">**Status**</span></span>                         | <span data-ttu-id="9be34-1234">Eliminado a partir de Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="9be34-1234">Removed as of Dynamics AX 7.0.</span></span>    |
+
+### <a name="malaysia-and-singapore-bank-cash-flow-report"></a><span data-ttu-id="9be34-1235">Informe de flujo de efectivo bancario de Malasia y Singapur</span><span class="sxs-lookup"><span data-stu-id="9be34-1235">Malaysia and Singapore bank cash flow report</span></span>
+
+<span data-ttu-id="9be34-1236">Esta función permite al usuario imprimir un informe de flujo de efectivo que muestra transacciones y detalles de flujos de entrada y de salida de efectivo para un intervalo específico de fechas para las cuentas bancarias seleccionadas.</span><span class="sxs-lookup"><span data-stu-id="9be34-1236">This feature let the user print a cash flow report that shows transactions and details of the cash inflows and outflows for a specific date range for selected bank accounts.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-1237">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-1237">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-1238">La misma información se puede obtener desde la transacción bancaria de consulta.</span><span class="sxs-lookup"><span data-stu-id="9be34-1238">The same information can be obtained from the Inquiry bank transaction.</span></span> |
+| <span data-ttu-id="9be34-1239">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-1239">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-1240">La transacción bancaria de consulta</span><span class="sxs-lookup"><span data-stu-id="9be34-1240">The Inquiry bank transaction</span></span>                                            |
+| <span data-ttu-id="9be34-1241">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-1241">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-1242">Gestión de efectivo y bancos</span><span class="sxs-lookup"><span data-stu-id="9be34-1242">Cash and bank management</span></span>                                                |
+| <span data-ttu-id="9be34-1243">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-1243">**Status**</span></span>                         | <span data-ttu-id="9be34-1244">En desuso: No se ha establecido una fecha de eliminación para esta función.</span><span class="sxs-lookup"><span data-stu-id="9be34-1244">Deprecated: A removal date has not been set for this feature.</span></span>          |
+
+### <a name="mexican-cfd-electronic-invoice"></a><span data-ttu-id="9be34-1245">Factura electrónica CFD mexicana</span><span class="sxs-lookup"><span data-stu-id="9be34-1245">Mexican CFD electronic invoice</span></span>
+
+<span data-ttu-id="9be34-1246">Esta función habilitó la generación de facturas electrónicas mexicanas mediante el método Comprobante Fiscal Digital (CFD), donde la empresa firma la factura solicitando el permiso correspondiente del gobierno.</span><span class="sxs-lookup"><span data-stu-id="9be34-1246">This feature enabled the generation of Mexican electronic invoices by using the Comprobante Fiscal Digital (CFD) method, where the company signs the invoice by requesting the related authorization from the government.</span></span> <span data-ttu-id="9be34-1247">Esta función también proporciona un informe mensual con todas las facturas electrónicas emitidas en el período.</span><span class="sxs-lookup"><span data-stu-id="9be34-1247">This feature also provides a monthly report that includes all electronics invoices that were issued in the period.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-1248">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-1248">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-1249">El método ya no es aplicable.</span><span class="sxs-lookup"><span data-stu-id="9be34-1249">The method is no longer applicable.</span></span> <span data-ttu-id="9be34-1250">La generación de facturas electrónicas usando el método CFD ha sido derogada por las autoridades fiscales y se ha sustituido por el Comprobante Fiscal Digital a través de Internet (CFDI), donde la firma se delega al tercer proveedor (PAC).</span><span class="sxs-lookup"><span data-stu-id="9be34-1250">The generation of electronic invoices by using the CFD method was deprecated by the tax authorities and replaced by the Comprobante Fiscal Digital a través de Internet (CFDI) method, where the signing is delegated to the third-party provider (PAC).</span></span> <span data-ttu-id="9be34-1251">Se ha quitado el informe mensual, y una opción de consulta permite a los usuarios consultar transacciones históricas.</span><span class="sxs-lookup"><span data-stu-id="9be34-1251">The monthly report has been removed, and an inquiry option lets users inquire about historical transactions.</span></span> |
+| <span data-ttu-id="9be34-1252">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-1252">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-1253">N.º</span><span class="sxs-lookup"><span data-stu-id="9be34-1253">No</span></span>    |
+| <span data-ttu-id="9be34-1254">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-1254">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-1255">Clientes, Proyecto</span><span class="sxs-lookup"><span data-stu-id="9be34-1255">Account receivables, Project</span></span>   |
+| <span data-ttu-id="9be34-1256">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-1256">**Status**</span></span>                         | <span data-ttu-id="9be34-1257">En desuso: No se ha establecido una fecha de eliminación para esta función.</span><span class="sxs-lookup"><span data-stu-id="9be34-1257">Deprecated: A removal date has not been set for this feature.</span></span> |
+
+### <a name="mexico-realized-and-unrealized-vat"></a><span data-ttu-id="9be34-1258">IVA realizado y sin realizar en México</span><span class="sxs-lookup"><span data-stu-id="9be34-1258">Mexico realized and unrealized VAT</span></span>
+
+<span data-ttu-id="9be34-1259">Microsoft Dynamics AX 2012 gestionaba el impuesto sobre el valor añadido (IVA) no realizado mediante la funcionalidad específica para México de impuestos no realizados.</span><span class="sxs-lookup"><span data-stu-id="9be34-1259">Microsoft Dynamics AX 2012 managed unrealized value-added tax (VAT) by using Mexico-specific functionality for unrealized tax.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-1260">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-1260">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-1261">Funcionalidad duplicada</span><span class="sxs-lookup"><span data-stu-id="9be34-1261">Duplicate functionality</span></span>  |
+| <span data-ttu-id="9be34-1262">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-1262">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-1263">Sí, esta funcionalidad se ha reemplazado por la funcionalidad estándar de impuestos condicional proporcionada por Core.</span><span class="sxs-lookup"><span data-stu-id="9be34-1263">Yes, this functionality has been replaced by standard conditional sales tax functionality that is provided by Core.</span></span> |
+| <span data-ttu-id="9be34-1264">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-1264">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-1265">Impuesto</span><span class="sxs-lookup"><span data-stu-id="9be34-1265">Tax</span></span>   |
+| <span data-ttu-id="9be34-1266">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-1266">**Status**</span></span>                         | <span data-ttu-id="9be34-1267">En desuso: No se ha establecido una fecha de eliminación para esta función.</span><span class="sxs-lookup"><span data-stu-id="9be34-1267">Deprecated: A removal date has not been set for this feature.</span></span> |
+
+### <a name="microsoft-outlook-integration"></a><span data-ttu-id="9be34-1268">Integración de Microsoft Outlook</span><span class="sxs-lookup"><span data-stu-id="9be34-1268">Microsoft Outlook integration</span></span>
+
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-1269">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-1269">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-1270">Esta funcionalidad se ha reemplazado por la integración Microsoft Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="9be34-1270">This functionality has been replaced by Microsoft Exchange Server integration.</span></span> |
+| <span data-ttu-id="9be34-1271">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-1271">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-1272">Sí</span><span class="sxs-lookup"><span data-stu-id="9be34-1272">Yes</span></span>                                                                            |
+| <span data-ttu-id="9be34-1273">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-1273">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-1274">Sales and Marketing</span><span class="sxs-lookup"><span data-stu-id="9be34-1274">Sales and marketing</span></span>                                                            |
+| <span data-ttu-id="9be34-1275">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-1275">**Status**</span></span>                         | <span data-ttu-id="9be34-1276">Eliminado a partir de Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="9be34-1276">Removed as of Dynamics AX 7.0.</span></span>                                                 |
+
+### <a name="private-blocking-of-inventory-and-warehouse-management-journals"></a><span data-ttu-id="9be34-1277">Bloqueo privado de los diarios de gestión de almacenes e inventarios</span><span class="sxs-lookup"><span data-stu-id="9be34-1277">Private blocking of inventory and warehouse management journals</span></span>
+
+<span data-ttu-id="9be34-1278">Los diarios de almacén e inventario ya no admiten la opción de marcar un diario como privado para un usuario seleccionado.</span><span class="sxs-lookup"><span data-stu-id="9be34-1278">The inventory and warehouse journals no longer support the ability to mark a journal as private for a selected user.</span></span> <span data-ttu-id="9be34-1279">Solo se admite el proceso de bloqueo de diarios como privado para grupos de usuarios y bloqueo durante la edición.</span><span class="sxs-lookup"><span data-stu-id="9be34-1279">Only the process of blocking journals as private for user groups and blocking during editing is supported.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-1280">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-1280">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-1281">No se ha encontrado ningún uso de la función.</span><span class="sxs-lookup"><span data-stu-id="9be34-1281">No use of the functionality was found.</span></span> |
+| <span data-ttu-id="9be34-1282">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-1282">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-1283">N.º</span><span class="sxs-lookup"><span data-stu-id="9be34-1283">No</span></span>                                     |
+| <span data-ttu-id="9be34-1284">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-1284">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-1285">Gestión de inventarios</span><span class="sxs-lookup"><span data-stu-id="9be34-1285">Inventory management</span></span>                   |
+| <span data-ttu-id="9be34-1286">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-1286">**Status**</span></span>                         | <span data-ttu-id="9be34-1287">Eliminado a partir de Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="9be34-1287">Removed as of Dynamics AX 7.0.</span></span>         |
+
+### <a name="product-builder"></a><span data-ttu-id="9be34-1288">Configurador de productos</span><span class="sxs-lookup"><span data-stu-id="9be34-1288">Product builder</span></span>
+
+<span data-ttu-id="9be34-1289">El configurador de productos se usaba para configurar dinámicamente artículos desde un pedido de ventas, presupuesto de ventas, pedido de compra, orden de producción, presupuesto de venta, presupuesto del proyecto o petición de artículo.</span><span class="sxs-lookup"><span data-stu-id="9be34-1289">Product builder was used to dynamically configure items from a sales order, purchase order, production order, sales quotation, project quotation, or item requirement.</span></span> <span data-ttu-id="9be34-1290">De acuerdo con un modelo de producto que tenía variables de modelo, el usuario podía seleccionar valores para cumplir con los requisitos del cliente y obtener una variante del producto única con una lista de materiales y una ruta.</span><span class="sxs-lookup"><span data-stu-id="9be34-1290">Based on a product model that had modeling variables, the user could select values to meet the customer requirements and get a unique product variant that had a BOM and route.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-1291">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-1291">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-1292">El configurador de productos exponía el código X++ a los usuarios finales y no se admite en la versión actual de Dynamics AX.</span><span class="sxs-lookup"><span data-stu-id="9be34-1292">Product builder exposed X++ code to end users and isn't supported in the current version of Dynamics AX.</span></span> <span data-ttu-id="9be34-1293">Se ha retirado para evitar esfuerzos duplicados en bases de código superpuestas y cuantiosas.</span><span class="sxs-lookup"><span data-stu-id="9be34-1293">It has been removed to avoid duplicate maintenance efforts on overlapping, sizeable codebases.</span></span>  |
+| <span data-ttu-id="9be34-1294">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-1294">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-1295">Sí.</span><span class="sxs-lookup"><span data-stu-id="9be34-1295">Yes.</span></span> <span data-ttu-id="9be34-1296">La configuración basada en restricciones se introdujo en Dynamics AX 2012 donde ya se anunciaba la depreciación del generador de productos en futuras versiones.</span><span class="sxs-lookup"><span data-stu-id="9be34-1296">The constraint-based configuration was introduced in Dynamics AX 2012 where the depreciation of Product builder in future versions was already announced.</span></span> <span data-ttu-id="9be34-1297">La tecnología de configuración basada restricciones se selecciona en los productos maestros para habilitar la configuración.</span><span class="sxs-lookup"><span data-stu-id="9be34-1297">The constraint-based configuration technology is selected on the product masters to enable the configuration.</span></span> <span data-ttu-id="9be34-1298">Para obtener más información, consulte [Crear un modelo de configuración de productos](../../supply-chain/pim/build-product-configuration-model.md).</span><span class="sxs-lookup"><span data-stu-id="9be34-1298">To learn more, see [Build a product configuration model](../../supply-chain/pim/build-product-configuration-model.md).</span></span> |
+| <span data-ttu-id="9be34-1299">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-1299">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-1300">Gestión de información de productos, Ventas y marketing</span><span class="sxs-lookup"><span data-stu-id="9be34-1300">Product information management, Sales and marketing</span></span>  |
+| <span data-ttu-id="9be34-1301">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-1301">**Status**</span></span>                         | <span data-ttu-id="9be34-1302">Eliminado a partir de Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="9be34-1302">Removed as of Dynamics AX 7.0.</span></span>      |
+
+### <a name="production-floor-app"></a><span data-ttu-id="9be34-1303">Aplicación de planta de producción</span><span class="sxs-lookup"><span data-stu-id="9be34-1303">Production Floor app</span></span>
+<span data-ttu-id="9be34-1304">Esta es la aplicación de los dispositivos tabletas que ejecutan Windows 8.1 RT y Windows 8.1 Pro.</span><span class="sxs-lookup"><span data-stu-id="9be34-1304">This is the app for tablet devices running Windows 8.1 RT and Windows 8.1 Pro.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-1305">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-1305">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-1306">Con el cambio a un cliente basado en la red, es posible entregar funciones similares a través del cliente nativo de Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="9be34-1306">With the change to a web-based client, it is possible to deliver similar functionality through the native Dynamics AX 7.0 client.</span></span> <span data-ttu-id="9be34-1307">El dispositivo de tarjeta de trabajo proporciona una interfaz de usuario de planta de la producción que se optimiza para los factores de forma de contacto y tabletas.</span><span class="sxs-lookup"><span data-stu-id="9be34-1307">The Job Card Device provides a production floor user interface that is optimized for touch and tablet form factors.</span></span> |
+| <span data-ttu-id="9be34-1308">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-1308">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-1309">Sí.</span><span class="sxs-lookup"><span data-stu-id="9be34-1309">Yes.</span></span> <span data-ttu-id="9be34-1310">El dispositivo de la tarjeta de trabajo, que es una parte nativa de Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="9be34-1310">The Job Card Device, which is a native part of Dynamics AX 7.0.</span></span>                                                                           |
+| <span data-ttu-id="9be34-1311">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-1311">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-1312">Control de producción</span><span class="sxs-lookup"><span data-stu-id="9be34-1312">Production control</span></span>                                                |
+| <span data-ttu-id="9be34-1313">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-1313">**Status**</span></span>                         | <span data-ttu-id="9be34-1314">Desusado: Una fecha de eliminación de la tienda de Microsoft todavía no se ha establecido para esta función.</span><span class="sxs-lookup"><span data-stu-id="9be34-1314">Deprecated: A removal date from the Microsoft store has not yet been set for this feature.</span></span>                                                |
+
+
+### <a name="rename-product-dimension"></a><span data-ttu-id="9be34-1315">Asignar un nuevo nombre a la dimensión del producto</span><span class="sxs-lookup"><span data-stu-id="9be34-1315">Rename product dimension</span></span>
+
+<span data-ttu-id="9be34-1316">Esta función le permite cambiar el nombre de una de las tres dimensiones de producto estándar (tamaño, color o estilo) a un nombre que cumpla mejor con sus requisitos empresariales.</span><span class="sxs-lookup"><span data-stu-id="9be34-1316">This feature let you change the name of one of the three standard product dimensions (size, color, or style) to a name that better suited your business requirements.</span></span> <span data-ttu-id="9be34-1317">El cambio de nombre incluía todas las etiquetas donde se aislaba el nombre de la dimensión de producto.</span><span class="sxs-lookup"><span data-stu-id="9be34-1317">Renaming included all the labels where the product dimension name was used.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-1318">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-1318">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-1319">La versión actual de Dynamics AX no admite cambios de etiqueta en tiempo de ejecución.</span><span class="sxs-lookup"><span data-stu-id="9be34-1319">The current version of Dynamics AX doesn't support label changes at run time.</span></span> |
+| <span data-ttu-id="9be34-1320">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-1320">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-1321">N.º</span><span class="sxs-lookup"><span data-stu-id="9be34-1321">No</span></span>                                                                            |
+| <span data-ttu-id="9be34-1322">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-1322">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-1323">Gestión de información de productos</span><span class="sxs-lookup"><span data-stu-id="9be34-1323">Product information management</span></span>                                                |
+| <span data-ttu-id="9be34-1324">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-1324">**Status**</span></span>                         | <span data-ttu-id="9be34-1325">Eliminado a partir de Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="9be34-1325">Removed as of Dynamics AX 7.0.</span></span>                                                |
+
+### <a name="retail-server-connectivity-using-http"></a><span data-ttu-id="9be34-1326">Conectividad de Retail Server mediante HTTP</span><span class="sxs-lookup"><span data-stu-id="9be34-1326">Retail Server connectivity using HTTP</span></span>
+
+<span data-ttu-id="9be34-1327">En Dynamics AX 2012 R3, Retail Server podía trabajar usando la comunicación HTTP (sin seguridad).</span><span class="sxs-lookup"><span data-stu-id="9be34-1327">In Dynamics AX 2012 R3, the Retail Server could function using HTTP communication (non-secured).</span></span> <span data-ttu-id="9be34-1328">Esto estaba además de la comunicación estándar mediante HTTPS.</span><span class="sxs-lookup"><span data-stu-id="9be34-1328">This was in addition to the standard communication using HTTPS.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-1329">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-1329">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-1330">Debido a los nuevos requisitos de seguridad, ahora solo se admite la comunicación segura mediante TLS 1.2 (o un número superior, si está disponible).</span><span class="sxs-lookup"><span data-stu-id="9be34-1330">Due to new security requirements, only secured communication using TLS 1.2 (or above, as available) is now supported.</span></span> <span data-ttu-id="9be34-1331">El instalador de autoservicio configurará automáticamente el equipo para esta comunicación.</span><span class="sxs-lookup"><span data-stu-id="9be34-1331">The self-service installer will automatically configure the computer for this communication.</span></span> |
+| <span data-ttu-id="9be34-1332">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-1332">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-1333">N. º</span><span class="sxs-lookup"><span data-stu-id="9be34-1333">No.</span></span> <span data-ttu-id="9be34-1334">Ahora solo se da soporte a la comunicación de HTTPS estándar.</span><span class="sxs-lookup"><span data-stu-id="9be34-1334">Only standard HTTPS communication is now supported.</span></span> |
+| <span data-ttu-id="9be34-1335">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-1335">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-1336">Retail Server</span><span class="sxs-lookup"><span data-stu-id="9be34-1336">Retail Server</span></span>  |
+| <span data-ttu-id="9be34-1337">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-1337">**Status**</span></span>                         | <span data-ttu-id="9be34-1338">Eliminado a partir de Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="9be34-1338">Removed as of Dynamics AX 7.0.</span></span> |
+
+### <a name="role-center-pages"></a><span data-ttu-id="9be34-1339">Páginas de áreas de trabajo</span><span class="sxs-lookup"><span data-stu-id="9be34-1339">Role Center pages</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-1340">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-1340">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-1341">Las páginas de área de trabajo se crearon en la plataforma de Enterprise Portal obsoleta, la cual se ha actualizado mediante la nueva plataforma de cliente web en la versión actual de Dynamics AX.</span><span class="sxs-lookup"><span data-stu-id="9be34-1341">Role Center pages were built on the deprecated Enterprise Portal platform, which has been replaced by the new web client platform in the current version of Dynamics AX.</span></span> |
+| <span data-ttu-id="9be34-1342">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-1342">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-1343">El nuevo patrón del formulario de espacio de trabajo proporciona a los usuarios un diseño centrado en el proceso de fácil acceso a las tareas de uso general dentro de dicho proceso.</span><span class="sxs-lookup"><span data-stu-id="9be34-1343">The new Workspace form pattern provides users with a process-centered design that provides easy access to commonly used tasks within that process.</span></span>                       |
+| <span data-ttu-id="9be34-1344">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-1344">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-1345">Todos los módulos</span><span class="sxs-lookup"><span data-stu-id="9be34-1345">All modules</span></span>    |
+| <span data-ttu-id="9be34-1346">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-1346">**Status**</span></span>                         | <span data-ttu-id="9be34-1347">Eliminado a partir de Dynamics AX 7.0</span><span class="sxs-lookup"><span data-stu-id="9be34-1347">Removed as of Dynamics AX 7.0</span></span>   |
+
+### <a name="sales-tax-jurisdictions"></a><span data-ttu-id="9be34-1348">Jurisdicciones de impuestos</span><span class="sxs-lookup"><span data-stu-id="9be34-1348">Sales tax jurisdictions</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-1349">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-1349">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-1350">Poco uso de cliente y conjunto limitado de funciones</span><span class="sxs-lookup"><span data-stu-id="9be34-1350">Low customer usage and a limited feature set</span></span> |
+| <span data-ttu-id="9be34-1351">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-1351">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-1352">N.º</span><span class="sxs-lookup"><span data-stu-id="9be34-1352">No</span></span>                                           |
+| <span data-ttu-id="9be34-1353">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-1353">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-1354">Impuestos de EE.UU</span><span class="sxs-lookup"><span data-stu-id="9be34-1354">US sales tax</span></span>                                 |
+| <span data-ttu-id="9be34-1355">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-1355">**Status**</span></span>                         | <span data-ttu-id="9be34-1356">Eliminado a partir de Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="9be34-1356">Removed as of Dynamics AX 7.0.</span></span>               |
+
+### <a name="sites-services"></a><span data-ttu-id="9be34-1357">Sites Service</span><span class="sxs-lookup"><span data-stu-id="9be34-1357">Sites Services</span></span>
+
+<span data-ttu-id="9be34-1358">Servicios de sitios le permite crear sitios web que amplía sus procesos empresariales a Internet sin el soporte técnico de TI.</span><span class="sxs-lookup"><span data-stu-id="9be34-1358">Sites Services let you build websites that extend your business processes to the Internet without IT support.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-1359">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-1359">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-1360">La infraestructura de Microsoft Azure que usa Dynamics AX tiene nuevas capacidades que se pueden usar en su lugar (por ejemplo, sitios de Azure).</span><span class="sxs-lookup"><span data-stu-id="9be34-1360">The Microsoft Azure infrastructure that is used by Dynamics AX has new capabilities that can be used instead (for example, Azure sites).</span></span> |
+| <span data-ttu-id="9be34-1361">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-1361">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-1362">N.º</span><span class="sxs-lookup"><span data-stu-id="9be34-1362">No</span></span>   |
+| <span data-ttu-id="9be34-1363">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-1363">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-1364">Reclutamiento de recursos humanos, gestión de casos, solicitudes de presupuesto, registro de proveedores, áreas de trabajo colaborativas para oportunidades y campañas</span><span class="sxs-lookup"><span data-stu-id="9be34-1364">HR recruiting, Case management, Request for quotes, Vendor registration, Collaborative workspaces for opportunities and campaigns</span></span>  |
+| <span data-ttu-id="9be34-1365">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-1365">**Status**</span></span>                         | <span data-ttu-id="9be34-1366">Eliminado a partir de Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="9be34-1366">Removed as of Dynamics AX 7.0.</span></span>    |
+
+### <a name="ssas-demand-forecasting-strategy"></a><span data-ttu-id="9be34-1367">Estrategia de previsión de la demanda de SSAS</span><span class="sxs-lookup"><span data-stu-id="9be34-1367">SSAS demand forecasting strategy</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-1368">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-1368">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-1369">El diseño de la característica no se admite en la nueva arquitectura de la nube.</span><span class="sxs-lookup"><span data-stu-id="9be34-1369">The design of the feature cannot be supported in the new cloud architecture.</span></span> |
+| <span data-ttu-id="9be34-1370">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-1370">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-1371">Estrategia de previsión de demanda de Aprendizaje automático de Azure</span><span class="sxs-lookup"><span data-stu-id="9be34-1371">Azure Machine Learning demand forecasting strategy</span></span>                           |
+| <span data-ttu-id="9be34-1372">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-1372">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-1373">Planificación maestra</span><span class="sxs-lookup"><span data-stu-id="9be34-1373">Master planning</span></span>                                                              |
+| <span data-ttu-id="9be34-1374">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-1374">**Status**</span></span>                         | <span data-ttu-id="9be34-1375">Eliminado a partir de Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="9be34-1375">Removed as of Dynamics AX 7.0.</span></span>                                               |
+
+### <a name="vendor-invoice-pool-excluding-posting-details"></a><span data-ttu-id="9be34-1376">Ver detalles de grupo de facturas de proveedor excluidas del registro</span><span class="sxs-lookup"><span data-stu-id="9be34-1376">Vendor invoice pool excluding posting details</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-1377">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-1377">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-1378">Poco uso.</span><span class="sxs-lookup"><span data-stu-id="9be34-1378">Low usage.</span></span> <span data-ttu-id="9be34-1379">Esta funcionalidad se ha reemplazado por el Diario de facturas que tiene la funcionalidad del flujo de trabajo.</span><span class="sxs-lookup"><span data-stu-id="9be34-1379">This functionality has been replaced by the Invoice journal that has workflow functionality.</span></span> |
+| <span data-ttu-id="9be34-1380">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-1380">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-1381">Capacidades del flujo de trabajo del Diario de facturas.</span><span class="sxs-lookup"><span data-stu-id="9be34-1381">Workflow capabilities of the Invoice journal.</span></span>     |
+| <span data-ttu-id="9be34-1382">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-1382">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-1383">Proveedores</span><span class="sxs-lookup"><span data-stu-id="9be34-1383">Accounts payable</span></span> |
+| <span data-ttu-id="9be34-1384">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-1384">**Status**</span></span>                         | <span data-ttu-id="9be34-1385">Eliminado a partir de Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="9be34-1385">Removed as of Dynamics AX 7.0.</span></span>    |
+
+
+### <a name="virtual-company-accounts"></a><span data-ttu-id="9be34-1386">Cuentas de empresa virtuales</span><span class="sxs-lookup"><span data-stu-id="9be34-1386">Virtual company accounts</span></span>
+
+<span data-ttu-id="9be34-1387">La característica de empresas virtuales ya no se admite en Dynamics AX.</span><span class="sxs-lookup"><span data-stu-id="9be34-1387">The virtual companies feature is no longer supported in Dynamics AX.</span></span> <span data-ttu-id="9be34-1388">La característica de empresas virtuales permite a los usuarios configurar tablas que se puedan compartidas por un conjunto de empresas.</span><span class="sxs-lookup"><span data-stu-id="9be34-1388">The virtual companies feature let users set up tables that could be shared by a set of companies.</span></span> <span data-ttu-id="9be34-1389">Puede obtener una descripción de la función, vea [Cuentas de empresa y cuentas de empresa virtuales](https://msdn.microsoft.com/en-us/library/aa834382(v=ax.10).aspx).</span><span class="sxs-lookup"><span data-stu-id="9be34-1389">For a description of the feature, see [Company accounts and Virtual company accounts](https://msdn.microsoft.com/en-us/library/aa834382(v=ax.10).aspx).</span></span> <span data-ttu-id="9be34-1390">La función trabaja agrupando tablas en recopilaciones que se asignan a empresas virtuales, que son grupos de empresas “reales” existentes.</span><span class="sxs-lookup"><span data-stu-id="9be34-1390">The feature works by grouping tables into collections that are assigned to virtual companies, which are groups of existing “real” companies.</span></span> <span data-ttu-id="9be34-1391">Se crean consultas de modo que todas las empresas de la empresa virtual puedan obtener acceso a los datos de las tablas de las recopilaciones de tablas asociadas.</span><span class="sxs-lookup"><span data-stu-id="9be34-1391">Queries are created so that all the companies in the virtual company can access the data in the tables of the associated table collections.</span></span>
+
+|   |  | 
+|------------|--------------------|
+| <span data-ttu-id="9be34-1392">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-1392">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-1393">- Las empresas virtuales deben configurarse antes de que los datos se almacenen en las tablas.</span><span class="sxs-lookup"><span data-stu-id="9be34-1393">- Virtual companies must be set up before data is stored in the tables.</span></span> <span data-ttu-id="9be34-1394">La retroadaptación de las empresas virtuales en la implementación existente es muy difícil.</span><span class="sxs-lookup"><span data-stu-id="9be34-1394">Retrofitting virtual companies onto an existing implementation is very difficult.</span></span><br><br><span data-ttu-id="9be34-1395">- Dado que se han normalizado tantos datos en la versión actual de Dynamics AX, se ha hecho difícil saber qué agregar a las colecciones de tablas.</span><span class="sxs-lookup"><span data-stu-id="9be34-1395">- Because there has been so much data normalization in the current version of Dynamics AX, it has become difficult to know what to add to the table collections.</span></span> <span data-ttu-id="9be34-1396">Por ejemplo, es difícil saber qué tablas compartir.</span><span class="sxs-lookup"><span data-stu-id="9be34-1396">For example, it's difficult to know which tables to share.</span></span> <span data-ttu-id="9be34-1397">Todas las tablas a las que se hace referencia desde las tablas en una empresa virtual también se deben agregar.</span><span class="sxs-lookup"><span data-stu-id="9be34-1397">All the tables referenced from tables that are in a virtual company must also added.</span></span> <span data-ttu-id="9be34-1398">Debido a la normalización de la tabla, incluso los datos maestros sencillos que se extienden en múltiples tablas deben formar parte de la empresa virtual.</span><span class="sxs-lookup"><span data-stu-id="9be34-1398">Because of table normalization, even simple master data that is spread across multiple tables must be part of the virtual company.</span></span> <span data-ttu-id="9be34-1399">Cualquier error que se realice producirá problemas funcionales.</span><span class="sxs-lookup"><span data-stu-id="9be34-1399">Any mistake that is made here will cause functional issues.</span></span><br><br><span data-ttu-id="9be34-1400">- Cuando una tabla forma parte de una empresa virtual, pierde la información acerca del origen de los datos y solo se registra la empresa virtual.</span><span class="sxs-lookup"><span data-stu-id="9be34-1400">- When a table is part of a virtual company, it loses information about the origin of the data, and only the virtual company is recorded.</span></span>   |
+| <span data-ttu-id="9be34-1401">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-1401">**Replaced by another feature?**</span></span> | <span data-ttu-id="9be34-1402">Se pueden usar tablas globales para que las tablas sean accesibles desde todas las empresas.</span><span class="sxs-lookup"><span data-stu-id="9be34-1402">Global tables can be used to make tables accessible from all companies.</span></span> <span data-ttu-id="9be34-1403">Actualmente no hay ninguna sustitución.</span><span class="sxs-lookup"><span data-stu-id="9be34-1403">Currently, there is no replacement.</span></span> |   
+| <span data-ttu-id="9be34-1404">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-1404">**Product areas affected**</span></span>       | <span data-ttu-id="9be34-1405">Todos los módulos</span><span class="sxs-lookup"><span data-stu-id="9be34-1405">All modules</span></span> |   
+| <span data-ttu-id="9be34-1406">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-1406">**Status**</span></span>                       | <span data-ttu-id="9be34-1407">Eliminado a partir de Dynamics AX 7.0.</span><span class="sxs-lookup"><span data-stu-id="9be34-1407">Removed as of Dynamics AX 7.0.</span></span>   |   
+
+### <a name="windows-8-tablet-app"></a><span data-ttu-id="9be34-1408">Aplicación para tabletas con Windows 8</span><span class="sxs-lookup"><span data-stu-id="9be34-1408">Windows 8 tablet app</span></span>
+
+<span data-ttu-id="9be34-1409">La aplicación para tabletas con Windows 8 ofrecía funcionalidad para la entrada y la aprobación de gastos.</span><span class="sxs-lookup"><span data-stu-id="9be34-1409">The Windows 8 tablet app provided functionality for expense entry and approval.</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-1410">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-1410">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-1411">Finance and Operations es compatible con las tabletas.</span><span class="sxs-lookup"><span data-stu-id="9be34-1411">Finance and Operations is compatible with tablets.</span></span> <span data-ttu-id="9be34-1412">La aplicación para tabletas ya no se requiere.</span><span class="sxs-lookup"><span data-stu-id="9be34-1412">The tablet app is no longer required.</span></span>    |
+| <span data-ttu-id="9be34-1413">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-1413">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-1414">N. º</span><span class="sxs-lookup"><span data-stu-id="9be34-1414">No.</span></span>          |
+| <span data-ttu-id="9be34-1415">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-1415">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-1416">Gestión de gastos</span><span class="sxs-lookup"><span data-stu-id="9be34-1416">Expense management</span></span>   |
+| <span data-ttu-id="9be34-1417">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-1417">**Status**</span></span>                         | <span data-ttu-id="9be34-1418">Quitado: Esta funcionalidad sólo está disponible para Dynamics AX 2012 R3.</span><span class="sxs-lookup"><span data-stu-id="9be34-1418">Removed: This functionality is only available for Dynamics AX 2012 R3.</span></span> |
+
+### <a name="workplanner"></a><span data-ttu-id="9be34-1419">Planificador de trabajo</span><span class="sxs-lookup"><span data-stu-id="9be34-1419">Workplanner</span></span>
+
+|   |  |
+|------------|--------------------|
+| <span data-ttu-id="9be34-1420">**Motivo de la depreciación/eliminación**</span><span class="sxs-lookup"><span data-stu-id="9be34-1420">**Reason for deprecation/removal**</span></span> | <span data-ttu-id="9be34-1421">Poco uso</span><span class="sxs-lookup"><span data-stu-id="9be34-1421">Low usage</span></span> |
+| <span data-ttu-id="9be34-1422">**¿Reemplazado por otra característica?**</span><span class="sxs-lookup"><span data-stu-id="9be34-1422">**Replaced by another feature?**</span></span>   | <span data-ttu-id="9be34-1423">No, pero la página **Relación de perfiles**, que se abre desde la página **Grupos de perfiles**, admite el mismo escenario empresarial que la página **Planificador de trabajo** desaprobada.</span><span class="sxs-lookup"><span data-stu-id="9be34-1423">No, but the **Profile relation** page, which is opened from the **Profile groups** page, supports the same business scenario as the deprecated **Workplanner** page.</span></span> |
+| <span data-ttu-id="9be34-1424">**Áreas de producto afectadas**</span><span class="sxs-lookup"><span data-stu-id="9be34-1424">**Product areas affected**</span></span>         | <span data-ttu-id="9be34-1425">Tiempo y asistencia</span><span class="sxs-lookup"><span data-stu-id="9be34-1425">Time and attendance</span></span>     |
+| <span data-ttu-id="9be34-1426">**Estado**</span><span class="sxs-lookup"><span data-stu-id="9be34-1426">**Status**</span></span>                         | <span data-ttu-id="9be34-1427">No se ha quitado el código.</span><span class="sxs-lookup"><span data-stu-id="9be34-1427">The code has not been removed.</span></span> <span data-ttu-id="9be34-1428">Sin embargo, el formulario, JmgWorkPlanner, no se ha migrado.</span><span class="sxs-lookup"><span data-stu-id="9be34-1428">However, the form, JmgWorkPlanner, was not migrated.</span></span>    |
+
+### <a name="x-financial-statements"></a><span data-ttu-id="9be34-1429">Informes financieros de X++</span><span class="sxs-lookup"><span data-stu-id="9be34-1429">X++ financial statements</span></span>
+
+|                                                 |                                                                                                          |
+|-------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="9be34-1430"><strong>Motivo de la depreciación/eliminación</strong></span><span class="sxs-lookup"><span data-stu-id="9be34-1430"><strong>Reason for deprecation/removal</strong></span></span> |                         <span data-ttu-id="9be34-1431">Esta funcionalidad se ha reemplazado por otra característica.</span><span class="sxs-lookup"><span data-stu-id="9be34-1431">This functionality has been replaced by another feature.</span></span>                         |
+|  <span data-ttu-id="9be34-1432"><strong>¿Reemplazado por otra característica?</strong></span><span class="sxs-lookup"><span data-stu-id="9be34-1432"><strong>Replaced by another feature?</strong></span></span>  | <span data-ttu-id="9be34-1433">Management Reporter (etiquetado <strong>Informes financieros</strong> en la versión actual de Dynamics AX)</span><span class="sxs-lookup"><span data-stu-id="9be34-1433">Management Reporter (labeled <strong>Financial reporting</strong> in the current version of Dynamics AX)</span></span> |
+|     <span data-ttu-id="9be34-1434"><strong>Áreas de producto afectadas</strong></span><span class="sxs-lookup"><span data-stu-id="9be34-1434"><strong>Product areas affected</strong></span></span>     |                                              <span data-ttu-id="9be34-1435">Contabilidad general</span><span class="sxs-lookup"><span data-stu-id="9be34-1435">General ledger</span></span>                                              |
+|             <span data-ttu-id="9be34-1436"><strong>Estado</strong></span><span class="sxs-lookup"><span data-stu-id="9be34-1436"><strong>Status</strong></span></span>             |                                      <span data-ttu-id="9be34-1437">Eliminado a partir de Dynamics AX 2012</span><span class="sxs-lookup"><span data-stu-id="9be34-1437">Removed as of Dynamics AX 2012</span></span>                                      |
+

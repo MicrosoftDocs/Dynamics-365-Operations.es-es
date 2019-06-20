@@ -1,219 +1,83 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="ExpenseWorkspaceNew.md" target-language="es-ES">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>ExpenseWorkspaceNew.43d6f6.c7a2b95456e812970b135d83f0f7e503310ce185.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>c7a2b95456e812970b135d83f0f7e503310ce185</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>97ed74889a09ef385f6ecbab69e84a05ff42ee41</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/20/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\expense-management\ExpenseWorkspaceNew.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Expense reports reimagined</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Informes de gastos reinventados</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This topic provides information about the redesigned and reimagined experience for expense report entry in Microsoft Dynamics 365 for Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Este tema proporciona información sobre la experiencia reajustada y reinventada para la entrada del informe de gastos en Microsoft Dynamics 365 for Finance and Operations.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103" restype="x-metadata">
-          <source>The new experience simplifies the process of completing expense reports and decreases the time that is required.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La nueva experiencia simplifica el proceso de completar informes de gastos y reduce el tiempo requerido.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>Expense reports reimagined</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Informes de gastos reinventados</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>Expense report entry has been redesigned to simplify the process of completing expense reports and decrease the time that is required.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La entrada del informe de gastos se ha rediseñado para simplificar el proceso de completar informes de gastos y reducir el tiempo requerido.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>Here are the major components of the new expense experience:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Estos son los componentes principales de la nueva experiencia de gastos:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>A new expense management workspace that lets you access your delegate's expenses.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Un nuevo espacio de trabajo de gestión de gastos que permite a su delegado el acceso a los gastos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>A new receipt matching experience to better show header-level receipts and simplify the process of attaching receipts to expense lines.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Una nueva experiencia de relación de recepción para mejorar la presentación de recepciones a nivel de encabezado y para simplificar el proceso de adjuntar recibos a las líneas de gastos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>A new read-only grid that lets you view many more expense lines and additional columns of data.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Una nueva cuadrícula de sólo lectura que permite ver muchas más líneas de gastos y columnas de datos adicionales.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>You can now see all itemized and split lines, together with their parent expenses.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ahora puede ver todas las líneas detalladas y divididas, así como los gastos principales.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>A simplified pane for editing expenses.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Un panel simplificado para editar los gastos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>Redesigned error, warning, and policy messages to help guarantee that you have the correct context to understand what the issue is and how to resolve it.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rediseño de los mensajes de error, advertencia, y directiva para ayudar a garantizar que tiene el contexto correcto para comprender cuál es el problema y cómo resolverlo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>Microsoft has removed many messages that appeared before users had an opportunity to complete their tasks and address the issues, such as the incomplete itemization message.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Microsoft ha quitado muchos mensajes que aparecían antes de que los usuarios tuvieran una oportunidad de completar sus tareas y de abordar los problemas, como el mensaje incompleto del detalle.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>A new page for specifying which fields are required by your organization, which fields are optional, and which fields should not be captured.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Una nueva página para especificar qué campos son obligatorios para su organización, que campos son opcionales, y qué campos no deberían capturarse.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>This page will help reduce the number of fields that users must to set.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Esta página ayudará a reducir el número de campos que los usuarios deben liquidar.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>A new look and feel for expense reports, so that the reports no longer seem as though they were designed for accounting personas.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Un nuevo aspecto y funcionamiento para los informes de gastos, de modo que ya no parezcan diseñados para el personal de contabilidad.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>To turn on the new experience, use the <bpt id="p1">**</bpt>Feature management<ept id="p1">**</ept> workspace to turn on the <bpt id="p2">**</bpt>Expense reports re-imagined<ept id="p2">**</ept> feature.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Para activar la nueva experiencia, utilice el espacio de trabajo <bpt id="p1">**</bpt>Administración de características<ept id="p1">**</ept> para activar la función <bpt id="p2">**</bpt>Informes de gastos reimaginados<ept id="p2">**</ept> .</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>When you turn on this feature, the following actions occur:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Al activar esta característica ocurren las acciones siguientes:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>The existing expense workspace is replaced with the new workspace.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El espacio de trabajo existente de gastos se reemplaza con el nuevo espacio de trabajo.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>A new menu item for expense field visibility is added.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Un nuevo elemento de menú para la visibilidad del campo de gastos se agrega.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>No existing menu items for expense reports (the existing page) or expense report fields are removed.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">No se quita ningún elemento existente del menú de informes de gastos (la página ya existente) ni campos del informe de gastos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>Workflows and any approvals still take you to the existing expense reports page.</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Los flujos de trabajo y la aprobación aún le llevan a la página existente de los informes de gastos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Getting started video for new users</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Vídeo de iniciación para nuevos usuarios</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>The <bpt id="p1">[</bpt>Expense experience in Dynamics 365 for Finance and Operations<ept id="p1">](https://youtu.be/Ocy-MsTvEE0)</ept> video (shown above) is included in the <bpt id="p2">[</bpt>Finance and Operations playlist<ept id="p2">](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW)</ept> available on YouTube.</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">El vídeo <bpt id="p1">[</bpt>Experiencia de gasto en Dynamics 365 for Finance and Operations<ept id="p1">](https://youtu.be/Ocy-MsTvEE0)</ept> (aparece más arriba) está incluido en la  <bpt id="p2">[</bpt>Lista de reproducción de Finance and Operations<ept id="p2">](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW)</ept> disponibles en YouTube.</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>New features</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Nuevas características</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>New feature</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Característica nueva</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>Description</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Descripción</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>Expense field visibility</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">Visibilidad del campo de gastos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>A new setup page lets you specify which fields should be disabled for an organization, which fields should be required, and which fields are recommended.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Una nueva página de configuración le permite especificar los campos que se deben deshabilitar para una organización, los campos que deben ser necesarios y qué campos son recomendables.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>Required fields</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Campos obligatorios</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>New simple configuration lets you make some fields required without having to use the policy framework.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La nueva configuración simple permite crear algunos campos obligatorios sin tener que usar el marco de directiva.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>Optional fields</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Campos opcionales</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>A second page for optional fields is added.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Una segunda página para los campos opcionales se agrega.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>In this way, employees won't feel as if they must set the fields, but the fields are still easily accessible.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">De esta manera, los empleados no sentirán como si debieran establecer los campos, pero acceder a los campos sigue siendo fácil.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>Add unattached receipts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Agregar recibos no adjuntados</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>The ability to add unattached receipts to expense report is more visible from the workspace and on the expense report.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La capacidad de agregar recibos no adjuntados al informe de gastos estará más visible del espacio de trabajo y en el informe de gastos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>Improved messaging</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mensajería mejorada</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>There is better visibility into expense lines that have warnings or errors.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hay una mejor visibilidad en las líneas de gastos que tengan advertencias o errores.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>Reduction in messages in the message bar</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Reducción en los mensajes en la barra de mensajes</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>The number of Infolog messages was decreased, and an effort was made to prevent duplicate messages from appearing in many cases.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">El número de mensajes del registro de información ha disminuido, y se ha realizado un esfuerzo para evitar que aparezcan los mensajes duplicados en muchos casos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>Grouped together common actions</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Acciones comunes agrupadas juntas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>The interface was cleaned up with the addition of a new actions button for most of the common line-level actions and the addition of an ellipsis button (...) for header and other less frequent actions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La interfaz se ha limpiado con la adición de las nuevas acciones en los botones de la mayoría de las acciones comunes de nivel de línea y la adición de puntos suspensivos (...) para la cabecera y otros acciones menos frecuentes.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>New workspace to increase visibility</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nuevo espacio de trabajo para aumentar la visibilidad</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>A new workspace unifies features and links that let users move to different areas.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Un nuevo espacio de trabajo unifica las funciones y los vínculos que permiten a los usuarios pasar a las distintas áreas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>Add existing expenses and receipts during expense creation</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Agregue los gastos y los recibos existentes durante la creación de gastos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>When you create expense reports, you can add all or selected expenses and receipts.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cuando se crean informes de gastos, puede agregar todos los gastos seleccionado y recibos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>Exchange rate calculator</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Calculadora del tipo de cambio</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>An exchange rate calculator is added that lets you calculate the exchange rate for out-of-pocket multicurrency transactions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Se agrega una calculadora del tipo de cambio que permite calcular el tipo de cambio para las transacciones de gastos menores en transacciones multidivisa.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>Save and add new expense lines</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Guardar y agregar nuevas líneas de gastos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source><bpt id="p1">**</bpt>Save<ept id="p1">**</ept> and <bpt id="p2">**</bpt>New<ept id="p2">**</ept> buttons are available when new expenses are entered, to help you quickly enter expense lines.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los botones <bpt id="p1">**</bpt>Guardar<ept id="p1">**</ept> y <bpt id="p2">**</bpt>Nuevo<ept id="p2">**</ept> están disponibles cuando se especifican los nuevos gastos, para ayudarle a introducir rápidamente líneas de gastos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>Better visibility into split and itemized lines</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Una mejor visibilidad en las líneas detalladas y divididas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>Itemized and split lines are added directly to the list of expenses, to increase visibility and help you easily determine whether there are policy errors or other errors.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Las líneas detalladas y divididas se agregan directamente a la lista de gastos, para aumentar la visibilidad y ayudarle a determinar fácilmente si hay errores de directivas u otros errores.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>Show receipts during itemization</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Muestra los recibos durante el detallado</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>Receipts can be shown during itemization.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Los recibos pueden mostrarse durante el detallado.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>The initial release is focused on expense entry scenarios.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">La versión inicial se centra en los escenarios de la entrada de gastos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>Any expense report review or approval scenario will continue to use the existing expense entry page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Cualquier escenario de revisión o aprobación de informe de gastos seguirá usando la página existente de la entrada de gastos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>The following features are present on the existing page but aren't yet present on the new page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Las siguientes características están presentes en la página existente pero aún no están presentes en la nueva página.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source>These features will be reintroduced over the next several releases:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Estas características serán reintroducidas durante varias versiones siguientes:</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>Approvals</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aprobaciones</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>Accounts payable approvals and the ability to edit the accounting</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aprobación de los proveedores y la capacidad para editar la contabilidad</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source>Multiple entry points</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Varios puntos de entrada</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>Travel requisition integration</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Integración de la solicitud de viaje</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source>Data entity for expense field visibility</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visibilidad de la entidad de datos para el campo de gastos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source>Entry for per-diem expenses</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Entrada de gastos de dietas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source>Line-level workflow</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Flujo de trabajo de nivel de línea</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="166">
-          <source>Interim approver support</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Soporte para aprobador provisional</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="167">
-          <source>Advanced itemization</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Detalles avanzados</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Informes de gastos reinventados
+description: Este tema proporciona información sobre la experiencia reajustada y reinventada para la entrada del informe de gastos en Microsoft Dynamics 365 for Finance and Operations. La nueva experiencia simplifica el proceso de completar informes de gastos y reduce el tiempo requerido.
+author: ryansandness
+manager: AnnBe
+ms.date: 05/20/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User
+ms.reviewer: sericks
+ms.search.scope: Operations, Core
+ms.search.region: Global
+ms.author: ryansand
+ms.search.validFrom: 2019-6-30
+ms.dyn365.ops.version: 10.0.3
+ms.openlocfilehash: c7a2b95456e812970b135d83f0f7e503310ce185
+ms.sourcegitcommit: 97ed74889a09ef385f6ecbab69e84a05ff42ee41
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "1592646"
+---
+# <a name="expense-reports-reimagined"></a><span data-ttu-id="2e18c-104">Informes de gastos reinventados</span><span class="sxs-lookup"><span data-stu-id="2e18c-104">Expense reports reimagined</span></span>
+
+[!include[banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
+
+<span data-ttu-id="2e18c-105">La entrada del informe de gastos se ha rediseñado para simplificar el proceso de completar informes de gastos y reducir el tiempo requerido.</span><span class="sxs-lookup"><span data-stu-id="2e18c-105">Expense report entry has been redesigned to simplify the process of completing expense reports and decrease the time that is required.</span></span> <span data-ttu-id="2e18c-106">Estos son los componentes principales de la nueva experiencia de gastos:</span><span class="sxs-lookup"><span data-stu-id="2e18c-106">Here are the major components of the new expense experience:</span></span>
+
+- <span data-ttu-id="2e18c-107">Un nuevo espacio de trabajo de gestión de gastos que permite a su delegado el acceso a los gastos.</span><span class="sxs-lookup"><span data-stu-id="2e18c-107">A new expense management workspace that lets you access your delegate's expenses.</span></span>
+- <span data-ttu-id="2e18c-108">Una nueva experiencia de relación de recepción para mejorar la presentación de recepciones a nivel de encabezado y para simplificar el proceso de adjuntar recibos a las líneas de gastos.</span><span class="sxs-lookup"><span data-stu-id="2e18c-108">A new receipt matching experience to better show header-level receipts and simplify the process of attaching receipts to expense lines.</span></span>
+- <span data-ttu-id="2e18c-109">Una nueva cuadrícula de sólo lectura que permite ver muchas más líneas de gastos y columnas de datos adicionales.</span><span class="sxs-lookup"><span data-stu-id="2e18c-109">A new read-only grid that lets you view many more expense lines and additional columns of data.</span></span> <span data-ttu-id="2e18c-110">Ahora puede ver todas las líneas detalladas y divididas, así como los gastos principales.</span><span class="sxs-lookup"><span data-stu-id="2e18c-110">You can now see all itemized and split lines, together with their parent expenses.</span></span>
+- <span data-ttu-id="2e18c-111">Un panel simplificado para editar los gastos.</span><span class="sxs-lookup"><span data-stu-id="2e18c-111">A simplified pane for editing expenses.</span></span>
+- <span data-ttu-id="2e18c-112">Rediseño de los mensajes de error, advertencia, y directiva para ayudar a garantizar que tiene el contexto correcto para comprender cuál es el problema y cómo resolverlo.</span><span class="sxs-lookup"><span data-stu-id="2e18c-112">Redesigned error, warning, and policy messages to help guarantee that you have the correct context to understand what the issue is and how to resolve it.</span></span> <span data-ttu-id="2e18c-113">Microsoft ha quitado muchos mensajes que aparecían antes de que los usuarios tuvieran una oportunidad de completar sus tareas y de abordar los problemas, como el mensaje incompleto del detalle.</span><span class="sxs-lookup"><span data-stu-id="2e18c-113">Microsoft has removed many messages that appeared before users had an opportunity to complete their tasks and address the issues, such as the incomplete itemization message.</span></span>
+- <span data-ttu-id="2e18c-114">Una nueva página para especificar qué campos son obligatorios para su organización, que campos son opcionales, y qué campos no deberían capturarse.</span><span class="sxs-lookup"><span data-stu-id="2e18c-114">A new page for specifying which fields are required by your organization, which fields are optional, and which fields should not be captured.</span></span> <span data-ttu-id="2e18c-115">Esta página ayudará a reducir el número de campos que los usuarios deben liquidar.</span><span class="sxs-lookup"><span data-stu-id="2e18c-115">This page will help reduce the number of fields that users must to set.</span></span>
+- <span data-ttu-id="2e18c-116">Un nuevo aspecto y funcionamiento para los informes de gastos, de modo que ya no parezcan diseñados para el personal de contabilidad.</span><span class="sxs-lookup"><span data-stu-id="2e18c-116">A new look and feel for expense reports, so that the reports no longer seem as though they were designed for accounting personas.</span></span>
+
+<span data-ttu-id="2e18c-117">Para activar la nueva experiencia, utilice el espacio de trabajo **Administración de características** para activar la función **Informes de gastos reimaginados** .</span><span class="sxs-lookup"><span data-stu-id="2e18c-117">To turn on the new experience, use the **Feature management** workspace to turn on the **Expense reports re-imagined** feature.</span></span> <span data-ttu-id="2e18c-118">Al activar esta característica ocurren las acciones siguientes:</span><span class="sxs-lookup"><span data-stu-id="2e18c-118">When you turn on this feature, the following actions occur:</span></span>
+
+- <span data-ttu-id="2e18c-119">El espacio de trabajo existente de gastos se reemplaza con el nuevo espacio de trabajo.</span><span class="sxs-lookup"><span data-stu-id="2e18c-119">The existing expense workspace is replaced with the new workspace.</span></span>
+- <span data-ttu-id="2e18c-120">Un nuevo elemento de menú para la visibilidad del campo de gastos se agrega.</span><span class="sxs-lookup"><span data-stu-id="2e18c-120">A new menu item for expense field visibility is added.</span></span>
+- <span data-ttu-id="2e18c-121">No se quita ningún elemento existente del menú de informes de gastos (la página ya existente) ni campos del informe de gastos.</span><span class="sxs-lookup"><span data-stu-id="2e18c-121">No existing menu items for expense reports (the existing page) or expense report fields are removed.</span></span>
+- <span data-ttu-id="2e18c-122">Los flujos de trabajo y la aprobación aún le llevan a la página existente de los informes de gastos.</span><span class="sxs-lookup"><span data-stu-id="2e18c-122">Workflows and any approvals still take you to the existing expense reports page.</span></span>
+
+## <a name="getting-started-video-for-new-users"></a><span data-ttu-id="2e18c-123">Vídeo de iniciación para nuevos usuarios</span><span class="sxs-lookup"><span data-stu-id="2e18c-123">Getting started video for new users</span></span>
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2Y7gO]
+
+<span data-ttu-id="2e18c-124">El vídeo [Experiencia de gasto en Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (aparece más arriba) está incluido en la  [Lista de reproducción de Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponibles en YouTube.</span><span class="sxs-lookup"><span data-stu-id="2e18c-124">The [Expense experience in Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) video (shown above) is included in the [Finance and Operations playlist](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) available on YouTube.</span></span>
+
+## <a name="new-features"></a><span data-ttu-id="2e18c-125">Nuevas características</span><span class="sxs-lookup"><span data-stu-id="2e18c-125">New features</span></span>
+
+| <span data-ttu-id="2e18c-126">Característica nueva</span><span class="sxs-lookup"><span data-stu-id="2e18c-126">New feature</span></span> | <span data-ttu-id="2e18c-127">Descripción</span><span class="sxs-lookup"><span data-stu-id="2e18c-127">Description</span></span> |
+|---|----|
+| <span data-ttu-id="2e18c-128">Visibilidad del campo de gastos</span><span class="sxs-lookup"><span data-stu-id="2e18c-128">Expense field visibility</span></span> | <span data-ttu-id="2e18c-129">Una nueva página de configuración le permite especificar los campos que se deben deshabilitar para una organización, los campos que deben ser necesarios y qué campos son recomendables.</span><span class="sxs-lookup"><span data-stu-id="2e18c-129">A new setup page lets you specify which fields should be disabled for an organization, which fields should be required, and which fields are recommended.</span></span> |
+| <span data-ttu-id="2e18c-130">Campos obligatorios</span><span class="sxs-lookup"><span data-stu-id="2e18c-130">Required fields</span></span> | <span data-ttu-id="2e18c-131">La nueva configuración simple permite crear algunos campos obligatorios sin tener que usar el marco de directiva.</span><span class="sxs-lookup"><span data-stu-id="2e18c-131">New simple configuration lets you make some fields required without having to use the policy framework.</span></span> |
+| <span data-ttu-id="2e18c-132">Campos opcionales</span><span class="sxs-lookup"><span data-stu-id="2e18c-132">Optional fields</span></span> | <span data-ttu-id="2e18c-133">Una segunda página para los campos opcionales se agrega.</span><span class="sxs-lookup"><span data-stu-id="2e18c-133">A second page for optional fields is added.</span></span> <span data-ttu-id="2e18c-134">De esta manera, los empleados no sentirán como si debieran establecer los campos, pero acceder a los campos sigue siendo fácil.</span><span class="sxs-lookup"><span data-stu-id="2e18c-134">In this way, employees won't feel as if they must set the fields, but the fields are still easily accessible.</span></span> |
+| <span data-ttu-id="2e18c-135">Agregar recibos no adjuntados</span><span class="sxs-lookup"><span data-stu-id="2e18c-135">Add unattached receipts</span></span> | <span data-ttu-id="2e18c-136">La capacidad de agregar recibos no adjuntados al informe de gastos estará más visible del espacio de trabajo y en el informe de gastos.</span><span class="sxs-lookup"><span data-stu-id="2e18c-136">The ability to add unattached receipts to expense report is more visible from the workspace and on the expense report.</span></span> |
+| <span data-ttu-id="2e18c-137">Mensajería mejorada</span><span class="sxs-lookup"><span data-stu-id="2e18c-137">Improved messaging</span></span> | <span data-ttu-id="2e18c-138">Hay una mejor visibilidad en las líneas de gastos que tengan advertencias o errores.</span><span class="sxs-lookup"><span data-stu-id="2e18c-138">There is better visibility into expense lines that have warnings or errors.</span></span> |
+| <span data-ttu-id="2e18c-139">Reducción en los mensajes en la barra de mensajes</span><span class="sxs-lookup"><span data-stu-id="2e18c-139">Reduction in messages in the message bar</span></span>| <span data-ttu-id="2e18c-140">El número de mensajes del registro de información ha disminuido, y se ha realizado un esfuerzo para evitar que aparezcan los mensajes duplicados en muchos casos.</span><span class="sxs-lookup"><span data-stu-id="2e18c-140">The number of Infolog messages was decreased, and an effort was made to prevent duplicate messages from appearing in many cases.</span></span> |
+| <span data-ttu-id="2e18c-141">Acciones comunes agrupadas juntas</span><span class="sxs-lookup"><span data-stu-id="2e18c-141">Grouped together common actions</span></span> | <span data-ttu-id="2e18c-142">La interfaz se ha limpiado con la adición de las nuevas acciones en los botones de la mayoría de las acciones comunes de nivel de línea y la adición de puntos suspensivos (...) para la cabecera y otros acciones menos frecuentes.</span><span class="sxs-lookup"><span data-stu-id="2e18c-142">The interface was cleaned up with the addition of a new actions button for most of the common line-level actions and the addition of an ellipsis button (...) for header and other less frequent actions.</span></span> |
+| <span data-ttu-id="2e18c-143">Nuevo espacio de trabajo para aumentar la visibilidad</span><span class="sxs-lookup"><span data-stu-id="2e18c-143">New workspace to increase visibility</span></span> | <span data-ttu-id="2e18c-144">Un nuevo espacio de trabajo unifica las funciones y los vínculos que permiten a los usuarios pasar a las distintas áreas.</span><span class="sxs-lookup"><span data-stu-id="2e18c-144">A new workspace unifies features and links that let users move to different areas.</span></span> |
+| <span data-ttu-id="2e18c-145">Agregue los gastos y los recibos existentes durante la creación de gastos</span><span class="sxs-lookup"><span data-stu-id="2e18c-145">Add existing expenses and receipts during expense creation</span></span> | <span data-ttu-id="2e18c-146">Cuando se crean informes de gastos, puede agregar todos los gastos seleccionado y recibos.</span><span class="sxs-lookup"><span data-stu-id="2e18c-146">When you create expense reports, you can add all or selected expenses and receipts.</span></span> |
+| <span data-ttu-id="2e18c-147">Calculadora del tipo de cambio</span><span class="sxs-lookup"><span data-stu-id="2e18c-147">Exchange rate calculator</span></span> | <span data-ttu-id="2e18c-148">Se agrega una calculadora del tipo de cambio que permite calcular el tipo de cambio para las transacciones de gastos menores en transacciones multidivisa.</span><span class="sxs-lookup"><span data-stu-id="2e18c-148">An exchange rate calculator is added that lets you calculate the exchange rate for out-of-pocket multicurrency transactions.</span></span> |
+| <span data-ttu-id="2e18c-149">Guardar y agregar nuevas líneas de gastos</span><span class="sxs-lookup"><span data-stu-id="2e18c-149">Save and add new expense lines</span></span> | <span data-ttu-id="2e18c-150">Los botones **Guardar** y **Nuevo** están disponibles cuando se especifican los nuevos gastos, para ayudarle a introducir rápidamente líneas de gastos.</span><span class="sxs-lookup"><span data-stu-id="2e18c-150">**Save** and **New** buttons are available when new expenses are entered, to help you quickly enter expense lines.</span></span> |
+| <span data-ttu-id="2e18c-151">Una mejor visibilidad en las líneas detalladas y divididas</span><span class="sxs-lookup"><span data-stu-id="2e18c-151">Better visibility into split and itemized lines</span></span> | <span data-ttu-id="2e18c-152">Las líneas detalladas y divididas se agregan directamente a la lista de gastos, para aumentar la visibilidad y ayudarle a determinar fácilmente si hay errores de directivas u otros errores.</span><span class="sxs-lookup"><span data-stu-id="2e18c-152">Itemized and split lines are added directly to the list of expenses, to increase visibility and help you easily determine whether there are policy errors or other errors.</span></span> |
+| <span data-ttu-id="2e18c-153">Muestra los recibos durante el detallado</span><span class="sxs-lookup"><span data-stu-id="2e18c-153">Show receipts during itemization</span></span> | <span data-ttu-id="2e18c-154">Los recibos pueden mostrarse durante el detallado.</span><span class="sxs-lookup"><span data-stu-id="2e18c-154">Receipts can be shown during itemization.</span></span> |
+
+<span data-ttu-id="2e18c-155">La versión inicial se centra en los escenarios de la entrada de gastos.</span><span class="sxs-lookup"><span data-stu-id="2e18c-155">The initial release is focused on expense entry scenarios.</span></span> <span data-ttu-id="2e18c-156">Cualquier escenario de revisión o aprobación de informe de gastos seguirá usando la página existente de la entrada de gastos.</span><span class="sxs-lookup"><span data-stu-id="2e18c-156">Any expense report review or approval scenario will continue to use the existing expense entry page.</span></span>
+
+<span data-ttu-id="2e18c-157">Las siguientes características están presentes en la página existente pero aún no están presentes en la nueva página.</span><span class="sxs-lookup"><span data-stu-id="2e18c-157">The following features are present on the existing page but aren't yet present on the new page.</span></span> <span data-ttu-id="2e18c-158">Estas características serán reintroducidas durante varias versiones siguientes:</span><span class="sxs-lookup"><span data-stu-id="2e18c-158">These features will be reintroduced over the next several releases:</span></span>
+
+- <span data-ttu-id="2e18c-159">Aprobaciones</span><span class="sxs-lookup"><span data-stu-id="2e18c-159">Approvals</span></span>
+- <span data-ttu-id="2e18c-160">Aprobación de los proveedores y la capacidad para editar la contabilidad</span><span class="sxs-lookup"><span data-stu-id="2e18c-160">Accounts payable approvals and the ability to edit the accounting</span></span>
+- <span data-ttu-id="2e18c-161">Varios puntos de entrada</span><span class="sxs-lookup"><span data-stu-id="2e18c-161">Multiple entry points</span></span>
+- <span data-ttu-id="2e18c-162">Integración de la solicitud de viaje</span><span class="sxs-lookup"><span data-stu-id="2e18c-162">Travel requisition integration</span></span>
+- <span data-ttu-id="2e18c-163">Visibilidad de la entidad de datos para el campo de gastos</span><span class="sxs-lookup"><span data-stu-id="2e18c-163">Data entity for expense field visibility</span></span>
+- <span data-ttu-id="2e18c-164">Entrada de gastos de dietas</span><span class="sxs-lookup"><span data-stu-id="2e18c-164">Entry for per-diem expenses</span></span>
+- <span data-ttu-id="2e18c-165">Flujo de trabajo de nivel de línea</span><span class="sxs-lookup"><span data-stu-id="2e18c-165">Line-level workflow</span></span>
+- <span data-ttu-id="2e18c-166">Soporte para aprobador provisional</span><span class="sxs-lookup"><span data-stu-id="2e18c-166">Interim approver support</span></span>
+- <span data-ttu-id="2e18c-167">Detalles avanzados</span><span class="sxs-lookup"><span data-stu-id="2e18c-167">Advanced itemization</span></span>
