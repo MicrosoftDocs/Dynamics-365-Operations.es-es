@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d6706cbb7630aeb230bc9eb1c187397897c9de68
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c73bc10332329e81986a259969f8fe34b57f4ee6
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559567"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1607019"
 ---
 # <a name="personalized-product-recommendations"></a>Recomendaciones de productos personalizados
 
@@ -44,7 +44,7 @@ Las recomendaciones de productos se habilitan para los siguientes escenarios de 
     - Si un empleado de tienda visita una página de **Detalles del producto** a la hora de buscar transacciones anteriores a través de distintos canales, el motor de recomendación sugiere artículos adicionales que es probable que se adquieran de forma conjunta.
     - Si el empleado de tienda agrega un cliente a la transacción y luego visita a página de **Detalles del producto**, el motor de recomendación proporciona recomendaciones personalizadas mediante el historial de transacción del cliente.
 
-    [![proddetails](./media/proddetails.png)](./media/proddetails.png)
+    [![Recomendaciones en la página Detalles de producto](./media/proddetails.png)](./media/proddetails.png)
 
 2. En la página **Transacción**:
 
@@ -54,13 +54,11 @@ Las recomendaciones de productos se habilitan para los siguientes escenarios de 
     > [!NOTE]
     > Para mostrar recomendaciones en la página **Transacción**, el minorista tiene que actualizar el diseño de la pantalla en Dynamics 365 for Retail. El control **Recomendaciones** debe quitarse de la página **Transacción**.
 
-    [![transactionscreenmultipleproductslargemessengersbag-5](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
+    [![Recomendaciones de la página de la transacción](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
-3. En la página **Detalles del cliente**:
+3. En la página **Datos del cliente**, el motor de recomendación sugiere los artículos en base al id. de usuario y los artículos en la lista de deseos del cliente.
 
-    - El motor de recomendación sugiere los artículos en base al id. de usuario y los artículos en la lista de deseos del cliente.
-
-    [![customerdetailsrecommendations](./media/customerdetailsrecommendations.png)](./media/customerdetailsrecommendations.png)
+    [![Recomendaciones en la página Datos del cliente](./media/customerdetailsrecommendations.png)](./media/customerdetailsrecommendations.png)
 
 ## <a name="configure-dynamics-365-for-retail-to-enable-pos-recommendations"></a>Configure Dynamics 365 for Retail para habilitar las recomendaciones de PDV
 

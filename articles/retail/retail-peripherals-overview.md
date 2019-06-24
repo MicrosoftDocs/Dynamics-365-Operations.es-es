@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8fa2be91db8213845c2be16b1cc0a0f5457a708b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a9fa49d0b3553ae70547aeea19d14bc6e6e08983
+ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571567"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1577938"
 ---
 # <a name="retail-peripherals"></a>Periféricos de Retail
 
@@ -295,7 +295,7 @@ Los periféricos de red se admiten directamente a través de la estación de har
 <ul>
 <li>OPDV</li>
 <li>Red
-<blockquote>NOTA: Solo se puede configurar una caja registradora si <strong>Uso de turno compartido</strong> se configura en la caja registradora.</blockquote>
+<p><strong>Nota:</strong> solo se puede configurar una caja registradora si <strong>Uso de turno compartido</strong> se configura en la caja registradora.</p>
 </li>
 </ul>
 </td>
@@ -306,7 +306,7 @@ Los periféricos de red se admiten directamente a través de la estación de har
 <ul>
 <li>OPDV</li>
 <li>Red
-<blockquote>NOTA: Solo se puede configurar una caja registradora si <strong>Uso de turno compartido</strong> se configura en la caja registradora.</blockquote>
+<p><strong>Nota:</strong> solo se puede configurar una caja registradora si <strong>Uso de turno compartido</strong> se configura en la caja registradora.</p>
 </li>
 </ul>
 </td>
@@ -374,7 +374,7 @@ Los periféricos de red se admiten directamente a través de la estación de har
 <ul>
 <li>OPDV</li>
 <li>Controlador de Windows
-<blockquote>NOTA: Para las impresoras de Windows en red, el usuario de la estación de hardware debe tener permiso para tener acceso a la impresora.</blockquote>
+<p><strong>Nota</strong>: para las impresoras de Windows en red, el usuario de la estación de hardware debe tener permiso para tener acceso a la impresora.</p>
 </li>
 <li>Red</li>
 </ul>
@@ -404,7 +404,7 @@ Los periféricos de red se admiten directamente a través de la estación de har
 <ul>
 <li>OPDV</li>
 <li>Red
-<blockquote>NOTA: Solo se puede configurar una caja registradora por perfil de hardware si <strong>Uso de turno compartido</strong> se configura en la caja registradora.</blockquote>
+<p><strong>Nota:</strong> solo se puede configurar una caja registradora por perfil de hardware si <strong>Uso de turno compartido</strong> se configura en la caja registradora.</p>
 </li>
 </ul>
 </td>
@@ -469,7 +469,7 @@ Los periféricos de red se admiten directamente a través de la estación de har
 <ul>
 <li>OPDV</li>
 <li>Controlador de Windows
-<blockquote>NOTA: Para las impresoras de Windows en red, el usuario de la estación de hardware debe tener permiso para tener acceso a la impresora.</blockquote>
+<p><strong>Nota</strong>: para las impresoras de Windows en red, el usuario de la estación de hardware debe tener permiso para tener acceso a la impresora.</p>
 </li>
 <li>Red</li>
 </ul>
@@ -491,7 +491,7 @@ Los periféricos de red se admiten directamente a través de la estación de har
 <ul>
 <li>OPDV</li>
 <li>Red
-<blockquote>NOTA: Solo se puede configurar una caja registradora por perfil de hardware si <strong>Uso de turno compartido</strong> se configura en la caja registradora.</blockquote>
+<p><strong>Nota:</strong> solo se puede configurar una caja registradora por perfil de hardware si <strong>Uso de turno compartido</strong> se configura en la caja registradora.</p>
 </li>
 </ul>
 </td>

@@ -15,12 +15,12 @@ ms.search.region: Spain
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7297bc1efab2baf5bebc7edd1ca32780783a0cec
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 9b73ca0e447b89045ff06b1d48d6c1ddb6d011c5
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1537789"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1565061"
 ---
 # <a name="create-a-corrective-invoice-spain"></a>Crear una factura correctiva (España)
 

@@ -3,7 +3,7 @@ title: Registrar trabajos en sitios externos profesionales desde Attract
 description: Este tema explica cómo usar Dynamics 365 for Talent - Attract para registrar trabajos en sitios de contratación externos
 author: pganapmsft
 manager: AnnBe
-ms.date: 03/20/2019
+ms.date: 05/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-03-19
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: eca599ad189edae29ef2de496196b08799a5e745
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 9c27d1810a89ed7d7a7745e41c5f118dbdfe5dda
+ms.sourcegitcommit: cadce85ca3004d53caf6bc49147a524c1bfd421f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519033"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1590491"
 ---
 # <a name="post-jobs-to-external-career-sites-from-attract"></a>Registrar trabajos en sitios externos profesionales desde Attract
 
@@ -36,6 +36,7 @@ Antes de poder registrar trabajos en Broadbean debe configurar la integración c
 
 > [!NOTE]
 > - Para registrar trabajos en los sitios externos, debe tener el [Complemento de contratación completo](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
+> - Para registrar trabajos a en Broadbean a través de Attract, debe tener una suscripción de Broadbean.
 > - Esta característica está actualmente en vista previa. Si desea probarlo, debe [activarlo en la configuración de administrador de Attract](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).
 
 ### <a name="configure-broadbean-integration"></a>Configurar integración de Broadbean

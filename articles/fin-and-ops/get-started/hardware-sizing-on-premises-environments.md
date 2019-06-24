@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: e11742c62ea8d10f391ed2d417024f9c80e39591
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4832a056a99e0f7521e022982b7db7b16d7064a3
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562007"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595502"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Requisitos de dimensionamiento de hardware para entornos locales
 
@@ -99,7 +99,7 @@ Le recomendamos que utilice siempre el SQL Server en un clúster o una configura
 
 Para el dimensionamiento de los AD FS, consulte [Documentación de la capacidad del servidor de los AD FS](/windows-server/identity/ad-fs/design/planning-for-ad-fs-server-capacity).
 
-Hay una [hoja de cálculo de dimensionamiento](http://adfsdocs.blob.core.windows.net/adfs/ADFSCapacity2016.xlsx) disponible para planificar el número de instancias en su implementación.
+Hay una [hoja de cálculo de dimensionamiento](https://adfsdocs.blob.core.windows.net/adfs/ADFSCapacity2016.xlsx) disponible para planificar el número de instancias en su implementación.
 
 ## <a name="aos-online-and-batch"></a>AOS (en línea y lote)
 

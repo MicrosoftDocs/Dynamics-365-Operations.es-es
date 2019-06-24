@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdd8acea22fb3298d1d0e7ccce0ca42c1427fe80
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c5fb6b23d11ab263ed158a0a4476f77ed22b5084
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561819"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595671"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Novedades o cambios en Dynamics AX 7.0 (febrero de 2016)
 
@@ -721,7 +721,7 @@ Retail Server y la gestión de datos permite a los consumidores y las empresas c
 </thead>
 <tbody>
 <tr>
-<td>Conecte con una base de datos comercial de tiempo de ejecución (CRT) que almacena datos empresariales para el canal mediante servicios CRT.</td>
+<td>Conecte con una base de datos de Commerce Runtime (CRT) que almacena datos empresariales para el canal mediante servicios CRT.</td>
 <td>OData V3 es compatible.</td>
 <td>OData V4 es compatible.</td>
 <td>Ayuda al cliente a permanecer al día con los estándares OData. También crea una experiencia robusta en todos los canales integrando las ventas en los canales de tienda, móviles y en línea.</td>
@@ -971,7 +971,7 @@ Hay una instalación mejorada del componente de cliente de “baja participació
 </tr>
 <tr>
 <td>Supervise el estado del sistema y diagnostique errores y problemas.</td>
-<td>Esta función requiere el <a href="http://www.microsoft.com/download/details.aspx?id=42636">paquete de System Center 2012 Management para Microsoft Dynamics AX 2012 R3 CU8 Retail</a>.</td>
+<td>Esta función requiere el <a href="https://www.microsoft.com/download/details.aspx?id=42636">paquete de System Center 2012 Management para Microsoft Dynamics AX 2012 R3 CU8 Retail</a>.</td>
 <td>Dispone ahora de supervisión y diagnóstico de componentes de Retail a través del panel de información <strong>Detalles de funcionamiento</strong> en LCS.</td>
 <td>El panel de información <strong>Detalles de funcionamiento</strong> es un portal de supervisión basado en la nube que sustituye la necesidad de instalar la infraestructura de System Center Operations Manager (SCOM).</td>
 </tr>

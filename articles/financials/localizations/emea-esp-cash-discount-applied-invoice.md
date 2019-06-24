@@ -17,12 +17,12 @@ ms.search.region: Spain
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 79ae6774bc5246eecd155cb5af98211d1207a103
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: bee69dc17f2baaae2a8c3717f13447c00ceef4d3
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1537811"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1547221"
 ---
 # <a name="cash-discount-is-applied-in-the-invoice-parameter"></a>Parámetro El descuento por pronto pago se aplica a la factura
 

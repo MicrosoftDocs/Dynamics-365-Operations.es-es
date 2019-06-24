@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e7aceed380f6722353574470d6dee75ebe105c18
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6c813cfea9b570e8dfd5dbe7f3ca1f4ba8594420
+ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1530279"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1577989"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Mostrar notificaciones de pedidos en el punto de venta (PDV)
 
@@ -68,7 +68,7 @@ La siguiente ilustración muestra la configuración de contenido en vivo en el d
 
 ![Configuración de contenido en vivo en el diseñador de cuadrícula de botones](./media/ButtonGridDesigner.png "Configuración de contenido en vivo en el diseñador de cuadrícula de botones")
 
-Para mostrar el recuento de la notificación en un botón, deberá asegurarse que se esté actualizando el diseño de pantalla correcto. Para determinar el diseño de pantalla que está siendo usado por el PDV, seleccione el icono **Valores** en esquina superior derecha y anote el **Identificador de diseño de pantalla** y la **Resolución de diseño**. Ahora mediante el explorador Edge, vaya a la página **Diseño de Pantalla** en Dynamics 365 for Finance and Operations, encuentre el **Identificador de diseño de pantalla** y la **Resolución de diseño** identificados arriba y seleccione la casilla de verificación **Activar contenido activo** . Vuelva **Ventas al por menor > TI de venta minorista > Programación distribución** y ejecuta el trabajo 1090 (Registros) para sincronizar los cambios de diseño. 
+Para mostrar el recuento de la notificación en un botón, deberá asegurarse que se esté actualizando el diseño de pantalla correcto. Para determinar el diseño de pantalla que está siendo usado por el PDV, seleccione el icono **Valores** en esquina superior derecha y anote el **Identificador de diseño de pantalla** y la **Resolución de diseño**. Ahora mediante el explorador Edge, vaya a la página **Diseño de Pantalla** en Dynamics 365 for Finance and Operations, encuentre el **Identificador de diseño de pantalla** y la **Resolución de diseño** identificados arriba y seleccione la casilla de verificación **Activar contenido activo** . Vaya **Ventas al por menor \> TI de venta minorista \> Programación distribución** y ejecuta el trabajo 1090 (Registros) para sincronizar los cambios de diseño.
 
 ![Encuentre el diseño de pantalla utilizado por PDV](./media/Choose_screen_layout.png "Encuentre el diseño de pantalla utilizado por PDV ")
 

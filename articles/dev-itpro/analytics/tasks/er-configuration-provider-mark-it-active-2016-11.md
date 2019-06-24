@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 13a27c2fec2a2b226e9ae8d5b8f9a61e8b79ceb0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a4b1cd7a02cdf4c650af50199f4425eb53cef0a8
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1544918"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595404"
 ---
 # <a name="create-configuration-providers-and-mark-them-as-active"></a>Crear proveedores de configuración y marcarlos como activos
 
@@ -34,11 +34,11 @@ En los pasos siguientes se explica cómo un usuario administrador del sistema o 
 1. Vaya a Administración de la organización > Espacios de trabajo > Informes electrónicos.
 2. Haga clic en Proveedores de configuración.
 3. Haga clic en Nuevo.
-    * Cada registro de proveedor tiene un nombre y dirección URL únicos. Revise el contenido de esta página y omita este procedimiento si ya existe un registro para Litware, Inc. (http://www.litware.com).  
+    * Cada registro de proveedor tiene un nombre y dirección URL únicos. Revise el contenido de esta página y omita este procedimiento si ya existe un registro para Litware, Inc. (https://www.litware.com).  
 4. En el campo Nombre, especifique "Litware, Inc.".
     * Litware, Inc.  
-5. En el campo Dirección de Internet, escriba "http://www.litware.com".
-    * http://www.litware.com  
+5. En el campo Dirección de Internet, escriba "https://www.litware.com".
+    * https://www.litware.com  
 6. Haga clic en Guardar.
 7. Cierre la página.
 

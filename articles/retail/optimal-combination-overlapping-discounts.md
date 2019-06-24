@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: eebb532071e7c6bae7cfae93bfe795e79bb16c63
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e327f652855f898e50f1dd853ae20f3a0ff41d9e
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1565005"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1607008"
 ---
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>Determinar la combinación óptima de descuentos superpuestos
 
@@ -42,11 +42,11 @@ Puede crear un número ilimitado de descuentos comerciales en un conjunto habitu
 
 En este ejemplo, se requieren dos productos para poder obtener cada descuento y los descuentos no se pueden combinar. Los descuentos en este ejemplo son descuentos **Mejor precio**. Ambos productos pueden obtener ambos descuentos. Aquí están los dos descuentos.
 
-![Combinación de descuentos superpuestos 01](./media/overlapping-discount-combo-01.jpg)
+![Ejemplo de dos mejores precios/descuentos](./media/overlapping-discount-combo-01.jpg)
 
 En dos productos cualquiera, el mejor de estos dos descuentos depende de los precios de los dos productos. Si el precio de ambos productos es igual o casi igual, el descuento 1 es mejor. Si el precio de un producto es significativamente inferior al precio del otro producto, el descuento 2 es mejor. A continuación se indica la regla matemática para evaluar estos dos descuentos entre sí.
 
-![Combinación de descuentos superpuestos 02](./media/overlapping-discount-combo-02.jpg)
+![Regla para evaluar los descuentos](./media/overlapping-discount-combo-02.jpg)
 
 > [!NOTE]
 > Cuando el precio del producto 1 es igual a dos tercios del precio del producto 2, los dos descuentos son iguales. En este ejemplo, el porcentaje de descuento efectivo del descuento 1 varía entre un pequeño porcentaje (cuando los precios de los dos productos son muy diferentes) y un máximo de 25 por ciento (cuando los dos productos tienen el mismo precio). El porcentaje de descuento efectivo del descuento 2 es fijo. Siempre es el 20 por ciento. Dado que el porcentaje de descuento efectivo del descuento 1 tiene un intervalo que puede ser superior o inferior al descuento 2, el mejor descuento depende de los precios de los dos productos que se deben descontar. En este ejemplo, el cálculo se completa rápidamente, ya que solo se aplican dos descuentos a solo dos productos. Solo hay dos combinaciones posibles: una aplicación del descuento 1 o una aplicación del descuento 2. No hay permutas que calcular. El valor de cada descuento se calcula usando ambos productos, y se emplea el mejor descuento.
@@ -60,11 +60,11 @@ A continuación, utilizaremos cuatro productos y los mismos dos descuentos. Los 
 
 Para leer las tablas, utilice un producto de una fila y un producto de una columna. Por ejemplo, en la tabla del descuento 1, si combina los dos productos de 20 $, recibe un 10 $ de descuento. En la tabla del descuento 2, si combina el producto de 15 $ y el de 5 $, recibe un descuento de 4 $.
 
-![Combinación de descuentos superpuestos 03](./media/overlapping-discount-combo-03.jpg)
+![Ejemplo que utiliza cuatro productos para los mismos dos descuentos](./media/overlapping-discount-combo-03.jpg)
 
 Primero, encontramos el descuento más alto disponible de dos productos con cualquiera de los descuentos. Las dos tablas muestran el importe de descuento de todas las combinaciones de los dos productos. Las partes sombreadas de las tablas representan los casos en los que un producto se empareja consigo mismo (algo imposible) o un emparejamiento inverso de dos productos que genere el mismo importe de descuento y que se puede ignorar. Al mirar las tablas, puede ver que el descuento 1 para los dos artículos de 20 $ es el descuento más alto disponible para cualquiera de los descuentos en los cuatro productos. (Este descuento se resalta en verde en la primera tabla.) Nos queda solo el producto de 15 $ y el de 5 $. Al mirar las dos tablas de nuevo, puede ver que, en estos dos productos, el descuento 1 otorga 2,50 $ de descuento, mientras que el descuento 2 otorga 4 $ de descuento. Por lo tanto, seleccionamos el descuento 2. El descuento total es 14 $. Para poder visualizar esta discusión más fácilmente, aquí tenemos dos tablas adicionales que muestran el porcentaje de descuento efectivo para todas las combinaciones posibles de dos productos tanto para el descuento 1 como para el descuento 2. Solo se incluye la mitad de la lista de combinaciones para estos dos descuentos y el orden en el que se colocan los dos productos en el descuento no importa. El descuento efectivo más alto (25 por ciento) está resaltado en verde y el descuento efectivo más bajo (10 por ciento) está resaltado en rojo.
 
-![Combinación de descuentos superpuestos 04](./media/overlapping-discount-combo-04.jpg)
+![Porcentaje de descuento efectivo para todas las combinaciones de dos producto para ambos descuentos](./media/overlapping-discount-combo-04.jpg)
 
 > [!NOTE]
 > Si los precios varían y compiten dos o más descuentos, la única forma de garantizar la mejor combinación de descuentos consiste en evaluar ambos descuentos y compararlos.
@@ -73,7 +73,7 @@ Primero, encontramos el descuento más alto disponible de dos productos con cual
 
 Esta sección continúa el ejemplo de la sección anterior. Agregaremos más productos y otro descuento y veremos cuántas combinaciones deben calcularse y compararse. En la tabla siguiente muestra el número de combinaciones posibles de descuentos a medida que aumenta la cantidad de producto. En la siguiente tabla se muestra lo que ocurre cuando hay dos descuentos superpuestos, como en el ejemplo anterior, y cuando hay tres descuentos superpuestos. El número de combinaciones posibles de descuentos que se deben evaluar supera rápidamente lo que incluso un ordenador rápido puede calcular y comparar con una velocidad aceptable para las transacciones comerciales.
 
-![Combinación de descuentos superpuestos 05](./media/overlapping-discount-combo-05.jpg)
+![Número de combinaciones posibles de descuentos a medida que aumenta la cantidad de producto.](./media/overlapping-discount-combo-05.jpg)
 
 Si se aplican cantidades incluso superiores o más descuentos superpuestos, el número total de combinaciones posibles de descuentos llega rápidamente a varios millones y el tiempo necesario para evaluar y seleccionar la mejor combinación posible comienza a notarse. Se han realizado algunas optimizaciones en el motor de precio minorista para reducir el número total de combinaciones que se deben evaluar. Sin embargo, dado que el número de descuentos superpuestos y las cantidades en una transacción no están restringidos, se tendrá que evaluar siempre un gran número de combinaciones cuando haya descuentos superpuestos. Este problema es al que se enfrenta la clasificación de valor marginal.
 
@@ -81,6 +81,6 @@ Si se aplican cantidades incluso superiores o más descuentos superpuestos, el n
 
 Para resolver el problema de un número de combinaciones que aumenta exponencialmente, existe una optimización que calcula el valor por producto compartido de cada descuento en el conjunto de productos al que se pueden aplicar dos o más descuentos. A este valor lo denominamos **valor marginal** del descuento de los productos compartidos. El valor marginal es el aumento medio por producto del importe de descuento total cuando se incluyen productos compartidos en cada descuento. El valor marginal se calcula tomando el importe de descuento total (DTotal), restando el importe de descuento sin los productos compartidos (DMinus\\ Compartido) y dividiendo esa diferencia por el número de productos (ProductosCompartidos).
 
-![Combinación de descuentos superpuestos 06](./media/overlapping-discount-combo-06.jpg)
+![Fórmula para calcular el valor marginal](./media/overlapping-discount-combo-06.jpg)
 
 Después de calcular el valor marginal de cada descuento en un conjunto de productos compartidos, se aplican los descuentos a los productos compartidos en orden y exhaustivamente desde el valor marginal más alto hasta el más bajo. En este método todas las posibilidades restantes de descuentos no se comparan cada vez que se aplica una instancia única de un descuento. En su lugar, los descuentos superpuestos se comparan una vez y después se aplican en orden. No se realiza ninguna comparación adicional. Puede configurar el umbral para cambiar al método de valor marginal en la ficha **Descuento** de la página **Parámetros de ventas al por menor**. El tiempo aceptable para calcular el descuento total varía en los diferentes sectores minoristas. Sin embargo, este tiempo normalmente va de milésimas de segundo a un segundo.

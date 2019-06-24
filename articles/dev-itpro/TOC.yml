@@ -227,8 +227,9 @@
             - name: Clases X
               href: dev-ref/x-classes.md
     - name: Extensibilidad
-      href: extensibility/extensibility-home-page.md
       items:
+        - name: Página de inicio de extensibilidad
+          href: extensibility/extensibility-home-page.md
         - name: Introducción y primeros pasos
           items:
             - name: Plan de extensibilidad de aplicación
@@ -245,36 +246,38 @@
               href: extensibility/customization-overlayering-extensions.md
         - name: Novedades
           items:
-            - name: Cambios de extensibilidad de julio de 2017
-              href: extensibility/changes-july-2017.md
-            - name: Cambios de extensibilidad en la versión 7.3
-              href: extensibility/extensibility-changes-73.md
-            - name: Cambios de extensibilidad en la versión 8.0
-              href: extensibility/changes-80.md
-            - name: Cambios de extensibilidad de la versión 8.0.1
-              href: extensibility/extensibility-changes-801.md
-            - name: Cambios de extensibilidad de la versión 8.0.2
-              href: extensibility/extensibility-changes-802.md
-            - name: Cambios de extensibilidad de la versión 8.0.3
-              href: extensibility/extensibility-changes-803.md
-            - name: Cambios de extensibilidad de la versión 8.0.4
-              href: extensibility/extensibility-changes-804.md
-            - name: Cambios de extensibilidad de la versión 8.1
-              href: extensibility/extensibility-changes-81.md
-            - name: Cambios de extensibilidad de la versión 8.1.1
-              href: extensibility/extensibility-changes-811.md
-            - name: Cambios de extensibilidad de la versión 8.1.2
-              href: extensibility/extensibility-changes-812.md
-            - name: Cambios de extensibilidad de la versión 8.1.3
-              href: extensibility/extensibility-changes-813.md
-            - name: Cambios de extensibilidad de la versión 10.0
-              href: extensibility/extensibility-changes-10.md
-            - name: Cambios de extensibilidad de la versión 10.0.1
-              href: extensibility/extensibility-changes-10-1.md
-            - name: Cambios de extensibilidad de la versión 10.0.2
-              href: extensibility/extensibility-changes-10-2.md
+            - name: Novedades y cambios para extensibilidad
+              href: extensibility/extensibility-new.md
             - name: Cambios de extensibilidad de la versión 10.0.3
               href: extensibility/extensibility-changes-10-3.md
+            - name: Cambios de extensibilidad de la versión 10.0.2
+              href: extensibility/extensibility-changes-10-2.md
+            - name: Cambios de extensibilidad de la versión 10.0.1
+              href: extensibility/extensibility-changes-10-1.md
+            - name: Cambios de extensibilidad de la versión 10.0
+              href: extensibility/extensibility-changes-10.md
+            - name: Cambios de extensibilidad de la versión 8.1.3
+              href: extensibility/extensibility-changes-813.md
+            - name: Cambios de extensibilidad de la versión 8.1.2
+              href: extensibility/extensibility-changes-812.md
+            - name: Cambios de extensibilidad de la versión 8.1.1
+              href: extensibility/extensibility-changes-811.md
+            - name: Cambios de extensibilidad de la versión 8.1
+              href: extensibility/extensibility-changes-81.md
+            - name: Cambios de extensibilidad de la versión 8.0.4
+              href: extensibility/extensibility-changes-804.md
+            - name: Cambios de extensibilidad de la versión 8.0.3
+              href: extensibility/extensibility-changes-803.md
+            - name: Cambios de extensibilidad de la versión 8.0.2
+              href: extensibility/extensibility-changes-802.md
+            - name: Cambios de extensibilidad de la versión 8.0.1
+              href: extensibility/extensibility-changes-801.md
+            - name: Cambios de extensibilidad en la versión 8.0
+              href: extensibility/changes-80.md
+            - name: Cambios de extensibilidad en la versión 7.3
+              href: extensibility/extensibility-changes-73.md
+            - name: Cambios de extensibilidad de julio de 2017
+              href: extensibility/changes-july-2017.md
         - name: Conceptos fundamentales
           items:
             - name: Personalizaciones intrusivas
@@ -361,8 +364,14 @@
       items:
         - name: Tomar seguimientos mediante Trace Parser
           href: perf-test/trace-trace-tutorial.md
-        - name: Performance SDK y pruebas multiusuario mediante Visual Studio Online
-          href: perf-test/perfsdk-tutorial.md
+        - name: Pruebas de usuario único con el Grabador de tareas y el Performance SDK
+          href: perf-test/single-user-test-perf-sdk.md
+        - name: Pruebas multiusuario con el Performance SDK y un controlador de pruebas local
+          href: perf-test/multi-user-testing-local-test-controller.md
+        - name: Pruebas multiusuario con el Performance SDK y Azure DevOps
+          href: perf-test/multi-user-testing-perfsdk-azuredevops.md
+        - name: Guía de solución de problemas de pruebas de usuario único o multiusuario con el Performance SDK
+          href: perf-test/troubleshoot-perf-sdk-user-testing.md
         - name: Performance SDK y pruebas multiusuario en entornos locales
           href: perf-test/perfsdk-tutorial-lbd.md
         - name: Diagnosticar problemas y analizar rendimiento mediante Trace parser
@@ -922,6 +931,8 @@
           href: financial/create-exchange-rate-providers.md
         - name: Crear proveedores de tipo de cambio en la versión 8.0 de Finance and Operations
           href: financial/create-exchange-rate-8.md
+    - name: 'Liquidar transacciones mediante CustTrans::settleTransaction'
+      href: financial/settletransact-obsolete.md
 - name: Desarrollo de la cadena de suministro
   items:
     - name: Guía de desarrollo de control de Gantt

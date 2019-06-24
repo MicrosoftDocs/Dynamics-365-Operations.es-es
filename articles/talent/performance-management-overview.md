@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1954b691d84b0aa8710da621af21415c6c116539
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 05d8986d69abba4dbba7c30aad5a7e4626ceb5b1
+ms.sourcegitcommit: cadce85ca3004d53caf6bc49147a524c1bfd421f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519021"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1590514"
 ---
 # <a name="performance-management"></a>Gestión del rendimiento
 
@@ -109,7 +109,7 @@ Puede mostrar los artículos del diario de rendimiento relacionados con la evalu
 
 ### <a name="ratings"></a>Calificaciones
 
-Puede aplicar una calificación a cualquier objetivo o capacidad que se encuentra en la evaluación. Puede definir los modelos de calificación para cada evaluación. Los valores predeterminados para las calificaciones se encuentran en la página **Parámetros de recursos humanos** debajo de **Rendimiento.**
+Puede aplicar una calificación a cualquier objetivo o capacidad que se encuentra en la evaluación. Puede definir los modelos de calificación para cada evaluación. Los valores predeterminados para las calificaciones se encuentran en la página **Parámetros de recursos humanos compartidos** debajo de **Rendimiento.**
 
 ### <a name="sign-offs"></a>Aprobaciones
 

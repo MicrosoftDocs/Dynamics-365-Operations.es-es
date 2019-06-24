@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc3879492f230b9477c6e5efd2edc8e1e4aca0a2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 39baa331120d765543c3cf662ce53d2bcfe404ab
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571652"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595620"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>Configurar un catálogo externo para la adquisición electrónica de marcaje de salida
 
@@ -59,8 +59,10 @@ Esta sección proporciona más detalles sobre la tarea 4 de la sección anterior
 4. Seleccione el proveedor para el catálogo. En el lista **Entidades jurídicas** existe una fila para cada entidad jurídica donde el proveedor está configurado. Para permitir que los usuarios soliciten productos directamente del catálogo del proveedor en algunas personas jurídicas pero no otras, puede usar el botón **Impedir acceso** o **Permitir acceso** para cada entidad jurídica donde desea que el catálogo esté o no disponible.
 5. En el campo **Caducidad predeterminada (días)**, escriba el número de días durante el cual un presupuesto recibido del catálogo externo es válido y se puede usar para comprar al proveedor externo. Cuando se crea un presupuesto y se recupera del sitio del catálogo externo del proveedor; el presupuesto será válido a partir de la fecha del sistema actual y seguirá siendo válido durante el número de días que escriba en este campo.
 6. Haga clic en el botón **Añadir** para empezar a asignar las categorías de compras al catálogo externo. A continuación, en la lista de nombre de categoría, seleccione una categoría. La lista de categorías es un superconjunto de categorías de compras a las que se ha asignado al proveedor en todas las entidades jurídicas configuradas para dicho proveedor.
-[!NOTE]
-Las directivas de compra se utilizan para permitir o restringir el acceso a las categorías para la entidad jurídica compradora o unidad operativa receptora. El marcaje de salida a un catálogo externo requiere que se permita el acceso al menos a una de las categorías de compras asignada al catálogo.
+
+    > [!NOTE]
+    > Las directivas de compra se utilizan para permitir o restringir el acceso a las categorías para la entidad jurídica compradora o unidad operativa receptora. El marcaje de salida a un catálogo externo requiere que se permita el acceso al menos a una de las categorías de compras asignada al catálogo.
+
 7. Configure el mensaje de solicitud de configuración de cXML que se enviará al proveedor. El formato del mensaje generado automáticamente es la plantilla mínima que se requiere para iniciar una sesión. Rellene los valores de las etiquetas.
 
 En cualquier momento, puede recargar la plantilla de mensajes generada por el sistema haciendo clic en **Restaurar formato de mensaje**. 
@@ -85,7 +87,7 @@ A continuación verá una descripción de las etiquetas que se incluyen en la pl
 
 Un elemento extrínseco es información adicional, como un nombre de usuario basado en un usuario que marca la salida. Se establece el elemento extrínseco cuando se realiza el marcaje y puede enviarse en el mensaje de configuración de la solicitud.
 Su proveedor puede tener un requisito para recibir un elemento extrínseco en la solicitud de configuración. En ese caso, debe agregar el elemento extrínseco a la lista de elementos extrínsecos en la sección **Formato de mensaje** de la página **Catálogo externo**. Especifique un nombre para el elemento extrínseco que el proveedor pueda reconocer y asignar a un valor. Las opciones de valores son: nombre de usuario, correo electrónico del usuario o valor aleatorio.
-Para obtener más información acerca del protocolo cXML, vea: http://cxml.org/.
+Para obtener más información acerca del protocolo de cXML, consulte el [sitio web cXML.org](http://cxml.org/).
 
 ## <a name="post-back-message"></a>Mensaje de confirmación
 El mensaje de confirmación es el mensaje que se recibe del proveedor cuando el usuario completa la compra en el sitio externo y vuelve a Finance and Operations. Los mensajes de confirmación no se pueden configurar. Los mensajes se basan en la definición del protocolo cXML. A continuación se indica la información que puede formar parte del mensaje de confirmación que se recibe en una línea de solicitud:

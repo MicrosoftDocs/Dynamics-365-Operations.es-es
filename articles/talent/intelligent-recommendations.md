@@ -3,7 +3,7 @@ title: Recomendaciones inteligentes
 description: Este tema explica cómo se puede usar el aprendizaje automático para proporcionar recomendaciones para los trabajos y los candidatos de trabajo.
 author: andreabichsel
 manager: AnnBe
-ms.date: 03/25/2019
+ms.date: 05/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: fb31b413cfe3cd168bbb12ce6070325ff5f736da
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 301e3213fa0988faba83ee42b840646a20c70a98
+ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519009"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "1620629"
 ---
 # <a name="intelligent-recommendations"></a>Recomendaciones inteligentes
 
@@ -33,7 +33,7 @@ El aprendizaje automático puede ayudar reclutadores y a los administradores de 
 
 > [!NOTE] 
 > - Las características de recomendación inteligente solo están disponibles con el [Complemento de contratación completa](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
-> - La funcionalidad de la que se habla en este tema esta disponible como parte de una versión preliminar. El contenido y la funcionalidad están sujetos a cambios. Para utilizar esta función, pida que un administrador la active usando la **Configuración de administración** en Attract. Establezca **Recomendación del candidato**, **Recomendación de trabajo**, y **Recomendación del candidato** a **Activado**. Para obtener más información, consulte [Acceder a las características de vista previa en Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature). 
+> - La funcionalidad de la que se habla en este tema esta disponible como parte de una versión preliminar. El contenido y la funcionalidad están sujetos a cambios. Para utilizar esta función, pida que un administrador la active usando la **Centro de administración** en Attract. Establezca **Recomendación del candidato**, **Recomendación de trabajo**, y **Recomendación del candidato** a **Activado**. Para obtener más información, consulte [Acceder a las características de vista previa en Talent](./access-preview-feature.md). 
 
 
 ## <a name="candidate-recommendations"></a>Recomendaciones de candidatos

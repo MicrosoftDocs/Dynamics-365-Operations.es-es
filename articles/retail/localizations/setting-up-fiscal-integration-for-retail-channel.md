@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 060075757dec64e83c46498380a920d580ac09e4
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: fda94e77480b9d9455fc0e214e43772ab2921f2d
+ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1525334"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1577909"
 ---
 # <a name="set-up-the-fiscal-integration-for-retail-channels"></a>Configurar la integración fiscal para canales comerciales
 
@@ -88,7 +88,7 @@ Antes de usar la funcionalidad de la integración fiscal, debe configurar los va
         Puede cambiar los parámetros de la asignación de los datos de un perfil funcional de conector. Para restablecer los parámetros predeterminados que se definen en la configuración del proveedor de documentos fiscales, seleccione **Actualizar**.
 
         **Ejemplos**
-    
+
         |   | Formato | Ejemplo |
         |---|--------|---------|
         | **Configuración de índices de IVA** | valor: VATrate | 1 : 2000, 2 : 1800 |
@@ -111,7 +111,7 @@ Antes de usar la funcionalidad de la integración fiscal, debe configurar los va
 4. Cree grupos de conectores fiscales.
 
     Un grupo de conectores fiscales combina perfiles funcionales de conectores fiscales que realizan idénticas funciones y se usan en la misma etapa del proceso de registro fiscal. Por ejemplo, si varios modelos de impresora fiscales se pueden usar en una tienda al por menor, los conectores fiscales para las impresoras fiscales se pueden combinar en un grupo fiscal de conectores.
-    
+
     1. En la página **Grupo fiscal de conectores** (**Ventas al por menor \> Configuración del canal \> Integración fiscal \> Grupos de conectores fiscales**), cree un nuevo grupo fiscal de conectores.
     2. Agregue perfiles funcionales el grupo de conectores. En la pestaña **Perfiles funcionales**, seleccione **Agregar** y seleccione un número del perfil. Cada conector fiscal de un grupo de conectores solo puede tener un perfil funcional.
     3. Para suspender el uso del perfil funcional, establezca la opción **Deshabilitar** en **Sí**. Este cambio afecta al grupo de conectores actuales únicamente. Puede continuar usando el mismo perfil funcional en otros grupos de conectores.
@@ -119,7 +119,7 @@ Antes de usar la funcionalidad de la integración fiscal, debe configurar los va
 5. Cree un proceso de registro fiscal.
 
     Un proceso de registro fiscal se define por la secuencia de los pasos de registro y el grupo de conectores utilizados en cada paso.
-    
+
     1. En la página **Proceso de registro fiscal** (**venta minorista \> configurar canal \> integración fiscal \> procesos de registro fiscales**) cree un nuevo registro para cada proceso único de registro fiscal.
     2. Agregar pasos de registro al proceso:
 
@@ -145,7 +145,7 @@ Antes de usar la funcionalidad de la integración fiscal, debe configurar los va
 7. En la página **Proceso de registro fiscal** (**venta minorista \> configurar canal \> integración fiscal \> procesos de registro fiscales**) seleccione **Validar** para validar el proceso de registro fiscal.
 
     Es recomendable ejecutar este tipo de validación en los casos siguientes:
-    
+
     - Después de completar toda la configuración de un proceso de registro nuevo, incluido cuando asigna procesos de registro a perfiles de funcionalidad de PDV y de hardware.
     - Una vez que haya creado los cambios en un proceso de registro fiscal existente, y que dichos cambios puedan provocar que se seleccione otro conector fiscal en el tiempo de ejecución (por ejemplo, si cambia el grupo de conectores para un paso del proceso de registro fiscal, habilite un perfil funcional en un grupo de conectores o agregue un perfil funcional de conector nuevo a un grupo de conectores).
     - Después de realizar cambios en la asignación de los perfiles técnicos de conectores a perfiles de hardware.

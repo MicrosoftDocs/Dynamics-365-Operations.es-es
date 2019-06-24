@@ -16,12 +16,12 @@ ms.search.region: Spain
 ms.author: epodkolz
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5b1d58f01c015815a65864ad4363cf88039eba09
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 8d98088ed71f01d78f69958cab65ef804673b8ef
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1537805"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1547214"
 ---
 # <a name="report-340"></a>Informe 340
 

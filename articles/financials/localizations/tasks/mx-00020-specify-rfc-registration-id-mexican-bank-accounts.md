@@ -16,12 +16,12 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 220a7e4c3cc216417f2fa00f83c163e74776abea
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: c8ef676e9c69bf86b0d1ebd1909e5aa3d8b768bf
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1512984"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1566652"
 ---
 # <a name="mx-00020---specify-the-rfc-registration-id-for-mexican-bank-accounts"></a>MX-00020 - Especificar la identificación del registro de RFC para las cuentas bancarias mexicanas
 

@@ -1,9 +1,9 @@
 ---
 title: Personalizar la experiencia del usuario
 description: Este tema explica cómo puede personalizar Microsoft Dynamics 365 for Finance and Operations.
-author: TLeforMicrosoft
+author: jasongre
 manager: AnnBe
-ms.date: 04/24/2019
+ms.date: 05/17/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,20 +15,19 @@ ms.search.scope: Core, Operations
 ms.custom: 62363
 ms.assetid: 57b445d7-3e9e-4228-8728-f63b9dbd77a3
 ms.search.region: Global
-ms.author: tlefor
+ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78c96c58b8c3331fcadb3e5c9b25dfef3b1b4cbc
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 67ba1a95299de09c74e2fa2808cb63f61acf5862
+ms.sourcegitcommit: c576b81dc3c93c09fb08fb0ba0c19f417360c5ab
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1528853"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "1620023"
 ---
 # <a name="personalize-the-user-experience"></a>Personalizar la experiencia del usuario
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Este tema explica cómo puede personalizar Microsoft Dynamics 365 for Finance and Operations.
 
@@ -75,7 +74,7 @@ Algunos de los cambios más habituales y más importantes que se pueden realizar
 
 Además, los tipos más básicos de personalización explícita están disponibles haciendo clic con el botón secundario en un elemento y después seleccionando **Personalizar**. (Tenga en cuenta que no todos los elementos en su página se pueden personalizar.) Si usa este método de personalización, aparecerá la ventana de la propiedad del elemento.
 
-[![Personalización de las propiedades de un elemento](./media/personalization-element-properties.png)](./media/personalization-element-properties.png)
+![Personalización de las propiedades de un elemento](./media/personalization-element-properties.png)
 
 Puede usar la ventana de propiedad para personalizar un elemento de las siguientes formas:
 

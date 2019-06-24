@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 14f2c6eb3baf0de65de3b72e10b42b03a8c6b21a
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6e295456838ca0195a472518b5979dfdc7819f74
+ms.sourcegitcommit: 19859d8566a8c7840066b2c10c6b08b67f1b83f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1536719"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "1617982"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Procesamiento de producto con peso capturado con la gestión de almacenes
 
 [!include [banner](../includes/banner.md)]
 
-[!include [preview banner](../includes/pivate-preview-banner.md)]
+[!include [banner](../includes/pivate-preview-banner.md)]
 
 
 ## <a name="feature-exposure"></a>Exposición de la función
@@ -138,10 +138,6 @@ No todos los flujos de trabajo son compatibles con el procesamiento de producto 
 - La creación manual de pedidos de cuarentena no se admite para los productos con peso capturado.
 - El movimiento manual de inventario relacionado con el trabajo no se admite para los productos de peso capturado.
 - Los productos de peso capturado no admiten la consolidación de matrículas de entidad.
-- Las modificaciones en el estado de inventario de almacén como parte de una tarea periódica no se admiten para los productos con peso capturado.
-- Las modificaciones en el estado de inventario que se definen por una consulta no se admiten para los productos con peso capturado. (Las modificaciones en el estado de inventario del pedido de calidad no se admiten tampoco.)
-- Para los productos con peso capturado, el estado de inventario no se puede cambiar de la página **Disponible por ubicación** .
-- Para los productos con peso capturado, el estado de inventario no se puede modificar como parte de trabajo de movimiento de la aplicación del almacén.
 - La carga del número de matrícula de entidad al inicializar las existencias del almacén no se admite para los productos con peso capturado.
 - Los procesos de equilibrio por lotes no son admitidos para los productos de peso capturado.
 - La gestión del inventario negativo físico no se admite para los productos con peso capturado.
@@ -151,7 +147,6 @@ No todos los flujos de trabajo son compatibles con el procesamiento de producto 
 
 - La funcionalidad para la selección del clúster no se admite para los productos con peso capturado.
 - El procesamiento del almacén de la selección y el embalaje no se admite para los productos con peso capturado.
-- Para los productos con peso capturado, el trabajo no se puede completar la página **Trabajo** .
 - Para los productos con peso capturado, el trabajo que se define en una plantilla de trabajo puede ejecutarse automáticamente.
 - La funcionalidad para la inversión de trabajo no se admite para los productos con peso capturado.
 - Para los productos con peso capturado, no se admite el procesamiento manual de instalación de acondicionamiento donde se realiza el trabajo después de que se pongan contenedores.
@@ -163,7 +158,7 @@ No todos los flujos de trabajo son compatibles con el procesamiento de producto 
 - La funcionalidad kanban no se admite para los productos con peso capturado.
 - Para los productos con peso capturado, los números de serie no se pueden registrar antes del consumo.
 - La funcionalidad para la inversión de matrículas de entidad se admite para los productos con peso capturado.
-- Para los productos con peso capturado, el notificar como terminado se puede registrar por número de serie.
+- Para los productos con peso capturado, el notificar como terminado no se puede registrar por número de serie.
 
 ### <a name="transportation-management-processing"></a>Procesado de la administración del transporte
 

@@ -3,7 +3,7 @@ title: Diseños de pantalla para el punto de venta (POS)
 description: Este tema proporciona información sobre los diseños de pantalla para experiencias con Microsoft Dynamics 365 for Retail point of sale (POS).
 author: jblucher
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 05/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 91d6e34c25710716788542dabb3bd7d935b2d4ab
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e9536563ce7ddfc4aef54ae05267316ea8139263
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549437"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1607055"
 ---
 # <a name="screen-layouts-for-the-point-of-sale-pos"></a>Diseños de pantalla para el punto de venta (POS)
 
@@ -51,6 +51,7 @@ Los perfiles visuales se asignan a registros y especifican los elementos visuale
 - **Tema** – Puede seleccionar entre los temas de aplicación claro u oscuro. El tema afecta a los colores de fuente y de fondo en toda la aplicación.
 - **Color de acento** – El color de acento se utiliza en el sistema PDV para distinguir o resaltar elementos visuales específicos como mosaicos, botones de comandos e hipervínculos. Normalmente, estos elementos se pueden accionar.
 - **Color de encabezado** – Puede configurar el color del encabezado de la página para cumplir los requisitos de las marcas del minorista. Esta función solo está disponible en Microsoft Dynamics 365 for Retail versión 1611.
+- **Mostrar fecha/hora** - Cuando se activa, la fecha y hora actuales se mostrará en el encabezado del PDV.
 - **Fondo de inicio de sesión** – Puede especificar una imagen de fondo para la pantalla de inicio de sesión. El tamaño de archivo de las imágenes de fondo se debe mantener lo más pequeño posible, ya que el almacenamiento y la carga de archivos grandes podría afectar al comportamiento y al rendimiento de la aplicación.
 - **Fondo de la aplicación** – Puede especificar una imagen de fondo que se utiliza en lugar del color liso del tema en toda la aplicación. En cuanto a los fondos de inicio de sesión, el tamaño del archivo debe mantenerse lo más pequeño posible.
 

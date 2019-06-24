@@ -16,12 +16,12 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c589d95e8c45d891143fd5ca6ca9e313340d5dce
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 9d904b73388f7d4121b50270c1e8f1e76c88e2c6
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1537774"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1560993"
 ---
 # <a name="mx-00010-enter-tax-registration-ids-for-mexican-legal-entities"></a>MX-00010 Especificar los identificadores de registro de impuestos para las entidades jurídicas mexicanas
 

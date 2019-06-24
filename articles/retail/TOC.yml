@@ -6,11 +6,11 @@
       href: get-started/whats-new.md
     - name: Características de vista previa en Dynamics 365 for Retail 10.0.3
       href: get-started/whats-new-10-0-3.md
-    - name: Características de vista previa en Dynamics 365 for Retail 10.0.2
+    - name: Novedades y cambios en Dynamics 365 for Retail 10.0.2
       href: get-started/whats-new-10-0-2.md
-    - name: Novedades y cambios en Dynamics 365 for Retail 10.0.1
+    - name: Novedades o cambios en Dynamics 365 for Retail 10.0.1
       href: get-started/whats-new-10-0-1.md
-    - name: Novedades y cambios en Dynamics 365 for Retail (abril de 2019)
+    - name: Novedades o cambios en Dynamics 365 for Retail (abril de 2019)
       href: get-started/april-whats-new.md
     - name: Antes de comprar Retail
       href: get-started/before-you-buy.md
@@ -56,7 +56,11 @@
     - name: Prueba y problemas de rendimiento
       href: dev-itpro/retail-implementation-testing-performance.md
 - name: Gestión de pedidos distribuida (DOM)
-  href: dom.md
+  items:
+    - name: Visión general del DOM
+      href: dom.md
+    - name: Configuración de costes
+      href: cost.md
 - name: Pagos
   items:
     - name: Métodos de pago
@@ -67,6 +71,8 @@
       href: cash-denominations.md
     - name: Conector de pago de Dynamics 365 para Adyen
       href: dev-itpro/adyen-connector.md
+    - name: Guardar los instrumentos de pago en línea con el conector de Adyen
+      href: dev-itpro/adyen-connector-listPI.md
     - name: Configurar situaciones de pago de facturas
       href: payinvoice.md
     - name: Preguntas frecuentes sobre pagos
@@ -95,6 +101,8 @@
       href: tasks/create-calculate-post-statement-retail-store.md
     - name: Mejoras para la funcionalidad de registro de extractos
       href: statement-posting-EOD.md
+    - name: Control administrado de artículos con seguimiento por lotes
+      href: batch.md
     - name: Configurar parámetros de Retail que afectan a extractos comerciales
       href: tasks/parameter-configurations-retail-statements.md
     - name: Configurar parámetros de método de pago que afectan a extractos comerciales
@@ -115,6 +123,8 @@
       href: ../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md
     - name: Importe completo y opciones de cálculo de Intervalo para los códigos de impuestos
       href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
+- name: Visión general de pagos omnicanal
+  href: omni-channel-payments.md
 - name: Cargos automáticos avanzados omnicanal
   items:
     - name: Configurar y usar cargos automáticos avanzados
@@ -159,12 +169,14 @@
       href: MPOS-or-CPOS.md
     - name: Operaciones de PDV en línea y sin conexión
       href: pos-operations.md
-    - name: Activación de dispositivo de un Retail Modern POSpersonalizado
+    - name: Activación de dispositivo de un Retail MPOS personalizado
       href: dev-itpro/retail-POS-activation-changes.md
     - name: Diseños de pantalla de datos de demostración en MPOS y Cloud POS
       href: demo-data.md
     - name: Búsqueda de producto y cliente en el PDV
       href: POS-search-improvements.md
+    - name: Mejoras de administración de efectivo
+      href: cash-mgmt.md
     - name: Búsqueda de inventario en el PDV
       href: product-variants-POS.md
     - name: Suspender y reanudar transacciones en el PDV
@@ -590,7 +602,7 @@
           href: dev-itpro/extend-metadata.md
         - name: Llamar al servicio CRT en modo sin conexión
           href: dev-itpro/call-crt-service-offline.md
-    - name: Extensibilidad de Commerce runtime (CRT)
+    - name: Extensibilidad de Commerce Runtime (CRT)
       items:
         - name: Arquitectura y configuración de CRT
           href: dev-itpro/commerce-runtime-overview.md

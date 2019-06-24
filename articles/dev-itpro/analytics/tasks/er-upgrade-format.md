@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 040505f567b9db1a5987e4ada38d46f919440c96
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 151b8936a46a1945e98bfe0ed040ca50c93db4b0
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1544458"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595449"
 ---
 # <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>ER Actualizar el formato adoptando una nueva versión de base de ese formato
 
@@ -36,7 +36,7 @@ Para finalizar estos pasos, debe completar primero los pasos de los procedimient
 
 ## <a name="select-format-configuration-for-customization"></a>Seleccionar configuración del formato para personalización
 1. Vaya a Administración de la organización > Espacios de trabajo > Informes electrónicos.
-    * En este ejemplo, la empresa de muestra Litware, Inc., (http://www.litware.com), actuará como proveedor de configuración que admite las configuraciones de formato para pagos electrónicos para un país concreto.    La empresa de muestra Proseware, Inc (http://www.proseware.com) actuará como consumidor de la configuración del formato que Litware, Inc. proporcionó. Proseware, Inc. usa formatos en determinadas regiones de ese país.  
+    * En este ejemplo, la empresa de muestra Litware, Inc., (https://www.litware.com), actuará como proveedor de configuración que admite las configuraciones de formato para pagos electrónicos para un país concreto.    La empresa de muestra Proseware, Inc (http://www.proseware.com) actuará como consumidor de la configuración del formato que Litware, Inc. proporcionó. Proseware, Inc. usa formatos en determinadas regiones de ese país.  
 2. Haga clic en Configuraciones de informes.
 3. Haga clic en Mostrar filtros.
 4. Aplique los siguientes filtros: especifique un valor de filtro de "BACS (UK ficticia)" en el campo "Nombre" mediante el operador de filtro "empieza por".

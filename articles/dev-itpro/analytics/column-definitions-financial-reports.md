@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 872e7c833416f0f7d9aa0c55aadf72aec65ddaab
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: bb08833cca843c370e2c845bce56d6f5a8b5f2ed
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1502739"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595348"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Definiciones de columna en los informes financieros
 
@@ -120,7 +120,7 @@ En la tabla siguiente se describen los códigos de restricción de la columna.
 | ADJ                     | Restringir los importes en la columna a los importes de ajuste del período, si estos importes están disponibles. |
 | XAD                     | Restringir los importes en la columna para que los importes de ajuste del período se excluyan. |
 | TP                      | Restringir los importes en la columna, de manera que solo las transacciones registradas se incluyen, si estas transacciones están disponibles. |
-| UPT                     | Restringir los importes en la columna, de manera que solo las transacciones no registradas se incluyen, si estas transacciones están disponibles.<blockquote>[!NOTE] No todos los proveedores de datos admiten transacciones sin registrar. Para más información, consulte la <a href='http://go.microsoft.com/fwlink/?LinkID=162565'>guía de integración de datos</a> para el sistema Microsoft Dynamics ERP.</blockquote> |
+| UPT                     | Restringir los importes en la columna, de manera que solo las transacciones no registradas se incluyen, si estas transacciones están disponibles.<p><strong>Nota:</strong> No todos los proveedores de los datos admiten transacciones no registradas. Para más información, consulte la <a href='https://go.microsoft.com/fwlink/?LinkID=162565'>guía de integración de datos</a> para el sistema Microsoft Dynamics ERP.</p> |
 
 ### <a name="restrict-a-column-to-a-reporting-unit"></a>Restringir una columna a una unidad de notificación
 
@@ -310,7 +310,7 @@ La celda **Control de impresión** puede contener los códigos que ajustan la vi
 | Código de control de impresión | Traducción                                     | Descripción |
 |--------------------|-------------------------------------------------|-------------|
 | NP                 | No se imprime                                     | Excluir los importes en esta columna del informe que se imprime y de los cálculos. Para incluir una columna de no impresión en un cálculo, vaya a la columna directamente en la fórmula de cálculo. Por ejemplo, la columna C sin impresión se incluye en el cálculo siguiente: **B+C+D**. Sin embargo, la columna C sin impresión no se incluye en el cálculo siguiente: **B:D**. |
-| XCR                | Cambiar el signo si el saldos típico de la fila es crédito | Cree un presupuesto o informe comparativo donde cualquier variación desfavorable (como un déficit de ingresos o un gasto de saturación) es siempre negativo. Aplique este código a una columna **CALC** para invertir el signo del importe de la columna si el saldo típico de una fila en una determinada es un crédito (según se identifica por una **C** en la columna **Saldo normal** de la definición de filas).<blockquote>[!NOTE] Para las filas <strong>TOT</strong> y </strong>CAL</strong> que mantienen normalmente saldos de crédito, asegúrese de especificar una <strong>C</strong> en la columna <strong>Saldo normal</strong> en la definición de filas.</blockquote> |
+| XCR                | Cambiar el signo si el saldos típico de la fila es crédito | Cree un presupuesto o informe comparativo donde cualquier variación desfavorable (como un déficit de ingresos o un gasto de saturación) es siempre negativo. Aplique este código a una columna **CALC** para invertir el signo del importe de la columna si el saldo típico de una fila en una determinada es un crédito (según se identifica por una **C** en la columna **Saldo normal** de la definición de filas).<p><strong>Nota:</strong> Para las filas <strong>TOT</strong> y</strong>CAL</strong> que mantienen normalmente saldos de crédito, asegúrese de especificar una <strong>C</strong> en la columna <strong>Saldo normal</strong> en la definición de filas.</p> |
 | X0                 | Eliminar la columna si son todos ceros o espacios en blanco          | Excluya una columna **FD** del informe si todas las celdas en la columna están en blanco o contienen ceros. |
 | SR                 | Eliminar redondeo                               | Evitar que los importes en esta columna se redondeen. |
 | XR                 | Eliminar acumulación                                 | Eliminar una acumulación. Si el informe usa un organigrama, los importes en esta columna no se agrupan en nodos principales posteriores. |
@@ -546,8 +546,8 @@ En la tabla siguiente se muestran los resultados del informe en los que se puede
 | Celda de visualización de divisa                        | Celda de filtro de la divisa | Resultado del informe |
 |----------------------------------------------|----------------------|---------------|
 | Divisa de la transacción                 | **YEN**              | **Y6.000**: el resultado muestra solo las transacciones especificadas en JPY. |
-| Divisa de contabilidad del libro mayor | **YEN**              |**$60**: el resultado muestra solo las transacciones especificadas en JPY y muestra esas transacciones en USD.<blockquote>[!NOTE] El índice de conversión es aproximadamente 100 JPY por USD.</blockquote> |
-| Divisa de contabilidad del libro mayor | Vacía                | **$2310**: el resultado muestra todos los datos en la divisa contable que se especifica en el libro mayor.<blockquote>[!NOTE] Este importe es la suma de todas las transacciones en divisa contable.</blockquote> |
+| Divisa de contabilidad del libro mayor | **YEN**              |**$60**: el resultado muestra solo las transacciones especificadas en JPY y muestra esas transacciones en USD.<p><strong>Nota:</strong> el índice de conversión es aproximadamente 100 JPY por USD.</p> |
+| Divisa de contabilidad del libro mayor | Vacía                | **$2310**: el resultado muestra todos los datos en la divisa contable que se especifica en el libro mayor.<p><strong>Nota:</strong> este importe es la suma de todas las transacciones en divisa contable.</p> |
 | Divisa de la transacción                 | Vacía                | **$2.250**: el resultado muestra todos los importes en la divisa en la que se ha realizado la transacción. Esto significa que el total agrega todos los importes de las distintas divisas. |
 
 ### <a name="calculation-column-in-a-column-definition"></a>Columna de cálculo en una definición de columna
@@ -565,7 +565,7 @@ Para sumar, restar, multiplicar o dividir columnas, especifique las letras de la
 |----------|---------------------|-------------|
 | +        | A+C                 | Sume el importe en la columna A al importe en la columna C. |
 | :        | A:C A:C-D           | Sume un intervalo de columnas consecutivas. Por ejemplo, la fórmula **A:C** agrega las sumas de las columnas A a la C, y la fórmula **A:C-D** agrega las sumas de las columnas A a la C, y después resta el importe en la columna D. |
-| -        | A-C                 | Restar el importe de la columna A del importe de la columna C.<blockquote>[!NOTE] También puede usar el signo de menos (-) para revertir los signos de una columna. Por ejemplo, use <strong>- A+B</strong> para sumar el contrario del importe en la columna A all importe en la columna B.</blockquote> |
+| -        | A-C                 | Restar el importe de la columna A del importe de la columna C.<p><strong>Nota:</strong> También puede usar el signo menos (-) para invertir los signos de una columna. Por ejemplo, use <strong>- A+B</strong> para sumar el contrario del importe en la columna A all importe en la columna B.</p> |
 | \*       | A\*C                | Multiplique el importe en la columna A por importe en la columna C. |
 | /        | A/C                 | Divida el importe en la columna A por importe en la columna C. |
 

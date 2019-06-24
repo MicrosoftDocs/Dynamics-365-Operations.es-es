@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: 76b78a898a619f1bc7faa4749e5380a0ccfef527
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7c722c311048258ce75170ac4276d397fe2828fe
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552726"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1606904"
 ---
 # <a name="attributes-and-attribute-groups"></a>Atributos y grupos de atributos
 
@@ -176,8 +176,8 @@ Siga estos pasos para asignar grupos de atributos a las categorías de la jerarq
 > [!NOTE]
 > Este procedimiento también se puede usar para asignar grupos de atributos a categorías en la jerarquía de categoría de navegación de canales y la jerarquía de categoría de productos complementarios. En el paso 2, use las siguientes rutas de navegación:
 >
-> - **Ventas al por menor** &gt; **Administración de categorías y productos** &gt; **Categorías de navegación de canales**
-> - **Ventas al por menor** &gt; **Administración de categorías y productos** &gt; **Categorías de productos complementarios**
+> - Retail &gt; Administración de categorías y productos &gt; Categorías de navegación de canales
+> - Retail &gt; Administración de categorías y productos &gt; Categorías de productos complementarios
 
 ### <a name="assign-attribute-groups-to-retail-stores"></a>Asignar grupos de atributos a las tiendas de venta minorista
 

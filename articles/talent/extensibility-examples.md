@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: c113b0f4ab2c8e44d00fcfca3f0a6ca828a854ae
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: a9ebfd1f2621b8ad65d7623c37b6851cc0b5cb54
+ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519006"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1577804"
 ---
 # <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>Extender Talent mediante PowerApps y Microsoft Flow - escenarios de ejemplo
 
@@ -115,7 +115,7 @@ Ejecute esta aplicación de PowerApps como consola de administración para reali
 
 Esta aplicación de PowerApps usa relaciones de varios a varios, por lo que puede usarla como plantilla para otros escenarios donde debe extraer los registros con relaciones de varios a varios.
 
-Para descargar la plantilla **Consola de administración administrar las reservas de talentos** vaya a la [Consola de administración administrar las reservas de talentos](http://www.microsoft.com/downloads/details.aspx?FamilyID=780a5eee-0e2a-4159-9a83-009f9ccdc469) en el Centro de descarga de Microsoft.
+Para descargar la plantilla **Consola de administración administrar las reservas de talentos** vaya a la [Consola de administración administrar las reservas de talentos](https://www.microsoft.com/downloads/details.aspx?FamilyID=780a5eee-0e2a-4159-9a83-009f9ccdc469) en el Centro de descarga de Microsoft.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

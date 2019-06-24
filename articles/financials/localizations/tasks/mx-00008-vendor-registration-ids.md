@@ -16,12 +16,12 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dfe136d08833a21d88606b1f4be358554d9851bc
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: c24a532be1a14f31fe0fa9369ae6dbad73d6757b
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1537776"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1560996"
 ---
 # <a name="mx-00008-vendor-registration-ids"></a>MX-00008: Id. de registro de proveedores
 

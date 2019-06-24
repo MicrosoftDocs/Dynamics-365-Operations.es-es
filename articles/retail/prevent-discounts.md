@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c9d3e7af95dffddfddc34059d93a2a5a350d08e5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 64f54c1a63706ccd9225d47df96ffc3f88cf3332
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550753"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1606927"
 ---
 # <a name="options-for-preventing-discounts-for-retail-products"></a>Opciones para evitar descuentos de productos comerciales
 
@@ -40,4 +40,4 @@ Las opciones siguientes, que se pueden encontrar en la pestaña **Ventas al por 
 > [!NOTE]
 > Estos ajustes no limitan la operación de la anulación de precio, ya que esto establece el precio base y no se trata como un descuento.
 
-[![evite el campo de descuentos](./media/prevent-discounts.png)](./media/prevent-discounts.png)
+[![Evite el campo de descuentos](./media/prevent-discounts.png)](./media/prevent-discounts.png)

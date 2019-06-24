@@ -3,7 +3,7 @@ title: Creación del canal en línea y definición de los atributos del canal
 description: Este procedimiento le guía por la creación de un nuevo canal en línea y su adición a la jerarquía organizativa.
 author: jashanno
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 06/04/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e066e9901a97bd5b72815a7af472247ef519ecb9
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4547731d7e3bc56b1ba5e0a35ff4746c6c0e9863
+ms.sourcegitcommit: 901ec3b360303bb8b4d9a9dcfecc6d75d7f844a0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569530"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "1618305"
 ---
 # <a name="create-online-channel-and-define-channel-attributes"></a>Creación del canal en línea y definición de los atributos del canal
 
@@ -60,4 +60,10 @@ Este procedimiento le guía por la creación de un nuevo canal en línea y su ad
 9. Haga clic en Publicar para abrir el cuadro de diálogo desplegable.
 10. En el campo Fecha de vigencia, especifique una fecha y una hora.
 11. Haga clic en Publicar.
+
+## <a name="configure-orders-for-near-realtime-notification"></a>Configurar los pedidos para la notificación de tiempo real cercana
+1. Vaya a Retail > Configuración de sede central > Parámetros > Parámetros comerciales.
+2. Establezca el servicio en tiempo real de uso para la creación de pedidos de comercio electrónico en “Sí”.
+3. Ejecute la programación de distribución 1070 para sincronizar los cambios con la base de datos de canal. 
+
 

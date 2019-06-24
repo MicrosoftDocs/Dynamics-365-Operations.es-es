@@ -3,7 +3,7 @@ title: Aprovisionar Talent
 description: Este tema recorre con usted el proceso de aprovisionar un nuevo entorno para Microsoft Dynamics 365 for Talent.
 author: andreabichsel
 manager: AnnBe
-ms.date: 00/05/2019
+ms.date: 05/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 98f60e466b8b97215fdba0f48ca53ca57157283b
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 03edb5d626f221863f45804ce84168692c2bd1f3
+ms.sourcegitcommit: 3c4e59f55af2eafb3adbae3bb0091e4f6caacc8b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519031"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1576930"
 ---
 # <a name="provision-talent"></a>Aprovisionar Talent
 
@@ -47,13 +47,14 @@ Para obtener información sobre cómo comenzar con Talent, consulte la metodolog
 Después de crear un proyecto de LCS, puede aprovisionar Talent en un entorno.
 
 1. En su proyecto de LCS seleccione el mosaico **Gestión de la app Talent**.
-2. Talent siempre se aprovisiona en un entorno de Microsoft PowerApps para habilitar la integración y la extensibilidad de PowerApps. Lea la sección “Selección de un entorno de PowerApps” de este tema antes de continuar. Si todavía no tiene un entorno de PowerApps, seleccione Administrar entornos en el LCS o vaya el centro de gestión de PowerApps. A continuación siga los pasos a [Crear entorno de PowerApps](https://docs.microsoft.com/en-us/powerapps/administrator/create-environment).
+2. Indica si se trata de una instancia de producción o de espacio aislado de Talent. Las características de vista previa pueden estar disponibles en instancias de espacio aislado para permitir pruebas y comentarios iniciales. 
+3. Seleccione la opción **Incluir datos de la demostración** si desea que el entorno incluya el mismo conjunto de datos de demostración utilizado en la experiencia de la prueba de conducción de Talent. Esto es beneficioso para los entornos de demostración o de formación a largo plazo, y no se debe usar nunca en entornos de producción.  Tenga en cuenta que debe elegir esta opción sobre la implementación inicial. No puede actualizar una implementación existente más adelante.
+4. Talent siempre se aprovisiona en un entorno de Microsoft PowerApps para habilitar la integración y la extensibilidad de PowerApps. Lea la sección “Selección de un entorno de PowerApps” de este tema antes de continuar. Si todavía no tiene un entorno de PowerApps, seleccione Administrar entornos en el LCS o vaya el centro de gestión de PowerApps. A continuación siga los pasos a [Crear entorno de PowerApps](https://docs.microsoft.com/en-us/powerapps/administrator/create-environment).
 
     > [!NOTE]
     > Para ver entornos existentes o crear nuevos entornos, debe asignarse el administrador de inquilinos que aprovisiona Talent a la licencia de PowerApps P2. Si su organización no dispone de una licencia de PowerApps P2, puede obtener una de su CSP o en la [Página de precios para PowerApps](https://powerapps.microsoft.com/en-us/pricing/).
 
-4. Seleccione **Agregar**, y seleccione el entorno en el que se aprovisionará Talent.
-5. Seleccione la opción **Incluir datos de la demostración** si desea que el entorno incluya el mismo conjunto de datos de demostración utilizado en la experiencia de la prueba de conducción de Talent. Esto es beneficioso para los entornos de demostración o de formación a largo plazo, y no se debe usar nunca en entornos de producción.  Tenga en cuenta que debe elegir esta opción sobre la implementación inicial. No puede actualizar una implementación existente más adelante.
+5. Seleccione el entorno para aprovisionar Talent.
 6. Seleccione **Sí** para aceptar los términos e iniciar la implementación.
 
     Su nuevo entorno aparece en la lista de los entornos en el panel de navegación de la izquierda. Sin embargo, no puede empezar a usar el entorno hasta que el estado de la implementación se actualice a **Implementado**. Este proceso tarda normalmente algunos minutos. Si el proceso de abastecimiento es incorrecto, debe ponerse en contacto con el soporte técnico.

@@ -3,7 +3,7 @@ title: Configurar estructuras contables
 description: En este tema se proporciona información acerca de las estructuras contables y las dimensiones financieras.
 author: aprilolson
 manager: AnnBe
-ms.date: 05/21/2018
+ms.date: 06/03/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a0665f5aec2a0809ecb383c1d4adf4c2072c9569
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5fbd4b34d09b4ba8e1d34234c8e32268bba18778
+ms.sourcegitcommit: aec1dcd44274e9b8d0770836598fde5533b7b569
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552030"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "1617305"
 ---
 # <a name="configure-account-structures"></a>Configurar estructuras contables
 
@@ -70,6 +70,16 @@ La sección **Detalles de valor permitidos** le guiará por la creación de crit
 
 [![Permitir valores](./media/account.png)](./media/account.png) 
 
+Los valores permitidos se establecerán como valor predeterminado sobre un diario o una página de la entrada de distribución contable cuando no se necesitan valores posibles para seleccionar en función de la configuración de la estructura contable.
+
+Aquí se indica un ejemplo de la **Estructura de la cuenta de pérdidas y ganancias**.
+
+|Cuenta principal          | Unidad de negocio    |Departamento          | Centro de coste    |
+|----------------------|-----------|----------------------|-----------|
+|400000..999999 | 002 | 022 | 014 |
+
+Cuando se introduzca un diario y la selección de una cuenta del intervalo de pérdidas y ganancias, seleccionando la unidad de negocio "002" hará que los valores 022 y 014 sean el valor predeterminado en el control de la cuenta. Este comportamiento también aparecerá con la página de la distribución contable. 
+
 ## <a name="more-than-7-criteria-needed"></a>Se necesitan más de 7 criterios
 
 Si tiene más de 7 criterios que son necesarios, puede continuar agregándolos en la siguiente línea. Observará cuando trabaje en la sección **Detalles de valor permitidos** que los criterios **+Agregar nuevo** ya no están activos después de introducir el séptimo criterio. Esto se debe a muchos factores como: 
@@ -79,8 +89,6 @@ Si tiene más de 7 criterios que son necesarios, puede continuar agregándolos e
  - Facilidad de uso  
  
 Para continuar agregando criterios adicionales, haga clic en **Duplicar en el segmento** y **Sección de valores permitidos**. Esto copiará los criterios en una nueva línea. A continuación, puede escribir encima o modificar la sección **Detalles de valor permitidos** .
-
-(VÍNCULO AL VÍDEO QUE SE CREARÁ)
 
 ## <a name="best-practices"></a>Prácticas recomendadas
 Al configurar sus estructuras contables existen algunas prácticas recomendadas que puede seguir. Sin embargo, esto es solo una orientación, por lo que debe considerarse una discusión holística sobre su negocio, plan de crecimiento y plan de mantenimiento como parte de esa discusión.

@@ -16,12 +16,12 @@ ms.search.region: Spain
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b142ac575268a172cfbda0b6d0c7aa336f8e1fc
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: f5de65a92d36e85302d7d8c98af5159651b60e19
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1537790"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1555177"
 ---
 # <a name="spain"></a>España 
 

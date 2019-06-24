@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 7aed6895d526011e353eef7b85e4e2f096a25e5a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: dc34ca33d2844eaedfa1734fe6d7c7f2ef4a622d
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546848"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595694"
 ---
 # <a name="before-you-buy"></a>Antes de comprar
 
@@ -63,7 +63,7 @@ Hay dos maneras de comprar una suscripción para una implementación local
 
 ### <a name="buy-through-volume-licensing"></a>Comprar mediante licencias por volumen
 
-Si su organización tiene 250 o más usuarios de Dynamics 365, puede estar interesado en un [Contrato de licencias por volumen](https://www.microsoft.com/en-us/Licensing/product-licensing/dynamics365)
+Si su organización tiene 250 o más usuarios de Dynamics 365, puede estar interesado en un [Contrato de licencias por volumen](https://www.microsoft.com/Licensing/product-licensing/dynamics365)
 
 En licencias por volumen, Finance and Operations está disponible mediante:
 
@@ -87,7 +87,7 @@ Microsoft ofrece un soporte flexible y líder en el sector, servicios y recursos
 Más información:
 
 - [Soporte de Dynamics 365](https://www.microsoft.com/dynamics365/support)
-- [Guía rápida de inicio sobre los beneficios del soporte de servicio de nube de Microsoft Dynamics](http://go.microsoft.com/fwlink/?LinkId=530335) (PDF)
+- [Guía rápida de inicio sobre los beneficios del soporte de servicio de nube de Microsoft Dynamics](https://go.microsoft.com/fwlink/?LinkId=530335) (PDF)
 
 ## <a name="step-four-learn-about-fasttrack-and-plan-your-deployment"></a>Paso cuatro: Obtener información acerca de FastTrack y planificar su implementación
 

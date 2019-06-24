@@ -3,7 +3,7 @@ title: Informes financieros
 description: Este tema describe cómo acceder a los informes financieros en Microsoft Dynamics 365 for Finance and Operations y cómo usar las capacidades de informes financieros. Incluye una descripción de los informes financieros predeterminados proporcionados.
 author: aprilolson
 manager: AnnBe
-ms.date: 09/26/2018
+ms.date: 05/22/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6d504a7b0640f45de4aa9f8fb60d2b1d37818bb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b8d3630e60fb2f1a8ca7e3610bbb4fcd32c17dec
+ms.sourcegitcommit: 06c8dc5bc4e1c41f68e1cda141d61529768be958
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550314"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594969"
 ---
 # <a name="financial-reporting"></a>Informes financieros
 
@@ -64,7 +64,7 @@ Las funciones de informes financieros están disponibles para los usuarios que t
 
 | Etiqueta del privilegio                       | Descripción                                                             | Nombre AOT                         |
 |---------------------------------------|-------------------------------------------------------------------------|----------------------------------|
-| Mantener seguridad de informes financieros | Mantener la seguridad de los informes financieros y realizar tareas administrativas. | FinancialReportsSecurityMaintain |
+| Mantener seguridad de informes financieros | Mantener la seguridad de los informes financieros y realizar tareas administrativas. | FinancialReportsSecuritySystemMaintain |
 | Mantener informes financieros            | Diseñar y mantener informes financieros.                                  | FinancialReportsMaintainReports  |
 | Generar informes financieros            | Generar y actualizar informes financieros.                                 | FinancialReportsGenerateReports  |
 | Ver informes financieros                | Ver informes financieros.                                                 | FinancialReportsView             |
