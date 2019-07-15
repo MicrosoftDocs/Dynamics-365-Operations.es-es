@@ -4,13 +4,13 @@
   items:
     - name: Novedades y cambios
       href: get-started/whats-new.md
-    - name: Características de vista previa en Dynamics 365 for Retail 10.0.3
+    - name: Novedades y cambios en Dynamics 365 for Retail 10.0.3
       href: get-started/whats-new-10-0-3.md
     - name: Novedades y cambios en Dynamics 365 for Retail 10.0.2
       href: get-started/whats-new-10-0-2.md
-    - name: Novedades o cambios en Dynamics 365 for Retail 10.0.1
+    - name: Novedades y cambios en Dynamics 365 for Retail 10.0.1
       href: get-started/whats-new-10-0-1.md
-    - name: Novedades o cambios en Dynamics 365 for Retail (abril de 2019)
+    - name: Novedades y cambios en Dynamics 365 for Retail (abril de 2019)
       href: get-started/april-whats-new.md
     - name: Antes de comprar Retail
       href: get-started/before-you-buy.md
@@ -407,6 +407,10 @@
       items:
         - name: Ejemplo de integración de impresora fiscal para Italia
           href: localizations/emea-ita-fpi-sample.md
+    - name: México
+      items:
+        - name: Facturas electrónicas de CFDI globales para México
+          href: ../financials/localizations/latam-mex-global-cfdi-3-3.md
     - name: Noruega
       items:
         - name: Funcionalidad de caja registradora
