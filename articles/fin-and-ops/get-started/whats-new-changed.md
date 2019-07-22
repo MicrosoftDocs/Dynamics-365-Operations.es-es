@@ -3,7 +3,7 @@ title: Novedades y cambios
 description: Esta página le señala a temas que pueden ayudarle a obtener información acerca de las nuevas características de las versiones más recientes de Microsoft Dynamics 365 for Finance and Operations.
 author: josaw1
 manager: AnnBe
-ms.date: 06/04/2019
+ms.date: 06/14/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: bc13efe11f383157338ccd6b2ae378ee1f92a698
-ms.sourcegitcommit: bbc9aa0d6b94a942e1f4d5b038601509dcc87937
+ms.openlocfilehash: 42c31195a0b1a785afadfefc33f5cf7e1a6fce1f
+ms.sourcegitcommit: 672c94704e9a2b0ec7ee3c111d4ceb1bb8597969
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1619201"
+ms.lasthandoff: 06/14/2019
+ms.locfileid: "1632014"
 ---
 # <a name="whats-new-or-changed"></a>Novedades y cambios
 
@@ -63,7 +63,7 @@ Esta tabla enumera las principales versiones de la aplicación. Para las actuali
 <td>10.0.3</td>
 <td>10.0.107</td>
 <td>2019 de junio</td>
-<td><a href="whats-new-changed-10-0-3.md">Obtener una vista preliminar de las características de Dynamics 365 for Finance and Operations versión 10.0.3 (junio de 2019)</a></td>
+<td><a href="whats-new-changed-10-0-3.md">Novedades y cambios en Dynamics 365 for Finance and Operations versión 10.0.3 (junio de 2019)</a></td>
 </tr><tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>10.0.2</td>
@@ -183,7 +183,7 @@ Esta tabla enumera las principales versiones de la aplicación. Para las actuali
 <td>Actualización 27 de la plataforma</td>
 <td>7.0.5286</td>
 <td>2019 de junio</td>
-<td><a href="whats-new-platform-update-27.md">Vista previa de las características de la actualización 27 de la plataforma Dynamics 365 for Finance and Operations (junio de 2019)</a></td>
+<td><a href="whats-new-platform-update-27.md">Novedades o cambios en la actualización 27 de la plataforma de Dynamics 365 for Finance and Operations (junio de 2019)</a></td>
 </tr><tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>Actualización 26 de la plataforma</td>

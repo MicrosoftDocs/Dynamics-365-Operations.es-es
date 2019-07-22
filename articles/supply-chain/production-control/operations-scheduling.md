@@ -3,7 +3,7 @@ title: Programación de operaciones
 description: Este tema proporciona información acerca de la programación de las operaciones. Puede usar la programación de operaciones para proporcionar una estimación general del tiempo extra del proceso de producción.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 298c07346427a949ffa544e66eb6b01995dadc38
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 9447474e0878077659a80dc49f7c7c1313db2cbe
+ms.sourcegitcommit: 8741b4b32ef32a54de3d064bf40a9c0179d4139a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560277"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "1691471"
 ---
 # <a name="operations-scheduling"></a>Programación de operaciones
 
@@ -67,6 +67,9 @@ La programación de operaciones también genera la programación maestra y deter
 -   **Producciones registradas**: productos planificados, liberados o iniciados
 -   **Disponibilidad de material**: inventario, subproducciones, distribuidores y proveedores
 -   **Disponibilidad de capacidad**: recursos necesarios para la producción
+
+> [!NOTE]
+> Si vas a utilizar una planificación maestra y una programación de operaciones de varios subprocesos, no se considerará la capacidad finita. 
 
 ## <a name="cancellations"></a>Cancelaciones
 Cuando está utilizando la programación de operaciones, puede cancelar partes concretas de la ruta. Dichas partes incluyen el tiempo en cola, el tiempo de preparación, el tiempo de proceso, el tiempo de superposición y los tiempos de transporte.

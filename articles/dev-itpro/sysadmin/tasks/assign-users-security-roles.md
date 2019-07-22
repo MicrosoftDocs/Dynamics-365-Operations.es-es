@@ -3,7 +3,7 @@ title: Asignar usuarios a roles de seguridad
 description: Para obtener acceso a Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, se debe asignar a los usuarios a roles de seguridad.
 author: maertenm
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 06/21/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 55cb085bb5170aa4894a2240a12f6ca451b922fb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ab9f2f5ea07ae1d616c48dffa8810b966f7dbb2f
+ms.sourcegitcommit: 33e98f89294086334fe9c0a350abb6a52ef9dacb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556718"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "1711140"
 ---
 # <a name="assign-users-to-security-roles"></a>Asignar usuarios a roles de seguridad
 
@@ -31,25 +31,20 @@ Para obtener acceso a Microsoft Dynamics 365 for Finance and Operations, Enterpr
 
 
 ## <a name="automatically-assign-users-to-roles"></a>Asignar usuarios automáticamente a roles
-1. Vaya a Administración del sistema > Seguridad > Asignar usuarios a roles.
-2. En el árbol, seleccione "Supervisor contable".
-    * Seleccione el rol para el que desea configurar la regla. En este ejemplo, seleccione Supervisor contable.  
-3. Haga clic en Agregar regla para abrir el cuadro desplegable.
-4. En la lista, busque y seleccione el registro deseado.
-    * Seleccione la consulta que se usará para esta regla.  
-5. En la lista, haga clic en el vínculo de la fila seleccionada.
-6. Haga clic en Editar consulta.
-    * Edite la consulta según sea necesario.  
-7. Haga clic en Aceptar
+1. Vaya a **Panel de navegación > Módulos > Administración del sistema > Seguridad > Asignar usuarios a roles**.
+2. En el árbol, seleccione "Supervisor contable". Seleccione el rol para el que desea configurar la regla. En este ejemplo, seleccione Supervisor contable. 
+3. Haga clic en **Agregar regla** para abrir el cuadro desplegable.
+4. En la lista **Seleccionar una consulta**, busque y seleccione el registro deseado. Seleccione la consulta que se usará para esta regla.  
+5. En la lista **Nombre de la regla de pertenencia**, haga clic en el vínculo de la fila seleccionada.
+6. Haga clic en **Editar consulta**. Edite la consulta según sea necesario.  
+7. Haga clic en **Aceptar**.
 
 ## <a name="exclude-users-from-automatic-role-assignment"></a>Excluir usuarios de la asignación automática de roles
 1. Cierre la página.
-2. Vaya a Administración del sistema > Seguridad > Asignar usuarios a roles.
-3. En el árbol, seleccione "Supervisor contable".
-    * Seleccione una función. Para este ejemplo, seleccione Supervisor contable.  
-4. Haga clic en Asignar o excluir usuarios de forma manual.
-5. En la lista, marque la fila seleccionada.
-    * Seleccione un usuario.  
-6. Haga clic en Excluir de rol.
-    * Haga clic en Excluir de rol para excluir los usuarios seleccionados del rol. Para quitar exclusiones, seleccione los usuarios para los que desea quitar las exclusiones y, a continuación, haga clic en Restablecer estado. Al eliminar una exclusión restableciendo el estado del usuario, el rol del usuario se asigna de nuevo automáticamente. Sin embargo, el usuario no se asigna inmediatamente al rol o se excluye del rol al restablecer el estado. En su lugar, el usuario se asigna al rol o se elimina del rol la próxima vez que se ejecutan las reglas para la asignación automática de roles.  
-
+2. Vaya a **Panel de navegación > Módulos > Administración del sistema > Seguridad > Asignar usuarios a roles**.
+3. En el árbol, seleccione "Supervisor contable". Seleccione una función. Para este ejemplo, seleccione Supervisor contable.  
+4. En el menú **Usuarios asignados al rol**, seleccione **Asignar o excluir usuarios de forma manual**.
+5. En el lista **Asignar usuarios al rol o excluir usuarios del rol**, marque la fila seleccionada. Seleccione un usuario.  
+6. En el **Panel de acciones**, seleccione **Excluir de rol**.
+    
+    Haga clic en **Excluir de rol** para excluir los usuarios seleccionados del rol. Para quitar exclusiones, seleccione los usuarios para los que desea quitar las exclusiones y, a continuación, haga clic en **Restablecer estado**. Al eliminar una exclusión restableciendo el estado del usuario, el rol del usuario se asigna de nuevo automáticamente. Sin embargo, el usuario no se asigna inmediatamente al rol o se excluye del rol al restablecer el estado. En su lugar, el usuario se asigna al rol o se elimina del rol la próxima vez que se ejecutan las reglas para la asignación automática de roles.  

@@ -18,17 +18,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: b88ba4386dbf3513d75990acca1c07fa6f0dc9b0
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 1c7c017cce26b6b250d899bba891d6823b40c282
+ms.sourcegitcommit: a6b32be10b6eb6340f8f68261bf62d0202c03dd1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519043"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "1729735"
 ---
 # <a name="email-templates"></a>Plantillas de correo electrónico
 [!include[banner](../includes/banner.md)]
 
-Mediante la biblioteca de plantillas de correo electrónico, los administradores pueden crear un tema y una personalización de marca uniformes para todos los mensajes de correo electrónico enviados con Microsoft Dynamics 365 for Talent: Attract. Los administradores también pueden seleccionar una colección de plantillas de contenido del correo electrónico que otros usuarios puedan consumir. El equipo de contratación puede utilizar estas plantillas en su flujo de trabajo para enviar mensajes de correo electrónico de forma más eficaz. Algunos mensajes de correo electrónico de Attract se configuran para enviarse automáticamente, y el administrador puede usar la biblioteca de plantillas de correo electrónico para personalizar el contenido de dichos mensajes de correo electrónico.
+Mediante la biblioteca de plantillas de correo electrónico, los administradores pueden crear un tema y una personalización de marca uniformes para todos los mensajes de correo electrónico enviados con Microsoft Dynamics 365 for Talent: Attract y Offer. Los administradores también pueden seleccionar una colección de plantillas de contenido del correo electrónico que otros usuarios puedan consumir. El equipo de contratación puede utilizar estas plantillas en su flujo de trabajo para enviar mensajes de correo electrónico de forma más eficaz. Algunos mensajes de correo electrónico se configuran para enviarse automáticamente, y el administrador puede usar la biblioteca de plantillas de correo electrónico para personalizar el contenido de dichos mensajes de correo electrónico.
 
 > [!NOTE]
 > Para usar plantillas de correo electrónico, la organización debe tener el complemento de contratación completa.
@@ -37,7 +37,7 @@ Mediante la biblioteca de plantillas de correo electrónico, los administradores
 
 Para crear una personalización de marca coherente para todas las comunicaciones realizadas por correo electrónico, el administrador debe establecer en primer lugar el encabezado y el pie de página globales para todas las plantillas de correo electrónico. En el centro de gestión, en la pestaña **Configuración de plantilla de correo electrónico**, en la sección **Encabezado**, el administrador puede cargar una imagen que se usará como la cabecera o el banner de todos los mensajes de correo electrónico. La imagen puede ser un logotipo de la empresa, un membrete, o cualquier otra imagen representativa. Recomendamos que el ancho esté entre 25 y 800 píxeles, y el alto esté entre 25 y 150 píxeles, ya que estas dimensiones son óptimas para la mayoría de los clientes de correo electrónico, como Microsoft Outlook. La imagen debe ser un archivo JPEG, JPG, PNG, o SVG, y el tamaño de archivo debe ser inferior a 1 megabyte (MB). Después de cargar una imagen, una vista preliminar del encabezado se genera y se muestra. Si la imagen del encabezado debe quitarse o reemplazarse, el administrador puede utilizar la opción **Quitar** sobre la vista previa.
 
-En la sección **Pie de página**, el administrador puede proporcionar vínculos a la directiva de privacidad de la empresa para las comunicaciones, y a los términos y condiciones. Estos vínculos se especifican en un pie de página que se genera automáticamente. A continuación se muestra una vista previa de este pie de página.
+En la sección **Pie de página**, el administrador puede proporcionar vínculos a la directiva de privacidad de la empresa para las comunicaciones, y a los términos y condiciones. Estos vínculos se especifican en un pie de página que se genera automáticamente. A continuación se muestra una vista previa de este pie de página. El administrador también puede elegir un idioma determinado en el que los pies de página del correo electrónico se enviarán como parte de todos los correos electrónicos. También se utilizará la misma configuración de idioma para juntar la tabla de resumen de la entrevista. 
 
 Asegúrese de guardar los cambios antes de cerrar el centro de administración.
 
@@ -46,7 +46,7 @@ Asegúrese de guardar los cambios antes de cerrar el centro de administración.
 
 ## <a name="email-template-library"></a>Biblioteca de plantillas de correo electrónico 
 
-Una vez configuradas las configuraciones de plantilla globales, el administrador puede empezar a crear y seleccionar plantillas para todos los correos electrónicos que se envían desde Attract. La biblioteca de plantillas de correo electrónico solo está disponible para los administradores. Para abrir la biblioteca, en el menú de navegación principal, seleccione la pestaña **Plantillas de correo electrónico**. La biblioteca está dividida en categorías según las distintas actividades de Attract para las que deben enviarse mensajes de correo electrónico, por ejemplo la programación, la evaluación, y la creación de trabajos. El administrador puede seleccionar cualquier categoría para ver todos los tipos de correo electrónico que están asociados a la actividad. Por ejemplo, seleccione **Programación** para ver los diversos tipos de correo electrónico que se envían durante el proceso de programación y todas las plantillas que están disponibles para cada tipo de correo electrónico. Cada subsección de una categoría representa un tipo de correo electrónico.
+Una vez configuradas las configuraciones de plantilla globales, el administrador puede empezar a crear y seleccionar plantillas para todos los correos electrónicos que se envían desde Attract y Offer. La biblioteca de plantillas de correo electrónico solo está disponible para los administradores. Para abrir la biblioteca, en el menú de navegación principal, seleccione la pestaña **Plantillas de correo electrónico**. La biblioteca está dividida en categorías según las distintas actividades de Attract para las que deben enviarse mensajes de correo electrónico, por ejemplo la programación, la evaluación, y la creación y oferta de trabajos. El administrador puede seleccionar cualquier categoría para ver todos los tipos de correo electrónico que están asociados a la actividad. Por ejemplo, seleccione **Programación** para ver los diversos tipos de correo electrónico que se envían durante el proceso de programación y todas las plantillas que están disponibles para cada tipo de correo electrónico. Cada subsección de una categoría representa un tipo de correo electrónico.
 
 Algunos tipos de correo electrónico pueden tener más de un destinatario. Por ejemplo, en la categoría **Programación**, los mensajes de correo electrónico que se envían cuando se necesita el resumen de la programación, se envían a los candidatos y los entrevistadores. Cada sección tiene dos columnas principales: **Título de plantilla** y **Destinatario**. Cada fila en una sección representa una sola plantilla para un tipo de correo electrónico. Inicialmente, un símbolo de bloqueo aparecerá en la fila para cada plantilla. Este símbolo indica que la plantilla es la plantilla estándar que se proporcion con Attract y que no se puede eliminar. Para cualquier plantilla, el administrador puede usar puntos suspensivos (**...**) para duplicar la plantilla, establecerla como plantilla predeterminada, o eliminarla. Cuando una plantilla se establece como plantilla predeterminada, uno de dos comportamientos puede producirse. El comportamiento se indica con la tarjeta o las tarjetas que aparecen en la fila para la plantilla:
 

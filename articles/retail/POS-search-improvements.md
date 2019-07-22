@@ -3,7 +3,7 @@ title: Búsqueda de productos y de clientes en el punto de venta (PDV)
 description: En este tema se proporciona una visión general de las mejoras que se han realizado en la funcionalidad de búsqueda de productos y clientes en Microsoft Dynamics 365 for Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 03/08/2019
+ms.date: 06/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: a1593445af41cba30bdc35933302d0873e313585
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: b2f1d522a60721c746d03e477615265f9a8ba9a0
+ms.sourcegitcommit: 3d8c951898e05febc160515127c1bcc5de5882a1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1530785"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "1625651"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Búsqueda de productos y de clientes en el punto de venta (PDV)
 
@@ -40,7 +40,7 @@ De forma predeterminada, las búsquedas de producto se realizan en el surtido de
 En la página **Cambiar catálogo**, los empleados pueden seleccionar cualquier forma de manera sencilla, o pueden buscar productos en todas las tiendas.
 
 ![Cambiar el catálogo](./media/Changecatalog.png "Cambiar el catálogo")
- 
+
 Una búsqueda de producto local realiza búsquedas en las siguientes propiedades de producto:
 
 - Código de producto
@@ -55,7 +55,7 @@ Una búsqueda de producto local realiza búsquedas en las siguientes propiedades
 La experiencia de la búsqueda de producto local es ahora más sencilla. Se realizaron las mejoras siguientes:
 
 - Los menús desplegables de productos y clientes se han agregado a la barra de búsqueda, de modo que los empleados pueden seleccionar **Producto** o **Cliente** antes de realizar la búsqueda. De forma predeterminada, se selecciona **Producto** tal y como se muestra en la siguiente ilustración.
-- Si va a realizar una búsqueda con varias palabras clave (esto es, una búsqueda que usa términos de búsqueda), los distribuidores pueden configurar los resultados de búsqueda para que incluyan opciones que coincidan con *cualquier* término de búsqueda o *todos* los términos de búsqueda. Esta configuración está disponible en el perfil de funcionalidad de PDV, en un nuevo grupo denominado **Búsqueda de producto**. La configuración predeterminada es **Coincidencias con cualquier término de búsqueda**. Le recomendamos que use esta configuración. Cuando se usa la configuración **Coincidir con cualquier término de búsqueda**, todos los productos que coinciden total o parcialmente con uno o varios términos de búsqueda se devuelven como resultados. Esos resultados se ordenan automáticamente en orden ascendente de productos que tienen la mayoría de las coincidencias de la palabra clave (parcial o completa).
+- Si va a realizar una búsqueda con varias palabras clave (esto es, una búsqueda que usa términos de búsqueda), los distribuidores pueden configurar los resultados de búsqueda para que incluyan opciones que coincidan con *cualquier* término de búsqueda o *todos* los términos de búsqueda. La configuración para esta funcionalidad está disponible en el perfil de funcionalidades de PDV, en un nuevo grupo denominado **Búsqueda de producto**. La configuración predeterminada es **Coincidencias con cualquier término de búsqueda**. Le recomendamos que use esta configuración. Cuando se usa la configuración **Coincidir con cualquier término de búsqueda**, todos los productos que coinciden total o parcialmente con uno o varios términos de búsqueda se devuelven como resultados. Esos resultados se ordenan automáticamente en orden ascendente de productos que tienen la mayoría de las coincidencias de la palabra clave (parcial o completa).
 
     La configuración **Coincidencias con todos los términos de búsqueda** sólo devuelve aquellos productos que coincidan con todos los términos de búsqueda (parcial o completa). Esta opción resulta útil cuando los nombres de producto son muy largos y los empleados solo quieren encontrar ciertos productos en los resultados de búsqueda. Sin embargo, este tipo de búsqueda tiene dos limitaciones:
 
@@ -65,11 +65,20 @@ La experiencia de la búsqueda de producto local es ahora más sencilla. Se real
 - Ahora los distribuidores pueden configurar la búsqueda de productos para que se muestren sugerencias a medida que el usuario escribe el nombre del producto. Una nueva configuración para esta funcionalidad está disponible en el perfil de funcionalidades de PDV, en un grupo denominado **Búsqueda de producto**. Esta configuración se llama **Mostrar las sugerencias de búsqueda mientras se escribe**. Esta función puede ayudar a sus empleados a buscar rápidamente el producto que quieran, ya que no tienen que escribir todo el nombre de forma manual.
 - El algoritmo de búsqueda de productos también busca términos en la propiedad de producto **Nombre de búsqueda**.
 
-    ![Sugerencias de producto](./media/Productsuggestions.png "Sugerencias de producto")
+![Sugerencias de producto](./media/Productsuggestions.png "Sugerencias de producto")
 
 ## <a name="customer-search"></a>Búsqueda de clientes
 
-La búsqueda de clientes se utiliza para buscar clientes para distintos fines. Por ejemplo, es posible que los cajeros quieran ver la lista de solicitudes o el historial de compra de algún cliente o agregar al cliente a alguna transacción. El algoritmo de búsqueda coincide con los términos de búsqueda con los valores presentes en las siguientes propiedades del cliente: nombre, correo electrónico, teléfono, el número de tarjeta de fidelización, dirección, y el número de cuenta. Entre ellos, la propiedad del nombre ofrece la mayor flexibilidad cuando se trata de búsquedas de varias palabras clave ya que el algoritmo devuelve todos los clientes que coinciden con algunas de las palabras clave buscadas y los clientes que coinciden con la mayoría de las palabras clave, aparecen en la parte superior de los resultados. Este comportamiento ayuda a los cajeros en situaciones en las que realizan búsquedas escribiendo el nombre completo, pero el apellido y el nombre fueron intercambiados durante la entrada de datos inicial. Sin embargo, por motivos de rendimiento, el resto de propiedades conservan el orden de las palabras clave de búsqueda, por lo que si las palabras clave de la búsqueda no coinciden con el orden en que se almacenan los datos, no se mostrará ningún resultado.
+La búsqueda de clientes se utiliza para buscar clientes para distintos fines. Por ejemplo, es posible que los cajeros quieran ver la lista de solicitudes o el historial de compra de algún cliente o agregar al cliente a alguna transacción. El algoritmo de búsqueda coincide con los términos de búsqueda con los valores que están presentes en las siguientes propiedades del cliente:
+
+- Nombre
+- Dirección de correo electrónico
+- Número de teléfono
+- Número de tarjeta de fidelización
+- Dirección
+- Número de cuenta
+
+Entre estas propiedades, el nombre proporciona la mayor flexibilidad para búsquedas de múltiples palabras clave, ya que el algoritmo devuelve todos los clientes que coincidan con cualquiera de las palabras clave buscadas. Los clientes que coinciden con la mayoría de las palabras clave aparecen en la parte superior de los resultados. Este comportamiento ayuda a los cajeros en situaciones en las que buscan escribiendo el nombre completo, pero el apellido y el nombre fueron intercambiados durante la entrada de datos inicial. Sin embargo, por motivos de rendimiento, el resto de propiedades conservan el orden de las palabras clave de la búsqueda. Por lo tanto, si el orden de las palabras clave de la búsqueda no coincide con el orden en el que se almacenan los datos, no se mostrará ningún resultado.
 
 De forma predeterminada, una búsqueda de clientes se realiza en los libros de direcciones de cliente que están asociados a la tienda. Este tipo de búsqueda se conoce como *búsqueda de cliente local*. Asimismo, los empleados también pueden buscar clientes de manera global. Es decir, pueden buscar en las tiendas de la empresa y a través de las demás entidades jurídicas. Este tipo de búsqueda se conoce como *búsqueda de cliente remota*.
 
@@ -86,7 +95,7 @@ En una búsqueda de cliente remota, no se muestra el id. del cliente si este for
 
 Se han simplificado las búsquedas que se basan en el número de teléfono. Estas búsquedas ahora omiten caracteres especiales, como espacios, guiones y corchetes, lo que se puedan haber agregado cuándo se creó el cliente. Por lo tanto, los cajeros no tienen que preocuparse del formato de número de teléfono al realizar una búsqueda. También pueden buscar por cliente escribiendo un número de teléfono parcial. Si un número de teléfono incluye caracteres especiales, también se puede encontrar buscando los números que aparecen después de caracteres especiales. Por ejemplo, si un número de teléfono de cliente se escribió como **123-456-7890**, un cajero puede buscar el cliente escribiendo **123**, **456**, **7890** o **1234567890** o simplemente escribiendo los primeros números del teléfono.
 
-La búsqueda tradicional de clientes puede ser larga, porque buscar en varios campos. En su lugar, los cajeros pueden ahora buscar en una única propiedad personalizada, como el nombre, dirección de correo electrónico o número de teléfono. Las propiedades que el algoritmo de búsqueda del cliente usa se conocen colectivamente como *criterios de búsqueda del cliente*. La administración del sistema puede configurar fácilmente uno o más criterios como métodos abreviados que aparecen en PDV. Dado que la búsqueda se limita a un único criterio, solo se muestran los resultados relevantes de la búsqueda y el rendimiento es mucho mejor que el rendimiento de una búsqueda estándar del cliente. La ilustración siguiente muestra los métodos abreviados de búsqueda del cliente en el PDV.
+La búsqueda tradicional de clientes puede ser larga, porque buscar en varios campos. En su lugar, los cajeros pueden ahora buscar en una única propiedad de cliente, como el nombre, dirección de correo electrónico o número de teléfono. Las propiedades que el algoritmo de búsqueda del cliente usa se conocen colectivamente como *criterios de búsqueda del cliente*. La administración del sistema puede configurar fácilmente uno o más criterios como métodos abreviados que aparecen en PDV. Dado que la búsqueda se limita a un único criterio, solo se muestran los resultados relevantes de la búsqueda y el rendimiento es mucho mejor que el rendimiento de una búsqueda estándar del cliente. La ilustración siguiente muestra los métodos abreviados de búsqueda del cliente en el PDV.
 
 ![Métodos abreviados de búsqueda del cliente](./media/SearchShortcutsPOS.png "Métodos abreviados de búsqueda del cliente")
 
@@ -101,3 +110,7 @@ El campo **Visualizar orden** determina el orden en que los accesos directos se 
 
 > [!NOTE]
 > Una propiedad personalizada que se agrega al enum no afecta al algoritmo de búsqueda estándar del cliente. Es decir, el algoritmo de búsqueda del cliente no buscará en la propiedad personalizada. Los usuarios pueden usar una propiedad personalizada para las búsquedas si dicha propiedad personalizada se agrega como método abreviado o si el algoritmo de búsqueda predeterminado ha sido reemplazado.
+
+En una próxima versión de Microsoft Dynamics 365 for Retail, los minoristas podrán establecer el modo de búsqueda de clientes predeterminado en el PDV en **Buscar en todas las tiendas**. Esta configuración puede resultar útil en escenarios en los que los clientes que se crearon fuera del PDV deben buscarse de inmediato (por ejemplo, incluso antes de que se ejecute el trabajo de distribución). Una nueva opción **Modo de búsqueda de clientes predeterminado** estará disponible en el perfil de funcionalidad de PDV. Establézcala en **Activa** para establecer el modo de búsqueda predeterminado en **Buscar en todas las tiendas**. Cada intento de búsqueda de clientes hará una llamada en tiempo real a la sede.
+
+Para ayudar a evitar problemas de rendimiento inesperados, esta configuración se oculta detrás de un indicador que se denomina **CUSTOMERSEARCH_ENABLE_DEFAULTSEARCH_FLIGHTING**. Por tanto, para mostrar el **Modo de búsqueda de clientes predeterminado** que configura la interfaz de usuario (IU), el minorista debe crear una incidencia de soporte técnico para su prueba de aceptación del usuario (UAT) y los entornos de producción. Una vez que se reciba la incidencia, el equipo de ingeniería trabajará con el minorista para garantizar que este último realiza la prueba en sus entornos que no son de producción a fin de evaluar el rendimiento e implementar cualquier optimización que sea necesaria.

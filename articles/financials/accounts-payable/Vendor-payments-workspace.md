@@ -3,7 +3,7 @@ title: Espacio de trabajo de pagos de proveedor
 description: Este tema proporciona información acerca del espacio de trabajo Pagos a proveedores. El espacio de trabajo Pagos a proveedores muestra la información relacionada con el procesamiento de pagos a proveedores.
 author: abruer
 manager: AnnBe
-ms.date: 05/09/2017
+ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,18 +17,26 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 789acd3f403e322ec00388ca8184ccd30c3ea436
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6f5ffe65b2f9be7423f1fe420594c936e15550fb
+ms.sourcegitcommit: 6f0e5bf82a5f61bab52c3cf4c82849fae5c5d50b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1509231"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702944"
 ---
 # <a name="vendor-payments-workspace"></a>Espacio de trabajo de pagos de proveedor
 
 [!include [banner](../includes/banner.md)]
 
 El espacio de trabajo **Pagos a proveedores** muestra la información relacionada con el procesamiento de pagos a proveedores. Este espacio de trabajo incluye un vista **Mi trabajo** y una página **Análisis** . La vista **Mi trabajo** muestra mosaicos de resumen, cuadrículas de transacciones con proveedores y la información de proveedor relacionada. La página **Análisis** utiliza las capacidades de Microsoft Power BI para mostrar las representaciones visuales relacionados con pagos a proveedores.
+
+## <a name="setup-needed-to-view-power-bi-content"></a>Configuración necesaria para ver el contenido de Power BI
+
+Es necesario completar la siguiente configuración para que los datos se muestren en los elementos visuales de Power BI **Pagos a proveedores**.
+1. Vaya a **Administración del sistema > Configuración > Parámetros del sistema** para establecer **Divisa del sistema** y **Tipo de cambio del sistema**.
+2. Vaya a **Contabilidad general > Configuración > Libro mayor** para establecer **Divisa de contabilidad** y **Tipo de cambio**. 
+2. Defina los tipos de cambio entre las Divisas de transacción y la Divisa de contabilidad, la Divisa de contabilidad y la Divisa del sistema. Para ello, vaya a **Contabilidad general > Divisas > Tipos de cambio de divisas**.
+3. Vaya a **Administración del sistema > Configuración > Almacén de entidades** para actualizar la medida agregada **VendPaymentBIMeasure**. 
 
 ## <a name="my-work-view"></a>Vista Mi trabajo
 

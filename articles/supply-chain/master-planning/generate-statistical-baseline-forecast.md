@@ -1,9 +1,9 @@
 ---
 title: Generar previsión estadística de línea base
-description: Este artículo proporciona información sobre los parámetros y los filtros que se usan en el cálculo de previsión de demanda.
+description: En este tema se proporciona información sobre los parámetros y los filtros que se usan en el cálculo de previsión de demanda.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,18 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 30f2ccb8c0b4d7c4755e0b8dc66539e165265090
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4bc5a38519efb6f4d242daca9aab5226c16e4ea0
+ms.sourcegitcommit: 3be8d2be6474264f0a530a052d19ea2635e269cf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546326"
+ms.lasthandoff: 07/08/2019
+ms.locfileid: "1729884"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>Generar previsión estadística de línea base
 
 [!include [banner](../includes/banner.md)]
 
-Este artículo proporciona información sobre los parámetros y los filtros que se usan en el cálculo de previsión de demanda. 
+En este tema se proporciona información sobre los parámetros y los filtros que se usan en el cálculo de previsión de demanda. 
 
 Cuando se crea una previsión de línea base, primero debe especificar los parámetros y los filtros que se usan en el cálculo. Por ejemplo, puede crear una previsión de línea base que estime la demanda en función de los datos de transacción desde último año para una empresa específica, para el mes siguiente y para un grupo seleccionado de artículos. 
 
@@ -49,9 +49,12 @@ Para evitar confusiones en los planes de producción, algunos depósitos de prev
 
 La fecha inicial para la previsión de la demanda de línea basa no tiene que ser la fecha actual o una fecha en el futuro. Para establecer una fecha inicial, use el campo **Fecha de inicio de previsión de línea base: desde fecha**. Por ejemplo, en junio, los usuarios pueden generar una previsión para el año siguiente. Dado que faltan los cubos de previsión entre el final de la demanda histórica y el inicio de la línea base, puede que las predicciones no sean exactas. Si está usando el servicio de previsión de demanda de Microsoft Dynamics 365 for Finance and Operations, existen cuatro maneras en las que puede completar los espacios que faltan. Puede elegir el método que desee si configura el parámetro MISSING\_VALUE\_SUBSTITUTION en la página **Parámetros de previsión de demanda**. 
 
+> [!NOTE]
+> La sustitución de valores que falta solo funciona para los espacios en datos entre las fechas de inicio y fin para los datos históricos. No rellenará los datos antes o después del último punto de datos físico, solo actúa como extrapolación entre los puntos de datos reales existentes. 
+
 El campo **Fecha inicial de la previsión de línea base** - **Desde la fecha** tiene que estar establecido al principio de un cubo de previsión, por ejemplo, en Estados Unidos, un domingo si el cubo de previsión es la semana. El sistema ajusta automáticamente el campo **Fecha inicial de la previsión de línea base** - **Desde la fecha** para que coincida con el inicio de un cubo de previsión. 
 
-El campo **Fecha de inicio de previsión de línea base** - **Desde la fecha** puede establecerse en una fecha del pasado. Es decir, es posible generar una previsión de demanda en el pasado. Esto resulta útil, ya que permite a los usuarios retocar los parámetros del servicio de previsión de modo que la previsión estadística generado en el pasado coincide con la demanda histórica real. Los usuarios pueden continuar usando esta configuración de parámetros para generar una previsión estadística de línea base para el futuro. 
+El campo **Fecha de inicio de previsión de línea base** - **Desde la fecha** puede establecerse en una fecha del pasado. Es decir, es posible generar una previsión de demanda en el pasado. Esto resulta útil, ya que permite a los usuarios ajustar los parámetros del servicio de previsión de modo que la previsión estadística generado en el pasado coincide con la demanda histórica real. Los usuarios pueden continuar usando esta configuración de parámetros para generar una previsión estadística de línea base para el futuro. 
 
 Los ajustes manuales realizados en iteraciones anteriores de previsión de demanda se pueden aplicar automáticamente a la nueva previsión de línea base si se activa la casilla **Transferir ajustes manuales a las previsiones de demanda**. Si la casilla está desactivada, los ajustes manuales no se agregan a la previsión de línea base, pero tampoco se eliminan. Los ajustes manuales efectuados a una previsión se pueden eliminar solo en el momento de la importación de previsión, desactivando la casilla **Guardar los ajustes manuales realizados en la previsión de la demanda de línea base**. Los ajustes manuales se guardan en el momento de la autorización. Por lo tanto, si un usuario realiza ajustes manuales a la previsión, pero no autoriza la previsión de nuevo a Finance and Operations, los cambios se perderán. Para obtener más información acerca de los ajustes manuales y cómo funcionan, consulte [Autorización de la previsión ajustada](authorize-adjusted-forecast.md). 
 
@@ -59,18 +62,19 @@ Una generación de previsión de la demanda puede tener un nombre y comentarios 
 
 El grupo de planificación de empresas vinculadas, se pueden aplicar las claves de asignación de artículos y otros filtros en el momento de la generación de la previsión. Esto se pueden usar para mejorar el rendimiento o para dividir los datos en piezas manejables. Sin embargo, tenga en cuenta que no se genera una previsión de la demanda para los miembros de ninguna clave de ninguna clave de asignación de artículos que no está asociada a un grupo de planificación de empresas vinculadas, incluso si la clave de asignación de artículos se selecciona en la consulta. 
 
-**Sugerencia**: los usuarios pueden recibir a veces mensajes de error mientras se genera una previsión de la demanda, o se completa una generación de previsión sin registro de sesión. Esto puede suceder debido a datos de excedente en la consulta usada anteriormente para la generación de previsión. Para corregir este problema, haga clic en **Seleccionar** para abrir la página **Consulta**, haga clic en **Restaurar** y vuelva a generar la previsión de línea base. 
+> [!TIP]
+> Los usuarios pueden recibir a veces mensajes de error mientras se genera una previsión de la demanda, o se completa una generación de previsión sin registro de sesión. Esto puede suceder debido a datos de excedente en la consulta usada anteriormente para la generación de previsión. Para resolver este problema, haga clic en **Seleccionar** para abrir la página **Consulta**, seleccione **Restaurar** y vuelva a generar la previsión de línea base. 
 
 Si la previsión no se genera para un conjunto grande de artículos, sino, por ejemplo, para un artículo o una clave de asignación de artículos a la vez, para obtener un mejor rendimiento, puede activar la casilla **Usar modo de respuesta de la solicitud** en la pestaña **Planificación maestra - configuración - previsión de demanda** - **Parámetros de previsión de demanda - Aprendizaje de Azure Machine**.
+
+> [!NOTE]
+> Una previsón potencialmente plana puede deberse a que los datos históricos tienen que ser de un período de tiempo histórico más largo (un mínimo de 3 períodos de tiempo para escoger patrones, como 3 años con previsión mensual). Para obtener un mejor resultado, pruebe a cambiar la granularidad del intervalo temporal o a aumentar el intervalo temporal.
 
 <a name="additional-resources"></a>Recursos adicionales
 --------
 
-[Configuración de previsión de demanda](demand-forecasting-setup.md)
+- [Configuración de previsión de demanda](demand-forecasting-setup.md)
 
-[Realización de ajustes manuales realizados en la previsión de línea base](manual-adjustments-baseline-forecast.md)
+- [Realización de ajustes manuales realizados en la previsión de línea base](manual-adjustments-baseline-forecast.md)
 
-[Autorización de la previsión ajustada](authorize-adjusted-forecast.md)
-
-
-
+- [Autorización de la previsión ajustada](authorize-adjusted-forecast.md)

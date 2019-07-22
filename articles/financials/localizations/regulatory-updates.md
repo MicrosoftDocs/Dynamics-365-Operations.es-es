@@ -3,7 +3,7 @@ title: Actualizaciones reglamentarias
 description: Este tema proporciona una lista de actualizaciones normativas planificadas y publicadas para Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 05/16/2019
+ms.date: 06/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 8b79dd65c38d878303a75490721a3c7e6f1c6d09
-ms.sourcegitcommit: d153bde74651400118bbd37b69ff5e7e161f1db7
+ms.openlocfilehash: ba01fe7ad3e4326e8ab52b78220d3ba79e94af7c
+ms.sourcegitcommit: 51dc11919fcb2324482b48cc4ce4484945ade803
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "1593352"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624320"
 ---
 # <a name="regulatory-updates"></a>Actualizaciones reglamentarias
 
@@ -66,6 +66,13 @@ Para ver los últimos planes de actualizaciones regulatorias, consulte la siguie
 |      Pendientes            |   10.0.3      | Polonia     |   Facturas SAF (JPK_FA) v.2 a partir del 1 de julio de 2019  |
 |      Pendientes            |   10.0.3      | Brasil   |   Cuadro fiscal 5.2 de permisos de los ajustes del documento de ICMS   |
 |      Pendientes            |   10.0.3      | Brasil    |   NF-e Decreto 54.308/18 (RS)   |
+  | Pendientes            |   10.0.4      | Brasil    |   Documento fiscal entrante 66   |
+   | Pendientes            |   10.0.4      | Brasil    |   NF-e y NFC-e - Resolución 13/2019 y ordenanza SUCIEF 55/2019- RJ - nuevas condiciones para la salida de etiquetas exentas en NF-e.   |
+   | Pendientes            |   10.0.4      | India   |   Pantalla de "Lugar de prestación" y "Estado" en la facturas de impuestos de GST  |
+   | Pendientes            |   10.0.4      | México   |  Declaración de terceros de DIOT - cambios en el diseño de 2019   |
+   | Pendientes            |   10.0.4      | Brasil    |   NF-e ICMS-ST - ordenanza CAT 42/18 para estado SP - CAT 42/18
+   | Pendientes            |   10.0.4      | Brasil    |   NF-e Decreto 54.308/18 - RS NF   |
+   
 
 
 ## <a name="additional-resources"></a>Recursos adicionales

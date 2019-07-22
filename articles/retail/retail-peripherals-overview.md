@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a9fa49d0b3553ae70547aeea19d14bc6e6e08983
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: eda7744a6365b4c3a884342a429c2340e5a13d66
+ms.sourcegitcommit: 7feb5d279adedd44f038195ce0f5e1c27d374049
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577938"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624821"
 ---
 # <a name="retail-peripherals"></a>Periféricos de Retail
 
@@ -156,13 +156,13 @@ El tipo de dispositivo **Windows** se usa solo para impresoras. Cuando una impre
 
 ### <a name="network"></a>Red
 
-Las cajas registradoras, las impresoras de recibos y los terminales de pago gestionables a través de la red se pueden usar en una red, ya sea directamente a través de la estación de hardware de las comunicaciones entre procesos (IPC) que se genera en Modern POS para la aplicación de Windows o a través de la estación de hardware de IIS para otros clientes de Modern POS.
+Las cajas registradoras, las impresoras de recibos y los terminales de pago gestionables a través de la red se pueden usar en una red, ya sea directamente a través de la estación de hardware de las comunicaciones entre procesos (IPC) que se genera en Modern POS para Windows y Modern POS para aplicaciones de Android o a través de la estación de hardware de IIS para otros clientes de Modern POS.
 
 ## <a name="hardware-station-deployment-options"></a>Opciones de implementación de la estación de hardware
 
 ### <a name="ipc-built-in"></a>IPC (integrado)
 
-La estación de hardware de las comunicaciones entre procesos (IPC) se ha incluido en Modern POS para la aplicación de Windows. Para usar la estación de hardware de IPC, asigne un perfil de hardware a un registro que Modern POS para la aplicación de Windows. A continuación, cree una estación de hardware de tipo **Dedicado** para la tienda donde se usará el registro. Al iniciar Modern POS, la estación de hardware de IPC estará activa y periféricos de PDV que se han configurado estarán listos para usarse. Si no necesita temporalmente el hardware local por algún motivo, utilice la operación **Gestionar estaciones de hardware** para desactivar las capacidades de la estación de hardware. Modern POS también puede usar la estación de hardware de IPC para comunicarse directamente con los periféricos de la red.
+La estación de hardware de las comunicaciones entre procesos (IPC) se ha incluido en Modern POS para Windows y Modern POS para la aplicación de Android. Para usar la estación de hardware de IPC, asigne un perfil de hardware a un registro que Modern POS para la aplicación de Windows. A continuación, cree una estación de hardware de tipo **Dedicado** para la tienda donde se usará el registro. Al iniciar Modern POS, la estación de hardware de IPC estará activa y periféricos de PDV que se han configurado estarán listos para usarse. Si no necesita temporalmente el hardware local por algún motivo, utilice la operación **Gestionar estaciones de hardware** para desactivar las capacidades de la estación de hardware. Modern POS también puede usar la estación de hardware de IPC para comunicarse directamente con los periféricos de la red.
 
 ### <a name="iis"></a>IIS
 
@@ -190,7 +190,11 @@ La designación de la red para los dispositivos en el perfil de hardware habilit
 
 Puede especificar direcciones IP para periféricos de red en dos ubicaciones. Si el cliente de Modern POS para Windows utiliza un único conjunto de periféricos de red, debe establecer el conjunto de direcciones IP para dichos dispositivos mediante la opción **Configuración de IP** en el Panel de acciones para el propio registro. En el caso de los dispositivos de red que se van a compartir entre registros de PDV, se puede asignar directamente un perfil de hardware que tenga dispositivos de red asignados, a una estación de hardware compartida. Para asignar direcciones IP, seleccione la estación de hardware en la página **Tiendas minoristas** y, a continuación utilice la opción **Configuración de IP** en **Estaciones de hardware** para especificar los dispositivos de red asignados a esa estación de hardware. Para las estaciones de hardware que solo tienen dispositivos de red, no es necesario implementar la propia estación de hardware. En este caso, la estación de hardware se requiere solo para agrupar los dispositivos que se pueden gestionar en red de forma conceptual según su ubicación en la tienda minorista.
 
-#### <a name="cloud-pos-modern-pos-for-ios-and-modern-pos-for-android"></a>Cloud POS, Modern POS para iOS y Modern POS para Android
+#### <a name="modern-pos-for-android"></a>Modern POS para Android
+
+A partir de la versión 8.1.3 de Dynamics 365 for Retail, el Modern POS para la aplicación Android incluye una estación de hardware de IPC integrada. Esta estación de hardware admite la comunicación con impresoras de red y conectores de pago. Para obtener más información, visite [Aplicación híbrida para artículode documentos de Android](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/dev-itpro/hybridapp#dedicated-hardware-station-support-for-the-hybrid-android-app). 
+
+#### <a name="cloud-pos-and-modern-pos-for-ios"></a>Cloud POS y Modern POS para iOS
 
 La lógica que controla los periféricos físicamente conectados y que se pueden gestionar en red se encuentran en la estación de hardware. Por lo tanto, para todos los clientes de PDV excepto para Modern POS para Windows, una estación de hardware de IIS debe implementarse y estar activa para permitir al PDV comunicarse con los periféricos, independientemente de si los periféricos están físicamente conectados con una estación de hardware o se gestionan a través de la red.
 
@@ -222,9 +226,9 @@ En la tabla siguiente se muestran las topologías y los escenarios de implementa
 | Cliente      | Estación de hardware de IPC | Estación de hardware de IIS |
 |-------------|----------------------|----------------------|
 | Aplicación de Windows | Sí                  | Sí                  |
-| PDV en la nube   | Nº                   | Sí                  |
-| Android     | Nº                   | Sí                  |
-| iOS         | Nº                   | Sí                  |
+| PDV en la nube   | No                   | Sí                  |
+| Android     | Sí                  | Sí                  |
+| iOS         | No                   | Sí                  |
 
 ### <a name="network-peripherals"></a>Periféricos de red
 
@@ -233,9 +237,9 @@ Los periféricos de red se admiten directamente a través de la estación de har
 | Cliente      | Estación de hardware de IPC | Estación de hardware de IIS |
 |-------------|----------------------|----------------------|
 | Aplicación de Windows | Sí                  | Sí                  |
-| PDV en la nube   | Nº                   | Sí                  |
-| Android     | Nº                   | Sí                  |
-| iOS         | Nº                   | Sí                  |
+| PDV en la nube   | No                   | Sí                  |
+| Android     | Sí                  | Sí                  |
+| iOS         | No                   | Sí                  |
 
 ## <a name="supported-device-types-by-hardware-station-type"></a>Tipos de dispositivo compatibles según el tipo de estación de hardware
 
@@ -661,14 +665,15 @@ Los siguientes periféricos se probaron mediante la estación de hardware de IPC
 
 #### <a name="printer"></a>Impresora
 
-| Fabricante | Modelo    | Interfaz | Comentarios                |
-|--------------|----------|-----------|-------------------------|
-| Epson        | Tm-T88IV | OPDV      |                         |
-| Epson        | TM-T88V  | OPDV      |                         |
-| Star         | TSP650II | OPDV      |                         |
-| Star         | TSP650II | Personalizar    | Conectado a través de la red   |
-| Star         | mPOP     | OPDV      | Conectado mediante Bluetooth |
-| HP           | F7M67AA  | OPDV      | Con tecnología USB             |
+| Fabricante | Modelo      | Interfaz | Comentarios                |
+|--------------|------------|-----------|-------------------------|
+| Epson        | Tm-T88IV   | OPDV      |                         |
+| Epson        | TM-T88V    | OPDV      |                         |
+| Epson        | ePOS-Print | Personalizado    | Conectado a través de la red   |
+| Star         | TSP650II   | OPDV      |                         |
+| Star         | TSP650II   | Personalizado    | Conectado a través de la red   |
+| Star         | mPOP       | OPDV      | Conectado mediante Bluetooth |
+| HP           | F7M67AA    | OPDV      | Con tecnología USB             |
 
 #### <a name="bar-code-scanner"></a>Escáner de códigos de barras
 
@@ -688,11 +693,12 @@ Los siguientes periféricos se probaron mediante la estación de hardware de IPC
 
 #### <a name="payment-terminal"></a>Terminal de pago 
 
-| Fabricante | Modelo | Interfaz | Comentarios                                                                       |
-|--------------|-------|-----------|--------------------------------------------------------------------------------|
-| Equinox      | L5300 | Personalizar    | Requiere personalización del conector de pago                                |
-| VeriFone     | MX925 | Personalizar    | Requiere personalización del conector de pago; conectado a través de la red y USB |
-| VeriFone     | MX915 | Personalizar    | Requiere personalización del conector de pago; conectado a través de la red y USB |
+| Fabricante | Modelo        | Interfaz | Comentarios                                                                       |
+|--------------|--------------|-----------|--------------------------------------------------------------------------------|
+| Equinox      | L5300        | Personalizar    | Requiere personalización del conector de pago                                |
+| VeriFone     | MX925        | Personalizar    | Requiere personalización del conector de pago; conectado a través de la red y USB |
+| VeriFone     | MX915        | Personalizar    | Requiere personalización del conector de pago; conectado a través de la red y USB |
+| Verifone     | Ver comentarios | Adyen     | El connector de Adyen admite todos los dispositivos que aparecen [aquí](https://www.adyen.com/pos-payments/terminals) |
 
 #### <a name="cash-drawer"></a>Caja registradora
 

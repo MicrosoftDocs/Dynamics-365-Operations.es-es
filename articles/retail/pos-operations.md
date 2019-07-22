@@ -3,7 +3,7 @@ title: Operaciones de punto de venta (PDV) en línea y sin conexión
 description: Este tema ofrece información sobre las operaciones de punto de venta (PDV) en Microsoft Dynamics 365 for Retail. Especifica en qué parte de la aplicación pueden invocarse las operaciones y si están disponibles en modo sin conexión.
 author: jblucher
 manager: AnnBe
-ms.date: 10/12/2017
+ms.date: 05/21/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 44a2ec48f868c803c80c8df8eb809bc2254e63da
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: e21f8677144c7293409e409082e8125c05f3a8fe
+ms.sourcegitcommit: 3d8c951898e05febc160515127c1bcc5de5882a1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1505105"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "1625674"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Operaciones de punto de venta (PDV) en línea y sin conexión
 
@@ -159,9 +159,9 @@ Las columnas siguientes especifican dónde pueden ser invocadas las operaciones:
 | 114 | Transacción de devolución | Recupere una transacción anterior por su número de recibo para devolver algunos o todos los productos. | Sí | Sí | Sí | Sí§ | N.º |
 | 1211 | Ingreso en caja fuerte | Permite realizar un ingreso seguro para trasladar dinero de la caja registradora a la caja fuerte. | Sí | Sí | Sí | Sí | N.º |
 | 516 | Factura de ventas | Esta operación permite al cliente crear pagos para la factura de ventas seleccionada. | Sí | Sí | N.º | N.º | N.º |
-| 502 | Vendedor | Esta operación permite al usuario establecer el valor **Secretario de ventas** en un pedido de ventas para los pedidos del cliente en el PDV. | Sí | Sí | N.º | Sí\* | N.º |
-| 2000 | Programar administración | Esta operación permite a los usuarios crear, modificar o ver programaciones del empleado. | Sí | Sí | Sí | N.º | N.º |
-| 2001 | Programar solicitudes | Esta operación permite al usuario solicitar licencias, cambios de turno u ofrecer turnos a otros empleados. | Sí | Sí | Sí | N.º | N.º |
+| 502 | Vendedor | Esta operación permite al usuario establecer el valor **Secretario de ventas** en un pedido de ventas para los pedidos del cliente en el PDV. | Sí | Sí | No | Sí\* | No |
+| 2000 | Programar administración | Todavía no se admite esta operación. | Sí | Sí | Sí | No | No |
+| 2001 | Programar solicitudes | Todavía no se admite esta operación. | Sí | Sí | Sí | No | No |
 | 622 | Buscar pedidos | Esta operación permite a los usuarios preconfigurar los botones de PDV para realizar búsquedas por artículo, cliente, o la categoría. | Sí | Sí | Sí | Sí | N.º |
 | 1213 | Buscar dirección de envío | Esta operación no se admite. | No aplicable | No aplicable | No aplicable | No aplicable | N.º |
 | 709 | Seleccionar estación de hardware | Esta operación permite al usuario seleccionar una estación de hardware en una lista de estaciones de hardware disponibles. | Sí | Sí | Sí | Sí | N.º |

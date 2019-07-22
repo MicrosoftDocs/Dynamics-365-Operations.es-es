@@ -3,7 +3,7 @@ title: Conseguir candidatos usando grupos de talentos
 description: Este tema explica cómo crear y configurar grupos de talentos en Attract.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/02/2019
+ms.date: 06/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 13b5e3091a4bcdbf1bfbe077ffb04ec8d08a0911
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d2d680aa54e4610959c12bc1feef11ba8f30b0ca
+ms.sourcegitcommit: 40be0096af50e74d9946e382d3bbd2683bed1fc5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518989"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "1711303"
 ---
 # <a name="source-candidates-by-using-talent-pools"></a>Conseguir candidatos usando grupos de talentos
 
@@ -110,15 +110,16 @@ Todos los usuarios tienen una vista común de los perfiles del candidato. La pes
 
 - Puede ver los detalles del contacto para el candidato. También puede editar o actualizar la información según sea necesario mediante el botón **Detalles de edición**.
 
-- Puede agregar más etiquetas de aptitudes para ayudar a identificar las aptitudes de un candidato.
-
 - Puede ver el historial completo de solicitudes del candidato. Puede ver todos los trabajos que ha solicitado el candidato en su organización y el estado de esas solicitudes. Si es parte de un equipo de contratación para un trabajo, puede seleccionar **Ver** para estudiar en detalle la solicitud.
 
-- La pestaña **Documentos** muestra los documentos que el candidato ha agregado desde su perfil o durante las solicitudes del trabajo. Esta ficha se puede usar para gestionar los curriculums vitae del candidato, las cartas de presentación, la cartera, y así sucesivamente. También puede usar esta ficha para agregar documentos.
+- La pestaña **Documentos** muestra los documentos que el candidato ha agregado desde su perfil o durante las solicitudes del trabajo. Puede usar esta ficha o gestionar los curriculums vitae del candidato, las cartas de presentación, la cartera, y así sucesivamente. También puede usar esta ficha para agregar documentos.
 
     Para ver un documento, seleccione el nombre del documento en la lista de documentos. Puede ver los documentos Microsoft Word en la aplicación mediante Microsoft Office 365. También puede descargar los documentos en su equipo local mediante la opción **Descargar** para cada documento.
 
 - La pestaña **LinkedIn** muestra la información de LinkedIn del candidato. Para usar esta ficha, debe conectar su cuenta de LinkedIn en la configuración del usuario, y su conexión de LinkedIn Recruiter del entorno debe establecerse. Para obtener más información, consulte [Abastecimiento con LinkedIn Recruiter](./attract-linked-in-recruiter.md).
+
+> [!NOTE]
+> Solo los candidatos pueden actualizar sus aptitudes, historial de aprendizaje y experiencia profesional.
 
 ## <a name="add-candidates-from-a-talent-pool-to-a-job"></a>Agregue los candidatos de un grupo de talentos a un trabajo
 

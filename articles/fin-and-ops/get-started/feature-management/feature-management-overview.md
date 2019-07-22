@@ -3,7 +3,7 @@ title: Vista previa de Administración de características
 description: Este tema describe la función de Administración de características y cómo puede utilizarla.
 author: mikefalkner
 manager: AnnBe
-ms.date: 06/04/2019
+ms.date: 06/14/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,17 +18,16 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: b200156a623c67a562cc1a5952899e3a77517528
-ms.sourcegitcommit: bbc9aa0d6b94a942e1f4d5b038601509dcc87937
+ms.openlocfilehash: d6aea8651c00b975cf158492e38bb147e908bc56
+ms.sourcegitcommit: 672c94704e9a2b0ec7ee3c111d4ceb1bb8597969
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1619153"
+ms.lasthandoff: 06/14/2019
+ms.locfileid: "1632062"
 ---
 # <a name="feature-management-overview"></a>Vista previa de Administración de características
 
 [!include [banner](../../includes/banner.md)]
-[!include [banner](../../includes/preview-banner.md)]
 
 Las características se suman y se actualizan en cada versión de Microsoft Dynamics 365 for Finance and Operations. La experiencia de administración de la característica proporciona un espacio de trabajo en el que puede ver una lista de características que se han entregado en cada versión. De forma predeterminada, las nuevas características están desactivadas. Puede usar el espacio de trabajo para activarlas y ver su documentación.
 
