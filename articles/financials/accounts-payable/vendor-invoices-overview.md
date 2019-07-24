@@ -3,7 +3,7 @@ title: Visión general de facturas de proveedores
 description: Este tema ofrece información general relativa a facturas de proveedor. Las facturas de proveedor son solicitudes de pago para productos y servicios que se han recibido. Las facturas de proveedor pueden representar una cuenta para servicios en curso ose pueden basar en pedidos de compra para artículos y servicios específicos.
 author: abruer
 manager: AnnBe
-ms.date: 06/04/2019
+ms.date: 06/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b57c18b5b2cf690111511e4c5a92d51fc23dd68c
-ms.sourcegitcommit: 901ec3b360303bb8b4d9a9dcfecc6d75d7f844a0
+ms.openlocfilehash: d02eee989e5bebd1cad0b1392ec19aaa918d9db5
+ms.sourcegitcommit: f9444077022a6c678090d02d0f9d4ec0e54b7ca9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1618282"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "1625088"
 ---
 # <a name="vendor-invoices-overview"></a>Visión general de facturas de proveedores
 
@@ -91,13 +91,6 @@ Puede usar la página **Recuperar facturas de proveedor** para recuperar o para 
 
 Puede obtener acceso a la página **Recuperar las facturas de proveedor** solo si tiene asignados derecho y privilegio de seguridad **Recuperar las facturas de proveedor en uso**. Además, el parámetro **Permitir recupear de la factura de proveedor** de la página **Parámetros de proveedores** se debe activar.
 
-## <a name="resetting-the-workflow-status-for-vendor-invoices-from-unrecoverable-to-draft"></a>Restablecer el estado del flujo de trabajo para las facturas de proveedor desde irrecuperable a borrador
-
-Una instancia de flujo de trabajo que se ha detenido debido a un error irrecuperable tendrá un estado flujo trabajo **Irrecuperable**. Cuando el estado de un flujo de trabajo de facturas de proveedor es **Irrecuperable**, puede restablecerlo a **Borrador**. Entonces podrá editar la factura de proveedor. Esta función sólo está disponible si el parámetro **Restablecer estado de borrador para el flujo de trabajo de la factura de proveedor** en la página **Administración de características** está activado.
-
-Puede usar la página **Restablecer estado de flujo de trabajo de factura de proveedor** para restablecer el estado del flujo de trabajo a **Borrador**. Puede abrir esta página desde la sección **Tarea periódica**. La página muestra todas las facturas de proveedor que tiene un estado de flujo de trabajo **Irrecuperable** en la entidad jurídica actual. También muestra al usuario que envió cada factura al flujo de trabajo y el identificador de la factura, y ofrece un vínculo al historial de flujo de trabajo. Para restablecer el estado del flujo de trabajo a **Borrador**, marque una o más facturas y entonces seleccione **Actualizar a borrador**. Una vez que el estado de flujo de trabajo se establece a **Borrador**, quedará disponible para editar en la página **Factura de proveedor**.
-
-Puede obtener acceso a la página **Restablecer estado de flujo de trabajo de facturas de proveedor** sólo si tiene asignados la tarea de seguridad **Mantener el estado del flujo de trabajo de facturas de proveedor** y el privilegio **Permite restablecer el estado del flujo de trabajo de facturas de proveedor**.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

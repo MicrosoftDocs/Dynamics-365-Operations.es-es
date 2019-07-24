@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 03edb5d626f221863f45804ce84168692c2bd1f3
-ms.sourcegitcommit: 3c4e59f55af2eafb3adbae3bb0091e4f6caacc8b
+ms.openlocfilehash: c249df697553cd42eccd59d3f2c3f5f083ead1cb
+ms.sourcegitcommit: 15154b0aa86110ce5fad6f63e6763103a676a1d2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1576930"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624616"
 ---
 # <a name="provision-talent"></a>Aprovisionar Talent
 
@@ -48,6 +48,8 @@ Después de crear un proyecto de LCS, puede aprovisionar Talent en un entorno.
 
 1. En su proyecto de LCS seleccione el mosaico **Gestión de la app Talent**.
 2. Indica si se trata de una instancia de producción o de espacio aislado de Talent. Las características de vista previa pueden estar disponibles en instancias de espacio aislado para permitir pruebas y comentarios iniciales. 
+    > [!NOTE]
+    > El tipo de instancia de Talent es independiente del tipo de instancia del entorno de PowerApps, que establece en el Centro de administración de PowerApps.
 3. Seleccione la opción **Incluir datos de la demostración** si desea que el entorno incluya el mismo conjunto de datos de demostración utilizado en la experiencia de la prueba de conducción de Talent. Esto es beneficioso para los entornos de demostración o de formación a largo plazo, y no se debe usar nunca en entornos de producción.  Tenga en cuenta que debe elegir esta opción sobre la implementación inicial. No puede actualizar una implementación existente más adelante.
 4. Talent siempre se aprovisiona en un entorno de Microsoft PowerApps para habilitar la integración y la extensibilidad de PowerApps. Lea la sección “Selección de un entorno de PowerApps” de este tema antes de continuar. Si todavía no tiene un entorno de PowerApps, seleccione Administrar entornos en el LCS o vaya el centro de gestión de PowerApps. A continuación siga los pasos a [Crear entorno de PowerApps](https://docs.microsoft.com/en-us/powerapps/administrator/create-environment).
 

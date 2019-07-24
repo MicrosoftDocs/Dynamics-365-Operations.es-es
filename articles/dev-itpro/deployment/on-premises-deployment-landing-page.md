@@ -3,7 +3,7 @@ title: Página de inicio de implementaciones locales
 description: Este tema proporciona información y vínculos al contenido acerca de implementaciones locales.
 author: kfend
 manager: AnnBe
-ms.date: 02/01/2019
+ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: c51cce929384b7e822213dcb9df9007edfe3700c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 01e29bb56f03223ff90343186a2e4cf3de13a27d
+ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550961"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702732"
 ---
 # <a name="on-premises-deployments-home-page"></a>Página de inicio de implementaciones locales
 
@@ -67,6 +67,7 @@ Puede implementar Microsoft Dynamics 365 for Finance and Operations (on-premises
 
 ## <a name="other-resources"></a>Otros recursos
 - [Solucionar problemas de implementaciones locales](troubleshoot-on-prem.md)
+- [Rotación de certificados](certificate-rotation-on-prem.md)
 - [Diagnósticos locales](on-premises-diagnostics.md)
 - [Características que no están implementadas en implementaciones locales](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
 - [Características quitadas u obsoletas](../migration-upgrade/deprecated-features.md)

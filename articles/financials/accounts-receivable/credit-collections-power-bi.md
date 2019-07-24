@@ -3,7 +3,7 @@ title: Contenido de administración de créditos y cobros de Power BI
 description: Este tema describe lo que se incluye en el contenido en Power BI de Administración de créditos y cobros. Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a80a180623d1cca77c633f12bcd92a088e089ee5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5f6b1c9338670a2f2f26ecbef1d349171457e1ac
+ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547241"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702781"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>Contenido de administración de créditos y cobros de Power BI
 
@@ -42,7 +42,17 @@ Todos los importes se muestran en la divisa del sistema. Puede establecer la div
 
 De forma predeterminada, se muestran los datos sobre créditos y cobros para la empresa actual. Para ver los datos en todas las empresas, asigne el deber **CustCollectionsBICrossCompany** al rol.
 
+## <a name="setup-needed-to-view-power-bi-content"></a>Configuración necesaria para ver el contenido de Power BI
+
+Es necesario completar la siguiente configuración para que los datos se muestren en los elementos visuales de Power BI **Crédito y cobros de clientes**.
+
+1. Vaya a **Administración del sistema > Configuración > Parámetros del sistema** para establecer **Divisa del sistema** y **Tipo de cambio del sistema**.
+2. Vaya a **Contabilidad general > Configuración > Libro mayor** y establezca **Divisa de contabilidad** y **Tipo de cambio**.
+3. Defina los tipos de cambio entre las Divisas de transacción y la Divisa de contabilidad, la Divisa de contabilidad y la Divisa del sistema. Para ello, vaya a **Contabilidad general > Divisas > Tipos de cambio de divisas**.
+4. Vaya a **Administración del sistema > Configuración > Almacén de entidades** para actualizar la medida agregada **CustCollectionsBIMeasurements**.
+
 ## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI
+
 El contenido de Power BI **Administración de créditos y cobros** se muestra en el área de trabajo **Crédito y cobros de clientes**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Informes que se incluyen en el contenido de Power BI
@@ -63,28 +73,3 @@ El contenido en Power BI de **CustCollectionsBICrossCompany** incluye un informe
 | Cartas de cobros         | <ul><li>Importes por código de cobro</li><li>Detalles de importes por código de cobro</li><li>Importe de cartas de cobro por empresa</li><li>Importe de carta de cobro por grupo de clientes</li><li>Importe de carta de cobro por región</li></ul> |
 
 Los gráficos y los iconos en todos estos informes se pueden filtrar y anclar al panel de información. Para obtener más información acerca de cómo filtrar y anclar en Power BI, consulte [Crear y configurar un panel de información](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). También puede usar la funcionalidad subyacente de exportación de datos para exportar los datos subyacente que se resume en una visualización.
-
-## <a name="understanding-the-data-model-and-entities"></a>Comprensión del modelo de datos y de las entidades
-
-Los datos siguientes se usan para rellenar las páginas de informes en el contenido en Power BI de **Administración de crédito y cobros**. Estos datos se representan como medidas agregadas que se realizan en el almacén de la entidad. El almacén de la entidad es una base de datos de Microsoft SQL Server que se optimiza para el análisis. Para obtener más información, consulte [Visión general de la integración de Power BI con el almacén de entidades](../../dev-itpro/analytics/power-bi-integration-entity-store.md).
-
-
-|                   Entidad                    |      Medidas agregadas clave      |             Origen de datos              |                           Campo                            |                                    Descripción                                     |
-|---------------------------------------------|--------------------------------------|--------------------------------------|------------------------------------------------------------|------------------------------------------------------------------------------------|
-| CustCollectionsBIActivitiesAverageCloseTime | NumOfActivities, AveragecClosedTime  |            smmActivities             | AverageOfChildren(AverageClosedTime) Count(ActivityNumber) |     El recuento de actividades cerradas y tiempo promedio para cerrar esas actividades.     |
-|       CustCollectionsBIActivitiesOpen       |            ActivityNumber            |            smmActivities             |                   Count(ActivityNumber)                    |                           El recuento de las actividades abiertas.                            |
-|        CustCollectionsBIAgedBalances        |             AgedBalances             |  CustCollectionsBIAgedBalancesView   |                 Sum(SystemCurrencyBalance)                 |                             La suma de saldos vencidos.                              |
-|        CustCollectionsBIBalancesDue         |         SystemCurrencyAmount         |   CustCollectionsBIBalanceDueView    |                 Sum(SystemCurrencyAmount)                  |                           Los importes que vencidos.                            |
-|    CustCollectionsBICaseAverageCloseTIme    |  NumOfCases, CaseAverageClosedTime   |      CustCollectionsCaseDetail       | AverageOfChildren(CaseAverageClosedTime) Count(NumOfCases) |        El recuento de casos cerrados y el promedio para cerrar esos casos.        |
-|         CustCollectionsBICasesOpen          |                CaseId                |      CustCollectionsCaseDetail       |                       Count(CaseId)                        |                              El recuento de los casos abiertos.                              |
-|      CustCollectionsBICollectionLetter      |         CollectionLetterNum          |       CustCollectionLetterJour       |                 Count(CollectionLetterNum)                 |                       El recuento de cartas de cobro abiertas.                        |
-|   CustCollectionsBICollectionLetterAmount   |       CollectionLetterAmounts        | CustCollectionsBIAccountsReceivables |                 Sum(SystemCurrencyAmount)                  |                     El saldo de cartas de cobro registradas.                      |
-|      CustCollectionsBICollectionStatus      |       CollectionStatusAmounts        | CustCollectionsBIAccountsReceivables |                 Sum(SystemCurrencyAmount)                  |                El saldo de las transacciones con estado de cobro.                 |
-|           CustCollectionsBICredit           | CreditExposed, AmountOverCreditLimit |     CustCollectionsBICreditView      |       Sum(CreditExposed), Sum(AmountOverCreditLimit)       | La suma de exposición crediticia y los importes que los clientes que superan su límite de crédito. |
-|         CustCollectionsBICustOnHold         |               Bloqueado                |      CustCollectionsBICustTable      |                       Count(Blocked)                       |                     El número de clientes que están en espera.                      |
-|            CustCollectionsBIDSO             |                DSO30                 |       CustCollectionsBIDSOView       |                  AverageOfChildren(DSO30)                  |                        Ventas diarias pendientes para 30 días.                         |
-|      CustCollectionsBIExpectedPayment       |           ExpectedPayment            | CustCollectionsBIExpectedPaymentView |                 Sum(SystemCurrencyAmounts)                 |                 La suma de pagos previstos en el año próximo.                 |
-|        CustCollectionsBIInterestNote        |             InterestNote             |           CustInterestJour           |                    Count(InterestNote)                     |                El número de notas de interés que se crearon.                |
-|        CustCollectionsBISalesOnHold         |               SalesId                |              SalesTable              |                       Count(SalesId)                       |                 El número pedidos de venta totales que están en espera.                 |
-|          CustCollectionsBIWriteOff          |            WriteOffAmount            |    CustCollectionsBIWriteOffView     |                 Sum(SystemCurrencyAmount)                  |                La suma de transacciones que se han cancelado.                 |
-

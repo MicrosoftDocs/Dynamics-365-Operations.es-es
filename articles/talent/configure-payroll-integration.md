@@ -3,7 +3,7 @@ title: Configurar la integración de nóminas entre Talent y Dayforce
 description: Este tema explica cómo configurar la integración entre Microsoft Dynamics 365 for Talent y Ceridian Dayforce de modo que pueda procesar un período de pago.
 author: andreabichsel
 manager: AnnBe
-ms.date: 03/26/2019
+ms.date: 06/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9a88bf61dbb12520b555ceb7363b1c646d95386e
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 59234ef44ad22383ae5daf71d4b663c6183e6c05
+ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518984"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702827"
 ---
 # <a name="configure-the-payroll-integration-between-talent-and-dayforce"></a>Configurar la integración de nóminas entre Talent y Dayforce
 
@@ -54,6 +54,16 @@ Para obtener más información acerca de las cuentas de almacenamiento de Azure 
 
 - [Acerca de las cuentas de almacenamiento de Azure](https://docs.microsoft.com/en-us/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
 - [Configurar las cadenas de conexión de Azure Storage](https://docs.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string)
+
+### <a name="technical-details-when-payroll-integration-is-enabled"></a>Detalles técnicos cuando está habilitada la integración de nóminas
+
+La activación de la integración de nóminas tiene dos efectos primarios:
+
+- Se crea un proyecto de exportación de datos con el nombre "Exportación de la integración de nóminas". Este proyecto contiene las entidades y los campos necesarios para la integración de nóminas. Para examinar el proyecto, vaya **Administración del sistema**, seleccione el icono **Administración de datos** y abra el proyecto de datos de la lista de proyectos.
+- Este trabajo por lotes ejecuta el proyecto de exportación de datos, cifra el paquete de datos resultante y transfiere el archivo del paquete de datos al extremo de SFTP configurado en la pantalla **Configuración de la integración**.
+
+> [!NOTE]
+> El paquete de datos transferido al extremo de SFTP se cifra mediante una clave que es única para el paquete. La clave está en Azure Key Vault, a la que solo puede acceder Ceridian. No es posible descifrar y examinar el contenido del paquete de datos. Si tiene que examinar el contenido del paquete de datos, debe exportar manualmente el proyecto de datos "Exportación de la integración de nóminas", descargarlo y abrirlo. La exportación manual aplicará cifrado o transferirá el paquete.
 
 ## <a name="configure-your-data"></a>Configurar los datos 
 

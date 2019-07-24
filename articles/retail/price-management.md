@@ -3,7 +3,7 @@ title: Administración de precio de ventas minoristas
 description: En este tema se describen los conceptos para crear y administrar precios de ventas en Microsoft Dynamics 365 for Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 05/21/2019
+ms.date: 06/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-retail
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: afa553fd0562b306f720f2a30c7f901db7ad1b3a
-ms.sourcegitcommit: 0fbfb9b0ab78c804f3931a083028d2ce313d6521
+ms.openlocfilehash: 813547f522f5c69920eadf9df61e7f01b13ecd36
+ms.sourcegitcommit: 7feb5d279adedd44f038195ce0f5e1c27d374049
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "1594079"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624798"
 ---
 # <a name="retail-sales-price-management"></a>Administración de precios de venta minorista
 
@@ -234,6 +234,6 @@ Además, el motor de precios al por menor **solo** admite las siguientes funcion
 
 ## <a name="pricing-api-enhancements"></a>Mejoras en los precios de API
 
-El precio es uno de los factores más importantes que rigen las decisiones de compra de muchos clientes, y muchos clientes comparan precios en distintos sitios antes de hacer una compra. Para ayudar a garantizar que proporcionan precios competitivos, los minoristas observan aptitudes de los competidores y a menudo realizan promociones. Por lo tanto, para ayudar a minoristas a atraer a clientes, es muy importante que la búsqueda de producto, la característica de exploración, las listas, y la visualización de la página de detalles de productos muestren los precios más precisos.
+El precio es uno de los factores más importantes que controlan las decisiones de compra de muchos clientes, y muchos clientes comparan precios en distintos sitios antes de hacer una compra. Para ayudar a garantizar que proporcionan precios competitivos, los minoristas observan detenidamente a sus competidores y a menudo realizan promociones. Para ayudar a minoristas a atraer a clientes, es muy importante que la búsqueda de producto, la característica de exploración, las listas, y la visualización de la página de detalles de productos muestren los precios más precisos.
 
 En una versión próxima de Retail, la interfaz de programación (API) de la aplicación **GetActivePrices** devolverá los precios que incluyen descuentos simples (por ejemplo, los descuentos de una línea que no dependen de otros artículos del carro). De esta manera, los precios que aparecen están muy cerca del importe real que los clientes pagan por los artículos. Este API incluirá todos los tipos de descuentos simples: basados en afiliación, fidelidad, catálogo y en el canal. Además, la API devolverá los nombres y la información de la validez para descuentos aplicados, de modo que los minoristas pueden proporcionar una descripción más detallada del precio y crear una sensación urgencia de si la validez del descuento expirará pronto.

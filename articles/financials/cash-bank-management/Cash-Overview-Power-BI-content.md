@@ -3,7 +3,7 @@ title: Visión general de contenido de efectivo de Power BI
 description: Este tema describe el contenido de efectivo de Power BI. Explica cómo tener acceso a los informes que se incluyen en el contenido, y proporciona información acerca del modelo de datos y las entidades que se utilizaron para generar el contenido.
 author: saraschi2
 manager: AnnBe
-ms.date: 12/19/2017
+ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5dccb5c5c6c336607603dfc7a935c039e5ac4aa5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: bff0b1b0a68eccec1cebf130bc40ec3e6d88c3a9
+ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568926"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702804"
 ---
 # <a name="cash-overview-power-bi-content"></a>Visión general de contenido de efectivo de Power BI
 
@@ -33,6 +33,17 @@ Este tema describe el contenido del **Resumen genera de efectivol** de Microsoft
 
 El contenido de Power BI **Visión general de efectivo** se creó para las personas responsables del efectivo en su organización. El contenido de Power BI **Visión general de efectivo** proporciona visibilidad en su flujo de efectivo. También proporcionan previsiones que pueden ayudarle a tomar decisiones mejores y por tanto mejorar el estado del flujo de efectivo. Puede analizar el efectivo por entidad jurídica, divisa y cuenta bancaria para obtener una mejor comprensión de los excesos y la escasez.
 
+## <a name="setup-needed-to-view-power-bi-content"></a>Configuración necesaria para ver el contenido de Power BI
+
+Es necesario completar la siguiente configuración para que los datos se muestren en los elementos visuales de Power BI **Visión general de efectivo** y **Gestión bancaria**.
+
+1. Vaya a **Administración del sistema > Configuración > Parámetros del sistema** para establecer **Divisa del sistema** y **Tipo de cambio del sistema**.
+2. Vaya a **Contabilidad general > Configuración > Libro mayor** para establecer **Divisa de contabilidad** y **Tipo de cambio**.
+2. Defina los tipos de cambio entre las Divisas de transacción y la Divisa de contabilidad, la Divisa de contabilidad y la Divisa del sistema, y la Divisa de contabilidad y las Divisas bancarias. Para ello, vaya a **Contabilidad general > Divisas > Tipos de cambio de divisas**.
+3. Configurar y ejecutar Previsiones de flujo de efectivo. Para obtener más información sobre cómo configurar Previsiones de flujo de efectivo, consulte <a href="https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/cash-bank-management/cash-flow-forecasting
+">Previsiones de flujo de efectivo</a>. 
+4. Vaya a **Administración del sistema > Configuración > Almacén de entidades** para actualizar la medida agregada **LedgerCovLiquidityMeasurement**.
+
 ## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI
 
 Los informes del contenido de Power BI **Visión general de efectivo** aparecen en las áreas de trabajo **Visión general de efectivo** y **Gestión bancaria**.
@@ -42,6 +53,7 @@ Para ver los informes de previsiones de flujo de efectivo con datos, debe primer
 Como demostración, puede agregar datos de demostración de previsiones de flujo de efectivo mediante la página **Generar datos** del módulo de datos de demostración.  Este script insertará datos en tablas de previsiones de flujo de efectivo para rellenar rápidamente la información necesaria para los informes.  Este módulo solo está disponible si tiene el modelo de la suite de datos de demostración implementado en el entorno. 
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Informes que se incluyen en el contenido de Power BI
+
 La siguiente tabla ofrece información sobre las métricas que se encuentran en cada página de informe en el contenido de Power BI de **Visión general de efectivo**.
 
 | Informe                                | Contenido |
@@ -67,5 +79,3 @@ En la tabla siguiente se muestran las entidades en las que se basaba el paquete 
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceCompany    | Entradas, salidas y saldo de efectivo resumidos mediante la divisa de contabilidad de cada empresa |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceEnterprise | Entradas, salidas y saldo de efectivo resumidos mediante la divisa del sistema para todas las empresas |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityTransactionCurrency            | Importe neto de la transacción y saldo de divisas resumidos mediante la divisa de transacción |
-
-

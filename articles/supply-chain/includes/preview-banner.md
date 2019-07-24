@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> La funcionalidad de la que se habla en este tema estará disponible para los usuarios a los que está dirigida como parte de una versión preliminar. El contenido y la funcionalidad están sujetos a cambios. Para obtener más información acerca las versiones preliminares, consulte [Disponibilidad de actualización del servicio](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).

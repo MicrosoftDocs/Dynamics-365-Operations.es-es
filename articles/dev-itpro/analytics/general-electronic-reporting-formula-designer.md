@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85d2370353520ee588dfe2aedf9998d707f0eda6
-ms.sourcegitcommit: 97ed74889a09ef385f6ecbab69e84a05ff42ee41
+ms.openlocfilehash: 7f8461f851f6f54def8a04d0f2548961b9a1ca4d
+ms.sourcegitcommit: ce84a1faeda6013ef6a90038d811a72f375b604e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "1592669"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "1625881"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Diseñador de fórmulas en los informes electrónicos (ER)
 
@@ -651,6 +651,11 @@ Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 <td>NUMBERFORMAT (número, formato)</td>
 <td>Devuelve una representación de la cadena del número especificado en el formato especificado. (Para obtener información sobre los formatos admitidos, consulte <a href="https://msdn.microsoft.com/en-us/library/dwhawy9k(v=vs.110).aspx">estándar</a> y <a href="https://msdn.microsoft.com/en-us/library/0c899ak8(v=vs.110).aspx">personalizado</a>). El contexto en el que se ejecuta esta función determina la cultura que se usa para el formato de los números.</td>
 <td>Para la referencia cultural EN-US, <strong>NUMBERFORMAT (0,45, &quot;p&quot;)</strong> devuelve <strong>&quot;45,00 %&quot;</strong>. <strong>NUMBERFORMAT (10.45, &quot;#&quot;)</strong> devuelve <strong>&quot;10&quot;</strong>.</td>
+</tr>
+<tr>
+<td>NUMBERFORMAT (número, formato, cultura)</td>
+<td>Devuelve una representación de cadena del número especificado en el formato especificado y en una cultura determinada. (Para obtener información acerca de los formatos admitidos, vea <a href="https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings">estándar</a> y <a href="https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-numeric-format-strings">personalizado</a>.).</td>
+<td><strong>NUMBERFORMAT (10/3, "F2", "de")</strong> devuelve <strong>3,33</strong> mientras que <strong>NUMBERFORMAT (10/3, "F2", "en-us")</strong> devuelve <strong>3,33</strong>.</td>
 </tr>
 <tr>
 <td>NUMERALSTOTEXT (número, idioma, divisa, indicador del nombre de la divisa de impresión, separadores decimales)</td>

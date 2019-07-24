@@ -3,7 +3,7 @@ title: Características quitadas u obsoletas
 description: Este tema describe las funciones que se han eliminado, o que está previsto que se eliminen.
 author: sericks007
 manager: AnnBe
-ms.date: 06/05/2019
+ms.date: 06/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9daba2449b6a20634c13117cedb6b63fcc8ee674
-ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
+ms.openlocfilehash: dffe6e41ef99ca7e5ca8f9a67b26b69151026f35
+ms.sourcegitcommit: a237fc58ddb94ff798fac70feaf1431e00080489
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1620654"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624916"
 ---
 # <a name="removed-or-deprecated-features"></a>Características quitadas o en desuso
 
@@ -40,7 +40,10 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 
 > La información detallada sobre los objetos de Finance and Operations se puede encontrar en los [informes de referencia técnica](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de Finance and Operations.
 
-## <a name="dynamics-365-for-finance-and-operations-1004"></a>Dynamics 365 for Finance and Operations 10.0.4 
+## <a name="dynamics-365-for-finance-and-operations-1004-with-platform-update-28"></a>Dynamics 365 for Finance and Operations 10.0.4 con Platform update 28
+
+> [!IMPORTANT]
+> Dynamics 365 for Finance and Operations 10.0.4 con Platform update 28 está disponible para los usuarios a los que está dirigida como parte de un lanzamiento de versión preliminar. El contenido y la funcionalidad están sujetos a cambios. Para obtener más información acerca las versiones preliminares, consulte [Disponibilidad de actualización del servicio](../../fin-and-ops/get-started/public-preview-releases.md).
 
 ### <a name="france-fec-accounting-data-export-in-xml"></a>Francia: Formato XML de exportación de datos contables FEC
 
@@ -52,17 +55,12 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 | **Opción de implementación**              | Todas |
 | **Estado**                         | En desuso. La fecha prevista para la eliminación de la funcionalidad es julio de 2020. |
 
-=======
-## <a name="dynamics-365-for-finance-and-operations-1004-with-platform-update-28"></a>Dynamics 365 for Finance and Operations 10.0.4 con Platform update 28
-
-> [!IMPORTANT]
-> Dynamics 365 for Finance and Operations 10.0.4 con Platform update 28 está disponible para los usuarios a los que está dirigida como parte de un lanzamiento de versión preliminar. El contenido y la funcionalidad están sujetos a cambios. Para obtener más información acerca las versiones preliminares, consulte [Disponibilidad de actualización del servicio](../../fin-and-ops/get-started/public-preview-releases.md).
 
 ### <a name="legacy-navigation-bar"></a>Barra de navegación antigua
 
 |   |  |
 |------------|--------------------|
-| **Motivo de la depreciación/eliminación** | Alineación de cabecera con otros productos de Dynamics y de Office. Para más información, consulte [Barra de exploración que se alinea con el encabezado de Office](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/updatednavbar).
+| **Motivo de la depreciación/eliminación** | Alineación de cabecera con otros productos de Dynamics y de Office. Para más información, consulte [Barra de exploración que se alinea con el encabezado de Office](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-finance-operations/updatednavbar).
 | **¿Reemplazado por otra característica?**   | A partir de la Platform update 24 se introdujo una barra de navegación rediseñada que cuenta con búsqueda. |
 | **Áreas de producto afectadas**         | Cliente web |
 | **Opción de implementación**              | Todas |
@@ -71,8 +69,6 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 
 ## <a name="dynamics-365-for-finance-and-operations-1002-with-platform-update-26"></a>Dynamics 365 for Finance and Operations 10.0.2 con Platform update 26
 
-> [!IMPORTANT]
-> Dynamics 365 for Finance and Operations 10.0.2 con Platform update 26 está disponible para los usuarios a los que está dirigida como parte de un lanzamiento de versión preliminar. El contenido y la funcionalidad están sujetos a cambios. Para obtener más información acerca las versiones preliminares, consulte [Disponibilidad de actualización del servicio](../../fin-and-ops/get-started/public-preview-releases.md).
 
 ### <a name="legacy-default-action-behavior"></a>Comportamiento predeterminado de la acción de herencia
 
@@ -116,9 +112,6 @@ La compatibilidad para crear los pedidos de ventas basados en proyectos donde el
 | **Estado**                         | En desuso: La fecha prevista para la eliminación de la funcionalidad es abril de 2020. |
 
 ## <a name="dynamics-365-for-finance-and-operations-1001-with-platform-update-25"></a>Dynamics 365 for Finance and Operations 10.0.1 con actualización de plataforma 25
-
-> [!IMPORTANT]
-> Dynamics 365 for Finance and Operations 10.0.1 con Platform update 25 está disponible para los usuarios a los que está dirigida como parte de un lanzamiento de versión preliminar. El contenido y la funcionalidad están sujetos a cambios. Para obtener más información acerca las versiones preliminares, consulte [Disponibilidad de actualización del servicio](../../fin-and-ops/get-started/public-preview-releases.md).
 
 ### <a name="deprecated-apis-and-potential-breaking-changes"></a>API en desuso y potencial cambios que generan interrupciones
 

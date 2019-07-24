@@ -3,7 +3,7 @@ title: Informes de gastos reinventados
 description: Este tema proporciona información sobre la experiencia reajustada y reinventada para la entrada del informe de gastos en Microsoft Dynamics 365 for Finance and Operations. La nueva experiencia simplifica el proceso de completar informes de gastos y reduce el tiempo requerido.
 author: ryansandness
 manager: AnnBe
-ms.date: 05/20/2019
+ms.date: 06/14/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: c7a2b95456e812970b135d83f0f7e503310ce185
-ms.sourcegitcommit: 97ed74889a09ef385f6ecbab69e84a05ff42ee41
+ms.openlocfilehash: 9e87a61bd6dd7bc1c7ef569882daf2074c7cade9
+ms.sourcegitcommit: 672c94704e9a2b0ec7ee3c111d4ceb1bb8597969
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "1592646"
+ms.lasthandoff: 06/14/2019
+ms.locfileid: "1631964"
 ---
 # <a name="expense-reports-reimagined"></a>Informes de gastos reinventados
 
 [!include[banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 La entrada del informe de gastos se ha rediseñado para simplificar el proceso de completar informes de gastos y reducir el tiempo requerido. Estos son los componentes principales de la nueva experiencia de gastos:
 
@@ -48,7 +47,7 @@ Para activar la nueva experiencia, utilice el espacio de trabajo **Administraci�
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2Y7gO]
 
-El vídeo [Experiencia de gasto en Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (aparece más arriba) está incluido en la  [Lista de reproducción de Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponibles en YouTube.
+El vídeo [Experiencia de gastos en Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (aparece más arriba) está incluido en la  [Lista de reproducción de Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponibles en YouTube.
 
 ## <a name="new-features"></a>Nuevas características
 

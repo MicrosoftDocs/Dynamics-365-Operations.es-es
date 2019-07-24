@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: a56f162ccc6b6099fd62e0cb7e10076368d8e653
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: e51fb00536884d2b3815c05a0968714d8b9326f2
+ms.sourcegitcommit: a6b32be10b6eb6340f8f68261bf62d0202c03dd1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519067"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "1729712"
 ---
 # <a name="career-site-functionality-in-attract"></a>La funcionalidad del sitio de Proyectos profesionales en Attract
 
@@ -48,11 +48,14 @@ Para establecer los valores para los siguientes elementos, inicie sesión en Att
  
 Para establecer los valores para los siguientes elementos, inicie sesión en Attract como administrador, seleccione **Centro de administración** en el menú **Parámetros** (el símbolo de engranaje), y seleccione la pestaña **Gestión del sitio de desarrollo profesional**.
 
--   **Optimización del motor de búsqueda** - Cuando está habilitado, todos los trabajos públicos publicados en el sitio de Proyectos profesionales de Attract se podrán buscar mediante motores de búsqueda como Bing y Google.
+-   **Optimización del motor de búsqueda** - Cuando está habilitado, todos los trabajos públicos publicados en el sitio de Proyectos profesionales de Attract se podrán buscar mediante motores de búsqueda como Bing y Google. 
 
     > [!NOTE] 
     > Es posible que haya un retraso entre activar este valor y buscar los resultados que aparecen, en función del motor de búsqueda que esté usando.
-         
+    
+-   **Términos y condiciones** - Cuando está habilitado, todos los candidatos debe consentir los términos y condiciones de la organización a la hora de aplicar para cualquier trabajo. El administrador de Attract puede configurar su propio texto de consentimiento, así como el vínculo a su página de Términos y condiciones. 
+
+        
 ## <a name="career-site-urls"></a>URL del sitio de desarrollo profesional
 
 La lista siguiente contiene direcciones URL de uso general del sitio de Proyectos profesionales y cómo acceder a ellas.

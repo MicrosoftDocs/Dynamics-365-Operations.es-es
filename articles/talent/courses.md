@@ -3,7 +3,7 @@ title: Configuración de cursos de formación.
 description: Los administradores y directores de Recursos humanos pueden usar las características de los cursos para mantener información sobre la formación que se ofrece a los trabajadores.
 author: andreabichsel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 83f88d17c744bb53dad975b77d169a09375d20d1
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 26e76d68c6d5c8bd965e65e65d57f239fb8a2918
+ms.sourcegitcommit: 87e8b811680b1f87a973ce1680f07d657fa23046
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518983"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "1701399"
 ---
 # <a name="set-up-training-courses"></a>Configuración de cursos de formación.
 
@@ -128,12 +128,12 @@ En la tabla siguiente se muestran los estados posibles del curso y las acciones 
 </table>
 
 ## <a name="course-participants"></a>Participantes en el curso
-Los participantes del curso son trabajadores, solicitantes o personas de contacto que participan en un evento o curso de aprendizaje. Solo es posible registrar participantes para cursos abiertos. El número mínimo y máximo de participantes que se pueden registrar para un curso se define en la ficha desplegable **General** en la página **Cursos**.
+Los participantes del curso son trabajadores que participan en un evento o curso de aprendizaje. Solo es posible registrar participantes para cursos abiertos. El número mínimo y máximo de participantes que se pueden registrar para un curso se define en la ficha desplegable **General** en la página **Cursos**.
 
 <a name="workflow"></a>Flujo de trabajo
 --------
 
-Los empleados que se registran para un curso por medio de la página **Autoservicio del empleado** pueden dirigir su registro a través del flujo de trabajo para su aprobación.  Se puede asignar un flujo de trabajo a un curso en la ficha desplegable **General** de la página **Cursos**.
+Los empleados que se registran para un curso por medio de la página **Autoservicio del empleado** pueden dirigir su registro a través del flujo de trabajo para su aprobación. Puede asignar un flujo de trabajo a un curso en la ficha desplegable **General** de la página **Cursos**.
 
 
 
