@@ -8,6 +8,12 @@
         - name: Novedades y cambios en Talent
           href: whats-new.md
           items:
+            - name: 23 de julio de 2019
+              href: whats-new-talent-july-24-2019.md
+            - name: 16 de julio de 2019
+              href: whats-new-talent-july-16-2019.md
+            - name: 9 de julio de 2019
+              href: whats-new-talent-july-9-2019.md
             - name: 2 de julio de 2019
               href: whats-new-talent-july-2-2019.md
             - name: 25 de junio de 2019
@@ -102,8 +108,6 @@
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Core HR y Common Data Service
           href: CoreHREntities.md
-        - name: Acceder a características de vista previa
-          href: access-preview-feature.md
         - name: Obtener soporte para Talent
           href: talent-support.md
     - name: Dotar de personal para la organización con Attract
@@ -112,48 +116,68 @@
           href: attract-comprehensive-hiring.md
         - name: Características y funcionalidades de Attract
           href: attract-overview.md
-        - name: Preguntas frecuentes sobre LinkedIn
-          href: attract-linkedin-faq.md
-        - name: Configuración de opciones de correo electrónico
-          href: attract-configure-email-settings.md
-        - name: Crear una plantilla de proceso en Attract
-          href: Process-templates-Attract.md
-        - name: Crear y publicar trabajos
-          href: Creating-jobs-Attract.md
-        - name: Configurar la integración con LinkedIn
-          href: attract-admin-linkedin.md
-        - name: Publicar trabajos en LinkedIn desde Attract
-          href: attract-post-jobs-to-linkedin.md
-        - name: Publicar trabajos en Broadbean desde Attract
-          href: posting-jobs-external.md
-        - name: Conseguir candidatos usando grupos de talentos
-          href: attract-talent-pools.md
-        - name: Conseguir candidatos con LinkedIn Recruiter
-          href: attract-linkedin-recruiter.md
-        - name: Actividades en los procesos de contratación
-          href: activities-attract.md
-        - name: Programación y realimentación de la entrevista
-          href: interview-scheduling-feedback.md
+        - name: Preguntas frecuentes
+          items:
+            - name: Preguntas frecuentes sobre la integración con LinkedIn
+              href: attract-linkedin-faq.md
+        - name: Configurar opciones del sistema
+          items:
+            - name: Configurar la información de la empresa
+              href: admin-settings-attract.md
+            - name: Establecer permisos de usuario
+              href: security-attract.md
+            - name: Administrar características
+              href: access-preview-feature.md
+            - name: Configurar su sitio de desarrollo profesional
+              href: career-site.md
+            - name: Habilitar la integración de Broadbean
+              href: attract-admin-job-board-settings.md
+            - name: Configuración de opciones de correo electrónico
+              href: attract-configure-email-settings.md
+            - name: Configurar la integración con LinkedIn
+              href: attract-admin-linkedin.md
+        - name: Crear un proceso de contratación
+          items:
+            - name: Crear una plantilla de proceso
+              href: process-templates-attract.md
+            - name: Actividades en los procesos de contratación
+              href: activities-attract.md
+            - name: Plantillas de correo electrónico
+              href: email-templates.md
+            - name: Usar informes analíticos
+              href: analytic-reports.md
+        - name: Crear y publicar ofertas de empleo
+          items:
+            - name: Crear una oferta de empleo
+              href: creating-jobs-attract.md
+            - name: Publicar ofertas de empleo en LinkedIn
+              href: attract-post-jobs-to-linkedin.md
+            - name: Publicar ofertas de empleo en Broadbean
+              href: posting-jobs-external.md
+            - name: Cerrar una oferta de empleo
+              href: attract-close-job.md
+        - name: Conseguir candidatos
+          items:
+            - name: Conseguir candidatos a través de las reservas de talentos
+              href: attract-talent-pools.md
+            - name: Conseguir candidatos con LinkedIn Recruiter
+              href: attract-linkedin-recruiter.md
+            - name: Seguimiento de orígenes de candidatos
+              href: source-tracking.md
+            - name: Recomendaciones inteligentes
+              href: Intelligent-Recommendations.md
+        - name: Configurar entrevistas
+          items:
+            - name: Programación y comentarios de entrevistas
+              href: interview-scheduling-feedback.md
+        - name: Realizar una oferta
+          items:
+            - name: Configurar la gestión de ofertas
+              href: offer-setup.md
+            - name: 'Crear, aprobar y firmar ofertas'
+              href: creating-offers.md
         - name: Extensibilidad en Attract
           href: extensibility-attract.md
-        - name: La funcionalidad del sitio de Proyectos profesionales en Attract
-          href: career-site.md
-        - name: Configurar la gestión de ofertas
-          href: offer-setup.md
-        - name: 'Crear, aprobar y firmar las propuestas'
-          href: creating-offers.md
-        - name: Plantillas de correo electrónico
-          href: email-templates.md
-        - name: Seguridad y gestión de roles en Attract
-          href: security-attract.md
-        - name: Configuración de administrador en Attract
-          href: Admin-Settings-Attract.md
-        - name: Recomendaciones inteligentes
-          href: Intelligent-Recommendations.md
-        - name: Hacer un seguimiento de los orígenes de los perfiles y las solicitudes de candidatos
-          href: source-tracking.md
-        - name: Usar informes analíticos para obtener información del proceso de contratación
-          href: analytic-reports.md
     - name: Dar la bienvenida a las nuevas contrataciones con Onboard
       items:
         - name: Introducción a Onboard
@@ -186,7 +210,9 @@
               href: set-up-hr-parameters-across-legal-entities.md
             - name: Configurar parámetros de recursos humanos específicos de la empresa
               href: set-up-company-specific-hr-parameters.md
-            - name: Preguntas más frecuentes sobre acciones del personal
+            - name: Campos de fecha y hora en Talent
+              href: date-time-fields-in-talent.md
+            - name: Preguntas frecuentes sobre acciones de personal
               href: personnel-actions-faq.md
             - name: Formalizar procesos empresariales
               href: formalize-business-processes.md
@@ -220,7 +246,7 @@
                   href: ../fin-and-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
                 - name: Configurar la libreta de direcciones global
                   href: ../fin-and-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Preguntas más frecuentes sobre Libretas de direcciones
+                - name: Preguntas frecuentes sobre Libretas de direcciones
                   href: ../fin-and-ops/organization-administration/qa-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
             - name: Configurar flujos de trabajo
               items:
@@ -353,7 +379,7 @@
           href: configure-payroll-integration.md
         - name: Guía de integración de datos para Dynamics 365 for Talent
           href: data-integration.md
-        - name: Preguntas más frecuentes sobre integración
+        - name: Preguntas frecuentes sobre integración
           href: talent-fo-integration.md
         - name: Exportación de datos periódicos mediante Azure Logic Apps
           href: tutorial-integration-recurring-export.md
@@ -413,7 +439,7 @@
           href: user-access-core-hr.md
         - name: Opciones de informes en Talent
           href: talent-reporting-options.md
-        - name: Preguntas más frecuentes sobre integración
+        - name: Preguntas frecuentes sobre integración
           href: talent-FO-integration.md
         - name: No se encuentran usuarios de Azure Active Directory en el selector de personas
           href: people-picker-user-not-found.md
