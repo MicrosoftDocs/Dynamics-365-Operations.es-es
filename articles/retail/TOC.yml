@@ -4,6 +4,8 @@
   items:
     - name: Novedades y cambios
       href: get-started/whats-new.md
+    - name: Características de vista previa en Dynamics 365 for Retail 10.0.5
+      href: get-started/whats-new-10-0-5.md
     - name: Novedades y cambios en Dynamics 365 for Retail 10.0.3
       href: get-started/whats-new-10-0-3.md
     - name: Novedades y cambios en Dynamics 365 for Retail 10.0.2
@@ -257,6 +259,8 @@
       href: Notifications-POS.md
 - name: Devoluciones
   items:
+    - name: Devoluciones vinculadas
+      href: dev-itpro/linked-refunds.md
     - name: Vender y devolver productos no incluidos en la selección de una tienda
       href: sell-return-outside-assortments.md
     - name: Configurar y procesar un cambio en un pedido de devolución
@@ -524,7 +528,7 @@
           href: dev-itpro/retail-store-system-begin.md
         - name: Configurar e instalar Retail Store Scale Unit
           href: dev-itpro/retail-store-scale-unit-configuration-installation.md
-        - name: Configuración y instalación de Retail Modern POS
+        - name: Configuración e instalación de Retail Modern POS
           href: retail-modern-pos-device-activation.md
         - name: Administrar cuentas y dispositivos de Retail desde la sede central
           href: set-up-activation-accounts-validate-devices-hq.md
