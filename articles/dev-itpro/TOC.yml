@@ -25,7 +25,7 @@
           href: dev-tools/configure-developer-vm.md
         - name: Crear nuevos usuarios en máquinas de desarrollo
           href: dev-tools/enable-development-machine.md
-        - name: Preguntas más frecuentes sobre VM de desarrollo y compilación que no permiten el acceso del administrador
+        - name: Preguntas frecuentes sobre VM de desarrollo y compilación que no permiten el acceso del administrador
           href: sysadmin/VMs-no-admin-access.md
         - name: Cambiar el nombre de los entornos locales para tener acceso a Azure DevOps
           href: migration-upgrade/vso-machine-renaming.md
@@ -100,16 +100,34 @@
           href: dev-tools/linq-provider-c.md
         - name: Escribir reglas de prácticas recomendadas
           href: dev-tools/author-best-practice-rules.md
-        - name: Propiedades del explorador de la aplicación
+        - name: Propiedades del Explorador de aplicaciones
           href: dev-ref/application-explorer-aot-properties.md
         - name: Referencia del lenguaje X++
           items:
             - name: Referencia del lenguaje X++
               href: dev-ref/xpp-language-reference.md
-            - name: Variables y tipos de datos de X++
-              href: dev-ref/xpp-variables-data-types.md
-            - name: 'Instrucciones, bucles y control de excepciones de X++'
-              href: dev-ref/xpp-statements-loops.md
+            - name: Variables y tipos de datos
+              items:
+                - name: Variables
+                  href: dev-ref/xpp-variables-data-types.md
+                - name: Tipos de datos primitivos
+                  href: dev-ref/xpp-data-primitive.md
+                - name: Tipos de datos compuestos
+                  href: dev-ref/xpp-data-composite.md
+                - name: Clases de colecciones
+                  href: dev-ref/xpp-data-collection.md
+                - name: Tipos de datos extendidos
+                  href: dev-ref/xpp-data-edt.md
+            - name: 'Instrucciones, bucles y control de excepciones'
+              items:
+                - name: 'Comentarios, «using» y «print»'
+                  href: dev-ref/xpp-statements-loops.md
+                - name: Instrucciones condicionales
+                  href: dev-ref/xpp-conditional.md
+                - name: Instrucciones de bucle
+                  href: dev-ref/xpp-loops.md
+                - name: Control de excepciones
+                  href: dev-ref/xpp-exceptions.md
             - name: Excepción de X++ de error de conexión de SQL
               href: dev-ref/sql-connection-error.md
             - name: Operadores de X++
@@ -120,6 +138,8 @@
               href: dev-ref/xpp-classes-methods.md
             - name: Selección y manipulación de datos de X++
               href: dev-ref/xpp-data-query.md
+            - name: Acceso a datos mediante la API de SysDa
+              href: dev-ref/sysda.md
             - name: Macros de X++
               href: dev-ref/xpp-macros.md
             - name: Clases de atributo de X++
@@ -236,7 +256,7 @@
               href: extensibility/extensibility-roadmap.md
             - name: Solicitudes de extensibilidad
               href: extensibility/extensibility-requests.md
-            - name: Preguntas más frecuentes sobre extensibilidad
+            - name: Preguntas frecuentes sobre extensibilidad
               href: extensibility/app-sealing-faq.md
             - name: Migrar de la superposición a las extensiones
               href: extensibility/migrate-overlayer-extension.md
@@ -438,7 +458,11 @@
           href: user-interface/page-layout.md
         - name: Fuente de símbolo de Dynamics
           href: user-interface/symbol-font.md
-        - name: Formularios de prueba que utilizan patrones personalizados
+        - name: Vistas guardadas
+          href: ../fin-and-ops/get-started/saved-views.md
+        - name: Crear formularios que usan completamente las vistas guardadas
+          href: user-interface/understanding-saved-views.md
+        - name: Probar formularios que utilizan patrones personalizados
           href: user-interface/testing-forms-custom-patterns.md
         - name: Crear URL compartibles y protegidas (vínculos profundos)
           href: user-interface/create-deep-links.md
@@ -494,9 +518,9 @@
           href: user-interface/slider-messagebox.md
         - name: 'Centro de mensajes, barra de mensajes y API de detalles de mensajes'
           href: user-interface/messaging-api-center-bar-details.md
-        - name: 'Preguntas más frecuentes sobre el centro de mensajes, la barra de mensajes y los detalles de mensajes'
+        - name: 'Preguntas frecuentes sobre el centro de mensajes, la barra de mensajes y los detalles de los mensajes'
           href: user-interface/messaging-user.md
-    - name: Directrices de patrones de formulario principales
+    - name: Directrices de patrones de formulario
       items:
         - name: Patrones del formulario para formularios migrados
           href: user-interface/select-form-pattern.md
@@ -841,7 +865,7 @@
 - name: Entrega continua
   href: dev-tools/continuous-delivery-home-page.md
   items:
-    - name: Preguntas más frecuentes sobre desarrollo y entrega continua
+    - name: Preguntas frecuentes sobre desarrollo y entrega continua
       href: dev-tools/continuous-delivery-faq.md
     - name: Excluir paquetes de prueba de la salida de compilación
       href: dev-tools/exclude-test-packages.md
@@ -1129,7 +1153,7 @@
           href: migration-upgrade/on-prem-upgrade.md
     - name: Revisiones
       items:
-        - name: Descargar revisiones de Lifecycle Services
+        - name: Obtener actualizaciones desde Lifecycle Services
           href: migration-upgrade/download-hotfix-lcs.md
         - name: Aplicar actualizaciones a entornos de nube
           href: deployment/apply-deployable-package-system.md
@@ -1162,6 +1186,8 @@
       href: sysadmin/pre-configured-system-accounts.md
     - name: Exportar usuarios B2B a Azure AD
       href: sysadmin/implement-b2b.md
+    - name: Establecer el tiempo de espera de la sesión
+      href: sysadmin/session-idle-timeout.md
     - name: Seguridad basada en roles
       href: sysadmin/role-based-security.md
       items:
@@ -1310,6 +1336,8 @@
   items:
     - name: Obtener soporte técnico para Finance and Operations y Lifecycle Services
       href: lifecycle-services/lcs-support.md
+    - name: Información general sobre soporte técnico de Dynamics 365
+      href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/unified-operations/fin-and-ops/toc.json&bc=/dynamics365/unified-operations/breadcrumb/toc.json'
     - name: Obtener soporte técnico para Finance and Operations operado por 21Vianet en China
       href: lifecycle-services/21vianet-support.md
     - name: Registrar un vale de soporte técnico Premier

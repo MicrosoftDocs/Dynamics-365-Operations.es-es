@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 1fc894206f9d90fce1e2eab292ac241e9d943e23
-ms.sourcegitcommit: aec1dcd44274e9b8d0770836598fde5533b7b569
+ms.openlocfilehash: f94a674e021d4f23480433440cd239b851491d87
+ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "1617329"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "1790430"
 ---
 # <a name="retail-transaction-consistency-checker"></a>Comprobador de coherencia de transacción comercial
 
@@ -50,6 +50,7 @@ El proceso por lotes **Validar transacciones de la tienda** comprueba la coheren
 - **Cuenta de cliente**: valida que existe la cuenta de cliente en las tablas de transacción comercial en el maestro de clientes de la sede.
 - **Recuento de líneas**: valida que el número de líneas, como se recoge en la tabla de encabezado de transacción, coincide con el número de líneas en las tablas de transacción de ventas.
 - **El precio incluye impuestos**: valida que el parámetro **El precio incluye impuestos** es coherente entre las líneas de transacción.
+- **Importe del pago**: valida que los registros de pago coinciden con el importe del pago del encabezado.
 - **Importe bruto**: valida que el importe bruto del encabezado es la suma de los importes netos de las líneas más el importe de impuestos.
 - **Importe neto**: valida que el importe neto del encabezado es la suma de los importes netos de las líneas.
 - **Sobrepago o pago insuficiente**: valida que la diferencia entre el importe bruto del encabezado y el importe de pago no supera la configuración máxima de sobrepago o pago insuficiente.
@@ -58,6 +59,7 @@ El proceso por lotes **Validar transacciones de la tienda** comprueba la coheren
 - **Artículo de tarjeta regalo**: Retail no admite la devolución de artículos de tarjeta regalo. Sin embargo, el saldo de una tarjeta regalo se puede cobrar. Cualquier artículo de tarjeta regalo que se procese como línea de devolución en lugar de una línea de cobro en efectivo produce un error en el proceso de registro de extractos. El proceso de validación para artículos de tarjeta regalo ayuda a garantizar que los únicos artículos de línea de tarjeta regalo de devolución en las tablas de transacciones comerciales son líneas de cobro en efectivo de tarjetas regalo.
 - **Precio negativo**: valida que no hay líneas de transacción de precio negativo.
 - **Artículo y variante**: valida que los artículos y variantes de las líneas de transacción existen en el archivo maestro de variante y artículo.
+- **Importe de impuestos**: valida que los registros de impuestos coinciden con los importes de impuestos en las líneas. 
 
 ## <a name="set-up-the-consistency-checker"></a>Configurar el comprobador de coherencia
 
