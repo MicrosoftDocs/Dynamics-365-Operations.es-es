@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMLegalEntity, OMNewLegalEntity
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9d904b73388f7d4121b50270c1e8f1e76c88e2c6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8d0dc04962e1e34584c7c6a7dc55ae096ad324bc
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560993"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1848773"
 ---
 # <a name="mx-00010-enter-tax-registration-ids-for-mexican-legal-entities"></a>MX-00010 Especificar los identificadores de registro de impuestos para las entidades jurídicas mexicanas
 

@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: sericks
+ms.reviewer: roschlom
 ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 9e87a61bd6dd7bc1c7ef569882daf2074c7cade9
-ms.sourcegitcommit: 672c94704e9a2b0ec7ee3c111d4ceb1bb8597969
+ms.openlocfilehash: 320984fc6be231c941df17abb7246e92f6aa4b9a
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/14/2019
-ms.locfileid: "1631964"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1841066"
 ---
 # <a name="expense-reports-reimagined"></a>Informes de gastos reinventados
 
@@ -45,7 +45,7 @@ Para activar la nueva experiencia, utilice el espacio de trabajo **Administraci�
 
 ## <a name="getting-started-video-for-new-users"></a>Vídeo de iniciación para nuevos usuarios
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2Y7gO]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
 
 El vídeo [Experiencia de gastos en Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (aparece más arriba) está incluido en la  [Lista de reproducción de Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponibles en YouTube.
 

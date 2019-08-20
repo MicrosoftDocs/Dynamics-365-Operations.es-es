@@ -1,88 +1,75 @@
 ---
 title: Configurar directivas de factura de proveedor
-description: Las directivas de factura de proveedor se ejecutan al registrar una factura de proveedor mediante la página Factura de proveedor y al abrir la página de infracciones de directiva de factura de proveedor.
+description: Este tema explica cómo configurar directivas de facturas de proveedor en Dynamics 365 para Finance and Operatoins.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendParameters,  SysPolicyListPage, SysPolicyParameters, SysPolicySourceDocumentRuleType, SysPolicy, SysPolicySourceDocumentRule, SysQueryForm, SysQueryTableLookUp, SysQueryPrefixLookUp, SysQueryFieldLookUp
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b424eee7c91ef1085c98828c0d5e5cf674717a81
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 328aafd16496fdbb963c9aa40a5c13005be7a382
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559673"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1842818"
 ---
 # <a name="set-up-vendor-invoice-policies"></a>Configurar directivas de factura de proveedor
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Las directivas de factura de proveedor se ejecutan al registrar una factura de proveedor mediante la página Factura de proveedor y al abrir la página de infracciones de directiva de factura de proveedor. También puede configurar el flujo de trabajo de la factura de proveedor para ejecutar las directivas de factura de proveedor cada vez que envíe una factura al flujo de trabajo. 
+Este tema explica cómo configurar directivas de facturas de proveedor en Dynamics 365 para Finance and Operatoins. Las directivas de factura de proveedor se ejecutan al registrar una factura de proveedor mediante la página Factura de proveedor y al abrir la página de infracciones de directiva de factura de proveedor. También puede configurar el flujo de trabajo de la factura de proveedor para ejecutar las directivas de factura de proveedor cada vez que envíe una factura al flujo de trabajo. 
 
-Las directivas de facturas de proveedor no se aplican a las facturas creadas en el registro de facturas o el diario de facturas. 
-
-La validación de conciliación de facturas no usa directivas de factura de proveedor, sino que se configura en la página Parámetros de proveedores.
-
-Esta grabación usa la empresa de demostración USMF. El rol de administrador de proveedores o jefe de contabilidad realizaría estos pasos. Antes de empezar, asegúrese de que la clave de configuración Conciliación de facturas esté seleccionada.
+- Las directivas de facturas de proveedor no se aplican a las facturas creadas en el registro de facturas o el diario de facturas.  
+- La validación de conciliación de facturas no usa directivas de factura de proveedor, sino que se configura en la página Parámetros de proveedores.  
+- Esta grabación usa la empresa de demostración USMF. El rol de administrador de proveedores o jefe de contabilidad realizaría estos pasos. Antes de empezar, asegúrese de que la clave de configuración Conciliación de facturas esté seleccionada.
 
 
 ## <a name="prepare-to-create-vendor-invoice-policies"></a>Preparación de la creación de directivas de facturas de proveedor
-1. Vaya a Proveedores > Configuración > Parámetros de proveedores.
-2. Haga clic en la ficha Validación de factura.
-3. Active o desactive la casilla Actualizar estado de encabezado de factura automáticamente.
-4. Haga clic en Aceptar
-5. En el campo Registrar factura con discrepancias, seleccione una opción.
+1. Vaya a **Panel de exploración > Módulos > Proveedores > Configuración > Parámetros de proveedores**.
+2. Seleccione la pestala **Validación de factura**.
+3. Active o desactive la casilla **Actualizar estado de encabezado de factura automáticamente**.
+4. Seleccione **Aceptar**.
+5. En el campo **Registrar factura con discrepancias**, seleccione una opción.
 6. Cierre la página.
-7. Vaya a Proveedores > Configuración de directivas > Directivas de facturas de proveedor.
-8. Haga clic en parámetros.
-9. Haga clic en el botón Agregar.
-10. Cierre la página.
+7. Vaya a **Panel de navegación > Módulos > Proveedores > Configuración de directivas > Directivas de facturas de proveedor**.
+8. Seleccione **Parámetros**.
+9. Seleccione **Agregar**.
+10. Cierre la página para regresar a la página principal.
 
 ## <a name="create-policy-rule-types-for-vendor-invoices"></a>Crear tipos de regla de directivas para facturas de proveedor
-1. Vaya a Proveedores > Configuración de directivas > Regla de directivas de facturas de proveedor.
-2. Haga clic en Nuevo.
-3. En el campo Nombre de regla, escriba un valor.
-4. En el campo Descripción, escriba un valor.
-5. En el campo Nombre de consulta, haga clic en el botón desplegable para abrir la búsqueda.
-6. En la lista, busque y seleccione el registro deseado.
-7. En la lista, haga clic en el vínculo de la fila seleccionada.
-8. Haga clic en Guardar.
-9. Cierre la página.
+1. Vaya a **Panel de navegación > Módulos > Proveedores > Configuración de directivas > Tipos de reglas de directivas de facturas de proveedor**.
+2. Seleccione **Nuevo**.
+3. Escriba valores en los campos **Nombre de regla** y **Descripción**.
+4. En el campo **Nombre de consulta**, seleccione el botón de la lista desplegable para abrir la búsqueda y seleccione el registro deseado.
+5. Seleccione **Guardar**.
+6. Cierre la página para regresar a la página principal.
 
 ## <a name="define-a-vendor-invoice-policy"></a>Definir una directiva de facturas de proveedor
-1. Vaya a Proveedores > Configuración de directivas > Directivas de facturas de proveedor.
-2. Haga clic en Nuevo.
-3. En el campo Nombre, escriba un valor.
-4. En el campo Descripción, escriba un valor.
-5. Expanda o contraiga la sección Organizaciones de directivas.
-6. En el árbol, seleccione "Contoso Entertainment System USA".
-7. Haga clic en Agregar.
-8. Expanda o contraiga la sección Reglas de directivas.
-9. Haga clic en Crear regla de directivas.
-10. En el campo Descripción de regla de directivas, escriba un valor.
-11. Haga clic en Filtro.
-12. Haga clic en Agregar.
-13. En la lista, marque la fila seleccionada.
-14. En el campo Tabla, haga clic en el botón desplegable para abrir la búsqueda.
-15. En la lista, haga clic en el vínculo de la fila seleccionada.
-16. En el campo Tabla derivada, haga clic en el botón desplegable para abrir la búsqueda.
-17. En la lista, haga clic en el vínculo de la fila seleccionada.
-18. En el campo Campo, haga clic en el botón desplegable para abrir la búsqueda.
-19. En el campo Campo, escriba un valor.
-20. Cierre la página.
-21. En el campo Criterios, escriba un valor.
-22. Haga clic en Aceptar
-23. Haga clic en Aceptar
-24. Cierre la página.
-25. Cierre la página.
+1. Vaya a **Panel de navegación > Módulos > Proveedores > Configuración de directivas > Directivas de facturas de proveedor**.
+2. Seleccione **Nuevo**.
+3. Escriba valores en los campos **Nombre** y **Descripción**.
+4. Expanda o contraiga la sección **Organizaciones de directivas**.
+5. En el árbol, seleccione **Contoso Entertainment System USA**.
+6. Seleccione **Agregar**.
+7. Expanda o contraiga la sección **Reglas de directivas**.
+8. Seleccione **Crear regla de directivas**.
+9. En el campo **Descripción de regla de directivas**, escriba un valor.
+10. Seleccione **Filtro**.
+11. Seleccione **Agregar**. Seleccione el registro que desee.
+12. En **Tabla**, **Tabla derivada** y **Campo**, seleccione o introduzca opciones de los menús desplegables.
+13. Cierre la página.
+14. En el campo **Criterios**, escriba un valor.
+15. Seleccione **Aceptar**.
+16. Seleccione **Aceptar**.
+17. Cierre las páginas para regresar a la página principal.
 

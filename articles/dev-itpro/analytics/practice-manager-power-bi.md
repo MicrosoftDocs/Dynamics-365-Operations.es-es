@@ -10,19 +10,19 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ProjManagementWorkspace
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7b2c13573aca2ceb0eca36cf4aeee80d2f56ab8a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c526bc42595c20024016d0d7da78b8638b0daa4b
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551680"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850106"
 ---
 # <a name="practice-manager-power-bi-content"></a>Contenido de director de prácticas de Power BI
 
@@ -54,7 +54,7 @@ La siguiente tabla ofrece información sobre las métricas que se encuentran en 
 | EVM               | Coste e índice de rendimiento de la programación por proyecto |
 | Horas             | <ul><li>Comparación de horas facturables usadas reales, horas no facturables reales y horas presupuestadas</li><li>Comparación de horas facturables usadas reales y horas no facturables reales por proyecto</li><li>Comparación de horas facturables usadas reales y horas no facturables reales por recurso</li><li>Proporción de horas facturables reales por proyecto</li><li>Proporción de horas facturables reales por recurso</li></ul> |
 
-Los gráficos y los iconos en todos estos informes se pueden filtrar y anclar al panel de información. Para obtener más información acerca de cómo filtrar y anclar en Power BI, consulte [Crear y configurar un panel de información](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). También puede usar la funcionalidad subyacente de exportación de datos para exportar los datos subyacente que se resume en una visualización.
+Los gráficos y los iconos en todos estos informes se pueden filtrar y anclar al panel de información. Para obtener más información acerca de cómo filtrar y anclar en Power BI, consulte [Crear y configurar un panel de información](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). También puede usar la funcionalidad subyacente de exportación de datos para exportar los datos subyacente que se resume en una visualización.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Comprensión del modelo de datos y de las entidades
 
@@ -62,7 +62,7 @@ Los datos siguientes se usan para rellenar las páginas de informes en el conten
 
 En las secciones siguientes se describen las medidas de agregado que se utilizan en cada entidad.
 
-### <a name="entity-projectaccountingcubeactualhourutilization"></a>Entidad: ProjectAccountingCube\_ActualHourUtilization
+### <a name="entity-projectaccountingcube_actualhourutilization"></a>Entidad: ProjectAccountingCube\_ActualHourUtilization
 **Origen de datos:** ProjEmplTrans
 
 | Medida agregada clave      | Campo                              | Descripción |
@@ -70,7 +70,7 @@ En las secciones siguientes se describen las medidas de agregado que se utilizan
 | Horas facturables usadas reales | Sum(ActualUtilizationBillableRate) | Total de horas facturables usadas reales. |
 | Horas facturables/no facturables reales   | Sum(ActualBurdenBillableRate)      | Total de horas no facturables reales. |
 
-### <a name="entity-projectaccountingcubeactuals"></a>Entidad: ProjectAccountingCube\_Actuals
+### <a name="entity-projectaccountingcube_actuals"></a>Entidad: ProjectAccountingCube\_Actuals
 **Origen de datos:** ProjTransPosting
 
 | Medida agregada clave | Campo              | Descripción |
@@ -78,14 +78,14 @@ En las secciones siguientes se describen las medidas de agregado que se utilizan
 | Ingresos reales            | Sum(ActualRevenue) | Total de ingresos registrados para todas las transacciones. |
 | Coste real               | Sum(ActualCost)    | Total de costes registrados para todos los tipos de transacciones. |
 
-### <a name="entity-projectaccountingcubecustomer"></a>Entidad: ProjectAccountingCube\_Customer
+### <a name="entity-projectaccountingcube_customer"></a>Entidad: ProjectAccountingCube\_Customer
 **Origen de datos:** CustTable
 
 | Medida agregada clave | Campo                                             | Descripción |
 |---------------------------|---------------------------------------------------|-------------|
 | Número de proyectos        | COUNTA(ProjectAccountingCube\_Projects\[PROJECTS\]) | Número de proyectos disponibles. |
 
-### <a name="entity-projectaccountingcubeforecasts"></a>Entidad: ProjectAccountingCube\_Forecasts
+### <a name="entity-projectaccountingcube_forecasts"></a>Entidad: ProjectAccountingCube\_Forecasts
 **Origen de datos:** ProjTransBudget
 
 | Medida agregada clave | Campo                  | Descripción |
@@ -94,14 +94,14 @@ En las secciones siguientes se describen las medidas de agregado que se utilizan
 | Ingresos presupuestarios            | Sum(BudgetRevenue)     | Total de ingresos acumulados/facturados previstos. |
 | Margen bruto presupuestario       | Sum(BudgetGrossMargin) | Diferencia entre la suma de ingresos totales previstos y la suma de costes totales previstos. |
 
-### <a name="entity-projectaccountingcubeprojectplancostsview"></a>Entidad: ProjectAccountingCube\_ProjectPlanCostsView
+### <a name="entity-projectaccountingcube_projectplancostsview"></a>Entidad: ProjectAccountingCube\_ProjectPlanCostsView
 **Origen de datos:** Project
 
 | Medida agregada clave | Campo                    | Descripción |
 |---------------------------|--------------------------|-------------|
 | Costes planificados              | Sum(SumOfTotalCostPrice) | Precio de coste total en las estimaciones de todos los tipos de transacciones de proyecto que cuentan con tareas planificadas. |
 
-### <a name="entity-projectaccountingcubeprojects"></a>Entidad: ProjectAccountingCube\_Projects
+### <a name="entity-projectaccountingcube_projects"></a>Entidad: ProjectAccountingCube\_Projects
 **Origen de datos:** Project
 
 | Medida agregada clave    | Campo | Descripción |
@@ -112,7 +112,7 @@ En las secciones siguientes se describen las medidas de agregado que se utilizan
 | Proporción de horas facturables reales  | ProjectAccountingCube\_Projects\[Horas utilizadas facturables reales totales del proyecto\] ÷ (ProjectAccountingCube\_Projects\[Horas utilizadas facturables reales totales del proyecto\] + ProjectAccountingCube\_Projects\[Horas no facturables reales totales del proyecto\]) | Horas facturables totales reales, en función de las horas usadas y las horas no facturables. |
 | Valor obtenido                 | ProjectAccountingCube\_Projects\[Coste planificado total del proyecto\] × ProjectAccountingCube\_Projects\[Porcentaje de trabajo completado\] | Coste planificado total multiplicado por el porcentaje de trabajo completado. |
 
-### <a name="entity-projectaccountingcubetotalestimatedcosts"></a>Entidad: ProjectAccountingCube\_TotalEstimatedCosts 
+### <a name="entity-projectaccountingcube_totalestimatedcosts"></a>Entidad: ProjectAccountingCube\_TotalEstimatedCosts 
 **Origen de datos:** ProjTable
 
 | Medida agregada clave       | Campo               | Descripción |

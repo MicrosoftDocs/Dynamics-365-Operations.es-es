@@ -1,49 +1,46 @@
 ---
 title: Proponer adquisiciones de activos fijos
-description: Este procedimiento muestra cómo adquirir un activo fijo mediante la propuesta de adquisición del diario de activos fijos.
+description: Este tema describe cómo adquirir un activo fijo mediante la propuesta de adquisición del diario de activos fijos.
 author: saraschi2
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, AssetBook, LedgerJournalTable, LedgerJournalTransAsset, SysQueryForm
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1891206bb266b126eccfa789b8c8062c9bfa688b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4b35b13dc266fd5bccde437526400832d394b9aa
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570889"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1839914"
 ---
 # <a name="propose-fixed-asset-acquisitions"></a>Proponer adquisiciones de activos fijos
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimiento muestra cómo adquirir un activo fijo mediante la propuesta de adquisición del diario de activos fijos. Usa el rol de contable y los datos de prueba de la entidad jurídica USMF.
+Este tema describe cómo adquirir un activo fijo mediante la propuesta de adquisición del diario de activos fijos. Usa el rol de contable y los datos de prueba de la entidad jurídica USMF.
 
-1. Vaya a Activos fijos > Movimientos de diario > Diario de activos fijos.
-2. Haga clic en Nuevo.
-3. En el campo Nombre, especifique o seleccione un valor.
-4. Haga clic en Líneas.
-5. Haga clic en Propuestas.
-6. Haga clic en Propuesta de adquisición.
-7. Haga clic en Filtro.
-8. Haga clic en Restablecer para borrar los valores anteriores.
-9. Seleccione la fila Número de activo fijo.
-10. En el campo Criterios, especifique o seleccione un valor.
-    * Establezca los criterios restantes para los activos fijos que desea adquirir con esta propuesta.  
-11. Haga clic en Aceptar
-12. Haga clic en Aceptar
-    * Compruebe las líneas de transacción creadas.  
-    * Solo los activos fijos con la fecha de adquisición y el precio de adquisición establecidos en el libro se incluirán en la propuesta de adquisición.  
-13. Haga clic en la pestaña Libros.
-14. Haga clic en Registrar.
+1. En el panel de navegación, vaya a **Módulos > Activos fijos > Entradas del diario > Diario de activos fijos**.
+2. Seleccione **Nuevo**.
+3. En el campo **Nombre**, especifique o seleccione un valor.
+4. En el panel de acciones, seleccione **Líneas**.
+5. Seleccione **Propuestas**.
+6. Seleccione **Propuesta de adquisición**.
+7. Seleccione **Filtro**. Seleccione **Restablecer** para borrar los valores anteriores.
+8. Seleccione la fila **Número de activo fijo**.
+9. En el campo **Criterios**, especifique o seleccione un valor. Establezca los criterios restantes para los activos fijos que desea adquirir con esta propuesta.  
+10. Seleccione **Aceptar** dos veces para salir fuera del panel.
+- Compruebe las líneas de transacción creadas.  
+- Solo los activos fijos con la fecha de adquisición y el precio de adquisición establecidos en el libro se incluirán en la propuesta de adquisición.  
+11. En la página, seleccione la ficha **Libros**.
+12. Seleccione **Registrar**.
 

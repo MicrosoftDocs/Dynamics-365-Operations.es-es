@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: t-benebo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 266eec2bb870be270b7796b35903a402e014c67c
-ms.sourcegitcommit: 1f211ac6bd384fd8a2b5352104baf264d88f39b0
+ms.openlocfilehash: ca473de65135ddddea12ddc72e902056cc7b1db7
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "1538735"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1845319"
 ---
 # <a name="calendars-and-master-planning"></a>Calendarios y planificación maestra
 
@@ -93,7 +93,7 @@ Para indicar las fechas en que un cliente puede aceptar entregas, puede asignar 
 
 Tenga en cuenta que solo es posible incluir un calendario por cliente. Si necesita incluir un calendario para cada dirección diferente para un cliente, puede crear un cliente por dirección y asignarle su calendario respectivo. 
 
-La fecha de recepción solicitada en las líneas de pedido de ventas se verá afectada por el calendario de cliente y por el método de control de fecha de entrega. Puede leer más sobre cómo se calcula la fecha de entrega más temprana en [Compromisos de pedidos.](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations).
+La fecha de recepción solicitada en las líneas de pedido de ventas se verá afectada por el calendario de cliente y por el método de control de fecha de entrega. Puede leer más sobre cómo se calcula la fecha de entrega más temprana en [Compromisos de pedidos.](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations).
 
 ### <a name="shipping-calendar-for-a-legal-entity"></a>Calendario de envíos para una entidad jurídica
 Para indicar las fechas en las que una entidad jurídica puede enviar mercancías, puede configurar un calendario de envío en **Administración de la organización > organizaciones > entidades jurídicas**. Seleccione la entidad jurídica y agregue el calendario en la pestaña **Comercio exterior y logística** en el campo **Calendario de envío**. El calendario de envío hará de origen de los valores predeterminados para todos los calendarios de almacén en la entidad jurídica. 
