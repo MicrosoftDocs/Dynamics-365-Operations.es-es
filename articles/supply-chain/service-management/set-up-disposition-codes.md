@@ -18,41 +18,41 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 96fb8bd2ce7fed6962563773ad63a7a48943e1ca
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 1e21854825019a73dc8d7bf5a3ee18d508123f72
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1566515"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1743204"
 ---
-# <a name="set-up-disposition-codes"></a><span data-ttu-id="4a01d-103">Configurar códigos de disposición</span><span class="sxs-lookup"><span data-stu-id="4a01d-103">Set up disposition codes</span></span> 
+# <a name="set-up-disposition-codes"></a><span data-ttu-id="7df96-103">Configurar códigos de disposición</span><span class="sxs-lookup"><span data-stu-id="7df96-103">Set up disposition codes</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="4a01d-104">Puede configurar códigos de disposición para especificar cómo se va a procesar un artículo que se devuelve por un cliente.</span><span class="sxs-lookup"><span data-stu-id="4a01d-104">You can set up disposition codes to specify how to process an item that is returned by a customer.</span></span> <span data-ttu-id="4a01d-105">Por ejemplo, cree un código de disposición denominado **Reparación y devolución** para indicar que el artículo devuelto se reparó y después se devolvió al cliente.</span><span class="sxs-lookup"><span data-stu-id="4a01d-105">For example, create a disposition code named **Repair and return** to indicate that the returned item will be repaired and then returned to the customer.</span></span> <span data-ttu-id="4a01d-106">Para obtener más ejemplos de los códigos de disposición que se suelen usar para los artículos que devuelven los clientes, vea [Especificar la disposición de artículos devueltos](specify-how-to-dispose-of-returned-items.md).</span><span class="sxs-lookup"><span data-stu-id="4a01d-106">For more examples of disposition codes that are typically used for items that are returned by customers, see [Specify how to dispose of returned items](specify-how-to-dispose-of-returned-items.md).</span></span>
+<span data-ttu-id="7df96-104">Puede configurar códigos de disposición para especificar cómo se va a procesar un artículo que se devuelve por un cliente.</span><span class="sxs-lookup"><span data-stu-id="7df96-104">You can set up disposition codes to specify how to process an item that is returned by a customer.</span></span> <span data-ttu-id="7df96-105">Por ejemplo, cree un código de disposición denominado **Reparación y devolución** para indicar que el artículo devuelto se reparó y después se devolvió al cliente.</span><span class="sxs-lookup"><span data-stu-id="7df96-105">For example, create a disposition code named **Repair and return** to indicate that the returned item will be repaired and then returned to the customer.</span></span> <span data-ttu-id="7df96-106">Para obtener más ejemplos de los códigos de disposición que se suelen usar para los artículos que devuelven los clientes, vea [Especificar la disposición de artículos devueltos](specify-how-to-dispose-of-returned-items.md).</span><span class="sxs-lookup"><span data-stu-id="7df96-106">For more examples of disposition codes that are typically used for items that are returned by customers, see [Specify how to dispose of returned items](specify-how-to-dispose-of-returned-items.md).</span></span>
 
-<span data-ttu-id="4a01d-107">También puede configurar un código de motivo para ayudar a explicar por qué un artículo se ha devuelto.</span><span class="sxs-lookup"><span data-stu-id="4a01d-107">You can also set up a reason code to help explain why an item was returned.</span></span> <span data-ttu-id="4a01d-108">Para obtener más información sobre cómo configurar códigos de motivo, vea [Configuración de código de motivo de devolución](set-up-return-reason-code.md).</span><span class="sxs-lookup"><span data-stu-id="4a01d-108">For more information about reason codes, see [Set up return reason code](set-up-return-reason-code.md).</span></span>
+<span data-ttu-id="7df96-107">También puede configurar un código de motivo para ayudar a explicar por qué un artículo se ha devuelto.</span><span class="sxs-lookup"><span data-stu-id="7df96-107">You can also set up a reason code to help explain why an item was returned.</span></span> <span data-ttu-id="7df96-108">Para obtener más información sobre cómo configurar códigos de motivo, vea [Configuración de código de motivo de devolución](set-up-return-reason-code.md).</span><span class="sxs-lookup"><span data-stu-id="7df96-108">For more information about reason codes, see [Set up return reason code](set-up-return-reason-code.md).</span></span>
 
-1.  <span data-ttu-id="4a01d-109">Haga clic en **Ventas y marketing** \> **Configuración** \> **Pedidos de ventas** \> **Devoluciones** \> **Códigos de disposición**.</span><span class="sxs-lookup"><span data-stu-id="4a01d-109">Click **Sales and marketing** \> **Setup** \> **Sales orders** \> **Returns** \> **Disposition codes**.</span></span>
+1.  <span data-ttu-id="7df96-109">Haga clic en **Ventas y marketing** \> **Configuración** \> **Pedidos de ventas** \> **Devoluciones** \> **Códigos de disposición**.</span><span class="sxs-lookup"><span data-stu-id="7df96-109">Click **Sales and marketing** \> **Setup** \> **Sales orders** \> **Returns** \> **Disposition codes**.</span></span>
 
-2.  <span data-ttu-id="4a01d-110">Haga clic en **Nuevo** o presione CTRL+N para crear un nuevo código de disposición.</span><span class="sxs-lookup"><span data-stu-id="4a01d-110">Click **New** or press CTRL+N to create a new disposition code.</span></span>
+2.  <span data-ttu-id="7df96-110">Haga clic en **Nuevo** o presione CTRL+N para crear un nuevo código de disposición.</span><span class="sxs-lookup"><span data-stu-id="7df96-110">Click **New** or press CTRL+N to create a new disposition code.</span></span>
 
-3.  <span data-ttu-id="4a01d-111">Especifique un nombre descriptivo único, seleccione una acción y escriba una descripción para el código de disposición.</span><span class="sxs-lookup"><span data-stu-id="4a01d-111">Enter a unique, descriptive name, select an action, and enter a description for the disposition code.</span></span>
+3.  <span data-ttu-id="7df96-111">Especifique un nombre descriptivo único, seleccione una acción y escriba una descripción para el código de disposición.</span><span class="sxs-lookup"><span data-stu-id="7df96-111">Enter a unique, descriptive name, select an action, and enter a description for the disposition code.</span></span>
 
-4.  <span data-ttu-id="4a01d-112">Si desea asociar gastos de cliente con este código de disposición, haga clic en el botón **Gastos** para abrir el formulario **Configurar gastos**.</span><span class="sxs-lookup"><span data-stu-id="4a01d-112">If you want to associate any customer charges with this disposition code, click the **Charges** button to open the **Set up charges** form.</span></span>
+4.  <span data-ttu-id="7df96-112">Si desea asociar gastos de cliente con este código de disposición, haga clic en el botón **Gastos** para abrir el formulario **Configurar gastos**.</span><span class="sxs-lookup"><span data-stu-id="7df96-112">If you want to associate any customer charges with this disposition code, click the **Charges** button to open the **Set up charges** form.</span></span>
 
-5.  <span data-ttu-id="4a01d-113">Si desea definir códigos externos para que coincidan con los códigos de disposición propios de la empresa, haga clic en el botón **Códigos externos** para abrir el formulario **Códigos externos**.</span><span class="sxs-lookup"><span data-stu-id="4a01d-113">If you want to define any external codes to match with the company's own disposition codes, click the **External codes** button to open the **External codes** form.</span></span>
+5.  <span data-ttu-id="7df96-113">Si desea definir códigos externos para que coincidan con los códigos de disposición propios de la empresa, haga clic en el botón **Códigos externos** para abrir el formulario **Códigos externos**.</span><span class="sxs-lookup"><span data-stu-id="7df96-113">If you want to define any external codes to match with the company's own disposition codes, click the **External codes** button to open the **External codes** form.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="4a01d-114">Consulte también</span><span class="sxs-lookup"><span data-stu-id="4a01d-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7df96-114">Consulte también</span><span class="sxs-lookup"><span data-stu-id="7df96-114">See also</span></span>
 
-[<span data-ttu-id="4a01d-115">Códigos de distribución y códigos de motivo de devolución</span><span class="sxs-lookup"><span data-stu-id="4a01d-115">Disposition codes and return reason codes</span></span>](disposition-and-return-reason-codes.md)
+[<span data-ttu-id="7df96-115">Códigos de distribución y códigos de motivo de devolución</span><span class="sxs-lookup"><span data-stu-id="7df96-115">Disposition codes and return reason codes</span></span>](disposition-and-return-reason-codes.md)
 
-<span data-ttu-id="4a01d-116">[Códigos de disposición (formulario)](https://technet.microsoft.com/en-us/library/hh597113\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="4a01d-116">[Disposition codes (form)](https://technet.microsoft.com/en-us/library/hh597113\(v=ax.60\))</span></span>
+<span data-ttu-id="7df96-116">[Códigos de disposición (formulario)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="7df96-116">[Disposition codes (form)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))</span></span>
 
-<span data-ttu-id="4a01d-117">[Gastos automáticos (formularios)](https://technet.microsoft.com/en-us/library/aa582856\(v=ax.60\)).</span><span class="sxs-lookup"><span data-stu-id="4a01d-117">[Auto charges (form)](https://technet.microsoft.com/en-us/library/aa582856\(v=ax.60\))</span></span>
+<span data-ttu-id="7df96-117">[Gastos automáticos (formularios)](https://technet.microsoft.com/library/aa582856\(v=ax.60\)).</span><span class="sxs-lookup"><span data-stu-id="7df96-117">[Auto charges (form)](https://technet.microsoft.com/library/aa582856\(v=ax.60\))</span></span>
 
-<span data-ttu-id="4a01d-118">[Códigos externos (formulario)](https://technet.microsoft.com/en-us/library/aa583814\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="4a01d-118">[External codes (form)](https://technet.microsoft.com/en-us/library/aa583814\(v=ax.60\))</span></span>
+<span data-ttu-id="7df96-118">[Códigos externos (formulario)](https://technet.microsoft.com/library/aa583814\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="7df96-118">[External codes (form)](https://technet.microsoft.com/library/aa583814\(v=ax.60\))</span></span>
 
   
 

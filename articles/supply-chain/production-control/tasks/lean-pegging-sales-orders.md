@@ -10,50 +10,50 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, LeanPeggingTree
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2e2448dfd83304d4f7e5dfc8ce0d02cdac998779
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 90032539d59b310cb2d4c1324312eac6593fba6b
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555636"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1843610"
 ---
-# <a name="lean-pegging-from-sales-orders"></a><span data-ttu-id="8352a-103">Diagrama de árbol lean de pedidos de ventas</span><span class="sxs-lookup"><span data-stu-id="8352a-103">Lean pegging from sales orders</span></span>
+# <a name="lean-pegging-from-sales-orders"></a><span data-ttu-id="5d4a1-103">Diagrama de árbol lean de pedidos de ventas</span><span class="sxs-lookup"><span data-stu-id="5d4a1-103">Lean pegging from sales orders</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="8352a-104">Este procedimiento se centra en validar el diagrama de árbol de una línea de ventas donde el artículo se produce con kanbans.</span><span class="sxs-lookup"><span data-stu-id="8352a-104">This procedure focuses on validating the pegging tree from a sales line where the item is produced with kanbans.</span></span> <span data-ttu-id="8352a-105">Después de validar el diagrama de árbol, se planifican todos los trabajos kanban.</span><span class="sxs-lookup"><span data-stu-id="8352a-105">After validating the pegging tree, all the kanban jobs are planned.</span></span> <span data-ttu-id="8352a-106">Esto resulta útil para escenarios de pedidos donde el creador del pedido necesita asegurarse de que la producción puede comenzar inmediatamente.</span><span class="sxs-lookup"><span data-stu-id="8352a-106">This is useful for order scenarios where the order taker needs to ensure that production can start right away.</span></span> <span data-ttu-id="8352a-107">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="8352a-107">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="8352a-108">Este procedimiento está pensado para el creador del pedido avanzado que trabaja en una empresa lean.</span><span class="sxs-lookup"><span data-stu-id="8352a-108">This procedure is intended for the advanced order taker working in a lean company.</span></span>
+<span data-ttu-id="5d4a1-104">Este procedimiento se centra en validar el diagrama de árbol de una línea de ventas donde el artículo se produce con kanbans.</span><span class="sxs-lookup"><span data-stu-id="5d4a1-104">This procedure focuses on validating the pegging tree from a sales line where the item is produced with kanbans.</span></span> <span data-ttu-id="5d4a1-105">Después de validar el diagrama de árbol, se planifican todos los trabajos kanban.</span><span class="sxs-lookup"><span data-stu-id="5d4a1-105">After validating the pegging tree, all the kanban jobs are planned.</span></span> <span data-ttu-id="5d4a1-106">Esto resulta útil para escenarios de pedidos donde el creador del pedido necesita asegurarse de que la producción puede comenzar inmediatamente.</span><span class="sxs-lookup"><span data-stu-id="5d4a1-106">This is useful for order scenarios where the order taker needs to ensure that production can start right away.</span></span> <span data-ttu-id="5d4a1-107">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="5d4a1-107">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="5d4a1-108">Este procedimiento está pensado para el creador del pedido avanzado que trabaja en una empresa lean.</span><span class="sxs-lookup"><span data-stu-id="5d4a1-108">This procedure is intended for the advanced order taker working in a lean company.</span></span>
 
 
-## <a name="create-a-sales-order-for-a-kanban-controlled-item"></a><span data-ttu-id="8352a-109">Crear un pedido de ventas para un artículo controlado por kanban</span><span class="sxs-lookup"><span data-stu-id="8352a-109">Create a sales order for a kanban controlled item</span></span>
-1. <span data-ttu-id="8352a-110">Vaya a Todos los pedidos de ventas.</span><span class="sxs-lookup"><span data-stu-id="8352a-110">Go to All sales orders.</span></span>
-2. <span data-ttu-id="8352a-111">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="8352a-111">Click New.</span></span>
-3. <span data-ttu-id="8352a-112">En el campo Cuenta de cliente, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="8352a-112">In the Customer account field, enter or select a value.</span></span>
-    * <span data-ttu-id="8352a-113">Use US-001.</span><span class="sxs-lookup"><span data-stu-id="8352a-113">Use US-001.</span></span>  
-4. <span data-ttu-id="8352a-114">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="8352a-114">Click OK.</span></span>
-5. <span data-ttu-id="8352a-115">En el campo Código de artículo, escriba 'L0001'.</span><span class="sxs-lookup"><span data-stu-id="8352a-115">In the Item number field, type 'L0001'.</span></span>
-6. <span data-ttu-id="8352a-116">Establezca el valor de cantidad en '30'.</span><span class="sxs-lookup"><span data-stu-id="8352a-116">Set Quantity to '30'.</span></span>
-    * <span data-ttu-id="8352a-117">Es importante que la cantidad sea mayor de 24 para activar la regla kanban de evento.</span><span class="sxs-lookup"><span data-stu-id="8352a-117">It is important that the quantity is higher than 24 in order to trigger the event kanban rule.</span></span>  
+## <a name="create-a-sales-order-for-a-kanban-controlled-item"></a><span data-ttu-id="5d4a1-109">Crear un pedido de ventas para un artículo controlado por kanban</span><span class="sxs-lookup"><span data-stu-id="5d4a1-109">Create a sales order for a kanban controlled item</span></span>
+1. <span data-ttu-id="5d4a1-110">Vaya a Todos los pedidos de ventas.</span><span class="sxs-lookup"><span data-stu-id="5d4a1-110">Go to All sales orders.</span></span>
+2. <span data-ttu-id="5d4a1-111">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="5d4a1-111">Click New.</span></span>
+3. <span data-ttu-id="5d4a1-112">En el campo Cuenta de cliente, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="5d4a1-112">In the Customer account field, enter or select a value.</span></span>
+    * <span data-ttu-id="5d4a1-113">Use US-001.</span><span class="sxs-lookup"><span data-stu-id="5d4a1-113">Use US-001.</span></span>  
+4. <span data-ttu-id="5d4a1-114">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="5d4a1-114">Click OK.</span></span>
+5. <span data-ttu-id="5d4a1-115">En el campo Código de artículo, escriba 'L0001'.</span><span class="sxs-lookup"><span data-stu-id="5d4a1-115">In the Item number field, type 'L0001'.</span></span>
+6. <span data-ttu-id="5d4a1-116">Establezca el valor de cantidad en '30'.</span><span class="sxs-lookup"><span data-stu-id="5d4a1-116">Set Quantity to '30'.</span></span>
+    * <span data-ttu-id="5d4a1-117">Es importante que la cantidad sea mayor de 24 para activar la regla kanban de evento.</span><span class="sxs-lookup"><span data-stu-id="5d4a1-117">It is important that the quantity is higher than 24 in order to trigger the event kanban rule.</span></span>  
 
-## <a name="open-a-pegging-tree"></a><span data-ttu-id="8352a-118">Abrir un árbol de diagrama de árbol</span><span class="sxs-lookup"><span data-stu-id="8352a-118">Open a pegging tree</span></span> 
-1. <span data-ttu-id="8352a-119">Haga clic en Producto y suministro.</span><span class="sxs-lookup"><span data-stu-id="8352a-119">Click Product and supply.</span></span>
-2. <span data-ttu-id="8352a-120">Haga clic en Ver diagrama de árbol.</span><span class="sxs-lookup"><span data-stu-id="8352a-120">Click View pegging tree.</span></span>
-    * <span data-ttu-id="8352a-121">Tenga en cuenta que el diagrama de árbol muestra todos los niveles del diagrama de árbol necesario para la línea de pedido de ventas.</span><span class="sxs-lookup"><span data-stu-id="8352a-121">Notice that the pegging tree shows all levels of the pegging needed for the sales order line.</span></span> <span data-ttu-id="8352a-122">En este caso, hay dos niveles de kanbans y todos los componentes necesarios.</span><span class="sxs-lookup"><span data-stu-id="8352a-122">In this case, there are two levels of kanbans and all the required components.</span></span>  
+## <a name="open-a-pegging-tree"></a><span data-ttu-id="5d4a1-118">Abrir un árbol de diagrama de árbol</span><span class="sxs-lookup"><span data-stu-id="5d4a1-118">Open a pegging tree</span></span> 
+1. <span data-ttu-id="5d4a1-119">Haga clic en Producto y suministro.</span><span class="sxs-lookup"><span data-stu-id="5d4a1-119">Click Product and supply.</span></span>
+2. <span data-ttu-id="5d4a1-120">Haga clic en Ver diagrama de árbol.</span><span class="sxs-lookup"><span data-stu-id="5d4a1-120">Click View pegging tree.</span></span>
+    * <span data-ttu-id="5d4a1-121">Tenga en cuenta que el diagrama de árbol muestra todos los niveles del diagrama de árbol necesario para la línea de pedido de ventas.</span><span class="sxs-lookup"><span data-stu-id="5d4a1-121">Notice that the pegging tree shows all levels of the pegging needed for the sales order line.</span></span> <span data-ttu-id="5d4a1-122">En este caso, hay dos niveles de kanbans y todos los componentes necesarios.</span><span class="sxs-lookup"><span data-stu-id="5d4a1-122">In this case, there are two levels of kanbans and all the required components.</span></span>  
 
-## <a name="plan-the-pegging-tree"></a><span data-ttu-id="8352a-123">Planificar el diagrama de árbol</span><span class="sxs-lookup"><span data-stu-id="8352a-123">Plan the pegging tree</span></span>
-1. <span data-ttu-id="8352a-124">En el árbol, seleccione "Línea de ventas 000832\Kanban 000558".</span><span class="sxs-lookup"><span data-stu-id="8352a-124">In the tree, select 'Sales line 000832\Kanban 000558'.</span></span>
-2. <span data-ttu-id="8352a-125">Expanda la sección Trabajos kanban.</span><span class="sxs-lookup"><span data-stu-id="8352a-125">Expand the Kanban jobs section.</span></span>
-    * <span data-ttu-id="8352a-126">Observe que el estado de trabajo del trabajo es Sin planificar.</span><span class="sxs-lookup"><span data-stu-id="8352a-126">Notice that the job status for the kanban job is Not planned.</span></span>  
-3. <span data-ttu-id="8352a-127">Haga clic en Planificar todo el diagrama de árbol.</span><span class="sxs-lookup"><span data-stu-id="8352a-127">Click Plan entire pegging tree.</span></span>
-    * <span data-ttu-id="8352a-128">Esto planeará todos los trabajos kanban en el diagrama de árbol, cambiando el estado del trabajo de Sin planificar a Planificado.</span><span class="sxs-lookup"><span data-stu-id="8352a-128">This will plan all kanban jobs in the pegging tree, changing the Job status from Not planned to Planned.</span></span>  
-4. <span data-ttu-id="8352a-129">Actualice la página.</span><span class="sxs-lookup"><span data-stu-id="8352a-129">Refresh the page.</span></span>
-    * <span data-ttu-id="8352a-130">Observe que el estado del trabajo kanban cambió de Sin planificar a Planificado.</span><span class="sxs-lookup"><span data-stu-id="8352a-130">Notice that the kanban Job status changed from Not planned to Planned.</span></span>  
-5. <span data-ttu-id="8352a-131">En el árbol, seleccione "Sales line 000832\Kanban 000558\Issue for L0001\Kanban 000559".</span><span class="sxs-lookup"><span data-stu-id="8352a-131">In the tree, select 'Sales line 000832\Kanban 000558\Issue for L0001\Kanban 000559'.</span></span>
-    * <span data-ttu-id="8352a-132">El trabajo para el segundo kanban también se planifica, ya que se planifica el diagrama de árbol completo.</span><span class="sxs-lookup"><span data-stu-id="8352a-132">The job for the second kanban is also planned, because the entire pegging tree is planned.</span></span> <span data-ttu-id="8352a-133">Observe que el estado del trabajo kanban se cambia de Sin planificar a Planificado.</span><span class="sxs-lookup"><span data-stu-id="8352a-133">Notice that the kanban job status is changed from Not planned to Planned.</span></span>  
+## <a name="plan-the-pegging-tree"></a><span data-ttu-id="5d4a1-123">Planificar el diagrama de árbol</span><span class="sxs-lookup"><span data-stu-id="5d4a1-123">Plan the pegging tree</span></span>
+1. <span data-ttu-id="5d4a1-124">En el árbol, seleccione "Línea de ventas 000832\Kanban 000558".</span><span class="sxs-lookup"><span data-stu-id="5d4a1-124">In the tree, select 'Sales line 000832\Kanban 000558'.</span></span>
+2. <span data-ttu-id="5d4a1-125">Expanda la sección Trabajos kanban.</span><span class="sxs-lookup"><span data-stu-id="5d4a1-125">Expand the Kanban jobs section.</span></span>
+    * <span data-ttu-id="5d4a1-126">Observe que el estado de trabajo del trabajo es Sin planificar.</span><span class="sxs-lookup"><span data-stu-id="5d4a1-126">Notice that the job status for the kanban job is Not planned.</span></span>  
+3. <span data-ttu-id="5d4a1-127">Haga clic en Planificar todo el diagrama de árbol.</span><span class="sxs-lookup"><span data-stu-id="5d4a1-127">Click Plan entire pegging tree.</span></span>
+    * <span data-ttu-id="5d4a1-128">Esto planeará todos los trabajos kanban en el diagrama de árbol, cambiando el estado del trabajo de Sin planificar a Planificado.</span><span class="sxs-lookup"><span data-stu-id="5d4a1-128">This will plan all kanban jobs in the pegging tree, changing the Job status from Not planned to Planned.</span></span>  
+4. <span data-ttu-id="5d4a1-129">Actualice la página.</span><span class="sxs-lookup"><span data-stu-id="5d4a1-129">Refresh the page.</span></span>
+    * <span data-ttu-id="5d4a1-130">Observe que el estado del trabajo kanban cambió de Sin planificar a Planificado.</span><span class="sxs-lookup"><span data-stu-id="5d4a1-130">Notice that the kanban Job status changed from Not planned to Planned.</span></span>  
+5. <span data-ttu-id="5d4a1-131">En el árbol, seleccione "Sales line 000832\Kanban 000558\Issue for L0001\Kanban 000559".</span><span class="sxs-lookup"><span data-stu-id="5d4a1-131">In the tree, select 'Sales line 000832\Kanban 000558\Issue for L0001\Kanban 000559'.</span></span>
+    * <span data-ttu-id="5d4a1-132">El trabajo para el segundo kanban también se planifica, ya que se planifica el diagrama de árbol completo.</span><span class="sxs-lookup"><span data-stu-id="5d4a1-132">The job for the second kanban is also planned, because the entire pegging tree is planned.</span></span> <span data-ttu-id="5d4a1-133">Observe que el estado del trabajo kanban se cambia de Sin planificar a Planificado.</span><span class="sxs-lookup"><span data-stu-id="5d4a1-133">Notice that the kanban job status is changed from Not planned to Planned.</span></span>  
 
