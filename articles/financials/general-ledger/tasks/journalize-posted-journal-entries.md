@@ -10,35 +10,35 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerParameters, SysQueryForm
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b50809cf9eb59475856f91d9f1ddfe28ecfd8de6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cbf7ee8063487303cd4c8d2b76a8b44bacc86193
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547919"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1846400"
 ---
-# <a name="journalize-posted-journal-entries"></a><span data-ttu-id="00106-103">Registrar en el diario movimientos de diario</span><span class="sxs-lookup"><span data-stu-id="00106-103">Journalize posted journal entries</span></span>
+# <a name="journalize-posted-journal-entries"></a><span data-ttu-id="817e9-103">Registrar en el diario movimientos de diario</span><span class="sxs-lookup"><span data-stu-id="817e9-103">Journalize posted journal entries</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="00106-104">Este procedimiento muestra los pasos para registrar en el diario las entradas del diario registradas.</span><span class="sxs-lookup"><span data-stu-id="00106-104">This procedure shows how to journalize posted journal entries.</span></span> <span data-ttu-id="00106-105">Este procedimiento usa la empresa de datos de demostración USMF.</span><span class="sxs-lookup"><span data-stu-id="00106-105">This procedure uses the USMF demo data company.</span></span>
+<span data-ttu-id="817e9-104">Este procedimiento muestra los pasos para registrar en el diario las entradas del diario registradas.</span><span class="sxs-lookup"><span data-stu-id="817e9-104">This procedure shows how to journalize posted journal entries.</span></span> <span data-ttu-id="817e9-105">Este procedimiento usa la empresa de datos de demostración USMF.</span><span class="sxs-lookup"><span data-stu-id="817e9-105">This procedure uses the USMF demo data company.</span></span>
 
-1. <span data-ttu-id="00106-106">Validar la configuración para registrar en el diario bajo Contabilidad general > Configuración de contabilidad > Parámetros de contabilidad general.</span><span class="sxs-lookup"><span data-stu-id="00106-106">Validate the settings for journalizing under General ledger > Ledger setup > General ledger parameters.</span></span>
-2. <span data-ttu-id="00106-107">El campo Diario contable ampliado se puede establecer en Sí o No.</span><span class="sxs-lookup"><span data-stu-id="00106-107">The Extended ledger journal field can be set to Yes or No.</span></span> <span data-ttu-id="00106-108">Si Sí, la salida de informes es diferente.</span><span class="sxs-lookup"><span data-stu-id="00106-108">If Yes, the report output will be different.</span></span>
-3. <span data-ttu-id="00106-109">Seleccione si el período puede cerrarse si el proceso de registro en el diario no se ha ejecutado.</span><span class="sxs-lookup"><span data-stu-id="00106-109">Select whether the period can be closed if the journalizing process hasn't been run.</span></span>
-    * <span data-ttu-id="00106-110">Si esta opción se establece en Sí, no puede cerrarse el período hasta que el proceso de registro en el diario se haya completado para ese período.</span><span class="sxs-lookup"><span data-stu-id="00106-110">If this option is set to Yes, the period cannot be closed until the journalizing process has been completed for that period.</span></span>  
-4. <span data-ttu-id="00106-111">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="00106-111">Close the page.</span></span>
-5. <span data-ttu-id="00106-112">Vaya a Contabilidad general > Tareas periódicas > Creación de diarios.</span><span class="sxs-lookup"><span data-stu-id="00106-112">Go to General ledger > Periodic tasks > Journalizing.</span></span>
-6. <span data-ttu-id="00106-113">Haga clic en Filtro.</span><span class="sxs-lookup"><span data-stu-id="00106-113">Click Filter.</span></span>
-7. <span data-ttu-id="00106-114">Resalte la fila con los criterios de filtro que desee definir.</span><span class="sxs-lookup"><span data-stu-id="00106-114">Highlight the row with the filter criteria that you want to define.</span></span>
-8. <span data-ttu-id="00106-115">En el campo Criterios, especifique o seleccione los criterios de filtro.</span><span class="sxs-lookup"><span data-stu-id="00106-115">In the Criteria field, enter or select the filter criteria..</span></span>
-9. <span data-ttu-id="00106-116">Haga clic en Aceptar para cerrar la página de filtro.</span><span class="sxs-lookup"><span data-stu-id="00106-116">Click OK to close the filter page.</span></span>
-10. <span data-ttu-id="00106-117">Haga clic en Aceptar para iniciar el proceso de registro en el diario.</span><span class="sxs-lookup"><span data-stu-id="00106-117">Click OK to start the journalizing process.</span></span>
-    * <span data-ttu-id="00106-118">Se generará un informe después de que se complete el proceso.</span><span class="sxs-lookup"><span data-stu-id="00106-118">A report will be generated after the process is complete.</span></span>  
+1. <span data-ttu-id="817e9-106">Validar la configuración para registrar en el diario bajo Contabilidad general > Configuración de contabilidad > Parámetros de contabilidad general.</span><span class="sxs-lookup"><span data-stu-id="817e9-106">Validate the settings for journalizing under General ledger > Ledger setup > General ledger parameters.</span></span>
+2. <span data-ttu-id="817e9-107">El campo Diario contable ampliado se puede establecer en Sí o No.</span><span class="sxs-lookup"><span data-stu-id="817e9-107">The Extended ledger journal field can be set to Yes or No.</span></span> <span data-ttu-id="817e9-108">Si Sí, la salida de informes es diferente.</span><span class="sxs-lookup"><span data-stu-id="817e9-108">If Yes, the report output will be different.</span></span>
+3. <span data-ttu-id="817e9-109">Seleccione si el período puede cerrarse si el proceso de registro en el diario no se ha ejecutado.</span><span class="sxs-lookup"><span data-stu-id="817e9-109">Select whether the period can be closed if the journalizing process hasn't been run.</span></span>
+    * <span data-ttu-id="817e9-110">Si esta opción se establece en Sí, no puede cerrarse el período hasta que el proceso de registro en el diario se haya completado para ese período.</span><span class="sxs-lookup"><span data-stu-id="817e9-110">If this option is set to Yes, the period cannot be closed until the journalizing process has been completed for that period.</span></span>  
+4. <span data-ttu-id="817e9-111">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="817e9-111">Close the page.</span></span>
+5. <span data-ttu-id="817e9-112">Vaya a Contabilidad general > Tareas periódicas > Creación de diarios.</span><span class="sxs-lookup"><span data-stu-id="817e9-112">Go to General ledger > Periodic tasks > Journalizing.</span></span>
+6. <span data-ttu-id="817e9-113">Haga clic en Filtro.</span><span class="sxs-lookup"><span data-stu-id="817e9-113">Click Filter.</span></span>
+7. <span data-ttu-id="817e9-114">Resalte la fila con los criterios de filtro que desee definir.</span><span class="sxs-lookup"><span data-stu-id="817e9-114">Highlight the row with the filter criteria that you want to define.</span></span>
+8. <span data-ttu-id="817e9-115">En el campo Criterios, especifique o seleccione los criterios de filtro.</span><span class="sxs-lookup"><span data-stu-id="817e9-115">In the Criteria field, enter or select the filter criteria..</span></span>
+9. <span data-ttu-id="817e9-116">Haga clic en Aceptar para cerrar la página de filtro.</span><span class="sxs-lookup"><span data-stu-id="817e9-116">Click OK to close the filter page.</span></span>
+10. <span data-ttu-id="817e9-117">Haga clic en Aceptar para iniciar el proceso de registro en el diario.</span><span class="sxs-lookup"><span data-stu-id="817e9-117">Click OK to start the journalizing process.</span></span>
+    * <span data-ttu-id="817e9-118">Se generará un informe después de que se complete el proceso.</span><span class="sxs-lookup"><span data-stu-id="817e9-118">A report will be generated after the process is complete.</span></span>  
 

@@ -10,101 +10,101 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, RouteInventProd, RouteGroup
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a68b28c0e0ee14429a23d3241cabdae948d706d2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5aa7db4ed66e7201d8d480d948a4249e43febde7
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567869"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1844570"
 ---
-# <a name="create-routes-february-2016"></a><span data-ttu-id="04606-103">Crear rutas (febrero 2016)</span><span class="sxs-lookup"><span data-stu-id="04606-103">Create routes (February 2016)</span></span>
+# <a name="create-routes-february-2016"></a><span data-ttu-id="f0b5e-103">Crear rutas (febrero 2016)</span><span class="sxs-lookup"><span data-stu-id="f0b5e-103">Create routes (February 2016)</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="04606-104">Esta tarea se centra en la creación de rutas de producción para un producto terminado y para un producto semiterminado.</span><span class="sxs-lookup"><span data-stu-id="04606-104">This task focuses on creating the production routes for a finished product and a semi-finished product.</span></span> <span data-ttu-id="04606-105">Es la quinta tarea en las series de cálculo BOM.</span><span class="sxs-lookup"><span data-stu-id="04606-105">It is the fifth task in the BOM calculation series.</span></span> <span data-ttu-id="04606-106">La empresa de datos de prueba utilizada para crear esta tarea es USMF.</span><span class="sxs-lookup"><span data-stu-id="04606-106">The demo data company used to create this task is USMF.</span></span>
+<span data-ttu-id="f0b5e-104">Esta tarea se centra en la creación de rutas de producción para un producto terminado y para un producto semiterminado.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-104">This task focuses on creating the production routes for a finished product and a semi-finished product.</span></span> <span data-ttu-id="f0b5e-105">Es la quinta tarea en las series de cálculo BOM.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-105">It is the fifth task in the BOM calculation series.</span></span> <span data-ttu-id="f0b5e-106">La empresa de datos de prueba utilizada para crear esta tarea es USMF.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-106">The demo data company used to create this task is USMF.</span></span>
 
 
-## <a name="create-a-route-for-a-semi-finished-product"></a><span data-ttu-id="04606-107">Cree una ruta para un producto semi-acabado.</span><span class="sxs-lookup"><span data-stu-id="04606-107">Create a route for a semi-finished product</span></span>
-1. <span data-ttu-id="04606-108">Vaya a Gestión de información de productos > Productos > Productos emitidos.</span><span class="sxs-lookup"><span data-stu-id="04606-108">Go to Product information management > Products > Released products.</span></span>
-2. <span data-ttu-id="04606-109">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="04606-109">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="04606-110">Seleccione el número de artículo BOM_2.</span><span class="sxs-lookup"><span data-stu-id="04606-110">Select the item number BOM_2.</span></span>  
-3. <span data-ttu-id="04606-111">En el panel de acciones, haga clic en Ingeniero.</span><span class="sxs-lookup"><span data-stu-id="04606-111">On the Action Pane, click Engineer.</span></span>
-4. <span data-ttu-id="04606-112">Haga clic en Ruta.</span><span class="sxs-lookup"><span data-stu-id="04606-112">Click Route.</span></span>
-5. <span data-ttu-id="04606-113">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="04606-113">Click New.</span></span>
-6. <span data-ttu-id="04606-114">Haga clic en Ruta y en versión de ruta.</span><span class="sxs-lookup"><span data-stu-id="04606-114">Click Route and route version.</span></span>
-7. <span data-ttu-id="04606-115">En el campo Descripción, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="04606-115">In the Description field, type a value.</span></span>
-    * <span data-ttu-id="04606-116">Por ejemplo, introduzca ROUTE_2.</span><span class="sxs-lookup"><span data-stu-id="04606-116">For example, type ROUTE_2.</span></span>  
-8. <span data-ttu-id="04606-117">En el campo Sitio, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="04606-117">In the Site field, enter or select a value.</span></span>
-    * <span data-ttu-id="04606-118">Para este ejemplo, introduzca o seleccione el Sitio 1.</span><span class="sxs-lookup"><span data-stu-id="04606-118">For this example, enter or select Site 1.</span></span>  
-9. <span data-ttu-id="04606-119">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="04606-119">Click OK.</span></span>
-10. <span data-ttu-id="04606-120">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="04606-120">Click New.</span></span>
-11. <span data-ttu-id="04606-121">En el campo Operación, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="04606-121">In the Operation field, enter or select a value.</span></span>
-    * <span data-ttu-id="04606-122">Para este ejemplo, seleccione Ensamblado.</span><span class="sxs-lookup"><span data-stu-id="04606-122">For this example, select Assembly.</span></span>  
-12. <span data-ttu-id="04606-123">En el campo Tiempo de ejecución, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="04606-123">In the Run time field, enter a number.</span></span>
-    * <span data-ttu-id="04606-124">Por ejemplo, escriba 1.</span><span class="sxs-lookup"><span data-stu-id="04606-124">For example, type 1.</span></span> <span data-ttu-id="04606-125">Los tiempos de ejecución suelen ser parte del precio calculado para un artículo.</span><span class="sxs-lookup"><span data-stu-id="04606-125">Run times are often part of the price that is calculated for an item.</span></span>  
-13. <span data-ttu-id="04606-126">En el campo Grupo de rutas, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="04606-126">In the Route group field, enter or select a value.</span></span>
-    * <span data-ttu-id="04606-127">Para este ejemplo, seleccione Std.</span><span class="sxs-lookup"><span data-stu-id="04606-127">For this example, select Std.</span></span>  
-14. <span data-ttu-id="04606-128">Haga clic en la pestaña Configurar.</span><span class="sxs-lookup"><span data-stu-id="04606-128">Click the Setup tab.</span></span>
-15. <span data-ttu-id="04606-129">En el campo Categoría de configuración, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="04606-129">In the Setup category field, enter or select a value.</span></span>
-    * <span data-ttu-id="04606-130">Para este ejemplo, seleccione Ensamblado.</span><span class="sxs-lookup"><span data-stu-id="04606-130">For this example, select Assembly.</span></span>  
-16. <span data-ttu-id="04606-131">Haga clic en la ficha Tiempos.</span><span class="sxs-lookup"><span data-stu-id="04606-131">Click the Times tab.</span></span>
-17. <span data-ttu-id="04606-132">En el campo Tiempo de configuración, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="04606-132">In the Setup time field, enter a number.</span></span>
-    * <span data-ttu-id="04606-133">Para este ejemplo, especifique 1.</span><span class="sxs-lookup"><span data-stu-id="04606-133">For this example, type 1.</span></span> <span data-ttu-id="04606-134">Los tiempos de configuración suelen ser parte de un precio calculado para un artículo.</span><span class="sxs-lookup"><span data-stu-id="04606-134">Setup times are often part of the price that is calculated for an item.</span></span>  
-18. <span data-ttu-id="04606-135">En el Panel de acciones, haga clic en Versión de ruta.</span><span class="sxs-lookup"><span data-stu-id="04606-135">On the Action Pane, click Route version.</span></span>
-19. <span data-ttu-id="04606-136">Haga clic en Aprobar.</span><span class="sxs-lookup"><span data-stu-id="04606-136">Click Approve.</span></span>
-20. <span data-ttu-id="04606-137">Seleccione Sí en ¿Desea aprobar también la ruta? .</span><span class="sxs-lookup"><span data-stu-id="04606-137">Select Yes in the Do you also want to approve the route? field.</span></span>
-21. <span data-ttu-id="04606-138">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="04606-138">Click OK.</span></span>
-22. <span data-ttu-id="04606-139">En el Panel de acciones, haga clic en Versión de ruta.</span><span class="sxs-lookup"><span data-stu-id="04606-139">On the Action Pane, click Route version.</span></span>
-23. <span data-ttu-id="04606-140">Haga clic en Activar.</span><span class="sxs-lookup"><span data-stu-id="04606-140">Click Activate.</span></span>
-24. <span data-ttu-id="04606-141">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="04606-141">Close the page.</span></span>
-25. <span data-ttu-id="04606-142">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="04606-142">Close the page.</span></span>
+## <a name="create-a-route-for-a-semi-finished-product"></a><span data-ttu-id="f0b5e-107">Cree una ruta para un producto semi-acabado.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-107">Create a route for a semi-finished product</span></span>
+1. <span data-ttu-id="f0b5e-108">Vaya a Gestión de información de productos > Productos > Productos emitidos.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-108">Go to Product information management > Products > Released products.</span></span>
+2. <span data-ttu-id="f0b5e-109">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-109">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="f0b5e-110">Seleccione el número de artículo BOM_2.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-110">Select the item number BOM_2.</span></span>  
+3. <span data-ttu-id="f0b5e-111">En el panel de acciones, haga clic en Ingeniero.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-111">On the Action Pane, click Engineer.</span></span>
+4. <span data-ttu-id="f0b5e-112">Haga clic en Ruta.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-112">Click Route.</span></span>
+5. <span data-ttu-id="f0b5e-113">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-113">Click New.</span></span>
+6. <span data-ttu-id="f0b5e-114">Haga clic en Ruta y en versión de ruta.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-114">Click Route and route version.</span></span>
+7. <span data-ttu-id="f0b5e-115">En el campo Descripción, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-115">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="f0b5e-116">Por ejemplo, introduzca ROUTE_2.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-116">For example, type ROUTE_2.</span></span>  
+8. <span data-ttu-id="f0b5e-117">En el campo Sitio, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-117">In the Site field, enter or select a value.</span></span>
+    * <span data-ttu-id="f0b5e-118">Para este ejemplo, introduzca o seleccione el Sitio 1.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-118">For this example, enter or select Site 1.</span></span>  
+9. <span data-ttu-id="f0b5e-119">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="f0b5e-119">Click OK.</span></span>
+10. <span data-ttu-id="f0b5e-120">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-120">Click New.</span></span>
+11. <span data-ttu-id="f0b5e-121">En el campo Operación, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-121">In the Operation field, enter or select a value.</span></span>
+    * <span data-ttu-id="f0b5e-122">Para este ejemplo, seleccione Ensamblado.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-122">For this example, select Assembly.</span></span>  
+12. <span data-ttu-id="f0b5e-123">En el campo Tiempo de ejecución, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-123">In the Run time field, enter a number.</span></span>
+    * <span data-ttu-id="f0b5e-124">Por ejemplo, escriba 1.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-124">For example, type 1.</span></span> <span data-ttu-id="f0b5e-125">Los tiempos de ejecución suelen ser parte del precio calculado para un artículo.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-125">Run times are often part of the price that is calculated for an item.</span></span>  
+13. <span data-ttu-id="f0b5e-126">En el campo Grupo de rutas, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-126">In the Route group field, enter or select a value.</span></span>
+    * <span data-ttu-id="f0b5e-127">Para este ejemplo, seleccione Std.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-127">For this example, select Std.</span></span>  
+14. <span data-ttu-id="f0b5e-128">Haga clic en la pestaña Configurar.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-128">Click the Setup tab.</span></span>
+15. <span data-ttu-id="f0b5e-129">En el campo Categoría de configuración, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-129">In the Setup category field, enter or select a value.</span></span>
+    * <span data-ttu-id="f0b5e-130">Para este ejemplo, seleccione Ensamblado.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-130">For this example, select Assembly.</span></span>  
+16. <span data-ttu-id="f0b5e-131">Haga clic en la ficha Tiempos.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-131">Click the Times tab.</span></span>
+17. <span data-ttu-id="f0b5e-132">En el campo Tiempo de configuración, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-132">In the Setup time field, enter a number.</span></span>
+    * <span data-ttu-id="f0b5e-133">Para este ejemplo, especifique 1.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-133">For this example, type 1.</span></span> <span data-ttu-id="f0b5e-134">Los tiempos de configuración suelen ser parte de un precio calculado para un artículo.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-134">Setup times are often part of the price that is calculated for an item.</span></span>  
+18. <span data-ttu-id="f0b5e-135">En el Panel de acciones, haga clic en Versión de ruta.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-135">On the Action Pane, click Route version.</span></span>
+19. <span data-ttu-id="f0b5e-136">Haga clic en Aprobar.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-136">Click Approve.</span></span>
+20. <span data-ttu-id="f0b5e-137">Seleccione Sí en ¿Desea aprobar también la ruta? .</span><span class="sxs-lookup"><span data-stu-id="f0b5e-137">Select Yes in the Do you also want to approve the route? field.</span></span>
+21. <span data-ttu-id="f0b5e-138">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="f0b5e-138">Click OK.</span></span>
+22. <span data-ttu-id="f0b5e-139">En el Panel de acciones, haga clic en Versión de ruta.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-139">On the Action Pane, click Route version.</span></span>
+23. <span data-ttu-id="f0b5e-140">Haga clic en Activar.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-140">Click Activate.</span></span>
+24. <span data-ttu-id="f0b5e-141">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-141">Close the page.</span></span>
+25. <span data-ttu-id="f0b5e-142">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-142">Close the page.</span></span>
 
-## <a name="create-a-route-for-a-finished-product"></a><span data-ttu-id="04606-143">Cree una ruta para un producto acabado</span><span class="sxs-lookup"><span data-stu-id="04606-143">Create a route for a finished product</span></span>
-1. <span data-ttu-id="04606-144">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="04606-144">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="04606-145">Seleccione el número de artículo BOM_1.</span><span class="sxs-lookup"><span data-stu-id="04606-145">Select the item number BOM_1.</span></span>  
-2. <span data-ttu-id="04606-146">En el panel de acciones, haga clic en Ingeniero.</span><span class="sxs-lookup"><span data-stu-id="04606-146">On the Action Pane, click Engineer.</span></span>
-3. <span data-ttu-id="04606-147">Haga clic en Ruta.</span><span class="sxs-lookup"><span data-stu-id="04606-147">Click Route.</span></span>
-4. <span data-ttu-id="04606-148">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="04606-148">Click New.</span></span>
-5. <span data-ttu-id="04606-149">Haga clic en Ruta y en versión de ruta.</span><span class="sxs-lookup"><span data-stu-id="04606-149">Click Route and route version.</span></span>
-6. <span data-ttu-id="04606-150">En el campo Descripción, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="04606-150">In the Description field, type a value.</span></span>
-    * <span data-ttu-id="04606-151">Para este ejemplo, introduzca ROUTE_1.</span><span class="sxs-lookup"><span data-stu-id="04606-151">For this example, type ROUTE_1.</span></span>  
-7. <span data-ttu-id="04606-152">En el campo Sitio, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="04606-152">In the Site field, enter or select a value.</span></span>
-    * <span data-ttu-id="04606-153">Para este ejemplo, introduzca o seleccione el Sitio 1.</span><span class="sxs-lookup"><span data-stu-id="04606-153">For this example, enter or select Site 1.</span></span>  
-8. <span data-ttu-id="04606-154">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="04606-154">Click OK.</span></span>
-9. <span data-ttu-id="04606-155">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="04606-155">Click New.</span></span>
-10. <span data-ttu-id="04606-156">En el campo Operación, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="04606-156">In the Operation field, enter or select a value.</span></span>
-    * <span data-ttu-id="04606-157">Para este ejemplo, seleccione Embalaje.</span><span class="sxs-lookup"><span data-stu-id="04606-157">For this example, select Packing.</span></span>  
-11. <span data-ttu-id="04606-158">En el campo Tiempo de ejecución, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="04606-158">In the Run time field, enter a number.</span></span>
-    * <span data-ttu-id="04606-159">Para este ejemplo, especifique 1.</span><span class="sxs-lookup"><span data-stu-id="04606-159">For this example, type 1.</span></span>  
-12. <span data-ttu-id="04606-160">En el campo Grupo de rutas, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="04606-160">In the Route group field, enter or select a value.</span></span>
-    * <span data-ttu-id="04606-161">Para este ejemplo, seleccione Std.</span><span class="sxs-lookup"><span data-stu-id="04606-161">For this example, select Std.</span></span>  
-13. <span data-ttu-id="04606-162">Haga clic en la pestaña Configurar.</span><span class="sxs-lookup"><span data-stu-id="04606-162">Click the Setup tab.</span></span>
-14. <span data-ttu-id="04606-163">En el campo Categoría de configuración, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="04606-163">In the Setup category field, enter or select a value.</span></span>
-    * <span data-ttu-id="04606-164">Para este ejemplo, seleccione Embalaje.</span><span class="sxs-lookup"><span data-stu-id="04606-164">For this example, select Packing.</span></span>  
-15. <span data-ttu-id="04606-165">Haga clic en la ficha Tiempos.</span><span class="sxs-lookup"><span data-stu-id="04606-165">Click the Times tab.</span></span>
-16. <span data-ttu-id="04606-166">En el campo Tiempo de configuración, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="04606-166">In the Setup time field, enter a number.</span></span>
-    * <span data-ttu-id="04606-167">Para este ejemplo, especifique 1.</span><span class="sxs-lookup"><span data-stu-id="04606-167">For this example, type 1.</span></span>  
-17. <span data-ttu-id="04606-168">En el Panel de acciones, haga clic en Versión de ruta.</span><span class="sxs-lookup"><span data-stu-id="04606-168">On the Action Pane, click Route version.</span></span>
-18. <span data-ttu-id="04606-169">Haga clic en Aprobar.</span><span class="sxs-lookup"><span data-stu-id="04606-169">Click Approve.</span></span>
-19. <span data-ttu-id="04606-170">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="04606-170">Click OK.</span></span>
-20. <span data-ttu-id="04606-171">En el Panel de acciones, haga clic en Versión de ruta.</span><span class="sxs-lookup"><span data-stu-id="04606-171">On the Action Pane, click Route version.</span></span>
-21. <span data-ttu-id="04606-172">Haga clic en Activar.</span><span class="sxs-lookup"><span data-stu-id="04606-172">Click Activate.</span></span>
-22. <span data-ttu-id="04606-173">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="04606-173">Close the page.</span></span>
-23. <span data-ttu-id="04606-174">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="04606-174">Close the page.</span></span>
+## <a name="create-a-route-for-a-finished-product"></a><span data-ttu-id="f0b5e-143">Cree una ruta para un producto acabado</span><span class="sxs-lookup"><span data-stu-id="f0b5e-143">Create a route for a finished product</span></span>
+1. <span data-ttu-id="f0b5e-144">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-144">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="f0b5e-145">Seleccione el número de artículo BOM_1.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-145">Select the item number BOM_1.</span></span>  
+2. <span data-ttu-id="f0b5e-146">En el panel de acciones, haga clic en Ingeniero.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-146">On the Action Pane, click Engineer.</span></span>
+3. <span data-ttu-id="f0b5e-147">Haga clic en Ruta.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-147">Click Route.</span></span>
+4. <span data-ttu-id="f0b5e-148">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-148">Click New.</span></span>
+5. <span data-ttu-id="f0b5e-149">Haga clic en Ruta y en versión de ruta.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-149">Click Route and route version.</span></span>
+6. <span data-ttu-id="f0b5e-150">En el campo Descripción, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-150">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="f0b5e-151">Para este ejemplo, introduzca ROUTE_1.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-151">For this example, type ROUTE_1.</span></span>  
+7. <span data-ttu-id="f0b5e-152">En el campo Sitio, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-152">In the Site field, enter or select a value.</span></span>
+    * <span data-ttu-id="f0b5e-153">Para este ejemplo, introduzca o seleccione el Sitio 1.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-153">For this example, enter or select Site 1.</span></span>  
+8. <span data-ttu-id="f0b5e-154">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="f0b5e-154">Click OK.</span></span>
+9. <span data-ttu-id="f0b5e-155">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-155">Click New.</span></span>
+10. <span data-ttu-id="f0b5e-156">En el campo Operación, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-156">In the Operation field, enter or select a value.</span></span>
+    * <span data-ttu-id="f0b5e-157">Para este ejemplo, seleccione Embalaje.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-157">For this example, select Packing.</span></span>  
+11. <span data-ttu-id="f0b5e-158">En el campo Tiempo de ejecución, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-158">In the Run time field, enter a number.</span></span>
+    * <span data-ttu-id="f0b5e-159">Para este ejemplo, especifique 1.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-159">For this example, type 1.</span></span>  
+12. <span data-ttu-id="f0b5e-160">En el campo Grupo de rutas, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-160">In the Route group field, enter or select a value.</span></span>
+    * <span data-ttu-id="f0b5e-161">Para este ejemplo, seleccione Std.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-161">For this example, select Std.</span></span>  
+13. <span data-ttu-id="f0b5e-162">Haga clic en la pestaña Configurar.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-162">Click the Setup tab.</span></span>
+14. <span data-ttu-id="f0b5e-163">En el campo Categoría de configuración, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-163">In the Setup category field, enter or select a value.</span></span>
+    * <span data-ttu-id="f0b5e-164">Para este ejemplo, seleccione Embalaje.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-164">For this example, select Packing.</span></span>  
+15. <span data-ttu-id="f0b5e-165">Haga clic en la ficha Tiempos.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-165">Click the Times tab.</span></span>
+16. <span data-ttu-id="f0b5e-166">En el campo Tiempo de configuración, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-166">In the Setup time field, enter a number.</span></span>
+    * <span data-ttu-id="f0b5e-167">Para este ejemplo, especifique 1.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-167">For this example, type 1.</span></span>  
+17. <span data-ttu-id="f0b5e-168">En el Panel de acciones, haga clic en Versión de ruta.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-168">On the Action Pane, click Route version.</span></span>
+18. <span data-ttu-id="f0b5e-169">Haga clic en Aprobar.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-169">Click Approve.</span></span>
+19. <span data-ttu-id="f0b5e-170">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="f0b5e-170">Click OK.</span></span>
+20. <span data-ttu-id="f0b5e-171">En el Panel de acciones, haga clic en Versión de ruta.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-171">On the Action Pane, click Route version.</span></span>
+21. <span data-ttu-id="f0b5e-172">Haga clic en Activar.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-172">Click Activate.</span></span>
+22. <span data-ttu-id="f0b5e-173">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-173">Close the page.</span></span>
+23. <span data-ttu-id="f0b5e-174">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-174">Close the page.</span></span>
 
-## <a name="enable-automatic-consumption-of-setup-time"></a><span data-ttu-id="04606-175">Habilite el consumo automático del tiempo de configuración</span><span class="sxs-lookup"><span data-stu-id="04606-175">Enable automatic consumption of setup time</span></span>
-1. <span data-ttu-id="04606-176">Vaya al Control de producción > Configuración > Rutas > Grupos de rutas.</span><span class="sxs-lookup"><span data-stu-id="04606-176">Go to Production control > Setup > Routes > Route groups.</span></span>
-2. <span data-ttu-id="04606-177">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="04606-177">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="04606-178">Seleccione Std en la lista.</span><span class="sxs-lookup"><span data-stu-id="04606-178">Select Std in the list.</span></span>  
-3. <span data-ttu-id="04606-179">Haga clic en Editar.</span><span class="sxs-lookup"><span data-stu-id="04606-179">Click Edit.</span></span>
-4. <span data-ttu-id="04606-180">Seleccione Sí en el campo Tiempo de configuración.</span><span class="sxs-lookup"><span data-stu-id="04606-180">Select Yes in the Setup time field.</span></span>
-    * <span data-ttu-id="04606-181">Los tiempos de configuración suelen ser parte de un precio calculado para un artículo.</span><span class="sxs-lookup"><span data-stu-id="04606-181">Setup times are often part of the price that is calculated for an item.</span></span>  
-5. <span data-ttu-id="04606-182">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="04606-182">Click Save.</span></span>
-6. <span data-ttu-id="04606-183">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="04606-183">Close the page.</span></span>
+## <a name="enable-automatic-consumption-of-setup-time"></a><span data-ttu-id="f0b5e-175">Habilite el consumo automático del tiempo de configuración</span><span class="sxs-lookup"><span data-stu-id="f0b5e-175">Enable automatic consumption of setup time</span></span>
+1. <span data-ttu-id="f0b5e-176">Vaya al Control de producción > Configuración > Rutas > Grupos de rutas.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-176">Go to Production control > Setup > Routes > Route groups.</span></span>
+2. <span data-ttu-id="f0b5e-177">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-177">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="f0b5e-178">Seleccione Std en la lista.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-178">Select Std in the list.</span></span>  
+3. <span data-ttu-id="f0b5e-179">Haga clic en Editar.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-179">Click Edit.</span></span>
+4. <span data-ttu-id="f0b5e-180">Seleccione Sí en el campo Tiempo de configuración.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-180">Select Yes in the Setup time field.</span></span>
+    * <span data-ttu-id="f0b5e-181">Los tiempos de configuración suelen ser parte de un precio calculado para un artículo.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-181">Setup times are often part of the price that is calculated for an item.</span></span>  
+5. <span data-ttu-id="f0b5e-182">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-182">Click Save.</span></span>
+6. <span data-ttu-id="f0b5e-183">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="f0b5e-183">Close the page.</span></span>
 

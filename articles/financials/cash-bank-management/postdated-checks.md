@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendPostDatedChecks, CustPostDatedChecks
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 21741
 ms.assetid: 4eb7c7da-1e6b-4d35-9f41-373b66103229
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ea1cd9926f3ea55d82f9030372a15b3545ed824
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cb879103c86cd251efcb1d3efa1faf847cb5ca74
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563794"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1842314"
 ---
-# <a name="postdated-checks"></a><span data-ttu-id="2f95b-105">Cheques con fecha futura</span><span class="sxs-lookup"><span data-stu-id="2f95b-105">Postdated checks</span></span>
+# <a name="postdated-checks"></a><span data-ttu-id="eedb3-105">Cheques con fecha futura</span><span class="sxs-lookup"><span data-stu-id="eedb3-105">Postdated checks</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="2f95b-106">Este artículo proporciona información acerca de la compatibilidad de los cheques posfechados en Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="2f95b-106">This article provides information about support for postdated checks in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="2f95b-107">Los cheques con fecha futura son cheques que se emiten con el fin de realizar y recibir pagos en una fecha futura.</span><span class="sxs-lookup"><span data-stu-id="2f95b-107">Postdated checks are checks that are issued to make and receive payments on a future date.</span></span> <span data-ttu-id="2f95b-108">Por tanto, no se puede cobrar el cheque hasta la fecha especificada.</span><span class="sxs-lookup"><span data-stu-id="2f95b-108">Therefore, the check can't be cashed until the specified date.</span></span>
+<span data-ttu-id="eedb3-106">Este artículo proporciona información acerca de la compatibilidad de los cheques posfechados en Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="eedb3-106">This article provides information about support for postdated checks in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="eedb3-107">Los cheques con fecha futura son cheques que se emiten con el fin de realizar y recibir pagos en una fecha futura.</span><span class="sxs-lookup"><span data-stu-id="eedb3-107">Postdated checks are checks that are issued to make and receive payments on a future date.</span></span> <span data-ttu-id="eedb3-108">Por tanto, no se puede cobrar el cheque hasta la fecha especificada.</span><span class="sxs-lookup"><span data-stu-id="eedb3-108">Therefore, the check can't be cashed until the specified date.</span></span>
 
-<span data-ttu-id="2f95b-109">Microsoft Dynamics 365 for Finance and Operations admite el ciclo de gestión completo para los cheques posfechados tanto en Clientes como en Proveedores, como se muestra en la siguiente tabla.</span><span class="sxs-lookup"><span data-stu-id="2f95b-109">Microsoft Dynamics 365 for Finance and Operations supports the full management cycle for postdated checks in both Accounts receivable and Accounts payable, as shown in the following table.</span></span>
+<span data-ttu-id="eedb3-109">Microsoft Dynamics 365 for Finance and Operations admite el ciclo de gestión completo para los cheques posfechados tanto en Clientes como en Proveedores, como se muestra en la siguiente tabla.</span><span class="sxs-lookup"><span data-stu-id="eedb3-109">Microsoft Dynamics 365 for Finance and Operations supports the full management cycle for postdated checks in both Accounts receivable and Accounts payable, as shown in the following table.</span></span>
 <table>
 <colgroup>
 <col width="50%" />
@@ -39,63 +39,63 @@ ms.locfileid: "1563794"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="2f95b-110">Situación</span><span class="sxs-lookup"><span data-stu-id="2f95b-110">Scenario</span></span></th>
-<th><span data-ttu-id="2f95b-111">Detalles</span><span class="sxs-lookup"><span data-stu-id="2f95b-111">Details</span></span></th>
+<th><span data-ttu-id="eedb3-110">Situación</span><span class="sxs-lookup"><span data-stu-id="eedb3-110">Scenario</span></span></th>
+<th><span data-ttu-id="eedb3-111">Detalles</span><span class="sxs-lookup"><span data-stu-id="eedb3-111">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="2f95b-112">Configuración de cheques con pago diferido</span><span class="sxs-lookup"><span data-stu-id="2f95b-112">Set up postdated checks</span></span></td>
-<td><span data-ttu-id="2f95b-113">Debe configurar un nuevo método de pago y especifica la rutina de pago para las cuentas de compensación para los cheques emitidos, los cheques recibidos y la retención de impuestos.</span><span class="sxs-lookup"><span data-stu-id="2f95b-113">You must set up a new payment method, and specify the payment routine for clearing accounts for issued checks, received checks, and withholding tax.</span></span></td>
+<td><span data-ttu-id="eedb3-112">Configuración de cheques con pago diferido</span><span class="sxs-lookup"><span data-stu-id="eedb3-112">Set up postdated checks</span></span></td>
+<td><span data-ttu-id="eedb3-113">Debe configurar un nuevo método de pago y especifica la rutina de pago para las cuentas de compensación para los cheques emitidos, los cheques recibidos y la retención de impuestos.</span><span class="sxs-lookup"><span data-stu-id="eedb3-113">You must set up a new payment method, and specify the payment routine for clearing accounts for issued checks, received checks, and withholding tax.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="2f95b-114">Registrar un cheque con pago diferido para un proveedor</span><span class="sxs-lookup"><span data-stu-id="2f95b-114">Register and post a postdated check for a vendor</span></span></td>
-<td><span data-ttu-id="2f95b-115">Registrar los detalles de un cheque posfechado que emite a un proveedor.</span><span class="sxs-lookup"><span data-stu-id="2f95b-115">Register the details of a postdated check that you issue to a vendor.</span></span> <span data-ttu-id="2f95b-116">Cuando se registra el pago, se reconoce el pasivo del proveedor pero la cuenta bancaria no es crédito todavía.</span><span class="sxs-lookup"><span data-stu-id="2f95b-116">When the payment is posted, the vendor liability is recognized, but the bank account isn’t yet credit.</span></span> <span data-ttu-id="2f95b-117">En su lugar, se usa una cuenta de compensación para este propósito.</span><span class="sxs-lookup"><span data-stu-id="2f95b-117">Instead, a clearing account is used for this purpose.</span></span> </td>
+<td><span data-ttu-id="eedb3-114">Registrar un cheque con pago diferido para un proveedor</span><span class="sxs-lookup"><span data-stu-id="eedb3-114">Register and post a postdated check for a vendor</span></span></td>
+<td><span data-ttu-id="eedb3-115">Registrar los detalles de un cheque posfechado que emite a un proveedor.</span><span class="sxs-lookup"><span data-stu-id="eedb3-115">Register the details of a postdated check that you issue to a vendor.</span></span> <span data-ttu-id="eedb3-116">Cuando se registra el pago, se reconoce el pasivo del proveedor pero la cuenta bancaria no es crédito todavía.</span><span class="sxs-lookup"><span data-stu-id="eedb3-116">When the payment is posted, the vendor liability is recognized, but the bank account isn’t yet credit.</span></span> <span data-ttu-id="eedb3-117">En su lugar, se usa una cuenta de compensación para este propósito.</span><span class="sxs-lookup"><span data-stu-id="eedb3-117">Instead, a clearing account is used for this purpose.</span></span> </td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="2f95b-118">Registro de un cheque con fecha futura para un cliente</span><span class="sxs-lookup"><span data-stu-id="2f95b-118">Register and post a postdated check for a customer</span></span></td>
-<td><span data-ttu-id="2f95b-119">Registrar los detalles de un cheque con fecha futura que recibe de un cliente.</span><span class="sxs-lookup"><span data-stu-id="2f95b-119">Register the details of a postdated check that you receive from a customer.</span></span> <span data-ttu-id="2f95b-120">Cuando se registra el pago, la cuenta por cobrar del cliente es crédito pero la cuenta bancaria no es débito todavía.</span><span class="sxs-lookup"><span data-stu-id="2f95b-120">When the payment is posted, the customer receivable is credit, but the bank account isn’t yet debit.</span></span> <span data-ttu-id="2f95b-121">En su lugar, se usa una cuenta de compensación para este propósito.</span><span class="sxs-lookup"><span data-stu-id="2f95b-121">Instead, a clearing account is used for this purpose.</span></span></td>
+<td><span data-ttu-id="eedb3-118">Registro de un cheque con fecha futura para un cliente</span><span class="sxs-lookup"><span data-stu-id="eedb3-118">Register and post a postdated check for a customer</span></span></td>
+<td><span data-ttu-id="eedb3-119">Registrar los detalles de un cheque con fecha futura que recibe de un cliente.</span><span class="sxs-lookup"><span data-stu-id="eedb3-119">Register the details of a postdated check that you receive from a customer.</span></span> <span data-ttu-id="eedb3-120">Cuando se registra el pago, la cuenta por cobrar del cliente es crédito pero la cuenta bancaria no es débito todavía.</span><span class="sxs-lookup"><span data-stu-id="eedb3-120">When the payment is posted, the customer receivable is credit, but the bank account isn’t yet debit.</span></span> <span data-ttu-id="eedb3-121">En su lugar, se usa una cuenta de compensación para este propósito.</span><span class="sxs-lookup"><span data-stu-id="eedb3-121">Instead, a clearing account is used for this purpose.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="2f95b-122">Registrar un cheque con pago diferido de sustitución para un proveedor o cliente.</span><span class="sxs-lookup"><span data-stu-id="2f95b-122">Register and post a replacement postdated check for a customer or a vendor</span></span></td>
+<td><span data-ttu-id="eedb3-122">Registrar un cheque con pago diferido de sustitución para un proveedor o cliente.</span><span class="sxs-lookup"><span data-stu-id="eedb3-122">Register and post a replacement postdated check for a customer or a vendor</span></span></td>
 <td>
-<span data-ttu-id="2f95b-123">Si ha perdido o dañado el cheque original a un proveedor o de un cliente, puede emitir un cheque posfechado de sustitución al proveedor.</span><span class="sxs-lookup"><span data-stu-id="2f95b-123">If your original check to a vendor or from a customer is lost or damaged, you can issue a replacement postdated check.</span></span> <span data-ttu-id="2f95b-124">Al registrar los detalles del cheque, proporcione una referencia del cheque original e indique que el nuevo cheque es una sustitución del original.</span><span class="sxs-lookup"><span data-stu-id="2f95b-124">When you register the check details, provide a reference to the original check, and indicate that the new check is a replacement for the original.</span></span> <span data-ttu-id="2f95b-125">También puede registrar el cheque de sustitución.</span><span class="sxs-lookup"><span data-stu-id="2f95b-125">You can also post the replacement check.</span></span></td>
+<span data-ttu-id="eedb3-123">Si ha perdido o dañado el cheque original a un proveedor o de un cliente, puede emitir un cheque posfechado de sustitución al proveedor.</span><span class="sxs-lookup"><span data-stu-id="eedb3-123">If your original check to a vendor or from a customer is lost or damaged, you can issue a replacement postdated check.</span></span> <span data-ttu-id="eedb3-124">Al registrar los detalles del cheque, proporcione una referencia del cheque original e indique que el nuevo cheque es una sustitución del original.</span><span class="sxs-lookup"><span data-stu-id="eedb3-124">When you register the check details, provide a reference to the original check, and indicate that the new check is a replacement for the original.</span></span> <span data-ttu-id="eedb3-125">También puede registrar el cheque de sustitución.</span><span class="sxs-lookup"><span data-stu-id="eedb3-125">You can also post the replacement check.</span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="2f95b-126">Transferir un cheque con pago diferido de un cliente a un proveedor</span><span class="sxs-lookup"><span data-stu-id="2f95b-126">Transfer a customer postdated check to a vendor</span></span></td>
-<td><span data-ttu-id="2f95b-127">Cuando reciba un cheque posfechado de un cliente, puede transferir ese cheque a un proveedor como pago.</span><span class="sxs-lookup"><span data-stu-id="2f95b-127">When you receive a postdated check from a customer, you can transfer that check to a vendor as a payment.</span></span></td>
+<td><span data-ttu-id="eedb3-126">Transferir un cheque con pago diferido de un cliente a un proveedor</span><span class="sxs-lookup"><span data-stu-id="eedb3-126">Transfer a customer postdated check to a vendor</span></span></td>
+<td><span data-ttu-id="eedb3-127">Cuando reciba un cheque posfechado de un cliente, puede transferir ese cheque a un proveedor como pago.</span><span class="sxs-lookup"><span data-stu-id="eedb3-127">When you receive a postdated check from a customer, you can transfer that check to a vendor as a payment.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="2f95b-128">Liquidar un cheque con pago diferido para un cliente o proveedor</span><span class="sxs-lookup"><span data-stu-id="2f95b-128">Settle a postdated check for a customer or a vendor</span></span></td>
-<td><span data-ttu-id="2f95b-129">Liquidar un cheque posfechado registrado en una cuenta puente para un cliente o proveedor cuando el cheque finalmente madura.</span><span class="sxs-lookup"><span data-stu-id="2f95b-129">Settle a postdated check that is posted to a bridging account for a customer or a vendor when the check finally matures.</span></span> <span data-ttu-id="2f95b-130">Cuando se liquida el cheque, el banco es finalmente débito o crédito frente a la cuenta de compensación que se usó anterior.</span><span class="sxs-lookup"><span data-stu-id="2f95b-130">When the check is settled, the bank is finally debit or credit against the clearing account that was used earlier.</span></span></td>
+<td><span data-ttu-id="eedb3-128">Liquidar un cheque con pago diferido para un cliente o proveedor</span><span class="sxs-lookup"><span data-stu-id="eedb3-128">Settle a postdated check for a customer or a vendor</span></span></td>
+<td><span data-ttu-id="eedb3-129">Liquidar un cheque posfechado registrado en una cuenta puente para un cliente o proveedor cuando el cheque finalmente madura.</span><span class="sxs-lookup"><span data-stu-id="eedb3-129">Settle a postdated check that is posted to a bridging account for a customer or a vendor when the check finally matures.</span></span> <span data-ttu-id="eedb3-130">Cuando se liquida el cheque, el banco es finalmente débito o crédito frente a la cuenta de compensación que se usó anterior.</span><span class="sxs-lookup"><span data-stu-id="eedb3-130">When the check is settled, the bank is finally debit or credit against the clearing account that was used earlier.</span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="2f95b-131">Cancelar un cheque con pago diferido para un proveedor</span><span class="sxs-lookup"><span data-stu-id="2f95b-131">Cancel a postdated check for a vendor</span></span></td>
-<td><span data-ttu-id="2f95b-132">Puede cancelar un cheque posfechado registrado en las situaciones siguientes: - El banco ha devuelto el cheque.</span><span class="sxs-lookup"><span data-stu-id="2f95b-132">You can cancel a posted postdated check in these situations: - The check is returned by the bank.</span></span>
-<span data-ttu-id="2f95b-133">- El cheque se ha aplicado a una factura incorrecta.</span><span class="sxs-lookup"><span data-stu-id="2f95b-133">- The check is applied to an incorrect invoice.</span></span>
-<span data-ttu-id="2f95b-134">- Se debe hacer un pago en efectivo en relación al cheque.</span><span class="sxs-lookup"><span data-stu-id="2f95b-134">- A cash payment is made against the check.</span></span>
+<td><span data-ttu-id="eedb3-131">Cancelar un cheque con pago diferido para un proveedor</span><span class="sxs-lookup"><span data-stu-id="eedb3-131">Cancel a postdated check for a vendor</span></span></td>
+<td><span data-ttu-id="eedb3-132">Puede cancelar un cheque posfechado registrado en las situaciones siguientes: - El banco ha devuelto el cheque.</span><span class="sxs-lookup"><span data-stu-id="eedb3-132">You can cancel a posted postdated check in these situations: - The check is returned by the bank.</span></span>
+<span data-ttu-id="eedb3-133">- El cheque se ha aplicado a una factura incorrecta.</span><span class="sxs-lookup"><span data-stu-id="eedb3-133">- The check is applied to an incorrect invoice.</span></span>
+<span data-ttu-id="eedb3-134">- Se debe hacer un pago en efectivo en relación al cheque.</span><span class="sxs-lookup"><span data-stu-id="eedb3-134">- A cash payment is made against the check.</span></span>
   </td>
   </tr>
   <tr class="even">
-  <td><span data-ttu-id="2f95b-135">Detener un pago de un cheque con pago diferido</span><span class="sxs-lookup"><span data-stu-id="2f95b-135">Stop payment for a postdated check</span></span></td>
-  <td><span data-ttu-id="2f95b-136">Puede detener el pago de cheque posfechado que se emitió a un proveedor por motivos como fondos insuficientes, cambio de las condiciones del contrato con el proveedor, suministro de mercancías defectuosas por proveedor o devolución de mercancías al proveedor.</span><span class="sxs-lookup"><span data-stu-id="2f95b-136">You can stop payment on a postdated check that was issued to a vendor, for reasons such as not sufficient funds, changes in the terms of the agreement with the vendor, supply of defective goods by the vendor, or return of goods to the vendor.</span></span> <span data-ttu-id="2f95b-137">Puede detener el pago solo en los cheques que no ha compensado.</span><span class="sxs-lookup"><span data-stu-id="2f95b-137">You can stop payment only on checks that haven’t cleared.</span></span></td>
+  <td><span data-ttu-id="eedb3-135">Detener un pago de un cheque con pago diferido</span><span class="sxs-lookup"><span data-stu-id="eedb3-135">Stop payment for a postdated check</span></span></td>
+  <td><span data-ttu-id="eedb3-136">Puede detener el pago de cheque posfechado que se emitió a un proveedor por motivos como fondos insuficientes, cambio de las condiciones del contrato con el proveedor, suministro de mercancías defectuosas por proveedor o devolución de mercancías al proveedor.</span><span class="sxs-lookup"><span data-stu-id="eedb3-136">You can stop payment on a postdated check that was issued to a vendor, for reasons such as not sufficient funds, changes in the terms of the agreement with the vendor, supply of defective goods by the vendor, or return of goods to the vendor.</span></span> <span data-ttu-id="eedb3-137">Puede detener el pago solo en los cheques que no ha compensado.</span><span class="sxs-lookup"><span data-stu-id="eedb3-137">You can stop payment only on checks that haven’t cleared.</span></span></td>
   </tr>
   </tbody>
   </table>
 
 
 
-<span data-ttu-id="2f95b-138">Para obtener más información, consulte los siguientes temas:</span><span class="sxs-lookup"><span data-stu-id="2f95b-138">For more information, see the following topics:</span></span>
+<span data-ttu-id="eedb3-138">Para obtener más información, consulte los siguientes temas:</span><span class="sxs-lookup"><span data-stu-id="eedb3-138">For more information, see the following topics:</span></span>
 
-[<span data-ttu-id="2f95b-139">Configuración de cheques con pago diferido</span><span class="sxs-lookup"><span data-stu-id="2f95b-139">Set up postdated checks</span></span>](tasks/set-up-postdated-checks.md)
+[<span data-ttu-id="eedb3-139">Configuración de cheques con pago diferido</span><span class="sxs-lookup"><span data-stu-id="eedb3-139">Set up postdated checks</span></span>](tasks/set-up-postdated-checks.md)
 
-[<span data-ttu-id="2f95b-140">Registrar un cheque con pago diferido para un cliente</span><span class="sxs-lookup"><span data-stu-id="2f95b-140">Register and post a postdated check for a customer</span></span>](tasks/register-post-postdated-check-customer.md)
+[<span data-ttu-id="eedb3-140">Registrar un cheque con pago diferido para un cliente</span><span class="sxs-lookup"><span data-stu-id="eedb3-140">Register and post a postdated check for a customer</span></span>](tasks/register-post-postdated-check-customer.md)
 
-[<span data-ttu-id="2f95b-141">Liquidar un cheque con pago diferido de un cliente</span><span class="sxs-lookup"><span data-stu-id="2f95b-141">Settle a postdated check from a customer</span></span>](tasks/settle-postdated-check-customer.md)
+[<span data-ttu-id="eedb3-141">Liquidar un cheque con pago diferido de un cliente</span><span class="sxs-lookup"><span data-stu-id="eedb3-141">Settle a postdated check from a customer</span></span>](tasks/settle-postdated-check-customer.md)
 
-[<span data-ttu-id="2f95b-142">Registrar un cheque con pago diferido para un proveedor</span><span class="sxs-lookup"><span data-stu-id="2f95b-142">Register and post a postdated check for a vendor</span></span>](tasks/register-post-postdated-check-vendor.md) 
+[<span data-ttu-id="eedb3-142">Registrar un cheque con pago diferido para un proveedor</span><span class="sxs-lookup"><span data-stu-id="eedb3-142">Register and post a postdated check for a vendor</span></span>](tasks/register-post-postdated-check-vendor.md) 
 
-[<span data-ttu-id="2f95b-143">Liquidar un cheque con pago diferido para un proveedor</span><span class="sxs-lookup"><span data-stu-id="2f95b-143">Settle a postdated check for a vendor</span></span>](tasks/settle-postdated-check-vendor.md)
+[<span data-ttu-id="eedb3-143">Liquidar un cheque con pago diferido para un proveedor</span><span class="sxs-lookup"><span data-stu-id="eedb3-143">Settle a postdated check for a vendor</span></span>](tasks/settle-postdated-check-vendor.md)
 
 
 

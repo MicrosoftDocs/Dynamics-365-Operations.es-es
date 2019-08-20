@@ -1,5 +1,5 @@
 ---
-title: Preparar metadatos específicos de la aplicación para RCS y ER
+title: Importar archivos en formato XML con atributos opcionales
 description: En este tema se proporciona información sobre el diseño de formatos de ER que especifican atributos XML para analizar documentos electrónicos entrantes en formato XML.
 author: NickSelin
 manager: AnnBe
@@ -10,20 +10,20 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner
 audience: Application User, Developer, IT Pro
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7a6fc1e54444584895aa75ae91d39143f27e34d8
-ms.sourcegitcommit: d0fa7eb2166a30314205e7f70bbeaff6fbd5fb55
+ms.openlocfilehash: eb5d721784f45097ab466f75d43256495aac36ca
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "1726584"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850004"
 ---
-# <a name="prepare-application-specific-metadata-for-rcs-and-er"></a><span data-ttu-id="3a027-103">Preparar metadatos específicos de la aplicación para RCS y ER</span><span class="sxs-lookup"><span data-stu-id="3a027-103">Prepare application-specific metadata for RCS and ER</span></span>
+# <a name="import-files-in-xml-format-with-optional-attributes"></a><span data-ttu-id="3a027-103">Importar archivos en formato XML con atributos opcionales</span><span class="sxs-lookup"><span data-stu-id="3a027-103">Import files in XML format with optional attributes</span></span>
 
 <span data-ttu-id="3a027-104">Puede diseñar formatos de informes electrónicos (ER) para analizar documentos electrónicos entrantes en formato XML.</span><span class="sxs-lookup"><span data-stu-id="3a027-104">You can design Electronic reporting (ER) formats to parse incoming electronic documents in XML format.</span></span> <span data-ttu-id="3a027-105">Algunos atributos de elementos XML se pueden especificar en formato de ER diseñados como opcionales.</span><span class="sxs-lookup"><span data-stu-id="3a027-105">Certain attributes of XML elements can be specified in designed ER format as optional.</span></span> <span data-ttu-id="3a027-106">Le permitirá gestionar correctamente archivos entrantes con y sin estos atributos XML.</span><span class="sxs-lookup"><span data-stu-id="3a027-106">It will allow you to handle incoming files with and without such XML attributes properly.</span></span> <span data-ttu-id="3a027-107">Puede usar el contenido de estos archivos para actualizar datos de la aplicación.</span><span class="sxs-lookup"><span data-stu-id="3a027-107">You can then use the content from these files to update application data.</span></span>
 
@@ -97,11 +97,11 @@ ms.locfileid: "1726584"
 5.  <span data-ttu-id="3a027-172">Haga clic en **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="3a027-172">Click **Save**.</span></span>
 6.  <span data-ttu-id="3a027-173">Haga clic en **Diseñador**.</span><span class="sxs-lookup"><span data-stu-id="3a027-173">Click **Designer**.</span></span>
 7.  <span data-ttu-id="3a027-174">En el árbol, expanda **format**.</span><span class="sxs-lookup"><span data-stu-id="3a027-174">In the tree, expand **format**.</span></span>
-8.  <span data-ttu-id="3a027-175">En el árbol, expanda **format\root: XML Element(raíz)**.</span><span class="sxs-lookup"><span data-stu-id="3a027-175">In the tree, expand **format\root: XML Element(root)**.</span></span>
-9.  <span data-ttu-id="3a027-176">En el árbol, seleccione \**format\root: XML Element(raíz)\document: XML Element 1..*</span><span class="sxs-lookup"><span data-stu-id="3a027-176">In the tree, select \**format\root: XML Element(root)\document: XML Element 1..*</span></span> <span data-ttu-id="3a027-177">(documento)\*\*.</span><span class="sxs-lookup"><span data-stu-id="3a027-177">(document)\*\*.</span></span>
+8.  <span data-ttu-id="3a027-175">En el árbol, expanda **format\root: XML Element(root)**.</span><span class="sxs-lookup"><span data-stu-id="3a027-175">In the tree, expand **format\root: XML Element(root)**.</span></span>
+9.  <span data-ttu-id="3a027-176">En el árbol, seleccione \**format\root: XML Element(root)\document: XML Element 1..*</span><span class="sxs-lookup"><span data-stu-id="3a027-176">In the tree, select \**format\root: XML Element(root)\document: XML Element 1..*</span></span> <span data-ttu-id="3a027-177">(documento)\*\*.</span><span class="sxs-lookup"><span data-stu-id="3a027-177">(document)\*\*.</span></span>
 10. <span data-ttu-id="3a027-178">Haga clic en **Enlazar**.</span><span class="sxs-lookup"><span data-stu-id="3a027-178">Click **Bind**.</span></span>
-11. <span data-ttu-id="3a027-179">En el árbol, expanda \**format\root: XML Element(raíz)\document: XML Element 1..*</span><span class="sxs-lookup"><span data-stu-id="3a027-179">In the tree, expand \**format\root: XML Element(root)\document: XML Element 1..*</span></span> <span data-ttu-id="3a027-180">(documento)\*\*.</span><span class="sxs-lookup"><span data-stu-id="3a027-180">(document)\*\*.</span></span>
-12. <span data-ttu-id="3a027-181">En el árbol, seleccione \**format\root: XML Element(raíz)\document: XML Element 1..*</span><span class="sxs-lookup"><span data-stu-id="3a027-181">In the tree, select \**format\root: XML Element(root)\document: XML Element 1..*</span></span> <span data-ttu-id="3a027-182">(documento)\id\*\*.</span><span class="sxs-lookup"><span data-stu-id="3a027-182">(document)\id\*\*.</span></span>
+11. <span data-ttu-id="3a027-179">En el árbol, expanda \**format\root: XML Element(root)\document: XML Element 1..*</span><span class="sxs-lookup"><span data-stu-id="3a027-179">In the tree, expand \**format\root: XML Element(root)\document: XML Element 1..*</span></span> <span data-ttu-id="3a027-180">(documento)\*\*.</span><span class="sxs-lookup"><span data-stu-id="3a027-180">(document)\*\*.</span></span>
+12. <span data-ttu-id="3a027-181">En el árbol, seleccione \**format\root: XML Element(root)\document: XML Element 1..*</span><span class="sxs-lookup"><span data-stu-id="3a027-181">In the tree, select \**format\root: XML Element(root)\document: XML Element 1..*</span></span> <span data-ttu-id="3a027-182">(documento)\id\*\*.</span><span class="sxs-lookup"><span data-stu-id="3a027-182">(document)\id\*\*.</span></span>
 13. <span data-ttu-id="3a027-183">En el árbol, expanda **List = format.root.document**.</span><span class="sxs-lookup"><span data-stu-id="3a027-183">In the tree, expand **List = format.root.document**.</span></span>
 14. <span data-ttu-id="3a027-184">En el árbol, seleccione **List = format.root.document\Code**.</span><span class="sxs-lookup"><span data-stu-id="3a027-184">In the tree, select **List = format.root.document\Code**.</span></span>
 15. <span data-ttu-id="3a027-185">Haga clic en **Enlazar**.</span><span class="sxs-lookup"><span data-stu-id="3a027-185">Click **Bind**.</span></span>
