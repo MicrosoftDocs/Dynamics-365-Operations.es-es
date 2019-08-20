@@ -1,26 +1,26 @@
 ---
 title: Cargo invertido
-description: Este tema explica cómo configurar el impuesto sobre el valor añadido (IVA) de cargo invertido en los países europeos y Arabia Saudí.
+description: Este tema explica cómo configurar el impuesto sobre el valor añadido (IVA) de cargo invertido en los países europeos, Arabia Saudí y Singapur.
 author: epodkolz
 manager: AnnBe
-ms.date: 04/05/2017
+ms.date: 07/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Saudi Arabia, Spain, Sweden, United Kingdom
+ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Saudi Arabia, Spain, Sweden, United Kingdom, Singapore
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 26f7f3f11408cac387c58a5345b566ac50ed426f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 530ff52abb1dd36c473ae436d61ea925c5696a30
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571176"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1852428"
 ---
 # <a name="reverse-charge-vat"></a>Cargo invertido
 
@@ -28,7 +28,7 @@ ms.locfileid: "1571176"
 [!include [banner](../includes/banner.md)]
 
 
-Este tema describe un enfoque genérico para configurar el impuesto sobre el valor añadido (IVA) de cargo invertido para Arabia Saudí y países europeos.
+Este tema describe un enfoque genérico para configurar el impuesto sobre el valor añadido (IVA) de cargo invertido para Arabia Saudí, Singapur y países europeos.
 
 El cargo invertido es un esquema de impuestos que transfiere la responsabilidad de la contabilidad y notificación del IVA del vendedor al comprador de mercancías o servicios. Por lo tanto, los destinatarios de mercancías o servicios reportan el IVA diferido (en el rol de un vendedor) y el IVA soportado (en el rol de un comprador) en su declaración del IVA.
 

@@ -3,13 +3,12 @@ title: Vistas guardadas
 description: Este tema describe cómo usar las características guardadas de las vistas.
 author: jasongre
 manager: AnnBe
-ms.date: 06/05/2019
+ms.date: 08/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard
-ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,17 +16,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: ea2f2dbd615480bb76e1d04a106ae69bf6f45f4b
-ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
+ms.openlocfilehash: 9d19987a44c467381828acb81b6161601268d84f
+ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1620787"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1863069"
 ---
 # <a name="saved-views"></a>Vistas guardadas
 
 [!include [banner](../includes/banner.md)]
-[!include [private preview banner](../includes/private-preview-banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 ## <a name="introduction"></a>Introducción
 La personalización desempeña una función importante al permitir que los usuarios y las organizaciones optimicen la experiencia del usuario en Microsoft Dynamics 365 for Finance and Operations para satisfacer sus necesidades. Para obtener más detalles acerca de la personalización, consulte [Personalizar la experiencia del usuario](personalize-user-experience.md).
@@ -49,13 +48,13 @@ Existen dos variantes de tamaño en selector de la vista:
 
 -   **Selectores grandes de vista**: las páginas que cuentan con una lista prominente tendrán un selector de imagen mayor por varios motivos. Lo que es más importante, el selector de imagen mayor indica las páginas en la vista que pueden incluir los filtros definidos por el usuario. Dado que los filtros se incluyen en las vistas, el tamaño mayor de selector también se garantiza ya que los nombres de vista son normalmente la mejor descripción de los datos que se muestran en la pantalla y la expectativa es que los usuarios cambiarán entre las vistas más a menudo en estos tipos de la página.  
  
--   **Selectores de la vista pequeños**: el resto de los formularios a toda página tienen un selector menor de la vista que aparece junto a la leyenda de la página. Las vistas en estas páginas incluyen solo personalizaciones (y los filtros no definido por el usuario). En estas páginas, la leyenda del formulario o título de registro es normalmente la información más importante en la parte superior del formulario. El tamaño más pequeño también refleja una frecuencia esperada inferior de conmutación de estas páginas. 
+-   **Selectores de vista pequeños**: el resto de los formularios a toda página (con excepción de los espacios de trabajo y el panel) tienen un selector de vista más pequeño que aparece junto a la leyenda de la página. Las vistas en estas páginas incluyen solo personalizaciones (y los filtros no definido por el usuario). En estas páginas, la leyenda del formulario o título de registro es normalmente la información más importante en la parte superior del formulario. El tamaño más pequeño también refleja una frecuencia esperada inferior de conmutación de estas páginas. 
  
 Si hace clic en el nombre de vista, el selector de la vista se abre y muestra la lista de vistas disponibles para esta página
 
 -    **Vista clásica**: la vista clásica es la vista de lista para usar la página sin personalizaciones explícitas aplicadas.  
 -    **Vistas personales**: las vistas sin los candados representan las vistas personales. Éstas son las vistas que ha creado o que le ha asignado un administrador.  
--    **Vistas bloqueadas**: algunas vistas (como la vista clásica y las vistas publicadas para su rol) tiene un candado junto a ellas en el selector de la vista, indicando que no podrá editarlas. Sin embargo, las personalizaciones implícitas acerca del uso de la página se guardan automáticamente, por ejemplo cambiar el ancho de una columna de la cuadrícula o ampliar o contraer una ficha desplegable. Puede, no obstante, crear una vista personal basada en una vista bloquea mediante la acción **Guardar una copia**, si tiene privilegios de personalización.
+-    **Vistas bloqueadas**: algunas vistas (como la vista clásica y las vistas publicadas para su rol) tiene un candado junto a ellas en el selector de la vista, indicando que no podrá editarlas. Sin embargo, las personalizaciones implícitas que reflejan el uso de la página se guardan automáticamente, por ejemplo cambiar el ancho de una columna de la cuadrícula o ampliar o contraer una ficha desplegable. Puede, no obstante, crear una vista personal basada en una vista bloquea mediante la acción **Guardar una copia**, si tiene privilegios de personalización.
 -    **Nuevas vistas**: las vistas publicadas que aún no se han abierto se delinean con una chispa a la izquierda del nombre de vista.  
 
 Para cambiar a otra vista, abra el selector de la vista y seleccione la vista que desee cargar. 
@@ -75,7 +74,7 @@ Si desea guardar los cambios, siga estos pasos.
      3.    Seleccione **Guardar**.
 
 ## <a name="changing-the-default-view"></a>Cambiar la vista predeterminada
-La vista predeterminada es la vista que el sistema intentará abrir cuando navegue a la página por primera vez. Debe establecer esto a la vista que espera usar a menudo.  
+La vista predeterminada es la vista que el sistema intentará abrir cuando navegue a la página por primera vez. Debe establecer esto a la vista que espera usar más a menudo.  
 
 Para cambiar la vista predeterminada de una página, siga estos pasos: 
 1.  Cambie a la vista que usa como predeterminada. 
@@ -100,14 +99,14 @@ Cualquier cambio realizado en este cuadro de diálogo tomará efecto después de
 ## <a name="managing-personalizations-at-an-organizational-level-with-views"></a>Administrar personalizaciones a nivel de organización con vistas
 Para entender las mejoras en administrar personalizaciones a nivel de organización, veamos primero cómo la administración de personalización trabajadas antes de las vistas.  
 
-Sin vistas, los administradores aplicarían un conjunto de personalizaciones para una página a un usuario, a un grupo de usuarios, o a los usuarios usando el formulario de personalización. Si estos usuarios tuvieran derechos de personalización, las personalizaciones serían aplicadas a esa página. Sin embargo, no había capacidad para evitar que los usuarios personalizasen más la página, lo que significaba que la organización no podía garantizar que los usuarios tuvieran una interfaz de usuario coherente. Si ninguno de estos usuarios tenían derechos de personalización, las personalizaciones que les concedía un administrador no se cargaban. Además, si se contrataba a nuevos usuarios en una organización, los administradores debían cargar manualmente un conjunto de personalizaciones para el usuario. No había un mecanismo automático para especificar a un determinado conjunto de personalizaciones que debían estar disponibles para dicho usuario.
+Sin vistas, los administradores aplicarían un conjunto de personalizaciones para una página a un usuario o a un grupo de usuarios usando la página de personalización. Si estos usuarios tuvieran derechos de personalización, las personalizaciones serían aplicadas a esa página. Sin embargo, no había capacidad para evitar que los usuarios personalizasen más la página, lo que significaba que la organización no podía garantizar que los usuarios tuvieran una interfaz de usuario coherente. Si ninguno de estos usuarios tenían derechos de personalización, las personalizaciones que les concedía un administrador no se cargaban. Además, si se contrataba a nuevos usuarios en una organización, los administradores debían cargar manualmente un conjunto de personalizaciones para el usuario. No había un mecanismo automático para especificar que un determinado conjunto de personalizaciones debían estar disponibles para los usuarios de ese rol.
 
 Con la función de vistas guardadas, la gestión de organización de personalizaciones es mucho más sencilla, principalmente debido a la capacidad de publicar las vistas a roles de seguridad. Una vez una vista se publica, cualquier usuario con dicho rol podrá tener acceso y usar a esa vista, independientemente de la capacidad del usuario de personalizar. Aunque cada usuario tiene una copia de la vista publicada en la que el uso de la página (personalizaciones implícitas) se aplicará automáticamente, ningún usuario puede guardar personalizaciones o actualizaciones explícitas a la consulta para la vista publicada (significa que las vistas publicadas están bloqueadas). Además, si nuevos usuarios reciben un rol para el que se publicó la vista, automáticamente verán las vistas asociadas con sus roles sin que el administrador tenga que actuar. De forma similar, si un usuario cambia de rol en una organización, las vistas asociadas al antiguo rol ya no estarán accesibles, de nuevo sin ninguna acción del administrador. Las actualizaciones de una vista publicada se pueden distribuir fácilmente a los usuarios republicando la vista a los roles de seguridad correspondientes.
 
 Esta capacidad permite a las organizaciones definir las vistas corporativas estándar que se optimizan para su negocio, dirigidas a usuarios en roles de seguridad específicos.  
 
 ## <a name="publishing-views"></a>Publicar vistas
-Durante el proceso de la publicación, las vistas se pueden asignar a uno o más roles de seguridad, lo que significa que los usuarios con dicho rol podrá tener acceso y usar a esa vista, aunque no pueden editarla. Actualmente, sólo los administradores del sistema tienen derechos para la acción **Publicar** en el menú desplegable del selector de la vista.  
+Durante el proceso de la publicación, las vistas se pueden asignar a uno o más roles de seguridad, lo que significa que los usuarios con dicho rol podrá tener acceso y usar a esa vista, aunque no pueden editarla. Actualmente, solo los administradores del sistema tienen derechos para la acción **Publicar** en el menú desplegable del selector de vista, pero un nuevo rol de seguridad estará disponible en una actualización futura para dar derechos de publicación a otros usuarios de confianza.  
 
 Para publicar una vista, siga estos pasos: 
 1.  Cree y guarde una copia personal de la vista que desea publicar. 
@@ -150,14 +149,19 @@ Cualquier cambio realizado en este cuadro de diálogo tomará efecto después de
 
 ## <a name="frequently-asked-questions"></a>Preguntas frecuentes
 ### <a name="how-do-i-enable-saved-views-in-my-environment"></a>¿Cómo habilito las vistas guardadas en mi entorno? 
-Para habilitar vistas guardadas un administrador del sistema debe hacer lo siguiente: 
-1.  Ir a la página **Personalización** mediante la búsqueda de exploración. 
-2.  Seleccionar la pestaña **Configuración**.
-3.  Establecer la opción **Habilitar vistas guardadas** en **Sí**.
+Para habilitar las vistas guardadas mientras la característica se encuentra en vista previa, realice los siguientes pasos: 
 
-Después de que se habilite esta función, todas las sesiones de usuarios posteriores comenzarán con las visiones habilitadas.  
+1.  **Habilite el tramo**: ejecute la instrucción SQL siguiente: 
 
-Tenga en cuenta que si la personalización se desactiva para el entorno, las vistas se habilitarán incluso si sigue los pasos anteriores. Esto se debe a que la característica de las vistas se crea sobre el subsistema de personalización.
+    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('Dynamics.AX.Application.CLISavedViewsEnableFeature', 1, 0, 5637144576);`
+
+2.  **Encuentre la característica**: desplácese al área trabajo **Administración de características** . Si **Vistas guardadas** no aparece en la lista, seleccione el botón **Buscar actualizaciones**.   
+
+3.  **Habilite la característica**: encuentre la función **Vistas guardadas** en la lista de características y haga clic en el botón **Habilitar ahora** en el panel de detalles.
+
+Todas las sesiones de usuario posteriores comenzarán con las vistas guardadas habilitadas.  
+
+Tenga en cuenta que si la personalización se desactiva para el entorno, las vistas se deshabilitarán incluso si sigue los pasos anteriores. Esto se debe a que la característica de las vistas se crea sobre el subsistema de personalización.
 
 ### <a name="what-happens-to-existing-personalizations-when-views-are-enabled"></a>¿Qué sucede a las personalizaciones existentes cuando se habilitan las vistas? 
 Si se habilitan las vistas, las personalizaciones existente para un usuario y un formulario se guardan en una nueva vista denominada **Mi vista** que se establece automáticamente como vista predeterminada. Esto se hace para garantizar que existe una experiencia del usuario coherente antes y después de que se habilitan las vistas, excepto por el control de selector de la vista que aparece en los formularios.  
@@ -166,7 +170,7 @@ Si se habilitan las vistas, las personalizaciones existente para un usuario y un
 Las visiones están disponibles en la mayoría pero no todas las páginas de Finance and Operations. Específicamente, las vistas se encuentran disponibles en todas las páginas de pantalla completa excepto los paneles de información y espacios de trabajo. Las páginas que no son a pantalla completa, que incluyen los cuadros de diálogo, los diálogos desplegables, búsquedas, vistas previas mejoradas, actualmente no admiten las vistas. El soporte para vistas de los tipos adicionales de la página, como espacios de trabajo y cuadros de diálogo, se puede considerar para una actualización futura.   
 
 ### <a name="who-is-allowed-to-publish-views"></a>¿Quién tiene permiso para publicar vistas?
-Los administradores del sistema son actualmente los únicos usuarios con derechos de publicar las vistas.  Se planea un nuevo rol de seguridad, que proporcionaría a clientes más flexibilidad sobre quién puede publicar.  
+Los administradores del sistema son actualmente los únicos usuarios con derechos de publicar las vistas.  Se planea un nuevo rol de seguridad en una actualización futura que proporcionaría a los clientes más flexibilidad sobre quién puede publicar.  
 
 ### <a name="why-am-i-not-able-to-save-filters-with-this-view"></a>¿Por qué no puedo guardar filtros con esta vista? 
 Existen algunas razones por las que un filtro puede parecer no guardarse con una vista: 
@@ -179,4 +183,4 @@ Existen algunas razones por las que un filtro puede parecer no guardarse con una
      
   Cuando esto sucede, un mensaje informativo debería alertarle cuando la vista se cargue. También puede confirmar esto cambiando a esta vista después de que la página cargue, ya que eso debería permitir a la consulta de la vista ejecutarse de forma independiente.  
 
-- La página en cuestión puede que no admita correctamente las vistas, ya que puede omitir la consulta de la vista completamente. Informe de tales situaciones mediante el mecanismo **Comentarios**. Para obtener a la página de comentarios, haga click en **Ayuda y soporte técnico** y luego en **Comentarios**.  
+- La página en cuestión no puede admitir las vistas correctamente, mientras que puede omitir la consulta de vista completamente o puede funcionar en una tabla temporal cuyos datos no sean persistentes. 

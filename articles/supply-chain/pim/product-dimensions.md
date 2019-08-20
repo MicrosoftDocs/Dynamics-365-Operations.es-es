@@ -3,7 +3,7 @@ title: Dimensiones de producto
 description: 'Hay cuatro dimensiones de producto: Color, Configuración, Tamaño y Estilo. Combina dimensiones de producto en grupos de dimensiones y asigna grupos de dimensiones a productos maestros. Las combinaciones de dimensiones de producto determinan la manera en que se definen las variantes de producto.'
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ccb9d47bf6f081dbcc9590bddd4516cf7385ec23
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3391679696c0e1dd84840821480ccbfb544829a6
+ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563583"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1863045"
 ---
 # <a name="product-dimensions"></a>Dimensiones de producto
 
@@ -35,8 +35,8 @@ ms.locfileid: "1563583"
 Hay cuatro dimensiones de producto: Color, Configuración, Tamaño y Estilo. Combina dimensiones de producto en grupos de dimensiones y asigna grupos de dimensiones a productos maestros. Las combinaciones de dimensiones de producto determinan la manera en que se definen las variantes de producto.
 
 Las dimensiones de un producto son las características que permiten identificar una variante del producto. Puede utilizar combinaciones de dimensiones de producto para definir variantes de producto. Se debe definir al menos una dimensión del producto para un producto maestro si desea crear una variante del producto.
-Variantes de producto
-----------------
+
+## <a name="product-variants"></a>Variantes de producto
 
 Las variantes del producto también se conocen como artículos. Un artículo es un producto tangible, que no es igual que el servicio. También es posible definir un producto maestro con el tipo Servicio. Mediante el tipo Servicio, puede especificar las variantes del producto que incluyen servicios. Por ejemplo, puede especificar un producto maestro para el asesoramiento del trabajo y variantes del producto para el trabajo realizado por los asesores sénior y júnior.
 

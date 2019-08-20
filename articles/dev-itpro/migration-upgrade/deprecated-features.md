@@ -3,7 +3,7 @@ title: Características quitadas u obsoletas
 description: Este tema describe las funciones que se han eliminado, o que está previsto que se eliminen.
 author: sericks007
 manager: AnnBe
-ms.date: 06/10/2019
+ms.date: 07/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dffe6e41ef99ca7e5ca8f9a67b26b69151026f35
-ms.sourcegitcommit: a237fc58ddb94ff798fac70feaf1431e00080489
+ms.openlocfilehash: 0c8cc578ce2f8928fcdbe0210c9151e8979bc2e9
+ms.sourcegitcommit: 299e20b59ebefa584ed46a13da3f1a7ff709e43c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624916"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1863392"
 ---
 # <a name="removed-or-deprecated-features"></a>Características quitadas o en desuso
 
@@ -31,7 +31,7 @@ ms.locfileid: "1624916"
 Este tema describe las funciones que se han eliminado, o están en desuso en Dynamics 365 for Finance and Operations.
 
 - Una función *quitada* dejará de estar disponible en el producto.
-- Una función *en desuso* no está en el desarrollo activo y se puedría quitar en una actualización futura.
+- Una función *en desuso* no está en el desarrollo activo y se podría quitar en una actualización futura.
 
 Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y deprecaciones para su propia planificación. 
 
@@ -40,10 +40,32 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 
 > La información detallada sobre los objetos de Finance and Operations se puede encontrar en los [informes de referencia técnica](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de Finance and Operations.
 
-## <a name="dynamics-365-for-finance-and-operations-1004-with-platform-update-28"></a>Dynamics 365 for Finance and Operations 10.0.4 con Platform update 28
+## <a name="dynamics-365-for-finance-and-operations-1005-with-platform-update-29"></a>Dynamics 365 for Finance and Operations 10.0.5 con Platform update 29
 
 > [!IMPORTANT]
-> Dynamics 365 for Finance and Operations 10.0.4 con Platform update 28 está disponible para los usuarios a los que está dirigida como parte de un lanzamiento de versión preliminar. El contenido y la funcionalidad están sujetos a cambios. Para obtener más información acerca las versiones preliminares, consulte [Disponibilidad de actualización del servicio](../../fin-and-ops/get-started/public-preview-releases.md).
+> Dynamics 365 for Finance and Operations 10.0.5 con Platform update 29 está disponible para los usuarios a los que está dirigida como parte de un lanzamiento de versión preliminar. El contenido y la funcionalidad están sujetos a cambios. Para obtener más información acerca las versiones preliminares, consulte [Disponibilidad de actualización del servicio](../../fin-and-ops/get-started/public-preview-releases.md).
+
+### <a name="us-payroll-tax-updates"></a>Actualizaciones de impuestos de nómina en Estados Unidos.
+
+|   |  |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | Vamos a retirar la funcionalidad de actualizaciones de impuestos para nóminas de Estados Unidos porque se usa poco y porque ahora se ofrece funcionalidad mejorada mediante integraciones estratégicas.  |
+| **¿Reemplazado por otra característica?**   | Sí |
+| **Áreas de producto afectadas**         | Nómina |
+| **Opción de implementación**              | Todas |
+| **Estado**                         | En desuso: a partir del 1 de octubre de 2021 dejaremos de proporcionar actualizaciones de impuestos a los clientes de la característica Nómina de EE. UU. La funcionalidad se mantendrá en el producto, pero se dejarán de incluir mejoras para mantener la funcionalidad actualizada y los defectos del producto se evaluarán caso a caso. Para obtener más información, consulte [Actualizaciones de impuestos retiradas de la característica Nómina de EE. UU. en Microsoft Dynamics 365 for Finance and Operations](https://aka.ms/financepayrollfaq). |
+
+
+### <a name="data-management-staging-clean-up"></a>Limpieza del almacenamiento provisional de administración de datos
+|   |  |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | No cumple los requisitos básicos necesarios para programar la limpieza periódica. |
+| **¿Reemplazado por otra característica?**   | Sí, la característica de limpieza del historial de trabajos se agrega para afrontar las situaciones de forma integral. |
+| **Áreas de producto afectadas**         | Administración de datos |
+| **Opción de implementación**              | Todas  |
+| **Estado**                         | En desuso: la fecha prevista para la eliminación de la funcionalidad es diciembre de 2020. |
+
+## <a name="dynamics-365-for-finance-and-operations-1004-with-platform-update-28"></a>Dynamics 365 for Finance and Operations 10.0.4 con Platform update 28
 
 ### <a name="france-fec-accounting-data-export-in-xml"></a>Francia: Formato XML de exportación de datos contables FEC
 
@@ -97,7 +119,7 @@ La compatibilidad para crear los pedidos de ventas basados en proyectos donde el
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | La funcionalidad siempre será habilitada después de que se elimine el parámetro. |
 | **¿Reemplazado por otra característica?**   | N. º La funcionalidad para admitir pedidos de ventas basados en proyectos con varias fuentes de financiación siempre estará habilitada.   |
-| **Áreas de producto afectadas**         |El parámetro **Permitir pedidos de ventas para proyectos con varias fuentes de financiación** se eliminará. Los métodos siguientes estarán modificados cuando se quita el parámetro: el método **ctrlSalesOrderTable** en la clase **ProjStatusType** , el método **validar** para el campo **ProjId** y el método **ejecución** en el formulario **SalescreateOrder**. Los siguientes métodos se dejarán de usar cuando se quita el parámetro: **IsSalesOrderAllowedForMultipleFundingSources** en archivo de tabla **ProjTable** , el método **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled** en el archivo de tabla **ProjTable** , el campo de datos **AllowSalesOrdersForMultipleFundingSources** en el formulario **ProjParameters** y los archivos **ProjParameterEntity** , el método privado **IsAssociatedToMultipleFundingSourcesContract** en el archivo de tabla **ProjTable**. |
+| **Áreas de producto afectadas**         |El parámetro **Permitir pedidos de ventas para proyectos con varias fuentes de financiación** se eliminará. Los métodos siguientes estarán modificados cuando se quita el parámetro: el método **ctrlSalesOrderTable** en la clase **ProjStatusType**, el método **validar** para el campo **ProjId** y el método **ejecución** en el formulario **SalescreateOrder**. Los siguientes métodos se dejarán de usar cuando se quita el parámetro: **IsSalesOrderAllowedForMultipleFundingSources** en archivo de tabla **ProjTable**, el método **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled** en el archivo de tabla **ProjTable**, el campo de datos **AllowSalesOrdersForMultipleFundingSources** en el formulario **ProjParameters** y los archivos **ProjParameterEntity**, el método privado **IsAssociatedToMultipleFundingSourcesContract** en el archivo de tabla **ProjTable**. |
 | **Opción de implementación**              | Todas  |
 | **Estado**                         | La deprecación se planifica para la oleada liberada en abril de 2020. |
 
@@ -228,7 +250,7 @@ Característica para crear plantillas para nuevos registros de impuestos sobre g
 
 |   |  |
 |------------|--------------------|
-| **Motivo de la depreciación/eliminación** | La característica no es compatible con el modelo de extensibilidad de Dynamics 365 for Finance and Operations . |
+| **Motivo de la depreciación/eliminación** | La característica no es compatible con el modelo de extensibilidad de Dynamics 365 for Finance and Operations. |
 | **¿Reemplazado por otra característica?**   | Nº |
 | **Áreas de producto afectadas**         | Impuestos |
 | **Opción de implementación**              | Todas |
@@ -280,7 +302,7 @@ Los paquetes de contenido **Administración de costes**, **Rendimiento financier
 |   |  |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Actualizaciones de producto en Microsoft Power BI. |
-| **¿Reemplazado por otra característica?**   | Los paquetes de contenido **Gestión de costes**, **Rendimiento financiero** y **Retail Channel Performance**, disponibles en el sitio [AppSource](https://appsource.microsoft.com), se van a sustituir por las aplicaciones analíticas que permiten integraciones de la solución en el nivel de la base de datos. Para obtener más información acerca de aplicaciones analíticas, consulte [Power BI incrustado en áreas de trabajo](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
+| **¿Reemplazado por otra característica?**   | Los paquetes de contenido **Gestión de costes**, **Rendimiento financiero** y **Retail Channel Performance**, disponibles en el sitio [AppSource](https://appsource.microsoft.com), se van a sustituir por las aplicaciones analíticas que permiten integraciones de la solución en el nivel de la base de datos. Para obtener más información acerca de aplicaciones analíticas, consulte [Power BI incrustado en espacios de trabajo](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
 | **Áreas de producto afectadas**         | Administración de costes, Finanzas, y Retail                                                                                               |
 | **Opción de implementación**              | Solo en la nube (la integración con PowerBI.com no se admite en implementaciones locales).                                                                                                            |
 | **Estado**                         | En desuso: La fecha prevista para la eliminación de la funcionalidad es el segundo trimestre de 2018.    |
@@ -378,7 +400,7 @@ El portal de dispositivos móviles de almacén (WMDP) era componente independien
 |   |  |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Funcionalidad duplicada.       |
-| **¿Reemplazado por otra característica?**   | Sí. Esta función se ha sustituido por Finance and Operations - Warehousing. Para obtener más información sobre la configuración y prerequisitos, consulte [Instalar y configurar Microsoft Dynamics 365 for Finance and Operations - Almacenaje](../../supply-chain/warehousing/install-configure-warehousing-app.md). |
+| **¿Reemplazado por otra característica?**   | Sí. Esta función se ha sustituido por Finance and Operations - Warehousing. Para obtener más información sobre la configuración y prerrequisitos, consulte [Instalar y configurar Microsoft Dynamics 365 for Finance and Operations - Almacenaje](../../supply-chain/warehousing/install-configure-warehousing-app.md). |
 | **Áreas de producto afectadas**         | Gestión de almacenes y administración de transporte     |
 | **Opción de implementación**              | El portal de dispositivos móviles de almacén (WMDP) era componente independiente pensando para la implementación propia localmente.               |
 | **Estado**                         | En desuso: La fecha prevista para la eliminación de la funcionalidad es el cuarto trimestre de 2019.   |
@@ -1235,7 +1257,7 @@ Servicios de sitios le permite crear sitios web que amplía sus procesos empresa
 
 ### <a name="virtual-company-accounts"></a>Cuentas de empresa virtuales
 
-La característica de empresas virtuales ya no se admite en Dynamics AX. La característica de empresas virtuales permite a los usuarios configurar tablas que se puedan compartidas por un conjunto de empresas. Puede obtener una descripción de la función, vea [Cuentas de empresa y cuentas de empresa virtuales](https://msdn.microsoft.com/en-us/library/aa834382(v=ax.10).aspx). La función trabaja agrupando tablas en recopilaciones que se asignan a empresas virtuales, que son grupos de empresas “reales” existentes. Se crean consultas de modo que todas las empresas de la empresa virtual puedan obtener acceso a los datos de las tablas de las recopilaciones de tablas asociadas.
+La característica de empresas virtuales ya no se admite en Dynamics AX. La característica de empresas virtuales permite a los usuarios configurar tablas que se puedan compartidas por un conjunto de empresas. Puede obtener una descripción de la función, vea [Cuentas de empresa y cuentas de empresa virtuales](https://msdn.microsoft.com/library/aa834382(v=ax.10).aspx). La función trabaja agrupando tablas en recopilaciones que se asignan a empresas virtuales, que son grupos de empresas “reales” existentes. Se crean consultas de modo que todas las empresas de la empresa virtual puedan obtener acceso a los datos de las tablas de las recopilaciones de tablas asociadas.
 
 |   |  | 
 |------------|--------------------|

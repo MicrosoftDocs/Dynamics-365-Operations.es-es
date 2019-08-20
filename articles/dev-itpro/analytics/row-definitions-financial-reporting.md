@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 68873
 ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c829af1da1b3109f4687c9a2536dd156339d5c76
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5b0b7b715bc2b3b90bcd6620c3fe0ad751313c06
+ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551610"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1863757"
 ---
 # <a name="row-definitions-in-financial-report-designer"></a>Definiciones de filas en el diseñador de informes financieros
 
@@ -161,7 +161,7 @@ El formato que se especifica en la definición de la fila anula el formato que s
 
 1. En el Diseñador de informes, abra la definición de fila que desee modificar.
 2. Seleccione las celdas a las que desea dar formato. Para seleccionar varias celdas, mantenga presionada la tecla Ctrl mientras selecciona la celda.
-3. Haga clic en el botón de la barra de herramientas del formato que desea aplicar. Por ejemplo, para aplicar sangría a una fila, seleccione la fila y luego haga clic en **Aumentar sangría** ![Aumentar sangría](https://i-technet.sec.s-msft.com/dynimg/IC679497.gif "Aumentar sangría") en la barra de herramientas.
+3. Haga clic en el botón de la barra de herramientas del formato que desea aplicar. Por ejemplo, para aplicar sangría a una fila, seleccione la fila y luego haga clic en **Aumentar sangría** ![Aumentar sangría](media/indent.gif "Aumentar sangría") en la barra de herramientas.
 
 ### <a name="adjust-columns-while-you-design-reports"></a>Ajustar columnas mientras se diseñan informes
 

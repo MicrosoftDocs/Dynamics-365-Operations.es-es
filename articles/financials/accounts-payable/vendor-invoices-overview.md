@@ -3,14 +3,14 @@ title: Visión general de facturas de proveedores
 description: Este tema ofrece información general relativa a facturas de proveedor. Las facturas de proveedor son solicitudes de pago para productos y servicios que se han recibido. Las facturas de proveedor pueden representar una cuenta para servicios en curso ose pueden basar en pedidos de compra para artículos y servicios específicos.
 author: abruer
 manager: AnnBe
-ms.date: 06/11/2019
+ms.date: 07/17/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendorInvoiceWorkspace, VendInvoiceInfoListPage
 audience: Application User
-ms.reviewer: sericks
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 13971
 ms.assetid: 0ec4dbc0-2eeb-423b-8592-4b5d37e559d3
@@ -18,17 +18,17 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d02eee989e5bebd1cad0b1392ec19aaa918d9db5
-ms.sourcegitcommit: f9444077022a6c678090d02d0f9d4ec0e54b7ca9
+ms.openlocfilehash: c69291214796847af7169cf261865860998f0d27
+ms.sourcegitcommit: 299e20b59ebefa584ed46a13da3f1a7ff709e43c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "1625088"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1863332"
 ---
 # <a name="vendor-invoices-overview"></a>Visión general de facturas de proveedores
 
 [!include [banner](../includes/banner.md)]
-
+[!include [banner](../includes/preview-banner.md)]
 
 Este tema ofrece información general relativa a facturas de proveedor. Las facturas de proveedor son solicitudes de pago para productos y servicios que se han recibido. Las facturas de proveedor pueden representar una cuenta para servicios en curso ose pueden basar en pedidos de compra para artículos y servicios específicos.
 
@@ -90,6 +90,13 @@ Mientras se está utilizando una factura de proveedor, esta no puede editarse po
 Puede usar la página **Recuperar facturas de proveedor** para recuperar o para liberar las facturas de proveedores que se han llevan usándose más de cuatro horas, para que se puedan editar. Puede abrir esta página desde la navegación **Tarea periódica** o una sección en el espacio de trabajo **Entrada de la factura de proveedor**. Después de que se recupera una factura, ésta estará disponible para editarse en la página **Factura de proveedor**.
 
 Puede obtener acceso a la página **Recuperar las facturas de proveedor** solo si tiene asignados derecho y privilegio de seguridad **Recuperar las facturas de proveedor en uso**. Además, el parámetro **Permitir recupear de la factura de proveedor** de la página **Parámetros de proveedores** se debe activar.
+
+## <a name="resetting-the-workflow-status-for-vendor-invoices-from-unrecoverable-to-draft"></a>Restablecer el estado del flujo de trabajo para las facturas de proveedor desde irrecuperable a borrador
+
+Una instancia de flujo de trabajo que se ha detenido debido a un error irrecuperable tendrá un estado flujo trabajo **Irrecuperable**. Cuando el estado de un flujo de trabajo de facturas de proveedor es **Irrecuperable**, puede restablecerlo a **Borrador** seleccionando **Recuperar**. Entonces podrá editar la factura de proveedor. Esta función sólo está disponible si el parámetro **Restablecer estado de borrador para el flujo de trabajo de la factura de proveedor** en la página **Administración de características** está activado.
+
+Puede usar la página **Historial del flujo de trabajo** para restablecer el estado del flujo de trabajo a **Borrador**. Puede abrir esta página **Factura de proveedor** o si navega a **Común > Consultas > Flujo de trabajo**. Para restablecer el estado del flujo de trabajo en **Borrador**, seleccione **Recuperar**. También puede restablecer el estado del flujo de trabajo a Borrador seleccionando la acción **Recuperar** en **Factura de proveedor** o **Facturas de proveedor pendientes**. Una vez que el estado de flujo de trabajo se establece a **Borrador**, quedará disponible para editar en la página **Factura de proveedor**.
+
 
 
 ## <a name="additional-resources"></a>Recursos adicionales

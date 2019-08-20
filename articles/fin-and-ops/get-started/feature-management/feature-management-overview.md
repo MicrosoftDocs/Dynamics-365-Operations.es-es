@@ -3,7 +3,7 @@ title: Vista previa de Administración de características
 description: Este tema describe la función de Administración de características y cómo puede utilizarla.
 author: mikefalkner
 manager: AnnBe
-ms.date: 06/14/2019
+ms.date: 07/17/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,16 +18,17 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: d6aea8651c00b975cf158492e38bb147e908bc56
-ms.sourcegitcommit: 672c94704e9a2b0ec7ee3c111d4ceb1bb8597969
+ms.openlocfilehash: 21eaf2fdcadf8fe9f91438a97a88cc3bddab8286
+ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/14/2019
-ms.locfileid: "1632062"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1862947"
 ---
 # <a name="feature-management-overview"></a>Vista previa de Administración de características
 
 [!include [banner](../../includes/banner.md)]
+[!include [banner](../../includes/preview-banner.md)]
 
 Las características se suman y se actualizan en cada versión de Microsoft Dynamics 365 for Finance and Operations. La experiencia de administración de la característica proporciona un espacio de trabajo en el que puede ver una lista de características que se han entregado en cada versión. De forma predeterminada, las nuevas características están desactivadas. Puede usar el espacio de trabajo para activarlas y ver su documentación.
 
@@ -38,7 +39,7 @@ Puede abrir el espacio de trabajo **Administración de características** selecc
 La lista de características incluye la información siguiente:
 
 - **Nombre de la característica** - Una descripción de la función que se ha agregado.
-- **Estado habilitado** - Un símbolo indica si se ha activado una característica (marca de verificación), no está activada (en blanco), se ha programado para ser activada (reloj), o es obligatorio activarla (candado). El valor que se muestra aquí se usa para todas las entidades jurídicas. Tenga en cuenta que incluso cuando se ha activado, una característica aún se controla mediante la seguridad. Por lo tanto, la característica sólo estará disponible para los usuarios que tengan acceso a ella, en función de su rol de seguridad. También estará disponible solo en las entidades jurídicas a las que tiene acceso el usuario.
+- **Estado habilitado** - Un símbolo indica si se ha activado una característica (marca de verificación), no está activada (en blanco), se ha programado para ser activada (reloj), es obligatorio activarla (candado), requiere atención antes de activarla (advertencia) o no se puede habilitar (X). El valor que se muestra se usa para todas las entidades jurídicas. Tenga en cuenta que incluso cuando se ha activado, una característica aún se controla mediante la seguridad. Por lo tanto, la característica sólo estará disponible para los usuarios que tengan acceso a ella, en función de su rol de seguridad. También estará disponible solo en las entidades jurídicas a las que tiene acceso el usuario.
 - **Fecha de habilitación** - La fecha en que la característica se ha activado o está programado que lo haga.
 - **Característica agregada** - La fecha en que la característica se ha agregado al entorno. Esta fecha se introduce automáticamente durante la actualización del entorno durante los ciclos de lanzamiento mensuales.
 - **Módulo** - El módulo afectado por la nueva característica.
@@ -59,6 +60,10 @@ Si una característica no se ha activado, un botón **Habilitar ahora** aparece 
 - Seleccione la característica que desea activar y, a continuación, en el panel de detalles, seleccione **Habilitar ahora**. Se activa la función.
 
 Algunas funciones no se pueden desactivar tras activarlas. Si la función que intenta activar no se puede desactivar, se mostrará una advertencia. En este punto, puede seleccionar **Cancelar** para cancelar la operación y para dejar la característica desactivada. Sin embargo, si se selecciona **Habilitar** y activa la característica, no podrá desactivarla posteriormente.
+
+Algunas funciones mostrarán un mensaje con información adicional antes de activarlas. Estas funciones están marcadas con un símbolo amarillo de advertencia. Debe leer la información adicional cuidadosamente para averiguar qué sucederá cuando se habilite la función. No obstante, aún podrá seleccionar **Habilitar** para activar la función.
+
+Algunas funciones mostrarán un mensaje de que la característica no puede habilitarse hasta que se tomen medidas. Estas funciones se indican con un símbolo de una X roja. Debe realizar los pasos que se describen en la descripción antes de que se habilite la función. Por ejemplo, si no puede usar una característica hasta que se deshabilite una clave de configuración, debe deshabilitar la clave de configuración primero y después volver a la administración de características para habilitar la función.
 
 Después de que se active la característica, aparece un mensaje bajo el vínculo **Más información** en el panel de detalles. Este mensaje confirma que la característica se ha activado o indica la fecha futura en la que está programada que se active. Aparecerá cada vez que seleccione la característica en la lista de la función.
 
@@ -84,12 +89,28 @@ Después de que se desactive la característica, aparece un mensaje bajo el vín
 
 A veces se lanza una característica crítica que se activará automáticamente cuando se actualice. Estas características se activan automáticamente en la fecha especificada en el campo **Fecha de habilitación**. Para estas características, aparece un mensaje bajo el vínculo **Más información** en el panel de detalles. Este mensaje confirma que la característica se ha activado o indica la fecha futura en la que está programada que se activará. Aparecerá cada vez que seleccione la característica en la lista de la función.
 
+## <a name="enable-all-features"></a>Habilitar todas las características
+
+De forma predeterminada todas las características que se añaden a su entorno se desactivan. Puede habilitar todas las funciones seleccionando el botón **Habilitar todo**. 
+
+Cuando selecciona **Habilitar todo**, aparece una opción para proporcionar la siguiente información:
+- Una lista de todas las características que requieren confirmación antes de que puedan habilitarse. Si desea habilitar las características de la lista, seleccione **Sí** para el botón **Habilitar las características que requieren confirmación**.
+- Se mostrará una lista de todas las características que no se pueden habilitar. Estas características no se habilitarán.
+
+Todas las funciones que se pueden habilitar se habilitarán. Si una característica ya está programada para ser habilitada en el futuro, la programación no cambiará. 
+
 ## <a name="turn-on-all-features-automatically"></a>Activar todas las funciones automáticamente
 
 De forma predeterminada todas las características que se añaden a su entorno se desactivan a menos que sean características obligatorias. Sin embargo, si se desea activar automáticamente todas las nuevas características, puede usar la lista desplegable bajo al título del espacio de trabajo para cambiar qué ocurre cuando se agregan las nuevas características.
 
 - Seleccione **Todas las nuevas características se habilitarán de forma predeterminada** para activar automáticamente todas las nuevas características cuando se añaden al entorno.
 - Seleccione **Todas las nuevas características se deshabilitarán de forma predeterminada** para desactivar automáticamente todas las nuevas características cuando se añaden al entorno.
+
+Si habilita todas las características automáticamente, se habilitan todas las funciones que se habilitarían al hacer clic en el botón **Habilitar todo**. No se habilitarán las características que requieren confirmación o las características que no se pueden habilitar hasta que se tomen medidas.
+
+## <a name="check-for-updates"></a>Buscar actualizaciones
+
+Las características se agregan al entorno después de cada actualización. Sin embargo, puede comprobar manualmente la existencia de actualizaciones haciendo clic en el botón **Buscar actualizaciones**. Cualquier función que fuera agregada al sistema tras la actualización se agregará a la lista de características. Por ejemplo, si se habilita una característica por tramos después de una versión, puede comprobar la existencia de actualizaciones y la función se agregará a la lista.
 
 ## <a name="assigning-roles"></a>Asignar roles
 

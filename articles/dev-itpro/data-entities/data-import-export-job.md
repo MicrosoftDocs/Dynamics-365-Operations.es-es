@@ -3,28 +3,29 @@ title: Trabajos de exportación e importación de datos
 description: Use el espacio de trabajo de gestión de datos para crear y administrar trabajos de importación y exportación de datos.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 03/11/2019
+ms.date: 07/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application user
-ms.reviewer: margoc
+ms.reviewer: sericks
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ceb2dfa37b53af83c4faedffa5b312d654c44593
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: b16966fe1c3a48d772c7c9982f8802119675255f
+ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1505803"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1862913"
 ---
 # <a name="data-import-and-export-jobs"></a>Trabajos de exportación e importación de datos
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Para crear y administrar la importación y exportación de datos de trabajos en Microsoft Dynamics 365 for Finance and Operations debe usar el espacio de trabajo **Gestión de datos**. De forma predeterminada, el proceso de importación y exportación de datos crea una tabla de almacenamiento provisional para cada entidad en la base de datos de destino. Las tablas de almacenamiento provisional le permiten verificar, limpiar o convertir datos antes de moverlos de sitio.
 
@@ -85,7 +86,7 @@ La unidad de ejecución, el nivel de la unidad de ejecución y el orden de una e
 #### <a name="resequencing"></a>Volver a ordenar
 Es posible que quiera volver a ordenar las entidades según las siguientes situaciones:
 
-- Si solo usó un trabajo de datos para todos los cambios, puede usar las opciones para volver a ordenar y así optimizar el tiempo de ejecución del trabajo completo. En estos casos, puede usar la unidad de ejecución para representar el módulo, el nivel para representar el área de características en el módulo y la secuencia para representar la entidad. Al usar este método, puede trabajar en paralelo con diferentes módulos, pero aún así puede seguir trabajando en el orden de un módulo. Para que garantizar que las operaciones paralelas se realizan correctamente, debe tener en cuenta todas las dependencias.
+- Si solo usó un trabajo de datos para todos los cambios, puede usar las opciones para volver a ordenar y así optimizar el tiempo de ejecución del trabajo completo. En estos casos, puede usar la unidad de ejecución para representar el módulo, el nivel para representar el área de características en el módulo y la secuencia para representar la entidad. Al usar este método, puede trabajar en paralelo con diferentes módulos, pero aun así puede seguir trabajando en el orden de un módulo. Para que garantizar que las operaciones paralelas se realizan correctamente, debe tener en cuenta todas las dependencias.
 - Si se utilizan varios trabajos de datos (por ejemplo, un trabajo para cada módulo), puede utilizar la secuenciación en el nivel y ordenar las entidades para asegurar una ejecución óptima.
 - Si no hay dependencias en absoluto, puede ordenar las entidades en diferentes unidades de ejecución para garantizar una optimización máxima.
 
@@ -129,8 +130,8 @@ Un trabajo se puede proteger según los roles, usuarios y entidades jurídicas a
 ## <a name="run-the-import-or-export-job"></a>Ejecutar el trabajo de importación o exportación
 Puede ejecutar un trabajo una vez; para ello, seleccione el botón **Importar** o **Exportar** después de definir el trabajo. Para configurar un trabajo periódico, seleccione **Crear un trabajo de datos recurrente**.
 
-[!NOTE]
-Un trabajo de importación o exportación se puede ejecutar de manera asíncrona seleccionando el botón **Importar** o **Exportar** . La ejecución asíncrona utiliza el marco de asincronía de Finance and Operations, que es diferente del marco por lotes. Sin embargo, como el marco por lotes, el marco de asincronía también puede tener limitaciones y como consecuencia, el trabajo puede no ejecutarse inmediatamente. Los trabajos también se pueden ejecutar sincrónicamente seleccionando **Importar ahora** o **Exportar ahora**. Esto inicia el trabajo inmediatamente y resulta útil si la asincronía o un lote no empiezan debido a limitaciones. Los trabajos también se pueden ejecutar en un lote eligiendo la opción **Ejecutar en lote**. Los recursos por lote están sujetos a limitaciones, por lo que el trabajo por lotes podría no empezar inmediatamente. La opción de asincronía es útil cuando los usuarios interactúan directamente con la interfaz de usuario y no son usuarios avanzados para comprender la programación por lotes. El uso de un lote es una opción alternativa si es necesario exportar o importar grandes volúmenes. Los trabajos por lotes se pueden programar para su ejecución en grupos por lotes específicos, que permiten más control desde una perspectiva de equilibrio de carga. Si la asincronía y los lotes tienen ambos limitaciones debido a la utilización alta de recursos en el sistema, como solución alternativa inmediata, se puede usar la versión síncrona de importación o la exportación. La opción síncrona comenzará inmediatamente y bloqueará la interfaz de usuario porque se ejecuta de forma sincrónica. La ventana de explorador debe permanecer abierta cuando la operación síncrona está en curso.
+> [!NOTE]
+> Un trabajo de importación o exportación se puede ejecutar de manera asíncrona seleccionando el botón **Importar** o **Exportar**. La ejecución asíncrona utiliza el marco de asincronía de Finance and Operations, que es diferente del marco por lotes. Sin embargo, como el marco por lotes, el marco de asincronía también puede tener limitaciones y como consecuencia, el trabajo puede no ejecutarse inmediatamente. Los trabajos también se pueden ejecutar sincrónicamente seleccionando **Importar ahora** o **Exportar ahora**. Esto inicia el trabajo inmediatamente y resulta útil si la asincronía o un lote no empiezan debido a limitaciones. Los trabajos también se pueden ejecutar en un lote eligiendo la opción **Ejecutar en lote**. Los recursos por lote están sujetos a limitaciones, por lo que el trabajo por lotes podría no empezar inmediatamente. La opción de asincronía es útil cuando los usuarios interactúan directamente con la interfaz de usuario y no son usuarios avanzados para comprender la programación por lotes. El uso de un lote es una opción alternativa si es necesario importar o exportar grandes volúmenes. Los trabajos por lotes se pueden programar para su ejecución en grupos por lotes específicos, que permiten más control desde una perspectiva de equilibrio de carga. Si la asincronía y los lotes tienen ambos limitaciones debido a la utilización alta de recursos en el sistema, como solución alternativa inmediata, se puede usar la versión síncrona de importación o la exportación. La opción síncrona comenzará inmediatamente y bloqueará la interfaz de usuario porque se ejecuta de forma sincrónica. La ventana de explorador debe permanecer abierta cuando la operación síncrona está en curso.
 
 ## <a name="validate-that-the-job-ran-as-expected"></a>Confirme que el trabajo funciona como es debido.
 Tiene disponible el historial de trabajos por si necesita solucionar algún problema o investigar algún trabajo de importación o exportación. Las ejecuciones de trabajos del historial se organizan según intervalos de tiempo.
@@ -144,15 +145,17 @@ Cada ejecución de trabajo proporciona los siguientes detalles:
 
 Los detalles de la ejecución muestran el estado de cada entidad de datos que procesó el trabajo. Por lo tanto, puede buscar rápidamente la siguiente información:
 
-- Qué entidades se procesaron
-- En una entidad, cuántos registros se procesaron correctamente y cuántos fallaron
-- Los registros provisionales de cada entidad
+- Qué entidades se procesaron.
+- En una entidad, cuántos registros se procesaron correctamente y cuántos fallaron.
+- Los registros provisionales de cada entidad.
 
 Puede descargar los datos provisionales en un archivo dedicado a los trabajos de exportación, o bien descargarlo como un paquete de los trabajos de exportación e importación.
 
 Desde la opción de detalles de ejecución, también puede abrir el registro de ejecución.
 
 ## <a name="clean-up-the-staging-tables"></a>Limpiar las tablas de almacenamiento provisional
+Esta funcionalidad ha quedado en desuso desde la Platform update 29. Se ha reemplazado por una nueva versión de la funcionalidad de limpieza del historial de trabajo que se explica a continuación.
+
 Puede limpiar las tablas de almacenamiento provisional si usa la característica **Limpieza del almacenamiento provisional** del espacio de trabajo **Administración de datos**. Puede usar las opciones siguientes para seleccionar qué registros deben ser eliminados de una tabla de almacenamiento provisional específica:
 
 - **Entidad**: si solo se proporciona una entidad, todos los registros de la tabla de almacenamiento provisional de esa entidad se borran. Seleccione esta opción para borrar todos los datos de la entidad incluyendo todos los proyectos y trabajos de datos.
@@ -160,3 +163,37 @@ Puede limpiar las tablas de almacenamiento provisional si usa la característica
 - **Proyectos de datos**: si solo se selecciona un proyecto de datos, todos los registros de las entidades y de todos los trabajos del proyecto de datos seleccionado se eliminan.
 
 También puede combinar estas opciones para restringir aún más el conjunto de registros que se van a eliminar.
+
+## <a name="job-history-clean-up-available-in-platform-update-29-and-later"></a>Limpieza del historial de trabajo (disponible en Platform update 29 y actualizaciones posteriores)
+
+La funcionalidad de limpieza del historial de trabajo de la administración de datos debe usarse para programar una limpieza periódica del historial de ejecución. Esta funcionalidad reemplaza la funcionalidad anterior de limpieza de tablas de almacenamiento provisional, que ahora ha quedado en desuso. Se limpiarán las tablas siguientes mediante el proceso de limpieza.
+
+-   Todas las tablas de almacenamiento provisional
+
+-   DMFSTAGINGVALIDATIONLOG
+
+-   DMFSTAGINGEXECUTIONERRORS
+
+-   DMFSTAGINGLOGDETAIL
+
+-   DMFSTAGINGLOG
+
+-   DMFDEFINITIONGROUPEXECUTIONHISTORY
+
+-   DMFEXECUTION
+
+-   DMFDEFINITIONGROUPEXECUTION
+
+Se puede acceder a la funcionalidad desde **Administración de datos \> Limpieza del historial de trabajo**.
+
+### <a name="scheduling-parameters"></a>Parámetros de programación
+
+Al programar el proceso de limpieza hay que especificar los siguientes parámetros para definir los criterios de limpieza.
+
+-   **Número de días del historial que se conservarán**: este valor se usa para controlar la cantidad de historial de ejecución que se va a conservar. Se especifica como un número de días. Cuando el trabajo de limpieza se programa como trabajo por lotes periódico, este valor representa un intervalo de tiempo que se mueve continuamente, manteniendo siempre intacto el número de días especificado del historial y eliminando el resto. El valor predeterminado es de 7 días.
+
+-   **Número total de horas necesarias para ejecutar el trabajo**: en función de la cantidad de historial que haya que limpiar, el tiempo total de ejecución del trabajo de limpieza puede variar de unos minutos a unas horas. Dado que la limpieza de las tablas mencionadas debe hacerse cuando no hay otra actividad de administración de datos en el sistema, es importante asegurarse de que ejecutar y finalizar el trabajo de limpieza antes del inicio de actividad empresarial.
+
+    Con esta opción de configuración se puede especificar un tiempo de ejecución máximo estableciendo un límite máximo del número de horas que el trabajo debe ejecutarse. La lógica de limpieza pasa por un identificador de ejecución de trabajo a la vez en una secuencia ordenada cronológicamente, donde el más antiguo es el primero para la limpieza del historial de ejecución relacionado. Dejará de seleccionar nuevos id. de ejecución para la limpieza cuando la duración restante de la ejecución esté dentro del último 10 % de la duración especificada. En algunos casos, se esperará que el trabajo de limpieza continúe más allá del tiempo máximo especificado. Esto dependerá en gran parte del número de registros que se deben eliminar para el id. de ejecución actual que se inició antes de que se alcanzara el umbral del 10 %. La limpieza iniciada debe completarse para garantizar la integridad de los datos, lo que significa que la limpieza continuará aunque se supere el límite especificado. Una vez completada, no se seleccionarán nuevos identificadores de ejecución y el trabajo de limpieza finalizará. El historial de ejecución restante que no se haya limpiado por falta de tiempo de ejecución se seleccionará la próxima vez que se programe el trabajo de limpieza. El valor predeterminado (y el valor mínimo) de esta configuración está establecido en 2 horas.
+
+-   **Lote periódico**: el trabajo de limpieza se puede ejecutar como una ejecución manual puntual o se puede programar para una ejecución periódica por lotes. El lote se puede programar con la opción de configuración **Ejecutar en segundo plano**, que es la configuración de lote estándar.

@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Operations
 ms.search.region: global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 137fb8cae0766bed16b6b32d99e1d2c6c9f7b606
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d748b7bf696e17d3efd7deabeb9bb1288d1585c6
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1545471"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1852326"
 ---
 # <a name="europe"></a>Europa 
 
@@ -76,7 +76,7 @@ Este tema incluye información y vínculos a recursos que pueden ayudarle a conf
 - [Id. de registro](emea-registration-ids.md)
 - [Cargos invertidos](emea-reverse-charge.md)
 - [Visión general de transferencias de crédito SEPA](../accounts-payable/sepa-credit-transfer.md)
-- [Descripción de las domiciliaciones SEPA](../accounts-receivable/sepa-direct-debit-overview.md)
+- [Visión general de las domiciliaciones SEPA](../accounts-receivable/sepa-direct-debit-overview.md)
 - [Configurar la compensación de clientes y proveedores](emea-compensation-customer-vendor-transactions.md)
 - [Configurar informes de listas de ventas de la UE](tasks/eur-00011-eu-sales-list-reporting.md)
 - [Configuración de un formato de resguardo de pago para facturas de proyecto](tasks/set-up-payment-slip-format-project-invoices.md)

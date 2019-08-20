@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 59161
 ms.assetid: 32e728c5-3b06-4049-8070-ade01e951d49
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3f2b34cccfd84a9e4bb76e7a1da64e5cefa9982e
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4a4733dc4da7a8713ac7ddec5c96ae18c91edc18
+ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551752"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1863680"
 ---
 # <a name="organize-report-components-in-report-designer"></a>Organizar los componentes del informe en el diseñador de informes
 
@@ -50,7 +50,7 @@ Puede agrupar definiciones de informes para generar varios informes al mismo tie
 ### <a name="create-a-report-group"></a>Crear un grupo de informes
 
 1. En el diseñador de informes, en el panel de navegación, haga clic en **Grupos de informes**.
-2. En el menú **Archivo**, haga clic en **Nuevo** &gt; **Definición de grupo de informes** para abrir un nuevo grupo de informe en la ventana del visor. De forma alternativa, haga clic en el botón **Grupo de informes** ![Grupo de informes](https://i-technet.sec.s-msft.com/dynimg/IC679515.gif "Grupo de informes") de la barra de herramientas.
+2. En el menú **Archivo**, haga clic en **Nuevo** &gt; **Definición de grupo de informes** para abrir un nuevo grupo de informe en la ventana del visor. De forma alternativa, haga clic en el botón **Grupo de informes** ![Grupo de informes](media/report-group.gif "Grupo de informes") de la barra de herramientas.
 3. Haga clic en la pestaña **Grupo de informes**. Para reemplazar la información sobre las definiciones de informes individuales para la generación de este informe, active la casilla **Eliminar la configuración de empresa, detalles y fecha de las definiciones de informes individuales**. La información sobre el nombre de la empresa, el nivel de detalle, la configuración provisional y la fecha se especifica automáticamente, pero puede realizar actualizaciones.
 4. Para generar varios informes que muestren las divisas de notificación, active la casilla **Incluir todas las divisas de notificación**. A continuación, para obtener acceso a varias vistas, haga clic en el botón **Divisa** en el visor de la web al ver el informe.
 5. En el campo **Informes en grupo**, haga clic en **Agregar** para seleccionar los informes que se incluirán en el grupo de informes. Para seleccionar varios informes en el cuadro de diálogo **Agregar**, mantenga presionada la tecla Ctrl mientras selecciona los informes. Cuando haya finalizado de seleccionar informes, haga clic en **Aceptar**.
@@ -61,7 +61,7 @@ Puede agrupar definiciones de informes para generar varios informes al mismo tie
 1. En el diseñador de informes, en el panel de navegación, haga clic en **Grupos de informes**.
 2. Haga doble clic en el grupo de informes para modificarlo.
 3. En la pestaña **Grupo de informes**, realice los cambios que desee.
-4. En el menú **Archivo**, haga clic en **Guardar** para guardar el grupo de informes modificado. De forma alternativa, haga clic en el botón **Guardar** ![Guardar](https://i-technet.sec.s-msft.com/dynimg/IC679516.gif "Guardar") de la barra de herramientas.
+4. En el menú **Archivo**, haga clic en **Guardar** para guardar el grupo de informes modificado. De forma alternativa, haga clic en el botón **Guardar** ![Guardar](media/save.gif "Guardar") de la barra de herramientas.
 
 > \[NOTA\]: Si ha programado informes para que se generen en intervalos definidos, puede anular esos ajustes y generar un informe inmediatamente.
 
@@ -69,7 +69,7 @@ Puede agrupar definiciones de informes para generar varios informes al mismo tie
 
 1. En el diseñador de informes, en el panel de navegación, haga clic en **Grupos de informes**.
 2. Abra el grupo de informes que desea generar.
-3. Haga clic en el botón **Generar informe** ![Generar informe](https://i-technet.sec.s-msft.com/dynimg/IC679517.gif "Generar informe") para generar informes.
+3. Haga clic en el botón **Generar informe** ![Generar informe](media/generate-report.gif "Generar informe") para generar informes.
 
 ### <a name="delete-a-report-group"></a>Eliminar un grupo de informes
 

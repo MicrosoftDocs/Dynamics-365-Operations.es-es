@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4da0b965f3719bc16b5a73538df111ff6df071be
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b4d347556d25831bb3f9175e8606e0b41d98bdd8
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555387"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1743265"
 ---
 # <a name="service-orders"></a>Pedidos de servicio   
 
@@ -76,7 +76,7 @@ Uno de los restantes pedidos de servicio generados para el mes de enero se vuelv
 
 ## <a name="post-from-projects"></a>Registrar desde proyectos
 
-Al final de cada semana, el distribuidor desea registrar todos los pedidos de servicio vinculados a un proyecto concreto. Por lo tanto, el distribuidor ubica el proyecto correspondiente en el formulario **Proyectos** y registra los pedidos de servicio que se hayan completado. Para obtener más información, vea [Registrar pedidos de servicio (formulario de clase)](https://technet.microsoft.com/en-us/library/aa574685\(v=ax.60\)).
+Al final de cada semana, el distribuidor desea registrar todos los pedidos de servicio vinculados a un proyecto concreto. Por lo tanto, el distribuidor ubica el proyecto correspondiente en el formulario **Proyectos** y registra los pedidos de servicio que se hayan completado. Para obtener más información, vea [Registrar pedidos de servicio (formulario de clase)](https://technet.microsoft.com/library/aa574685\(v=ax.60\)).
 
 ## <a name="delete-service-orders"></a>Eliminar pedidos de servicio
 
@@ -84,7 +84,7 @@ Durante la segunda mitad del año, el cliente decide que las visitas se producen
 
 ## <a name="see-also"></a>Consulte también
 
-[Pedidos de servicio (formulario)](https://technet.microsoft.com/en-us/library/aa554361\(v=ax.60\))
+[Pedidos de servicio (formulario)](https://technet.microsoft.com/library/aa554361\(v=ax.60\))
 
   
 
