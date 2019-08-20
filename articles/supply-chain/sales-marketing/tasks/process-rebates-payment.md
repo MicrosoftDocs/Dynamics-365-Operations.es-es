@@ -9,45 +9,45 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b2d97a59ae782af0a3d5ab71903961ef244a8e62
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5a05565d220c53d0f860a2c0569622b55c4021d6
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570725"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1833891"
 ---
-# <a name="process-rebates-for-payment"></a><span data-ttu-id="2f657-103">Procesamiento de devoluciones para pago</span><span class="sxs-lookup"><span data-stu-id="2f657-103">Process rebates for payment</span></span>
+# <a name="process-rebates-for-payment"></a><span data-ttu-id="3dce9-103">Procesamiento de devoluciones para pago</span><span class="sxs-lookup"><span data-stu-id="3dce9-103">Process rebates for payment</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="2f657-104">Este procedimiento muestra cómo convertir en notas de abono devoluciones de cliente aprobadas y procesadas.</span><span class="sxs-lookup"><span data-stu-id="2f657-104">This procedure demonstrates how to convert approved and processed customer rebates to credit notes.</span></span> <span data-ttu-id="2f657-105">Puede ejecutar este procedimiento en la empresa de demostración USMF.</span><span class="sxs-lookup"><span data-stu-id="2f657-105">You can use this guide in the USMF demo company.</span></span> <span data-ttu-id="2f657-106">La condición previa para este procedimiento es tener una o más reclamaciones de devolución con estado Marcar.</span><span class="sxs-lookup"><span data-stu-id="2f657-106">The precondition for this guide is to have one or more rebate claims which have a status of Mark.</span></span> <span data-ttu-id="2f657-107">Si está usando USMF, debe ejecutar el procedimiento "Generación y procesamiento de devoluciones de cliente" antes de comenzar este procedimiento.</span><span class="sxs-lookup"><span data-stu-id="2f657-107">If you’re using USMF you should run the "Generate and process customer rebates" guide before you start this guide.</span></span>
+<span data-ttu-id="3dce9-104">Este procedimiento muestra cómo convertir en notas de abono devoluciones de cliente aprobadas y procesadas.</span><span class="sxs-lookup"><span data-stu-id="3dce9-104">This procedure demonstrates how to convert approved and processed customer rebates to credit notes.</span></span> <span data-ttu-id="3dce9-105">Puede ejecutar este procedimiento en la empresa de demostración USMF.</span><span class="sxs-lookup"><span data-stu-id="3dce9-105">You can use this guide in the USMF demo company.</span></span> <span data-ttu-id="3dce9-106">La condición previa para este procedimiento es tener una o más reclamaciones de devolución con estado Marcar.</span><span class="sxs-lookup"><span data-stu-id="3dce9-106">The precondition for this guide is to have one or more rebate claims which have a status of Mark.</span></span> <span data-ttu-id="3dce9-107">Si está usando USMF, debe ejecutar el procedimiento "Generación y procesamiento de devoluciones de cliente" antes de comenzar este procedimiento.</span><span class="sxs-lookup"><span data-stu-id="3dce9-107">If you’re using USMF you should run the "Generate and process customer rebates" guide before you start this guide.</span></span>
 
 
-## <a name="convert-rebate-claims-to-credit-note"></a><span data-ttu-id="2f657-108">Conversión de reclamaciones de devolución en notas de abono</span><span class="sxs-lookup"><span data-stu-id="2f657-108">Convert rebate claims to credit note</span></span>
-1. <span data-ttu-id="2f657-109">Vaya a Todos los clientes.</span><span class="sxs-lookup"><span data-stu-id="2f657-109">Go to All customers.</span></span>
-2. <span data-ttu-id="2f657-110">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="2f657-110">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="2f657-111">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="2f657-111">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="2f657-112">En el panel de acciones, haga clic en Cobrar.</span><span class="sxs-lookup"><span data-stu-id="2f657-112">On the Action Pane, click Collect.</span></span>
-5. <span data-ttu-id="2f657-113">Haga clic en Liquidar transacciones.</span><span class="sxs-lookup"><span data-stu-id="2f657-113">Click Settle transactions.</span></span>
-6. <span data-ttu-id="2f657-114">Haga clic en Funciones.</span><span class="sxs-lookup"><span data-stu-id="2f657-114">Click Functions.</span></span>
-7. <span data-ttu-id="2f657-115">Haga clic en Programa de devoluciones.</span><span class="sxs-lookup"><span data-stu-id="2f657-115">Click Rebate program.</span></span>
-    * <span data-ttu-id="2f657-116">La página Devolución muestra las reclamaciones de devolución que ha procesado en el área de trabajo de devoluciones de cliente y que se encuentran en estado Marcar.</span><span class="sxs-lookup"><span data-stu-id="2f657-116">The Rebate page lists the rebate claims that you have processed in the customer rebate workbench and that are in status Mark.</span></span>    
-8. <span data-ttu-id="2f657-117">Haga clic en Editar.</span><span class="sxs-lookup"><span data-stu-id="2f657-117">Click Edit.</span></span>
-    * <span data-ttu-id="2f657-118">Defina las marcas de verificación del campo Marcar para las reclamaciones que desee incluir en nota de abono.</span><span class="sxs-lookup"><span data-stu-id="2f657-118">Set checkmarks in the Mark field for the claims that you want to include into credit note.</span></span>   
-9. <span data-ttu-id="2f657-119">Haga clic en Funciones.</span><span class="sxs-lookup"><span data-stu-id="2f657-119">Click Functions.</span></span>
-10. <span data-ttu-id="2f657-120">Haga clic en Crear nota de abono.</span><span class="sxs-lookup"><span data-stu-id="2f657-120">Click Create credit note.</span></span>
-    * <span data-ttu-id="2f657-121">Aparece un mensaje para informarle de que se ha registrado un diario (este es el diario de consumo de clientes, como se haya especificado en la página de parámetros de clientes).</span><span class="sxs-lookup"><span data-stu-id="2f657-121">A message appears to inform you that a journal has been posted (This is the Accounts receivable consumption journal, as specified in the Accounts receivable parameters page).</span></span> <span data-ttu-id="2f657-122">Esto hace que el importe real de pasivos (crédito) se desplace al saldo del cliente.</span><span class="sxs-lookup"><span data-stu-id="2f657-122">This causes the real liability (credit) amount to be moved to the customer balance.</span></span> <span data-ttu-id="2f657-123">Esto significa que se ha abonado la cuenta del cliente, y que se ha adeudado la cuenta de acumulación de devoluciones.</span><span class="sxs-lookup"><span data-stu-id="2f657-123">This means that the customer’s account has been credited, and the Rebate accrual account has been debited.</span></span>  
-11. <span data-ttu-id="2f657-124">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="2f657-124">Close the page.</span></span>
-12. <span data-ttu-id="2f657-125">Haga clic en Cancelar.</span><span class="sxs-lookup"><span data-stu-id="2f657-125">Click Cancel.</span></span>
-    * <span data-ttu-id="2f657-126">Esto actualiza la página para que pueda ver las actualizaciones.</span><span class="sxs-lookup"><span data-stu-id="2f657-126">This refreshes the page so that you can see the updates.</span></span>  
-13. <span data-ttu-id="2f657-127">En el panel de acciones, haga clic en Cobrar.</span><span class="sxs-lookup"><span data-stu-id="2f657-127">On the Action Pane, click Collect.</span></span>
-14. <span data-ttu-id="2f657-128">Haga clic en Liquidar transacciones.</span><span class="sxs-lookup"><span data-stu-id="2f657-128">Click Settle transactions.</span></span>
-    * <span data-ttu-id="2f657-129">Observe cómo se ha agregado al saldo del cliente una transacción por un importe negativo, el cual representa el importe de devolución total, sin referencia de factura.</span><span class="sxs-lookup"><span data-stu-id="2f657-129">Note that a transaction for negative amount, representing the total rebate amount, without invoice reference has been added to the customer balance.</span></span>   
-15. <span data-ttu-id="2f657-130">Haga clic en Cancelar.</span><span class="sxs-lookup"><span data-stu-id="2f657-130">Click Cancel.</span></span>
+## <a name="convert-rebate-claims-to-credit-note"></a><span data-ttu-id="3dce9-108">Conversión de reclamaciones de devolución en notas de abono</span><span class="sxs-lookup"><span data-stu-id="3dce9-108">Convert rebate claims to credit note</span></span>
+1. <span data-ttu-id="3dce9-109">Vaya a Todos los clientes.</span><span class="sxs-lookup"><span data-stu-id="3dce9-109">Go to All customers.</span></span>
+2. <span data-ttu-id="3dce9-110">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="3dce9-110">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="3dce9-111">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="3dce9-111">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="3dce9-112">En el panel de acciones, haga clic en Cobrar.</span><span class="sxs-lookup"><span data-stu-id="3dce9-112">On the Action Pane, click Collect.</span></span>
+5. <span data-ttu-id="3dce9-113">Haga clic en Liquidar transacciones.</span><span class="sxs-lookup"><span data-stu-id="3dce9-113">Click Settle transactions.</span></span>
+6. <span data-ttu-id="3dce9-114">Haga clic en Funciones.</span><span class="sxs-lookup"><span data-stu-id="3dce9-114">Click Functions.</span></span>
+7. <span data-ttu-id="3dce9-115">Haga clic en Programa de devoluciones.</span><span class="sxs-lookup"><span data-stu-id="3dce9-115">Click Rebate program.</span></span>
+    * <span data-ttu-id="3dce9-116">La página Devolución muestra las reclamaciones de devolución que ha procesado en el área de trabajo de devoluciones de cliente y que se encuentran en estado Marcar.</span><span class="sxs-lookup"><span data-stu-id="3dce9-116">The Rebate page lists the rebate claims that you have processed in the customer rebate workbench and that are in status Mark.</span></span>    
+8. <span data-ttu-id="3dce9-117">Haga clic en Editar.</span><span class="sxs-lookup"><span data-stu-id="3dce9-117">Click Edit.</span></span>
+    * <span data-ttu-id="3dce9-118">Defina las marcas de verificación del campo Marcar para las reclamaciones que desee incluir en nota de abono.</span><span class="sxs-lookup"><span data-stu-id="3dce9-118">Set checkmarks in the Mark field for the claims that you want to include into credit note.</span></span>   
+9. <span data-ttu-id="3dce9-119">Haga clic en Funciones.</span><span class="sxs-lookup"><span data-stu-id="3dce9-119">Click Functions.</span></span>
+10. <span data-ttu-id="3dce9-120">Haga clic en Crear nota de abono.</span><span class="sxs-lookup"><span data-stu-id="3dce9-120">Click Create credit note.</span></span>
+    * <span data-ttu-id="3dce9-121">Aparece un mensaje para informarle de que se ha registrado un diario (este es el diario de consumo de clientes, como se haya especificado en la página de parámetros de clientes).</span><span class="sxs-lookup"><span data-stu-id="3dce9-121">A message appears to inform you that a journal has been posted (This is the Accounts receivable consumption journal, as specified in the Accounts receivable parameters page).</span></span> <span data-ttu-id="3dce9-122">Esto hace que el importe real de pasivos (crédito) se desplace al saldo del cliente.</span><span class="sxs-lookup"><span data-stu-id="3dce9-122">This causes the real liability (credit) amount to be moved to the customer balance.</span></span> <span data-ttu-id="3dce9-123">Esto significa que se ha abonado la cuenta del cliente, y que se ha adeudado la cuenta de acumulación de devoluciones.</span><span class="sxs-lookup"><span data-stu-id="3dce9-123">This means that the customer’s account has been credited, and the Rebate accrual account has been debited.</span></span>  
+11. <span data-ttu-id="3dce9-124">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="3dce9-124">Close the page.</span></span>
+12. <span data-ttu-id="3dce9-125">Haga clic en Cancelar.</span><span class="sxs-lookup"><span data-stu-id="3dce9-125">Click Cancel.</span></span>
+    * <span data-ttu-id="3dce9-126">Esto actualiza la página para que pueda ver las actualizaciones.</span><span class="sxs-lookup"><span data-stu-id="3dce9-126">This refreshes the page so that you can see the updates.</span></span>  
+13. <span data-ttu-id="3dce9-127">En el panel de acciones, haga clic en Cobrar.</span><span class="sxs-lookup"><span data-stu-id="3dce9-127">On the Action Pane, click Collect.</span></span>
+14. <span data-ttu-id="3dce9-128">Haga clic en Liquidar transacciones.</span><span class="sxs-lookup"><span data-stu-id="3dce9-128">Click Settle transactions.</span></span>
+    * <span data-ttu-id="3dce9-129">Observe cómo se ha agregado al saldo del cliente una transacción por un importe negativo, el cual representa el importe de devolución total, sin referencia de factura.</span><span class="sxs-lookup"><span data-stu-id="3dce9-129">Note that a transaction for negative amount, representing the total rebate amount, without invoice reference has been added to the customer balance.</span></span>   
+15. <span data-ttu-id="3dce9-130">Haga clic en Cancelar.</span><span class="sxs-lookup"><span data-stu-id="3dce9-130">Click Cancel.</span></span>
 

@@ -1,72 +1,70 @@
 ---
 title: Configurar un trabajador mediante el dispositivo móvil de trabajo
-description: Este procedimiento le muestra cómo asignar los roles correctos a la cuenta de usuario de un trabajador y, a continuación, habilitar al trabajador para que realice registros de planta.
+description: Este tema explica cómo asignar los roles correctos a la cuenta de usuario de un trabajador y, a continuación, habilitar al trabajador para que realice registros de planta.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysUserManagement, HcmWorker, JmgRegistrationSetupTouch, JmgRegistrationSetupAssignUsers
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1bb4d806810660e55ef13a9ff21c07e0ce194496
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a6e45ea8fdbe30436badd88d4972fda970755275
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571367"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1835792"
 ---
-# <a name="configure-a-worker-using-the-mobile-job-device"></a><span data-ttu-id="78457-103">Configurar un trabajador mediante el dispositivo móvil de trabajo</span><span class="sxs-lookup"><span data-stu-id="78457-103">Configure a worker using the mobile job device</span></span>
+# <a name="configure-a-worker-using-the-mobile-job-device"></a><span data-ttu-id="7fba2-103">Configurar un trabajador mediante el dispositivo móvil de trabajo</span><span class="sxs-lookup"><span data-stu-id="7fba2-103">Configure a worker using the mobile job device</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="78457-104">Este procedimiento le muestra cómo asignar los roles correctos a la cuenta de usuario de un trabajador y, a continuación, habilitar al trabajador para que realice registros de planta.</span><span class="sxs-lookup"><span data-stu-id="78457-104">This procedure shows you how to assign the correct roles to the user account of a worker, and then enable the worker to do shop floor registrations.</span></span>
+<span data-ttu-id="7fba2-104">Este tema explica cómo asignar los roles correctos a la cuenta de usuario de un trabajador y, a continuación, habilitar al trabajador para que realice registros de planta.</span><span class="sxs-lookup"><span data-stu-id="7fba2-104">This topic explains how to assign the correct roles to the user account of a worker, and then enable the worker to do shop floor registrations.</span></span>
 
+## <a name="verify-that-a-worker-is-assigned-a-certain-role"></a><span data-ttu-id="7fba2-105">Comprobar que el trabajador está asignado a un rol</span><span class="sxs-lookup"><span data-stu-id="7fba2-105">Verify that a worker is assigned a certain role</span></span>
 
-## <a name="assign-roles-to-user-account"></a><span data-ttu-id="78457-105">Asignar roles a cuenta de usuario</span><span class="sxs-lookup"><span data-stu-id="78457-105">Assign roles to user account</span></span>
-1. <span data-ttu-id="78457-106">Vaya a Administración del sistema > Usuarios > Usuarios.</span><span class="sxs-lookup"><span data-stu-id="78457-106">Go to System administration > Users > Users.</span></span>
-2. <span data-ttu-id="78457-107">Use el filtro rápido para filtrar por el nombre de un trabajador el que la cuenta de usuario está asociada al rol de operador de maquinaria.</span><span class="sxs-lookup"><span data-stu-id="78457-107">Use the Quick Filter to filter on the name of a worker where the user account is associated with the machine operator role.</span></span> <span data-ttu-id="78457-108">En los datos de ejemplo, el nombre sería Shannon.</span><span class="sxs-lookup"><span data-stu-id="78457-108">In the sample data, the name would be Shannon.</span></span>
-3. <span data-ttu-id="78457-109">Resalte el registro de la cuenta de usuario.</span><span class="sxs-lookup"><span data-stu-id="78457-109">Highlight the user account record.</span></span>
-4. <span data-ttu-id="78457-110">En la lista, haga clic en el vínculo "Nombre" en la fila seleccionada para ver los detalles de la cuenta de usuario.</span><span class="sxs-lookup"><span data-stu-id="78457-110">In the list, click the "Name" link in the selected row to view the details of the user account.</span></span>
-5. <span data-ttu-id="78457-111">En el árbol, seleccione el "Roles\Operador de máquina".</span><span class="sxs-lookup"><span data-stu-id="78457-111">In the tree, select 'Roles\Machine operator'.</span></span>
-6. <span data-ttu-id="78457-112">Cierre la página de detalles de la cuenta de usuario.</span><span class="sxs-lookup"><span data-stu-id="78457-112">Close the user account details page.</span></span>
-7. <span data-ttu-id="78457-113">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="78457-113">Close the page.</span></span>
+<span data-ttu-id="7fba2-106">Para este ejemplo, compruebe que se asigna al usuario "SHANNON" el rol de operadora de maquinaria antes de configurar la cuenta de la trabajadora.</span><span class="sxs-lookup"><span data-stu-id="7fba2-106">For this example, verify that user "SHANNON" is assigned the machine operator role before you configure the worker account.</span></span>
 
-## <a name="configure-worker-account"></a><span data-ttu-id="78457-114">Configurar cuenta de trabajador.</span><span class="sxs-lookup"><span data-stu-id="78457-114">Configure worker account.</span></span>
-1. <span data-ttu-id="78457-115">Vaya a Recursos humanos > Trabajadores > Trabajadores.</span><span class="sxs-lookup"><span data-stu-id="78457-115">Go to Human resources > Workers > Workers.</span></span>
-2. <span data-ttu-id="78457-116">Use el filtro rápido para filtrar por el nombre de un trabajador el que la cuenta de usuario está asociada al rol de operador de maquinaria.</span><span class="sxs-lookup"><span data-stu-id="78457-116">Use the Quick Filter to filter on the name of a worker where the user account is associated with the machine operator role.</span></span> <span data-ttu-id="78457-117">En los datos de ejemplo, el nombre sería Shannon.</span><span class="sxs-lookup"><span data-stu-id="78457-117">In the sample data, the name would be Shannon.</span></span>
-3. <span data-ttu-id="78457-118">Resalte el registro de la cuenta de usuario.</span><span class="sxs-lookup"><span data-stu-id="78457-118">Highlight the user account record.</span></span>
-4. <span data-ttu-id="78457-119">En la lista, haga clic en el vínculo "Nombre" en la fila seleccionada para ver los detalles de la cuenta de usuario.</span><span class="sxs-lookup"><span data-stu-id="78457-119">In the list, click the "Name" link in the selected row to view the details of the user account.</span></span>
-5. <span data-ttu-id="78457-120">Haga clic en la ficha Empleo.</span><span class="sxs-lookup"><span data-stu-id="78457-120">Click the Employment tab.</span></span>
-6. <span data-ttu-id="78457-121">Expanda la ficha desplegable Registro de horas y haga clic en Activar en terminales de registro.</span><span class="sxs-lookup"><span data-stu-id="78457-121">Expand the Time registration FastTab and click Activate on registration terminals.</span></span>
-7. <span data-ttu-id="78457-122">Haga clic en Activar en terminales de registro.</span><span class="sxs-lookup"><span data-stu-id="78457-122">Click Activate on registration terminals.</span></span>
-8. <span data-ttu-id="78457-123">En el campo Grupo de cálculo, escriba o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="78457-123">In the Calculation group field, enter or select a value.</span></span>
-9. <span data-ttu-id="78457-124">En el campo Grupo de cálculo predeterminado, escriba o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="78457-124">In the Default calculation group field, enter or select a value.</span></span>
-10. <span data-ttu-id="78457-125">En el campo Grupo de aprobación, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="78457-125">In the Approval group field, enter or select a value.</span></span>
-11. <span data-ttu-id="78457-126">En el campo Perfil estándar, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="78457-126">In the Standard profile field, enter or select a value.</span></span>
-12. <span data-ttu-id="78457-127">En el campo Grupo de perfiles, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="78457-127">In the Profile group field, enter or select a value.</span></span>
-13. <span data-ttu-id="78457-128">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="78457-128">Click OK.</span></span>
-14. <span data-ttu-id="78457-129">Haga clic en Editar para especificar un número de tarjeta para el nuevo trabajador con registro de horas.</span><span class="sxs-lookup"><span data-stu-id="78457-129">Click Edit to enter a badge number for the new time registration worker.</span></span>
-15. <span data-ttu-id="78457-130">En el campo Id. de tarjeta, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="78457-130">In the Badge ID field, type a value.</span></span>
-16. <span data-ttu-id="78457-131">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="78457-131">Click Save.</span></span>
-17. <span data-ttu-id="78457-132">Use el acceso directo SaveRecord.</span><span class="sxs-lookup"><span data-stu-id="78457-132">Use the SaveRecord shortcut.</span></span>
-18. <span data-ttu-id="78457-133">Cierre la página de detalles del trabajador.</span><span class="sxs-lookup"><span data-stu-id="78457-133">Close the worker details page.</span></span>
-19. <span data-ttu-id="78457-134">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="78457-134">Close the page.</span></span>
+1. <span data-ttu-id="7fba2-107">Vaya a **Panel de navegación > Módulos > Administración del sistema > Usuarios > Usuarios**.</span><span class="sxs-lookup"><span data-stu-id="7fba2-107">Go to **Navigation pane > Modules > System administration > Users > Users**.</span></span>
+2. <span data-ttu-id="7fba2-108">Busque un usuario en el filtro rápido.</span><span class="sxs-lookup"><span data-stu-id="7fba2-108">Search for a user in the quick filter.</span></span> <span data-ttu-id="7fba2-109">Para este ejemplo, escriba `shannon`.</span><span class="sxs-lookup"><span data-stu-id="7fba2-109">For this example, enter `shannon`.</span></span>
+3. <span data-ttu-id="7fba2-110">Seleccione el vínculo en la columna **Id. de usuario** de la cuenta de usuario que aparece.</span><span class="sxs-lookup"><span data-stu-id="7fba2-110">Select the link in the **User ID** column of the user account that appears.</span></span>
+4. <span data-ttu-id="7fba2-111">En el árbol **Roles de usuario**, seleccione **Roles > Operador de maquinaria**.</span><span class="sxs-lookup"><span data-stu-id="7fba2-111">In the **User's roles** tree, select **Roles > Machine operator**.</span></span>
+5. <span data-ttu-id="7fba2-112">Cierre las páginas **detalles de usuario** y **usuarios** para volver a la página principal.</span><span class="sxs-lookup"><span data-stu-id="7fba2-112">Close the **user details** and **users** pages to return to the home page.</span></span>
 
-## <a name="assign-worker-to-device-group"></a><span data-ttu-id="78457-135">Asignar trabajador a grupo de dispositivos.</span><span class="sxs-lookup"><span data-stu-id="78457-135">Assign worker to device group.</span></span>
-1. <span data-ttu-id="78457-136">Vaya a Control de producción > Configuración > Ejecución de fabricación > Configurar tarjeta de trabajo para dispositivos.</span><span class="sxs-lookup"><span data-stu-id="78457-136">Go to Production control > Setup > Manufacturing execution > Configure job card for devices.</span></span>
-2. <span data-ttu-id="78457-137">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="78457-137">Click Add.</span></span>
-3. <span data-ttu-id="78457-138">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="78457-138">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="78457-139">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="78457-139">Click OK.</span></span>
-5. <span data-ttu-id="78457-140">Haga clic en Editar.</span><span class="sxs-lookup"><span data-stu-id="78457-140">Click Edit.</span></span>
-6. <span data-ttu-id="78457-141">En el campo Unidad de producción, puede establecer el filtro predeterminado para el trabajador.</span><span class="sxs-lookup"><span data-stu-id="78457-141">In the Production unit field, you can set the default filter for the worker.</span></span> <span data-ttu-id="78457-142">Esto asegurará que solo se muestran los trabajos de producción para la unidad de producción seleccionada cuando el trabajador inicia sesión en el dispositivo.</span><span class="sxs-lookup"><span data-stu-id="78457-142">This will ensure that only production jobs for the selected production unit are shown when the worker logs on to the device.</span></span>
-7. <span data-ttu-id="78457-143">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="78457-143">Close the page.</span></span>
+## <a name="configure-worker-account"></a><span data-ttu-id="7fba2-113">Configurar la cuenta de trabajador</span><span class="sxs-lookup"><span data-stu-id="7fba2-113">Configure worker account</span></span>
+1. <span data-ttu-id="7fba2-114">Vaya a **Panel de exploración > Módulos > Recursos humanos > Trabajadores > Trabajadores**.</span><span class="sxs-lookup"><span data-stu-id="7fba2-114">Go to **Navigation pane > Modules > Human resources > Workers > Workers**.</span></span>
+2. <span data-ttu-id="7fba2-115">Busque un usuario en el filtro rápido.</span><span class="sxs-lookup"><span data-stu-id="7fba2-115">Search for a user in the quick filter.</span></span> <span data-ttu-id="7fba2-116">Para este ejemplo, escriba `shannon`.</span><span class="sxs-lookup"><span data-stu-id="7fba2-116">For this example, enter `shannon`.</span></span>
+3. <span data-ttu-id="7fba2-117">Seleccione el vínculo en la columna **Nombre** de la cuenta de usuario que aparece.</span><span class="sxs-lookup"><span data-stu-id="7fba2-117">Select the link in the **Name** column of the user account that appears.</span></span>
+4. <span data-ttu-id="7fba2-118">Seleccione la pestaña **Registro de horas**.</span><span class="sxs-lookup"><span data-stu-id="7fba2-118">Select the **Time registration** tab.</span></span>
+5. <span data-ttu-id="7fba2-119">Seleccione **Activar en terminales de registro**.</span><span class="sxs-lookup"><span data-stu-id="7fba2-119">Select **Activate on registration terminals**.</span></span>
+6. <span data-ttu-id="7fba2-120">Especifique o seleccione los valores de los siguientes campos:</span><span class="sxs-lookup"><span data-stu-id="7fba2-120">Enter or select values in the following fields:</span></span>  
+
+    - <span data-ttu-id="7fba2-121">**Grupo de cálculo**</span><span class="sxs-lookup"><span data-stu-id="7fba2-121">**Calculation group**</span></span>  
+    - <span data-ttu-id="7fba2-122">**Grupo de cálculo predeterminado**</span><span class="sxs-lookup"><span data-stu-id="7fba2-122">**Default calculation group**</span></span>  
+    - <span data-ttu-id="7fba2-123">**Grupo de aprobación**</span><span class="sxs-lookup"><span data-stu-id="7fba2-123">**Approval group**</span></span>  
+    - <span data-ttu-id="7fba2-124">**Perfil estándar**</span><span class="sxs-lookup"><span data-stu-id="7fba2-124">**Standard profile**</span></span>  
+    - <span data-ttu-id="7fba2-125">**Grupo de perfiles**</span><span class="sxs-lookup"><span data-stu-id="7fba2-125">**Profile group**</span></span>  
+
+7. <span data-ttu-id="7fba2-126">Seleccione **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="7fba2-126">Select **OK**.</span></span>
+8. <span data-ttu-id="7fba2-127">Seleccione **Editar** para especificar un número de tarjeta para el nuevo trabajador con registro de horas.</span><span class="sxs-lookup"><span data-stu-id="7fba2-127">Select **Edit** to enter a badge number for the new time registration worker.</span></span> <span data-ttu-id="7fba2-128">En el campo **Id. de tarjeta**, especifique un valor.</span><span class="sxs-lookup"><span data-stu-id="7fba2-128">Enter a value in the **Badge ID** field.</span></span>
+9. <span data-ttu-id="7fba2-129">Seleccione **Guardar**.</span><span class="sxs-lookup"><span data-stu-id="7fba2-129">Select **Save**.</span></span>
+10. <span data-ttu-id="7fba2-130">Cierre **Detalles del trabajador** y **Trabajadores**.</span><span class="sxs-lookup"><span data-stu-id="7fba2-130">Close the **Worker details** and **Workers** pages.</span></span>
+
+## <a name="assign-worker-to-device-group"></a><span data-ttu-id="7fba2-131">Asignar un trabajador a un grupo de dispositivos</span><span class="sxs-lookup"><span data-stu-id="7fba2-131">Assign worker to device group</span></span>
+1. <span data-ttu-id="7fba2-132">Vaya a **Control de producción > Configuración > Ejecución de fabricación > Configurar tarjeta de trabajo para dispositivos**:</span><span class="sxs-lookup"><span data-stu-id="7fba2-132">Go to **Production control > Setup > Manufacturing execution > Configure job card for devices**.</span></span>
+2. <span data-ttu-id="7fba2-133">Seleccione **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="7fba2-133">Select **Add**.</span></span>
+3. <span data-ttu-id="7fba2-134">En la lista, seleccione el trabajador que desee.</span><span class="sxs-lookup"><span data-stu-id="7fba2-134">In the list, select the desired worker.</span></span> <span data-ttu-id="7fba2-135">Para este ejemplo, seleccione **SHANNON**.</span><span class="sxs-lookup"><span data-stu-id="7fba2-135">For this example, select **SHANNON**.</span></span>
+4. <span data-ttu-id="7fba2-136">Seleccione **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="7fba2-136">Select **OK**.</span></span>
+5. <span data-ttu-id="7fba2-137">Seleccione **Editar**.</span><span class="sxs-lookup"><span data-stu-id="7fba2-137">Select **Edit**.</span></span>
+6. <span data-ttu-id="7fba2-138">En el campo **Unidad de producción**, puede establecer el filtro predeterminado para el trabajador.</span><span class="sxs-lookup"><span data-stu-id="7fba2-138">In the **Production unit** field, you can set the default filter for the worker.</span></span> <span data-ttu-id="7fba2-139">Esto asegurará que solo se muestran los trabajos de producción para la unidad de producción seleccionada cuando el trabajador inicia sesión en el dispositivo.</span><span class="sxs-lookup"><span data-stu-id="7fba2-139">This will ensure that only production jobs for the selected production unit are shown when the worker logs on to the device.</span></span> <span data-ttu-id="7fba2-140">Especifique el valor que desee.</span><span class="sxs-lookup"><span data-stu-id="7fba2-140">Enter the desired value.</span></span>
+7. <span data-ttu-id="7fba2-141">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="7fba2-141">Close the page.</span></span>
 

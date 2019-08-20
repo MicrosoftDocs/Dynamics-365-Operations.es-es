@@ -18,39 +18,39 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dec3fe2a7344c2719ca12a180fa0adb025b7fcc7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 67f8f9a24aeb88496d5b694dff550455bae6aa17
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558135"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742991"
 ---
-# <a name="view-the-status-of-service-orders"></a><span data-ttu-id="73c58-103">Ver el estado de los pedidos de servicio</span><span class="sxs-lookup"><span data-stu-id="73c58-103">View the status of service orders</span></span> 
+# <a name="view-the-status-of-service-orders"></a><span data-ttu-id="bebe7-103">Ver el estado de los pedidos de servicio</span><span class="sxs-lookup"><span data-stu-id="bebe7-103">View the status of service orders</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="73c58-104">El formulario **Panel de distribución** le permite ver el estado de las actividades de servicio de los pedidos de servicio.</span><span class="sxs-lookup"><span data-stu-id="73c58-104">You can use the **Dispatch board** form to view the status of service activities in service orders.</span></span>
+<span data-ttu-id="bebe7-104">El formulario **Panel de distribución** le permite ver el estado de las actividades de servicio de los pedidos de servicio.</span><span class="sxs-lookup"><span data-stu-id="bebe7-104">You can use the **Dispatch board** form to view the status of service activities in service orders.</span></span>
 
-## <a name="more-information-about-service-orders"></a><span data-ttu-id="73c58-105">Más información acerca de los pedidos de servicio</span><span class="sxs-lookup"><span data-stu-id="73c58-105">More information about service orders</span></span>
+## <a name="more-information-about-service-orders"></a><span data-ttu-id="bebe7-105">Más información acerca de los pedidos de servicio</span><span class="sxs-lookup"><span data-stu-id="bebe7-105">More information about service orders</span></span>
 
-<span data-ttu-id="73c58-106">El formulario también proporciona herramientas para realizar un seguimiento del flujo de pedidos de servicio e incluye detalles adicionales para ayudarle a evaluar la urgencia de un pedido de servicio, como el acuerdo de servicio y el acuerdo de nivel de servicio con los que está asociado.</span><span class="sxs-lookup"><span data-stu-id="73c58-106">The form also provides tools to track the flow of service orders and includes additional details to help you evaluate the urgency of a service order, such the service agreement and service level agreement that it is associated with.</span></span>
+<span data-ttu-id="bebe7-106">El formulario también proporciona herramientas para realizar un seguimiento del flujo de pedidos de servicio e incluye detalles adicionales para ayudarle a evaluar la urgencia de un pedido de servicio, como el acuerdo de servicio y el acuerdo de nivel de servicio con los que está asociado.</span><span class="sxs-lookup"><span data-stu-id="bebe7-106">The form also provides tools to track the flow of service orders and includes additional details to help you evaluate the urgency of a service order, such the service agreement and service level agreement that it is associated with.</span></span>
 
-<span data-ttu-id="73c58-107">El gráfico de Gantt admite el uso de colores para ayudarle a evaluar rápidamente la urgencia de un pedido de servicio.</span><span class="sxs-lookup"><span data-stu-id="73c58-107">In order to help you quickly gauge the urgency of a service order, the Gantt chart supports the use of colors.</span></span> <span data-ttu-id="73c58-108">Los colores se usan para diferenciar la prioridad de una llamada de servicio.</span><span class="sxs-lookup"><span data-stu-id="73c58-108">Colors are used to distinguish the priority of a service call.</span></span> <span data-ttu-id="73c58-109">Estos colores son, por defecto, rojo para prioridad alta, amarillo para prioridad normal y verde para prioridad baja.</span><span class="sxs-lookup"><span data-stu-id="73c58-109">By default, these colors are red for high priority, yellow for typical priority, and green for low priority.</span></span>
+<span data-ttu-id="bebe7-107">El gráfico de Gantt admite el uso de colores para ayudarle a evaluar rápidamente la urgencia de un pedido de servicio.</span><span class="sxs-lookup"><span data-stu-id="bebe7-107">In order to help you quickly gauge the urgency of a service order, the Gantt chart supports the use of colors.</span></span> <span data-ttu-id="bebe7-108">Los colores se usan para diferenciar la prioridad de una llamada de servicio.</span><span class="sxs-lookup"><span data-stu-id="bebe7-108">Colors are used to distinguish the priority of a service call.</span></span> <span data-ttu-id="bebe7-109">Estos colores son, por defecto, rojo para prioridad alta, amarillo para prioridad normal y verde para prioridad baja.</span><span class="sxs-lookup"><span data-stu-id="bebe7-109">By default, these colors are red for high priority, yellow for typical priority, and green for low priority.</span></span>
 
 
 > [!TIP]
-> <P><span data-ttu-id="73c58-110">Puede cambiar los colores en la ficha <STRONG>Distribución</STRONG> del formulario <STRONG>Parámetros de la gestión de servicio</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="73c58-110">You can change the colors on the <STRONG>Dispatching</STRONG> tab in the <STRONG>Service management parameters</STRONG> form.</span></span></P>
+> <P><span data-ttu-id="bebe7-110">Puede cambiar los colores en la ficha <STRONG>Distribución</STRONG> del formulario <STRONG>Parámetros de la gestión de servicio</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="bebe7-110">You can change the colors on the <STRONG>Dispatching</STRONG> tab in the <STRONG>Service management parameters</STRONG> form.</span></span></P>
 
 
 
-## <a name="see-also"></a><span data-ttu-id="73c58-111">Consulte también</span><span class="sxs-lookup"><span data-stu-id="73c58-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bebe7-111">Consulte también</span><span class="sxs-lookup"><span data-stu-id="bebe7-111">See also</span></span>
 
-[<span data-ttu-id="73c58-112">Priorizar los pedidos de servicio</span><span class="sxs-lookup"><span data-stu-id="73c58-112">Prioritize service orders</span></span>](prioritize-service-orders.md)
+[<span data-ttu-id="bebe7-112">Priorizar los pedidos de servicio</span><span class="sxs-lookup"><span data-stu-id="bebe7-112">Prioritize service orders</span></span>](prioritize-service-orders.md)
 
-[<span data-ttu-id="73c58-113">Supervisar actividades de servicio</span><span class="sxs-lookup"><span data-stu-id="73c58-113">Monitor service activities</span></span>](monitor-service-activities.md)
+[<span data-ttu-id="bebe7-113">Supervisar actividades de servicio</span><span class="sxs-lookup"><span data-stu-id="bebe7-113">Monitor service activities</span></span>](monitor-service-activities.md)
 
-<span data-ttu-id="73c58-114">[Panel de distribución (formulario)](https://technet.microsoft.com/en-us/library/hh242789\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="73c58-114">[Dispatch board (form)](https://technet.microsoft.com/en-us/library/hh242789\(v=ax.60\))</span></span>
+<span data-ttu-id="bebe7-114">[Panel de distribución (formulario)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="bebe7-114">[Dispatch board (form)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))</span></span>
 
   
 
