@@ -19,19 +19,19 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: a0cabdab63d4d44010e52303d6f487db1e910059
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 036389a1a52fdf15b73ab90c0a37108871a1a15e
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561269"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1743357"
 ---
 # <a name="synchronize-accounts-directly-from-sales-to-customers-in-finance-and-operations"></a>Sincronizar cuentas directamente desde Sales con clientes de Finance and Operations
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Para poder usar la solución Prospect to cash, deberá familiarizarse con [Integración de datos en Common Data Service para aplicaciones](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
+> Para poder usar la solución Prospect to cash, deberá familiarizarse con [Integración de datos en Common Data Service para aplicaciones](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 En este tema se describe las plantillas y las tareas subyacentes que se usan para sincronizar cuentas directamente de Microsoft Dynamics 365 for Sales a Microsoft Dynamics 365 for Finance and Operations.
 

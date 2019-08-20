@@ -3,7 +3,7 @@ title: Métodos abreviados de teclado
 description: Los siguientes métodos abreviados de teclado se aplican en todo Dynamics 365 for Finance and Operations.
 author: jasongre
 manager: AnnBe
-ms.date: 12/12/2017
+ms.date: 07/22/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 497fdb303abb9fe94caa1ebc03da005b88a40e4b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 95a6b6bd70c4a5bb684c605d364a28b85ed4e120
+ms.sourcegitcommit: d88d3d504e85c5bf6f6e9dc842488a2b644261cf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561842"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "1780067"
 ---
 # <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
 
@@ -138,9 +138,13 @@ A partir de la actualización de plataforma 11, los usuarios pueden detectar acc
 | Agregar un intervalo de filas al conjunto seleccionado<blockquote>[!NOTE] Este método abreviado se aplica únicamente a los escenarios de selección múltiple.</blockquote>         | Mayús+Clic                     |
 | Ir a la página de datos siguiente/anterior                                                                                   | Re Pág / Av Pág             |
 | Cree una nueva fila en la parte inferior de la cuadrícula                                                                             | Flecha abajo (desde la última fila)  |
-| Seleccione o borre todas las filas                                                                                               | Ctrl+Mayús+M                    |
 | Ir al primer registro                                                                                               | Ctrl+Inicio                       |
 | Ir al último registro                                                                                                | Ctrl+Fin                        |
+| Seleccione o borre todas las filas                                                                                               | Ctrl+Mayús+M                    |
+| Ir a la primera fila marcada                                                                                           | Alt+Mayús+M, F                    |
+| Ir a la fila siguiente marcada                                                                                            | Alt+Mayús+M, L                    |
+| Ir a la fila marcada anterior                                                                                        | Alt+Mayús+M, P                    |
+| Ir a la última fila marcada                                                                                           | Alt+Mayús+M, N                    |
 | Ejecutar la acción predeterminada en una cuadrícula<blockquote>[!NOTE] Este método abreviado se habilita cuando el enfoque está en una celda que contenga un hipervínculo y en todas las celdas de esa columna que tengan hipervínculos.</blockquote> | Intro                           |
 | Alternar el enfoque entre la fila seleccionada y la fila de encabezado                                                               | Alt+Mayús+ H                     |
 | Haga la columna actual mayor o menor (con el enfoque en la fila de encabezado)                                                  | Flecha derecha / flecha izquierda        |

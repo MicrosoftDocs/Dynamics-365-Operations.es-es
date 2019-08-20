@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4b1d2ae69899a2937d47f6547ee4ba72b2d1ece4
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c1d6d0b219666bb31cf08da580c701f93d08389a
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557315"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741231"
 ---
 # <a name="project-service-automation"></a>Project Service Automation
 
@@ -74,4 +74,4 @@ Para usar la solución de integración de Project Service Automation en Finance 
 
 ## <a name="install-the-project-service-automation-to-finance-and-operations-integration-solution-in-your-project-service-automation-instance"></a>Instalar la solución de integración de Project Service Automation en Finance and Operations en su instancia de Project Service Automation.
 
-Descargue la solución de integración de Project Service Automation en Finance and Operations desde [Centro de descarga de Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=57016) y siga las instrucciones que se incluyen con la solución.
+Descargue la solución de integración de Project Service Automation en Finance and Operations desde [Centro de descarga de Microsoft](https://www.microsoft.com/download/details.aspx?id=57016) y siga las instrucciones que se incluyen con la solución.

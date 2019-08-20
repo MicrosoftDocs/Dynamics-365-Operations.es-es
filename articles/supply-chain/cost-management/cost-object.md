@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 275855f2fb4d32df91449d7ebb9ad9ba2bd3f36b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 6501e8d809d12df421ad081662d23a6b5005f39c
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558558"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742146"
 ---
 # <a name="cost-objects"></a>Objetos de coste
 
@@ -70,11 +70,11 @@ La tabla siguiente muestra qué es un objeto de coste y qué es un objeto de inv
 <a name="additional-resources"></a>Recursos adicionales
 --------
 
-[Grupo de dimensiones de producto](https://technet.microsoft.com/en-us/library/aa499382.aspx)
+[Grupo de dimensiones de producto](https://technet.microsoft.com/library/aa499382.aspx)
 
-[Grupo de dimensiones de almacenamiento](https://technet.microsoft.com/en-us/library/hh209317.aspx)
+[Grupo de dimensiones de almacenamiento](https://technet.microsoft.com/library/hh209317.aspx)
 
-[Grupo de dimensiones de seguimiento](https://technet.microsoft.com/en-us/library/hh209465.aspx)
+[Grupo de dimensiones de seguimiento](https://technet.microsoft.com/library/hh209465.aspx)
 
 [Novedades y cambios](../../fin-and-ops/get-started/whats-new-changed.md)
 

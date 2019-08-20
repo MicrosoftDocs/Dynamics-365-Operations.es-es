@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e904db7312563b8b7dc584c9fa4d40b947db4db5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3175d7e604671901674975ee6fd1debd5955e8b1
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561157"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1743150"
 ---
 # <a name="set-up-a-preferred-technician"></a>Configuración de un técnico preferido 
 
@@ -64,7 +64,7 @@ Puede seleccionar cualquier trabajador como técnico preferido para un acuerdo d
 
 [Crear pedidos de servicio manualmente](create-service-orders-manually.md)
 
-[Acuerdos de servicio (formulario)](https://technet.microsoft.com/en-us/library/aa617823\(v=ax.60\))
+[Acuerdos de servicio (formulario)](https://technet.microsoft.com/library/aa617823\(v=ax.60\))
   
 
 

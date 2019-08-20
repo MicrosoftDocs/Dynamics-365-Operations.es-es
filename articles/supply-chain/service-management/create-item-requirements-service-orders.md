@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a5a730ae945af15c7bd4020c734bac971d8186e2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: dc65393f74c6daa008e072cbe3745235fbfd896b
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553424"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1743334"
 ---
 # <a name="create-item-requirements-for-service-orders"></a>Crear requisito del artículo desde el pedido de servicio 
 
@@ -44,7 +44,7 @@ Los requisitos de artículo para los pedidos de servicio se procesan a través d
 
 3.  A continuación, en el **panel de acciones**, en la ficha **Distribución**, haga clic en **Requisito de artículo**.
 
-4.  En el formulario **Requisitos de artículos**, especifique la información para el artículo requerido. Para obtener más información acerca de campos específicos, vea [Requisitos de artículos (formulario)](https://technet.microsoft.com/en-us/library/aa552021\(v=ax.60\)).
+4.  En el formulario **Requisitos de artículos**, especifique la información para el artículo requerido. Para obtener más información acerca de campos específicos, vea [Requisitos de artículos (formulario)](https://technet.microsoft.com/library/aa552021\(v=ax.60\)).
 
 ## <a name="create-an-item-requirement-for-a-service-agreement"></a>Crear un requisito de artículo para un acuerdo de servicio
 
