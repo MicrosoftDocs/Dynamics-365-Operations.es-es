@@ -10,17 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustPosting, VendParameters
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2017-12-01
-ms.openlocfilehash: 149103c7e5fd579b230f49bf26ca4ac838c68431
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 69b6522017862a41c537e486fc045c0d875c061f
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1544191"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849359"
 ---
 # <a name="cfdi-layout-version-33"></a>Versión 3.3 del diseño CFDI
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 520dcaa1eec3c0fb8aa72fc7f75a56622069881f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d0644372944b4c9d472ff738258665544fccbad4
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555070"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742479"
 ---
 # <a name="manage-vendor-collaboration-users"></a>Gestionar usuarios de colaboración de proveedor
 
@@ -65,7 +65,7 @@ Para poder solicitar el aprovisionamiento de un nuevo usuario, esa persona debe 
 4. En la sección **Asignar roles de usuario**, seleccione la casilla **Asignar** para los roles de seguridad que debe tener el nuevo usuario.
 5. Haga clic en **Enviar**.
 
-Cuando se envíe la solicitud de usuario proveedor, el campo **Acceso a la colaboración de proveedor permitido** se establece en **Sí** para la cuenta de proveedor seleccionada y se inicia un flujo de trabajo de solicitud del usuario. Como parte del flujo de trabajo, se crea un nuevo usuario en Finance and Operations, y se asignan los roles de seguridad. Además, el servicio Azure B2B que inicia la interacción con el portal Azure se activa y se asocia a una cuenta nueva o existente de AAD con la cuenta de usuario de Finance and Operations. Para obtener más información, consulte [¿Qué es la colaboración B2B de Azure AD?](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
+Cuando se envíe la solicitud de usuario proveedor, el campo **Acceso a la colaboración de proveedor permitido** se establece en **Sí** para la cuenta de proveedor seleccionada y se inicia un flujo de trabajo de solicitud del usuario. Como parte del flujo de trabajo, se crea un nuevo usuario en Finance and Operations, y se asignan los roles de seguridad. Además, el servicio Azure B2B que inicia la interacción con el portal Azure se activa y se asocia a una cuenta nueva o existente de AAD con la cuenta de usuario de Finance and Operations. Para obtener más información, consulte [¿Qué es la colaboración B2B de Azure AD?](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
 
 ### <a name="inactivate-a-user"></a>Desactivar un usuario
 

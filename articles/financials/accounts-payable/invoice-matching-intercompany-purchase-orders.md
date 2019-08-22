@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchLineMatchingPolicy
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 3101
 ms.assetid: 9c7c2e44-45f8-4325-b6de-a09fe790f9cf
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d22d6352f179919666d39df816f04bab340017dc
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: aaa4a08f65e4a3452782cf2b928464dff27ed59b
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1509208"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1837309"
 ---
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a>Conciliación de facturas y pedidos de compra de empresas vinculadas
 
 [!include [banner](../includes/banner.md)]
 
-La entidad jurídica de compra que está involucrada en una transacción de negocios entre empresas vinculadas puede estar configurada para usar la conciliación de facturas de proveedores. En este caso, los requisitos de registro para el negocio entre empresas vinculadas y la conciliación de facturas de proveedores deben ser cumplidos antes de que las facturas de proveedor de empresas vinculadas se puedan registrar.
+La entidad jurídica de compra que está involucrada en una transacción de negocios entre empresas vinculadas puede estar configurada para usar la conciliación de facturas de proveedores. Cuando el campo **Registrar factura con discrepancias** en el formulario **Parámetros de proveedores** se establece en **Requerir aprobación**, se realiza la validación de la conciliación de facturas. En este caso, los requisitos de registro para el negocio entre empresas vinculadas y la conciliación de facturas de proveedores deben ser cumplidos antes de que las facturas de proveedor de empresas vinculadas se puedan registrar.
 
 Los ejemplos de este tema usan la configuración siguiente para el negocio entre empresas vinculadas:
 -   Fabrikam Purchase es la entidad jurídica de compra.

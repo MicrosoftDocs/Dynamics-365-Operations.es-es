@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 76e675373212195cbe3f6cf43d128b2104f92fc6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 55c5d02ca4e487782f020aa5eb85e6ebb36d4ce8
+ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557740"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1863709"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Generar informes financieros consolidados
 
@@ -49,11 +49,11 @@ Tal y como muestra el informe consolidado de la siguiente ilustración, cuando s
 
 También puede crear un árbol de varios niveles de notificación que incluya tantos niveles como sea necesario. La ilustración siguiente muestra una definición de varios niveles del árbol de notificación que tiene acumulaciones indicadas por región mundial.
 
-![Definición de varios niveles del árbol del informe con acumulaciones por región](./media/multilevel-reporting-tree-definition-roll-ups%20-worldwide-region.png "Definición de varios niveles del árbol del informe con acumulaciones por región")
+![Definición de varios niveles del árbol del informe con acumulaciones por región](./media/multilevel-reporting-tree-definition-roll-ups-worldwide-region.png "Definición de varios niveles del árbol del informe con acumulaciones por región")
 
 La ilustración siguiente muestra una definición de varios niveles del árbol de notificación que tiene acumulaciones indicadas por función.
 
-![Definición de varios niveles del árbol del informe con acumulaciones por función](./media/multilevel-reporting-tree-definition-roll-ups%20-by-function.png "Definición de varios niveles del árbol del informe con acumulaciones por función")
+![Definición de varios niveles del árbol del informe con acumulaciones por función](./media/multilevel-reporting-tree-definition-roll-ups-by-function.png "Definición de varios niveles del árbol del informe con acumulaciones por función")
 
 ### <a name="viewing-companies-side-by-side"></a>Ver empresas de forma simultánea
 Muchos clientes prefieren los informes que contengan las empresas de forma simultánea y en los que una columna muestra el total consolidado. Este formato es fácil de conseguir una vez que haya creado el organigrama. Aquí se muestran los pasos de nivel superior para ver las empresas de forma simultánea en los informes financieros consolidados.
@@ -98,7 +98,7 @@ En la definición del organigrama escriba el porcentaje de propiedad que en la c
 > [!NOTE]
 > Puede aplicar este porcentaje de propiedad a cualquier unidad de notificación y no solo en el nivel de empresa. 
 
-![Usar el porcentaje de la definición del organigrama](./media/Using-reporting%20tree-definition-percentage.png "Usar el porcentaje de la definición del organigrama")
+![Usar el porcentaje de la definición del organigrama](./media/Using-reporting-tree-definition-percentage.png "Usar el porcentaje de la definición del organigrama")
 
 Cuando se genera el informe, el informe de Contoso Alemania mostrará el 100 por ciento del importe de ventas, y el 80 por ciento del importe se asignará y se consolidará hasta el nivel consolidado para las ventas.
 

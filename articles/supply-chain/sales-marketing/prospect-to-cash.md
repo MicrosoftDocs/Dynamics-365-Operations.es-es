@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: b46ece384a28f8e78989253fcf467fbf3feaf1b7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e31994ea3cd73dcc749a02ce2cd0815be191a567
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554630"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742410"
 ---
 # <a name="prospect-to-cash"></a>Prospect to cash
 
@@ -81,4 +81,4 @@ La integración de Prospect to cash es compatible en las siguientes versiones:
 Para usar la solución Prospect to cash, debe instalar los componentes siguientes:
 
 - Dynamics 365 for Sales versión 1612 (8.2.1.207) (DB 8.2.1.207) en línea o una versión posterior
-- Solución Prospect to cash para Dynamics 365 for Sales, versión 1.15.0.0 o una versión posterior. La solución está disponible para su descarga en AppSource. [Descargue Dynamics 365, Prospect to cash](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3).
+- Solución Prospect to cash para Dynamics 365 for Sales, versión 1.15.0.0 o una versión posterior. La solución está disponible para su descarga en AppSource. [Descargue Dynamics 365, Prospect to cash](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3).

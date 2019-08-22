@@ -3,7 +3,7 @@ title: Configurar y ejecutar trabajo para registrar extractos
 description: Este procedimiento le muestra la configuración y ejecución de un trabajo por lotes periódico para registrar extractos para una tienda seleccionada o un grupo de tiendas.
 author: josaw1
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 676216d90c50c0d3fa1a839cab7a734e624708ba
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a24014f7e1b925e0fdb20b91bcc9594feb8f4c5c
+ms.sourcegitcommit: fc40279d0e56f8a43c601bca6265fdde4c8c4c7e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550125"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "1792257"
 ---
 # <a name="configure-and-run-job-to-post-statements"></a>Configurar y ejecutar trabajo para registrar extractos
 
@@ -31,11 +31,12 @@ ms.locfileid: "1550125"
 Este procedimiento le muestra la configuración y ejecución de un trabajo por lotes periódico para registrar extractos para una tienda seleccionada o un grupo de tiendas. Este procedimiento usa la empresa USRT en los datos de demostración.
 
 1. Vaya a Todos los espacios de trabajo > .. > Operaciones financieras de tienda.
-2. Haga clic en Registrar extractos.
+2. Haga clic en Registrar extractos por lotes.
     * Seleccione una jerarquía organizativa y en el árbol de nodos de la organización, seleccione un nodo o una tienda individual. Seleccione un nodo si desea crear el trabajo por lotes para un grupo de tiendas.  
     * Haga clic en la flecha para agregar su selección.  
-3. Haga clic en la ficha Ejecutar en segundo plano.
+3. Haga clic en la pestaña Ejecutar en segundo plano. ![Ejecutar en segundo plano](../dev-itpro/media/runbackground.png "Ejecutar en segundo plano") 
 4. Active o desactive la casilla Procesamiento por lotes.
+![Procesamiento por lotes](../dev-itpro/media/batchprocessing.png "Procesamiento por lotes y periodicidad") 
 5. Haga clic en Periodicidad.
 6. En el campo Fecha inicial, especifique una fecha.
 7. Especifique una hora en el campo Hora inicial.

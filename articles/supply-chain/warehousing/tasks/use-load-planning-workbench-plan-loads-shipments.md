@@ -1,9 +1,9 @@
 ---
 title: Planificar cargas y envíos mediante el área de trabajo de planificación de la carga
-description: Este procedimiento muestra cómo usar el área de trabajo de planificación de cargas para crear una carga para un pedido de ventas.
+description: Este tema muestra cómo usar el área de trabajo de planificación de cargas para crear una carga para un pedido de ventas.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 07/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,53 +16,47 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1927cff48beb30f934bd066c32ab48dfb9d06f74
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c5e20eef8aa748bb64c6c14dd7e1d92ccf6592e0
+ms.sourcegitcommit: 81e6eaa2178fda7f7d086ad978f4c891bc4ec10a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564814"
+ms.lasthandoff: 07/10/2019
+ms.locfileid: "1739074"
 ---
 # <a name="plan-loads-and-shipments-using-the-load-planning-workbench"></a>Planificar cargas y envíos mediante el área de trabajo de planificación de la carga
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimiento muestra cómo usar el área de trabajo de planificación de cargas para crear una carga para un pedido de ventas. Es necesario crear primero el pedido de ventas. Este procedimiento forma parte del trabajo diario del coordinador de transporte. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
+Este tema muestra cómo usar el área de trabajo de planificación de cargas para crear una carga para un pedido de ventas. Es necesario crear primero el pedido de ventas. Este procedimiento forma parte del trabajo diario del coordinador de transporte. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 
 
 ## <a name="create-a-sales-order"></a>Crear un pedido de ventas
-1. Vaya a Clientes > Pedidos > Todos los pedidos de venta.
-2. Haga clic en Nuevo.
-3. En el campo Cuenta de cliente, haga clic en el botón desplegable para abrir la búsqueda.
-4. Seleccione la cuenta US-004.
-5. Haga clic en Aceptar
-6. En el campo Código de artículo, haga clic en el botón desplegable para abrir la búsqueda.
-7. Seleccione el artículo A0001.
-    * A0001 está habilitado para administración del transporte.  
-8. En la lista, haga clic en el vínculo de la fila seleccionada.
-9. En el campo Cantidad, especifique un número.
-10. En el campo Almacén, escriba "24".
-    * En este ejemplo, seleccione el almacén 24. Este almacén está habilitado para administrar el transporte y gestionar almacenes de forma avanzada.  
-11. Haga clic en Guardar.
+1. Vaya a **panel de navegación > Módulos > Clientes > Pedidos > Todos los pedidos de vents**.
+2. Seleccione **Nuevo**.
+3. En el campo **Cuenta de cliente**, seleccione el botón desplegable para abrir la búsqueda.
+4. Seleccione la cuenta **US-004**.
+5. Seleccione **Aceptar**.
+6. En el campo **Código de artículo**, seleccione el botón desplegable para abrir la búsqueda.
+7. Seleccione el artículo **A0001**. **A0001** está habilitado para administración del transporte.  
+8. En el campo **Sitio**, seleccione el botón de la lista desplegable para abrir la búsqueda y seleccione un articulo.
+9. En el campo **Cantidad**, especifique un número.
+10. En el campo **Almacén** , escriba “24" en este ejemplo. Este almacén está habilitado para administrar el transporte y gestionar almacenes de forma avanzada.  
+11. Seleccione **Guardar**.
 12. Cierre la página.
 
 ## <a name="create-a-new-load"></a>Creación de una nueva carga
-1. Vaya a Administración de transporte > Planificación > Área de trabajo de planificación de la carga.
-2. Haga clic en la ficha Líneas de ventas.
-    * Ahora construirá la carga para el pedido de ventas que acaba de crear. Las cargas se pueden crear según la oferta y la demanda de los pedidos de compra, los pedidos de transferencia y los pedidos de ventas.  
-3. En el panel de acciones, haga clic en Oferta y demanda.
-4. Haga clic en A nueva carga.
-5. En el campo Id. de plantilla de carga, haga clic en el botón desplegable para abrir la búsqueda.
-    * La plantilla de carga define las medidas máximas para el peso y el volumen de la carga completa. Por ejemplo, la plantilla de carga puede representar el tamaño de un contenedor o de un camión.  
-6. En la lista, haga clic en el vínculo de la fila seleccionada.
-7. Haga clic en Aceptar
+1. Vaya al **panel de navegación > Módulos > Administración de transporte > Planificación > Área de trabajo de planificación de la carga**.
+2. Seleccione la pestaña **Líneas de ventas**. Ahora construirá la carga para el pedido de ventas que acaba de crear. Las cargas se pueden crear según la oferta y la demanda de los pedidos de compra, los pedidos de transferencia y los pedidos de ventas.  
+3. En el panel de acciones, haga clic en **Oferta y demanda**.
+4. Seleccione **A nueva carga**.
+5. En el campo **Id. de plantilla de carga**, seleccione el botón desplegable para abrir la búsqueda. La plantilla de carga define las medidas máximas para el peso y el volumen de la carga completa. Por ejemplo, la plantilla de carga puede representar el tamaño de un contenedor o de un camión. Seleccione un artículo.
+6. Seleccione **Aceptar**.
 
 ## <a name="rate-and-route-the-load"></a>Tasa y ruta para la carga
-1. Haga clic en Clasificación y ruta.
-2. Haga clic en Área de trabajo de la ruta de la tasa.
-3. Haga clic en Opciones de tasas.
+1. Seleccione **Clasificación y ruta**.
+2. Seleccione **Área de trabajo índice y la ruta**.
+3. Seleccione **Tienda de tasas**.
 4. En la lista, busque y seleccione el registro deseado.
-5. Haga clic en Asignar.
+5. Seleccione **Asignar**.
 6. Cierre la página.
-7. Cierre la página.
 

@@ -19,19 +19,19 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: ff284585a2eb4c5cf55d2e3a3e0f317d1fb218bb
-ms.sourcegitcommit: 51dc11919fcb2324482b48cc4ce4484945ade803
+ms.openlocfilehash: b4a6fab3a4831bc3d18313b351e453c615788843
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624344"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742433"
 ---
 # <a name="synchronize-products-directly-from-finance-and-operations-to-products-in-sales"></a>Sincronizar productos directamente desde Finance and Operations con productos de Sales
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Para poder usar la solución Prospect to cash, deberá familiarizarse con [Integración de datos en Common Data Service para aplicaciones](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
+> Para poder usar la solución Prospect to cash, deberá familiarizarse con [Integración de datos en Common Data Service para aplicaciones](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 En este tema se describen las plantillas y las tareas subyacentes que se usan para sincronizar productos directamente de Microsoft Dynamics 365 for Finance and Operations a Microsoft Dynamics 365 for Sales.
 

@@ -9,19 +9,19 @@ ms.prod: ''
 ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Retail
+ms.reviewer: kfend
+ms.search.scope: Operations, Retail
 ms.search.region: Mexico
 ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-06-01
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 5e6e07374e0344eefaf2c8d0b8d6f0e93007e684
-ms.sourcegitcommit: 33e98f89294086334fe9c0a350abb6a52ef9dacb
+ms.openlocfilehash: 82d8a30c05b2ff8bbf331b51d19f5e347cffd816
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "1711237"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849356"
 ---
 # <a name="global-cfdi-electronic-invoices-for-mexico"></a>Facturas electrónicas de CFDI globales para México 
 

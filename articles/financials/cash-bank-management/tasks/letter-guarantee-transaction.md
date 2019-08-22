@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Reasons, SalesTableListPage, SalesCreateOrder, SalesTable, BankLGRequestForm, BankLGRequestFormRequest, BankLGGuarantee, BankLGFormSubmitToBank, BankDocumentAgreementLineLookup, BankLGFormReceiveFromBank, LedgerJournalTable, LedgerJournalTransDaily, BankLGRequestFormGiveToBeneficiary, BankLGFormGiveToBeneficiary, BankLGRequestFormIncreaseValue, BankLGFormIncreaseValue, BankLGRequestFormLiquidate, BankLGFormLiquidate
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4dc6ee178121fae05d538f5103919442d91e65eb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ff105bdefff2ea93c853d590c77391653f50a4dc
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1566119"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1842002"
 ---
 # <a name="letter-of-guarantee-transaction"></a>Transacción de carta de garantía
 
@@ -61,7 +61,7 @@ Este procedimiento usa la empresa de demostración USMF.
 15. En el campo Fecha de envío solicitada, especifique una fecha.
 16. En el campo Fecha de envío confirmada, especifique una fecha.
 
-## <a name="process-letter-of-guaranteerequest"></a>Procesar carta de garantía_Solicitar
+## <a name="process-letter-of-guarantee_request"></a>Procesar carta de garantía_Solicitar
 1. En el panel de acciones, haga clic en Gestionar.
 2. Haga clic en Carta de garantía.
 3. En el Panel de acciones, haga clic en Carta de garantía.
@@ -73,7 +73,7 @@ Este procedimiento usa la empresa de demostración USMF.
 9. Haga clic en Aceptar
 10. Cierre la página.
 
-## <a name="process-letter-of-guaranteesubmit-to-bank"></a>Procesar carta de garantía_Enviar al banco
+## <a name="process-letter-of-guarantee_submit-to-bank"></a>Procesar carta de garantía_Enviar al banco
 1. Vaya a Gestión de efectivo y bancos > Cartas de garantía > Cartas de garantía.
 2. En la lista, busque y seleccione el registro deseado.
 3. Haga clic en Enviar al banco para abrir el cuadro de diálogo desplegable.
@@ -81,7 +81,7 @@ Este procedimiento usa la empresa de demostración USMF.
 5. En la lista, haga clic en el vínculo de la fila seleccionada.
 6. Haga clic en Aceptar
 
-## <a name="process-letter-of-guaranteereceive-from-bank"></a>Procesar carta de garantía_Recibir del banco
+## <a name="process-letter-of-guarantee_receive-from-bank"></a>Procesar carta de garantía_Recibir del banco
 1. Haga clic en Recibir del banco para abrir el cuadro de diálogo desplegable.
 2. En el campo Número del banco, escriba un valor.
     * Compruebe los valores en los campos Margen y Gasto calculados.  
@@ -93,7 +93,7 @@ Este procedimiento usa la empresa de demostración USMF.
     * Compruebe el registro de entradas del diario.  
 7. Cierre la página.
 
-## <a name="process-letter-of-guaranteegive-to-beneficiary"></a>Procesar carta de garantía_Entregar a beneficiario
+## <a name="process-letter-of-guarantee_give-to-beneficiary"></a>Procesar carta de garantía_Entregar a beneficiario
 1. Vaya a Clientes > Pedidos > Todos los pedidos de venta.
 2. En la lista, haga clic en el vínculo de la fila seleccionada.
 3. En el panel de acciones, haga clic en Gestionar.
@@ -108,7 +108,7 @@ Este procedimiento usa la empresa de demostración USMF.
 12. Expanda la sección Acciones.
     * Valide el registro "Entregar a beneficiario".  
 
-## <a name="process-letter-of-guaranteeincrease-value"></a>Procesar carta de garantía_Aumentar valor
+## <a name="process-letter-of-guarantee_increase-value"></a>Procesar carta de garantía_Aumentar valor
 1. Vaya a Clientes > Pedidos > Todos los pedidos de venta.
 2. En la lista, haga clic en el vínculo de la fila seleccionada.
 3. En el panel de acciones, haga clic en Gestionar.
@@ -128,7 +128,7 @@ Este procedimiento usa la empresa de demostración USMF.
 16. Haga clic en Líneas.
     * Compruebe las entradas del diario registradas.  
 
-## <a name="process-letter-of-guaranteeliquidate"></a>Procesar carta de garantía_Liquidar
+## <a name="process-letter-of-guarantee_liquidate"></a>Procesar carta de garantía_Liquidar
 1. Vaya a Clientes > Pedidos > Todos los pedidos de venta.
 2. En la lista, haga clic en el vínculo de la fila seleccionada.
 3. En el panel de acciones, haga clic en Gestionar.

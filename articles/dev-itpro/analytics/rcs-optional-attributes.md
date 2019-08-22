@@ -1,5 +1,5 @@
 ---
-title: Preparar metadatos específicos de la aplicación para RCS y ER
+title: Importar archivos en formato XML con atributos opcionales
 description: En este tema se proporciona información sobre el diseño de formatos de ER que especifican atributos XML para analizar documentos electrónicos entrantes en formato XML.
 author: NickSelin
 manager: AnnBe
@@ -10,20 +10,20 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner
 audience: Application User, Developer, IT Pro
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7a6fc1e54444584895aa75ae91d39143f27e34d8
-ms.sourcegitcommit: d0fa7eb2166a30314205e7f70bbeaff6fbd5fb55
+ms.openlocfilehash: eb5d721784f45097ab466f75d43256495aac36ca
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "1726584"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850004"
 ---
-# <a name="prepare-application-specific-metadata-for-rcs-and-er"></a>Preparar metadatos específicos de la aplicación para RCS y ER
+# <a name="import-files-in-xml-format-with-optional-attributes"></a>Importar archivos en formato XML con atributos opcionales
 
 Puede diseñar formatos de informes electrónicos (ER) para analizar documentos electrónicos entrantes en formato XML. Algunos atributos de elementos XML se pueden especificar en formato de ER diseñados como opcionales. Le permitirá gestionar correctamente archivos entrantes con y sin estos atributos XML. Puede usar el contenido de estos archivos para actualizar datos de la aplicación.
 
@@ -97,11 +97,11 @@ En los pasos siguientes se explica cómo un usuario con rol de administrador del
 5.  Haga clic en **Guardar**.
 6.  Haga clic en **Diseñador**.
 7.  En el árbol, expanda **format**.
-8.  En el árbol, expanda **format\root: XML Element(raíz)**.
-9.  En el árbol, seleccione **format\root: XML Element(raíz)\document: XML Element 1..* (documento)**.
+8.  En el árbol, expanda **format\root: XML Element(root)**.
+9.  En el árbol, seleccione **format\root: XML Element(root)\document: XML Element 1..* (documento)**.
 10. Haga clic en **Enlazar**.
-11. En el árbol, expanda **format\root: XML Element(raíz)\document: XML Element 1..* (documento)**.
-12. En el árbol, seleccione **format\root: XML Element(raíz)\document: XML Element 1..* (documento)\id**.
+11. En el árbol, expanda **format\root: XML Element(root)\document: XML Element 1..* (documento)**.
+12. En el árbol, seleccione **format\root: XML Element(root)\document: XML Element 1..* (documento)\id**.
 13. En el árbol, expanda **List = format.root.document**.
 14. En el árbol, seleccione **List = format.root.document\Code**.
 15. Haga clic en **Enlazar**.

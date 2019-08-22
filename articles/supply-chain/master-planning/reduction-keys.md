@@ -3,7 +3,7 @@ title: Previsión de las claves de reducción
 description: Este tema proporciona ejemplos que muestran cómo configurar una clave de reducción. Incluye información sobre los distintos ajustes de la clave de reducción y los resultados de cada uno. Puede usar una clave de reducción para definir cómo reducir los requisitos de previsión.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 02/28/2019
+ms.date: 07/09/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b915570145a48db7a182b9fce34e1544e3600107
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 5efa5b2c7a4c45bbf6e940170000b391384fe7ff
+ms.sourcegitcommit: add48ece3864645a89a28327c4add607714befb5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1504088"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "1736313"
 ---
 # <a name="method-used-to-reduce-forecast-requirements"></a>Método usado para reducir los requisitos de previsión
 
@@ -138,14 +138,14 @@ Para este ejemplo, se incluye la previsión de la demanda siguiente en un plan m
 | Fecha       | Previsión de la demanda |
 |------------|-----------------|
 | 1 de enero  | 1.000           |
-| 1 de febrero | 500             |
+| 1 de febrero | 1.000             |
 
 También puede crear los siguientes pedidos de ventas.
 
 | Fecha        | Cantidad de pedido de ventas |
 |-------------|----------------------|
-| 15 de enero  | 500                  |
-| 15 de febrero | 100                  |
+| 15 de enero  | 200                  |
+| 15 de febrero | 400                  |
 
 En este caso, se crean los siguientes pedidos planificados.
 

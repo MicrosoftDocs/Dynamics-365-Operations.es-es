@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 23021
 ms.assetid: d7e86f72-95db-4423-9b04-761e9536a959
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 3f2da6d552dd27566d3e012d3e6055fcaa194e4b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d0f7d63fa0566cfc2a23b3228d687d7f85d848c9
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549592"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1840754"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>Informe de puesta al día para activos fijos
 
@@ -31,7 +31,7 @@ ms.locfileid: "1549592"
 
 El informe de **Puesta al día para activos fijos** proporciona, en un formato de Microsoft Excel fácil de leer, los datos detallados del activo fijo que pueda necesitar para el cierre del período, los informes financieros y la notificación de impuestos. El informe incluye los saldos de inicio y fin para los activos fijos, junto con los movimientos de la evaluación para el período y cualquier adquisición y disposición de activos nueva que se hayan producido durante el período. Los datos se notifican para activos fijos individuales y los valores también se resumen para los grupos de activos fijos y la entidad jurídica.
 
-El informe **de puesta al día para activos fijos** utiliza el marco de informes electrónicos (ER). Antes de poder ejecutar el informe, el modelo de activos fijos y las configuraciones de puesta al día para activos fijos deben importarse de Microsoft Dynamics Lifecycle Services (LCS). Para obtener más información, consulte [Descargar configuraciones de informes electrónicos de Lifecycle Services](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
+El informe **de puesta al día para activos fijos** utiliza el marco de informes electrónicos (ER). Antes de poder ejecutar el informe, el modelo de activos fijos y las configuraciones de puesta al día para activos fijos deben importarse de Microsoft Dynamics Lifecycle Services (LCS). Para obtener más información, consulte [Descargar configuraciones de informes electrónicos de Lifecycle Services](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
 
 Este informe sólo está disponible en Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3, o como sustitución de Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (julio de 2017). Deben aplicarse tres revisiones a los entornos que tienen la versión de julio de 2017:
 

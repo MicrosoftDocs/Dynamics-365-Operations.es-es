@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d6f6e94fd8e7ddf92e89fedfab09ef0684505819
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 318c6edc03153e02c2c4f23b07f33e8d6ebe9737
+ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551851"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1863733"
 ---
 # <a name="modify-row-definition-cells"></a>Modificar celdas de definición de filas
 
@@ -402,7 +402,7 @@ La celda **Vincular a las dimensiones financieras** contiene vínculos a los dat
 2. Haga doble clic en una celda de la columna **Vínculo a dimensiones financieras**.
 3. En el cuadro de diálogo **Dimensiones**, haga doble clic en una celda situada bajo el nombre de la dimensión.
 4. En el cuadro de diálogo para la dimensión, seleccione **Individual o intervalo**.
-5. En el campo **Desde**, escriba la dimensión de inicio o haga clic en ![Examinar](https://i-technet.sec.s-msft.com/dynimg/IC679490.gif "Examinar") para buscar las dimensiones disponibles. Para especificar un intervalo de dimensiones, escriba la dimensión final en el campo **Hasta**.
+5. En el campo **Desde**, escriba la dimensión de inicio o haga clic en ![Examinar](media/browse.gif "Examinar") para buscar las dimensiones disponibles. Para especificar un intervalo de dimensiones, escriba la dimensión final en el campo **Hasta**.
 6. Haga clic en **Aceptar** para cerrar el cuadro de diálogo de la dimensión. El cuadro de diálogo **Dimensiones** muestra la dimensión o el intervalo actualizados.
 7. Haga clic en **Aceptar** para cerrar el cuadro de diálogo **Dimensiones**.
 
@@ -479,7 +479,7 @@ En la tabla siguiente se describen los campos del cuadro de diálogo **Dimension
 
 | Artículo                | Descripción |
 |---------------------|-------------|
-| Individual o intervalo | En el campo **Desde**, especifique el nombre de una cuenta, o haga clic en el botón **Explorar** ![Explorar](https://i-technet.sec.s-msft.com/dynimg/IC679490.gif "Explorar") para explorar la cuenta. Para seleccionar un intervalo, escriba o busque un valor en el campo **Hasta**. |
+| Individual o intervalo | En el campo **Desde**, especifique el nombre de una cuenta, o haga clic en el botón **Explorar** ![Explorar](media/browse.gif "Explorar") para explorar la cuenta. Para seleccionar un intervalo, escriba o busque un valor en el campo **Hasta**. |
 | Conjunto de valores de dimensión | En el campo **Nombre**, especifique el nombre de un conjunto de valores de dimensión. Para crear, modificar, copiar o eliminar un conjunto, haga clic en **Administrar los conjuntos de valores de dimensión**. El campo **Fórmula** se rellena con la fórmula de la celda **Vínculo a las dimensiones financieras** para este conjunto de valores de dimensión en la definición de filas. |
 | Cuentas totales   | En el campo **Nombre**, escriba o busque una dimensión de las cuentas de balance. El campo **Fórmula** se rellena con la fórmula en la celda **Vínculo a las dimensiones financieras** para esta cuenta de balance en la definición del informe. |
 

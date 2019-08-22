@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankStatementFormat
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 141273
 ms.assetid: 3ee2f32b-02aa-420b-8990-e6aa5fc6bda3
@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a4006bf35673e3bb61bcf11619ecc68d295f29eb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4275a4d77b03c55decbf161df8f2115183cac3d6
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554837"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1842410"
 ---
 # <a name="bank-statement-file-import-troubleshooting"></a>Solución de problemas de la importación de archivos de extractos bancarios
 
@@ -62,7 +62,7 @@ Los archivos BAI2 y MT940 son archivos basados en texto y requieren un ajuste pa
 
 ### <a name="debug-the-xslt"></a>Depurar XSLT
 
-Para obtener más información, vea <https://msdn.microsoft.com/en-us/library/ms255605.aspx>.
+Para obtener más información, vea <https://msdn.microsoft.com/library/ms255605.aspx>.
 
 1.  Iniciar Microsoft Visual Studio.
 2.  Crear una aplicación de consola.

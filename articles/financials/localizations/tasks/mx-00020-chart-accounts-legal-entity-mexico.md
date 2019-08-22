@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MainAccount, LedgerConsolidateAccountGroup, MainAccountConsolidateAccount
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 24a8c943c51e44b6236a8fd8efaa1c37e026cd6a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f52b93f9f1217cd309d67e1a1448ca2d4401fca5
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567185"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1848771"
 ---
 # <a name="mx-00020-set-up-the-chart-of-accounts-for-a-legal-entity-in-mexico"></a>MX-00020 Configuración del plan de cuentas para una entidad jurídica en México
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 714715ccfbdd57e4450c301f5302e008c0c136b1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 6a904529dccbe392793d0d108335b623bb1ed8b2
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572011"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742551"
 ---
 # <a name="requests-for-quotation-rfqs"></a>Solicitudes de presupuesto
 
@@ -48,7 +48,7 @@ Puede crear un caso de solicitud de presupuesto desde pedidos planificados, desd
 
 Tras preparar el caso de solicitud de presupuesto y agregar proveedores, seleccione **Enviar** (**Registrar y publicar** para el sector público) en el caso de solicitud de presupuesto. Se crea un diario de solicitud de presupuesto para cada proveedor al que se envía una solicitud de presupuesto. Puede configurar las Opciones de impresión para la acción de envío para imprimir un informe para cada proveedor en un archivo o enviar un informe a la dirección de correo electrónico de cada proveedor. Además, el diario de solicitud de presupuesto para cada proveedor se puede usar para generar un informe que se puede enviar o volver a enviar al proveedor más adelante. También puede configurar la acción de envío para generar una hoja de respuesta que el proveedor pueda completar.
 
-Este tema cubre el proceso para gestionar solicitudes de presupuesto cuando la colaboración del proveedor no se utiliza. Si el sistema está configurado para la colaboración del proveedor, los proveedores pueden especificar propuestas directamente en Microsoft Dynamics 365 for Finance and Operations. Para obtener más inofrmación, consulte [Colaboración de proveedor con los clientes](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) y [Colaboración de proveedor con proveedores externos](vendor-collaboration-work-external-vendors.md).
+Este tema cubre el proceso para gestionar solicitudes de presupuesto cuando la colaboración del proveedor no se utiliza. Si el sistema está configurado para la colaboración del proveedor, los proveedores pueden especificar propuestas directamente en Microsoft Dynamics 365 for Finance and Operations. Para obtener más inofrmación, consulte [Colaboración de proveedor con los clientes](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) y [Colaboración de proveedor con proveedores externos](vendor-collaboration-work-external-vendors.md).
 
 Si debe enmendar una solicitud de presupuesto después de enviarla, puede volver a enviar la solicitud de presupuesto a los proveedores cuando haya terminado mediante los dos acciones de modificación: Crear y finalizar.+
 
@@ -179,7 +179,7 @@ Si el configura el proceso de modificación de modo que sea más restrictivo, an
 
 Si configura el proceso de modificación para que sea menos restrictivo, no tiene que seleccionar **Crear** antes de poder modificar los campos de un caso de solicitud de presupuesto que se haya enviado ya. No obstante, debe agregar manualmente una nota de enmienda a la solicitud de presupuesto y enviar el caso de nuevo. Tenga en cuenta que este enfoque solo se puede utilizar si no se ha editado ninguna de las respuestas (propuestas). Si ha especificado una respuesta y se encuentra en estado **Recibido**, el botón **Enviar** no está disponible. En este caso, debe seleccionar **Crear** y luego **Finalizar**, como debe hacer en el proceso más restrictivo. La respuesta se restablece para reflejar los cambios al caso de solicitud de presupuesto.
 
-Si los proveedores utilizan la interfaz de colaboración del proveedor para especificar propuestas, debe usar siempre el proceso de modificación para notificar a los proveedores sobre cambios al caso de solicitud de presupuesto. Este proceso ayuda a evitar la situación en la que los proveedores hagan una oferta de un caso de solicitud de presupuesto obsoleto mientras que la oferta está en curso. Para obtener más información acerca de la colaboración de proveedores, consulte [Colaboración con proveedores externos](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors).
+Si los proveedores utilizan la interfaz de colaboración del proveedor para especificar propuestas, debe usar siempre el proceso de modificación para notificar a los proveedores sobre cambios al caso de solicitud de presupuesto. Este proceso ayuda a evitar la situación en la que los proveedores hagan una oferta de un caso de solicitud de presupuesto obsoleto mientras que la oferta está en curso. Para obtener más información acerca de la colaboración de proveedores, consulte [Colaboración con proveedores externos](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors).
 
 Si desea para invitar a proveedores adicionales para hacer una propuesta y no ha realizado ningún cambio en el caso de solicitud de presupuesto, puede usar el botón **Enviar**. Los proveedores que se han agregado aparecerán en la página **Enviar** y recibirán el correo electrónico de invitación.
 

@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 0889bc233674cb80dd056ac77edb5c936c6633a7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: be23b99ddc224328cf067fe0bf36be93fcef4337
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561471"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1846051"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronizar los contratos de proyectos y los proyectos directamente desde Project Service Automation a Finance and Operations
 
@@ -94,8 +94,8 @@ Cuando la solución de integración Project Service Automation a Finance Operati
 ## <a name="prerequisites-and-mapping-setup"></a>Condiciones previas y configuración de asignación
 
 - Antes de que se produzca la sincronización de contratos de proyecto y de proyectos, debe sincronizar las cuentas.
-- En su conjunto de conexiones, agregue una asignación del campo clave de la integración de **msdyn\_organizationalunits** en **msdyn\_name \[Nombre\]**. Es posible que necesite primero agregar un proyecto al conjunto de conexión. Para obtener más información, consulte [Integrar datos en Common Data Service para aplicaciones](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
-- En su conjunto de conexiones, agregue una asignación del campo clave de la integración de **msdyn\_projects** en **msdynce\_projectnumber \[Número de proyecto\]**. Es posible que necesite primero agregar un proyecto al conjunto de conexión. Para obtener más información, consulte [Integrar datos en Common Data Service para aplicaciones](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
+- En su conjunto de conexiones, agregue una asignación del campo clave de la integración de **msdyn\_organizationalunits** en **msdyn\_name \[Nombre\]**. Es posible que necesite primero agregar un proyecto al conjunto de conexión. Para obtener más información, consulte [Integrar datos en Common Data Service para aplicaciones](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- En su conjunto de conexiones, agregue una asignación del campo clave de la integración de **msdyn\_projects** en **msdynce\_projectnumber \[Número de proyecto\]**. Es posible que necesite primero agregar un proyecto al conjunto de conexión. Para obtener más información, consulte [Integrar datos en Common Data Service para aplicaciones](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 - **SourceDataID** para los contratos de proyecto y los proyectos se puede actualizar a un valor distinto o quitar de la asignación. El valor de la plantilla predeterminada es **Project Service Automation**.
 - La asignación **PaymentTerms** debe ser actualizada de modo que refleje condiciones de pago válidas en Finance and Operations. También puede quitar la asignación de la tarea de proyecto. La asignación de valor predeterminado tiene valores predeterminados para los datos de prueba. En la tabla siguiente se muestran los valores de Project Service Automation.
 

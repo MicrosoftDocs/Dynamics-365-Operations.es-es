@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendFormletterParameters, VendParameters, TaxTrans
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 271523
 ms.search.region: Spain
 ms.author: anasyash
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: b77e3c8850267f057078a421c6609a619bdd2f35
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2b39e3f842c2c1ce80f0259e71aab75a369e0abf
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549523"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1852199"
 ---
 # <a name="intra-community-vat-for-spain"></a>IVA intracomunitario para España
 [!include [banner](../includes/banner.md)]

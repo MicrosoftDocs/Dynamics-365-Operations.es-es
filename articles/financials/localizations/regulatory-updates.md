@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ba01fe7ad3e4326e8ab52b78220d3ba79e94af7c
-ms.sourcegitcommit: 51dc11919fcb2324482b48cc4ce4484945ade803
+ms.openlocfilehash: a33212acce6bf53b1077e54b9556e4d5e933519c
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624320"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849341"
 ---
 # <a name="regulatory-updates"></a>Actualizaciones reglamentarias
 
@@ -59,19 +59,22 @@ Para ver los últimos planes de actualizaciones regulatorias, consulte la siguie
 |      2019 de abril          |   10.0.1      |    Rusia     |Cambios en la declaración de impuestos sobre el transporte para 2019  |
 |      2019 de abril            |   10.0.1      | Hungría      |  Hungría: V.1.1 de facturación en línea 2019 en Microsoft Dynamics 365 for Finance and Operations  |
 |      mayo de 2019            |   10.0.2      | Brasil      |   SPED ECD Diseño 7   |
-|      Pendientes            |   10.0.3      | Brasil      |   NF-e nuevo NT 2018.005 - v.1.20   |
-|      Pendientes            |   10.0.3      | Brasil      |   SPED ECD Diseño 7   |
-|      Pendientes            |   10.0.3      | Brasil      |   SPED ECF - Layout 5 para 2019   |
-|      Pendientes            |   10.0.3      | Lituania    |   El informe de i.SAF nos dejó usuario definir códigos de impuestos del sistema en asociación con códigos de impuestos legales    |
-|      Pendientes            |   10.0.3      | Polonia     |   Facturas SAF (JPK_FA) v.2 a partir del 1 de julio de 2019  |
-|      Pendientes            |   10.0.3      | Brasil   |   Cuadro fiscal 5.2 de permisos de los ajustes del documento de ICMS   |
-|      Pendientes            |   10.0.3      | Brasil    |   NF-e Decreto 54.308/18 (RS)   |
-  | Pendientes            |   10.0.4      | Brasil    |   Documento fiscal entrante 66   |
-   | Pendientes            |   10.0.4      | Brasil    |   NF-e y NFC-e - Resolución 13/2019 y ordenanza SUCIEF 55/2019- RJ - nuevas condiciones para la salida de etiquetas exentas en NF-e.   |
-   | Pendientes            |   10.0.4      | India   |   Pantalla de "Lugar de prestación" y "Estado" en la facturas de impuestos de GST  |
-   | Pendientes            |   10.0.4      | México   |  Declaración de terceros de DIOT - cambios en el diseño de 2019   |
-   | Pendientes            |   10.0.4      | Brasil    |   NF-e ICMS-ST - ordenanza CAT 42/18 para estado SP - CAT 42/18
-   | Pendientes            |   10.0.4      | Brasil    |   NF-e Decreto 54.308/18 - RS NF   |
+|      2019 de junio            |   10.0.3      | Brasil      |   NF-e nuevo NT 2018.005 - v.1.20   |
+|      2019 de junio            |   10.0.3      | Brasil      |   SPED ECD Diseño 7   |
+|      2019 de junio            |   10.0.3      | Brasil      |   SPED ECF - Layout 5 para 2019   |
+|      2019 de junio            |   10.0.3      | Lituania    |   El informe de i.SAF nos dejó usuario definir códigos de impuestos del sistema en asociación con códigos de impuestos legales    |
+|      2019 de junio            |   10.0.3      | Polonia     |   Facturas SAF (JPK_FA) v.2 a partir del 1 de julio de 2019  |
+|      2019 de junio            |   10.0.3      | Brasil   |   Cuadro fiscal 5.2 de permisos de los ajustes del documento de ICMS   |
+|      2019 de junio            |   10.0.3      | Brasil    |   NF-e Decreto 54.308/18 (RS)   |
+  | Julio de 2019            |   10.0.4      | Brasil    |   Documento fiscal entrante 66   |
+   | Julio de 2019            |   10.0.4      | Brasil    |   NF-e y NFC-e - Resolución 13/2019 y ordenanza SUCIEF 55/2019- RJ - nuevas condiciones para la salida de etiquetas exentas en NF-e.   |
+   | Julio de 2019            |   10.0.4      | India   |   Pantalla de "Lugar de prestación" y "Estado" en la facturas de impuestos de GST  |
+   | Julio de 2019            |   10.0.4      | México   |  Declaración de terceros de DIOT - cambios en el diseño de 2019   |
+   | Julio de 2019            |   10.0.4      | Brasil    |   NF-e ICMS-ST - ordenanza CAT 42/18 para estado SP - CAT 42/18
+   | Julio de 2019            |   10.0.4      | Brasil    |   NF-e Decreto 54.308/18 - RS NF   |
+       | Pendientes            |   10.0.5      | Brasil    |   Guía práctica de contribuciones Sped 1.31. nueva guía   |
+         | Pendientes            |   10.0.5      | Brasil    |   Una nueva versión de notas técnicas para NF-e: NT 2019.001 Versión 1.00   |
+          | Pendientes            |   10.0.5      | España    |   Las reglas de validación cambian a partir del 1 de octubre de 2019   |
    
 
 

@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 13991
 ms.assetid: 2a0a4789-8619-4974-bef9-0923cc848420
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c8c1b90b7b2c02a53e53cc13d70445a237b126d4
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 76cf1f24a31f246a41601908ebba308551925d90
+ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559788"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1863021"
 ---
 # <a name="correct-a-free-text-invoice"></a>Corrección de una factura de servicios
 
@@ -47,7 +47,7 @@ Puede identificar la cancelación y la corrección de facturas de dos maneras:
 -   El encabezado de la factura de servicios muestra un estado de **Factura de cancelación '\[número de factura\]'** o **Factura corregida '\[número de factura\]'**.
 
 > [!NOTE]
-> Esta característica solo está disponible si se selecciona la clave de configuración **Corrección de factura de servicios**.
+> Esta característica solo está disponible si se selecciona la clave de configuración **Corrección de factura de servicios**. Para obtener más información sobre cómo habilitar las claves de Configuración, consulte la sección Habilitar (o deshabilitar) las claves de configuración del tema [Modo de mantenimiento](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/maintenance-mode). 
 
 
 

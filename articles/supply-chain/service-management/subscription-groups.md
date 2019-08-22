@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 75fd373908fad29f7f604ff6642753ba731775c8
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 969cfc94639fe609d4e880cec0267504541b8371
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562589"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1743035"
 ---
 # <a name="subscription-groups"></a>Grupos de suscripción    
 
@@ -48,7 +48,7 @@ También se pueden realizar las tareas siguientes para todas las suscripciones v
 
 ## <a name="see-also"></a>Consulte también
 
-[Grupos de suscripciones (formulario)](https://technet.microsoft.com/en-us/library/aa553150\(v=ax.60\))
+[Grupos de suscripciones (formulario)](https://technet.microsoft.com/library/aa553150\(v=ax.60\))
 
 [Configurar grupos de suscripciones](set-up-subscription-groups.md)
 

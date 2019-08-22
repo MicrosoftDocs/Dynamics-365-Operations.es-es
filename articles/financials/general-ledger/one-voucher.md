@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: ada04948c4775091091cc30664dd7d9405b4f9da
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3c3873991c33347c1358dc98381c6b5f4c6ce2aa
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553209"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1846907"
 ---
 # <a name="one-voucher"></a>Un asiento
 
@@ -51,7 +51,7 @@ La funcionalidad existente para los diarios financieros (diario, diario de activ
 
 ## <a name="issues-with-one-voucher"></a>Problemas con un comprobante
 
-La funcionalidad de asiento único produce problemas durante el acuerdo, el cálculo de impuestos, la inversión de transacción, la conciliación de un subdiario contable en la contabilidad general, el informe financiero, etc. (Para obtener más información acerca de problemas que pueden ocurrir durante el acuerdo, consulte, por ejemplo, [Asiento único con varios clientes o registros de proveedores](https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/accounts-payable/single-voucher-multiple-customer-vendor-records).) Para trabajar y notificar correctamente, estos procesos e informes requieren detalles de la transacción. Aunque algunos escenarios pudieran funcionar correctamente, según la configuración de la organización a menudo hay problemas cuando varias transacciones se introducen en un asiento.
+La funcionalidad de asiento único produce problemas durante el acuerdo, el cálculo de impuestos, la inversión de transacción, la conciliación de un subdiario contable en la contabilidad general, el informe financiero, etc. (Para obtener más información acerca de problemas que pueden ocurrir durante el acuerdo, consulte, por ejemplo, [Asiento único con varios clientes o registros de proveedores](https://docs.microsoft.com/dynamics365/unified-operations/financials/accounts-payable/single-voucher-multiple-customer-vendor-records).) Para trabajar y notificar correctamente, estos procesos e informes requieren detalles de la transacción. Aunque algunos escenarios pudieran funcionar correctamente, según la configuración de la organización a menudo hay problemas cuando varias transacciones se introducen en un asiento.
 
 Por ejemplo, registra el siguiente asiento múltiple.
 

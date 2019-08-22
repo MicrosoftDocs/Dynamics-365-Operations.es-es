@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 17251
 ms.assetid: a2e06633-a800-4840-a962-88fed8462104
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a262b5200c8071bec78ff6d3ed7976d4b2057ea
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 560a5346e33e1b98a7513b6d7c033fe35458f63a
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570981"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1834159"
 ---
 # <a name="budget-planning-overview"></a>Visión general de la planificación presupuestaria
 
@@ -154,6 +154,8 @@ Para el esquema de ejemplo, puede que desee crear columnas para escenarios de ve
 [![Columnas](./media/columns.png)](./media/columns.png) 
 
 También puede designar si cada elemento de diseño (columna) es editable y si está disponible en cualquier plantilla de hoja de cálculo que se cree para ese diseño. Para el esquema de ejemplo, en el diseño que se usa para la etapa Estimación, las columnas de previsión son editables, mientras que las columnas de ventas PY y contratos son de solo lectura.
+
+[!Note] De forma predeterminada hay un límite de 36 columnas, a menos que extienda la planificación presupuestaria mediante los pasos descritos en [Extender el diseño de la planificación presupuestaria](./extending-budget-planning-layout.md).
 
 ### <a name="templates"></a>Plantillas
 

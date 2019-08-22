@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankAccountTable,  DefaultDashboard
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c8ef676e9c69bf86b0d1ebd1909e5aa3d8b768bf
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: dd883f8bd2d7210688b55208550ab44af15f4981
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1566652"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1852622"
 ---
 # <a name="mx-00020---specify-the-rfc-registration-id-for-mexican-bank-accounts"></a>MX-00020 - Especificar la identificación del registro de RFC para las cuentas bancarias mexicanas
 

@@ -1,72 +1,58 @@
 ---
 title: Recuento de inventario en un almacén
-description: Este procedimiento muestra el proceso para crear y registrar un diario de recuento de inventario para contar un artículo específico en una ubicación del almacén.
+description: En este tema se describe el proceso para crear y registrar un diario de recuento de inventario para contar un artículo específico en una ubicación del almacén.
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/09/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalCount, InventJournalCreate, HcmWorkerLookUp, InventItemIdLookupSimple, InventLocationIdLookup, WMSLocationIdLookup, InventTrans
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8c0bbfe8f86d27f81b0d577ed89dfa34ebcf3f18
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a0909625f31d15fe6b1387ff9ab7fd5d9a9135f4
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549927"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1836465"
 ---
 # <a name="count-inventory-in-a-warehouse"></a>Recuento de inventario en un almacén
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimiento muestra el proceso para crear y registrar un diario de recuento de inventario para contar un artículo específico en una ubicación del almacén. El procedimiento se aplica a la funcionalidad de “almacenamiento básico”, disponible en el módulo Gestión del inventario, no en la funcionalidad de almacenamiento que está disponible en el módulo Gestión de almacenes. Puede revisar este procedimiento con los datos de prueba de la empresa USMF o utilizar sus propios datos. Si usa sus propios datos, asegúrese de que tiene los productos y las ubicaciones configurados, y de que ha creado un nombre de diario de inventario para contar los diarios. El recuento de inventario lo lleva a cabo normalmente un empleado de almacén.
+En este tema se describe el proceso para crear y registrar un diario de recuento de inventario para contar un artículo específico en una ubicación del almacén. El procedimiento se aplica a la funcionalidad de “almacenamiento básico”, disponible en el módulo Gestión del inventario, no en la funcionalidad de almacenamiento que está disponible en el módulo Gestión de almacenes. Puede revisar este procedimiento con los datos de prueba de la empresa USMF o utilizar sus propios datos. Si usa sus propios datos, asegúrese de que tiene los productos y las ubicaciones configurados, y de que ha creado un nombre de diario de inventario para contar los diarios. El recuento de inventario lo lleva a cabo normalmente un empleado de almacén.
 
 
 ## <a name="create-an-inventory-counting-journal"></a>Crear un diario de recuento de inventario
-1. Vaya a Gestión del inventario > Movimientos de diario > Recuento de artículos > Recuento.
-2. Haga clic en Nuevo.
-3. En el campo Nombre, haga clic en el botón desplegable para abrir la búsqueda.
-4. En la lista, haga clic en el nombre de diario de recuento de inventario que desea usar.
-    * Algunos otros campos se rellenarán según la configuración del nombre de diario de recuento de inventario que seleccione.  
-5. En el campo Trabajador, haga clic en el botón desplegable para abrir la búsqueda.
-6. En la lista, seleccione el trabajador que desee usar.
-7. Haga clic en Seleccionar.
-8. Haga clic en Aceptar
+1. Vaya a **Panel de exploración > Módulos > Gestión del inventario > Movimientos de diario > Recuento de artículos > Recuento**.
+2. Seleccione **Nuevo**.
+3. En el campo **Nombre**, seleccione en la lista desplegable el nombre del diario de recuento de inventario que desea usar. Algunos otros campos se rellenarán según la configuración del nombre de diario de recuento de inventario que seleccione.  
+4. En el campo **Trabajador**, seleccione el botón desplegable para abrir la búsqueda.
+5. En la lista, haga clic en **Seleccionar** para seleccionar el trabajador que desea usar.
+6. Seleccione **Aceptar**.
 
-## <a name="create-journal-lines"></a>Creación de líneas de diario
-1. Haga clic en Nuevo.
-2. En el campo Código de artículo, haga clic en el botón desplegable para abrir la búsqueda.
-3. En la lista, busque y seleccione el registro deseado.
-    * Si utiliza los datos de la empresa de demostración USMF, seleccione "A0001".  
-4. En el campo Sitio, haga clic en el botón desplegable para abrir la búsqueda.
-5. En la lista, busque y seleccione el registro deseado.
-    * Si utiliza los datos de la empresa de demostración USMF, seleccione el sitio "2".  
-6. En el campo Almacén, haga clic en el botón desplegable para abrir la búsqueda.
-7. En la lista, busque y seleccione el registro deseado.
-    * Si utiliza los datos de la empresa de demostración USMF, seleccione el almacén "24".  
-8. En el campo Ubicación, haga clic en el botón desplegable para abrir la búsqueda.
-9. En la lista, busque y seleccione el registro deseado.
-    * Si utiliza los datos de la empresa de demostración USMF, seleccione la ubicación "BULK-001".  
-10. En el campo Contado, especifique un número.
-    * Si especifica un número contado diferente al número mostrado en el campo Disponible, el campo Cantidad se actualiza para mostrar la discrepancia.  
-11. Haga clic en Guardar.
+## <a name="create-journal-lines"></a>Crear líneas de diario
+1. Seleccione **Nuevo**.
+2. En el campo **Código de artículo**, seleccione en la lista desplegable el registro que desea. Si va a utilizar los datos de demostración de la empresa USMF, seleccione **A0001**.  
+3. En el campo **Sitio**, seleccione en la lista desplegable el registro que desea. Si utiliza los datos de la empresa de demostración USMF, seleccione el sitio **2**.
+4. En el campo **Almacén**, seleccione en la lista desplegable el registro que desea. Si utiliza los datos de demostración de la empresa USMF, seleccione el almacén **24**.  
+5. En el campo **Ubicación**, seleccione en la lista desplegable el registro que desea. Si utiliza los datos de demostración de la empresa USMF, seleccione la ubicación **BULK-001**.  
+6. En el campo Contado, especifique un número. Si especifica un número contado diferente al número mostrado en el campo **Disponible**, el campo **Cantidad** se actualiza para mostrar la discrepancia.  
+7. Seleccione **Guardar**.
 
 ## <a name="post-the-inventory-counting-journal"></a>Registrar el diario de recuento de inventario
-1. Haga clic en Registrar.
-    * Cuando registra un diario de recuento de inventario, si el importe contado es diferente del importe que se notifica en el campo Disponible en que se registra una recepción o emisión del inventario, se modifican el nivel y el valor del inventario, y se generan las transacciones contables.  
-2. Haga clic en Aceptar
+1. Seleccione **Registrar**. Cuando registra un diario de recuento de inventario, si el importe contado es diferente del importe que se notifica en el campo **Disponible** en que se registra una recepción o emisión del inventario, se modifican el nivel y el valor del inventario, y se generan las transacciones contables.
+2. Seleccione **Aceptar**.
 
 ## <a name="view-inventory-transactions"></a>Ver transacciones de inventario
-1. Haga clic en Inventario.
-2. Haga clic en Transacciones.
-    * Aquí puede ver las transacciones relacionadas que se creará al registrar el diario de recuento de inventario.   
+1. Seleccione **Inventario**.
+2. Seleccione **Transacciones**. Aquí puede ver las transacciones relacionadas que se creará al registrar el diario de recuento de inventario.   
 

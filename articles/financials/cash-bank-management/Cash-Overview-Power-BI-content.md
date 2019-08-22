@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
-ms.reviewer: sericks
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: bff0b1b0a68eccec1cebf130bc40ec3e6d88c3a9
-ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
+ms.openlocfilehash: 553a4a5d25e126923576569b48414c46aab991ec
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "1702804"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1842698"
 ---
 # <a name="cash-overview-power-bi-content"></a>Visión general de contenido de efectivo de Power BI
 
@@ -40,7 +40,7 @@ Es necesario completar la siguiente configuración para que los datos se muestre
 1. Vaya a **Administración del sistema > Configuración > Parámetros del sistema** para establecer **Divisa del sistema** y **Tipo de cambio del sistema**.
 2. Vaya a **Contabilidad general > Configuración > Libro mayor** para establecer **Divisa de contabilidad** y **Tipo de cambio**.
 2. Defina los tipos de cambio entre las Divisas de transacción y la Divisa de contabilidad, la Divisa de contabilidad y la Divisa del sistema, y la Divisa de contabilidad y las Divisas bancarias. Para ello, vaya a **Contabilidad general > Divisas > Tipos de cambio de divisas**.
-3. Configurar y ejecutar Previsiones de flujo de efectivo. Para obtener más información sobre cómo configurar Previsiones de flujo de efectivo, consulte <a href="https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/cash-bank-management/cash-flow-forecasting
+3. Configurar y ejecutar Previsiones de flujo de efectivo. Para obtener más información sobre cómo configurar Previsiones de flujo de efectivo, consulte <a href="https://docs.microsoft.com/dynamics365/unified-operations/financials/cash-bank-management/cash-flow-forecasting
 ">Previsiones de flujo de efectivo</a>. 
 4. Vaya a **Administración del sistema > Configuración > Almacén de entidades** para actualizar la medida agregada **LedgerCovLiquidityMeasurement**.
 
