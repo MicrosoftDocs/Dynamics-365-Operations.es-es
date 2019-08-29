@@ -1,9 +1,9 @@
 ---
-title: Documentación de Microsoft Dynamics 365 for Finance and Operations
+title: Documentación de Dynamics 365 for Finance and Operations
 description: Documentación para Microsoft Dynamics 365 for Finance and Operations.
 author: robinarh
 manager: AnnBe
-ms.date: 04/11/2019
+ms.date: 07/25/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f29d8c74c0e7a4384f8e071d0b9babe5c5f630c
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: 56e49776acdcdd730aec3fb80ff68534e935ca10
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856314"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864851"
 ---
-# <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>Documentación de Microsoft Dynamics 365 for Finance and Operations
+# <a name="dynamics-365-for-finance-and-operations-documentation"></a>Documentación de Dynamics 365 for Finance and Operations
 
 [!include [banner](includes/banner.md)]
 
@@ -75,7 +75,7 @@ Mucho de este contenido también se aplica a los productos relacionados: Microso
 <p><a href="../financials/accounts-receivable/accounts-receivable.md">Clientes</a></p>
 <p><a href="../financials/budgeting/budgeting-overview.md">Gestión presupuestaria</a></p>
 <p><a href="../financials/cash-bank-management/cash-bank-management.md">Gestión de efectivo y bancos</a></p>
-<p><a href="../financials/general-ledger/audit-policy-rules.md">Cumplimiento</a></p>
+<p><a href="../financials/general-ledger/audit-policy-rules.md">Conformidad</a></p>
 <p><a href="../financials/cost-accounting/cost-accounting-home-page.md">Contabilidad de costes</a></p>
 <p><a href="../financials/fixed-assets/fixed-assets.md">Activos fijos</a></p>
 <p><a href="../financials/general-ledger/general-ledger.md">Contabilidad general</a></p>
@@ -94,7 +94,7 @@ Mucho de este contenido también se aplica a los productos relacionados: Microso
 <td>
 <h3><a href="../supply-chain/index.md">Gestión de la cadena de suministro</a></h3>
 <p><a href="../supply-chain/cost-management/costing-sheets.md">Gestión de costes</a></p>
-<p><a href="../supply-chain/inventory/inventory-home-page.md">Gestión del inventario</a></p>
+<p><a href="../supply-chain/inventory/inventory-home-page.md">Gestión de inventarios</a></p>
 <p><a href="../supply-chain/master-planning/master-plans.md">Planificación maestra</a></p>
 <p><a href="../supply-chain/procurement/procurement-sourcing-overview.md">Adquisición y abastecimiento</a></p>
 <p><a href="../supply-chain/pim/product-information.md">Gestión de información de productos</a></p>

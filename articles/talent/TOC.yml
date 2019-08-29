@@ -8,6 +8,14 @@
         - name: Novedades y cambios en Talent
           href: whats-new.md
           items:
+            - name: 22 de agosto de 2019
+              href: whats-new-talent-august-21-2019.md
+            - name: 13 de agosto de 2019
+              href: whats-new-talent-august-15-2019.md
+            - name: 6 de agosto de 2019
+              href: whats-new-talent-august-7-2019.md
+            - name: 30 de julio de 2019
+              href: whats-new-talent-july-31-2019.md
             - name: 23 de julio de 2019
               href: whats-new-talent-july-24-2019.md
             - name: 16 de julio de 2019
@@ -24,16 +32,16 @@
               href: whats-new-talent-june-11-2019.md
             - name: 4 de junio de 2019
               href: whats-new-talent-june-4-2019.md
-            - name: 28 de mayo de 2019
-              href: whats-new-talent-may-28-2019.md
-            - name: 21 de mayo de 2019
-              href: whats-new-talent-may-21-2019.md
-            - name: 13 de mayo de 2019
-              href: whats-new-talent-may-13-2019.md
-            - name: 6 de mayo de 2019
-              href: whats-new-talent-may-6-2019.md
             - name: Novedades de 2019 archivadas
               items:
+                - name: 28 de mayo de 2019
+                  href: whats-new-talent-may-28-2019.md
+                - name: 21 de mayo de 2019
+                  href: whats-new-talent-may-21-2019.md
+                - name: 13 de mayo de 2019
+                  href: whats-new-talent-may-13-2019.md
+                - name: 6 de mayo de 2019
+                  href: whats-new-talent-may-6-2019.md
                 - name: 30 de abril de 2019
                   href: whats-new-talent-april-30-2019.md
                 - name: 25 de abril de 2019
@@ -204,6 +212,8 @@
               href: departments-jobs-positions.md
             - name: Configurar los componentes de un trabajo
               href: create-job.md
+            - name: Entrada y navegación de empleados optimizadas
+              href: streamlined-employee-entry.md
             - name: Crear departamentos e incluirlos en la jerarquía del departamento
               href: create-department-add-department-hierarchy.md
             - name: Configurar parámetros de recursos humanos en entidades jurídicas
@@ -220,7 +230,7 @@
               href: workflow-manage-employee-information.md
             - name: Configurar secuencias numéricas
               items:
-                - name: Información general de secuencias numéricas
+                - name: Visión general de secuencias numéricas
                   href: ../fin-and-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/unified-operations/talent/toc.json
                 - name: Configurar secuencias numéricas de manera individual
                   href: ../fin-and-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/unified-operations/talent/toc.json
@@ -228,7 +238,7 @@
                   href: ../fin-and-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/unified-operations/talent/toc.json
             - name: Configurar organizaciones y jerarquías organizativas
               items:
-                - name: Información general de organizaciones
+                - name: Visión general de organizaciones
                   href: ../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/unified-operations/talent/toc.json
                 - name: Planificar su jerarquía organizativa
                   href: ../fin-and-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/unified-operations/talent/toc.json
@@ -240,7 +250,7 @@
                   href: ../fin-and-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/unified-operations/talent/toc.json
             - name: Configurar una libreta de direcciones global
               items:
-                - name: Información general de la libreta de direcciones global
+                - name: Visión general de la libreta de direcciones global
                   href: ../fin-and-ops/organization-administration/overview-global-address-book.md?toc=/dynamics365/unified-operations/talent/toc.json
                 - name: Plan para la libreta de direcciones global y otras
                   href: ../fin-and-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
@@ -250,7 +260,7 @@
                   href: ../fin-and-ops/organization-administration/qa-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
             - name: Configurar flujos de trabajo
               items:
-                - name: Información general del flujo de trabajo
+                - name: Visión general del flujo de trabajo
                   href: ../fin-and-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/unified-operations/talent/toc.json
                 - name: Elementos del flujo de trabajo
                   href: ../fin-and-ops/organization-administration/workflow-elements.md?toc=/dynamics365/unified-operations/talent/toc.json
@@ -289,7 +299,7 @@
                   href: ../fin-and-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/unified-operations/talent/toc.json
             - name: Configurar avisos
               items:
-                - name: Información general de alertas
+                - name: Visión general de alertas
                   href: ../fin-and-ops/get-started/alerts-overview.md?toc=/dynamics365/unified-operations/talent/toc.json
                 - name: Crear reglas de alertas
                   href: ../fin-and-ops/get-started/create-alerts.md?toc=/dynamics365/unified-operations/talent/toc.json
@@ -297,7 +307,7 @@
                   href: ../fin-and-ops/get-started/alerts-managing.md?toc=/dynamics365/unified-operations/talent/toc.json
             - name: Administrar casos
               items:
-                - name: Información general de la gestión de casos
+                - name: Visión general de la gestión de casos
                   href: ../fin-and-ops/organization-administration/cases.md?toc=/dynamics365/unified-operations/talent/toc.json
                 - name: 'Planificar seguridad, procesos y categorías de casos'
                   href: ../fin-and-ops/organization-administration/plan-case-management.md?toc=/dynamics365/unified-operations/talent/toc.json
@@ -319,7 +329,7 @@
               href: working-time-calendars.md
         - name: Configurar planes de compensación
           items:
-            - name: Información general de planes de compensación
+            - name: Visión general de planes de compensación
               href: compensation-plans.md
             - name: Crear planes de compensación fija
               href: create-fixed-compensation-plans.md
