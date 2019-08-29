@@ -26,9 +26,10 @@
       href: retail-support.md
     - name: Preguntas frecuentes sobre actualizaciones del servicio de una versión
       href: ../fin-and-ops/get-started/one-version.md
-- name: Comprender el ciclo de vida de la implementación
-  href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
+- name: Administración del ciclo de vida de la implementación
   items:
+    - name: Página de inicio de administración del ciclo de vida de la implementación
+      href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
     - name: Microsoft FastTrack for Dynamics 365
       href: ../fin-and-ops/get-started/fasttrack-dynamics-365-overview.md
     - name: Incorporación
@@ -165,6 +166,8 @@
       href: retail-hardware-station-configuration-installation.md
     - name: Tiempo y asistencia en Retail
       href: retail-time-attendance.md
+    - name: Cree y cambiar el horario comercial
+      href: dev-itpro/store-hours.md
 - name: Modern Point of Sale (MPOS) y Cloud POS
   items:
     - name: Elegir entre MPOS y Cloud POS
@@ -307,7 +310,7 @@
       href: retail-coupons.md
 - name: Productos y comercialización
   items:
-    - name: Información general del producto
+    - name: Visión general del producto
       href: ../supply-chain/pim/product-information.md
     - name: Jerarquías comerciales
       href: retail-hierarchies.md
@@ -317,8 +320,10 @@
       href: create-manage-attributes.md
     - name: Configurar productos comerciales
       href: set-up-retail-products.md
-    - name: Gestionar las categorías de productos y productos de Retail
+    - name: Gestionar las categorías de productos y productos comerciales
       href: category-management-product-creation.md
+    - name: Cambiar el orden de clasificación de entidades de comercialización
+      href: custom-order-categories-nav-retail-prod-hierarchy.md
     - name: Dimensiones de producto
       href: ../supply-chain/pim/product-dimensions.md
     - name: Configurar códigos de barras
@@ -500,8 +505,9 @@
     - name: Configurar trabajadores comerciales
       href: tasks/worker.md
 - name: Desarrollo y administración de Retail
-  href: dev-itpro/dev-retail-home-page.md
   items:
+    - name: Retail para profesionales de TI y desarrolladores
+      href: dev-itpro/dev-retail-home-page.md
     - name: Arquitectura
       items:
         - name: Componentes de Retail
@@ -598,6 +604,8 @@
           href: dev-itpro/view-pos-extension-package-details.md
     - name: Hardware Station y extensibilidad
       href: dev-itpro/hardware-station-extensibility.md
+    - name: Integrar PDV con un nuevo dispositivo de hardware
+      href: dev-itpro/hardware-device-extension.md
     - name: Extensibilidad de Retail Server
       items:
         - name: Extender un controlador Retail Server OData
@@ -655,8 +663,9 @@
         - name: Habilitar protección de pago duplicada para conector de pago
           href: dev-itpro/duplicate-payment-protection.md
     - name: SDK de Retail
-      href: dev-itpro/retail-sdk/retail-sdk-overview.md
       items:
+        - name: Arquitectura del SDK de Retail
+          href: dev-itpro/retail-sdk/retail-sdk-overview.md
         - name: Próximos cambios en el SDK de Retail
           href: dev-itpro/UpcomingSDKChanges.md
         - name: Combinar los sistemas de compilación para Retail y Finance and Operations
@@ -667,9 +676,8 @@
           href: dev-itpro/retail-sdk/retail-sdk-packaging.md
         - name: Muestras de SDK de Retail
           href: dev-itpro/retail-sdk/retail-sdk-samples.md
-          items:
-            - name: Puntos de extensión de los albaranes
-              href: dev-itpro/extensions-shipping-carrier-integration.md
+        - name: Puntos de extensión de los albaranes
+          href: dev-itpro/extensions-shipping-carrier-integration.md
         - name: Extensiones de base de datos de canal
           href: dev-itpro/channel-db-extensions.md
         - name: Habilitar sincronización personalizada de CDX mediante extensión
