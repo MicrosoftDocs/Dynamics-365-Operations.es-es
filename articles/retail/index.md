@@ -3,7 +3,7 @@ title: Esto es Dynamics 365 for Retail
 description: Página principal de Dynamics 365 for Retail
 author: josaw1
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/14/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bc1c74ab6940fe0f7ed2e541edad0bce657faeb5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 22dc340ff5ea381dd2a335c8c81332d11d1257a0
+ms.sourcegitcommit: 315388bba3a766691e341f9f2a4fa7a091f2aa18
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572182"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "1874936"
 ---
 # <a name="welcome-to-dynamics-365-for-retail"></a>Esto es Dynamics 365 for Retail
 
@@ -38,7 +38,7 @@ En el panel de la izquierda, seleccione un área funcional para obtener más inf
 
 ## <a name="channel-management"></a>Administración de canales
 
-Al configurar la experiencia con Retail, puede decidir cómo desea definir y configurar las tiendas. Pueden ser tiendas físicas, tiendas en línea o centros de llamadas.
+Según configura su experiencia de Retail, decidirá cómo definir y configurar las operaciones de sus tiendas, ya sean físicas, en línea o centro de llamadas.
 
 Cada tienda puede tener sus propios métodos de pago, métodos de entrega, grupos de precios, cuentas de ingresos y gastos, cajas registradoras y personal. Después de crear la tienda, se crea la selección de productos que desea ofrecer en ella. También puede definir precios específicos de tienda y descuentos aplicables a los productos disponibles en la tienda.
 
