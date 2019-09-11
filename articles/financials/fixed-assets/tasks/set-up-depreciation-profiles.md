@@ -3,7 +3,7 @@ title: Configurar y crear perfiles de depreciación
 description: Los métodos de depreciación determinan el tipo y la frecuencia de la depreciación de un activo.
 author: saraschi2
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8879e61b872e36ddff9bf9c85efe54085f7a62c1
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: cdfcf62615faa76a6bd1f00bd947ef04e23613df
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1839842"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916216"
 ---
 # <a name="set-up-and-create-depreciation-profiles"></a>Configurar y crear perfiles de depreciación
 
@@ -31,13 +31,12 @@ Los métodos de depreciación determinan el tipo y la frecuencia de la depreciac
 
 
 ## <a name="create-a-depreciation-profile"></a>Crear un método de depreciación
-1. Vaya a Activos fijos > Configuración > Perfiles de depreciación.
-2. Haga clic en Nuevo.
-3. En el campo Método de depreciación, escriba un valor.
-4. En el campo Nombre, escriba un valor.
-5. En el campo Método, seleccione una opción.
-    * Si selecciona la depreciación degresiva, deberá especificar un porcentaje en el campo de porcentaje.  
-6. En el campo Año de depreciación, seleccione una opción.
-7. En el campo Frecuencia de períodos, seleccione una opción.
+1. En el panel de navegación, vaya a **Módulos > Activos fijos > Configuración > Perfiles de depreciación**.
+2. Haga clic en **Nuevo**.
+3. En el campo **Perfil de depreciación**, escriba un valor.
+4. En el campo **Nombre**, escriba un valor.
+5. En el campo **Método**, seleccione una opción. Si selecciona la depreciación degresiva, deberá especificar un porcentaje en el campo **Porcentaje**.  
+6. En el campo **Año de depreciación**, seleccione una opción.
+7. En el campo **Frecuencia de períodos**, seleccione una opción.
 8. Cierre el formulario.
 

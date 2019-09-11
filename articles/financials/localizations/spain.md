@@ -1,9 +1,9 @@
 ---
-title: España
+title: Visión general de España
 description: Este tema proporciona vínculos a recursos de documentación de Microsoft Dynamics 365 for Finance and Operations para España.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 07/17/2018
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,14 +16,14 @@ ms.search.region: Spain
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 429dacdbb79f10fdd04d55ef2de51e3697b625f8
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: 5e40860b563db73d29e1e316ed5382b7be9b1d67
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1849189"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865647"
 ---
-# <a name="spain"></a>España 
+# <a name="spain-overview"></a>Visión general de España
 
 [!include [banner](../includes/banner.md)]
 

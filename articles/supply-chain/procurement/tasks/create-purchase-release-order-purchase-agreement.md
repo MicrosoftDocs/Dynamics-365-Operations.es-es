@@ -3,7 +3,7 @@ title: Crear un pedido parcial de compra de un acuerdo de compra
 description: Este procedimiento muestra cómo usar un acuerdo de compra cuando se crea un pedido de compra.
 author: mkirknel
 manager: AnnBe
-ms.date: 12/04/2015
+ms.date: 08/09/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c45db4ac01be831c0c75f888d313d61d934fc33f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: da161c9066c822f8c09e5eda90994e8b03af4681
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547606"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916876"
 ---
 # <a name="create-a-purchase-release-order-from-a-purchase-agreement"></a>Crear un pedido parcial de compra de un acuerdo de compra
 
@@ -30,37 +30,32 @@ Este procedimiento muestra cómo usar un acuerdo de compra cuando se crea un ped
 
 
 ## <a name="create-a-purchase-order"></a>Crear un pedido de compra
-1. Apertura del espacio de trabajo de preparación del pedido de compra
-2. Haga clic en Nuevo pedido de compra.
-3. En el campo Cuenta de proveedor, haga clic en el botón desplegable para abrir la búsqueda.
+1. En el **Panel de exploración**, vaya a **Espacio de trabajo > Preparación del pedido de compra**. 
+2. Haga clic en **Nuevo pedido de compra**.
+3. En el campo **Cuenta de proveedor**, haga clic en el botón desplegable para abrir la búsqueda.
 4. En la lista, busque y seleccione el registro deseado.
 5. En la lista, haga clic en el vínculo de la fila seleccionada.
-6. Expanda la sección General.
-7. En el campo Acuerdo de compra, haga clic en el botón desplegable para abrir la búsqueda.
-    * Todos los acuerdos disponibles para el proveedor se muestran aquí. Localice el acuerdo en vigor que desee utilizar.  
+6. Expanda la ficha desplegable **General**.
+7. En el campo **Acuerdo de compra**, haga clic en el botón desplegable para abrir la búsqueda. Todos los acuerdos disponibles para el proveedor se muestran aquí. Localice el acuerdo en vigor que desee utilizar.  
 8. En la lista, haga clic en el vínculo de la fila seleccionada.
-9. Haga clic en Sí.
-10. Haga clic en Aceptar
+9. Haga clic en **Sí**.
+10. Haga clic en **Aceptar**.
 
 ## <a name="add-a-line"></a>Adición de una línea
-1. En el campo Código de artículo, escriba un valor.
-    * Si hay dimensiones de inventario o de ubicación específicas en el compromiso, debe especificar los mismos valores en la línea de pedido de compra para poder usar el acuerdo.  
-2. En el campo Sitio, haga clic en el botón desplegable para abrir la búsqueda.
-    * El sitio puede ya haberse cumplimentado con el valor predeterminado del pedido, o del proveedor. En tal caso, omita este paso.  
+1. En el campo **Código de artículo**, escriba un valor. Si hay dimensiones de inventario o de ubicación específicas en el compromiso, debe especificar los mismos valores en la línea de pedido de compra para poder usar el acuerdo.  
+2. En el campo **Sitio**, haga clic en el botón desplegable para abrir la búsqueda. El sitio puede ya haberse cumplimentado con el valor predeterminado del pedido, o del proveedor. En tal caso, omita este paso.  
 3. En la lista, busque y seleccione el registro deseado.
 4. En la lista, haga clic en el vínculo de la fila seleccionada.
-5. En el campo Cantidad, especifique un número.
-    * Verifique que el precio se haya copiado del compromiso.  
+5. En el campo **Cantidad**, especifique un número. Verifique que el precio se haya copiado del compromiso.  
 
 ## <a name="look-up-the-commitment"></a>Búsqueda del compromiso
-1. Haga clic en Actualizar línea.
-2. Haga clic en Adjunto.
-    * Aquí puede obtener los detalles del acuerdo de compra. Por ejemplo, puede ver el precio y si el precio y el descuento son fijos, lo que significa que, si cambia precios o descuentos en el pedido de compra a un valor diferente que en el compromiso, el sistema quitará el vínculo de modo que la línea de pedido de compra no satisfaga el compromiso. También puede ver si está seleccionada la opción Máximo aplicado, lo que significa que la cantidad en el compromiso no puede sobrepasarse sumando todas las compras que satisfacen el compromiso.  
+1. Haga clic en **Actualizar línea**.
+2. Haga clic en **Adjunto**. Aquí puede obtener los detalles del acuerdo de compra. Por ejemplo, puede ver el precio y si el precio y el descuento son fijos, lo que significa que, si cambia precios o descuentos en el pedido de compra a un valor diferente que en el compromiso, el sistema quitará el vínculo de modo que la línea de pedido de compra no satisfaga el compromiso. También puede ver si está seleccionada la opción Máximo aplicado, lo que significa que la cantidad en el compromiso no puede sobrepasarse sumando todas las compras que satisfacen el compromiso.  
 3. Cierre la página.
 
 ## <a name="look-up-the-purchase-agreement"></a>Búsqueda del acuerdo de compra
-1. En el panel de acciones, haga clic en General.
-2. Haga clic en Acuerdo de compra.
+1. En el **panel de acciones**, haga clic en **General**.
+2. Haga clic en **Acuerdo de compra**.
 3. Cierre la página.
 4. Cierre la página.
 

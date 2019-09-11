@@ -3,7 +3,7 @@ title: Crear reglas avanzadas para diarios
 description: Este procedimiento le guía por la creación de reglas avanzadas para los diarios.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8ec0db1bc5018649acaca05c71a510880b415777
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 3eb34ac419aeab3663a8931d022abf7bcbfddd37
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1846688"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916164"
 ---
 # <a name="create-advanced-rules-for-journals"></a>Crear reglas avanzadas para diarios
 
@@ -31,30 +31,30 @@ Este procedimiento le guía por la creación de reglas avanzadas para los diario
 
 
 ## <a name="set-up-journal-control"></a>Configurar el control del diario
-1. Vaya a Contabilidad general > Configuración de diario > Nombres de diarios.
+1. En el **Panel de exploración**, vaya a **Módulos > Contabilidad general > Configuración del diario > Nombres del diario**.
 2. En la lista, busque y seleccione el registro deseado.
-3. Haga clic en Control del diario.
-4. Haga clic en Agregar.
-5. En el campo Cuentas de la empresa, haga clic en el botón desplegable para abrir la búsqueda.
+3. En el **panel de acciones**, haga clic en **Control del diario**.
+4. En la ficha desplegable, **¿Qué tipos de cuentas se pueden registrar?**, haga clic en **Agregar**.
+5. En el campo **Cuentas de la empresa**, haga clic en el botón desplegable para abrir la búsqueda.
 6. En la lista, busque y seleccione el registro deseado.
 7. En la lista, haga clic en el vínculo de la fila seleccionada.
-8. Haga clic en Agregar.
-9. En el campo Estructura contable, haga clic en el botón desplegable para abrir la búsqueda.
+8. En la ficha desplegable **¿Qué valores del segmento son válidos para este diario?**, haga clic en **Agregar**.
+9. En el campo **Estructura contable**, haga clic en el botón desplegable para abrir la búsqueda.
 10. En la lista, busque y seleccione el registro deseado.
 11. En la lista, haga clic en el vínculo de la fila seleccionada.
-12. En el campo Segmento, haga clic en el botón desplegable para abrir la búsqueda.
+12. En el campo **Segmento**, haga clic en el botón desplegable para abrir la búsqueda.
 13. En la lista, haga clic en el vínculo de la fila seleccionada.
-14. En el campo Valor inicial, haga clic en el botón desplegable para abrir la búsqueda.
+14. En el campo **Valor inicial**, haga clic en el botón desplegable para abrir la búsqueda.
 15. En la lista, busque y seleccione el registro deseado.
 16. En la lista, haga clic en el vínculo de la fila seleccionada.
-17. En el campo Valor final, haga clic en el botón desplegable para abrir la búsqueda.
+17. En el campo **Valor final**, haga clic en el botón desplegable para abrir la búsqueda.
 18. En la lista, busque y seleccione el registro deseado.
 19. En la lista, haga clic en el vínculo de la fila seleccionada.
 
 ## <a name="set-up-posting-restrictions"></a>Configuración de restricciones de registro
 1. Cierre la página.
-2. Haga clic en Restricciones de registro.
-3. En ¿Cómo desea configurar las restricciones de registro?, seleccione Por grupo de usuarios.
+2. Haga clic en **Restricciones de registro**.
+3. En **¿Cómo desea configurar las restricciones de registro?**, seleccione "Por grupo de usuarios".
 4. En el árbol, active "el grupo al que desea permitir el registro para este nombre de diario”.
-5. Haga clic en Aceptar
+5. Haga clic en **Aceptar**.
 

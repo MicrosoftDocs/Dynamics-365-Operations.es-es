@@ -3,7 +3,7 @@ title: Configurar códigos de notificación de impuestos
 description: Los códigos de notificación de impuestos hacen referencia a un número de campo en un informe de impuestos.
 author: twheeloc
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 830a3465944b32cc17feee60e3cbc5ad0a4dc9d7
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 4751256858da417ec9bb1b7d9ccd16fb6bef1cac
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1834784"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916100"
 ---
 # <a name="set-up-sales-tax-reporting-codes"></a>Configurar códigos de notificación de impuestos
 
@@ -31,14 +31,11 @@ Los códigos de notificación de impuestos hacen referencia a un número de camp
 
 Esta grabación usa la empresa de demostración DEMF.
 
-
-
-1. Vaya a Impuestos > Configuración > Impuestos > Códigos de notificación de impuestos.
-2. Haga clic en Nuevo.
-3. Seleccione el diseño del informe al que pertenece el código de notificación.
-    * Este diseño se usa para filtrar los códigos de notificación disponibles para un código de impuestos. Cada código de impuestos corresponde a un período de liquidación que pertenece a una autoridad fiscal que usa un diseño de informe.  
-4. Especifique un número que haga referencia a un campo del informe de impuestos.
-5. En el campo de texto del informe, escriba una descripción para mostrar en los informes.
-6. En el campo Descripción breve, escriba una descripción para fines internos.
-7. Haga clic en Guardar.
+1. En el **Panel de navegación**, vaya a **Impuestos > Configuración > Impuestos > Códigos de notificación de impuestos**.
+2. Haga clic en **Nuevo**.
+3. Seleccione el diseño del informe al que pertenece el código de notificación. Este diseño se usa para filtrar los códigos de notificación disponibles para un código de impuestos. Cada código de impuestos corresponde a un período de liquidación que pertenece a una autoridad fiscal que usa un diseño de informe.  
+4. En el campo **Código de notificación**, introduzca un número.
+5. En el campo de **Texto del informe**, escriba una descripción para mostrar en los informes.
+6. En el campo **Descripción breve**, escriba una descripción para fines internos.
+7. Haga clic en **Guardar**.
 

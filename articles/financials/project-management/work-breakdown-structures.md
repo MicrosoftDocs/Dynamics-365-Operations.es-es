@@ -1,9 +1,9 @@
 ---
-title: Estructuras de descomposición del trabajo
+title: Visión general de las estructuras de descomposición del trabajo
 description: Una estructura de descomposición del trabajo (WBS) es una descripción del trabajo que se realizará para un proyecto. Es una jerarquía de tareas que representa la comprensión del equipo del proyecto de la composición del trabajo, y del tamaño, coste y duración de cada componente o tarea.
 author: KimANelson
 manager: AnnBe
-ms.date: 06/05/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 068a811c3f1e7033e2625a99975652e0d6f1a139
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 78509898d0c2279750df3860a670d3d7a6badfc0
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838232"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865589"
 ---
-# <a name="work-breakdown-structures"></a>Estructuras de descomposición del trabajo
+# <a name="work-breakdown-structures-overview"></a>Visión general de las estructuras de descomposición del trabajo
 
 [!include [banner](../includes/banner.md)]
 
@@ -105,7 +105,7 @@ Actualmente, no puede personalizar la numeración de WBS.
 La estimación de la programación es normalmente el segundo paso en la creación de una WBS. Como práctica recomendada, debe completar la estimación de la programación después de crear las tareas. La página **Estructura de descomposición del trabajo** en Finance and Operations tiene dos secciones. El panel superior está pensado para la estimación de la programación y el panel inferior incluye una pestaña **Costes e ingresos estimados** que puede usar para la estimación de costes. 
 **Dependencias de tareas** En una WBS, puede crear una relación predecesora entre tareas. Al asignar tareas predecesoras a una tarea, esa tarea solo se puede iniciar después de completarse todas sus tareas predecesoras. La fecha inicial planificada de la tarea se establece automáticamente a la última fecha de todas sus predecesoras. 
 
-**Programación de tareas en Microsoft Dynamics 365 for Finance and Operations** Los siguientes factores determinan la programación de las tareas de nodo hoja:
+**Programación de tareas en Microsoft Dynamics** Los siguientes factores determinan la programación de las tareas de nodo hoja:
 
 -   Predecesores
 -   Esfuerzo

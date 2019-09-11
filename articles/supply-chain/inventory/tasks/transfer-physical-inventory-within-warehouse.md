@@ -3,7 +3,7 @@ title: Transferencia del inventario físico en el almacén
 description: Este procedimiento le muestra el proceso para crear y enviar un diario de transferencia de inventario para registrar el movimiento de un artículo desde una ubicación de un almacén a otra.
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7344bfa3be0d7345d3ac68202c7bc26bcac8ebb9
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 7715c8e7a56703993e8512af03f2ab8d6802a987
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845266"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916585"
 ---
 # <a name="transfer-physical-inventory-within-the-warehouse"></a>Transferencia del inventario físico en el almacén
 
@@ -32,40 +32,30 @@ Este procedimiento le muestra el proceso para crear y enviar un diario de transf
 
 
 ## <a name="create-an-inventory-transfer-journal"></a>Creación de un diario de transferencias de inventario
-1. Vaya a Transferir.
-2. Haga clic en Nuevo.
-3. En el campo Nombre, especifique o seleccione un valor.
-4. Haga clic en Aceptar
-    * Existe la opción de especificar las dimensiones "De" y "A" para cada línea de diario. Estas son esenciales para este tipo de diario. Puede transferir los artículos a las ubicaciones mediante distintas reglas. En este ejemplo transferiremos un artículo dentro del mismo almacén, de una ubicación controlada mediante matrícula de entidad de almacén a una ubicación que no se controla mediante matrículas de entidad de almacén.   
+1. En el **Panel de exploración**, vaya a **Gestión de inventarios > Movimientos del diario > Artículos > Transferencia**.
+2. Haga clic en **Nuevo**.
+3. En el campo **Nombre**, especifique o seleccione un valor.
+4. Haga clic en **Aceptar**. Existe la opción de especificar las dimensiones "De" y "A" para cada línea de diario. Estas son esenciales para este tipo de diario. Puede transferir los artículos a las ubicaciones mediante distintas reglas. En este ejemplo transferiremos un artículo dentro del mismo almacén, de una ubicación controlada mediante matrícula de entidad de almacén a una ubicación que no se controla mediante matrículas de entidad de almacén.   
 
-## <a name="create-journal-lines"></a>Creación de líneas de diario
-1. Haga clic en Nuevo.
-2. En el campo Número de artículo, especifique o seleccione un valor.
-    * Si está usando USMF, puede seleccionar "A0001".  
-3. En el campo Sitio de origen, especifique o seleccione un valor.
-    * Si está usando USMF, puede seleccionar "2".  
-4. En el campo Sitio de destino, especifique o seleccione un valor.
-    * Si está usando USMF, puede seleccionar "2".  
-5. En el campo Desde almacén, especifique o seleccione un valor.
-    * Si está usando USMF, puede seleccionar "24".  
-6. En el campo Hasta almacén, especifique o seleccione un valor.
-    * Si está usando USMF, puede seleccionar "24".  
-7. En el campo Desde ubicación, especifique o seleccione un valor.
-    * Si está usando USMF, puede seleccionar "FL-001".  
-8. En el campo Ubicación de destino, especifique o seleccione un valor.
-    * Si está usando USMF, puede seleccionar "BULK-001".  
-9. En el campo Cantidad, especifique un número.
-10. Haga clic en la ficha Dimensiones de inventario.
-11. En el campo Número de licencia, especifique o seleccione un valor.
-    * Si está usando USMF, puede seleccionar "24".  
-12. Haga clic en Guardar.
+## <a name="create-journal-lines"></a>Crear líneas de diario
+1. En la **Ficha desplegable Líneas de diario**, haga clic en **Nuevo**.
+2. En el campo **Número de artículo**, especifique o seleccione un valor. Si está usando USMF, puede seleccionar "A0001".  
+3. En el campo **Sitio de origen**, especifique o seleccione un valor. Si está usando USMF, puede seleccionar "2".  
+4. En el campo **Sitio de destino**, especifique o seleccione un valor. Si está usando USMF, puede seleccionar "2".  
+5. En el campo **Almacén de origen**, especifique o seleccione un valor. Si está usando USMF, puede seleccionar "24".  
+6. En el campo **Almacén de destino**, especifique o seleccione un valor. Si está usando USMF, puede seleccionar "24".  
+7. En el campo **Ubicación de origen**, especifique o seleccione un valor. Si está usando USMF, puede seleccionar "FL-001".  
+8. En el campo **Ubicación de destino**, especifique o seleccione un valor. Si está usando USMF, puede seleccionar "BULK-001".  
+9. En el campo **Cantidad**, especifique un número.
+10. En la ficha desplegable **Detalles de línea**, haga clic en la pestaña **Dimensiones de inventario**.
+11. En **Desde dimensiones de inventario**, en el campo **Matrícula**, especifique o seleccione un valor. Si está usando USMF, puede seleccionar "24".  
+12. Haga clic en **Guardar**.
 
 ## <a name="post-the-inventory-transfer-journal"></a>Registrar el diario de transferencias de inventario
-1. Haga clic en Registrar.
-2. Haga clic en Aceptar
+1. En el **panel de acciones**, haga clic en **Publicar**.
+2. Haga clic en **Aceptar**.
 
 ## <a name="view-inventory-transactions"></a>Ver transacciones de inventario
-1. Haga clic en Inventario.
-2. Haga clic en Transacciones.
-    * Aquí puede ver las transacciones creadas al registrar el diario.  
+1. Haga clic en **Inventario**.
+2. Haga clic en **Transacciones**. Aquí puede ver las transacciones creadas al registrar el diario.  
 

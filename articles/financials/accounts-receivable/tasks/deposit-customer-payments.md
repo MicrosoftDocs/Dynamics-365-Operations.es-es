@@ -3,7 +3,7 @@ title: Depositar pagos de cliente
 description: Pagos de cliente en depósito.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/18/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: afbf74d1cf3dc87e97dda0873115b5c7fa49ca3d
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 595d1b609ae83af8f1581caeff9ef7d3892a6207
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1834472"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867783"
 ---
 # <a name="deposit-customer-payments"></a>Depositar pagos de cliente
 
@@ -29,29 +29,22 @@ ms.locfileid: "1834472"
 
 Pagos de cliente en depósito. Esta tarea usa la empresa de demostración USMF.
 
-1. Vaya a Clientes > Pagos > Diario de pagos.
-2. Haga clic en Nuevo.
-3. En el campo Nombre, haga clic en el botón desplegable para abrir la búsqueda.
-4. Seleccione el diario de pago. 
-5. Haga clic en Líneas.
-6. En el campo Cuenta, seleccione el cliente para el que esté registrando el pago.
-7. En el campo Crédito, especifique el importe del pago.
-    * Puede elegir dejar el importe en blanco y hacer que el sistema lo calcule seleccionando las facturas pagadas.  
-8. En el campo Referencia del pago, escriba un valor.
-    * La referencia de pago podría ser el número de cheque para el pago que se está introduciendo. La referencia de pago es obligatoria para incluir el pago en un resguardo de depósito.  
-9. Marque el cuadro Utilizar un resguardo del depósito.
-    * Si el pago debe incluirse en el depósito, cambie este ajuste a Sí.  
-10. Haga clic en Nuevo.
-11. En el campo Cuenta, seleccione el cliente para el siguiente pago.
-12. En el campo Crédito, especifique el importe del pago.
-13. En el campo Referencia del pago, escriba un valor.
-14. Marque el cuadro Utilizar un resguardo del depósito.
-15. Haga clic en Registrar.
-    * Los pagos deben registrarse para poder generar el resguardo de depósito. Esto es así para garantizar que los pagos no cambian después de generarse el resguardo de depósito.  
-16. Haga clic en Funciones.
-17. Haga clic en Resguardo de depósito.
-18. Haga clic en Aceptar
-    * La primera página que se usa para crear el resguardo de depósito.  
-19. Haga clic en Aceptar
-    * El segundo paso es imprimir el resguardo de depósito, si bien este paso no es obligatorio.  
+1. Vaya a **Panel de exploración > Módulos > Clientes > Pagos > Diario de pagos**.
+2. Seleccione **Nuevo**.
+3. En el campo **Nombre**, seleccione **CustPay** en el menú desplegable.
+4. Seleccionar **Líneas**.
+5. En el campo **Cuenta**, seleccione el cliente para el que esté registrando el pago.
+6. En el campo **Crédito**, especifique el importe del pago. Puede elegir dejar el importe en blanco y hacer que el sistema lo calcule seleccionando las facturas pagadas.  
+7. En el campo **Referencia del pago**, escriba un valor. La referencia de pago podría ser el número de cheque para el pago que se está introduciendo. La referencia de pago es obligatoria para incluir el pago en un resguardo de depósito.  
+8. Marque el cuadro Utilizar un resguardo del depósito. Si el pago debe incluirse en el depósito, cambie este ajuste a Sí.  
+9. Seleccione **Nuevo**.
+10. En el campo **Cuenta**, seleccione el cliente para el siguiente pago.
+11. En el campo **Crédito**, especifique el importe del pago.
+12. En el campo **Referencia del pago**, escriba un valor.
+13. Marque el cuadro **Utilizar un resguardo del depósito**.
+14. Seleccione **Registrar**. Los pagos deben registrarse para poder generar el resguardo de depósito. Esto es así para garantizar que los pagos no cambian después de generarse el resguardo de depósito.  
+15. Seleccione **Funciones**.
+16. Seleccione **Resguardo de depósito**.
+17. Seleccione **Aceptar**. La primera página que se usa para crear el resguardo de depósito.  
+18. Seleccione **Aceptar**. El segundo paso es imprimir el resguardo de depósito, si bien este paso no es obligatorio.  
 

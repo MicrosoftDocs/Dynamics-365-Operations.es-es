@@ -3,7 +3,7 @@ title: Procesamiento de producto con peso capturado con la gestión de almacenes
 description: Este tema describe cómo usar plantillas de trabajo y directivas de ubicación para determinar cómo y dónde se realiza el trabajo en el almacén.
 author: perlynne
 manager: AnnBe
-ms.date: 03/18/2019
+ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: ed588ea28bec3e734f9648c1fbd7551ab0b3cdda
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: d5e9f8e4d154e5f56ee7ceae666cd935d6ceb460
+ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836126"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "1887144"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Procesamiento de producto con peso capturado con la gestión de almacenes
 
@@ -136,7 +136,6 @@ No todos los flujos de trabajo son compatibles con el procesamiento de producto 
 
 - La creación manual de pedidos de cuarentena no se admite para los productos con peso capturado.
 - El movimiento manual de inventario relacionado con el trabajo no se admite para los productos de peso capturado.
-- Los productos de peso capturado no admiten la consolidación de matrículas de entidad.
 - La carga del número de matrícula de entidad al inicializar las existencias del almacén no se admite para los productos con peso capturado.
 - Los procesos de equilibrio por lotes no son admitidos para los productos de peso capturado.
 - La gestión del inventario negativo físico no se admite para los productos con peso capturado.
@@ -147,7 +146,6 @@ No todos los flujos de trabajo son compatibles con el procesamiento de producto 
 - La funcionalidad para la selección del clúster no se admite para los productos con peso capturado.
 - El procesamiento del almacén de la selección y el embalaje no se admite para los productos con peso capturado.
 - Para los productos con peso capturado, el trabajo que se define en una plantilla de trabajo puede ejecutarse automáticamente.
-- La funcionalidad para la inversión de trabajo no se admite para los productos con peso capturado.
 - Para los productos con peso capturado, no se admite el procesamiento manual de instalación de acondicionamiento donde se realiza el trabajo después de que se pongan contenedores.
 - La funcionalidad para el escaneo pieza a pieza no se admite para los productos con peso capturado.
  
