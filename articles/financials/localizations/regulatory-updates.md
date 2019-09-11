@@ -3,7 +3,7 @@ title: Actualizaciones reglamentarias
 description: Este tema proporciona una lista de actualizaciones normativas planificadas y publicadas para Microsoft Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/10/2019
+ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: a33212acce6bf53b1077e54b9556e4d5e933519c
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: a9d107fa57bdc2edf2dc1a69081e02b3c4321551
+ms.sourcegitcommit: b7f70ee1e54c65c19e1d33c76d2428f9c6c05c66
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1849341"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "1918474"
 ---
 # <a name="regulatory-updates"></a>Actualizaciones reglamentarias
 
@@ -51,30 +51,32 @@ Para ver los últimos planes de actualizaciones regulatorias, consulte la siguie
 |      2019 de abril          |   10.0.1      |    Europa     |Facturación electrónica - Las facturas de los proveedores se importan desde el formato PEPPOL BIS 3         |
 |      2019 de abril          |   10.0.1      |   Alemania     |Facturación electrónico - Las facturas de los clientes se exportan en formato xRechnung 1.1         |
 |      2019 de abril          |   10.0.1      |    Reino Unido     |[Cambios del envío de la declaración de IVA (Crear impuestos digitales)](emea-gbr-mtd-vat-integration.md)    |    
-|      2019 de abril          |   10.0.1      |    Brasil     |Nueva nota fiscal electrónica NT 2018.005         |
 |      2019 de abril          |   10.0.1      |    Rusia     |[El formato de la declaración de IVA cambia a partir de 2019](rus-VAT-declaration.md) |
 |      2019 de abril          |   10.0.1      |    Rusia     |El formato de la declaración de IVA cambia a partir de 2019 (formatos de los libros de ventas y de compra) |
 |      2019 de abril          |   10.0.1      |    Rusia     |Cambios en la declaración de impuestos territoriales para 2018 |
 |      2019 de abril          |   10.0.1      |    Rusia     |[Cambios en la declaración de impuestos sobre la propiedad para 2019](rus-assessed-tax-declaration.md)|
 |      2019 de abril          |   10.0.1      |    Rusia     |Cambios en la declaración de impuestos sobre el transporte para 2019  |
-|      2019 de abril            |   10.0.1      | Hungría      |  Hungría: V.1.1 de facturación en línea 2019 en Microsoft Dynamics 365 for Finance and Operations  |
-|      mayo de 2019            |   10.0.2      | Brasil      |   SPED ECD Diseño 7   |
-|      2019 de junio            |   10.0.3      | Brasil      |   NF-e nuevo NT 2018.005 - v.1.20   |
-|      2019 de junio            |   10.0.3      | Brasil      |   SPED ECD Diseño 7   |
+|      2019 de abril          |   10.0.1      |    Lituania     |El informe de i.SAF nos dejó usuario definir códigos de impuestos del sistema en asociación con códigos de impuestos legales  |
+|      2019 de abril          |   10.0.1      | Hungría      |  Hungría: V.1.1 de facturación en línea 2019  |
+|      2019 de abril          |   10.0.1      | Japón      |  Modificación de era del calendario japonés de 2019  |
+|      2019 de abril          |   10.0.1/10.0.2/10.0.3      | India      |  Cambio de formato número de IEC  |
+|      2019 de junio           |   10.0.1HF/10.0.2HF/10.0.3      | Brasil      |   NF-e nuevo NT 2018.005 - v.1.20   |
+|      2019 de junio           |   10.0.1HF/10.0.2HF/10.0.3      | Brasil      |   SPED ECD Diseño 7   |
+|      2019 de junio           |   10.0.1HF/10.0.2HF/10.0.3HF/10.0.4      | Brasil    |   NF-e Decreto 54.308/18 (RS)   |
+|      Julio de 2019           |   10.0.1HF/10.0.2HF/10.0.3HF/10.0.4      | Brasil    |   NF-e y NFC-e - Resolución 13/2019 y ordenanza SUCIEF 55/2019- RJ - nuevas condiciones para la salida de etiquetas exentas en NF-e.   |
+|      2019 de junio           |   10.0.2     | Italia      |   "Spesometro nuevo” (Esterometro) para admitir la división por volumen de archivos y los límites de número de registros   |
+ | Agosto de 2019            |   10.0.2HF/10.0.3HF/10.0.4HF/10.0.5      | Brasil    |   Una nueva versión de notas técnicas para NF-e: NT 2019.001 Versión 1.00   |
+|      Julio de 2019            |   10.0.3/10.0.4      | India   |   Pantalla de "Lugar de prestación" y "Estado" en la factura de impuestos de GST  | Julio de 2019            |   10.0.2HF/10.0.3HF/10.0.4HF/10.0.5HF/10.0.6      | Brasil    |   NF-e ICMS-ST - ordenanza CAT 42/18 para estado SP - CAT 42/18   |
 |      2019 de junio            |   10.0.3      | Brasil      |   SPED ECF - Layout 5 para 2019   |
-|      2019 de junio            |   10.0.3      | Lituania    |   El informe de i.SAF nos dejó usuario definir códigos de impuestos del sistema en asociación con códigos de impuestos legales    |
 |      2019 de junio            |   10.0.3      | Polonia     |   Facturas SAF (JPK_FA) v.2 a partir del 1 de julio de 2019  |
 |      2019 de junio            |   10.0.3      | Brasil   |   Cuadro fiscal 5.2 de permisos de los ajustes del documento de ICMS   |
-|      2019 de junio            |   10.0.3      | Brasil    |   NF-e Decreto 54.308/18 (RS)   |
+|      2019 de junio            |   10.0.3      | India    |   Ajuste de impuestos en la divisa de aduanas en BOE en lugar de hacerlo en la divisa de transacción  |
   | Julio de 2019            |   10.0.4      | Brasil    |   Documento fiscal entrante 66   |
-   | Julio de 2019            |   10.0.4      | Brasil    |   NF-e y NFC-e - Resolución 13/2019 y ordenanza SUCIEF 55/2019- RJ - nuevas condiciones para la salida de etiquetas exentas en NF-e.   |
-   | Julio de 2019            |   10.0.4      | India   |   Pantalla de "Lugar de prestación" y "Estado" en la facturas de impuestos de GST  |
-   | Julio de 2019            |   10.0.4      | México   |  Declaración de terceros de DIOT - cambios en el diseño de 2019   |
-   | Julio de 2019            |   10.0.4      | Brasil    |   NF-e ICMS-ST - ordenanza CAT 42/18 para estado SP - CAT 42/18
-   | Julio de 2019            |   10.0.4      | Brasil    |   NF-e Decreto 54.308/18 - RS NF   |
-       | Pendientes            |   10.0.5      | Brasil    |   Guía práctica de contribuciones Sped 1.31. nueva guía   |
-         | Pendientes            |   10.0.5      | Brasil    |   Una nueva versión de notas técnicas para NF-e: NT 2019.001 Versión 1.00   |
-          | Pendientes            |   10.0.5      | España    |   Las reglas de validación cambian a partir del 1 de octubre de 2019   |
+  | Julio de 2019            |   10.0.4      | México   |  Declaración de terceros de DIOT - cambios en el diseño de 2019   |  
+  | Agosto de 2019            |   10.0.5      | Brasil    |   Guía técnica de contribuciones Sped 1.31. nueva guía   | 
+  | Agosto de 2019            |   10.0.5      | España    |   Las reglas de validación cambian a partir del 1 de octubre de 2019   |
+  | Agosto de 2019          |   10.0.5      | México    |   CFDI 3.3 - El detalle de las transacciones de impuestos de IEPS en XML debe ser opcional en función de perfil del cliente |
+  |      Agosto de 2019           |   10.0.5      | Reino Unido    |   DCR - Crear impuestos digitales - parámetros de prevención de fraude sobre el dispositivo de origen  |
    
 
 

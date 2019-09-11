@@ -1,9 +1,9 @@
 ---
-title: Configuración de almacén
+title: Visión general de la configuración de almacén
 description: Este artículo explica cómo configurar un almacén. Incluye información acerca de cómo habilitar un diseño de almacén y procesos de almacén.
 author: perlynne
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7e50d03718234748d9ad5092500b970216c40284
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 471ab164d7bd2e85f5192c082a905f3c30de3d2b
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554149"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1866098"
 ---
-# <a name="warehouse-configuration"></a>Configuración de almacén
+# <a name="warehouse-configuration-overview"></a>Visión general de la configuración de almacén
 
 [!include [banner](../includes/banner.md)]
 

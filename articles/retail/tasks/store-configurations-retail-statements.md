@@ -3,7 +3,7 @@ title: Almacenar configuraciones para los extractos de Retail
 description: Este procedimiento muestra las configuraciones para la Tienda que afectan la manera en que se crean y se registran los extractos comerciales.
 author: jashanno
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9fddeb8434d916df1613d61da88110dec8fb4465
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: dbedcda59f503b103d5448e59038e4ed8ca0b51d
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563653"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916539"
 ---
 # <a name="store-configurations-for-retail-statements"></a>Almacenar configuraciones para los extractos de Retail
 
@@ -30,21 +30,22 @@ ms.locfileid: "1563653"
 
 Este procedimiento muestra las configuraciones para la Tienda que afectan la manera en que se crean y se registran los extractos comerciales. Las dimensiones financieras en tiendas se cubren en otro procedimiento. Este procedimiento usa la empresa de prueba USRT.
 
-1. Vaya a Venta minorista y comercio > Canales > Tiendas > Todas las tiendas minoristas.
+1. En el **Panel de navegación**, vaya **Módulos > Venta minorista y comercio > Canales > Tiendas > Todas las tiendas minoristas**.
 2. En la lista, busque y seleccione el registro deseado.
 3. En la lista, haga clic en el vínculo de la fila seleccionada.
-    * La configuración de la sección Extracto o cierre afecta a la creación, la validación y al registro de extractos para el almacén.  Abra la sección Extracto o cierre.  
-    * Seleccione el método que desea usar para agrupar las líneas de extracto.  
-    * Seleccione "Sí" si solo se debería crear un extracto al día al crear extractos del trabajo por lotes de la creación de extractos.  
-    * El campo Cálculo de declaración por forma de pago define si las declaraciones por forma de pago se deben agregar juntas o si se debe usar la última.  
-    * Seleccione la cuenta contable en la que registrar diferencias de redondeo.  
-    * En el campo de diferencias de redondeo máxima, puede especificar la diferencia de redondeo máxima permitida.  
-    * En el campo Registro, puede especificar la diferencia de registro total máxima permitida para un extracto.  
-    * En el campo Turno, puede especificar la diferencia total máxima dentro de un turno en un extracto.  
-    * En el campo Transacción, puede especificar la diferencia total máxima en una línea de extracto.  
-    * En el campo Método de cierre, puede definir si las transacciones que se incluirán en un extracto deben parte de un turno cerrado o si puede haber algunas transacciones dentro del intervalo definido de fecha o hora.  
-    * En el campo Final del día laboral, puede especificar una hora si las transacciones que se producen después de medianoche se deben registrar con el día anterior.  
-    * Seleccione "Sí" si las transacciones que se producen después de medianoche se deben registrar como parte del día anterior.  
-    * Seleccione "Sí" para que se creen extractos para cada método de extracto definido. Esto puede resultar útil si el rendimiento del registro se debe mejorar para almacenes con volúmenes altos de transacción puesto que creará muchos extractos más pequeños que se pueden procesar en paralelo.  
-    * En el campo Cliente predeterminado, puede seleccionar la cuenta de cliente que se usará para ventas a los clientes que entran.  
+4. Haga clic en **Editar**.
+5. La configuración de la ficha desplegable **Extracto/cierre** afecta a la creación, la validación y al registro de extractos para el almacén. Expanda la ficha desplegable **Extracto/cierre**.  
+6. En el campo **Método de extracto**, seleccione el método que desea usar para agrupar las líneas de extracto.  
+7. Seleccione "Sí" en **Un extracto al día** si solo se debería crear un extracto al día al crear extractos del trabajo por lotes de la creación de extractos.  
+8. El campo **Cálculo de declaración por forma de pago** define si las declaraciones por forma de pago se deben agregar juntas o si se debe usar la última.  
+9. En el campo **Redondeo**, seleccione la cuenta contable en la que registrar diferencias de redondeo.  
+10. En el campo **Diferencia de redondeo máxima**, especifique la diferencia de redondeo máxima permitida.
+11. En el campo **Registro**, introduzca la diferencia de registro total máxima permitida para un extracto.
+12. En el campo **Turno**, especifique la diferencia total máxima dentro de un turno en un extracto.  
+13. En el campo **Transacción**, introduzca la diferencia total máxima en una línea de extracto.  
+14. En el campo **Método de cierre**, defina si las transacciones que se incluirán en un extracto deben parte de un turno cerrado o si puede haber algunas transacciones dentro del intervalo definido de fecha o hora.  
+15. En el campo **Final del día laboral**, especifique una hora si las transacciones que se producen después de medianoche se deben registrar con el día anterior.  
+16. Seleccione "Sí" en **Registrar como día laboral** si las transacciones que se producen después de medianoche se deben registrar como parte del día anterior.  
+17. Seleccione "Sí" en **Dividir por método de extracto** para que se creen extractos para cada método de extracto definido. Esto puede resultar útil si el rendimiento del registro se debe mejorar para almacenes con volúmenes altos de transacción puesto que creará muchos extractos más pequeños que se pueden procesar en paralelo.  
+18. En la ficha desplegable **General**, en el campo **Cliente predeterminado**, puede seleccionar la cuenta de cliente que se usará para ventas a los clientes que entran.  
 

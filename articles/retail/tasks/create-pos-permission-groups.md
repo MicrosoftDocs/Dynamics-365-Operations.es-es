@@ -1,9 +1,9 @@
 ---
-title: Creación de grupos de permisos de PDV
-description: Este procedimiento mostrará cómo crear un grupo de permisos de PDV.
+title: Crear grupos de permisos de PDV
+description: Este tema explica cómo crear un grupo de permisos de PDV.
 author: scott-tucker
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,41 +17,34 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1b30c9a1d7fe4598695423ba700ebc88a794a49c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4e6782c60aa659523775cc6c4eb1694430a4bf4f
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1566373"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914840"
 ---
-# <a name="create-pos-permission-groups"></a>Creación de grupos de permisos de PDV
+# <a name="create-pos-permission-groups"></a>Crear grupos de permisos de PDV
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-Este procedimiento mostrará cómo crear un grupo de permisos de PDV. La empresa de datos de prueba utilizada para crear esta tarea es USRT. Esta tarea está pensada para el rol de encargado de operaciones comerciales.
+Este tema explica cómo crear un grupo de permisos de PDV. La empresa de datos de prueba utilizada para crear esta tarea es USRT. Esta tarea está pensada para el rol de encargado de operaciones comerciales.
 
-1. Vaya a Grupos de permisos.
-2. Haga clic en Nuevo.
-3. En el campo Id. de grupo de permisos de PDV, escriba un valor.
-4. En el campo Descripción, escriba un valor.
-5. Seleccione Sí en el campo Ver entradas de reloj de tiempo.
-    * Ahora puede habilitar o deshabilitar varios permisos para el grupo de permisos de PDV. Para algún permiso puede establecer un valor que se usará para evaluar si el usuario del PDV puede realizar la acción.  Esta guía de tareas permite algunos permisos que se pueden dar a un cajero.  
-6. Seleccione Sí en el campo Permitir creación de pedidos.
-7. Seleccione Sí en el campo Permitir edición de pedidos.
-8. Seleccione Sí en el campo Permitir recuperación de pedidos.
-9. Seleccione Sí en el campo Permitir cambio de contraseña.
-10. Seleccione Sí en el campo Permitir cierre en ciego.
-11. Haga clic en Guardar.
-    * Una vez se guarden los cambios necesita ejecutar la programación de distribución del personal para aplicar los cambios en canales comerciales.  
-12. Cierre la página.
-13. Vaya a Trabajos.
-    * A continuación asignaremos el grupo de permisos de PDV a un trabajo.  
-14. En la lista, busque y seleccione el registro deseado.
-15. En la lista, haga clic en el vínculo de la fila seleccionada.
-16. Haga clic en Editar.
-17. Expanda la sección Clasificación de trabajos.
-18. En el campo Grupo de permisos de PDV, especifique o seleccione un valor.
-    * Todos los trabajadores de puestos para este trabajo usarán los parámetros de este grupo de permisos de PDV a menos que los permisos de PDV de los trabajadores se hayan anulada en su nivel del puesto.  
-19. Haga clic en Guardar.
-    * Una vez se guarden los cambios necesita ejecutar la programación de distribución del personal para aplicar los cambios en canales comerciales.  
+1. En el panel de exploración, vaya a **Módulos > Venta minorista > Empleados > Grupos de permisos**.
+2. Seleccione **Nuevo**.
+3. En el campo **Id. de grupo de permisos de PDV**, escriba un valor.
+4. En el campo **Descripción**, escriba un valor.
+5. Seleccione **Sí** en el campo **Ver entradas de reloj de tiempo**. Ahora puede habilitar o deshabilitar varios permisos para el grupo de permisos de PDV. Para algún permiso puede establecer un valor que se usará para evaluar si el usuario del PDV puede realizar la acción. Esta guía de tareas permite algunos permisos que se pueden dar a un cajero.  
+6. Seleccione **Sí** en el campo **Permitir creación de pedidos**.
+7. Seleccione **Sí** en el campo **Permitir edición de pedidos**.
+8. Seleccione **Sí** en el campo **Permitir recuperación de pedidos**.
+9. Seleccione **Sí** en el campo **Permitir cambio de contraseña**.
+10. Seleccione **Sí** en el campo **Permitir cierre en ciego**.
+11. Seleccione **Guardar**. Una vez se guarden los cambios necesita ejecutar la programación de distribución del personal para aplicar los cambios en canales comerciales. 
+12. En el Panel de exploración, vaya a **Módulos > Recursos humanos > Trabajos > Trabajos**.
+13. A continuación asignaremos el grupo de permisos de PDV a un trabajo. En la lista, busque y seleccione el registro deseado.
+14. Seleccione **Editar**.
+15. Expanda la sección **Clasificación de trabajos**.
+16. En el campo Grupo de permisos de PDV, especifique o seleccione un valor. Todos los trabajadores de puestos para este trabajo usarán los parámetros de este grupo de permisos de PDV a menos que los permisos de PDV de los trabajadores se hayan anulada en su nivel del puesto.  
+17. Seleccione **Guardar**. Una vez se guarden los cambios necesita ejecutar la programación de distribución del personal para aplicar los cambios en canales comerciales.  
 

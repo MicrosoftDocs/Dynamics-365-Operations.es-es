@@ -1,9 +1,9 @@
 ---
 title: Crear una plantilla de registro para facilitar la entrada de datos
-description: Este procedimiento demuestra la creación de plantillas de registro para no tener que especificar los valores de campo que se utilizan a menudo explícitamente para cada registro nuevo.
+description: Este tema demuestra la creación de plantillas de registro para no tener que especificar los valores de campo que se utilizan a menudo explícitamente para cada registro nuevo.
 author: margoc
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,37 +16,31 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3b2ba56b6146f2495fb6a53c3cef9f549b1ad837
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: 08ee7d0f0ce7e92eaa85137dcd2761bfd702eb8c
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1848216"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1866937"
 ---
 # <a name="create-a-record-template-to-facilitate-data-entry"></a>Crear una plantilla de registro para facilitar la entrada de datos
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimiento demuestra la creación de plantillas de registro para no tener que especificar los valores de campo que se utilizan a menudo explícitamente para cada registro nuevo. En este procedimiento, usted creará un registro nuevo para los nuevos portátiles que deberán agregarse a sus activos fijos. Este procedimiento usa la empresa de muestra USMF.
+Este tema demuestra la creación de plantillas de registro para no tener que especificar los valores de campo que se utilizan a menudo explícitamente para cada registro nuevo. En este procedimiento, usted creará un registro nuevo para los nuevos portátiles que deberán agregarse a sus activos fijos. Este procedimiento usa la empresa de muestra USMF.
 
-1. Vaya a Activos fijos > Activos fijos > Activos fijos.
-2. Haga clic en Nuevo.
-3. En el campo Grupo de activos fijos, escriba o seleccione un valor.
-4. En el campo Nombre, escriba un valor.
-    * Por ejemplo, especifique “Portátil corporativo del cliente potencial”.  
-5. En el campo Nombre de búsqueda, introduzca un valor.
-    * Por ejemplo, especifique "portátil".  
-6. Expanda la sección Información técnica.
-7. En el campo Fabricación, introduzca un valor.
-8. En el campo Modelo, introduzca un valor.
-9. En el campo Año del modelo, introduzca un valor.
-10. En el panel de acciones, haga clic en Opciones.
-11. Haga clic en Información de registro.
-12. Haga clic en Plantilla de usuario.
-13. En el campo Nombre, escriba un valor.
-    * Por ejemplo, especifique “Portátil corporativo”.  
-14. En el campo Descripción, escriba un valor.
-    * Por ejemplo, especifique “Portátil corporativo”.  
-15. Haga clic en Aceptar
-16. Haga clic en Cerrar.
+1. En el panel de exploración, vaya a **Módulos > activos fijos > activos fijos > activos fijos**.
+2. Seleccione **Nuevo**.
+3. En el campo **Grupo de activos fijos**, escriba o seleccione un valor.
+4. En el campo **Nombre**, escriba un valor. Por ejemplo, especifique **Portátil corporativo del cliente potencial**.  
+5. En el campo **Nombre de búsqueda**, introduzca un valor. Por ejemplo, especifique **portátil**.  
+6. Expanda la sección **Información técnica**.
+7. Especifique valores en los campos **Marca**, **Modelo** y **Año de modelo**.
+8. En el panel de acciones, seleccione **Opciones**.
+9. Seleccione **Información de registro**.
+10. Seleccionar **Plantilla de usuario**.
+11. En el campo **Nombre**, escriba un valor.
+12. En el campo **Descripción**, escriba un valor.
+13. Seleccione **Aceptar**.
+14. Seleccione **Cerrar**.
 

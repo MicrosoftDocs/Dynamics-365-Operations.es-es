@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6587505fc5a729ffd82ab65aca7d5aa6ca4a265
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: db9208c8e76d963d5b8f6bee6b7c73268af68734
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1837261"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867759"
 ---
 # <a name="reverse-a-vendor-payment"></a>Inversión de un pago de proveedor
 
@@ -48,7 +48,7 @@ Para saber qué método usa la organización, vea la página **Parámetros de ge
 Si su organización desea registrar las inversiones de cheques inmediatamente al hacer clic en **Inversión del pago** en la página **Cheques**. En la página **Parámetros de gestión de efectivo y bancos** establezca la opción **Usar proceso de revisión para inversiones de pago** en **No**. En la página **Cheques**, puede seleccionar el cheque para invertir y seleccionar **Inversión del pago**. Después puede indicar la fecha y seleccionar un motivo para la inversión.
 
 ## <a name="reverse-posted-checks-after-they-are-reviewed-in-the-check-reversal-journal"></a>Invertir los cheques registrados después de revisarlos en el diario de inversiones de cheques
-Si su organización desea revisar las inversiones de cheques antes de registrarlas, cree un diario de inversiones de cheques para su revisión y, en la página **Parámetros de gestión de efectivo y bancos**, establezca la opción **Usar proceso de revisión para inversiones de pago** en **Sí**. En la página **Cheques**, puede seleccionar el cheque para invertir y seleccionar **Inversión del pago**. Después puede indicar la fecha y seleccionar un motivo para la inversión. También debe seleccionar un nombre de diario para crear un diario en el diario de inversión de cheques.
+Si su organización desea revisar las inversiones de cheques antes de registrarlas, cree un diario de inversiones de cheques para su revisión y, en la página **Parámetros de gestión de efectivo y bancos**, establezca la opción **Usar proceso de revisión para inversiones de pago** en **Sí**. En la página **Cheques**, puede seleccionar el cheque para invertir y seleccionar **Inversión del pago**. Después puede indicar la fecha y seleccionar un motivo para la inversión. El motivo financiero se debe configurar para los tipos Banco y Proveedor. También debe seleccionar un nombre de diario para crear un diario en el diario de inversión de cheques.
 
 ### <a name="review-a-reversal"></a>Revisar una inversión
 
