@@ -1,9 +1,9 @@
 ---
 title: Generar un plan con restricciones
-description: Este procedimiento muestra cómo crear un plan que tenga en cuenta las restricciones de materiales y de capacidad.
+description: Este tema explica cómo crear un plan que tenga en cuenta las restricciones de materiales y de capacidad.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,47 +16,40 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 72cddd58b7068e08cddf24df83da8da2f7af7168
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 6b5d37de41fe68845cec3f2285aed2484ac117aa
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845320"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867182"
 ---
-# <a name="generate-a-constrained-plan"></a><span data-ttu-id="1254c-103">Generar un plan con restricciones</span><span class="sxs-lookup"><span data-stu-id="1254c-103">Generate a constrained plan</span></span>
+# <a name="generate-a-constrained-plan"></a><span data-ttu-id="f416c-103">Generar un plan con restricciones</span><span class="sxs-lookup"><span data-stu-id="f416c-103">Generate a constrained plan</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="1254c-104">Este procedimiento muestra cómo crear un plan que tenga en cuenta las restricciones de materiales y de capacidad.</span><span class="sxs-lookup"><span data-stu-id="1254c-104">This procedure shows how to create a plan that takes into account both material and capacity constraints.</span></span> <span data-ttu-id="1254c-105">El plan garantiza que la fabricación no comience antes de que los materiales estén disponibles y que no se reserven recursos en exceso.</span><span class="sxs-lookup"><span data-stu-id="1254c-105">The plan ensures that manufacturing doesn't start before materials are available and resources are not overbooked.</span></span> 
+<span data-ttu-id="f416c-104">Este tema explica cómo crear un plan que tenga en cuenta las restricciones de materiales y de capacidad.</span><span class="sxs-lookup"><span data-stu-id="f416c-104">This topic explains how to create a plan that takes into account both material and capacity constraints.</span></span> <span data-ttu-id="f416c-105">El plan garantiza que la fabricación no comience antes de que los materiales estén disponibles y que no se reserven recursos en exceso.</span><span class="sxs-lookup"><span data-stu-id="f416c-105">The plan ensures that manufacturing doesn't start before materials are available and resources are not overbooked.</span></span> 
 
-<span data-ttu-id="1254c-106">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="1254c-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="1254c-107">Este procedimiento se va a utilizar para el planificador de producción.</span><span class="sxs-lookup"><span data-stu-id="1254c-107">This procedure is intended for the production planner.</span></span>
+<span data-ttu-id="f416c-106">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="f416c-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="f416c-107">Este procedimiento se va a utilizar para el planificador de producción.</span><span class="sxs-lookup"><span data-stu-id="f416c-107">This procedure is intended for the production planner.</span></span>
 
 
-## <a name="set-up-a-constrained-plan"></a><span data-ttu-id="1254c-108">Configurar un plan restringido</span><span class="sxs-lookup"><span data-stu-id="1254c-108">Set up a constrained plan</span></span>
-1. <span data-ttu-id="1254c-109">Haga clic en Planificación maestra.</span><span class="sxs-lookup"><span data-stu-id="1254c-109">Click Master planning.</span></span>
-2. <span data-ttu-id="1254c-110">Haga clic en Planes maestros.</span><span class="sxs-lookup"><span data-stu-id="1254c-110">Click Master plans.</span></span>
-3. <span data-ttu-id="1254c-111">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="1254c-111">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="1254c-112">Ejemplo: StaticPlan</span><span class="sxs-lookup"><span data-stu-id="1254c-112">Example: StaticPlan</span></span>  
-4. <span data-ttu-id="1254c-113">Seleccione Sí en el campo Capacidad limitada.</span><span class="sxs-lookup"><span data-stu-id="1254c-113">Select Yes in the Finite capacity field.</span></span>
-5. <span data-ttu-id="1254c-114">En el campo Límite de tiempo de capacidad finita, indique "30".</span><span class="sxs-lookup"><span data-stu-id="1254c-114">In the Finite capacity time fence field, enter '30'.</span></span>
-6. <span data-ttu-id="1254c-115">Expanda la sección Límites de tiempo en días.</span><span class="sxs-lookup"><span data-stu-id="1254c-115">Expand the Time fences in days section.</span></span>
-7. <span data-ttu-id="1254c-116">Seleccione Sí en el campo Capacidad.</span><span class="sxs-lookup"><span data-stu-id="1254c-116">Select Yes in the Capacity field.</span></span>
-8. <span data-ttu-id="1254c-117">En el campo Límite de tiempo de programación de capacidad (días), escriba un número.</span><span class="sxs-lookup"><span data-stu-id="1254c-117">In the Capacity scheduling time fence (days) field, enter a number.</span></span>
-    * <span data-ttu-id="1254c-118">Ejemplo: 60</span><span class="sxs-lookup"><span data-stu-id="1254c-118">Example: 60</span></span>  
-9. <span data-ttu-id="1254c-119">Seleccione Sí en el campo Retrasos calculados.</span><span class="sxs-lookup"><span data-stu-id="1254c-119">Select Yes in the Calculated delays field.</span></span>
-10. <span data-ttu-id="1254c-120">En el campo Calcular límite de tiempo de retrasos (días), escriba un número.</span><span class="sxs-lookup"><span data-stu-id="1254c-120">In the Calculate delays time fence (days) field, enter a number.</span></span>
-    * <span data-ttu-id="1254c-121">Ejemplo: 60</span><span class="sxs-lookup"><span data-stu-id="1254c-121">Example: 60</span></span>  
-11. <span data-ttu-id="1254c-122">Expanda la sección Retrasos calculados.</span><span class="sxs-lookup"><span data-stu-id="1254c-122">Expand the Calculated delays section.</span></span>
-12. <span data-ttu-id="1254c-123">Seleccione Sí en el campo Agregar el retraso calculado a la fecha de requisito.</span><span class="sxs-lookup"><span data-stu-id="1254c-123">Select Yes in the Add the calculated delay to the requirement date field.</span></span>
-13. <span data-ttu-id="1254c-124">Seleccione Sí en el campo Agregar el retraso calculado a la fecha de requisito.</span><span class="sxs-lookup"><span data-stu-id="1254c-124">Select Yes in the Add the calculated delay to the requirement date field.</span></span>
-14. <span data-ttu-id="1254c-125">Seleccione Sí en el campo Agregar el retraso calculado a la fecha de requisito.</span><span class="sxs-lookup"><span data-stu-id="1254c-125">Select Yes in the Add the calculated delay to the requirement date field.</span></span>
-15. <span data-ttu-id="1254c-126">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="1254c-126">Close the page.</span></span>
+## <a name="set-up-a-constrained-plan"></a><span data-ttu-id="f416c-108">Configurar un plan restringido</span><span class="sxs-lookup"><span data-stu-id="f416c-108">Set up a constrained plan</span></span>
+1. <span data-ttu-id="f416c-109">En la página principal, seleccione el espacio trabajo **Planificación maestra**.</span><span class="sxs-lookup"><span data-stu-id="f416c-109">In the home page, select the **Master planning** workspace.</span></span>
+2. <span data-ttu-id="f416c-110">Seleccione **Planes maestros** en la lista de vínculos en el extremo derecho del área de trabajo.</span><span class="sxs-lookup"><span data-stu-id="f416c-110">Select **Master plans** in the list of links on the far right side of the workspace.</span></span>
+3. <span data-ttu-id="f416c-111">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="f416c-111">In the list, find and select the desired record.</span></span> <span data-ttu-id="f416c-112">Ejemplo: **StaticPlan**</span><span class="sxs-lookup"><span data-stu-id="f416c-112">Example: **StaticPlan**</span></span>  
+4. <span data-ttu-id="f416c-113">Seleccione **Sí** en el campo **Capacidad limitada**.</span><span class="sxs-lookup"><span data-stu-id="f416c-113">Select **Yes** in the **Finite capacity** field.</span></span>
+5. <span data-ttu-id="f416c-114">En el campo **Límite de tiempo de capacidad finita**, indique `30`.</span><span class="sxs-lookup"><span data-stu-id="f416c-114">In the **Finite capacity time fence** field, enter `30`.</span></span>
+6. <span data-ttu-id="f416c-115">Expanda la sección **Límites de tiempo en días**.</span><span class="sxs-lookup"><span data-stu-id="f416c-115">Expand the **Time fences in days** section.</span></span>
+7. <span data-ttu-id="f416c-116">Seleccione **Sí** en el campo **Capacidad**.</span><span class="sxs-lookup"><span data-stu-id="f416c-116">Select **Yes** in the **Capacity** field.</span></span>
+8. <span data-ttu-id="f416c-117">En el campo **Límite de tiempo de programación de capacidad (días)**, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="f416c-117">In the **Capacity scheduling time fence (days)** field, enter a number.</span></span> <span data-ttu-id="f416c-118">Ejemplo: `60`</span><span class="sxs-lookup"><span data-stu-id="f416c-118">Example: `60`</span></span>  
+9. <span data-ttu-id="f416c-119">Seleccione **Sí** en el campo **Retrasos calculados**.</span><span class="sxs-lookup"><span data-stu-id="f416c-119">Select **Yes** in the **Calculated delays** field.</span></span>
+10. <span data-ttu-id="f416c-120">En el campo **Calcular límite de tiempo de retrasos (días)**, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="f416c-120">In the **Calculate delays time fence (days)** field, enter a number.</span></span> <span data-ttu-id="f416c-121">Ejemplo: `60`</span><span class="sxs-lookup"><span data-stu-id="f416c-121">Example: `60`</span></span> 
+11. <span data-ttu-id="f416c-122">Expanda la sección **Retrasos calculados**.</span><span class="sxs-lookup"><span data-stu-id="f416c-122">Expand the **Calculated delays** section.</span></span>
+12. <span data-ttu-id="f416c-123">Seleccione **Sí** en todos los campos **Agregar el retraso calculado a la fecha de requisito**.</span><span class="sxs-lookup"><span data-stu-id="f416c-123">Select **Yes** in all **Add the calculated delay to the requirement date** fields.</span></span>
+13. <span data-ttu-id="f416c-124">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="f416c-124">Close the page.</span></span>
 
-## <a name="create-a-constrained-plan"></a><span data-ttu-id="1254c-127">Crear un plan restringido</span><span class="sxs-lookup"><span data-stu-id="1254c-127">Create a constrained plan</span></span>
-1. <span data-ttu-id="1254c-128">Haga clic en Ejecutar.</span><span class="sxs-lookup"><span data-stu-id="1254c-128">Click Run.</span></span>
-2. <span data-ttu-id="1254c-129">En el campo Plan maestro, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="1254c-129">In the Master plan field, enter or select a value.</span></span>
-    * <span data-ttu-id="1254c-130">Seleccione el plan para el que ha configurado las restricciones.</span><span class="sxs-lookup"><span data-stu-id="1254c-130">Select the plan for which you have set up constraints.</span></span>  
-3. <span data-ttu-id="1254c-131">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="1254c-131">Click OK.</span></span>
-    * <span data-ttu-id="1254c-132">Esto puede tardar unos minutos.</span><span class="sxs-lookup"><span data-stu-id="1254c-132">This may take a while.</span></span>  
-4. <span data-ttu-id="1254c-133">Haga clic en Pedidos planificados.</span><span class="sxs-lookup"><span data-stu-id="1254c-133">Click Planned orders.</span></span>
+## <a name="create-a-constrained-plan"></a><span data-ttu-id="f416c-125">Crear un plan restringido</span><span class="sxs-lookup"><span data-stu-id="f416c-125">Create a constrained plan</span></span>
+1. <span data-ttu-id="f416c-126">Seleccione **Ejecutar**.</span><span class="sxs-lookup"><span data-stu-id="f416c-126">Select **Run**.</span></span>
+2. <span data-ttu-id="f416c-127">En el campo **Plan maestro**, especifique o seleccione el plan para el que ha configurado restricciones.</span><span class="sxs-lookup"><span data-stu-id="f416c-127">In the **Master plan** field, enter or select the plan for which you have set up constraints.</span></span>  
+3. <span data-ttu-id="f416c-128">Seleccione **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="f416c-128">Select **OK**.</span></span>
+4. <span data-ttu-id="f416c-129">Seleccione **Pedidos planificados**.</span><span class="sxs-lookup"><span data-stu-id="f416c-129">Select **Planned orders**.</span></span>
 
