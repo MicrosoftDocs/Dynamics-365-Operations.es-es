@@ -1,9 +1,9 @@
 ---
-title: Configuración de proveedores
+title: Visión general de la configuración de proveedores
 description: Este artículo describe las páginas que usa para configurar la funcionalidad básica y opcional para Proveedores en Microsoft Dynamics 365 for Finance and Operations. También describen los pasos de configuración que debe completar antes de comenzar a configurar Proveedores.
 author: abruer
 manager: AnnBe
-ms.date: 08/08/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d8642b27f222ed080539e63b0608a52aefbe64e8
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: ce2caf8df871ee8f577b3a1af9d71244a1dc4694
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1837479"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864999"
 ---
-# <a name="configure-accounts-payable"></a>Configuración de proveedores
+# <a name="configure-accounts-payable-overview"></a>Visión general de la configuración de proveedores
 
 [!include [banner](../includes/banner.md)]
 

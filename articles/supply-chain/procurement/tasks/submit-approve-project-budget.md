@@ -3,7 +3,7 @@ title: Enviar y aprobar un presupuesto de proyecto
 description: Este procedimiento muestra cómo crear y mostrar el presupuesto para un proyecto.
 author: mkirknel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/13/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ffa7b4f23e63196947fef1b2180145702531e0a6
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 798bbc68e625c58d56cdd769f48ba734ace1d028
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843922"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914870"
 ---
 # <a name="submit-and-approve-project-budget"></a>Enviar y aprobar un presupuesto de proyecto
 
@@ -34,26 +34,26 @@ Cuando usted crea un presupuesto de proyecto, puede especificar los ingresos y l
 
 Esta tarea se creó con el conjunto de datos de demostración USSI.
 
-1. Vaya a Gestión de proyectos y contabilidad > Proyectos > Todos los proyectos.
+1. En el **Panel de navegación**, vaya a **Módulos > Gestión y contabilidad de proyectos > Proyectos > Todos los proyectos**.
 2. En la lista, busque y seleccione el registro deseado.
 3. En la lista, haga clic en el vínculo de la fila seleccionada.
-4. En el panel de acciones, haga clic en Plan.
-5. Haga clic en Presupuesto del proyecto.
-6. En el campo Descripción, escriba un valor.
-7. Expandir la sección Costes
-8. Haga clic en Nuevo.
-9. En el campo de tipo de Transacción, seleccione una opción.
-10. En el campo Categoría, especifique o seleccione un valor.
-11. En el campo de presupuesto Original, especifique un número.
-12. Expanda la sección Ingresos.
-13. Haga clic en Nuevo.
+4. En el **panel de acciones**, haga clic en **Plan**.
+5. Haga clic en **Presupuesto del proyecto**.
+6. En el campo **Descripción**, escriba un valor.
+7. Expanda la ficha desplegable **Coste**.
+8. Haga clic en **Nuevo**.
+9. En el campo **Tipo de Transacción**, seleccione una opción.
+10. En el campo **Categoría**, especifique o seleccione un valor.
+11. En el campo **Presupuesto original**, introduzca un número.
+12. Expanda la ficha desplegable **Ingresos**.
+13. Haga clic en **Nuevo**.
 14. En la lista, marque la fila seleccionada.
-15. En el campo de tipo de Transacción, seleccione una opción.
-16. En el campo Categoría, especifique o seleccione un valor.
-17. En el campo de presupuesto Original, especifique un número.
-18. Haga clic en Guardar.
-19. Haga clic en Flujo de trabajo.
-20. Haga clic en Enviar.
-21. En el campo Comentario, escriba un valor.
-22. Haga clic en Enviar.
+15. En el campo **Tipo de Transacción**, seleccione una opción.
+16. En el campo **Categoría**, especifique o seleccione un valor.
+17. En el campo **Presupuesto original**, introduzca un número.
+18. Haga clic en **Guardar**.
+19. Haga clic en **Flujo de trabajo**.
+20. Haga clic en **Enviar**.
+21. En el campo **Comentario**, escriba un valor.
+22. Haga clic en **Enviar**.
 

@@ -3,7 +3,7 @@ title: Divisa dual
 description: Este tema proporciona información sobre la divisa dual, donde la divisa de notificación se usa como segunda divisa de contabilidad para Microsoft Dynamics 365 for Finance and Operations.
 author: kweekley
 manager: AnnBe
-ms.date: 05/06/2019
+ms.date: 08/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,20 +16,31 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: dfd4c116552510ee42cd2f3e8a0f31100826b9d2
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 6d5128ea9daaf22ee962ca5fc70a05cba05c7edb
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1839414"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867520"
 ---
 # <a name="dual-currency"></a>Divisa dual
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 La funcionalidad que se introdujo en Microsoft Dynamics 365 for Finance and Operations versión 8.1 (octubre de 2018) habilita el cambio de propósito de la divisa de notificación y su uso como segunda divisa de contabilidad. Esta función se denomina *divisa dual*. Los cambios de la divisa dual no se pueden desactivar con una clave de configuración o un parámetro. Dado que la divisa de notificación se usa como segunda divisa de contabilidad, la manera en que la divisa de notificación se calcula en la lógica del registro ha cambiado.
 
-Además, diferentes módulos se han mejorado para seguir, informar y usar la divisa de notificación en varios procesos. Los módulos afectados son **Contabilidad general**, **Informes financieros**, **Proveedores**, **Clientes**, **Gestión de efectivo y bancos** y **Activos fijos**. Tras realizar una actualización, debe completar pasos específicos para Gestión de efectivo y bancos, y Activos fijos. Por lo tanto, asegúrese de leer las secciones relevantes de este tema con cuidado.
+Además, diferentes módulos se han mejorado para seguir, informar y usar la divisa de notificación en varios procesos. Los módulos implicados incluyen:
+
+- Contabilidad general 
+- Informes financieros 
+- Proveedores
+- Clientes 
+- Gestión de efectivo y bancos 
+- Activos fijos 
+- Consolidaciones
+
+Tras realizar una actualización, debe completar pasos específicos para Gestión de efectivo y bancos, y Activos fijos. Por lo tanto, asegúrese de leer y comprender las secciones relevantes de este tema.
 
 ## <a name="posting-process"></a>Proceso de registro
 
@@ -75,6 +86,7 @@ Los módulos siguientes utilizan la divisa de notificación como segunda divisa 
 - [Clientes](#accounts-payable-and-accounts-receivable)
 - [Gestión de efectivo y bancos](#cash-and-bank-management)
 - [Activos fijos](#fixed-assets)
+- [Consolidaciones](#consolidations)
 
 ### <a name="general-ledger"></a>Contabilidad general
 
@@ -124,6 +136,8 @@ Anteriormente, el módulo **Activos fijos** no realizaba el seguimiento de ning�
 Además, cambios importantes se han realizado en el proceso de depreciación. Estos cambios requieren la acción del usuario después de una actualización. Es importante que lea y comprenda los siguientes cambios, aunque no esté aún usando activos fijos.
 
 - La forma en que el proceso de depreciación determina el importe de la divisa de notificación ha cambiado. El escenario siguiente compara cómo la depreciación determinaba anteriormente el importe de la divisa de notificación y cómo ahora determina el importe de la divisa de notificación.
+
+
 
     **Supuesto de depreciación**
 
@@ -186,3 +200,13 @@ Además, cambios importantes se han realizado en el proceso de depreciación. Es
     - Si se especifica un tipo de transacción de la deprecación en el diario de activos fijos, los importes de la divisa de notificación aparecerán en las nuevas columnas. Estos importes se pueden modificar.
     - Si la divisa de contabilidad y las divisas de notificación en el libro mayor son las mismas, los importes se mantendrán sincronizados. Si cambia el importe de **Crédito**, el importe de **Crédito en divisa de notificación** será automáticamente cambiado de modo que coincida con él.
     - Si especifica cualquier otro tipo de transacción en el diario de activos fijos, los importes **Débito en divisa de notificación** y **Crédito en divisa de notificación** nunca se muestran, ya sea antes o después del registro. Los importes de la divisa de contabilidad y la divisa de notificación siguen estando disponibles en el asiento que registra en la contabilidad general.
+    
+### <a name="consolidations"></a>Consolidaciones
+    
+La funcionalidad que se introducida en la versión 10.0.5 de Microsoft Dynamics 365 for Finance and Operations (octubre de 2019) habilita la funcionalidad a través de la administración de características para ampliar la flexibilidad para la consolidación y la divisa dual. Para habilitar esta funcionalidad, vaya al área de trabajo **Administración de características** y seleccione **Habilitar la funcionalidad de divisa dual en la consolidación de la contabilidad general**.
+
+En la consolidación de contabilidad general, se ha agregado una nueva opción para consolidar los importes de la divisa de contabilidad o notificación de las empresas de origen. Si la divisa de contabilidad o notificación es igual que la divisa de contabilidad o notificación en la empresa de consolidación, los importes se copiarán directamente en lugar de traducidos.
+
+-  Ahora puede elegir entre usar la divisa de contabilidad o de notificación de la empresa de origen como la divisa como la divisa de transacción en la empresa de consolidación.
+
+- Los importes de la divisa de contabilidad o de notificación de la empresa de origen se copiarán directamente en los importes de divisa de contabilidad o de notificación en la empresa de consolidación, si cualquiera de las divisas es la misma. Los importes de la divisa de contabilidad y de notificación en la empresa de consolidación se calculan mediante el tipo de cambio si ninguna de las divisas es la misma.

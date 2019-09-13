@@ -2,8 +2,8 @@
 title: Diseñador de fórmulas en los informes electrónicos (ER)
 description: Este tema explica cómo usar el diseñador de fórmula en Informes electrónicos (ER).
 author: NickSelin
-manager: AnnBe
-ms.date: 05/14/2014
+manager: kfend
+ms.date: 07/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 690dd1f83cb345d3dac67eef059ad890f03afb01
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: 1f6caa6afd0ce36340caf237c1acca0ea343824f
+ms.sourcegitcommit: 4ff8c2c2f3705d8045df66f2c4393253e05b49ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1849518"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864303"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Diseñador de fórmulas en los informes electrónicos (ER)
 
@@ -113,6 +113,33 @@ El diseñador de fórmulas de ER también se puede usar para generar un nombre d
 - Una expresión habilita (devolviendo **TRUE**) el proceso de creación de archivos para lotes que contengan al menos un registro.
 
 [![Control del archivo](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
+
+### <a name="documents-content-control"></a>Controlar el contenido de los documentos
+
+El diseñador de fórmulas de ER se puede usar para configurar expresiones que controlan qué datos se colocarán en los documentos electrónicos generados en el tiempo de ejecución. Las expresiones pueden habilitar o deshabilitar la salida de elementos específicos del formato, en función de datos de procesamiento y la lógica configurada. Esta expresión se puede especificar para un único elemento de formato en el campo **Habilitado** en la pestaña **Asignación** en la página **Diseñador de operaciones** como condición lógica que devuelve el valor **Booleano**:
+
+-   Cuando se devuelve **True**, se ejecuta el elemento de formato actual.
+-   Cuando se devuelve **False**, se omite el elemento de formato actual.
+
+La ilustración siguiente muestra expresiones de este tipo (versión **11.12.11** de la configuración de formato de **Transferencia de crédito ISO20022 (NO)** que Microsoft es un ejemplo). El componente de formato **XMLHeader** se configura para describir la estructura del mensaje de transferencia de crédito, siguiendo los estándares de mensaje ISO 20022. El componente de formato **XMLHeader/Document/CstmrCdtTrfInitn/PmtInf/CdtTrfTxInf/RmtInf/Ustrd** se configura para agregarse al mensaje generado, el elemento XML **Ustrd** y colocar la información del remitente en un formato sin estructura como texto de los siguientes elementos XML:
+
+-   El componente **PaymentNotes** se usa para generar el texto de notas de pago.
+-   El componente **DelimitedSequence** genera números de factura separados por coma que se utilizan para liquidar la transferencia de crédito actual.
+
+[![Diseñador de operaciones](./media/GER-FormulaEditor-ControlContent-1.png)](./media/GER-FormulaEditor-ControlContent-1.png)
+
+> [!NOTE]
+> Los componentes **PaymentNotes** y **DelimitedSequence** se etiquetan con un signo de interrogación. Esto significa que el uso de los componentes es condicional, en función de los criterios siguientes:
+
+-   Definida para el componente **PaymentNote**, la expresión **@.PaymentsNotes<>""** habilita (cuando devuelve **TRUE**) la capacidad de rellenar el elemento XML **Ustrd**, el texto de las notas de pago cuando este texto para la transferencia de crédito actual no está vacía.
+
+[![Diseñador de operaciones](./media/GER-FormulaEditor-ControlContent-2.png)](./media/GER-FormulaEditor-ControlContent-2.png)
+
+-   Definida para el componente **DelimitedSequence**, la expresión **@.PaymentsNotes=""** habilita (cuando devuelve **TRUE**) la capacidad de rellenar el elemento XML **Ustrd**, números de factura separados por coma que se utilizan para liquidar la transferencia de crédito actual cuando el texto de las notas de pago para esta transferencia de crédito está vacía.
+
+[![Diseñador de operaciones](./media/GER-FormulaEditor-ControlContent-3.png)](./media/GER-FormulaEditor-ControlContent-3.png)
+
+En base a este valor, el mensaje generado para cada pago del deudor, elemento XML **Ustrd**, contendrá el texto de las notas de pago o, cuando este texto está vacío, números de factura separados por comas que se usan para liquidar este pago.
 
 ### <a name="basic-syntax"></a>Sintaxis básica
 
@@ -457,7 +484,7 @@ IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)
 | NOT (condición) | Devuelve el valor lógico invertido de la condición determinada. | **NOT (TRUE)** devuelve **FALSE**. |
 | AND (condición 1\[, condición 2, …\]) | Devolver **TRUE** si *todas* las condiciones especificadas son verdaderas. En caso contrario, devuelva **FALSE**. | **AND (1=1, "a"="a")** devuelve **TRUE**. **AND (1=2, "a"="a")** devuelve **FALSE**. |
 | OR (condición 1\[, condición 2, …\]) | Devolver **FALSE** si *todas* las condiciones especificadas son falsa. Devolver **TRUE** si *cualquier* condición especificada es verdadera. | **OR (1=2, "a"="a")** devuelve **TRUE**. |
-| VALUEIN (entrada, lista, expresión del elemento de lista) | Determine si la entrada especificada coincide con algún valor de un elemento de la lista especificada. Devuelve **TRUE** si la entrada especificada coincide con el resultado de la ejecución de la expresión especificada para un registro como mínimo. En caso contrario, devuelva **FALSE**. El parámetro **input** representa la ruta de un elemento de origen de datos. El valor de este artículo se conciliará. El parámetro **list** representa la ruta de un elemento de origen de datos de tipo lista de registro como lista de registros que contiene una expresión. El valor de este elemento se comparará con la entrada especificada. El argumento **list item expression** representa una expresión que señala o contiene un único campo de la lista especificada que se debe usar para la asignación. | Para ver ejemplos, consulte la sección [Ejemplos: VALUEIN (entrada, lista, expresión del elemento de lista)](#examples-valuein-input-list-list-item-expression) que se incluye a continuación. |
+| VALUEIN (entrada, lista, expresión del elemento de lista) | Determine si la entrada especificada coincide con algún valor de un elemento de la lista especificada. Devuelve **TRUE** si la entrada especificada coincide con el resultado de la ejecución de la expresión especificada para un registro como mínimo. En caso contrario, devuelva **FALSE**. El parámetro **input** representa la ruta de un elemento de origen de datos. El valor de este artículo se conciliará. El parámetro **list** representa la ruta de un elemento de origen de datos de tipo lista de registro como lista de registros que contiene una expresión. El valor de este elemento se comparará con la entrada especificada. El argumento **expresión del elemento de lista** representa una expresión que señala o contiene un único campo de la lista especificada que se debe usar para la asignación. | Para ver ejemplos, consulte la sección [Ejemplos: VALUEIN (entrada, lista, expresión del elemento de lista)](#examples-valuein-input-list-list-item-expression) que se incluye a continuación. |
 
 #### <a name="examples-valuein-input-list-list-item-expression"></a>Ejemplos: VALUEIN (entrada, lista, expresión del elemento de lista)
 En general, la función **VALUEIN** se convierte a un conjunto de condiciones **O** :

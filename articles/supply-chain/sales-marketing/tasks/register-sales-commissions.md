@@ -1,9 +1,9 @@
 ---
 title: Registrar comisiones de ventas
-description: Este procedimiento le muestra cómo se calculan y registran las comisiones de ventas.
+description: En este tema se explica cómo se calculan y registran las comisiones de ventas.
 author: omulvad
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/06/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,61 +16,58 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4c0e63923d0cb9a4a2c2bed87cfb72edfb0d2741
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: db27255c74c55b10680594ad23424253e4c3f79e
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1833915"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867062"
 ---
 # <a name="register-sales-commissions"></a>Registrar comisiones de ventas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimiento le muestra cómo se calculan y registran las comisiones de ventas. Puede ejecutar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos. Antes de comenzar este guía, ejecute la guía llamada "Configurar reglas de comisión de ventas" para asegurarse de que tiene toda la configuración necesaria del cálculo de comisiones.
+En este tema se explica cómo se calculan y registran las comisiones de ventas. Puede ejecutar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos. Antes de comenzar este guía, ejecute la guía llamada "Configurar reglas de comisión de ventas" para asegurarse de que tiene toda la configuración necesaria del cálculo de comisiones.
 
 Anote los códigos de artículo y de cliente que ha elegido para el proceso de la comisión y úselos cuando se le solicite que crea un pedido de ventas en esta guía.
 
 
 ## <a name="invoice-a-sales-order-that-qualifies-a-salesperson-for-a-commission"></a>Facturar un pedido de ventas que califica a un vendedor para una comisión
-1. Vaya a Ventas y marketing > Pedidos de ventas > Todos los pedidos de ventas.
-2. Haga clic en Nuevo.
-3. En el campo Cuenta de cliente, haga clic en el botón desplegable para abrir la búsqueda.
-4. En la lista, busque y seleccione el registro deseado.
-5. En la lista, haga clic en el vínculo de la fila seleccionada.
-6. Haga clic en Aceptar
-7. En el panel de acciones, haga clic en Opciones.
-8. Haga clic en Cambiar vista.
-9. Haga clic en Visualización de encabezado.
-10. Expanda la sección Configuración.
-    * El valor del campo Grupo de ventas representa un grupo con uno o varios representantes de ventas asignados. Las personas del grupo son las que recibirán comisiones cuando se facture el pedido, según las cuotas y distribución predefinidas.   El valor se copia de la Tarjeta de cliente, pero puede cambiarlo si lo desea.  El grupo de ventas también se copia en la línea de pedido de ventas. Puede cambiarlo de modo que pueda ser diferente del que se encuentra en el encabezado y/o entre las líneas.  
-    * El valor del campo Grupo de comisión representa un grupo que ha creado para uno o más clientes con el propósito de realizar el seguimiento de las comisiones.   El valor se copia de la Tarjeta de cliente, pero puede cambiarlo si lo desea.   
-11. En el panel de acciones, haga clic en Opciones.
-12. Haga clic en Cambiar vista.
-13. Haga clic en Vista de líneas.
-14. En el campo Código de artículo, haga clic en el botón desplegable para abrir la búsqueda.
-15. En la lista, seleccione el artículo que se ha configurado para las comisiones. 
-16. En el campo Cantidad, especifique un número.
-    * Anote el importe neto de la línea. Representa el ingreso de ventas, que en este ejemplo es la base para el cálculo de la comisión.  
-17. Haga clic en Guardar.
-18. En el panel de acciones, haga clic en Factura.
-19. Haga clic en Factura.
-20. Expanda la sección Parámetros.
-21. En el campo Cantidad, seleccione 'Todo'.
-22. Seleccione Sí en el campo Registro.
-23. Haga clic en Aceptar
-24. Haga clic en Aceptar
-    * Se puede tardar un minuto aproximadamente en registrar la transacción. Deje que se complete el procesamiento y no cierre la página.  
+1. En el panel de navegación, vaya a **Módulos > > Ventas y marketing > Pedidos de ventas > Todos los pedidos de ventas**.
+2. Seleccione **Nuevo**.
+3. En el campo **Cuenta de cliente**, seleccione el registro deseado desde el menú desplegable.
+4. Seleccione **Aceptar**.
+5. En el panel de acciones, seleccione **Opciones**.
+6. Seleccione **Cambiar vista**.
+7. Seleccione **Visualización de encabezado**.
+8. Expanda la sección **Configuración**.
+
+    - El valor del campo **Grupo de ventas** representa un grupo con uno o varios representantes de ventas asignados. Las personas del grupo son las que recibirán comisiones cuando se facture el pedido, según las cuotas y distribución predefinidas.   
+    - El valor se copia de la Tarjeta de cliente, pero puede cambiarlo si lo desea.  
+    - El grupo de ventas también se copia en la línea de pedido de ventas. Puede cambiarlo de modo que pueda ser diferente del que se encuentra en el encabezado y/o entre las líneas.  
+    - El valor del campo **Grupo de comisión** representa un grupo que ha creado para uno o más clientes con el propósito de realizar el seguimiento de las comisiones.   
+    - El valor se copia de la Tarjeta de cliente, pero puede cambiarlo si lo desea.   
+
+9. En el panel de acciones, seleccione **Opciones**.
+10. Seleccione **Cambiar vista**.
+11. Seleccione **Vista de líneas**.
+12. En el menú desplegable del campo **Código de artículo**, seleccione el artículo que haya configurado para las comisiones. 
+13. En el campo **Cantidad**, especifique un número. Anote el importe neto de la línea. Representa el ingreso de ventas, que en este ejemplo es la base para el cálculo de la comisión.  
+14. Seleccione **Guardar**.
+15. En el Panel de acciones, seleccione **Factura**.
+16. Seleccionar **Facturas**.
+17. Expanda la sección **Parámetros**.
+18. En el campo **Cantidad**, seleccione **Todo**.
+19. Seleccione **Sí** en el campo **Registro**.
+20. Seleccione **Aceptar** y, a continuación, seleccione **Aceptar** en el panel siguiente. Se puede tardar un minuto aproximadamente en registrar la transacción. Deje que se complete el procesamiento y no cierre la página.  
 
 ## <a name="review-the-registered-sales-commissions"></a>Revise las comisiones de ventas registradas
-1. En el panel de acciones, haga clic en Factura.
-2. Haga clic en Factura.
-3. En el panel de acciones, haga clic en Factura.
-4. Haga clic en Transacciones de comisión.
-    * La ficha Visión general muestra líneas que representan los importes de la comisión que se deben pagar a los representantes de ventas asociados al pedido de ventas facturado. Revisemos la información.     
-    * Si ha usado la guía "Configurar reglas de comisión de ventas" para configurar el Grupo de ventas de la comisión, hay dos vendedores que recibirán una comisión de ventas y la comisión se dividirá de manera igualitaria entre ellos.  
-    * En este ejemplo, se calcula el importe total de la comisión como porcentaje de los ingresos de ventas (el importe neto de la línea de pedido).   
-5. Cierre la página.
-6. Haga clic en Asiento.
-    * Puede revisar las transacciones de asiento para los importes de comisión que se han registrado en el gasto de la comisión predefinido y las cuentas de proveedores de la comisión.  
+1. En el panel de acciones, seleccione **Factura** y, a continuación, vuelva a seleccionar **Factura**.
+2. En el panel de acciones, seleccione **Factura** y, a continuación, seleccione **Transacciones de comisión**.
+
+    - La pestaña **Visión general** muestra líneas que representan los importes de la comisión que se deben pagar a los representantes de ventas asociados al pedido de ventas facturado. Revisemos la información.  
+    - Si ha usado la guía "Configurar reglas de comisión de ventas" para configurar el Grupo de **ventas de la comisión**, hay dos vendedores que recibirán una comisión de ventas y la comisión se dividirá de manera igualitaria entre ellos.  
+    - En este ejemplo, se calcula el importe total de la comisión como porcentaje de los ingresos de ventas (el importe neto de la línea de pedido).  
+3. Cierre la página.
+4. Seleccione **Asiento**. Puede revisar las transacciones de asiento para los importes de comisión que se han registrado en el gasto de la comisión predefinido y las cuentas de proveedores de la comisión.  
 

@@ -3,7 +3,7 @@ title: Vista previa de Administración de características
 description: Este tema describe la función de Administración de características y cómo puede utilizarla.
 author: mikefalkner
 manager: AnnBe
-ms.date: 07/17/2019
+ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 21eaf2fdcadf8fe9f91438a97a88cc3bddab8286
-ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
+ms.openlocfilehash: 6aeb5383520f799223d62420f6e0c1079c6c961f
+ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1862947"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "1887120"
 ---
 # <a name="feature-management-overview"></a>Vista previa de Administración de características
 
@@ -103,8 +103,9 @@ Todas las funciones que se pueden habilitar se habilitarán. Si una característ
 
 De forma predeterminada todas las características que se añaden a su entorno se desactivan a menos que sean características obligatorias. Sin embargo, si se desea activar automáticamente todas las nuevas características, puede usar la lista desplegable bajo al título del espacio de trabajo para cambiar qué ocurre cuando se agregan las nuevas características.
 
-- Seleccione **Todas las nuevas características se habilitarán de forma predeterminada** para activar automáticamente todas las nuevas características cuando se añaden al entorno.
-- Seleccione **Todas las nuevas características se deshabilitarán de forma predeterminada** para desactivar automáticamente todas las nuevas características cuando se añaden al entorno.
+- Seleccione **Habilitar nuevas características automáticamente** para activar automáticamente todas las nuevas características cuando se añaden al entorno.
+- Seleccione **No habilitar nuevas características automáticamente** para que todas las nuevas características estén desactivadas de forma predeterminada cuando se añadan al entorno.
+
 
 Si habilita todas las características automáticamente, se habilitan todas las funciones que se habilitarían al hacer clic en el botón **Habilitar todo**. No se habilitarán las características que requieren confirmación o las características que no se pueden habilitar hasta que se tomen medidas.
 

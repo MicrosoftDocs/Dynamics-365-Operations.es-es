@@ -1,9 +1,9 @@
 ---
-title: Crear propuesta de depreciación
-description: En este procedimiento se describe cómo funcionan las propuestas de lote de depreciación y se explica cómo proponer la depreciación para los activos fijos.
+title: Crear una propuesta de depreciación
+description: En este tema se describe cómo funcionan las propuestas de lote de depreciación y se explica cómo proponer la depreciación para los activos fijos.
 author: abruer
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/01/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,34 +16,35 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 07146adfe1ead2b6e06e3c323963f8c012381b76
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 90c24e9d89c055ea95ca5f25cd85ef4042476a90
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1840010"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867616"
 ---
-# <a name="create-depreciation-proposal"></a>Crear propuesta de depreciación
+# <a name="create-a-depreciation-proposal"></a>Crear una propuesta de depreciación
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-En este procedimiento se describe cómo funcionan las propuestas de lote de depreciación y se explica cómo proponer la depreciación para los activos fijos. Esta tarea usa la empresa de prueba USMF y el rol de contable.
+En este tema se describe cómo funcionan las propuestas de lote de depreciación y se explica cómo proponer la depreciación para los activos fijos. Esta tarea usa la empresa de prueba USMF y el rol de contable.
 
 
-## <a name="create-depreciation-proposal"></a>Crear propuesta de depreciación
-1. Vaya a Activos fijos > Movimientos de diario > Crear propuesta de depreciación.
-2. En el campo Nombre de diario, haga clic en el botón desplegable para abrir la búsqueda.
-3. En la lista, haga clic en el vínculo de la fila seleccionada.
-4. Especifique una fecha en el campo Fecha final.
-    * Active la opción Resumir depreciación para resumir las depreciaciones mensuales en una línea de diario.  
-    * Por ejemplo, si el valor de fecha es el 31 de marzo de 2015, se genera la siguiente descripción: “Depreciación desde el 31 de enero de 2015”. El campo Fecha de las líneas de diario propuestas se establece entonces en 31 de marzo de 2015.  
-    * La propuesta de depreciación se puede filtrar por activo, grupo de activos u otros criterios mediante la opción Filtro.  
-    * Cuando usa el formulario Crear propuestas de adquisición o depreciación para activos fijos, puede proponer la depreciación en lotes. Esto se recomienda para propuestas más grandes que usarán más recursos del sistema. Si selecciona la opción de lote, puede completar otras tareas durante ese tiempo. Cuando se propone la depreciación de esta manera, la depreciación se calcula para los modelos de valor de activos fijos.  
-5. Haga clic en Crear diario.
+## <a name="create-a-depreciation-proposal"></a>Crear una propuesta de depreciación
+1. En el Panel de exploración, vaya a **Módulos > Activos fijos > Entradas del diario > Crear propuesta de depreciación**.
+2. En el campo **Nombre del diario**, seleccione una opción en el menú desplegable.
+3. En el campo **Fecha final**, especifique una fecha.
+
+    - Active la opción **Resumir depreciación** para resumir las depreciaciones mensuales en una línea de diario.  
+    - Por ejemplo, si el valor de fecha es el 31 de marzo de 2015, se genera la siguiente descripción: “Depreciación desde el 31 de enero de 2015”. El campo **Fecha** de las líneas de diario propuestas se establece entonces en 31 de marzo de 2015.  
+    - La propuesta de depreciación se puede filtrar por activo, grupo de activos u otros criterios mediante la opción **Filtro**.  
+    - Cuando usa el formulario **Crear propuestas de adquisición o depreciación para activos fijos**, puede proponer la depreciación en lotes. Esto se recomienda para propuestas más grandes que usarán más recursos del sistema. Si selecciona la opción de lote, puede completar otras tareas durante ese tiempo. Cuando se propone la depreciación de esta manera, la depreciación se calcula para los modelos de valor de activos fijos.  
+
+4. Seleccione **Crear diario**.
 
 ## <a name="review-depreciation-entries"></a>Revisar los movimientos de amortización
-1. Vaya a Activos fijos > Movimientos de diario > Diario de activos fijos.
+1. En el panel de navegación, vaya a **Módulos > Activos fijos > Movimientos del diario > Diario de activos fijos**.
 2. En la lista, busque y seleccione el registro deseado.
-3. Haga clic en Líneas.
-4. Haga clic en Registrar.
+3. Seleccionar **Líneas**.
+4. Seleccione **Registrar**.
 

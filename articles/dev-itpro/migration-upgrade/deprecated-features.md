@@ -3,7 +3,7 @@ title: Características quitadas u obsoletas
 description: Este tema describe las funciones que se han eliminado, o que está previsto que se eliminen.
 author: sericks007
 manager: AnnBe
-ms.date: 07/30/2019
+ms.date: 08/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0c8cc578ce2f8928fcdbe0210c9151e8979bc2e9
-ms.sourcegitcommit: 299e20b59ebefa584ed46a13da3f1a7ff709e43c
+ms.openlocfilehash: 4aad4f2cf42b72256b5c4727bfd145d16af033ed
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1863392"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867110"
 ---
 # <a name="removed-or-deprecated-features"></a>Características quitadas o en desuso
 
@@ -157,6 +157,17 @@ La compatibilidad para crear los pedidos de ventas basados en proyectos donde el
 | **Áreas de producto afectadas**         | Herramientas de desarrollo de Visual Studio |
 | **Opción de implementación**              | Todas |
 | **Estado**                         | En desuso: la advertencia se convertirá en un error de compilación en la Platform update 26. |
+
+## <a name="dynamics-365-for-finance-and-operations-1000-with-platform-update-24"></a>Dynamics 365 for Finance and Operations 10.0.0 con actualización de plataforma 24
+
+### <a name="renaming-released-products"></a>Cambiar el nombre de los productos emitidos 
+|   |  |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | Al usar la función **Cambiar el nombre de clave principal** para cambiar el ItemId de un producto emitido, solo se actualizan las referencias directas de clave extranjera. Cualquier otra referencia para el producto emitido, por ejemplo, de pedidos de producción, se conservará el ItemId antiguo. Como resultado, podría haber datos incoherentes que podrían bloquear procesos empresariales. |
+| **¿Reemplazado por otra característica?**   | N. º |
+| **Áreas de producto afectadas**         | Gestión de información de productos |
+| **Opción de implementación**              | Todas  |
+| **Estado**                         | Eliminado desde Dynamics 365 for Finance and Operations 10.0.0 con la plataforma actualice 24. En casos excepcionales, por ejemplo para recuperarse de un cambio de nombre anterior de la clave principal de un producto emitido, es posible solicitar Microsoft que quite temporalmente esta restricción en la operación de cambio de nombre de la clave principal para los productos emitidos. |
 
 
 ## <a name="dynamics-365-for-finance-and-operations-813-with-platform-update-23"></a>Dynamics 365 for Finance and Operations 8.1.3 con actualización de plataforma 23

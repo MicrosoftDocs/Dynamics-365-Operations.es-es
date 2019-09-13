@@ -3,7 +3,7 @@ title: Crear una jerarquía organizativa
 description: Realice el procedimiento siguiente para crear una jerarquía organizativa.
 author: sericks007
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 203a586b06a13a7c67f246384152d17627e22041
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 48c8564694b22a5110341d853a79096fbe805c91
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1545554"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916470"
 ---
 # <a name="create-an-organization-hierarchy"></a>Crear una jerarquía organizativa
 
@@ -29,31 +29,23 @@ ms.locfileid: "1545554"
 
 Realice el procedimiento siguiente para crear una jerarquía organizativa. Puede usar jerarquías organizativas para ver e informar de su negocio de diferentes perspectivas. Por ejemplo, puede configurar una jerarquía para informes estatutarios, legales o de impuestos. A continuación, puede configurar otra jerarquía para elaborar información financiera que no sea legalmente necesaria pero que se use para informes internos. 
 
-
-
 Antes de crear una jerarquía organizativa, debe crear organizaciones. Para obtener más información, consulte las tareas "Crear una entidad jurídica" o "Crear una unidad operativa”. También puede crear departamentos y equipos. 
-
-
 
 La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 
-
 ## <a name="create-a-hierarchy"></a>Crear una jerarquía
-1. Vaya a Administración de la organización > Organizaciones > Jerarquías organizativas.
-2. Haga clic en Nuevo.
-3. En el campo Nombre, escriba un valor.
-4. Haga clic en Asignar propósito.
-5. En la lista, busque y seleccione el registro deseado.
-    * Seleccione un propósito para asignar a su jerarquía organizativa.  
-6. Haga clic en Agregar.
-7. En la lista, marque la fila seleccionada.
-    * Busque la jerarquía que acaba de crear.  
-8. Haga clic en Aceptar
+1. Vaya a **Panel de exploración > Módulos > Administración de la organización > Organizaciones > Jerarquías organizativas**.
+2. En el **panel de acciones**, haga clic en **Nuevo**.
+3. En el campo **Nombre**, escriba un valor.
+4. En la sección **Propósito**, haga clic en **Propósito de la asignación**.
+5. En la lista, busque y seleccione el registro deseado. Seleccione un propósito para asignar a su jerarquía organizativa.  
+6. En el sección **Jerarquías asignadas**, haga clic en **Agregar**.
+7. En la lista, marque la fila seleccionada. Busque la jerarquía que acaba de crear.  
+8. Haga clic en **Aceptar**.
 
 ## <a name="add-organizations-to-the-hierarchy"></a>Agregar organizaciones a la jerarquía
-1. En la lista, busque y seleccione el registro deseado.
-    * Seleccione su jerarquía.  
-2. Haga clic en Ver jerarquía.
-    * Agregue organizaciones según sea necesario.  
-    * Para agregar una organización, haga clic en Editar y, a continuación, en Insertar para agregar la organización.     Cuando haya terminado de realiza cambios, puede guardar un borrador y/o publicar los cambios.  
+1. En la lista, busque y seleccione el registro deseado. Seleccione su jerarquía.  
+2. En la sección **Jerarquías asignadas**, haga clic en **Ver jerarquía**.
+    - Agregue organizaciones según sea necesario.  
+    - Para agregar una organización, haga clic en **Editar** y, a continuación, en **Insertar** para agregar la organización. Cuando haya terminado de realiza cambios, puede **guardar** un borrador y/o **publicar** los cambios.  
 

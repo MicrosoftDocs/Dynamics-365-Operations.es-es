@@ -1,9 +1,9 @@
 ---
 title: Crear esquemas de acumulación
-description: Esta guía de tareas describe los pasos de la creación de un esquema de acumulación.
+description: Este tema explica cómo crear un esquema de acumulación.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/19/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,30 +16,28 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e0ae55000a5cf1593d057d940dc3dbbf9e5cb3f3
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: e8f8cf8546187ae1c65d4966887e1c5842dff431
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1834903"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867568"
 ---
 # <a name="create-accrual-schemes"></a>Crear esquemas de acumulación
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Esta guía de tareas describe los pasos de la creación de un esquema de acumulación. Esta tarea usa la empresa de demostración USMF.
+Este tema explica cómo crear un esquema de acumulación. Esta tarea usa la empresa de demostración USMF.
 
-1. Vaya a Contabilidad general > Configuración de diario > Esquemas de acumulación.
-2. Haga clic en Nuevo.
-3. En el campo Identificación acumulada, escriba un valor.
-4. En el campo Descripción del plan de provisión, escriba un valor.
-5. En el campo Débito, especifique los valores deseados.
-    * La cuenta principal definida reemplazará la cuenta principal de débito en la línea de asiento de diario y también se usará para la inversión del aplazamiento en función de las transacciones de acumulaciones contables.  
-6. En el campo Crédito, especifique los valores deseados.
-    * La cuenta principal definida reemplazará la cuenta principal de crédito en la línea de asiento de diario y también se usará para la inversión del aplazamiento en función de las transacciones de acumulaciones contables.  
-7. En el campo Asiento, seleccione cómo desea que se determine el asiento cuando se registran las transacciones.
-8. En el campo Descripción, escriba un valor para describir las transacciones que se registrarán.
-9. En el campo Frecuencia de períodos, seleccione la frecuencia con la que se deben producir las transacciones.
-10. En el campo Número de repeticiones por período, especifique un número.
-11. En el campo Registrar transacciones, seleccione cuándo se deben registrar las transacciones, por ejemplo, Mensual.
+1. Vaya a **Panel de exploración > Módulos > Contabilidad general > Configuración del diario > Esquemas de acumulación**.
+2. Seleccione **Nuevo**.
+3. En el campo **Identificación acumulada**, escriba un valor.
+4. En el campo **Descripción del plan de provisión**, escriba un valor.
+5. En el campo **Débito**, especifique los valores deseados. La cuenta principal definida reemplazará la cuenta principal de débito en la línea de asiento de diario y también se usará para la inversión del aplazamiento en función de las transacciones de acumulaciones contables.  
+6. En el campo **Crédito**, especifique los valores deseados. La cuenta principal definida reemplazará la cuenta principal de crédito en la línea de asiento de diario y también se usará para la inversión del aplazamiento en función de las transacciones de acumulaciones contables.  
+7. En el campo **Asiento**, seleccione cómo desea que se determine el asiento cuando se registran las transacciones.
+8. En el campo **Descripción**, escriba un valor para describir las transacciones que se registrarán.
+9. En el campo **Frecuencia de períodos**, seleccione la frecuencia con la que se deben producir las transacciones.
+10. En el campo **Número de repeticiones por período**, especifique un número.
+11. En el campo **Registrar transacciones**, seleccione cuándo se deben registrar las transacciones, por ejemplo, **Mensual**.
 

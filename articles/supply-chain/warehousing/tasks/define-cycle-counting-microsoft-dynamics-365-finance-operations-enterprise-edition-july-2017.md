@@ -3,7 +3,7 @@ title: Definir el recuento cíclico
 description: La cuenta de ciclo es un proceso de almacén que puede usar para revisar artículos de inventario disponibles.
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 06/23/2017
+ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2832547f81b0153d42ac4664184f18bd66f1acdd
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 24c4c27745a15f013d20b52efc6e36de848a0251
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571707"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916792"
 ---
 # <a name="define-cycle-counting"></a>Definir el recuento cíclico 
 
@@ -30,74 +30,68 @@ La cuenta de ciclo es un proceso de almacén que puede usar para revisar artícu
 
 
 ## <a name="set-the-priority-of-counting-work"></a>Definición de la prioridad del trabajo de recuento
-1. Vaya a Gestión de almacenes > Configurar > Parámetros de gestión de inventario y almacenes.
-2. Haga clic en la ficha Recuento cíclico.
-3. En el campo Prioridad de trabajo de recuento cíclico predeterminado, especifique un número.
-    * Este paso cambia la prioridad del trabajo de recuento cíclico en comparación con otros tipos de trabajo en el almacén. Si especifica un número menor al número de otros tipos de trabajo, aumenta la prioridad de trabajo de recuento cíclico.  
-4. Haga clic en Guardar.
+1. En el **Panel de exploración**, vaya a **Módulos > Gestión de almacenes > Configuración > Almacén >Parámetros de gestión de almacenes**.
+2. Haga clic en la ficha **Recuento cíclico**.
+3. En el campo **Prioridad de trabajo de recuento cíclico predeterminado**, especifique un número. Este paso cambia la prioridad del trabajo de recuento cíclico en comparación con otros tipos de trabajo en el almacén. Si especifica un número menor al número de otros tipos de trabajo, aumenta la prioridad de trabajo de recuento cíclico.  
+4. Haga clic en **Guardar**.
 5. Cierre la página.
 
 ## <a name="enable-the-mobile-device"></a>Habilitar el dispositivo móvil
-1. Vaya a Gestión de almacenes > Configurar > Dispositivo móvil > Elementos de menú del dispositivo móvil.
-2. Haga clic en Nuevo.
-3. En el campo Nombre del elemento de menú, escriba un valor.
-4. En el campo Título, escriba un valor.
-5. En el campo Modo, seleccione Trabajo.
-6. Defina la opción Usar trabajo existente en Sí.
-    * Cuando establece esta opción en Sí, el sistema buscará trabajo existente cuando se use el elemento de menú de dispositivo móvil.  
-7. En el campo Dirigido por, seleccione Dirigido por el sistema.
-    * Cuando se selecciona "Dirigido por el sistema", se dirigirá al trabajador del almacén a abrir el trabajo que está en las clases definidas de trabajo. (Crearemos estas clases de trabajo después.)  
-8. Expanda o contraiga la sección Clases de trabajo.
-    * A continuación, crearemos dos clases de trabajo que se usarán con este elemento de menú de dispositivo móvil. Cuando se use el elemento de menú, se consultarán estas clases de trabajo y se mostrará al usuario el trabajo con la prioridad más alta.  
-9. Haga clic en Nuevo.
-10. En el campo Identificador de la clase de trabajo, seleccione un valor.
-11. Haga clic en Nuevo.
-12. En el campo Identificador de la clase de trabajo, seleccione un valor.
-13. Haga clic en Guardar.
+1. En el **Panel de exploración**, vaya a **Módulos > Administración de módulos > Configuración > Dispositivo móvil > Elementos de menú del dispositivo móvil**.
+2. Haga clic en **Nuevo**.
+3. En el campo **Nombre del elemento de menú**, escriba un valor.
+4. En el campo **Título**, escriba un valor.
+5. En el campo **Modo**, seleccione "Trabajo".
+6. Establezca la opción **Usar trabajo existente** en Sí. Cuando establece esta opción en Sí, el sistema buscará trabajo existente cuando se use el elemento de menú de dispositivo móvil.  
+7. En el campo **Dirigido por**, seleccione "Dirigido por el sistema". Cuando se selecciona "Dirigido por el sistema", se dirigirá al trabajador del almacén a abrir el trabajo que está en las clases definidas de trabajo. (Crearemos estas clases de trabajo después.)  
+8. Expanda la ficha desplegable **Clases de trabajo**. A continuación, crearemos dos clases de trabajo que se usarán con este elemento de menú de dispositivo móvil. Cuando se use el elemento de menú, se consultarán estas clases de trabajo y se mostrará al usuario el trabajo con la prioridad más alta.  
+9. Haga clic en **Nuevo**.
+10. En el campo **Identificador de la clase de trabajo**, seleccione un valor.
+11. Haga clic en **Nuevo**.
+12. En el campo **Identificador de la clase de trabajo**, seleccione un valor.
+13. En el **panel de acciones**, haga clic en **Guardar**.
 14. Cierre la página.
-15. Vaya a Gestión de almacenes > Configurar > Dispositivo móvil > Menú del dispositivo móvil.
+15. En el **Panel de exploración** vaya a **Módulos > Administración de módulos > Configuración > Dispositivo móvil > Menú del dispositivo móvil**.
 16. En la lista, busque y seleccione el registro deseado.
 17. En el árbol, seleccione "el elemento de menú que acaba de crear".
-18. Haga clic en Editar.
+18. Haga clic en **Editar**.
 19. Haga clic en la flecha para agregar el elemento de menú al menú.
-20. Haga clic en Guardar.
+20. Haga clic en **Guardar**.
 
 ## <a name="create-a-counting-threshold"></a>Crear un umbral de recuento
-1. Vaya a Administración de almacenes > Configuración > Recuento de ciclos > Umbrales de recuento cíclico.
-2. Haga clic en Nuevo.
-3. En el campo Id. de umbral de recuento cíclico, escriba un valor.
-4. Defina la opción Procesar recuento cíclico inmediatamente en Sí.
-5. En el campo Descripción, escriba un valor.
-6. Haga clic en Guardar.
-7. Haga clic en Seleccionar ubicaciones.
+1. En el **Panel de exploración**, vaya **Módulos > Administración de almacenes > Configuración > Recuento cíclico > Umbrales de recuento cíclico**.
+2. Haga clic en **Nuevo**.
+3. En el campo **Id. de umbral de recuento cíclico**, escriba un valor.
+4. Defina la opción **Procesar recuento cíclico inmediatamente** en Sí.
+5. En el campo **Descripción**, escriba un valor.
+6. Haga clic en **Guardar**.
+7. Haga clic en **Seleccionar ubicaciones**.
 8. En la lista, marque la fila seleccionada.
-9. En el campo Criterios, seleccione un valor.
-10. Haga clic en Aceptar
+9. En el campo **Criterios**, seleccione un valor.
+10. Haga clic en **Aceptar**.
 11. Cierre la página.
 
 ## <a name="create-a-cycle-count-plan"></a>Crear un plan de recuento cíclico
-1. Vaya a Administración de almacenes > Configuración > Recuento de ciclos > Planes de recuento cíclico.
-2. Haga clic en Nuevo.
-3. En el campo Id. de plan de recuento cíclico, escriba un valor.
-4. En el campo Descripción, escriba un valor.
-5. En el campo Número máximo de recuentos cíclicos, especifique un número.
-6. Haga clic en Guardar.
-7. Haga clic en Seleccionar ubicaciones.
+1. En el **Panel de exploración**, vaya **Módulos > Administración de almacenes > Configuración > Recuento cíclico > Planes de recuento cíclico**.
+2. Haga clic en **Nuevo**.
+3. En el campo **Id. de plan de recuento cíclico**, escriba un valor.
+4. En el campo **Descripción**, escriba un valor.
+5. En el campo **Número máximo de recuentos cíclicos**, especifique un número.
+6. Haga clic en **Guardar**.
+7. Haga clic en **Seleccionar ubicaciones**.
 8. En la lista, marque la fila seleccionada.
-9. En el campo Criterios, seleccione un valor.
-10. Haga clic en Aceptar
-11. En el campo Días entre recuentos cíclicos, especifique un número.
-    * Por ejemplo, si el valor en el campo Días entre recuentos cíclicos es 5, el trabajo de recuento cíclico se creará cada cinco días. Sin embargo, si el trabajo de recuento cíclico se procesa el día tres, el siguiente trabajo de recuento cíclico se creará cinco días después del último recuento cíclico procesado, el día 8.  
-12. Haga clic en Guardar.
-13. Haga clic en Nuevo.
-14. En el campo Número de secuencia, especifique un número.
-    * La ordenación es del número más pequeño al número más grande. El valor debe ser mayor que 0 (cero).  
+9. En el campo **Criterios**, seleccione un valor.
+10. Haga clic en **Aceptar**.
+11. En el campo **Días entre recuentos cíclicos**, especifique un número. Por ejemplo, si el valor en el campo **Días entre recuentos cíclicos** es 5, el trabajo de recuento cíclico se creará cada cinco días. Sin embargo, si el trabajo de recuento cíclico se procesa el día tres, el siguiente trabajo de recuento cíclico se creará cinco días después del último recuento cíclico procesado, el día 8.  
+12. Haga clic en **Guardar**.
+13. Haga clic en **Nuevo**.
+14. En el campo **Número de secuencia**, especifique un número. La ordenación es del número más pequeño al número más grande. El valor debe ser mayor que 0 (cero).  
 15. En la lista, marque la fila seleccionada.
-16. En el campo Descripción, escriba un valor.
-17. Haga clic en Guardar.
-18. Haga clic en Definir consulta de producto.
+16. En el campo **Descripción**, escriba un valor.
+17. Haga clic en **Guardar**.
+18. Haga clic en **Definir consulta** de producto.
 19. En la lista, marque la fila seleccionada.
-20. En el campo Criterios, especifique o seleccione un valor.
-21. Haga clic en Aceptar
+20. En el campo **Criterios**, especifique o seleccione un valor.
+21. Haga clic en **Aceptar**.
 22. Cierre la página.
 

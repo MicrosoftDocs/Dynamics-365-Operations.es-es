@@ -1,9 +1,9 @@
 ---
 title: Registro de ventas y pagos en línea
 description: Este procedimiento le guía por la configuración y ejecución de un trabajo por lotes periódico para crear pedidos de ventas y pagos para transacciones de la tienda en línea.
-author: jashanno
+author: psimolin
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/06/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,16 +17,69 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 13839bbe6ca03f3cfc7036fce87477bf7d5af2a7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 1d42b585a61214628980cd45a859215443ed55b5
+ms.sourcegitcommit: c461758290d7ddc19f0b60701368937c35ef78b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550217"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864162"
 ---
 # <a name="posting-of-online-sales-and-payments"></a>Registro de ventas y pagos en línea
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
+
+Este procedimiento le guía por la configuración y ejecución de un trabajo por lotes periódico para crear pedidos de ventas y pagos para transacciones de la tienda en línea.
+
+El registro ventas y pagos en línea es un proceso de dos etapas.
+
+- Extraer los datos de transacción comercial en línea en la sede.
+- Sincronizar pedidos para crear pedidos de ventas en la sede.
+
+La extracción de los datos de transacción comercial en línea se puede hacer manualmente ejecutando el trabajo P o creando un trabajo por lotes periódico.
+
+### <a name="manually-running-the-p-job"></a>Ejecutar manualmente el trabajo P
+
+1. Vaya a Todos los espacios de trabajo > TI de venta minorista.
+2. Haga clic en Programación de distribución.
+3. Seleccione P-0001.
+4. Ajuste los grupos de la base de datos del canal, si es necesario.
+5. Haga clic en Ejecutar ahora.
+6. Haga clic en Sí.
+
+### <a name="scheduling-a-recurring-p-job"></a>Programar un trabajo P periódico
+
+1. Vaya a Todos los espacios de trabajo > TI de venta minorista.
+2. Haga clic en Programación de distribución.
+3. Seleccione P-0001.
+4. Haga clic en Crear trabajo por lotes.
+5. Haga clic en Ejecutar en segundo plano.
+5. Habilite Procesamiento por lotes.
+6. Haga clic en Periodicidad.
+7. Seleccione la opción No hay fecha final.
+8. En el campo Recuento, introduzca el intervalo entre las ejecuciones en minutos. Normalmente, este sería 5-10.
+9. Haga clic en Aceptar.
+10. Haga clic en Aceptar.
+
+Los pedidos se pueden sincronizar manualmente ejecutando el trabajo "Sincronizan pedidos" o creando un trabajo por lotes periódico.
+
+### <a name="manually-running-order-synchronization"></a>Ejecutar manualmente la sincronización de pedidos 
+
+Siga estos pasos para ejecutar manualmente el trabajo "sincronizar pedidos" una vez.
+
+1. Vaya a Todos los espacios de trabajo > Operaciones financieras de tienda.
+2. Haga clic en Sincronizar pedidos.
+3. En el campo Jerarquía organizativa, seleccione "Tiendas por región".
+    * Seleccione una tienda en línea concreta o un nodo si desea crear el trabajo por lotes para un grupo de tiendas.  
+    * Haga clic en la flecha para agregar su selección.  
+4. Haga clic en la ficha Ejecutar en segundo plano.
+5. Deshabilite Procesamiento por lotes
+6. Haga clic en Periodicidad.
+7. Seleccione la opción Finalizar tras
+8. En el campo Finalizar tras, introduzca 1.
+9. Haga clic en Aceptar.
+10. Haga clic en Aceptar.
+
+### <a name="scheduling-recurring-order-synchronization"></a>Programar sincronización de pedidos periódica
 
 Este procedimiento le guía por la configuración y ejecución de un trabajo por lotes periódico para crear pedidos de ventas y pagos para transacciones de la tienda en línea. Este procedimiento usa la empresa USRT en los datos de demostración.
 
@@ -36,10 +89,23 @@ Este procedimiento le guía por la configuración y ejecución de un trabajo por
     * Seleccione una tienda en línea concreta o un nodo si desea crear el trabajo por lotes para un grupo de tiendas.  
     * Haga clic en la flecha para agregar su selección.  
 4. Haga clic en la ficha Ejecutar en segundo plano.
-5. Active o desactive la casilla Procesamiento por lotes.
+5. Habilite Procesamiento por lotes
 6. Haga clic en Periodicidad.
 7. Seleccione la opción No hay fecha final.
-8. En el campo Recuento, especifique un número.
-9. Haga clic en Aceptar
-10. Haga clic en Aceptar
+8. En el campo Recuento, introduzca el intervalo entre las ejecuciones en minutos. Normalmente, este sería 2-20
+9. Haga clic en Aceptar.
+10. Haga clic en Aceptar.
 
+## <a name="data-entities-involved-in-the-process"></a>Entidades de datos implicadas en el proceso
+
+- RetailTransactionTable
+- RetailTransactionAddressTrans
+- RetailTransactionInfocodeTrans
+- RetailTransactionTaxTrans
+- RetailTransactionSalesTrans
+- RetailTransactionTaxMeasure
+- RetailTransactionDiscountTrans
+- RetailTransactionTaxTransGTE
+- RetailTransactionMarkupTrans
+- RetailTransactionPaymentTrans
+- RetailTransactionAttributeTrans

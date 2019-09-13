@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 9d19987a44c467381828acb81b6161601268d84f
-ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
+ms.openlocfilehash: 43f25796e6271f14acfc72f931398ab63338a307
+ms.sourcegitcommit: b068b17ef708a0b349db8df1542e4244bb983d13
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1863069"
+ms.lasthandoff: 08/12/2019
+ms.locfileid: "1870842"
 ---
 # <a name="saved-views"></a>Vistas guardadas
 
@@ -153,11 +153,13 @@ Para habilitar las vistas guardadas mientras la característica se encuentra en 
 
 1.  **Habilite el tramo**: ejecute la instrucción SQL siguiente: 
 
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('Dynamics.AX.Application.CLISavedViewsEnableFeature', 1, 0, 5637144576);`
+    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('CLISavedViewsEnableFeature', 1, 0, 5637144576);`
 
-2.  **Encuentre la característica**: desplácese al área trabajo **Administración de características** . Si **Vistas guardadas** no aparece en la lista, seleccione el botón **Buscar actualizaciones**.   
+2. **Restablecer IIS** para vaciar la memoria caché estática de la distribución de paquetes piloto. 
 
-3.  **Habilite la característica**: encuentre la función **Vistas guardadas** en la lista de características y haga clic en el botón **Habilitar ahora** en el panel de detalles.
+3.  **Encontrar la característica**: vaya al espacio de trabajo **Administración de características**. Si **Vistas guardadas** no aparece en la lista, seleccione **Buscar actualizaciones**.   
+
+4.  **Habilitar la característica**: encuentre la característica **Vistas guardadas** en la lista de características y seleccione **Habilitar ahora** en el panel de detalles.
 
 Todas las sesiones de usuario posteriores comenzarán con las vistas guardadas habilitadas.  
 

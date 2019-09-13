@@ -1,9 +1,9 @@
 ---
 title: Recibir artículos de un pedido de compra a partir de un artículo requerido
-description: Este procedimiento muestra cómo recibir artículos en un pedido de compra desde un artículo requerido.
+description: En este tema se explica cómo recibir artículos en un pedido de compra desde un artículo requerido.
 author: KimANelson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/06/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,45 +16,43 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fee2c965b0c065f00564b849ec93504336fb3f60
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 7afdae65c5ae7e3196c6b9f142dd87aec39b5ea3
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838256"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867304"
 ---
 # <a name="receive-items-on-purchase-order-from-item-requirement"></a>Recibir artículos de un pedido de compra a partir de un artículo requerido
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimiento muestra cómo recibir artículos en un pedido de compra desde un artículo requerido.
+En este tema se explica cómo recibir artículos en un pedido de compra desde un artículo requerido.
 
 Si usa un requisito de artículo en lugar de una transacción de artículos, podrá planificar la entrega justo antes del uso real del artículo, crear un pedido de compras, incluir el artículo en el marco del acuerdo comercial e incluir el requisito de artículo en la planificación de producción. 
 
 Esta tarea usa el conjunto de datos USSI.
 
-1. Vaya a Gestión de proyectos y contabilidad > Proyectos > Todos los proyectos.
-2. En la lista, haga clic en el vínculo de la fila seleccionada.
-3. En el panel de acciones, haga clic en Plan.
-4. Haga clic en Requisitos de artículo.
-5. Haga clic en Nuevo.
-6. En la lista, marque la fila seleccionada.
-7. En el campo Número de artículo, especifique o seleccione un valor.
-8. En el campo Cantidad, especifique un número.
-9. Haga clic en Guardar.
-10. En el panel de acciones, haga clic en Gestionar.
-11. Haga clic en Funciones.
-12. Haga clic en Crear pedido de compra.
-13. Seleccione la casilla de verificación Incluir.
-14. En el campo Cuenta de proveedor, especifique o seleccione un valor.
-15. Haga clic en Aceptar
-16. Vaya a Proveedores > Pedidos de compra > Todos los pedidos de compra.
-17. En la lista, haga clic en el vínculo de la fila seleccionada.
-18. En el panel de acciones, haga clic en Compra.
-19. Haga clic en Confirmar.
-20. En el panel de acciones, haga clic en Recibir.
-21. Haga clic en Recepción de producto.
-22. En la lista, marque la fila seleccionada.
-23. En el campo Recepción de producto, escriba un valor.
-24. Haga clic en Aceptar
+1. En el panel de navegación, vaya a **Módulos > Gestión y contabilidad de proyectos > Proyectos > Todos los proyectos**.
+2. En la lista, seleccione el vínculo de la fila deseada.
+3. En el panel de acciones, haga clic en **Plan**.
+4. Seleccione **Requisitos de artículos**.
+5. Seleccione **Nuevo**.
+6. En la nueva fila, introduzca o seleccione un valor en el campo **Número de artículo**.
+7. En el campo **Cantidad**, especifique un número.
+8. Seleccione **Guardar**.
+9. En el panel de acciones, seleccione **Administrar**.
+10. Seleccione **Funciones**.
+11. Seleccione **Crear pedido de compra**.
+12. Seleccione la casilla **Incluir todos**.
+13. En el campo **Cuenta de proveedor**, especifique o seleccione un valor.
+14. Seleccione **Aceptar**.
+15. En el panel de navegación, vaya a **Módulos > Proveedores > Pedidos de compra > Todos los pedidos de compra**.
+16. En la lista, seleccione el vínculo de la fila deseada.
+17. En el panel de acciones, selecione **Compra.**
+18. Seleccione **Confirmar**.
+19. En el panel de acciones, seleccione **Recibir**.
+20. Seleccione **Recepción de producto**.
+21. En el campo **Recepción de producto**, escriba un valor.
+22. Seleccione **Aceptar**.
 

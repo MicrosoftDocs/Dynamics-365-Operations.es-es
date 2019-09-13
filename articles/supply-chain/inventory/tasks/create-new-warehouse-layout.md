@@ -1,9 +1,9 @@
 ---
 title: Creación de un nuevo diseño de almacén
-description: Este procedimiento le muestra cómo configurar la información sobre las ubicaciones de un almacén.
+description: En este tema se describe cómo configurar la información sobre las ubicaciones en un almacén.
 author: perlynne
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,62 +17,49 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f0a52c5d68816a81a94db019387b9ea3ec3efc5a
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 302c028a93dfdb57972e4759abbbc4fdedabbd17
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845531"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867253"
 ---
 # <a name="create-a-new-warehouse-layout"></a>Creación de un nuevo diseño de almacén
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimiento le muestra cómo configurar la información sobre las ubicaciones de un almacén. Esto solo se aplica a los almacenes creados con el “almacenamiento básico” en el módulo Gestión del inventario, no en los almacenes creados en el módulo Gestión de almacenes. Puede utilizar este procedimiento con los datos de prueba de la empresa USMF o utilizar sus propios datos.
+En este tema se describe cómo configurar la información sobre las ubicaciones en un almacén. Esto solo se aplica a los almacenes creados con el “almacenamiento básico” en el módulo Gestión del inventario, no en los almacenes creados en el módulo Gestión de almacenes. Puede utilizar este procedimiento con los datos de prueba de la empresa USMF o utilizar sus propios datos.
 
 
 ## <a name="set-the-default-location-capacity"></a>Definir la capacidad de la ubicación predeterminada
-1. Vaya a Gestión del inventario > Configurar > Parámetros de la gestión de inventario y almacenes.
-2. Haga clic en la ficha Ubicaciones.
-3. En el campo Ancho estándar, especifique un número.
-4. En el campo Profundidad estándar, especifique un número.
-5. En el campo Alto estándar, especifique un número.
-6. Haga clic en Guardar.
+1. En el panel de exploración, vaya a **Módulos > Gestión del inventario > Configurar > Inventario y parámetros de gestión de inventario y almacenes**.
+2. Seleccione la pestaña **Ubicaciones**.
+3. En el campo **Ancho estándar**, especifique un número.
+4. En el campo **Profundidad estándar**, especifique un número.
+5. En el campo **Alto estándar**, especifique un número.
+6. Seleccione **Guardar**.
 7. Cierre la página.
 
 ## <a name="define-the-location-name-format"></a>Definir el formato del nombre de ubicación
-1. Vaya a Gestión del inventario> Configuración > Desglose del inventario > Almacenes
-2. Haga clic en Nuevo.
-3. En el campo Almacén, escriba un valor.
-4. En el campo Nombre, escriba un valor.
-5. En el campo Sitio, haga clic en el botón desplegable para abrir la búsqueda.
-6. En la lista, busque y seleccione el registro deseado.
-7. Alterne la expansión de la sección Nombres de ubicación.
-    * Las opciones de esta sección definen el formato predeterminado para los nombres de ubicación. En nuestro ejemplo, incluiremos el número de pasillo, el número de la estantería y el número de balda.  
-8. Establezca la opción Incluir pasillo en Sí.
-9. Establezca la opción Incluir estantería en Sí. 
-10. En el campo Formato, escriba una valor para la estantería.
-    * Por ejemplo: -##  
-11. Establezca la opción Incluir balda en Sí.
-12. En el campo Formato, escriba una valor para la balda.
-    * Por ejemplo: -##  
+1. En el Panel de exploración, vaya a **Módulos > Gestión de inventario > Configuración > Desglose del inventario > Almacenes**.
+2. Seleccione **Nuevo**.
+3. En el campo **Almacén**, escriba un valor.
+4. En el campo **Nombre**, escriba un valor.
+5. En el campo **Sitio**, seleccione el registro deseado en la búsqueda.
+6. Alterne la expansión de la sección **Nombres de ubicación**. Las opciones de esta sección definen el formato predeterminado para los nombres de ubicación. En nuestro ejemplo, incluiremos el número de pasillo, el número de la estantería y el número de balda.  
+7. Establezca la opción **Incluir pasillo** en **Sí**.
+8. Establezca la opción **Incluir estantería** en **Sí**. 
+9. En el campo **Formato**, escriba una valor para la estantería.
+10. Establezca la opción **Incluir balda** en **Sí**.
+11. En el campo **Formato**, escriba una valor para la balda.
 
 ## <a name="define-warehouse-locations"></a>Definir las ubicaciones del almacén
-1. En el panel de acciones, haga clic en Almacén.
-2. Haga clic en Asistente para ubicación.
-3. Haga clic en Siguiente.
-4. Anular la selección de la opción Muelle de salida
-5. Anular la selección de la opción Ubicaciones de almacenaje
-6. Haga clic en Siguiente.
-7. Haga clic en Siguiente.
-8. Haga clic en Siguiente.
-9. Haga clic en Siguiente.
-10. Haga clic en Siguiente.
-11. Haga clic en Siguiente.
-12. Haga clic en Siguiente.
-    * Tenga en cuenta que las dimensiones físicas que se muestran en esta página son las que establece al inicio de este procedimiento.  
-13. Haga clic en Siguiente.
-14. Haga clic en Finalizar.
-15. Cierre la página.
-16. Actualice la página.
+1. En el panel de acciones, haga clic en **Almacén**.
+2. Seleccione **Asistente para ubicación**.
+3. Seleccione **Siguiente**.
+4. Anular la selección de la opción **Muelle de salida**
+5. Anular la selección de la opción **Ubicaciones de almacenaje**
+6. Seleccione **Siguiente** hasta llegar a la opción donde se puede seleccionar **Fin**.
+7. Cierre la página.
+8. Actualice la página.
 

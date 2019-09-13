@@ -1,9 +1,9 @@
 ---
 title: Gestionar plantillas de correo electrónico
-description: Puede transferir información de la base de datos de su organización a los marcadores en un documento nuevo y usarla en plantillas que le ayuden a comunicarse eficazmente con los candidatos.
+description: En este tema se explica cómo administrar plantillas de correo electrónico.
 author: andreabichsel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4667d0506c5ae6bea87b982c7feebab8963797a6
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 3ecfa720dfa9b3ed6ee15ec68498d2a46612a9ae
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1508042"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867496"
 ---
 # <a name="manage-email-templates"></a>Gestionar plantillas de correo electrónico
 
@@ -31,23 +31,20 @@ Puede transferir información de la base de datos de su organización a los marc
 
 
 ## <a name="select-which-bookmarks-to-use-in-your-email-templates"></a>Selección de los marcadores que usar en las plantillas de correo electrónico
-1. Vaya a Marcadores de solicitud.
+1. En el panel de navegación, vaya a **Módulos > Recursos Humanos > Contratación > Comunicación > Marcadores de solicitud**.
 2. En la lista, busque y seleccione la acción de correspondencia en cuestión.
-3. Haga clic en Editar.
-4. En la lista, busque y seleccione el registro deseado.
-    * Seleccione los campos que desea poder utilizar en una plantilla de correo electrónico para la acción de correspondencia seleccionada y muévalos a los campos de marcador.  
+3. Seleccione **Editar**.
+4. Seleccione los campos que desea poder utilizar en una plantilla de correo electrónico para la acción de correspondencia seleccionada y muévalos a los campos de marcador.  
 5. Cierre la página.
 
 ## <a name="create-an-email-template"></a>Crear una plantilla de correo electrónico
-1. Vaya a Recursos humanos > Contratación > Comunicación > Plantillas de correo electrónico de solicitud.
-2. Haga clic en Nuevo.
-3. En el campo Acción de correspondencia, seleccione Entrevista.
-    * Seleccione la acción de correspondencia con los marcadores que usar para este tipo de comunicación por correo electrónico.  
-4. En el campo Plantilla de correo electrónico, escriba un valor.
-5. En el campo Asunto, escriba un valor.
-6. En el campo Texto, escriba un valor.
+1. En el panel de navegación, vaya a **Módulos > Recursos Humanos > Contratación > Comunicación > Plantillas de correo electrónico de solicitud**.
+2. Seleccione **Nuevo**.
+3. En el campo **Acción de correspondencia**, seleccione **Entrevista**. Seleccione la acción de correspondencia con los marcadores que usar para este tipo de comunicación por correo electrónico.  
+4. En el campo **Plantilla de correo electrónico**, escriba un valor.
+5. En el campo **Asunto**, escriba un valor.
+6. En el campo **Texto**, escriba un valor.
 7. En la lista, busque y seleccione el campo de marcador deseado.
 8. A continuación, escriba el mensaje de correo electrónico insertando los campos de marcador donde estime oportuno.
-    * A continuación, escriba el mensaje de correo electrónico insertando los campos de marcador donde estime oportuno.  
-9. Haga clic en Guardar.
+9. Seleccione **Guardar**.
 

@@ -1,9 +1,9 @@
 ---
 title: Introducir datos de factura en el sistema de proveedores mediante un grupo de facturas
-description: Esta guía de la tarea le mostrará cómo usar el registro de facturas para crear facturas.
+description: En este tema se describe cómo utilizar el registro de facturas para crear facturas.
 author: abruer
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 07/31/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,66 +15,56 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6b870613512a8f4a5c19a0a05cd72b35ea32861b
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: f7d72c1d98100d1313109e8b5e55df02e2163174
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843226"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867711"
 ---
 # <a name="key-invoice-data-into-the-ap-system-using-invoice-pool"></a>Introducir datos de factura en el sistema de proveedores mediante un grupo de facturas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Esta guía de la tarea le mostrará cómo usar el registro de facturas para crear facturas.  A continuación use el grupo de facturas para que coincida con la factura de un pedido de compra y para finalizar el gasto en la página de la factura de proveedor.
+En este tema se describe cómo utilizar el registro de facturas para crear facturas. A continuación use el grupo de facturas para que coincida con la factura de un pedido de compra y para finalizar el gasto en la página de la factura de proveedor.
 
 
 ## <a name="create-a-purchase-order"></a>Crear un pedido de compra
-1. Vaya a Proveedores > Pedidos de compra > Pedidos de compra.
-2. Haga clic en Nuevo para crear un pedido de compra.
-3. En el campo Cuenta de proveedor, haga clic en el botón desplegable para abrir la búsqueda.
-4. Seleccionar el proveedor en la lista. Por ejemplo, el proveedor 1001.
-5. Haga clic en Aceptar
-6. En el campo Código de artículo, haga clic en el botón desplegable para abrir la búsqueda.
-7. Busque el número de artículo de servicios en la lista. Por ejemplo, seleccione S0001.
-8. Haga clic en el número de artículo y selecciónelo.
-    * El importe neto es 75,00.  Este es el importe que se espera en la factura.  
-9. En el panel de acciones, haga clic en Compra.
-10. Haga clic en Confirmar.
+1. En el Panel de exploración, vaya a **Módulos > Proveedores > Pedidos de compra > Pedidos de compra**.
+2. Seleccione **Nuevo** para crear un pedido de compra nuevo.
+3. En el campo **Cuenta de proveedor**, seleccione un proveedor en la lista desplegable. Por ejemplo, seleccione el proveedor **1001**.
+4. Seleccione **Aceptar**.
+5. En el campo **Número de artículo**, seleccione el número del artículo de servicios en la lista desplegable. Por ejemplo, **S0001**. El importe neto es 75,00.  Este es el importe que se espera en la factura.  
+6. En el panel de acciones, seleccione **Compra.**
+7. Seleccione **Confirmar**.
 
 ## <a name="create-and-post-and-invoice"></a>Crear y registrar una factura
-1. Vaya a Proveedores > Facturas > Registro de facturas.
-2. Haga clic en Nuevo.
+1. En el panel de exploración, vaya a **Módulos > Proveedores > Facturas > Registro de facturas**.
+2. Seleccione **Nuevo**.
 3. Abra la búsqueda para seleccionar el nombre del registro de facturas que desea usar.
 4. Seleccione el nombre del registro de facturas que desee usar.
-5. Haga clic en las líneas para abrir el registro y especificar las líneas de gastos.
-6. En la búsqueda, seleccione un proveedor. Por ejemplo, haga clic en el proveedor 1001.
-7. En el campo Factura, especifique el número de factura.
-8. En el campo Descripción, escriba un valor.
-9. En el campo Crédito, escriba un número.
-10. En el campo Pedido de compra, haga clic en el botón desplegable para abrir la búsqueda.
-11. Seleccione el pedido de compra que ha creado anteriormente.
-12. En el campo Aprobado por, haga clic en el botón desplegable para abrir la búsqueda.
-13. Resalte un aprobador y haga clic en Seleccionar para seleccionar el aprobador.
-14. Haga clic en Registrar.
-15. Cierre el formulario.
-16. Cierre el formulario.
+5. Seleccione **Líneas** para abrir el registro y especificar las líneas de gastos.
+6. En la búsqueda, seleccione un proveedor. Por ejemplo, seleccione el proveedor **1001**.
+7. En el campo **Factura**, especifique el número de factura.
+8. En el campo **Descripción**, escriba un valor.
+9. En el campo **Crédito**, escriba un número.
+10. En el campo **Pedido de compra**, abra la lista desplegable para seleccionar el pedido de compra que creó anteriormente.
+11. En el campo **Aprobado por**, resalte un aprobador en la lista desplegable y haga clic en **Seleccionar** para seleccione dicho aprobador.
+12. Seleccione **Registrar**.
 
 ## <a name="open-an-invoice-from-the-pool-and-match-it-to-a-purchase-order-to-complete-the-invoice-process"></a>Abrir una factura del grupo y conciliarla con un pedido de compra para completar el proceso de la factura
-1. Vaya a Proveedores > Facturas > Grupo de facturas.
-2. Haga clic en Pedido de compra para crear una factura de proveedor a partir de la factura del grupo.
+1. En el panel de exploración, vaya a **Módulos > Proveedores > Facturas > Grupo de facturas**.
+2. Seleccione **Pedido de compra** para crear una factura de proveedor a partir de la factura del grupo.
 3. Seleccione la factura que desea revisar.
-4. Haga clic en Actualizar estado de conciliación para completar la conciliación.
-5. En el panel de acciones, haga clic en Opciones.
-6. Haga clic en Cambiar vista.
-7. Haga clic en Vista de cuadrícula.
-8. Haga clic en Registrar.
+4. Seleccione **Actualizar estado de conciliación** para completar la conciliación.
+5. En el panel de acciones, seleccione **Opciones**.
+6. Seleccione **Cambiar vista**.
+7. Seleccione **Vista de cuadrícula**.
+8. Seleccione **Registrar**.
 9. Cierre el formulario.
-10. Vaya a Proveedores > Proveedores > Proveedores.
-11. Seleccione el proveedor que estaba en el pedido de compra. Por ejemplo, seleccione el proveedor 1001.
-12. En la lista, haga clic en el vínculo de la fila seleccionada.
-13. En el panel de acciones, haga clic en Proveedor.
-14. Haga clic en Transacciones.
-15. Seleccione la factura que ha creado.
-    * La acumulación de registro de facturas se ha invertido y registrado en la cuenta de gastos apropiada.  
+10. En el panel de exploración, vaya a **Módulos > Proveedores > Proveedores > Proveedores**.
+11. Seleccione el proveedor que estaba en el pedido de compra. Por ejemplo, seleccione el proveedor **1001**.
+12. En el panel de acciones, seleccione **Proveedor**.
+13. Seleccione **Transacciones**.
+14. Seleccione la factura que ha creado. La acumulación de registro de facturas se ha invertido y registrado en la cuenta de gastos apropiada.  
 
