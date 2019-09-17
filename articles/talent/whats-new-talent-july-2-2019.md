@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 32eb177da53ffa4cf8ecdc73a93e88f30778f69c
-ms.sourcegitcommit: a6b32be10b6eb6340f8f68261bf62d0202c03dd1
+ms.openlocfilehash: 7c474b0ba40db238db33cfa45ddde55cd0724a9b
+ms.sourcegitcommit: f5556189a80ad9f23f1af3333837eae034ddb247
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "1729800"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "1791985"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-july-02-2019"></a>Novedades o cambios en Dynamics 365 for Talent (2 de julio de 2019)
 
@@ -37,13 +37,18 @@ Este tema describe las características que son nuevas o que se han cambiado en 
 
 Ahora puede configurar parámetros del correo electrónico para enviar mensajes de correo electrónico a candidatos, entrevistadores, técnicos de selección de personal y administradores de contratación de la cuenta del servicio de correo electrónico de su organización. Para obtener más información, consulte [Conectar una cuenta de servicio de correo electrónico](./attract-configure-email-settings.md#connect-an-email-service-account).
 
-#### <a name="offer-email-templates"></a>Plantillas de correo electrónico de oferta 
+### <a name="offer-email-templates"></a>Plantillas de correo electrónico de oferta 
 
 Ahora puede configurar plantillas de correo electrónico de su organización para todas las etapas durante la preparación, la aprobación y la aceptación de la oferta. Los usuarios pueden usar la plantilla predeterminada o personalizarla antes de enviar un correo electrónico. Para obtener más información, consulte [Configurar parámetros de plantilla de correo electrónico](./attract-configure-email-settings.md#configure-email-template-settings).
 
 ### <a name="candidate-consent-on-application"></a>Consentimiento del candidato en la aplicación
 
 Ahora puede habilitar el vínculo de Términos y condiciones para su organización. Con esta configuración habilitada, los candidatos deben consentir los Términos y condiciones antes de enviar sus solicitudes de trabajo. 
+
+### <a name="coming-soon-in-attract"></a>Muy pronto en Attract
+#### <a name="job-approvals-appear-on-the-home-page"></a>Aprobaciones de trabajos que aparecen en la página principal
+
+Las Aprobaciones aparecen en una sección **Aprobaciones** en el panel de información. Los aprobadores pueden revisar sus aprobaciones en **Asignada a usted**, que muestra el id. de trabajo, el cargo, otros aprobadores y la fecha en la que se asignó el trabajo. Los usuarios que envían un trabajo para su aprobación pueden revisar los trabajos en **Solicitado por usted**, que muestra los aprobadores que aún deben aprobar el trabajo enviado.
 
 ## <a name="changes-in-onboard"></a>Cambios en Onboard
 

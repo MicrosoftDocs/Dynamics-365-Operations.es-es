@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e4ad32ef71c87f52e59959d80c21ae7fcd6d6524
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: fe24846ab98a75d474df045a62a72bfc41c64866
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519063"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741899"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-5-2019"></a>Novedades y cambios en Dynamics 365 for Talent (5 de marzo de 2019)
 
@@ -43,10 +43,10 @@ En Attract, hay varios campos que son conjuntos de opciones en Common Data Servi
 ## <a name="changes-in-onboarding"></a>Cambios en Onboarding
 
 ### <a name="private-preview-for-onboard-teams"></a>Versión preliminar privada para los equipos Onboard
-Ahora puede compartir y colaborar fácilmente en las plantillas de toda la organización. Para obtener más información, consulte [Compartir prácticas recomendadas en toda la organización mediante los equipos de Onboard](https://docs.microsoft.com/en-us/business-applications-release-notes/April19/dynamics365-talent/onboard/share-best-practices-teams).
+Ahora puede compartir y colaborar fácilmente en las plantillas de toda la organización. Para obtener más información, consulte [Compartir prácticas recomendadas en toda la organización mediante los equipos de Onboard](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-talent/onboard/share-best-practices-teams).
 
 ### <a name="private-preview-for-assignee-placeholders"></a>Vista previa privada para marcadores asignados
-Puede enriquecer las plantillas asignando actividades a roles en lugar de personas. Los roles se asignan a individuos en el momento de la creación de la Guía. Para obtener más información, consulte [Optimizar la administración de guías asignando actividades a roles](https://docs.microsoft.com/en-us/business-applications-release-notes/April19/dynamics365-talent/onboard/assign-activities-roles)
+Puede enriquecer las plantillas asignando actividades a roles en lugar de personas. Los roles se asignan a individuos en el momento de la creación de la Guía. Para obtener más información, consulte [Optimizar la administración de guías asignando actividades a roles](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-talent/onboard/assign-activities-roles)
 
 ## <a name="changes-in-core-hr"></a>Cambios en Core HR
 **Compilación 8.1.2178**
@@ -71,7 +71,7 @@ Con este cambio, al solicitar cambios en puestos ya existentes, los campos de n�
 En esta versión se incluyen otras correcciones de errores menores.
 
 ### <a name="upgrade-to-common-data-service"></a>Actualice a Common Data Service
-Las fechas límites para actualizarse a Common Data Service se acercan rápidamente. Inicie sesión en el centro de gestión de PowerApps para determinar si su base de datos debe actualizarse. Para obtener más información acerca de las fechas límites y de los pasos necesarios para realizar la actualización, consulte [Actualizar a Common Data Service](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
+Las fechas límites para actualizarse a Common Data Service se acercan rápidamente. Inicie sesión en el centro de gestión de PowerApps para determinar si su base de datos debe actualizarse. Para obtener más información acerca de las fechas límites y de los pasos necesarios para realizar la actualización, consulte [Actualizar a Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="coming-soon"></a>Próximamente
 
@@ -79,4 +79,4 @@ Las fechas límites para actualizarse a Common Data Service se acercan rápidame
 En muchas organizaciones, los administradores de compensación y prestaciones solo pueden acceder a ciertos registros de compensación, como registros para los ejecutivos o los empleados basados en regiones. Con este cambio, puede administrar y mantener los planes de compensación para distintos grupos de empleados en la organización. Se pueden asignar roles de seguridad a los planes fijos y variables, lo que determinará el acceso a los planes y los datos del empleado relacionados con los planes, como el salario y los registros de bonificaciones. Solo los roles con acceso podrán procesar la compensación para dichos empleados.
 
 ###  <a name="platform-update-24"></a>Actualización 24 de la plataforma
-Para obtener detalles adicionales sobre la actualización 24 de la plataforma, consulte [Novedades o cambios en la actualización 24 de la plataforma Finance and Operations (marzo de 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24)
+Para obtener detalles adicionales sobre la actualización 24 de la plataforma, consulte [Novedades o cambios en la actualización 24 de la plataforma Finance and Operations (marzo de 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24)

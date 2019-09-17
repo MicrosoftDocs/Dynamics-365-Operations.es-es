@@ -17,42 +17,24 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-03-19
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 9c27d1810a89ed7d7a7745e41c5f118dbdfe5dda
-ms.sourcegitcommit: cadce85ca3004d53caf6bc49147a524c1bfd421f
+ms.openlocfilehash: 936ff85a4dabb715cb83b875a5c58c9fb7a0ac26
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1590491"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739826"
 ---
-# <a name="post-jobs-to-external-career-sites-from-attract"></a>Registrar trabajos en sitios externos profesionales desde Attract
+# <a name="post-jobs-to-broadbean"></a>Publicar ofertas de empleo en Broadbean
 
 [!include [banner](../includes/banner.md)]
 
-Usted quiere presentar sus vacantes a tantos candidatos cualificados como sea posible. Los sitios de contratación como Broadbean se lleva a cabo este objetivo. Microsoft Dynamics 365 Talent: Attract ahora le permite registrar trabajos en Broadbean y Microsoft proporciona constantemente nuevas ofertas en esta área.
+Microsoft Dynamics 365 for Talent: Attract ayuda a obtener el talento que necesita dejándole enviar sus trabajos directamente de Attract a Broadbean. Tras [crear un trabajo](./creating-jobs-attract.md) sólo tiene que hacer clic en un botón para poner el trabajo delante de todos los candidatos potenciales en Broadbean.
 
-## <a name="post-jobs-to-broadbean"></a>Registrar trabajos en Broadbean
+Enviar trabajos a Broadbean requiere una licencia adecuada de Broadbean. Broadbean proporciona diversos productos y planes. Para obtener más información acerca de licencias y precios de Broadbean, [póngase en contacto con Broadbean](https://www.broadbean.com/contact-us/).
 
-Antes de poder registrar trabajos en Broadbean debe configurar la integración con Broadbean.
+Si es administrador y necesita obtener más información sobre cómo configurar la integración de Broadbean con Attract, consulte [Especificar valores para plataformas de trabajo externas](./attract-admin-job-board-settings.md).
 
-> [!NOTE]
-> - Para registrar trabajos en los sitios externos, debe tener el [Complemento de contratación completo](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
-> - Para registrar trabajos a en Broadbean a través de Attract, debe tener una suscripción de Broadbean.
-> - Esta característica está actualmente en vista previa. Si desea probarlo, debe [activarlo en la configuración de administrador de Attract](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).
-
-### <a name="configure-broadbean-integration"></a>Configurar integración de Broadbean
-
-1. Iniciar sesión en Attract como administrador.
-2. Seleccione el botón **Configuración** (el símbolo de engranaje) en la esquina superior derecha de la página y a continuación seleccione **Centro de administración**.
-3. En la pestaña **Configuración de oportunidades de trabajo** , en la sección **Integración de Broadbean**, active la integración.
-4. Póngase en contacto con Broadbean y introduzca su información en **Nombre de usuario, identificador de cliente, token de cifrado**.
-
-> [!WARNING]
-> Sus credenciales de Broadbean son importantes y confidenciales. Por lo tanto, almacénelas y compártalas de forma responsable. Cualquiera que tenga un rol de administrador en Attract puede ver estas credenciales.
-
-> [!NOTE]
-> Microsoft y Attract no están involucradas en crear y mantener estos valores. Es su responsabilidad mantenerlas actualizadas en Attract y trabajar con Broadbean para resolver los problemas relacionados con sus credenciales.
-
-### <a name="post-a-job-to-broadbean"></a>Registrar un trabajo en Broadbean
+## <a name="post-jobs-to-broadbean"></a>Publicar ofertas de empleo en Broadbean
 
 Una vez Broadbean está activado, los reclutadores y los administradores pueden registrar un trabajo. Debe tener una URL de solicitud para el trabajo.
 
@@ -80,7 +62,7 @@ Una vez que Broadbean complete con éxito correctamente el registro, la sección
 Después de registrar un trabajo en Broadbean, podrá verlo desde Attract.
 
 1. En Attract, abra el trabajo que desee ver en Broadbean.
-2. En la sección **Registros** , seleccione los puntos suspensivos (**…**) que corresponden a la haba y, a continuación seleccione **Ver**.
+2. En la pestaña **Registros** , seleccione los puntos suspensivos (**…**) que corresponden a Broadbean y, a continuación, seleccione **Ver**.
 
 El registro de empleo de la Broadbean aparece en una ventana nueva.
 
@@ -107,10 +89,16 @@ Puede quitar una oferta de trabajo de Broadbean según sea necesario.
 
 Una vez que Broadbean quite el trabajo, el artículo de Broadbean en Attract tendrá un botón **Registrar ahora**. La presencia de este botón indica que el trabajo se ha quitado y se puede volver a registrar.
 
-### <a name="troubleshoot-the-broadbean-integration"></a>Solución de problemas de la integración con Broadbean
+### <a name="troubleshoot-job-posting-to-broadbean"></a>Solución de problemas de registro de trabajos en Broadbean
 
 Si está teniendo problemas registrando un trabajo en Broadbean, intente estos pasos.
 
 1. Compruebe que las credenciales de Broadbean que ha especificado en Attract son válidas y correctas.
 2. Si las credenciales son válidas y correctas, contacte con el [Soporte técnico de Broadbean](https://www.broadbean.com/resources/support/).
 3. Si el problema continúa, contacte con el [Soporte técnico de Microsoft](./talent-support.md).
+
+## <a name="see-also"></a>Consulte también
+
+[Crear trabajos](./creating-jobs-attract.md)
+
+[Especificar valores para plataformas de trabajo externas](./attract-admin-job-board-settings.md)

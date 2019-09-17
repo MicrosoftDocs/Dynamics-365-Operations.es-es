@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-05-13
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: dac453ee83492655b6681b9784af4712bf39fc2a
-ms.sourcegitcommit: 2bbc0eeca6826c529fb729b82d16f287c1ce05bb
+ms.openlocfilehash: ffeeb3e2f5279a84c4c060b04fe46836b778f6c5
+ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1591511"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "1856457"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-may-13-2019"></a>Novedades y cambios en Dynamics 365 for Talent (13 de mayo de 2019)
 
@@ -47,7 +47,7 @@ Los cambios que se describen en esta sección se aplican a la compilación núme
 
 ### <a name="indicate-instance-type-when-provisioning-talent"></a>Indicar el tipo de instancia al aprovisionar Talent
 
-Al aprovisionar una nueva instancia de Talent, podrá indicar si el tipo de instancia es **Producción** o **Espacio aislado**, lo que permite la prueba temprana de nuevas características. Todas las instancias existentes de Talent se actualizarán el tipo de instancia de **Producción**. Si desea que una de las instancias existentes se actualicen al tipo de instancia de **Espacio aislado**, contacte con el [Soporte](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/talent-support) para iniciar la solicitud de cambio.
+Al aprovisionar una nueva instancia de Talent, podrá indicar si el tipo de instancia es **Producción** o **Espacio aislado**, lo que permite la prueba temprana de nuevas características. Todas las instancias existentes de Talent se actualizarán el tipo de instancia de **Producción**. Si desea que una de las instancias existentes se actualicen al tipo de instancia de **Espacio aislado**, contacte con el [Soporte](https://docs.microsoft.com/dynamics365/unified-operations/talent/talent-support) para iniciar la solicitud de cambio.
 
 ### <a name="common-data-service-entity-support-for-custom-fields"></a>Soporte de la entidad de Common Data Service para los campos personalizados
 

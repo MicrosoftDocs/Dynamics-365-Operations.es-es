@@ -1,9 +1,9 @@
 ---
-title: Actividades en los proceso
-description: Este tema proporciona información sobre los distintos tipos de actividades que se pueden usar en el proceso de contratación.
+title: Actividades en los procesos en Microsoft Dynamics 365 for Talent - Attract
+description: Este tema proporciona información sobre los distintos tipos de actividades que se pueden usar en el proceso de contratación en Microsoft Dynamics 365 for Talent - Attract.
 author: hasrivas
 manager: AnnBe
-ms.date: 04/10/2019
+ms.date: 05/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: c975b95e4195c795ec4c816b1f3a50461715feea
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 4d52f3a384ad2a54986d1bd23baeefbaae30c9e2
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519062"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739733"
 ---
-# <a name="activities-in-the-hiring-processes"></a>Actividades en los procesos de contratación
+# <a name="activities-in-hiring-processes"></a>Actividades en los procesos de contratación
 
 [!include[banner](../includes/banner.md)]
 
@@ -37,6 +37,9 @@ Las actividades se pueden agregar como parte del proceso de contratación de Mic
 ## <a name="prospect-activity"></a>Actividad de candidatos potenciales
 
 La actividad del candidato potencial controla si los candidatos potenciales se pueden agregar a un trabajo. De forma predeterminada, los candidatos potenciales se pueden agregar a un trabajo. Para desactivar la actividad del candidato potencial, establezca la opción **Habilitar candidatos viables** en **Desactivado**. Cuando está activada la actividad de candidatos potenciales, los administradores de contratación pueden agregar y ver candidatos potenciales, y la pestaña **Candidato viable** se muestra en el trabajo.
+
+> [!NOTE]
+> Para permitir que se agreguen candidatos a un trabajo de LinkedIn, debe establecer la opción **Habilitar clientes potenciales** en **Activado**.
 
 ## <a name="application-activity"></a>Actividad de solicitud
 

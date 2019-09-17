@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: a9ebfd1f2621b8ad65d7623c37b6851cc0b5cb54
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: 0b455a8194f58b41a349f004ceda8183c7ee3f7c
+ms.sourcegitcommit: 9f94eff93d29bc27352569824e00bbccc2f961b8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577804"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "1781451"
 ---
 # <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>Extender Talent mediante PowerApps y Microsoft Flow - escenarios de ejemplo
 
@@ -101,24 +101,15 @@ Esta plantilla puede ser ampliada para que pueda usar para cualquier escenario q
 
 Para descargar la plantilla **Flow – Integración con SharePoint**, vaya a [Flow – Integración con SharePoint](https://go.microsoft.com/fwlink/?linkid=2082109) en el Centro de descarga de Microsoft.
 
-## <a name="admin-console-to-manage-talent-pools"></a>Consola de administración para administrar las reservas de talentos
+## <a name="referral-app"></a>Aplicación de referencia
+Puede usar la aplicación de referencia para agregar candidatos a una reserva de talentos compartida. La persona que hace la referencia puede especificar el **Nombre**, **Apellidos**, **Correo electrónico**y **Dirección URL de Linkedln** , al registrar un candidato. Luego los metadatos de origen del candidato se rellenan con la información de la persona que hace la referencia.
 
-Si habilita la integración con LinkedIn, Attract automáticamente crea una reserva de talentos de LinkedIn. Cuando un reclutador intercambia InMail con un empleado nuevo mediante LinkedIn, Attract crea un perfil para el empleado nuevo, y este se hace miembro de la reserva de talentos de LinkedIn. Esta aplicación de PowerApps es útil para reorganizar candidatos en las reservas de talentos basadas en aptitudes.
+Puede insertar esta aplicación en el autoservicio para empleados (ESS) para enviar referencias o puede usarla como hipervínculo en el portal corporativo y ejecutarla como aplicación independiente.
 
-Ejecute esta aplicación de PowerApps como consola de administración para realizar las siguientes tareas:
-
-- Listar candidatos en un grupo de talentos
-- Agregar y eliminar candidatos de un grupo de talentos
-- Trasladar a los candidatos de una reserva de talentos a otra
-- Determinar si los candidatos ya son parte de una reserva de talentos antes de moverlos
-- Comprobar las aptitudes de los candidatos antes de moverlos a otras reservas de talentos
-
-Esta aplicación de PowerApps usa relaciones de varios a varios, por lo que puede usarla como plantilla para otros escenarios donde debe extraer los registros con relaciones de varios a varios.
-
-Para descargar la plantilla **Consola de administración administrar las reservas de talentos** vaya a la [Consola de administración administrar las reservas de talentos](https://www.microsoft.com/downloads/details.aspx?FamilyID=780a5eee-0e2a-4159-9a83-009f9ccdc469) en el Centro de descarga de Microsoft.
+Para descargar **Aplicación de referencia**, [solución de extensibilidad de Dynamics 365 for Talent: Aplicación de referencia](http://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d) en al Centro de descargas de Microsoft. Puede importar esta aplicación y personalizarla para agregar una funcionalidad adicional.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [La Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)
 
-[Migrar la aplicación entre arrendatarios y entornos](https://docs.microsoft.com/en-us/power-platform/admin/environment-and-tenant-migration)
+[Migrar la aplicación entre arrendatarios y entornos](https://docs.microsoft.com/power-platform/admin/environment-and-tenant-migration)

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 38641d6a84340112ce15335533795ed7faf91123
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: ee8e076174acba8e706991f3086d6299a10945ec
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519051"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742502"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-14-2019"></a>Novedades y cambios en Dynamics 365 for Talent (14 de marzo de 2019)
 
@@ -47,7 +47,7 @@ Los cambios realizados en esta versión habilitan escenarios de gestión del ren
 Con este cambio, ahora puede seleccionar varios empleados y asignar en masa una o varias listas de comprobación a dichos empleados. 
 
 ### <a name="platform-update-24"></a>Actualización 24 de la plataforma
-Para obtener detalles adicionales sobre la actualización 24 de la plataforma, consulte [Novedades o cambios en la actualización 24 de la plataforma Finance and Operations (marzo de 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24) Cambios relevantes incluidos en la plataforma 24: 
+Para obtener detalles adicionales sobre la actualización 24 de la plataforma, consulte [Novedades o cambios en la actualización 24 de la plataforma Finance and Operations (marzo de 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24) Cambios relevantes incluidos en la plataforma 24: 
 
 - Las alertas se habilitan en Talent.
 - La barra de navegación actualizada ahora se alínea con el encabezado de Oficina.
