@@ -3,7 +3,7 @@ title: Crear, aprobar y publicar trabajos en Attract
 description: Este tema describe los elementos de un trabajo en Attract. También se explica cómo crear un trabajo.
 author: hasrivas
 manager: AnnBe
-ms.date: 03/20/2019
+ms.date: 07/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: hasrivas
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 1e76572c1a843fe7abd515333d5b7cb03b91eb11
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 351fd03f6a27073b850729e2eef5516556292225
+ms.sourcegitcommit: b24c36cdd3b6f6085447bf81cb034d13d5b081fe
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519012"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "1773274"
 ---
-# <a name="create-approve-and-post-jobs-in-attract"></a>Crear, aprobar y publicar trabajos en Attract
+# <a name="create-a-job"></a>Crear una oferta de empleo
 
 [!include [banner](includes/banner.md)]
 
@@ -81,33 +81,6 @@ Para obtener más información acerca de registros de trabajo, consulte [La func
 > [!NOTE]
 > La funcionalidad de registro de trabajo está disponible únicamente con el complemento de contratación completa de Attract.
 
-### <a name="posting-jobs-to-linkedin"></a>Publicación de trabajos en LinkedIn 
-
-Antes de registrar un trabajo desde Attract hasta LinkedIn, el administrador debe agregar el identificador de empresa de LinkedIn y el nombre de empresa de LinkedIn en **Configuración de administración**. El identificador de empresa de LinkedIn es necesario para asegurarse de que los trabajos que ha publicado desde Attract se asignan a la página correcta de empresa.
-
-Su identificador de empresa de LinkedIn es una cadena de números que identifica de forma exclusiva su empresa dentro de LinkedIn. Para obtener más información sobre cómo encontrar su identificador de empresa de LinkedIn, visite el [sitio de LinkedIn](https://aka.ms/findID).
-
-Para actualizar su empresa de LinkedIn, seleccione **centro de administración** en el menú **Configuración** (el símbolo de engranaje) y, a continuación la ficha **Integración de LinkedIn** . En la sección **Conectar con LinkedIn** , escriba su nombre de empresa de LinkedIn y el ID de empresa y luego guarde los valores.
-
-> [!NOTE]
-> Existen cuatro elementos importantes que hay que tener en cuenta sobre el proceso de oferta de empleo en LinkedIn.
-> 1. Los trabajos enviados a LinkedIn se registran como trabajos de "listas limitadas”. Los trabajos de listas limitadas no se pueden promocionar por todo el sitio de LinkedIn. Si desea promocionar trabajos de listas limitadas enviados a LinkedIn desde Attract, debe trabajar con LinkedIn para habilitar el “ajuste de trabajo”. Consulte los vínculos siguientes y póngase en contacto con el soporte de LinkedIn para obtener más detalles.
->
->    [Listas limitadas y registros de trabajos premium para el ajuste de trabajo](https://www.linkedin.com/help/recruiter/answer/79049/limited-listings-vs-premium-job-slots-for-job-wrapping)
->
->    [Preguntas más frecuentes de ajuste de trabajo](https://www.linkedin.com/help/recruiter/answer/79050/job-wrapping-frequently-asked-questions)
->
-> 1. Al registrar trabajos en LinkedIn, Attract pasa el nombre de la organización Microsoft 365 con el trabajo. LinkedIn vincula los trabajos a una empresa en el lado de LinkedIn basándose en el nombre de la organización que se pasa. Si su trabajo se muestra con la empresa errónea en LinkedIn, compruebe que su nombre de la organización de Microsoft 365 coincide con el nombre de la empresa en LinkedIn.  
->
->    [Cambio de dirección de contacto y más](https://docs.microsoft.com/en-us/office365/admin/manage/change-address-contact-and-more)
->
->    Si tiene problemas después de que este paso, contacte con el soporte de LinkedIn. 
-> 
-> 1. Los trabajos enviados a LinkedIn aparecen en el sitio de LinkedIn activo. No hay entorno de prueba para registrar trabajos en LinkedIn. 
->
-> 1. Puede tardar hasta 24 horas que los trabajos enviados a LinkedIn estén visibles para candidatos de dentro de LinkedIn, como consecuencia del proceso de registro actual de trabajos por lotes de LinkedIn.
-
-
 ## <a name="activate"></a>Activar
 
 Después de que se active un trabajo, este se puede registrar, y se le pueden agregar los clientes potenciales y los candidatos. La opción para agregar clientes potenciales a un trabajo se establece en la actividad del cliente potencial en el proceso de contratación.
@@ -142,7 +115,7 @@ Si un usuario edita el trabajo después de que se apruebe, pero no está activad
 Las personas que figuran como aprobadores recibirán una notificación en Attract y un correo electrónico para informarles de que tienen un elemento por aprobar.  En el correo electrónico, los aprobadores pueden hacer clic en el vínculo para abrir el trabajo, revisar los detalles, y aprobarlo o rechazarlo. Después de que el valor del estado del trabajo pase a **Aprobado** o **Rechazado**, se notificará al usuario en Attract y recibirá un correo electrónico. Además, los aprobadores recibirán un correo electrónico de alerta si no han respondido a la solicitud de aprobación en 24 horas.
 
 > [!NOTE]
-> Puede crear plantillas de correo electrónico personalizadas de los correos electrónicos de aprobación. Para obtener más información, consulte [Crear y gestionar plantillas de correo electrónico](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/email-templates).
+> Puede crear plantillas de correo electrónico personalizadas de los correos electrónicos de aprobación. Para obtener más información, consulte [Crear y gestionar plantillas de correo electrónico](https://docs.microsoft.com/dynamics365/unified-operations/talent/email-templates).
 
 ## <a name="create-a-job"></a>Creación de un trabajo
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 301e3213fa0988faba83ee42b840646a20c70a98
-ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
+ms.openlocfilehash: beb54753c50e398197353f86c2a1239a96b879eb
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1620629"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741761"
 ---
 # <a name="intelligent-recommendations"></a>Recomendaciones inteligentes
 
@@ -32,7 +32,7 @@ ms.locfileid: "1620629"
 El aprendizaje automático puede ayudar reclutadores y a los administradores de contratación a identificar rápidamente a los candidatos mejor situados para un puesto. También puede ayudar a los candidatos viables a encontrar el puesto que mejor se adapta a su perfil e intereses. A medida que se usan estas características, y se proporcionan valoraciones, las recomendaciones mejorarán.
 
 > [!NOTE] 
-> - Las características de recomendación inteligente solo están disponibles con el [Complemento de contratación completa](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
+> - Las características de recomendación inteligente solo están disponibles con el [Complemento de contratación completa](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
 > - La funcionalidad de la que se habla en este tema esta disponible como parte de una versión preliminar. El contenido y la funcionalidad están sujetos a cambios. Para utilizar esta función, pida que un administrador la active usando la **Centro de administración** en Attract. Establezca **Recomendación del candidato**, **Recomendación de trabajo**, y **Recomendación del candidato** a **Activado**. Para obtener más información, consulte [Acceder a las características de vista previa en Talent](./access-preview-feature.md). 
 
 

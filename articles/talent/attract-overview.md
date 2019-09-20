@@ -1,6 +1,6 @@
 ---
-title: Características y capacidades de Attract
-description: Este tema describe las características que Attract proporciona para gestionar el proceso de contratar nuevos talentos.
+title: Características y funcionalidades de Microsoft Dynamics 365 for Talent - Attract
+description: Este tema describe las características que Microsoft Dynamics 365 for Talent - Attract proporciona para gestionar el proceso de contratar nuevos talentos.
 author: andreabichsel
 manager: AnnBe
 ms.date: 04/30/2019
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6b76913ea5a3e9a2e935d8b0cfde88dd721cb5db
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 9e22cddcd1845cc06f5948bcc062d044995c1cbd
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519061"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739619"
 ---
-# <a name="attract-features-and-capabilities"></a>Características y capacidades de Attract
+# <a name="attract-features-and-capabilities"></a>Características y funcionalidades de Attract
 
 [!include [banner](includes/banner.md)]
 

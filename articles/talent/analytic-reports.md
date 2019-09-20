@@ -1,6 +1,6 @@
 ---
-title: Usar informes analíticos para obtener información del proceso de contratación
-description: Este tema describe los informes analíticos en Attract
+title: Utilizar informes de análisis en Microsoft Dynamics 365 for Talent - Attract
+description: Este tema describe los informes analíticos para el proceso de contratación en Microsoft Dynamics 365 for Talent - Attract
 author: fewatson
 manager: AnnBe
 ms.date: 04/30/2019
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: fewatson
 ms.search.validFrom: 2019-04-30
 ms.dyn365.ops.version: Talent April 2019 update
-ms.openlocfilehash: 33ed6072a9ad99144fb96ad19389a57461324f71
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: f69c45e885d789d05a081064f30ccd6ce6bfec52
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1516569"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742899"
 ---
-# <a name="use-analytic-reports-for-hiring-process-insights"></a>Usar informes analíticos para obtener información del proceso de contratación
+# <a name="use-analytic-reports"></a>Usar informes analíticos
 
 Los informes analíticos en Attract proporcionan una solución de (OOTB) lista para usarse y obtener información del proceso de contratación. Entre las características disponibles se incluyen:
 
@@ -81,8 +81,8 @@ Los informes de Análisis de trabajo muestran datos para el trabajo seleccionado
 
 ## <a name="cross-filter"></a>Filtro cruzado
 
-Una de las grandes características de Power BI es la forma que todas las representaciones visuales en una página del informe se interconectan. Si selecciona un punto de datos en una de las representaciones visuales, el resto de representaciones visuales en la página que contengan ese dato cambiarán, basándose en esa selección. Descubra más y ver un ejemplo en [Cómo las representaciones cruzadas usan filtros cruzados en un informe de Power BI](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-interactions).
+Una de las grandes características de Power BI es la forma que todas las representaciones visuales en una página del informe se interconectan. Si selecciona un punto de datos en una de las representaciones visuales, el resto de representaciones visuales en la página que contengan ese dato cambiarán, basándose en esa selección. Descubra más y ver un ejemplo en [Cómo las representaciones cruzadas usan filtros cruzados en un informe de Power BI](https://docs.microsoft.com/power-bi/consumer/end-user-interactions).
 
 ## <a name="export-to-excel"></a>Exportar a Excel
 
-Para ver los datos del informe en Excel, puede hacer clic en el menú de las opciones (tres puntos) en una representación visual y seleccionar **Exportar los datos subyacentes**. Los datos exportados se exportarán filtrados, respetando los permisos de usuario en Attract. Para obtener más información, consulte [Exportar los datos de visualizaciones](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-export-data).
+Para ver los datos del informe en Excel, puede hacer clic en el menú de las opciones (tres puntos) en una representación visual y seleccionar **Exportar los datos subyacentes**. Los datos exportados se exportarán filtrados, respetando los permisos de usuario en Attract. Para obtener más información, consulte [Exportar los datos de visualizaciones](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-export-data).

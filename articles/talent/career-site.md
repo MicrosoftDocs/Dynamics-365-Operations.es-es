@@ -1,6 +1,6 @@
 ---
-title: La funcionalidad del sitio de Proyectos profesionales en Attract
-description: Este tema proporciona una visión general de la funcionalidad del sitio de Proyectos profesionales para el candidato en Attract
+title: Configurar su sitio de desarrollo profesional en Microsoft Dynamics 365 for Talent - Attract
+description: Este tema proporciona una visión general de la funcionalidad del sitio de Proyectos profesionales para el candidato en Microsoft Dynamics 365 for Talent - Attract.
 author: hasrivas
 manager: AnnBe
 ms.date: 03/20/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: e51fb00536884d2b3815c05a0968714d8b9326f2
-ms.sourcegitcommit: a6b32be10b6eb6340f8f68261bf62d0202c03dd1
+ms.openlocfilehash: 32fb5e0c00b80653cf32f37a21f94aa448a20191
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "1729712"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739780"
 ---
-# <a name="career-site-functionality-in-attract"></a>La funcionalidad del sitio de Proyectos profesionales en Attract
+# <a name="set-up-your-career-site"></a>Configurar su sitio de desarrollo profesional
 
 [!include[banner](../includes/banner.md)]
 
@@ -131,7 +131,7 @@ Puede facilitarles a los candidatos solicitar sus puestos configurando Attract p
 1. Iniciar sesión en Attract como administrador.
 2. Seleccione el botón **Configuración** (el símbolo de engranaje) en la esquina superior derecha de la página y a continuación seleccione **Centro de administración**.
 3. Seleccione la pestaña **Integración con LinkedIn** y conecte con una cuenta de LinkedIn Recruiter.
-4. En la sección **Integración con LinkedIn Recruiter System Connect**, seleccione **Habilitado** para la configuración **Solicitar con LinkedIn** .
+4. En la sección **Integración con LinkedIn Recruiter System Connect**, seleccione **Habilitado** para el valor **Solicitar con LinkedIn**.
 
 Una vez que haya habilitado el valor, los candidatos pueden solicitar mediante los datos existentes del perfil de LinkedIn. Cuando los candidatos solicitan eligiendo el botón **Solicitar con LinkedIn** , se les pedirá autenticar con LinkedIn si todavía no han iniciado sesión. Una vez que se hayan autenticado, su perfil de LinkedIn reemplaza los datos del perfil existente que se muestra en la página de la solicitud. Los candidatos pueden editar la información si es necesario y después enviar la solicitud. Si un candidato navega fuera de la página sin solicitar el trabajo, su información del perfil no se actualiza en Attract.
 

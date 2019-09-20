@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: trkeya
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: 803c935493a4080b8c1d0ef92bbe7db601f3ca03
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 448fceccb507bec5b60b686043a303c1997a9ac0
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519024"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742687"
 ---
 # <a name="track-changes-in-recruiting-data"></a>Seguir los cambios en los datos de contratación
 
 Puede realizar el seguimiento de cambios realizados a los candidatos, las vacantes de trabajo, o a las solicitudes de trabajo mediante el procesado de auditorías. Esto resulta útil para informar o motivos de conformidad.
 
-Puede ver los datos seguidos en Power BI usando el conector de OData. Para obtener más información, consulte [Conectar con fuentes OData en Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-connect-odata).
+Puede ver los datos seguidos en Power BI usando el conector de OData. Para obtener más información, consulte [Conectar con fuentes OData en Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-connect-odata).
 
 ## <a name="track-changes"></a>Seguir cambios
 Para configurar el seguimiento de los cambios en los datos de contratación, siga estos pasos:

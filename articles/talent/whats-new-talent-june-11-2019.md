@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-11
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 42b9541b152d2a6daa1dbf95ecf30a2f51eb36f3
-ms.sourcegitcommit: 31a918d357a7182f3870713a9c4455bd5c44cd58
+ms.openlocfilehash: a1413ea43e852c78ede227b69c0f49c07944a872
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/18/2019
-ms.locfileid: "1634489"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741635"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-june-11-2019"></a>Novedades o cambios en Dynamics 365 for Talent (11 de junio de 2019)
 
@@ -76,9 +76,9 @@ Se ha agregado la entidad Grupo de tareas.
 
 ### <a name="preview-features-will-be-enabled-only-in-sandbox-environments"></a>Las características de vista previa solo se habilitarán en entornos de espacio aislado
 
-Para obtener más información sobre cómo se publican los cambios, consulte [Aprovisionar Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).
+Para obtener más información sobre cómo se publican los cambios, consulte [Aprovisionar Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent).
 
-Al aprovisionar una nueva instancia de Talent, puede indicar si el tipo de instancia es Producción o Espacio aislado. El tipo de instancia Espacio aislado permite la prueba temprana de nuevas características. Todas las instancias existentes de Talent se actualizarán el tipo de instancia de **Producción**. Si desea que una de las instancias existentes se actualicen al tipo de instancia de **Espacio aislado**, contacte con el [Soporte](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/talent-support) para iniciar la solicitud de cambio.
+Al aprovisionar una nueva instancia de Talent, puede indicar si el tipo de instancia es Producción o Espacio aislado. El tipo de instancia Espacio aislado permite la prueba temprana de nuevas características. Todas las instancias existentes de Talent se actualizarán el tipo de instancia de **Producción**. Si desea que una de las instancias existentes se actualicen al tipo de instancia de **Espacio aislado**, contacte con el [Soporte](https://docs.microsoft.com/dynamics365/unified-operations/talent/talent-support) para iniciar la solicitud de cambio.
 
 ### <a name="restrict-the-leave-types-in-time-off-requests"></a>Limite los tipos de baja en las solicitudes de tiempo de indisponibilidad
 

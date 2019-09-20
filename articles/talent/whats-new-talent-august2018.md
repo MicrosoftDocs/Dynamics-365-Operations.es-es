@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-08-27
 ms.dyn365.ops.version: Talent August 2018 update
-ms.openlocfilehash: be76f29dc9d38cdf3c2d56120a830acae69937a4
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 3327939137486038b9002029c7c9e8d65dfa2f64
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518994"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742618"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-august-2018"></a>Novedades y cambios en Dynamics 365 for Talent Core HR (agosto de 2018)
 
@@ -81,7 +81,7 @@ Cuando está configurado para utilizar una de las fechas específicas de un empl
 
 Las plantillas de documento se han habilitado en todo Core HR. Esta función permite crear cartas e informes basados en las plantillas de Word que cree.
 
-La información adicional sobre esta característica está disponible en [Tutorial de integración de Office](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-tutorial?toc=/dynamics365/unified-operations/talent/toc.json).
+La información adicional sobre esta característica está disponible en [Tutorial de integración de Office](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-tutorial?toc=/dynamics365/unified-operations/talent/toc.json).
 
 
 ## <a name="other-fixes"></a>Otras correcciones

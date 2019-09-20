@@ -3,7 +3,7 @@ title: Definir y gestionar un programa de prestaciones
 description: Los Recursos humanos ofrecen una serie de herramientas que se pueden usar para configurar y mantener prestaciones, deducciones y los planes de compensación de los trabajadores que una organización ofrece o procesa para sus trabajadores. En este artículo se ofrece información acerca de cómo configurar y gestionar prestaciones.
 author: andreabichsel
 manager: AnnBe
-ms.date: 11/01/2017
+ms.date: 07/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 033377f7d45bfa2b798c098be2dde0c21739bb51
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 5c54e5fccd7ddc5f8f024e692bb46f4140134578
+ms.sourcegitcommit: 282f05635a7b933fe9bdda7a8187f322ed5ede17
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519073"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "1755406"
 ---
 # <a name="define-and-manage-a-benefits-program"></a>Definir y gestionar un programa de prestaciones
 
@@ -38,7 +38,8 @@ Para que los trabajadores puedan inscribirse en prestaciones, debe crear los ele
 
 [![Flujo del proceso de prestaciones](./media/benefit-process-flow1.png)](./media/benefit-process-flow1.png)
 
-## <a name="benefit-elements"></a>Elementos de prestación
+## <a name="benefit-elements"></a>Elementos de beneficio
+
 Para poder comenzar a crear prestaciones e inscribir trabajadores en ellas, debe definir los elementos que componen una prestación: el tipo, el plan y las opciones.
 
 -   **Tipo**: un conjunto de planes de una prestación determinada, como cobertura médica o estacionamiento pagado.
