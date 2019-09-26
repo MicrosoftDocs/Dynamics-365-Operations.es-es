@@ -1,2 +1,0 @@
-> [!NOTE]
-> <span data-ttu-id="fcff6-101">Esto tema está relacionado tanto con Dynamics 365 for Finance and Operations como Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="fcff6-101">This topic applies to both Dynamics 365 for Finance and Operations and to Dynamics 365 for Retail.</span></span> 
