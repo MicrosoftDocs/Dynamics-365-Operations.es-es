@@ -1,5 +1,5 @@
 - name: Dynamics 365 for Talent
-  href: index.md
+  href: index.yml
   items:
     - name: Introducción
       items:
@@ -8,6 +8,14 @@
         - name: Novedades y cambios en Talent
           href: whats-new.md
           items:
+            - name: 1 de octubre de 2019
+              href: whats-new-talent-october-1-2019.md
+            - name: 17 de septiembre de 2019
+              href: whats-new-talent-september-17-2019.md
+            - name: 10 de septiembre de 2019
+              href: whats-new-talent-september-12-2019.md
+            - name: 27 de agosto de 2019
+              href: whats-new-talent-august-28-2019.md
             - name: 22 de agosto de 2019
               href: whats-new-talent-august-21-2019.md
             - name: 13 de agosto de 2019
@@ -24,16 +32,16 @@
               href: whats-new-talent-july-9-2019.md
             - name: 2 de julio de 2019
               href: whats-new-talent-july-2-2019.md
-            - name: 25 de junio de 2019
-              href: whats-new-talent-june-25-2019.md
-            - name: 18 de junio de 2019
-              href: whats-new-talent-june-18-2019.md
-            - name: 11 de junio de 2019
-              href: whats-new-talent-june-11-2019.md
-            - name: 4 de junio de 2019
-              href: whats-new-talent-june-4-2019.md
-            - name: Novedades de 2019 archivadas
+            - name: Novedades en los archivos 2019
               items:
+                - name: 25 de junio de 2019
+                  href: whats-new-talent-june-25-2019.md
+                - name: 18 de junio de 2019
+                  href: whats-new-talent-june-18-2019.md
+                - name: 11 de junio de 2019
+                  href: whats-new-talent-june-11-2019.md
+                - name: 4 de junio de 2019
+                  href: whats-new-talent-june-4-2019.md
                 - name: 28 de mayo de 2019
                   href: whats-new-talent-may-28-2019.md
                 - name: 21 de mayo de 2019
@@ -112,7 +120,7 @@
           href: remove-talent-environment.md
         - name: Aprovisionamiento para la aplicación Onboard
           href: modular-app-tech-faq.md
-        - name: Integrar aplicaciones de PowerApps
+        - name: Insertar aplicaciones de PowerApps
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Core HR y Common Data Service
           href: CoreHREntities.md
@@ -427,6 +435,8 @@
           href: corehr-custom-fields.md
     - name: Solucionar problemas de Talent
       items:
+        - name: Optimizar el rendimiento con tareas automáticas de limpieza
+          href: talent-batch-history-cleanup.md
         - name: Solucionar problemas de publicación de trabajos en LinkedIn
           href: attract-troubleshoot-linkedin.md
         - name: Los informes de análisis no están actualizados
