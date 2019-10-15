@@ -1,6 +1,6 @@
 ---
 title: Configuración de costes para la gestión de pedidos distribuida (DOM)
-description: En este tema se describe la configuración de costes para la funcionalidad de gestión de pedidos distribuida (DOM) de Microsoft Dynamics 365 for Retail.
+description: En este tema se describe la configuración de costes para la funcionalidad de gestión de pedidos distribuida (DOM) de Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 12/05/2018
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-12-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 80e7a033467c3d94d55f06daa05f99bd27e19a29
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: b5e3e1997f3d3b61b7b3c7486f5531e386293537
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606788"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019448"
 ---
 # <a name="cost-configuration-for-distributed-order-management-dom"></a>Configuración de costes para la gestión de pedidos distribuida (DOM)
 
@@ -31,7 +31,7 @@ ms.locfileid: "1606788"
 
 Las organizaciones tienen en cuenta varios componentes de costes para determinar la ubicación óptima desde la que satisfacer un pedido. Algunos de estos componentes de costes son el coste de envío, el coste de manipulación y el coste de empaquetado. Se calcula una combinación de estos costes para determinar la ubicación de cumplimiento.
 
-Cuando la primera iteración de gestión de pedidos distribuida (DOM) de Microsoft Dynamics 365 for Retail optimizó la asignación de pedidos a las ubicaciones de cumplimiento, solo se tuvo en cuenta en la distancia. Aunque la distancia pueda estar correlacionada con el coste, no es lo mismo que el coste. Por ejemplo, un método de envío durante la noche cuesta más que el envío de tres días o el envío de siete días en la misma distancia.
+Cuando la primera iteración de gestión de pedidos distribuida (DOM) de Dynamics 365 Retail optimizó la asignación de pedidos a las ubicaciones de cumplimiento, solo se tuvo en cuenta en la distancia. Aunque la distancia pueda estar correlacionada con el coste, no es lo mismo que el coste. Por ejemplo, un método de envío durante la noche cuesta más que el envío de tres días o el envío de siete días en la misma distancia.
 
 La característica de configuración de costes permite a los minoristas definir y configurar componentes de costes adicionales que se calcularán y tendrán en cuenta para determinar la ubicación óptima desde la que satisfacer las líneas de pedido.
 
