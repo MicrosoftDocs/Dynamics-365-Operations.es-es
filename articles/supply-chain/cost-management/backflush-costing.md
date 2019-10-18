@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 484bac74ccb498f0b006458f5e6d8fb0e9461a8f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: be4dbadaeac747953af44236156453edc596fcd5
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556082"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018121"
 ---
 # <a name="backflush-costing"></a>Contabilización previa de los costes
 
@@ -61,11 +61,11 @@ Para los productos que se proporcionan fuera de un flujo de producción, el cál
 
 ### <a name="calculation-that-is-based-on-the-production-flow"></a>Cálculo que se basa el flujo de producción
 
-La lean manufacturing para Microsoft Dynamics 365 for Finance and Operations es independiente de rutas. El cálculo del coste para los productos que se proporcionan de un flujo de producción se puede basar en el flujo de producción en sí. Antes de realizar el cálculo, se debe crear una regla kanban que proporcione el producto fuera del flujo de producción. Si un producto se puede suministrar desde varios flujos de producción en el mismo sitio en la fecha de cálculo, puede seleccionar el flujo de producción para el cálculo de L. MAT. En la página **Flujo de producción predeterminado** , puede configurar un flujo de producción predeterminado para cada artículo. Si varias reglas kanban existen para el mismo producto en el mismo flujo de producción que está activo en la fecha de cálculo, el cálculo selecciona la primera regla kanban que está activa para el cálculo.
+La lean manufacturing para Dynamics 365 Supply Chain Management es independiente de rutas. El cálculo del coste para los productos que se proporcionan de un flujo de producción se puede basar en el flujo de producción en sí. Antes de realizar el cálculo, se debe crear una regla kanban que proporcione el producto fuera del flujo de producción. Si un producto se puede suministrar desde varios flujos de producción en el mismo sitio en la fecha de cálculo, puede seleccionar el flujo de producción para el cálculo de L. MAT. En la página **Flujo de producción predeterminado** , puede configurar un flujo de producción predeterminado para cada artículo. Si varias reglas kanban existen para el mismo producto en el mismo flujo de producción que está activo en la fecha de cálculo, el cálculo selecciona la primera regla kanban que está activa para el cálculo.
 
 ### <a name="calculation-that-is-based-on-the-route"></a>Cálculo basado en la ruta
 
-El cálculo que se basa en una ruta es tan válido como el cálculo que se basa en un flujo de producción. Sin embargo, el cálculo que se basa en una ruta no usa la gestión de costes para la funcionalidad de lean manufacturing. La ruta debe usar requisitos de recurso para los grupos de recursos. Para evitar las desviaciones sistemáticas, debe usar también las mismas celdas de trabajo, o al menos las mismas categorías de coste. Una vez más debe evitar las categorías de coste para la configuración y la cantidad. No ayudan a calcular el coste en un desglose más específico que el flujo invertido del coste de lean manufacturing. Para determinar la opción (flujo de producción o ruta) que debe usar para calcular el coste, tenga en cuenta los resultados del desglose de costes. La versión más cercana a la realidad y genera menos desviaciones en general es la mejor opción. En un entorno de lean manufacturing donde un producto se proporciona mediante un solo flujo de producción y una sola regla kanban, el cálculo que se basa en el flujo de producción es probablemente más preciso. Para un producto que se puede suministrar mediante lean manufacturing y pedidos de producción en el mismo sitio, o que puede tener varios flujos de producción o varias reglas kanban en el mismo flujo, un cálculo puede ser más preciso si se basa en una versión de ruta que se crea específicamente para el cálculo de costes, no para la producción. El cálculo del flujo de producción se debe usar para calcular los productos en los que hay una subcontratación. En Microsoft Dynamics 365 for Finance and Operations, los modelos de coste para subcontratar mediante pedidos de producción y subcontratar en lean manufacturing usan dos enfoques diferentes. El lean manufacturing presenta a un nuevo tipo de grupo de costes, **Subcontratación directa**, para calcular los servicios subcontratados.
+El cálculo que se basa en una ruta es tan válido como el cálculo que se basa en un flujo de producción. Sin embargo, el cálculo que se basa en una ruta no usa la gestión de costes para la funcionalidad de lean manufacturing. La ruta debe usar requisitos de recurso para los grupos de recursos. Para evitar las desviaciones sistemáticas, debe usar también las mismas celdas de trabajo, o al menos las mismas categorías de coste. Una vez más debe evitar las categorías de coste para la configuración y la cantidad. No ayudan a calcular el coste en un desglose más específico que el flujo invertido del coste de lean manufacturing. Para determinar la opción (flujo de producción o ruta) que debe usar para calcular el coste, tenga en cuenta los resultados del desglose de costes. La versión más cercana a la realidad y genera menos desviaciones en general es la mejor opción. En un entorno de lean manufacturing donde un producto se proporciona mediante un solo flujo de producción y una sola regla kanban, el cálculo que se basa en el flujo de producción es probablemente más preciso. Para un producto que se puede suministrar mediante lean manufacturing y pedidos de producción en el mismo sitio, o que puede tener varios flujos de producción o varias reglas kanban en el mismo flujo, un cálculo puede ser más preciso si se basa en una versión de ruta que se crea específicamente para el cálculo de costes, no para la producción. El cálculo del flujo de producción se debe usar para calcular los productos en los que hay una subcontratación. Los modelos de coste para subcontratar mediante pedidos de producción y subcontratar en lean manufacturing usan dos enfoques diferentes. El lean manufacturing presenta a un nuevo tipo de grupo de costes, **Subcontratación directa**, para calcular los servicios subcontratados.
 
 ## <a name="material-consumption"></a>Lista de selección
 Cuando el material se consume de inventario a trabajo en curso, el coste de material se agrega al trabajo en curso a su coste estándar real para un grupo de costes. Esta operación se produce en las condiciones siguientes:
@@ -82,7 +82,7 @@ Los productos se reciben del flujo de producción bajo las siguientes condicione
 Los productos recibidos del flujo de producción se deducen del trabajo en curso.
 
 ## <a name="products-in-wip"></a>Productos en el trabajo en curso
-El modelo de trabajo en curso de lean manufacturing en Microsoft Dynamics 365 for Finance and Operations permite usar el estado de unidad de manipulación de kanban para la gestión de materiales, los productos semiterminados, y los productos terminados que forman parte del trabajo en curso.
+El modelo de trabajo en curso de lean manufacturing permite usar el estado de unidad de manipulación de kanban para la gestión de materiales, los productos semiterminados, y los productos terminados que forman parte del trabajo en curso.
 
 -   **Asignado** - El kanban puede haber consumido el material que se considera en el trabajo en curso.
 -   **Recibido** - Si el kanban hace referencia a una última actividad en que la **actualización del inventario en recepción** está establecida en **No**, representa una unidad de manipulación completa de un producto o de un producto semiterminado que no se registra en el inventario.

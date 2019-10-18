@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 0dd1f00cd2558c69941279e5f41256be621d7c74
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d5fe56c949975f8cd07b54308cec43f833cc9d69
+ms.sourcegitcommit: 0dd8d0510214f92936a9dd214b404c5c8103587b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519057"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2419232"
 ---
 # <a name="align-workforce-skills-with-business-needs"></a>Alienación de las aptitudes de los recursos con las necesidades empresariales
 
@@ -68,7 +68,7 @@ Puede crear un análisis de aptitud para ver una lista de las capacidades para u
 <a name="additional-resources"></a>Recursos adicionales
 --------
 
-[Recursos humanos](index.md)
+[Recursos humanos](index.yml)
 
 
 

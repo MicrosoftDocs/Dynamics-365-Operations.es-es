@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-15
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f03b7fa073c4e5338b7b5681ba7b8c9fe00a657b
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 95fe394d22f9fe81511c230a2cf7b8ddf00d896f
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875876"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250838"
 ---
 # <a name="work-orders-and-fixed-assets"></a>Órdenes de trabajo y activos fijos
 
@@ -33,7 +33,7 @@ ms.locfileid: "1875876"
 [!include [banner](../../includes/preview-banner.md)]
 
 
-En gestión de activos, los activos se pueden relacionar con los activos fijos, y puede crear órdenes de trabajo para dichos activos. Si utiliza esta funcionalidad, puede obtener una visión general completa de activos fijos, de proyectos de inversión relacionados, y los costes registrados en los proyectos de inversión en el módulo **Gestión de proyectos y contabilidad** y el módulo **Activos fijos** en Dynamics 365 for Finance and Operations.
+En gestión de activos, los activos se pueden relacionar con los activos fijos, y puede crear órdenes de trabajo para dichos activos. Si utiliza esta funcionalidad, puede obtener una visión general completa de activos fijos, de proyectos de inversión relacionados, y los costes registrados en los proyectos de inversión en el módulo **Gestión de proyectos y contabilidad** y el módulo **Activos fijos**.
 
 >[!NOTE]
 >El campo **Número de activo fijo** solo se completa en el proyecto de trabajo de la orden de trabajo si se selecciona el tipo “inversión” como tipo de proyecto en el proyecto de trabajo de la orden de trabajo.

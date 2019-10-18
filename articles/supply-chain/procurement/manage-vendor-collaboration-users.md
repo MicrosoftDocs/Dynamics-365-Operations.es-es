@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d0644372944b4c9d472ff738258665544fccbad4
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: cb55d7d00e5676fc5a1326d77889b4adb86c3ca6
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742479"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248966"
 ---
 # <a name="manage-vendor-collaboration-users"></a>Gestionar usuarios de colaboración de proveedor
 
@@ -31,7 +31,7 @@ ms.locfileid: "1742479"
 
 Este tema describe cómo puede solicitar el aprovisionamiento de los nuevos usuarios de colaboración del proveedor, y cómo añadir nuevos contactos de colaboración. 
 
-La interfaz de colaboración del proveedor en Microsoft Dynamics 365 for Finance and Operations expone información a los proveedores externos acerca de pedidos de compra, facturas y consignación de existencias. Puede crear nuevos contactos de colaboración del proveedor y solicitar que se aprovisione a los nuevos usuarios si trabaja como proveedor externo con el rol de seguridad **Gestión de proveedores (externo)**, o con permisos similares. También puede realizar estas tareas si trabaja como profesional de compras. En este tema, este rol hace referencia a un responsable de compras que trabaja dentro de la empresa que posee la instancia de Finance and Operations. Para obtener más información sobre cómo usar la colaboración del proveedor si es proveedor externo, consulte [Proveedor con clientes](vendor-collaboration-work-customers-dynamics-365-operations.md).  
+La interfaz de colaboración del proveedor en Dynamics 365 Supply Chain Management expone información a los proveedores externos acerca de pedidos de compra, facturas y consignación de existencias. Puede crear nuevos contactos de colaboración del proveedor y solicitar que se aprovisione a los nuevos usuarios si trabaja como proveedor externo con el rol de seguridad **Gestión de proveedores (externo)**, o con permisos similares. También puede realizar estas tareas si trabaja como profesional de compras. En este tema, este rol hace referencia a un responsable de compras que trabaja dentro de la empresa que posee la instancia de Supply Chain Management. Para obtener más información sobre cómo usar la colaboración del proveedor si es proveedor externo, consulte [Proveedor con clientes](vendor-collaboration-work-customers-dynamics-365-operations.md).  
 
 Para obtener más información sobre cómo usar la colaboración del proveedor si es un profesional de compras, consulte [Colaboración de proveedor con proveedores externos](vendor-collaboration-work-external-vendors.md).
 
@@ -60,12 +60,12 @@ Cuando se envía una solicitud se añade a la lista **Solicitudes de usuario de 
 Para poder solicitar el aprovisionamiento de un nuevo usuario, esa persona debe figurar como contacto para una o más cuentas de proveedor. Para crear una solicitud de nuevo usuario de colaboración de proveedor:
 
 1. En la página **Todos los contactos**, haga clic en **Suministrar un usuario de proveedor**.
-2. Escriba una dirección de correo electrónico para el usuario. El usuario utilizará esta dirección para acceder a Finance and Operations. Si la dirección de correo electrónico pertenece a un dominio registrado como usuario de Microsoft Azure, la dirección de correo electrónico tiene que ser una cuenta existente de Azure Active Directory (AAD) para que el proceso de provisión finalice correctamente. Si la dirección de correo electrónico no pertenece a un dominio registrado con Microsoft Azure, se creará una cuenta AAD como parte del proceso de provisión y el nuevo usuario recibirá una invitación mediante un mensaje de correo. Las direcciones de correo electrónico de consumidor con dominios como @hotmail.com, @gmail.com o @comcast.net no pueden usarse para registrar a un usuario de Finance and Operations.
+2. Escriba una dirección de correo electrónico para el usuario. Esta dirección la usará el usuario para iniciar sesión en Supply Chain Management. Si la dirección de correo electrónico pertenece a un dominio registrado como usuario de Microsoft Azure, la dirección de correo electrónico tiene que ser una cuenta existente de Azure Active Directory (AAD) para que el proceso de provisión finalice correctamente. Si la dirección de correo electrónico no pertenece a un dominio registrado con Microsoft Azure, se creará una cuenta AAD como parte del proceso de provisión y el nuevo usuario recibirá una invitación mediante un mensaje de correo. Las direcciones de correo electrónico de consumidor con dominios como @hotmail.com, @gmail.com o @comcast.net no pueden usarse para registrar a un usuario.
 3. Configure la opción **Acceso de colaboración de proveedor permitido** a **Sí** para todas las entidades jurídicas para las que el usuario necesita acceso.
 4. En la sección **Asignar roles de usuario**, seleccione la casilla **Asignar** para los roles de seguridad que debe tener el nuevo usuario.
 5. Haga clic en **Enviar**.
 
-Cuando se envíe la solicitud de usuario proveedor, el campo **Acceso a la colaboración de proveedor permitido** se establece en **Sí** para la cuenta de proveedor seleccionada y se inicia un flujo de trabajo de solicitud del usuario. Como parte del flujo de trabajo, se crea un nuevo usuario en Finance and Operations, y se asignan los roles de seguridad. Además, el servicio Azure B2B que inicia la interacción con el portal Azure se activa y se asocia a una cuenta nueva o existente de AAD con la cuenta de usuario de Finance and Operations. Para obtener más información, consulte [¿Qué es la colaboración B2B de Azure AD?](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
+Cuando se envíe la solicitud de usuario proveedor, el campo **Acceso a la colaboración de proveedor permitido** se establece en **Sí** para la cuenta de proveedor seleccionada y se inicia un flujo de trabajo de solicitud del usuario. Como parte del flujo de trabajo, se crea un nuevo usuario en y se asignan los roles de seguridad. Además, el servicio Azure B2B que inicia la interacción con el portal Azure se activa y se asocia a una cuenta nueva o existente de AAD con la cuenta de usuario de Supply Chain Management. Para obtener más información, consulte [¿Qué es la colaboración B2B de Azure AD?](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
 
 ### <a name="inactivate-a-user"></a>Desactivar un usuario
 

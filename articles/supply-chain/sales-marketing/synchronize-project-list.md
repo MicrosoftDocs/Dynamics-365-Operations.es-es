@@ -1,6 +1,6 @@
 ---
-title: Sincronizar lista de proyectos de Finance and Operations a Field Service
-description: En este tema se describe las plantillas y las tareas subyacentes que se usan para sincronizar proyectos de Microsoft Dynamics 365 for Finance and Operations a Microsoft Dynamics 365 for Field Service.
+title: Sincronizar lista de proyecto de Supply Chain Management a Field Service
+description: En este tema se describe las plantillas y las tareas subyacentes que se usan para sincronizar proyectos de Dynamics 365 Supply Chain Management a Dynamics 365 Field Service.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 03/13/2019
@@ -19,51 +19,51 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 535094821ca7efa33bf40f2057fac8ffc17bb822
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: b74a7f0445b3bdad671da4c61e561bc0d9d80cd1
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843562"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251601"
 ---
-# <a name="synchronize-project-list-from-finance-and-operations-to-field-service"></a>Sincronizar lista de proyectos de Finance and Operations a Field Service
+# <a name="synchronize-project-list-from-supply-chain-management-to-field-service"></a>Sincronizar lista de proyecto de Supply Chain Management a Field Service
 
 [!include[banner](../includes/banner.md)]
 
-En este tema se describe las plantillas y las tareas subyacentes que se usan para sincronizar proyectos de Microsoft Dynamics 365 for Finance and Operations a Microsoft Dynamics 365 for Field Service.
+En este tema se describe las plantillas y las tareas subyacentes que se usan para sincronizar proyectos de Dynamics 365 Supply Chain Management a Dynamics 365 Field Service.
 
-[![Sincronización de procesos empresariales entre Finance and Operations y Field Service](./media/FSProjectOW.png)](./media/FSProjectOW.png)
+[![Sincronización de procesos empresariales entre Supply Chain Management y Field Service](./media/FSProjectOW.png)](./media/FSProjectOW.png)
 
 ## <a name="templates-and-tasks"></a>Plantillas y tareas
-Se utilizan la plantilla y las tareas subyacentes siguientes para ejecutar la sincronización de proyectos de Microsoft Dynamics 365 for Finance and Operations en Microsoft Dynamics 365 for Field Service.
+La plantilla siguiente y las tareas subyacentes se usan para ejecutar sincronización de proyectos de Supply Chain Management a Field Service.
 
 **Plantilla en la integración de datos**
-- Proyectos (Fin and Ops a Field Service)
+- Proyectos (Supply Chain Management a Field Service)
 
 **Tarea en el proyecto de integración de datos**
 - Proyectos
 
 Las siguientes tareas de sincronización son necesarias antes de que pueda producirse la sincronización de la lista de proyectos:
-- Cuentas (Sales a Fin and Ops) 
+- Cuentas (Sales a Supply Chain Management) 
 
 ## <a name="entity-set"></a>Conjunto de entidades
-| Field Service           | Finance and Operations  |
+| Field Service           | Gestión de la cadena de abastecimiento  |
 |-------------------------|-------------------------|
 |msdynce_externalprojects | Proyectos                |
 
 ## <a name="entity-flow"></a>Flujo de la entidad
-Los proyectos se crean en Finance and Operations. Los proyectos con **Tipo de proyecto** establecido en **tiempo y el material** y **Etapa de proyecto** establecido en **En proceso** se sincronizarán con la entidad **Proyecto externo** en Field Service, incluida la información de número de proyecto, el nombre de proyecto, la fase de proyecto y la cuenta de cliente. La lista **Proyecto externo** se utiliza para emparejar pedidos de trabajo de Field Service con proyectos de Finance and Operations.
+Los proyectos se crean en Supply Chain Management. Los proyectos con **Tipo de proyecto** establecido en **tiempo y el material** y **Etapa de proyecto** establecido en **En proceso** se sincronizarán con la entidad **Proyecto externo** en Field Service, incluida la información de número de proyecto, el nombre de proyecto, la fase de proyecto y la cuenta de cliente. La lista **Proyecto externo** se utiliza para emparejar pedidos de trabajo de Field Service con proyectos de Supply Chain Management.
 
 ## <a name="field-service-crm-solution"></a>Solución CRM de Field Service
-La entidad **Proyecto externo** recoge todos los proyectos de Finance and Operations. El campo **Proyecto externo** se ha agregado a la entidad **pedido de trabajo**. Este es un campo de búsqueda, por lo que etiquetado su orden de trabajo con un proyecto, el pedido de ventas se conectará con un proyecto en Finance and Operations. Una vez que el **estado del sistema** cambie **Abierto - En progreso (690 970 000)** a un estado más alto, el campo **Proyecto externo** se bloqueará y ya no podrá agregar, quitar o cambiar el valor.
+La entidad **Proyecto externo** recoge todos los proyectos de Supply Chain Management. El campo **Proyecto externo** se ha agregado a la entidad **pedido de trabajo**. Este es un campo etiqueta, así que al etiquetar su orden de trabajo con un proyecto, el pedido de ventas se conectará a un proyecto en Supply Chain Management. Una vez que el **estado del sistema** cambie **Abierto - En progreso (690 970 000)** a un estado más alto, el campo **Proyecto externo** se bloqueará y ya no podrá agregar, quitar o cambiar el valor.
 
 ## <a name="prerequisites-and-mapping-setup"></a>Condiciones previas y configuración de asignación
-### <a name="finance-and-operations"></a>Finance and Operations
+### <a name="supply-chain-management"></a>Gestión de la cadena de abastecimiento
 Habilitar el seguimiento de cambios de proyectos de entidad de datos.
 
 ## <a name="template-mapping-in-data-integration"></a>Asignación de la plantilla en la integración de datos
 
 
-### <a name="projects-fin-and-ops-to-field-service-projects"></a>Proyectos (Fin and Ops a Field Service): proyectos
+### <a name="projects-supply-chain-management-to-field-service-projects"></a>Proyectos (Supply Chain Management a Field Service): Proyectos
 
 [![Asignación de la plantilla en la integración de datos](./media/FSProject1.png)](./media/FSProject1.png)

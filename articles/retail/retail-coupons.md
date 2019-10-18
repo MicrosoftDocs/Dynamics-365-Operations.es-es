@@ -18,12 +18,12 @@ ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: bd3596b6c78c5959ca289c73bcc5785eb770be39
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 449a1f574cd32860cbdc2e43f21be1d3d692768f
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553562"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025111"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Configurar vales para ventas minoristas
 
@@ -37,10 +37,10 @@ Cada vale está relacionado con un descuento minorista. Los grupos de precios as
 
 Esencialmente, los vales son una validación adicional a los descuentos minoristas. El vale proporciona los códigos y los códigos de barras obligatorios, así como los intervalos de fechas para dichos códigos. El vale también proporciona límites de uso opcionales y propiedades requeridas por el cliente. El descuento proporciona el conjunto de productos para los que es válido. Los grupos de precios para el descuento proporcionan el conjunto de clientes, canales o catálogos para los que el vale es válido.
 
-Para crear un vale, cree el descuento y el vale por separado. A continuación los vincula seleccionando el descuento en la página de vales en Microsoft Dynamics 365 for Retail.
+Para crear un vale, cree el descuento y el vale por separado. A continuación los vincula seleccionando el descuento en la página de vales en Retail.
 
 > [!NOTE]
-> Después de vincular un vale a un descuento, varios campos de la página de descuentos de Microsoft Dynamics 365 for Retail se vuelven de solo lectura porque son administrados mediante la configuración del vale. Estos campos incluyen los campos para estado y los intervalos de fechas estándar.
+> Después de vincular un vale a un descuento, varios campos de la página de descuentos de Retail se vuelven de solo lectura porque son administrados mediante la configuración del vale. Estos campos incluyen los campos para estado y los intervalos de fechas estándar.
 
 ### <a name="limited-use-coupons"></a>Vales de uso limitado
 
@@ -75,7 +75,7 @@ Para poder configurar un vale, debe configurar el código de barras del vale y d
 
 ## <a name="the-effect-of-partial-updates-on-coupons"></a>El efecto de las actualizaciones parciales en los vales
 
-La funcionalidad de vales incluye varias características distintivas de Dynamics 365 for Retail. Microsoft Dynamics 365 for Retail Headquarters (HQ) y el canal se pueden actualizar parcialmente a través de los componentes. Por lo tanto, es importante que comprenda cómo las actualizaciones parciales afectan a la funcionalidad de los vales en conjunto.
+La funcionalidad de vales incluye varias características distintivas. Dynamics 365 Retail Headquarters (HQ) y el canal se pueden actualizar parcialmente a través de los componentes. Por lo tanto, es importante que comprenda cómo las actualizaciones parciales afectan a la funcionalidad de los vales en conjunto.
 
 - **La central se actualiza parcialmente, pero no se actualizan el servidor de venta al por menor ni los PDV.** En una actualización de la central, se actualizan el vale y las páginas de descuento, y el motor de precios minoristas también se actualiza. Si solo uno de estos dos componentes se actualiza, algunas páginas de Retail no coincidirán los datos de cálculo de precio. Por lo tanto, cálculos de descuento o errores inesperados pueden producirse durante cálculos de descuento.
 - **La central está actualizada, pero ni el servidor de Retail ni los PDV están actualizados (N-1).** Dado que no todas las tiendas se pueden actualizar al mismo tiempo, recomendamos que actualice la central antes de actualizar las tiendas. En la situación N-1, la nueva funcionalidad relacionada con vales no estará disponible en las tiendas que todavía no se hayan actualizado. Por ejemplo, la funcionalidad de vales introduce líneas de “exclusión”. Si usa líneas de exclusión en un descuento, estas no se aplicarán en una tienda que esté ejecutando una versión anterior.

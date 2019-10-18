@@ -18,23 +18,23 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 65624ce5e668a506ae23b302559d8d0bf4141a12
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b38fb087fb572362c27e747e7909060c55a242a4
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546726"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250224"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Colaboración de proveedor con proveedores externos
 
 [!include [banner](../includes/banner.md)]
 
-El módulo de **Colaboración del proveedor** se indica para los proveedores que no tienen integración de Intercambio de datos electrónicos (EDI) con Microsoft Dynamics 365 for Finance and Operations. Permite a los proveedores trabajar con pedidos de compra (PO), facturas, información de inventario de entrega, solicitudes de presupuesto (RFQ) y también las permite tener acceso a parte de los datos maestros de proveedores. Este tema explica cómo puede colaborar con los proveedores externos que usan la interfaz de colaboración de proveedor para trabajar con PO, solicitudes de presupuesto y el inventario de entrega. También explica cómo permitir a un proveedor específico utilizar la colaboración de proveedor y cómo definir la información que verán todos los proveedores cuando respondan a un PO.
+El módulo de **Colaboración del proveedor** se indica para los proveedores que no tienen integración de Intercambio de datos electrónicos (EDI) con Microsoft Dynamics 365 Supply Chain Management. Permite a los proveedores trabajar con pedidos de compra (PO), facturas, información de inventario de entrega, solicitudes de presupuesto (RFQ) y también las permite tener acceso a parte de los datos maestros de proveedores. Este tema explica cómo puede colaborar con los proveedores externos que usan la interfaz de colaboración de proveedor para trabajar con PO, solicitudes de presupuesto y el inventario de entrega. También explica cómo permitir a un proveedor específico utilizar la colaboración de proveedor y cómo definir la información que verán todos los proveedores cuando respondan a un PO.
 
 Para obtener más información sobre lo que pueden hacer los proveedores externos en la interfaz de colaboración de proveedor, consulte [Colaboración de proveedor con los clientes](vendor-collaboration-work-customers-dynamics-365-operations.md).
 
 > [!NOTE]
-> La información sobre la colaboración del proveedor en este tema sólo se aplica a la versión actual de Finance and Operations. En Microsoft Dynamics AX 7.0 (febrero de 2016) y en Microsoft Dynamics AX versión de aplicación 7.0.1 (mayo de 2016), colabora con proveedores a través del módulo **Portal de proveedores**. Para obtener información sobre el módulo **Portal de proveedores**, consulte [Colaborar con proveedores mediante el portal de proveedores](collaborate-vendors-vendor-portal.md).
+> La información sobre la colaboración del proveedor en este tema sólo se aplica a la versión actual de Supply Chain Management. En Microsoft Dynamics AX 7.0 (febrero de 2016) y en Microsoft Dynamics AX versión de aplicación 7.0.1 (mayo de 2016), colabora con proveedores a través del módulo **Portal de proveedores**. Para obtener información sobre el módulo **Portal de proveedores**, consulte [Colaborar con proveedores mediante el portal de proveedores](collaborate-vendors-vendor-portal.md).
 
 Para obtener más información sobre cómo los proveedores pueden utilizar la colaboración del proveedor en los procesos de facturación, consulte [Área de trabajo de facturación de colaboración de proveedor](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). Para obtener información sobre cómo suministrar nuevos usuarios de colaboración de proveedor, consulte [Gestionar usuarios de colaboración del proveedor](manage-vendor-collaboration-users.md).
 
@@ -51,7 +51,7 @@ Si tiene que agregar mensajes en más de un idioma, cree mensajes separados y es
 
 ## <a name="setting-the-vendor-collaboration-options-for-a-specific-vendor"></a>Configurar las opciones de colaboración de proveedor para un proveedor específico
 
-Un administrador configura una configuración general para la colaboración de proveedor en Finance and Operations, como los roles de seguridad disponibles para todos los proveedores con los que colabore. Sin embargo, también hay algunos ajustes que pueden ser diferentes para cada cuenta de proveedor. Debe configurar estos valores.
+Un administrador configura una configuración general para la colaboración de proveedor en Supply Chain Management, como los roles de seguridad disponibles para todos los proveedores con los que colabore. Sin embargo, también hay algunos ajustes que pueden ser diferentes para cada cuenta de proveedor. Debe configurar estos valores.
 
 - Habilitar la colaboración de proveedor.
 - Especificar si el proveedor debería ver información de precios.
@@ -71,7 +71,7 @@ Para compartir información de precios del PO a través de la interfaz de colabo
 
 ### <a name="sending-a-po-to-a-vendor"></a>Enviar un PO a un proveedor
 
-Los PO se preparan en Finance and Operations. Cuando un PO tiene un estado de **Aprobado**, se envía al proveedor mediante la selección de **Enviar para su confirmación** en la página **Pedido de compra**. El estado del PO cambia a **En proceso de revisión externa**. Después de enviar el PO, el proveedor puede consultarlo en la página **Pedidos de compra para revisar** de la interfaz de colaboración del proveedor. El proveedor puede aceptar el PO, rechazarlo o sugerir cambios en el mismo. El proveedor también puede agregar comentarios para comunicar información como cambios al pedido de compra. Si quiere que el proveedor se fije en un nuev PO, también puede usar el sistema de gestión de impresión para enviar el PO por correo electrónico.
+Los PC se preparan en Supply Chain Management. Cuando un PO tiene un estado de **Aprobado**, se envía al proveedor mediante la selección de **Enviar para su confirmación** en la página **Pedido de compra**. El estado del PO cambia a **En proceso de revisión externa**. Después de enviar el PO, el proveedor puede consultarlo en la página **Pedidos de compra para revisar** de la interfaz de colaboración del proveedor. El proveedor puede aceptar el PO, rechazarlo o sugerir cambios en el mismo. El proveedor también puede agregar comentarios para comunicar información como cambios al pedido de compra. Si quiere que el proveedor se fije en un nuev PO, también puede usar el sistema de gestión de impresión para enviar el PO por correo electrónico.
 
 ### <a name="confirmation-and-acceptance-of-a-po-by-a-vendor"></a>Confirmación y aceptación de un PO por parte del proveedor
 
@@ -92,13 +92,13 @@ La siguiente tabla muestra el intercambio de información normal, en función de
 </thead>
 <tbody>
 <tr class="even">
-<td>El proveedor <strong>acepta</strong> el pedido y Finance and Operations está configurado para confirmar automáticamente que el proveedor acepta.</td>
+<td>El proveedor <strong>acepta</strong> el pedido y Supply Chain Management está configurado para confirmar automáticamente que el proveedor acepta.</td>
 <td>El estado del pedido se actualiza a <strong>Confirmado</strong>. Si algo impide que el pedido se actualice, la respuesta del proveedor se registra igualmente como <strong>Aceptado</strong> pero el estado del PO permanece como <strong>En revisión externa</strong>. 
 
 El PO que se envió al proveedor y que se encuentra en estado de <strong>En revisión externa</strong> se actualiza con las fechas de entrega confirmadas en las líneas. Esta actualización inicia una nueva versión que se configura automáticamente en estado <strong>Confirmado</strong>. Cuando se confirma el PO, este aparece en la interfaz de colaboración del proveedor.</td>
 </tr>
 <tr class="odd">
-<td>El proveedor <strong>acepta</strong> el pedido, pero Finance and Operations no está configurado para confirmar pedidos que el proveedor acepta.</td>
+<td>El proveedor <strong>acepta</strong> el pedido, pero Supply Chain Management no está configurado para confirmar automáticamente PC que el proveedor acepta.</td>
 <td>La respuesta del proveedor se registra como <strong>Aceptado</strong> pero el estado del PO permanece como estado <strong>En revisión externa</strong>.
 
 El PO que se envió al proveedor y que se encuentra en estado de <strong>En revisión externa</strong> se actualiza con las fechas de entrega confirmadas en las líneas. Esta actualización inicia una nueva versión que se configura automáticamente en estado <strong>En revisión externa</strong>. A continuación puede confirmar manualmente el PO.</td>
@@ -180,14 +180,14 @@ La siguiente tabla muestra un ejemplo de los cambios de estado y versión que pu
 
 | Acción | Estado y versión |
 |--------|--------------------|
-| La versión inicial del PO se crea en Finance and Operations. | El estado es **Aprobado**. |
+| La versión inicial del PC se crea en Supply Chain Management. | El estado es **Aprobado**. |
 | El PO se envía al proveedor. | Una versión se registra en la interfaz de colaboración de proveedor y el estado se cambia a **En revisión externa**. |
 | El proveedor envía una respuesta de **Aceptado con los cambios**. | El estado aún está **En revisión externa**. |
 | Tiene que realizar algunos cambios que pide el proveedor. | El estado se cambia a **Aprobado**. |
 | Envíe la nueva versión del PO al proveedor. | Una nueva versión se registra en la interfaz de colaboración de proveedor y el estado se cambia a **En revisión externa**. |
 | El proveedor acepta la nueva versión del PO. | El estado aún está **En revisión externa**, a menos que la cuenta de proveedor se haya configurado para establecer automáticamente el estado del PO a **Confirmado** cuando lo acepta. |
 
-Los proveedores no tienen que confirmar el PO mediante la interfaz de colaboración de proveedor. También pueden enviar un mensaje de correo electrónico o comunicar la aceptación de un PO a través de otros canales. A continuación, puede confirmar el pedido manualmente en Finance and Operations. En este caso, recibirá una advertencia de que se está confirmando el pedido aunque no haya respuesta del proveedor. El PO aparece a continuación en el historial de confirmaciones como un pedido confirmado abierto que no tiene ninguna respuesta. En este momento, el proveedor ya no tiene la opción de confirmar o de rechazar el PO.
+Los proveedores no tienen que confirmar el PO mediante la interfaz de colaboración de proveedor. También pueden enviar un mensaje de correo electrónico o comunicar la aceptación de un PO a través de otros canales. A continuación puede confirmar manualmente el pedido. En este caso, recibirá una advertencia de que se está confirmando el pedido aunque no haya respuesta del proveedor. El PO aparece a continuación en el historial de confirmaciones como un pedido confirmado abierto que no tiene ninguna respuesta. En este momento, el proveedor ya no tiene la opción de confirmar o de rechazar el PO.
 
 > [!NOTE]
 > La versión del PO que está disponible para otros procesos en Finance and Operations siempre es la última versión, incluso si dicha versión no se ha registrado todavía en la interfaz de colaboración del proveedor.
@@ -200,7 +200,7 @@ La siguiente tabla muestra un ejemplo de los cambios de estado y versión que pu
 
 | Acción | Estado y versión |
 |--------|--------------------|
-| La versión inicial del PO se crea en Finance and Operations. | El estado es **Borrador**. |
+| La versión inicial del PC se crea en Supply Chain Management. | El estado es **Borrador**. |
 | La OC se envía al proceso de aprobación. (El proceso de aprobaciónes un proceso interno en el que el proveedor no está involucrado.) | El estado se cambia de **Borrador** a **En revisión** a **Aprobación** si la OC no se rechaza durante el proceso de aprobación. El pedido de compra aprobado se registra como versión. | 
 | El PO se envía al proveedor. | La versión se registra en la interfaz de colaboración de proveedor y el estado se cambia a **En revisión externa**. |
 | Tiene que realizar algunos cambios que pide el proveedor, ya sea manualmente o mediante la acción **Procesar actualización del PO** en la respuesta para actualizar el PO. | El estado se vuelve a cambiar a **Borrador**. |
@@ -237,13 +237,13 @@ Esta sección describe las interacciones entre clientes y proveedores durante el
 
 ## <a name="public-sector-extensions"></a>Extensiones del sector público
 
-Para el sector público, la funcionalidad extendida habilita un caso de solicitud de presupuesto para enviarlo a los proveedores y publicarlo. Cuando publica una solicitud de presupuesto, cualquier persona que solicite la información puede ver el trabajo que cumpla con la mayoría de directivas el sector público. Todo el trabajo disponible se refleja en la página de lista **Solicitudes de presupuestos publicadas abiertas** y las solicitudes de presupuesto canceladas, pendientes o concedidas se pueden ver en la página de lista **Solicitudes de presupuesto publicadas cerradas** . Estos documentos también se pueden ver en el sitio fuera de Finance and Operations a través de integraciones con las siguientes entidades de datos:
+Para el sector público, la funcionalidad extendida habilita un caso de solicitud de presupuesto para enviarlo a los proveedores y publicarlo. Cuando publica una solicitud de presupuesto, cualquier persona que solicite la información puede ver el trabajo que cumpla con la mayoría de directivas el sector público. Todo el trabajo disponible se refleja en la página de lista **Solicitudes de presupuestos publicadas abiertas** y las solicitudes de presupuesto canceladas, pendientes o concedidas se pueden ver en la página de lista **Solicitudes de presupuesto publicadas cerradas** . Estos documentos también se pueden ver en el sitio fuera de Supply Chain Management a través de integraciones con las siguientes entidades de datos:
 
 - Solicitudes de presupuestos publicadas
 - Solicitudes publicadas para línea de presupuestos
 - Solicitudes publicadas para datos adjuntos de encabezado de presupuestos
 
-Estas entidades permiten que las personas que no sean usuarios aprovisionados de Finance and Operations, pero que tenga acceso anónimo a un sitio externo, vean los trabajos disponibles y cerrados. Además, funciones ampliadas en **Registrar y enviar** permiten al usuario que configura los parámetros del proceso de solicitud de presupuesto definir una plantilla de correo electrónico. A continuación, cuando el profesional de compras crea el caso de solicitud de presupuesto, debe seleccionar la plantilla de correo electrónico para enviar la información necesaria a los proveedores en el caso de solicitud. 
+Estas entidades permiten que las personas que no sean usuarios aprovisionados de Supply Chain Management, pero que tenga acceso anónimo a un sitio externo, vean los trabajos disponibles y cerrados. Además, funciones ampliadas en **Registrar y enviar** permiten al usuario que configura los parámetros del proceso de solicitud de presupuesto definir una plantilla de correo electrónico. A continuación, cuando el profesional de compras crea el caso de solicitud de presupuesto, debe seleccionar la plantilla de correo electrónico para enviar la información necesaria a los proveedores en el caso de solicitud. 
 
 El usuario que configura los parámetros del proceso de solicitud de presupuesto puede crear varias plantillas de correo electrónico. Estas plantillas de correo electrónico pueden contener tanto texto estático como los siguientes tokens de sustitución. Los tokens se reemplazarán con valores contextuales cuando se cree un correo electrónico.
 

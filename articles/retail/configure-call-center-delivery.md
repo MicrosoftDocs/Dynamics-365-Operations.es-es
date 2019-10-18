@@ -1,6 +1,6 @@
 ---
 title: Configurar modos y cargos de entrega del centro de llamadas
-description: Este tema describe cómo configurar los modos de entrega y los gastos para un pedido de centro de asistencia telefónica en Microsoft Dynamics 365 for Retail.
+description: Este tema describe cómo configurar los modos de entrega y los gastos para un pedido de centro de asistencia telefónica en Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 04/26/2018
@@ -17,18 +17,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2571b4ffd6c13dbf755ef2dfa93b757822890d96
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b67a1d91e41e1a4c21e0e877c06812dededbe731
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553608"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019498"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Configurar modos y cargos de entrega del centro de llamadas
 
 [!INCLUDE [banner](includes/banner.md)]
 
-Cuando un pedido de ventas se coloca en Microsoft Dynamics 365 for Retail, si la persona que introdujo el pedido de ventas se vincula a un canal de centro de llamadas, la lógica y las reglas se utilizan para validar el modo de entrega (modo de entrega) y para calcular los gastos del pedido.
+Cuando un pedido de ventas se coloca en Dynamics 365 Retail, si la persona que introdujo el pedido de ventas se vincula a un canal de centro de llamadas, la lógica y las reglas se utilizan para validar el modo de entrega (modo de entrega) y para calcular los gastos del pedido.
 
 Al crear un pedido de ventas, puede seleccionar un modo de entrega en la cabecera del pedido de ventas y las líneas del pedido de ventas. De forma predeterminada, el modo de entrega que seleccione en la cabecera se utiliza para todas las líneas del pedido de ventas. No obstante, puede anular el modo de entrega predeterminada en las líneas de ventas individuales según necesite. También puede definir un modo de entrega en un registro de cliente. A continuación, cuando se crean los pedidos para el cliente, ese modo de entrega se utiliza de forma predeterminada en la cabecera del pedido de ventas.
 

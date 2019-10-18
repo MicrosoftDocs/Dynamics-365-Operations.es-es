@@ -16,20 +16,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f08829bccbaea6fb70563e553f9042300b4d5ea9
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: fbaa467c22656aa8d1e39d26a8233250e2bb66f8
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838007"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026610"
 ---
 # <a name="sales-tax-assignment-and-overrides"></a>Asignación de impuestos y anulaciones
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimiento muestra cómo asignar grupos de impuestos a canales comerciales. También recorre el proceso de crear una nueva anulación de impuestos y de asignarla a un grupo de anulaciones de impuestos de ventas existente. Este procedimiento
-
-usa la empresa USRT en los datos de demostración.
+Este procedimiento muestra cómo asignar grupos de impuestos a canales comerciales. También recorre el proceso de crear una nueva anulación de impuestos y de asignarla a un grupo de anulaciones de impuestos de ventas existente. Este procedimiento usa la empresa USRT en los datos de demostración.
 
 1. Vaya a Venta minorista y comercio > Canales > Tiendas > Todas las tiendas minoristas.
 2. En la lista, haga clic en el vínculo Id. de canal comercial para “Houston”.

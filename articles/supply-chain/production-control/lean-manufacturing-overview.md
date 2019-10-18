@@ -1,6 +1,6 @@
 ---
 title: Visión general de lean manufacturing
-description: Este artículo proporciona una visión general y una descripción de las funciones de lean manufacturing (producción ajustada) de Dynamics 365 for Finance and Operations.
+description: Este artículo proporciona una visión general y una descripción de las funciones de lean manufacturing (producción ajustada) de Dynamics 365 Supply Chain Management.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,29 +19,29 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6db940548018c9d6bbb31891c21f7c334ba8956
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d338318d3f7a1b56fe98e5c093ccbe795bd8de44
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562401"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250081"
 ---
 # <a name="lean-manufacturing-overview"></a>Visión general de lean manufacturing
 
 [!include [banner](../includes/banner.md)]
 
-Este artículo proporciona una visión general y una descripción de las funciones de lean manufacturing (producción ajustada) de Microsoft Dynamics 365 for Finance and Operations.
+Este artículo proporciona una visión general y una descripción de las funciones de lean manufacturing (producción ajustada) de Dynamics 365 Supply Chain Management.
 
 Lean manufacturing ofrece herramientas que puede usar para modelar las operaciones lean. Estas herramientas apoyan y promueven los siguientes conceptos y actividades empresariales:
 -   Crear una fundación de lean manufacturing modelando procesos de fabricación y logística como flujos de producción.
 -   Implementar un sistema de extracción lean mediante el uso de kanbans para indicar los requisitos de la demanda.
 -   Supervisión y mantenimiento de trabajos kanban
 
-La arquitectura de lean manufacturing de Finance and Operations consta de flujos de producción, actividades y reglas kanban. Estas estructuras se integran completamente con los procesos de Finance and Operations. Puede usar el lean manufacturing en un entorno de fabricación mixto que combine distintas estrategias de suministro, producción y abastecimiento. Estas estrategias incluyen pedidos de producción, de lote para los sectores de procesamiento, de compra y de transferencia.
+La arquitectura de lean manufacturing consta de flujos de producción, actividades y reglas kanban. Estas estructuras se integran completamente con los procesos de Supply Chain Management. Puede usar el lean manufacturing en un entorno de fabricación mixto que combine distintas estrategias de suministro, producción y abastecimiento. Estas estrategias incluyen pedidos de producción, de lote para los sectores de procesamiento, de compra y de transferencia.
 
 | **Importante**                                                                                                                                                                                                                                                                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Puede usar Finance and Operations para permitir implementar lean manufacturing (producción ajustada) con kanbans. Sin embargo, la correcta implementación de los principios lean dependerá de los procesos empresariales internos que utilice y de las condiciones y el entorno real de la producción. |
+| Puede usar Supply Chain Management para permitir implementar lean manufacturing (producción ajustada) con kanbans. Sin embargo, la correcta implementación de los principios lean dependerá de los procesos empresariales internos que utilice y de las condiciones y el entorno real de la producción. |
 
 ## <a name="modeling-manufacturing-and-logistics-processes-as-production-flows"></a>Modelo de fabricación y procesos de logística durante el flujo de producción
 Para crear una fundación de lean manufacturing, modele los procesos de fabricación y logística como flujos de producción. Esta actividad consta de las siguientes tareas:
@@ -69,8 +69,8 @@ En la siguiente lista se describen los tableros kanban especializados:
 -   Tablero kanban para trabajos de transferencia: este tablero proporciona una visión general de los trabajos de transferencia actual. Puede actualizar y registrar listas de selección, iniciar y finalizar trabajos de transferencia y realizar otras tareas.
 -   Tablero kanban para trabajos de proceso: este tablero se ha diseñado para admitir el flujo de producción normal y para proporcionar una descripción general de la situación actual en una o varias celdas de trabajo. En este tablero se pueden priorizar, seleccionar o fabricar kanbans. Este tablero también se ha diseñado para poder escanear códigos de barras para generar informes de kanbans.
 
-## <a name="kanban-jobs-and-integration-with-finance-and-operations-processes"></a>Trabajos kanban e integración con procesos de Finance and Operations
-Los trabajos kanban se integran completamente con los procesos actuales de las transacciones de inventario de Finance and Operations.
+## <a name="kanban-jobs-and-integration-with-supply-chain-management-processes"></a>Trabajos kanban e integración con los procesos de Supply Chain Management
+Los trabajos kanban se integran completamente con los procesos actuales de las transacciones de inventario de Supply Chain Management.
 -   Puede realizar las actividades de picking para reabastecer el material utilizado para satisfacer los requisitos de los trabajos kanban.
 -   Puede imprimir tarjetas kanban, tarjetas kanban de circulación y listas de picking para apoyar el uso de kanban. Estos documentos se usan para representar, seguir y registrar trabajos kanban en el almacén y en la planta de producción.
 -   Puede registrar el picking y las actividades de transferencia de inventario mediante el escaneo de los códigos de barras.

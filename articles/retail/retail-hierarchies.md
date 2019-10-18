@@ -1,6 +1,6 @@
 ---
 title: Jerarquías comerciales
-description: Este artículo describe jerarquías comerciales de Microsoft Dynamics 365 for Retail.
+description: Este artículo describe jerarquías comerciales de Dynamics 365 Retail.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 198c8da336f3e225c5d6da2eb02c86581dc9b4d6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cb383c5bc5ad5d641db6f30e915ea43ba5980005
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568031"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025086"
 ---
 # <a name="retail-hierarchies"></a>Jerarquías comerciales
 
 [!include [banner](includes/banner.md)]
 
-Este artículo describe jerarquías comerciales de Microsoft Dynamics 365 for Retail.
+Este artículo describe jerarquías comerciales de Dynamics 365 Retail.
 
 Puede crear una jerarquía de categoría comercial para organizar los productos que vende a través de los canales comerciales. Puede usar jerarquías de productos comerciales para categorizar o agrupar productos. Puede usar estos productos para crear selecciones de productos y programas de fidelización de clientes. También puede asignar propiedades y atributos de productos, asignar una estructura de precios, incluir los productos en las promociones de producto y usar los productos para crear informes. Puede crear una jerarquía de categoría comercial que represente todos los productos y categorías de la organización y, a continuación, utilizar dicha jerarquía de categoría con distintos fines. Como alternativa, puede crear varias jerarquías de categoría comercial para fines especiales, tales como promociones de productos. Al crear una jerarquía de productos comerciales, debe asignar un tipo de jerarquía de categoría para identificar el propósito de la jerarquía de categoría. Por ejemplo, solo se hace referencia a las jerarquías de productos que tienen el tipo **Jerarquía de navegación comercial** asignado al examinar productos por categoría en línea o en el punto de venta (POS).
 

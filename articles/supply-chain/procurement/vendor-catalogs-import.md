@@ -18,19 +18,19 @@ ms.search.industry: ''
 ms.author: mkirknel
 ms.search.validFrom: 2018-04-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: cf81823de46da9a834f0214896b9e634989cac0e
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 9f85b1d1f0b1c2378dd3f278640d984c31923c35
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569785"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017883"
 ---
 # <a name="import-vendor-catalogs"></a>Importar catálogo de proveedores
 [!include[banner](../includes/banner.md)]
 
 ## <a name="vendor-catalogs-import"></a>Importación de catálogos de proveedores
 
-En Microsoft Dynamics 365 for Finance and Operations, los encargados de compras pueden crear y mantener catálogos que los empleados de las empresas pueden utilizar cuando piden servicios y artículos para su uso interno. Para crear un catálogo de compras, puede agregar los artículos y servicios que desea poner a disposición de los empleados, ya sea importando los datos del catálogo de productos o agregando manualmente los datos del catálogo de productos al producto maestro. 
+En Dynamics 365 Supply Chain Management, los encargados de compras pueden crear y mantener catálogos que los empleados de las empresas pueden utilizar cuando piden servicios y artículos para su uso interno. Para crear un catálogo de compras, puede agregar los artículos y servicios que desea poner a disposición de los empleados, ya sea importando los datos del catálogo de productos o agregando manualmente los datos del catálogo de productos al producto maestro. 
 
 Puede cargar los datos del catálogo enviados por un proveedor del cliente de Microsoft Dynamics 365.
 
@@ -52,7 +52,7 @@ Para importar datos de catálogos de proveedores, debe completar las tareas sigu
 
 6.  Cargar el archivo de CMR.
 
-7.  Revisar, aprobar o rechazar los productos del catálogo de proveedores. Los productos se asignan automáticamente a las categorías de compras en Dynamics 365 for Finance and Operations. 
+7.  Revisar, aprobar o rechazar los productos del catálogo de proveedores. Los productos se asignan automáticamente a las categorías de compras. 
     
 Los productos aprobados se agregan al producto maestro y se liberan en las entidades jurídicas seleccionadas. Solo se pueden agregar productos aprobados al catálogo de compras.
 

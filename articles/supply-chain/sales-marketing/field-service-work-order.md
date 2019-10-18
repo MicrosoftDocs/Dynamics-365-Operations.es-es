@@ -1,6 +1,6 @@
 ---
-title: Sincronizar pedidos de trabajo en Field Service con pedidos de ventas en Finance and Operations
-description: En este tema se describen las plantillas y las tareas subyacentes que se usan para sincronizar pedidos de trabajo en Field Service con los pedidos de ventas en Finance and Operations.
+title: Sincronizar pedidos de trabajo en Field Service con pedidos de ventas en Supply Chain Management
+description: En este tema se describen las plantillas y las tareas subyacentes que se usan para sincronizar pedidos de trabajo en Field Service con los pedidos de ventas en Supply Chain Management.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 04/09/2018
@@ -19,30 +19,29 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 49cb5942532e4feab64aa271ebfecf5cb60b1c61
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2aa37ada18120e3b2a6e6b309c7d7b7ca9d9158f
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562727"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249838"
 ---
-# <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-finance-and-operations"></a>Sincronizar pedidos de trabajo en Field Service con pedidos de ventas en Finance and Operations
+# <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>Sincronizar pedidos de trabajo en Field Service con pedidos de ventas en Supply Chain Management
 
 [!include[banner](../includes/banner.md)]
 
-En este tema se describe las plantillas y las tareas subyacentes que se usan para sincronizar pedidos de trabajo en Microsoft Dynamics 365 for Field Service a pedidos de ventas en Microsoft Dynamics 365 for Finance and Operations.
+En este tema se describe las plantillas y las tareas subyacentes que se usan para sincronizar pedidos de trabajo en Dynamics 365 Field Service a pedidos de ventas en Dynamics 365 Supply Chain Management.
 
-[![Sincronización de procesos empresariales entre Finance and Operations y Field Service](./media/field-service-integration.png)](./media/field-service-integration.png)
+[![Sincronización de procesos empresariales entre Supply Chain Management y Field Service](./media/field-service-integration.png)](./media/field-service-integration.png)
 
-En este tema se describen las plantillas y las tareas subyacentes que se usan para sincronizar pedidos de trabajo en Field Service con los pedidos de ventas en Finance and Operations.
 
 ## <a name="templates-and-tasks"></a>Plantillas y tareas
 
-Las siguientes plantillas y las tareas subyacentes que se usan para ejecutar la sincronización de pedidos de trabajo en Field Service con los pedidos de ventas en Finance and Operations.
+Las siguientes plantillas y las tareas subyacentes que se usan para ejecutar la sincronización de pedidos de trabajo en Field Service con los pedidos de ventas en Supply Chain Management.
 
 ### <a name="names-of-the-templates-in-data-integration"></a>Nombres de las plantillas en la integración de datos
 
-La plantilla **Pedidos de trabajo a los pedidos de ventas (Field Service to Fin and Ops)** se usa para ejecutar la sincronización.
+La plantilla **Pedidos de trabajo a los pedidos de ventas (Field Service to Supply Chain Management)** se usa para ejecutar la sincronización.
 
 ### <a name="names-of-the-tasks-in-the-data-integration-project"></a>Nombres de las tareas en el proyecto de integración de datos
 
@@ -54,12 +53,12 @@ La plantilla **Pedidos de trabajo a los pedidos de ventas (Field Service to Fin 
 
 Las siguientes tareas de sincronización son necesarias antes de que pueda producirse la sincronización de los encabezados y líneas del pedido:
 
-- Productos Field Service (Fin and Ops to Field Service)
-- Cuentas (Sales to Fin and Ops) - Direct
+- Productos de Field Service (Supply Chain Management a Field Service)
+- Cuentas (Sales a Supply Chain Management) - Direct
 
 ## <a name="entity-set"></a>Conjunto de entidades
 
-| **Field Service** | **Finance and Operations** |
+| **Field Service** | **Gestión de la cadena de abastecimiento** |
 |-------------------------|-------------------------|
 | msdyn_workorders        | Encabezado de pedidos de ventas de CDS |
 | msdyn_workorderservices | Líneas de pedido de ventas de CDS   |
@@ -67,13 +66,13 @@ Las siguientes tareas de sincronización son necesarias antes de que pueda produ
 
 ## <a name="entity-flow"></a>Flujo de la entidad
 
-Los pedidos de trabajo se crean en Field Service. Si los pedidos de trabajo incluyen solo productos mantenidos externamente y si el valor de **Estado del pedido de trabajo** difiere de **Abierto - no programado** y **Cerrado – Cancelado**, los pedidos de trabajo se pueden sincronizar con Finance and Operations mediante un proyecto de integración de datos de CDS. Las actualizaciones en los pedidos de trabajo se sincronizarán como pedidos de ventas en Finance and Operations. Estas actualizaciones incluyen información acerca del tipo y el estado de origen.
+Los pedidos de trabajo se crean en Field Service. Si los pedidos de trabajo incluyen solo productos mantenidos externamente y si el valor de **Estado de la orden de trabajo** difiere de **Abierto - no programado** y **Cerrado – Cancelado**, las órdenes de trabajo se pueden sincronizar con Supply Chain Management mediante un proyecto de integración de datos de Common Data Service. Las actualizaciones en los pedidos de trabajo se sincronizarán como pedidos de ventas en Supply Chain Management. Estas actualizaciones incluyen información acerca del tipo y el estado de origen.
 
 ## <a name="estimated-versus-used"></a>Estimado versus utilizado
 
-En Field Service, los productos y servicios en pedidos de trabajo tienen tanto valores **Estimado** como valores **Utilizado** para las cantidades e importes. Sin embargo, en Finance and Operations, los pedidos de ventas no tienen el mismo concepto de valores **Estimado** y **Utilizado**. Para admitir la asignación de producto que utiliza la cantidad prevista en el pedido de ventas en Finance and Operations, pero mantener la cantidad utilizada que debe ser consumida y facturada, dos conjuntos de tareas sincronizan los productos y servicios en el pedido de trabajo. Un conjunto de tareas es por valores **Estimado** y el otro conjunto de tareas es por valores **Utilizado**.
+En Field Service, los productos y servicios en pedidos de trabajo tienen tanto valores **Estimado** como valores **Utilizado** para las cantidades e importes. Sin embargo, en Supply Chain Management, los pedidos de ventas no tienen el mismo concepto de valores **Estimado** y **Utilizado**. Para admitir la asignación de producto que utiliza la cantidad prevista en el pedido de ventas en Supply Chain Management, pero mantener la cantidad utilizada que debe ser consumida y facturada, dos conjuntos de tareas sincronizan los productos y servicios en la orden de trabajo. Un conjunto de tareas es por valores **Estimado** y el otro conjunto de tareas es por valores **Utilizado**.
 
-Este comportamiento habilita las situaciones en las que los valores estimados se utilizan para la asignación o la reserva en Finance and Operations, mientras que los valores utilizados se usan para el consumo y facturar.
+Este comportamiento habilita las situaciones en las que los valores estimados se utilizan para la asignación o la reserva en Supply Chain Management, mientras que los valores utilizados se usan para el consumo y facturar.
 
 ### <a name="estimated"></a>Estimada
 
@@ -87,7 +86,7 @@ Los valores **Utilizado** se usan para el consumo y facturar. En estos casos, se
 
 La tabla siguiente proporciona una visión general de las distintas combinaciones para las líneas de productos.
 
-| Estado del sistema <br>(Field Service) | Línea de estado <br>(Field Service) | Asignado <br>(Field Service) |Valor sincronizado <br>(Finance and Operations) |
+| Estado del sistema <br>(Field Service) | Línea de estado <br>(Field Service) | Asignado <br>(Field Service) |Valor sincronizado <br>(Supply Chain Management) |
 |--------------------|-------------|-----------|---------------------------------|
 | Abrir: programado   | Estimada   | Sí       | Estimada                       |
 | Abrir: programado   | Estimada   | N.º        | Utilizado                            |
@@ -108,10 +107,10 @@ La tabla siguiente proporciona una visión general de las distintas combinacione
 
 La tabla siguiente proporciona una visión general de las distintas combinaciones para las líneas de servicios.
 
-| Estado del sistema <br>(Field Service) | Línea de estado <br>(Field Service) | Valor sincronizado <br>(Finance and Operations) |
+| Estado del sistema <br>(Field Service) | Línea de estado <br>(Field Service) | Valor sincronizado <br>(Supply Chain Management) |
 |--------------------|-------------|-----------|
 | Abrir: programado   | Estimada   | Estimada |
-| Abrir: programado   | Utilizado        | Utilizado      |
+| Abrir: programado   | Usado        | Utilizado      |
 | Abrir: en proceso | Estimada   | Estimada |
 | Abrir: en proceso | Utilizado        | Utilizado      |
 | Abrir: completado   | Estimada   | Estimada |
@@ -130,7 +129,7 @@ La sincronización de valores **Estimado** versus **Utilizado** se administra me
     - **Línea de productos:** Cant estimada = 5ea, Cant utilizada = 0ea, estado de línea = Estimado, Asignado = No
     - **Línea de servicio:** Cant estimada = 2h, Cant utilizada = 0h, Estado de línea = Estimado
 
-    En este ejemplo, el valor del producto **Cant utilizada** **0** (cero) y el valor **Cant estimada** del servicio **2h** se sincronizan de Finance and Operations.
+    En este ejemplo, el valor del producto **Cant utilizada** **0** (cero) y el valor **Cant estimada** del servicio **2h** se sincronizan de Supply Chain Management.
 
 2. Los productos se asignan en Field Service.
 
@@ -139,7 +138,7 @@ La sincronización de valores **Estimado** versus **Utilizado** se administra me
     - **Línea de productos:** Cant estimada = 5ea, Cant utilizada = 0ea, estado de línea = Estimado, Asignado = Yes
     - **Línea de servicio:** Cant estimada = 2h, Cant utilizada = 0h, Estado de línea = Estimado
 
-    En este ejemplo, el valor del producto **Cant estimada** **5ea** y el valor **Cant estimada** del servicio **2h** se sincronizan con Finance and Operations.
+    En este ejemplo, el valor del producto **Cant estimada** de **5ea** y el valor **Cant estimada** del servicio de **2h** se sincronizan de Supply Chain Management.
 
 3. El técnico de servicio comienza a trabajar en el pedido de trabajo y registra el uso de material. 6.
 
@@ -148,7 +147,7 @@ La sincronización de valores **Estimado** versus **Utilizado** se administra me
     - **Línea de productos:** Cant estimada = 5ea, Cant utilizada = 6ea, estado de línea = Usado, Asignado = Yes
     - **Línea de servicio:** Cant estimada = 2h, Cant utilizada = 0h, Estado de línea = Estimado
 
-    En este ejemplo, el valor del producto **Cant utilizada** **6** y el valor **Cant estimada** del servicio **2h** se sincronizan de Finance and Operations.
+    En este ejemplo, el valor del producto **Cant utilizada** **6** y el valor **Cant estimada** del servicio **2h** se sincronizan de Supply Chain Management.
 
 4. El técnico de servicio completa el pedido de trabajo y registra el tiempo empleado de 1,5 horas.
 
@@ -157,21 +156,21 @@ La sincronización de valores **Estimado** versus **Utilizado** se administra me
     - **Línea de productos:** Cant estimada = 5ea, Cant utilizada = 6ea, estado de línea = Usado, Asignado = Yes
     - **Línea de servicio:** Cant estimada = 2h, Cant utilizada = 1,5h, Estado de línea = Utilizado
 
-    En este ejemplo, el valor del producto **Cant utilizada** **6** y el valor **Cant utilizada** del servicio **1,5h** se sincronizan en Finance and Operations.
+    En este ejemplo, el valor del producto **Cant utilizada** de **6** y el valor **Cant utilizada** del servicio de **1,5h** se sincronizan en Supply Chain Management.
 
 ## <a name="sales-order-origin-and-status"></a>Origen y estado del pedido de ventas
 
 ### <a name="sales-origin"></a>Origen de la venta
 
-Para realizar un seguimiento de los pedidos de ventas en Finance and Operations que se originan de pedidos de trabajo, puede crear un origen de ventas en la opción **Asignación de tipo de origen** se establece en **Sí** y el campo **Tipo de origen de ventas** se establece en **Integración de pedidos de trabajo**.
+Para realizar un seguimiento de los pedidos de ventas que se originan de pedidos de trabajo, puede crear un origen de ventas en la opción **Asignación de tipo de origen** se establece en **Sí** y el campo **Tipo de origen de ventas** se establece en **Integración de pedidos de trabajo**.
 
-De forma predeterminada, la asignación selecciona el origen de ventas para tipo de origen ventas **Integración de pedidos de trabajo** para todos los pedidos de ventas que se creen de pedidos de trabajo. Este comportamiento puede ser útil cuando trabaja con el pedido de ventas en Finance and Operations. Debe asegurarse de que los pedidos de ventas que se originan de pedidos de trabajo no estén sincronizados de nuevo Field Service como pedidos de trabajo.
+De forma predeterminada, la asignación selecciona el origen de ventas para tipo de origen ventas **Integración de pedidos de trabajo** para todos los pedidos de ventas que se creen de pedidos de trabajo. Este comportamiento puede ser útil cuando trabaja con el pedido de ventas en Supply Chain Management. Debe asegurarse de que los pedidos de ventas que se originan de pedidos de trabajo no estén sincronizados de nuevo Field Service como pedidos de trabajo.
 
-Para obtener más información sobre cómo crear la configuración correcta del origen de ventas en Finance and Operations, consulte la sección "Condiciones previas y configuración de la asignación" de este tema.
+Para obtener más información sobre cómo crear la configuración correcta del origen de ventas en Supply Chain Management, consulte la sección "Condiciones previas y configuración de la asignación" de este tema.
 
 ### <a name="status"></a>Estado
 
-Cuando el pedido de ventas se origina desde un pedido de trabajo, el campo **Estado del pedido externo de trabajo** aparece en la pestaña **Configuración** en el encabezado del pedido de ventas. Este campo muestra el estado del sistema del pedido de trabajo en Field Service, para ayudarle a seguir el estado del pedido sincronizado de trabajo de pedidos de ventas en Finance and Operations. Este campo también puede ayudar al usuario de Finance and Operations a determinar cuándo el pedido de ventas debe registrarse o facturarse.
+Cuando el pedido de ventas se origina desde un pedido de trabajo, el campo **Estado del pedido externo de trabajo** aparece en la pestaña **Configuración** en el encabezado del pedido de ventas. Este campo muestra el estado del sistema de la orden de trabajo en Field Service, para ayudarle a seguir el estado del pedido sincronizado de trabajo de pedidos de ventas en Supply Chain Management. Este campo también puede ayudar al usuario a determinar cuándo el pedido de ventas debe registrarse o facturarse.
 
 El campo **Estado del pedido de trabajo externo** puede tener los siguientes valores:
 
@@ -182,16 +181,16 @@ El campo **Estado del pedido de trabajo externo** puede tener los siguientes val
 
 ## <a name="field-service-crm-solution"></a>Solución CRM de Field Service
 
-Para admitir la integración entre Field Service y Finance and Operations, la funcionalidad adicional de la solución de CRM Field Service es necesaria. La solución incluye los siguientes cambios.
+Para admitir la integración entre Field Service y Supply Chain Management, la funcionalidad adicional de la solución de CRM Field Service es necesaria. La solución incluye los siguientes cambios.
 
 ### <a name="work-order-entity"></a>Entidad de pedido de trabajo
 
-El campo **Solo tiene productos mantenidos externamente** se ha agregado a la entidad **Pedido de trabajo** y aparece en la página. Se utiliza para hacer un seguimiento de si un pedido de trabajo consiste completamente en productos mantenidos externamente. Un pedido de trabajo solo contiene productos mantenidos externamente cuando todos los productos relacionados se mantienen en Finance and Operations. Este campo ayuda a garantizar que los usuarios no sincronizan los pedido de trabajo que tienen productos desconocidos para Finance and Operations.
+El campo **Solo tiene productos mantenidos externamente** se ha agregado a la entidad **Pedido de trabajo** y aparece en la página. Se utiliza para hacer un seguimiento de si un pedido de trabajo consiste completamente en productos mantenidos externamente. Una orden de trabajo solo contiene productos mantenidos externamente cuando todos los productos relacionados se mantienen en Supply Chain Management. Este campo ayuda a garantizar que los usuarios no sincronizan las órdenes de trabajo que tienen productos desconocidos.
 
 ### <a name="work-order-product-entity"></a>Entidad de producto de pedido de trabajo
 
-- El campo **El pedido solo tiene productos mantenidos externamente** se ha agregado a la entidad **Producto de pedido de trabajo** y aparece en la página. Se utiliza para hacer un seguimiento constante de si el producto del pedido de trabajo se mantiene en Finance and Operations. Este campo ayuda a garantizar que los usuarios no sincronizan los productos de pedido de trabajo que son desconocidos para Finance and Operations.
-- El campo **Estado del sistema de encabezado** se ha agregado a la entidad **Producto de pedido de trabajo** y aparece en la página. Se utiliza para hacer un seguimiento constante del estado del sistema del pedido de trabajo y ayuda a garantizar un filtrado correcto cuando los productos del pedido de trabajo se sincronizan con Finance and Operations. Cuando los filtros se establecen en las tareas de integración, la información **Estado del sistema del encabezado** también se usa para determinar si los valores estimados o utilizados deben ser sincronizados.
+- El campo **El pedido solo tiene productos mantenidos externamente** se ha agregado a la entidad **Producto de pedido de trabajo** y aparece en la página. Se utiliza para hacer un seguimiento constante de si el producto de la orden de trabajo se mantiene en Supply Chain Management. Este campo ayuda a garantizar que los usuarios no sincronizan los productos de la orden de trabajo que son desconocidos para Supply Chain Management.
+- El campo **Estado del sistema de encabezado** se ha agregado a la entidad **Producto de pedido de trabajo** y aparece en la página. Se utiliza para hacer un seguimiento constante del estado del sistema de la orden de trabajo y ayuda a garantizar un filtrado correcto cuando los productos de la orden de trabajo se sincronizan con Supply Chain Management. Cuando los filtros se establecen en las tareas de integración, la información **Estado del sistema del encabezado** también se usa para determinar si los valores estimados o utilizados deben ser sincronizados.
 - El campo **Importe de unidades facturada** muestra el importe que se factura por unidad real que se usa. El valor se calcula como el valor **Importe total** dividido por el valor **Cantidad real** . El campo se utiliza para la integración en sistemas que no admiten valores diferentes para la cantidad usada y la cantidad facturada. Este campo no aparece en la interfaz de usuario (UI). 
 - El campo **Importe de descuento facturado** se calcula como el valor **Importe de descuento** más el redondeo del cálculo del valor **Importe de la unidad facturada**. Este campo se utiliza para la integración y no aparece en la interfaz de usuario.
 - El campo **Cantidad decimal** guarda el valor del campo **Cantidad** como números decimales. Este campo se utiliza para la integración y no aparece en la interfaz de usuario. 
@@ -199,8 +198,8 @@ El campo **Solo tiene productos mantenidos externamente** se ha agregado a la en
 
 ### <a name="work-order-service-entity"></a>Entidad de servicio de pedido de trabajo
 
-- El campo **El pedido solo tiene productos mantenidos externamente** se ha agregado a la entidad **Servicio de pedido de trabajo** y aparece en la página. Se utiliza para hacer un seguimiento constante de si el servicio del pedido de trabajo se mantiene en Finance and Operations. Este campo ayuda a garantizar que los usuarios no sincronizan los servicios de pedido de trabajo que son desconocidos para Finance and Operations.
-- El campo **Estado del sistema de encabezado** se ha agregado a la entidad **Servicio de pedido de trabajo** y aparece en la página. Se utiliza para hacer un seguimiento constante del estado del sistema del pedido de trabajo y ayuda a garantizar un filtrado correcto cuando los servicios del pedido de trabajo se sincronizan con Finance and Operations. Cuando los filtros se establecen en las tareas de integración, la información **Estado del sistema del encabezado** también se usa para determinar si los valores estimados o utilizados deben ser sincronizados.
+- El campo **El pedido solo tiene productos mantenidos externamente** se ha agregado a la entidad **Servicio de pedido de trabajo** y aparece en la página. Se utiliza para hacer un seguimiento constante de si el servicio de la orden de trabajo se mantiene en Supply Chain Management. Este campo ayuda a garantizar que los usuarios no sincronizan los servicios de la orden de trabajo que son desconocidos para Supply Chain Management.
+- El campo **Estado del sistema de encabezado** se ha agregado a la entidad **Servicio de pedido de trabajo** y aparece en la página. Se utiliza para hacer un seguimiento constante del estado del sistema de la orden de trabajo y ayuda a garantizar un filtrado correcto cuando los servicios de la orden de trabajo se sincronizan con Supply Chain Management. Cuando los filtros se establecen en las tareas de integración, la información **Estado del sistema del encabezado** también se usa para determinar si los valores estimados o utilizados deben ser sincronizados.
 - El campo **Duración en horas** guarda el valor del campo **Duración** después de que el valor se convierta de minutos a horas. Este campo se utiliza para la integración y no aparece en la interfaz de usuario.
 - El campo **Duración en horas estimada** guarda el valor del campo **Duración estimada** después de que el valor se convierta de minutos a horas. Este campo se utiliza para la integración y no aparece en la interfaz de usuario.
 - El campo **Importe de unidades facturadas** guarda el importe que se factura por unidad real que se usa. El valor se calcula como el valor **Importe total** dividido por el valor **Cantidad real** . Este campo se utiliza para la integración en sistemas que no admiten valores diferentes para la cantidad usada y la cantidad facturada. El campo no aparece en la interfaz de usuario.
@@ -214,12 +213,12 @@ Antes de sincronizar pedidos de trabajo, es importante actualizar la configuraci
 
 ### <a name="setup-in-field-service"></a>Configuración en Field Service
 
-- Asegúrese de que la serie numérica usada para los pedidos de trabajo en Field Service no se superpone con la secuencia numérica que se usa para los pedidos de ventas en Finance and Operations. De lo contrario, los pedidos de ventas existentes se pueden actualizar incorrectamente en Field Service o Finance and Operations.
-- El campo **Creación de facturas de pedidos de trabajo** se debe establecer en **Nunca**, porque la facturación se hace desde Finance and Operations. Vaya a **Field Service** \> **Configuración** \> **Administración** \> **Configuración de Field Service** y asegúrese de que el campo **Creación de facturas de pedidos de trabajo** está establecido en **Nunca**.
+- Asegúrese de que la serie numérica usada para las órdenes de trabajo en Field Service no se superpone con la secuencia numérica que se usa para los pedidos de ventas en Supply Chain Management. De lo contrario, los pedidos de ventas existentes se pueden actualizar incorrectamente en Field Service o Supply Chain Management.
+- El campo **Creación de facturas de órdenes de trabajo** se debe establecer en **Nunca**, porque la facturación se hace desde Supply Chain Management. Vaya a **Field Service** \> **Configuración** \> **Administración** \> **Configuración de Field Service** y asegúrese de que el campo **Creación de facturas de pedidos de trabajo** está establecido en **Nunca**.
 
-### <a name="setup-in-finance-and-operations"></a>Configuración en Finance and Operations
+### <a name="setup-in-supply-chain-management"></a>Configurar Supply Chain Management
 
-La integración de pedidos de trabajo requiere que configure el origen de ventas. El origen de la venta se utiliza para distinguir los pedidos de ventas en Finance and Operations creados a partir de pedidos de trabajo en Field Service. Cuando un pedido de ventas tiene un origen de ventas del tipo **Integración del pedido de trabajo** aparece en la pestaña **Estado del pedido de trabajo externo** en el encabezado del pedido de ventas. Además, el origen de la venta ayuda a garantizar que los pedidos de ventas creados a partir de pedidos de trabajo en Field Service se filtren durante la sincronización del pedido de ventas de Finance and Operations a Field Service.
+La integración de pedidos de trabajo requiere que configure el origen de ventas. El origen de la venta se utiliza para distinguir los pedidos de ventas en Supply Chain Management creados a partir de pedidos de trabajo en Field Service. Cuando un pedido de ventas tiene un origen de ventas del tipo **Integración del pedido de trabajo** aparece en la pestaña **Estado del pedido de trabajo externo** en el encabezado del pedido de ventas. Además, el origen de la venta ayuda a garantizar que los pedidos de ventas creados a partir de órdenes de trabajo en Field Service se filtren durante la sincronización del pedido de ventas de Supply Chain Management a Field Service.
 
 1. Vaya a **Ventas y marketing** \> **Configuración** \> **Pedidos de ventas** \> **Origen de ventas**.
 2. Seleccione **Nuevo** para crear un nuevo origen de ventas.
@@ -243,31 +242,31 @@ Asegúrse de que haya una **Tecla de integración** para **msdyn_workorders**
 
 Las siguientes ilustraciones muestran la asignación de plantilla en la integración de datos.
 
-### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderheader"></a>Pedidos de trabajo a los pedidos de ventas (de Field Service a Fin and Ops): WorkOrderHeader
+### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderheader"></a>Órdenes de trabajo a pedidos de ventas (Field Service a Supply Chain Management): WorkOrderHeader
 
 Filtro: (msdyn_systemstatus ne 690970005) y (msdyn_systemstatus ne 690970000) y (msdynce_hasexternallymaintainedproductsonly eq true)
 
 [![Asignación de la plantilla en la integración de datos](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
 
-### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderservicelineestimate"></a>Pedidos de trabajo a pedidos de ventas (de Field Service a Fin and Ops): WorkOrderServiceLineEstimate
+### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineestimate"></a>Órdenes de trabajo a pedidos de ventas (Field Service a Supply Chain Management): WorkOrderServiceLineEstimate
 
 Filtro: (msdynce_headersystemstatus ne 690970005) y (msdynce_headersystemstatus ne 690970000) y (msdynce_orderhasexternalmaintainedproductsonly eq true) and (msdyn_linestatus eq 690970000) y (msdynce_headersystemstatus ne 690970004)
 
 [![Asignación de la plantilla en la integración de datos](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
 
-### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderservicelineused"></a>Pedidos de trabajo a pedidos de ventas (de Field Service a Fin and Ops): WorkOrderServiceLineUsed
+### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineused"></a>Órdenes de trabajo a pedidos de ventas (Field Service a Supply Chain Management): WorkOrderServiceLineUsed
 
 Filtro: (msdynce_headersystemstatus ne 690970005) y (msdynce_headersystemstatus ne 690970000) y (msdynce_orderhasexternalmaintainedproductsonly eq true) y ((msdyn_linestatus eq 690970001) o (msdynce_headersystemstatus eq 690970004))
 
 [![Asignación de la plantilla en la integración de datos](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
 
-### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderproductlineestimate"></a>Pedidos de trabajo a pedidos de ventas (de Field Service a Fin and Ops): WorkOrderProductLineEstimate
+### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineestimate"></a>Órdenes de trabajo a pedidos de ventas (Field Service a Supply Chain Management): WorkOrderProductLineEstimate
 
 Filtro: (msdynce_headersystemstatus ne 690970005) y (msdynce_headersystemstatus ne 690970000) y (msdynce_orderhasexternalmaintainedproductsonly eq true) y (msdyn_linestatus eq 690970000) y (msdynce_headersystemstatus ne 690970004) y (msdyn_allocated eq true)
 
 [![Asignación de la plantilla en la integración de datos](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
 
-### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderproductlineused"></a>Pedidos de trabajo a pedidos de ventas (de Field Service a Fin and Ops): WorkOrderProductLineUsed
+### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineused"></a>Órdenes de trabajo a pedidos de ventas (Field Service a Supply Chain Management): WorkOrderProductLineUsed
 
 Filtro: (msdynce_headersystemstatus ne 690970005) y (msdynce_headersystemstatus ne 690970000) y (msdynce_orderhasexternalmaintainedproductsonly eq true) y ((msdyn_linestatus eq 690970001) o (msdynce_headersystemstatus eq 690970004) o (msdyn_allocated ne true))
 

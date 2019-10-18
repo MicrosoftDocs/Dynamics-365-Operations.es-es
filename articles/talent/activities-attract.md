@@ -1,6 +1,6 @@
 ---
-title: Actividades en los procesos en Microsoft Dynamics 365 for Talent - Attract
-description: Este tema proporciona información sobre los distintos tipos de actividades que se pueden usar en el proceso de contratación en Microsoft Dynamics 365 for Talent - Attract.
+title: Actividades en los procesos en Microsoft Dynamics 365 Talent - Attract
+description: Este tema proporciona información sobre los distintos tipos de actividades que se pueden usar en el proceso de contratación en Microsoft Dynamics 365 Talent - Attract.
 author: hasrivas
 manager: AnnBe
 ms.date: 05/28/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 4d52f3a384ad2a54986d1bd23baeefbaae30c9e2
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 2e40250bb801f6222d16400b2698e5b0df47a404
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739733"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008717"
 ---
 # <a name="activities-in-hiring-processes"></a>Actividades en los procesos de contratación
 
 [!include[banner](../includes/banner.md)]
 
-Las actividades se pueden agregar como parte del proceso de contratación de Microsoft Dynamics 365 for Talent: Attract. Las actividades se pueden agregar a una plantilla de proceso, o se pueden agregar directamente al proceso de contratación en el trabajo. Cuando se define un trabajo, se selecciona una plantilla de proceso, y las actividades que se incluyen en la plantilla se aplican al trabajo. Si no se selecciona una plantilla, se usará la plantilla predeterminada. El proceso de contratación también se puede modificar en el trabajo después de que se aplique la plantilla.
+Las actividades se pueden agregar como parte del proceso de contratación de Microsoft Dynamics 365 Talent: Attract. Las actividades se pueden agregar a una plantilla de proceso, o se pueden agregar directamente al proceso de contratación en el trabajo. Cuando se define un trabajo, se selecciona una plantilla de proceso, y las actividades que se incluyen en la plantilla se aplican al trabajo. Si no se selecciona una plantilla, se usará la plantilla predeterminada. El proceso de contratación también se puede modificar en el trabajo después de que se aplique la plantilla.
 
 > [!NOTE] 
 > Las plantillas de proceso están disponibles con el complemento de contratación completa. Para más información consulte [Capacidades complementarias de contratación completa de Attract](./attract-comprehensive-hiring.md).
@@ -55,7 +55,7 @@ La actividad de PowerApps le permite insertar una aplicación de Microsoft Power
 
 Para guardar la actividad de PowerApps en el proceso de contratación, debe especificar un identificador de PowerApps. Para buscar el identificador de PowerApps, vaya a [PowerApps](https://web.powerapps.com), seleccione **Aplicaciones**, y después seleccione **Detalles**.
 
-De forma predeterminada, la actividad de PowerApps está disponible para el jefe de contratación, el reclutador y sus delegados. Si selecciona la opción **Permitir agregar participantes a esta actividad**, se pueden agregar participantes adicionales desde el equipo de contratación a una solicitud que utilice la actividad de PowerApps. Por ejemplo, una organización ha creado una aplicación de PowerApps que es una biblioteca de preguntas de entrevistas para roles técnicos. La organización ahora está contratando un nuevo programador de software y ha agregado la actividad de PowerApps al proceso de contratación para el rol del programador de software. Si la opción **Permitir agregar participantes para esta actividad** está seleccionado, un reclutador o un jefe de contratación que esté viendo un candidato para el rol del programador de software puede agregar entrevistadores a la actividad de PowerApps. Estas personas pueden a su vez ver la aplicación que tiene las preguntas de la entrevista.
+De forma predeterminada, la actividad de PowerApps está disponible para el jefe de contratación, el reclutador y sus delegados. Si selecciona la opción **Permitir agregar participantes a esta actividad**, se pueden agregar participantes adicionales desde el equipo de contratación a una solicitud que utilice la actividad de PowerApps. Por ejemplo, una organización ha creado una aplicación de PowerApps que es una biblioteca de preguntas de entrevistas para roles técnicos. La organización ahora está contratando un nuevo programador de software y ha agregado la actividad de PowerApps al proceso de contratación para el rol del programador de software. Si la opción **Permitir agregar participantes para esta actividad** está seleccionada, un reclutador o un jefe de contratación que esté viendo un candidato para el rol del programador de software puede agregar entrevistadores a la actividad de PowerApps. Estas personas pueden a su vez ver la aplicación que tiene las preguntas de la entrevista.
 
 > [!NOTE]
 > La actividad de PowerApps está disponible únicamente con el complemento de contratación completo. Para más información consulte [Capacidades complementarias de contratación completa de Attract](./attract-comprehensive-hiring.md).
@@ -69,14 +69,14 @@ La actividad de YouTube le permite compartir un vídeo de YouTube como parte del
 
 ## <a name="web-content-activity"></a>Actividad de contenido web
 
-La actividad de contenido Web permite insertar contenido en línea en su proceso de contratación. Para guardar la actividad de contenido web al proceso de contratación, debe especificar la dirección URL del contenido. Puede elegir mostrar el contenido al **Equipo de contratación**, **Candidatos internos únicamente**, **Candidatos externos solamente**, o **Todos los candidatos**. Como las actividades de PowerApps y YouTube, puede permitir que se agreguen participantes del equipo de contratación a la actividad. Si elige mostrar el contenido a los candidatos, el contenido Web solo se muestra como parte de la experiencia del candidato y no en el proceso de contratación. Puede elegir el tamaño del contenido que se muestra.
+La actividad de contenido Web permite insertar contenido en línea en su proceso de contratación. Para guardar la actividad de contenido web al proceso de contratación, debe especificar la dirección URL del contenido. Puede elegir mostrar el contenido al **Equipo de contratación**, **Candidatos internos únicamente**, **Candidatos externos solamente**, o **Todos los candidatos**. Como las actividades de PowerApps y YouTube puede permitir que se agreguen participantes del equipo de contratación a la actividad. Si elige mostrar el contenido a los candidatos, el contenido Web solo se muestra como parte de la experiencia del candidato y no en el proceso de contratación. Puede elegir el tamaño del contenido que se muestra.
 
 > [!NOTE]
 > La actividad de contenido web está disponible únicamente con el complemento de contratación completo. Para más información consulte [Capacidades complementarias de contratación completa de Attract](./attract-comprehensive-hiring.md).
 
 ## <a name="microsoft-forms-activity"></a>Actividad de Microsoft Forms
 
-La actividad de Microsoft Forms le permite insertar una actividad de Microsoft Forms en su proceso de contratación. Microsoft Forms le permite crear cuestionario, encuestas y, sondeos. Para guardar la actividad de Microsoft Forms al proceso de contratación, debe especificar la dirección URL del formulario. Puede elegir mostrar el contenido al **Equipo de contratación**, **Candidatos internos únicamente**, **Candidatos externos solamente**, o **Todos los candidatos**. Como las actividades de PowerApps, YouTube y Web, puede permitir que se agreguen participantes del equipo de contratación a la actividad. Si elige mostrar el contenido a los candidatos, el formulario sólo se muestra como parte de la experiencia del candidato y no en el proceso de contratación.
+La actividad de Microsoft Forms le permite insertar una actividad de Microsoft Forms en su proceso de contratación. Microsoft Forms le permite crear cuestionario, encuestas y, sondeos. Para guardar la actividad de Microsoft Forms al proceso de contratación, debe especificar la dirección URL del formulario. Puede elegir mostrar el contenido al **Equipo de contratación**, **Candidatos internos únicamente**, **Candidatos externos solamente**, o **Todos los candidatos**. Como las actividades de PowerApps, YouTube y contenido Web, puede permitir que se agreguen participantes del equipo de contratación a la actividad. Si elige mostrar el contenido a los candidatos, el formulario sólo se muestra como parte de la experiencia del candidato y no en el proceso de contratación.
 
 En Microsoft Forms, los autores pueden cambiar su configuración para permitir que usuarios de fuera de la organización respondan a su encuesta o cuestionario. En este caso, los usuarios envían las respuestas anónimamente. Si desea ver quién ha completado la encuesta o cuestionario, puede requerir que los encuestados especifiquen sus nombres como parte de la encuesta o cuestionario.
 

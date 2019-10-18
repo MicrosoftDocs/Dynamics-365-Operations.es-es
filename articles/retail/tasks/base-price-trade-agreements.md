@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8138b6144cc6ba09834f2bfb61cc7334767307d6
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: 45d3d962958d0487c9e65910a2dce24097a83773
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916562"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017767"
 ---
 # <a name="base-price-and-trade-agreements"></a>Precio base y acuerdos comerciales
 
@@ -56,7 +56,7 @@ Este procedimiento le muestra la creación de acuerdos comerciales de precios de
 24. Haga clic en **Crear acuerdos comerciales**.
 25. Haga clic en **Nuevo**.
 26. En el campo **Nombre**, haga clic en el botón desplegable para abrir la búsqueda.
-27. En la lista, seleccione "Venta minorista". En los datos de demostración, el nombre de diario "Venta minorista" tiene la relación predeterminado de "Precio (ventas)". Esto significa que todas las nuevas líneas creadas se asignarán de forma predeterminada a los acuerdos comerciales de precio de ventas.  
+27. En la lista, seleccione **Venta minorista**. En los datos de demostración, el nombre de diario **Venta minorista** tiene la relación predeterminado de **Precio (ventas)**. Esto significa que todas las nuevas líneas creadas se asignarán de forma predeterminada a los acuerdos comerciales de precio de ventas.  
 28. En el **panel de acciones**, haga clic en **Líneas**.
 29. En el campo **Código de cuenta**, seleccione "Grupo".
 30. En el campo **Selección de cuentas**, haga clic en el botón desplegable para abrir la búsqueda.

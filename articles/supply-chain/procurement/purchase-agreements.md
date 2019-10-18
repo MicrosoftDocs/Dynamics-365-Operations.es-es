@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7024104dfc76a33735199ad0871fe7ce29f8e011
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 1e022fbf182da9a07fe20e5bebdd99cbff3d9c90
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570397"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248943"
 ---
 # <a name="purchase-agreements"></a>Acuerdos de compra
 
@@ -78,7 +78,7 @@ Cuando se confirma un acuerdo de compra, la versión actual del acuerdo se almac
 Cuando se crea un pedido de compra, puede aplicarle un acuerdo de compra. La información de las condiciones del acuerdo, como las condiciones de pago, las condiciones de entrega y la dirección de entrega, se copian en el encabezado del pedido de compra. Si el pedido de compra contiene una o varias líneas de productos o categorías cubiertos en el acuerdo de compra, los precios y descuentos del acuerdo de compra se utilizan para estas líneas. El importe o la cantidad de la línea de pedido contribuye al cumplimiento de compromiso en el acuerdo de compra. El mismo pedido de compra puede incluir ambas líneas que no están relacionadas con un acuerdo de compra y las líneas que tienen un compromiso para un acuerdo de compra.  
 
 Puede seleccionar un acuerdo de compra solo si está creando un pedido de compra. No puede seleccionar un acuerdo de compra después de haber creado el pedido de compra.  
-En algunos casos en los que los pedidos de compra se crean indirectamente, se puede controlar si Finance and Operations buscará automáticamente acuerdos de compra aplicables. Por ejemplo, puede hacerlo cuando se consoliden automáticamente pedidos de compra planificados en firme o cuando se creen pedidos de compra que se basan en pedidos de ventas.
+En algunos casos en los que los pedidos de compra se crean indirectamente, se puede controlar si Supply Chain Management buscará automáticamente acuerdos de compra aplicables. Por ejemplo, puede hacerlo cuando se consoliden automáticamente pedidos de compra planificados en firme o cuando se creen pedidos de compra que se basan en pedidos de ventas.
 
 ## <a name="purchase-agreements-and-intercompany-trade"></a>Acuerdos de compra y transacciones comerciales entre empresas vinculadas
 Las relaciones comerciales entre empresas vinculadas se pueden crear entre cuentas de proveedor y cuentas de cliente que se encuentran en distintas entidades jurídicas. Cuando un pedido de ventas o un pedido de compra se crea para una de las partes, se crea una cadena de pedidos de empresas vinculadas. En la cadena de pedido, el pedido de ventas y el pedido de compra se crea en las entidades jurídicas adecuadas.  

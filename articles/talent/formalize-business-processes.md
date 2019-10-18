@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-01-09
 ms.dyn365.ops.version: AX 7.1.0, Talent October 2017 update
-ms.openlocfilehash: 85950a1413cfd8745bb78a52eb9f7c81b8976605
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 51f8102afc28b3836d5fee13aa1e950351af3c4f
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519013"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008393"
 ---
 # <a name="formalize-business-processes"></a>Formalizar procesos empresariales
 
@@ -43,7 +43,7 @@ Para cada proceso empresarial, puede definir a un propietario de proceso. El pro
 Un propietario de proceso no puede crear nuevos procesos empresariales o plantillas de procesos empresariales, ni eliminar procesos empresariales activos o plantillas de procesos empresariales.
 
 ## <a name="tasks"></a>Tareas
-Un proceso empresarial comprende a menudo varias tareas. Algunas tareas, como una revisión de ofertas internas de curso, se pueden completar en Dynamics 365 for Talent[?]. En este caso, se selecciona una opción en el campo **Vínculo de tareas**. Otras tareas pueden implicar revisar o completar las páginas de un sitio web. En este caso, la dirección **URL** se seleccciona en el campo **Vínculo de la tarea** y, a continuación, se puede introducir la dirección web. Puede especificar direcciones URL para sitios externos e internos. También puede crear tareas para actividades que complete manualmente, como una revisión de la accesibilidad de todas las estructuras. En este caso, no se requiere un vínculo de tarea. Esta flexibilidad le permite realizar un seguimiento de varias clases de tareas en un proceso completo.
+Un proceso empresarial comprende a menudo varias tareas. Algunas tareas, como una revisión de ofertas internas de curso, se pueden completar en Microsoft Dynamics 365 Talent. En este caso, se selecciona una opción en el campo **Vínculo de tareas**. Otras tareas pueden implicar revisar o completar las páginas de un sitio web. En este caso, la dirección **URL** se seleccciona en el campo **Vínculo de la tarea** y, a continuación, se puede introducir la dirección web. Puede especificar direcciones URL para sitios externos e internos. También puede crear tareas para actividades que complete manualmente, como una revisión de la accesibilidad de todas las estructuras. En este caso, no se requiere un vínculo de tarea. Esta flexibilidad le permite realizar un seguimiento de varias clases de tareas en un proceso completo.
 
 Las tareas se pueden asignar a un trabajador específico o a un puesto. Por ejemplo, el responsable de compensaciones y prestaciones siempre será la persona que realiza una revisión de las primas de seguros. Por tanto, cuando cree esta tarea, seleccione **Puesto** en el campo **Tipo de asignación** y, a continuación, seleccione **Responsable de compensaciones y prestaciones** en la lista **Puesto**. Cuando se inicia el proceso empresarial, la tarea se asigna al trabajador que se encuentra en el puesto **Responsable de compensaciones y prestaciones**. Para asignar una tarea a un trabajador específico, seleccione **Trabajador** en el campo **Tipo de asignación** y, a continuación, seleccione a la persona adecuada.
 

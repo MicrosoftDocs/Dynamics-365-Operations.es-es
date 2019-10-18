@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.openlocfilehash: cd2dc460c9e862503ebbf1942dcf998d67829d86
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 609f5f13f3af4a7621fe7ee152800dac4d68a9fc
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572058"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025158"
 ---
 # <a name="inventory-lookup-in-the-point-of-sale-pos"></a>Búsqueda de inventario en el punto de venta (PDV)
 
@@ -52,7 +52,7 @@ Las cantidades **Reservado** y **Pedido** también se muestran para cada ubicaci
 La lista de ubicaciones incluye dos tipos de entidades:
 
 - **Tiendas minoristas**: la lista muestra las tiendas que se configuran usando el grupo de localizadores de tiendas para la tienda actual en Central Retail.
-- **Centros de distribución**: los distintos tipos de centros de distribución (como almacenes) pueden configurarse en Microsoft Dynamics 365 for Retail. Sin embargo, la lista muestra información de disponibilidad del inventario solo para centros de distribución del tipo predeterminado **Estándar** .
+- **Centros de distribución**: los distintos tipos de centros de distribución (como almacenes) pueden configurarse en Retail. Sin embargo, la lista muestra información de disponibilidad del inventario solo para centros de distribución del tipo predeterminado **Estándar** .
 
     > [!NOTE]
     > La información de disponibilidad del inventario no se muestra para almacenes de los tipos **Tránsito**, **Cuarentena** y **Mercancías en ruta** para el PDV.

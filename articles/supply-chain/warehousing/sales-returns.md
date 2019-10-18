@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3dfeb393698431b1bbb0eb5069cc0930dc122374
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b1f5658de1da8a0b6c36d99e4bb9cf401c09ad0b
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559169"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249805"
 ---
 # <a name="sales-returns"></a>Devoluciones de ventas
 
@@ -31,7 +31,7 @@ ms.locfileid: "1559169"
 
 Este tema ofrece información sobre los procesos para devolver pedidos. Incluye información sobre las devoluciones de clientes y su efecto en la gestión de costes y cantidades disponibles de inventario.
 
-Los clientes pueden devolver artículos por varios motivos. Por ejemplo, un artículo puede estar defectuoso o es posible que no cumpla las expectativas del cliente. El proceso de devolución comienza cuando un cliente emite una solicitud para devolver un artículo. Después de que se recibe la solicitud del cliente, se crea un pedido de devolución en Microsoft Dynamics 365 for Finance and Operations.
+Los clientes pueden devolver artículos por varios motivos. Por ejemplo, un artículo puede estar defectuoso o es posible que no cumpla las expectativas del cliente. El proceso de devolución comienza cuando un cliente emite una solicitud para devolver un artículo. Después de que se recibe la solicitud del cliente, se crea un pedido de devolución.
 
 ## <a name="return-order-process"></a>Proceso de pedido de devolución
 La ilustración siguiente muestra una visión general del proceso de devolución de pedidos.  
@@ -281,7 +281,7 @@ Esta situación implica a dos empresas de la misma organización, como se muestr
 
 ![Devolución de empresas vinculadas simple](./media/SalesReturn07.png)
 
-La cadena de pedidos puede establecerse cuando se crea un pedido de devolución de un proveedor en la empresa compradora o un pedido de devolución del cliente en la empresa vendedora. Finance and Operations crea el pedido correspondiente en la otra empresa y garantiza que el encabezado y la información de línea en el pedido de devolución del proveedor reflejan los valores en el pedido de la devolución del cliente. El pedido de devolución que se establece puede incluir o excluir la referencia (**Buscar pedido de ventas**) a una factura de cliente existente. Los albaranes y las facturas de los dos pedidos se pueden procesar individualmente. Por ejemplo, no es necesario generar un albarán para el pedido de devolución del proveedor antes de generar el albarán para el pedido de devolución de cliente.
+La cadena de pedidos puede establecerse cuando se crea un pedido de devolución de un proveedor en la empresa compradora o un pedido de devolución del cliente en la empresa vendedora. El pedido correspondiente se crea en la otra empresa y garantiza que el encabezado y la información de línea en el pedido de devolución del proveedor reflejan los valores en el pedido de la devolución del cliente. El pedido de devolución que se establece puede incluir o excluir la referencia (**Buscar pedido de ventas**) a una factura de cliente existente. Los albaranes y las facturas de los dos pedidos se pueden procesar individualmente. Por ejemplo, no es necesario generar un albarán para el pedido de devolución del proveedor antes de generar el albarán para el pedido de devolución de cliente.
 
 ### <a name="direct-delivery-shipment-returns-among-three-parties"></a>Devoluciones de envío de entrega directo entre tres partes
 

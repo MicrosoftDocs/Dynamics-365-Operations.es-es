@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b7c36553c9ad5bf4b061285d617be85ce77d0fcd
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e6d4e9a3ac5635e292b20eba60fe4f010562fdba
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552656"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250104"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Configuración predeterminada de pedidos para dimensiones y variantes de producto
 
@@ -32,7 +32,7 @@ ms.locfileid: "1552656"
 
 [!include [retail name](../includes/retail-name.md)]
 
-Los configuración de pedido predeterminada en Microsoft Dynamics 365 for Finance and Operations define el sitio y el almacén de dónde se originan o almacenan los artículos, las cantidades mínimas, máximas, múltiples y estándar que se usarán en la gestión de comercio o de inventario, los plazos, el indicador de detención y el método prometedor del pedido. La configuración de pedido predeterminada se usa al crear pedidos de compra, pedidos de ventas, pedidos de transferencia, diarios de inventario y para generar pedidos planificados mediante planificación principal. La configuración de pedido predeterminada puede ser específica del artículo, del sitio, de la variante del producto o de la dimensión de producto.
+Los configuración de pedido predeterminada en Dynamics 365 Supply Chain Management define el sitio y el almacén de dónde se originan o almacenan los artículos, las cantidades mínimas, máximas, múltiples y estándar que se usarán en la gestión de comercio o de inventario, los plazos, el indicador de detención y el método prometedor del pedido. La configuración de pedido predeterminada se usa al crear pedidos de compra, pedidos de ventas, pedidos de transferencia, diarios de inventario y para generar pedidos planificados mediante planificación principal. La configuración de pedido predeterminada puede ser específica del artículo, del sitio, de la variante del producto o de la dimensión de producto.
 
 La configuración predeterminada del pedido se puede definir en la página **Configuración predeterminada de pedido**. Para abrir esta página, vaya a **Gestión de información de productos** &gt; **Productos** &gt; **Productos emitidos** &gt; **Seleccionar un producto emitido** &gt; en Panel de acción **Plan** o **Gestionar inventario** &gt; **Configuración de pedido** &gt; **Configuración predeterminada de pedido**.
 
@@ -74,7 +74,7 @@ Los valores predeterminados del pedido de inventario también se aplican al crea
 -   Pedidos de producción planificados
 
 ## <a name="full-definition-of-a-released-product"></a>Definición completa de un producto emitido
-Al crear una transacción, debe especificar la definición completa de un producto emitido en la línea antes de que Finance and Operations trate de identificar la configuración de pedido predeterminada. La definición completa del producto emitido significa que el número de artículo y todas las dimensiones de producto activo, como la configuración, tamaño, estilo, y color, están especificadas en la transacción. Por ejemplo, si crea manualmente una línea de pedido de compra para una variante del producto emitido, debe especificar todas las dimensiones de producto requeridas antes de que el sitio, el almacén, las cantidades y el plazo se muestren de forma predeterminada en la línea de pedido. 
+Al crear una transacción, debe especificar la definición completa de un producto emitido en la línea para que Supply Chain Management intente identificar la configuración de pedido predeterminada. La definición completa del producto emitido significa que el número de artículo y todas las dimensiones de producto activo, como la configuración, tamaño, estilo, y color, están especificadas en la transacción. Por ejemplo, si crea manualmente una línea de pedido de compra para una variante del producto emitido, debe especificar todas las dimensiones de producto requeridas antes de que el sitio, el almacén, las cantidades y el plazo se muestren de forma predeterminada en la línea de pedido. 
 
 No se aplicarán todos los parámetros de la configuración de pedido predeterminada al crear líneas de pedido o líneas de diario. Las cantidades y los plazos se muestran de forma predeterminada únicamente cuando son adecuados. Por ejemplo, al realizar el recuento de una línea de diario, solo el sitio y el almacén mostrarán de forma predeterminada cuándo se ha creado la línea. Obviamente, al crear la línea o registrar el diario, no se realizan faltas de pago de la cantidad o cheques en múltiplos y mínimos. 
 
@@ -97,7 +97,7 @@ Para productos emitidos distintos, puede definir la configuración general de pe
 
 Para crear la configuración específica de pedido del sitio, haga clic en **Nuevo**. En **Vista de detalles**, rellene el sitio en el campo **Valores aplicables para** &gt; **Sitio**. En **Vista de cuadrícula**, rellene el sitio en la columna **Sitio**. La nueva regla obtendrá automáticamente un nuevo valor de categoría, superior a cero. Puede crear tantas reglas específica del sitio como necesite y puede asignar todas las reglas específicas del sitio a la misma categoría, para mostrar que son igualmente importantes. 
 
-Si está en **Vista de detalles**, no puede obtener información general de las reglas creadas para el artículo. Cambie con el botón **Mostrar/Ocultar lista** para ver la información general. Si se crea una línea de pedido de cualquier tipo y no proporciona ningún sitio, Finance and Operations busca una regla sin sitio especificado. Esto puede ayudar a determinar un sitio predeterminado en la línea de pedido. Este sitio se usa para buscar una regla específica del sitio, donde se haya configurado un almacén predeterminado. Este almacén se aplica a la línea de pedido.
+Si está en **Vista de detalles**, no puede obtener información general de las reglas creadas para el artículo. Cambie con el botón **Mostrar/Ocultar lista** para ver la información general. Si se crea una línea de pedido de cualquier tipo y no proporciona ningún sitio, Supply Chain Management busca una regla sin sitio especificado. Esto puede ayudar a determinar un sitio predeterminado en la línea de pedido. Este sitio se usa para buscar una regla específica del sitio, donde se haya configurado un almacén predeterminado. Este almacén se aplica a la línea de pedido.
 
 ### <a name="specific-order-settings-for-product-dimension"></a>Configuración específica de pedido para la dimensión del producto
 
@@ -134,7 +134,7 @@ Puede crear las siguientes reglas de configuración predeterminada de pedido.
 
 Las dos reglas para detener las anteriores revisiones tienen la misma clasificación, lo que significa que son igualmente importantes. Ambas tienen una categoría mayor que la regla para la configuración C1, lo que significa que tienen preferencia sobre la regla para la configuración C1. 
 
-En este ejemplo se explica la necesidad de la categoría. Si se crea un pedido de compra para la configuración C1 y la revisión R2, en ausencia de la categoría, las dos reglas definidas para R2 y C1 serían ambiguas. Para solucionar la ambigüedad, Finance and Operations buscará entre las reglas en orden descendente de categoría y aplicará la primera regla aplicable. En el ejemplo actual, cuando una línea de pedido de compra se crea para la configuración C1 y la revisión R2, el usuario obtendrá un mensaje de advertencia de que el artículo está en espera y que es debido al valor de la revisión. Si la regla para la configuración tuviera una categoría mayor que la de la revisión, la creación de una línea de pedido de compra para la configuración C1 y la revisión R2 se habría realizado correctamente y al usuario no le habría aparecido el mensaje de "artículo en espera". 
+En este ejemplo se explica la necesidad de la categoría. Si se crea un pedido de compra para la configuración C1 y la revisión R2, en ausencia de la categoría, las dos reglas definidas para R2 y C1 serían ambiguas. Para solucionar la ambigüedad, Supply Chain Management buscará entre las reglas en orden descendente de categoría y aplicará la primera regla aplicable. En el ejemplo actual, cuando una línea de pedido de compra se crea para la configuración C1 y la revisión R2, el usuario obtendrá un mensaje de advertencia de que el artículo está en espera y que es debido al valor de la revisión. Si la regla para la configuración tuviera una categoría mayor que la de la revisión, la creación de una línea de pedido de compra para la configuración C1 y la revisión R2 se habría realizado correctamente y al usuario no le habría aparecido el mensaje de "artículo en espera". 
 
 Tenga en cuenta las siguientes reglas de configuración predeterminada de pedido.
 

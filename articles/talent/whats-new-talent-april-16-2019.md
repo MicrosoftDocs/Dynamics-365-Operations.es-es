@@ -1,6 +1,6 @@
 ---
-title: Novedades y cambios en Dynamics 365 for Talent (16 de abril de 2019)
-description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 for Talent.
+title: Novedades y cambios en Dynamics 365 Talent (16 de abril de 2019)
+description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 04/16/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-16
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: adf8f470b00a565c62a27f857d490c6c000b21d8
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 0781a479ebf37334d8eba18ea6d69d7cfb9db9ea
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519003"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024146"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-16-2019"></a>Novedades y cambios en Dynamics 365 for Talent (16 de abril de 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-april-16-2019"></a>Novedades y cambios en Dynamics 365 Talent (16 de abril de 2019)
 
 [!include [banner](includes/banner.md)]
 
-Este tema describe las características que son nuevas o que se han cambiado en Dynamics 365 for Talent.
+Este tema describe las características que son nuevas o que se han cambiado en Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Cambios en Attract
 
@@ -39,7 +39,7 @@ Ahora puede realizar el seguimiento de los cambios realizados a los candidatos, 
 
 ## <a name="changes-in-onboard"></a>Cambios en Onboard
 
-Este lanzamiento incluye correcciones de errores de menor importancia del Dynamics 365 Talent: Onboard
+Este lanzamiento incluye correcciones de errores de menor importancia para Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Cambios en Core HR
 
@@ -47,11 +47,11 @@ Los cambios que se describen en esta sección se aplican a la compilación núme
 
 ### <a name="compensation-region-compensation-level-benefit-option-and-skill-type-entities-in-common-data-service-updated-to-include-customer-field-support"></a>Las entidades de la región de compensación, nivel de compensación, opción de prestación y del tipo de aptitud en Common Data Service se actualizaron para incluir el soporte del campo del cliente
 
-Con esta versión, se han actualizado a estas entidades de Common Data Service para incluir la capacidad de incluir el campo personalizado agregado con el Talent (Core HR).
+Con esta versión, se han actualizado a estas entidades de Common Data Service para incluir la capacidad de incluir el campo personalizado agregado con el Talent: Core HR.
 
 ### <a name="new-common-data-service-entity-support-for-compensation-vesting-rules-compensation-variable-plan-variable-compensation"></a>Nuevo soporte de la entidad de Common Data Service para: Reglas de atribución de compensación, Plan de compensación variable y Compensación variable
 
-Con esta versión se han agregado las Reglas de atribución de compensación, el Plan variable de compensación, y a las entidades de Compensación variable a Common Data Service. Estas entidades también son compatibles con campos personalizados agregados a través de Talent (Core HR).
+Con esta versión se han agregado las Reglas de atribución de compensación, el Plan variable de compensación, y a las entidades de Compensación variable a Common Data Service. Estas entidades también son compatibles con campos personalizados agregados a través de Talent: Core HR.
 
 ### <a name="powerbi-refresh-issues-314342"></a>Problemas de actualización de PowerBI (314342)
 
@@ -95,6 +95,6 @@ Con este cambio, se detectan los duplicados a medida que se especifican los camp
 
 ### <a name="email-support-for-alerts"></a>Soporte de correo electrónico para avisos
 
-Con Platform update 25, los usuarios pueden crear reglas de alertas que envían notificaciones por correo electrónico a los contactos cuando se activen con un evento.
+Con Platform update 25 para Finance and Operations, los usuarios pueden crear reglas de alertas que envían notificaciones por correo electrónico a los contactos cuando se activen con un evento.
 
 

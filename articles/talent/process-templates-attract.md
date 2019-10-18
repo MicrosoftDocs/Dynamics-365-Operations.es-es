@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: AX 8.1
-ms.openlocfilehash: 55e0d128cdc12843763f81014edd1846b35ed220
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 694835d20e3401aaeb22aa19082a2cd0e3a0163a
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739803"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010715"
 ---
 # <a name="create-a-process-template"></a>Crear una plantilla de proceso
 
 [!include [banner](includes/banner.md)]
 
-Una *plantilla de proceso de contratación* contiene todas las actividades que deben incluirse como parte del proceso de contratación para un trabajo. Este tema describe los elementos de una plantilla de proceso en Microsoft Dynamics 365 for Talent: Attract. También se explica cómo crear una plantilla.
+Una *plantilla de proceso de contratación* contiene todas las actividades que deben incluirse como parte del proceso de contratación para un trabajo. Este tema describe los elementos de una plantilla de proceso en Microsoft Dynamics 365 Talent: Attract. También se explica cómo crear una plantilla.
 
 > [!NOTE]
 > La creación de plantillas es parte del complemento de contratación completo de Attract.

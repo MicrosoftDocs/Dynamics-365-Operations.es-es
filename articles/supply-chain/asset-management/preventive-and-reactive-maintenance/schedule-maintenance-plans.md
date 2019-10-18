@@ -3,7 +3,7 @@ title: Programar planes de mantenimiento
 description: En este tema se explica la programación de planes de mantenimiento en Administración de activos.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,14 +16,14 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6b6e5bde83474fe8971e482af518f7cee23a2220
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 698888533bf503838f455585f61cc7afc7239b05
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875878"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922054"
 ---
 # <a name="schedule-maintenance-plans"></a>Programar planes de mantenimiento
 
@@ -49,11 +49,11 @@ La programación del mantenimiento preventivo genera entradas de calendario en l
 
 - En cuanto a la programación de planes de mantenimiento en ubicaciones técnicas: si actualiza la configuración de los tipos de activos, los fabricantes y los modelos en los planes de mantenimiento de la ficha desplegable **Todas las ubicaciones técnicas** > **Planes de mantenimiento** después de haber programado planes de mantenimiento, las entradas actuales del programa de mantenimiento relacionadas con esa ubicación técnica se eliminarán automáticamente. Para crear nuevas entradas de calendario que se correspondan con la configuración del plan de mantenimiento actualizado en la ubicación técnica, debe ejecutar una nueva programación del plan de mantenimiento para dicha ubicación técnica. Obtenga más información acerca de la configuración de los tipos de activos, los fabricantes y los modelos en ubicaciones técnicas en [Crear ubicaciones técnicas](../functional-locations/create-functional-locations.md).
 
->*Ejemplo:* desea crear un plan de mantenimiento para una determinada ubicación técnica, lo que significa que todos los activos configurados en esa ubicación técnica en un momento dado se incluirán cuando programe el plan de mantenimiento. En ese caso, cree un plan de mantenimiento y seleccione la ubicación técnica específica, pero NO agregue ningún objeto en el plan de mantenimiento. El resultado es que cuando programa ese plan de mantenimiento, las líneas del programa de mantenimiento se crearán para todos los activos relacionados con la ubicación técnica en ese momento.
+>*Ejemplo:* desea crear un plan de mantenimiento para una determinada ubicación técnica, lo que significa que todos los activos configurados en esa ubicación técnica en un momento dado se incluirán cuando programe el plan de mantenimiento. En ese caso, cree un plan de mantenimiento y seleccione la ubicación técnica específica, pero NO agregue ningún activo en el plan de mantenimiento. El resultado es que cuando programa ese plan de mantenimiento, las líneas del programa de mantenimiento se crearán para todos los activos relacionados con la ubicación técnica en ese momento.
 
 - Si realiza cambios en los tipos de activos, los fabricantes y los modelos en **Tipos de activo**, estos cambios afectan únicamente a los nuevos activos que usan el tipo de activo actualizado. Obtenga más información sobre la configuración de tipos de activos en [Tipos de activos](../setup-for-objects/object-types.md).  
 
-5. Haga clic en **Aceptar** para iniciar la generación de entradas del programa de mantenimiento en los activos. Las entradas generadas se mostrarán en la página de lista **Todo el programa de mantenimiento**.
+5. Haga clic en **Aceptar** para iniciar la generación de entradas del programa de mantenimiento en los activos. Las entradas generadas se mostrarán en la página de lista **Todo el programa de mantenimiento**. La ilustración siguiente muestra un ejemplo de la ventana **Planes de planificación de mantenimiento**.
 
 ![Figura 1](media/09-preventive-maintenance.png)
 
@@ -75,3 +75,4 @@ Los ejemplos que se describen aquí indican que todos los registros de contador 
 ![Figura 3](media/11-preventive-maintenance.png)
 
 ![Figura 4](media/12-preventive-maintenance.png)
+

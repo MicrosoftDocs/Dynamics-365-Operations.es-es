@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 16a11c5030f5641abb87830f5221ded5bb7ac038
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4a548d3536bbc0056ee22c07c464af062029da81
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560310"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250585"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>Estrategia de solucionador para la configuración de productos
 
@@ -45,7 +45,7 @@ El concepto de la estrategia de solucionador consta ahora de las siguientes estr
 
 Se puede formular un modelo de configuración de productos como un [problema de satisfacción de restricción (CSP)](http://aima.cs.berkeley.edu/2nd-ed/newchap05.pdf) Microsoft Solver Foundation (MSF) ofrece dos tipos de estrategias de solucionador para resolver los CSP que se pueden utilizar de los modelos de configuración de productos. Estas estrategias de solucionador confían en la [heurística](https://techterms.com/definition/heuristic), que se emplea para determinar el orden en que se consideran las variables de los CSP cuando se está solucionando el problema. La heurística puede afectar considerablemente al rendimiento cuando se está solucionando un problema o una clase de problemas.
 
-En Finance and Operations, la estrategia de solucionador para modelos de configuración de productos determina qué solucionador se emplea con la heurística. Las estrategias **Predeterminado**, **Dominios mínimos primero** y **De arriba a abajo** utilizan dos solucionadores de MSF, mientras que la estrategia **Z3** emplea el solucionador Z3. 
+La estrategia de solucionador para modelos de configuración de productos determina qué solucionador se emplea con la heurística. Las estrategias **Predeterminado**, **Dominios mínimos primero** y **De arriba a abajo** utilizan dos solucionadores de MSF, mientras que la estrategia **Z3** emplea el solucionador Z3. 
 
 Los estudios reales de implementación de clientes han mostrado que un cambio en la estrategia de solucionador de un modelo de configuración de productos puede reducir el tiempo de respuesta de minutos a milisegundos. Por lo tanto, vale la pena intentar diferentes estrategias de solucionador para encontrar la estrategia más eficiente para su modelo de configuración de productos.
 

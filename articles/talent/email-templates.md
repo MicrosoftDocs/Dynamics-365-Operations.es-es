@@ -1,6 +1,6 @@
 ---
 title: Plantillas de correo electrónico
-description: Este tema proporciona información acerca de las plantillas de correo electrónico que puede crear y usar en Microsoft Dynamics 365 for Talent - Attract.
+description: Este tema proporciona información acerca de las plantillas de correo electrónico que puede crear y usar en Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 10/19/2018
@@ -18,17 +18,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 1c7c017cce26b6b250d899bba891d6823b40c282
-ms.sourcegitcommit: a6b32be10b6eb6340f8f68261bf62d0202c03dd1
+ms.openlocfilehash: 7174fd96e5ddc9ba5a91eb423d08afd1daa45f48
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "1729735"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008045"
 ---
 # <a name="email-templates"></a>Plantillas de correo electrónico
 [!include[banner](../includes/banner.md)]
 
-Mediante la biblioteca de plantillas de correo electrónico, los administradores pueden crear un tema y una personalización de marca uniformes para todos los mensajes de correo electrónico enviados con Microsoft Dynamics 365 for Talent: Attract y Offer. Los administradores también pueden seleccionar una colección de plantillas de contenido del correo electrónico que otros usuarios puedan consumir. El equipo de contratación puede utilizar estas plantillas en su flujo de trabajo para enviar mensajes de correo electrónico de forma más eficaz. Algunos mensajes de correo electrónico se configuran para enviarse automáticamente, y el administrador puede usar la biblioteca de plantillas de correo electrónico para personalizar el contenido de dichos mensajes de correo electrónico.
+Mediante la biblioteca de plantillas de correo electrónico, los administradores pueden crear un tema y una personalización de marca uniformes para todos los mensajes de correo electrónico enviados con Microsoft Dynamics 365 Talent: Attract y Offer. Los administradores también pueden seleccionar una colección de plantillas de contenido del correo electrónico que otros usuarios puedan consumir. El equipo de contratación puede utilizar estas plantillas en su flujo de trabajo para enviar mensajes de correo electrónico de forma más eficaz. Algunos mensajes de correo electrónico se configuran para enviarse automáticamente, y el administrador puede usar la biblioteca de plantillas de correo electrónico para personalizar el contenido de dichos mensajes de correo electrónico.
 
 > [!NOTE]
 > Para usar plantillas de correo electrónico, la organización debe tener el complemento de contratación completa.

@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 551a8408aa730bc1916f1c57b7cfd773966ce8bf
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: c5da94e02b2381bbd058221567172cd428931c45
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606812"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024692"
 ---
 # <a name="store-inventory-management"></a>Gestión de inventario en tienda
 
 [!include [banner](includes/banner.md)]
 
-Al trabajar con el inventario en Dynamics 365 for Retail y con la aplicación de PDV, es importante tener en cuenta que PDV ofrece compatibilidad limitada para las dimensiones de inventario y algunos tipos de artículos de inventario.
+Al trabajar con el inventario en Dynamics 365 Retail y con la aplicación de PDV, es importante tener en cuenta que PDV ofrece compatibilidad limitada para las dimensiones de inventario y algunos tipos de artículos de inventario.
 
 La solución de PDV no admite configuraciones del artículo siguiente:
 
@@ -56,7 +56,7 @@ La solución de PDV ofrece compatibilidad limitada para las dimensiones siguient
 
 ## <a name="purchase-orders"></a>Pedidos de compra
 
-Los pedidos de compra se crean en la oficina central. Si se incluye un almacén comercial en el encabezado del pedido de compra, el pedido se puede recibir en la tienda mediante Modern POS (MPOS) o Cloud POS en Microsoft Dynamics 365 for Retail a través de la operación **Recogida/Recepción**. Después de las cantidades que se reciban en el almacén se introduzcan en el campo **Recibir ahora** en el PDV para el documento de pedido de compra, éstos se puede guardar o localmente se compromete. Guardar estos datos localmente no tiene ningún efecto en inventario en existencias. El guardado solo se debe hacer si el usuario no está listo para enviar la recepción a la Sede y necesita una forma de almacenar los datos temporalmente especificados anteriormente **Recibir ahora** . Esto guarda los datos de recibido ahora localmente en la base de datos de canal del usuario. Una vez que el documento se procese mediante la opción **Confirmación**, los datos **Recibir ahora** se envían a la Sede y la recepción de pedido de compra se registrará. 
+Los pedidos de compra se crean en la oficina central. Si se incluye un almacén comercial en el encabezado del pedido de compra, el pedido se puede recibir en la tienda mediante Modern POS (MPOS) o Cloud POS a través de la operación **Recogida/Recepción**. Después de las cantidades que se reciban en el almacén se introduzcan en el campo **Recibir ahora** en el PDV para el documento de pedido de compra, éstos se puede guardar o localmente se compromete. Guardar estos datos localmente no tiene ningún efecto en inventario en existencias. El guardado solo se debe hacer si el usuario no está listo para enviar la recepción a la Sede y necesita una forma de almacenar los datos temporalmente especificados anteriormente **Recibir ahora** . Esto guarda los datos de recibido ahora localmente en la base de datos de canal del usuario. Una vez que el documento se procese mediante la opción **Confirmación**, los datos **Recibir ahora** se envían a la Sede y la recepción de pedido de compra se registrará. 
 
 ## <a name="transfer-orders"></a>Pedidos de transferencia
 

@@ -1,6 +1,6 @@
 ---
 title: Vender y devolver productos que no forman parte del surtido de una tienda
-description: Con Dynamics 365 for Retail puede vender y devolver productos fuera de un surtido.
+description: Con Dynamics 365 Retail puede vender y devolver productos fuera de un surtido.
 author: pdp1207
 manager: AnnBe
 ms.date: 05/24/2017
@@ -18,12 +18,12 @@ ms.search.industry: retail
 ms.author: prabhup
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 653a388de1a972fae488abd81f349d1b138fc716
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ae6bac983ddb4d4a217fe83c8f68c5a87ccd6a47
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567926"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024954"
 ---
 # <a name="sell-and-return-products-that-arent-part-of-a-stores-assortment"></a>Vender y devolver productos que no forman parte del surtido de una tienda
 
@@ -37,7 +37,7 @@ Aquí hay algunas situaciones habituales:
 + Un minorista no vende productos específicos en la tienda o no los tiene en existencias en la tienda visitada por el cliente, pero los productos están disponibles en otras tiendas. El dependiente puede ayudar al cliente buscando los productos en otra tienda, agregarlos al carro y completar la compra seleccionando un método de entrega.
 + Un minorista tiene muchas tiendas en una ciudad o un código postal específicos y no desea exigir a los clientes que devuelvan productos a la misma tienda en la que los compraron. En lugar de ello, los clientes pueden devolver productos a cualquier tienda.
 
-Esos escenarios comunes están disponibles para los minoristas mediante Dynamics 365 for Retail. Con Retail, puede:
+Esos escenarios comunes están disponibles para los minoristas mediante Retail. Con Retail, puede:
 
 + Buscar o examinar productos en otras tiendas.
 + Buscar o examinar todos los productos ofertados.

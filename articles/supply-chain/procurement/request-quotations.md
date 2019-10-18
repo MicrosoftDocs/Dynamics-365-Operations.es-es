@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e2276f5296a77d620e0084c0247b1e25071fe029
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: bb5255236fc48132d4d68dc6f515f32e7ec71dae
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865289"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248851"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Visión general de las solicitudes de presupuesto
 
@@ -48,16 +48,13 @@ Puede crear un caso de solicitud de presupuesto desde pedidos planificados, desd
 
 Tras preparar el caso de solicitud de presupuesto y agregar proveedores, seleccione **Enviar** (**Registrar y publicar** para el sector público) en el caso de solicitud de presupuesto. Se crea un diario de solicitud de presupuesto para cada proveedor al que se envía una solicitud de presupuesto. Puede configurar las Opciones de impresión para la acción de envío para imprimir un informe para cada proveedor en un archivo o enviar un informe a la dirección de correo electrónico de cada proveedor. Además, el diario de solicitud de presupuesto para cada proveedor se puede usar para generar un informe que se puede enviar o volver a enviar al proveedor más adelante. También puede configurar la acción de envío para generar una hoja de respuesta que el proveedor pueda completar.
 
-Este tema cubre el proceso para gestionar solicitudes de presupuesto cuando la colaboración del proveedor no se utiliza. Si el sistema está configurado para la colaboración del proveedor, los proveedores pueden especificar propuestas directamente en Microsoft Dynamics 365 for Finance and Operations. Para obtener más inofrmación, consulte [Colaboración de proveedor con los clientes](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) y [Colaboración de proveedor con proveedores externos](vendor-collaboration-work-external-vendors.md).
+Este tema cubre el proceso para gestionar solicitudes de presupuesto cuando la colaboración del proveedor no se utiliza. Si el sistema está configurado para la colaboración del proveedor, los proveedores pueden especificar propuestas directamente en Supply Chain Management. Para obtener más inofrmación, consulte [Colaboración de proveedor con los clientes](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) y [Colaboración de proveedor con proveedores externos](vendor-collaboration-work-external-vendors.md).
 
 Si debe enmendar una solicitud de presupuesto después de enviarla, puede volver a enviar la solicitud de presupuesto a los proveedores cuando haya terminado mediante los dos acciones de modificación: Crear y finalizar.+
 
 Cuando reciba ofertas por correo electrónico, puede gestionarlas en la página **Solicitud de presupuestos**.
 
 Si se requiere una segunda iteración de una respuesta de un proveedor, seleccione **Devolver** en la página **Solicitud de presupuesto**. La acción de devolución genera un diario nuevo y un informe que se imprimirá, archivará y enviará según la configuración de impresión.
-
-> [!NOTE]
-> Se ha cambiado el nombre de la página **Solicitud de presupuesto**. En versiones anteriores de Dynamics 365 for Finance and Operations, esta página se llamaba **Respuesta a solicitud de presupuestos**.
 
 Si ha agregado criterios de puntuación a su caso de solicitud de presupuesto, la solicitud de presupuesto tendrá un panel de puntuación donde podrá especificar las puntuaciones. Las puntuaciones totales aparecerán en la solicitud de presupuesto y al comparar las respuestas en la página **Comparar respuestas** . En la página **Comparar respuestas**, también puede comparar otros datos de la respuesta, como el precio de la línea, la fecha de entrega y el precio total.
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7653b01a8d5b80d3026a04d9979906d9ddae5d27
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c5ab1f10f0874df36d1227e39f2d2146e85de41e
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547684"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249410"
 ---
 # <a name="set-up-vendor-accounts"></a>Configuración de cuentas de proveedor
 
@@ -60,13 +60,13 @@ Puede almacenar contactos para un proveedor. Estos contactos se pueden utilizar 
 
 Para agregar contactos para un proveedor, en la página **Todos los proveedores**, en la pestaña **Proveedor**, en el grupo **Configurar**, haga clic en **Contactos** &gt; **Agregar contactos**.  
 
-Puede crear contactos de proveedor desde cero. Como alternativa, puede copiar detalles de otra persona que ya está registrada en Microsoft Dynamics 365 for Finance and Operations y editar la información según sea necesario.  
+Puede crear contactos de proveedor desde cero. Como alternativa, puede copiar detalles de otra persona que ya está registrada en Supply Chain Management y editar la información según sea necesario.  
 
 **Nota:** Agregar un contacto para un proveedor no es lo mismo que agregar información de contacto para ese proveedor. Aunque es posible agregar información de contacto general para un proveedor, es posible que también tenga varias personas determinadas que sean contactos en esa empresa y que todas ellas tengan su propia información de contacto.  
 
 No puede eliminar un registro de la persona de contacto si al contacto se hace referencia en un documento. En su lugar, puede desactivar el contacto.  
 
-Puede agregar contactos de proveedor a sus contactos personales de Microsoft Office 365. Sin embargo, debe configurar primero la sincronización entre Finance and Operations y Office 365 en la sincronización de Microsoft Exchange Server y en el Asistente de configuración de Microsoft Outlook.
+Puede agregar contactos de proveedor a sus contactos personales de Microsoft Office 365. Sin embargo, debe configurar primero la sincronización entre Supply Chain Management y Office 365 en la sincronización de Microsoft Exchange Server y en el Asistente de configuración de Microsoft Outlook.
 
 ## <a name="vendors-in-different-legal-entities"></a>Proveedores en diferentes entidades jurídicas
 Si un proveedor se registra solo para una entidad jurídica de su organización, y otras entidades jurídicas deben registrar el mismo proveedor, puede utilizar la página **Agregar proveedor a otra entidad jurídica** para configurar el proveedor para hacer negocios con otra entidad jurídica. Debe seleccionar un grupo de proveedores, una divisa y un estado de suspensión para el proveedor, en la entidad jurídica seleccionada.  

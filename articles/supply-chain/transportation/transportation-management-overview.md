@@ -1,6 +1,6 @@
 ---
 title: Visión general de la administración de transporte
-description: Este tema proporciona una visión general de la funcionalidad de administración de transportes en Microsoft Dynamics 365 for Finance and Operations.
+description: Este tema proporciona una visión general de la funcionalidad de administración de transportes en Finance and Operations.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 918167a3ab72b3d3665cf710d8e509417b94a056
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d976ec4d3c294f0ce8e9732b21b9a429f1e47315
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561184"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2027070"
 ---
 # <a name="transportation-management-overview"></a>Visión general de la administración de transporte
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona una visión general de la funcionalidad de administración de transportes en Microsoft Dynamics 365 for Finance and Operations.
+Este tema proporciona una visión general de la funcionalidad de administración de transportes en Finance and Operations.
 
-La Administración de transporte le permite usar el transporte de su empresa e identificar soluciones de proveedor y de ruta para los pedidos de entrada y salida. Por ejemplo, puede identificar la ruta más rápida o la tarifa menos cara para un envío. En la tabla siguiente se describen los escenarios principales para usar la Administración de transporte en Microsoft Dynamics 365 for Finance and Operations.
+La Administración de transporte le permite usar el transporte de su empresa e identificar soluciones de proveedor y de ruta para los pedidos de entrada y salida. Por ejemplo, puede identificar la ruta más rápida o la tarifa menos cara para un envío. En la tabla siguiente se describen los escenarios principales para usar la Administración de transporte.
 
 <table>
 <colgroup>
