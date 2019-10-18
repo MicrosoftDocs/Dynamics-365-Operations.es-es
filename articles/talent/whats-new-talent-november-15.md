@@ -1,6 +1,6 @@
 ---
-title: Novedades y cambios en Dynamics 365 for Talent Core HR (15 de noviembre de 2018)
-description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 for Talent Core HR.
+title: Novedades y cambios en Dynamics 365 Talent - Core HR (15 de noviembre de 2018)
+description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Talent - Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 11/15/2018
@@ -18,41 +18,41 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b90d4230fe1e666aba4075670f6df206e8df7ce9
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: ab3758506679db5032e3dffc1664fe1ac7f622c8
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519041"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009679"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-november-15-2018"></a><span data-ttu-id="85934-103">Novedades y cambios en Dynamics 365 for Talent Core HR (15 de noviembre de 2018)</span><span class="sxs-lookup"><span data-stu-id="85934-103">What's new or changed in Dynamics 365 for Talent Core HR (November 15, 2018)</span></span>
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-november-15-2018"></a><span data-ttu-id="bbe1c-103">Novedades y cambios en Dynamics 365 Talent: Core HR (15 de noviembre de 2018)</span><span class="sxs-lookup"><span data-stu-id="bbe1c-103">What's new or changed in Dynamics 365 Talent: Core HR (November 15, 2018)</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="85934-104">**Compilación 8.1.2045**</span><span class="sxs-lookup"><span data-stu-id="85934-104">**Build 8.1.2045**</span></span>
+<span data-ttu-id="bbe1c-104">**Compilación 8.1.2045**</span><span class="sxs-lookup"><span data-stu-id="bbe1c-104">**Build 8.1.2045**</span></span>
 
-<span data-ttu-id="85934-105">Este tema describe las características que son nuevas o que se han cambiado en Core HR.</span><span class="sxs-lookup"><span data-stu-id="85934-105">This topic describes features that are either new or changed in Core HR.</span></span>
+<span data-ttu-id="bbe1c-105">Este tema describe las características que son nuevas o que se han cambiado en Core HR.</span><span class="sxs-lookup"><span data-stu-id="bbe1c-105">This topic describes features that are either new or changed in Core HR.</span></span>
 
-## <a name="other-changesfixes"></a><span data-ttu-id="85934-106">Otros cambios/correcciones</span><span class="sxs-lookup"><span data-stu-id="85934-106">Other changes/fixes</span></span>
+## <a name="other-changesfixes"></a><span data-ttu-id="bbe1c-106">Otros cambios/correcciones</span><span class="sxs-lookup"><span data-stu-id="bbe1c-106">Other changes/fixes</span></span>
 
-### <a name="unable-to-change-employees-current-position-to-a-future-open-position"></a><span data-ttu-id="85934-107">Incapaz de cambiar el puesto actual del empleado por una vacante futura</span><span class="sxs-lookup"><span data-stu-id="85934-107">Unable to change employee´s current position to a future open position</span></span>
+### <a name="unable-to-change-employees-current-position-to-a-future-open-position"></a><span data-ttu-id="bbe1c-107">Incapaz de cambiar el puesto actual del empleado por una vacante futura</span><span class="sxs-lookup"><span data-stu-id="bbe1c-107">Unable to change employee´s current position to a future open position</span></span>
 
-<span data-ttu-id="85934-108">Un cambio se ha realizado para habilitar las transferencias de puesto cuando el puesto sólo está disponible en el futuro.</span><span class="sxs-lookup"><span data-stu-id="85934-108">A change has been made to enable position transfers when the position is only available in the future.</span></span> 
+<span data-ttu-id="bbe1c-108">Un cambio se ha realizado para habilitar las transferencias de puesto cuando el puesto sólo está disponible en el futuro.</span><span class="sxs-lookup"><span data-stu-id="bbe1c-108">A change has been made to enable position transfers when the position is only available in the future.</span></span> 
 
-### <a name="position-does-not-display-when-creating-a-new-employee"></a><span data-ttu-id="85934-109">El puesto no muestra al crear un nuevo empleado</span><span class="sxs-lookup"><span data-stu-id="85934-109">Position does not display when creating a new employee</span></span>
+### <a name="position-does-not-display-when-creating-a-new-employee"></a><span data-ttu-id="bbe1c-109">El puesto no muestra al crear un nuevo empleado</span><span class="sxs-lookup"><span data-stu-id="bbe1c-109">Position does not display when creating a new employee</span></span>
 
-<span data-ttu-id="85934-110">Un cambio se ha realizado para mostrar todas las vacantes que están disponibles para su asignación cuando se contratan nuevos empleados en Talent.</span><span class="sxs-lookup"><span data-stu-id="85934-110">A change has been made to display all open positions that are available for assignment when hiring new employees in Talent.</span></span> <span data-ttu-id="85934-111">Esto incluye puestos históricos o si los puestos se han fechado en el futuro.</span><span class="sxs-lookup"><span data-stu-id="85934-111">This includes historical positions or if the postitions have been future dated.</span></span> <span data-ttu-id="85934-112">Los puestos ahora aparecerán correctamente según la fecha de inicio del empleo.</span><span class="sxs-lookup"><span data-stu-id="85934-112">Positions will now appear correctly based on the employment start date.</span></span> 
+<span data-ttu-id="bbe1c-110">Un cambio se ha realizado para mostrar todas las vacantes que están disponibles para su asignación cuando se contratan nuevos empleados en Talent.</span><span class="sxs-lookup"><span data-stu-id="bbe1c-110">A change has been made to display all open positions that are available for assignment when hiring new employees in Talent.</span></span> <span data-ttu-id="bbe1c-111">Esto incluye puestos históricos o si los puestos se han fechado en el futuro.</span><span class="sxs-lookup"><span data-stu-id="bbe1c-111">This includes historical positions or if the postitions have been future dated.</span></span> <span data-ttu-id="bbe1c-112">Los puestos ahora aparecerán correctamente según la fecha de inicio del empleo.</span><span class="sxs-lookup"><span data-stu-id="bbe1c-112">Positions will now appear correctly based on the employment start date.</span></span> 
 
-### <a name="termination-date-is-displaying-based-on-user-settings"></a><span data-ttu-id="85934-113">La fecha final se muestra en función de la configuración del usuario</span><span class="sxs-lookup"><span data-stu-id="85934-113">Termination date is displaying based on user settings</span></span>
+### <a name="termination-date-is-displaying-based-on-user-settings"></a><span data-ttu-id="bbe1c-113">La fecha final se muestra en función de la configuración del usuario</span><span class="sxs-lookup"><span data-stu-id="bbe1c-113">Termination date is displaying based on user settings</span></span>
 
-<span data-ttu-id="85934-114">Un cambio se ha realizado en la última lista de los empleados del pasado para explicar cualquier desplazamiento horario de la zona horaria preferida de los empleados cuando se visualiza la fecha final.</span><span class="sxs-lookup"><span data-stu-id="85934-114">A change has been made to the past employees list to account for any time zone offsets for the employees preferred time zone when viewing the termination date.</span></span>
+<span data-ttu-id="bbe1c-114">Un cambio se ha realizado en la última lista de los empleados del pasado para explicar cualquier desplazamiento horario de la zona horaria preferida de los empleados cuando se visualiza la fecha final.</span><span class="sxs-lookup"><span data-stu-id="bbe1c-114">A change has been made to the past employees list to account for any time zone offsets for the employees preferred time zone when viewing the termination date.</span></span>
 
-### <a name="work-items-assigned-to-me-links-not-displaying-the-correct-information"></a><span data-ttu-id="85934-115">Los enlaces de elementos de trabajo que se me asignan no contienen la información correcta</span><span class="sxs-lookup"><span data-stu-id="85934-115">Work items assigned to me links not displaying the correct information</span></span>
+### <a name="work-items-assigned-to-me-links-not-displaying-the-correct-information"></a><span data-ttu-id="bbe1c-115">Los enlaces de elementos de trabajo que se me asignan no contienen la información correcta</span><span class="sxs-lookup"><span data-stu-id="bbe1c-115">Work items assigned to me links not displaying the correct information</span></span>
 
-<span data-ttu-id="85934-116">Con este cambio, la navegación a los detalles de los elementos de trabajo individuales en la lista mostrarán la información correcta para el elemento seleccionado.</span><span class="sxs-lookup"><span data-stu-id="85934-116">With this change, navigation to the details of the individual work items in the list will display the correct information for the item selected.</span></span> <span data-ttu-id="85934-117">Este problema solo se producía con opciones de seguridad avanzadas.</span><span class="sxs-lookup"><span data-stu-id="85934-117">This issue only occurred with advanced security options.</span></span>
+<span data-ttu-id="bbe1c-116">Con este cambio, la navegación a los detalles de los elementos de trabajo individuales en la lista mostrarán la información correcta para el elemento seleccionado.</span><span class="sxs-lookup"><span data-stu-id="bbe1c-116">With this change, navigation to the details of the individual work items in the list will display the correct information for the item selected.</span></span> <span data-ttu-id="bbe1c-117">Este problema solo se producía con opciones de seguridad avanzadas.</span><span class="sxs-lookup"><span data-stu-id="bbe1c-117">This issue only occurred with advanced security options.</span></span>
 
 
-## <a name="known-issue"></a><span data-ttu-id="85934-118">Problema conocido</span><span class="sxs-lookup"><span data-stu-id="85934-118">Known issue</span></span>
+## <a name="known-issue"></a><span data-ttu-id="bbe1c-118">Problema conocido</span><span class="sxs-lookup"><span data-stu-id="bbe1c-118">Known issue</span></span>
 
-- <span data-ttu-id="85934-119">**Emisión**: Al agregar un nuevo archivo adjunto a un trabajador, los botones **Nuevo** y **Editar** se atenúan.</span><span class="sxs-lookup"><span data-stu-id="85934-119">**Issue**: When adding a new attachment to a worker, the **New** and **Edit** buttons are grayed out.</span></span> 
-- <span data-ttu-id="85934-120">**Solución alternativa:** Antes de abrir la página de los datos adjuntos, asegúrese de que los cuadros informativos en la página **Trabajador** estén cerrados.</span><span class="sxs-lookup"><span data-stu-id="85934-120">**Workaround:** Before opening the attachment page, make sure that the FactBoxes on the **Worker** page are closed.</span></span> <span data-ttu-id="85934-121">Si se cierran los cuadros informativos cuando la página **Trabajador** se carga, los botones de datos adjuntos se habilitan.</span><span class="sxs-lookup"><span data-stu-id="85934-121">If the FactBoxes are closed when the **Worker** page is loaded, the attachments buttons will be enabled.</span></span> <span data-ttu-id="85934-122">(Este problema se corregirá en la siguiente actualización de la plataforma).</span><span class="sxs-lookup"><span data-stu-id="85934-122">(This issue will be fixed in the next platform update.)</span></span>
+- <span data-ttu-id="bbe1c-119">**Emisión**: Al agregar un nuevo archivo adjunto a un trabajador, los botones **Nuevo** y **Editar** se atenúan.</span><span class="sxs-lookup"><span data-stu-id="bbe1c-119">**Issue**: When adding a new attachment to a worker, the **New** and **Edit** buttons are grayed out.</span></span> 
+- <span data-ttu-id="bbe1c-120">**Solución alternativa:** Antes de abrir la página de los datos adjuntos, asegúrese de que los cuadros informativos en la página **Trabajador** estén cerrados.</span><span class="sxs-lookup"><span data-stu-id="bbe1c-120">**Workaround:** Before opening the attachment page, make sure that the FactBoxes on the **Worker** page are closed.</span></span> <span data-ttu-id="bbe1c-121">Si se cierran los cuadros informativos cuando la página **Trabajador** se carga, los botones de datos adjuntos se habilitan.</span><span class="sxs-lookup"><span data-stu-id="bbe1c-121">If the FactBoxes are closed when the **Worker** page is loaded, the attachments buttons will be enabled.</span></span> <span data-ttu-id="bbe1c-122">(Este problema se corregirá en la siguiente actualización de la plataforma).</span><span class="sxs-lookup"><span data-stu-id="bbe1c-122">(This issue will be fixed in the next platform update.)</span></span>
