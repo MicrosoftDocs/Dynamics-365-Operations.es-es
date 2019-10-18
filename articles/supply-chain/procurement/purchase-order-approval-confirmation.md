@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e274f52484d3fe1884152f155b6b7f0714f8842e
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 58ff596314d348a465ba6ee23369f09e74d580eb
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572705"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248893"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Aprobar y confirmar pedidos de compra
 
@@ -39,7 +39,7 @@ Una vez se ha creado un pedido de compra, puede que tenga que pasar por un proce
 ## <a name="approval-of-purchase-orders"></a>Aprobación de pedidos de compra
 Los pedidos de compra que no utilizan la administración de cambios tienen un estado de **Aprobado** tan pronto como se crean, mientras que los pedidos de compra que usan la administración de cambios tienen un estado de **Borrador** cuando se crean por primera vez. Un pedido de compra que se ha creado consolidando un pedido planificado de la planificación maestra siempre se establece en un estado de **Aprobado**, independientemente de la configuración de la administración de cambios. Un pedido de compra crea transacciones de inventario solo cuando alcanza el estado **Aprobado**. Por tanto, ese inventario no aparece como disponible para reserva o marcado hasta que no se acepta el pedido.  
 
-Habilite la administración de cambios para pedidos de compra estableciendo la opción **Activar administración de cambios** en la página **Parámetros de adquisición y abastecimiento**. Cuando está habilitada la administración de cambios, los pedidos de compra pasan por un flujo de trabajo de aprobación después de que se hayan completado. Microsoft Dynamics 365 for Finance and Operations tiene un editor de procesos de flujo de trabajo donde puede definir un flujo de trabajo para que represente el proceso de aprobación. Este flujo de trabajo puede incluir reglas de aprobación automática, reglas que determinan quién se asignará para aprobar pedidos de compra concretos y reglas para escalar un flujo de trabajo que ha estado esperando aprobación durante mucho tiempo. Puede habilitar el proceso de administración de cambios para todos los proveedores o para proveedores específicos. También puede configurar el proceso para que se puede anular para pedidos de compra individuales.  
+Habilite la administración de cambios para pedidos de compra estableciendo la opción **Activar administración de cambios** en la página **Parámetros de adquisición y abastecimiento**. Cuando está habilitada la administración de cambios, los pedidos de compra pasan por un flujo de trabajo de aprobación después de que se hayan completado. Supply Chain Management tiene un editor de procesos de flujo de trabajo donde puede definir un flujo de trabajo para que represente el proceso de aprobación. Este flujo de trabajo puede incluir reglas de aprobación automática, reglas que determinan quién se asignará para aprobar pedidos de compra concretos y reglas para escalar un flujo de trabajo que ha estado esperando aprobación durante mucho tiempo. Puede habilitar el proceso de administración de cambios para todos los proveedores o para proveedores específicos. También puede configurar el proceso para que se puede anular para pedidos de compra individuales.  
 
 Cuando se habilita la administración de cambios, los pedidos de compra pasan por seis estados de aprobación, desde **Borrador** hasta **Finalizado**. Cuando se haya aprobado un pedido, los usuarios que deseen modificarlo deben usar la acción **Solicitar cambio**.
 
@@ -55,7 +55,7 @@ Cuando se habilita la administración de cambios, los pedidos de compra pasan po
 ## <a name="confirming-purchase-orders"></a>Confirmación de pedidos de compra
 POs que tienen un estado de aprobación de **aprobado** puede pasar por pasos adicionales antes de que se confirmaron. Por ejemplo, es posible que tenga que enviar una consulta de compra al proveedor para consultar precios, descuentos o fechas de entrega. En este caso, puede establecer el pedido de compra en el estado **En revisión externa** con la acción **Consulta de compra**.  
 
-Los proveedores que estén configurados para utilizar el portal de proveedores pueden revisar pedidos en el portal, y aprobarlos o rechazarlos. Durante este proceso de revisión, el pedido de compra tiene un estado de **En revisión externa**. El portal de proveedores se puede configurar de modo que una confirmación del proveedor confirma automáticamente el pedido en Finance and Operations. De forma alternativa, puede confirmar un pedido de compra manualmente después de recibir la confirmación del proveedor. Si un proveedor rechaza un pedido de compra, el rechazo se recibe junto con el motivo del rechazo y sugerencias para cambios. En este caso, el estado del pedido de compra sigue siendo **En revisión externa**.  
+Los proveedores que estén configurados para utilizar el portal de proveedores pueden revisar pedidos en el portal, y aprobarlos o rechazarlos. Durante este proceso de revisión, el pedido de compra tiene un estado de **En revisión externa**. El portal de proveedores se puede configurar de modo que una confirmación del proveedor confirma automáticamente el pedido en Supply Chain Management. De forma alternativa, puede confirmar un pedido de compra manualmente después de recibir la confirmación del proveedor. Si un proveedor rechaza un pedido de compra, el rechazo se recibe junto con el motivo del rechazo y sugerencias para cambios. En este caso, el estado del pedido de compra sigue siendo **En revisión externa**.  
 
 También hay una opción para generar una confirmación proforma para un pedido antes del procesamiento de la confirmación real. Esta opción solo crea un informe que puede compartir con el proveedor. No crea ninguna información de diario.  
 

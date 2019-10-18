@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 39d66bb9fd2e121b7ce842d869c2a0a0fa5fa8a5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a7acf4e5397ee7276b0f881f4859267371266de0
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553447"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249549"
 ---
 # <a name="inventory-journals"></a>Diarios de inventario
 
@@ -33,7 +33,7 @@ ms.locfileid: "1553447"
 
 Este tema describe cómo puede usar diarios de inventario para registrar diversos tipos de transacciones de inventario físico.
 
-Los diarios de inventario en Microsoft Dynamics 365 for Finance and Operations se usan para registrar transacciones de inventario físico de distintos tipos, como el registro de emisiones y recepciones, los movimientos de inventario, la creación de listas de materiales (L. MAT.) y la conciliación del inventario físico. Todos estos diarios de inventario se usan en forma similar, pero se dividen en diferentes tipos.
+Los diarios de inventario en Supply Chain Management se usan para registrar transacciones de inventario físico de distintos tipos, como el registro de emisiones y recepciones, los movimientos de inventario, la creación de listas de materiales (L. MAT.) y la conciliación del inventario físico. Todos estos diarios de inventario se usan en forma similar, pero se dividen en diferentes tipos.
 
 ## <a name="types-of-inventory-journals"></a>Tipos de diarios de inventario
 Los siguientes tipos de diarios de inventario están disponibles:
@@ -68,7 +68,7 @@ Al notificar una L. MAT. como terminados, puede crear un diario de L. MAT. Media
 
 ### <a name="item-arrival"></a>Recepción de artículos
 
-Puede usar el diario de recepción de artículos para registrar la recepción de artículos (por ejemplo, pedidos de compra). Un diario de recepción de artículos se puede crear como parte de la gestión de llegada de la página **Visión general de llegadas**, o bien crear manualmente una entrada del diario de la página **Recepción de artículos**. Si se habilita el nombre del diario de recepción de artículos para comprobar las ubicaciones de recogida, Finance and Operations busca una ubicación para los artículos recibidos y, si hay sitio, genera destinos de ubicación para los artículos entrantes.
+Puede usar el diario de recepción de artículos para registrar la recepción de artículos (por ejemplo, pedidos de compra). Un diario de recepción de artículos se puede crear como parte de la gestión de llegada de la página **Visión general de llegadas**, o bien crear manualmente una entrada del diario de la página **Recepción de artículos**. Si se habilita el nombre del diario de recepción de artículos para comprobar las ubicaciones de recogida, Supply Chain Management busca una ubicación para los artículos recibidos y, si hay sitio, genera destinos de ubicación para los artículos entrantes.
 
 ### <a name="production-input"></a>Entrada desde producción.
 
@@ -103,7 +103,7 @@ Las entidades de datos admiten los siguientes tipos de escenarios de integració
 Para obtener más información, consulte [Entidades de datos](../../dev-itpro/data-entities/data-entities.md).
 
 > [!NOTE]
-> No todos los diarios de inventario están habilitados OData, por lo tanto no puede usar el conector de datos de Excel para obtener datos actualizados, publicados e importados de nuevo a Dynamics 365 for Finance and Operations. 
+> No todos los diarios de inventario están habilitados OData, por lo tanto no puede usar el conector de datos de Excel para obtener datos actualizados, publicados e importados de nuevo a Supply Chain Management. 
 
 Otra diferencia entre las entidades de datos de diario es la capacidad de usar entidades compuestas que se incluyen datos del encabezado y la línea. Actualmente, puede usar las entidades compuestas para:
 -   Diario de ajustes de inventario

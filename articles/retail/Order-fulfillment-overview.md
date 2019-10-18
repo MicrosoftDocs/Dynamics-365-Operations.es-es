@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b3eeda217e00b33962561bcb2ee6185275f52fe2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3b66369e57e006c9e2fe0a43e4b781c619a65c4a
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556953"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025872"
 ---
 # <a name="store-order-fulfillment"></a>Cumplimiento de pedido de almacén
 
@@ -96,7 +96,7 @@ Una vez aceptado un pedido, las líneas se pueden seleccionar y marcar como **Se
 
 Las listas de selección se pueden imprimir en el punto de venta para ayudar a los trabajadores a realizar el proceso de selección. Una lista de selección impresa se puede llevar con el trabajador que realiza la selección y según se seleccionan los productos, el trabajador las marcaría manualmente como seleccionado en la lista de selección.
 
-El formato de lista de selección se configura en Dynamics 365 for Retail y se agrega al perfil de recibo. Para obtener más información sobre la configuración de perfiles de recibo, consulte [Plantillas e impresión de recibos](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+El formato de lista de selección se configura en Retail y se agrega al perfil de recibo. Para obtener más información sobre la configuración de perfiles de recibo, consulte [Plantillas e impresión de recibos](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
 
 Si se seleccionan las líneas y se imprime una lista de selección para esas líneas, se actualizan automáticamente con el estado **Seleccionado**.
 
@@ -105,7 +105,7 @@ Si se seleccionan las líneas y se imprime una lista de selección para esas lí
 - **Estado resultante:** Seleccionado o seleccionado parcialmente
 - **Estado back-office resultante:** Seleccionado o seleccionado parcialmente
 
-Una vez que se haya efectuado el proceso físico de selección, las líneas se pueden marcar como **Seleccionado**. Al seleccionar una línea y marcarla como **Seleccionada** realiza una llamada en tiempo real para actualizar la línea de pedido en Dynamics 365 for Retail. Una vez que la línea se haya marcado como **Seleccionado** en el punto de venta, se actualizará el estado en back-office también como **Seleccionado** y las transacciones de inventario reflejarán que se ha disminuido la cantidad especificada.
+Una vez que se haya efectuado el proceso físico de selección, las líneas se pueden marcar como **Seleccionado**. Al seleccionar una línea y marcarla como **Seleccionada** realiza una llamada en tiempo real para actualizar la línea de pedido. Una vez que la línea se haya marcado como **Seleccionado** en el punto de venta, se actualizará el estado en back-office también como **Seleccionado** y las transacciones de inventario reflejarán que se ha disminuido la cantidad especificada.
 
 Cuando los pedidos se procesan en el tiempo, las cantidades parciales se pueden procesar para una línea específica. Si se selecciona una línea y se realiza la acción **Marcar como seleccionado** y la cantidad es mayor que uno, se le pedirá al usuario la cantidad. La cantidad restante a seleccionar se rellena automáticamente. Si se especifica una cantidad inferior a la restante, el estado de la línea se cambia a **Seleccionado parcialmente**. Cuando la línea de pedido se actualiza en back-office, reflejará también el estado parcialmente seleccionado y la cantidad especificada por el usuario se usa para la actualización de inventario.
 
@@ -122,7 +122,7 @@ Las líneas de pedido se pueden empaquetar en cualquier momento después de que 
 - **Estado resultante:** Empaquetado o empaquetado parcialmente
 - **Estado back-office resultante:** Entregado o entregado parcialmente
 
-Esta acción marca las líneas como empaquetadas o empaquetadas parcialmente e imprime un albarán. Un albarán se puede imprimir para validar los productos que se han empaquetado conjuntamente. El formato del albarán se configura en Dynamics 365 for Retail y se agrega al perfil de recibo. Para obtener más información sobre la configuración de perfiles de recibo, consulte [Plantillas e impresión de recibos](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+Esta acción marca las líneas como empaquetadas o empaquetadas parcialmente e imprime un albarán. Un albarán se puede imprimir para validar los productos que se han empaquetado conjuntamente. El formato del albarán se configura en Retail y se agrega al perfil de recibo. Para obtener más información sobre la configuración de perfiles de recibo, consulte [Plantillas e impresión de recibos](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
 
 **Acción: Marcar como empaquetado**
 

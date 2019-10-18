@@ -1,6 +1,6 @@
 ---
-title: Configurar su sitio de desarrollo profesional en Microsoft Dynamics 365 for Talent - Attract
-description: Este tema proporciona una visión general de la funcionalidad del sitio de Proyectos profesionales para el candidato en Microsoft Dynamics 365 for Talent - Attract.
+title: Configurar su sitio de desarrollo profesional en Microsoft Dynamics 365 Talent - Attract
+description: Este tema proporciona una visión general de la funcionalidad del sitio de Proyectos profesionales para el candidato en Microsoft Dynamics 365 Talent - Attract
 author: hasrivas
 manager: AnnBe
 ms.date: 03/20/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: 32fb5e0c00b80653cf32f37a21f94aa448a20191
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: ec5fe31c6547b008b29e656729c35863d90bffc1
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739780"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026288"
 ---
 # <a name="set-up-your-career-site"></a>Configurar su sitio de desarrollo profesional
 
 [!include[banner](../includes/banner.md)]
 
-Este tema proporciona una visión general de la funcionalidad del sitio de Proyectos profesionales para el candidato en Microsoft Dynamics 365 for Talent: Attract También se explica cómo configurar esta funcionalidad.
+Este tema proporciona una visión general de la funcionalidad del sitio de Proyectos profesionales para el candidato en Microsoft Dynamics 365 Talent: Attract. También se explica cómo configurar esta funcionalidad.
 
 Attract ofrece un sitio de desarrollo profesional para cada entorno de inquilino. Por ejemplo, si una organización tiene un entorno de desarrollo y un entorno de prueba, un sitio de Proyectos profesionales se aprovisiona para el entorno de desarrollo, y otro sitio de Proyectos profesionales se aprovisiona para el entorno de prueba. Cada sitio de Proyectos profesionales está aislado completamente y tiene su propio mecanismo de autenticación. Los trabajos y los perfiles del candidato no se comparten entre los sitios de Proyectos profesionales.
 
@@ -62,7 +62,7 @@ La lista siguiente contiene direcciones URL de uso general del sitio de Proyecto
 
 -   **Dirección URL de la página principal del sitio de la Proyectos profesionales** - Para ver la dirección URL de la página principal del sitio de Proyectos profesionales, inicie sesión en Attract como administrador, seleccione **Centro de administración** , en el menú **Valores** , y seleccione la pestaña **Administración del sitio de desarrollo profesional** .
 
--   **URL de solicitud de publicación de trabajo individual** - Cuando [publica un trabajo externo](Creating-jobs-Attract.md#postings) por primera vez, puede copiar el vínculo **Solicitar** de la aplicación Attract. La dirección URL para este vínculo estará en el formato siguiente: [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>/apply](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e/apply)
+-   **URL de solicitud de publicación de trabajo individual** - Cuando [publica un trabajo externo](Creating-jobs-Attract.md#postings) por primera vez, puede copiar el vínculo **Solicitar** de Attract. La dirección URL para este vínculo estará en el formato siguiente: [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>/apply](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e/apply)
 
 -   **Dirección URL de publicación de trabajo individual** - La dirección URL del trabajo es una subcadena de la dirección URL de solicitud. Incluye todo hasta el número de trabajo. Por lo tanto, para la dirección URL de solicitud anterior, la dirección URL de publicación de trabajo es [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e)
 

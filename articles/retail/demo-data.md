@@ -1,6 +1,6 @@
 ---
 title: Diseños de pantalla de datos de demostración en Retail Modern POS (MPOS) y Cloud POS
-description: Este tema proporciona información sobre los diseños de pantalla que se incluyen con el conjunto de datos de demostración para las experiencias de punto de venta (PDV) en Microsoft Dynamics 365 for Retail.
+description: Este tema proporciona información sobre los diseños de pantalla que se incluyen con el conjunto de datos de demostración para las experiencias de punto de venta (PDV) en Dynamics 365 Retail.
 author: zlinster
 manager: AnnBe
 ms.date: 10/05/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: zlinster
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 8fe0ea3e7715fcbebc3ed590c85ee399c6192584
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8c8d2fac82541b768f8e0a31049177bdc1262d44
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570653"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019333"
 ---
 # <a name="demo-data-screen-layouts-in-retail-modern-pos-mpos-and-cloud-pos"></a>Diseños de pantalla de datos de demostración en Retail Modern POS (MPOS) y Cloud POS
 
 [!include [banner](includes/banner.md)]
 
-Este tema proporciona información sobre los diseños de pantalla que se incluyen con el conjunto de datos de demostración para las experiencias de punto de venta (PDV) en Microsoft Dynamics 365 for Retail.
+Este tema proporciona información sobre los diseños de pantalla que se incluyen con el conjunto de datos de demostración para las experiencias de punto de venta (PDV) en Dynamics 365 Retail.
 
 ## <a name="overview"></a>Información general
 
@@ -40,7 +40,7 @@ Los diseños de pantalla de ejemplo que se incluyen con datos de demostración d
 
 ## <a name="anatomy-of-a-screen-layout-id"></a>Anatomía de un identificador de diseño de pantalla
 
-Para encontrar diseños de pantalla en Retail, vaya a **Venta minorista** \> **Configuración del canal** \> **Configuración de PDV** \> **PDV** \> **Diseños de pantalla**.
+Para encontrar diseños de pantalla, vaya a **Venta minorista** \> **Configuración del canal** \> **Configuración de PDV** \> **PDV** \> **Diseños de pantalla**.
 
 ![Página de diseños de pantalla en Retail](../retail/media/demo-screen-layouts-fig-2-1.png)
 
@@ -107,7 +107,7 @@ En la tabla siguiente se muestran los tamaños de diseño que se ofrecen para re
 \* Estos tamaños de diseño adicionales solo están disponibles en los diseños de Adventure Works y de Fabrikam.
 
 > [!TIP]
-> PDV selecciona automáticamente los tamaños de diseño, en función del tamaño más cercano disponible para la resolución de pantalla de la ventana de la aplicación actual. Para buscar el identificador de diseño de pantalla y la resolución de diseño que se usan actualmente, en Retail Modern POS (POS) o Retail Cloud CPOS (CPOS), abra la página **Valores** , y busque en la sección **Información sobre la sesión**. También puede ver la resolución real de la ventana para la aplicación o el marco del explorador actual. Cuando tenga esta información, puede buscar el origen del contenido de diseño en Retail yendo a **Configuración de canal** \> **Configuración de PDV** \> **PDV** \> **Diseños de pantalla**.
+> PDV selecciona automáticamente los tamaños de diseño, en función del tamaño más cercano disponible para la resolución de pantalla de la ventana de la aplicación actual. Para buscar el identificador de diseño de pantalla y la resolución de diseño que se usan actualmente, en Retail Modern POS (POS) o Retail Cloud CPOS (CPOS), abra la página **Valores** , y busque en la sección **Información sobre la sesión**. También puede ver la resolución real de la ventana para la aplicación o el marco del explorador actual. Cuando tenga esta información, puede buscar el origen del contenido de diseño yendo a **Configuración de canal** \> **Configuración de PDV** \> **PDV** \> **Diseños de pantalla**.
 
 ![Diseños de pantalla y resoluciones/tamaños del diseño en Retail y PDV](../retail/media/demo-screen-layouts-fig-3-1.png)
 

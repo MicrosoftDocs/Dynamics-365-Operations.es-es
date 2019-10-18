@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9efbd9651f6a2fa57e761238c6acfe6111e986e6
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 6cb53322b9bdaaa06c6040d8244b7e2ea05336ca
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874771"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249618"
 ---
 # <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>Categorías del tipo de trabajo de mantenimiento y tipos de trabajo de mantenimiento, variantes del tipo de trabajo de mantenimiento, comercios de trabajo de mantenimiento y listas de comprobación de mantenimiento
 
@@ -225,7 +225,7 @@ Las plantillas de la lista de comprobación de mantenimiento se pueden usar como
 26. Para configurar los datos adjuntos en una línea predeterminada de tipo de trabajo de mantenimiento, seleccionada, seleccione **Adjuntar documentos**. Los datos adjuntos que se configuran en una línea predeterminada de tipo de trabajo de mantenimiento se incluyen automáticamente en las líneas de orden de trabajo que usan esa línea predeterminada de tipo de trabajo de mantenimiento.
 27. Seleccione **Nuevo** y, después, seleccione un tipo de documento.
 28. Cargue el documento o el archivo.
-29. Establezca los campos en la página **Archivos adjuntos**. La configuración de los archivos adjuntos usa la funcionalidad de configuración de documentos estándar en Microsoft Dynamics 365 for Finance and Operations.
+29. Establezca los campos en la página **Archivos adjuntos**. La configuración de los archivos adjuntos usa la funcionalidad de configuración de documentos estándar.
 30. Seleccione **Guardar** para el archivo adjunto.
 
     > [!NOTE]
@@ -261,7 +261,7 @@ Una vez creadas las combinaciones necesarias predeterminadas de tipo de trabajo 
 
 ## <a name="automatic-update-of-maintenance-job-type-forecasts"></a>Actualización automática de las previsiones de tipos de trabajo de mantenimiento
 
-En Administración de activos, puede actualizar automáticamente los cambios en las previsiones de tipos de trabajo de mantenimiento en lo que respecta a costes por hora, costes de artículo y gastos, que se han actualizado en otros módulos de Finance and Operations. De esta manera, ayuda a garantizar que las previsiones de tipos de trabajo de mantenimiento usen siempre los últimos precios de coste.
+En Administración de activos, puede actualizar automáticamente los cambios en las previsiones de tipos de trabajo de mantenimiento en lo que respecta a costes por hora, costes de artículo y gastos, que se han actualizado en otros módulos. De esta manera, ayuda a garantizar que las previsiones de tipos de trabajo de mantenimiento usen siempre los últimos precios de coste.
 
 1. Seleccione **Administración de activos** \> **Periódico** \> **Previsión** \> **Actualizar previsión de tipos de trabajo de mantenimiento**.
 2. En el cuadro de diálogo **Actualizar previsión de tipos de trabajo de mantenimiento**, en la ficha desplegable **Registros que incluir**, puede agregar las selecciones para los tipos de trabajo de mantenimiento específicos según sea necesario. Seleccione **Filtrar** y, después, seleccione **Seleccionar** para hacer selecciones.

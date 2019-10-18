@@ -1,6 +1,6 @@
 ---
-title: Novedades o cambios en Dynamics 365 for Talent (25 de junio de 2019)
-description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 for Talent.
+title: Novedades o cambios en Dynamics 365 Talent (25 de junio de 2019)
+description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 06/25/2019
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-25
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 3c7a13373193a6af4033b4609f0c338c2c6128c6
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: 56fadba6dc085f849953aa88cf28a2c83e265f40
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856362"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009039"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-june-25-2019"></a>Novedades o cambios en Dynamics 365 for Talent (25 de junio de 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-june-25-2019"></a>Novedades o cambios en Dynamics 365 Talent (25 de junio de 2019)
 
 [!include [banner](includes/banner.md)]
 
-Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 for Talent.
+Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Cambios en Attract
 
-Este lanzamiento incluye correcciones de errores de menor importancia del Dynamics 365 Talent: Attract.
+Este lanzamiento incluye correcciones de errores de menor importancia para Dynamics 365 Talent: Attract.
 
 ## <a name="coming-soon-in-attract"></a>Muy pronto en Attract
 
@@ -42,7 +42,7 @@ Este lanzamiento incluye correcciones de errores de menor importancia del Dynami
 Las Aprobaciones aparecen en una sección **Aprobaciones** en el panel de información. Los aprobadores pueden revisar sus aprobaciones en **Asignada a usted**, que muestra el id. de trabajo, el cargo, otros aprobadores y la fecha en la que se asignó el trabajo. Los usuarios que envían un trabajo para su aprobación pueden revisar los trabajos en **Solicitado por usted**, que muestra los aprobadores que aún deben aprobar el trabajo enviado.
 
 ## <a name="changes-in-onboard"></a>Cambios en Onboard
-Este lanzamiento incluye correcciones de errores de menor importancia del Dynamics 365 Talent: Onboard
+Este lanzamiento incluye correcciones de errores de menor importancia para Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Cambios en Core HR
 

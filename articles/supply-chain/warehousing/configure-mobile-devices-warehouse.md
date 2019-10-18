@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2b6555086d6c86c17b501af9d4d8155e9c08a447
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 14b0661c4c1fa8f2bc197a8a3983b71d73199b2a
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1536558"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251555"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Configurar dispositivos móviles para el trabajo de almacén
 
@@ -163,7 +163,7 @@ Puede configurar un elemento de menú que crea trabajo para otro trabajador tras
 </tr>
 <tr>
 <td>Plantilla de movimiento por</td>
-<td>Mover artículos desde una ubicación a otra de manera semiautomatizada. El trabajador selecciona la ubicación desde la que mover los artículos y Finance and Operations usa la directiva de ubicación para determinar dónde mover los artículos.</td>
+<td>Mover artículos desde una ubicación a otra de manera semiautomatizada. El trabajador selecciona la ubicación desde la que mover los artículos y el sistema usa la directiva de ubicación para determinar dónde mover los artículos.</td>
 </tr>
 <tr>
 <td>Transferencia de almacén</td>
@@ -207,12 +207,12 @@ Además de los elementos de menú de la configuración para crear el trabajo del
 </thead>
 <tbody>
 <tr class="odd">
-<td>Nuevo</td>
+<td>Ninguno</td>
 <td>Este valor predeterminado no procesa trabajo.</td>
 </tr>
 <tr class="even">
 <td>Dirigido por el sistema</td>
-<td>Microsoft Dynamics 365 for Finance and Operations controla el tipo de trabajo asignado a un trabajador y el pedido en el que el trabajador realiza el trabajo. Cuando selecciona esta opción, puede hacer clic en <strong>Trabajo dirigido por el sistema</strong> en el panel de acciones para abrir la página <strong>Orden de clasificación dirigido por el sistema</strong>, donde puede configurar los criterios de clasificación para el trabajo. Los criterios de ordenación controlan el orden en que el trabajador realiza el trabajo. Puede agregar tantos criterios como sea necesario.</td>
+<td>Supply Chain Management controla el tipo de trabajo asignado a un trabajador y el pedido en el que el trabajador realiza el trabajo. Cuando selecciona esta opción, puede hacer clic en <strong>Trabajo dirigido por el sistema</strong> en el panel de acciones para abrir la página <strong>Orden de clasificación dirigido por el sistema</strong>, donde puede configurar los criterios de clasificación para el trabajo. Los criterios de ordenación controlan el orden en que el trabajador realiza el trabajo. Puede agregar tantos criterios como sea necesario.</td>
 </tr>
 <tr class="odd">
 <td>Dirigido por el usuario</td>
@@ -224,7 +224,7 @@ Además de los elementos de menú de la configuración para crear el trabajo del
 </tr>
 <tr class="odd">
 <td>Agrupamiento del sistema</td>
-<td>Microsoft Dynamics 365 for Finance and Operations agrupa trabajo para el trabajador en función de un campo especificado. Por ejemplo, el trabajo de picking se agrupa cuando un trabajador analiza una identificación de envío, la identificación de carga o cualquier valor que pueda vincular cada unidad de trabajo. Si selecciona esta opción, los siguientes campos son necesarios:
+<td>Supply Chain Management agrupa trabajo para el trabajador en función de un campo especificado. Por ejemplo, el trabajo de picking se agrupa cuando un trabajador analiza una identificación de envío, la identificación de carga o cualquier valor que pueda vincular cada unidad de trabajo. Si selecciona esta opción, los siguientes campos son necesarios:
 <ul>
 <li><strong>Campo de agrupamiento del sistema</strong>: seleccione el campo que el trabajador analizará para agrupar el trabajo.</li>
 <li><strong>Etiqueta de agrupamiento del sistema</strong>: especifique el texto para indicar al trabajador qué debe escanear para agrupar el trabajo.</li>
@@ -245,7 +245,7 @@ Esta opción es útil, por ejemplo, cuando varios pallets se almacenan provision
 </tr>
 <tr class="even">
 <td>Agrupación de recuentos cíclicos</td>
-<td>El trabajador selecciona una zona, un grupo de trabajo,o una ubicación y Microsoft Dynamics 365 for Finance and Operations asignará el trabajo basado en la selección. Si selecciona esta opción, puede hacer clic en <strong>Recuento cíclico</strong> en el panel de acciones para especificar información adicional para mostrar y también puede especificar el número de veces que el trabajador debe repetir el recuento si se encuentra una diferencia.</td>
+<td>El trabajador selecciona una zona, un grupo de trabajo o una ubicación y Supply Chain Management asigna el trabajo basándose en la selección. Si selecciona esta opción, puede hacer clic en <strong>Recuento cíclico</strong> en el panel de acciones para especificar información adicional para mostrar y también puede especificar el número de veces que el trabajador debe repetir el recuento si se encuentra una diferencia.</td>
 </tr>
  <tr class="odd">
 <td>Carga de transporte</td>
@@ -333,7 +333,7 @@ La siguiente tabla describe estas opciones.
 </tr>
 <tr class="odd">
 <td>Ubicaciones en grupo</td>
-<td>Seleccione esta opción para agrupar el trabajo de ubicación. Esta opción solo está disponible cuando el trabajo fue agrupado por el trabajador o por Microsoft Dynamics 365 for Finance and Operations. Cuando el trabajador ha terminado todo el trabajo de picking en el grupo, el trabajo de ubicación se crea para el mismo grupo.</td>
+<td>Seleccione esta opción para agrupar el trabajo de ubicación. Esta opción está disponible cuando el trabajo fue agrupado por el trabajador o por Supply Chain Management. Cuando el trabajador haya acabado todo el trabajo de picking en el grupo, se creará trabajo de traslado para el mismo grupo. </td>
 </tr>
 <tr class="even">
 <td>Tipos de ajuste de inventario</td>
@@ -366,11 +366,11 @@ La siguiente tabla describe estas opciones.
 </tr>
 <tr class="even">
 <td>Campo de agrupamiento del sistema</td>
-<td>Seleccione el campo que determinará cómo Microsoft Dynamics 365 for Finance and Operations agrupará el trabajo de selección para el trabajador. Por ejemplo, si selecciona el campo <strong>ShipmentId</strong>, el trabajador explorará la identificación del envío para agrupar el trabajo de picking. Todo el trabajo para el envío se asigna al trabajador. Este campo requiere que cree un elemento de menú para usar el trabajo existente que el sistema ha agrupado. Debe escribir texto también en el campo <strong>Etiqueta de agrupamiento del sistema</strong> para indicar al trabajador qué debe escanear.</td>
+<td>Seleccione el campo que determinará cómo Supply Chain Management agrupará el trabajo de picking para los trabajadores. Por ejemplo, si selecciona el campo <strong>ShipmentId</strong>, el trabajador explorará la identificación del envío para agrupar el trabajo de picking. Todo el trabajo para el envío se asigna al trabajador. Este campo requiere que cree un elemento de menú para usar el trabajo existente que el sistema ha agrupado. Debe escribir texto también en el campo <strong>Etiqueta de agrupamiento del sistema</strong> para indicar al trabajador qué debe escanear.</td>
 </tr>
 <tr class="odd">
 <td>Etiqueta de agrupamiento del sistema</td>
-<td>Especifique el texto que indicará al trabajador sobre qué escanear cuando Microsoft Dynamics 365 for Finance and Operations agrupa el trabajo de picking. Por ejemplo, si está usando el campo <strong>ShipmentId</strong> para agrupar el trabajo de picking por envíos, puede especificar <strong>Id. del envío</strong> en el campo. Este campo requiere que cree un elemento de menú para usar el trabajo existente que el sistema ha agrupado. También debe seleccionar el campo por el que desea agrupar en <strong>Campo de agrupamiento del sistema</strong>.</td>
+<td>Especifique el texto que indicará al trabajador sobre qué escanear cuando Supply Chain Management agrupa el trabajo de picking. Por ejemplo, si está usando el campo <strong>ShipmentId</strong> para agrupar el trabajo de picking por envíos, puede especificar <strong>Id. del envío</strong> en el campo. Este campo requiere que cree un elemento de menú para usar el trabajo existente que el sistema ha agrupado. También debe seleccionar el campo por el que desea agrupar en <strong>Campo de agrupamiento del sistema</strong>.</td>
 </tr>
 <tr class="even">
 <td>Usar datos predeterminados</td>
@@ -386,13 +386,13 @@ La siguiente tabla describe estas opciones.
 </tr>
 <tr class="odd">
 <td>Código de plantilla de trabajo</td>
-<td>Seleccione la plantilla de trabajo que creará el trabajo de un proceso. Por ejemplo, si recibe un artículo para un pedido de compra, el trabajo de ubicación se generará en función de la plantilla de trabajo. Si no selecciona una plantilla de trabajo, Microsoft Dynamics 365 for Finance and Operations asignará una plantilla basada en criterios de consulta. Para obtener más información sobre plantillas de trabajo, vea <a href="control-warehouse-location-directives.md">Controlar el trabajo de almacén con plantillas de trabajo y directivas de ubicación</a>.</td>
+<td>Seleccione la plantilla de trabajo que creará el trabajo de un proceso. Por ejemplo, si recibe un artículo para un pedido de compra, el trabajo de ubicación se generará en función de la plantilla de trabajo. Si no selecciona una plantilla de trabajo, Supply Chain Management asignará una plantilla basada en criterios de consulta. Para obtener más información sobre plantillas de trabajo, vea <a href="control-warehouse-location-directives.md">Controlar el trabajo de almacén con plantillas de trabajo y directivas de ubicación</a>.</td>
 </tr>
 </tbody>
 </table>
 
 ## <a name="require-workers-to-confirm-the-product-location-or-quantity-when-they-pick-items"></a>Requerir a los trabajadores confirmar el producto, la ubicación o la cantidad cuando seleccionan artículos
-Puede configurar las confirmaciones de trabajo que requieren que un trabajador use un dispositivo móvil para registrar la ubicación o la cantidad cuando realiza el trabajo en el almacén. Las confirmaciones de trabajo ayudan a garantizar que el trabajador esté en la ubicación correcta o que está manejando la cantidad correcta de artículos. También puede habilitar Microsoft Dynamics 365 for Finance and Operations para confirmar automáticamente el registro del trabajador. Si permite la confirmación automática, no puede requerir también las confirmaciones para la ubicación o la cantidad. Las confirmaciones de trabajo también incluyen los productos y las variantes de producto. Además, puede registrar confirmaciones explorando un código de barras. Para confirmar los productos y las variantes de producto, debe especificar una identificación del producto o la variante del producto. Este identificador puede ser un id. del producto, un id. de búsqueda del producto, un id. externo, GTIN o un código de barras. Tras escribir la identificación o explorar el código de barras, las dimensiones para la variante del producto se muestran en el dispositivo móvil. 
+Puede configurar las confirmaciones de trabajo que requieren que un trabajador use un dispositivo móvil para registrar la ubicación o la cantidad cuando realiza el trabajo en el almacén. Las confirmaciones de trabajo ayudan a garantizar que el trabajador esté en la ubicación correcta o que está manejando la cantidad correcta de artículos. También puede habilitar Supply Chain Management para confirmar automáticamente el registro del trabajador. Si permite la confirmación automática, no puede requerir también las confirmaciones para la ubicación o la cantidad. Las confirmaciones de trabajo también incluyen los productos y las variantes de producto. Además, puede registrar confirmaciones explorando un código de barras. Para confirmar los productos y las variantes de producto, debe especificar una identificación del producto o la variante del producto. Este identificador puede ser un id. del producto, un id. de búsqueda del producto, un id. externo, GTIN o un código de barras. Tras escribir la identificación o explorar el código de barras, las dimensiones para la variante del producto se muestran en el dispositivo móvil. 
 
 La siguiente tabla describe los distintos tipos de trabajo con los que puede usar confirmaciones de trabajo.
 

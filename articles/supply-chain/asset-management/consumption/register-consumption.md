@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7f785b0935b952d6de68fd120a3639077ad124bd
-ms.sourcegitcommit: c0b581e4c647b6c47bc14d1d7bfe267832afecba
+ms.openlocfilehash: 174c816c7a6442b07e4722c03045293b94c59153
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "1913107"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024669"
 ---
 # <a name="register-consumption"></a>Registrar consumo
 
@@ -93,5 +93,5 @@ Al hacer registros de consumo, las dimensiones financieras relacionadas con los 
 *Registros de artículos:* en primer lugar, se agregan las dimensiones financieras del encabezado del diario, si existen. Después, se agregan las dimensiones financieras del proyecto de orden de trabajo relacionado. A continuación, se agregan las dimensiones financieras del sitio. Finalmente, se agregan las dimensiones financieras del artículo.
 
 >[!NOTE]
->Para los tres tipos de registro, se valida la combinación de dimensiones financieras y se dejan en blanco las combinaciones no válidas. Se trata de una configuración estándar en Dynamics 365 for Finance and Operations.
+>Para los tres tipos de registro, se valida la combinación de dimensiones financieras y se dejan en blanco las combinaciones no válidas. Es configuración estándar en Finance and Operations
 

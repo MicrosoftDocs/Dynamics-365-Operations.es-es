@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1c90788da7ad536fb9978db18160ccf6c158033
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: c5b791fd3e060c4f4ecdb1ca599a6041d421db74
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783561"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024547"
 ---
 # <a name="asset-documents"></a>Documentos de activos
 
@@ -33,7 +33,7 @@ ms.locfileid: "1783561"
 
 Este tema explica los documentos de activos en Administración de activos.
 
-En Administración de activos, puede configurar los documentos para que se relacionen automáticamente con los tipos de trabajo, los fabricantes de activos, los tipos de activos o los activos, por ejemplo. Esta funcionalidad es de utilidad cuando se publican versiones de documento actualizadas. En ese caso, solo tiene que colocar el documento actualizado en la ubicación estándar que se utiliza para los documentos de Microsoft Dynamics 365 for Finance and Operations y vincular el documento al registro de documento de activo que ha creado. Después, el documento actualizado está accesible desde los elementos de menú **Todos los activos**, **Activos activos**, **Mis activos activos**, **Todas las órdenes de trabajo** y **Trabajos de orden de trabajo activos**. El proceso para adjuntar documentos a un registro de documento de activo utiliza el sistema de control de documentos estándar de Finance and Operations.
+En Administración de activos, puede configurar los documentos para que se relacionen automáticamente con los tipos de trabajo, los fabricantes de activos, los tipos de activos o los activos, por ejemplo. Esta funcionalidad es de utilidad cuando se publican versiones de documento actualizadas. En ese caso, solo tiene que colocar el documento actualizado en la ubicación estándar que se utiliza para los documentos de Finance and Operations y vincular el documento al registro de documento de activo que ha creado. Después, el documento actualizado está accesible desde los elementos de menú **Todos los activos**, **Activos activos**, **Mis activos activos**, **Todas las órdenes de trabajo** y **Trabajos de orden de trabajo activos**. El proceso para adjuntar documentos a un registro de documento de activo utiliza el sistema de control de documentos estándar.
 
 **Ejemplo 1:** un documento relacionado con un tipo de trabajo puede describir un procedimiento para ese tipo de trabajo.
 
@@ -48,5 +48,5 @@ En Administración de activos, puede configurar los documentos para que se relac
     > [!NOTE]
     > Cuando el sistema busca documentos que deben estar relacionados con un activo o una orden trabajo, Administración de activos recorre todos los registros de documentos de activos para buscar una coincidencia. Comprueba siempre primero la combinación más específica. Es decir, Administración de activos primero busca una coincidencia para el campo **Requisito de trabajo**. Si no se encuentra ninguna coincidencia, comprueba si hay una coincidencia para el campo **Variante de tipo de trabajo**. Si no se encuentra ninguna coincidencia, comprueba si hay una coincidencia para el campo **Tipo de trabajo**, y así sucesivamente. Como puede ver en el diseño de la página **Documentos de activos**, este comportamiento significa que, para encontrar la combinación más específica, Administración de activos comprueba cada registro de derecha a izquierda en busca de una coincidencia. Varios documentos pueden estar relacionados con un activo o una orden de trabajo. Puede editar el nivel de servicio en una solicitud de mantenimiento o una orden de trabajo según sea necesario.
 
-4. Seleccione **Archivos adjuntos**. Aparece la página **Gestión de documentos** estándar de Finance and Operations.
+4. Seleccione **Archivos adjuntos**. Aparece la página **Gestión de documentos** estándar.
 5. Configure los documentos o las notas que se deben vincular al registro de documento de activo. Después de vincular documentos, el campo **Archivos adjuntos** muestra el número de documentos relacionados con el registro.

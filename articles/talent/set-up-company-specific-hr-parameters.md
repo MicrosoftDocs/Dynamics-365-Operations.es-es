@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 00facce5913fb82f67c5844d74d29032735db707
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d95429dde38a7a528b1c1d9036194a3bf8e6f986
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1506112"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009454"
 ---
 # <a name="set-up-company-specific-human-resources-hr-parameters"></a>Configurar parámetros de recursos humanos (RR. HH.) específicos de la empresa
 
@@ -34,7 +34,7 @@ La configuración de algunos parámetros de Recursos Humanos (RR. HH.) se compar
 Se usan dos páginas para definir los parámetros de recursos humanos. Para los parámetros que se comparten entre las empresas, se usa la página **Parámetros compartidos de recursos humanos**. Para los parámetros que son específicos de la empresa (es decir, los ajustes se aplican a una sola empresa), se usa la página **Parámetros de recursos humanos**. En la página **Parámetros de recursos humanos**, los ajustes se dividen en seis pestañas:
 
 -   General
--   Contratación - esto no se incluye en Dynamics 365 for Talent
+-   Contratación - esto no se incluye en Dynamics 365 Talent
 -   Compensación
 -   Secuencias numéricas
 -   Ley de Ausencia Familiar y Médica
@@ -49,7 +49,7 @@ Los ajustes en la pestaña **Compensación** definen si los usuarios deben confi
 ### <a name="previously-released-functionality"></a>Funcionalidad anteriormente liberada
 Los ajustes en la pestaña **Secuencia numérica** determina las secuencias que se usarán para asignar automáticamente identificadores a elementos de recursos humanos, como solicitudes, registros de ausencias, resultados de procesos de compensación, números de casos, cursos y programaciones de cursos. Para mantener las referencias y los códigos de la secuencia numérica, use la página de lista **Secuencias numéricas** (haga clic en **Administración de la organización** &gt; **Secuencias numéricas** &gt; **Secuencias numéricas**).
 
-### <a name="if-youre-using-dynamics-365-for-talent"></a>Si usa Dynamics 365 for Talent
+### <a name="if-youre-using-dynamics-365-talent"></a>Si usa Dynamics 365 Talent
 Los ajustes en la pestaña **Secuencia numérica** determina las secuencias que se usarán para asignar automáticamente identificadores a elementos de recursos humanos, como solicitudes, registros de ausencias, resultados de procesos de compensación, números de casos, cursos y programaciones de cursos. Para mantener las referencias y los códigos de la secuencia numérica, use la página de lista **Secuencias numéricas** (haga clic en **Administración del sistema** &gt; **Ficha Vínculos** &gt; **Secuencias numéricas** &gt; **Secuencias numéricas**). 
 
 Los ajustes en la pestaña **FMLA** definen el número de horas que debe trabajar un empleado para que se puedan aplicar las prestaciones de FMLA, la duración del empleo que se requiere para la idoneidad y la fecha de inicio del empleo que se usa para determinar la duración del empleo. Los parámetros también definen el número de horas de FMLA al que tienen derecho los empleados y el calendario de ausencias de FMLA que se usa para calcular cuántas horas de FMLA han usado los empleados. La pestaña **FMLA** solo está disponible para las empresas en los Estados Unidos. 

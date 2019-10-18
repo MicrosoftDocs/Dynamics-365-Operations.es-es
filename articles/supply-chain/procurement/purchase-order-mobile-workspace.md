@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 75a38b99fe0aee7d4dd386191be236e54097e867
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b7f5d61ade071e75d53d5036a47fea438d8afbe6
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561280"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249434"
 ---
 # <a name="purchase-order-approval-mobile-workspace"></a>Área de trabajo de móvil de la aprobación del pedido de compra
 
@@ -35,13 +35,13 @@ Este tema proporciona información sobre el espacio de trabajo móvil **Aprobaci
 ## <a name="overview"></a>Información general 
 Los pedidos de compra que requieren aprobación pasan por un flujo de trabajo de aprobación. El flujo de trabajo puede incluir varios pasos que requieren que una o más personas realicen una acción. Por ejemplo, una persona puede tener que completar una tarea o aprobar el pedido de compra. 
 
-El espacio de trabajo móvil **Aprobación de pedido de compra** le permite ver fácilmente y responder a los pedidos de compra desde el dispositivo móvil. Este espacio de trabajo también le permite realizar las mismas acciones que el cliente web de Microsoft Dynamics 365 for Finance and Operations.
+El espacio de trabajo móvil **Aprobación de pedido de compra** le permite ver fácilmente y responder a los pedidos de compra desde el dispositivo móvil. Este espacio de trabajo también le permite realizar las mismas acciones que el cliente web.
 
 ## <a name="prerequisites"></a>Requisitos previos
-Los requisitos varían en función de la versión de Finance and Operations que se haya implementado en su organización.
+Los requisitos varían en función de la versión de Supply Chain Management que se haya implementado en su organización.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Requisitos previos si usa Microsoft Dynamics 365 for Finance and Operations 
-Si Microsoft Dynamics 365 for Finance and Operations se ha implementado para su organización, el administrador del sistema debe publicar el espacio de trabajo móvil **Aprobación del pedido de compra**. Para obtener instrucciones, consulte [Publicar un espacio de trabajo móvil](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-supply-chain-management"></a>Requisitos previos si usa Supply Chain Management 
+Si Finance and Operations se ha implementado para su organización, el administrador del sistema debe publicar el espacio de trabajo móvil **Aprobación del pedido de compra**. Para obtener instrucciones, consulte [Publicar un espacio de trabajo móvil](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Los requisitos previos si usa Microsoft Dynamics 365 for Operations versión 1611 con la actualización de plataforma 3 o posterior
 Si se ha implementado Microsoft Dynamics 365 for Operations versión 1611 con actualización de plataforma 3 o posterior en su organización, el administrador del sistema debe cumplir los requisitos siguientes. 
@@ -75,7 +75,7 @@ Si se ha implementado Microsoft Dynamics 365 for Operations versión 1611 con ac
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>Descargar e instalar la aplicación móvil
-Descargue e instale la aplicación Microsoft Dynamics 365 for Unified Operations Mobile:
+Descargue e instale la aplicación móvil Finance and Operations:
 
 - [Para teléfonos Android](https://go.microsoft.com/fwlink/?linkid=850662)
 - [Para iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

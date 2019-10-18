@@ -1,6 +1,6 @@
 ---
 title: Crear, aprobar y firmar propuestas
-description: Este tema informa de cómo crear, aprobar, y firmar una propuesta para un candidato mediante Dynamics 365 for Talent.
+description: Este tema informa de cómo crear, aprobar, y firmar una propuesta para un candidato mediante Dynamics 365 Talent.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/26/2019
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-19
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 8c5f95f1d3be22a73cc42cb3667b793490f2a136
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: b9ccd22e218137637cc0bbde0d4ad19a28591731
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739642"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008114"
 ---
 # <a name="create-approve-and-sign-offers"></a>Crear, aprobar y firmar ofertas
 
@@ -110,7 +110,7 @@ Existen varias acciones que puede realizar antes de enviar la propuesta al candi
 Si se ha seleccionado Adobe Sign como método preferido de firma electrónica, los creadores de la propuesta necesitan conectar su licencia de Adobe Sign en este paso. 
 
 ### <a name="docusign"></a>DocuSign
-Si se ha seleccionado DocuSign como método preferido de firma electrónica, los creadores de la propuesta necesitan conectar su licencia de DocuSign. Cuando haya iniciado sesión, la cuenta predeterminada y los permisos asociados al perfil de DocuSign del usuario se vinculan a Talent Attract. 
+Si se ha seleccionado DocuSign como método preferido de firma electrónica, los creadores de la propuesta necesitan conectar su licencia de DocuSign. Cuando haya iniciado sesión, la cuenta predeterminada y los permisos asociados al perfil de DocuSign del usuario se vinculan a Talent: Attract. 
 
 -  Puede ver y editar la plantilla de correo electrónico según sea necesario.
 

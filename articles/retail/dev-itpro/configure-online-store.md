@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: meeram
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 186ab08e21b7dad7b736b1f5f065aefe0b80d621
-ms.sourcegitcommit: 27a98a7a0f1d2623f5236a88066f483def30889c
+ms.openlocfilehash: 142a7fa8a18b14347761d3f116c30f2fa5476115
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1833184"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025754"
 ---
 # <a name="configure-online-stores"></a>Configurar tiendas en línea
 
@@ -53,7 +53,7 @@ Los temas que aparecen en la siguiente tabla le ayudarán a configurar los compo
 | Administrar gastos de envío.             | Configurar y administrar los gastos de envío que son específicos de la tienda en línea.                                                                     | [Configurar los gastos de envío de artículos para tiendas en línea](https://technet.microsoft.com/library/jj728714.aspx) (contenido TechNet para AX 2012)                                                                                                                           |
 | Administrar modos de entrega.            | Administrar los modos de entrega que ofrece la tienda en línea.                                                                                        | [Configurar modos de entrega](https://technet.microsoft.com/library/jj728719.aspx) (contenido TechNet para AX 2012)                                                                                                                                            |
 
-## <a name="set-up-data-exchange-between-microsoft-dynamics-365-for-retail-and-the-online-store"></a>Configurar el intercambio de datos entre Microsoft Dynamics 365 for Retail y la tienda en línea.
+## <a name="set-up-data-exchange-between-microsoft-dynamics-365-retail-and-the-online-store"></a>Configurar el intercambio de datos entre Microsoft Dynamics 365 Retail y la tienda en línea.
 
 | Tarea                                 | Detalles                                                                                                                               | Temas                                                                                                                                                                                                                                                                                  |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

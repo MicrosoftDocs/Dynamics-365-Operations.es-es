@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 60f0a2e5fa2dc2bc37a04b159a4834a52117893d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 65b59e1cc215d582fdaf02ff4746fe2158ace76e
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559613"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025365"
 ---
 # <a name="payment-methods"></a>Métodos de pago
 
@@ -32,7 +32,7 @@ ms.locfileid: "1559613"
 
 Al configurar el sistema, se deben configurar todos los tipos de pago que acepte un minorista. Este artículo describe los tipos de pago que puede configurar y describe el proceso para configurarlos.
 
-Los minoristas pueden aceptar distintos tipos de pago a cambio de los productos y los servicios que venden. Aunque el efectivo es la forma más habitual de pago, los minoristas pueden recibir el pago también mediante cheques, tarjetas, cupones, etc. Al configurar el sistema, se deben configurar en Dynamics 365 for Retail todos los tipos de pago que acepte el minorista. En la lista siguiente se describen todos los tipos de pago que se pueden configurar en Dynamics 365 for Retail:
+Los minoristas pueden aceptar distintos tipos de pago a cambio de los productos y los servicios que venden. Aunque el efectivo es la forma más habitual de pago, los minoristas pueden recibir el pago también mediante cheques, tarjetas, cupones, etc. Al configurar el sistema, se deben configurar en Dynamics 365 Retail todos los tipos de pago que acepte el minorista. En la lista siguiente se describen todos los tipos de pago que se pueden configurar:
 
 - **Efectivo**: dinero con la forma física de la divisa, tales como billetes y monedas. Esta divisa puede ser la de la empresa o la divisa local de la tienda.
 - **Cheque**: instrumento negociable que dicta el pago de un importe específico en una divisa concreta, librado en un banco determinado. Normalmente, un cheque tiene una validez indefinida o de seis meses a partir de la fecha de emisión, a menos que se indique otro período de validez. Este período varía en función del banco en el que se libra el cheque. Existen varios tipos de cheques, tales como los cheques nominativos, cheques de mostrador, cheques al portador y cheques para abono en cuenta. Puede configurar los cheques como método de pago de cada tienda. Los cheques se pueden aceptar en la divisa definida en la empresa o en la tienda. Debe configurar los cheques como método de pago para poder aceptar un cheque como pago en una tienda.

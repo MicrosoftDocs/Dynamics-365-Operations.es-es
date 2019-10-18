@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2e6a2d428e433256339fff07f3805449a2604213
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: 3336a3357578b25522e1ac457a48349f88b7318d
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783565"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024577"
 ---
 # <a name="asset-management-parameters"></a>Parámetros de administración de activos
 
@@ -33,7 +33,7 @@ ms.locfileid: "1783565"
 
 En Gestión de activos, se deben configurar los parámetros generales relativos a los activos y los pedidos de trabajo, y la programación de órdenes de trabajo. En este tema se explica cómo configurarlos. Seleccione **Administración de activos** > **Configuración** > **Parámetros de administración de activos** para abrir el formulario.
 
-El botón del asistente **Crear datos** se puede usar para crear automáticamente los datos de configuración a modo de prueba o demostración en una empresa en Dynamics 365 for Finance and Operations. Consulte la documentación “Configurar datos de prueba en Administración de activos” para obtener información acerca de cómo utilizar el asistente.
+El botón del asistente **Crear datos** se puede usar para crear automáticamente los datos de configuración a modo de prueba o demostración en una empresa en Dynamics 365 Supply Chain Management. Consulte la documentación “Configurar datos de prueba en Administración de activos” para obtener información acerca de cómo utilizar el asistente.
 
 Vínculo **Activos**
 
@@ -57,7 +57,7 @@ Vínculo **Órdenes de trabajo**
 - Seleccione "Sí" en el botón de alternar **Copiar errores** si desea copiar automáticamente los errores registrados en las órdenes de trabajo con solicitudes de mantenimiento relacionadas.  
 - En el campo **Nivel**, defina el nivel de la ubicación técnica que se inserta automáticamente en una orden de trabajo si todos los trabajos relacionados de la orden de trabajo hacen referencia a la misma ubicación. Si no todos los trabajos de la orden de trabajo están relacionados con la misma ubicación técnica en el nivel definido, el campo **Ubicación funcional** se deja en blanco en la orden de trabajo. Ejemplo: Si especifica el número "1"en este campo, este es el nivel superior de una estructura de ubicación técnica. Si especifica el número "0" en este campo, no ha definido un nivel de ubicación funcional específico, solo que todos los trabajos de la orden de trabajo deben estar relacionados con la misma ubicación técnica para que dicha ubicación se agregue a la orden de trabajo.  
 - Los diarios utilizados al registrar el consumo en una orden de trabajo se pueden seleccionar en el FastTab **General** de los campos **Hora**, **Artículo** y **Gasto**.  
-- En el campo **Origen de idioma del producto**, seleccione el idioma que se va a usar para los nombres de producto en los informes de Administración de activos. Puede seleccionar la configuración de idioma en la cuenta de empresa, o la configuración de idioma para el usuario que haya iniciado sesión en Dynamics 365 for Finance and Operations.  
+- En el campo **Origen de idioma del producto**, seleccione el idioma que se va a usar para los nombres de producto en los informes de Administración de activos. Puede seleccionar la configuración de idioma en la cuenta de empresa, o la configuración de idioma para el usuario que haya iniciado sesión actualmente.  
 - Seleccione "Sí" en el botón de alternar **Actualización en tiempo real** si desea actualizar automáticamente los cambios en los valores predeterminados del tipo de trabajo, los planes de mantenimiento y las rondas mantenimiento.
 > - Si selecciona ”No”, los cambios en los valores predeterminados de tipo de trabajo, planes de mantenimiento y rondas de mantenimiento no se actualizan automáticamente en Administración de activos  
 > - Seleccione ”No” en el botón de alternar si tiene una gran cantidad de datos que se sincronizan, por ejemplo, varios activos o ubicaciones funcionales en planes de mantenimiento o rondas de mantenimiento, o un gran número de planes o rondas de mantenimiento.  
@@ -75,7 +75,7 @@ Vínculo **Programación de órdenes de trabajo**
 - **Plan maestro** está relacionado con los recursos del módulo **Administración de la organización**. Si selecciona un plan maestro en este campo, puede ver las reservas de capacidades relacionadas con las órdenes de trabajo en **Reservas de capacidad** (**Administración de la organización** > **Recursos** > **Recursos** > seleccionar el recurso > pestaña **Recurso** > botón **Reservas de capacidad**). Si deja el campo en blanco, podrá ver la carga de capacidad relacionada con las órdenes de trabajo en **Carga de capacidad** (**Administración de la organización** \> **Recursos** \> **Recursos** \> seleccionar el recurso \> pestaña **Recurso** \> botón **Carga de capacidad**).  
 
 >[!NOTE]
->La selección en relación con el uso de un plan maestro o no en el módulo **Administración de activos** y el formulario relacionado utilizado para obtener una visión general de las reservas de capacidad o de la carga de capacidad es la configuración estándar de Dynamics 365 for Finance and Operations. En función de la configuración del campo **Plan maestro**, podrá tener acceso a la información de capacidad en **Reservas de capacidad** o **Carga de capacidad** en el módulo **Administración de la organización**. No es posible crear una configuración en la que las reservas de capacidad se muestren en ambas vistas.  
+>La selección en relación con el uso de un plan maestro o no en el módulo **Administración de activos** y el formulario relacionado utilizado para obtener una visión general de las reservas de capacidad o de la carga de capacidad es la configuración estándar. En función de la configuración del campo **Plan maestro**, podrá tener acceso a la información de capacidad en **Reservas de capacidad** o **Carga de capacidad** en el módulo **Administración de la organización**. No es posible crear una configuración en la que las reservas de capacidad se muestren en ambas vistas.  
 
 Los campos que se describen en la lista de abajo están relacionados con las puntuaciones que se usan para calcular la prioridad de la orden de trabajo durante la programación de órdenes de trabajo.
 

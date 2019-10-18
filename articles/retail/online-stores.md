@@ -1,6 +1,6 @@
 ---
 title: Configurar tiendas en línea
-description: Este artículo proporciona información sobre tiendas minoristas en línea y acerca de cómo configurarlas en Microsoft Dynamics 365 for Retail.
+description: Este artículo proporciona información sobre tiendas minoristas en línea y acerca de cómo configurarlas en Dynamics 365 Retail.
 author: kfend
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,20 +19,20 @@ ms.search.industry: Retail
 ms.author: meeram
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2b736b5e5ce5b5b384181a73c72bbb89b072a284
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 02402269a6976ff856e703cc8e94fbf0758ea771
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1543615"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017975"
 ---
 # <a name="set-up-online-stores"></a>Configurar tiendas en línea
 
 [!include [banner](includes/banner.md)]
 
-Este artículo proporciona información sobre tiendas minoristas en línea y acerca de cómo configurarlas en Microsoft Dynamics 365 for Retail.
+Este artículo proporciona información sobre tiendas minoristas en línea y acerca de cómo configurarlas en Dynamics 365 Retail.
 
-Dynamics 365 for Retail admite varios canales comerciales. Estos canales de venta minorista incluyen tiendas en línea, centros de llamadas y tiendas minoristas (también conocidas como tiendas físicas). Las tiendas en línea proporcionan al distribuidor una presencia en línea, de modo que los clientes puedan comprar productos de su tienda en línea además de en sus tiendas físicas. Si los clientes compran productos en la tienda en línea, esos productos se les pueden enviar o los clientes pueden recogerlos en una tienda local. Puede crear una tienda en línea en el cliente Dynamics 365 for Retail. A continuación esta tienda en línea se publica en un tienda en línea de terceros que se integra con Dynamics 365 for Retail. Su tienda en línea de terceros sirve como escaparate electrónico (interfaz de usuario) para la tienda en línea y le proporciona una serie de capacidades de sistema de gestión del cliente (CMS) y de interfaz de usuario. Varias integraciones de este tipo están disponibles para Dynamics 365 for Retail. Las propiedades que defina para la tienda en línea controlan el comportamiento de la tienda en línea. Por ejemplo, puede definir la jerarquía de categorías de navegación en Dynamics 365 for Retail y asignarla a la tienda en línea. Cuando se publique la tienda en línea en la tienda en línea de terceros, la jerarquía de categorías de navegación aparecen en la versión en línea de la tienda. Después, ,los compradores usan la jerarquía de categorías de navegación para explorar la tienda en línea y para buscar productos. Para crear una tienda en línea, debe configurar los componentes que permiten el procesamiento de transacciones para la tienda. Por ejemplo, debe agregar los surtidos, aplicar atributos y establecer métodos de pago y métodos de envío. También puede definir precios, promociones, descuentos, acuerdos comerciales y condiciones de envío específicos de la tienda en línea. Después publicar la tienda en línea en la tienda en línea de terceros, puede crear catálogos de productos comerciales para la tienda en línea. Los productos del catálogo se convierten en listados de productos en la tienda en línea. Cuando un comprador adquiere productos de la tienda en línea, el inventario disponible se actualiza y se sincroniza en el cliente. Además, se generan pedidos de ventas para las compras y se envían al cliente para el cumplimiento y procesamiento de pedidos.
+Retail admite varios canales comerciales. Estos canales de venta minorista incluyen tiendas en línea, centros de llamadas y tiendas minoristas (también conocidas como tiendas físicas). Las tiendas en línea proporcionan al distribuidor una presencia en línea, de modo que los clientes puedan comprar productos de su tienda en línea además de en sus tiendas físicas. Si los clientes compran productos en la tienda en línea, esos productos se les pueden enviar o los clientes pueden recogerlos en una tienda local. Puede crear una tienda en línea en el cliente de Retail. A continuación esta tienda en línea se publica en un tienda en línea de terceros que se integra con Retail. Su tienda en línea de terceros sirve como escaparate electrónico (interfaz de usuario) para la tienda en línea y le proporciona una serie de capacidades de sistema de gestión del cliente (CMS) y de interfaz de usuario. Varias integraciones de este tipo están disponibles. Las propiedades que defina para la tienda en línea controlan el comportamiento de la tienda en línea. Por ejemplo, puede definir la jerarquía de categorías de navegación en Retail y asignarla a la tienda en línea. Cuando se publique la tienda en línea en la tienda en línea de terceros, la jerarquía de categorías de navegación aparecen en la versión en línea de la tienda. Después, ,los compradores usan la jerarquía de categorías de navegación para explorar la tienda en línea y para buscar productos. Para crear una tienda en línea, debe configurar los componentes que permiten el procesamiento de transacciones para la tienda. Por ejemplo, debe agregar los surtidos, aplicar atributos y establecer métodos de pago y métodos de envío. También puede definir precios, promociones, descuentos, acuerdos comerciales y condiciones de envío específicos de la tienda en línea. Después publicar la tienda en línea en la tienda en línea de terceros, puede crear catálogos de productos comerciales para la tienda en línea. Los productos del catálogo se convierten en listados de productos en la tienda en línea. Cuando un comprador adquiere productos de la tienda en línea, el inventario disponible se actualiza y se sincroniza en el cliente. Además, se generan pedidos de ventas para las compras y se envían al cliente para el cumplimiento y procesamiento de pedidos.
 
 ## <a name="set-up-an-online-store"></a>Configurar una tienda en línea
 

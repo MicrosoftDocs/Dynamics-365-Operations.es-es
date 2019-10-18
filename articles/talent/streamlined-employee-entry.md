@@ -1,6 +1,6 @@
 ---
 title: Entrada y navegación de empleados optimizadas
-description: La entrada de datos de los trabajadores en Dynamics 365 for Talent se ha ampliado para permitir la entrada rápida para todos los empleados, del pasado, activos o del futuro. El modelo de navegación simplificado/consolidado se ha actualizado para buscar más rápidamente la información relacionada y ver y crear las actualizaciones necesarias.
+description: La entrada de datos de los trabajadores en Dynamics 365 Talent se ha ampliado para permitir la entrada rápida para todos los empleados, del pasado, activos o del futuro. El modelo de navegación simplificado/consolidado se ha actualizado para buscar más rápidamente la información relacionada y ver y crear las actualizaciones necesarias.
 author: andreabichsel
 manager: AnnBe
 ms.date: 08/20/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent October 2019 update
-ms.openlocfilehash: be0253ffc4396f36050ef02c51a20d378e44473d
-ms.sourcegitcommit: 4176c333ce3f88c5c68e95bd47e5791d32365dd2
+ms.openlocfilehash: 40bbb8429355fa18fe12c7cf56f8d58f19766cad
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1918221"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009431"
 ---
 # <a name="streamlined-employee-entry-and-navigation"></a>Entrada y navegación de empleados optimizadas
 
 [!include [banner](includes/banner.md)]
 
-Dynamics 365 for Talent permite la especificación eficaz de datos del empleado y del empleo. Puede actualizar rápidamente la información del historial de trabajo para empleados y contratistas del pasado, activos, y del futuro.
+Dynamics 365 Talent permite la especificación eficaz de datos del empleado y del empleo. Puede actualizar rápidamente la información del historial de trabajo para empleados y contratistas del pasado, activos, y del futuro.
 
 También puede permitir una experiencia simplificada de navegación para buscar rápidamente información relacionada y realizar los cambios necesarios. Esta funcionalidad ya está disponible en los entornos de espacio aislado. Para activar esta característica, vaya a **Administración del sistema > vinculos > configuración > Parámetros del sistema > características de vista previa**. Seleccione **Formulario y navegación de trabajador mejorado**. Esto habilitará estos cambios para todos los usuarios. Puede desactivar esta opción en cualquier momento.
 

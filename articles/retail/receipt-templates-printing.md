@@ -1,6 +1,6 @@
 ---
 title: Configurar y diseñar formatos de recibo
-description: Este artículo describe cómo modificar diseños de formulario para modificar la forma de imprimir recibos, facturas y otros documentos. Microsoft Dynamics 365 for Retail incluye un diseñador de formularios que puede usar para crear y modificar con facilidad diversos tipos de diseños de formulario.
+description: Este artículo describe cómo modificar diseños de formulario para modificar la forma de imprimir recibos, facturas y otros documentos. Dynamics 365 Retail incluye un diseñador de formularios que puede usar para crear y modificar con facilidad diversos tipos de diseños de formulario.
 author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 13249e1b109586b2c520a1be30c47ac4393abe49
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: eb85752b53d0d48f07bfed9423637cb6c646ab61
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553077"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025134"
 ---
 # <a name="set-up-and-design-receipt-formats"></a>Configurar y diseñar formatos de recibo
 
 [!include [banner](includes/banner.md)]
 
-Este artículo describe cómo modificar diseños de formulario para modificar la forma de imprimir recibos, facturas y otros documentos. Microsoft Dynamics 365 for Retail incluye un diseñador de formularios que puede usar para crear y modificar con facilidad diversos tipos de diseños de formulario.
+Este artículo describe cómo modificar diseños de formulario para modificar la forma de imprimir recibos, facturas y otros documentos. Dynamics 365 Retail incluye un diseñador de formularios que puede usar para crear y modificar con facilidad diversos tipos de diseños de formulario.
 
 > [!IMPORTANT]
 > Debe configurar diseños de formulario y perfiles de recibo para imprimir recibos y otros documentos desde Retail Modern POS y Cloud POS. Puede incluir varios diseños de formulario en un perfil de recibo. Puede asignar el perfil de recibo a una impresora modificando un perfil de hardware.
@@ -55,7 +55,7 @@ Utilice el diseñador de formularios para crear gráficamente el diseño del doc
 2. En la página **Formato de formulario** seleccione una configuración de formulario, y haga clic en **Diseñador**.
 3. Haga clic en **Ejecutar** para iniciar la instalación del host del diseñador de venta minorista.
 4. En la barra de notificación que aparece en la parte inferior de la ventana de Internet Explorer, haga clic en **Abrir** para empezar a instalar el diseñador de un solo clic. (La barra de notificación puede aparecer en una ubicación diferente en otros exploradores). El indicador de progreso muestra el progreso del proceso de instalación.
-5. Después de que la instalación esté completada, escriba el nombre de usuario y la contraseña de Dynamics 365 for Retail y haga clic en **Iniciar sesión** para iniciar el diseñador.
+5. Después de que la instalación esté completada, escriba el nombre de usuario y la contraseña de Retail y haga clic en **Iniciar sesión** para iniciar el diseñador.
 6. Después de que se lleva a cabo una validación de sus credenciales y se inicia el diseñador, puede empezar a diseñar el formato de recibo o a modificar un formato existente.
 7. Para crear los elementos del formulario, seleccione la sección **Encabezado**, **Líneas** o **Pie de página** y, a continuación, arrastre un elemento de la sección hasta el espacio de trabajo. La mayoría de los elementos contienen variables, que se rellenan automáticamente con datos de la base de datos. Otros elementos, por ejemplo **Texto**, permiten imprimir texto personalizado en el recibo.
 

@@ -1,6 +1,6 @@
 ---
-title: Novedades y cambios en Dynamics 365 for Talent (14 de marzo de 2019)
-description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 for Talent.
+title: Novedades y cambios en Dynamics 365 Talent (14 de marzo de 2019)
+description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 03/14/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ee8e076174acba8e706991f3086d6299a10945ec
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 5c3beef9ef4e73eaf76f861735bb154fa630703f
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742502"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023916"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-14-2019"></a>Novedades y cambios en Dynamics 365 for Talent (14 de marzo de 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-march-14-2019"></a>Novedades y cambios en Dynamics 365 Talent (14 de marzo de 2019)
 
 [!include [banner](includes/banner.md)]
 
@@ -46,8 +46,8 @@ Los cambios realizados en esta versión habilitan escenarios de gestión del ren
 ### <a name="mass-assign-checklists-to-workers"></a>Asignar listas de comprobación en masa a los trabajadores
 Con este cambio, ahora puede seleccionar varios empleados y asignar en masa una o varias listas de comprobación a dichos empleados. 
 
-### <a name="platform-update-24"></a>Actualización 24 de la plataforma
-Para obtener detalles adicionales sobre la actualización 24 de la plataforma, consulte [Novedades o cambios en la actualización 24 de la plataforma Finance and Operations (marzo de 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24) Cambios relevantes incluidos en la plataforma 24: 
+### <a name="platform-update-24-for-finance-and-operations"></a>Platform update 24 para Finance and Operations
+Para obtener detalles adicionales sobre la Platform update 24 for Finance and Operations, consulte [Novedades o cambios en la Platform update 24 para Finance and Operations (marzo de 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24) Cambios relevantes incluidos en la plataforma 24: 
 
 - Las alertas se habilitan en Talent.
 - La barra de navegación actualizada ahora se alínea con el encabezado de Oficina.
@@ -67,7 +67,7 @@ Las entidades Common Data Service ahora se sincronizan correctamente cuando se a
 En muchas organizaciones, los administradores de compensación y prestaciones solo pueden tener acceso a ciertos registros de compensación. Estos puede ser para ejecutivos o empleados regionales. Con este cambio, Recursos Humanos puede administrar y mantener los planes de compensación para distintos grupos de empleados en la organización. Puede asignar roles de seguridad a los planes fijos y variables, lo que determinará el acceso a los planes y los datos del empleado relacionados con los planes, como el salario y los registros de bonificaciones. Solo los roles con acceso concedido pueden procesar la compensación para estos empleados.
 
 ###  <a name="email-support-for-alerts"></a>Soporte de correo electrónico para avisos
-Con Platform update 24, los usuarios pueden crear reglas de alertas que envían notificaciones por correo electrónico a los contactos cuando se activen con un evento.
+Con Platform update 24 para Finance and Operations, los usuarios pueden crear reglas de alertas que envían notificaciones por correo electrónico a los contactos cuando se activen con un evento.
 
 ### <a name="duplicate-employee-check-interface-changes"></a>Comprobación de empleado duplicado: cambios en la interfaz
 Con este cambio, se detectan los duplicados a medida que se especifican los campos de nombre, y un estado muestra cuántos se han encontrado. Puede seleccionar el vínculo proporcionado para abrir una nueva página para evaluar si utilizar la coincidencia detectada. Para evitar interrumpir la entrada de datos, el formulario de los duplicados no se abre automáticamente.

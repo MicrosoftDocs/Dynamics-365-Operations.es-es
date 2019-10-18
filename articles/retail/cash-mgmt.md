@@ -1,6 +1,6 @@
 ---
 title: Mejoras en la administración de efectivo
-description: En este tema se describe las mejoras en la administración de efectivo en PDV para Dynamics 365 for Retail.
+description: En este tema se describe las mejoras en la administración de efectivo en PDV para Dynamics 365 Retail.
 author: anpurush
 manager: AnnBe
 ms.date: 05/21/2019
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 845cba3b536b0f800b7c7c4eecee46a068ca8cff
-ms.sourcegitcommit: 432481001b986b54937d423516efd8f2af1511d6
+ms.openlocfilehash: 49d70a8d983bf3475e01f8fcb80d569b13568485
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1630062"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019540"
 ---
 # <a name="cash-management-improvements"></a>Mejoras en la administración de efectivo
 
@@ -32,9 +32,11 @@ ms.locfileid: "1630062"
 
 La administración de efectivo es una función clave para los minoristas en tiendas físicas. Los minoristas quieren que sus tiendas tengan sistemas que puedan ayudarle para proporcionar rastreabilidad y la contabilidad de efectivo y de su movimiento en varios registros y cajeros en una tienda. Deben poder conciliar cualquier diferencia y determinar la responsabilidad.
 
-Microsoft Dynamics 365 for Retail tiene capacidades de flujo de efectivo en su de aplicación de punto de venta (PDV). Sin embargo, en versiones de Retail que sean anteriores a la versión 10.0.3, la funcionalidad de gestión de efectivo no es lo suficiente robusta para proporcionar la rastreabilidad completa de los movimientos de efectivo en tiendas. Aunque los minoristas pueden conciliar el efectivo para una tienda, no pueden determinar la responsabilidad exacta en caso de discrepancia de efectivo.
 
-En la versión 10.0.3 de Microsoft Dynamics 365 for Retail y posteriores, los minoristas obtendrán la rastreabilidad para la gestión de efectivo. Como parte de esta rastreabilidad, los minoristas podrán definir los cajas fuertes, crear transacciones de efectivo bilaterales, y conciliar transacciones de flujo de efectivo.
+Microsoft Dynamics 365 Retail tiene capacidades de flujo de efectivo en su de aplicación de punto de venta (PDV). Sin embargo, en versiones de Retail que sean anteriores a la versión 10.0.3, la funcionalidad de gestión de efectivo no es lo suficiente robusta para proporcionar la rastreabilidad completa de los movimientos de efectivo en tiendas. Aunque los minoristas pueden conciliar el efectivo para una tienda, no pueden determinar la responsabilidad exacta en caso de discrepancia de efectivo.
+
+
+En Retail versión 10.0.3 y posteriores, los minoristas obtendrán la rastreabilidad para la gestión de efectivo. Como parte de esta rastreabilidad, los minoristas podrán definir los cajas fuertes, crear transacciones de efectivo bilaterales, y conciliar transacciones de flujo de efectivo.
 
 ## <a name="set-up-traceability-and-define-safes"></a>Configurar la rastreabilidad y definir cajas fuertes
 

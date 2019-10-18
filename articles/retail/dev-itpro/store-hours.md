@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Retail 10.0.1 update
-ms.openlocfilehash: 1b55b91246b22951f4e1d148f59444423e1d8a3d
-ms.sourcegitcommit: e54607a2c80bec4db05045825914f50947f6e31e
+ms.openlocfilehash: 811d499a3eb8133e5ffd29bb4ae6a0c57708accd
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1917521"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023451"
 ---
 # <a name="create-and-update-store-hours"></a>Cree y actualizar el horario comercial
 
@@ -36,7 +36,7 @@ Se pueden configurar varios horarios comerciales en distintos canales. Estos can
 
 Si un cliente tiene un pedido de recogida en una tienda diferente, el cajero puede seleccionar las fechas en las que la recogida estará disponible en dicha tienda. La búsqueda de la tienda proporcionará una referencia a las fechas y horarios de la tienda. El cajero puede seleccionar una fecha y una ubicación, y también puede imprimir un recibo de recogida que incluya el horario comercial.
 
-Esta función está disponible en las versiones 8.1.2 y posteriores de Microsoft Dynamics 365 for Retail.
+Esta función está disponible en las versiones 8.1.2 y posteriores de Microsoft Dynamics 365 Retail.
 
 ## <a name="configure-store-hours"></a>Configurar horario comercial
 

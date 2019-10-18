@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd94ae4c5ea855139fd1c41060de7db455ffab06
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: dd51fa667fd48b7bab64c3566b616631c6f9bcd1
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557662"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249641"
 ---
 # <a name="cost-management-home-page"></a>Página principal de la gestión de costes
 
@@ -69,5 +69,5 @@ El [cálculo de L. MAT. con una hoja de gestión de costes](https://mbs.microsof
 Puede encontrar opiniones, novedades y otra información acerca de la Gestión de costes en el [blog del equipo de I+D y fabricación de Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) y el [blog del equipo de I+D de administración de Supply Chain Management en Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm). Aunque la mayoría de ellos se escribieron para la versión anterior de Gestión de costes, aún se aplican los mismos conceptos y, en la versión actual, los procedimientos son también similares.
 
 #### <a name="task-guides"></a>Guías de tareas
-Hay ayuda adicional disponible como guías de tareas en Finance and Operations. Para tener acceso a las guías de tareas, haga clic en el botón Ayuda en cualquier página.
+Hay ayuda adicional disponible como guías de tarea. Para tener acceso a las guías de tareas, haga clic en el botón Ayuda en cualquier página.
 

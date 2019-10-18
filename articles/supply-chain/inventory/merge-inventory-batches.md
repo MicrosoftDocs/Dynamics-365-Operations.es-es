@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 00ec888600dedbc740be0efc64cddf37c5c6f558
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 83d969fcc59af87da3921225974ebc2ae41d9fa1
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572843"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250999"
 ---
 # <a name="merge-inventory-batches"></a>Combinar lotes de inventario
 
@@ -89,7 +89,7 @@ No, solo puede combinar lotes que tengan las mismas dimensiones de almacenamient
 No, solo puede combinar la cantidad completa de lotes. La funcionalidad de combinación de lotes está pensada como característica de inventario, no como característica de producción.
 
 ## <a name="what-if-the-batches-have-different-batch-attribute-values"></a>¿Qué ocurre si los lotes tienen valores de atributo diferentes?
-Cuando seleccione los lotes de origen para combinar en el lote combinado, Finance and Operations comprueba si todos los lotes tienen las características o los valores de atributos. Cuando un valor de atributo es el mismo, se sugerirá un valor para el lote combinado. Ese valor se puede modificar. Los valores de atributo que no son iguales se dejan en blanco para el lote combinado y se pueden especificar esos valores manualmente. Si el tipo de atributo de lote del valor de atributo es un número entero o una fracción, y los valores no son iguales para todos los lotes de origen, el valor se calculará mediante un cálculo de media ponderada. El valor calculado se redondea hacia arriba o hacia abajo al incremento más cercano. Si el valor está en blanco para un lote de origen, el lote y la cantidad no se incluyen en el cálculo. **Ejemplo** En el ejemplo siguiente se muestra un cálculo de promedio ponderado para un lote combinado. Dos de los lotes de origen tienen un valor en blanco para un tipo de atributo de lote que es un número entero. El atributo siguiente se asigna a los lotes de origen.
+Cuando seleccione los lotes de origen para combinar en el lote combinado, Supply Chain Management comprueba si todos los lotes tienen las características o los valores de atributos. Cuando un valor de atributo es el mismo, se sugerirá un valor para el lote combinado. Ese valor se puede modificar. Los valores de atributo que no son iguales se dejan en blanco para el lote combinado y se pueden especificar esos valores manualmente. Si el tipo de atributo de lote del valor de atributo es un número entero o una fracción, y los valores no son iguales para todos los lotes de origen, el valor se calculará mediante un cálculo de media ponderada. El valor calculado se redondea hacia arriba o hacia abajo al incremento más cercano. Si el valor está en blanco para un lote de origen, el lote y la cantidad no se incluyen en el cálculo. **Ejemplo** En el ejemplo siguiente se muestra un cálculo de promedio ponderado para un lote combinado. Dos de los lotes de origen tienen un valor en blanco para un tipo de atributo de lote que es un número entero. El atributo siguiente se asigna a los lotes de origen.
 
 | Atributo | Mínimo | Incremento | Máximo |
 |-----------|---------|-----------|---------|

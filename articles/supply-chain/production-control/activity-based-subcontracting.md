@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c219208c7ba5dd3686473d094658ab7f4c1b2b59
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 35ec47a13d9119c755702e019d09c76e1281b4a6
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549322"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250240"
 ---
 # <a name="activity-based-subcontracting"></a>Subcontratación basada en actividad
 
@@ -32,7 +32,7 @@ ms.locfileid: "1549322"
 
 Este tema describe detalladamente cómo usar actividades subcontratadas en un flujo de producción para la lean manufacturing.
 
-En Microsoft Dynamics 365 for Finance and Operations hay dos enfoques para subcontratar: pedidos de producción y lean manufacturing. En el método de lean manufacturing, el trabajo de subcontratación se modela como servicio relacionado con una actividad de un flujo de producción. Se han introducido un tipo especial de tipo de grupo de costes que se denomina **Subcontratación directa** y los servicios de subcontratación ya no son parte de una lista de materiales (L. MAT.). La contabilidad de costes del trabajo subcontratado está completamente integrada en la solución de la gestión de costes de la lean manufacturing.
+En Microsoft Dynamics 365 Supply Chain Management hay dos enfoques para subcontratar: pedidos de producción y lean manufacturing. En el método de lean manufacturing, el trabajo de subcontratación se modela como servicio relacionado con una actividad de un flujo de producción. Se han introducido un tipo especial de tipo de grupo de costes que se denomina **Subcontratación directa** y los servicios de subcontratación ya no son parte de una lista de materiales (L. MAT.). La contabilidad de costes del trabajo subcontratado está completamente integrada en la solución de la gestión de costes de la lean manufacturing.
 
 ## <a name="production-flows-that-involve-subcontractors"></a>Flujos de producción que implican subcontratistas
 El principio básico de un flujo de producción no cambia cuando se subcontratan actividades. El material aún fluye entre las ubicaciones, las actividades de proceso convierten el material en productos y las actividades de transferencia mueven el material o los productos de una ubicación a otra. Puede modelar ubicaciones y celdas de trabajo como administradas por el proveedor asignando la cuenta de proveedor a un almacén o un recurso de un grupo de recursos.  
@@ -102,7 +102,7 @@ Las personas con frecuencia consideran el transporte como algo no productivo y p
 
 La subcontratación basada en actividades en lean manufacturing permite integrar a los transportistas y a los proveedores de transporte que mueven materiales y productos entre ubicaciones de un flujo de producción. Modelando una actividad de transferencia, puede asignar un transportista o un proveedor. Las actividades de transferencia/trabajo se basan en un acuerdo de compra y servicio y puede crear pedidos de compra y avisos de recepción basados en los trabajos reales de transferencia. Esta funcionalidad es igual a la funcionalidad para las actividades de proceso subcontratadas.  
 
-Por lo tanto, Finance and Operations ahora admite el cálculo de L. MAT que incluye servicios de transporte, la creación de pedidos de compra relacionados, el registro de recepción integrado y la integración de los costes del servicio de transporte en la gestión de costes del flujo de producción.
+Supply Chain Management ahora admite el cálculo de L. MAT que incluye servicios de transporte, la creación de pedidos de compra relacionados, el registro de recepción integrado y la integración de los costes del servicio de transporte en la gestión de costes del flujo de producción.
 
 
 

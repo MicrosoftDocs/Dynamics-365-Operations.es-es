@@ -1,6 +1,6 @@
 ---
-title: Crear y enviar una guía de incorporación con Dynamics 365 for Talent - Onboard
-description: Este tema explica cómo usar la aplicación Microsoft Dynamics 365 for Talent - Onboard para crear una guía de incorporación para los nuevos empleados contratados. Esta tarea es el primer paso esencial en la estrategia de contratación hasta la jubilación de la gestión del capital humano (HCM).
+title: Crear y enviar una guía de incorporación con Dynamics 365 Talent - Onboard
+description: Este tema explica cómo usar la aplicación Microsoft Dynamics 365 Talent - Onboard para crear una guía de incorporación para los nuevos empleados contratados. Esta tarea es el primer paso esencial en la estrategia de contratación hasta la jubilación de la gestión del capital humano (HCM).
 author: andreabichsel
 manager: ''
 ms.date: 05/02/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: de5d584e3b7edba2751aa0c83b0465df2c3e4f7d
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: e4dbfcc3b3fd611eea36109a516a7b9361a9f654
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731637"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009863"
 ---
-# <a name="create-and-send-an-onboarding-guide-by-using-dynamics-365-for-talent-onboard"></a>Crear y enviar una guía de incorporación con Dynamics 365 for Talent: Onboard
+# <a name="create-and-send-an-onboarding-guide"></a>Crear y enviar una guía de incorporación
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent: Onboard permite crear guías de incorporación a partir de plantillas que creó usted mismo, a partir de plantillas disponibles en una galería, o a partir de cero.
+Microsoft Dynamics 365 Talent: Onboard permite crear guías de incorporación a partir de plantillas que creó usted mismo, a partir de plantillas disponibles en una galería, o a partir de cero.
 
 Una vez que haya creado una guía de incorporación, puede enviarla al empleado recién contratado. Como alternativa, puede enviarla a varios empleados recién contratados que especifique en un archivo Microsoft Excel que se descarga de aplicación Onboard.
 

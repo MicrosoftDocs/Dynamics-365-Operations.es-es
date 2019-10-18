@@ -1,6 +1,6 @@
 ---
-title: Obtener acceso a las características de vista previa de Microsoft Dynamics 365 for Talent
-description: Este tema describe cómo un administrador puede habilitar las características de vista previa en Microsoft Dynamics 365 for Talent, y enumera las características que se habilitan actualmente para la vista previa.
+title: Obtener acceso a las características de vista previa de Microsoft Dynamics 365 Talent
+description: Este tema describe cómo un administrador puede habilitar las características de vista previa en Microsoft Dynamics 365 Talent, y enumera las características que se habilitan actualmente para la vista previa.
 author: tracykeya
 manager: AnnBe
 ms.date: 05/30/2019
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: trkeya
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: 6a5aa8d6ea72ec3d3910edea291c4340ab607326
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: e607c2ba4b544d60c97d98bd49b07d912d83ebc6
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739596"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008711"
 ---
 # <a name="manage-preview-features"></a>Gestionar características de vista previa
 
 [!include[banner](../includes/banner.md)]
 
-Como parte de nuestro desarrollo continuo de las capacidades de administración del capital humano (HCM) para Microsoft Dynamics 365 for Talent, deseamos que los clientes experimenten las nuevas características lo más rápidamente posible. Los administradores pueden ver y utilizar características de vista previa en los entornos. Estas características casi están preparadas para la disponibilidad general y han pasado por un amplio proceso de pruebas. Simplemente estamos buscando una ronda final de comentarios de clientes y de validación antes de estén disponibles de forma general.
+Como parte de nuestro desarrollo continuo de las capacidades de administración del capital humano (HCM) para Microsoft Dynamics 365 Talent, deseamos que los clientes experimenten las nuevas características lo más rápidamente posible. Los administradores pueden ver y utilizar características de vista previa en los entornos. Estas características casi están preparadas para la disponibilidad general y han pasado por un amplio proceso de pruebas. Simplemente estamos buscando una ronda final de comentarios de clientes y de validación antes de estén disponibles de forma general.
 
-Este tema describe cómo puede habilitar las características de vista previa, y enumera las características que están habilitadas actualmente para la vista previa. Esta lista se actualizará a medida que se pongan nuevas características a disposición de todos y a medida que se lancen nuevas características para probarlas previamente. No se da ninguna notificación cuando las nuevas características se lanzan para obtener una vista previa. Los usuarios solo comenzarán a ver las características. Para obtener más información sobre características nuevas en Talent, consulte [Novedades o cambios en Dynamics 365 for Talent](./whats-new.md) y [Notas de la versión de Dynamics 365 y Power Platform](https://docs.microsoft.com/business-applications-release-notes).
+Este tema describe cómo puede habilitar las características de vista previa, y enumera las características que están habilitadas actualmente para la vista previa. Esta lista se actualizará a medida que se pongan nuevas características a disposición de todos y a medida que se lancen nuevas características para probarlas previamente. No se da ninguna notificación cuando las nuevas características se lanzan para obtener una vista previa. Los usuarios solo comenzarán a ver las características. Para obtener más información sobre características nuevas en Talent, consulte [Novedades o cambios en Dynamics 365 Talent](./whats-new.md) y [Notas de la versión de Dynamics 365 y Power Platform](https://docs.microsoft.com/business-applications-release-notes).
 
 ## <a name="enable-or-disable-preview-features"></a>Habilitar o deshabilitar las funciones de vista previa
 
@@ -42,7 +42,7 @@ Para obtener acceso a características de vista previa, primero debe permitirlas
 
 ### <a name="attract"></a>Atraer
 
-1. Iniciar sesión en Microsoft Dynamics 365 for Talent: Attract.
+1. Inicie sesión en Microsoft Dynamics 365 Talent: Attract.
 2. En el menú **Configuración** (el símbolo de engranaje) en la esquina superior derecha, seleccione **Centro de administración**.
 3. En la pestaña **Administración de características**, seleccione la opción que está al lado de **Vista previa de características** para que se vuelva azul y pase a **Activada**.
 
@@ -69,7 +69,7 @@ Para obtener acceso a características de vista previa, primero debe permitirlas
 
 ### <a name="onboard"></a>Incorporar
 
-Actualmente no hay características de vista previa disponibles para Microsoft Dynamics 365 for Talent: Onboard.
+Actualmente no hay características de vista previa disponibles para Microsoft Dynamics 365 Talent: Onboard.
 
 ## <a name="features-that-are-currently-in-preview"></a>Características que están actualmente en vista previa
 
