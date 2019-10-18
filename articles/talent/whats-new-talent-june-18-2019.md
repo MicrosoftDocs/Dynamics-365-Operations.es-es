@@ -1,6 +1,6 @@
 ---
-title: Novedades o cambios en Dynamics 365 for Talent (18 de junio de 2019)
-description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 for Talent.
+title: Novedades o cambios en Dynamics 365 Talent (18 de junio de 2019)
+description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 06/18/2019
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-18
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: bfc90d6eec27e55364d4bf2279ffd32fb8d53ca8
-ms.sourcegitcommit: f21b2349967feb3db2016c8ff83a2b11957f8863
+ms.openlocfilehash: 059a0bad2f56b97a1708b64eab9d2adda6d2c8ad
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "1691979"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009062"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-june-18-2019"></a>Novedades o cambios en Dynamics 365 for Talent (18 de junio de 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-june-18-2019"></a>Novedades o cambios en Dynamics 365 Talent (18 de junio de 2019)
 
 [!include [banner](includes/banner.md)]
 
-Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 for Talent.
+Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Cambios en Attract
 
-Este lanzamiento incluye correcciones de errores de menor importancia del Dynamics 365 Talent: Attract.
+Este lanzamiento incluye correcciones de errores de menor importancia para Dynamics 365 Talent: Attract.
 
 ## <a name="coming-soon-in-attract"></a>Muy pronto en Attract
 
@@ -43,7 +43,7 @@ Las Aprobaciones aparecen en una sección **Aprobaciones** en el panel de inform
 
 ## <a name="changes-in-onboard"></a>Cambios en Onboard
 
-Este lanzamiento incluye correcciones de errores de menor importancia del Dynamics 365 Talent: Onboard
+Este lanzamiento incluye correcciones de errores de menor importancia para Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Cambios en Core HR
 

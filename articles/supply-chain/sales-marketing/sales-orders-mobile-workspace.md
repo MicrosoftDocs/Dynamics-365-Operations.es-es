@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 00ea121385d74b3f8992d34fb485a8232325ea3f
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 2e57a410c0c7a73d8ab9e14254fe107d5e5c10db
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835751"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251634"
 ---
 # <a name="sales-orders-mobile-workspace"></a>Espacio de trabajo móvil de pedidos de ventas
 
@@ -31,9 +31,9 @@ ms.locfileid: "1835751"
 
 Este tema proporciona información sobre el espacio de trabajo móvil **Pedidos de ventas**. Este espacio de trabajo le permitirá estar informado sobre los pedidos de ventas en cualquier momento y cualquier lugar. 
 
-Este espacio de trabajo móvil se debe usar con la aplicación Microsoft Dynamics 365 for Unified Operations mobile.
+Este espacio de trabajo móvil se debe usar con la aplicación móvil Finance and Operations.
 
-## <a name="overview"></a>Información general
+## <a name="overview"></a>Visión general
 El espacio de trabajo móvil **Pedidos de ventas** le permite ver información detallada sobre cada pedido de ventas. Esta información incluye el estado del pedido, la información de contacto para el cliente, y la información de contacto del creador del pedido. El espacio de trabajo móvil **Pedidos de ventas** proporciona una vista inmediata de los pedidos de ventas. Puede ver todos los pedidos de ventas, o ver los pedidos de ventas por cliente o ver la información sobre un pedido de ventas concreto. 
 
 El espacio de trabajo móvil proporciona dos perspectivas que le ayudarán a analizar en detalle los pedidos de ventas.
@@ -83,8 +83,8 @@ Esta vista muestra pedidos de ventas por cliente.
 ## <a name="prerequisites"></a>Requisitos previos
 Los requisitos previos varían, en función de la versión de Microsoft Dynamics 365 que se ha implementado para su organización.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Requisitos previos si usa Microsoft Dynamics 365 for Finance and Operations 
-Si Dynamics 365 for Finance and Operations se ha implementado para su organización, el administrador del sistema debe publicar el espacio de trabajo móvil **Pedidos de ventas**. Para obtener instrucciones, consulte [Publicar un espacio de trabajo móvil](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-supply-chain-management"></a>Requisitos previos si usa Supply Chain Management 
+Si Supply Chain Management se ha implementado para su organización, el administrador del sistema debe publicar el espacio de trabajo móvil **Pedidos de ventas**. Para obtener instrucciones, consulte [Publicar un espacio de trabajo móvil](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Los requisitos previos si usa Dynamics 365 for Operations versión 1611 con la actualización de plataforma 3 o posterior
 Si se ha implementado Dynamics 365 for Operations versión 1611 con actualización de plataforma 3 o posterior en su organización, el administrador del sistema debe cumplir los requisitos siguientes. 
@@ -120,7 +120,7 @@ Si se ha implementado Dynamics 365 for Operations versión 1611 con actualizaci�
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>Descargar e instalar la aplicación móvil
-Descargue e instale la aplicación móvil Dynamics 365 for Unified Operations:
+Descargue e instale la aplicación móvil Finance and Operations:
 
 -   [Para teléfonos Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Para iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

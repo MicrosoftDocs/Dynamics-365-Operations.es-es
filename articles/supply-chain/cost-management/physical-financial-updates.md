@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9ba628dbf63d3b124583e6b873530f1459b07562
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4360f9132d31c9d0038f51c68c1f6c3fcaaa2025
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547895"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250883"
 ---
 # <a name="physical-and-financial-updates"></a>Actualizaciones físicas y financieras
 
@@ -32,7 +32,7 @@ ms.locfileid: "1547895"
 
 En este tema se proporciona un resumen de qué tipos de transacciones aumentan y reducen las cantidades de inventario. 
 
-Las transacciones de inventario se pueden actualizar físicamente y financieramente en Microsoft Dynamics 365 for Finance and Operations. Algunos tipos de transacciones financieras y físicas aumentan las cantidades de inventario, mientras que otros reducen la cantidad.
+Las transacciones de inventario se pueden actualizar físicamente y financieramente en Dynamics 365 Supply Chain Management. Algunos tipos de transacciones financieras y físicas aumentan las cantidades de inventario, mientras que otros reducen la cantidad.
 
 ## <a name="physical-increases"></a>Incrementos físicos
 Cuando se registra una transacción física, el estado del registro de la transacción es **Recibido**. Las siguientes transacciones se consideran incrementos físicos:
@@ -51,10 +51,13 @@ Cuando se registra una transacción de recepción financiera, el estado del regi
 -   Diarios de inventario de cantidad positiva, como movimiento, pérdidas y ganancias, recuento, lista de materiales y transferencia
 
 ## <a name="transactions-that-increase-quantity"></a>Transacciones que aumentan la cantidad.
-Las transacciones que aumentan la cantidad se registran en el precio de coste promedio móvil. Finance and Operations calcula un precio de coste promedio móvil basado en el coste de cada una de las transacciones para cada dimensión de inventario de la que se efectúa un seguimiento financiero. Para obtener información acerca del precio de coste promedio móvil, consulte [Precio de coste promedio móvil](running-average-cost-price.md).
+Las transacciones que aumentan la cantidad se registran en el precio de coste promedio móvil. El precio de coste promedio de ejecución calculado basado en el coste de cada una de las transacciones para cada dimensión de inventario de la que se efectúa un seguimiento financiero. Para obtener información acerca del precio de coste promedio móvil, consulte [Precio de coste promedio móvil](running-average-cost-price.md).
 
 ## <a name="transactions-that-decrease-quantity"></a>Transacciones que reducen la cantidad
-Finance and Operations utiliza el precio de coste promedio móvil cuando se registra una transacción que reduce la cantidad, independientemente de qué modelo de inventario está asociado a ese inventario. La transacción que reduce la cantidad no debe haberse marcado para otra transacción antes de registrarse. Si el inventario físico disponible llega a ser negativo, Finance and Operations utiliza el coste de inventario definido para el artículo en la página **Artículo**. **Nota**: si la funcionalidad multisitio está activada, este coste será en su lugar el coste de inventario definido para un sitio en la página **Configuración predeterminada de pedido**.
+El precio de coste promedio de ejecución se usa cuando se registra una transacción que reduce la cantidad, independientemente de qué modelo de inventario está asociado a ese inventario. La transacción que reduce la cantidad no debe haberse marcado para otra transacción antes de registrarse. Si el inventario físico disponible llega a ser negativo, se utiliza el coste de inventario definido para el artículo en la página **Artículo**. 
+
+> [!NOTE]
+> Si la funcionalidad multisitio está activada, este coste será en su lugar el coste de inventario definido para un sitio en la página **Configuración predeterminada de pedido**.
 
 ## <a name="physical-issues-vs-financial-issues"></a>Emisiones físicas frente a emisiones financieras
 Cuando se registra una transacción de emisión física, el estado del registro de la transacción es **Deducido**. Las siguientes transacciones se consideran emisiones físicas:
@@ -71,6 +74,3 @@ Cuando se registra una transacción financiera, el estado del registro de la tra
 -   Diarios de inventario de cantidad negativa, como movimiento, pérdidas y ganancias, recuento, lista de materiales y transferencia
 
 Las transacciones que reducen la cantidad se registran en el precio de coste promedio móvil. De este modo, el procedimiento de cierre de inventario es necesario para liquidar las transacciones de emisión con las transacciones de recepción en función del modelo de inventario asignado a cada artículo.
-
-
-

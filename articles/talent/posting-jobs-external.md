@@ -1,6 +1,6 @@
 ---
 title: Registrar trabajos en sitios externos profesionales desde Attract
-description: Este tema explica cómo usar Dynamics 365 for Talent - Attract para registrar trabajos en sitios de contratación externos
+description: Este tema explica cómo usar Dynamics 365 Talent - Attract para registrar trabajos en sitios de contratación externos
 author: pganapmsft
 manager: AnnBe
 ms.date: 05/16/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-03-19
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 936ff85a4dabb715cb83b875a5c58c9fb7a0ac26
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 919cec773d5e57e8f5429e31872db7ed658e969b
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739826"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008091"
 ---
 # <a name="post-jobs-to-broadbean"></a>Publicar ofertas de empleo en Broadbean
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent: Attract ayuda a obtener el talento que necesita dejándole enviar sus trabajos directamente de Attract a Broadbean. Tras [crear un trabajo](./creating-jobs-attract.md) sólo tiene que hacer clic en un botón para poner el trabajo delante de todos los candidatos potenciales en Broadbean.
+Microsoft Dynamics 365 Talent: Attract ayuda a obtener el talento que necesita dejándole enviar sus trabajos directamente de Attract a Broadbean. Tras [crear un trabajo](./creating-jobs-attract.md) sólo tiene que hacer clic en un botón para poner el trabajo delante de todos los candidatos potenciales en Broadbean.
 
 Enviar trabajos a Broadbean requiere una licencia adecuada de Broadbean. Broadbean proporciona diversos productos y planes. Para obtener más información acerca de licencias y precios de Broadbean, [póngase en contacto con Broadbean](https://www.broadbean.com/contact-us/).
 

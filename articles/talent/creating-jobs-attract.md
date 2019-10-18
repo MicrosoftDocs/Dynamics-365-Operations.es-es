@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: hasrivas
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 351fd03f6a27073b850729e2eef5516556292225
-ms.sourcegitcommit: b24c36cdd3b6f6085447bf81cb034d13d5b081fe
+ms.openlocfilehash: 64871eb5f7175701cfe1c9fefcc04b9da488748b
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "1773274"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008464"
 ---
 # <a name="create-a-job"></a>Crear una oferta de empleo
 
 [!include [banner](includes/banner.md)]
 
-Este tema describe los elementos de un trabajo en Microsoft Dynamics 365 for Talent: Attract. También se explica cómo crear un trabajo.
+Este tema describe los elementos de un trabajo en Microsoft Dynamics 365 Talent: Attract. También se explica cómo crear un trabajo.
 
 ## <a name="job-creation"></a>Creación de trabajos
 
@@ -74,7 +74,7 @@ Para obtener más información sobre las actividades que se pueden agregar al pr
 
 ## <a name="postings"></a>Registros
 
-Después de que se active un trabajo, este se puede registrar. Solo los reclutadores y los administradores pueden registrar trabajos. El trabajo se puede registrar en Talent Careers (un sitio de carreras de Microsoft Dynamics 365 for Talent) o LinkedIn. El equipo de Attract trabaja continuamente para asociarse con los agregadores tableros de trabajo. Esta lista se expandirá con el tiempo. Cuando un trabajo se registra como interno únicamente, los candidatos necesitan una cuenta de DAA para ver y solicitar el trabajo. Si el trabajo se muestra como público, los candidatos pueden ver y solicitar trabajos usando todas las opciones de autenticación. 
+Después de que se active un trabajo, este se puede registrar. Solo los reclutadores y los administradores pueden registrar trabajos. El trabajo se puede registrar en Talent Careers (un sitio de carreras de Dynamics 365 Talent) o LinkedIn. El equipo de Attract trabaja continuamente para asociarse con los agregadores tableros de trabajo. Esta lista se expandirá con el tiempo. Cuando un trabajo se registra como interno únicamente, los candidatos necesitan una cuenta de DAA para ver y solicitar el trabajo. Si el trabajo se muestra como público, los candidatos pueden ver y solicitar trabajos usando todas las opciones de autenticación. 
 
 Para obtener más información acerca de registros de trabajo, consulte [La funcionalidad del sitio de carreras en Attract](career-site.md).
 

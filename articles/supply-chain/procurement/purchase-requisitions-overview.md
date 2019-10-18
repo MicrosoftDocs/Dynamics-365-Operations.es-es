@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f279474d4a1e2f76e810b0df80c8d91171352c17
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 0e571f5c83affa56c230e1f597e219eb60973225
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572034"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248894"
 ---
 # <a name="purchase-requisition-overview"></a>Visión general de solicitud de compra
 
@@ -38,7 +38,7 @@ Una vez aprobada una solicitud de compra, se puede usar para generar un pedido d
 ## <a name="creating-purchase-requisitions"></a>Creación de solicitudes de compra
 Puede crear una solicitud de compra en la página **Mis solicitudes de compra**, y seleccionar los artículos y los servicios que sea necesario. Puede seleccionar artículos de un catálogo de compras creado por su organización, o bien solicitar artículos que no se encuentran en un catálogo seleccionando una categoría de compra y especificando los detalles del producto.  
 
-Para poder enviar una solicitud de compra para revisarla, es preciso configurar flujos de trabajo en Microsoft Dynamics 365 for Finance and Operations. El proceso del flujo de trabajo se usa para mover una solicitud de compra por el proceso de revisión, desde un estado inicial de **Borrador** a un estado final de **Aprobado**.
+Para poder enviar una solicitud de compra para revisarla, es preciso configurar flujos de trabajo. El proceso del flujo de trabajo se usa para mover una solicitud de compra por el proceso de revisión, desde un estado inicial de **Borrador** a un estado final de **Aprobado**.
 
 ### <a name="purchase-requisition-statuses"></a>Estados de solicitudes de compra
 
@@ -141,7 +141,7 @@ En las directivas de compra, puede controlar los propósitos de solicitud dispon
 
 ### <a name="requisitions-that-have-a-purpose-of-consumption"></a>Solicitudes con el propósito de consumo
 
-Una solicitud con un propósito de consumo representa una demanda para los artículos o servicios que se usarán internamente en la organización. La demanda que se crea mediante este tipo de solicitud siempre la cumple un pedido de compra. Si Microsoft Dynamics 365 for Finance and Operations se configuró para generar pedidos de compra automáticamente, los pedidos de compra se crean después la aprobación de la solicitud de compra.
+Una solicitud con un propósito de consumo representa una demanda para los artículos o servicios que se usarán internamente en la organización. La demanda que se crea mediante este tipo de solicitud siempre la cumple un pedido de compra. Si Supply Chain Management se ha configurado para generar pedidos de compra automáticamente, los pedidos de compra se crean automáticamente tras la aprobación de la solicitud de compra.
 
 ### <a name="requisitions-that-have-a-purpose-of-replenishment"></a>Solicitudes con el propósito de reabastecimiento
 

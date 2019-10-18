@@ -1,6 +1,6 @@
 ---
 title: Configuración de selecciones
-description: Este artículo describe qué es una selección y explica cómo configurar selecciones en Microsoft Dynamics 365 for Retail.
+description: Este artículo describe qué es una selección y explica cómo configurar selecciones en Dynamics 365 Retail.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a9578a0784d4f4fbfca27ec4093a3f61d1068a47
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fb0ca55478d0676f46fee70082645523b6bfdb78
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546418"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024923"
 ---
 # <a name="set-up-assortments"></a>Configurar selecciones
 
 [!include [banner](includes/banner.md)]
 
-Este artículo describe qué es una selección y explica cómo configurar selecciones en Microsoft Dynamics 365 for Retail.
+Este artículo describe qué es una selección y explica cómo configurar selecciones en Dynamics 365 Retail.
 
 Una selección es una colección de productos relacionados que se asigna a un canal comercial, como una tienda física o en línea. Las selecciones se usan para identificar los productos disponibles en cada tienda. Una selección puede incluir categorías de productos. Por lo tanto, todos los productos asignados a una categoría específica se incluyen en la selección. Una selección también puede incluir productos específicos y variantes específicas de producto. Al configurar una selección, puede asignar miles de productos a los canales comerciales al mismo tiempo, en cualquier combinación que las tiendas requieran. Puede configurar tantas selecciones de producto como sea necesario. Cada producto se puede incluir en una o varias selecciones y cada selección se puede asignar a uno o varios canales comerciales. Por ejemplo, puede definir una selección que incluya un conjunto básico de productos. Todas las tiendas reciben esta selección. A continuación, puede definir otra selección que incluya solo equipamiento deportivo en gran volumen. Solo sus tiendas más grandes reciben esta selección. En el diagrama siguiente se muestra cómo se pueden asignar los productos a selecciones y cómo se pueden asignar las selecciones a los canales de venta.
 
@@ -44,7 +44,7 @@ Antes de configurar una selección y asignarla a un canal comercial, debe comple
 |-----------------------------------|-------------|
 | Configurar un canal comercial.          | Los canales de venta representan una tienda física, una tienda en línea o un mercado en línea. Debe configurar al menos un canal comercial y configurar las opciones para la tienda. Las selecciones se asignan a las tiendas para identificar los productos que contiene una tienda concreta. |
 | Cree una jerarquía organizativa. | Después de configurar los canales comerciales para la organización, debe configurar una jerarquía organizativa comercial que represente la estructura organizativa de los canales comerciales. Una jerarquía organizativa se puede usar para selecciones, reabastecimientos e informes. Al agregar canales comerciales a una jerarquía organizativa, puede asignar selecciones a grupos de tiendas. En lugar de asignar la selección individualmente a cada tienda, la asigna al nodo de alto nivel de la organización. A continuación, siempre que se agregue un canal comercial nuevo al nodo de alto nivel de la organización, ese canal comercial heredará automáticamente cualquier selección asignada al nodo de alto nivel de la organización. Puede asignar selecciones solo a los canales de venta que se incluyan en una jerarquía organizativa que tenga asignado el propósito **Selección comercial**. |
-| Defina productos.                  | Para poder agregar productos a una selección, debe agregarlos a Microsoft Dynamics 365 for Retail. Puede agregar los productos manualmente, o bien importarlos de un proveedor. Después de agregar los productos, debe liberarlos para una entidad jurídica. Solo los productos liberados para una entidad jurídica pueden estar disponibles para los canales comerciales. Los productos que aún no se han liberado para una entidad jurídica se pueden agregar a una selección y la selección se puede aprobar. No obstante, los productos no estarán disponibles en los canales de venta hasta que se liberen para una entidad jurídica. |
+| Defina productos.                  | Para poder agregar productos a una selección, debe agregarlos a Retail. Puede agregar los productos manualmente, o bien importarlos de un proveedor. Después de agregar los productos, debe liberarlos para una entidad jurídica. Solo los productos liberados para una entidad jurídica pueden estar disponibles para los canales comerciales. Los productos que aún no se han liberado para una entidad jurídica se pueden agregar a una selección y la selección se puede aprobar. No obstante, los productos no estarán disponibles en los canales de venta hasta que se liberen para una entidad jurídica. |
 | Configure una jerarquía de categoría.      | Al crear productos comerciales, puede agruparlos y categorizarlos mediante la jerarquía de categoría. Puede crear una jerarquía principal para agrupar y categorizar todos los productos que se distribuyen a través de canales comerciales. También puede crear jerarquías de categoría independientes y complementarias para agrupar o categorizar los productos con fines especiales, como promociones o selecciones. Al usar jerarquías de categoría, puede asignar todos los productos de una categoría específica a una selección. Todos los productos agregados a la categoría incluida en la selección se incluyen automáticamente en la selección. A continuación, la próxima vez que se ejecute el programador de selección comercial, estos productos estarán disponibles en canales comerciales asignados a la selección. |
 
 ## <a name="setting-up-an-assortment"></a>Configuración de una selección

@@ -1,6 +1,6 @@
 ---
 title: Ubicaciones funcionales y activos
-description: En este tema se describen las ubicaciones técnicas y los activos en Administración de activos. Administración de activos es un módulo avanzado para gestionar activos y trabajos de mantenimiento en Microsoft Dynamics 365 for Finance and Operations.
+description: En este tema se describen las ubicaciones técnicas y los activos en Administración de activos. Administración de activos es un módulo avanzado para gestionar activos y trabajos de mantenimiento en Dynamics 365 Supply Chain Management.
 author: josaw1
 manager: AnnBe
 ms.date: 06/24/2019
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 351e27dfbbd5227a9642f14a48afe194c447a0f3
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: 5271b673d758608cae8e43d72b7e75b259d5f142
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783586"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024623"
 ---
 # <a name="functional-locations-and-assets"></a>Ubicaciones funcionales y activos
 
@@ -31,7 +31,7 @@ ms.locfileid: "1783586"
 
 [!include [banner](../../includes/preview-banner.md)]
 
-En este tema se describen las ubicaciones técnicas y los activos en Administración de activos. Administración de activos es un módulo avanzado para gestionar activos y trabajos de mantenimiento en Microsoft Dynamics 365 for Finance and Operations.
+En este tema se describen las ubicaciones técnicas y los activos en Administración de activos. Administración de activos es un módulo avanzado para gestionar activos y trabajos de mantenimiento en Dynamics 365 Supply Chain Management.
 
 ## <a name="overview"></a>Información general
 

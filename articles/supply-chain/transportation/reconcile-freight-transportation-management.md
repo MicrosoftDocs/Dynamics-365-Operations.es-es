@@ -1,6 +1,6 @@
 ---
 title: Conciliar el flete en la administración del transporte
-description: En este artículo se describe el proceso de conciliación de flete.
+description: En este tema se describe el proceso de conciliación de flete.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1f92808f904ba93513e20b74bd2b597712cb93d4
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: eb3ba06f4fa8cc4af952619d06a58e605ff87e2a
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560941"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251578"
 ---
 # <a name="reconcile-freight-in-transportation-management"></a>Conciliar el flete en la administración del transporte
 
 [!include [banner](../includes/banner.md)]
 
-En este artículo se describe el proceso de conciliación de flete.
+En este tema se describe el proceso de conciliación de flete.
 
 La conciliación de flete se puede realizar manualmente o se puede configurar para que se produzca automáticamente. Para usar la conciliación de flete automático, debe configurar un maestro de auditoría donde pueda definir los criterios que determinan qué albaranes de flete se concilian automáticamente.
 
@@ -40,8 +40,8 @@ Las tasas de flete se calculan por el motor de velocidad que está asociado al t
 [![Proceso de conciliación de flete](./media/freight-reconcilation-process.jpg)](./media/freight-reconcilation-process.jpg)
 
 ## <a name="manual-reconciliation"></a>Conciliación manual
-Si está conciliando el flete manualmente, deben conciliar cada línea de factura con la línea o líneas del albarán de flete para la carga que se factura. Esto se hace conciliando en la página **Conciliación de albaranes de flete y facturas**. Si el importe de la línea de factura no coincide con el importe del albarán de flete, debe seleccionar un motivo de conciliación para la diferencia. Si hay varios motivos para la conciliación, puede dividir el importe no conciliado entre ellos. El motivo de conciliación determina cómo se registran los importes de diferencia en la contabilidad general. Cuando se contabiliza la conciliación de todo el importe de la factura, se envía para aprobación y, a continuación, se registra el diario. En la ilustración siguiente se muestra cómo generar una factura de flete y realizar la conciliación de flete en Microsoft Dynamics 365 for Finance and Operations. 
-[![Tareas de conciliación de flete en Dynamics AX](./media/processflowforfreightreconciliation.jpg)](./media/processflowforfreightreconciliation.jpg)
+Si está conciliando el flete manualmente, deben conciliar cada línea de factura con la línea o líneas del albarán de flete para la carga que se factura. Esto se hace conciliando en la página **Conciliación de albaranes de flete y facturas**. Si el importe de la línea de factura no coincide con el importe del albarán de flete, debe seleccionar un motivo de conciliación para la diferencia. Si hay varios motivos para la conciliación, puede dividir el importe no conciliado entre ellos. El motivo de conciliación determina cómo se registran los importes de diferencia en la contabilidad general. Cuando se contabiliza la conciliación de todo el importe de la factura, se envía para aprobación y, a continuación, se registra el diario. En la ilustración siguiente se muestra cómo generar una factura de flete y realizar la conciliación de flete. 
+[![Tareas de conciliación de flete](./media/processflowforfreightreconciliation.jpg)](./media/processflowforfreightreconciliation.jpg)
 ## <a name="automatic-reconciliation"></a>Conciliación automática
 Para utilizar la conciliación automática, debe especificar la programación de conciliación y las facturas y los transportistas de envío que se utilizarán. La conciliación de las líneas de factura y los albaranes de flete se realiza según la configuración del tipo de albarán de flete y el maestro de auditoría. Tras la ejecución de la conciliación automática, debe controlar todas las facturas que el sistema no puede conciliar. A continuación, debe procesar estas facturas manualmente para poder registrar todas las facturas para el pago.
 

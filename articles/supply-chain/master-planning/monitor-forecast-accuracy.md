@@ -1,6 +1,6 @@
 ---
 title: Supervisión de la precisión de previsión
-description: Este artículo describe los tipos de precisión de previsión que Microsoft Dynamics 365 for Finance and Operations calcula, y se explica cómo puede ver los valores de precisos.
+description: Este tema describe los tipos de precisión de previsión que Dynamics 365 Supply Chain Management calcula, y se explica cómo puede ver los valores de precisos.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,25 +19,26 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d7070c15f9ee23cfdba871af68d1fc5954735651
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 6f238afadfa064e972ef11a95fdad073f63ff20c
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556815"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250677"
 ---
 # <a name="monitor-forecast-accuracy"></a>Supervisión de la precisión de previsión
 
 [!include [banner](../includes/banner.md)]
 
-Este artículo describe los tipos de precisión de previsión que Microsoft Dynamics 365 for Finance and Operations calcula, y se explica cómo puede ver los valores de precisos.
+Este tema describe los tipos de precisión de previsión que Microsoft Dynamics 365 Supply Chain Management calcula, y se explica cómo puede ver los valores de precisos.
 
-Finance and Operations calcula los siguientes tipos de precisión de previsión:
+Supply Chain Management calcula los siguientes tipos de precisión de previsión:
 
 -   Precisión histórica de previsión, comparando la previsión histórica que la planificación maestra usa con la demanda histórica. Para ver los valores (los valores absolutos y los valores de porcentaje) para la precisión histórica de previsión, haga clic en **Mostrar precisión** en la página **Detalles de previsión de la demanda**.
 -   La precisión estimada del modelo de previsión que se usa para generar las predicciones. Puede ver el porcentaje de precisión en **Detalles del modelo: MAPE** en la página **Detalles de previsión de la demanda**. 
 
-**Nota:** Si usa el servicio de aprendizaje automático de Microsoft Azure para la previsión de la demanda de Finance and Operations, el cálculo de la precisión de modelo interno se basa en el conjunto de datos de la prueba. Para especificar el tamaño del conjunto de datos de la prueba, establezca el parámetro **TEST\_SET\_SIZE\_PERCENT** en la página **Parámetros de previsión de demanda**. Por ejemplo, si establece el valor a **20**, el último 20 por ciento de los datos históricos se usarán para calcular la precisión de modelo interna.
+> [!NOTE]
+> Si usa el servicio de aprendizaje automático de Microsoft Azure para la previsión de la demanda de Finance and Operations, el cálculo de la precisión de modelo interno se basa en el conjunto de datos de la prueba. Para especificar el tamaño del conjunto de datos de la prueba, establezca el parámetro **TEST\_SET\_SIZE\_PERCENT** en la página **Parámetros de previsión de demanda**. Por ejemplo, si establece el valor a **20**, el último 20 por ciento de los datos históricos se usarán para calcular la precisión de modelo interna.
 
 
 <a name="additional-resources"></a>Recursos adicionales

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 39baa331120d765543c3cf662ce53d2bcfe404ab
-ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.openlocfilehash: e9b6c3cb5b6bbc83604bee11a2472b2ad1136269
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1595620"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249405"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>Configurar un catálogo externo para la adquisición electrónica de marcaje de salida
 
@@ -37,12 +37,12 @@ Para establecer la comunicación, el proveedor tiene que proporcionar datos que 
 
 ## <a name="setting-up-an-external-catalog"></a>Configuración de un catálogo externo
 
-El catálogo externo debe habilitar que un empleado que especifique una solicitud de compra sea redirigido a un sitio externo para seleccionar productos. Los productos que el empleado seleccione en el catálogo externo se devuelven a Dynamics 365 for Finance and Operations con información de precio actualizada y de aquí se pueden agregar a la solicitud de compra. La intención no es permitir a los empleados realizar un pedido en el sitio externo. Cuando configure el catálogo externo, debe asegurarse de que el propósito del sitio al que se puede acceder por el catálogo externo sea recopilar información de presupuestos y no realizar un pedido real.
+El catálogo externo debe habilitar que un empleado que especifique una solicitud de compra sea redirigido a un sitio externo para seleccionar productos. Los productos que el empleado seleccione en el catálogo externo se devuelven con información de precio actualizada y de aquí se pueden agregar a la solicitud de compra. La intención no es permitir a los empleados realizar un pedido en el sitio externo. Cuando configure el catálogo externo, debe asegurarse de que el propósito del sitio al que se puede acceder por el catálogo externo sea recopilar información de presupuestos y no realizar un pedido real.
 
 ### <a name="to-set-up-an-external-vendor-catalog-complete-the-following-tasks"></a>Para configurar un catálogo de proveedores externos, complete estas tareas:
 
 1. Configure una jerarquía de categorías de compras. Para obtener más información, consulte [Configurar directivas para jerarquías de categorías de compras](tasks/set-up-policies-procurement-category-hierarchies.md).
-2. Registre el proveedor en Finance and Operations. Para poder configurar las opciones de acceso al catálogo externo del proveedor, antes debe configurar el proveedor y el contacto del proveedor en Microsoft Dynamics 365. También debe agregar el proveedor del catálogo externo a la categoría de compras seleccionada. Para obtener más información acerca del registro de proveedores en Microsoft Dynamics 365, consulte [Gestionar usuarios de colaboración de proveedor](manage-vendor-collaboration-users.md). Para obtener información sobre cómo asignar a un proveedor a una categoría de compras, consulte [Aprobar proveedores para categorías de compras específicas](tasks/approve-vendors-specific-procurement-categories.md).
+2. Registre el proveedor en Supply Chain Management. Para poder configurar las opciones de acceso al catálogo externo del proveedor, antes debe configurar el proveedor y el contacto del proveedor en Microsoft Dynamics 365. También debe agregar el proveedor del catálogo externo a la categoría de compras seleccionada. Para obtener más información acerca del registro de proveedores, consulte [Gestionar usuarios de colaboración de proveedor](manage-vendor-collaboration-users.md). Para obtener información sobre cómo asignar a un proveedor a una categoría de compras, consulte [Aprobar proveedores para categorías de compras específicas](tasks/approve-vendors-specific-procurement-categories.md).
 3. Asegúrese de que las unidades de medida y la divisa que usa el proveedor se han configurado. Para obtener información sobre cómo crear una unidad de medida, consulte [Gestionar unidades de medida](../pim/tasks/manage-unit-measure.md).
 4. Configure el catálogo de proveedores externos con los requisitos del sitio del catálogo externo de su proveedor. Para obtener más información sobre esta tarea, consulte [Configurar el catálogo de proveedores externos](#configure-the-external-vendor-catalog).
 5. Pruebe la configuración del catálogo externo del proveedor para comprobar que sea válida y que se puede acceder al catálogo externo del proveedor. Use la acción **Validar la configuración** para validar el mensaje de configuración de la solicitud que haya definido. Este mensaje debería hacer que se abra el sitio de catálogo externo del proveedor en una ventana del navegador. Durante la validación, no podrá pedir artículos y servicios del proveedor. Para pedir artículos y servicios, debe acceder al catálogo del proveedor a través de una solicitud de compra.
@@ -90,9 +90,9 @@ Su proveedor puede tener un requisito para recibir un elemento extrínseco en la
 Para obtener más información acerca del protocolo de cXML, consulte el [sitio web cXML.org](http://cxml.org/).
 
 ## <a name="post-back-message"></a>Mensaje de confirmación
-El mensaje de confirmación es el mensaje que se recibe del proveedor cuando el usuario completa la compra en el sitio externo y vuelve a Finance and Operations. Los mensajes de confirmación no se pueden configurar. Los mensajes se basan en la definición del protocolo cXML. A continuación se indica la información que puede formar parte del mensaje de confirmación que se recibe en una línea de solicitud:
+El mensaje de confirmación es el mensaje que se recibe del proveedor cuando el usuario completa la compra en el sitio externo y vuelve a Supply Chain Management. Los mensajes de confirmación no se pueden configurar. Los mensajes se basan en la definición del protocolo cXML. A continuación se indica la información que puede formar parte del mensaje de confirmación que se recibe en una línea de solicitud.
 
-| Mensaje recibido del proveedor | Se copia a la línea de solicitud en Finance and Operations|
+| Mensaje recibido del proveedor | Copiado a línea de pedido|
 |------------------------------|----------------------------------------------------------|
 |< ItemIn quantity=”” > |Cantidad|
 |< ItemIn>< ItemID >< SupplierPartID >< /SupplierPartID >|Identificador de artículo externo|

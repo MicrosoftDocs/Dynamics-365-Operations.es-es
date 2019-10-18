@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4bc5a38519efb6f4d242daca9aab5226c16e4ea0
-ms.sourcegitcommit: 3be8d2be6474264f0a530a052d19ea2635e269cf
+ms.openlocfilehash: 5ce8c1e7a3a4533516d8f2e2b0af46633e4c7667
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1729884"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250746"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>Generar previsión estadística de línea base
 
@@ -47,7 +47,7 @@ Cuando la estrategia de previsión se establece en **Copiar por encima de demand
 
 Para evitar confusiones en los planes de producción, algunos depósitos de previsión se pueden congelar. Este número se establece en en campo **Límite de tiempo congelado**. En la página **Previsión de la demanda ajustada**, las celdas para cubos congelados están desactivadas, para dar una indicación visual de que estos valores no se deben cambiar. 
 
-La fecha inicial para la previsión de la demanda de línea basa no tiene que ser la fecha actual o una fecha en el futuro. Para establecer una fecha inicial, use el campo **Fecha de inicio de previsión de línea base: desde fecha**. Por ejemplo, en junio, los usuarios pueden generar una previsión para el año siguiente. Dado que faltan los cubos de previsión entre el final de la demanda histórica y el inicio de la línea base, puede que las predicciones no sean exactas. Si está usando el servicio de previsión de demanda de Microsoft Dynamics 365 for Finance and Operations, existen cuatro maneras en las que puede completar los espacios que faltan. Puede elegir el método que desee si configura el parámetro MISSING\_VALUE\_SUBSTITUTION en la página **Parámetros de previsión de demanda**. 
+La fecha inicial para la previsión de la demanda de línea basa no tiene que ser la fecha actual o una fecha en el futuro. Para establecer una fecha inicial, use el campo **Fecha de inicio de previsión de línea base: desde fecha**. Por ejemplo, en junio, los usuarios pueden generar una previsión para el año siguiente. Dado que faltan los cubos de previsión entre el final de la demanda histórica y el inicio de la línea base, puede que las predicciones no sean exactas. Si está usando el servicio de previsión de demanda, existen cuatro maneras en las que puede completar los espacios que faltan. Puede elegir el método que desee si configura el parámetro MISSING\_VALUE\_SUBSTITUTION en la página **Parámetros de previsión de demanda**. 
 
 > [!NOTE]
 > La sustitución de valores que falta solo funciona para los espacios en datos entre las fechas de inicio y fin para los datos históricos. No rellenará los datos antes o después del último punto de datos físico, solo actúa como extrapolación entre los puntos de datos reales existentes. 
@@ -56,7 +56,7 @@ El campo **Fecha inicial de la previsión de línea base** - **Desde la fecha** 
 
 El campo **Fecha de inicio de previsión de línea base** - **Desde la fecha** puede establecerse en una fecha del pasado. Es decir, es posible generar una previsión de demanda en el pasado. Esto resulta útil, ya que permite a los usuarios ajustar los parámetros del servicio de previsión de modo que la previsión estadística generado en el pasado coincide con la demanda histórica real. Los usuarios pueden continuar usando esta configuración de parámetros para generar una previsión estadística de línea base para el futuro. 
 
-Los ajustes manuales realizados en iteraciones anteriores de previsión de demanda se pueden aplicar automáticamente a la nueva previsión de línea base si se activa la casilla **Transferir ajustes manuales a las previsiones de demanda**. Si la casilla está desactivada, los ajustes manuales no se agregan a la previsión de línea base, pero tampoco se eliminan. Los ajustes manuales efectuados a una previsión se pueden eliminar solo en el momento de la importación de previsión, desactivando la casilla **Guardar los ajustes manuales realizados en la previsión de la demanda de línea base**. Los ajustes manuales se guardan en el momento de la autorización. Por lo tanto, si un usuario realiza ajustes manuales a la previsión, pero no autoriza la previsión de nuevo a Finance and Operations, los cambios se perderán. Para obtener más información acerca de los ajustes manuales y cómo funcionan, consulte [Autorización de la previsión ajustada](authorize-adjusted-forecast.md). 
+Los ajustes manuales realizados en iteraciones anteriores de previsión de demanda se pueden aplicar automáticamente a la nueva previsión de línea base si se activa la casilla **Transferir ajustes manuales a las previsiones de demanda**. Si la casilla está desactivada, los ajustes manuales no se agregan a la previsión de línea base, pero tampoco se eliminan. Los ajustes manuales efectuados a una previsión se pueden eliminar solo en el momento de la importación de previsión, desactivando la casilla **Guardar los ajustes manuales realizados en la previsión de la demanda de línea base**. Los ajustes manuales se guardan en el momento de la autorización. Por lo tanto, si un usuario realiza ajustes manuales a la previsión, pero no autoriza la previsión de nuevo a Supply Chain Management, los cambios se perderán. Para obtener más información acerca de los ajustes manuales y cómo funcionan, consulte [Autorización de la previsión ajustada](authorize-adjusted-forecast.md). 
 
 Una generación de previsión de la demanda puede tener un nombre y comentarios para ayudar a los usuarios a identificar la previsión que se ha generado. Estos valores son visibles en el historial de la generación de previsión en la página **Historial estadística de la generación de previsión de línea base**. 
 

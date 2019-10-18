@@ -1,6 +1,6 @@
 ---
-title: Novedades o cambios en Dynamics 365 for Talent (11 de junio de 2019)
-description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 for Talent.
+title: Novedades o cambios en Dynamics 365 Talent (11 de junio de 2019)
+description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 06/11/2019
@@ -18,24 +18,24 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-11
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a1413ea43e852c78ede227b69c0f49c07944a872
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: b06dc0556bd1461573cd56abed602d72333a3f39
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741635"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023939"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-june-11-2019"></a>Novedades o cambios en Dynamics 365 for Talent (11 de junio de 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-june-11-2019"></a>Novedades o cambios en Dynamics 365 Talent (11 de junio de 2019)
 
 [!include [banner](includes/banner.md)]
 
-Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 for Talent.
+Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Cambios en Attract
 
 ### <a name="search-engine-optimization-for-job-posts"></a>Optimización de motor de búsqueda para publicaciones de ofertas de empleo
 
-Tras activar **Optimización del motor de búsqueda** en el Centro de administración de Dynamics 365 for Talent: Attract, Attract informa a la interfaz de programación de aplicaciones (API) de la indexación de Google para que rastree la página web cada vez que active y publique un nuevo trabajo o actualice un trabajo existente. De esta manera, el trabajo aparecerá en los resultados de búsqueda para Google y otros motores de búsqueda.
+Tras activar **Optimización del motor de búsqueda** en el Centro de administración de Dynamics 365 Talent: Attract, Attract informa a la interfaz de programación de aplicaciones (API) de la indexación de Google para que rastree la página web cada vez que active y publique un nuevo trabajo o actualice un trabajo existente. De esta manera, el trabajo aparecerá en los resultados de búsqueda para Google y otros motores de búsqueda.
 
 Del mismo modo, cada vez que anule la publicación de un trabajo, Attract informa de la API de indexación, de modo que el trabajo no publicado dejará de aparecer en los resultados de búsqueda.
 
@@ -50,15 +50,15 @@ Las Aprobaciones aparecen en una sección **Aprobaciones** en el panel de inform
 
 ## <a name="changes-in-onboard"></a>Cambios en Onboard
 
-Este lanzamiento incluye correcciones de errores de menor importancia para Dynamics 365 for Talent: Onboard.
+Este lanzamiento incluye correcciones de errores de menor importancia para Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Cambios en Core HR
 
 Los cambios que se describen en esta sección se aplican a la compilación número 8.1.2337.
 
-### <a name="platform-update-27"></a>Actualización 27 de la plataforma
+### <a name="platform-update-27-for-finance-and-operations"></a>Platform update 27 para Finance and Operations
 
-Para obtener más información acerca de la Platform update 27, consulte [Características de vista previa en Dynamics 365 for Finance and Operations platform update 27 (junio de 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-27).
+Para obtener más información acerca de la Platform update 27 para Finance and Operations, consulte [Características de vista previa en Dynamics 365 Finance and Operations platform update 27 (junio de 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-27).
 
 ### <a name="feature-management-workspace-in-talent"></a>Espacio de trabajo de administración de características en Talent
 

@@ -19,19 +19,19 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2019-01-18
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 72f4d248f3ac49bbfd8e5a7a12352d92b89bb0eb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4fb02bdeca2d71d84ebdddfd16d471a532823e42
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564956"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025204"
 ---
 # <a name="retail-price-reports"></a>Informes de precio comercial
 
 [!include [banner](includes/banner.md)]
 
 
-Para proporcionar precios competitivos a sus clientes, los minoristas cambian a menudo precios de los productos. Los encargados de la tienda desean la habilidad de tener acceso a cambios de precio recientes o próximos de modo que puedan planificar los recursos requeridos para actualizar las etiquetas de precio presentadas en las estanterías de una tienda. Con el lanzamiento 10.0 de Dynamics 365 for Retail un encargado de tienda puede abrir el informe **Precio** yendo a **Todas las tiendas al por menor \> Almacén \> Informe de precio** y ver los precios actualizados de los productos asociados a la tienda. 
+Para proporcionar precios competitivos a sus clientes, los minoristas cambian a menudo precios de los productos. Los encargados de la tienda desean la habilidad de tener acceso a cambios de precio recientes o próximos de modo que puedan planificar los recursos requeridos para actualizar las etiquetas de precio presentadas en las estanterías de una tienda. Con el lanzamiento 10.0 de Retail un encargado de tienda puede abrir el informe **Precio** yendo a **Todas las tiendas al por menor \> Almacén \> Informe de precio** y ver los precios actualizados de los productos asociados a la tienda. 
 
 Para habilitar el informe de precio, el parámetro **Informe de precio para tienda comercial** se debe activar. Este parámetro está en la pestaña **Parámetros de ventas \> Descuentos \> Varios**. Abriendo la página **Informe de precio** aparece un cuadro de diálogo con distintas configuraciones. Las configuraciones disponibles se muestran a continuación.
 

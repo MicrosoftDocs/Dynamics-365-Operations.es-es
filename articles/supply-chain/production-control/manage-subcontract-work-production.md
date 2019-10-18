@@ -1,6 +1,6 @@
 ---
 title: Gestionar el trabajo de subcontratación en la producción
-description: Este tema explica cómo se administran las operaciones subcontratadas en Microsoft Dynamics 365 for Finance and Operations. Es decir, explica cómo las operaciones de producción asignadas a un recurso son administradas por un proveedor.
+description: Este tema explica cómo se administran las operaciones subcontratadas en Dynamics 365 Supply Chain Management. Es decir, explica cómo las operaciones de producción asignadas a un recurso son administradas por un proveedor.
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
@@ -19,18 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f41f13bf1b587cb802579cc3b27ef4eea70a0380
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ea2feccf9f74c0f035b8a46dc87eb41bdf85900a
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569762"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023550"
 ---
 # <a name="manage-subcontracting-work-in-production"></a>Gestionar el trabajo de subcontratación en la producción
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo se administran las operaciones subcontratadas en Microsoft Dynamics 365 for Finance and Operations. Es decir, explica cómo las operaciones de producción asignadas a un recurso son administradas por un proveedor.
+Este tema explica cómo se administran las operaciones subcontratadas en Dynamics 365 Supply Chain Management. Es decir, explica cómo las operaciones de producción asignadas a un recurso son administradas por un proveedor.
 
 En [procesos de producción](production-process-overview.md), el trabajo se puede realizar por los recursos propiedad o administrados por los proveedores. Normalmente, se usan los recursos del proveedor para compensar el exceso de la demanda periódico que supera la capacidad disponible de los recursos propios de una empresa. El proveedor también puede proporcionar [capacidades de recursos](resource-capabilities.md) específicas o recursos a un precio más bajo.  
 
@@ -40,7 +40,7 @@ Si se emplean operaciones o actividades subcontratadas, estas afectan a todas la
 
 Para los recursos internos, se asigna normalmente un índice de coste fijo para un período. Por el contrario, el coste de los recursos subcontratados se basa en el precio de adquisición del servicio relacionado. El servicio se define como otro producto y se usa para controlar los procesos de adquisición y compra de una operación subcontratada determinada.  
 
-Actualmente, no hay un concepto explícito de productos semiterminados en Microsoft Dynamics 365 for Finance and Operations. En un pedido de producción que requiera más de una operación para transformar las materias primas en un producto terminado, el producto terminado se registra en el inventario solo en la última operación. Los productos semiterminados producidos en las operaciones anteriores se contabilizan en trabajo en curso, pero no se registran ni se siguen en el inventario. Aunque puede dividir las rutas y las listas de materiales en varias unidades más pequeñas, este planteamiento aumenta el número de productos, listas de materiales, y rutas que se deben administrar.  
+Actualmente, no hay un concepto explícito de productos semiterminados en Supply Chain Management. En un pedido de producción que requiera más de una operación para transformar las materias primas en un producto terminado, el producto terminado se registra en el inventario solo en la última operación. Los productos semiterminados producidos en las operaciones anteriores se contabilizan en trabajo en curso, pero no se registran ni se siguen en el inventario. Aunque puede dividir las rutas y las listas de materiales en varias unidades más pequeñas, este planteamiento aumenta el número de productos, listas de materiales, y rutas que se deben administrar.  
 
 Existen dos métodos para modelar el trabajo de subcontratación para las operaciones de producción. Estos métodos se diferencian en el modo en que el proceso de subcontratación se puede modelar, en la manera en que los productos semiterminados están representados en el proceso y en la forma que se administra el control de costes.
 

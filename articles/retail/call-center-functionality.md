@@ -1,6 +1,6 @@
 ---
 title: Funcionalidad de ventas del centro de llamadas
-description: Este tema proporciona una visión general de la funcionalidad de ventas de centro de asistencia telefónica en Microsoft Dynamics 365 for Retail.
+description: Este tema proporciona una visión general de la funcionalidad de ventas de centro de asistencia telefónica en Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 04/03/2018
@@ -19,26 +19,28 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8b78762ce70b318e1f77e1e49ffaa7b72f01667f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 902db94164b35077a876c8041c038af36561a634
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549489"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025780"
 ---
 # <a name="call-center-sales-functionality"></a>Funcionalidad de ventas del centro de llamadas
 
 [!include [banner](includes/banner.md)]
 
-En Dynamics 365 for Retail, un centro de llamadas es un tipo de canal minorista que se puede definir en la aplicación. La definición de un canal específico para sus entidades de centro de asistencia telefónica permite que el sistema vincule valores predeterminados específicos de datos y los valores predeterminados del procesamiento del pedido a los pedidos de ventas creados por un usuario del canal de centro de llamadas.
+
+En Dynamics 365 Retail, un centro de llamadas es un tipo de canal minorista que se puede definir en la aplicación. La definición de un canal específico para sus entidades de centro de asistencia telefónica permite que el sistema vincule valores predeterminados específicos de datos y los valores predeterminados del procesamiento del pedido a los pedidos de ventas creados por un usuario del canal de centro de llamadas.
 
 Las características del centro de asistencia telefónica incluyen precio y promociones al por menor avanzados, catálogos, tarjetas regalo, programas de fidelidad, y vales. Se saca provecho de los pedidos de centro de asistencia telefónica en función de su aplicación de punto de venta (POS) para admitir escenarios de cumplimiento de pedidos transcanales.
 
-Es importante tener en cuenta que mientras que el módulo de centro de asistencia telefónica se utiliza en otras sectores que no son de ventas al por menor, la versión actual de la aplicación de centro de asistencia telefónica de Dynamics 365 for Retail no se ha optimizado para su uso en escenarios interempresariales (B2B) de procesamiento de pedidos o los escenarios donde los pedidos tengan una gran cantidad de líneas de ventas. Se recomienda que los usuarios que desean utilizar el centro de asistencia telefónica para el procesamiento del pedido fuera del procesamiento de transacciones típico de directo a consumidor, tomen el tiempo adecuado para probar y validar que la habilitación de la función del centro de asistencia telefónica va a cubrir las necesidades funcionales y de rendimiento.
+Es importante tener en cuenta que mientras que el módulo de centro de asistencia telefónica se utiliza en otras sectores que no son de ventas al por menor, la versión actual de la aplicación de centro de asistencia telefónica de Retail no se ha optimizado para su uso en escenarios interempresariales (B2B) de procesamiento de pedidos o los escenarios donde los pedidos tengan una gran cantidad de líneas de ventas. Se recomienda que los usuarios que desean utilizar el centro de asistencia telefónica para el procesamiento del pedido fuera del procesamiento de transacciones típico de directo a consumidor, tomen el tiempo adecuado para probar y validar que la habilitación de la función del centro de asistencia telefónica va a cubrir las necesidades funcionales y de rendimiento.
 
 Además de admitir la creación de pedidos, el módulo de centro de asistencia telefónica también proporciona una aplicación de servicio al cliente convivial que hace más fácil que los usuarios localicen cuentas de cliente y revisen todos los datos y atributos relacionados de pedido de cliente. La pantalla de servicio al cliente está diseñada para permitir que un usuario pueda obtener acceso rápidamente a los datos relacionados con el pedido que le permitirán atender la mayoría de consultas más habituales relacionadas con pedidos recibidos de clientes.
 
-Esta página ofrece vínculos a la documentación pertinente relacionada con la configuración, y el uso funcional de las características del centro de asistencia telefónica de Dynamics 365 for Retail.
+Esta página ofrece vínculos a la documentación pertinente relacionada con la configuración, y el uso funcional de las características del centro de asistencia telefónica de Retail.
+
 
 ## <a name="configure-the-call-center"></a>Configure el centro de llamadas
 

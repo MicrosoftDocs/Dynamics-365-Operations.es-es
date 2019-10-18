@@ -1,6 +1,6 @@
 ---
 title: Diseños de pantalla para el punto de venta (POS)
-description: Este tema proporciona información sobre los diseños de pantalla para experiencias con Microsoft Dynamics 365 for Retail point of sale (POS).
+description: Este tema proporciona información sobre los diseños de pantalla para experiencias con Dynamics 365 Retail point of sale (POS).
 author: jblucher
 manager: AnnBe
 ms.date: 05/20/2019
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e9536563ce7ddfc4aef54ae05267316ea8139263
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: 4852ec9b347f119a1007b63476b8609a3e38ba57
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1607055"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025290"
 ---
 # <a name="screen-layouts-for-the-point-of-sale-pos"></a>Diseños de pantalla para el punto de venta (POS)
 
 [!include [banner](includes/banner.md)]
 
-Este tema proporciona información sobre los diseños de pantalla para experiencias con Microsoft Dynamics 365 for Retail point of sale (POS).
+Este tema proporciona información sobre los diseños de pantalla para experiencias con Dynamics 365 Retail point of sale (POS).
 
 La interfaz de usuario (IU) de Retail POS se puede configurar mediante una combinación de perfiles visuales y diseños de pantalla que se asignan a tiendas, registros y/o usuarios.
 
@@ -50,7 +50,7 @@ Los perfiles visuales se asignan a registros y especifican los elementos visuale
 - **Descripción** – Puede especificar un nombre descriptivo que ayude a identificar el perfil correcto para su situación.
 - **Tema** – Puede seleccionar entre los temas de aplicación claro u oscuro. El tema afecta a los colores de fuente y de fondo en toda la aplicación.
 - **Color de acento** – El color de acento se utiliza en el sistema PDV para distinguir o resaltar elementos visuales específicos como mosaicos, botones de comandos e hipervínculos. Normalmente, estos elementos se pueden accionar.
-- **Color de encabezado** – Puede configurar el color del encabezado de la página para cumplir los requisitos de las marcas del minorista. Esta función solo está disponible en Microsoft Dynamics 365 for Retail versión 1611.
+- **Color de encabezado** – Puede configurar el color del encabezado de la página para cumplir los requisitos de las marcas del minorista. Esta función solo está disponible en Retail, versión 1611.
 - **Mostrar fecha/hora** - Cuando se activa, la fecha y hora actuales se mostrará en el encabezado del PDV.
 - **Fondo de inicio de sesión** – Puede especificar una imagen de fondo para la pantalla de inicio de sesión. El tamaño de archivo de las imágenes de fondo se debe mantener lo más pequeño posible, ya que el almacenamiento y la carga de archivos grandes podría afectar al comportamiento y al rendimiento de la aplicación.
 - **Fondo de la aplicación** – Puede especificar una imagen de fondo que se utiliza en lugar del color liso del tema en toda la aplicación. En cuanto a los fondos de inicio de sesión, el tamaño del archivo debe mantenerse lo más pequeño posible.

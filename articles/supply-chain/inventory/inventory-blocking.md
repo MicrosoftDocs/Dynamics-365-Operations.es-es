@@ -1,6 +1,6 @@
 ---
 title: Bloqueo del inventario
-description: En este artículo se proporciona una visión general del bloqueo del inventario, que forma parte del proceso de inspección de calidad en Microsoft Dynamics 365 for Finance and Operations. Puede usar el bloqueo del inventario para evitar que los artículos se procesen o se consuman.
+description: Este tema proporciona una visión general del bloqueo del inventario, que forma parte del proceso de inspección de calidad en Supply Chain Management. Puede usar el bloqueo del inventario para evitar que los artículos se procesen o se consuman.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eb6291e2f012f148b247b747f84155b96cf09677
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fc8200380ac3aeb9e3b73f43212458660a15ade6
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557485"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250815"
 ---
 # <a name="inventory-blocking"></a>Bloqueo del inventario
 
 [!include [banner](../includes/banner.md)]
 
-En este artículo se proporciona una visión general del bloqueo del inventario, que forma parte del proceso de inspección de calidad en Microsoft Dynamics 365 for Finance and Operations. Puede usar el bloqueo del inventario para evitar que los artículos se procesen o se consuman.
+Este artículo proporciona una visión general del bloqueo del inventario, que forma parte del proceso de inspección de calidad en Supply Chain Management. Puede usar el bloqueo del inventario para evitar que los artículos se procesen o se consuman.
 
 Puede bloquear artículos de inventario de las siguientes formas:
 -   Manualmente

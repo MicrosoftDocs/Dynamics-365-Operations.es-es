@@ -1,6 +1,6 @@
 ---
-title: Conseguir candidatos con LinkedIn Recruiter en Microsoft Dynamics 365 for Talent - Attract
-description: Use la integración de LinkedIn proporcionada por Microsoft Dynamics 365 for Talent - Attract para conseguir candidatos de trabajo con LinkedIn Recruiter.
+title: Conseguir candidatos con LinkedIn Recruiter en Microsoft Dynamics 365 Talent - Attract
+description: Use la integración de LinkedIn proporcionada por Microsoft Dynamics 365 Talent - Attract para conseguir candidatos de trabajo con LinkedIn Recruiter.
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/08/2019
@@ -19,17 +19,17 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 14aba16fa81a8f25d0f88247319254407d428b2a
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 366dc2be6e35098dba4b26a34bb75a84913549f5
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739458"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008579"
 ---
 # <a name="source-candidates-with-linkedin-recruiter"></a>Conseguir candidatos con LinkedIn Recruiter
 [!include[banner](../includes/banner.md)]
 
-LinkedIn es la red profesional conectada mayor del mundo, que da acceso al talento superior del mundo. Microsoft Dynamics 365 for Talent: Attract permite obtener candidatos directamente de LinkedIn. Por lo tanto, resulta más fácil que nunca encontrar el talento que necesita para cubrir sus vacantes. Después de configurar su conexión con LinkedIn a través de Attract, puede ver los candidatos potenciales de LinkedIn a sus puestos y exportarlos a Attract con solo un clic.
+LinkedIn es la red profesional conectada mayor del mundo, que da acceso al talento superior del mundo. Microsoft Dynamics 365 Talent: Attract le permite obtener candidatos directamente de LinkedIn. Por lo tanto, resulta más fácil que nunca encontrar el talento que necesita para cubrir sus vacantes. Después de configurar su conexión con LinkedIn a través de Attract, puede ver los candidatos potenciales de LinkedIn a sus puestos y exportarlos a Attract con solo un clic.
 
 Si no parece tener esta capacidad, póngase en contacto con su administrador. Para poder aprovechar LinkedIn Recruiter desde Attract, el administrador debe [configurar la integración con LinkedIn](./attract-admin-linkedin.md). A continuación podrá configurar su conexión con LinkedIn Recruiter y comenzar a encontrar candidatos.
 

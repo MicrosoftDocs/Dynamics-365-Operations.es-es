@@ -1,6 +1,6 @@
 ---
-title: Novedades y cambios en Dynamics 365 for Talent Core HR (agosto de 2018)
-description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 for Talent Core HR.
+title: Novedades y cambios en Dynamics 365 Talent - Core HR (agosto de 2018)
+description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Talent - Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 08/27/2018
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-08-27
 ms.dyn365.ops.version: Talent August 2018 update
-ms.openlocfilehash: 3327939137486038b9002029c7c9e8d65dfa2f64
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: db7c91ea6599bde7d4c589a021d2d3b262e57ec9
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742618"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010461"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-august-2018"></a>Novedades y cambios en Dynamics 365 for Talent Core HR (agosto de 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-august-2018"></a>Novedades y cambios en Dynamics 365 Talent: Core HR (agosto de 2018)
 
 [!include [banner](includes/banner.md)]
 
 **Compilación 8.1.104**
 
-Este tema describe las características que son nuevas o que se han cambiado en Dynamics 365 for Talent Core HR.
+Este tema describe las características que son nuevas o que se han cambiado en Dynamics 365 Talent: Core HR.
 
 ## <a name="view-expiring-records-in-manager-self-service"></a>Ver registros con fecha de vencimiento en autoservicio de directores
 
