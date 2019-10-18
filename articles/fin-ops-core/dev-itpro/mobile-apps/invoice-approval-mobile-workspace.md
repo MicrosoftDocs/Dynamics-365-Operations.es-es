@@ -1,0 +1,89 @@
+---
+title: Espacio de trabajo móvil Aprobaciones de facturas
+description: Este tema proporciona información sobre del espacio de trabajo móvil Aprobaciones de facturas. Este espacio de trabajo proporciona una lista de facturas que se le han asignado a través del proceso de flujo de trabajo del encabezado de factura de proveedor.
+author: abruer
+manager: AnnBe
+ms.date: 12/01/2017
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User
+ms.reviewer: sericks
+ms.search.scope: Core, Operations
+ms.search.region: Global
+ms.author: abruer
+ms.search.validFrom: 2017-06-30
+ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: d4ea1d81b0e4f92974ceb7d46386c9d9f6e48979
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249012"
+---
+# <a name="invoice-approvals-mobile-workspace"></a><span data-ttu-id="8296c-104">Espacio de trabajo móvil Aprobaciones de facturas</span><span class="sxs-lookup"><span data-stu-id="8296c-104">Invoice approvals mobile workspace</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="8296c-105">Este tema proporciona información sobre del espacio de trabajo móvil **Aprobaciones de facturas**.</span><span class="sxs-lookup"><span data-stu-id="8296c-105">This topic provides information about the **Invoice approvals** mobile workspace.</span></span> <span data-ttu-id="8296c-106">Este espacio de trabajo proporciona una lista de facturas que se le han asignado a través del proceso de flujo de trabajo del encabezado de factura de proveedor.</span><span class="sxs-lookup"><span data-stu-id="8296c-106">This workspace provides a list of invoices that have been assigned to you through the vendor invoice header workflow process.</span></span> 
+
+<span data-ttu-id="8296c-107">Este espacio de trabajo móvil se debe usar con la aplicación móvil Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="8296c-107">This mobile workspace is intended to be used with the Finance and Operations mobile app.</span></span>
+
+## <a name="overview"></a><span data-ttu-id="8296c-108">Visión general</span><span class="sxs-lookup"><span data-stu-id="8296c-108">Overview</span></span>
+
+<span data-ttu-id="8296c-109">El espacio de trabajo móvil **Aprobaciones de facturas** permite a los empleados y directores de proveedores ver las facturas que se les han asignado como parte del proceso de flujo de trabajo del encabezado de factura de proveedor.</span><span class="sxs-lookup"><span data-stu-id="8296c-109">The **Invoice approvals** mobile workspace lets Accounts payable clerks and managers view invoices that have been assigned to them as part of the vendor invoice header workflow process.</span></span> <span data-ttu-id="8296c-110">Puede ver la información de la factura e incluso los detalles de la línea y la distribución, que le ayudarán a tomar decisiones informadas de aprobación.</span><span class="sxs-lookup"><span data-stu-id="8296c-110">You can view the invoice information, and even the line and distribution details, to help you make informed approval decisions.</span></span> <span data-ttu-id="8296c-111">En el espacio de trabajo, puede tomar medidas para mover la factura por el proceso de flujo de trabajo.</span><span class="sxs-lookup"><span data-stu-id="8296c-111">From the workspace, you can take action to move the invoice through the workflow process.</span></span> 
+
+## <a name="prerequisites"></a><span data-ttu-id="8296c-112">Requisitos previos</span><span class="sxs-lookup"><span data-stu-id="8296c-112">Prerequisites</span></span>
+
+<span data-ttu-id="8296c-113">Para poder usar este espacio de trabajo móvil, antes debe satisfacer los siguientes requisitos previos:</span><span class="sxs-lookup"><span data-stu-id="8296c-113">Before you can use this mobile workspace, the following prerequisites must be met.</span></span>
+
+<table>
+<thead>
+<tr class="header">
+<th><span data-ttu-id="8296c-114">Requisito previo</span><span class="sxs-lookup"><span data-stu-id="8296c-114">Prerequisite</span></span></th>
+<th><span data-ttu-id="8296c-115">Función</span><span class="sxs-lookup"><span data-stu-id="8296c-115">Role</span></span></th>
+<th><span data-ttu-id="8296c-116">Descripción</span><span class="sxs-lookup"><span data-stu-id="8296c-116">Description</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span data-ttu-id="8296c-117">Microsoft Dynamics 365 Finance debe ser implementado en su organización.</span><span class="sxs-lookup"><span data-stu-id="8296c-117">Microsoft Dynamics 365 Finance must be deployed in your organization.</span></span></td>
+<td><span data-ttu-id="8296c-118">Administrador del sistema</span><span class="sxs-lookup"><span data-stu-id="8296c-118">System administrator</span></span></td>
+<td><span data-ttu-id="8296c-119">Consulte <a href="../deployment/deploy-demo-environment.md">Implementar un entorno de demostración</a>.</span><span class="sxs-lookup"><span data-stu-id="8296c-119">See <a href="../deployment/deploy-demo-environment.md">Deploy a demo environment</a>.</span></span>
+</td>
+</tr>
+<tr class="even">
+<td><span data-ttu-id="8296c-120">El espacio de trabajo móvil <strong>Aprobaciones de facturas</strong> debe publicarse.</span><span class="sxs-lookup"><span data-stu-id="8296c-120">The <strong>Invoice approvals</strong> mobile workspace must be published.</span></span></td>
+<td><span data-ttu-id="8296c-121">Administrador del sistema</span><span class="sxs-lookup"><span data-stu-id="8296c-121">System administrator</span></span></td>
+<td><span data-ttu-id="8296c-122">Consulte <a href="publish-mobile-workspace.md">Publicar un espacio de trabajo móvil</a>.</span><span class="sxs-lookup"><span data-stu-id="8296c-122">See <a href="publish-mobile-workspace.md">Publish a mobile workspace</a>.</span></span></td>
+</tr>
+</tbody>
+</table>
+
+## <a name="download-and-install-the-mobile-app"></a><span data-ttu-id="8296c-123">Descargar e instalar la aplicación móvil</span><span class="sxs-lookup"><span data-stu-id="8296c-123">Download and install the mobile app</span></span>
+
+<span data-ttu-id="8296c-124">Descargue e instale la aplicación móvil Finance and Operations:</span><span class="sxs-lookup"><span data-stu-id="8296c-124">Download and install the Finance and Operations mobile app:</span></span>
+
+-   [<span data-ttu-id="8296c-125">Para teléfonos Android</span><span class="sxs-lookup"><span data-stu-id="8296c-125">For Android phones</span></span>](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [<span data-ttu-id="8296c-126">Para iPhones</span><span class="sxs-lookup"><span data-stu-id="8296c-126">For iPhones</span></span>](https://go.microsoft.com/fwlink/?linkid=850663)
+
+## <a name="sign-in-to-the-mobile-app"></a><span data-ttu-id="8296c-127">Iniciar sesión en la aplicación móvil</span><span class="sxs-lookup"><span data-stu-id="8296c-127">Sign in to the mobile app</span></span>
+
+1.  <span data-ttu-id="8296c-128">Inicie la aplicación en su dispositivo móvil.</span><span class="sxs-lookup"><span data-stu-id="8296c-128">Start the app on your mobile device.</span></span>
+2.  <span data-ttu-id="8296c-129">Especifique la dirección URL Microsoft Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="8296c-129">Enter your Microsoft Dynamics 365 URL.</span></span>
+3.  <span data-ttu-id="8296c-130">La primera vez que se inicie sesión, se le solicitará su nombre de usuario y contraseña.</span><span class="sxs-lookup"><span data-stu-id="8296c-130">The first time that you sign in, you're prompted for your user name and password.</span></span> <span data-ttu-id="8296c-131">Escriba sus credenciales.</span><span class="sxs-lookup"><span data-stu-id="8296c-131">Enter your credentials.</span></span>
+4.  <span data-ttu-id="8296c-132">Tras iniciar sesión, se mostrarán los espacios de trabajo disponibles para su empresa.</span><span class="sxs-lookup"><span data-stu-id="8296c-132">After you sign in, the available workspaces for your company are shown.</span></span> <span data-ttu-id="8296c-133">Tenga en cuenta que si el administrador del sistema publica un nuevo espacio de trabajo más tarde, tendrá que actualizar la lista de espacios de trabajo móviles.</span><span class="sxs-lookup"><span data-stu-id="8296c-133">Note that if your system administrator publishes a new workspace later, you will have to refresh the list of mobile workspaces.</span></span>
+
+    <span data-ttu-id="8296c-134">[![Toque la pantalla para actualizar](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span><span class="sxs-lookup"><span data-stu-id="8296c-134">[![Pull to refresh](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span></span>
+
+## <a name="approve-invoices-by-using-the-invoice-approvals-mobile-workspace"></a><span data-ttu-id="8296c-135">Aprobar facturas mediante el espacio de trabajo móvil Aprobaciones de facturas</span><span class="sxs-lookup"><span data-stu-id="8296c-135">Approve invoices by using the Invoice approvals mobile workspace</span></span>
+1.  <span data-ttu-id="8296c-136">En el dispositivo móvil, seleccione el espacio de trabajo **Aprobaciones de facturas**.</span><span class="sxs-lookup"><span data-stu-id="8296c-136">On your mobile device, select the **Invoice approvals** workspace.</span></span>
+2.  <span data-ttu-id="8296c-137">Seleccione la factura que le ha sido asignada por el proceso de flujo de trabajo del encabezado de factura de proveedor.</span><span class="sxs-lookup"><span data-stu-id="8296c-137">Select the invoice that has been assigned to you by the vendor invoice header workflow process.</span></span>
+3.  <span data-ttu-id="8296c-138">En la página **Detalles de la factura**, revise la información de encabezado de factura, como la información del proveedor y la fecha.</span><span class="sxs-lookup"><span data-stu-id="8296c-138">On the **Invoice details** page, review the invoice header information, such as the vendor and date information.</span></span>
+4.  <span data-ttu-id="8296c-139">Seleccione una línea de la factura para ver su información más detallada en la vista **Detalles de línea de factura**.</span><span class="sxs-lookup"><span data-stu-id="8296c-139">Select a line on the invoice to view more detailed information about it in the **Invoice line details** view.</span></span>
+5.  <span data-ttu-id="8296c-140">En la vista **Detalles de línea de factura**, seleccione la **Distribuciones** para mostrar las distribuciones de la línea.</span><span class="sxs-lookup"><span data-stu-id="8296c-140">In the **Invoice line details** view, select **Distributions** to show the line distributions.</span></span> <span data-ttu-id="8296c-141">Aquí puede ver la contabilidad para la línea de factura.</span><span class="sxs-lookup"><span data-stu-id="8296c-141">Here, you can view the accounting for the invoice line.</span></span> <span data-ttu-id="8296c-142">La información que se muestra incluye las dimensiones financieras y la cuenta principal.</span><span class="sxs-lookup"><span data-stu-id="8296c-142">The information that is shown includes the financial dimensions and the main account.</span></span>
+6.  <span data-ttu-id="8296c-143">En la página **Detalles de línea de factura**, seleccione la **Distribuciones** para mostrar todas las distribuciones.</span><span class="sxs-lookup"><span data-stu-id="8296c-143">On the **Invoice details** page, select **Distributions** to show all distributions.</span></span> <span data-ttu-id="8296c-144">Aquí puede ver la contabilidad para la toda la factura.</span><span class="sxs-lookup"><span data-stu-id="8296c-144">Here, you can view the accounting for the whole invoice.</span></span> <span data-ttu-id="8296c-145">La información que se muestra incluye las dimensiones financieras y las cuentas principales.</span><span class="sxs-lookup"><span data-stu-id="8296c-145">The information that is shown includes the financial dimensions and the main accounts.</span></span> 
+7.  <span data-ttu-id="8296c-146">Seleccione **Datos adjuntos** para ver las notas o los archivo que están asociadas a la factura.</span><span class="sxs-lookup"><span data-stu-id="8296c-146">Select **Attachments** to view any notes or files that are attached to the invoice.</span></span>
+8.  <span data-ttu-id="8296c-147">En la página **Detalles de la factura**, seleccione la acción del flujo de trabajo adecuado para completar el proceso de revisión.</span><span class="sxs-lookup"><span data-stu-id="8296c-147">On the **Invoice details** page, select the appropriate workflow action to complete your review process.</span></span>
+9.  <span data-ttu-id="8296c-148">Seleccione **Listo**.</span><span class="sxs-lookup"><span data-stu-id="8296c-148">Select **Done**.</span></span>
