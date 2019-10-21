@@ -1,6 +1,6 @@
 ---
-title: Novedades y cambios en Dynamics 365 for Talent (23 de abril de 2019)
-description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 for Talent.
+title: Novedades y cambios en Dynamics 365 Talent (23 de abril de 2019)
+description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 04/23/2019
@@ -18,24 +18,24 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 5ec10820761cb22cbff6229babe8a250848214b7
-ms.sourcegitcommit: 15154b0aa86110ce5fad6f63e6763103a676a1d2
+ms.openlocfilehash: 1a70be88e3ab65bb0bdd844347e8ba69e4ba61a5
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624590"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024123"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-23-2019"></a>Novedades y cambios en Dynamics 365 for Talent (23 de abril de 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-april-23-2019"></a>Novedades y cambios en Dynamics 365 Talent (23 de abril de 2019)
 
 [!include [banner](includes/banner.md)]
 
-Este tema describe las características que son nuevas o que se han cambiado en Dynamics 365 for Talent.
+Este tema describe las características que son nuevas o que se han cambiado en Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Cambios en Attract
-Este lanzamiento incluye correcciones de errores de menor importancia para Dynamics 365 for Talent: Attract.
+Este lanzamiento incluye correcciones de errores de menor importancia para Dynamics 365 Talent: Attract.
 
 ## <a name="changes-in-onboard"></a>Cambios en Onboard
-Este lanzamiento incluye correcciones de errores de menor importancia para Dynamics 365 for Talent: Onboard.
+Este lanzamiento incluye correcciones de errores de menor importancia para Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Cambios en Core HR
 Los cambios que se describen en esta sección se aplican a la compilación número 8.1.2253. Los números entre paréntesis hacen referencia a los números de soporte en Lifecycle Services (LCS).
@@ -79,4 +79,4 @@ Con este cambio, se detectan los duplicados a medida que se especifican los camp
 ## <a name="known-issues"></a>Problemas conocidos
 
 ### <a name="email-support-for-alerts"></a>Soporte de correo electrónico para avisos
-Con Platform update 26, los usuarios pueden crear reglas de alertas que envían notificaciones por correo electrónico a los contactos cuando se activen con un evento.
+Con Platform update 26 para Finance and Operations, los usuarios pueden crear reglas de alertas que envían notificaciones por correo electrónico a los contactos cuando se activen con un evento.

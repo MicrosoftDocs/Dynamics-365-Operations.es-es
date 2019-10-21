@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e86c2f8d1d5920198db74dc3b64f2393c5e13ff7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 46aa4378a5b106d5717e0c841f2f7c9d6629489e
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555047"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251325"
 ---
 # <a name="register-serial-numbers-in-the-sales-process"></a>Registro de números de serie en el proceso de ventas
 
@@ -34,9 +34,9 @@ ms.locfileid: "1555047"
 
 Este tema explica cómo puede registrar los números de serie en albaranes o facturas durante el proceso de ventas. Esta funcionalidad es útil si una empresa desea capturar los números de serie para propósitos de servicio y de garantía, pero no tiene que mantener los números de serie en el inventario desde recepción a emisión.
 
-Muchas empresas solo desean capturar los números de serie para propósitos de servicio y de garantía, y no tienen que mantener los números de serie en el inventario desde recepción a emisión. En estos casos, Microsoft Dynamics 365 for Finance and Operations le permite registrar los números de serie en los albaranes o facturas al vender productos. Si más adelante los productos se devuelven, puede realizar un seguimiento de cada producto en una factura para determinar si vendió el producto, y si las obligaciones de servicio o de garantía son válidas.
+Muchas empresas solo desean capturar los números de serie para propósitos de servicio y de garantía, y no tienen que mantener los números de serie en el inventario desde recepción a emisión. En estos casos puede registrar los números de serie en los albaranes o facturas al vender productos. Si más adelante los productos se devuelven, puede realizar un seguimiento de cada producto en una factura para determinar si vendió el producto, y si las obligaciones de servicio o de garantía son válidas.
 
-Debe habilitar los números de serie del proceso de ventas seleccionando la opción **Activo en el proceso de ventas** en la página **Grupos de dimensiones de seguimiento**. Se producen los eventos siguientes en Microsoft Dynamics 365 for Finance and Operations:
+Debe habilitar los números de serie del proceso de ventas seleccionando la opción **Activo en el proceso de ventas** en la página **Grupos de dimensiones de seguimiento**. Los eventos siguientes aparecerán en Supply Chain Management:
 -   En la ficha desplegable **Números de serie**, la opción **Control de números de serie** está seleccionada. Si se selecciona esta opción, debe registrar un número de serie para cada artículo en el albarán o en la factura.
 -   Todas las selecciones del grupo de dimensiones de seguimiento para los números de serie se anulan, excepto la opción **Emisión en blanco permitida**. Puede seleccionar la opción **Emisión en blanco permitida** para anular el control del número de serie y permitir que los productos se empaqueten o facturen sin registrar números de serie.
 

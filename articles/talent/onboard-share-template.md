@@ -1,6 +1,6 @@
 ---
-title: Compartir el contenido con otros trabajadores en Dynamics 365 for Talent - Onboard
-description: Este tema explica cómo compartir las guías y plantillas de incorporación con otros trabajadores en la aplicación Microsoft Dynamics 365 for Talent - Onboard.
+title: Compartir el contenido con otros trabajadores en Dynamics 365 Talent - Onboard
+description: Este tema explica cómo compartir las guías y plantillas de incorporación con otros trabajadores en la aplicación Microsoft Dynamics 365 Talent - Onboard.
 author: andreabichsel
 manager: ''
 ms.date: 05/20/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 8524f9ec502bed829522ab90c7c7976c2814a1b6
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: d07879ff31127788ebfee5bc8b42442a26987651
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731628"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010761"
 ---
-# <a name="share-content-with-other-contributors-in-dynamics-365-for-talent-onboard"></a>Compartir el contenido con otros trabajadores en Dynamics 365 for Talent: Onboard
+# <a name="share-content-with-other-contributors"></a>Compartir contenido con otros trabajadores
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent: Onboard le permite compartir las guías y plantillas de incorporación con otros trabajadores de modo que puedan revisar los documentos y realizar cambios.
+Microsoft Dynamics 365 Talent: Onboard le permite compartir las guías y plantillas de incorporación con otros trabajadores de modo que puedan revisar los documentos y realizar cambios.
 
 ## <a name="share-an-onboarding-guide-with-other-contributors"></a>Compartir una guía de incorporación con otros trabajadores
 

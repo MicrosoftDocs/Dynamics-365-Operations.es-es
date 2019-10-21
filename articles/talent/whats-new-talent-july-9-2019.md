@@ -1,6 +1,6 @@
 ---
-title: Novedades o cambios en Dynamics 365 for Talent (9 de julio de 2019)
-description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 for Talent.
+title: Novedades o cambios en Dynamics 365 Talent (9 de julio de 2019)
+description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 07/09/2019
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-09
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e5bb02a7128cb920a79a5f04ac910be205aeed41
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: b3eb53943546166eee845749a070ed2fca1a03b8
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856386"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023962"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-july-9-2019"></a>Novedades o cambios en Dynamics 365 for Talent (9 de julio de 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-july-9-2019"></a>Novedades o cambios en Dynamics 365 Talent (9 de julio de 2019)
 
 [!include [banner](includes/banner.md)]
 
-Este tema describe las características que son nuevas o que se han cambiado en Dynamics 365 for Talent.
+Este tema describe las características que son nuevas o que se han cambiado en Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Cambios en Attract
 
-Este lanzamiento incluye correcciones de errores de menor importancia del Dynamics 365 Talent: Attract.
+Este lanzamiento incluye correcciones de errores de menor importancia para Dynamics 365 Talent: Attract.
 
 ### <a name="coming-soon-in-attract"></a>Muy pronto en Attract
 #### <a name="job-approvals-appear-on-the-home-page"></a>Aprobaciones de trabajos que aparecen en la página principal
@@ -42,15 +42,15 @@ Las Aprobaciones aparecen en una sección **Aprobaciones** en el panel de inform
 
 ## <a name="changes-in-onboard"></a>Cambios en Onboard
 
-Este lanzamiento incluye correcciones de errores de menor importancia del Dynamics 365 Talent: Onboard
+Este lanzamiento incluye correcciones de errores de menor importancia para Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Cambios en Core HR
 
 Los cambios que se describen en esta sección se aplican a la compilación número 8.1.2374.
 
-### <a name="platform-update-28"></a>Actualización 28 de la plataforma
+### <a name="platform-update-28-for-finance-and-operations"></a>Platform update 28 para Finance and Operations
 
-Para obtener más información acerca de la Platform update 28, consulte [Características de vista previa en Dynamics 365 for Finance and Operations platform update 28 (julio de 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-28).
+Para obtener más información acerca de la Platform update 28 para Finance and Operations, consulte [Características de vista previa en Dynamics 365 Finance and Operations platform update 28 (julio de 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-28).
 
 ### <a name="entity-support-for-custom-fields-in-common-data-service"></a>Soporte de entidad para campos personalizados en Common Data Service 
 

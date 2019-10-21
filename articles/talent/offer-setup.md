@@ -1,6 +1,6 @@
 ---
-title: Configuración de la gestión de ofertas
-description: Este tema describe cómo configurar ofertas en Talent.
+title: Configurar la gestión de ofertas
+description: Este tema describe cómo configurar ofertas en Microsoft Dynamics 365 Talent.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/04/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7fa0e5d30c06db16e105631e492af022acfcfd66
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 706766ba5133af03d00df99dba1c2a7b0405cd86
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519017"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010853"
 ---
-# <a name="set-up-offer-management"></a>Configuración de la gestión de ofertas 
+# <a name="set-up-offer-management"></a>Configurar la gestión de ofertas 
 
 [!include [banner](includes/banner.md)]
 
-Cuando trasladan a un candidato a la etapa de oferta en Dynamics 365 for Talent: Attract, debe asegurarse de que las ofertas se pueden crear rápidamente para el candidato, aprobar según sea necesario, y enviarlas al candidato. Puesto que la mayoría de las propuestas son estándar, se pueden crear con plantillas reutilizables. En Attract, todas las propuestas se agrupan en un paquete de propuesta, que es una recopilación de uno o más documentos. 
+Cuando trasladan a un candidato a la etapa de oferta en Dynamics 365 Talent: Attract, debe asegurarse de que las ofertas se pueden crear rápidamente para el candidato, aprobar según sea necesario, y enviarlas al candidato. Puesto que la mayoría de las propuestas son estándar, se pueden crear con plantillas reutilizables. En Attract, todas las propuestas se agrupan en un paquete de propuesta, que es una recopilación de uno o más documentos. 
 
 Este tema muestra todos los pasos que un administrador de Attract seguiría para configurar diferentes plantillas de paquete de oferta como parte de la capacidad de gestión de la oferta de Attract. Los usuarios con roles de usuario que no son de administrador no tendrán acceso a estas capacidades.
 

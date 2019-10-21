@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b50aa1df7a169e71d3e2e477bd1515d70cedccab
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 316e1e1f0db9343e414ddeafe9e00beac87b5b76
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865385"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249503"
 ---
 # <a name="product-configuration-overview"></a>Visión general de la configuración del producto
 
@@ -60,6 +60,9 @@ Un modelo de configuración de productos está formado por uno o varios componen
 
 Cada componente tiene uno o varios atributos que identifica sus propiedades. Los atributos son los que los usuarios eligen durante el proceso de configuración. Los atributos controlan las relaciones de entre componente e intra componente a través de la inclusión en restricciones o cálculos. Con las condiciones que se aplican a las líneas de L. MAT, los atributos se pueden usar para determinar de qué partes físicas consistirá el producto configurado. Además, un atributo puede controlar la propiedad de la línea de L. MAT a través de un mecanismo de asignación. La función similar existe para las operaciones de ruta en relación con la configuración de la inclusión y la propiedad.
 
+>[!NOTE]
+> Al crear tipos de atributo, evite crear un alto número de valores para el dominio del tipo de atributo. El hacerlo podría provocar una ralentización del configurador de productos. 
+
 ### <a name="expression-constraints"></a>Restricciones de expresión
 
 Use un modelo de configuración de productos basado en limitaciones implica que existen algunas limitaciones cuando el usuario selecciona valores para los distintos atributos. Tales limitaciones se pueden ejecutar como restricciones de expresión usando el idioma de modelo de optimización (OML). Como alternativa, una restricción se puede ejecutar en forma de restricción de tabla.
@@ -70,7 +73,7 @@ Las restricciones de tabla pueden estar definidas por el usuario o por el sistem
 
 Una restricción de tabla definida por el usuario es construida por el usuario. El usuario selecciona una combinación de tipos de atributo para representar las columnas de la tabla y luego especifica valores de los dominios de los tipos de atributo seleccionados para formar las filas de la restricción de tabla.  
 
-Una restricción de tabla definida por el sistema se define seleccionando qué tabla de Microsoft Dynamics 365 for Finance and Operations se usará como una referencia y luego seleccionando los campos de esta tabla para formar las columnas de la restricción. Las filas de la restricción de tabla son las filas de la tabla de Finance and Operations que están presentes en el momento de la configuración.  
+Una restricción de tabla definida por el sistema se define seleccionando qué tabla se usará como una referencia y luego seleccionando los campos de esta tabla para formar las columnas de la restricción. Las filas de la restricción de tabla son las filas de la tabla de Finance and Operations que están presentes en el momento de la configuración.  
 
 Una restricción de tablas se incluye en un modelo de configuración de productos al hacer referencia a la definición de la restricción de tabla y un seguimiento de los atributos relevantes en el modelo a las columnas de la restricción de tabla.
 

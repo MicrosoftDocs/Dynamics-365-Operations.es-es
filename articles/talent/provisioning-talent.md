@@ -1,6 +1,6 @@
 ---
 title: Aprovisionar Talent
-description: Este tema recorre con usted el proceso de aprovisionar un nuevo entorno para Microsoft Dynamics 365 for Talent.
+description: Este tema recorre con usted el proceso de aprovisionar un nuevo entorno para Microsoft Dynamics 365 Talent.
 author: andreabichsel
 manager: AnnBe
 ms.date: 05/15/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 781487997ceb95f4e3f528f47e8ed2aa5b25fd0e
-ms.sourcegitcommit: eb501d8712212a6ed33bec1e3e2c02f994e0a724
+ms.openlocfilehash: 2bb5dd5e29559807e40b66ad7f9c061bf510ed67
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "1869945"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026150"
 ---
 # <a name="provision-talent"></a>Aprovisionar Talent
 
 [!include [banner](includes/banner.md)]
 
-Este tema recorre con usted el proceso de aprovisionar un nuevo entorno de producción para Microsoft Dynamics 365 for Talent. Este tema asume que ha comprado Talent a un proveedor de soluciones de nube (CSP) o mediante un contrato de arquitectura empresarial (EA). Si dispone de una licencia existente de Microsoft Dynamics 365 que ya incluye el plan de servicio de Talent y no puede realizar los pasos de este tema, póngase en contacto con soporte.
+Este tema recorre con usted el proceso de aprovisionar un nuevo entorno de producción para Microsoft Dynamics 365 Talent. Este tema asume que ha comprado Talent a un proveedor de soluciones de nube (CSP) o mediante un contrato de arquitectura empresarial (EA). Si dispone de una licencia existente de Microsoft Dynamics 365 que ya incluye el plan de servicio de Talent y no puede realizar los pasos de este tema, póngase en contacto con soporte.
 
 Para empezar, el administrador global debe iniciar sesión en [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) y crear un nuevo proyecto de Talent. A menos que un problema de licencia le impida aprovisionar Talent, no es obligatoria la ayuda de Soporte o de los representantes de la ingeniería de servicio de Dynamics.
 
@@ -37,8 +37,8 @@ Para usar LCS para administrar sus entornos de Talent, primero debe crear un pro
 
 1. Inicie sesión en [LCS](https://lcs.dynamics.com/Logon/Index) mediante la cuenta que ha utilizado para suscribirse a Talent.
 2. Seleccione el signo más (**+**) para crear un proyecto.
-3. Seleccione **Microsoft Dynamics 365 for Talent** como nombre del producto y versión del producto.
-4. Seleccionar la metodología de **Dynamics 365 for Talent**.
+3. Seleccione **Microsoft Dynamics 365 Talent** como nombre del producto y versión del producto.
+4. Seleccionar la metodología de **Dynamics 365 Talent**.
 5. Seleccione **Crear**.
 
 Para obtener información sobre cómo comenzar con Talent, consulte la metodología **Talent** que ha creado en su nuevo proyecto. Una vez que haya terminado de crear el proyecto, realice el procedimiento siguiente para aprovisionar el entorno de Talent.
@@ -68,7 +68,7 @@ Después de crear un proyecto de LCS, puede aprovisionar Talent en un entorno.
 
     > Dado que solo dos entornos de CD se permiten como parte de la suscripción de Talent, también puede considerar aprovechar los 60 días gratuitos [Entorno de prueba de Talent](https://dynamics.microsoft.com/talent/overview/). Aunque un entorno de prueba es propiedad del usuario que lo solicitó, se puede invitar a otros usuarios a través de la experiencia de administración del sistema para Core HR. Los entornos de prueba contienen datos ficticios que se pueden usar para explorar el programa de forma segura. No están destinados para su uso como entornos de producción. Tenga en cuenta que cuando un entorno de prueba caduca después de 60 días, todos los datos que contiene se eliminan y no se pueden recuperar. Puede registrarse para obtener un nuevo entorno de prueba una vez que caduque el entorno existente.
 
-## <a name="select-a-powerapps-environment"></a>Seleccione un entorno de PowerApps
+## <a name="select-a-powerapps-environment"></a>Seleccionar un entorno PowerApps
 
 La integración entre los entornos de Talent y PowerApps le permite integrar y ampliar el uso de los datos de Talent mediante herramientas PowerApps. La comprensión del propósito de los entornos de PowerApps no solo le ayudará a compilar aplicaciones para ampliar Talent, sino también puede ayudarle a seleccionar el entorno correcto al aprovisionar Talent. Para obtener información sobre los entornos de PowerApps, incluido el ámbito de entorno, el acceso de entorno y la creación y elección de un entorno, consulte [Anuncio de entornos de PowerApps](https://powerapps.microsoft.com/blog/powerapps-environments/). 
 
@@ -76,7 +76,7 @@ Use la orientación siguiente al determinar en qué entorno de PowerApps impleme
 
 1. En el LCS, seleccione **Administrar entornos**, o vaya directamente al centro de gestión de PowerApps, donde puede ver los entornos existentes y crear unos nuevos entornos.
 2. Un solo entorno de Talent se asigna a un solo entorno de PowerApps.
-3. Un entorno de PowerApps "contiene" la aplicación de Talent, junto con el correspondiente PowerApps, Flow, y las aplicaciones de Common Data Service. Si se elimina el entorno de PowerApps, también se eliminan las aplicaciones que contiene. Al aprovisionar un entorno de Talent, se puede aprovisionar “ensayo” o “producción”. Elija el tipo de entorno en función de cómo se usará el entorno. 
+3. Un entorno de PowerApps contiene Talent, junto con el correspondiente PowerApps, Flow, y las aplicaciones de Common Data Service. Si se elimina el entorno de PowerApps, también se eliminan las aplicaciones que contiene. Al aprovisionar un entorno de Talent, puede aprovisionar un entorno de **Prueba** o **Producción**. Elija el tipo de entorno en función de cómo se usará el entorno. 
 4. La integración de datos y estrategias de prueba se deben considerar como Espacio aislado, UAT o producción. Recomendamos que tenga en cuenta las distintas implicaciones para la implementación, ya que no es fácil cambiar el entorno de Talent que se asigna al entorno de PowerApps posteriormente.
 5. Los entornos de PowerApps siguientes no se pueden usar para Talent y se filtrarán de la lista de selección dentro de LCS:
  
@@ -89,4 +89,4 @@ Use la orientación siguiente al determinar en qué entorno de PowerApps impleme
 6. Una vez que haya determinado el entorno correcto para utilizar, podrá continuar con el proceso de abastecimiento. 
  
 ## <a name="grant-access-to-the-environment"></a>Conceda acceso al entorno
-De forma predeterminada, solo tiene acceso el administrador global que creó el entorno. Sin embargo, los usuarios de aplicaciones adicionales debe conceder acceso de forma explícita. Para conceder acceso, necesita agregar usuarios y asignar los roles adecuados a ellos en el entorno Core HR. El administrador global que implementó Talent también debe poner en las aplicaciones Attract y Onboard para completar la inicialización y para habilitar el acceso a otros usuarios inquilinos.  Hasta que esto ocurra, otros usuarios no podrán tener acceso a las aplicaciones Attract y Onboard y obtendrán errores de infracción de acceso. Para obtener más información, consulte [Crear nuevos usuarios](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) y [Asignar usuarios a roles de seguridad](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
+De forma predeterminada, solo tiene acceso el administrador global que creó el entorno. Sin embargo, los usuarios de aplicaciones adicionales debe conceder acceso de forma explícita. Para conceder acceso, necesita agregar usuarios y asignar los roles adecuados a ellos en el entorno Core HR. El administrador global que implementó Talent también debe poner en Attract y Onboard para completar la inicialización y para habilitar el acceso a otros usuarios inquilinos.  Hasta que esto ocurra, otros usuarios no podrán tener acceso a Attract y Onboard y obtendrán errores de infracción de acceso. Para obtener más información, consulte [Crear nuevos usuarios](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) y [Asignar usuarios a roles de seguridad](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 

@@ -1,5 +1,5 @@
 ---
-title: Configurar parámetros de correo electrónico en Microsoft Dynamics 365 for Talent - Attract
+title: Configurar parámetros de correo electrónico en Microsoft Dynamics 365 Talent - Attract
 description: En este tema se explica cómo configurar parámetros para correos electrónicos enviado por Microsoft Dynamcis 365 for Talent - Attract.
 author: andreabichsel
 manager: AnnBe
@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: a8cf59064dd2f66ee50a0b0566aa712ba1f72dea
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: c891a36f01d36774bd921475fa5995d207cd2d51
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739504"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008671"
 ---
 # <a name="configure-email-settings"></a>Configuración de opciones de correo electrónico
 
 [!include[banner](../includes/banner.md)]
 
-La marca establece confianza y le ayuda a crear una relación con los candidatos incluso antes de que soliciten sus puestos. Una percepción positiva de la marca atrae a los mejores talentos y aumenta la fidelidad de los empleados existentes. Microsoft Dynamics 365 for Talent: Attract le permite configurar correos electrónicos de modo que reflejen la marca de su empresa. Por tanto, puede proporcionar una experiencia coherente a los candidatos al puesto a medida que avanzan en proceso de solicitud.
+La marca establece confianza y le ayuda a crear una relación con los candidatos incluso antes de que soliciten sus puestos. Una percepción positiva de la marca atrae a los mejores talentos y aumenta la fidelidad de los empleados existentes. Microsoft Dynamics 365 Talent: Attract le permite configurar correos electrónicos de modo que reflejen la marca de su empresa. Por tanto, puede proporcionar una experiencia coherente a los candidatos al puesto a medida que avanzan en proceso de solicitud.
 
 Attract le permite realizar estas acciones:
 

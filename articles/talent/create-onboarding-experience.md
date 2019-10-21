@@ -1,6 +1,6 @@
 ---
 title: Introducción a Onboard
-description: Este tema le ayudará a iniciarse con Microsoft Dynamics 365 for Talent - Onboard. Onboard ayuda a sus nuevos empleados a conocer la empresa en breve dándoles una guía que los lleve suavemente por el proceso de incorporación.
+description: Este tema le ayudará a iniciarse con Microsoft Dynamics 365 Talent - Onboard. Onboard ayuda a sus nuevos empleados a conocer la empresa en breve dándoles una guía que los lleve suavemente por el proceso de incorporación.
 author: andreabichsel
 manager: ''
 ms.date: 06/21/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 6526f320be7d18af92406149633b3e15d0be2291
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: 97082533831d592817e54e77469a3e22b0b47610
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731222"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008137"
 ---
 # <a name="get-started-with-onboard"></a>Introducción a Onboard
 
 [!include [banner](includes/banner.md)]
 
-Al usar Microsoft Dynamics 365 for Talent: Onboard puede ayudar a los nuevos empleados a trabajar más eficazmente y a conseguir un sentido de pertenencia en sus roles nuevos. Un proceso de incorporación efectivo ayuda a los nuevos empleados a entender sus roles nuevos. También les da una ventaja en el establecimiento de relaciones valiosas que les ayudarán a garantizar su éxito.
+Al usar Microsoft Dynamics 365 Talent: Onboard, puede ayudar a los nuevos empleados a trabajar más eficazmente y a conseguir un sentido de pertenencia en sus roles nuevos. Un proceso de incorporación efectivo ayuda a los nuevos empleados a entender sus roles nuevos. También les da una ventaja en el establecimiento de relaciones valiosas que les ayudarán a garantizar su éxito.
 
 Onboard le permite crear rápidamente una guía de incorporación que acogerá a los nuevos empleados y los apasionará en su tarea de incorporación a la organización.
 

@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7fe9a81f58423c3396493d0ea2c27bdea4eee102
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 40664936382f5edcb3c1680aa4af245bdef539a6
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560149"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250237"
 ---
 # <a name="modeling-a-lean-organization"></a>Modelar una organización eficiente
 
@@ -39,7 +39,7 @@ En las situaciones de producción que se basan en pedidos de producción, el mat
 
 Para reducir el plazo de entrega y el exceso de inventario entre los centros de trabajo que causa la producción de lote, la lean manufacturing coloca el reabastecimiento de kanban y los supermercados en el reabastecimiento del almacén y la fabricación. Normalmente, estas características interrumpen normalmente la producción de ciclos parcialmente independientes de kanban. El reabastecimiento de un kanban para un producto semiterminado ya no se activa por un pedido para un producto terminado. 
 
-Para restablecer el contexto de producción y de coste para las distintas situaciones de kanban que se proponen en Microsoft Dynamics 365 for Finance and Operations, los flujos de producción basados en actividad que se han introducido como la espina dorsal de lean manufacturing. Todas las reglas kanban hacen referencia a esta estructura predefinida. El modelo basado en la actividad admite la configuración de una gran variedad de escenarios. Sin embargo, este modelo no agrega complejidad para los trabajadores de planta, porque todas las situaciones usan la mismo interfaz de usuario basada en actividades.
+Para restablecer el contexto de producción y de coste para las distintas situaciones de kanban que se proponen, los flujos de producción basados en actividad que se han introducido como la espina dorsal de lean manufacturing. Todas las reglas kanban hacen referencia a esta estructura predefinida. El modelo basado en la actividad admite la configuración de una gran variedad de escenarios. Sin embargo, este modelo no agrega complejidad para los trabajadores de planta, porque todas las situaciones usan la mismo interfaz de usuario basada en actividades.
 
 ## <a name="semi-finished-products-non-bom-levels"></a>Productos semiterminados (no a niveles de L. MAT)
 La lean manufacturing integra kanbans para los productos a los que se le ha realizado un inventario y productos semiterminados en un único período, y por tanto ofrece una experiencia unificada de usuario para todos los casos. Debido a la arquitectura, ya no se tienen que introducir los niveles adicionales de L. MAT para permitir que se usen los kanbans para productos semiterminados. Esta arquitectura también ayuda a reducir las transacciones de inventario al mínimo.
@@ -50,7 +50,7 @@ La reducción de los tamaños de lote al estado ideal de un único flujo de la p
 ## <a name="value-streams-and-value-stream-mapping"></a>Flujos de valor y asignación del flujo de valor
 La arquitectura de lean manufacturing está inspirada en los cinco principios Lean formulados por Womack y Jones: valor del cliente, flujo de valor, flujo, extracción y perfección. Un método aprobado para implementar soluciones de lean manufacturing en el mundo físico de la fabricación es la asignación del flujo de valor (VSM). Este método lo introdujeron Rother y Shook en su publicación “Aprender a ver” en el instituto de lean manufacturing. 
 
-En Finance and Operations, el flujo de valor en estado futuro se puede modelar como una versión del flujo de producción. Todos los procesos del flujo de valor se modelan como actividades de proceso. Los movimientos o transferencias se pueden modelar como actividades de transferencia si se debe registrar el estado de la transferencia o si se necesita una integración con la selección de inventario o envíos consolidados. 
+El flujo de valor en estado futuro se puede modelar como una versión del flujo de producción. Todos los procesos del flujo de valor se modelan como actividades de proceso. Los movimientos o transferencias se pueden modelar como actividades de transferencia si se debe registrar el estado de la transferencia o si se necesita una integración con la selección de inventario o envíos consolidados. 
 
 El flujo de valor en sí se modela como unidad operativa. Por lo tanto, el flujo de valor se puede usar como dimensión financiera.
 

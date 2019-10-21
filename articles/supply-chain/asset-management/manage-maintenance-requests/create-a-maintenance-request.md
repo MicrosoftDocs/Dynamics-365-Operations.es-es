@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 03e090633276cd264ad03f561ddb425a9816357e
-ms.sourcegitcommit: 871b76f8808a48d282f151144829323258ffc912
+ms.openlocfilehash: e97d96a5485f17d0abc7c2fc2f8c4fdf4bbd4bb4
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1847514"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024646"
 ---
 # <a name="create-maintenance-requests"></a>Crear solicitudes de mantenimiento
 
@@ -41,7 +41,7 @@ La sección **Solicitudes de mantenimiento activas** del panel **Información re
 2. Seleccione **Nuevo**.
 3. En el cuadro de diálogo **Crear solicitud**, en el campo **Tipo de solicitud de mantenimiento**, seleccione el tipo de solicitud de mantenimiento. Se sugiere un tipo predeterminado.
 4. En el campo **Descripción**, escriba un nombre o un título que describa brevemente la solicitud de mantenimiento.
-5. En los campos **Ubicación técnica** y **Activo**, seleccione una ubicación técnica o un activo, o una combinación de una ubicación técnica y un activo, según sea necesario. Puede crear una solicitud de mantenimiento sin seleccionar un activo, y el activo se puede agregar posteriormente a la solicitud de mantenimiento. Si el trabajador de mantenimiento que ha iniciado sesión en Microsoft Dynamics 365 for Finance and Operations está relacionado con un recurso relacionado con un activo, el campo **Activo** se establece automáticamente.
+5. En los campos **Ubicación técnica** y **Activo**, seleccione una ubicación técnica o un activo, o una combinación de una ubicación técnica y un activo, según sea necesario. Puede crear una solicitud de mantenimiento sin seleccionar un activo, y el activo se puede agregar posteriormente a la solicitud de mantenimiento. Si el trabajador de mantenimiento que ha iniciado sesión está relacionado con un recurso relacionado con un activo, el campo **Activo** se establece automáticamente.
 
     Si una solicitud de mantenimiento ya está vinculada al activo seleccionado, aparece una barra de mensajes en la parte superior del cuadro de diálogo **Crear solicitud** para notificarle el identificador de la solicitud de mantenimiento existente. Una barra de mensajes también le notifica si el activo está cubierto por un acuerdo de garantía.
 

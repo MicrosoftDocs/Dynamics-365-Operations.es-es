@@ -1,6 +1,6 @@
 ---
-title: Novedades y cambios en Dynamics 365 for Talent Core HR (17 de septiembre de 2018)
-description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 for Talent Core HR.
+title: Novedades y cambios en Dynamics 365 Talent - Core HR (17 de septiembre de 2018)
+description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Talent - Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 09/17/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-09-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 213324f9074f88d9fdc8efdfa46bc3ed7817d1e8
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 558c2cdb4addce54af937ff862535d65f1ebd602
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519050"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026056"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-september-17-2018"></a>Novedades y cambios en Dynamics 365 for Talent Core HR (17 de septiembre de 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-september-17-2018"></a>Novedades y cambios en Dynamics 365 Talent: Core HR (17 de septiembre de 2018)
 
 [!include [banner](includes/banner.md)]
 
@@ -37,13 +37,13 @@ Este tema describe las características que son nuevas o que se han cambiado en 
 
 Se ha agregado un nuevo tipo de acumulación a los planes de licencias. Ahora la programación de acumulaciones se podrá basar en los meses de servicio o las horas trabajadas. Para obtener más información, consulte [Acumulación de licencias basada en las horas trabajadas](leave-accrue-hours-worked.md).
 
-## <a name="platform-update-18"></a>Actualización de la plataforma 18
+## <a name="platform-update-18-for-finance-and-operations"></a>Platform update 18 para Finance and Operations
 
-La actualización 18 de la plataforma es ahora parte de la versión de Talent. 
+La Platform update 18 para Finance and Operations es ahora parte de la versión de Talent. 
 
 -   Los campos obligatorios y otros se pueden ocultar a través de la personalización. Esto le permite a un usuario crear una experiencia simplificada donde los campos obligatorios que son establecidos como valor predeterminado por la lógica de negocios no se muestran. Los campos obligatorios ocultos también se muestran temporalmente si están vacíos cuando se intenta guardar.
 
--   En la plataforma actualizada 18, el cliente Web de Talent ahora adapta sus representaciones visuales al diseño fluido de Microsoft.
+-   En la Platform update 18 para Finance and Operations, el cliente Web de Talent ahora adapta sus representaciones visuales con Microsoft Fluent Design.
 
     -   Cuando los campos se encuentran en “modo de lectura”, solo tiene que seleccionar la opción de edición de los campos para cambiar el formulario al modo edición.
 

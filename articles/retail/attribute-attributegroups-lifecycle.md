@@ -19,18 +19,19 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: 7c722c311048258ce75170ac4276d397fe2828fe
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: c642e4f1b29ac21b6736e770c84f343e9265961d
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606904"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023645"
 ---
 # <a name="attributes-and-attribute-groups"></a>Atributos y grupos de atributos
 
 [!include [banner](includes/banner.md)]
 
-*Atributos* proporciona una forma de describir adicionalmente un producto y sus características a través de campos definidos por el usuario (como **Tamaño de la memoria**, **Capacidad del disco duro**, **Cumple con Energy Star**, etc.). En Microsoft Dynamics 365 for Finance and Operations los atributos se pueden asociar con las distintas entidades minoristas, como categorías de productos y canales de venta minorista, y se pueden definir valores predeterminados. A continuación, los productos heredan los atributos y los valores predeterminados para dichos atributos cuando se asocian a las categorías de productos o canales de venta minorista. Los valores predeterminados se pueden anular en el nivel de producto individual, en el nivel del canal de venta minorista o en un catálogo de venta minorista.
+*Atributos* proporciona una forma de describir adicionalmente un producto y sus características a través de campos definidos por el usuario (como **Tamaño de la memoria**, **Capacidad del disco duro**, **Cumple con Energy Star**, etc.). Los atributos se pueden asociar con las distintas entidades de Retail, como categorías de productos y canales de venta minorista, y se pueden definir valores predeterminados. A continuación, los productos heredan los atributos y los valores predeterminados para dichos atributos cuando se asocian a las categorías de productos o canales de venta minorista. Los valores predeterminados se pueden anular en el nivel de producto individual, en el nivel del canal de venta minorista o en un catálogo de venta minorista.
+
 
 Por ejemplo, un producto de televisión típico puede tener los siguientes atributos.
 
@@ -53,7 +54,7 @@ Por ejemplo, un producto de televisión típico puede tener los siguientes atrib
 
 ## <a name="attributes-and-attribute-types"></a>Atributos y tipos de atributo
 
-Los atributos se basan en *tipos de atributo*. El tipo de atributo identifica el tipo de datos que se pueden introducir para un atributo específico. Finance and Operations admite actualmente los siguientes tipos de atributo:
+Los atributos se basan en *tipos de atributo*. El tipo de atributo identifica el tipo de datos que se pueden introducir para un atributo específico. Se admiten los siguientes tipos de atributo:
 
 - **Moneda**: este tipo admite un valor de divisa. Puede estar limitado (es decir, puede admitir un intervalo de valores) o se puede dejar abierto.
 - **DateTime**: este tipo de atributo admite un valor de fecha y hora. Puede estar limitado o dejarse abierto.
@@ -63,9 +64,9 @@ Los atributos se basan en *tipos de atributo*. El tipo de atributo identifica el
 - **Booleano**: este tipo admite un valor binario (**verdadero** o **falso**).
 - **Referencia**: este tipo hace referencia a otros atributos.
 
-### <a name="set-up-attribute-types-in-finance-and-operations"></a>Configurar tipos de atributo en Finance and Operations
+### <a name="set-up-attribute-types"></a>Configurar tipos de atributo
 
-1. Inicie sesión en el cliente de la oficina administrativa de Finance and Operations como encargado de comercialización.
+1. Inicie sesión en el cliente de la oficina administrativa como encargado de comercialización.
 2. Vaya a **Gestión de información de productos** &gt; **Configuración** &gt; **Categorías y atributos** &gt; **Tipos de atributo**.
 3. Cree dos tipos de atributo del tipo **Texto**, establezca la opción **Lista fija** en **Sí** y, a continuación, agregue una lista de valores:
 
@@ -74,7 +75,7 @@ Los atributos se basan en *tipos de atributo*. El tipo de atributo identifica el
 
 ![Tipos de atributo](media/AttributeType.png)
 
-### <a name="set-up-an-attribute-in-finance-and-operations"></a>Configurar un atributo en Finance and Operations
+### <a name="set-up-an-attribute"></a>Configurar un atributo
 
 1. Inicie sesión en el cliente de la oficina administrativa como encargado de comercialización.
 2. Vaya a **Gestión de información de productos** &gt; **Configuración** &gt; **Categorías y atributos** &gt; **Atributos**.
@@ -101,13 +102,13 @@ Aquí se muestran las opciones restantes de los metadatos de atributos en la pá
 - Ignorar caso y formato
 - Coincidencia completa
 
-Estas opciones estaban pensadas originalmente para mejorar la funcionalidad de búsqueda para el escaparate en línea. Aunque Finance and Operations no incluye el escaparete en línea lista para usar, incluye el kit de desarrollo de software (SDK) de publicación de comercio electrónico. Los clientes pueden usar este SDK para poner productos en un índice de búsqueda de su elección. Aunque los datos del productos son importados, los clientes aún deben poder distinguir los datos que se pueden buscar, los datos que se pueden consultar, etc. De esa manera, pueden crear un índice óptimo para asegurarse de que solo indexan los atributos que, *en su opinión*, deben indexarse.
+Estas opciones estaban pensadas originalmente para mejorar la funcionalidad de búsqueda para el escaparate en línea. Aunque Retail no incluye el escaparete en línea lista para usar, incluye el kit de desarrollo de software (SDK) de publicación de comercio electrónico. Los clientes pueden usar este SDK para poner productos en un índice de búsqueda de su elección. Aunque los datos del productos son importados, los clientes aún deben poder distinguir los datos que se pueden buscar, los datos que se pueden consultar, etc. De esa manera, pueden crear un índice óptimo para asegurarse de que solo indexan los atributos que, *en su opinión*, deben indexarse.
 
 Para obtener información acerca del propósito de estas opciones restantes, consulte [Visión general del esquema de búsqueda en SharePoint Server 2013](https://technet.microsoft.com/library/jj219669.aspx).
 
 ## <a name="filter-settings-for-attributes"></a>Parámetros de filtro para atributos
 
-Los parámetros de filtro para atributos le permiten definir cómo se muestran los filtros para atributos en el PDV comercial. Para acceder a los parámetros de filtro para un atributo, en la página **Atributos** en Finance and Operations, seleccione el atributo y, a continuación, en el panel de acciones, seleccione **Parámetros de filtro**.
+Los parámetros de filtro para atributos le permiten definir cómo se muestran los filtros para atributos en el PDV comercial. Para acceder a los parámetros de filtro para un atributo, en la página **Atributos**, seleccione el atributo y, a continuación, en el panel de acciones, seleccione **Parámetros de filtro**.
 
 La página **Preferencias de visualización de filtros** incluye los siguientes campos:
 
@@ -233,7 +234,7 @@ Los valores predeterminados de atributos se pueden anular para productos individ
     - Atributos de producto del canal
 
     > [!NOTE]
-    > Si se crean medios del producto compartido y atributos del producto compartido en Finance and Operations, se aplican a todos los productos al por menor.
+    > Si se crean medios del producto compartido y atributos del producto compartido, se aplican a todos los productos al por menor.
 
 ![Grupos de atributos del producto de catálogo](media/CatalogProdAttrValues.png)
 
@@ -255,4 +256,4 @@ Los valores predeterminados de atributos se pueden anular para productos individ
     - Atributos de producto del canal
 
     > [!NOTE]
-    > Si se crean medios del producto compartido y atributos del producto compartido en Finance and Operations, se aplican a todos los productos al por menor.
+    > Si se crean medios del producto compartido y atributos del producto compartido, se aplican a todos los productos al por menor.

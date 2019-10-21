@@ -1,6 +1,6 @@
 ---
 title: Administración de precio de ventas minoristas
-description: En este tema se describen los conceptos para crear y administrar precios de ventas en Microsoft Dynamics 365 for Retail.
+description: En este tema se describen los conceptos para crear y administrar precios de ventas en Dynamics 365 Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
 ms.date: 06/10/2019
@@ -17,18 +17,18 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 813547f522f5c69920eadf9df61e7f01b13ecd36
-ms.sourcegitcommit: 7feb5d279adedd44f038195ce0f5e1c27d374049
+ms.openlocfilehash: 081fadf0c120eba50af9e6c396fb3e492051bb3c
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624798"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025227"
 ---
 # <a name="retail-sales-price-management"></a>Administración de precios de venta minorista
 
 [!include [banner](includes/banner.md)]
 
-Este tema proporciona información acerca del proceso de creación y la administración de precios de ventas en Microsoft Dynamics 365 for Retail. Se centra en los conceptos implicados en este proceso y en los efectos de las distintas opciones de configuración para los precios de venta.
+Este tema proporciona información acerca del proceso de creación y la administración de precios de ventas en Dynamics 365 Retail. Se centra en los conceptos implicados en este proceso y en los efectos de las distintas opciones de configuración para los precios de venta.
 
 ## <a name="terminology"></a>Terminología
 

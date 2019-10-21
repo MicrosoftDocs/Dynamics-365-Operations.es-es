@@ -1,6 +1,6 @@
 ---
 title: Catálogos de centros de llamadas
-description: Este tema describe la funcionalidad específica del centro de llamadas para catálogos en Microsoft Dynamics 365 for Retail.
+description: Este tema describe la funcionalidad específica del centro de llamadas para catálogos en Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 05/15/2018
@@ -19,24 +19,24 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 65c1c3070aa48bf7a2016534071693716fabe831
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2ad50be1394daf5bffa6391d2f56340aad14120b
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562751"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023668"
 ---
 # <a name="call-center-catalogs"></a>Catálogos de centros de llamadas
 
 [!include [banner](includes/banner.md)]
 
-Este tema describe la funcionalidad específica del centro de llamadas vinculada a las capacidades del catálogo en Microsoft Dynamics 365 for Retail.
+Este tema describe la funcionalidad específica del centro de llamadas vinculada a las capacidades del catálogo en Dynamics 365 Retail.
 
-Las características del catálogo que se encuentran en Dynamics 365 for Retail se pueden utilizar para varios propósitos. Las características del catálogo se crearon inicialmente para admitir las integraciones de comercio electrónico de terceros. La configuración del catálogo permitieron a las empresas crear una agrupación de productos y atributos que se podrían publicar externamente para su consumo por una solución de comercio electrónico de terceros.
+Las características del catálogo que se encuentran en Retail se pueden utilizar para varios propósitos. Las características del catálogo se crearon inicialmente para admitir las integraciones de comercio electrónico de terceros. La configuración del catálogo permitieron a las empresas crear una agrupación de productos y atributos que se podrían publicar externamente para su consumo por una solución de comercio electrónico de terceros.
 
-Cuando el soporte del canal de centro de llamadas se agregó Dynamics 365 for Retail, el concepto del catálogo se amplió para agregar capacidades adicionales para admitir y gestionar características relacionadas con catálogos tradicionales de marketing de directo a consumidor. Una empresa de directo a consumidor mostrará a menudo catálogos impresos, que se registran en uno o más segmentos de clientes. Normalmente, estos catálogos tendrán promociones u ofertas específicas que solo se aplicarán si el cliente proporciona un código de identificación del catálogo en el momento de la creación de pedidos.
+Cuando el soporte del canal de centro de llamadas se agregó en Retail, el concepto del catálogo se amplió para agregar capacidades adicionales para admitir y gestionar características relacionadas con catálogos tradicionales de marketing de directo a consumidor. Una empresa de directo a consumidor mostrará a menudo catálogos impresos, que se registran en uno o más segmentos de clientes. Normalmente, estos catálogos tendrán promociones u ofertas específicas que solo se aplicarán si el cliente proporciona un código de identificación del catálogo en el momento de la creación de pedidos.
 
-La empresas de marketing de directo a consumidor se centran mucho en realizar un seguimiento de la respuesta a estos catálogos para garantizar que se justifican los costes de producción y envío por correo electrónico. Para realizar un seguimiento de la respuesta, se imprime tradicionalmente un código en la parte trasera del catálogo y luego este código se solicita y se aplica cuando el destinatario del catálogo llama para realizar un pedido por teléfono (o ahora, más tradicionalmente, el código se puede introducir cuando el cliente realiza un pedido en línea). Si bien existen diferentes términos del sector que se han utilizado para identificar este código de seguimiento del catálogo (incluido el código de clave, el código de promoción, el código del catálogo, el código de origen), nos referimos al código en Dynamics 365 for Retail como el **Identificador del código de origen**.
+La empresas de marketing de directo a consumidor se centran mucho en realizar un seguimiento de la respuesta a estos catálogos para garantizar que se justifican los costes de producción y envío por correo electrónico. Para realizar un seguimiento de la respuesta, se imprime tradicionalmente un código en la parte trasera del catálogo y luego este código se solicita y se aplica cuando el destinatario del catálogo llama para realizar un pedido por teléfono (o ahora, más tradicionalmente, el código se puede introducir cuando el cliente realiza un pedido en línea). Si bien existen diferentes términos del sector que se han utilizado para identificar este código de seguimiento del catálogo (incluido el código de clave, el código de promoción, el código del catálogo, el código de origen), nos referimos al código en Retail como el **Identificador del código de origen**.
 
 ## <a name="basic-catalog-setup"></a>Configuración de catálogo básico
 
@@ -92,7 +92,7 @@ Al configurar los productos del catálogo, utilice la acción **Diseño de pági
 
 ## <a name="catalog-requests"></a>Solicitudes de catálogo
 
-A medida que los catálogos se configuran y se publican en Dynamics 365 for Retail, se puede utilizar la función **Enviar catálogo**. Esta función está disponible en las páginas **Búsqueda de clientes** y **Servicio al cliente**. Después de seleccionar un registro de cliente a través de **Búsqueda de clientes** o mientras se visualiza una cuenta de clientes seleccionada desde **Servicio al cliente**, los usuarios pueden seleccionar la opción **Enviar catálogo** que abrirá un cuadro de diálogo, lo que permite al usuario elegir entre una lista de cualquier catálogo publicado y activo. Un usuario puede seleccionar un catálogo y una cantidad, y un identificador del código de origen particular para enviarlo. Cuando hagan clic en el botón **Enviar**, se guarda una solicitud que se puede gestionar imprimiendo el informe **Solicitudes de catálogo**. Este informe se encuentra navegando a **Retail** \> **Informes de centro de llamadas** \> **Informe de solicitudes de catálogo**. Muestra todas las solicitudes del catálogo, incluidos detalles del nombre y la dirección del cliente que solicitó el catálogo. Este informe se puede utilizar internamente o los datos se pueden transmitir a un tercero que admita procesos externos para enviar físicamente el catálogo al cliente.
+A medida que los catálogos se configuran y se publican en Retail, se puede utilizar la función **Enviar catálogo**. Esta función está disponible en las páginas **Búsqueda de clientes** y **Servicio al cliente**. Después de seleccionar un registro de cliente a través de **Búsqueda de clientes** o mientras se visualiza una cuenta de clientes seleccionada desde **Servicio al cliente**, los usuarios pueden seleccionar la opción **Enviar catálogo** que abrirá un cuadro de diálogo, lo que permite al usuario elegir entre una lista de cualquier catálogo publicado y activo. Un usuario puede seleccionar un catálogo y una cantidad, y un identificador del código de origen particular para enviarlo. Cuando hagan clic en el botón **Enviar**, se guarda una solicitud que se puede gestionar imprimiendo el informe **Solicitudes de catálogo**. Este informe se encuentra navegando a **Retail** \> **Informes de centro de llamadas** \> **Informe de solicitudes de catálogo**. Muestra todas las solicitudes del catálogo, incluidos detalles del nombre y la dirección del cliente que solicitó el catálogo. Este informe se puede utilizar internamente o los datos se pueden transmitir a un tercero que admita procesos externos para enviar físicamente el catálogo al cliente.
 
 ## <a name="additional-features"></a>Funciones adicionales
 

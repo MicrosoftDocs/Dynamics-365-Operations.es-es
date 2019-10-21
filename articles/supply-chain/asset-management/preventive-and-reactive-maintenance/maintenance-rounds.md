@@ -3,7 +3,7 @@ title: Rondas de mantenimiento
 description: En este tema se explican las rondas de mantenimiento en Administración de activos.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,22 +16,20 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a0ac4820d2efa37387382c2890e3ddc7dbc0878b
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: eca732f245650c8e1f3dc976454536a0ab1ee117
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875879"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922031"
 ---
 # <a name="maintenance-rounds"></a>Rondas de mantenimiento
-
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [banner](../../includes/preview-banner.md)]
-
 
 En **Administración de activos**, puede crear rondas de mantenimiento para varios activos en los que tiene que realizar una tarea similar a intervalos periódicos. Por ejemplo, los trabajos de lubricación o de inspección de seguridad que tengan que llevarse a cabo en una serie de máquinas dentro de los mismos intervalos. El primer paso consiste en crear una ronda de mantenimiento, incluidos los activos que requieren el mismo formulario de trabajo de mantenimiento. A continuación, programe las rondas de mantenimiento. Cuando haya completado la programación de rondas de mantenimiento, puede ver todos los registros de trabajo relacionados con la ronda en **Todo el programa de mantenimiento** y en **Líneas del programa de mantenimiento abiertas**.
 
@@ -83,6 +81,8 @@ En **Administración de activos**, puede crear rondas de mantenimiento para vari
 >[!NOTE]
 >Los campos **Activos** y **Líneas** que se encuentran en el grupo **Detalles** en la ficha desplegable **Encabezado** muestran el número total de activos y líneas relacionados con la ronda de mantenimiento seleccionada.
 
+La ilustración siguiente muestra un ejemplo de una ronda de mantenimiento con tres activos.
+
 ![Figura 1](media/13-preventive-maintenance.png)
 
 
@@ -106,6 +106,8 @@ Cuando haya configurado una ronda de mantenimiento, ejecute un trabajo de progra
 6. Haga clic en **Aceptar**.
 
 7. Ahora puede ver los trabajos de las rondas de mantenimiento en **Administración de activos** > **Común** > **Programa de mantenimiento** > **Todo el programa de mantenimiento** o **Líneas del programa de mantenimiento abiertas**. Si las rondas programadas están conectadas a un grupo de órdenes de trabajo, verá las líneas del programa de mantenimiento en **Grupos del programa de mantenimiento abiertos**. Las líneas del programa de mantenimiento creada desde una ronda tienen el tipo de referencia "Rondas de mantenimiento".
+
+Las dos siguientes ilustraciones siguientes muestran un trabajo de programación en el cuadro de diálogo **Rondas de mantenimiento de programación** y las líneas del programa de mantenimiento creadas en **Todo el programa de mantenimiento** basándose en ese trabajo de programación.
 
 ![Figura 2](media/14-preventive-maintenance.png)
 

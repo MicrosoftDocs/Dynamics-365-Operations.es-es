@@ -1,6 +1,6 @@
 ---
-title: Novedades y cambios en Dynamics 365 for Talent (7 de febrero de 2019)
-description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 for Talent.
+title: Novedades y cambios en Dynamics 365 Talent (7 de febrero de 2019)
+description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 02/07/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-02-07
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b89fc15130755a80b56f26cf7c61674a26f43e36
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: c4005a8745e46a23fe16b94cab7b7aeb20f84035
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518998"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009771"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-february-7-2019"></a>Novedades y cambios en Dynamics 365 for Talent (7 de febrero de 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-february-7-2019"></a>Novedades y cambios en Dynamics 365 Talent (7 de febrero de 2019)
 
 [!include [banner](includes/banner.md)]
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37c9392263e8c113c541b64e8e79853520a13d11
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 1e0369be278519f39fc304b34ef3a270438f0bb1
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518982"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026265"
 ---
 # <a name="distribute-and-schedule-questionnaires"></a>Distribuir y programar cuestionarios
 
@@ -83,7 +83,7 @@ Puede especificar los tipos de planificación para una programación de cuestion
 
 Puede utilizar tipos de referencia para especificar los criterios para los encuestados que podría seleccionar al programar un cuestionario. 
 
-Use la página **Tipos de referencia** para configurar tipos de referencia para un cuestionario. Cada tipo de referencia se corresponde con una tabla en Microsoft Dynamics 365 for Finance and Operations. Al crear programaciones de cuestionarios, puede especificar los registros individuales en la tabla o un intervalo de registros con los que el cuestionario esté asociado. 
+Use la página **Tipos de referencia** para configurar tipos de referencia para un cuestionario. Cada tipo de referencia se corresponde con una tabla en Microsoft Dynamics 365 Finance. Al crear programaciones de cuestionarios, puede especificar los registros individuales en la tabla o un intervalo de registros con los que el cuestionario esté asociado. 
 
 Por ejemplo, si selecciona la tabla Cursos, puede decidir para qué curso específico será el cuestionario. Al configurar un tipo de referencia para la tabla Cursos, algunos campos y botones de la página **Cursos** pueden hacerse disponibles.
 

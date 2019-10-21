@@ -1,6 +1,6 @@
 ---
 title: Definir y mantener canales comerciales
-description: Este tema proporciona una visión general del proceso para configurar tiendas físicas, que se conocen como tiendas minoristas en Microsoft Dynamics 365 for Retail. Incluye información acerca de las tareas que debe completar tanto antes como después de configurar una tienda minorista.
+description: Este tema proporciona una visión general del proceso para configurar tiendas físicas, que se conocen como tiendas minoristas en Dynamics 365 Retail. Incluye información acerca de las tareas que debe completar tanto antes como después de configurar una tienda minorista.
 author: mugunthanm
 manager: AnnBe
 ms.date: 11/14/2017
@@ -19,24 +19,24 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 53ba6cdb2378ce9011c6e7e3ce4e67c789adb1e6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f55099ad283e665965aad0684b3c9d87223d5ed7
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560358"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019379"
 ---
 # <a name="define-and-maintain-retail-channels"></a>Definir y mantener canales comerciales
 
 [!include [banner](includes/banner.md)]
 
-Este tema proporciona una visión general del proceso para configurar tiendas físicas, que se conocen como tiendas minoristas en Microsoft Dynamics 365 for Retail. Incluye información acerca de las tareas que debe completar tanto antes como después de configurar una tienda minorista.
+Este tema proporciona una visión general del proceso para configurar tiendas físicas, que se conocen como tiendas minoristas en Dynamics 365 Retail. Incluye información acerca de las tareas que debe completar tanto antes como después de configurar una tienda minorista.
 
-Dynamics 365 for Retail admite varios canales de venta, como tiendas en línea, almacenes físicos y centros de llamadas. Las tiendas físicas también se denominan tiendas minoristas. Cada tienda minorista puede tener sus propios métodos de pago, grupos de precios, puntos de venta (PDV), cuentas de ingresos y gastos o personal. Debe configurar todos estos elementos para una tienda antes de crearla. Después de crear la tienda, se asignan los productos que desea que tenga. También asigna empleados, cajas registradoras y clientes a la tienda. Por último, la nueva tienda se agrega a una jerarquía organizativa.
+Retail admite varios canales de venta, como tiendas en línea, centros de llamadas, y almacenes físicos. Las tiendas físicas también se denominan tiendas minoristas. Cada tienda minorista puede tener sus propios métodos de pago, grupos de precios, puntos de venta (PDV), cuentas de ingresos y gastos o personal. Debe configurar todos estos elementos para una tienda antes de crearla. Después de crear la tienda, se asignan los productos que desea que tenga. También asigna empleados, cajas registradoras y clientes a la tienda. Por último, la nueva tienda se agrega a una jerarquía organizativa.
 
 ## <a name="setting-up-retail-stores"></a>Configurar tiendas
 
-Antes de poder configurar una tienda minorista en Dynamics 365 for Retail, debe completar algunas de las tareas de requisitos previos. A continuación, puede crear la tienda y agregar detalles.
+Antes de poder configurar una tienda minorista en Retail, debe completar algunas de las tareas de requisitos previos. A continuación, puede crear la tienda y agregar detalles.
 
 ### <a name="prerequisites"></a>Requisitos previos
 
@@ -55,7 +55,7 @@ Para poder configurar una tienda, debe completar las siguientes tareas:
 11. Configure los empleados.
 
     > [!NOTE]
-    > Nota: También debe asignar los permisos adecuados a los trabajadores, de modo que puedan iniciar sesión y realizar tareas con el sistema de Dynamics 365 for Retail for Retail POS.
+    > También debe asignar los permisos adecuados a los trabajadores, de modo que puedan iniciar sesión y realizar tareas con el sistema Retail POS.
 
 12. Configure los perfiles de Retail POS que se deben asignar a la tienda. Esta tarea incluye muchas otras tareas, por ejemplo, la configuración de los registros, los perfiles sin conexión y los formatos y perfiles de recepción.
 

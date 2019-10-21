@@ -3,7 +3,7 @@ title: Visión general del proceso de producción
 description: Este tema ofrece una visión general de los procesos de producción. Describe las distintas etapas de pedidos de producción, de pedidos de lote y de kanbans, desde la creación de pedidos al cierre del período financiero.
 author: cvocph
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 09/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cd529afa5d8117e01784ed267709e1ac8c43290d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5b586a02d79fbbee698f32ab2ace3f86e7262fa7
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546672"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250035"
 ---
 # <a name="production-process-overview"></a>Visión general del proceso de producción
 
@@ -36,12 +36,12 @@ La producción de productos, un proceso también conocido como el ciclo de vida 
 
 El módulo **Control de producción** está vinculado a otros módulos, como **Gestión de información de productos**, **Gestión de inventarios**, **Contabilidad general**, **Administración de almacenes**, **Contabilidad de proyectos** y **Administración de la organización**. Esta integración permite el flujo de información necesario para completar la fabricación de un artículo terminado.  
 
-El proceso de producción se ve influenciado normalmente por los métodos de validación de inventario y contabilidad de costes que se eligen para un proceso de producción específico. Finance and Operations admite ambos métodos, el de coste real (primero en entrar, primero en salir \[FIFO\]; último en entrar, primero en salir \[LIFO\]; promedio móvil; y media ponderada periódica) y el de coste estándar. La Lean manufacturing se implementa en función del principio de la contabilización previa de los costes.  
+El proceso de producción se ve influenciado normalmente por los métodos de validación de inventario y contabilidad de costes que se eligen para un proceso de producción específico. Supply Chain Management admite ambos métodos, el de coste real (primero en entrar, primero en salir \[FIFO\]; último en entrar, primero en salir \[LIFO\]; promedio móvil; y media ponderada periódica) y el de coste estándar. La Lean manufacturing se implementa en función del principio de la contabilización previa de los costes.  
 
 La opción de los métodos de medición del coste también define los requisitos para informar sobre el consumo de material y recursos durante el proceso de producción. Normalmente, los métodos de coste real requieren un informe exacto en el nivel de trabajo, mientras que los métodos de costes periódicos permiten disponer de informes menos granulares sobre el consumo de materiales y recursos.
 
 ## <a name="mixed-mode-manufacturing"></a>Fabricación en modo mixto
-Los distintos productos y topologías de producción que requieren la aplicación de distintos tipos de pedido. Finance and Operations puede aplicar los distintos tipos de pedido de modo mezclado. En otras palabras, se pueden producir todos los tipos de pedidos durante el proceso de completo de producir un producto terminado.
+Los distintos productos y topologías de producción que requieren la aplicación de distintos tipos de pedido. Supply Chain Management puede aplicar los distintos tipos de pedido de modo mezclado. En otras palabras, se pueden producir todos los tipos de pedidos durante el proceso de completo de producir un producto terminado.
 
 -   **Pedido de producción**: este es el tipo de pedido clásico para producir un producto o una variante del producto específico de una cantidad concreta en una fecha específica. Los pedidos de producción se basan en listas de materiales y rutas.
 -   **Pedido de lote**: este tipo de pedido se usa para industrias de proceso y procesos discretos donde la conversión de fabricación se basa en una fórmula, o donde los coproductos y productos derivados pueden ser productos finales, o en lugar del producto principal. Los pedidos de lote usan listas de materiales y rutas de tipo **Fórmula**.

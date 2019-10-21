@@ -1,6 +1,6 @@
 ---
-title: Novedades y cambios en Dynamics 365 for Talent (5 de marzo de 2019)
-description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 for Talent.
+title: Novedades y cambios en Dynamics 365 Talent (5 de marzo de 2019)
+description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 03/05/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: fe24846ab98a75d474df045a62a72bfc41c64866
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: c7ee8f4cf14197d6bd4549741058fc5fe95ae55d
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741899"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026679"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-5-2019"></a>Novedades y cambios en Dynamics 365 for Talent (5 de marzo de 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-march-5-2019"></a>Novedades y cambios en Dynamics 365 Talent (5 de marzo de 2019)
 
 [!include [banner](includes/banner.md)]
 
@@ -78,5 +78,5 @@ Las fechas límites para actualizarse a Common Data Service se acercan rápidame
 ###  <a name="advanced-compensation-security-fixed-and-variable"></a>Seguridad de compensación avanzada (fija y variable)
 En muchas organizaciones, los administradores de compensación y prestaciones solo pueden acceder a ciertos registros de compensación, como registros para los ejecutivos o los empleados basados en regiones. Con este cambio, puede administrar y mantener los planes de compensación para distintos grupos de empleados en la organización. Se pueden asignar roles de seguridad a los planes fijos y variables, lo que determinará el acceso a los planes y los datos del empleado relacionados con los planes, como el salario y los registros de bonificaciones. Solo los roles con acceso podrán procesar la compensación para dichos empleados.
 
-###  <a name="platform-update-24"></a>Actualización 24 de la plataforma
-Para obtener detalles adicionales sobre la actualización 24 de la plataforma, consulte [Novedades o cambios en la actualización 24 de la plataforma Finance and Operations (marzo de 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24)
+###  <a name="platform-update-24-for-finance-and-operations"></a>Platform update 24 para Finance and Operations
+Para obtener detalles adicionales sobre la Platform update 24 for Finance and Operations, consulte [Novedades o cambios en la Platform update 24 para Finance and Operations (marzo de 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24)

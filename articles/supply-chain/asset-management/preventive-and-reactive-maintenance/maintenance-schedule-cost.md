@@ -3,7 +3,7 @@ title: Coste del programa de mantenimiento
 description: En este tema se explica el coste del programa de mantenimiento en Administración de activos.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,22 +16,20 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 71b958839a914d90a86a0dcd16a09285ca6dcfa4
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: b2f53a4a64b06efc9269c607bfe1fc3a41c90cdd
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875872"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922077"
 ---
 # <a name="maintenance-schedule-cost"></a>Coste del programa de mantenimiento
-
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [banner](../../includes/preview-banner.md)]
-
 
 En Administración de activos, puede calcular los costes presupuestarios en las líneas del programa de mantenimiento. Esto resulta útil si desea obtener una visión general de los costes previstos, por ejemplo, costes relacionados con trabajos de mantenimiento preventivo planificados para el año próximo. Los cálculos se basan en líneas existentes del programa de mantenimiento de tipo "Planes de mantenimiento" y "Rondas de mantenimiento" y "Solicitudes de mantenimiento".
 
@@ -48,10 +46,11 @@ En Administración de activos, puede calcular los costes presupuestarios en las 
 
 5. Haga clic en **Aceptar** para iniciar el cálculo de costes.
 
-6. En la pestaña **Coste del programa de mantenimiento** > en los grupos del panel de acciones **Agrupar por...**, haga clic en los botones relevantes para mostrar el nivel de detalle necesario del cálculo de costes. Se resaltarán en color azul los botones del grupo del panel de acciones seleccionados. Haga clic en un botón para activarlo o desactivarlo.
+6. En la pestaña **Coste del programa de mantenimiento** > en los grupos del panel de acciones **Agrupar por...**, haga clic en los botones relevantes para mostrar el nivel de detalle necesario del cálculo de costes. Se resaltarán los botones del grupo de paneles de acciones seleccionado. Haga clic en un botón para activarlo o desactivarlo.
 
 7. Haga clic en el botón **Calcular coste** si desea crear un nuevo cálculo de costes.
 
+La ilustración siguiente muestra los resultados del cálculo de costes del programa de mantenimiento.
 
 ![Figura 1](media/17-preventive-maintenance.png)
 

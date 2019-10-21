@@ -1,6 +1,6 @@
 ---
-title: Sincronizar almacenes de Finance and Operations a Field Service
-description: En este tema se describe las plantillas y las tareas subyacentes que se usan para sincronizar almacenes de Microsoft Dynamics 365 for Finance and Operations a Microsoft Dynamics 365 for Field Service.
+title: Sincronizar almacenes de Supply Chain Management a Field Service
+description: En este tema se describe las plantillas y las tareas subyacentes que se usan para sincronizar almacenes de Dynamics 365 Supply Chain Management a Dynamics 365 Field Service.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 03/13/2019
@@ -19,41 +19,41 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: ae99624076eecda2969961d0361d1adf42c6c5f3
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 94fb6720152cbf6aec58d2b8d9d02fc5343c05e2
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835679"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251187"
 ---
-# <a name="synchronize-warehouses-from-finance-and-operations-to-field-service"></a>Sincronizar almacenes de Finance and Operations a Field Service
+# <a name="synchronize-warehouses-from-supply-chain-management-to-field-service"></a>Sincronizar almacenes de Supply Chain Management a Field Service
 
 [!include[banner](../includes/banner.md)]
 
-En este tema se describe las plantillas y las tareas subyacentes que se usan para sincronizar almacenes de Microsoft Dynamics 365 for Finance and Operations a Microsoft Dynamics 365 for Field Service.
+En este tema se describe las plantillas y las tareas subyacentes que se usan para sincronizar almacenes de Dynamics 365 Supply Chain Management a Dynamics 365 Field Service.
 
-[![Sincronización de procesos empresariales entre Finance and Operations y Field Service](./media/FSWarehouseOW.png)](./media/FSWarehouseOW.png)
+[![Sincronización de procesos empresariales entre Supply Chain Management y Field Service](./media/FSWarehouseOW.png)](./media/FSWarehouseOW.png)
 
 ## <a name="templates-and-tasks"></a>Plantillas y tareas
-Se utilizan la plantilla y las tareas subyacentes siguientes para ejecutar la sincronización de almacenes de Microsoft Dynamics 365 for Finance and Operations en Microsoft Dynamics 365 for Field Service.
+La plantilla siguiente y las tareas subyacentes se usan para ejecutar sincronización de almacenes de Supply Chain Management a Field Service.
 
 **Plantilla en la integración de datos**
-- Almacenes (Fin and Ops a Field Service)
+- Almacenes (Supply Chain Management a Field Service)
 
 **Tarea en el proyecto de integración de datos**
 - Almacén
 
 ## <a name="entity-set"></a>Conjunto de entidades
-| Field Service    | Finance and Operations                 |
+| Field Service    | Gestión de la cadena de abastecimiento                 |
 |------------------|----------------------------------------|
 | msdyn_warehouses | Almacenes                             |
 
 ## <a name="entity-flow"></a>Flujo de la entidad
-Los almacenes creados y mantenidos en Finance and Operations se pueden sincronizar con Field Service mediante un proyecto de integración de datos del Common Data Service (CDS). Los almacenes que quiere sincronizar con Field Service se pueden controlar con la consulta y un filtrado avanzado en el proyecto. Los almacenes que se sincronizan desde Finance and Operations se crean en Field Service con el campo **Se mantienen externamente** establecido en **Sí** y el registro se convierte en solo lectura.
+Los almacenes creados y mantenidos en Supply Chain Management se pueden sincronizar con Field Service mediante un proyecto de integración de datos del Common Data Service (CDS). Los almacenes que quiere sincronizar con Field Service se pueden controlar con la consulta y un filtrado avanzado en el proyecto. Los almacenes que se sincronizan desde Supply Chain Management se crean en Field Service con el campo **Se mantienen externamente** establecido en **Sí** y el registro se convierte en solo lectura.
 
 ## <a name="field-service-crm-solution"></a>Solución CRM de Field Service
-Para admitir la integración entre Field Service y Finance and Operations, la funcionalidad adicional de la solución de CRM Field Service es necesaria. En la solución, el campo **Se mantiene externamente** se ha agregado a la entidad **Almacén (msdyn_warehouses)**. Este campo ayuda a identificar si el almacén se administra desde Finance and Operations o si solo existe en Field Service. Los parámetros de este campos son:
-- **Sí** - El almacén se ha originado en Finance and Operations y no se podrá editar en Sales.
+Para admitir la integración entre Field Service y Finance and Operations, la funcionalidad adicional de la solución de CRM Field Service es necesaria. En la solución, el campo **Se mantiene externamente** se ha agregado a la entidad **Almacén (msdyn_warehouses)**. Este campo ayuda a identificar si el almacén se administra desde Supply Chain Management o si solo existe en Field Service. Los parámetros de este campos son:
+- **Sí** - El almacén se ha originado en Supply Chain Management y no se podrá editar en Sales.
 - **No** – el almacén se especificó directamente en Field Service y se mantiene aquí.
 
 El campo **Se mantiene externamente** ayuda a controlar la sincronización de los niveles de inventario, los ajustes, las transferencias y uso en pedidos de trabajo. Solo los almacenes con **Se mantiene externamente** establecido en **Sí** se pueden usar para sincronizarse directamente con el mismo almacén en el otro sistema. 
@@ -63,7 +63,7 @@ El campo **Se mantiene externamente** ayuda a controlar la sincronización de lo
 
 ## <a name="prerequisites-and-mapping-setup"></a>Condiciones previas y configuración de asignación
 ### <a name="data-integration-project"></a>Proyecto de integración de datos
-Antes de sincronizar los almacenes asegúrese de actualizar la consulta y el filtrado avanzados en el proyecto para incluir solo los almacenes que desea llevar de Finance and Operations a Field Service. Tenga en cuenta que necesitará el almacén de Field Service para aplicarlo en pedidos de trabajo, ajustes y transferencias.  
+Antes de sincronizar los almacenes asegúrese de actualizar la consulta y el filtrado avanzados en el proyecto para incluir solo los almacenes que desea llevar de Supply Chain Management a Field Service. Tenga en cuenta que necesitará el almacén de Field Service para aplicarlo en pedidos de trabajo, ajustes y transferencias.  
 
 Para asegurarse de que haya una **clave de integración** para **msdyn_warehouses**:
 1. Vaya a integración de datos.
@@ -76,6 +76,6 @@ Para asegurarse de que haya una **clave de integración** para **msdyn_warehouse
 
 La siguiente ilustración muestra la asignación de plantilla en la integración de datos.
 
-### <a name="warehouses-fin-and-ops-to-field-service-warehouse"></a>Almacenes (Fin and Ops a Field Service): Almacén
+### <a name="warehouses-supply-chain-management-to-field-service-warehouse"></a>Almacenes (Supply Chain Management a Field Service): Almacén
 
 [![Asignación de la plantilla en la integración de datos](./media/Warehouse1.png)](./media/Warehouse1.png)

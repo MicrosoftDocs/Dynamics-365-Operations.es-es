@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 5942016374eb2c681e65b2d6151824924f290dc2
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 73ffe05d8c869418f7601025e8ce19e1b05c952f
+ms.sourcegitcommit: 0dd8d0510214f92936a9dd214b404c5c8103587b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519007"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2419255"
 ---
 # <a name="manage-items-that-are-lent-to-workers"></a>Administración de artículos que se prestan a trabajadores
 
@@ -53,7 +53,7 @@ Si un elemento se daña o se extravía, introduzca un registro de devolución fi
 <a name="additional-resources"></a>Recursos adicionales
 --------
 
-[Recursos humanos](index.md)
+[Recursos humanos](index.yml)
 
 
 

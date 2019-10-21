@@ -1,6 +1,6 @@
 ---
 title: Artículos fantasma
-description: Este tema describe, en detalle, cómo el tipo de línea fantasma puede usarse para las líneas de una lista de materiales (BOM) y una fórmula en Microsoft Dynamics 365 for Finance and Operations.
+description: Este tema describe, en detalle, cómo el tipo de línea fantasma puede usarse para las líneas de una lista de materiales (BOM) y una fórmula en Dynamics 365 Supply Chain Management.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/15/2018
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validfrom: ''
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: f01a0321740365c23cbc117be42c0a5137960af7
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 7c39b0ac2eb8a2293c828fee23ed6a78cb5fe2c9
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843898"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250028"
 ---
 # <a name="phantom-items"></a>Artículos fantasma
 
@@ -51,7 +51,7 @@ En esta estructura, puede ver que no hay noción de las piezas F y G y que los m
 
 A diferencia de la lista de materiales de ingeniería, que tenía dos hojas de operaciones, la L. MAT de fabricación solo tiene una hoja de operaciones. La operación de embalaja que estaba vinculada a la parte G también se ha elevado y ahora es parte de la hoja de operaciones del producto H. El ensamblado de la unidad de iluminación es la primera operación. Este pedido tiene sentido, porque esta unidad se usa en la siguiente operación, que es el ensamblado de equipo. La última operación es la operación de embalaje, que consume dos materiales de embalaje (C y D).
 
-En Microsoft Dynamics 365 for Finance and Operations, la transición entre el MAT de ingeniería y el MAT de fabricación se habilita a través del tipo de línea de L. MAT fantasma. Como el mismo término “fantasma” indica, las partes F G y han desaparecido durante la transición entre los dos tipos de L. MAT. En este ejemplo, se aplica el tipo de línea fantasma a las L. MAT de las piezas F y G de la L. MAT de ingeniería. Cuando se crea una producción o un pedido de lote, la L. MAT de ingeniería se copia en el pedido de producción o de lote. Posteriormente, cuando se estima el pedido, la transición de la lista de materiales de ingeniería a la L MAT de fabricación se produce, tal como se muestra en las ilustraciones precedentes. En la hoja de operaciones de la segunda ilustración, los materiales de embalaje C y D se introducen para la operación. 
+La transición entre el MAT de ingeniería y el MAT de fabricación se habilita a través del tipo de línea de L. MAT fantasma. Como el mismo término “fantasma” indica, las partes F G y han desaparecido durante la transición entre los dos tipos de L. MAT. En este ejemplo, se aplica el tipo de línea fantasma a las L. MAT de las piezas F y G de la L. MAT de ingeniería. Cuando se crea una producción o un pedido de lote, la L. MAT de ingeniería se copia en el pedido de producción o de lote. Posteriormente, cuando se estima el pedido, la transición de la lista de materiales de ingeniería a la L MAT de fabricación se produce, tal como se muestra en las ilustraciones precedentes. En la hoja de operaciones de la segunda ilustración, los materiales de embalaje C y D se introducen para la operación. 
 
 ## <a name="multilevel-phantom-bom-structures"></a>Estructuras L. MAT fantasma de varios niveles
 El tipo de línea fantasma puede usarse en estructuras de varios niveles de L MAT, como se muestra en la siguiente ilustración. En este ejemplo, (a) es la L. MAT del producto G y (b) es la hoja de ruta de las piezas E y F y el producto G. 

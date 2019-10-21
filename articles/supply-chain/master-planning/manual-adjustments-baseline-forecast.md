@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7c7d1fcaaeef7a01b43886e4d69458dbd942439
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: df9692dc168e9efb653b20c677cd6e3bb0bd8756
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556884"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250723"
 ---
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Realización de ajustes manuales en la previsión de línea base
 
@@ -71,7 +71,7 @@ La página **Detalles de previsión de la demanda** muestra la siguiente informa
 **Notas:**
 
 -   El intervalo de confianza que aparece en la sección **Previsión** de la página representa la diferencia entre el límite superior del intervalo de confianza y el límite inferior del intervalo de confianza. Para ver los valores de los límites máximo y mínimo, pase el ratón por encima del gráfico en la sección **Demanda y previsión históricas gráficamente**.
--   Si utiliza el servicio de aprendizaje automático de Microsoft Azure Machine de previsión de demanda de Finance and Operations, puede especificar el porcentaje del nivel de confianza que debe tener la previsión que se genera. Un intervalo de confianza consta de un intervalo de valores que actúan como estimaciones para la previsión de la demanda. Un porcentaje de nivel de confianza del 95 por ciento indica que hay un 5 por ciento de riesgo de que la previsión de la demanda se encuentre fuera del intervalo de confianza.
+-   Si utiliza el servicio de aprendizaje automático de Microsoft Azure Machine de previsión de demanda, puede especificar el porcentaje del nivel de confianza que debe tener la previsión que se genera. Un intervalo de confianza consta de un intervalo de valores que actúan como estimaciones para la previsión de la demanda. Un porcentaje de nivel de confianza del 95 por ciento indica que hay un 5 por ciento de riesgo de que la previsión de la demanda se encuentre fuera del intervalo de confianza.
 
 También puede realizar ajustes manuales en la previsión en la página **Detalles de previsión de la demanda**, modificando los valores en la fila **Previsión** en la sección **Previsión**.
 

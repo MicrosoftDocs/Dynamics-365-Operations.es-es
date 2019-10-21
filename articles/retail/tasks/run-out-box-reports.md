@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b42f86fc243312d18654b1a048f9dffb29afd187
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: afd4509bc9bdff345e48a590a12cc84ae25aebb8
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550079"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018445"
 ---
 # <a name="generate-and-run-out-of-box-reports"></a>Generar y ejecutar informes listos para usar
 
@@ -43,7 +43,7 @@ La empresa de datos de prueba utilizada para crear este registro es USRT. Este r
 5. Especifique una fecha en el campo Fecha final.
 6. En el campo Canal, haga clic en el botón desplegable para abrir la búsqueda.
 7. En el árbol, seleccione "Contoso Retail\Contoso Retail USA\Central\Houston".
-    * Muestra la jerarquía organizativa comercial predeterminada para la finalidad de Informes comerciales.   Vaya a Administración de la organización >Organizaciones > Propósitos de jerarquía organizativa y elija Informes comerciales y en Jerarquías asignadas, compruebe el nombre de la jerarquía para la que se comprueba la columna Predeterminada.      Como parte de los datos de demostración (usados para este registro de tarea) observaría que Tiendas por región es la jerarquía organizativa predeterminada para la finalidad de Informes comerciales.     
+    * Muestra la jerarquía organizativa comercial predeterminada para la finalidad de Informes comerciales.   Vaya a Administración de la organización > Organizaciones > Propósitos de jerarquía organizativa y elija Informes comerciales y en Jerarquías asignadas, compruebe el nombre de la jerarquía para la que se comprueba la columna Predeterminada. Como parte de los datos de demostración (usados para este registro de tarea) observaría que Tiendas por región es la jerarquía organizativa predeterminada para la finalidad de Informes comerciales.     
 8. Haga clic en Aceptar
 9. En el campo Ver, seleccione una opción.
 10. En el campo Por, seleccione una opción.
@@ -55,7 +55,7 @@ La empresa de datos de prueba utilizada para crear este registro es USRT. Este r
 3. Especifique una fecha en el campo Fecha final.
 4. En el campo Canal, haga clic en el botón desplegable para abrir la búsqueda.
 5. En el árbol, seleccione "Contoso Retail\Contoso Retail USA\West\Seattle".
-    * Muestra la jerarquía organizativa comercial predeterminada para la finalidad de Informes comerciales.   Vaya a Administración de la organización >Organizaciones > Propósitos de jerarquía organizativa y elija Informes comerciales y en Jerarquías asignadas, compruebe el nombre de la jerarquía para la que se comprueba la columna Predeterminada.      Como parte de los datos de demostración (usados para este registro de tarea) observaría que Tiendas por región es la jerarquía organizativa predeterminada para la finalidad de Informes comerciales.     
+    * Muestra la jerarquía organizativa comercial predeterminada para la finalidad de Informes comerciales.   Vaya a Administración de la organización > Organizaciones > Propósitos de jerarquía organizativa y elija Informes comerciales y en Jerarquías asignadas, compruebe el nombre de la jerarquía para la que se comprueba la columna Predeterminada. Como parte de los datos de demostración (usados para este registro de tarea) observaría que Tiendas por región es la jerarquía organizativa predeterminada para la finalidad de Informes comerciales.     
 6. Haga clic en Aceptar
 7. Haga clic en Aceptar
 

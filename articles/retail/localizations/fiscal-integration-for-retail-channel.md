@@ -1,6 +1,6 @@
 ---
 title: Visión general de la integración fiscal para canales comerciales
-description: Este tema proporciona una visión general de las capacidades fiscales de integración disponibles en Microsoft Dynamics 365 for Retail.
+description: Este tema proporciona una visión general de las capacidades fiscales de integración disponibles en Dynamics 365 Retail.
 author: josaw
 manager: annbe
 ms.date: 02/01/2019
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 3c6092a7eba328048ef2f28188c42f33cb1f7136
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 647ef586b64699a891bd3b6702ac93bc5ee8292e
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1516247"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025416"
 ---
 # <a name="overview-of-fiscal-integration-for-retail-channels"></a>Visión general de la integración fiscal para canales comerciales
 
@@ -30,13 +30,13 @@ ms.locfileid: "1516247"
 
 ## <a name="introduction"></a>Introducción
 
-Este tema es una visión general de las capacidades fiscales de integración disponibles en Microsoft Dynamics 365 for Retail. La integración fiscal incluye la integración con distintos dispositivos fiscales y servicios que habilitan el registro fiscal de la venta minorista de acuerdo con las leyes fiscales locales que se dirijan que impiden fraude fiscal en el sector minorista. A continuación aparecen varias situaciones de ejemplo habituales que se pueden cubrir mediante inclusión de la integración fiscal:
+Este tema es una visión general de las capacidades fiscales de integración disponibles en Dynamics 365 Retail. La integración fiscal incluye la integración con distintos dispositivos fiscales y servicios que habilitan el registro fiscal de la venta minorista de acuerdo con las leyes fiscales locales que se dirijan que impiden fraude fiscal en el sector minorista. A continuación aparecen varias situaciones de ejemplo habituales que se pueden cubrir mediante inclusión de la integración fiscal:
 
 - Registrar una venta al por menor en un dispositivo fiscal que está conectado al punto de venta al por menor (PDV), como una impresora fiscal, e imprimir un recibo fiscal para el cliente.
 - Enviar la información relacionada con las ventas y las devoluciones que se completan en Retail POS a un servicio Web externa que sea operado por la autoridad fiscal de forma segura.
 - Ayudar a garantizar la inalterabilidad de los datos de transacción de ventas a través de firmas digitales.
 
-La funcionalidad fiscal de la integración de ventas al por menor es un marco que ofrece una solución común para el desarrollo y la personalización adicionales de la integración entre Retail POS y dispositivos y servicios fiscales. La funcionalidad también incluye los ejemplos fiscales de integración que admiten los escenarios de ventas al por menor básicas para los países o regiones específicos, y que funcionan con los dispositivos o servicios fiscales específicos. Un ejemplo fiscal de la integración consta de varias extensiones de componente al por menor y se incluye en el kit de desarrollo de software al por menor (SDK). Para obtener más información sobre los ejemplos fiscales de integración que están disponibles en ventas al por menor SDK, consulte [Ejemplos fiscales de integración en el SDK al por menor](#fiscal-integration-samples-in-the-retail-sdk). Para obtener información sobre cómo instalar y usar la ventas al por menor SDK, consulte [Vender la información general del SDK al por menor](../dev-itpro/retail-sdk/retail-sdk-overview.md).
+La funcionalidad fiscal de la integración de ventas es un marco que ofrece una solución común para el desarrollo y la personalización adicionales de la integración entre Retail POS y dispositivos y servicios fiscales. La funcionalidad también incluye los ejemplos fiscales de integración que admiten los escenarios de ventas al por menor básicas para los países o regiones específicos, y que funcionan con los dispositivos o servicios fiscales específicos. Un ejemplo fiscal de la integración consta de varias extensiones de componente al por menor y se incluye en el kit de desarrollo de software (SDK). Para obtener más información acerca de los ejemplos de integración fiscal, consulte [Ejemplos de integración fiscal en el SDK de Retail](#fiscal-integration-samples-in-the-retail-sdk). Para obtener información sobre cómo instalar y usar la ventas al por menor SDK, consulte [Vender la información general del SDK al por menor](../dev-itpro/retail-sdk/retail-sdk-overview.md).
 
 Para admitir otros escenarios que no son compatibles por un ejemplo fiscal de la integración, para integrar Retail POS con otros dispositivos o servicios fiscales, o cubrir los requisitos de otros países o regiones, debe remitir un ejemplo fiscal existente de integración o crear un nuevo ejemplo mediante un ejemplo existente como un ejemplo.
 
@@ -44,7 +44,7 @@ Para admitir otros escenarios que no son compatibles por un ejemplo fiscal de la
 
 Un proceso de registro fiscal en Retail POS puede estar formado por uno o más pasos. Cada paso implica el registro de transacciones fiscales o de eventos comerciales específicos en un dispositivo manual o servicio fiscal. Los siguientes componentes de la solución participan en el registro fiscal en un dispositivo fiscal asociado a una estación de hardware:
 
-- **Extensión de (CRT) de tiempo de ejecución de comercio** Este componente serializa la transacción/datos de eventos al por menor en el formato que también se usa para la interacción con el dispositivo fiscal, analiza respuestas del dispositivo fiscal, y almacena las respuestas en la base de datos del canal. La extensión también define las transacciones y los eventos específicos que deben estar registrados. Este componente suele denominarse como un *proveedor del documento fiscal*.
+- **Extensión de Commerce runtime (CRT)**: este componente serializa la transacción/datos de eventos al por menor en el formato que también se usa para la interacción con el dispositivo fiscal, analiza respuestas del dispositivo fiscal, y almacena las respuestas en la base de datos del canal. La extensión también define las transacciones y los eventos específicos que deben estar registrados. Este componente suele denominarse como un *proveedor del documento fiscal*.
 - **Extensión de la estación de hardware** Este componente inicializa la comunicación con el dispositivo fiscal, envía solicitudes y comandos directos al dispositivo fiscal basado en la transacción/los datos de eventos al por menor de la información del documento fiscal y recibe respuestas del dispositivo fiscal. Este componente suele denominarse como un *conector fiscal*.
 
 Un ejemplo fiscal de integración para un dispositivo fiscal contiene el CRT y extensiones de la estación de hardware para un proveedor fiscal de documentos y conector fiscal, respectivamente. También contiene las siguientes configuraciones de componentes:
@@ -60,7 +60,7 @@ El ejemplo siguiente muestra un flujo fiscal típico de la ejecución de registr
 2. El CRT determina si el evento actual requiere el registro fiscal.
 3. Según los valores fiscales del proceso de registro, CRT identifica un conector fiscal y un proveedor fiscal correspondiente del documento que desee utilizar para el registro fiscal.
 4. CRT ejecuta el proveedor del documento fiscal que genera un documento fiscal (por ejemplo, un documento XML) que represente la transacción o el evento de ventas al por menor.
-5. El PDV envía el documento fiscal que el CRD prepara para una estación de hardware.
+5. El PDV envía el documento fiscal que el CRT prepara para una estación de hardware.
 6. La estación de hardware ejecuta el conector fiscal que procesa el documento fiscal y lo comunica al dispositivo o servicio fiscal.
 7. El PDV analiza la respuesta del dispositivo o servicio fiscal para determinar si el registro fiscal ha tenido éxito.
 8. El CRT guarda la respuesta en la base de datos del canal.
@@ -132,7 +132,7 @@ La funcionalidad fiscal de la integración admite la generación de informes de 
 
 ## <a name="fiscal-integration-samples-in-the-retail-sdk"></a>Ejemplos fiscales de integración en el SDK al por menor
 
-Los ejemplos siguientes fiscales de integración están disponibles actualmente en ventas al por menor SDK que se ha liberado con ventas al por menor:
+Los ejemplos siguientes fiscales de integración están disponibles actualmente en el SDK de Retail:
 
 - [Ejemplo de integración de impresora fiscal para Italia](emea-ita-fpi-sample.md)
 - [Ejemplo de integración de impresora fiscal para Polonia](emea-pol-fpi-sample.md)

@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7fc5b48b71816b662f016f4a2d909526da0595f4
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 98784c11c7393bb4c3e022d5bff4cca2daa1636e
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572089"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025464"
 ---
 # <a name="install-the-retail-point-of-sale-pos-layout-designer"></a>Instalar el diseñador de punto de venta (TPV) de Retail
 
@@ -36,11 +36,11 @@ La interfaz de diseño gráfico del PDV moderno (MPOS) o PDV en la Nube (Cloud P
 
 ## <a name="install-the-one-click-designer"></a>Instalar el diseñador de un solo clic
 
-1. En Microsoft Dynamics 365 for Retail, utilice el menú de la parte superior izquierda para ir a **Venta al por menor** **y comercio** &gt; **Instalación de canal** &gt; **Instalación del PDV** &gt; **PDV** &gt; **Diseños de pantalla**.
+1. En Retail, utilice el menú de la parte superior izquierda para ir a **Venta al por menor** **y comercio** &gt; **Configuración del canal** &gt; **Configuración del PDV** &gt; **PDV** &gt; **Diseños de pantalla**.
 2. Seleccione cualquier diseño que tenga el tipo de aplicación de **PDV moderno para Windows** o **PDV en la Nube**, y haga clic en **Diseñador de estructura**.
 3. En la barra de notificación que aparece en la parte inferior de la ventana de Internet Explorer, haga clic en **Abrir** para empezar a instalar el diseñador de un solo clic. (La barra de notificación puede aparecer en un lugar diferente en otros exploradores.)
 4. En el cuadro de mensaje **Ejecución de la aplicación: advertencia de seguridad** que aparece, haga clic en **Ejecutar** para instalar el host del diseñador de ventas al por menor. Un indicador de progreso muestra el progreso de la instalación.
-5. Después de que la instalación esté completada, en la página **Iniciar sesión** escriba el nombre de usuario y la contraseña de Microsoft Dynamics 365 for Retail y haga clic en **Iniciar sesión** para iniciar el diseñador.
+5. Después de que la instalación esté completada, en la página **Iniciar sesión** escriba el nombre de usuario y la contraseña de Retail y haga clic en **Iniciar sesión** para iniciar el diseñador.
 6. Cuando se lleve a cabo una validación de sus credenciales y se inicie el diseñador, puede empezar a diseñar su propia estructura o a modificar el diseño existente.
 
     [![Diseño en el diseñador de un solo clic](./media/screenlayoutdesign_mposdownload-1024x664.png)](./media/screenlayoutdesign_mposdownload.png)
@@ -52,11 +52,11 @@ La interfaz de diseño gráfico del PDV moderno (MPOS) o PDV en la Nube (Cloud P
     **Soluciones:**
 
     - En Internet Explorer, asegúrese de que el bloqueador de elementos emergentes está deshabilitado para este sitio. Haga clic en **Ajustes** &gt; **Opciones** &gt; **Privacidad** &gt; **Buscar bloqueador de elementos emergentes**, y cambie los ajustes, si es necesario.
-    - En Internet Explorer, agregue la dirección URL Dynamics 365 for Retail a sus sitios de confianza. Haga clic en **Ajustes** &gt; **Opciones** &gt; **Seguridad** &gt; **Sitios de confianza** &gt; **Sitios** &gt; **Añadir**.
+    - En Internet Explorer, agregue la dirección URL de Retail a sus sitios de confianza. Haga clic en **Ajustes** &gt; **Opciones** &gt; **Seguridad** &gt; **Sitios de confianza** &gt; **Sitios** &gt; **Añadir**.
 
 - El programa no se inicia y le ha indicado que se ponga en contacto con el proveedor.
 
-    **Solución:** en Internet Explorer, agregue la dirección URL Dynamics 365 for Retail a sus sitios de confianza. Haga clic en **Ajuste** &gt; **Opciones** &gt; **Seguridad** &gt; **Sitios de confianza** &gt; **Sitios** &gt; **Añadir**.
+    **Solución:** en Internet Explorer, agregue la dirección URL de Retail a sus sitios de confianza. Haga clic en **Ajuste** &gt; **Opciones** &gt; **Seguridad** &gt; **Sitios de confianza** &gt; **Sitios** &gt; **Añadir**.
 
 **Problema conocido:** El diseñador no funciona correctamente en los navegadores Google Chrome y Mozilla Firefox. Estamos trabajando para solucionar este problema.
 

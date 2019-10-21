@@ -1,6 +1,6 @@
 ---
-title: Qué versión de Microsoft Dynamics 365 for Talent - Attract
-description: Este tema proporciona información sobre las capacidades en las diferentes versiones de Microsoft Dynamics 365 for Talent - Attract.
+title: Qué versión de Microsoft Dynamics 365 Talent - Attract
+description: Este tema proporciona información sobre las capacidades en las diferentes versiones de Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 04/04/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 59ab9f418c4d9039ca08a71de0dba0f96216aabb
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 59f3e78efa8801c81dccff2f45751b47fb30481f
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739728"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009955"
 ---
 # <a name="which-version-of-attract"></a>¿Qué versión de Attract?
 
 [!include[banner](../includes/banner.md)]
 
-La versión de Microsoft Dynamics 365 for Talent: Attract correcta para usted depende del tamaño de la organización y necesidades. La versión básica Attract proporciona un subconjunto de funciones dirigidas a equipos o organizaciones más pequeñas dónde el usuario principal es el jefe de contratación. Puede empezar a usar la versión básica Attract con una o más licencias.
+La versión de Microsoft Dynamics 365 Talent: Attract correcta para usted depende del tamaño de la organización y necesidades. La versión básica Attract proporciona un subconjunto de funciones dirigidas a equipos o organizaciones más pequeñas dónde el usuario principal es el jefe de contratación. Puede empezar a usar la versión básica Attract con una o más licencias.
 
 Atracct con el complemento de contratación completo está dirigido a equipos u organizaciones medianas y grandes en las que reclutador o el especialista de talento es el usuario principal. El complemento de contratación completo requiere que las licencias están adquiridas mediante un [socio de Microsoft Dynamics 365](https://dynamics.microsoft.com/partners/find-a-partner/)
 

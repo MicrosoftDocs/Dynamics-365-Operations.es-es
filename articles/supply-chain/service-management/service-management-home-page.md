@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 20751acfc012e2ac1eef99c778c5b0353baf1827
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: dd2f27c5797fbd34674e39013ed3e0e40cdb28b2
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865858"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251141"
 ---
 # <a name="service-management-overview"></a>Visión general de la gestión de servicio
 
@@ -48,7 +48,7 @@ Use las herramientas de informes para controlar los márgenes de pedidos de serv
 
 ## <a name="business-processes"></a>Procesos empresariales
 
-El siguiente diagrama muestra los procesos empresariales de alto nivel para la **Gestión de servicio** y muestra en qué lugar se integran los procesos de servicio con otros módulos de Microsoft Dynamics 365 for Finance and Operations.
+El siguiente diagrama muestra los procesos empresariales de alto nivel para la **Gestión de servicio** y muestra en qué lugar se integran los procesos de servicio con otros módulos.
 
 [![Diagrama de proceso empresarial de Gestión de servicio](./media/sm_home_page.gif)](./media/sm_home_page.gif)
 

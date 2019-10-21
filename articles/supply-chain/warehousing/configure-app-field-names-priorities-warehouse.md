@@ -1,6 +1,6 @@
 ---
 title: Configuración de nombres de campo de aplicación en la aplicación de almacén
-description: Este tema describe cómo definir y configurar nombres de campo y prioridades de la aplicación de almacén en Finance and Operations.
+description: Este tema describe cómo definir y configurar nombres de campo y prioridades de la aplicación de almacén en Dynamics 365 Supply Chain Management.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,24 +19,24 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0162014189ed6bffb17e6718a67eecfd55c334a5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a3251368e92eb2e24eb9e64bb615027d038ff660
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1548938"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251094"
 ---
 # <a name="configure-app-field-names-in-warehousing-app"></a>Configuración de nombres de campo de aplicación en la aplicación de almacén
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe cómo definir y configurar nombres de campo y prioridades de la aplicación de almacén en Finance and Operations. 
+Este tema describe cómo definir y configurar nombres de campo y prioridades de la aplicación de almacén en Dynamics 365 Supply Chain Management. 
 
-**Nota**: este tema se aplica a las características de gestión de almacenes. No se aplica a las características de gestión del inventario. Finance and Operations - Warehousing es una aplicación que puede usar para realizar tareas de almacén. Es posible definir y configurar los nombres de campo que se utilizan en la aplicación, así como configurar la prioridad a la que los nombres de campo se deben asignar. Este tema explica cómo definir y configurar estos nombres de campo y prioridades de la aplicación de almacén y cómo se usan en Finance and Operations - Warehousing. Para obtener información detallada sobre cómo configurar la conexión a Finance and Operations - Warehousing, consulte el tutorial sobre [Instalación y configuración de Finance and Operations - Warehousing](install-configure-warehousing-app.md).
+**Nota**: este tema se aplica a las características de gestión de almacenes. No se aplica a las características de gestión del inventario. Warehousing es una aplicación que puede usar para realizar tareas de almacén. Es posible definir y configurar los nombres de campo que se utilizan en la aplicación, así como configurar la prioridad a la que los nombres de campo se deben asignar. Este tema explica cómo definir y configurar estos nombres de campo y prioridades de la aplicación de almacén y cómo se usan en Warehousing. Para obtener información detallada sobre cómo configurar la conexión a Warehousing, consulte el tutorial sobre [Instalación y configuración de Warehousing](install-configure-warehousing-app.md).
 
 ## <a name="configure-warehouse-app-field-names"></a>Configurar nombres de campo de la aplicación de almacén
 
-Cuando se usa Finance and Operations - Warehousing en el dispositivo móvil, puede configurar cómo los metadatos se deben mostrar en su dispositivo en la página **Nombres de campo de aplicación de almacén**. En una nueva empresa en Finance and Operations, seleccione **Crear configuración predeterminada** para generar todos los nombres de campo que se usarán en los flujos de trabajo del dispositivo móvil de almacén y, a continuación, para asignarles un modo y un tipo de entrada preferidos. Una vez que haya generado todos los nombres de campo, puede seleccionar las siguientes opciones de entrada.
+Cuando se usa Warehousing en el dispositivo móvil, puede configurar cómo los metadatos se deben mostrar en su dispositivo en la página **Nombres de campo de aplicación de almacén**. En una nueva empresa, seleccione **Crear configuración predeterminada** para generar todos los nombres de campo que se usarán en los flujos de trabajo del dispositivo móvil de almacén y, a continuación, para asignarles un modo y un tipo de entrada preferidos. Una vez que haya generado todos los nombres de campo, puede seleccionar las siguientes opciones de entrada.
 
 <table>
 <colgroup>
@@ -69,7 +69,7 @@ Cuando se usa Finance and Operations - Warehousing en el dispositivo móvil, pue
 
 ## <a name="configure-warehouse-app-field-priority"></a>Configurar la prioridad de campo de aplicación de almacén
 
-En la página **Prioridad de campo de aplicación de almacén**, puede poner nombres de campo en distintos grupos de prioridad. Esto permite decidir qué información se debe mostrar en la página de la tarea principal cuando los trabajadores del almacén realizan tareas mediante la aplicación. Si hace clic en **Crear configuración predeterminada**, se generará un conjunto predeterminado de grupos de prioridad. Es posible crear tantos grupos de prioridad según sea necesario, pero solo se mostrarán tres grupos de prioridad en la página de tareas. Cuando Finance and Operations envía metadatos a la aplicación, asignará a cada campo una prioridad relativa en función de su grupo de prioridad, y la aplicación mostrará los primeros tres grupos de prioridad contenidos en los metadatos en la página de tareas. El resto de los metadatos que se desbordan se mostrará en una página de detalles secundaria. En la tabla siguiente se muestra un ejemplo de cinco grupos de prioridad.
+En la página **Prioridad de campo de aplicación de almacén**, puede poner nombres de campo en distintos grupos de prioridad. Esto permite decidir qué información se debe mostrar en la página de la tarea principal cuando los trabajadores del almacén realizan tareas mediante la aplicación. Si hace clic en **Crear configuración predeterminada**, se generará un conjunto predeterminado de grupos de prioridad. Es posible crear tantos grupos de prioridad según sea necesario, pero solo se mostrarán tres grupos de prioridad en la página de tareas. Cuando el sistema envía metadatos a la aplicación, asignará a cada campo una prioridad relativa en función de su grupo de prioridad, y la aplicación mostrará los primeros tres grupos de prioridad contenidos en los metadatos en la página de tareas. El resto de los metadatos que se desbordan se mostrará en una página de detalles secundaria. En la tabla siguiente se muestra un ejemplo de cinco grupos de prioridad.
 
 <table>
 <colgroup>
@@ -143,6 +143,3 @@ Los metadatos restantes, por ejemplo, ubicación, no se muestran en la página d
 --------
 
 [Instalar y configurar Microsoft Dynamics 365 for Finance and Operations - Warehousing](install-configure-warehousing-app.md)
-
-
-

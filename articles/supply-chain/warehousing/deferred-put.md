@@ -1,6 +1,6 @@
 ---
 title: Procesamiento aplazado de trabajo de almacén
-description: En este tema se describe la funcionalidad que crea el procesamiento diferido de las operaciones de colocación de trabajo de almacén disponibles en Microsoft Dynamics 365 for Finance and Operations.
+description: En este tema se describe la funcionalidad que crea el procesamiento diferido de las operaciones de colocación de trabajo de almacén disponibles en Dynamics 365 Supply Chain Management.
 author: josaw1
 manager: AnnBe
 ms.date: 06/17/2019
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4905084f9bc28e55c307921280733c6acb80db86
-ms.sourcegitcommit: 299e20b59ebefa584ed46a13da3f1a7ff709e43c
+ms.openlocfilehash: 1acfa41b9a94b5f27eefda006c8e2950059f3489
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1863595"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026950"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Procesamiento aplazado de trabajo de almacén
 
@@ -29,7 +29,8 @@ ms.locfileid: "1863595"
 
 [!include [banner](../includes/pivate-preview-banner.md)]
 
-En este tema se describe la funcionalidad que crea el procesamiento diferido de las operaciones de colocación para trabajo de almacén disponibles en Microsoft Dynamics 365 for Finance and Operations.
+En este tema se describe la funcionalidad que crea el procesamiento diferido de las operaciones de colocación para trabajo de almacén disponibles en Dynamics 365 Supply Chain Management.
+
 
 La funcionalidad de procesamiento diferido permite a trabajadores de almacén seguir realizando otros trabajos mientras se procesa la operación de colocación en segundo plano. El procesamiento diferido es útil cuando hay que procesar muchas líneas de trabajo y el trabajador puede dejar que ese trabajo se procese de forma asincrónica. También resulta útil si puede haber aumentos ad hoc o imprevistos de tiempo de procesamiento en el servidor y ese aumento del tiempo de procesamiento puede afectar a la productividad del usuario.
 

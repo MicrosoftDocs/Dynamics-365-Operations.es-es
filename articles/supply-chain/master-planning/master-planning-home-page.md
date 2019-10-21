@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a294327149cf46202fed8b63377ee77f13c11d5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2dd3915d9eb5b255e9d84e5ec7c331d184e5f485
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1543592"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250700"
 ---
 # <a name="master-planning-home-page"></a>Página principal de planificación maestra
 
@@ -74,7 +74,7 @@ Consulte la [Guía básica de Microsoft Dynamics 365](https://roadmap.dynamics.c
 Puede encontrar opiniones, novedades y otra información acerca de la planificación maestra y otras soluciones en el [blog del equipo de I+D y fabricación de Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) y el [blog del equipo de I+D de Supply Chain Management en Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm).
 
 ### <a name="task-guides"></a>Guías de tareas
-Hay ayuda adicional disponible como guías de tareas en Finance and Operations. Para tener acceso a las guías de tareas, haga clic en el botón **Ayuda** en cualquier página.
+Hay ayuda adicional disponible como guías de tarea. Para tener acceso a las guías de tareas, haga clic en el botón **Ayuda** en cualquier página.
 
 ### <a name="webinars"></a>Seminarios web
 [Utilizar Azure Machine Learning para la previsión de demanda](https://www.youtube.com/watch?v=4nQsccdFFDA&feature=youtu.be)

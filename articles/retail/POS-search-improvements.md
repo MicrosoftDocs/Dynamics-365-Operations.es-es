@@ -1,6 +1,6 @@
 ---
 title: Búsqueda de productos y de clientes en el punto de venta (PDV)
-description: En este tema se proporciona una visión general de las mejoras que se han realizado en la funcionalidad de búsqueda de productos y clientes en Microsoft Dynamics 365 for Retail.
+description: En este tema se proporciona una visión general de las mejoras que se han realizado en la funcionalidad de búsqueda de productos y clientes en Dynamics 365 Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
 ms.date: 06/10/2019
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: b2f1d522a60721c746d03e477615265f9a8ba9a0
-ms.sourcegitcommit: 3d8c951898e05febc160515127c1bcc5de5882a1
+ms.openlocfilehash: 60db9e9936f7728d76f5c7a0d0c31b33477c7c61
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "1625651"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023699"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Búsqueda de productos y de clientes en el punto de venta (PDV)
 
@@ -99,7 +99,10 @@ La búsqueda tradicional de clientes puede ser larga, porque buscar en varios ca
 
 ![Métodos abreviados de búsqueda del cliente](./media/SearchShortcutsPOS.png "Métodos abreviados de búsqueda del cliente")
 
-Para establecer criterios de búsqueda como métodos abreviados, la administración debe abrir la página **Parámetros de Retail** en Microsoft Dynamics 365 for Finance and Operations y, a continuación, en la pestaña **Criterios de búsqueda de PDV**, seleccionar todos los criterios que se deben mostrarse como métodos abreviados.
+
+
+Para establecer criterios de búsqueda como métodos abreviados, la administración debe abrir la página **Parámetros de Retail** en Microsoft Dynamics 365 Retail y, a continuación, en la pestaña **Criterios de búsqueda de PDV**, seleccionar todos los criterios que se deben mostrarse como métodos abreviados.
+
 
 ![Configurar métodos abreviados de búsqueda](./media/ConfigureShortcutsAX.png "Configurar métodos abreviados de búsqueda")
 
@@ -111,6 +114,6 @@ El campo **Visualizar orden** determina el orden en que los accesos directos se 
 > [!NOTE]
 > Una propiedad personalizada que se agrega al enum no afecta al algoritmo de búsqueda estándar del cliente. Es decir, el algoritmo de búsqueda del cliente no buscará en la propiedad personalizada. Los usuarios pueden usar una propiedad personalizada para las búsquedas si dicha propiedad personalizada se agrega como método abreviado o si el algoritmo de búsqueda predeterminado ha sido reemplazado.
 
-En una próxima versión de Microsoft Dynamics 365 for Retail, los minoristas podrán establecer el modo de búsqueda de clientes predeterminado en el PDV en **Buscar en todas las tiendas**. Esta configuración puede resultar útil en escenarios en los que los clientes que se crearon fuera del PDV deben buscarse de inmediato (por ejemplo, incluso antes de que se ejecute el trabajo de distribución). Una nueva opción **Modo de búsqueda de clientes predeterminado** estará disponible en el perfil de funcionalidad de PDV. Establézcala en **Activa** para establecer el modo de búsqueda predeterminado en **Buscar en todas las tiendas**. Cada intento de búsqueda de clientes hará una llamada en tiempo real a la sede.
+En una próxima versión de Retail, los minoristas podrán establecer el modo de búsqueda de clientes predeterminado en el PDV en **Buscar en todas las tiendas**. Esta configuración puede resultar útil en escenarios en los que los clientes que se crearon fuera del PDV deben buscarse de inmediato (por ejemplo, incluso antes de que se ejecute el trabajo de distribución). Una nueva opción **Modo de búsqueda de clientes predeterminado** estará disponible en el perfil de funcionalidad de PDV. Establézcala en **Activa** para establecer el modo de búsqueda predeterminado en **Buscar en todas las tiendas**. Cada intento de búsqueda de clientes hará una llamada en tiempo real a la sede.
 
 Para ayudar a evitar problemas de rendimiento inesperados, esta configuración se oculta detrás de un indicador que se denomina **CUSTOMERSEARCH_ENABLE_DEFAULTSEARCH_FLIGHTING**. Por tanto, para mostrar el **Modo de búsqueda de clientes predeterminado** que configura la interfaz de usuario (IU), el minorista debe crear una incidencia de soporte técnico para su prueba de aceptación del usuario (UAT) y los entornos de producción. Una vez que se reciba la incidencia, el equipo de ingeniería trabajará con el minorista para garantizar que este último realiza la prueba en sus entornos que no son de producción a fin de evaluar el rendimiento e implementar cualquier optimización que sea necesaria.

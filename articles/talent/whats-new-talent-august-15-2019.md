@@ -1,6 +1,6 @@
 ---
-title: Novedades y cambios en Dynamics 365 for Talent (13 de agosto de 2019)
-description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 for Talent.
+title: Novedades y cambios en Dynamics 365 Talent (13 de agosto de 2019)
+description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Talent.
 author: Darinkramer
 manager: AnnBe
 ms.date: 8/13/2019
@@ -18,24 +18,24 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 1c10d5d7639c1606b00f95e0bd2b3b3fec326787
-ms.sourcegitcommit: db84eeef6f0bd531ba45b5e66bdacfd0398472e6
+ms.openlocfilehash: b813f3e4707724c262a32aca1227b3d91d1a229f
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "1887492"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025988"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-august-13-2019"></a>Novedades y cambios en Dynamics 365 for Talent (13 de agosto de 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-august-13-2019"></a>Novedades y cambios en Dynamics 365 Talent (13 de agosto de 2019)
 
 [!include [banner](includes/banner.md)]
 
-Este tema describe las características que son nuevas o que se han cambiado en Dynamics 365 for Talent.
+Este tema describe las características que son nuevas o que se han cambiado en Dynamics 365 Talent.
 
 ## <a name="changes-in-attract"></a>Cambios en Attract
-Este lanzamiento incluye correcciones de errores de menor importancia del Dynamics 365 Talent: Attract.
+Este lanzamiento incluye correcciones de errores de menor importancia para Dynamics 365 Talent: Attract.
 
 ## <a name="changes-in-onboard"></a>Cambios en Onboard
-Este lanzamiento incluye correcciones de errores de menor importancia del Dynamics 365 Talent: Onboard
+Este lanzamiento incluye correcciones de errores de menor importancia para Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Cambios en Core HR
 Los cambios que se describen en esta sección se aplican a la compilación número 8.1.2421.0
@@ -54,9 +54,9 @@ Una nueva opción permitirá a los directores ver el rendimiento tanto de los in
 
 ## <a name="coming-soon"></a>Próximamente
 
-### <a name="platform-update-29"></a>Actualización 29 de la plataforma
+### <a name="platform-update-29-for-finance-and-operations"></a>Platform update 29 para Finance and Operations
 
-Para obtener más información acerca de la Platform update 29, consulte [Características de vista previa en Dynamics 365 for Finance and Operations platform update 29 (octubre de 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
+Para obtener más información acerca de la Platform update 29 para Finance and Operations, consulte [Características de vista previa en Dynamics 365 Finance and Operations platform update 29 (octubre de 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
 
 ### <a name="streamlined-employee-entry-and-navigation"></a>Entrada y navegación de empleados optimizadas
 

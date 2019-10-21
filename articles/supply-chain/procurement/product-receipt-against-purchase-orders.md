@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fea28da19c0aa1e9083091d0693404e0d8cb173c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c1aaae7a276d098587b5b9c73e433694e3a6f9bf
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554354"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248931"
 ---
 # <a name="product-receipt-against-purchase-orders"></a>Recepción de producto frente a pedidos de compra
 
@@ -52,7 +52,7 @@ Puede crear líneas de pedido de compra donde la opción **Nuevo activo fijo** e
 
 Puede seleccionar varios pedidos y procesar la recepción en todos esos pedidos juntos. Este enfoque no se utiliza con mucha frecuencia, pero puede que desee utilizarlo si un proveedor ha consolidado los envíos para usted en una sola carga. Durante la recepción de producto en la compra, hay una función para realizar las actualizaciones conjuntas. Las actualizaciones conjuntas que le permiten publicar un solo albarán del proveedor para más de un pedido de compra.  
 
-Los pedidos de compra pueden crearse a partir de un pedido de ventas en el que se ha seleccionado la opción **Entrega directa**. Cuando se utiliza la entrega directa, los productos nunca llegan al propio almacén, pero se envían directamente del proveedor al cliente. En este caso, la recepción se suele registrar directamente en el pedido de compra. La recepción se puede realizar automáticamente, como a través de la integración de intercambio electrónico de datos (EDI) con el proveedor. De forma alternativa, si el pedido de compra es un pedido de compra de empresas vinculadas, Microsoft Dynamics 365 for Finance and Operations automatiza la recepción del pedido de ventas intercompañía cuando se produce el envío. Cuando se utiliza la entrega directa, los productos se siguen contabilizando como inventario, a pesar de que no llegan físicamente al almacén. Por tanto, cuando se registre la recepción de producto en el pedido de compra, el pedido de ventas se actualiza automáticamente con un albarán, para que el cambio general en el inventario sea 0 (cero). En los escenarios de entrega directa, no debería requerir el pre-registro. Si utiliza almacenes que están habilitados para la gestión de almacenes, puede eludir el requisito para el registro de matrícula especificando un almacén virtual en su lugar. Especifique este almacén en el campo **Almacén de entrega directa** del producto. 
+Los pedidos de compra pueden crearse a partir de un pedido de ventas en el que se ha seleccionado la opción **Entrega directa**. Cuando se utiliza la entrega directa, los productos nunca llegan al propio almacén, pero se envían directamente del proveedor al cliente. En este caso, la recepción se suele registrar directamente en el pedido de compra. La recepción se puede realizar automáticamente, como a través de la integración de intercambio electrónico de datos (EDI) con el proveedor. De forma alternativa, si el pedido de compra es un pedido de compra de empresas vinculadas, Supply Chain Management automatiza la recepción del pedido de ventas intercompañía cuando se produce el envío. Cuando se utiliza la entrega directa, los productos se siguen contabilizando como inventario, a pesar de que no llegan físicamente al almacén. Por tanto, cuando se registre la recepción de producto en el pedido de compra, el pedido de ventas se actualiza automáticamente con un albarán, para que el cambio general en el inventario sea 0 (cero). En los escenarios de entrega directa, no debería requerir el pre-registro. Si utiliza almacenes que están habilitados para la gestión de almacenes, puede eludir el requisito para el registro de matrícula especificando un almacén virtual en su lugar. Especifique este almacén en el campo **Almacén de entrega directa** del producto. 
 
 Una vez que se ha procesado la recepción de producto en el pedido de compra, el estado del pedido de compra se establece en **Recibido** para indicar que se puede procesar la factura para el pedido. Puede revisar los detalles acerca de los productos que ya se han recibido en la página **Diarios de recepción de productos**.  
 

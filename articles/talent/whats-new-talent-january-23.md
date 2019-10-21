@@ -1,6 +1,6 @@
 ---
-title: Novedades y cambios en Dynamics 365 for Talent Core HR (23 de enero de 2019)
-description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 for Talent Core HR.
+title: Novedades y cambios en Dynamics 365 Talent - Core HR (23 de enero de 2019)
+description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Talent - Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 01/23/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-01-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 4e492095d5269ec81c0c22145b7af356937c256b
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: f1983d5a58fb2e6b1984727e1d7b44803b94cdce
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742525"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023985"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-january-23-2019"></a>Novedades y cambios en Dynamics 365 for Talent Core HR (23 de enero de 2019)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-january-23-2019"></a>Novedades y cambios en Dynamics 365 Talent: Core HR (23 de enero de 2019)
 
 [!include [banner](includes/banner.md)]
 
@@ -53,5 +53,5 @@ Al cambiar el trabajo en un puesto, los campos de trabajo establecerán como val
 ### <a name="probation-period-and-calendar-are-not-displayed-for-future-hired-employees"></a>El período y el calendario de período de prueba no se muestran para los empleados contratados en el futuro.
 Con este cambio, los campos **Período de prueba** y **Calendario** se han agregado a la página **Gestionar los cambios** para permitir la entrada de datos para empleados del futuro y pasados.
 
-### <a name="platform-update-23"></a>Actualización de la plataforma 23
-Se han incluido correcciones de errores de menor importancia como parte de la actualización de plataforma 23. Para obtener más información, consulte [Novedades y cambios en la actualización 23 de la plataforma Dynamics 365 for Finance and Operations (enero de 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23). 
+### <a name="platform-update-23-for-finance-and-operations"></a>Platform update 23 para Finance and Operations
+Se han incluido correcciones de errores de menor importancia como parte de la Platform update 23 para Finance and Operations. Para obtener más información, consulte [Novedades y cambios en la actualización 23 de la plataforma Dynamics 365 Finance and Operations (enero de 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23). 

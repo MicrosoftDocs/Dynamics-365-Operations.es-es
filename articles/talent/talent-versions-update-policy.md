@@ -1,6 +1,6 @@
 ---
 title: Requisitos del sistema de Talent y directiva de actualización
-description: Este tema muestra los requisitos de Dynamics 365 for Talent. También se describe la directiva de actualización.
+description: Este tema muestra los requisitos de Dynamics 365 Talent. También se describe la directiva de actualización.
 author: andreabichsel
 manager: AnnBe
 ms.date: 05/02/2019
@@ -17,22 +17,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6c881bf25e7145228ccf7ef73a7ef3637c115a49
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: b8bf44fc76be968b0b04fd894c39b4c19fd374ce
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741784"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024169"
 ---
 # <a name="talent-system-requirements-and-update-policy"></a>Requisitos del sistema de Talent y directiva de actualización
 
 [!include [banner](includes/banner.md)]
 
-Este tema describe los requisitos para Microsoft Dynamics 365 for Talent, incluido Attract, Onboard y Core HR. También describe los países y regiones donde Talent está disponible, además de información sobre idiomas y ubicación para los datos de Talent. Además, este tema proporciona la actualización de la directiva de Talent.
+Este tema describe los requisitos para Microsoft Dynamics 365 Talent, incluido Attract, Onboard y Core HR. También describe los países y regiones donde Talent está disponible, además de información sobre idiomas y ubicación para los datos de Talent. Además, este tema proporciona la actualización de la directiva de Talent.
 
 ## <a name="supported-web-browsers"></a>Exploradores web compatibles
 
-La aplicación web de Microsoft Dynamics 365 for Talent se puede ejecutar en cualquiera de los siguientes exploradores web que se ejecutan en sistemas operativos especificados: 
+Microsoft Dynamics 365 Talent se puede ejecutar en cualquiera de los siguientes exploradores web que se ejecutan en sistemas operativos especificados: 
 
 *   Microsoft Edge (la versión disponible publicada más recientemente) en Windows 10
 *   Internet Explorer 11 en Windows 10, Windows 8.1 o Windows 7
@@ -46,11 +46,11 @@ Para buscar la versión más reciente para cada explorador web, vaya al sitio we
 > * El editor de flujo de trabajo se inicia como aplicación ClickOnce. Sólo Microsoft Edge e Internet Explorer (en una versión compatible de Microsoft Windows) admiten aplicaciones ClickOnces. La aplicación ClickOnce del editor de flujo de trabajo requiere un sistema operativo compatible de 64 bits.
 > * Para obtener una vista previa de los archivos PDF, se recomienda que use exploradores modernos como Microsoft Edge (la última versión disponible para el público) en Windows 10, o Google Chrome (la última versión disponible para el público) en tabletas con Windows 10, Windows 8.1, Windows 8, Windows 7, o Google Nexus 10.
 >   Requisitos de red
-> * Dynamics 365 for Talent está diseñado para redes con latencia de 250-300 milisegundos (ms) o menos. Esta es la latencia de un cliente de explorador al centro de datos de Microsoft Azure que aloja Dynamics 365 for Talent. Se recomienda que pruebe la latencia de red en [www.azurespeed.com](https://www.azurespeed.com "Prueba de latencia de Azure").
-> * Los requisitos de ancho de banda de Dynamics 365 for Talent dependen de su situación. La mayoría de las situaciones habituales requieren un ancho de banda de más de 50 kilobytes por segundo (Kbps).
+> * Dynamics 365 Talent está diseñado para redes con latencia de 250-300 milisegundos (ms) o menos. Esta es la latencia de un cliente de explorador al centro de datos de Microsoft Azure que aloja Talent. Se recomienda que pruebe la latencia de red en [www.azurespeed.com](https://www.azurespeed.com "Prueba de latencia de Azure").
+> * Los requisitos de ancho de banda de Talent dependen de su situación. La mayoría de las situaciones habituales requieren un ancho de banda de más de 50 kilobytes por segundo (Kbps).
 > 
 > [!WARNING]
-> No calcule los requisitos del ancho de banda de una ubicación del cliente multiplicando el número de usuarios por los requisitos mínimos del ancho de banda. El uso simultáneo de una ubicación determinada es muy difícil de calcular. Para los clientes que estén preocupados por los requisitos del ancho de banda, use una versión de prueba de Dynamics 365 for Talent.
+> No calcule los requisitos del ancho de banda de una ubicación del cliente multiplicando el número de usuarios por los requisitos mínimos del ancho de banda. El uso simultáneo de una ubicación determinada es muy difícil de calcular. Para los clientes que estén preocupados por los requisitos del ancho de banda, use una versión de prueba de Talent.
 
 ## <a name="supported-microsoft-office-applications"></a>Aplicaciones de Microsoft Office admitidas
 
@@ -68,6 +68,6 @@ Si es desarrollador de software y está interesado en crear país o personalizac
 
 ## <a name="update-policy"></a>Directiva de actualización
 
-Microsoft Dynamics 365 for Talent se mantiene como oferta de nube. Las actualizaciones de Dynamics 365 for Talent son continuas y Microsoft las aplica automáticamente.
+Talent se mantiene como oferta de nube. Las actualizaciones de Talent son continuas y Microsoft las aplica automáticamente.
 
-Las actualizaciones se lanzan en una cadencia regular, las actualizaciones y se crearán a todos los entornos. Dynamics 365 for Talent es admitido por la directiva [Soporte técnico del ciclo de vida de Microsoft](https://support.microsoft.com/gp/lifecycle#gp/OSSLpolicy "Soporte técnico del ciclo de vida de Microsoft"), que proporciona directrices coherentes y fiables para la disponibilidad de asistencia técnica.
+Las actualizaciones se lanzan en una cadencia regular, las actualizaciones y se crearán a todos los entornos. Talent es admitido por la directiva [Soporte técnico del ciclo de vida de Microsoft](https://support.microsoft.com/gp/lifecycle#gp/OSSLpolicy "Soporte técnico del ciclo de vida de Microsoft"), que proporciona directrices coherentes y fiables para la disponibilidad de asistencia técnica.

@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 7ad3c3fd17e88f364be12c122e2f5c155b7b9064
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e600e1d2bb4bc1a49d55fb58b3e74fa7e13fc2af
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556451"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017906"
 ---
 # <a name="shift-and-cash-drawer-management"></a>Gestión de turnos y caja registradora
 
@@ -32,7 +32,7 @@ ms.locfileid: "1556451"
 
 Este tema explica cómo configurar y utilizar los turnos en el punto de venta (PDV) comercial.
 
-En Microsoft Dynamics 365 for Retail, el término *turno* describe la recopilación de datos transaccionales de PDV y actividades entre dos puntos en el tiempo. Para cada turno, la suma de dinero prevista se compara con la suma que se cuenta y declara.
+En Dynamics 365 Retail, el término *turno* describe la recopilación de datos transaccionales de PDV y actividades entre dos puntos en el tiempo. Para cada turno, la suma de dinero prevista se compara con la suma que se cuenta y declara.
 
 Normalmente, los turnos están abiertos al inicio del día laboral. En ese momento, un usuario declara el importe inicial que contiene la caja registradora. Las transacciones de venta se realizan durante todo el día. Finalmente, al final del día, se cuenta la caja y se declaran los importes de cierre. Se cierra el turno y se genera un informe Z. El informe Z indica si existe un superávit o déficit.
 
@@ -69,7 +69,7 @@ Para turnos compartidos que se utilizarán en una tienda, la caja registradora d
 
 ## <a name="shift-and-drawer-operations"></a>Operaciones de turnos y caja registradora
 
-Se pueden realizar distintas operaciones para cambiar el estado de un turno, o para aumentar o reducir el importe de dinero en la caja registradora. Esta sección describe estas operaciones de cambio para Microsoft Dynamics 365 for Retail Modern POS y Cloud POS.
+Se pueden realizar distintas operaciones para cambiar el estado de un turno, o para aumentar o reducir el importe de dinero en la caja registradora. Esta sección describe estas operaciones de cambio para Retail Modern POS y Cloud POS.
 
 ### <a name="open-shift"></a>Turno abierto
 

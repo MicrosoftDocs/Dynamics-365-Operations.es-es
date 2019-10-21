@@ -1,6 +1,6 @@
 ---
 title: Operaciones de punto de venta (PDV) en línea y sin conexión
-description: Este tema ofrece información sobre las operaciones de punto de venta (PDV) en Microsoft Dynamics 365 for Retail. Especifica en qué parte de la aplicación pueden invocarse las operaciones y si están disponibles en modo sin conexión.
+description: Este tema ofrece información sobre las operaciones de punto de venta (PDV) en Dynamics 365 Retail. Especifica en qué parte de la aplicación pueden invocarse las operaciones y si están disponibles en modo sin conexión.
 author: jblucher
 manager: AnnBe
 ms.date: 05/21/2019
@@ -18,22 +18,22 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e21f8677144c7293409e409082e8125c05f3a8fe
-ms.sourcegitcommit: 3d8c951898e05febc160515127c1bcc5de5882a1
+ms.openlocfilehash: fcb933438ec30ebe6d3b499b53e64c58ecec3626
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "1625674"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025319"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Operaciones de punto de venta (PDV) en línea y sin conexión
 
 [!include [banner](includes/banner.md)]
 
-La mayoría de las acciones que el usuario realiza en el punto de venta (PDV) se consideran operaciones. Las operaciones se configuran y administran en el back office de Microsoft Dynamics 365 for Retail . Se pueden agregar muchas operaciones a los botones de la cuadrícula de botones de PDV. Los usuarios pueden seleccionar los botones para invocar las operaciones y para realizar su función. Otras operaciones son parte de la aplicación principal de PDV, y se invocan desde los botones de pantalla o como parte de otros flujos de trabajo o procesos.
+La mayoría de las acciones que el usuario realiza en el punto de venta (PDV) se consideran operaciones. Las operaciones se configuran y administran en el back office de Dynamics 365 Retail . Se pueden agregar muchas operaciones a los botones de la cuadrícula de botones de PDV. Los usuarios pueden seleccionar los botones para invocar las operaciones y para realizar su función. Otras operaciones son parte de la aplicación principal de PDV, y se invocan desde los botones de pantalla o como parte de otros flujos de trabajo o procesos.
 
-En la tabla siguiente se proporcionan los detalles de las operaciones en Retail Modern POS y Cloud POS para Dynamics 365 for Retail. La tabla también especifica en qué parte de la aplicación pueden invocarse las operaciones y si están disponibles cuando el PDV está en modo sin conexión.
+En la tabla siguiente se proporcionan los detalles de las operaciones en Retail Modern POS y Cloud POS. La tabla también especifica en qué parte de la aplicación pueden invocarse las operaciones y si están disponibles cuando el PDV está en modo sin conexión.
 
-Algunas operaciones no se encuentran disponibles en Retail Modern POS o Cloud POS para Dynamics 365 for Retail. Algunas de estas operaciones son operaciones específicas de la configuración regional que requieren extensiones y configuración adicionales. Otras son características de Microsoft Dynamics AX 2012 que no se admiten actualmente.
+Algunas operaciones no se encuentran disponibles en Retail Modern POS o Cloud POS para . Algunas de estas operaciones son operaciones específicas de la configuración regional que requieren extensiones y configuración adicionales. Otras son características de Microsoft Dynamics AX 2012 que no se admiten actualmente.
 
 Las columnas siguientes especifican dónde pueden ser invocadas las operaciones:
 
@@ -42,7 +42,7 @@ Las columnas siguientes especifican dónde pueden ser invocadas las operaciones:
 - **Pantalla de bienvenida** – La operación se pueden invocar desde las cuadrículas de botones de PDV que se configuran en la pantalla de bienvenida de PDV.
 
 > [!NOTE]
-> Las operaciones que se muestran a continuación se aplican a la última versión de Dynamics 365 for Retail. Algunas operaciones pueden haber cambiado o puede que no estén disponibles en versiones anteriores.
+> Las operaciones que se muestran a continuación se aplican a la última versión de Retail. Algunas operaciones pueden haber cambiado o puede que no estén disponibles en versiones anteriores.
 
 | ID. | Operación | Descripción | Cuadrícula de botones | Pantalla de transacción | Pantalla de bienvenida | Disponible sin conexión | Específico de configuración regional |
 |----|-----------|-------------|-------------|--------------------|----------------|-------------------|-----------------|

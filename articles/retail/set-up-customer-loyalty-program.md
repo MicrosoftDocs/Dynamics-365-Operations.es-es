@@ -1,6 +1,6 @@
 ---
 title: Visión general de fidelidad
-description: Este tema describe las capacidades de fidelidad dentro de Microsoft Dynamics 365 for Retail y los pasos de configuración correspondientes para ayudar a minoristas a iniciarse fácilmente en el uso de sus programas de fidelidad.
+description: Este tema describe las capacidades de fidelidad dentro de Dynamics 365 Retail y los pasos de configuración correspondientes para ayudar a minoristas a iniciarse fácilmente en el uso de sus programas de fidelidad.
 author: scott-tucker
 manager: AnnBe
 ms.date: 03/08/2019
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8c2a2347abddf03ed884dcfe68f645fde84c092a
-ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
+ms.openlocfilehash: 9fbb5d6db16e2e145c4970b5dd6417d9e99f78b2
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1863781"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250976"
 ---
 # <a name="loyalty-overview"></a>Visión general de fidelidad
 
 [!include [banner](includes/banner.md)]
 
-Los programas de fidelización pueden ayudar a aumentar la fidelización del cliente al premiar a los clientes por sus inetracciones con la marca del minorista. En Microsoft Dynamics 365 for Retail, puede configurar programas de fidelización simples o complejos que se aplican en todas las entidades jurídicas de cualquier canal comercial. Este tema describe las capacidades de fidelidad dentro de Microsoft Dynamics 365 for Retail y los pasos de configuración correspondientes para ayudar a minoristas a iniciarse fácilmente en el uso de sus programas de fidelidad.
+Los programas de fidelización pueden ayudar a aumentar la fidelización del cliente al premiar a los clientes por sus inetracciones con la marca del minorista. En Dynamics 365 Retail, puede configurar programas de fidelización simples o complejos que se aplican en todas las entidades jurídicas de cualquier canal comercial. Este tema describe las capacidades de fidelidad dentro de Retail y los pasos de configuración correspondientes para ayudar a minoristas a iniciarse fácilmente en el uso de sus programas de fidelidad.
 
 Puede configurar su programa de fidelización de modo que se incluyan las siguientes opciones.
 
@@ -42,7 +42,7 @@ Puede configurar su programa de fidelización de modo que se incluyan las siguie
 
 ## <a name="setting-up-loyalty-programs"></a>Configurar programas de fidelidad
 
-Debe configurar varios componentes para habilitar la característica de fidelización en Dynamics 365 for Retail. En el siguiente diagrama se muestran los componentes de fidelización y cómo se relacionan entre sí.
+Debe configurar varios componentes para habilitar la característica de fidelización en Retail. En el siguiente diagrama se muestran los componentes de fidelización y cómo se relacionan entre sí.
 
 ![Flujo del proceso de configuración de la fidelidad](./media/loyaltyprocess.gif "Componentes de fidelización y cómo se relacionan entre sí")
 
@@ -69,9 +69,9 @@ La tabla siguiente describe los procesos que se deben ejecutar para enviar confi
 
 | Nombre del proceso                         | Descripción | Nombre de página |
 |--------------------------------------|-------------|-----------|
-| 1050 (información sobre fidelización)           | Ejecute este proceso para enviar los datos de fidelización de Dynamics 365 for Retail a las tiendas comerciales. Conviene programar este proceso para ejecutarse con frecuencia, para transmitir datos de fidelidad a todas las tiendas. | Programación de distribución |
+| 1050 (información sobre fidelización)           | Ejecute este proceso para enviar los datos de fidelización de Retail a las tiendas comerciales. Conviene programar este proceso para ejecutarse con frecuencia, para transmitir datos de fidelidad a todas las tiendas. | Programación de distribución |
 | Procesar esquemas de fidelización              | Ejecute este proceso para asociar los esquemas de fidelización con los canales comerciales a los que está asignado el esquema de fidelización. Este proceso se puede programar para que se ejecute como un proceso por lotes. Debe ejecutar este proceso si realiza cambios en los datos de configuración de fidelidad, como esquemas de fidelidad, programas de fidelidad o puntos de premio por fidelidad. | Procesar esquemas de fidelización |
-| Procesar transacciones de fidelización sin conexión | Ejecute este proceso para actualizar las tarjetas de fidelización de modo que incluyan las transacciones que se procesaron sin conexión. Este proceso se aplica solo si la casilla **Obtener sin conexión** está seleccionada en la página **Parámetros compartidos comerciales** de modo que se obtengan premios sin conexión. | Procesar transacciones de fidelización sin conexión |
+| Registrar puntos de fidelidad obtenidos en lotes | Ejecute este proceso para actualizar las tarjetas de fidelización de modo que incluyan las transacciones que se procesaron sin conexión. Este proceso se aplica solo si la casilla **Publicar puntos obtenidos en lotes** está seleccionada en la página **Parámetros compartidos comerciales** de modo que se obtengan premios sin conexión. | Registrar puntos de fidelidad obtenidos en lotes |
 | Actualizar niveles de tarjeta de fidelización            | Ejecute este proceso para evaluar la actividad de obtención del cliente en comparación con las reglas de nivel de un programa de fidelización y actualizar el estado del nivel del cliente. Este proceso solo se necesita si modifica las reglas de nivel en los programas de fidelización y desea que las reglas actualizadas se apliquen de forma retroactiva a las tarjetas de fidelización que ya se han emitido. Este proceso se puede programar como un proceso por lotes o para tarjetas individuales. | Actualizar niveles de tarjeta de fidelización |
 
 ## <a name="loyalty-enhancements"></a>Mejoras de fidelidad
@@ -89,7 +89,7 @@ Retail tiene nueva funcionalidad de fidelidad como parte de su versión de octub
 
     ![Afiliaciones excluidas](./media/Excluded-affiliations.png "Excluir afiliaciones de ganar puntos de fidelización")
     
-- Los minoristas pueden generar números de tarjeta de fidelización en los canales. Antes de la actualización de octubre de 2018, los minoristas podían usar tarjetas de fidelización físicas o generar una tarjeta de fidelización mediante cierta información de cliente única como el número de teléfono. Para habilitar la generación automática de tarjetas de fidelización en comercios, active **Generar número de tarjeta de fidelización** en el perfil de funcionalidad asociado a la tienda. Para los canales en línea, los minoristas pueden usar la API IssueLoyaltyCard para emitir las tarjetas de fidelización a los clientes. Los minoristas pueden proporcionar un número de tarjeta de fidelización a esta API, que se utilizará para generar la tarjeta de fidelización o el sistema utilizará la secuencia numérica de tarjetas de fidelización establecida en Dynamics 365 for Retail. Sin embargo, si la secuencia numérica no está presente, y el minorista no proporciona un número de tarjeta de fidelización mientras llama la API, se mostrará un error.
+- Los minoristas pueden generar números de tarjeta de fidelización en los canales. Antes de la actualización de octubre de 2018, los minoristas podían usar tarjetas de fidelización físicas o generar una tarjeta de fidelización mediante cierta información de cliente única como el número de teléfono. Para habilitar la generación automática de tarjetas de fidelización en comercios, active **Generar número de tarjeta de fidelización** en el perfil de funcionalidad asociado a la tienda. Para los canales en línea, los minoristas pueden usar la API IssueLoyaltyCard para emitir las tarjetas de fidelización a los clientes. Los minoristas pueden proporcionar un número de tarjeta de fidelización a esta API, que se utilizará para generar la tarjeta de fidelización o el sistema utilizará la secuencia numérica de tarjetas de fidelización establecida en Retail. Sin embargo, si la secuencia numérica no está presente, y el minorista no proporciona un número de tarjeta de fidelización mientras llama la API, se mostrará un error.
 
     ![Generar tarjeta de fidelización](./media/Generate-loyalty-card.png "Generar automáticamente número de tarjeta de fidelización")
 
@@ -137,7 +137,7 @@ Retail tiene nueva funcionalidad de fidelidad como parte de su versión de octub
     - Darse cuenta de que se ha producido una actividad que debe ser recompensada.
     - Recompensar con los puntos adecuados.
 
-    El primer paso se hace fuera de Microsoft Dynamics 365 for Retail, como enviar tweets sobre la marca o poner un me gusta en la marca en Facebook. Una vez que se haya reconocido esta actividad, los minoristas pueden indicárselo a la API anterior de servidor de minorista y conceder los puntos de fidelidad en tiempo real. En estos casos, no es necesario un paso de revisión porque se ha producido una actividad y se han concedido los puntos correspondientes. Sin embargo, existen escenarios donde el minorista desearía revisar los registros antes de conceder puntos. Por ejemplo, el minorista ha configurado un taller en la tienda al que los clientes se registran en la página Web de comercio electrónico o en cualquier otra aplicación de registro de eventos. Sin embargo, solo los clientes que asistan deben obtener los puntos de fidelidad. Para estos casos de ejemplo, en la versión 10.0, hemos introducido una entidad de los datos denominada **Fidelidad al por menor otras líneas del tipo de actividad**. Esta entidad de datos permite a los minoristas utilizar el marco de importación y exportación de datos (DIXF) o bien la API OData para registrar las actividades que deben conceder a los clientes puntos de fidelidad. La entidad de datos almacena las actividades en un diario llamado **Líneas de fidelidad para otras actividades**, que se puede usar para fines de revisión y modificación. Una vez que se hayan revisado los datos, el usuario de TI puede registrar manualmente las líneas de actividad o bien ejecutar un trabajo denominado **Procesar otro tipo de actividad para las líneas de fidelidad**, que publicará todas las líneas de actividad sin publicar y concederá los puntos a los clientes basándose en las reglas de ganancias. En la situación de ejemplo anterior, la aplicación del registro de eventos llamarán a la API OData para enviar la información del cliente a Dynamics 365 for Retail. Sin embargo, el usuario de TI puede publicar las líneas de actividad para solo los clientes que asistieron al taller y eliminar las líneas de actividad de los demás clientes. 
+    El primer paso se hace fuera de Retail, como enviar tweets sobre la marca o poner un me gusta en la marca en Facebook. Una vez que se haya reconocido esta actividad, los minoristas pueden indicárselo a la API anterior de servidor de minorista y conceder los puntos de fidelidad en tiempo real. En estos casos, no es necesario un paso de revisión porque se ha producido una actividad y se han concedido los puntos correspondientes. Sin embargo, existen escenarios donde el minorista desearía revisar los registros antes de conceder puntos. Por ejemplo, el minorista ha configurado un taller en la tienda al que los clientes se registran en la página Web de comercio electrónico o en cualquier otra aplicación de registro de eventos. Sin embargo, solo los clientes que asistan deben obtener los puntos de fidelidad. Para estos casos de ejemplo, en la versión 10.0, hemos introducido una entidad de los datos denominada **Fidelidad al por menor otras líneas del tipo de actividad**. Esta entidad de datos permite a los minoristas utilizar el marco de importación y exportación de datos (DIXF) o bien la API OData para registrar las actividades que deben conceder a los clientes puntos de fidelidad. La entidad de datos almacena las actividades en un diario llamado **Líneas de fidelidad para otras actividades**, que se puede usar para fines de revisión y modificación. Una vez que se hayan revisado los datos, el usuario de TI puede registrar manualmente las líneas de actividad o bien ejecutar un trabajo denominado **Procesar otro tipo de actividad para las líneas de fidelidad**, que publicará todas las líneas de actividad sin publicar y concederá los puntos a los clientes basándose en las reglas de ganancias. En la situación de ejemplo anterior, la aplicación del registro de eventos llamarán a la API OData para enviar la información del cliente a Dynamics 365 Retail. Sin embargo, el usuario de TI puede publicar las líneas de actividad para solo los clientes que asistieron al taller y eliminar las líneas de actividad de los demás clientes. 
 
     > [!NOTE]
     > Actualmente, el sistema obliga a los usuarios a configurar una secuencia numérica para “otros tipos de actividad”, pero esto no será un paso obligatorio en versiones futuras. Para configurar una secuencia numérica, vaya **Parámetros compartidos comerciales** \> **Secuencias numéricas** y seleccione una secuencia numérica para el **Fidelidad otro identificador de tipo de actividad**.

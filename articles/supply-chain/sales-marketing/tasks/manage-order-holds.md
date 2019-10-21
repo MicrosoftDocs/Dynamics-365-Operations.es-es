@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 00ce4a31c0b0f466911658c79f6e32788273c127
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: a7168d13ef0b24d06aa28fbbc22bbb4e6093df24
+ms.sourcegitcommit: 58db26b7edf02e7c33aaaf1c934e3263aa74b01f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1834011"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "1994919"
 ---
 # <a name="manage-order-holds"></a>Gestionar retenciones de pedidos
 
@@ -33,45 +33,40 @@ Puede ejecutar este procedimiento con los datos de la empresa de demostración U
 
 
 ## <a name="set-up-order-holds"></a>Configuración de retenciones de pedidos
-1. Vaya a Ventas y marketing > Configuración > Pedidos de ventas > Códigos de retención de pedido.
-2. Haga clic en Nuevo.
-3. En el campo Código de retención, escriba un valor.
-    * Por ejemplo, tipo Volver a llamar.  
-4. En el campo Descripción, escriba un valor.
-    * Por ejemplo, el Pedido se encuentra retenido en espera de devolución de llamada del cliente.  
-    * De manera opcional, seleccione la casilla Quitar reservas para eliminar las reservas físicas del pedido cuando se agrega este código de retención.  
-5. Haga clic en Guardar.
+1. Vaya a **Panel de navegación > Módulos > Ventas y marketing > Configuración > Pedidos de ventas > Códigos de retención de pedidos**.
+2. Haga clic en **Nuevo**.
+3. En el campo **Código de retención**, escriba un valor. Por ejemplo, tipo "Volver a llamar".  
+4. En el campo **Descripción**, escriba un valor.
+    - Por ejemplo, el Pedido se encuentra retenido en espera de devolución de llamada del cliente.  
+    - De manera opcional, seleccione la casilla **Quitar reservas** para eliminar las reservas físicas del pedido cuando se agrega este código de retención.  
+5. Haga clic en **Guardar**.
 
 ## <a name="place-order-on-hold"></a>Retenga el pedido
-1. Vaya a Ventas y marketing > Pedidos de ventas > Todos los pedidos de ventas.
-2. Haga clic en Nuevo.
-3. En el campo Cuenta de cliente, especifique o seleccione un valor.
-4. Haga clic en Aceptar
-5. En el campo Número de artículo, especifique o seleccione un valor.
-6. En el campo Cantidad, especifique un número.
-7. En el panel de acciones, haga clic en Pedido de ventas.
-8. Haga clic en Retenciones de pedido.
-9. Haga clic en Nuevo.
-10. En el campo Código de retención, seleccione el código que ha creado en la subtarea anterior.
-11. Haga clic en Guardar.
+1. Vaya a **Panel de navegación > Módulos > Ventas y marketing > Pedidos de ventas > Todos los pedidos de ventas**.
+2. Haga clic en **Nuevo**.
+3. En el campo **Cuenta de cliente**, especifique o seleccione un valor.
+4. Haga clic en **Aceptar**.
+5. En el campo **Número de artículo**, especifique o seleccione un valor.
+6. En el campo **Cantidad**, especifique un número.
+7. En el **panel de acciones**, haga clic en **Pedido de ventas**.
+8. Haga clic en **Retenciones de pedido**.
+9. Haga clic en **Nuevo**.
+10. En el campo **Código de retención**, seleccione el código que ha creado en la subtarea anterior.
+11. Haga clic en **Guardar**.
 12. Cierre la página.
-13. Vaya a Ventas y marketing > Pedidos de ventas > Todos los pedidos de ventas.
-14. En la lista, marque la fila seleccionada.
-    * Los pedidos que están actualmente en espera tienen marcados los campos "No procesar" y "En espera".    
-15. En el panel de acciones, haga clic en Seleccionar y empaquetar.
+13. Vaya a **Ventas y marketing > Pedidos de ventas > Todos los pedidos de ventas**.
+14. En la lista, marque la fila seleccionada. Los pedidos que están actualmente en espera tienen marcados los campos "No procesar" y "En espera".
+15. En el panel de acciones, haga clic en **Seleccionar y empaquetar**.
 
 ## <a name="manage-order-holds"></a>Gestionar retenciones de pedidos
-1. Vaya a Ventas y marketing > Pedidos de ventas > Pedidos abiertos > Retenciones de pedido.
-    * La página de retenciones de pedido funciona como un área de trabajo que le proporciona una visión general de todas las retenciones (en curso y procesadas), donde podrá gestionarlas junto con los pedidos de ventas relacionados.      
+1. Vaya a **Ventas y marketing > Pedidos de ventas > Pedidos abiertos > Retenciones de pedido**. La página de **retenciones de pedido** funciona como un área de trabajo que le proporciona una visión general de todas las retenciones (en curso y procesadas), donde podrá gestionarlas junto con los pedidos de ventas relacionados.     
 2. En la lista, marque la fila seleccionada.
-3. En el Panel de acciones, haga clic en Retener finalización de la compra.
-4. Haga clic en Registro de salida del conductor.
-5. En la lista, desmarque la fila seleccionada.
-    * El campo Desprotegido para ahora muestra su Id. de usuario.   
-6. Haga clic en Liberar desprotección.
-7. En el Panel de acciones, haga clic en Liberar retención.
-    * Cuando esté listo para quitar la retención y permitir que el pedido pase a la siguiente fase de la entrega, deberá desactivar la retención. Si el pedido no requiere ninguna modificación, puede ejecutar la acción Liberar retenciones. Sin embargo, puede usar la acción Liberar y modificar si el pedido necesita actualizarse en el momento de liberar la retención.      
-    * La acción Borrar y Enviar sólo es aplicable cuando utilice la funcionalidad del Centro de llamadas.  
-8. Haga clic en Liberar retenciones.
-    * La retención se ha liberado del pedido y se ha quitado de la lista de retenciones activas. Para ver todas las retenciones o su subconjunto en función de un estado específico, cambie el valor del campo Mostrar.     
+3. En el **Panel de acciones**, haga clic en **Retener finalización de la compra**.
+4. Haga clic en **Registro de salida del conductor**.
+5. En la lista, desmarque la fila seleccionada. El campo **Desprotegido para** ahora muestra su Id. de usuario.   
+6. Haga clic en **Liberar desprotección**.
+7. En el **Panel de acciones**, haga clic en **Liberar retención**.
+    - Cuando esté listo para quitar la retención y permitir que el pedido pase a la siguiente fase de la entrega, deberá desactivar la retención. Si el pedido no requiere ninguna modificación, puede ejecutar la acción Liberar retenciones. Sin embargo, puede usar la acción Liberar y modificar si el pedido necesita actualizarse en el momento de liberar la retención.      
+    - La acción **Borrar y Enviar** solo es aplicable cuando utilice la funcionalidad del Centro de llamadas.  
+8. Haga clic en **Liberar retenciones**. La retención se ha liberado del pedido y se ha quitado de la lista de retenciones activas. Para ver todas las retenciones o su subconjunto en función de un estado específico, cambie el valor del campo Mostrar.     
 

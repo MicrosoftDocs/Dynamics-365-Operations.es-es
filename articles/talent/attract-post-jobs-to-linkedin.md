@@ -1,6 +1,6 @@
 ---
-title: Publicar trabajos en LinkedIn desde Microsoft Dynamics 365 for Talent - Attract
-description: Este tema explica cómo usar Dynamics 365 for Talent - Attract para registrar trabajos en LinkedIn.
+title: Publicar trabajos en LinkedIn desde Microsoft Dynamics 365 Talent Attract
+description: Este tema explica cómo usar Dynamics 365 Talent - Attract para registrar trabajos en LinkedIn.
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/08/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: f2109f5e90321598eb2317140eef6bcd86ab82f5
-ms.sourcegitcommit: c62756cb04549b2ff5de9b93d497e964a340335a
+ms.openlocfilehash: 014202ca49e5bd6204d450b2a43c7372ed84ff33
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "1756185"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008252"
 ---
 # <a name="post-jobs-to-linkedin"></a>Publicar ofertas de empleo en LinkedIn
 
 [!include [banner](../includes/banner.md)]
 
-LinkedIn es la mayor red profesional conectada, que da acceso al talento superior del mundo. Microsoft Dynamics 365 for Talent: Attract ayuda a obtener el talento que necesita dejándole enviar sus trabajos directamente de Attract a LinkedIn.
+LinkedIn es la mayor red profesional conectada, que da acceso al talento superior del mundo. Microsoft Dynamics 365 Talent: Attract ayuda a obtener el talento que necesita dejándole enviar sus trabajos directamente de Attract a LinkedIn.
 
 Attract le permite enviar listas limitadas a LinkedIn sin gasto extra alguno. Estas listas solo están disponibles a través de socios de software de LinkedIn como Attract. No aparecen en el panel **Carreras** en la página de LinkedIn de la empresa, ya que ahí sólo aparecen listas pagadas. Sin embargo, se muestran donde los candidatos potenciales pueden ver todos los trabajos disponibles. Las listas limitadas también se muestran en búsquedas de trabajo de LinkedIn.
 

@@ -1,9 +1,9 @@
 ---
 title: Agregue un control de recomendaciones a la pantalla de transacción en dispositivos de PDV
 description: Este tema describe cómo agregar un control de recomendaciones a la pantalla de transacción en un dispositivo de punto de venta (PDV) mediante el diseñador de pantalla en Microsoft Dynamics 365 for Retail.
-author: ashishmsft
+author: bebeale
 manager: AnnBe
-ms.date: 02/05/2018
+ms.date: 10/01/19
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,23 +19,22 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f17da3db6fbc19548544a0c6c090a0b6db093673
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: d646c8ba559ba3e8d2175911e76c57d25eff02ca
+ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606858"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2278138"
 ---
 # <a name="add-a-recommendations-control-to-the-transaction-screen-on-pos-devices"></a>Agregue un control de recomendaciones a la pantalla de transacción en dispositivos de PDV
 
 [!include [banner](includes/banner.md)]
 
-> [!NOTE]
-> Estamos retirando la versión actual del servicio de recomendación de productos ya que rediseñamos esta función con un algoritmo mejor y capacidades más nuevas orientadas a la venta minorista. Para obtener más información, consulte [Funciones retiradas u obsoletas](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features).
 
-Este tema describe cómo agregar un control de recomendaciones a la pantalla de transacción en un dispositivo de punto de venta (PDV) mediante el diseñador de pantalla en Microsoft Dynamics 365 for Retail.
+Este tema describe cómo agregar un control de recomendaciones a la pantalla de transacción en un dispositivo de punto de venta (PDV) mediante el diseñador de pantalla en Microsoft Dynamics 365 Retail. Para obtener más información sobre recomendaciones del producto, lea [recomendaciones del producto en la documentación de PDV.](product.md)
 
-Puede mostrar recomendaciones del producto en el dispositivo de PDV cuando utilice Microsoft Dynamics 365 for Retail. Las *Recomendaciones* son artículos que pueden interesar a su cliente en función de su historial de compra, los artículos de su lista de deseos y los artículos que compraron otros clientes en línea y en tiendas de físicas. Para mostrar recomendaciones del producto, debe agregar un control a la pantalla de transacción mediante el diseñador de pantalla.
+
+Puede mostrar recomendaciones del producto en el dispositivo de PDV cuando utilice Microsoft Dynamics 365 Retail. Para mostrar recomendaciones del producto, debe agregar un control a la pantalla de transacción mediante el diseñador de pantalla. 
 
 ## <a name="open-layout-designer"></a>Abra el Diseñador
 
@@ -45,6 +44,7 @@ Puede mostrar recomendaciones del producto en el dispositivo de PDV cuando utili
 4. Haga clic en **Diseñador**.
 5. Siga las instrucciones para iniciar al diseñador. Cuando se le soliciten las credenciales, introduzca las mismas credenciales que utilizó cuando se inició el Diseñador desde la página **Diseños de pantalla**.
 6. Cuando inicie sesión, aparece una página similar a la siguiente. El diseño variará en función de las personalizaciones que se crearon para su tienda.
+
 
     [![Diseñador](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
 
@@ -57,7 +57,9 @@ Hay dos opciones de configuración disponibles: Elija la opción que mejor se aj
 
 ### <a name="make-recommendations-always-visible"></a>Hacer que las recomendaciones estén siempre visibles
 
+
 1. Reduzca la altura del área de detalles de las líneas de transacción de manera que tenga la misma altura que el panel de cliente a la izquierda.
+
 
     [![La altura del espacio de los detalles de las líneas de transacción se ha reducido](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
 
@@ -65,15 +67,18 @@ Hay dos opciones de configuración disponibles: Elija la opción que mejor se aj
 
     [![Se han agreado al diseño las recomendaciones de control](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
 
+
 3. Haga clic en la **X** para guardar y salir del Diseñador.
 4. En Dynamics 365 for Retail Vaya a **Retail** &gt; **Retail TI** &gt; **Programación de distribución**.
-5. En la lista, seleccione  **1090, Cajas registradoras**.
+5. En la lista, seleccione **1090, Cajas registradoras**.
 6. Haga clic en **Ejecutar ahora**.
+
 
 ### <a name="add-a-recommendations-tab-to-the-button-grid-on-the-right-side-of-the-screen"></a>Agregue una pestaña de Recomendaciones a la cuadrícula de botones en el lado derecho de la pantalla
 
 1. Haga clic con el botón secundario en el espacio vacío por debajo de la última pestaña en la cuadrícula de botones que se encuentra en el lado derecho de la página.
-2. Haga clic en  **personalizar**.
+
+2. Haga clic en **personalizar**.
 
     [![Personalización - Pestaña de control del cuadro de diálogo](./media/pic-5.png)](./media/pic-5.png)
 
@@ -85,12 +90,14 @@ Hay dos opciones de configuración disponibles: Elija la opción que mejor se aj
 
 6. En el campo **Etiqueta** , escriba un nombre para la pestaña de recomendaciones. Por ejemplo, escriba "Productos recomendados".
 7. En el campo **Imagen**, seleccione la imagen que desea que aparezca en la pestaña.
-8. Haga clic en **Aceptar**. La nueva pestaña aparece en la cuadrícula de botones.
+8. Haga clic en **Aceptar**. La nueva pestaña aparece en la cuadrícula de botones.
 9. Haga clic en la **X** para guardar y salir del Diseñador.
 10. En Dynamics 365 for Retail Vaya a **Retail** &gt; **Retail TI** &gt; **Programación de distribución**.
-11. En la lista, seleccione  **1090 Cajas registradoras**.
+11. En la lista, seleccione **1090, Cajas registradoras**.
 12. Haga clic en **Ejecutar ahora**.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general de recomendaciones de productos personalizados](personalized-product-recommendations.md)
+[Recomendaciones de producto en PDV](product.md)
+
+[Visión general de recomendaciones de producto](../commerce/product-recommendations.md)

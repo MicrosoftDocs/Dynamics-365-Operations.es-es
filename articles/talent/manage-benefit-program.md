@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 5c54e5fccd7ddc5f8f024e692bb46f4140134578
-ms.sourcegitcommit: 282f05635a7b933fe9bdda7a8187f322ed5ede17
+ms.openlocfilehash: a9a26450be97f655df8bc5983e4718341d40a2d6
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "1755406"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009909"
 ---
 # <a name="define-and-manage-a-benefits-program"></a>Definir y gestionar un programa de prestaciones
 
@@ -51,7 +51,7 @@ Para cada tipo de prestación, como de visión o dental, una organización puede
 [![imagen de prestación](./media/benefit-pic.png)](./media/benefit-pic.png)
 
 ## <a name="eligibility"></a>Idoneidad
-Muchos factores determinan la idoneidad del trabajador para los distintos tipos de prestaciones que el empleador ofrece. Al crear una prestación en Microsoft Talent, puede establecer el tipo de idoneidad que se aplica a dicha prestación. 
+Muchos factores determinan la idoneidad del trabajador para los distintos tipos de prestaciones que el empleador ofrece. Al crear una prestación en Dynamics 365 Talent, puede establecer el tipo de idoneidad que se aplica a dicha prestación. 
 
 Puede hacer que una prestación esté disponible para todos los trabajadores. Por ejemplo, algunas empresas ofrecen pases de aparcamiento para todos los empleados como beneficio complementario. Cuando crea esta prestación, establece la idoneidad en **Todos los trabajadores son aptos**. 
 

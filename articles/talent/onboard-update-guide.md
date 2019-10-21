@@ -1,6 +1,6 @@
 ---
-title: Actualizar guías de incorporación en Dynamics 365 for Talent - Onboard
-description: Este tema explica cómo actualizar las guías de incorporación en Microsoft Dynamics 365 for Talent - Onboard, y cómo insertar cambios en las guías existentes.
+title: Actualizar guías de incorporación en Dynamics 365 Talent - Onboard
+description: Este tema explica cómo actualizar las guías de incorporación en Microsoft Dynamics 365 Talent - Onboard y cómo insertar cambios en las guías existentes.
 author: andreabichsel
 manager: ''
 ms.date: 06/21/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-21
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d2be450685724510db2f0fd2af8545f8f40278e7
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: 6175061456a03228043ea13767845cf4b54d6b2e
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731634"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010738"
 ---
-# <a name="update-onboarding-guides-in-dynamics-365-for-talent-onboard"></a>Actualizar guías de incorporación en Dynamics 365 for Talent: Onboard
+# <a name="update-onboarding-guides"></a>Actualizar guías de incorporación
 
 [!include [banner](includes/banner.md)]
 
-Si necesita realizar cambios en las guías de incorporación en Microsoft Dynamics 365 for Talent: Onboard, puede actualizarlas y insertar los cambios, aunque haya registrado ya las guías. Tiene dos opciones para actualizar una guía de incorporación:
+Si necesita realizar cambios en las guías de incorporación en Microsoft Dynamics 365 Talent: Onboard puede actualizarlas y insertar los cambios, aunque haya registrado ya las guías. Tiene dos opciones para actualizar una guía de incorporación:
 
 - Editar la guía de incorporación directamente, y guardar los cambios.
 - Edite la plantilla de incorporación y, a continuación, especificar los cambios en todas las guías de incorporación creadas desde ella.

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 0a31ea7d1df33d3f42e95d5e1152f00687954b04
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 3a6e7556705249296d4f5e5fb56f25b444f8f71a
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518986"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008160"
 ---
 # <a name="create-fixed-compensation-plans"></a>Actualizar planes de compensación fija
 
@@ -31,7 +31,7 @@ ms.locfileid: "1518986"
 
 La compensación fija hace referencia al sueldo o salario bruto regular de un empleado. En este tema se describen los componentes que deben configurarse para poder crear un plan de compensación fija e inscribir a empleados.
 
-Los importes de compensación fija se pueden calcular para sus empleados, en función de factores como el rendimiento, la región y los aumentos de presupuesto. Microsoft Talent admite tipos de compensación de banda, paso y categoría.
+Los importes de compensación fija se pueden calcular para sus empleados, en función de factores como el rendimiento, la región y los aumentos de presupuesto. Dynamics 365 Talent admite tipos de compensación de banda, paso y categoría.
 
 ## <a name="fixed-compensation-components"></a>Componentes de compensación fija
 ### <a name="compensation-levels"></a>Niveles de compensación

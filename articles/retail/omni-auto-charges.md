@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 47829a6fcae37e03510929dc46b942455016df0b
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: 829fa771003de7759b237d4499aa038040b46a3f
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577878"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018047"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Cargos automáticos avanzados omnicanal
 
@@ -34,7 +34,7 @@ Este tema proporciona información acerca de la configuración y la implementaci
 
 Si se habilitan las funciones avanzadas de cargos automáticos, los pedidos creados en cualquier canal minorista admitido (punto de venta (PDV), centro de asistencia telefónica y en línea), pueden aprovechar las configuraciones de [cargos automáticos](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) definidas en la aplicación de ERP para el encabezado y los cargos relacionados a nivel de línea.
 
-En las versiones anteriores a Dynamics 365 for Retail versión 10.0 , las configuraciones de [cargo automático](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) solo están accesibles para los pedidos creados en e-commerce y canales de centro de llamadas. En las versiones 10.0 y posteriores, los perdidos creados en PDV pueden aprovechar las configuraciones de cargos automáticos. De esta manera, los cargos adicionales se puede agregar sistemáticamente a las transacciones de ventas.
+En las versiones anteriores a Retail versión 10.0 , las configuraciones de [cargo automático](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) solo están accesibles para los pedidos creados en comercio electrónico y canales de centro de llamadas. En las versiones 10.0 y posteriores, los perdidos creados en PDV pueden aprovechar las configuraciones de cargos automáticos. De esta manera, los cargos adicionales se puede agregar sistemáticamente a las transacciones de ventas.
 
 Al usar versiones previas a la versión 10.0, se debe pedir a un usuario PDV que especifique manualmente una cuota de envío durante la creación de una transacción PDV con “Enviar todo” o “Enviar selección". Aunque las capacidades para cargos varios de la aplicación se usan en relación a cómo se escriben los cargos en el pedido, no se proporciona cálculo sistemático alguno; el cálculo depende de los datos del usuario para determinar el valor de los cargos. Los cargos solo se pueden agregar como único código de cargos tipo “envío” y no pueden editarse o cambiarse fácilmente en el PDV después de que los creen.
 

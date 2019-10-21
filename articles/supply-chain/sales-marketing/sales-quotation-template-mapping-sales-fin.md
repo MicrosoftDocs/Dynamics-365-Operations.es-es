@@ -1,6 +1,6 @@
 ---
-title: Sincronizar directamente encabezados y líneas de presupuesto de ventas de Sales con Finance and Operations
-description: En el tema se abordan las plantillas y las tareas subyacentes que se usan para sincronizar encabezados y líneas del presupuestos de ventas directamente de Microsoft Dynamics 365 for Sales en Microsoft Dynamics 365 for Finance and Operations.
+title: Sincronizar encabezados y líneas de presupuesto de ventas directamente desde Sales a Supply Chain Management
+description: En el tema se abordan las plantillas y las tareas subyacentes que se usan para sincronizar encabezados y líneas del presupuestos de ventas directamente de Dynamics 365 Sales en Dynamics 365 Supply Chain Management.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/25/2018
@@ -19,33 +19,33 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 0894f4728d3f1df21db130cd9e87d9881726e7fa
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: ddc81aa7ff462304cb6e22c919221217f7a1e019
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1743380"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251256"
 ---
-# <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-finance-and-operations"></a>Sincronizar encabezados y líneas de presupuesto de ventas directamente desde Sales a Finance and Operations
+# <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-supply-chain-management"></a>Sincronizar encabezados y líneas de presupuesto de ventas directamente desde Sales a Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
 
-En el tema se abordan las plantillas y las tareas subyacentes que se usan para sincronizar encabezados y líneas del presupuestos de ventas directamente de Microsoft Dynamics 365 for Sales en Microsoft Dynamics 365 for Finance and Operations.
+En el tema se abordan las plantillas y las tareas subyacentes que se usan para sincronizar encabezados y líneas del presupuestos de ventas directamente de Dynamics 365 Sales en Dynamics 365 Supply Chain Management.
 
 > [!NOTE]
 > Para poder usar la solución Prospect to cash, deberá familiarizarse con [Integración de datos en Common Data Service para aplicaciones](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Flujo de datos en Prospect to cash
 
-La solución Prospect to cash usa la característica de integración de datos para sincronizar datos a través de las instancias de Finance and Operations y Sales. Las plantillas de integración de cliente viable y líquido que están disponibles con la característica de integración de datos permiten habilitar el flujo de datos de cuentas, contactos, productos, presupuestos de ventas, pedidos de ventas y facturas de ventas entre Finance and Operations y Sales. La ilustración siguiente muestra cómo se sincronizan los datos entre Finance and Operations y Sales.
+La solución Prospect to cash usa la característica de integración de datos para sincronizar datos a través de las instancias de Supply Chain Management y Sales. Las plantillas de Prospect to cash disponibles con la característica de integración de datos permiten el flujo de datos de cuentas, contactos, productos, presupuestos de ventas, pedidos de ventas y facturas de ventas entre Supply Chain Management y Sales. La ilustración siguiente muestra cómo se sincronizan los datos entre Supply Chain Management y Sales.
 
 [![Flujo de datos en Prospect to cash](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="template-and-tasks"></a>Plantilla y tareas
 
-La plantilla y las tareas subyacentes siguientes se usan para sincronizar encabezados y líneas del presupuestos de ventas directamente de Sales a Finance and Operations:
+La plantilla y las tareas subyacentes siguientes se usan para sincronizar encabezados y líneas del presupuestos de ventas directamente de Sales a Supply Chain Management:
 
-- **Nombre de la plantilla en la integración de datos:** Presupuestos de ventas (Sales y Fin and Ops) - Directos
+- **Nombre de la plantilla en la integración de datos:** Presupuestos de ventas (Sales a Supply Chain Management) - Directos
 - **Nombres de las tareas en el proyecto de integración de datos:**
 
     - QuoteHeader
@@ -53,9 +53,9 @@ La plantilla y las tareas subyacentes siguientes se usan para sincronizar encabe
 
 Las siguientes tareas de sincronización son necesarias antes de que pueda producirse la sincronización de los encabezados y líneas del presupuesto de ventas:
 
-- Productos (de Fin and Ops a Sales) - Directos
-- Cuentas (de Sales a Fin and Ops) - Directos (si es que se usan)
-- Contactos a Clientes (de Sales a Fin and Ops) - Directos (si es que se usan)
+- Productos (Supply Chain Management a Sales) - Directo
+- Cuentas (Sales a Supply Chain Management) - Directo (si se usa)
+- Contactos a clientes (de Sales a Supply Chain Management) - Directo (si se usa)
 
 ## <a name="entity-set"></a>Conjunto de entidades
 
@@ -66,7 +66,7 @@ Las siguientes tareas de sincronización son necesarias antes de que pueda produ
 
 ## <a name="entity-flow"></a>Flujo de la entidad
 
-Los presupuestos de ventas se crean en Sales y se sincronizan en Finance and Operations.
+Los presupuestos de ventas se crean en Sales y se sincronizan en Supply Chain Management.
 
 Los presupuestos de ventas de Sales se sincronizan solo si se cumplen las siguientes condiciones:
 
@@ -75,13 +75,13 @@ Los presupuestos de ventas de Sales se sincronizan solo si se cumplen las siguie
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>Cliente potencial para cobrar la solución por Sales
 
-El campo **Solo tiene productos mantenidos externamente** se ha agregado a la entidad **Presupuesto** para realizar un seguimiento constante si el presupuesto de ventas se compone por completo de productos mantenidos externamente. Si un presupuesto de ventas solo tiene productos mantenidos externamente, los productos se mantienen en Finance and Operations. Este comportamiento ayuda a garantizar que no intenta sincronizar las líneas de presupuesto de ventas que tienen productos desconocidos para Finance and Operations.
+El campo **Solo tiene productos mantenidos externamente** se ha agregado a la entidad **Presupuesto** para realizar un seguimiento constante si el presupuesto de ventas se compone por completo de productos mantenidos externamente. Si un presupuesto de ventas solo tiene productos mantenidos externamente, los productos se mantienen en Supply Chain Management. Este comportamiento ayuda a garantizar que no intenta sincronizar las líneas de presupuesto de ventas que tienen productos desconocidos para Supply Chain Management.
 
 Todos los productos de presupuestos en el presupuesto de ventas se actualizan con información de **Solo tiene productos mantenidos externamente** de la cabecera de presupuesto de ventas. Esta información se encuentra en el campo **Solo tiene productos mantenidos externamente** en la entidad **QuoteDetails**.
 
-Un descuento se puede agregar al producto de presupuesto y será sincronizado con Finance and Operations. Los campos **Descuento**, **Cargos** e **Impuestos** en el encabezado se controlan mediante una configuración compleja en Finance and Operations. Actualmente esta configuración no admite la asignación de la integración. En el diseño actual, los campos **Precio**, **Descuento**, **Cargo** e **Impuestos** son mantenidos y gestionados en Finance and Operations.
+Un descuento se puede agregar al producto de presupuesto y será sincronizado con Supply Chain Management. Los campos **Descuento**, **Cargos** e **Impuestos** en el encabezado se controlan mediante una configuración compleja en Supply Chain Management. Actualmente esta configuración no admite la asignación de la integración. En el diseño actual, los campos **Precio**, **Descuento**, **Cargo** e **Impuestos** son mantenidos y gestionados en Supply Chain Management.
 
-En Sales, la solución crea los siguientes campos de solo lectura, ya que los valores no se sincronizan con Finance and Operations:
+En Sales, la solución crea los siguientes campos de solo lectura, ya que los valores no se sincronizan con Supply Chain Management:
 
 - Campos de solo lectura en el encabezado del presupuesto de ventas: **% de descuento**, **Descuento** e **Importe del fleje**
 - Campos de sólo lectura de productos de presupuesto: **Impuestos**
@@ -111,20 +111,20 @@ Antes de sincronizar presupuestos de ventas, es importante actualizar la configu
 
 #### <a name="quoteline"></a>QuoteLine
 
-- Asegúrese de que existe la asignación de valores requerida para **SalesUnitSymbol** en Finance and Operations.
+- Asegúrese de que existe la asignación de valores requerida para **SalesUnitSymbol** en Supply Chain Management.
 - Asegúrese de que las unidades necesarias están definidas en Sales.
 
     Un valor de plantilla que tiene una asignación de valores se define para **oumid.name** como **SalesUnitSymbol**.
 
-- Opcional: Puede agregar las siguientes asignaciones para ayudar a garantizar que las líneas de presupuesto de ventas se importan en Finance and Operations si no hay información predeterminada del cliente o del producto:
+- Opcional: Puede agregar las siguientes asignaciones para ayudar a garantizar que las líneas de presupuesto de ventas se importan en Supply Chain Management si no hay información predeterminada del cliente o del producto:
 
-    - **SiteId** – Se requiere un sitio para generar presupuestos y las líneas de pedido de ventas en Finance and Operations. No hay valor de plantilla predeterminado para **SiteId**.
-    - **WarehouseId** – Se requiere un almacén para procesar presupuestos y las líneas de pedido de ventas en Finance and Operations. No hay valor de plantilla predeterminado para **WarehouseId**.
+    - **SiteId** – Se requiere un sitio para generar presupuestos y las líneas de pedido de ventas en Supply Chain Management. No hay valor de plantilla predeterminado para **SiteId**.
+    - **WarehouseId** – Se requiere un almacén para procesar presupuestos y las líneas de pedido de ventas en Supply Chain Management. No hay valor de plantilla predeterminado para **WarehouseId**.
 
 ## <a name="template-mapping-in-data-integrator"></a>Asignación de la plantilla en el integrador de datos
 
 > [!NOTE]
-> - Los campos **Descuento**, **Cargos** e **Impuestos** se controlan mediante una configuración compleja en Finance and Operations. Actualmente esta configuración no admite la asignación de la integración. En el diseño actual, los campos **Precio**, **Descuento**, **Cargo** e **Impuestos** son gestionados por Finance and Operations.
+> - Los campos **Descuento**, **Cargos** e **Impuestos** se controlan mediante una configuración compleja en Supply Chain Management. Actualmente esta configuración no admite la asignación de la integración. En el diseño actual, los campos **Precio**, **Descuento**, **Cargo** e **Impuestos** son gestionados por Supply Chain Management.
 > - Los campos **Condiciones de pago**, **Condiciones de carga**, **Condiciones de entrega**, **Método de envío**, y **Modo de entrega** no forman parte de las asignaciones predeterminadas. Para asignar estos campos, debe configurar una asignación de valores que sea específica de los datos en las organizaciones entre las que se sincroniza la entidad.
 
 Las siguientes ilustraciones muestran un ejemplo de una asignación de plantilla en el integrador de los datos.

@@ -1,6 +1,6 @@
 ---
 title: Evaluar la consecución de ventas por producto
-description: Puede estudiar la rentabilidad de los 10 productos principales mediante Microsoft Dynamics 365 for Retail.
+description: Puede estudiar la rentabilidad de los 10 productos principales mediante Dynamics 365 Retail.
 author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,20 +19,20 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 059474a780f849d6e1920703c1f717a9adaa2617
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7796aa830c99bd0fd5784ff95e509767a3b55b44
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546395"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024969"
 ---
 # <a name="assess-sales-performance-by-product"></a>Evaluar la consecución de ventas por producto
 
 [!include [banner](includes/banner.md)]
 
-Puede estudiar la rentabilidad de los 10 productos principales mediante Microsoft Dynamics 365 for Retail.
+Puede estudiar la rentabilidad de los 10 productos principales mediante Dynamics 365 Retail.
 
-Como parte de Dynamics 365 for Retail, los usuarios también pueden estudiar la rentabilidad de los productos principales (10 a 100) en distintos niveles de la jerarquía organizativa, en función de uno de los criterios siguientes:
+Como parte de Retail, los usuarios también pueden estudiar la rentabilidad de los productos principales (10 a 100) en distintos niveles de la jerarquía organizativa, en función de uno de los criterios siguientes:
 
 - Importe de venta
 - Cantidad

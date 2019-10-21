@@ -3,7 +3,7 @@ title: Configuración de cobertura
 description: Este tema proporciona información acerca de la configuración de cobertura que la programación maestra usa para calcular los requisitos de artículos.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 09/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 99e094a7131b6d3a299fc72abd0141529908ddd2
-ms.sourcegitcommit: 9e50bee6a67f0fe2fa6f86e02c7e8de16d0e2482
+ms.openlocfilehash: 3a63184852751bb65fb7e80d721f8c48fd847609
+ms.sourcegitcommit: edfd805356894710488ce07cb1c89313f448b222
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "1538903"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "1998980"
 ---
 # <a name="coverage-settings"></a>Configuración de cobertura
 
@@ -49,6 +49,19 @@ Puede especificar la configuración de cobertura de varios modos:
 - Especifique la configuración de cobertura para un grupo de dimensiones.
 
     Vaya a **Gestión de información de productos &gt; Productos &gt; Productos emitidos**. En la página **Detalles de producto emitido**, en la ficha desplegable **General**, en la sección **Administración**, seleccione el vínculo en el campo **Grupo de dimensiones de almacenamiento**. En la página **Grupos de dimensiones de almacenamiento**, seleccione la casilla de verificación **Plan de cobertura por dimensión** para crear la configuración de cobertura para una dimensión en el grupo de dimensiones de almacenamiento. Todas las dimensiones de producto, como configuración, color, tamaño, estilo, deben tener el campo **Plan de cobertura por dimensión** seleccionado.
+
+
+## <a name="coverage-codes"></a>Códigos de cobertura
+
+La planificación maestra se puede configurar para utilizar varios métodos de reabastecimiento. Los métodos de reabastecimiento o los métodos de medición de lotes son técnicas que utiliza el sistema para determinar el tamaño de lote para artículos comprados o producidos. 
+
+Cada método de reabastecimiento se asigna a uno de los códigos de cobertura siguientes:
+
+- **Manual** - El método de medición de lote donde el sistema no sugiere pedidos comprados, transferidos o de producción para el artículo. El planificador del artículo será responsable de realizar los pedidos necesarios para el reabastecimiento del artículo.
+- **Por requisito** - El método de medición de lote en el que el sistema crea una compra, una transferencia, o un pedido de producción planificados de acuerdo con el requisito del artículo. Se usa normalmente para los artículos costosos con demanda intermitente.  
+- **Por período** - el método de medición de lote que combina toda la demanda durante un período en un pedido del artículo. El pedido se planificará se para el primer día del período y la cantidad satisfará los requisitos netos durante el período establecido. El período comienza con la primera demanda del artículo y cubre la longitud definida de tiempo. El período siguiente comenzará con los siguientes requisitos del artículo.
+- **Mín/Máx.** - El método de medición de lote que contiene el reaprovisionamiento de inventario hasta un nivel determinado cuando la entrega prevista está por debajo de un umbral. La cantidad de reabastecimiento será la diferencia entre el nivel máximo y el nivel disponible previsto.
+
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

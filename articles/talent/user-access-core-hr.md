@@ -1,6 +1,6 @@
 ---
-title: El usuario puede tener acceso a Core HR pero no a la aplicación Onboard ni Attract.
-description: Este tema explica cómo resolver el problema en el que un usuario puede tener acceso a Microsoft Dynamics 365 for Talent Core HR, pero no puede tener acceso a la aplicación Attract ni Onboard.
+title: El usuario puede acceder a Core HR pero no a Onboard y Attract
+description: Este tema explica cómo resolver el problema en el que un usuario puede tener acceso a Microsoft Dynamics 365 Talent - Core HR, pero no puede tener acceso a Attract ni Onboard.
 author: andreabichsel
 manager: AnnBe
 ms.date: 11/02/2018
@@ -17,21 +17,21 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 6fc27a4c137fef2f8d204d90366c316389da08e6
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 80b1f8aeabfd033f393463f4be5a61447377f2d9
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741736"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009315"
 ---
-# <a name="user-can-access-core-hr-but-not-the-onboard-or-attract-app"></a>El usuario puede acceder a Core HR pero no a las aplicaciones Onboard y Attract
+# <a name="user-can-access-core-hr-but-not-onboard-or-attract"></a>El usuario puede acceder a Core HR pero no a Onboard y Attract
 
 [!include [banner](includes/banner.md)]
 
 **Detalles del entorno**
 
 - La implementación de Microsoft Dynamics Lifecycle Services (LCS) la realizó el usuario A.
-- El usuario A agregó a B como usuario a Microsoft Dynamics 365 for Talent Core HR.
+- El usuario A agregó a B como usuario a Microsoft Dynamics 365 Talent: Core HR.
 
 **Emisión**
 

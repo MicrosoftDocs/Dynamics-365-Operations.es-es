@@ -19,29 +19,29 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 07eea8fd7af4da611b4bd0c9340923f8894fab2c
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d9f36da025528272b1a95456acf597dd5d923819
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1526024"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025181"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Prorratear los cargos de encabezado con las líneas de ventas coincidentes
 
 
 [!include [banner](includes/banner.md)]
 
-Este tema describe la funcionalidad para agrupar cargos automáticos de nivel de encabezado y prorratearlos a las líneas de la venta minorista. Esta funcionalidad está disponible para las transacciones que se crean en el punto de venta (POS) en la versión 10.0.1 de Microsoft Dynamics 365 for Retail y las ventas que se crean en un centro de asistencia telefónica en la versión 10.0.2 de Microsoft Dynamics 365 for Retail .
+Este tema describe la funcionalidad para agrupar cargos automáticos de nivel de encabezado y prorratearlos a las líneas de la venta minorista. Esta funcionalidad está disponible para las transacciones que se crean en el punto de venta (POS) en la versión 10.0.1 de Retail y las ventas que se crean en un centro de asistencia telefónica en la versión 10.0.2 de Retail.
 
 Esta funcionalidad solo está disponible si la función [cargos automáticos avanzados](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges) está activada mediante la opción en la página **Parámetros comerciales**. Además, el método de cálculo ampliado para cargos automáticos se puede aplicar solo a los pedidos de ventas comerciales que se crean mediante canales minoristas (PDV, un centro de asistencia telefónica y la plataforma de e-commerce de Dynamics).
 
 Esta nueva funcionalidad da a las organizaciones mayor flexibilidad en el modo en que calculan y se aplican los cargos automáticos de nivel de cabecera en las transacciones de ventas minoristas.
 
-En las versiones de Microsoft Dynamics 365 for Retail que sean anteriores a la versión 10.0.1, se calculan los gastos automáticos de nivel de encabezado que tienen un modo específico de relación de entrega solo si hay una coincidencia con el modo de entrega que está definido en el encabezado de pedido de ventas.
+En las versiones de Retail que sean anteriores a la versión 10.0.1, se calculan los gastos automáticos de nivel de encabezado que tienen un modo específico de relación de entrega solo si hay una coincidencia con el modo de entrega que está definido en el encabezado de pedido de ventas.
 
 Por ejemplo, se definen los gastos automáticos de nivel de encabezado para el modo de entrega **99** y el modo de entrega **11**. Se crea un pedido de ventas, y se define el modo de entrega **99** en el encabezado del pedido. Sin embargo, algunas de las líneas de ventas se configuran para enviarlos mediante el modo de entrega **11**. En este caso, sólo se tienen en cuenta y se aplican al pedido de ventas los gastos de nivel de encabezado que están vinculados al modo de entrega **99**.
 
-En Dynamics 365 for Retail, los cargos de nivel de encabezado tienen una característica adicional que permite definir una [configuración de gastos con varios niveles](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery) que está basada en el valor del pedido. Por ejemplo, si el valor del pedido está entre $50,00 y $200,00, una organización puede desear cobrar u gasto de flete de $5,00. Sin embargo, si el valor del pedido esTÁ entre $200,01 y $500,00 el cargo del flete podría ser $4,00.
+En Retail, los cargos de nivel de encabezado tienen una característica adicional que permite definir una [configuración de gastos con varios niveles](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery) que está basada en el valor del pedido. Por ejemplo, si el valor del pedido está entre $50,00 y $200,00, una organización puede desear cobrar u gasto de flete de $5,00. Sin embargo, si el valor del pedido esTÁ entre $200,01 y $500,00 el cargo del flete podría ser $4,00.
 
 Algunas organizaciones desean los beneficios que ofrece el cálculo de cargos con varios niveles que se ofrece con los cargos de nivel de encabezado. Sin embargo, en las situaciones que implican modos mixtos de entrega, también desean asegurarse de que los gastos que se calculan se basan en una correlación con el modo de entrega que está definido en cada línea de ventas.
 

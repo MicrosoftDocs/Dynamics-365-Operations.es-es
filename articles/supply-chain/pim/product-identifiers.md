@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 58a32bd7f857e8173996cd4eb21f176bae508587
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 68be63370eca0089649c47de0ba0bc9bd335b905
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546234"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250612"
 ---
 # <a name="product-identifiers"></a>Identificadores de producto 
 
@@ -36,13 +36,13 @@ Al trabajar con los productos en planta o en un almacén en Microsoft Dynamics E
 
 ## <a name="unique-product-numberproduct-id"></a>Número de producto único/ID de producto
 
-En Microsoft Dynamics 365 for Finance and Operations el identificador principal de un producto es el número de producto (es decir, el identificador único del producto). Este número se puede generar automáticamente mediante una secuencia numérica, o se puede asociar manualmente a un producto. Para las variantes de producto, los números se pueden definir a través de la plantilla de nomenclatura de producto.
+En Dynamics 365 Supply Chain Management el identificador principal de un producto es el número de producto (es decir, el identificador único del producto). Este número se puede generar automáticamente mediante una secuencia numérica, o se puede asociar manualmente a un producto. Para las variantes de producto, los números se pueden definir a través de la plantilla de nomenclatura de producto.
 
-En muchos casos, el número de producto no se crea originalmente en Finance and Operations. En su lugar, se ha asociado a un producto en un sistema de administración del ciclo de vida del producto (PLM) o un sistema de gestión de datos de producto (PDM). En este caso, se utilizan entidades de datos para importar los productos y las variantes de producto. Finance and Operations utiliza los números en todas las operaciones.
+En muchos casos, el número de producto no se crea originalmente en Dynamics 365 Supply Chain Management. En su lugar, se ha asociado a un producto en un sistema de administración del ciclo de vida del producto (PLM) o un sistema de gestión de datos de producto (PDM). En este caso, se utilizan entidades de datos para importar los productos y las variantes de producto. Supply Chain Management usa los números de todas las operaciones.
 
-Cuando implementa Finance and Operations debe prestar especial atención a su estrategia para los números de producto. Un buen sistema de numeración mejora los flujos de logística y ayuda a evitar errores. Un buen identificador de producto tiene un máximo de 15 caracteres. Idealmente, tiene menos de 10 caracteres y no incluye más de cinco caracteres de clasificación. También puede usar nombres de búsqueda para habilitar búsquedas rápidas. Un nombre de búsqueda es un nombre adicional que representa las clasificaciones de un producto.
+Cuando implementa Supply Chain Management debe prestar especial atención a su estrategia para los números de producto. Un buen sistema de numeración mejora los flujos de logística y ayuda a evitar errores. Un buen identificador de producto tiene un máximo de 15 caracteres. Idealmente, tiene menos de 10 caracteres y no incluye más de cinco caracteres de clasificación. También puede usar nombres de búsqueda para habilitar búsquedas rápidas. Un nombre de búsqueda es un nombre adicional que representa las clasificaciones de un producto.
 
-Al usar Common Data Service (CDS), el número de producto en Finance and Operations es también el número de producto en CDS. Las variantes de producto se sincronizan con el CDS como productos únicos.
+Cuando use Common Data Service, el número del producto en Supply Chain Management es también el número de producto en Common Data Service. Las variantes de producto se sincronizan con el Common Data Service como productos únicos.
 
 ## <a name="item-number-and-product-dimensions"></a>Número de artículo y dimensiones de producto
 
@@ -56,19 +56,19 @@ Además, podrá realizar búsquedas y filtros en el código de producto, el nomb
 
 ## <a name="product-name-and-description"></a>Nombre y descripción del producto
 
-El nombre y la descripción del producto son los identificadores legibles de un producto y se pueden mantener en varios idiomas. De forma predeterminada, el cliente de Finance and Operations muestra toda la información de producto en el idioma predeterminado de la empresa, no en el idioma del usuario. Sin embargo, los nombres de producto y las descripciones traducidas se usan en toda la comunicación con los clientes y los proveedores. Las traducciones se basan en el código de idioma del cliente y las cuentas de proveedor.
+El nombre y la descripción del producto son los identificadores legibles de un producto y se pueden mantener en varios idiomas. De forma predeterminada, el cliente de Supply Chain Management muestra toda la información de producto en el idioma predeterminado de la empresa, no en el idioma del usuario. Sin embargo, los nombres de producto y las descripciones traducidas se usan en toda la comunicación con los clientes y los proveedores. Las traducciones se basan en el código de idioma del cliente y las cuentas de proveedor.
 
 Para las variantes de producto, los nombres de producto se pueden generar a través de una plantilla de nomenclatura de producto. Dado que no hay requisitos de que los nombres de producto sean únicos, puede encontrar varios productos que tengan el mismo nombre.
 
 ## <a name="product-and-item-search-names"></a>Nombres de búsqueda del producto y de artículo
 
-Finance and Operations proporciona un nombre de búsqueda secundario para los productos y también para artículos (productos emitidos). Este nombre de búsqueda no tiene que ser único, y puede modificarse tras la creación de un producto o una variante del producto. Se recomienda que use el nombre de búsqueda para buscar productos por categorías. Los nombres de búsqueda habilitan búsquedas rápidas, especialmente en procesos de ventas y compras.
+Supply Chain Management proporciona un nombre de búsqueda secundario para los productos y también para artículos (productos emitidos). Este nombre de búsqueda no tiene que ser único, y puede modificarse tras la creación de un producto o una variante del producto. Se recomienda que use el nombre de búsqueda para buscar productos por categorías. Los nombres de búsqueda habilitan búsquedas rápidas, especialmente en procesos de ventas y compras.
 
 El nombre de búsqueda también puede contener un identificador de producto de clientes o proveedores, o algún otro identificador externo del producto, si este identificador externo es el criterio de búsqueda principal para un producto.
 
 ## <a name="external-product-identifiers-customer-and-vendor-identifiers"></a>Identificadores externos de producto (identificadores de cliente y proveedor)
 
-Para los productos liberados, puede mantener los números de artículo, los nombres de artículo y las descripciones del artículo que utiliza el cliente o proveedor. Las referencias se muestran en los documentos externos, como pedidos de ventas, pedidos de compras, albaranes y facturas. En la versión actual de de Finance and Operations, las referencias externas no se muestran en las páginas básicas de las operaciones. La única excepción es el número de artículo del proveedor. Este número se muestra en el cuadro de diálogo **Información del producto** si se define un proveedor predeterminado para el producto liberado.
+Para los productos liberados, puede mantener los números de artículo, los nombres de artículo y las descripciones del artículo que utiliza el cliente o proveedor. Las referencias se muestran en los documentos externos, como pedidos de ventas, pedidos de compras, albaranes y facturas. En la versión actual de Supply Chain Management, las referencias externas no se muestran en las páginas básicas de las operaciones. La única excepción es el número de artículo del proveedor. Este número se muestra en el cuadro de diálogo **Información del producto** si se define un proveedor predeterminado para el producto liberado.
 
 Puede mantener los identificadores externos de producto por producto liberado, variante de producto liberado, cliente o grupo de clientes, o proveedor o grupo de proveedores.
 
@@ -77,7 +77,7 @@ En la página **Productos emitidos**, siga uno de estos pasos.
 - Para clientes, en la pestaña **Venta**, en el grupo **Información relacionada**, selecione **Descripción externa del artículo**.
 - Para proveedores, en la pestaña **Compra**, en el grupo **Información relacionada**, selecione **Descripción externa del artículo**.
 
-En la página **Descripciones externas de artículos**, puede asociar el número de artículo del cliente o de proveedor a un producto liberado. Esta asociación se debe hacer para cada entidad jurídica. La información siguiente se puede capturar. Desafortunadamente, las etiquetas son ligeramente engañosas en la versión actual de Finance and Operations. Sin embargo, estas etiquetas podrían cambiar en una versión futura.
+En la página **Descripciones externas de artículos**, puede asociar el número de artículo del cliente o de proveedor a un producto liberado. Esta asociación se debe hacer para cada entidad jurídica. La información siguiente se puede capturar. Desafortunadamente, las etiquetas son ligeramente engañosas en la versión actual de Supply Chain Management. Sin embargo, estas etiquetas podrían cambiar en una versión futura.
 
 | Campo | Información del cliente correspondiente | Información del proveedor correspondiente |
 |-------|------------------------------------|----------------------------------|
@@ -104,15 +104,15 @@ Para mantener códigos de barras en la página **Productos liberados**, en la pe
 
 En e-commerce, es esencial que todas las partes hablen un idioma en común y consulten los productos mediante un conjunto en común de identificadores. Por lo tanto, algunos sectores confían en [GTIN](https://www.gs1.org/id-keys/gtin), que es un sistema de numeración de artículos global que GS1 facilita.
 
-En Finance and Operations se recomienda que se mantenga el GTIN como código de barras. Sin embargo, también puede mantenerlo en la página **Artículo - GTIN**. Para abrir esta página, en la página **Productos liberados**, en la pestaña **Gestionar el inventario**, en el grupo **Almacén** seleccione **Códigos GTIN**. Tenga en cuenta que el GTIN no se mantiene como número global. En su lugar, se mantiene por entidad jurídica.
+Recomendamos que se mantenga el GTIN como código de barras. Sin embargo, también puede mantenerlo en la página **Artículo - GTIN**. Para abrir esta página, en la página **Productos liberados**, en la pestaña **Gestionar el inventario**, en el grupo **Almacén** seleccione **Códigos GTIN**. Tenga en cuenta que el GTIN no se mantiene como número global. En su lugar, se mantiene por entidad jurídica.
 
-En Finance and Operations define variantes de embalaje en operaciones de almacén definiendo las unidades de medida específicas. Por ejemplo, un artículo puede estar almacenado por piezas, por agrupaciones de seis, en bandejas de 18, o en pallets completos. Una unidad de medida específica se definirá para cada una de estas variantes de embalaje. Dado que el GTIN está relacionado normalmente con la unidad de embalaje de un producto, la página **Artículo - GTIN** permite mantener varios códigos GTIN por producto y unidad de medida. Sin embargo, no puede utilizar el mismo código GTIN más de una vez para diferentes artículos o variantes de producto de una entidad jurídica.
+En Supply Chain Management define variantes de embalaje en operaciones de almacén definiendo las unidades de medida específicas. Por ejemplo, un artículo puede estar almacenado por piezas, por agrupaciones de seis, en bandejas de 18, o en pallets completos. Una unidad de medida específica se definirá para cada una de estas variantes de embalaje. Dado que el GTIN está relacionado normalmente con la unidad de embalaje de un producto, la página **Artículo - GTIN** permite mantener varios códigos GTIN por producto y unidad de medida. Sin embargo, no puede utilizar el mismo código GTIN más de una vez para diferentes artículos o variantes de producto de una entidad jurídica.
 
 Para mantener **Códigos GTIN** en la página **Productos liberados** , en la pestaña **Gestionar el inventario**, en el grupo **Almacén** seleccione **GTIN**.
 
 ## <a name="external-codes"></a>Códigos externos
 
-Los códigos externos se pueden definir para varias entidades en Finance and Operations. Por ejemplo, puede definir códigos externos para identificar productos y productos liberados. Estos códigos externos se pueden utilizar para asociar códigos estadísticos o códigos de impuestos a productos liberados y variantes de productos liberados. Los códigos externos se definen por la entidad jurídica y el tipo de código. Deben ser únicos por entidad jurídica, tipo de código, y referencia de tabla.
+Los códigos externos se pueden definir para varias entidades. Por ejemplo, puede definir códigos externos para identificar productos y productos liberados. Estos códigos externos se pueden utilizar para asociar códigos estadísticos o códigos de impuestos a productos liberados y variantes de productos liberados. Los códigos externos se definen por la entidad jurídica y el tipo de código. Deben ser únicos por entidad jurídica, tipo de código, y referencia de tabla.
 
 Desafortunadamente, no hay función estándar que le permita buscar los productos por códigos externos.
 
@@ -136,13 +136,13 @@ Desafortunadamente, no hay función estándar que le permita buscar los producto
 
 ### <a name="product-and-item-number-sequences"></a>Secuencias de producto y número de artículo
 
-En Finance and Operations puede definir dos secuencias numéricas diferentes:
+En el formulario dos secuencias númerica diferentes:
 
 - La secuencia numérica **Código de producto** del código de producto global.
 - La secuencia del número **Código de artículo** del artículo por entidad jurídica
 
 > [!NOTE]
-> Debe usar el número de artículo como identificador independiente solo al migrar entidades jurídicas diferentes desde orígenes diferentes que tenían diferentes sistemas de numeración. Debe intentar siempre utilizar un identificador de producto que sea único en todas las entidades jurídicas. Por lo tanto, debe establecer la opción **Manual** en **Sí** para la secuencia del número **Código de artículo**. De esta manera, el número de artículo seguirá al número de producto en la creación. Si Finance and Operations no es el sistema principal para nuevos números de producto, debe establecer la opción **Manual** en **Sí** para las secuencias numéricas **Código de artículo** y **Número de producto**.
+> Debe usar el número de artículo como identificador independiente solo al migrar entidades jurídicas diferentes desde orígenes diferentes que tenían diferentes sistemas de numeración. Debe intentar siempre utilizar un identificador de producto que sea único en todas las entidades jurídicas. Por lo tanto, debe establecer la opción **Manual** en **Sí** para la secuencia del número **Código de artículo**. De esta manera, el número de artículo seguirá al número de producto en la creación. Si Supply Chain Management no es el sistema principal para nuevos números de producto, debe establecer la opción **Manual** en **Sí** para las secuencias numéricas **Código de artículo** y **Número de producto**.
 
 Cuando utilice la entidad **Producto liberado V2** para crear productos, los valores múltiples pueden afectar a cómo las secuencias numéricas se usan para crear el número de producto y el número de artículo:
 

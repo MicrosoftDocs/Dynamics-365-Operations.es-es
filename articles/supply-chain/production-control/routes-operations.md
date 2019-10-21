@@ -19,12 +19,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 961cc6fe5bd1bfbb0f5c9116024415a5d53f569e
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 4f91faa03718830474e8e2a79015955bcad1d02e
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1522206"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249981"
 ---
 # <a name="routes-and-operations"></a>Rutas y operaciones.
 
@@ -35,7 +35,7 @@ Este tema proporciona información acerca de las rutas y las operaciones. Una ru
 <a name="overview"></a>Visión general
 --------
 
-Una ruta describe el orden de las operaciones que se necesitan para producir un producto o una variante del producto. Para cada operación, la ruta también define los recursos de operaciones que se necesitan, el tiempo necesario para configurar y ejecutar la operación, y cómo el coste se debe calcular. Puede usar la misma ruta para generar varios productos o puede definir una ruta única para cada producto o variante del producto. Puede incluso tener varias rutas para el mismo producto. En este caso, la ruta que se utiliza varía, en función de factores como la cantidad que se debe producir. La definición de una ruta en Microsoft Dynamics 365 for Finance and Operations consta de cuatro elementos independientes, en conjunto, describen el proceso de producción:
+Una ruta describe el orden de las operaciones que se necesitan para producir un producto o una variante del producto. Para cada operación, la ruta también define los recursos de operaciones que se necesitan, el tiempo necesario para configurar y ejecutar la operación, y cómo el coste se debe calcular. Puede usar la misma ruta para generar varios productos o puede definir una ruta única para cada producto o variante del producto. Puede incluso tener varias rutas para el mismo producto. En este caso, la ruta que se utiliza varía, en función de factores como la cantidad que se debe producir. La definición de una ruta en Finance and Operations consta de cuatro elementos independientes, en conjunto, describen el proceso de producción:
 
 -   **Ruta**: una ruta define la estructura del proceso de producción. Es decir, define el orden de las operaciones.
 -   **Operación**: una operación identifica un paso con nombre en una ruta, por ejemplo **Ensamblado**. La misma operación puede producirse en varias rutas y puede tener diferentes números de operación.
@@ -43,7 +43,7 @@ Una ruta describe el orden de las operaciones que se necesitan para producir un 
 -   **Versión de la ruta**: una versión de ruta define la ruta que se usa para generar un producto o una variante del producto. Las versiones de ruta permiten volver a utilizar las rutas en todos los productos o cambiarlas con el tiempo. También habilitan diferentes rutas que se utilizarán para generar el mismo producto. En este caso, la ruta que se utiliza depende de factores como la ubicación o la cantidad que se debe producir.
 
 ## <a name="routes"></a>Rutas
-Una ruta describe el orden de las operaciones que se usan para producir un producto o una variante del producto. A cada operación se le asigna un número de operación y una operación sucesora. El orden de las operaciones forma una red de rutas que se puede representar mediante un gráfico dirigido con uno o más puntos de inicio y un único punto de destino. En Finance and Operations, las rutas se diferencian en función del tipo de estructura. Los dos tipos de rutas son rutas simples y redes de rutas. En los parámetros de control de producción, puede especificar si solo se pueden usar rutas simples o si se pueden usar redes de rutas más complejas.
+Una ruta describe el orden de las operaciones que se usan para producir un producto o una variante del producto. A cada operación se le asigna un número de operación y una operación sucesora. El orden de las operaciones forma una red de rutas que se puede representar mediante un gráfico dirigido con uno o más puntos de inicio y un único punto de destino. En Supply Chain Management, las rutas se diferencian en función del tipo de estructura. Los dos tipos de rutas son rutas simples y redes de rutas. En los parámetros de control de producción, puede especificar si solo se pueden usar rutas simples o si se pueden usar redes de rutas más complejas.
 
 ### <a name="simple-routes"></a>Rutas simples
 
@@ -51,7 +51,7 @@ Una ruta sencilla es secuencial y solo hay un punto de inicio para la ruta.
 
 [![Ruta sencilla](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
 
-Si solo habilita rutas simples en los parámetros de control de producción, Finance and Operations genera automáticamente los números de operación (10, 20, 30, etc.) cuando define la ruta.
+Si solo habilita rutas simples en los parámetros de control de producción, Supply Chain Management genera automáticamente los números de operación (10, 20, 30, etc.) cuando define la ruta.
 
 ### <a name="route-networks"></a>Redes de rutas
 
@@ -85,7 +85,7 @@ Cada ruta se puede aprobar o desaprobar por separado. Sin embargo, tenga en cuen
 Si debe retener un registro que registre quién aprueba cada ruta, puede requerir firmas electrónicas para la aprobación de la ruta. Los usuarios tendrán que confirmar su identidad con una [firma electrónica](../../fin-and-ops/organization-administration/electronic-signature-overview.md).
 
 ## <a name="operations"></a>Operations
-Las operaciones son un paso del proceso de producción. En Finance and Operations, cada operación tiene un identificador y una descripción sencilla. Las siguientes tablas muestran ejemplos típicos de operaciones de una tienda de máquinas.
+Las operaciones son un paso del proceso de producción. Cada operación tiene un identificador y una descripción sencilla. Las siguientes tablas muestran ejemplos típicos de operaciones de una tienda de máquinas.
 
 | Operación  | Descripción        |
 |------------|--------------------|
@@ -126,7 +126,7 @@ Las relaciones de operación proporcionan gran flexibilidad al definir sus rutas
 
 ### <a name="modifying-product-specific-routes"></a>Modificar rutas de específicas de un producto
 
-Cuando abre la página **Ruta** en la página **Detalles del producto liberado**, se muestran las versiones de ruta que se están asociadas con el producto liberado. En este contexto, para cada operación, Finance and Operations muestra las propiedades operativas de la relación de operación que coincide mejor la versión de ruta. Se observará que la lista de operaciones incluye el **Código de artículo** y el **Código de la ruta** de la relación de operación. Por lo tanto, puede determinar qué relación de operación se muestra.  
+Cuando abre la página **Ruta** en la página **Detalles del producto liberado**, se muestran las versiones de ruta que se están asociadas con el producto liberado. En este contexto, para cada operación, Supply Chain Management muestra las propiedades operativas de la relación de operación que coincide mejor la versión de ruta. Se observará que la lista de operaciones incluye el **Código de artículo** y el **Código de la ruta** de la relación de operación. Por lo tanto, puede determinar qué relación de operación se muestra.  
 
 En la página **Ruta**, puede modificar las propiedades operativas de la operación, como el tiempo de ejecución o las categorías de coste. Sus cambios se almacenan en la relación de operación específica de la ruta y el producto liberado al que se hace referencia en la versión de ruta actual. Si la relación de operación que se muestra no es específica de la ruta y el producto liberado, antes de que se almacenan los cambios, el sistema crea una copia de la relación de operación. Esta copia *es* específica de la ruta y el producto liberado. Por lo tanto, los cambios no afectarán a otras rutas o productos liberados. Para comprobar qué relación de operación se está modificando en la página **Ruta**, consulte los campos **Código de artículo** y **Código de ruta**.  
 
@@ -149,9 +149,9 @@ Si su empresa utiliza operaciones estándar y si los parámetros operativos son 
 
 ### <a name="applying-operation-relations"></a>Aplicar relaciones de operaciones
 
-En algunos casos, Finance and Operations debe buscar las propiedades operativas para una operación. Por ejemplo, cuando se crea un pedido de compra, las propiedades operativas de cada operación se deben copiar desde relaciones de operaciones hasta la ruta de producción. En estos casos, Finance and Operations busca las relaciones de operación relevantes desde la combinación más específica hasta la combinación menos específica.  
+En algunos casos, Supply Chain Management debe buscar las propiedades operativas para una operación. Por ejemplo, cuando se crea un pedido de compra, las propiedades operativas de cada operación se deben copiar desde relaciones de operaciones hasta la ruta de producción. En estos casos, Supply Chain Management busca las relaciones de operación relevantes desde la combinación más específica hasta la combinación menos específica.  
 
-Cuando Finance and Operations busca la relación de operación más relevante para un producto liberado, se prefiere una relación de operación que coincida con el Id. de artículo del producto antes que una relación de operación que coincida con el identificador del grupo de artículo. A su vez, una relación de operación que coincide con el identificador del grupo de artículo se prefiere a una relación de operación predeterminada. La búsqueda se realiza en el siguiente orden:
+Cuando Supply Chain Management busca la relación de operación más relevante para un producto liberado, se prefiere una relación de operación que coincida con el Id. de artículo del producto antes que una relación de operación que coincida con el identificador del grupo de artículo. A su vez, una relación de operación que coincide con el identificador del grupo de artículo se prefiere a una relación de operación predeterminada. La búsqueda se realiza en el siguiente orden:
 
 1.  **Código de artículo**=**Tabla** y **Relación de artículo**=&lt;Id. de artículo&gt;
 2.  **Código de artículo**=**Grupo** y **Relación de artículo**=&lt;Id. del grupo de artículo&gt;
@@ -198,7 +198,7 @@ En función de sus necesidades empresariales, es posible que pueda reducir el es
 
 ### <a name="making-routes-independent-of-resources"></a>Crear rutas independientes de los recursos
 
-En muchos sistemas, el recurso de operaciones o el grupo de recursos que deben realizar una operación debe ser especificado en la ruta. Sin embargo, en Finance and Operations, puede definir un conjunto de requisitos que un recurso de operaciones debe cumplir para aplicarse a la operación. Por lo tanto, el recurso de operaciones o el grupo de recursos específicos que se usarán no tienen que determinarse hasta que la operación se programe realmente. Esta funcionalidad es especialmente útil si tiene muchos trabajadores o máquinas que pueden realizar la misma operación.  
+En muchos sistemas, el recurso de operaciones o el grupo de recursos que deben realizar una operación debe ser especificado en la ruta. Sin embargo, en Supply Chain Management, puede definir un conjunto de requisitos que un recurso de operaciones debe cumplir para aplicarse a la operación. Por lo tanto, el recurso de operaciones o el grupo de recursos específicos que se usarán no tienen que determinarse hasta que la operación se programe realmente. Esta funcionalidad es especialmente útil si tiene muchos trabajadores o máquinas que pueden realizar la misma operación.  
 
 Por ejemplo, especifica que una operación requiere un recurso de operaciones de tipo **Máquina** con una capacidad de **Sellado** de 20 toneladas. El motor de programación resolverá estos requisitos según un recurso de operaciones o un grupo de recursos específicos cuando se programa la operación. Dado que simplemente puede especificar estos requisitos en lugar de vincular la operación a una máquina específica, tiene mucha más flexibilidad. Además, el mantenimiento resulta más fácil cuando mueven los recursos o se agregan nuevos.  
 

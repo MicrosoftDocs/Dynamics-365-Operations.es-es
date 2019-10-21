@@ -1,5 +1,5 @@
 ---
-title: Actualizar los procesos de gestión de almacenes de Microsoft Dynamics AX 2012 a Finance and Operations
+title: Actualizar la gestión de almacenes Microsoft Dynamics AX 2012 a Supply Chain Management
 description: En este tema se proporciona una visión general de las opciones de la migración de la gestión de productos y almacenes.
 author: perlynne
 manager: AnnBe
@@ -18,29 +18,29 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 768d0bd16a41a3458b25606b74d606318d176ff0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c3dcb75653743d0d135eda197c6330f3ee9c5383
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554055"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251440"
 ---
-# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-finance-and-operations"></a>Actualizar los procesos de gestión de almacenes de Microsoft Dynamics AX 2012 a Finance and Operations
+# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-supply-chain-management"></a>Actualizar la gestión de almacenes Microsoft Dynamics AX 2012 a Supply Chain Management 
 
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona una visión general del proceso de actualización de Microsoft Dynamics AX 2012 R3, que ejecuta el módulo de WMSII, a Microsoft Dynamics 365 for Finance and Operations.
+Este tema proporciona una visión general del proceso de actualización de Microsoft Dynamics AX 2012 R3, que ejecuta el módulo de WMSII, a Supply Chain Management.
 
-Finance and Operations ya no admite el antiguo módulo **WMSII** de Microsoft Dynamics AX 2012. En su lugar, puede utilizar el módulo **Gestión de almacenes** . En el módulo WMSII, las dimensiones de inventario Ubicación e Id. de palet se podían seleccionar para el inventario financiero; sin embargo, la dimensión de inventario Id. de palet no se puede usar para un inventario financiero en Finance and Operations.
+Supply Chain Management ya no admite el antiguo módulo **WMSII** de Microsoft Dynamics AX 2012. En su lugar, puede utilizar el módulo **Gestión de almacenes** . En el módulo WMSII, las dimensiones de inventario Ubicación e Id. de palet se podían seleccionar para el inventario financiero; sin embargo, la dimensión de inventario Id. de palet no se puede usar para un inventario financiero en Supply Chain Management.
 
 Durante una actualización se identifican todos los productos asociados a un grupo de dimensiones de almacenamiento que utilice la dimensión de inventario Id. de pallet, se marcan como bloqueados y no se procesan para la actualización.
 
-## <a name="upgrading-to-finance-and-operations-when-ax-2012-r3-wmsii-is-used"></a>Actualización a Finance and Operations cuando se utiliza AX 2012 R3 WMSII
+## <a name="upgrading-to-supply-chain-management-when-ax-2012-r3-wmsii-is-used"></a>Actualizar a Supply Chain Management cuando se usa AX 2012 R3 WMSII
 Después de la actualización, puede usar un conjunto de opciones de migración en el proceso **Cambiar grupo de dimensiones de almacenamiento para artículos** para desbloquear los productos bloqueados durante la actualización y después procesar transacciones para estos productos.
 
-### <a name="enabling-items-in-finance-and-operations"></a>Habilitación de artículos en Finance and Operations
-Este cambio es necesario porque en Finance and Operations el seguimiento de artículos forma parte de los procesos de gestión de almacenes. Para estos procesos, todos los almacenes y sus ubicaciones deben estar asociadas a un perfil de ubicación. Si desea utilizar procesos de gestión de almacenes, debe configurar lo siguiente:
+### <a name="enabling-items-in-supply-chain-management"></a>Habilitar artículos en Supply Chain Management 
+Este cambio es necesario porque en Supply Chain Management el seguimiento de artículos forma parte de los procesos de gestión de almacenes. Para estos procesos, todos los almacenes y sus ubicaciones deben estar asociadas a un perfil de ubicación. Si desea utilizar procesos de gestión de almacenes, debe configurar lo siguiente:
 -   Los almacenes existentes deben habilitarse para usar los procesos de gestión de almacenes 
 -   Los productos emitidos existentes deben asociarse a un grupo de dimensiones de almacenamiento que utilice procesos de gestión de almacenes 
 

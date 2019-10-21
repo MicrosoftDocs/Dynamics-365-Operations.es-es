@@ -1,6 +1,6 @@
 ---
 title: Prospect to cash
-description: Este tema proporciona una visión general de la solución Prospect to cash entre Microsoft Dynamics 365 for Finance and Operations y Microsoft Dynamics 365 for Sales.
+description: Este tema proporciona una visión general de la solución Prospect to cash entre Dynamics 365 Supply Chain Management y Dynamics 365 Sales.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 04/25/2018
@@ -19,31 +19,31 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: e31994ea3cd73dcc749a02ce2cd0815be191a567
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 1a96b7cfa57ec72b25f21d94fadb2fbf9bc6ea3b
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742410"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251371"
 ---
-# <a name="prospect-to-cash"></a>Prospect to cash
+# <a name="prospect-to-cash"></a>Cliente potencial a cliente
 
 [!include [banner](../includes/banner.md)]
 
-La solución Prospect to cash proporciona sincronización directa en Dynamics 365 for Finance and Operations, y Dynamics 365 for Sales. Las plantillas de Prospect to cash disponibles con la característica de integración de datos permiten el flujo de datos de cuentas, contactos, productos, presupuestos de ventas, pedidos de ventas y facturas de ventas entre Finance and Operations y Sales. A medida que los datos fluyen entre Finance and Operations y Sales, puede realizar ventas y actividades de marketing en Sales y controlar el cumplimiento de pedidos mediante la gestión de inventario en Finance and Operations. 
+La solución Prospect to cash proporciona sincronización directa en Dynamics 365 Supply Chain Management y Dynamics 365 Sales. Las plantillas de Prospect to cash disponibles con la característica de integración de datos permiten el flujo de datos de cuentas, contactos, productos, presupuestos de ventas, pedidos de ventas y facturas de ventas. A medida que los datos fluyen, puede realizar ventas y actividades de marketing en Sales y controlar el cumplimiento de pedidos mediante la gestión de inventario en Supply Chain Management. 
 
 Para obtener más información sobre la integración de Prospect to cash, vea el breve vídeo de YouTube [Integración de Prospect to cash](https://www.youtube.com/watch?v=AVV9x5x-XCg).
 
 En la versión actual, la solución Prospect to cash proporciona los siguientes tipos de sincronización directa:
 
-- [Mantener cuentas en Sales y sincronizarlas directamente de Sales a Finance and Operations](accounts-template-mapping-direct.md)
-- [Mantener productos en Finance and Operations y sincronizarlos directamente con Sales](products-template-mapping-direct.md)
-- [Mantener contactos en Sales y sincronizarlos directamente con contactos o clientes de Finance and Operations](contacts-template-mapping-direct.md)
-- [Sincronizar presupuesto de ventas directamente de Sales a Finance and Operations](sales-quotation-template-mapping-sales-fin.md)
-- [Sincronizar pedidos de ventas entre Sales y Finance and Operations](sales-order-template-mapping-direct-two-ways.md)
-- [Sincronizar factura de ventas directamente de Sales a Finance and Operations](sales-invoice-template-mapping-direct.md)
+- [Mantener cuentas en Sales y sincronizarlas directamente de Sales a Supply Chain Management](accounts-template-mapping-direct.md)
+- [Mantener productos en Supply Chain Management y sincronizarlas directamente a Sales](products-template-mapping-direct.md)
+- [Mantener contactos en Sales y sincronizarlos directamente con contactos o clientes de Supply Chain Management](contacts-template-mapping-direct.md)
+- [Sincronizar presupuesto de ventas directamente desde Sales a Supply Chain Management](sales-quotation-template-mapping-sales-fin.md)
+- [Sincronizar pedidos de ventas entre Sales y Supply Chain Management](sales-order-template-mapping-direct-two-ways.md)
+- [Sincronizar factura de ventas directamente desde Supply Chain Management a Sales](sales-invoice-template-mapping-direct.md)
 
-## <a name="system-requirements-for-finance-and-operations"></a>Requisitos del sistema para Finance and Operations
+## <a name="system-requirements-for-supply-chain-management"></a>Requisitos del sistema para Supply Chain Management
 La integración de Prospect to cash es compatible en las siguientes versiones:
 
 ### <a name="microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-73-december-2017"></a>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (diciembre de 2017)
@@ -55,9 +55,9 @@ La integración de Prospect to cash es compatible en las siguientes versiones:
 - Dynamics 365 for Finance and Operations, Enterprise Edition (julio de 2017) - con la actualización de plataforma 8 (compilación de aplicación 7.2.11792.56024 con compilación de aplicación 7.0.4565.16212).
 - Los revisiones siguientes son obligatorias:
 
-  - **[KB4045570](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4045570&bugId=3851320&qc=ac1145034fd04ab71ccc4d14aa012f245176712c9af7c36bb77a118726d46160)** – Esta revisión le permite sincronizar los pedidos de ventas de Sales a Finance and Operations mediante la característica de integración de datos. También ofrece varias mejoras más.
-  - **[KB4036524](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4036524&bugId=3847504&qc=e2fcfae08b1a5d5ce9f53f330e8c212b0636c375368ff7d8d9b5ec6701523ad2)** – Esta revisión le permite sincronizar la línea de pedidos de ventas de Finance and Operations a Sales mediante la característica de integración de datos.
-  - **[KB4036461](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4036461&bugId=3847029&qc=e2fcfae08b1a5d5ce9f53f330e8c212b0636c375368ff7d8d9b5ec6701523ad2)** – Esta revisión le permite sincronizar los pedidos de ventas de Finance and Operations a Sales mediante la característica de integración de datos.
+  - **[KB4045570](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4045570&bugId=3851320&qc=ac1145034fd04ab71ccc4d14aa012f245176712c9af7c36bb77a118726d46160)** – Esta revisión le permite sincronizar los pedidos de ventas de Sales a Supply Chain Management mediante la característica de integración de datos. También ofrece varias mejoras más.
+  - **[KB4036524](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4036524&bugId=3847504&qc=e2fcfae08b1a5d5ce9f53f330e8c212b0636c375368ff7d8d9b5ec6701523ad2)** – Esta revisión le permite sincronizar las líneas de pedidos de ventas de Supply Chain Management a Sales mediante la característica de integración de datos.
+  - **[KB4036461](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4036461&bugId=3847029&qc=e2fcfae08b1a5d5ce9f53f330e8c212b0636c375368ff7d8d9b5ec6701523ad2)** – Esta revisión le permite sincronizar los pedidos de ventas de Supply Chain Management a Sales mediante la característica de integración de datos.
 
     > [!NOTE]
     > Solo debe instalar KB4045570 porque la instalación incluye los cambios de las otras revisiones. 
@@ -68,8 +68,8 @@ La integración de Prospect to cash es compatible en las siguientes versiones:
 
 - Los revisiones siguientes son obligatorias:
 
-  - **[KB4051266](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4051266&bugId=3863566&qc=ee80faaa7bc6c77b368d5eaf456c9c08e0b9fba5903a7b6fd8c13756c3a4b757)** - Permite la sincronización del pedido de ventas con el integrador de datos, de Finance and Operations a Sales. 
-  - **[KB4037542](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4037542&bugId=3848253&qc=8323b93c15280172c5ab4159e0256e37104ced1729462c91ab2f7d00cb8d419c)** - Permite la sincronización de encabezados y líneas con el integrador de datos, de Finance and Operations a Sales.
+  - **[KB4051266](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4051266&bugId=3863566&qc=ee80faaa7bc6c77b368d5eaf456c9c08e0b9fba5903a7b6fd8c13756c3a4b757)** - Permite la sincronización del pedido de ventas con el integrador de datos, de Supply Chain Management a Sales. 
+  - **[KB4037542](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4037542&bugId=3848253&qc=8323b93c15280172c5ab4159e0256e37104ced1729462c91ab2f7d00cb8d419c)** - Permite la sincronización del encabezado y línea de pedido de ventas con el integrador de datos, de Supply Chain Management a Sales.
   - **[KB4033093](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4033093&bugId=3824604&qc=bd7e15e1fb56066b3a82ce48b691cf1ffbc934a7473fa888545b2211a8d416c5)** - Se necesita soporte para la integración de Prospect to cash mediante entidades de datos.
     
     > [!NOTE]
@@ -80,5 +80,5 @@ La integración de Prospect to cash es compatible en las siguientes versiones:
 
 Para usar la solución Prospect to cash, debe instalar los componentes siguientes:
 
-- Dynamics 365 for Sales versión 1612 (8.2.1.207) (DB 8.2.1.207) en línea o una versión posterior
-- Solución Prospect to cash para Dynamics 365 for Sales, versión 1.15.0.0 o una versión posterior. La solución está disponible para su descarga en AppSource. [Descargue Dynamics 365, Prospect to cash](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3).
+- Dynamics 365 Sales, versión 1612 (8.2.1.207) (DB 8.2.1.207) en línea o una versión posterior
+- Solución Prospect a Cash para Dynamics 365 Sales, versión 1.15.0.0 o versión posterior. La solución está disponible para su descarga en AppSource. [Descargue Dynamics 365, Prospect to cash](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3).

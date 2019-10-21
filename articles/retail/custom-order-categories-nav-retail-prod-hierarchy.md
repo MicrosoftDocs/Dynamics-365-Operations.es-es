@@ -1,7 +1,7 @@
 ---
 title: Cambiar el orden de clasificación de entidades de comercialización
-description: Este tema explica los conceptos relacionados con el control el orden de visualización para diversas entidades relacionadas con la comercialización en Microsoft Dynamics 365 for Retail.
-author: ashishharchwani
+description: Este tema explica los conceptos relacionados con el control el orden de visualización para diversas entidades relacionadas con la comercialización en Dynamics 365 Retail.
+author: josaw1
 manager: AnnBe
 ms.date: 08/05/2019
 ms.topic: article
@@ -18,16 +18,16 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2be3c1198ac6fff851be1bead2f0995202f1f0e7
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: c159ff869d6c504fdebbef1fa68115a410c81d85
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1866170"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019425"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>Cambiar el orden de clasificación de entidades de comercialización
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Los minoristas consideran el descubrimiento de productos una herramienta principal para la interacción de clientes en todos los canales de venta minorista. La funcionalidad Varios puede ayudar a los clientes a detectar fácilmente productos. Por ejemplo, pueden examinar categorías, buscar y filtrar.
@@ -38,7 +38,7 @@ Este tema explica los conceptos relacionados con el control el orden de visualiz
 
 La compatibilidad para clasificar diversas entidades relacionadas con la comercialización se ha ampliado. Esta compatibilidad está ahora mejor alineada con los escenarios existentes de clientes, que requerían anteriormente extensiones por parte de socios de implementación.
 
-En las versiones de Microsoft Dynamics 365 for Retail anteriores a la versión 10.0.5, el criterio de clasificación para las categorías de la jerarquía de navegación era alfabético. La nueva funcionalidad personalizada del orden de clasificación permite a los encargados de comercialización configurar el orden de clasificación para diversas entidades relacionadas con la comercialización en todos los clientes de usuario final. Estos clientes incluyen sedes empresariales y centros de llamadas.
+En las versiones de Retail anteriores a la versión 10.0.5, el criterio de clasificación para las categorías de la jerarquía de navegación era alfabético. La nueva funcionalidad personalizada del orden de clasificación permite a los encargados de comercialización configurar el orden de clasificación para diversas entidades relacionadas con la comercialización en todos los clientes de usuario final. Estos clientes incluyen sedes empresariales y centros de llamadas.
 
 ## <a name="configure-the-display-order-for-categories-in-the-retail-product-hierarchy"></a>Configurar el orden de visualización para las categorías de la jerarquía de productos
 

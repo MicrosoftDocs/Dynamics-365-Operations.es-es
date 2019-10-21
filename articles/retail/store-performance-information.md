@@ -1,6 +1,6 @@
 ---
 title: Analizar el rendimiento de la tienda
-description: Este artículo explica cómo puede usar los análisis en memoria y en tiempo real para tener acceso, explorar y obtener información acerca del rendimiento de la tienda, en función de sus datos de Microsoft Dynamics 365 for Retail.
+description: Este artículo explica cómo puede usar los análisis en memoria y en tiempo real para tener acceso, explorar y obtener información acerca del rendimiento de la tienda, en función de sus datos de Dynamics 365 Retail.
 author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,20 +19,20 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c975c021b6db49d1e25fd036f4955c7223e438ea
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b2ea6ad2e3d9589face06cd5f950973209c17d41
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569272"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017791"
 ---
 # <a name="analyze-store-performance"></a>Analizar el rendimiento de la tienda
 
 [!include [banner](includes/banner.md)]
 
-Este artículo explica cómo puede usar los análisis en memoria y en tiempo real para tener acceso, explorar y obtener información acerca del rendimiento de la tienda, en función de sus datos de Microsoft Dynamics 365 for Retail.
+Este artículo explica cómo puede usar los análisis en memoria y en tiempo real para tener acceso, explorar y obtener información acerca del rendimiento de la tienda, en función de sus datos de Dynamics 365 Retail.
 
-Como parte de Dynamics 365 for Retail, los usuarios pueden estudiar el rendimiento de la tienda en tiempo real en distintos niveles de la jerarquía organizativa durante un período seleccionado abriendo el informe listo para usar **Resumen del canal** desde cualquiera de las siguientes ubicaciones:
+Como parte de Retail, los usuarios pueden estudiar el rendimiento de la tienda en tiempo real en distintos niveles de la jerarquía organizativa durante un período seleccionado abriendo el informe listo para usar **Resumen del canal** desde cualquiera de las siguientes ubicaciones:
 
 - Espacio de trabajo **Gestión de tienda de venta minorista** &gt; **Retail** &gt; **Canales** &gt; **Gestión de tienda de venta minorista** &gt; **Informes** &gt; **Informe de resumen de canal**
 - Espacio de trabajo **Operaciones financieras de tienda** &gt; **Retail** &gt; **Canales** &gt; **Operaciones financieras de tienda** &gt; **Informes** &gt; **Informe de resumen de canal**

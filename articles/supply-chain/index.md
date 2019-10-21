@@ -1,9 +1,9 @@
 ---
-title: Página de inicio de gestión de la cadena de suministro
-description: Esta página proporciona una lista de los temas de ayuda y de otros recursos para las características de cadenas de suministro en Microsoft Dynamics 365 for Finance and Operations.
-author: ShylaThompson
+title: Recursos de ayuda para Supply Chain Management
+description: En esta página se proporciona una lista de los temas de ayuda y de otros recursos para las características de Supply Chain Management.
+author: josaw1
 manager: AnnBe
-ms.date: 05/09/2018
+ms.date: 10/01/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 391f63fba2916b613f66bfd36cfbd3a052cbc8fe
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8bc9445bacc764bd0c70be4a55d621fc3f8fb270
+ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557601"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2278333"
 ---
-# <a name="supply-chain-management-home-page"></a>Página de inicio de gestión de la cadena de suministro
+# <a name="help-resources-for-supply-chain-management"></a>Recursos de ayuda para Supply Chain Management
 
 [!include [banner](includes/banner.md)]
 
-Este tema proporciona una lista de los temas de ayuda y de otros recursos para las características de cadenas de suministro en Microsoft Dynamics 365 for Finance and Operations. 
+En este tema se proporciona una lista de los temas de ayuda y de otros recursos para las características de Dynamics 365 Supply Chain Management. 
 
 ## <a name="whats-new-and-in-development"></a>Novedades y características en desarrollo
 Vaya a <a href="https://roadmap.dynamics.com/">Guía básica de Dynamics 365</a> para ver las nuevas características que hemos lanzado y las que están en desarrollo. 
@@ -38,9 +38,10 @@ Vaya a <a href="https://roadmap.dynamics.com/">Guía básica de Dynamics 365</a>
 
 Seleccione un área de características para obtener más información al respecto.
 
+- [Administración de activos](asset-management/index.md)
 - [Contabilidad de costes](../financials/cost-accounting/cost-accounting-home-page.md)
 - [Gestión de costes](cost-management/cost-management-home-page.md)  
-- [Gestión del inventario](inventory/inventory-home-page.md)
+- [Gestión de inventarios](inventory/inventory-home-page.md)
 - [Planificación maestra](master-planning/master-planning-home-page.md)
 - [Adquisición y abastecimiento](procurement/procurement-sourcing-overview.md)
 - [Gestión de información de productos](pim/product-information.md)
@@ -49,6 +50,10 @@ Seleccione un área de características para obtener más información al respec
 - [Gestión de servicio](service-management/service-management-home-page.md)
 - [Administración de transporte](transportation/transportation-management-overview.md)
 - [Gestión de almacenes](warehousing/warehouse-configuration.md)
+
+## <a name="dynamics-365-finance"></a>Dynamics 365 Finance
+
+Para obtener información sobre Dynamics 365 Finance, vaya a la página de [recursos de ayuda de Dynamics 365 Finance](../finance/index.md).
 
 ## <a name="videos"></a>Vídeos
 
@@ -113,6 +118,6 @@ Hay muchos temas sobre la gestión de la cadena de suministro y la fabricación 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Movilidad en el almacén facilitada por Microsoft Dynamics 365 for Finance and Operations</a>
 
 ## <a name="elearning-courses"></a>Cursos de eLearning
-Para obtener más información sobre la formación de Microsoft Dynamics 365 for Finance and Operations, consulte el <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> Portal de aprendizaje de Microsoft Dynamics</a>. (requiere cuenta de CustomerSource) 
+Para obtener más información sobre la formación de Dynamics 365, consulte el <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> portal de aprendizaje de Microsoft Dynamics</a>. (requiere cuenta de CustomerSource) 
 
 

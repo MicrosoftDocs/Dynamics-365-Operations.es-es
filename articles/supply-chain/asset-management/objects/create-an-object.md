@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f15c6c5ccdcddebe7aa428cff48ca6e3b120d7f
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: bd963caed7f49db5dd7550dd30c3f831318d2b7a
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783573"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250907"
 ---
 # <a name="create-an-asset"></a>Crear un activo
 
@@ -63,12 +63,12 @@ Los campos **Nivel de servicio** e **Importancia** están relacionados con las �
 
 ## <a name="asset"></a>Activo
 
-Puede seleccionar un **Recurso** para el activo. La selección de recursos determina qué calendario se utiliza para la programación de órdenes de trabajo. La selección de recursos se utiliza a menudo para los activos fijos. En Dynamics 365 for Finance and Operations, los recursos y grupos de recursos se configuran en **Administración de la organización** > **Recursos** > **Grupos de recursos** o **Recursos**.
+Puede seleccionar un **Recurso** para el activo. La selección de recursos determina qué calendario se utiliza para la programación de órdenes de trabajo. La selección de recursos se utiliza a menudo para los activos fijos. Los recursos y grupos de recursos se configuran en **Administración de la organización** > **Recursos** > **Grupos de recursos** o **Recursos**.
 
 En el campo **Número de activos fijos**, puede seleccionar un activo fijo que desea que esté relacionado con el activo. Esto es relevante si el activo está relacionado con un proyecto de inversión.
 
 - Si el activo está relacionado con un activo fijo, puede crear un tipo de orden de trabajo y usarlo para las órdenes de trabajo relacionadas con un proyecto de inversión. 
-- La información sobre los activos fijos de un activo está relacionada con el módulo **Activos fijos** de Dynamics 365 for Finance and Operations. Esto significa que, en **Activos fijos** > **Activos fijos** > **Activos fijos**, puede obtener una visión general de los proyectos de Administración de activos que pueden estar relacionadas con un activo fijo seleccionándolo en y visualizando el contenido en el panel **Información relacionada** > sección **Proyectos asociados**.
+- La información sobre los activos fijos de un activo está relacionada con el módulo **Activos fijos** de Dynamics 365 Supply Chain Management. Esto significa que, en **Activos fijos** > **Activos fijos** > **Activos fijos**, puede obtener una visión general de los proyectos de Administración de activos que pueden estar relacionadas con un activo fijo seleccionándolo en y visualizando el contenido en el panel **Información relacionada** > sección **Proyectos asociados**.
 
 
 ## <a name="details"></a>Detalles

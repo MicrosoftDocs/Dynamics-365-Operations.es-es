@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 9e88a8b22b73aca5c2cee6984ecad3c62e597102
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 63cad6b2f7240bb14fe7a9237498c0140df77774
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568008"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025038"
 ---
 # <a name="retail-statements"></a>Extractos comerciales
 
 [!include [banner](includes/banner.md)]
 
-En Microsoft Dynamics 365 for Retail, el proceso de registro de extractos se utiliza para contabilizar las transacciones que se producen en el punto de venta (POS) o PDV moderno (MPOS) de la nube. El proceso de registro de extractos usa la programación de distribución para extraer un conjunto de transacciones de PDV en el cliente de la central (HQ). Los parámetros definidos en las páginas **Parámetros de ventas al por menor** y **Tiendas** se usan para seleccionar las transacciones que se extraen en extractos individuales.
+En Dynamics 365 Retail, el proceso de registro de extractos se utiliza para contabilizar las transacciones que se producen en el punto de venta (POS) o PDV moderno (MPOS) de la nube. El proceso de registro de extractos usa la programación de distribución para extraer un conjunto de transacciones de PDV en el cliente de la central (HQ). Los parámetros definidos en las páginas **Parámetros de ventas al por menor** y **Tiendas** se usan para seleccionar las transacciones que se extraen en extractos individuales.
 
 La siguiente ilustración muestra el proceso de registro de extractos. En este proceso, las transacciones que se registran en el PDV se transmiten al cliente mediante el Programador de tareas Retail. Después de que el cliente reciba las transacciones, puede crear, calcular y registrar el extracto de la transacción para el almacén.
 
@@ -85,6 +85,6 @@ Si la casilla **Registrar como día laboral** se desactiva para la misma tienda,
 Cuando se registra un extracto, los pedidos de venta y las facturas se crean para las ventas minoristas en el extracto.
 
 - Las ventas al por mayor se agregan en un pedido de ventas y se facturan para el cliente predeterminado asignado a la tienda.
-- Las ventas minoristas para las que se ha agregado un cliente a la transacción en Microsoft Dynamics 365 for Retail generan pedidos de venta y facturas independientes, una para cada cliente único.
+- Las ventas minoristas para las que se ha agregado un cliente a la transacción en Retail POS generan pedidos de venta y facturas independientes, una para cada cliente único.
 
 Los diarios de pago se crean automáticamente para los pagos en el extracto, y el inventario se actualiza para la tienda del PDV.

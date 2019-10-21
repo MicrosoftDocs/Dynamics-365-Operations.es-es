@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d238bb31537a21f46c252fbee400fe61901e650
-ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
+ms.openlocfilehash: dfd62a18d6b4cfc8c41d9025a8fc5deb8768ed3f
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1790535"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250930"
 ---
 # <a name="maintenance-requests"></a>Solicitudes de mantenimiento
 
@@ -31,7 +31,7 @@ ms.locfileid: "1790535"
 
 [!include [banner](../../includes/preview-banner.md)]
 
-Puede configurar distintos tipos de solicitudes para utilizar en la empresa. Las solicitudes de mantenimiento son de un tipo. Las solicitudes de mantenimiento se usan para solicitar que se requiera una orden de trabajo para un trabajo específico. Cualquier usuario que tenga acceso a la funcionalidad de Administración de activos en Microsoft Dynamics 365 for Finance and Operations puede crear una solicitud de mantenimiento. Un planificador o un administrador pueden decidir después si una solicitud de mantenimiento se debe convertir en orden de trabajo o si debe completar su propio ciclo de vida.
+Puede configurar distintos tipos de solicitudes para utilizar en la empresa. Las solicitudes de mantenimiento son de un tipo. Las solicitudes de mantenimiento se usan para solicitar que se requiera una orden de trabajo para un trabajo específico. Cualquier usuario que tenga acceso a la funcionalidad de Administración de activos puede crear una solicitud de mantenimiento. Un planificador o un administrador pueden decidir después si una solicitud de mantenimiento se debe convertir en orden de trabajo o si debe completar su propio ciclo de vida.
 
 ## <a name="view-maintenance-requests"></a>Ver solicitudes de mantenimiento
 

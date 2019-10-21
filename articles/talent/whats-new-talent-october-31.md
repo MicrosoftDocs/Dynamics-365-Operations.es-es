@@ -1,6 +1,6 @@
 ---
-title: Novedades y cambios en Dynamics 365 for Talent Core HR (31 de octubre de 2018)
-description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 for Talent Core HR.
+title: Novedades y cambios en Dynamics 365 Talent - Core HR (31 de octubre de 2018)
+description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Talent - Core HR.
 author: Darinkramer
 manager: AnnBe
 ms.date: 10/31/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d6942f8e4dc86f18a081b347df0567b1358a87ab
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d2ad9be740d917a760815718a1473d7bcba97968
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519052"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025941"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-october-31-2018"></a>Novedades y cambios en Dynamics 365 for Talent Core HR (31 de octubre de 2018)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-october-31-2018"></a>Novedades y cambios en Dynamics 365 Talent: Core HR (31 de octubre de 2018)
 
 [!include [banner](includes/banner.md)]
 
@@ -33,15 +33,15 @@ ms.locfileid: "1519052"
 
 Este tema describe las características que son nuevas o que se han cambiado en Core HR.
 
-## <a name="create-links-from-talent-to-finance-and-operations"></a>Crear enlaces de Talent a Finance and Operations
-Esta nueva funcionalidad de navegación le permite establecer vínculos con Talent desde Finance and Operations, dándole una exploración directa en las páginas de Finance and Operations. Cuando se configuren los vínculos, puede especificar el grupo y el nombre del vínculo, dónde el vínculo debe salir en Talent y la página de destino que se abre en Finance and Operations.
+## <a name="create-links-from-talent-to-finance"></a>Crear enlaces de Talent a Finance
+Esta nueva funcionalidad de navegación le permite establecer vínculos con Talent desde Finance, dándole una exploración directa en las páginas de Finance. Cuando se configuren los vínculos, puede especificar el grupo y el nombre del vínculo, dónde el vínculo debe salir en Talent y la página de destino que se abre en Finance.
 
 #### <a name="coming-soon"></a>Próximamente
-El contexto del campo se agregará en el futuro para permitir navegación directa en los correspondientes registros de Finance and Operations. Por ejemplo, puede usar **Vínculo al campo** para proporcionar el contexto para navegar directamente a un empleado o un puesto concreto en Finance and Operations.
+El contexto del campo se agregará en el futuro para permitir navegación directa en los correspondientes registros de Finance. Por ejemplo, puede usar **Vínculo al campo** para proporcionar el contexto para navegar directamente a un empleado o un puesto concreto en Finance.
 
 ### <a name="configure-target-systems"></a>Configurar sistemas de destino
 
-En Talent, los administradores del sistema pueden definir vínculos que emergerán a través del espacio de trabajo de administración del sistema. Parte de la configuración la constituyen los entornos de Finance and Operations donde desea navegar como destino del vínculo. Esto se hace asignando al sistema de destino un nombre y proporcionando la dirección URL del entorno de Finance and Operations. A continuación se indica un ejemplo de una dirección URL de Finance and Operations que se proporcionaría: https://devax00124aos.cloud.test.dynamics.com/. Una vez configurados los sistemas de destino, puede definir sus vínculos.
+En Talent, los administradores del sistema pueden definir vínculos que emergerán a través del espacio de trabajo de administración del sistema. Parte de la configuración la constituyen los entornos de Finance donde desea navegar como destino del vínculo. Esto se hace asignando al sistema de destino un nombre y proporcionando la dirección URL del entorno de Finance. A continuación se indica un ejemplo de una dirección URL de Finance que se proporcionaría: https://devax00124aos.cloud.test.dynamics.com/. Una vez configurados los sistemas de destino, puede definir sus vínculos.
 
 ### <a name="configure-links"></a>Configurar vínculos
 
@@ -51,27 +51,27 @@ Cada vínculo que se crea tendrá la siguiente información definida.
 
 - Habilitar este vínculo - configurado en **Sí** si desea visualizar el vínculo para los usuarios de Talent.
 
-- Nombre para mostrar - permite definir el nombre que aparecerá como un vínculo en Finance and Operations. Estos datos no es se convierten actualmente.
+- Nombre para mostrar - permite definir el nombre que aparecerá como un vínculo en Finance. Estos datos no es se convierten actualmente.
 
 - Vínculo de superficie en el formulario - permite seleccionar la página donde quisiera mostrar el vínculo.
 
 - Grupo - no se requieren grupos, pero si desea organizar sus vínculos mediante grupos, seleccione un grupo existente o cree uno nuevo con el campo **Grupo**.
 
-- Sistema de destino - seleccione el sistema de destino que se creó, usando la opción **Configurar el sistema de destino**. Este será el entorno de Finance and Operations que se utilizará para navegar usando el vínculo.
+- Sistema de destino - seleccione el sistema de destino que se creó, usando la opción **Configurar el sistema de destino**. Este será el entorno de Finance que se utilizará para navegar usando el vínculo.
 
-- Usar la compañía actual de usuario - Seleccione **Sí** si desea usar el contexto de la empresa actual del usuario al navegar en Finance and Operations. Si se selecciona **No**, se puede seleccionar la empresa que se utilizará.
+- Usar la compañía actual de usuario - Seleccione **Sí** si desea usar el contexto de la empresa actual del usuario al navegar en Finance. Si se selecciona **No**, se puede seleccionar la empresa que se utilizará.
 
-- Elemento de menú de destino - permite especificar el elemento de menú de Finance and Operations que el vínculo debe usar al navegar. Están disponibles los elementos de menú a los que puede navegar directamente. Para encontrar el elemento de menú necesario, abra Finance and Operations y la página que es el destino de navegación. Copie el elemento de menú desde la URL. Por ejemplo, si desea que el vínculo lo lleve a la lista de empleados de Finance and Operations, especifique el valor que aparece después de "&mi" en la dirección URL. https://devax00124aos.cloud.test.dynamics.com/?p=USMF&mi=HcmWorkerListPage_Employees. El elemento de menú para navegar a la página de lista de empleados de este ejemplo es: HcmWorkerListPage_Employees.
+- Elemento de menú de destino - permite especificar el elemento de menú de Finance que el vínculo debe usar al navegar. Están disponibles los elementos de menú a los que puede navegar directamente. Para encontrar el elemento de menú necesario, abra Finance y la página que es el destino de navegación. Copie el elemento de menú desde la URL. Por ejemplo, si desea que el vínculo lo lleve a la lista de empleados de Finance and Operations, especifique el valor que aparece después de "&mi" en la dirección URL. https://devax00124aos.cloud.test.dynamics.com/?p=USMF&mi=HcmWorkerListPage_Employees. El elemento de menú para navegar a la página de lista de empleados de este ejemplo es: HcmWorkerListPage_Employees.
 
 - Vínculo al origen de datos - seleccione el origen de los datos al que hace referencia el vínculo. La mayoría de los orígenes más habituales como **Trabajador** y **Posición** están disponibles.
 
-- Vínculo al campo - (pronto disponible) Esta selección del campo permitirá la exploración directa desde un único registro de Talent a un único registro de Finance and Operations.
+- Vínculo al campo - (pronto disponible) Esta selección del campo permitirá la exploración directa desde un único registro de Talent a un único registro de Finance.
 
 ### <a name="access-to-links"></a>Acceso a vínculos
 
 Los administradores del sistema verán los vínculos recién creadaos en las páginas definidas incluso si la opción **Habilitar este vínculo** se establece en **No**. Puede utilizarse para probar vínculos antes de sacarlos y asignarlos a otros empleados. El resto de los roles solo verán los vínculos configurados después de que la opción **Habilitar este vínculo** se establezca en **Sí**. Los empleados con acceso a las páginas en las que se emergen los vínculos tendrán acceso a los vínculos.
 
-Los usuarios también pueden tener derechos de seguridad en Finance and Operations definidos para obtener acceso a las páginas de Finance and Operations. Si no los tienen, se abre un cuadro de diálogo al utilizar el vínculo.
+Los usuarios también pueden tener derechos de seguridad en Finance definidos para obtener acceso a las páginas de Finance and Operations. Si no los tienen, se abre un cuadro de diálogo al utilizar el vínculo.
 
 
 ## <a name="other-changesfixes"></a>Otros cambios/correcciones

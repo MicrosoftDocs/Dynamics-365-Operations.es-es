@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dff811723e25952b4c5af20262010ff4b910be7f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 40539d649d3ee43fea8dc71f608dd6281d1c0e39
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554008"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251693"
 ---
 # <a name="transportation-management-engines"></a>Motores de administración del transporte
 
@@ -31,15 +31,15 @@ ms.locfileid: "1554008"
 
 Los motores de administración del transporte definen la lógica que se usa para generar y procesar tasas de transporte en Administración de transporte. 
 
-Un motor de administración del transporte calcula tareas como, por ejemplo, la tasa de transporte del transportista. El sistema del motor le permite cambiar estrategias de cálculo en tiempo de ejecución, basándose en datos de Microsoft Dynamics 365 for Finance and Operations. Un motor de administración del transporte se asemeja a un complemento relacionado con un contrato concreto del transportista.
+Un motor de administración del transporte calcula tareas como, por ejemplo, la tasa de transporte del transportista. El sistema del motor le permite cambiar las estrategias de cálculo en tiempo de ejecución, basándose en los datos de Supply Chain Management. Un motor de administración del transporte se asemeja a un complemento relacionado con un contrato concreto del transportista.
 
 ## <a name="what-engines-are-available"></a>¿Qué motores están disponibles?
-En la siguiente tabla se muestran los motores de administración del transporte disponibles en Microsoft Dynamics 365 for Finance and Operations.
+En la siguiente tabla se muestran los motores de administración del transporte disponibles.
 
 | Motor de administración del transporte | Descripción                                                                                                                                                                                                                                                                                                                 |
 |----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Motor de tasas**                  | Calcula las tasas.                                                                                                                                                                                                                                                                                                           |
-| **Motor genérico**               | Motores auxiliares simples que usan otros motores que no necesitan datos de Microsoft Dynamics 365 for Finance and Operations; por ejemplo, un motor de reparto. Los motores de reparto se usan para reducir los costes finales de transporte en determinados pedidos y líneas, basándose en dimensiones, como el volumen y el peso. |
+| **Motor genérico**               | Motores auxiliares simples que usan otros motores que no necesitan datos de Supply Chain Management, por ejemplo, un motor de reparto. Los motores de reparto se usan para reducir los costes finales de transporte en determinados pedidos y líneas, basándose en dimensiones, como el volumen y el peso. |
 | **Motor de kilometraje**               | Calcula la distancia de transporte.                                                                                                                                                                                                                                                                                     |
 | **Motor de tiempo de tránsito**          | Calcula el tiempo necesario para desplazarse desde el inicio hasta el destino final.                                                                                                                                                                                                                                       |
 | **Motor de zona**                  | Calcula la zona basada en la dirección actual y calcula el número de zonas que se deben cruzar para desplazarse de la dirección A a la dirección B.                                                                                                                                                                    |
@@ -62,23 +62,23 @@ En la mayoría de los casos, puede hacer clic en el botón **Parámetros** de lo
 |          Parámetro           |                                                                                  Descripción                                                                                  |
 |------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |  <em>RateBaseAssigner</em>   | El tipo de .NET que interpreta los datos de asignación base de la tasa para un esquema concreto. La sintaxis del valor del parámetro consta de dos segmentos delimitados por una barra vertical ( |
-|  <em>MileageEngineCode</em>  |                       Código del motor de cálculo de kilometraje que identifica el registro del motor de cálculo de kilometraje en la base de datos de Microsoft Dynamics 365 for Finance and Operations.                        |
-| <em>ApportionmentEngine</em> |                        Código de motor genérico que identifica el motor de reparto en la base de datos de Microsoft Dynamics 365 for Finance and Operations.                        |
+|  <em>MileageEngineCode</em>  |                       Código del motor de cálculo de kilometraje que identifica el registro del motor de cálculo de kilometraje en la base de datos.                        |
+| <em>ApportionmentEngine</em> |                        Código de motor genérico que identifica el motor de reparto en la base de datos.                        |
 
 <a name="how-is-metadata-used-in-transportation-management-engines"></a>¿Cómo se usan los metadatos en los motores de administración del transporte?
 ----------------------------------------------------------
 
-Los motores de administración del transporte que se basan en datos definidos en Dynamics 365 for Finance and Operations pueden usar diferentes esquemas de datos. El sistema de administración del transporte permite que distintos motores de administración del transporte usen las mismas tablas de base de datos física genéricas. Para garantizar que la interpretación en tiempo ejecución de los datos del motor sea correcta, puede definir los metadatos de las tablas de base de datos. Esto reduce el coste de crear nuevos motores de administración del transporte porque las estructuras adicionales de tabla y formulario no son necesarias en Operaciones.
+Los motores de administración del transporte que se basan en datos definidos en Supply Chain Management pueden usar diferentes esquemas de datos. El sistema de administración del transporte permite que distintos motores de administración del transporte usen las mismas tablas de base de datos física genéricas. Para garantizar que la interpretación en tiempo ejecución de los datos del motor sea correcta, puede definir los metadatos de las tablas de base de datos. Esto reduce el coste de crear nuevos motores de administración del transporte porque las estructuras adicionales de tabla y formulario no son necesarias en Operaciones.
 
 ## <a name="what-can-be-used-as-search-data-in-rate-calculations"></a>¿Qué se puede usar como datos de la búsqueda en los cálculos de tasas?
-Los datos que se usan al calcular tasas en Microsoft Dynamics 365 for Finance and Operations se controlan mediante la configuración de metadatos. Por ejemplo, si desea buscar tasas basadas en códigos postales debe configurar los metadatos según el tipo de búsqueda de un código postal.
+Los datos que se usan al calcular tasas se controlan mediante la configuración de metadatos. Por ejemplo, si desea buscar tasas basadas en códigos postales debe configurar los metadatos según el tipo de búsqueda de un código postal.
 
 ## <a name="do-all-engine-configurations-require-metadata"></a>¿Todas las configuraciones de motores requieren metadatos?
 No, los motores de administración del transporte que se usan para recuperar los datos necesarios para el cálculo de tasas de sistemas externos no necesitan metadatos. Los datos de tasas para estos motores se pueden recuperar a partir de sistemas de transportistas externos, generalmente mediante un servicio web. Por ejemplo, puede usar un motor de cálculo de kilometraje que recupera datos directamente de Mapas de Bing de modo que no necesite metadatos para este motor.
 
 | **Nota**                                                                                                                                                                                                                                                                                                                                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Los motores de administración del transporte que se entregan con Finance and Operations se basan en datos recuperados de la aplicación. Los motores que se conectan a sistemas externos no se incluyen con Operaciones. Sin embargo, el modelo de extensibilidad basado en motores le permite crear extensiones mediante Visual Studio Tools de Microsoft Dynamics 365 for Finance and Operations. |
+| Los motores de administración del transporte que se entregan con Supply Chain Management se basan en datos recuperados de la aplicación. Los motores que se conectan a sistemas externos no se incluyen con Operaciones. Sin embargo, el modelo de extensibilidad basado en motores le permite crear extensiones mediante Visual Studio Tools. |
 
 ## <a name="how-do-i-configure-metadata-for-a-transportation-management-engine"></a>¿Cómo se configuran los metadatos para un motor de administración del transporte?
 Los metadatos para motores de administración del transporte se configuran de forma diferente para cada tipo de motor.
@@ -99,8 +99,3 @@ Los metadatos para motores de administración del transporte se configuran de fo
 | 3        | Código postal inicial de destino | Asignación | Cadena    | Código postal    | Seleccionado  |
 | 4        | Código postal final de destino   | Asignación | Cadena    | Código postal    | Seleccionado  |
 | 5        | País de destino           | Asignación | Cadena    | País o región |           |
-
-
-
-
-

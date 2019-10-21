@@ -1,6 +1,6 @@
 ---
 title: Configurar canales de centro de llamadas
-description: En este tema se proporciona información sobre el procesamiento de pedidos para centro de llamadas utilizando Microsoft Dynamics 365 for Retail.
+description: En este tema se proporciona información sobre el procesamiento de pedidos para centro de llamadas utilizando Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 04/16/2018
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0bfbb763b8ded2a0ce90b66eb686379b1dc92a6d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 36491e4d2e63819ce637afb69744089d820c69b0
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549368"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024830"
 ---
 # <a name="set-up-call-center-channels"></a>Configurar canales del centro de llamadas
 
 [!include [banner](includes/banner.md)]
 
-Una empresa puede definir varios canales de centro de asistencia telefónica en Microsoft Dynamics 365 for Retail. Los canales de centro de llamadas se configuran en **Venta minorista** \> **Canales** \> **Centros de llamadas** \> **Todos los centros de llamadas**, y son específicos de una entidad jurídica.
+Una empresa puede definir varios canales de centro de asistencia telefónica en Dynamics 365 Retail. Los canales de centro de llamadas se configuran en **Venta minorista** \> **Canales** \> **Centros de llamadas** \> **Todos los centros de llamadas**, y son específicos de una entidad jurídica.
 
 Cuando se crea un canal nuevo del centro de llamadas, se le asigna sistemáticamente un número de unidad operativa. Puesto que los centros de llamadas se crean como unidades operativas, los usuarios pueden vincular el canal del centro de llamadas a varias funciones de Retail, como selecciones, catálogos y modos de entrega específicos.
 
@@ -76,6 +76,8 @@ Al definir el canal del centro de llamadas, debe vincular usuarios del canal al 
 
 De forma predeterminada, el indicador **Venta minorista** en el encabezado del pedido de ventas está activado para todos los pedidos que creen los usuarios del centro de llamadas. Los pedidos pueden aprovechar las funciones de precios y promociones ventas específicas para minoristas del sistema.
 
-Los usuarios que no están vinculados a un canal del centro de llamadas utilizan las funciones de entrada de pedidos estándar de Microsoft Dynamics 365 for Finance and Operations. Los pedidos que estos usuarios introducen a través del formulario de entrada de pedidos de ventas no se identificarán sistemáticamente al pedidos de Retail. Además, estos pedidos introducidos por dichos usuarios no estarán sujetos a ninguna regla de procesamiento de finalización de pedidos, lógica de precios al por menor u otras validaciones de pedidos que se pueden definir en la configuración del canal del centro de llamadas o los parámetros del sistema del centro de llamadas.
+
+Los usuarios que no están vinculados a un canal del centro de llamadas utilizan las funciones de entrada de pedidos estándar de Microsoft Dynamics 365 Finance. Los pedidos que estos usuarios introducen a través del formulario de entrada de pedidos de ventas no se identificarán sistemáticamente al pedidos de Retail. Además, estos pedidos introducidos por dichos usuarios no estarán sujetos a ninguna regla de procesamiento de finalización de pedidos, lógica de precios al por menor u otras validaciones de pedidos que se pueden definir en la configuración del canal del centro de llamadas o los parámetros del sistema del centro de llamadas.
+
 
 Una vez que haya terminado de configurar el canal del centro de llamadas y de definir los usuarios del canal, para ayudar a garantizar el comportamiento deseado del sistema, asegúrese de que están definidos todos los parámetros necesarios del centro de llamadas en **Venta minorista** \> **Configuración del canal** \> **Configuración del centro de llamadas** \> **Parámetros del centro de llamadas**. Asegúrese de que también están definidas las secuencias numéricas relacionadas.

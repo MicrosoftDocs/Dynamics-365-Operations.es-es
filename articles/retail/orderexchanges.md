@@ -1,6 +1,6 @@
 ---
 title: Configurar y procesar un cambio en un pedido de devolución
-description: En este tema se explica cómo configurar un cambio en una devolución en Microsoft Dynamics 365 for Retail.
+description: En este tema se explica cómo configurar un cambio en una devolución en Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
 ms.date: 11/12/2018
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 43571099727830e81c41416b6fe250dba398b3f8
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3ce327a918159771df0acab276b1169d2ad77825
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561396"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025388"
 ---
 # <a name="configure-and-process-an-exchange-on-a-return-order"></a>Configurar y procesar un cambio en un pedido de devolución
 
 [!include [banner](includes/banner.md)]
 
-En versiones anteriores de Microsoft Dynamics 365 for Retail, las devoluciones relacionadas con pedidos de cliente se procesaban con el documento de pedido de devolución en Retail Headquarters. Sin embargo, el documento de pedido de devolución se puede usar para procesar solo los productos devueltos. Los productos devueltos se indican con una cantidad negativa en las líneas de pedido de devolución. En cambio, las ventas se indican con una cantidad positiva. Sin embargo, el documento de pedido de devolución no admite cantidades positivas. Debido a esta limitación, las versiones anteriores de Retail no admitían situaciones en las que los cambios de producto se hacen con el documento de pedido de devolución.
+En versiones anteriores de Dynamics 365 Retail, las devoluciones relacionadas con pedidos de cliente se procesaban con el documento de pedido de devolución en Retail Headquarters. Sin embargo, el documento de pedido de devolución se puede usar para procesar solo los productos devueltos. Los productos devueltos se indican con una cantidad negativa en las líneas de pedido de devolución. En cambio, las ventas se indican con una cantidad positiva. Sin embargo, el documento de pedido de devolución no admite cantidades positivas. Debido a esta limitación, las versiones anteriores de Retail no admitían situaciones en las que los cambios de producto se hacen con el documento de pedido de devolución.
 
 Ahora se ha agregado funcionalidad para admitir situaciones en las que los cambios se realizan con pedidos de devolución. Retail usa el documento de pedido de ventas en lugar del documento de pedido de devolución para procesar transacciones de este tipo.
 

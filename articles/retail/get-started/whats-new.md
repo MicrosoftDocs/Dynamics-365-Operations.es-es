@@ -1,6 +1,6 @@
 ---
-title: Novedades y cambios en Dynamics 365 for Retail
-description: Esta página le señala a recursos que pueden ayudarle a obtener información acerca de las nuevas características de las versiones más recientes de Microsoft Dynamics 365 for Retail.
+title: Novedades y cambios en Dynamics 365 Retail
+description: Esta página le señala a recursos que pueden ayudarle a obtener información acerca de las nuevas características de las versiones más recientes de Microsoft Dynamics 365 Retail.
 author: sericks007
 manager: AnnBe
 ms.date: 10/20/2018
@@ -16,22 +16,22 @@ ms.search.industry: retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-07-31
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 23156e4f19beaf1bfe6ab9a66a326d55e7d85213
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: d0f89cc5ec0a0a1bb174a031aa9b6c059d608be4
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845718"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025500"
 ---
-# <a name="whats-new-and-changed-in-dynamics-365-for-retail"></a>Novedades y cambios en Dynamics 365 for Retail
+# <a name="whats-new-and-changed-in-dynamics-365-retail"></a>Novedades y cambios en Dynamics 365 Retail
 
 [!include [banner](../../includes/banner.md)]
 
-Esta página le señala a recursos que pueden ayudarle a obtener información acerca de las nuevas características y cambios de las versiones más recientes de Microsoft Dynamics 365 for Retail.
+Esta página le señala a recursos que pueden ayudarle a obtener información acerca de las nuevas características y cambios de las versiones más recientes de Microsoft Dynamics 365 Retail.
 
 [!include [release notes](../includes/release-notes.md)]
 
-## <a name="releases-of-dynamics-365-for-retail"></a>Versiones de Dynamics 365 for Retail
+## <a name="releases-of-dynamics-365-retail"></a>Versiones de Dynamics 365 Retail
 
 | Liberar | Crear número | Disponibilidad | Más información |
 |---------|--------------|--------------|------------|

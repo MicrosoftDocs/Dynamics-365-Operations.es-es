@@ -1,6 +1,6 @@
 ---
 title: Configurar situaciones de pago de facturas
-description: En este tema se describe cómo configurar Dynamics 365 for Retail para diversos escenarios relacionados con el pago de facturas.
+description: En este tema se describe cómo configurar Dynamics 365 Retail para diversos escenarios relacionados con el pago de facturas.
 author: josaw1
 manager: AnnBe
 ms.date: 11/14/2018
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b7132dc9b3c78fa04fcfc38ea72b5678ad08deb2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4fb9101843396e489e4d7b63879e9df35e52fe64
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564979"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018022"
 ---
 # <a name="set-up-pay-invoice-scenarios"></a>Configurar situaciones de pago de facturas
 
 [!include [banner](includes/banner.md)]
 
-La funcionalidad de pago de facturas de Dynamics 365 for Retail se ha ampliado para permitir:
+La funcionalidad de pago de facturas de Dynamics 365 Retail se ha ampliado para permitir:
 
 - El pago de varias facturas de pedidos de ventas en una sola transacción de PDV.
 - El pago de diversos tipos de factura de cliente, incluidas las facturas de servicios, las facturas basadas en proyectos y las notas de abono.

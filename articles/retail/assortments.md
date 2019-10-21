@@ -1,6 +1,6 @@
 ---
 title: Administración de surtidos.
-description: En este tema se explican los conceptos básicos de administración de surtidos en Microsoft Dynamics 365 for Retail y se proporcionan consideraciones sobre implementaciones para el proyecto.
+description: En este tema se explican los conceptos básicos de administración de surtidos en Dynamics 365 Retail y se proporcionan consideraciones sobre implementaciones para el proyecto.
 author: jblucher
 manager: AnnBe
 ms.date: 03/12/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
-ms.openlocfilehash: b4de2a97a19be6d4e52c43180e36baf7adf6a649
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4652641be0a1edaac919d36c7f127cd62c355a57
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558837"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025849"
 ---
 # <a name="assortment-management"></a>Administración de surtidos
 
@@ -28,7 +28,7 @@ ms.locfileid: "1558837"
 
 ## <a name="overview"></a>Información general
 
-Microsoft Dynamics 365 for Retail proporciona *surtidos* que le permiten gestionar la disponibilidad de productos mediante canales. Los surtidos determinan qué productos están disponibles en tiendas específicas y durante un período concreto.
+Dynamics 365 Retail proporciona *surtidos* que le permiten gestionar la disponibilidad de productos mediante canales. Los surtidos determinan qué productos están disponibles en tiendas específicas y durante un período concreto.
 
 En Retail, un surtido es una asignación de uno o varios canales (o grupos de canales, cuando se emplean jerarquías organizativas) para uno o más productos (o grupos de productos, cuando se emplean jerarquías de categorías).
 
