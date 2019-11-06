@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8bc9445bacc764bd0c70be4a55d621fc3f8fb270
-ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.openlocfilehash: 510a36668bf131b48733e486a43f1d630ae9f3ea
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2278333"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653703"
 ---
 # <a name="help-resources-for-supply-chain-management"></a>Recursos de ayuda para Supply Chain Management
 
@@ -39,7 +39,7 @@ Vaya a <a href="https://roadmap.dynamics.com/">Guía básica de Dynamics 365</a>
 Seleccione un área de características para obtener más información al respecto.
 
 - [Administración de activos](asset-management/index.md)
-- [Contabilidad de costes](../financials/cost-accounting/cost-accounting-home-page.md)
+- [Contabilidad de costes](../finance/cost-accounting/cost-accounting-home-page.md)
 - [Gestión de costes](cost-management/cost-management-home-page.md)  
 - [Gestión de inventarios](inventory/inventory-home-page.md)
 - [Planificación maestra](master-planning/master-planning-home-page.md)
@@ -109,7 +109,7 @@ Estas grabaciones de conferencia técnica describen la funcionalidad de los prod
 -  [Administración de transporte (TMS) en el nuevo Microsoft Dynamics AX](https://youtu.be/jgmTgJIgEFQ)
 
 ## <a name="blogs"></a>Blogs
-Hay muchos temas sobre la gestión de la cadena de suministro y la fabricación en el <a href="https://blogs.msdn.microsoft.com/axmfg/">blog del equipo de I+D de Dynamics AX Manufacturing</a> y en el <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">blog del equipo de I+D de la Gestión de cadenas de suministros en Dynamics AX.</a> La mayoría de ellos se crearon para la versión anterior de Finance and Operations, pero aún se aplican los mismos conceptos y, en la versión actual, los procedimientos son similares. 
+Hay muchos temas sobre la gestión de la cadena de suministro y la fabricación en el <a href="https://blogs.msdn.microsoft.com/axmfg/">blog del equipo de I+D de Dynamics AX Manufacturing</a> y en el <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">blog del equipo de I+D de la Supply Chain Management en Dynamics AX.</a> La mayoría de ellos se crearon para la versión anterior, pero aún se aplican los mismos conceptos y, en la versión actual, los procedimientos son similares. 
 
 ## <a name="white-papers"></a>Notas del producto
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Laboratorios prácticos de contabilidad de costes</a> 

@@ -16,20 +16,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 244321e1eb246c46260326a8892924d9d9da75d3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: ace1d00ec25a57b26b1858369c32d9134a380977
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176083"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570365"
 ---
 # <a name="recognize-deferred-revenue"></a>Reconocer ingresos diferidos
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 > [!NOTE]
-> La característica de reconocimiento de ingresos aún no se puede activar a través de la administración de características. Actualmente hay que usar las claves de configuración para activarla.
+> La característica de reconocimiento de ingresos no se puede activar a través de la administración de características. Actualmente hay que usar las claves de configuración para activarla.
 
 En este tema se describe el proceso para reconocer ingresos en la programación de reconocimiento de ingresos. Después de que la factura se haya registrado para un pedido de ventas, se crea una programación de reconocimiento de ingresos para cada línea de pedido de ventas que tiene una programación de ingresos. La programación de ingresos en una línea se usa para determinar si los ingresos de la línea se deben diferir.
 

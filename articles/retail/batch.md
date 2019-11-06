@@ -1,9 +1,9 @@
 ---
-title: Control administrado de artículos con seguimiento por lotes
+title: Control mejorado de artículos con seguimiento por lotes
 description: En este tema se describen las mejoras que se han realizado al control de los lotes para los artículos con seguimiento por lotes durante el proceso de registro de extracto comercial.
 author: josaw1
 manager: AnnBe
-ms.date: 05/28/2019
+ms.date: 10/14/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,14 +18,20 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-28
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 35823efa2844898d3eecbf91624b3e37d308b63c
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 70d78f86f1df057d14d821a8c967e62eeeb4ff92
+ms.sourcegitcommit: 0262a19e32b2c0c84c731d9f4fbe8ba91822afa3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025803"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2622559"
 ---
-# <a name="improved-handling-of-batch-tracked-items"></a>Control administrado de artículos con seguimiento por lotes
+# <a name="improved-handling-of-batch-tracked-items"></a>Control mejorado de artículos con seguimiento por lotes
+
+
+[!include [banner](includes/banner.md)]
+
+[!include [banner](includes/preview-banner.md)]
+
 
 En Retail Point of Sale (POS), los números de lotes no se pueden obtener para los artículos con seguimiento por lotes en el momento de la venta. Sin embargo, para las configuraciones específicas, cuando se registran las ventas en las sedes a través del registro de extractos o pedidos de clientes, el sistema de Microsoft Dynamics espera que existan números de lotes válidos para artículos con seguimiento por lotes y que se usarán durante el proceso de facturación.
 
@@ -39,3 +45,6 @@ Para definir el id. de lote predeterminado que se usa para facturación de pedid
 
 > [!NOTE]
 > Esta funcionalidad solo está disponible cuando el almacenamiento avanzado está activado para los artículos y el almacén de la tienda específicos. En una versión posterior, la funcionalidad también se admitirá para escenarios donde no se use la gestión avanzada de almacenes.
+
+> [!NOTE]
+> La compatibilidad para el control mejorado de los artículos con seguimiento por lotes durante el registro de extractos para los escenarios no avanzados de gestión de almacenes se introdujo en Retail versión 10.0.5.

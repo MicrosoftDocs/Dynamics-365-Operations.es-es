@@ -16,18 +16,20 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: ff513d2e2d2968e531e4515c45abdc470b384123
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 73acfc92777b8fe07b89bea782e13213d38000cd
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184103"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570342"
 ---
 # <a name="revenue-recognition-setup"></a>Configuración de reconocimiento de ingresos
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Se ha agregado un nuevo módulo **Reconocimiento de ingresos** que incluye elementos de menú para toda la configuración necesaria. En este tema se describen las opciones de configuración y sus implicaciones.
+
+> [!NOTE]
+> La característica de reconocimiento de ingresos no se puede activar a través de la administración de características. Actualmente hay que usar las claves de configuración para activarla.
 
 El módulo **Reconocimiento de ingresos** contiene las opciones de configuración siguientes:
 
