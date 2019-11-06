@@ -1,2 +1,2 @@
 > [!IMPORTANT]
-> <span data-ttu-id="e7ef0-101">Este tema está relacionado con Dynamics 365 Retail y Dynamics 365 Commerce (Vista previa).</span><span class="sxs-lookup"><span data-stu-id="e7ef0-101">This topic applies to Dynamics 365 Retail and Dynamics 365 Commerce (Preview).</span></span>
+> <span data-ttu-id="b94a5-101">Este tema está relacionado con [Dynamics 365 Retail](../index.md) y [Dynamics 365 Commerce (Versión preliminar)](../../commerce/index.md).</span><span class="sxs-lookup"><span data-stu-id="b94a5-101">This topic applies to [Dynamics 365 Retail](../index.md) and [Dynamics 365 Commerce (Preview)](../../commerce/index.md).</span></span>

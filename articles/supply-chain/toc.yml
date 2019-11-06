@@ -42,6 +42,8 @@
               items:
                 - name: Opciones de implementación
                   href: ../fin-ops-core/dev-itpro/deployment/choose-deployment-type.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Comparación de características locales y en la nube
+                  href: ../fin-ops-core/fin-ops/get-started/cloud-prem-comparison.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Implementación en la nube
                   href: ../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Requisitos del sistema para implementaciones en la nube
@@ -60,16 +62,20 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
             - name: Novedades y cambios
               items:
-                - name: Página principal de Novedades y cambios
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md
-                - name: Características de vista previa en aplicaciones de Finance and Operations 10.0.6 (noviembre de 2019)
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-6.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Aplicaciones de Finance and Operations 10.0.5 (octubre de 2019)
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Finance and Operations 10.0.4 (julio de 2019)
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 'Finance and Operations, Enterprise Edition 7.3'
-                  href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Características de vista previa de Supply Chain Management versión 10.0.7 (diciembre de 2019)
+                  href: get-started/whats-new-scm-10-0-7.md
+                - name: Desarrollo de Supply Chain Management 10.0.6 (noviembre de 2019)
+                  href: get-started/whats-new-scm-10-0-6.md
+                - name: Novedades y cambios en versiones anteriores
+                  items:
+                    - name: Página principal de Novedades y cambios en Finance and Operations
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Aplicaciones de Finance and Operations 10.0.5 (octubre de 2019)
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Finance and Operations 10.0.4 (julio de 2019)
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: 'Finance and Operations, Enterprise Edition 7.3'
+                      href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Características quitadas u obsoletas
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Características de AX 2012 pospuestas
@@ -1687,8 +1693,6 @@
                       href: production-control/register-material-consumption-hand-held-device.md
                     - name: Controlar el consumo de materias primas mediante principios de vaciado
                       href: production-control/flushing-principles.md
-                    - name: Tránsito directo desde pedidos de producción a muelles de salida
-                      href: production-control/cross-docking-opportunities.md
                     - name: Establecer la ubicación de salida de producción para los bienes terminados
                       href: production-control/production-output-location.md
                     - name: Informar de que las L. MAT. han terminado
@@ -2285,6 +2289,12 @@
                   href: warehousing/manage-warehouse-workers.md
                 - name: Procesamiento aplazado de trabajo de almacén
                   href: warehousing/deferred-put.md
+            - name: Tránsito directo
+              items:
+                - name: Tránsito directo desde pedidos de producción a muelles de salida
+                  href: production-control/cross-docking-opportunities.md
+                - name: Liberación automática de envíos para tránsito directo
+                  href: warehousing/auto-release-shipment-for-cross-docking.md
             - name: Liberación parcial y envío parcial
               items:
                 - name: Envío parcial de una carga de transporte
@@ -2311,6 +2321,8 @@
                   href: warehousing/tasks/set-up-manual-packing-2016-02-05.md
                 - name: Configuración de la reasignación de artículos para la selección corta
                   href: warehousing/tasks/set-up-short-picking-item-reallocation.md
+                - name: Cancelar trabajo de almacén para el control de excepciones
+                  href: warehousing/cancel-warehouse-work.md
             - name: Recuento de inventario
               items:
                 - name: Códigos de motivo de recuento de inventario
