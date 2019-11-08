@@ -16,62 +16,62 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b22bf5fb5b2a2756684304d1cb26c0f8a7419c00
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: efaa837ef39d8e0daf561fe385f22ed7b0acd305
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2010830"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2552051"
 ---
-# <a name="create-a-hiring-team-by-using-onboard"></a><span data-ttu-id="16cd5-103">Crear un equipo de contratación con Onboard</span><span class="sxs-lookup"><span data-stu-id="16cd5-103">Create a hiring team by using Onboard</span></span>
+# <a name="create-a-hiring-team-by-using-dynamics-365-talent---onboard"></a><span data-ttu-id="e198b-103">Crear un equipo de contratación con Dynamics 365 Talent - Onboard</span><span class="sxs-lookup"><span data-stu-id="e198b-103">Create a hiring team by using Dynamics 365 Talent - Onboard</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="16cd5-104">En Microsoft Dynamics 365 Talent: Onboard, puede crear equipos de contratación.</span><span class="sxs-lookup"><span data-stu-id="16cd5-104">In Microsoft Dynamics 365 Talent: Onboard, you can create hiring teams.</span></span> <span data-ttu-id="16cd5-105">Luego puede asignar guías y plantillas de incorporación a cada equipo.</span><span class="sxs-lookup"><span data-stu-id="16cd5-105">You can then assign onboarding guides and templates to each team.</span></span>
+<span data-ttu-id="e198b-104">En Microsoft Dynamics 365 Talent: Onboard, puede crear equipos de contratación.</span><span class="sxs-lookup"><span data-stu-id="e198b-104">In Microsoft Dynamics 365 Talent: Onboard, you can create hiring teams.</span></span> <span data-ttu-id="e198b-105">Luego puede asignar guías y plantillas de incorporación a cada equipo.</span><span class="sxs-lookup"><span data-stu-id="e198b-105">You can then assign onboarding guides and templates to each team.</span></span>
 
-## <a name="create-a-hiring-team"></a><span data-ttu-id="16cd5-106">Crear un equipo de contratación</span><span class="sxs-lookup"><span data-stu-id="16cd5-106">Create a hiring team</span></span>
+## <a name="create-a-hiring-team"></a><span data-ttu-id="e198b-106">Crear un equipo de contratación</span><span class="sxs-lookup"><span data-stu-id="e198b-106">Create a hiring team</span></span>
 
-1. <span data-ttu-id="16cd5-107">En el menú izquierdo, seleccione **Equipos**.</span><span class="sxs-lookup"><span data-stu-id="16cd5-107">On the left menu, select **Teams**.</span></span>
-2. <span data-ttu-id="16cd5-108">En **Equipos**, seleccione el icono **Agregar** (signo más \[**+**\]).</span><span class="sxs-lookup"><span data-stu-id="16cd5-108">Under **Teams**, select the **Add** (plus sign \[**+**\]) tile.</span></span>
-3. <span data-ttu-id="16cd5-109">En el cuadro de diálogo **Crear nuevo equipo**, en **Nombre de equipo**, especifique un nombre para el equipo de contratación.</span><span class="sxs-lookup"><span data-stu-id="16cd5-109">In the **Create a new team** dialog box, under **Team name**, enter a name for the hiring team.</span></span>
+1. <span data-ttu-id="e198b-107">En el menú izquierdo, seleccione **Equipos**.</span><span class="sxs-lookup"><span data-stu-id="e198b-107">On the left menu, select **Teams**.</span></span>
+2. <span data-ttu-id="e198b-108">En **Equipos**, seleccione el icono **Agregar** (signo más \[**+**\]).</span><span class="sxs-lookup"><span data-stu-id="e198b-108">Under **Teams**, select the **Add** (plus sign \[**+**\]) tile.</span></span>
+3. <span data-ttu-id="e198b-109">En el cuadro de diálogo **Crear nuevo equipo**, en **Nombre de equipo**, especifique un nombre para el equipo de contratación.</span><span class="sxs-lookup"><span data-stu-id="e198b-109">In the **Create a new team** dialog box, under **Team name**, enter a name for the hiring team.</span></span>
 
-    ![[<span data-ttu-id="16cd5-110">Crear un nuevo equipo en Onboard</span><span class="sxs-lookup"><span data-stu-id="16cd5-110">Creating a new team in Onboard</span></span>](./media/onboard-create-team.png)](./media/onboard-create-team.png)
+    ![[<span data-ttu-id="e198b-110">Crear un nuevo equipo en Onboard</span><span class="sxs-lookup"><span data-stu-id="e198b-110">Creating a new team in Onboard</span></span>](./media/onboard-create-team.png)](./media/onboard-create-team.png)
 
-4. <span data-ttu-id="16cd5-111">En **Elegir miembros del equipo**, especifique el nombre o la dirección de correo electrónico de cada miembro del equipo.</span><span class="sxs-lookup"><span data-stu-id="16cd5-111">Under **Choose team members**, enter the name or email address of each team member.</span></span>
+4. <span data-ttu-id="e198b-111">En **Elegir miembros del equipo**, especifique el nombre o la dirección de correo electrónico de cada miembro del equipo.</span><span class="sxs-lookup"><span data-stu-id="e198b-111">Under **Choose team members**, enter the name or email address of each team member.</span></span>
 
-    <span data-ttu-id="16cd5-112">Para quitar miembros del equipo, seleccione la **X** que aparece junto a su nombre bajo el cuadro.</span><span class="sxs-lookup"><span data-stu-id="16cd5-112">To remove team members, select the **X** that appears next to their name under the box.</span></span>
+    <span data-ttu-id="e198b-112">Para quitar miembros del equipo, seleccione la **X** que aparece junto a su nombre bajo el cuadro.</span><span class="sxs-lookup"><span data-stu-id="e198b-112">To remove team members, select the **X** that appears next to their name under the box.</span></span>
 
-5. <span data-ttu-id="16cd5-113">Para enviar por correo electrónico a los nuevos miembros del equipo, active la opción **Enviar un mensaje de correo electrónico a los nuevos miembros**.</span><span class="sxs-lookup"><span data-stu-id="16cd5-113">To email new team members, turn on the **Send an email to the new members** option.</span></span>
-6. <span data-ttu-id="16cd5-114">Seleccione **Crear**.</span><span class="sxs-lookup"><span data-stu-id="16cd5-114">Select **Create**.</span></span>
-7. <span data-ttu-id="16cd5-115">Si ha indicado que desea enviar por correo electrónico a los nuevos miembros del equipo, edite el correo electrónico en el cuadro de diálogo siguiente y, a continuación seleccione **Listo**.</span><span class="sxs-lookup"><span data-stu-id="16cd5-115">If you indicated that you want to email new team members, edit the email in the next dialog box, and then select **Done**.</span></span>
+5. <span data-ttu-id="e198b-113">Para enviar por correo electrónico a los nuevos miembros del equipo, active la opción **Enviar un mensaje de correo electrónico a los nuevos miembros**.</span><span class="sxs-lookup"><span data-stu-id="e198b-113">To email new team members, turn on the **Send an email to the new members** option.</span></span>
+6. <span data-ttu-id="e198b-114">Seleccione **Crear**.</span><span class="sxs-lookup"><span data-stu-id="e198b-114">Select **Create**.</span></span>
+7. <span data-ttu-id="e198b-115">Si ha indicado que desea enviar por correo electrónico a los nuevos miembros del equipo, edite el correo electrónico en el cuadro de diálogo siguiente y, a continuación seleccione **Listo**.</span><span class="sxs-lookup"><span data-stu-id="e198b-115">If you indicated that you want to email new team members, edit the email in the next dialog box, and then select **Done**.</span></span>
 
-## <a name="assign-onboarding-guides-to-a-hiring-team"></a><span data-ttu-id="16cd5-116">Asignar guías de incorporación a un equipo de contratación</span><span class="sxs-lookup"><span data-stu-id="16cd5-116">Assign onboarding guides to a hiring team</span></span>
+## <a name="assign-onboarding-guides-to-a-hiring-team"></a><span data-ttu-id="e198b-116">Asignar guías de incorporación a un equipo de contratación</span><span class="sxs-lookup"><span data-stu-id="e198b-116">Assign onboarding guides to a hiring team</span></span>
 
-1. <span data-ttu-id="16cd5-117">En el menú izquierdo, seleccione **Equipos**.</span><span class="sxs-lookup"><span data-stu-id="16cd5-117">On the left menu, select **Teams**.</span></span>
-2. <span data-ttu-id="16cd5-118">Seleccione el equipo.</span><span class="sxs-lookup"><span data-stu-id="16cd5-118">Select the team.</span></span>
-3. <span data-ttu-id="16cd5-119">En la pestaña **Guías** haga clic en **Agregar guías**.</span><span class="sxs-lookup"><span data-stu-id="16cd5-119">On the **Guides** tab, select **Add guides**.</span></span>
+1. <span data-ttu-id="e198b-117">En el menú izquierdo, seleccione **Equipos**.</span><span class="sxs-lookup"><span data-stu-id="e198b-117">On the left menu, select **Teams**.</span></span>
+2. <span data-ttu-id="e198b-118">Seleccione el equipo.</span><span class="sxs-lookup"><span data-stu-id="e198b-118">Select the team.</span></span>
+3. <span data-ttu-id="e198b-119">En la pestaña **Guías** haga clic en **Agregar guías**.</span><span class="sxs-lookup"><span data-stu-id="e198b-119">On the **Guides** tab, select **Add guides**.</span></span>
 
-    ![[<span data-ttu-id="16cd5-120">Asignar guías de incorporación a un equipo de contratación</span><span class="sxs-lookup"><span data-stu-id="16cd5-120">Adding onboarding guides to a team</span></span>](./media/onboard-add-guides-to-team.png)](./media/onboard-add-guides-to-team.png)
+    ![[<span data-ttu-id="e198b-120">Asignar guías de incorporación a un equipo de contratación</span><span class="sxs-lookup"><span data-stu-id="e198b-120">Adding onboarding guides to a team</span></span>](./media/onboard-add-guides-to-team.png)](./media/onboard-add-guides-to-team.png)
 
-4. <span data-ttu-id="16cd5-121">Seleccione la casilla para cada guía de incorporación que desea asignar al equipo y, a continuación, seleccione **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="16cd5-121">Select the check box for each onboarding guide that you want to assign to the team, and then select **Add**.</span></span>
+4. <span data-ttu-id="e198b-121">Seleccione la casilla para cada guía de incorporación que desea asignar al equipo y, a continuación, seleccione **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="e198b-121">Select the check box for each onboarding guide that you want to assign to the team, and then select **Add**.</span></span>
 
-    ![[<span data-ttu-id="16cd5-122">Seleccionar las guías de incorporación que se agregarán al equipo</span><span class="sxs-lookup"><span data-stu-id="16cd5-122">Selecting the onboarding guides to add to the team</span></span>](./media/onboard-select-guides.png)](./media/onboard-select-guides.png)
+    ![[<span data-ttu-id="e198b-122">Seleccionar las guías de incorporación que se agregarán al equipo</span><span class="sxs-lookup"><span data-stu-id="e198b-122">Selecting the onboarding guides to add to the team</span></span>](./media/onboard-select-guides.png)](./media/onboard-select-guides.png)
 
-## <a name="assign-onboarding-templates-to-a-hiring-team"></a><span data-ttu-id="16cd5-123">Asignar plantillas de incorporación a un equipo de contratación</span><span class="sxs-lookup"><span data-stu-id="16cd5-123">Assign onboarding templates to a hiring team</span></span>
+## <a name="assign-onboarding-templates-to-a-hiring-team"></a><span data-ttu-id="e198b-123">Asignar plantillas de incorporación a un equipo de contratación</span><span class="sxs-lookup"><span data-stu-id="e198b-123">Assign onboarding templates to a hiring team</span></span>
 
-1. <span data-ttu-id="16cd5-124">En el menú izquierdo, seleccione **Equipos**.</span><span class="sxs-lookup"><span data-stu-id="16cd5-124">On the left menu, select **Teams**.</span></span>
-2. <span data-ttu-id="16cd5-125">Seleccione el equipo.</span><span class="sxs-lookup"><span data-stu-id="16cd5-125">Select the team.</span></span>
-3. <span data-ttu-id="16cd5-126">En la pestaña **Plantillas** haga clic en **Agregar plantillas**.</span><span class="sxs-lookup"><span data-stu-id="16cd5-126">On the **Templates** tab, select **Add templates**.</span></span>
+1. <span data-ttu-id="e198b-124">En el menú izquierdo, seleccione **Equipos**.</span><span class="sxs-lookup"><span data-stu-id="e198b-124">On the left menu, select **Teams**.</span></span>
+2. <span data-ttu-id="e198b-125">Seleccione el equipo.</span><span class="sxs-lookup"><span data-stu-id="e198b-125">Select the team.</span></span>
+3. <span data-ttu-id="e198b-126">En la pestaña **Plantillas** haga clic en **Agregar plantillas**.</span><span class="sxs-lookup"><span data-stu-id="e198b-126">On the **Templates** tab, select **Add templates**.</span></span>
 
-    ![[<span data-ttu-id="16cd5-127">Asignar plantillas a un equipo</span><span class="sxs-lookup"><span data-stu-id="16cd5-127">Adding templates to a team</span></span>](./media/onboard-add-templates-to-team.png)](./media/onboard-add-templates-to-team.png)
+    ![[<span data-ttu-id="e198b-127">Asignar plantillas a un equipo</span><span class="sxs-lookup"><span data-stu-id="e198b-127">Adding templates to a team</span></span>](./media/onboard-add-templates-to-team.png)](./media/onboard-add-templates-to-team.png)
 
-4. <span data-ttu-id="16cd5-128">Seleccione la casilla para cada plantilla que desea asignar al equipo y, a continuación, seleccione **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="16cd5-128">Select the check box for each template that you want to assign to the team, and then select **Add**.</span></span>
+4. <span data-ttu-id="e198b-128">Seleccione la casilla para cada plantilla que desea asignar al equipo y, a continuación, seleccione **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="e198b-128">Select the check box for each template that you want to assign to the team, and then select **Add**.</span></span>
 
-    ![[<span data-ttu-id="16cd5-129">Seleccionar las plantillas que se agregarán al equipo</span><span class="sxs-lookup"><span data-stu-id="16cd5-129">Selecting the templates to add to the team</span></span>](./media/onboard-select-templates.png)](./media/onboard-select-templates.png)
+    ![[<span data-ttu-id="e198b-129">Seleccionar las plantillas que se agregarán al equipo</span><span class="sxs-lookup"><span data-stu-id="e198b-129">Selecting the templates to add to the team</span></span>](./media/onboard-select-templates.png)](./media/onboard-select-templates.png)
 
-### <a name="see-also"></a><span data-ttu-id="16cd5-130">Consulte también</span><span class="sxs-lookup"><span data-stu-id="16cd5-130">See also</span></span>
+### <a name="see-also"></a><span data-ttu-id="e198b-130">Consulte también</span><span class="sxs-lookup"><span data-stu-id="e198b-130">See also</span></span>
 
-- [<span data-ttu-id="16cd5-131">Probar o comprar la aplicación Onboard</span><span class="sxs-lookup"><span data-stu-id="16cd5-131">Try or buy the Onboard app</span></span>](https://dynamics.microsoft.com/talent/onboard/)
-- [<span data-ttu-id="16cd5-132">Novedades</span><span class="sxs-lookup"><span data-stu-id="16cd5-132">What's new</span></span>](./whats-new.md)
-- [<span data-ttu-id="16cd5-133">Notas de la versión</span><span class="sxs-lookup"><span data-stu-id="16cd5-133">Release notes</span></span>](https://docs.microsoft.com/business-applications-release-notes/index)
-- [<span data-ttu-id="16cd5-134">Obtener soporte</span><span class="sxs-lookup"><span data-stu-id="16cd5-134">Get support</span></span>](./talent-support.md)
+- [<span data-ttu-id="e198b-131">Probar o comprar la aplicación Onboard</span><span class="sxs-lookup"><span data-stu-id="e198b-131">Try or buy the Onboard app</span></span>](https://dynamics.microsoft.com/talent/onboard/)
+- [<span data-ttu-id="e198b-132">Novedades</span><span class="sxs-lookup"><span data-stu-id="e198b-132">What's new</span></span>](./whats-new.md)
+- [<span data-ttu-id="e198b-133">Notas de la versión</span><span class="sxs-lookup"><span data-stu-id="e198b-133">Release notes</span></span>](https://docs.microsoft.com/business-applications-release-notes/index)
+- [<span data-ttu-id="e198b-134">Obtener soporte</span><span class="sxs-lookup"><span data-stu-id="e198b-134">Get support</span></span>](./talent-support.md)
