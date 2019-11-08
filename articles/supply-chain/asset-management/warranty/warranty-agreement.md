@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 71905d5b362c80d48b78210b59cacfb1e7899757
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: da60d098aff96780ca1e40832db34e3c9cc835e7
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874702"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569694"
 ---
 # <a name="warranty-agreements"></a>Contratos de garantía
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 
 En gestión de activos, puede configurar los términos de garantía que se pueden conectar a un activo o un tipo de activo. Los términos de garantía se crean para un período específico. La garantía se puede configurar para proporcionar cobertura total o alcance parcial, y puede configurar condiciones relacionadas con las horas, los gastos, y artículos.
@@ -54,4 +54,4 @@ Un acuerdo de la garantía puede incluir varias líneas del acuerdo para cubrir 
     3. Escriba un número en el campo **Intervalo**. Este campo define el número de períodos para los que la garantía debe ser válida.
     4. En el campo **Porcentaje**, especifique el porcentaje de cobertura para la línea de la garantía. El porcentaje indica cuánto está cubierta por la empresa.
 
-![Figura 1](media/01-warranty.png)
+![Página de la garantía](media/01-warranty.png)

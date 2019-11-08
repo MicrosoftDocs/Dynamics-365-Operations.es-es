@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e97d96a5485f17d0abc7c2fc2f8c4fdf4bbd4bb4
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 7fc9ec2f6a9a8a11d824e4b5c13d5aa173541454
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024646"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571930"
 ---
 # <a name="create-maintenance-requests"></a>Crear solicitudes de mantenimiento
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Pueden usarse solicitudes de mantenimiento cuando los trabajadores de mantenimiento o los trabajadores de producción detectan que el equipo requiere reparación, y el trabajo de reparación no se puede hacer inmediatamente.
 
@@ -55,7 +55,7 @@ La sección **Solicitudes de mantenimiento activas** del panel **Información re
 11. En el campo **Notas**, especifique las notas adicionales necesarias.
 12. Seleccione **Aceptar**.
 
-![Figura 1](media/03-manage-maintenance-requests.png)
+![Crear solicitud de mantenimiento](media/03-manage-maintenance-requests.png)
 
 ## <a name="subsequent-processing-of-maintenance-requests"></a>Procesamiento posterior de solicitudes de mantenimiento
 
@@ -70,7 +70,7 @@ En la vista de detalles puede actualizar diversos datos. A continuación se incl
 - Seleccione un tipo de trabajo de mantenimiento y, si esta información es relevante, elija una variante y un oficio de trabajo de mantenimiento relacionados.
 - En los campos **Latitud** y **Longitud**, especifique las coordenadas geográficas. Las coordenadas que se agreguen a una solicitud de mantenimiento se transferirán automáticamente a una orden de trabajo relacionada. 
 
-![Figura 2](media/04-manage-maintenance-requests.png)
+![Actualizar solicitud de mantenimiento](media/04-manage-maintenance-requests.png)
 
 > [!NOTE]
 > Si selecciona un activo al crear una solicitud de mantenimiento, puede agregar un error a activo. Una vez creada la solicitud de mantenimiento, puede agregar más errores si es necesario. Para agregar errores, seleccione **Error de activo** en la página **Todas las solicitudes de mantenimiento**.

@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 02ea3affca727802b241f87b801e0742ac0aa41a
-ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
+ms.openlocfilehash: 2d079c10331360c035ff800650ed3102c2cc3ad4
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1922100"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569993"
 ---
 # <a name="preventive-maintenance-overview"></a>Visión general del mantenimiento preventivo
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 En este tema se explica el mantenimiento preventivo en Administración de activos. El mantenimiento preventivo es una disciplina que implica trabajos de mantenimiento planificados, por ejemplo, servicio regular, calibración e inspecciones. En **Administración de activos**, puede crear planes de mantenimiento y configurarlos en activos y ubicaciones técnicas. También puede configurar rondas de mantenimiento en ubicaciones técnicas. Los planes de mantenimiento en activos están activos independientemente de dónde se instale el activo. Los planes de mantenimiento y las rondas de mantenimiento en la ubicación técnica están activos para los activos actualmente instalados en la ubicación. En lugar de configurar planes de mantenimiento en los activos o de configurar rondas de mantenimiento en ubicaciones técnicas, puede crear rondas de mantenimiento que incluyan varios activos en los que necesita realizar tipos de trabajos de mantenimiento relacionados en la misma rutina de trabajo. Las rondas de mantenimiento creadas desde activos, en lugar de las creadas en ubicaciones técnicas, significa que puede seleccionar una serie de activos para una ronda de mantenimiento, que no están instalados en la misma ubicación técnica.
 

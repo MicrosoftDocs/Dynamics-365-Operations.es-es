@@ -19,18 +19,16 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0ea2c71458f92d048706a6e263d0da1830bdcde
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 792ff4d7b72ce092fe1ad92e53172cf40f0ecf26
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1565705"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569280"
 ---
 # <a name="lifo-with-physical-value-and-marking"></a>LIFO con valor físico y marcado
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 El método de valoración contable LIFO (Último en entrar, primero en salir) es un modelo de inventario según el cual las últimas recepciones (o recepciones más recientes) se emiten primero. Las emisiones del inventario se liquidan contra las últimas recepciones del inventario según la fecha de transacción de inventario. 
 
@@ -56,7 +54,9 @@ En este ejemplo, el grupo de modelos de artículo no está marcado para incluir 
 -   5b. Emisión del inventario financiero de una cantidad de 1 unidad con un precio de coste de 20,00 dólares USD por unidad (promedio móvil de transacciones actualizadas financieramente).
 -   6. Se efectúa el cierre de inventario. De acuerdo con el método LIFO, la última emisión actualizada financieramente se liquidará con la última recepción actualizada financieramente. Se lleva a cabo un ajuste de 10,00 dólares USD en la transacción de emisión.
 
-El nuevo precio de coste promedio móvil reflejará la media de transacciones actualizadas financieramente de 15,00 dólares USD. El ejemplo siguiente muestra los efectos del modelo de inventario LIFO sobre esta serie de transacciones cuando no se usa la opción **Incluir valor físico**. ![LIFO sin Incluir valor físico en coste](./media/lifowithoutincludephysicalvalue.gif) 
+El nuevo precio de coste promedio móvil reflejará la media de transacciones actualizadas financieramente de 15,00 dólares USD. El ejemplo siguiente muestra los efectos del modelo de inventario LIFO sobre esta serie de transacciones cuando no se usa la opción **Incluir valor físico**. 
+
+![LIFO sin Incluir valor físico en coste](./media/lifowithoutincludephysicalvalue.gif) 
 
 **Clave del diagrama**
 
@@ -90,7 +90,9 @@ En la ilustración siguiente se muestran estas transacciones:
 
 La transacción 6a se ajustará a la transacción de recepción 4b. El sistema no liquidará estas transacciones debido a que la recepción se actualiza físicamente pero no financieramente. En lugar de ello, se efectuará únicamente un ajuste de 8,75 dólares USA en la transacción de emisión física. La transacción 5b se ajustará a la transacción de recepción física 3a. El sistema no liquidará estas transacciones porque a que no se actualizan financieramente. En lugar de ello, se efectuará únicamente un ajuste de 3,75 dólares USD en esta transacción de emisión. El nuevo precio de coste promedio móvil refleja la media de las transacciones actualizadas financieramente y físicamente, es decir, 20,00 dólares USD. 
 
-La ilustración siguiente muestra los efectos del modelo de inventario LIFO sobre esta serie de transacciones cuando no se usa la opción **Incluir valor físico**. ![LIFO con Incluir valor físico en coste](./media/lifowithincludephysicalvalue.gif) 
+La ilustración siguiente muestra los efectos del modelo de inventario LIFO sobre esta serie de transacciones cuando no se usa la opción **Incluir valor físico**. 
+
+![LIFO con Incluir valor físico en coste](./media/lifowithincludephysicalvalue.gif) 
 
 **Clave del diagrama**
 
@@ -132,7 +134,9 @@ En la ilustración siguiente se muestran estas transacciones:
 
 El nuevo precio de coste promedio móvil refleja la media de las transacciones actualizadas financieramente y físicamente, es decir, 27,50 dólares USD. 
 
-La ilustración siguiente muestra los efectos del modelo de inventario LIFO en esta serie de transacciones al emplear marcado entre emisiones y recepciones. ![LIFO con marcado](./media/lifowithmarking.gif) 
+La ilustración siguiente muestra los efectos del modelo de inventario LIFO en esta serie de transacciones al emplear marcado entre emisiones y recepciones. 
+
+![LIFO con marcado](./media/lifowithmarking.gif) 
 
 **Clave del diagrama**
 
@@ -146,7 +150,4 @@ La ilustración siguiente muestra los efectos del modelo de inventario LIFO en e
 - Cada flecha vertical tiene una etiqueta con un identificador secuencial, por ejemplo, *1a*. Los identificadores indican el orden de los registros de transacciones de inventario en la línea de tiempo.
 - Los cierres de inventario se representan por medio de una línea roja vertical discontinua y la etiqueta *Cierre de inventario*.
 - Las liquidaciones que se llevan a cabo mediante el cierre de inventario se representan por medio de flechas rojas de rayas que van en sentido diagonal desde las recepciones a las emisiones.
-
-
-
 

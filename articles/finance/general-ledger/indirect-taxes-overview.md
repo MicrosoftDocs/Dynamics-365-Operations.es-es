@@ -3,7 +3,7 @@ title: Visión general de impuestos
 description: Este tema proporciona una visión general del sistema de impuesto sobre las ventas. Explica los elementos de la configuración de los impuesto y de cómo funcionan juntos.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/26/2017
+ms.date: 10/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2741eb51f93f2f0b627dd8676629077b6df0f1b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 08d128e3006d019fa19b52f320b262ae49105e5d
+ms.sourcegitcommit: ddd66bd329e76d88178032566b0a57637159b537
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186472"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "2666839"
 ---
 # <a name="sales-tax-overview"></a>Visión general de impuestos
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 Este tema proporciona una visión general del sistema de impuesto sobre las ventas. Explica los elementos de la configuración de los impuesto y de cómo funcionan juntos.
 
@@ -94,5 +92,8 @@ Normalmente tendría que liquidar y pagar 2.500 a la autoridad fiscal cuando se 
 
 Sin embargo, si usa un impuesto condicional, se liquida con la autoridad fiscal cuando recibe el pago del cliente el 30 de julio.
 
+### <a name="postdated-check"></a>Cheque con fecha futura
+
+Si usa el cheque con fecha futura como método de pago, cuando se realiza el pago, la cuenta bancaria no se borra. En algunos países, el IVA se convierte en pasivo “realizado” cuando el pago borra el banco, que significa que el cheque con fecha futura se liquida. Puede habilitarlo seleccionando **Realizar los impuestos condicionales cuando se toman los cheques con fecha futura** en **Efectivo y gestión bancaria > Configuración > Parámetros de gestión de efectivo y bancos > Cheques con fecha futura**.
 
 Para obtener más información, consulte [Configurar la retención de impuestos](tasks/set-up-withholding-tax.md).

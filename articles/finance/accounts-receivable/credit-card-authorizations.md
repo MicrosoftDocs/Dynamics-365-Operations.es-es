@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a06159f3d26cbaddc1417e863d7e665c2bfb424
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0de35934e8bdb160f68f68dab118997d0141bf29
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179831"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570411"
 ---
 # <a name="credit-card-setup-authorization-and-capture"></a>Configuración, autorización y captura de tarjetas de crédito
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 Este artículo proporciona información general de la autorización de la tarjeta de crédito en Microsoft Dynamics 365 Finance. Incluye información acerca de cómo configurar un servicio de pago, agregar una tarjeta de crédito a un pedido de ventas y anular una autorización.
 

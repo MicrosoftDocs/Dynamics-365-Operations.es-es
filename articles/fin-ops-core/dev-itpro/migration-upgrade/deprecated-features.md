@@ -3,7 +3,7 @@ title: Funcionalidades eliminadas u obsoletas de Finance and Operations
 description: Este tema describe las funciones que se han eliminado, o que está previsto que se eliminen.
 author: sericks007
 manager: AnnBe
-ms.date: 09/17/2019
+ms.date: 10/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 70bb8404c5b0e2422948d0b89311c384e3686710
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4e1c5dea039ae6482bfd9e036642c23463f5bc3a
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181091"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658699"
 ---
 # <a name="removed-or-deprecated-features-for-finance-and-operations"></a>Funcionalidades eliminadas u obsoletas de Finance and Operations
 
@@ -38,13 +38,42 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 > [!NOTE]
 > Desde la versión de julio de 2017 de Finance and Operations con actualización de la plataforma 8, se indica el tipo de implementaciones para cada características quitada u obsoleta. Todas las versiones anteriores de la lista de este tema admitían implementaciones de la nube únicamente.
 
-> La información detallada sobre los objetos de Finance and Operations se puede encontrar en los [informes de referencia técnica](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de Finance and Operations.
+La información detallada sobre los objetos de Finance and Operations se puede encontrar en los [informes de referencia técnica](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de Finance and Operations.
 
+## <a name="finance-1007-with-platform-update-31"></a>Finance 10.0.7 con Platform update 31
+
+### <a name="chinese-voucher-types-without-account-groups-selection"></a>Tipos de asiento para China sin selección de grupos de cuentas
+|   |  |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | Cambiado a la característica con la selección de grupos de cuentas. |
+| **¿Reemplazado por otra característica?**   | Sí |
+| **Áreas de producto afectadas**         | Solicitud |
+| **Opción de implementación**              | Todas |
+| **Estado**                         | En desuso: El 1 de diciembre de 2020, planeamos dejar de admitir la configuración de tipos de asiento para China sin selección de grupos de cuentas. Encuentre más detalles sobre el nuevo diseño de la característica en Novedades en 10.0.7 |
 
 ## <a name="finance-and-operations-1006-with-platform-update-30"></a>Finance and Operations 10.0.6 con actualización de plataforma 30
 
-> [!IMPORTANT]
-> Dynamics 365 for Finance and Operations 10.0.6 con Platform update 30 está disponible para los usuarios a los que está dirigida como parte de un lanzamiento de versión preliminar. El contenido y la funcionalidad están sujetos a cambios. Para obtener más información acerca las versiones preliminares, consulte [Disponibilidad de actualización del servicio](../../fin-and-ops/get-started/public-preview-releases.md).
+
+### <a name="dimensionhashgethashstr-_message"></a>DimensionHash.getHash (str _message)
+
+|   |  |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | Windows va a dejar de usar SHA1, como se documenta en [Aplicación de Windows de certificados SHA1](https://social.technet.microsoft.com/wiki/contents/articles/32288.windows-enforcement-of-sha1-certificates.aspx).  |
+| **¿Reemplazado por otra característica?**   | Sí |
+| **Áreas de producto afectadas**         | Solicitud |
+| **Opción de implementación**              | Todas |
+| **Estado**                         | Desusado: El 1 de abril de 2020, los desarrolladores deben usar la nueva API. |
+
+### <a name="hashcomputesha1hashstring-message"></a>Hash.ComputeSHA1Hash(string message)
+
+|   |  |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | Windows va a dejar de usar SHA1, como se documenta en [Aplicación de Windows de certificados SHA1](https://social.technet.microsoft.com/wiki/contents/articles/32288.windows-enforcement-of-sha1-certificates.aspx).  |
+| **¿Reemplazado por otra característica?**   | Sí |
+| **Áreas de producto afectadas**         | Plataforma |
+| **Opción de implementación**              | Todas |
+| **Estado**                         | Desusado: El 1 de abril de 2020, los desarrolladores deben usar la nueva API. |
+
 
 ### <a name="formdatetimecontrolsetutcstring"></a>FormDateTimeControl.setUtcString()
 
@@ -308,7 +337,7 @@ No se ha quitado ni se ha dejado de utilizar ninguna función con esta versión.
 ## <a name="finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Finance and Operations, Enterprise Edition 7.3 con actualización de plataforma 12.
 
 ### <a name="personalized-product-recommendations"></a>Recomendaciones de productos personalizados 
-A partir del 15 de febrero de 2018, los minoristas no podrán mostrar recomendaciones personalizadas de productos en un dispositivo de punto de venta (PDV). Para obtener más información, consulte [Recomendaciones personalizadas de productos](../../retail/personalized-product-recommendations.md).  
+A partir del 15 de febrero de 2018, los minoristas no podrán mostrar recomendaciones personalizadas de productos en un dispositivo de punto de venta (PDV). Para obtener más información, consulte [Visión general de las recomendaciones de producto](../../../commerce/product-recommendations.md).  
 
 |   |  |
 |------------|--------------------|
@@ -413,7 +442,7 @@ Los usuarios pueden descargar esto del portal gubernamental.
 ## <a name="dynamics-365-for-retail-72"></a>Dynamics 365 for Retail 7.2
 
 ### <a name="personalized-product-recommendations"></a>Recomendaciones de productos personalizados 
-A partir del 15 de febrero de 2018, los minoristas no podrán mostrar recomendaciones personalizadas de productos en un dispositivo de punto de venta (PDV). Para obtener más información, consulte [Recomendaciones personalizadas de productos](../../retail/personalized-product-recommendations.md).  
+A partir del 15 de febrero de 2018, los minoristas no podrán mostrar recomendaciones personalizadas de productos en un dispositivo de punto de venta (PDV). Para obtener más información, consulte [Visión general de las recomendaciones de producto](../../../commerce/product-recommendations.md).  
 
 |   |  |
 |------------|--------------------|
@@ -445,7 +474,7 @@ El portal de dispositivos móviles de almacén (WMDP) era componente independien
 |   |  |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Funcionalidad duplicada.       |
-| **¿Reemplazado por otra característica?**   | Sí. Esta función se ha sustituido por Finance and Operations - Warehousing. Para obtener más información sobre la configuración y prerrequisitos, consulte [Instalar y configurar Microsoft Dynamics 365 for Finance and Operations - Almacenaje](../../supply-chain/warehousing/install-configure-warehousing-app.md). |
+| **¿Reemplazado por otra característica?**   | Sí. Esta función se ha sustituido por Finance and Operations - Warehousing. Para obtener más información sobre la configuración y prerrequisitos, consulte [Instalar y configurar Microsoft Dynamics 365 for Finance and Operations - Almacenaje](../../../supply-chain/warehousing/install-configure-warehousing-app.md). |
 | **Áreas de producto afectadas**         | Gestión de almacenes y administración de transporte     |
 | **Opción de implementación**              | El portal de dispositivos móviles de almacén (WMDP) era componente independiente pensando para la implementación propia localmente.               |
 | **Estado**                         | En desuso: La fecha prevista para la eliminación de la funcionalidad es el cuarto trimestre de 2019.   |
@@ -1215,7 +1244,7 @@ El configurador de productos se usaba para configurar dinámicamente artículos 
 |   |  |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | El configurador de productos exponía el código X++ a los usuarios finales y no se admite en la versión actual de Dynamics AX. Se ha retirado para evitar esfuerzos duplicados en bases de código superpuestas y cuantiosas.  |
-| **¿Reemplazado por otra característica?**   | Sí. La configuración basada en restricciones se introdujo en Dynamics AX 2012 donde ya se anunciaba la depreciación del generador de productos en futuras versiones. La tecnología de configuración basada restricciones se selecciona en los productos maestros para habilitar la configuración. Para obtener más información, consulte [Crear un modelo de configuración de productos](../../supply-chain/pim/build-product-configuration-model.md). |
+| **¿Reemplazado por otra característica?**   | Sí. La configuración basada en restricciones se introdujo en Dynamics AX 2012 donde ya se anunciaba la depreciación del generador de productos en futuras versiones. La tecnología de configuración basada restricciones se selecciona en los productos maestros para habilitar la configuración. Para obtener más información, consulte [Crear un modelo de configuración de productos](../../../supply-chain/pim/build-product-configuration-model.md). |
 | **Áreas de producto afectadas**         | Gestión de información de productos, Ventas y marketing  |
 | **Estado**                         | Eliminado a partir de Dynamics AX 7.0.      |
 

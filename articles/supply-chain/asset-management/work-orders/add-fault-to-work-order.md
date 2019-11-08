@@ -3,7 +3,7 @@ title: Agregar error a orden de trabajo
 description: Este tema describe cómo agregar registros de error órdenes de trabajo en Administración de activos.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,41 +16,42 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-31
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7c86973ca44d9113d14e180e27cc51343da5d2c0
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 2b58cc31578d7bb102c6b5aa8b4ce2d6cfe8c893
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875887"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626210"
 ---
 # <a name="add-fault-to-work-order"></a>Agregar error a orden de trabajo
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
 
 
-Puede agregar los errores configurados en el diseñador de errores para una orden de trabajo. El activo seleccionado en la orden de trabajo debe contener tipos de activos con uno o más registros de error conectados con él. Consulte más información sobre la configuración en la sección [Administración de errores](../setup-for-work-orders/fault-management.md).
+Puede agregar los errores que se configuraron en el diseñador de errores para una orden de trabajo. Deben conectarse uno o más registros de error a los tipos de activos que se usan para el activo que está seleccionado en la orden de trabajo. Para obtener más información sobre la configuración, consulte [Gestión de errores](../setup-for-work-orders/fault-management.md).
 
-1. Haga clic en **Administración de activos** > **Común** > **Órdenes de trabajo** > **Todas las órdenes de trabajo** u **Órdenes de trabajo activas**.
+1. Seleccione **Administración de activos** > **Común** > **Órdenes de trabajo** > **Todas las órdenes de trabajo** u **Órdenes de trabajo activas**.
 
-2. En la lista, seleccione la orden de trabajo donde desea crear un registro de error y haga clic en **Defecto de activo**.
+2. Seleccione la orden de trabajo para realizar un registro de errores y, a continuación, en el panel de acciones, en la pestaña **Orden de trabajo**, en el grupo **Activo**, seleccione **Error de activo**.
 
-3. En la ficha desplegable **Síntomas**, haga clic en **Agregar línea**. Un número secuencial de error se inserta automáticamente en el campo **Error** .
+3. En la ficha desplegable **Síntomas**, seleccione **Agregar línea**. Un número secuencial de error se introduce automáticamente en el campo **Error**.
 
-4. Seleccione el síntoma relevante en el campo **Síntoma del error**.
+4. En el campo **Síntoma del error**, seleccione el síntoma relevante.
 
-5. Seleccione **Área del error** y **Tipo de error**.
+5. En los campos **Área del error** y **Tipo de error**, seleccione los valores adecuados.
 
-6. El campo **Fecha del error**, se inserta automáticamente la fecha actual. Puede seleccionar otra fecha, si fuera necesario.
+6. El campo **Fecha del error**, se inserta automáticamente la fecha actual. Puede seleccionar una fecha diferente cuando sea necesario.
 
-7. En la ficha desplegable **Causas para el síntoma seleccionado** , agregue una línea que describa el motivo del problema.
+7. En la ficha desplegable **Causas para el síntoma seleccionado**, agregue una línea para describir el motivo del problema.
 
-8. En la ficha desplegable **Remedios para el síntoma seleccionado**, agregue una línea que describa una posible solución para el problema.
+8. En la ficha desplegable **Remedios para el síntoma seleccionado**, agregue una línea para describir una posible solución para el problema.
 
-9. Haga clic en **Guardar**.
+9. Seleccione **Guardar**.
+
+En la ilustración siguiente se muestra un ejemplo de un registro de errores.
 
 ![Figura 1](media/19-work-orders.png)
 
@@ -59,23 +60,23 @@ Puede agregar los errores configurados en el diseñador de errores para una orde
 
 En la lista **Errores de activo**, puede obtener una visión general de todos los errores registrados en los activos.
 
-Haga clic en **Administración de activos** > **Consultas** > **Defecto de activo** > **Defectos de activos** para abrir la lista.
+En la página de lista **Errores de activo**, puede obtener una visión general de todos los errores que se han registrado en los activos. Para abrir la página, seleccione **Administración de activos** > **Consultas** > **Error de activo** > **Errores de activos**.
 
 
 ## <a name="print-asset-fault-report"></a>Imprimir informe de errores de activo
 
-En la página de la lista **Todos los activos**, puede imprimir un informe de defectos de activos que muestra todos los registros de error junto con una visión general gráfica de las estadísticas del error.
+En la página de la lista **Todos los activos**, puede imprimir un informe de errores de activos que muestra todos los registros de error y una visión general gráfica de las estadísticas del error.
 
-1. Haga clic en **Administración de activos** > **Común** > **Activos** > **Todos los activos**.
+1. Seleccione **Administración de activos** > **Común** > **Activos** > **Todos los activos**.
 
-2. En la lista **Activos**, seleccione el activo para el que desea imprimir un informe de error.
+2. Seleccione los activos para los que se imprimirá un informe de errores.
 
-3. En la pestaña **General** > **Sección Informes**, haga clic en **Defecto de activo**.
+3. En el panel de acciones, en la pestaña **General**, en el grupo **Informes**, seleccione **Error de activo**.
 
-4. Inserte un período específico o seleccionar un tipo de error.
+4. Introduzca un período específico o seleccione un tipo de error.
 
-5. Haga clic en **Aceptar** para imprimir el informe.
+5. Seleccione **Aceptar** para imprimir el informe.
 
 >[!NOTE]
->También puede imprimir un informe de error para varios activos o tipos de activo haciendo clic en **Administración de activos** > **Informes** > **Activos** > **Defecto de activo**.
+>Para imprimir un informe de error para varios activos o tipos de activo, seleccione **Administración de activos** > **Informes** > **Activos** > **Error de activo**.
 

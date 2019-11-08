@@ -18,19 +18,19 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 69d06ff649f4453df22d55062b43bcc8d4ecd763
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: f531f51d7f42f88e4da2d046e61313e9ada2b259
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874725"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569809"
 ---
 # <a name="work-order-lifecycle-states"></a>Estados de ciclo de vida de orden de trabajo
 
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Los estados de ciclo de vida de la orden de trabajo definen los estados por los que puede pasar una orden de trabajo. Los ejemplos incluyen **Creada**, **Programada**, **En curso** y **Finalizada**. Los estados de ciclo de vida de la orden de trabajo pueden actualizarse manualmente en una orden de trabajo o bien, pueden actualizarse automáticamente (por ejemplo, durante la programación de la orden de trabajo).
 
@@ -38,7 +38,7 @@ Los estados de ciclo de vida de la orden de trabajo obligatorios para las órden
 
 La siguiente tabla describe las opciones de las secciones **Orden de trabajo** y **Programación** en la ficha desplegable **General** de la página **Estado del ciclo de vida de la orden de trabajo** (**Administración de activos** \> **Configuración** \> **Órdenes de trabajo** \> **Estados del ciclo de vida**).
 
-![Figura 1](media/09-setup-for-work-orders.png)
+![Página Estado de ciclo de vida de orden de trabajo](media/09-setup-for-work-orders.png)
 
 | Nombre de la opción                   | Descripción |
 |-------------------------------|-------------|
@@ -96,7 +96,7 @@ La siguiente tabla describe las opciones de las secciones **Orden de trabajo** y
     - Si la opción **Tiempo de inactividad de mantenimiento** se establece en **Sí** para el estado del ciclo de vida al que un pedido de trabajo se actualiza, la validación del tiempo de inactividad por mantenimiento se realiza en el activo relacionado con la orden de trabajo. Si se ha realizado un registro de tiempo de inactividad por mantenimiento, pero no hay ningún registro **Terminado**, se muestra un mensaje cuando la orden de trabajo se actualiza a este estado del ciclo de vida.
     - Si la configuración estándar del proyecto no incluye todas las etapas que necesita para la configuración de la gestión de activos, puede configurar etapas de proyecto definidas por el usuario en la pestaña **Etapa de proyecto** de la página **Parámetros de gestión de proyectos y contabilidad**. La ilustración siguiente muestra la pestaña **Etapa de proyecto** en la página **Parámetros de gestión de proyectos y contabilidad**.
 
-    ![Figura 2](media/10-setup-for-work-orders.png)
+    ![Página Configurar etapas del proyecto para varios tipos de proyectos](media/10-setup-for-work-orders.png)
 
 > [!NOTE]
 > Si el estado del ciclo de vida al que actualiza un pedido de trabajo está inactivo, los diarios relacionados con la orden de trabajo pero que aún no se han registrado se eliminan automáticamente. Este comportamiento ayuda a garantizar la limpieza automática de datos no usados. (Un estado del ciclo de vida está inactivo si su opción **Activo** está establecida en **No** en la ficha desplegable **General** de la página **Estado del ciclo de vida de la orden de trabajo**).
@@ -114,7 +114,7 @@ El motivo para usar tipos consiste reside en que cuando se define un tipo en, po
 
 La ilustración siguiente muestra la relación entre los tipos de pedido de trabajo, los modelos de ciclo de vida, y los estados del ciclo de vida.
 
-![Figura 3](media/11-setup-for-work-orders.png)
+![Página Tipo de orden de trabajo en comparación con la página Modelos de ciclo de vida de orden de trabajo](media/11-setup-for-work-orders.png)
 
 ## <a name="work-order-lifecycle-models"></a>Modelos de ciclo de vida de orden de trabajo
 
@@ -138,4 +138,4 @@ Una vez que haya creado los estados de ciclo de vida de la orden de trabajo nece
 8. En el campo **Estado no programado del ciclo de vida**, seleccione el estado del ciclo de vida que debe seleccionar siempre para un pedido de trabajo si se elimina la programación de la orden de trabajo.
 9. Guarde el modelo del ciclo de vida de la orden de trabajo.
 
-![Figura 4](media/15-setup-for-work-orders.png)
+![Página Modelos de ciclo de vida de orden de trabajo](media/15-setup-for-work-orders.png)

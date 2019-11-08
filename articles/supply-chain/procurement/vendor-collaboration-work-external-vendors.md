@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b38fb087fb572362c27e747e7909060c55a242a4
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 22d16219df9319d276514c62348c0e1995d22715
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250224"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653611"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Colaboración de proveedor con proveedores externos
 
@@ -190,7 +190,7 @@ La siguiente tabla muestra un ejemplo de los cambios de estado y versión que pu
 Los proveedores no tienen que confirmar el PO mediante la interfaz de colaboración de proveedor. También pueden enviar un mensaje de correo electrónico o comunicar la aceptación de un PO a través de otros canales. A continuación puede confirmar manualmente el pedido. En este caso, recibirá una advertencia de que se está confirmando el pedido aunque no haya respuesta del proveedor. El PO aparece a continuación en el historial de confirmaciones como un pedido confirmado abierto que no tiene ninguna respuesta. En este momento, el proveedor ya no tiene la opción de confirmar o de rechazar el PO.
 
 > [!NOTE]
-> La versión del PO que está disponible para otros procesos en Finance and Operations siempre es la última versión, incluso si dicha versión no se ha registrado todavía en la interfaz de colaboración del proveedor.
+> La versión del PO que está disponible para otros procesos en Supply Chain Management siempre es la última versión, incluso si dicha versión no se ha registrado todavía en la interfaz de colaboración del proveedor.
 
 ### <a name="versions-and-statuses-if-you-use-change-management"></a>Versiones y estados si utiliza la gestión de cambios
 

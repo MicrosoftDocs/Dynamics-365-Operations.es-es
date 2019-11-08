@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 62998da7f541379296d5ac325ae29f24a42f9b7c
-ms.sourcegitcommit: 871b76f8808a48d282f151144829323258ffc912
+ms.openlocfilehash: bb318c24424c291f08ba7527b2258c0da4cba9a8
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1847560"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571677"
 ---
 # <a name="inbound-and-outbound-assets"></a>Activos de entrada y de salida
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Si la empresa emite trabajos de reparación o trabajos de mantenimiento en los activos que se reciben de otras ubicaciones o clientes, Administración de activos puede realizar un seguimiento de los activos de entrada que se encuentran de camino a la empresa y los activos de salida que se van a devolver.
 
@@ -45,7 +45,7 @@ La configuración de Administración de activos determina si puede trabajar con 
 3. Seleccione **Actualizar estado de solicitud de mantenimiento**.
 4. Seleccione **Entrante** (u otro estado de ciclo de vida que haya creado para los activos de entrada) y, a continuación, seleccione **Aceptar**.
 
-![Figura 1](media/07-manage-maintenance-requests.png)
+![Registrar activos como de entrada](media/07-manage-maintenance-requests.png)
 
 ## <a name="register-inbound-assets-as-received"></a>Registrar los activos entrantes como recibidos
 
@@ -54,7 +54,7 @@ La configuración de Administración de activos determina si puede trabajar con 
 3. Seleccione **Recibir activos**.
 4. En el campo **Recibido**, especifique la fecha y la hora. A continuación seleccione **Aceptar**. El registro se eliminará de la página de lista **Activos de entrada**.
 
-![Figura 2](media/08-manage-maintenance-requests.png)
+![Registrar los activos entrantes como recibidos](media/08-manage-maintenance-requests.png)
 
 ## <a name="register-assets-as-outbound"></a>Registrar activos como de salida
 

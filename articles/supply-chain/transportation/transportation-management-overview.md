@@ -1,6 +1,6 @@
 ---
 title: Visión general de la administración de transporte
-description: Este tema proporciona una visión general de la funcionalidad de administración de transportes en Finance and Operations.
+description: Este tema proporciona una visión general de la funcionalidad de administración de transportes en Supply Chain Management.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d976ec4d3c294f0ce8e9732b21b9a429f1e47315
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: fa59a8e6e4744c776ec0e1dc84b1f004dbd796f6
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2027070"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653588"
 ---
 # <a name="transportation-management-overview"></a>Visión general de la administración de transporte
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona una visión general de la funcionalidad de administración de transportes en Finance and Operations.
+Este tema proporciona una visión general de la funcionalidad de administración de transportes en Supply Chain Management.
 
 La Administración de transporte le permite usar el transporte de su empresa e identificar soluciones de proveedor y de ruta para los pedidos de entrada y salida. Por ejemplo, puede identificar la ruta más rápida o la tarifa menos cara para un envío. En la tabla siguiente se describen los escenarios principales para usar la Administración de transporte.
 
@@ -67,23 +67,23 @@ La Administración de transporte le permite usar el transporte de su empresa e i
 </tbody>
 </table>
 
-## <a name="planning-transportation-in-finance-and-operations"></a>Planificación del transporte en Finance and Operations
+## <a name="planning-transportation-in-supply-chain-management"></a>Planificación del transporte en Supply Chain Management
 En la Administración de transporte, la planificación del transporte se puede basar en órdenes o en los envíos que se crean a partir de esos pedidos. Los envíos siempre existen en algún punto específico pero no son necesarios para la planificación de transporte. Los pedidos de transferencia forman parte del escenario de salida y se pueden planificar junto con los pedidos de ventas. 
 
 ![Cargar dibujo](./media/Load-drawing1-1024x477.jpg)
 
 ## <a name="inbound-transportation"></a>Transporte de entrada
-Cuando pide artículos a un proveedor, y los artículos se deben entregarse a su almacén, puede que desee organizar el transporte de los artículos usted mismo. Puede usar Finance and Operations para planificar el transporte y la recepción de la carga de entrada. En la siguiente ilustración se muestra el flujo del proceso empresarial para planificar el transporte de una carga de entrada. 
+Cuando pide artículos a un proveedor, y los artículos se deben entregarse a su almacén, puede que desee organizar el transporte de los artículos usted mismo. Puede usar Supply Chain Management para planificar el transporte y la recepción de la carga de entrada. En la siguiente ilustración se muestra el flujo del proceso empresarial para planificar el transporte de una carga de entrada. 
 
 ![Flujo del proceso empresarial para el transporte de la carga de entrada](./media/Businessprocessflowforinboundloadtransportation.jpg)
 
 ## <a name="outbound-transportation"></a>Transporte de salida
-Puede planificar y procesar una carga de salida para enviar artículos específicos del almacén de una empresa a un cliente. Puede usar Finance and Operations para planificar el transporte y el envío de una carga de salida. En la siguiente ilustración se muestra el flujo del proceso empresarial para planificar y procesar las cargas de salida para su envío. 
+Puede planificar y procesar una carga de salida para enviar artículos específicos del almacén de una empresa a un cliente. Puede usar Supply Chain Management para planificar el transporte y el envío de una carga saliente. En la siguiente ilustración se muestra el flujo del proceso empresarial para planificar y procesar las cargas de salida para su envío. 
 
 ![Planificación y procesamiento de cargas de salida](./media/Planningandprocessingoutboundloads.jpg)
 
 ## <a name="load-building"></a>Planificación de carga
-Finance and Operations proporciona una estrategia de planificación de carga que se denomina Estrategia de planificación de la carga basada en volumen. Esta estrategia le permite usar los valores máximos que se especifican para la altura y el peso de la plantilla de carga o bien, puede reemplazar los ajustes especificando valores nuevos. Para usar esta estrategia, selecciónela en el campo **Estrategia de creación de carga** en la ficha desplegable **Programa de instalación** de la página **Banco de trabajo de creación de carga**. Además, puede agregar sus propias estrategias de creación de carga creando una nueva clase en el árbol de objetos de aplicación (AOT).
+Supply Chain Management proporciona una estrategia de planificación de carga que se denomina Estrategia de planificación de la carga basada en volumen. Esta estrategia le permite usar los valores máximos que se especifican para la altura y el peso de la plantilla de carga o bien, puede reemplazar los ajustes especificando valores nuevos. Para usar esta estrategia, selecciónela en el campo **Estrategia de creación de carga** en la ficha desplegable **Programa de instalación** de la página **Banco de trabajo de creación de carga**. Además, puede agregar sus propias estrategias de creación de carga creando una nueva clase en el árbol de objetos de aplicación (AOT).
 
 
 

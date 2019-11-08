@@ -3,35 +3,35 @@ title: Tipos de activos
 description: En este tema se explica cómo crear tipos de activos en Administración de activos. También describe los elementos relacionados con los tipos de activos.
 author: josaw1
 manager: AnnBe
-ms.date: 06/26/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 2214
-ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 288dac77f9d999012ec930ef2bca5c0921c2955f
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.search.validFrom: 2019-09-30
+ms.dyn365.ops.version: 10.0.5
+ms.openlocfilehash: a19b8c40dd7d48b2d78723c4411f1699819c4026
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783578"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626094"
 ---
 # <a name="asset-types"></a>Tipos de activos
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
 
-Este tema explica cómo crear tipos de activos. También describe los elementos relacionados con los tipos de activos. Los tipos de activos se usan como categorías generales para los activos. Algunos ejemplos son máquinas CNC, equipo de medición y motores de camión. Los tipos de activo se usan para gestionar los tipos de trabajo (tareas de mantenimiento), los estados de ciclo de vida de activo, las medidas de activo, los atributos de activo, las plantillas de evaluación de condición y los modelos de activo que se pueden seleccionar para un activo. Al crear un activo, debe especificar el tipo.
+
+Este tema explica cómo crear tipos de activos. También describe los elementos relacionados con los tipos de activos. Los tipos de activos se usan como categorías generales para los activos. Algunos ejemplos son máquinas CNC, equipo de medición y motores de camión. Los tipos de activo se usan para gestionar los tipos de trabajo de mantenimiento (tareas de mantenimiento), los estados de ciclo de vida de activo, los contadores, los atributos de activo, las plantillas de evaluación de condición y los modelos de activo que se pueden seleccionar para un activo. Al crear un activo, debe especificar el tipo.
 
 Para cada tipo de activo, se pueden crear variaciones de la configuración del tipo de activo. Por ejemplo, si tiene un tipo de activo **Camiones**, puede crear variaciones de ese tipo de activo para los distintos fabricantes del activo y modelos del activo. A cada configuración de tipo de activo se le pueden agregar las piezas de repuesto y los planes de mantenimiento necesarios.
 
@@ -39,35 +39,35 @@ Primero, se deben configurar los tipos de activo requeridos. A continuación, cr
 
 ## <a name="create-an-asset-type"></a>Crear un tipo de activo
 
-1. Seleccione **Administración de activos** \> **Configuración** \> **Tipos de activos** \> **Tipos de activos**.
+1. Seleccione **Administración de activos** > **Configuración** > **Tipos de activos** > **Tipos de activos**.
 2. Seleccione **Nuevo** para crear un tipo de activo.
 3. En el campo **Tipo de activo**, introduzca un id. de tipo de activo.
 4. Escriba un nombre en el campo **Nombre**.
 5. En el campo **Modelo de ciclo de vida de activo**, seleccione un modelo de ciclo de vida de activo. Para obtener más información sobre los estados de ciclo de vida de activo y los modelos de ciclo de vida de activo, consulte [Estados de ciclo de vida de activo](object-stages.md).
 6. Establezca la opción **Total** en **Sí** si se calculan los valores de KPI resumidos para los activos con este tipo de activo.
 7. Seleccione **Guardar**.
-8. En el FastTab **Tipos de trabajo**, seleccione los tipos de trabajo que se relacionarán con el tipo de activo:
+8. En la ficha desplegable **Tipos de trabajos de mantenimiento**, seleccione los tipos de trabajo de mantenimiento que deben relacionarse con el tipo de activo.
 
-    - Para seleccionar un tipo de trabajo, selecciónelo en el campo **Tipos de trabajo restantes** y seleccione el botón de flecha derecha ![botón de flecha derecha](media/29-setup-for-objects.png) para moverlo a la sección **Tipos de trabajo seleccionados**.
-    - Para seleccionar todos los tipos de trabajo disponibles, seleccione el botón de ![flecha todo hacia delante](media/30-setup-for-objects.png). Todos los tipos de trabajo se transfieren del campo **Tipos de trabajo restantes** al campo **Tipos de trabajo seleccionados**.
-    - Para cancelar la selección de un tipo de trabajo, selecciónelo en el campo **Tipos de trabajo seleccionados** y seleccione el botón de flecha izquierda ![botón de flecha izquierda](media/31-setup-for-objects.png) para moverlo al campo **Tipos de trabajo restantes**.
+    - Para seleccionar un tipo de trabajo de mantenimiento, selecciónelo en el campo **Tipos de trabajo de mantenimiento restantes** y seleccione el botón de flecha derecha ![botón de flecha derecha](media/29-setup-for-objects.png) para moverlo a la sección **Tipos de trabajo de mantenimiento seleccionados**.
+    - Para seleccionar todos los tipos de trabajo de mantenimiento disponibles, seleccione el botón de ![flecha todo hacia delante](media/30-setup-for-objects.png). Todos los tipos de trabajo de mantenimiento se transfieren del campo **Tipos de trabajo de mantenimiento restantes** al campo **Tipos de trabajo de mantenimiento seleccionados**.
+    - Para cancelar la selección de un tipo de trabajo de mantenimiento, selecciónelo en el campo **Tipos de trabajo de mantenimiento seleccionados** y seleccione el botón de flecha izquierda ![botón de flecha izquierda](media/31-setup-for-objects.png) para moverlo al campo **Tipos de trabajo de mantenimiento restantes**.
 
-9. También puede seleccionar las medidas de activo que deben estar relacionadas con el tipo de activo. En el FastTab **Medidas de activos**, realice las selecciones necesarias mediante los métodos que se describen para los tipos de trabajo en el paso 8. Para obtener más información sobre la configuración de medidas de activo, consulte [Medidas de activos de mantenimiento](counters.md).
-10. También puede seleccionar los tipos de atributo que deben estar relacionados con el tipo de activo. En el FastTab **Tipos de atributo**, realice las selecciones necesarias mediante los métodos que se describen para los tipos de trabajo en el paso 8. A continuación, cree la secuencia preferida de tipos de atributo, seleccione un tipo de atributo en el campo **Tipos de atributo seleccionados** y use los botones de flecha arriba y abajo para moverlo. La secuencia de tipos de atributo se mostrará en los activos que usen este tipo de activo. Para obtener más información sobre los atributos de activo, consulte [Tipos de atributo de mantenimiento](../setup-for-functional-locations/specification-types.md).
+9. También puede seleccionar los contadores que deben estar relacionados con el tipo de activo. En la ficha desplegable **Contadores**, realice las selecciones necesarias mediante los métodos que se describen para los tipos de trabajo de mantenimiento en el paso 8. Para obtener más información sobre la configuración de los contadores, consulte [Contadores](counters.md).
+10. También puede seleccionar los tipos de atributo que deben estar relacionados con el tipo de activo. En la ficha desplegable **Evaluaciones de condición**, realice las selecciones necesarias mediante los métodos que se describen para los tipos de trabajo de mantenimiento en el paso 8. A continuación, cree la secuencia preferida de tipos de atributo, seleccione un tipo de atributo en el campo **Tipos de atributo seleccionados** y use los botones de flecha arriba y abajo para moverlo. La secuencia de tipos de atributo se mostrará en los activos que usen este tipo de activo. Para obtener más información sobre los atributos de activo, consulte [Tipos de atributo de mantenimiento](../setup-for-functional-locations/specification-types.md).
 
     > [!NOTE]
     > Al agregar nuevos tipos de atributo en el FastTab **Tipos de atributo**, los activos existentes se actualizan automáticamente con esa información.
 
-11. También puede seleccionar las plantillas de evaluación de condición que deben estar relacionadas con el tipo de activo. En el FastTab **Evaluaciones de condición**, realice las selecciones necesarias mediante los métodos que se describen para los tipos de trabajo en el paso 8. Para obtener más información acerca de las plantillas y los registros de evaluación de condición, consulte [Evaluación de condición](../setup-for-objects/condition-assessment.md).
+11. También puede seleccionar las plantillas de evaluación de condición que deben estar relacionadas con el tipo de activo. En la ficha desplegable **Evaluaciones de condición**, realice las selecciones necesarias mediante los métodos que se describen para los tipos de trabajo de mantenimiento en el paso 8. Para obtener más información acerca de las plantillas y los registros de evaluación de condición, consulte [Evaluación de condición](../setup-for-objects/condition-assessment.md).
 12. El FastTab **Modelo de activo** muestra a todas las combinaciones de fabricantes y modelos de activos configuradas en el tipo de activo seleccionado. Para ver las combinaciones divididas por fabricante, seleccione **Modelo de activo** para abrir la página **Modelo de activo**.
 
     En la página **Modelo de activo**, puede agregar relaciones de modelo de activo y tipo de activo. Además, en la página **Tipos de activo**, puede agregar relaciones de modelo de activo y fabricante de activo directamente a un tipo de activo. Finalmente, en la página **Modelo de activo** (**Administración de activos** \> **Configuración** \> **Activos** \> **Modelo de activo**), puede crear nuevas relaciones entre tipo de activo, modelo de activo y fabricante de activo. Por lo tanto, hay tres maneras de configurar y editar las relaciones entre fabricante de activo, modelo de activo y tipo de activo. Todas las combinaciones disponibles se muestran desde perspectivas diferentes y puede seleccionar el punto de entrada preferido al trabajar con la configuración.
 
 > [!NOTE]
-> - Si selecciona medidas de activos en un tipo de activo, las selecciones se actualizan automáticamente en la página **Medidas de activos** (**Administración de activos** \> **Configuración** \> **Activos** \> **Tipos de activo** \> **Medidas de activos**).
-> - Los campos de la sección **Detalles** en el FastTab **General** muestran el número de tipos de trabajo, medidas de activo, atributos, etc., configurados en el tipo de activo seleccionado.
+> - Si selecciona contadores en un tipo de activo, las selecciones se actualizan automáticamente en la página **Contadores** (**Administración de activos** > **Configuración** > **Activos** > **Tipos de activos** > **Contadores**).
+> - Los campos de la sección **Detalles** en la ficha desplegable **General** muestran el número de tipos de trabajo de mantenimiento, contadores, atributos, etc., configurados en el tipo de activo seleccionado.
 
-Normalmente, las órdenes de trabajo que se crean manualmente se relacionan con el mantenimiento correctivo, mientras que las órdenes de trabajo que se crean automáticamente están relacionadas con el mantenimiento preventivo. Al crear manualmente órdenes de trabajo, solo pueden usarse los tipos de trabajo que se seleccionan en el FastTab **Tipos de trabajo** de la página **Tipos del activo**. Sin embargo, las órdenes de trabajo creadas automáticamente pueden utilizar todos los tipos de trabajo creados en la página **Tipos de trabajo** (**Administración de activos** \> **Configuración** \> **Trabajos** \> **Tipos de trabajo**).
+Normalmente, las órdenes de trabajo que se crean manualmente se relacionan con el mantenimiento correctivo, mientras que las órdenes de trabajo que se crean automáticamente están relacionadas con el mantenimiento preventivo. Al crear manualmente órdenes de trabajo, solo pueden usarse los tipos de trabajo de mantenimiento que se seleccionan en la ficha desplegable **Tipos de trabajo de mantenimiento** de la página **Tipos del activo**. Sin embargo, las órdenes de trabajo creadas automáticamente pueden utilizar todos los tipos de trabajo de mantenimiento creados en la página **Tipos de trabajo de mantenimiento** (**Administración de activos** \> **Configuración** \> **Trabajos** \> **Tipos de trabajo de mantenimiento**).
 
 ## <a name="create-asset-type-setup-lines"></a>Crear líneas de configuración de tipo de activo
 

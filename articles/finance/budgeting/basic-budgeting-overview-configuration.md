@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 349f720ee4cfb612ca4f4f50a9e081f3343f756d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 36144474defc4849a112a180247f37796de00a27
+ms.sourcegitcommit: 1eaa3451275fe4223d4d25b37aaa1cd2b183e803
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188703"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "2667469"
 ---
 # <a name="budgeting-overview"></a>Visión general de Gestión presupuestaria 
 
@@ -69,6 +69,12 @@ Cree *códigos de presupuesto* que identifiquen el tipo de transacciones de pres
 Los códigos presupuestarios le permiten tener una traza de auditoría de las modificaciones aprobadas del presupuesto a través del proceso del ciclo presupuestario. Si un flujo de trabajo está asociado a un código presupuestario, el flujo de trabajo estará activado para todos los asientos de registro presupuestario que usen dicho código presupuestario, y los pasos del flujo de trabajo se deben completar antes de que el asiento de registro presupuestario pueda alcanzar la fase de **Completado**.  
 
 También puede configurar *reglas de transferencia presupuestaria*. Para usar reglas de transferencia presupuestaria, seleccione **Usar reglas para las transferencias presupuestarias** en la página **Parámetros presupuestarios**. Cuando se usan las reglas de transferencia presupuestaria, si un usuario crea un documento mediante un código presupuestario de tipo **Transferencia**, los saldos presupuestarios no se actualizarán si se infringen las reglas de transferencia presupuestaria. Por ejemplo, puede habilitar los documentos de transferencia presupuestaria en que el presupuesto de gastos se transfiere entre las cuentas principales para el departamento de ventas y marketing, pero puede prohibir que el presupuesto se transfiera a dicho departamento o desde el mismo a menos que la aprobación de flujo de trabajo se haya concedido para dicho tipo de asiento contable de presupuesto.
+
+La funcionalidad que se introdujo en la versión 10.0.7 de Microsoft Dynamics 365 Finance (enero de 2020) agregó capacidad y flexibilidad para entradas de registro presupuestarias. Para permitir estas mejoras, vaya al espacio de trabajo **Administración de características** y seleccione **Asientos de registro presupuestario solo para cantidad** o **Valor predeterminado de entradas de registro presupuestario de tipo de importe**.
+
+La característica **Asientos de registro presupuestario solo para cantidad** solo le permite registrar un asiento del registro de presupuestos con importes de solo cantidad. Por ejemplo, podría registrar un asiento de presupuesto con una cantidad de 32 y un precio de cero, lo que da lugar a un importe de cero. Puede usar esta cantidad en el contexto de un informe financiero para determinar un precio por cantidad. Tenga en cuenta que no se actualizó ninguna consulta o informe como parte de esta característica; la característica solo permite registrar un importe de cero.
+
+La característica **Valor predeterminado de entradas de registro presupuestario de tipo de importe** permite que el tipo de importe predeterminado dentro de una entrada del registro presupuestario sea un tipo de importe distinto de gastos. La línea de entrada del registro presupuestario ahora se establecerá como predeterminada para gastos cuando el tipo de cuenta principal sea gastos; se establecerá como predeterminada para ingresos cuando el tipo de cuenta principal sea gastos; y se establecerá como predeterminada para gastos para el resto de tipos de cuenta.
 
 ## <a name="using-workspaces-and-inquiry-pages-to-track-budget-vs-actuals"></a>Usar los espacios de trabajo y las páginas de consulta para realizar un seguimiento del presupuesto frente a gastos reales
 El administrador de presupuestos puede revisar el estado actual de un presupuesto en el espacio de trabajo **Presupuestos contables y previsiones**. Las pestañas **Gastos sobre presupuesto** y **Ingresos bajo presupuesto** proporcionan una vista rápida de las combinaciones de dimensiones financieras en que los objetivos de presupuesto no se están resolviendo ni se están acercando al umbral. Puede personalizar el porcentaje del umbral del presupuesto y los conjuntos de dimensiones financieras que se usan en esas fichas haciendo clic en **Configurar mi espacio de trabajo**. Puede hacer clic en **Directores de unidad** en para ver qué trabajadores son los responsables de las combinaciones de dimensiones financieras específicas que están activadas en esas fichas. Por ejemplo, si observa que el presupuesto de gastos del departamento de operaciones está pasando el umbral de presupuesto, puede encontrar fácilmente y ponerse en contacto con el director de departamento de operaciones para hablar del problema. 

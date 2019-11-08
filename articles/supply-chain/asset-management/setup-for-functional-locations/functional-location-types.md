@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eb758f9ef205c06cbb9d18b498a5cd7c36012714
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: 74ccda77a97d1e104940bb10a605d3ebbf45af75
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783582"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571263"
 ---
 # <a name="functional-location-types"></a>Tipos de ubicaciones funcionales
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 En este tema se describe cómo crear tipos de ubicación técnica en Administración de activos. Los tipos de ubicación funcional se usan para administrar los requisitos de las ubicaciones técnicas, incluido cómo se instalan los activos en esta. Puede configurar tipos de activos, planes de mantenimiento, atributos funcionales de ubicación y requisitos de atributo del activo que deben usarse en una ubicación funcional que usa el tipo de ubicación funcional específico. Al crear una ubicación funcional, el tipo de ubicación funcional es obligatorio.
 

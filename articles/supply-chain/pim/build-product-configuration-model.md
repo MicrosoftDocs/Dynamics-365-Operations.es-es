@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 316e1e1f0db9343e414ddeafe9e00beac87b5b76
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f8e0e98cf1a953355515f9145483aed8cbaa2ad2
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249503"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653657"
 ---
 # <a name="product-configuration-overview"></a>Visión general de la configuración del producto
 
@@ -73,7 +73,7 @@ Las restricciones de tabla pueden estar definidas por el usuario o por el sistem
 
 Una restricción de tabla definida por el usuario es construida por el usuario. El usuario selecciona una combinación de tipos de atributo para representar las columnas de la tabla y luego especifica valores de los dominios de los tipos de atributo seleccionados para formar las filas de la restricción de tabla.  
 
-Una restricción de tabla definida por el sistema se define seleccionando qué tabla se usará como una referencia y luego seleccionando los campos de esta tabla para formar las columnas de la restricción. Las filas de la restricción de tabla son las filas de la tabla de Finance and Operations que están presentes en el momento de la configuración.  
+Una restricción de tabla definida por el sistema se define seleccionando qué tabla se usará como una referencia y luego seleccionando los campos de esta tabla para formar las columnas de la restricción. Las filas de la restricción de tabla son las filas de la tabla de Supply Chain Management que están presentes en el momento de la configuración.  
 
 Una restricción de tablas se incluye en un modelo de configuración de productos al hacer referencia a la definición de la restricción de tabla y un seguimiento de los atributos relevantes en el modelo a las columnas de la restricción de tabla.
 

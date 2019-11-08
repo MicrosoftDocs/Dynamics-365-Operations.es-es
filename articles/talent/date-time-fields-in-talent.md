@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 1a1d1a47bfe6bd58b1e1a0d4d46c2133f3bf48ad
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: abd215243cbda68ba3f57b5fa41054a10745d11f
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2007976"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2551035"
 ---
-# <a name="date-and-time-fields-in-talent"></a>Campos de fecha y hora en Talent
+# <a name="work-with-date-and-time-in-microsoft-dynamics-365-talent"></a>Trabajar con la fecha y hora en Microsoft Dynamics 365 Talent
 
 [!include [banner](includes/banner.md)]
 

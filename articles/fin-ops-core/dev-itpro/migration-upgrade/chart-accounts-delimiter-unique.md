@@ -1,5 +1,5 @@
 ---
-title: Hacer único el delimitador del plan
+title: Hacer único el delimitador del plan de cuentas
 description: Este tema explica cómo no puede tener el mismo delimitador para el plan contable y los valores de dimensión. Debe cambiar los valores del delimitador tras la actualización.
 author: ryansandness
 manager: AnnBe
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: 2622245c7ce7213665ab32f4020c282df28cb886
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 5861bcaa42f7bc5ec20916fe1a44418bdd9c2ffe
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248789"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2550917"
 ---
 # <a name="make-the-chart-of-accounts-delimiter-unique"></a>Hacer único el delimitador del plan de cuentas
 

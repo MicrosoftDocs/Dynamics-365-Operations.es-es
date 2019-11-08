@@ -3,7 +3,7 @@ title: Configurar un proceso de reabastecimiento mínimo-máximo
 description: Este procedimiento le muestra cómo configurar un nuevo proceso de reabastecimiento que usa la estrategia de reabastecimiento mínima/máxima.
 author: perlynne
 manager: AnnBe
-ms.date: 06/26/2019
+ms.date: 10/02/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,18 +17,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ef3c33125850662cfb0dfba6e6349ce32ceda0af
-ms.sourcegitcommit: 62d66f98d4bbf916e19184506b90055bb68d219f
+ms.openlocfilehash: e9002b1d9f8507af42277ccc47621d92a4a00f62
+ms.sourcegitcommit: 7b74425637ddcf02087f1d391755e5cb8ce25949
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "1924456"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "2559198"
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>Configurar un proceso de reabastecimiento mínimo-máximo
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimiento le muestra cómo configurar un nuevo proceso de reabastecimiento que usa la estrategia de reabastecimiento mínima/máxima. Cuando el inventario se encuentran por debajo del nivel mínimo, el trabajo se creará para reabastecer la ubicación. El procedimiento también muestra cómo usar ubicaciones de picking fijas para permitir la reposición incluso si el inventario se encuentra por debajo del nivel mínimo, y cómo habilitar el proceso de reabastecimiento para ejecutarse con regularidad mediante un trabajo por lotes. Estas tareas las realizará normalmente el director del almacén. Puede ejecutar este procedimiento en la empresa de datos de demostración USMF con los valores del ejemplo en las notas o puede ejecutarlo en sus propios datos. Si está usando sus propios datos, asegúrese de que tiene un almacén que está habilitado para los procesos de Administración de almacenes.
+Este procedimiento le muestra cómo configurar un nuevo proceso de reabastecimiento que usa la estrategia de reabastecimiento mínima/máxima. Cuando el inventario se encuentran por debajo del nivel mínimo, el trabajo se creará para reabastecer la ubicación. El procedimiento también muestra cómo usar ubicaciones de picking fijas para permitir la reposición incluso si el inventario se encuentra por debajo del nivel mínimo, y cómo habilitar el proceso de reabastecimiento para ejecutarse con regularidad mediante un trabajo por lotes. Estas tareas las realizará normalmente el director del almacén. Puede ejecutar este procedimiento en la empresa de datos de demostración USMF con los valores del ejemplo de abajo o puede ejecutarlo en sus propios datos. Si está usando sus propios datos, asegúrese de que tiene un almacén que está habilitado para los procesos de Administración de almacenes.
 
 
 ## <a name="create-a-fixed-picking-location"></a>Crear una ubicación de picking fija

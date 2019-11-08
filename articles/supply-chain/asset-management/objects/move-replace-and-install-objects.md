@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0e6306698d351d33cae627e3741ad9a2eb6d893
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: 30145a56de4f7e3dce039968791d2fc9b960077f
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783585"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571539"
 ---
 # <a name="move-replace-and-install-assets"></a>Mover, reemplazar e instalar activos
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 En este tema se explica cómo mover, reemplazar e instalar activos en Administración de activos. Puede crear activos individuales que no tienen ninguna relación con otros activos o puede crear una estructura de activos que incluya un activo (activo principal de nivel superior) y activos secundarios relacionados (subactivos). En Admnistración de activos, hay tres enfoques para mover y cambiar la ubicación de un activo:
 

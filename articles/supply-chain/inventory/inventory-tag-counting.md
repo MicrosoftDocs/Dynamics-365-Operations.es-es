@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 704330d136afee08fcee36db19acf72297fddac8
-ms.sourcegitcommit: a237fc58ddb94ff798fac70feaf1431e00080489
+ms.openlocfilehash: dd10c24045fae5db00e88f3b84d4dea7b2c82c37
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624870"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571102"
 ---
 # <a name="inventory-tag-counting"></a>Recuento de etiquetas de inventario
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 En este tema se proporciona información sobre el recuento de etiquetas, que se usa para comparar el contenido real de un almacén con el inventario disponible.
 

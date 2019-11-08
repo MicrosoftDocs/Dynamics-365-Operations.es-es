@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 94442eb11aac3faf8a412944617686853a12128d
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: fa2772db63332319c399999bd5f747b2ac729d9e
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251670"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653284"
 ---
 # <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>Sincronizar encabezados y líneas de factura de ventas directamente desde Finance and Operations en Sales
 
@@ -34,7 +34,7 @@ En este tema se abordan las plantillas y las tareas subyacentes que se usan para
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Flujo de datos en Prospect to cash
 
-La solución Prospect to cash usa la característica de integración de datos para sincronizar datos a través de las instancias de Supply Chain Management y Sales. Las plantillas de Prospect to cash disponibles con la característica de integración de datos permiten el flujo de datos sobre cuentas, contactos, productos, presupuestos de ventas, pedidos de ventas y facturas de ventas entre Finance and Operations y Sales. La ilustración siguiente muestra cómo se sincronizan los datos entre Supply Chain Management y Sales.
+La solución Prospect to cash usa la característica de integración de datos para sincronizar datos a través de las instancias de Supply Chain Management y Sales. Las plantillas de Prospect to cash disponibles con la característica de integración de datos permiten el flujo de datos de cuentas, contactos, productos, presupuestos de ventas, pedidos de ventas y facturas de ventas entre Supply Chain Management y Sales. La ilustración siguiente muestra cómo se sincronizan los datos entre Supply Chain Management y Sales.
 
 [![Flujo de datos en Prospect to cash](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
@@ -42,7 +42,7 @@ La solución Prospect to cash usa la característica de integración de datos pa
 
 Para obtener acceso a las plantillas disponibles, abra [Centro de administración de PowerApps](https://preview.admin.powerapps.com/dataintegration). Seleccione **Proyectos**y, a continuación, en la esquina superior derecha, seleccione **Nuevo proyecto** para seleccionar plantillas públicas.
 
-La plantilla y las tareas subyacentes siguientes se usan para sincronizar encabezados y líneas de facturación de ventas de Finance and Operations a Sales:
+La plantilla y las tareas subyacentes siguientes se usan para sincronizar encabezados y líneas de la factura de ventas de Supply Chain Management a Sales:
 
 - **Nombre de la plantilla en la integración de datos:** Facturas de ventas (Fin and Ops a Sales) - Directos
 - **Nombres de las tareas en el proyecto de integración de datos:**

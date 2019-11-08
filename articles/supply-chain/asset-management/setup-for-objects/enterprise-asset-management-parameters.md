@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3336a3357578b25522e1ac457a48349f88b7318d
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: b3ccbb7eed643abf613f8b75ae78854246d20f6d
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024577"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569892"
 ---
 # <a name="asset-management-parameters"></a>Parámetros de administración de activos
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 En Gestión de activos, se deben configurar los parámetros generales relativos a los activos y los pedidos de trabajo, y la programación de órdenes de trabajo. En este tema se explica cómo configurarlos. Seleccione **Administración de activos** > **Configuración** > **Parámetros de administración de activos** para abrir el formulario.
 

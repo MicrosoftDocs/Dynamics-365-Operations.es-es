@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8f4658696a2e6c2959b87aa852c25c108b9ba302
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 1776220766984339c7c289f7b55252fb0c0bb2a8
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024853"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570665"
 ---
 # <a name="set-up-and-manage-images-for-retail-modern-pos-mpos"></a>Configurar y gestionar imágenes para Retail Modern POS (MPOS)
 
@@ -83,9 +83,7 @@ En los siguientes procedimientos, la imágenes se configuran para la entidad del
     [![Cuadro de diálogo de imágenes](./media/catalog4.png)](./media/catalog4.png)
 
 > [!NOTE]
-> Puede usar el mismo procedimiento para las cinco entidades que se admiten: Trabajador, cliente, catálogo, categoría y productos. “Productos del catálogo” (productos que se establecen en el nivel del catálogo) y “productos del canal” (productos que se establecen en el nivel del canal) usan la plantilla multimedia que se establece para la entidad de los productos. Para la plantilla multimedia de los productos, puede seleccionar el número de imágenes de productos para mostrar por producto. También puede establecer la imagen predeterminada para un producto determinado. De esta manera, puede evitar imágenes en blanco en MPOS y ayudar a controlar qué imagen se usa como la imagen predeterminada para un producto. En el siguiente ejemplo, cada producto tiene cinco imágenes, y la primera imagen se establece como la imagen predeterminada. Los productos variantes se tratan la misma manera que los productos principales. El nombre de archivo de imagen se debe basar en el número de producto. Algunos caracteres también se escapan mientras se genera el nombre de archivo. Por lo tanto, se debe comprobar el nombre de archivo en la sección **Generar URL de imagen para Excel**.
->
-> [![Defina la plantilla de medios del cuadro de diálogo](./media/prods.png)](./media/prods.png)
+> Puede usar el mismo procedimiento para las cinco entidades que se admiten: Trabajador, cliente, catálogo, categoría y productos. “Productos del catálogo” (productos que se establecen en el nivel del catálogo) y “productos del canal” (productos que se establecen en el nivel del canal) usan la plantilla multimedia que se establece para la entidad de los productos. Para la plantilla multimedia de los productos, puede seleccionar el número de imágenes de productos para mostrar por producto. También puede establecer la imagen predeterminada para un producto determinado. De esta manera, puede evitar imágenes en blanco en MPOS y ayudar a controlar qué imagen se usa como la imagen predeterminada para un producto. En el siguiente ejemplo, cada producto tiene cinco imágenes, y la primera imagen se establece como la imagen predeterminada. Los productos variantes se tratan la misma manera que los productos principales. El nombre de archivo de imagen se debe basar en el número de producto. Algunos caracteres también se escapan mientras se genera el nombre de archivo. Por lo tanto, se debe comprobar el nombre de archivo en la sección **Generar URL de imagen para Excel**. Consulte la sección [Sobrescribir mediante Edición en Excel](#overwrite-by-using-edit-in-excel) más adelante en este artículo.
 
 ## <a name="synchronization-jobs-to-send-a-media-template-to-the-channel-side"></a>Trabajos de sincronización para enviar una plantilla multimedia en la parte del canal
 
@@ -110,8 +108,6 @@ Como en la sección anterior, la plantilla multimedia para una entidad determina
 
     > [!IMPORTANT]
     > Siempre que se cambie la plantilla multimedia, debe hacer clic en **Generar** para poder usar la funcionalidad Editar de Excel.
-
-    [![Generar las URL de la imagen para la ficha desplegable de Excel](./media/excel1.jpg)](./media/excel1.jpg)
 
     Ahora ve una vista preliminar de las URL de imagen generadas en función de la última plantilla multimedia guardada.
 

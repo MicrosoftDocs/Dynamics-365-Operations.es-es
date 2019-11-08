@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 143cd51a3ea34a6b05da049d87819b3dfee95725
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: b40f9a5677fd5375d7a19a75400d4305a8850392
+ms.sourcegitcommit: 399e861ca6f2bdcd4fe84d89fedc04b60d9f43e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181528"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "2564946"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>Configurar la importación de datos de SharePoint
 
@@ -62,9 +62,9 @@ Reproduzca las guías de tareas **Datos de importación de ER de un archivo de M
 > El formato para importar transacciones del proveedor se selecciona como la asignación del modelo predeterminado. Por lo tanto, si ejecuta una asignación del modelo del **Modelo de pagos 1099**, y esta asignación del modelo es del tipo **A destino**, la asignación del modelo ejecuta este formato para importar datos desde archivos externos. A continuación, emplea esos datos para actualizar tablas de la aplicación.
 
 ## <a name="configure-access-to-sharepoint-for-file-storage"></a>Configurar el acceso a SharePoint para el almacenamiento de archivos
-Para almacenar archivos electrónicos de informes en una ubicación de SharePoint, debe configurar el acceso a la instancia de SharePoint Server que usará la empresa actual. En este ejemplo, la empresa es USMF. Para obtener instrucciones, consulte [Configurar el almacenamiento de SharePoint](../../fin-and-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
+Para almacenar archivos electrónicos de informes en una ubicación de SharePoint, debe configurar el acceso a la instancia de SharePoint Server que usará la empresa actual. En este ejemplo, la empresa es USMF. Para obtener instrucciones, consulte [Configurar el almacenamiento de SharePoint](../../fin-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
 
-1. Complete los pasos indicados en [Configurar el almacenamiento de SharePoint](../../fin-and-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
+1. Complete los pasos indicados en [Configurar el almacenamiento de SharePoint](../../fin-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
 2. Abra el sitio de SharePoint configurado.
 3. Cree las carpetas siguientes en las que los archivos electrónicos entrantes de informe de errores se pueden almacenar:
 
@@ -80,7 +80,7 @@ Para almacenar archivos electrónicos de informes en una ubicación de SharePoin
     - Carpeta de archivos con error - esta carpeta sería para los archivos importados con error.
 
 4. Vaya a **Administración de la organización > Gestión de documentos > Tipos de documento**.
-5. Cree los siguientes tipos de documentos que se usarán para obtener acceso a las carpetas de SharePoint que acaba de crear. Para obtener instrucciones, consulte [Configurar tipos de documentos](../../fin-and-ops/organization-administration/configure-document-management.md#configure-document-types).
+5. Cree los siguientes tipos de documentos que se usarán para obtener acceso a las carpetas de SharePoint que acaba de crear. Para obtener instrucciones, consulte [Configurar tipos de documentos](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types).
 
 |Tipo de documento       | Grupo              | Ubicación      | Carpeta SharePoint      |
 |--------------------|--------------------|---------------|------------------------|

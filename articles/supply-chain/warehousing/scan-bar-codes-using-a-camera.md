@@ -1,6 +1,6 @@
 ---
-title: Digitalizar códigos de barras mediante una cámara en Dynamics 365 Supply Chain Management - aplicación Warehousing
-description: Este tema explica cómo configurar Dynamics 365 Supply Chain Management - aplicación Warehousing para digitalizar códigos de barras mediante una cámara en un dispositivo móvil.
+title: Digitalizar códigos de barras mediante una cámara en Dynamics 365 for Finance and Operations - aplicación Warehousing
+description: Este tema explica cómo configurar la aplicación Dynamics 365 for Finance and Operations - Warehousing para digitalizar códigos de barras mediante una cámara en un dispositivo móvil.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 01/03/2018
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 8062a981f792bcfed2713d3cb6a42f414394f6a4
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 58cf27a250778d68bdffa1eefa5e939276e467fc
+ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251479"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578158"
 ---
 # <a name="scan-bar-codes-using-a-camera-in-dynamics-365-supply-chain-management---warehousing-app"></a>Digitalizar códigos de barras mediante una cámara en Dynamics 365 Supply Chain Management - aplicación Warehousing
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo configurar Dynamics 365 Supply Chain Management - aplicación Warehousing para digitalizar códigos de barras mediante una cámara en un dispositivo móvil. 
+Este tema explica cómo configurar la aplicación Dynamics 365 for Finance and Operations - Warehousing para digitalizar códigos de barras mediante una cámara en un dispositivo móvil. 
 
 ## <a name="prerequisites"></a>Requisitos previos
 Para utilizar esta función, debe tener instalada la versión 1.2.0.0 de la aplicación Warehousing y su dispositivo debe tener una cámara. Cuando abra la aplicación después de actualizarla, se le solicitará que permita a la aplicación usar la cámara. Si su dispositivo no tiene cámara, no se mostrará ningún mensaje y no podrá utilizar una cámara como escáner. 
@@ -49,7 +49,7 @@ La página de la cámara se iniciará en cada página donde el campo de entrada 
 
 | Página de tarea y detalles | Página de la cámara | 
 | :---------------------: | :--------------------: |
-| ![camera-scanning-example-task-detail-page](./media/camera-scanning-example-task-detail-page50.png)          | ![camera-scanning-example-camera-page-smaller](./media/camera-scanning-example-camera-page50.png)          |
+| ![Página de detalles de tarea de ejemplo de escaneo de cámara](./media/camera-scanning-example-task-detail-page50.png)          | ![Ejemplo de escaneo de cámara, página de cámara más pequeña](./media/camera-scanning-example-camera-page50.png)          |
 
 En la página de la cámara, al hacer clic en el botón Cámara, aparecerá atenuada mientras trata de identificar un código de barras. Si no se identifica un código de barras en menos de 5 segundos, el proceso se pondrá en tiempo de espera y el botón Cámara volverá a estar disponible. A continuación, podrá intentar escanear de nuevo un código de barras.
 

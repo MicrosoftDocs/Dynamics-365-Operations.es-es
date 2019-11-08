@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 174c816c7a6442b07e4722c03045293b94c59153
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 43f14a1cbd016335b857fdff1147740b27d5c765
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024669"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653332"
 ---
 # <a name="register-consumption"></a>Registrar consumo
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Cuando se haya completado un trabajo de mantenimiento en una orden de trabajo, el paso siguiente es hacer los registros de consumo y registrar los diarios. Puede hacer registros en los siguientes tipos de consumo: horas, artículos y gastos. Los distintos tipos de consumo se registran en la página **Diarios de órdenes de trabajo**. La configuración del diario en **Administración de activos** se utiliza para crear y registrar diarios independientes para horas, artículos y gastos en el módulo **Gestión y contabilidad de proyectos**.
 
-Es posible que pueda agregar o eliminar líneas de previsión en una orden de trabajo. La configuración del estado de ciclo de vida de una orden de trabajo, el tipo de proyecto relacionado y las reglas de etapa relacionadas con el tipo de proyecto determinan si puede agregar o editar líneas del diario. Obtenga más información sobre los estados de ciclo de vida de una orden de trabajo y las etapas de proyecto relacionadas en [Integración en la contabilidad y gestión de proyectos](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).
+En algunos casos, es posible que pueda agregar o eliminar líneas de previsión en una orden de trabajo. La configuración del estado de ciclo de vida de una orden de trabajo, el tipo de proyecto relacionado y las reglas de etapa relacionadas con el tipo de proyecto determinan si puede agregar o editar líneas del diario. Obtenga más información sobre los estados de ciclo de vida de una orden de trabajo y las etapas de proyecto relacionadas en [Integración en la contabilidad y gestión de proyectos](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).
 
 >[!NOTE]
 >Es posible configurar un registro automático de diarios en el estado de ciclo de vida de una orden de trabajo. Consulte [Estados de ciclo de vida de orden de trabajo](../setup-for-work-orders/work-order-lifecycle-states.md) para obtener más información.
@@ -50,10 +50,10 @@ Es posible que pueda agregar o eliminar líneas de previsión en una orden de tr
 
 6. Haga clic en **Registrar diarios** para registrar las líneas del diario.
 
-7. Después de haber registrado los diarios de consumo, puede actualizar el estado de ciclo de vida de la orden de trabajo, por ejemplo a "Terminado", para indicar que la orden de trabajo se ha completado.
+7. Después de haber registrado los diarios de consumo, puede actualizar el estado del ciclo de vida del pedido de trabajo. Por ejemplo, para indicar que el pedido de trabajo se ha completado, puede actualizar al estado del ciclo de vida en “terminado”.
 
-- En el campo **Mostrar** situado en la parte superior de la página **Diarios de órdenes de trabajo**, seleccione las líneas del diario que desea ver: Todas, No registradas o Registradas. Los diarios registrados tienen una marca de verificación en la casilla **Registrado**.  
-- Cuando se crean líneas de artículos en el diario de orden de trabajo, las dimensiones del producto y las dimensiones de seguimiento relacionadas con el artículo se transfieren automáticamente a la línea del diario.  
+    - En el campo **Mostrar** situado en la parte superior de la página **Diarios de órdenes de trabajo**, seleccione las líneas del diario que desea ver: **Todas**, **No registradas** o **Registradas**. Los diarios registrados tienen una marca de verificación en la casilla **Registrado**.  
+    - Cuando se crean líneas de artículos en el diario de orden de trabajo, las dimensiones del producto y las dimensiones de seguimiento relacionadas con el artículo se transfieren automáticamente a la línea del diario.  
 
 La siguiente captura de pantalla muestra un ejemplo de los registros de horas y artículos en una orden de trabajo en **Diarios de órdenes de trabajo**.
 
@@ -76,7 +76,7 @@ Si una orden de trabajo contiene varias tareas, puede registrar las horas de tra
 
 6. Inserte el número de horas de trabajo que se van a dividir en el campo **Horas**.
 
-![Figura 2](media/02-consumption.png)
+    ![Figura 2](media/02-consumption.png)
 
 7. Haga clic en **Aceptar**.
 
@@ -88,10 +88,10 @@ Si una orden de trabajo contiene varias tareas, puede registrar las horas de tra
 
 Al hacer registros de consumo, las dimensiones financieras relacionadas con los distintos tipos de registro se agregan a los registros en una secuencia específica. 
 
-*Registros de horas y gastos:* en primer lugar, se agregan las dimensiones financieras del encabezado del diario, si existen. A continuación, se agregan las dimensiones financieras del proyecto de orden de trabajo relacionado. Finalmente, se agregan las dimensiones financieras del recurso (trabajador).
+- *Registros de horas y gastos:* en primer lugar, se agregan las dimensiones financieras del encabezado del diario, si existen. A continuación, se agregan las dimensiones financieras del proyecto de orden de trabajo relacionado. Finalmente, se agregan las dimensiones financieras del recurso (trabajador).
 
-*Registros de artículos:* en primer lugar, se agregan las dimensiones financieras del encabezado del diario, si existen. Después, se agregan las dimensiones financieras del proyecto de orden de trabajo relacionado. A continuación, se agregan las dimensiones financieras del sitio. Finalmente, se agregan las dimensiones financieras del artículo.
+- *Registros de artículos:* en primer lugar, se agregan las dimensiones financieras del encabezado del diario, si existen. Después, se agregan las dimensiones financieras del proyecto de orden de trabajo relacionado. A continuación, se agregan las dimensiones financieras del sitio. Finalmente, se agregan las dimensiones financieras del artículo.
 
 >[!NOTE]
->Para los tres tipos de registro, se valida la combinación de dimensiones financieras y se dejan en blanco las combinaciones no válidas. Es configuración estándar en Finance and Operations
+>Para los tres tipos de registro, se valida la combinación de dimensiones financieras y se dejan en blanco las combinaciones no válidas. Es configuración estándar con otras aplicaciones de Finance and Operations.
 

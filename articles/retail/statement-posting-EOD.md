@@ -16,12 +16,12 @@ ms.search.industry: retail
 ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8c22137ad29bf947bc7a9e4c9a4d1332e03b1298
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: 1e3fc0e8cb5c9a6cc7729dfbddd5d918a1d6bdb5
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606973"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653380"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Mejoras en la funcionalidad del registro de extractos
 
@@ -37,7 +37,7 @@ De forma predeterminada, durante la implementación de Finance and Operations 7.
 
 Cuando la nueva clave de configuración de **Extractos comerciales** se haya activado, estará disponible un nuevo elemento de menú llamado **Extractos comerciales**. Este elemento de menú permite crear, calcular y enviar extractos manualmente. Cualquier extracto que produzca un error cuando se usa el proceso de registro de lotes también estará disponible a través de este elemento de menú. (Si está activada la clave de configuración **Extractos comerciales (herencia)**, el elemento de menú se llamará **Extractos abiertos**).
 
-Finance and Operations incluye las siguientes validaciones relacionadas con estas claves de configuración:
+Retail incluye las siguientes validaciones relacionadas con estas claves de configuración:
 
 - Las dos claves de configuración no pueden estar activadas a la vez.
 - Se deben usar las mismas claves de configuración para todas las operaciones que se realizan en un extracto determinado durante su ciclo de vida (Crear, Calcular, Borrar, Registrar, etc.). Por ejemplo, no puede crear y calcular un extracto mientras está activada la clave de configuración **Extracto comercial (herencia)** y, a continuación intentar registrar el mismo extracto con la clave de configuración **Extracto comercial** activada.

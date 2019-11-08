@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 05f8a71dde998abccc75bc962636f9eb04d7e8c2
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 54d6c432907b1b75307c56d3876c8b390d5ff376
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026725"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653427"
 ---
 # <a name="warehouse-configuration-overview"></a>Visión general de la configuración de almacén
 
@@ -34,7 +34,7 @@ Este artículo explica cómo configurar un almacén. Incluye información acerca
 **Nota:** Este artículo se aplica a las características del módulo **Administración de almacenes** (almacenamiento avanzado). No se aplica a las características de almacenes del módulo **Administración del inventario**.
 
 ## <a name="warehouse-layout"></a>Diseño de almacén
-El sistema Administración de almacenes de Finance and Operations le proporciona maneras flexibles de definir el diseño del almacén para satisfacer las necesidades cambiantes, de manera que pueda lograr una eficacia óptima del almacén.
+El sistema Administración de almacenes de Supply Chain Management le proporciona maneras flexibles de definir el diseño del almacén para satisfacer las necesidades cambiantes, de manera que pueda lograr una eficacia óptima del almacén.
 
 -   Puede establecer áreas de almacenamiento de alta y baja prioridad para la ubicación óptima de las mercancías.
 -   Puede dividir el almacén en zonas para acomodar distintas necesidades de almacenamiento, como los requisitos de temperatura, o las diferentes tasas de facturación para los artículos.
@@ -42,7 +42,7 @@ El sistema Administración de almacenes de Finance and Operations le proporciona
 -   Puede agrupar las ubicaciones mediante la configuración de restricciones de capacidad física.
 -   Puede controlar la manera en que se almacenan y se seleccionan los artículos, en función de las reglas definidas por consultas.
 
-Para usar la administración de almacenes en Finance and Operations, debe crear un almacén y habilitarlo para actividades de gestión de almacenes más avanzadas o especializadas. En la página **Almacenes**, seleccione la opción **Usar procesos de gestión de almacenes**.
+Para usar la administración de almacenes en Supply Chain Management, debe crear un almacén y habilitarlo para actividades de gestión de almacenes más avanzadas o especializadas. En la página **Almacenes**, seleccione la opción **Usar procesos de gestión de almacenes**.
 
 ### <a name="zone-groups-zones-location-types-and-locations"></a>Grupos de zona, zonas, tipos de ubicación y ubicaciones
 
@@ -54,7 +54,7 @@ Como parte del proceso de habilitación de una configuración de almacén, debe 
 -   **Tipos de ubicaciones**: agrupación lógica o física de las ubicaciones de almacén. Por ejemplo, puede crear un tipo de ubicación para todas las ubicaciones provisionales. La configuración obligatoria de la página **Parámetros de gestión de almacenes** dirige el proceso de la definición de tipos de ubicación provisional y el tipo final de ubicación de envío.
 -   **Ubicaciones**: el nivel más bajo de la información de la ubicación. Las ubicaciones se usan para realizar un seguimiento de dónde se almacena el inventario disponible y se selecciona en un almacén.
 
-Las entidades que crea para definir el diseño del almacén se usan en las consultas que configura en las plantillas de trabajo para manejar los pedidos de trabajo en el almacén. Por lo tanto, al definir las zonas, los tipos de ubicación, etc., piense en cómo se usan diferentes áreas del almacén para distintos procesos. Además, considere factores como las características físicas de un área concreta. Por ejemplo, puede haber áreas donde solo puede usar un tipo determinado de elevador de carga. O bien, si su empresa tiene tanto la producción como los productos terminados dentro de la misma instalación, puede que desee crear un único almacén en Finance and Operations pero separar entonces las dos operaciones creando dos grupos de zona. Asigne nombres descriptivos a las entidades, de manera que resulte sencillo identificarlas cuando las use en consultas de plantillas.
+Las entidades que crea para definir el diseño del almacén se usan en las consultas que configura en las plantillas de trabajo para manejar los pedidos de trabajo en el almacén. Por lo tanto, al definir las zonas, los tipos de ubicación, etc., piense en cómo se usan diferentes áreas del almacén para distintos procesos. Además, considere factores como las características físicas de un área concreta. Por ejemplo, puede haber áreas donde solo puede usar un tipo determinado de elevador de carga. O bien, si su empresa tiene tanto la producción como los productos terminados dentro de la misma instalación, puede que desee crear un único almacén en Supply Chain Management pero separar entonces las dos operaciones creando dos grupos de zona. Asigne nombres descriptivos a las entidades, de manera que resulte sencillo identificarlas cuando las use en consultas de plantillas.
 
 ### <a name="location-stocking-limits-location-profiles-and-fixed-picking-locations"></a>Límites de existencias de la ubicación, perfiles de ubicación y ubicaciones de picking fijas
 

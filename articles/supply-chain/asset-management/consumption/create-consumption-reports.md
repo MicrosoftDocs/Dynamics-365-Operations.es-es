@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3d978f8b991211e477dd8f766fe67432d9d493d0
-ms.sourcegitcommit: c0b581e4c647b6c47bc14d1d7bfe267832afecba
+ms.openlocfilehash: eecfb101af9a91f515aab221181c54d53e358a68
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "1913108"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652434"
 ---
 # <a name="create-consumption-reports"></a>Crear informes de consumo
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Cuando haya creado y publicado registros de consumo en órdenes de trabajo en Administración de activos, estarán dos informes disponibles para mostrar los detalles de consumo.
 
@@ -40,9 +40,14 @@ Cuando haya registrado el consumo en las órdenes de trabajo, podrá imprimir un
 
 1. Haga clic en **Administración de activos** > **Informes** > **Activos** > **Consumo de activos**.
 
-2. En el cuadro de diálogo **Consumo de activos**, seleccione los parámetros y el nivel de detalle que desea ver seleccionando "Sí" en los botones de alternar relevantes e insertando un nivel de ubicación técnica en la sección **Mostrar** .
-    - Puede usar el campo **Niveles** para indicar el nivel de detalle que desea para las líneas de activos con respecto a las ubicaciones técnicas. Por ejemplo, si especifica el número "1 "en el campo, y tiene una estructura de ubicación técnica de varios niveles, todos los activos para una ubicación técnica se mostrarán en el nivel superior, y por tanto, se puede agregar una línea desde las ubicaciones técnicas ubicadas en un nivel inferior. Si especifica el número "0 "en el campo **Niveles** , verá un resultado detallado que muestra todos los activos en todos los niveles de la ubicación técnica con el que están relacionados. 
-    - Seleccione "Sí" en el botón de alternar **Sumar en todos los activos secundarios** para ver las sumas para cada activo secundario en el informe.
+2. En el cuadro de diálogo **Consumo de activos**, seleccione los parámetros y el nivel de detalle que desea ver seleccionando **Sí** en los botones de alternar relevantes e insertando un nivel de ubicación técnica en la sección **Mostrar**.
+    - Puede usar el campo **Niveles** para indicar el nivel de detalle que desea para las líneas de activos con respecto a las ubicaciones técnicas. 
+    
+        Por ejemplo, si introduce el número "1 "en el campo, y tiene una estructura de ubicación técnica de varios niveles, todos los activos para una ubicación técnica se mostrarán en el nivel superior, y por tanto, se puede agregar una línea desde las ubicaciones técnicas ubicadas en un nivel inferior. 
+        
+        Si introduce el número "0 "en el campo **Niveles** , verá un resultado detallado que muestra todos los activos en todos los niveles de la ubicación técnica con el que están relacionados. 
+        
+    - Seleccione **Sí** en el botón de alternar **Sumar en todos los activos secundarios** para ver las sumas para cada activo secundario en el informe.
 
 3. Seleccione un intervalo de fechas en la sección **Fechas**.
 
@@ -59,7 +64,7 @@ Cuando haya registrado el consumo en las órdenes de trabajo, podrá imprimir un
 
 1. Haga clic en **Administración de activos** > **Informes** > **Órdenes de trabajo** > **Consumo de órdenes de trabajo**.
 
-2. En el cuadro de diálogo **Consumo de órdenes de trabajo**, seleccione los parámetros que desea incluir en el informe seleccionando "Sí" en los botones de alternar relevantes en la sección **Presentación**.
+2. En el cuadro de diálogo **Consumo de órdenes de trabajo**, seleccione los parámetros que desea incluir en el informe seleccionando **Sí** en los botones de alternar relevantes en la sección **Mostrar**.
 
 3. Seleccione un intervalo de fechas en la sección **Fechas**.
 

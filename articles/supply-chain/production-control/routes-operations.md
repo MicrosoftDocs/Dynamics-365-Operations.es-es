@@ -19,12 +19,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f91faa03718830474e8e2a79015955bcad1d02e
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 6ecdece43b9d609e70e385dc5c3ec70b82f582ab
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249981"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653680"
 ---
 # <a name="routes-and-operations"></a>Rutas y operaciones.
 
@@ -35,7 +35,7 @@ Este tema proporciona información acerca de las rutas y las operaciones. Una ru
 <a name="overview"></a>Visión general
 --------
 
-Una ruta describe el orden de las operaciones que se necesitan para producir un producto o una variante del producto. Para cada operación, la ruta también define los recursos de operaciones que se necesitan, el tiempo necesario para configurar y ejecutar la operación, y cómo el coste se debe calcular. Puede usar la misma ruta para generar varios productos o puede definir una ruta única para cada producto o variante del producto. Puede incluso tener varias rutas para el mismo producto. En este caso, la ruta que se utiliza varía, en función de factores como la cantidad que se debe producir. La definición de una ruta en Finance and Operations consta de cuatro elementos independientes, en conjunto, describen el proceso de producción:
+Una ruta describe el orden de las operaciones que se necesitan para producir un producto o una variante del producto. Para cada operación, la ruta también define los recursos de operaciones que se necesitan, el tiempo necesario para configurar y ejecutar la operación, y cómo el coste se debe calcular. Puede usar la misma ruta para generar varios productos o puede definir una ruta única para cada producto o variante del producto. Puede incluso tener varias rutas para el mismo producto. En este caso, la ruta que se utiliza varía, en función de factores como la cantidad que se debe producir. La definición de una ruta en Supply Chain Management consta de cuatro elementos independientes, en conjunto, describen el proceso de producción:
 
 -   **Ruta**: una ruta define la estructura del proceso de producción. Es decir, define el orden de las operaciones.
 -   **Operación**: una operación identifica un paso con nombre en una ruta, por ejemplo **Ensamblado**. La misma operación puede producirse en varias rutas y puede tener diferentes números de operación.

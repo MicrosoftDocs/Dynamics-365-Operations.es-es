@@ -3,7 +3,7 @@ title: Previsiones de mantenimiento
 description: En este tema se explican las previsiones de mantenimiento en Administración de activos.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,104 +16,111 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 383c910b40199f2da863144c6dc85a579d0091e9
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: a1596b283c3eaffca25ff7f03c722a2bcce109fb
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024508"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626302"
 ---
 # <a name="maintenance-forecasts"></a>Previsiones de mantenimiento
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
 
 
 Cuando cree una orden de trabajo, cree tareas de la orden de trabajo con activos y tipos de trabajo de mantenimiento relacionados. Cuando seleccione un tipo de trabajo de mantenimiento que contenga previsiones de mantenimiento, las previsiones se copian automáticamente en la orden de trabajo.
 
-Es posible que pueda agregar o eliminar líneas de previsión en una orden de trabajo. La configuración del estado de ciclo de vida de una orden de trabajo, el tipo de proyecto relacionado y las reglas de etapa relacionadas con el tipo de proyecto determinan si puede agregar o editar líneas de previsión. 
+Es posible que pueda agregar líneas de previsión a una orden de trabajo o eliminarlas de una orden de trabajo. La configuración del estado de ciclo de vida de una orden de trabajo, el tipo de proyecto relacionado y las reglas de etapa relacionadas con el tipo de proyecto determinan si puede agregar o editar líneas de previsión. Para obtener más información sobre estados y etapas de proyecto del ciclo de vida de la orden de trabajo, consulte [Previsiones, órdenes de trabajo y proyectos](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).
 
-1. Haga clic en **Administración de activos** > **Común** > **Órdenes de trabajo** > **Todas las órdenes de trabajo** u **Órdenes de trabajo activas**.
+1. Seleccione **Administración de activos** > **Común** > **Órdenes de trabajo** > **Todas las órdenes de trabajo** u **Órdenes de trabajo activas**.
 
-2. Seleccione la orden de trabajo en la lista y haga clic en **Previsión**. En **Previsión de mantenimiento de orden de trabajo** se muestran las líneas de previsión del tipo de trabajo de mantenimiento seleccionado en la tarea de la orden de trabajo.
+2. Seleccione la orden de trabajo de la lista y, a continuación, en el panel de acciones, en la pestaña **Orden de trabajo**, en el grupo **Proyecto**, seleccione **Previsión**. En la página **Previsión de mantenimiento de orden de trabajo** se muestran las líneas de previsión del tipo de trabajo de mantenimiento seleccionado en la tarea de la orden de trabajo.
 
 
-## <a name="add-hours-forecast-to-a-work-order"></a>Agregar previsión de horas a una orden de trabajo
+## <a name="add-an-hours-forecast-to-a-work-order"></a>Agregar una previsión de horas a una orden de trabajo
 
-1. Seleccione la tarea de la orden de trabajo a la que desea agregar una previsión.
+1. En la página **Pronóstico de mantenimiento de órdenes de trabajo** , seleccione el trabajo de una orden de trabajo al que se va a agregar una previsión.
 
-2. En la ficha desplegable **Horas**, haga clic en **Agregar** para crear una línea nueva.
+2. En la ficha desplegable **Horas**, seleccione **Agregar** para crear una línea nueva.
 
 3. Seleccione una categoría en el campo **Categoría**.
 
 4. Inserte el número de horas previstas en el campo **Horas**.
 
-5. En el campo **Propiedad de la línea**, seleccione el tipo de cargo que se usará en la línea.
+5. En el campo **Propiedad de la línea**, seleccione el tipo de cargo que se deberá usar en la línea.
 
 
-## <a name="add-items-forecast-to-a-work-order"></a>Agregar previsión de artículos a una orden de trabajo
+## <a name="add-an-items-forecast-to-a-work-order"></a>Agregar una previsión de artículos a una orden de trabajo
 
-Hay tres formas de agregar artículos a una previsión de mantenimiento de orden de trabajo: puede crear líneas para artículos (recambios) que no se incluyen en la lista de recambios o L. MAT de activos, puede seleccionar recambios de la lista de recambios aprobadas, y puede seleccionar artículos de la L. MAT de activos.
+Hay tres formas de agregar artículos a una previsión de mantenimiento de pedidos de trabajo. Puede crear líneas para artículos (recambios) que no se incluyen en la lista de recambios o lista de materiales (BOM) del activo, puede seleccionar recambios de la lista de recambios aprobadas o puede seleccionar artículos de la lista de materiales (BOM) del activo.
 
-1. Seleccione la tarea de la orden de trabajo a la que desea agregar una previsión.
+- En la página **Pronóstico de mantenimiento de órdenes de trabajo**, seleccione el trabajo de una orden de trabajo al que se va a agregar una previsión.
 
-2. Seleccione la ficha desplegable **Artículos**.
+- En el ficha desplegable **Artículos**, agregue los artículos a la previsión de mantenimiento mediante el método adecuado.
 
-3. Haga clic en **Agregar** para crear una nueva línea para un recambio que no está en la lista de recambios o en la lista de L. MAT de activos.
+Para crear una nueva línea para un recambio que no está en la lista de recambios o en la lista de materiales de activos, siga estos pasos:
 
-4. Seleccione el elemento el campo **Número de artículo**.
+1. Seleccione **Agregar**.
+2. Seleccione el artículo en el campo **Número de artículo**.
+3. Introduzca la cantidad en el campo **Cantidad de ventas**.
+4. En el campo **Unidad**, seleccione la unidad de medida para la cantidad.
+5. En los campos **Precio de coste** y **Divisa**, introduzca los valores adecuados.
+6. En el campo **Propiedad de línea** , seleccione una propiedad de línea.
+7. Si desea cambiar la lista de dimensiones que se muestran en las líneas de artículos, haga clic en **Inventario** > **Mostrar dimensiones**, seleccione las dimensiones y defina la opción **Guardar configuración** en **Sí**.
 
-5. Inserte la cantidad en el campo **Cantidad de ventas** y seleccione una unidad de cantidad en el campo **Unidad**.
+Para agregar un repuesto de una lista de recambios aprobada, siga estos pasos:
 
-6. Inserte el precio de coste y la divisa en los campos pertinentes y seleccione **Propiedad de línea**.
+1. Seleccione **Agregar recambios**.
+2. Seleccione el recambio, y edite la información relacionada como sea necesario.
+3. Seleccione **Aceptar**.
 
-7. Si desea cambiar la lista de dimensiones que se muestran en las líneas de artículos, haga clic en **Inventario** > **Mostrar dimensiones**, seleccione "Sí" en el botón de alternancia **Guardar configuración**.
+Para agregar un artículo de lista de materiales de activos, siga estos pasos:
 
-8. Si desea agregar un recambio aprobado a la previsión de mantenimiento, haga clic en **Agregar recambios**, seleccione el recambio, edite la información relacionada si es necesario y haga clic en **Aceptar**.
+1. Seleccione **Agregar artículos de L. MAT**.
+2. Seleccione el artículo, y edite la información relacionada como sea necesario.
+3. Seleccione **Aceptar**.
 
-9. Si desea agregar artículos de la L. MAT de activos a la previsión, haga clic en **Agregar artículos de L. MAT**, seleccione el artículo, edite la información relacionada si es necesario y haga clic en **Aceptar**.
-
-10. Haga clic en **Dónde se usa el artículo** si desea obtener una visión general de dónde se usa el artículo de la línea seleccionada en Administración de activos, en relación con los activos, los valores predeterminados de tipo de trabajo de mantenimiento, lo recambios y las órdenes de trabajo. 
+Para obtener una visión general de dónde se usa el artículo de la línea seleccionada en Administración de activos, en relación con los activos, los valores predeterminados de los tipos de trabajo de mantenimiento, las piezas de repuesto y las órdenes de trabajo en la administración de activos, seleccione **Dónde se usó el artículo**. Para obtener más información sobre esta información general, consulte [Dónde se usó el artículo](../controlling-and-reporting/item-where-used.md).
 
 
+## <a name="add-an-expense-forecast-to-a-work-order"></a>Agregar una previsión de gastos a una orden de trabajo
 
-## <a name="add-expense-forecast-to-a-work-order"></a>Agregar previsión de gastos a una orden de trabajo
+1. En la página **Pronóstico de mantenimiento de órdenes de trabajo** , seleccione el trabajo de una orden de trabajo al que se va a agregar una previsión.
 
-1. En este tema se explica cómo agregar una previsión de gastos a una orden de trabajo. En el lado izquierdo del formulario, seleccione la tarea de la orden de trabajo a la que desea agregar una previsión.
+2. En la ficha desplegable **Gasto**, seleccione **Agregar** para crear una línea.
 
-2. Seleccione la ficha desplegable **Gasto**.
+3. Seleccione una categoría en el campo **Categoría**.
 
-3. Haga clic en **Agregar** para crear una línea nueva.
+4. En el campo **Cantidad**, escriba la cantidad.
 
-4. Seleccione una categoría en el campo **Categoría**.
+5. En los campos **Precio de coste**, **Divisa de ventas** y **Precio de venta**, introduzca los valores adecuados.
 
-5. Inserte la cantidad en el campo **Cantidad**.
-
-6. Inserte el precio de coste, la divisa de ventas y el precio de venta en los campos correspondientes.
-
-7. En el campo **Propiedad de la línea**, seleccione el tipo de cargo que se usará en la línea.
+6. En el campo **Propiedad de la línea**, seleccione el tipo de cargo que se deberá usar en la línea.
 
 >[!NOTE]
->En la ficha desplegable **Totales de previsión de mantenimiento** puede obtener una visión general del número de líneas creadas en cada pestaña, para la tarea de la orden de trabajo seleccionada y para la orden de trabajo. Además, puede ver una suma de las horas de trabajo previstas para la tarea de la orden de trabajo y para la orden de trabajo.
+>En la ficha desplegable **Totales de previsión de mantenimiento** se muestra una visión general del número de líneas creadas para la tarea de la orden de trabajo seleccionada y para la orden de trabajo, en cada ficha desplegable. Además, muestra la suma de las horas de trabajo previstas para la tarea de la orden de trabajo y para la orden de trabajo.
+
+La ilustración muestra un ejemplo de la página **Previsión de mantenimiento de orden de trabajo**.
 
 ![Figura 1](media/06-work-orders.png)
 
 
 ## <a name="automatic-update-of-work-order-forecasts"></a>Actualización automática de previsiones de orden de trabajo
 
-En Administración de activos, puede actualizar automáticamente cualquier cambio en las previsiones de orden de trabajo en lo que respecta a costes por hora, costes de artículo y gastos, que se han actualizado en otros módulos. Esto se hace para garantizar que los últimos precios de coste se utilizan siempre en sus previsiones de orden de trabajo. También es posible realizar actualizaciones similares para [previsiones de tipo de trabajo de mantenimiento](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).
+En Administración de activos, puede actualizar automáticamente cualquier cambio en las previsiones de orden de trabajo en lo que respecta a costes por hora, costes de artículo y gastos, que se han actualizado en otros módulos de Microsoft Dynamics 365 for Finance and Operations. Esta capacidad ayuda a garantizar que los últimos precios de coste se utilizan siempre en sus previsiones de orden de trabajo. También es posible realizar actualizaciones similares para [previsiones de tipo de trabajo de mantenimiento](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).
 
-1. Haga clic en **Administración de activos** > **Periódico** > **Previsión** > **Actualizar previsión de orden de trabajo**.
+1. Seleccione **Administración de activos** > **Periódico** > **Previsión** > **Actualizar previsión de orden de trabajo**.
 
-2. En el cuadro de diálogo desplegable **Actualizar previsión de orden de trabajo**, puede agregar selecciones relativas a determinadas órdenes de trabajo o tareas de orden de trabajo, si es necesario. Haga clic en **Filtrar** para hacer esas selecciones.
+2. En el cuadro de diálogo **Actualizar previsión de orden de trabajo**, en la ficha desplegable **Registros que incluir** puede agregar selecciones relativas a determinadas órdenes de trabajo o tareas de orden de trabajo, si es necesario. Haga clic en **Filtrar** para hacer las selecciones relevantes.
 
-3. Si es necesario, puede configurar la actualización automática como un trabajo por lotes en la ficha desplegable **Ejecutar en segundo plano**.
+3. En la pestaña desplegable **Ejecutar en segundo plano**, puede configurar la actualización automática como un trabajo por lotes según sea necesario.
 
-4. Haga clic en **Aceptar** para iniciar la actualización de la previsión.
+4. Seleccione **Aceptar** para iniciar la actualización de la previsión.
 
+
+La ilustración muestra un ejemplo del cuadro de diálogo **Actualizar previsión de orden de trabajo**.
 
 ![Figura 2](media/07-work-orders.png)
-

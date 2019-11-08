@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 42631e8a5ac03eda65bf0f6ede03fa40a5ed2c4e
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: bea02c6fe7b8e50be22be89eeb43a913851ddbfb
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250769"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653542"
 ---
 # <a name="demand-forecasting-overview"></a>Visión general de previsión de la demanda
 
@@ -49,11 +49,11 @@ Se implementan tres temas principales en la previsión de demanda:
 
 -   **Modularidad:** la previsión de demanda es modular y fácil de configurar. Puede activar y desactivar la funcionalidad cambiando la clave de configuración en **Comercio** &gt; **Previsión de inventario** &gt; **Previsión de demanda**.
 -   **Reutilización de la pila de Microsoft**: Microsoft lanzó la plataforma Aprendizaje automático en febrero de 2015. Aprendizaje automático, que ahora es parte de Microsoft Cortana Analytics Suite, le permite crear rápida y fácilmente experimentos de análisis de previsión, como experimentos de estimación de demanda, mediante los algoritmos R o los idiomas de programación de Python y una interfaz simple de arrastrar y colocar.
-    -   Puede descargar los experimentos de previsión de demanda, modificarlos para satisfacer sus requisitos empresariales, publicarlos como un servicio web en Azure y utilizarlos para generar las previsiones de demanda. Los experimentos están disponibles para descargar si ha comprado una suscripción a Finance and Operations para un planificador de producción como usuario de nivel empresarial.
-    -   Puede descargar cualquiera de los experimentos de previsión de demanda actualmente disponibles en [Galería de análisis de Cortana](https://gallery.cortanaanalytics.com/). Mientras que los experimentos de previsión de demanda se integran automáticamente con Finance and Operations, los clientes y los asociados deben gestionar la integración de los experimentos que descargan en [Galería de análisis de Cortana](https://gallery.cortanaanalytics.com/). Por tanto, los experimentos de la [Galería de análisis de Cortana](https://gallery.cortanaanalytics.com/) no son tan sencillos de usar como los experimentos de la previsión de demanda de Finance and Operations. Debe modificar el código de los experimentos de modo que usen la interfaz de programación de aplicaciones (API) de Finance and Operations.
+    -   Puede descargar los experimentos de previsión de demanda, modificarlos para satisfacer sus requisitos empresariales, publicarlos como un servicio web en Azure y utilizarlos para generar las previsiones de demanda. Los experimentos están disponibles para descargar si ha comprado una suscripción a Supply Chain Management para un planificador de producción como usuario de nivel empresarial.
+    -   Puede descargar cualquiera de los experimentos de previsión de demanda actualmente disponibles en [Galería de análisis de Cortana](https://gallery.cortanaanalytics.com/). Mientras que los experimentos de previsión de demanda se integran automáticamente con Supply Chain Management, los clientes y los asociados deben gestionar la integración de los experimentos que descargan en [Galería de análisis de Cortana](https://gallery.cortanaanalytics.com/). Por tanto, los experimentos de la [Galería de análisis de Cortana](https://gallery.cortanaanalytics.com/) no son tan sencillos de usar como los experimentos de la previsión de demanda de Finance and Operations. Debe modificar el código de los experimentos de modo que usen la interfaz de programación de aplicaciones (API) de Finance and Operations.
     -   Puede crear sus propios experimentos en es Estudio de aprendizaje automático de Microsoft Azure, publicarlos como servicios en Azure, y utilizarlos para generar las previsiones de demanda.
     -   Si no necesita alto rendimiento, o si no necesita procesar grandes cantidades de datos, puede usar el nivel libre de aprendizaje automático. Recomendamos que comience siempre desde este nivel, especialmente durante las fases de implementación y de pruebas. Si necesita un rendimiento más alto y almacenamiento adicional, puede usar el nivel estándar de aprendizaje automático. Este nivel requiere una suscripción a Azure e implica costes adicionales. Para obtener más información sobre los precios de Aprendizaje automático, consulte [Precios de Machine Learning Studio](https://aka.ms/machine-learning-price-info).
--   **Reducción de previsión en cualquier momento de desemparejamiento:** previsión de demanda en Finance and Operations en esta función, que le permite realizar una previsión de demanda dependiente e independiente en cualquier momento de desemparejamiento.
+-   **Reducción de previsión en cualquier momento de desemparejamiento:** previsión de demanda en esta función, que le permite realizar una previsión de demanda dependiente e independiente en cualquier momento de desemparejamiento.
 
 ## <a name="basic-flow-in-demand-forecasting"></a>Flujo básico en la previsión de demanda
 En el siguiente diagrama se muestra el flujo de básico en la previsión de la demanda. 
@@ -64,7 +64,7 @@ La generación de la previsión de demanda comienza con Supply Chain Management.
 
 Si usa los experimentos de aprendizaje automático de previsión de demanda, se busca un mejor ajuste entre cinco métodos de previsión de serie de tiempo para calcular una previsión de línea base. Los parámetros para estos métodos de previsión se gestionan en Supply Chain Management. 
 
-Las previsiones, los datos históricos y los cambios que se hayan realizado a las previsiones de demanda en iteraciones anteriores estarán disponibles en Finance and Operations. 
+Las previsiones, los datos históricos y los cambios que se hayan realizado a las previsiones de demanda en iteraciones anteriores estarán disponibles en Supply Chain Management. 
 
 Puede usar Supply Chain Management para visualizar y modificar las previsiones de línea base. Los ajustes manuales deben estar autorizados antes de que las previsiones se puedan utilizar para la planificación.
 

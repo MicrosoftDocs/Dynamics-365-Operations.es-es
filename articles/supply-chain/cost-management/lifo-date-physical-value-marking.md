@@ -19,18 +19,16 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3913801eb35faec858ef4b8e1e5056b755054218
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: abf74841e994efc3a71ff8dde048ab9c3be934bc
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554745"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571217"
 ---
 # <a name="lifo-date-with-physical-value-and-marking"></a>Fecha LIFO con valor físico y marcado
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 El método de valoración contable de fecha LIFO (Último en entrar, primero en salir) es un modelo de inventario. Las emisiones del inventario se liquidan contra las últimas recepciones del inventario según la fecha de transacción de inventario. Mediante la fecha LIFO, si no existe ninguna recepción antes de la emisión, ésta se liquida frente a cualquier recepción que ocurra después de la fecha de la emisión. Varias emisiones en una misma fecha se pueden liquidar en el orden de última emisión, última recepción. 
 

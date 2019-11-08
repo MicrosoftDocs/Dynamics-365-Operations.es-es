@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bbc8e4b942c3c5307d90bfd08a33a8b27c4352d2
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 6c3d83334bcccc62a2cbe761272b13cc80e10c11
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249736"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658819"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Crear documentación o formación con Grabador de tareas
 
@@ -68,23 +68,23 @@ Si está creando una nueva grabación de tareas o basando su grabación en una g
 
 Este es el panel de edición que ve al agregar una anotación conforme crea su grabación. Especifique una anotación del puesto en el cuadro **Puesto**. 
 
-[![screen1](./media/screen1.png)](./media/screen1.png) 
+[![Panel de edición con la anotación del puesto](./media/screen1.png)](./media/screen1.png) 
 
 Así es como se muestra la anotación del puesto en la “burbuja” de la guía de tareas. 
 
-[![screen2](./media/screen2.png)](./media/screen2.png)
+[![Apariencia de la anotación del puesto en guía de tareas](./media/screen2.png)](./media/screen2.png)
 
 -   **Notas:** Una anotación de notas aparecerá después del texto del paso que el grabador de tareas genera automáticamente. En la guía de tareas solo será visible si el usuario hace clic en el vínculo **Muestra más** de la burbuja de la guía de tareas. Use este tipo de anotación para describir cualquier cosa que un usuario tenga que saber para completar el paso.
 
 Este es el panel de edición que ve al agregar una anotación conforme crea su grabación. Especifique una anotación de notas en el cuadro **Notas**. 
 
-[![screen3](./media/screen3.png)](./media/screen3.png) 
+[![Panel de edición con anotación en cuadro Notas](./media/screen3.png)](./media/screen3.png) 
 
 Así es como se muestra la anotación del notas en la “burbuja” de la guía de tareas.
 
-[![screen4](./media/screen4.png)](./media/screen4.png)
+[![Apariencia de la anotación de las notas en guía de tareas](./media/screen4.png)](./media/screen4.png)
 
--   **Paso de información**: estas anotaciones se crean haciendo clic con el botón secundario en un control o en cualquier lugar de un formulario &lt; **Grabador de tareas** &lt; **Agregar paso de información.** Los pasos de información aparecen como paso numerado en cualquier punto en el que lo inserta, aunque no se haya grabado ninguna acción en la IU. Puede agregar un paso de información de nivel de formulario o un paso de información asociado con un control. Cuando un paso de información está asociado a un formulario, la "burbuja" de la guía de tareas aparecerá en algún lugar del formulario, sin puntero, cuando se reproduzca la guía de tareas. Cuando un paso de información está asociado a un control, la "burbuja" de la guía de tareas señalará al control cuando se reproduzca la guía de tareas. En el panel de la Ayuda, aparecerá una anotación del paso de la información como paso numerado siempre que escriba texto. Uso los pasos de información para preparar al usuario para los pasos siguientes, para describir los pasos que se deben dar fuera de la aplicación, o para hacer referencia a otras grabaciones (aunque no puede crear hipervínculos en anotaciones).
+-   **Paso de información**: estas anotaciones se crean haciendo clic con el botón secundario en un control o en cualquier lugar de un formulario &lt; **Grabador de tareas** &lt; **Agregar paso de información. **Los pasos de información aparecen como paso numerado en cualquier punto en el que lo inserta, aunque no se haya grabado ninguna acción en la IU. Puede agregar un paso de información de nivel de formulario o un paso de información asociado con un control. Cuando un paso de información está asociado a un formulario, la "burbuja" de la guía de tareas aparecerá en algún lugar del formulario, sin puntero, cuando se reproduzca la guía de tareas. Cuando un paso de información está asociado a un control, la "burbuja" de la guía de tareas señalará al control cuando se reproduzca la guía de tareas. En el panel de la Ayuda, aparecerá una anotación del paso de la información como paso numerado siempre que escriba texto. Uso los pasos de información para preparar al usuario para los pasos siguientes, para describir los pasos que se deben dar fuera de la aplicación, o para hacer referencia a otras grabaciones (aunque no puede crear hipervínculos en anotaciones).
 
 **Determine el tiempo para realizar la grabación**
 

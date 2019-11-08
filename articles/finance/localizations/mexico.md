@@ -16,12 +16,12 @@ ms.search.region: Mexico
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 761dbd3035fa130d471d06f01a2880475489150f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 92d49c89d232cfa9f8c688ffbec544840dbdd8e3
+ms.sourcegitcommit: 399e861ca6f2bdcd4fe84d89fedc04b60d9f43e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183574"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "2564957"
 ---
 # <a name="mexico-overview"></a>Visión general de México
 
@@ -41,9 +41,9 @@ Este tema incluye información y vínculos a recursos que pueden ayudarle a conf
 - [Extractos electrónicos de cuenta contable](latam-mex-electronic-ledger-accounting-statements.md)
 - [Especificar los identificadores de registro de impuestos para las entidades jurídicas mexicanas](tasks/mx-00010-enter-tax-registration-ids-mexican-legal-entities.md)
 - [Consultar e imprimir una factura electrónica](tasks/mx-00010-inquire-print-electronic-invoice.md)
-- [Informe de ISR](latam-mex-isr-declaration-report-supporting-processes.md)
+- [Informe declarativo de ISR](latam-mex-isr-declaration-report-supporting-processes.md)
 - [Registrar una factura de servicios](tasks/mx-00010-post-free-text-invoice.md)
-- [Producir el informe electrónico de contabilidad de libro mayor del producto mexicano versión 1.1](tasks/mx-00020-electronic-ledger.md)
+- [Extractos electrónicos de cuenta contable](latam-mex-electronic-ledger-accounting-statements.md)
 - [Configurar parámetros para una factura electrónica](tasks/mx-00010-set-parameters-electronic-invoice.md)
 - [Configurar códigos de impuestos para México](tasks/mx-00006-sales-tax-code.md)
 - [Configuración del plan de cuentas para una entidad jurídica en México](tasks/mx-00020-chart-accounts-legal-entity-mexico.md)

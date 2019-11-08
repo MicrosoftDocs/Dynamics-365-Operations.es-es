@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3f7af87f359cfe3a606c8be857dd905bfef75e97
-ms.sourcegitcommit: 871b76f8808a48d282f151144829323258ffc912
+ms.openlocfilehash: c42f259a57675c3dbac829d6d671e91982ef9011
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1847468"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571700"
 ---
 # <a name="create-work-orders-from-maintenance-requests"></a>Crear órdenes de trabajo a partir de solicitudes de mantenimiento
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 
 Después de crear solicitudes de mantenimiento, puede convertirlas fácilmente en órdenes de trabajo. En este tema se describe la forma más rápida de trabajar con solicitudes de mantenimiento, actualiza varias solicitudes de mantenimiento al mismo tiempo y crear una orden de trabajo para varias solicitudes de mantenimiento a la vez. En **Solicitudes de mantenimiento activas** o en la página **Mis solicitudes de mantenimiento de ubicación técnica** también puede trabajar con una solicitud de mantenimiento a la vez y convertir una solicitud de mantenimiento en una orden de trabajo.
@@ -53,5 +53,5 @@ Después de crear solicitudes de mantenimiento, puede convertirlas fácilmente e
 
 6. Seleccione **Administración de activos** \> **Común** \> **Órdenes de trabajo** \> **Todas las órdenes de trabajo**, y abra la nueva orden de trabajo.
 
-    ![Figura 1](media/05-manage-maintenance-requests.png)
+    ![Abrir nueva orden de trabajo](media/05-manage-maintenance-requests.png)
 
