@@ -3,7 +3,7 @@ title: Vistas guardadas
 description: Este tema describe cómo usar las características guardadas de las vistas.
 author: jasongre
 manager: AnnBe
-ms.date: 08/01/2019
+ms.date: 10/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 4b1bd7b869b68f82ce8056ac9f87a0d3bdce4102
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2f76c4e50649d3eda951940a2186348c29474dc6
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190888"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658676"
 ---
 # <a name="saved-views"></a>Vistas guardadas
 
@@ -37,9 +37,11 @@ Con la personalización tradicional, los usuarios sólo podían tener un único 
 
 -    Las vistas creadas para tipos de determinados de página también pueden incluir los filtros u ordenaciones añadidas por el usuario, que permite a los usuarios volver rápidamente a conjuntos de datos comunes filtrados. Consulte la sección [Qué páginas son compatibles con vistas](saved-views.md#what-pages-support-views) para obtener más detalles. 
 
--    Las vistas se pueden publicar a roles de seguridad, lo que significa que los usuarios con dicho rol podrá tener acceso y usar a esa vista, independientemente de la capacidad del usuario de personalizar. Esta capacidad permite a las organizaciones definir las vistas corporativas estándar que se optimizan para su negocio. Consulte la sección [Administrar personalizaciones a nivel de organización con vistas](saved-views.md#managing-personalizations-at-an-organizational-level-with-views) para obtener más información.
+-    Las vistas se pueden publicar en los usuarios con roles específicos de seguridad y entidades jurídicas específicas. Por lo tanto, cualquier usuario que tenga un rol especificado en una entidad jurídica especificada puede acceder y usar esa vista, aunque dicho usuario no pueda personalizarla. Esta capacidad de publicación permite a las organizaciones definir vistas corporativas estándar optimizadas para el negocio. Para obtener más información, consulte [Administrar personalizaciones en el nivel de organización con vistas](saved-views.md#managing-personalizations-at-an-organizational-level-with-views).
 
 -    A diferencia de la personalización tradicional, las vistas no se guardan automáticamente cuando un usuario realiza personalizaciones explícitas o filtra una lista. El guardado explícito es necesario para proporcionar flexibilidad para crear una vista antes o después de que los cambios asociados a esa vista se han realizado y garantizar que las definiciones de vista no son modificadas por error por los filtros o las personalizaciones que no están destinados para su uso a largo plazo.  
+
+-    Las vistas se pueden agregar a espacios de trabajo como mosaicos, listas, o vínculos. Por lo tanto, un conjunto de datos filtrado puede emergerse en un área de trabajo, y los usuarios pueden asociar un conjunto de personalizaciones relevantes para dicho conjunto de datos con el mosaico o el vínculo.
 
 ## <a name="switching-between-views"></a>Cambiando entre vistas
 Una vez que las vistas se hayan habilitado para un entorno, cualquier página que admita las vistas incluirá un control incurrido de selector de la parte superior del formulario que muestra el nombre de la vista actual.  
@@ -52,9 +54,9 @@ Existen dos variantes de tamaño en selector de la vista:
  
 Si hace clic en el nombre de vista, el selector de la vista se abre y muestra la lista de vistas disponibles para esta página
 
--    **Vista clásica**: la vista clásica es la vista de lista para usar la página sin personalizaciones explícitas aplicadas.  
+-    **Vista estándar**: la vista **Estándar** (conocida anteriormente como vista **Clásica**) es la vista lista para utilizar de la página, donde no se aplica ninguna personalización explícita.
 -    **Vistas personales**: las vistas sin los candados representan las vistas personales. Éstas son las vistas que ha creado o que le ha asignado un administrador.  
--    **Vistas bloqueadas**: algunas vistas (como la vista clásica y las vistas publicadas para su rol) tiene un candado junto a ellas en el selector de la vista, indicando que no podrá editarlas. Sin embargo, las personalizaciones implícitas que reflejan el uso de la página se guardan automáticamente, por ejemplo cambiar el ancho de una columna de la cuadrícula o ampliar o contraer una ficha desplegable. Puede, no obstante, crear una vista personal basada en una vista bloquea mediante la acción **Guardar una copia**, si tiene privilegios de personalización.
+-    **Vistas bloqueadas**: algunas vistas (por ejemplo la vista **Estándar** y las opiniones que se publiquen en su rol) tienen un símbolo de candado junto a ellas en el selector de la vista. Este símbolo indica que no se pueden editar las vistas. Sin embargo, las personalizaciones implícitas que reflejan el uso de las páginas se guardan automáticamente. Estas personalizaciones implícitas incluyen un cambio al ancho de una columna de la cuadrícula, o la extensión o la contracción de una ficha desplegable. Sin embargo, si tiene privilegios de personalización, puede usar la acción **Guardar como** para crear una vista personal basada en una vista bloqueada.
 -    **Nuevas vistas**: las vistas publicadas que aún no se han abierto se delinean con una chispa a la izquierda del nombre de vista.  
 
 Para cambiar a otra vista, abra el selector de la vista y seleccione la vista que desee cargar. 
@@ -69,7 +71,7 @@ Si desea guardar los cambios, siga estos pasos.
 2.  Para modificar la vista existente:
      1. Seleccione **Guardar**. Tenga en cuenta que esta acción no se permitirá para las visiones bloqueadas. 
 3.  Para crear una vista nueva:
-     1.    Seleccione **Guardar una copia**. 
+     1.    Seleccione **Guardar como**. 
      2.    Especifique un nombre de vista y una descripción (opcional).
      3.    Seleccione **Guardar**.
 
@@ -81,7 +83,7 @@ Para cambiar la vista predeterminada de una página, siga estos pasos:
 2.  Seleccione el nombre de vista para abrir el selector de la vista. 
 3.  Seleccione **Más** y luego en **Anclar como predeterminada**.  
 
-Como alternativa, al crear una nueva vista (mediante la acción **Guardar una copia**), puede crear una nueva vista predeterminada estableciendo la opción **Anclar como predeterminada** antes de guardar la vista.  
+Como alternativa, al crear una nueva vista (mediante la acción **Guardar como**), puede hacer que esa nueva vista sea la vista predeterminada mediante la opción **Anclar como predeterminada** antes de guardar la vista.
 
 Tenga en cuenta que en algunos casos, la consulta asociada a la vista predeterminada no se ejecuta cuando navega por primera vez a una página. Por ejemplo, si navega a través de un mosaico a una página, la consulta del mosaico se ejecutará independientemente de la consulta asociada a la vista predeterminada. Además, si navega a una página cuya vista clásica ya tiene una consulta definida, la consulta se ejecutará originalmente en lugar de la consulta predeterminada de la vista. Cuando esto sucede, un mensaje informativo le alertará cuando la vista se cargue. Intercambiar las vistas después de que la página haya cargado debe permitir que la consulta de la vista se ejecute como se espera.
 
@@ -97,24 +99,27 @@ Para una lista de vistas disponibles para dicha página, el conjunto de acciones
 Cualquier cambio realizado en este cuadro de diálogo tomará efecto después de activar el botón **Guardar**.
 
 ## <a name="managing-personalizations-at-an-organizational-level-with-views"></a>Administrar personalizaciones a nivel de organización con vistas
-Para entender las mejoras en administrar personalizaciones a nivel de organización, veamos primero cómo la administración de personalización trabajadas antes de las vistas.  
+Para ayudar a comprender cómo las vistas guardadas ayudan a mejorar la gestión de personalizaciones en el nivel de organización, en esta sección se describe cómo la administración de la personalización trabajaba antes de que las vistas estuvieran disponibles.
 
 Sin vistas, los administradores aplicarían un conjunto de personalizaciones para una página a un usuario o a un grupo de usuarios usando la página de personalización. Si estos usuarios tuvieran derechos de personalización, las personalizaciones serían aplicadas a esa página. Sin embargo, no había capacidad para evitar que los usuarios personalizasen más la página, lo que significaba que la organización no podía garantizar que los usuarios tuvieran una interfaz de usuario coherente. Si ninguno de estos usuarios tenían derechos de personalización, las personalizaciones que les concedía un administrador no se cargaban. Además, si se contrataba a nuevos usuarios en una organización, los administradores debían cargar manualmente un conjunto de personalizaciones para el usuario. No había un mecanismo automático para especificar que un determinado conjunto de personalizaciones debían estar disponibles para los usuarios de ese rol.
 
-Con la función de vistas guardadas, la gestión de organización de personalizaciones es mucho más sencilla, principalmente debido a la capacidad de publicar las vistas a roles de seguridad. Una vez una vista se publica, cualquier usuario con dicho rol podrá tener acceso y usar a esa vista, independientemente de la capacidad del usuario de personalizar. Aunque cada usuario tiene una copia de la vista publicada en la que el uso de la página (personalizaciones implícitas) se aplicará automáticamente, ningún usuario puede guardar personalizaciones o actualizaciones explícitas a la consulta para la vista publicada (significa que las vistas publicadas están bloqueadas). Además, si nuevos usuarios reciben un rol para el que se publicó la vista, automáticamente verán las vistas asociadas con sus roles sin que el administrador tenga que actuar. De forma similar, si un usuario cambia de rol en una organización, las vistas asociadas al antiguo rol ya no estarán accesibles, de nuevo sin ninguna acción del administrador. Las actualizaciones de una vista publicada se pueden distribuir fácilmente a los usuarios republicando la vista a los roles de seguridad correspondientes.
+La función de vistas guardadas, facilita mucho la gestión de organización de personalizaciones, principalmente debido a que las vistas se pueden publicar en grupos de usuarios. Una vez que se ha publicado una vista, cualquier usuario que tenga uno de los roles de seguridad definido y se incluya en las entidades jurídicas especificadas podrá tener acceso y usar la vista, aunque dicho usuario no pueda personalizarla. Aunque cada usuario tenga una copia de la vista publicada en la que el uso de la página (personalizaciones implícitas) se aplique automáticamente, ningún usuario puede guardar personalizaciones o actualizaciones de consulta explícitas en una la vista publicada. (Es decir, las visiones publicadas están bloqueadas.) Además, si a los usuarios nuevos se les proporcionan roles en entidades jurídicas donde se publican las vistas, verán automáticamente las vistas que están asociados a sus roles y entidades jurídicas. No se requiere ninguna acción adicional por la administración. Del mismo modo, si los usuarios cambian de roles en una organización o se les da acceso a otras entidades jurídicas, es posible que ya no puedan tener acceso a las vistas que se publicaron anteriormente a ellas. Una vez más no se requiere ninguna acción adicional por la administración.
+
+Las actualizaciones de una vista publicada se pueden distribuir fácilmente a los usuarios republicando la vista a los roles de seguridad y las entidades jurídicas correspondientes.
 
 Esta capacidad permite a las organizaciones definir las vistas corporativas estándar que se optimizan para su negocio, dirigidas a usuarios en roles de seguridad específicos.  
 
 ## <a name="publishing-views"></a>Publicar vistas
-Durante el proceso de la publicación, las vistas se pueden asignar a uno o más roles de seguridad, lo que significa que los usuarios con dicho rol podrá tener acceso y usar a esa vista, aunque no pueden editarla. Actualmente, solo los administradores del sistema tienen derechos para la acción **Publicar** en el menú desplegable del selector de vista, pero un nuevo rol de seguridad estará disponible en una actualización futura para dar derechos de publicación a otros usuarios de confianza.  
+Durante el proceso de publicación, las vistas se pueden asignar a uno o más roles de seguridad para una o más entidades jurídicas. Por lo tanto, cualquier usuario que tenga acceso a una entidad jurídica y al que se le asigne uno de estos roles puede acceder y usar las vistas, aunque no pueda editarlas. Los administradores del sistema tienen acceso a la acción **Publicar** en el menú desplegable del selector de la vista. Sin embargo, otros usuarios de confianza en su organización también pueden obtener acceso para ver la publicación mediante el nuevo rol **Administrador de vistas guardadas**.
 
 Para publicar una vista, siga estos pasos: 
 1.  Cree y guarde una copia personal de la vista que desea publicar. 
 2.  Con esa vista cargada actualmente, seleccione el nombre de vista para abrir el menú desplegable del selector de la vista. 
 3.  Seleccione el botón **Más** y a continuación seleccione **Publicar**. El cuadro de diálogo de la publicación se abrirá.  
-4.  Proporcione un nombre de vista y una descripción (opcional). Este es el nombre que los usuarios que reciben esta vista verán en los selectores de la vista. Tenga en cuenta que no se permiten los nombres duplicados para las vistas publicadas para una página, incluso si la lista de roles a las que se aplican difieren.  
-5.  Agregue cualquier rol de seguridad que se corresponda con los usuarios que obtendrán esta vista.  
-6.  Seleccione **Publicar**.
+4.  Introduzca un nombre y (opcionalmente) una descripción de la vista. El nombre que especifique es el nombre que los usuarios que reciben esta vista verán en los selectores de la vista. Los nombres de las vistas publicadas para una página deben ser únicos. No se permiten nombres duplicados, incluso si la lista de roles o entidades jurídicas a las que se aplican difieren.
+5.  Agregue los roles de seguridad que corresponden a los usuarios que son el objetivo de esta vista.
+6. Agregue las entidades jurídicas para las que esta vista debe estar disponible. 
+7.  Seleccione **Publicar**.
 
 Tenga en cuenta que en algunos entornos esto podrá llevar tiempo (hasta una hora) antes de que los usuarios vean la vista publicada.
 
@@ -136,13 +141,13 @@ Si los cambios a la vista publicada implican modificar las personalizaciones o l
 4.  Publicar la vista con el nombre original. 
 
 ## <a name="managing-published-views"></a>Administrar las visiones publicadas
-Como administrar las vistas personales, el cuadro **Administrar mis vistas** da a los usuarios con privilegios básicos de publicación la capacidad de mantener las vistas publicadas de esa página (además de sus propias vistas personales). Para abrir esta página, seleccione el nombre de vista para abrir el menú desplegable del selector de la vista, seleccione **Más**y, a continuación **Administrar mis vistas**.
+Al igual que administrar las vistas personales, el cuadro **Administrar mis vistas** da a los usuarios con privilegios básicos de publicación la capacidad de mantener las vistas publicadas de esa página (además de sus propias vistas personales). Para abrir esta página, seleccione el nombre de vista para abrir el menú desplegable del selector de la vista, seleccione **Más**y, a continuación **Administrar mis vistas**.
 
 Aunque todos los usuarios ven una pestaña **Mis vistas** mostrando sus vistas personales, los usuarios con privilegios de publicación también ven una pestaña **Publicadas** que muestra todas las visiones publicadas de la página. Dado que puede haber varios usuarios que publican las vistas, es importante poder administrar la lista completa de vistas publicadas, independientemente de si se era el usuario que publicó realmente la vista.
 
 Para una lista de todas las vistas publicadas para dicha página, el conjunto de acciones siguiente está disponible. 
 
--    **Publicar**: use la acción **Publicar** para volver a publicar una vista con parámetros de publicación modificados (nombre, descripción, roles de seguridad).  
+-    **Publicar**: use la acción **Publicar** para volver a publicar una vista después de parámetros de publicación (nombre, descripción, roles de seguridad o entidades jurídicas) se cambien.
 -    **Eliminar**: use la acción **Eliminar** para eliminar de forma permanente una vista publicada. Esta acción elimina la vista para todos los usuarios en el sistema.  
  
 Cualquier cambio realizado en este cuadro de diálogo tomará efecto después de seleccionar el botón **Guardar**.
@@ -161,7 +166,9 @@ Para habilitar las vistas guardadas mientras la característica se encuentra en 
 
 4.  **Habilitar la característica**: encuentre la característica **Vistas guardadas** en la lista de características y seleccione **Habilitar ahora** en el panel de detalles.
 
-Todas las sesiones de usuario posteriores comenzarán con las vistas guardadas habilitadas.  
+Todas las sesiones de usuario posteriores comenzarán con las vistas guardadas habilitadas.
+
+Las vistas guardadas sólo son para uso en los entornos tanto de nivel 1 (desarrollo/prueba) y nivel 2 (espacio aislado) para proporcionar cambios adicionales de prueba y de diseño. Una vista previa de las vistas guardadas estará disponible en entornos de producción en una versión futura.
 
 Tenga en cuenta que si la personalización se desactiva para el entorno, las vistas se deshabilitarán incluso si sigue los pasos anteriores. Esto se debe a que la característica de las vistas se crea sobre el subsistema de personalización.
 
@@ -172,7 +179,7 @@ Si se habilitan las vistas, las personalizaciones existente para un usuario y un
 Las visiones están disponibles en la mayoría pero no todas las páginas. Específicamente, las vistas se encuentran disponibles en todas las páginas de pantalla completa excepto los paneles de información y espacios de trabajo. Las páginas que no son a pantalla completa, que incluyen los cuadros de diálogo, los diálogos desplegables, búsquedas, vistas previas mejoradas, actualmente no admiten las vistas. El soporte para vistas de los tipos adicionales de la página, como espacios de trabajo y cuadros de diálogo, se puede considerar para una actualización futura.   
 
 ### <a name="who-is-allowed-to-publish-views"></a>¿Quién tiene permiso para publicar vistas?
-Los administradores del sistema son actualmente los únicos usuarios con derechos de publicar las vistas.  Se planea un nuevo rol de seguridad en una actualización futura que proporcionaría a los clientes más flexibilidad sobre quién puede publicar.  
+Sólo las administraciones y los usuarios del sistema a los que se ha asignado al rol **Administrador de las vistas guardadas** tienen derechos para publicar las vistas. 
 
 ### <a name="why-am-i-not-able-to-save-filters-with-this-view"></a>¿Por qué no puedo guardar filtros con esta vista? 
 Existen algunas razones por las que un filtro puede parecer no guardarse con una vista: 

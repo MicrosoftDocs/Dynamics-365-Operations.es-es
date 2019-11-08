@@ -18,20 +18,22 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b6fad4d57b8e08c839ac0ffac2324c02304335ef
-ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
+ms.openlocfilehash: 953c4bb17329205c5d8d14b6570a6bac152e9320
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "1887237"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652158"
 ---
 # <a name="schedule-work-orders"></a>Programar órdenes de trabajo
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
-En este tema se explica cómo programar órdenes de trabajo en Administración de activos. El número necesario de horas para una orden de trabajo se define mediante la suma de horas previstas en las tareas de la orden de trabajo menos las horas registradas. Si se requiere más tiempo, la previsión en la orden de trabajo debe ajustarse según corresponda. En **Administración de activos** > **Común** > **Órdenes de trabajo** > **Todas las órdenes de trabajo** u **Órdenes de trabajo activas**, puede ver o editar previsiones en una orden de trabajo seleccionando la orden de trabajo y haciendo clic en **Pronóstico** en la pestaña **Orden de trabajo**. Cuando se hayan creado y estimado las órdenes de trabajo, el paso siguiente es asignar los trabajadores de mantenimiento y las herramientas que se necesitan para completar las órdenes de trabajo.
+En este tema se explica cómo programar órdenes de trabajo en Administración de activos. 
+
+El número necesario de horas para una orden de trabajo se define mediante la suma de horas previstas menos las horas registradas. Si se requiere más tiempo, la previsión debe ajustarse según corresponda. En **Administración de activos** > **Común** > **Órdenes de trabajo** > **Todas las órdenes de trabajo** u **Órdenes de trabajo activas**, puede ver o editar previsiones en una orden de trabajo seleccionando la orden de trabajo y haciendo clic en **Pronóstico** en la pestaña **Orden de trabajo**. Cuando se hayan creado y estimado las órdenes de trabajo, el paso siguiente para completar las órdenes de trabajo consiste en asignar los trabajadores de mantenimiento y las herramientas que se necesitan.
 
 Solo se pueden programar las órdenes de trabajo con un estado de ciclo de vida que permite la programación. La configuración para permitir la programación se realiza en la ficha desplegable **Administración de activos** > **Configuración** > **Órdenes de trabajo** > **Estados de ciclo de vida** > **General** > botón de alternancia **Permitir programación**.
 
@@ -43,8 +45,8 @@ Solo se pueden programar las órdenes de trabajo con un estado de ciclo de vida 
 
 4. En el diálogo **Programar órdenes de trabajo**, puede agregar selecciones relativas a la fecha de inicio prevista y el nivel de servicio, si es necesario. Si el proceso de programación debe respetar las limitaciones de capacidad respecto a los recursos ya programados para otros trabajos, asegúrese de que los botones de alternar **Activo**, **Herramienta** y **Trabajador** están configurados en "Sí".
 
->[!NOTE]
->Si establece los botones de alternancia **Activo**, **Herramienta** y **Trabajador** en "No", se ignorarán las reservas existentes. En el registro de información se mostrará una lista de programas de órdenes de trabajo superpuestas, y puede hacer clic en los mensajes para abrir una orden de trabajo y volver a programarla, si es necesario.
+    [!NOTE]
+    Si establece los botones de alternancia **Activo**, **Herramienta** y **Trabajador** en "No", se ignorarán las reservas existentes. En el registro de información se mostrará una lista de programas de órdenes de trabajo superpuestas, y puede hacer clic en los mensajes para abrir una orden de trabajo y volver a programarla, si es necesario.
 
 5. Para ver información detallada sobre los procesos de programación, seleccione "Sí" en el botón de alternar **Detallado**. Esto significa que la información detallada sobre las puntuaciones calculadas en las órdenes de trabajo y los trabajadores de mantenimiento se mostrarán en el registro de información.
 
@@ -110,9 +112,11 @@ Todas las puntuaciones relativas al cálculo de los trabajadores de mantenimient
 | Primer día de trabajo del trabajador               | Para cada fecha en la que la fecha de inicio programada es posterior a la fecha de inicio prevista, se resta la puntuación.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 
 >[!NOTE]
->Si una puntuación se establece en "0", esa puntuación no se calcula. Esto resulta útil si, por ejemplo, no desea incluir al trabajador responsable en su programación.
+>Si una puntuación se establece en "0", esa puntuación no se calcula. Esto resulta útil si, por ejemplo, no desea incluir a un trabajador responsable en su programación.
 
 ## <a name="competencies-used-in-work-order-scheduling"></a>Competencias utilizadas en la programación de la orden de trabajo
 
-Las aptitudes y los requisitos de certificado se pueden configurar en los tipos de trabajo de mantenimiento (**Administración de activos** > **Configuración** > **Trabajos** > **Tipos de trabajo de mantenimiento**) y los comercios de trabajo de mantenimiento (**Administración de activos** > **Configuración** > **Trabajos** > **Comercio de trabajo de mantenimiento**). Los tipos y los comercios de trabajo de mantenimiento se seleccionan en las tareas de la orden de trabajo. Si se han seleccionado aptitudes o certificados en un tipo o un comercio de trabajo de mantenimiento, y dicho tipo o comercio se utiliza en una tarea de la orden de trabajo, solo se programan los trabajadores de mantenimiento con aptitudes y certificados coincidentes para que trabajen en la orden de trabajo.
+Las aptitudes y los requisitos de certificado se pueden configurar en los tipos de trabajo de mantenimiento (**Administración de activos** > **Configuración** > **Trabajos** > **Tipos de trabajo de mantenimiento**) y los comercios de trabajo de mantenimiento (**Administración de activos** > **Configuración** > **Trabajos** > **Comercio de trabajo de mantenimiento**). 
+
+Los tipos y los comercios de trabajo de mantenimiento se seleccionan en las tareas de la orden de trabajo. Si se han seleccionado aptitudes o certificados en un tipo o un comercio de trabajo de mantenimiento, y dicho tipo o comercio se utiliza en una tarea de la orden de trabajo, solo se programan los trabajadores de mantenimiento con aptitudes y certificados coincidentes para que trabajen en la orden de trabajo.
 
