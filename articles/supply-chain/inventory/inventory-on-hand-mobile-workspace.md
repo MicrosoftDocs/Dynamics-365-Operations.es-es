@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 05881b6e6e501ff3ac5a622d99fd1aaa311727a1
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f4f6de139d0399263fa19507d63e9521f489dcbd
+ms.sourcegitcommit: 38ce9f4ef499ad208f2fbbc51bc21b12c67dfa16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249526"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "2574808"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>Espacio de trabajo móvil de inventario disponible
 
@@ -56,9 +56,9 @@ El espacio de trabajo móvil proporciona específicamente estas características
     -   Por inventario físico disponible (Esta vista representa la cantidad disponible que no tiene reservas.)
 
 ## <a name="prerequisites"></a>Requisitos previos
-Los requisitos previos varían, en función de la versión de Microsoft Dynamics 365 que se ha implementado para su organización.
+Los requisitos varían en función de la versión de Supply Chain Management que se haya implementado en su organización.
 
-### <a name="prerequisites-if-you-use-finance-and-operations"></a>Requisitos previos si usa Finance and Operations 
+### <a name="prerequisites-if-you-use-supply-chain-management"></a>Requisitos previos si usa Supply Chain Management
 Si Supply Chain Management se ha implementado para su organización, el administrador del sistema debe publicar el espacio de trabajo móvil **Inventario disponible**. Para obtener instrucciones, consulte [Publicar un espacio de trabajo móvil](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-platform-update-3-or-later"></a>Los requisitos previos si usa la actualización de plataforma 3 o posterior 

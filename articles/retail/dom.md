@@ -3,7 +3,7 @@ title: Gestión de pedidos distribuida (DOM)
 description: En este tema se describe la funcionalidad de gestión de pedidos distribuida (DOM) de Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
-ms.date: 11/15/2018
+ms.date: 10/14/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fee0d9257af86a734a60b469db3a006435f1d3d2
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 0ebac1c3f9f79ee49ae11a121a4a0dd3bd456c8f
+ms.sourcegitcommit: bdbca89bd9b328c282ebfb681f75b8f1ed96e7a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2023428"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578493"
 ---
 # <a name="distributed-order-management-dom"></a>Gestión de pedidos distribuida (DOM)
 
@@ -94,6 +94,7 @@ La siguiente ilustración muestra el ciclo de vida de un pedido de ventas en un 
         - **¿Desea completar líneas parciales?** – Si esta opción se establece en **Sí**, DOM puede cumplir una cantidad parcial de líneas de pedido. Este cumplimiento parcial se logra dividiendo la línea de pedido.
         - **¿Desea completar el pedido desde una sola ubicación?**: si esta opción se establece en **Sí**, DOM se asegura de cumplir todas las líneas de un pedido desde una sola ubicación.
 
+
         La tabla siguiente explica el comportamiento cuando se define una combinación de estos parámetros.
 
         |      | Completar pedidos parciales | Completar líneas parciales | Completar el pedido desde una sola ubicación | Descripción |
@@ -110,19 +111,22 @@ La siguiente ilustración muestra el ciclo de vida de un pedido de ventas en un 
 
         \* Si **Completar pedidos parciales** está establecida en **No**, siempre se considerará que **Completar líneas parciales** está establecida en **No**, independientemente de cuál sea su valor real.
 
-    - **Regla de ubicación de cumplimiento sin conexión**: esta regla permite a las organizaciones especificar una ubicación o un grupo de ubicaciones como sin conexión o no disponibles para DOM de forma que no se les puedan asignar pedidos.
+> [!NOTE]
+> En Retail versión 10.0.5, el parámetro **Completar el pedido desde una sola ubicación** se cambió a **Ubicaciones de cumplimiento máximas**. En lugar de permitir que un usuario configure si los pedidos se pueden completar a partir de una ubicación únicamente o completar desde las máximas ubicaciones posibles, los usuarios pueden especificar ahora si el cumplimiento puede ser de un conjunto de ubicaciones determinado (hasta un máximo de 5) o de tantas ubicaciones como sea posible. Esto proporciona una mayor flexibilidad en cuanto al número de ubicaciones desde las que se pueda completar el pedido.
+
+   - **Regla de ubicación de cumplimiento sin conexión**: esta regla permite a las organizaciones especificar una ubicación o un grupo de ubicaciones como sin conexión o no disponibles para DOM de manera que no se les puedan asignar pedidos a esas ubicaciones para cumplimiento.
     - **Regla de número máximo de rechazos**: la regla permite a las organizaciones definir un umbral de rechazos. Cuando se alcance el umbral, el procesador de DOM marcará un pedido o una línea de pedido como una excepción y los excluirá del procesamiento posterior.
 
         Después de que se hayan asignado líneas de pedido a una ubicación, la ubicación puede rechazar una línea de pedido asignada si no la puede cumplir por alguna razón. Las líneas rechazadas se marcan como excepciones y se colocan en un grupo para procesarlas en la siguiente ejecución. Durante la siguiente ejecución, DOM intentará asignar la línea rechazada a otra ubicación. La nueva ubicación también puede rechazar la línea de pedido asignada. Este ciclo de asignación y rechazo puede repetirse varias veces. Cuando el recuento de rechazos alcanza el umbral definido, DOM marcará la línea de pedido como una excepción permanente y no volverá a seleccionar esa línea para su asignación. DOM solo volverá a considerar la línea de pedido para su reasignación si un usuario restablece manualmente el estado de la línea de pedido.
 
-    - **Regla de distancia máxima**: esta regla permite a las organizaciones definir la distancia máxima a la que debe estar una ubicación o un grupo de ubicaciones para cumplir el pedido. Si se definen para una ubicación reglas de distancia máxima que se superponen, DOM aplicará a dicha ubicación la distancia máxima definida que sea menor.
+   - **Regla de distancia máxima**: esta regla permite a las organizaciones definir la distancia máxima a la que debe estar una ubicación o un grupo de ubicaciones para cumplir el pedido. Si se definen para una ubicación reglas de distancia máxima que se superponen, DOM aplicará a dicha ubicación la distancia máxima definida que sea menor.
     - **Regla de número máximo de pedidos**: esta regla permite a las organizaciones definir el número máximo de pedidos que una ubicación o un grupo de ubicaciones pueden procesar en un día de calendario. Si el número máximo de pedidos se asigna a una ubicación en un solo día, DOM no asignará más pedidos a esa ubicación durante el resto de ese día de calendario.
 
-    Veamos algunos de los atributos comunes que se pueden definir para todos los tipos de reglas descritos anteriormente:
+   Veamos algunos de los atributos comunes que se pueden definir para todos los tipos de reglas descritos anteriormente:
 
-    - **Fecha de inicio** y **Fecha de finalización**: estos campos se pueden usar para establecer las fechas de vigencia de cada regla.
-    - **Deshabilitada**: en una ejecución de DOM solo se tendrán en cuenta las reglas que tengan el valor **No** en este campo.
-    - **Restricción completa**: una regla se puede definir como de restricción completa o no. Cada ejecución de DOM realiza dos iteraciones. En la primera iteración, cada regla se trata como una regla de restricción completa, independientemente del valor de este campo. Es decir, se aplican todas las reglas. La única excepción es la regla de **Prioridad de ubicación**. En la segunda iteración se quitan las reglas que no se hayan definido como reglas de restricción completa, y se asignarán a ubicaciones los pedidos y las líneas de pedido que no se asignaron a ubicaciones cuando se aplicaron todas las reglas.
+   - **Fecha de inicio** y **Fecha de finalización**: estos campos se pueden usar para establecer las fechas de vigencia de cada regla.
+   - **Deshabilitada**: en una ejecución de DOM solo se tendrán en cuenta las reglas que tengan el valor **No** en este campo.
+   - **Restricción completa**: una regla se puede definir como de restricción completa o no. Cada ejecución de DOM realiza dos iteraciones. En la primera iteración, cada regla se trata como una regla de restricción completa, independientemente del valor de este campo. Es decir, se aplican todas las reglas. La única excepción es la regla de **Prioridad de ubicación**. En la segunda iteración se quitan las reglas que no se hayan definido como reglas de restricción completa, y se asignarán a ubicaciones los pedidos y las líneas de pedido que no se asignaron a ubicaciones cuando se aplicaron todas las reglas.
 
 10. Se utilizan perfiles de cumplimiento para agrupar un conjunto de reglas, entidades jurídicas, orígenes de pedido de ventas y modos de entrega. Cada ejecución de DOM es para un perfil de cumplimiento específico. De esta manera, las organizaciones pueden definir y ejecutar un conjunto de reglas para un conjunto de entidades jurídicas en los pedidos que tengan orígenes de pedido de ventas y modos de entrega específicos. Por lo tanto, si hubiera que ejecutar conjunto de reglas distintos para conjuntos de orígenes de pedido de ventas o conjuntos de modos de entrega diferentes, es posible definir los perfiles de cumplimiento correspondientes. Siga estos pasos para configurar perfiles de cumplimiento:  
 

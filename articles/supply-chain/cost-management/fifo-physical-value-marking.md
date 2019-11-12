@@ -19,18 +19,16 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c24ce4dab179f439521c22e196b0b190821bc60f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 735f2d3d2f95185e886321c043cebcb6692fe8b1
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561419"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570849"
 ---
 # <a name="fifo-with-physical-value-and-marking"></a>FIFO con valor físico y marcado
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 FIFO (primero en entrar, primero en salir) es un modelo de inventario en que las primeras recepciones adquiridas se emiten primero. Las emisiones actualizadas financieramente del inventario se liquidan contra las primeras recepciones actualizadas financieramente en el inventario, según la fecha financiera de la transacción de inventario. 
 
@@ -54,7 +52,9 @@ En este ejemplo, el grupo de modelos de artículo no está marcado para incluir 
 -   5b. Emisión del inventario financiero de una cantidad de 1 unidad con un precio de coste de 20,00 dólares USD por unidad (promedio móvil de transacciones actualizadas financieramente).
 -   6. Se efectúa el cierre de inventario. Según el método FIFO, la primera emisión actualizada financieramente se liquidará contra la primera recepción actualizada financieramente. Se lleva a cabo un ajuste de 10,00 dólares USD en la transacción de emisión.
 
-El nuevo precio de coste promedio móvil refleja la media de las transacciones actualizadas financieramente. Los ejemplos siguientes muestran los efectos del modelo de inventario FIFO sobre esta serie de transacciones cuando no se usa la opción **Incluir valor físico**. ![FIFO sin Incluir valor físico en coste](./media/fifowithoutincludephysicalvalue.gif) 
+El nuevo precio de coste promedio móvil refleja la media de las transacciones actualizadas financieramente. Los ejemplos siguientes muestran los efectos del modelo de inventario FIFO sobre esta serie de transacciones cuando no se usa la opción **Incluir valor físico**. 
+
+![FIFO sin Incluir valor físico en coste](./media/fifowithoutincludephysicalvalue.gif) 
 
 **Clave del diagrama**
 
@@ -84,7 +84,9 @@ Si se ha seleccionado la casilla **Incluir valor físico** para un artículo en 
 -   6a. Emisión del inventario físico de una cantidad de 1 unidad con un precio de coste de 21,25 dólares USD por unidad.
 -   7. Se efectúa el cierre de inventario. Según el método FIFO, la primera transacción de emisión financiera se ajustará o liquidará contra la primera recepción actualizada (financiera o física).
 
-La transacción 5b se liquidará contra la transacción de recepción 1b. Se producirá un ajuste de 11,25 USD a esta transacción de emisión. El nuevo precio de coste promedio móvil refleja la media de las transacciones actualizadas financieramente y físicamente, es decir, 27,50 dólares USD. La ilustración siguiente muestra los efectos del modelo de inventario FIFO sobre esta serie de transacciones cuando no se usa la opción **Incluir valor físico**. ![FIFO con Incluir valor físico en coste](./media/fifowithincludephysicalvalue.gif) 
+La transacción 5b se liquidará contra la transacción de recepción 1b. Se producirá un ajuste de 11,25 USD a esta transacción de emisión. El nuevo precio de coste promedio móvil refleja la media de las transacciones actualizadas financieramente y físicamente, es decir, 27,50 dólares USD. La ilustración siguiente muestra los efectos del modelo de inventario FIFO sobre esta serie de transacciones cuando no se usa la opción **Incluir valor físico**. 
+
+![FIFO con Incluir valor físico en coste](./media/fifowithincludephysicalvalue.gif) 
 
 **Clave del diagrama**
 
@@ -114,7 +116,9 @@ La marcación es un proceso que permite vincular, o marcar, una transacción de 
 -   6a. Emisión del inventario físico de una cantidad de 1 unidad con un precio de coste de 21,25 dólares USD por unidad.
 -   7. Se efectúa el cierre de inventario. Debido a que la transacción FIFO que se ha actualizado financieramente incluye una marca con una recepción existente, estas transacciones se liquidan entre sí y no se realiza ningún ajuste.
 
-El nuevo precio de coste promedio móvil refleja la media de las transacciones actualizadas financieramente y físicamente, es decir, 27,50 dólares USD. La ilustración siguiente muestra los efectos del modelo de inventario FIFO en esta serie de transacciones al emplear marcado entre emisiones y recepciones. ![FIFO con marcado](./media/fifowithmarking.gif) 
+El nuevo precio de coste promedio móvil refleja la media de las transacciones actualizadas financieramente y físicamente, es decir, 27,50 dólares USD. La ilustración siguiente muestra los efectos del modelo de inventario FIFO en esta serie de transacciones al emplear marcado entre emisiones y recepciones. 
+
+![FIFO con marcado](./media/fifowithmarking.gif) 
 
 **Clave del diagrama**
 

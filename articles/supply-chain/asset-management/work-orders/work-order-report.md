@@ -3,7 +3,7 @@ title: Informe de orden de trabajo
 description: En este tema se describen los informes de órdenes de trabajo en Administración de activos.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,41 +16,38 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2d2843a57aad7cc8525a689d4643875970849e31
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 6eb5c5156898fc826376ae35745ff4a7451d00c6
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875875"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626394"
 ---
 # <a name="work-order-report"></a>Informe de orden de trabajo
 
-
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
 
+Puede generar un informe de pedido de trabajo que muestre información detallada acerca de una o más órdenes de trabajo que seleccione.
 
-Puede generar un informe de pedido de trabajo que muestre información detallada acerca de un pedido de trabajo. Se puede seleccionar uno o varios órdenes de trabajo para mostrarlos en el informe.
+1. Seleccione **Administración de activos** > **Informes** > **Órdenes de trabajo** > **Informe de orden de trabajo**.
 
-1. Haga clic en **Administración de activos** > **Informes** > **Órdenes de trabajo** > **Informe de orden de trabajo**.
-
-2. Seleccione “Sí/No” en los botones de alternar y rellene campos según convenga, para determinar los detalles que se incluirán en el informe.  
-  a. En la sección **Configuración de impresión**, puede seleccionar si desea incluir datos adjuntos de la configuración relacionada del tipo de trabajo de mantenimiento en la impresión.
+2. Seleccione “Sí/No” en los botones de alternar según necesite, para determinar los detalles que se incluirán en el informe.  
+    - En la sección **Configuración de impresión**, puede seleccionar si desea incluir datos adjuntos de la configuración del tipo de trabajo de mantenimiento relacionado.
 
 3. En la ficha desplegable **Registros que incluir**, puede filtrar el contenido del informe por **Orden de trabajo**.
 
-4. Si es necesario, puede configurar la generación de informes de la orden de trabajo como un trabajo por lotes rellenando los campos de la ficha desplegable **Ejecutar en segundo plano**.
+4. En el FastTab **Funcionamiento en segundo plano**, puede configurar la generación del informe de orden de trabajo como un trabajo por lotes, como sea necesario.
 
 5. Haga clic en **Aceptar** para generar el informe.
 
-Abajo se visualiza un ejemplo de cómo los parámetros se pueden configurar, y el informe de la orden de trabajo relacionado.
+En la ilustración siguiente se muestra un ejemplo de cómo se pueden configurar los parámetros del informe.
 
 ![Figura 1](media/20-work-orders.png)
 
+En la ilustración siguiente se muestra un ejemplo de un informe de orden de trabajo generado a partir de esa configuración.
 
 ![Figura 2](media/21-work-orders.png)
-
 

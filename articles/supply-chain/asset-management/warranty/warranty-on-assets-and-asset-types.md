@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3b13f8aba7e1d2448495f97a4772eb573e08c025
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 6e69b471af0853159ba807af5f39db64dbbb04f8
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874610"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569717"
 ---
-# <a name="warranty-on-assets-and-asset-types"></a>Garantía de activos y tipos de activos
+# <a name="warranties-on-assets-and-asset-types"></a>Garantías de activos y tipos de activos
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 
 Este tema explica cómo configurar garantías de activos y tipos de activos en Administración de activos.
@@ -50,7 +50,7 @@ Este tema explica cómo configurar garantías de activos y tipos de activos en A
     > [!IMPORTANT]
     > Si una fecha se selecciona en el campo **Inicio de la garantía** en un pedido de trabajo, la garantía empezará a ser válida para la orden de trabajo en esa fecha. Al crear un pedido de trabajo, el campo **Inicio de la garantía** se establece automáticamente en la fecha de creación. Sin embargo, puede cambiar la fecha de modo que corresponda a, por ejemplo, la fecha inicial de un acuerdo de la garantía.
     >
-    > ![Figura 1](media/02-warranty.png)
+    > ![Página Orden de trabajo](media/02-warranty.png)
 
 > [!NOTE]
 > Al crear un pedido de trabajo para un activo cubierto por una garantía del proveedor, si la orden de trabajo tiene una fecha de inicio prevista durante el período de garantía, usted recibirá una notificación sobre el acuerdo de la garantía. En ese momento podrás cancelar la orden de trabajo, como sea necesario.

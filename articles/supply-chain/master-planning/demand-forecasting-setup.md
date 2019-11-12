@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdfc5eda1ebf78abe823908324ed9c35215e562e
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: c689df9b00ad2d4ce161c6fdb1193f48cacbfcbc
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249585"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653520"
 ---
 # <a name="demand-forecasting-setup"></a>Configuración de la previsión de la demanda
 
@@ -72,7 +72,7 @@ Para generar la previsión, Supply Chain Management usa un servicio web de Apren
 
 **Nota:** solo se requiere el nombre de la cuenta y la clave de almacenamiento de Azure si usa una cuenta personalizada de almacenamiento. Si se implementa la versión local, debe tener una cuenta personalizada de almacenamiento en Azure, de modo que el servicio de aprendizaje automático pueda tener acceso a los datos históricos. 
 
-Para crear predicciones de demanda, puede implementar su propio servicio mediante el Estudio de aprendizaje automático o los experimentos de previsión de demanda de Supply Chain Management. Las instrucciones para implementar los experimentos de la previsión de demanda como un servicio web están disponible en Finance and Operations. En la página **Parámetros de previsión de demanda**, haga clic en la pestaña **Aprendizaje automático de Azure**.
+Para crear predicciones de demanda, puede implementar su propio servicio mediante el Estudio de aprendizaje automático o los experimentos de previsión de demanda de Supply Chain Management. Las instrucciones para implementar los experimentos de la previsión de demanda como un servicio web están disponible en Supply Chain Management. En la página **Parámetros de previsión de demanda**, haga clic en la pestaña **Aprendizaje automático de Azure**.
 
 ## <a name="settings-for-the-demand-forecasting-machine-learning-service"></a>Configuración del servicio de aprendizaje automático de previsión de demanda
 Para ver los parámetros que se pueden configurar para el servicio de previsión de demanda, vaya a **Planificación maestra** &gt; **Configuración** &gt; **Previsión de demanda** &gt; **Parámetros de algoritmo de previsión**. La página **Parámetros de algoritmo de previsión** muestra los valores predeterminados para los parámetros. Puede sobrescribir estos parámetros en la página **Parámetros de previsión de demanda**. Use la pestaña **General** para sobrescribir los parámetros globalmente, o use la pestaña **Claves de asignación de artículos** para sobrescribir los parámetros por clave de asignación de artículo. Los parámetros que se sobrescriben para una clave de asignación de artículos afectan solo a la previsión de los artículos que están asociados con esa clave de asignación de artículos.

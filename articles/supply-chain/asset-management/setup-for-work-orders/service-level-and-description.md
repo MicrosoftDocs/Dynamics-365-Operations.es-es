@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5e645c25208f55b1032bc7f7c181c72db7a2f265
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 7dd577c930c6cc17da6baee30d3558656de01a09
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874656"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569832"
 ---
 # <a name="service-level-and-description"></a>Nivel de servicio y descripción
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Cuando cree una orden de trabajo, puede que desee definir los niveles de servicio para este y agregarle una descripción general. Puede crear niveles de servicio de la orden de trabajo en la página **Niveles de servicio de la orden de trabajo** y descripciones en la página **Descripción de la orden de trabajo**.
 
@@ -48,7 +48,7 @@ Cuando cree una orden de trabajo, puede que desee definir los niveles de servici
 8. Para establecer una hora de finalización para la orden de trabajo, además de una fecha de finalización, establezca la opción **Establecer hora de finalización** en **Sí**. A continuación, especifique la hora de finalización en el campo **Hora de finalización**. Si establece la opción **No**, se utiliza la hora del día actual.
 9. Seleccione **Guardar**.
 
-![Figura 1](media/19-setup-for-work-orders.png)
+![Página de nivel de servicio de órdenes de trabajo](media/19-setup-for-work-orders.png)
 
 ## <a name="create-a-description"></a>Crear una descripción
 

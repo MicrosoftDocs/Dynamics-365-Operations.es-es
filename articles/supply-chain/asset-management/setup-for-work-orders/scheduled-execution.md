@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8d9c8afc139c96e32efb3161d35fde685b8abcc5
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 89e13179e17b7cf075d631bc65d82da5f24da624
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874679"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569855"
 ---
 # <a name="scheduled-execution"></a>Ejecución programada
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Puede utilizar niveles de servicio de la orden de trabajo para configurar la ejecución programada. (Para obtener más información sobre los niveles de servicio de la orden de trabajo, consulte [Nivel de servicio y descripción](service-level-and-description.md).) La ejecución programada brinda flexibilidad en la planificación de trabajo para los trabajadores de mantenimiento, ya que puede configurar requisitos más o menos detallados para el intervalo durante la que se debe completar una orden de trabajo. Por ejemplo, un trabajador de mantenimiento que completa un trabajo más rápido de lo esperado en una instalación de producción podría pasar a otro trabajo cercano que se planificó para la semana actual pero no necesariamente para el día actual. Este enfoque permite la optimización de la planificación del trabajador y la finalización del trabajo.
 
@@ -42,4 +42,4 @@ La configuración de ejecución programada, que está relacionada con las órden
 5. En el campo **Ejecución programada**, seleccione el intervalo de tiempo.
 6. Seleccione **Guardar**.
 
-![Figura 1](media/20-setup-for-work-orders.png)
+![Ejecución programada](media/20-setup-for-work-orders.png)

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: a1c41cd4440eaf70f720bfd64884e6ef4662f87a
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f65118b6a7393ced9d80c30fad7540a7b27da6c7
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181482"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569093"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Especifique una ubicación de almacenamiento personalizada para los documentos generados
 
@@ -56,7 +56,7 @@ En la topología actual, [cree un nuevo formato de ER](tasks/er-format-configura
 
 Para especificar cómo se distribuyen los documentos que un formato de ER genera, debe configurar [Destinos de ER](electronic-reporting-destinations.md). En cada destino de ER que se configure para almacenar documentos generados como archivos, debe especificar un tipo de documento del marco de la gestión de documentos. Los distintos tipos de documentos se pueden usar para distribuir los documentos que distintos formatos de ER generan.
 
-1. Agregue un nuevo [tipo de documento](../../fin-and-ops/organization-administration/configure-document-management.md) para el formato de ER que ha creado o importado anteriormente. En la ilustración siguiente, el tipo de documento es **FileX**.
+1. Agregue un nuevo [tipo de documento](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management) para el formato de ER que ha creado o importado anteriormente. En la ilustración siguiente, el tipo de documento es **FileX**.
 2. Para distinguir este tipo de documento de otros tipos de documentos, incluya una palabra clave específica en su nombre. Por ejemplo, en la ilustración siguiente, el nombre es **Carpeta (LOCAL)**.
 3. En el campo **Clase**, especifique **Asociar archivo**.
 4. En el campo **Grupo**, especifique **archivo**.

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 553a4a5d25e126923576569b48414c46aab991ec
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 7621ca961288af81966e0ac883c6525f89960654
+ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179811"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553149"
 ---
 # <a name="cash-overview-power-bi-content"></a>Visión general de contenido de efectivo de Power BI
 
@@ -40,15 +40,14 @@ Es necesario completar la siguiente configuración para que los datos se muestre
 1. Vaya a **Administración del sistema > Configuración > Parámetros del sistema** para establecer **Divisa del sistema** y **Tipo de cambio del sistema**.
 2. Vaya a **Contabilidad general > Configuración > Libro mayor** para establecer **Divisa de contabilidad** y **Tipo de cambio**.
 2. Defina los tipos de cambio entre las Divisas de transacción y la Divisa de contabilidad, la Divisa de contabilidad y la Divisa del sistema, y la Divisa de contabilidad y las Divisas bancarias. Para ello, vaya a **Contabilidad general > Divisas > Tipos de cambio de divisas**.
-3. Configurar y ejecutar Previsiones de flujo de efectivo. Para obtener más información sobre cómo configurar Previsiones de flujo de efectivo, consulte <a href="https://docs.microsoft.com/dynamics365/unified-operations/financials/cash-bank-management/cash-flow-forecasting
-">Previsiones de flujo de efectivo</a>. 
+3. Configurar y ejecutar Previsiones de flujo de efectivo. Para obtener más información sobre cómo configurar Previsiones de flujo de efectivo, consulte [Previsiones de flujo de efectivo](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting). 
 4. Vaya a **Administración del sistema > Configuración > Almacén de entidades** para actualizar la medida agregada **LedgerCovLiquidityMeasurement**.
 
 ## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI
 
 Los informes del contenido de Power BI **Visión general de efectivo** aparecen en las áreas de trabajo **Visión general de efectivo** y **Gestión bancaria**.
 
-Para ver los informes de previsiones de flujo de efectivo con datos, debe primero ejecutar el proceso de cálculo de previsión con la función **Calcular previsiones de flujo de efectivo** del área de gestión de efectivo y bancos.  Esto es necesario realizarlo para cada empresa incluida en la previsión.  Después, necesita actualizar la medida agregada LedgerCovLiquidityMeasurement en la página **Almacén de entidades**.  
+Para ver los informes de previsiones de flujo de efectivo con datos, debe primero ejecutar el proceso de cálculo de previsión con la función **Calcular previsiones de flujo de efectivo** del área de gestión de efectivo y bancos. Esto es necesario realizarlo para cada empresa incluida en la previsión.  Después, necesita actualizar la medida agregada LedgerCovLiquidityMeasurement en la página **Almacén de entidades**.  
 
 Como demostración, puede agregar datos de demostración de previsiones de flujo de efectivo mediante la página **Generar datos** del módulo de datos de demostración.  Este script insertará datos en tablas de previsiones de flujo de efectivo para rellenar rápidamente la información necesaria para los informes.  Este módulo solo está disponible si tiene el modelo de la suite de datos de demostración implementado en el entorno. 
 

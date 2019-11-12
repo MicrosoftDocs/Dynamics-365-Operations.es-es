@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cd86bf525ae33f78fb472e6c333083592ff8a012
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 79ddc91aa3bbe0613543595006b10e6e0bef4427
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024393"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653498"
 ---
 # <a name="inventory-statuses"></a>Estados de inventario
 
@@ -42,7 +42,7 @@ A continuación, se muestran algunos ejemplos de las maneras en que puede usar e
 
 El estado de inventario es una de las dimensiones del grupo de dimensiones de almacenamiento. Los estados de inventario se pueden clasificar como disponibles o no disponibles, y puede usar el parámetro **Bloqueo del inventario** para bloquear los artículos que tienen un estado de inventario no disponible. Los artículos que tienen un estado bloqueado se consideran inventario físico y no se pueden usar en un pedido de producción, un pedido de ventas, un pedido de transferencia o una transacción de salida.
 
-Puede usar artículos de almacén que tengan estados de inventario disponible o no disponible para el trabajo de entrada. Por ejemplo, crea un estado disponible con el nombre **Listo**, un estado no disponible con el nombre **Dañado** y un estado bloqueado con el nombre **Bloqueado**. Cuando crea un pedido de compra para artículos recibidos o devueltos, si cualquier artículo está dañado o roto, puede cambiar el estado de inventario de esos artículos a **Dañado** en la línea de pedido de compra. Después de recibir estos artículos, el estado se establece automáticamente en **Bloqueado**. Si escanea los artículos dañados con un dispositivo móvil, Finance and Operations puede usar los directorios de ubicación y las plantillas de trabajo para mostrar información acerca una ubicación apropiada o el intervalo de ubicaciones en las que puede ubicar esos artículos. Para los artículos devueltos, se crea un tipo de asunto de **Reserva** en la página **Transacciones de inventario**.
+Puede usar artículos de almacén que tengan estados de inventario disponible o no disponible para el trabajo de entrada. Por ejemplo, crea un estado disponible con el nombre **Listo**, un estado no disponible con el nombre **Dañado** y un estado bloqueado con el nombre **Bloqueado**. Cuando crea un pedido de compra para artículos recibidos o devueltos, si cualquier artículo está dañado o roto, puede cambiar el estado de inventario de esos artículos a **Dañado** en la línea de pedido de compra. Después de recibir estos artículos, el estado se establece automáticamente en **Bloqueado**. Si escanea los artículos dañados con un dispositivo móvil, Supply Chain Management puede usar los directorios de ubicación y las plantillas de trabajo para mostrar información acerca una ubicación apropiada o el intervalo de ubicaciones en las que puede ubicar esos artículos. Para los artículos devueltos, se crea un tipo de asunto de **Reserva** en la página **Transacciones de inventario**.
 
 Para el trabajo de salida, use artículos que tengan un estado de inventario de disponible. Si tiene artículos que tiene un estado de **Roto**, y la planificación maestra se ejecuta en estos artículos, se considera que faltan los artículos y el inventario se reabastece automáticamente.
 

@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8680241b1300aceda3280893982a1eff3d2e09e0
-ms.sourcegitcommit: 871b76f8808a48d282f151144829323258ffc912
+ms.openlocfilehash: 9a365fb5b1e0126b9de56bcc84a14f2352208d4f
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1847491"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571723"
 ---
 # <a name="asset-loans"></a>Activos prestados
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Si su empresa recibe activos para trabajos de reparación o de mantenimiento de ubicaciones internas o de clientes, y si presta temporalmente activos a dichas ubicaciones o clientes, Administración de activos puede hacer un seguimiento de los activos prestados.
 
@@ -47,7 +47,7 @@ Si su empresa recibe activos para trabajos de reparación o de mantenimiento de 
 
 Para ver una lista de todos los activos que ha prestado a otras ubicaciones o clientes, seleccione **Administración de activos** \> **Común** \> **Activo prestado** \> **Todos los activos prestados**. Si la casilla **Finalizado** está activada para un activo, significa que se ha registrado el activo como devuelto a su empresa.
 
-![Figura 1](media/06-manage-maintenance-requests.png)
+![Administrar solicitudes de mantenimiento](media/06-manage-maintenance-requests.png)
 
 En la página **Activos prestados activos** puede ver una lista de todos los activos prestados que aún no se han devuelto a su empresa.
 

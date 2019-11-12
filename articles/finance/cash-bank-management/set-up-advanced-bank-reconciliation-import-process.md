@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aba85b63abc11c9f32023e8499a02728dfc86bd1
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4d9a2f6efad6b8ddf3a445fe7831244e161c35d5
+ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188266"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578204"
 ---
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Configurar el proceso de importación avanzada de conciliación bancaria
 
@@ -36,7 +36,7 @@ La configuración de la importación del extracto bancario varía en función de
 ## <a name="set-time-zone-preference"></a>Establecer preferencia de zona horaria
 Cuando configure los valores de importación del extracto bancario, puede ser importante considerar la zona horaria de los datos de fecha y hora dentro de los archivos de extracto bancario que se importarán. El valor predeterminado es asumir que los valores de fecha y hora ya están en la hora universal coordinada (UTC) así que no se aplicará ninguna conversión de la zona horaria al importar los datos. 
 
-Hay una opción disponible para especificar la zona horaria a utilizar para importar datos. Esta opción está disponible en el campo **Preferencia de la zona horaria** en cada página **Detalles sobre el formato de datos de origen** (ficha desplegable **Gestión de datos del espacio de trabajo > Configurar fuentes de datos > Seleccionar un formato de fecha > Configuración regional**). Esta preferencia de zona horaria que especifique se aplicará a todas las importaciones que usan dicho formato de datos de origen. Puede crear tantos formatos del origen de datos según sea necesario para importar datos de varias zonas horarias. La preferencia de la zona horaria debe ser la zona horaria local de los datos de fecha y hora en el archivo de importación. La preferencia de la zona horaria debe ser la zona horaria local de los datos de fecha y hora en el archivo de importación. 
+Hay una opción disponible para especificar la zona horaria a utilizar para importar datos. Esta opción está disponible en el campo **Preferencia de la zona horaria** en cada página **Detalles sobre el formato de datos de origen** (ficha desplegable **Gestión de datos del espacio de trabajo > Configurar fuentes de datos > Seleccionar un formato de fecha > Configuración regional**). Esta preferencia de zona horaria que especifique se aplicará a todas las importaciones que usan dicho formato de datos de origen. Puede crear tantos formatos del origen de datos según sea necesario para importar datos de varias zonas horarias.  
 
 Esta zona horaria puede no ser igual a una zona horaria del usuario o de la empresa, por lo que esté seguro de aclarar qué zona horaria están usando los datos. Recomendamos que tenga en cuenta los puntos siguientes al establecer una preferencia de zona horaria. 
 

@@ -18,37 +18,45 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7c9330cc7b3a8839d94c8945418548033254786b
-ms.sourcegitcommit: 2292b54e2da96f71b59ec9ccf17cd32d3d1d8b21
+ms.openlocfilehash: 43772903f6845409cb33c7f2a13a049a3e9aa208
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "1918450"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652411"
 ---
 # <a name="asset-fault-analysis"></a>Análisis de defectos de activos
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 En Administración activos, puede analizar los registros de defectos del activo para obtener una visión general del número total de errores registrados durante un período específico. Los registros de defectos se pueden analizar desde perspectivas diferentes, por ejemplo con el enfoque en los activos, los tipos de activos, las ubicaciones técnicas, los síntomas del error o los tipos de errores.
 
 1. Haga clic en **Administración de activos** > **Consultas** > **Defecto de activo** > **Análisis de los defectos de activos** para abrir la lista.
 
-2. En el diálogo **Cálculo del análisis de defectos de activos**, puede utilizar el campo **Nivel** para indicar el nivel de detalle que desea que tengan las líneas de defectos con respecto a las ubicaciones técnicas. Por ejemplo, si especifica el número "1 "en el campo, y tiene una estructura de ubicación técnica de varios niveles, todas las líneas de defectos del activo para una ubicación técnica se mostrarán en el nivel superior, y por tanto, las horas en una línea se pueden agregar desde las ubicaciones técnicas ubicadas en un nivel inferior. Si especifica el número "0 "en el campo **Nivel** , verá un resultado detallado que muestra todas las líneas de defectos del activo en todo el nivel de la ubicación técnica con el que están relacionadas.
+2. En el diálogo **Cálculo del análisis de defectos de activos**, puede utilizar el campo **Nivel** para indicar el nivel de detalle que desea que tengan las líneas de defectos con respecto a las ubicaciones técnicas. 
+
+    Por ejemplo, si especifica el número "1 "en el campo, y tiene una estructura de ubicación técnica de varios niveles, todas las líneas de defectos del activo para una ubicación técnica se mostrarán en el nivel superior, y por tanto, las horas en una línea se pueden agregar desde las ubicaciones técnicas ubicadas en un nivel inferior. 
+        
+    Si especifica el número "0 "en el campo **Nivel** , verá un resultado detallado que muestra todas las líneas de defectos del activo en todo el nivel de la ubicación técnica con el que están relacionadas.
 
 3. Si desea limitar la búsqueda, puede seleccionar activos específicos, fechas de defectos, causas del defecto y soluciones para el defecto en la ficha desplegable **Registros a incluir**.
 
 4. Haga clic en **Aceptar** para iniciar el cálculo.
 
-5. En la pestaña **Análisis de defectos de activos**, haga clic en uno o más botones de los grupos del panel de acciones **Agrupar por…** para mostrar el nivel de detalle que desea ver. Se resaltarán los botones activados. Haga clic en los botones para activarlos o desactivarlos.
+5. En la pestaña **Análisis de errores de activos**, haga clic en uno o más botones **Agrupar por…** para mostrar el nivel de detalle que desea ver. Se resaltarán los botones activados. Haga clic en los botones para activarlos o desactivarlos.
 
 6. Haga clic en **Actualizar cálculos** para mostrar sus selecciones en la pantalla. 
 
 >[!NOTE]
->Cada vez que activa o desactiva los botones de los grupos del panel de acciones **Agrupar por…**, recuerde hacer clic en el botón **Actualizar cálculos** después de que haya cambiado las selecciones. Es obligatorio porque se procesan grandes cantidades de datos cuando se recalcula la probabilidad de defectos.
+>Cada vez que active o desactive un botón **Agrupar por**, recuerde hacer clic en el botón **Actualizar cálculos**. Es obligatorio porque se procesan grandes cantidades de datos cuando se recalcula la probabilidad de defectos.
 
-Existen varias maneras de analizar los registros de error. A continuación, verá ejemplos en cinco capturas de pantalla sobre cómo las distintas selecciones de datos proporcionan diferentes fragmentos de información. Verá cómo distintas selecciones proporcionan más información y detalles al analizar los registros de defectos de activos.
+## <a name="examples"></a>Ejemplo
+
+Existen varias maneras de analizar los registros de error. Esta sección tiene cinco ejemplos de cómo distintas selecciones de datos pueden proporcionar más información y detalles al analizar los registros de errores de activos.
+
+### <a name="group-by-symptoms"></a>Agrupar por síntomas
 
 En el captura de pantalla abajo, solo se selecciona el botón **Síntoma**.
 
@@ -57,6 +65,7 @@ En el captura de pantalla abajo, solo se selecciona el botón **Síntoma**.
 
 ![Figura 1](media/06-controlling-and-reporting.png)
 
+### <a name="group-by-symptoms-and-time-period"></a>Agrupar por síntomas y período de tiempo
 
 En el captura de pantalla de abajo, **Año** y **Mes** se agregan para mostrar cómo puede ver los registros de defectos durante un período seleccionado.
 
@@ -65,9 +74,13 @@ En el captura de pantalla de abajo, **Año** y **Mes** se agregan para mostrar c
 
 ![Figura 2](media/07-controlling-and-reporting.png)
 
+### <a name="group-by-multiple-symptoms-and-assets"></a>Agrupar por múltiples síntomas y activos
 
-- La combinación de activos y un tipo de activo se usará como base para los cálculos mostrados en las tres capturas de pantalla de más abajo, que incrementarán el nivel de detalle.  
-- Normalmente, los botones en los grupos del panel de acción **Agrupar por fecha**, **Agrupar por activo**, **Agrupar por ubicación técnica**, así como el botón **Defecto** (identificador del defecto), contienen períodos o relaciones de activo. Los botones **Síntoma**, **Área**, **Tipo**, **Causa** y **Remedio** son clasificaciones utilizadas en la administración de defectos para analizar los registros de defectos del activo e identificar las áreas problemáticas.  
+La combinación de activos y un tipo de activo se usará como base para los cálculos mostrados en las tres capturas de pantalla de más abajo, que incrementarán el nivel de detalle.  
+
+Normalmente, los botones en los grupos del panel de acción **Agrupar por fecha**, **Agrupar por activo**, **Agrupar por ubicación técnica**, así como el botón **Defecto** (identificador del defecto), contienen períodos o relaciones de activo. Los botones **Síntoma**, **Área**, **Tipo**, **Causa** y **Remedio** son clasificaciones utilizadas en la administración de defectos para analizar los registros de defectos del activo e identificar las áreas problemáticas.  
+
+**Agrupar por síntoma, activo y tipo de activo**
 
 En el captura de pantalla de abajo, **Activo** y **Tipo de activo** se han agregado para proporcionar más detalle en relación con los registros de defectos.
 
@@ -76,6 +89,7 @@ En el captura de pantalla de abajo, **Activo** y **Tipo de activo** se han agreg
 
 ![Figura 3](media/08-controlling-and-reporting.png)
 
+**Agrupar por dos síntomas, activo y tipo de activo**
 
 En el captura de pantalla de abajo, **Área** se agregó a **Síntoma**, **Activo** y **Tipo de activo** para proporcionar más detalle en relación con los registros de defectos.
 
@@ -83,6 +97,7 @@ En el captura de pantalla de abajo, **Área** se agregó a **Síntoma**, **Activ
 
 ![Figura 4](media/09-controlling-and-reporting.png)
 
+**Agrupar por tres síntomas, activo y tipo de activo**
 
 En el captura de pantalla de abajo, **Tipo** se ha agregado y se muestra el cálculo más detallados de este ejemplo.
  

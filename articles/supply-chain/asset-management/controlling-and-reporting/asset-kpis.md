@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4fc32d337be1f71932555fcb062a8d05c9ca9bda
-ms.sourcegitcommit: 2292b54e2da96f71b59ec9ccf17cd32d3d1d8b21
+ms.openlocfilehash: 1aee14c869d84bef38a738bfe78fd09ee7f82d94
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "1918427"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652388"
 ---
 # <a name="asset-kpis"></a>KPI de activo
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 En Administración de activos, puede calcular los distintos indicadores clave de rendimiento (KPI) para activos y tipos de activos. Use los KPI para obtener una visión general del rendimiento sobre los activos en relación con, por ejemplo, el tiempo de actividad, el tiempo de inactividad, el tiempo de reparación y el tiempo promedio entre fallos(MTBF).
 
@@ -85,7 +85,7 @@ En la siguiente tabla, aparecerá una descripción de los campos de la página *
 
 La ilustración siguiente muestra una captura de pantalla de un cálculo de KPI para cuatro activos.
 
-![Figura 1](media/11-controlling-and-reporting.png)
+![Captura de pantalla de un cálculo de KPI para cuatro activos](media/11-controlling-and-reporting.png)
 
 - Puede seleccionar varios activos en **Todos los activos** y hacer clic en el botón **KPI de activo** en la pestaña **General**. A continuación, haga clic en **Aceptar** en el cuadro de diálogo **Calcular los KPI del activo** para calcular los KPI de los activos seleccionados.  
 - Los resultados de un cálculo de KPI pueden o no incluir los [registros de tiempo de inactividad por mantenimiento](../work-orders/maintenance-downtime.md), en función de la configuración y el uso de los códigos del motivo del tiempo de inactividad por mantenimiento. 

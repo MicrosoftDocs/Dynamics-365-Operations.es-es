@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8b4e783f79b02c77a27fc59c2f4be8a192f2f476
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 932ba44b4223bf9c9d93ffb19e17f6e57bb303b5
+ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248709"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553100"
 ---
 # <a name="backup-storage-of-er-templates"></a>Almacenamiento de copia de seguridad de las plantillas de ER
 
@@ -33,7 +33,7 @@ El [marco de informes electrónicos (ER)](general-electronic-reporting.md) permi
 
 Cada formato configurado se puede publicar como parte de una solución de ER. Cada solución de ER se puede exportar a partir de una instancia de Finance and Operations e importar a otra instancia.
 
-El marco de ER usa el [Marco de gestión de documentos](../../fin-and-ops/organization-administration/configure-document-management.md) para conservar las plantillas necesarias para la instancia actual de Finance and Operations. En función de la configuración del marco de ER, el Blob Storage de Microsoft Azure o una carpeta de Microsoft SharePoint se pueden seleccionar como la ubicación de almacenamiento principal físico para las plantillas. (Para obtener más información, consulte [Configurar el marco de ER](electronic-reporting-er-configure-parameters.md)). La tabla DocuValue contiene un registro individual para cada plantilla. En cada registro, el campo **AccessInformation** almacena la ruta del archivo de una plantilla ubicado en la ubicación de almacenamiento configurada.
+El marco de ER usa el [Marco de gestión de documentos](../../fin-ops/organization-administration/configure-document-management.md) para conservar las plantillas necesarias para la instancia actual de Finance and Operations. En función de la configuración del marco de ER, el Blob Storage de Microsoft Azure o una carpeta de Microsoft SharePoint se pueden seleccionar como la ubicación de almacenamiento principal físico para las plantillas. (Para obtener más información, consulte [Configurar el marco de ER](electronic-reporting-er-configure-parameters.md)). La tabla DocuValue contiene un registro individual para cada plantilla. En cada registro, el campo **AccessInformation** almacena la ruta del archivo de una plantilla ubicado en la ubicación de almacenamiento configurada.
 
 Al gestionar las instancias de Finance and Operations, es posible que desee migrar la instancia actual a otra ubicación. Por ejemplo, puede migrar la instancia de producción a un nuevo entorno de espacio aislado. Si configuró el marco de ER para almacenar plantillas en Blob storage, la tabla DocuValue en el nuevo entorno aislado se refiere a la instancia de Blob storage del entorno de producción. Sin embargo, no se puede acceder a esta instancia desde el entorno aislado, ya que el proceso de migración no admite la migración de artefactos en Blob storage. Por lo tanto, si intenta ejecutar un formato de ER que use una plantilla para generar documentos empresariales, se producirá una excepción, y se le notificará que falta la plantilla. También se le guía para usar la herramienta de limpieza del ER y después volver a importar la configuración del formato de ER que contiene la plantilla. Dado que puede que tenga varias configuraciones de formato de ER, este proceso puede ser largo.
 

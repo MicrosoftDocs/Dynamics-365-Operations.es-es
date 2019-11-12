@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6cb53322b9bdaaa06c6040d8244b7e2ea05336ca
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: bdfd8ca5e4feb236bc1b4e88a4dd3817a07e8a3f
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249618"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571010"
 ---
 # <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>Categorías del tipo de trabajo de mantenimiento y tipos de trabajo de mantenimiento, variantes del tipo de trabajo de mantenimiento, comercios de trabajo de mantenimiento y listas de comprobación de mantenimiento
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Se adjunta un tipo de activo a cada activo. Los tipos de activo definen los tipos de trabajo de mantenimiento (y por lo tanto, los trabajos de mantenimiento) que se pueden realizar en los activos. Cuando crea una orden de trabajo, debe seleccionar un tipo de trabajo de mantenimiento. Puede seleccionar solo los tipos de trabajo de mantenimiento relacionadas con la configuración del tipo de activo que se usa para el activo.
 
@@ -59,7 +59,7 @@ Primero debe configurar las categorías de tipo de trabajo de mantenimiento, las
 
     Después de relacionar categorías del tipo de trabajo de mantenimiento con los tipos de trabajo de mantenimiento, el campo **Tipos de trabajo** muestra el número de tipos de trabajo de mantenimiento relacionados con esta categoría del tipo de trabajo de mantenimiento.
 
-![Figura 1](media/01-setup-for-work-orders.png)
+![Página de categorías de tipo de trabajo de mantenimiento](media/01-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-job-type-variant"></a>Crear una variante de tipo de trabajo de mantenimiento
 
@@ -73,7 +73,7 @@ Primero debe configurar las categorías de tipo de trabajo de mantenimiento, las
 
     En la ficha desplegable **Detalles**, el campo **Tipos de trabajo** muestra el número de tipos de trabajo de mantenimiento que se han agregado a esta variante del tipo de trabajo de mantenimiento.
 
-![Figura 2](media/02-setup-for-work-orders.png)
+![Página de variantes de tipo de trabajo de mantenimiento](media/02-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-job-trade"></a>Crear un comercio de trabajo de mantenimiento
 
@@ -94,7 +94,7 @@ Primero debe configurar las categorías de tipo de trabajo de mantenimiento, las
 
     En la ficha desplegable **Detalles**, el campo **Certificados** muestra el número de certificados que se han agregado a este comercio del trabajo de mantenimiento.
 
-![Figura 3](media/03-setup-for-work-orders.png)
+![Página de comercio de trabajo de mantenimiento](media/03-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-checklist-variable"></a>Crear una variable de la lista de comprobación de mantenimiento
 
@@ -115,7 +115,7 @@ Al crear las líneas de lista de comprobación de mantenimiento en el valor pred
 6. En el campo **Valor**, especifique una descripción para el valor.
 7. En el campo **Resultado**, seleccione un resultado para la línea.
 
-![Figura 4](media/04-setup-for-work-orders.png)
+![Página de variables de lista de comprobación de mantenimiento](media/04-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-checklist-template"></a>Crear una plantilla de la lista de comprobación de mantenimiento
 
@@ -144,7 +144,7 @@ Las plantillas de la lista de comprobación de mantenimiento se pueden usar como
 
     En la ficha desplegable **Detalles**, el campo **Comprobaciones** muestra el número total de líneas de lista de comprobación en la plantilla. Este número incluye las líneas anidadas en cualquier plantilla existente a la que haya hecho referencia en la plantilla.
 
-![Figura 5](media/05-setup-for-work-orders.png)
+![Página de plantillas de lista de comprobación de mantenimiento](media/05-setup-for-work-orders.png)
 
 ## <a name="create-a-maintenance-job-type"></a>Crear un tipo de trabajo de mantenimiento
 
@@ -167,7 +167,7 @@ Las plantillas de la lista de comprobación de mantenimiento se pueden usar como
 
 11. En la ficha desplegable **Tipos de activo**, puede agregar tipos de activo al tipo de trabajo de mantenimiento.
 
-![Figura 6](media/06-setup-for-work-orders.png)
+![Página de tipos de trabajo de mantenimiento](media/06-setup-for-work-orders.png)
 
 ## <a name="create-maintenance-job-type-default-lines-and-related-forecasts-maintenance-checklists-tools-description-and-attachments"></a>Crear líneas predeterminadas del tipo de trabajo de mantenimiento y previsiones relacionadas, listas de comprobación de mantenimiento, herramientas, descripciones y datos adjuntos
 
@@ -236,7 +236,7 @@ Las plantillas de la lista de comprobación de mantenimiento se pueden usar como
 31. Para copiar un valor predeterminado del tipo de trabajo de mantenimiento a otro valor predeterminado del tipo de trabajo de mantenimiento, seleccione la línea predeterminada del tipo de trabajo de mantenimiento para copiar a otra configuración, seleccione **Copiar configuración** y seleccione el valor predeterminado del tipo de trabajo de mantenimiento para copiar.
 32. Para ver una lista de los activos, los planes de mantenimiento o las rondas de mantenimiento que actualmente usan una línea predeterminada de tipo de trabajo de mantenimiento, selecciónela y, a continuación, seleccione **Utilizado por**.
 
-![Figura 7](media/07-setup-for-work-orders.png)
+![Página de tipos predeterminados de trabajo de mantenimiento](media/07-setup-for-work-orders.png)
 
 Cuando el sistema selecciona el valor predeterminado disponible del tipo de trabajo de mantenimiento que se debería usarse en una línea de orden de trabajo, la selección se basa en el activo y en la configuración del tipo activo relacionado. Administración de activos revisa todos los registros de tipo predeterminado de trabajo de mantenimiento relacionados con el tipo de trabajo de mantenimiento que se asocia al tipo de activo para el que hay que comprobar si hay coincidencias posibles. Comprueba siempre primero la combinación más específica. Es decir para encontrar la combinación más específica, Administración de activos primero busca una posible coincidencia para el campo **Comercio**. Si no se encuentra ninguna coincidencia, comprueba si hay una coincidencia para el campo **Variante de tipo de trabajo de mantenimiento**. Si no se encuentra coincidencias, busca una coincidencia para el campo **Tipo de trabajo de mantenimiento**, etc. (**Comercio**, luego **Variante del tipo de trabajo de mantenimiento**, luego **Tipo de trabajo de mantenimiento**, luego **Activo**, luego **Modelo** y después **Fabricante**y, a continuación **Tipo de activo**). Si no se encuentra ninguna coincidencia, se utiliza el registro predeterminado donde solo se ha seleccionado el tipo de trabajo de mantenimiento.
 
@@ -257,7 +257,7 @@ Una vez creadas las combinaciones necesarias predeterminadas de tipo de trabajo 
 4. Seleccione una combinación de tipos de trabajo de mantenimiento para ver la configuración relacionada para la listas de comprobación de mantenimiento, las previsiones y las herramientas. La sección **Detalles** en la pestaña desplegable **Valores predeterminados del tipo de trabajo de mantenimiento** muestra el número de listas de comprobación de mantenimiento, las horas previstas, los artículos, etc., relacionados con el tipo de combinación de tipos de trabajo de mantenimiento seleccionado.
 5. Para ver los detalles para el tipo de trabajo de mantenimiento seleccionado, seleccione **Tipos de trabajo de mantenimiento**.
 
-![Figura 8](media/08-setup-for-work-orders.png)
+![Página de tipos de activos de trabajo de mantenimiento](media/08-setup-for-work-orders.png)
 
 ## <a name="automatic-update-of-maintenance-job-type-forecasts"></a>Actualización automática de las previsiones de tipos de trabajo de mantenimiento
 

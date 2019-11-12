@@ -18,32 +18,32 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5271b673d758608cae8e43d72b7e75b259d5f142
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: e3a42d36fd137aa780886276a4235f1b8f3a3680
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024623"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653356"
 ---
 # <a name="functional-locations-and-assets"></a>Ubicaciones funcionales y activos
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 En este tema se describen las ubicaciones técnicas y los activos en Administración de activos. Administración de activos es un módulo avanzado para gestionar activos y trabajos de mantenimiento en Dynamics 365 Supply Chain Management.
 
 ## <a name="overview"></a>Información general
 
-Administración de activos se integra de manera fluida con varios módulos de Finance and Operations. La ilustración siguiente muestra las interfaces con otros módulos.
+Administración de activos se integra de manera fluida con varios módulos con otras aplicaciones de Finance and Operations. La ilustración siguiente muestra las interfaces con otros módulos.
 
-![Figura 1](media/01-overview-image.png)
+![Diagrama que muestra cómo la Administración de activos interactúa con otros módulos](media/01-overview-image.png)
 
 Administración de activos permite administrar y realizar todas las tareas relacionadas con la gestión y el mantenimiento de muchos tipos de equipos de la empresa eficientemente. Los equipos incluyen las máquinas, los equipos de producción y los vehículos. Administración de activos también admite soluciones de numerosos sectores.
 
 La ilustración siguiente muestra una visión general de la funcionalidad principal que cubre Administración de activos.
 
-![Figura 2](media/02-overview-image.png)
+![Diagrama que muestra la funcionalidad principal en Administración de activos](media/02-overview-image.png)
 
 ## <a name="functional-locations-and-assets"></a>Ubicaciones funcionales y activos
 
@@ -53,8 +53,8 @@ Los costes de los activos siempre siguen la ubicación del activo. Es decir, si 
 
 La forma en que se crea la jerarquía de ubicaciones funcionales depende de los requisitos de la empresa para mantener el equipo interno o reparar el equipo del cliente. En la ilustración siguiente se muestra un ejemplo de ubicaciones funcionales que se basan en ubicaciones geográficas.
 
-![Figura 3](media/03-overview-image.png)
+![Diagrama que muestra las ubicaciones técnicas basadas en ubicaciones geográficas](media/03-overview-image.png)
 
 En la ilustración siguiente se muestra un ejemplo de ubicaciones funcionales que se basan en clientes.
 
-![Figura 4](media/04-overview-image.png)
+![Diagrama que muestra las ubicaciones técnicas basadas en clientes](media/04-overview-image.png)

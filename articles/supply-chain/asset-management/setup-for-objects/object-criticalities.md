@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 660038060826ade9301e50143e49b53ba3fcd3ab
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: f96fcc7ebb8928c6d6b17b30465ad1625d9b5be4
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783577"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571079"
 ---
-# <a name="asset-criticalities"></a>Importancia de activos
+# <a name="asset-criticality-types"></a>Tipos de importancia de los activos
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 En este tema se explican los tipos de importancia de los activos en Administración de activos. La importancia de los activos está relacionada con los activos y se transfiere a las órdenes de trabajo. No se puede modificar en una orden de trabajo. La importancia de los activos se usa para calcular la importancia de la orden de trabajo durante la programación de esta. Es decir, se usa para calcular hasta qué grado un trabajo de mantenimiento de un activo afecta a la programación de producción y la productividad de la empresa. Para obtener más información sobre la configuración relacionada con el cálculo de puntuaciones para la programación de órdenes de trabajo, consulte [Parámetros de administración de activos](../setup-for-objects/enterprise-asset-management-parameters.md).
 
@@ -43,7 +43,7 @@ Para configurar la importancia, primero se crean los tipos de importancia que se
 4. En el campo **Nombre**, especifique un nombre para el tipo de importancia.
 5. En el campo **Factor**, escriba un factor. Este factor se utiliza durante el cálculo de la programación de órdenes de trabajo para determinar el registro de importancia que se debe utilizar. (Siempre se usa el registro que tiene el factor más alto). Este valor es relevante si, como se muestra en la siguiente ilustración, se crean líneas de importancia con el mismo valor de criticalidad.
 
-    ![Figura 1](media/23-setup-for-objects.png)
+    ![Página de tipos de criticidad](media/23-setup-for-objects.png)
 
 ## <a name="set-up-asset-criticalities"></a>Configurar importancias de activos
 

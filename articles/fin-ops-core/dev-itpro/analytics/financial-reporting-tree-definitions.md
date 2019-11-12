@@ -3,7 +3,7 @@ title: Definiciones de organigramas en informes financieros
 description: Este artículo proporciona información acerca de las definiciones de organigrama. Una definición de organigrama es un componente de informe, o bloque de creación, que ayuda a definir la estructura y jerarquía de la organización.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 10/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 8127c694d21064392b1932525a87044b9554973d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6bb16ada206434c0588ed6c140a49b6a5d94d7ed
+ms.sourcegitcommit: a3fbcd63f10f204350a058a124ba80abeb34309e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181827"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "2564176"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Definiciones de organigramas en informes financieros
 
@@ -50,7 +50,7 @@ Una definición del organigrama contiene las columnas que se describen en la tab
 
 | Columna del organigrama | Descripción |
 |-----------------------|-------------|
-| Empresa               | El nombre de la empresa para el organigrama. El valor **@ANY**, que normalmente se asigna solo al nivel de resumen, permite usar el organigrama para todas las compañías. Todas las ramas secundarias tienen una compañía asignada. |
+| Compañía               | El nombre de la empresa para el organigrama. El valor **\@ANY**, que normalmente se asigna solo al nivel de resumen, permite usar el organigrama para todas las compañías. Todas las ramas secundarias tienen una compañía asignada. |
 | Nombre de la unidad             | El código que identifica esta unidad de notificación en el organigrama gráfico. Asegúrese de establecer un sistema de codificación único que sea coherente y que vaya a ser fácil de comprender para los usuarios. |
 | Descripción de la unidad      | El título de la unidad de notificación aparece en el encabezado o el pie de página del informe si especifica **UnitDesc** como código en la pestaña **Encabezados y pies de página** de la definición del informe. El título aparece en la descripción de la fila del informe si especifica **UnitDesc** en la celda **Descripción** de la definición de la fila |
 | Dimensiones            | Una unidad de notificación que recaba información directamente de los datos financieros. Define la colocación y las longitudes lógicas para la cuenta y los segmentos relacionados. Cada fila de unidad organizacional debe tener una dimensión en esta columna. También puede colocar una dimensión en una fila de unidad de resumen (por ejemplo, para los gastos que están relacionados directamente con esa unidad). Si especifica una dimensión en una fila de resumen de unidad, las cuentas que se usan en unidades principales no se deben usar en unidades secundarias. De lo contrario, se pueden duplicar los importes. |

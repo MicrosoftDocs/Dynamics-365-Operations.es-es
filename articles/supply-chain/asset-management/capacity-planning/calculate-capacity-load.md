@@ -18,19 +18,19 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 82f65293679591f278e0e3b79c112ba36debc3bb
-ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.openlocfilehash: da737cedfcd678a835e85a2b82a05394d771f8cc
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2277952"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652273"
 ---
 # <a name="calculate-capacity-load"></a>Calcular carga de capacidad
 
 [!include [banner](../../includes/banner.md)]
 
 
-En Administración de activos, puede calcular la carga de capacidad en
+En Administración de activos, puede calcular la carga de capacidad en:
 
 - líneas del programa de mantenimiento  
 - órdenes de trabajo que aún no se han programado  
@@ -46,16 +46,18 @@ Esto resulta útil si desea obtener una visión general de la carga de capacidad
 
 4. Seleccione "Sí" en el botón de alternar **Incluir orden de trabajo** si desea incluir trabajos de orden de trabajo en el cálculo.
 
-5. Puede usar el campo **Nivel** para indicar el nivel de detalle que desea para las líneas de carga de capacidad con respecto a las ubicaciones técnicas. Por ejemplo, si especifica el número "1" en el campo, y tiene una estructura de ubicación técnica de varios niveles, todas líneas del programa de mantenimiento y órdenes de trabajo para una ubicación técnica se mostrarán en el nivel superior, y por tanto, las horas en una línea se pueden agregar desde las ubicaciones técnicas ubicadas en un nivel inferior. Si especifica el número "0" en el campo **Nivel**, verá un resultado detallado que muestra todas las líneas del programa de mantenimiento y todas las órdenes de trabajo en todos los niveles de la ubicación técnica con el que están relacionadas.
+5. Puede usar el campo **Nivel** para indicar el nivel de detalle que desea para las líneas de carga de capacidad con respecto a las ubicaciones técnicas. 
+
+    Por ejemplo, si especifica el número "1" en el campo, y tiene una estructura de ubicación técnica de varios niveles, todas líneas del programa de mantenimiento y órdenes de trabajo para una ubicación técnica se mostrarán en el nivel superior, y por tanto, las horas en una línea se pueden agregar desde las ubicaciones técnicas ubicadas en un nivel inferior. 
+    
+    Si especifica el número "0" en el campo **Nivel**, verá un resultado detallado que muestra todas las líneas del programa de mantenimiento y todas las órdenes de trabajo en todos los niveles de la ubicación técnica con el que están relacionadas.
 
 6. Haga clic en **Aceptar** para iniciar el cálculo.
 
-7. En los grupos del panel de acciones **Agrupar por...**, haga clic en los botones relevantes para mostrar el nivel de detalle necesario del cálculo. Se resaltarán en color azul los botones del grupo del panel de acciones seleccionados. Haga clic en un botón para activarlo o desactivarlo.
+7. En los grupos **Agrupar por...**, haga clic en los botones relevantes para mostrar el nivel de detalle necesario del cálculo. En la captura de pantalla siguiente, los botones **Agrupar por** seleccionados se destacan en color azul. Haga clic en un botón para activarlo o desactivarlo.
 
-La ilustración siguiente muestra un ejemplo de interfaz.
-
-![Figura 1](media/01-capacity-planning.png)
+    ![Figura 1](media/01-capacity-planning.png)
 
 >[!NOTE]
->Si desea centrarse únicamente en el diseño de la capacidad en relación a las órdenes de trabajo programadas, consulte [Calcular la carga de capacidad en órdenes de trabajo programadas](../work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md).
+>Si desea centrarse únicamente en el diseño de la capacidad en relación a las órdenes de trabajo programadas, vea [Calcular la carga de capacidad en órdenes de trabajo programadas](../work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md).
 

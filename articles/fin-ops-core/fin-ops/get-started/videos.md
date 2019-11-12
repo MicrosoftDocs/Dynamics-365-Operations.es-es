@@ -3,7 +3,7 @@ title: Vídeos
 description: Esta página muestra los vídeos de procedimientos y de charlas técnicas creadas por aplicaciones de Finance and Operations que están disponibles en YouTube y en otros sitios.
 author: josaw1
 manager: AnnBe
-ms.date: 09/13/2019
+ms.date: 10/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 7792fe6f5b79e78acabba16c2a551f417688215a
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: fb14ffa500fcf84030eca075545716a79d7b2b27
+ms.sourcegitcommit: fbd6d027ef3b50c056260e30e78066839efa3ddb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190842"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "2635112"
 ---
 # <a name="videos"></a>Vídeos 
 
@@ -117,6 +117,9 @@ En el [Canal de YouTube de Microsoft Dynamics 365](https://www.youtube.com/chann
 ### <a name="help-system"></a>Sistema de ayuda
 
 - [Cómo contribuir a la documentación de Microsoft Dynamics 365](https://youtu.be/m5djioozRbg)
+
+### <a name="master-planning"></a>Planificación maestra
+- [Asistencia de configuración de planificación maestra](https://youtu.be/c-e6n-8rZb4)
 
 ### <a name="office-integration"></a>Integración con Office
 

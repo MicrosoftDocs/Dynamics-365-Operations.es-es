@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c85fc24cdf0b3cd1a188ccf0f477ffbfa5fab960
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: f0a8fcf26da02bd42f6ee45687c585091e3b945e
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783562"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570987"
 ---
 # <a name="maintenance-workers-and-worker-groups"></a>Trabajadores de mantenimiento y grupos de trabajadores
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Este tema explica los trabajadores de mantenimiento y grupos de trabajadores en la Administración de activos. En Administración de activos, puede conectar trabajadores de mantenimiento a ubicaciones técnicas. (Para obtener más información acerca de las ubicaciones técnicas, consulte [Crear ubicaciones técnias](../functional-locations/create-functional-locations.md)). Esta función puede ser útil si, por ejemplo, se está programando un trabajo de mantenimiento en un equipo ubicado en la ubicación técnica 01 y desea asignar a trabajadores de mantenimiento de la misma ubicación para efectuar el trabajo.
 

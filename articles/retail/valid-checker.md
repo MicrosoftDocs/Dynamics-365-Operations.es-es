@@ -3,7 +3,7 @@ title: Comprobador de coherencia de transacción comercial
 description: Este tema describe la funcionalidad del comprobador de coherencia de transacción comercial en Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
-ms.date: 05/30/2019
+ms.date: 10/14/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 0413c2b236e442fb56098f1902b4d5b247ed4649
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: b956565ac15b3d7b638cedaadc20923ee87b9c61
+ms.sourcegitcommit: 0262a19e32b2c0c84c731d9f4fbe8ba91822afa3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2018432"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2622606"
 ---
 # <a name="retail-transaction-consistency-checker"></a>Comprobador de coherencia de transacción comercial
 
@@ -59,11 +59,14 @@ El proceso por lotes **Validar transacciones de la tienda** comprueba la coheren
 - **Artículo de tarjeta regalo**: Retail no admite la devolución de artículos de tarjeta regalo. Sin embargo, el saldo de una tarjeta regalo se puede cobrar. Cualquier artículo de tarjeta regalo que se procese como línea de devolución en lugar de una línea de cobro en efectivo produce un error en el proceso de registro de extractos. El proceso de validación para artículos de tarjeta regalo ayuda a garantizar que los únicos artículos de línea de tarjeta regalo de devolución en las tablas de transacciones comerciales son líneas de cobro en efectivo de tarjetas regalo.
 - **Precio negativo**: valida que no hay líneas de transacción de precio negativo.
 - **Artículo y variante**: valida que los artículos y variantes de las líneas de transacción existen en el archivo maestro de variante y artículo.
-- **Importe de impuestos**: valida que los registros de impuestos coinciden con los importes de impuestos en las líneas. 
+- **Importe de impuestos**: valida que los registros de impuestos coinciden con los importes de impuestos en las líneas.
+- **Número de serie**: comprueba que el número de serie está presente en las líneas de transacción para artículos controlados por el número de serie.
+- **Signo**: comprueba que el signo de la cantidad y el importe neto son los mismos en todas las líneas de transacción.
+- **Fecha de negocio**: valida que los períodos financieros para todas las fechas de negocio para las transacciones comerciales están abiertos.
 
 ## <a name="set-up-the-consistency-checker"></a>Configurar el comprobador de coherencia
 
-Configurar el proceso por lotes "Validan transacciones de la tienda", en **Venta minorista \> TI de venta minorista \> Registro de PDV**, para ejecuciones periódicas. El trabajo por lotes se puede programar según la jerarquía organizativa de la tienda, similar a cómo se configuran los procesos "Calcular extracto en lote" y "Registrar extracto en lote". Es recomendable que configure este proceso por lotes para ejecutar varias veces en un día y programarlo de modo que se ejecute al final de cada ejecución de trabajo P.
+Configure el proceso por lotes "Validar transacciones de la tienda", en **Venta minorista \> TI de venta minorista \> Registro de PDV**, para ejecuciones periódicas. El trabajo por lotes se puede programar según la jerarquía organizativa de la tienda, similar a cómo se configuran los procesos "Calcular extracto en lote" y "Registrar extracto en lote". Es recomendable que configure este proceso por lotes para ejecutar varias veces en un día y programarlo de modo que se ejecute al final de cada ejecución de trabajo P.
 
 ## <a name="results-of-validation-process"></a>Resultados del proceso de validación
 

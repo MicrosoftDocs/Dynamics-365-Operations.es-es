@@ -3,7 +3,7 @@ title: Definiciones de columna en los informes financieros
 description: Este artículo proporciona información acerca de las definiciones de columnas. Una definición de columna es un componente de informe, o bloque de creación, que define el contenido de las columnas de un informe. Como definiciones de filas, las definiciones de columna básicas se pueden usar en varios informes.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 76de08290058d43fbd1b4c0670db55ebcfbb8494
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 54e7d517e704b7162f3e091330a246386f0203ea
+ms.sourcegitcommit: d800613020d5548d100c8f240fb81bb6258a3646
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174314"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "2572650"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Definiciones de columna en los informes financieros
 
@@ -170,7 +170,7 @@ Puede usar la caja de diálogo **Encabezado de columna** para agregar, modificar
 
 ### <a name="create-an-automatically-generated-header"></a>Crear un encabezado generado automáticamente
 
-El diseñador de informes puede generar automáticamente encabezados de columna, en función de códigos de autotexto. Los códigos de Autotexto son variables que se actualizan cada vez que un informe se genera. Cualquier encabezado de columna puede incluir estos códigos para especificar la información de informe que puede variar, como fechas o números de período. Por lo tanto, puede usar una definición de columna para las definiciones de varios informes, períodos de tiempo y organigramas. Dado que los códigos de autotexto confían en la información del calendario de las filas de detalle de la definición de la columna, se admiten solo para las columnas **CALC** y **FD**. La forma en que un código de autotexto aparece en la celda de encabezado de columna afecta a cómo dicha información aparece en el informe. En el cuadro de diálogo **Encabezado de columna**, los códigos de autotexto aparecen en mayúscula y minúscula. Por lo tanto, el texto aparece en mayúsculas y minúsculas en el informe. Por ejemplo, en un año natural estándar, **@CalMonthLong** resuelve el mes **7** en **Julio**. Si el nombre del mes debe aparecer en mayúsculas (por ejemplo, **JULIO**), introduzca el código de autotexto en mayúsculas en el campo **Encabezado de columna**. Por ejemplo, introduzca **@CALMONTHLONG**. Puede mezclar códigos y el texto. Por ejemplo, puede especificar el siguiente texto de encabezado: **Period @FiscalPeriod-@FiscalYear from @StartDate to @EndDate**. El encabezado del informe que se genera se asemeja al texto siguiente: **Período 1-02 desde 01/01/02 a 01/31/02**.
+El diseñador de informes puede generar automáticamente encabezados de columna, en función de códigos de autotexto. Los códigos de Autotexto son variables que se actualizan cada vez que un informe se genera. Cualquier encabezado de columna puede incluir estos códigos para especificar la información de informe que puede variar, como fechas o números de período. Por lo tanto, puede usar una definición de columna para las definiciones de varios informes, períodos de tiempo y organigramas. Dado que los códigos de autotexto confían en la información del calendario de las filas de detalle de la definición de la columna, se admiten solo para las columnas **CALC** y **FD**. La forma en que un código de autotexto aparece en la celda de encabezado de columna afecta a cómo dicha información aparece en el informe. En el cuadro de diálogo **Encabezado de columna**, los códigos de autotexto aparecen en mayúscula y minúscula. Por lo tanto, el texto aparece en mayúsculas y minúsculas en el informe. Por ejemplo, en un año de calendario estándar, **\@CalMonthLong** convierte el mes **7** en **Julio**. Si el nombre del mes debe aparecer en mayúsculas (por ejemplo, **JULIO**), introduzca el código de autotexto en mayúsculas en el campo **Encabezado de columna**. Por ejemplo, introduzca **\@CALMONTHLONG**. Puede mezclar códigos y el texto. Por ejemplo, puede especificar el siguiente texto de encabezado: **Period \@FiscalPeriod-\@FiscalYear de \@StartDate a \@EndDate**. El encabezado del informe que se genera se asemeja al texto siguiente: **Período 1-02 desde 01/01/02 a 01/31/02**.
 
 > [!NOTE]
 > El formato de parte del texto, como la fecha larga, depende de la configuración regional en el servidor. Para cambiar estos ajustes, haga clic en el botón **Iniciar**, haga clic en **Panel de control** y luego en **Región y idioma**. En la tabla siguiente se enumeran las opciones disponibles de autotexto para encabezados de columna.

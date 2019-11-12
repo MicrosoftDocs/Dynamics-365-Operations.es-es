@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 03e200a5b5679d6e68592fbdba2354ae9f7f1b75
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2becf8213cfa46e2c0cf0c553f0b5e503dfc3704
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179736"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570249"
 ---
 # <a name="general-journal-processing"></a>Procesamiento de diarios generales
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Este tema describe las capacidades que pueden facilitar el proceso del diario general y que también puede ayudar a garantizar que se capturan los datos correctos y que no se pone en peligro el control interno.  
 

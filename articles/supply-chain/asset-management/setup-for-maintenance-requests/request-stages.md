@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f68e11a1cd14bc35282b957a4262cbecdd627b3b
-ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
+ms.openlocfilehash: 151db9ca8a121759e39b690ec296b36a18dc1729
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1790538"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571171"
 ---
-# <a name="maintenance-request-states"></a>Estados de solicitudes de mantenimiento
+# <a name="maintenance-request-lifecycle-states"></a>Estados de ciclo de vida de solicitud de mantenimiento
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 
 Los estados de ciclo de vida de solicitud de mantenimiento definen las etapas por las que puede pasar una solicitud. Los ejemplos incluyen **Creada**, **Activa** y **Finalizada**. Cuando una solicitud de mantenimiento se convierte en una orden de trabajo, el estado del ciclo de vida de la solicitud de mantenimiento se debe actualizar a **Finalizada** o **Cerrada** para indicar que la solicitud de mantenimiento ya no está activa. En la página de lista **Todas las solicitudes de mantenimiento**, puede ver todas las solicitudes de mantenimiento, independientemente de su estado de ciclo de vida.
@@ -51,7 +51,7 @@ Los estados de ciclo de vida de solicitud de mantenimiento definen las etapas po
 
 La ilustración siguiente muestra un ejemplo de la página **Estados de ciclo de vida de solicitud de mantenimiento**.
 
-![Figura 1](media/02-setup-for-requests.png)
+![Página de estados de ciclo de vida de solicitud de mantenimiento](media/02-setup-for-requests.png)
 
 > [!NOTE]
 > Los estados de ciclo de vida de solicitud de mantenimiento, los grupos de estados de ciclo de vida y sus tipos están relacionados con (y se usan del mismo modo que) los estados de ciclo de vida de la orden de trabajo, los grupos de estados de ciclo de vida y sus tipos. 
@@ -80,4 +80,4 @@ Una vez que haya creado los estados de ciclo de vida necesarios para sus solicit
 
 La ilustración siguiente muestra un ejemplo de la página **Modelos de ciclo de vida de solicitud de mantenimiento**.
 
-![Figura 2](media/06-setup-for-requests.png)
+![Página de modelos de ciclo de vida de solicitud de mantenimiento](media/06-setup-for-requests.png)

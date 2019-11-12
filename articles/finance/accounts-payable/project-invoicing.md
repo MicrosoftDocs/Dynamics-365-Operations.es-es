@@ -3,7 +3,7 @@ title: Facturación del proyecto
 description: Este artículo proporciona una visión general de la facturación del proyecto para Proyectos de tiempo y material y Proyectos de precio fijo. Incluye información acerca de las propuestas de factura (facturas preliminares), control de facturas, facturación a cuenta, facturación de proveedor y notas de abono.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/24/2017
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3d91f6b1ccc3254e2c04d24c5f9bf2014c64e50
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a68ed1cf21039ec1077bae428dea242f19514b51
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179852"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658629"
 ---
 # <a name="project-invoicing"></a>Facturación del proyecto
 
@@ -55,6 +55,9 @@ Puede crear propuestas de factura para las transacciones siguientes:
 -   Importes retenidos por los clientes en las facturas de proyecto anteriores
 -   Notas de abono
 -   Importes que un cliente le pagó antes del inicio de un proyecto
+
+> [!NOTE]
+> La función **Habilitar la ordenación por recurso durante la creación de la propuesta de factura del proyecto** permite al contable del proyecto ordenar las transacciones del proyecto disponibles para facturación en función del recurso al crear una nueva propuesta de factura del proyecto. La cuadrícula que muestra las transacciones de proyecto disponibles tendrá un campo diferente para el Id. de recurso y el recurso, lo que permite que el usuario filtre y clasifique en el nombre del recurso. Esta función se deshabilita de forma predeterminada y se puede habilitar en **Áreas de trabajo > Administración de características**. Póngase en contacto con el administrador del sistema para obtener ayuda para habilitar esta función.
 
 Puede crear transacciones de gastos en una propuesta de factura. También puede modificar el precio de ventas en horas, gastos, artículos y transacciones de gastos. Cuando se registra una propuesta de factura, los precios y las transacciones actualizadas se agregan a los informes de proyecto y al historial de la transacción. 
 

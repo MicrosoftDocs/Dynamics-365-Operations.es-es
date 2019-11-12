@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 486782968816cc585d9cf2d753f32e82f85e4f7e
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 8f3b771319eeb602a371500fdc69c68f88afe341
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874794"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571746"
 ---
 # <a name="update-maintenance-budgets"></a>Actualizar presupuestos de mantenimiento
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 La página **Líneas de presupuesto de mantenimiento** muestra todas las líneas de presupuesto que se han creado para el presupuesto seleccionado en la página **Presupuestos de mantenimiento**. (Para obtener más información, consulte [Crear presupuestos de mantenimiento](create-maintenance-budget.md).) Puede volver a calcular y ajustar las líneas de presupuesto de mantenimiento hasta que se apruebe el presupuesto de mantenimiento. Una vez que haya pasado el periodo del presupuesto y se hayan registrado los costes en Administración de activos, también puede actualizar las líneas de presupuesto con los costes reales.
 

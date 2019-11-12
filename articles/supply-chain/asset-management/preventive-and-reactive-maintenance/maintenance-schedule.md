@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: af2152b334b51db48b60aa966ab49bf480c29bbc
-ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
+ms.openlocfilehash: fab21d6f3a1b7386d304ece6ebf3b93cdc0c504d
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1922146"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570016"
 ---
 # <a name="maintenance-schedule"></a>Programa de mantenimiento
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 El programa de mantenimiento contiene una lista de todos los planes de mantenimiento preventivo, solicitudes de mantenimiento y rondas de mantenimiento que se van a realizar. Puede que algunas líneas de programación se hayan convertido en órdenes de trabajo.
 

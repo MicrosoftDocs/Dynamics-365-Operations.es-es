@@ -16,14 +16,14 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5b5ac2f817ffadc58d10f546d047ff5110d5f5a
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e38b6a67795aa88aa7e8007808db1045c2774a22
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175721"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2552346"
 ---
-# <a name="scope-of-the-mexican-localization"></a>Ámbito de la localización mexicana
+# <a name="scope-of-mexican-localization"></a>Ámbito de localización mexicana
 
 [!include[banner](../includes/banner.md)]
 

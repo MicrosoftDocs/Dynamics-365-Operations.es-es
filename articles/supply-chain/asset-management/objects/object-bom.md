@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 761364c8c58258baf2268f917cb174ac300c4528
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: 02686c97a19fa86c3ea93d7c400067f0855b5c4d
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783584"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571493"
 ---
 # <a name="asset-boms"></a>L. MAT de activos
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Este tema describe las listas de materiales (BOM) de activos en Administración de activos. La página **L. MAT de activos** muestra una lista de todos los elementos (piezas de repuesto y otros) que se utilizan en un activo durante su vida útil completa. Al crear un nuevo activo, debe considerar configurar una L. MAT de activos como parte del procedimiento de configuración. De esta manera, puede realizar un seguimiento del historial de artículos para el activo a partir de la fecha de creación.
 

@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c035f54e833b9bc25b4502901cf307213789b439
-ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
+ms.openlocfilehash: 4a7c57452b2f639b1f1b76bc79959c620c58ace1
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1922192"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571309"
 ---
 # <a name="maintenance-downtime"></a>Tiempo de inactividad por mantenimiento
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 El tiempo de inactividad por mantenimiento se utiliza para obtener una visión general de la capacidad necesaria para llevar a cabo trabajos de mantenimiento en determinados activos durante un período concreto. Por ejemplo, puede crear un registro de tiempo de inactividad por mantenimiento para la Línea de producción 10 en la Sala de producción 29-A del sitio de producción 02. El registro de tiempo de inactividad por mantenimiento tiene una fecha de inicio y una hora de finalización que indican el periodo en el que los activos relacionados con la parada por mantenimiento no están disponibles para la producción.
 

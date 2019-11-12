@@ -3,7 +3,7 @@ title: Adquisición
 description: Este tema explica el proceso de adquisición en Administración de activos.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,66 +16,67 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1678dbe2432e4be46aebb40a12e73dfd695c3e77
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: ec14f645af5dfdb3e840624e4cec95c46cfbbc25
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875880"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626440"
 ---
 # <a name="procurement"></a>Adquisición
 
-
 [!include [banner](../../includes/banner.md)]
-
-[!include [banner](../../includes/preview-banner.md)]
 
 En Administración de activos, puede obtener una visión general de las solicitudes de compra y los pedidos de compra relacionados con órdenes de trabajo. También es posible crear un pedido de compra o una solicitud de compra a partir de una orden de trabajo.
 
-En la lista **Solicitud de compra de orden de trabajo** (**Administración de activos** > **Común** > **Adquisición** > **Solicitud de compra de orden de trabajo**), verá una lista de solicitudes de compra relacionadas con órdenes de trabajo.
+En la página de lista **Solicitud de compra de orden de trabajo** (**Administración de activos** > **Común** > **Adquisición** > **Solicitud de compra de orden de trabajo**), se ve una lista de solicitudes de compra relacionadas con órdenes de trabajo. Cuando selecciona un trabajo de orden de trabajo en esta página, puede utilizar los botones del grupo **Mostrar** de la ficha del panel de acciones **Solicitud de compra del pedido de trabajo** para realizar distintas acciones:
 
-- Seleccione una tarea de una orden de trabajo en la lista **Solicitud de compra de orden de trabajo** y haga clic en el botón **Solicitud de compra** para abrir la solicitud de compra relacionada.  
-- Seleccione una tarea de una orden de trabajo en la lista **Solicitud de compra de orden de trabajo** y haga clic en el botón **Orden de trabajo** para abrir la orden de trabajo relacionada.  
-- Seleccione una tarea de una orden de trabajo en la lista **Solicitud de compra de orden de trabajo** y haga clic en el botón **Dónde se usa el artículo** si desea obtener una visión general de dónde se usa el artículo en la línea seleccionada en Administración de activos en relación con los activos, los valores predeterminados del tipo de trabajo de mantenimiento, los recambios y las órdenes de trabajo. 
+- Para abrir la solicitud de compra relacionada, seleccione **solicitud de compra**. 
+- Para abrir la orden de trabajo relacionada, seleccione **Orden de trabajo**.
+- Para obtener una visión general de dónde se usa el artículo de la línea seleccionada en Administración de activos, en relación con los activos, los valores predeterminados de los tipos de trabajo de mantenimiento, las piezas de repuesto y las órdenes de trabajo en la administración de activos, seleccione **Dónde se usó el artículo**. Para obtener más información sobre esta información general, consulte [Dónde se usó el artículo](../controlling-and-reporting/item-where-used.md).
+
+La ilustración siguiente muestra un ejemplo de la página de lista **Solicitud de compra de orden de trabajo**.
 
 ![Figura 1](media/08-work-orders.png)
 
 
-En la lista **Solicitud de compra de orden de trabajo** (**Administración de activos de la empresa** > **Común** > **Adquisición** > **Compra de orden de trabajo**), puede ver una lista de pedidos de compra relacionadas con órdenes de trabajo.
+En la página de lista **Solicitud de compra de orden de trabajo** (**Administración de activos** > **Común** > **Adquisición** > **Solicitud de compra de orden de trabajo**), se ve una lista de órdenes de compra relacionadas con órdenes de trabajo. Cuando selecciona un trabajo de orden de trabajo en esta página, puede utilizar los botones del grupo **Mostrar** de la ficha del panel de acciones **Compra del pedido de trabajo** para realizar distintas acciones:
 
-- Seleccione una tarea de una orden de trabajo en la lista **Compra de orden de trabajo** y haga clic en el botón **Pedido de compra** para abrir el pedido de compra relacionado.  
-- Seleccione una tarea de una orden de trabajo en la lista **Solicitud de compra de orden de trabajo** y haga clic en el botón **Orden de trabajo** para abrir la orden de trabajo relacionada.  
-- Seleccione una tarea de la orden de trabajo en la lista de compra **Orden de trabajo** y haga clic en el botón **Dónde se usa el artículo** si desea obtener una visión general de dónde se usa el artículo en la línea seleccionada en Administración de activos en relación con los activos, los valores predeterminados del tipo de trabajo de mantenimiento, los recambios y las órdenes de trabajo. 
+- Para abrir la orden de compra relacionada, seleccione **Orden de compra**. 
+- Para abrir la orden de trabajo relacionada, seleccione **Orden de trabajo**.
+- Para obtener una visión general de dónde se usa el artículo de la línea seleccionada en Administración de activos, en relación con los activos, los valores predeterminados de los tipos de trabajo de mantenimiento, las piezas de repuesto y las órdenes de trabajo en la administración de activos, seleccione **Dónde se usó el artículo**. Para obtener más información sobre esta información general, consulte [Dónde se usó el artículo](../controlling-and-reporting/item-where-used.md).
+
+La ilustración siguiente muestra un ejemplo de la página de lista **Compra de orden de trabajo**.
 
 ![Figura 2](media/09-work-orders.png)
 
 
-En las listas que se muestra anteriormente, a la derecha de cada línea se coloca un icono relativo al control de fecha de entrega. Si el icono muestra un signo de exclamación en un círculo rojo, significa que se puede retrasar la entrega en la solicitud de compra o el pedido de compra relacionado.
+En la página de lista **Compra de orden de trabajo** y la página de lista **Solicitud de compra del pedido de trabajo**, un símbolo relacionado con el control de fecha de entrega aparece a la derecha de cada línea. Si el símbolo muestra un signo de exclamación en un círculo rojo, significa que se puede retrasar la entrega de la solicitud de compra o el pedido de compra relacionado.
 
-En una solicitud de compra, la fecha usada para calcular el posible retraso se encuentra en el formulario **Solicitudes de compra** > ficha desplegable **Encabezado de solicitud de compra** > campo **Fecha solicitada**. Esa fecha se compara con la fecha disponible en la orden de trabajo o la tarea de orden de trabajo de la misma manera que la fecha del pedido de compra.
+Para un pedido de compra, la fecha que está relacionada con la línea de pedido de compra se usa para calcular un retraso posible. Para ver esta fecha, en la página **Pedido de compra**, seleccione la línea de pedido de compra. La fecha se muestra en el campo **Fecha de entrega confirmada** en la pestaña **Configuración** de la ficha desplegable **Detalles de línea**. Si el campo **Fecha de entrega confirmada** no se establece, la fecha del campo **Fecha de entrega** en la ficha desplegable **Encabezado del pedido de compra** se usa para el cálculo. Una de esas fechas se compara con la fecha disponible en la orden de trabajo o la tarea de orden de trabajo en el orden siguiente:
 
-En un pedido de compra, la fecha que se usa para calcular un posible retraso es la fecha relacionada con la línea del pedido de compra, que se muestra en el formulario **Pedido de compra** > seleccione la línea del pedido de compra > ficha desplegable **Detalles de línea** > pestaña **Configuración** > campo **Fecha de entrega confirmada**. Si ese campo no se rellena, se utiliza la fecha en el campo **Fecha de entrega** en la ficha desplegable **Encabezado del pedido de compra**. Una de esas fechas se compara con la fecha disponible en la orden de trabajo o la tarea de orden de trabajo en el orden siguiente:
+1. Fecha de inicio real en la orden de trabajo  
 
-- Fecha de inicio real en la orden de trabajo, o  
+2. Fecha de inicio programada en la tarea de orden de trabajo relacionada 
 
-- Fecha de inicio programada en la tarea de orden de trabajo relacionada, o  
+3. Fecha de inicio programada en la orden de trabajo 
 
-- Fecha de inicio programada en la orden de trabajo, o  
+4. Fecha de inicio prevista en la orden de trabajo 
 
-- Fecha de inicio prevista en la orden de trabajo  
+En una solicitud de compra, la fecha usada en el campo **Fecha solicitada** en la ficha desplegable **Encabezado de solicitud de compra** de la página **Solicitudes de compra** se usa para calcular un posible retraso. La fecha de ese campo se compara con la fecha disponible en la orden de trabajo o la tarea de orden de trabajo en la mismo orden que se usa para una orden de trabajo.
 
 
-## <a name="create-purchase-order-from-a-work-order"></a>Crear pedido de compra desde una orden de trabajo
+## <a name="create-a-purchase-order-from-a-work-order"></a>Crear un pedido de compra desde una orden de trabajo
 
-En **Todas las órdenes de trabajo**, seleccione una tarea de la orden de trabajo y cree un pedido de compra o una solicitud de compra relacionada. Esto se hace para garantizar las relaciones de proyectos entre el pedido de compra o la solicitud de compra y la orden de trabajo.
+En la página de lista **Todas las órdenes de trabajo**, puede seleccionar una tarea de orden de trabajo y luego crear una orden de pedido de compra o una solicitud de compra relacionada. De esta forma, esto ayuda a garantizar que haya relaciones de proyectos entre el pedido de compra o la solicitud de compra y la orden de trabajo.
 
-1. Haga clic en **Administración de activos** > **Común** > **Órdenes de trabajo** > **Todas las órdenes de trabajo** u **Órdenes de trabajo activas**.
+1. Seleccione **Administración de activos** > **Común** > **Órdenes de trabajo** > **Todas las órdenes de trabajo** u **Órdenes de trabajo activas**.
 
-2. En la lista **Todas las órdenes de trabajo** u **Órdenes de trabajo activas**, seleccione la orden de trabajo para la que desea crear un pedido de compra y haga clic en **Editar**.
+2. Seleccione el pedido de trabajo para crear para él una orden de compra y, a continuación, seleccione **Editar**.
 
-3. En el formulario **Orden de trabajo** > ficha desplegable **Trabajos de mantenimiento de orden de trabajo**, seleccione la tarea de la orden de trabajo para la que desea crear el pedido de compra.
+3. En la ficha desplegable **Trabajos de mantenimiento de orden de trabajo**, seleccione la tarea de la orden de trabajo para la que desea crear el pedido de compra.
 
 4. Haga clic en **Tareas del artículo** > **Pedido de compra de la tarea de la orden de trabajo**.
 
@@ -84,17 +85,18 @@ En **Todas las órdenes de trabajo**, seleccione una tarea de la orden de trabaj
 6. Cree el pedido de compra.
 
 >[!NOTE]
->La creación de una solicitud de compra es casi idéntica a la creación de un pedido de compra. La única diferencia es que en el proceso anterior, hace clic en **Tareas del artículo** > **Solicitud de compra de la tarea de la orden de trabajo** en el paso 2.
+>Para crear una solicitud de compra relacionada, siga los mismos pasos. Sin embargo, seleccione **Tareas de artículo** > **Solicitud de compra de trabajo del pedido de trabajo** en el paso 4.
+
 
 ## <a name="project-relation-between-work-order-and-purchase-order-or-purchase-requisition"></a>Relación de proyectos entre orden de trabajo y pedido de compra o solicitud de compra
 
-Una línea de pedido de compra o de solicitud de compra se relaciona con una tarea de orden de trabajo a través del proyecto de la orden de trabajo y el número de la actividad del proyecto relacionado. Cuando cree un pedido de compra o una solicitud de compra desde una tarea de orden de trabajo, el número de la actividad del proyecto relacionado es obligatorio. El número de la actividad del proyecto se inserta automáticamente en un pedido de compra o una solicitud de compra si la orden de trabajo relacionada contiene tareas de la orden de trabajo que utilizan todas el mismo tipo de trabajo de mantenimiento. Si las tareas de la orden de trabajo contienen distintos tipos de trabajo de mantenimiento, el número de la actividad del proyecto se debe insertar manualmente.
+Una línea de pedido de compra o de solicitud de compra se relaciona con una tarea de orden de trabajo a través del proyecto de la orden de trabajo y el número de la actividad del proyecto relacionado. Cuando cree un pedido de compra o una solicitud de compra desde una tarea de orden de trabajo, el número de la actividad del proyecto relacionado es obligatorio. Si todos los trabajos de órdenes de trabajo de la orden de trabajo relacionada tienen el mismo tipo de trabajo de mantenimiento, el número de actividad de proyecto se introduce automáticamente en la orden de trabajo o la solicitud de compra. Si los trabajos de órdenes de trabajo tienen tipos de trabajo de mantenimiento diferentes, tiene que introducir manualmente el número de actividad de proyecto en la orden de trabajo o la solicitud de compra.
 
-Para ver o insertar el número de la actividad relacionada con una línea de pedido de compra, abra **Compra de orden de trabajo** > seleccione el registro del pedido de compra > haga clic en el pedido de compra en la columna **Pedido de compra** > ficha desplegable **Detalles de línea** > pestaña **Proyecto** > campo **Número de actividad**.
+Para ver o especificar el número de actividad relacionado con una línea de pedido de compra, en la página de lista **Compra de orden de trabajo**, seleccione el registro del pedido de compra y, a continuación, en la columna **Pedido de compra**, seleccione el vínculo para el pedido de compra. Puede encontrar el campo **Número de actividad** en la pestaña **Proyecto** de la ficha desplegable **Detalles de línea**.
 
+La ilustración siguiente muestra un ejemplo de la página **Pedido de compra**, con enfoque en el **Número de actividad**.
 
 ![Figura 3](media/10-work-orders.png)
 
-
-Del mismo modo, para ver o insertar el número de la actividad relacionada con una línea de solicitud de compra de una orden de trabajo, abra **Solicitud de compra de orden de trabajo** > seleccione el registro de la solicitud de compra > haga clic en la solicitud de compra en la columna **Solicitud de compra** > ficha desplegable **Detalles de línea** > pestaña **Proyecto** > campo **Número de actividad**.
+Igualmente, para ver o especificar el número de actividad relacionado con una línea de solicitud de compra de orden de trabajo, en la página de lista **Solicitud de compra de orden de trabajo**, seleccione el registro de la solicitud de compra y, a continuación, en la columna **Solicitud de compra**, seleccione el vínculo para el pedido de compra. Puede encontrar el campo **Número de actividad** en la pestaña **Proyecto** de la ficha desplegable **Detalles de línea**.
 

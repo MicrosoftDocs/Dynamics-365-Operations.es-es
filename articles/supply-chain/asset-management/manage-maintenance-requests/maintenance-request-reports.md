@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f5f1860907e3cc3c4830cc385771d5924c609ea6
-ms.sourcegitcommit: 871b76f8808a48d282f151144829323258ffc912
+ms.openlocfilehash: 0734416eccf149330b390cce897d2c254f6c698b
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1847537"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571631"
 ---
 # <a name="maintenance-request-reports"></a>Informes de solicitud de mantenimiento
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 En Administración de activos, puede generar dos informes relacionados con las solicitudes de mantenimiento. Un informe muestra los detalles y el otro informe proporciona una lista que se puede utilizar para la planificación y el seguimiento.
 
@@ -44,7 +44,7 @@ El informe **Detalles de la solicitud de mantenimiento** muestra información di
 
 La ilustración siguiente muestra un ejemplo del informe **Detalles de la solicitud de mantenimiento**.
 
-![Figura 1](media/09-manage-maintenance-requests.png)
+![Informe de detalles de solicitud de mantenimiento](media/09-manage-maintenance-requests.png)
 
 ## <a name="create-a-maintenance-request-list-report"></a>Crear un informe de lista de solicitudes de mantenimiento
 
@@ -57,4 +57,4 @@ El informe **Lista de solicitudes de mantenimiento** muestra una lista de todas 
 
 La ilustración siguiente se muestra un ejemplo del informe **Lista de solicitudes de mantenimiento** para todas las solicitudes de mantenimiento activas.
 
-![Figura 2](media/10-manage-maintenance-requests.png)
+![Informe de lista de solicitudes de mantenimiento](media/10-manage-maintenance-requests.png)

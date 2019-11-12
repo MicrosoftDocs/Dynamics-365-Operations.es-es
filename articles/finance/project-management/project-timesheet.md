@@ -18,18 +18,18 @@ ms.search.industry: Service industries
 ms.author: josaw1
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 91ecccab58e4f1582a43eac62b42c7205b383bb1
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 753c2a2905835a03b6befe817d32f993d35a5d73
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174498"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2552334"
 ---
-# <a name="microsoft-dynamics-365-project-timesheet-mobile-application"></a>Aplicación móvil Microsoft Dynamics 365 Project Timesheet
+# <a name="project-timesheet-mobile-application"></a>Aplicación móvil de la hoja de horas del proyecto
 
 [!include [banner](../includes/banner.md)]
 
-## <a name="overview"></a>Información general
+## <a name="overview"></a>Visión general
 
 La aplicación Microsoft Dynamics 365 Project Timesheet permite a los usuarios enviar y aprobar hojas de horas para los proyectos desde su dispositivo móvil (iPhone o Android). La aplicación móvil aprovecha la funcionalidad de la hoja de horas que reside en el área de Gestión de proyectos y contabilidad de Dynamics 365 Finance, mejorando la productividad y eficiencia del usuario, así como habilitando la entrada y aprobación de hojas de horas de proyecto a tiempo.
 
