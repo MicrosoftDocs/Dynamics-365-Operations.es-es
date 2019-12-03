@@ -850,6 +850,8 @@
           items:
             - name: Visión general de fidelización
               href: set-up-customer-loyalty-program.md
+            - name: Visión general de relación con los clientes
+              href: clienteling-overview.md
         - name: Pagos
           items:
             - name: Métodos de pago
@@ -1268,8 +1270,6 @@
                   href: Open-URL-in-POS.md
                 - name: Instalar el diseñador de PDV
                   href: install-pos-layout-designer.md
-                - name: Retail Modern POS en modo sin conexión
-                  href: dev-itpro/retail-modern-pos-offline.md
                 - name: Expandir la vista de pantalla POS Dual
                   href: dev-itpro/pos-dual-display-extension.md
                 - name: Extensibilidad de desencadenadores de Retail Modern POS y Cloud POS
@@ -1332,6 +1332,8 @@
                   href: dev-itpro/trigger-example-blocking-transaction.md
                 - name: Implementar una directiva de devolución mediante desencadenadores
                   href: dev-itpro/trigger-example-return-policy.md
+                - name: Eventos de extensión de registro para Application Insights
+                  href: dev-itpro/commerce-application-insights.md
             - name: Extensibilidad de comercio electrónico
               items:
                 - name: Configurar tiendas en línea
@@ -1382,7 +1384,7 @@
                   href: dev-itpro/order-attributes.md
                 - name: Atributos de cliente
                   href: dev-itpro/customer-attributes.md
-                - name: 'Servidores proxy de Typescript y C# para Retail'
+                - name: 'Servidores proxy de Retail Typescript y C#'
                   href: dev-itpro/typescript-proxy-retail-pos.md
                 - name: Ejecutar las muestras de Retail POS
                   href: dev-itpro/pos-run-samples.md

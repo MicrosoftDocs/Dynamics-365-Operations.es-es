@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 57d3b66e7ebc5a8a6e2ddda9135e27cd24535365
-ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.openlocfilehash: e77fd279ddec5eb02e226776eecb1223283313c3
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2278115"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811935"
 ---
 # <a name="help-resources-for-dynamics-365-retail"></a>Recursos de ayuda para Dynamics 365 Retail
 
@@ -81,7 +81,7 @@ Deberá configurar varios componentes para definir las relaciones entre una tien
 
 Si se le ha pedido que personalice su entorno o si es responsable de implementar y mantener el sistema, consulte el contenido del desarrollador y del administrador del sistema específico para Retail, además del contenido más general.
 
-- [Dynamics 365 Retail para profesionales de TI y desarrolladores](dev-itpro/dev-retail-home-page.md)
+- [Retail para profesionales de TI y desarrolladores](dev-itpro/dev-retail-home-page.md)
 - [Desarrollo y administración de Dynamics 365 Finance](../dev-itpro/dev-tools/developer-home-page.md)
 
 ## <a name="additional-resources"></a>Recursos adicionales

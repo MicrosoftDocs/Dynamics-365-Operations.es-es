@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: edc2f59752a32b9cd20902d0b7a1edfe3ba4d15b
-ms.sourcegitcommit: ff160a9f9879f3ec015ffef11fbc8b7c1b84a59d
+ms.openlocfilehash: 841ef8f2b7c319e0a6b3a9ce9a9e4959e70aa8cd
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552959"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812773"
 ---
 # <a name="welcome-to-dynamics-365-talent"></a>Esto es Dynamics 365 Talent
 
@@ -53,10 +53,10 @@ Explore Dynamics 365 Talent viendo el vídeo [Introducción a Dynamics 365 Talen
 Durante el trabajo con Talent, decidirá cómo estructurar su organización utilizando elementos como departamentos, trabajos y puestos. Estos son los elementos fundamentales que configurará. Se asignan empleados individuales a puestos asociados a trabajos.
 
 -   [Organizar los recursos mediante departamentos, trabajos y puestos](departments-jobs-positions.md)
--   [Configurar parámetros de recursos humanos específicos de la empresa](set-up-company-specific-hr-parameters.md)
--   [Configurar parámetros de recursos humanos en entidades jurídicas](set-up-hr-parameters-across-legal-entities.md) 
--   [Preguntas más frecuentes sobre acciones del personal](personnel-actions-faq.md)
--   [Visión general de bajas y ausencias](leave-absence-overview.md)
+-   [Configurar parámetros de recursos humanos (RR. HH.) específicos de la empresa](set-up-company-specific-hr-parameters.md)
+-   [Configurar parámetros de recursos humanos (RR. HH.) en entidades jurídicas](set-up-hr-parameters-across-legal-entities.md) 
+-   [Preguntas frecuentes sobre acciones de personal](personnel-actions-faq.md)
+-   [Gestión de bajas y ausencias](leave-absence-overview.md)
 -   [Cómo usar Dynamics 365 Talent: bajas y ausencias (vídeo)](https://www.youtube.com/watch?v=1q1UhKmO4tw)
 -   [Cómo administrar personal en Dynamics 365 Talent (vídeo)](https://www.youtube.com/watch?v=h1T5IjKKAuA)
 
@@ -64,8 +64,8 @@ Durante el trabajo con Talent, decidirá cómo estructurar su organización util
 
 Talent incluye Attract, que puede ayudarle a identificar, entrevistar y contratar candidatos que reúnan las aptitudes que su organización necesita. A medida que pasa del reclutamiento a la contratación, la aplicación Onboard puede ayudarle a traer a su nuevo empleado a la organización estableciendo expectativas precisas, proporcionando información que necesita para comenzar, conectándole con colegas y preparándole para el éxito en su nuevo rol.  
 
-- [Visión general de Attract](attract-overview.md)
-- [Visión general de Onboard](create-onboarding-experience.md)
+- [Microsoft Dynamics 365 Talent: características y funcionalidades de Attract](attract-overview.md)
+- [Introducción a Onboard](create-onboarding-experience.md)
 
 ## <a name="retain-and-motivate-employees"></a>Conservar y motivar a los empleados
 
@@ -82,17 +82,17 @@ Puede configurar planes para administrar la compensación de forma eficaz y equi
 Para ayudar a sus empleados a alcanzar los objetivos profesionales mientras atiende necesidades empresariales críticas, puede configurar objetivos, crear evaluaciones de rendimiento y seguir realimentación. Para ayudar a los empleados a desarrollar habilidades necesarias, también puede configurar instructores, tipos de curso, cursos, descripciones de curso, programas, trayectorias y sesiones antes de asignar a un instructor a un curso, o registrar a alguien para un curso. Los instructores deben existir como trabajadores, candidatos, o contactos.
 
 -   [Gestión del rendimiento](performance-management-overview.md)
--   [Alineación de las aptitudes de los recursos y las necesidades empresariales](skills.md)
--   [Administración de la formación con cursos](courses.md)
+-   [Sintonizar las aptitudes de los recursos con las necesidades empresariales](skills.md)
+-   [Configurar cursos de formación](courses.md)
 -   [Cómo administrar desarrollo de empleados en Dynamics 365 Talent (vídeo)](https://www.youtube.com/watch?v=xB8SU7fqBOQ)
 
 ## <a name="create-and-maintain-benefits"></a>Crear y mantener prestaciones
 
 Además de compensar al personal con sueldos, salarios y bonificaciones, puede desarrollar programas de prestaciones como seguro médico y planes de jubilación. También puede administrar prestaciones, como programas de préstamos, en los que la empresa presta artículos, como ordenadores o teléfonos, a sus empleados.
 
--   [Gestionar un programa de prestaciones](manage-benefit-program.md)
+-   [Definir y gestionar un programa de prestaciones](manage-benefit-program.md)
 -   [Directivas de idoneidad para prestaciones](benefit-eligibility-policies.md)
--   [Administrar artículos prestados a trabajadores](loan-items.md)
+-   [Administración de artículos que se prestan a trabajadores](loan-items.md)
 -   [Cómo administrar prestaciones de empleado en Dynamics 365 Talent (vídeo)](https://www.youtube.com/watch?v=nUWkeJTad1o)
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>Mantener el cumplimiento de normas y la seguridad en el lugar de trabajo
@@ -107,6 +107,6 @@ Talent puede ayudarle a proteger un entorno de trabajo en cumplimiento de las le
 Puede diseñar y administrar cuestionarios para recopilar información que se usa para diversos objetivos. La característica Cuestionario permite diseñar y crear cuestionarios. Cuando un cuestionario está listo, lo distribuye de manera amplia o a un conjunto específico de encuestados para que lo completen. Después de que los encuestados proporcionen sus respuestas, puede revisar y analizar los resultados.
 
 -   [Cuestionarios](questionnaires.md)
--   [Diseñar un cuestionario](design-questionnaires.md)
--   [Distribuir y completar un cuestionario](distribute-questionnaires.md)
--   [Ver y evaluar los resultados de un cuestionario](evaluate-questionnaire-results.md)
+-   [Diseñar cuestionario](design-questionnaires.md)
+-   [Distribuir y programar cuestionarios](distribute-questionnaires.md)
+-   [Ver y evaluar los resultados de los cuestionarios](evaluate-questionnaire-results.md)

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: ce6ce9c3c08a165ca19eb8d83643fd87b970f1ca
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: e9fbc0e3f3960f25930f9587d489009bc34181c7
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658745"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772246"
 ---
 # <a name="accounts-payable-home-page"></a>Página principal de proveedores
 
@@ -41,7 +41,7 @@ Puede especificar facturas de proveedor manualmente o recibirlas electrónicamen
 
 Establezca grupos de proveedores, proveedores, perfiles de contabilización, varias opciones de pago, parámetros relacionados con los proveedores, cargos, entregas y destinos, pagarés y otros tipos de información de Proveedores. 
 
-[Configuración de proveedores](accounts-payable-overview.md)
+[Visión general de la configuración de proveedores](accounts-payable-overview.md)
 
 [Distribuciones contables y asientos del subdiario contable para las facturas de proveedor](accounting-distributions-subledger-journal-entries-vendor-invoices.md) 
 
@@ -51,7 +51,7 @@ Establezca grupos de proveedores, proveedores, perfiles de contabilización, var
 
 Use Proveedores para realizar el seguimiento de las facturas y gastos de salida de los proveedores.
 
-[Conciliación de facturas de proveedores](accounts-payable-invoice-matching.md)
+[Visión general de la conciliación de facturas de proveedores](accounts-payable-invoice-matching.md)
 
 [Perfiles de contabilización del proveedor](vendor-posting-profiles.md)
 
@@ -61,7 +61,7 @@ Use Proveedores para realizar el seguimiento de las facturas y gastos de salida 
 
 [Conciliación de facturas y pedidos de compra de empresas vinculadas](invoice-matching-intercompany-purchase-orders.md)
 
-[Resolver las discrepancias durante la conciliación de los totales de las facturas](resolve-invoice-totals-invoice-matching-discrepancies.md)
+[Visión general de la resolución de discrepancias durante la conciliación de los totales de las facturas](resolve-invoice-totals-invoice-matching-discrepancies.md)
 
 [Cuentas de contrapartida predeterminadas para diarios de factura de proveedor y diarios de aprobación de facturas](default-offset-accounts-vendor-invoice-journals.md)
 
@@ -93,11 +93,11 @@ Asigne un tipo de pago definido por el sistema, como cheque, pago electrónico o
 
 [Obtener un descuento por pronto pago fuera del período de descuento por pronto pago](take-cash-discount-outside-cash-discount-timeframe.md)
 
-[Informes electrónicos para cheques de proveedor](electronic-reporting-sample-vendor-checks.md)
+[Cheques de proveedor de ejemplo para informes electrónicos](electronic-reporting-sample-vendor-checks.md)
 
 [Inversión de un pago de proveedor](reverse-vendor-payment.md)
 
-[Facturas de anticipo y visión general de anticipos](prepayments-invoices-vs-prepayments.md)
+[Facturas de anticipo frente a anticipos](prepayments-invoices-vs-prepayments.md)
 
 [Pagos centralizados para proveedores](centralized-payments-accounts-payable.md)
 
@@ -107,13 +107,13 @@ En los temas siguientes se proporciona información acerca de las liquidaciones.
 
 [Configurar liquidación](../cash-bank-management/configure-settlement.md)
 
-[Establecer un pago parcial de proveedor antes de la fecha de descuento](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
+[Liquidar un pago de proveedor parcial antes de la fecha de descuento con un pago final después de la fecha de descuento](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
 
 [Liquidar un pago de proveedor parcial con descuentos en notas de abono de proveedor](settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
 
 [Liquidar un pago de proveedor parcial con varios períodos de descuento](settle-partial-vendor-payment-multiple-discount-periods.md)
 
-[Establecer un pago parcial de proveedor o un pago final antes del descuento](settle-partial-vendor-payment-or-final-payment-before-discount.md)
+[Liquidar un pago de proveedor parcial y el pago final completamente antes de la fecha de descuento](settle-partial-vendor-payment-or-final-payment-before-discount.md)
 
 [Asiento único con varios registros de cliente o proveedor](single-voucher-multiple-customer-vendor-records.md)
 
@@ -123,7 +123,7 @@ En los temas siguientes se proporciona información acerca de las liquidaciones.
 
 #### <a name="whats-new-and-in-development"></a>Novedades y características en desarrollo
 
-Vaya a las [Notas de la versión Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) para ver qué nuevas características están planificadas. 
+Vaya a los [Planes de la versión Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) para ver qué nuevas características están planificadas. 
 
 #### <a name="blogs"></a>Blogs
 
