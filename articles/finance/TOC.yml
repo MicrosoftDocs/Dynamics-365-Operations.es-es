@@ -10,6 +10,8 @@
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/finance/toc.json
             - name: Registrarse para suscripciones de vista previa
               href: ../fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/finance/toc.json
+            - name: Información de pago del cliente (vista previa)
+              href: accounts-receivable/payment-insights-overview.md
             - name: Actualizaciones del servicio de una versión
               items:
                 - name: Visión general de las actualizaciones del servicio de una versión
@@ -1520,7 +1522,7 @@
                   href: localizations/tasks/ee-00015-payment-reference-generation-tool.md
                 - name: Informe de resguardo de pago
                   href: localizations/emea-eur-payment-slip-report-giro.md
-                - name: Caja chica
+                - name: Gastos menores
                   href: localizations/emea-petty-cash.md
                 - name: Registrar la adquisición previa de un activo fijo
                   href: localizations/emea-pre-acquisition-acquisition-fixed-asset.md
@@ -2237,8 +2239,10 @@
                       href: localizations/rus-exchange-adjustment.md
                     - name: 'Ventas, compras y transferencias en divisa extranjera'
                       href: localizations/rus-currency-sale-purchase.md
-                    - name: Caja chica
+                    - name: Gastos menores
                       href: localizations/emea-petty-cash.md
+                    - name: 'Efectivo: formularios principales locales e informes unificados'
+                      href: localizations/rus-local-primary-forms-and-unified-reports.md
                 - name: IVA
                   items:
                     - name: Registro específico nacional del IVA diferido
@@ -2255,6 +2259,8 @@
                       href: localizations/rus-sales-books-purchase-books.md
                     - name: Gestión de pagos anticipados
                       href: localizations/rus-prepayments-management.md
+                    - name: Restauración de IVA entrante
+                      href: localizations/rus-incoming-VAT-restoring.md
                 - name: Activos fijos
                   items:
                     - name: Administrar activos fijos
@@ -2313,6 +2319,14 @@
                       href: localizations/rus-cash-flow.md
                     - name: Asignación de gastos varios en proporción al peso y el volumen
                       href: localizations/rus-miscellaneous-charges.md
+                    - name: Cargos a varios terceros
+                      href: localizations/rus-third-party-misc-charges.md
+                - name: Inventario
+                  items:
+                    - name: Mercancías en tránsito de proveedor
+                      href: localizations/rus-goods-transit-vendor.md
+                    - name: Números de declaración de aduanas
+                      href: localizations/rus-custom-declaration-number.md
                 - name: Informes
                   items:
                     - name: Informes financieros
@@ -2335,6 +2349,8 @@
                       href: localizations/rus-officials.md
                     - name: Divisiones de empresas
                       href: localizations/rus-company-divisions.md
+                    - name: Formatos de dirección de Rusia e importación desde FIAS
+                      href: localizations/rus-russian-address-format-and-import-from-FIAS.md
                 - name: Aplazamientos
                   items:
                     - name: Configurar aplazamientos
@@ -2869,6 +2885,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
                         - name: Importar configuraciones de RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
+                - name: Tutoriales
+                  items:
+                    - name: Usar los orígenes de datos de JOIN para obtener datos de varias tablas de aplicación múltiple en las asignaciones de modelo de informes electrónicos (ER)
+                      href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md
+                    - name: Configurar asignaciones de modelo de ER que dependen del conexto del país
+                      href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md
                 - name: Usar soluciones de informes electrónicos en Finance and Operations
                   items:
                     - name: Configurar el marco
@@ -2903,6 +2925,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
                     - name: Visión general de la gestión de documentos empresariales
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/finance/toc.json
+                    - name: Agregar nuevos campos a una plantilla de documento empresarial en Microsoft Excel
+                      href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/finance/toc.json
                 - name: API de marco de ER
                   items:
                     - name: Ampliar la lista de funciones de informes electrónicos
