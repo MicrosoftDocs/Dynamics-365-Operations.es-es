@@ -19,18 +19,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 9a12ab249129dce24cdca5e29d737fa9f68c0eac
-ms.sourcegitcommit: 6e0909e95f38b7487a4b7f68cc62b723f8b59bd4
+ms.openlocfilehash: 9efc63c385c31a6d8848d016c1a8689460908dcc
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572458"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769669"
 ---
 # <a name="organization-hierarchy-in-common-data-service"></a>Jerarquía organizativa en Common Data Service
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview](../includes/preview-banner.md)]
 
 Como Dynamics 365 Finance es un sistema financiero, *organización* es un concepto básico y la configuración del sistema empieza con la configuración de una jerarquía organizativa. Los operaciones empresariales se pueden seguir por tanto en el nivel de la organización y también en cualquier nivel de la jerarquía organizativa.
 
@@ -46,85 +44,35 @@ Un ecosistema de negocio que conste de aplicaciones de Finance and Operations y 
 
 Los mapas de entidad de la jerarquía organizativa están disponibles para la sincronización unidireccional de datos de aplicaciones de Finance and Operations con Common Data Service.
 
+## <a name="templates"></a>Plantillas
+
+La información de producto contiene toda la información relacionada con el producto y la definición, como las dimensiones del producto o el seguimiento y las dimensiones de almacenamiento. Como la tabla siguiente muestra, una colección de mapas de la entidad se crea para sincronizar los productos y la información relacionada.
+
+Finance and Operations | Otras aplicaciones de Dynamics 365 | Descripción
+-----------------------|--------------------------------|---
+Propósitos de jerarquía organizativa | msdyn_internalorganizationhierarchypurposes | Esta plantilla proporciona la sincronización unidireccional de la entidad de propósito de la jerarquía organizativa.
+Tipo de jerarquía organizativa | msdyn_internalorganizationhierarchytypes | Esta plantilla proporciona la sincronización unidireccional de la entidad de tipo de jerarquía organizativa.
+Jerarquía organizativa - publicada | msdyn_internalorganizationhierarchies | Esta plantilla proporciona la sincronización unidireccional de la entidad publicada de la jerarquía organizativa.
+Unidad operativa | msdyn_internalorganizations | 
+Entidades jurídicas | msdyn_internalorganizations | 
+Entidades jurídicas | cdm_companies | Proporciona la sincronización bidireccional de la información de la entidad jurídica (empresa).
+
+
 [!include [banner](../includes/dual-write-symbols.md)]
 
-## <a name="internal-organization-hierarchy-purpose"></a>Propósito de jerarquía organizativa interna
+[!include [Organization hierarchy purposes](dual-write/OrganizationHierarchyPurpose-msdyn-internalorganizationhierarchypurposes.md)]
 
-Esta plantilla proporciona la sincronización unidireccional de la entidad de propósito de jerarquía organizativa de Finance and Operations a otras aplicaciones de Dynamics 365.
+[!include [Organization hierarchy type](dual-write/OrganizationHierarchyType-msdyn-internalorganizationhierarchytypes.md)]
 
-<!-- ![architecture image](media/dual-write-purpose.png) -->
-
-Campo de origen | Tipo de asignación | Campo de destino
----|---|---
-HIERARCHYTYPE | \> | msdyn\_hierarchypurposetypename
-HIERARCHYTYPE | \> | msdyn\_hierarchytype.msdyn\_name
-HIERARCHYPURPOSE | \>\> | msdyn\_hierarchypurpose
-IMMUTABLE | \>\> | msdyn\_immutable
-SETASDEFAULT | \>\> | msdyn\_setasdefault
-
-## <a name="internal-organization-hierarchy-type"></a>Tipo de jerarquía organizativa interna
-
-Esta plantilla proporciona la sincronización unidireccional de la entidad de propósito de tipo organizativo de Finance and Operations a otras aplicaciones de Dynamics 365.
-
-<!-- ![architecture image](media/dual-write-type.png) -->
-
-Campo de origen | Tipo de asignación | Campo de destino
----|---|---
-NOMBRE | \> | msdyn\_name
-
-## <a name="internal-organization-hierarchy"></a>Jerarquía organizativa interna
-
-Esta plantilla proporciona la sincronización unidireccional de la entidad publicada de jerarquía organizativa de Finance and Operations a otras aplicaciones de Dynamics 365.
-
-<!-- ![architecture image](media/dual-write-organization.png) -->
-
-Campo de origen | Tipo de asignación | Campo de destino
----|---|---
-VALIDTO | \> | msdyn\_validto
-VALIDFROM | \> | msdyn\_validfrom
-HIERARCHYTYPE | \> | msdyn\_hierarchytypename
-PARENTORGANIZATIONPARTYNUMBER | \> | msdyn\_parentpartyid
-CHILDORGANIZATIONPARTYNUMBER | \> | msdyn\_childpartyid
-HIERARCHYTYPE | \> | msdyn\_hierarchytypeid.msdyn\_name
-CHILDORGANIZATIONPARTYNUMBER | \> | msdyn\_childid.msdyn\_partynumber
-PARENTORGANIZATIONPARTYNUMBER | \> | msdyn\_parentid.msdyn\_partynumber
+[!include [Organization hierarchy - published](dual-write/OrganizationHierarchyPublished-msdyn-internalorganizationhierarchies.md)]
 
 ## <a name="internal-organization"></a>Organización interna
 
 La información de la organización interna en Common Data Service se deriva de dos entidades, **unidad operativa** y **entidades jurídicas**.
 
-<!-- ![architecture image](media/dual-write-operating-unit.png) -->
+[!include [Operating unit](dual-write/OperatingUnit-msdyn-internalorganizations.md)]
 
-<!-- ![architecture image](media/dual-write-legal-entities.png) -->
+[!include [Legal entities](dual-write/LegalEntities-msdyn-internalorganizations.md)]
 
-### <a name="operating-unit"></a>Unidad operativa
+[!include [Legal entities](dual-write/LegalEntities-Companies.md)]
 
-Campo de origen | Tipo de asignación | Campo de destino
----|---|---
-LANGUAGEID | \> | msdyn\_languageid
-NAMEALIAS | \> | msdyn\_namealias
-NOMBRE | \> | msdyn\_name
-PARTYNUMBER | \> | msdyn\_partynumber
-OPERATINGUNITTYPE | \>\> | msdyn\_type
-
-### <a name="legal-entity"></a>Entidad jurídica
-
-Campo de origen | Tipo de asignación | Campo de destino
----|---|---
-NAMEALIAS | \> | msdyn\_namealias
-LANGUAGEID | \> | msdyn\_languageid
-NOMBRE | \> | msdyn\_name
-PARTYNUMBER | \> | msdyn\_partynumber
-ninguno | \>\> | msdyn\_type
-LEGALENTITYID | \> | msdyn\_companycode
-
-## <a name="company"></a>Compañía
-
-Proporciona sincronización bidireccional de la información de la entidad jurídica (empresa) entre Finance and Operations y aplicaciones de Dynamics 365.
-
-<!-- ![architecture image](media/dual-write-company.png) -->
-
-Campo de origen | Tipo de asignación | Campo de destino
----|---|---
-NOMBRE | = | cdm\_name
-LEGALENTITYID | = | cdm\_companycode

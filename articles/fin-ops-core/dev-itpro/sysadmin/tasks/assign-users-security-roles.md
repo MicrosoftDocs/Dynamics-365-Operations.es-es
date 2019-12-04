@@ -3,7 +3,7 @@ title: Asignar usuarios a roles de seguridad
 description: Para obtener acceso a las aplicaciones de Finance and Operations, los usuarios se deben asignar a roles de seguridad.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 09/16/2019
+ms.date: 11/14/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a4daecc1acd589cd1656402244e5325382a407e7
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e4f4ef4535de9e371829c2d86d4fdc1400510c7b
+ms.sourcegitcommit: 6aa74f66f1abd3a7977050a5339b0b17e62ff053
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180976"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "2808005"
 ---
 # <a name="assign-users-to-security-roles"></a>Asignar usuarios a roles de seguridad
 
@@ -37,6 +37,9 @@ Para usar algo distinto a capacidades comunes, los usuarios deben asignarse a ro
 5. En la lista **Nombre de la regla de pertenencia**, haga clic en el vínculo de la fila seleccionada.
 6. Haga clic en **Editar consulta**. Edite la consulta según sea necesario.  
 7. Haga clic en **Aceptar**.
+8. Haga clic en **Ejecutar asignación automática de roles**.
+9. Vaya al **Panel de exploración > módulos > Administración del sistema > usuarios > usuarios** (idealmente en una ficha independiente de explorador).
+10. Revise los roles asignados a varios usuarios para confirmar que la consulta de la asignación de roles fue correcta. Ajuste y vuelva a ejecutar si es necesario.
 
 ## <a name="exclude-users-from-automatic-role-assignment"></a>Excluir usuarios de la asignación automática de roles
 1. Cierre la página.

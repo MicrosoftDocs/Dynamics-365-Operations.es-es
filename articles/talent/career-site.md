@@ -1,5 +1,5 @@
 ---
-title: Configurar su sitio de desarrollo profesional en Microsoft Dynamics 365 Talent - Attract
+title: Configurar su sitio de desarrollo profesional en Attract
 description: Este tema proporciona una visión general de la funcionalidad del sitio de Proyectos profesionales para el candidato en Microsoft Dynamics 365 Talent - Attract
 author: hasrivas
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: 256ef1b335ddf0c908704b14eca0883ee98d2038
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: d4a1e7c19ccec6ae32e46ec7d58604b162418953
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551104"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832963"
 ---
-# <a name="set-up-your-career-site-in-microsoft-dynamics-365-talent---attract"></a>Configurar su sitio de desarrollo profesional en Microsoft Dynamics 365 Talent - Attract
+# <a name="set-up-your-career-site-in-attract"></a>Configurar su sitio de desarrollo profesional en Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Este tema proporciona una visión general de la funcionalidad del sitio de Proyectos profesionales para el candidato en Microsoft Dynamics 365 Talent: Attract. También se explica cómo configurar esta funcionalidad.
 

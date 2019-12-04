@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e1c5dea039ae6482bfd9e036642c23463f5bc3a
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: 52ed93ae425a821ebce4ed63f154e155cb161e94
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658699"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812002"
 ---
 # <a name="removed-or-deprecated-features-for-finance-and-operations"></a>Funcionalidades eliminadas u obsoletas de Finance and Operations
 
@@ -348,7 +348,7 @@ A partir del 15 de febrero de 2018, los minoristas no podrán mostrar recomendac
 | **Estado**                         |Se quitó el 15 de febrero de 2018. Esto afecta a los clientes que ejecutan Dynamics 365 for Operations 1611 y posteriores.  |
 
 ### <a name="extension-of-the-list-of-electronic-reporting-er-functions"></a>Ampliación de la lista de funciones de Informes electrónicos (ER)
-La posibilidad de especificar las funciones personalizadas que se utilizarán en el generador de expresiones de ER (para obtener más información, consulte [Extiende la lista de funciones electrónicas de informes](../../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md)) no se admite más. Debido a los cambios de ER API, API para llamar funciones integradas del generador de expresiones de ER se han hecho interno y ya no se puede extender.
+La posibilidad de especificar las funciones personalizadas que se utilizarán en el generador de expresiones de ER (para obtener más información, consulte [Extiende la lista de funciones electrónicas de informes (ER)](../../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md)) no se admite más. Debido a los cambios de ER API, API para llamar funciones integradas del generador de expresiones de ER se han hecho interno y ya no se puede extender.
 
 |   |  |
 |------------|--------------------|
@@ -474,7 +474,7 @@ El portal de dispositivos móviles de almacén (WMDP) era componente independien
 |   |  |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Funcionalidad duplicada.       |
-| **¿Reemplazado por otra característica?**   | Sí. Esta función se ha sustituido por Finance and Operations - Warehousing. Para obtener más información sobre la configuración y prerrequisitos, consulte [Instalar y configurar Microsoft Dynamics 365 for Finance and Operations - Almacenaje](../../../supply-chain/warehousing/install-configure-warehousing-app.md). |
+| **¿Reemplazado por otra característica?**   | Sí. Esta función se ha sustituido por Finance and Operations - Warehousing. Para obtener más información sobre la configuración y prerrequisitos, consulte [Información general de instalar y configurar la aplicación de almacenaje](../../../supply-chain/warehousing/install-configure-warehousing-app.md). |
 | **Áreas de producto afectadas**         | Gestión de almacenes y administración de transporte     |
 | **Opción de implementación**              | El portal de dispositivos móviles de almacén (WMDP) era componente independiente pensando para la implementación propia localmente.               |
 | **Estado**                         | En desuso: La fecha prevista para la eliminación de la funcionalidad es el cuarto trimestre de 2019.   |
@@ -1244,7 +1244,7 @@ El configurador de productos se usaba para configurar dinámicamente artículos 
 |   |  |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | El configurador de productos exponía el código X++ a los usuarios finales y no se admite en la versión actual de Dynamics AX. Se ha retirado para evitar esfuerzos duplicados en bases de código superpuestas y cuantiosas.  |
-| **¿Reemplazado por otra característica?**   | Sí. La configuración basada en restricciones se introdujo en Dynamics AX 2012 donde ya se anunciaba la depreciación del generador de productos en futuras versiones. La tecnología de configuración basada restricciones se selecciona en los productos maestros para habilitar la configuración. Para obtener más información, consulte [Crear un modelo de configuración de productos](../../../supply-chain/pim/build-product-configuration-model.md). |
+| **¿Reemplazado por otra característica?**   | Sí. La configuración basada en restricciones se introdujo en Dynamics AX 2012 donde ya se anunciaba la depreciación del generador de productos en futuras versiones. La tecnología de configuración basada restricciones se selecciona en los productos maestros para habilitar la configuración. Para obtener más información, consulte [Visión general de la configuración del producto](../../../supply-chain/pim/build-product-configuration-model.md). |
 | **Áreas de producto afectadas**         | Gestión de información de productos, Ventas y marketing  |
 | **Estado**                         | Eliminado a partir de Dynamics AX 7.0.      |
 

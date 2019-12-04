@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0734db6f777de2bcd6ea024c9255f589c155e44f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ec2874fb21184ccbf4f7039acf20db399e5cf5fb
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569831"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813348"
 ---
 # <a name="use-external-catalogs-for-punchout-eprocurement"></a>Usar catálogos externos para la adquisición electrónica de marcaje de salida
 
@@ -41,7 +41,7 @@ Use la acción de línea **Catálogos externos** para abrir una página que incl
 
 Dependiendo de sus permisos, cambie el solicitante, la entidad jurídica compradora y la unidad operativa receptora. Un cambio en estos valores puede cambiar la lista de catálogos externos disponibles para un solicitante. Los catálogos externos disponibles dependen de las directivas de compra del activo actual para la entidad jurídica compradora o la unidad operativa receptora. Estas directivas pueden permitir o impedir el acceso a categorías de compras específicas. Por lo tanto, la lista de catálogos externos que se asignen a estas categorías de compras puede verse afectada.
 
-Para obtener más información sobre directivas, vea [Directivas de compra](../procurement/purchase-policies.md).
+Para obtener más información sobre directivas, vea [Visión general de directivas de compra](../procurement/purchase-policies.md).
 
 - Para obtener los catálogos externos para categorías de compras específicas, escriba el texto en el campo de búsqueda de catálogos.
 - Para agregar productos de un catálogo externo de un proveedor en la página web, haga clic en el catálogo externo. A continuación, agregue los productos al carro de la compra y confirme la compra. Las líneas del carro de la compra se transferirán a Microsoft Dynamics 365.

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: abb78c9ac43dad80e45729f4b42651d9807f71f1
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f50b950b8588f2b17611889e0cb0eeb6da359886
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251071"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813026"
 ---
 # <a name="warehouse-management-overview"></a>Visión general de la gestión de almacenes
 
@@ -36,7 +36,7 @@ Para empezar a trabajar con la gestión de almacenes, debe completar la configur
 
 Debe configurar los componentes de los flujos de trabajo entrantes y salientes del proceso de almacén según sus requisitos empresariales. Los componentes más importantes que debe configurar son plantillas de oleada, plantillas de trabajo, grupos de trabajo y directivas de ubicación.
 
-- [Configuración de almacén](warehouse-configuration.md)
+- [Visión general de la configuración de almacén](warehouse-configuration.md)
 - [Controlar el trabajo de almacén usando plantillas de trabajo y directivas de ubicación](control-warehouse-location-directives.md)
 - [Configurar dispositivos móviles para el trabajo de almacén](configure-mobile-devices-warehouse.md)
 - [Configurar una directiva de ubicación para ubicación de pedido de compra](../transportation/tasks/set-up-location-directive-purchase-order-put-away.md)

@@ -19,73 +19,71 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 9dc26e0e50c0b77555d09e4a50b846c80b1d5760
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: bcc2c3d2530153a225a94fa0fb3cc990abbf65b4
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249337"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769738"
 ---
 # <a name="unified-product-experience"></a>Experiencia unificada del producto
 
 [!include [banner](../includes/banner.md)]
 
-[!include [preview](../includes/preview-banner.md)]
-
-Cuando un ecosistema de negocio está compuesto de aplicaciones de Dynamics 365, como Finance, Supply Chain Management y Sales, es natural que los clientes usen estas aplicaciones en los datos del producto de origen. Esto se debe a que estas aplicaciones proporcionan una infraestructura robusta de producto complementada con conceptos sofisticados de precios y datos de inventario disponibles exactos. Los clientes que usan un sistema externo de (PLM) de administración del ciclo de vida del producto para abastecer los datos del producto pueden pasar productos de Finance and Operations a otras aplicaciones de Dynamics 365. La experiencia unificada de producto lleva el modelo de datos del producto integrado a Common Data Service, de modo que todos los usuarios de aplicación incluidos los usuarios de Power Platform pueden aprovechar los datos ricos de producto que proceden de aplicaciones de Finance and Operations.
+Cuando un ecosistema de negocio está compuesto de aplicaciones de Dynamics 365, como Finance, Supply Chain Management y Sales, los negocios a menudo usan estas aplicaciones en los datos del producto de origen. Esto se debe a que estas aplicaciones proporcionan una infraestructura robusta de producto complementada con conceptos sofisticados de precios y datos de inventario disponibles exactos. Las empresas que usan un sistema externo de (PLM) de administración del ciclo de vida del producto para abastecer los datos del producto pueden pasar productos de Finance and Operations a otras aplicaciones de Dynamics 365. La experiencia unificada de producto lleva el modelo de datos del producto integrado a Common Data Service, de modo que todos los usuarios de aplicación incluidos los usuarios de Power Platform puedan aprovechar la riqueza de datos de producto que procede de aplicaciones de Finance and Operations.
 
 A continuación se indica el modelo de datos del producto de Sales.
 
-![Modelo de datos para productos de Sales](media/dual-write-product-4.jpg)
+![Modelo de datos para productos de CE](media/dual-write-product-4.jpg)
 
 A continuación se indica el modelo de datos de aplicaciones de Finance and Operations.
 
 ![Modelo de datos para productos de Finance and Operations](media/dual-write-products-5.jpg)
 
-Estos dos modelos de datos de se han integrado en Common Data Service como se indica a continuación.
+Estos dos modelos de datos se han integrado en Common Data Service como se indica a continuación.
 
 ![Modelo de datos para productos de aplicaciones de Dynamics 365](media/dual-write-products-6.jpg)
 
-Los mapas de entidad de escritura dual para productos se diseñaron para que los datos fluyan solo en una dirección y es una experiencia de tiempo casi real desde las aplicaciones de Finance and Operations hasta Common Data Service. Sin embargo, la infraestructura del producto se ha creado abierta para hacerla bidireccional si procede. Los clientes pueden personalizarla, por su cuenta y riesgo, ya que Microsoft no recomienda este planteamiento.
+Los mapas de entidad de escritura dual para productos se diseñaron para que los datos fluyan solo en una dirección y es una experiencia de tiempo casi real desde las aplicaciones de Finance and Operations hasta Common Data Service. Sin embargo, la infraestructura del producto se ha creado abierta para hacerla bidireccional si procede. Aunque pueda personalizarla, este planteamiento es por su cuenta y riesgo, ya que Microsoft no recomienda este planteamiento.
 
 ## <a name="templates"></a>Plantillas
 
 La información de producto contiene toda la información relacionada con el producto y la definición, como las dimensiones del producto o el seguimiento y las dimensiones de almacenamiento. Como la tabla siguiente muestra, una colección de mapas de la entidad se crea para sincronizar los productos y la información relacionada.
 
-Finance and Operations | Otras aplicaciones de Dynamics 365
------------------------|--------------------------------
-Productos liberados V2 | msdyn\_sharedproductdetails
-Productos únicos emitidos por CDS | Producto
-Código de barras identificado por número de producto | msdyn\_productbarcodes
+Finance and Operations | Otras aplicaciones de Dynamics 365 | Descripción
+-----------------------|--------------------------------|---
+Productos liberados V2 | msdyn\_sharedproductdetails | La entidad **msdyn\_sharedproductdetails** contiene los campos de las aplicaciones de Finance and Operations que definen el producto y que contienen la información de administración y financiera del producto. La tabla siguiente muestra las correlaciones.
+Productos únicos emitidos por Common Data Service | Producto | La entidad **Product** contiene los campos que definen el producto. Incluye productos individuales (productos con producto del subtipo) y las variantes de producto. La tabla siguiente muestra las correlaciones.
+Código de barras identificado por número de producto | msdyn\_productbarcodes | Los códigos de barras de producto se usan para identificar de forma única productos.
 Configuración predeterminada de pedido | msdyn\_productdefaultordersettings
-Configuración de pedido predeterminada específica del producto | msdyn_productspecificdefaultordersettings
-Grupos de dimensiones de producto | msdyn\_productdimensiongroups
-Grupos de dimensiones de almacenamiento | msdyn\_productstoragedimensiongroups
-Grupos de dimensiones de seguimiento | msdyn\_producttrackingdimensiongroups
+Configuración de pedido predeterminada específica del producto | msdyn_productdefaultordersettings
+Grupos de dimensiones de producto | msdyn\_productdimensiongroups | El grupo de dimensiones de producto define qué dimensiones de producto definen el producto. 
+Grupos de dimensiones de almacenamiento | msdyn\_productstoragedimensiongroups | El grupo de dimensiones de almacenamiento de producto representa el método usado para definir la ubicación del producto en el almacén.
+Grupos de dimensiones de seguimiento | msdyn\_producttrackingdimensiongroups | El grupo de dimensiones de seguimiento del producto representa el método usado para seguir el producto en el inventario.
 Colores | msdyn\_productcolors
 Tamaños | msdyn\_productsizes
 Estilos | msdyn\_productsytles
 Configuraciones | msdyn\_productconfigurations
-Colores de producto maestro | msdyn_sharedproductcolors
-Tamaños de producto maestro | msdyn_sharedproductsizes
-Estilos de producto maestro | msdyn_sharedproductstyles
-Configuraciones de producto maestro | msdyn_sharedproductconfigurations
-Todos los productos | msdyn_globalproducts
+Colores de producto maestro | msdyn_sharedproductcolors | La entidad **Color del producto compartido** indica los colores que un producto maestro específico puede tener. Este concepto se migra a Common Data Service para mantener los datos coherentes.
+Tamaños de producto maestro | msdyn_sharedproductsizes | La entidad **Tamaño del producto compartido** indica el tamaño que un producto maestro específico puede tener. Este concepto se migra a Common Data Service para mantener los datos coherentes.
+Estilos de producto maestro | msdyn_sharedproductstyles | La entidad **Estilo del producto compartido** indica los estilos que un producto maestro específico puede tener. Este concepto se migra a Common Data Service para mantener los datos coherentes.
+Configuraciones de producto maestro | msdyn_sharedproductconfigurations | La entidad **Configuración del producto compartido** indica las configuraciones que un producto maestro específico puede tener. Este concepto se migra a Common Data Service para mantener los datos coherentes.
+Todos los productos | msdyn_globalproducts | La entidad all products contiene todos los productos disponibles en las aplicaciones de Finance and Operations, tanto los productos lanzados como los no lanzados.
 Unidad | uoms
 Conversiones de unidades | msdyn_ unitofmeasureconversions
 Conversión de unidad de medida específica del producto | msdyn_productspecificunitofmeasureconversion
-Sitios | msdyn\_operationalsites
-Almacenes | msdyn\_inventwarehouses
-
-[!include [symbols](../includes/dual-write-symbols.md)]
+Categorías de productos | msdyn_productcategories | Cada una de las categorías de productos e información acerca de su estructura y funciones se incluyen en la entidad de categoría de producto. 
+Jerarquías de categorías de producto | msdyn_productcategoryhierarhies | Use las jerarquías de producto para clasificar o para agrupar productos. Las jerarquías de categorías están disponibles en Common Data Service mediante la entidad de jerarquía de categoría de Prodcut. 
+Roles de jerarquía de categorías de producto | msdyn_productcategoryhierarchies | Las jerarquías de producto se pueden usar para distintos roles en D365 Finance and Operations. Especificar qué categoría se usa en cada rol en que la entidad de rol de categoría de producto se utiliza con las asignaciones siguientes. 
+Asignaciones de categorías de producto | msdyn_productcategoryassignments | Para asignar un producto a una categoría se puede usar la entidad de asignaciones de categorías de producto.
 
 ## <a name="integration-of-products"></a>Integración de productos
 
-En este modelo, el producto se representa con la combinación de dos entidades en Common Data Service: **Producto** y **msdyn\_sharedproductdetails**. Mientras que la primera entidad contiene la definición de un producto (el identificador único para el producto, el nombre del producto y la descripción), la segunda entidad contiene los campos que se almacenan en el nivel de producto. Se usará la combinación de estas dos entidades para definir el producto de acuerdo con el concepto de la referencia de almacén (SKU). Cada producto emitido tendrá su información en las entidades mencionadas (producto y detalles del producto compartido). Para realizar un seguimiento de todos los productos (lanzados y no lanzados) se utiliza la entidad **Productos globales**. 
+En este modelo, el producto se representa con la combinación de dos entidades en Common Data Service: **Producto** y **msdyn\_sharedproductdetails**. Mientras que la primera entidad contiene la definición de un producto (el identificador único para el producto, el nombre del producto y la descripción), la segunda entidad contiene los campos almacenados en el nivel de producto. Se usará la combinación de estas dos entidades para definir el producto de acuerdo con el concepto de la referencia de almacén (SKU). Cada producto emitido tendrá su información en las entidades mencionadas (producto y detalles del producto compartido). Para realizar un seguimiento de todos los productos (lanzados y no lanzados), se utiliza la entidad **Productos globales**. 
 
 Dado que el producto se representa como SKU, los conceptos de productos únicos, de productos maestros y de variantes de producto se pueden capturar en Common Data Service de la siguiente manera:
 
-- **Productos con producto de subtipo** son productos que se definen por sí mismos. No hay que definir dimensiones para ellos. Un ejemplo es un libro específico. Para estos productos, se crea un registro en la entidad **Producto** y se crea un registro en la entidad **msdyn\_sharedproductdetails**. No se crea ningún registro de familia de productos.
+- **Productos con producto de subtipo** son productos que se definen por sí mismos. No hay que definir dimensiones. Un ejemplo es un libro específico. Para estos productos, se crea un registro en la entidad **Producto** y se crea un registro en la entidad **msdyn\_sharedproductdetails**. No se crea ningún registro de familia de productos.
 - Los **productos maestros** se usan como productos genéricos bloqueo que contienen la definición y las reglas que determinan el comportamiento en procesos empresariales. Según estas definiciones, los productos únicos que se conozcan como variantes de producto pueden generarse. Por ejemplo, si camiseta es el producto maestro, puede tener Color y Tamaño como dimensiones. Se pueden lanzar variantes que tienen diferentes combinaciones de estas dimensiones, como una pequeña camiseta azul o una camiseta verde de tamaño mediano. En la integración, se crea un registro por variante en la tabla del producto. Este registro contiene información específica de las variantes, como las diferentes dimensiones. La información genérica del producto se almacena en la entidad **msdyn\_sharedproductdetails**. (Esta información genérica se mantiene en el producto maestro.) Además, se crea un registro de familia de productos por producto maestro. La información de producto maestro se sincroniza con Common Data Service tan pronto como se crea el producto maestro lanzado (pero antes de que se lancen variantes).
 - **Productos únicos** hace referencia a todos los productos de subtipo de productos y a todas las variantes de producto. 
 
@@ -93,151 +91,17 @@ Dado que el producto se representa como SKU, los conceptos de productos únicos,
 
 Con la función de escritura dual habilitada, las aplicaciones de Finance and Operations se sincronizarán en otras aplicaciones de Dynamics 365 en el estado **Borrador**. Se agregan a la primera lista de precios con la misma divisa. Es decir se agregan a la primera lista de precios de una aplicación de Dynamics 365 que coincida con la divisa de la entidad jurídica donde el producto se lance en una aplicación de Finance and Operations. 
 
-Para sincronizar el producto con el estado **Activo** , para que pueda utilizarlo directamente en presupuestos de pedidos de ventas, por ejemplo, el necesario elegir el siguiente producto: **Sistema > Administración > Administración del sistema > ventas** seleccione **Crear productos en estado activo = sí**. 
+De forma predeterminada los productos de las aplicaciones de Finance and Operations se sincronizan con otras aplicaciones de Dynamics 365 en el estado **Borrador**. Para sincronizar el producto con el estado **Activo** para que pueda utilizarlo directamente en presupuestos de pedidos de ventas, por ejemplo, es necesario elegir la siguiente configuración: **Sistema > Administración > Administración del sistema > ventas** y seleccionar **Crear productos en estado activo = sí**. 
 
-### <a name="cds-released-distinct-products-to-product"></a>CDS lanzó productos únicos en Product
+Tenga en cuenta que la sincronización de productos se produce de las aplicaciones de Finance and Operations a Common Data Service. Esto significa que los valores de los campos de la entidad del producto se pueden cambiar en Common Data Service, pero cuando se activa la sincronización (cuando un campo de producto se modifica en una aplicación de Finance and Operations), se sobrescribirán los valores de Common Data Service. 
 
-La entidad **Product** contiene los campos que definen el producto. Incluye productos individuales (productos con producto del subtipo) y las variantes de producto. La tabla siguiente muestra las correlaciones.
+[!include [symbols](../includes/dual-write-symbols.md)]
 
-Campo de origen | Tipo de asignación | Campo de destino
----|---|---
-PRODUCTNUMBER | >> | productnumber
-PRODUCTNAME | >> | name
-PRODUCTDESCRIPTION | >> | descripción
-ITEMNUMBER | >> | msdyn_itemnumber
-CURRENCYCODE | >> | transactioncurrencyid.isocurrencycode
-SALESUNITSYMBOL | >> | defaultuomid.msdyn_symbol
-SALESPRICE | >> | precio
-UNITCOST | >> | currentcost
-PRODUCTTYPE | >> | producttypecode
-SALESUNITDECIMALPRECISION | >> | quantitydecimal
-ISCATCHWEIGHTPRODUCT | >> | msdyn_iscatchweight
-PRODUCTCOLORID | >> | msdyn_productcolor.msdyn_productcolorname
-PRODUCTCONFIGURATIONID | >> | msdyn_productconfiguration.msdyn_productconfiguration
-PRODUCTSIZEID | >> | msdyn_productsize.msdyn_productsize
-PRODUCTSTYLEID | >> | msdyn_productstyle.msdyn_productstyle
+[!include [products](dual-write/EcoResReleasedDistinctProductCDSEntity-products.md)]
 
-### <a name="released-products-v2-to-msdyn_sharedproductdetails"></a>Productos lanzados V2 a msdyn\_sharedproductdetails
+[!include [product details](dual-write/EcoResReleasedProductV2-msdyn-sharedproductdetails.md)]
 
-La entidad **msdyn\_sharedproductdetails** contiene los campos de las aplicaciones de Finance and Operations que definen el producto y que contienen la información de administración y financiera del producto. La tabla siguiente muestra las correlaciones.
-
-Campo de origen | Tipo de asignación | Campo de destino
----|---|---
-PRODUCTNUMBER | > | msdyn_globalproduct.msdyn_productnumber
-INTRASTATCHARGEPERCENTAGE | > | msdyn_intrastatchargepercentage
-ITEMNUMBER | >> | msdyn_itemnumber
-APPROXIMATESALESTAXPERCENTAGE | > | msdyn_approximatesalestaxpercentage
-BESTBEFOREPERIODDAYS | > | msdyn_bestbeforeperioddays
-CARRYINGCOSTABCCODE | >> | msdyn_carryingcostabccode
-CONSTANTSCRAPQUANTITY | > | msdyn_constantscrapquantity
-COSTCHARGESQUANTITY | > | msdyn_costchargesquantity
-DEFAULTRECEIVINGQUANTITY | > | msdyn_defaultreceivingquantity
-FIXEDPURCHASEPRICECHARGES | > | msdyn_fixedpurchasepricecharges
-FIXEDSALESPRICECHARGES | > | msdyn_fixedsalespricecharges
-GROSSDEPTH | > | msdyn_grossdepth
-GROSSPRODUCTHEIGHT | > | msdyn_grossproductheight
-GROSSPRODUCTWIDTH | > | msdyn_grossproductwidth
-INVENTORYUNITSYMBOL | > | msdyn_inventoryunitsymbol.msdyn_symbol
-ISDISCOUNTPOSREGISTRATIONPROHIBITED | >> | msdyn_isdiscountposregistrationprohibited
-ISEXEMPTFROMAUTOMATICNOTIFICATIONANDCANCELLATION | >> | msdyn_exemptautomaticnotificationcancel
-ISINSTALLMENTELIGIBLE | >> | msdyn_isinstallmenteligible
-ISINTERCOMPANYPURCHASEUSAGEBLOCKED | >> | msdyn_isintercompanypurchaseusageblocked
-ISINTERCOMPANYSALESUSAGEBLOCKED | >> | msdyn_isintercompanysalesusageblocked
-ISMANUALDISCOUNTPOSREGISTRATIONPROHIBITED | >> | msdyn_ismanualdiscposregistrationprohibited
-ISPHANTOM | >> | msdyn_isphantom
-ISPOSREGISTRATIONBLOCKED | >> | msdyn_isposregistrationblocked
-ISPOSREGISTRATIONQUANTITYNEGATIVE | >> | msdyn_isposregistrationquantitynegative
-ISPURCHASEPRICEAUTOMATICALLYUPDATED | >> | msdyn_ispurchasepriceautomaticallyupdated
-ISPURCHASEPRICEINCLUDINGCHARGES | >> | msdyn_ispurchasepriceincludingcharges
-ISSALESWITHHOLDINGTAXCALCULATED | >> | msdyn_issaleswithholdingtaxcalculated
-ISRESTRICTEDFORCOUPONS | >> | msdyn_isrestrictedforcoupons
-ISSALESPRICEADJUSTMENTALLOWED | >> | msdyn_issalespriceadjustmentallowed
-ISSALESPRICEINCLUDINGCHARGES | >> | msdyn_issalespriceincludingcharges
-ISSCALEPRODUCT | >> | msdyn_isscaleproduct
-ISSHIPALONEENABLED | >> | msdyn_isshipaloneenabled
-ISUNITCOSTPRODUCTVARIANTSPECIFIC | >> | msdyn_isunitcostproductvariantspecific
-ISVARIANTSHELFLABELSPRINTINGENABLED | >> | msdyn_isvariantshelflabelsprintingenabled
-ISZEROPRICEPOSREGISTRATIONALLOWED | >> | msdyn_iszeropriceposregistrationallowed
-KEYINPRICEREQUIREMENTSATPOSREGISTER | >> | msdyn_keyinpricerequirementsatposregister
-KEYINQUANTITYREQUIREMENTSATPOSREGISTER | >> | msdyn_keyinquantityrequirementsatposregister
-MARGINABCCODE | >> | msdyn_marginabccode
-MAXIMUMPICKQUANTITY | > | msdyn_maximumpickquantity
-MUSTKEYINCOMMENTATPOSREGISTER | >> | msdyn_mustkeyincommentatposregister
-NECESSARYPRODUCTIONWORKINGTIMESCHEDULINGPROPERTYID | > | msdyn_necessaryproductionworkingtimeschedulingp
-NETPRODUCTWEIGHT | > | msdyn_netproductweight
-PACKINGDUTYQUANTITY | > | msdyn_packingdutyquantity
-POSREGISTRATIONACTIVATIONDATE | > | msdyn_posregistrationactivationdate
-POSREGISTRATIONBLOCKEDDATE | > | msdyn_posregistrationblockeddate
-POSREGISTRATIONPLANNEDBLOCKEDDATE | > | msdyn_posregistrationplannedblockeddate
-POTENCYBASEATTIBUTETARGETVALUE | > | msdyn_potencybaseattibutetargetvalue
-POTENCYBASEATTRIBUTEVALUEENTRYEVENT | >> | msdyn_potencybaseattributevalueentryevent
-PRODUCTTYPE | >> | msdyn_producttype
-PRODUCTIONCONSUMPTIONDENSITYCONVERSIONFACTOR | > | msdyn_productionconsumptiondensityconversion
-PRODUCTIONCONSUMPTIONDEPTHCONVERSIONFACTOR | > | msdyn_productionconsumptiondepthconversion
-PRODUCTIONCONSUMPTIONHEIGHTCONVERSIONFACTOR | > | msdyn_productionconsumptionheightconversion
-PRODUCTIONCONSUMPTIONWIDTHCONVERSIONFACTOR | > | msdyn_productionconsumptionwidthconversion
-PRODUCTVOLUME | > | msdyn_productvolume
-PURCHASECHARGESQUANTITY | > | msdyn_purchasechargesquantity
-PURCHASEOVERDELIVERYPERCENTAGE | > | msdyn_purchaseoverdeliverypercentage
-PURCHASEPRICE | > | msdyn_purchaseprice
-PURCHASEPRICEDATE | > | msdyn_purchasepricedate
-PURCHASEPRICINGPRECISION | > | msdyn_purchasepricingprecision
-PURCHASEUNDERDELIVERYPERCENTAGE | > | msdyn_purchaseunderdeliverypercentage
-RAWMATERIALPICKINGPRINCIPLE | >> | msdyn_rawmaterialpickingprinciple
-SALESCHARGESQUANTITY | > | msdyn_saleschargesquantity
-SALESOVERDELIVERYPERCENTAGE | > | msdyn_salesoverdeliverypercentage
-SALESPRICE | > | msdyn_salesprice
-SALESPRICECALCULATIONCHARGESPERCENTAGE | > | msdyn_salespricecalculationchargespercentage
-SALESPRICECALCULATIONCONTRIBUTIONRATIO | > | msdyn_salespricecalculationcontributionratio
-SALESPRICECALCULATIONMODEL | >> | msdyn_salespricecalculationmodel
-SALESPRICEDATE | > | msdyn_salespricedate
-SALESPRICINGPRECISION | > | msdyn_salespricingprecision
-SALESUNDERDELIVERYPERCENTAGE | > | msdyn_salesunderdeliverypercentage
-SALESUNITSYMBOL | > | msdyn_salesunitsymbol.msdyn_symbol
-SCALEINDICATOR | >> | msdyn_scaleindicator
-SELLSTARTDATE | > | msdyn_sellstartdate
-SHELFADVICEPERIODDAYS | > | msdyn_shelfadviceperioddays
-SHELFLIFEPERIODDAYS | > | msdyn_shelflifeperioddays
-SHIPSTARTDATE | > | msdyn_shipstartdate
-TAREPRODUCTWEIGHT | > | msdyn_tareproductweight
-TRANSFERORDEROVERDELIVERYPERCENTAGE | > | msdyn_transferorderoverdeliverypercentage
-TRANSFERORDERUNDERDELIVERYPERCENTAGE | > | msdyn_transferorderunderdeliverypercentage
-UNITCOST | > | msdyn_unitcost
-UNITCOSTDATE | > | msdyn_unitcostdate
-UNITCOSTQUANTITY | > | msdyn_unitcostquantity
-VARIABLESCRAPPERCENTAGE | > | msdyn_variablescrappercentage
-WAREHOUSEMOBILEDEVICEDESCRIPTIONLINE1 | > | msdyn_warehousemobiledevicedescriptionline1
-WAREHOUSEMOBILEDEVICEDESCRIPTIONLINE2 | > | msdyn_warehousemobiledevicedescriptionline2
-WILLINVENTORYISSUEAUTOMATICALLYREPORTASFINISHED | >> | msdyn_willinventoryissueautoreportasfinished
-WILLINVENTORYRECEIPTIGNOREFLUSHINGPRINCIPLE | >> | msdyn_willinventoryreceiptignoreflushing
-WILLPICKINGWORKBENCHAPPLYBOXINGLOGIC | >> | msdyn_willpickingworkbenchapplyboxinglogic
-WILLTOTALPURCHASEDISCOUNTCALCULATIONINCLUDEPRODUCT | >> | msdyn_willtotalpurchdiscountcalcincludeproduct
-WILLTOTALSALESDISCOUNTCALCULATIONINCLUDEPRODUCT | >> | msdyn_willtotalsalesdiscountcalcincludeproduct
-WILLWORKCENTERPICKINGALLOWNEGATIVEINVENTORY | >> | msdyn_willworkcenterpickingallownegativeinvent
-YIELDPERCENTAGE | > | msdyn_yieldpercentage
-ISUNITCOSTAUTOMATICALLYUPDATED | >> | msdyn_isunitcostautomaticallyupdated
-PURCHASEUNITSYMBOL | > | msdyn_purchaseunitsymbol.msdyn_symbol
-PURCHASEPRICEQUANTITY | > | msdyn_purchasepricequantity
-ISUNITCOSTINCLUDINGCHARGES | >> | msdyn_isunitcostincludingcharges
-FIXEDCOSTCHARGES | >> | msdyn_fixedcostcharges
-MINIMUMCATCHWEIGHTQUANTITY | >> | msdyn_minimumcatchweightquantity
-MAXIMUMCATCHWEIGHTQUANTITY | >> | msdyn_maximumcatchweightquantity
-ALTERNATIVEITEMNUMBER | >> | msdyn_alternativeitemnumber.msdyn_itemnumber
-BOMUNITSYMBOL | >> | msdyn_bomunitsymbol.msdyn_symbol
-CATCHWEIGHTUNITSYMBOL | >> | msdyn_catchweightunitsymbol.msdyn_symbol
-COMPARISONPRICEBASEUNITSYMBOL | >> | msdyn_comparisonpricebaseunitsymbol.msdyn_symbol
-PRIMARYVENDORACCOUNTNUMBER | >> | msdyn_vendorid.msdyn_vendoraccountnumber
-ISCATCHWEIGHTPRODUCT | >> | msdyn_iscatchweight
-PRODUCTDIMENSIONGROUPNAME | >> | msdyn_productdimensiongroupid.msdyn_groupname
-
-## <a name="all-product-to-msdyn_global-products"></a>Productos All producto a msdyn_global
-
-La entidad all products contiene todos los productos disponibles en las aplicaciones de Finance and Operations, tanto los productos lanzados como los no lanzados. Estos productos están disponibles en Common Data Service usando las asignaciones siguientes:
-
-Campo de origen | Tipo de asignación | Campo de destino
----|---|---
-PRODUCTNAME | >> | msdyn_productname
-PRODUCTNUMBER | >> | msdyn_productnumber
+[!include [global products](dual-write/EcoResEveryProductEntity-msdyn-globalproducts.md)]
 
 ## <a name="product-dimensions"></a>Dimensiones de producto 
 
@@ -245,364 +109,116 @@ Las dimensiones de un producto son las características que identifican una vari
 
 ![Modelo de datos para productos](media/dual-write-product-2.PNG)
 
-### <a name="colors"></a>Colores
+[!include [product colors](dual-write/EcoResProductColorEntity-msdyn-productcolor.md)]
 
-Los colores posibles están disponibles en Common Data Service a través de las asignaciones siguientes.
+[!include [product sizes](dual-write/EcoResProductSizeEntity-msdyn-productsizes.md)]
 
-Campo de origen | Tipo de asignación | Campo de destino
----|---|---
-COLORID | \>\> | msdyn\_productcolorname
+[!include [product sizes](dual-write/EcoResProductStyleEntity-msdyn-productstyles.md)]
 
-### <a name="sizes"></a>Tamaños
-
-Los tamaños posibles están disponibles en Common Data Service a través de las asignaciones siguientes.
-
-Campo de origen | Tipo de asignación | Campo de destino
----|---|---
-SIZEID | \>\> | msdyn\_productsize
-
-### <a name="styles"></a>Estilos
-
-Los estilos posibles están disponibles en Common Data Service a través de las asignaciones siguientes.
-
-Campo de origen | Tipo de asignación | Campo de destino
----|---|---
-STYLEID | \>\> | msdyn\_productstyle
-
-### <a name="configurations"></a>Configuraciones
-
-Las configuraciones posibles están disponibles en Common Data Service a través de las asignaciones siguientes.
-
-Campo de origen | Tipo de asignación | Campo de destino
----|---|---
-CONFIGURATIONID | \>\> | msdyn\_name
+[!include [product sizes](dual-write/EcoResProductConfigurationsEntity-msdyn-productconfigurations.md)]
 
 Cuando un producto tiene distintas dimensiones de producto (por ejemplo, un producto maestro tiene el tamaño y el color como dimensiones de producto), cada producto único (es decir, cada variante del producto) se define como una combinación de dichas dimensiones del producto. Por ejemplo, el número de producto B0001 es una camiseta negra extrapequeña, y el número de producto B0002 es una pequeña camiseta negra. En este caso, se definen las combinaciones de dimensiones de producto existentes. Por ejemplo, la camiseta del ejemplo anterior puede ser extrapequeña y negra, pequeña y negra, mediana y negra, o grande y negra, pero no puede ser extragrande y negra. Es decir las dimensiones de producto que un producto maestro puede tomar se especifican, y las variantes se pueden lanzar en función de estos valores.
 
 Para realizar un seguimiento de las dimensiones de producto que un producto maestro puede aceptar, se crean y se asignan las entidades sigueintes en Common Data Service para cada dimensión de producto. Para obtener más información, consulte [Visión general de la información de producto](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/pim/product-information).
 
-### <a name="shared-product-color"></a>Color del producto compartido
+[!include [product colors](dual-write/EcoResProductMasterColorEntity-msdyn-sharedproductcolors.md)]
 
-La entidad **Color del producto compartido** indica los colores que un producto maestro específico puede tener. Este concepto se migra a Common Data Service para mantener los datos coherentes. La tabla siguiente muestra las correlaciones.
+[!include [product sizes](dual-write/EcoResProductMasterSize-msdyn-sharedproductsizes.md)]
 
-Campo de origen | Tipo de asignación | Campo de destino
----|---|---
-PRODUCTCOLORID | \>\> | msdyn\_productcolorid.msdyn\_productcolorname
-PRODUCTMASTERNUMBER | \>\> | msdyn\_sharedproductdetailid.msdyn\_itemnumber
-REPLENISHMENTWEIGHT | \>\> | msdyn\_replenishmentweight
-DISPLAYSEQUENCENUMBER | \>\> | msdyn\_retaildisplayorder
+[!include [product styles](dual-write/EcoResProductMasterStyleEntity-msdyn-sharedproductstyles.md)]
 
-### <a name="shared-product-size"></a>Tamaño del producto compartido
+[!include [product configurations](dual-write/EcoResProductMasterConfigurationEntity-msdyn-sharedproductconfigurations.md)]
 
-La entidad **Tamaño del producto compartido** indica el tamaño que un producto maestro específico puede tener. Este concepto se migra a Common Data Service para mantener los datos coherentes. La tabla siguiente muestra las correlaciones.
-
-Campo de origen | Tipo de asignación | Campo de destino
----|---|---
-PRODUCTMASTERNUMBER | \>\> | msdyn\_sharedproductdetailid.msdyn\_itemnumber
-PRODUCTSIZEID | \>\> | msdyn\_productsizeid.msdyn\_productsize
-REPLENISHMENTWEIGHT | \>\> | msdyn\_replenishmentweight
-DISPLAYSEQUENCENUMBER | \>\> | msdyn\_displaysequencenumber
-
-### <a name="shared-product-style"></a>Estilo del producto compartido
-
-La entidad **Estilo del producto compartido** indica los estilos que un producto maestro específico puede tener. Este concepto se migra a Common Data Service para mantener los datos coherentes. La tabla siguiente muestra las correlaciones.
-
-Campo de origen | Tipo de asignación | Campo de destino
----|---|---
-PRODUCTMASTERNUMBER | \>\> | msdyn\_sharedproductdetailsid.msdyn\_itemnumber
-PRODUCTSTYLEID | \>\> | msdyn\_productstyleintegration
-PRODUCTSTYLEID | \>\> | msdyn\_productstyleid.msdyn\_productstyle
-REPLENISHMENTWEIGHT | \>\> | msdyn\_replenishmentweight
-DISPLAYSEQUENCENUMBER | \>\> | msdyn\_displaysequencenumber
-
-### <a name="shared-product-configuration"></a>Configuración del producto compartido
-
-La entidad **Configuración del producto compartido** indica las configuraciones que un producto maestro específico puede tener. Este concepto se migra a Common Data Service para mantener los datos coherentes. La tabla siguiente muestra las correlaciones.
-
-Campo de origen | Tipo de asignación | Campo de destino
----|---|---
-CONTAINERUNITSYMBOL | \>\> | msdyn\_containerunitsymbol
-PRODUCTCONFIGURATIONID | \>\> | msdyn\_productconfigurationid.msdyn\_productconfiguration
-PRODUCTMASTERNUMBER | \>\> | msdyn\_sharedproductdetailid.msdyn\_itemnumber
-REPLENISHMENTWEIGHT | \>\> | msdyn\_replenishmentweight
-DISPLAYSEQUENCENUMBER | \>\> | msdyn\_displaysequencenumber
-
-## <a name="product-number-identifier-bar-codes"></a>Código de barras identificadores del número de producto
-
-Los códigos de barras de producto se usan para identificar de forma única productos. Las asignaciones siguientes se usan para que estos códigos de barras de productos estén disponibles en Common Data Service.
-
-Campo de origen | Tipo de asignación | Campo de destino
----|---|---
-PRODUCTNUMBER | \> | msdyn\_productnumberid.productnumber
-BARCODE | \> | msdyn\_name
-BARCODE | \> | msdyn\_barcode
-PRODUCTQUANTITY | \> | msdyn\_productquantity
-PRODUCTDESCRIPTION | \> | msdyn\_productdescription
-BARCODESETUPID | \> | msdyn\_barcodesetupid
-PRODUCTQUANTITYUNITSYMBOL | \> | msdyn\_unitofmeasureid.name
-ISDEFAULTSCANNEDBARCODE | \>\> | msdyn\_isdefaultscannedbarcode
-ISDEFAULTPRINTEDBARCODE | \>\> | msdyn\_isdefaultprintedbarcode
-ISDEFAULTDISPLAYEDBARCODE | \>\> | msdyn\_isdefaultdisplayedbarcode
+[!include [product bar codes](dual-write/EcoResProductNumberIdentifiedBarcode-msdyn-productbarcodes.md)]
 
 ## <a name="default-order-settings-and-product-specific-default-order-settings"></a>Configuración predeterminada de pedido y Configuración de pedido predeterminada específica del producto
 
-Los configuración de pedido predeterminada define el sitio y el almacén de dónde se originan o almacenan los artículos, las cantidades mínimas, máximas, múltiples y estándar que se usarán en la gestión de comercio o de inventario, los plazos, el indicador de detención y el método prometedor del pedido. Este información estará disponible en CDS mediante la entidad de configuración de pedido predeterminada y de configuración de pedido predeterminada específica del producto. Puede leer más información sobre la funcionalidad en [Página de la configuración de pedido predeterminada](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/production-control/default-order-settings).
+Los configuración de pedido predeterminada define el sitio y el almacén de dónde se originan o almacenan los artículos, las cantidades mínimas, máximas, múltiples y estándar que se usarán en la gestión de comercio o de inventario, los plazos, el indicador de detención y el método prometedor del pedido. Este información está disponible en Common Data Service mediante la configuración de pedido predeterminada y la entidad de configuración de pedido predeterminada específica del producto. Puede leer más información sobre la funcionalidad en el [Tema de la configuración de pedido predeterminada](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/production-control/default-order-settings).
 
-### <a name="default-order-settings"></a>Configuración predeterminada de pedido
+[!include [product sizes](dual-write/InventProductDefaultOrderSettingsEntity-msdyn-productdefaultordersetting.md)]
 
-Las asignaciones siguientes se usan para que la configuración de pedido predeterminada esté disponible en Common Data Service.
-
-Campo de origen | Tipo de asignación | Campo de destino
----|---|---
-INVENTWAREHOUSEID | = | msdyn_inventorywarehouse.msdyn_warehouseidentifier
-INVENTORYSITEID | = | msdyn_inventorysite.msdyn_siteid
-INVENTORYATPDELAYEDDEMANDOFFSETDAYS | = | msdyn_inventoryatpdelayeddemandoffsetdays
-INVENTORYATPDELAYEDSUPPLYOFFSETDAYS | = | msdyn_inventoryatpdelayedsupplyoffsetdays
-ITEMNUMBER | = | msdyn_itemnumber.msdyn_itemnumber
-INVENTORYATPBACKWARDDEMANDTIMEFENCEDAYS | = | msdyn_inventoryatpbackwarddemandtimefencedays
-INVENTORYATPBACKWARDSUPPLYTIMEFENCEDAYS | = | msdyn_inventoryatpbackwardsupplytimefencedays
-INVENTORYATPTIMEFENCEDAYS | = | msdyn_inventoryatptimefencedays
-MAXIMUMINVENTORYORDERQUANTITY | = | msdyn_maximuminventoryorderquantity
-MAXIMUMPROCUREMENTORDERQUANTITY | = | msdyn_maximumprocurementorderquantity
-MAXIMUMSALESORDERQUANTITY | = | msdyn_maximumsalesorderquantity
-MINIMUMINVENTORYORDERQUANTITY | = | msdyn_minimuminventoryorderquantity
-MINIMUMPROCUREMENTORDERQUANTITY | = | msdyn_minimumprocurementorderquantity
-MINIMUMSALESORDERQUANTITY | = | msdyn_minimumsalesorderquantity
-STANDARDINVENTORYORDERQUANTITY | = | msdyn_standardinventoryorderquantity
-STANDARDPROCUREMENTORDERQUANTITY | = | msdyn_standardprocurementorderquantity
-STANDARDSALESORDERQUANTITY | = | msdyn_standardsalesorderquantity
-INVENTORYLEADTIMEDAYS | = | msdyn_inventoryleadtimedays
-INVENTORYQUANTITYMULTIPLES | = | msdyn_inventoryquantitymultiples
-PROCUREMENTQUANTITYMULTIPLES | = | msdyn_procurementquantitymultiples
-SALESQUANTITYMULTIPLES | = | msdyn_salesquantitymultiples
-PROCUREMENTSITEID | = | msdyn_procurementsite.msdyn_siteid
-PROCUREMENTLEADTIMEDAYS | = | msdyn_procurementleadtimedays
-SALESSITEID | = | msdyn_salessite.msdyn_siteid
-SALESATPDELAYEDDEMANDOFFSETDAYS | = | msdyn_salesatpdelayeddemandoffsetdays
-SALESATPDELAYEDSUPPLYOFFSETDAYS | = | msdyn_salesatpdelayedsupplyoffsetdays
-SALESATPBACKWARDDEMANDTIMEFENCEDAYS | = | msdyn_salesatpbackwarddemandtimefencedays
-SALESATPBACKWARDSUPPLYTIMEFENCEDAYS | = | msdyn_salesatpbackwardsupplytimefencedays
-SALESATPTIMEFENCEDAYS | = | msdyn_salesatptimefencedays
-SALESLEADTIMEDAYS | = | msdyn_salesleadtimedays
-PROCUREMENTWAREHOUSEID | = | msdyn_procurementwarehouse.msdyn_warehouseidentifier
-SALESWAREHOUSEID | = | msdyn_saleswarehouse.msdyn_warehouseidentifier
-AREINVENTORYORDERPROMISINGDEFAULTSOVERRIDDEN | >< | msdyn_areinventoryorderdefaultsoverridden
-INVENTORYORDERPROMISINGMETHOD | >< | msdyn_inventoryorderpromisingmethod
-ISINVENTORYATPINCLUDINGPLANNEDORDERS | >< | msdyn_isinventoryatpincludingplannedorders
-ISINVENTORYUSINGWORKINGDAYS | >< | msdyn_isinventoryusingworkingdays
-ISINVENTORYSITEMANDATORY | >< | msdyn_isinventorysitemandatory
-ISINVENTORYPROCESSINGSTOPPED | >< | msdyn_isinventoryprocessingstopped
-ISPROCUREMENTUSINGWORKINGDAYS | >< | msdyn_isprocurementusingworkingdays
-ISPROCUREMENTSITEMANDATORY | >< | msdyn_isprocurementsitemandatory
-ISPROCUREMENTPROCESSINGSTOPPED | >< | msdyn_isprocurementprocessingstopped
-ARESALESORDERPROMISINGDEFAULTSOVERRIDDEN | >< | msdyn_aresalesorderdefaultsoverridden
-SALESORDERPROMISINGMETHOD | >< | msdyn_salesorderpromisingmethod
-ISSALESATPINCLUDINGPLANNEDORDERS | >< | msdyn_issalesatpincludingplannedorders
-ISSALESSITEMANDATORY | >< | msdyn_issalessitemandatory
-ISSALESLEADTIMEOVERRIDDEN | >< | msdyn_issalesleadtimeoverridden
-ISSALESPROCESSINGSTOPPED | >< | msdyn_issalesprocessingstopped
-ISINVENTORYWAREHOUSEMANDATORY | >< | msdyn_isinventorywarehousemandatory
-ISPROCUREMENTWAREHOUSEMANDATORY | >< | msdyn_isprocurementwarehousemandatory
-ISSALESWAREHOUSEMANDATORY | >< | msdyn_issaleswarehousemandatory
-
-### <a name="product-specific-default-order-settings"></a>Configuración de pedido predeterminada específica del producto
-
-Las asignaciones siguientes se usan para que la configuración de pedido predeterminada específica del producto esté disponible en Common Data Service.
-
-Campo de origen | Tipo de asignación | Campo de destino
----|---|---
-INVENTORYWAREHOUSEID | = | msdyn_inventorywarehouse.msdyn_warehouseidentifier
-INVENTORYSITEID | = | msdyn_inventorysite.msdyn_siteid
-INVENTORYATPDELAYEDDEMANDOFFSETDAYS | = | msdyn_inventoryatpdelayeddemandoffsetdays
-INVENTORYATPDELAYEDSUPPLYOFFSETDAYS | = | msdyn_inventoryatpdelayedsupplyoffsetdays
-ITEMNUMBER | = | msdyn_itemnumber.msdyn_itemnumber
-INVENTORYATPBACKWARDDEMANDTIMEFENCEDAYS | = | msdyn_inventoryatpbackwarddemandtimefencedays
-INVENTORYATPBACKWARDSUPPLYTIMEFENCEDAYS | = | msdyn_inventoryatpbackwardsupplytimefencedays
-INVENTORYATPTIMEFENCEDAYS | = | msdyn_inventoryatptimefencedays
-MAXIMUMINVENTORYORDERQUANTITY | = | msdyn_maximuminventoryorderquantity
-MAXIMUMPROCUREMENTORDERQUANTITY | = | msdyn_maximumprocurementorderquantity
-MAXIMUMSALESORDERQUANTITY | = | msdyn_maximumsalesorderquantity
-MINIMUMINVENTORYORDERQUANTITY | = | msdyn_minimuminventoryorderquantity
-MINIMUMPROCUREMENTORDERQUANTITY | = | msdyn_minimumprocurementorderquantity
-MINIMUMSALESORDERQUANTITY | = | msdyn_minimumsalesorderquantity
-STANDARDINVENTORYORDERQUANTITY | = | msdyn_standardinventoryorderquantity
-STANDARDPROCUREMENTORDERQUANTITY | = | msdyn_standardprocurementorderquantity
-STANDARDSALESORDERQUANTITY | = | msdyn_standardsalesorderquantity
-INVENTORYLEADTIMEDAYS | = | msdyn_inventoryleadtimedays
-INVENTORYQUANTITYMULTIPLES | = | msdyn_inventoryquantitymultiples
-PROCUREMENTQUANTITYMULTIPLES | = | msdyn_procurementquantitymultiples
-SALESQUANTITYMULTIPLES | = | msdyn_salesquantitymultiples
-PROCUREMENTSITEID | = | msdyn_procurementsite.msdyn_siteid
-PROCUREMENTLEADTIMEDAYS | = | msdyn_procurementleadtimedays
-SALESSITEID | = | msdyn_salessite.msdyn_siteid
-SALESATPDELAYEDDEMANDOFFSETDAYS | = | msdyn_salesatpdelayeddemandoffsetdays
-SALESATPDELAYEDSUPPLYOFFSETDAYS | = | msdyn_salesatpdelayedsupplyoffsetdays
-SALESATPBACKWARDDEMANDTIMEFENCEDAYS | = | msdyn_salesatpbackwarddemandtimefencedays
-SALESATPBACKWARDSUPPLYTIMEFENCEDAYS | = | msdyn_salesatpbackwardsupplytimefencedays
-SALESATPTIMEFENCEDAYS | = | msdyn_salesatptimefencedays
-SALESLEADTIMEDAYS | = | msdyn_salesleadtimedays
-PROCUREMENTWAREHOUSEID | = | msdyn_procurementwarehouse.msdyn_warehouseidentifier
-SALESWAREHOUSEID | = | msdyn_saleswarehouse.msdyn_warehouseidentifier
-AREINVENTORYDEFAULTORDERSETTINGSOVERRIDDEN | >< | msdyn_areinventoryorderdefaultsoverridden
-INVENTORYORDERPROMISINGMETHOD | >< | msdyn_inventoryorderpromisingmethod
-ISINVENTORYATPINCLUDINGPLANNEDORDERS | >< | msdyn_isinventoryatpincludingplannedorders
-ISINVENTORYUSINGWORKINGDAYS | >< | msdyn_isinventoryusingworkingdays
-ISINVENTORYSITEMANDATORY | >< | msdyn_isinventorysitemandatory
-ISINVENTORYPROCESSINGSTOPPED | >< | msdyn_isinventoryprocessingstopped
-ISPROCUREMENTUSINGWORKINGDAYS | >< | msdyn_isprocurementusingworkingdays
-ISPROCUREMENTSITEMANDATORY | >< | msdyn_isprocurementsitemandatory
-ISPROCUREMENTPROCESSINGSTOPPED | >< | msdyn_isprocurementprocessingstopped
-ARESALESDEFAULTORDERSETTINGSOVERRIDDEN | >< | msdyn_aresalesorderdefaultsoverridden
-SALESORDERPROMISINGMETHOD | >< | msdyn_salesorderpromisingmethod
-ISSALESATPINCLUDINGPLANNEDORDERS | >< | msdyn_issalesatpincludingplannedorders
-ISSALESSITEMANDATORY | >< | msdyn_issalessitemandatory
-ISSALESLEADTIMEOVERRIDDEN | >< | msdyn_issalesleadtimeoverridden
-ISSALESPROCESSINGSTOPPED | >< | msdyn_issalesprocessingstopped
-ISINVENTORYWAREHOUSEMANDATORY | >< | msdyn_isinventorywarehousemandatory
-ISPROCUREMENTWAREHOUSEMANDATORY | >< | msdyn_isprocurementwarehousemandatory
-ISSALESWAREHOUSEMANDATORY | >< | msdyn_issaleswarehousemandatory
-OPERATIONALSITEID | = | msdyn_operationalsite.msdyn_siteid
-PRODUCTCOLORID | = | msdyn_productcolor.msdyn_productcolorname
-PRODUCTCONFIGURATIONID | = | msdyn_productconfiguration.msdyn_productconfiguration
-PRODUCTSIZEID | = | msdyn_productsize.msdyn_productsize
-PRODUCTSTYLEID | = | msdyn_productstyle.msdyn_productstyle
+[!include [product sizes](dual-write/InventProductSpecificOrderSettingsV2Entity-msdyn-productspecificdefaultordersetting.md)]
 
 ## <a name="unit-of-measure-and-unit-of-measure-conversions"></a>Unidad de medida y conversiones de unidad de medida
 
-Las unidades de medida y sus conversiones respectivas estarán disponibles en el Common Data Service según se indica en el modelo de datos indicado en el diagrama.
+Las unidades de medida y sus conversiones respectivas están disponibles en el Common Data Service según se indica en el modelo de datos indicado en el diagrama.
 
 ![Modelo de datos para productos](media/dual-write-product-3.PNG)
 
 El concepto de unidad de medida está integrado entre aplicaciones de Finance and Operations y otras aplicaciones de Dynamics 365. Para cada clase de unidad en una aplicación de Finance and Operations se crea un grupo de unidades en una aplicación de Dynamics 365, que contiene las unidades que pertenecen a la clase de unidad. Una unidad base predeterminada también se crea para cada grupo de unidad. 
 
-### <a name="unit-of-measure"></a>Unidad de medida
+[!include [unit of measure](dual-write/UnitOfMeasureEntity-uom.md)]
 
-Las asignaciones siguientes se usan para hacer que las unidades de medida en las aplicaciones de Finance and Operations estén disponibles en Common Data Service.
+[!include [unit of measure conversions](dual-write/UnitOfMeasureConversionEntity-msdyn-unitofmeasureconversions.md)]
 
-Campo de origen | Tipo de asignación | Campo de destino
----|---|---
-UNITSYMBOL | >> | msdyn_symbol
-UNITCLASS | >> | msdyn_externalunitclassname
-DECIMALPRECISION | >> | msdyn_decimalprecision
-ISBASEUNIT | >> | msdyn_isbaseunit
-ISSYSTEMUNIT | >> | msdyn_issystemunit
-SYSTEMOFUNITS | >> | msdyn_systemofunits
-UNITSYMBOL | >> | name
-UNITDESCRIPTION | >> | msdyn_description
+[!include [product specific unit of measure conversions](dual-write/EcoResProductSpecificUnitConversionEntity-msdyn-productspecificunitofmeasureconversions.md)]
 
-### <a name="unit-of-measure-conversions"></a>Conversiones de unidad de medida
+## <a name="initial-synchronization-of-units-data-matching-between-finance-and-operations-and-common-data-service"></a>Sincronización inicial de datos de unidades coincidentes entre Finance and Operations y Common Data Service
 
-Las asignaciones siguientes se usan para hacer que las conversiones de unidades de medida en las aplicaciones de Finance and Operations estén disponibles en Common Data Service.
+### <a name="initial-synchronization-of-units"></a>Sincronización inicial de unidades
 
-Campo de origen | Tipo de asignación | Campo de destino
----|---|---
-DENOMINATOR | = | msdyn_denominator
-NUMERATOR | = | msdyn_numerator
-FACTOR | = | msdyn_factor
-INNEROFFSET | = | msdyn_inneroffset
-OUTEROFFSET | = | msdyn_outeroffset
-ROUNDING | >< | msdyn_rounding
-TOUNITSYMBOL | = | msdyn_tounit.msdyn_symbol
-FROMUNITSYMBOL | = | msdyn_fromunit.msdyn_symbol
+Cuando la doble escritura está habilitada, las unidades de las aplicaciones de Finance and Operations se sincronizan con otras aplicaciones de Dynamics 365. Los grupos de unidades sincronizados desde aplicaciones de Finance and Operations con Common Data Service tienen un indicador establecido que indica que se “mantienen externamente”.
 
-### <a name="product-specific-unit-of-measure-conversions"></a>Conversiones de unidad de medida específica del producto
+### <a name="matching-units-and-unit-classesgroups-data-from-finance-and-operations-and-other-dynamics-365-apps"></a>Conciliación de unidades y datos de clases de unidades/grupos de Finance and Operations y otras aplicaciones de Dynamics 365
 
-Las asignaciones siguientes se usan para hacer que las conversiones de unidades de medida específicas de productos en las aplicaciones de Finance and Operations estén disponibles en Common Data Service.
+En primer lugar, es importante tener en cuenta que la clave de la integración de la unidad es msdyn_symbol. Por lo tanto, este valor debe ser único en Common Data Service u otras aplicaciones de Dynamics 365. Dado que en otras aplicaciones de Dynamics 365 es el par “identificación del grupo de unidades” y “Nombre” el que define la exclusividad de una unidad, es necesario que tenga en cuenta diferentes escenarios para conciliar datos entre aplicaciones de Finance and Operations y Common Data Service.
 
-Campo de origen | Tipo de asignación | Campo de destino
----|---|---
-DENOMINATOR | = | msdyn_denominator
-NUMERATOR | = | msdyn_numerator
-FACTOR | = | msdyn_factor
-FROMUNITSYMBOL | = | msdyn_fromunit.msdyn_symbol
-TOUNITSYMBOL | = | msdyn_tounit.msdyn_symbol
-PRODUCTNUMBER | = | msdyn_globalproduct.msdyn_productnumber
-INNEROFFSET | = | msdyn_inneroffset
-OUTEROFFSET | = | msdyn_outeroffset
-ROUNDING | >< | msdyn_rounding
+Para las unidades que concilian/se superponen en aplicaciones de Finance and Operations y otras aplicaciones de Dynamics 365:
+
++ **La unidad pertenece a un grupo de unidades en otras aplicaciones de Dynamics 365 que corresponde a la clase de unidad asociada en aplicaciones de Finance and Operations**. En este caso, el campo msdyn_symbol de otras aplicaciones de Dynamics 365 se debe rellenar con el símbolo de unidad de aplicaciones de Finance and Operations. Por lo tanto, cuando los datos se concilien, el grupo de unidades se establecerá como “externamente mantenido” en otras aplicaciones de Dynamics 365.
++ **La unidad pertenece a un grupo de unidades en otras aplicaciones de Dynamics 365 que no corresponde a la clase de unidad asociada en las aplicaciones de Finance and Operations (no hay ninguna clase de unidad en las aplicaciones de Finance and Operations para la clase de unidad en las otras aplicaciones de Dynamics 365).** En este caso, el msdyn_symbol se debe rellenar con una cadena aleatoria. Tenga en cuenta que este valor debe ser único en otras aplicaciones de Dynamics 365.
+
+Para las unidades y clases de unidades de Finance and Operations que no existan en otras aplicaciones de Dynamics 365:
+
+Como parte de la doble escritura, los grupos de unidades de aplicaciones de Finance and Operations y sus correspondientes unidades se crean y sincronizan en otras aplicaciones de Dynamics 365 y Common Data Service y el grupo de unidades se establecerá como “externamente mantenido”. No se requiere ningún esfuerzo de arranque adicional.
+
+Para unidades de otras aplicaciones de Dynamics 365 que no existan en aplicaciones de Finance and Operations:
+
+El campo msdyn_symbol se debe completar para todas las unidades. Las unidades se pueden crear siempre en aplicaciones de Finance and Operations en la clases de unidad correspondiente (si existe). Si no existe la clase de unidad, primero debe crearse la clase de unidad (tenga en cuenta que no puede crear una clase de unidad en aplicaciones de Finance and Operations, excepto a través de la extensión si está extendiendo la enumeración) que corresponda con el otro grupo de unidad de aplicaciones de Dynamics 365. A continuación, podrá crear la unidad. Tenga en cuenta que el símbolo de unidad en las aplicaciones de Finance and Operations tiene que ser el msdyn_symbol especificado previamente en otras aplicaciones de Dynamics 365 para la unidad.
 
 ## <a name="product-policies-dimension-tracking-and-storage-groups"></a>Directivas de productos: grupos de dimensionies, seguimiento y almacenamiento
 
 Las directivas de producto son conjuntos de directivas que se usan para definir productos y sus funciones de inventario. El grupo de dimensiones de producto, el grupo de dimensiones de seguimiento del producto y el grupo de dimensiones de almacenamiento pueden encontrarse como directivas de producto. 
 
-### <a name="product-dimension-group"></a>Grupo de dimensiones de producto
+[!include [product dimension group](dual-write/EcoResProductDimensionGroup-msdyn-productdimensiongroups.md)]
 
-El grupo de dimensiones de producto define qué dimensiones de producto definen el producto. Los cuatros grupos de dimensiones de producto posibles son: tamaño, color, estilo y configuración. Los grupos de dimensiones de producto están disponibles en Common Data Service usando las asignaciones siguientes. 
+[!include [product tracking dimension group](dual-write/EcoResTrackingDimensionGroup-msdyn-producttrackingdimensiongroups.md)]
 
-Campo de origen | Tipo de asignación | Campo de destino
----|---|---
-WILLSALESPRICESEARCHUSEPRODUCTSTYLE | >< | msdyn_willsalespricesearchuseproductstyle
-WILLPURCHASEPRICESEARCHUSEPRODUCTSIZE | >< | msdyn_willpurchasepricesearchuseproductsize
-WILLSALESPRICESEARCHUSEPRODUCTCONFIGURATION | >< | msdyn_willsalespricesearchuseprodconfig
-WILLSALESPRICESEARCHUSEPRODUCTCOLOR | >< | msdyn_willsalespricesearchuseproductcolor
-WILLPURCHASEPRICESEARCHUSEPRODUCTSTYLE | >< | msdyn_willpurchasepricesearchuseproductstyle
-WILLPURCHASEPRICESEARCHUSEPRODUCTCONFIGURATION | >< | msdyn_willpurchpricesearchuseprodconfig
-WILLPURCHASEPRICESEARCHUSEPRODUCTCOLOR | >< | msdyn_willpurchpricesearchuseproductcolor
-ISPRODUCTSTYLEACTIVE | >< | msdyn_isproductstyleactive
-ISPRODUCTSIZEACTIVE | >< | msdyn_isproductsizeactive
-ISPRODUCTCONFIGURATIONACTIVE | >< | msdyn_isproductconfigurationactive
-ISPRODUCTCOLORACTIVE | >< | msdyn_isproductcoloractive
-GROUPNAME | = | msdyn_groupname
-GROUPDESCRIPTION | = | msdyn_groupdescription
-PRODUCTVARIANTNOMENCLATURENAME | = | msdyn_productvariantnomenclaturename
-WILLSALESPRICESEARCHUSEPRODUCTSIZE | >< | msdyn_willsalespricesearchuseproductsize
+[!include [product storage dimension group](dual-write/EcoResStorageDimensionGroup-msdyn-productstoragedimensiongroups.md)]
 
-### <a name="product-tracking-dimension-group"></a>Grupo de dimensiones de seguimiento de producto
+## <a name="product-hierarchies"></a>Jerarquías de productos
 
-El grupo de dimensiones de seguimiento del producto representa el método usado para seguir el producto en el inventario. Están disponibles en Common Data Service usando las asignaciones siguientes. 
+[!include [product category hierarchy](dual-write/EcoResProductCategoryHierarchyEntity-msdyn-productcategoryhierarchy.md)]
 
-Campo de origen | Tipo de asignación | Campo de destino
----|---|---
-SERIALNUMBERCAPTURINGOPERATION | >< | msdyn_serialnumbercapturingoperation
-GROUPNAME | = | msdyn_groupname
-GROUPDESCRIPTION | = | msdyn_groupdescription
-ISSERIALNUMBERENABLEDFORPRODUCTIONCONSUMPTIONPROCESS | >< | msdyn_issnenabledforpcprocess
-ISSERIALNUMBERCONTROLENABLED | >< | msdyn_isserialnumbercontrolenabled
-ISSERIALNUMBERENABLEDFORSALESPROCESS | >< | msdyn_isserialnumberenabledforsalesprocess
-ISSERIALNUMBERACTIVE | >< | msdyn_isserialnumberactive
-ISSALESPRICEBYSERIALNUMBER | >< | msdyn_issalespricebyserialnumber
-ISSALESPRICEBYBATCHNUMBER | >< | msdyn_issalespricebybatchnumber
-ISPURCHASEPRICEBYSERIALNUMBER | >< | msdyn_ispurchasepricebyserialnumber
-ISPURCHASEPRICEBYBATCHNUMBER | >< | msdyn_ispurchasepricebybatchnumber
-ISPRIMARYSTOCKINGENABLEDFORSERIALNUMBER | >< | msdyn_isprimarystockingenabledforsn
-ISPRIMARYSTOCKINGENABLEDFORBATCHNUMBER | >< | msdyn_isprimarystockingenabledforbn
-ISPHYSICALINVENTORYENABLEDFORSERIALNUMBER | >< | msdyn_isphysicalinventoryenabledforsn
-ISPHYSICALINVENTORYENABLEDFORBATCHNUMBER | >< | msdyn_isphysicalinventoryenabledforbn
-ISFINANCIALINVENTORYENABLEDFORSERIALNUMBER | >< | msdyn_isfinancialinventoryenabledforsn
-ISFINANCIALINVENTORYENABLEDFORBATCHNUMBER | >< | msdyn_isfinancialinventoryenabledforbn
-ISCOVERAGEPLANENABLEDFORSERIALNUMBER | >< | msdyn_iscoverageplanenabledforserialnumber
-ISCOVERAGEPLANENABLEDFORBATCHNUMBER | >< | msdyn_iscoverageplanenabledforbatchnumber
-ISBLANKRECEIPTALLOWEDFORSERIALNUMBER | >< | msdyn_isblankreceiptallowedforserialnumber
-ISBLANKRECEIPTALLOWEDFORBATCHNUMBER | >< | msdyn_isblankreceiptallowedforbatchnumber
-ISBLANKISSUEALLOWEDFORSERIALNUMBER | >< | msdyn_isblankissueallowedforserialnumber
-ISBLANKISSUEALLOWEDFORBATCHNUMBER | >< | msdyn_isblankissueallowedforbatchnumber
-ISBATCHNUMBERACTIVE | >< | msdyn_isbatchnumberactive
-ISINVENTORYOWNERACTIVE | >< | msdyn_isinventoryowneractive
+[!include [product category](dual-write/EcoResProductCategoryEntity-msdyn-productcategory.md)]
 
-### <a name="product-storage-dimension-group"></a>Grupo de dimensiones de almacenamiento de producto
+[!include [product category assignments](dual-write/EcoResProductCategoryAssignmentEntity-msdyn-productcategoryassignment.md)]
 
-El grupo de dimensiones de almacenamiento de producto representa el método usado para definir la ubicación del producto en el almacén. Están disponibles en Common Data Service usando las asignaciones siguientes. 
+[!include [product category role](dual-write/EcoResProductCategoryHierarchyRoleEntity-msdyn-productcategoryhierarchyrole.md)]
 
-Campo de origen | Tipo de asignación | Campo de destino
----|---|---
-WILLSALESPRICESEARCHUSEWAREHOUSE | >< | msdyn_willsalespricesearchusewarehouse
-WILLSALESPRICESEARCHUSESITE | >< | msdyn_willsalespricesearchusesite
-WILLSALESPRICESEARCHUSEINVENTORYSTATUS | >< | msdyn_willsalespricesearchuseinventorystatus
-WILLPURCHASEPRICESEARCHUSEWAREHOUSE | >< | msdyn_willpurchasepricesearchusewarehouse
-WILLPURCHASEPRICESEARCHUSESITE | >< | msdyn_willpurchasepricesearchusesite
-WILLPURCHASEPRICESEARCHUSEINVENTORYSTATUS | >< | msdyn_willpurchpricesearchuseinventstatus
-WILLCOVERAGEPLANNINGUSEWAREHOUSE | >< | msdyn_willcoverageplanusewarehouse
-WILLCOVERAGEPLANNINGUSELOCATION | >< | msdyn_iscoverageplanenabledforlocation
-WILLCOVERAGEPLANNINGUSEINVENTORYSTATUS | >< | msdyn_willcoverageplanuseinventorystatus
-AREADVANCEDWAREHOUSEMANAGEMENTPROCESSESENABLED | >< | msdyn_areadvancedwmprocessesenabled
-ISWAREHOUSEPRIMARYSTORAGEDIMENSION | >< | msdyn_iswarehouseprimarystoragedimension
-ISWAREHOUSEMANDATORY | >< | msdyn_iswarehousemandatory
-ISPHYSICALINVENTORYENABLEDFORWAREHOUSE | >< | msdyn_isphysicalinventoryenabledforwarehouse
-ISPHYSICALINVENTORYENABLEDFORLOCATION | >< | msdyn_isphysicalinventoryenabledforlocation
-ISLOCATIONACTIVE | >< | msdyn_islocationactive
-ISFINANCIALINVENTORYENABLEDFORWAREHOUSE | >< | msdyn_isfinancialinventoryenabledforwarehouse
-GROUPNAME | = | msdyn_groupname
-GROUPDESCRIPTION | = | msdyn_groupdescription
-ISBLANKRECEIPTALLOWEDFORLOCATION | >< | msdyn_isblankreceiptallowedforlocation
-ISBLANKISSUEALLOWEDFORLOCATION | >< | msdyn_isblankissueallowedforlocation
 
+## <a name="integration-key-for-products"></a>Clave de integración para los productos 
+
+Para identificar de forma única productos entre Dynamics 365 for Finance and Operations y productos de Common Data Service las claves de integración se usan. Para los productos, **(productnumber)** es la clave única que identifica un producto en Common Data Service. Está compuesto por la concatenación de: **(empresa, msdyn_productnumber)**. **empresa** indica la entidad jurídica en Finance and Operations y **msdyn_productnumber** indica el número de producto del producto específico en Finance and Operations. 
+
+Para otro usuario de aplicaciones de Dynamics 365, el producto se identifica en la interfaz de usuario con **msdyn_productnumber** (tenga en cuenta que la etiqueta del campo es **Número de producto**). En el formulario de producto se muestran la empresa y el msydn_productnumber. Sin embargo, el campo (productnumber), la clave única para un producto, no se muestra. 
+
+Tenga en cuenta que si las aplicaciones se construyen encima de Common Data Service, debe prestarse atención especial al uso de (productnumber), que es el identificador único del producto, como la clave de integración, y no el msdyn_productnumber, debido al hecho de que el último no es único. 
+
+## <a name="initial-synchronization-of-products-and-migration-of-data-from-common-data-service-to-finance-and-operations"></a>Sincronización inicial de productos y migración de datos de Common Data Service a Finance and Operations
+
+### <a name="initial-synchronization-of-products"></a>Sincronización inicial de productos 
+
+Cuando la doble escritura está habilitada, los productos de Dynamics 365 Finance and Operations se sincronizan con Common Data Service y otras aplicaciones de Dynamics 365. Tenga en cuenta que los productos creados en Common Data Service y otras aplicaciones de Dynamics 365 antes de escritura dual, no se actualizarán ni se conciliarán con datos de productos de Finance and Operations.
+
+### <a name="matching-product-data-from-finance-and-operations-and-other-dynamics-365-apps"></a>Conciliación de datos de producto de Finance and Operations y otras aplicaciones de Dynamics 365
+
+Si los mismos productos se mantienen (solapan/concilian) en Finance and Operations y en Common Data Service y otras aplicaciones de Dynamics 365, al habilitar la escritura dual, ocurrirá la sincronización de productos de Finance and Operations y registros duplicados aparecerán en Common Data Service para el mismo producto.
+Para evitar la situación anterior, si otras aplicaciones de Dynamics 365 tienen productos que se solapan/coinciden con Finance and Operations, el administrador que habilita la escritura dual debe arrancar los campos **Empresa** (ejemplo: “USMF”) y **msdyn_productnumber** (ejemplo: “1234:Black:S”) antes de que se produzca la sincronización de productos. Es decir, estos dos campos del producto en Common Data Service se deben rellenar con la empresa respectiva de Finance and Operations con la que el producto debe correlacionarse y con su número de producto. 
+
+A continuación, cuando la sincronización se habilita y tiene lugar, los productos de Finance and Operations se sincronizarán con los productos asignados en Common Data Service y otras aplicaciones de Dynamics 365. Esto es aplicable para productos únicos y variantes de producto. 
+
+
+### <a name="migration-of-product-data-from-other-dynamics-365-apps-to-finance-and-operations"></a>Migración de datos de producto de otras aplicaciones de Dynamics 365 a Finance and Operations
+
+Si otraS aplicaciONES DE Dynamics 365 tienen productos que no están presentes en Finance and Operations, el administrador puede usar primero **EcoResReleasedProductCreationV2Entity** para importar los productos a Finance and Operations. Y en segundo lugar, concilie los datos de productos de Finance and Operations y otras aplicaciones de Dynamics 365 como se describe anteriormente. 

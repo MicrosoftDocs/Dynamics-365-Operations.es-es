@@ -19,18 +19,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 3110cb809558d168e9d97f640701b249caf73f6c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: cf444ef1192fed3a6a49282da37374dd8c443356
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184517"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769646"
 ---
 # <a name="execution-order-for-initial-synchronization-of-finance-and-operations-apps-and-common-data-service"></a>Orden de ejecución para la sincronización inicial de aplicaciones de Finance and Operations y Common Data Service
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview](../includes/preview-banner.md)]
 
 Antes de usar la integración de datos, debe crear los datos iniciales necesarios para clientes, proveedores y los contactos. Por ejemplo, va a crear un nuevo elemento **Grupo de proveedores** y establece su valor **Condiciones de pago** en **Net30**. En este caso, antes de que se intente crear el elemento **Grupo de proveedores**, debe asegurarse de que exista **Net30** tanto en la aplicación como en Common Data Service. (En el futuro, Microsoft lanzará al mercado una funcionalidad de plataforma de escritura dual denominada Sincronización inicial. Hará una única sincronización de datos entre la aplicación y Common Data Service como parte de la configuración de la escritura dual).
 

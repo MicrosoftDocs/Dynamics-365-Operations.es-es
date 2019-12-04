@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf889169357ea0598a3fe24b09a6eb565209b9c0
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 32271e967da2e7f3702b0c6c2dcdba460aa1b382
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186357"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770629"
 ---
 # <a name="process-allocations"></a>Procesar asignaciones
 
@@ -33,7 +33,7 @@ Este artículo proporciona información sobre las asignaciones, las opciones par
 
 Las siguientes competencias admiten este proceso:
 
--   Asigne manualmente los importes de transacción con la acción Dividir en las distribuciones contables o aplicando plantillas predeterminadas de dimensión financiera a un documento. Para obtener más información sobre distribuciones, consulte [Distribuciones contables](../accounts-payable/accounting-distributions.md).
+-   Asigne manualmente los importes de transacción con la acción Dividir en las distribuciones contables o aplicando plantillas predeterminadas de dimensión financiera a un documento. Para obtener más información, consulte [Distribuciones contables](../accounts-payable/accounting-distributions.md).
 -   Asigne automáticamente los importes de las transacciones en función de los términos de asignación definidos en la cuenta principal individual. Se generarán asientos contables de asignación para cada diario según el porcentaje y la cuenta contable de destino siempre que un asiento contable cumpla los criterios definidos como la cuenta contable de origen.
 -   Asigne automáticamente los saldos contables o los importes fijos según las reglas de asignación contable. Las reglas de asignación contable se procesan de manera periódica con diarios de asignación. 
 

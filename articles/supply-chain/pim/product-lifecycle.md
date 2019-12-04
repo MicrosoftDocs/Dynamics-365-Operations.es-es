@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 83c523a23973f4fd146d8308fbb5ecb486224ad9
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: c3674442dfec11afc26881f3e5c442ba05a4821b
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865337"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813555"
 ---
 # <a name="product-lifecycle-state-overview"></a>Visión general del estado de ciclo de vida de producto
 
@@ -107,9 +107,9 @@ Use los siguientes criterios para seleccionar y actualizar los productos liberad
 
 ## <a name="related-topics"></a>Temas relacionados
 
--  [Crear un estado de ciclo de vida de producto nuevo (Guía de tarea)](tasks/new-product-lifecycle-state.md)
--  [Crear un estado de ciclo de vida de producto predeterminado (Guía de tarea)](tasks/default-product-lifecycle-state.md)
--  [Asignar un estado de ciclo de vida de producto a un producto maestro liberado (guía de tareas)](tasks/product-lifecycle-state-released-product-master.md)
--  [Asignar un estado del ciclo de vida del producto a un producto (Guía de tarea)](tasks/product-lifecycle-state-released-product.md)
--  [Buscar las variantes de producto obsoletas y asignar un estado de ciclo de vida del producto (Guía de tarea)](tasks/obsolete-product-variants.md)
--  [Crear un estado de ciclo de vida del producto para excluir productos de planificación maestra (Guía de tarea)](tasks/exclude-products-master-planning.md)
+-  [Crear un nuevo estado de ciclo de vida de producto](tasks/new-product-lifecycle-state.md)
+-  [Crear un estado predeterminado de ciclo de vida de producto](tasks/default-product-lifecycle-state.md)
+-  [Asignar un estado de ciclo de vida de producto a un producto maestro liberado](tasks/product-lifecycle-state-released-product-master.md)
+-  [Asignar un estado de ciclo de vida de producto a un producto liberado](tasks/product-lifecycle-state-released-product.md)
+-  [Buscar las variantes de producto obsoletas y asignar un estado de ciclo de vida del producto](tasks/obsolete-product-variants.md)
+-  [Crear un estado de ciclo de vida del producto para excluir productos de planificación maestra](tasks/exclude-products-master-planning.md)

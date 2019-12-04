@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 731b6a61bd78388f3db0a7007478e3a5e9629a49
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0bb817de583c231aa55fa81b9e28d788505e0a1f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181436"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771292"
 ---
 # <a name="generate-printable-fti-forms"></a>Generar formularios de FTI imprimibles
 
@@ -41,7 +41,7 @@ Además de la capacidad existente de generar formularios de FTI imprimibles medi
 Como parte de su solución personalizada para formularios de FTI imprimibles, debe crear un conjunto de configuraciones de ER.
 
 ### <a name="configure-the-er-data-model"></a>Configurar el modelo de datos de ER
-Su aplicación debe incluir la configuración del modelo de datos de ER que contiene un modelo de datos que describe el dominio empresarial de facturación del cliente. Como requisito, el nombre del modelo de datos debe ser **CustomersInvoicing**. Para obtener información acerca de cómo diseñar modelos de datos de ER, consulte [Diseñar un modelo de datos específico de dominio para informes electrónicos (ER)](tasks/er-design-domain-specific-data-model-2016-11.md).
+Su aplicación debe incluir la configuración del modelo de datos de ER que contiene un modelo de datos que describe el dominio empresarial de facturación del cliente. Como requisito, el nombre del modelo de datos debe ser **CustomersInvoicing**. Para obtener información acerca de cómo diseñar modelos de datos de ER, consulte [Diseñar un modelo de datos de específico de dominio para ER](tasks/er-design-domain-specific-data-model-2016-11.md).
 
 ### <a name="configure-the-er-model-mapping"></a>Configurar la asignación del modelo de ER
 Su aplicación debe incluir la asignación del modelo de ER para el modelo de datos CustomersInvoicing. La asignación de modelo puede estar en la configuración del modelo de datos de ER o en la configuración de la asignación de modelo de ER. Sin embargo, el nombre del descriptor raíz del asignación de modelo debe ser **FreeTextInvoice**.
@@ -62,7 +62,7 @@ La asignación debe contener los orígenes de datos siguientes:
 
 Los detalles de la integración de la aplicación con el marco de ER se pueden encontrar en la clase **ERPrintMgmtReportFormatSubscriber** (modelo de integración de la suite de aplicaciones de ER) en el código fuente de la aplicación.
 
-Para obtener más información sobre el diseño de las asignaciones de modelo de ER, consulte [Definir la asignación de modelo y seleccionar los orígenes de datos para informes electrónicos (ER)](tasks/er-define-model-mapping-select-data-sources-2016-11.md).
+Para obtener más información sobre el diseño de las asignaciones de modelo de ER, consulte [Definir la asignación de modelos de ER y seleccionar los orígenes de datos para ellos](tasks/er-define-model-mapping-select-data-sources-2016-11.md).
 
 ### <a name="configure-the-er-format"></a>Configurar el formato de ER
 En la instancia de la aplicación, debe tener la configuración de formato de ER que se utilizará para generar formularios de FTI. 
@@ -70,7 +70,7 @@ En la instancia de la aplicación, debe tener la configuración de formato de ER
 > [!NOTE]
 > Esta configuración de formato debe crearse para el modelo de datos CustomersInvoicing y debe utilizar la asignación de modelo que tiene el descriptor raíz **FreeTextInvoice**.
 
-Para obtener información sobre cómo configurar los formatos de ER, consulte [Crear una configuración de formato para informes electrónicos (ER)](tasks/er-format-configuration-2016-11.md). Para obtener información acerca de cómo diseñar formatos de ER para generar informes en formato OpenXML, consulte [Diseñar una configuración para generar informes en formato OpenXML para informes electrónicos (ER)](tasks/er-design-reports-openxml-2016-11.md).
+Para obtener información sobre cómo configurar los formatos de ER, consulte [Crear una configuración de formato de ER (noviembre de 2016)](tasks/er-format-configuration-2016-11.md). Para obtener información acerca de cómo diseñar formatos de ER para generar informes en formato OpenXML, consulte [Diseñar una configuración para generar informes en formato OPENXML para ER](tasks/er-design-reports-openxml-2016-11.md).
 
 ## <a name="configure-print-management"></a>Configurar la administración de impresión
 Para generar los formularios de FTI mediante el marco de ER, puede asignar los formatos de ER de la misma manera que se asignan los informes de SSRS. Para asociar el formato de ER con todas las FTI de clientes, vaya a **Clientes** \> **Configuración** \> **Formularios** \> **Configuración de formulario** \> **General** \> **Gestión de impresión** \> **Factura de servicios** \> **Original**. Para asociar el formato de ER con un cliente o una factura específica, siga estos pasos.
@@ -94,7 +94,7 @@ Para generar los formularios de FTI, puede seleccionar facturas por intervalo o 
 
 ![Vista previa de facturas](media/FTIbyGER-InvoiceExcelPreview.png)
 
-Cuando se utilizan formatos de ER para imprimir formularios de FTI de este modo, se utilizan los destinos de archivo de ER predeterminados. No puede cambiar el destino. Para obtener más información sobre cómo configurar los destinos de ER para formatos de ER, consulte [Destinos de informes electrónicos](electronic-reporting-destinations.md).
+Cuando se utilizan formatos de ER para imprimir formularios de FTI de este modo, se utilizan los destinos de archivo de ER predeterminados. No puede cambiar el destino. Para obtener más información sobre cómo configurar los destinos de ER para formatos de ER, consulte [Informes electrónicos (ER)](electronic-reporting-destinations.md).
 
 También puede generar formularios de FTI al registrar una FTI, activando **Imprimir factura** y desactivando **Usar destinos de gestión de impresión**.
 
@@ -224,4 +224,4 @@ La expresión **Emailing.TxtToUse.Body** del formato de muestra está configurad
 ![Correo electrónico](media/FTIbyGER-Email.PNG)
 
 ## <a name="additional-resources"></a>Recursos adicionales
-[Visión general de los informes electrónicos](general-electronic-reporting.md)
+[Visión general de los informes electrónicos (ER)](general-electronic-reporting.md)

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a4759f55eceba923b47d906a764edcad34bf2f2
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 80236da5220aa9c70d5c488c09b457a470f0225a
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571608"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811858"
 ---
 # <a name="create-an-asset"></a>Crear un activo
 
@@ -36,15 +36,15 @@ En este tema se describe cómo crear un activo en la Administración de activos.
 1. Haga clic en **Administración de activos** > **Común** > **Activos** > **Todos los activos** o **Activos activos**.
 2. Haga clic en el botón **Nuevo**.
 3. En el diálogo **Crear activos**, inserte datos relativos al **Activo** (el id. de activo) y el nombre del activo. Seleccione la fecha y la hora para el activo en el campo **Vigente**. A partir de esa fecha podrá instalar el activo en una ubicación técnica, así como mover y reemplazar el activo en una estructura de activo.
-4. En el campo **Tipo de activo**, seleccione el tipo del activo (campo obligatorio). Si es necesario, seleccione **Fabricante del activo** y **Modelo del activo** para el activo. Si solo se ha configurado un producto, ese producto se seleccionará automáticamente en el campo **Fabricante del activo**. Las selecciones disponible en los **Fabricante del activo** y **Modelo del activo** dependerán de la configuración de [Fabricante y modelo del activo](../setup-for-objects/product-and-model.md).
+4. En el campo **Tipo de activo**, seleccione el tipo del activo (campo obligatorio). Si es necesario, seleccione **Fabricante del activo** y **Modelo del activo** para el activo. Si solo se ha configurado un producto, ese producto se seleccionará automáticamente en el campo **Fabricante del activo**. Las selecciones disponible en los **Fabricante del activo** y **Modelo del activo** dependerán de la configuración de [Fabricantes y modelos del activo](../setup-for-objects/product-and-model.md).
 5. En el grupo **Activo principal**, el campo **Activo** está en blanco de forma predeterminada. Si es necesario, puede seleccionar un activo principal. Todos los campos del grupo **Activo principal** se rellenarán automáticamente.
 >[!NOTE]  
->Al seleccionar un activo principal, hay dos o tres pestañas disponibles: la pestaña **Mis activos** contiene los activos relacionados con las ubicaciones técnicas a las que usted (el trabajador de mantenimiento conectado al sistema) puede ser asignado. Si no se ha configurado ninguna ubicación técnica para un trabajador de mantenimiento en el formulario [Trabajadores de mantenimiento](../setup-for-objects/workers-and-worker-groups.md), la pestaña **Mis activos** no estará visible. La pestaña **Activos activos** contiene una lista de todos los activos cuyo estado de ciclo de vida es "Activo". La pestaña **Vista de activos** muestra una vista de árbol de las ubicaciones técnicas y los activos instalados en esas ubicaciones.
+>Al seleccionar un activo principal, hay dos o tres pestañas disponibles: la pestaña **Mis activos** contiene los activos relacionados con las ubicaciones técnicas a las que usted (el trabajador de mantenimiento conectado al sistema) puede ser asignado. Si no se ha configurado ninguna ubicación técnica para un trabajador de mantenimiento en el formulario [Trabajadores de mantenimiento y grupos de trabajadores](../setup-for-objects/workers-and-worker-groups.md), la pestaña **Mis activos** no estará visible. La pestaña **Activos activos** contiene una lista de todos los activos cuyo estado de ciclo de vida es "Activo". La pestaña **Vista de activos** muestra una vista de árbol de las ubicaciones técnicas y los activos instalados en esas ubicaciones.
 
 6. La ubicación técnica predeterminada que ha configurado se sugiere para el activo en el campo **Grupo de activos** > **Ubicación técnica**. Seleccione otra ubicación técnica si es necesario.
 
 >[!NOTE]
->Después de crear un activo, puede instalarlo en otra ubicación técnica si es necesario. Solo se pueden instalar activos de nivel superior (activos que no tienen un activo principal actualmente) en una ubicación técnica. Esto significa que los activos de nivel superior y los activos secundarios se instalan en la ubicación técnica seleccionada. Para obtener más información sobre la instalación de activos en ubicaciones técnicas, consulte [Ubicaciones técnicas](../functional-locations/introduction-to-functional-locations.md).
+>Después de crear un activo, puede instalarlo en otra ubicación técnica si es necesario. Solo se pueden instalar activos de nivel superior (activos que no tienen un activo principal actualmente) en una ubicación técnica. Esto significa que los activos de nivel superior y los activos secundarios se instalan en la ubicación técnica seleccionada. Para obtener más información sobre la instalación de activos en ubicaciones técnicas, consulte [Introducción a las ubicaciones técnicas](../functional-locations/introduction-to-functional-locations.md).
 
 7. Haga clic en **Aceptar**.
 8. Seleccione el activo en la lista **Todos los activos** y haga clic en el botón **Editar** para agregar más información al activo.
@@ -53,13 +53,13 @@ En este tema se describe cómo crear un activo en la Administración de activos.
 
 La ubicación técnica con la que el activo está relacionado se muestra en el campo **Ubicación técnica**. Si el activo es un activo principal, se mostrará el número de elementos secundarios relacionados con el activo en el campo **Secundarios**. Si el activo es un activo secundario de un activo existente, el id. del activo principal se muestra en el campo **Principal**.
 
-Puede editar la información del activo de **Fabricante del activo** y **Modelo del activo**, que se usa para administrar piezas de repuesto, piezas de repuesto alternativas y valores predeterminados de tipo de trabajo. Consulte [Fabricante y modelo del activo](../setup-for-objects/product-and-model.md) para obtener más información. También puede agregar información sobre el **Año de modelo** y el **Número de serie**, si es necesario.
+Puede editar la información del activo de **Fabricante del activo** y **Modelo del activo**, que se usa para administrar piezas de repuesto, piezas de repuesto alternativas y valores predeterminados de tipo de trabajo. Consulte [Fabricantes y modelos del activo](../setup-for-objects/product-and-model.md) para obtener más información. También puede agregar información sobre el **Año de modelo** y el **Número de serie**, si es necesario.
 
 Se usa **Estado actual del ciclo de vida** para definir si el activo está activo o inactivo. Al crear un activo, la etapa siempre se establece en la primera en el grupo de almacenamiento provisional de activos. Cuando esté preparado para activar un activo, haga clic en **Actualizar estado del activo** y seleccione el estado de ciclo de vida que ha definido como "activo activo". A continuación, haga clic en **Aceptar**.
 
 **Nota:** Cuando un activo es en estado "inactivo", no es posible crear órdenes de trabajo para el activo. Además, no se pueden programar los trabajos de mantenimiento preventivo para un activo inactivo.
 
-Los campos **Nivel de servicio** e **Importancia** están relacionados con las órdenes de trabajo creadas para el activo. Los campos muestran los valores de **Nivel de servicio** e **Importancia** calculados para la configuración actual del activo. Consulte [Niveles de servicio de activos](../setup-for-objects/object-priorities.md) e [Importancia de activo](../setup-for-objects/object-criticalities.md) para obtener información sobre la configuración de estos valores.
+Los campos **Nivel de servicio** e **Importancia** están relacionados con las órdenes de trabajo creadas para el activo. Los campos muestran los valores de **Nivel de servicio** e **Importancia** calculados para la configuración actual del activo. Consulte [Niveles de servicio de activos](../setup-for-objects/object-priorities.md) y [Tipos de importancia de los activos](../setup-for-objects/object-criticalities.md) para obtener información sobre la configuración de estos valores.
 
 ## <a name="asset"></a>Activo
 

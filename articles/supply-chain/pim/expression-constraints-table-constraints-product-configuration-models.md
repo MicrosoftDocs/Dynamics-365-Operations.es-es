@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 88d52031f4c916f5ec3e970f38864977e69a9d9a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 91eb5f166633f5be0ad68c039d3e538e4060ea0b
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546276"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815074"
 ---
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Restricciones de expresión y tabla en modelos de configuración de productos
 
@@ -248,9 +248,9 @@ No se pueden usar palabras clave reservadas como nombres del solucionador de atr
 <a name="additional-resources"></a>Recursos adicionales
 --------
 
-[Crear una restricción de expresión (Guía de tareas)](tasks/add-expression-constraint-product-configuration-model.md)
+[Crear una restricción de expresión](tasks/add-expression-constraint-product-configuration-model.md)
 
-[Agregar un cálculo a un modelo de configuración de producto (Guía de tareas)](tasks/add-calculation-product-configuration-model.md)
+[Agregar un cálculo a un modelo de configuración de producto](tasks/add-calculation-product-configuration-model.md)
 
 
 

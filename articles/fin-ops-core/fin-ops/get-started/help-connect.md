@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 491024c9c3d6c7d20ef212e167ceab6abac8dac7
-ms.sourcegitcommit: d554faca895609b8124bf2ea5aca5a55c407534a
+ms.openlocfilehash: 2955464aa8a220563db1b9ebbb348be52f520659
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537864"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812589"
 ---
 # <a name="connect-the-help-system"></a>Conectar el sistema de ayuda
 
@@ -54,7 +54,7 @@ En la página **Parámetros del sistema**, siga estos pasos:
 > [!IMPORTANT]
 > La primera vez que abra la ficha **Ayuda** debe conectarse a Lifecycle Services. Asegúrese de hacer clic en el vínculo que hay en el medio del formulario, espere por la conexión, cierre el cuadro de diálogo y haga clic en **Aceptar** para obtener la página **Parámetros del sistema**.
 >
-> [![Conectar a LCS](./media/connect-to-lcs-crop-1024x365.png "Conectar a LCS")](./media/connect-to-lcs-crop.png)
+> [![Conectarse a LCS](./media/connect-to-lcs-crop-1024x365.png "Conectarse a LCS")](./media/connect-to-lcs-crop.png)
 
 1. Seleccione el proyecto de Lifecycle Services al que conectarse.
 2. Seleccione las bibliotecas de BPM (dentro del proyecto seleccionado) desde la que recuperar grabaciones de tareas.
@@ -80,7 +80,7 @@ Puede usar las guías de tareas para crear ayuda personalizada, o para conectar 
 
 Puede crear ayuda personalizada para su implementación de Supply Chain Management y para Retail creando grabaciones de tareas que reflejan su implementación y guardándolos en una Biblioteca de proceso empresarial LCS. No puede crear guías de tareas personalizadas para Talent.
 
-Para socios, si promociona una biblioteca para que sea una biblioteca corporativa, e incluirla en una solución, esta estará disponible para sus clientes. También puede realizar una copia de la biblioteca global unificada APQC y, a continuación abrir su copia, abrir grabaciones de tareas desde allí, modificarlas y guardar las grabaciones con sus cambios. Para obtener más información, consulte el tema [Cómo crear una grabación de tareas para usarla como documentación o formación](../../dev-itpro/user-interface/task-recorder.md).
+Para socios, si promociona una biblioteca para que sea una biblioteca corporativa, e incluirla en una solución, esta estará disponible para sus clientes. También puede realizar una copia de la biblioteca global unificada APQC y, a continuación abrir su copia, abrir grabaciones de tareas desde allí, modificarlas y guardar las grabaciones con sus cambios. Para obtener más información, consulte [Recursos del grabador de tareas](../../dev-itpro/user-interface/task-recorder.md).
 
 ### <a name="connect-a-custom-site"></a>Conectar un sitio personalizado
 
@@ -91,8 +91,8 @@ Microsoft ha proporcionado documentación técnica y código de muestra que desc
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general de la ayuda](help-overview.md)
+[Sistema de ayuda](help-overview.md)
 
-[Visión general del Grabador de tareas](../../dev-itpro/user-interface/task-recorder.md)
+[Recursos del Grabador de tareas](../../dev-itpro/user-interface/task-recorder.md)
 
-[Cómo crear una grabación de tareas para usarla como documentación o formación](../../dev-itpro/user-interface/task-recorder-training-docs.md)
+[Crear documentación o formación con el Grabador de tareas](../../dev-itpro/user-interface/task-recorder-training-docs.md)

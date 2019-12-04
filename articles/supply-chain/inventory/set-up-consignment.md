@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 24500ff46cc77ca8fa59c0c16427d9f05f33a87e
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 04b3fb3038a1373e203ec240a0163cf67de655cc
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550034"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813873"
 ---
 # <a name="set-up-consignment"></a>Configuración de entrega
 
@@ -31,7 +31,7 @@ ms.locfileid: "1550034"
 
 Este tema explica cómo configurar las operaciones de entrada de inventario de envío.
 
-El inventario de envío es el inventario que es propiedad de un proveedor, pero se almacena en su ubicación. Cuando esté listo para consumir o usar el inventario, asume el control de la propiedad del inventario. Este tema describe la configuración necesaria para habilitar procesos de envío. Para obtener más información acerca de los procesos de envío, vea [Envío](consignment.md).
+El inventario de envío es el inventario que es propiedad de un proveedor, pero se almacena en su ubicación. Cuando esté listo para consumir o usar el inventario, asume el control de la propiedad del inventario. Este tema describe la configuración necesaria para habilitar procesos de envío. Para obtener más información acerca de los procesos de envío, consulte [Configuración de entrega](consignment.md).
 
 ## <a name="inventory-owners"></a>Propietarios de inventario
 Para registrar el inventario entrante físico de envío, es necesario definir un propietario de proveedor. Esto se hace en la página **Propietario de inventario**. Al seleccionar **Cuenta de proveedor** se generan valores predeterminados para los campos **Nombre** y **Propietario**. El valor del campo **Propietario** estará visible para el proveedor, por lo que es posible que desee cambiarlo si los nombres de cuenta de sus proveedores no son fáciles de reconocer por parte de las entidades externas. Es posible editar el campo **Propietario**, pero solo hasta el punto al guardar el registro **Propietario de inventario**. El campo **Nombre** se rellena con el nombre de la parte a la que se asocia la cuenta del proveedor y no se puede cambiar.
@@ -49,4 +49,4 @@ El diario de **Cambio de propiedad de inventario**se usa para registrar la trans
 [![inventory-ownership-change-journal](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
 
 ## <a name="vendor-collaboration-in-consignment-processes"></a>Colaboración de proveedor en procesos de envío
-Si los proveedores usan la interfaz de colaboración de proveedor, pueden usarla para controlar el consumo de inventario de su ubicación. Para obtener más información acerca de la configuración de los proveedores para utilizar la colaboración de proveedor, vea [Configuración de seguridad para los usuarios de colaboración de proveedor](../procurement/configure-security-vendor-portal-users.md).
+Si los proveedores usan la interfaz de colaboración de proveedor, pueden usarla para controlar el consumo de inventario de su ubicación. Para obtener más información acerca de la configuración de los proveedores para utilizar la colaboración de proveedor, consulte [Seguridad para los usuarios del portal de proveedores](../procurement/configure-security-vendor-portal-users.md).

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 8d94cf24040e5f653bc053f2df0a45e1afa23adc
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6405b6a680f31c62e16f3bb707ec0a4ccdad3d23
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519046"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813923"
 ---
 # <a name="design-questionnaires"></a>Diseñar cuestionarios
 
@@ -110,7 +110,8 @@ Los grupos de respuestas y las respuestas son componentes que conforman el cuerp
 
 Un grupo de respuestas se puede usar para de una pregunta del mismo cuestionario, así como en varios cuestionarios. 
 
-**Nota:** Si modifica el texto de la respuesta en grupos de respuestas que ya se han usado en cuestionarios completados, se hace difícil evaluar datos y es posible que los resultados del cuestionario ya no sean válidos. Si debe cambiar un grupo de respuestas, piense en crear un nuevo grupo de respuestas en lugar de cambiar uno existente. No puede eliminar los grupos de respuestas que están vinculados a una pregunta o a una respuesta o que ya se han contestado.
+> [!NOTE]
+> Si modifica el texto de la respuesta en grupos de respuestas que ya se han usado en cuestionarios completados, se hace difícil evaluar datos y es posible que los resultados del cuestionario ya no sean válidos. Si debe cambiar un grupo de respuestas, piense en crear un nuevo grupo de respuestas en lugar de cambiar uno existente. No puede eliminar los grupos de respuestas que están vinculados a una pregunta o a una respuesta o que ya se han contestado.
 
 ### <a name="questions"></a>Preguntas
 
@@ -118,12 +119,16 @@ Un cuestionario debe contener preguntas. Las preguntas pueden ser abiertas o cer
 
 -   No se puede controlar las respuestas a preguntas abiertas, en las cuales el encuestado puede escribir su propia respuesta.
 -   Las preguntas cerradas requieren una lista de opciones de respuesta predefinidas y las preguntas se pueden estructurar para permitir a un encuestado seleccionar múltiples respuestas. Las preguntas se deben diseñar para obtener información específica de un encuestado y se deben vincular a un grupo de respuestas que proporcione las opciones de respuesta para cada pregunta cerrada. 
-     -  **Nota:** Antes de configurar las preguntas cerradas, debe crear grupos de respuestas y respuestas.
+
+    > [!NOTE]
+    > Antes de configurar las preguntas cerradas, debe crear grupos de respuestas y respuestas.
 
 Se puede organizar las preguntas en una jerarquía de preguntas condicionales, de modo que las preguntas que sean secundarias dependan de la respuesta que el encuestado selecciona para la pregunta anterior. Puede escribir las preguntas primero y, a continuación, organizarlas en una jerarquía posteriormente.
 
 ## <a name="setting-up-questionnaires"></a>Configurar cuestionarios
-**Nota:** Para poder configurar un cuestionario, debe configurar respuestas, preguntas y requisitos previos. 
+
+> [!NOTE]
+> Para poder configurar un cuestionario, debe configurar respuestas, preguntas y requisitos previos. 
 
 Para cada cuestionario, puede especificar la información siguiente:
 
@@ -159,7 +164,8 @@ Puede completar las siguientes tareas en la página **Cuestionarios**:
 -   Eliminar y agregar preguntas.
 -   Realizar cambios en los grupos de resultados y la secuencia numérica 
 
-**Precaución:** Tenga cuidado al cambiar los cuestionarios que ya se hayan respondido. Los cambios pueden reducir la precisión de las estadísticas y por tanto para convertirlas en una base deficiente para la evaluación. Piense en crear una nueva pregunta en lugar de cambiar una pregunta que ya se haya respondido.
+> [!CAUTION]
+> Tenga cuidado al cambiar los cuestionarios que ya se hayan respondido. Los cambios pueden reducir la precisión de las estadísticas y por tanto para convertirlas en una base deficiente para la evaluación. Piense en crear una nueva pregunta en lugar de cambiar una pregunta que ya se haya respondido.
 
 En un cuestionario, no puede eliminar los siguientes tipos de preguntas:
 
@@ -177,7 +183,8 @@ El cálculo de los puntos y la clasificación de los resultados del cuestionario
 -   Generar estadísticas para cada grupo de resultados, para ayudarle a analizar los resultados.
 -   Imprimir un informe con los resultados de cada grupo de resultados y, además, los puntos/textos opcionales basados en los puntos obtenidos en cada uno de estos grupos.
 
-**Note:** Para poder configurar los grupos de resultados, debe completar las tareas siguientes:
+> [!NOTE]
+> Para poder configurar los grupos de resultados, debe completar las tareas siguientes:
 
 -   Configurar preguntas cerradas. Para una pregunta cerrada, el tipo de entrada de la página **Preguntas** debe ser **Casilla**, **Botón alternativo** o **Cuadro combinado**.
 -   Defina puntos para las respuestas de los grupos de respuestas asignados a cada pregunta.
@@ -187,7 +194,8 @@ Para adjuntar preguntas a un cuestionario mediante los grupos de resultados, pri
 
 Puede configurar varios grupos de resultados para evaluar los puntos que un encuestado obtiene en cada categoría. Una vez completado el cuestionario, puede ver los puntos obtenidos por cada grupo. 
 
-**Sugerencia:** Para evaluar un cuestionario mediante los puntos, aunque sin categorías independientes, puede agregar todas las preguntas a un único grupo de resultados. 
+> [!TIP]
+> Para evaluar un cuestionario mediante los puntos, aunque sin categorías independientes, puede agregar todas las preguntas a un único grupo de resultados. 
 
 También puede configurar uno o más mensajes basados en puntos que los encuestados reciben tras completar un cuestionario. El texto que se muestra puede variar en función de la puntuación que logre un encuestado en un grupo de resultados. Para utilizar mensajes basados en puntos, se deben definir los intervalos de puntos y la descripción de cada intervalo. Cuando un encuestado logra una puntuación en un intervalo concreto, el texto de ese intervalo se incluye en el informe de resultados. 
 
@@ -213,13 +221,15 @@ En la tabla siguiente se muestran los mensajes basados en puntos que define para
 
 Se pueden configurar intervalos de puntos y textos para cada grupo de resultados de un cuestionario. Se mostrarán los textos de cada grupo de resultados que correspondan a la puntuación de cada encuestado. 
 
-**Nota:** Puede realizar cambios en los intervalos y en los textos. No obstante, si se ha completado el cuestionario, los cambios pueden provocar diferencias entre los informes de resultados previos y los nuevos.
+> [!NOTE]
+> Puede realizar cambios en los intervalos y en los textos. No obstante, si se ha completado el cuestionario, los cambios pueden provocar diferencias entre los informes de resultados previos y los nuevos.
 
 ### <a name="conditional-question-hierarchies"></a>Jerarquías de preguntas condicionales
 
 Las jerarquías de preguntas condicionales son opcionales al configurar un cuestionario. 
 
-**Nota:** Antes de configurar una jerarquía de preguntas condicionales, debe adjuntar preguntas que tengan asignados grupos de respuestas al cuestionario. 
+> [!NOTE]
+> Antes de configurar una jerarquía de preguntas condicionales, debe adjuntar preguntas que tengan asignados grupos de respuestas al cuestionario. 
 
 Para usar las preguntas condicionales para crear una jerarquía de preguntas en un cuestionario, puede hacer que la secuencia en la que se presentan las preguntas dependa de la respuesta que el encuestado selecciona para cada pregunta. Al basar la secuencia de preguntas en la respuesta del encuestado, puede modificar el cuestionario conforme el encuestado lo completa.
 
@@ -232,9 +242,9 @@ De forma alternativa, configure un cuestionario de manera que un encuestado sele
 <a name="additional-resources"></a>Recursos adicionales
 --------
 
-[Uso de cuestionarios](questionnaires.md)
+[Cuestionarios](questionnaires.md)
 
-[Distribuir y completar cuestionarios](distribute-questionnaires.md)
+[Distribuir y programar cuestionarios](distribute-questionnaires.md)
 
-[Visualización y evaluación de los resultados de cuestionarios](evaluate-questionnaire-results.md)
+[Ver y evaluar los resultados de los cuestionarios](evaluate-questionnaire-results.md)
 

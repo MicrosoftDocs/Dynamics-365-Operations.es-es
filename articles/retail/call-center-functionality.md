@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 902db94164b35077a876c8041c038af36561a634
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 2e44770af4a30f539e56d38b21c897cacd2707e7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025780"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812348"
 ---
 # <a name="call-center-sales-functionality"></a>Funcionalidad de ventas del centro de llamadas
 
@@ -44,17 +44,17 @@ Esta página ofrece vínculos a la documentación pertinente relacionada con la 
 
 ## <a name="configure-the-call-center"></a>Configure el centro de llamadas
 
-[Configurar opciones de procesamiento de pedidos](set-up-order-processing-options.md)
+[Configurar canales del centro de llamadas](set-up-order-processing-options.md)
 
 ## <a name="configure-order-processing"></a>Configurar el procesamiento de pedidos
 
-[Configurar alertas de fraude](set-up-fraud-alerts.md)
+[Configuración y trabajo con alertas de fraudes de centro de asistencia telefónica](set-up-fraud-alerts.md)
 
-[Retenciones de pedidos manuales](work-with-order-holds.md)
+[Configurar y trabajar con retenciones de pedidos del centro de llamadas](work-with-order-holds.md)
 
 ## <a name="configure-payment-processing"></a>Configurar procesamiento de pagos
 
-[Métodos de pago en un centro de llamadas](work-with-payments.md)
+[Métodos de pago en centros de llamadas](work-with-payments.md)
 
 ## <a name="configure-delivery-modes"></a>Configurar modos de entrega
 
@@ -62,10 +62,10 @@ Esta página ofrece vínculos a la documentación pertinente relacionada con la 
 
 ## <a name="configure-direct-marketing"></a>Configurar marketing directo
 
-[Catálogos de centros de llamadas](call-center-catalogs.md)
+[Catálogos del centro de llamadas](call-center-catalogs.md)
 
-[Configurar análisis de RFM](set-up-rfm-analysis.md)
+[Configurar análisis de novedad, frecuencia y monetario (RFM)](set-up-rfm-analysis.md)
 
 ## <a name="configure-continuity-programs"></a>Configurar programas de continuidad
 
-[Configurar un programa de continuidad para un centro de llamadas](set-up-continuity-program.md)
+[Configurar programas de continuidad para centros de llamadas](set-up-continuity-program.md)

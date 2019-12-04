@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74ccda77a97d1e104940bb10a605d3ebbf45af75
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 0468cb0b1717b7cf0ccb391da09a4e7d788124f3
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571263"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812223"
 ---
 # <a name="functional-location-types"></a>Tipos de ubicaciones funcionales
 
@@ -56,7 +56,7 @@ Ahora se crea el tipo de ubicación funcional predeterminada que se utilizará p
 3. Inserte un identificador de tipo de ubicación funcional en el campo **Tipo de ubicación funcional** y un nombre en el campo **Nombre**.
 4. Seleccione un modelo del ciclo de vida en el campo **Modelo de ciclo de vida de ubicación funcional**. Consulte [Estados de ciclo de vida de ubicaciones funcionales](../setup-for-functional-locations/functional-location-stages.md) para obtener más información sobre los estados y modelos de ciclo de vida de ubicación funcional.
 5. Seleccione "Sí" en el botón de alternar **Múltiples activos** si es posible instalar varios activos en una ubicación funcional usando este tipo de ubicación funcional. Si selecciona “No”, solo puede instalar *un* activo en una ubicación funcional usando este tipo de ubicación funcional.
-6. Seleccione "Sí" en el botón de alternar **Dimensión del activo de actualización** si desea que los activos instalados en una ubicación funcional de este tipo se establezcan automáticamente para usar las dimensiones financieras relacionadas con la ubicación funcional. Esto significa que si cambia las dimensiones financieras en el formulario [Ubicación funcional](../functional-locations/create-functional-locations.md) y la ubicación funcional usa un tipo de ubicación funcional con este botón de alternar establecido en "Sí“, las dimensiones financieras se actualizan automáticamente en todos los activos instalados en dicha ubicación funcional.
+6. Seleccione "Sí" en el botón de alternar **Dimensión del activo de actualización** si desea que los activos instalados en una ubicación funcional de este tipo se establezcan automáticamente para usar las dimensiones financieras relacionadas con la ubicación funcional. Esto significa que si cambia las dimensiones financieras en el formulario [Crear ubicaciones funcionales](../functional-locations/create-functional-locations.md) y la ubicación funcional usa un tipo de ubicación funcional con este botón de alternar establecido en "Sí“, las dimensiones financieras se actualizan automáticamente en todos los activos instalados en dicha ubicación funcional.
 7. Se utiliza el campo **Tipo de activo** si desea crear automáticamente *un* activo para la ubicación funcional con el mismo identificador y nombre que la ubicación funcional que está creando. Por ejemplo, esto puede ser importante si crea una ubicación funcional estática, como un edificio o un proceso. En ese caso, seleccione el activo que desee usar para el activo creado automáticamente. Recuerde que, si hace una selección en este campo, el botón de alternar **Múltiples activos** debe establecerse en “No”.
 8. En el FastTab **Tipos del activo**, seleccione los tipos de activos que se relacionarán con el tipo de ubicación funcional. Seleccione **Agregar línea** y seleccione los tipos de activos. Si agrega tipos del activo aquí, solo los activos que usen esos tipos del activo se pueden instalar en una ubicación funcional usando este tipo de ubicación funcional. Si no se selecciona ningún tipo de activos en el FastTab **Tipos de activo**, todos los tipos del activo se pueden instalar.
 9. En el FastTab **Planes de mantenimiento**, seleccione los planes de mantenimiento que se deben configurar automáticamente en las nuevas ubicaciones funcionales usando este tipo de ubicación funcional. Seleccione **Agregar línea** y seleccione los planes de mantenimiento. Si agrega planes de mantenimiento aquí, solo se pueden usar esos planes en una ubicación funcional usando este tipo de ubicación funcional.

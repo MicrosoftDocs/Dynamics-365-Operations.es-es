@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 074132af2111debee4bea894b559744b4470454d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 78b3b20ed56cbb6404f5526e90fdcefcaec9bf3f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179788"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771970"
 ---
 # <a name="cost-accounting-home-page"></a>Página principal de la contabilidad de costes
 
@@ -39,17 +39,17 @@ El siguiente mapa de aprendizaje muestra los conceptos y tareas principales que 
 
 |      |   |
 |------|---|
-|  [Configurar las entidades bases (eLearning)](https://mbspartner.microsoft.com/Home) (requiere cuenta de CustomerSource)  |[Crear dimensiones](cost-elements.md)  |
-|  [Crear jerarquía de dimensión](dimension-hierarchy.md)  |[Crear configuración básica](./tasks/define-cost-control-units.md)| 
-| [Definir base de asignación](allocation-bases.md)|[Definir directivas](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
-| [Proveedor de datos y origen de datos](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [Proveedor de datos y origen de datos](./tasks/process-trace-source-data.md)     | 
-|[Cálculo de costes generales](overhead-calculation.md)  | [Análisis e informes](cost-control-workspace.md)   |
+|  [Configurar las entidades bases (eLearning)](https://mbspartner.microsoft.com/Home) (requiere cuenta de CustomerSource)  |[Dimensiones de elemento de coste](cost-elements.md)  |
+|  [Jerarquía de dimensiones](dimension-hierarchy.md)  |[Definir unidades de control de costes](./tasks/define-cost-control-units.md)| 
+| [Bases de asignación](allocation-bases.md)|[Crear y asignar una directiva de asignación de costes a una unidad de control de costes](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
+| [Gestionar un origen de datos para el libro mayor de contabilidad de costes](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [Procesar datos de origen y hacer un seguimiento](./tasks/process-trace-source-data.md)     | 
+|[Cálculo de costes generales](overhead-calculation.md)  | [Espacio de trabajo de control de costes](cost-control-workspace.md)   |
 
 ## <a name="get-started-videosbr"></a>Vídeos de introducción<br/>
 
 |  |  |                             |
 |------------------------|--------------------|-----------------------------|
 | [Introducción a la contabilidad de costes](https://www.youtube.com/watch?v=1pUDtJQZ8FU&t=35s)  | [Espacio de trabajo móvil de contabilidad de costes](https://www.youtube.com/watch?v=imsuTg8rUVk&t=7s)  |   [Usar Excel para análisis de la contabilidad de costes](https://www.youtube.com/watch?v=-HKHYdClvx8)  |
-|  |  |                             |
+
 
 

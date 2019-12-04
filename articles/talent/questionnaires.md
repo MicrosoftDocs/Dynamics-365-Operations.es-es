@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: b5c54d921e2955bc866ffd1ca516169790d33127
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: c8655af567ef56c535ce0e43cb76c28c58dc1eb3
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024249"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814614"
 ---
 # <a name="questionnaires"></a>Cuestionarios
 
@@ -44,7 +44,7 @@ En la siguiente tabla se proporcionan vínculos a información sobre cómo usar 
 | Tema| Descripción|
 |------|------------|
 | [Diseñar un cuestionario](design-questionnaires.md)  | Este artículo ofrece información sobre el procedimiento el diseño de un cuestionario. El proceso de diseño implica la configuración de requisitos previos, respuestas y preguntas, y después su combinación en un cuestionario. |
-| [Distribuir y completar un cuestionario](distribute-questionnaires.md)  | Este artículo proporciona información acerca de cómo distribuir un cuestionario a los encuestados y cómo completar cuestionarios.                                                                       |
+| [Distribuir y programar cuestionarios](distribute-questionnaires.md)  | Este artículo proporciona información acerca de cómo distribuir un cuestionario a los encuestados y cómo completar cuestionarios.                                                                       |
 | [Ver y evaluar los resultados de un cuestionario](evaluate-questionnaire-results.md) | Este artículo ofrece información sobre cómo ver y evaluar los resultados de los cuestionarios completados.                                                                                        |
 
 
@@ -54,7 +54,7 @@ En la siguiente tabla se proporcionan vínculos a información sobre cómo usar 
 
 [Diseñar cuestionarios](design-questionnaires.md)
 
-[Distribuir y completar cuestionarios](distribute-questionnaires.md)
+[Distribuir y programar cuestionarios](distribute-questionnaires.md)
 
-[Visualización y evaluación de los resultados de cuestionarios](evaluate-questionnaire-results.md)
+[Ver y evaluar los resultados de los cuestionarios](evaluate-questionnaire-results.md)
 

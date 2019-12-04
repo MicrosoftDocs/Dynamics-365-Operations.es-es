@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 92be01210b677228f4c096ffef09d7109ba2b332
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: ef99a75d29b8fce46943213804239b237d384b07
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2023402"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811911"
 ---
 # <a name="hybrid-customer-orders"></a>Pedidos de cliente híbridos
 
@@ -40,4 +40,4 @@ Si hay una línea del carro definida como **Recoger selección**, **Enviar selec
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general de pedidos de cliente](customer-orders-overview.md)
+[Pedidos de cliente en Retail Modern POS (MPOS)](customer-orders-overview.md)

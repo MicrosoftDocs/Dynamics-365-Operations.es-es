@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e21854825019a73dc8d7bf5a3ee18d508123f72
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: a85f804344abec37d85e1ce15f064c8a0b901546
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1743204"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813118"
 ---
 # <a name="set-up-disposition-codes"></a>Configurar códigos de disposición 
 
@@ -32,7 +32,7 @@ ms.locfileid: "1743204"
 
 Puede configurar códigos de disposición para especificar cómo se va a procesar un artículo que se devuelve por un cliente. Por ejemplo, cree un código de disposición denominado **Reparación y devolución** para indicar que el artículo devuelto se reparó y después se devolvió al cliente. Para obtener más ejemplos de los códigos de disposición que se suelen usar para los artículos que devuelven los clientes, vea [Especificar la disposición de artículos devueltos](specify-how-to-dispose-of-returned-items.md).
 
-También puede configurar un código de motivo para ayudar a explicar por qué un artículo se ha devuelto. Para obtener más información sobre cómo configurar códigos de motivo, vea [Configuración de código de motivo de devolución](set-up-return-reason-code.md).
+También puede configurar un código de motivo para ayudar a explicar por qué un artículo se ha devuelto. Para obtener más información sobre cómo configurar códigos de motivo, consulte [Configuración de códigos de motivo de devolución](set-up-return-reason-code.md).
 
 1.  Haga clic en **Ventas y marketing** \> **Configuración** \> **Pedidos de ventas** \> **Devoluciones** \> **Códigos de disposición**.
 
@@ -46,7 +46,7 @@ También puede configurar un código de motivo para ayudar a explicar por qué u
 
 ## <a name="see-also"></a>Consulte también
 
-[Códigos de distribución y códigos de motivo de devolución](disposition-and-return-reason-codes.md)
+[Visión general de las devoluciones del cliente](disposition-and-return-reason-codes.md)
 
 [Códigos de disposición (formulario)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))
 

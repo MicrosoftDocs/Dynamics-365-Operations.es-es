@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b01e7e8e79061c7a306f00f041413cc1c5185cfe
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 2f39ce63b6d9d57e245fbdce27bd11a8cbc3eebf
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572276"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813418"
 ---
 # <a name="product-receipt-against-purchase-orders"></a>Recepción de producto frente a pedidos de compra
 
@@ -59,11 +59,11 @@ Puede tener acceso a esta página desde el grupo de acción **Recibo** de la pá
 <a name="additional-resources"></a>Recursos adicionales
 --------
 
-[Visión general de pedidos de compra](purchase-order-overview.md)
+[Visión general de los pedidos de compra](purchase-order-overview.md)
 
-[Creación de pedido de compra](purchase-order-creation.md)
+[Crear pedidos de compra](purchase-order-creation.md)
 
-[Confirmación y aprobación del pedido de compra](purchase-order-approval-confirmation.md)
+[Aprobar y confirmar pedidos de compra](purchase-order-approval-confirmation.md)
 
 [Visión general de facturas de proveedores](../../financials/accounts-payable/vendor-invoices-overview.md)
 

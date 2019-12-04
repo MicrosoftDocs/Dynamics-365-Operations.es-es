@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 6c045f82f3288dba193721dd80c90e68750af9a7
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 954e0669c3d24bcc20fe667c22b7dcc367aba1e7
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179793"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770813"
 ---
 # <a name="overhead-calculation"></a>Cálculo de costes generales
 
@@ -1411,7 +1411,7 @@ En la contabilidad financiera, un coste de 10.000,00 para electricidad se envía
 </table>
 
 > [!NOTE]
-> Este tema muestra cómo un artículo de costes principales, 10001 Electricidad, fluye por los objetos de coste. Por tanto, estos gastos generales se asignan al nivel más bajo de la organización. Es decir, los objetos de coste del nivel más bajo son los que soportan el coste. Si necesita un flujo visual del coste entre los objetos de coste, puede usar las reglas de directivas de acumulación de costes para visualizar el flujo del coste. Para obtener más información, consulte [Acumulación de costes](cost-rollup.md).
+> Este tema muestra cómo un artículo de costes principales, 10001 Electricidad, fluye por los objetos de coste. Por tanto, estos gastos generales se asignan al nivel más bajo de la organización. Es decir, los objetos de coste del nivel más bajo son los que soportan el coste. Si necesita un flujo visual del coste entre los objetos de coste, puede usar las reglas de directivas de acumulación de costes para visualizar el flujo del coste. Para obtener más información, consulte [Directiva de acumulación de costes y cálculo de costes generales](cost-rollup.md).
 
 
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 9b7cd06d820522d8db83b5b1480b95db1400e9cc
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3f8017ab23ce77a03469a6a6c82bc22986ec4478
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2191256"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812635"
 ---
 # <a name="before-you-buy"></a>Antes de comprar
 
@@ -41,8 +41,8 @@ Deben tomarse las siguientes consideraciones cuando elija tomar cuando elija loc
 
 - Normativas y necesidades de cumplimiento que no están disponibles en certificaciones de la nube
 - Proceso empresarial desconectado con conectividad intermitente de Internet necesaria para acceder a ciclo de vida de Microsoft Dynamics Lifecycle Services (LCS) para la administración del ciclo de vida de la aplicación
-- [Características no implementadas actualmente en implementaciones locales](features-not-implemented-on-prem.md)
-- [Requisitos mínimos de la infraestructura](system-requirements-on-prem.md#minimum-infrastructure-requirements)
+- [Características no implementadas en implementaciones locales](features-not-implemented-on-prem.md)
+- [Requisitos del sistema para implementaciones locales](system-requirements-on-prem.md#minimum-infrastructure-requirements)
 
 > [!IMPORTANT]
 > Las implementaciones locales Microsoft Dynamics 365 for Finance and Operations no se admiten en ninguna infraestructura interior de la nube, incluyendo Azure.
@@ -78,7 +78,7 @@ Un proveedor de soluciones en nube de Microsoft puede trabajar estrechamente con
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>Comprar a través de un partner de Dynamics (local)
 
-Debe trabajar con un socio para comprar Finance and Operations localmente. Para obtener más información, consulte [Comprar Dynamics 365 for Finance and Operations (on-premises)](purchase-on-premises.md).
+Debe trabajar con un socio para comprar Finance and Operations localmente. Para obtener más información, consulte [Comprar Finance + Operations (on-premises)](purchase-on-premises.md)
 
 ### <a name="choose-your-support-option"></a>Elija su opción de soporte
 
@@ -91,7 +91,7 @@ Más información:
 
 ## <a name="step-four-learn-about-fasttrack-and-plan-your-deployment"></a>Paso cuatro: Obtener información acerca de FastTrack y planificar su implementación
 
-Microsoft FastTrack for Dynamics 365 es nuestro servicio exitoso de cliente diseñado para ayudarle a desplazarse a Dynamics 365 sin conflictos y con confianza, para poder obtener negocio más rápidamente. Cuando participe en el programa FastTrack, recibirá orientación sobre las prácticas recomendadas y cómo planificar implementaciones correctas. También aprenderá formas de habilitar a nuevos usuarios y ampliar sus capacidades; todo siguiendo su propio ritmo. Además, tendrá acceso a los recursos de ingeniería de Microsoft destinados a convertir en un éxito su experiencia con Dynamics 365. Más información: [visión general de Microsoft FastTrack para Dynamics 365](fasttrack-dynamics-365-overview.md)
+Microsoft FastTrack for Dynamics 365 es nuestro servicio exitoso de cliente diseñado para ayudarle a desplazarse a Dynamics 365 sin conflictos y con confianza, para poder obtener negocio más rápidamente. Cuando participe en el programa FastTrack, recibirá orientación sobre las prácticas recomendadas y cómo planificar implementaciones correctas. También aprenderá formas de habilitar a nuevos usuarios y ampliar sus capacidades; todo siguiendo su propio ritmo. Además, tendrá acceso a los recursos de ingeniería de Microsoft destinados a convertir en un éxito su experiencia con Dynamics 365. Más información: [Microsoft FastTrack](fasttrack-dynamics-365-overview.md)
 
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Si se está actualizando desde Dynamics AX 2012 o migrando desde AX 2009
 

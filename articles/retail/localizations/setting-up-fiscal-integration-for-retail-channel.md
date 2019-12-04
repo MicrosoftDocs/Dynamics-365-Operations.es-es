@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: fda94e77480b9d9455fc0e214e43772ab2921f2d
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: a987e75834ddde486421a425a621e66f0b6e063f
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577909"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811174"
 ---
 # <a name="set-up-the-fiscal-integration-for-retail-channels"></a>Configurar la integración fiscal para canales comerciales
 
@@ -210,7 +210,7 @@ Las opciones de procesamiento de errores que están disponibles en la integraci�
 
 Para habilitar los informes fiscales de X/Z que se ejecutarán desde PDV, debe agregar nuevos botones a un diseño de PDV.
 
-- En la página **Cuadrículas de botones** , siga las instrucciones que se indican en [Agregar un botón de operación personalizada al diseño de PDV en Central Retail](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) para instalar el diseñador y actualizar un diseño de PDV.
+- En la página **Cuadrículas de botones** , siga las instrucciones que se indican en [Agregar operaciones de PDV a diseños de PDV mediante el diseñador de cuadrícula de botones](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) para instalar el diseñador y actualizar un diseño de PDV.
 
     1. Seleccionar el diseño que se va a actualizar. 
     2. Agregue un nuevo botón y defina la propiedad del botón **Impresión fiscal X**.
@@ -221,7 +221,7 @@ Para habilitar los informes fiscales de X/Z que se ejecutarán desde PDV, debe a
 
 Para habilitar la ejecución manual de un registro fiscal postpuesto, debe agregar un nuevo botón a un diseño de PDV.
 
-- En la página **Cuadrículas de botones** , siga las instrucciones que se indican en [Agregar un botón de operación personalizada al diseño de PDV en Central Retail](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) para instalar el diseñador y actualizar un diseño de PDV.
+- En la página **Cuadrículas de botones** , siga las instrucciones que se indican en [Agregar operaciones de PDV a diseños de PDV mediante el diseñador de cuadrícula de botones](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) para instalar el diseñador y actualizar un diseño de PDV.
 
     1. Seleccionar el diseño que se va a actualizar.
     2. Agregue un nuevo botón y defina la propiedad del botón **Completar el proceso de registro fiscal**.

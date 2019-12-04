@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cb55d7d00e5676fc5a1326d77889b4adb86c3ca6
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 50ce332673e130dace38f596020973d37c34b566
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248966"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813509"
 ---
 # <a name="manage-vendor-collaboration-users"></a>Gestionar usuarios de colaboración de proveedor
 
@@ -31,7 +31,7 @@ ms.locfileid: "2248966"
 
 Este tema describe cómo puede solicitar el aprovisionamiento de los nuevos usuarios de colaboración del proveedor, y cómo añadir nuevos contactos de colaboración. 
 
-La interfaz de colaboración del proveedor en Dynamics 365 Supply Chain Management expone información a los proveedores externos acerca de pedidos de compra, facturas y consignación de existencias. Puede crear nuevos contactos de colaboración del proveedor y solicitar que se aprovisione a los nuevos usuarios si trabaja como proveedor externo con el rol de seguridad **Gestión de proveedores (externo)**, o con permisos similares. También puede realizar estas tareas si trabaja como profesional de compras. En este tema, este rol hace referencia a un responsable de compras que trabaja dentro de la empresa que posee la instancia de Supply Chain Management. Para obtener más información sobre cómo usar la colaboración del proveedor si es proveedor externo, consulte [Proveedor con clientes](vendor-collaboration-work-customers-dynamics-365-operations.md).  
+La interfaz de colaboración del proveedor en Dynamics 365 Supply Chain Management expone información a los proveedores externos acerca de pedidos de compra, facturas y consignación de existencias. Puede crear nuevos contactos de colaboración del proveedor y solicitar que se aprovisione a los nuevos usuarios si trabaja como proveedor externo con el rol de seguridad **Gestión de proveedores (externo)**, o con permisos similares. También puede realizar estas tareas si trabaja como profesional de compras. En este tema, este rol hace referencia a un responsable de compras que trabaja dentro de la empresa que posee la instancia de Supply Chain Management. Para obtener más información sobre cómo usar la colaboración del proveedor si es proveedor externo, consulte [Colaboración de proveedores con clientes](vendor-collaboration-work-customers-dynamics-365-operations.md).  
 
 Para obtener más información sobre cómo usar la colaboración del proveedor si es un profesional de compras, consulte [Colaboración de proveedor con proveedores externos](vendor-collaboration-work-external-vendors.md).
 

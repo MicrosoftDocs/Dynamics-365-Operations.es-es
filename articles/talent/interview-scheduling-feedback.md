@@ -1,5 +1,5 @@
 ---
-title: Programación y realimentación de la entrevista
+title: Programar entrevistas en Attract
 description: Este tema proporciona información acerca de la programación de la entrevista y las actividades de realimentación en Attract.
 author: hasrivas
 manager: AnnBe
@@ -14,18 +14,18 @@ ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.search.region: Global
 ms.author: shielas
-ms.openlocfilehash: 39b14f3ca855ca283a7484e480ff2547623938ef
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 33eba9796ca997fde4be9a46050207d313551bde
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519015"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832754"
 ---
-# <a name="interview-scheduling-and-feedback"></a>Programación y realimentación de la entrevista
+# <a name="schedule-interviews-in-attract"></a>Programar entrevistas en Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
-## <a name="scheduler-activity"></a>Actividad de programación
+## <a name="scheduler-activity"></a>Actividad del programador
 
 La actividad del programador es opcional y tiene dos componentes: Solicitud de disponibilidad del candidato y programación. El componente disponibilidad del candidato le permite utilizar el correo electrónico para solicitar la disponibilidad de un candidato. El componente Programación proporciona la capacidad de programar entrevistas con el candidato y el equipo de contratación.
 

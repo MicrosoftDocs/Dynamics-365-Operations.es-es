@@ -1,5 +1,5 @@
 ---
-title: Qué versión de Microsoft Dynamics 365 Talent - Attract
+title: Elegir una versión de Attract
 description: Este tema proporciona información sobre las capacidades en las diferentes versiones de Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 54f206aed196be5bbfa0de5b632f20519c2680ea
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 701ce0d710c20deb793534581c276edf02426a4b
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550445"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833170"
 ---
-# <a name="which-version-of-microsoft-dynamics-365-talent---attract"></a>Qué versión de Microsoft Dynamics 365 Talent - Attract
+# <a name="choose-a-version-of-attract"></a>Elegir una versión de Attract
 
-[!include[banner](../includes/banner.md)]
+[[!include [banner](includes/banner.md)]
 
 La versión de Microsoft Dynamics 365 Talent: Attract correcta para usted depende del tamaño de la organización y necesidades. La versión básica Attract proporciona un subconjunto de funciones dirigidas a equipos o organizaciones más pequeñas dónde el usuario principal es el jefe de contratación. Puede empezar a usar la versión básica Attract con una o más licencias.
 

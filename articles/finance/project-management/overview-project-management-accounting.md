@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d461b85f89eff63c8747fb17b3ee34ebfeb2218
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 79e12f39589f9cf3f4b1515fa3ab10bb10ffb97f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185644"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770368"
 ---
 # <a name="project-management-and-accounting-overview"></a>Visión general de la gestión y contabilidad de proyectos
 
@@ -72,7 +72,7 @@ Para obtener más información acerca de los contratos de proyecto, vea [Contrat
 
 El nivel de detalle de una WBS depende del nivel de precisión que se requiere en las estimaciones y el nivel de seguimiento que se requiere frente a las estimaciones. Los proyectos que tienen muy baja tolerancia para los desvíos en la programación o el coste normalmente requieren una WBS más detallado y también requieren seguimiento diligente del coste y del progreso del trabajo en relación con la WBS. 
 
-Para obtener más información, vea [Estructuras de descomposición del trabajo](work-breakdown-structures.md).
+Para obtener más información, vea [Visión general de estructuras de descomposición del trabajo](work-breakdown-structures.md).
 
 ### <a name="create-project-forecasts-and-budgets"></a>Crear las previsiones y presupuestos del proyecto
 
@@ -134,7 +134,7 @@ Durante la ejecución de proyectos, los miembros del equipo o los directores r
 
 Una WBS es una descripción del trabajo que se completará para un proyecto. Una WBS es una jerarquía de tareas. Representa no solo el trabajo para cada tarea, sino también el tamaño, el coste y la duración de tarea. 
 
-Para obtener más información, vea [Estructuras de descomposición del trabajo](work-breakdown-structures.md).
+Para obtener más información, vea [Visión general de estructuras de descomposición del trabajo](work-breakdown-structures.md).
 
 ### <a name="manage-project-forecasts-and-budgets"></a>Gestionar presupuestos y previsiones de proyecto
 

@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cf4eb74acbd305eb67861ab3f09648bf8af8f86c
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: ba01f0d16341eb9b0ec0918798e458626b5ef90e
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025062"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811202"
 ---
 # <a name="retail-peripherals"></a>Periféricos de Retail
 
@@ -35,11 +35,17 @@ En este tema explica los conceptos relacionados con los periféricos para aplica
 
 ### <a name="pos-registers"></a>Registros de PDV
 
-Navegación: Haga clic en **Retail** &gt; **Configuración del canal** &gt; **Configuración del PDV** &gt; **Registros**. El registro del punto de venta PDV es una entidad que se utiliza para definir las características de una instancia específica del PDV. Entre estas características se incluyen el perfil de hardware o la configuración de los periféricos comerciales que se utilizarán en el registro, el almacén al que está asignado el registro y la experiencia visual para el usuario que inicia sesión en ese registro.
+Navegación: Haga clic en **Retail** &gt; **Configuración del canal** &gt; **Configuración del PDV** &gt; **Registros**. 
+
+El registro del punto de venta PDV es una entidad que se utiliza para definir las características de una instancia específica del PDV. Entre estas características se incluyen el perfil de hardware o la configuración de los periféricos comerciales que se utilizarán en el registro, el almacén al que está asignado el registro y la experiencia visual para el usuario que inicia sesión en ese registro.
 
 ### <a name="devices"></a>Dispositivos
 
-Navegación: Haga clic en **Retail** &gt; **Configuración del canal** &gt; **Configuración del PDV** &gt; **Dispositivos**. Un dispositivo es una entidad que representa una instancia física de un dispositivo que está asignado a un registro de PDV. Cuando se crea un dispositivo, se asigna a un registro de PDV. La entidad de dispositivo realiza un seguimiento de información acerca de cuándo se activa un registro de PDV, el tipo de cliente que se utiliza y el paquete de aplicación que se ha implementado en un dispositivo específico. Los dispositivos se pueden asignar a los tipos de aplicación siguientes: Retail Modern POS, Retail Cloud POS, Retail Modern POS - Windows Phone, Retail Modern POS - Android y Retail Modern POS - iOS.
+Navegación: Haga clic en **Retail** &gt; **Configuración del canal** &gt; **Configuración del PDV** &gt; **Dispositivos**. 
+
+Un dispositivo es una entidad que representa una instancia física de un dispositivo que está asignado a un registro de PDV. Cuando se crea un dispositivo, se asigna a un registro de PDV. La entidad de dispositivo realiza un seguimiento de información acerca de cuándo se activa un registro de PDV, el tipo de cliente que se utiliza y el paquete de aplicación que se ha implementado en un dispositivo específico. 
+
+Los dispositivos se pueden asignar a los tipos de aplicación siguientes: Retail Modern POS, Retail Cloud POS, Retail Modern POS - Windows Phone, Retail Modern POS - Android y Retail Modern POS - iOS.
 
 ### <a name="retail-modern-pos"></a>Retail Modern POS
 
@@ -63,11 +69,15 @@ Los periféricos de PDV son dispositivos que admiten explícitamente las funcion
 
 ### <a name="hardware-station"></a>Hardware Station
 
-Navegación: haga clic en **Retail** &gt; **Canales** &gt; **Tiendas** &gt; **Todas las tiendas minoristas**. Seleccione una tienda y, a continuación, haga clic en la ficha desplegable **Estaciones de hardware**. La configuración de la **Estación de hardware** es un valor a nivel de canal que se usa para definir las instancias donde se implementará la lógica periférica de Retail. Este valor a nivel de canal se usa para determinar las características de la estación de hardware. También se usa para mostrar las estaciones de hardware que están disponibles para una instancia de Modern POS en una tienda determinada. La estación de hardware se ha incluido en el programa Modern POS para Windows. La estación de hardware también se puede implementar independientemente como programa independiente de Microsoft Internet Information Services (IIS). En este caso, puede tener acceso a través de una red.
+Navegación: haga clic en **Retail** &gt; **Canales** &gt; **Tiendas** &gt; **Todas las tiendas minoristas**. 
+
+Seleccione una tienda y, a continuación, haga clic en la ficha desplegable **Estaciones de hardware**. La configuración de la **Estación de hardware** es un valor a nivel de canal que se usa para definir las instancias donde se implementará la lógica periférica de Retail. Este valor a nivel de canal se usa para determinar las características de la estación de hardware. También se usa para mostrar las estaciones de hardware que están disponibles para una instancia de Modern POS en una tienda determinada. La estación de hardware se ha incluido en el programa Modern POS para Windows. La estación de hardware también se puede implementar independientemente como programa independiente de Microsoft Internet Information Services (IIS). En este caso, puede tener acceso a través de una red.
 
 ### <a name="hardware-profile"></a>Perfil de hardware
 
-Navegación: haga clic en **Venta minorista** &gt; **Configuración de canal** &gt; **Configuración de PDV** &gt; **Perfiles de PDV** &gt; **Perfiles de hardware**. El perfil de hardware es una lista de dispositivos que están configurados para un registro de PDV o una estación de hardware. El perfil de hardware se puede asignar directamente a un registro de PDV o a una estación de hardware.
+Navegación: haga clic en **Venta minorista** &gt; **Configuración de canal** &gt; **Configuración de PDV** &gt; **Perfiles de PDV** &gt; **Perfiles de hardware**. 
+
+El perfil de hardware es una lista de dispositivos que están configurados para un registro de PDV o una estación de hardware. El perfil de hardware se puede asignar directamente a un registro de PDV o a una estación de hardware.
 
 ## <a name="devices-classes"></a>Clases de dispositivos
 Los periféricos de PDV se suelen dividir en clases. Esta sección describe y ofrece una descripción general de los dispositivos que admite Modern POS.
@@ -202,11 +212,11 @@ La lógica que controla los periféricos físicamente conectados y que se pueden
 
 ### <a name="hardware-station-installation"></a>Instalación de la estación de hardware
 
-Para más información, vea [Instalación y configuración de la estación de hardware para Retail](retail-hardware-station-configuration-installation.md).
+Para más información, consulte [Configurar e instalar la estación de hardware para Retail](retail-hardware-station-configuration-installation.md).
 
 ### <a name="modern-pos-for-windows-setup-and-configuration"></a>Establecimiento y configuración de Modern POS para Windows
 
-Para obtener información, consulte [Configuración e instalación de Retail Modern POS](retail-modern-pos-device-activation.md).
+Para obtener información, consulte [Configurar, instalar y activar Retail Modern POS (MPOS)](retail-modern-pos-device-activation.md).
 
 ### <a name="opos-device-setup-and-configuration"></a>Establecimiento y configuración del dispositivo de OPDV
 
@@ -523,7 +533,7 @@ Los periféricos de red se admiten directamente a través de la estación de har
 
 ## <a name="configuration-for-supported-scenarios"></a>Configuración para los escenarios admitidos
 
-Para obtener más información sobre cómo crear perfiles de hardware, consulte [Definir y mantener clientes de canal, incluso los registros y las estaciones de hardware](define-maintain-channel-clients-registers-hw-stations.md).
+Para obtener más información sobre cómo crear perfiles de hardware, consulte [Conectar periféricos en el punto de venta (POS)](define-maintain-channel-clients-registers-hw-stations.md).
 
 > [!NOTE]
 > Para la versión 1611 de Retail, el perfil de la emisora de hardware ya no se usa. Los atributos que configuró anteriormente en el perfil de la estación de hardware son ahora parte de la propia estación de hardware.
@@ -566,8 +576,8 @@ Esta configuración se puede utilizar para todos los clientes de Modern POS que 
 4. Haga clic en **Venta minorista** &gt; **TI de venta minorista** &gt; **Programación de distribución**.
 5. Seleccione la programación de la distribución **1090** para sincronizar el nuevo perfil de hardware en la tienda. Haga clic **Ejecutar ahora** para sincronizar los cambios en el PDV.
 6. Seleccione la programación de la distribución **1040** para sincronizar la nueva estación de hardware en la tienda. Haga clic **Ejecutar ahora** para sincronizar los cambios en el PDV.
-7. Instale la estación de hardware. Para obtener más información sobre cómo instalar la estación de hardware, consulte [Configuración e instalación de la estación de hardware de Retail](retail-hardware-station-configuration-installation.md).
-8. Instalar y activar Modern POS. Para obtener más información sobre cómo instalar PDV, consulte [Retail Modern POSConfiguración e instalación de ](retail-modern-pos-device-activation.md).
+7. Instale la estación de hardware. Para obtener más información sobre cómo instalar la estación de hardware, consulte [Configurar e instalar la estación de hardware de Retail](retail-hardware-station-configuration-installation.md).
+8. Instalar y activar Modern POS. Para obtener más información sobre cómo instalar PDV, consulte [Configurar, instalar y activar Retail Modern POS (MPOS)](retail-modern-pos-device-activation.md).
 9. Inicie sesión en Modern POS y seleccione **Realizar operaciones no relacionadas con la caja registradora**.
 10. Inicie la operación **Administrar estaciones de hardware**.
 11. Haga clic en **Administrar**.
@@ -595,8 +605,8 @@ Esta configuración se puede utilizar para todos los clientes de Modern POS que 
 5. Haga clic en **Venta minorista** &gt; **TI de venta minorista** &gt; **Programación de distribución**.
 6. Seleccione la programación de la distribución **1090** para sincronizar el nuevo perfil de hardware en la tienda. Haga clic **Ejecutar ahora** para sincronizar los cambios en el PDV.
 7. Seleccione la programación de la distribución **1040** para sincronizar la nueva estación de hardware en la tienda. Haga clic **Ejecutar ahora** para sincronizar los cambios en el PDV.
-8. Instale la estación de hardware en cada equipo del host que haya configurado en los pasos 2 y 3. Para obtener más información sobre cómo instalar la estación de hardware, consulte [Configuración e instalación de la estación de hardware de Retail](retail-hardware-station-configuration-installation.md).
-9. Instalar y activar Modern POS. Para obtener más información sobre cómo instalar PDV, consulte [Retail Modern POSConfiguración e instalación de ](retail-modern-pos-device-activation.md).
+8. Instale la estación de hardware en cada equipo del host que haya configurado en los pasos 2 y 3. Para obtener más información sobre cómo instalar la estación de hardware, consulte [Configurar e instalar la estación de hardware de Retail](retail-hardware-station-configuration-installation.md).
+9. Instalar y activar Modern POS. Para obtener más información sobre cómo instalar PDV, consulte [Configurar, instalar y activar Retail Modern POS (MPOS)](retail-modern-pos-device-activation.md).
 10. Inicie sesión en Modern POS y seleccione **Realizar operaciones no relacionadas con la caja registradora**.
 11. Inicie la operación **Administrar estaciones de hardware**.
 12. Haga clic en **Administrar**.
@@ -655,7 +665,7 @@ Según las normas actuales de seguridad, los valores siguientes se deben usar en
 
 ## <a name="peripheral-simulator"></a>Simulador periférico
 
-Para obtener más información, consulte [Simulador de periféricos para aplicaciones minoristas](dev-itpro/retail-peripheral-simulator.md).
+Para obtener más información, consulte [Simulador de periféricos para Retail](dev-itpro/retail-peripheral-simulator.md).
 
 ## <a name="microsoft-tested-peripheral-devices"></a>Dispositivos periféricos probados por Microsoft
 

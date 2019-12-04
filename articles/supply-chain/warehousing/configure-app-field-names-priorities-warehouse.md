@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a3251368e92eb2e24eb9e64bb615027d038ff660
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 11f6c96cc07c63d2c0c6a94385916b3396a77ed5
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251094"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814982"
 ---
 # <a name="configure-app-field-names-in-warehousing-app"></a>Configuración de nombres de campo de aplicación en la aplicación de almacén
 
@@ -32,7 +32,8 @@ ms.locfileid: "2251094"
 
 Este tema describe cómo definir y configurar nombres de campo y prioridades de la aplicación de almacén en Dynamics 365 Supply Chain Management. 
 
-**Nota**: este tema se aplica a las características de gestión de almacenes. No se aplica a las características de gestión del inventario. Warehousing es una aplicación que puede usar para realizar tareas de almacén. Es posible definir y configurar los nombres de campo que se utilizan en la aplicación, así como configurar la prioridad a la que los nombres de campo se deben asignar. Este tema explica cómo definir y configurar estos nombres de campo y prioridades de la aplicación de almacén y cómo se usan en Warehousing. Para obtener información detallada sobre cómo configurar la conexión a Warehousing, consulte el tutorial sobre [Instalación y configuración de Warehousing](install-configure-warehousing-app.md).
+> [!NOTE]
+> Este tema se aplica a las características de gestión de almacenes. No se aplica a las características de gestión del inventario. Warehousing es una aplicación que puede usar para realizar tareas de almacén. Es posible definir y configurar los nombres de campo que se utilizan en la aplicación, así como configurar la prioridad a la que los nombres de campo se deben asignar. Este tema explica cómo definir y configurar estos nombres de campo y prioridades de la aplicación de almacén y cómo se usan en Warehousing. Para obtener información detallada sobre cómo configurar la conexión a Warehousing, consulte el tutorial sobre [Instalación y configuración de la aplicación de Warehousing](install-configure-warehousing-app.md).
 
 ## <a name="configure-warehouse-app-field-names"></a>Configurar nombres de campo de la aplicación de almacén
 
@@ -142,4 +143,4 @@ Los metadatos restantes, por ejemplo, ubicación, no se muestran en la página d
 <a name="additional-resources"></a>Recursos adicionales
 --------
 
-[Instalar y configurar Microsoft Dynamics 365 for Finance and Operations - Warehousing](install-configure-warehousing-app.md)
+[Visión general sobre cómo instalar y configurar la aplicación Warehousing](install-configure-warehousing-app.md)

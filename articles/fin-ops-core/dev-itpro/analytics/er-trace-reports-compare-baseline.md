@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 1643e7fb3128faf6ad638d4cdad313b3667463b1
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6cdfbbd7d4f41503e97620b8738679ad572b2a4a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181689"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771246"
 ---
 # <a name="trace-generated-report-results-and-compare-them-with-baseline-values"></a>Realizar un seguimiento de los resultados de informe generados y compararlos con valores de línea base
 
@@ -44,10 +44,10 @@ Para obtener más información acerca de esta función, reproduzca las guías de
 
 En este procedimiento se explica cómo configurar el marco de ER para recopilar información sobre ejecuciones del formato de ER y evaluar después los resultados de esas ejecuciones. Como parte de esa evaluación, los documentos generados se comparan con sus archivos de línea base. En este ejemplo, creará las configuraciones de ER necesarias para la empresa de ejemplo, Litware, Inc. Este procedimiento se ha creado para los usuarios con los roles de Administrador del sistema o Desarrollador de informes electrónicos asignados. Estos pasos se pueden completar mediante cualquier conjunto de datos.
 
-Para completar los pasos de este ejemplo, primero debe completar los pasos de [Creación de un proveedor de configuraciones y marcarlo como activo](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+Para completar los pasos de este ejemplo, primero debe completar los pasos de [Crear y activar proveedores de configuración](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 1. Vaya a **Administración de la organización** \> **Espacios de trabajo** \> **Informes electrónicos**.
-2. En la página **Configuraciones de localización**, en la sección **Proveedores de configuración**, compruebe que aparece el proveedor de la configuración para la empresa de ejemplo Litware, Inc. y que ha marcado como **Activo**. Si no ve a este proveedor de configuración, siga los pasos de [Creación de un proveedor de configuración y marcarlo como activo](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. En la página **Configuraciones de localización**, en la sección **Proveedores de configuración**, compruebe que aparece el proveedor de la configuración para la empresa de ejemplo Litware, Inc. y que ha marcado como **Activo**. Si no ve a este proveedor de configuración, siga los pasos de [Crear y activar proveedores de configuración](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 ### <a name="configure-document-management-parameters"></a>Confugurar los parámetros de gestión de documentos
 
@@ -55,7 +55,7 @@ Para completar los pasos de este ejemplo, primero debe completar los pasos de [C
 2. En el campo **Clase**, introduzca **Adjuntar archivo**.
 3. En el campo **Grupo**, introduzca **Archivo**.
 
-![Página Tipos de documento](media/GER-BaselineSample-SetupDocumentType.PNG "Captura de pantalla de página Tipos de documento")
+![Página de tipos de documento](media/GER-BaselineSample-SetupDocumentType.PNG "Captura de pantalla de la página Tipos de documento")
 
 > [!NOTE]
 > Debe configurarse un nuevo tipo de documento que tiene el mismo nombre para cada conjunto de datos donde tiene previsto usar la característica de la línea base de ER.
@@ -64,11 +64,11 @@ Para completar los pasos de este ejemplo, primero debe completar los pasos de [C
 
 1. En el espacio de trabajo **Informes electrónicos**, en la sección **Vínculos relacionados**, seleccione **Parámetros de informes electrónicos**.
 
-    ![Espacio de trabajo de informes electrónicos](media/GER-BaselineSample-ERWorkspace.PNG "Captura de pantalla de espacio de trabajo de informes electrónicos")
+    ![Espacio de trabajo de los informes electrónicos](media/GER-BaselineSample-ERWorkspace.PNG "Captura de pantalla de página del espacio de trabajo de informes electrónicos")
 
 2. En la pestaña **Archivos adjuntos**, en el campo **Línea base**, introduzca o seleccione el tipo de documento que acaba de crear.
 
-    ![Pestaña Archivos adjuntos de la página Parámetros de informes electrónicos](media/GER-BaselineSample-ERParameters.PNG "Captura de pantalla de los parámetros de informes electrónicos")
+    ![Pestaña de Archivos adjuntos para la página Parámetros de informes electrónicos](media/GER-BaselineSample-ERParameters.PNG "Captura de pantalla de página de los parámetros de informes electrónicos")
 
 3. Selecione **Guardar** y cierre la página **Parámetros de informes electrónicos**.
 
@@ -79,7 +79,7 @@ Para completar los pasos de este ejemplo, primero debe completar los pasos de [C
 3. En el cuadro de diálogo desplegable, en el campo **Nombre**, introduzca **Modelo para aprender líneas base de ER**.
 4. Seleccione **Crear configuración** para confirmar la creación de una nueva entrada de modelo de datos de ER.
 
-![Cuadro de diálogo desplegable Crear configuración](media/GER-BaselineSample-ModelAdd.PNG "Captura de pantalla de cuadro de diálogo desplegable Crear configuración")
+![Cuadro de diálogo desplegable Crear configuración](media/GER-BaselineSample-ModelAdd.PNG "Captura de pantalla del cuadro de diálogo desplegable de Crear configuración")
 
 ### <a name="design-a-data-model"></a>Diseñar un modelo de datos
 
@@ -93,7 +93,7 @@ Para completar los pasos de este ejemplo, primero debe completar los pasos de [C
 8. Seleccione **Cambiar estado**.
 9. Seleccione **Completar** y, a continuación, seleccione **Aceptar**.
 
-![Página Configuraciones](media/GER-BaselineSample-ModelComplete.PNG "Captura de pantalla de la página Configuraciones")
+![Página Configuraciones](media/GER-BaselineSample-ModelComplete.PNG "Captura de pantalla de la página Configuración")
 
 ### <a name="add-a-new-er-format-configuration"></a>Añada una nueva configuración para el formato de ER
 
@@ -102,7 +102,7 @@ Para completar los pasos de este ejemplo, primero debe completar los pasos de [C
 3. En el campo **Nombre**, introduzca **Formato para aprender líneas base de ER**.
 4. Seleccione **Crear configuración** para confirmar la creación de una nueva entrada de formato de ER.
 
-![Cuadro de diálogo desplegable Crear configuración](media/GER-BaselineSample-FormatAdd.PNG "Captura de pantalla de cuadro de diálogo desplegable Crear configuración")
+![Cuadro de diálogo desplegable Crear configuración](media/GER-BaselineSample-FormatAdd.PNG "Captura de pantalla del cuadro de diálogo desplegable de Crear configuración")
 
 ### <a name="design-a-format"></a>Diseñar un formato
 
@@ -131,7 +131,7 @@ Para este ejemplo, creará un formato de ER simple para generar documentos XML.
     2. En el campo **Nombre**, escriba **Id**.
     3. Seleccione **Aceptar**.
 
-    ![Página del diseñador de formato](media/GER-BaselineSample-FormatLayoutDesign.PNG "Captura de pantalla de la página del diseñador de formato")
+    ![Página de diseñador de formato](media/GER-BaselineSample-FormatLayoutDesign.PNG "Captura de pantalla de la página del diseñador de formatos")
 
 8. En la pestaña **Asignación**, seleccione **Eliminar**.
 9. Seleccione **Agregar raíz**.
@@ -144,7 +144,7 @@ Para este ejemplo, creará un formato de ER simple para generar documentos XML.
 11. En el árbol, seleccione **Salida\\Documento\\Id**.
 12. Seleccione **Enlazar** y, a continuación, seleccione **Guardar**.
 
-![Página del diseñador de formato](media/GER-BaselineSample-FormatMappingDesign.PNG "Captura de pantalla de la página del diseñador de formato")
+![Página de diseñador de formato](media/GER-BaselineSample-FormatMappingDesign.PNG "Captura de pantalla de la página del diseñador de formatos")
 
 A partir de la estructura diseñada, el formato configurado generará un archivo XML. Este XML contiene el elemento **Raíz** que tiene el atributo **Id.** que se establece en el valor que el usuario introduce en el cuadro de diálogo del tiempo de ejecución de ER.
 
@@ -154,7 +154,7 @@ A partir de la estructura diseñada, el formato configurado generará un archivo
 2. En el campo **Introducir id.**, introduzca **1**.
 3. Seleccione **Aceptar**.
 
-    ![Cuadro de diálogo de parámetros de informes electrónicos](media/GER-BaselineSample-FormatRunToMakeBaselineFile1.PNG "Captura de pantalla del cuadro de diálogo de parámetros de informes electrónicos")
+    ![Cuadro de diálogo Parámetros de notificación electrónica](media/GER-BaselineSample-FormatRunToMakeBaselineFile1.PNG "Captura de pantalla del cuadro de diálogo de los parámetros de los informes electrónicos")
 
 4. Guarde una copia local del archivo **out.Admin.xml** que se genera, de modo que puede utilizarla más adelante como una línea base para este formato de ER.
 
@@ -166,20 +166,20 @@ A partir de la estructura diseñada, el formato configurado generará un archivo
 2. Establezca la opción **Ejecutar en modo depuración** en **Sí**.
 3. Seleccione **Aceptar**.
 
-![Cuadro de diálogo de parámetros de usuario](media/GER-BaselineSample-ERUserParameters.PNG "Captura de pantalla del cuadro de diálogo de parámetros de usuario")
+![Cuadro de diálogo parámetros de usuario](media/GER-BaselineSample-ERUserParameters.PNG "Captura de pantalla del cuadro de diálogo de los parámetros del usuario")
 
 ### <a name="add-a-new-baseline-for-designed-er-format"></a>Agregar una nueva línea base para un formato de ER diseñado
 
 1. Vaya a **Administración de la organización** \> **Informes electrónicos** \> **Configuraciones**.
 2. En el panel de acciones, haga clic en **Líneas base**.
 
-    ![Botón Líneas base en la página Configuraciones](media/GER-BaselineSample-OpenBaselinePage.PNG "Captura de pantalla del botón Líneas base en la página Configuraciones")
+    ![Botón de líneas base en la página Configuraciones](media/GER-BaselineSample-OpenBaselinePage.PNG "Captura de pantalla del botón Líneas base en la página Configuraciones")
 
 3. En el panel de acciones, haga clic en **Nueva**.
 4. Seleccione el formato de ER **Formato para aprender líneas base de ER** que diseñó anteriormente.
 5. Seleccione **Guardar**.
 
-![Páginas de líneas base del formato de informes electrónicos](media/GER-BaselineSample-AddBaseline.PNG "Captura de pantalla de la página de líneas base del formato de informes electrónicos")
+![Página de líneas base del formato de los informes electrónicos](media/GER-BaselineSample-AddBaseline.PNG "Captura de pantalla de la página de líneas base del formato de los informes electrónicos")
 
 La línea base se agrega para el formato **Formato para aprender líneas base de ER** .
 
@@ -189,7 +189,7 @@ La línea base se agrega para el formato **Formato para aprender líneas base de
 2. En el panel de acciones, seleccione **Nuevo** \> **Archivo**. En los parámetros de ER, debe haberse seleccionado previamente el tipo de documento **Archivo** como el tipo de documento que se utiliza para almacenar los archivos de línea base.
 3. Seleccione **Examinar** y seleccione el archivo **out.Admin.xml** que se generó cuando se ejecutó el formato de ER configurado anteriormente.
 
-    ![Páginas Archivos adjuntos](media/GER-BaselineSample-UploadBaselineFile.PNG "Captura de pantalla de la página Archivos adjuntos")
+    ![Página de Archivos adjuntos](media/GER-BaselineSample-UploadBaselineFile.PNG "Captura de pantalla de la página de Archivos adjuntos")
 
 4. Cierre la página **Archivos adjuntos**.
 5. En la ficha desplegable **Líneas base**, seleccione **Nueva**.
@@ -204,7 +204,7 @@ La línea base se agrega para el formato **Formato para aprender líneas base de
 10. En el campo **Línea base**, introduzca o seleccione el archivo adjunto **outAdmin**.
 11. Seleccione **Guardar**.
 
-![Páginas de líneas base del formato de informes electrónicos](media/GER-BaselineSample-SetupBaselineLine.PNG "Captura de pantalla de la página de líneas base del formato de informes electrónicos")
+![Página de líneas base del formato de los informes electrónicos](media/GER-BaselineSample-SetupBaselineLine.PNG "Captura de pantalla de la página de líneas base del formato de los informes electrónicos")
 
 ### <a name="run-the-designed-er-format-and-review-the-log-to-analyze-the-results"></a>Ejecutar el formato de ER diseñado y revisar el registro para analizar los resultados
 
@@ -215,7 +215,7 @@ La línea base se agrega para el formato **Formato para aprender líneas base de
 5. Seleccione **Aceptar**.
 6. Vaya a **Administración de la organización** \> **Informes electrónicos** \> **Configurar registros de depuración**.
 
-    ![Página Registros de ejecución de informes electrónicos](media/GER-BaselineSample-ReviewBaselineComparison1.PNG "Captura de pantalla de la página Registros de ejecución de informes electrónicos")
+    ![Página de registros de ejecución de informes electrónicos](media/GER-BaselineSample-ReviewBaselineComparison1.PNG "Captura de pantalla de página registros de ejecución de los informes electrónicos")
 
     > [!NOTE]
     > El registro de ejecución contiene información sobre los resultados de la comparación del archivo generado con la línea base configurada. En este ejemplo, el registro indica que el archivo generado y la línea base son iguales.
@@ -231,7 +231,7 @@ La línea base se agrega para el formato **Formato para aprender líneas base de
 5. Seleccione **Aceptar**.
 6. Vaya a **Administración de la organización** \> **Informes electrónicos** \> **Configurar registros de depuración**.
 
-    ![Página Registros de ejecución de informes electrónicos](media/GER-BaselineSample-ReviewBaselineComparison2.PNG "Captura de pantalla de la página Registros de ejecución de informes electrónicos")
+    ![Página de registros de ejecución de informes electrónicos](media/GER-BaselineSample-ReviewBaselineComparison2.PNG "Captura de pantalla de página registros de ejecución de los informes electrónicos")
 
     > [!NOTE]
     > El registro de ejecución contiene información sobre los resultados de la comparación del archivo generado con la línea base configurada. En este ejemplo, el registro indica que el archivo generado y la línea base son diferentes.
@@ -243,4 +243,4 @@ La línea base se agrega para el formato **Formato para aprender líneas base de
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-- [Configurar marco de ER](electronic-reporting-er-configure-parameters.md)
+- [Configurar el marco de informes electrónicos (ER)](electronic-reporting-er-configure-parameters.md)

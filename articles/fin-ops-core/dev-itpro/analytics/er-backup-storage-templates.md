@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 932ba44b4223bf9c9d93ffb19e17f6e57bb303b5
-ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
+ms.openlocfilehash: 5dad101ffe56c9266c0d81ede8be1f72b684a8fb
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553100"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771430"
 ---
 # <a name="backup-storage-of-er-templates"></a>Almacenamiento de copia de seguridad de las plantillas de ER
 
 [!include [banner](../includes/banner.md)]
 
-El [marco de informes electrónicos (ER)](general-electronic-reporting.md) permite a los usuarios de la empresa configurar formatos para documentos de salida en función de los requisitos legales de diversos países o regiones. Los formatos de ER configurados pueden usar plantillas predefinidas para generar documentos salientes en distintos formatos, como libros Microsoft Excel , documentos Microsoft Word , o documentos PDF. Las plantillas se rellenan con los datos que necesita el flujo de datos configurado para los documentos generados.
+La [Visión general del marco de informes electrónicos (ER)](general-electronic-reporting.md) permite a los usuarios de la empresa configurar formatos para documentos de salida en función de los requisitos legales de diversos países o regiones. Los formatos de ER configurados pueden usar plantillas predefinidas para generar documentos salientes en distintos formatos, como libros Microsoft Excel , documentos Microsoft Word , o documentos PDF. Las plantillas se rellenan con los datos que necesita el flujo de datos configurado para los documentos generados.
 
 Cada formato configurado se puede publicar como parte de una solución de ER. Cada solución de ER se puede exportar a partir de una instancia de Finance and Operations e importar a otra instancia.
 
-El marco de ER usa el [Marco de gestión de documentos](../../fin-ops/organization-administration/configure-document-management.md) para conservar las plantillas necesarias para la instancia actual de Finance and Operations. En función de la configuración del marco de ER, el Blob Storage de Microsoft Azure o una carpeta de Microsoft SharePoint se pueden seleccionar como la ubicación de almacenamiento principal físico para las plantillas. (Para obtener más información, consulte [Configurar el marco de ER](electronic-reporting-er-configure-parameters.md)). La tabla DocuValue contiene un registro individual para cada plantilla. En cada registro, el campo **AccessInformation** almacena la ruta del archivo de una plantilla ubicado en la ubicación de almacenamiento configurada.
+El marco de ER usa [Configurar la gestión de documentos](../../fin-ops/organization-administration/configure-document-management.md) para conservar las plantillas necesarias para la instancia actual de Finance and Operations. En función de la configuración del marco de ER, el Blob Storage de Microsoft Azure o una carpeta de Microsoft SharePoint se pueden seleccionar como la ubicación de almacenamiento principal físico para las plantillas. (Para obtener más información, consulte [Configurar el marco de informes electrónicos (ER)](electronic-reporting-er-configure-parameters.md)). La tabla DocuValue contiene un registro individual para cada plantilla. En cada registro, el campo **AccessInformation** almacena la ruta del archivo de una plantilla ubicado en la ubicación de almacenamiento configurada.
 
 Al gestionar las instancias de Finance and Operations, es posible que desee migrar la instancia actual a otra ubicación. Por ejemplo, puede migrar la instancia de producción a un nuevo entorno de espacio aislado. Si configuró el marco de ER para almacenar plantillas en Blob storage, la tabla DocuValue en el nuevo entorno aislado se refiere a la instancia de Blob storage del entorno de producción. Sin embargo, no se puede acceder a esta instancia desde el entorno aislado, ya que el proceso de migración no admite la migración de artefactos en Blob storage. Por lo tanto, si intenta ejecutar un formato de ER que use una plantilla para generar documentos empresariales, se producirá una excepción, y se le notificará que falta la plantilla. También se le guía para usar la herramienta de limpieza del ER y después volver a importar la configuración del formato de ER que contiene la plantilla. Dado que puede que tenga varias configuraciones de formato de ER, este proceso puede ser largo.
 
@@ -94,6 +94,6 @@ En Finance and Operations versión 10.0.5, el almacenamiento de copia de segurid
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general de los informes electrónicos](general-electronic-reporting.md)
+[Visión general de los informes electrónicos (ER)](general-electronic-reporting.md)
 
-[Configurar el marco de informes electrónicos](electronic-reporting-er-configure-parameters.md)
+[Configurar el marco de informes electrónicos (ER)](electronic-reporting-er-configure-parameters.md)

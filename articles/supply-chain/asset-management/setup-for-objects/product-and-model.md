@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14a73f49064911a2b28c742cfc19469f4bf95e74
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: b77605070387871335c480e25cbe23af1155d6e8
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2569970"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812177"
 ---
 # <a name="asset-manufacturers-and-models"></a>Fabricantes y modelos de activos
 
@@ -45,7 +45,7 @@ Este tema explica cómo configurar fabricantes de activos y los modelos relacion
 8. En el campo **Tipo de activo**, seleccione el tipo de activo con el que debe estar relacionado el modelo del fabricante.
 
     > [!NOTE]
-    > También puede configurar las relaciones para los tipos, los fabricantes, y los modelos de activos en la búsqueda **Tipos del activo**. Para obtener más información, consulte [Crar tipo de activo](../setup-for-objects/object-types.md).
+    > También puede configurar las relaciones para los tipos, los fabricantes, y los modelos de activos en la búsqueda **Tipos del activo**. Para obtener más información, consulte [Tipos de activo](../setup-for-objects/object-types.md).
 
     En el FastTab **Detalles**, el campo **Modelos** muestra el número de modelos de activos que se configuran en el fabricante del acivo seleccionado. El campo **Activos** muestra el número de activos que utilizan el fabricante seleccionado.
     

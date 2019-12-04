@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 8b9fa6b8d5109f873c784d384d49f685f94da228
-ms.sourcegitcommit: dd991154231280aff9c9c5799e42799e2bfc02fb
+ms.openlocfilehash: 747922294eaf971795177beeb73839d453f6475a
+ms.sourcegitcommit: ae0efac749ab34d423fac44d00a597801c143fbb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2622777"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "2830195"
 ---
 # <a name="dynamics-365-talent-to-dynamics-365-finance-integration-faq"></a>Preguntas frecuentes de Integración de Dynamics 365 Talent en Dynamics 365 Finance
 
@@ -48,7 +48,7 @@ Las plantillas son el punto de partida. Puede crear su propia plantilla, pero un
 
 Las dimensiones financieras no están actualmente en Common Data Service y como consecuencia no forman parte de la plantilla predeterminada. Esta entidad se planifica, pero no hay una escala de tiempo de liberación disponible.
 
-Para los datos que residen en Finance pero no existen en Talent, enlace los dos sistemas usando **Configurar vínculos** en Talent. Para obtener más información sobre cómo configurar vínculos entre Talent y Finance, consulte [Novedades o qué ha cambiado en Dynamics 365 Talent: Core HR (31 de octubre de 2018)](whats-new-talent-october-31.md).
+Para los datos que residen en Finance pero no existen en Talent, enlace los dos sistemas usando **Configurar vínculos** en Talent. Para obtener más información sobre cómo configurar vínculos entre Talent y Finance, consulte [Novedades o qué ha cambiado en Dynamics 365 Talent - Core HR (31 de octubre de 2018)](whats-new-talent-october-31.md).
 
 ![Distribuir dimensiones financieras](media/MapFinancialDimensions.png)
 
@@ -69,7 +69,7 @@ Con el uso de la "consulta avanzada”, puede filtrar y volver a dar forma a dat
 ## <a name="can-i-specify-which-fields-to-send-to-finance-for-a-specific-entity"></a>¿Puedo especificar qué campos debo enviar a Finance para una entidad específica?
 
 Los campos se pueden agregar o quitar de la tarea de integración. No todos los campos de datos que existen en la entidad Common Data Service se rellenarán desde Core HR.
-Los datos adicionales se pueden rellenar mediante PowerApps.
+Los datos adicionales se pueden rellenar mediante Power Apps.
 
 ![Añadir o eliminar campos a y desde una tarea de integración.](media/SpecifyFieldsIncludedInIntegration.png)
 
@@ -119,19 +119,19 @@ Haga un seguimiento del tiempo del historial de la ejecución del integrador de 
 
 1. Obtenga el índice de la tarea del integrador de datos (en este ejemplo es “9 ").
 
-![Captura del índice de la tarea desde el integrador de datos](media/CaptureTaskIndex.png)
+    ![Captura del índice de la tarea desde el integrador de datos](media/CaptureTaskIndex.png)
 
 2. Realice un seguimiento del tiempo de ejecución del proyecto.
 
-![Seguimiento del tiempo de ejecución del proyecto](media/CaptureTimeOfExecution.png)
+    ![Seguimiento del tiempo de ejecución del proyecto](media/CaptureTimeOfExecution.png)
 
 3. En Finance, identifique el índice. - 1. En este ejemplo, el proyecto con el sufijo "8 "y el tiempo de ejecución de índice "0 "coincide con el tiempo de ejecución del paso 2.
 
-![Identificar el índice](media/IdentifyIndex.png)
+    ![Identificar el índice](media/IdentifyIndex.png)
 
 ## <a name="after-integrating-talent-and-finance-i-dont-see-my-talent-data-in-finance-what-do-i-do"></a>Después de integrar Talent y Finance , no veo mis datos de Talent en Finance. ¿Qué hago?
 
-La integración en Finance es un proceso de dos pasos. En primer lugar, compruebe que los datos de Talent estén actualizados y disponibles en Common Data Service. Esto es una sincronización prácticamente en tiempo real y se puede comprobar en PowerApps buscando los datos en las entidades de datos.
+La integración en Finance es un proceso de dos pasos. En primer lugar, compruebe que los datos de Talent estén actualizados y disponibles en Common Data Service. Esto es una sincronización prácticamente en tiempo real y se puede comprobar en Power Apps buscando los datos en las entidades de datos.
 
 ![Datos en Common Data Service](media/DataInCDS.png)
 
@@ -168,7 +168,7 @@ Actualice las entidades de datos en Finance en **Administración de datos \> Par
 
   - [Administración y solución de problemas de errores del integrador de datos](https://docs.microsoft.com/powerapps/administrator/data-integrator-error-management)
 
-  - [Respuesta a solicitudes de DSR para registros generados por el sistema en PowerApps, Microsoft Flow y Common Data Service](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [Respuesta a solicitudes de DSR para registros generados por el sistema en Power Apps, Microsoft Power Automate y Common Data Service](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - Administración de datos:
 

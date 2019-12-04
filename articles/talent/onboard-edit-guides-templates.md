@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-19
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 0f4c68acfe021e736c259e91a40ce7d43d401246
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 24369a878e95076783d670894236d56dca18e765
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552011"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812888"
 ---
 # <a name="edit-onboarding-guides-and-templates-in-dynamics-365-talent---onboard"></a>Editar guías y plantillas de incorporación en Dynamics 365 Talent - Onboard
 
@@ -124,7 +124,7 @@ Para insertar los cambios:
 
     - Para agregar un vídeo de YouTube, arrastre el elemento **YouTube** al área de edición, especifique un nombre y una descripción para la actividad, e indique la URL del vídeo de YouTube.
     - Para agregar una presentación o un boletín de Sway, arrastre el elemento **Sway** al área de edición, introduzca un nombre y una descripción de la actividad, y especifique la dirección URL incrustada para la presentación o la hoja de Sway.
-    - Para agregar una aplicación de PowerApps, arrastre el elemento **PowerApps** al área de edición, especifique un nombre y una descripción para la actividad, y seleccione la aplicación de PowerApps o especifique el identificador de la aplicación de PowerApps.
+    - Para agregar una aplicación de Microsoft Power Apps, arrastre el elemento **Power Apps** al área de edición, especifique un nombre y una descripción para la actividad, y seleccione la aplicación de Power Apps o especifique el identificador de la aplicación de Power Apps.
     - Para agregar un vídeo de Microsoft Stream, arrastre el elemento **Microsoft Stream** al área de edición, especifique un nombre y una descripción para la actividad, e indique la URL del vídeo de Microsoft Stream.
     - Para agregar un formulario de Microsoft Forms, arrastre el elemento **Microsoft Forms** al área de edición, especifique un nombre y una descripción para la actividad, escriba la dirección URL del formulario de Microsoft Forms y especifique el tamaño del área de visualización.
     - Para agregar un iframe que contenga contenido web, arrastre el elemento de **contenido Web (iframe)** al área de edición, especifique un nombre y una descripción para la actividad, escriba la dirección URL del contenido web y especifique el tamaño del área de visualización.
@@ -186,6 +186,6 @@ Para editar un contacto, seleccione el botón **Editar** (el símbolo de lápiz)
 ### <a name="see-also"></a>Consulte también
 
 - [Probar o comprar la aplicación Onboard](https://dynamics.microsoft.com/talent/onboard/)
-- [Novedades](./whats-new.md)
-- [Notas de la versión](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Obtener soporte](./talent-support.md)
+- [Novedades y cambios en Dynamics 365 Talent](./whats-new.md)
+- [Planes de lanzamiento](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Obtener soporte para Microsoft Dynamics 365 Talent](./talent-support.md)

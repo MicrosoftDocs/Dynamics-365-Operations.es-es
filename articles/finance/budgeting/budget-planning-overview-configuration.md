@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ce94f3bbb988640bc53ca2170c7ed54c6c01c18
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5a33ced073394f0f3aa1b0b2e177e4608ca5bcf6
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179817"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772039"
 ---
 # <a name="budget-planning-overview"></a>Visión general de la planificación presupuestaria
 
@@ -155,7 +155,8 @@ Para el esquema de ejemplo, puede que desee crear columnas para escenarios de ve
 
 También puede designar si cada elemento de diseño (columna) es editable y si está disponible en cualquier plantilla de hoja de cálculo que se cree para ese diseño. Para el esquema de ejemplo, en el diseño que se usa para la etapa Estimación, las columnas de previsión son editables, mientras que las columnas de ventas PY y contratos son de solo lectura.
 
-[!Note] De forma predeterminada hay un límite de 36 columnas, a menos que extienda la planificación presupuestaria mediante los pasos descritos en [Extender el diseño de la planificación presupuestaria](./extending-budget-planning-layout.md).
+> [!NOTE] 
+> De forma predeterminada hay un límite de 36 columnas, a menos que extienda la planificación presupuestaria mediante los pasos descritos en [Extender el diseño de la planificación presupuestaria](./extending-budget-planning-layout.md).
 
 ### <a name="templates"></a>Plantillas
 

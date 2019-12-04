@@ -1,6 +1,6 @@
 ---
-title: Extender Talent mediante PowerApps y Microsoft Flow- escenarios de ejemplo
-description: En este tema se describen algunos ejemplos de los escenarios de la extensibilidad para Microsoft Dynamics 365 Talent que usan Microsoft PowerApps y Microsoft Flow.
+title: Ampliar el talento con Power Apps y Power Automate
+description: En este tema se describen algunos ejemplos de los escenarios de la extensibilidad para Microsoft Dynamics 365 Talent que usan Microsoft Power Apps y Microsoft Power Automate.
 author: negudava
 manager: Annbe
 ms.date: 05/01/2019
@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 7bc3a18327f2d32770176eddcb7200681f0fb0da
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 3bb61297e294aa3f2d06f542bebe29d7afae9c3b
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008068"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832847"
 ---
-# <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>Extender Talent mediante PowerApps y Microsoft Flow- escenarios de ejemplo
+# <a name="extend-talent-with-power-apps-and-power-automate"></a>Ampliar el talento con Power Apps y Power Automate
 
-En este tema se describen algunos ejemplos de los escenarios de la extensibilidad para Microsoft Dynamics 365 Talent que usan Microsoft PowerApps y Microsoft Flow. Puede importar el paquete de la solución que está asociado a cada ejemplo en el entorno de PowerApps. Puede utilizar los paquetes como orientación o punto de partida para los escenarios del instrumento aplicables a la organización.
+[!include [banner](includes/banner.md)]
+
+En este tema se describen algunos ejemplos de los escenarios de la extensibilidad para Microsoft Dynamics 365 Talent que usan Microsoft Power Apps y Microsoft Power Automate. Puede importar el paquete de la solución que está asociado a cada ejemplo en el entorno de Power Apps. Puede utilizar los paquetes como orientación o punto de partida para los escenarios del instrumento aplicables a la organización.
 
 > [!IMPORTANT]
 > Si desea usar las plantillas y la aplicación que se describen en este tema “tal cual”, asegúrese de probarlas para asegurarse de que cubren todas las situaciones que son específicas de su implementación.
@@ -36,11 +38,11 @@ En este tema se describen algunos ejemplos de los escenarios de la extensibilida
 ## <a name="prerequisites"></a>Requisitos previos
 
 - Para importar los paquetes, los usuarios deben tener el permiso **Fabricante de entorno**.
-- Para exportar o importar aplicaciones, los usuarios deben tener una licencia PowerApps Plan 2 o una licencia de prueba de PowerApps Plan 2.
+- Para exportar o importar aplicaciones, los usuarios deben tener una licencia Power Apps Plan 2 o una licencia de prueba de Power Apps Plan 2.
 
-## <a name="flow--form-connect"></a>Flow - Conectar formulario
+## <a name="power-automate--form-connect"></a>Power Automate - Conectar formulario
 
-La plantilla **Flow - Conectar formulario** se puede usar para leer datos de Microsoft Forms y almacenarlos en una entidad Common Data Service.
+La plantilla **Power Automate - Conectar formulario** se puede usar para leer datos de Microsoft Forms y almacenarlos en una entidad de Common Data Service.
 
 Esta plantilla puede ser ampliada para que pueda usar otros escenarios. A continuación se incluyen algunos ejemplos:
 
@@ -51,19 +53,19 @@ Esta plantilla puede ser ampliada para que pueda usar otros escenarios. A contin
 
 En Microsoft Dynamics 365: Attract, los formularios pueden aparecer en portal del candidato y los candidatos pueden completar los detalles. Los formularios también se pueden insertar como actividades en una plantilla de trabajo.
 
-Cuando un candidato envía un formulario, Microsoft Flow captura el envío del formulario, lee los datos y los almacena en la entidad Common Data Service.
+Cuando un candidato envía un formulario, Microsoft Power Automate captura el envío del formulario, lee los datos y los almacena en la entidad Common Data Service.
 
-Para descargar la plantilla **Flow - Conectar formulario** y la estructura de entidad personalizada, vaya a [Flow - Conectar formulario](https://go.microsoft.com/fwlink/?linkid=2081988) en el Centro de descarga de Microsoft.
+Para descargar la plantilla **Power Automate - Conectar formulario** y la estructura de entidad personalizada, vaya a [Power Automate - Conectar formulario](https://go.microsoft.com/fwlink/?linkid=2081988) en el Centro de descarga de Microsoft.
 
-## <a name="initiate-and-extract-parameters-passed-to-powerapps"></a>Iniciar y extraer parámetros pasados a PowerApps
+## <a name="initiate-and-extract-parameters-passed-to-power-apps"></a>Iniciar y extraer parámetros pasados a Power Apps
 
-La plantilla **Iniciar y extraer parámetros pasados a PowerApps** se puede usar como punto de partida para cualquier escenario de PowerApps que sea específico de Attract. Incluye todos los parámetros predeterminados que son pasados por Attract, por ejemplo, **Solicitud de trabajo**, **Identificador del candidato** y **JobID**.
+La plantilla **Iniciar y extraer parámetros pasados a Power Apps** se puede usar como punto de partida para cualquier escenario de Power Apps que sea específico de Attract. Incluye todos los parámetros predeterminados que son pasados por Attract, por ejemplo, **Solicitud de trabajo**, **Identificador del candidato** y **JobID**.
 
 Esta plantilla se puede usar para recuperar un formulario de evaluación del candidato, de modo que un director de contratación puede ver la evaluación que completó un candidato.
 
-Las aplicaciones que se crean mediante PowerApps se pueden insertar en la plantilla de trabajo en Attract.
+Las aplicaciones que se crean mediante Power Apps se pueden insertar en la plantilla de trabajo en Attract.
 
-Para descargar la estructura de la plantilla **Iniciar y extraer parámetros pasados a PowerApps** y la estructura de entidad personalizada, vaya a [Iniciar y extraer parámetros pasados a PowerApps](https://go.microsoft.com/fwlink/?linkid=2081991) en el Centro de descarga de Microsoft.
+Para descargar la estructura de la plantilla **Iniciar y extraer parámetros pasados a Power Apps** y la estructura de entidad personalizada, vaya a [Iniciar y extraer parámetros pasados a Power Apps](https://go.microsoft.com/fwlink/?linkid=2081991) en el Centro de descarga de Microsoft.
 
 ## <a name="integration-with-office-365"></a>Integración con Office 365
 
@@ -73,33 +75,33 @@ Esta aplicación puede ser ampliada para que pueda usar otros escenarios. Por ej
 
 Para descargar la aplicación **Integración con Office 365** y la estructura de entidad personalizada, vaya a [Integración con Office 365](https://go.microsoft.com/fwlink/?linkid=2081787) en el Centro de descarga de Microsoft.
 
-## <a name="flow--email-notification"></a>Flow - Notificación por correo electrónico
+## <a name="power-automate--email-notification"></a>Power Automate - Notificación por correo electrónico
 
-La plantilla **Flow – Notificación por correo electrónico** se puede usar para los escenarios de la notificación por correo electrónico. Puede ser utilizada para activar correos electrónicos de notificación a los candidatos que el equipo de contratación rechaza durante cualquier fase del proceso de contratación.
+La plantilla **Power Automate – Notificación por correo electrónico** se puede usar para los escenarios de la notificación por correo electrónico. Puede ser utilizada para activar correos electrónicos de notificación a los candidatos que el equipo de contratación rechaza durante cualquier fase del proceso de contratación.
 
 Esta plantilla puede ser ampliada para hacer un seguimiento de los cambios a la etapa del candidato en el proceso de contratación y enviar notificaciones al equipo de contratación y al candidato.
 
 Normalmente, para las entidades que se almacenan en Common Data Service, los flujos se pueden configurar para enviar las notificaciones para los eventos que se producen en Core HR, Attract o Onboard.
 
-Para descargar la plantilla **Flow – Notificación por correo electrónico**, vaya a [Flow – Notificación por correo electrónico](https://go.microsoft.com/fwlink/?linkid=2082103) en el Centro de descarga de Microsoft.
+Para descargar la plantilla **Power Automate – Notificación por correo electrónico**, vaya a [Power Automate – Notificación por correo electrónico](https://go.microsoft.com/fwlink/?linkid=2082103) en el Centro de descarga de Microsoft.
 
-## <a name="flow--sql-connect-and-execute"></a>Flow – Conectar y ejecutar SQL
+## <a name="power-automate--sql-connect-and-execute"></a>Power Automate – Conectar y ejecutar SQL
 
-La plantilla **Flow - Conectar y ejecutar SQL** se conecta a Microsoft SQL Server y activa la ejecución de consultas SQL.
+La plantilla **Power Automate - Conectar y ejecutar SQL** se conecta a Microsoft SQL Server y activa la ejecución de consultas SQL.
 
 Aunque esta plantilla se designa para leer y las tablas SQL actualizadas, puede ser ampliada para que pueda usarse para otros escenarios. Por ejemplo, se puede usar para rellenar una tabla de ensayo de Common Data Service con registros de SQL Server, y para sincronizar periódicamente la tabla de ensayo mediante una inserción incremental de SQL Server.
 
-Para descargar la plantilla **Flow - Conectar y ejecutar SQL**, vaya a [Flow - Conectar y ejecutar SQL](https://go.microsoft.com/fwlink/?linkid=2081789) en el Centro de descarga de Microsoft.
+Para descargar la plantilla **Power Automate - Conectar y ejecutar SQL**, vaya a [Power Automate - Conectar y ejecutar SQL](https://go.microsoft.com/fwlink/?linkid=2081789) en el Centro de descarga de Microsoft.
 
-## <a name="flow--sharepoint-integration"></a>Flow - Integración con SharePoint
+## <a name="power-automate--sharepoint-integration"></a>Integración de Power Automate - SharePoint
 
-La plantilla **Flow – Integración con SharePoint** se puede usar para leer datos de una lista de Microsoft SharePoint , comparar la lista con los valores de campo de cualquier entidad Common Data Service , y enviar los resultados de la comparación como una notificación de correo electrónico. 
+La plantilla **Power Automate – Integración con SharePoint** se puede usar para leer datos de una lista de Microsoft SharePoint, comparar la lista con los valores de campo de cualquier entidad de Common Data Service, y enviar los resultados de la comparación como una notificación de correo electrónico. 
 
 Una organización puede tener un conjunto de aptitudes que necesita con urgencia. Estos aptitudes se pueden almacenar en SharePoint como una lista SharePoint. Cuando un candidato solicita cualquier trabajo que cuenta con un conjunto de las aptitudes necesarias, si hay una coincidencia significativa entre las aptitudes del candidato y las aptitudes que se almacenan en SharePoint, se envía una notificación por correo electrónico. De esta manera, los puestos que se requieren con urgencia se ocupan antes, ya que las notificaciones ayudan a los reclutadores a contactar y contratar a candidatos a lo largo de la organización.
 
 Esta plantilla puede ser ampliada para que pueda usar para cualquier escenario que implique la integración con SharePoint.
 
-Para descargar la plantilla **Flow – Integración con SharePoint**, vaya a [Flow – Integración con SharePoint](https://go.microsoft.com/fwlink/?linkid=2082109) en el Centro de descarga de Microsoft.
+Para descargar la plantilla **Integración de Power Automate – SharePoint** con , vaya a Integración de [Power Automate – SharePoint](https://go.microsoft.com/fwlink/?linkid=2082109) en el Centro de descarga de Microsoft.
 
 ## <a name="referral-app"></a>Aplicación de referencia
 Puede usar la aplicación de referencia para agregar candidatos a una reserva de talentos compartida. La persona que hace la referencia puede especificar el **Nombre**, **Apellidos**, **Correo electrónico**y **Dirección URL de Linkedln** , al registrar un candidato. Luego los metadatos de origen del candidato se rellenan con la información de la persona que hace la referencia.
