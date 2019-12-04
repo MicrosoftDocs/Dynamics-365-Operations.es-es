@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c78fc1f2f1bb08d01828a8b71ad5d3c16ad31b86
-ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.openlocfilehash: 98c84e987c40adf136d0240117f7b0f119bf2f59
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2278398"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811126"
 ---
 # <a name="product-recommendations-on-pos"></a>Recomendaciones de productos en PDV
 
@@ -40,13 +40,13 @@ Las recomendaciones de productos se habilitan para los siguientes escenarios de 
 
 1. En la página **Detalles del producto**:
 
-    - • Si un empleado de tienda visita una página de **Detalles del producto** a la hora de buscar transacciones anteriores a través de distintos canales, el servicio de recomendación sugiere artículos adicionales que es probable que se adquieran de forma conjunta.
+    - Si un empleado de tienda visita una página de **Detalles del producto** a la hora de buscar transacciones anteriores a través de distintos canales, el servicio de recomendación sugiere artículos adicionales que es probable que se adquieran de forma conjunta.
 
     [![Recomendaciones en la página Detalles de producto](./media/proddetails.png)](./media/proddetails.png)
 
 2. En la página **Transacción**:
 
-    - • El motor de recomendación sugiere artículos basados en la lista completa de artículos en la cesta que con frecuencia se adquieren conjuntamente.
+    - El motor de recomendación sugiere artículos basados en la lista completa de artículos en la cesta que con frecuencia se adquieren conjuntamente.
 
     > [!NOTE]
     > Para mostrar recomendaciones en la página **Transacción**, el minorista tiene que actualizar el diseño de la pantalla en Dynamics 365 for Retail. El control **Recomendaciones** debe quitarse de la página **Transacción**.
@@ -69,10 +69,12 @@ Siga estos pasos para configurar recomendaciones de productos:
 
 - Vaya a **Parámetros de ventas al por menor** \> **Listas de recomendaciones** \> **Deshabilitar recomendaciones de productos** y ejecute **Trabajo de configuración global \[9999\]**. 
 - Si agregó el **Control de recomendaciones** a su pantalla de transacción mediante el **Diseñador de pantalla**, quítelo también.
-- Si tiene preguntas adicionales, consulte [Preguntas más frecuentes sobre las recomendaciones](../commerce/faq-recommendations.md) para obtener más información.
+- Si tiene preguntas adicionales, consulte [Preguntas más frecuentes sobre las recomendaciones del producto](../commerce/faq-recommendations.md) para obtener más información.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Agregar un control de recomendaciones a la página de transacciones en un dispositivo de PDV](add-recommendations-control-pos-screen.md)
-[Información general de las recomendaciones de productos](../commerce/product-recommendations.md)
-[Habilitar recomendaciones de productos](../commerce/enable-product-recommendations.md) 
+[Agregue un control de recomendaciones a la pantalla de transacción en dispositivos de PDV](add-recommendations-control-pos-screen.md)
+
+[Visión general de recomendaciones de producto](../commerce/product-recommendations.md)
+
+[Habilitar recomendaciones de producto](../commerce/enable-product-recommendations.md) 

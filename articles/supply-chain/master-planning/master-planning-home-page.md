@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2dd3915d9eb5b255e9d84e5ec7c331d184e5f485
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 0588ad24cb28a32557361e1a2e5391502a8b46d7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250700"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814270"
 ---
 # <a name="master-planning-home-page"></a>Página principal de planificación maestra
 
@@ -39,9 +39,9 @@ La planificación maestra utiliza la información para calcular los requisitos y
 
 Los tres procesos de planificación principales son:
 
--  **Planificación maestra** - El plan maestro calcula los requisitos netos. Se basa en pedidos reales actuales y permite a las empresas controlar el reaprovisionamiento de inventario a diario y a corto plazo. Otro término para describirlo es *Plan de requisitos netos*. Para obtener más información consulte [Planificación maestra](master-plans.md). 
+-  **Planificación maestra** - El plan maestro calcula los requisitos netos. Se basa en pedidos reales actuales y permite a las empresas controlar el reaprovisionamiento de inventario a diario y a corto plazo. Otro término para describirlo es *Plan de requisitos netos*. Para obtener más información, consulte [Visión general de planes maestros](master-plans.md). 
 
--  **Planificación de previsión** - La programación de previsiones calcula los requisitos brutos. Se basa en las proyecciones futuras (o previsiones) y permite a las empresas realizar la planificación a largo plazo de la capacidad y los materiales. Para obtener más información consulte [Planificación de previsión](introduction-demand-forecasting.md). 
+-  **Planificación de previsión** - La programación de previsiones calcula los requisitos brutos. Se basa en las proyecciones futuras (o previsiones) y permite a las empresas realizar la planificación a largo plazo de la capacidad y los materiales. Para obtener más información, consulte [Visión general de la previsión de demanda](introduction-demand-forecasting.md). 
 
 -  **Planificación maestra de empresas vinculadas** - El plan maestro de empresas vinculadas calcula los requisitos netos para todas las entidades jurídicas. Conecta la oferta y la demanda entre las empresas no solo para la oferta y la demanda a corto plazo y en firme, sino también para la oferta y la demanda a largo plazo y planificada (que aún no es en firme). Para obtener más información, consulte [Planificación maestra de empresas vinculadas](https://mbspartner.microsoft.com/AX/CourseOverview/1276) (eLearning) (requiere la cuenta de CustomerSource). 
 
@@ -57,13 +57,13 @@ El siguiente mapa de aprendizaje muestra los conceptos y tareas principales que 
 
 ## <a name="quick-links"></a>Vínculos rápidos
 
-- [Planes maestros](master-plans.md)  
+- [Visión general de los planes maestros](master-plans.md)  
 - [Generar un plan con restricciones](./tasks/constrained-plan.md)
-- [Creación de un plan de materiales para coproductos](./tasks/create-material-plan-co-products.md)
-- [Planificación maestra y funcionalidad multisitio](master-plan-multisite-functionality.md)
+- [Crear un plan de materiales para coproductos](./tasks/create-material-plan-co-products.md)
+- [Visión general de la planificación maestra y la funcionalidad multisitio](master-plan-multisite-functionality.md)
 - [Crear un plan de empresas vinculadas](./tasks/create-intercompany-plan.md)
-- [Visión general de previsión de la demanda](introduction-demand-forecasting.md)
-- [Claves de reducción](reduction-keys.md)
+- [Visión general de la previsión de la demanda](introduction-demand-forecasting.md)
+- [Previsión de las claves de reducción](reduction-keys.md)
                                   
 ## <a name="additional-resources"></a>Recursos adicionales
 

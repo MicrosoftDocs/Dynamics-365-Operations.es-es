@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e0c6a9e4dd3f3182c98a9f5491b07f8687c21e5c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 531fd219cc2db79e01a277c72eba66fb8a9b8bbd
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184080"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772660"
 ---
 # <a name="budgeting-home-page"></a>Página principal de Gestión presupuestaria
 
@@ -42,12 +42,12 @@ Los procesos tanto para la planificación estratégica a largo plazo como para l
 
 Por último, las organizaciones muy maduras pueden establecer una cultura de organización en la que se forme a los empleados acerca de los objetivos de la organización y cuyos objetivos se puedan perseguir a través de directivas como "Considerar una reunión en línea en lugar de un viaje". La aplicación incluye un marco de control presupuestario que permite a la dirección de la empresa seleccionar un control rígido (que impide los registros que superarían el presupuesto) o un control flexible (con el que se advierte a los usuarios que superarán los fondos presupuestarios disponibles, pero se les permite decidir cómo continuar). Por último, puede usar las previsiones continuas. Una previsión continua es una comparación periódica de los valores de presupuesto frente a los valores reales y se usa para definir si el funcionamiento de la empresa se adecua al presupuesto. La previsión continua también se usa para identificar tendencias. En Finance and Operations se admiten las previsiones continuas, a través de un documento de plan presupuestario, como las actividades iniciales de planificación. Las previsiones continuas se pueden realizar en paralelo con la planificación para el próximo ciclo presupuestario.
 
--   [Presupuesto básico: visión general y configuración](basic-budgeting-overview-configuration.md)
--   [Control presupuestario: visión general y configuración](budget-control-overview-configuration.md)
--   [Planificación presupuestaria: visión general y configuración](budget-planning-overview-configuration.md)
+-   [Visión general de la gestión presupuestaria](basic-budgeting-overview-configuration.md)
+-   [Visión general del control presupuestario](budget-control-overview-configuration.md)
+-   [Visión general de la planificación presupuestaria](budget-planning-overview-configuration.md)
 -   [Previsión de puestos](position-forecasting.md)
 -   [Documentos de justificación de la planificación presupuestaria](budget-planning-justification-docs.md)
--   [Plantillas de Microsoft Excel para planificación presupuestaria](budget-planning-excel-templates.md)
+-   [Plantillas de planificación presupuestaria para Excel](budget-planning-excel-templates.md)
 
 ## <a name="budgeting-tools"></a>Herramientas de gestión presupuestaria
 [![Herramientas de gestión presupuestaria](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 

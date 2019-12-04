@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2becf8213cfa46e2c0cf0c553f0b5e503dfc3704
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: c067b7b6cbbcad4456df6037da8ab124776261e9
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570249"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771831"
 ---
 # <a name="general-journal-processing"></a>Procesamiento de diarios generales
 
@@ -85,9 +85,9 @@ La configuración de la cuenta principal ofrece muchas opciones para el proceso 
 Las estructuras contables y las estructuras de reglas avanzadas son muy importantes para asegurarse de que los datos necesarios para los informes financieros y el seguimiento del rendimiento se capturen durante el proceso del diario general y la documentación. Las estructuras contables y las estructuras de reglas avanzadas le permiten adaptar la experiencia de entrada de datos. Puede permitir la entrada de datos solo para las dimensiones financieras que son relevantes en cada situación, y también puede exigir el requisito de que los datos obligatorios y correctos se capturen siempre.
 
 Para obtener más información, consulte los siguientes temas:
-- [Planificación: plan de cuentas](plan-chart-of-accounts.md). 
+- [Planificar su plan de cuentas](plan-chart-of-accounts.md) 
 - [Crear reglas avanzadas para diarios](tasks/create-advanced-rules-journals.md)
-- [Crear un movimiento de diario mediante una plantilla](tasks/create-journal-entry-template.md)
+- [Creación de un movimiento de diario mediante una plantilla](tasks/create-journal-entry-template.md)
 - [Crear y validar diarios](tasks/create-validate-journals.md)
 - [Registrar diarios periódicos](tasks/post-periodic-journals.md)
 - [Procesar diario de asignaciones contables](tasks/process-ledger-allocation-journal.md)

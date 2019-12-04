@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6bd76fc771c370d8d769a97d3b33003f632717f2
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d0bf2f843401811d601b5fe90709bf995f550870
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174199"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771526"
 ---
 # <a name="cost-management-power-bi-content"></a>Contenido de gestión de costes de Power BI
 
@@ -37,7 +37,7 @@ El contenido de **Gestión de costes** de Microsoft Power BI está destinado a l
 > [!NOTE]
 > Los contenidos de **Gestión de costes** Power BI descrito en este tema se aplican a Dynamics 365 Finance and Operations 8.0.
 > 
-> El paquete de contenido de **Gestión de costes** Power BI, disponible en el sitio de AppSource se ha dejado de utilizar. Para obtener más información sobre dicha deprecación, consulte Paquetes de contenido de [Power BI BI disponibles en AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> El paquete de contenido de **Gestión de costes** Power BI, disponible en el sitio de AppSource se ha dejado de utilizar. Para obtener más información sobre dicha deprecación, consulte [Funcionalidades eliminadas u obsoletas de Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 Este contenido de Power BI proporciona un formato categorizado que ayuda a controlar el rendimiento de inventarios y visualizar cómo fluyen los coste a través de ellos. Puede obtener información de gestión como el ratio de facturación, el número de días que el inventario está disponible, precisión y "clasificación ABC" de su nivel agregado preferido (empresa, artículo, grupo de artículos o sitio). La información que se facilita se puede usar también como suplemento detallado del informe financiero.
 

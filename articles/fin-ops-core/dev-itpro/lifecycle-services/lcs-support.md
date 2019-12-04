@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c36adc1f754c918a9fdf8410572f3199cdb63766
-ms.sourcegitcommit: e16b8c248fc2c2a60dc7b803320f942a35b443c5
+ms.openlocfilehash: 6e62e406de5d972b3e66319cf293d3d420c69d46
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2577505"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812144"
 ---
 # <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Obtener soporte técnico para las aplicaciones Finance and Operations o Lifecycle Services (LCS)
 
@@ -90,6 +90,6 @@ Para las consultas técnicas relacionadas con iniciar sesión y acceder a Custom
 
 ## <a name="additional-resources"></a>Recursos adicionales
 - [Obtener soporte para Dynamics 365 Retail](../../../retail/retail-support.md)
-- [Obtener soporte para Dynamics 365 Talent](../../../talent/talent-support.md)
+- [Obtener soporte para Microsoft Dynamics 365 Talent](../../../talent/talent-support.md)
 - Para obtener más información acerca de ofertas de soporte Microsoft Dynamics , vea [Gestionar las experiencias de soporte para aplicaciones de Finance and Operations](cloud-powered-support-lcs.md).
 

@@ -513,7 +513,7 @@
                   href: cost-management/manage-standard-cost-updates.md
                 - name: Restricciones a las versiones de gestión de costes para costes estándar
                   href: cost-management/restrictions-costing-versions-standard-costs.md
-                - name: Información utilizada en los cálculos de costes estándar de L. MAT.
+                - name: Información utilizada en los cálculos de L. MAT. con costes estándar
                   href: cost-management/information-used-bom-calculations-standard-costs.md
                 - name: Actualizar costes estándar en un entorno de fabricación
                   href: cost-management/update-standard-costs-manufacturing-environment.md
@@ -571,9 +571,11 @@
                   href: cost-management/inventory-close.md
                 - name: Ajuste de valores de coste de inventario disponible
                   href: cost-management/adjust-hand-inventory-cost-values.md
+                - name: Informe de vencimiento de inventario
+                  href: cost-management/inventory-aging-report-storage.md
             - name: Contabilidad de fabricación
               items:
-                - name: Cálculos MAT
+                - name: Cálculos de L. MAT.
                   href: cost-management/bom-calculations.md
                 - name: Grupos de cálculo de L. MAT.
                   href: cost-management/bom-calculation-groups.md
@@ -868,7 +870,13 @@
                         - name: Descargar configuraciones del repositorio de ER para el tipo RCS
                           href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Importar configuraciones de RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Tutoriales
+                      items:
+                        - name: Usar los orígenes de datos de JOIN para obtener datos de varias tablas de aplicación múltiple en las asignaciones de modelo de informes electrónicos (ER)
+                          href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Configurar asignaciones de modelo de ER que dependen del conexto del país
+                          href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Usar soluciones de informes electrónicos en Finance and Operations
                   items:
                     - name: Configurar el marco
@@ -903,6 +911,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Visión general de la gestión de documentos empresariales
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Agregar nuevos campos a una plantilla de documento empresarial en Microsoft Excel
+                      href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/supply-chain/toc.json
                 - name: API de marco de ER
                   items:
                     - name: Ampliar la lista de funciones de informes electrónicos
@@ -1051,6 +1061,22 @@
           items:
             - name: Página principal de Planificación maestra
               href: master-planning/master-planning-home-page.md
+            - name: Optimización de planificación
+              items:
+                - name: Visión general de la optimización de la planificación
+                  href: master-planning/planning-optimization/planning-optimization-overview.md
+                - name: Introducción a la optimización de la planificación
+                  href: master-planning/planning-optimization/get-started.md
+                - name: Análisis de idoneidad de optimización de la planificación
+                  href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
+                - name: Aplicar filtros a un plan
+                  href: master-planning/planning-optimization/plan-filters.md
+                - name: Ver historial del plan y registros de planificación
+                  href: master-planning/planning-optimization/plan-history-logs.md
+                - name: Puesta en firme automática con la optimización de la planificación
+                  href: master-planning/planning-optimization/planning-optimization-auto-firming.md
+                - name: Cancelar un trabajo de planificación
+                  href: master-planning/planning-optimization/cancel-planning-job.md
             - name: Planes maestros
               items:
                 - name: Visión general de los planes maestros
@@ -1533,7 +1559,7 @@
                   href: pim/tasks/create-sales-price-selection-criteria.md
                 - name: Configurar precios basados en atributos para productos configurables
                   href: pim/tasks/set-up-attribute-based-pricing-configurable-products.md
-                - name: Cálculos MAT
+                - name: Cálculos de L. MAT.
                   href: cost-management/bom-calculations.md
             - name: Configuración del producto
               items:
@@ -1613,7 +1639,7 @@
                       href: production-control/bom-designer-functionality.md
                     - name: Artículos fantasma
                       href: production-control/phantom-items.md
-                    - name: Cálculos MAT
+                    - name: Cálculos de L. MAT.
                       href: cost-management/bom-calculations.md
                     - name: Gestionar la unidad de medida
                       href: pim/tasks/manage-unit-measure.md

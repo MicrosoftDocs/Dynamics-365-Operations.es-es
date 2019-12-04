@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 578aa96de28758a4dfff9f8c5f7782705ddd5f70
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 65c5702514a3bc9fe943959fd4ca032eb19bfe4c
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556055"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814453"
 ---
 # <a name="set-up-consignment"></a>Configuración de entrega
 
@@ -97,7 +97,7 @@ El diario de **Cambio de propiedad de inventario**se usa para registrar la trans
 [![inventory-ownership-change-journal](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
 
 ## <a name="vendor-collaboration-in-consignment-processes"></a>Colaboración de proveedor en procesos de envío
-Si los proveedores usan la interfaz de colaboración de proveedor, pueden usarla para controlar el consumo de inventario de su ubicación. Para obtener más información acerca de la configuración de los proveedores para utilizar la colaboración de proveedor, vea [Configuración de seguridad para los usuarios de colaboración de proveedor](../procurement/configure-security-vendor-portal-users.md).
+Si los proveedores usan la interfaz de colaboración de proveedor, pueden usarla para controlar el consumo de inventario de su ubicación. Para obtener más información acerca de la configuración de los proveedores para utilizar la colaboración de proveedor, consulte [Seguridad para los usuarios del portal de proveedores](../procurement/configure-security-vendor-portal-users.md).
 
 
 

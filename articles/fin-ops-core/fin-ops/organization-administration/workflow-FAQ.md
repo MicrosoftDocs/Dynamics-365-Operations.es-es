@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14aa9b56da005e8e3ca121589d0e22c60f34343b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0188e8ed3cbbfd7dbccd7d13cf6129e146a919ac
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189784"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772706"
 ---
 # <a name="workflow-faq"></a>Preguntas frecuentes sobre flujos de trabajo
 
@@ -50,4 +50,4 @@ A continuación se muestran algunas áreas fundamentales a tener en cuenta para 
     - Se pueden crear mensajes del Centro de actividades para determinados usuarios, como un mensaje creado desde un flujo de trabajo en X++.
     - [Los flujos de trabajo tienen eventos de negocio](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) que el cliente podría utilizar para activar los flujos que tienen las notificaciones que está buscando.   
 
-En resumen, si un usuario no obtiene la notificación adecuada del Centro de actividades cuando se le asigna un elemento de trabajo del flujo de trabajo, utilice [Eventos de negocio del flujo de trabajo](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) con Microsoft Flow para proporcionar notificaciones adicionales o distintas.
+En resumen, si un usuario no obtiene la notificación adecuada del Centro de actividades cuando se le asigna un elemento de trabajo del flujo de trabajo, utilice [Eventos de negocio del flujo de trabajo](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) con Microsoft Power Automate para proporcionar notificaciones adicionales o distintas.

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: LedgerJournalSetup, LedgerParameters, AssetProposalDepreciation
 audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: a39654d4b6d74aa640db682fa052651736552db1
-ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
+ms.openlocfilehash: 233f31bd0b20ad5dd8ba21077797dd2f65069deb
+ms.sourcegitcommit: bc6db23825c94cd8305ef37bc18296765e9ce8a4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553196"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "2810708"
 ---
 # <a name="one-voucher"></a>Un asiento
 
@@ -83,6 +83,9 @@ Basado en conversaciones con clientes, Microsoft ha compilado la siguiente lista
 
 Las situaciones siguientes se pueden realizar solo con la funcionalidad de asiento único. Si su organización tiene cualquiera de estos escenarios, debe habilitar la especificación de varias transacciones en un asiento modificando el valor del parámetro **Permitir varias transacciones en un asiento** en la página **Parámetros de contabilidad general**. Estas lagunas funcionales se abordarán con otras características en posteriores lanzamientos.
 
+> [!Note]
+> [Para cada uno de los siguientes escenarios el campo **Permitir varias transacciones en un asiento** se debe establecer en Sí en la pestaña desplegable **General** en la página **Parámetros de contabilidad general**].
+
 ### <a name="post-vendor-or-customer-payments-in-summary-form-to-a-bank-account"></a>Registrar los pagos de cliente o de proveedor en formulario resumen en una cuenta bancaria
 
 **Escenario** Una organización comunica una lista de proveedores e importes al banco y el banco usa esta lista para pagar a los proveedores en nombre la organización. El banco registra la suma de los pagos como una sola retirada en la cuenta bancaria.
@@ -120,6 +123,9 @@ Las siguientes transacciones de activos fijos también crean varias transaccione
 - Un activo está dividido.
 - Un parámetro para calcular la depreciación al cancelar se habilita y luego el activo se cancela.
 - La fecha de servicio de un activo es anterior a la fecha de adquisición. Por lo tanto, se registra un ajuste de depreciación.
+
+> [!Note]
+> Cuando especifique transacciones, asegúrese de que todas las transacciones se aplican al mismo activo fijo. El asiento no se registrará si incluye más de un activo fijo, incluso si el campo **Nuevo asiento** se establece en un número de asiento únicamente en la página **Nombres de diario** en contabilidad general. Si incluye más de un activo fijo en el asiento, aparecerá el mensaje **Solo puede haber una transacción de activo fijo por asiento** y no se podrá registrar el asiento.  
 
 ### <a name="bills-of-exchange-and-promissory-notes"></a> Letras de cambio y pagarés
 Las letras de cambio y pagarés que requieren que se use un asiento, pues las transacciones pasan al cliente o el saldo de proveedor de una cuenta contable de clientes/proveedores a otra, en función del estado del pago.

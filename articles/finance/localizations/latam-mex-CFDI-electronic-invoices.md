@@ -18,12 +18,12 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ef9808db22a6cacb19dd1c55d1c76a9d7e7e1d8
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5edd5345b4ebe8fbf0c516d8a9bc726ed491a8db
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175723"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773442"
 ---
 # <a name="electronic-invoices-cfdi"></a>Facturas electrónicas (CFDI)
 
@@ -51,7 +51,9 @@ Hay dos métodos para generar facturas electrónicas:
 > [!NOTE]
 >  La integración con el servicio web del PAC no es parte de localización mexicana. Para obtener información sobre cómo personalizar una conexión de servicio web con un PAC, consulte "Personalización de la integración con servicios web de PAC" más adelante en este artículo. 
 
-El ejemplo siguiente muestra el proceso para generar una factura electrónica usando el método CFDI. ![El proceso de factura electrónica para México](./media/about-electronic-invoices-cfdi.jpg "Proceso de generación de facturación electrónica para el método de CFDI")    
+El ejemplo siguiente muestra el proceso para generar una factura electrónica usando el método CFDI. 
+
+![El proceso de facturas electrónicas en México](./media/about-electronic-invoices-cfdi.jpg "Proceso para generar facturas electrónicas para le método CFDI")    
 
 ### <a name="requirements-for-using-electronic-invoices"></a>Requisitos para el uso de facturas electrónicas
 
@@ -89,9 +91,9 @@ Según se indica en detalle en el documento de ámbito de localización para Mé
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-- [Crear y registrar una factura de cliente como factura electrónica mediante el método CFDI.](./tasks/mx-00010-e-invoicing-cfdi.md)
-- [Visualizar, enviar por correo electrónico, exportar o imprimir una factura electrónica CFDI ya generada según la solicitud de un cliente.](./tasks/mx-00010-inquire-print-electronic-invoice.md)
-- [Cancelación de una factura electrónica CFDI](./tasks/mx-00010-cancel-electronic-invoice.md)
-- [Versión CFDI 3.3](latam-mex-cfdi-3-3.md)
+- [Facturación electrónica de CFDI](./tasks/mx-00010-e-invoicing-cfdi.md)
+- [Consultar e imprimir una factura electrónica](./tasks/mx-00010-inquire-print-electronic-invoice.md)
+- [Cancelar una factura electrónica](./tasks/mx-00010-cancel-electronic-invoice.md)
+- [Versión 3.3 del diseño CFDI](latam-mex-cfdi-3-3.md)
 
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 956af80a8ab2f454d9f523d3c74dda754ef0f793
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 7f0cc1c7ec1234b7eedaade0ffadb66965ed2121
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2009386"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772997"
 ---
 # <a name="talent-doesnt-appear-among-the-microsoft-dynamics-365-apps-common-data-service-10"></a>Talent no figura entre las aplicaciones de Microsoft Dynamics 365 (Common Data Service 1.0)
 
@@ -34,9 +34,9 @@ El cliente no consulta la aplicación Microsoft Dynamics 365 Talent entre las ap
 
 **Resolución**
 
-Se debe agregar el usuario al rol del fabricante del entorno para el entorno de Microsoft PowerApps.
+Se debe agregar el usuario al rol del fabricante del entorno para el entorno de Microsoft Power Apps.
 
-1. El usuario de gestión que dispone de una licencia de PowerApps Plan 2 debe abrir [Portal de gestión de PowerApps](https://preview.admin.powerapps.com/).
+1. El usuario de gestión que dispone de una licencia de Power Apps Plan 2 debe abrir [Portal de gestión de Power Apps](https://preview.admin.powerapps.com/).
 2. Seleccione **Entornos**, y seleccione el entorno correcto para Talent.
 3. En la pestaña **Seguridad** , en la pestaña **Roles de entorno** , seleccione **Fabricante de entorno**.
 

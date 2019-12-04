@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: eadf0af285213a972cac83d7b6fc6a47317b21bb
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 86be6d4cc0af3f2fd92523d4ecd3825f2383fc48
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551666"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770744"
 ---
 # <a name="online-financial-consolidations"></a>Consolidaciones financieras en línea
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe las consolidaciones financieras en línea en contabilidad general. Antes de leer este tema, lea el tema [Consolidaciones financieras y conversión de divisas](financial-consolidations-currency-translation.md).
+Este tema describe las consolidaciones financieras en línea en contabilidad general. Antes de leer este tema, lea el tema [Visión general de las consolidaciones financieras y la conversión de divisas](financial-consolidations-currency-translation.md).
 
 Una vez completada la configuración, especifique los detalles de la consolidación en la página **Consolidar [En línea]**. Cuando haya terminado, puede hacer clic en **Aceptar** o en **Lote** para procesar la consolidación.
 
@@ -60,7 +60,7 @@ Esta es una explicación de los diversos campos de esta pestaña:
 ## <a name="financial-dimensions"></a>Dimensiones financieras
 En la pestaña **Dimensiones financieras**, se definen las dimensiones que se deben incluir en la empresa de consolidación. Para seleccionar una dimensión, establezca el campo **Especificación** en **Dimensión**, y defina el orden de la dimensión en la empresa de consolidación.
 
-![Ficha Dimensiones financieras](./media/financial-dimensions-cons.png "Ficha Dimensiones financieras")
+![Pestaña Dimensiones financieras](./media/financial-dimensions-cons.png "Pestaña Dimensiones financieras")
 
 Independientemente de la orden que se define, **Cuenta principal** siempre será el primer segmento.
 
@@ -69,7 +69,7 @@ En la pestaña **Entidades legales**, se definen las empresas que se deben inclu
 
 ![Pestaña Entidades jurídicas](./media/legal-entities-cons.png "Pestaña Entidades jurídicas")
 
-![Página de Cuentas para transacciones automáticas](./media/accounts-for-automatic-cons.png "Página de Cuentas para transacciones automáticas")
+![Página Cuentas para transacciones automáticas](./media/accounts-for-automatic-cons.png "Página Cuentas para transacciones automáticas")
 
 ## <a name="elimination"></a>Período de eliminación
 En la pestaña **Eliminación** , tiene tres opciones para procesar las eliminaciones:
@@ -78,7 +78,7 @@ En la pestaña **Eliminación** , tiene tres opciones para procesar las eliminac
 - Seleccione la regla de eliminación y, a continuación, en el campo **Opciones de propuesta**, seleccione **Sólo registrar**. Esta opción procesará la eliminación durante el proceso de consolidación y registrará todo en un paso.
 - Ejecute una propuesta de eliminación de forma independiente del proceso de consolidación usando el diario de eliminación.
 
-![Ficha de eliminación](./media/elimination-cons-onl.png "Ficha de eliminación")
+![Pestaña eliminación](./media/elimination-cons-onl.png "Pestaña eliminación")
 
 Para obtener más información acerca de las eliminaciones, consulte [Reglas de eliminación](./elimination-rules.md).
 
@@ -89,10 +89,10 @@ En la pestaña **Conversión de la divisa**, se define la entidad jurídica, la 
 - **Fecha de transacción** La fecha de cada transacción se usará para seleccionar un tipo de cambio. Esta opción es la que más se suele usar para los activos fijos y suele denominarse tipo histórico. No puede ver una vista previa de la tasa debido a que habrá muchas tasas para las diversas transacciones en el intervalo de la cuenta.
 - **Tasa definida por el usuario** Después de activar esta opción, puede especificar el tipo de cambio que desee. Esta opción puede ser útil para los tipos de cambio medio o si está consolidando con un tipo de cambio fijo.
 
-![Ficha de conversión de la divisa](./media/currency-translation-cons-online.png "Ficha de conversión de la divisa")
+![Pestaña Conversión de divisas](./media/currency-translation-cons-online.png "Pestaña Conversión de divisas")
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-Para obtener más información acerca de las conversiones de consolidación y divisas, consulte el tema principal de este tema [Consolidaciones financieras y conversión de divisas](./financial-consolidations-currency-translation.md).
+Para obtener más información acerca de las conversiones de consolidación y divisas, consulte el tema principal de este tema [Visión general de consolidaciones financieras y conversión de divisas](./financial-consolidations-currency-translation.md).
 
 Para obtener información sobre los escenarios donde puede generar o consolidar informes financieros, consulte [Generar informes financieros consolidados](./generating-consolidated-financial-statements.md).

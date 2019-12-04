@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-26
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d4b59183116784f44f45fddacdfa4aa954383ecd
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: b23860a7eda0ec9d75cca04728b7fc11d01bf967
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2023893"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812750"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-26-2019"></a>Novedades y cambios en Dynamics 365 Talent (26 de marzo de 2019)
 
@@ -75,11 +75,11 @@ En este lanzamiento, los planes de compensación fija aparecen al limitar usuari
 Con esta versión, ahora puede quitar los registros de trabajos mediante la opción **Abrir en Excel** en Talent.
 
 ### <a name="upgrade-to-common-data-service"></a>Actualice a Common Data Service
-Las fechas límites para actualizarse a Common Data Service se acercan rápidamente. Inicie sesión en el centro de gestión de PowerApps para determinar si su base de datos debe actualizarse. Para obtener más información acerca de las fechas límites y de los pasos necesarios para realizar la actualización, consulte [Actualizar a Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
+Las fechas límites para actualizarse a Common Data Service se acercan rápidamente. Inicie sesión en el centro de gestión de Power Apps para determinar si su base de datos debe actualizarse. Para obtener más información acerca de las fechas límites y de los pasos necesarios para realizar la actualización, consulte [Actualizar a Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="in-preview"></a>En vista previa
 
-Para obtener información sobre cómo habilitar características de vista previa, consulte [Acceso a las funciones de vista preliminar en Talent](./access-preview-feature.md).
+Para obtener información sobre cómo habilitar características de vista previa, consulte [Acceso a las funciones de vista preliminar en Microsoft Dynamics 365 Talent](./access-preview-feature.md).
 
 ### <a name="allow-reason-codes-to-be-specified-on-leave-types"></a>Permitir a los códigos de motivo ser especificados en los tipos de baja
 Las organizaciones pueden necesitar información adicional relacionada con las solicitudes de indisponibilidad. Para obtener esta información, los empleados deben incluir un código de motivo en sus solicitudes de indisponibilidad. Con esta versión, ahora puede especificar códigos de motivo asociados a un tipo concreto de baja y permitir a empleados seleccionar un código de motivo en sus solicitudes de indisponibilidad.

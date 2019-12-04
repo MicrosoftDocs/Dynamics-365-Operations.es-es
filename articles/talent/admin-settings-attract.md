@@ -1,5 +1,5 @@
 ---
-title: Configurar la información de la empresa en Microsoft Dynamics 365 Talent - Attract
+title: Configurar la información de la empresa en Attract
 description: Este tema explica cómo configurar información de la empresa y la marca para Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
@@ -18,15 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 7013065a9494cb407020de2ebcad4058dd57c6c4
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: db3ec965f3a52810d5f310697b9ed830c3abe681
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551612"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833263"
 ---
-# <a name="configure-company-information-in-microsoft-dynamics-365-talent---attract"></a>Configurar la información de la empresa en Microsoft Dynamics 365 Talent - Attract
-[!include[banner](../includes/banner.md)]
+# <a name="configure-company-information-in-attract"></a>Configurar la información de la empresa en Attract
+
+[!include [banner](includes/banner.md)]
 
 El centro de administración de Microsoft Dynamics 365 Talent: Attract contiene opciones de configuración, opciones de integración, y las opciones de configuración para la aplicación de Attract.
 
@@ -48,11 +49,11 @@ A medida que se agregan nuevas características, es posible que se lancen en una
 
 ## <a name="template-management"></a>Administración de plantillas
 
-Una plantilla de proceso de contratación contiene todas las actividades que deben incluirse como parte del proceso de contratación para un trabajo. La organización puede permitir a todos los miembros del equipo o solo a las administraciones que creen plantillas de proceso de contratación. Para permitir que los miembros del equipo creen sus propias plantillas de proceso de contratación, active la funcionalidad de gestión de la plantilla. Para obtener más información acerca de las plantillas de proceso, consulte [Procesar plantillas en Attract](./process-templates-attract.md).
+Una plantilla de proceso de contratación contiene todas las actividades que deben incluirse como parte del proceso de contratación para un trabajo. La organización puede permitir a todos los miembros del equipo o solo a las administraciones que creen plantillas de proceso de contratación. Para permitir que los miembros del equipo creen sus propias plantillas de proceso de contratación, active la funcionalidad de gestión de la plantilla. Para obtener más información acerca de las plantillas de proceso, consulte [Crear una plantilla de proceso en Attract](./process-templates-attract.md).
 
 ## <a name="email-template-settings"></a>Configuración de plantilla de correo electrónico
 
-Las organizaciones pueden crear plantillas de correo electrónico para distintas situaciones. Puede seleccionar la imagen del encabezado para incluirla en las plantillas de correo electrónico. El encabezado seleccionado aparecerá en todas las plantillas de correo electrónico. En el pie de página de la plantilla, puede agregar un vínculo a la declaración de privacidad y términos de uso de la organización para las comunicaciones. Para obtener más información, vea [Plantillas de correo electrónico en Attract](./email-templates.md).
+Las organizaciones pueden crear plantillas de correo electrónico para distintas situaciones. Puede seleccionar la imagen del encabezado para incluirla en las plantillas de correo electrónico. El encabezado seleccionado aparecerá en todas las plantillas de correo electrónico. En el pie de página de la plantilla, puede agregar un vínculo a la declaración de privacidad y términos de uso de la organización para las comunicaciones. Para obtener más información, vea [Plantillas de correo electrónico](./email-templates.md).
 
 ## <a name="offer-process"></a>Proceso de oferta
 

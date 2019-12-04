@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 36784311294f80f56f680cd6d14cc989b629ba12
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9b1b519d116a55c255cf90d9478ee1714de90264
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179869"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811343"
 ---
 # <a name="organization-administration-home-page"></a>Página principal de Administración de la organización
 
@@ -34,9 +34,9 @@ La mayor parte del contenido que se detalla aquí se aplica a características d
 
 ## <a name="number-sequences"></a>Secuencias numéricas
 
-Las secuencias numéricas se usan para generar identificadores únicos y legibles para los registros de datos maestros y los registros de transacciones que necesitan identificadores. El registro de datos maestros o de transacciones que necesita un identificador se denomina *referencia*. Antes de poder crear nuevos registros para una referencia, debe configurar una secuencia numérica y asociarla a la referencia.
+Las secuencias numéricas se usan para generar identificadores únicos y legibles para los registros de datos maestros y los registros de transacciones que necesitan identificadores. El registro de datos maestros o de transacciones que necesita un identificador se denomina *referencia*. Para poder crear nuevos registros para una referencia, debe configurar una secuencia numérica y asociarla a la referencia.
 
-- [Información general de secuencias numéricas](number-sequence-overview.md)
+- [Visión general de las secuencias numéricas](number-sequence-overview.md)
 - [Configurar secuencias numéricas mediante asistente](tasks/set-up-number-sequences-wizard.md) (Guía de tareas)
 - [Configurar secuencias numéricas de manera individual](tasks/set-up-number-sequences-individual-basis.md) (Guía de tareas)
 
@@ -46,7 +46,7 @@ Una organización es un grupo de personas que trabajan juntas para llevar a cabo
 
 Antes de configurar las organizaciones y las jerarquías organizativas, asegúrese de tener previsto cómo se modelará la empresa. El modelo organizativo tiene un importante efecto en la implementación y en los procesos empresariales.
 
-- [Organizaciones y jerarquías organizativas](organizations-organizational-hierarchies.md)
+- [Visión general de las organizaciones y las jerarquías organizativas](organizations-organizational-hierarchies.md)
 - [Planificación de su jerarquía organizativa](plan-organizational-hierarchy.md)
 - [Creación o modificación de una jerarquía organizativa](tasks/create-organization-hierarchy.md) (Guía de tareas)
 - [Creación de una entidad jurídica](tasks/create-legal-entity.md) (Guía de tareas)
@@ -58,8 +58,8 @@ La libreta de direcciones global es un repositorio centralizado de datos maestro
 
 Después de crear la libreta de direcciones global, puede crear libretas de direcciones adicionales como sea necesario, como una libreta de direcciones independiente para cada empresa de su organización o para cada línea de negocio.
 
-- [Libreta de direcciones global](overview-global-address-book.md)
-- [Plan para saber cómo configurar la libreta de direcciones global y las libretas de direcciones adicionales](plan-configuration-global-address-book-additional-address-books.md)
+- [Visión general de la libreta de direcciones global](overview-global-address-book.md)
+- [Plan para la libreta de direcciones global y otras libretas de direcciones](plan-configuration-global-address-book-additional-address-books.md)
 - [Configurar la libreta de direcciones global](tasks/configure-global-address-book.md)
 - [Preguntas frecuentes sobre Libretas de direcciones](qa-address-books.md)
 
@@ -67,10 +67,10 @@ Después de crear la libreta de direcciones global, puede crear libretas de dire
 
 El flujo de trabajo es un sistema que se puede usar para crear flujos de trabajo individuales, o procesos empresariales. Al crear un flujo de trabajo, debe especificar cómo fluye o se mueve un documento en el sistema; para ello, debe mostrar quién debe completar una tarea, tomar una decisión o aprobar un documento.
 
-- [Visión general del flujo de trabajo](overview-workflow-system.md)
+- [Visión general del sistema de flujo de trabajo](overview-workflow-system.md)
 - [Elementos del flujo de trabajo](workflow-elements.md)
-- [Acciones de flujo de trabajo](workflow-actions.md)
-- [Crear un flujo de trabajo](create-workflow.md)
+- [Acciones en los procesos de aprobación de flujo de trabajo](workflow-actions.md)
+- [Visión general de la creación de flujos de trabajo](create-workflow.md)
 
 ## <a name="electronic-signatures"></a>Firmas electrónicas
 
@@ -78,7 +78,7 @@ Una firma electrónica confirma la identidad de una persona que va a comenzar o 
 
 Puede usar firmas electrónicas para procesos empresariales críticos. Algunos procesos llevan integrada la capacidad de firma electrónica. También puede crear requisitos de firma personalizados para cualquier tabla o campo de la base de datos.
 
-- [Visión general de la firma electrónica](electronic-signature-overview.md)
+- [Visión general de las firmas electrónicas](electronic-signature-overview.md)
 - [Configuración de firmas electrónicas](tasks/set-up-electronic-signatures.md) (Guía de tareas)
 
 ## <a name="case-management"></a>Gestión de casos
@@ -86,13 +86,13 @@ Puede usar firmas electrónicas para procesos empresariales críticos. Algunos p
 Al planificar, seguir y analizar casos, puede desarrollar resoluciones eficaces que se pueden usar para emisiones similares. Por ejemplo, si un representante de servicio al cliente o un generalista de recursos humanos crean casos, pueden encontrar información en los artículos de conocimientos sobre cómo trabajar con un caso o cómo resolverlo de forma más eficaz.
 
 - [Visión general de la gestión de casos](cases.md)
-- [Configurar seguridad, procesos y categorías de casos](plan-case-management.md)
+- [Planificar seguridad de categoría de casos, procesos de casos y categorías de casos](plan-case-management.md)
 
 ## <a name="record-templates"></a>Plantillas de registro
 
 Las plantillas de registro pueden ayudarle a crear registros más rápidamente. Puede crear plantillas de registro para no tener que especificar los valores de campo que se utilizan a menudo explícitamente para cada registro nuevo.
 
-- [Plantillas de registro](record-templates.md)
+- [Visión general de las plantillas de registro](record-templates.md)
 - [Crear una plantilla de registro para facilitar la entrada de datos](../../dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md) (Guía de tareas)
 - [Usar una plantilla de registro para crear un nuevo registro](../../dev-itpro/data-entities/tasks/use-record-template-new-record.md) (Guía de tareas)
 

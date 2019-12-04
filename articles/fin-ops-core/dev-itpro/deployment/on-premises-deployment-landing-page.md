@@ -3,7 +3,7 @@ title: Página principal de Implementación local
 description: Este tema proporciona información y vínculos al contenido acerca de implementaciones locales.
 author: kfend
 manager: AnnBe
-ms.date: 10/02/2019
+ms.date: 11/04/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 52418030c0c7a56e549e6645beae1d94ae7bfafd
-ms.sourcegitcommit: 7bec89b33a56447072d01066af4da473b8092ca8
+ms.openlocfilehash: 81698517dc501a6001f62216f3804510144c1045
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2536956"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770955"
 ---
 # <a name="on-premises-deployment-home-page"></a>Página principal de Implementación local
 
@@ -31,17 +31,17 @@ ms.locfileid: "2536956"
 Puede implementar Dynamics 365 Finance and Operations (on-premises). Cuando selecciona un tipo de implementación local, los requisitos del sistema, el tamaño de hardware y la funcionalidad difieren de una implementación en la nube. Este tema proporciona vínculos al contenido que contienen información específica para implementaciones locales.
 
 ## <a name="get-started"></a>Introducción
-- [Opción de implementación local](on-premises-overview.md)
+- [Visión general de la implementación local](on-premises-overview.md)
 - [Planificar y prepararse para implementaciones locales](plan-onprem-deployment.md)
 - [Requisitos del sistema para implementaciones locales](../../fin-ops/get-started/system-requirements-on-prem.md)
-- [Tamaño del hardware para entornos locales](../../fin-ops/get-started/hardware-sizing-on-premises-environments.md)
-- [Comprar Finance and Operations (on-premises)](../../fin-ops/get-started/purchase-on-premises.md)
+- [Requisitos de dimensionamiento de hardware para entornos locales](../../fin-ops/get-started/hardware-sizing-on-premises-environments.md)
+- [Comprar Finance + Operations (on-premises)](../../fin-ops/get-started/purchase-on-premises.md)
 - [Comparación de características locales y en la nube](../../fin-ops/get-started/cloud-prem-comparison.md)
 
 ## <a name="onboard"></a>Incorporar
 - [Configurar en proyectos locales en Lifecycle Services (LCS)](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
 - [Configurar e implementar entornos locales (actualización 12 de Platform y posteriores)](setup-deploy-on-premises-pu12.md)
-- [Configurar e implementar entornos locales (Actualización 8 y 11 de la plataforma)](setup-deploy-on-premises-pu8-pu11.md)
+- [Configurar e implementar entornos locales (Actualizaciones 8 y 11 de la plataforma)](setup-deploy-on-premises-pu8-pu11.md)
 - [Instalar dispositivos de impresora de red en entornos locales](../analytics/install-network-printer-onprem.md)
 - [Configurar SQL Server Reporting Services para implementaciones locales](../analytics/configure-ssrs-on-premises.md)
 - [Desarrollar e implementar modelos personalizados para entornos locales](develop-deploy-custom-models-on-premises.md)
@@ -50,15 +50,15 @@ Puede implementar Dynamics 365 Finance and Operations (on-premises). Cuando sele
 - [Configurar la gestión de documentos](../../fin-ops/organization-administration/configure-document-management.md)
 - [Importar configuraciones de informes electrónicos (ER)](../analytics/electronic-reporting-import-ger-configurations.md)
 - [Generación, publicación e impresión de documentos en implementaciones locales](../analytics/printing-capabilities-on-premises.md)
-- [Configurar servidores proxy inversos para entornos locales](onprem-reverseproxy.md)
-- [Configuración del soporte técnico](../lifecycle-services/support-experience.md)
+- [Configurar servidores proxy para entornos locales](onprem-reverseproxy.md)
+- [Configurar el soporte técnico para aplicaciones de Finance and Operations](../lifecycle-services/support-experience.md)
 - [Conectividad a Internet de los clientes](../user-interface/client-disconnected.md)
 - [Aplicar actualizaciones a implementaciones locales](apply-updates-on-premises.md)
 - [Volver a implementar entornos locales](redeploy-on-prem.md)
 
 ## <a name="retail"></a>Retail
 - [Funcionalidades de Retail que están disponibles en implementaciones locales](../../../retail/retail-onprem.md)
-- [Pasos de instalación para los componentes del canal minorista de un entorno local](deploy-retail-onprem.md)
+- [Pasos de instalación para los componentes del canal minorista en un entorno local](deploy-retail-onprem.md)
 - [Configurar, instalar y activar Retail Modern POS (MPOS)](../../../retail/retail-modern-pos-device-activation.md)
 - [Configurar e instalar Retail Store Scale Unit](../../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
 
@@ -67,9 +67,10 @@ Puede implementar Dynamics 365 Finance and Operations (on-premises). Cuando sele
 
 ## <a name="other-resources"></a>Otros recursos
 - [Solucionar problemas de implementaciones locales](troubleshoot-on-prem.md)
+- [Scripts para resolver problemas en entornos locales](onprem-tsg-implementations.md)
 - [Rotación de certificados](certificate-rotation-on-prem.md)
 - [Diagnósticos locales](on-premises-diagnostics.md)
-- [Características que no están implementadas en implementaciones locales](../../fin-ops/get-started/features-not-implemented-on-prem.md)
-- [Características quitadas u obsoletas](../migration-upgrade/deprecated-features.md)
+- [Características no implementadas en implementaciones locales](../../fin-ops/get-started/features-not-implemented-on-prem.md)
+- [Funcionalidades eliminadas u obsoletas de Finance and Operations](../migration-upgrade/deprecated-features.md)
 - [Directiva del ciclo de vida del software y nuevas soluciones locales](../migration-upgrade/on-prem-version-update-policy.md)
  

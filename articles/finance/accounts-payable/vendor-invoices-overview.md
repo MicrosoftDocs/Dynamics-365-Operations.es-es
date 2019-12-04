@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 616d3f5560d18c7fdd8a092c3fbca0fde44be069
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: b9708c37f10cd08e6b98167fe24d9ae0380c3dac
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570434"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772177"
 ---
 # <a name="vendor-invoices-overview"></a>Visión general de facturas de proveedores
 
@@ -101,7 +101,7 @@ Puede usar la página **Historial del flujo de trabajo** para restablecer el est
 ## <a name="additional-resources"></a>Recursos adicionales
 
 - [Configurar directivas de factura de proveedor](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md)
-- [Introducir datos de factura en el sistema de proveedores mediante una factura de proveedor](tasks/key-invoice-data-ap-system-vendor-invoice.md)
+- [Datos clave en el sistema de proveedores mediante factura de proveedor](tasks/key-invoice-data-ap-system-vendor-invoice.md)
 - [Introducir datos de factura en el sistema de proveedores mediante un diario de aprobación](tasks/key-invoice-data-into-ap-system-approval-journal.md)
 - [Introducir datos de factura en el sistema de proveedores mediante un grupo de facturas](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
 - [Registrar una factura de proveedor en el diario de facturas](tasks/record-vendor-invoice-invoice-journal.md)

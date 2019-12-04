@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2922b00dffe8e99f8331d7aaa7e2f1b7dc4f9ea6
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 405af4e3e122953bbfa74e7e91d2feef8f068708
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179808"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772637"
 ---
 # <a name="advanced-bank-reconciliation-setup-process"></a>Configuración del proceso de conciliación bancaria avanzada
 
@@ -31,7 +31,7 @@ ms.locfileid: "2179808"
 
 Conciliación bancaria avanzada le permite importar extractos bancarios electrónicos y conciliarlos automáticamente con transacciones bancarias en Microsoft Dynamics 365 Finance. En este artículo se explicará la configuración de los procesos de conciliación.  
 
-Varias partes deben estar configuradas antes de utilizar la funcionalidad avanzada de conciliación bancaria. Para obtener más información sobre la configuración de la importación del extracto bancario, consulte [Configurar el proceso de importación de extractos bancarios](set-up-advanced-bank-reconciliation-import-process.md).  Los requisitos para la configuración del proceso de conciliación se detallan a continuación.
+Varias partes deben estar configuradas antes de utilizar la funcionalidad avanzada de conciliación bancaria. Para obtener más información sobre la configuración de la importación del extracto bancario, consulte [Configurar el proceso de importación de conciliación bancaria avanzado](set-up-advanced-bank-reconciliation-import-process.md).  Los requisitos para la configuración del proceso de conciliación se detallan a continuación.
 
 ## <a name="transaction-codes"></a>Códigos de transacción
 Los códigos de transacción se pueden usar como parte de las reglas de coincidencia de conciliación bancaria. Los códigos de transacción ayudarán a asignar solo los mismos tipos de transacciones entre Finances y el extracto bancario. Para hacer este tipo de asignación, primero es necesario definir los tipos de transacción utilizados para las transacciones bancarias desde Finance y después asignar los tipos a los códigos de transacción del extracto usados por el banco. Los tipos de transacción para las transacciones bancarias están definidos en la página **Tipo de transacción bancaria**. Aquí también se define la cuenta principal que se utilizará para los registros asociados a ese tipo de transacción. 

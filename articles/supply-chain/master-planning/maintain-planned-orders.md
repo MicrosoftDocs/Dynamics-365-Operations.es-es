@@ -3,7 +3,7 @@ title: Mantener pedidos planificados
 description: En este tema se proporciona información sobre el modo de administrar pedidos planificados. Describe cómo puede actualizar el estado de los pedidos planificados, ponerlos en firme y filtrar por pedidos planificados que tengan el mismo estado que un pedido planificado seleccionado.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 09/09/2019
+ms.date: 11/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5ddf2c7b4c67bec6c29387c78d1fdb021d85d702
-ms.sourcegitcommit: 620e15555d176eec3905b48d5001af1c50107ce6
+ms.openlocfilehash: 68bccb632255eac975dc150cf322d4c579ff2f24
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "1993449"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813785"
 ---
 # <a name="maintain-planned-orders"></a>Mantener pedidos planificados
 
@@ -39,7 +39,7 @@ Puede usar el campo **Estado** para ayudar a realizar un seguimiento del progres
 
 -   Cuando la planificación maestra genera pedidos planificados, estos tienen un estado **No procesado**.
 -   Si decide no poner en firme un pedido planificado, puede darle un estado **Finalizado**.
--   Si desea consolidar un pedido planificado, puede cambiar el estado a **Aprobado**. Los pedidos planificados con estado **Aprobado** se respetan por la planificación maestra, por lo que no se modifican ni se eliminan. 
+-   Si desea consolidar un pedido planificado, puede cambiar el estado a **Aprobado**. Los pedidos planificados con estado **Aprobado** se respetan por la planificación maestra, por lo que no se modifican ni se eliminan durante una ejecución de planificación maestra posterior. 
 
 ## <a name="firming-planned-orders"></a>Consolidar pedidos planificados 
 Al consolidar los pedidos planificados, se crean los pedidos reales. Esto también se denomina *liberado* o *pedidos abiertos*. Al poner en firme un pedido planificado, este se mueve a la sección de pedidos del módulo relevante.
@@ -62,7 +62,7 @@ Si tiene previsto consolidar muchos pedidos al mismo tiempo, una ejecución en p
 <a name="additional-resources"></a>Recursos adicionales
 --------
 
-[Planes maestros](master-plans.md)
+[Visión general de los planes maestros](master-plans.md)
 
 
 

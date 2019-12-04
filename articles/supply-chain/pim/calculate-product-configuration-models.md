@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 00e1956950154051d4a916a013c2200029772e37
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fd57b702220374ef5ac48e1af7c42827a21e7517
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547110"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813602"
 ---
 # <a name="calculations-for-product-configuration-models-faq"></a>Preguntas más frecuentes sobre cálculos para modelos de configuración de productos
 
@@ -37,7 +37,7 @@ Se pueden usar cálculos para operaciones aritméticas o lógicas. Complementan 
 ## <a name="what-is-a-calculation"></a>¿Cuál es un cálculo?
 Un cálculo es un elemento utilizable en un modelo de configuración de productos. Los cálculos complementan las restricciones dejándole usar decimales para calcular valores mediante al configurar un producto. Además, los cálculos disponen de conjunto mayor de operadores disponibles que las restricciones.  
 
-Al igual que una restricción, un cálculo se asocia a un componente específico en un modelo de configuración de productos y no se puede volver a utilizar con otro componente y compartirse con él. Una diferencia importante entre los cálculos y restricciones es que los cálculos son obligatorios (unidireccionales), mientras que las restricciones se declarativas (bidireccionales). Para obtener más información sobre restricciones, consulte [Restricciones de expresión o restricciones de tabla](expression-constraints-table-constraints-product-configuration-models.md).  
+Al igual que una restricción, un cálculo se asocia a un componente específico en un modelo de configuración de productos y no se puede volver a utilizar con otro componente y compartirse con él. Una diferencia importante entre los cálculos y restricciones es que los cálculos son obligatorios (unidireccionales), mientras que las restricciones se declarativas (bidireccionales). Para obtener más información sobre restricciones, consulte [Restricciones de expresión o restricciones de tabla en modelos de configuración de producto](expression-constraints-table-constraints-product-configuration-models.md).  
 
 Un cálculo consta de un atributo de destino y una expresión de cálculo.
 
@@ -88,7 +88,7 @@ N. º Los valores que establece al configurar un producto son los valores que se
 Si quita un valor de entrada de un cálculo, el valor del atributo de destino también se quita.
 
 ## <a name="why-do-i-receive-an-error-message-that-says-that-my-model-is-in-contradiction"></a>¿Por qué recibo un mensaje de error que indica que el modelo contiene una contradicción?
-Este mensaje se muestra cuando un cálculo incluye un error o existe una contradicción en una o varias restricciones. Para obtener más información sobre contradicciones en restricciones, consulte [Restricciones de expresión o restricciones de tabla](expression-constraints-table-constraints-product-configuration-models.md). Estos son algunos casos en los que se pueden producir errores en los cálculos:
+Este mensaje se muestra cuando un cálculo incluye un error o existe una contradicción en una o varias restricciones. Para obtener más información sobre contradicciones en restricciones, consulte [Restricciones de expresión o restricciones de tabla en modelos de configuración de producto](expression-constraints-table-constraints-product-configuration-models.md). Estos son algunos casos en los que se pueden producir errores en los cálculos:
 
 -   Un valor se divide por 0 (cero).
 -   Existe un conflicto entre los siguientes dos elementos:

@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c689df9b00ad2d4ce161c6fdb1193f48cacbfcbc
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 048b0e8e57211893cae538fae20e87186399dd38
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653520"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813808"
 ---
 # <a name="demand-forecasting-setup"></a>Configuración de la previsión de la demanda
 
@@ -70,7 +70,8 @@ Para generar la previsión, Supply Chain Management usa un servicio web de Apren
 -   Nombre de cuenta de almacenamiento de Azure
 -   Clave de cuenta de almacenamiento de Azure
 
-**Nota:** solo se requiere el nombre de la cuenta y la clave de almacenamiento de Azure si usa una cuenta personalizada de almacenamiento. Si se implementa la versión local, debe tener una cuenta personalizada de almacenamiento en Azure, de modo que el servicio de aprendizaje automático pueda tener acceso a los datos históricos. 
+> [!NOTE]
+> Solo se requiere el nombre de la cuenta y la clave de almacenamiento de Azure si usa una cuenta personalizada de almacenamiento. Si se implementa la versión local, debe tener una cuenta personalizada de almacenamiento en Azure, de modo que el servicio de aprendizaje automático pueda tener acceso a los datos históricos. 
 
 Para crear predicciones de demanda, puede implementar su propio servicio mediante el Estudio de aprendizaje automático o los experimentos de previsión de demanda de Supply Chain Management. Las instrucciones para implementar los experimentos de la previsión de demanda como un servicio web están disponible en Supply Chain Management. En la página **Parámetros de previsión de demanda**, haga clic en la pestaña **Aprendizaje automático de Azure**.
 
@@ -93,11 +94,11 @@ En la pestaña **Claves de asignación** puede establecer los **Parámetros de a
 <a name="additional-resources"></a>Recursos adicionales
 --------
 
-[Introducción a la previsión de demanda](introduction-demand-forecasting.md)
+[Visión general de la previsión de la demanda](introduction-demand-forecasting.md)
 
-[Generación de una previsión estadística de línea base](generate-statistical-baseline-forecast.md)
+[Generar previsión estadística de línea base](generate-statistical-baseline-forecast.md)
 
-[Realización de ajustes manuales realizados en la previsión de línea base](manual-adjustments-baseline-forecast.md)
+[Realización de ajustes manuales en la previsión de línea base](manual-adjustments-baseline-forecast.md)
 
 
 

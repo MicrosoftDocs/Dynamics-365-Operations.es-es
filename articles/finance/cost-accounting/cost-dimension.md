@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a7db93e1877034051b6add4c11ddfe7cd7d17e0b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 575b27de845d931c990b1d19254b5218fa6e4199
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187921"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770859"
 ---
 # <a name="create-dimensions-and-import-dimension-members"></a>Crear dimensiones e importar miembros de dimensión
 
@@ -44,11 +44,10 @@ En el diagrama siguiente se muestran las dimensiones que se usan en la contabili
 Una vez se importan los datos en la contabilidad de costes, puede usarlos para crear las diferentes perspectivas que proporcionarán información detallada a los gerentes de todos los niveles de la organización. En los temas siguientes se ofrece información acerca de la creación de dimensiones y la importación de los miembros de esas dimensiones. 
 
 -  [Dimensiones de elemento de coste](cost-elements.md)
--  [Crear elementos de coste (Guía de tareas)](./tasks/create-cost-elements.md)
+-  [Crear elementos de coste](./tasks/create-cost-elements.md)
 -  [Dimensiones de objeto de coste](cost-objects.md)
--  [Crear elementos de coste (Guía de tareas)](./tasks/create-cost-objects.md)
 -  [Asignar miembros de dimensión de elemento de coste a un conjunto común de miembros de dimensión](map-cost-elements-dimension-members.md)
--  [Asignar una dimensión de elemento de coste (Guía de tareas)](./tasks/map-cost-element-dimension.md)
+-  [Asignar una dimensión de elemento de coste](./tasks/map-cost-element-dimension.md)
 -  [Miembros de dimensiones estadísticas y plantillas de proveedor de medidas estadísticas](statistical-measure-provider-template.md)
 
 

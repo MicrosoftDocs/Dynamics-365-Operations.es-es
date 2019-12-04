@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bb318c24424c291f08ba7527b2258c0da4cba9a8
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 53100a897dc71758b8920672fea1e684817cb4b7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571677"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812292"
 ---
 # <a name="inbound-and-outbound-assets"></a>Activos de entrada y de salida
 
@@ -34,7 +34,7 @@ ms.locfileid: "2571677"
 Si la empresa emite trabajos de reparación o trabajos de mantenimiento en los activos que se reciben de otras ubicaciones o clientes, Administración de activos puede realizar un seguimiento de los activos de entrada que se encuentran de camino a la empresa y los activos de salida que se van a devolver.
 
 > [!NOTE]
-> Si desea usar los estados de ciclo de vida de entrada y salida para gestionar los activos que llegan y salen, debe configurar los estados y modelos de ciclo de vida de la solicitud de mantenimiento para que admitan estas acciones. Para obtener más información, consulte [Condiguración de las solicitudes de mantenimiento](../setup-for-maintenance-requests/requests.md).
+> Si desea usar los estados de ciclo de vida de entrada y salida para gestionar los activos que llegan y salen, debe configurar los estados y modelos de ciclo de vida de la solicitud de mantenimiento para que admitan estas acciones. Para obtener más información, consulte [Solicitudes de mantenimiento](../setup-for-maintenance-requests/requests.md).
 
 La configuración de Administración de activos determina si puede trabajar con activos de entrada y de salida.
 

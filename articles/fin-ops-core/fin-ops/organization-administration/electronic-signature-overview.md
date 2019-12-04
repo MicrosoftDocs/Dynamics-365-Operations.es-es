@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2e5144517a880c41cf04998ed53a826a75ecefb
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3d1d8952324bb16bcfa6a8b42fc4f157edb75cf1
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179870"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811335"
 ---
 # <a name="electronic-signatures-overview"></a>Visión general de las firmas electrónicas
 
@@ -44,7 +44,7 @@ Las firmas electrónicas son un requisito de cumplimiento de directivas para det
 
 Puede usar firmas electrónicas para procesos empresariales críticos. Algunos procesos llevan integrada la capacidad de firma electrónica. También puede crear requisitos de firma personalizados para cualquier tabla o campo de la base de datos.
 
-Las firmas electrónicas han integrado la funcionalidad de la firma digital. Cada usuario que firma documentos debe obtener un certificado criptográfico válido. Cuando se firma un documento, se valida la clave privada que está asociada al certificado. La información de firma electrónica se registra en un registro para proporcionar una traza de auditoría. Para configurar las firmas electrónicas, consulte [Configuración de firmas electrónicas (Guía de tareas)](tasks/set-up-electronic-signatures.md).
+Las firmas electrónicas han integrado la funcionalidad de la firma digital. Cada usuario que firma documentos debe obtener un certificado criptográfico válido. Cuando se firma un documento, se valida la clave privada que está asociada al certificado. La información de firma electrónica se registra en un registro para proporcionar una traza de auditoría. Para configurar las firmas electrónicas, consulte [Configuración de firmas electrónicas](tasks/set-up-electronic-signatures.md).
 
 ## <a name="users-who-require-access-to-electronic-signatures"></a>Usuarios que requieren el acceso a las firmas electrónicas
 

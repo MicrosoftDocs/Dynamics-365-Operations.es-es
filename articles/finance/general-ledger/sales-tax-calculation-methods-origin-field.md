@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37bb02dfc9cfcb3e2c1dcda446be3945563d6594
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: d326480cc03d80d1ce27f8762e300dca3b0d325e
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570589"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770652"
 ---
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>Métodos de cálculo de impuestos en el campo Origen
 
@@ -125,9 +125,9 @@ El documento o el diario se establecen en Importe impuestos incluidos = No Impor
 <a name="additional-resources"></a>Recursos adicionales
 --------
 
-[Determinación de los índices de impuestos de ventas en función de los campos Base marginal y Método de cálculo](marginal-base-field.md)
+[Índices de impuestos en función de la base marginal y los métodos de cálculo](marginal-base-field.md)
 
-[Importe completo y opciones de cálculo de intervalo para los códigos de impuestos](whole-amount-interval-options-sales-tax-codes.md)
+[Importe completo y opciones de cálculo de Intervalo para los códigos de impuestos](whole-amount-interval-options-sales-tax-codes.md)
 
 
 

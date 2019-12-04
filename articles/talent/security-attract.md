@@ -1,5 +1,5 @@
 ---
-title: Seguridad y gestión de roles en Attract
+title: Configurar permisos de usuario en Attract
 description: Este tema proporciona información sobre la seguridad de los roles en Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 7db2ac241db121f07eb3524c7c5c9a8f64e78537
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: efac512cfa07bb2183f06b8be45f74bef9af0767
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551435"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832707"
 ---
-# <a name="security-and-role-management-in-attract"></a>Seguridad y gestión de roles en Attract
+# <a name="set-user-permissions-in-attract"></a>Configurar permisos de usuario en Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Microsoft Dynamics 365 Talent: Attract usa seguridad basada en roles. Es decir el acceso no se concede a usuarios individuales, sino a los roles de seguridad a los que se asignan los usuarios. Un usuario al que se ha asignado un rol de seguridad tiene acceso al conjunto de privilegios que está asociado a dicho rol.
 
@@ -52,7 +52,7 @@ Las secciones siguientes proporcionan una descripción de alto nivel de cada rol
 
 ## <a name="administrator"></a>Administrador
 
-Los usuarios asignados al rol Administrador tienen acceso a todos los datos de Attract y pueden cambiarlos. Las administraciones pueden crear, leer, actualizar, y eliminar datos. También tienen acceso al centro de gestión, donde pueden configurar la aplicación Attract y la información sobre el usuario. Recomendamos que al menos está asignado un individuo al rol Administrador. De forma predeterminada, el administrador de entorno de Microsoft PowerApps se establece como administrador en Attract. Si se inscribió a la versión de prueba de Attract, el rol Administrador automáticamente se le asigna. Actualmente, para crear trabajos, los usuarios que tienen la función Administrador también deben tener el rol de reclutador o el rol de director de contratación.
+Los usuarios asignados al rol Administrador tienen acceso a todos los datos de Attract y pueden cambiarlos. Las administraciones pueden crear, leer, actualizar, y eliminar datos. También tienen acceso al centro de gestión, donde pueden configurar la aplicación Attract y la información sobre el usuario. Recomendamos que al menos está asignado un individuo al rol Administrador. De forma predeterminada, el administrador de entorno de Microsoft Power Apps se establece como administrador en Attract. Si se inscribió a la versión de prueba de Attract, el rol Administrador automáticamente se le asigna. Actualmente, para crear trabajos, los usuarios que tienen la función Administrador también deben tener el rol de reclutador o el rol de director de contratación.
 
 ## <a name="hiring-manager"></a>Responsable de contratación
 

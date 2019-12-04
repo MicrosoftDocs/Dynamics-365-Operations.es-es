@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-20
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c16082bb18ac5c170aab30f1a2033e0790cbacc1
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: a7a44e1c9d8dcb4b2cc81a682a044d26cdc1149e
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026017"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812704"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-20-2019"></a>Novedades y cambios en Dynamics 365 Talent (20 de marzo de 2019)
 
@@ -43,7 +43,7 @@ Esta función permite a los rastreadores del motor de búsqueda acceder e indexa
 Si un candidato olvidó las credenciales sociales que usaron para solicitar un empleo al abrir un vínculo que habían guardado o les habían enviado, ahora verán una sugerencia con el nombre del proveedor y de usuario (ofuscado). Esto les ayudará a usar las credenciales correctas para acceder a su solicitud de empleo.
 
 ### <a name="help-internal-candidates-explore-internal-jobs"></a>Ayuda a los candidatos internos a explorar trabajos internos
-Se ha corregido un problema por el que los candidatos externos podían ver el nombre del reclutador o director de contratación de un empleo. Ahora sólo los candidatos internos pueden ver los miembros del equipo de contratación de un trabajo. También es más fácil para los candidatos internos ver y solicitar trabajos internos. Cuando un candidato intente tener acceso al vínculo para ver o solicitar un trabajo solo interno, se le obligará a autenticarse con las credenciales Azure Active Directory. Los candidatos internos también tienen la capacidad de ponerse en contacto con el miembro del equipo de contratación para expresar interés u obtener más información sobre el trabajo. Esta capacidad está disponible para todos los trabajos que son solo para los candidatos internos. Para obtener más información, consulte [Funcionalidad del sitio de carreras en Attract](./career-site.md).
+Se ha corregido un problema por el que los candidatos externos podían ver el nombre del reclutador o director de contratación de un empleo. Ahora sólo los candidatos internos pueden ver los miembros del equipo de contratación de un trabajo. También es más fácil para los candidatos internos ver y solicitar trabajos internos. Cuando un candidato intente tener acceso al vínculo para ver o solicitar un trabajo solo interno, se le obligará a autenticarse con las credenciales Azure Active Directory. Los candidatos internos también tienen la capacidad de ponerse en contacto con el miembro del equipo de contratación para expresar interés u obtener más información sobre el trabajo. Esta capacidad está disponible para todos los trabajos que son solo para los candidatos internos. Para obtener más información, consulte [Configurar su sitio de desarrollo profesional en Microsoft Dynamics 365 Talent - Attract](./career-site.md).
 
 ### <a name="designate-silver-medalists-to-assign-high-value-applicants-for-future-positions"></a>Designar a los medallistas de plata para asignar a los candidatos de alto valor para puestos futuros.
 Los reclutadores y los administradores de contratación conservan una lista actualizada de las solicitudes que encajaban bien en el puesto pero no podían hacer una oferta porque el puesto ya estaba ocupado. Tales candidatos, llamados los medallistas de plata, son valiosos ya que permiten reducir el tiempo de contratación la próxima vez que aparezca un puesto similar. Attract ahora permite a reclutadores y los administradores de contratación seleccionar a los medallistas de plata entre los candidatos si el candidato llega a la etapa de la oferta. La designación de medallista de plata aparecerá en la lista de candidatos para el trabajo, pero también en la vista de la reserva de talentos cuando estos candidatos sean miembros del conjunto de un reclutador o director de contratación. Además, la designación aparecerá en el historial de empleo como parte del perfil de la reserva de talento de un candidato. Puede obtener una vista previa de esta característica haciendo que un administrador la active usando [Administración de funciones en el centro de administración](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature)uso.

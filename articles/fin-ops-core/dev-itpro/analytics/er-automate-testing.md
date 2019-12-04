@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 6da9447386e8e56e20507d985ebcdbfce934debd
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: be641e1b2f90f4d19f7ed15e47413c0aa43d5073
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181620"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771453"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>Automatizar pruebas con informes electrónicos
 
@@ -44,8 +44,8 @@ Para obtener más información sobre cómo crear una versión personalizada de u
 Los usuarios avanzados funcionales pueden crear la prueba de aceptación e integración del usuario sin tener que escribir código fuente.
 
 - Utilice la característica de la línea base de ER para comparar documentos generados en copias maestras. Para obtener información, consulte [Realizar un seguimiento de los resultados de informe generados y compararlos con valores de línea base](er-trace-reports-compare-baseline.md).
-- Utilice el grabador de tareas para grabar casos de prueba, e incluya la evaluación de línea base. Para obtener más información, consulte [Grabador de tareas](../user-interface/task-recorder.md).
-- Agrupe casos de prueba para los escenarios de prueba requeridos. Para obtener más información, consulte [Crear bibliotecas de prueba de aceptación del usuario mediante las grabaciones de tareas y el BPM](../lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md).
+- Utilice el grabador de tareas para grabar casos de prueba, e incluya la evaluación de línea base. Para obtener más información, consulte [Recursos del grabador de tareas](../user-interface/task-recorder.md).
+- Agrupe casos de prueba para los escenarios de prueba requeridos. Para obtener más información, consulte [Crear y automatizar pruebas de aceptación del usuario](../lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md).
 
     - Utilice el Modelador de procesos empresariales (BPM) en LCS para crear bibliotecas para las pruebas de aceptación de usuario.
     - Utilice bibliotecas de prueba de BPM para crear un plan de prueba y conjuntos de prueba en Microsoft Azure DevOps Services (Azure DevOps).
@@ -59,7 +59,7 @@ Los usuarios avanzados funcionales pueden ejecutar pruebas de aceptación e inte
 
 Antes de que pueda completar las tareas en este tema, debe completar los siguientes requisitos previos:
 
-- Implementar una topología que admita la automatización de la prueba. Debe tener acceso a la instancia de esta topología para el rol **Administrador del sistema**. Esta topología debe contener los datos de prueba que se usarán en este ejemplo. Para obtener más información, consulte [Implementar topologías que admiten la automatización continua de la compilación y la prueba](../perf-test/continuous-build-test-automation.md).
+- Implementar una topología que admita la automatización de la prueba. Debe tener acceso a la instancia de esta topología para el rol **Administrador del sistema**. Esta topología debe contener los datos de prueba que se usarán en este ejemplo. Para obtener más información, consulte [Implementar y usar un entorno que admita la automatización continua de la compilación y la prueba](../perf-test/continuous-build-test-automation.md).
 - Para ejecutar pruebas de aceptación e integración de usuario, debe instalar RSAT en la topología que está utilizando y configurarla de la forma adecuada. Para obtener información sobre cómo instalar y configurar RSAT y configurarlo para trabajar con aplicaciones de Finance and Operations y Azure DevOps, consulte [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Preste atención a los requisitos previos para usar la herramienta. En la siguiente ilustración se muestra un ejemplo de la configuración de RSAT. El rectángulo azul incluye los parámetros que especifican el acceso a Azure DevOps. El rectángulo verde incluye los parámetros que especifican el acceso a la instancia.
 
     ![Configuración de RSAT](media/GER-Configure.png "Captura de pantalla del cuadro de diálogo Configuración de RSAT")
@@ -93,7 +93,7 @@ Antes de que pueda completar las tareas en este tema, debe completar los siguien
         1. En la ficha desplegable **Formatos de archivo**, establezca la opción **Formato de exportación electrónica genérica** en **Sí**.
         2. En el campo **Configuración de formato de exportación**, seleccione **BACS (Reino Unido)**.
 
-    ![Página Métodos de pago](media/GER-APParameters.png "Captura de pantalla de la página Métodos de pago")
+    ![Página Formas de pago](media/GER-APParameters.png "Captura de pantalla de la página Formas de pago")
 
     > [!NOTE]
     > Si tiene la versión derivada de este formato de ER que se creó para admitir personalizaciones, puede seleccionar esta configuración en el método de pago **Electrónico**.
@@ -116,7 +116,7 @@ Antes de que pueda completar las tareas en este tema, debe completar los siguien
         | Cuenta de contrapartida      | GBSI OPER       |
         | Forma de pago   | Electrónica      |
 
-    ![Página Pagos a proveedor](media/GER-APJournalLines.png "Captura de pantalla de la página Pagos a proveedor")
+    ![Página Pagos a proveedores](media/GER-APJournalLines.png "Captura de pantalla de la página Pagos a proveedores")
 
 ## <a name="prepare-the-er-framework-to-test-vendor-payment-processing"></a>Preparar el marco de ER para probar el procesamiento de pago a proveedor
 
@@ -125,7 +125,7 @@ Antes de que pueda completar las tareas en este tema, debe completar los siguien
 1. Vaya a **Administración de la organización \> Informes electrónicos \> Parámetros de informes electrónicos**.
 2. En la pestaña **Archivos adjuntos**, en el campo **Línea base**, seleccione **Archivo** como el tipo de documento que el marco Administración de documentos (DM) emplea para mantener los documentos relacionados con la característica de línea base como archivos adjuntos de DM.
 
-    ![Página Parámetros de ejecución de informes electrónicos](media/GER-ERParameters.png "Captura de pantalla de la página Parámetros de ejecución de informes electrónicos")
+    ![Página de parámetros de informes electrónicos](media/GER-ERParameters.png "Captura de pantalla de página Parámetros de informes electrónicos")
 
 ### <a name="generate-baseline-copies-of-vendor-paymentrelated-documents"></a>Generar copias de línea base de documentos relacionados con el pago a proveedor
 
@@ -180,7 +180,7 @@ Al activar en el parámetro **Ejecutar en modo de depuración**, obliga al marco
     3. Examine para seleccionar el archivo de control guardado localmente **ERVendOutPaymControlReport** en formato XLSX.
     4. En el campo **Descripción**, introduzca **Informe de control XLSX de pago**.
 
-    ![Línea base para el archivo de pago a proveedor e informe de control](media/GER-BaselineAttachments.png "Captura de pantalla de la página Configuraciones con el informe de control XLSX de pago seleccionado")
+    ![Líneas base para el archivo de pago a proveedor e informe de control](media/GER-BaselineAttachments.png "Captura de pantalla de la página Configuraciones con el informe de control XLSX de pago seleccionado")
 
 8. Cierre la página.
 9. En la ficha deplegable **Líneas base**, seleccione **Nueva** para configurar una línea base para el archivo de pago:
@@ -262,7 +262,7 @@ Esta grabación de tareas realiza las siguientes acciones:
 
     En el registro de depuración de ER, los resultados de la comparación aparecen en el campo **Texto generado**. Los campos **Componente de formato** y **Ruta del formato que provocó una entrada de registro** hacen referencia al componente del archivo para el que se ha comparado la salida generada con la línea base.
 
-    ![Entradas en la página Registros de ejecución de informes electrónicos](media/GER-ERDebugLog.png "Captura de pantalla de entradas en la página Registros de ejecución de informes electrónicos")
+    ![Entradas en la página registros de ejecución de informes electrónicos](media/GER-ERDebugLog.png "Captura de pantalla de entradas en la página Registros de ejecución de informes electrónicos")
 
 4. La comparación de la salida actual con la línea base se graba usando la opción del grabador de tareas **Validar** y seleccionando **Valor actual**.
 
@@ -374,10 +374,10 @@ Por lo tanto, como ya ha visto, el funcionamiento de cualquier formato de ER se 
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-- [Grabador de tareas](../user-interface/task-recorder.md)
+- [Recursos del Grabador de tareas](../user-interface/task-recorder.md)
 - [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357)
-- [Crear bibliotecas de prueba de aceptación del usuario mediante las grabaciones de tareas y el BPM](../lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md)
-- [Implementar topologías que admitan la compilación continua y la automatización de pruebas](../perf-test/continuous-build-test-automation.md)
-- [Realizar un seguimiento de los resultados de informe generados y compararlos con valores de línea base de ER](er-trace-reports-compare-baseline.md)
-- [Actualizar su formato de ER adoptando una nueva versión de base de ese formato](tasks/er-upgrade-format.md)
-- [Importar configuración ER de Lifecycle Services](tasks/er-import-configuration-lifecycle-services.md)
+- [Crear y automatizar pruebas de aceptación del usuario](../lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md)
+- [Implementar y usar un entorno que admita la automatización continua de la compilación y la prueba](../perf-test/continuous-build-test-automation.md)
+- [Realizar un seguimiento de los resultados de informe generados y compararlos con valores de línea base](er-trace-reports-compare-baseline.md)
+- [ER Actualizar el formato adoptando una nueva versión de base de ese formato](tasks/er-upgrade-format.md)
+- [ER Importar una configuración de Lifecycle Services](tasks/er-import-configuration-lifecycle-services.md)

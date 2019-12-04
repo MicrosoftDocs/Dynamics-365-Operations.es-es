@@ -16,12 +16,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 74750397dc344d74c018c27114357d3d05b95b7e
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 89d36c305bc9210f7906cd4288e33e5028baecdb
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550116"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771269"
 ---
 # <a name="prepare-application-specific-metadata-for-rcs-and-er"></a>Preparar metadatos específicos de la aplicación para RCS y ER
 
@@ -43,7 +43,7 @@ Para este ejemplo, desea utilizar RCS para diseñar una solución de ER para la 
 > En este ejemplo, creará una configuración para la empresa de demostración, Litware, Inc. Estos pasos se pueden realizar en cualquier empresa.
 
 1. Vaya a **Administración de la organización \> Espacios de trabajo \> Informes electrónicos**.
-2. Asegúrese de que el proveedor de configuración de la empresa de ejemplo “Litware, Inc.” está disponible y marcado como **Activo**. Si no ve a este proveedor de configuración, complete el procedimiento [Creación de un proveedor de configuración y marcarlo como activo](tasks/er-configuration-provider-mark-it-active-2016-11.md). 
+2. Asegúrese de que el proveedor de configuración de la empresa de ejemplo “Litware, Inc.” está disponible y marcado como **Activo**. Si no ve a este proveedor de configuración, complete el procedimiento [Crear y activar proveedores de configuración](tasks/er-configuration-provider-mark-it-active-2016-11.md). 
 3. Seleccione **Configuraciones de metadatos**.
 4. Seleccionar **Crear configuración**.
 5. En el cuadro de diálogo desplegable, en el campo **Nombre**, introduzca un nombre. Para este ejemplo, introduzca **Metadatos de comercio exterior**.
@@ -54,14 +54,14 @@ Para este ejemplo, desea utilizar RCS para diseñar una solución de ER para la 
     > [!NOTE]
     > Puede seleccionar todos los metadatos para toda la aplicación o para modelos o módulos seleccionados. En ambos casos, tenga en cuenta que los siguientes metadatos se agregarán automáticamente: tablas de registros, enumeraciones y tipos de datos extendidos (EDT). Cuando se requieren tipos adicionales de metadatos, deben agregarse manualmente.
 
-Debe agregar algunos metadatos que están relacionados con transacciones de comercio exterior y seleccionar elementos de metadatos manualmente.
+    Debe agregar algunos metadatos que están relacionados con transacciones de comercio exterior y seleccionar elementos de metadatos manualmente.
 
 9. Seleccione **Agregar origen de datos \> Registros de tabla**.
 10. Filtre según un valor de **Intrastat** en el campo **Nombre**.
 11. Seleccione el registro de tabla de **Intrastat** .
 12. Seleccione **Aceptar**.
 
-Debe agregar información de metadatos sobre la tabla de registros de Intrastat.
+    Debe agregar información de metadatos sobre la tabla de registros de Intrastat.
 
 13. En el árbol, seleccione **Registros de tabla de Intrastat \> \>Relations \> IntrastatCommodity (Registros de tabla EcoResCategory)**.
 14. Seleccione **Agregar metadatos**.
@@ -95,11 +95,11 @@ El siguiente procedimiento muestra cómo un usuario de RCS que tiene el rol **Ad
 
 Para poder completar este procedimiento, primero debe completar los siguientes procedimientos:
 
-- [Creación y activación de un proveedor de configuraciones](tasks/er-configuration-provider-mark-it-active-2016-11.md)
+- [Crear proveedores de configuración y marcarlos como activos](tasks/er-configuration-provider-mark-it-active-2016-11.md)
 - [Preparar metadatos de la aplicación que pueden usarse en RCS](#prepare-application-metadata-that-can-be-used-in-rcs)
 
 1. Vaya a **Todos los espacios de trabajo \> Informes electrónicos**.
-2. Asegúrese de que el proveedor de configuración de la empresa de ejemplo “Litware, Inc.” está disponible y marcado como **Activo**. Si no ve a este proveedor de configuración, complete el procedimiento [Creación de un proveedor de configuración y marcarlo como activo](tasks/er-configuration-provider-mark-it-active-2016-11.md). 
+2. Asegúrese de que el proveedor de configuración de la empresa de ejemplo “Litware, Inc.” está disponible y marcado como **Activo**. Si no ve a este proveedor de configuración, complete el procedimiento [Crear y activar proveedores de configuración](tasks/er-configuration-provider-mark-it-active-2016-11.md). 
 3. Importe la configuración de metadatos de ER que contenga metadatos para la aplicación y que esté configurada para generar documentos electrónicos para el dominio empresarial de comercio exterior. Creó esta configuración de metadatos de ER y la exportó como archivo XML en el procedimiento [Preparar metadatos de la aplicación que pueden usarse en RCS](#prepare-application-metadata-that-can-be-used-in-rcs) descrito anteriormente en este tema.
 
     1. Seleccione **Configuraciones de metadatos**.
@@ -201,7 +201,7 @@ Según necesite, puede ampliar el conjunto de metadatos existente en la aplicaci
 
 El siguiente procedimiento muestra cómo un usuario de RCS que tiene el rol **Administrador del sistema** o de **Desarrollador de informes electrónicos** puede diseñar una nueva asignación del modelo de ER mediante el uso de metadatos de la aplicación. Se accederá en línea a los metadatos de la aplicación mediante el uso de la aplicación conectada de RCS. Una asignación del modelo de ER de ejemplo se configurará para acceder a transacciones de comercio exterior.
 
-Para completar este procedimiennto, primero debe completar el procedimiento [Creación de un proveedor de configuraciones y marcarlo como activo](tasks/er-configuration-provider-mark-it-active-2016-11.md) en RCS. Si todavía no ha completado el procedimiento [Acceder a metadatos de la aplicación mediante el uso de una configuración de ER](#access-application-metadata-by-using-an-er-configuration) descrito anteriormente en este tema, vaya a la página [Guías de tareas de informes electrónicos para Dynamics 365 for Finance and Operations 8.1](https://go.microsoft.com/fwlink/?linkid=2082739) para descargar los siguientes archivos de configuración de ER por adelantado y guardarlos localmente: **Metadatos de comercial exterior.xml**, **Modelo de comercio exterior.xml** y **Asignación de comercio exterior.xml**.
+Para completar este procedimiento, primero debe completar el procedimiento [Crear y activar proveedores de configuración](tasks/er-configuration-provider-mark-it-active-2016-11.md) en RCS. Si todavía no ha completado el procedimiento [Acceder a metadatos de la aplicación mediante el uso de una configuración de ER](#access-application-metadata-by-using-an-er-configuration) descrito anteriormente en este tema, vaya a la página [Guías de tareas de informes electrónicos para Dynamics 365 for Finance and Operations 8.1](https://go.microsoft.com/fwlink/?linkid=2082739) para descargar los siguientes archivos de configuración de ER por adelantado y guardarlos localmente: **Metadatos de comercial exterior.xml**, **Modelo de comercio exterior.xml** y **Asignación de comercio exterior.xml**.
 
 
 ### <a name="get-required-er-configurations"></a>Obtener las configuraciones de ER necesarias

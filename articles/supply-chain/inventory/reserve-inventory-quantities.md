@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 89441ee4c799e2d1215fbd82e0490d7168e2aa1b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 859d769b95c57663dc1bb76a632e34728a6691b5
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570818"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813897"
 ---
 # <a name="reserve-inventory-quantities"></a>Reservar cantidades de inventario
 
@@ -55,7 +55,7 @@ La sección de **Directivas de inventario** contiene las siguientes directivas d
 | Fecha FIFO controlada    | Si activa la opción **FIFO controlado mediante la fecha**, la reserva de inventario se controla mediante una fecha de ordenación según el principio FIFO. Los lotes se reservan en función de la fecha de recepción de artículos más antigua, según el principio de que el primero en entrar es el primero en salir (FIFO).                                                                                                                                                                                                                                                                       |
 | Fechas de envío en orden inverso | Esta opción solo está disponible si se ha seleccionado la opción **FIFO controlado mediante la fecha**. Si activa la casilla **Fecha de envío inverso**, la reserva de inventario se realiza hacia atrás desde la fecha de envío deseada según el principio de que el último en entrar es el primero en salir (LIFO). Si no hay recepciones disponibles antes de la fecha de envío, se utiliza una reserva FIFO.                                                                                                                                                                                                           |
 | Reserva de venta de artículos  | Determina si la reserva de artículos se realiza de forma manual o automática. Si es una reserva automática, se reserva el inventario cuando se crean líneas de pedido. Es posible hacer reservas a nivel del número de artículo nivel para listas de materiales (opción **Automático**) o para los elementos individuales de una lista de materiales (opción **Expansión**). El valor predeterminado para la **Reserva de las ventas de artículos** puede heredarse de los **Parámetros de cuentas deudoras**. En dicha página, el valor se establece en el campo de Reserva en la **sección** **Valores predeterminados** de ventas en la pestaña **General**. |
-| Selección del mismo lote    | La reserva del mismo lote le permite reservar inventario de una línea del pedido de ventas de un único lote del inventario. Si desea usar esta opción, también debe establecer la opción de **Consolidar requisito** a **Sí**. Hay ajustes adicionales necesarios para el grupo de dimensiones de seguimiento y el grupo de dimensiones de almacenamiento. Para obtener más información, consulte [Reserva del mismo lote para un pedido de ventas](../sales-marketing/reserve-same-batch-sales-order.md).                                                          |
+| Selección del mismo lote    | La reserva del mismo lote le permite reservar inventario de una línea del pedido de ventas de un único lote del inventario. Si desea usar esta opción, también debe establecer la opción de **Consolidar requisito** a **Sí**. Hay ajustes adicionales necesarios para el grupo de dimensiones de seguimiento y el grupo de dimensiones de almacenamiento. Para obtener más información, consulte [Reservar el mismo lote para un pedido de ventas](../sales-marketing/reserve-same-batch-sales-order.md).                                                          |
 | Consolidar requisito | Esta opción es similar a la opción de **Selección del mismo lote**, y consolida el inventario que se reserva para las líneas de pedido de ventas en un solo requisito.                                                                                                                                                                                                                                                                                                                                                                                      |
 | Controlado por fecha FEFO    | Esta opción permite reservar los lotes cercanos a su fecha de vencimiento o fecha de consumo preferente. También debe configurar el campo de **Criterios de selección** para seleccionar la **Fecha de vencimiento** o la **Fecha de consumo preferente**.                                                                                                                                                                                                                                                                                                                              |
 

@@ -18,12 +18,12 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fabd00786bb7644f1691212e42917defd6c6443b
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 843beaea8afdb8ff3f63f1b3e58e9488731bc654
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250341"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773439"
 ---
 # <a name="electronic-ledger-accounting-statements"></a>Extractos electrónicos de cuenta contable
 
@@ -230,11 +230,11 @@ Esta tarea le muestra todos los pasos necesarios para configurar la generación 
 8. Active o desactive la casilla Libro mayor auxiliar.
 9. En el campo Tipo de solicitud, seleccione una opción.
 10. En el campo Número de pedido, escriba un valor.
-11. Haga clic en Aceptar
+11. Haga clic en Aceptar.
 
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-- [CFDI versión 3.3](latam-mex-cfdi-3-3.md)
+- [Versión 3.3 del diseño CFDI](latam-mex-cfdi-3-3.md)
 
 

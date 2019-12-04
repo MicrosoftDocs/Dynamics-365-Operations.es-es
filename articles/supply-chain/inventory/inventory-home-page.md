@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 944d43279a6753b73b9dfe89429b2c9d6c80b5df
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 6c286587add6cb38f5fe2728e29fe8b3ac528165
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250792"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814339"
 ---
 # <a name="inventory-management-overview"></a>Visión general de gestión de inventarios
 
@@ -51,7 +51,7 @@ El siguiente mapa de aprendizaje muestra los conceptos y tareas principales que 
 Consulte la [Guía básica de Microsoft Dynamics 365](https://roadmap.dynamics.com/) para ver qué características nuevas hemos lanzado y cuáles están en desarrollo.
 
 ### <a name="inventory-accounting"></a>Contabilidad de inventario 
-Para obtener más información, consulte [Contabilidad de inventario en administración de costes](../cost-management/inventory-close.md).
+Para obtener más información, consulte [Cierre de inventario](../cost-management/inventory-close.md).
 
 ### <a name="manufacturing-and-supply-chain-management-blogs"></a>Blogs de fabricación y Supply Chain Management
 Puede encontrar opiniones, novedades y otra información acerca de la gestión de inventarios y otras soluciones en el [blog del equipo de I+D y fabricación de Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) y el [blog del equipo de I+D de Supply Chain Management en Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm).

@@ -16,26 +16,26 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a476163ba6f66ab60ed8bfea6198d02f13ac5136
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5020b523ca5d76d36f7436a8f43e8629c029e3e8
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182724"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769887"
 ---
 # <a name="access-application-metadata-by-using-connected-applications"></a>Acceder a metadatos de la aplicación mediante el uso de aplicaciones conectadas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-En los pasos siguientes se explica cómo un usuario de Regulatory Configuration Service (RCS) con el rol de administrador del sistema o de desarrollador de informes electrónicos puede diseñar una nueva asignación de modelo de informes electrónicos (ER) mediante el uso de los metadatos de Finance and Operations. Se accederá en línea a los metadatos de la aplicación mediante el uso de la aplicación conectada de RCS. La asignación del modelo de ER de ejemplo se configurará para acceder a transacciones de comercio exterior. Para completar estos pasos, en RCS primero debe completar los pasos del tema [Creación de un proveedor de configuraciones y marcarlo como activo](er-configuration-provider-mark-it-active-2016-11.md). Si no ha completado los pasos del tema [Acceder a metadatos de la aplicación mediante el uso de la configuración de ER](access-application-metadata-er-configuration.md), vaya a la [Página de ejemplos de informes electrónicos](https://go.microsoft.com/fwlink/?linkid=862266) para descargar y guardar las siguientes configuraciones de ER: Metadatos de comercio exterior.xml; Modelo de comercio exterior.xml; Asignación de comercio exterior.xml y, a continuación, complete los pasos del procedimiento.
+En los pasos siguientes se explica cómo un usuario de Regulatory Configuration Service (RCS) con el rol de administrador del sistema o de desarrollador de informes electrónicos puede diseñar una nueva asignación de modelo de informes electrónicos (ER) mediante el uso de los metadatos de Finance and Operations. Se accederá en línea a los metadatos de la aplicación mediante el uso de la aplicación conectada de RCS. La asignación del modelo de ER de ejemplo se configurará para acceder a transacciones de comercio exterior. Para completar estos pasos, en RCS primero debe completar los pasos del tema [Crear proveedores de configuración y marcarlos como activos](er-configuration-provider-mark-it-active-2016-11.md). Si no ha completado los pasos del tema [Acceder a metadatos de la aplicación mediante el uso de la configuración de ER](access-application-metadata-er-configuration.md), vaya a la [Página de ejemplos de informes electrónicos](https://go.microsoft.com/fwlink/?linkid=862266) para descargar y guardar las siguientes configuraciones de ER: Metadatos de comercio exterior.xml; Modelo de comercio exterior.xml; Asignación de comercio exterior.xml y, a continuación, complete los pasos del procedimiento.
 
 ## <a name="prerequisites"></a>Requisitos previos
 1. Vaya a **Todos los espacios de trabajo** > **Informes electrónicos**. 
-2. Asegúrese de que el proveedor de configuración de la empresa de ejemplo “Litware, Inc.” está disponible y marcado como **Activo**. Si no ve a este proveedor de configuración, complete los pasos del procedimiento [Creación de un proveedor de configuración y marcarlo como activo](er-configuration-provider-mark-it-active-2016-11.md). 
+2. Asegúrese de que el proveedor de configuración de la empresa de ejemplo “Litware, Inc.” está disponible y marcado como **Activo**. Si no ve a este proveedor de configuración, complete los pasos del procedimiento [Crear proveedores de configuración y marcarlos como activos](er-configuration-provider-mark-it-active-2016-11.md). 
 
 ## <a name="get-required-er-configurations"></a>Obtener las configuraciones de ER necesarias
 1. Haga clic en **Configuraciones de informes**. 
-2. Si ya ha completado los pasos del procedimiento [(RCS) Acceder a metadatos de la aplicación mediante el uso de la configuración de ER](access-application-metadata-er-configuration.md), ya tiene todas las configuraciones de ER necesarias (configuraciones de metadatos, modelo y asignación de comercio exterior) en la instancia de RCS actual. Puede omitir todos los pasos restantes de esta subtarea. 
+2. Si ya ha completado los pasos del procedimiento [Acceder a metadatos de la aplicación mediante el uso de la configuración de ER](access-application-metadata-er-configuration.md), ya tiene todas las configuraciones de ER necesarias (configuraciones de metadatos, modelo y asignación de comercio exterior) en la instancia de RCS actual. Puede omitir todos los pasos restantes de esta subtarea. 
 3. Haga clic en **Intercambiar**. 
 4. Haga clic en **Cargar desde un archivo XML**. 
 5. Haga clic en **Examinar** y seleccione el archivo **Metadatos de comercio exterior.xml**. 
@@ -72,8 +72,8 @@ En los pasos siguientes se explica cómo un usuario de Regulatory Configuration 
 4. En el árbol, seleccione **Modelo de comercio exterior\Asignación de comercio exterior**. 
 5. Expanda la sección **Requisitos previos**. 
 
-> [!NOTE]
-> Actualmente, esta asignación hace referencia a la configuración de metadatos. Los metadatos de la aplicación de esta configuración se ofrecerán mientras se diseña esta asignación del modelo. 
+    > [!NOTE]
+    > Actualmente, esta asignación hace referencia a la configuración de metadatos. Los metadatos de la aplicación de esta configuración se ofrecerán mientras se diseña esta asignación del modelo. 
 
 6. Haga clic en **Diseñador**. 
 7. Haga clic en **Diseñador**. 
@@ -81,8 +81,8 @@ En los pasos siguientes se explica cómo un usuario de Regulatory Configuration 
 9. Haga clic en **Agregar raíz**. 
 10. En el campo **Tabla**, especifique o seleccione un valor. 
 
-> [!NOTE]
-> Actualmente, esta asignación hace referencia a la configuración de metadatos. Los metadatos de la aplicación de esta configuración se ofrecerán mientras se diseña esta asignación del modelo. 
+    > [!NOTE]
+    > Actualmente, esta asignación hace referencia a la configuración de metadatos. Los metadatos de la aplicación de esta configuración se ofrecerán mientras se diseña esta asignación del modelo. 
 
 11. Haga clic en **Cancelar**. 
 12. Cierre la página. 
@@ -92,8 +92,8 @@ En los pasos siguientes se explica cómo un usuario de Regulatory Configuration 
 1. Haga clic en **Editar**. 
 2. Seleccione la aplicacón **MyConnectedApp**. 
 
-> [!NOTE]
-> Actualmente, esta asignación hace referencia a los metadatos de la aplicación conectada seleccionada. Cuando la misma asignación hace referencia a la configuración de metadatos y a la aplicación conectada al mismo tiempo, se utilizarán los metadatos de la aplicación conectada. 
+    > [!NOTE]
+    > Actualmente, esta asignación hace referencia a los metadatos de la aplicación conectada seleccionada. Cuando la misma asignación hace referencia a la configuración de metadatos y a la aplicación conectada al mismo tiempo, se utilizarán los metadatos de la aplicación conectada. 
 
 3. Haga clic en **Diseñador**. 
 4. Haga clic en **Diseñador**. 
@@ -101,14 +101,14 @@ En los pasos siguientes se explica cómo un usuario de Regulatory Configuration 
 6. Haga clic en **Agregar raíz**. 
 7. En el campo **Tabla**, especifique o seleccione un valor. 
 
-> [!NOTE]
-> Se ofrecieron más de dos tablas de la aplicación ya que esta asignación utiliza todos los metadatos de la aplicación conectada que se le ha asignado. 
+    > [!NOTE]
+    > Se ofrecieron más de dos tablas de la aplicación ya que esta asignación utiliza todos los metadatos de la aplicación conectada que se le ha asignado. 
 
 8. Haga clic en **Cancelar**. 
 9. Hacer clic en **Validar**. 
 
-> [!NOTE]
-> Enlazamos correctamente elementos del modelo de datos con artículos de orígenes de datos que se describen con detalles de metadatos de la aplicación conectada que se ha asignado para esta asignación. 
+    > [!NOTE]
+    > Enlazamos correctamente elementos del modelo de datos con artículos de orígenes de datos que se describen con detalles de metadatos de la aplicación conectada que se ha asignado para esta asignación. 
 
 10. Cierre la página. 
 11. Cierre la página. 

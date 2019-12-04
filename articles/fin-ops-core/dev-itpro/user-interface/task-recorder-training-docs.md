@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c3d83334bcccc62a2cbe761272b13cc80e10c11
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: b4bb523c2817a220623d8a1b6cc1ac04d7b96283
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658819"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812658"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Crear documentación o formación con Grabador de tareas
 
@@ -84,7 +84,7 @@ Así es como se muestra la anotación del notas en la “burbuja” de la guía 
 
 [![Apariencia de la anotación de las notas en guía de tareas](./media/screen4.png)](./media/screen4.png)
 
--   **Paso de información**: estas anotaciones se crean haciendo clic con el botón secundario en un control o en cualquier lugar de un formulario &lt; **Grabador de tareas** &lt; **Agregar paso de información. **Los pasos de información aparecen como paso numerado en cualquier punto en el que lo inserta, aunque no se haya grabado ninguna acción en la IU. Puede agregar un paso de información de nivel de formulario o un paso de información asociado con un control. Cuando un paso de información está asociado a un formulario, la "burbuja" de la guía de tareas aparecerá en algún lugar del formulario, sin puntero, cuando se reproduzca la guía de tareas. Cuando un paso de información está asociado a un control, la "burbuja" de la guía de tareas señalará al control cuando se reproduzca la guía de tareas. En el panel de la Ayuda, aparecerá una anotación del paso de la información como paso numerado siempre que escriba texto. Uso los pasos de información para preparar al usuario para los pasos siguientes, para describir los pasos que se deben dar fuera de la aplicación, o para hacer referencia a otras grabaciones (aunque no puede crear hipervínculos en anotaciones).
+-   **Paso de la información**: estas anotaciones se crean haciendo clic con el botón secundario en un control o en cualquier lugar de un formulario &lt; **Grabador de tareas** &lt; **Agregar paso de información**. Los pasos de información aparecen como paso numerado en cualquier punto en el que lo inserta, aunque no se haya grabado ninguna acción en la IU. Puede agregar un paso de información de nivel de formulario o un paso de información asociado con un control. Cuando un paso de información está asociado a un formulario, la "burbuja" de la guía de tareas aparecerá en algún lugar del formulario, sin puntero, cuando se reproduzca la guía de tareas. Cuando un paso de información está asociado a un control, la "burbuja" de la guía de tareas señalará al control cuando se reproduzca la guía de tareas. En el panel de la Ayuda, aparecerá una anotación del paso de la información como paso numerado siempre que escriba texto. Uso los pasos de información para preparar al usuario para los pasos siguientes, para describir los pasos que se deben dar fuera de la aplicación, o para hacer referencia a otras grabaciones (aunque no puede crear hipervínculos en anotaciones).
 
 **Determine el tiempo para realizar la grabación**
 
@@ -97,7 +97,7 @@ Así es como se muestra la anotación del notas en la “burbuja” de la guía 
 **Decida en qué lugar de la IU se iniciará una grabación** La página en la que se encuentra al iniciar la grabación de tareas afecta a para qué página se muestra la guía de tareas. Por ejemplo, si desea que su grabación de tareas se muestre en el panel de la Ayuda cuando un usuario hace clic en la Ayuda de la página Parámetros de contabilidad general, debe comenzar la grabación en la página Parámetros de contabilidad general. **Guarde las grabaciones como archivos .axtr** Cuando haya acabado de crear o editar una grabación de tareas, se le presentarán varias opciones para cómo desea descargar o guardar la grabación. Puede descargar el archivo como paquete de grabación de tareas (.axtr), descargarlo como archivo de grabación en bruto (.xml), descargarlo como documento de Word o guardar el archivo en una biblioteca de LCS. Es una buena idea guardar siempre su grabación de tareas como un archivo de paquete de grabación de tareas (.axtr). Esto facilitará el mantenimiento del archivo si los procedimientos o las anotaciones necesitan cambiarse posteriormente. Si desea descargar el archivo como documento de Word, guárdelo también como archivo de paquete de grabación de tareas.
 
 ## <a name="create-your-task-recording"></a>Crear la grabación de tareas
-Para los pasos detallados de tutorial, consulte [Cómo crear una grabación de tareas](task-recorder.md).
+Para los pasos detallados de tutorial, consulte [Recursos del Grabador de tareas](task-recorder.md).
 
 ## <a name="copy-and-customize-microsofts-task-recordings"></a>Copiar y personalizar las grabaciones de tareas de Microsoft
 Puede descargar y editar las grabaciones de tareas de Microsoft para usarlas para sus propios materiales de formación y documentación de la Ayuda. Para descargar una grabación de tarea de Microsoft, siga estos pasos:
@@ -115,14 +115,14 @@ Puede descargar y editar las grabaciones de tareas de Microsoft para usarlas par
 11. Elija cómo desea guardar la grabación de tareas.
 
 ## <a name="include-your-task-recordings-in-the-help-pane"></a>Incluir las grabaciones de tareas en el panel de la Ayuda
-Para mostrar sus propias grabaciones de tareas personalizadas en el panel de la Ayuda para que se puedan reproducir como guías de tareas o ver como texto, debe guardar sus grabaciones de tareas en su propia biblioteca de BPM y después actualizar los parámetros del sistema de Ayuda para que señalen a la biblioteca de BPM. Para obtener más información, consulte [Conexión del sistema de Ayuda](../../fin-ops/get-started/help-connect.md)
+Para mostrar sus propias grabaciones de tareas personalizadas en el panel de la Ayuda para que se puedan reproducir como guías de tareas o ver como texto, debe guardar sus grabaciones de tareas en su propia biblioteca de BPM y después actualizar los parámetros del sistema de Ayuda para que señalen a la biblioteca de BPM. Para obtener más información, consulte [Establecer la conexión con el sistema de Ayuda](../../fin-ops/get-started/help-connect.md)
 
 <a name="additional-resources"></a>Recursos adicionales
 --------
 
-[Visión general de la ayuda](../../fin-ops/get-started/help-overview.md)
+[Sistema de ayuda](../../fin-ops/get-started/help-overview.md)
 
-[Ayuda sobre Connect](../../fin-ops/get-started/help-connect.md)
+[Conectar el sistema de ayuda](../../fin-ops/get-started/help-connect.md)
 
 [Grabador de tareas](task-recorder.md)
 

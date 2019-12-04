@@ -1,6 +1,6 @@
 ---
-title: Crear, aprobar y firmar ofertas
-description: Este tema informa de cómo crear, aprobar, y firmar una propuesta para un candidato mediante Dynamics 365 Talent.
+title: Crear, aprobar y firmar ofertas en Attract
+description: Este tema informa de cómo crear, aprobar, y firmar una propuesta para un candidato mediante Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/26/2019
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-19
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: acc484ea57ce13d8a7c48a0ca7a2aa8723558dc9
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: dee545b6ca5d2791dea6609b4e1b25eba128f8b7
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551058"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832916"
 ---
-# <a name="create-approve-and-sign-offers"></a>Crear, aprobar y firmar ofertas
+# <a name="create-approve-and-sign-offers-in-attract"></a>Crear, aprobar y firmar ofertas en Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 En muchos casos, la preparación de un paquete de oferta para un candidato tiene que ser un proceso muy rápido.
 Mediante el uso de las plantillas configuradas por el administrador de Attract reducirá el tiempo y el esfuerzo que los creadores necesitan para preparar y enviar las ofertas para un candidato.

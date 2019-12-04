@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 51a27f5ecdb4d4903ac0b76c5682ea7f9ab0d8c3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 1d074b9450a4dfc72f60f97ccaf03610ce54315d
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176082"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772591"
 ---
 # <a name="cash-and-bank-management-home-page"></a>Página principal de gestión de efectivo y bancos
 
@@ -49,36 +49,36 @@ Entre estos instrumentos se encuentran resguardos de depósito, cheques, letras 
 ### <a name="bank-reconciliation"></a>Conciliación bancaria
 
 -   [Visión general de conciliación bancaria avanzada](advanced-bank-reconciliation-overview.md)
--   [Configurar la conciliación bancaria avanzada](configure-advanced-bank-reconciliation.md)
--   [Configurar la importación avanzada de conciliación bancaria](set-up-advanced-bank-reconciliation-import-process.md)
+-   [Proceso de configuración de conciliación bancaria avanzada](configure-advanced-bank-reconciliation.md)
+-   [Configurar el proceso de importación avanzada de conciliación bancaria](set-up-advanced-bank-reconciliation-import-process.md)
 -   [Conciliar extractos bancarios mediante la conciliación bancaria avanzada](reconcile-bank-statements-advanced-bank-reconciliation.md)
 -   [Configurar las reglas de coincidencia de conciliación bancaria](set-up-bank-reconciliation-matching-rules.md)
 
 
 ## <a name="accounts-payable-payments-and-settlements"></a>Pagos y liquidaciones de proveedores
 -   [Pagos centralizados para proveedores](../accounts-payable/centralized-payments-accounts-payable.md)
--   [Creación de facturas de proveedor mediante una propuesta de pago](../accounts-payable/create-vendor-payments-payment-proposal.md)
+-   [Creación de pagos de proveedor mediante una propuesta de pago](../accounts-payable/create-vendor-payments-payment-proposal.md)
 -   [Inversión de un pago de proveedor](../accounts-payable/reverse-vendor-payment.md)
 -   [Pagos de proveedor para un importe parcial](../accounts-payable/vendor-payments-partial-amount.md)
--   [Facturas de anticipo y visión general de anticipos](../accounts-payable/prepayments-invoices-vs-prepayments.md)
--   [Escenario: liquidar un pago de proveedor parcial y liquidar el pago final completamente antes de la fecha de descuento](../accounts-payable/settle-partial-vendor-payment-or-final-payment-before-discount.md)
--   [Escenario: liquidar un pago de proveedor parcial antes de la fecha de descuento con un pago final después de la fecha de descuento](../accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
--   [Escenario: liquidar un pago de proveedor parcial con descuentos en notas de abono de proveedor](../accounts-payable/settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
--   [Escenario: liquidar un pago de proveedor parcial con varios períodos de descuento](../accounts-payable/settle-partial-vendor-payment-multiple-discount-periods.md)
--   [Escenario: aprovechar un descuento superior al calculado para un pago de proveedor](../accounts-payable/take-discount-more-calculated-discount-vendor-payment.md)
--   [Escenario: obtener un descuento por pronto pago fuera del período de descuento por pronto pago](../accounts-payable/take-cash-discount-outside-cash-discount-timeframe.md)
+-   [Facturas de anticipo frente a anticipos](../accounts-payable/prepayments-invoices-vs-prepayments.md)
+-   [Liquidar un pago de proveedor parcial y el pago final completamente antes de la fecha de descuento](../accounts-payable/settle-partial-vendor-payment-or-final-payment-before-discount.md)
+-   [Liquidar un pago de proveedor parcial antes de la fecha de descuento con un pago final después de la fecha de descuento](../accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
+-   [Liquidar un pago de proveedor parcial con descuentos en notas de abono de proveedor](../accounts-payable/settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
+-   [Liquidar un pago de proveedor parcial con varios períodos de descuento](../accounts-payable/settle-partial-vendor-payment-multiple-discount-periods.md)
+-   [Aprovechar un descuento superior al calculado para un pago de proveedor](../accounts-payable/take-discount-more-calculated-discount-vendor-payment.md)
+-   [Obtener un descuento por pronto pago fuera del período de descuento por pronto pago](../accounts-payable/take-cash-discount-outside-cash-discount-timeframe.md)
 
 ## <a name="accounts-receivable-payments-and-settlements"></a>Pagos y liquidaciones de clientes
 -   [Pagos centralizados para Clientes](../accounts-receivable/centralized-payments-accounts-receivable.md)
 -   [Pagos de cliente para un importe parcial](../accounts-receivable/customer-payments-partial-amount.md)
 -   [Reembolsar a clientes](../accounts-receivable/reimburse-customers.md)
--   [Escenario: liquidación y priorización automáticas](../accounts-receivable/automatic-settlement-prioritization.md)
--   [Escenario: gestión de descuentos por pronto pago para sobrepagos](../cash-bank-management/cash-discount-handling-overpayments.md)
--   [Escenario: liquidar un pago de cliente parcial y liquidar el pago final completamente antes de la fecha de descuento](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
--   [Escenario: liquidar un pago de cliente parcial antes de la fecha de descuento con un pago final después de la fecha de descuento](../accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after.md)
--   [Escenario: liquidar un pago de cliente parcial con descuentos en notas de abono de proveedor](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)
--   [Escenario: liquidar un pago de cliente parcial con varios períodos de descuento](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)
--   [Escenario: usar un pago de cliente para liquidar varias facturas que abarcan varios períodos de descuento](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+-   [Liquidación y priorización automáticas](../accounts-receivable/automatic-settlement-prioritization.md)
+-   [Gestión de descuentos por pronto pago para sobrepagos](../cash-bank-management/cash-discount-handling-overpayments.md)
+-   [Liquidar un pago de cliente parcial y el pago final completamente antes de la fecha de descuento](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
+-   [Liquidar un pago de cliente parcial antes de la fecha de descuento con un pago final después de la fecha de descuento](../accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after.md)
+-   [Liquidar un pago de cliente parcial con descuentos en notas de abono de proveedor](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)
+-   [Liquidar un pago de cliente parcial con varios períodos de descuento](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)
+-   [Usar un pago de cliente para liquidar varias facturas que abarcan varios períodos de descuento](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
 
 
 
@@ -86,7 +86,7 @@ Entre estos instrumentos se encuentran resguardos de depósito, cheques, letras 
 
 #### <a name="whats-new-and-in-development"></a>Novedades y características en desarrollo
 
-Vaya a las [Notas de la versión Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) para ver qué nuevas características se han planificado. 
+Vaya a las [Planes de la versión de Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) para ver las nuevas características que se han planificado. 
 
 #### <a name="blogs"></a>Blogs
 

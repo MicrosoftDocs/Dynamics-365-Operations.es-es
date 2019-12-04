@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fc8200380ac3aeb9e3b73f43212458660a15ade6
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f41fbe6e2034c0e58fc03d1dfbbd87844f3a4466
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250815"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814384"
 ---
 # <a name="inventory-blocking"></a>Bloqueo del inventario
 
@@ -64,6 +64,6 @@ Puede especificar qué estados de inventario son estados de bloqueo mediante el 
 
 [Creación y mantenimiento de un bloqueo del inventario](tasks/create-maintain-inventory-blocking.md)
 
-[Procesos de administración de calidad](quality-management-processes.md)
+[Procesos de administración de la calidad](quality-management-processes.md)
 
-[Inspeccionar la calidad de las mercancías (Guía de tareas)](tasks/inspect-quality-goods.md)
+[Inspección de la calidad de las mercancías](tasks/inspect-quality-goods.md)

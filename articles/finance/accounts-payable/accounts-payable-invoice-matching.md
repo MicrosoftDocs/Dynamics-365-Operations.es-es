@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b45c6f20bf5b6fb02379f71b5806c6c147789e73
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a8e283038a0cc1c9834a827c453f2951e9e87bcf
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189761"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772292"
 ---
 # <a name="accounts-payable-invoice-matching-overview"></a>Visión general de la conciliación de facturas de proveedores
 
@@ -189,7 +189,7 @@ Las facturas de proveedor a menudo se basan en los recepciones de producto que r
 -   Especifique importes de factura que no se han incluido en el pedido de compra original, de modo que la información de la factura coincida con la factura recibida del proveedor. Se pueden comparar los gastos varios de pedidos de compra con gastos varios para las facturas. En caso necesario, se pueden agregar gastos a las facturas y asignarlos a líneas de factura.
 -   Vea y apruebe discrepancias de conciliación de precios entre el precio unitario neto de la factura y el precio unitario neto del pedido de compra. Se pueden configurar porcentajes de tolerancia de precios para la entidad jurídica, los proveedores y los artículos. Si el precio de la línea de factura del proveedor no se encuentra dentro de la tolerancia de precios aceptable, se puede guardar la factura hasta que se apruebe para el registro o bien hasta que se reciba una corrección por parte del proveedor.
 
-Para obtener más información, consulte [Directivas de triple conciliación](three-way-matching-policies.md) y [Validación de conciliación de facturas de proveedores de instalación](tasks/set-up-accounts-payable-invoice-matching-validation.md). 
+Para obtener más información, consulte [Directivas de triple conciliación](three-way-matching-policies.md) y [Configurar la validación de conciliación de facturas de proveedores](tasks/set-up-accounts-payable-invoice-matching-validation.md). 
 
 
 

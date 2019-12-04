@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: c526bc42595c20024016d0d7da78b8638b0daa4b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a6e6b8d6243c1f7c5831baaee91baf38d51e0c26
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185253"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770006"
 ---
 # <a name="practice-manager-power-bi-content"></a>Contenido de director de prácticas de Power BI
 
@@ -58,7 +58,7 @@ Los gráficos y los iconos en todos estos informes se pueden filtrar y anclar al
 
 ## <a name="understanding-the-data-model-and-entities"></a>Comprensión del modelo de datos y de las entidades
 
-Los datos siguientes se usan para rellenar las páginas de informes en el contenido de Power BI **Director de prácticas**. Estos datos se representan como medidas agregadas que se realizan en el almacén de la entidad. El almacén de la entidad es una base de datos de Microsoft SQL Server que se optimiza para el análisis. Para obtener más información, consulte [Visión general de la integración de Power BI con el almacén de entidades](power-bi-integration-entity-store.md).
+Los datos siguientes se usan para rellenar las páginas de informes en el contenido de Power BI **Director de prácticas**. Estos datos se representan como medidas agregadas que se realizan en el almacén de la entidad. El almacén de la entidad es una base de datos de Microsoft SQL Server que se optimiza para el análisis. Para obtener más información, consulte [Integración de Power BI con el almacén de entidades](power-bi-integration-entity-store.md).
 
 En las secciones siguientes se describen las medidas de agregado que se utilizan en cada entidad.
 

@@ -19,18 +19,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: aa4d54fd7b3ab407751ad6ca1032d742c23eed41
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 21c2143f4fa58d51f64e349c7963cb17e04bad97
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184540"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772446"
 ---
 ## <a name="company-concept-in-common-data-service"></a>Concepto de empresa en Common Data Service
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview](../includes/preview-banner.md)]
 
 En Finance and Operations, el concepto *empresa* es una interpretación legal y una interpretación empresarial. También es un límite de seguridad y visibilidad para los datos. Los usuarios trabajan siempre en el contexto de una sola empresa y la mayoría de los datos se clasifican por empresa.
 
@@ -60,12 +58,14 @@ Como muestra la ilustración anterior, esta asignación 1:1 entre la unidad de n
 
 Un tema final a discutir es cómo la escritura dual determina a qué equipo propietario debe asignar los registros. Este comportamiento se controla mediante el campo **Default owning team** en el registro cdm\_Company. Cuando el registro cdm\_Company está habilitado para la escritura dual, un complemento crea automáticamente la unidad de negocio asociada y el equipo propietario (si no existe ya) y establece el campo **Default owning team** . El administrador puede cambiar este campo a un valor distinto. Sin embargo, el administrador no puede desactivar el campo cuando la entidad está habilitada para la escritura dual.
 
+> [!div class="mx-imgBorder"]
 ![Campo del equipo propietario predeterminado](media/dual-write-default-owning-team.jpg)
 
 ## <a name="company-striping-and-bootstrapping"></a>Fragmentación y arranque de la empresa
 
 La integración de Common Data Service aporta paridad a la empresa mediante un identificador de empresa para fragmentar los datos. Como muestra la siguiente ilustración, todas las entidades específicas de la empresa se extienden de modo que tengan una relación muchos a uno (N: 1) con la entidad cdm\_Company.
 
+> [!div class="mx-imgBorder"]
 ![Relación N: 1 entre una entidad específica de la empresa y la entidad cdm_Company](media/dual-write-bootstrapping.png)
 
 + Para los registros, después de que se agregua y se guarda una empresa, el valor pasa a ser de solo lectura. Por lo tanto, los usuarios deben asegurarse de que se selecciona la empresa correcta.

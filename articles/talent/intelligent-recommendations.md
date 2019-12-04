@@ -1,6 +1,6 @@
 ---
-title: Recomendaciones inteligentes
-description: Este tema explica cómo se puede usar el aprendizaje automático para proporcionar recomendaciones para los trabajos y los candidatos de trabajo.
+title: Recomendaciones inteligentes en Attract
+description: Este artículo explica cómo se puede usar el aprendizaje automático para proporcionar recomendaciones para los trabajos y los candidatos de trabajo en Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
 ms.date: 05/16/2019
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: beb54753c50e398197353f86c2a1239a96b879eb
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: fa06821c98e42dcd8590a764db9beb4a5c33fca2
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741761"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832800"
 ---
-# <a name="intelligent-recommendations"></a>Recomendaciones inteligentes
+# <a name="intelligent-recommendations-in-attract"></a>Recomendaciones inteligentes en Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 El aprendizaje automático puede ayudar reclutadores y a los administradores de contratación a identificar rápidamente a los candidatos mejor situados para un puesto. También puede ayudar a los candidatos viables a encontrar el puesto que mejor se adapta a su perfil e intereses. A medida que se usan estas características, y se proporcionan valoraciones, las recomendaciones mejorarán.
 
 > [!NOTE] 
 > - Las características de recomendación inteligente solo están disponibles con el [Complemento de contratación completa](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
-> - La funcionalidad de la que se habla en este tema esta disponible como parte de una versión preliminar. El contenido y la funcionalidad están sujetos a cambios. Para utilizar esta función, pida que un administrador la active usando la **Centro de administración** en Attract. Establezca **Recomendación del candidato**, **Recomendación de trabajo**, y **Recomendación del candidato** a **Activado**. Para obtener más información, consulte [Acceder a las características de vista previa en Talent](./access-preview-feature.md). 
+> - La funcionalidad de la que se habla en este tema esta disponible como parte de una versión preliminar. El contenido y la funcionalidad están sujetos a cambios. Para utilizar esta función, pida que un administrador la active usando la **Centro de administración** en Attract. Establezca **Recomendación del candidato**, **Recomendación de trabajo**, y **Recomendación del candidato** a **Activado**. Para obtener más información, consulte [Acceder a las características de vista previa en Microsoft Dynamics 365 Talent](./access-preview-feature.md). 
 
 
 ## <a name="candidate-recommendations"></a>Recomendaciones de candidatos

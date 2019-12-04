@@ -3,7 +3,7 @@ title: Procesamiento aplazado de trabajo de almacén
 description: En este tema se describe la funcionalidad que crea el procesamiento diferido de las operaciones de colocación de trabajo de almacén disponibles en Dynamics 365 Supply Chain Management.
 author: josaw1
 manager: AnnBe
-ms.date: 06/17/2019
+ms.date: 11/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1acfa41b9a94b5f27eefda006c8e2950059f3489
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: b67b3899a506c02b581d04f51691cb4408ee012e
+ms.sourcegitcommit: 0af4caa9f5ea6f6c1d1f4b30090e02e7f755df36
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026950"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "2815797"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Procesamiento aplazado de trabajo de almacén
 
@@ -30,7 +30,6 @@ ms.locfileid: "2026950"
 [!include [banner](../includes/pivate-preview-banner.md)]
 
 En este tema se describe la funcionalidad que crea el procesamiento diferido de las operaciones de colocación para trabajo de almacén disponibles en Dynamics 365 Supply Chain Management.
-
 
 La funcionalidad de procesamiento diferido permite a trabajadores de almacén seguir realizando otros trabajos mientras se procesa la operación de colocación en segundo plano. El procesamiento diferido es útil cuando hay que procesar muchas líneas de trabajo y el trabajador puede dejar que ese trabajo se procese de forma asincrónica. También resulta útil si puede haber aumentos ad hoc o imprevistos de tiempo de procesamiento en el servidor y ese aumento del tiempo de procesamiento puede afectar a la productividad del usuario.
 
@@ -50,6 +49,8 @@ Las directivas se configuran en la página **Directivas de procesamiento de trab
 | Método de procesamiento de trabajo          | El método que se usa para procesar la línea de trabajo. Si el método está establecido en **Inmediato**, el comportamiento se parece al que se produce cuando no se usa ninguna directiva de procesamiento de trabajo para procesar la línea. Si el método está establecido **Aplazado**, se utiliza el procesamiento diferido que utiliza el marco por lotes. |
 | Umbral de procesamiento diferido   | Un valor de **0** (cero) indica que no hay umbral. En este caso, se utiliza el procesamiento diferido si es posible. Si el cálculo de umbral específico está por debajo del umbral, se utiliza el método Inmediato. De lo contrario, se utiliza el método Aplazado si es posible. Para las ventas y el trabajo relacionado con transferencias, el umbral se calcula como el número de líneas de carga de origen asociadas que se están procesando para el trabajo. Para el trabajo de reabastecimiento, se calcula el umbral como el número de líneas de trabajo que se van a reabastecer por el trabajo. Si se establece un umbral de, por ejemplo, **5** para ventas, los trabajos más pequeños que tengan menos de cinco líneas de carga de origen iniciales no usarán el procesamiento diferido; solo lo usarán los trabajos más grandes. El umbral solo surte efecto si el método de procesamiento de trabajo se establece en **Aplazado**. |
 | Grupo de lotes de procesamiento diferido |El grupo de lotes que se usa para el procesamiento. |
+
+Para el procesamiento de colocación diferido, se admiten los siguientes tipos de pedido de trabajo: pedido de ventas, emisión de pedido de transferencia, y reabastecimiento.
 
 ## <a name="assigning-the-work-creation-policy"></a>Asignación de la directiva de creación de trabajo
 
@@ -99,7 +100,7 @@ Hay varios escenarios en los que no se aplica el procesamiento de colocación di
 - Se usa la finalización del trabajo manual.
 - El trabajo se completa mediante finalización automática.
 - Se usan plantillas de auditoría.
-- El trabajo usa contenedores.
+
 
 ## <a name="monitoring-the-deferred-processing-tasks-from-the-outbound-work-monitoring-workspace"></a>Supervisar las tareas de procesamiento diferido desde el espacio de trabajo de supervisión del trabajo de salida
 

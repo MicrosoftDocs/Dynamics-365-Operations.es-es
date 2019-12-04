@@ -1,9 +1,9 @@
 ---
-title: Requisitos del sistema de Talent y directiva de actualización
-description: Este tema muestra los requisitos de Dynamics 365 Talent. También se describe la directiva de actualización.
+title: Requisitos del sistema de Talent
+description: Este tema muestra los requisitos de Dynamics 365 Talent.
 author: andreabichsel
 manager: AnnBe
-ms.date: 05/02/2019
+ms.date: 10/21/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b8bf44fc76be968b0b04fd894c39b4c19fd374ce
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 0bd7d7051dd01834f306e165af55d740192b99e0
+ms.sourcegitcommit: caeb24027831efccbc316ff8e7f9e62b42010d65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024169"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "2818488"
 ---
-# <a name="talent-system-requirements-and-update-policy"></a>Requisitos del sistema de Talent y directiva de actualización
+# <a name="talent-system-requirements"></a>Requisitos del sistema de Talent
 
 [!include [banner](includes/banner.md)]
 
@@ -46,7 +46,7 @@ Para buscar la versión más reciente para cada explorador web, vaya al sitio we
 > * El editor de flujo de trabajo se inicia como aplicación ClickOnce. Sólo Microsoft Edge e Internet Explorer (en una versión compatible de Microsoft Windows) admiten aplicaciones ClickOnces. La aplicación ClickOnce del editor de flujo de trabajo requiere un sistema operativo compatible de 64 bits.
 > * Para obtener una vista previa de los archivos PDF, se recomienda que use exploradores modernos como Microsoft Edge (la última versión disponible para el público) en Windows 10, o Google Chrome (la última versión disponible para el público) en tabletas con Windows 10, Windows 8.1, Windows 8, Windows 7, o Google Nexus 10.
 >   Requisitos de red
-> * Dynamics 365 Talent está diseñado para redes con latencia de 250-300 milisegundos (ms) o menos. Esta es la latencia de un cliente de explorador al centro de datos de Microsoft Azure que aloja Talent. Se recomienda que pruebe la latencia de red en [www.azurespeed.com](https://www.azurespeed.com "Prueba de latencia de Azure").
+> * Dynamics 365 Talent está diseñado para redes con latencia de 250-300 milisegundos (ms) o menos. Esta es la latencia de un cliente de explorador al centro de datos de Microsoft Azure que aloja Talent. Se recomienda que pruebe la latencia de red en [www.azurespeed.com](https://www.azurespeed.com "Test de latencia de Azure").
 > * Los requisitos de ancho de banda de Talent dependen de su situación. La mayoría de las situaciones habituales requieren un ancho de banda de más de 50 kilobytes por segundo (Kbps).
 > 
 > [!WARNING]
@@ -54,7 +54,7 @@ Para buscar la versión más reciente para cada explorador web, vaya al sitio we
 
 ## <a name="supported-microsoft-office-applications"></a>Aplicaciones de Microsoft Office admitidas
 
-* Para ejecutar los complementos de Microsoft Excel y Word, es necesario tener instalado Microsoft Office 2016 para Windows o Mac. Para obtener más información acerca de los requisitos de la versión, consulte la [Solución de problemas de la integración de Office](../dev-itpro/office-integration/office-integration-troubleshooting.md "Solución de problemas de la integración de Office").
+* Para ejecutar los complementos de Microsoft Excel y Word, es necesario tener instalado Microsoft Office 2016 para Windows o Mac. Para obtener más información acerca de los requisitos de la versión, consulte [Solución de problemas de la integración de Office](../dev-itpro/office-integration/office-integration-troubleshooting.md "Solución de problemas de la integración con Office").
 * Para ver los documentos que se generan mediante la funcionalidad de exportación a Excel o exportación a Word, debe tener instalado Microsoft Office 2007 o una versión posterior.
 
 ## <a name="regional-availability-languages-and-localization"></a>Disponibilidad, idiomas, y localización regional
@@ -66,8 +66,3 @@ Puede descargar un archivo PDF de países, las regiones e idiomas compatibles co
 
 Si es desarrollador de software y está interesado en crear país o personalizaciones específicas de una región, o en crear una solución de un país o región no compatible actualmente con Microsoft, consulte [Globalización](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
 
-## <a name="update-policy"></a>Directiva de actualización
-
-Talent se mantiene como oferta de nube. Las actualizaciones de Talent son continuas y Microsoft las aplica automáticamente.
-
-Las actualizaciones se lanzan en una cadencia regular, las actualizaciones y se crearán a todos los entornos. Talent es admitido por la directiva [Soporte técnico del ciclo de vida de Microsoft](https://support.microsoft.com/gp/lifecycle#gp/OSSLpolicy "Soporte técnico del ciclo de vida de Microsoft"), que proporciona directrices coherentes y fiables para la disponibilidad de asistencia técnica.

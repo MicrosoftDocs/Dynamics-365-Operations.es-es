@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 1e144e2623f3ddfafaee749bb334de40ef5aec1b
-ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
+ms.openlocfilehash: 45c0e3b569ca733ae3b70187633d2e84db5ecd87
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2578227"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771175"
 ---
 # <a name="improvements-in-tracing-the-results-of-generated-er-reports-and-comparing-them-with-baseline-values"></a>Mejoras en el seguimiento de los resultados de informes de ER generados y su comparación con valores de línea base
 
@@ -60,7 +60,7 @@ Para completar los pasos de este ejemplo, primero debe completar los pasos del e
 
 Se ha agregado la línea base para el formato seleccionado **Formato para aprender líneas base de ER**, pero las reglas de línea base aún no se han agregado para esta línea base.
 
-![Páginas de líneas base del formato de informes electrónicos](media/GER-BaselineSample-AddBaseline2.PNG "Captura de pantalla de la página de líneas base del formato de informes electrónicos")
+![Página de líneas base del formato de los informes electrónicos](media/GER-BaselineSample-AddBaseline2.PNG "Captura de pantalla de la página de líneas base del formato de los informes electrónicos")
 
 ### <a name="make-a-new-baseline-rule"></a>Crear una nueva regla de línea base
 
@@ -73,7 +73,7 @@ Se ha agregado la línea base para el formato seleccionado **Formato para aprend
 7. Seleccione **Aceptar**.
 8. Seleccione **Líneas base**.
 
-    ![Páginas de líneas base del formato de informes electrónicos](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Captura de pantalla de la página de líneas base del formato de informes electrónicos")
+    ![Página de líneas base del formato de los informes electrónicos](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Captura de pantalla de la página de líneas base del formato de los informes electrónicos")
 
     El archivo de salida generado se ha adjuntado automáticamente a la línea base del formato de ER ejecutado. La regla de línea base se ha agregado automáticamente a esta línea base y también contiene la referencia al archivo adjunto.
 
@@ -113,14 +113,14 @@ Para completar los pasos de este ejemplo, primero debe completar los pasos del e
 13. Seleccione **Guardar** y, a continuación, seleccione **Prueba**.
 14. Seleccione **Prueba** de nuevo para volver a probar la expresión configurada.
 
-    ![Página del diseñador de fórmula](media/GER-BaselineSample-DefineProcessingDTExpression.PNG "Captura de pantalla de la página del diseñador de fórmula")
+    ![Página del diseñador de fórmulas](media/GER-BaselineSample-DefineProcessingDTExpression.PNG "Captura de pantalla de la página del diseñador de fórmulas")
 
     > [!NOTE]
     > La pestaña **Resultado de prueba** muestra que la expresión configurada devuelve un valor de fecha y hora diferente cada vez que se invoca.
 
 15. Cierre la página **Diseñador de fórmula** y seleccione **Guardar**.
 
-    ![Página del diseñador de formato](media/GER-BaselineSample-FormatMappingDesign2.PNG "Captura de pantalla de la página del diseñador de formato")
+    ![Página de diseñador de formato](media/GER-BaselineSample-FormatMappingDesign2.PNG "Captura de pantalla de la página del diseñador de formatos")
 
 16. Cierre la página **Diseñador de formato**.
 
@@ -131,7 +131,7 @@ Para completar los pasos de este ejemplo, primero debe completar los pasos del e
 3. En la lista de líneas base, seleccione la línea base configurada para el formato **Formato para aprender líneas base de ER**.
 4. En la ficha desplegable **Líneas base**, seleccione **Eliminar** para eliminar la regla de línea base que configuró anteriormente.
 
-![Páginas de líneas base del formato de informes electrónicos](media/GER-BaselineSample-AddBaseline3.PNG "Captura de pantalla de la página de líneas base del formato de informes electrónicos")
+![Página de líneas base del formato de los informes electrónicos](media/GER-BaselineSample-AddBaseline3.PNG "Captura de pantalla de la página de líneas base del formato de los informes electrónicos")
 
 ### <a name="define-replacements-for-bindings-of-designed-er-format"></a>Definir sustituciones para los enlaces de formato de ER diseñado
 
@@ -139,7 +139,7 @@ Para completar los pasos de este ejemplo, primero debe completar los pasos del e
 2. En el árbol de componentes del formato, expanda **Salida**, expanda **Salida\\Documento** y active la casilla para **Salida\\Documento\\ProcessingDateTime**.
 3. Seleccione **Aceptar**.
 
-![Páginas de líneas base del formato de informes electrónicos](media/GER-BaselineSample-AddBaseline4.PNG "Captura de pantalla de la página de líneas base del formato de informes electrónicos")
+![Página de líneas base del formato de los informes electrónicos](media/GER-BaselineSample-AddBaseline4.PNG "Captura de pantalla de la página de líneas base del formato de los informes electrónicos")
 
 Se ha agregado el componente del formato de ER seleccioando a la lista de componentes en la ficha desplegable **Sustituciones**. Cuando el formato de ER de la base se ejecuta en modo de depuración, el enlace del formato para cada componente se sustituirá por el enlace que se muestra en la columna **Enlace** . Para cambiar el enlace predeterminado para un componente que se muestra en la ficha desplegable **Sustituciones**, seleccione **Editar**.
 
@@ -147,7 +147,7 @@ Se ha agregado el componente del formato de ER seleccioando a la lista de compon
 
 Siga los pasos de la sección "Ejemplo: Automatizar la configuración de reglas de línea base" descrita anteriormente en este tema. Una notificación le advierte que el archivo de salida se ha generado mediante el uso de la configuración de línea base, y que se ha producido una sustitución forzada de los enlaces de formato.
 
-![Notificación en la página Configuraciones](media/GER-BaselineSample-FormatRunToMakeBaselineFile4.PNG "Captura de pantalla de la notificación en la página Configuraciones")
+![Notificación en la página de configuración](media/GER-BaselineSample-FormatRunToMakeBaselineFile4.PNG "Captura de pantalla de la notificación en la página Configuraciones")
 
 ### <a name="suppress-warnings-about-the-replacement-of-format-bindings"></a>Suprimir avisos sobre la sustitución de enlaces de formato
 
@@ -195,11 +195,11 @@ La configuración de línea base exportada se puede importar en un entorno difer
 
 Para importar la configuración de línea base desde un archivo XML almacenado localmente, en la página **Líneas base del formato de informes electrónicos**, seleccione **Importar** y seleccione **Examinar** para seleccionar el archivo XML.
 
-![Cuadro de diálogo Importar configuración de línea base](media/GER-BaselineSample-ImportBaseline1.PNG "Captura de pantalla del cuadro de diálogo Importar configuración de línea base")
+![Importar el cuadro de diálogo de la configuración de la línea base](media/GER-BaselineSample-ImportBaseline1.PNG "Captura de pantalla del cuadro de diálogo Importar configuración de líneas de base")
 
 Para importar la configuración de línea base de un archivo XML almacenado en Microsoft SharePoint Server, según la configuración actual Administración de documentos y el tipo de documento seleccionado, en la página **Líneas base del formato de informes electrónicos**, seleccione **Importar desde origen**. A continuación, seleccione el tipo de documento y el archivo XML. El tipo de documento requerido para acceder a la carpeta de SharePoint deben configurarse con antelación.
 
-![Cuadro de diálogo Importar desde origen](media/GER-BaselineSample-ImportBaseline2.PNG "Captura de pantalla del cuadro de diálogo Importar desde origen")
+![Importación del cuadro de diálogo de origen](media/GER-BaselineSample-ImportBaseline2.PNG "Captura de pantalla del cuadro de diálogo Importar del origen")
 
 > [!NOTE]
 > Puede utilizar el Grabador de tareas para registrar los pasos a fin de seleccionar el tipo de documentos requerido y el nombre de archivo en el cuadro de diálogo **Importar desde origen**. De esta manera, puede conservar la configuración de línea base requerida en SharePoint Server e importarla automáticamente mediante la reproducción de una grabación de tareas cuando ejecute pruebas automatizadas usando la Regression Suite Automation Tool.
@@ -207,4 +207,4 @@ Para importar la configuración de línea base de un archivo XML almacenado en M
 ## <a name="additional-resources"></a>Recursos adicionales
 
 - [Realizar un seguimiento de los resultados de informe generados y compararlos con valores de línea base](er-trace-reports-compare-baseline.md)
-- [Grabador de tareas](../user-interface/task-recorder.md)
+- [Recursos del Grabador de tareas](../user-interface/task-recorder.md)

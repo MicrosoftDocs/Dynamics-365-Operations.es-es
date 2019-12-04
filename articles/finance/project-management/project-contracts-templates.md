@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 76c62f3a503ff2a8c93143390fc91ef81fbf7d0f
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: b44fc116f1dcaa1275b2262487ef9114bce639c6
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250470"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773863"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronizar los contratos de proyectos y los proyectos directamente desde Project Service Automation a Finance and Operations
 
@@ -42,11 +42,11 @@ La solución de integración de Project Service Automation a Finance usa la cara
 
 La ilustración siguiente muestra cómo se sincronizan los datos entre Project Service Automation y Finance.
 
-[![Flujo de datos para la integración de Project Service Automation con Finance](./media/ProjectsAndContractsFlow.JPG)](./media/ProjectsAndContractsFlow.JPG)
+[![Flujo de datos para la integración de Project Service Automation con Finance](./media/ProjectsAndContractsFlow_upd.JPG)](./media/ProjectsAndContractsFlow.JPG)
 
 ## <a name="templates-and-tasks"></a>Plantillas y tareas
 
-Para obtener acceso a las plantillas disponibles, en el centro de administración de Microsoft PowerApps, seleccione **Proyectos** y, a continuación, en la esquina superior derecha, seleccione **Nuevo proyecto** para seleccionar plantillas públicas.
+Para obtener acceso a las plantillas disponibles, en el centro de administración de Microsoft Power Apps, seleccione **Proyectos** y, a continuación, en la esquina superior derecha, seleccione **Nuevo proyecto** para seleccionar plantillas públicas.
 
 Las plantillas y las tareas subyacentes siguientes se usan para sincronizar los contratos de proyectos y los proyectos desde Project Service Automation a Finance:
 

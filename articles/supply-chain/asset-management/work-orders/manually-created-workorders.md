@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8a8494bdefcf11dc331be18bfe02e0df1e39d602
-ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
+ms.openlocfilehash: 2652458a5fea9e46b8b68d3b197d2ccb1385731d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2626256"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811762"
 ---
 # <a name="manually-created-work-orders"></a>Órdenes de trabajo creadas manualmente
 
@@ -70,7 +70,7 @@ Tenga en cuenta los aspectos siguientes:
 
 - En la vista de detalles de la página de lista **Todas las órdenes de trabajo**, puede agregar varios activos a una orden de trabajo agregando líneas en la ficha desplegable **Trabajos de mantenimiento de órdenes de trabajo**. En el activo, solo puede seleccionar los tipos de trabajo de mantenimiento que se definen en el tipo de activo seleccionando para el activo.  
 
-- Si modifica el nivel de servicio de activos o una importancia de activo después de utilizar el activo en una orden de trabajo, el nivel de servicio o la importancia de la orden de trabajo no se actualiza como corresponde. Para obtener más información sobre los niveles de servicio y las importancias, consulte [Niveles del servicio de activos](../setup-for-objects/object-priorities.md) e [Importancia de activos](../setup-for-objects/object-criticalities.md).
+- Si modifica el nivel de servicio de activos o una importancia de activo después de utilizar el activo en una orden de trabajo, el nivel de servicio o la importancia de la orden de trabajo no se actualiza como corresponde. Para obtener más información sobre los niveles de servicio y las importancias, consulte [Niveles del servicio de activos](../setup-for-objects/object-priorities.md) e [Tipos de importancia de activos](../setup-for-objects/object-criticalities.md).
 
 - La importancia de una orden de trabajo se actualiza cada vez que se agrega o se elimina un trabajo de una orden de trabajo.
 

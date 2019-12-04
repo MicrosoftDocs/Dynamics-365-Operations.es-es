@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b0f7dffd85dc1c7a58a3e1f55eaa26ecbf6e8360
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d371d35352348b1cfe1dd2a5ba25e1b2b20d7d71
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185184"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769910"
 ---
 # <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Contenido de Power BI sobre configurar la seguridad para el análisis de la contabilidad de costes
 
@@ -57,7 +57,7 @@ Los usuarios que se agregan al rol de **Controlador de objeto de coste** solo ve
 > La seguridad de nivel de fila se aplica a los mosaicos e informes que se insertan desde Power BI.
 
 ## <a name="updating-security"></a>Actualizar la seguridad
-Si se crean actualizaciones para la seguridad de nivel de acceso en contabilidad de costes y desea que Power BI refleje dichas actualizaciones, debe actualizar el almacén de entidades para el contenido de Power BI sobre el **análisis de la contabilidad de costes**. Una vez que complete la actualización del almacén de entidades, deberá actualizar artefactos en PowerBI.com. Para obtener más información sobre cómo realizar una actualización del almacén de entidades, consulte [Actualizar almacén de entidades](power-bi-integration-entity-store.md#update-entity-store). El propietario del contenido de Power BI sobre el **análisis de la contabilidad de costes** también debe realizar una actualización del almacén de entidades si se concede acceso a nuevos usuarios a la jerarquía organizativa. Asimismo, el propietario debe agregar a los nuevos usuarios al rol **Controlador de objeto de coste** en PowerBI.com, de manera que se aplique la seguridad de nivel de fila para ellos.
+Si se crean actualizaciones para la seguridad de nivel de acceso en contabilidad de costes y desea que Power BI refleje dichas actualizaciones, debe actualizar el almacén de entidades para el contenido de Power BI sobre el **análisis de la contabilidad de costes**. Una vez que complete la actualización del almacén de entidades, deberá actualizar artefactos en PowerBI.com. Para obtener más información sobre cómo realizar una actualización del almacén de entidades, consulte [Integración de Power BI con el almacén de entidades](power-bi-integration-entity-store.md#update-entity-store). El propietario del contenido de Power BI sobre el **análisis de la contabilidad de costes** también debe realizar una actualización del almacén de entidades si se concede acceso a nuevos usuarios a la jerarquía organizativa. Asimismo, el propietario debe agregar a los nuevos usuarios al rol **Controlador de objeto de coste** en PowerBI.com, de manera que se aplique la seguridad de nivel de fila para ellos.
 
 ## <a name="disabling-security"></a>Deshabilitar la seguridad
 Asumimos que su organización desea restringir el acceso a los datos. Si, por algún motivo, se deshabilitarán los parámetros de seguridad al ejecutar la contabilidad de costes, el propietario debe agregar usuarios al rol **Contable de costes** en Power BI en su lugar. Si cambia la seguridad de un estado habilitado a un estado deshabilitado, es recomendable quitar usuarios del rol **Controlador de objeto de coste**. Y viceversa si vuelve a habilitar la seguridad. Los usuarios pueden pertenecer a ambos roles. El acceso común es la unión de ambos roles. En el caso del contenido de Power BI sobre el **análisis de la contabilidad de costes**, los usuarios con acceso común tiene acceso sin restricción a los datos. Si su objetivo es aplicar un acceso restringido, los usuarios deben asignarse solo al rol **Controlador de objeto de coste**. Estas actualizaciones de seguridad de nivel de fila tienen efecto de inmediato. Los usuarios afectados deben actualizar sus exploradores.

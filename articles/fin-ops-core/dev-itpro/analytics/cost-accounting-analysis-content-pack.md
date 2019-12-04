@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 21ff82df71e352ca176aa1635a5ffb478bbcaf0e
-ms.sourcegitcommit: 7bec89b33a56447072d01066af4da473b8092ca8
+ms.openlocfilehash: 0fc9877fdca2d2f85f4f9609616d8d21ab7b5174
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2536833"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771596"
 ---
 # <a name="cost-accounting-analysis-power-bi-content"></a>Contenido de análisis de costes de contabilidad de Power BI
 
@@ -40,7 +40,7 @@ El contenido de **Análisis de la contabilidad de costes** permite a los contabl
 
 Para obtener más información acerca de la contabilidad de costes, consulte [la página principal de la contabilidad de costes](../../../finance/cost-accounting/cost-accounting-home-page.md).
 
-Si define la seguridad de nivel de acceso en contabilidad de costes y la combina con seguridad de nivel fila en Power BI, puede conceder a todos los propietarios de objetos de coste acceso al contenido de **Análisis de la contabilidad de costes** en Power BI. Después todos los datos de las vistas se filtrarán en función del nivel de acceso que se controla en contabilidad de costes. Para obtener más información acerca de la seguridad de nivel de acceso y seguridad de nivel fila, consulte la [configuración de seguridad del contenido de la contabilidad de costes de Power BI](setup-security-cost-accounting-content-pack.md).
+Si define la seguridad de nivel de acceso en contabilidad de costes y la combina con seguridad de nivel fila en Power BI, puede conceder a todos los propietarios de objetos de coste acceso al contenido de **Análisis de la contabilidad de costes** en Power BI. Después todos los datos de las vistas se filtrarán en función del nivel de acceso que se controla en contabilidad de costes. Para obtener más información acerca de la seguridad de nivel de acceso y seguridad de nivel fila, consulte [Configurar la seguridad del contenido del análisis de contabilidad de costes de Power BI](setup-security-cost-accounting-content-pack.md).
 
 ## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI
 El contenido de **Análisis de la contabilidad de costes** de Power BI se encuentra en la biblioteca de activos compartidos en Microsoft Dynamics Lifecycle Services (LCS). Para obtener información sobre cómo descargar contenido e implementarlo en su organización, consulte Contenido de [Power BI en LCS en Microsoft y sus socios](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
@@ -74,7 +74,7 @@ El contenido incluye un conjunto de páginas de informe. Cada página consta de 
 |                                  | Coste real por nombre de miembro de dimensión de objeto de coste y nombre de miembro de dimensión de artículo de coste                                       |                                               |
 
 ## <a name="understanding-the-data-model-and-entities"></a>Comprensión del modelo de datos y de las entidades
-Los datos siguientes se usan para rellenar las páginas de informes en el contenido de **Análisis de la contabilidad de costes** en Power BI. Estos datos se representan como medidas agregadas que se realizan en el almacén de la entidad. El almacén de la entidad es una base de datos de Microsoft SQL Server que se optimiza para el análisis. Para obtener más información, consulte [Visión general de la integración de Power BI con el almacén de entidades](power-bi-integration-entity-store.md).
+Los datos siguientes se usan para rellenar las páginas de informes en el contenido de **Análisis de la contabilidad de costes** en Power BI. Estos datos se representan como medidas agregadas que se realizan en el almacén de la entidad. El almacén de la entidad es una base de datos de Microsoft SQL Server que se optimiza para el análisis. Para obtener más información, consulte [Integración de Power BI con el almacén de entidades](power-bi-integration-entity-store.md).
 
 Las siguientes medidas agregadas clave se usan como la base del contenido.
 

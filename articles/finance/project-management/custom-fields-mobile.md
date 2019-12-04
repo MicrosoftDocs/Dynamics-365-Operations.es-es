@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 4343c875da05641c57b7784bf52f1c814dd26d20
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c0c578ca44919671b67daeea51a9ec7687f755c9
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175022"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773654"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Implementar campos personalizados para la aplicación móvil de Microsoft Dynamics 365 Project Timesheet en iOS y Android
 
@@ -321,13 +321,9 @@ Abajo aparece una captura de pantalla de la aplicación de un usuario viendo una
 
 ![Comando Ver más detalles](media/show-more.png)
 
-
-
 Abajo aparece una captura de pantalla de la aplicación mostrando la sección "Más" de una hoja de horas. Un campo personalizado denominado “Tasa de utilización de esta hoja de horas (campo personalizado calculado)” se ha agregado a la sección de encabezado de hoja de horas. Un valor de sólo lectura de “0,667 " se establece en el campo personalizado.
 
 ![Sección Más](media/more-section.jpg)
-
-
 
 ### <a name="extend-the-tstimesheettable-table-so-that-it-has-a-custom-field"></a>Extiende la tabla de TSTimesheetTable de modo que tiene un campo personalizado
 

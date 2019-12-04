@@ -1,5 +1,5 @@
 ---
-title: Conseguir candidatos a través de las reservas de talentos en Microsoft Dynamics 365 Talent - Attract
+title: Conseguir candidatos a través de reservas de talentos en Attract
 description: Este tema explica cómo crear y configurar grupos de talentos en Microsoft Dynamics 365 Talent - Attract.
 author: andreabichsel
 manager: AnnBe
@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 454ba987eef924d520af17e8b9ae694fe9b82ec2
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: ea10ccd5e4b1f1ffbb8f736e886240e223a4eeb3
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551127"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833032"
 ---
-# <a name="source-candidates-with-talent-pools-in-microsoft-dynamics-365-talent---attract"></a>Conseguir candidatos a través de las reservas de talentos en Microsoft Dynamics 365 Talent - Attract
+# <a name="source-candidates-with-talent-pools-in-attract"></a>Conseguir candidatos a través de reservas de talentos en Attract
 
-[!include[banner](../includes/banner.md)]
-
+[!include [banner](includes/banner.md)]
 
 Los reclutadores y los administradores de contratación pueden organizar a los candidatos mediante la funcionalidad de grupos de talentos en Attract. Las grupos de talentos pueden ayudarle a realizar el seguimiento de todos los candidatos y a involucrarlos para trabajos en su empresa.
 
@@ -116,7 +115,7 @@ Todos los usuarios tienen una vista común de los perfiles del candidato. La pes
 
     Para ver un documento, seleccione el nombre del documento en la lista de documentos. Puede ver los documentos Microsoft Word en la aplicación mediante Microsoft Office 365. También puede descargar los documentos en su equipo local mediante la opción **Descargar** para cada documento.
 
-- La pestaña **LinkedIn** muestra la información de LinkedIn del candidato. Para usar esta ficha, debe conectar su cuenta de LinkedIn en la configuración del usuario, y su conexión de LinkedIn Recruiter del entorno debe establecerse. Para obtener más información, consulte [Abastecimiento con LinkedIn Recruiter](./attract-linkedin-recruiter.md).
+- La pestaña **LinkedIn** muestra la información de LinkedIn del candidato. Para usar esta ficha, debe conectar su cuenta de LinkedIn en la configuración del usuario, y su conexión de LinkedIn Recruiter del entorno debe establecerse. Para obtener más información, consulte [Conseguir candidatos con LinkedIn Recruiter en Microsoft Dynamics 365 Talent - Attract](./attract-linkedin-recruiter.md).
 
 > [!NOTE]
 > Solo los candidatos pueden actualizar sus aptitudes, historial de aprendizaje y experiencia profesional.

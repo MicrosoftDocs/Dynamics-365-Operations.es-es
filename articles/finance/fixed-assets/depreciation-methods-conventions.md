@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f1320d0adaad783f856ed6404039e7954920340
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c3370db28f551b5ce4a9b49342cb0c0b2f3945c0
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187346"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769509"
 ---
 # <a name="depreciation-methods-and-conventions"></a>Convenciones y métodos de depreciación
 
@@ -67,11 +67,11 @@ Puede seleccionar entre los siguientes métodos de amortización.
 <a name="additional-resources"></a>Recursos adicionales
 --------
 
-[Depreciación de activos fijos](fixed-asset-depreciation.md)
+[Depreciación de activo fijo](fixed-asset-depreciation.md)
 
 [Tiempo de vida de depreciación lineal](Straight-line-service-life-depreciation.md)
 
-[Reducción de la depreciación del saldo](reduce-balance-depreciation.md)
+[Reducción de depreciación de saldo](reduce-balance-depreciation.md)
 
 [Depreciación manual](manual-depreciation.md)
 

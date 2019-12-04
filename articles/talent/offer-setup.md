@@ -1,5 +1,5 @@
 ---
-title: Configurar la gestión de ofertas
+title: Configurar oferta de administración en Attract
 description: Este tema describe cómo configurar ofertas en Microsoft Dynamics 365 Talent.
 author: andreabichsel
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 706766ba5133af03d00df99dba1c2a7b0405cd86
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 63f45f1493935f543cfd25a7d8ed7b54170800a0
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2010853"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832731"
 ---
-# <a name="set-up-offer-management"></a>Configurar la gestión de ofertas 
+# <a name="set-up-offer-management-in-attract"></a>Configurar oferta de administración en Attract
 
 [!include [banner](includes/banner.md)]
 
@@ -206,4 +206,4 @@ Existen varias partes del proceso de creación de la oferta que un administrador
     - ESign - ésta es la opción predeterminada, proporcionada lista para usar, donde el usuario puede firmar una oferta escribiendo su nombre e iniciales.
 
 
-Para obtener más información acerca del proceso de creación de la oferta, consulte [Crear, aprobar y firmar propuestas](./creating-offers.md).
+Para obtener más información acerca del proceso de creación de la oferta, consulte [Crear, aprobar y firmar ofertas](./creating-offers.md).

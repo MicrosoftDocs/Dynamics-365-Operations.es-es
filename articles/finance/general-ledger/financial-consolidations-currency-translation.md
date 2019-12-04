@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 7b6b3cced92920ef5a253ca15793f26f244475fa
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a67e5e3aea33e874f225a6af606fc8cde2bdc6bf
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186610"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771854"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Visión general de la conversión de consolidaciones financieras y divisa
 
@@ -69,13 +69,13 @@ Aquí hay alguna de las situaciones de consolidación que Consolidar en línea a
 ## <a name="legal-entity-setup"></a>Configuración de entidades legales
 Antes de procesar una consolidación, debe configurar la entidad jurídica. Puede ejecutar la consolidación tantas veces como sea necesario, y todos los datos se convertirán desde la divisa de contabilidad de la empresa de origen a la divisa que está definida para la empresa de consolidación. Por lo tanto, para la siguiente estructura organizativa, si debe convertir todas las empresas norteamericanas primero a dólares estadounidenses (USD) y luego a euros (EUR), la divisa de la empresa matriz, debe tener al menos dos empresas de consolidación.
 
-![Estructura organizativa](./media/organizational-structure.png "Estructura organizativa")
+![Estructura de la organización](./media/organizational-structure.png "Estructura de la organización")
 
 En la estructura organizativa anterior, debe tener una entidad jurídica para la consolidación norteamericana, ya que las consolidaciones se consolidan siempre desde la divisa de contabilidad de la empresa de origen hasta la divisa de la empresa de consolidación. En el ejemplo, si todas las empresas están incluidas en una sola consolidación, la filial mexicana se convertirá de Pesos mexicanos (MXN) a euros, y no del MXN a USD y a euros.
 
 Al crear la entidad jurídica, puede especificar si se usa la empresa para el proceso de consolidación y el proceso de eliminación, o sólo uno de estos procesos. En la siguiente ilustración, se usa la empresa para ambos procesos. Tenga en cuenta que no puede registrar los diarios en una empresa de consolidación, pero puede registrarlos en una empresa de eliminación. Por lo tanto, puede que desee tener una empresa de eliminación independiente.
 
-![Entidad jurídica que se usa para la consolidación y la eliminación](./media/sep-elimination-company.png "Entidad jurídica que se usa para la consolidación y la eliminación")
+![Entidad jurídica que se utiliza para la consolidación y la eliminación](./media/sep-elimination-company.png "Entidad jurídica que se utiliza para la consolidación y la eliminación")
 
 ## <a name="main-accounts-and-consolidation-account-groups"></a>Cuentas principales y grupos de cuentas de consolidación
 Una decisión que debe tomar es cómo desea consolidar su plan de cuentas. Durante el proceso de consolidación, tiene tres opciones para consolidar cuentas principales.
@@ -84,14 +84,14 @@ La primera opción es usar las cuentas principales de las empresas de origen. En
 
 La segunda opción es especificar una cuenta predeterminada de consolidación en la página **Cuentas principales**. La cuenta a continuación se asignará a la cuenta de consolidación. Esta opción puede ser útil si tiene varios planes contables o debe asignar a un gráfico definido por las sedes.
 
-![Cuenta de consolidación predeterminada especificada en la página de las cuentas principales](./media/main-accounts.png "Cuenta de consolidación predeterminada especificada en la página de las cuentas principales")
+![Cuenta de consolidación predeterminada que se especifica en la página Cuenta principal](./media/main-accounts.png "Cuenta de consolidación predeterminada que se especifica en la página Cuenta principal")
 
 La tercera opción es usar grupos de cuentas de consolidación. Puede definir tantos grupos de cuentas de consolidación como sea necesario. A continuación, en la página **Cuentas de consolidación adicional**, sólo se asigna la cuenta principal del plan de cuentas a la cuenta que se requiere para ese grupo.
 
-![Asignación en la página Cuentas de consolidación adicional](./media/additional-consolidation-accounts.png "Asignación en la página Cuentas de consolidación adicional")
+![Asignación en la página de Cuentas de consolidación adicionales](./media/additional-consolidation-accounts.png "Asignación en la página de Cuentas de consolidación adicionales")
 
 ## <a name="consolidating-online"></a>Consolidación en línea
-Para aprender a especificar detalles de consolidaciones en línea, consulte [Consolidar en línea](./consolidate-online.md).
+Para aprender a especificar detalles de consolidaciones en línea, consulte [Consolidaciones financieras en línea](./consolidate-online.md).
 
 ## <a name="managing-consolidation-transactions"></a>Gestión de transacciones de consolidaciones
 Para ver los resultados de la consolidación, tiene varias opciones:
@@ -128,7 +128,7 @@ Seleccione las cuentas de origen. Puede usar un asterisco (\*) como carácter co
 
 Una vez que haya seleccionado las cuentas de origen, use el campo **Especificación de la cuenta** para especificar la cuenta de la empresas de destino que se utiliza. Seleccione **Origen** si desea usar la misma cuenta principal que está definida en la cuenta de Origen. Si selecciona **Definido por el usuario**, deberá especificar una cuenta de destino.
 
-![Página de la línea de regla de eliminación contable](./media/ledger-elimination-rule-line.png "Página de la línea de regla de eliminación contable")
+![Página de línea de la regla de eliminación contable](./media/ledger-elimination-rule-line.png "Página de línea de la regla de eliminación contable")
 
 El campo **Especificación de la dimensión** funciona como el campo **Especificación de la cuenta**. Seleccione **Origen** para utilizar las mismas dimensiones en la empresa de destino y la empresa de origen. Si selecciona **Definido por el usuario**, tiene que especificar las dimensiones de la empresa de destino seleccionando **Dimensiones de destino**. A continuación, seleccione las dimensiones de origen y las dimensiones financieras y los valores que se usan como origen de la eliminación.
 

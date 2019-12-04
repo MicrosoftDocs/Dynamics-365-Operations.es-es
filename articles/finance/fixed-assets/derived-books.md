@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4a649fdbc355b3382bc6c80be03f8b37a06d5226
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5c31116ba234bd1fce445ac382fe8f8aea263a66
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179763"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769486"
 ---
 # <a name="derived-books"></a>Libros derivados
 
@@ -44,7 +44,7 @@ Una vez registrada la transacción, se genera una transacción de adquisición y
 > [!NOTE]                                                                                                                               
 > Los libros que se configuran para registrar transacciones en intervalos distintos a los intervalos del libro principal, se deben vincular al activo fijo como libros independientes y no como libros derivados.  
 
-Para obtener más información, consulte [Registro con los libros derivados](post-derived-value-models.md).
+Para obtener más información, consulte [Registrar con libros derivados](post-derived-value-models.md).
 
 
 

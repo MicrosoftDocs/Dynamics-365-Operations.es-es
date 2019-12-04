@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 6e83a2607f4840139143fb473ef7d6daf4b8b7ad
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 65f21d71c22d295902b968e6c18134e1577e01f2
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180677"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812566"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Requisitos de dimensionamiento de hardware para entornos locales
 
 [!include [banner](../includes/banner.md)]
 
-Antes de comenzar el proceso de dimensionamiento de hardware e infraestructura para un entorno local, familiarícese con los [Requisitos del sistema](system-requirements.md) y las [Instrucciones de configuración e implementación](../../dev-itpro/deployment/setup-deploy-on-premises-environments.md) para obtener una comprensión sólida de la infraestructura subyacente.
+Antes de comenzar el proceso de dimensionamiento de hardware e infraestructura para un entorno local, familiarícese con los [Requisitos del sistema para implementaciones en la nube](system-requirements.md) y las [Instrucciones de configuración e implementación](../../dev-itpro/deployment/setup-deploy-on-premises-environments.md) para obtener una comprensión sólida de la infraestructura subyacente.
 
 > [!NOTE]
 > Preste mucha atención a las prácticas recomendadas de configuración del sistema para un rendimiento óptimo.

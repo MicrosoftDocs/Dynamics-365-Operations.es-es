@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 3b885610ac9ca8645358ba8ab6d46ab82143a534
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: ebf0fce60ad006e798aa4f404fbffcf10a0b31f9
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250493"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770298"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronizar las estimaciones de proyectos directamente desde Project Service Automation a Finance and Operations
 
@@ -46,7 +46,7 @@ La ilustración siguiente muestra cómo se sincronizan los datos entre Project S
 
 ### <a name="template-and-tasks"></a>Plantilla y tareas
 
-Para obtener acceso a las plantillas disponibles, en el centro de administración de Microsoft PowerApps, seleccione **Proyectos** y, a continuación, en la esquina superior derecha, seleccione **Nuevo proyecto** para seleccionar plantillas públicas.
+Para obtener acceso a las plantillas disponibles, en el centro de administración de Microsoft Power Apps, seleccione **Proyectos** y, a continuación, en la esquina superior derecha, seleccione **Nuevo proyecto** para seleccionar plantillas públicas.
 
 La plantilla y las tareas subyacentes siguientes se usan para sincronizar las estimaciones de horas de proyectos desde Project Service Automation hasta Finance:
 

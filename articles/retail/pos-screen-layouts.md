@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 4852ec9b347f119a1007b63476b8609a3e38ba57
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: c4636f5a023786e3871eb5d907e2e9546181827a
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025290"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811789"
 ---
 # <a name="screen-layouts-for-the-point-of-sale-pos"></a>Diseños de pantalla para el punto de venta (POS)
 
@@ -171,7 +171,7 @@ El diseñador de cuadrícula de botones le permite configurar botones de cuadrí
 
     - **Acción** – En la lista de operaciones de PDV aplicables, seleccione la operación que se invoca cuando se hace clic en el botón en el PDV.
 
-        Para la lista de operaciones de PDV admitidas, consulte [Operaciones de PDV, en línea y sin conexión](pos-operations.md).
+        Para la lista de operaciones de PDV admitidas, consulte [Operaciones del punto de ventas (PDV) en línea y sin conexión](pos-operations.md).
 
     - **Parámetros de acción** – Algunas operaciones de PDV utilizan parámetros adicionales cuando se invocan. Por ejemplo, para la operación Agregar producto, los usuarios pueden especificar el producto que desea agregar.
     - **Texto del botón** – Especifique el texto que aparece en el botón del PDV.
@@ -193,4 +193,4 @@ El diseñador de cuadrícula de botones le permite configurar botones de cuadrí
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Instalar el diseñador de Retail POS](install-pos-layout-designer.md)
+[Instalar el diseñador de punto de venta (TPV) de Retail](install-pos-layout-designer.md)

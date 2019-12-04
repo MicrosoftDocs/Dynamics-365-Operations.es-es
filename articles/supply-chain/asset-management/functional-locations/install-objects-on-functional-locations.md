@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c585bce468f87a32204893ea20ce6954e92b0e38
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 8619c6cde484c41ec01e96eb4626366f1955b5d4
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571815"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811835"
 ---
 # <a name="install-assets-on-functional-locations"></a>Instalar activos en ubicaciones funcionales
 
@@ -31,7 +31,7 @@ ms.locfileid: "2571815"
 
  
 
-Una vez creadas las estructuras de ubicaciones funcionales, el paso siguiente es instalar activos en las ubicaciones funcionales relevantes. En este tema se explica cómo instalar activos en esas ubicaciones funcionales en Administración de activos. Para obtener información sobre cómo crear activos, consulte [Activos](../objects/introduction-to-objects.md).
+Una vez creadas las estructuras de ubicaciones funcionales, el paso siguiente es instalar activos en las ubicaciones funcionales relevantes. En este tema se explica cómo instalar activos en esas ubicaciones funcionales en Administración de activos. Para obtener información sobre cómo crear activos, consulte [Introducción a los activos](../objects/introduction-to-objects.md).
 
 Si ha creado una estructura de activos, la estructura de activos completa debe estar instalada en una ubicación funcional. Por lo tanto, sólo los activos principales (activos de nivel superior que no tienen ningún activo principal) se pueden seleccionar en una ubicación funcional. Todos los activos secundarios relacionados (subactivos) también se instalarán en la ubicación funcional. Al instalar activos en una ubicación funcional, las dimensiones financieras de la ubicación funcional se pueden transferir automáticamente a ellos, en función de la configuración del tipo de ubicación funcional seleccionada para la ubicación funcional. Para obtener más información sobre cómo configurar tipos de ubicaciones técnicas, consulte [Tipos de ubicación técnicas](../setup-for-functional-locations/functional-location-types.md).
 

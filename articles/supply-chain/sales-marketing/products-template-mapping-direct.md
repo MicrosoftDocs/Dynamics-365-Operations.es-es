@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 38f0db7db0cc4f65d46cd241f75a7274f19f62cf
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 1a96fda4e7f7b6407c51ee4056088d05027462cf
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251394"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813256"
 ---
 # <a name="synchronize-products-directly-from-supply-chain-management-to-products-in-sales"></a>Sincronizar productos directamente de Supply Chain Management con productos de Sales
 
@@ -43,7 +43,7 @@ La solución Prospect to cash usa la característica de integración de datos pa
 
 ## <a name="templates-and-tasks"></a>Plantillas y tareas
 
-Para obtener acceso a las plantillas disponibles, abra [Centro de administración de PowerApps](https://admin.powerapps.com/dataintegration). Seleccione **Proyectos**y, a continuación, en la esquina superior derecha, seleccione **Nuevo proyecto** para seleccionar plantillas públicas.
+Para obtener acceso a las plantillas disponibles, abra [Centro de administración de Power Apps](https://admin.powerapps.com/dataintegration). Seleccione **Proyectos**y, a continuación, en la esquina superior derecha, seleccione **Nuevo proyecto** para seleccionar plantillas públicas.
 
 La plantilla y las tareas subyacente siguientes se usan para sincronizar productos de Sales en Supply Chain Management a Sales.
 
@@ -116,7 +116,7 @@ La siguiente ilustración muestra un ejemplo de una asignación de plantilla en 
 
 [Sincronizar contactos directamente desde Sales con contactos o clientes de Supply Chain Management](contacts-template-mapping-direct.md)
 
-[Sincronizar encabezados y líneas de pedidos de ventas directamente desde Supply Chain Management a Sales](sales-order-template-mapping-direct-two-ways.md)
+[Sincronización de pedidos de ventas entre Sales y Supply Chain Management](sales-order-template-mapping-direct-two-ways.md)
 
 [Sincronizar encabezados y líneas de factura de ventas directamente desde Supply Chain Management a Sales](sales-invoice-template-mapping-direct.md)
 

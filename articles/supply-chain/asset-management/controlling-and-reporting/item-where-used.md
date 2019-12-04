@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 511108e689c10e27a42253d95b02e5394f9eb713
-ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
+ms.openlocfilehash: 476b01a4bae34a271203f34481ff18042783d4df
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2652365"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811272"
 ---
 # <a name="item-where-used"></a>Dónde se usó el artículo
 
@@ -33,15 +33,15 @@ ms.locfileid: "2652365"
 
 Puede realizar un cálculo para que un artículo específico para obtener una visión general de dónde se ha utilizado el artículo en Administración de activos. Los resultados muestran el contexto en el que el artículo se ha utilizado durante su ciclo de vida. La página **Dónde se usó el artículo** se puede abrir desde el menú principal de Administración de activos y también puede tener acceso a la misma desde las siguientes páginas:
 
-- [L. MAT. de activos](../objects/object-BOM.md)
+- [L. MAT de activos](../objects/object-BOM.md)
 
-- [Recambios en los valores predeterminados de tipos de activo](../setup-for-objects/object-types.md)
+- [Recambios en los valores predeterminados de tipos de activo](../setup-for-objects/object-types.md#spare-parts-on-the-asset-type-setup)
 
-- [Previsión de artículos en la previsión de valores predeterminados de tipos de trabajo de mantenimiento](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md)
+- [Categorías del tipo de trabajo de mantenimiento y tipos de trabajo de mantenimiento, variantes del tipo de trabajo de mantenimiento, comercios de trabajo de mantenimiento y listas de comprobación de mantenimiento](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md)
 
-- [Previsión de mantenimiento de orden de trabajo](../work-orders/maintenance-forecasts.md)
+- [Previsión de mantenimiento](../work-orders/maintenance-forecasts.md)
 
-- [Solicitud de compra de orden de trabajo](../work-orders/procurement.md)
+- [Adquisición](../work-orders/procurement.md)
 
 - [Compra de orden de trabajo](../work-orders/procurement.md)
 

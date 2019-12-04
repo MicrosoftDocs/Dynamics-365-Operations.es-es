@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d51b9a7684e460d555632c3896e9dd8a4e10d92c
-ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
+ms.openlocfilehash: 005b04bd4c3476356f30ba8e97564f83307a64c7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2626187"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811763"
 ---
 # <a name="automatic-update-of-asset-counters"></a>Actualización automática de los contadores de activos
 
@@ -43,16 +43,16 @@ Como se mencionó anteriormente, los contadores automáticos se pueden actualiza
 
 2. En el campo **Desde fecha**, seleccione la fecha de inicio de la actualización automática.
 
->[!NOTE]
->La fecha de este campo es la fecha de "trabajo en curso" **Transacciones de ruta** (campo **Control de producción** > **Consultas e informes** > **Producción** > **Transacciones e rutas** > **Fecha física**).
+    >[!NOTE]
+    >La fecha de este campo es la fecha de "trabajo en curso" **Transacciones de ruta** (campo **Control de producción** > **Consultas e informes** > **Producción** > **Transacciones e rutas** > **Fecha física**).
 
 3. En la ficha desplegable **Registros que incluir**, puede seleccionar activos específicos, tipos de activos o recursos para la actualización automática. Seleccione **Filtrar** y haga las selecciones relevantes.
 
 4. En la pestaña desplegable **Ejecutar en segundo plano**, puede configurar la actualización automática como un trabajo por lotes según sea necesario.
 
-La ilustración siguiente muestra un ejemplo del cuadro de diálogo **Actualizar contadores de activos**.
+    La ilustración siguiente muestra un ejemplo del cuadro de diálogo **Actualizar contadores de activos**.
 
-![Figura 1](media/12-work-orders.png)
+    ![Figura 1](media/12-work-orders.png)
 
 5. Seleccione **Aceptar**. 
 

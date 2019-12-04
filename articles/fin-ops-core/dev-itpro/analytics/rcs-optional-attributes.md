@@ -16,18 +16,18 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: eb5d721784f45097ab466f75d43256495aac36ca
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5e2989906c5aa3ead9e46b8ed5333e880e5cf1c6
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182839"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769956"
 ---
 # <a name="import-files-in-xml-format-with-optional-attributes"></a>Importar archivos en formato XML con atributos opcionales
 
 Puede diseñar formatos de informes electrónicos (ER) para analizar documentos electrónicos entrantes en formato XML. Algunos atributos de elementos XML se pueden especificar en formato de ER diseñados como opcionales. Le permitirá gestionar correctamente archivos entrantes con y sin estos atributos XML. Puede usar el contenido de estos archivos para actualizar datos de la aplicación.
 
-Para obtener más información acerca de esta característica, complete los pasos del tema [RCS Importar archivos en formato XML con atributos opcionales](tasks/import-files-xml-format-optional-attributes.md), que forma parte del proceso empresarial 7.5.4.3 Adquirir/Desarrollar componentes de soluciones/servicios de TI (10677). Puede descargar esta guía de tareas y los archivos de ejemplo asociados desde el [Centro de descarga de Microsoft](https://go.microsoft.com/fwlink/?linkid=874684).
+Para obtener más información acerca de esta característica, complete los pasos del tema [(RCS) Importar archivos en formato XML con atributos opcionales](tasks/import-files-xml-format-optional-attributes.md), que forma parte del proceso empresarial 7.5.4.3 Adquirir/Desarrollar componentes de soluciones/servicios de TI (10677). Puede descargar esta guía de tareas y los archivos de ejemplo asociados desde el [Centro de descarga de Microsoft](https://go.microsoft.com/fwlink/?linkid=874684).
 
 
 | Descripción del contenido       | Archivo                                                         |
@@ -36,10 +36,10 @@ Para obtener más información acerca de esta característica, complete los paso
 | Guía de tareas                | RCS Importar archivos en formato XML con atributos opcionales.axtr |
 
 
-En los pasos siguientes se explica cómo un usuario con rol de administrador del sistema o de desarrollador de informes electrónicos puede diseñar una configuración de formato de ER para importar archivos en formato XML que contengan atributos opcionales. Para completar estos pasos, primero debe completar los pasos del procedimiento [Creación de un proveedor de configuraciones y marcarlo como activo](tasks/er-configuration-provider-mark-it-active-2016-11.md). Antes de empezar, descargue y guarde localmente el archivo IncomingDocumentToLearnHowToHandleOptionalAttributes.xml del Centro de descarga de Microsoft (https://go.microsoft.com/fwlink/?linkid=874684).
+En los pasos siguientes se explica cómo un usuario con rol de administrador del sistema o de desarrollador de informes electrónicos puede diseñar una configuración de formato de ER para importar archivos en formato XML que contengan atributos opcionales. Para completar estos pasos, primero debe completar los pasos del procedimiento [Crear proveedores de configuración y marcarlos como activos](tasks/er-configuration-provider-mark-it-active-2016-11.md). Antes de empezar, descargue y guarde localmente el archivo IncomingDocumentToLearnHowToHandleOptionalAttributes.xml del Centro de descarga de Microsoft (https://go.microsoft.com/fwlink/?linkid=874684).
 
 1. Vaya a **Administración de la organización** > **Espacios de trabajo** > **Informes electrónicos**.
-2. Asegúrese de que el proveedor de configuración de la empresa de ejemplo “Litware, Inc.” está disponible y marcado como **Activo**. Si no ve a este proveedor de configuración, complete los pasos en el tema [Creación de un proveedor de configuración y marcarlo como activo](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. Asegúrese de que el proveedor de configuración de la empresa de ejemplo “Litware, Inc.” está disponible y marcado como **Activo**. Si no ve a este proveedor de configuración, complete los pasos del tema [Crear proveedores de configuración y marcarlos como activos](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 3. Haga clic en **Configuraciones de informes**.
 
 ## <a name="create-a-new-data-model-configuration"></a>Creación de un nuevo modelo de configuración de datos

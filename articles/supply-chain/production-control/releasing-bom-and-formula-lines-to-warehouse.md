@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c40877bc6557a81adc5c1b8d10afbbd26322b200
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 3677db634366ecfe6a26f2f5e01532ce5a087593
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249947"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815258"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Liberar las líneas de LM y fórmula al almacén
 
@@ -31,7 +31,7 @@ ms.locfileid: "2249947"
 En este tema se describe el proceso para liberar la materia prima para las líneas de lista de materiales (LM) y las líneas de fórmula al almacén. Cuando libera una LM o una línea de fórmula al almacén, primero el sistema determina si los materiales están disponibles ya en la ubicación de entrada de producción de la planta donde el material será consumido para el proceso de producción.
 
 - Si el material está disponible en la ubicación de entrada de producción, se selecciona desde dicha ubicación inmediatamente después de que se de la señal para la liberación del material al almacén.
-- Si el material no está disponible en la ubicación de entrada de producción, la liberación de material indica que el material se debe mover de ubicación en el almacén a la ubicación de entrada de producción. El material se mueve a través del trabajo del almacén para selección de la materia prima. Por lo tanto, los procesos del almacén para selección de la materia prima deben estar configurados. Para obtener más información, vea [Reabastecimiento](../warehousing/replenishment.md) y [Controlar el trabajo de almacén con plantillas de trabajo y directivas de ubicación](../warehousing/control-warehouse-location-directives.md).
+- Si el material no está disponible en la ubicación de entrada de producción, la liberación de material indica que el material se debe mover de ubicación en el almacén a la ubicación de entrada de producción. El material se mueve a través del trabajo del almacén para selección de la materia prima. Por lo tanto, los procesos del almacén para selección de la materia prima deben estar configurados. Para obtener más información, vea [Visión general sobre el reabastecimiento](../warehousing/replenishment.md) y [Controlar el trabajo de almacén con plantillas de trabajo y directivas de ubicación](../warehousing/control-warehouse-location-directives.md).
 
 ## <a name="methods-for-releasing-bom-and-formula-lines"></a>Métodos para liberar LM y las líneas de fórmula
 

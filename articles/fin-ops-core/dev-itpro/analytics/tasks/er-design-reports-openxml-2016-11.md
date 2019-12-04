@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d1229c89f43f9ded955dadf2f4d87825c9ab4e71
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: fcceb0e4d5f3bec54598515da0a5cbd8d11def3d
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182586"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769864"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER Diseña una configuración para generar informes en formato OPENXML (noviembre de 2016)
 
@@ -36,7 +36,7 @@ Para completar estos pasos, primero debe completar los pasos del procedimiento C
 
 ## <a name="upload-the-payments-data-model-configuration"></a>Cargar la configuración del modelo de datos de pagos
 1. En el Panel de exploración, vaya a **Módulos > Administración de la organización > Espacios de trabajo > Informes electrónicos**.
-2. En la lista, marque el proveedor de la configuración de la empresa de ejemplo, Litware, Inc. Si no ve a este proveedor de configuración, primero debe completar los pasos del procedimiento [Creación y activación de un proveedor de configuraciones](er-configuration-provider-mark-it-active-2016-11.md).
+2. En la lista, marque el proveedor de la configuración de la empresa de ejemplo, Litware, Inc. Si no ve a este proveedor de configuración, primero debe completar los pasos del procedimiento [Crear y activar proveedores de configuraciones](er-configuration-provider-mark-it-active-2016-11.md).
 3. Seleccione **Definir como activo**.
 4. Seleccione **Repositorios**. Seleccione un repositorio para el tipo de recursos de operaciones, si está disponible. Si está disponible, omita los siguientes pasos acerca de la creación de un nuevo repositorio.  
 5. Seleccione **Agregar** para abrir el cuadro desplegable.

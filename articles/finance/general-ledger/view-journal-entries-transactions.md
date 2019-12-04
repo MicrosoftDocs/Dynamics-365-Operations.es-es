@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 07774e607abc90951c27100e749645d8a476b6a7
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 79329b60f0aa7ce196b55a1483b07f8b9ea7e3cf
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175609"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771714"
 ---
 # <a name="view-journal-entries-and-transactions"></a>Ver movimientos del diario y transacciones
 
@@ -54,10 +54,10 @@ Además de los informes financieros, puede usar los siguientes informes de conta
 
 
 ## <a name="additional-resources"></a>Recursos adicionales
-- [Saldos de cuentas de contabilidad](general-ledger-account-balances.md) 
+- [Saldos de cuentas contables](general-ledger-account-balances.md) 
 - [Explorador de origen de contabilidad](../accounts-payable/accounting-source-explorer.md)
-- [Informes financieros](financial-reporting-getting-started.md)
-- [Ver entradas del diario](tasks/view-journal-entries-or-transactions.md)
+- [Visión general de informes financieros](financial-reporting-getting-started.md)
+- [Ver movimientos del diario o transacciones](tasks/view-journal-entries-or-transactions.md)
 
 
 

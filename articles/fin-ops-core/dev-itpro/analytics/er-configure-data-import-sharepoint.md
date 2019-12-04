@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: b40f9a5677fd5375d7a19a75400d4305a8850392
-ms.sourcegitcommit: 399e861ca6f2bdcd4fe84d89fedc04b60d9f43e6
+ms.openlocfilehash: c11123c0d53fcf4ba67e83fe64d2d6e692d5b6f1
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "2564946"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771361"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>Configurar la importación de datos de SharePoint
 
@@ -43,7 +43,7 @@ Para completar los ejemplos de este tema, debe tener el acceso siguiente:
 - Configuraciones del formato y el modelo de ER para pagos 1099.
 
 ### <a name="create-required-er-configurations"></a>Crear las configuraciones de ER necesarias
-Reproduzca las guías de tareas **Datos de importación de ER de un archivo de Microsoft Excel**, que forman parte del proceso empresarial **7.5.4.3 Adquirir o desarrollar componentes de soluciones y servicios de TI (10677)**. Estas guías de tareas le guiarán por el proceso de diseño y uso de configuraciones de ER para importar de forma interactiva transacciones del proveedor desde archivos de Microsoft Excel. Para obtener más información, consulte [Analizar documentos de entrada enMicrosoft Excel](parse-incoming-documents-excel.md). Cuando haya completado las guías de la tarea, tendrá la siguiente configuración.
+Reproduzca las guías de tareas **Datos de importación de ER de un archivo de Microsoft Excel**, que forman parte del proceso empresarial **7.5.4.3 Adquirir o desarrollar componentes de soluciones y servicios de TI (10677)**. Estas guías de tareas le guiarán por el proceso de diseño y uso de configuraciones de ER para importar de forma interactiva transacciones del proveedor desde archivos de Microsoft Excel. Para obtener más información, consulte [Analizar documentos de entrada en formato Excel](parse-incoming-documents-excel.md). Cuando haya completado las guías de la tarea, tendrá la siguiente configuración.
 
 #### <a name="er-configurations"></a>Configuraciones ER
 

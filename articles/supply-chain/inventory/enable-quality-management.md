@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ba38f9c43fed81768155a27dda88a4bfb4a7828e
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: c2d51c659d9d06f075458359d81de978e7a6d14b
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653565"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814407"
 ---
 # <a name="quality-management-overview"></a>Visión general de la gestión de la calidad
 
@@ -608,6 +608,6 @@ Debe definir una asociación de calidad para cada variación de un proceso empre
 <a name="additional-resources"></a>Recursos adicionales
 --------
 
-[Procesos de administración de calidad](quality-management-processes.md)
+[Procesos de administración de la calidad](quality-management-processes.md)
 
-[Activación de la gestión de disconformidades](enable-nonconformance-management.md)
+[Gestión de disconformidad](enable-nonconformance-management.md)

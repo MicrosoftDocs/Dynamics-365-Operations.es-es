@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 22372bd2d42b526d10e39174e7fb5ec5281d1b73
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 544721af404775a6d8b65628848caa84ceaebe30
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572797"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813848"
 ---
 # <a name="quality-management-processes"></a>Procesos de gestión de calidad
 
@@ -90,14 +90,14 @@ Conviene definir un tipo de documento exclusivo para las correcciones mediante l
 <a name="additional-resources"></a>Recursos adicionales
 --------
 
-[Habilitación de administración de calidad](enable-quality-management.md)
+[Visión general de la administración de la calidad](enable-quality-management.md)
 
-[Activación de la gestión de disconformidades](enable-nonconformance-management.md)
+[Gestión de disconformidad](enable-nonconformance-management.md)
 
 [Bloqueo del inventario](inventory-blocking.md)
 
 [Órdenes de cuarentena](quarantine-orders.md)
 
-[Configuración de pedidos de calidad (Guía de tareas)](tasks/set-up-quality-orders.md)
+[Configuración de pedidos de calidad](tasks/set-up-quality-orders.md)
 
-[Inspección de la calidad de las mercancías (Guía de tareas)](tasks/inspect-quality-goods.md)
+[Inspección de la calidad de las mercancías](tasks/inspect-quality-goods.md)

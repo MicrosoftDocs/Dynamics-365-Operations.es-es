@@ -3,7 +3,7 @@ title: Control mejorado de artículos con seguimiento por lotes
 description: En este tema se describen las mejoras que se han realizado al control de los lotes para los artículos con seguimiento por lotes durante el proceso de registro de extracto comercial.
 author: josaw1
 manager: AnnBe
-ms.date: 10/14/2019
+ms.date: 11/04/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,19 +18,17 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-28
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 70d78f86f1df057d14d821a8c967e62eeeb4ff92
-ms.sourcegitcommit: 0262a19e32b2c0c84c731d9f4fbe8ba91822afa3
+ms.openlocfilehash: 5bbddf649f66ded9588cdb1e3f43c75630dc248a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2622559"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770172"
 ---
 # <a name="improved-handling-of-batch-tracked-items"></a>Control mejorado de artículos con seguimiento por lotes
 
 
 [!include [banner](includes/banner.md)]
-
-[!include [banner](includes/preview-banner.md)]
 
 
 En Retail Point of Sale (POS), los números de lotes no se pueden obtener para los artículos con seguimiento por lotes en el momento de la venta. Sin embargo, para las configuraciones específicas, cuando se registran las ventas en las sedes a través del registro de extractos o pedidos de clientes, el sistema de Microsoft Dynamics espera que existan números de lotes válidos para artículos con seguimiento por lotes y que se usarán durante el proceso de facturación.

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 28ed12bd8cf2df7c25e14a25465cad1229676cfd
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 5849de38962967f0614ff7afd40296c0f12ff476
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551988"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812865"
 ---
 # <a name="get-the-dynamics-365-talent---onboard-app"></a>Obtener la aplicación Dynamics 365 Talent - Onboard
 
@@ -39,9 +39,9 @@ Durante el proceso de prueba o de compra, configurará su dirección de correo e
 > [!WARNING]
 > No puede migrar datos de la prueba a un entorno de la suscripción pagado. <!--Reviewers: please verify.-->
 
-Para obtener más información sobre características nuevas en Talent, consulte [Novedades o cambios en Dynamics 365 Talent](./whats-new.md) y [Notas de la versión de Dynamics 365 y Power Platform](https://docs.microsoft.com/business-applications-release-notes/index). Si desea obtener una vista preliminar de las nuevas características en Onboard, consulte [Obtener acceso a las características de vista previa de Talent](./access-preview-feature.md).
+Para obtener más información sobre características nuevas en Talent, consulte [Novedades o cambios en Dynamics 365 Talent](./whats-new.md) y [Notas de la versión de Dynamics 365 y Power Platform](https://docs.microsoft.com/business-applications-release-notes/index). Si desea obtener una vista preliminar de las nuevas características en Onboard, consulte [Acceder a características de vista previa en Microsoft Dynamics 365 Talent](./access-preview-feature.md).
 
-Si es profesional de TI y desea obtener más información sobre cómo se aprovisionan las dos versiones de la aplicación Onboard, consulte [Aprovisionamiento para la aplicación Onboard](./modular-app-tech-faq.md).
+Si es profesional de TI y desea obtener más información sobre cómo se aprovisionan las dos versiones de la aplicación Onboard, consulte [Aprovisionamiento para la aplicación Dynamics 365 Talent - Onboard](./modular-app-tech-faq.md).
 
 ## <a name="get-started-with-onboard"></a>Introducción a Onboard
 
@@ -89,6 +89,6 @@ Si aceptó el nombre de dominio predeterminado al iniciar sesión con Onboard, p
 ### <a name="see-also"></a>Consulte también
 
 - [Probar o comprar la aplicación Onboard](https://dynamics.microsoft.com/talent/onboard/)
-- [Novedades](./whats-new.md)
-- [Notas de la versión](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Obtener soporte](./talent-support.md)
+- [Novedades y cambios en Dynamics 365 Talent](./whats-new.md)
+- [Planes de lanzamiento](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Obtener soporte para Microsoft Dynamics 365 Talent](./talent-support.md)

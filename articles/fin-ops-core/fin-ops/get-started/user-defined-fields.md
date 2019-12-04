@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: af2066c095c675aa0003ac2cf66bebba48a1e8a5
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9146921c47e89c5895a1a727de874b0ffbc93c37
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190865"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812514"
 ---
 # <a name="create-and-work-with-custom-fields"></a>Crear y trabajar con campos personalizados
 
@@ -103,7 +103,7 @@ Además, para los campos de la lista de selección, se puede reordenar el conjun
 
 ### <a name="exposing-custom-fields-on-data-entities"></a>Exponer campos personalizados en entidades de datos
 
-También puede ser importante permitir que los campos personalizados estén visibles en entidades de datos. Las entidades de datos se utilizan en la característica [Abrir en Office](../../dev-itpro/office-integration/office-integration.md), así como para los escenarios de importación/exportación de datos.
+También puede ser importante permitir que los campos personalizados estén visibles en entidades de datos. Las entidades de datos se utilizan en la característica [Visión general de la integración en Office](../../dev-itpro/office-integration/office-integration.md), así como para los escenarios de importación/exportación de datos.
 
 Siga estos tres pasos para exponer un campo personalizado en una entidad de datos:
 

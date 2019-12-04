@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f629fffc5c424c244a25bb8faef0435814398ee1
-ms.sourcegitcommit: 4aac45c84b87f463b22b318f5f6f729f8d737090
+ms.openlocfilehash: df0bc9ff2405cc2f370ea777a70e005a1ff338a0
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2548977"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814959"
 ---
 # <a name="install-and-configure-the-warehousing-app-overview"></a>Visión general sobre cómo instalar y configurar la aplicación Warehousing
 
@@ -62,15 +62,32 @@ Para habilitar la aplicación para que interactúe con un servidor específico d
 
 1.  En un explorador web, vaya a <https://portal.azure.com>.
 2.  Especifique el nombre y la contraseña del usuario que tiene acceso a la suscripción de Azure.
-3.  En Azure Portal, en el panel de navegación izquierdo, haga clic en **Azure Active Directory**.[](./media/WMA-01-active-directory-example.png)[![WMA-01-active-directory-example](./media/WMA-01-active-directory-example.png )](./media/WMA-01-active-directory-example.png)
+3.  En el portal de Azure, en el panel de navegación izquierdo, haga clic en **Azure Active Directory**.
+
+    [![WMA-01-active-directory-example](./media/WMA-01-active-directory-example.png )](./media/WMA-01-active-directory-example.png)
+
 4.  Asegúrese de que la instancia de Active Directory es una que usa Supply Chain Management.
-5.  En la lista, haga clic en **Registros de aplicación**. [![WMA-02-active-directory-app-registrations](./media/WMA-02-active-directory-app-registrations.png)](./media/WMA-02-active-directory-app-registrations.png)
+5.  En la lista, haga clic en **Registros de aplicación**. 
+
+    [![WMA-02-active-directory-app-registrations](./media/WMA-02-active-directory-app-registrations.png)](./media/WMA-02-active-directory-app-registrations.png)
+
 6.  En el panel superior, haga clic en **Nuevo registro**. Se inicia el asistente de **Registrar una aplicación**.
-7.  Escriba un nombre para la aplicación y seleccione **Solo cuentas en el directorio de esta organización**. Haga clic en **Registrar**.  [![WMA-03-active-directory-add-application](./media/WMA-03-active-directory-add-application.png)](./media/WMA-03-active-directory-add-application.png)
-8.  Se abrirá su nuevo registro de aplicación. [![WMA-04-active-directory-configure-app](./media/WMA-04-active-directory-configure-app.png)](./media/WMA-04-active-directory-configure-app.png)
+7.  Escriba un nombre para la aplicación y seleccione **Solo cuentas en el directorio de esta organización**. Haga clic en **Registrar**.  
+
+    [![WMA-03-active-directory-add-application](./media/WMA-03-active-directory-add-application.png)](./media/WMA-03-active-directory-add-application.png)
+
+8.  Se abrirá su nuevo registro de aplicación. 
+
+    [![WMA-04-active-directory-configure-app](./media/WMA-04-active-directory-configure-app.png)](./media/WMA-04-active-directory-configure-app.png)
+
 9.  Recuerde el **Id. de aplicación**, lo necesitará más adelante. El **Id. de aplicación** hará referencia más adelante al **Id. del cliente**.
-10. Haga clic en **Certificado y secretos** en el panel **Gestionar**. Haga clic en **Nuevo secreto del cliente**. [![WMA-05-active-directory-create-key](./media/WMA-05-active-directory-create-key.png)](./media/WMA-05-active-directory-create-key.png)
-11. Cree una clave introduciendo una descripción clave y una duración en la sección **Contraseñas** . Haga clic en **Agregar** y copie la clave. Posteriormente se hará referencia a esta clave como **Secreto de cliente**. [![WMA-06-active-directory-save-key](./media/WMA-06-active-directory-save-key.png)](./media/WMA-06-active-directory-save-key.png)
+10. Haga clic en **Certificado y secretos** en el panel **Gestionar**. Haga clic en **Nuevo secreto del cliente**. 
+
+    [![WMA-05-active-directory-create-key](./media/WMA-05-active-directory-create-key.png)](./media/WMA-05-active-directory-create-key.png)
+
+11. Cree una clave introduciendo una descripción clave y una duración en la sección **Contraseñas** . Haga clic en **Agregar** y copie la clave. Posteriormente se hará referencia a esta clave como **Secreto de cliente**. 
+
+    [![WMA-06-active-directory-save-key](./media/WMA-06-active-directory-save-key.png)](./media/WMA-06-active-directory-save-key.png)
 
 ## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a>Cree y configure una cuenta de usuario en Supply Chain Management.
 Para que Supply Chain Management pueda utilizar su aplicación Azure AD, debe completar los siguientes pasos de configuración:
@@ -78,26 +95,45 @@ Para que Supply Chain Management pueda utilizar su aplicación Azure AD, debe co
 1.  Crear un usuario correspondiente a las credenciales de usuario de la aplicación Warehousing.
     1.  Vaya a **Administración del sistema** &gt; **Común** &gt; **Usuarios**.
     2.  Cree un nuevo usuario.
-    3.  Asigne el usuario del dispositivo móvil de almacén como se muestra en el captura de pantalla siguiente. [![wh-09-add-user-security-role](./media/wh-09-add-user-security-role.png)](./media/wh-09-add-user-security-role.png)
+    3.  Asigne el usuario del dispositivo móvil de almacén como se muestra en el captura de pantalla siguiente. 
+    
+        [![wh-09-add-user-security-role](./media/wh-09-add-user-security-role.png)](./media/wh-09-add-user-security-role.png)
 
 2.  Asocie su aplicación Azure Active Directory con el usuario de la aplicación Warehousing.
     1.  En Supply Chain Management, vaya a **Administración del sistema** &gt; **Configuración** &gt; **Aplicaciones Azure Active Directory**.
     2.  Cree una línea nueva.
-    3.  Introduzca el **Id. de cliente** (obtenido en la última sección), asígnele un nombre y seleccione el usuario creado previamente. Recomendamos que etiquete todos los dispositivos de modo que pueda quitar fácilmente su acceso a Supply Chain Management de esta página en caso de que se pierdan. [![wh-10-ad-applications-form](./media/wh-10-ad-applications-form.png)](./media/wh-10-ad-applications-form.png)
+    3.  Introduzca el **Id. de cliente** (obtenido en la última sección), asígnele un nombre y seleccione el usuario creado previamente. Recomendamos que etiquete todos los dispositivos de modo que pueda quitar fácilmente su acceso a Supply Chain Management de esta página en caso de que se pierdan. 
+    
+        [![wh-10-ad-applications-form](./media/wh-10-ad-applications-form.png)](./media/wh-10-ad-applications-form.png)
 
 ## <a name="configure-the-application"></a>Configurar la aplicación
 Debe configurar la aplicación en el dispositivo para conectarse al servidor Supply Chain Management a través de la aplicación Azure AD. Para ello, realice los pasos siguientes:
 
 1.  En la aplicación, vaya a **Configuración de la conexión**.
-2.  Borre el campo **Modo de demostración**. <br>[![wh-11-app-connection-settings-demo-mode](./media/wh-11-app-connection-settings-demo-mode-169x300.png)](./media/wh-11-app-connection-settings-demo-mode.png)
+2.  Borre el campo **Modo de demostración**. <br>
+
+    [![wh-11-app-connection-settings-demo-mode](./media/wh-11-app-connection-settings-demo-mode-169x300.png)](./media/wh-11-app-connection-settings-demo-mode.png)
+
 3.  Especifique la siguiente información: 
     + **Id. de cliente de Azure Active Directory** - El identificador secreto de cliente se obtiene en el paso 9 en "Crear una aplicación de servicio Web en Active Directory". 
     + **Secreto de cliente de Azure Active Directory** - El secreto de cliente se obtiene en el paso 11 en "Crear una aplicación de servicio Web en Active Directory". 
-    + **Recurso de Azure Active Directory**: el recurso del directorio Azure AD representa la URL raíz de Supply Chain Management. **Nota**: No termine este campo con un carácter de barra diagonal (/). 
+    + **Recurso de Azure Active Directory**: el recurso del directorio Azure AD representa la URL raíz de Supply Chain Management. 
+    
+        > [!NOTE]
+        > No termine este campo con un carácter de barra diagonal (/). 
+
     + **Inquilino de Azure Active Directory**: el inquilino del directorio Azure AD empleado con el servidor de Supply Chain Management: `https://login.windows.net/your-AD-tenant-ID`. Por ejemplo: `https://login.windows.net/contosooperations.onmicrosoft.com.` 
-    <br>**Nota**: No termine este campo con un carácter de barra diagonal (/). 
-    + **Empresa**: especifique la entidad jurídica en Supply Chain Management a la que desea que se conecte la aplicación. <br>[![wh-12-app-connection-settings](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
-4.  Seleccione el botón **Atrás** en la esquina superior izquierda de la aplicación. La aplicación se conectará ahora a su servidor Supply Chain Management y aparecerá la pantalla de inicio de sesión del trabajador de almacén. <br>[![wh-13-log-in-screen](./media/wh-13-log-in-screen-180x300.png)](./media/wh-13-log-in-screen.png)
+    
+        > [!NOTE]
+        > No termine este campo con un carácter de barra diagonal (/). 
+    
+    + **Empresa**: especifique la entidad jurídica en Supply Chain Management a la que desea que se conecte la aplicación. <br>
+    
+    [![wh-12-app-connection-settings](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
+
+4.  Seleccione el botón **Atrás** en la esquina superior izquierda de la aplicación. La aplicación se conectará ahora a su servidor Supply Chain Management y aparecerá la pantalla de inicio de sesión del trabajador de almacén.
+
+    [![wh-13-log-in-screen](./media/wh-13-log-in-screen-180x300.png)](./media/wh-13-log-in-screen.png)
 
 Para obtener información acerca de cómo configurar la aplicación Warehousing para digitalizar códigos de barras mediante una cámara en un dispositivo móvil, consulte Escanear códigos de barras utilizando una cámara en [Dynamics 365 for Finance and Operations – Warehousing](scan-bar-codes-using-a-camera.md).
 

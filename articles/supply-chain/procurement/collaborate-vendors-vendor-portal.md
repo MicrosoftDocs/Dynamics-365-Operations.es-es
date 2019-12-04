@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3bb30ddffb86c7083f40863c0c336fc5f65ce8f5
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 96cd2fc988df11c616faf06cf0905acd6b3d6dcc
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248989"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813532"
 ---
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Colaboración con los proveedores mediante el portal de proveedores
 
@@ -31,7 +31,7 @@ ms.locfileid: "2248989"
 
 Este tema describe cómo los agentes de compras pueden usar el portal de proveedores para colaborar con los proveedores externos durante el proceso de confirmación del pedido de compra. Esta información se aplica solo a las versiones de febrero de 2016 y mayo de 2016 de Dynamics AX.
 
-La información de este tema se aplica solo a las versiones de febrero de 2016 y mayo de 2016 de Dynamics AX. Para obtener más información acerca de la nueva funcionalidad de configuración de la colaboración de proveedor, consulte [Utilización de la colaboración del proveedor para trabajar con proveedores externos](vendor-collaboration-work-external-vendors.md).  
+La información de este tema se aplica solo a las versiones de febrero de 2016 y mayo de 2016 de Dynamics AX. Para obtener más información acerca de la nueva funcionalidad de configuración de la colaboración de proveedor, consulte [Colaboración de proveedor con proveedores externos](vendor-collaboration-work-external-vendors.md).  
 
 El portal de proveedores está dirigido a proveedores que no tienen integración de intercambio electrónico de datos (EDI) con Microsoft Dynamics AX para intercambiar la información de pedidos de compra. El portal permite que los agentes de compra envíen un pedido de compra al proveedor y que reciban una respuesta de Confirmada o Rechazado directamente en Dynamics AX.  
 
@@ -98,7 +98,7 @@ La siguiente tabla muestra un ejemplo de los cambios de estado y versión que pu
 <a name="additional-resources"></a>Recursos adicionales
 --------
 
-[Configuración de la seguridad para los usuarios de la colaboración de proveedor](configure-security-vendor-portal-users.md)
+[Seguridad de usuario del portal de proveedor](configure-security-vendor-portal-users.md)
 
 [Espacio de trabajo de facturación de colaboración de proveedor](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md)
 

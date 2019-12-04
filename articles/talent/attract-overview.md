@@ -1,5 +1,5 @@
 ---
-title: Características y funcionalidades de Microsoft Dynamics 365 Talent - Attract
+title: Características y funcionalidades de Attract
 description: Este tema describe las características que Microsoft Dynamics 365 Talent - Attract proporciona para gestionar el proceso de contratar nuevos talentos.
 author: andreabichsel
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c8860602bd293c158aa33ea22b5f73de15a6b6f
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 4186dddc471de676cc6d26050f16711f581da7ca
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552080"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833078"
 ---
-# <a name="microsoft-dynamics-365-talent---attract-features-and-capabilities"></a>Características y funcionalidades de Microsoft Dynamics 365 Talent - Attract
+# <a name="attract-features-and-capabilities"></a>Características y capacidades de Attract
 
 [!include [banner](includes/banner.md)]
 
@@ -48,4 +48,4 @@ Attract le proporciona un proceso de contratación predefinido que tiene cuatro 
 Tan pronto como hayan sido agregados a un trabajo; los candidatos reciben un correo electrónico que contiene un vínculo que les permitirá obtener la aplicación web. La aplicación proporciona detalles del trabajo y se usa para comunicarse con el equipo de contratación. Los candidatos pueden usarla para indicar su disponibilidad para las entrevistas.
 
 ## <a name="analytic-reports"></a>Informes analíticos
-Los equipos de contratación pueden usar medidas de proceso de contratación clave para un trabajo único o agregarlas a través de todos los trabajos con [informes análiticos en Attract](analytic-reports.md). Esta característica está actualmente en [vista previa](access-preview-feature.md) para los clientes con el [Complemento de contratación completo](attract-comprehensive-hiring.md).
+Los equipos de contratación pueden usar medidas de proceso de contratación clave para un trabajo único o agregarlas a través de todos los trabajos con [informes análiticos en Attract](analytic-reports.md). Esta característica está actualmente en [versión preliminar](access-preview-feature.md) para clientes con [Qué versión Microsoft Dynamics 365 Talent - Attract](attract-comprehensive-hiring.md).

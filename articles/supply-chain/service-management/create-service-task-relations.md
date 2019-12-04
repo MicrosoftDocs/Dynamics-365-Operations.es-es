@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2aa0e5200ff2a6822e631c72124335e2dc556c14
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ed0800c4a650233190c6a33b1690790f0e2bf051
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552124"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814107"
 ---
 # <a name="create-service-task-relations"></a>Crear relaciones de tareas de servicio    
 
@@ -69,7 +69,7 @@ Las relaciones de tarea de servicio creadas en un pedido de servicio estarán di
 
 ## <a name="see-also"></a>Consulte también
 
-[Tareas de servicio](service-tasks.md)
+[Visión general de las tareas de servicio](service-tasks.md)
 
 
   

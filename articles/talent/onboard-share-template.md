@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 010d68b79300d15292dbcd4754eed8aac115cdce
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: ee86f52a2e1c697d71549a39d9eb86bac33d9ff2
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551458"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812842"
 ---
 # <a name="share-content-with-other-contributors-in-dynamics-365-talent---onboard"></a>Compartir el contenido con otros trabajadores en Dynamics 365 Talent - Onboard
 
@@ -53,7 +53,7 @@ Microsoft Dynamics 365 Talent: Onboard le permite compartir las guías y plantil
 
 3. En **Destinatario**, si los destinatarios pueden revisar la plantilla, establezca la opción **¿Estas personas pueden editar?** en **Activado**. Si hay que enviar una notificación por correo electrónico a los destinatarios con los que ha compartido la plantilla, establezca la opción **Enviar notificación por correo electrónico a los destinatarios** en **Activado**.
 
-    [!Configurar las preferencias de acceso y de correo electrónico para una plantilla](./media/onboard-share-template-access-and-email.png)](./media/onboard-share-template-access-and-email.png)
+    [![Establecer las preferencias de acceso y de correo electrónico para una plantilla](./media/onboard-share-template-access-and-email.png)](./media/onboard-share-template-access-and-email.png)
 
 4. Especifique un nombre o una dirección de correo electrónico, y seleccione el destinatario deseado en la lista desplegable.
 5. En la pestaña **Administrar acceso**, puede revisar o cambiar qué pueden hacer los destinatarios con la plantilla. Para cambiar el acceso del destinatario, en la lista desplegable junto al nombre del destinatario, selecciona **Puede ver**, **Puede editar**, o **Quitar**, según corresponda.
@@ -68,6 +68,6 @@ Microsoft Dynamics 365 Talent: Onboard le permite compartir las guías y plantil
 ### <a name="see-also"></a>Consulte también
 
 - [Probar o comprar la aplicación Onboard](https://dynamics.microsoft.com/talent/onboard/)
-- [Novedades](./whats-new.md)
-- [Notas de la versión](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Obtener soporte](./talent-support.md)
+- [Novedades y cambios en Dynamics 365 Talent](./whats-new.md)
+- [Planes de lanzamiento](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Obtener soporte para Microsoft Dynamics 365 Talent](./talent-support.md)

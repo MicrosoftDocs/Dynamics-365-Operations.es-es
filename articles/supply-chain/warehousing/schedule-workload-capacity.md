@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b1334dcba7d12f2da301f70e21a08fceb88e2b4
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d5d878b0fe4e6b65aa2439d7ef7312eda1895823
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559050"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814936"
 ---
 # <a name="schedule-workload-capacity"></a>Programar capacidad de la carga de trabajo
 
@@ -30,7 +30,7 @@ ms.locfileid: "1559050"
 
 Puede programar la capacidad de la carga de trabajo para almacenes y también proyectar las cargas de trabajo actuales y futuras para los trabajadores de los almacenes individuales. Puede proyectar la carga de trabajo para el almacén completo o bien, proyectar la carga de trabajo de forma independiente para las cargas de trabajo entrantes y salientes.
 
-Para proyectar la salida de la carga de trabajo para los almacenes seleccionados, los datos de la programación maestra deben estar disponibles para esos almacenes. Para obtener más información, vea [Planes maestros](../master-planning/master-plans.md).
+Para proyectar la salida de la carga de trabajo para los almacenes seleccionados, los datos de la programación maestra deben estar disponibles para esos almacenes. Para obtener más información, consulte [Visión general de planes maestros](../master-planning/master-plans.md).
 
 ## <a name="schedule-and-view-workloads-for-a-warehouse"></a>Programar y ver cargas de trabajo para un almacén
 

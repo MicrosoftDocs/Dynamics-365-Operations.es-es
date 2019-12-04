@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 037d4971fe0a5a9d08f0ed20d2482b8feb9aa4f2
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 44d404aaafd124a5d5a9d92cac8add51f1ee846a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179790"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771993"
 ---
 # <a name="cost-element-dimensions"></a>Dimensiones de elemento de coste
 
@@ -66,7 +66,7 @@ Existen dos tipos de elementos de coste: elementos de coste principales y elemen
 ## <a name="cost-element-dimensions-and-cost-element-dimension-members"></a>Dimensiones del elemento de coste y miembros de la dimensión del elemento de coste
 Se hace referencia a los elementos de coste como *dimensiones del elemento de coste* . Los valores de dimensión individuales se denominan *miembros de dimensión de elemento de coste*. Por ejemplo, si tiene una estructura del plan contable de Estados Unidos. (COA) que es la base de sus informes estatutarios. Este COA se usa como la dimensión del elemento de coste. Las cuentas, que son elementos de coste principales, se representan como miembros de dimensión del elemento de coste en la Contabilidad de costes. El captura de pantalla siguiente muestra un ejemplo de Cuentas principales como dimensión de elemento de coste con sus cuentas principales como miembros de dimensión de elemento de coste. 
 
-[![cost-element-dimensions](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
+[![Captura de pantalla de cuentas principales como dimensión de elemento de coste](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
 
 ## <a name="import-cost-element-dimension-members-through-data-connectors"></a>Importar miembros de dimensión de elemento de coste mediante conectores de datos
 Para facilitar la configuración de los miembros de la dimensión del elemento de coste en la Contabilidad de costes, puede usar los conectores de datos que se han generado previamente o los que ha personalizado para recuperar los elementos de coste principales de uno o más sistemas de origen.

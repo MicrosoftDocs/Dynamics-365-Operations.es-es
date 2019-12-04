@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5ce8c1e7a3a4533516d8f2e2b0af46633e4c7667
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: c0d9b8708df413118d6e1c1dbe788ce4f6ed5b2f
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250746"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815189"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>Generar previsión estadística de línea base
 
@@ -56,7 +56,7 @@ El campo **Fecha inicial de la previsión de línea base** - **Desde la fecha** 
 
 El campo **Fecha de inicio de previsión de línea base** - **Desde la fecha** puede establecerse en una fecha del pasado. Es decir, es posible generar una previsión de demanda en el pasado. Esto resulta útil, ya que permite a los usuarios ajustar los parámetros del servicio de previsión de modo que la previsión estadística generado en el pasado coincide con la demanda histórica real. Los usuarios pueden continuar usando esta configuración de parámetros para generar una previsión estadística de línea base para el futuro. 
 
-Los ajustes manuales realizados en iteraciones anteriores de previsión de demanda se pueden aplicar automáticamente a la nueva previsión de línea base si se activa la casilla **Transferir ajustes manuales a las previsiones de demanda**. Si la casilla está desactivada, los ajustes manuales no se agregan a la previsión de línea base, pero tampoco se eliminan. Los ajustes manuales efectuados a una previsión se pueden eliminar solo en el momento de la importación de previsión, desactivando la casilla **Guardar los ajustes manuales realizados en la previsión de la demanda de línea base**. Los ajustes manuales se guardan en el momento de la autorización. Por lo tanto, si un usuario realiza ajustes manuales a la previsión, pero no autoriza la previsión de nuevo a Supply Chain Management, los cambios se perderán. Para obtener más información acerca de los ajustes manuales y cómo funcionan, consulte [Autorización de la previsión ajustada](authorize-adjusted-forecast.md). 
+Los ajustes manuales realizados en iteraciones anteriores de previsión de demanda se pueden aplicar automáticamente a la nueva previsión de línea base si se activa la casilla **Transferir ajustes manuales a las previsiones de demanda**. Si la casilla está desactivada, los ajustes manuales no se agregan a la previsión de línea base, pero tampoco se eliminan. Los ajustes manuales efectuados a una previsión se pueden eliminar solo en el momento de la importación de previsión, desactivando la casilla **Guardar los ajustes manuales realizados en la previsión de la demanda de línea base**. Los ajustes manuales se guardan en el momento de la autorización. Por lo tanto, si un usuario realiza ajustes manuales a la previsión, pero no autoriza la previsión de nuevo a Supply Chain Management, los cambios se perderán. Para obtener más información acerca de los ajustes manuales y cómo funcionan, consulte [Autorizar una previsión ajustada](authorize-adjusted-forecast.md). 
 
 Una generación de previsión de la demanda puede tener un nombre y comentarios para ayudar a los usuarios a identificar la previsión que se ha generado. Estos valores son visibles en el historial de la generación de previsión en la página **Historial estadística de la generación de previsión de línea base**. 
 
@@ -75,6 +75,6 @@ Si la previsión no se genera para un conjunto grande de artículos, sino, por e
 
 - [Configuración de previsión de demanda](demand-forecasting-setup.md)
 
-- [Realización de ajustes manuales realizados en la previsión de línea base](manual-adjustments-baseline-forecast.md)
+- [Realización de ajustes manuales en la previsión de línea base](manual-adjustments-baseline-forecast.md)
 
-- [Autorización de la previsión ajustada](authorize-adjusted-forecast.md)
+- [Autorizar previsión de la demanda ajustada](authorize-adjusted-forecast.md)

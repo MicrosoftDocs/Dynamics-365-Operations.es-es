@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9c177f7a7b713e7b8490b718650daafeca0e937
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d84e3ed050bacf7632d03cf0123f682c43fd7b58
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189393"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772752"
 ---
 # <a name="three-way-matching-policies"></a>Directivas de triple conciliación
 
@@ -141,7 +141,7 @@ Tenga en cuenta los siguientes elementos:
 Si es necesaria la aprobación para que las facturas se registren con discrepancias de conciliación de facturas, se debe activar Aprobar registro con discrepancias en la página Detalles de coincidencia de factura antes de poder registrar la factura con errores de conciliación de precio y de cantidad. Si la aprobación no es necesaria, el proceso de la factura puede continuar si no hay otros errores de registro.
 
 
-Para obtener más información, consulte [Conciliación de facturas de proveedores](accounts-payable-invoice-matching.md).
+Para obtener más información, consulte [Visión general de la conciliación de facturas de proveedores](accounts-payable-invoice-matching.md).
 
 
 

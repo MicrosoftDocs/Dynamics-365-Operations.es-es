@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: c7675ca0ef2f2477d510c956e63d824a5e6b0980
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8747df5513cab16ee3b609f405740e660753e086
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179906"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812541"
 ---
 # <a name="new-or-updated-task-guides-august-2016"></a>Guías de tareas nuevas o actualizadas (agosto de 2016)
 
@@ -32,11 +32,11 @@ En este tema se muestran las Guías de tareas nuevas o actualizadas que se publi
 
 ## <a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Guías de tareas de la Biblioteca unificada APQC (agosto de 2016: todos los idiomas) para Microsoft Dynamics AX
 
-La Biblioteca unificada APQC (mayo de 2016: todos los idiomas) contiene las Guías de tareas pensadas para usarse con el fin de obtener ayuda con la actualización 2 de la plataforma de Microsoft Dynamics AX (agosto de 2016), la actualización de aplicación de mayo de 2016 de Dynamics AX y el lanzamiento de Microsoft Dynamics AX de febrero de 2016. Para obtener más información sobre estas versiones, vea [Novedades o cambios](whats-new-changed.md). Las versiones localizadas de las Guías de tarea están disponibles en la biblioteca. Para obtener más información acerca de cómo conectar el sistema de Ayuda a una biblioteca de Guía de tareas, consulte [Introducción a la ayuda](help-overview.md).
+La Biblioteca unificada APQC (mayo de 2016: todos los idiomas) contiene las Guías de tareas pensadas para usarse con el fin de obtener ayuda con la actualización 2 de la plataforma de Microsoft Dynamics AX (agosto de 2016), la actualización de aplicación de mayo de 2016 de Dynamics AX y el lanzamiento de Microsoft Dynamics AX de febrero de 2016. Para obtener más información sobre estas versiones, consulte [Novedades o cambios en página principal de Finance and Operations](whats-new-changed.md). Las versiones localizadas de las Guías de tarea están disponibles en la biblioteca. Para obtener más información acerca de cómo conectar el sistema de Ayuda a una biblioteca de Guía de tareas, consulte [Sistema de Ayuda](help-overview.md).
 
 ### <a name="data-access"></a>Acceso a datos
 
-| Línea BPM           | País o región |
+| Línea BPM           | País/región |
 |--------------------|----------------|
 | Crear un trabajo por lotes | Global         |
 

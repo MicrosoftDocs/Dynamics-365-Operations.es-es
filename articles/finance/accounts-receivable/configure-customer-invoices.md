@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa49b70b07ac3dc6cbc5989b11981098f22be89c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0f5b9866fc7afba205b84b372c6a204ec4c8f64d
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189163"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772729"
 ---
 # <a name="create-a-customer-invoice"></a>Crear una factura de cliente
 
@@ -35,11 +35,11 @@ Las **facturas de servicios** no están relacionadas con los pedidos de ventas. 
 
 Para obtener más información, consulte: 
 
-[Crear una factura de servicio](../accounts-receivable/create-free-text-invoice-new.md)
+[Crear facturas de servicios](../accounts-receivable/create-free-text-invoice-new.md)
 
-[Crear una plantilla](../accounts-receivable/create-free-text-invoice-template-new.md)
+[Crear una plantilla de factura de servicios](../accounts-receivable/create-free-text-invoice-template-new.md)
 
-[Asignar una plantilla de factura de servicios a un cliente](tasks/assign-free-text-invoice-template-customer.md)
+[Asignación de una plantilla de factura de texto libre a un cliente](tasks/assign-free-text-invoice-template-customer.md)
 
 [Generación y registro de facturas de servicios](tasks/post-recurring-free-text-invoices.md)
 

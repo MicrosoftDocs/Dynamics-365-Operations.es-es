@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bdfd8ca5e4feb236bc1b4e88a4dd3817a07e8a3f
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 2a5da707069966ea0dac282b2a0b2074ec5a41ff
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571010"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812246"
 ---
 # <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>Categorías del tipo de trabajo de mantenimiento y tipos de trabajo de mantenimiento, variantes del tipo de trabajo de mantenimiento, comercios de trabajo de mantenimiento y listas de comprobación de mantenimiento
 
@@ -33,7 +33,7 @@ ms.locfileid: "2571010"
 
 Se adjunta un tipo de activo a cada activo. Los tipos de activo definen los tipos de trabajo de mantenimiento (y por lo tanto, los trabajos de mantenimiento) que se pueden realizar en los activos. Cuando crea una orden de trabajo, debe seleccionar un tipo de trabajo de mantenimiento. Puede seleccionar solo los tipos de trabajo de mantenimiento relacionadas con la configuración del tipo de activo que se usa para el activo.
 
-Para una visión general gráfica de los activos y los tipos de trabajo de mantenimiento, y su conexión con las órdenes de trabajo, consulte [Activos y órdenes de trabajo](../overview/functional-locations-and-objects.md).
+Para una visión general gráfica de los activos y los tipos de trabajo de mantenimiento, y su conexión con las órdenes de trabajo, consulte [Ubicaciones técnicas y activos](../overview/functional-locations-and-objects.md).
 
 Las variantes de tipo de trabajo de mantenimiento se pueden configurar en un tipo de trabajo de mantenimiento. Las variantes del tipo de trabajo de mantenimiento definen las variaciones de un tipo de trabajo, como los tamaños (pequeño, medio o grande), los períodos (semanal, cada dos semanas, mensual o cada tres meses) y las configuraciones (bajo estándar, flexible o alto rendimiento).
 

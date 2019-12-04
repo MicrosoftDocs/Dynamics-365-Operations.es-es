@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2bfe007995c894d6cc86d07ef2b52da65e32e950
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: aa8444b081650e3d375e6f28f47866c8d4853721
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182747"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772472"
 ---
 # <a name="access-application-metadata-by-using-er-configuration"></a>Acceder a metadatos de la aplicación mediante el uso de una configuración de ER
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-En los pasos siguientes se explica cómo un usuario de Regulatory Configuration Service (RCS) con el rol de administrador del sistema o de desarrollador de informes electrónicos puede diseñar una nueva asignación de modelo de informes electrónicos (ER) mediante el uso de metadatos de la aplicación. Se accederá a los metadatos de la aplicación mediante el uso de una configuración de metadatos de ER que contenga un conjunto de metadatos de ejemplo para acceder a transacciones de comercio exterior. Para completar estos pasos, en RCS primero debe completar los pasos del tema, el procedimiento [Crear proveedores de configuración y marcarlos como activos](er-configuration-provider-mark-it-active-2016-11.md). A continuación, complete los pasos del tema, [(ER) Preparar metadatos de la aplicación para usarse en RCS](prepare-application-metadata-rcs.md).
+En los pasos siguientes se explica cómo un usuario de Regulatory Configuration Service (RCS) con el rol de administrador del sistema o de desarrollador de informes electrónicos puede diseñar una nueva asignación de modelo de informes electrónicos (ER) mediante el uso de metadatos de la aplicación. Se accederá a los metadatos de la aplicación mediante el uso de una configuración de metadatos de ER que contenga un conjunto de metadatos de ejemplo para acceder a transacciones de comercio exterior. Para completar estos pasos, en RCS primero debe completar los pasos del tema, el procedimiento [Crear proveedores de configuración y marcarlos como activos](er-configuration-provider-mark-it-active-2016-11.md). A continuación, complete los pasos del tema, [Preparar metadatos de la aplicación para usarse en RCS](prepare-application-metadata-rcs.md).
 
 ## <a name="prerequisites"></a>Requisitos previos
 1. Vaya a **Todos los espacios de trabajo** > **Informes electrónicos**. 
@@ -35,7 +35,7 @@ En los pasos siguientes se explica cómo un usuario de Regulatory Configuration 
 
 ## <a name="import-metadata-configuration"></a>Importar configuración de metadatos 
 1. Haga clic en **Configuraciones de metadatos**. 
-2. Importe la configuración de metadatos de ER que contenga metadatos que se han configurado para generar documentos electrónicos para el dominio empresarial de comercio exterior. Esta configuración de metadatos de ER se ha exportado como archivo XML mientras se hayan completado los pasos del procedimiento [(ER) Preparar metadatos de la aplicación para usarse en RCS](prepare-application-metadata-rcs.md). 
+2. Importe la configuración de metadatos de ER que contenga metadatos que se han configurado para generar documentos electrónicos para el dominio empresarial de comercio exterior. Esta configuración de metadatos de ER se ha exportado como archivo XML mientras se han completado los pasos del procedimiento [Preparar metadatos de la aplicación para usarse en RCS](prepare-application-metadata-rcs.md). 
 3. Haga clic en **Intercambiar**. 
 4. Haga clic en **Cargar desde un archivo XML**. 
 5. Haga clic en **Examinar** y seleccione el archivo ‘Metadatos de comercio exterior.xml‘. 

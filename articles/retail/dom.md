@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0ebac1c3f9f79ee49ae11a121a4a0dd3bd456c8f
-ms.sourcegitcommit: bdbca89bd9b328c282ebfb681f75b8f1ed96e7a8
+ms.openlocfilehash: 10d894bb65031741a5ec8365f7f8db76b58ab334
+ms.sourcegitcommit: 92322167f57b66d2accc134aaf862e6b9931ec94
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2578493"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2693121"
 ---
 # <a name="distributed-order-management-dom"></a>Gestión de pedidos distribuida (DOM)
 
@@ -179,7 +179,7 @@ Durante el procesamiento, DOM tendrá en cuenta los pedidos y las líneas de ped
 
 Después de aplicar las reglas, las restricciones de inventario y la optimización, DOM elige la ubicación más cercana a la dirección de entrega del cliente.
 
-![Criterios de pedido de ventas](./media/ordercriteria.png "Criterios de pedido de ventas")
+![Criterios de pedidos de ventas](./media/ordercriteria.png "Criterios de pedidos de ventas")
 
 ## <a name="results-of-dom-runs"></a>Resultados de las ejecuciones de DOM
 

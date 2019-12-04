@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 265e4dd4be63f70a29e46b6acf7db514feb599a4
-ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
+ms.openlocfilehash: 0d0fc75f233ee2eab42317f835834ff24b6ada2f
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2652181"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813440"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Aprobar y confirmar pedidos de compra
 
@@ -90,7 +90,7 @@ Si un PO se encuentra bajo gestión de cambios, todo cambio, como la cancelació
 
 [Visión general de los pedidos de compra](purchase-order-overview.md)
 
-[Creación de pedido de compra](purchase-order-creation.md)
+[Crear pedidos de compra](purchase-order-creation.md)
 
 [Recepción de producto frente a pedidos de compra](product-receipt-against-purchase-orders.md)
 
