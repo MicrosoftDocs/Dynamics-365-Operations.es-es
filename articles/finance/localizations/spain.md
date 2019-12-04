@@ -16,30 +16,30 @@ ms.search.region: Spain
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 366092db4743314eefff0a76b51914ec5d85ce8b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 05b332b2059696d13208cd8c3db01a3af16370c4
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175114"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773477"
 ---
-# <a name="spain-overview"></a><span data-ttu-id="5d965-103">Visión general de España</span><span class="sxs-lookup"><span data-stu-id="5d965-103">Spain overview</span></span>
+# <a name="spain-overview"></a><span data-ttu-id="f8eda-103">Visión general de España</span><span class="sxs-lookup"><span data-stu-id="f8eda-103">Spain overview</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="5d965-104">Este tema proporciona vínculos a recursos de documentación para España.</span><span class="sxs-lookup"><span data-stu-id="5d965-104">This topic provides links to documentation resources for Spain.</span></span> 
+<span data-ttu-id="f8eda-104">Este tema proporciona vínculos a recursos de documentación para España.</span><span class="sxs-lookup"><span data-stu-id="f8eda-104">This topic provides links to documentation resources for Spain.</span></span> 
 
-- [<span data-ttu-id="5d965-105">Aplicar descuentos por pronto pago en la factura</span><span class="sxs-lookup"><span data-stu-id="5d965-105">Apply cash discounts in the invoice</span></span>](emea-esp-cash-discount-applied-invoice.md)
-- [<span data-ttu-id="5d965-106">Opciones de letras de cambio</span><span class="sxs-lookup"><span data-stu-id="5d965-106">Bill of exchange options</span></span>](emea-esp-bill-of-exchange-options.md)
-- [<span data-ttu-id="5d965-107">Calcular fechas de vencimiento e informar del período medio de pagos</span><span class="sxs-lookup"><span data-stu-id="5d965-107">Calculate due dates and report on the average period of payments</span></span>](emea-esp-invoice-due-dates.md)
-- [<span data-ttu-id="5d965-108">Impuesto no realizado</span><span class="sxs-lookup"><span data-stu-id="5d965-108">Conditional sales tax</span></span>](emea-esp-conditional-sales-tax.md)
-- [<span data-ttu-id="5d965-109">Factura rectificativa</span><span class="sxs-lookup"><span data-stu-id="5d965-109">Credit invoicing</span></span>](tasks/emea-esp-credit-invoicing.md)
-- [<span data-ttu-id="5d965-110">Cuenta de factura de datos fiscales</span><span class="sxs-lookup"><span data-stu-id="5d965-110">Fiscal data invoice account</span></span>](emea-esp-fiscal-data-invoice-account.md)
-- [<span data-ttu-id="5d965-111">Revalorización de grupos de activos fijos</span><span class="sxs-lookup"><span data-stu-id="5d965-111">Fixed asset group revaluation</span></span>](emea-esp-fixed-asset-group-revaluation.md)
-- [<span data-ttu-id="5d965-112">IVA intracomunitario</span><span class="sxs-lookup"><span data-stu-id="5d965-112">Intra-community VAT</span></span>](emea-esp-intra-community-vat.md)
-- [<span data-ttu-id="5d965-113">Clientes plantilla</span><span class="sxs-lookup"><span data-stu-id="5d965-113">One-time customers</span></span>](emea-esp-no-one-time-customer-for-project-contracts.md)
-- [<span data-ttu-id="5d965-114">Imprimir cheques con diseño español</span><span class="sxs-lookup"><span data-stu-id="5d965-114">Print checks with a Spanish layout</span></span>](emea-esp-print-checks-with-spanish-layout.md)
-- [<span data-ttu-id="5d965-115">Opciones de pagaré</span><span class="sxs-lookup"><span data-stu-id="5d965-115">Promissory note options</span></span>](emea-esp-promissory-note-options.md)
-- [<span data-ttu-id="5d965-116">Informe 340</span><span class="sxs-lookup"><span data-stu-id="5d965-116">Report 340</span></span>](emea-esp-report-340.md)
-- [<span data-ttu-id="5d965-117">Ciclos de compra y venta</span><span class="sxs-lookup"><span data-stu-id="5d965-117">Sales and purchase cycles</span></span>](emea-esp-sales-purchase-cycle.md)
-- [<span data-ttu-id="5d965-118">Entradas especiales y hojas de apertura</span><span class="sxs-lookup"><span data-stu-id="5d965-118">Special entries and opening sheets</span></span>](emea-esp-opening-sheets-spain.md)
+- [<span data-ttu-id="f8eda-105">Parámetro El descuento por pronto pago se aplica a la factura</span><span class="sxs-lookup"><span data-stu-id="f8eda-105">Cash discount is applied in the invoice parameter</span></span>](emea-esp-cash-discount-applied-invoice.md)
+- [<span data-ttu-id="f8eda-106">Opciones de letras de cambio españolas</span><span class="sxs-lookup"><span data-stu-id="f8eda-106">Spanish bill of exchange options</span></span>](emea-esp-bill-of-exchange-options.md)
+- [<span data-ttu-id="f8eda-107">Calcular fechas de vencimiento e informar del período medio de pagos</span><span class="sxs-lookup"><span data-stu-id="f8eda-107">Calculate due dates and report on the average period of payments</span></span>](emea-esp-invoice-due-dates.md)
+- [<span data-ttu-id="f8eda-108">Impuesto condicional para pagarés o letras de cambio protestados</span><span class="sxs-lookup"><span data-stu-id="f8eda-108">Conditional sales tax for protested promissory notes or bills of exchange</span></span>](emea-esp-conditional-sales-tax.md)
+- [<span data-ttu-id="f8eda-109">Crear una factura correctiva</span><span class="sxs-lookup"><span data-stu-id="f8eda-109">Create a corrective invoice</span></span>](tasks/emea-esp-credit-invoicing.md)
+- [<span data-ttu-id="f8eda-110">Usar datos fiscales de la cuenta de factura</span><span class="sxs-lookup"><span data-stu-id="f8eda-110">Use fiscal data from the invoice account</span></span>](emea-esp-fiscal-data-invoice-account.md)
+- <span data-ttu-id="f8eda-111">Grupos de revalorización de activos fijos (emea-esp-fixed-asset-group-revaluation.md)</span><span class="sxs-lookup"><span data-stu-id="f8eda-111">[Fixed asset revaluation groups(emea-esp-fixed-asset-group-revaluation.md)</span></span>
+- [<span data-ttu-id="f8eda-112">IVA intracomunitario</span><span class="sxs-lookup"><span data-stu-id="f8eda-112">Intra-community VAT</span></span>](emea-esp-intra-community-vat.md)
+- [<span data-ttu-id="f8eda-113">Clientes plantilla</span><span class="sxs-lookup"><span data-stu-id="f8eda-113">One-time customers</span></span>](emea-esp-no-one-time-customer-for-project-contracts.md)
+- [<span data-ttu-id="f8eda-114">Imprimir cheques con diseño español</span><span class="sxs-lookup"><span data-stu-id="f8eda-114">Print checks by using the Spanish layout</span></span>](emea-esp-print-checks-with-spanish-layout.md)
+- [<span data-ttu-id="f8eda-115">Opciones de pagaré español</span><span class="sxs-lookup"><span data-stu-id="f8eda-115">Spanish promissory note options</span></span>](emea-esp-promissory-note-options.md)
+- [<span data-ttu-id="f8eda-116">Informe 340</span><span class="sxs-lookup"><span data-stu-id="f8eda-116">Report 340</span></span>](emea-esp-report-340.md)
+- [<span data-ttu-id="f8eda-117">Ciclos de compra y venta</span><span class="sxs-lookup"><span data-stu-id="f8eda-117">Sales and purchase cycles</span></span>](emea-esp-sales-purchase-cycle.md)
+- [<span data-ttu-id="f8eda-118">Entradas especiales y hojas de apertura</span><span class="sxs-lookup"><span data-stu-id="f8eda-118">Special entries and opening sheets</span></span>](emea-esp-opening-sheets-spain.md)

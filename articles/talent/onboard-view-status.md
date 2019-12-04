@@ -16,44 +16,44 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: fe6da4599940a0b7812dc9d3f66157715c45f62d
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 2039c09372381ef2c078e1f4d4ed8a25c22de5c7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2009840"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814729"
 ---
-# <a name="view-the-status-of-onboarding-employees-and-your-tasks"></a><span data-ttu-id="f76ba-103">Ver el estado de los empleados que se incorporan y sus tareas</span><span class="sxs-lookup"><span data-stu-id="f76ba-103">View the status of onboarding employees and your tasks</span></span>
+# <a name="view-the-status-of-onboarding-employees-and-your-tasks"></a><span data-ttu-id="cf9e4-103">Ver el estado de los empleados que se incorporan y sus tareas</span><span class="sxs-lookup"><span data-stu-id="cf9e4-103">View the status of onboarding employees and your tasks</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="f76ba-104">Microsoft Dynamics 365 Talent: Onboard le permite ver el progreso de los nuevos empleados en sus actividades de incorporación.</span><span class="sxs-lookup"><span data-stu-id="f76ba-104">Microsoft Dynamics 365 Talent: Onboard lets you view the progress that your new hires are making in their onboarding activities.</span></span> <span data-ttu-id="f76ba-105">También puede ver cualquier tarea que se le haya asignado desde guías de incorporación.</span><span class="sxs-lookup"><span data-stu-id="f76ba-105">You can also view any tasks that have been assigned to you from onboarding guides.</span></span>
+<span data-ttu-id="cf9e4-104">Microsoft Dynamics 365 Talent: Onboard le permite ver el progreso de los nuevos empleados en sus actividades de incorporación.</span><span class="sxs-lookup"><span data-stu-id="cf9e4-104">Microsoft Dynamics 365 Talent: Onboard lets you view the progress that your new hires are making in their onboarding activities.</span></span> <span data-ttu-id="cf9e4-105">También puede ver cualquier tarea que se le haya asignado desde guías de incorporación.</span><span class="sxs-lookup"><span data-stu-id="cf9e4-105">You can also view any tasks that have been assigned to you from onboarding guides.</span></span>
 
-## <a name="view-the-status-of-onboarding-employees"></a><span data-ttu-id="f76ba-106">Ver el estado de los empleados que se están incorporando</span><span class="sxs-lookup"><span data-stu-id="f76ba-106">View the status of onboarding employees</span></span>
+## <a name="view-the-status-of-onboarding-employees"></a><span data-ttu-id="cf9e4-106">Ver el estado de los empleados que se están incorporando</span><span class="sxs-lookup"><span data-stu-id="cf9e4-106">View the status of onboarding employees</span></span>
 
-1. <span data-ttu-id="f76ba-107">En el menú izquierdo, seleccione **Guías**.</span><span class="sxs-lookup"><span data-stu-id="f76ba-107">On the left menu, select **Guides**.</span></span> <span data-ttu-id="f76ba-108">Verá una visión general del progreso de todas las guías de incorporación que ha enviado.</span><span class="sxs-lookup"><span data-stu-id="f76ba-108">You see an overview of the progress for all the onboarding guides that you've sent.</span></span>
+1. <span data-ttu-id="cf9e4-107">En el menú izquierdo, seleccione **Guías**.</span><span class="sxs-lookup"><span data-stu-id="cf9e4-107">On the left menu, select **Guides**.</span></span> <span data-ttu-id="cf9e4-108">Verá una visión general del progreso de todas las guías de incorporación que ha enviado.</span><span class="sxs-lookup"><span data-stu-id="cf9e4-108">You see an overview of the progress for all the onboarding guides that you've sent.</span></span>
 
-    ![[<span data-ttu-id="f76ba-109">Ver el estado de las guías de incorporación</span><span class="sxs-lookup"><span data-stu-id="f76ba-109">Viewing the status of onboarding guides</span></span>](./media/onboard-guide-status.png)](./media/onboard-guide-status.png)
+    ![[<span data-ttu-id="cf9e4-109">Ver el estado de las guías de incorporación</span><span class="sxs-lookup"><span data-stu-id="cf9e4-109">Viewing the status of onboarding guides</span></span>](./media/onboard-guide-status.png)](./media/onboard-guide-status.png)
 
-2. <span data-ttu-id="f76ba-110">Para explorar en profundidad, seleccione la guía que desea ver.</span><span class="sxs-lookup"><span data-stu-id="f76ba-110">To drill down, select the guide that you want to view.</span></span>
-3. <span data-ttu-id="f76ba-111">Seleccione la pestaña **Actividades** para ver las actividades que el nuevo empleado ha completado.</span><span class="sxs-lookup"><span data-stu-id="f76ba-111">Select the **Activities** tab to see which activities your new hire has completed.</span></span>
+2. <span data-ttu-id="cf9e4-110">Para explorar en profundidad, seleccione la guía que desea ver.</span><span class="sxs-lookup"><span data-stu-id="cf9e4-110">To drill down, select the guide that you want to view.</span></span>
+3. <span data-ttu-id="cf9e4-111">Seleccione la pestaña **Actividades** para ver las actividades que el nuevo empleado ha completado.</span><span class="sxs-lookup"><span data-stu-id="cf9e4-111">Select the **Activities** tab to see which activities your new hire has completed.</span></span>
 
-    ![[<span data-ttu-id="f76ba-112">Ver actividades que el nuevo empleado ha completado contratación ha completado</span><span class="sxs-lookup"><span data-stu-id="f76ba-112">Viewing activities that the new hire has completed</span></span>](./media/onboard-status-activities.png)](./media/onboard-status-activities.png)
+    ![[<span data-ttu-id="cf9e4-112">Ver actividades que el nuevo empleado ha completado contratación ha completado</span><span class="sxs-lookup"><span data-stu-id="cf9e4-112">Viewing activities that the new hire has completed</span></span>](./media/onboard-status-activities.png)](./media/onboard-status-activities.png)
 
-## <a name="view-onboarding-tasks-that-are-assigned-to-you"></a><span data-ttu-id="f76ba-113">Visualización de las tareas de incorporación que se tienen asignadas</span><span class="sxs-lookup"><span data-stu-id="f76ba-113">View onboarding tasks that are assigned to you</span></span>
+## <a name="view-onboarding-tasks-that-are-assigned-to-you"></a><span data-ttu-id="cf9e4-113">Visualización de las tareas de incorporación que se tienen asignadas</span><span class="sxs-lookup"><span data-stu-id="cf9e4-113">View onboarding tasks that are assigned to you</span></span>
 
-1. <span data-ttu-id="f76ba-114">En el menú izquierdo, seleccione **Tareas**.</span><span class="sxs-lookup"><span data-stu-id="f76ba-114">On the left menu, select **Tasks**.</span></span> <span data-ttu-id="f76ba-115">Ve una visión general de todas las tareas de incorporación que se le han asignado desde las guías de incorporación que se enviaron en los empleados.</span><span class="sxs-lookup"><span data-stu-id="f76ba-115">You see an overview of all the onboarding tasks that have been assigned to you from the onboarding guides that were sent to employees.</span></span>
-2. <span data-ttu-id="f76ba-116">Para explorar en profundidad, seleccione la tarea deseada.</span><span class="sxs-lookup"><span data-stu-id="f76ba-116">To drill down, select the desired task.</span></span>
-3. <span data-ttu-id="f76ba-117">Haga un seguimiento con el nuevo empleado según sea necesario.</span><span class="sxs-lookup"><span data-stu-id="f76ba-117">Follow up with the new hire as required.</span></span>
-4. <span data-ttu-id="f76ba-118">Cuando haya completado la tarea, márquela como completada agregando una marca de verificación al círculo.</span><span class="sxs-lookup"><span data-stu-id="f76ba-118">When you've completed the task, mark it as completed by adding a check mark to the circle.</span></span>
+1. <span data-ttu-id="cf9e4-114">En el menú izquierdo, seleccione **Tareas**.</span><span class="sxs-lookup"><span data-stu-id="cf9e4-114">On the left menu, select **Tasks**.</span></span> <span data-ttu-id="cf9e4-115">Ve una visión general de todas las tareas de incorporación que se le han asignado desde las guías de incorporación que se enviaron en los empleados.</span><span class="sxs-lookup"><span data-stu-id="cf9e4-115">You see an overview of all the onboarding tasks that have been assigned to you from the onboarding guides that were sent to employees.</span></span>
+2. <span data-ttu-id="cf9e4-116">Para explorar en profundidad, seleccione la tarea deseada.</span><span class="sxs-lookup"><span data-stu-id="cf9e4-116">To drill down, select the desired task.</span></span>
+3. <span data-ttu-id="cf9e4-117">Haga un seguimiento con el nuevo empleado según sea necesario.</span><span class="sxs-lookup"><span data-stu-id="cf9e4-117">Follow up with the new hire as required.</span></span>
+4. <span data-ttu-id="cf9e4-118">Cuando haya completado la tarea, márquela como completada agregando una marca de verificación al círculo.</span><span class="sxs-lookup"><span data-stu-id="cf9e4-118">When you've completed the task, mark it as completed by adding a check mark to the circle.</span></span>
 
-## <a name="next-steps"></a><span data-ttu-id="f76ba-119">Pasos siguientes</span><span class="sxs-lookup"><span data-stu-id="f76ba-119">Next steps</span></span>
+## <a name="next-steps"></a><span data-ttu-id="cf9e4-119">Pasos siguientes</span><span class="sxs-lookup"><span data-stu-id="cf9e4-119">Next steps</span></span>
 
-- [<span data-ttu-id="f76ba-120">Crear equipos de contratación en Onboard</span><span class="sxs-lookup"><span data-stu-id="f76ba-120">Create hiring teams in Onboard</span></span>](./onboard-create-team.md)
+- [<span data-ttu-id="cf9e4-120">Crear equipos de contratación en Onboard</span><span class="sxs-lookup"><span data-stu-id="cf9e4-120">Create hiring teams in Onboard</span></span>](./onboard-create-team.md)
 
-### <a name="see-also"></a><span data-ttu-id="f76ba-121">Consulte también</span><span class="sxs-lookup"><span data-stu-id="f76ba-121">See also</span></span>
+### <a name="see-also"></a><span data-ttu-id="cf9e4-121">Consulte también</span><span class="sxs-lookup"><span data-stu-id="cf9e4-121">See also</span></span>
 
-- [<span data-ttu-id="f76ba-122">Probar o comprar la aplicación Onboard</span><span class="sxs-lookup"><span data-stu-id="f76ba-122">Try or buy the Onboard app</span></span>](https://dynamics.microsoft.com/talent/onboard/)
-- [<span data-ttu-id="f76ba-123">Novedades</span><span class="sxs-lookup"><span data-stu-id="f76ba-123">What's new</span></span>](./whats-new.md)
-- [<span data-ttu-id="f76ba-124">Notas de la versión</span><span class="sxs-lookup"><span data-stu-id="f76ba-124">Release notes</span></span>](https://docs.microsoft.com/business-applications-release-notes/index)
-- [<span data-ttu-id="f76ba-125">Obtener soporte</span><span class="sxs-lookup"><span data-stu-id="f76ba-125">Get support</span></span>](./talent-support.md)
+- [<span data-ttu-id="cf9e4-122">Probar o comprar la aplicación Onboard</span><span class="sxs-lookup"><span data-stu-id="cf9e4-122">Try or buy the Onboard app</span></span>](https://dynamics.microsoft.com/talent/onboard/)
+- [<span data-ttu-id="cf9e4-123">Novedades y cambios en Dynamics 365 Talent</span><span class="sxs-lookup"><span data-stu-id="cf9e4-123">What's new or changed in Dynamics 365 Talent</span></span>](./whats-new.md)
+- [<span data-ttu-id="cf9e4-124">Planes de lanzamiento</span><span class="sxs-lookup"><span data-stu-id="cf9e4-124">Release plans</span></span>](https://docs.microsoft.com/business-applications-release-notes/index)
+- [<span data-ttu-id="cf9e4-125">Obtener soporte para Microsoft Dynamics 365 Talent</span><span class="sxs-lookup"><span data-stu-id="cf9e4-125">Get support for Microsoft Dynamics 365 Talent</span></span>](./talent-support.md)
