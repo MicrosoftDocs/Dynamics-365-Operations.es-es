@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 4e47aea3a9d1ce62a85aac9a4acce398b5847f1b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4bcc6937da0e9f66014d9c00668e0c6790433ba8
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2191417"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811979"
 ---
 # <a name="optimization-advisor-overview"></a>Visión general de aviso de optimización
 
@@ -38,7 +38,7 @@ La configuración incorrecta y la configuración de un módulo pueden afectar ne
 
 El espacio de trabajo **Asesor de optimización** es una herramienta que permite a los usuarios avanzados, analistas de negocios, consultores funcionales, y las funciones del soporte para la TI identificar problemas en la configuración y datos empresariales de módulo. El asesor de optimización sugiere las prácticas recomendadas para la configuración de módulo e identifica los datos empresariales que son obsoletos o incorrectos.
 
-El asesor de optimización ejecuta periódicamente un conjunto de reglas de prácticas recomendadas. Hay disponible un conjunto de reglas, sin embargo, los usuarios también pueden crear reglas que sean específicas a sus personalizaciones, soluciones de fabricantes de software independientes (ISV) y datos de la empresa. Para obtener más información acerca de cómo crear reglas, consulte [Crear nuevas reglas](./create-rules-optimization-advisor.md).
+El asesor de optimización ejecuta periódicamente un conjunto de reglas de prácticas recomendadas. Hay disponible un conjunto de reglas, sin embargo, los usuarios también pueden crear reglas que sean específicas a sus personalizaciones, soluciones de fabricantes de software independientes (ISV) y datos de la empresa. Para obtener más información acerca de cómo crear reglas, consulte [Crear nuevas reglas para el Asesor de optimización](./create-rules-optimization-advisor.md).
 
 Cuando una infracción de una regla se detecta, se genera una oportunidad de optimización y aparece en el espacio de trabajo **Asesor de optimización**. Un usuario puede realizar la acción correctora adecuada directamente desde el espacio de trabajo **Asistente de optimización**.
 
@@ -92,6 +92,6 @@ Para desactivar la evaluación de reglas específicas, seleccione la oportunidad
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Crear nuevas reglas](./create-rules-optimization-advisor.md)
+[Crear reglas para el asesor de optimización](./create-rules-optimization-advisor.md)
 
 [Asesor de optimización en Dynamics 365 for Finance and Operations (vídeo)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)

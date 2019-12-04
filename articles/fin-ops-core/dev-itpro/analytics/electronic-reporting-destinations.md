@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 5b52e1765d3afbe1730e96f58b601aebccd12787
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 7154a6e8aff62b1ebf79edfecb1e1b99048f7c44
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181275"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771478"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Destinos de informes electrónicos (ER)
 
@@ -122,7 +122,7 @@ Si establece **Habilitado** en **Sí**, se crea una vista previa de la salida. P
 
 ### <a name="power-bi-destination"></a>Destino Power BI
 
-Establezca **Habilitado** en **Sí** para usar la configuración de ER para organizar la transferencia de datos de la instancia a los servicios de Microsoft Power BI. Los archivos transferidos se almacenan en una instancia de Microsoft SharePoint Server que debe configurarse para ese propósito. Para obtener más información, consulte [Usar una configuración electrónica de informes para proporcionar datos de Finance a Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md).
+Establezca **Habilitado** en **Sí** para usar la configuración de ER para organizar la transferencia de datos de la instancia a los servicios de Microsoft Power BI. Los archivos transferidos se almacenan en una instancia de Microsoft SharePoint Server que debe configurarse para ese propósito. Para obtener más información, consulte [Configurar informes electrónicos (ER) para proporcionar datos a Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md).
 
 > [!TIP]
 > Para reemplazar el comportamiento predeterminado (es decir, el cuadro de diálogo para una configuración), puede crear una referencia de destino y un archivo de destino para el componente de salida principal y, a continuación, deshabilitar todos los destinos.
@@ -163,4 +163,4 @@ El requisito previo es que el formato debe estar disponible en las configuracion
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general de los informes electrónicos](general-electronic-reporting.md)
+[Visión general de los informes electrónicos (ER)](general-electronic-reporting.md)

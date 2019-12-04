@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 167afa70bfa35b966081709f1587d61d401d318f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 23a4cff85bb5c9d119f9ec47e8421aa1964a3d4f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184356"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769619"
 ---
 # <a name="best-practices-for-importing-vouchers-by-using-the-general-journal-entity"></a>Procedimientos recomendados para importar asientos mediante la entidad Diario general
 
@@ -57,7 +57,7 @@ Las secciones siguientes describen el efecto de esta configuración y también e
 
 ### <a name="voucher-number"></a>Número de asiento
 
-- Al utilizar la configuración **Procesamiento basado en conjuntos** en la entidad Diario general, se debe proporcionar el número de asiento en el archivo importado. Todas las transacciones del Diario general se asignan al número de asiento que se proporciona en el archivo importado, incluso si el asiento no está equilibrado. Si desea utilizar el procesamiento basado en conjuntos, pero desea utilizar la secuencia numérica que se define para los números de asiento, se ha proporcionado una revisión para la versión de febrero de 2016. El número de revisión es 3170316 y está disponible para su descarga desde Lifecycle Services (LCS). Para obtener más información, consulte [Descargar revisiones desde Lifecycle Services](../migration-upgrade/download-hotfix-lcs.md).
+- Al utilizar la configuración **Procesamiento basado en conjuntos** en la entidad Diario general, se debe proporcionar el número de asiento en el archivo importado. Todas las transacciones del Diario general se asignan al número de asiento que se proporciona en el archivo importado, incluso si el asiento no está equilibrado. Si desea utilizar el procesamiento basado en conjuntos, pero desea utilizar la secuencia numérica que se define para los números de asiento, se ha proporcionado una revisión para la versión de febrero de 2016. El número de revisión es 3170316 y está disponible para su descarga desde Lifecycle Services (LCS). Para obtener más información, consulte [Descargar actualizaciones desde Lifecycle Services (LCS)](../migration-upgrade/download-hotfix-lcs.md).
 
     - Para habilitar esta funcionalidad, en el nombre del diario que se usa para las importaciones, establezca **Asignación numérica en el registro** en **Sí**.
     - Todavía se debe definir un número de asiento en el archivo importado. Sin embargo, este número es temporal y se sobrescribe por el número de asiento cuando se registra el diario. Debe asegurarse de que las líneas del diario se agrupan correctamente por número de asiento temporal. Por ejemplo, durante el registro, hay tres líneas que tienen un número de asiento temporal de 1. El número de asiento temporal de las tres líneas se sobrescribirá con el siguiente número de la secuencia numérica. Si esas tres líneas no son una entrada equilibrada, el asiento no está registrado. A continuación, si se encuentran líneas que tienen un número de asiento temporal de 2, este número se sobrescribe con el siguiente número de asiento de la secuencia numérica, y así sucesivamente.

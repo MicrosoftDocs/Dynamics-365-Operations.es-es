@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 977037f0e2b313ebf05a3e1616d34567f82e82d7
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: ba475721b69e7c75dfd2197597b54050a3598d37
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250401"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770275"
 ---
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronizar las tareas de proyectos directamente desde Project Service Automation a Finance and Operations
 
@@ -45,7 +45,7 @@ La ilustración siguiente muestra cómo se sincronizan los datos entre Project S
 
 ## <a name="template-and-task"></a>Plantilla y tarea
 
-Para obtener acceso a la plantilla, en el centro de administración de Microsoft PowerApps, seleccione **Proyectos** y, a continuación, en la esquina superior derecha, seleccione **Nuevo proyecto** para seleccionar plantillas públicas.
+Para obtener acceso a la plantilla, en el centro de administración de Microsoft Power Apps, seleccione **Proyectos** y, a continuación, en la esquina superior derecha, seleccione **Nuevo proyecto** para seleccionar plantillas públicas.
 
 La plantilla y la tarea subyacente siguientes se usan para sincronizar las tareas del proyecto desde Project Service Automation a Finance:
 

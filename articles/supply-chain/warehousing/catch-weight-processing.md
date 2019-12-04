@@ -3,7 +3,7 @@ title: Procesamiento de producto con peso capturado con la gestión de almacenes
 description: Este tema describe cómo usar plantillas de trabajo y directivas de ubicación para determinar cómo y dónde se realiza el trabajo en el almacén.
 author: perlynne
 manager: AnnBe
-ms.date: 08/19/2019
+ms.date: 11/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: d5e9f8e4d154e5f56ee7ceae666cd935d6ceb460
-ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
+ms.openlocfilehash: 5800f95de0ec773f40c506662a031887810b8c92
+ms.sourcegitcommit: db222a1719d4756d9ccb73fc71e7eaf4521c23a7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "1887144"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2696648"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Procesamiento de producto con peso capturado con la gestión de almacenes
 
@@ -181,7 +181,7 @@ Actualmente, la funcionalidad de las etiquetas de peso capturado sólo admite co
 - Cuando procesar un estado de inventario cambiado mediante la aplicación del almacén.
 - Cuando una transferencia desde el almacén se realiza mediante la aplicación del almacén.
 - Al procesar el ajuste de entrada y salida mediante la aplicación del almacén.
-- Al seleccionar el trabajo se procesa para las ventas y pedidos de transferencia. (Recuerde que las etiquetas de peso capturado no se pueden registrar para la selección de componente de producto).
+- Al seleccionar el trabajo se procesa para ventas, transferencias y líneas de producción.
 - Cuando las cantidades seleccionadas se reducen de las líneas de carga, independientemente de si los contenedores están utilizados.
 - Cuando los productos están embalados en los contenedores en una instalación de acondicionamiento.
 - Cuando se vuelven a abrir los contenedores.

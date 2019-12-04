@@ -1,5 +1,5 @@
 ---
-title: Seguir fuentes para los perfiles y las solicitudes del candidato
+title: Llevar el seguimiento de orígenes de candidatos en Attract
 description: Este tema proporciona información acerca realizar el seguimiento del origen de los perfiles y las solicitudes del candidato.
 author: hachandr
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 5b368e97a716cd1ce4f668c2a97326877a2d3dff
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 8860f508eebc377042c4e101eeb08a14a737ba0c
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551896"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832679"
 ---
-# <a name="track-sources-for-candidate-profiles-and-applications"></a>Seguir fuentes para los perfiles y las solicitudes del candidato
+# <a name="track-candidate-sources-in-attract"></a>Llevar el seguimiento de orígenes de candidatos en Attract
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 > [!NOTE] 
 > La funcionalidad de la que se habla en este tema esta disponible como parte de una versión preliminar. El contenido y la funcionalidad están sujetos a cambios. Para utilizar esta función, pida que un administrador la active usando la **Configuración de administración** en Attract. Una versión futura proporcionará informes de seguimiento del origen. Para obtener más información, consulte [Acceder a las características de vista previa en Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).

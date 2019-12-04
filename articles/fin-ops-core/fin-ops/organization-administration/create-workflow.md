@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 2168b33c8495eab61ec0c8262b042cd16420031c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a643be553f3fcdfbe53f2024982a596e498830a8
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190106"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811316"
 ---
 # <a name="create-workflows-overview"></a>Visión general de la creación de flujos de trabajo
 
@@ -54,21 +54,21 @@ Siga estos pasos para configurar las propiedades del flujo de trabajo.
 
 1. Haga clic en el lienzo para asegurarse de que no haya ningún elemento de flujo de trabajo seleccionado.
 2. Haga clic en **Propiedades** para abrir la página de **Propiedades** correspondiente al flujo de trabajo.
-3. Siga los procedimientos del tema [Configurar las propiedades del flujo de trabajo](configure-workflow-properties.md).
+3. Siga los procedimientos del tema [Configurar propiedades del flujo de trabajo](configure-workflow-properties.md).
 
 ## <a name="configure-the-elements-of-the-workflow"></a>Configuración de los elementos del flujo de trabajo
 
 Configure los elementos que arrastró al lienzo. Para obtener más información acerca de cómo configurar cada elemento de flujo de trabajo, vea los siguientes temas:
 
-- [Configuración de una tarea manual](configure-manual-task-workflow.md)
-- [Configuración de una tarea automatizada](configure-automated-task-workflow.md)
-- [Configuración de un proceso de aprobación](configure-approval-process-workflow.md)
-- [Configurar un paso de aprobación](configure-approval-step-workflow.md)
-- [Configuración de una decisión manual](configure-manual-decision-workflow.md)
-- [Configuración de una decisión condicional](configure-conditional-decision-workflow.md)
-- [Configuración de una actividad paralela](configure-parallel-activity-workflow.md)
-- [Configuración de una rama paralela](configure-parallel-branch-workflow.md)
-- [Configuración de un flujo de trabajo de elementos](configure-line-item-workflow.md)
+- [Configurar tareas manuales en un flujo de trabajo](configure-manual-task-workflow.md)
+- [Configurar tareas automatizadas en un flujo de trabajo](configure-automated-task-workflow.md)
+- [Configurar los procesos de aprobación en un flujo de trabajo](configure-approval-process-workflow.md)
+- [Configurar los pasos de aprobación en un flujo de trabajo](configure-approval-step-workflow.md)
+- [Configurar decisiones manuales en un flujo de trabajo](configure-manual-decision-workflow.md)
+- [Configurar decisiones condicionales en un flujo de trabajo](configure-conditional-decision-workflow.md)
+- [Configurar ramas paralelas en un flujo de trabajo](configure-parallel-activity-workflow.md)
+- [Configurar una rama paralela](configure-parallel-branch-workflow.md)
+- [Configurar flujos de trabajo de elementos](configure-line-item-workflow.md)
 
 ## <a name="resolve-any-errors-or-warnings"></a>Resolución de los errores o advertencias
 

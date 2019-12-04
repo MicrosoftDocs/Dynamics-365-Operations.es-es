@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11ed2101304c4e09744bbd10e94e9cd2a8db4da5
-ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
+ms.openlocfilehash: ad6c1c7544f3c9d53b9d5759b246f81dae6cfe2c
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2578250"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771082"
 ---
 # <a name="electronic-reporting-er-overview"></a>Visión general de los informes electrónicos (ER)
 
@@ -71,7 +71,7 @@ Una asignación de modelo que admite documentos electrónicos salientes tiene la
 
 - Puede utilizar distintos tipos de datos como orígenes de datos para un modelo de datos. Por ejemplo, puede utilizar tablas, entidades de datos, métodos o enumeraciones.
 - Admite parámetros de entrada de usuario que se pueden definir como orígenes de datos para un modelo de datos cuando algunos datos se deben especificar en el tiempo de ejecución.
-- Admite la transformación de los datos en los grupos necesarios. También permite, filtrar, clasificar y sumar datos y anexar campos lógicos calculados que están diseñados con las fórmulas que se asemejan las fórmulas de Microsoft Excel. Para obtener más información, consulte [Diseñador de fórmulas en los informes electrónicos](general-electronic-reporting-formula-designer.md)).
+- Admite la transformación de los datos en los grupos necesarios. También permite, filtrar, clasificar y sumar datos y anexar campos lógicos calculados que están diseñados con las fórmulas que se asemejan las fórmulas de Microsoft Excel. Para obtener más información, consulte [Diseñador de fórmulas en los informes electrónicos (ER)](general-electronic-reporting-formula-designer.md).
 
 
 Una asignación de modelo que admite documentos electrónicos entrantes tiene las siguientes capacidades:
@@ -362,5 +362,5 @@ ER le permite adoptar automáticamente los cambios de la última versión del co
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-- [Requisitos de localización: crear una configuración de informes electrónicos](electronic-reporting-configuration.md)
-- [Administrar el ciclo de vida de las configuraciones de la notificación electrónica](general-electronic-reporting-manage-configuration-lifecycle.md)
+- [Crear configuraciones de informes electrónicos (ER)](electronic-reporting-configuration.md)
+- [Administrar el ciclo de vida de las configuraciones de la notificación electrónica (ER)](general-electronic-reporting-manage-configuration-lifecycle.md)

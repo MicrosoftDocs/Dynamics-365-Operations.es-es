@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9eef9d8c58d19b05901035f4c679ee7d9902819
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8196ddc879df1f398aabef0c1c4064bf0d4fff2c
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179757"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771929"
 ---
 # <a name="set-up-fixed-assets"></a>Configurar Activos fijos
 
@@ -51,7 +51,7 @@ Tras configurar los perfiles de depreciación, debe crear los libros necesarios 
 
 A cada libro se asigna un perfil de depreciación principal. Los libros también tienen un perfil de depreciación alternativo o de conversión, si se puede aplicar este tipo de perfil. Para incluir automáticamente el libro de activos fijos en ejecuciones de depreciación, debe habilitar la opción **Calcular la depreciación**. Si esta opción no está habilitada para un activo, la propuesta de depreciación omite el activo.
 
-También puede configurar los libros derivados. Las transacciones derivadas especificadas se registran con libros derivados como una copia exacta de la transacción principal. Por lo tanto, las transacciones derivadas se configuran normalmente para las adquisiciones y las cancelaciones, no para las transacciones de depreciación. Para obtener más información, consulte [Configuración de libros](tasks/set-up-value-models.md).
+También puede configurar los libros derivados. Las transacciones derivadas especificadas se registran con libros derivados como una copia exacta de la transacción principal. Por lo tanto, las transacciones derivadas se configuran normalmente para las adquisiciones y las cancelaciones, no para las transacciones de depreciación. Para obtener más información, consulte [Configurar modelos de valor](tasks/set-up-value-models.md).
 
 ## <a name="fixed-asset-posting-profiles"></a>Perfiles de contabilización de activos fijos
 

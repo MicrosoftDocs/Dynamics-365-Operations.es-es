@@ -1,5 +1,5 @@
 ---
-title: Crear, aprobar y publicar trabajos en Attract
+title: Crear un trabajo en Attract
 description: Este tema describe los elementos de un trabajo en Attract. También se explica cómo crear un trabajo.
 author: hasrivas
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: hasrivas
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: db725c230de5e3dfe971098249b280d9da47ae20
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 9dcdbcea995285c879f91c0bff435103865cc10f
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551081"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832940"
 ---
-# <a name="create-approve-and-post-jobs-in-attract"></a>Crear, aprobar y registrar trabajos en Attract
+# <a name="create-a-job-in-attract"></a>Crear un trabajo en Attract
 
 [!include [banner](includes/banner.md)]
 
@@ -49,7 +49,7 @@ Si se ha activado la gestión del puesto en el Centro de administración, la bú
 > [!NOTE]
 > La gestión de puestos está disponible con el complemento de contratación completa.
 
-En función de los valores de la actividad de la oferta del proceso de contratación, se puede usar dos veces un número de puesto en una oferta. Para obtener más información, consulte [Proceso de contratación](./activities-attract.md).
+En función de los valores de la actividad de la oferta del proceso de contratación, se puede usar dos veces un número de puesto en una oferta. Para obtener más información, consulte [Actividades en procesos de contratación](./activities-attract.md).
 
 Attract incluye un conjunto predeterminado de **Aptitudes**. Estas aptitudes se muestran como sugerencias a medida que escribe. Puede agregar más aptitudes especificando el nuevo texto de aptitud en el campo y después presionando Intro.
 
@@ -67,7 +67,7 @@ El equipo de contratación se puede actualizar después de activar el trabajo.
 
 La información predeterminada sobre el proceso de contratación se basa en la plantilla de proceso que se activó cuando el trabajo se creó. Si una plantilla específica no se activó en ese momento, se usa la plantilla predeterminada. Al definir el proceso de contratación, puede agregar o quitar las distintas etapas, salvo las etapas Cliente potencial, Solicitud y Oferta. Aunque la etapa de cliente potencial no se pueda quitar, puede desactivarse. Dentro de cada etapa, puede agregar o quitar una o varias actividades predefinidas.
 
-Para obtener más información sobre las actividades que se pueden agregar al proceso de contratación, consulte [Actividades de proceso de contratación en Attract](./activities-attract.md).
+Para obtener más información sobre las actividades que se pueden agregar al proceso de contratación, consulte [Actividades en procesos de contratación](./activities-attract.md).
 
 > [!NOTE]
 > El proceso de contratación no se puede actualizar después de activar el trabajo.
@@ -76,7 +76,7 @@ Para obtener más información sobre las actividades que se pueden agregar al pr
 
 Después de que se active un trabajo, este se puede registrar. Solo los reclutadores y los administradores pueden registrar trabajos. El trabajo se puede registrar en Talent Careers (un sitio de carreras de Dynamics 365 Talent) o LinkedIn. El equipo de Attract trabaja continuamente para asociarse con los agregadores tableros de trabajo. Esta lista se expandirá con el tiempo. Cuando un trabajo se registra como interno únicamente, los candidatos necesitan una cuenta de DAA para ver y solicitar el trabajo. Si el trabajo se muestra como público, los candidatos pueden ver y solicitar trabajos usando todas las opciones de autenticación. 
 
-Para obtener más información acerca de registros de trabajo, consulte [La funcionalidad del sitio de carreras en Attract](career-site.md).
+Para obtener más información acerca de registros de trabajo, consulte [Configurar su sitio de desarrollo profesional en Microsoft Dynamics 365 Talent - Attract](career-site.md).
 
 > [!NOTE]
 > La funcionalidad de registro de trabajo está disponible únicamente con el complemento de contratación completa de Attract.
@@ -90,7 +90,7 @@ Después de que se active un trabajo, este se puede registrar, y se le pueden ag
 
 ## <a name="prospects-and-applicants"></a>Clientes potenciales y candidatos
 
-La opción para agregar clientes potenciales a un trabajo se establece en la [Actividad del cliente potencial](./activities-attract.md#prospect-activity) en el proceso de contratación. Esta opción debe ser establecida antes de activar el trabajo. Después de que se active un trabajo, se le pueden agregar los clientes potenciales y los candidatos.
+La opción para agregar clientes potenciales a un trabajo se establece en las [Actividades de los procesos de contratación](./activities-attract.md#prospect-activity) en el proceso de contratación. Esta opción debe ser establecida antes de activar el trabajo. Después de que se active un trabajo, se le pueden agregar los clientes potenciales y los candidatos.
 
 ## <a name="approvals"></a>Aprobaciones
 

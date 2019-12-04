@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e5e795ca6f7831ecd3fa28be9782f0b287eea6e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: eef77a5d81d12ec92eea86b1dd9902d9e3d80b33
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190014"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812372"
 ---
 # <a name="workflow-system-overview"></a>Visión general del sistema de flujo de trabajo
 
@@ -57,18 +57,18 @@ El uso del sistema de flujo de trabajo en una organización ofrece varias ventaj
 
 ## <a name="workflow-content"></a>Contenido del flujo de trabajo
 
-+ [Arquitectura del flujo de trabajo](workflow-system-architecture.md)
++ [Arquitectura del sistema de flujo de trabajo](workflow-system-architecture.md)
 + [Elementos del flujo de trabajo](workflow-elements.md)
-+ [Acciones de flujo de trabajo](workflow-actions.md)
-+ [Creación de un flujo de trabajo](create-workflow.md)
-+ [Configuración de propiedades del flujo de trabajo](configure-workflow-properties.md)
-+ [Configuración de una tarea manual en un flujo de trabajo](configure-manual-task-workflow.md)
-+ [Configuración de una tarea automatizada en un flujo de trabajo](configure-automated-task-workflow.md)
-+ [Configuración de un proceso de aprobación en un flujo de trabajo](configure-approval-process-workflow.md)
-+ [Configuración de un paso de aprobación en un flujo de trabajo](configure-approval-step-workflow.md)
-+ [Configuración de una decisión manual en un flujo de trabajo](configure-manual-decision-workflow.md)
-+ [Configuración de una decisión condicional en un flujo de trabajo](configure-conditional-decision-workflow.md)
-+ [Configuración de una actividad paralela en un flujo de trabajo](configure-parallel-activity-workflow.md)
-+ [Configuración de rama paralela en un flujo de trabajo](configure-parallel-branch-workflow.md)
-+ [Configuración de un flujo de trabajo de elementos](configure-line-item-workflow.md)
-+ [Preguntas frecuentes de flujo de trabajo](workflow-FAQ.md)
++ [Acciones en los procesos de aprobación de flujo de trabajo](workflow-actions.md)
++ [Visión general de la creación de flujos de trabajo](create-workflow.md)
++ [Configurar propiedades del flujo de trabajo](configure-workflow-properties.md)
++ [Configurar tareas manuales en un flujo de trabajo](configure-manual-task-workflow.md)
++ [Configurar tareas automatizadas en un flujo de trabajo](configure-automated-task-workflow.md)
++ [Configurar los procesos de aprobación en un flujo de trabajo](configure-approval-process-workflow.md)
++ [Configurar los pasos de aprobación en un flujo de trabajo](configure-approval-step-workflow.md)
++ [Configurar decisiones manuales en un flujo de trabajo](configure-manual-decision-workflow.md)
++ [Configurar decisiones condicionales en un flujo de trabajo](configure-conditional-decision-workflow.md)
++ [Configurar actividades paralelas en un flujo de trabajo](configure-parallel-activity-workflow.md)
++ [Configurar ramas paralelas en un flujo de trabajo](configure-parallel-branch-workflow.md)
++ [Configurar flujos de trabajo de elementos](configure-line-item-workflow.md)
++ [Preguntas frecuentes sobre flujos de trabajo](workflow-FAQ.md)

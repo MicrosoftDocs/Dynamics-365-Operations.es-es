@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e39328c73fe3dd101e32ec04d895483335184ae7
-ms.sourcegitcommit: 4d6ec2b1a9674712e1efb8c46b919d554f21a2b3
+ms.openlocfilehash: 54f07e7037f818862db4a44f9ad3e3fe8545f6f9
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "2627660"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811491"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Novedades o cambios en Dynamics AX 7.0 (febrero de 2016)
 
@@ -322,7 +322,7 @@ Esta función es independiente de los métodos de costes asignados al artículo 
 <tr>
 <td>Obtenga acceso a la Ayuda guiada para procedimientos (guías de tarea) y temas sobre conceptos haciendo clic en <strong>Ayuda</strong>.</td>
 <td>El sistema de ayuda de AX 2012 apunta a temas HTML almacenados en un servidor web local. Los clientes y los socios pueden crear su propio sistema de ayuda.</td>
-<td>El sistema de ayuda en la versión actual de Dynamics AX muestra guías de tarea que se almacenan en el BPM de Microsoft Dynamics Lifecycle Services (LCS). El sistema de ayuda también muestra temas del sitio de documentos de Microsoft. Para obtener más información, consulte <a href="help-overview.md" data-raw-source="[Dynamics AX Help - Getting Started](help-overview.md)">Ayuda de Dynamics AX - Introducción</a> y <a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides available (February 2016)](new-task-guides-available-february-2016.md)">Nuevas guías de tareas disponibles (febrero de 2016)</a>.</td>
+<td>El sistema de ayuda en la versión actual de Dynamics AX muestra guías de tarea que se almacenan en el BPM de Microsoft Dynamics Lifecycle Services (LCS). El sistema de ayuda también muestra temas del sitio de documentos de Microsoft. Para obtener más información, consulte <a href="help-overview.md" data-raw-source="[Help system](help-overview.md)">Sistema de Ayuda</a> y <a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides (February 2016)](new-task-guides-available-february-2016.md)">Nuevas guías de la tarea (febrero de 2016)</a>.</td>
 <td>Las guías de tarea proporcionan una experiencia guiada e interactiva que le lleva por los pasos de una tarea o de un proceso empresarial. Puede descargar y personalizar las guías de tareas que proporciona Microsoft. El tema proporciona una forma más rápida y flexible de crear, entregar y actualizar la documentación del producto. Por lo tanto, ayuda a garantizar que puede acceder a la información técnica más reciente.</td>
 </tr>
 </tbody>
@@ -1031,6 +1031,6 @@ No se han agregado funciones nuevas.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Novedades y cambios](whats-new-changed.md)
+[Página principal de Novedades y cambios en Finance and Operations](whats-new-changed.md)
 
-[Nuevas guías de tareas disponibles (febrero de 2016)](new-task-guides-available-february-2016.md)
+[Nuevas guías de tareas (febrero de 2016)](new-task-guides-available-february-2016.md)

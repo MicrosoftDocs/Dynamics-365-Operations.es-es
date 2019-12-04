@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43700d68587cebfb4f897c8a5b619dd4771cc439
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e55ab83302cc75b1a9d9d3e4f06d2258697b31fc
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181321"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771223"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Diseñador de fórmulas en los informes electrónicos (ER)
 
@@ -773,9 +773,9 @@ Cuando se definen estos orígenes de datos, puede usar una expresión como <stro
 
 ### <a name="functions-list-extension"></a>Extensión de la lista de funciones
 
-ER le permite ampliar la lista de funciones que se usan en las expresiones de ER. Son necesarios algunos esfuerzos de ingeniería. Para obtener información detallada, vea [Ampliar la lista de funciones de informes electrónicos](general-electronic-reporting-formulas-list-extension.md).
+ER le permite ampliar la lista de funciones que se usan en las expresiones de ER. Son necesarios algunos esfuerzos de ingeniería. Para obtener información detallada, vea [Ampliar la lista de funciones de informes electrónicos (ER)](general-electronic-reporting-formulas-list-extension.md).
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-- [Visión general de los informes electrónicos](general-electronic-reporting.md)
+- [Visión general de los informes electrónicos (ER)](general-electronic-reporting.md)
 - [Ampliar la lista de funciones de Informes electrónicos (ER)](general-electronic-reporting-formulas-list-extension.md)

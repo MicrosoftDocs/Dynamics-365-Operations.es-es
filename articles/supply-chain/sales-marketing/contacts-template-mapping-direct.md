@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 7d3a4602a3d8462666dfcb26b97a4f652891f7bc
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 141464f2ce7cb4ccfd2a8fb7a266e657e8f52015
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249989"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814130"
 ---
 # <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-supply-chain-management"></a>Sincronizar contactos directamente desde Sales con contactos o clientes de Supply Chain Management
 
@@ -135,7 +135,7 @@ Las siguientes ilustraciones muestran un ejemplo de una asignación de plantilla
 
 [Sincronizar productos directamente de Supply Chain Management con productos de Sales](products-template-mapping-direct.md)
 
-[Sincronizar encabezados y líneas de pedidos de ventas directamente desde Supply Chain Management a Sales](sales-order-template-mapping-direct-two-ways.md)
+[Sincronización de pedidos de ventas entre Sales y Supply Chain Management](sales-order-template-mapping-direct-two-ways.md)
 
 [Sincronizar encabezados y líneas de factura de ventas directamente desde Supply Chain Management a Sales](sales-invoice-template-mapping-direct.md)
 

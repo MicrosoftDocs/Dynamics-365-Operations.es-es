@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 38b694b6dd4b1b9a198452e409bd64d7934b4685
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6be2f79d4f0c234028c0cc98b81cfa8ff4fcc992
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519060"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813992"
 ---
 # <a name="view-and-evaluate-the-results-of-questionnaires"></a>Ver y evaluar los resultados de cuestionarios
 
@@ -57,7 +57,8 @@ En la página **Respuestas**, puede ver los detalles sobre las respuestas, los p
 -   **Informe de respuestas**: este informe muestra las respuestas que el encuestado seleccionó para cada pregunta del cuestionario.
 -   **Respuestas incorrectas**: este informe muestra la información relacionada con las respuestas incorrectas que seleccionó el encuestado.
 
-**Nota:** el informe **Resultados** solo está disponible si usa grupos de resultados en el cuestionario y si seleccionó **Página de resultados** en la página **Cuestionarios**. Los informes **Respuesta** y **Respuestas incorrectas** solo están disponibles si seleccionó **Informe de respuestas** en la página**Cuestionarios**.
+> [!NOTE]
+> El informe **Resultados** solo está disponible si usa grupos de resultados en el cuestionario y si seleccionó **Página de resultados** en la **página Cuestionarios**. Los informes **Respuesta** y **Respuestas incorrectas** solo están disponibles si seleccionó **Informe de respuestas** en la página**Cuestionarios**.
 
 ## <a name="questionnaire-statistics"></a>Estadísticas de los cuestionarios
 Puede usar las estadísticas del cuestionario para analizar los resultados de un cuestionario completado sobre la base de cálculos que se definan. Para definir cálculos, debe completar las tareas siguientes:
@@ -77,7 +78,7 @@ Los parámetros que defina se guardarán y se podrán usar para volver a calcula
 
 [Diseñar cuestionarios](design-questionnaires.md)
 
-[Uso de cuestionarios](questionnaires.md)
+[Cuestionarios](questionnaires.md)
 
-[Distribuir y completar cuestionarios](distribute-questionnaires.md)
+[Distribuir y programar cuestionarios](distribute-questionnaires.md)
 

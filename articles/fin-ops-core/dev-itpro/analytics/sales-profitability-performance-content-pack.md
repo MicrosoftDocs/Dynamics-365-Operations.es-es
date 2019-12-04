@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e74edfc5cf17499c080e825cf4b1fd39b6063e35
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f7929aeed9a1f1e334d8c75ef941b601d8c6b664
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182770"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769933"
 ---
 # <a name="sales-and-profitability-performance-power-bi-content"></a>Contenido de Power BI de rendimiento de ventas y rentabilidad
 
@@ -77,7 +77,7 @@ El contenido de Power BI sobre **Rendimiento de ventas y rentabilidad** incluye 
 \* Ingresos este año y el año anterior, y crecimiento por categoría de ventas
 
 ## <a name="understanding-the-data-model-and-entities"></a>Comprensión del modelo de datos y de las entidades
-Los datos siguientes se usan para rellenar el informe del contenido de Power BI sobre **Rendimiento de ventas y rentabilidad**. Estos datos se representan como medidas agregadas que se realizan en el almacén de la entidad. El almacén de la entidad es una base de datos de Microsoft SQL Server que se optimiza para el análisis. Para obtener más información, consulte [Visión general de la integración de Power BI con el almacén de entidades](power-bi-integration-entity-store.md).
+Los datos siguientes se usan para rellenar el informe del contenido de Power BI sobre **Rendimiento de ventas y rentabilidad**. Estos datos se representan como medidas agregadas que se realizan en el almacén de la entidad. El almacén de la entidad es una base de datos de Microsoft SQL Server que se optimiza para el análisis. Para obtener más información, consulte [Integración de Power BI con el almacén de entidades](power-bi-integration-entity-store.md).
 
 Las medidas globales de este paquete de contenido son el subconjunto de las medidas globales que estaban disponibles en el cubo de ventas en Microsoft Dynamics AX 2012 y Microsoft Dynamics AX 2012 R3. Para realizar las medidas globales del cubo en el almacén de entidades debe hacer que sean desplegables. Para obtener más información, consulte el procedimiento relativo a cómo realizar mediciones globales en el almacén de entidades en el blog sobre [integración de Power BI con el almacén de entidades en Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/).
 

@@ -19,18 +19,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: d70bce4e47c05a7974c1b974fdca17682e5370aa
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 11a5792c9c039eb76337309ef2fdb2b994ce191a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550866"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772396"
 ---
 # <a name="near-real-time-data-integration-with-common-data-service"></a>Integración de datos casi en tiempo real con Common Data Service
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview](../includes/preview-banner.md)]
 
 En el mundo digital actual, los ecosistemas de negocio usan las aplicaciones de Microsoft Dynamics 365 como una unidad. Dado que los datos de personas, clientes, operaciones y de dispositivos de Internet de las cosas (IoT) fluyen en un origen, existe una oportunidad para los bucles de retroalimentación digitales. Para efectuar esta experiencia, la integración entre las aplicaciones de Finance and Operations y otras aplicaciones de Dynamics 365 es esencial. Algunas aplicaciones se construyen sobre Common Data Service. La integración entre los datos de aplicaciones de Finance and Operations y Common Data Service permite a otras aplicaciones comunicarse de forma coherente y fluida con Finance and Operations.
 
@@ -38,13 +36,16 @@ Las aplicaciones de Finance and Operations y Common Data Service proporcionan si
 
 ![Diagrama de visión general de la arquitectura](media/dual-write-overview.jpg)
 
-Las propuestas de valores siguientes están disponibles para los clientes:
+Las propuestas de valores siguientes están disponibles:
 
 + [Jerarquía organizativa en Common Data Service](dual-write-organization.md)
 + [Concepto de empresa en Common Data Service](dual-write-company.md)
 + [Maestro de clientes integrado](dual-write-customer.md)
++ [Libro mayor integrado](dual-write-ledger.md)
++ [Experiencia unificada del producto](dual-write-product.md)
 + [Maestro de proveedores integrado](dual-write-vendor.md)
-+ Maestro de productos unificado
++ [Sitios y almacenes integrados](dual-write-sites-and-warehouses.md)
++ [Datos fiscales maestros integrados](dual-write-tax.md)
 
 ## <a name="system-requirements"></a>Requisitos del sistema
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 9cc45a3ed468541fc0a5c8e80e745854148165e4
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 86d81d60fcbc77375f3b8c525e8c084e3a3d8a99
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026087"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773702"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-2-2019"></a>Novedades y cambios en Dynamics 365 Talent (2 de abril de 2019)
 
@@ -63,7 +63,7 @@ Para obtener más información acerca de la Platform update 25 para Finance and 
 En muchas organizaciones, los administradores de compensación y prestaciones solo pueden tener acceso a ciertos registros de compensación. Estos puede incluir registros para ejecutivos o empleados regionales. Con este cambio, recursos humanos puede administrar y mantener los planes de compensación para distintos grupos de empleados en la organización. Puede asignar roles de seguridad a los planes fijos y variables. Estos roles de seguridad determinan el acceso a los planes y los datos relacionados del empleado, como los registros de sueldo o prima, de forma que sólo dichos roles pueden procesar la compensación para los grupos de empleados.
 
 ### <a name="upgrade-to-common-data-service"></a>Actualice a Common Data Service
-Las fechas límites para actualizarse a Common Data Service se acercan rápidamente. Inicie sesión en el centro de gestión de PowerApps para determinar si su base de datos debe actualizarse. Para obtener más información acerca de las fechas límites y de los pasos necesarios para realizar la actualización, consulte [Actualizar a Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
+Las fechas límites para actualizarse a Common Data Service se acercan rápidamente. Inicie sesión en el centro de gestión de Microsoft Power Apps para determinar si su base de datos debe actualizarse. Para obtener más información acerca de las fechas límites y de los pasos necesarios para realizar la actualización, consulte [Actualizar a Common Data Service](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="in-preview"></a>En vista previa
 

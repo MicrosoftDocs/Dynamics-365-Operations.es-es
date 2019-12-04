@@ -19,19 +19,19 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d646c8ba559ba3e8d2175911e76c57d25eff02ca
-ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.openlocfilehash: e6f0b75c8d81a5ac6ec90020375aec39120d4406
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2278138"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811225"
 ---
 # <a name="add-a-recommendations-control-to-the-transaction-screen-on-pos-devices"></a>Agregue un control de recomendaciones a la pantalla de transacción en dispositivos de PDV
 
 [!include [banner](includes/banner.md)]
 
 
-Este tema describe cómo agregar un control de recomendaciones a la pantalla de transacción en un dispositivo de punto de venta (PDV) mediante el diseñador de pantalla en Microsoft Dynamics 365 Retail. Para obtener más información sobre recomendaciones del producto, lea [recomendaciones del producto en la documentación de PDV.](product.md)
+Este tema describe cómo agregar un control de recomendaciones a la pantalla de transacción en un dispositivo de punto de venta (PDV) mediante el diseñador de pantalla en Microsoft Dynamics 365 Retail. Para obtener más información sobre recomendaciones del producto, lea [recomendaciones del producto en la documentación de PDV](product.md).
 
 
 Puede mostrar recomendaciones del producto en el dispositivo de PDV cuando utilice Microsoft Dynamics 365 Retail. Para mostrar recomendaciones del producto, debe agregar un control a la pantalla de transacción mediante el diseñador de pantalla. 

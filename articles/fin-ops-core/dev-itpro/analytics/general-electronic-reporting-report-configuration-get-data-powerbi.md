@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7be41e724cb715e4b7c9077bb30d26b2bd4899dd
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c5401f310138d19f78412dff318959414c31a191
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181919"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770032"
 ---
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Configurar informes electrónicos (ER) para proporcionar datos a Power BI
 
@@ -184,7 +184,7 @@ Haga clic en el botón de **Ajustes** para el nuevo registro de destino. A conti
     [![Mapa actualizado](./media/ger-power-bi-new-run-new-map-1024x511.png)](./media/ger-power-bi-new-run-new-map.png)
 
 ## <a name="access-power-bi-report-in-finance"></a>Acceder al informe de Power BI en Finance
-Configurar la integración con Power BI. Para obtener más información, consulte [Integración de configuración de Power BI para las áreas de trabajo](configure-power-bi-integration.md).
+Configurar la integración con Power BI. Para obtener más información, consulte [Configurar la integración de Power BI para espacios de trabajo](configure-power-bi-integration.md).
 
 1. En la página del área de trabajo de **Informes electrónicos** que admite la integración de Power BI (**Gestión de la organización** &gt; **Áreas de trabajo** &gt; **Área de trabajo de informes electrónicos**), haga clic en **Opciones** &gt; **Abrir catálogo de informes**.
 2. Seleccione el informe **Detalles de exportación e importación** de Power BI que ha creado, para mostrar dicho informe como un artículo de acción en la página seleccionada.
@@ -194,6 +194,6 @@ Configurar la integración con Power BI. Para obtener más información, consult
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Destinos de informes electrónicos](electronic-reporting-destinations.md)
+[Destinos de informes electrónicos (ER)](electronic-reporting-destinations.md)
 
-[Visión general de los informes electrónicos](general-electronic-reporting.md)
+[Visión general de los informes electrónicos (ER)](general-electronic-reporting.md)

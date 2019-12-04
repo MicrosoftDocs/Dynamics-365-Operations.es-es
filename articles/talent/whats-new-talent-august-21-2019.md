@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-08-20
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 5e4272fa1c94a883a10b7893d5dc8addfa987e60
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: a3e2178dbc60582d6167898c4c3446feac49dd04
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024077"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814499"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-august-20-2019"></a>Novedades y cambios en Dynamics 365 Talent (20 de agosto de 2019)
 
@@ -35,7 +35,7 @@ Este tema describe las características que son nuevas o que se han cambiado en 
 
 ### <a name="simplified-apply-experience-for-candidates"></a>Experiencia de solicitud simplificada para candidatos 
 
-Una experiencia de solicitud simplificada para candidatos ya está disponible en vista previa pública. Una vez que esté habilitada, los candidatos podrán solicitar un trabajo mediante su currículum, usando **Solicitar con LinkedIn** (si está habilitado), o mediante el formulario de solicitud existente. Con estos cambios, los candidatos pueden enviar rápidamente la solicitud de trabajo con una necesidad mínima de rellenar manualmente los campos. Para obtener información sobre cómo habilitar esta función, consulte [Habilitar o deshabilitar las funciones de vista previa](./access-preview-feature.md#enable-or-disable-preview-features).
+Una experiencia de solicitud simplificada para candidatos ya está disponible en vista previa pública. Una vez que esté habilitada, los candidatos podrán solicitar un trabajo mediante su currículum, usando **Solicitar con LinkedIn** (si está habilitado), o mediante el formulario de solicitud existente. Con estos cambios, los candidatos pueden enviar rápidamente la solicitud de trabajo con una necesidad mínima de rellenar manualmente los campos. Para obtener más información sobre cómo habilitar esta característica, consulte [Acceso a funciones de vista preliminar en Microsoft Dynamics 365 Talent](./access-preview-feature.md#enable-or-disable-preview-features).
 
 ### <a name="view-rejection-comments-as-part-of-application-activity"></a>Ver comentarios de rechazo como parte de la actividad de solicitud
 

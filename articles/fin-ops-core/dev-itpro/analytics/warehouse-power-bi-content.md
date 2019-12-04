@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: c5d07cb9fbb32a2d9b8be11179dbba00ee73d28b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: b5fbe5ffa74953588a2357948319f5cf21f7ad36
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184586"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769770"
 ---
 # <a name="warehouse-performance-power-bi-content"></a>Contenido de Power BI de rendimiento de almacén
 
@@ -78,7 +78,7 @@ El contenido de Power BI **Rendimiento de almacén** incluye un informe. Este in
 | Rendimiento del envío        | Enviado por sitio/almacén              | El porcentaje que se envía pronto, puntualmente o tarde indicado por sitio o almacén. |
 
 ## <a name="understanding-the-data-model-and-calculations"></a>Comprensión del modelo de datos y los cálculos
-Los datos siguientes se usan para rellenar las páginas de informes en el contenido de Power BI **Rendimiento del almacén**. Estos datos se representan como medidas agregadas que se realizan en el almacén de la entidad. El almacén de la entidad es una base de datos de Microsoft SQL Server que se optimiza para el análisis. Para obtener más información, consulte [Visión general de la integración de Power BI con el almacén de entidades](power-bi-integration-entity-store.md).
+Los datos siguientes se usan para rellenar las páginas de informes en el contenido de Power BI **Rendimiento del almacén**. Estos datos se representan como medidas agregadas que se realizan en el almacén de la entidad. El almacén de la entidad es una base de datos de Microsoft SQL Server que se optimiza para el análisis. Para obtener más información, consulte [Integración de Power BI con el almacén de entidades](power-bi-integration-entity-store.md).
 
 Las siguientes medidas agregadas clave se usan como la base del contenido.
 

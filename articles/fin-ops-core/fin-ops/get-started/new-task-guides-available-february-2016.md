@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b220dfc90d4b850c774ff638c5b766f650dcef9
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d4c912e8364a2503b98e511cbf22884528e467f0
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190957"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811635"
 ---
 # <a name="new-task-guides-february-2016"></a>Nuevas guías de tareas (febrero de 2016)
 
@@ -32,7 +32,7 @@ Este tema enumera las guías de tareas que estaban publicadas en las bibliotecas
 
 ## <a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-ax"></a>Guías de tareas en la biblioteca unificada de APQC (febrero de 2016) para Microsoft Dynamics AX
 
-La biblioteca unificada APQC (febrero de 2016) contiene las guías de tareas que están pensadas para usarse para obtener ayuda con la versión de Dynamics AX 7.0.0. Si necesita versiones localizadas de estas guías de tareas, están disponibles en la biblioteca unificada APQC (mayo de 2016) para Microsoft Dynamics AX. Para obtener más información acerca de cómo conectar el sistema de Ayuda a una biblioteca de Guía de tareas, consulte [Introducción a la ayuda](help-overview.md).
+La biblioteca unificada APQC (febrero de 2016) contiene las guías de tareas que están pensadas para usarse para obtener ayuda con la versión de Dynamics AX 7.0.0. Si necesita versiones localizadas de estas guías de tareas, están disponibles en la biblioteca unificada APQC (mayo de 2016) para Microsoft Dynamics AX. Para obtener más información acerca de cómo conectar el sistema de Ayuda a una biblioteca de Guía de tareas, consulte [Sistema de Ayuda](help-overview.md).
 
 ### <a name="accounts-payable"></a>Proveedores
 

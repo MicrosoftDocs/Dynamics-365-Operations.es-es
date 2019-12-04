@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c8475e26d9a2234d4c429ef1b5e482ac06fde08
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9acc4c26febacf4ec7647cf436ac678e52df3973
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182908"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772567"
 ---
 # <a name="document-printing-overview"></a>Visión general de la impresión de documentos
 
@@ -58,7 +58,7 @@ Dado que la solución varía en función del escenario, las aplicaciones proporc
 Además de la plataforma que se implementa en la suscripción de Azure, las aplicaciones de Finance and Operations proporcionan a los clientes una aplicación de Azure integrada de primera parte que les ayuda a utilizar con más facilidad dispositivos hospedados en dominios para imprimir documentos.
 
 ## <a name="service-overview"></a>Visión general de servicios
-Aunque los documentos producidos por las aplicaciones hospedadas están esperando para ser impresos en un dispositivo conectado a la red, estos se guardan en el almacenamiento de blobs de Azure. El [Agente de rutas de documentos](install-document-routing-agent.md) utiliza la autenticación de Azure para establecer un canal seguro para los servicios de Azure.
+Aunque los documentos producidos por las aplicaciones hospedadas están esperando para ser impresos en un dispositivo conectado a la red, estos se guardan en el almacenamiento de blobs de Azure. El [Agente de instalar ruta de documentos para habilitar la impresión de red](install-document-routing-agent.md) utiliza la autenticación de Azure para establecer un canal seguro para los servicios de Azure.
 
 **Secuencia de ejecuciones**
 

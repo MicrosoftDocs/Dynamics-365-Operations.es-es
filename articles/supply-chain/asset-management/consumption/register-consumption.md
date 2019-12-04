@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 43f14a1cbd016335b857fdff1147740b27d5c765
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 3d23375ec7ebe9b43c2d2e3e376e26c348131bd3
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653332"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812269"
 ---
 # <a name="register-consumption"></a>Registrar consumo
 
@@ -33,7 +33,7 @@ ms.locfileid: "2653332"
 
 Cuando se haya completado un trabajo de mantenimiento en una orden de trabajo, el paso siguiente es hacer los registros de consumo y registrar los diarios. Puede hacer registros en los siguientes tipos de consumo: horas, artículos y gastos. Los distintos tipos de consumo se registran en la página **Diarios de órdenes de trabajo**. La configuración del diario en **Administración de activos** se utiliza para crear y registrar diarios independientes para horas, artículos y gastos en el módulo **Gestión y contabilidad de proyectos**.
 
-En algunos casos, es posible que pueda agregar o eliminar líneas de previsión en una orden de trabajo. La configuración del estado de ciclo de vida de una orden de trabajo, el tipo de proyecto relacionado y las reglas de etapa relacionadas con el tipo de proyecto determinan si puede agregar o editar líneas del diario. Obtenga más información sobre los estados de ciclo de vida de una orden de trabajo y las etapas de proyecto relacionadas en [Integración en la contabilidad y gestión de proyectos](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).
+En algunos casos, es posible que pueda agregar o eliminar líneas de previsión en una orden de trabajo. La configuración del estado de ciclo de vida de una orden de trabajo, el tipo de proyecto relacionado y las reglas de etapa relacionadas con el tipo de proyecto determinan si puede agregar o editar líneas del diario. Lea más información sobre estados del ciclo de vida de la orden de trabajo y fases del proyecto relacionadas en [Previsiones, órdenes de trabajo y proyectos](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).
 
 >[!NOTE]
 >Es posible configurar un registro automático de diarios en el estado de ciclo de vida de una orden de trabajo. Consulte [Estados de ciclo de vida de orden de trabajo](../setup-for-work-orders/work-order-lifecycle-states.md) para obtener más información.

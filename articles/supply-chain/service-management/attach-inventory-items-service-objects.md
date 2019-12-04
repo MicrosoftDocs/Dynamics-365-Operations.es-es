@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8edc91a0594c32f883924c3b144616577b10bef
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 88a833032284982fd44fbc8d785276b665a0f370
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563446"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814153"
 ---
 # <a name="attach-inventory-items-to-service-objects"></a>Vincular artículos de inventario a objetos de servicio    
 
@@ -46,7 +46,7 @@ El artículo se habrá vinculado al objeto de servicio y las dimensiones de inve
 
 ## <a name="see-also"></a>Consulte también
 
-[Objetos de servicio](service-objects.md)
+[Visión genera de los objetos de servicio](service-objects.md)
 
   
 

@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a21394daeb797995418c3b139191dd700c129e12
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 3f0180f63c32f3e88d7f5e245716ccc908cc026d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2019402"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811249"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Conectar periféricos al punto de venta (PDV)
 
@@ -33,7 +33,7 @@ ms.locfileid: "2019402"
 Este tema trata de cómo conectar periféricos a su Retail POS.
 
 > [!NOTE]
-> Para obtener instrucciones específicas de instalación, consulte [Instalación y configuración de la estación de hardware para Retail](retail-hardware-station-configuration-installation.md) e [Instalación y descarga de autoservicio de Retail Modern POSIn, y activación de dispositivo de Modern POS y Cloud POS](retail-modern-pos-device-activation.md).
+> Para obtener instrucciones de configuración específicas, consulte [Instalar y configurar Retail Hardware Station](retail-hardware-station-configuration-installation.md) y [Configurar, instalar y activar Retail Modern POS (MPOS)](retail-modern-pos-device-activation.md).
 
 ## <a name="key-components"></a>Componentes clave
 
@@ -139,7 +139,7 @@ El perfil sin funcionalidad se ajusta en el nivel de tienda. Se utiliza para esp
 
 - Ficha desplegable **Códigos de información**:
 
-    - Todos los aspectos de cómo se administran los códigos de información en el PDV. Para obtener más detalles, consulte [Códigos de información](info-codes-retail.md).
+    - Todos los aspectos de cómo se administran los códigos de información en el PDV. Para obtener información detallada, consulte [Códigos de información y grupos de códigos de información](info-codes-retail.md).
 
 - Ficha desplegable **Numeración de recepción**:
 

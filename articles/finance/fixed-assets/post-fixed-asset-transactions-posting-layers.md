@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ab5adfdec259207898d25778e4e3bbbaebb452f1
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: bc8c4f4f41ed39447ae441dd8e01cfcf80c939b5
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179761"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770721"
 ---
 # <a name="post-fixed-asset-transactions-to-posting-layers"></a>Registrar las transacciones de activos fijos para registrar capas
 
@@ -42,7 +42,7 @@ Puede especificar las cuentas contables para las transacciones de activos fijos 
 > [!NOTE] 
 > El uso de libros derivados le permite registrar transacciones para distintas capas de registro simultáneamente. Puede crear transacciones del libro principal en un diario con la capa de registro correspondiente a la capa de registro del libro. Durante el registro, las transacciones derivadas del libro se registran en sus capas de registro adecuadas.
 
-Para obtener más información, consulte [Libros derivados](derived-books.md) y [Registro con los libros derivados](post-derived-value-models.md).
+Para obtener más información, consulte [Libros derivados](derived-books.md) y [Registrar con los libros derivados](post-derived-value-models.md).
 
 
 

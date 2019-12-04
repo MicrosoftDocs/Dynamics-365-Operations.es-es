@@ -1,9 +1,9 @@
 ---
-title: Configurar tiendas en línea
-description: Este artículo proporciona información sobre tiendas minoristas en línea y acerca de cómo configurarlas en Dynamics 365 Retail.
+title: Configurar un canal de tienda en línea
+description: Este artículo proporciona información sobre canales de tiendas minoristas en línea y acerca de cómo configurarlas en Dynamics 365 Retail.
 author: kfend
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/31/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: meeram
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 02402269a6976ff856e703cc8e94fbf0758ea771
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: e7932879aac6ea4054f6c35de99f11c2662dd472
+ms.sourcegitcommit: 595a4ec63a32bd5d4321126bda7cf72a75a930a2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2017975"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "2688818"
 ---
-# <a name="set-up-online-stores"></a>Configurar tiendas en línea
+# <a name="set-up-an-online-store-channel"></a>Configurar un canal de tienda en línea
 
 [!include [banner](includes/banner.md)]
 
-Este artículo proporciona información sobre tiendas minoristas en línea y acerca de cómo configurarlas en Dynamics 365 Retail.
+Este artículo proporciona información sobre canales de tiendas minoristas en línea y acerca de cómo configurarlas en Dynamics 365 Retail.
 
 Retail admite varios canales comerciales. Estos canales de venta minorista incluyen tiendas en línea, centros de llamadas y tiendas minoristas (también conocidas como tiendas físicas). Las tiendas en línea proporcionan al distribuidor una presencia en línea, de modo que los clientes puedan comprar productos de su tienda en línea además de en sus tiendas físicas. Si los clientes compran productos en la tienda en línea, esos productos se les pueden enviar o los clientes pueden recogerlos en una tienda local. Puede crear una tienda en línea en el cliente de Retail. A continuación esta tienda en línea se publica en un tienda en línea de terceros que se integra con Retail. Su tienda en línea de terceros sirve como escaparate electrónico (interfaz de usuario) para la tienda en línea y le proporciona una serie de capacidades de sistema de gestión del cliente (CMS) y de interfaz de usuario. Varias integraciones de este tipo están disponibles. Las propiedades que defina para la tienda en línea controlan el comportamiento de la tienda en línea. Por ejemplo, puede definir la jerarquía de categorías de navegación en Retail y asignarla a la tienda en línea. Cuando se publique la tienda en línea en la tienda en línea de terceros, la jerarquía de categorías de navegación aparecen en la versión en línea de la tienda. Después, ,los compradores usan la jerarquía de categorías de navegación para explorar la tienda en línea y para buscar productos. Para crear una tienda en línea, debe configurar los componentes que permiten el procesamiento de transacciones para la tienda. Por ejemplo, debe agregar los surtidos, aplicar atributos y establecer métodos de pago y métodos de envío. También puede definir precios, promociones, descuentos, acuerdos comerciales y condiciones de envío específicos de la tienda en línea. Después publicar la tienda en línea en la tienda en línea de terceros, puede crear catálogos de productos comerciales para la tienda en línea. Los productos del catálogo se convierten en listados de productos en la tienda en línea. Cuando un comprador adquiere productos de la tienda en línea, el inventario disponible se actualiza y se sincroniza en el cliente. Además, se generan pedidos de ventas para las compras y se envían al cliente para el cumplimiento y procesamiento de pedidos.
 

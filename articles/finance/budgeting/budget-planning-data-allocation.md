@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 08141615e36c7bfe8b8a7984322dbb985568ee51
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: b8bcfb4d3720d03ce84024766a66ccfc546767ab
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179818"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772085"
 ---
 # <a name="budget-planning-data-allocation"></a>Asignación de datos de la planificación presupuestaria
 
@@ -36,28 +36,28 @@ Puede distribuir los datos en un plan de presupuesto de varias formas de retrata
 ## <a name="allocation-methods"></a>Métodos de asignación
 Tres métodos de asignación (Asignar en períodos, Asignar a dimensiones y Usar reglas de asignación contable) pueden crear las líneas del plan presupuestario que se basan en las líneas del mismo plan presupuestario. Otros tres métodos (Agregado, Distribuir y Copiar del plan presupuestario) pueden crear líneas de plan presupuestario en otros planes de presupuesto. Para los seis métodos de asignación, especifica la situación de destino. El escenario de destino puede ser el mismo que el escenario de origen o puede ser diferente. Además, puede especificar si las nuevas líneas se agregan al plan presupuestario o reemplazan las líneas actuales en el plan presupuestario.
 
-[![AllocateAcrossPeriods](./media/allocateacrossperiods-300x259.png)](./media/allocateacrossperiods.png)
+[![Método de asignación de asignar en períodos](./media/allocateacrossperiods-300x259.png)](./media/allocateacrossperiods.png)
 **Asignar en períodos**: use una clave de asignación de período para asignar las líneas del plan presupuestario desde el escenario del plan presupuestario de origen en los períodos del escenario de destino. El importe de origen se asigna a varias líneas en la situación de destino, en función del porcentaje y la fecha que se definen en la categoría de asignación de períodos.         
 
-[![AllocateToDimensions](./media/allocatetodimensions.jpg)](./media/allocatetodimensions.jpg)
+[![Método de asignación de asignar a dimensiones](./media/allocatetodimensions.jpg)](./media/allocatetodimensions.jpg)
 **Asignar a dimensiones**: las líneas del plan presupuestario se asignan de la situación de planificación presupuestaria de origen a una o varias líneas en la situación de destino, en función de los porcentajes y las dimensiones financieras que se definen en una condición de asignación del presupuesto seleccionada.           
 
-![AggregateChart](./media/aggregatechart-300x230.png)
+![Gráfico de agregado](./media/aggregatechart-300x230.png)
 **Agregado**: las líneas del plan presupuestario se agregan desde el escenario del plan presupuestario de origen de los planes presupuestarios (secundarios) asociados al escenario de destino del plan presupuestario principal. Este método permite consolidar en un nivel superior los importes presupuestarios que están preparados en un nivel inferior de la organización.          
 
-[![DistributeChart](./media/distributechart-300x230.png)](./media/distributechart.png)
+[![Gráfico de distribución](./media/distributechart-300x230.png)](./media/distributechart.png)
 **Distribuir**: las líneas del plan presupuestario se distribuyen de la situación de planificación presupuestaria de origen en el plan presupuestario principal a la situación de destino de los planes presupuestarios (secundario) asociados, en función de las dimensiones financieras de las unidades de la organización de los planes asociados. Este método permite extender los importes presupuestarios que están preparados en un nivel superior de la organización para una revisión más localizada.           
 
-[![LedgerAllocationRules](./media/ledgerallocationrules-300x202.png)](./media/ledgerallocationrules.png)
+[![Reglas de asignación de libro mayor](./media/ledgerallocationrules-300x202.png)](./media/ledgerallocationrules.png)
 **Usar reglas de asignación contable**: las líneas del plan presupuestario se distribuyen del escenario de planificación presupuestaria de origen al escenario de destino, basándose en la regla de asignación contable seleccionada. 
 
-[![CopyFromBudgetPlan](./media/copyfrombudgetplan-187x300.png)](./media/copyfrombudgetplan.png)
+[![Copiar del plan presupuestario](./media/copyfrombudgetplan-187x300.png)](./media/copyfrombudgetplan.png)
 **Copiar del plan presupuestario**: como en el método de asignación de distribución, las líneas del plan presupuestario se crean en el destino, en función de las líneas de un plan presupuestario relacionado. Sin embargo, para este método, el plan presupuestario de origen no tiene que ser el principal, pero puede estar en un nivel superior de la jerarquía del plan presupuestario. Este método de asignación es útil si los importes consolidados se presupuestaron originalmente en un nivel muy superior y se debe transferir a un nivel inferior de la organización para la revisión y el ajuste detallados antes de que puedan recibir la aprobación de nivel superior.          
 
 ## <a name="using-allocation-methods-in-a-budget-plan"></a>Mediante métodos de asignación en un plan presupuestario
 Para realizar asignaciones en la página del plan presupuestario, seleccione las líneas para asignar y haga clic en **Asignar presupuesto**.
 
-[![AllocateBudgetButton](./media/allocatebudgetbutton-300x84.png)](./media/allocatebudgetbutton.png) 
+[![Botón Asignar presupuesto](./media/allocatebudgetbutton-300x84.png)](./media/allocatebudgetbutton.png) 
 
 A continuación, seleccione un método de asignación. Los campos restantes se establecen a continuación, según el método seleccionado. Estos campos incluyen el origen y destino de los datos del plan presupuestario y una opción que le permite multiplicar el origen por un factor especificado cuando se crean los importes de destino para simplificar el ajuste masivo. También puede establecer la opción **Anexar al plan**. Seleccione **No** para reemplazar las líneas existentes del plan presupuestario o seleccione **Sí** para conservar las líneas existentes del plan presupuestario y agregar nuevas líneas para los importes asignados.
 
@@ -70,7 +70,7 @@ A continuación, cree una asignación de etapa en la página **Configuración de
 
 Finalmente, agregue una tarea automatizada para la asignación de la etapa de planificación presupuestaria en la etapa deseada del flujo de trabajo. En el siguiente ejemplo, dos asignaciones de etapa de planificación presupuestaria (destacadas en rojo) se han insertado en el flujo de trabajo.
 
-[![BudgetPlanningStageAllocations](./media/budgetplanningstageallocations-300x300.png)](./media/budgetplanningstageallocations.png)
+[![Asignaciones de etapa de planificación presupuestaria](./media/budgetplanningstageallocations-300x300.png)](./media/budgetplanningstageallocations.png)
 
 
 

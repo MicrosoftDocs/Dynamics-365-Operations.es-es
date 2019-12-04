@@ -18,16 +18,17 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e022fbf182da9a07fe20e5bebdd99cbff3d9c90
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: d3f90e963341efe854270134988cfc51b5280bf4
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248943"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813371"
 ---
 # <a name="purchase-agreements"></a>Acuerdos de compra
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Este artículo proporciona información acerca de los acuerdos de compra. Un acuerdo de compra es un contrato que compromete a una organización a comprar una cantidad o un importe específico mediante varios pedidos de compra en el tiempo. A cambio de este compromiso, el comprador recibe precios y descuentos especiales. 
 
@@ -80,6 +81,9 @@ Cuando se crea un pedido de compra, puede aplicarle un acuerdo de compra. La inf
 Puede seleccionar un acuerdo de compra solo si está creando un pedido de compra. No puede seleccionar un acuerdo de compra después de haber creado el pedido de compra.  
 En algunos casos en los que los pedidos de compra se crean indirectamente, se puede controlar si Supply Chain Management buscará automáticamente acuerdos de compra aplicables. Por ejemplo, puede hacerlo cuando se consoliden automáticamente pedidos de compra planificados en firme o cuando se creen pedidos de compra que se basan en pedidos de ventas.
 
+## <a name="matching-policy-on-purchase-agreements"></a>Directiva de conciliación sobre acuerdos de compra
+Puede definir una directiva de conciliación de línea en el encabezado del acuerdo de compra. Esta directiva de conciliación de línea respetará la directiva de conciliación de línea de los parámetros de proveedores cuando el campo **Permitir anulación de directiva de conciliación** en la página **Parámetros de proveedores** (en la ficha desplegable **Coincidencia de precio y cantidad**) se establece en **Superior a la directiva de la empresa**. Los documentos que hagan referencia al acuerdo de compra utilizarán la directiva de conciliación de línea que se define en el encabezado del acuerdo de compra a menos que se haya definido lo contrario en el elemento correspondiente, artículo y proveedor, o directiva de compras de la categoría.
+
 ## <a name="purchase-agreements-and-intercompany-trade"></a>Acuerdos de compra y transacciones comerciales entre empresas vinculadas
 Las relaciones comerciales entre empresas vinculadas se pueden crear entre cuentas de proveedor y cuentas de cliente que se encuentran en distintas entidades jurídicas. Cuando un pedido de ventas o un pedido de compra se crea para una de las partes, se crea una cadena de pedidos de empresas vinculadas. En la cadena de pedido, el pedido de ventas y el pedido de compra se crea en las entidades jurídicas adecuadas.  
 
@@ -93,9 +97,9 @@ Puede copiar dimensiones financieras en encabezados de documentos o líneas indi
 <a name="additional-resources"></a>Recursos adicionales
 --------
 
-[Creación de un acuerdo de compra (Guía de tareas)](tasks/create-purchase-agreement.md)
+[Crear un acuerdo de compra](tasks/create-purchase-agreement.md)
 
-[Crear un pedido parcial de compra de un acuerdo de compra (Guía de tareas)](tasks/create-purchase-release-order-purchase-agreement.md)
+[Crear un pedido parcial de compra de un acuerdo de compra](tasks/create-purchase-release-order-purchase-agreement.md)
 
 
 

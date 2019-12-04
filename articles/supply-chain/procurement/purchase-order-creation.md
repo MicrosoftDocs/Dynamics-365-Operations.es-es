@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5454b9003105e4b44ec7577e5f8989c75554aeb9
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: e6126c62f3768871550a056c2c7670ec801e3b7d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572229"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815397"
 ---
 # <a name="create-purchase-orders"></a>Crear pedidos de compra
 
@@ -86,9 +86,9 @@ Es posible que deba retrasar la finalización de un pedido de compra. Por ejempl
 <a name="additional-resources"></a>Recursos adicionales
 --------
 
-[Visión general de pedidos de compra](purchase-order-overview.md)
+[Visión general de los pedidos de compra](purchase-order-overview.md)
 
-[Confirmación y aprobación del pedido de compra](purchase-order-approval-confirmation.md)
+[Aprobar y confirmar pedidos de compra](purchase-order-approval-confirmation.md)
 
 [Recepción de producto frente a pedidos de compra](product-receipt-against-purchase-orders.md)
 

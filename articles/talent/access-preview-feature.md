@@ -1,5 +1,5 @@
 ---
-title: Obtener acceso a las características de vista previa de Microsoft Dynamics 365 Talent
+title: Administrar características
 description: Este tema describe cómo un administrador puede habilitar las características de vista previa en Microsoft Dynamics 365 Talent, y enumera las características que se habilitan actualmente para la vista previa.
 author: tracykeya
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: trkeya
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: 0f9a83aeea3942d3c56d32956f79490c91565e9e
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 9f1fb4b929660bbe9018fb98169b3cfddcaec547
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551619"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833309"
 ---
-# <a name="access-preview-features-in-microsoft-dynamics-365-talent"></a>Obtener acceso a las características de vista previa de Microsoft Dynamics 365 Talent
+# <a name="manage-features"></a>Administrar características
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Como parte de nuestro desarrollo continuo de las capacidades de administración del capital humano (HCM) para Microsoft Dynamics 365 Talent, deseamos que los clientes experimenten las nuevas características lo más rápidamente posible. Los administradores pueden ver y utilizar características de vista previa en los entornos. Estas características casi están preparadas para la disponibilidad general y han pasado por un amplio proceso de pruebas. Simplemente estamos buscando una ronda final de comentarios de clientes y de validación antes de estén disponibles de forma general.
 
@@ -117,6 +117,6 @@ Asegúrese de no incluir datos personales (información que podría identificarl
 ## <a name="see-also"></a>Consulte también
 
 - [Pruebe o compre las aplicaciones Talent](https://dynamics.microsoft.com/talent/overview/)
-- [Novedades](./whats-new.md)
-- [Notas de la versión](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Obtener soporte para Talent](./talent-support.md)
+- [Novedades y cambios en Dynamics 365 Talent](./whats-new.md)
+- [Planes de lanzamiento](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Obtener soporte para Microsoft Dynamics 365 Talent](./talent-support.md)

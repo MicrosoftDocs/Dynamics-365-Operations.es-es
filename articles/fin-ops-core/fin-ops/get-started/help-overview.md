@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef630ca56888eb61ab0519a29c89c3ccb2f24a87
-ms.sourcegitcommit: d554faca895609b8124bf2ea5aca5a55c407534a
+ms.openlocfilehash: bf1a417130cb9d17f33d96f5e510582c79e875ca
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537841"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811681"
 ---
 # <a name="help-system"></a>Sistema de ayuda
 
@@ -82,7 +82,7 @@ Para obtener más información, consulte la [guía de nuestro colaborador](https
 
 Una guía de tareas es una experiencia guiada, interactiva y controlada que le lleva por los pasos de una tarea o de un proceso empresarial. Puede abrir (reproducir) una guía de tareas desde el panel Ayuda. Al hacer clic por primera vez en una guía de tareas, el panel Ayuda mostrará instrucciones detalladas para la tarea. Dispone de guías de tareas localizadas.
 
-Microsoft envió bibliotecas de la guía de tareas para las versiones hasta diciembre de 2017 para Dynamics 365 for Finance and Operations. La sección [Cómo acceder a las guías de tareas en el panel Ayuda](help-overview.md#accessing-task-guides-from-the-help-pane) describe cómo buscar las guías de tareas correctas para su producto.
+Microsoft envió bibliotecas de la guía de tareas para las versiones hasta diciembre de 2017 para Dynamics 365 for Finance and Operations. La sección [Sistema de Ayuda](help-overview.md#accessing-task-guides-from-the-help-pane) describe cómo buscar las guías de tareas correctas para su producto.
 
 ![Vista de lectura de la guía de tareas](./media/task-guide-ops.png)
 
@@ -93,7 +93,7 @@ Para comenzar la experiencia interactiva y guiada, haga clic en **Iniciar guía 
 > [!IMPORTANT]
 > Los datos que especifica cuando reproduce una guía de tareas son reales. Si está en un entorno de producción, los datos se especificarán en la empresa que está usando actualmente.
 
-Puede usar el Grabador de tareas para crear sus propias guías de tareas personalizadas. Para obtener más información, consulte [Crear documentación o formación mediante grabaciones de tareas](../../dev-itpro/user-interface/task-recorder-training-docs.md).
+Puede usar el Grabador de tareas para crear sus propias guías de tareas personalizadas. Para obtener más información, consulte [Crear documentación o formación con el Grabador de tareas](../../dev-itpro/user-interface/task-recorder-training-docs.md).
 
 ## <a name="in-product-help"></a>Ayuda en el producto
 
@@ -144,13 +144,12 @@ Las guías de tareas traducidas se publican en bibliotecas que llevan "Todos los
 
 Puede crear la ayuda de sus usuarios creando guías de tareas personalizadas, o conectando su propia página Web al panel de la Ayuda. Para obtener detalles, consulte:
 
-- [Cómo crear una grabación de tareas para usarla como documentación o formación](../../dev-itpro/user-interface/task-recorder.md).
+- [Recursos del Grabador de tareas](../../dev-itpro/user-interface/task-recorder.md).
 - [Crear ayuda personalizada (notas del producto)](https://go.microsoft.com/fwlink/?linkid=2041185)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-- [Grabador de tareas](../../dev-itpro/user-interface/task-recorder.md)
-- [Crear documentación o formación con las grabaciones de tareas](../../dev-itpro/user-interface/task-recorder.md)
+- [Recursos del Grabador de tareas](../../dev-itpro/user-interface/task-recorder.md)
 
 En la tabla siguiente aparecen las listas de nuestras páginas web. Los sitios que tienen un asterisco (\*) junto al nombre requieren que inicie sesión con una cuenta asociada a un plan de servicio.
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e0369be278519f39fc304b34ef3a270438f0bb1
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 242e9fd5fd4b22f3081367cf33ff18ff5e4174a5
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026265"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814752"
 ---
 # <a name="distribute-and-schedule-questionnaires"></a>Distribuir y programar cuestionarios
 
@@ -54,7 +54,8 @@ Para asignar un grupo de cuestionarios a un cuestionario, en la página **Cuesti
 ## <a name="planned-answer-sessions-in-a-questionnaire"></a>Sesión de respuestas planificadas en un cuestionario
 Las sesiones de respuesta planificadas son cuestionarios diseñados por usted y para las que ha seleccionado los encuestados. 
 
-> **Nota:** Para poder configurar sesiones de respuesta planificadas, debe diseñar un cuestionario. 
+> [!NOTE]
+>   Para poder configurar sesiones de respuesta planificadas debe diseñar un cuestionario. 
 
 En la página **Sesión de respuestas planificadas**, puede crear una sesión de respuestas planificadas para un empleado. La lista de la página muestra todos los cuestionarios planificados. 
 
@@ -108,12 +109,14 @@ Si usa una sesión de respuestas planificadas, debe notificar a la persona direc
 
 Use la página **Programaciones de cuestionarios** para preparar y enviar correo electrónico a todos los encuestados asignados al cuestionario. Escriba el texto del correo electrónico en la pestaña **Correo electrónico del autoservicio del empleado**. Una vez iniciada la programación, haga clic en **Funciones** &gt; **Enviar correo electrónico** para generar y enviar mensajes de correo electrónico a los encuestados. A continuación, los encuestados pueden iniciar sesión en el sitio Web y completar el cuestionario. 
 
-> **Nota:** Para poder usar la función de correo electrónico, el administrador de TI debe especificar la configuración de correo electrónico en la página **Parámetros del correo electrónico**.
+> [!NOTE]
+>   Para poder usar la función de correo electrónico, el administrador de TI debe especificar la configuración de correo electrónico en la página **Parámetros del correo electrónico**.
 
 ## <a name="ending-a-scheduled-questionnaire"></a>Finalización de un cuestionario programado
 Puede finalizar un cuestionario programado una vez que todas las personas que respondan al mismo hayan completado las sesiones de preguntas que les hayan sido asignadas. Cuando finaliza un cuestionario programado, no puede copiar su configuración en una programación nueva. 
 
-> **Note:** Si uno o varios de los encuestados no han completado el cuestionario, pero aun así desea finalizar la programación, antes deberá eliminar a esos encuestados de la lista en la página **Sesión de respuestas planificadas**. A continuación, puede finalizar la programación.
+> [!NOTE]
+>   Si uno o varios de los encuestados no han completado el cuestionario, pero aun así desea finalizar la programación, antes deberá eliminar a esos encuestados de la lista en la página **Sesión de respuestas planificadas**. A continuación, puede finalizar la programación.
 
 ## <a name="completing-questionnaires"></a>Completando cuestionarios
 Una vez que haya diseñado y haya distribuido un cuestionario, los encuestados seleccionados lo pueden completar. Puede completar los cuestionarios a su disposición desde dos ubicaciones:
@@ -128,8 +131,8 @@ Los cuestionarios se pueden poner a disposición de usuarios o grupos de usuario
 
 [Diseñar cuestionarios](design-questionnaires.md)
 
-[Uso de cuestionarios](questionnaires.md)
+[Cuestionarios](questionnaires.md)
 
-[Visualización y evaluación de los resultados de cuestionarios](evaluate-questionnaire-results.md)
+[Ver y evaluar los resultados de los cuestionarios](evaluate-questionnaire-results.md)
 
 
