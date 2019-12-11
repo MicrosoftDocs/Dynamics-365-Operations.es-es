@@ -1,0 +1,85 @@
+---
+title: Visión general de las páginas de detalles de producto
+description: Este tema proporciona una visión general de las páginas de detalles de producto (PDP) en Microsoft Dynamics 365 Commerce.
+author: anupamar-ms
+manager: annbe
+ms.date: 10/31/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-commerce
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: v-chgri
+ms.search.scope: Retail, Core, Operations
+ms.search.region: Global
+ms.search.industry: ''
+ms.author: anupamar
+ms.search.validFrom: 2019-10-31
+ms.dyn365.ops.version: Release 10.0.5
+ms.openlocfilehash: 3b02d50adbfcda27d590bcb87fd9669d67d4a01c
+ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2697874"
+---
+# <a name="overview-of-product-details-pages"></a>Visión general de las páginas de detalles de producto
+
+[!include [banner](includes/preview-banner.md)]
+[!include [banner](includes/banner.md)]
+
+Este tema proporciona una visión general de las páginas de detalles de producto (PDP) en Microsoft Dynamics 365 Commerce.
+
+## <a name="overview"></a>Visión general
+
+Una PDP proporciona información detallada sobre un producto y permite a los clientes seleccionar opciones de productos como un tamaño, un estilo y un color. Una PDP debe mostrar toda la información de producto que un cliente necesita para tomar una decisión de compra.
+
+En la ilustración siguiente se muestra un ejemplo de una PDP.
+
+![Ejemplo de una página de detalles de productos](./media/pdp.PNG)
+
+## <a name="header-and-footer-modules"></a>Módulos de encabezado y pie de página
+
+La parte superior de una PDP tiene un encabezado que muestra todas las categorías de producto y otras páginas que el minorista desea que los clientes exploren. La parte inferior de la página tiene un pie de página que contiene vínculos rápidos a diversos temas que pueden interesar a clientes.
+
+## <a name="buy-box-module"></a>Módulo de cuadro de compra
+
+El módulo más importante con una PDP es el módulo de cuadro de compra. Por lo tanto, es el primer elemento de la sección principal de la página. Un módulo de cuadro de compra es un módulo de contenedor y hospeda varios módulos que contienen la información más importante sobre el producto. Esta información incluye el nombre del producto, imágenes del producto, la descripción, el precio y clasificaciones del producto.
+
+El módulo de cuadro de compra permite al cliente seleccionar opciones de productos (por ejemplo, un tamaño, un estilo y un color) y agregar el producto al carro. También permite al cliente comprar el producto en línea y recogerlo en una tienda. El módulo de compra en línea y recogida en tienda usa la integración con las interfaces de programación de aplicaciones (API) de Bing Maps para encontrar tiendas cercanas o tiendas en otra ubicación que el cliente especifique.
+
+Un módulo de cuadro de compra requiere un id. de producto. Este id. se deriva del contexto de la página. Si se agrega un módulo de cuadro de compra a una página en la que el contexto de la página no incluye un id. de producto, no representará la información correctamente.
+
+## <a name="product-specifications-module"></a>Módulo de especificaciones del producto
+
+El módulo de especificaciones del producto se puede utilizar para mostrar detalles adicionales sobre el producto. Estos detalles se toman de atributos del producto en Dynamics 365 Retail. El módulo de especificaciones del producto muestra todos los atributos donde la propiedad **visible** se establece en **verdadero**. Requiere un id. de producto para recuperar los atributos del producto.
+
+## <a name="recommendations-module"></a>Módulo de recomendaciones
+
+El módulo de recomendaciones es un módulo importante en una PDP. Mientras los clientes exploran productos, se le deben presentar más opciones de productos, de manera que puedan encontrar el producto correcto y realizar una compra. Las recomendaciones ayudan a los clientes a detectar con facilidad contenido relacionado y a continuar comprando.
+
+Hay diferentes tipos de listas de recomendaciones disponibles:
+
+- El lista **A la gente también le gustó** se basa en el aprendizaje automático. Usa el historial de transacciones de otros clientes para proporcionar recomendaciones. Esta lista se genera con el servicio de recomendaciones y se parece a las listas “Los clientes que compraron el producto, compraron…”. Se requiere un id. de producto para generar esta lista.
+- Se puede generar una lista **Relacionado** para un producto en Retail. Por ejemplo, para un bolso de viaje de cuero marrón, se pueden configurar para la lista relacionada más bolsos que sean de cuero o estén diseñados para viaje. En Retail se pueden configurar otros tipos de listas relacionadas, como **Accesorios** y **Más como esto**. Se requiere un id. de producto para generar esta lista. Por lo tanto, si se ha agregado a una página principal, donde el contexto de la página no incluye un id. de producto, la lista estará vacía.
+- En las PDF se pueden usar listas de recomendaciones generadas de manera algorítmica, como **Tendencias**, **Más vendidos** y **Nuevos**. Aunque es posible que estas listas no estén directamente relacionadas con el producto en la PDP, son otra manera de ayudar a los clientes a encontrar productos que puedan interesarles. Estos tipos de listas no requieren un id. de producto. Son listas genéricas que se generan en función de patrones de compra en todo el sitio.
+- Las listas editoriales son listas mantenidas manualmente. Por ejemplo, un minorista puede decidir mantener manualmente listas de productos que desea mostrar.
+
+## <a name="ratings-and-reviews-module"></a>Módulo de clasificaciones y opiniones
+
+El módulo de clasificaciones y revisiones muestra clasificaciones y revisiones que han proporcionado otros clientes. También permite a un cliente escribir su propia revisión del producto. Además, incluye un histograma que muestra la tendencia de clasificaciones para el producto. Para obtener más información, consulte [Visión general de clasificaciones y revisiones](ratings-reviews-overview.md).
+
+## <a name="marketing-modules"></a>Módulos de marketing
+
+Si el contenido de marketing es exclusivo de un producto específico, cualquier módulo de marketing puede agregarse a la PDP. Puede agregar módulos de marketing a una PDP “enriqueciendo” la página. 
+
+## <a name="additional-resources"></a>Recursos adicionales
+
+[Visión general de la página principal](quick-tour-home-page.md)
+
+[Visión general de la página de aterrizaje de categoría predeterminada y la página de resultados de la búsqueda](category-search-page-overview.md)
+
+[Visión general de las páginas del carro y de la finalización de la compra](quick-tour-cart-checkout.md)
+
+[Visión general de las páginas de la gestión de cuentas](quick-tour-account-management.md)
