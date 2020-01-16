@@ -8,6 +8,12 @@
         - name: Novedades y cambios en Talent
           href: whats-new.md
           items:
+            - name: 17 de diciembre de 2019
+              href: whats-new-talent-december-17-2019.md
+            - name: 12 de diciembre de 2019
+              href: whats-new-talent-december-12-2019.md
+            - name: 3 de diciembre de 2019
+              href: whats-new-talent-december-3-2019.md
             - name: 19 de noviembre de 2019
               href: whats-new-talent-november-19-2019.md
             - name: 12 de noviembre de 2019
@@ -26,16 +32,16 @@
               href: whats-new-talent-september-17-2019.md
             - name: 10 de septiembre de 2019
               href: whats-new-talent-september-12-2019.md
-            - name: 27 de agosto de 2019
-              href: whats-new-talent-august-28-2019.md
-            - name: 22 de agosto de 2019
-              href: whats-new-talent-august-21-2019.md
-            - name: 13 de agosto de 2019
-              href: whats-new-talent-august-15-2019.md
-            - name: 6 de agosto de 2019
-              href: whats-new-talent-august-7-2019.md
             - name: Novedades en los archivos de 2019
               items:
+                - name: 27 de agosto de 2019
+                  href: whats-new-talent-august-28-2019.md
+                - name: 22 de agosto de 2019
+                  href: whats-new-talent-august-21-2019.md
+                - name: 13 de agosto de 2019
+                  href: whats-new-talent-august-15-2019.md
+                - name: 6 de agosto de 2019
+                  href: whats-new-talent-august-7-2019.md
                 - name: 30 de julio de 2019
                   href: whats-new-talent-july-31-2019.md
                 - name: 23 de julio de 2019
@@ -134,53 +140,51 @@
           href: hr-copy-instance.md
         - name: Quitar entornos de Talent
           href: remove-talent-environment.md
-        - name: Aprovisionamiento para la aplicación Onboard
+        - name: Administrar características
+          href: access-preview-feature.md
+        - name: Aprovisionar Onboard
           href: modular-app-tech-faq.md
-        - name: Insertar aplicaciones de PowerApps
+        - name: Insertar aplicaciones de Power Apps
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Core HR y Common Data Service
+        - name: Entidades Core HR en Common Data Service
           href: CoreHREntities.md
         - name: Obtener soporte para Talent
           href: talent-support.md
     - name: Dotar de personal para la organización con Attract
       items:
-        - name: ¿Qué versión de Attract?
+        - name: Elegir una versión de Attract
           href: attract-comprehensive-hiring.md
         - name: Características y funcionalidades de Attract
           href: attract-overview.md
-        - name: Preguntas frecuentes
-          items:
-            - name: Preguntas frecuentes sobre la integración con LinkedIn
-              href: attract-linkedin-faq.md
         - name: Configurar opciones del sistema
           items:
             - name: Configurar la información de la empresa
               href: admin-settings-attract.md
             - name: Establecer permisos de usuario
               href: security-attract.md
-            - name: Administrar características
-              href: access-preview-feature.md
             - name: Configurar su sitio de desarrollo profesional
               href: career-site.md
-            - name: Habilitar la integración de Broadbean
+            - name: Habilitar integración de Broadbean
               href: attract-admin-job-board-settings.md
-            - name: Configuración de opciones de correo electrónico
+            - name: Configurar opciones de correo electrónico
               href: attract-configure-email-settings.md
             - name: Configurar la integración con LinkedIn
               href: attract-admin-linkedin.md
+            - name: Preguntas más frecuentes de la integración con LinkedIn
+              href: attract-linkedin-faq.md
         - name: Crear un proceso de contratación
           items:
-            - name: Crear una plantilla de proceso
+            - name: Crear una plantilla del proceso de contratación
               href: process-templates-attract.md
-            - name: Actividades en los procesos de contratación
+            - name: Agregar actividades a un proceso de contratación
               href: activities-attract.md
-            - name: Plantillas de correo electrónico
+            - name: Crear plantillas de correo electrónico
               href: email-templates.md
             - name: Usar informes analíticos
               href: analytic-reports.md
         - name: Crear y publicar ofertas de empleo
           items:
-            - name: Crear una oferta de empleo
+            - name: Crear un proyecto
               href: creating-jobs-attract.md
             - name: Publicar ofertas de empleo en LinkedIn
               href: attract-post-jobs-to-linkedin.md
@@ -197,10 +201,10 @@
             - name: Seguimiento de orígenes de candidatos
               href: source-tracking.md
             - name: Recomendaciones inteligentes
-              href: Intelligent-Recommendations.md
+              href: intelligent-recommendations.md
         - name: Configurar entrevistas
           items:
-            - name: Programación y comentarios de entrevistas
+            - name: Programar entrevistas
               href: interview-scheduling-feedback.md
         - name: Realizar una oferta
           items:
@@ -431,9 +435,9 @@
               href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
     - name: Extensibilidad
       items:
-        - name: Power BI incrustado en espacios de trabajo
+        - name: Power BI Embedded en espacios de trabajo
           href: ../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Extender Talent mediante PowerApps y Microsoft Flow - escenarios de ejemplo
+        - name: Ampliar Talent con Power Apps y Power Automate
           href: extensibility-examples.md
         - name: Aplicación móvil
           items:
@@ -443,8 +447,6 @@
                   href: ../dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
                 - name: Espacio de trabajo móvil Mi equipo
                   href: ../dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Publicar espacios de trabajo móviles
-              href: ../dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Seguir los cambios en los datos de contratación
           href: process-auditing.md
         - name: Extensibilidad en Attract

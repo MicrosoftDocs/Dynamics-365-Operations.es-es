@@ -10,9 +10,9 @@
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/supply-chain/toc.json
             - name: Registrarse para suscripciones de vista previa
               href: ../fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Actualizaciones del servicio de una versión
+            - name: Actualizaciones del servicio de One Version
               items:
-                - name: Visión general de las actualizaciones del servicio de una versión
+                - name: Visión general de las actualizaciones del servicio de One Version
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Preguntas frecuentes sobre actualizaciones del servicio de una versión
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/supply-chain/toc.json
@@ -32,7 +32,7 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Automatización de tarea de datos
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Entrega de soluciones de fabricante de software independiente mediante una versión
+                - name: Entrega de soluciones de fabricante de software independiente mediante One Version
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Crear y automatizar pruebas de aceptación del usuario
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/supply-chain/toc.json
@@ -62,7 +62,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/supply-chain/toc.json
             - name: Novedades y cambios
               items:
-                - name: Características de vista previa de Supply Chain Management versión 10.0.7 (diciembre de 2019)
+                - name: Supply Chain Management versión 10.0.7 (diciembre de 2019)
                   href: get-started/whats-new-scm-10-0-7.md
                 - name: Desarrollo de Supply Chain Management 10.0.6 (noviembre de 2019)
                   href: get-started/whats-new-scm-10-0-6.md
@@ -70,10 +70,6 @@
                   items:
                     - name: Página principal de Novedades y cambios en Finance and Operations
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Aplicaciones de Finance and Operations 10.0.5 (octubre de 2019)
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Finance and Operations 10.0.4 (julio de 2019)
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/supply-chain/toc.json
                     - name: 'Finance and Operations, Enterprise Edition 7.3'
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Características quitadas u obsoletas
@@ -264,7 +260,7 @@
                 - name: Crear activos en función de los pedidos de compra
                   href: asset-management/objects/create-objects-based-on-purchase-orders.md
                 - name: L. MAT. de activos
-                  href: /asset-management/objects/object-bom.md
+                  href: asset-management/objects/object-bom.md
                 - name: Historial de eventos de activo
                   href: asset-management/objects/object-timeline.md
                 - name: Vista de activos
@@ -592,7 +588,7 @@
                 - name: Análisis del coste del pedido de producción
                   href: cost-management/production-order-cost-analysis.md
                 - name: Estimación del coste del pedido de producción
-                  href: /cost-management/production-order-cost-estimation.md
+                  href: cost-management/production-order-cost-estimation.md
                 - name: Ver estado actual de trabajo en curso en un pedido de producción
                   href: cost-management/tasks/view-current-wip-status-production-order.md
                 - name: 'Comparar los costes activos, estimados y realizados en un pedido de producción'
@@ -923,7 +919,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/supply-chain/toc.json
             - name: Soluciones analíticas incrustadas
               items:
-                - name: Power BI incrustado en espacios de trabajo
+                - name: Power BI Embedded en espacios de trabajo
                   href: ../fin-ops-core/dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Integración de Power BI Embedded
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-embedded-integration.md?toc=/dynamics365/supply-chain/toc.json
@@ -1099,6 +1095,8 @@
                   href: master-planning/safety-stock-replenishment.md
                 - name: Retrasos
                   href: master-planning/delays.md
+                - name: Cancelar un trabajo de planificación maestro
+                  href: master-planning/cancel-master-planning-job.md
                 - name: Usar seguimiento para expansiones
                   href: master-planning/trace-explosion.md
                 - name: Mensajes de acción
@@ -1515,6 +1513,8 @@
                   href: pim/uom-conversion-per-product-variant.md
                 - name: Crear un producto liberado para una sola empresa
                   href: pim/tasks/create-released-product-single-company.md
+                - name: Usar entidades de datos
+                  href: pim/data-entities.md
                 - name: Estado de ciclo de vida de producto
                   items:
                     - name: Visión general del estado de ciclo de vida de producto
@@ -2349,6 +2349,10 @@
                   href: warehousing/tasks/set-up-short-picking-item-reallocation.md
                 - name: Cancelar trabajo de almacén para el control de excepciones
                   href: warehousing/cancel-warehouse-work.md
+                - name: Picking de clústeres dirigidos por el sistema
+                  href: warehousing/system-directed-cluster-pick.md
+                - name: Picking de agrupación de líneas
+                  href: warehousing/pick-line-grouping.md
             - name: Recuento de inventario
               items:
                 - name: Códigos de motivo de recuento de inventario
