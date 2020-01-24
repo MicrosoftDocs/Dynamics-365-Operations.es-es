@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: bicyclingfool
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e0fad51fcb092c95103356f17618a647dd166b95
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 62d3c168967bd680b3ded56e627730324f2a5ec6
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697372"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945591"
 ---
 # <a name="associate-an-e-commerce-site-with-an-online-channel"></a>Asociar un sitio de comercio electrónico a un canal en línea
 
@@ -40,16 +40,16 @@ Una vez creado el sitio, puede comprobar que esté asociado a la tienda en líne
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general de la tienda en línea](online-store-overview.md)
-
-[Crear un sitio de comercio electrónico](create-ecommerce-site.md)
+[Configurar su nombre de dominio](configure-your-domain-name.md)
 
 [Implementar un sitio nuevo de comercio electrónico](deploy-ecommerce-site.md)
 
-[Configurar su nombre de dominio](configure-your-domain-name.md)
+[Crear un sitio de comercio electrónico](create-ecommerce-site.md)
+
+[Administrar archivos robots.txt](manage-robots-txt-files.md)
+
+[Configurar páginas personalizadas para inicios de sesión de usuario](custom-pages-user-logins.md)
 
 [Agregar soporte para una red de entrega de contenido (CDN)](add-cdn-support.md)
 
 [Habilitar la detección de tienda según la ubicación](enable-store-detection.md)
-
-[Configurar páginas personalizadas para inicios de sesión de usuario](custom-pages-user-logins.md)

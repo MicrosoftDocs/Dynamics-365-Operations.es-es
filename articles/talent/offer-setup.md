@@ -3,7 +3,7 @@ title: Configurar oferta de administración en Attract
 description: Este tema describe cómo configurar ofertas en Microsoft Dynamics 365 Talent.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/04/2019
+ms.date: 12/04/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 63f45f1493935f543cfd25a7d8ed7b54170800a0
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: bc91a83afd5ce1627376685bcf612d6998ddbc02
+ms.sourcegitcommit: 5022d63a81c3715c9a3dcf2a68217bb6b17c7805
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832731"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "2890564"
 ---
 # <a name="set-up-offer-management-in-attract"></a>Configurar oferta de administración en Attract
 
@@ -45,9 +45,11 @@ Los datos de la propuesta son la unidad más pequeña dentro de la plantilla de 
 
     >[!NOTE]
     > En la página **Datos de oferta** están las secciones **Detalles del candidato** y **Detalles del trabajo**. Attract proporciona inmediatamente unos cuantos marcadores de posición de los datos de la oferta.
-    
+    > 
     > Existen secciones en la página para organizar los distintos marcadores de posición de los datos de la propuesta en grupos lógicos. Estas secciones son útiles para el mantenimiento de los datos de la propuesta y el rellenado de datos durante el proceso de creación de la propuesta.
-
+    > 
+    > Si desea crear una lista de valores para un marcador de posición, cargue una hoja de cálculo de Excel que tenga una columna con el marcador de posición como título de la columna y en las filas de abajo la lista de opciones. Si hace referencia al mismo marcador de posición en otro conjunto de reglas de datos, asegúrese de que tengan un conjunto común de valores.
+    
 1.  Para crear una nueva sección de datos de oferta, haga clic en **Agregar una sección** y escriba un nombre único para la sección.
 
 1.  Para agregar marcadores de posición de los datos de la oferta en una sección, haga clic en **Agregar datos de oferta** y escriba un nombre único para el marcador. de posición.

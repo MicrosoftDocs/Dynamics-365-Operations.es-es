@@ -17,16 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: f03e414683465e7275d6c48a843306abefbacaf0
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 3490378ff2c4a05b490bf268aada6e8be17b77f9
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1505850"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898675"
 ---
 # <a name="generate-affordable-care-act-aca-reports"></a>Generar informes de la Ley de Cuidado de Salud Asequible (ACA)
-
-[!include [banner](includes/banner.md)]
 
 La funcionalidad está disponible para ayudar a los empleados que necesiten llevar un seguimiento de la información notificada en los formularios 1095-B y 1095-C como respaldo de la parte de la **orden del empresario** de la Ley de Cuidado de Salud Asequible. Recuerde que esta funcionalidad solo se habilita en entidades jurídicas de los Estados Unidos.
 

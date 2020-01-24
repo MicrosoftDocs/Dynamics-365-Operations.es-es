@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d3f90e963341efe854270134988cfc51b5280bf4
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: abe921b8658322bcf77aeea8fa05843e539f97f8
+ms.sourcegitcommit: 523d22f31010339b4ff5b4fbe0a75aa909843ba6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813371"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "2902441"
 ---
 # <a name="purchase-agreements"></a>Acuerdos de compra
 
@@ -36,7 +36,14 @@ Los acuerdos de compra se pueden aplicar a una cantidad específica de un produc
 
 En la página **Acuerdos de compra** puede crear, aplicar y realizar un seguimiento de los acuerdos de compra que existen entre la organización y los proveedores. Por ejemplo, después de crear un acuerdo de compra, puede realizar pedidos directamente desde el acuerdo. Cada acuerdo de compra tiene un período de validez definido por la persona que lo crea. La fecha de entrega de una compra debe estar dentro de las fechas de vigencia del período de validez.  
 
-Tras crear un acuerdo de compra, debe activarlo para que entre en vigor. Para activar un acuerdo de compra, defina la opción **Marcar acuerdo como vigente** en **Sí**.
+Tras crear un acuerdo de compra, debe activarlo para que entre en vigor. Para activar un acuerdo de compra, defina la opción **Marcar acuerdo como vigente** en **Sí**. 
+
+Para evitar que se utilice y confirme su acuerdo de compra, marque el estado del acuerdo como **Cerrado**. Puede actualizar el estado a **Vigente** en cualquier momento después de hacer este cambio.
+
+## <a name="responsible-workers-on-purchase-agreements"></a>Trabajadores responsables en acuerdos de compra
+
+Puede identificar un trabajador responsable principal y un trabajador responsable secundario en la clasificación del acuerdo de compra. El acuerdo de compra resultante heredará estos valores. No es necesario agregar trabajadores responsables al acuerdo de compra, y se pueden modificar directamente en el acuerdo de compra según el caso. No puede especificar un trabajador responsable secundario sin un trabajador responsable principal, y no es necesario especificar un trabajador responsable secundario. No puede especificar un mismo trabajador como trabajador responsable principal y secundario. 
+
 
 ## <a name="commitment-types"></a>Tipos de compromiso
 Cada línea de un acuerdo de compra es un compromiso a comprar algo. Puede usar líneas de varios pedidos de compra para satisfacer el compromiso. Hay cuatro tipos de compromisos:
@@ -82,7 +89,7 @@ Puede seleccionar un acuerdo de compra solo si está creando un pedido de compra
 En algunos casos en los que los pedidos de compra se crean indirectamente, se puede controlar si Supply Chain Management buscará automáticamente acuerdos de compra aplicables. Por ejemplo, puede hacerlo cuando se consoliden automáticamente pedidos de compra planificados en firme o cuando se creen pedidos de compra que se basan en pedidos de ventas.
 
 ## <a name="matching-policy-on-purchase-agreements"></a>Directiva de conciliación sobre acuerdos de compra
-Puede definir una directiva de conciliación de línea en el encabezado del acuerdo de compra. Esta directiva de conciliación de línea respetará la directiva de conciliación de línea de los parámetros de proveedores cuando el campo **Permitir anulación de directiva de conciliación** en la página **Parámetros de proveedores** (en la ficha desplegable **Coincidencia de precio y cantidad**) se establece en **Superior a la directiva de la empresa**. Los documentos que hagan referencia al acuerdo de compra utilizarán la directiva de conciliación de línea que se define en el encabezado del acuerdo de compra a menos que se haya definido lo contrario en el elemento correspondiente, artículo y proveedor, o directiva de compras de la categoría.
+Puede definir una directiva de conciliación de línea en el encabezado del acuerdo de compra. Esta directiva de conciliación de línea respetará la directiva de conciliación de línea de los parámetros de proveedores cuando el campo **Permitir anulación de directiva de conciliación** de la página **Parámetros de proveedores** (en la ficha desplegable **Coincidencia de precio y cantidad**) se establece en **Superior a la directiva de la empresa**. Los documentos que hagan referencia al acuerdo de compra utilizarán la directiva de conciliación de línea que se define en el encabezado del acuerdo de compra a menos que se haya definido lo contrario en el elemento correspondiente, artículo y proveedor, o directiva de compras de la categoría.
 
 ## <a name="purchase-agreements-and-intercompany-trade"></a>Acuerdos de compra y transacciones comerciales entre empresas vinculadas
 Las relaciones comerciales entre empresas vinculadas se pueden crear entre cuentas de proveedor y cuentas de cliente que se encuentran en distintas entidades jurídicas. Cuando un pedido de ventas o un pedido de compra se crea para una de las partes, se crea una cadena de pedidos de empresas vinculadas. En la cadena de pedido, el pedido de ventas y el pedido de compra se crea en las entidades jurídicas adecuadas.  

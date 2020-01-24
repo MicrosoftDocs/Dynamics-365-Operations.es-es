@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a095fe97b05898403b501763204a462ee8dcc12a
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 2371d86165390503312c2848842acf4745a8ed7a
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814637"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898257"
 ---
-# <a name="create-and-send-an-onboarding-guide-by-using-dynamics-365-talent---onboard"></a>Crear y enviar una guía de incorporación con Dynamics 365 Talent - Onboard
+# <a name="create-and-send-an-onboarding-guide"></a>Crear y enviar una guía de incorporación
 
 [!include [banner](includes/banner.md)]
 
@@ -42,7 +42,7 @@ Una vez que haya creado una guía de incorporación, puede enviarla al empleado 
 
 5. En la ventana **Crear guía**, en **A quién va a incorporar**, especifique el nombre o la dirección de correo electrónico del nuevo empleado. Si el nuevo empleado no está en el sistema aún, seleccione **Agregar ahora**, y especifique información de empleado.
 
-    ![[Introducción de información para la guía de incorporación](./media/onboard-create-a-guide-window.png)](./media/onboard-create-a-guide-window.png)
+    ![[Especificar información para la guía de incorporación](./media/onboard-create-a-guide-window.png)](./media/onboard-create-a-guide-window.png)
 
 6. En **¿Cuándo empieza**, seleccione una fecha inicial.
 7. Si la guía de incorporación debe enviarse automáticamente al nuevo empleado en una fecha concreta, asegúrese de que la opción **Programar una fecha de envío automático** se haya activado, y seleccione la fecha de envío automática. Para enviar inmediatamente la guía, apague la opción **Programar una fecha de envío automático**.
@@ -92,7 +92,7 @@ No tiene que siempre crear una guía a partir de una plantilla. Si prefiere, pue
 1. En el menú izquierdo, seleccione **Guías**, y seleccione el botón **Agregar** (el signo más \[**+**\]).
 2. En la ventana **Crear guía**, en **A quién va a incorporar**, especifique el nombre o la dirección de correo electrónico del nuevo empleado. Si el nuevo empleado no está en el sistema aún, seleccione **Agregar ahora**, y especifique información de empleado.
 
-    ![[Introducción de información para la guía de incorporación](./media/onboard-create-a-guide-window.png)](./media/onboard-create-a-guide-window.png)
+    ![[Especificar información para la guía de incorporación](./media/onboard-create-a-guide-window.png)](./media/onboard-create-a-guide-window.png)
 
 3. En **¿Cuándo empieza**, seleccione una fecha inicial.
 4. Si la guía de incorporación debe enviarse automáticamente al nuevo empleado en una fecha concreta, asegúrese de que la opción **Programar una fecha de envío automático** se haya activado, y seleccione la fecha de envío automática. Para enviar inmediatamente la guía, apague la opción **Programar una fecha de envío automático**.

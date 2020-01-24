@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad6c1c7544f3c9d53b9d5759b246f81dae6cfe2c
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 7cd3e2ac729bdb3ecc8e7bfacb060e433b185f09
+ms.sourcegitcommit: 3a06d3b38d9de2afc22839e5a794829405068024
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771082"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2933941"
 ---
 # <a name="electronic-reporting-er-overview"></a>Visión general de los informes electrónicos (ER)
 
@@ -51,12 +51,12 @@ El motor de ER tiene las siguientes capacidades:
 
 ER es compatible con dos tipos de componentes: **Modelo de datos** y **Formato**.
 
-#### <a name="data-model-components"></a>Componentes de modelo de datos
+#### <a name="data-model-and-model-mapping-components"></a>Componentes de modelos de datos y de asignación de modelos
 
 Un componente de modelo de datos es una representación abstracta de una estructura de datos. Se usa para describir un área de dominio empresarial específico con los detalles suficientes para cumplir los requisitos de creación de informes para dicho dominio. Un componente del modelo de datos consta de las siguientes partes:
 
-- Un modelo de datos como un conjunto de entidades específicas de empresa de dominio y una definición jerárquicamente estructurada de las relaciones entre esas entidades.
-- Una asignación de modelo que vincula orígenes de datos seleccionados de la aplicación a elementos individuales de un modelo de datos que especifica, en tiempo de ejecución, el flujo de datos y las reglas de población de datos empresariales a un componente del modelo de datos.
+- <a name="DataModelComponent"></a>Un modelo de datos como un conjunto de entidades específicas de empresa de dominio y una definición jerárquicamente estructurada de las relaciones entre esas entidades.
+- <a name="ModelMappingComponent"></a>Una asignación de modelo que vincula orígenes de datos seleccionados de la aplicación a elementos individuales de un modelo de datos que especifica, en tiempo de ejecución, el flujo de datos y las reglas de población de datos empresariales a un componente del modelo de datos.
 
 Una entidad de negocio de un modelo de datos se representa como un contenedor (registro). Las propiedades de la entidad empresarial se representan como elementos de datos (campos). Cada elemento de datos tiene un nombre, ficha, descripción y valor únicos. El valor de cada elemento de datos se puede diseñar para que se reconozca como cadena, entero, real, fecha, enumeración, booleano, etc. Además, puede ser otro registro o lista de registros.
 
@@ -81,7 +81,7 @@ Una asignación de modelo que admite documentos electrónicos entrantes tiene la
 
 Un componente de modelo de datos está diseñado para cada dominio del negocio que se debe usar como origen de datos unificado para creación de informes y que aísla los informes de la implementación física de los orígenes de datos. Representa conceptos y funcionalidades de dominio de negocio específicos en un formulario que hace que el diseño inicial del formato y el mantenimiento posterior sean más eficientes.
 
-#### <a name="format-components-for-outgoing-electronic-documents"></a>Componentes del formato para los documentos electrónicos salientes
+#### <a name="FormatComponentOutbound"></a>Componentes del formato para los documentos electrónicos salientes
 
 Un componente de formato es el esquema de la salida de informes que se generará en el momento de la ejecución. Un esquema consta de los siguientes elementos:
 
@@ -107,7 +107,7 @@ La ilustración siguiente muestra fluyen los datos para estos formatos.
 
 Para ejecutar una sola configuración de formato ER y generar un documento electrónico salientes, debe identificar la asignación de la configuración del formato.
 
-#### <a name="format-components-for-incoming-electronic-documents"></a>Componentes del formato para los documentos electrónicos entrantes
+#### <a name="FormatComponentInbound"></a>Componentes del formato para los documentos electrónicos entrantes
 Un componente de formato es el esquema del documento entrante que se importa en tiempo de ejecución. Un esquema consta de los siguientes elementos:
 
 - Un formato que define la estructura y el contenido del documento electrónico de entrada que contiene datos que se importan en tiempo de ejecución. Un componente de formato se usa analizar un documento entrante en distintos formatos, como texto y XML.
@@ -144,7 +144,7 @@ El acceso a los componentes del formato de ER depende de la configuración del c
 
 Diferentes versiones de un componente de formato de datos pueden tener distintos ajustes de los códigos de país o región ISO.
 
-#### <a name="configuration"></a>Configuración
+#### <a name="Configuration"></a>Configuración
 
 Una configuración de ER es el contenedor de un componente concreto de ER. Dicho componente puede ser un componente del modelo de datos o un componente del formato. Una configuración puede incluir diferentes versiones de un componente de ER. Cada configuración se marca como perteneciente a un proveedor específico de configuración. La versión **Borrador** de un componente de una configuración se puede editar cuando se ha seleccionado el propietario de la configuración como proveedor activo en la configuración de ER de la aplicación.
 
@@ -154,13 +154,13 @@ La configuración de formato que se crea contiene un componente formato. El comp
 
 Una configuración de ER se comparte en las empresas de la aplicación.
 
-#### <a name="provider"></a>Proveedor
+#### <a name="Provider"></a>Proveedor
 
 El proveedor de ER es la identificación de parte que se usa para indicar el autor (propietario) de cada configuración de ER. ER le permite administrar la lista de proveedores de configuración. Las configuraciones del formato que se liberan para documentos electrónicos como parte de la solución de Finance and Operations se marcan como propiedad del proveedor de configuración **Microsoft**.
 
 Para obtener información sobre cómo registrar un nuevo proveedor de ER, reproduzca la guía de la tarea, **ER Creación de un proveedor de configuraciones y marcarlo como activo** (parte del proceso empresarial **7.5.4.3 Adquirir y desarrollar los componentes del servicio o la solución de TI (10677)**).
 
-#### <a name="repository"></a>Repositorio
+#### <a name="Repository"></a>Repositorio
 
 Un repositorio de ER guarda las configuraciones de ER. Los tipos de repositorios de ER siguientes son compatibles: 
 

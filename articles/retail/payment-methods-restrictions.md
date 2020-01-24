@@ -3,7 +3,7 @@ title: Restringir métodos de pago para devoluciones sin un recibo
 description: Este tema describe cómo determinados tipos de pago se pueden limitar para la devolución si las devoluciones se crean sin un recibo.
 author: rapraj
 manager: AnnBe
-ms.date: 013/05/2019
+ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2019-02-01
 ms.dyn365.ops.version: AX 10.0.0, Retail Feb 2019 update
-ms.openlocfilehash: 6e2c32aae06ce7bbdde30809d7a197f43b856af1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 22e675fd9b7ee33c89f52ac4c8c15807580b86a7
+ms.sourcegitcommit: b806f0c94d703bec39680fead827733361d47045
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564364"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "2935861"
 ---
 # <a name="restrict-payment-methods-for-returns-without-a-receipt"></a>Restringir métodos de pago para devoluciones sin un recibo
 
@@ -41,7 +41,7 @@ Para configurar los métodos de pago, debe completar las tareas siguientes.
 3. Configurar métodos de pago en tienda. Asocie métodos de pago a cada tienda e indique la configuración específica de la tienda para cada método de pago.
 4. Configurar tipos de pago con tarjeta para tiendas. Complete la configuración de tarjeta para todos los métodos de pago con tarjeta que acepte la tienda.
 
-![Configuración de tienda al por menor](media/NoReceiptReturns1.png "Configuración de tienda al por menor") 
+![Configuración de tienda](media/NoReceiptReturns1.png "Configuración de tienda") 
 
 
 ## <a name="restrict-payment-methods-for-returns-without-a-receipt"></a>Restringir métodos de pago para devoluciones sin un recibo
@@ -52,7 +52,7 @@ El valor predeterminado es **No**, que garantiza que el método de pago se tiene
 
 Cuando **Limitar devoluciones sin recibo** se establece en **Sí**, el método de pago seleccionado no se permitirá para las devoluciones. 
 
-![Método de pago en tienda minorista](media/NoReceiptReturns3.png "Método de pago en tienda minorista") 
+![Método de pago de tienda](media/NoReceiptReturns3.png "Método de pago de tienda") 
 
 > [!NOTE]
 > Si un cajero selecciona un método de pago limitado para la devolución sin un recibo, aparece un mensaje para comprobar los métodos de los pagos aceptables.

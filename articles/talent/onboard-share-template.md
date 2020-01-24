@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ee86f52a2e1c697d71549a39d9eb86bac33d9ff2
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 474c7cc82aaccf6b3bcfb3bbe879725497961c43
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812842"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897152"
 ---
-# <a name="share-content-with-other-contributors-in-dynamics-365-talent---onboard"></a>Compartir el contenido con otros trabajadores en Dynamics 365 Talent - Onboard
+# <a name="share-content-with-other-contributors"></a>Compartir contenido con otros trabajadores
 
 [!include [banner](includes/banner.md)]
 
@@ -38,7 +38,7 @@ Microsoft Dynamics 365 Talent: Onboard le permite compartir las guías y plantil
 
 3. En **Compartir con**, si los destinatarios pueden revisar la guía, establezca la opción **¿Estas personas pueden editar?** en **Activado**. Si hay que enviar una notificación por correo electrónico a los destinatarios con los que ha compartido la guía, establezca la opción **Enviar notificación por correo electrónico a los destinatarios** en **Activado**.
 
-    ![[Configurar las preferencias de acceso y correo electrónico para una guía de incorporación](./media/onboard-share-guide-with-contributors.png)](./media/onboard-share-guide-with-contributors.png)
+    ![[Configuración del acceso y las preferencias de correo electrónico para una guía de incorporación](./media/onboard-share-guide-with-contributors.png)](./media/onboard-share-guide-with-contributors.png)
 
 4. Especifique un nombre o una dirección de correo electrónico, y seleccione el destinatario deseado en la lista desplegable.
 5. En la pestaña **Administrar acceso**, puede revisar o cambiar qué pueden hacer los destinatarios con la guía. Para cambiar el acceso del destinatario, en la lista desplegable junto al nombre del destinatario, selecciona **Puede ver**, **Puede editar**, o **Quitar**, según corresponda.

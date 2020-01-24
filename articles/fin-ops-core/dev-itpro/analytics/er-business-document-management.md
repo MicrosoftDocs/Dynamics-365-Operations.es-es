@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0a2fa6a7f6efef05862a3727a80122c22d591487
-ms.sourcegitcommit: 4162d9ef4239c9d4e5297b8aaa903dd54f9cafc3
+ms.openlocfilehash: 3aac66cc39d854cabdb3d29bde029d93683e2ef7
+ms.sourcegitcommit: 3a06d3b38d9de2afc22839e5a794829405068024
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "2824529"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2933917"
 ---
 # <a name="business-document-management-overview"></a>Visión general de la gestión de documentos empresariales
 
-Los usuarios empresariales usan la [Visión general de los informes electrónicos (ER)](general-electronic-reporting.md) para configurar formatos para documentos de salida en función de los requisitos legales de diversos países o regiones. Los usuarios también pueden definir el flujo de datos para especificar qué datos de la aplicación se colocan en los documentos generados. El marco de ER genera documentos de salida en los formatos de Microsoft Office (libros de Excel o documentos de Word) a través de plantillas predefinidas. Las plantillas se rellenan con los datos requeridos según el flujo de datos configurado mientras se generan los documentos necesarios. Cada formato configurado se puede publicar como parte de una solución de ER para generar documentos de salida específicos. Esto se representa mediante una configuración de formato de ER que pueda contener plantillas que puede usar para generar distintos documentos de salida. Los usuarios empresariales pueden usar este marco para gestionar los documentos empresariales necesarios.
+Los usuarios empresariales usan el marco [Informes electrónicos (ER)](general-electronic-reporting.md) para configurar formatos para documentos de salida en función de los requisitos legales de diversos países o regiones. Los usuarios también pueden definir el flujo de datos para especificar qué datos de la aplicación se colocan en los documentos generados. El marco de ER genera documentos de salida en los formatos de Microsoft Office (libros de Excel o documentos de Word) a través de plantillas predefinidas. Las plantillas se rellenan con los datos requeridos según el flujo de datos configurado mientras se generan los documentos necesarios. Cada formato configurado se puede publicar como parte de una solución de ER para generar documentos de salida específicos. Esto se representa mediante una configuración de formato de ER que pueda contener plantillas que puede usar para generar distintos documentos de salida. Los usuarios empresariales pueden usar este marco para gestionar los documentos empresariales necesarios.
 
 **Gestión de documentos empresariales** aprovecha el marco de ER y permite a los usuarios empresariales editar plantillas de documentos empresariales mediante el servicio de Microsoft Office 365 o la aplicación de escritorio de Microsoft Office apropiada. Las ediciones a los documentos pueden incluir modificar los diseños de los documentos empresariales y agregar marcadores para datos sin cambios del código fuente ni nuevas implementaciones. No se requiere ningún conocimiento del marco de ER para actualizar las plantillas de los documentos empresariales.
 
@@ -59,7 +59,7 @@ Los siguientes informes, con plantillas basadas Excel, estarán disponibles con 
 
 Más informes estarán disponibles. Las notificaciones especiales sobre informes adicionales se enviarán por separado. 
 
-Lista completa de todos los informes previstos para la versión de octubre de 2019 se puede encontrar en [Informes de documentos empresariales configurables en Word y Excel](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details). Para obtener más información acerca de esta característica, complete el ejemplo de este tema.
+Lista completa de todos los informes previstos para la versión de octubre de 2019 se puede encontrar en [Informes de documentos empresariales configurables en Word y Excel](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details). Para obtener más información acerca de esta característica, complete el ejemplo de este tema.
 
 ## <a name="configure-er-parameters"></a>Configurar los parámetros de ER
 

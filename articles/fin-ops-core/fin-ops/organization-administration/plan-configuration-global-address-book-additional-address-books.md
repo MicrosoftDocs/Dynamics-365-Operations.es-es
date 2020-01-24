@@ -3,7 +3,7 @@ title: Plan para la libreta de direcciones global y otras libretas de direccione
 description: Este tema describe las consideraciones y las decisiones que debe realizar durante el proceso de planificación, antes de configurar y configurar la libreta de direcciones global y todas las libretas de direcciones adicionales.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 25a99284b2773e7c9d473357356c69a39f23c92d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 89c6e71e5f537f0f9309eca1025c8e74cdce6716
+ms.sourcegitcommit: 75bbcff474cfb8d2f282be2b9d2d7984d1505fa3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190037"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883420"
 ---
 # <a name="plan-for-the-global-address-book-and-other-address-books"></a>Plan para la libreta de direcciones global y otras libretas de direcciones
 
@@ -35,7 +35,7 @@ Este tema describe las consideraciones y las decisiones que debe realizar durant
 
 Antes de comenzar a trabajar con la libreta de direcciones global, debe determinar los valores predeterminados para ella. Estos valores predeterminados se usan para todas las libretas de direcciones adicionales que cree.
 
-**Decisiones:**
+**Decisiones**
 
 - ¿En qué secuencia se deben mostrar los nombres para los registros de parte del tipo **Persona**? Por ejemplo, una secuencia es apellido, segundo nombre, nombre.
 - ¿Se deben eliminar los registros de parte de la libreta de direcciones cuando se elimina el rol de registro? Por ejemplo, si se elimina un registro de cliente, ¿se debe eliminar también el registro de parte?
@@ -58,11 +58,3 @@ Después de crear la libreta de direcciones global, puede crear libretas de dire
 **Decisión:**
 
 - ¿Cuántas libretas de direcciones adicionales creará?
-
-### <a name="address-book-security"></a>Seguridad de la libreta de direcciones
-
-Puede crear libretas de direcciones en cualquier momento y también puede establecer sus respectivos parámetros de seguridad cuando lo desee. No es necesario que establezca privilegios de seguridad para una libreta de direcciones, pero si no lo hace, todos los trabajadores de la organización podrán ver todos los registros de parte de esa libreta de direcciones. Los privilegios de seguridad relativos a los registros de parte se pueden establecer a través de las libretas de direcciones: Los privilegios de seguridad se basan en equipos. Este enfoque garantiza que solo los trabajadores asignados a un equipo que tiene acceso a una libreta de direcciones pueden ver los registros de parte contenidos en dicha libreta de direcciones. Debe seleccionar los equipos que tienen acceso a cada una de las libretas de direcciones. Por cada libreta de direcciones, puede establecer privilegios de seguridad que permitan o impidan el acceso por parte de determinados equipos. Si otorga privilegios de acceso a una libreta de direcciones a un equipo, todos los usuarios que lo integran pueden ver los registros de la libreta de direcciones. Si no otorga acceso a una libreta de direcciones a un equipo, los miembros de este no podrán ver la libreta de direcciones ni la información que contiene.
-
-**Decisión:**
-
-- ¿Qué equipos deben tener acceso a cada una de las nuevas libretas de direcciones que creará?

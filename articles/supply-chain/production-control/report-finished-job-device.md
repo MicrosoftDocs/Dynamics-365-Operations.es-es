@@ -3,7 +3,7 @@ title: Notificar como terminado a una ubicación controlada mediante matrículas
 description: En este tema se describe el proceso para completar los productos terminados en un pedido de producción al inventario cuando una matrícula de entidad controla la ubicación.
 author: johanhoffmann
 manager: AnnBe
-ms.date: 09/06/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2019-09-06
 ms.dyn365.ops.version: AX 10.0.6
-ms.openlocfilehash: cb809e596fd6bf3030bcee460838798435512b95
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 63073035941cd2ef343c65364536fe76a9b71430
+ms.sourcegitcommit: af36eb17b36092a3101bbfc96486b25036676558
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572138"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2935131"
 ---
 [!include [banner](../includes/banner.md)]
 
@@ -32,4 +32,10 @@ ms.locfileid: "2572138"
 
 El proceso denominado Informar como terminado completa los productos terminados en un pedido de producción al inventario. Si el producto terminado se habilita para los procesos avanzado de almacenes, el producto se notifica como finalizado a una ubicación denominada la ubicación de salida de la producción. Para obtener información sobre la configuración de la ubicación de salida de producción, consulte [Ubicación de salida de producción](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/production-output-location).
 
-Debe seleccionar un número de matrícula de entidad de almacén para completar esta tarea. Si la ubicación de salida de la producción está configurada para ser seguida por la matrícula de entidad, entonces debe incluirse una matrícula de entidad de almacén cuando se informe de la ubicación de salida de producción como finalizada. El campo **Matrícula de entidad** estará visible en el **Informe de progreso** en la página **Dispositivo de tarjeta de trabajo**. El campo sólo está visible en el **Informe de progreso** al notificar la última operación del pedido de producción. El campo solo se muestra si el artículo para el pedido de producción se habilita para los procesos de la gestión de almacenes. 
+Si la ubicación de salida de producción está controlada por una matrícula, se debe proporcionar una matrícula cuando se notifique su fin. El campo **Matrícula de entidad** estará visible en el **Informe de progreso** en la página **Dispositivo de tarjeta de trabajo**. El campo solo es visible en el cuadro **Informar progreso** al informar sobre la última operación del pedido de producción y cuando el artículo para el pedido de producción está habilitado para los procesos de gestión de almacenes. 
+
+Hay dos opciones para proporcionar la matrícula
+- El usuario selecciona matrícula existente en el campo de matrícula.
+- La matrícula se genera automáticamente a partir de una secuencia numérica y se establece de forma predeterminada en el campo de matrícula.
+
+La opción de generar automáticamente la matrícula se configura seleccionando la opción **Generar matrícula de entidad de almacén** en la página **Configurar tarjeta de trabajo para dispositivos**.

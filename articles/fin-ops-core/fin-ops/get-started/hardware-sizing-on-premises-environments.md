@@ -1,9 +1,9 @@
 ---
 title: Requisitos de dimensionamiento de hardware para entornos locales
 description: Este tema muestra los requisitos de dimensionamiento de hardware para un entorno local.
-author: kfend
+author: sericks007
 manager: AnnBe
-ms.date: 09/20/2019
+ms.date: 11/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 65f21d71c22d295902b968e6c18134e1577e01f2
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 8fa644f35a086af99cde74fd6a2062f9b59a6ff7
+ms.sourcegitcommit: dc953c316c396c45ddd596e25c2b358e39a95d84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812566"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2870273"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Requisitos de dimensionamiento de hardware para entornos locales
 
@@ -137,7 +137,7 @@ Solo puede implementarse un nodo SSRS para la versión de disponibilidad general
 
 ## <a name="environment-orchestrator"></a>Orquestador de entorno
 
-El servicio del orquestador es el servicio que administra su implementación y la comunicación relacionada con LCS. Este servicio se implementa como el servicio principal del Service Fabric y requiere al menos tres MV. Este servicio se ubica en el mismo lado que los servicios de orquestación de Service Fabric. Este debe dimensionarse a la carga máxima del clúster. Para obtener más información, consulte [Consideraciones de planificación de la capacidad del clúster del Service Fabric](/azure/service-fabric/service-fabric-cluster-capacity).
+El servicio del orquestador es el servicio que administra su implementación y la comunicación relacionada con LCS. Este servicio se implementa como el servicio principal del Service Fabric y requiere al menos tres MV. Este servicio se ubica en el mismo lado que los servicios de orquestación de Service Fabric. Este debe dimensionarse a la carga máxima del clúster. Para obtener más información, consulte [Planificar y preparar la implementación del clúster autónomo de Service Fabric](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
 
 ## <a name="virtualization-and-oversubscription"></a>Virtualización y sobresuscripción
 

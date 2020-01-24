@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 42065f3d6b7ae9e7ad99b26c7692e41f8c36934d
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: ec095642f556b8d0087dd22f35097671a30047a6
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832986"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898512"
 ---
-# <a name="troubleshoot-integration-with-linkedin-and-microsoft-dynamics-365-talent---attract"></a>Solución de problemas de la integración con LinkedIn y Microsoft Dynamics 365 Talent - Attract
+# <a name="troubleshoot-integration-with-linkedin-and-attract"></a>Solución de problemas de la integración con LinkedIn y Attract
 
 [!include [banner](includes/banner.md)]
 

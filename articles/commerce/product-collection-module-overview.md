@@ -3,7 +3,7 @@ title: Módulos de colección de productos
 description: Este tema proporciona una visión general de los módulos de colección de productos en Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 44f78b55b8e67b7358be75aa63c40a0147507e26
-ms.sourcegitcommit: 3a4e137ef3a96ba0a58c5352f4a3b57467ace9ae
+ms.openlocfilehash: 31307035014f2fae6146f33bc23e3e06103f82eb
+ms.sourcegitcommit: c237123ad94d9418994ac095fbd8634c05a927b1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2785476"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "2943272"
 ---
-# <a name="product-collection-modules"></a>Módulos de colección de productos  
+# <a name="product-collection-modules"></a>Módulos de colección de productos
 
 [!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
@@ -37,18 +37,19 @@ El descubrimiento de productos es una herramienta principal que los minoristas u
 
 Los módulos de colecciones de productos representan servicios y productos físicos en el sitio web. Un módulo de colección de productos se vincula normalmente a una página de detalles en la que los clientes pueden comprar un producto o servicio u obtener más información sobre él. 
 
-Los orígenes de las colecciones de productos pueden ser listas de tres tipos:
+Los orígenes de las colecciones de productos pueden ser listas de los cuatro tipos siguientes:
 
 - Listas editoriales de productos que se han definido manualmente en Dynamics 365 Retail como productos relacionados de un producto o de listas de productos
 - Listas algorítmicas, como listas de productos nuevos, más vendidos o tendencias
 - Listas de recomendaciones que se basan en aprendizaje automático
+- Listas de personalización que admiten resultados personalizados para un cliente. Los clientes deben iniciar sesión en el sitio de comercio electrónico para ver resultados personalizados. Los usuarios invitados no ven resultados personalizados. Los clientes pueden renunciar a la personalización en la [página de gestión de cuentas](account-management.md).
 
 La ilustración siguiente muestra los diferentes tipos de colecciones de productos que se utilizan en un sitio de comercio electrónico.
 
 ![Ejemplo de los diferentes tipos de colecciones de productos en un sitio de comercio electrónico](./media/ProductCollectionsAcrossTheSiteUseProductPlacement.png)
 
 > [!NOTE]
-> Use siempre los módulos de colección de productos para mostrar un grupo de productos de un tema o tipo similar.
+> Use siempre los módulos de colección de productos para mostrar un grupo de productos de un tipo similar.
 
 ## <a name="product-collection-modules-and-types"></a>Tipos y módulos de colección de productos
 
@@ -56,15 +57,15 @@ En la siguiente tabla se describen diversos tipos de módulos de colección de p
 
 | Módulo de colección de productos  | Tipo | Descripción |
 |----------------------------|------|-------------|
-| Exploración de categoría            | Editorial | Este tipo de módulo de colección de productos usa la jerarquía de categoría de navegación que creó el minorista para que un canal minorista muestre un flujo de exploración para productos que se ofrecen en una categoría específica de sitio. |
-| Resultados de la búsqueda             | Consulta de búsqueda | Este tipo de módulo de colección de productos muestra una lista de productos que coinciden mejor con la consulta de búsqueda que el cliente ha especificado. |
-| Productos relacionados           | Editorial | Este tipo de módulo de colección de productos muestra una lista de productos que un director de comercialización ha configurado como productos relacionados en Retail, para el tipo de relación que el autor ha seleccionado. |
-| Listas de productos mantenidas      | Editorial | Este tipo de módulo de colección de productos muestra listas personalizadas que los comerciantes y los editores han creado en Retail. |
-| Nuevas                        | Algorítmico | Este tipo de módulo de colección de productos muestra una lista de los productos más nuevos que se han surtido a canales y catálogos. |
-| Más vendidos               | Algorítmico | Este tipo de módulo de colección de productos muestra una lista de productos clasificados por el número más elevado de ventas. |
-| Tendencias                   | Algorítmico | Este tipo de módulo de colección de productos muestra una lista de los productos con el máximo rendimiento para un período determinado. |
-| Los usuarios que compraron este artículo también compraron | Inteligencia artificial/aprendizaje automático | Este tipo de módulo de colección de productos usa el aprendizaje automático para analizar patrones de compra de consumidor y recomendar artículos relacionados que se usan con frecuencia junto con un producto determinado. |
-| A la gente también le gustó           | Inteligencia artificial/aprendizaje automático | Este tipo de módulo de colección de productos usa el aprendizaje automático para analizar patrones de compra de consumidor y recomendar artículos relacionados con un producto determinado. |
+| Categoría                   | Categoría | Este módulo muestra una lista de productos en una categoría, según lo definido por la jerarquía de categorías de navegación que el minorista creó para un canal minorista. |
+| Productos relacionados           | Editorial | Este módulo muestra una lista de productos que un director de comercialización ha configurado como productos relacionados en Retail, para el tipo de relación que el autor ha seleccionado. |
+| Listas de productos mantenidas      | Editorial | Este módulo muestra listas personalizadas que los comerciantes y editores han creado en Retail. |
+| Nuevas                        | Algorítmico | Este módulo muestra una lista de los productos más recientes que se han surtido a canales y catálogos. Esta lista puede mostrar resultados personalizados para un usuario que ha iniciado sesión si el autor del sitio elige esa opción. |
+| Más vendidos               | Algorítmico | Este módulo muestra una lista de productos que están clasificados por el número máximo de ventas. Esta lista puede mostrar resultados personalizados para un usuario que ha iniciado sesión si el autor del sitio elige esa opción. |
+| Tendencias                   | Algorítmico | Este módulo muestra una lista de los productos de mayor rendimiento para un período determinado. Esta lista puede mostrar resultados personalizados para un usuario que ha iniciado sesión si el autor del sitio elige esa opción. |
+| Los usuarios que compraron este artículo también compraron | Inteligencia artificial/aprendizaje automático | Este módulo usa el aprendizaje automático para analizar patrones de compra de consumidor y recomendar artículos relacionados que se compran con frecuencia junto con un producto determinado. Esta lista puede mostrar resultados personalizados para un usuario que ha iniciado sesión si el autor del sitio elige esa opción. |
+| A la gente también le gustó           | Inteligencia artificial/aprendizaje automático | Este módulo usa el aprendizaje automático para analizar patrones de compra de consumidor y recomendar artículos relacionados que están relacionados con un producto determinado. Esta lista puede mostrar resultados personalizados para un usuario que ha iniciado sesión si el autor del sitio elige esa opción. |
+| Picking para usted              | Inteligencia artificial/aprendizaje automático | Este módulo usa el aprendizaje automático para analizar los patrones de compra del usuario que ha iniciado sesión y proporcionar recomendaciones personalizadas basadas en esos patrones de compra. Para un usuario invitado, esta lista se contraerá. |
 
 ## <a name="add-a-product-collection-module-to-a-category-page"></a>Agregar un módulo de colección de productos a una página de categoría
 
@@ -74,7 +75,8 @@ Para agregar un módulo de colección de productos a una página de categoría, 
 1. En la página Esquema, seleccione la franja **Pie de página secundario**, los puntos suspensivos (**...**) y, a continuación, **Agregar módulo**.
 1. En el cuadro de diálogo **Agregar módulo**, seleccione **Contenedor** y **Aceptar**.
 1. En el módulo de contenedor, seleccione el botón de puntos suspensivos y **Agregar módulo**.
-1. En el cuadro de diálogo **Agregar módulo**, seleccione **Colección de productos** y **Aceptar**.
+1. En el cuadro de diálogo **Agregar módulo**, seleccione **Colección de productos** y **Aceptar**.  
+![Ejemplo de flujo de asistente de módulo de colección de productos](./media/productCollectionModule.png)
 1. Configure los valores seleccionando entradas y un origen de datos adecuados para la colección de productos.
 1. En el panel de propiedades del módulo de colección de productos, seleccione **Agregar una lista de productos**.
 1. En el cuadro de diálogo **Seleccionar la configuración de la lista de productos**, seleccione el tipo de lista, especifique el número de artículos y seleccione otras opciones que estén disponibles para el tipo de lista. Para obtener más información sobre los tipos de lista, consulte la tabla siguiente. 
@@ -82,15 +84,16 @@ Para agregar un módulo de colección de productos a una página de categoría, 
 1. Guarde la página y protéjala.
 
 En la tabla siguiente se muestran los tipos de lista disponibles para la selección del cuadro de diálogo **Seleccionar la configuración de la lista de productos**.
-   
-| Tipo                       | Descripción | Práctica general | Contexto que se puede derivar del contexto de página | Contexto con el que el autor puede reemplazar el contexto de página |
-|----------------------------|-------------|------------------|-------------------------------------|-----------------------------------------------|
-| Productos por categoría       | Lista de productos que pertenecen a una categoría dada. Esta categoría se determina del contexto de la página o del contexto que el autor proporciona. | Enriquecer página de categoría, página principal, páginas de carro y finalización de compra y páginas de productos | Categoría | Categoría determinada por autor |
-| Productos relacionados           | Lista de productos que un director de comercialización ha configurado como productos relacionados en Retail para el tipo de relación. | Páginas de productos, páginas de finalización de compra y carro, página de lista de deseos y página de cuenta de cliente | Tipo de relación de producto (obligatorio)  | Producto, tipo de relación |
-| Mantenida                    | Lista personalizada que los comerciantes y editores han creado en Retail. | Enriquecer página de categoría, página principal, páginas de carro y finalización de compra y páginas de productos | No aplicable | Selector de lista |
-| Algorítmico                | <ul><li>**Nuevos**: lista de los productos más nuevos que se han surtido a canales y catálogos.</li><li>**Más vendidos**: lista de productos que están clasificados por el máximo número de ventas.</li><li>**Tendencias**: lista de los productos de mayor rendimiento para un período determinado.</li></ul> | Página principal, enriquecer página de categoría, y páginas de carro y finalización de compra | Categoría | Categoría determinada por autor |
-| Los usuarios que compraron este artículo también compraron | Lista que usa el aprendizaje automático para analizar patrones de compra de consumidor y recomendar artículos relacionados que se usan con frecuencia junto con un producto determinado. | Páginas de productos, y páginas de carro y finalización de compra | Producto, carro | Incluir carro |
-| A la gente también le gustó           | Lista que usa el aprendizaje automático para analizar patrones de compra de consumidor y recomendar artículos relacionados que están relacionados con un producto determinado. | Páginas de productos, y páginas de carro y finalización de compra | Producto, carro | No aplicable |
+
+| Tipo                       | Descripción | Uso | Contexto de la página | Contexto específico | Personalización |
+|----------------------------|-------------|-------|--------------|------------------|-----------------|
+| Productos por categoría       | Lista de productos que pertenecen a una categoría dada. Esta categoría se determina del contexto de la página o del contexto que el autor proporciona. | Este tipo de lista se puede utilizar en cualquier página (por ejemplo, una página de inicio, una página de categoría, una página de marketing o una página de detalles del producto \[PDP\]) para promover una categoría específica de productos. | Categoría del contexto de la página, donde esté disponible (por ejemplo, una página de categoría) | El autor puede proporcionar una categoría específica como contexto para la lista. | No aplicable |
+| Productos relacionados           | Lista de productos que un director de comercialización ha configurado como productos relacionados para el tipo de relación en Retail. | Este tipo de lista se usa principalmente en PDP, pero se puede usar en cualquier página si se proporciona un producto principal. | Producto de la página, tipo de relación (obligatorio) | El producto se puede seleccionar en el selector y se utiliza el tipo de relación. | No aplicable |
+| Mantenida                    | Lista personalizada que los comerciantes y editores han creado en Retail. | Enriquecer página de categoría, página principal, páginas de carro y finalización de compra y páginas de productos | No aplicable | No aplicable | No aplicable |
+| Algorítmico                | <ul><li>**Nuevos**: lista de los productos más nuevos que se han surtido a canales y catálogos.</li><li>**Más vendidos**: lista de productos que están clasificados por el máximo número de ventas.</li><li>**Tendencias**: lista de los productos de mayor rendimiento para un período determinado.</li></ul> | Página principal, enriquecer página de categoría, y páginas de carro y finalización de compra | Categoría del contexto de la página (por ejemplo, una página de categoría) | La categoría determinada por el autor del sitio | Compatible |
+| Los usuarios que compraron este artículo también compraron | Lista que usa el aprendizaje automático para analizar patrones de compra de consumidor y recomendar artículos relacionados que se compran con frecuencia junto con un producto determinado. | Este tipo de lista solo es aplicable a la página de carro. | Carro | No aplicable | Compatible |
+| A la gente también le gustó           | Lista que usa el aprendizaje automático para analizar patrones de compra de consumidor y recomendar artículos relacionados que están relacionados con un producto determinado. | Este tipo de lista se utiliza en PDP para mostrar productos que otros clientes han comprado. | Contexto del producto desde la página | El producto proporcionado por el autor del sitio | Compatible |
+| Picking para usted              | Lista que utiliza el aprendizaje automático para determinar las preferencias del cliente. | Este tipo de lista se puede usar en cualquier página. | No aplicable| No aplicable | Compatible | 
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
@@ -106,3 +109,4 @@ En la tabla siguiente se muestran los tipos de lista disponibles para la selecci
 
 [Módulo de cuadro de compra](add-buy-box.md)
 
+[Visión general de recomendaciones de producto](product-recommendations.md)

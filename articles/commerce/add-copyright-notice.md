@@ -3,7 +3,7 @@ title: Agregar un aviso de derechos de autor
 description: En este tema se describe cómo agregar un aviso de derechos de autor a su sitio web de comercio electrónico.
 author: psimolin
 manager: AnnBe
-ms.date: 10/31/2019
+ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 39135a2eca25336097ee9eddf06dc6709c102571
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 58c2949057ef777f706d12cee2dd3341d1a3b7e6
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2696954"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2914589"
 ---
 # <a name="add-a-copyright-notice"></a>Agregar un aviso de derechos de autor
 
@@ -65,6 +65,8 @@ El pie de página que contiene el aviso de derechos de autor aparece automática
 [Agregar un logotipo](add-logo.md)
 
 [Seleccionar un tema de sitio](select-site-theme.md)
+
+[Trabajar con archivos de invalidaciones CSS](css-override-files.md) 
 
 [Agregar un icono de favoritos](add-favicon.md)
 

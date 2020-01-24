@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-10-08
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 496603731eb343a64be1e8d9482ac8d42e6aa79a
-ms.sourcegitcommit: 7ef9e61f0388b5241894d40ff39f84a112232a5f
+ms.openlocfilehash: 06758ff5eb1c00ae299b1b8849fcabb0cd9593e8
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2694415"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2896644"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-october-8-2019"></a>Novedades y cambios en Dynamics 365 Talent (8 de octubre de 2019)
-
-[!include [banner](includes/banner.md)]
 
 Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Talent.
 

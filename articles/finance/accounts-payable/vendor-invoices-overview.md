@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b9708c37f10cd08e6b98167fe24d9ae0380c3dac
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 411daa5bc08df530750fd5c09ca8b54bf537b548
+ms.sourcegitcommit: ba1c76497acc9afba85257976f0d4e96836871d1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772177"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "2890336"
 ---
 # <a name="vendor-invoices-overview"></a>Visión general de facturas de proveedores
 
@@ -76,7 +76,7 @@ Al registrar la factura, la cantidad de **Recordatorio de factura** de cada art�
 
 En esta opción se supone que se ha registrado al menos una recepción de producto para el pedido de compra. La factura de proveedor se basa en estas recepciones de producto y refleja sus cantidades. La información financiera de la factura se basa en la información especificada al registrar la factura.
 
-Para obtener más información, consulte [Registrar la factura de proveedor y cuadrarla con la cantidad recibida](../accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md)
+Para obtener más información, consulte [Registrar la factura de proveedor y cuadrarla con la cantidad recibida](../accounts-payable/tasks/record-vendor-invoice-match-against-received-quantity.md)
 
 ## <a name="working-with-multiple-invoices"></a>Trabajar con múltiples facturas
 

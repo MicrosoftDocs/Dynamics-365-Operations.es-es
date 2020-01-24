@@ -18,20 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent October 2019 update
-ms.openlocfilehash: 40bbb8429355fa18fe12c7cf56f8d58f19766cad
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 35cceb97442b05abc243cf7341e0ce7a0d09c613
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2009431"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2915210"
 ---
 # <a name="streamlined-employee-entry-and-navigation"></a>Entrada y navegación de empleados optimizadas
 
-[!include [banner](includes/banner.md)]
-
 Dynamics 365 Talent permite la especificación eficaz de datos del empleado y del empleo. Puede actualizar rápidamente la información del historial de trabajo para empleados y contratistas del pasado, activos, y del futuro.
 
-También puede permitir una experiencia simplificada de navegación para buscar rápidamente información relacionada y realizar los cambios necesarios. Esta funcionalidad ya está disponible en los entornos de espacio aislado. Para activar esta característica, vaya a **Administración del sistema > vinculos > configuración > Parámetros del sistema > características de vista previa**. Seleccione **Formulario y navegación de trabajador mejorado**. Esto habilitará estos cambios para todos los usuarios. Puede desactivar esta opción en cualquier momento.
+También puede permitir una experiencia simplificada de navegación para buscar rápidamente información relacionada y realizar los cambios necesarios. Esta funcionalidad ya está disponible en todos los entornos. Para activar esta característica, vaya a **Administración del sistema> Administración de características > Nuevo> Entrada de empleados optimizada > Habilitar**. Esto habilitará estos cambios para todos los usuarios. Puede desactivar esta opción en cualquier momento.
 
 ## <a name="view-options"></a>Opciones de vista
 

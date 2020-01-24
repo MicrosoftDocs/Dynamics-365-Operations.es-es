@@ -3,7 +3,7 @@ title: Preguntas frecuentes de flujo de trabajo
 description: Este tema responde a las preguntas frecuentes acerca del sistema de flujo de trabajo.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 06/19/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0188e8ed3cbbfd7dbccd7d13cf6129e146a919ac
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: cdddd26a662e9334f6d3c9806871df5b58ec03c7
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772706"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934918"
 ---
 # <a name="workflow-faq"></a>Preguntas frecuentes sobre flujos de trabajo
 
@@ -37,7 +37,7 @@ Cada notificación es para un elemento de trabajo diferente, pero la semejanza p
 Existen actualmente un límite en la función de exportación del flujo de trabajo que impide que los nombres del flujo de trabajo pasen de 48 caracteres. Usar un nombre que sea más largo de 48 caracteres puede resultar en un error “El servidor no puede autenticar la solicitud” y/o evitar que se exporte un archivo sin un tipo de archivo. La siguiente entrada del blog proporciona más detalles [Solución de problemas de exportación del flujo de trabajo](https://community.dynamics.com/ax/b/elandaxdynamicsaxupgradesanddevelopment/archive/2019/04/10/workflow-export-troubleshooting).
 
 ## <a name="can-the-submitter-of-a-workflow-also-approve-the-workflow"></a>¿El remitente de un flujo de trabajo también puede aprobar el flujo de trabajo?
-Sí, el remitente de un flujo de trabajo también puede aprobar el flujo de trabajo si está configurado de ese modo. Para evitar este comportamiento, establezca **Parámetros del flujo de trabajo > General > Aprobador > No permitir aprobación por parte del remitente** en **Sí**.
+Sí, el remitente de un flujo de trabajo también puede aprobar el flujo de trabajo si está configurado de ese modo. Para evitar este comportamiento, establezca **Administración del sistema > Flujo de trabajo > Parámetros del flujo de trabajo > General > Aprobador > No permitir aprobación por parte del remitente** en **Sí**.
 
 ## <a name="can-i-add-alerts-to-workflows-to-provide-notifications-to-users"></a>¿Puedo agregar alertas a flujos de trabajo para proporcionar notificaciones a los usuarios?
 A continuación se muestran algunas áreas fundamentales a tener en cuenta para agregar a los flujos de trabajo para proporcionar notificaciones:
@@ -51,3 +51,6 @@ A continuación se muestran algunas áreas fundamentales a tener en cuenta para 
     - [Los flujos de trabajo tienen eventos de negocio](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) que el cliente podría utilizar para activar los flujos que tienen las notificaciones que está buscando.   
 
 En resumen, si un usuario no obtiene la notificación adecuada del Centro de actividades cuando se le asigna un elemento de trabajo del flujo de trabajo, utilice [Eventos de negocio del flujo de trabajo](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) con Microsoft Power Automate para proporcionar notificaciones adicionales o distintas.
+
+## <a name="workflow-editor-has-trouble-starting-under-adfs"></a>El editor de flujo de trabajo no se puede iniciar con ADFS 
+Cuando el editor de flujo de trabajo se ejecuta con los Servicios de federación de Active Directory (AD FS) en un entorno actualizado, es posible que tenga problemas para iniciarse. Si es así, asegúrese de agregar la dirección URL " https://dynamicsaxworkfloweditor/" a la propiedad **Microsoft Dynamics 365 for Operations On-premises - Flujo de trabajo - Aplicación nativa** en la configuración de ADFS.

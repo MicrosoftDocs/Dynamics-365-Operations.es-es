@@ -3,7 +3,7 @@ title: Gestión del rendimiento
 description: El proceso de gestión del rendimiento permite a los empleados documentar y comentar su rendimiento con el administrador. A su vez, los administradores pueden proporcionar comentarios de retroalimentación y orientación a los empleados.
 author: andreabichsel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,16 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 05d8986d69abba4dbba7c30aad5a7e4626ceb5b1
-ms.sourcegitcommit: cadce85ca3004d53caf6bc49147a524c1bfd421f
+ms.openlocfilehash: 18e9606e62bc2739da99b75ab56161bd7cc7eafe
+ms.sourcegitcommit: 724b72412861d342c138a7935319da700b63c234
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1590514"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2921159"
 ---
 # <a name="performance-management"></a>Gestión del rendimiento
-
-[!include [banner](includes/banner.md)]
 
 El proceso de gestión del rendimiento permite a los empleados documentar y comentar su rendimiento con el administrador. A su vez, los administradores pueden proporcionar comentarios de retroalimentación y orientación a los empleados.  
 
@@ -91,6 +89,8 @@ Para obtener evaluaciones más detalladas, puede extraer objetivos activos y com
 También puede usar la sección **Capacidades** para discutir, revisar y calificar las capacidades del empleado. Puede añadir tantas capacidades como sea necesario y puede elegir si la capacidad debe calificarse. 
 
 Puede crear nuevas evaluaciones basadas en plantillas que ha creado. Por ejemplo, puede tener una plantilla para reuniones de uno en uno, planes de desarrollo o evaluaciones periódicas. Puede seleccionar la plantilla al crear una nueva evaluación.
+
+Para imprimir revisiones, seleccione el botón **Imprimir revisión**. Si no ve el botón en la página **Revisión**, asegúrese de que ha habilitado la característica en el espacio de trabajo **Administración de características**. Para obtener más información acerca de la administración de características, consulte [Visión general de la Administración de características](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
 
 ## <a name="components-you-can-include-in-performance-reviews"></a>Componentes que puede incluir en las evaluaciones de rendimiento
 Puede incluir varios tipos de información en las evaluaciones de rendimiento. Dichos componentes incluyen los detalles de la evaluación, las medidas, las actividades, las clasificaciones, las aprobaciones y los datos adjuntos.

@@ -17,16 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e84f0c18cfb52de2c6c8c40af9a08a88c947e38c
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 6ee3556e033cf298bbd5102746d2b57884f5e6d0
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2010577"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898073"
 ---
 # <a name="save-task-guides-to-lcs-and-replay-them"></a>Guarda las guías de tareas en LCS y reproducirlas
-
-[!include [banner](includes/banner.md)]
 
 **Detalles del entorno** 
 

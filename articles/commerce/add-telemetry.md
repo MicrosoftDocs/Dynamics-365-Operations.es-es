@@ -3,7 +3,7 @@ title: Agregar secuencia de comandos a páginas del sitio para admitir telemetr�
 description: Este tema describe cómo agregar código de script del lado cliente a las páginas del sitio para admitir la colección de telemetría del cliente.
 author: bicyclingfool
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a5f82426d87cd2e0faa0195a841899bb03f9df08
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 79d0e11946f3c6f4704d3a726d33de0378eb53bd
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697345"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2914548"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Agregar secuencia de comandos a páginas del sitio para admitir telemetría
 
@@ -63,6 +63,8 @@ Después de crear un fragmento para su código de script, se puede reutilizar en
 [Agregar un logotipo](add-logo.md)
 
 [Seleccionar un tema de sitio](select-site-theme.md)
+
+[Trabajar con archivos de invalidaciones CSS](css-override-files.md) 
 
 [Agregar un icono de favoritos](add-favicon.md)
 

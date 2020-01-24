@@ -3,7 +3,7 @@ title: Configurar páginas personalizadas para inicios de sesión de usuario
 description: Este tema describe cómo crear páginas personalizadas en Microsoft Dynamics 365 Commerce que administran inicios de sesión personalizados para usuarios de inquilinos de negocio a consumidor (B2C) de Azure Active Directory (Azure AD).
 author: brianshook
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 12/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 644d937ddd3c219ae869f22d977d2846dffc20e1
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 20bfacbc2374003814e12e7737644d118d404cc0
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697575"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945568"
 ---
 # <a name="set-up-custom-pages-for-user-logins"></a>Configurar páginas personalizadas para inicios de sesión de usuario
 
@@ -136,11 +136,11 @@ Para actualizar la directiva “Registrarse e iniciar sesión” con informació
 1. En el directiva **Registrarse e iniciar sesión** que ha configurado anteriormente, en el panel de navegación, seleccione **Diseños de página**.
 1. Seleccione el diseño **Página unificada de inicio de sesión o de registro**.
 1. Establezca la opción **Usar contenido de la página personalizada** en **Sí**.
-1. En el campo **URI de página personalizado**, especifique la dirección URL de inicio de sesión completa. Incluir el sufijo **?preloadscripts=true**. Por ejemplo, escriba **www.\<mi dominio\>.com/sign-in?preloadscripts=true**.
+1. En el campo **URI de página personalizado**, especifique la dirección URL de inicio de sesión completa. Incluir el sufijo **?preloadscripts=true**. Por ejemplo, escriba ``www.<my domain>.com/sign-in?preloadscripts=true``.
 1. En el campo **Versión de Diseño de página (versión preliminar)**, seleccione **1.2.0**.
 1. Seleccione el diseño **Página de registro de cuenta local**.
 1. Establezca la opción **Usar contenido de la página personalizada** en **Sí**.
-1. En el campo **URI de página personalizado**, especifique la dirección URL de inicio de sesión completa. Incluir el sufijo **?preloadscripts=true**. Por ejemplo, escriba **www.\<mi dominio\>.com/sign-in?preloadscripts=true**.
+1. En el campo **URI de página personalizado**, especifique la dirección URL de registro completa. Incluir el sufijo **?preloadscripts=true**. Por ejemplo, escriba ``www.<my domain>.com/sign-up?preloadscripts=true``.
 1. En el campo **Versión de Diseño de página (versión preliminar)**, seleccione **1.2.0**.
 1. En la sección **Atributos de usuario**, siga estos pasos:
 
@@ -156,7 +156,7 @@ Para actualizar la directiva “Edición de perfiles” con información de pág
 1. En el directiva **Edición de perfiles** que ha configurado anteriormente, en el panel de navegación, seleccione **Diseños de página**.
 1. Seleccione el diseño **Página de edición de perfil**.
 1. Establezca la opción **Usar contenido de la página personalizada** en **Sí**.
-1. En el campo **URI de página personalizado**, especifique la dirección URL de inicio de sesión completa. Incluir el sufijo **?preloadscripts=true**. Por ejemplo, escriba **www.\<mi dominio\>.com/sign-in?preloadscripts=true**.
+1. En el campo **URI de página personalizado**, especifique la dirección URL completa de edición de perfil. Incluir el sufijo **?preloadscripts=true**. Por ejemplo, escriba ``www.<my domain>.com/profile-edit?preloadscripts=true``.
 1. En el campo **Versión de Diseño de página (versión preliminar)**, seleccione **1.2.0**.
 1. En la sección **Atributos de usuario**, siga estos pasos:
 
@@ -170,12 +170,14 @@ Para actualizar la directiva “Restablecimiento de contraseña” con informaci
 1. En el directiva **Restablecimiento de página** que ha configurado anteriormente, en el panel de navegación, seleccione **Diseños de página**.
 1. Seleccione el diseño **Página de contraseña nueva**.
 1. Establezca la opción **Usar contenido de la página personalizada** en **Sí**.
-1. En el campo **URI de página personalizado**, especifique la dirección URL de inicio de sesión completa. Incluir el sufijo **?preloadscripts=true**. Por ejemplo, escriba **www.\<mi dominio\>.com/sign-in?preloadscripts=true**.
+1. En el campo **URI de página personalizado**, especifique la dirección URL completa de restauración de contraseña. Incluir el sufijo **?preloadscripts=true**. Por ejemplo, escriba ``www.<my domain>.com/passwordreset?preloadscripts=true``.
 1. En el campo **Versión de Diseño de página (versión preliminar)**, seleccione **1.2.0**.
 1. Seleccione el diseño **Página de verificación de la cuenta**.
 1. Establezca la opción **Usar contenido de la página personalizada** en **Sí**.
-1. En el campo **URI de página personalizado**, especifique la dirección URL de inicio de sesión completa. Incluir el sufijo **?preloadscripts=true**. Por ejemplo, escriba **www.\<mi dominio\>.com/sign-in?preloadscripts=true**.
+1. En el campo **URI de página personalizado**, especifique la dirección URL completa de verificación de restauración de contraseña. Incluir el sufijo **?preloadscripts=true**. Por ejemplo, escriba ``www.<my domain>.com/passwordreset-verification?preloadscripts=true``.
 1. En el campo **Versión de Diseño de página (versión preliminar)**, seleccione **1.2.0**.
+
+
 
 ## <a name="customize-default-text-strings-for-labels-and-descriptions"></a>Personalizar cadenas de texto predeterminada para etiquetas y descripciones
 
@@ -193,15 +195,15 @@ Después de actualizar el archivo global.json y publicar los cambios, el nuevo t
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general de la tienda en línea](online-store-overview.md)
-
-[Crear un sitio de comercio electrónico](create-ecommerce-site.md)
+[Configurar su nombre de dominio](configure-your-domain-name.md)
 
 [Implementar un sitio nuevo de comercio electrónico](deploy-ecommerce-site.md)
 
+[Crear un sitio de comercio electrónico](create-ecommerce-site.md)
+
 [Asociar un sitio en línea con un canal](associate-site-online-store.md)
 
-[Configurar su nombre de dominio](configure-your-domain-name.md)
+[Administrar archivos robots.txt](manage-robots-txt-files.md)
 
 [Agregar soporte para una red de entrega de contenido (CDN)](add-cdn-support.md)
 

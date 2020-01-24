@@ -3,7 +3,7 @@ title: Sintaxis de consulta y filtro avanzados
 description: Este artículo describe el filtrado y las opciones de consulta que están disponibles cuando usa el diálogo Ordenación o filtro avanzados o el operador coincide en el panel de filtro o los filtros de los encabezados de las columnas de la cuadrícula.
 author: jasongre
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9e57cac740a26c6c5b451c92d856e533c6db33e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c5a96921436311440ba60c3fa31135457cf9f291
+ms.sourcegitcommit: 8585de8acf579bcc033671ef270fa9d92230121b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180838"
+ms.lasthandoff: 01/02/2020
+ms.locfileid: "2931297"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Sintaxis de consulta y filtro avanzados
 
@@ -114,6 +114,12 @@ Este artículo describe el filtrado y las opciones de consulta que están dispon
 <td>Que coincida con los valores separados por comas</td>
 <td>Escriba todos los criterios y sepárelos con comas.</td>
 <td><strong>A, D, F, G</strong> encuentra exactamente &quot;A&quot;, &quot;D&quot;, &quot;F&quot; y &quot;G&quot;. <strong>10, 20, 30, 100</strong> encuentra exactamente &quot;10, 20, 30, 100&quot;.</td>
+</tr>
+<tr>
+<td>"" (dos comillas dobles)</td>
+<td>Hacer coincidir un valor en blanco</td>
+<td>Escriba dos comillas dobles consecutivas para filtrar valores en blanco en ese campo.</td>
+<td>Dos comillas dobles consecutivas (<strong>""</strong>) busca filas sin valor para la columna actual.</td>
 </tr>
 <tr>
 <td>(<span class="code">Instrucción SQL</span>) (instrucción SQL entre paréntesis)</td>

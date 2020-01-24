@@ -3,7 +3,7 @@ title: Comparación de las características en la nube y locales
 description: En este tema se muestran qué características se admiten en la nube y en local.
 author: sericks007
 manager: AnnBe
-ms.date: 10/11/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 8fa5ff0de4e97d5dc178581f721f3a6ea72fc974
-ms.sourcegitcommit: 70c6257bd6833de3e8de34d9a7561088194e59cc
+ms.openlocfilehash: 7837fbaaffdbd61a1adce1698800017bf4f6a018
+ms.sourcegitcommit: 282552609fdb82ec4463f801023b4bc01bc151d5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "2573939"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "2935396"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Comparación de características locales y en la nube
 
@@ -48,7 +48,7 @@ Las tablas siguientes muestran las áreas de la aplicación. El soporte en la nu
 | Administración de datos e integración      |                                                                                           | Sí       | Sí             |
 |                                      | Extensión diseñada según la configuración                                                            | Sí       | N.º              |
 |                                      | Exportar datos a su propio almacén de datos                                                    | Sí       | Sí             |
-|                                      | Habilitar la exportación de actualizaciones incrementales a una entidad de datos                                 | Sí       | N.º              |
+|                                      | Habilitar la exportación de actualizaciones incrementales a una entidad de datos                                 | Sí       | Sí              |
 |                                      | Integraciones de datos                                                                         | Sí       | Sí             |
 | Administración de documentos                  |                                                                                           | Sí       | Sí             |
 | Administración financiera                 |                                                                                           | Sí       | Sí             |
@@ -148,7 +148,7 @@ Las tablas siguientes muestran las áreas de la aplicación. El soporte en la nu
 
 ## <a name="dynamics-365-retail"></a>Dynamics 365 Retail 
 
-Para ver una lista de capacidades al por menor que estén disponibles en implementaciones locales, consulte [Capacidades al por menor que están disponibles en implementaciones locales](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/PeterRFriis-patch-1/articles/retail/retail-onprem.md).
+Para ver una lista de capacidades al por menor que estén disponibles en implementaciones locales, consulte [Capacidades al por menor que están disponibles en implementaciones locales](../../../retail/retail-onprem.md).
 
 ## <a name="dynamics-365-talent"></a>Dynamics 365 Talent 
 

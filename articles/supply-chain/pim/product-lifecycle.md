@@ -3,7 +3,7 @@ title: Visión general del estado de ciclo de vida de producto
 description: El estado del ciclo de vida de un producto documenta el estado de ciclo de vida de un producto liberado o una variante del producto.
 author: cvocph
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: c3674442dfec11afc26881f3e5c442ba05a4821b
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: b5b0ceb1926de6efda239fdbc69fb36a9d4b28e0
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813555"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934849"
 ---
 # <a name="product-lifecycle-state-overview"></a>Visión general del estado de ciclo de vida de producto
 
@@ -74,11 +74,7 @@ Para obtener información detallada sobre cómo usar el estado de ciclo de vida 
 
 ## <a name="default-migration-import-and-export"></a>Migración, exportación e importación predeterminados 
 
-Las entidades de datos no admiten los estados del ciclo de vida del producto y el estado del ciclo de vida no se puede establecer en un estado variable a través de las entidades de datos del producto liberado.
-
--  En la migración de las versiones anteriores, el estado del ciclo de vida de todos los productos y las variantes de producto estarán en blanco.  
--  Al importar los productos liberados a través de una entidad de datos, se aplicará estado del ciclo de vida predeterminado en la creación.  
--  Al importar variantes de producto liberado a través de una entidad de datos, se importará el estado del ciclo de vida del producto del producto maestro liberado.   
+Las entidades de datos admiten los estados del ciclo de vida del producto y el estado del ciclo de vida se puede establecer en un estado variable a través de la entidad de datos del producto liberado o de la entidad de datos de la variante liberada.
 
 ## <a name="find-obsolete-products-and-products-variants"></a>Busque los productos y las variantes de productos obsoletos 
 

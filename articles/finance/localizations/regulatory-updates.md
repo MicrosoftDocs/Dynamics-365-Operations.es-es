@@ -3,7 +3,7 @@ title: Actualizaciones reglamentarias
 description: Este tema proporciona una lista de actualizaciones normativas planificadas y publicadas para Microsoft Dynamics 365 Finance.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/23/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 480253d1401c567e27f636f8a2b19fa3937e89e5
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: dc919d232f0e4f0cfbab372b9fdded2657906a1d
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770393"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934686"
 ---
 # <a name="regulatory-updates"></a>Actualizaciones reglamentarias
 
@@ -42,54 +42,42 @@ Para ver los últimos planes de actualizaciones regulatorias, consulte la siguie
 
 |Fecha de lanzamiento planeada:|Versión|País|Actualización reglamentaria|
 |--------------------|---------------|-------|-------|
-|      noviembre de 2019          |   10.0.7(PEAP)      | Italia      |   Cambios en administración del IVA por D.L. 119 de 23 de octubre de 2019: Comunicación trimestral sobre el IVA (Lipe “2018”)    |
-|      noviembre de 2019          |   10.0.7(PEAP)      | Italia      |   Retail - Administración de la información sobre clientes en PDV |
-|      noviembre de 2019          |   10.0.7(PEAP)      | Italia      |   Retail - Impresión de información del cliente en el recibo fiscal | 
-|      noviembre de 2019          |   10.0.7(PEAP)      | Japón      |   Se cambia la tasa de consumo y se introduce la tasa fiscal reducida (disposiciones de facturas) | 
-|      noviembre de 2019          |   10.0.7(PEAP)      | México      |   Actualización de la regla 2.7.2.9 - mediante la zona horaria del código postal del establecimiento que envía el documento de CFDI | 
-|      noviembre de 2019          |   10.0.7(PEAP)      | Reino Unido     |   Crear impuestos digital - creación del informe de devolución de IVA para las empresas que informan como grupo de IVA dentro de la misma base de datos del sistema v.10 | 
-|      Noviembre-agosto de 2019          |   10.0.7(PEAP), 10.0.6, 10.0.5HF, 10.0.4HF, 10.0.3HF      | Brasil      |   Una nueva versión de notas técnicas para NF-e: NT 2019.001 Versión 1.20    |
-|      Noviembre-agosto de 2019          |   10.0.7(PEAP), 10.0.6      | Brasil      |   SC de la declaración de DRCST   |
-|      Noviembre-agosto de 2019          |   10.0.7(PEAP), 10.0.6      | Italia      |   Cambios en administración del IVA por D.L. 119 de 23 de octubre de 2018 - Dynamics 365 for Finance and Operations  |
-|      Agosto de 2019          |   10.0.6, 10.0.5HF, 10.0.4HF, 10.0.3HF      | Brasil      |   Una nueva versión de notas técnicas para NF-e: NT 2019.001 Versión 1.10    |
-|      Agosto de 2019          |   10.0.6, 10.0.5HF      | Brasil     |   La nueva legislación es implementada por el estado de RJ relativo al EFD-ICMS/IPI. La resolución 13/19 de Rio de Janeiro (RJ) es para "Procedimientos especiales a aplicar en la exoneración"     |
-|      Agosto de 2019          |   10.0.6      | Brasil      |   Extracto de impuestos CAT 42/18    |
-|      Agosto de 2019          |   10.0.6, 10.0.5HF, 10.0.4HF, 10.0.3HF      | Japón      |   Se cambia la tasa de impuestos de consumo y se introduce la tasa fiscal reducida    |
-|      Agosto - Julio de 2019          |   10.0.5, 10.0.4HF, 10.0.3HF      | España      |   España: SII: cambio de reglas de validación a partir del 1 de octubre de 2019    |
-|      Julio de 2019          |   10.0.5, 10.0.4HF, 10.0.2HF      | Brasil      |   Una nueva versión de notas técnicas para NF-e: NT 2019.001 Versión 1.00  |
-|      Julio de 2019          |   10.0.5      | Brasil      |   Guía práctica de contribuciones Sped 1.31. nueva guía    |
-|      Julio de 2019          |   10.0.5      | México      |   MX - CFDI 3.3 - El detalle de las transacciones de impuestos de IEPS en XML debe ser opcional en función de perfil del cliente    |
-|      Junio- Julio de 2019          |   10.0.5, 10.0.3HF      | Reino Unido      |   Crear impuestos digitales - parámetros de prevención de fraude sobre el dispositivo de origen - 10.0.5    |
-|      mayo de 2019          |   10.0.4      | Brasil      |   Documento fiscal entrante 66    |
-|      mayo de 2019          |   10.0.4, 10.0.3HF, 10.02HF, 10.0.1HF      | Brasil      |   NF-e Decreto 54.308/18 - RS    |
-|      mayo de 2019          |   10.0.4, 10.0.3HF, 10.0.2HF, 10.0.1HF      | Brasil      |   NF-e y NFC-e - Resolución 13/2019 y ordenanza SUCIEF 55/2019- RJ - nuevas condiciones para la salida de etiquetas exentas en NF-e    |
-|      mayo de 2019          |   10.0.4, 10.0.3HF      | India      |   Pantalla de "Lugar de prestación" y "Estado" en la facturas de impuestos de GST    |
-|      mayo de 2019          |   10.0.4      | México      |   Declaración de terceros de DIOT - cambios en el diseño de 2019    |
-|      2019 de abril          |   10.0.3      | Brasil      |   Cuadro fiscal 5.2 de permisos de los ajustes del documento de ICMS    |
-|      2019 de abril          |   10.0.3, 10.0.2HF, 10.0.1HF      | Brasil      |   NF-e nuevo NT 2018.005 - v.1.20    |
-|      2019 de abril          |   10.0.3, 10.0.2HF, 10.0.1HF      | Brasil     |   SPED ECD Diseño 7    |
-|      2019 de abril          |   10.0.3      | Brasil      |   SPED ECF - Layout 5 para 2019    |
-|      2019 de abril          |   10.0.3      | India      |   Ajuste de impuestos en la divisa de aduanas en BOE en lugar de hacerlo en la divisa de transacción    |
-|      2019 de abril          |   10.0.3      | India      |   Cálculo de impuestos en la divisa de aduanas en BOE en lugar de hacerlo en la divisa de transacción   |
-|      2019 de abril          |   10.0.3, 10.02HF, 10.0.1HF      | India      |   Cambio de formato número de IEC    |
-|      2019 de abril          |   10.0.3      | Lituania      |   Lituania el informe de i.SAF nos dejó usuario definir códigos de impuestos del sistema en asociación con códigos de impuestos legales    |
-|      2019 de abril          |   10.0.3      | Polonia      |   Facturas SAF (JPK_FA) v.2 a partir del 1 de julio de 2019    |
-|      2019 de abril          |   10.0.2      | Italia      |   Italia: "Spesometro nuevo” (Esterometro) para admitir la división por volumen de archivos y los límites de número de registros    |
-|      2019 de abril          |   10.0.1      |    Austria     |Venta minorista - Integración fiscal         |
-|      2019 de abril          |   10.0.1      |    Europa     |Facturación electrónico - Las facturas de los clientes se exportan en formato PEPPOL BIS 3         |
-|      2019 de abril          |   10.0.1      |    Europa     |Facturación electrónica - Las facturas de los proveedores se importan desde el formato PEPPOL BIS 3         |
-|      2019 de abril          |   10.0.1      |   Alemania     |Facturación electrónico - Las facturas de los clientes se exportan en formato xRechnung 1.1         |
-|      2019 de abril          |   10.0.1      | Hungría      |  Hungría: V.1.1 de facturación en línea 2019  |
-|      2019 de abril          |   10.0.1      | Japón      |  Modificación de era del calendario japonés de 2019  |
-|      2019 de abril          |   10.0.1      |    Rusia     |Cambios en la declaración de impuestos territoriales para 2018 |
-|      2019 de abril          |   10.0.1      |    Rusia     |[Declaración de impuestos evaluada](rus-assessed-tax-declaration.md)|
-|      2019 de abril          |   10.0.1      |    Rusia     |Cambios en la declaración de impuestos sobre el transporte para 2019  |
-|      2019 de abril          |   10.0.1      |    Rusia     |[Declaración de IVA](rus-VAT-declaration.md) |
-|      2019 de abril          |   10.0.1      |    Rusia     |El formato de la declaración de IVA cambia a partir de 2019 (formatos de los libros de ventas y de compra) |
-|      2019 de abril          |   10.0.1      |    Reino Unido     |[Prepare Finance and Operations para la integración con MTD para el IVA](emea-gbr-mtd-vat-integration.md)    |    
-|      2019 de marzo          |   10.0.0      |    Austria   |   Cambios en Kammerumlage 2019 (arancel sobre compra)    |
-|      2019 de marzo          |   10.0.0      |    Brasil    |     Contribuciones SPED EFD- Disposición 004 y 005  |
-|      2019 de marzo          |   10.0.0      |    Malasia     |Malasia reemplaza GST por un impuesto sobre ventas y servicio fiscal de SST        |
+|      Brasil        |   2019 de diciembre       | 10.0.8      |   Disposición fiscal acelerada 014 |
+|      Brasil         |   Noviembre-agosto de 2019       | 10.0.7, 10.0.6HF, 10.0.5HF, 10.0.4HF      |   Una nueva versión de notas técnicas para NF-e: NT 2019.001 Versión 1.20    |
+|      Brasil          |   Noviembre-agosto de 2019       | 10.0.7, 10.0.6      |   SC de la declaración de DRCST   |
+|      Brasil         |   Agosto de 2019       | 10.0.6HF, 10.0.5HF, 10.0.4HF      |   Una nueva versión de notas técnicas para NF-e: NT 2019.001 Versión 1.10    |
+|      Brasil          |   Agosto de 2019      | 10.0.6HF, 10.0.5HF, 10.0.4HF     |   Una nueva versión de notas técnicas para NF-e: NT 2019.001 Versión 1.10    |
+|      Brasil          |   Agosto de 2019      | 10.0.6, 10.0.5HF     |   La nueva legislación es implementada por el estado de RJ relativo al EFD-ICMS/IPI. La resolución 13/19 de Rio de Janeiro (RJ) es para "Procedimientos especiales a aplicar en la exoneración"     |
+|      Brasil          |   Agosto de 2019      | 10.0.6        |   Extracto de impuestos CAT 42/18    |
+|      Brasil          |   Julio de 2019     | 10.0.5, 10.0.4HF, 10.0.2HF      |   Una nueva versión de notas técnicas para NF-e: NT 2019.001 Versión 1.00  |
+|      Brasil          |   Julio de 2019     | 10.0.5      |   Guía práctica de contribuciones Sped 1.31. nueva guía    |
+|      Brasil          |   mayo de 20191     | 10.0.4      |   Documento fiscal entrante 66    |
+|      Brasil          |   mayo de 2019      | 10.0.4      |   NF-e Decreto 54.308/18 - RS    |
+|      Brasil          |   mayo de 2019      | 10.0.4      |   NF-e y NFC-e - Resolución 13/2019 y ordenanza SUCIEF 55/2019- RJ - nuevas condiciones para la salida de etiquetas exentas en NF-e    |
+|      India          |   Agosto de 2019     | 10.0.6       |   Minorista: Administración de números de registro de clientes de PDV para la India    |
+|      India          |   mayo de 2019     | 10.0.4      |   Pantalla de "Lugar de prestación" y "Estado" en la facturas de impuestos de GST    |
+|      Italia          |   2019 de diciembre       | 10.0.8      |   Cambios en administración del IVA por D.L. 119 del 23 de octubre de 2018: comunicación de impuestos anual |
+|      Italia         |   noviembre de 2019       | 10.0.7      |   Cambios en administración del IVA por D.L. 119 de 23 de octubre de 2019: Comunicación trimestral sobre el IVA (Lipe “2018”)    |
+|      Italia         |   noviembre de 2019     | 10.0.7      |   Retail - Administración de la información sobre clientes en PDV |
+|      Italia         |   noviembre de 2019      | 10.0.7      |   Retail - Impresión de información del cliente en el recibo fiscal |
+|      Italia         |   Noviembre-agosto de 2019     | 10.0.7, 10.0.6      |   Cambios en administración del IVA por D.L. 119 de 23 de octubre de 2018 - Dynamics 365 for Finance and Operations  |
+|      Italia          |   Agosto de 2019      | 10.0.6      |   Fecha del registro del IVA    |
+|      Italia          |   Agosto de 2019     | 10.0.6      |   Administración del IVA por fecha de registro del IVA    |
+|      Japón          |   Diciembre - Noviembre de 2019     | 10.0.8, 10.0.7HF       |   Se cambia la tasa de impuestos de consumo y se introduce la tasa fiscal reducida (Informe de impuestos de consumo) |
+|      Japón         |   noviembre de 2019      | 10.0.7       |   Se cambia la tasa de consumo y se introduce la tasa fiscal reducida (disposiciones de facturas) |
+|      Japón          |   noviembre de 2019     | 10.0.6HF     |   Se cambia la tasa de impuestos de consumo y se introduce la tasa fiscal reducida (Informe de impuestos de consumo)  |
+|      Japón          |   Agosto de 2019      | 10.0.6, 10.0.5HF, 10.0.4HF, 10.0.3HF      |   Se cambia la tasa de impuestos de consumo y se introduce la tasa fiscal reducida    |
+|      México          |   Diciembre - Octubre de 2019    | 10.0.8, 10.0.7HF, 10.0.6HF        |   Minorista: CFDI Global: Resol. Div. 2019 - c_CodigoPostal y zona horaria |
+|     México          |   Noviembre - Septiembre de 2019       | 10.0.7, 10.0.6HF      |   Actualización de la regla 2.7.2.9 - mediante la zona horaria del código postal del establecimiento que envía el documento de CFDI |
+|      México           |   Diciembre - Octubre de 2019      | 10.0.8, 10.0.7HF, 10.0.6HF     |   Validación de código en catálogo de productos y servicios |
+|      México         |   Julio de 2019     | 10.0.5      |   MX - CFDI 3.3 - El detalle de las transacciones de impuestos de IEPS en XML debe ser opcional en función de perfil del cliente    |
+|      México          |   mayo de 2019     | 10.0.4      |   Declaración de terceros de DIOT - cambios en el diseño de 2019    |
+|      Polonia          |   Noviembre - Octubre de 2019     | 10.0.7, 10.0.6HF Polonia     |   Pago fraccionado obligatorio: 10.0.7 |
+|      Singapur           |   2019 de diciembre     | 10.0.7      |   Informe de devolución de GST |
+|      España          |   Agosto - Julio de 2019      | 10.0.5, 10.0.4HF      |   España: SII: cambio de reglas de validación a partir del 1 de octubre de 2019    |
+|      Reino Unido          |   2019 de diciembre       | 10.0.8      |   Crear impuestos digitales (MTD): consentimiento del administrador del sistema para transmitir información fuera de D365 mediante la integración con HMRC |
+|      Reino Unido          |   noviembre de 2019     | 10.0.7     |   Crear impuestos digital - creación del informe de devolución de IVA para las empresas que informan como grupo de IVA dentro de la misma base de datos del sistema v.10 |
+|      Reino Unido          |   Junio- Julio de 2019      | 10.0.5     |   Crear impuestos digitales: parámetros de prevención de fraude sobre el dispositivo de origen - 10.0.5    |
 
 
 

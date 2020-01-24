@@ -3,7 +3,7 @@ title: Configuración de la previsión de la demanda
 description: En este tema se describen las tareas de configuración que debe realizar antes de poder usar la previsión de la demanda.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 09/16/2017
+ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 048b0e8e57211893cae538fae20e87186399dd38
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: f56157be8cc61486801fc4c01bb191432dd9a541
+ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813808"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "2935500"
 ---
 # <a name="demand-forecasting-setup"></a>Configuración de la previsión de la demanda
 
@@ -63,7 +63,7 @@ En cualquier momento puede agregar dimensiones de previsión a la lista de dimen
 
 No todos los artículos se comportan de manera semejante desde una perspectiva de previsión de demanda. Los artículos similares se pueden agrupar en una clave de asignación de artículos, y los parámetros como los tipos de transacción y la configuración del método de previsión se pueden definir por clave de asignación de artículos. Haga clic en **Claves de asignación de artículos** en el panel izquierdo de la página **Parámetros de previsión de demanda**. 
 
-Para generar la previsión, Supply Chain Management usa un servicio web de Aprendizaje automático. Para conectarse con el servicio, debe proporcionar la siguiente información si inicia sesión en Microsoft Azure Machine Learning Studio:
+Para generar la previsión, Supply Chain Management usa un servicio web de Aprendizaje automático. Para conectarse con el servicio, debe proporcionar la siguiente información si inicia sesión en Microsoft Azure Machine Learning Studio (clásico):
 
 -   Configurar la clave de la interfaz de programación de aplicaciones (API) de servicio
 -   URL del extremo del servicio web
@@ -71,7 +71,7 @@ Para generar la previsión, Supply Chain Management usa un servicio web de Apren
 -   Clave de cuenta de almacenamiento de Azure
 
 > [!NOTE]
-> Solo se requiere el nombre de la cuenta y la clave de almacenamiento de Azure si usa una cuenta personalizada de almacenamiento. Si se implementa la versión local, debe tener una cuenta personalizada de almacenamiento en Azure, de modo que el servicio de aprendizaje automático pueda tener acceso a los datos históricos. 
+> Solo se requiere el nombre de la cuenta y la clave de almacenamiento de Azure si usa una cuenta personalizada de almacenamiento. Si se implementa la versión local, debe tener una cuenta personalizada de almacenamiento en Azure, de modo que el aprendizaje automático pueda tener acceso a los datos históricos. 
 
 Para crear predicciones de demanda, puede implementar su propio servicio mediante el Estudio de aprendizaje automático o los experimentos de previsión de demanda de Supply Chain Management. Las instrucciones para implementar los experimentos de la previsión de demanda como un servicio web están disponible en Supply Chain Management. En la página **Parámetros de previsión de demanda**, haga clic en la pestaña **Aprendizaje automático de Azure**.
 

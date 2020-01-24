@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fd87a51b73deae64867b0420c00db9fce7c79336
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 54259d3f5dfd8c8e1ff2caaadfac497cc0e133e0
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697138"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945844"
 ---
 # <a name="create-an-e-commerce-site"></a>Crear un sitio de comercio electrónico
 
@@ -59,20 +59,16 @@ Una vez creado el sitio, puede comprobar que esté asociado a la tienda en líne
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general de la tienda en línea](online-store-overview.md)
+[Configurar su nombre de dominio](configure-your-domain-name.md)
 
 [Implementar un sitio nuevo de comercio electrónico](deploy-ecommerce-site.md)
 
 [Asociar un sitio en línea con un canal](associate-site-online-store.md)
 
-[Configurar su nombre de dominio](configure-your-domain-name.md)
+[Administrar archivos robots.txt](manage-robots-txt-files.md)
+
+[Configurar páginas personalizadas para inicios de sesión de usuario](custom-pages-user-logins.md)
 
 [Agregar soporte para una red de entrega de contenido (CDN)](add-cdn-support.md)
 
 [Habilitar la detección de tienda según la ubicación](enable-store-detection.md)
-
-[Configurar páginas personalizadas para inicios de sesión de usuario](custom-pages-user-logins.md)
-
-[Visión general de creación de la página principal](authoring-home-overview.md)
-
-[Agregar una página de sitio nueva](add-new-page.md)

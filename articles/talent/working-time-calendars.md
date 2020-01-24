@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 270048e10c6c0b20023467662acfdcd1b255588e
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: f69bfec663cb8473c112f108813f042368439570
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008970"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897244"
 ---
 # <a name="working-time-calendars"></a>Calendarios de horarios de trabajo
-
-[!include [banner](includes/banner.md)]
 
 El calendario de horario de trabajo permite crear un calendario con las horas y los días que los empleados trabajan en su organización. Los calendarios ayudan a agilizar el proceso de solicitud de licencia de forma predeterminada en horas o días. Si un empleado envía una solicitud de licencia, no tiene que preocuparse de días libres ni de cierres, ya que el calendario de horario de trabajo lo gestiona en su lugar.
 
