@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-19
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 24369a878e95076783d670894236d56dca18e765
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 291f7aefac61c26dfab81cfff28c1c6580d46de5
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812888"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897130"
 ---
-# <a name="edit-onboarding-guides-and-templates-in-dynamics-365-talent---onboard"></a>Editar guías y plantillas de incorporación en Dynamics 365 Talent - Onboard
+# <a name="edit-onboarding-guides-and-templates"></a>Editar guías y plantillas de incorporación
 
 [!include [banner](includes/banner.md)]
 
@@ -114,11 +114,11 @@ Para insertar los cambios:
 1. En la pestaña **Actividades**, arrastre elementos de la derecha al área de edición.
 2. Para organizar la guía en secciones, arrastre el elemento **Nueva sección** al área de edición y escriba un nombre y una descripción opcional para la sección.
 
-    ![[Agregar una nueva sección a un manual o una plantilla de incorporación](./media/onboard-edit-add-section.png)](./media/onboard-edit-add-section.png)
+    ![[Agregar una nueva sección a una guía o plantilla de incorporación](./media/onboard-edit-add-section.png)](./media/onboard-edit-add-section.png)
 
 3. Para agregar actividades para que el nuevo contratado las complete, arrastre el elemento **Nueva actividad** al área de edición y escriba un nombre y una descripción para la actividad.
 
-    ![[Agregar una nueva actividad a un manual o una plantilla de incorporación](./media/onboard-edit-add-activity.png)](./media/onboard-edit-add-activity.png)
+    ![[Agregar una nueva actividad a una guía o plantilla de incorporación](./media/onboard-edit-add-activity.png)](./media/onboard-edit-add-activity.png)
 
 4. Agregue contenido enriquecido a la guía de incorporación:
 
@@ -129,7 +129,7 @@ Para insertar los cambios:
     - Para agregar un formulario de Microsoft Forms, arrastre el elemento **Microsoft Forms** al área de edición, especifique un nombre y una descripción para la actividad, escriba la dirección URL del formulario de Microsoft Forms y especifique el tamaño del área de visualización.
     - Para agregar un iframe que contenga contenido web, arrastre el elemento de **contenido Web (iframe)** al área de edición, especifique un nombre y una descripción para la actividad, escriba la dirección URL del contenido web y especifique el tamaño del área de visualización.
 
-    ![[Agregar contenido enriquecido a un manual o una plantilla de incorporación](./media/onboard-edit-add-rich-content.png)](./media/onboard-edit-add-rich-content.png)
+    ![[Agregar contenido enriquecido a una guía o plantilla de incorporación](./media/onboard-edit-add-rich-content.png)](./media/onboard-edit-add-rich-content.png)
 
 2. Opcional: En el área en la parte derecha de cada actividad, asigne la actividad a una persona o a un rol concretos, agregue una fecha de vencimiento y una persona de contacto, y asígnele un color de categoría. Al asignar una actividad a una persona o rol, una tarea se crea para cada usuario. Esta tarea aparece en el menú **Tareas** en Onboard.
 
@@ -148,7 +148,7 @@ Puede agregar personas de contacto que pueden ayudar al nuevo contratado a tener
 1. En la pestaña **Contactos**, seleccione **Nuevo contacto**.
 2. En el cuadro de diálogo **Agregar miembro de equipo**, especifique el nombre o la dirección de correo electrónico de la persona de contacto, especifique una breve descripción que explique cómo la persona de contacto puede ayudar al nuevo contratado, y después seleccione **Agregar**. 
 
-    ![[Agregar contactos enriquecidos a un manual o una plantilla de incorporación](./media/onboard-edit-add-contact.png)](./media/onboard-edit-add-contact.png)
+    ![[Agregar contactos a una guía o plantilla de incorporación](./media/onboard-edit-add-contact.png)](./media/onboard-edit-add-contact.png)
 
     Como alternativa, puede seleccionar uno o varios contactos en **Sugerencias**.
 
@@ -169,7 +169,7 @@ Puede agregar archivos, mapas, y vínculos útiles a la sección **Recursos** de
     - Para agregar un vínculo, seleccione la pestaña **Vínculo**, especifique un nombre y la dirección del vínculo y, a continuación, seleccione **Agregar**.
     - Para agregar un mapa, seleccione la pestaña **Mapa**, especifique un nombre y la dirección del mapa y, a continuación, seleccione **Agregar**. Onboard incluirá un mapa de la dirección que especifique.
 
-    ![[Agregar un recurso a un manual o una plantilla de incorporación](./media/onboard-edit-add-resource.png)](./media/onboard-edit-add-resource.png)
+    ![[Agregar un recurso a una guía o plantilla de incorporación](./media/onboard-edit-add-resource.png)](./media/onboard-edit-add-resource.png)
 
 3. Seleccione **Guardar** para guardar el trabajo.
 

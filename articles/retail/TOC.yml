@@ -10,9 +10,9 @@
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/retail/toc.json
             - name: Registrarse para suscripciones de vista previa
               href: ../fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/retail/toc.json
-            - name: Actualizaciones del servicio de una versión
+            - name: Actualizaciones del servicio de One Version
               items:
-                - name: Visión general de las actualizaciones del servicio de una versión
+                - name: Visión general de las actualizaciones del servicio de One Version
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/retail/toc.json
                 - name: Preguntas frecuentes sobre actualizaciones del servicio de una versión
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/retail/toc.json
@@ -32,7 +32,7 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/retail/toc.json
                 - name: Automatización de tarea de datos
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/retail/toc.json
-                - name: Entrega de soluciones de fabricante de software independiente mediante una versión
+                - name: Entrega de soluciones de fabricante de software independiente mediante One Version
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/retail/toc.json
                 - name: Crear y automatizar pruebas de aceptación del usuario
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/retail/toc.json
@@ -46,7 +46,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/cloud-prem-comparison.md?toc=/dynamics365/retail/toc.json
                 - name: Implementación en la nube
                   href: ../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md?toc=/dynamics365/retail/toc.json
-                - name: Requisitos del sistema para implementaciones en la nube
+                - name: Requisitos del sistema para los componentes del cliente de Retail
                   href: get-started/system-requirements.md
                 - name: Implementación local
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/retail/toc.json
@@ -62,20 +62,14 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/retail/toc.json
             - name: Novedades y cambios
               items:
-                - name: Características de la versión preliminar en Retail 10.0.7
+                - name: Retail versión 10.0.7
                   href: get-started/whats-new-10-0-7.md
                 - name: Retail versión 10.0.6
                   href: get-started/whats-new-10-0-6.md
-                - name: Retail versión 10.0.5
-                  href: get-started/whats-new-10-0-5.md
                 - name: Novedades y cambios en versiones anteriores
                   items:
                     - name: Página principal de Novedades y cambios en Finance and Operations
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/retail/toc.json
-                    - name: Aplicaciones de Finance and Operations 10.0.5 (octubre de 2019)
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/retail/toc.json
-                    - name: Finance and Operations 10.0.4 (julio de 2019)
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/retail/toc.json
                     - name: 'Finance and Operations, Enterprise Edition 7.3'
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/retail/toc.json
                 - name: Características quitadas u obsoletas
@@ -510,7 +504,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/retail/toc.json
             - name: Soluciones analíticas incrustadas
               items:
-                - name: Power BI incrustado en espacios de trabajo
+                - name: Power BI Embedded en espacios de trabajo
                   href: ../fin-ops-core/dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/dynamics365/retail/toc.json
                 - name: Integración de Power BI Embedded
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-embedded-integration.md?toc=/dynamics365/retail/toc.json
@@ -788,10 +782,8 @@
               href: ../supply-chain/pim/product-information.md?toc=/dynamics365/retail/toc.json
             - name: Jerarquías comerciales
               href: retail-hierarchies.md
-            - name: Atributos y grupos de atributos
+            - name: Administrar atributos y grupos de atributos
               href: attribute-attributegroups-lifecycle.md
-            - name: Crear y gestionar atributos
-              href: create-manage-attributes.md
             - name: Configurar productos comerciales
               href: set-up-retail-products.md
             - name: Crear un producto
@@ -1146,7 +1138,9 @@
               items:
                 - name: Funcionalidad de caja registradora
                   href: localizations/emea-swe-cash-registers.md
-                - name: Muestra de integración de Retail POS con unidades de control
+                - name: Muestra de integración de unidad de control para Suecia
+                  href: localizations/emea-swe-fi-sample.md
+                - name: Muestra de integración de Retail POS con unidades de control (heredada)
                   href: localizations/retail-sdk-control-unit-sample.md
         - name: Tareas de Retail
           items:

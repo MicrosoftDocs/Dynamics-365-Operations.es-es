@@ -17,16 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 30b09f09875e37a6a909d0aad04117e577c5cd98
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 2faa5c02e3641a7b80e410e3b9cc05d08d99f92f
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519027"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898188"
 ---
 # <a name="process-compensation"></a>Procesar compensaciones
-
-[!include [banner](includes/banner.md)]
 
 El procesamiento de compensación le permite calcular los nuevos importes de compensación básicos para sus empleados en función de los ajustes de recursos propios, los objetivos de aumento por mérito y el rendimiento. Este tema cubre el flujo básico de procesamiento de compensación para los planes de compensación fija sin tener en cuenta el rendimiento de un empleado.
 

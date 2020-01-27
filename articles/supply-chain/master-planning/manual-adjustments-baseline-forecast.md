@@ -3,7 +3,7 @@ title: Realización de ajustes manuales en la previsión de línea base
 description: Este tema explica cómo puede realizar ajustes manuales a una previsión de línea base y ver los detalles de la previsión.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8897e0fe01e7ed5af9a8d5b99de6b9b4506554f1
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 1c9963a54a052549a6bfeabcb3d91b7b0f3cf68e
+ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2815143"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "2935425"
 ---
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Realización de ajustes manuales en la previsión de línea base
 
@@ -70,8 +70,9 @@ La página **Detalles de previsión de la demanda** muestra la siguiente informa
 
 **Notas:**
 
+-   Si habilita **Selección de modelo de previsión en Detalles de previsión de la demanda** desde Administración de características, podrá seleccionar en la página **Detalles de previsión de la demanda** los modelos de previsión que se van a incluir para la previsión histórica.
 -   El intervalo de confianza que aparece en la sección **Previsión** de la página representa la diferencia entre el límite superior del intervalo de confianza y el límite inferior del intervalo de confianza. Para ver los valores de los límites máximo y mínimo, pase el ratón por encima del gráfico en la sección **Demanda y previsión históricas gráficamente**.
--   Si utiliza el servicio de aprendizaje automático de Microsoft Azure Machine de previsión de demanda, puede especificar el porcentaje del nivel de confianza que debe tener la previsión que se genera. Un intervalo de confianza consta de un intervalo de valores que actúan como estimaciones para la previsión de la demanda. Un porcentaje de nivel de confianza del 95 por ciento indica que hay un 5 por ciento de riesgo de que la previsión de la demanda se encuentre fuera del intervalo de confianza.
+-   Si utiliza el servicio de aprendizaje automático de Microsoft Azure para la previsión de la demanda, puede especificar el porcentaje del nivel de confianza que debe tener la previsión que se genere. Un intervalo de confianza consta de un intervalo de valores que actúan como estimaciones para la previsión de la demanda. Un porcentaje de nivel de confianza del 95 por ciento indica que hay un 5 por ciento de riesgo de que la previsión de la demanda se encuentre fuera del intervalo de confianza.
 
 También puede realizar ajustes manuales en la previsión en la página **Detalles de previsión de la demanda**, modificando los valores en la fila **Previsión** en la sección **Previsión**.
 

@@ -3,7 +3,7 @@ title: Visión general de previsión de la demanda
 description: La previsión de demanda se usa para predecir demanda independiente de pedidos de ventas y demanda dependiente en cualquier momento de desemparejamiento para los pedidos del cliente. Las reglas mejoradas de reducción de la previsión de demanda proporcionan una solución ideal para una personalización global.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 27c9bf32a88858ec2d2214f18ff96138c29e59bc
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 9280a2580d20d64f6542902aab1dbf55434bf84c
+ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2815166"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "2935523"
 ---
 # <a name="demand-forecasting-overview"></a>Visión general de previsión de la demanda
 
@@ -51,7 +51,7 @@ Se implementan tres temas principales en la previsión de demanda:
 -   **Reutilización de la pila de Microsoft**: Microsoft lanzó la plataforma Aprendizaje automático en febrero de 2015. Aprendizaje automático, que ahora es parte de Microsoft Cortana Analytics Suite, le permite crear rápida y fácilmente experimentos de análisis de previsión, como experimentos de estimación de demanda, mediante los algoritmos R o los idiomas de programación de Python y una interfaz simple de arrastrar y colocar.
     -   Puede descargar los experimentos de previsión de demanda, modificarlos para satisfacer sus requisitos empresariales, publicarlos como un servicio web en Azure y utilizarlos para generar las previsiones de demanda. Los experimentos están disponibles para descargar si ha comprado una suscripción a Supply Chain Management para un planificador de producción como usuario de nivel empresarial.
     -   Puede descargar cualquiera de los experimentos de previsión de demanda actualmente disponibles en [Galería de análisis de Cortana](https://gallery.cortanaanalytics.com/). Mientras que los experimentos de previsión de demanda se integran automáticamente con Supply Chain Management, los clientes y los asociados deben gestionar la integración de los experimentos que descargan en [Galería de análisis de Cortana](https://gallery.cortanaanalytics.com/). Por tanto, los experimentos de la [Galería de análisis de Cortana](https://gallery.cortanaanalytics.com/) no son tan sencillos de usar como los experimentos de la previsión de demanda de Finance and Operations. Debe modificar el código de los experimentos de modo que usen la interfaz de programación de aplicaciones (API) de Finance and Operations.
-    -   Puede crear sus propios experimentos en es Estudio de aprendizaje automático de Microsoft Azure, publicarlos como servicios en Azure, y utilizarlos para generar las previsiones de demanda.
+    -   Puede crear sus propios experimentos en Microsoft Azure Machine Learning Studio (classic), publicarlos como servicios en Azure, y utilizarlos para generar las previsiones de demanda.
     -   Si no necesita alto rendimiento, o si no necesita procesar grandes cantidades de datos, puede usar el nivel libre de aprendizaje automático. Recomendamos que comience siempre desde este nivel, especialmente durante las fases de implementación y de pruebas. Si necesita un rendimiento más alto y almacenamiento adicional, puede usar el nivel estándar de aprendizaje automático. Este nivel requiere una suscripción a Azure e implica costes adicionales. Para obtener más información sobre los precios de Aprendizaje automático, consulte [Precios de Machine Learning Studio](https://aka.ms/machine-learning-price-info).
 -   **Reducción de previsión en cualquier momento de desemparejamiento:** previsión de demanda en esta función, que le permite realizar una previsión de demanda dependiente e independiente en cualquier momento de desemparejamiento.
 

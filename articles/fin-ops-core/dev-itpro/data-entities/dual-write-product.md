@@ -3,7 +3,7 @@ title: Experiencia unificada del producto
 description: Este tema describe la integración de datos de productos entre aplicaciones Finance and Operations y Common Data Service.
 author: t-benebo
 manager: AnnBe
-ms.date: 09/3/2019
+ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: bcc2c3d2530153a225a94fa0fb3cc990abbf65b4
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 7df9097feeb9566705f50f8a62809aa79dc10cd7
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769738"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2914780"
 ---
 # <a name="unified-product-experience"></a>Experiencia unificada del producto
 
@@ -52,7 +52,7 @@ La información de producto contiene toda la información relacionada con el pro
 
 Finance and Operations | Otras aplicaciones de Dynamics 365 | Descripción
 -----------------------|--------------------------------|---
-Productos liberados V2 | msdyn\_sharedproductdetails | La entidad **msdyn\_sharedproductdetails** contiene los campos de las aplicaciones de Finance and Operations que definen el producto y que contienen la información de administración y financiera del producto. La tabla siguiente muestra las correlaciones.
+Productos liberados V2 | msdyn\_sharedproductdetails | La entidad **msdyn\_sharedproductdetails** contiene los campos de las aplicaciones de Finance and Operations que definen el producto y que contienen la información de administración y financiera del producto. 
 Productos únicos emitidos por Common Data Service | Producto | La entidad **Product** contiene los campos que definen el producto. Incluye productos individuales (productos con producto del subtipo) y las variantes de producto. La tabla siguiente muestra las correlaciones.
 Código de barras identificado por número de producto | msdyn\_productbarcodes | Los códigos de barras de producto se usan para identificar de forma única productos.
 Configuración predeterminada de pedido | msdyn\_productdefaultordersettings
@@ -74,7 +74,7 @@ Conversiones de unidades | msdyn_ unitofmeasureconversions
 Conversión de unidad de medida específica del producto | msdyn_productspecificunitofmeasureconversion
 Categorías de productos | msdyn_productcategories | Cada una de las categorías de productos e información acerca de su estructura y funciones se incluyen en la entidad de categoría de producto. 
 Jerarquías de categorías de producto | msdyn_productcategoryhierarhies | Use las jerarquías de producto para clasificar o para agrupar productos. Las jerarquías de categorías están disponibles en Common Data Service mediante la entidad de jerarquía de categoría de Prodcut. 
-Roles de jerarquía de categorías de producto | msdyn_productcategoryhierarchies | Las jerarquías de producto se pueden usar para distintos roles en D365 Finance and Operations. Especificar qué categoría se usa en cada rol en que la entidad de rol de categoría de producto se utiliza con las asignaciones siguientes. 
+Roles de jerarquía de categorías de producto | msdyn_productcategoryhierarchies | Las jerarquías de producto se pueden usar para distintos roles en D365 Finance and Operations. Especificar qué categoría se usa en cada rol en que la entidad de rol de categoría de producto se utiliza. 
 Asignaciones de categorías de producto | msdyn_productcategoryassignments | Para asignar un producto a una categoría se puede usar la entidad de asignaciones de categorías de producto.
 
 ## <a name="integration-of-products"></a>Integración de productos

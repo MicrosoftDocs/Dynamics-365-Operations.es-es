@@ -3,7 +3,7 @@ title: Administración de precio de ventas minoristas
 description: En este tema se describen los conceptos para crear y administrar precios de ventas en Dynamics 365 Retail.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 06/10/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-retail
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 081fadf0c120eba50af9e6c396fb3e492051bb3c
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: d8c6f8d7d368be8ffa192f8dee6b46a753b04cad
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025227"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934780"
 ---
 # <a name="retail-sales-price-management"></a>Administración de precios de venta minorista
 
@@ -221,11 +221,11 @@ Un único motor de precios se utiliza para calcular precios al por menor en todo
 
 Los precios al por menor están diseñados para trabajar con las entidades minoristas en lugar de con entidades no minoristas. Específicamente, está diseñado para establecer precios por tienda, no por almacén.
 
-El motor de precios al por menor no admite las siguientes funciones de precios:
+El motor de precios al por menor **no admite** las siguientes características de precios:
 
-- Establecer precio mediante las dimensiones de almacenamiento Sitio y Almacén
-- Precios basados en atributos
-- Paso a través de descuento de proveedor
+- Establecer precios por sitio o por dimensiones de almacenamiento de sitio o almacén. Si solo especifica la dimensión del sitio en los acuerdos comerciales, los precios minoristas omitirán el sitio y aplicarán el acuerdo comercial a todos los sitios. Si especifica tanto el sitio como el almacén, el comportamiento será indefinido/no probado porque se espera que los minoristas utilicen los grupos de precios de la tienda para controlar los precios de cada tienda o almacén.
+- No se admiten precios basados en atributos.
+- No se admite la transferencia de descuentos de proveedor.
 
 Además, el motor de precios al por menor **solo** admite las siguientes funciones:
 

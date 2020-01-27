@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: ''
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: b6be53e9a2065373ca37c2791568a8161823803f
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 86e74086a5a74c7af5f2572d1a653a1658d729c0
+ms.sourcegitcommit: d0322d1ed6c798301058e44dae76227a0e1f49ac
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772419"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "2853868"
 ---
-## <a name="integrated-tax"></a>Impuestos integrados
+# <a name="integrated-tax"></a>Impuestos integrados
 
 [!include [banner](../includes/banner.md)]
 
@@ -36,7 +36,7 @@ Los datos de configuración de impuestos definen la configuración para los impu
 
 Los datos de los impuestos incluyen una colección de mapas de entidad que funcionan conjuntamente durante la interacción de los datos, como se muestra en la tabla siguiente.
 
-Finance and Operations   | Aplicación Customer Engagement
+Finance and Operations   | Otras aplicaciones de Dynamics 365
 -------------------------|---------------------------------
 Códigos de impuestos                  | msdyn\_taxcodes.md
 Grupos de impuestos               | msdyn\_taxgroups.md

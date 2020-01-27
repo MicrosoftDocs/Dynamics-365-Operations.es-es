@@ -3,7 +3,7 @@ title: Características de accesibilidad
 description: Este tema describe la funcionalidad diseñada para ayudar a los usuarios que tienen diferentes discapacidades.
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 09/10/2019
+ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 7cc63320a3ba055a0c18ab59447f34a86bc0dc87
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8ec4ee4654bdf306e179dcac5bf246df7f2b8cf7
+ms.sourcegitcommit: c3bc5dd007d9f063631232497bd4cda9214e2e5b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180861"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2872451"
 ---
 # <a name="accessibility-features"></a>Características de accesibilidad
 
@@ -40,7 +40,7 @@ Para la mayoría de usuarios, el uso diario del sistema implica un gran volumen 
 
 Cualquier página a la que se accede mediante el menú del panel de navegación, el panel del extremo izquierdo, también está disponible desde la casilla **Buscar**. Presione Alt+G para mover el foco a la casilla **Buscar** y, a continuación, escriba el nombre o la descripción de la página.
 
-![“Cuentas bancarias” introducidas en el cuadro de búsqueda](media/6d08b0be32808221023e2aa92d69fd70.png "\"cuentas bancarias\" introducidas en el cuadro de búsqueda")
+!["Cuentas bancarias” especificadas en el cuadro de búsqueda](media/6d08b0be32808221023e2aa92d69fd70.png ""cuentas bancarias” especificadas en el cuadro de búsqueda")
 
 Para obtener más información, consulte [Búsqueda de navegación](navigation-search.md).
 
@@ -55,7 +55,7 @@ Puede accederse a cada acción que se ofrece en una página desde un teclado, me
 
 Desea ejecutar la acción **Registro de notificación por correo electrónico** que aparece en el grupo **Notificación por correo electrónico** en la pestaña **Pedido de ventas** del panel de acciones.
 
-![Acción de registro de la notificación por correo electrónico en el panel de acciones](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "Acción de registro de la notificación por correo electrónico en el panel de acciones")
+![Acción de registro de la notificación por correo electrónico en el panel de acciones](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "Acción de "Registro de la notificación por correo electrónico" en el panel de acciones")
 
 Una opción es para usar el teclado. Presione Ctrl+F6 para mover el enfoque al panel de acciones, y presione la ficha repetidamente para pasar por todas las fichas y acciones, hasta que la acción **Registro de notificación por correo electrónico** tenga el foco.
 
@@ -65,11 +65,11 @@ Sin embargo, también puede ejecutar la acción más directamente. En cualquier 
 
 En el cuadro de búsqueda, escriba palabras que describen la acción. La acción se a pone a su disposición, y puede ejecutarla directamente. Por ejemplo, si especifica **correo electrónico**, **notific** (una palabra parcial), o **registro**, puede "saltar" a la funcionalidad de registro de la notificación por correo electrónico.
 
-!["Correo electrónico" introducido en el cuadro de búsqueda](media/image4.png "\"correo electrónico\" introducido en el cuadro de búsqueda")
+!["Correo electrónico” especificado en el cuadro de búsqueda](media/image4.png ""Correo electrónico” especificado en el cuadro de búsqueda")
 
-!["Notific" introducido en el cuadro de búsqueda](media/image5.png "\"notific\" introducido en el cuadro de búsqueda")
+!["Notific” especificado en el cuadro de búsqueda](media/image5.png ""notific” especificado en el cuadro de búsqueda")
 
-!["Registro" introducido en el cuadro de búsqueda](media/image6.png "\"registro\" introducido en el cuadro de búsqueda")
+!["Registro” especificado en el cuadro de búsqueda](media/image6.png ""registro” especificado en el cuadro de búsqueda")
 
 Cuando haya terminado, puede pulsar Ctrl+Apóstrofo otra vez para devolver el enfoque al campo en el que trabajaba antes de ejecutar la búsqueda de acción.
 
@@ -81,7 +81,7 @@ En el uso diario del sistema, no todos los campos son necesarios para realizar t
 
 Sin embargo, puede detectar que algunos campos que utiliza a menudo para realizar tareas no se incluyen en la secuencia predeterminada de tabulaciones. En este caso, si usa Windows Narrator, puede usar acciones de teclado de Windows Narrator para tener acceso a dichos campos e inspeccionar su contenido. Como alternativa, puede activar la opción **Secuencia de fichas mejorada** en la página **Opciones**. Esta opción crea toda la parte de campos que pueden editarse y de solo lectura de la secuencia de tabulaciones. Puede utilizar la personalización de la página para crear una secuencia de tabulaciones personalizada y omitir campos que no es necesario que formen parte de la secuencia tabulaciones. Para obtener más información acerca de la personalización, consulte [Personalizar la experiencia del usuario](personalize-user-experience.md).
 
-![Opción "Secuencia de fichas mejorada](media/8c0f12bbb3f26032997ef0ba95d89b6a.png "opción \"Secuencia de fichas mejorada")
+![Opción de "Secuencia de pestañas mejorada"](media/8c0f12bbb3f26032997ef0ba95d89b6a.png "Opción de "Secuencia de pestañas mejorada"")
 
 ## <a name="form-patterns"></a>Patrones de formulario
 
@@ -92,6 +92,8 @@ Para obtener más información acerca de los patrones del formulario, consulte [
 ## <a name="responsive-layout"></a>Diseño con capacidad de respuesta.
 
 El producto está diseñado para que funcione en distintos dispositivos y factores de forma, desde las pantallas más pequeñas a las pantallas grandes con la más alta resolución. Nuestro motor de diseño con capacidad de respuesta permite a los usuarios hacer el zoom a un nivel de ampliación del 200 por ciento (o, en algunos casos, más del 200 por ciento).
+
+En los teléfonos inteligentes y otras pantallas pequeñas, los controles y el diseño del formulario se adaptarán de manera receptiva para garantizar que los datos principales se vean favorecidos. Estos comportamientos receptivos también pueden incluir reducir el número de columnas en grupos y pestañas a una sola columna, ocultar elementos de shell y colapsar el Panel de acciones.
 
 ## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a>Orientación para ayudar a los desarrolladores y los clientes a incorporar un pensamiento accesible a sus personalizaciones
 

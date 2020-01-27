@@ -15,16 +15,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3dbf5807a213e425b24d5a4809df694393faeb9b
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: 03e2557e29194f17a9a586470ced5b352408b07c
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832777"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898651"
 ---
 # <a name="leave-and-absence-concepts"></a>Conceptos de bajas y ausencias
-
-[!include [banner](includes/banner.md)]
 
 Los conceptos y los términos que se describen en este tema pueden ayudarle a determinar cómo se concede a un empleado tiempo libre, y cómo se calculan los saldos del tiempo de ese empleado. Para obtener más información acerca de la administración de baja y de ausencia, consulte [Administración de licencias y de ausencias](https://docs.microsoft.com/dynamics365/unified-operations/talent/leave-absence-overview).
 

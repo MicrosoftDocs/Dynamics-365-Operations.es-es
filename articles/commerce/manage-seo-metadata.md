@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b69d9d2769023967e2b94fef1b8fcf6b5b3357c5
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 3ea06713af69659c205686a971393892fa584072
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2698358"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945729"
 ---
 # <a name="manage-seo-metadata"></a>Administrar metadatos de SEO
 
@@ -97,3 +97,4 @@ Para modificar metadatos de página, siga estos pasos.
 
 [Enriquecer una página de aterrizaje de categoría](enrich-category-page.md)
 
+[Verificar accesibilidad de contenido de página](verify-accessibility.md)

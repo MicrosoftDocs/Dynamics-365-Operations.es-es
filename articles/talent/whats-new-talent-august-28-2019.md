@@ -18,26 +18,24 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-08-27
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a405ee96c36dd803fb46894ab58eca9dbfd81b5f
-ms.sourcegitcommit: 097492a9e4f53a5e1fd5385d8764798518326818
+ms.openlocfilehash: 1d7e5be0d9ba5e372e57f06fec77326561196626
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "1927995"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2899252"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-august-27-2019"></a>Novedades y cambios en Dynamics 365 for Talent (27 de agosto de 2019)
-
-[!include [banner](includes/banner.md)]
 
 Este tema describe las características que son nuevas o que se han cambiado en Dynamics 365 for Talent.
 
 ## <a name="changes-in-attract"></a>Cambios en Attract
 
-Este lanzamiento incluye correcciones de errores de menor importancia del Dynamics 365 Talent: Attract.
+Este lanzamiento incluye correcciones de errores de menor importancia para Dynamics 365 Talent: Attract.
 
 ## <a name="changes-in-onboard"></a>Cambios en Onboard
 
-Este lanzamiento incluye correcciones de errores de menor importancia del Dynamics 365 Talent: Onboard
+Este lanzamiento incluye correcciones de errores de menor importancia para Dynamics 365 Talent: Onboard.
 
 ## <a name="changes-in-core-hr"></a>Cambios en Core HR
 

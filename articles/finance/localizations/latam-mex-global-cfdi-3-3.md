@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-06-01
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: c7c47327c2deab3e2b288c5237e616526491d62d
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 48b8c6ea426115f049c3077afaea50e4206849cc
+ms.sourcegitcommit: 3306e451f04df01c51d8d332306b135d8ae1e254
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250352"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "2902738"
 ---
 # <a name="global-cfdi-electronic-invoices-for-mexico"></a>Facturas electrónicas de CFDI globales para México 
 
@@ -38,7 +38,7 @@ La funcionalidad de CFDI globales le permite realizar las siguientes tareas:
 
 - Crear una factura electrónica, en el formato de CFDI global (diseño 3.3), que se basa en el extracto comercial registrado. Para obtener más información sobre el diseño, consulte [Versión 3.3 del diseño de CFDI](https://docs.microsoft.com/dynamics365/unified-operations/financials/localizations/latam-mex-cfdi-3-3).
 
-- Para cada factura electrónica, genere un archivo en el formato .pdf o .xml, y envíelo al cliente como un archivo adjunto de correo electrónico. Después de generar las facturas electrónicas de CFDI globales, un proveedor de servicio de firma digital (PAC) las verifica y certifica de la misma manera que otros documentos de CFDI. Para obtener más información, consulte [Facturas electrónicas (CFDI)](https://docs.microsoft.com/dynamics365/unified-operations/financials/localizations/latam-mex-cfdi-electronic-invoices) y [Consultar e imprimir una factura electrónica](https://docs.microsoft.com/dynamics365/unified-operations/financials/localizations/tasks/mx-00010-inquire-print-electronic-invoice).
+- Para cada factura electrónica, genere un archivo en el formato .pdf o .xml, y envíelo al cliente como un archivo adjunto de correo electrónico. Después de generar las facturas electrónicas de CFDI globales, un proveedor de servicio de firma digital (PAC) las verifica y certifica de la misma manera que otros documentos de CFDI. Para obtener más información, consulte [Facturas electrónicas (CFDI)](https://docs.microsoft.com/dynamics365/unified-operations/financials/localizations/latam-mex-cfdi-electronic-invoices) y [Consultar e imprimir una factura electrónica](https://docs.microsoft.com/dynamics365/finance/localizations/tasks/mx-00010-inquire-print-electronic-invoice).
 
 Para generar y enviar una factura electrónica de CFDI globales, siga estos pasos.
 

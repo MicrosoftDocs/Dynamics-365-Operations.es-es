@@ -3,7 +3,7 @@ title: Configurar canales de centro de llamadas
 description: En este tema se proporciona información sobre el procesamiento de pedidos para centro de llamadas utilizando Dynamics 365 Retail.
 author: josaw1
 manager: AnnBe
-ms.date: 04/16/2018
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 36491e4d2e63819ce637afb69744089d820c69b0
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 4ebe25f91cd4228537254dc0b7891c8584981775
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024830"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934709"
 ---
 # <a name="set-up-call-center-channels"></a>Configurar canales del centro de llamadas
 
@@ -81,3 +81,6 @@ Los usuarios que no están vinculados a un canal del centro de llamadas utilizan
 
 
 Una vez que haya terminado de configurar el canal del centro de llamadas y de definir los usuarios del canal, para ayudar a garantizar el comportamiento deseado del sistema, asegúrese de que están definidos todos los parámetros necesarios del centro de llamadas en **Venta minorista** \> **Configuración del canal** \> **Configuración del centro de llamadas** \> **Parámetros del centro de llamadas**. Asegúrese de que también están definidas las secuencias numéricas relacionadas.
+
+> [!NOTE]
+> A fin de utilizar la funcionalidad del centro de llamadas, debe estar habilitada la clave de configuración para **Envíos múltiples**. Esta clave de configuración se puede encontrar en las claves **Configuración de comercio** en **Administración del sistema**\> **Configuración** \> **Configuración de licencia**. Esto es necesario debido a la funcionalidad del centro de llamadas, que realiza diversas validaciones en función de la dirección de entrega configurada en el nivel de línea del pedido de ventas. 

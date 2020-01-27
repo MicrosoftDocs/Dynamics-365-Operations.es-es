@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-01-09
 ms.dyn365.ops.version: AX 7.1.0, Talent October 2017 update
-ms.openlocfilehash: 2a245891e2e3e8c0eae4f28d0932776c3ee976dc
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: 0f4d2b8e5f78c5815c5ad7e5eae0d13ad7d15c12
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832824"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898698"
 ---
 # <a name="formalize-business-processes"></a>Formalizar procesos empresariales
-
-[!include [banner](includes/banner.md)]
 
 La característica del proceso empresarial le permite crear una plantilla del proceso empresarial para los procesos empresariales que deban completarse en la organización. Por ejemplo, su empresa completa una auditoria de Recursos Humanos (RR. HH.) cada año. En este caso, puede crear una plantilla que realice un seguimiento de todas las tareas de las que consta el proceso de auditoría. Esta plantilla puede ayudar a garantizar que todas las tareas se realicen cada vez que se haga la auditoría. Asimismo, si las tareas deben completarse en un orden específico, la plantilla puede ayudar a garantizar que se hacen en el orden correcto.
 

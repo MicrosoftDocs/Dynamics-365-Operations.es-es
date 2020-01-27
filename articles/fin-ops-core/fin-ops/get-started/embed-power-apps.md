@@ -3,7 +3,7 @@ title: Insertar Power Apps
 description: Este tema describe cómo insertar Power Apps en el cliente para aumentar la funcionalidad de producto.
 author: jasongre
 manager: AnnBe
-ms.date: 09/20/2019
+ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 755a30f89725ca0a7e1c14252984c617d6ba280e
-ms.sourcegitcommit: 4162d9ef4239c9d4e5297b8aaa903dd54f9cafc3
+ms.openlocfilehash: 8b5e64cb9ba916f9cbd628703394318b4044867b
+ms.sourcegitcommit: dc953c316c396c45ddd596e25c2b358e39a95d84
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "2824502"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2870250"
 ---
 # <a name="embed-microsoft-power-apps"></a>Insertar Microsoft Power Apps
 
@@ -55,7 +55,7 @@ Las instrucciones siguientes muestran cómo insertar un Power Apps en el cliente
 
     - El campo **Nombre** indica el texto que se muestra para el botón o la ficha o que contendrán el Power Apps incrustado. Muchas veces puede que desee repetir el nombre del Power Apps en este campo.
     - **Identificador de la aplicación** es el GUID para el Power Apps que desee insertar. Para recuperar este valor, encuentre el Power Apps en [web.powerapps.com](https://web.powerapps.com) y después busque el campo **Identificador de la aplicación** en **Detalles**.
-    - Para **Datos de entrada para el Power Apps**, puede seleccionar opcionalmente el campo que contiene los datos que desea pasar al Power Apps como entrada. Consulte la sección que figura más adelante en este tema denominada [Creación de un Power Apps que saque provecho de los datos de aplicaciones de Finance and Operations](#building-a-powerapp-that-leverages-data-sent-from-finance-and-operations-apps) para obtener información detallada sobre cómo el Power Apps puede tener acceso a los datos enviados desde aplicaciones de Finance and Operations.
+    - Para **Datos de entrada para el Power Apps**, puede seleccionar opcionalmente el campo que contiene los datos que desea pasar al Power Apps como entrada. Consulte la sección que figura más adelante en este tema denominada [Creación de un Power Apps que saque provecho de los datos de aplicaciones de Finance and Operations](#building-a-power-app-that-leverages-data-sent-from-finance-and-operations-apps) para obtener información detallada sobre cómo el Power Apps puede tener acceso a los datos enviados desde aplicaciones de Finance and Operations.
     - Elija el **tamaño de la aplicación** que coincida con el tipo de Power Apps que se está insertando. Seleccione **Fino** para Power Apps creadas para dispositivos móviles, y **Ancho** para Power Apps creadas para tabletas. Esto garantiza que se asigne una cantidad de espacio suficiente para el Power Apps incrustado.
     - La ficha desplegable **Entidades jurídicas** proporciona la capacidad de elegir para qué entidades jurídicas está disponible el Power Apps. El valor predeterminado es mostrar el Power Apps en todas las entidades jurídicas.
 
@@ -101,7 +101,7 @@ Siga estos pasos para editar la configuración de Power Apps incrustado:
 
 Después de que un Power Apps se haya insertado en una página, hay dos maneras de quitarla en caso necesario:
 
-- Vaya al panel **Editar un Power Apps** mediante las instrucciones de [Editar un Power Apps incrustado](#editing-an-embedded-powerapp) de la sección anterior en este tema. Confirme que el panel muestra información para el Power Apps incrustado que desea quitar y haga clic en el botón **Eliminar**.
+- Vaya al panel **Editar un Power Apps** mediante las instrucciones de [Editar un Power Apps incrustado](#editing-an-embedded-power-app) de la sección anterior en este tema. Confirme que el panel muestra información para el Power Apps incrustado que desea quitar y haga clic en el botón **Eliminar**.
 - Debido a que un Power Apps incrustado está guardado como datos de personalización, desactivando la personalización de su página también quitará cualquier Power Apps incrustado en la página. Tenga en cuenta que borrar la personalización de la página es permanente y no se puede deshacer. Para quitar sus personalizaciones en una página, seleccione **Opciones** y después haga clic en **Personalizar este formulario**. En menú **Gestionar**, seleccione el botón **Borrar**. Después de actualizar su explorador, todas las personalizaciones anteriores para esta página se quitarán. Consulte [Personalizar la experiencia del usuario](personalize-user-experience.md) para obtener más información sobre cómo optimizar páginas utilizando la personalización.
 
 ## <a name="appendix"></a>Apéndice

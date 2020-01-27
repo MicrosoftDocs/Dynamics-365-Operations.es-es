@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 3bb61297e294aa3f2d06f542bebe29d7afae9c3b
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: 6c8a583a93c2ceb70d8c3b0e0047e2bf2047b56d
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832847"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898326"
 ---
 # <a name="extend-talent-with-power-apps-and-power-automate"></a>Ampliar el talento con Power Apps y Power Automate
-
-[!include [banner](includes/banner.md)]
 
 En este tema se describen algunos ejemplos de los escenarios de la extensibilidad para Microsoft Dynamics 365 Talent que usan Microsoft Power Apps y Microsoft Power Automate. Puede importar el paquete de la solución que está asociado a cada ejemplo en el entorno de Power Apps. Puede utilizar los paquetes como orientación o punto de partida para los escenarios del instrumento aplicables a la organización.
 
@@ -108,7 +106,7 @@ Puede usar la aplicación de referencia para agregar candidatos a una reserva de
 
 Puede insertar esta aplicación en el autoservicio para empleados (ESS) para enviar referencias o puede usarla como hipervínculo en el portal corporativo y ejecutarla como aplicación independiente.
 
-Para descargar **Aplicación de referencia**, [solución de extensibilidad de Dynamics 365 Talent: Aplicación de referencia](http://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d) en al Centro de descargas de Microsoft. Puede importar esta aplicación y personalizarla para agregar una funcionalidad adicional.
+Para descargar **Aplicación de referencia**, [solución de extensibilidad de Dynamics 365 Talent: Aplicación de referencia](https://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d) en al Centro de descargas de Microsoft. Puede importar esta aplicación y personalizarla para agregar una funcionalidad adicional.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

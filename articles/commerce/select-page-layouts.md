@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b1609927ed47ac90226967eba6950f8eb20e9fdb
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 8f86a0b651bfa16aeb1c483daceed321699ead83
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697782"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945660"
 ---
 # <a name="select-page-layouts"></a>Seleccionar diseños de página
 
@@ -73,4 +73,6 @@ Para seleccionar un diseño diferente para una página existente, siga estos pas
 [Enriquecer una página de producto](enrich-product-page.md)
 
 [Enriquecer una página de aterrizaje de categoría](enrich-category-page.md)
+
+[Verificar accesibilidad de contenido de página](verify-accessibility.md)
 

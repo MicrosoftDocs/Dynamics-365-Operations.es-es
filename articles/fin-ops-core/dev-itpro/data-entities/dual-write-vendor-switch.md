@@ -1,6 +1,6 @@
 ---
-title: Cambiar entre los diseños de proveedor
-description: ''
+title: Cambiar entre diseños de proveedor
+description: Este tema describe como cambiar entre la integración de datos de proveedor entre aplicaciones de Finance and Operations y Common Data Service.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 09/20/2019
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 4e97ff0b0e6195b5e3703e15a0bb0de7644ef8d1
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 204d788e72e79e7acf744d24cbeacb0f9b47da7d
+ms.sourcegitcommit: 3306e451f04df01c51d8d332306b135d8ae1e254
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772373"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "2902734"
 ---
-# <a name="switch-between-vendor-designs"></a>Cambiar entre los diseños de proveedor
+# <a name="switch-between-vendor-designs"></a>Cambiar entre diseños de proveedor
 
 [!include [banner](../includes/banner.md)]
 
@@ -34,11 +34,11 @@ ms.locfileid: "2772373"
 
 Si usa otras aplicaciones de Dynamics 365 para el control de proveedores y desea aislar la información de proveedor de los clientes, use este diseño de proveedor básico.  
 
-![Flujo básico del proveedor](media/dual-write-switch-1.png)
+![Flujo básico del proveedor](media/dual-write-vendor-data-flow.png)
  
 Si usa otras aplicaciones Dynamics 365 para el control de proveedores y desea seguir usando la entidad **Cuenta** para almacenar la información de proveedor, use este diseño de proveedor ampliado. En este diseño, la información de proveedor extendida, como el estado en espera del proveedor y el perfil de proveedor, se almacena en la entidad **proveedores** en Common Data Service. 
 
-![Flujo ampliado del proveedor](media/dual-write-switch-2.png)
+![Flujo ampliado del proveedor](media/dual-write-vendor-detail.jpg)
  
 Siga los pasos siguientes para usar el diseño de proveedor extendido: 
  
@@ -60,5 +60,5 @@ Siga los pasos siguientes para usar el diseño de proveedor extendido:
     4. Puede configurar los flujos de trabajo como flujos de trabajo en tiempo real o de fondo en función de sus requisitos. 
         > [!div class="mx-imgBorder"]
         > ![Convertir a un flujo de trabajo de fondo](media/dual-write-switch-8.png)
-    5. Active los flujos de trabajo que ha creado en las entidades **Cuenta** y **Proveedor** para comenzar a utilizar la entidad **Cuenta** de Customer Engagement para almacenar información del proveedor. 
+    5. Active los flujos de trabajo que ha creado en las entidades **Cuenta** y **Proveedor** para comenzar a utilizar la entidad **Cuenta** para almacenar información del proveedor. 
  

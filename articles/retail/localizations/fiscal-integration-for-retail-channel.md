@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 03853e1f80bd32c1dfe5cfcbcd77e79168f26249
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 7e32f408e5c68a3422906347981c6fc4a4579daf
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812316"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2915256"
 ---
 # <a name="overview-of-fiscal-integration-for-retail-channels"></a>Visión general de la integración fiscal para canales comerciales
 
@@ -138,9 +138,14 @@ Los ejemplos siguientes fiscales de integración están disponibles actualmente 
 - [Ejemplo de integración de impresora fiscal para Polonia](emea-pol-fpi-sample.md)
 - [Ejemplo de integración de servicio de registro para Austria](emea-aut-fi-sample.md)
 - [Ejemplo de integración de servicio de registro fiscal para la República Checa](emea-cze-fi-sample.md)
+- [Ejemplo de integración de unidad de control para Suecia](./emea-swe-fi-sample.md)
 
 La siguiente funcionalidad fiscal de integración también está disponible en el SDK al por menor pero no se aprovecha actualmente del marco fiscal de integración. La migración de esta funcionalidad fiscal al marco de integración está prevista para actualizaciones posteriores.
 
-- [Funcionalidad de caja registradora para Finance](emea-fra-cash-registers.md)
-- [Funcionalidad de caja registradora para Noruega](emea-nor-cash-registers.md)
-- [Muestra de integración de Retail POS con unidades de control para Suecia](./retail-sdk-control-unit-sample.md)
+
+- [Firma digital para Francia](emea-fra-cash-registers.md)
+- [Firma digital para Noruega](emea-nor-cash-registers.md)
+
+La siguiente funcionalidad de integración fiscal heredada que está disponible en el SDK de Retail no utiliza el marco de integración fiscal y quedará en desuso en actualizaciones posteriores:
+
+- [Muestra de integración de unidad de control para Suecia (heredada)](./retail-sdk-control-unit-sample.md)

@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ebfaeb0696d7200ddf3c715f96a259b91db08e7a
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 3376a9aec5c0003e9cc7c076c4d221a697df61ce
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1519008"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898303"
 ---
 # <a name="leave-and-absence-management"></a>Gestión de bajas y ausencias
-
-[!include [banner](includes/banner.md)]
 
 El módulo de **Gestión de permisos y ausencias** proporciona un marco flexible para definir el proceso de la gestión de ausencias. Los planes de permisos y ausencias se pueden crear para determinar cómo los empleados acumulan o se les concede tiempo libre. Después de que los empleados estén inscritos en un plan, pueden enviar solicitudes de tiempo de reposo para aprobación por parte de los administradores. El seguimiento de ausencias permite tanto a los administradores de primer nivel como a los administradores de Recursos humanos (HR) ver quién está tomando tiempo libre y cuánto tiempo le queda a cada empleado.  
 

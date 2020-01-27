@@ -3,7 +3,7 @@ title: Mejorar el rendimiento de la planificación maestra
 description: En este tema se explican las distintas opciones que pueden ayudarle a mejorar el rendimiento de la planificación maestra y a resolver problemas.
 author: t-benebo
 manager: AnnBe
-ms.date: 05/31/2019
+ms.date: 12/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,39 +19,39 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: f0d075bbcc8a6671054f227a13c75ca7fb1e954f
-ms.sourcegitcommit: 432481001b986b54937d423516efd8f2af1511d6
+ms.openlocfilehash: 7e8c1d7ee51eb6e335554a01fd050bd80f2a070d
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1631552"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2915233"
 ---
 # <a name="improve-master-planning-performance"></a>Mejorar el rendimiento de la planificación maestra
 
 [!include [banner](../includes/preview-banner.md)]
 [!include [banner](../includes/banner.md)]
 
-En este tema se explican las distintas opciones que pueden ayudarle a mejorar el rendimiento de la planificación maestra y a resolver problemas. Incluye información sobre parámetros y ajustes, y sobre configuraciones y accioes recomendadas. También incluye un resumen de todos los parámetros importantes que debe tener en cuenta cuando tenga trabajos de planificación maestra de larga ejecución.
+En este tema se explican las distintas opciones que pueden ayudarle a mejorar el rendimiento de la planificación maestra y a resolver problemas. Incluye información sobre parámetros y ajustes, y sobre configuraciones y acciones recomendadas. También se incluye un resumen de todos los parámetros importantes que debe tener en cuenta cuando tenga trabajos de planificación maestra de larga ejecución.
 
 Este tema está dirigido a los administradores de sistemas o usuarios de TI que tienen la capacidad de solucionar problemas. También está dirigido a planificadores de producción o de suministro, ya que incluye información sobre parámetros relacionados con los requisitos de la planificación empresarial. 
 
-## <a name="parameters-that-are-related-to-master-planning-performance"></a>Parámetros relacionados con el rendimiento de la planificación maestra
+## <a name="parameters-related-to-master-planning-performance"></a>Parámetros relacionados con el rendimiento de la planificación maestra
 
 Los distintos parámetros influyen en el tiempo de ejecución de la planificación maestra y deben tenerse en cuenta.
 
 ### <a name="number-of-threads"></a>Número de subprocesos
 
-El parámetro **Número de subprocesos** le permite ajustar el proceso de programación maestra para ayudarle a realizar mejor en el conjunto de datos específico. Especifica el número total de subprocesos que se utilizarán para ejecutar una planificación maestra. Produce la paralelización de la ejecución de la planificación maestra, y dicha paralelización ayuda a reducir el tiempo de ejecución. 
+El parámetro **Número de subprocesos** le permite ajustar el proceso de programación maestra para ayudarle a mejorar el rendimiento en el conjunto de datos específico. Este parámetro especifica el número total de subprocesos que se utilizarán para ejecutar una planificación maestra. Produce la paralelización de la ejecución de la planificación maestra, que ayuda a reducir el tiempo de ejecución. 
 
 Puede establecer el parámetro **Número de subprocesos** en el cuadro de diálogo **Ejecución de la planificación maestra**. Para abrir este cuadro de diálogo, vaya a **Planificación maestra \> Planificación maestra \> Ejecutar \> Planificación maestra**, o seleccione **Ejecutar** en el espacio de trabajo **Planificación maestra**. Para determinar el mejor valor para este parámetro, tendrá que confiar en un proceso de prueba y error. Sin embargo, puede usar las siguientes fórmulas para calcular un valor inicial:
 
-- **Si su sector es la fabricación:** Número de subprocesos = Número de pedidos planificados ÷ 1000
-- **De lo contrario:** Número de subprocesos = Número de artículos ÷ 1000
+- **Si su sector es la fabricación:** (Número de subprocesos) = (Número de pedidos planificados ÷ 1000)
+- **De lo contrario:** (Número de subprocesos) = (Número de artículos ÷ 1000)
 
 El número de ayudantes que se utilizan durante la planificación maestra debe ser inferior o igual al número máximo de subprocesos permitidos en el servidor de procesos por lotes. Si el número de ayudantes supera el número de subprocesos en el servidor de procesos por lotes, los subprocesos adicionales no realizarán ningún trabajo.
 
 > [!NOTE]
-> Una configuración de **0** (cero) para el parámetro **Número de subprocesos** aumenta el tiempo de ejecución de la planificación maestra. Por lo tanto, recomendamos que siempre establezca un valor que sea superior a 0.
+> Establecer el parámetro **Número de subprocesos** en **0** (cero) aumenta el tiempo de ejecución de la planificación maestra. Por lo tanto, recomendamos que siempre establezca un valor que sea superior a 0.
 
 ### <a name="number-of-tasks-in-helper-task-bundle"></a>Número de tareas en la agrupación de trabajos de asistente
 
@@ -59,7 +59,7 @@ Al cambiar la configuración **Número de tareas en agrupación de tareas** (es 
 
 Puede establecer el parámetro **Número de tareas en agrupación de tareas** en la sección **Rendimiento** en la pestaña **General** de la página **Parámetros de planificación maestra** (**Planificación maestra \> Configuración \> Parámetros de planificación maestra**). El mejor valor para este parámetro depende de sus datos. Por tanto, recomendamos que empiece con un valor de **1** y después utilice un proceso de prueba y error para determinar el mejor valor para su configuración.
 
-En general, recomendamos que aumentará el número de tareas cuando el número de artículos sea muy grande (en los cientos de miles). De lo contrario, debería reducir el número de tareas. Para los siguientes sectores, considere estos puntos:
+En general, recomendamos que aumentará el número de tareas cuando el número de artículos sea muy grande (en los cientos de miles). De lo contrario, debería reducir el número de tareas. Para los siguientes sectores, considere estas recomendaciones:
 
 - En los sectores minoristas y de distribución, donde hay muchos artículos independientes, utilice muchos ayudantes, ya que no hay dependencia entre los artículos. 
 - En el sector de la fabricación, donde hay muchas listas de materiales (L. MAT) y subcomponentes compartidos, utilice menos ayudantes, ya que las dependencias entre artículos podrían provocar tiempos de espera.
@@ -85,9 +85,9 @@ Puede establecer el parámetro **Uso de memoria caché** en la sección **Rendim
 
 El parámetro **Número de pedidos de agrupación de puesta en firme** especifica el número total de pedidos que serán procesados al mismo tiempo por cada subproceso/lote. Provoca la paralelización del proceso de puesta en firme automática.
 
-Puede establecer el parámetro **Número de pedidos de agrupación de puesta en firme** en la sección **Rendimiento** en la pestaña **General** de la página **Parámetros de planificación maestra** (**Planificación maestra \> Configuración \> Parámetros de planificación maestra**). La paralelización del proceso de puesta en firme automática se basa en los pedidos que se deben procesar juntos. Por lo tanto, si este parámetro se establece en **50**, por ejemplo, cada subproceso o tarea por lotes recogerá 50 pedidos al mismo tiempo y los procesará en conjunto. Recomendamos que utilice un proceso de prueba y error para encontrar el mejor valor. Sin embargo, puede usar la siguiente fórmula para calcular un valor inicial:
+Puede establecer el parámetro **Número de pedidos de agrupación de puesta en firme** en la sección **Rendimiento** en la pestaña **General** de la página **Parámetros de planificación maestra** (**Planificación maestra \> Configuración \> Parámetros de planificación maestra**). La paralelización del proceso de puesta en firme automática se basa en los pedidos que se deben procesar juntos. Por ejemplo, si este parámetro se establece en **50**, cada subproceso o tarea por lotes recogerá 50 pedidos al mismo tiempo y los procesará en conjunto. Recomendamos que utilice un proceso de prueba y error para encontrar el mejor valor. Sin embargo, puede usar la siguiente fórmula para calcular un valor inicial:
 
-Número de pedidos por agrupación de trabajos = Número de artículos con demanda ÷ Número de subprocesos
+(Número de pedidos por agrupación de trabajos) = (Número de artículos con demanda ÷ Número de subprocesos)
 
 > [!NOTE]
 > Si establece el parámetro **Número de pedidos de agrupación de puesta en firme** en **0** (cero), no se producirá ninguna paralelización del proceso de puesta en firme automática. La totalidad del proceso se ejecutará en una única tarea por lote y tendrá un tiempo de ejecución acumulativo. Por lo tanto, el tiempo de ejecución de su planificación maestra aumentará. Por este motivo, recomendamos que establezca este parámetro en un valor superior a **0** (cero).
@@ -98,7 +98,7 @@ Los límites de tiempo especifican hasta qué punto en el futuro la planificaci�
 
 ### <a name="actions"></a>Acciones 
 
-Entre los límites de tiempo, también puede encontrar el parámetro **Mensaje de acción**. El cálculo de mensajes de acción provoca un mayor tiempo de ejecución para la planificación maestra. Si los mensajes de acción no se analizan y aplican de forma periódica (a diario, cada semana, etc.), considere desactivar el cálculo durante la ejecución de la planificación maestra. Para desactivar el cálculo, en la página **Planes maestros** (**Planificación maestra \> Configuración \> Planes \> Planes maestros**), establezca el límite de tiempo **Mensaje de acción** en **0** (cero) para el plan maestro que está ejecutando. Asegúrese también de que la configuración **Mensaje de acción** está desactivada para todos los grupos de cobertura.
+Entre los límites de tiempo, también puede encontrar el parámetro **Mensaje de acción**. El cálculo de mensajes de acción provoca un mayor tiempo de ejecución para la planificación maestra. Si los mensajes de acción no se analizan y aplican de forma periódica (a diario, cada semana, etc.), considere desactivar el cálculo durante la ejecución de la planificación maestra. Para desactivar el cálculo, en la página **Planes maestros**, (**Planificación maestra \> Configuración \> Planes \> Planes maestros**), establezca el límite de tiempo **Mensaje de acción** en **0** (cero). Asegúrese también de que la configuración **Mensaje de acción** está desactivada para todos los grupos de cobertura.
 
 ### <a name="futures"></a>Futuros
 
@@ -110,16 +110,16 @@ Cuando programe una planificación maestra, no programe ningún otro trabajo por
 
 ## <a name="review-the-session-log"></a>Revisar el registro de sesiones
 
-El sistema puede recopilar más información acerca de las tareas que se ejecutan durante la planificación maestra. Para que el sistema recopile esta información, active la configuración **Realizar seguimiento de tiempo procesamiento** en el cuadro de diálogo **Ejecución de la planificación maestra** . La información que se obtiene puede ayudarle a buscar cuellos de botella en la ejecución. Por ejemplo, cuando el parámetro **Número de tareas en la agrupación de trabajos de asistente** se establece en **1**, puede identificar el artículo con el mayor tiempo de ejecución. También puede comparar los tiempos de ejecución para los distintos subprocesos que tengan un estado de **Cobertura** y comparar la duración para cada tarea.
+El sistema puede recopilar información adicional acerca de las tareas que se ejecutan durante la planificación maestra. Para que el sistema recopile esta información, active la configuración **Realizar seguimiento de tiempo procesamiento** en el cuadro de diálogo **Ejecución de la planificación maestra** . La información que se obtiene puede ayudarle a buscar cuellos de botella en la ejecución. Por ejemplo, cuando el parámetro **Número de tareas en la agrupación de trabajos de asistente** se establece en **1**, puede identificar el artículo con el mayor tiempo de ejecución. También puede comparar los tiempos de ejecución para los distintos subprocesos que tengan un estado de **Cobertura** y comparar la duración para cada tarea.
 
 Para revisar las ejecuciones de la planificación maestra de su sistema, siga uno de estos pasos.
 
 - En el espacio de trabajo **Planificación maestra**, seleccione un plan maestro en el campo desplegable y, a continuación, en el icono **Planificación maestra**, seleccione **Historial**. Seleccione un trabajo, seleccionan **Consultas** en la ficha desplegable y, a continuación, seleccione **Duración de la tarea de proceso**.
 - En la página **Planes maestros**, seleccione un plan en el panel izquierdo y, a continuación, seleccione **Historial** en la ficha desplegable. Seleccione un trabajo, seleccionan **Consultas** en la ficha desplegable y, a continuación, seleccione **Duración de la tarea de proceso**.
 
-Cuando revise el registro de la sesión, tenga en cuenta los siguientes puntos:
+Cuando revise el registro de la sesión, tenga en cuenta lo siguiente:
 
-- **Actualizar** no debe tardar mucho tiempo (en general, debería tardar hasta 30 minutos). Sin embargo, se trata de un solo subproceso.
+- **Actualizar** no debe tardar mucho tiempo (en general, debería tardar hasta 30 minutos), sin embargo, se trata de un solo subproceso.
 - **Copiar plan** no debería tardar mucho tiempo (debería tardar cerca de un minuto).
 - La **Puesta en firme automática** tarda normalmente unos 30 minutos. Sin embargo, puede tardar hasta varias horas, según el número de pedidos y la complejidad de los artículos.
 - La **Puesta en firme automática** debe tardar menos tiempo que la **Cobertura**.
@@ -129,6 +129,28 @@ Cuando revise el registro de la sesión, tenga en cuenta los siguientes puntos:
 ## <a name="filtering-of-items"></a>Filtrado de artículos
 
 Los filtros que se aplican en el cuadro de diálogo **Ejecución de la planificación maestra** afectan a la duración de la ejecución de la planificación maestra. Vaya a **Planificación maestra \> Planificación maestra \> Ejecutar \> Planificación maestra**, o seleccione **Ejecutar** en el espacio de trabajo **Planificación maestra**. Para excluir artículos de la ejecución, le recomendamos que filtre por el estado del ciclo de vida del artículo (no por los códigos de artículo). Cuando filtre por estado del ciclo de vida, el proceso de actualización tardará menos tiempo que cuando filtre por números de artículo.
+
+## <a name="automatically-filter-by-items-with-direct-demand"></a>Filtrar automáticamente por artículos con demanda directa
+
+Para mejorar el tiempo de ejecución de la planificación maestra, puede elegir incluir solo artículos con demanda directa. Este filtro solo se puede utilizar para una ejecución de planificación maestra completa, sin otros filtros aplicados en el campo **Registros que incluir**. Una ejecución de planificación maestra con filtros no tendrá en cuenta el valor de la opción de configuración **Filtrar automáticamente por artículos con demanda directa**.
+
+El campo **Filtrar automáticamente por artículos con demanda directa** se encuentra en la página **Parámetros de planificación maestra** y se puede usar con configuraciones de preprocesamiento y postprocesamiento.
+
+### <a name="pre-processing"></a>En procesamiento previo
+El parámetro **Preprocesamiento: Filtrar automáticamente por artículos con demanda directa** garantiza que la fase de preprocesamiento de la planificación maestra solo incluya elementos que cumplan al menos una de las siguientes condiciones:
+  - El artículo tiene un recibo o problema esperado, como un pedido de compra, un pedido de venta, un presupuesto, una orden de transferencia o un pedido de producción. 
+  - El artículo tiene cobertura de artículos con existencias de seguridad (inventario mínimo disponible).
+  - Existe la previsión de demanda después de hoy para el artículo.
+  - Existe la previsión de suministro después de hoy para el artículo.
+  - El artículo incluye las líneas de continuidad del módulo del centro de llamadas pendiente de creación.
+
+> [!NOTE]
+> Un artículo que tiene un inventario disponible físicamente no mostrará una transacción de requisito porque no hay demanda para el artículo.
+
+### <a name="post-processing"></a>Posprocesamiento
+La opción **Postprocesamiento: Filtra automáticamente por artículos con demanda directa** solo es relevante si configura **Requisito de versión de L. MAT** en sus grupos de cobertura. De lo contrario, no tiene que habilitar el parámetro. 
+
+Antes de que comience el paso de cobertura, hay un paso de precobertura durante el cual se volverán a procesar los elementos que tengan la configuración de cobertura **Requisito de versión de L. MAT** habilitada. Esto se hace para garantizar que se planifiquen los artículos de la versión de lista de materiales requerida. Los artículos para los que se consideran que hay demanda durante el preprocesamiento ya no tienen demanda y, por lo tanto, deben excluirse de la ejecución de la planificación.
 
 ## <a name="performance-checklist-summary"></a>Resumen de la lista de comprobación del rendimiento
 

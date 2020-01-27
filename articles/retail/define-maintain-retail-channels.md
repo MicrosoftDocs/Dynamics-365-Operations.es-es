@@ -3,7 +3,7 @@ title: Definir y mantener canales comerciales
 description: Este tema proporciona una visión general del proceso para configurar tiendas físicas, que se conocen como tiendas minoristas en Dynamics 365 Retail. Incluye información acerca de las tareas que debe completar tanto antes como después de configurar una tienda minorista.
 author: mugunthanm
 manager: AnnBe
-ms.date: 11/14/2017
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: f55099ad283e665965aad0684b3c9d87223d5ed7
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 45d0386d215da15103a417502debb245c91f6309
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2019379"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934617"
 ---
 # <a name="define-and-maintain-retail-channels"></a>Definir y mantener canales comerciales
 
@@ -85,3 +85,6 @@ Tras especificar los detalles de la tienda minorista, complete estas tareas para
 ## <a name="organization-hierarchies"></a>Jerarquías organizativas
 
 Retail usa jerarquías organizativas para estructurar los canales comerciales. Las jerarquías organizativas representan las relaciones que hay entre las organizaciones que forman el negocio. Al configurar tiendas, puede agregarlas a una jerarquía organizativa. A continuación, los almacenes comparten los datos que se usan para las selecciones, el reaprovisionamiento y los informes.
+
+> [!NOTE]
+> Para usar la funcionalidad de ventas de Retail, la clave de configuración **Envíos múltiples** debe estar habilitada. Esta clave de configuración se puede encontrar en las claves **Configuración de comercio** en **Administración del sistema**\> **Configuración** \> **Configuración de licencia**. Esto es necesario debido a la funcionalidad de Retail, que realiza diversas validaciones en función de la dirección de entrega configurada en el nivel de línea del pedido de ventas.

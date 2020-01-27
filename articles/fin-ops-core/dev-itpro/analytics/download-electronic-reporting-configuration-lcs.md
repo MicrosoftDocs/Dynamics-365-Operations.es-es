@@ -3,7 +3,7 @@ title: Descargar configuraciones de informes electrónicos de Lifecycle Services
 description: En este tema se explica cómo descargar las configuraciones de Informes electrónicos (ER) de Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 49785835ee2da911d7b8d1360e1c42f850f1153f
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 4cc14860bd969048c4378b40d97a7940a8710e89
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771502"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934663"
 ---
 # <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>Descargar configuraciones de informes electrónicos de Lifecycle Services
 
@@ -39,7 +39,7 @@ Este tutorial le guía por el proceso de descarga de la versión más reciente d
     - Consultor funcional de informes electrónicos
     - Administrador del sistema
 
-2. Vaya a **Administración de la organización** &gt; **Informes electrónicos**.
+2. Vaya a **Administración de la organización** &gt; **Espacios de trabajo** &gt; **Informes electrónicos**.
 3. En la sección **Proveedores de configuración**, seleccione el icono de **Microsoft**.
 4. En el icono de **Microsoft**, haga clic en **Repositorios**.
 

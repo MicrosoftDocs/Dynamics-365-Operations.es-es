@@ -8,9 +8,11 @@
           href: index.md
         - name: Novedades y cambios
           items:
-            - name: Características de versión preliminar en Platform update 31 (enero de 2020)
+            - name: Características de versión preliminar en Platform update 32 (febrero de 2020)
+              href: get-started/whats-new-platform-update-32.md
+            - name: Platform update 31 (enero de 2020)
               href: get-started/whats-new-platform-update-31.md
-            - name: Platform update 30 (noviembre 2019)
+            - name: Platform update 30 (noviembre de 2019)
               href: ../fin-ops/get-started/whats-new-platform-update-30.md
             - name: Platform update 29 (octubre de 2019)
               href: ../fin-ops/get-started/whats-new-platform-update-29.md
@@ -34,6 +36,10 @@
               href: ../fin-ops/get-started/whats-new-platform-update-20.md
             - name: Platform update 15 (marzo de 2018)
               href: ../fin-ops/get-started/whats-new-platform-update-15.md
+            - name: Novedades y cambios en versiones anteriores
+              items:
+                - name: Página principal de Novedades y cambios en Finance and Operations
+                  href: ../fin-ops/get-started/whats-new-changed.md
         - name: Eventos de negocio
           items:
             - name: Visión general de Eventos de negocio
@@ -410,7 +416,7 @@
                   href: deployment/develop-deploy-custom-models-on-premises.md
                 - name: Integración de PowerBI.com con los entornos locales
                   href: analytics/entity-store-on-prem.md
-                - name: Configurar servidores proxy inversos para entornos locales
+                - name: Configurar servidores proxy para entornos locales
                   href: deployment/onprem-reverseproxy.md
                 - name: Aplicar actualizaciones a una implementación local
                   href: deployment/apply-updates-on-premises.md
@@ -926,6 +932,8 @@
                   href: lifecycle-services/whats-new-lcs.md
                 - name: Problemas conocidos
                   href: lifecycle-services/known-issues.md
+                - name: Características quitadas u obsoletas en Lifecycle Services (LCS)
+                  href: lifecycle-services/removed-deprecated-features.md
             - name: Manual del usuario de Lifecycle Services
               href: lifecycle-services/lcs-user-guide.md
             - name: Calculador de suscripción

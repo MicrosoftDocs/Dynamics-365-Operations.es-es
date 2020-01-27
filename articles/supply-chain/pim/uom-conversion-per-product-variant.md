@@ -3,12 +3,12 @@ title: Conversión de unidad de medida por variante del producto
 description: Este tema explica cómo las conversiones de unidad de medida se pueden configurar en variantes de producto.
 author: johanhoffmann
 manager: AnnBe
-ms.date: 12/18/2018
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: UnitOfMeasureConversion
 ROBOTS: noindex, nofollow
 audience: Application User
 ms.reviewer: josaw
@@ -17,34 +17,26 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 196b68db02867f8d864be8bcc593aa01f554f7c3
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: c8181f0bda9b781a6c2b0feb0aba1beb51bfea65
+ms.sourcegitcommit: af36eb17b36092a3101bbfc96486b25036676558
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249457"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2935108"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Conversión de unidad de medida por variante del producto
 
 [!include [banner](../includes/banner.md)]
 
-[!include [pivate-preview](../includes/pivate-preview-banner.md)]
-
 Este tema explica cómo las conversiones de unidad de medida se pueden configurar en variantes de producto. Incluye un ejemplo de configuración.
 
 Esta función permite a las empresas definir una conversión de unidad diferente entre las variantes del mismo producto. El siguiente ejemplo se usa en este tema. Una empresa vende camisetas de tamaños pequeños, medios, grande y extragrande. La camiseta se define como producto, y los distintos tamaños se definen como variantes del producto. Las camisetas están embaladas en cajas y puede haber cinco camisetas en una caja, excepto el tamaño extragrande donde solo hay espacio para cuatro camisetas. La empresa desea realizar un seguimiento de las distintos variantes de camisetas en la unidad **Piezas** pero está vendiendo las camisetas en la unidad **Cajas**. La conversión entre la unidad de inventario y la unidad de ventas es 1 caja = 5 unidades, excepto la variante extragrande, donde la conversión es 1 caja = 4 piezas.
-
-## <a name="setup"></a>Configurar
-
-Puede configurar los parámetros para usar la función de productos habilitados para **Todos los procesos** o solo al producto habilitado para **Procesos de almacén** mediante la opción **Habilitar las conversiones de unidad de medida** en la página **Parámetros de la información de producto**.
 
 ### <a name="set-up-a-product-for-unit-conversion-per-variant"></a>Configurar un producto para la conversión de unidades por variante
 
 Las variantes de producto solo se pueden crear para productos del **subtipo producto**: **producto maestro**. Para obtener más información, consulte [Crear un producto maestro](tasks/create-product-master.md).
 
 La característica no está habilitada para los productos configurados para procesos de peso capturado. 
-
-Durante la creación de un producto maestro habilite la conversión de unidades de medida mediante la opción **Habilitar las conversiones de unidad de medida** en la página **Detalles de producto**.
 
 Cuando se crea el producto maestro con variantes de productos emitidos, las conversiones de unidades por variantes se pueden configurar. Puede encontrar el elemento de menú para abrir la página de conversión de unidades en el contexto de un producto o una variante del producto en las siguientes páginas.
 

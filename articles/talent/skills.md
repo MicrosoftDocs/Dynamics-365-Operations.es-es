@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: d5fe56c949975f8cd07b54308cec43f833cc9d69
-ms.sourcegitcommit: 0dd8d0510214f92936a9dd214b404c5c8103587b
+ms.openlocfilehash: 7e1e5123d2702a4d9e1056d28a38a8075f117ee3
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2419232"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898050"
 ---
 # <a name="align-workforce-skills-with-business-needs"></a>Alienación de las aptitudes de los recursos con las necesidades empresariales
-
-[!include [banner](includes/banner.md)]
 
 Puede realizar un seguimiento de las aptitudes que los trabajadores, los candidatos o las personas de contacto tienen o deben tener para cumplir adecuadamente con sus funciones. También puede especificar las aptitudes necesarias para un puesto concreto.
 
