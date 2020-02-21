@@ -1,4 +1,4 @@
-- name: Desarrollo y administración de Finance and Operations
+- name: Desarrollo y administración para Finance and Operations
   href: ../../dev-itpro/index.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
 - name: Novedades y cambios
   items:
@@ -76,7 +76,7 @@
       href: ../../dev-itpro/data-entities/integration-overview.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
     - name: API de integración de datos
       items:
-        - name: REST API de paquete de administración de datos
+        - name: API de REST de paquete de administración de datos
           href: ../../dev-itpro/data-entities/data-management-api.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: Puntos de conexión de servicios
           items:
@@ -120,9 +120,9 @@
                   href: ../../dev-itpro/data-entities/dual-write-overview.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
                 - name: Jerarquía organizativa en Common Data Service
                   href: ../../dev-itpro/data-entities/dual-write-organization.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-                - name: Concepto de empresa en instancias de Common Data Service
+                - name: Concepto de empresa en Common Data Services
                   href: ../../dev-itpro/data-entities/dual-write-company.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-                - name: Maestros de clientes integrado
+                - name: Maestro de clientes integrado
                   href: ../../dev-itpro/data-entities/dual-write-customer.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
                 - name: Experiencia unificada del producto
                   href: ../../dev-itpro/data-entities/dual-write-product.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
@@ -146,11 +146,11 @@
                       href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
                     - name: Sincronizar contactos directamente desde Sales con contactos o clientes de Finance and Operations
                       href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-                    - name: Sincronizar encabezados y líneas de presupuesto de ventas directamente desde Sales a Finance and Operations
+                    - name: Sincronizar encabezados y líneas de presupuesto de ventas directamente desde Sales con Finance and Operations
                       href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
                     - name: Sincronización de pedidos de ventas entre Sales y Finance and Operations
                       href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-                    - name: Sincronizar encabezados y líneas de factura de ventas directamente desde Finance and Operations en Sales
+                    - name: Sincronizar encabezados y líneas de factura de ventas directamente desde Finance and Operations con Sales
                       href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
                 - name: Configurar la integración con Field Service
                   items:
@@ -162,7 +162,7 @@
                       href: ../../supply-chain/sales-marketing/field-service-work-order.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
                     - name: Sincronizar facturas de acuerdos en Field Service con facturas de servicios en Finance and Operations
                       href: ../../supply-chain/sales-marketing/field-service-invoice.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-                    - name: Sincronizar transferencias y ajustes de inventario de Field Service a Finance and Operations
+                    - name: Sincronizar transferencias y ajustes de inventario desde Field Service con Finance and Operations
                       href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
                     - name: Sincronizar información de nivel de inventario de Finance and Operations a Field Service
                       href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
@@ -172,7 +172,7 @@
                       href: ../../supply-chain/sales-marketing/synchronize-project-list.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
                     - name: Sincronizar almacenes de Finance and Operations a Field Service
                       href: ../../supply-chain/sales-marketing/synchronize-warehouse.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-                    - name: Sincronizar pedidos de trabajo con proyecto de Field Service a Finance and Operations
+                    - name: Sincronizar pedidos de trabajo con proyectos de a Field Service a Finance and Operations
                       href: ../../supply-chain/sales-marketing/synchronize-work-orders.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
                 - name: Configurar la integración de Project Service Automation
                   items:
@@ -862,7 +862,7 @@
           href: ../../dev-itpro/gdpr/gdpr-extend-person-search-report.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: Administrar el acceso a datos confidenciales
           href: ../../dev-itpro/gdpr/gdpr-auditing-sensitive-data.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-        - name: Responder a solicitudes de datos personales con Talent
+        - name: Responder a solicitudes de datos personales con Human Resources
           href: ../../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: Responder a solicitudes de datos personales en AX 2012
           href: ../../dev-itpro/gdpr/gdpr-ax2012.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
@@ -1204,25 +1204,25 @@
           href: ../../dev-itpro/lcs-solutions/separate-localization-models.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: Enviar alertas reglamentarias
           href: ../../dev-itpro/lcs-solutions/submit-localization-alerts.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-- name: Compatibilidad
+- name: Soporte
   items:
-    - name: Obtener soporte técnico para Finance and Operations y Lifecycle Services
+    - name: Obtener soporte para Finance and Operations y Lifecycle Services
       href: ../../dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
     - name: Visión general del soporte técnico de Dynamics 365
       href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/unified-operations/retail/toc.json&bc=/dynamics365/unified-operations/breadcrumb/toc.json'
-    - name: Obtener soporte técnico para Finance and Operations operado por 21Vianet en China
+    - name: Obtener soporte para Finance and Operations operado por 21Vianet en China
       href: ../../dev-itpro/lifecycle-services/21vianet-support.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
     - name: Registrar un vale de soporte técnico Premier
       href: ../../dev-itpro/lifecycle-services/premier-support.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
     - name: Enviar solicitudes al equipo de ingeniería de servicios de Dynamics
       href: ../../dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-    - name: Configurar el soporte técnico para Finance and Operations
+    - name: Configurar soporte técnico para Finance and Operations
       href: ../../dev-itpro/lifecycle-services/support-experience.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
     - name: Preguntas frecuentes sobre el plazo del mantenimiento planificado
       href: ../../dev-itpro/lifecycle-services/planned-maintenance-window-faq.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
     - name: Operaciones en la nube y mantenimiento
       href: ../../dev-itpro/lifecycle-services/cloud-operations-servicing.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-    - name: Gestionar las experiencias de compatibilidad con Finance and Operations
+    - name: Administrar experiencias de soporte de Finance and Operations
       href: ../../dev-itpro/lifecycle-services/cloud-powered-support-lcs.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
 - name: Administración del sistema
   items:
@@ -1298,7 +1298,7 @@
       href: ../../dev-itpro/migration-upgrade/upgrade-home-page.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
     - name: Actualizar desde AX 2012
       items:
-        - name: Actualizar de AX 2012 a Finance and Operations
+        - name: Actualizar desde AX 2012 a Finance and Operations
           href: ../../dev-itpro/migration-upgrade/upgrade-overview-2012.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: 'Actualización de AX 2012: planificar con la herramienta de analizador de actualización'
           href: ../../dev-itpro/migration-upgrade/upgrade-analyzer-tool.md?toc=/dynamics365/unified-operations/supply-chain/toc.json

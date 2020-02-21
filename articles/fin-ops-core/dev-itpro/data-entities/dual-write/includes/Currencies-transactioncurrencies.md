@@ -1,0 +1,12 @@
+## <a name="currencies-to-transactioncurrencies"></a><span data-ttu-id="6318b-101">Divisas para transactioncurrencies</span><span class="sxs-lookup"><span data-stu-id="6318b-101">Currencies to transactioncurrencies</span></span>
+
+<span data-ttu-id="6318b-102">Esta plantilla sincroniza datos entre aplicaciones de Finance and Operations y Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="6318b-102">This template synchronizes data between Finance and Operations apps and Common Data Service.</span></span>
+
+<span data-ttu-id="6318b-103">Filtro de origen: ((CURRENCYCODE != "999"))</span><span class="sxs-lookup"><span data-stu-id="6318b-103">Source filter: ((CURRENCYCODE != "999"))</span></span>
+
+<span data-ttu-id="6318b-104">Campo de Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="6318b-104">Finance and Operations field</span></span> | <span data-ttu-id="6318b-105">Tipo de asignación</span><span class="sxs-lookup"><span data-stu-id="6318b-105">Map type</span></span> | <span data-ttu-id="6318b-106">Otro campo de Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="6318b-106">Other Dynamics 365 field</span></span> | <span data-ttu-id="6318b-107">Valor predeterminado</span><span class="sxs-lookup"><span data-stu-id="6318b-107">Default value</span></span>
+---|---|---|---
+<span data-ttu-id="6318b-108">CURRENCYCODE</span><span class="sxs-lookup"><span data-stu-id="6318b-108">CURRENCYCODE</span></span> | = | <span data-ttu-id="6318b-109">isocurrencycode</span><span class="sxs-lookup"><span data-stu-id="6318b-109">isocurrencycode</span></span> | 
+<span data-ttu-id="6318b-110">NOMBRE</span><span class="sxs-lookup"><span data-stu-id="6318b-110">NAME</span></span> | = | <span data-ttu-id="6318b-111">currencyname</span><span class="sxs-lookup"><span data-stu-id="6318b-111">currencyname</span></span> | 
+<span data-ttu-id="6318b-112">SYMBOL</span><span class="sxs-lookup"><span data-stu-id="6318b-112">SYMBOL</span></span> | = | <span data-ttu-id="6318b-113">currencysymbol</span><span class="sxs-lookup"><span data-stu-id="6318b-113">currencysymbol</span></span> | 
+<span data-ttu-id="6318b-114">none</span><span class="sxs-lookup"><span data-stu-id="6318b-114">none</span></span> | >> | <span data-ttu-id="6318b-115">exchangerate</span><span class="sxs-lookup"><span data-stu-id="6318b-115">exchangerate</span></span> | <span data-ttu-id="6318b-116">1</span><span class="sxs-lookup"><span data-stu-id="6318b-116">1</span></span>

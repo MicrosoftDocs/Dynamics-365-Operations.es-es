@@ -1,0 +1,2 @@
+> [!NOTE]
+> <span data-ttu-id="45a99-101">Este artículo se aplica tanto al espacio de trabajo de Dynamics 365 Human Resources como de **Recursos humanos** en Dynamics 365 Finance.</span><span class="sxs-lookup"><span data-stu-id="45a99-101">This article applies to both Dynamics 365 Human Resources and the **Human resources** workspace in Dynamics 365 Finance.</span></span>

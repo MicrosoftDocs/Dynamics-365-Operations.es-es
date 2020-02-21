@@ -1,0 +1,8 @@
+## <a name="payment-days-cds-to-msdyn_paymentdays"></a><span data-ttu-id="edd02-101">Días de pago CDS a msdyn_paymentdays</span><span class="sxs-lookup"><span data-stu-id="edd02-101">Payment days CDS to msdyn_paymentdays</span></span>
+
+<span data-ttu-id="edd02-102">Esta plantilla sincroniza datos entre aplicaciones de Finance and Operations y Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="edd02-102">This template synchronizes data between Finance and Operations apps and Common Data Service.</span></span>
+
+<span data-ttu-id="edd02-103">Campo de Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="edd02-103">Finance and Operations field</span></span> | <span data-ttu-id="edd02-104">Tipo de asignación</span><span class="sxs-lookup"><span data-stu-id="edd02-104">Map type</span></span> | <span data-ttu-id="edd02-105">Otro campo de Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="edd02-105">Other Dynamics 365 field</span></span> | <span data-ttu-id="edd02-106">Valor predeterminado</span><span class="sxs-lookup"><span data-stu-id="edd02-106">Default value</span></span>
+---|---|---|---
+<span data-ttu-id="edd02-107">NOMBRE</span><span class="sxs-lookup"><span data-stu-id="edd02-107">NAME</span></span> | = | <span data-ttu-id="edd02-108">msdyn_name</span><span class="sxs-lookup"><span data-stu-id="edd02-108">msdyn_name</span></span> | 
+<span data-ttu-id="edd02-109">DESCRIPCIÓN</span><span class="sxs-lookup"><span data-stu-id="edd02-109">DESCRIPTION</span></span> | = | <span data-ttu-id="edd02-110">msdyn_description</span><span class="sxs-lookup"><span data-stu-id="edd02-110">msdyn_description</span></span> | 

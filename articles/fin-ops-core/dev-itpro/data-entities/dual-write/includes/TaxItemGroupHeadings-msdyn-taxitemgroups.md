@@ -1,0 +1,8 @@
+## <a name="item-sales-tax-group-to-msdyn_taxitemgroups"></a><span data-ttu-id="8c23f-101">Grupo de impuestos de msdyn_taxitemgroups</span><span class="sxs-lookup"><span data-stu-id="8c23f-101">Item sales tax group to msdyn_taxitemgroups</span></span>
+
+<span data-ttu-id="8c23f-102">Esta plantilla sincroniza datos entre aplicaciones de Finance and Operations y Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="8c23f-102">This template synchronizes data between Finance and Operations apps and Common Data Service.</span></span>
+
+<span data-ttu-id="8c23f-103">Campo de Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="8c23f-103">Finance and Operations field</span></span> | <span data-ttu-id="8c23f-104">Tipo de asignación</span><span class="sxs-lookup"><span data-stu-id="8c23f-104">Map type</span></span> | <span data-ttu-id="8c23f-105">Otro campo de Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="8c23f-105">Other Dynamics 365 field</span></span> | <span data-ttu-id="8c23f-106">Valor predeterminado</span><span class="sxs-lookup"><span data-stu-id="8c23f-106">Default value</span></span>
+---|---|---|---
+<span data-ttu-id="8c23f-107">GRUPO DE IMPUESTOS DE ARTÍCULOS</span><span class="sxs-lookup"><span data-stu-id="8c23f-107">TAXITEMGROUP</span></span> | = | <span data-ttu-id="8c23f-108">msdyn_name</span><span class="sxs-lookup"><span data-stu-id="8c23f-108">msdyn_name</span></span> | 
+<span data-ttu-id="8c23f-109">NOMBRE</span><span class="sxs-lookup"><span data-stu-id="8c23f-109">NAME</span></span> | = | <span data-ttu-id="8c23f-110">msdyn_description</span><span class="sxs-lookup"><span data-stu-id="8c23f-110">msdyn_description</span></span> | 

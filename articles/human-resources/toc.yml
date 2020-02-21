@@ -1,0 +1,531 @@
+- name: Dynamics 365 Human Resources
+  href: hr-welcome.md
+  items:
+    - name: Novedades
+      items:
+        - name: Novedades y cambios en Human Resources
+          href: hr-admin-whats-new.md
+        - name: 7 de febrero de 2020
+          href: hr-whats-new-2020-02-07.md
+        - name: 3 de febrero de 2020
+          href: hr-whats-new-2020-02-03.md
+    - name: Guía del administrador
+      items:
+        - name: Visión general
+          href: hr-admin-overview.md
+        - name: Requisitos del sistema
+          href: hr-admin-system-requirements.md
+        - name: Configurar y administrar instancias
+          items:
+            - name: Aprovisionar recursos humanos
+              href: hr-admin-setup-provision.md
+            - name: Copiar una instancia
+              href: hr-admin-setup-copy-instance.md
+            - name: Quitar una instancia
+              href: hr-admin-setup-remove-instance.md
+            - name: Actualizar proceso
+              href: hr-admin-setup-update-process.md
+        - name: Configurar integración de datos
+          items:
+            - name: Elegir una tecnología de integración de datos
+              href: hr-admin-integration-choose-technology.md
+            - name: Configurar integración de Common Data Service
+              href: hr-admin-integration-common-data-service.md
+            - name: Entidades de Common Data Service
+              href: hr-developer-entities.md
+            - name: Configurar la integración con Finance
+              href: hr-admin-integration-finance.md
+            - name: Configurar la integración con Dayforce
+              href: hr-admin-integration-dayforce.md
+            - name: Crear una aplicación de exportación de datos recurrente
+              href: hr-admin-integration-recurring-data-export.md
+            - name: Integrar con Office
+              items:
+                - name: Tutorial de integración con Office
+                  href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Actualizar los datos de la entidad en Excel
+                  href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Crear experiencias de tipo Abrir en Excel
+                  href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Solución de problemas de la integración con Office
+                  href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Administrar características
+          href: hr-admin-manage-features.md
+        - name: Explorar la interfaz de usuario
+          items:
+            - name: Elementos de la interfaz de usuario
+              href: ../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json
+            - name: Características de accesibilidad
+              href: ../fin-ops-core/fin-ops/get-started/accessibility-features.md?toc=/dynamics365/human-resources/toc.json
+            - name: Visión general de la administración de características
+              href: ../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md?toc=/dynamics365/human-resources/toc.json
+            - name: Preguntas frecuentes de clientes
+              href: ../fin-ops-core/fin-ops/get-started/client-faq.md?toc=/dynamics365/human-resources/toc.json
+            - name: Búsqueda de acción
+              href: ../fin-ops-core/fin-ops/get-started/action-search.md?toc=/dynamics365/human-resources/toc.json
+            - name: Sintaxis de consulta y filtro avanzados
+              href: ../fin-ops-core/fin-ops/get-started/advanced-filtering-query-options.md?toc=/dynamics365/human-resources/toc.json
+            - name: Configurar y filtrar espacios de trabajo
+              href: ../fin-ops-core/fin-ops/get-started/configure-filter-workspaces.md?toc=/dynamics365/financehuman-resources/toc.json
+            - name: Mostrar páginas en paralelo con la función Abrir en una ventana nueva
+              href: ../fin-ops-core/fin-ops/get-started/display-pages-side-by-side.md?toc=/dynamics365/human-resources/toc.json
+            - name: Métodos abreviados de teclado
+              href: ../fin-ops-core/fin-ops/get-started/shortcut-keys.md?toc=/dynamics365/human-resources/toc.json
+            - name: Cambiar los banners o las imágenes del logotipo para entidades jurídicas
+              href: ../fin-ops-core/fin-ops/get-started/tasks/change-banner-or-logo.md?toc=/dynamics365/human-resources/toc.json
+            - name: Búsqueda de navegación
+              href: ../fin-ops-core/fin-ops/get-started/navigation-search.md?toc=/dynamics365/human-resources/toc.json
+            - name: Personalizar la experiencia del usuario
+              href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/human-resources/toc.json
+            - name: Vistas guardadas
+              href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/human-resources/toc.json
+            - name: Crear y trabajar con campos personalizados
+              href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/human-resources/toc.json
+            - name: Insertar aplicaciones de PowerApps
+              href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/human-resources/toc.json
+            - name: Encontrar información mediante el uso de búsquedas
+              href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/human-resources/toc.json
+            - name: Cambiar la fecha de una sesión
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/change-date-session.md?toc=/dynamics365/human-resources/toc.json
+            - name: Definir la zona horaria preferida de un usuario
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/human-resources/toc.json
+            - name: Comprender Lifecycle Services
+              href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/human-resources/toc.json
+        - name: Recursos de documentación
+          items:
+            - name: Sistema de ayuda
+              href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json
+            - name: Conectar el sistema de ayuda
+              href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/human-resources/toc.json
+            - name: Conectar un sitio de ayuda personalizado
+              href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/human-resources/toc.json
+            - name: Ver y exportar las descripciones de los campos
+              href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/human-resources/toc.json
+            - name: Grabador de tareas
+              href: ../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/human-resources/toc.json
+            - name: Crear documentación o formación con el Grabador de tareas
+              href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json
+        - name: Solución de problemas de recursos humanos
+          items:
+            - name: Obtener soporte
+              href: hr-admin-troubleshooting-support.md
+            - name: Optimizar el rendimiento con tareas automáticas de limpieza
+              href: hr-admin-troubleshooting-batch-history.md
+            - name: Los informes de análisis no están actualizados
+              href: hr-admin-troubleshooting-analytic-reports.md
+            - name: No se puede crear un entorno en el centro de administración de Power Apps
+              href: hr-admin-troubleshooting-power-apps.md
+            - name: El cliente se desconecta
+              href: hr-admin-troubleshooting-disconnect.md
+            - name: Evite el texto truncado en la jerarquía de posición
+              href: hr-admin-troubleshooting-truncate.md
+            - name: Ejecutar el proceso de compensación
+              href: hr-admin-troubleshooting-compensation.md
+            - name: Guardar una guía de tareas para LCS
+              href: hr-admin-troubleshooting-task-guide.md
+            - name: Acceder a direcciones privadas por rol de seguridad
+              href: hr-admin-troubleshooting-private-addresses.md
+            - name: Recursos humanos no aparece en las aplicaciones de Dynamics 365
+              href: hr-admin-troubleshooting-not-in-apps.md
+            - name: Opciones de informes
+              href: hr-admin-troubleshooting-reporting.md
+            - name: Preguntas frecuentes sobre integración
+              href: hr-admin-troubleshooting-integration.md
+    - name: Guía de desarrollador
+      items:
+        - name: Visión general
+          href: hr-developer-overview.md
+        - name: Ampliar con Power Apps y Power Automate
+          href: hr-developer-power-apps.md
+        - name: Entidades de Common Data Service
+          href: hr-developer-entities.md
+        - name: Campos personalizados
+          href: hr-developer-custom-fields.md
+        - name: Configurar integración de datos
+          items:
+            - name: Elegir una tecnología de integración de datos
+              href: hr-admin-integration-choose-technology.md
+            - name: Configurar integración de Common Data Service
+              href: hr-admin-integration-common-data-service.md
+            - name: Configurar la integración con Finance
+              href: hr-admin-integration-finance.md
+            - name: Configurar la integración con Dayforce
+              href: hr-admin-integration-dayforce.md
+            - name: Crear una aplicación de exportación de datos recurrente
+              href: hr-admin-integration-recurring-data-export.md
+            - name: Integrar con Office
+              items:
+                - name: Tutorial de integración con Office
+                  href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Actualizar los datos de la entidad en Excel
+                  href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Crear experiencias de tipo Abrir en Excel
+                  href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: Solución de problemas de la integración con Office
+                  href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Referencia de API de entidad
+          items:
+            - name: Autenticación
+              href: hr-developer-api-authentication.md
+            - name: Entidades
+              items:
+                - name: MyLeaveRequests
+                  items:
+                    - name: Visión general de MyLeaveRequests
+                      href: hr-developer-api-myleaverequests-overview.md
+                    - name: Enviar una solicitud de baja al flujo de trabajo
+                      href: hr-developer-api-myleaverequests-submit.md
+    - name: Manual del usuario
+      items:
+        - name: Visión general
+          href: hr-hrpro-overview.md
+        - name: Configurar recursos humanos
+          items:
+            - name: Configurar parámetros de recursos Humanos
+              href: hr-setup-parameters.md
+            - name: Configurar parámetros compartidos de recursos humanos
+              href: hr-setup-shared-parameters.md
+            - name: Configurar flujos de trabajo de recursos humanos
+              href: hr-setup-workflows.md
+            - name: Comprender campos de fecha y hora
+              href: hr-setup-date-time-fields.md
+        - name: Establecer configuración de la organización
+          items:
+            - name: Página principal de Administración de la organización
+              href: ../fin-ops-core/fin-ops/organization-administration/organization-administration-home-page.md?toc=/dynamics365/human-resources/toc.json
+            - name: Secuencias numéricas
+              items:
+                - name: Visión general de las secuencias numéricas
+                  href: ../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/human-resources/toc.json
+                - name: Configurar secuencias numéricas de manera individual
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/human-resources/toc.json
+                - name: Configurar secuencias numéricas mediante un asistente
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/human-resources/toc.json
+            - name: Organizaciones y jerarquías organizativas
+              items:
+                - name: Visión general de las organizaciones y las jerarquías organizativas
+                  href: ../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/human-resources/toc.json
+                - name: Planificar su jerarquía organizativa
+                  href: ../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/human-resources/toc.json
+                - name: Crear una jerarquía organizativa
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/human-resources/toc.json
+                - name: Crear entidades jurídicas
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-legal-entity.md?toc=/dynamics365/human-resources/toc.json
+                - name: Crear unidades operativas
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/human-resources/toc.json
+            - name: Libreta de direcciones global
+              items:
+                - name: Visión general de la libreta de direcciones global
+                  href: ../fin-ops-core/fin-ops/organization-administration/overview-global-address-book.md?toc=/dynamics365/human-resources/toc.json
+                - name: Plan para la libreta de direcciones global y otras libretas de direcciones
+                  href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/human-resources/toc.json
+                - name: Configurar la libreta de direcciones global
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/human-resources/toc.json
+                - name: Preguntas frecuentes sobre Libretas de direcciones
+                  href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/human-resources/toc.json
+                - name: Configurar libretas de direcciones
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/human-resources/toc.json
+            - name: Sistema de flujo de trabajo
+              items:
+                - name: Visión general del sistema de flujo de trabajo
+                  href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json
+                - name: Arquitectura del sistema de flujo de trabajo
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/human-resources/toc.json
+                - name: Elementos del flujo de trabajo
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-elements.md?toc=/dynamics365/human-resources/toc.json
+                - name: Acciones de flujo de trabajo
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-actions.md?toc=/dynamics365/human-resources/toc.json
+                - name: Crear flujos de trabajo
+                  items:
+                    - name: Visión general de la creación de flujos de trabajo
+                      href: ../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Configurar propiedades del flujo de trabajo
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Configurar tareas manuales
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Configurar tareas automatizadas
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Configurar procesos de aprobación
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Configurar pasos de aprobación
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Configurar decisiones manuales
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Configurar decisiones condicionales
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Configurar actividades paralelas
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Configurar ramas paralelas
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Configurar flujos de trabajo de elementos
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Configurar el trabajo por lotes de procesamiento de mensajes de flujo de trabajo como crítico
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/human-resources/toc.json
+                - name: Delegar elementos de trabajo de un flujo de trabajo
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Ver historial de flujo de trabajo
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/human-resources/toc.json
+                - name: Configurar el sistema para enviar mensajes de correo electrónico relacionados con el flujo de trabajo a los usuarios
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/human-resources/toc.json
+                - name: Tipos de flujo de trabajo
+                  items:
+                    - name: Crear un tipo de flujo de trabajo
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Lista de comprobación de tipo de flujo de trabajo
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-checklist.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Crear una categoría de flujo de trabajo
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-category.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Crear una consulta para un tipo de flujo de trabajo
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-query.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Crear un nuevo tipo de flujo de trabajo
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create-new.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Crear una clase de documento de flujo de trabajo
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-document-create.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Crear una clase SubmitToWorkflow
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-submit-to-workflow.md?toc=/dynamics365/human-resources/toc.json
+                    - name: Asociar una clase de documento de flujo de trabajo a un tipo de flujo de trabajo
+                      href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/human-resources/toc.json
+                - name: Informe de tipos de flujo de trabajo
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/human-resources/toc.json
+                - name: Preguntas frecuentes sobre flujos de trabajo
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/human-resources/toc.json
+            - name: Alertas
+              items:
+                - name: Visión general de alertas
+                  href: ../fin-ops-core/fin-ops/get-started/alerts-overview.md?toc=/dynamics365/human-resources/toc.json
+                - name: Crear reglas de alertas
+                  href: ../fin-ops-core/fin-ops/get-started/create-alerts.md?toc=/dynamics365/human-resources/toc.json
+                - name: Procesamiento por lotes de alertas
+                  href: ../fin-ops-core/fin-ops/get-started/alerts-managing.md?toc=/dynamics365/human-resources/toc.json
+                - name: Notificaciones por correo electrónico de alertas del cliente
+                  href: ../fin-ops-core/fin-ops/get-started/alert-email-notifications.md?toc=/dynamics365/human-resources/toc.json
+            - name: Firmas electrónicas
+              items:
+                - name: Visión general de las firmas electrónicas
+                  href: ../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md?toc=/dynamics365/human-resources/toc.json
+                - name: Configurar firmas electrónicas
+                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-electronic-signatures.md?toc=/dynamics365/human-resources/toc.json
+            - name: Gestión de casos
+              items:
+                - name: Visión general de la gestión de casos
+                  href: ../fin-ops-core/fin-ops/organization-administration/cases.md?toc=/dynamics365/human-resources/toc.json
+                - name: 'Planificar seguridad, procesos y categorías de casos'
+                  href: ../fin-ops-core/fin-ops/organization-administration/plan-case-management.md?toc=/dynamics365/human-resources/toc.json
+            - name: Plantillas de registro
+              items:
+                - name: Visión general de las plantillas de registro
+                  href: ../fin-ops-core/fin-ops/organization-administration/record-templates.md?toc=/dynamics365/human-resources/toc.json
+                - name: Crear una plantilla de registro
+                  href: ../fin-ops-core/dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/dynamics365/human-resources/toc.json
+                - name: Usar una plantilla de registro para crear un nuevo registro
+                  href: ../fin-ops-core/dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/dynamics365/human-resources/toc.json
+            - name: Configurar la gestión de documentos
+              href: ../fin-ops-core/fin-ops/organization-administration/configure-document-management.md?toc=/dynamics365/human-resources/toc.json
+            - name: Configurar y enviar correo electrónico
+              href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/human-resources/toc.json
+            - name: Datos de fecha y hora y las zonas horarias
+              href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/human-resources/toc.json
+        - name: Administrar personal
+          items:
+            - name: Organizar los recursos
+              href: hr-personnel-departments-jobs-positions.md
+            - name: Configurar los componentes de un trabajo
+              href: hr-personnel-jobs.md
+            - name: Definir departamentos
+              href: hr-personnel-define-departments.md
+            - name: Agregar un departamento a una jerarquía
+              href: hr-personnel-add-department-hierarchy.md
+            - name: Definir trabajos
+              href: hr-personnel-define-jobs.md
+            - name: Crear un calendario de horas de trabajo
+              href: hr-personnel-create-working-time-calendar.md
+            - name: Preguntas frecuentes sobre acciones de personal
+              href: hr-personnel-actions-faq.md
+            - name: Utilizar flujos de trabajo para administrar la información sobre los empleados
+              href: hr-workflow-manage-employee-information.md
+            - name: Modificar las relaciones jerárquicas para un puesto
+              href: hr-personnel-modify-reporting-relationships-position.md
+            - name: Introducir información de trabajadores
+              href: hr-personnel-enter-worker-information.md
+            - name: Artículos de préstamo para trabajadores
+              href: hr-personnel-loan-item-worker.md
+            - name: Crear artículos de préstamo
+              href: hr-personnel-create-loan-items.md
+            - name: Administrar artículos de préstamo
+              href: hr-personnel-loan-items.md
+            - name: Desarrollar un plan de sucesión
+              href: hr-personnel-develop-succession-plan.md
+            - name: Introducir hojas de horas de proyectos
+              href: hr-personnel-enter-project-timesheets.md
+            - name: Proyectos de contratación masiva
+              href: hr-personnel-mass-hire-projects.md
+            - name: Crear un proyecto de contratación masiva
+              href: hr-personnel-create-mass-hire-project.md
+            - name: Configurar puestos
+              href: hr-personnel-set-up-positions.md
+            - name: Configurar información sobre lesiones y enfermedades
+              href: hr-personnel-set-up-injury-illness-information.md
+            - name: Mantener la información de lesiones y enfermedades del empleado
+              href: hr-personnel-maintain-employee-injury-illness-information.md
+        - name: Configurar planes de compensación
+          items:
+            - name: Visión general de planes de compensación
+              href: hr-compensation-overview.md
+            - name: Configurar de cuadrículas de compensación
+              href: hr-compensation-grids.md
+            - name: Desarrollar un plan y estructura de compensaciones
+              href: hr-compensation-structure.md
+            - name: Crear planes de compensación fija
+              href: hr-compensation-fixed-plans.md
+            - name: Crear planes de compensación variable
+              href: hr-compensation-variable-plans.md
+            - name: Inscribir a empleados en un plan de compensación fija
+              href: hr-compensation-enroll-employees-fixed.md
+            - name: Inscribir a empleados en un plan de compensación variable
+              href: hr-compensation-enroll-employees-variable.md
+            - name: Definición del proceso de compensación y el cálculo de resultados
+              href: hr-compensation-define-process.md
+            - name: Procesar planes de compensación
+              href: hr-compensation-process.md
+        - name: Administrar prestaciones
+          items:
+            - name: 'Característica de vista previa: administración de prestaciones'
+              items:
+                - name: Visión general de administración de prestaciones
+                  href: hr-benefits-management-overview.md
+                - name: Configurar la administración de prestaciones
+                  items:
+                    - name: Establecer parámetros de administración de prestaciones
+                      href: hr-benefits-setup-parameters.md
+                    - name: Configurar reglas y opciones de elegibilidad
+                      href: hr-benefits-setup-eligibility-rules.md
+                    - name: Configurar las opciones de elegibilidad de contacto personal
+                      href: hr-benefits-setup-contact-eligibility-options.md
+                    - name: Crear opciones de cobertura
+                      href: hr-benefits-setup-coverage-options.md
+                    - name: Configurar frecuencias de pago
+                      href: hr-benefits-setup-payment-frequencies.md
+                    - name: Configurar tipos de eventos de vida
+                      href: hr-benefits-setup-life-event-types.md
+                    - name: Crear tipos de planes
+                      href: hr-benefits-setup-plan-types.md
+                    - name: Configurar códigos de motivos
+                      href: hr-benefits-setup-reason-codes.md
+                    - name: Configurar códigos de nivel
+                      href: hr-benefits-setup-tier-codes.md
+                    - name: Configurar tarifas
+                      href: hr-benefits-setup-rates.md
+                    - name: Configurar deducciones
+                      href: hr-benefits-setup-deductions.md
+                    - name: Configurar días de espera
+                      href: hr-benefits-setup-waiting-days.md
+                    - name: Configurar períodos de espera
+                      href: hr-benefits-setup-waiting-periods.md
+                    - name: Configurar reglas de redondeo
+                      href: hr-benefits-setup-rounding-rules.md
+                    - name: Crear categorías de empleo
+                      href: hr-benefits-setup-employment-categories.md
+                    - name: Configurar tipos de empleo
+                      href: hr-benefits-setup-employment-types.md
+                    - name: Configurar autoservicio para empleados
+                      href: hr-benefits-setup-employee-self-service.md
+                - name: Crear planes de beneficios
+                  items:
+                    - name: Configurar planes de prestaciones
+                      href: hr-benefits-plans-setup.md
+                    - name: Crear planes de beneficios de trabajador
+                      href: hr-benefits-plans-worker.md
+                    - name: Configurar programas de crédito flexible
+                      href: hr-benefits-plans-flex-credit-programs.md
+                    - name: Configurar eventos de vida futuros
+                      href: hr-benefits-plans-future-life-events.md
+                - name: Procesar planes de beneficios
+                  items:
+                    - name: Procesar idoneidad de inscripción
+                      href: hr-benefits-process-enrollment-eligibility.md
+                    - name: Procesar eventos de vida
+                      href: hr-benefits-process-life-events.md
+                    - name: Procesar cambios de eventos de vida
+                      href: hr-benefits-process-life-event-changes.md
+                    - name: Procesar idoneidad de eventos de vida
+                      href: hr-benefits-process-life-event-eligibility.md
+                    - name: Procesar cambios de tipo
+                      href: hr-benefits-process-rate-changes.md
+            - name: Definir y gestionar un programa de prestaciones
+              href: hr-benefits-manage-program.md
+            - name: Directivas de idoneidad para prestaciones
+              href: hr-benefits-eligibility-policies.md
+            - name: Proceso de idoneidad para prestación
+              href: hr-benefits-eligibility-process.md
+            - name: Definir reglas y directivas de idoneidad para prestaciones
+              href: hr-benefits-define-eligibility-rules.md
+            - name: Proporcionar un programa de prestaciones de empleado
+              href: hr-benefits-deliver-employee-benefits-program.md
+            - name: Crear nuevos beneficios
+              href: hr-benefits-create.md
+            - name: Inscribir trabajadores en beneficios
+              href: hr-benefits-enroll-workers.md
+            - name: Administrar las fechas de vencimiento de la prestación
+              href: hr-benefits-expiration-dates.md
+            - name: Generar informes ACA
+              href: hr-benefits-aca-reports.md
+        - name: Administrar permisos y ausencias
+          items:
+            - name: Visión general
+              href: hr-leave-and-absence-overview.md
+            - name: Configurar parámetros de permisos y ausencias
+              href: hr-leave-and-absence-parameters.md
+            - name: Crear un calendario de horas de trabajo
+              href: hr-leave-and-absence-working-time-calendar.md
+            - name: Crear un flujo de trabajo de solicitud de baja
+              href: hr-leave-and-absence-workflow.md
+            - name: Configurar tipos de permisos y ausencias
+              href: hr-leave-and-absence-types.md
+            - name: Crear un plan de permisos y ausencias
+              href: hr-leave-and-absence-plans.md
+            - name: Asignar trabajadores a un plan de ausencias
+              href: hr-leave-and-absence-enroll.md
+            - name: Acumular planes de permisos y ausencias
+              href: hr-leave-and-absence-accrue.md
+            - name: Ver análisis de permisos y ausencias
+              href: hr-leave-and-absence-analytics.md
+            - name: Administrar solicitudes de permisos y ausencias
+              href: hr-employee-self-service-manage-requests.md
+            - name: Solicitar tiempo libre
+              href: hr-employee-self-service-request-time-off.md
+            - name: Ver calendarios de equipo y empresa
+              href: hr-employee-self-service-calendar.md
+        - name: Desarrollar empleados
+          items:
+            - name: Visión general de la gestión del desempeño
+              href: hr-develop-performance-management-overview.md
+            - name: Alinear aptitudes de recursos
+              href: hr-develop-skills.md
+            - name: Agregar a su diario de rendimiento
+              href: hr-develop-add-performance-journal.md
+            - name: Crear un objetivo
+              href: hr-develop-create-goal.md
+            - name: Crear una evaluación del rendimiento
+              href: hr-develop-create-performance-review.md
+        - name: Crear cursos
+          items:
+            - name: Configurar cursos de formación
+              href: hr-learning-courses.md
+            - name: Visión general de cuestionarios
+              href: hr-learning-questionnaires.md
+            - name: Diseñar cuestionarios
+              href: hr-learning-design-questionnaires.md
+            - name: Distribuir y programar cuestionarios
+              href: hr-learning-distribute-questionnaires.md
+            - name: Distribuir cuestionarios mediante la programación
+              href: hr-learning-distribute-questionnaires-scheduling.md
+            - name: Ver resultados del cuestionario
+              href: hr-learning-evaluate-questionnaire-results.md
+            - name: Analizar resultados de cuestionario
+              href: hr-learning-analyze-questionnaire-results.md
+            - name: Crear una pregunta abierta
+              href: hr-learning-create-open-ended-question.md
+            - name: Crear una pregunta cerrada
+              href: hr-learning-create-closed-ended-question.md
+            - name: Crear una pregunta dependiente
+              href: hr-learning-depending-question.md
