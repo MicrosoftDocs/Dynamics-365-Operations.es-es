@@ -2,44 +2,56 @@
   items:
     - name: Desarrollo y administración para aplicaciones de Finance and Operations
       items:
-        - name: Documentación de la aplicación Finance and Operations
+        - name: Documentación de la aplicación de Finance and Operations
           href: ../fin-ops/index.md
         - name: Desarrollo y administración para aplicaciones de Finance and Operations
           href: index.md
         - name: Novedades y cambios
           items:
-            - name: Características de versión preliminar en Platform update 32 (febrero de 2020)
-              href: get-started/whats-new-platform-update-32.md
-            - name: Platform update 31 (enero de 2020)
-              href: get-started/whats-new-platform-update-31.md
-            - name: Platform update 30 (noviembre de 2019)
-              href: ../fin-ops/get-started/whats-new-platform-update-30.md
-            - name: Platform update 29 (octubre de 2019)
-              href: ../fin-ops/get-started/whats-new-platform-update-29.md
-            - name: Platform update 28 (julio de 2019)
-              href: ../fin-ops/get-started/whats-new-platform-update-28.md
-            - name: Platform update 27 (junio de 2019)
-              href: ../fin-ops/get-started/whats-new-platform-update-27.md
-            - name: Platform update 26 (mayo de 2019)
-              href: ../fin-ops/get-started/whats-new-platform-update-26.md
-            - name: Platform update 25 (abril de 2019)
-              href: ../fin-ops/get-started/whats-new-platform-25.md
-            - name: Platform update 24 (marzo de 2019)
-              href: ../fin-ops/get-started/whats-new-platform-update-24.md
-            - name: Platform update 23 (enero de 2019)
-              href: ../fin-ops/get-started/whats-new-platform-update-23.md
-            - name: Platform update 22 (diciembre de 2018)
-              href: ../fin-ops/get-started/whats-new-platform-update-22.md
-            - name: Platform update 21 (noviembre 2018)
-              href: ../fin-ops/get-started/whats-new-platform-update-21.md
-            - name: Platform update 20 (septiembre de 2018)
-              href: ../fin-ops/get-started/whats-new-platform-update-20.md
-            - name: Platform update 15 (marzo de 2018)
-              href: ../fin-ops/get-started/whats-new-platform-update-15.md
-            - name: Novedades y cambios en versiones anteriores
+            - name: Novedades y cambios de aplicaciones de Finance and Operations
+              href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+            - name: Novedades y cambios en Platform updates
               items:
-                - name: Página principal de Novedades y cambios en Finance and Operations
-                  href: ../fin-ops/get-started/whats-new-changed.md
+                - name: Página principal de Novedades y cambios en Platform updates
+                  href: get-started/whats-new-home-page.md
+                - name: Platform update 33 (abril de 2020)
+                  href: get-started/whats-new-platform-update-33.md
+                - name: Platform update 32 (febrero de 2020)
+                  href: get-started/whats-new-platform-update-32.md
+                - name: Platform update 31 (enero de 2020)
+                  href: get-started/whats-new-platform-update-31.md
+                - name: Platform update 30 (noviembre de 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-update-30.md
+                - name: Platform update 29 (octubre de 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-update-29.md
+                - name: Platform update 28 (julio de 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-update-28.md
+                - name: Platform update 27 (junio de 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-update-27.md
+                - name: Platform update 26 (mayo de 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-update-26.md
+                - name: Platform update 25 (abril de 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-25.md
+                - name: Platform update 24 (marzo de 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-update-24.md
+                - name: Platform update 23 (enero de 2019)
+                  href: ../fin-ops/get-started/whats-new-platform-update-23.md
+                - name: Platform update 22 (diciembre de 2018)
+                  href: ../fin-ops/get-started/whats-new-platform-update-22.md
+                - name: Platform update 21 (noviembre 2018)
+                  href: ../fin-ops/get-started/whats-new-platform-update-21.md
+                - name: Platform update 20 (septiembre de 2018)
+                  href: ../fin-ops/get-started/whats-new-platform-update-20.md
+                - name: Platform update 15 (marzo de 2018)
+                  href: ../fin-ops/get-started/whats-new-platform-update-15.md
+            - name: Características quitadas u obsoletas
+              href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+            - name: Características de AX 2012 pospuestas
+              href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+            - name: Características no implementadas en implementaciones locales
+              href: ../fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+            - name: Final del soporte estándar para Microsoft Dynamics AX 2009 y 2012
+              href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
         - name: Eventos de negocio
           items:
             - name: Visión general de Eventos de negocio
@@ -133,35 +145,35 @@
                     - name: Integración sincrónica bidireccional
                       items:
                         - name: Integración de datos casi en tiempo real
-                          href: data-entities/dual-write-overview.md
+                          href: data-entities/dual-write/dual-write-overview.md
                         - name: Jerarquía organizativa en Common Data Service
-                          href: data-entities/dual-write-organization.md
+                          href: data-entities/dual-write/organization-mapping.md
                         - name: Integración de empresa
                           items:
-                            - name: Concepto de empresa en instancias de Common Data Service
-                              href: data-entities/dual-write-company.md
+                            - name: Concepto de empresa en Common Data Services
+                              href: data-entities/dual-write/company-data.md
                             - name: Arranque con datos de empresa
-                              href: data-entities/dual-write-bootstrap.md
+                              href: data-entities/dual-write/bootstrap-company-data.md
                         - name: Maestro de clientes integrado
-                          href: data-entities/dual-write-customer.md
+                          href: data-entities/dual-write/customer-mapping.md
                         - name: Libro mayor integrado
-                          href: data-entities/dual-write-ledger.md
+                          href: data-entities/dual-write/ledger-mapping.md
                         - name: Experiencia unificada del producto
-                          href: data-entities/dual-write-product.md
+                          href: data-entities/dual-write/product-mapping.md
                         - name: Integración del proveedor
                           items:
                             - name: Maestro de proveedores integrado
-                              href: data-entities/dual-write-vendor.md
+                              href: data-entities/dual-write/vendor-mapping.md
                             - name: Cambiar entre diseños de proveedor
-                              href: data-entities/dual-write-vendor-switch.md
+                              href: data-entities/dual-write/vendor-switch.md
                         - name: Sitios y almacenes integrados
-                          href: data-entities/dual-write-sites-and-warehouses.md
+                          href: data-entities/dual-write/sites-warehouses-mapping.md
                         - name: Maestro de impuestos integrado
-                          href: data-entities/dual-write-tax.md
+                          href: data-entities/dual-write/tax-mapping.md
                         - name: Sincronización inicial
-                          href: data-entities/dual-write-initial.md
+                          href: data-entities/dual-write/initial-sync.md
                         - name: Solución de problemas de integración de datos
-                          href: data-entities/dual-write-troubleshooting.md
+                          href: data-entities/dual-write/dual-write-troubleshooting.md
                     - name: Integración asincrónica unidireccional
                       items:
                         - name: Configurar un escenario de cliente potencial a cliente
@@ -174,11 +186,11 @@
                               href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
                             - name: Sincronizar contactos directamente desde Sales con contactos o clientes de Finance and Operations
                               href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                            - name: Sincronizar encabezados y líneas de presupuesto de ventas directamente desde Sales a Finance and Operations
+                            - name: Sincronizar encabezados y líneas de presupuesto de ventas directamente desde Sales con Finance and Operations
                               href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
                             - name: Sincronización de pedidos de ventas entre Sales y Finance and Operations
                               href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                            - name: Sincronizar encabezados y líneas de factura de ventas directamente desde Finance and Operations en Sales
+                            - name: Sincronizar encabezados y líneas de factura de ventas directamente desde Finance and Operations con Sales
                               href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
                         - name: Configurar la integración con Field Service
                           items:
@@ -190,7 +202,7 @@
                               href: ../../supply-chain/sales-marketing/field-service-work-order.md
                             - name: Sincronizar facturas de acuerdos en Field Service con facturas de servicios en Finance and Operations
                               href: ../../supply-chain/sales-marketing/field-service-invoice.md
-                            - name: Sincronizar transferencias y ajustes de inventario de Field Service a Finance and Operations
+                            - name: Sincronizar transferencias y ajustes de inventario desde Field Service con Finance and Operations
                               href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
                             - name: Sincronizar información de nivel de inventario de Finance and Operations a Field Service
                               href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
@@ -200,7 +212,7 @@
                               href: ../../supply-chain/sales-marketing/synchronize-project-list.md
                             - name: Sincronizar almacenes de Finance and Operations a Field Service
                               href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
-                            - name: Sincronizar pedidos de trabajo con proyecto de Field Service a Finance and Operations
+                            - name: Sincronizar pedidos de trabajo con proyectos de a Field Service a Finance and Operations
                               href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
                         - name: Configurar la integración de Project Service Automation
                           items:
@@ -912,7 +924,7 @@
                   href: gdpr/gdpr-extend-person-search-report.md
                 - name: Administrar el acceso a datos confidenciales
                   href: gdpr/gdpr-auditing-sensitive-data.md
-                - name: Responder a solicitudes de datos personales con Talent
+                - name: Responder a solicitudes de datos personales con Human Resources
                   href: gdpr/respond-dsr-request-talent.md
                 - name: Responder a solicitudes de datos personales en AX 2012
                   href: gdpr/gdpr-ax2012.md
@@ -1256,23 +1268,23 @@
                   href: lcs-solutions/separate-localization-models.md
                 - name: Enviar alertas reglamentarias
                   href: lcs-solutions/submit-localization-alerts.md
-        - name: Compatibilidad
+        - name: Soporte
           items:
-            - name: Obtener soporte técnico para Finance and Operations y Lifecycle Services
+            - name: Obtener soporte para Finance and Operations y Lifecycle Services
               href: lifecycle-services/lcs-support.md
             - name: Visión general del soporte técnico de Dynamics 365
               href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
-            - name: Obtener soporte técnico para Finance and Operations operado por 21Vianet en China
+            - name: Obtener soporte para Finance and Operations operado por 21Vianet en China
               href: lifecycle-services/21vianet-support.md
             - name: Enviar solicitudes al equipo de ingeniería de servicios de Dynamics
               href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
-            - name: Configurar el soporte técnico para Finance and Operations
+            - name: Configurar soporte técnico para Finance and Operations
               href: lifecycle-services/support-experience.md
             - name: Preguntas frecuentes sobre el plazo del mantenimiento planificado
               href: lifecycle-services/planned-maintenance-window-faq.md
             - name: Operaciones en la nube y mantenimiento
               href: lifecycle-services/cloud-operations-servicing.md
-            - name: Gestionar las experiencias de compatibilidad con Finance and Operations
+            - name: Administrar experiencias de soporte de Finance and Operations
               href: lifecycle-services/cloud-powered-support-lcs.md
         - name: Administración del sistema
           items:
@@ -1348,7 +1360,7 @@
               href: migration-upgrade/upgrade-home-page.md
             - name: Actualizar desde AX 2012
               items:
-                - name: Actualizar de AX 2012 a Finance and Operations
+                - name: Actualizar desde AX 2012 a Finance and Operations
                   href: migration-upgrade/upgrade-overview-2012.md
                 - name: 'Actualización de AX 2012: planificar con la herramienta de analizador de actualización'
                   href: migration-upgrade/upgrade-analyzer-tool.md
@@ -1672,5 +1684,7 @@
       href: ../../supply-chain/index.md
     - name: Dynamics 365 Finance
       href: ../../finance/index.md
+    - name: Dynamics 365 Commerce
+      href: ../../commerce/index.md
     - name: Dynamics 365 Retail
-      href: ../../retail/index.md
+      href: ../../commerce/index.md
