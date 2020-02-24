@@ -3,7 +3,7 @@ title: Configuración de cuentas de proveedor
 description: Este tema describe los tipos de información que debe especificar al crear una nueva cuenta de proveedor.
 author: mkirknel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5ab1f10f0874df36d1227e39f2d2146e85de41e
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 63843381207fbe6cb72ac1b5533eda754b1ba55b
+ms.sourcegitcommit: 5457cbec3399d8ed9f87c3a9dc586173b5616c11
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249410"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3012454"
 ---
 # <a name="set-up-vendor-accounts"></a>Configuración de cuentas de proveedor
 
@@ -88,7 +88,7 @@ Puede colocar un proveedor en espera para diversos tipos de transacciones. Está
 -   **Factura**: no se puede registrar ninguna factura para el proveedor.
 -   **Todos**: el proveedor está en espera para todos los tipos de transacción. Estos tipos de transacción incluyen solicitudes de compra, facturas y pagos.
 -   **Pago**: no se pueden generar pagos para el proveedor.
--   **Pedido**: solo se puede crear una solicitud de compra. No se pueden crear otras transacciones.
+-   **Pedido**: las solicitudes de compra no se pueden crear para el proveedor y las líneas de solicitud ya creadas antes de que el proveedor se pusiera en espera no se pueden convertir en un pedido de compra. Las líneas de solicitud para el proveedor se cancelarán si su directiva está establecida para crear pedidos de compra automáticamente.
 -   **Nunca**: el proveedor nunca se pone en espera por inactividad.
 
 Cuando coloca un proveedor en espera, también puede especificar un motivo y una fecha en que finalizará el estado en espera. Si no especifica una fecha final, el estado en espera del proveedor dura de forma indefinida.

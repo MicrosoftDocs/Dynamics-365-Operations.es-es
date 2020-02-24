@@ -3,7 +3,7 @@ title: Optar por usar clasificaciones y revisiones de usuario
 description: Este tema explica cómo optar por usar clasificaciones y revisiones en su sitio de Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 01/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,16 +18,15 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 10e3c33af232fa46df09a103b2e73eae09a909eb
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: eda7fbaeea8d3c1a07f7b43cafe44886d149a211
+ms.sourcegitcommit: 1e6c8163da5818196769eb278afb3a2335d0cbe3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697989"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3027274"
 ---
 # <a name="opt-in-to-use-ratings-and-reviews"></a>Optar por usar clasificaciones y revisiones de usuario
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 Este tema explica cómo optar por usar clasificaciones y revisiones en su sitio de Microsoft Dynamics 365 Commerce.
@@ -36,7 +35,7 @@ Este tema explica cómo optar por usar clasificaciones y revisiones en su sitio 
 
 La solución de clasificaciones y revisiones es una solución omnicanal que puede hacer que esté disponible en Dynamics 365 Commerce mediante Microsoft Dynamics Lifecycle Services (LCS). LCS es un portal de administración que los minoristas usan para administrar sus entornos del aprovisionamiento a la retirada.
 
-Si desea usar la solución de clasificaciones y revisiones en su sitio web de Commerce, primero debe optar por usarla.
+Si desea utilizar la solución de clasificaciones y revisiones en su sitio web de Commerce, debe optar por las clasificaciones y revisiones durante la implementación de su sitio de comercio electrónico en Dynamics 365 Commerce.
 
 ## <a name="opt-in-to-use-ratings-and-reviews"></a>Optar por usar clasificaciones y revisiones de usuario
 
@@ -51,6 +50,9 @@ Para optar por usar las clasificaciones y revisiones en su sitio, siga estos pas
 
 1. Complete el proceso de inicialización de comercio electrónico.
 
+> [!NOTE] 
+> Si eres un cliente de Dynamics 365 Commerce existente que ya ha implementado un sitio de comercio electrónico sin haber optado por participar en clasificaciones y revisiones, y ahora desea usar las clasificaciones y revisiones del paquete de Dynamics 365 Commerce, envíe una solicitud de servicio. Para obtener información acerca de cómo enviar una solicitud de servicio, consulte [Enviar proceso de solicitudes de servicio](../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/commerce/toc.json). 
+
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Visión general de clasificaciones y revisiones](ratings-reviews-overview.md)
@@ -60,3 +62,5 @@ Para optar por usar las clasificaciones y revisiones en su sitio, siga estos pas
 [Configurar clasificaciones y revisiones](configure-ratings-reviews.md)
 
 [Sincronizar clasificaciones de productos en Dynamics 365 Retail](sync-product-ratings.md)
+
+

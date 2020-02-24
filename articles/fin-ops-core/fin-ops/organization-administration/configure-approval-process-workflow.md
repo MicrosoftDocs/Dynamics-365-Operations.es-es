@@ -3,7 +3,7 @@ title: Configurar los procesos de aprobación en un flujo de trabajo
 description: Use el siguiente procedimiento para configurar las propiedades del proceso de aprobación.
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d4032d5e56b9dd014ec0472abfc1b2ad4a15ff1d
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 1f58e227542b1e5ca1235748d14e71bddac826ee
+ms.sourcegitcommit: 759325234a763e14071348a6f5399999a92f8264
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811390"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "2983773"
 ---
 # <a name="configure-approval-processes-in-a-workflow"></a>Configurar los procesos de aprobación en un flujo de trabajo
 
@@ -138,11 +138,12 @@ Puede enviar notificaciones cuando un documento se ha aprobado, rechazado, deleg
 
 ## <a name="specify-a-final-approver"></a>Especificación de un aprobador final
 
-Es posible que desee designar un aprobador final que actúe en las situaciones en las que el aprobador sea la persona que solicitó la aprobación del documento. Para especificar un aprobador final, siga estos pasos.
+Puede designar un aprobador final para escenarios en los que el aprobador es la persona que envió el documento para su aprobación y se está utilizando la "anulación de la aprobación del remitente". Para especificar un aprobador final, siga estos pasos.
 
-1. En el panel izquiero, haga clic en **Configuración avanzada**.
-2. Seleccione la casilla de verificación **Usar aprobador final**.
-3. En la lista, seleccione el usuario que actuará como aprobador final.
+1. En el editor de flujo de trabajo, haga clic con el botón secundario en el elemento de aprobación y, a continuación, seleccione **Propiedades** para abrir el formulario **Propiedades**.
+2. En el panel izquiero, haga clic en **Configuración avanzada**.
+3. Seleccione la casilla de verificación **Usar aprobador final**.
+4. En la lista, seleccione un usuario como aprobador final.
 
 ## <a name="set-a-time-limit"></a>Definición de un límite de tiempo
 

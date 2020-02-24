@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db9caaa7f425133eda7a5f225b39ca52e11e0716
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: debf66029d6efa42fe6d85eadb3866aadb312a97
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835600"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025837"
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>Búsqueda de precios y descuentos aplicables
 
@@ -49,7 +49,7 @@ Este procedimiento muestra cómo encontrar el precio y/o el descuento para un pr
 10. Cierre la página.
 
 ## <a name="find-the-applicable-discount"></a>Búsqueda del descuento aplicable
-    * Asegúrese de que el campo Cuenta de cliente contiene el número de cliente US-001.    
+Asegúrese de que el campo Cuenta de cliente contiene el número de cliente US-001.    
 1. En el campo Código de artículo, escriba 'T0012'.
     * Asegúrese de que el campo Cantidad se haya definido en 1.  
     * Los siguientes detalles de precios mostrados para el producto T0012 proceden de uno o varios acuerdos comerciales: el precio unitario es de 1.000 CAD, y el porcentaje de descuento es 5.  

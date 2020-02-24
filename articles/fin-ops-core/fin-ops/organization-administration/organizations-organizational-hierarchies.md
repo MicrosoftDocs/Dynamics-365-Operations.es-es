@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c28c9e8c2573bcd82434f88daa8f9cadc946209
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: fc9064f0386fe7c0f4093fc30587be4baa259eb0
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812395"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003688"
 ---
 # <a name="organizations-and-organizational-hierarchies-overview"></a>Visión general de las organizaciones y las jerarquías organizativas
 
@@ -47,7 +47,7 @@ Una empresa en un tipo de entidad jurídica. Actualmente, las empresas son el ú
 
 Una unidad operativa es una organización que se usa para dividir el control de los recursos económicos y los procesos operativos de un negocio. Las personas de una unidad operativa tienen el deber de optimizar el uso de recursos escasos, mejorar los procesos y responder de su rendimiento.
 
-Los tipos de unidades operativas se incluyen los centros de coste, las unidades de negocio, los flujos de valor, los departamentos y los canales comerciales. En la siguiente tabla se proporciona más información sobre cada tipo de unidad operativa.
+Los tipos de unidades operativas se incluyen los centros de coste, las unidades de negocio, los flujos de valor, los departamentos y los canales de Commerce. En la siguiente tabla se proporciona más información sobre cada tipo de unidad operativa.
 
 | Tipo de unidad operativa | Descripción | Propósito |
 |---------------------|-------------|---------|
@@ -55,7 +55,7 @@ Los tipos de unidades operativas se incluyen los centros de coste, las unidades 
 | Unidad de negocio       | Unidad operativa semiautónoma que se crea para cumplir objetivos empresariales estratégicos. | Se usa para la notificación financiera basada en industrias o líneas de productos que la organización produce independientemente de la entidades jurídicas. |
 | Flujo de valor        | Unidad operativa que controla uno o más flujos de producción. | Se usa comúnmente en la producción ajustada para controlar las actividades y flujos requeridos para suministrar un producto o servicio a los consumidores. |
 | Departamento          | Una unidad operativa que representa una categoría o parte funcional de una organización y que realiza una tarea determinada, como las ventas o la contabilidad. | Se usa para informar sobre las áreas funcionales. Un departamento puede tener responsabilidad de pérdidas y ganancias y puede estar compuesto de un grupos de centros de coste. |
-| Canal comercial      | Una unidad operativa que representa una tienda física, una tienda en línea o un mercado en línea. | Se usa para la administración y el control operativo de una o varias tiendas dentro o a través de entidades jurídicas. |
+| Canal de Commerce      | Una unidad operativa que representa una tienda física, una tienda en línea o un mercado en línea. | Se usa para la administración y el control operativo de una o varias tiendas dentro o a través de entidades jurídicas. |
 
 ### <a name="teams"></a>Equipos
 

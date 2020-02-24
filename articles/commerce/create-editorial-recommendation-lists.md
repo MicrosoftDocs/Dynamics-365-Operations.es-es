@@ -19,27 +19,26 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6d075635b7b986cc854550d15f7e941a9ea9cf72
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 46fbd2d8c1235a6cb22c9341bcc21ee3754c8ede
+ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770422"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024942"
 ---
 # <a name="create-curated-product-recommendation-lists"></a>Crear listas mantenidas de recomendaciones de producto
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 Este tema explica de qué manera los distribuidores pueden crear y administrar listas manuales de productos para los clientes de Microsoft Dynamics 365 Commerce.
 
 Las listas mantenidas son colecciones de contenido individual creadas y mantenidas por las personas.  
 
-## <a name="create-a-new-list"></a>Crear una línea nueva
+## <a name="create-a-new-list"></a>Crear una lista nueva
 
 Para crear una lista de recomendaciones de productos mantenida, siga estos pasos.
 
-1. Vaya a **Retail** &gt; **Recomendaciones de producto** &gt; **Listas de recomendaciones**.
+1. Vaya a **Retail y Commerce &gt; Recomendaciones de producto &gt; Listas de recomendaciones**.
 1. Seleccione **Nuevo**.
 1. En el campo **Id. de lista**, escriba un valor.
 1. En el campo **Nombre de la lista**, escriba un valor.
@@ -60,3 +59,5 @@ Para crear una lista de recomendaciones de productos mantenida, siga estos pasos
 [Habilitar recomendaciones de producto](enable-product-recommendations.md)
 
 [Agregar listas de recomendaciones a páginas](add-reco-list-to-page.md)
+
+[Visión general del módulo de colección de productos](product-collection-module-overview.md)

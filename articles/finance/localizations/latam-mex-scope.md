@@ -16,12 +16,12 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e38b6a67795aa88aa7e8007808db1045c2774a22
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: c3b13794a1afac67a17c91f6b309a7902ac7df6d
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552346"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003769"
 ---
 # <a name="scope-of-mexican-localization"></a>Ámbito de localización mexicana
 
@@ -595,7 +595,7 @@ Las siguientes características y funciones están fuera de ámbito en las local
 
         - Sites Services para Microsoft Dynamics ERP
         - Servicios de comercio para Microsoft Dynamics ERP
-        - Retail Server y POS modernos
+        - Modern POS y RCommerce Scale Unit
 
     - **Minoristas**
     - **Características de impresora fiscal**

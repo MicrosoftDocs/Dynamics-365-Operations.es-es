@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cb9c850aa045b72137b8a1d3c8cdae51cf2fd7b6
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: ec17fc31df1daed943f9bc3f4cbe25a683c8ac7e
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843250"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026323"
 ---
 # <a name="reconcile-freight-manually"></a>Conciliar el flete manualmente
 
@@ -37,7 +37,7 @@ Este procedimiento muestra cómo conciliar el flete manualmente. Esto lo hace no
 3. En la lista, seleccione el flete que tiene el identificador de carga 00006.
 
 ## <a name="create-a-carrier-invoice"></a>Cree una factura de transportista
-    * Si se concilia el flete manualmente y no recibe facturas de transportista automáticamente, puede crear una factura basada en el albarán de flete.  
+Si se concilia el flete manualmente y no recibe facturas de transportista automáticamente, puede crear una factura basada en el albarán de flete.  
 1. Haga clic en Información relacionada.
 2. Haga clic en Detalles del albarán de flete.
 3. Haga clic en Generar factura de albarán de flete.
@@ -45,7 +45,7 @@ Este procedimiento muestra cómo conciliar el flete manualmente. Esto lo hace no
 5. Haga clic en Aceptar
 
 ## <a name="reconcile-the-invoice"></a>Concilie la factura
-    * La conciliación de una factura de transportista y un albarán de flete se realiza línea por línea.  
+La conciliación de una factura de transportista y un albarán de flete se realiza línea por línea.  
 1. Haga clic en Conciliar los albaranes de flete y las facturas.
 2. Expanda la sección Detalles de factura.
 3. Expanda la sección Detalles del albarán de flete no conciliado.

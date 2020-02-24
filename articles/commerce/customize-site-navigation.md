@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 642cb5c145dec68631eb9ab27d926ba8ab75c59b
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: c2235510c7ef386d66fe3b137f8e791d14706379
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914919"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3001838"
 ---
 # <a name="customize-site-navigation"></a>Personalizar navegación del sitio
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Este tema describe cómo crear una jerarquía de navegación en línea personalizada para organizar sus productos para examinar en su sitio de Microsoft Dynamics 365 Commerce.
@@ -35,11 +35,11 @@ Este tema describe cómo crear una jerarquía de navegación en línea personali
 
 Los escaparates en línea normalmente permiten a los clientes detectan y examinar productos navegando por categorías de productos. Esta capacidad es suele proporcionar mediante fichas en la parte superior de la página o por una barra de navegación a la izquierda. En Dynamics 365 Commerce, puede crear y gestionar la estructura jerárquica de su navegación de categorías y los productos que se incluyen en las diversas categorías.
 
-## <a name="create-a-retail-channel-navigation-hierarchy"></a>Crear una jerarquía de navegación de canales comerciales
+## <a name="create-a-channel-navigation-hierarchy"></a>Crear una jerarquía de navegación de canales
 
-Para crear una jerarquía de navegación de canales comerciales, siga estos pasos.
+Para crear una jerarquía de navegación de canales, siga estos pasos.
 
-1. Vaya a **Venta minorista y comercio \> Productos y categorías \> Administración de categorías y productos**.
+1. Vaya a **Retail y Commerce \> Productos y categorías \> Administración de categorías y productos**.
 1. Seleccione **Jerarquías de categorías** y después **Nuevo**.
 1. Asigne un nombre a la jerarquía.
 
@@ -57,28 +57,28 @@ De manera predeterminada, las categorías que defina aparecerán en orden alfab�
 
 ## <a name="assign-a-category-hierarchy-type"></a>Asignación de un tipo de jerarquía de categoría
 
-1. Vaya a **Venta minorista y comercio \> Productos y categorías \> Administración de categorías y productos**.
+1. Vaya a **Retail y Commerce \> Productos y categorías \> Administración de categorías y productos**.
 1. Seleccione **Jerarquías de categorías**.
 1. En el panel de acciones, en la pestaña **Jerarquía de categoría** del grupo **Configurar**, seleccione **Asociar tipo de jerarquía**.
 1. Seleccione **Nuevo**.
-1. En el campo **Tipo de jerarquía de categorías**, seleccione **Jerarquía de navegación de canales comerciales**.
+1. En el campo **Tipo de jerarquía de categorías**, seleccione **Jerarquía de navegación de canales**.
 1. En el campo **Jerarquía de categoría**, seleccione la jerarquía de navegación de canales que creó anteriormente.
 
 ## <a name="publish-new-or-updated-navigation-hierarchies"></a>Publicar jerarquías de navegación nuevas o actualizadas
 
 Para poner la jerarquía de navegación a disposición de su escaparate en línea, siga estos pasos.
 
-1. Vaya a **Venta al por menor \> Configuración de canal \> Categorías de canal y atributos de producto**.
+1. Vaya a **Retail y Commerce \> Configuración de canal \> Categorías de canal y atributos de producto**.
 1. En el árbol de la izquierda, seleccione su tienda en línea.
 1. Seleccione **Publicar actualizaciones de canal**.
-1. Vaya a **Retail \> TI de Retail \> Programación de distribución**.
+1. Vaya a **Retail y Commerce \> TI de Retail y Commerce \> Programación de distribución**.
 1. En la lista, busque y seleccione **Trabajo 1040**.
 1. Seleccione **Ejecutar ahora**.
 1. Repita los pasos 5 y 6 para los trabajos 1070 y 1150.
 
 ## <a name="show-categories-on-your-site"></a>Mostrar categorías en su sitio
 
-Para mostrar su jerarquía de categoría en su escaparate en línea, debe agregar el módulo de menú de navegación en la ubicación adecuada en una plantilla o fragmento. El módulo de menú de navegación mostrará a continuación la jerarquía de navegación, siempre que haya publicado la jerarquía de navegación comercial para el canal al que está enlazado el sitio.
+Para mostrar su jerarquía de categoría en su escaparate en línea, debe agregar el módulo de menú de navegación en la ubicación adecuada en una plantilla o fragmento. El módulo de menú de navegación mostrará a continuación la jerarquía de navegación, siempre que haya publicado la jerarquía de navegación para el canal al que está enlazado el sitio.
 
 > [!NOTE]
 > El módulo de menú de navegación que se incluye en el kit de inicio de la tienda permite a los usuarios navegar solo a las categorías que no tienen subcategorías. Si sus clientes deben poder navegar a las categorías con subcategorías, debe personalizar el módulo del menú de navegación.

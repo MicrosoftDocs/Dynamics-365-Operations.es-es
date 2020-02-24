@@ -17,30 +17,30 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 111bcaba971b6223f670176135574633d2f1c5ec
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: fa3029387d5f1ca605fc9559c4272c8dfebcddaf
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914640"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3001424"
 ---
 # <a name="add-languages-to-your-site"></a>Agregar idiomas al sitio
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Este tema explica cómo agregar compatibilidad para idiomas adicionales a un sitio de Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Visión general
 
-Puede localizar su página web en cualquier idioma que admite Dynamics 365 Commerce. (La lista de idiomas admitidos aparece más adelante en este tema.) Para agregar un idioma en su sitio web, primero debe agregarlo a una tienda en línea que esté enlazada a su sitio.
+Puede localizar su sitio web en cualquier idioma admitido por Commerce. (La lista de idiomas admitidos aparece más adelante en este tema.) Para agregar un idioma en su sitio web, primero debe agregarlo a una tienda en línea que esté enlazada a su sitio.
 
 ## <a name="add-a-language-to-an-online-store"></a>Agregar un idioma a una tienda en línea
 
 Para agregar un idioma a una tienda en línea, siga estos pasos.
 
-1. Abre el entorno de Dynamics 365 Retail para su sitio.
-1. Vaya a **Retail \> Canales \> Tiendas en línea** para tener acceso a la lista de tiendas en línea configuradas para su entorno. También puede escribir **tiendas en línea** como término de búsqueda.
+1. Abre el entorno de Dynamics 365 Commerce para su sitio.
+1. Vaya a **Retail y Commerce \> Canales \> Tiendas en línea** para tener acceso a la lista de tiendas en línea configuradas para su entorno. También puede escribir **tiendas en línea** como término de búsqueda.
 1. Seleccione la tienda en línea para la que agregar un idioma.
 1. En la ficha desplegable **Idiomas**, seleccione **Agregar**.
 1. En el campo **Idioma**, seleccione el idioma que desea agregar.
@@ -167,7 +167,7 @@ El idioma que ha agregado estará ahora disponible de modo que pueda configurar 
 
 [Seleccionar un tema de sitio](select-site-theme.md)
 
-[Trabajar con archivos de invalidaciones CSS](css-override-files.md) 
+[Trabajar con archivos de invalidaciones CSS](css-override-files.md)
 
 [Agregar un icono de favoritos](add-favicon.md)
 

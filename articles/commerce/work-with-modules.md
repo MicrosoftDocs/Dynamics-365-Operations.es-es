@@ -3,7 +3,7 @@ title: Trabajar con módulos
 description: Este tema describe cómo y cuándo usar módulos en Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 01/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,18 +17,18 @@ ms.search.industry: ''
 ms.author: phinneyridge
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3c4161e7a40cdbbb40292a6ce9acab58347460bd
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 769d6754fa944830b989d657e0dad9cc42212932
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914803"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025888"
 ---
 # <a name="work-with-modules"></a>Trabajar con módulos
 
 Este tema describe cómo y cuándo usar módulos en Microsoft Dynamics 365 Commerce.
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 ## <a name="overview"></a>Visión general
@@ -99,12 +99,10 @@ Los siguientes procedimientos describen cómo configurar contenido y módulos de
 
 Para configurar un módulo de contenido en una página, siga estos pasos.
 
-1. En el panel de esquema de la izquierda, seleccione un tipo de módulo de contenido (por ejemplo, **Característica**, **Elemento principal** o **Banner**).
-1. En el panel de propiedades de la derecha, expanda los controles anidados seleccionando los encabezados y establezca los valores de control necesarios.
-1. Si el panel de propiedades tiene una sección **Configuración de datos**, selecciónela para expandirla. De lo contrario, vaya al paso 5.
-1. Si hay un botón **Agregar origen de datos**, selecciónelo y seleccione los elementos de contenido que desea agregar.
-1. Especificar valores para controles de módulos requeridos o deseados.
-1. Seleccione **Guardar**.
+1. En el panel de esquema de la izquierda, expanda el árbol y seleccione cualquier módulo de contenido (por ejemplo, **Característica**, **Elemento principal** o **Banner**).
+1. En el panel de propiedades de la derecha, busque el contenido del módulo y los controles de configuración.
+1. Introduzca las propiedades para cualquier control de módulo deseado.
+1. Seleccione **Guardar** en la barra de comandos. Esto también actualizará el lienzo de vista previa.
 
 ### <a name="configure-a-container-module"></a>Configurar un módulo de contenedor
 
@@ -112,7 +110,7 @@ Para configurar un módulo de contenedor en una página, siga estos pasos.
 
 1. Seleccione un módulo de contenedor en su página (por ejemplo, un módulo de contenido de fluido o carrusel).
 1. En el panel de propiedades de la derecha, expanda los controles anidados seleccionando los encabezados y establezca los valores de control necesarios.
-1. En el panel de esquema de la izquierda, seleccione el botón de puntos suspensivos que se encuentra junto al nombre del contenedor o de cualquier franja que se encuentre dentro del contenedor y, a continuación, seleccione **Agregar módulo**. A continuación, agregue módulos secundarios al contenedor seleccionado. Para obtener más información, consulte el procedimiento [Agregar un módulo](#add-a-module) descrito anteriormente en este tema.
+1. En el panel de esquema de la izquierda, seleccione el botón de puntos suspensivos que se encuentra junto al nombre del contenedor o de cualquier franja que se encuentre dentro del contenedor y, a continuación, seleccione **Agregar módulo**. A continuación, agregue módulos secundarios al contenedor seleccionado. Para obtener más información, consulte la sección [Trabajar con módulos](#add-a-module) descrita anteriormente en este tema.
 1. Si existen varios módulos secundarios como elementos del mismo nivel en un contenedor principal, puede cambiar su orden de visualización en el contenedor principal. Seleccione el botón de puntos suspensivos para un módulo y utilice los botones de flecha arriba y flecha abajo.
 
 ## <a name="additional-resources"></a>Recursos adicionales
@@ -126,8 +124,6 @@ Para configurar un módulo de contenedor en una página, siga estos pasos.
 [Trabajar con fragmentos](work-with-fragments.md)
 
 [Agregar un módulo de contenedor a una página](add-container-module.md)
-
-[Agregar módulos de colocación de contenido a una página](add-content-placement-modules.md)
 
 [Trabajar con grupos de publicación](publish-groups.md)
 

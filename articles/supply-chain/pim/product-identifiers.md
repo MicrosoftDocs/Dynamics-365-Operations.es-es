@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 3199bccca19ab8ee4d7503e4a8443fcb05acbb1b
-ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
+ms.openlocfilehash: 230cb7c2fe8f3c1972766a25414bb33a78b37a42
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2934895"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3004028"
 ---
 # <a name="product-identifiers"></a>Identificadores de producto 
 
@@ -88,7 +88,7 @@ En la página **Descripciones externas de artículos**, puede asociar el número
 | Descripción | El nombre que el cliente asocia al artículo | El nombre que el proveedor asocia al artículo |
 | Texto de artículo externo | Descripción de artículo del cliente. | Descripción de artículo del proveedor. |
 
-Si muchos clientes o proveedores utilizan los mismos números de artículo (como en el caso de una asociación de compras o de un grupo minorista, por ejemplo), puede crear grupos de cliente o de proveedores para simplificar el mantenimiento de la información de producto externa.
+Si muchos clientes o proveedores utilizan los mismos números de artículo (como en el caso de una asociación de compras o de un grupo de Commerce, por ejemplo), puede crear grupos de cliente o de proveedores para simplificar el mantenimiento de la información de producto externa.
 
 - Para los grupos de clientes, vaya a **Ventas** &gt; **Configuración** &gt; **Artículos** &gt; **Descripción externa de artículos** para crear y mantener los grupos y números de artículos relacionados. Para asociar clientes a un grupo, vaya a **clientes** &gt; **Clientes** &gt; **Todos los clientes** y, a continuación, en la ficha desplegable **Valores predeterminados del pedido de ventas**, especifique un valor en el campo **Artículo - Grupo de clientes**.
 - Para los grupos de proveedores, vaya a **Adquisición y abastecimiento** &gt; **Configuración** &gt; **Grupo de descripción externa de artículos** para crear y mantener los grupos y números de artículos relacionados. Para asociar proveedores a un grupo, vaya a **Proveedores** &gt; **Proveedores** &gt; **Todos los proveedores** y, a continuación, en la ficha desplegable **Valores predeterminados del pedido de compra**, especifique un valor en el campo **Artículo - Grupo de proveedores**.

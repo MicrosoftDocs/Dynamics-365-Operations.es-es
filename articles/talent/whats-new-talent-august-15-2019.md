@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: cfb122cd01fcaae331f61327966916388d70e923
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: cfefc6ea654a3012137a1135db5696da39a19048
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897842"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006018"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-august-13-2019"></a>Novedades y cambios en Dynamics 365 Talent (13 de agosto de 2019)
 
@@ -54,7 +54,7 @@ Una nueva opción permitirá a los directores ver el rendimiento tanto de los in
 
 ### <a name="platform-update-29-for-finance-and-operations"></a>Platform update 29 para Finance and Operations
 
-Para obtener más información acerca de la Platform update 29 para Finance and Operations, consulte [Características de vista previa en Dynamics 365 Finance and Operations platform update 29 (octubre de 2019)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
+Para obtener más información acerca de Platform update 29 para Finance and Operations, consulte [Características de vista previa en la platform update 29 de Dynamics 365 Finance and Operations (octubre de 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
 
 ### <a name="streamlined-employee-entry-and-navigation"></a>Entrada y navegación de empleados optimizadas
 

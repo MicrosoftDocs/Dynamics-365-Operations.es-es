@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 96937d48e0d1003adbc5f7fedc89b2686ace01cd
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 311042caf6a391a06c7e2d8c4c2c2f6e1f855437
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2899044"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006296"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-july-30-2019"></a>Novedades o cambios en Dynamics 365 Talent (30 de julio de 2019)
 
@@ -41,7 +41,7 @@ Los cambios que se describen en esta sección se aplican a la compilación núme
 
 ### <a name="region-support-for-canada-and-southeast-asia"></a>Compatibilidad de la región para Canadá y el Sudeste asiático
 
-Estamos encantados de anunciar que las regiones de Canadá y del Sudeste asiático estarán disponibles para Talent el 1 de agosto de 2019. Con este cambio, puede crear entornos en las regiones canadienses y asiática, y todos los datos de Talent se mantendrán solo dentro de estas ubicaciones. Puede crear un entorno en estas nuevas regiones seleccionando la ubicación en el diálogo Nuevo entorno y usando dicho entorno para aprovisionar Talent en LCS como se describe en [Aprovisionar Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).
+Estamos encantados de anunciar que las regiones de Canadá y del Sudeste asiático estarán disponibles para Talent el 1 de agosto de 2019. Con este cambio, puede crear entornos en las regiones canadienses y asiática, y todos los datos de Talent se mantendrán solo dentro de estas ubicaciones. Puede crear un entorno en estas nuevas regiones seleccionando la ubicación en el diálogo Nuevo entorno y usando dicho entorno para aprovisionar Talent en LCS como se describe en [Aprovisionar Talent](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent).
 
 La migración de datos de proyectos existentes de otras regiones a las regiones canadienses y asiática no se admite. Solo los nuevos proyectos pueden aprovisionarse en estas nuevas regiones compatibles.
 

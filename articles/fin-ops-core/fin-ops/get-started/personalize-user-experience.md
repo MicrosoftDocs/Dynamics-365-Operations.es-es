@@ -3,7 +3,7 @@ title: Personalizar la experiencia del usuario
 description: Este tema explica cómo puede personalizar la aplicación.
 author: jasongre
 manager: AnnBe
-ms.date: 01/07/2020
+ms.date: 02/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ac8f154fdf892553f69d135727589bf13efd6076
-ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
+ms.openlocfilehash: c745248a0c7e54b58b1d3e491f3bbb067ec0e2c2
+ms.sourcegitcommit: d8a2301eda0e5d0a6244ebbbe4459ab6caa88a95
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "2935474"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "3029371"
 ---
 # <a name="personalize-the-user-experience"></a>Personalizar la experiencia del usuario
 
@@ -59,7 +59,8 @@ Cuando se utiliza la aplicación, muchas de las selecciones se guardan para que 
 
 Las personalizaciones implícitas son personalizaciones que se realizan simplemente interactuando con controles que guardan su estado visible actual.
 
-- **Columnas de cuadrícula:** - Puede ajustar el ancho de una columna en una cuadrícula seleccionando la barra de tamaño de la izquierda o la derecha del encabezado de la columna y desplazándola hacia la izquierda o hacia la derecha hasta que la columna tenga la anchura deseada. La aplicación almacena el ancho que establece para una columna. A continuación, cambia el tamaño de la columna según dicho ancho cada vez que abra la página que incluye la cuadrícula.
+- **Anchos de columnas de cuadrícula**: puede ajustar el ancho de una columna en una cuadrícula seleccionando la barra de tamaño de la izquierda o la derecha del encabezado de la columna y desplazándola hacia la izquierda o hacia la derecha hasta que la columna tenga el ancho que desee. La aplicación almacena el ancho que establece para una columna. A continuación, cambia el tamaño de la columna según dicho ancho cada vez que abra la página que incluye la cuadrícula.
+- **Totales de columna de cuadrícula**: (solo disponible con el nuevo control de cuadrícula habilitado.) Puede decidir si se debe mostrar o no un total en la parte inferior de cualquier columna numérica en una cuadrícula, así como si el pie de página de la cuadrícula es visible. La aplicación almacena estos datos para que estas preferencias se recuerden la próxima vez que abra la página. Consulte el tema [Capacidades de cuadrícula](grid-capabilities.md) para más información. 
 - **Fichas Desplegables**: algunas páginas tienen secciones extensibles llamadas *Fichas Desplegables*. La aplicación almacena información sobre las fichas desplegables que usted ha expandido y contraído. A continuación, cada vez que abra la página, las mismas fichas desplegables se ampliarán o contraerán en función de su última interacción con la página. En algunos casos, puede ayudar a mejorar el rendimiento del sistema contrayendo una ficha desplegable, porque la aplicación no tiene que recuperar información para dicha ficha desplegable hasta que se extienda. Como se explica más adelante este tema, también puede cambiar el orden de las fichas desplegables de una página.
 - **Cuadros informativos**: algunas páginas tienen un panel de **información relacionada** que muestra la información de solo lectura relacionada con el asunto actual de la página. Cada sección del panel **Información relacionada** se conoce como *cuadro informativo*. Puede ocultar o mostrar el panel **Información relacionada** y también puede ampliar o contraer cuadros informativos individuales. La aplicación almacena estas preferencias. A continuación, cada vez que abra a la página, se expandirán o contraerán el panel **información relacionada** y los cuadros informativos individuales, en función de su última interacción con la página. En algunos casos, puede ayudar a mejorar el rendimiento del sistema contrayendo un cuadro informativo, porque la aplicación no tiene que recuperar información para dichos cuadros informativos hasta que se extiendan.
 - **Paneles de acciones** – Un *Panel de acciones* aparece cerca de la parte superior de la mayoría de las páginas. El panel de acciones contiene botones para muchas de las acciones que puede realizar en la página actual. Estos botones se organizan a menudo en fichas. Puede "anclar" el panel de acciones abierto completo o puede contraerlo de forma predeterminada. A continuación, cada vez que abra la página, el panel de acciones se abrirá o contraerá en función de su última interacción con la página. Si ha anclado el panel de acciones abierto, aparecerá la última ficha utilizada.
@@ -95,7 +96,7 @@ La ventana de la propiedad puede incluir otras capacidades de personalización, 
 
 Si desea implementar varios cambios en una página o hacer cambios que no están disponibles con otros mecanismos (como reordenar elementos), puede utilizar la barra de herramientas **Personalización**. Para abrir la barra de herramientas **Personalización**, siga uno de estos pasos:
 
-- Seleccione **Personalizar este formulario** en la ventana de propiedades del artículo.
+- Seleccione **Personalizar esta página** en la ventana de propiedades del artículo.
 - En el panel de acciones de la página, seleccione **Personalizar esta página** en el grupo **Personalizar** en la ficha **Opciones**.
 - Seleccione el botón **Configuración** (el símbolo de engranaje) en la barra de navegación y, a continuación, seleccione **Personalizar**.
 
@@ -116,7 +117,8 @@ Las siguientes herramientas están disponibles en la barra de herramientas **Per
 - Use la herramienta **Omitir** para quitar un elemento de la secuencia del tabulador del teclado de la página. Al seleccionar el botón **Omitir** de la barra de herramientas, todos los elementos que se omiten se muestran en un contenedor sombreado. Puede agregar o quitar interactivamente campos de la secuencia de fichas.
 - Utilice la herramienta **Mostrar en encabezado** cuando desee que aparezca un campo en la sección de resumen de la ficha desplegable. Al seleccionar el botón **Mostrar en encabezado** en la barra de herramientas, todos los campos que se seleccionan como campos de resumen se muestran en un contenedor sombreado. Puede agregar interactivamente campos al resumen de ficha desplegable y quitar campos seleccionando los campos.
 - Elija la herramienta **Bloquear** para marcar un elemento como editable o no editable. Al seleccionar el botón **Bloquear** de la barra de herramientas, todos los elementos que no se pueden editar en ese momento se muestran en un contenedor sombreado. A continuación puede hacer que vuelvan a ser editables. Tenga en cuenta que algunos campos son necesarios y no se pueden convertir en no editables. Un símbolo de candado aparece junto a dichos campos.
-- Utilice el botón **Agregar una PowerApp** para insertar una aplicación que se creó usando Microsoft PowerApps en la página. Para obtener información detallada acerca de cómo insertar una aplicación de PowerApps en una página, consulte [Integrar aplicaciones PowerApps](embed-power-apps.md).
+- Utilice el botón **Agregar una aplicación desde Power Apps** para insertar una aplicación que se creó usando Microsoft Power Apps en la página. Para obtener información detallada acerca de cómo insertar una aplicación de Power Apps en una página, consulte [Integrar aplicaciones desde Power Apps](embed-power-apps.md). Esta opción solo está disponible cuando la característica [Vistas guardadas](saved-views.md) está deshabilitada.  
+- Utilice el botón **Agregar una aplicación** para insertar una aplicación, ya sea una creada desde Microsoft Power Apps o un tercero, en la página. Esta opción solo está disponible cuando la característica [Vistas guardadas](saved-views.md) está habilitada. 
 - Utilice la herramienta **Borrar** para restablecer la página a su valor predeterminado, estado instalado. Todas las personalizaciones en la página actual se desactivarán. No existen una acción de deshacer. Por lo tanto, use esta herramienta solo si está seguro que desea restablecer la página.
 - Use la herramienta **Importación** para cargar una personalización de un archivo que usted o otro usuario creó anteriormente. Al importar las personalizaciones para una página, puede seleccionar si deben agregarse o reemplazar a todas sus personalizaciones existentes en la página. No existen una acción de deshacer. Por lo tanto, tras importar personalizaciones, debe borrar manualmente o deshacer los cambios que no desee.
 - Use la herramienta **Exportar** para guardar las personalizaciones de la página en un archivo. Puede compartir sus personalizaciones con otros usuarios. Estos usuarios solo tienen que importar el archivo que contiene sus personalizaciones de la página.
@@ -152,7 +154,7 @@ El panel de información suele ser la primera página que verá al abrir la apli
 Para personalizar el panel de información, haga clic con el botón secundario en cualquier mosaico y, a continuación seleccione **Personalizar** para abrir la ventana de la propiedad del mosaico.
 
 - Si desea ocultar o cambiar el nombre del mosaico seleccionado, puede realizar ese cambio directamente en la ventana de la propiedad.
-- Si desea reordenar los mosaicos del espacio de trabajo, en la ventana de la propiedad, seleccione **Personalizar este formulario** para abrir la barra de herramienta **Personalización**. Podrá entonces usar la herramienta **Mover** para reorganizar los mosaicos tal y como desee.
+- Si desea reordenar los mosaicos del espacio de trabajo, en la ventana de la propiedad, seleccione **Personalizar esta página** para abrir la barra de herramientas **Personalización**. Podrá entonces usar la herramienta **Mover** para reorganizar los mosaicos tal y como desee.
 - Para agregar un nuevo mosaico del espacio de trabajo, en la ventana de la propiedad, seleccione **Agregar un espacio de trabajo**. Se creará un nuevo mosaico del espacio de trabajo en la parte inferior del panel de información. Puede cambiar el nombre de este nuevo mosaico de área de trabajo tal y como desee. También puede agregar listas, mosaicos y vínculos al área de trabajo tal y como se describe en la sección [Agregar listas, mosaicos o vínculos a las áreas de trabajo](#adding-a-tile-list-or-link-to-a-workspace) de este tema.
 
 ## <a name="administration-of-personalizations"></a>Administración de personalizaciones

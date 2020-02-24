@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b35d0cb606e1b17a0258ea3fcb6287988d83091c
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 7c7afed8e4620d5fe49ead47eb6c17d97d7492ad
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2698220"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002820"
 ---
 # <a name="search-engine-optimization-seo-considerations-for-your-site"></a>Consideraciones de optimización de motor de búsqueda (SEO) para su sitio
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Este tema trata las consideraciones de la optimización de motor de búsqueda (SEO) para su sitio desde el desarrollo hasta la producción.

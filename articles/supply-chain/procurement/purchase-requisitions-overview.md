@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1bfec4660d9e6b0898cf81e1f1fdd2e4c1fdcaef
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 0a51d443e40dbf948a06657293dcca77dc177896
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2815351"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003662"
 ---
 # <a name="purchase-requisition-overview"></a>Visión general de solicitud de compra
 
@@ -81,7 +81,7 @@ El estado general de una solicitud de compra lo determina el estado de las líne
 <li><strong>En revisión</strong>: se han enviado las líneas de la solicitud de compra para revisión. Una vez completado el proceso de flujo de trabajo para una línea de solicitud de compra, se mantiene en un estado <strong>En revisión</strong> hasta que se hayan revisado todas las líneas de solicitud de compra.</li>
 <li><strong>Rechazado</strong>: se ha rechazado una línea de la solicitud de compra. Las líneas de la solicitud de compra que se han rechazado se pueden modificar y volver a enviar.</li>
 </ul>
-Si reenvía una línea de solicitud de compra que se ha rechazado, el proceso de revisión se vuelve a iniciar para todas las líneas de solicitud de compra que todavía se estén revisando. <strong>Nota</strong>: puede recuperar una solicitud de compra que ya se ha enviado. Al recuperar una solicitud de compra, se recuperan todas las líneas de la solicitud de compra restantes. Las líneas de la solicitud de compra que se han recuperado se pueden eliminar.</td>
+Si reenvía una línea de solicitud de compra que se ha rechazado, el proceso de revisión se vuelve a iniciar para todas las líneas de solicitud de compra que todavía se estén revisando. </br><strong>Nota</strong>: puede recuperar una solicitud de compra que ya se ha enviado. Al recuperar una solicitud de compra, se recuperan todas las líneas de la solicitud de compra restantes. Las líneas de la solicitud de compra que se han recuperado se pueden eliminar.</td>
 </tr>
 <tr class="odd">
 <td>Rechazadas</td>
@@ -109,7 +109,7 @@ Si reenvía una línea de solicitud de compra que se ha rechazado, el proceso de
 <tr class="odd">
 <td>Cancelado</td>
 <td>Cancelado</td>
-<td>La solicitud de compra y todas las líneas de solicitud de compra se han cancelado. <strong>Nota:</strong> Si ya no necesita un artículo que se encuentra en una línea de solicitud de compra, debe cancelar la línea de solicitud de compra si se ha aprobado. Solo se pueden cancelar las líneas de las solicitudes de compra que se han aprobado. Si se están revisando las líneas de solicitud de compra, la solicitud de compra tendrá también el estado <strong>En revisión</strong>. En este caso, puede recuperar la solicitud de compra y eliminar la línea de solicitud de compra correspondiente.</td>
+<td>La solicitud de compra y todas las líneas de solicitud de compra se han cancelado.</br> <strong>Nota:</strong> Si ya no necesita un artículo que se encuentra en una línea de solicitud de compra, debe cancelar la línea de solicitud de compra si se ha aprobado. Solo se pueden cancelar las líneas de las solicitudes de compra que se han aprobado. Si se están revisando las líneas de solicitud de compra, la solicitud de compra tendrá también el estado <strong>En revisión</strong>. En este caso, puede recuperar la solicitud de compra y eliminar la línea de solicitud de compra correspondiente.</td>
 </tr>
 <tr class="even">
 <td>Cerrado</td>
@@ -156,7 +156,8 @@ En algunos casos, debe comenzar un proceso de solicitud de presupuesto para iden
 
 Puede poner una solicitud de compra en espera seleccionando la casilla **En espera** en la página **Detalles de la solicitud de compra**. El procesamiento de la solicitud de compra puede continuar solo después de eliminar la espera desactivando la casilla.  
 
-**Nota:** en eProcurement, la solicitud de presupuesto para su solicitud de compra puede permitir a los proveedores agregar líneas alternativas. En este caso, las alternativas se reflejarán en la solicitud de compra.
+> [!NOTE]
+> En eProcurement, la solicitud de presupuesto para su solicitud de compra puede permitir a los proveedores agregar líneas alternativas. En este caso, las alternativas se reflejarán en la solicitud de compra.
 
 ## <a name="demand-consolidation"></a>Consolidación de la demanda
 Al consolidar las líneas de solicitudes de compra de varias solicitudes de compra, puede aumentar su poder de negociación con sus proveedores para alcanzar un mejor precio, costes de envío y tramitación más bajos, así como menores costes generales.  
@@ -172,7 +173,8 @@ Una oportunidad de consolidación es un conjunto de líneas de solicitud de comp
 
 Después de agregar líneas de solicitud a una oportunidad de consolidación y realizar los cambios oportunos, puede crear un pedido de compra para las líneas de solicitud de compra consolidadas.  
 
-**Nota**: los cambios que realice en una línea de solicitud de compra en la página **Consolidación de solicitudes de compra** quedan reflejados en el pedido de compra que se cree. No obstante, en la solicitud de compra, se mantiene la línea sin cambiar para preservar el historial.  
+> [!NOTE]
+> Los cambios que realice en una línea de solicitud de compra en la página **Consolidación de solicitudes de compra** quedan reflejados en el pedido de compra que se cree. No obstante, en la solicitud de compra, se mantiene la línea sin cambiar para preservar el historial.  
 
 Para crear un pedido de compra para líneas de solicitud de compra que no sean aptas para la consolidación de la demanda o que no estén seleccionadas para una oportunidad de consolidación, las líneas deben procesarse manualmente.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f3ef8314c3b6122627de0a730e912c7ebcd99be
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ec7a2c5a2b2b7ef22fd3dcf7f7d3859e8e07ea5e
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568659"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003959"
 ---
 # <a name="configure-linked-products"></a>Configurar productos vinculados
 
@@ -30,7 +30,7 @@ Este procedimiento muestra la configuración de productos vinculados. Este proce
 
 1. Vaya a Gestión de información de productos > Productos > Productos emitidos.
 2. En la lista, busque y seleccione el registro deseado.
-3. En el panel de acciones, haga clic en Venta minorista.
+3. En el panel de acciones, haga clic en Retail y Commerce.
 4. Haga clic en Productos vinculados.
 5. Haga clic en Editar.
 6. En el campo Código de producto vinculado, haga clic en el botón desplegable para abrir la búsqueda.

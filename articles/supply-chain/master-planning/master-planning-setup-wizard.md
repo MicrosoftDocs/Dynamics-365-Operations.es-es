@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 8fbccce6e23c9bc965f66f761f4c1cab32224ef1
-ms.sourcegitcommit: fbd6d027ef3b50c056260e30e78066839efa3ddb
+ms.openlocfilehash: 9d7da31f2df31c7e5cbac73b3232233090ac369e
+ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "2635135"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3031076"
 ---
 # <a name="master-planning-setup-wizard"></a>Asistente de configuración de planificación maestra
 
@@ -32,9 +32,9 @@ ms.locfileid: "2635135"
 
 Este tema proporciona una guía para **Asistente de configuración de planificación maestra**. Explica cómo se calculan las sugerencias de parámetros y también proporciona ejemplos de cómo las distintas empresas configuran la planificación maestra, en función de as necesidades de su negocio.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3YnSB]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3YnSB]
 
-El vídeo [Asistencia de configuración de planificación maestra en Dynamics 365 Supply Chain Management](https://youtu.be/c-e6n-8rZb4) (aparece más arriba) está incluido en la [Lista de reproducción de Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponibles en YouTube.
+El vídeo [Asistencia de configuración de planificación maestra en Dynamics 365 Supply Chain Management](https://youtu.be/c-e6n-8rZb4) (aparece más arriba) está incluido en la [Lista de reproducción de Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible en YouTube.
 
 
 ## <a name="specific-requirements-of-your-company"></a>Requisitos específicos de la empresa
@@ -184,7 +184,7 @@ En el asistente, se especifican los siguientes valores para Contoso Manufacturer
 Contoso Retailer es una empresa de distribución en el sector de la moda. Usa la planificación maestra para calcular cuándo deben realizarse los pedidos de compra, en función de las ventas previstas. Aquí están algunas de sus características:
 
 - Contoso Retailer usa la previsión de la demanda para pronosticar las ventas. Los pedidos de compra se planifican según la previsión.
-- Las tiendas al por menor utilizan solicitudes de reabastecimiento.
+- Las tiendas utilizan solicitudes de reabastecimiento.
 - El plazo desde el almacén principal hasta cada tienda es de aproximadamente dos semanas para todos los artículos.
 
 En el asistente, se especifican los siguientes valores para Contoso Retailer:
@@ -208,4 +208,4 @@ En el asistente, se especifican los siguientes valores para Contoso Retailer:
     - **Pregunta:** “¿Desea incluir la demanda de solicitudes aprobadas para reabastecer las tiendas al por menor?"
     - **Respuesta:** “Sí, como se define en este plan maestro”. Se especifica **1 día**.
 
-    Contoso usa las solicitudes aprobadas de sus tiendas al por menor para crear pedidos de compra planificados para reabastecer las tiendas. Dado que la planificación maestra se ejecuta cada día, se incluirán en la planificación las solicitudes a partir del último día.
+    Contoso usa las solicitudes aprobadas de sus tiendas para crear pedidos de compra planificados para reabastecer las tiendas. Dado que la planificación maestra se ejecuta cada día, se incluirán en la planificación las solicitudes a partir del último día.

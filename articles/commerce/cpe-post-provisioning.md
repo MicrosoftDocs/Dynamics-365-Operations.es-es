@@ -1,5 +1,5 @@
 ---
-title: Configurar un entorno de vista previa de Commerce
+title: Configurar un entorno de vista previa de Dynamics 365 Commerce
 description: Este tema explica cómo configurar una vista previa del entorno de Microsoft Dynamics 365 Commerce tras aprovisionarse.
 author: psimolin
 manager: annbe
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f19d03f3f2f5a9f6f7ba08b682277e4e3b764d10
-ms.sourcegitcommit: 610d5c3efadbaf11752b46f24680af619bcd70a6
+ms.openlocfilehash: 12d3a86698e9250f5d1645de51e0749c8d929f75
+ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "2906148"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024715"
 ---
-# <a name="configure-a-commerce-preview-environment"></a>Configurar un entorno de vista previa de Commerce
+# <a name="configure-a-dynamics-365-commerce-preview-environment"></a>Configurar un entorno de vista previa de Dynamics 365 Commerce
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Este tema explica cómo configurar una vista previa del entorno de Microsoft Dynamics 365 Commerce tras aprovisionarse.
@@ -142,13 +142,13 @@ Para configurar características opcionales para su entorno de vista previa de C
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Resumen del entorno de vista previa de Commerce](cpe-overview.md)
+[Información general del entorno de vista previa de Dynamics 365 Commerce](cpe-overview.md)
 
-[Aprovisionar un entorno de vista previa de Commerce](provisioning-guide.md)
+[Aprovisionar un entorno de vista previa de Dynamics 365 Commerce](provisioning-guide.md)
 
-[Configurar características opcionales para un entorno de vista previa de Commerce](cpe-optional-features.md)
+[Configurar características opcionales para un entorno de vista previa de Dynamics 365 Commerce](cpe-optional-features.md)
 
-[Preguntas más frecuentes del entorno de vista previa de Commerce](cpe-faq.md)
+[Preguntas frecuentes sobre el entorno de vista previa de Dynamics 365 Commerce](cpe-faq.md)
 
 [Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
@@ -157,5 +157,3 @@ Para configurar características opcionales para su entorno de vista previa de C
 [Portal de Microsoft Azure](https://azure.microsoft.com/features/azure-portal)
 
 [Sitio web de Dynamics 365 Commerce](https://aka.ms/Dynamics365CommerceWebsite)
-
-[Recursos de ayuda para Dynamics 365 Retail](../retail/index.md)

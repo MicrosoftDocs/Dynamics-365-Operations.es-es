@@ -17,16 +17,16 @@ ms.search.industry: retail
 ms.author: brishoo
 ms.search.validFrom: 2019-12-18
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e472f3612bd6860e7262bb128035f2aed3b39372
-ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
+ms.openlocfilehash: d0ce49f2968030ca4656a01c7646819c01635e12
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2946076"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003496"
 ---
 # <a name="manage-robotstxt-files"></a>Administrar archivos robots.txt
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 En este tema se describe cómo administrar los archivos robots.txt en Microsoft Dynamics 365 Commerce.

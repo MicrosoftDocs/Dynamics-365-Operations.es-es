@@ -19,16 +19,16 @@ ms.search.industry: Retail
 ms.author: bicyclingfool
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: df474776ed30f6011a0f317d840349c513f3bc8c
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 1e3dd95800699360f1e33d5efe947358aaaddeee
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914734"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003358"
 ---
 # <a name="online-store-overview"></a>Visión general de la tienda en línea
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+
 
 Este tema presenta el concepto de una tienda en línea y explica cómo se utilizan las tiendas en línea en Microsoft Dynamics 365 Commerce. También proporciona un vínculo a información adicional sobre tiendas en línea e información sobre cómo configurar una tienda en línea.
 

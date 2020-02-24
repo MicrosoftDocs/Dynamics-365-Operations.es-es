@@ -1,6 +1,6 @@
 ---
 title: Generar informes de canales en línea
-description: Este tema describe cómo generar informes para el canal en línea en Microsoft Dynamics 365 Retail.
+description: Este tema describe cómo generar informes para el canal en línea en Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
 ms.date: 10/01/2019
@@ -17,23 +17,23 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 77737c134df8f3ba598fe9026fa7c01ca9976733
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: fd40aabdf40e0f2bb257b914326df5595a0e6945
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2698059"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003013"
 ---
 # <a name="generate-online-channel-reports"></a>Generar informes de canales en línea
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
-Este tema describe cómo generar informes para el canal en línea en Microsoft Dynamics 365 Retail.
+Este tema describe cómo generar informes para el canal en línea en Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Visión general
 
-Puede generar y ver varios informes en Retail para ver el rendimiento del canal en línea.
+Puede generar y ver varios informes en Commerce para ver el rendimiento del canal en línea.
 
 ## <a name="channel-summary-report"></a>Informe de resumen del canal
 
@@ -46,7 +46,7 @@ El informe **Resumen del canal** muestra un resumen de las siguientes transaccio
 
 Para generar un informe **Resumen del canal**, siga estos pasos.
 
-1. Vaya a **Retail \> Consultas e informes \> Informes de ventas \>Informe de resumen del canal**.
+1. Vaya a **Retail y Commerce \> Consultas e informes \> Informes de ventas \> Informe de resumen del canal**.
 1. En el campo **Fecha inicial**, escriba una fecha.
 1. En el campo **Fecha final**, especifique una fecha.
 1. En el campo **Canal**, seleccione el canal en línea.
@@ -58,7 +58,7 @@ El informe **Ventas de canal por año** muestra una comparación de ventas de a�
 
 Para generar un informe **Ventas de canal por año**, siga estos pasos.
 
-1. Vaya a **Retail \> Consultas e informes \> Informes de ventas \>Informe de ventas de canal por año**.
+1. Vaya a **Retail y Commerce \> Consultas e informes \> Informes de ventas \> Informe de ventas de canal por año**.
 1. En el campo **Año natural inicial**, introduzca un año.
 1. En el campo **Año natural final**, introduzca un año.
 1. En el campo **Canal**, seleccione el canal en línea.
@@ -70,7 +70,7 @@ El informe **Ventas de canal por hora** muestra las métricas de ventas por hora
 
 Para generar un informe **Ventas de canal por hora**, siga estos pasos.
 
-1. Vaya a **Retail \> Consultas e informes \> Informes de ventas \>Informe de ventas de canal por hora**.
+1. Vaya a **Retail y Commerce \> Consultas e informes \> Informes de ventas \> Informe de ventas de canal por hora**.
 1. En el campo **Fecha inicial**, escriba una fecha.
 1. En el campo **Fecha final**, especifique una fecha.
 1. En el campo **Canal**, seleccione el canal en línea.
@@ -82,7 +82,7 @@ El informe **Mejores clientes** muestra las métricas de ventas para los *N* mej
 
 Para generar un informe **Mejores clientes**, siga estos pasos.
 
-1. Vaya a **Retail \> Consultas e informes \> Informes de ventas \>Informe de mejores clientes**.
+1. Vaya a **Retail y Commerce \> Consultas e informes \> Informes de ventas \> Informe de mejores clientes**.
 1. En el campo **Fecha inicial**, escriba una fecha.
 1. En el campo **Fecha final**, especifique una fecha.
 1. En el campo **Canal**, seleccione el canal en línea.
@@ -94,7 +94,7 @@ El informe **Mejores descuentos** muestra las métricas de ventas para los *N* m
 
 Para generar un informe **Mejores descuentos**, siga estos pasos.
 
-1. Vaya a **Retail \> Consultas e informes \> Informes de ventas \>Informe de mejores descuentos**.
+1. Vaya a **Retail y Commerce \> Consultas e informes \> Informes de ventas \> Informe de principales descuentos**.
 1. En el campo **Fecha inicial**, escriba una fecha.
 1. En el campo **Fecha final**, especifique una fecha.
 1. En el campo **Canal**, seleccione el canal en línea.
@@ -106,7 +106,7 @@ El informe **Mejores productos** muestra las métricas de ventas para los *N* me
 
 Para generar un informe **Mejores productos**, siga estos pasos.
 
-1. Vaya a **Retail \> Consultas e informes \> Informes de ventas \>Informe de mejores productos**.
+1. Vaya a **Retail y Commerce \> Consultas e informes \> Informes de ventas \> Informe de productos principales**.
 1. En el campo **Fecha inicial**, escriba una fecha.
 1. En el campo **Fecha final**, especifique una fecha.
 1. En el campo **Canal**, seleccione el canal en línea.
@@ -118,7 +118,7 @@ El informe **Ventas por categoría** muestra las métricas durante un período s
 
 Para generar un informe de **ventas por categoría**, siga estos pasos.
 
-1. Vaya a **Retail \> Consultas e informes \> Informes de ventas \> Informe de ventas por categoría**.
+1. Vaya a **Retail y Commerce \> Consultas e informes \> Informes de ventas \> Informe de ventas por categoría**.
 1. En el campo **Fecha inicial**, escriba una fecha.
 1. En el campo **Fecha final**, especifique una fecha.
 1. En el campo **Canal**, seleccione el canal en línea.
@@ -130,7 +130,7 @@ El informe **Ventas de la organización** muestra el rendimiento de sus tiendas 
 
 Para generar un informe de **Ventas de la organización**, siga estos pasos.
 
-1. Vaya a **Retail \> Consultas e informes \> Informes de ventas \> Informe de ventas de la organización**.
+1. Vaya a **Retail y Commerce \> Consultas e informes \> Informes de ventas \> Informe de ventas de la organización**.
 1. En el campo **Fecha inicial**, escriba una fecha.
 1. En el campo **Fecha final**, especifique una fecha.
 1. Seleccione **Aceptar**.

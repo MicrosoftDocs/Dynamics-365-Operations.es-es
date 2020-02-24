@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4ddae5b77c36151a279a463033079099722d166e
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: d805c39b77d653eaa9935751ae89012c98b930d2
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914850"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002691"
 ---
 # <a name="templates-and-layouts-overview"></a>Visión general de plantillas y diseños
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Las plantillas son un elemento fundamental del modelo de página de Microsoft Dynamics 365 Commerce. Si su objetivo es maximizar la eficacia y la coherencia para los flujos de trabajo de la creación de sitios, es importante que descubra cómo aprovechar las plantillas de su sitio web. Las primeras decisiones acerca de la estructura de la plantilla son importantes y pueden afectar significativamente al coste y a la agilidad para las actualizaciones de marca diarias, estaciones y en todo el sitio. Las plantillas bien estructuradas también tienen otras ventajas. Por ejemplo, ayudan a mejorar las puntuaciones de optimización de motor de búsqueda (SEO) en todos el sitio y minimizan los recuentos de errores.

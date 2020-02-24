@@ -1,9 +1,9 @@
 ---
 title: Módulo de encabezado
-description: En este tema se tratan los módulos de encabezado y se describe cómo crearlos en Microsoft Dynamics 365 Commerce.
+description: En este tema se tratan los módulos de encabezado y se describe como crear encabezados de página en Microsoft Dynamics 365 Commerce.
 author: anupamar
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,60 +17,60 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cc98419077f6f563ea2265d4e68ba809971cfbd6
-ms.sourcegitcommit: ff93b8f6a11993f2cd00be2da7aa77ef0d950ab8
+ms.openlocfilehash: efadd19681bbb21ea5b2b469e55bc6f4b0535046
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2885487"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025701"
 ---
 # <a name="header-module"></a>Módulo de encabezado
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
-En este tema se tratan los módulos de encabezado y se describe cómo crearlos en Microsoft Dynamics 365 Commerce.
+En este tema se tratan los módulos de encabezado y se describe como crear encabezados de página en Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Visión general
 
-Un módulo de encabezado es un contenedor especial que se usa para alojar todos los módulos que se mostrarán en un encabezado de página. Por ejemplo, puede incluir el logotipo de su sitio, vínculos a la jerarquía de navegación, vínculos a otras páginas del sitio y la barra de la búsqueda.
+En Dynamics 365 Commerce, un encabezado de página consta de varios módulos, como los de encabezado, menú de navegación, búsqueda, banner promocional y consentimiento de cookies. 
 
-Un módulo de encabezado se optimiza automáticamente para el dispositivo en el que se está viendo el sitio (es decir, un dispositivo de escritorio o un dispositivo móvil). Por ejemplo, en un dispositivo móvil, la barra de navegación se contrae en un botón **Menú** (que a veces se denomina *menú de hamburguesa*).
+El módulo de encabezado incluye un logotipo del sitio, vínculos a la jerarquía de navegación, vínculos a otras páginas en el sitio, un símbolo de carro, un símbolo de lista de deseos, opciones de inicio de sesión y la barra de búsqueda. Un módulo de encabezado se optimiza automáticamente para el dispositivo en el que se está viendo el sitio (es decir, un dispositivo de escritorio o un dispositivo móvil). Por ejemplo, en un dispositivo móvil, la barra de navegación se contrae en un botón **Menú** (que a veces se denomina *menú de hamburguesa*).
 
-## <a name="properties-of-a-header"></a>Propiedades de un encabezado
+## <a name="properties-of-a-header-module"></a>Propiedades de un módulo de encabezado
 
-Como los contenedores genéricos, un módulo de encabezado admite las propiedades de **encabezado** y **ancho**.
+Un módulo de encabezado tiene propiedades de **Imagen de logotipo**, **Vínculo de logotipo** y **Mis vínculos de cuenta**. 
 
-Un módulo de cabecera tiene varias franjas. Por ejemplo, hay franjas para un mensaje informativo, un menú de navegación, un logotipo, una barra de búsqueda, un icono de carro, un icono de lista de deseos e información de cuenta. Cada franja admite un conjunto concreto de módulos.
+Las propiedades **Imagen de logotipo** y **Vínculo de logotipo** se usan para definir un logotipo en la página. Para obtener más información, consulte [Agregar un logotipo](add-logo.md). 
+
+La propiedad **Mis vínculos de cuenta** se puede utilizar para definir las páginas de la cuenta para las que el propietario del sitio desea mostrar vínculos rápidos en el encabezado.
 
 ## <a name="modules-that-are-available-in-a-header-module"></a>Módulos disponibles en un módulo de encabezado
 
 Los módulos siguientes se pueden usar en un módulo de encabezado:
 
-- **Menú de navegación**: El menú de navegación representa la jerarquía de navegación de canales y otros vínculos de navegación estáticos. La jerarquía de navegación de canales se puede configurar en Dynamics 365 Retail. Los artículos configurados aparecerán como navegación de encabezado. Además, se pueden configurar los vínculos de navegación estáticos y se pueden proporcionar los vínculos relativos a otras páginas del sitio de comercio electrónico. El propio encabezado se puede alinear a la izquierda, a la derecha o al centro.
-- **Icono de carro**: El icono de carro es un icono especial que representa el carro. Se muestra en el encabezado e indica el número de artículos del carro. Un vínculo a la página del carro debe acompañar al icono del carro, para poder redirigir a los clientes a la página del carro cuando interactúan con el icono.
-- **Icono de lista de deseos**: El icono de la lista de deseos se muestra en el encabezado e indica el número de artículos que se han agregado a la lista de deseos del cliente. Un vínculo a la página de lista de deseos debe acompañar a este icono, para poder redirigir a los clientes a la página de la lista de deseos cuando interactúan con el icono.
-- **Módulo de inicio de sesión**: El módulo de inicio de sesión se muestra en el encabezado. Permite a los clientes iniciar sesión en su cuenta o registrarse para una cuenta. Si el cliente ya ha iniciado sesión, el módulo se puede configurar para mostrar vínculos a la página de la cuenta, a la página de historial de pedidos o a otra página.
-- **Módulo de logotipo**: Este módulo muestra el logotipo que representa al minorista y a la marca. Es una imagen con un vínculo. El vínculo se configura normalmente para que tenga una redirección a la página principal. Por tanto, los clientes pueden regresar rápidamente a la página principal desde cualquier página del sitio.
-- **Alerta**: Aparece una alerta en el encabezado y se utiliza para mostrar un mensaje en línea que se aplica a todas las páginas del sitio. Por ejemplo, una alerta puede mostrar un mensaje como “La venta anual finaliza en 2 días”.
-- **Barra de búsqueda**: La barra de la búsqueda permite a los usuarios especificar términos de búsqueda de modo que puedan buscar los productos. El módulo se debe configurar con la dirección URL de la página de resultados de la búsqueda. El parámetro de la cadena de consulta se puede configurar (el valor predeterminado es **“q”**). La barra de búsqueda tiene una franja de sugerencia automática donde se debe agregar el módulo de sugerencia automática.
-- **Sugerencia automática**: El módulo de sugerencia automática muestra resultados automáticamente. Estos resultados pueden ser palabras clave, productos o categorías donde se encuentra el término de búsqueda.
+- **Menú de navegación**: El menú de navegación representa la jerarquía de navegación de canales y otros vínculos de navegación estáticos. La jerarquía de navegación de canales se puede configurar en Dynamics 365 Commerce. El menú de navegación tiene una propiedad **Origen de navegación** que se utiliza para especificar los elementos del menú de navegación de Retail Server y elementos menú estáticos como un origen. Si los elementos de menú estáticos se especifican como un origen, se pueden proporcionar vínculos relativos a otras páginas en el sitio. Los artículos configurados aparecerán como navegación de encabezado. 
+- **Búsqueda**: el módulo de búsqueda permite a los usuarios especificar términos de búsqueda para buscar productos. La dirección URL de la página de búsqueda predeterminada y los parámetros de consulta de búsqueda deben especificarse en **Valores de configuración del sitio \> Extensiones**. El módulo de búsqueda tiene propiedades que le permiten suprimir el botón de búsqueda o la etiqueta según lo requiera. El módulo de búsqueda también admite opciones de sugerencia automática, como resultados de búsqueda de productos, palabras clave y categorías.
 
-## <a name="create-a-header-module"></a>Crear un módulo de encabezado
+## <a name="create-a-header-module-for-a-page"></a>Crear un módulo de encabezado para una página
 
 Para crear un módulo de encabezado, siga estos pasos.
 
-1. Cree un fragmento de página que incluya un módulo de encabezado.
-1. Agregue módulos a las franjas del módulo de encabezado.
-1. Actualice la configuración para cada módulo.
-1. Guarde el fragmento de página. 
-1. Proteja la página y publíquela.
+1. Cree un fragmento llamado **Fragmento de encabezado** y agréguele un módulo de contenedor.
+1. En el panel de propiedades para el módulo de contenedor, establezca la propiedad **Ancho** en **Rellenar contenedor**.
+1. Agregue un banner promocional y módulos de consentimiento de cookies al módulo de contenedor.
+1. Agregue otro módulo de contenedor al fragmento y establezca la propiedad **Ancho** en **Rellenar contenedor**.
+1. Agregue un módulo de encabezado al segundo módulo de contenedor.
+1. En la franja **Menú de navegación** del módulo de encabezado, agregue un módulo de menú de navegación. 
+1. En el panel de propiedades del módulo del menú de navegación, configure las propiedades del módulo del menú de navegación.
+1. En la franja **Buscar** del módulo de encabezado, agregue un módulo de búsqueda. 
+1. En el panel de propiedades del módulo de búsqueda, configure las propiedades del módulo de búsqueda. 
+1. Guarde el fragmento de página, termine de editarlo y publíquelo. 
 
 Para ayudar a garantizar que un encabezado aparece en cada página, siga estos pasos de cada plantilla de página creada para el sitio.
 
-1. En la página predeterminada, agregue el fragmento de página que contiene el módulo de encabezado en el encabezado de la franja principal.
-1. Guarde la plantilla. 
-1. Proteja la plantilla y publíquela.
+1. En la franja **Principal** de la página predeterminada, agregue al encabezado el fragmento de página de encabezado que contiene el módulo de encabezado.
+1. Guarde la plantilla, termine de editarla y publíquela.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

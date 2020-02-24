@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 7837fbaaffdbd61a1adce1698800017bf4f6a018
-ms.sourcegitcommit: 282552609fdb82ec4463f801023b4bc01bc151d5
+ms.openlocfilehash: aa60f3bc35f2bc10902da060ccacd7767bc9af8f
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "2935396"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005735"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Comparación de características locales y en la nube
 
@@ -32,8 +32,8 @@ En este tema se muestra una comparación de las características disponibles en 
 
 - [Dynamics 365 Finance](cloud-prem-comparison.md#dynamics-365-finance)
 - [Dynamics 365 Supply Chain Management](cloud-prem-comparison.md#dynamics-365-supply-chain-management)
-- [Dynamics 365 Retail](cloud-prem-comparison.md#dynamics-365-retail)
-- [Dynamics 365 Talent](cloud-prem-comparison.md#dynamics-365-talent)
+- [Dynamics 365 Commerce](cloud-prem-comparison.md#dynamics-365-commerce)
+- [Dynamics 365 Human Resources](cloud-prem-comparison.md#dynamics-365-human-resources)
 
 También se incluye información sobre las [características de desarrollo y administración](cloud-prem-comparison.md#development-and-administration-features).
 
@@ -45,8 +45,7 @@ Las tablas siguientes muestran las áreas de la aplicación. El soporte en la nu
 |---------------------|-----------------------------|-----------|-----------------|
 | Cumplimiento y certificaciones        |                                                                                           | Sí       | Sí             |
 |                                      | Certificación SOC 1 de tipo 1                                                                | Sí       | No              |
-| Administración de datos e integración      |                                                                                           | Sí       | Sí             |
-|                                      | Extensión diseñada según la configuración                                                            | Sí       | N.º              |
+| Administración de datos e integración      |                                                                                           | Sí       | Sí             
 |                                      | Exportar datos a su propio almacén de datos                                                    | Sí       | Sí             |
 |                                      | Habilitar la exportación de actualizaciones incrementales a una entidad de datos                                 | Sí       | Sí              |
 |                                      | Integraciones de datos                                                                         | Sí       | Sí             |
@@ -146,15 +145,15 @@ Las tablas siguientes muestran las áreas de la aplicación. El soporte en la nu
 | Soporte                              |                                                                                           | Sí       | Sí             |
 |                                      | Acceso al soporte a través del menú de ayuda y servicio técnico                                             | Sí       | No              |
 
-## <a name="dynamics-365-retail"></a>Dynamics 365 Retail 
+## <a name="dynamics-365-commerce"></a>Dynamics 365 Commerce 
 
-Para ver una lista de capacidades al por menor que estén disponibles en implementaciones locales, consulte [Capacidades al por menor que están disponibles en implementaciones locales](../../../retail/retail-onprem.md).
+Para ver una lista de capacidades que estén disponibles en implementaciones locales, consulte [Capacidades al por menor que están disponibles en implementaciones locales](../../../retail/retail-onprem.md).
 
-## <a name="dynamics-365-talent"></a>Dynamics 365 Talent 
+## <a name="dynamics-365-human-resources"></a>Dynamics 365 Human Resources 
 
 | **Área**         | **Característica**         | **Nube** | **Local** |
 |------------------|---------------------|-----------|-----------------|
-| Todas las áreas de Talent | Todas las características de Talent | Sí       | No              |
+| Todas las áreas de Recursos humanos | Todas las características de Recursos humanos | Sí       | No              |
 
 ## <a name="development-and-administration-features"></a>Características de desarrollo y administración
 

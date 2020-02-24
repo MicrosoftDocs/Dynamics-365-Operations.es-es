@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 1a357c4623f4f9dc441fe328ec0d5481c14ae4af
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: de85bf52d8e3415549db64501b2435ebd7377fef
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771642"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025863"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Agregar análisis a espacios de trabajo mediante Power BI Embedded
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Esta función se admite en en Finance and Operations (versión 7.2 y posteriores).
+> Esta función se admite en Finance and Operations (versión 7.2 y posterior).
 
 ## <a name="introduction"></a>Introducción
 Este tema muestra cómo insertar un informe de Microsoft Power BI en la ficha **Análisis** de un espacio de trabajo. Para el ejemplo que se da aquí, extenderemos el espacio de trabajo **Administración de reserva** en la aplicación de administración de flota para insertar un espacio de trabajo analítico en una pestaña **Análisis** .
@@ -111,7 +111,7 @@ Siga estos pasos para agregar la lógica de negocios que inicializa el control d
 2. Presione F7 para obtener acceso al código que subyace a la definición del código.
 3. Agregue el código X++ siguiente.
 
-    ```
+    ```xpp
     [Form] 
     public class FMClerkWorkspace extends FormRun
     {
@@ -156,7 +156,7 @@ Ha terminado la tarea de agregar la lógica de negocios para inicializar el cont
 Esta sección proporciona información sobre la clase de auxiliar que se utiliza para insertar un informe de Power BI (recurso .pbix) en un control de grupo del formulario.
 
 #### <a name="syntax"></a>Sintaxis
-```
+```xpp
 public static void initializeReportControl(
     str                 _resourceName,
     FormGroupControl    _formGroupControl,

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d95feb3395c36f9cf8a23770dc3173377067d9b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6af7113031fd77a0a7e06ec23a149a3fa7ad0012
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184885"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026072"
 ---
 # <a name="generate-documents-that-have-application-data"></a>Generar documentos que tengan datos de la aplicación
 
@@ -58,7 +58,7 @@ Este procedimiento se ha creado para los usuarios con los roles Administrador de
 6. Haga clic en Aceptar
 
 ## <a name="review-er-format-executions-results"></a>Revisar los resultados de la ejecución del formato de ER
-    * Revise el archivo XML generado.  
+Revise el archivo XML generado.  
 1. Cierre la página.
 2. Vaya a Impuestos > Declaraciones > Comercio exterior > Intrastat.
     * Abra este formulario que contiene las transacciones de Intrastat que se incluyen en el documento electrónico generado.  

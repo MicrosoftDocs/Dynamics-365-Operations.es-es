@@ -3,7 +3,7 @@ title: Agregar un logotipo
 description: En este tema se describe cómo agregar un logotipo a su sitio en Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 manager: AnnBe
-ms.date: 12/12/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,16 +19,16 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 23bac9aae6beb59912bbc9e1f2c6958c007550b0
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 5fc0673dcdcc8b761089be2c2d201c8488128865
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914634"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025728"
 ---
 # <a name="add-a-logo"></a>Agregar un logotipo
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 En este tema se describe cómo agregar un logotipo a su sitio en Microsoft Dynamics 365 Commerce.
@@ -43,7 +43,7 @@ Puede agregar un logotipo directamente a una plantilla, diseño o página. De es
 
 Antes de poder agregar un logotipo a todas las páginas de su sitio, debe completar estas tareas.
 
-1. Suba su logotipo al administrador de activos digitales, al que puede acceder desde la página **Activos**.
+1. Cargue su logotipo en la Biblioteca de medios.
 1. Crear un fragmento de encabezado. Para obtener más información sobre cómo crear y usar fragmentos, vea [Trabajar con fragmentos](work-with-fragments.md).
 1. Incluya el fragmento de encabezado en la plantilla que usan las páginas de su sitio para su diseño y opciones de módulo. Para obtener más información sobre las plantillas, vea [Trabajar con plantillas](work-with-templates.md).
 
@@ -51,13 +51,11 @@ Antes de poder agregar un logotipo a todas las páginas de su sitio, debe comple
 
 Para agregar un logotipo al fragmento de encabezado de su sitio, siga estos pasos.
 
-1. En el panel de navegación a la izquierda, seleccione **Fragmentos** y luego seleccione el fragmento de encabezado que creó.
-2. Seleccione **Desproteger**.
-3. Expanda el espacio **Encabezado** y el espacio **Logotipo**.
-4. Seleccione el botón de puntos suspensivos (**...**) para el espacio **Logotipo** y, a continuación, seleccione **Agregar módulo**.
-5. Seleccione el módulo de logotipo.
-6. En el panel de propiedades de la derecha, configure el módulo logotipo para que muestre su logotipo.
-7. Guarde el fragmento de encabezado, protéjalo y publíquelo.
+1. En el panel de navegación de la izquierda, seleccione **Fragmentos de página**.
+1. Seleccione el fragmento de encabezado que ha creado y, a continuación, seleccione **Editar**.
+1. Expanda el módulo de encabezado.
+1. En el panel de propiedades del módulo de encabezado, proporcione una imagen y un vínculo para el logotipo. 
+1. Guarde el fragmento de encabezado, termine de editarlo y publíquelo.
 
 Después de publicar el fragmento de encabezado actualizado, todas las páginas del sitio que usan la plantilla que contiene el fragmento de encabezado mostrarán su logotipo.
 
@@ -65,7 +63,7 @@ Después de publicar el fragmento de encabezado actualizado, todas las páginas 
 
 [Seleccionar un tema de sitio](select-site-theme.md)
 
-[Trabajar con archivos de invalidaciones CSS](css-override-files.md) 
+[Trabajar con archivos de invalidaciones CSS](css-override-files.md)
 
 [Agregar un icono de favoritos](add-favicon.md)
 

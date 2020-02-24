@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf1a417130cb9d17f33d96f5e510582c79e875ca
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 4594da0feeb3b74eb066fb5761e36398804b4fc2
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811681"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005712"
 ---
 # <a name="help-system"></a>Sistema de ayuda
 
@@ -32,9 +32,9 @@ ms.locfileid: "2811681"
 Este tema proporciona una visión general de los componentes del sistema de la Ayuda. El sistema de Ayuda lo comparten los siguientes productos:
 
 - Dynamics 365 Finance 
-- Dynamics 365 Retail
+- Dynamics 365 Commerce
 - Dynamics 365 Supply Chain Management
-- Dynamics 365 Talent
+- Dynamics 365 Human Resources
 
 Puede obtener acceso a la ayuda del panel de la Ayuda de cualquier producto que esté usando. 
 
@@ -42,7 +42,7 @@ Puede obtener acceso a la ayuda del panel de la Ayuda de cualquier producto que 
 
 ## <a name="help-on-docsmicrosoftcom"></a>Ayuda en docs.microsoft.com
 
-El sitio docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](https://docs.microsoft.com/dynamics365/) es el origen principal de la documentación para las aplicaciones arriba indicadas. El sitio ofrece las características siguientes:
+El sitio docs.microsoft.com ([docs.microsoft.com/dynamics365/](https://docs.microsoft.com/dynamics365/)) es el origen principal de la documentación para las aplicaciones arriba indicadas. El sitio ofrece las características siguientes:
 
 - **Acceso al contenido más actualizado**: el sitio nos ofrece una manera más rápida y flexible de crear, entregar y actualizar documentación del producto. Por lo tanto, ayuda a garantizar que puede acceder a la información técnica más reciente.
 - **Contenido escrito por expertos**: el sitio proporciona un conjunto enriquecido de documentación de producto que se puede mejorar por los miembros de la comunidad tanto dentro como fuera de Microsoft.
@@ -73,7 +73,7 @@ Puede contribuir y hacer ediciones a la documentación. Para empezar, haga clic 
 
 El vídeo [Cómo contribuir a la documentación de Microsoft Dynamics 365](https://youtu.be/m5djioozRbg) (se muestra más arriba) se incluye en el canal de Microsoft Dynamics 365 en YouTube.
 
-Para obtener más información, consulte la [guía de nuestro colaborador](https://docs.microsoft.com/en-us/contribute).
+Para obtener más información, consulte la [guía de nuestro colaborador](https://docs.microsoft.com/contribute).
 
 > [!NOTE]
 > Solo aceptamos contribuciones a nuestra sección de contenido en inglés en este momento.
@@ -106,12 +106,12 @@ Para obtener acceso al contenido de la Ayuda, haga clic en el icono **Ayuda** (*
 En el panel Ayuda, puede obtener acceso a artículos que se aplican al cliente. Al abrir el panel de la Ayuda por primera vez y hacer clic en la pestaña **Ayuda**, verá los artículos que se aplican a la página en la que se encuentra actualmente. Si no encuentra ningún artículo, puede escribir palabras clave para limitar la búsqueda. Al hacer clic en un artículo del panel Ayuda, se abre una nueva pestaña en el explorador y se muestra el artículo.
 
 > [!IMPORTANT]
-> Esta sección no se aplica a Dynamics 365 Talent. El sistema de Ayuda para Talent se conecta automáticamente a las guías de tareas para el producto. Además, no puede crear guías de tareas personalizadas para Talent.
+> Esta sección no se aplica a Dynamics 365 Human Resources. El sistema de Recursos humanos se conecta automáticamente a las guías de tareas para el producto. Además, no puede crear guías de tareas personalizadas para Recursos humanos.
 
 
 ### <a name="accessing-task-guides-from-the-help-pane"></a>Acceso a guías de tareas desde el panel Ayuda
 
-Para acceder a las guías de tareas desde el panel de Ayuda, un administrador del sistema tiene que ir a la página **Parámetros del sistema** enSupply Chain Management y Retail y configurar algunos parámetros.
+Para acceder a las guías de tareas desde el panel de Ayuda, un administrador del sistema tiene que ir a la página **Parámetros del sistema** en Finance, Supply Chain Management y Commerce, y configurar algunos parámetros.
 
 > [!NOTE]
 > - Para configurar la Ayuda, debe iniciar sesión con una cuenta en el mismo inquilino que el inquilino en que se implementa la aplicación.

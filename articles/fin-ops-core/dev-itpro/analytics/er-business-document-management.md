@@ -3,7 +3,7 @@ title: Visión general de la gestión de documentos empresariales
 description: Este tema proporciona información acerca de cómo utilizar la característica de gestión de documentos empresarial del marco de ER.
 author: NickSelin
 manager: AnnBe
-ms.date: 08/09/2019
+ms.date: 01/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3aac66cc39d854cabdb3d29bde029d93683e2ef7
-ms.sourcegitcommit: 3a06d3b38d9de2afc22839e5a794829405068024
+ms.openlocfilehash: 0deb51bb23851b179e2c4166b6444af654a64e1d
+ms.sourcegitcommit: 380664bf10bb25449e3af3d62e235b76d46c0c89
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2933917"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "2957376"
 ---
 # <a name="business-document-management-overview"></a>Visión general de la gestión de documentos empresariales
 
@@ -122,7 +122,7 @@ Use el procedimiento siguiente para habilitar la funcionalidad de gestión de do
 4. Actualice la página para obtener acceso a la característica nueva.
 
 >[!NOTE]
-> También debe habilitar **Experiencia de interfaz de usuario similar a oficina para la gestión de documentos empresariales** para usar la nueva interfaz de administración del documentos empresariales
+> Para obtener más información sobre el uso de la nueva interfaz de usuario de documentos en la gestión de documentos empresariales, vea [Nueva interfaz de usuario de documentos en la gestión de documentos empresariales](er-business-document-management-new-template-ui.md).
 
 ![Espacio de trabajo Administración de características.](./media/BDM-Overview-FMEnabling.png)
 
@@ -147,7 +147,7 @@ Para obtener información sobre cómo configurar los parámetros de gestión de 
 
 ![Configurar el tipo de documento para la gestión de documentos](./media/BDM-Overview-DMSetting.png)
 
-### <a name="set-up-parameters"></a>Configurar parámetros
+### <a name="SetupBdmParameters">Configurar parámetros</a>
 
 Los parámetros básicos para la gestión de documentos empresariales se pueden configurar en la página **Parámetros de documentos empresariales**. Solo usuarios específicos pueden tener acceso a la página. Esto incluye:
 
@@ -166,6 +166,9 @@ Use el procedimiento siguiente para configurar parámetros básicos para todas l
 ![Configurar los parámetros para la gestión de documentos empresariales](./media/BDM-Overview-BDMSetting.png)
 
 El tipo de documento seleccionado es específico de una empresa y se usará cuando el usuario esté trabajando con la gestión de documentos empresariales en la empresa para la que se configuró el tipo de documento seleccionado. Cuando el usuario esté trabajando con la gestión de documentos empresariales en otra empresa, se usará el mismo tipo de documento seleccionado si no se hubiera configurado uno para esta empresa. Cuando se ha configurado un tipo de documento, se usará en lugar del seleccionado en el campo **Tipo de documento de SharePoint**.
+
+> [!NOTE]
+> El parámetro **Tipo de documento de SharePoint** define una carpeta de SharePoint como almacenamiento temporal para plantillas que se pueden editar usando Microsoft Excel o Word. Debe configurar este parámetro si planea usar estas aplicaciones de escritorio de Office para editar plantillas. Para más información, vea [Editar una plantilla en la aplicación de escritorio de Office](#EditInOfficeDesktopApp). Puede mantener este parámetro en blanco si planea modificar la plantilla utilizando solo la funcionalidad de Office 365. Para obtener más información, consulte [Editar una plantilla en Office 365](#EditInOffice365).
 
 ## <a name="configure-access-permissions"></a>Configurar los permisos de acceso
 
@@ -258,23 +261,18 @@ La opción **Editar plantilla** está disponible para la plantilla seleccionada.
 
 ### <a name="initiate-editing-templates-owned-by-other-providers"></a>Comenzar a editar plantillas propiedad de otros proveedores
 
-1. En el espacio de trabajo de Gestión de documentos empresariales, seleccione **Nuevo documento**.
+1. En el espacio de trabajo de administración de documentos empresariales, seleccione el documento que desea usar como plantilla.
 
-![Página del espacio de trabajo de la gestión de documentos empresariales](./media/BDM_overview_new_template1.png)
+![Página del espacio de trabajo de la gestión de documentos empresariales](./media/BDM-Overview-EditingTemplate3.png)
 
-2. Seleccione el documento que desea usar como una plantilla.
+3. Seleccione **Nuevo documento** y, en el campo **Título**, cambie el título de la plantilla editable si es necesario. El texto se usará para asignar un nombre a configuración del formato de ER que se crea automáticamente. Tenga en cuenta que la versión del borrador de esta configuración (**Copia de informe FTI de cliente (GER)**) que incluirá la plantilla editada se marcará automáticamente para ejecutar este formato de ER para el usuario actual. Al mismo tiempo, la plantilla original no modificada de la configuración del formato básico de ER se usará para ejecutar este formato de ER para cualquier otro usuario.
+4. En el campo **Nombre**, cambie el nombre de la primera revisión de la plantilla editable que se creará automáticamente.
+5. En el campo **Comentario**, cambie el comentario para la revisión creada automáticamente de la plantilla editable.
+6. Seleccione **Aceptar** para confirmar el inicio del proceso de edición
 
-![Página del espacio de trabajo de la gestión de documentos empresariales](./media/BDM_overview_new_template2.png)
+![Página del espacio de trabajo de la gestión de documentos empresariales](./media/BDM-Overview-EditingTemplate4.png)
 
-3. Haga clic en **Crear documento**
-4. En el campo **Título**, cambie el título de la plantilla editable si es necesario. El texto se usará para asignar un nombre a configuración del formato de ER que se crea automáticamente. Tenga en cuenta que la versión del borrador de esta configuración (**Copia de informe FTI de cliente (GER)**) que incluirá la plantilla editada se marcará automáticamente para ejecutar este formato de ER para el usuario actual. Al mismo tiempo, la plantilla original no modificada de la configuración del formato básico de ER se usará para ejecutar este formato de ER para cualquier otro usuario.
-5. En el campo **Nombre**, cambie el nombre de la primera revisión de la plantilla editable que se creará automáticamente.
-6. En el campo **Comentario**, cambie los comentarios para la revisión creada automáticamente de la plantilla editable.
-7. Seleccione **Aceptar** para confirmar el inicio del proceso de edición
-
-![Página del espacio de trabajo de la gestión de documentos empresariales](./media/BDM_overview_new_template3.png)
-
-La opción **Nuevo documento** está siempre disponible para una plantilla en una configuración de formato de ER que proporciona otro proveedor (Microsoft en este ejemplo). Cuando haga clic en **Nuevo documento** verá todas las plantillas que poseen los proveedores actuales y otros proveedores. Después de elegir la plantilla, se abrirá para editarla. La plantilla editada se almacenará en una nueva configuración del formato de ER que se genera automáticamente.
+La opción **Nuevo documento** está siempre disponible para una plantilla en una configuración de formato de ER que proporciona el actual y otro proveedor (Microsoft en este ejemplo) sin ninguna revisión. La plantilla editada se almacenará en una nueva configuración del formato de ER que se genera automáticamente.
 
 ### <a name="start-editing-a-template"></a>Comenzar a editar plantillas
 
@@ -282,7 +280,7 @@ La opción **Nuevo documento** está siempre disponible para una plantilla en un
 2. En el campo **Nombre**, cambie el nombre de la primera revisión de la plantilla editable que se creará automáticamente.
 3. En el campo **Comentario**, cambie los comentarios para la revisión creada automáticamente de la plantilla editable.
 
-    ![Página del espacio de trabajo de la gestión de documentos empresariales](./media/BDM_overview_new_template4.png)
+    ![Página del espacio de trabajo de la gestión de documentos empresariales](./media/BDM-Overview-EditingTemplate5.png)
 
 5. Seleccione **Aceptar** para confirmar el inicio del proceso de edición.
 
@@ -290,13 +288,16 @@ La página **Editor de plantillas de BDM** se abrirá. La plantilla seleccionada
 
 ![Página del espacio de trabajo de la gestión de documentos empresariales](./media/BDM-Overview-EditingLayout1.png)
 
-### <a name="edit-a-template-in-office-365"></a>Editar una plantilla en Office 365
+### <a name="EditInOffice365">Editar una plantilla en Office 365</a>
 
-Modifique la plantilla con la funcionalidad de Office 365. Por ejemplo, en Office Online, cambie la fuente de los mensajes de campo en el encabezado de **Normal** a **Negrita**. Estos cambios se almacenan automáticamente para la plantilla editable almacenada en el almacenamiento principal de la plantilla (de forma predeterminada, el almacenamiento blob de Azure) que está configurado para el marco de ER.
+Puede modificar la plantilla mediante Office 365. Por ejemplo, en Office Online, cambie la fuente de los mensajes de campo en el encabezado de **Normal** a **Negrita**. Estos cambios se almacenan automáticamente en la plantilla editable almacenada en el almacenamiento principal de la plantilla (de forma predeterminada, el almacenamiento blob de Azure). Se configura para el marco ER.
 
 ![Página del editor de plantillas de la gestión de documentos empresariales](./media/BDM-Overview-EditingLayout2.png)
 
-### <a name="edit-a-template-in-the-office-desktop-application"></a>Editar una plantilla en la aplicación de escritorio de Office
+### <a name="EditInOfficeDesktopApp">Editar una plantilla en la aplicación de escritorio de Office</a>
+
+> [!NOTE]
+> Esta función solo está disponible cuando el parámetro **Tipo de documento de SharePoint** está configurado correctamente. Para obtener más información consulte [Configurar parámetros](#SetupBdmParameters).
 
 1. Seleccione la opción **Abrir en aplicación de escritorio** para modificar la plantilla con la funcionalidad de la aplicación de escritorio de Office (Excel en este ejemplo). La plantilla editable se copia de almacenamiento permanente el almacenamiento temporal configurado en los parámetros de la gestión de documentos empresariales como una carpeta de SharePoint.
 2. Confirme que desea abrir la plantilla desde el almacenamiento de archivos temporal en la aplicación Excel de escritorio de Office.
@@ -411,3 +412,4 @@ Probablemente inició sesión en la instancia actual de la aplicación del domin
 [Insertar imágenes y formas en los documentos generados con ER](electronic-reporting-embed-images-shapes.md)
 
 [Configurar informes electrónicos (ER) para proporcionar datos a Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+

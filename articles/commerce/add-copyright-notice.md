@@ -3,7 +3,7 @@ title: Agregar un aviso de derechos de autor
 description: En este tema se describe cómo agregar un aviso de derechos de autor a su sitio web de comercio electrónico.
 author: psimolin
 manager: AnnBe
-ms.date: 12/12/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 58c2949057ef777f706d12cee2dd3341d1a3b7e6
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 54b48ee74bc9d9f2b77f0584a0bf1739a8dfdbdb
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914589"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025491"
 ---
 # <a name="add-a-copyright-notice"></a>Agregar un aviso de derechos de autor
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 En este tema se describe cómo agregar un aviso de derechos de autor a su sitio web de comercio electrónico.
@@ -48,8 +48,8 @@ Para agregar un aviso de derecho de autor a la parte inferior de cada página qu
 1. En el panel de navegación, seleccione los puntos suspensivos (**...**) junto a **Pie de página** y, a continuación, seleccione **Agregar módulo**.
 1. En el cuadro de diálogo, seleccione **Categoría de pie de página** y después seleccione **Aceptar**.
 1. En el panel de navegación, seleccione los puntos suspensivos (...) junto a **Categoría de pie de página** y, a continuación, seleccione **Agregar módulo**.
-1. En el cuadro de diálogo, seleccione **Elemento de bloque de enriquecimiento de contenido** y después seleccione **Aceptar**.
-1. En el panel de navegación, seleccione **Elemento de bloque de enriquecimiento de contenido**.
+1. En el cuadro de diálogo, seleccione **Bloque de texto** y después seleccione **Aceptar**.
+1. En el panel de navegación, seleccione **Bloque de texto**.
 1. En el panel de propiedades de la derecha, en el campo **Párrafo**, agregue su mensaje de derechos de autor. Por ejemplo, especifique **(C) Fabrikam 2019**.
 1. Seleccione **Guardar**, **Proteger** y **Publicar**.
 1. Vaya a **Plantillas**, seleccione la plantilla y, a continuación, seleccione **Desproteger**.
@@ -66,7 +66,7 @@ El pie de página que contiene el aviso de derechos de autor aparece automática
 
 [Seleccionar un tema de sitio](select-site-theme.md)
 
-[Trabajar con archivos de invalidaciones CSS](css-override-files.md) 
+[Trabajar con archivos de invalidaciones CSS](css-override-files.md)
 
 [Agregar un icono de favoritos](add-favicon.md)
 

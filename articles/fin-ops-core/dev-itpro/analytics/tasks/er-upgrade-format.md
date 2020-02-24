@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 648b750b311f902555eba4536767788b64a1ea1e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 62047ef7bde137fbc4464a51d77a8a6efae94696
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184655"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026226"
 ---
 # <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>ER Actualizar el formato adoptando una nueva versión de base de ese formato
 
@@ -47,7 +47,10 @@ Para finalizar estos pasos, debe completar primero los pasos de los procedimient
     * La versión del formato con el estado de Completado se usará por Proseware, Inc. para personalización.  
 
 ## <a name="create-a-new-configuration-for-your-custom-format-of-electronic-document"></a>Crear una nueva configuración para su formato personalizado de documento electrónico
-    * Proseware, Inc. recibió la versión 1.1 de la configuración de BACS (ficticia del Reino Unido) que contiene el formato inicial para generar documentos de pago electrónico de Litware, Inc. de acuerdo a su servicio de suscripción. Proseware, Inc. desea comenzar a usar esto como estándar para su país pero se requiere alguna personalización para admitir requisitos regionales específicos. Proseware, Inc. también desea conservar la capacidad de actualizar un formato personalizado tan pronto como llegue una nueva versión (con los cambios para admitir nuevos requisitos específicos de país) de Litware, Inc. y quieren desarrollar esta actualización con el coste más bajo.  Para ello, Proseware, Inc. debe crear una configuración mediante la configuración BACS (ficticio de Reino Unido) de Litware, Inc. como base.  
+Proseware, Inc. recibió la versión 1.1 de la configuración de BACS (ficticia del Reino Unido) que contiene el formato inicial para generar documentos de pago electrónico de Litware, Inc. de acuerdo a su servicio de suscripción. Proseware, Inc. desea comenzar a usar esto como estándar para su país pero se requiere alguna personalización para admitir requisitos regionales específicos. Proseware, Inc. también desea conservar la capacidad de actualizar un formato personalizado tan pronto como llegue una nueva versión (con los cambios para admitir nuevos requisitos específicos de país) de Litware, Inc. y quieren desarrollar esta actualización con el coste más bajo.  
+
+Para ello, Proseware, Inc. debe crear una configuración mediante la configuración BACS (ficticio de Reino Unido) de Litware, Inc. como base.  
+
 1. Cierre la página.
 2. seleccione Proseware, Inc. para convertirlo en un proveedor activo.
 3. Haga clic en Definir como activo.
@@ -98,7 +101,7 @@ Para finalizar estos pasos, debe completar primero los pasos de los procedimient
 2. Cierre la página.
 
 ## <a name="change-the-status-of-the-current-version-of-the-custom-format-configuration"></a>Cambie el estado de la versión actual de la configuración del formato personalizada
-    * Cambie el estado de la configuración del formato diseñado de Borrador a Completado para que esté disponible para la generación de documentos de pago.  
+Cambie el estado de la configuración del formato diseñado de Borrador a Completado para que esté disponible para la generación de documentos de pago.  
 1. Haga clic en Cambiar estado.
     * Observe cómo la versión actual de la configuración seleccionada se encuentra en el estado Borrador.  
 2. Haga clic en Completar.
@@ -108,11 +111,12 @@ Para finalizar estos pasos, debe completar primero los pasos de los procedimient
     * Observe cómo la configuración creada se guarda como versión completada 1.1.1. Esto significa que es la versión 1 del formato BACS personalizado (personalizado ficticio del Reino Unido), que se basa en la versión 1 del formato BACS (personalizado ficticio del Reino Unido), que se basa en la versión 1 del modelo de datos de pagos (modelo simplificado).  
 
 ## <a name="test-the-customized-format-to-generate-payment-files"></a>Probar el formato personalizado para generar archivos de pago
-    * Complete los pasos del procedimiento “Usar formato creado para generar documentos electrónicos para pagos” en una sesión paralela Finance and Operations. Seleccione el formato de BACS (personalizado ficticio del Reino Unido) en parámetros del método de pago electrónico. Asegúrese de que el archivo de pago creado contiene el nodo XML recién introducido que presenta código IBAN de acuerdo con los requisitos regionales.  
+Complete los pasos del procedimiento “Usar formato creado para generar documentos electrónicos para pagos” en una sesión paralela de Finance and Operations. Seleccione el formato de BACS (personalizado ficticio del Reino Unido) en parámetros del método de pago electrónico. Asegúrese de que el archivo de pago creado contiene el nodo XML recién introducido que presenta código IBAN de acuerdo con los requisitos regionales.  
 
 ## <a name="update-the-existing-country-specific-configuration"></a>Actualizar la configuración específica de país existente
-    * Litware. Inc debe actualizar la configuración de BACS (ficticio del Reino Unido) y adoptar nuevos requisitos de país para gestionar el formato de documentos electrónicos. Más adelante, esto se incluirá en una nueva versión de esta configuración que se ofrecerá para los suscriptores de servicio, incluidos Proseware, Inc.  
-    * En los procesos relacionados con las disposiciones de servicio reales, cada nueva versión de BACS (ficticio del Reino Unido) se puede importar por Proseware, Inc. desde Litware, Inc. configuraciones repositorias LCS En este procedimiento simularemos esto actualizando BACS (ficticio del Reino Unido) en nombre de un proveedor de servicio.  
+Litware. Inc debe actualizar la configuración de BACS (ficticio del Reino Unido) y adoptar nuevos requisitos de país para gestionar el formato de documentos electrónicos. Más adelante, esto se incluirá en una nueva versión de esta configuración que se ofrecerá para los suscriptores de servicio, incluidos Proseware, Inc.  
+
+En los procesos relacionados con las disposiciones de servicio reales, cada nueva versión de BACS (ficticio del Reino Unido) se puede importar por Proseware, Inc. desde Litware, Inc. configuraciones repositorias LCS En este procedimiento simularemos esto actualizando BACS (ficticio del Reino Unido) en nombre de un proveedor de servicio.  
 1. Cierre la página.
 2. Seleccione el proveedor Litware, Inc.
 3. Haga clic en Definir como activo.
@@ -122,9 +126,12 @@ Para finalizar estos pasos, debe completar primero los pasos de los procedimient
     * La versión provisional del provedor Litware, Inc. (ficticio del Reino Unido) se selecciona para incorporar cambios para admitir nuevos requisitos específicos de país.  
 
 ## <a name="localize-the-base-format-of-the-electronic-document"></a>Localizar el formato base del documento electrónico
-    * Supongamos que hay nuevos requisitos específicos de país que se deben admitir por Litware, Inc.: - Un valor para el código SWIFT del banco del acreedor en cada transacción de pago.  - Un límite de 100 caracteres para la longitud del texto para el nombre del proveedor en un archivo de generación.  
-    * Nuevos requisitos específicos de país  
-    * Seleccione la versión de borrador de la configuración que desee para introducir los cambios necesarios.  
+Supongamos que hay nuevos requisitos regionales específicos del país que admite Litware, Inc.:  
+
+- Un valor para el código SWIFT del banco del acreedor en cada transacción de pago.  - Un límite de 100 caracteres para la longitud del texto para el nombre del proveedor en un archivo de generación.  
+- Nuevos requisitos específicos de país  
+- Seleccione la versión de borrador de la configuración que desee para introducir los cambios necesarios.
+
 1. Haga clic en Diseñador.
 2. Haga clic en Expandir/Contraer.
 3. Haga clic en Expandir/Contraer.
@@ -155,7 +162,7 @@ Para finalizar estos pasos, debe completar primero los pasos de los procedimient
 2. Cierre la página.
 
 ## <a name="change-the-status-of-the-current-version-of-the-base-format-configuration"></a>Cambiar el estado de la versión actual de la configuración del formato base
-    * Cambie el estado de la configuración del formato base actualizada de Borrador a Completado para que esté disponible para la generación de documentos de pago y actualizaciones de configuraciones de formato derivadas de él.  
+Cambie el estado de la configuración del formato base actualizada de Borrador a Completado para que esté disponible para la generación de documentos de pago y actualizaciones de configuraciones de formato derivadas de él.  
 1. Haga clic en Cambiar estado.
     * Observe cómo la versión actual de la configuración seleccionada se encuentra en el estado Borrador.  
 2. Haga clic en Completar.
@@ -164,7 +171,10 @@ Para finalizar estos pasos, debe completar primero los pasos de los procedimient
 5. En la lista, busque y seleccione el registro deseado.
 
 ## <a name="change-the-base-version-for-the-custom-format-configuration"></a>Cambiar la versión de base para la configuración de formato personalizada
-    * Se informa a Proseware, Inc. de que hay una nueva versión 1.2 disponible de la configuración BACS (ficticio Reino Unido) para generar documentos de pago electrónico de acuerdo con los requisitos específicos de país anunciados recientemente. Proseware, Inc. desea empezar a usarla como estándar para el país.  Para ello, Proseware, Inc. tiene que cambiar la versión de la configuración base por la configuración personalizada BACS (personalizada ficticia del Reino Unido). En lugar de la versión 1.1 de BACS (ficticio Reino Unido), use la nueva versión 1.2.  
+Se informa a Proseware, Inc. de que hay una nueva versión 1.2 disponible de la configuración BACS (ficticio Reino Unido) para generar documentos de pago electrónico de acuerdo con los requisitos específicos de país anunciados recientemente. Proseware, Inc. desea empezar a usarla como estándar para el país.  
+
+Para ello, Proseware, Inc. tiene que cambiar la versión de la configuración base por la configuración personalizada BACS (personalizada ficticia del Reino Unido). En lugar de la versión 1.1 de BACS (ficticio Reino Unido), use la nueva versión 1.2.  
+
 1. Vaya a Administración de la organización > Espacios de trabajo > Informes electrónicos.
 2. seleccione Proseware, Inc. para marcarlo como proveedor activo.
 3. Haga clic en Definir como activo.
@@ -198,5 +208,5 @@ Para finalizar estos pasos, debe completar primero los pasos de los procedimient
     * Tenga en cuenta que la configuración creada se guarda como la versión 1.2.2 completada: versión 2 del formato BACS base (personalizado ficticia del Reino Unido), que se basa en la versión 2 del formato BACS base (ficticio Reino Unido), que se basa en la versión 1 del modelo de datos de pagos (modelo simplificado).  
 
 ## <a name="test-the-customized-format-for-payment-files-generation"></a>Probar el formato personalizado para generación de archivos de pago
-    * Complete los pasos del procedimiento “Usar formato creado para generar documentos electrónicos para pagos” en una sesión paralela de Finance and Operations. Seleccione el formato "BACS (personalizado ficticio del Reino Unido)" en parámetros del método de pago electrónico. Asegúrese de que el archivo de pago creado contiene el nodo XML recién introducido por Proseware, Inc. que presenta código de cuenta IBAN de acuerdo con los requisitos regionales. El archivo también debe contener el nodo XML recientemente introducido por Litware, Inc. que muestra el código bancario SWIFT de acuerdo con los requisitos de país.  
+Complete los pasos del procedimiento “Usar formato creado para generar documentos electrónicos para pagos” en una sesión paralela de Finance and Operations. Seleccione el formato "BACS (personalizado ficticio del Reino Unido)" en parámetros del método de pago electrónico. Asegúrese de que el archivo de pago creado contiene el nodo XML recién introducido por Proseware, Inc. que presenta código de cuenta IBAN de acuerdo con los requisitos regionales. El archivo también debe contener el nodo XML recientemente introducido por Litware, Inc. que muestra el código bancario SWIFT de acuerdo con los requisitos de país.  
 
