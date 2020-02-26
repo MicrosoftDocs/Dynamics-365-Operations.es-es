@@ -3,7 +3,7 @@ title: Bloqueo del inventario
 description: Este tema proporciona una visión general del bloqueo del inventario, que forma parte del proceso de inspección de calidad en Supply Chain Management. Puede usar el bloqueo del inventario para evitar que los artículos se procesen o se consuman.
 author: perlynne
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,18 +19,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f41fbe6e2034c0e58fc03d1dfbbd87844f3a4466
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: e1a870936619d07db01d5a8fe83b3fab73693187
+ms.sourcegitcommit: e5a3c85a322a9216b8f176536d664fef40ae0bec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814384"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "2971496"
 ---
 # <a name="inventory-blocking"></a>Bloqueo del inventario
 
 [!include [banner](../includes/banner.md)]
 
-Este artículo proporciona una visión general del bloqueo del inventario, que forma parte del proceso de inspección de calidad en Supply Chain Management. Puede usar el bloqueo del inventario para evitar que los artículos se procesen o se consuman.
+Este tema proporciona una visión general del bloqueo del inventario, que forma parte del proceso de inspección de calidad en Supply Chain Management. Puede usar el bloqueo del inventario para evitar que los artículos se procesen o se consuman.
 
 Puede bloquear artículos de inventario de las siguientes formas:
 -   Manualmente
@@ -43,6 +43,9 @@ Puede bloquear una cantidad de un artículo creando una transacción en la pági
 
 ## <a name="blocking-items-by-creating-a-quality-order"></a>Bloqueo de artículos creando un pedido de calidad
 Puede especificar los artículos que se deben inspeccionar creando un pedido de calidad en la página **Pedidos de calidad**. Cuando crea el pedido de calidad, la cantidad de un artículo especificada se bloquea. El plan de muestreo asociado al pedido de calidad controla solo la cantidad de artículos que se debe inspeccionar, no la cantidad que se bloquea. La cantidad especificada en el pedido de calidad es la cantidad que se bloquea, independientemente de la cantidad que el plan de muestreo especifique como que se deben enviar a inspección.
+
+> [!NOTE]
+> La planificación maestra no admite el uso de la fecha de vencimiento del lote y el bloqueo del estado del inventario. Esto podría resultar en una doble exclusión del inventario disponible, que puede ocurrir durante la planificación maestra. Recomendamos que confíe en los códigos de disposición de lotes, en lugar del estado del inventario, para bloquear lotes caducados.
 
 ## <a name="blocking-items-by-using-a-process-that-generates-a-quality-order"></a>Bloqueo de artículos mediante un proceso que genera un pedido de calidad
 Si un proceso de calidad especifica que se debe inspeccionar un artículo, se bloquea automáticamente una cantidad del artículo. Por tanto, cuando un pedido de calidad se genera automáticamente, el plan de muestreo del artículo asociado al pedido de calidad controla tanto la cantidad de artículos que se bloquea como la cantidad que debe inspeccionarse. Si la opción **Bloqueo completo** en la página **Muestreo de artículos** está seleccionada, la cantidad completa de, por ejemplo, una línea de pedido de compra, se bloquea durante la inspección, independientemente de la cantidad de muestreo del artículo.

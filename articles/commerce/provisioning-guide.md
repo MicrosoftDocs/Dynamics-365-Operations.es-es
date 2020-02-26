@@ -1,9 +1,9 @@
 ---
-title: Aprovisionar un entorno de vista previa de Commerce
+title: Aprovisionar un entorno de vista previa de Dynamics 365 Commerce
 description: En este tema se explica cómo aprovisionar un entorno de vista previa de Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 01/06/2020
+ms.date: 01/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,28 +18,28 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b77d2cbbc100aeae5dcd53ddbe69ff2e4435da13
-ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
+ms.openlocfilehash: cbd4c118de2e91c8849461b20a01403049a07e66
+ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2934757"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024645"
 ---
-# <a name="provision-a-commerce-preview-environment"></a>Aprovisionar un entorno de vista previa de Commerce
+# <a name="provision-a-dynamics-365-commerce-preview-environment"></a>Aprovisionar un entorno de vista previa de Dynamics 365 Commerce
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
-En este tema se explica cómo aprovisionar un entorno de vista previa de Microsoft Dynamics 365 Commerce.
+En este tema se explica cómo aprovisionar un entorno de vista previa de Dynamics 365 Commerce.
 
-Antes de empezar, el recomendamos que al menos eche un vistazo al tema completo para tener una idea de lo que conlleva el proceso y de lo que contiene este tema.
+Antes de comenzar, le recomendamos que lea rápidamente este tema para tener una idea de lo que requiere el proceso.
 
 > [!NOTE]
-> Si aún no se le ha concedido acceso a la vista previa de Dynamics 365 Commerce, puede solicitar acceso a la vista previa desde el [Sitio web de Commerce](https://aka.ms/Dynamics365CommerceWebsite).
+> Si aún no se le ha concedido acceso a la vista previa de Dynamics 365 Commerce, puede solicitar acceso a la vista previa desde el [Sitio web de Dynamics 365 Commerce](https://aka.ms/Dynamics365CommerceWebsite).
 
 ## <a name="overview"></a>Visión general
 
-Para aprovisionar correctamente su entorno de vista previa de Commerce, debe crear un proyecto que tenga un nombre y tipo de producto específicos. El entorno y Retail Cloud Scale Unit (RSCU) también tienen algunos parámetros específicos que necesita usar posteriormente para el aprovisionamiento de comercio electrónico. Las instrucciones de este tema describen todos los pasos necesarios y los parámetros que debe usar.
+Para aprovisionar correctamente su entorno de vista previa de Commerce, debe crear un proyecto que tenga un nombre y tipo de producto específicos. El entorno y Commerce Scale Unit (CSU) también tienen algunos parámetros específicos que necesita usar posteriormente para el aprovisionamiento de comercio electrónico. Las instrucciones de este tema describen todos los pasos necesarios para completar el aprovisionamiento y los parámetros que debe usar.
 
 Tras el aprovisionamiento correcto del entorno de vista previa de Commerce, debe completar algunos pasos posteriores al aprovisionamiento. Algunos pasos son opcionales, en función de los aspectos del sistema que desee evaluar. Siempre puede completar los pasos opcionales más adelante.
 
@@ -52,69 +52,21 @@ Si tiene preguntas acerca de los pasos de aprovisionamiento o si tiene problemas
 Deben cumplirse los siguientes requisitos previos para poder aprovisionar su entorno de vista previa de Commerce:
 
 - Tiene acceso al portal de Microsoft Dynamics Lifecycle Services (LCS).
+- Usted es un socio o cliente de Microsoft Dynamics 365 existente y puede crear un proyecto de Dynamics 365 Commerce.
 - Se le ha aceptado en el programa vista previa de Dynamics 365 Commerce.
-- Tiene los permisos necesarios para crear un proyecto para **Preventa de cliente potencial** o **Migrar, crear soluciones y obtener información sobre**.
+- Tiene los permisos necesarios para crear un proyecto para **Migrar, crear soluciones y obtener información sobre**.
 - Es miembro del rol **Administrador de entornos** o **Propietario de proyecto** en el proyecto en el que aprovisionará el entorno.
 - Tiene acceso de administrador a su suscripción de Microsoft Azure o está en contacto con un administrador de suscripción que pueda realizar los dos pasos que requieren permisos de administración en su nombre.
 - Tiene su id. de suscriptor de Azure Active Directory (Azure AD) disponible.
 - Ha creado un grupo de seguridad de Azure AD que se puede utilizar como un grupo de administración del sistema de comercio electrónico y tiene su id. disponible
 - Ha creado un grupo de seguridad de Azure AD que se puede utilizar como un grupo moderador de Clasificaciones y revisiones y tiene su id. disponible. (Este grupo de seguridad puede ser el mismo que el grupo de administración del sistema de comercio electrónico).
 
-### <a name="find-your-azure-ad-tenant-id"></a>Encontrar su id. de suscriptor de Azure AD
-
-Su id. de suscriptor de Azure AD es un identificador único global (GUID) que se parece a este ejemplo: **72f988bf-86f1-41af-91ab-2d7cd011db47**.
-
-#### <a name="find-your-azure-ad-tenant-id-by-using-the-azure-portal"></a>Encontrar su id. de suscriptor de Azure AD en el portal de Azure
-
-1. Inicie sesión en el [portal de Azure](https://portal.azure.com/).
-1. Asegúrese de que ha seleccionado el directorio correcto.
-1. En el menú de la izquierda, seleccione **Azure Active Directory**.
-1. En **Administrar**, seleccione **Propiedades**. Su id. de suscriptor de Azure AD aparece debajo de **Id. de directorio**.
-
-#### <a name="find-your-azure-ad-tenant-id-by-using-openid-connect-metadata"></a>Encontrar su id. de suscriptor de Azure AD mediante los metadatos de OpenID Connect
-
-Cree una dirección URL de OpenID reemplazando **\{SU\_DOMINIO\}** con su dominio (p. ej., `microsoft.com`). Por ejemplo, `https://login.microsoftonline.com/{YOUR_DOMAIN}/.well-known/openid-configuration` se convertiría en `https://login.microsoftonline.com/microsoft.com/.well-known/openid-configuration`.
-
-1. Vaya a la dirección URL de OpenID que contiene su dominio.
-
-    Encontrará su id. de suscriptor de Azure AD en varios valores de propiedades.
-
-1. Busque **authorization\_endpoint**y extraiga el GUID que aparece justo a continuación de `login.microsoftonline.com/`.
-
-### <a name="find-your-azure-ad-security-group-id"></a>Encontrar su id. de grupo de seguridad de Azure AD
-
-El id. de su grupo de seguridad de Azure AD es un GUID que se parece al de este ejemplo: **436ea7f5-ee6c-40c1-9f08-825c5811066a**.
-
-En este procedimiento se supone que usted es miembro del grupo para el que está tratando de encontrar la identificación.
-
-1. Abra el [Explorador de gráficos](https://developer.microsoft.com/graph/graph-explorer#).
-1. Seleccione **Iniciar sesión con Microsoft** e inicie sesión con sus credenciales.
-1. A la izquierda, seleccione **mostrar más ejemplos**.
-1. En el panel derecho, habilite **Grupos**.
-1. Cierre el panel derecho.
-1. Seleccione **todos los grupos a los que pertenezco**.
-1. En el campo **Vista previa de respuesta**, busque su grupo. El id. del grupo de seguridad aparece debajo de la propiedad **id**.
-
 ## <a name="provision-your-commerce-preview-environment"></a>Aprovisionar su entorno de vista previa de Commerce
 
 Estos procedimientos explican cómo aprovisionar un entorno de vista previa de Commerce. Una vez completados correctamente, el entorno de vista previa de Commerce estará listo para la configuración. Todas las actividades que se describen aquí tienen lugar en el portal de LCS.
 
 > [!IMPORTANT]
-> El acceso de vista previa está vinculado a la cuenta y organización de LCS que especificó en su aplicación de vista previa. Debe usar la misma cuenta para aprovisionar el entorno de vista previa de Commerce. Si tuviera que usar una cuenta o inquilino de LCS diferente para el entorno de vista previa de Commerce, debe proporcionar esos detalles a Microsoft. Para obtener información de contacto, consulte la sección [Compatibilidad con el entorno de vista previa de Commerce](#commerce-preview-environment-support) más adelante en este tema.
-
-### <a name="grant-access-to-e-commerce-applications"></a>Conceder acceso a aplicaciones de comercio electrónico
-
-> [!IMPORTANT]
-> La persona que inicie sesión debe ser un administrador de suscriptores de Azure AD que tenga el id. de suscriptor de Azure AD. Si este paso no se completa correctamente, tampoco lo harán los pasos de aprovisionamiento restantes.
-
-Para autorizar que las aplicaciones de comercio electrónico accedan a su suscripción de Azure, siga estos pasos.
-
-1. Ensamble una dirección URL con el siguiente formato:
-
-    `https://login.windows.net/{AAD_TENANT_ID}/oauth2/authorize?client_id=fbcbf727-cd18-4422-a723-f8274075331a&response_type=code&redirect_uri=https://sb.manage.commerce.dynamics.com/_commerce/Consent&response_mode=query&prompt=admin_consent&state=12345`
-
-1. Copie y pegue la dirección URL en su explorador o editor de texto, y reemplace **\{AAD\_TENANT\_ID\}** con su id. de suscriptor de Azure AD. A continuación, abra la dirección URL.
-1. En el cuadro de diálogo de inicio de sesión de Azure AD, inicie sesión y confirme que desea otorgar el acceso de **Dynamics 365 Commerce (Vista previa)** a su suscripción. Se le redirigirá a una página que indica si la operación se completó correctamente.
+> El acceso de vista previa está vinculado a la cuenta y organización de LCS que especificó en su aplicación de vista de Commerce. Debe usar la misma cuenta para aprovisionar el entorno de vista previa de Commerce. Si tiene que usar una cuenta o inquilino de LCS diferente para el entorno de vista previa de Commerce, debe proporcionar esos detalles a Microsoft. Para obtener información de contacto, consulte la sección [Compatibilidad con el entorno de vista previa de Commerce](#commerce-preview-environment-support) más adelante en este tema.
 
 ### <a name="confirm-that-preview-features-are-available-and-turned-on-in-lcs"></a>Confirmar que las características de vista previa están disponibles y activadas en LCS
 
@@ -210,12 +162,12 @@ La siguiente ilustración muestra las acciones que se deben tomar en la página 
 Para implementar el entorno, siga estos pasos.
 
 > [!NOTE]
-> Es posible que no tenga que completar los pasos 6, 7 u 8, ya que las páginas que tienen una sola opción se omiten. Cuando está en la vista **Parámetros del entorno**, confirme que el texto **Dynamics 365 Commerce (Vista previa) - Demo (10.0.6 con la Platform update 30)** aparece directamente encima del campo **Nombre del entorno**. Vea la ilustración que aparece después del paso 8.
+> Es posible que no tenga que completar los pasos 6, 7 u 8, ya que las páginas que tienen una sola opción se omiten. Cuando está en la vista **Parámetros del entorno**, confirme que el texto **Dynamics 365 Commerce - Demostración (10.0.* x* con Platform update *xx*)** aparece directamente encima del campo **Nombre del entorno**. Para obtener detalles, consulte la ilustración que aparece después del paso 8.
 
 1. En el menú superior, seleccione **Entornos hospedados en la nube**.
 1. Seleccione **Agregar** para agregar un entorno.
-1. En el campo **Versión de la aplicación**, seleccione **10.0.6**.
-1. En el campo **Versión de la plataforma**, seleccione **Platform Update 30**.
+1. En el campo **Versión de la aplicación**, seleccione la versión más actual. Si tiene una necesidad específica de seleccionar una versión de la aplicación que no sea la versión más actual, no seleccione una versión anterior a **10.0.8**.
+1. En el campo **Versión de la plataforma**, use la versión de plataforma que se elige automáticamente para la versión de la aplicación que ha seleccionado. 
 
     ![Seleccionar las versiones de la aplicación y la plataforma](./media/project1.png)
 
@@ -224,7 +176,7 @@ Para implementar el entorno, siga estos pasos.
 
     ![Seleccionar la topología del entorno 1](./media/project2.png)
 
-1. Seleccione **Dynamics 365 Commerce (Vista previa) - Demostración** como topología del entorno. Si ha configurado antes un conector de Azure , se usará para este entorno. Si configuró varios conectores de Azure, puede seleccionar el conector que desea usar: **Este de EE. UU.**, **Este de EE. UU. 2**, **Oeste de EE. UU.** u **Oeste de EE. UU. 2**. (Para obtener el mejor rendimiento de extremo a extremo, le recomendamos que seleccione **Oeste de EE. UU. 2** .)
+1. Seleccione **Demostración de Dynamics 365 Commerce** como topología del entorno. Si ha configurado antes un conector de Azure , se usará para este entorno. Si configuró varios conectores de Azure, puede seleccionar el conector que desea usar: **Este de EE. UU.**, **Este de EE. UU. 2**, **Oeste de EE. UU.** u **Oeste de EE. UU. 2**. (Para obtener el mejor rendimiento de extremo a extremo, le recomendamos que seleccione **Oeste de EE. UU. 2** .)
 
     ![Seleccionar la topología del entorno 2](./media/project3.png)
 
@@ -241,39 +193,38 @@ Para implementar el entorno, siga estos pasos.
 
 1. Antes de continuar, asegúrese de que el estado del entorno es **Implementado**.
 
-### <a name="initialize-rcsu"></a>Inicializar RCSU
+### <a name="initialize-the-commerce-scale-unit-csu"></a>Inicializar la Commerce Scale Unit (CSU)
 
-Para inicializar RCSU, siga estos pasos.
+Para inicializar CSU, siga estos pasos.
 
 1. En la vista **Entornos hospedados en la nube**, seleccione el entorno en la lista.
 1. En la vista del entorno a la derecha, seleccione **Detalles completos**. Aparecerá la vista de detalles del entorno.
 1. En **Características del entorno**, seleccione **Administrar**.
-1. En la pestaña **Venta minorista**, seleccione **Inicializar**. Aparece la vista de parámetros de inicialización de RCSU.
+1. En la pestaña **Commerce**, seleccione **Inicializar**. Aparece la vista de parámetros de inicialización de CSU.
 1. En el campo **Región**, seleccione **Este de EE. UU.**, **Este de EE. UU. 2**, **Oeste de EE. UU.** u **Oeste de EE. UU. 2**.
-1. En el campo **Versión**, seleccione **Especificar una versión** en la lista y luego especifique **9.16.19262.5** en el campo que aparece. Asegúrese de especificar la versión exacta que se indica aquí. De lo contrario, deberá actualizar RCSU a la versión correcta más adelante.
+1. En el campo **Versión**, seleccione **Especificar una versión** en la lista y luego especifique **9.18.20014.4** en el campo que aparece. Asegúrese de especificar la versión exacta que se indica aquí. De lo contrario, deberá actualizar RCSU a la versión correcta más adelante.
 1. Active la opción **Aplicar extensión**.
 1. En la lista de extensiones, seleccione **Extensión base de demostración de la vista previa de Commerce**.
 1. Seleccione **Inicializar**.
-1. En la pantalla de confirmación de la implementación, compruebe que los detalles sean correctos y haga clic en **Sí**. Se le devuelve a la vista **Administración de Retail** con la pestaña **Retail** seleccionada. Su RCSU ha estado en cola para aprovisionamiento.
-1. Antes de continuar, asegúrese de que el estado del RCSU es **Correcto**. La inicialización dura aproximadamente de dos a cinco horas.
+1. En la pantalla de confirmación de la implementación, compruebe que los detalles sean correctos y haga clic en **Sí**. La vista **Administración de comercio electrónico** vuelve a aparecer, donde la pestaña **Commerce** está seleccionada. Su CSU ha estado en cola para aprovisionamiento.
+1. Antes de continuar, asegúrese de que el estado del CSU es **Correcto**. La inicialización dura aproximadamente de dos a cinco horas.
 
 ### <a name="initialize-e-commerce"></a>Inicializar comercio electrónico
 
 Para inicializar la plataforma de comercio electrónico, siga estos pasos.
 
-1. En la pestaña **Comercio electrónico (vista previa)**, revise el consentimiento de vista previa y, a continuación, seleccione **Preparar**.
+1. En la pestaña **Comercio electrónico**, revise el consentimiento de vista previa y, a continuación, seleccione **Preparar**.
 1. En el campo **Nombre de inquilino de comercio electrónico**, escriba un nombre. Sin embargo, tenga en cuenta que este nombre aparecerá en algunas de las direcciones URL que apuntan a su instancia de la plataforma de comercio electrónico.
-1. En el campo **Nombre de Retail Cloud Scale Unit**, seleccione su RCSU en la lista. (La lista debe tener una sola opción).
+1. En el campo **Nombre de Commerce Scale Unit**, seleccione su CSU en la lista. (La lista debe tener una sola opción).
 
     El campo **Geografía de comercio electrónico** se establece automáticamente y el valor no se puede cambiar.
 
 1. Seleccione **Siguiente** para continuar.
 1. En el campo **Nombres de hosts admitidos**, especifique cualquier dominio válido, como `www.fabrikam.com`.
-1.  En el campo **Grupo de seguridad de AAD para administrador del sistema**, escriba las primeras letras del nombre del grupo de seguridad que desea usar. Seleccione el ícono de lupa para mostrar los resultados de la búsqueda. Seleccione un grupo de seguridad en la lista.
-2.  En el campo **Grupo de seguridad de AAD para moderadores de clasificaciones y opiniones**, escriba las primeras letras del nombre del grupo de seguridad que desea usar. Seleccione el ícono de lupa para mostrar los resultados de la búsqueda. Seleccione un grupo de seguridad en la lista.
+1.  En el campo **Grupo de seguridad de AAD para administrador del sistema**, escriba las primeras letras del nombre del grupo de seguridad que desea usar. Seleccione el ícono de lupa para mostrar los resultados de la búsqueda. Seleccione un grupo de seguridad correcto en la lista.
+2.  En el campo **Grupo de seguridad de AAD para moderadores de clasificaciones y opiniones**, escriba las primeras letras del nombre del grupo de seguridad que desea usar. Seleccione el ícono de lupa para mostrar los resultados de la búsqueda. Seleccione un grupo de seguridad correcto en la lista.
 1. Mantenga activada la opción **Habilitar servicio de calificaciones y revisiones**.
-1. Si ya ha completado el paso de consentimiento de Microsoft Azure Active Directory (Azure AD) como se describe en la sección "Conceder acceso a aplicaciones de comercio electrónico", active la casilla para confirmar su consentimiento. Si aún no ha completado este paso, debe hacerlo antes de continuar con la inicialización. Seleccione el vínculo en el texto junto a la casilla para abrir el cuadro de diálogo de consentimiento y completar el paso.
-1. Seleccione **Inicializar**. Se le devuelve a la vista **Administración de Retail**, con la pestaña **Comercio electrónico (vista previa)** selecciona. Comienza la inicialización del comercio electrónico.
+1. Seleccione **Inicializar**. La vista **Administración de comercio electrónico** vuelve a aparecer, donde la pestaña **Comercio electrónico** está seleccionada. Comienza la inicialización del comercio electrónico.
 1. Antes de continuar, espere hasta que el estado de inicialización de comercio electrónico sea **Inicialización correcta**.
 1. En **Vínculos**, en la esquina inferior derecha, tome nota de las direcciones URL de los siguientes vínculos:
 
@@ -292,13 +243,13 @@ Para continuar con el proceso de aprovisionamiento y configurar su entorno de vi
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Resumen del entorno de vista previa de Commerce](cpe-overview.md)
+[Información general del entorno de vista previa de Dynamics 365 Commerce](cpe-overview.md)
 
-[Configurar un entorno de vista previa de Commerce](cpe-post-provisioning.md)
+[Configurar un entorno de vista previa de Dynamics 365 Commerce](cpe-post-provisioning.md)
 
-[Configurar características opcionales para un entorno de vista previa de Commerce](cpe-optional-features.md)
+[Configurar características opcionales para un entorno de vista previa de Dynamics 365 Commerce](cpe-optional-features.md)
 
-[Preguntas más frecuentes del entorno de vista previa de Commerce](cpe-faq.md)
+[Preguntas frecuentes sobre el entorno de vista previa de Dynamics 365 Commerce](cpe-faq.md)
 
 [Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
@@ -308,4 +259,3 @@ Para continuar con el proceso de aprovisionamiento y configurar su entorno de vi
 
 [Sitio web de Dynamics 365 Commerce](https://aka.ms/Dynamics365CommerceWebsite)
 
-[Recursos de ayuda para Dynamics 365 Retail](../retail/index.md)

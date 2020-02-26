@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9a033853be17d6013daa5550ca9c061198bb0330
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 548f16034ebdf7e0f29e8e89d85aac880f6323a1
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184747"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026249"
 ---
 # <a name="er-map-components-of-the-created-format-to-data-model-elements-november-2016"></a>ER Asignar componentes del formato creado a los elementos del modelo de datos (noviembre de 2016)
 
@@ -98,7 +98,7 @@ El procedimiento siguiente muestra cómo un usuario con rol de Administrador del
 2. Cierre la página.
 
 ## <a name="change-status-of-the-current-version-of-format-configuration"></a>Cambio del estado de la versión actual de la configuración del formato
-    * En los siguientes pasos, usted cambiará el estado de la configuración del formato de Borrador a Completado para que esté disponible para la generación de documentos de pago.  
+En los siguientes pasos, usted cambiará el estado de la configuración del formato de Borrador a Completado para que esté disponible para la generación de documentos de pago.  
 1. Haga clic en Cambiar estado.
 2. Haga clic en Completar.
 3. En el campo Descripción, escriba un valor.
@@ -108,7 +108,7 @@ El procedimiento siguiente muestra cómo un usuario con rol de Administrador del
     * Tenga en cuenta que la configuración se guarda como una versión 1.1 completa: versión 1 del formato basado en la versión 1 del modelo de datos.  
 
 ## <a name="define-effective-date-for-completed-version-of-format"></a>Definición de la fecha de vigencia para la versión finalizada del formato
-    * Cada versión del formato se puede configurar como disponible para su uso a partir de una fecha concreta. Cuando haya más de una versión de formato activa en una fecha concreta, se seleccionará para su uso el formato más reciente (según el número de versión). El valor de fecha de sesión se usa para seleccionar la versión adecuada.  
+Cada versión del formato se puede configurar como disponible para su uso a partir de una fecha concreta. Cuando haya más de una versión de formato activa en una fecha concreta, se seleccionará para su uso el formato más reciente (según el número de versión). El valor de fecha de sesión se usa para seleccionar la versión adecuada.  
 
 ## <a name="restrict-access-to-created-format-from-companies"></a>Restricción del acceso al formato creado desde empresas
 1. Expanda la sección Códigos ISO de país/región.

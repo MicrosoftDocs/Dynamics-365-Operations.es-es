@@ -1,6 +1,6 @@
 ---
-title: Documentación de la aplicación Finance and Operations
-description: Documentación para las aplicaciones de Finance and Operations
+title: Documentación de la aplicación de Finance and Operations
+description: Documentación para las aplicaciones de Finance and Operations.
 author: robinarh
 manager: AnnBe
 ms.date: 07/25/2019
@@ -17,20 +17,20 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 89139c149146b64125370c3840f8d3011b92e067
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 4249f2ec09e6742c843122c189cc7db7f72d1146
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770928"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005549"
 ---
-# <a name="finance-and-operations-application-documentation"></a>Documentación de la aplicación Finance and Operations
+# <a name="finance-and-operations-application-documentation"></a>Documentación de la aplicación de Finance and Operations
 
 [!include [banner](includes/banner.md)]
 
 Obtenga información sobre cómo hacer que las aplicaciones de Finance and Operations funcionen para su empresa, usando los recursos de este tema para encontrar contenido óptimo para usuarios finales, desarrolladores y profesionales de TI. 
 
-Gran parte de este contenido también se aplica a los productos relacionados: Dynamics 365 Retail y Talent. 
+Mucho de este contenido también se aplica a los productos relacionados: Dynamics 365 Commerce y Dynamics 365 Human Resources. 
 
 <table>
 <colgroup>
@@ -51,7 +51,7 @@ Gran parte de este contenido también se aplica a los productos relacionados: Dy
 <p><a href="imp-lifecycle/onboard.md">Incorporación de un proyecto</a></p>
 <p><a href="imp-lifecycle/prepare-go-live.md">Prepararse para la publicación</a></p>
 
-<h3><a href="../dev-itpro/lifecycle-services/oneversion-overview.md">Actualizaciones del servicio de una versión</a></h3>
+<h3><a href="../dev-itpro/lifecycle-services/oneversion-overview.md">Actualizaciones del servicio de One Version</a></h3>
 <p><a href="get-started/one-version.md">Preguntas frecuentes sobre actualizaciones del servicio de una versión</a></p>
 <p><a href="../dev-itpro/migration-upgrade/versions-update-policy.md">Directiva del ciclo de vida del software: nube</a></p>
 <p><a href="../dev-itpro/migration-upgrade/on-prem-version-update-policy.md">Directiva del ciclo de vida del software: local</a></p>
@@ -84,9 +84,9 @@ Gran parte de este contenido también se aplica a los productos relacionados: Dy
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">Características normativas regionales</a></p>
 
 <h3><a href="hr/hr-landing-page.md">Recursos humanos</a></h3>
-<p><a href="../../talent/manage-benefit-program.md">Prestaciones</a></p>
-<p><a href="../../talent/performance-management-overview.md">Desarrollo y formación de empleados</a></p>
-<p><a href="../../talent/questionnaires.md">Cuestionario</a></p>
+<p><a href="../../human-resources/hr-benefits-manage-program.md">Prestaciones</a></p>
+<p><a href="../../human-resources/hr-develop-performance-management-overview.md">Desarrollo y formación de empleados</a></p>
+<p><a href="../../human-resources/hr-learning-questionnaires.md">Cuestionarios</a></p>
 <p><a href="hr/manage-recruiting-process.md">Contratación</a></p>
 <p><a href="hr/localizations/noam-usa-payroll.md">Nómina de EE. UU.</a></p>
 
@@ -129,16 +129,17 @@ Gran parte de este contenido también se aplica a los productos relacionados: Dy
 </td>
 <td>
 <h3>Productos relacionados</h3>
-<h4><a href="../../retail/index.md">Dynamics 365 Retail</a></h4>
+<h4><a href="../../retail/index.md">Dynamics 365 Commerce</a></h4>
 <p><a href="../../retail/call-center-functionality.md">Centro de llamadas</p>
 <p><a href="../../retail/define-maintain-retail-channels.md">Configuración y gestión de canal</p>
 <p><a href="../../retail/retail-peripherals-overview.md">MPOS y Cloud POS</p>
-<p><a href="../../retail/dev-itpro/dev-retail-home-page.md">Desarrollador y administración de Retail</p>
+<p><a href="../../retail/dev-itpro/dev-retail-home-page.md">Desarrollador y administración de Commerce</p>
 
-<h4><a href="../../talent/index.yml">Dynamics 365 Talent</a></h4>
-<p><a href="../../talent/manage-benefit-program.md">Prestaciones</a></p>
-<p><a href="../../talent/performance-management-overview.md">Desarrollo y formación de empleados</a></p>
-<p><a href="../../talent/questionnaires.md">Cuestionario</a></p>
+<h4><a href="../../human-resources/hr-welcome.md">Dynamics 365 Human Resources</a></h4>
+<p><a href="../../human-resources/hr-admin-overview.md">Guía del administrador</a></p>
+<p><a href="../../human-resources/hr-developer-overview.md">Guía de desarrollador</a></p>
+<p><a href="../../human-resources/hr-hrpro-overview.md">Manual del usuario</a></p>
+
 
 </td>
 </tr>

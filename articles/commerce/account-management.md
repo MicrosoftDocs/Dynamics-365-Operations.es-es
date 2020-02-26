@@ -3,7 +3,7 @@ title: Módulos y páginas de gestión de cuentas
 description: Este tema cubre los módulos y las páginas de gestión de cuentas en Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 12/02/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,16 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f9fc3731cd9d21294b0161e1d419f255096d7790
-ms.sourcegitcommit: 96bfc20eb748f4090a2b5e1ff9f54997d5a5d359
+ms.openlocfilehash: 8787a7b01ecf15752569d2a3a8d7804fe492e63d
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "2885818"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025729"
 ---
 # <a name="account-management-pages-and-modules"></a>Módulos y páginas de gestión de cuentas
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Este tema cubre los módulos y las páginas de gestión de cuentas en Microsoft Dynamics 365 Commerce.
@@ -40,13 +40,12 @@ La gestión de cuentas hace referencia a un grupo de páginas que se usa para ge
 
 La página de aterrizaje de la gestión de cuentas utiliza los siguientes módulos:
 
-- **Colocación de contenido**: Este módulo es un módulo de contenedor que contiene todos los módulos de la página de aterrizaje de la gestión de cuentas.
-- **Elemento de bienvenida de la cuenta**: Este módulo se utiliza para proporcionar un mensaje de bienvenida en la página de gestión de cuentas. Incluye las propiedades del encabezado y el tamaño del icono. La propiedad **Tamaño de icono** define el ancho del módulo en el módulo de colocación de contenido. Los valores oscilan entre **1** y **12**, donde **12** representa el ancho total del contenedor de colocación de contenido.
-- **Elemento de realización de pedidos de cuenta**: Este módulo se utiliza para proporcionar un resumen del número de pedidos que se han realizado por la cuenta del usuario. Incluye las propiedades del encabezado, el tamaño del icono y el vínculo "ver detalles". El vínculo “ver detalles” se debe configurar para redirigir a la página del historial de pedidos.
-- **Elemento de colocación del perfil de cuenta**: Este módulo se utiliza para proporcionar un resumen del perfil de usuario. Incluye las propiedades del encabezado, el tamaño del icono y el vínculo "ver detalles". El vínculo “ver detalles” se debe configurar para redirigir a la página del perfil de usuario.
-- **Elemento de lista de deseos de cuenta**: Este módulo se utiliza para proporcionar un resumen de los artículos de la lista de deseos del cliente. Por ejemplo, es posible que indique “Tiene 10 artículos en su lista de deseos.” Incluye las propiedades del encabezado, el tamaño del icono y el vínculo "ver detalles". El vínculo “ver detalles” se debe configurar para redirigir a la página de la lista de deseos.
-- **Elemento de dirección de la cuenta**: Este módulo se utiliza para proporcionar un resumen de las direcciones del usuario. Por ejemplo, es posible que indique “Tiene 2 direcciones agregadas a su cuenta”. Incluye las propiedades del encabezado, el tamaño del icono y el vínculo "ver detalles". El vínculo “ver detalles” se debe configurar para redirigir a la página de dirección del usuario.
-- **Elemento de fidelización de cuenta**: Este módulo se usa para mostrar y vincular a la información del programa de fidelización. Incluye las propiedades del encabezado, el tamaño del icono, el vínculo "ver detalles" y el vínculo "convertirse en un miembro". El vínculo “ver detalles” se debe configurar para redirigir a la página de fidelización. El vínculo “convertirse en un miembro” se debe configurar para redirigir a una página donde los usuarios puedan unirse al programa de fidelización.
+- **Contenedor**: todos los módulos de página de aterrizaje de administración de cuentas deben colocarse dentro de un contenedor. 
+- **Ventana de bienvenida de cuenta**: este módulo se usa para proporcionar un mensaje de bienvenida en la página de administración de cuentas. Incluye propiedades para el encabezado.
+- **Ventana genérica de cuenta**: este módulo se puede utilizar para proporcionar encabezados y vínculos a páginas de administración de cuentas, como las páginas "Historial de pedidos" o "Mi perfil". El módulo de ventana genérica se puede utilizar para configurar una ventana para cualquier página. En Fabrikam, este módulo se utiliza para los vínculos de página "Historial de pedidos" y "Mi perfil" en la página de aterrizaje de administración de cuentas.
+- **Ventana de lista de deseos de cuenta**: este módulo se utiliza para proporcionar un resumen de los artículos de la lista de deseos del cliente. Por ejemplo, es posible que indique “Tiene 10 artículos en su lista de deseos.” Incluye las propiedades del encabezado y el vínculo "Ver detalles". El vínculo "Ver detalles" se debe configurar para redirigir a la página de la lista de deseos. 
+- **Ventana de dirección de la cuenta**: este módulo se utiliza para proporcionar un resumen de las direcciones del usuario. Por ejemplo, es posible que indique “Tiene 2 direcciones agregadas a su cuenta”. Incluye las propiedades del encabezado y el vínculo "Ver detalles". El vínculo "Ver detalles" se debe configurar para redirigir a la página de dirección del usuario.
+- **Ventana de fidelización de cuenta**: este módulo se usa para mostrar información del programa de fidelización y vincularla. La ventana tiene dos estados: un estado muestra vínculos para unirse a un programa de fidelización si el usuario aún no es miembro. El otro estado muestra vínculos para ver la página de detalles de fidelización cuando el usuario ya es miembro. Las propiedades incluyen el encabezado, el vínculo "Registrarse" y el vínculo "Ver fidelización". El vínculo "Ver fidelización" se debe configurar para redirigir a la página de fidelización. El vínculo “Registrarse” se debe configurar para redirigir a una página donde los usuarios puedan unirse al programa de fidelización. 
 
 ### <a name="order-history-page"></a>Página de historial de pedidos
 
@@ -58,7 +57,7 @@ La página de detalles de pedido proporciona información detallada para cada pe
 
 ### <a name="user-profile-page"></a>Página de perfil de usuario
 
-La página de perfil de usuario muestran los detalles de la cuenta de un usuario, como el nombre y la dirección de correo electrónico del usuario. Permite usar el módulo del perfil de usuario. Aunque la dirección de correo electrónico no se pueda quitar, se puede editar. La página de perfil de usuario también muestra las preferencias del usuario que le permiten a un usuario optar o no por ciertas funciones, como la personalización de las listas de recomendaciones. 
+La página de perfil de usuario muestran los detalles de la cuenta de un usuario, como el nombre y la dirección de correo electrónico del usuario. Usa los detalles del perfil de usuario y los módulos de edición del perfil de usuario. Aunque la dirección de correo electrónico no se pueda quitar, se puede editar. La página de perfil de usuario también muestra las preferencias del usuario que le permiten a un usuario optar o no por ciertas funciones, como la personalización de las listas de recomendaciones. 
 
 ### <a name="user-address-page"></a>Página de la dirección de correo electrónico del usuario
 
@@ -70,7 +69,9 @@ La página de lista de deseos muestra los artículos que se han agregado a la li
 
 ### <a name="loyalty-page"></a>Página de fidelización
 
-La página de fidelización permite a los clientes unirse a un programa de fidelización o, si ya son miembros del programa de fidelización, ver sus detalles de programa. También pueden ver los puntos que han obtenido y canjeado en transacciones recientes.
+La página de fidelización permite a los clientes ver sus detalles de fidelización si ya son miembros del programa de fidelización. También pueden ver los puntos que han obtenido y canjeado en transacciones recientes. La página usa el módulo de detalles de fidelización para mostrar los detalles de fidelización. 
+
+Para unirse al programa de fidelización, se puede crear una página de marketing con módulos de registro y términos de fidelización. Si el usuario no es miembro de un programa de fidelización, estos módulos le permitirán registrarse.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

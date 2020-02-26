@@ -10,17 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Operations, Talent
+ms.search.scope: Operations, Human Resources
 ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 272cf991301fa5c2df8a6de3354588fc372fa92f
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: c2ad5f30ed0e69df1769eb0379b5da2865d4ce4f
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248742"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005618"
 ---
 # <a name="my-team-mobile-workspace"></a>Espacio de trabajo móvil Mi equipo
 
@@ -53,11 +53,11 @@ Para poder usar este espacio de trabajo móvil, antes debe satisfacer los siguie
 <tr class="odd">
 <td>Uno de los siguientes productos se debe haber implementado en su organización:
 <ul><li>Una aplicación Finance and Operations</li>
-<li>Microsoft Dynamics 365 Talent</li>
+<li>Microsoft Dynamics 365 Human Resources</li>
 </ul>
 </td>
 <td>Administrador del sistema</td>
-<td>Si no tiene la aplicación Finance and Operations implementado en su organización, consulte <a href="../deployment/deploy-demo-environment.md">Implementar un entorno de demostración</a>. Si no tiene Talent en su organización, el administrador del sistema puede obtener acceso a una versión de prueba en la <a href="https://www.microsoft.com/dynamics365/talent">página web de Talent</a>.
+<td>Si aún no tiene un aplicación de Finance and Operations implementada en su organización, consulte <a href="../deployment/deploy-demo-environment.md">Implementar un entorno de demostración</a>. Si aún no tiene Recursos humanos implementado en su organización, el administrador del sistema puede acceder a una versión de prueba en la <a href="https://dynamics.microsoft.com/human-resources/overview/">página web de Recursos humanos</a>.
 </td>
 </tr>
 <tr class="even">
@@ -70,7 +70,7 @@ Para poder usar este espacio de trabajo móvil, antes debe satisfacer los siguie
 
 ## <a name="download-and-install-the-mobile-app"></a>Descargar e instalar la aplicación móvil
 
-Descargue e instale la aplicación móvil Finance and Operations:
+Descargar e instalar la aplicación móvil de Finance and Operations:
 
 -   [Para teléfonos Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Para iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

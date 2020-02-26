@@ -3,7 +3,7 @@ title: Glosario del modelo de página
 description: En este tema se describen varios elementos que se utilizan en las páginas de un sitio de Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 01/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0285af2f73a25db3199b3cb089bc0b253a3b3f00
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: da41440581ad952540c7dcf3caa5e23582198a36
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914873"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026003"
 ---
 # <a name="page-model-glossary"></a>Glosario del modelo de página
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 En este tema se describen varios elementos que se utilizan en las páginas de un sitio de Microsoft Dynamics 365 Commerce.
@@ -41,10 +41,10 @@ En la tabla siguiente se ofrece un resumen de las condiciones con las que deber�
 | Propiedad de módulo | <p>**Definición:** las propiedades de módulos son valores específicos que se han definido por el módulo. Se pueden editar en las herramientas de creación de comercio electrónico. Por ejemplo, las propiedades del módulo se utilizan para establecer el encabezado y la imagen de fondo de un módulo de banner.</p><p>**Donde se ha configurado:** las propiedades del módulo están seleccionadas y configuradas en el panel de propiedades que aparece en los entornos de creación (editores) para la configuración de aplicaciones, plantillas, diseños, páginas y fragmentos.</p> |
 | [Plantilla](templates-layouts-overview.md) | <p>**Definición:** las plantillas definen las combinaciones y las opciones de módulo que se deben utilizar para una categoría de páginas (por ejemplo, páginas de marketing, páginas de categorías y páginas de productos).</p><p>**Donde ha seleccionado:** las plantillas se pueden seleccionar durante los flujos de trabajo de creación de páginas o diseños.</p><p>**Donde se ha editado:** las plantillas se crean en el editor de plantillas. No se requiere ningún código para crearlas o modificarlas.</p> |
 | [Diseño](templates-layouts-overview.md) | <p>**Definición:** los diseños definen la organización y la selección final de módulos del conjunto de opciones de la plantilla principal. Se puede configurar un diseño para una sola página (*diseño personalizado*) o se puede compartir por varias páginas (*diseño preestablecido*).</p><p>**Donde se ha seleccionado:** los diseños se pueden seleccionar durante la creación de páginas nuevas o cuando se requiere un diseño distinto para una página existente.</p><p>**Donde se ha editado:** los diseños se crean en el editor de diseños. No se requiere ningún código para crearlas o modificarlas.</p> |
-| Instancia de página | <p>**Definición:** las instancias de página definen el contenido localizado específico de página final para una página única. Este contenido se obtiene de los valores de las propiedades de módulo.</p><p>**Donde se ha seleccionado:** las páginas se seleccionan cuando se asignan direcciones URL.</p><p>**Donde se ha editado:** las páginas se editan en el editor de páginas. No se requiere ningún código para crearlas o modificarlas.</p> |
+| [Instancia de página](modify-existing-page.md) | <p>**Definición:** las instancias de página definen el contenido localizado específico de página final para una página única. Este contenido se obtiene de los valores de las propiedades de módulo.</p><p>**Donde se ha seleccionado:** las páginas se seleccionan cuando se asignan direcciones URL.</p><p>**Donde se ha editado:** las páginas se editan en el editor de páginas. No se requiere ningún código para crearlas o modificarlas.</p> |
 | [Tema](select-site-theme.md) | <p>**Definición:** los temas definen la hoja de estilos en cascada (CSS) y determinan el aspecto de los módulos que se representan en una página.</p><p>**Donde se ha seleccionado:** cuando se carga un tema en un sitio mediante Lifecycle Services (LCS) de Microsoft Dynamics, se puede seleccionar como propiedad del módulo de contenedor de páginas.</p><p>**Donde se ha editado:** los temas se crean y editan actualmente con el SDK. A continuación, se cargan en el sitio mediante LCS.</p> |
 | [Fragmento](work-with-fragments.md) | <p>**Definición:** los fragmentos son módulos completamente configurados con contenido localizado que se pueden volver a usar y actualizar centralmente entre varias páginas. Por ejemplo, un fragmento que se crea desde un módulo de encabezado se puede usar en todas las plantillas y en todas las páginas del sitio, y actualizarse centralmente en un lugar.</p><p>**Donde se ha seleccionado:** los fragmentos se pueden seleccionar siempre que se puedan seleccionar los módulos. Se pueden sustituir por un módulo para ayudar a aumentar la eficacia a través de la creación centralizada y reutilizable.</p><p>**Donde se ha editado:** los fragmentos se editan en el editor de fragmentos. No se requiere ningún código para crearlas o modificarlas.</p> |
-| URL | <p>**Definición:** los localizadores uniformes de recursos (URLs) son las direcciones que apuntan a páginas web o a otras direcciones URL.</p><p>**Donde se ha seleccionado:** las direcciones se seleccionan siempre que se requieren vínculos entre páginas.</p><p>**Donde se ha editado:** las direcciones URL se editan en el editor de URL. No se requiere ningún código para crearlas o modificarlas.</p> |
+| [URL](create-page-URL.md) | <p>**Definición:** los localizadores uniformes de recursos (URLs) son las direcciones que apuntan a páginas web o a otras direcciones URL.</p><p>**Donde se ha seleccionado:** las direcciones URL se seleccionan si se requieren vínculos entre páginas.</p><p>**Donde se ha editado:** las direcciones URL se editan en el editor de URL. No se requiere ningún código para crearlas o modificarlas.</p> |
 | Activo | <p>**Definición:** los activos son binarios de archivos que tienen una extensión como .jpg, .docx, .pdf, o .mpg.</p><p>**Donde se ha seleccionado:** los activos están seleccionados como propiedades de módulo para módulos que los requieren.</p><p>**Donde ha editado:** los activos se cargan y los metadatos asociados se editan en el administrador de activos.</p> |
 
 ## <a name="additional-resources"></a>Recursos adicionales

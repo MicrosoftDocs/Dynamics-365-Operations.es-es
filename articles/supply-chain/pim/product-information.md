@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 21ee0b835cbe6cc3a238247be29f8a8d3de42a8d
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: bdbff802ca85f7cc568efb8a1aacaf6f8fb2874a
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570757"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3004005"
 ---
 # <a name="product-information-overview"></a>Información general del producto
 
@@ -32,7 +32,7 @@ ms.locfileid: "2570757"
 
 Este tema proporciona información acerca de la gestión de información de productos. La gestión de información de productos funciona con una definición de producto, una clasificación e identificadores compartidos entre todas las entidades jurídicas, y también de configuraciones específicas de un producto que se ajusten a los procesos empresariales. 
 
-La información de producto es la base de la cadena de suministro y de las aplicaciones de venta minorista en todos los sectores. Hace referencia a los procesos y las tecnologías que se centran en gestionar la información de productos de forma centralizada (por ejemplo, en varias cadenas de suministros). Es esencial que se utilicen las definiciones de producto, la documentación, los atributos y los identificadores compartidos. En los varios módulos de una solución empresarial, la información y la configuración específicas de un producto son necesarias para administrar procesos de negocio relacionados con productos, familias de productos o categorías de productos específicas.
+La información de producto es la base de la cadena de suministro y de las aplicaciones de Commerce en todos los sectores. Hace referencia a los procesos y las tecnologías que se centran en gestionar la información de productos de forma centralizada (por ejemplo, en varias cadenas de suministros). Es esencial que se utilicen las definiciones de producto, la documentación, los atributos y los identificadores compartidos. En los varios módulos de una solución empresarial, la información y la configuración específicas de un producto son necesarias para administrar procesos de negocio relacionados con productos, familias de productos o categorías de productos específicas.
 
 ## <a name="product-definition"></a>Definición de producto
 

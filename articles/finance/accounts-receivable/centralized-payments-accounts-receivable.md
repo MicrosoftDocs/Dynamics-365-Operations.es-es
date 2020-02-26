@@ -3,7 +3,7 @@ title: Pagos centralizados para Clientes
 description: Las organizaciones que constan de diversas entidades jurídicas pueden crear y administrar pagos con una entidad jurídica única que controle todos los pagos. Por lo tanto, no tiene que especificarse la misma transacción en varias entidades jurídicas. Este artículo proporciona ejemplos que muestran cómo el registro para pagos centralizados se gestiona en distintos escenarios.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 02/13/2019
+ms.date: 01/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 59942fadb0fb702c59c95f75359f1a3036e4668f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 78c72bb9632d3501638d528822a3c30b05686796
+ms.sourcegitcommit: 9168621ca9b5061c65f3e05dbc5918b6a11d53d5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179835"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "3000102"
 ---
 # <a name="centralized-payments-for-accounts-receivable"></a>Pagos centralizados para Clientes
 
@@ -88,8 +88,8 @@ Fabrikam recibe un pago de 580,00 del cliente 4000 de Fabrikam, Northwind Trader
 
 | Cuenta                             | Importe de débito | Importe de crédito |
 |-------------------------------------|--------------|---------------|
-| Clientes (Fabrikam Este) | 600,00       |               |
-| Ventas (Fabrikam Este)               |              | 600,00        |
+| Clientes (Fabrikam Este) | 580.00       |               |
+| Ventas (Fabrikam Este)               |              | 580.00        |
 
 ### <a name="payment-is-received-and-posted-in-fabrikam-for-fabrikam-customer-4000"></a>Se recibe y registra el pago del cliente 4000 de Fabrikam en Fabrikam
 

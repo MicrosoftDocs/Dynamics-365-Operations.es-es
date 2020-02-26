@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 347db3af36521e11dc70d5188dcc54b07efa1fbe
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 07905b9a843eb42d3031dcc80b4e185c122a9e50
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697851"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002944"
 ---
 # <a name="overview-of-cart-and-checkout-pages"></a>Visión general de las páginas del carro y de la finalización de la compra
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Este tema proporciona una visión general de las páginas de carro y finalización de pago en Microsoft Dynamics 365 Commerce.
@@ -65,11 +65,11 @@ El cuerpo principal de página de finalización de compra es donde se recoge tod
 
 ### <a name="shipping-address"></a>Dirección de envío
 
-Se requiere una dirección de envío si se deben enviar los artículos. El formato de direcciones de envío para cada configuración regional se puede configurar en Dynamics 365 Retail. Por ejemplo, si los artículos se envían a Estados Unidos, la dirección de envío debe incluir una dirección con el nombre de la calle, un estado y un código postal. Alguna validación de entrada básica se realiza para campos de dirección de envío, como una validación para caracteres alfanuméricos, longitud máxima y números. Aunque la validez de la propia dirección no está verificada, esta comprobación se puede realizar mediante servicios de terceros personalizados.
+Se requiere una dirección de envío si se deben enviar los artículos. El formato de direcciones de envío para cada configuración regional se puede configurar en Dynamics 365 Commerce. Por ejemplo, si los artículos se envían a Estados Unidos, la dirección de envío debe incluir una dirección con el nombre de la calle, un estado y un código postal. Alguna validación de entrada básica se realiza para campos de dirección de envío, como una validación para caracteres alfanuméricos, longitud máxima y números. Aunque la validez de la propia dirección no está verificada, esta comprobación se puede realizar mediante servicios de terceros personalizados.
 
 La dirección de envío se aplica a todos los artículos del carro para los que la opción “enviar” está seleccionada. Si utiliza el flujo de finalización de pago que se proporciona en el kit de inicio en línea, los elementos individuales del carro no se pueden enviar a direcciones diferentes. Si requiere esta capacidad, se puede implementar a través de la personalización de los módulos de finalización de compra.
 
-Una vez que se proporciona la dirección de envío, se muestran los métodos de envío disponibles de la tienda en línea de Dynamics 365 Commerce. Los métodos de envío y las direcciones que admiten se pueden configurar en Retail.
+Una vez que se proporciona la dirección de envío, se muestran los métodos de envío disponibles de la tienda en línea de Dynamics 365 Commerce. Los métodos de envío y las direcciones que admiten se pueden configurar en Commerce.
 
 ### <a name="payment"></a>Pago
 

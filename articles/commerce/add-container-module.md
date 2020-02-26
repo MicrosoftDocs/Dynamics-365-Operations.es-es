@@ -3,7 +3,7 @@ title: Módulo Contenedor
 description: En este tema se tratan los módulos de contenedor y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,27 +17,28 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 22a09b61fbe3bd1cca96011d3fb81a12ef1bc844
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 93c16da0988cc955835231bdd1f7342f19063f85
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697069"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025537"
 ---
 # <a name="container-module"></a>Módulo Contenedor
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 En este tema se tratan los módulos de contenedor y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Visión general
 
-Un módulo de contenedor es un módulo que hospeda otros módulos dentro. Es el contenedor más genérico que se usa en Dynamics 365 Commerce. El propósito principal de un módulo de contenedor es definir, mediante las propiedades que se establecen para él, el diseño de los módulos que se encuentran dentro. Por ejemplo, esos módulos pueden aparecer de forma paralela en un diseño de dos, tres, cuatro o seis columnas. También se pueden limitar al ancho del contenedor o bien, pueden rellenar la pantalla. También se puede agregar una encabezado a cada módulo de contenedor.
+Un módulo de contenedor es un módulo que hospeda otros módulos dentro. El propósito principal de un módulo de contenedor es definir, mediante las propiedades que se establecen para él, el diseño de los módulos que contiene. Por ejemplo, esos módulos pueden aparecer de forma paralela en un diseño de dos, tres, cuatro o seis columnas. También se pueden limitar al ancho del contenedor o bien, pueden rellenar la pantalla. También se puede agregar una encabezado a cada módulo de contenedor.
 
-Hay tres tipos estándar de módulos de contenedor: contenedor, contenedor con 2 franjas y contenedor con 3 franjas. Los módulos de cualquier tipo de módulo se pueden colocar dentro de estos contenedores. También hay tipos de módulos de contenedor especiales, como carrusel, bloque de enriquecimiento de contenido, colocación de contenido, carro, finalización de la compra, cuadro de la compra, encabezado y pie de página. Estos contenedores tienen propósitos específicos, y solo los tipos admitidos específicos de módulos se pueden colocar dentro.
+Se admiten tres módulos de contenedor: contenedor, contenedor con 2 franjas y contenedor con 3 franjas. Los módulos de cualquier tipo se pueden colocar dentro de estos contenedores. 
 
-Recomendamos que coloque módulos dentro de un contenedor, de forma que se puedan limitar al ancho del contenedor.
+> [!NOTE] 
+> Recomendamos que siempre coloque módulos dentro de un módulo de contenedor, de forma que se puedan limitar al ancho del contenedor.
 
 ## <a name="examples-of-container-modules-in-e-commerce"></a>Ejemplos de módulos de contenedor en comercio electrónico
 
@@ -98,20 +99,19 @@ Se pueden usar propiedades adicionales para optimizar el diseño de los diferent
 
 Para agregar un módulo de reproductor de contenedor a una página nueva y establecer las propiedades necesarias, siga estos pasos.
 
-1. Cree una plantilla de página con el nombre **plantilla de contenedor**.
-1. En el espacio **Principal** de la página predeterminada, agregue un módulo de contenedor.
-1. En el módulo de contenedor, agregue un módulo de características.
-1. Proteja la plantilla y publíquela.
+1. Cree una plantilla de página con el nombre **plantilla de contenedor**. 
+1. En el espacio **Cuerpo**, agregue un módulo de **Página predeterminada**.
+1. Termine de editar la plantilla y publíquela.
 1. Use la plantilla de contenedor que acaba de crear para crear una página que se llame **página de contenido**.
 1. En el espacio **Principal** de la página nueva, agregue un módulo de contenedor.
-1. En el panel de propiedades para el módulo del contenedor, establezca la propiedad **Número de columna** en **1** y la propiedad **Ancho** en **Ajustar contenedor**.
-1. En el módulo de contenedor, agregue un módulo de características.
-1. En el panel de propiedades del módulo de características, configure un encabezado.
+1. En el panel de propiedades para el módulo del contenedor, establezca la propiedad **Número de columna** en **1** y la propiedad **Ancho** en **Rellenar contenedor**.
+1. En el módulo de contenedor, agregue un módulo de bloque de contenido.
+1. En el panel de propiedades para el módulo de bloque de contenido, configure el encabezado, la imagen y el diseño.
 1. Guarde la página y obtenga una vista previa de ella. Debería ver un módulo de características que se ajuste al ancho del módulo de contenedor.
 1. En el panel de propiedades para el módulo de contenedor, cambie el valor de la propiedad **Número de columnas** a **3**.
-1. Agregue dos módulos de características más al módulo de contenedor.
-1. Guarde la página y obtenga una vista previa de ella. Debe ver ahora tres módulos de características que aparecen de forma paralela.
-1. Una vez haya logrado el diseño que desee, proteja la página y publíquela.
+1. Agregue otros dos módulos de bloque de contenido al módulo de contenedor.
+1. Guarde la página y obtenga una vista previa de ella. Debe ver ahora tres módulos de bloque de contenido que aparecen de forma paralela.
+1. Una vez haya logrado el diseño que desee, termine de editar la página y publíquela.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
@@ -119,9 +119,7 @@ Para agregar un módulo de reproductor de contenedor a una página nueva y estab
 
 [Módulo de carrusel](add-carousel.md)
 
-[Módulo de bloque de enriquecimiento de contenido](add-content-rich-block.md)
-
-[Módulo de sustitución de contenido](add-content-placement-modules.md)
+[Módulo de bloque de texto](add-content-rich-block.md)
 
 [Módulo de cuadro de compra](add-buy-box.md)
 

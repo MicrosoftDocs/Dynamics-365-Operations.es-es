@@ -3,7 +3,7 @@ title: Implementar un inquilino nuevo de comercio electrónico
 description: Este tema describe cómo implementar un inquilino nuevo de comercio electrónico mediante Microsoft Dynamics Lifecycle Services (LCS).
 author: psimolin
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,22 +17,22 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 10dab1e62446ff7f60ad48fd0841bde5cfd29e12
-ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
+ms.openlocfilehash: 6d7dfcaf244260de5f39a1201ec1ea78e94351e7
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945522"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3001792"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Implementar un inquilino nuevo de comercio electrónico
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Este tema describe cómo implementar un sitio nuevo de comercio electrónico mediante Microsoft Dynamics Lifecycle Services (LCS).
 
 ## <a name="overview"></a>Visión general
-    
+
 Microsoft Dynamics Lifecycle Services (LCS) es un espacio de colaboración basado en la nube que los socios y clientes pueden utilizar para administrar sus proyectos y entornos, ver la información más reciente de los productos y características de Microsoft Dynamics, y crear, realizar un seguimiento y examinar incidentes de soporte. Las características de administración de comercio electrónico están integradas en LCS.
 
 Para obtener más información acerca de LCS, consulte el [Manual del usuario de Lifecycle Services](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide).
@@ -80,11 +80,16 @@ Una vez que haya recopilado la información necesaria, siga estos pasos para ini
 1. En la página siguiente, rellene la información necesaria y, a continuación, envíe el formulario. Se le devolverá a la pestaña **Comercio electrónico**, donde debería ver que se ha iniciado la inicialización.
 1. Para ver el estado de la inicialización, elija **Actualizar** o vuelva a la pestaña **Comercio electrónico** más adelante.
     
-Cuando el comercio electrónico se inicializa desde LCS, el sistema aprovisiona varios componentes necesarios para el comercio electrónico y los asocia al entorno. Una vez que se completa el aprovisionamiento, se actualizará la pestaña **Comercio electrónico** de la página **Administración de Retail** para reflejar el aprovisionamiento. La página muestra las últimas implementaciones de personalización y el estado de cualquier otra implementación en curso. También incluye vínculos al sitio de comercio electrónico y la herramienta de administración del sitio de comercio electrónico (la herramienta de creación).
+Cuando el comercio electrónico se inicializa desde LCS, el sistema aprovisiona varios componentes necesarios para el comercio electrónico y los asocia al entorno. Una vez que se completa el aprovisionamiento, se actualizará la pestaña **Comercio electrónico** de la página **Administración de Retail** para reflejar el aprovisionamiento. La página muestra las últimas implementaciones de personalización y el estado de cualquier otra implementación en curso. También incluye vínculos al sitio de comercio electrónico y al configurador de sitios de comercio electrónico donde se crean los sitios.
 
-## <a name="access-the-authoring-environment"></a>Acceso al entorno de creación
+## <a name="access-site-builder"></a>Acceder al configurador de sitios
 
-Para obtener acceso al entorno de creación, vaya a la pestaña **Comercio electrónico** de la página **Administración de Retail**. Aquí, encontrará vínculos al sitio de comercio electrónico y la herramienta de administración del sitio.
+Para acceder al configurador de sitios, vaya a la pestaña **Comercio electrónico** en la página **Gestión de ventas** en LCS y seleccione el vínculo **herramienta de gestión de sitios de comercio electrónico**. La página de aterrizaje del configurador de sitios muestra una vista de nivel de suscriptor. En esta página puede:
+
+- Modificar la configuración de nivel de suscriptor.
+- Navegar a cualquier sitio que haya creado y tenga permiso para ver. 
+- Acceder a las funciones de Revisiones, como moderación e informes.
+- Crear un nuevo sitio. Para obtener más información acerca de cómo crear un sitio nuevo, consulte [Crear un sitio de comercio electrónico](create-ecommerce-site.md). 
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

@@ -1,6 +1,6 @@
 ---
 title: Conectar el sistema de ayuda
-description: Este tema describe los componentes del sistema de Ayuda para las aplicaciones Finance and Operations y proporciona una visión general de cómo conectar los y un resumen de cómo crear la ayuda personalizada.
+description: Este tema describe los componentes del sistema de Ayuda para aplicaciones de Finance and Operations y proporciona una visión general de cómo conectar los y un resumen de cómo crear la ayuda personalizada.
 author: margoc
 manager: AnnBe
 ms.date: 10/02/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2955464aa8a220563db1b9ebbb348be52f520659
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 4427388d75c1aef40a978ce35c831d5b714f2562
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812589"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006181"
 ---
 # <a name="connect-the-help-system"></a>Conectar el sistema de ayuda
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe los componentes del sistema de ayuda de las aplicaciones de Finance and Operations como Dynamics 365 Finance, Supply Chain Management, Retail y Talent. Ofrece una visión general de cómo conectar estos componentes y un resumen de cómo crear una ayuda personalizada.
+Este tema describe los componentes del sistema de ayuda de las aplicaciones de Finance and Operations como Dynamics 365 Finance, Supply Chain Management, Commerce y Human Resources. Ofrece una visión general de cómo conectar estos componentes y un resumen de cómo crear una ayuda personalizada.
 
 ## <a name="help-architecture"></a>Arquitectura de la Ayuda
 
@@ -43,7 +43,7 @@ En el ejemplo siguiente se muestra las partes del sistema de Ayuda. El sistema d
 ## <a name="connecting-the-help-system"></a>Conexión con el sistema de Ayuda
 
 > [!NOTE]
-> La pestaña **Guías de la tarea** no está actualmente disponible en Dynamics 365 Talent o Retail. Estamos trabajando actualmente para permitir esta funcionalidad en una versión futura. Las Guías de tareas para la Introducción a Talent seguirán disponibles para cubrir las funcionalidades básicas. La ayuda de procedimiento también está disponible en el sitio de docs.microsoft.com para Retail y Talent.
+> La pestaña **Guías de la tarea** no está actualmente disponible en Dynamics 365 Human Resources o Commerce. Estamos trabajando actualmente para permitir esta funcionalidad en una versión futura. Las Guías de tareas para la Introducción a Human Resources seguirán disponibles para cubrir las funcionalidades básicas. La ayuda de procedimiento también está disponible en el sitio de docs.microsoft.com para Human Resources y Commerce.
 
 Con el formulario **Parámetros del sistema**, los administradores del sistema conectan las piezas del sistema de Ayuda para una implementación.
 
@@ -78,7 +78,7 @@ Puede usar las guías de tareas para crear ayuda personalizada, o para conectar 
 
 ### <a name="create-custom-help-with-task-guides"></a>Creación de ayuda personalizada mediante guías de tareas
 
-Puede crear ayuda personalizada para su implementación de Supply Chain Management y para Retail creando grabaciones de tareas que reflejan su implementación y guardándolos en una Biblioteca de proceso empresarial LCS. No puede crear guías de tareas personalizadas para Talent.
+Puede crear ayuda personalizada para su implementación de Supply Chain Management y para Commerce creando grabaciones de tareas que reflejan su implementación y guardándolos en una Biblioteca de proceso empresarial LCS. No puede crear guías de tareas personalizadas para Human Resources.
 
 Para socios, si promociona una biblioteca para que sea una biblioteca corporativa, e incluirla en una solución, esta estará disponible para sus clientes. También puede realizar una copia de la biblioteca global unificada APQC y, a continuación abrir su copia, abrir grabaciones de tareas desde allí, modificarlas y guardar las grabaciones con sus cambios. Para obtener más información, consulte [Recursos del grabador de tareas](../../dev-itpro/user-interface/task-recorder.md).
 
@@ -86,7 +86,7 @@ Para socios, si promociona una biblioteca para que sea una biblioteca corporativ
 
 Microsoft ha proporcionado documentación técnica y código de muestra que describen cómo crear y conectar un sitio personalizado de la ayuda al panel de la Ayuda. Para obtener más información, consulte:
 
-- [Crear Ayuda personalizada para las aplicaciones de Finance and Operations (documentación técnica)](https://go.microsoft.com/fwlink/?linkid=2041185)
+- [Crear ayuda personalizada para aplicaciones de Finance and Operations (notas del producto)](https://go.microsoft.com/fwlink/?linkid=2041185)
 - [Repositorio GitHub de ayuda personalizada](https://github.com/microsoft/dynamics356f-o-custom-help)
 
 ## <a name="additional-resources"></a>Recursos adicionales

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76cf1f24a31f246a41601908ebba308551925d90
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0bf6e7a070d7c151c6ff5d868f4f916359b82683
+ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179832"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3031001"
 ---
 # <a name="correct-a-free-text-invoice"></a>Corrección de una factura de servicios
 
@@ -47,7 +47,7 @@ Puede identificar la cancelación y la corrección de facturas de dos maneras:
 -   El encabezado de la factura de servicios muestra un estado de **Factura de cancelación '\[número de factura\]'** o **Factura corregida '\[número de factura\]'**.
 
 > [!NOTE]
-> Esta característica solo está disponible si se selecciona la clave de configuración **Corrección de factura de servicios**. Para obtener más información sobre cómo habilitar las claves de Configuración, consulte la sección Habilitar (o deshabilitar) las claves de configuración del tema [Modo de mantenimiento](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/maintenance-mode). 
+> Esta característica solo está disponible si se selecciona la clave de configuración **Corrección de factura de servicios**. Para obtener más información sobre cómo habilitar las claves de Configuración, consulte la sección Habilitar (o deshabilitar) las claves de configuración del tema [Modo de mantenimiento](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md). 
 
 
 

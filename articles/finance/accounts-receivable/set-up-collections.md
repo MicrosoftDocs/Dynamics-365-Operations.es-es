@@ -1,5 +1,5 @@
 ---
-title: Configuración de crédito y cobros
+title: Configurar cobros
 description: En este artículo se explica cómo configurar la funcionalidad de cobros.
 author: ShivamPandey-msft
 manager: AnnBe
@@ -18,18 +18,30 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2ed075484f79d7ef7d0d4e6d62d037bb3e9cc96f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 58d3e7f66ab5816849d393098d073ea7629e6b7c
+ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179826"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3013172"
 ---
-# <a name="set-up-credit-and-collections"></a>Configuración de crédito y cobros
+# <a name="set-up-collections"></a>Configurar cobros
 
 [!include [banner](../includes/banner.md)]
 
-En este artículo se explica cómo configurar la funcionalidad de cobros.
+En este artículo se explica cómo configurar la funcionalidad de cobros. Debe completar algunos pasos de configuración al usar la capacidad de colecciones. También hay algunas capacidades opcionales, que incluyen secciones de clientes y equipos de cobros. 
+
+- Definiciones de período de vencimiento
+- Instantáneas de vencimientos
+- Nombres de diarios
+- Código de motivo para transacciones de cancelación
+- Agentes de cobros
+- Cuenta de cancelaciones
+- Información de NSF (no hay fondos suficientes)
+- Configuración de Outlook para usuarios que usan la página **Cobros**
+- Direcciones de correo electrónico
+
+Estos puntos se tratan con más detalle en el resto de este tema. 
 
 <a name="set-up-aging-period-definitions"></a>Configurar definiciones del período de vencimiento
 -------------------------------
@@ -46,10 +58,10 @@ Puede configurar grupos de clientes para representar grupos de clientes. Puede u
 Si varias personas de su organización realizan trabajos de cobros, puede configurar un equipo de cobros. Puede seleccionar el equipo en la página **Parámetros de clientes**. Si no crea un equipo de cobros, se creará uno automáticamente cuando configure agentes de cobros en la página **Agente de cobros**.
 
 ## <a name="set-up-a-collections-case-category"></a>Configurar una categoría de caso de cobros
-Si organiza los cobros usando casos, configure una categoría de caso de tipo **Cobros**. Esta configuración solo es necesaria si se desea usar la función de casos en la página **Cobros**.
+Para usar casos para organizar su trabajo de cobros, configure una categoría de caso de tipo **Cobros**. Esto solo es necesaria si se desea usar la función de casos en la página **Cobros**.
 
 ## <a name="set-up-journal-names-settlement-writeoff-and-nsf"></a>Configurar nombres de diarios (liquidación, amortización y NSF)
-Configure los nombres de diario que se usan al procesar transacciones en la página **Cobros**. En este procesamiento se incluye la liquidación de y la cancelación de transacciones y el procesamiento de pagos de fondos insuficientes (NSF).
+Configure los nombres de diario que se usan al procesar transacciones en la página **Cobros**. En este procesamiento se incluye la liquidación de una transacción, la cancelación de transacciones y el procesamiento de pagos de fondos insuficientes (NSF).
 
 | Descripción | Tipo de diario     |
 |-------------|------------------|
@@ -78,16 +90,19 @@ Actualice las cuentas bancarias de modo que tengan el diario correcto cuando los
 ## <a name="set-up-outlook-settings-for-users-of-the-collections-page"></a>Configuración de parámetros de Outlook para usuarios de la página Cobros
 Antes de que los trabajadores puedan crear actividades o enviar mensajes de correo electrónico mediante la página **Cobros**, debe comprobar que la clave de configuración **Sincronización con Microsoft Outlook** esté seleccionada y que la sincronización de Outlook esté configurada para estos trabajadores.
 
-## <a name="set-up-email-and-address-settings-for-collections-customer-contacts"></a>Configurar los parámetros de correo electrónico y de dirección para los contactos de cliente de cobros
-Configure direcciones de correo electrónico para los contactos de cliente si desea enviar mensajes de correo electrónico a los contactos desde la página **Cobros**. El contacto de cobros se usa como contacto predeterminado en la página **Cobros**. Puede configurar una dirección de extracto para un cliente si los extractos deben usar una dirección distinta a la principal. 
+## <a name="set-up-email-and-addresses"></a>Configurar correo electrónico y direcciones
+Puede usar el correo electrónico para comunicarse tanto con clientes como comerciales sobre problemas de cobros para enviar mensajes de correo electrónico desde la página **Cobros**. 
+
+### <a name="set-up-email-and-address-settings-for-collections-customer-contacts"></a>Configurar los parámetros de correo electrónico y de dirección para los contactos de cliente de cobros
+Configure direcciones de correo electrónico para los contactos de cliente para enviar mensajes de correo electrónico a los contactos desde la página **Cobros**. El contacto de cobros se usa como contacto predeterminado en la página **Cobros**. Puede configurar una dirección de extracto para un cliente si los extractos deben usar una dirección distinta a la principal. 
 
 En la ficha desplegable **Crédito y cobros** de un cliente, en el campo **Contacto de cobros**, seleccione la persona de la organización del cliente que trabaja con su agente de cobros. Esta persona se usa como contacto predeterminado en la página **Cobros**, y es la persona a la que se enviarán los mensajes de correo electrónico. 
 
 > [!NOTE] 
 > Si no se especifica un contacto de cobros para un cliente, se usará el contacto principal del cliente. Si no se especifica un contacto principal, los mensajes de correo electrónico se enviarán a la primera dirección que aparezca en la página **Contactos**.
 
-## <a name="set-up-email-settings-for-salespeople"></a>Configurar los parámetros de correo electrónico para los vendedores
-Configure direcciones de correo electrónico para los vendedores si desea enviar mensajes de correo electrónico a los vendedores desde la página **Cobros**. Configure una dirección de correo electrónico para cada representante de ventas de cada grupo de ventas de la comisión. El representante de ventas que tenga la opción **Contacto** activada es el vendedor predeterminado al que se enviarán los mensajes de correo electrónico. 
+### <a name="set-up-email-settings-for-salespeople"></a>Configurar los parámetros de correo electrónico para los vendedores
+Configure direcciones de correo electrónico para los comerciales para enviar mensajes de correo electrónico a los comerciales desde la página **Cobros**. Configure una dirección de correo electrónico para cada representante de ventas de cada grupo de ventas de la comisión. El representante de ventas que tenga la opción **Contacto** activada es el vendedor predeterminado al que se enviarán los mensajes de correo electrónico. 
 
 Si no se especifica un representante de ventas, se usará el vendedor principal de la organización del cliente. Si no se especifica un vendedor principal, los mensajes de correo electrónico se enviarán al primer vendedor que aparezca en la página.
 

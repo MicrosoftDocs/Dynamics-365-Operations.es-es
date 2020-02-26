@@ -1,9 +1,9 @@
 ---
 title: Características quitadas u obsoletas en Lifecycle Services (LCS)
 description: En este tema se describen las características que se han eliminado, o que está previsto que se eliminen, de Microsoft Dynamics Lifecycle Services (LCS).
-author: sericks007
+author: AngelMarshall
 manager: AnnBe
-ms.date: 12/02/2019
+ms.date: 02/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -12,15 +12,15 @@ audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: sericks
+ms.author: tsmarsha
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c792d06e9b0aa42919de924bdcc9118358779b72
-ms.sourcegitcommit: 75bbcff474cfb8d2f282be2b9d2d7984d1505fa3
+ms.openlocfilehash: 96ecd040ef8661765c0a3861d8e07fee3c241161
+ms.sourcegitcommit: fb7d0efd97754f1ae0b5aa765d0eeb3f57b8078f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2885464"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3027989"
 ---
 # <a name="removed-or-deprecated-features-in-lifecycle-services-lcs"></a>Características quitadas u obsoletas en Lifecycle Services (LCS)
 
@@ -53,7 +53,7 @@ Esta lista se proporciona para ayudarle a tener en cuenta estas eliminaciones y 
 </tr>
 <tr>
 <td><strong>Estado</strong></td>
-<td>En desuso: se prevé la eliminación del componente de diagramas de flujo en BPM a principios de febrero de 2020. Se quitará la siguiente funcionalidad:
+<td>En desuso: se prevé la eliminación del componente de diagramas de flujo en BPM en 2020. Se quitará la siguiente funcionalidad:
 <ul>
 <li>Los diagramas de flujo existentes no se podrán ver ni editar. Las propiedades de forma asociadas a las actividades del diagrama de flujo tampoco estarán disponibles, ya que se quitará la pestaña <strong>Diagrama de flujo</strong> completa. Estos diagramas de flujo incluyen diagramas de flujo predeterminados que se generan automáticamente y diagramas de flujo personalizados que se modifican en función de esos diagramas de flujo predeterminados.</li>
 <li>La característica de análisis de idoneidad/lagunas heredado no estará disponible. Por lo tanto, no se creará automáticamente una lista de lagunas ni estará disponible para la exportación.

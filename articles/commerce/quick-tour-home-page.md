@@ -3,7 +3,7 @@ title: Visión general de la página principal
 description: Este tema proporciona una visión general de la página principal en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3fb42c9aa2e2ef1d620b310e9d30dbae5f84c788
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 6f337af0b598322e9542a3c9462402e61dc11a88
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2698289"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025980"
 ---
 # <a name="overview-of-the-home-page"></a>Visión general de la página principal
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Este tema proporciona una visión general de la página principal en Microsoft Dynamics 365 Commerce.
@@ -45,20 +45,20 @@ La sección principal de la página principal puede resaltar productos, categor�
 
 - **Elemento principal**: normalmente, el primer artículo de la parte superior de la sección principal muestra una o más imágenes de “elemento principal” que resaltan nuevos productos y promociones de la tienda. Si hay varias imágenes de elemento principal, se hospedan en un módulo de carrusel de modo que los usuarios puedan examinarlos.
 
-    La ilustración siguiente muestra un ejemplo de una página principal donde el primer artículo de la sección principal es un módulo de elemento principal con el nombre **Nueva llegada**.
+    La ilustración siguiente muestra un ejemplo de una página principal donde el primer artículo de la sección principal es un diseño de elemento principal de un módulo de bloque de contenido que se denomina "Nueva llegada".
 
     ![Ejemplo de un módulo de elemento principal](./media/Hero.PNG)
 
-- **Característica**: un módulo de características se usa para promociones o productos de mercado mediante una combinación de imágenes y texto. Los módulos de características se pueden usar de manera independiente o se pueden hospedar en un módulo de carrusel.
+- **Característica**: un diseño de característica de un módulo de bloque de contenido se usa para promociones o productos de mercado mediante una combinación de imágenes y texto. Los diseños de características se pueden usar de manera independiente o se pueden hospedar en un módulo de carrusel.
 
-    La ilustración siguiente muestra un ejemplo de los módulos de características en una página principal.
+    La ilustración siguiente muestra un ejemplo de diseño de características de un módulo de bloque de contenido en una página principal.
 
     ![Ejemplos de módulos de características](./media/Feature.PNG)
 
-- **Colocación de contenido**: un módulo de colocación de contenido se usa para mostrar varios productos o categoría de productos mediante una combinación de imágenes y texto en un diseño de varias columnas. En la ilustración de una página principal que aparece anteriormente en este tema, se usa un módulo de colocación de contenido para el diseño de tres columnas de los artículos **Tienda de mujeres**, **Tienda de hombres** y **Tienda de accesorios**.
+- **Icono**: un diseño de icono de un módulo de bloque de contenido se usa para mostrar varios productos o categoría de productos mediante una combinación de imágenes y texto en un diseño de varias columnas. En la ilustración de una página principal que aparece anteriormente en este tema, se usa un diseño de icono para la representación de tres columnas de los elementos **Tienda de mujeres**, **Tienda de hombres** y **Tienda de accesorios**.
 - **Reproductor de vídeo:** se puede usar un módulo de reproductor de vídeo para mostrar el contenido del vídeo en la página principal. La ilustración de una página principal que aparece anteriormente en este tema incluye un módulo reproductor de vídeo.
-- **Bloque de enriquecimiento de contenido**: un módulo de enriquecimiento de contenido se puede usar para presentar contenido de texto en la página principal en un diseño de varias columnas o de columna única.
-- **Recomendaciones de producto**: los módulos de recomendaciones de producto se usan para mostrar listas como **Nuevos**, **Tendencias** y **Más vendidos** en la página principal. Estas listas muestran productos basados en tendencias de compras y se pueden generar de manera algorítmica o mantener manualmente. Ayudan a los clientes a detectar rápidamente los productos principales y después continuar comprando.
+- **Bloque de texto**: un módulo de enriquecimiento de contenido se puede usar para presentar contenido de texto en la página principal en un diseño de varias columnas o de columna única.
+- **Recomendaciones de producto**: los módulos de recomendaciones de producto se usan para mostrar listas, como **Nuevos**, **Tendencias** y **Más vendidos** en la página principal. Estas listas muestran productos basados en tendencias de compras y se pueden generar de manera algorítmica o mantener manualmente. Ayudan a los clientes a detectar rápidamente los productos principales y después continuar comprando.
 
     La ilustración siguiente muestra un ejemplo de módulos de recomendaciones de productos en una página principal.
 

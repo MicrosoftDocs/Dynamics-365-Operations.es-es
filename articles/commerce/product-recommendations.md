@@ -19,16 +19,15 @@ ms.search.industry: Retail
 ms.author: moonma
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: eb369e6d1356ba13a2310d523b671ac57b9642bf
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: e249c7d450510a3a9a33158e9e1c33f832a1f91c
+ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770056"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024988"
 ---
 # <a name="product-recommendations-overview"></a>Visión general de recomendaciones de producto
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 Microsoft Dynamics 365 Commerce se puede utilizar para mostrar recomendaciones de productos en el dispositivo de punto de venta (PDV) y sitio web de comercio electrónico. Las recomendaciones de productos son artículos en los que un cliente puede estar interesado. Las recomendaciones se basan en las tendencias de compras de otros clientes en tiendas físicas o en línea.
@@ -45,6 +44,7 @@ Las recomendaciones de productos están disponibles para los siguientes escenari
 - **En cualquier página de tienda para explorar o página de aterrizaje en comercio electrónico:** si los clientes o socios de tienda visitan una página de la tienda, el motor de recomendaciones puede sugerir productos en las listas **Nuevos**, **Más vendidos** y **Tendencias**.
 - **En la página Detalles de producto:** si los clientes o socios de tienda visitan una página **Detalles de producto**, el motor de recomendaciones sugiere artículos adicionales de los que también hay probabilidad que se compren. Estos artículos aparecen en la lista **A la gente también le gustó**.
 - **En la página Transacción o la página de finalización de compra:** el motor de recomendaciones sugiere artículos, en función de la lista completa de artículos de la cesta. Estos artículos aparecen en la lista **Los usuarios que compraron esto también compraron**.
+- **Recomendaciones personalizadas**: los comerciantes pueden proporcionar a los clientes que han iniciado una lista de **Picking para usted** personalizada, además de la nueva funcionalidad que permite personalizar los escenarios de lista existentes en función de ese cliente. Para obtener más información, consulte la documentación de la característica: [habilitar recomendaciones personalizadas. ](personalized-recommendations.md)
 
 ## <a name="recommendation-service"></a>Servicio de recomendaciones
 
@@ -56,6 +56,10 @@ Las recomendaciones de productos utilizan las tecnologías de aprendizaje autom�
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Habilitar recomendaciones de producto](enable-product-recommendations.md)
+
+[Habilitar recomendaciones personalizadas](personalized-recommendations.md)
+
+[Visión general del módulo de colección de productos](product-collection-module-overview.md)
 
 [Crear listas mantenidas de recomendaciones de producto](create-editorial-recommendation-lists.md)
 

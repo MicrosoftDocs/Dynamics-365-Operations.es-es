@@ -1,5 +1,5 @@
 ---
-title: Página principal de administración financiera
+title: Página principal de Finance
 description: En este tema se proporciona una lista de los temas de ayuda y de otros recursos para las características de gestión financiera en Microsoft Dynamics 365 Finance.
 author: roschlom
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b5ed05e9c53b17632e94e913f7f3663676c3e91
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 797c549623a727e92a3dbe5e3457e1ddc09a5b0a
+ms.sourcegitcommit: 9168621ca9b5061c65f3e05dbc5918b6a11d53d5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770583"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "3000334"
 ---
-# <a name="financial-management-home-page"></a>Página principal de Administración financiera
+# <a name="finance-home-page"></a>Página principal de Finance
 
 [!include [banner](includes/banner.md)]
 

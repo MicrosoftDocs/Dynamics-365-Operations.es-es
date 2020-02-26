@@ -3,7 +3,7 @@ title: Introducción a la optimización de la planificación
 description: Este tema explica cómo empezar a usar la función de optimización de la planificación.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/29/2019
+ms.date: 01/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 37c2acb2397b2a0ad69272c0645bd200a8d7910d
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 3e0371c6addc0412dc2fc105891b012941e92a06
+ms.sourcegitcommit: e5a3c85a322a9216b8f176536d664fef40ae0bec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2774043"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "2971473"
 ---
 [!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
@@ -47,15 +47,17 @@ Para usar la optimización de la planificación, instale el complemento de optim
 
 1. Inicie sesión en LCS y abra el entorno deseado.
 1. Vaya a **Detalles completos**.
-1. Seleccione **Mantener** o descienda hasta la ficha desplegable **Complementos del entorno**.
+1. Desplácese hacia abajo hasta la ficha desplegable **Complementos del entorno**.
 1. Seleccione **Instalar un nuevo complemento**.
 1. Seleccione **optimización de la planificación**.
 1. Siga la guía de instalación y acepte los términos y condiciones.
 1. Seleccione **Instalar**.
+1. En la ficha desplegable **Complementos del entorno** debería ver que se está instalando Planning Optimization.
+1. Después de unos minutos, **Instalando** debería cambiar a **Instalado** (es posible que deba actualizar la página). Cuando está instalado, está listo para activar la Optimización de planificación en Dynamics 365 Supply Chain Management.
 
 ### <a name="planning-optimization-integration"></a>Integración de la optimización de la planificación
 
-Para configurar si el complemento de optimización de la planificación se debe usar para la planificación maestra, vaya **Planificación maestra** \> **Configuración** \> **Integración de la optimización de la planificación** \> **Parámetros de integración**.
+Para configurar si el complemento de optimización de la planificación se debe usar para la planificación maestra, vaya **Planificación maestra** \> **Configuración** \> **Parámetros de optimización de la planificación**.
 
 #### <a name="connection-status"></a>Estado de conexión
 

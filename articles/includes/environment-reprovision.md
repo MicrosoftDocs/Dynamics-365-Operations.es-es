@@ -1,7 +1,7 @@
-Al copiar una base de datos entre entornos, deberá ejecutar la herramienta de reaprovisionamiento de entornos antes de que la base de datos que se copió sea completamente funcional, con el fin de asegurarse de que todos los componentes de Retail se actualizaron.
+Al copiar una base de datos entre entornos, deberá ejecutar la herramienta de reaprovisionamiento de entornos antes de que la base de datos que se copió sea completamente funcional, con el fin de asegurarse de que todos los componentes de Commerce se actualizaron.
 
 > [!IMPORTANT]
-> Es recomendable ejecutar este procedimiento tanto si usa los componentes Retail como si no, ya que la función Retail se incluye en todos los entornos. 
+> Es recomendable ejecutar este procedimiento tanto si usa los componentes de Commerce como si no, ya que la función Commerce se incluye en todos los entornos. 
 
 Antes de continuar, debe asegurarse de cumplir los siguientes requisitos previos:
 1. Si se está actualizando a la versión de julio de 2017 (también conocida como 7.2) 7.2.11792.56024, aplique las siguientes revisiones de la aplicación X++ en el entorno de destino antes de ejecutar la actualización de datos en ese entorno. Estos impedirán que se produzcan varios errores durante la actualización de datos:

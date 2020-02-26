@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> Esta funcionalidad está disponible como una vista previa pública en cualquier entorno de espacio aislado o prueba. No está disponible en entornos de producción. El contenido y la funcionalidad están sujetos a cambios. Para obtener más información sobre características de vista previa, consulte [Administrar características](../hr-admin-manage-features.md).

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2c7ee610c6e3c446a4bcc9d6d46ca72dd71cb23c
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 45a2335d7a661ddc1d8907c56ae8193387f44e26
+ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771407"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030875"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Especifique una ubicación de almacenamiento personalizada para los documentos generados
 
@@ -56,7 +56,7 @@ En la topología actual, [cree un nuevo formato de ER](tasks/er-format-configura
 
 Para especificar cómo se distribuyen los documentos que un formato de ER genera, debe configurar [Informes electrónicos (ER)](electronic-reporting-destinations.md). En cada destino de ER que se configure para almacenar documentos generados como archivos, debe especificar un tipo de documento del marco de la gestión de documentos. Los distintos tipos de documentos se pueden usar para distribuir los documentos que distintos formatos de ER generan.
 
-1. Agregue un nuevo [tipo de documento](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management) para el formato de ER que ha creado o importado anteriormente. En la ilustración siguiente, el tipo de documento es **FileX**.
+1. Agregue un nuevo [tipo de documento](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management) para el formato de ER que ha creado o importado anteriormente. En la ilustración siguiente, el tipo de documento es **FileX**.
 2. Para distinguir este tipo de documento de otros tipos de documentos, incluya una palabra clave específica en su nombre. Por ejemplo, en la ilustración siguiente, el nombre es **Carpeta (LOCAL)**.
 3. En el campo **Clase**, especifique **Asociar archivo**.
 4. En el campo **Grupo**, especifique **archivo**.
@@ -70,7 +70,7 @@ Para especificar cómo se distribuyen los documentos que un formato de ER genera
 
 Revise el código del método **insertFile()** de la clase **ERDocuManagement**. Observe que el evento **AttachingFile()** está activado mientras que el archivo generado está vinculado a un registro.
 
-```
+```xpp
 /// <summary>
 /// Inserts file as attachment in Document Management.
 /// </summary>
@@ -131,7 +131,7 @@ Se activa el evento **AttachingFile()** cuando se procesan los destinos de ER si
     1. Almacenar los archivos generados en una carpeta del sistema de archivos local del servidor que ejecuta el servicio Application Object Server (AOS).
     2. Almacenar estos archivos generados solo si se utiliza el nuevo tipo de documento (por ejemplo, el tipo **FileX** que tiene la palabra clave “(LOCAL)” en su nombre) mientras se asocia un archivo al registro en el registro de trabajo de la ejecución de ER.
 
-    ```
+    ```xpp
     class ERDocuSubscriptionSample
     {
         void new()

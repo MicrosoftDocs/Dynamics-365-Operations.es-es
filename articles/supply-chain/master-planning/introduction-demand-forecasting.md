@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9280a2580d20d64f6542902aab1dbf55434bf84c
-ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
+ms.openlocfilehash: ca463d821292a2ad53462a3575f2d5712b9e53cc
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "2935523"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3004051"
 ---
 # <a name="demand-forecasting-overview"></a>Visión general de previsión de la demanda
 
@@ -69,7 +69,7 @@ Las previsiones, los datos históricos y los cambios que se hayan realizado a l
 Puede usar Supply Chain Management para visualizar y modificar las previsiones de línea base. Los ajustes manuales deben estar autorizados antes de que las previsiones se puedan utilizar para la planificación.
 
 ## <a name="limitations"></a>Limitaciones
-La previsión de demanda es una herramienta que ayuda a los clientes en el sector de fabricación a crear procesos de previsión. Ofrece la función básica de una solución de previsión de demanda y se diseña de modo que pueda extenderse fácilmente. La previsión de demanda puede qeue no sea el mejor ajuste para clientes en sectores como venta minorista, venta al por mayor, almacenamiento, transporte u otros servicios profesionales.
+La previsión de demanda es una herramienta que ayuda a los clientes en el sector de fabricación a crear procesos de previsión. Ofrece la función básica de una solución de previsión de demanda y se diseña de modo que pueda extenderse fácilmente. La previsión de demanda puede que no sea el mejor ajuste para clientes en sectores como Commerce, venta al por mayor, almacenamiento, transporte u otros servicios profesionales.
 
 <a name="additional-resources"></a>Recursos adicionales
 --------

@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b409b6cd5eb8c1b96ffb9cc1df47ff88019989f9
-ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
+ms.openlocfilehash: f8c2cdbf055a2854c4140d3ccc264da260c7cdf5
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2946074"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002275"
 ---
 # <a name="compliance-overview"></a>Información general sobre cumplimiento
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Este tema es una descripción general de la guía de cumplimiento que se proporciona con Microsoft Dynamics 365 Commerce para ayudarlo a en el cumplimiento de los sitios de su empresa. El cumplimiento es un factor importante para todas las empresas, ya que ayuda a su base de usuarios a conectarse con el contenido de su sitio. Al cumplir, también puede ayudar a proteger a su empresa de costosas acciones legales o multas considerables.

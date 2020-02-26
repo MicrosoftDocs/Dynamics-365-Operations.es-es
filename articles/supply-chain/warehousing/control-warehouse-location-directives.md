@@ -3,7 +3,7 @@ title: Controlar el trabajo de almacén usando plantillas de trabajo y directiva
 description: Este tema describe cómo usar plantillas de trabajo y directivas de ubicación para determinar cómo y dónde se realiza el trabajo en el almacén.
 author: perlynne
 manager: AnnBe
-ms.date: 09/21/2018
+ms.date: 02/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d9a5292e88fe022482ab9c6c5a8f016745946988
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 4645cf36201aa1b87c22ba4dbfb1b8d8117f425a
+ms.sourcegitcommit: fb7d0efd97754f1ae0b5aa765d0eeb3f57b8078f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026987"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3028037"
 ---
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Controlar el trabajo de almacén usando plantillas de trabajo y directivas de ubicación
 
@@ -152,7 +152,7 @@ Seleccione esta opción para usar estrategias de lote para los artículos habili
 ### <a name="strategy"></a>Estrategia
 
 -   **Consolidar**: Esta estrategia se usa para consolidar artículos en una ubicación concreta cuando ya hay disponibles artículos similares. Esto solo funciona para el tipo de colocación de directiva de ubicación. Una configuración habitual de la colocación será consolidar en la primera línea de acción y, en el segundo intento, consolidar sin colocación. La consolidación de mercancías hace más eficiente la selección posterior.
--   **Cantidad de embalaje de coincidencia** - Esta estrategia se usa para comprobar si una ubicación de picking tiene la cantidad de embalaje especificada. Esto solo funcionará con directivas de ubicación del tipo picking. 
+-   **Cantidad de embalaje de coincidencia**: esta estrategia encontrará una ubicación que contenga una matrícula con la cantidad exacta requerida. No se puede usar con ubicaciones que no estén controladas por matrículas. Esta estrategia solo funciona para una directiva de ubicación de tipo de trabajo de picking.
 -   **Reserva de lote FEFO**: esta estrategia se usa cuando el inventario se localiza mediante una fecha de vencimiento de lote y se asigna para la reserva de lotes. Esta estrategia solo se puede usar para artículos habilitados para lotes. Esto solo funciona para una directiva de ubicación de tipo de trabajo de picking. 
 -   **Redondear por arriba hasta matrícula de entidad de almacén completa** - Esta estrategia se usa para redondear hacia arriba la cantidad de inventario de modo que coincida con la cantidad de matrícula de entidad de almacén (LP) asignada a los artículos que se van a seleccionar. Solo puede usar esta estrategia para el tipo de reabastecimiento de directiva de ubicación del tipo picking. 
 -   **Ubicación en blanco sin trabajo entrante**: se usa para localizar ubicaciones vacías. La ubicación se considera como vacía si no tiene ningún inventario físico y ningún trabajo entrante previsto. Esta estrategia se usa solo para un tipo de colocación de directiva de la ubicación. 

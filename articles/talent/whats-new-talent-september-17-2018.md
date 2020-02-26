@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-09-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 80d71d2390e7b6e39798d0f061b584ad229a2459
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 20d3da65028b455ab1602e3a8b443ea7e585b1f0
+ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897313"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030905"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-september-17-2018"></a>Novedades y cambios en Dynamics 365 Talent - Core HR (17 de septiembre de 2018)
 
@@ -37,11 +37,11 @@ Se ha agregado un nuevo tipo de acumulación a los planes de licencias. Ahora la
 
 ## <a name="platform-update-18-for-finance-and-operations"></a>Platform update 18 para Finance and Operations
 
-La Platform update 18 para Finance and Operations es ahora parte de la versión de Talent. 
+Platform update 18 para Finance and Operations ahora forma parte de la versión de Talent. 
 
 -   Los campos obligatorios y otros se pueden ocultar a través de la personalización. Esto le permite a un usuario crear una experiencia simplificada donde los campos obligatorios que son establecidos como valor predeterminado por la lógica de negocios no se muestran. Los campos obligatorios ocultos también se muestran temporalmente si están vacíos cuando se intenta guardar.
 
--   En la Platform update 18 para Finance and Operations, el cliente Web de Talent ahora adapta sus representaciones visuales con Microsoft Fluent Design.
+-   En Platform update 18 para Finance and Operations, el cliente web de Talent ahora adapta sus representaciones visuales a Microsoft Fluent Design.
 
     -   Cuando los campos se encuentran en “modo de lectura”, solo tiene que seleccionar la opción de edición de los campos para cambiar el formulario al modo edición.
 
@@ -49,7 +49,7 @@ La Platform update 18 para Finance and Operations es ahora parte de la versión 
 
     -   Los encabezados en espacios de trabajo y las páginas están en negrita.
 
--   El comportamiento de las búsquedas que no reemplazan se han mejorado. Para obtener más información, consulte [Comportamiento mejorado de las búsquedas que no sustituyen](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fbusiness-applications-release-notes%2FOctober18%2Fdynamics365-finance-operations%2Fnon-replacing-lookups&data=02%7C01%7C%7Ce0b3b3bee47b4424aaa208d619ce86f2%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636724772137980342&sdata=RN1qjtZSLtS010zgs0KlcwFrrB8Z7uWWGtFjdxdaamg%3D&reserved=0).
+-   El comportamiento de las búsquedas que no reemplazan se han mejorado. Para obtener más información, consulte [Comportamiento mejorado de las búsquedas que no sustituyen](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/non-replacing-lookups).
 
 ## <a name="bug-fixes"></a>Correcciones de errores
 
