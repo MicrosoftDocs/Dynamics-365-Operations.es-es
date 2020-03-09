@@ -1,2 +1,3 @@
 > [!IMPORTANT]
-> Dynamics 365 for Finance and Operations se está autorizando actualmente como Dynamics 365 Finance y Dynamics 365 Supply Chain Management. Para obtener más información acerca de estos cambios de licencias, consulte [Actualización de licencias de Dynamics 365](https://docs.microsoft.com/dynamics365/licensing/update).
+> Dynamics 365 for Finance and Operations se ha convertido en aplicaciones especialmente diseñadas para ayudarlo a administrar funciones empresariales específicas. Para obtener más información acerca de estos cambios de licencias, consulte [Guía de licencias de Dynamics 365](https://mbs.microsoft.com/Files/public/365/Dynamics365LicensingGuide.pdf).
+ 

@@ -18,18 +18,16 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3f691017ad06d3416e4ba0e86d7a0bc207aba5bd
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 7d5812893edff24a60a0e2eb3607701ac47a8a78
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004283"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057183"
 ---
 # <a name="trickle-feed-based-order-creation-for-retail-store-transactions-public-preview"></a>Goteo en la creación de pedidos basados en fuente para transacciones de tienda (versión preliminar pública)
 
 [!include [banner](includes/banner.md)]
-
-
 
 En Dynamics 365 Retail versión 10.0.4 y anteriores, el registro del extracto es una operación de final del día y todas las transacciones se registran en los libros al final del día. Las transacciones grandes deben procesarse a continuación en una ventana de tiempo limitada, lo que a veces da lugar a errores de registro de extractos, carga y bloqueos. Los minoristas tampoco pueden reconocer ingresos y pagos en los libros durante todo el día.
 
