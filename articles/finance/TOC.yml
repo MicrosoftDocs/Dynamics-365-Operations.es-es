@@ -150,6 +150,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/finance/toc.json
                 - name: Vistas guardadas
                   href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/finance/toc.json
+                - name: Funcionalidades de cuadrícula
+                  href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/finance/toc.json
                 - name: Crear y trabajar con campos personalizados
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/finance/toc.json
                 - name: Insertar aplicaciones de PowerApps
@@ -940,6 +942,8 @@
                   href: general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
                 - name: Configurar códigos de notificación de impuestos
                   href: general-ledger/tasks/set-up-sales-tax-reporting-codes.md
+                - name: Soporte de divisa dual para impuestos
+                  href: general-ledger/dual-currency-for-tax.md
                 - name: Especificación de impuestos por informe de transacción contable
                   href: general-ledger/Sales-tax-specification-by-ledger-transaction-report.md
                 - name: Configurar períodos de liquidación de impuestos
@@ -1102,6 +1106,8 @@
                   href: public-sector/interest-distribution.md
             - name: Adquisición y abastecimiento en el sector público
               href: public-sector/procurement-sourcing-public-sector.md
+            - name: 'Calcule la fecha de entrega de una línea, en función del tiempo de entrega'
+              href: public-sector/po-delivery-date.md
             - name: Roles de seguridad en el sector público
               href: public-sector/security-roles-public-sector.md
             - name: Fondos en el sector público
@@ -1294,10 +1300,12 @@
                   href: localizations/latam-bra-sped-reinf.md
                 - name: Resolución fiscal SPED 13/2019 RJ
                   href: localizations/latam-bra-resolution-13-2019-RJ.md
-                - name: SPED fiscal 2020 - Información complementaria del ICMS-ST para el diseño fiscal SPED 014
+                - name: 'SPED fiscal 2020: información complementaria del ICMS-ST para el diseño fiscal SPED 014'
                   href: localizations/latam-bra-complementary-information-icms-st-sped-fiscal-2020-layout-014.md
-                - name: 'Fiscal SPED: Diseño 014'
+                - name: 'Fiscal SPED: diseño 014'
                   href: localizations/latam-bra-sped-fiscal-layout-014.md
+                - name: Establecer contribuciones SPED EFD
+                  href: localizations/latam-bra-sped-contributions.md
                 - name: Parámetros para las entidades jurídicas
                   href: localizations/latam-bra-legal-entity-parameters.md
                 - name: Configurar parámetros de entidad jurídica
@@ -2575,15 +2583,15 @@
                   href: localizations/noam-usa-year-end-1099-reporting.md
                 - name: Formulario 1099 para el sector público
                   href: localizations/noam-usa-form-1099-public-sector.md
-        - name: Recursos humanos
+        - name: Human resources
           items:
-            - name: Visión general de los recursos humanos
+            - name: Visión general de Human Resources
               href: ../fin-ops-core/fin-ops/hr/hr-landing-page.md
-            - name: Configurar recursos humanos
+            - name: Configurar Human Resources
               items:
-                - name: Configurar parámetros de recursos Humanos
+                - name: Configurar parámetros de Human Resources
                   href: ../human-resources/hr-setup-parameters.md?toc=/dynamics365/finance/toc.json
-                - name: Configurar parámetros compartidos de recursos humanos
+                - name: Configurar parámetros compartidos de Human Resources
                   href: ../human-resources/hr-setup-shared-parameters.md?toc=/dynamics365/finance/toc.json
                 - name: Configurar flujos de trabajo de recursos humanos
                   href: ../human-resources/hr-setup-workflows.md?toc=/dynamics365/finance/toc.json
@@ -2805,8 +2813,10 @@
                   href: ../fin-ops-core/dev-itpro/analytics/workforce-analysis-power-bi-content-pack.md?toc=/dynamics365/finance/toc.json
             - name: Impresión e informes de documentos
               items:
-                - name: Visión general de Document Reporting Services
+                - name: Visión general de Servicios de Document Reporting
                   href: ../fin-ops-core/dev-itpro/analytics/document-reporting-services.md?toc=/dynamics365/finance/toc.json
+                - name: Fuentes compatibles
+                  href: ../fin-ops-core/dev-itpro/analytics/supported-fonts.md?toc=/dynamics365/finance/toc.json
                 - name: Configurar SSRS para implementaciones locales
                   href: ../fin-ops-core/dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: Impresión
@@ -3686,6 +3696,4 @@
     - name: Dynamics 365 Supply Chain Management
       href: ../supply-chain/index.md
     - name: Dynamics 365 Commerce
-      href: ../commerce/index.md
-    - name: Dynamics 365 Retail
       href: ../commerce/index.md

@@ -456,8 +456,6 @@
           items:
             - name: Visión general de la creación de modelos y elementos de modelo de datos
               href: ../../dev-itpro/dev-tools/create-data-model-elements.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-            - name: Directrices de nomenclatura para extensiones
-              href: ../../dev-itpro/extensibility/NamingGuidelines.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
             - name: Desactivar la personalización de modelos y dejar de utilizar la funcionalidad
               href: ../../dev-itpro/dev-tools/lock-models.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: Informe de análisis de personalización

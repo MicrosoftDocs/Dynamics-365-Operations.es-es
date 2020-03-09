@@ -45,7 +45,11 @@
                 - name: Platform update 15 (marzo de 2018)
                   href: ../fin-ops/get-started/whats-new-platform-update-15.md
             - name: Características quitadas u obsoletas
-              href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+              items:
+                - name: Características de Platform quitadas u obsoletas
+                  href: get-started/removed-deprecated-features-platform-updates.md
+                - name: Funciones quitadas u obsoletas de versiones anteriores
+                  href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Características de AX 2012 pospuestas
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Características no implementadas en implementaciones locales
@@ -144,7 +148,9 @@
                       href: data-entities/data-integration-cds.md
                     - name: Integración sincrónica bidireccional
                       items:
-                        - name: Integración de datos casi en tiempo real
+                        - name: Página de inicio de doble escritura
+                          href: data-entities/dual-write/dual-write-home-page.md
+                        - name: Visión general de doble escritura
                           href: data-entities/dual-write/dual-write-overview.md
                         - name: Jerarquía organizativa en Common Data Service
                           href: data-entities/dual-write/organization-mapping.md
@@ -940,7 +946,7 @@
                   href: lifecycle-services/lcs-works-lcs.md
                 - name: LCS para socios
                   href: lifecycle-services/getting-started-lcs.md
-                - name: Novedades
+                - name: Novedades y cambios en Lifecycle Services
                   href: lifecycle-services/whats-new-lcs.md
                 - name: Problemas conocidos
                   href: lifecycle-services/known-issues.md
@@ -1685,6 +1691,4 @@
     - name: Dynamics 365 Finance
       href: ../../finance/index.md
     - name: Dynamics 365 Commerce
-      href: ../../commerce/index.md
-    - name: Dynamics 365 Retail
       href: ../../commerce/index.md

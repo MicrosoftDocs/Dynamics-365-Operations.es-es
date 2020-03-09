@@ -166,6 +166,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/commerce/toc.json
                 - name: Vistas guardadas
                   href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/commerce/toc.json
+                - name: Funcionalidades de cuadrícula
+                  href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/commerce/toc.json
                 - name: Crear y trabajar con campos personalizados
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/commerce/toc.json
                 - name: Insertar aplicaciones de PowerApps
@@ -438,8 +440,6 @@
                   href: configure-call-center-delivery.md
                 - name: Configurar y trabajar con alertas de fraude
                   href: set-up-fraud-alerts.md
-                - name: Configurar programas de continuidad para centros de llamadas
-                  href: set-up-continuity-program.md
             - name: Configuración del canal adicional
               items:
                 - name: Agregar un canal a una jerarquía organizativa
@@ -450,6 +450,12 @@
                       href: omni-auto-charges.md
                     - name: Prorratear los cargos de encabezado con las líneas de ventas coincidentes
                       href: pro-rate-charges-matching-lines.md
+                - name: Administrar programas de continuidad
+                  items:
+                    - name: Configurar programas de continuidad para centros de llamadas
+                      href: set-up-continuity-program.md
+                    - name: Definir programaciones de continuidad
+                      href: tasks/define-continuity-schedules.md
                 - name: Gestión de tienda comercial
                   items:
                     - name: Crear y cambiar el horario comercial
@@ -460,8 +466,6 @@
                   items:
                     - name: Configurar y trabajar con retenciones de pedidos del centro de llamadas
                       href: work-with-order-holds.md
-                    - name: Definir programaciones de continuidad
-                      href: tasks/define-continuity-schedules.md
                 - name: Pagos
                   items:
                     - name: Métodos de pago
@@ -478,6 +482,8 @@
                       href: dev-itpro/adyen-connector.md
                     - name: Guardar los instrumentos de pago en línea con el conector de Adyen
                       href: dev-itpro/adyen-connector-listpi.md
+                    - name: Cambio sin conexión perfecto para operaciones con tarjetas regalo y notas de crédito
+                      href: dev-itpro/seamless-offline-improvements.md
                     - name: Configurar situaciones de pago de facturas
                       href: payinvoice.md
                     - name: Duplicar prevención de pagos
@@ -494,9 +500,9 @@
                   href: ../supply-chain/pim/product-information.md?toc=/dynamics365/commerce/toc.json
                 - name: Configurar productos comerciales
                   href: set-up-retail-products.md
-                - name: Jerarquía de productos comerciales
+                - name: Jerarquía de productos
                   items:
-                    - name: Jerarquías comerciales
+                    - name: Jerarquías de Commerce
                       href: retail-hierarchies.md
                     - name: Crear una nueva jerarquía de productos
                       href: create-product-hierarchy.md
@@ -624,6 +630,12 @@
                       href: tasks/push-products-distribution-center-store-buyers-push.md
                     - name: Configurar las reglas y los parámetros para el tránsito directo y la estrategia de presión
                       href: tasks/set-up-rules-parameters-cross-docking-buyers-push.md
+                    - name: Operación de inventario entrante en PDV
+                      href: pos-inbound-inventory-operation.md
+                    - name: Operación de inventario de salida en PDV
+                      href: pos-outbound-inventory-operation.md
+                    - name: Calcular la disponibilidad de inventario para canales comerciales
+                      href: calculated-inventory-retail-channels.md
                 - name: Pedidos de compra
                   items:
                     - name: Visión general de los pedidos de compra
@@ -726,6 +738,18 @@
               href: tasks/store-configurations-retail-statements.md
             - name: Registro de ventas y pagos en línea
               href: tasks/posting-online-sales-payments.md
+        - name: Administrar tareas del trabajador
+          items:
+            - name: Visión general de la administración de tareas
+              href: task-mgmt-overview.md
+            - name: Configurar la administración de tareas
+              href: task-mgmt-configure.md
+            - name: Crear listas de tareas y agregar tareas
+              href: task-mgmt-create-lists.md
+            - name: Asignar listas de tareas a tiendas o empleados
+              href: task-mgmt-assign-lists.md
+            - name: Administración de tareas en PDV
+              href: task-mgmt-pos.md
         - name: Administrar su sitio de comercio electrónico
           items:
             - name: Visión general de la tienda en línea
@@ -880,6 +904,8 @@
                   items:
                     - name: Módulo de cuadro de compra
                       href: add-buy-box.md
+                    - name: Módulos de clasificaciones y opiniones
+                      href: ratings-reviews-modules.md
                 - name: Módulos de compra
                   items:
                     - name: Módulo de carro
@@ -1054,8 +1080,10 @@
                   href: ../fin-ops-core/dev-itpro/analytics/workforce-analysis-power-bi-content-pack.md?toc=/dynamics365/commerce/toc.json
             - name: Impresión e informes de documentos
               items:
-                - name: Visión general de Document Reporting Services
+                - name: Visión general de Servicios de Document Reporting
                   href: ../fin-ops-core/dev-itpro/analytics/document-reporting-services.md?toc=/dynamics365/commerce/toc.json
+                - name: Fuentes compatibles
+                  href: ../fin-ops-core/dev-itpro/analytics/supported-fonts.md?toc=/dynamics365/commerce/toc.json
                 - name: Configurar SSRS para implementaciones locales
                   href: ../fin-ops-core/dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: Impresión
@@ -1786,7 +1814,7 @@
               href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/commerce/toc.json
         - name: Extensibilidad
           items:
-            - name: Desarrollo y extensibilidad de comercio
+            - name: Desarrollo y extensibilidad de Commerce
               href: dev-itpro/dev-retail-home-page.md
             - name: Extensibilidad de canal en línea
               items:
@@ -1834,8 +1862,6 @@
                       href: e-commerce-extensibility/add-module-config-fields.md
                     - name: Obtener una vista previa y depurar módulos
                       href: e-commerce-extensibility/test-module.md
-                    - name: Depurar módulos
-                      href: e-commerce-extensibility/debug-modules.md
                     - name: Probar módulos mediante bocetos
                       href: e-commerce-extensibility/test-module-mock.md
                     - name: Probar módulos mediante bocetos de página
@@ -1976,6 +2002,8 @@
                   href: dev-itpro/pos-run-samples.md
                 - name: Orientación para la implementación de la gestión de dispositivos
                   href: implementation-considerations-devices.md
+                - name: Eventos y controladores de la vista del carro PDV
+                  href: dev-itpro/cart-view-handlers.md
             - name: Extensibilidad de Hardware Station
               items:
                 - name: Hardware Station y extensibilidad
@@ -2032,6 +2060,8 @@
                   href: dev-itpro/retail-sdk/retail-sdk-samples.md
                 - name: Eventos de extensión de registro para Application Insights
                   href: dev-itpro/commerce-application-insights.md
+                - name: Crear API de Commerce (CRT) asincrónicas en su lógica de negocios
+                  href: dev-itpro/async-commerce-extension.md
             - name: Extensibilidad de conector de pago
               items:
                 - name: Crear integración de pago para un terminal de pago
@@ -2048,6 +2078,8 @@
                   href: payment-connector-data-fields.md
                 - name: Habilitar protección de pago duplicada para conector de pago
                   href: dev-itpro/duplicate-payment-protection.md
+                - name: Crear paquetes de pago para el Explorador de aplicaciones en implementaciones de Service Fabric
+                  href: dev-itpro/payment-connector-package.md
             - name: Extensibilidad de comercio electrónico de terceros
               items:
                 - name: Configurar tiendas en línea
@@ -2060,8 +2092,6 @@
               href: dev-itpro/extension-resource-localization.md
     - name: Desarrollo y administración de aplicaciones de Finance and Operations
       href: ../fin-ops-core/dev-itpro/index.md
-    - name: Dynamics 365 Retail
-      href: index.md
     - name: Dynamics 365 Finance
       href: ../finance/index.md
     - name: Dynamics 365 Supply Chain Management
