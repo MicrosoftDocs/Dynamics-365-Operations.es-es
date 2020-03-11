@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ff9d722640c86333cb1f9174c640adc2e76e9a5f
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 45677681ebae40210d6e2d896323f7e691b765e2
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024003"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057565"
 ---
 # <a name="overview-of-fiscal-integration-for-commerce-channels"></a>Visión general de la integración fiscal para canales de Commerce
 
@@ -36,7 +36,7 @@ Este tema es una visión general de las capacidades fiscales de integración dis
 - Enviar la información relacionada con las ventas y las devoluciones que se completan en Retail POS a un servicio Web externa que sea operado por la autoridad fiscal de forma segura.
 - Ayudar a garantizar la inalterabilidad de los datos de transacción de ventas a través de firmas digitales.
 
-La funcionalidad fiscal de la integración de ventas es un marco que ofrece una solución común para el desarrollo y la personalización adicionales de la integración entre Retail POS y dispositivos y servicios fiscales. La funcionalidad también incluye los ejemplos fiscales de integración que admiten los escenarios de ventas al por menor básicas para los países o regiones específicos, y que funcionan con los dispositivos o servicios fiscales específicos. Un ejemplo fiscal de la integración consta de varias extensiones de componentes de Commerce y se incluye en el kit de desarrollo de software (SDK). Para obtener más información acerca de los ejemplos de integración fiscal, consulte [Ejemplos de integración fiscal en el SDK de Retail](#fiscal-integration-samples-in-the-retail-sdk). Para obtener información sobre cómo instalar y usar la ventas al por menor SDK, consulte [Kit de desarrollo de software (SDK) al por menor](../dev-itpro/retail-sdk/retail-sdk-overview.md).
+La funcionalidad fiscal de la integración de ventas es un marco que ofrece una solución común para el desarrollo y la personalización adicionales de la integración entre Retail POS y dispositivos y servicios fiscales. La funcionalidad también incluye los ejemplos fiscales de integración que admiten los escenarios básicos para los países o regiones específicos, y que funcionan con los dispositivos o servicios fiscales específicos. Un ejemplo fiscal de la integración consta de varias extensiones de componentes de Commerce y se incluye en el kit de desarrollo de software (SDK). Para obtener más información acerca de los ejemplos de integración fiscal, consulte [Ejemplos de integración fiscal en el SDK de Retail](#fiscal-integration-samples-in-the-retail-sdk). Para obtener información sobre cómo instalar y usar la ventas al por menor SDK, consulte [Kit de desarrollo de software (SDK) al por menor](../dev-itpro/retail-sdk/retail-sdk-overview.md).
 
 Para admitir otros escenarios que no son compatibles por un ejemplo fiscal de la integración, para integrar Retail POS con otros dispositivos o servicios fiscales, o cubrir los requisitos de otros países o regiones, debe remitir un ejemplo fiscal existente de integración o crear un nuevo ejemplo mediante un ejemplo existente como un ejemplo.
 

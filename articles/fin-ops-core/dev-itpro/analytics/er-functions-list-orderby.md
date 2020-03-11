@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a6aed53dcad6d402fc2ca61ae0687016cdb3af5b
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 0a6b5cddc325625dc5b3d677ffcc1da1f8b829cd
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916209"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3041961"
 ---
 # <a name="ORDERBY">Función ORDERBY de ER</a>
 
@@ -33,7 +33,7 @@ La función `ORDERBY` devuelve la lista especificada como un valor *Lista de reg
 
 ## <a name="syntax"></a>Sintaxis
 
-```
+```vb
 ORDERBY (list , expression 1[, expression 2, …, expression N])
 ```
 

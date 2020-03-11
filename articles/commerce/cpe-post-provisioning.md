@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 12d3a86698e9250f5d1645de51e0749c8d929f75
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: d72caee25c03e8167b94dd387c7861f98bd0f4cb
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024715"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057726"
 ---
 # <a name="configure-a-dynamics-365-commerce-preview-environment"></a>Configurar un entorno de vista previa de Dynamics 365 Commerce
 
@@ -35,7 +35,7 @@ Este tema explica cómo configurar una vista previa del entorno de Microsoft Dyn
 
 Complete los procedimientos de este tema solo después de que se haya aprovisionado su entorno de vista previa de Commerce. Para obtener información sobre cómo aprovisionar su entorno de vista previa de Commerce, vea [Provisión de un entorno de vista previa de Commerce ](provisioning-guide.md).
 
-Después de que su entorno de vista previa de Commerce se haya aprovisionado de principio a fin, se deben completar pasos de configuración posteriores al aprovisionamiento antes de que pueda comenzar a evaluar el entorno. Para completar estos pasos, debe usar Microsoft Dynamics Lifecycle Services (LCS), Dynamics 365 Commerce y Dynamics 365 Retail.
+Después de que su entorno de vista previa de Commerce se haya aprovisionado de principio a fin, se deben completar pasos de configuración posteriores al aprovisionamiento antes de que pueda comenzar a evaluar el entorno. Para completar estos pasos, debe usar Microsoft Dynamics Lifecycle Services (LCS) y Dynamics 365 Commerce.
 
 ## <a name="before-you-start"></a>Antes de comenzar
 
@@ -53,7 +53,7 @@ Después de que su entorno de vista previa de Commerce se haya aprovisionado de 
 
 Para asociar un trabajador con su identidad en LCS, siga estos pasos.
 
-1. Use el menú de la izquierda para ir a **Módulos \> Retail \> Empleados \> Trabajadores**.
+1. Use el menú de la izquierda para ir a **Módulos \> Retail y Commerce \> Empleados \> Trabajadores**.
 1. En la lista, busque y seleccione el registro siguiente: **000713 - Andrew Collette**.
 1. En el panel de acciones, haga clic en **Retail**.
 1. Seleccione **Asociar identidad existente**.
@@ -91,12 +91,12 @@ Para comenzar a configurar su sitio de vista previa en Commerce, siga estos paso
 1. Deje el valor del campo **Ruta** tal cual está.
 1. Seleccione **Aceptar**. Aparece la lista de páginas del sitio.
 
-## <a name="enable-jobs-in-retail"></a>Habilitar trabajos en Retail
+## <a name="enable-jobs"></a>Habilitar trabajos
 
-Para activar la gestión de trabajos en Retail, siga estos pasos.
+Para activar la gestión de trabajos en Commerce, siga estos pasos.
 
 1. Inicie sesión en el entorno (sede).
-1. Use el menú de la izquierda, para ir a **Retail \> Consultas e informes \> Trabajos por lotes**.
+1. Use el menú de la izquierda, para ir a **Retail y Commerce \> Consultas e informes \> Trabajos por lotes**.
 
     Los pasos restantes de este procedimiento deben completarse para cada uno de los siguientes trabajos:
 
@@ -112,11 +112,11 @@ Para activar la gestión de trabajos en Retail, siga estos pasos.
     1. En el panel de acciones, en la pestaña **Trabajo por lotes**, seleccione **Cambiar estado**.
     1. Seleccione **Esperando** y, a continuación, seleccione **Aceptar**.
 
-### <a name="run-full-data-synchronization-in-retail"></a>Ejecute la sincronización de datos completa en Retail
+### <a name="run-full-data-synchronization"></a>Ejecutar sincronización de datos completa
 
-Para ejecutar la sincronización de datos completa en Retail, siga estos pasos.
+Para ejecutar la sincronización de datos completa en Commerce, siga estos pasos.
 
-1. Use el menú de la izquierda, para ir a **Módulos \> Retail \> Configuración de sede central \> Programador de tareas Retail \> Base de datos de canales**.
+1. Use el menú de la izquierda, para ir a **Módulos \> Retail y Commerce \> Configuración de sede central \> Programador de tareas Retail \> Base de datos de canales**.
 1. El canal **Predeterminado** está seleccionado en la lista de la izquierda. Seleccione el otro canal disponible. Este canal se llama **scXXXXXXXXX**.
 1. En el panel de acciones, seleccione **Sincronización de datos completa**.
 1. Introduzca **9999** como la programación de distribución.

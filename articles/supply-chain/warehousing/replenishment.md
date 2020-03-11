@@ -3,7 +3,7 @@ title: Visión general de la configuración de reabastecimiento
 description: En este tema se describen las estrategias de reabastecimiento que están disponibles para los almacenes que utilizan la funcionalidad disponible en Gestión de almacenes.
 author: Mirzaab
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 02/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3c1989f11563db343129c678623725e2e61b27fc
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 7aa17df3c3632c89f35a69022084bbd9f4171f36
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251486"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076371"
 ---
 # <a name="replenishment-overview"></a>Visión general de la configuración de reabastecimiento
 
@@ -49,6 +49,8 @@ Las directivas de ubicación se utilizan para determinar qué ubicación se debe
 Además de crear una plantilla, debe especificar algunos valores de reabastecimiento en la plantilla de oleada. La plantilla de oleada debe contener un paso de oleada para el reabastecimiento que solo se ejecuta si la asignación de un artículo no es correcta. Este paso de oleada de reabastecimiento utiliza un código de paso de oleada para determinar qué plantilla de reabastecimiento debe utilizarse. Además de tener un paso de oleada para el reabastecimiento, debe asegurarse de que la opción **Reabastecer** está seleccionada en la sección **Métodos** de la plantilla de oleada. 
 
 La página **Plantilla de reabastecimiento** incluye una casilla **Permitir una demanda de oleadas para usar las cantidades que no estén reservadas**. Seleccione esta casilla si desea permitir que el reabastecimiento de la demanda deduzca cantidades sin reservas del trabajo que se genera a partir de la plantilla de reabastecimiento seleccionada. Para que las plantillas de reabastecimiento de la demanda puedan usar esta lógica, seleccione esta casilla para cada plantilla de reabastecimiento existente. Cuando el reabastecimiento de la demanda se active en el almacén, deducirá la demanda del trabajo de reabastecimiento existente con cantidades sin reservas, si el trabajo se origina a partir de plantillas de reabastecimiento donde la casilla **Permitir que la demanda de oleada use cantidades sin reservas** está activada.
+
+**Unidad de reabastecimiento** es la unidad mínima para reponer. Este debe ser un número entero que sea múltiplo de la unidad. El sistema se redondeará a la unidad más alta posible al crear trabajo.
 
 El reabastecimiento de la demanda se admite para los pedidos de ventas, pedidos de transferencia, pedidos de producción y kanbans. 
 

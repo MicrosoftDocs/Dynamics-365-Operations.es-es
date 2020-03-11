@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2ac5135d0606ffc9816c841637aa032826f87e28
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 0ac75d390b8bbb94c6e039b374b51462d348e355
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023940"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057190"
 ---
 # <a name="create-and-associate-registers"></a>Crear y asociar registros
 
@@ -30,14 +30,14 @@ ms.locfileid: "3023940"
 
 Este procedimiento muestra cómo crear un registro de punto de venta (PDV). Este procedimiento usa la empresa de datos de demostración USRT.
 
-1. Vaya a Venta minorista y comercio > Configuración de canal > Configuración de PDV > PDV > Cajas registradoras.
+1. Vaya a Retail y Commerce > Configuración de canal > Configuración de PDV > PDV > Cajas registradoras.
 2. Haga clic en Nuevo.
 3. En el campo Número de registro, escriba un id. para el nuevo registro.
     * El id. de registro incluye normalmente códigos que ayudan a asignar el registro a la tienda a la que pertenece y a la ubicación dentro del almacén.  
 4. En el campo Nombre, escriba un nombre descriptivo para el registro.
 5. En el campo Número de tienda, especifique o seleccione un valor.
 6. En el campo Perfil de hardware, especifique o seleccione un valor.
-    * Los perfiles de hardware se utilizan para especificar los periféricos comerciales que se conectarán con el registro, como la caja registradora y la impresora de recibos.  
+    * Los perfiles de hardware se utilizan para especificar los periféricos que se conectarán con el registro, como la caja registradora y la impresora de recibos.  
 7. En el campo Perfil visual, especifique o seleccione un valor.
     * Los perfiles visuales se utilizan para especificar las imágenes usadas en el fondo del PDV y la página de inicio de sesión así como los temas para el PDV.  
 8. En el campo Número de caja registradora de PDV de EFT, escriba un valor.

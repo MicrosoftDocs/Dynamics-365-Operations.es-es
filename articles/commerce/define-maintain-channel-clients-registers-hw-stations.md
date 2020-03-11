@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 51d344d7b7a792d0cdf3eeb7f5c6e1a9b2b8bf19
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: ec64cb8a7c490c6798a897fd20a56e5af5c8be3a
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023894"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057946"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Conectar periféricos al punto de venta (PDV)
 
@@ -43,7 +43,7 @@ Se utilizan varios componentes para definir las relaciones entre un almacén, lo
 
 Navegación: Haga clic en **Retail y Commerce** &gt; **Configuración del canal** &gt; **Configuración del PDV** &gt; **Registros**.
 
-El registro de PDV es una entidad que se utiliza para definir las características de una instancia específica del PDV. Entre estas características se incluyen el perfil de hardware o la configuración de los periféricos comerciales que se utilizarán en el registro, el almacén al que está asignado el registro y la experiencia visual para el usuario que inicia sesión en ese registro.
+El registro de PDV es una entidad que se utiliza para definir las características de una instancia específica del PDV. Entre estas características se incluyen el perfil de hardware o la configuración de los periféricos que se utilizarán en el registro, el almacén al que está asignado el registro y la experiencia visual para el usuario que inicia sesión en ese registro.
 
 ### <a name="devices"></a>Dispositivos
 
@@ -67,7 +67,7 @@ Un perfil de hardware identifica el hardware que está conectado a un registro d
 
 ### <a name="hardware-station"></a>Hardware Station
 
-Navegación: Haga clic en **Retail y Commerce** &gt; **Canales** &gt; **Tiendas** &gt; **Todas las tiendas minoristas**. Seleccione una tienda y, a continuación, haga clic en la ficha desplegable **Estaciones de hardware**.
+Navegación: haga clic en **Retail y Commerce** &gt; **Canales** &gt; **Tiendas** &gt; **Todas las tiendas**. Seleccione una tienda y, a continuación, haga clic en la ficha desplegable **Estaciones de hardware**.
 
 Una estación de hardware es una instancia de lógica de negocio que impulsa los periféricos de PC. Una estación de hardware se instala automáticamente junto con MPOS. De forma alternativa, la estación de hardware se puede instalar como componente independiente y, a continuación, acceder a ella mediante MPOS o PDV en la nube a través de un servicio web. La estación de hardware debe definirse en el nivel de canal.
 
@@ -87,7 +87,7 @@ Para conectar periféricos de MPOS a PDV en un escenario de PDV fijo tradicional
 
 Una vez que haya asignado el perfil de hardware, sincronice los cambios en la base de datos de canal mediante la programación de distribución de **Registros**. Puede encontrar las programaciones de distribución en **Retail y Commerce** &gt; **TI de Retail y Commerce** &gt; **Programación de distribución**. 
 
-A continuación, configure una estación de hardware "local" en el canal. Haga clic en **Retail y Commerce** &gt; **Canales** &gt; **Tiendas** &gt; **Todas las tiendas minoristas** y seleccione una tienda. 
+A continuación, configure una estación de hardware "local" en el canal. Haga clic en **Retail y Commerce** &gt; **Canales** &gt; **Tiendas** &gt; **Todas las tiendas** y seleccione una tienda. 
 
 A continuación, en la ficha desplegable **Estaciones de hardware**, haga clic en **Agregar** para agregar una estación de hardware. Escriba una descripción, escriba **localhost** como el nombre del host y, a continuación, sincronice los cambios realizados con el canal mediante la programación de distribución **Configuración del canal**. Puede encontrar las programaciones de distribución en **Retail y Commerce** &gt; **TI de Retail y Commerce** &gt; **Programación de distribución**. 
 
@@ -104,7 +104,7 @@ Por último, en MPOS, utilice la operación **Seleccionar estación de hardware*
 
 En este escenario, se comparte una estación de hardware independiente entre los clientes de MPOS y PDV en la nube. Este escenario requiere la creación de un perfil de estación de hardware para especificar el paquete de descarga, el puerto y el perfil de hardware que la estación de hardware utiliza. Puede encontrar el perfil de estación de hardware en **Retail y Commerce** &gt; **Configuración del canal** &gt; **Configuración del PDV** &gt; **Perfiles del PDV** &gt; **Perfiles de la estación de hardware**. 
 
-Una vez creado el perfil de la estación de hardware, navegue hasta el canal comercial específico (**Retail y Commerce** &gt; **Canales** &gt; **Tiendas** &gt; **Todas las tiendas minoristas**) y agregue una nueva estación de hardware. Asigne esta nueva estación de hardware al perfil de la estación de hardware que se creó anteriormente. 
+Una vez creado el perfil de la estación de hardware, navegue hasta el canal específico (**Retail y Commerce** &gt; **Canales** &gt; **Tiendas** &gt; **Todas las tiendas**) y agregue una nueva estación de hardware. Asigne esta nueva estación de hardware al perfil de la estación de hardware que se creó anteriormente. 
 
 A continuación, proporcione una descripción que ayude al cajero a identificar la estación de hardware. En el campo **Nombre de host**, escriba la dirección URL del equipo host con el siguiente formato: `https://<MachineName:Port>/HardwareStation`. (Reemplace **&lt;NombredeEquipo:Puerto&gt;** por el nombre del equipo real de la estación de hardware y el puerto que se especifica en el perfil de la estación de hardware.) Para una estación independiente del hardware, también deberá especificar el identificador del terminal (EFT) de transferencia electrónica de fondos. Este valor identifica el terminal EFT que está conectado a la estación de hardware cuando el conector de pago se comunica con el proveedor de pagos. 
 

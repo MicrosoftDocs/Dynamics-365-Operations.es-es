@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 822bd39bca3a95f073bacea90a8ee58eada50ae2
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 6a683ffce487dc4388711ad160c2e8dc55a690dd
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023986"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057473"
 ---
 # <a name="options-for-preventing-discounts-for-retail-products"></a>Opciones para evitar descuentos de productos comerciales
 
@@ -32,7 +32,7 @@ ms.locfileid: "3023986"
 
 Existen varios motivos por los que los minoristas pueden querer evitar que algunos de sus productos tengan descuentos, tanto por una promoción o durante la venta PDV.
 
-Las opciones siguientes, que se pueden encontrar en la pestaña **Commerce** de productos emitidos, permitirán que el producto se configure para evitar todos o descuentos manuales. Los valores también se pueden especificar al nivel de categoría de la jerarquía de categoría minorista.
+Las opciones siguientes, que se pueden encontrar en la pestaña **Commerce** de productos emitidos, permitirán que el producto se configure para evitar todos o descuentos manuales. Los valores también se pueden especificar al nivel de categoría de la jerarquía de categoría.
 
 - **Evite todos los descuentos**: Seleccione esta opción para impedir que se apliquen todos los tipos de descuentos a este producto. Esto incluye promociones como Descuentos combinados, los descuentos de cantidad y de umbral, así como los descuentos manuales de línea y transacción que se aplican durante una venta por un PDV.
 - **Evitar los descuentos manuales**: Seleccione esta opción para evitar sólo los descuentos manuales de la línea o transacción que se aplican durante una venta por un usuario PDV. Los productos con esta opción seleccionada todavía están aptos para promociones, como descuentos de combinados y de cantidad y de umbral.

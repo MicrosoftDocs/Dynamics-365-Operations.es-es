@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9b740b7d46fcfdf0d0b08d03411017cf909265d
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 54c78f36c93e1bdb472b84fc7ca6428d20088bad
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916186"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3041869"
 ---
 # <a name="SPLITLISTBYLIMIT">Función SPLITLISTBYLIMIT de ER</a>
 
@@ -33,7 +33,7 @@ La función `SPLITLISTBYLIMIT` divide la lista especificada en una nueva lista d
 
 ## <a name="syntax"></a>Sintaxis
 
-```
+```vb
 SPLITLISTBYLIMIT (list, limit value, limit source)
 ```
 

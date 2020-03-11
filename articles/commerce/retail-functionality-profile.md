@@ -1,6 +1,6 @@
 ---
 title: Crear un perfil de funcionalidad comercial
-description: Este tema describe cómo crear un perfil de funcionalidad comercial en Microsoft Dynamics 365 Commerce.
+description: Este tema describe cómo crear un perfil de funcionalidad en Microsoft Dynamics 365 Commerce.
 author: samjarawan
 manager: annbe
 ms.date: 01/27/2020
@@ -17,27 +17,27 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9fb0fd63b11e55f2b153fc9c135f148a6e343057
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 6bee51eb25b04eb65e588dd4cf54a0cef587aa15
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002852"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057357"
 ---
 # <a name="create-a-retail-functionality-profile"></a>Crear un perfil de funcionalidad comercial
 
 
 [!include [banner](includes/banner.md)]
 
-Este tema describe cómo crear un perfil de funcionalidad comercial en Microsoft Dynamics 365 Commerce.
+Este tema describe cómo crear un perfil de funcionalidad en Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Visión general
 
-El perfil de funcionalidad comercial proporciona varias configuraciones utilizadas para los canales en línea. Cada canal minorista debe especificar un perfil de funcionalidad comercial.
+El perfil de funcionalidad comercial proporciona varias configuraciones utilizadas para los canales en línea. Cada canal debe especificar un perfil de funcionalidad.
 
-## <a name="create-a-retail-functionality-profile"></a>Crear un perfil de funcionalidad comercial
+## <a name="create-a-functionality-profile"></a>Crear un perfil de funcionalidad
 
-Para crear un perfil de funcionalidad comercial, siga estos pasos.
+Para crear un perfil de funcionalidad, siga estos pasos.
 
 1. En el panel de navegación, vaya a **Módulos \> Configuración de canal \> Perfiles de PDV \> Perfiles de funcionalidad**.
 1. En el panel de acciones, seleccione **Nueva**.
@@ -51,9 +51,9 @@ Para crear un perfil de funcionalidad comercial, siga estos pasos.
 1. En la sección **Códigos de información**, modifique la configuración, según sea necesario.
 1. En la sección **Numeración del recibo**, modifique la configuración, según sea necesario. 
   
-La siguiente imagen muestra un perfil de funcionalidad comercial de ejemplo.
+La siguiente imagen muestra un perfil de funcionalidad de ejemplo.
   
-![Ejemplo de perfil de funcionalidad comercial](media/retail-functionality-profile.png)
+![Ejemplo de perfil de funcionalidad](media/retail-functionality-profile.png)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

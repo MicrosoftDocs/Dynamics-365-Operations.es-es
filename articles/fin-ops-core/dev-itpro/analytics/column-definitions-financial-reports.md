@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 68a92610a880c574b4a3a48951c432bc2764c24b
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 408767539628a14f8ea039155c72f5e9aa6803af
+ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771550"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "3070769"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Definiciones de columna en los informes financieros
 
@@ -120,11 +120,11 @@ En la tabla siguiente se describen los códigos de restricción de la columna.
 | ADJ                     | Restringir los importes en la columna a los importes de ajuste del período, si estos importes están disponibles. |
 | XAD                     | Restringir los importes en la columna para que los importes de ajuste del período se excluyan. |
 | TP                      | Restringir los importes en la columna, de manera que solo las transacciones registradas se incluyen, si estas transacciones están disponibles. |
-| UPT                     | Restringir los importes en la columna, de manera que solo las transacciones no registradas se incluyen, si estas transacciones están disponibles.<p><strong>Nota:</strong> No todos los proveedores de los datos admiten transacciones no registradas. Para más información, consulte la <a href='https://go.microsoft.com/fwlink/?LinkID=162565'>guía de integración de datos</a> para el sistema Microsoft Dynamics ERP.</p> |
+| UPT                     | Restringir los importes en la columna, de manera que solo las transacciones no registradas se incluyen, si estas transacciones están disponibles.<p><strong>Nota:</strong> No todos los proveedores de los datos admiten transacciones no registradas. </p> |
 
 ### <a name="restrict-a-column-to-a-reporting-unit"></a>Restringir una columna a una unidad de notificación
 
-1. En el Diseñador de informes, abra la definición de columna que desee modificar.
+1. En el diseñador de informes, abra la definición de la columna para modificarla.
 2. Haga doble clic en la celda **Unidad de notificación** para la columna que se va a restringir.
 3. En el cuadro de diálogo **Selección de la unidad de notificación**, en la lista **Organigrama**, seleccione un organigrama.
 4. Expanda o contraiga la lista de unidades, seleccione una unidad de notificación, y haga clic en **Aceptar**.

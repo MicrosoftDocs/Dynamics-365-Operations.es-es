@@ -19,17 +19,17 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: aae9ea56fc2174df56274776993c68b11c0521d0
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 9ccf00b6fcd1e3a6002086360b1a4c5c464ba054
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2774044"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076164"
 ---
+# <a name="planning-optimization-overview"></a>Visión general de la optimización de la planificación
+
 [!include [banner](../../includes/banner.md)]
 [!include [banner](../../includes/preview-banner.md)]
-
-# <a name="planning-optimization-overview"></a>Visión general de la optimización de la planificación
 
 El complemento de la optimización de la planificación para Microsoft Dynamics 365 Supply Chain Management permite que el cálculo de la planificación maestra se produzca fuera de Dynamics 365 Supply Chain Management y de la base de datos SQL relacionada. Los beneficios que están asociados con la funcionalidad de optimización de la planificación incluyen un rendimiento mejorado y un impacto mínimo en la base de datos SQL durante las ejecuciones de la planificación maestra. Las ejecuciones rápidas de la planificación se pueden realizar incluso durante las horas de oficina, de modo que los planificadores puedan inmediatamente reaccionar a los cambios de la demanda o configuración de parámetros.
 

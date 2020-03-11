@@ -3,7 +3,7 @@ title: Preguntas frecuentes de flujo de trabajo
 description: Este tema responde a las preguntas frecuentes acerca del sistema de flujo de trabajo.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdddd26a662e9334f6d3c9806871df5b58ec03c7
-ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
+ms.openlocfilehash: f7408424ff9344b3dcd054106f3f10b0dc1d687b
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2934918"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076095"
 ---
 # <a name="workflow-faq"></a>Preguntas frecuentes sobre flujos de trabajo
 
@@ -52,5 +52,9 @@ A continuación se muestran algunas áreas fundamentales a tener en cuenta para 
 
 En resumen, si un usuario no obtiene la notificación adecuada del Centro de actividades cuando se le asigna un elemento de trabajo del flujo de trabajo, utilice [Eventos de negocio del flujo de trabajo](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) con Microsoft Power Automate para proporcionar notificaciones adicionales o distintas.
 
-## <a name="workflow-editor-has-trouble-starting-under-adfs"></a>El editor de flujo de trabajo no se puede iniciar con ADFS 
+## <a name="why-is-workflow-editor-not-able-to-start-under-ad-fs"></a>¿Por qué el editor de flujo de trabajo no puede iniciarse en AD FS?
 Cuando el editor de flujo de trabajo se ejecuta con los Servicios de federación de Active Directory (AD FS) en un entorno actualizado, es posible que tenga problemas para iniciarse. Si es así, asegúrese de agregar la dirección URL " https://dynamicsaxworkfloweditor/" a la propiedad **Microsoft Dynamics 365 for Operations On-premises - Flujo de trabajo - Aplicación nativa** en la configuración de ADFS.
+
+## <a name="why-am-i-getting-sql-deadlocks-on-workflow-processing"></a>¿Por qué obtengo puntos muertos de SQL en el procesamiento del flujo de trabajo? 
+El valor de campo predeterminado para **Número de elementos de flujo de trabajo por lote** sobre el **Parámetros de flujo de trabajo** la página es 0. Un valor de 0 hace que el valor predeterminado cambie a 20 artículos por lote. Tenga cuidado al ajustar este valor porque una gran cantidad de elementos por lote (> 40) puede causar puntos muertos de SQL.
+

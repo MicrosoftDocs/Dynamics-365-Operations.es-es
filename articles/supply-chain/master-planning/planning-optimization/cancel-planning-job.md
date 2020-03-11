@@ -3,7 +3,7 @@ title: Cancelar un trabajo de planificación
 description: Este tema explica cómo cancelar un trabajo activo de planificación que utilice la función de ajuste de planificación.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/26/2019
+ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,21 +19,22 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: a2d90f04985fdd66ca83582ee676100fffb26981
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 18c5c7b8030fc6adbc548dab750e4f454aebc867
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2774048"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076359"
 ---
+# <a name="cancel-a-planning-job"></a>Cancelar un trabajo de planificación
+
 [!include [banner](../../includes/banner.md)]
 [!include [banner](../../includes/preview-banner.md)]
 
-# <a name="cancel-a-planning-job"></a>Cancelar un trabajo de planificación
+En Microsoft Dynamics 365 Supply Chain Management puede cancelar un trabajo activo de planificación que utilice la función de ajuste de planificación. Cuando seleccionas **Cancelar** en el cuadro de diálogo cuando un trabajo de optimización de Planificación se activa directamente desde la interfaz de usuario (no en segundo plano), esto no cancelará el trabajo de optimización de Planificación. Incluso si recibe una advertencia como "Operación cancelada", deberá seguir los siguientes pasos para cancelar un trabajo de planificación con la optimización de planificación.
 
-En Microsoft Dynamics 365 Supply Chain Management puede cancelar un trabajo activo de planificación que utilice la función de ajuste de planificación.
 
-Para cancelar un trabajo activo de planificación, siga estos pasos.
+Para cancelar un trabajo activo de planificación, siga estos pasos. 
 
 > [!NOTE]
 > Sólo puede cancelar trabajos activos.
@@ -49,11 +50,11 @@ El estado del trabajo será **Cancelando** hasta que el servicio de optimizació
 > [!NOTE]
 > Para ver cambios de estado, debe actualizar la página seleccionando el botón **Actualizar**.
 
-## <a name="related-resources"></a>Recursos relacionados
+## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general de la optimización de planificación](planning-optimization-overview.md)
+[Visión general de la optimización de la planificación](planning-optimization-overview.md)
 
-[Introducción a la optimización de planificación](get-started.md)
+[Introducción a la optimización de la planificación](get-started.md)
 
 [Análisis de aptitud de la optimización de la planificación](planning-optimization-fit-analysis.md)
 

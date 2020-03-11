@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 9585d5a399ebf45b0ad7640f3c4e48d8afc46cd8
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: 90422a34499dab7302ad7722cf84d40e1815991c
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3017737"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042951"
 ---
 # <a name="embed-microsoft-power-apps"></a>Insertar Microsoft Power Apps
 
@@ -55,7 +55,7 @@ Las instrucciones siguientes muestran cómo insertar una aplicación de Power Ap
 
     - El campo **Nombre** indica el texto que se muestra para el botón o la ficha o que contendrán la aplicación incrustada. Muchas veces puede que desee repetir el nombre de la aplicación en este campo.
     - **Identificador de la aplicación** es el GUID para la aplicación que desee insertar. Para recuperar este valor, encuentre la aplicación en [web.powerapps.com](https://web.powerapps.com) y después busque el campo **Identificador de la aplicación** en **Detalles**.
-    - Para **Contexto de entrada para la aplicación**, puede seleccionar opcionalmente el campo que contiene los datos que desea pasar a la aplicación como entrada. Consulte la sección que figura más adelante en este tema denominada [Creación de aplicaciones que saque provecho de las aplicaciones de Finance and Operations](#building-a-power-app-that-leverages-data-sent-from-finance-and-operations-apps) para obtener información detallada sobre cómo la aplicación puede tener acceso a los datos enviados desde aplicaciones de Finance and Operations.
+    - Para **Contexto de entrada para la aplicación**, puede seleccionar opcionalmente el campo que contiene los datos que desea pasar a la aplicación como entrada. Consulte la sección que figura más adelante en este tema denominada [Creación de una aplicación aplicaciones que saque provecho de datos enviados desde las aplicaciones de Finance and Operations](#building-an-app-that-leverages-data-sent-from-finance-and-operations-apps) para obtener información detallada sobre cómo la aplicación puede tener acceso a los datos enviados desde aplicaciones de Finance and Operations.
     - Elija el **tamaño de la aplicación** que coincida con el tipo de aplicación que se está insertando. Seleccione **Fino** para aplicaciones creadas para dispositivos móviles y **Ancho** para aplicaciones creadas para tabletas. Esto garantiza que se asigne una cantidad de espacio suficiente para la aplicación incrustada.
     - La ficha desplegable **Entidades jurídicas** proporciona la capacidad de elegir para qué entidades jurídicas está disponible la aplicación. El valor predeterminado es hacer que la aplicación esté accesible para todas las entidades jurídicas. Esta opción solo está disponible cuando la característica [Vistas guardadas](saved-views.md) está deshabilitada. 
 
@@ -76,7 +76,7 @@ Una parte importante de la construcción de una aplicación desde Power Apps par
 
 Por ejemplo, en la función de OnStart de la aplicación, puede establecer los datos de entrada desde aplicaciones de Finance and Operations en una variable como esta:
 
-```
+```powerapps
 If(!IsBlank(Param("EntityId")), Set(FinOpsInput, Param("EntityId")), Set(FinOpsInput, ""));
 ```
 
@@ -101,7 +101,7 @@ Siga estos pasos para editar la configuración de una aplicación incrustada:
 
 Después de que una aplicación se haya insertado en una página, hay dos maneras de quitarla en caso necesario:
 
-- Vaya al panel **Editar una aplicación** mediante las instrucciones de [Editar una aplicación incrustada](#editing-an-embedded-power-app) en la sección anterior en este tema. Confirme que el panel muestra información para la aplicación incrustada que desea quitar y haga clic en el botón **Eliminar**.
+- Vaya al panel **Editar una aplicación** mediante las instrucciones de [Editar una aplicación incrustada](#editing-an-embedded-app) en la sección anterior en este tema. Confirme que el panel muestra información para la aplicación incrustada que desea quitar y haga clic en el botón **Eliminar**.
 - Debido a que la aplicación incrustada está guardado como datos de personalización, desactivando la personalización de su página también quitará cualquier aplicación incrustada en la página. Tenga en cuenta que borrar la personalización de la página es permanente y no se puede deshacer. Para quitar sus personalizaciones de una página, seleccione **Opciones** y después haga clic en **Personalizar esta página** y finalmente en el botón **Borrar**. Después de actualizar su explorador, todas las personalizaciones anteriores para esta página se quitarán. Consulte [Personalizar la experiencia del usuario](personalize-user-experience.md) para obtener más información sobre cómo optimizar páginas utilizando la personalización.
 
 ## <a name="appendix"></a>Apéndice
@@ -115,7 +115,7 @@ De forma predeterminada, los usuarios pueden insertar aplicaciones en cualquier 
 
 El ejemplo siguiente muestra una nueva clase con los dos métodos necesarios para configurar dónde se puede insertar aplicaciones.
 
-```
+```powerapps
 [ExtensionOf(classStr(FormRunConfigurationPowerAppsConfiguration))]
 
 public final class ClassTest_Extension

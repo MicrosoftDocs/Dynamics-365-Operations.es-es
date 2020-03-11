@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: c0baf96315dd9fe6bc1984d337fd1c50ae47016a
-ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
+ms.openlocfilehash: cd6ec1013de757214db99ada02170bb6e2af96c0
+ms.sourcegitcommit: f52ddcad105aac4ad2caef709751ff80caf363c0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3031052"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "3036938"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Política de reserva de dimensión de nivel de almacén flexible
 
@@ -46,7 +46,7 @@ En estos escenarios, el desafío es que solo se puede asignar una jerarquía de 
 
 ### <a name="business-scenario"></a>Escenario empresarial
 
-En este escenario, una compañía usa una estrategia de inventario donde se hace un seguimiento de los productos terminados por número de lote. Esta compañía también usa la carga de trabajo de WHS. Debido a que esta carga de trabajo tiene una lógica bien equipada para planificar y ejecutar operaciones de picking y envío de almacén para artículos habilitados por lotes, la mayoría de los artículos terminados están asociados con una jerarquía de reservas de inventario "Batch-below\[ubicación\]". La ventaja de este tipo de configuración operativa es que las decisiones (que son efectivamente decisiones de reserva) sobre qué lotes elegir y dónde colocarlas en el almacén se posponen hasta que comiencen las operaciones de selección del almacén. No se toman cuando se realiza el pedido del cliente.
+En este escenario, una compañía usa una estrategia de inventario donde se hace un seguimiento de los productos terminados por número de lote. Esta compañía también usa la carga de trabajo de WMS. Debido a que esta carga de trabajo tiene una lógica bien equipada para planificar y ejecutar operaciones de picking y envío de almacén para artículos habilitados por lotes, la mayoría de los artículos terminados están asociados con una jerarquía de reservas de inventario "Batch-below\[ubicación\]". La ventaja de este tipo de configuración operativa es que las decisiones (que son efectivamente decisiones de reserva) sobre qué lotes elegir y dónde colocarlas en el almacén se posponen hasta que comiencen las operaciones de selección del almacén. No se toman cuando se realiza el pedido del cliente.
 
 Aunque la jerarquía de reservas "Batch-below\[ubicación\]" sirve bien a los objetivos comerciales de la compañía, muchos de los clientes establecidos de la compañía requieren el mismo lote que compraron previamente cuando reordenan productos. Por lo tanto, la compañía busca flexibilidad en la forma en que se manejan las reglas de reserva de lotes, de modo que, dependiendo de la demanda de los clientes por el mismo artículo, ocurran los siguientes comportamientos:
 

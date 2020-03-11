@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ed862ab823cfc3539c420d3066c9397e1e6d870e
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 77854d645ba5b65a2819437af510fcd67be6d99d
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916692"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3040949"
 ---
 # <a name="UPPER">Función UPPER de ER</a>
 
@@ -33,7 +33,7 @@ La función `UPPER` devuelve la cadena de texto especificada como un valor de ti
 
 ## <a name="syntax"></a>Sintaxis
 
-```
+```vb
 UPPER (text )
 ```
 

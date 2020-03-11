@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: a52e8f65e7e2a8d90ddf5efa47c07d6995ef645d
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: 9593e8e54b18c6fe723a133eca699a30baabfdd0
+ms.sourcegitcommit: e0e013fa8a4cc994ef6d1e0a1a3389b36b5afffa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019997"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "3081160"
 ---
 # <a name="unified-product-experience"></a>Experiencia unificada del producto
 
@@ -75,7 +75,7 @@ Unidad | uoms
 Conversiones de unidades | msdyn_ unitofmeasureconversions
 Conversión de unidad de medida específica del producto | msdyn_productspecificunitofmeasureconversion
 Categorías de productos | msdyn_productcategories | Cada una de las categorías de productos e información acerca de su estructura y funciones se incluyen en la entidad de categoría de producto. 
-Jerarquías de categorías de producto | msdyn_productcategoryhierarhies | Use las jerarquías de producto para clasificar o para agrupar productos. Las jerarquías de categorías están disponibles en Common Data Service mediante la entidad de jerarquía de categoría de Prodcut. 
+Jerarquías de categorías de producto | msdyn_productcategoryhierarhies | Use las jerarquías de producto para clasificar o para agrupar productos. Las jerarquías de categorías están disponibles en Common Data Service mediante la entidad de jerarquía de categoría de Product. 
 Roles de jerarquía de categorías de producto | msdyn_productcategoryhierarchies | Las jerarquías de producto se pueden usar para distintos roles en D365 Finance and Operations. Especificar qué categoría se usa en cada rol en que la entidad de rol de categoría de producto se utiliza. 
 Asignaciones de categorías de producto | msdyn_productcategoryassignments | Para asignar un producto a una categoría se puede usar la entidad de asignaciones de categorías de producto.
 
@@ -91,7 +91,7 @@ Dado que el producto se representa como SKU, los conceptos de productos únicos,
 
 ![Modelo de datos para productos](media/dual-write-product.png)
 
-Con la función de escritura dual habilitada, las aplicaciones de Finance and Operations se sincronizarán en otras aplicaciones de Dynamics 365 en el estado **Borrador**. Se agregan a la primera lista de precios con la misma divisa. Es decir se agregan a la primera lista de precios de una aplicación de Dynamics 365 que coincida con la divisa de la entidad jurídica donde el producto se lance en una aplicación de Finance and Operations. 
+Con la función de doble escritura habilitada, las aplicaciones de Finance and Operations se sincronizarán en otras aplicaciones de Dynamics 365 en el estado **Borrador**. Se agregan a la primera lista de precios con la misma divisa. Es decir se agregan a la primera lista de precios de una aplicación de Dynamics 365 que coincida con la divisa de la entidad jurídica donde el producto se lance en una aplicación de Finance and Operations. 
 
 De forma predeterminada los productos de las aplicaciones de Finance and Operations se sincronizan con otras aplicaciones de Dynamics 365 en el estado **Borrador**. Para sincronizar el producto con el estado **Activo** para que pueda utilizarlo directamente en presupuestos de pedidos de ventas, por ejemplo, es necesario elegir la siguiente configuración: **Sistema > Administración > Administración del sistema > ventas** y seleccionar **Crear productos en estado activo = sí**. 
 
@@ -109,7 +109,7 @@ Tenga en cuenta que la sincronización de productos se produce de las aplicacion
 
 Las dimensiones de un producto son las características que identifican una variante del producto. Las cuatro dimensiones de producto (El color, tamaño, estilo, y configuración) también se asignan a Common Data Service para definir las variantes de producto. La ilustración siguiente muestra el modelo de datos para la dimensión del producto Color. El mismo modelo se aplica a los tamaños, a los estilos y a las configuraciones. 
 
-![Modelo de datos para productos](media/dual-write-product-2.PNG)
+![Modelo de datos para productos](media/dual-write-product-two.png)
 
 [!include [product colors](includes/EcoResProductColorEntity-msdyn-productcolor.md)]
 
@@ -145,7 +145,7 @@ Los configuración de pedido predeterminada define el sitio y el almacén de dó
 
 Las unidades de medida y sus conversiones respectivas están disponibles en el Common Data Service según se indica en el modelo de datos indicado en el diagrama.
 
-![Modelo de datos para productos](media/dual-write-product-3.PNG)
+![Modelo de datos para productos](media/dual-write-product-three.png)
 
 El concepto de unidad de medida está integrado entre aplicaciones de Finance and Operations y otras aplicaciones de Dynamics 365. Para cada clase de unidad en una aplicación de Finance and Operations se crea un grupo de unidades en una aplicación de Dynamics 365, que contiene las unidades que pertenecen a la clase de unidad. Una unidad base predeterminada también se crea para cada grupo de unidad. 
 
@@ -205,13 +205,13 @@ Para identificar de forma única productos entre Dynamics 365 for Finance and Op
 
 Para otro usuario de aplicaciones de Dynamics 365, el producto se identifica en la interfaz de usuario con **msdyn_productnumber** (tenga en cuenta que la etiqueta del campo es **Número de producto**). En el formulario de producto se muestran la empresa y el msydn_productnumber. Sin embargo, el campo (productnumber), la clave única para un producto, no se muestra. 
 
-Tenga en cuenta que si las aplicaciones se construyen encima de Common Data Service, debe prestarse atención especial al uso de (productnumber), que es el identificador único del producto, como la clave de integración, y no el msdyn_productnumber, debido al hecho de que el último no es único. 
+Si construye aplicaciones en Common Data Service, debe prestar atención al uso de **Número de producto** (el ID de producto único) como clave de integración. No utilice **msdyn_productnumber**, porque no es único. 
 
 ## <a name="initial-synchronization-of-products-and-migration-of-data-from-common-data-service-to-finance-and-operations"></a>Sincronización inicial de productos y migración de datos de Common Data Service a Finance and Operations
 
 ### <a name="initial-synchronization-of-products"></a>Sincronización inicial de productos 
 
-Cuando la doble escritura está habilitada, los productos de Dynamics 365 Finance and Operations se sincronizan con Common Data Service y otras aplicaciones de Dynamics 365. Tenga en cuenta que los productos creados en Common Data Service y otras aplicaciones de Dynamics 365 antes de escritura dual, no se actualizarán ni se conciliarán con datos de productos de Finance and Operations.
+Cuando la doble escritura está habilitada, los productos de aplicaciones Finance and Operations se sincronizan con Common Data Service y otras aplicaciones basadas en modelos en Dynamics 365. Los productos creados en Common Data Service y otras aplicaciones de Dynamics 365 antes de la publicación de la doble escritura no se actualizarán ni se conciliarán con datos de productos de aplicaciones Finance and Operations.
 
 ### <a name="matching-product-data-from-finance-and-operations-and-other-dynamics-365-apps"></a>Conciliación de datos de producto de Finance and Operations y otras aplicaciones de Dynamics 365
 

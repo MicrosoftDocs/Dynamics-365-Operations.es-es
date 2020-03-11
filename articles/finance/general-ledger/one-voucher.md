@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 233f31bd0b20ad5dd8ba21077797dd2f65069deb
-ms.sourcegitcommit: bc6db23825c94cd8305ef37bc18296765e9ce8a4
+ms.openlocfilehash: 68ec3cb028462865e914cbcb25ff28dbaf9a4f01
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "2810708"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3058026"
 ---
 # <a name="one-voucher"></a>Un asiento
 
@@ -156,7 +156,7 @@ Las organizaciones a menudo desean registrar en la contabilidad general en forma
 
 ### <a name="settle-multiple-unposted-payments-to-the-same-invoice"></a>Liquidar varios pagos no contabilizados en la misma factura
 
-Este escenario se encuentra normalmente en las organizaciones al por menor en las que los clientes pueden usar varias formas de pago para pagar compras. En este escenario, la organización debe poder registrar varios pagos sin registrar y liquidarlos con la factura de cliente.
+Este escenario se encuentra normalmente en las organizaciones en las que los clientes pueden usar varias formas de pago para pagar compras. En este escenario, la organización debe poder registrar varios pagos sin registrar y liquidarlos con la factura de cliente.
 
 Una nueva función que se ha agregado en Microsoft Dynamics 365 for Operations versión 1611 (noviembre de 2016) permite liquidar varios pagos no registrados contra una única factura. Los pagos de varios clientes ya no tienen que especificarse en un asiento único.
 
