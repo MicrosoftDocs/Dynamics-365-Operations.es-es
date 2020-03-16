@@ -3,7 +3,7 @@ title: Operaciones de punto de venta (PDV) en línea y sin conexión
 description: Este tema ofrece información sobre las operaciones de punto de venta (PDV) en Dynamics 365 Commerce. Especifica en qué parte de la aplicación pueden invocarse las operaciones y si están disponibles en modo sin conexión.
 author: jblucher
 manager: AnnBe
-ms.date: 05/21/2019
+ms.date: 02/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: bf67c53ffd5bd530f484b60da604fd9338c964fd
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 24ef0ad8528d1d094f59736b7a36fd77f57fb227
+ms.sourcegitcommit: 161e85eb0a6b772b60ba8b2578a3de149ce5bfd7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023990"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "3081348"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Operaciones de punto de venta (PDV) en línea y sin conexión
 
@@ -51,7 +51,9 @@ Las columnas siguientes especifican dónde pueden ser invocadas las operaciones:
 | 135 | Agregar afiliación de la lista | Seleccione una afiliación de una lista para agregarla a una transacción. | Sí | Sí | Sí | Sí | N.º |
 | 137 | Agregar afiliación a cliente | Agregar una afiliación a un cliente en la página **Detalles del cliente**. | N.º | N.º | N.º | Sí | N.º |
 | 138 | Quitar afiliación de cliente | Quitar una afiliación en la página **Detalles del cliente**. | N.º | N.º | N.º | Sí | N.º |
-| 643 | Agregar código de vale | Agregue un vale especificando su código en el PDV. | Sí | Sí | N.º | Sí | N.º |
+| 643 | Agregar código de vale | Agregue un vale especificando su código en el PDV. | Sí | Sí | No | Sí | No |
+| 141 | Agregar cargos de encabezado | Agregue un cargo misceláneo al encabezado del pedido. | Sí | Sí | No | No| No |
+| 141 | Agregar cargos de línea | Agregue un cargo misceláneo a una línea de ventas seleccionada. | Sí | Sí | No | No| No |
 | 117 | Agregar tarjeta de fidelización | Pida al usuario que introduzca un número de tarjeta de fidelización que se agregará a la transacción actual. | Sí | Sí | N.º | Sí | N.º |
 | 136 | Agregar número de serie | Esta operación permite al usuario especificar un número de serie para el artículo seleccionado actualmente. | Sí | Sí | N.º | Sí | N.º |
 | 1214 | Agregar dirección de envío | Esta operación no se admite. | No aplicable | No aplicable | No aplicable | No aplicable | N.º |
@@ -63,7 +65,8 @@ Las columnas siguientes especifican dónde pueden ser invocadas las operaciones:
 | 1053 | Turno cerrado en ciego | Defina el turno actual como cerrado en ciego y cierre la sesión del usuario. Un turno cerrado en ciego está cerrado a las transacciones adicionales pero sigue siendo abierto a las operaciones de caja registradora, como supresión de forma de pago y declaración por forma de pago. | Sí | Sí | Sí | N.º | N.º |
 | 310 | Calcular el total | Cuando se retrasa el cálculo del descuento, esta operación inicia el cálculo de la transacción actual. | Sí | Sí | N.º | Sí | N.º |
 | 642 | Ejecutar todos los productos | Establezca el modo de entrega de todas las líneas como **Ejecutar**. | Sí | Sí | N.º | Sí\* | N.º |
-| 641 | Ejecutar los productos seleccionados | Establezca el modo de entrega de todas las líneas seleccionadas como **Ejecutar**. | Sí | Sí | N.º | Sí\* | N.º |
+| 641 | Ejecutar los productos seleccionados | Establezca el modo de entrega de todas las líneas seleccionadas como **Ejecutar**. | Sí | Sí | No | Sí\* | No |
+| 647 | Cambiar modo de entrega | Cambiar el modo de entrega para las líneas de ventas de envío preconfiguradas. | Sí | Sí | No | No| No |
 | 1215 | Cambiar contraseña | Esta operación permite al usuario de PDV cambiar la contraseña. | Sí | Sí | Sí | N.º | N.º |
 | 123 | Cambiar unidad de medida | Cambie la unidad de medida para el artículo de línea seleccionado. | Sí | Sí | N.º | Sí | N.º |
 | 639 | Borrar representante de ventas predeterminado en transacción | Quite el grupo de ventas de la comisión (representante de ventas) de la transacción. | Sí | Sí | N.º | Sí | N.º |
@@ -99,7 +102,8 @@ Las columnas siguientes especifican dónde pueden ser invocadas las operaciones:
 | 1201 | Entrada flotante | Esta operación permite al usuario agregar dinero adicional a la caja registradora o el turno actual. | Sí | Sí | Sí | Sí | N.º |
 | 1218 | Forzar desbloqueo de periférico | El sistema usa esta operación internamente para desbloquear periféricos de PDV. | No aplicable | No aplicable | No aplicable | No aplicable | N.º |
 | 520 | Saldo de tarjeta regalo | Muestra el saldo de una tarjeta regalo. | Sí | Sí | N.º | N.º | N.º |
-| 708 | Desactivar dispositivo | Desactive el dispositivo actual, para que no se pueda utilizar como caja registradora de PDV. | N.º | N.º | N.º | N.º | N.º |
+| 708 | Desactivar dispositivo | Desactive el dispositivo actual, para que no se pueda utilizar como caja registradora de PDV. | No | No | No | No | No |
+| 804 | Operaciones de entrada | Acceda a las funciones de gestión de inventario de la tienda entrante. | Sí | No | Sí | No| No |
 | 517 | Cuentas de ingresos | Registre el dinero colocado de la caja registradora por un motivo distinto a una venta. | Sí | Sí | Sí | Sí | N.º |
 | 801 | Búsqueda de inventario | Consulte cantidades disponibles, en pedido y neto no comprometido (ATP) para la tienda actual y otras ubicaciones disponibles. | Sí | Sí | Sí | N.º | N.º |
 | 122 | Comentario de factura | Esta operación permite al usuario escribir un comentario sobre la transacción actual. | Sí | Sí | N.º | Sí | N.º |
@@ -110,11 +114,13 @@ Las columnas siguientes especifican dónde pueden ser invocadas las operaciones:
 | 301 | Porcentaje de descuento de línea | Permite especificar un porcentaje de descuento para un artículo de línea de la transacción. Esta operación solo se utiliza para artículos a los que se pueden aplicar descuentos y solo dentro de los límites de descuento especificados. | Sí | Sí | N.º | Sí | N.º |
 | 703 | Bloquear caja registradora | Bloquee la caja registradora actual, para que no se pueda usar, pero no cierre la sesión del usuario actual. | N.º | N.º | N.º | Sí | N.º |
 | 701 | Cerrar sesión | Cierre la sesión del usuario actual de la caja registradora. | Sí | Sí | Sí | Sí | N.º |
-| 521 | Saldo de puntos de tarjeta de fidelización | Muestra el saldo de puntos para la tarjeta de fidelización especificada. | Sí | Sí | N.º | N.º | N.º |
+| 521 | Saldo de puntos de tarjeta de fidelización | Muestra el saldo de puntos para la tarjeta de fidelización especificada. | Sí | Sí | No | No | No |
+| 142 | Gestionar cargos | Ver y administrar los cargos misceláneos aplicados a la transacción. | Sí | Sí | No | No| No |
 | 918 | Administrar cambios | Muestre una lista de turnos activos, suspendidos y cerrados en ciego. | Sí | Sí | Sí | N.º | N.º |
 | 914 | Minimizar ventana PDV | Esta operación no se admite. | No aplicable | No aplicable | No aplicable | No aplicable | N.º |
 | 1000 | Categoría abierta | Realice una operación “sin venta” y abra la caja registradora seleccionada actualmente. | Sí | Sí | Sí | Sí | N.º |
-| 928 | Cumplimiento de pedido | Esta operación permite a los usuarios seleccionar, empaquetar, envíar, o que volver a llamar los pedidos para recogida en el almacén. | Sí | Sí | Sí | N.º | N.º |
+| 928 | Cumplimiento de pedido | Esta operación permite a los usuarios seleccionar, empaquetar, envíar, o que volver a llamar los pedidos para recogida en el almacén. | Sí | Sí | Sí | No | No |
+| 805 | Operación de salida | Funciones de acceso para gestionar envíos de órdenes de transferencia salientes. | Sí | No | Sí | No| No |
 | 129 | Anular impuestos de producto de línea | Reemplaza el impuesto del artículo de línea seleccionado y usa un impuesto especificado distinto. | Sí | Sí | N.º | Sí | N.º |
 | 130 | Anular impuestos de producto de línea de la lista | Reemplaza el impuesto del artículo de línea seleccionado por otro que el usuario selecciona de una lista. | Sí | Sí | N.º | Sí | N.º |
 | 127 | Anular impuesto de transacción | Sustituya los impuestos de la transacción y utilice unos impuestos especificados distintos. | Sí | Sí | N.º | Sí | N.º |
@@ -146,7 +152,8 @@ Las columnas siguientes especifican dónde pueden ser invocadas las operaciones:
 | 100 | Venta de producto | Agregue un producto especificado a la transacción. | Sí | Sí | Sí | Sí | N.º |
 | 108 | Búsqueda de productos | Esta operación permite al usuario buscar un producto navegando a la página de búsqueda de productos en el PDV. | Sí | Sí | Sí | Sí | N.º |
 | 633 | Fecha de vencimiento de presupuesto | Esta operación permite al usuario ver o modificar la fecha de caducidad en un presupuesto de ventas. | Sí | Sí | N.º | Sí\* | N.º |
-| 627 | Volver a calcular | Recalcule todas las líneas de pedidos e impuestos del cliente, en función de la configuración actual. | Sí | Sí | N.º | Sí\* | N.º |
+| 627 | Volver a calcular | Recalcule todas las líneas de pedidos e impuestos del cliente, en función de la configuración actual. | Sí | Sí | No | Sí\* | No |
+| 143 | Recalcular cargos | Vuelve a calcular los cargos automáticos aplicados al pedido. | Sí | Sí | No | No| No |
 | 515 | Recuperar pedido | Esta operación permite al usuario buscar y recuperar pedidos del cliente y presupuestos de ventas. | Sí | Sí | Sí | N.º | N.º |
 | 504 | Recuperar transacción | Esta operación permite al usuario recuperar una transacción suspendida anteriormente de la tienda actual. | Sí | Sí | N.º | Sí‡ | N.º |
 | 305 | Canjear puntos de fidelización | Esta operación no se admite. | No aplicable | No aplicable | No aplicable | No aplicable | Sí |

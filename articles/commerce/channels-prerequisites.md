@@ -3,7 +3,7 @@ title: Requisitos previos de configuración de canales
 description: Este tema presenta una visión general de los requisitos previos de configuración de canales en Microsoft Dynamics 365 Commerce.
 author: samjarawan
 manager: annbe
-ms.date: 01/27/2020
+ms.date: 02/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: b861d90f1333c8f6e61a83602ed74e30b65f3dc1
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 8a0927f6ee9b2d5bed1327bb223ceca85ecc16a0
+ms.sourcegitcommit: 161e85eb0a6b772b60ba8b2578a3de149ce5bfd7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002298"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "3081324"
 ---
 # <a name="channel-setup-prerequisites"></a>Requisitos previos de configuración de canales
 
@@ -40,16 +40,16 @@ Para poder crear un canal de Dynamics 365 Commerce es necesario completar antes 
 
 ## <a name="initialization"></a>Inicialización
 
-- [Inicializar datos semilla](../retail/enable-configure-retail-functionality.md)
+- [Inicializar datos semilla](enable-configure-retail-functionality.md)
 
 ## <a name="global-prerequisities-required-for-all-channel-types"></a>Requisitos previos globales necesarios para todos los tipos de canales
 
 - [Definir y configurar su estructura de entidad jurídica](channels-legal-entities.md) 
 - [Configurar su jerarquía organizativa](channels-org-hierarchies.md)
 - [Configurar un almacén](channels-setup-warehouse.md)
-- [Configurar impuestos](https://docs.microsoft.com/en-us/dynamics365/finance/general-ledger/indirect-taxes-overview?toc=/dynamics365/commerce/toc.json)
+- [Configurar impuestos](https://docs.microsoft.com/dynamics365/finance/general-ledger/indirect-taxes-overview?toc=/dynamics365/commerce/toc.json)
 - [Configurar un perfil de notificación por correo electrónico](email-notification-profiles.md)
-- [Configurar secuencias numéricas](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview?toc=/dynamics365/commerce/toc.json)
+- [Configurar secuencias numéricas](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview?toc=/dynamics365/commerce/toc.json)
 - [Configurar un cliente y una libreta de direcciones predeterminados](default-customer.md)
 <!--
 - [Configure commerce parameters](commerce-parameters.md)
@@ -57,21 +57,19 @@ Para poder crear un canal de Dynamics 365 Commerce es necesario completar antes 
 
 ## <a name="retail-channel-prerequisites"></a>Requisitos previos de canal comercial
 
-- [Códigos de información y grupos de códigos de información](https://docs.microsoft.com/en-us/dynamics365/retail/info-codes-retail?toc=/dynamics365/commerce/toc.json)
+- [Códigos de información y grupos de códigos de información](info-codes-retail.md)
 - [Configurar un perfil de funcionalidad comercial](retail-functionality-profile.md)
 - [Configurar una libreta de direcciones de empleado](new-address-book.md)
-- [Configurar un diseño de pantalla](https://docs.microsoft.com/en-us/dynamics365/retail/pos-screen-layouts?toc=/dynamics365/commerce/toc.json)
-- [Configurar una estación de hardware](https://docs.microsoft.com/en-us/dynamics365/retail/retail-hardware-station-configuration-installation?toc=/dynamics365/commerce/toc.json)
+- [Configurar un diseño de pantalla](pos-screen-layouts.md)
+- [Configurar una estación de hardware](retail-hardware-station-configuration-installation.md)
 
 ## <a name="call-center-channel-prerequisites"></a>Requisitos previos de canales de centro de llamadas
 
 - Parámetros del centro de llamadas.
-- Métodos de devolución de centro de llamadas
-- Tipos de alquiler
-- Servicios de pago
-- Códigos de retención de pedido
+- [Métodos de pedido de centro de llamadas y devolución de pagos](work-with-payments.md)
+- [Modos de entrega y cobros de los modos de centro de llamadas](configure-call-center-delivery.md)
 
-## <a name="online-channel-prerequisites"></a>Requisitos previos de canal en línea
+## <a name="online-channel-prerequisites"></a>Requisitos previos del canal en línea
 
 - [Crear un perfil de funcionalidad en línea](online-functionality-profile.md)
 

@@ -3,7 +3,7 @@ title: Aprovisionar Human Resources
 description: ''
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f3a7987a9b385fb6ba0294dc46b0d66be8228f06
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: f105144047c64fc8e9d42da8d7525a8cc3912c33
+ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026276"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3071623"
 ---
 # <a name="provision-human-resources"></a>Aprovisionar Human Resources
 
@@ -62,9 +62,6 @@ Después de crear un proyecto de LCS, puede aprovisionar Human Resources en un e
 3. Seleccione la opción **Incluir datos de la demostración** si desea que el entorno incluya el mismo conjunto de datos de demostración utilizado en la experiencia de la prueba de conducción de Human Resources. Esto es beneficioso para los entornos de demostración o de formación a largo plazo, y no se debe usar nunca en entornos de producción.  Tenga en cuenta que debe elegir esta opción sobre la implementación inicial. No puede actualizar una implementación existente más adelante.
 
 4. Human Resources siempre se aprovisiona en un entorno de Microsoft Power Apps para habilitar la integración y la extensibilidad de Power Apps. Lea la sección “Selección de un entorno de Power Apps” de este artículo antes de continuar. Si todavía no tiene un entorno de Power Apps, seleccione Administrar entornos en el LCS o vaya el centro de gestión de Power Apps. A continuación siga los pasos a [Crear entorno de Power Apps](https://docs.microsoft.com/powerapps/administrator/create-environment).
-
-    > [!NOTE]
-    > Para ver entornos existentes o crear nuevos entornos, debe asignarse el administrador de inquilinos que aprovisiona Human Resources a la licencia de Power Apps P2. Si su organización no dispone de una licencia de Power Apps P2, puede obtener una de su CSP o en la [Página de precios para Power Apps](https://powerapps.microsoft.com/pricing/).
 
 5. Seleccione el entorno para aprovisionar Human Resources.
 

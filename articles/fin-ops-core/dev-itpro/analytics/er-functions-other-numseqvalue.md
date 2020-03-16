@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d68784524a5639d8d447daa2cda940680d795542
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: fbe5e5ac17af743f8293e4255d9713b528182f66
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2915841"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3041317"
 ---
 # <a name="NUMSEQVALUE">Función NUMSEQVALUE de ER</a>
 
@@ -33,19 +33,19 @@ La función `NUMSEQVALUE` devuelve un valor de tipo *Cadena* que representa el n
 
 ## <a name="syntax-1"></a>Sintaxis 1
 
-```
+```vb
 NUMSEQVALUE (number sequence code)
 ```
 
 ## <a name="syntax-2"></a>Sintaxis 2
 
-```
+```vb
 NUMSEQVALUE (number sequence record ID)
 ```
 
 ## <a name="syntax-3"></a>Sintaxis 3
 
-```
+```vb
 NUMSEQVALUE (number sequence code, scope type, scope ID)
 ```
 

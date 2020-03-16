@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 23f819139e74d81d24810c63bae1de19358983b9
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: 316a626e6a18f0afda632111138482f62f6809db
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015390"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057679"
 ---
 # <a name="credit-holds-for-sales-orders"></a>Retenciones de crédito para pedidos de ventas
 [!include [banner](../includes/banner.md)]
@@ -264,7 +264,7 @@ Los pedidos de ventas que se han en espera de manera forzada no se pueden proces
 #### <a name="releasing-orders-that-were-added-to-the-credit-management-hold-list-with-a-forced-credit-hold"></a>Liberación de pedidos que se agregaron a la lista de retención de administración de crédito con una retención de crédito forzada
 Los pedidos de ventas que tienen un motivo de retención forzada no se pueden liberar automáticamente. Si el pedido de ventas se puso en espera de manera forzada y ha utilizado un proceso que libera automáticamente pedidos de ventas, el pedido de ventas se mostrará como **Listo para liberar** y permanecer en la lista de espera. Debe usar el menú **Liberar** para liberar el pedido.
  
-## <a name="free-text-invoices-retail-orders-and-project-invoice-support-in-credit-management"></a>Compatibilidad con facturas de servicios, pedidos minoristas y soporte de facturas de proyectos en Administración de crédito 
-Actualmente, la administración de crédito solo se puede usar para pedidos de ventas. Las facturas de servicios, los pedidos de punto de venta minorista y los pedidos de centro de llamadas utilizarán los límites de crédito temporales y los seguros/garantías que agregue para ajustar el límite de crédito. No utilizarán las reglas de bloqueo y no se incluirán en la lista de retención si hay un problema con el límite de crédito.
+## <a name="free-text-invoices-orders-and-project-invoice-support-in-credit-management"></a>Compatibilidad con facturas de servicios, pedidos y soporte de facturas de proyectos en Administración de crédito 
+Actualmente, la administración de crédito solo se puede usar para pedidos de ventas. Las facturas de servicios, los pedidos de punto de venta y los pedidos de centro de llamadas utilizarán los límites de crédito temporales y los seguros/garantías que agregue para ajustar el límite de crédito. No utilizarán las reglas de bloqueo y no se incluirán en la lista de retención si hay un problema con el límite de crédito.
 
 En la administración de crédito no se admiten facturas de proyectos.

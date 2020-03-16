@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b09efeb6b5d8bd2ea452dbf7a9ddaeec2ab75c92
-ms.sourcegitcommit: 0455a024185f79ecb82df61e6d994bd71dee5c10
+ms.openlocfilehash: 7ae688ef6b24f8d90c0354c8c6449adba1588bfa
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2020
-ms.locfileid: "2974301"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3041087"
 ---
 # <a name="FORMAT">Función FORMAT de ER</a>
 
@@ -33,7 +33,7 @@ La función `FORMAT` devuelve la cadena especificada como un valor de tipo *Cade
 
 ## <a name="syntax"></a>Sintaxis
 
-```
+```vb
 FORMAT (string, argument 1[, argument 2, …, argument N])
 ```
 
@@ -81,7 +81,7 @@ En el formato de informes electrónicos (ER) diseñado para generar un archivo e
 
 Esta es la expresión que se puede diseñar.
 
-```
+```vb
 FORMAT (CONCATENATE (@"SYS70894", ". ", @"SYS18389"), model.Customer.Name, DATETIMEFORMAT (model.ProcessingDate, "d"))
 ```
 

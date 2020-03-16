@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 81a596f5206b23001feea553adcdf6c904572775
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 2a850b1cbe7224ab1a7b2bd39ac4667304781cbb
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2917129"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3041685"
 ---
 # <a name="OR">Función OR de ER</a>
 
@@ -33,7 +33,7 @@ La función `OR` devuelve un valor *Booleano* de **FALSE** si todas las condicio
 
 ## <a name="syntax"></a>Sintaxis
 
-```
+```vb
 OR (condition 1[, condition 2, …, condition N])
 ```
 

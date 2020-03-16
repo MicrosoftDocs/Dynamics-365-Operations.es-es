@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a46ff0a1d6e29cc567a86fae60ff803a102d1a2e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3b04f78f2a8210837e16c8246609ad2fddd804f0
+ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181229"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3071599"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Opciones de formato avanzadas en informes financieros
 
@@ -216,7 +216,7 @@ En este ejemplo, la fórmula de cálculo **@100+@330** significa que el importe 
 Cuando la fila en una definición de fila tiene un código de formato **CAL**, y se especifica un cálculo matemático en la celda **Fórmulas o filas o unidades relacionadas**, también debe especificar la letra de la columna y de la fila asociadas en el informe. Por ejemplo, escriba **A.120** para representar columna A, fila 120. Como alternativa, puede usar el signo @ para indicar todas las columnas. Por ejemplo, escriba **@120** para representar todas las columnas de la fila 120. Cualquier cálculo matemático que no tenga una letra de la columna o el signo @ se asume que es un número real.
 
 > [!NOTE]
-> Si usa un código de filas de la etiqueta para hacer referencia a una fila, debe usar un punto (.) como separador entre la letra de la columna y la etiqueta (por ejemplo, **A.GROSS\_MARGIN/A.SALES**). Si usa el signo @, el separador no se requiere (por ejemplo, **@GROSS\_MARGIN/@SALES**).
+> Si usa un código de filas de la etiqueta para hacer referencia a una fila, debe usar un punto (.) como separador entre la letra de la columna y la etiqueta (por ejemplo, **A.GROSS\_MARGIN/A.SALES**). Si usa el signo arroba (@), el separador no se requiere (por ejemplo, **\@GROSS\_MARGIN/@SALES)**.
 
 ### <a name="example-of-a-calculation-formula-for-a-specific-column"></a>Ejemplo de una fórmula de cálculo para una columna específica
 

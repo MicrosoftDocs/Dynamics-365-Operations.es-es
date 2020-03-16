@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9e1087821b357c578993cdd5742399c5ec0ecc95
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: ba1d10a897f349703737068d772423f7d0292944
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001815"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057971"
 ---
 # <a name="create-a-default-customer"></a>Crear un cliente predeterminado
 
@@ -33,7 +33,7 @@ Este tema describe cómo crear un cliente predeterminado para usar al crear un c
 
 ## <a name="overview"></a>Visión general
 
-Al crear un canal minorista o en línea, deberá proporcionar un cliente predeterminado. Se puede crear fácilmente un cliente predeterminado después de crear primero el grupo de clientes y la libreta de direcciones de clientes.
+Al crear un canal, deberá proporcionar un cliente predeterminado. Se puede crear fácilmente un cliente predeterminado después de crear primero el grupo de clientes y la libreta de direcciones de clientes.
 
 ## <a name="create-a-customer-group"></a>Creación de un grupo de clientes
 

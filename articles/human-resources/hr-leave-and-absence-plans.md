@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 08fb278a3de0c06715dcd9c252ee6c21b2172cff
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: ed7a47068c451cd3ffaa26ee709599373858721b
+ms.sourcegitcommit: 3cad15f8ecc257d3a45c1bc1fada7c094ff4bcec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010507"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "3087309"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>Crear un plan de permisos y ausencias
 
@@ -61,8 +61,8 @@ También puede crear prestaciones de bajas basadas en el puesto, como horas de p
 
       | Base del período de acumulación | Descripción |
       | --- | --- |
-      | Fecha inicial de plan | La fecha de inicio del período de acumulación es la fecha en que el plan está disponible. |
-      | Fecha específica del empleado | La fecha de inicio del período de acumulación depende de un evento del empleado:</br><ul><li>Personalizado (debe especificar una base de fecha de acumulación para cada inscripción individual)</li><li>Fecha de aniversario</li><li>Fecha de contratación original</li><li>Antigüedad</li><li>Fecha inicial ajustada del trabajador</li><li>Primer día de trabajo del trabajador</li></ul> |
+      | **Fecha inicial de plan** | La fecha de inicio del período de acumulación es la fecha en que el plan está disponible. |
+      | **Fecha específica del empleado** | La fecha de inicio del período de acumulación depende de un evento del empleado:</br><ul><li>Personalizado (debe especificar una base de fecha de acumulación para cada inscripción individual)</li><li>Fecha de aniversario</li><li>Fecha de contratación original</li><li>Antigüedad</li><li>Fecha inicial ajustada del trabajador</li><li>Primer día de trabajo del trabajador</li></ul> |
 
    3. Seleccione una opción en el cuadro desplegable **Fecha de prima de acumulación**:
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b1c6a3f3fd5b55012d89a6c9f0bf2ed5dddd13c
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: bdd8b9c120fc4a860717a66b9dfa66e6b0daed93
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916669"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042720"
 ---
 # <a name="electronic-reporting-formula-language"></a>Idioma de fórmulas en los informes electrónicos
 
@@ -154,7 +154,7 @@ ER le permite ampliar la lista de funciones que se usan en las expresiones de ER
 
 Puede crear expresiones compuestas que utilicen funciones de diferentes categorías, siempre que los tipos de datos coincidan. Cuando use funciones juntas, haga coincidir el tipo de datos de la salida de una función con el tipo de datos de entrada que requiere otra función. Por ejemplo, para evitar un posible error "list-is-empty" en un enlace de un campo a un elemento de formato ER, combine funciones de la categoría [Lista](er-functions-category-list.md) con una función de la categoría [Lógico](er-functions-category-logical.md), como muestra el siguiente ejemplo. Aquí, la fórmula usa la función [IF](er-functions-logical-if.md) para probar si la lista **IntrastatTotals** está vacía antes de que devuelva el valor de la agregación requerida de esa lista. Si la lista **IntrastatTotals** está vacía, la fórmula devuelve **0** (cero).
 
-```
+```vb
 IF(ISEMPTY(IntrastatTotals), 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded') 
 ```
 
@@ -162,7 +162,7 @@ IF(ISEMPTY(IntrastatTotals), 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded'
 
 A menudo, puede obtener el mismo resultado de transformación de datos de múltiples maneras, utilizando funciones de diferentes categorías o diferentes funciones de la misma categoría. Por ejemplo, la expresión anterior también se puede configurar mediante el uso de la función [COUNT](er-functions-list-count.md) desde la categoría [Lista](er-functions-category-list.md).
 
-```
+```vb
 IF(COUNT (IntrastatTotals)=0, 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded') 
 ```
 

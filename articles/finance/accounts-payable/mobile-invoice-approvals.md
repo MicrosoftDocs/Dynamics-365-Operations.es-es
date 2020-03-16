@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: dd72c8a54498cc6ffae7125c5c2f44bfac5a5995
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: 88ba96b1d9d2f722528a4a920eabe4ab64304a7a
+ms.sourcegitcommit: 4f668b23f5bfc6d6502858850d2ed59d7a79cfbb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658653"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3059437"
 ---
 # <a name="mobile-invoice-approvals"></a>Aprobaciones de factura móvil
 
@@ -54,8 +54,8 @@ Cada organización articula y define su proceso empresarial para las facturas de
     -   ¿Cuántas distribuciones contables (precio total, impuestos, cargos, divisiones, etc.) hay para una línea de factura? Una vez más, aplique la regla 80-20.
     -   ¿Las facturas también tienen distribuciones contables en el encabezado de factura? En dicho caso, ¿estas distribuciones contables deben estar disponible en el dispositivo?
 
-> [!NOTE]
-> Este tema no explica cómo editar distribuciones contables, porque esta funcionalidad no se admite actualmente para los escenarios móviles.
+    > [!NOTE]
+    > Este tema no explica cómo editar distribuciones contables, porque esta funcionalidad no se admite actualmente para los escenarios móviles.
 
 -   ¿Los usuarios desearán ver los datos adjuntos de la factura en el dispositivo?
 
@@ -158,9 +158,9 @@ La primera página para aplicaciones móviles que debe diseñar es la lista de f
     - Número de factura
     - Fecha de la factura
 
-  Después de que se agreguen los campos, la página para aplicaciones móviles debe asemejarse a la siguiente ilustración. 
+    Después de que se agreguen los campos, la página para aplicaciones móviles debe asemejarse a la siguiente ilustración. 
     
-   [![Página después de haber agregado campos](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
+    [![Página después de haber agregado campos](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
 
 9.  También debe agregar las siguientes columnas ahora, de modo que podamos habilitar acciones de flujo de trabajo posteriormente.
     - Mostrar tarea completa
@@ -247,9 +247,10 @@ Para agregar acciones de flujo de trabajo, use la página **VendMobileInvoiceHea
     - Oculta las columnas adicionales relacionadas con el flujo de trabajo adicionales que agregamos anteriormente en la página de la lista para dispositivos móviles. Agregamos estas columnas de modo que la aplicación tenga información en contexto y se pueda ir al paso siguiente.
     - Según el paso del flujo de trabajo que está activo, aplica la lógica para mostrar solo esas acciones.
 
-> [!NOTE]
-> El nombre de las páginas y otros controles del código de JS deberían ser los mismos que los nombres en el espacio de trabajo.
+    > [!NOTE]
+    > El nombre de las páginas y otros controles del código de JS deberían ser los mismos que los nombres en el espacio de trabajo.
 
+    ```javascript
     function main(metadataService, dataService, cacheService, $q) {
            return {
                appInit: function (appMetadata) {
@@ -308,6 +309,7 @@ Para agregar acciones de flujo de trabajo, use la página **VendMobileInvoiceHea
                  },
            };
         }
+    ```
 
 2.  Cargar el archivo del código en el espacio de trabajo seleccionando la ficha **Lógica**
 3.  Haga clic en **Listo** para salir del modo de edición.
@@ -341,7 +343,7 @@ Los requisitos para este escenario confirman que solo habrá distribuciones a ni
 
 1.  En la dirección URL, reemplace el nombre del elemento de menú tal como hizo antes. La página que aparece debe asemejarse a la siguiente ilustración.
 
-[![Página de todas las distribuciones](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
+    [![Página de todas las distribuciones](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
 
 2.  Abra el diseñador para aplicaciones móviles desde el botón **Configuración** (engranaje).
 
@@ -367,16 +369,18 @@ Los requisitos para este escenario confirman que solo habrá distribuciones a ni
 
 10. Haga clic en **Publicar espacio de trabajo** para guardar el trabajo
 
-> [!NOTE] 
-> Nota: La página para dispositivos móviles **Ver contabilidad** no está vinculada actualmente a ninguna página para dispositivos móviles que hemos diseñado hasta el momento. Dado que el usuario debe poder navegar a la página **Ver contabilidad** desde la página **Detalles de la factura** en el dispositivo móvil, debemos proporcionar navegación desde la página **Detalles de la factura** hasta la página **Ver contabilidad**. Establecemos esta navegación mediante el uso de lógica JavaScript adicional.
+#### <a name="adding-navigation-to-view-accounting-page"></a>Agregar navegación a la página "Ver contabilidad"
+
+Nota: La página para dispositivos móviles **Ver contabilidad** no está vinculada actualmente a ninguna página para dispositivos móviles que hemos diseñado hasta el momento. Dado que el usuario debe poder navegar a la página **Ver contabilidad** desde la página **Detalles de la factura** en el dispositivo móvil, debemos proporcionar navegación desde la página **Detalles de la factura** hasta la página **Ver contabilidad**. Establecemos esta navegación mediante el uso de lógica JavaScript adicional.
 
 1.  Abre el archivo .js que ha creado anteriormente y agregue las líneas que se resaltan en el código siguiente. Este código hace dos cosas:
     1.  Ayuda a garantizar que los usuarios no pueden navegar directamente desde el espacio de trabajo a la página **Ver contabilidad**.
     2.  Establece un control de navegación desde la página **Detalles de la factura** hasta la página **Ver contabilidad**.
 
-> [!NOTE] 
-> El nombre de las páginas y otros controles del código de JS deberían ser los mismos que los nombres en el espacio de trabajo.
+    > [!NOTE] 
+    > El nombre de las páginas y otros controles del código de JS deberían ser los mismos que los nombres en el espacio de trabajo.
 
+    ```javascript
     function main(metadataService, dataService, cacheService, $q) {
            return {
                appInit: function (appMetadata) {
@@ -439,7 +443,8 @@ Los requisitos para este escenario confirman que solo habrá distribuciones a ni
                  },
            };
         }
-
+    ```
+    
 2.  Cargar el archivo del código en el espacio de trabajo seleccionando la ficha **Lógica** para sobrescribir el código anterior
 3.  Haga clic en **Listo** para salir del modo de edición.
 4.  Haga clic en **Atrás** y, a continuación, **Listo** para salir del espacio de trabajo

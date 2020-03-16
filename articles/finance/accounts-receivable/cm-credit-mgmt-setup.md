@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 02d7e2238e58098428397121de848a1947a991ad
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: b4234ac428cc80836852d4edfb0f37098b4a1e8e
+ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015387"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3071669"
 ---
 # <a name="credit-management-parameters-setup"></a>Configuración de parámetros de la administración de crédito
 
@@ -38,8 +38,8 @@ Existen cuatro fichas desplegables en las que puede cambiar los parámetros que 
 - Establezca la opción **Permitir la edición del valor de los pedidos de ventas después de que se libere la retención de pedidos** en **Sí** para exigir que se vuelvan a comprobar las reglas de contabilización si el valor del pedido de ventas (precio extendido) ha cambiado desde que se eliminó el pedido de ventas de la lista de retención. .
 - En el campo **Motivos de pedidos cancelados**, seleccione el motivo de liberación que se usará de manera predeterminada cuando se cancele un pedido de ventas que estaba en espera de administración de crédito.
 - Establezca la opción **Comprobar el límite de crédito de grupos de crédito de cliente** en **Sí** para comprobar el límite de crédito de un grupo de crédito de cliente cuando el cliente de un pedido de ventas pertenece a un grupo de crédito de cliente. Se comprobará el límite de crédito para el grupo y después, si es suficiente, se comprobará el límite de crédito para el cliente.
-- Establezca la opción **Comprobar el límite de crédito cuando aumenta las condiciones de pago** en **Sí** para comprobar las clasificaciones de las condiciones de pago a fin de determinar si las condiciones de pago del pedido de ventas difieren de las nuevas condiciones de pago del pedido de ventas. Si las nuevas condiciones de pago tienen una clasificación más alta que las condiciones de pago originales, el pedido se pone en espera de administración de crédito.
-- Establezca la opción **Comprobar el límite de crédito cuando aumenta un descuento de liquidación** en **Sí** para comprobar las clasificaciones de descuento de liquidación a fin de determinar si el descuento por pronto pago del pedido de ventas difiere del nuevo descuento por pronto pago en el pedido de ventas. Si el nuevo descuento por pronto pago tiene una clasificación más alta que el descuento por pronto pago original, el pedido se pone en espera de administración de crédito.
+- Establezca la opción **Comprobar el límite de crédito cuando aumenta las condiciones de pago** en **Sí** para comprobar las clasificaciones de las condiciones de pago a fin de determinar si las condiciones de pago del pedido de ventas difieren de las condiciones de pago predeterminadas del cliente. Si las nuevas condiciones de pago tienen una clasificación más alta que las condiciones de pago originales, el pedido se pone en espera de administración de crédito.
+- Establezca la opción **Comprobar el límite de crédito cuando aumenta un descuento de liquidación** en **Sí** para comprobar las clasificaciones de descuento de liquidación a fin de determinar si el descuento por pronto pago del pedido de ventas difiere del descuento por pronto pago predeterminado para el cliente. Si el nuevo descuento por pronto pago tiene una clasificación más alta que el descuento por pronto pago original, el pedido se pone en espera de administración de crédito.
 - En el campo **Motivo para liberar pedidos modificados**, seleccione el motivo de liberación que se usará de manera predeterminada cuando los pedidos modificados se liberen automáticamente de la retención de administración de crédito.
 - Establezca la opción **Omitir la regla de bloqueo de límite de crédito vencido cuando la fecha de vencimiento está en blanco** en **Sí** para controlar el comportamiento de la regla **Límite de crédito vencido**. Establezca la opción en **No** para bloquear un pedido cuando la fecha de vencimiento esté en blanco.
 - En Gestión de almacenes se pueden crear cargas en el momento de la entrada del pedido de ventas. Establezca la opción **Quitar líneas de carga bloqueadas** en **No** para dejar las líneas de pedido de ventas en la carga cuando un pedido de ventas está en retención crediticia. La carga no se puede procesar mientras el pedido de cliente está en espera. Establezca la opción en **Sí** para quitar las líneas de pedido de ventas de la carga cuando un pedido de ventas está en retención crediticia. Entonces se podrá procesar la carga.

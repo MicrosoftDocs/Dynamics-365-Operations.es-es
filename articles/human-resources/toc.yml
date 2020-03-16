@@ -5,6 +5,10 @@
       items:
         - name: Novedades y cambios en Human Resources
           href: hr-admin-whats-new.md
+        - name: 18 de febrero de 2020
+          href: hr-whats-new-2020-02-18.md
+        - name: 12 de febrero de 2020
+          href: hr-whats-new-2020-02-12.md
         - name: 7 de febrero de 2020
           href: hr-whats-new-2020-02-07.md
         - name: 3 de febrero de 2020
@@ -17,7 +21,7 @@
           href: hr-admin-system-requirements.md
         - name: Configurar y administrar instancias
           items:
-            - name: Aprovisionar recursos humanos
+            - name: Aprovisionar Human Resources
               href: hr-admin-setup-provision.md
             - name: Copiar una instancia
               href: hr-admin-setup-copy-instance.md
@@ -105,7 +109,7 @@
               href: ../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/human-resources/toc.json
             - name: Crear documentación o formación con el Grabador de tareas
               href: ../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json
-        - name: Solución de problemas de recursos humanos
+        - name: Solución de problemas de Human Resources
           items:
             - name: Obtener soporte
               href: hr-admin-troubleshooting-support.md
@@ -125,7 +129,7 @@
               href: hr-admin-troubleshooting-task-guide.md
             - name: Acceder a direcciones privadas por rol de seguridad
               href: hr-admin-troubleshooting-private-addresses.md
-            - name: Recursos humanos no aparece en las aplicaciones de Dynamics 365
+            - name: Human Resources no aparece en las aplicaciones de Dynamics 365
               href: hr-admin-troubleshooting-not-in-apps.md
             - name: Opciones de informes
               href: hr-admin-troubleshooting-reporting.md
@@ -179,13 +183,13 @@
       items:
         - name: Visión general
           href: hr-hrpro-overview.md
-        - name: Configurar recursos humanos
+        - name: Configurar Human Resources
           items:
-            - name: Configurar parámetros de recursos Humanos
+            - name: Configurar parámetros de Human Resources
               href: hr-setup-parameters.md
-            - name: Configurar parámetros compartidos de recursos humanos
+            - name: Configurar parámetros compartidos de Human Resources
               href: hr-setup-shared-parameters.md
-            - name: Configurar flujos de trabajo de recursos humanos
+            - name: Configurar flujos de trabajo de Human Resources
               href: hr-setup-workflows.md
             - name: Comprender campos de fecha y hora
               href: hr-setup-date-time-fields.md

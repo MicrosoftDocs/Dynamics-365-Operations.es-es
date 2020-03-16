@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 43b23b9ef881b2ab2f3d005d4ba761848a7fa4ed
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: 4b17f8e9b0d8a9a62714d0073561e66642b2eaf9
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024738"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057749"
 ---
 # <a name="configure-optional-features-for-a-dynamics-365-commerce-preview-environment"></a>Configurar características opcionales para un entorno de vista previa de Dynamics 365 Commerce
 
@@ -63,8 +63,8 @@ Si desea evaluar las características de la Gestión de activos digitales ingiri
 
 ### <a name="update-the-media-base-url"></a>Actualizar la URL base multimedia
 
-1. Inicie sesión en Dynamics 365 Retail.
-1. Use el menú de la izquierda, para ir a **Módulos \> Retail \> Configuración de canal \> Perfiles del canal**.
+1. Inicie sesión en Dynamics 365 Commerce.
+1. Use el menú de la izquierda, para ir a **Módulos \> Retail y Commerce \> Configuración de canal \> Perfiles del canal**.
 1. Seleccione **Editar**.
 1. En **Propiedades del perfil**, reemplace el valor de propiedad para **Dirección URL base del servidor multimedia** por la URL base de medios que creó anteriormente.
 1. En la lista de la izquierda, en el canal **Predeterminado** seleccione el otro canal.
@@ -77,7 +77,7 @@ Si desea evaluar las características de la Gestión de activos digitales ingiri
 > [!NOTE]
 > El servidor SMTP o servicio de correo electrónico que especifica aquí debe ser accesible dentro de la suscripción de Azure que está usando para el entorno.
 
-1. Inicie sesión en Retail.
+1. Iniciar sesión en Commerce.
 1. Use el menú de la izquierda, para ir a **Módulos \> Administración del sistema \> Configuración \> Correo electrónico \> Parámetros de correo electrónico**.
 1. En la pestaña **Configuraciones SMTP**, en el campo **Servidor de correo saliente**, introduzca el FQDN o la dirección IP de su servidor SMTP o servicio de correo electrónico.
 1. En el campo **Número de puerto SMTP**, especifique el número de puerto. (Si no está utilizando la Capa de sockets seguros \[SSL \], el número de puerto predeterminado es **25**).
@@ -92,7 +92,7 @@ Si desea evaluar las características de la Gestión de activos digitales ingiri
 
 Para cada evento transaccional para el que desea enviar mensajes de correo electrónico se tiene que actualizar la plantilla de correo electrónico con una dirección de correo electrónico de remitente válida.
 
-1. Inicie sesión en Retail.
+1. Iniciar sesión en Commerce.
 1. Use el menú de la izquierda, para ir a **Módulos \> Administración de la organización \> Configuración \> Plantillas de correo electrónico de organización**.
 1. Seleccione **Mostrar lista**.
 1. Para cada plantilla en la lista, siga estos pasos:
@@ -115,7 +115,7 @@ Es posible que desee personalizar las plantillas de correo electrónico para que
     - Recoger plantilla de pedido
 
 1. Personalice las plantillas mediante un editor HTML o de texto. Vea la lista de [tokens compatibles ](#supported-tokens-in-the-email-template) más adelante en este tema.
-1. Inicie sesión en Retail.
+1. Iniciar sesión en Commerce.
 1. Use el menú de la izquierda, para ir a **Módulos \> Administración de la organización \> Configuración \> Plantillas de correo electrónico de organización**.
 1. Expanda la lista de la izquierda para ver todas las plantillas.
 1. Para cada plantilla que desee personalizar, siga estos pasos:

@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: t-benebo
 ms.search.validFrom: 2018-01-31
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 623c25490964ccdf6abc37acaffee7ac0844cf39
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 35aad9bf89ba8c1ed6451304d8fc4fc6ffa575b5
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251164"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057788"
 ---
 # <a name="trade-allowance-management"></a>Administración de concesión de comercialización
 
 [!include [banner](../includes/banner.md)]
 
-La administración de concesiones de comercialización ayuda a las empresas a administrar los programas de la promoción de ventas que proporcionan recompensas monetarias al por menor de pago por rendimiento a los clientes que llegan a los objetivos de rendimiento y volumen. Las capacidades de la función están diseñadas para las empresas que se centran en procesos completos de fomento de ganancias, desde el presupuesto de fondos de la promoción y la asignación, a la creación y el proceso de demandas, al procesamiento de pagos y al análisis de eficacia de la promoción.
+La administración de concesiones de comercialización ayuda a las empresas a administrar los programas de la promoción de ventas que proporcionan recompensas monetarias de pago por rendimiento a los clientes que llegan a los objetivos de rendimiento y volumen. Las capacidades de la función están diseñadas para las empresas que se centran en procesos completos de fomento de ganancias, desde el presupuesto de fondos de la promoción y la asignación, a la creación y el proceso de demandas, al procesamiento de pagos y al análisis de eficacia de la promoción.
 
 
 Este artículo proporcionará una visión general amplia de las características de la gestión de concesión comercial y le familiarizará con el conjunto típico de tareas implicadas en administrar un programa de promoción de ventas. Se espera que varios tipos de usuarios que tienen responsabilidades operativas y de toma de decisiones utilicen esta funcionalidad para alcanzar sus objetivos respectivos:
@@ -61,7 +61,7 @@ Un acuerdo de concesión comercial es un programa de incentivo donde los premios
 
 Los fondos asignados a los acuerdos de concesión comercial se registran en la página **Fondos**. Para abrir la página **Fondos**, selecciona **Ventas y marketing** \> **Permisos comerciales** \> **Fondos** \> **Fondos**.
 
-![Página de Fondos](./media/trade-allowance-management-funds-page.png "Página de Fondos")
+![Página de fondos](./media/trade-allowance-management-funds-page.png "Página de fondos")
 
 En la página **Fondos**, puede ver los detalles de los fondos promocionales.
 
@@ -77,7 +77,7 @@ Después de que la definición de fondo se active, el paso siguiente de la plani
 
 Los acuerdos de concesión comercial se registran en la página **Acuerdos de concesión comercial**. Para abrir la página **Acuerdos de concesión comercial**, seleccione **Ventas y marketing** \> **Permisos comerciales** \> **Acuerdos de concesión comercial**.
 
-![Página de acuerdos de concesión comercial](./media/trade-allowance-management-agreements-page.png "Página de acuerdos de concesión comercial")
+![Página de acuerdos de concesión de comercialización](./media/trade-allowance-management-agreements-page.png "Página de acuerdos de concesión de comercialización")
 
 #### <a name="header"></a>Encabezado
 
@@ -105,7 +105,7 @@ La pestaña **Eventos de marketing** muestra los tipos de eventos que cubre un a
 
 Cuando selecciona el evento de marketing y después selecciona la pestaña **Importes**, los detalles del evento se encuentran.
 
-![Líneas del acuerdo de concesión comercial](./media/trade-allowance-management-agreements-lines.png "Líneas del acuerdo de concesión comercial")
+![Líneas de acuerdo de concesión de comercialización](./media/trade-allowance-management-agreements-lines.png "Líneas de acuerdo de concesión de comercialización")
 
 En la sección **Líneas de concesión de comercialización** , especifique los intervalos de cantidad o importe que el cliente debe conseguir para que las definicones obtengan las recompensas.
 

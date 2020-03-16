@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: c0c578ca44919671b67daeea51a9ec7687f755c9
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 48854c15e429d51dcf30ea804eb636dee7965443
+ms.sourcegitcommit: a356299be9a593990d9948b3a6b754bd058a5b3b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773654"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "3080781"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Implementar campos personalizados para la aplicación móvil de Microsoft Dynamics 365 Project Timesheet en iOS y Android
 
@@ -183,7 +183,7 @@ El siguiente ejemplo muestra entradas de un campo de la cadena en el tiempo. Est
 
 Tega en cuenta el uso del método **TSTimesheetCustomField::(newFromMetatdata)** para simplificar la inicialización de las propiedades del campo personalizado: **fieldBaseType**, **tableName**, **fieldname**, **label**, **isEditable**, **isMandatory**, **stringLength** y **numberOfDecimals**. También puede definir los parámetros manualmente, como prefiera.
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TsTimesheetSettings))]
 final class TSTimesheetSettings_Extension
@@ -212,7 +212,7 @@ final class TSTimesheetSettings_Extension
 
 El método **buildCustomFieldListForEntry** se utiliza para especificar los valores en las líneas de hoja de horas guardadas en la aplicación móvil. Toma un registro de TSTimesheetTrans como parámetro. Los campos de ese registro se pueden usar para completar el valor del campo personalizado en la aplicación.
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TsTimesheetEntry))]
 final class TsTimesheetEntry_Extension
@@ -250,7 +250,7 @@ Para guardar un campo personalizado de nuevo a la base de datos en uso habitual,
 > [!NOTE]
 > El siguiente ejemplo guarda el **firstOption** o el valor **secondOption** que el usuario selecciona a la base de datos como valor de cadena sin formato. Si el campo de base de datos es un campo del tipo **Enum**, estos valores pueden asignarse manualmente a un valor de enumeración y luego guardar un campo de la enumeración en la tabla de base de datos.
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TSTimesheetEntryService))]
 final class TSTimesheetEntryService_Extension
@@ -339,7 +339,7 @@ Este código controla los valores de visualización del campo de la aplicación.
 
 El ejemplo siguiente muestra un valor calculado en la sección de encabezado en la aplicación.
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TsTimesheetSettings))]
 final class TSTimesheetSettings_Extension
@@ -369,7 +369,7 @@ final class TSTimesheetSettings_Extension
 El método **buildCustomFieldListForHeader** se utiliza para rellenar los valores del encabezado en la hoja de horas en la aplicación móvil. Toma un registro de TSTimesheetTable como parámetro. Los campos de ese registro se pueden usar para completar el valor del campo personalizado en la aplicación. El siguiente ejemplo no lee ningún valor de la base de datos. En su lugar, usa lógica X++ para generar un valor calculado que se muestre en la aplicación.
 
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TSTimesheetDetails))]
 final class TSTimesheetDetails_Extension

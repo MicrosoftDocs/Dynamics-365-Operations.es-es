@@ -19,17 +19,17 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 9d1431cc8db6fb28d1f1ec73ee07dd15e78f82e8
-ms.sourcegitcommit: 65f4b8a751670a7fe9ef4cb8b218213f792d57a2
+ms.openlocfilehash: ca28953846b4f1978a453d2ab2aa9759e4f45221
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945428"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076118"
 ---
+# <a name="apply-filters-to-a-plan"></a>Aplicar filtros a un plan
+
 [!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
-
-# <a name="apply-filters-to-a-plan"></a>Aplicar filtros a un plan
 
 Cuando se usa la funcionalidad optimización de la planificación, puede aplicar un filtro a un plan. El **Filtro de plan** se aplicará siempre durante la ejecución de una planificación maestra. Un **Filtros de plan** es útil cuando se desea restringir un plan a un determinado grupo de artículos y asegurarse de que no se incluyan otros artículos como parte de la planificación maestra resultante.
 

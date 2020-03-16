@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 1fffc7141c041873f39f716aaf1a775984ef499c
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 508fda28d8f815f030e7b163709393f70904a5fd
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023882"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057703"
 ---
 # <a name="choose-between-modern-pos-mpos-and-cloud-pos"></a>Elegir entre Modern POS (MPOS) y PDV en la nube
 
@@ -60,7 +60,7 @@ Aunque los MPOS y los CPOS son prácticamente iguales, existen algunas diferenci
 MPOS en un dispositivo Windows, iOS, o Android es una aplicación que se empaqueta, se instala y se mantiene en dicho dispositivo.
 
 - **Windows**: el MPOS para la aplicación de Windows contiene todo el código de aplicación y el tiempo de ejecución de Commerce Runtime (CRT). 
-- **iOS/Android** En estas plataformas, la aplicación actúa como host para el código de aplicación de los CPOS. Es decir, el código de aplicación procede del servidor de los CPOS en Microsoft Azure o Commerce Scale Unit. Para obtener más información, consulte [Vista general de Retail Store Scale Unit](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin)
+- **iOS/Android** En estas plataformas, la aplicación actúa como host para el código de aplicación de los CPOS. Es decir, el código de aplicación procede del servidor de los CPOS en Microsoft Azure o Commerce Scale Unit. Para obtener más información, consulte [Visión general de Commerce Scale Unit](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin).
 
 #### <a name="cpos"></a>CPOS
 

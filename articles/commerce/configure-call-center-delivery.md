@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9f043d66fbd417633de71b5fa12b13b3f04e3452
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 9919e76b5e3eb1a43c5a0ecd5dda1462bedad4f2
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023898"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057819"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Configurar modos y cargos de entrega del centro de llamadas
 
@@ -66,7 +66,7 @@ Los gastos se pueden configurar para aplicarlos para un modo de entrega específ
 
 En la sección **Líneas**, puede definir uno o varios gastos por divisa, según necesite. Los gastos deben vincularse a un código de gastos que defina las reglas de registro financiero para el gasto. El campo **Categoría** se utiliza para definir cómo se calculan los gastos. Por ejemplo, si a los clientes se les debe cobrar una tarifa fija de 9,95 $ para que un pedido se envíe mediante un modo de entrega específico, utilice la categoría **Fijo**. Si el negocio decide cobrar a los clientes un porcentaje del pedido total para cubrir los gastos de entrega, utilice la categoría **Porcentaje**. El gasto real para los clientes se define en el campo **Valor de gastos**.
 
-Las empresas de ventas al por menor suelen configurar gastos por niveles. En este caso, el importe que los clientes pagan para la entrega se basa en el valor del pedido. Para configurar los gastos por niveles, introduzca valores en los campos **Importe inicial** e **Importe final** además de definir el propio gasto en el campo **Valor de gastos**. Por ejemplo, para los pedidos que tengan un valor inferior a 50 €, un distribuidor gasta 5,95 $ por el envío terrestre. Para pedidos que tengan un valor que sea igual o superior a 50 $, pero inferior 100 $, el distribuidor gasta 7,95 $. Por último, para pedidos que tengan un valor que sea igual o superior a 50 $, pero inferior 100 $, el distribuidor ofrece un envío gratuito. La siguiente ilustración muestra la configuración de estos gastos.
+Las empresas suelen configurar gastos por niveles. En este caso, el importe que los clientes pagan para la entrega se basa en el valor del pedido. Para configurar los gastos por niveles, introduzca valores en los campos **Importe inicial** e **Importe final** además de definir el propio gasto en el campo **Valor de gastos**. Por ejemplo, para los pedidos que tengan un valor inferior a 50 €, un distribuidor gasta 5,95 $ por el envío terrestre. Para pedidos que tengan un valor que sea igual o superior a 50 $, pero inferior 100 $, el distribuidor gasta 7,95 $. Por último, para pedidos que tengan un valor que sea igual o superior a 50 $, pero inferior 100 $, el distribuidor ofrece un envío gratuito. La siguiente ilustración muestra la configuración de estos gastos.
 
 ![Ejemplo de gastos fijos por niveles](media/fixedtieredcharges.png)
 

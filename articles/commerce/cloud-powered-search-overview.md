@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: de0981d3200c2b1d62cab7600d2382bd11dd4b20
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 5501f4d39709990eb352511477b1427fb265afde
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002252"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057842"
 ---
 # <a name="cloud-powered-search-overview"></a>Visión general de la búsqueda con tecnología de nube
 
@@ -33,7 +33,7 @@ Este tema ofrece una visión general de la búsqueda con tecnología de nube en 
 
 ## <a name="overview"></a>Visión general
 
-La detectabilidad de productos ayuda a garantizar que los clientes pueden encontrar productos rápida y fácilmente examinando categorías, buscando y filtrando. Los minoristas consideran el descubrimiento de productos una herramienta principal para la interacción de clientes en todos los canales de venta minorista.
+La detectabilidad de productos ayuda a garantizar que los clientes pueden encontrar productos rápida y fácilmente examinando categorías, buscando y filtrando. Los minoristas consideran el descubrimiento de productos una herramienta principal para la interacción de clientes en todos los canales.
 
 Los clientes se acostumbran a tiempos de respuesta casi instantáneos de los motores de búsqueda web, sitios web sofisticados de correo electrónico, aplicaciones sociales, sugerencias automáticas que aparecen conforme escriben términos de búsqueda, navegación por facetas y resaltado. Si los clientes no encuentran el producto que buscan lo suficientemente rápido en una tienda de comercio electrónico, no dudan en ir a una tienda diferente de comercio electrónico.
 

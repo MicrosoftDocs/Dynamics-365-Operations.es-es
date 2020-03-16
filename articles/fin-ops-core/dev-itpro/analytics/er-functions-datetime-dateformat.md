@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c1453be0c93764f9f0364206822a9e3899061a58
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 759ccd3cf16c6c109faf44cea350745e3b2bff0b
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2917589"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042444"
 ---
 # <a name="DATEFORMAT">Función DATEFORMAT ER</a>
 
@@ -33,13 +33,13 @@ La función `DATEFORMAT` devuelve un valor *Cadena* que presenta un valor determ
 
 ## <a name="syntax-1"></a>Sintaxis 1
 
-```
+```vb
 DATEFORMAT (date, format)
 ```
 
 ## <a name="syntax-2"></a>Sintaxis 2
 
-```
+```vb
 DATEFORMAT (date, format, culture)
 ```
 

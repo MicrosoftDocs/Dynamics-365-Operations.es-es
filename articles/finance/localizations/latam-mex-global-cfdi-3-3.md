@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-06-01
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 7f0b401c6ebc3885535450c93df594006bb59314
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: edc733c873817932b8ff3d81b8d1628f478a09ce
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003768"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3058004"
 ---
 # <a name="global-cfdi-electronic-invoices-for-mexico"></a>Facturas electrónicas de CFDI globales para México 
 
@@ -60,7 +60,7 @@ En la versión 10.0.2 de Microsoft Dynamics 365 for Finance and Operations (mayo
 
 - En la solicitud del cliente, genere una factura electrónica de CFDI normales independiente que se basa en una operación de venta o devolución que se registra en el PDV.
 
-    En este caso, la operación de venta o de devolución debe registrarse como un pedido de cliente. Para obtener más información sobre la funcionalidad para pedidos de cliente, consulte [Pedidos de cliente en Retail Modern POS (MPOS)](https://docs.microsoft.com/dynamics365/unified-operations/retail/customer-orders-overview).
+    En este caso, la operación de venta o de devolución debe registrarse como un pedido de cliente. Para obtener más información sobre la funcionalidad para pedidos de cliente, consulte [Pedidos de cliente en Modern POS (MPOS)](https://docs.microsoft.com/dynamics365/unified-operations/retail/customer-orders-overview).
 
 - En una factura electrónica de CFDI que se genera según las devoluciones, especifique identificadores únicos universales (UUID) para facturas electrónicas de CFDI relacionadas con las operaciones de venta originales.
 
@@ -93,7 +93,7 @@ Cuando se desactiva el parámetro **Excluir pedidos de cliente de CFDI globales*
 
 Los devoluciones de pedidos de cliente se procesan de la misma manera (CFDI globales o CFDI normales) que las operaciones de venta originales.
 
-#### <a name="limitations"></a>Limitaciones
+### <a name="limitations"></a>Limitaciones
 
 Tenga en cuenta las siguientes limitaciones:
 

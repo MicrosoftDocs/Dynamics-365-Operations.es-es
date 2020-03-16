@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 63639d69af90c6aa37bbf7af7868bca71942063f
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 0fbca2c9178cd372653287afdf72deaf75442604
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023893"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057923"
 ---
 # <a name="define-and-maintain-retail-channels"></a>Definir y mantener canales comerciales
 
@@ -49,7 +49,7 @@ Para poder configurar una tienda, debe completar las siguientes tareas:
 5. Configure los métodos de pago que acepta la tienda.
 6. Para procesar transacciones de tarjeta de crédito en los registros de PDV, también puede configurar servicios de pago.
 7. Configure los grupos de impuestos.
-8. Configure los productos comerciales. Como parte de esta tarea, también configura jerarquías de productos, variantes del producto y surtidos de producto.
+8. Configurar productos. Como parte de esta tarea, también configura jerarquías de productos, variantes del producto y surtidos de producto.
 9. Configure los grupos de precios de producto.
 10. Configure el precio del producto. Como parte de esta tarea, también configura ajustes de precios, descuentos y períodos de descuento.
 11. Configure los empleados.
@@ -87,5 +87,5 @@ Tras especificar los detalles de la tienda, complete estas tareas para enviar lo
 Commerce usa jerarquías organizativas para estructurar los canales. Las jerarquías organizativas representan las relaciones que hay entre las organizaciones que forman el negocio. Al configurar tiendas, puede agregarlas a una jerarquía organizativa. A continuación, los almacenes comparten los datos que se usan para las selecciones, el reaprovisionamiento y los informes.
 
 > [!NOTE]
-> Para usar la funcionalidad de ventas de Retail, la clave de configuración **Envíos múltiples** debe estar habilitada. Esta clave de configuración se puede encontrar en las claves **Configuración de comercio** en **Administración del sistema**\> **Configuración** \> **Configuración de licencia**. Esto es necesario debido a la funcionalidad de Retail, que realiza diversas validaciones en función de la dirección de entrega configurada en el nivel de línea del pedido de ventas.
+> Para usar la funcionalidad de ventas de Commerce, la clave de configuración **Envíos múltiples** debe estar habilitada. Esta clave de configuración se puede encontrar en las claves **Configuración de comercio** en **Administración del sistema**\> **Configuración** \> **Configuración de licencia**. Esto es necesario debido a que realiza diversas validaciones en función de la dirección de entrega configurada en el nivel de línea del pedido de ventas.
 

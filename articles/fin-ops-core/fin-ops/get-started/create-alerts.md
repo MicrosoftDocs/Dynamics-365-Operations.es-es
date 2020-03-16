@@ -3,7 +3,7 @@ title: Crear reglas de alertas
 description: Este tema proporciona información acerca de alertas y explica la manera de crear una regla de alerta para notificarle eventos como una fecha que se aproxima o un cambio concreto que aparezca.
 author: tjvass
 manager: AnnBe
-ms.date: 09/20/2019
+ms.date: 02/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: c37ddc52ef576a15dd35cc155e99821c74631a46
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 85d4774bc710f0c48b384601e5505f11394cf5d5
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180723"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3075933"
 ---
 # <a name="create-alert-rules"></a>Crear reglas de alertas
 
@@ -31,7 +31,11 @@ ms.locfileid: "2180723"
 
 Antes de configurar una regla de alerta, decida cuándo o en qué situaciones desea recibir las alertas. Cuando sepa acerca de qué evento desea que se le avise, encuentre la página en donde aparecen los datos que provocan la aparición del evento. El evento puede ser una fecha que llega o un cambio específico que se produce. Por tanto, debe buscar la página donde se especifica la fecha o donde se muestra el campo que cambia o el registro nuevo. Cuando tenga esta información, puede crear la regla de alerta.
 
-Al crear una regla de alertas, puede definir los criterios que deben cumplirse antes de que se desencadene una alerta. Puede pensar en los criterios como una coincidencia entre el caso de que se produzca evento y el cumplimiento de condiciones concretas. Cuando se produce un evento, el sistema empieza a realizar una comprobación en función de las condiciones que se configuran.
+Al crear una regla de alertas, puede definir los criterios que deben cumplirse antes de que se desencadene una alerta. El criterio es básicamente como una coincidencia entre el caso de que se produzca evento y el cumplimiento de condiciones concretas. Cuando se produce un evento, el sistema empieza a realizar una comprobación en función de las condiciones que se configuran.
+
+## <a name="ensure-the-alert-batch-jobs-are-running"></a>Asegúrese de que los trabajos por lotes de alerta se estén ejecutando
+
+Los trabajos por lotes para el cambio de datos y las alertas de fecha de vencimiento deben ejecutarse para que se procesen las condiciones de alerta y se envíen las notificaciones. Para ejecutar trabajos por lotes, vaya a **Administración del sistema** > **Tareas periódicas** > **Alertas** y agregue un nuevo trabajo por lotes para **Alertas basadas en cambios** y / o **Alertas de fecha de vencimiento**. Si se necesita un trabajo por lotes largo y frecuente, seleccione **Periodicidad** y establezca **Sin fecha de finalización** con un **Patrón de periodicidad** de **Minutos** y un **Contador** de **1**.
 
 ## <a name="events"></a>Eventos
 
@@ -51,7 +55,7 @@ Los cambios que se producen se pueden iniciar por un usuario. Por ejemplo, un us
 
 ## <a name="conditions"></a>Condiciones
 
-En la ficha desplegable **Avisar para** del cuadro de diálogo **Crear regla de alertas**, puede usar condiciones para controlar cuándo desea que se le avise sobre eventos.
+En la ficha desplegable **Avisar para** en el cuadro de diálogo **Crear regla de alertas**, puede usar condiciones para controlar cuándo desea que se le avise sobre eventos.
 
 Por ejemplo, puede especificar que el sistema debería alertarle cuando el estado de los pedidos de compra cambie, pero únicamente si el estado coincide con un conjunto determinado de condiciones. En concreto, desea que le avisen cuando el estado de un pedido de compra se establece en **Recibido**. Este cambio en el estado es el evento que desencadena la alerta.
 
@@ -70,16 +74,21 @@ En la ficha desplegable **Avisar con** del cuadro de diálogo **Crear regla de a
 
 ## <a name="user-id"></a>Id. de usuario
 
-En la ficha desplegable **Avisar a** del cuadro de diálogo **Crear regla de alertas**, puede especificar qué usuario debe recibir los mensajes de alerta. De forma predeterminada, se selecciona el id. de usuario. Esta opción se limita a los administradores de la organización.
+En la ficha desplegable **Avisar a** del cuadro de diálogo **Crear regla de alertas**, puede especificar qué usuario debe recibir los mensajes de alerta. De forma predeterminada, se selecciona el id. de usuario. La capacidad de cambiar el usuario que recibe la alerta está restringida a los administradores de la organización.
+
+## <a name="alerts-as-business-events"></a>Alertas como eventos de negocio
+
+Las alertas se pueden enviar externamente utilizando el marco de eventos empresariales. Al crear una alerta, establezca **Toda la organización** a **No** y establezca **Enviar externamente** a **Sí**. Después de tener la alerta que desencadena el evento de negocio, puede activar un flujo integrado en Power Automate utilizando el desencadenante **Cuando ocurre un evento de negocios** en el conector de Finance and Operations, o enviar explícitamente el evento a un punto final de eventos de negocio a través de **Catálogo de eventos empresariales**.
 
 ## <a name="create-an-alert-rule"></a>Cree una regla de alerta
 
+0. Asegúrese de que los trabajos por lotes de alerta se estén ejecutando (ver más arriba).
 1. Abra la página que incluye los datos para supervisar.
 2. En el Panel de acciones, en la ficha **Opciones**, en el grupo **Compartir**, seleccione **Crear regla de alertas**.
 3. En el cuadro de diálogo **Crear regla de alertas**, en el campo **Campo**, seleccione el campo que desea supervisar.
 4. En el campo **Evento**, seleccione el tipo de evento.
-5. En la ficha desplegable **Avisar para** , seleccione una opción.
+5. En la ficha desplegable **Avisar para** , seleccione la opción deseada. Si desea enviar la alerta como un evento de negocio, asegúrese de que **Toda la organización** se establece en **No**.
 6. Si desea que la regla de alerta esté inactiva en una fecha concreta, seleccione una fecha final en la ficha desplegable **Avisar hasta**.
-7. En la ficha desplegable **Avisar con**, en el campo **Asunto**, acepte el encabezado de asunto predeterminado para el mensaje de correo electrónico o escriba un nuevo asunto. El texto se usa como el encabezado de asunto del mensaje de correo electrónico que recibe cuando se desencadena una alerta.
+7. En la ficha desplegable **Avisar con**, en el campo **Asunto**, acepte el encabezado de asunto predeterminado para el mensaje de correo electrónico o escriba un nuevo asunto. El texto se usa como el encabezado de asunto del mensaje de correo electrónico que recibe cuando se desencadena una alerta. Si desea enviar la alerta como un evento de negocio, configure **Enviar externamente** a **Sí**.
 8. En el campo **Mensaje**, Inserte un mensaje opcional. El texto se usa como el mensaje que recibe cuando se desencadene la alerta.
 9. Seleccione **Aceptar** para guardar la configuración y crear la regla de alertas.

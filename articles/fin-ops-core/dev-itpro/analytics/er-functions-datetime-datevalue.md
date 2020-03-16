@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 700a48d2c5a77398267e6daaaea3ecb6c95e7f6e
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: ef617ebfcaeb75e0284ea3cb4e889a204120b3d3
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916370"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042375"
 ---
 # <a name="DATEVALUE">Función DATEVALUE ER</a>
 
@@ -33,13 +33,13 @@ La función `DATEVALUE` devuelve un valor *Fecha* que se convierte de un determi
 
 ## <a name="syntax-1"></a>Sintaxis 1
 
-```
+```vb
 DATEVALUE (text, format)
 ```
 
 ## <a name="syntax-2"></a>Sintaxis 2
 
-```
+```vb
 DATEVALUE (text, format, culture)
 ```
 

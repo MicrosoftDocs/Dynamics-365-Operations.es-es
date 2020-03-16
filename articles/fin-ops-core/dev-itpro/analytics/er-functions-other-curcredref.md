@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5633541b1c7e25a0cfb837c4679691506806421b
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 6e684a8e063cb3c049d13005cbcf6ebbe688af00
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2917014"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3041501"
 ---
 # <a name="CURCREDREF">Función CURCREDREF de ER</a>
 
@@ -33,7 +33,7 @@ La función `CURCREDREF` devuelve un valor *Cadena* que representa una referenci
 
 ## <a name="syntax"></a>Sintaxis
 
-```
+```vb
 CURCREDREF (invoice number digits)
 ```
 

@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f3f2616fd98b37576625d9586a1cda29ce1b89f
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 1eb0b218b9008b255cc5a09eefb8c7fa35836cd7
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023984"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057496"
 ---
 # <a name="retail-sales-price-management"></a>Administración de precios de venta minorista
 
@@ -43,23 +43,23 @@ En este tema se utilizan los siguientes términos:
 
 ## <a name="price-groups"></a>Grupos de precio
 
-Los grupos de precios se encuentran en el centro de la administración de precios y descuentos en Commerce. Los grupos de precios se utilizan para asignar precios y descuentos para entidades minoristas (es decir, canales, catálogos, afiliaciones y programas de fidelización). Puesto que los grupos de precios se utilizan para todos los precios y descuentos, es muy importante que planifique cómo los utilizará antes de comenzar.
+Los grupos de precios se encuentran en el centro de la administración de precios y descuentos en Commerce. Los grupos de precios se utilizan para asignar precios y descuentos para entidades comerciales (es decir, canales, catálogos, afiliaciones y programas de fidelización). Puesto que los grupos de precios se utilizan para todos los precios y descuentos, es muy importante que planifique cómo los utilizará antes de comenzar.
 
-Por sí mismo, un grupo de precios es solo un nombre, una descripción y, de forma opcional, una prioridad de precios. La cuestión principal a recordar acerca de los grupos de precios es que se utilizan para gestionar las relaciones de varios a varios que los descuentos y precios tienen con las entidades minoristas.
+Por sí mismo, un grupo de precios es solo un nombre, una descripción y, de forma opcional, una prioridad de precios. La cuestión principal a recordar acerca de los grupos de precios es que se utilizan para gestionar las relaciones de varios a varios que los descuentos y precios tienen con las entidades comerciales.
 
-La siguiente ilustración muestra cómo se utilizan los grupos de precios. En esta ilustración, observe que el "Grupo de precios" se encuentra literalmente en el centro de la gestión de precios y descuentos. Las entidades minoristas que puede utilizar para gestionar precios y descuentos diferenciales se encuentran a la izquierda, y los registros reales de precios y descuentos están a la derecha.
+La siguiente ilustración muestra cómo se utilizan los grupos de precios. En esta ilustración, observe que el "Grupo de precios" se encuentra literalmente en el centro de la gestión de precios y descuentos. Las entidades comerciales que puede utilizar para gestionar precios y descuentos diferenciales se encuentran a la izquierda, y los registros reales de precios y descuentos están a la derecha.
 
 ![Grupos de precios](./media/PriceGroups.png "Grupos de precios")
 
-Al crear grupos de precios, no debe utilizar un único grupo de precios para varios tipos de entidades minoristas. De lo contrario, puede resultar difícil determinar por qué un precio o descuento específico se está aplicando a una transacción.
+Al crear grupos de precios, no debe utilizar un único grupo de precios para varios tipos de entidades comerciales. De lo contrario, puede resultar difícil determinar por qué un precio o descuento específico se está aplicando a una transacción.
 
 Como muestra la línea discontinua roja en la ilustración, Commerce no admite la funcionalidad principal de Microsoft Dynamics 365 de un grupo de precios que se establece directamente en un cliente. Sin embargo, en este caso, solo obtiene acuerdos comerciales de precios de venta. Si desea aplicar los precios específicos del cliente, le recomendamos que no establezca grupos de precio directamente en el cliente. En su lugar, debe utilizar afiliaciones.
 
-Las secciones siguientes proporcionan más información acerca de las entidades minoristas que puede usar para establecer precios distintos cuando se utilizan grupos de precios. La configuración de precios y descuentos para todas estas entidades es un proceso de dos pasos. Estos pasos se pueden realizar en cualquier pedido. Sin embargo, el pedido lógica es establecer primero los grupos de precios en las entidades, ya es probable que este paso sea una configuración única que se realiza durante la implementación. A continuación, cuando se crean los precios y descuentos, puede establecer de manera individual los grupos de precios en estos precios y descuentos.
+Las secciones siguientes proporcionan más información acerca de las entidades comerciales que puede usar para establecer precios distintos cuando se utilizan grupos de precios. La configuración de precios y descuentos para todas estas entidades es un proceso de dos pasos. Estos pasos se pueden realizar en cualquier pedido. Sin embargo, el pedido lógica es establecer primero los grupos de precios en las entidades, ya es probable que este paso sea una configuración única que se realiza durante la implementación. A continuación, cuando se crean los precios y descuentos, puede establecer de manera individual los grupos de precios en estos precios y descuentos.
 
 ### <a name="channels"></a>Canales
 
-En el sector minorista, es muy habitual tener diferentes precios en distintos canales. Los dos factores principales que afectan a los precios específicos de un canal son costes y condiciones empresariales locales.
+En el sector comercial, es muy habitual tener diferentes precios en distintos canales. Los dos factores principales que afectan a los precios específicos de un canal son costes y condiciones empresariales locales.
 
 - **Costes**: cuanto más lejos esté un canal del origen del producto, más cuesta almacenar un producto. Por ejemplo, el producto fresco tiene una vida útil limitada y unos requisitos de producción específicos (por ejemplo, una temporada de cultivo). Durante el invierno, la lechuga fresca probablemente cuesta más en climas septentrionales que en climas meridionales. Si establece precios para canales en un área geográfica grande, probablemente querrá establecer diferentes precios en distintos canales.
 - **Condiciones empresariales locales**: una tienda que tiene un competidor directo al otro lado de la calle será mucho más sensible a los precios que una tienda que no tiene un competidor directo cerca.
@@ -84,7 +84,7 @@ Algunos minoristas utilizan catálogos físicos o virtuales para comercializar p
 
 ### <a name="best-practices-for-price-groups"></a>Prácticas recomendadas para grupos de precios
 
-No utilice un grupo de precios para varios tipos de entidades minoristas. En su lugar, utilice un conjunto de grupos de precios para canales, un conjunto distinto de grupos de precios para afiliaciones o programas de fidelidad, etc. Puede utilizar un prefijo o un sufijo en el nombre del grupo de precios para agrupar visualmente los distintos tipos de grupos de precios que utiliza.
+No utilice un grupo de precios para varios tipos de entidades. En su lugar, utilice un conjunto de grupos de precios para canales, un conjunto distinto de grupos de precios para afiliaciones o programas de fidelidad, etc. Puede utilizar un prefijo o un sufijo en el nombre del grupo de precios para agrupar visualmente los distintos tipos de grupos de precios que utiliza.
 
 Evite configurar grupos de precios directamente en un cliente. En su lugar, utilice una afiliación. De esta manera, puede asignar todos los tipos de precios y descuentos a los clientes, no solo acuerdos comerciales de precios de venta.
 
@@ -98,7 +98,7 @@ Para utilizar una prioridad de precios para los precios, debe asignar una priori
 
 La función de prioridad de precios se introdujo para admitir el escenario en el que un minorista desea aplicar precios mayores en un conjunto específico de tiendas. Por ejemplo, un minorista ha definido precios regionales para la costa este de los Estados Unidos, pero desea precios mayores para algunos productos en las tiendas de Nueva York, ya que cuesta más vender algunos productos en la ciudad, y/o porque el mercado local tendrá un precio más alto.
 
-Como se describió en la sección "Mejor precio" de este tema, el motor de precios al por menor selecciona normalmente el precio más bajo de los dos. Por lo tanto, normalmente se impide al minorista usar el precio más alto de los dos en una tienda que tiene los grupos de precios del Nordeste y de Nueva York. Para resolver este problema antes de que se introduzca la función de prioridad de precios, el minorista tenía que definir los precios para cada producto dos veces y no asignar ambos grupos de precios. De manera alternativa, el minorista tuvo que crear grupos de precios adicionales para aislar los productos con precios más altos que los productos que tienen los precios habituales y más bajos.
+Como se describió en la sección "Mejor precio" de este tema, el motor de precios selecciona normalmente el precio más bajo de los dos. Por lo tanto, normalmente se impide al minorista usar el precio más alto de los dos en una tienda que tiene los grupos de precios del Nordeste y de Nueva York. Para resolver este problema antes de que se introduzca la función de prioridad de precios, el minorista tenía que definir los precios para cada producto dos veces y no asignar ambos grupos de precios. De manera alternativa, el minorista tuvo que crear grupos de precios adicionales para aislar los productos con precios más altos que los productos que tienen los precios habituales y más bajos.
 
 Sin embargo, la función de prioridad de precios permite al minorista crear una prioridad de precios para precios de tienda que sea mayor que la prioridad de precio para precios regionales. De manera alternativa, el minorista puede crear una prioridad de precios solo para precios de tienda y dejar los precios regionales en la prioridad de precios predeterminada, que es 0 (cero). Ambas configuraciones ayudan a garantizar que los precios de tienda se utilizan siempre antes que los precios regionales.
 
@@ -142,7 +142,7 @@ El lugar más fácil para establecer el precio de un producto se encuentra direc
 
 Si un producto tiene un precio para todos, el precio base ofrece la forma más eficaz de administrar el precio de dicho producto. Incluso si utiliza acuerdos comerciales para establecer precios, es posible que también establezca el precio base en un producto. A continuación, si no utiliza un acuerdo comercial **Todos**, tendrá un precio de reserva que se usa cuando no se aplica ningún acuerdo comercial.
 
-Si la divisa de un canal minorista se diferencia de la divisa de la empresa, el precio base en dicho canal se determina mediante la conversión de divisas en el precio que se establece en el producto.
+Si la divisa de un canal se diferencia de la divisa de la empresa, el precio base en dicho canal se determina mediante la conversión de divisas en el precio que se establece en el producto.
 
 Aunque la unidad de precio no es una situación común de comercio, el motor de precios la admite. Si la unidad de precio se establece en un valor distinto a **0** (cero), el precio por unidad es igual a Precio ÷ Unidad de precio. Por ejemplo, si el precio de un producto es $10,00 y la unidad de precio es 50, el precio para una cantidad de 1 es 0,20 $ (= 10,00 $ ÷ 50).
 
@@ -150,9 +150,9 @@ Aunque la unidad de precio no es una situación común de comercio, el motor de 
 
 Al utilizar el diario de acuerdos comerciales, puede crear acuerdos comerciales de precio de ventas para cada producto. En Microsoft Dynamics 365, existen tres ámbitos del cliente para acuerdos comerciales de precio de ventas: **Tabla**, **Grupo** y **Todos**. El ámbito del cliente determina los clientes a los que se aplica un acuerdo comercial de precio de ventas determinado.
 
-Un acuerdo comercial de precio de ventas **Tabla** es para un único cliente que se establece directamente en el acuerdo comercial. Este escenario no es un escenario habitual comercio al por menor empresa-consumidor (B2C). Sin embargo, si se produce, el motor de precios utiliza los acuerdos comerciales **Tabla** cuando se determina el precio.
+Un acuerdo comercial de precio de ventas **Tabla** es para un único cliente que se establece directamente en el acuerdo comercial. Este escenario no es un escenario habitual empresa-consumidor (B2C). Sin embargo, si se produce, el motor de precios utiliza los acuerdos comerciales **Tabla** cuando se determina el precio.
 
-Un acuerdo comercial de precio de ventas **Grupo** es el tipo que se utiliza con mayor frecuencia en la función de venta minorista. Fuera de Commerce, los acuerdos comerciales de precio de ventas **Grupo** son para un grupo de clientes simple. Sin embargo, en Commerce, el concepto de un grupo de clientes se ha ampliado de modo que sea un grupo de precios más genérico. Un grupo de precios se puede vincular a un canal, una afiliación, un programa de fidelidad o un catálogo. Para obtener información detallada sobre los grupos de precios, consulte la sección "Grupos de precios" que se descrige anteriormente en este tema.
+Un acuerdo comercial de precio de ventas **Grupo** es el tipo que se utiliza con mayor frecuencia. Fuera de Commerce, los acuerdos comerciales de precio de ventas **Grupo** son para un grupo de clientes simple. Sin embargo, en Commerce, el concepto de un grupo de clientes se ha ampliado de modo que sea un grupo de precios más genérico. Un grupo de precios se puede vincular a un canal, una afiliación, un programa de fidelidad o un catálogo. Para obtener información detallada sobre los grupos de precios, consulte la sección "Grupos de precios" que se descrige anteriormente en este tema.
 
 > [!NOTE]
 > Un precio de acuerdo comercial siempre se utiliza antes que el precio base.
@@ -211,7 +211,7 @@ Microsoft SQL Server Express se suele utilizar para las bases de datos de canale
 
 ## <a name="prices-that-include-tax-vs-prices-that-exclude-tax"></a>Precios que incluyen impuestos frente a precios sin impuestos
 
-Al establecer precios de venta en Dynamics 365, no especifica si el valor del precio que está configurando incluye o excluye impuestos. El valor es solo el precio. Sin embargo, la configuración **El pecio incluye impuestos** en los canales minoristas le permite configurar los canales para que incluyan o excluyan los impuestos de los precios. Esta configuración se establece en el canal y puede cambiar incluso en una sola empresa.
+Al establecer precios de venta en Dynamics 365, no especifica si el valor del precio que está configurando incluye o excluye impuestos. El valor es solo el precio. Sin embargo, la configuración **El pecio incluye impuestos** le permite configurar los canales para que incluyan o excluyan los impuestos de los precios. Esta configuración se establece en el canal y puede cambiar incluso en una sola empresa.
 
 Si trabaja con tipos de impuestos incluidos y exclusivos, es muy importante que configure los precios correctamente, ya que el importe total que el cliente paga cambiará si se cambia la configuración **El precio incluye impuestos** en el canal.
 
@@ -219,15 +219,15 @@ Si trabaja con tipos de impuestos incluidos y exclusivos, es muy importante que 
 
 Un único motor de precios se utiliza para calcular precios en todos los canales: centro de llamadas, tienda y tiendas en línea. Esto ayuda a habilitar los escenarios de comercio unificados.
 
-Los precios al por menor están diseñados para trabajar con las entidades minoristas en lugar de con entidades no minoristas. Específicamente, está diseñado para establecer precios por tienda, no por almacén.
+Los precios están diseñados para trabajar con las entidades minoristas en lugar de con entidades no minoristas. Específicamente, está diseñado para establecer precios por tienda, no por almacén.
 
-El motor de precios al por menor **no admite** las siguientes características de precios:
+El motor de precios **no admite** las siguientes características de precios:
 
-- Establecer precios por sitio o por dimensiones de almacenamiento de sitio o almacén. Si solo especifica la dimensión del sitio en los acuerdos comerciales, los precios minoristas omitirán el sitio y aplicarán el acuerdo comercial a todos los sitios. Si especifica tanto el sitio como el almacén, el comportamiento será indefinido/no probado porque se espera que los minoristas utilicen los grupos de precios de la tienda para controlar los precios de cada tienda o almacén.
+- Establecer precios por sitio o por dimensiones de almacenamiento de sitio o almacén. Si solo especifica la dimensión del sitio en los acuerdos comerciales, el motor de precios omitirá el sitio y aplicará el acuerdo comercial a todos los sitios. Si especifica tanto el sitio como el almacén, el comportamiento será indefinido/no probado porque se espera que los minoristas utilicen los grupos de precios de la tienda para controlar los precios de cada tienda o almacén.
 - No se admiten precios basados en atributos.
 - No se admite la transferencia de descuentos de proveedor.
 
-Además, el motor de precios al por menor **solo** admite las siguientes funciones:
+Además, el motor de precios **solo** admite las siguientes funciones:
 
 - El precio se basa en dimensiones del producto, en orden desde el precio variable más específico al precio variable menos específico para el precio del producto maestro. Un precio que se establece mediante el uso de dos dimensiones del producto (por ejemplo, Color y Tamaño) se utiliza antes que un precio que se establece usando solo una dimensión del producto (por ejemplo, Tamaño).
 - Se puede utilizar el mismo grupo de precios para controlar precios y descuentos.

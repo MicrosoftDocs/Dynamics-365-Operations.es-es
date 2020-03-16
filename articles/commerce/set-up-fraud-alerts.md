@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b4ee6b128e473d0999885f1cb1b4dbb015026c4e
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 38649e40021d1caaf70f217b3ebae0d488806180
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023954"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057218"
 ---
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Configuración y trabajo con alertas de fraudes de centro de asistencia telefónica
 
@@ -54,6 +54,7 @@ Finalmente, use el campo **Tipo de comentarios de fraudes** para especificar el 
 El sistema hace referencia a dos tipos de criterios de fraudes para determinar si un pedido se debe mantener en espera para la revisión de fraudes:
 
 - **Datos de fraudes estáticos** usa un valor específico, como un número de teléfono que se ha puesto en una lista de números bloqueado o una dirección de correo electrónico que se ha marcado porque se sabe que ha sido utilizada para transacciones fraudulentas anteriores. Para configurar datos estáticos de fraudes, vaya **Retail y Commerce** \> **Configuración del canal** \> **Configuración de centro de asistencia telefónica** \> **Fraude** \> **Datos de fraudes estáticos**. En la página **Datos de fraudes estáticos**, puede agregar criterios de fraudes manualmente o a través de la importación de datos. Las puntuaciones se vinculan a la información fraudulenta. Si está activada la función de comprobación de fraudes, cada pedido de ventas especificado se comparará con los datos estáticos. Si los datos se encuentran en la dirección de la factura del cliente o la dirección de entrega vinculada al encabezado del pedido, o si los datos se encuentran en las direcciones de entrega que se vinculan a cualquiera de las líneas del pedido de ventas, las puntuaciones de todas las coincidencias únicas se agregan y se comparan al valor **Puntuación mínima** para determinar si el pedido se debe poner en espera.
+
 - **Reglas de fraudes** consta de las variables definidas por el usuario y las condiciones que se definen para las variables. Para crear reglas, vaya a **Retail y Commerce** \> **Configuración del canal** \> **Configuración de centro de asistencia telefónica** \> **Fraude** \> **Reglas**. Las reglas de fraude permiten a una compañía configurar un conjunto de reglas más complejo que puede incluir declaraciones **AND** u **OR** para evaular varias condiciones. Por ejemplo, un usuario desea que todos los pedidos de los clientes que pertenecen a un grupo de clientes específico y que pidieron un producto específico se pongan en espera para detectar fraudes. En este caso, las condiciones para validar el cliente y los productos se definen en la página **Reglas** y se utiliza la condición Y. Se pone un pedido en espera solo si ambas condiciones son verdaderas, y si el valor de la puntuación asignada a esta regla, más el valor de puntuación de cualquier otra regla que coincide con el pedido, hacen que la puntuación total de fraude del pedido supere el valor **Puntuación mínima** que se define en la página **Parámetros de centro de asistencia telefónica**.
 
 > [!NOTE]

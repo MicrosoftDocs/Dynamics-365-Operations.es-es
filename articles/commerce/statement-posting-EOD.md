@@ -16,12 +16,12 @@ ms.search.industry: retail
 ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 1e3fc0e8cb5c9a6cc7729dfbddd5d918a1d6bdb5
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 68abef8f28c04a4f6f88e638c8abf944d06a32c4
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023957"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057264"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Mejoras en la funcionalidad del registro de extractos
 
@@ -33,21 +33,21 @@ En este tema se describe el primer conjunto de mejoras que se han realizado en l
 
 De forma predeterminada, durante la implementación de Finance and Operations 7.3.2 se configura el programa para usar la antigua función de registro de extractos. Para habilitar la función mejorada de registro de extractos, debe activar su clave de configuración.
 
-- Vaya **Administración del sistema** \> **Configuración** \> **Configuración de licencia** y, a continuación, en el nodo **Ventas al por menor** , desactive la casilla de verificación **Extractos comerciales (herencia)** , y seleccione la casilla de verificación **Extractos comerciales** .
+- Vaya **Administración del sistema** \> **Configuración** \> **Configuración de licencia** y, a continuación, en el nodo **Retail y Commerce**, desactive la casilla de verificación **Extractos (herencia)** , y seleccione la casilla de verificación **Extractos** .
 
-Cuando la nueva clave de configuración de **Extractos comerciales** se haya activado, estará disponible un nuevo elemento de menú llamado **Extractos comerciales**. Este elemento de menú permite crear, calcular y enviar extractos manualmente. Cualquier extracto que produzca un error cuando se usa el proceso de registro de lotes también estará disponible a través de este elemento de menú. (Si está activada la clave de configuración **Extractos comerciales (herencia)**, el elemento de menú se llamará **Extractos abiertos**).
+Cuando la nueva clave de configuración de **Extractos** se haya activado, estará disponible un nuevo elemento de menú llamado **Extractos**. Este elemento de menú permite crear, calcular y enviar extractos manualmente. Cualquier extracto que produzca un error cuando se usa el proceso de registro de lotes también estará disponible a través de este elemento de menú. (Si está activada la clave de configuración **Extractos (herencia)**, el elemento de menú se llamará **Extractos abiertos**).
 
-Retail incluye las siguientes validaciones relacionadas con estas claves de configuración:
+Commerce incluye las siguientes validaciones relacionadas con estas claves de configuración:
 
 - Las dos claves de configuración no pueden estar activadas a la vez.
-- Se deben usar las mismas claves de configuración para todas las operaciones que se realizan en un extracto determinado durante su ciclo de vida (Crear, Calcular, Borrar, Registrar, etc.). Por ejemplo, no puede crear y calcular un extracto mientras está activada la clave de configuración **Extracto comercial (herencia)** y, a continuación intentar registrar el mismo extracto con la clave de configuración **Extracto comercial** activada.
+- Se deben usar las mismas claves de configuración para todas las operaciones que se realizan en un extracto determinado durante su ciclo de vida (Crear, Calcular, Borrar, Registrar, etc.). Por ejemplo, no puede crear y calcular un extracto mientras está activada la clave de configuración **Extracto (herencia)** y, a continuación intentar registrar el mismo extracto con la clave de configuración **Extracto** activada.
 
 > [!NOTE]
-> Recomendamos que utilice la clave de configuración **Extractos comerciales** para la función mejorada de registro de extractos, a menos que tenga motivos de peso para utilizar la clave de configuración **Extractos comerciales (herencia)** en su lugar. Microsoft seguirá invirtiendo en la nueva función mejorada de registro de extractos, y es importante que empiece a utilizarla lo antes posible para beneficiarse de ella. La función de registro de extractos heredada quedará obsoleta a partir de la versión 8.0.
+> Recomendamos que utilice la clave de configuración **Extractos** para la función mejorada de registro de extractos, a menos que tenga motivos de peso para utilizar la clave de configuración **Extractos (herencia)** en su lugar. Microsoft seguirá invirtiendo en la nueva función mejorada de registro de extractos, y es importante que empiece a utilizarla lo antes posible para beneficiarse de ella. La función de registro de extractos heredada quedará obsoleta a partir de la versión 8.0.
 
 ## <a name="setup"></a>Configuración
 
-Como parte de las mejoras de la función de registro de extractos, se han incluido tres nuevos parámetros en la ficha desplegable **Extracto** en la ficha **Registro** de la página **Parámetros comerciales**:
+Como parte de las mejoras de la función de registro de extractos, se han incluido tres nuevos parámetros en la ficha desplegable **Extracto** en la ficha **Registro** de la página **Parámetros de Commerce**:
 
 - **Deshabilitar borrado de extracto**: esta opción sólo es aplicable para la función de registro de extractos heredada. Recomendamos establecer esta opción en **No** para evitar que los usuarios borren extractos que están en estado semiregistrado. Si se desactivan los extractos que están en estado semiregistrado, los datos resultarán dañados. Solo debe establecer esta opción en **Sí** en circunstancias excepcionales.
 - **Reservar inventario durante el cálculo**: se recomienda usar el trabajo por lotes **Registrar inventario** para la reserva de inventario, y establecer esta opción en **No**. Si esta opción se establece en **No**, la función mejorada del registro de extractos no intenta crear entradas de la reserva de inventario a la hora de calcular (si las entradas no se crearon a través del trabajo por lotes **Registrar inventario** ). En lugar de ello, la función solo crea entradas de reserva de inventario en el momento del registro. Esta implementación fue una elección de diseño basada en el hecho de que el intervalo de tiempo entre el proceso de cálculo y el proceso de registro suele ser pequeño. Sin embargo, si desea realizar la reserva de inventario en el momento del cálculo, puede establecer esta opción en **Sí**.
@@ -56,23 +56,23 @@ Como parte de las mejoras de la función de registro de extractos, se han inclui
 
 - **Deshabilitar recuento obligatorio**: si esta opción está establecida en **Sí**, el proceso de registro de un extracto continua, incluso si la diferencia entre el importe contado y el importe de transacción en el extracto está fuera del umbral definido en la ficha desplegable **Extracto** para tiendas.
 
-Además, los siguientes parámetros se introducen en la ficha desplegable **Procesamiento por lotes** en la pestaña **Registro** de la página **Parámetros de ventas** : 
+Además, los siguientes parámetros se introducen en la ficha desplegable **Procesamiento por lotes** en la pestaña **Registro** de la página **Parámetros de Commerce** : 
 
 - **Número máximo de envío de extractos paralelos** - Este campo define el número de tareas por lotes que se utilizan para enviar varios extractos. 
 - **Subprocesos máximos para el procesamiento del pedido por extracto** - Este campo representa el número máximo de subprocesos usados por el trabajo por lotes del registro de extractos para crear y facturar los pedidos de ventas para un único extracto. El número total de subprocesos que se utilizan en el proceso de registro del extracto se calculará en función del valor de este parámetro multiplicado por el valor del parámetro **Número máximo de registros paralelos del extracto** . Establecer el valor del parámetro demasiado alto puede tener un impacto negativo en el rendimiento del proceso de registro del extracto.
-- **Líneas de transacción máximas incluidas en la agregación** - Este campo define el número de líneas de transacción que se incluyen en una única transacción agregada antes de que se cree uno nueva. Las transacciones agregadas se crean en función de diversos criterios de agregación como cliente, fecha de negocio o dimensiones financieras. Es importante tener en cuenta que las líneas de una sola transacción al por menor no se dividirán entre diversas transacciones agregadas. Esto significa que hay la posibilidad de que el número de líneas en una transacción agregada sean ligeramente mayores o menores basadas en factores como número de productos únicos.
-- **Número máximo de subprocesos para validar transacciones de la tienda** - Este campo define el número de subprocesos que se utilizan para validar transacciones comerciales. Validar transacciones comerciales es un paso necesario que debe aparecer antes de que las transacciones se pueden añadir a los extractos. También es necesario definir un **Producto de tarjeta regalo** en la ficha desplegable **Tarjeta regalo** de la pestaña **Registrar** de la página **Parámetros comerciales**. Esto necesita definirse incluso si la organización no utiliza tarjetas regalo.
+- **Líneas de transacción máximas incluidas en la agregación** - Este campo define el número de líneas de transacción que se incluyen en una única transacción agregada antes de que se cree uno nueva. Las transacciones agregadas se crean en función de diversos criterios de agregación como cliente, fecha de negocio o dimensiones financieras. Es importante tener en cuenta que las líneas de una sola transacción no se dividirán entre diversas transacciones agregadas. Esto significa que hay la posibilidad de que el número de líneas en una transacción agregada sean ligeramente mayores o menores basadas en factores como número de productos únicos.
+- **Número máximo de subprocesos para validar transacciones de la tienda** - Este campo define el número de subprocesos que se utilizan para validar transacciones. Validar transacciones es un paso necesario que debe aparecer antes de que las transacciones se pueden añadir a los extractos. También es necesario definir un **Producto de tarjeta regalo** en la ficha desplegable **Tarjeta regalo** de la pestaña **Registrar** de la página **Parámetros de Commerce**. Esto necesita definirse incluso si la organización no utiliza tarjetas regalo.
 
 > [!NOTE]
-> Todos los valores y parámetros asociados a los registros de extracto y que se definen en las tiendas y en la página **Parámetros comerciales**, son aplicables a la función mejorada del registro de extractos.
+> Todos los valores y parámetros asociados a los registros de extracto y que se definen en las tiendas y en la página **Parámetros de Commerce**, son aplicables a la función mejorada del registro de extractos.
 
 ## <a name="processing"></a>En procesamiento
 
-Los extractos se pueden calcular y registrar por lotes mediante los elementos de menú **Calcular extractos por lotes** y **Registrar extractos por lotes**. Como alternativa, se pueden calcular y registrar manualmente mediante el elemento de menú **Extractos comerciales** que proporciona la función mejorada de registro de extractos.
+Los extractos se pueden calcular y registrar por lotes mediante los elementos de menú **Calcular extractos por lotes** y **Registrar extractos por lotes**. Como alternativa, se pueden calcular y registrar manualmente mediante el elemento de menú **Extractos** que proporciona la función mejorada de registro de extractos.
 
 El proceso y los pasos para calcular y registrar extractos por lotes son iguales que en la antigua función de registro de extractos. Sin embargo, se han realizado mejoras significativas en el procesamiento básico en el back-end de los extractos. Estas mejoras hacen que el proceso sea más flexible, y ofrece mayor visibilidad de los estados y la información de errores. Esto permite a los usuarios localizar la causa original de los errores y continuar con el proceso de registro sin provocar daños en los datos y sin requerir correcciones de datos.
 
-En las secciones siguientes se describen algunas de las mejoras importantes de la función de registro de extractos que aparecen en la interfaz de usuario para extractos comerciales y extractos registrados.
+En las secciones siguientes se describen algunas de las mejoras importantes de la función de registro de extractos que aparecen en la interfaz de usuario para extractos y extractos registrados.
 
 ### <a name="status-details"></a>Detalles de estado
 
@@ -131,7 +131,7 @@ La ficha **Detalles del pedido de ventas** de una transacción agregada muestra 
 - **Estado**: el último estado de la transacción agregada.
 - **Id. de factura**: el identificador del pedido de ventas asignado cuando se factura el pedido de ventas de la transacción agregada. Si este campo está en blanco, la factura del pedido de ventas no se ha registrado.
 
-La ficha **Detalles de transacción** de una transacción agregada muestra todas las transacciones comerciales que se han insertado en la transacción agregada. Las líneas agregadas en la transacción agregada muestran todos los registros agregados de las transacciones comerciales. Las líneas agregadas también muestra detalles como el artículo, la variante, cantidad, precio, el importe neto, la unidad, y el almacén. Básicamente, cada línea agregada corresponde a una línea de pedido de ventas.
+La ficha **Detalles de transacción** de una transacción agregada muestra todas las transacciones que se han insertado en la transacción agregada. Las líneas agregadas en la transacción agregada muestran todos los registros agregados de las transacciones. Las líneas agregadas también muestra detalles como el artículo, la variante, cantidad, precio, el importe neto, la unidad, y el almacén. Básicamente, cada línea agregada corresponde a una línea de pedido de ventas.
 
 En la página **Transacciones agregadas**, puede descargar los datos XML de una transacción agregada específica mediante el botón **Exportar XML del pedido de ventas** . Puede usar XML para depurar problemas que implican la creación y el registro de pedidos de ventas. Solo tiene que descargar los datos XML, cárgarlos en un entorno de pruebas y depurar el problema en el entorno de pruebas. La funcionalidad de descarga de datos XML para transacciones agregadas no está disponible para los extractos registrados.
 
@@ -139,7 +139,7 @@ La vista de transacciones agregadas proporciona las siguientes ventajas:
 
 - El usuario tiene visibilidad de las transacciones agregadas con error durante la creación del pedido de ventas y pedidos de ventas con error durante la facturación.
 - El usuario tiene visibilidad de cómo se agregan las transacciones.
-- El usuario tiene una traza de auditoría completa, desde las transacciones comerciales hasta los pedidos de ventas y las facturas de ventas. Esta traza de auditoría no estaba disponible en la antigua función de registro de extractos.
+- El usuario tiene una traza de auditoría completa, desde las transacciones hasta los pedidos de ventas y las facturas de ventas. Esta traza de auditoría no estaba disponible en la antigua función de registro de extractos.
 - El archivo de datos XML agregados facilita la identificación de problemas durante la creación y facturación de pedidos de ventas.
 
 ### <a name="journal-vouchers"></a>Asientos del diario
@@ -159,11 +159,11 @@ Actualmente, el programa solo muestra estos datos para los extractos registrados
 Se han realizado otras mejoras de backend en la función de registro de extractos que son visibles para el usuario. A continuación se incluyen algunos ejemplos:
 
 - La agregación no tiene en cuenta las entidades de personal, terminal o turno. Como hay menos parámetros de agregación, también hay que procesar menos líneas de pedido de ventas.
-- Los bloqueos en las tablas de transacciones comerciales se reducen introduciendo tablas de extensión adicionales y realizando operaciones de inserción en lugar de operaciones de actualización en las tablas de transacciones comerciales.
+- Los bloqueos en las tablas de transacciones se reducen introduciendo tablas de extensión adicionales y realizando operaciones de inserción en lugar de operaciones de actualización en las tablas de transacciones.
 - El número de tareas por lotes en ejecución se ha parametrizado y restringindo. Por lo tanto, este número se puede adaptar específicamente al entorno de un cliente. En la antigua función del registro de extractos se creaba simultáneamente un número ilimitado de tareas por lotes. Los resultados eran cargas imposibles de gestionar, sobrecarga y cuellos de botella en el servidor de proceso por lotes.
 - Los extractos se ponen en cola de forma eficaz mediante la priorización de los extractos que tienen el mayor número de transacciones.
 - Los procesos por lotes como **Calcular extractos por lotes** y **Registrar extractos por lotes** se ejecutan sólo en modo de lotes. En la antigua función de registro de extractos, los usuarios podían elegir trabajar con estos procesos por lotes en un modo interactivo, que es una operación de un solo subproceso, a diferencia de los proceso por lotes, que son operaciones de múltiples subprocesos.
-- En la antigua función de registro de extractos, cualquier error de una tarea por lotes ponía a todo el trabajo por lotes en estado de error. En la función mejorada, los errores de una tarea por lotes no ponen al trabajo por lotes en estado de error si las demás tareas por lotes se completaron correctamente. Debe evaluar el estado de registro de una ejecución por lotes en la página **Extractos comerciales**, donde puede ver los extractos que no se han registrado a causa de errores.
+- En la antigua función de registro de extractos, cualquier error de una tarea por lotes ponía a todo el trabajo por lotes en estado de error. En la función mejorada, los errores de una tarea por lotes no ponen al trabajo por lotes en estado de error si las demás tareas por lotes se completaron correctamente. Debe evaluar el estado de registro de una ejecución por lotes en la página **Extractos**, donde puede ver los extractos que no se han registrado a causa de errores.
 - En la antigua función de registro de extractos, la primera aparición de un error de extracto provoca el error de todo el lote. Los demás extractos no se procesan. En la función mejorada, el proceso por lotes sigue procesando todos extractos, incluso si se produce un error en alguno de ellos. Una ventaja es que los usuarios obtienen visibilidad del número exacto de extractos con error. Por lo tanto, los usuarios no tienen que verse atascados en un bucle continuo de corrección de errores y ejecución del proceso de registrar de extractos hasta que se hayan registrado todos los extractos.
 
 ## <a name="general-guidance-about-the-statement-posting-process"></a>Norma general sobre el proceso de registro de extractos
@@ -172,5 +172,5 @@ Se han realizado otras mejoras de backend en la función de registro de extracto
 - Es recomendable activar el inventario físico negativo en el grupo de modelos de artículos para poder disfrutar de una experiencia de registro sin problemas. En algunos casos es posible que no se puedan registrar extractos negativos a menos que haya un inventario físico negativo. Por ejemplo, en teoría, si sólo hay una unidad de un artículo en el inventario, y se ha realizado una transacción de ventas y una transacción de devolución para el artículo, debería ser posible registrar la transacción incluso si el inventario negativo no está activado. Sin embargo, dado que el proceso de registro de extracto utiliza tanto la transacción de ventas como la transacción de devolución en un único pedido de cliente, no hay garantía de que la línea de ventas se registre primero, seguida de la línea de devolución. Por lo tanto, pueden producirse errores. Si se activa el inventario negativo en este escenario, el registro de transacción no se verá afectado negativamente, y el sistema reflejará correctamente el inventario.
 - Es recomendable usar la agregación al calcular y registrar extractos. Por lo tanto, se recomiendan los valores siguientes para algunos parámetros de agregación:
 
-    - Vaya a **Comercio** \> **Configuración de sede central** \> **Parámetros** \> **Parámetros comerciales**. A continuación, en la ficha **Registro** , en la ficha desplegable **Actualización de inventario**, en el campo **Nivel de detalle** , seleccione **Resumen**.
-    - Vaya a **Comercio** \> **Configuración de sede central** \> **Parámetros** \> **Parámetros comerciales**. A continuación, en la ficha **Registro**, en la ficha desplegable **Agregación**, establezca la opción **Transacciones de asiento** en **Sí**.
+    - Vaya a **Retail y Commerce** \> **Configuración de Headquarters** \> **Parámetros** \> **Parámetros de Commerce**. A continuación, en la ficha **Registro** , en la ficha desplegable **Actualización de inventario**, en el campo **Nivel de detalle** , seleccione **Resumen**.
+    - Vaya a **Retail y Commerce** \> **Configuración de Headquarters** \> **Parámetros** \> **Parámetros de Commerce**. A continuación, en la ficha **Registro**, en la ficha desplegable **Agregación**, establezca la opción **Transacciones de asiento** en **Sí**.

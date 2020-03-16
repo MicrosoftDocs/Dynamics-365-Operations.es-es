@@ -16,12 +16,12 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c3b13794a1afac67a17c91f6b309a7902ac7df6d
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: b4810fb227615190f8ccf2b4ca0753b847ab012c
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003769"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3058003"
 ---
 # <a name="scope-of-mexican-localization"></a>Ámbito de localización mexicana
 
@@ -418,9 +418,9 @@ En la tabla siguiente se enumeran las características específicas que Microsof
 </tr>
 <tr>
 <td></td>
-<td>Compatibilidad para el diseño global 3.3 de CFDI recibos de clientes (Retail)</td>
-<td>N.º</td>
-<td>N.º</td>
+<td>Compatibilidad para el diseño global 3.3 de CFDI recibos de clientes (Commerce)</td>
+<td>No</td>
+<td>No</td>
 <td>Sí</td>
 <td>Sí</td>
 </tr>
@@ -560,8 +560,8 @@ Los siguientes módulos están fuera de ámbito en las localizaciones mexicanas 
 - Viajes y gastos
 - Cumplimiento y controles internos
 - Recursos humanos
-- Payroll
-- Retail
+- Nómina
+- Commerce
 - Centro de llamadas
 - Administración de concesión de comercialización
 - Administración de transporte
@@ -589,9 +589,9 @@ Las siguientes características y funciones están fuera de ámbito en las local
 
     - Sector público
 
-- **Industrias minoristas:**
+- **Industria de comercio:**
 
-    - **Ventas al por menor:** los servicios en línea siguientes se encuentra fuera de ámbito del sector minorista para las localizaciones mexicanas:
+    - **Servicios:** los servicios en línea siguientes se encuentra fuera de ámbito del sector comercial para las ubicaciones mexicanas:
 
         - Sites Services para Microsoft Dynamics ERP
         - Servicios de comercio para Microsoft Dynamics ERP

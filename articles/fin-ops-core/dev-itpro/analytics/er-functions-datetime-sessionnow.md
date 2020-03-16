@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4dff6daa8fbd60ef1fc84d783e428d69477aac6d
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 5489fab61791654c2e583fc11b27aba09fb90c86
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916278"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042306"
 ---
 # <a name="">Función SESSIONNOW ER</a>
 
@@ -33,7 +33,7 @@ La función `SESSIONNOW` devuelve un valor *Fecha y hora* que representa la fech
 
 ## <a name="syntax"></a>Sintaxis
 
-```
+```vb
 SESSIONNOW ()
 ```
 
