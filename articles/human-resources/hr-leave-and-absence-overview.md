@@ -1,6 +1,6 @@
 ---
-title: Visión general
-description: ''
+title: Información general
+description: En Dynamics 365 Human Resources el espacio de trabajo **Permisos y ausencias** proporciona un marco flexible para crear nuevos planes de baja, flujos de trabajo para administrar solicitudes y una página intuitiva de autoservicio para que los empleados soliciten tiempo libre.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9a36f6b6ba696fa926ab3d6298568dddfce43a57
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 493bc3abe82103541125914896252b2eae596b38
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010508"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3091757"
 ---
-# <a name="overview"></a>Visión general
+# <a name="overview"></a>Información general
 
 Dynamics 365 Human Resources le ayuda a proporcionar excelentes prestaciones de baja a sus trabajadores. El espacio de trabajo **Permisos y ausencias** proporciona un marco flexible para crear nuevos planes de baja, flujos de trabajo para administrar solicitudes y una página intuitiva de autoservicio para que los empleados soliciten tiempo libre. Los análisis ayudan a su organización a medir y supervisar los saldos de bajas y el uso de sus planes de bajas.
 
@@ -43,7 +43,7 @@ Antes de crear planes de bajas para sus trabajadores, debe crear tipos de permis
 
 - [Configurar tipos de permisos y ausencias](hr-leave-and-absence-types.md)
 - [Crear un plan de permisos y ausencias](hr-leave-and-absence-plans.md)
-- [Asignar trabajadores a un plan de bajas](hr-leave-and-absence-enroll.md)
+- [Asignar trabajadores a un plan de ausencias](hr-leave-and-absence-enroll.md)
 - [Acumular planes de permisos y ausencias](hr-leave-and-absence-accrue.md)
 - [Ver análisis de permisos y ausencias](hr-leave-and-absence-analytics.md)
 

@@ -3,7 +3,7 @@ title: Implementar un inquilino nuevo de comercio electrónico
 description: Este tema describe cómo implementar un inquilino nuevo de comercio electrónico mediante Microsoft Dynamics Lifecycle Services (LCS).
 author: psimolin
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6d7dfcaf244260de5f39a1201ec1ea78e94351e7
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: d5cf2804c44e81ad135a3248d38c228148b530cc
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001792"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096687"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Implementar un inquilino nuevo de comercio electrónico
 
@@ -62,9 +62,9 @@ Además, puede recopilar la siguiente información opcional:
     - Id. de cliente.
     - Dominio personalizado de inicio de sesión.
     - Dirección URL de respuesta.
-    - Id. de directiva de inicio de sesión de suscripción.
+    - Id. de directiva de registro e inicio de sesión.
     - Id. de directiva de contraseña de restablecimiento.
-    - Editar id. de directiva de perfil.
+    - Id. de directiva de edición de perfil.
 
 [!NOTE]
 Esta información se puede agregar más adelante, con una solicitud de servicio.
@@ -80,11 +80,11 @@ Una vez que haya recopilado la información necesaria, siga estos pasos para ini
 1. En la página siguiente, rellene la información necesaria y, a continuación, envíe el formulario. Se le devolverá a la pestaña **Comercio electrónico**, donde debería ver que se ha iniciado la inicialización.
 1. Para ver el estado de la inicialización, elija **Actualizar** o vuelva a la pestaña **Comercio electrónico** más adelante.
     
-Cuando el comercio electrónico se inicializa desde LCS, el sistema aprovisiona varios componentes necesarios para el comercio electrónico y los asocia al entorno. Una vez que se completa el aprovisionamiento, se actualizará la pestaña **Comercio electrónico** de la página **Administración de Retail** para reflejar el aprovisionamiento. La página muestra las últimas implementaciones de personalización y el estado de cualquier otra implementación en curso. También incluye vínculos al sitio de comercio electrónico y al configurador de sitios de comercio electrónico donde se crean los sitios.
+Cuando el comercio electrónico se inicializa desde LCS, el sistema aprovisiona varios componentes necesarios para el comercio electrónico y los asocia al entorno. Una vez que se completa el aprovisionamiento, se actualizará la pestaña **Comercio electrónico** de la página **Administración de Retail** para reflejar el aprovisionamiento. La página muestra las últimas implementaciones de personalización y el estado de cualquier otra implementación en curso. También incluye vínculos al sitio de comercio electrónico y al generador de sitios de comercio electrónico donde se crean los sitios.
 
-## <a name="access-site-builder"></a>Acceder al configurador de sitios
+## <a name="access-site-builder"></a>Acceder al generador de sitios
 
-Para acceder al configurador de sitios, vaya a la pestaña **Comercio electrónico** en la página **Gestión de ventas** en LCS y seleccione el vínculo **herramienta de gestión de sitios de comercio electrónico**. La página de aterrizaje del configurador de sitios muestra una vista de nivel de suscriptor. En esta página puede:
+Para acceder al generador de sitios, vaya a la pestaña **Comercio electrónico** en la página **Gestión de ventas** en LCS y seleccione el vínculo **herramienta de gestión de sitios de comercio electrónico**. La página de aterrizaje del generador de sitios muestra una vista de nivel de suscriptor. En esta página puede:
 
 - Modificar la configuración de nivel de suscriptor.
 - Navegar a cualquier sitio que haya creado y tenga permiso para ver. 
@@ -97,11 +97,19 @@ Para acceder al configurador de sitios, vaya a la pestaña **Comercio electróni
 
 [Crear un sitio de comercio electrónico](create-ecommerce-site.md)
 
+[Configurar un canal de la tienda en línea](online-stores.md)
+
 [Asociar un sitio en línea con un canal](associate-site-online-store.md)
 
 [Administrar archivos robots.txt](manage-robots-txt-files.md)
 
+[Subir redireccionamientos de URL en grandes cantidades](upload-bulk-redirects.md)
+
+[Configurar un inquilino B2C en Commerce](set-up-B2C-tenant.md)
+
 [Configurar páginas personalizadas para inicios de sesión de usuario](custom-pages-user-logins.md)
+
+[Configurar múltiples inquilinos B2C en un entorno de Commerce](configure-multi-B2C-tenants.md)
 
 [Agregar soporte para una red de entrega de contenido (CDN)](add-cdn-support.md)
 

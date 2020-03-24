@@ -1,6 +1,6 @@
 ---
-title: Configurar tasas
-description: ''
+title: Configurar tarifas
+description: Las tasas en Microsoft Dynamics 365 Human Resources definen cuánto aportan los empresarios y los empleados para una prestación.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a2626e9fc5f15bbdad0f6accf64bc4b211939ed0
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: f846dcd0a15424ac681dd7e6a229d9da445a54e1
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010524"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092416"
 ---
-# <a name="configure-rates"></a>Configurar tasas
+# <a name="configure-rates"></a>Configurar tarifas
 
 [!include [banner](includes/preview-feature.md)]
 

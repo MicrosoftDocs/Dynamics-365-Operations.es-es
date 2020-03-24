@@ -1,6 +1,6 @@
 ---
-title: Visión general
-description: ''
+title: Información general
+description: La Guía de usuario de Dynamics 365 Human Resources le proporciona instrucciones acerca de cómo configurar Recursos humanos, cómo establecer compensaciones y prestaciones para sus empleados, y cómo administrar sus recursos laborales.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,23 +18,23 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c489ddaec0363a5a6d68f0464786dfbe1b0e1349
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 7bef82f83de150df69a1a001fa9c07e34270742d
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010458"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3091733"
 ---
-# <a name="overview"></a>Visión general
+# <a name="overview"></a>Información general
 
 La Guía de usuario de Dynamics 365 Human Resources le proporciona instrucciones acerca de cómo configurar Recursos humanos, cómo establecer compensaciones y prestaciones para sus empleados, y cómo administrar sus recursos laborales.
 
 ## <a name="set-up-human-resources"></a>Configurar recursos humanos
 
 [Configurar parámetros de Recursos Humanos](hr-setup-parameters.md)</br>
-[Configurar parámetros compartidos de Recursos humanos](hr-setup-shared-parameters.md)</br>
-[Configurar flujos de trabajo de recursos humanos](hr-setup-workflows.md)</br>
-[Comprender los campos de fecha y hora](hr-setup-date-time-fields.md)</br>
+[Configurar parámetros compartidos de Human Resources](hr-setup-shared-parameters.md)</br>
+[Configurar flujos de trabajo de Human Resources](hr-setup-workflows.md)</br>
+[Comprender campos de fecha y hora](hr-setup-date-time-fields.md)</br>
 
 ## <a name="configure-organization-settings"></a>Configurar ajustes de organización
 
@@ -86,29 +86,29 @@ La Guía de usuario de Dynamics 365 Human Resources le proporciona instrucciones
 [Definir reglas y directivas de idoneidad para prestaciones](hr-benefits-define-eligibility-rules.md)</br>
 [Proporcionar un programa de prestaciones de empleado](hr-benefits-deliver-employee-benefits-program.md)</br>
 [Crear nuevos beneficios](hr-benefits-create.md)</br>
-[Inscribir trabajadores en las prestaciones](hr-benefits-enroll-workers.md)</br>
+[Inscribir trabajadores en beneficios](hr-benefits-enroll-workers.md)</br>
 [Administrar las fechas de vencimiento de la prestación](hr-benefits-expiration-dates.md)</br>
-[Generar informes para Ley de Cuidado de Salud Asequible](hr-benefits-aca-reports.md)</br>
+[Generar informes ACA](hr-benefits-aca-reports.md)</br>
 
-## <a name="manage-leave-and-absence"></a>Administrar bajas y ausencias
+## <a name="manage-leave-and-absence"></a>Administrar permisos y ausencias
 
 [Información general](hr-leave-and-absence-overview.md)</br>
-[Configurar parámetros de bajas y ausencias](hr-leave-and-absence-parameters.md)</br>
+[Configurar parámetros de permisos y ausencias](hr-leave-and-absence-parameters.md)</br>
 [Crear un calendario de horas de trabajo](hr-leave-and-absence-working-time-calendar.md)</br>
-[Crear una solicitud de baja de flujo de trabajo](hr-leave-and-absence-workflow.md)</br>
+[Crear un flujo de trabajo de solicitud de baja](hr-leave-and-absence-workflow.md)</br>
 [Configurar tipos de permisos y ausencias](hr-leave-and-absence-types.md)</br>
 [Crear un plan de permisos y ausencias](hr-leave-and-absence-plans.md)</br>
-[Asignar trabajadores a un plan de bajas](hr-leave-and-absence-enroll.md)</br>
+[Asignar trabajadores a un plan de ausencias](hr-leave-and-absence-enroll.md)</br>
 [Acumular planes de permisos y ausencias](hr-leave-and-absence-accrue.md)</br>
 [Ver análisis de permisos y ausencias](hr-leave-and-absence-analytics.md)</br>
-[Administrar solicitudes de bajas y ausencias](hr-employee-self-service-manage-requests.md)</br>
-[Solicitar licencia](hr-employee-self-service-request-time-off.md)</br>
+[Administrar solicitudes de permisos y ausencias](hr-employee-self-service-manage-requests.md)</br>
+[Solicitar tiempo libre](hr-employee-self-service-request-time-off.md)</br>
 [Ver calendarios de equipo y empresa](hr-employee-self-service-calendar.md)</br>
 
 ## <a name="develop-employees"></a>Desarrollar empleados
 
 [Visión general de la gestión del desempeño](hr-develop-performance-management-overview.md)</br>
-[Alinear aptitudes de los recursos](hr-develop-skills.md)</br>
+[Alinear aptitudes de recursos](hr-develop-skills.md)</br>
 [Agregar a su diario de rendimiento](hr-develop-add-performance-journal.md)</br>
 [Crear un objetivo](hr-develop-create-goal.md)</br>
 [Crear una evaluación del rendimiento](hr-develop-create-performance-review.md)</br>
@@ -122,8 +122,8 @@ La Guía de usuario de Dynamics 365 Human Resources le proporciona instrucciones
 [Distribuir cuestionarios mediante la programación](hr-learning-distribute-questionnaires-scheduling.md)</br>
 [Ver resultados del cuestionario](hr-learning-evaluate-questionnaire-results.md)</br>
 [Analizar resultados de cuestionario](hr-learning-analyze-questionnaire-results.md)</br>
-[Creación de una pregunta abierta](hr-learning-create-open-ended-question.md)</br>
-[Creación de una consulta cerrada](hr-learning-create-closed-ended-question.md)</br>
+[Crear una pregunta abierta](hr-learning-create-open-ended-question.md)</br>
+[Crear una pregunta cerrada](hr-learning-create-closed-ended-question.md)</br>
 [Crear una pregunta dependiente](hr-learning-depending-question.md)</br>
 
 

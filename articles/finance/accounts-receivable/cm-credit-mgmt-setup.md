@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b4234ac428cc80836852d4edfb0f37098b4a1e8e
-ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
+ms.openlocfilehash: ba0b047fe984f6bc164cbe137320d6bf6c13dafc
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "3071669"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124194"
 ---
 # <a name="credit-management-parameters-setup"></a>Configuración de parámetros de la administración de crédito
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 En este tema se describen las opciones que puede usar para configurar la Administración de crédito a fin de cumplir los requisitos de su empresa. Para comenzar a usar las características de Administración de crédito, configure los parámetros en la página **Parámetros de administración de crédito** (**Administración de crédito \> Configurar \> Parámetros de administración de crédito**).
 

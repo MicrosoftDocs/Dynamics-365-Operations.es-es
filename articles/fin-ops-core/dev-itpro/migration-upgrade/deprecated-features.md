@@ -1,9 +1,9 @@
 ---
-title: Funcionalidades eliminadas u obsoletas de Finance and Operations
-description: Este tema describe las funciones que se han eliminado, o que está previsto que se eliminen.
+title: Funciones quitadas u obsoletas de versiones anteriores
+description: Este tema describe las características que se eliminaron o que se planearon eliminar de Dynamics 365 for Finance and Operations y versiones anteriores de ese producto.
 author: sericks007
 manager: AnnBe
-ms.date: 10/08/2019
+ms.date: 03/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,28 +17,28 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 52ed93ae425a821ebce4ed63f154e155cb161e94
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: f2e079f1eb43d46acdc39819ae81e0472bba6aa1
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812002"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124575"
 ---
-# <a name="removed-or-deprecated-features-for-finance-and-operations"></a>Funcionalidades eliminadas u obsoletas de Finance and Operations
+# <a name="removed-or-deprecated-features-in-previous-releases"></a>Funciones quitadas u obsoletas de versiones anteriores
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe las características que se han quitado o que están en desuso de Finance and Operations.
+> [!IMPORTANT]
+> Este tema ya no se actualiza. Para ver una lista actual de características que se han eliminado o desaprobado de las aplicaciones de Finance and Operations, busque el contenido **"Funciones eliminadas o en desuso"** relacionado con la aplicación que está utilizando.
+
+Este tema describe las características que se eliminaron o que están en desuso de Dynamics 365 for Finance and Operations y versiones anteriores de ese producto.
 
 - Una función *quitada* dejará de estar disponible en el producto.
 - Una función *en desuso* no está en el desarrollo activo y se podría quitar en una actualización futura.
 
 Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y deprecaciones para su propia planificación. 
 
-> [!NOTE]
-> Desde la versión de julio de 2017 de Finance and Operations con actualización de la plataforma 8, se indica el tipo de implementaciones para cada características quitada u obsoleta. Todas las versiones anteriores de la lista de este tema admitían implementaciones de la nube únicamente.
-
-La información detallada sobre los objetos de Finance and Operations se puede encontrar en los [informes de referencia técnica](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de Finance and Operations.
+La información detallada sobre los objetos de aplicaciones Finance and Operations se puede encontrar en los [Informes de referencia técnica](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de aplicaciones Finance and Operations.
 
 ## <a name="finance-1007-with-platform-update-31"></a>Finance 10.0.7 con Platform update 31
 
@@ -51,7 +51,7 @@ La información detallada sobre los objetos de Finance and Operations se puede e
 | **Opción de implementación**              | Todas |
 | **Estado**                         | En desuso: El 1 de diciembre de 2020, planeamos dejar de admitir la configuración de tipos de asiento para China sin selección de grupos de cuentas. Encuentre más detalles sobre el nuevo diseño de la característica en Novedades en 10.0.7 |
 
-## <a name="finance-and-operations-1006-with-platform-update-30"></a>Finance and Operations 10.0.6 con actualización de plataforma 30
+## <a name="finance-and-operations-1006-with-platform-update-30"></a>Finance and Operations 10.0.6 con Platform update 30
 
 
 ### <a name="dimensionhashgethashstr-_message"></a>DimensionHash.getHash (str _message)
@@ -106,7 +106,7 @@ La información detallada sobre los objetos de Finance and Operations se puede e
 | **Estado**                         | Desusado: El 1 de octubre de 2020, planificamos dejar de admitir el **Informe sobre impuestos nacionales - Referencia de funcionalidad IT-00003**. |
 
 
-## <a name="finance-and-operations-1005-with-platform-update-29"></a>Finance and Operations 10.0.5 con actualización de plataforma 29
+## <a name="finance-and-operations-1005-with-platform-update-29"></a>Finance and Operations 10.0.5 con Platform update 29
 
 ### <a name="us-payroll-tax-updates"></a>Actualizaciones de impuestos de nómina en Estados Unidos.
 
@@ -128,7 +128,7 @@ La información detallada sobre los objetos de Finance and Operations se puede e
 | **Opción de implementación**              | Todas  |
 | **Estado**                         | En desuso: la fecha prevista para la eliminación de la funcionalidad es diciembre de 2020. |
 
-## <a name="finance-and-operations-1004-with-platform-update-28"></a>Finance and Operations 10.0.4 con actualización de plataforma 28
+## <a name="finance-and-operations-1004-with-platform-update-28"></a>Finance and Operations 10.0.4 con Platform update 28
 
 ### <a name="france-fec-accounting-data-export-in-xml"></a>Francia: Formato XML de exportación de datos contables FEC
 
@@ -152,7 +152,7 @@ La información detallada sobre los objetos de Finance and Operations se puede e
 | **Estado**                         | En desuso: a partir de abril de 2020, la antigua barra de navegación ya no estará disponible. Hasta que ese punto, los clientes puede volver a la antigua barra de navegación a través de la página **Opciones de rendimiento del cliente**. |
 
 
-## <a name="finance-and-operations-1002-with-platform-update-26"></a>Finance and Operations 10.0.2 con actualización de plataforma 26
+## <a name="finance-and-operations-1002-with-platform-update-26"></a>Finance and Operations 10.0.2 con Platform update 26
 
 
 ### <a name="legacy-default-action-behavior"></a>Comportamiento predeterminado de la acción de herencia
@@ -196,7 +196,7 @@ La compatibilidad para crear los pedidos de ventas basados en proyectos donde el
 | **Opción de implementación**              | Todas |
 | **Estado**                         | En desuso: La fecha prevista para la eliminación de la funcionalidad es abril de 2020. |
 
-## <a name="finance-and-operations-1001-with-platform-update-25"></a>Finance and Operations 10.0.1 con actualización de plataforma 25
+## <a name="finance-and-operations-1001-with-platform-update-25"></a>Finance and Operations 10.0.1 con Platform update 25
 
 ### <a name="deprecated-apis-and-potential-breaking-changes"></a>API en desuso y potencial cambios que generan interrupciones
 
@@ -221,7 +221,7 @@ La compatibilidad para crear los pedidos de ventas basados en proyectos donde el
 | **Opción de implementación**              | Todas |
 | **Estado**                         | En desuso: la advertencia se convertirá en un error de compilación en la Platform update 26. |
 
-## <a name="finance-and-operations-1000-with-platform-update-24"></a>Finance and Operations 10.0.0 con actualización de plataforma 24
+## <a name="finance-and-operations-1000-with-platform-update-24"></a>Finance and Operations 10.0.0 con Platform update 24
 
 ### <a name="renaming-released-products"></a>Cambiar el nombre de los productos emitidos 
 |   |  |
@@ -229,11 +229,11 @@ La compatibilidad para crear los pedidos de ventas basados en proyectos donde el
 | **Motivo de la depreciación/eliminación** | Al usar la función **Cambiar el nombre de clave principal** para cambiar el ItemId de un producto emitido, solo se actualizan las referencias directas de clave extranjera. Cualquier otra referencia para el producto emitido, por ejemplo, de pedidos de producción, se conservará el ItemId antiguo. Como resultado, podría haber datos incoherentes que podrían bloquear procesos empresariales. |
 | **¿Reemplazado por otra característica?**   | N. º |
 | **Áreas de producto afectadas**         | Gestión de información de productos |
-| **Opción de implementación**              | Todas  |
-| **Estado**                         | Eliminado en Finance and Operations 10.0.0 con actualización de plataforma 24. En casos excepcionales, por ejemplo para recuperarse de un cambio de nombre anterior de la clave principal de un producto emitido, es posible solicitar Microsoft que quite temporalmente esta restricción en la operación de cambio de nombre de la clave principal para los productos emitidos. |
+| **Opción de implementación**              | Todos  |
+| **Estado**                         | Eliminado desde Finance and Operations 10.0.0 con Platform update 24. (Si y solo si necesita reparar la corrupción de datos causada por un cambio de nombre anterior de la clave principal de un producto lanzado, comuníquese con el Soporte de Microsoft para solicitar la eliminación temporal de esta restricción). |
 
 
-## <a name="finance-and-operations-813-with-platform-update-23"></a>Finance and Operations 8.1.3 con actualización de plataforma 23
+## <a name="finance-and-operations-813-with-platform-update-23"></a>Finance and Operations 8.1.3 con Platform update 23
 
 ### <a name="sql-server-reporting-services-reportviewer-control"></a>Control ReportViewer de SQL Server Reporting Services
 Los clientes pueden utilizar la acción **Exportar** proporcionada por el control incrustado SQL Server Reporting Services (SSRS) ReportViewer para descargar documentos producidos por las aplicaciones de Finance and Operations. Esta presentación basada en HTML del informe proporciona a los usuarios una vista previa no paginada del documento.
@@ -272,7 +272,7 @@ Los indicadores de rendimiento clave incrustados (KPIs) podrían ser modelados e
 #### <a name="complete-list"></a>Lista completa
 Para obtener acceso a la lista completa de API que se están dejando de utilizar, consulte [Deprecación de métodos y elementos de metadatos](deprecation-deletion-apis.md).
 
-## <a name="finance-and-operations-81-with-platform-update-20"></a>Finance and Operations 8.1 con actualización de plataforma 20
+## <a name="finance-and-operations-81-with-platform-update-20"></a>Finance and Operations 8.1 con Platform update 20
 
 ### <a name="batch-transfer-rules-for-subledger-journal-account-entries"></a>Reglas de transferencia por lotes para los asientos contables del subdiario contable
 El modo de transferencia sincrónico se está abandonando en los parámetros de contabilidad general.  Este modo se sustituye solo por el lote asincrónico y programado, que ya existe como opciones para la transferencia. Para obtener información adicional, consulte el blog [Parámetros de Contabilidad general – reglas de transferencia por lotes](https://community.dynamics.com/365/financeandoperations/b/financials/archive/2019/03/15/general-ledger-parameters-batch-transfer-rules).
@@ -292,9 +292,9 @@ Característica para configurar formatos de archivo .txt y .xml de declaraciones
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Se reemplaza por informes electrónicos. |
 | **¿Reemplazado por otra característica?**   | Sí. |
-| **Áreas de producto afectadas**         | Contabilidad general |
-| **Opción de implementación**              | Todas |
-| **Estado**                         | Eliminado en Finance and Operations 8.1 con actualización de plataforma 20. |
+| **Áreas de producto afectadas**         | Libro mayor general |
+| **Opción de implementación**              | Todos |
+| **Estado**                         | Eliminado desde Finance and Operations 8.1 con Platform update 20. |
 
 ### <a name="financial-reports-generator-for-russia"></a>Generador de informes financieros para Rusia
 Una herramienta para configurar recopilaciones de datos para los informes de contabilidad e impuestos y para exportar datos a plantillas de informes DOC y XLS. Partes funcionales: se eliminan la exportación de datos a plantillas de informes de XLS y de DOC, consultas, y requisitos fijos. 
@@ -304,8 +304,8 @@ Una herramienta para configurar recopilaciones de datos para los informes de con
 | **Motivo de la depreciación/eliminación** | Las partes quitadas se reemplazan con los informes electrónicos. |
 | **¿Reemplazado por otra característica?**   | Sí. La interfaz de usuario de configuración de informes financieros se debe usar para configurar reglas de recopilación de datos según cuentas de contabilidad general o registros de impuestos. La exportación de datos a distintos tipos de archivo, los requisitos y las consultas fijos, como las reglas de recopilación de datos, se deben configurar en el informe electrónico. |
 | **Áreas de producto afectadas**         | Contabilidad general |
-| **Opción de implementación**              | Todas |
-| **Estado**                         | Eliminado en Finance and Operations 8.1 con actualización de plataforma 20. |
+| **Opción de implementación**              | Todos |
+| **Estado**                         | Eliminado desde Finance and Operations 8.1 con Platform update 20. |
 
 ### <a name="integration-with-external-providers-for-sending-electronic-reporting-through-communication-channels-for-russia"></a>Integración con los proveedores externos para enviar notificaciones electrónicas a través de los canales de comunicación para Rusia
 Característica que exporta archivos electrónicos generados de declaraciones a la carpeta para el envío adicional a los proveedores oficiales de informes electrónicos así como su importación.
@@ -315,8 +315,8 @@ Característica que exporta archivos electrónicos generados de declaraciones a 
 | **Motivo de la depreciación/eliminación** | Reemplazada con la función configurable de los mensajes electrónicos. |
 | **¿Reemplazado por otra característica?**   | Sí.  |
 | **Áreas de producto afectadas**         | Contabilidad general, impuestos |
-| **Opción de implementación**              | Todas |
-| **Estado**                         | Eliminado en Finance and Operations 8.1 con actualización de plataforma 20. |
+| **Opción de implementación**              | Todos |
+| **Estado**                         | Eliminado desde Finance and Operations 8.1 con Platform update 20. |
 
 
 ### <a name="profit-tax-register-wizard"></a>Asistente del registro de impuesto de ganancias
@@ -325,16 +325,16 @@ Característica para crear plantillas para nuevos registros de impuestos sobre g
 |   |  |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | La característica no es compatible con el modelo de extensibilidad de Finance and Operations. |
-| **¿Reemplazado por otra característica?**   | No |
+| **¿Reemplazado por otra característica?**   | Nº |
 | **Áreas de producto afectadas**         | Impuestos |
-| **Opción de implementación**              | Todas |
-| **Estado**                         | Eliminado en Finance and Operations 8.1 con actualización de plataforma 20. |
+| **Opción de implementación**              | Todos |
+| **Estado**                         | Eliminado desde Finance and Operations 8.1 con Platform update 20. |
 
 
-## <a name="finance-and-operations-80-with-platform-update-15"></a>Finance and Operations 8.0 con actualización de plataforma 15
+## <a name="finance-and-operations-80-with-platform-update-15"></a>Finance and Operations 8.0 con Platform update 15
 No se ha quitado ni se ha dejado de utilizar ninguna función con esta versión. La actualización de la plataforma 15 es acumulativa y contiene nuevas o mejoradas funciones de la actualización de la plataforma 13, la actualización de la plataforma 14 y la actualización de la plataforma 15.
 
-## <a name="finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Finance and Operations, Enterprise Edition 7.3 con actualización de plataforma 12.
+## <a name="finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Finance and Operations, Enterprise edition 7.3 con Platform update 12
 
 ### <a name="personalized-product-recommendations"></a>Recomendaciones de productos personalizados 
 A partir del 15 de febrero de 2018, los minoristas no podrán mostrar recomendaciones personalizadas de productos en un dispositivo de punto de venta (PDV). Para obtener más información, consulte [Visión general de las recomendaciones de producto](../../../commerce/product-recommendations.md).  
@@ -356,7 +356,7 @@ La posibilidad de especificar las funciones personalizadas que se utilizarán en
 | **¿Reemplazado por otra característica?**   | Ninguno. Siempre que se necesite una nueva función integrada, se debe dirigir una nueva solicitud de extensión al equipo del marco de ER.<br><br>Como solución temporal mientras que la función solicitada está en proceso de desarrollo por equipo de ER, se puede programar la lógica necesaria como método de clase de aplicación personalizada. A este método se puede acceder en una expresión del ER como una propiedad del origen de datos agregado del ER del tipo de **Aplicación\clase** que hace referencia a esa clase de aplicación personalizada.  |
 | **Áreas de producto afectadas**         | Parámetros de informes de marco                                                      |
 | **Opción de implementación**              | Todas                                                                                      |
-| **Estado**                         | Eliminado en Finance and Operations, Enterprise Edition 7.3.    |
+| **Estado**                         | Eliminado desde Finance and Operations, Enterprise edition 7.3.    |
 
 ### <a name="inventory-by-item-group-and-inventory-by-inventory-dimension-aging-reports"></a>Inventario por grupo de artículos e inventario por informes de antigüedad de dimensión de inventario
 
@@ -453,7 +453,7 @@ A partir del 15 de febrero de 2018, los minoristas no podrán mostrar recomendac
 | **Estado**                         |Se quitó el 15 de febrero de 2018. Esto afecta a los clientes que ejecutan Dynamics 365 for Retail 7.2 y posteriores. |
 
 
-## <a name="finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>Finance and Operations, Enterprise Edition julio de 2017 con actualización de plataforma 8.
+## <a name="finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>Finance and Operations, Enterprise edition Julio 2017 con Platform update 8
 
 ### <a name="currency-conversion-for-accounting-and-reporting-currencies"></a>Conversión de divisa para contabilidad y divisas de notificación
 
@@ -469,12 +469,12 @@ La conversión de divisas para contabilidad y divisas de notificación se introd
 
 ### <a name="warehouse-mobile-devices-portal"></a>Portal de dispositivos móviles de almacén
 
-El portal de dispositivos móviles de almacén (WMDP) era componente independiente pensando para la implementación propia localmente. Este componente ya no se admite en Finance and Operations. Una aplicación nativa que mejora la experiencia del usuario ha sustituido a la funcionalidad de WMDP.
+El portal de dispositivos móviles de almacén (WMDP) era componente independiente pensando para la implementación propia localmente. Este componente ya no es compatible con Finance and Operations. Una aplicación nativa que mejora la experiencia del usuario ha sustituido a la funcionalidad de WMDP.
 
 |   |  |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Funcionalidad duplicada.       |
-| **¿Reemplazado por otra característica?**   | Sí. Esta función se ha sustituido por Finance and Operations - Warehousing. Para obtener más información sobre la configuración y prerrequisitos, consulte [Información general de instalar y configurar la aplicación de almacenaje](../../../supply-chain/warehousing/install-configure-warehousing-app.md). |
+| **¿Reemplazado por otra característica?**   | Sí. Esta característica se ha reemplazado por Finance and Operations - Warehousing. Para obtener más información sobre la configuración y prerrequisitos, consulte [Información general de instalar y configurar la aplicación de almacenaje](../../../supply-chain/warehousing/install-configure-warehousing-app.md). |
 | **Áreas de producto afectadas**         | Gestión de almacenes y administración de transporte     |
 | **Opción de implementación**              | El portal de dispositivos móviles de almacén (WMDP) era componente independiente pensando para la implementación propia localmente.               |
 | **Estado**                         | En desuso: La fecha prevista para la eliminación de la funcionalidad es el cuarto trimestre de 2019.   |
@@ -825,7 +825,7 @@ Un flujo de trabajo para gestionar la creación de los objetivos del empleado es
 
 |   |  |
 |------------|--------------------|
-| **Motivo de la depreciación/eliminación** | La gestión del rendimiento se ha vuelto a diseñar por completo en Finance and Operations.     |
+| **Motivo de la depreciación/eliminación** | En Finance and Operations la administración del rendimiento se ha rediseñado por completo.     |
 | **¿Reemplazado por otra característica?**   | La característica de Gestión del rendimiento que se ha diseñado de nuevo proporciona más control sobre el contenido de los objetivos, las medidas que se utilizan para realizar el seguimiento del progreso y los datos adjuntos de la documentación correspondiente. Los objetivos se pueden almacenar como plantillas y volverse a utilizar. Esta función puede ayudarle a configurar los objetivos adicionales para sus empleados con más rapidez. |
 | **Áreas de producto afectadas**         | Gestión del capital humano                 |
 | **Estado**                         | Se quitó en Dynamics 365 for Operations versión 1611. |
@@ -1346,7 +1346,7 @@ La aplicación para tabletas con Windows 8 ofrecía funcionalidad para la entrad
 
 |   |  |
 |------------|--------------------|
-| **Motivo de la depreciación/eliminación** | Finance and Operations es compatible con las tabletas. La aplicación para tabletas ya no se requiere.    |
+| **Motivo de la depreciación/eliminación** | Finance and Operations es compatible con tabletas. La aplicación para tabletas ya no se requiere.    |
 | **¿Reemplazado por otra característica?**   | N. º          |
 | **Áreas de producto afectadas**         | Gestión de gastos   |
 | **Estado**                         | Quitado: Esta funcionalidad sólo está disponible para Dynamics AX 2012 R3. |

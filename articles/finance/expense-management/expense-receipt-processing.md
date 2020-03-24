@@ -1,7 +1,7 @@
 ---
 title: Procesamiento de recibos de gastos
 description: Este tema proporciona información sobre el procesamiento de recibos mediante reconocimiento óptico de caracteres (OCR). Esta característica está diseñada para mejorar la experiencia del usuario cuando se crean informes de gastos en Microsoft Dynamics 365 Finance.
-author: stevensporen
+author: stsporen
 manager: AnnBe
 ms.date: 11/20/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 1ead9039de63e2cf4f3a7faddd1702b9614d7f99
-ms.sourcegitcommit: 6aceca43c53c4dde46954c0b6b855d488eb44ed2
+ms.openlocfilehash: 2e819521828b054f70476b1eb061ee08c486d09f
+ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3027912"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3113695"
 ---
 # <a name="public-preview-expense-receipt-processing"></a>Versión preliminar pública: procesamiento de recibos de gastos
 

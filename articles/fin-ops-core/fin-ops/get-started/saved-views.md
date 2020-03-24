@@ -3,7 +3,7 @@ title: Vistas guardadas
 description: Este tema describe cómo usar las características guardadas de las vistas.
 author: jasongre
 manager: AnnBe
-ms.date: 10/16/2019
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 62d7dc1bd877cd1267f87ed24f8fb8be8f6c74a3
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: c6a5880c6ae9470dbf7986f39798ec888d0c22ea
+ms.sourcegitcommit: 1789a78de1cbeac19d96767812df653a191c67e9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3017713"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "3100317"
 ---
 # <a name="saved-views"></a>Vistas guardadas
 
@@ -69,9 +69,9 @@ Para garantizar que se conozca el estado actual de la vista, al empezar a realiz
 Si desea guardar los cambios, siga estos pasos.
 1.  Seleccione el nombre de vista para abrir el selector de la vista.
 2.  Para modificar la vista existente:
-     1. Seleccione **Guardar**. Tenga en cuenta que esta acción no se permitirá para las visiones bloqueadas. 
+     1. Seleccione **Guardar**. Tenga en cuenta que esta acción no se permitirá para las vistas bloqueadas. 
 3.  Para crear una vista nueva:
-     1.    Seleccione **Guardar como...**. 
+     1.    Seleccione **Guardar como**. 
      2.    Especifique un nombre de vista y una descripción (opcional).
      3.    Seleccione **Guardar**.
 
@@ -83,9 +83,9 @@ Para cambiar la vista predeterminada de una página, siga estos pasos:
 2.  Seleccione el nombre de vista para abrir el selector de la vista. 
 3.  Seleccione **Más** y luego en **Anclar como predeterminada**.  
 
-Como alternativa, al crear una nueva vista (mediante la acción **Guardar como...**), puede hacer que esa nueva vista sea la vista predeterminada mediante la opción **Anclar como predeterminada** antes de guardar la vista.
+Como alternativa, al crear una nueva vista (mediante la acción **Guardar como**), puede hacer que esa nueva vista sea la vista predeterminada mediante la opción **Anclar como predeterminada** antes de guardar la vista.
 
-Tenga en cuenta que en algunos casos, la consulta asociada a la vista predeterminada no se ejecuta cuando navega por primera vez a una página. Por ejemplo, si navega a través de un mosaico a una página, la consulta del mosaico se ejecutará independientemente de la consulta asociada a la vista predeterminada. Además, si navega a una página cuya vista clásica ya tiene una consulta definida, la consulta se ejecutará originalmente en lugar de la consulta predeterminada de la vista. Cuando esto sucede, un mensaje informativo le alertará cuando la vista se cargue. Intercambiar las vistas después de que la página haya cargado debe permitir que la consulta de la vista se ejecute como se espera.
+Tenga en cuenta que en algunos casos, la consulta asociada a la vista predeterminada no se ejecuta cuando navega por primera vez a una página. Por ejemplo, si navega a través de un mosaico a una página, la consulta del mosaico se ejecutará independientemente de la consulta asociada a la vista predeterminada. Además, si navega a una página cuya vista estándar ya tiene una consulta definida, la consulta original se ejecutará en lugar de la consulta predeterminada de la vista. Cuando esto sucede, un mensaje informativo le alertará cuando la vista se cargue. Intercambiar las vistas después de que la página haya cargado debe permitir que la consulta de la vista se ejecute como se espera. A partir de la versión 10.0.10 Platform update 34, el mensaje informativo tendrá una acción incrustada que le permitirá cargar directamente la consulta de la vista predeterminada.
 
 ## <a name="managing-personal-views"></a>Gestión de vistas personales 
 El cuadro **Gestionar mis vistas** le da capacidades de mantenimiento básicas sobre sus vistas personales y el orden de vistas en el selector de la vista. Para abrir esta página, haga clic en el nombre de vista para abrir el menú desplegable del selector de la vista, seleccione **Más**y, a continuación **Gestionar mis vistas**.  
@@ -93,7 +93,7 @@ El cuadro **Gestionar mis vistas** le da capacidades de mantenimiento básicas s
 Para una lista de vistas disponibles para dicha página, el conjunto de acciones siguiente está disponible.  
 -    **Cambiar la vista predeterminada**: use la acción **Anclar como predeterminada** para hacer que la vista actualmente destacada sea la vista predeterminada para esta página.  
 -    **Reordenar de sus vistas**: use las acciones **Trasladar hacia arriba** y **Trasladar hacia abajo** para reorganizar sus vistas en un orden determinado.  
--    **Renombrar una vista**: use la acción **Renombrar** para cambiar el nombre de la vista personal destacada actualmente. Esta acción se desactiva para las visiones bloqueadas. 
+-    **Renombrar una vista**: use la acción **Renombrar** para cambiar el nombre de la vista personal destacada actualmente. Esta acción se desactiva para las vistas bloqueadas. 
 -    **Eliminar una vista**: Use la acción **Eliminar** para eliminar de forma permanente la vista actualmente destacada desde la página. No es posible de recuperar una vista tras eliminarla.  
 
 Cualquier cambio realizado en este cuadro de diálogo tomará efecto después de activar el botón **Guardar**.
@@ -133,7 +133,7 @@ Si los cambios que desea realizar en una vista publicada afectan sólo a los par
 3.  Seleccione **Sí** si desea actualizar la vista existente (o **No** si desea publicar esto con otro nombre.)
 4.  Actualice el nombre, la descripción, y/o los roles de seguridad de la vista. 
 5.  Seleccione **Publicar**. 
-6.  [10.0.8/Platform update 32 o anterior] Si ha actualizado el nombre de la vista publicada, también deberá eliminar la vista publicada con el nombre anterior (consulte la sección **Administrar las visiones publicadas** para obtener más detalles.) 
+6.  [10.0.8/Platform update 32 o anterior] Si ha actualizado el nombre de la vista publicada, también deberá eliminar la vista publicada con el nombre anterior (consulte la sección **Administrar las vistas publicadas** para obtener más detalles). 
 7. [10.0.9/Platform update 33 o posterior] Si originalmente había elegido esta vista publicada para que fuera la predeterminada, será la vista predeterminada para estos usuarios nuevamente después de la republicación.  
 
 Si los cambios a la vista publicada implican modificar las personalizaciones o los filtros asociados a la vista, siga estos pasos: 
@@ -142,10 +142,10 @@ Si los cambios a la vista publicada implican modificar las personalizaciones o l
 3.  Modificar el borrador local con los cambios necesarios.
 4.  Publicar la vista con el nombre original. 
 
-## <a name="managing-published-views"></a>Administrar las visiones publicadas
+## <a name="managing-published-views"></a>Administrar las vistas publicadas
 Al igual que administrar las vistas personales, el cuadro **Administrar mis vistas** da a los usuarios con privilegios básicos de publicación la capacidad de mantener las vistas publicadas de esa página (además de sus propias vistas personales). Para abrir esta página, seleccione el nombre de vista para abrir el menú desplegable del selector de la vista, seleccione **Más**y, a continuación **Administrar mis vistas**.
 
-Aunque todos los usuarios ven una pestaña **Mis vistas** mostrando sus vistas personales, los usuarios con privilegios de publicación también ven una pestaña **Publicadas** que muestra todas las visiones publicadas de la página. Dado que puede haber varios usuarios que publican las vistas, es importante poder administrar la lista completa de vistas publicadas, independientemente de si se era el usuario que publicó realmente la vista.
+Aunque todos los usuarios ven una pestaña **Mis vistas** mostrando sus vistas personales, los usuarios con privilegios de publicación también ven una pestaña **Publicadas** que muestra todas las vistas publicadas de la página. Dado que puede haber varios usuarios que publican las vistas, es importante poder administrar la lista completa de vistas publicadas, independientemente de si se era el usuario que publicó realmente la vista.
 
 Para una lista de todas las vistas publicadas para dicha página, el conjunto de acciones siguiente está disponible. 
 
@@ -177,7 +177,7 @@ Todas las sesiones de usuario posteriores comenzarán con las vistas guardadas h
 Si se habilitan las vistas, las personalizaciones existente para un usuario y un formulario se guardan en una nueva vista denominada **Mi vista** que se establece automáticamente como vista predeterminada. Esto se hace para garantizar que existe una experiencia del usuario coherente antes y después de que se habilitan las vistas, excepto por el control de selector de la vista que aparece en los formularios.  
 
 ### <a name="what-pages-support-views"></a>¿Qué páginas son compatibles con las vistas? 
-Las visiones están disponibles en la mayoría pero no todas las páginas. Específicamente, las vistas se encuentran disponibles en todas las páginas de pantalla completa excepto los paneles de información y espacios de trabajo. Las páginas que no son a pantalla completa, que incluyen los cuadros de diálogo, los diálogos desplegables, las búsquedas, las vistas previas mejoradas, actualmente no admiten las vistas. El soporte para vistas de los tipos adicionales de la página, como espacios de trabajo y cuadros de diálogo, se puede considerar para una actualización futura.   
+Las vistas están disponibles en la mayoría pero no todas las páginas. Específicamente, las vistas se encuentran disponibles en todas las páginas de pantalla completa excepto los paneles de información y espacios de trabajo. Las páginas que no son a pantalla completa, que incluyen los cuadros de diálogo, los diálogos desplegables, las búsquedas, las vistas previas mejoradas, actualmente no admiten las vistas. El soporte para vistas de los tipos adicionales de la página, como espacios de trabajo y cuadros de diálogo, se puede considerar para una actualización futura.   
 
 ### <a name="who-is-allowed-to-publish-views"></a>¿Quién tiene permiso para publicar vistas?
 Sólo las administraciones y los usuarios del sistema a los que se ha asignado al rol **Administrador de las vistas guardadas** tienen derechos para publicar las vistas. 

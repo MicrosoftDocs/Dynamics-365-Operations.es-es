@@ -3,7 +3,7 @@ title: Página principal de Implementación local
 description: Este tema proporciona información y vínculos al contenido acerca de implementaciones locales.
 author: sericks007
 manager: AnnBe
-ms.date: 02/27/2020
+ms.date: 03/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 50fb53902e9f9796cac958f7cea2605ba00ba1bd
-ms.sourcegitcommit: ae8625f44453a71a94df6fb98d054c1c56b76700
+ms.openlocfilehash: b251125323bb74eb8be4172cb1b143c4866a8eac
+ms.sourcegitcommit: ec4df51e17be0b2df393635605ea17250c991ee9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "3090598"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3099739"
 ---
 # <a name="on-premises-deployment-home-page"></a>Página principal de Implementación local
 
@@ -55,8 +55,9 @@ Puede implementar Dynamics 365 Finance and Operations (on-premises). Cuando sele
 - [Conectividad a Internet de los clientes](../user-interface/client-disconnected.md)
 - [Aplicar actualizaciones a implementaciones locales](apply-updates-on-premises.md)
 - [Volver a implementar entornos locales](redeploy-on-prem.md)
+- [Reutilizar la misma instancia de AD FS para múltiples entornos](onprem-reuseadfs.md)
 
-## <a name="commerce"></a>Commerce
+## <a name="commerce"></a>Comercio
 - [Capacidades de Commerce que están disponibles en implementaciones locales](../../../retail/retail-onprem.md)
 - [Pasos de instalación para los componentes del canal minorista en un entorno local](deploy-retail-onprem.md)
 - [Configurar, instalar y activar Modern POS (MPOS)](../../../retail/retail-modern-pos-device-activation.md)

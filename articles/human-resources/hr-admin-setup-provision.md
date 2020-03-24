@@ -1,6 +1,6 @@
 ---
 title: Aprovisionar Human Resources
-description: ''
+description: Este artículo recorre con usted el proceso de aprovisionar un nuevo entorno de producción para Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/18/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f105144047c64fc8e9d42da8d7525a8cc3912c33
-ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
+ms.openlocfilehash: f982f3c3b2703a71e6c8a1a0d1be15fb260a6ef1
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "3071623"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092255"
 ---
 # <a name="provision-human-resources"></a>Aprovisionar Human Resources
 

@@ -1,9 +1,9 @@
 ---
-title: Administrar resultados de recomendaciones de producto basadas en AI-ML
+title: Ajustar resultados de recomendaciones de producto basadas en AI-ML
 description: Este tema explica cómo ajustar los resultados de recomendaciones de productos según la inteligencia artificial-aprendizaje automático (AI-ML) para tu negocio.
 author: bebeale
 manager: AnnBe
-ms.date: 10/1/2019
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,19 +19,19 @@ ms.search.industry: Retail
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5da77f71fb2569adc011bb9ee9c8c795d85545f8
-ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
+ms.openlocfilehash: 4631ef03e1d73b70d80e774d1efa4909e619bbc0
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3025011"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127937"
 ---
-# <a name="manage-ai-ml-based-product-recommendation-results"></a>Administrar resultados de recomendaciones de producto basadas en AI-ML
+# <a name="adjust-ai-ml-based-product-recommendation-results"></a>Ajustar resultados de recomendaciones de producto basadas en AI-ML
 
 
 [!include [banner](includes/banner.md)]
 
-Este tema explica cómo ajustar los resultados de recomendaciones de productos según la inteligencia artificial-aprendizaje automático (AI-ML) para tu negocio. 
+En este tema se explica cómo ajustar los resultados de recomendaciones de productos mediante técnicas de inteligencia artificial-aprendizaje automático (AI-ML) para su empresa. 
 
 Tras habilitar las recomendaciones de productos, entrarán en vigor las configuraciones predeterminadas; estos parámetros funcionarán ya que pueden funcionar para muchas necesidades. Es mejor planificar pasar algún tiempo evaluando si los resultados se ajustan al movimiento de venta de los productos. Sugerimos evaluar los resultados durante varios días antes de cambiar los parámetros según sea necesario antes de probar de nuevo. 
 
@@ -102,10 +102,22 @@ Siga estos pasos para agregar o eliminar manualmente los resultados para un prod
 
 [Visión general de recomendaciones de producto](product-recommendations.md)
 
+[Habilitar ADLS en un entorno de Dynamics 365 Commerce](enable-adls-environment.md)
+
 [Habilitar recomendaciones de producto](enable-product-recommendations.md)
 
 [Habilitar recomendaciones personalizadas](personalized-recommendations.md)
 
-[Agregar listas de recomendaciones a páginas](add-reco-list-to-page.md)
+[Cancelar recomendaciones personalizadas](personalization-gdpr.md)
 
-[Visión general del módulo de colección de productos](product-collection-module-overview.md)
+[Agregar listas de recomendaciones de producto a un sitio de comercio electrónico](add-reco-list-to-page.md)
+
+[Agregar recomendaciones de producto en PDV](product.md)
+
+[Agregar recomendaciones a la pantalla de transacción](add-recommendations-control-pos-screen.md)
+
+[Crear manualmente recomendaciones curadas](create-editorial-recommendation-lists.md)
+
+[Crear recomendaciones con datos de demostración](product-recommendations-demo-data.md)
+
+[Preguntas más frecuentes de recomendaciones de producto](faq-recommendations.md)

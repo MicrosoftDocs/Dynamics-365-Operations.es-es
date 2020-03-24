@@ -1,6 +1,6 @@
 ---
-title: Visión general
-description: ''
+title: Información general
+description: Esta Guía de desarrolladores proporciona una API y una referencia de campos personalizados. También proporciona información sobre la integración con otras aplicaciones.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 995de90aa7c83b5aad35d935fe021706cf48ec4c
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: e67882c47ad37805c6f6ce8051fb58363c4bcdcf
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010462"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092000"
 ---
-# <a name="overview"></a>Visión general
+# <a name="overview"></a>Información general
 
 Esta Guía de desarrolladores proporciona una API y una referencia de campos personalizados. También proporciona información sobre la integración con otras aplicaciones.
 
@@ -43,7 +43,7 @@ Esta Guía de desarrolladores proporciona una API y una referencia de campos per
   - [Configurar la integración con Finance](hr-admin-integration-finance.md)
   - [Configurar la integración con Dayforce](hr-admin-integration-dayforce.md)
   - [Crear una aplicación de exportación de datos recurrente](hr-admin-integration-recurring-data-export.md)
-  - Integración con Microsoft Office
+  - Integrar con Office
     - [Tutorial de integración con Office](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
     - [Actualizar los datos de la entidad en Excel](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
     - [Crear experiencias de tipo Abrir en Excel](../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)

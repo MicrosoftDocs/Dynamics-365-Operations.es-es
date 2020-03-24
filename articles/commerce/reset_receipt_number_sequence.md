@@ -3,7 +3,7 @@ title: Restablecer números de recibos
 description: Este tema describe cómo restablecer los números de recibos que se utilizan para diversas acciones en una fecha deseada (por ejemplo, el ejercicio o el año natural).
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-Commerce
@@ -19,17 +19,17 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: e81ff86a8b8a4dca6b14a21d6e982b03a928d29e
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: fc719348f94ff4a1fb7b4ac96f6f617872c9af92
+ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3020087"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "3123955"
 ---
 # <a name="reset-receipt-numbers"></a>Restablecer números de recibos 
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+
 
 Los minoristas generan números de recibos para diversas acciones en la tienda, como transacciones de pago al contado sin entrega a domicilio, transacciones de devolución, pedidos de clientes, presupuestos y pagos. Aunque los minoristas definen sus propios formatos de recibos, algunos países o regiones tienen normativas que imponen restricciones a estos formatos de recibos. Por ejemplo, estas normativas podrían limitar el número de caracteres en el recibo, requerir números de recibos consecutivos, restringir algunos caracteres especiales o requerir un restablecimiento de los números de recibos al comienzo del año. Microsoft Dynamics 365 Commerce hace que el proceso de administración de números de recibos sea muy flexible, para ayudar a los minoristas a cumplir con los requisitos reglamentarios. Este tema explica cómo usar la funcionalidad para restablecer los números de recibos.
 

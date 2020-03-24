@@ -1,6 +1,6 @@
 ---
 title: Utilizar una ruta relativa en vínculos de datos de modelos y formatos de ER
-description: .
+description: La herramienta Informes electrónicos (ER) permite a los usuarios definir estructuras en formato electrónico y, a continuación, describir cómo deben rellenarse esas estructuras con los datos y algoritmos que existen en la aplicación.
 author: NickSelin
 manager: AnnBe
 ms.date: 07/03/2019
@@ -16,18 +16,18 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a026eec379f98fd32080df50b5e114b423db34ad
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2940d99243ac52ee0d56a1c4423c4f0250f42f57
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182816"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3091781"
 ---
 # <a name="use-a-relative-path-in-data-bindings-of-er-models-and-formats"></a>Utilizar una ruta relativa en vínculos de datos de modelos y formatos de ER
 
 [!include[banner](../includes/banner.md)]
 
-La herramienta Informes electrónicos (ER) permite a los usuarios definir estructuras en formato electrónico y, a continuación, describir cómo deben rellenarse esas estructuras con los datos y algoritmos que existen en la aplicación. Para obtener más información, consulte [Crear configuraciones de informes electrónicos (ER)](electronic-reporting-configuration.md). Para especificar el flujo de datos para recuperar los datos de Finance and Operations y utilizarlos para generar un documento electrónico, debe hacer lo siguiente:
+La herramienta Informes electrónicos (ER) permite a los usuarios definir estructuras en formato electrónico y, a continuación, describir cómo deben rellenarse esas estructuras con los datos y algoritmos que existen en la aplicación. Para obtener más información, consulte [Crear configuraciones de informes electrónicos (ER)](electronic-reporting-configuration.md). Para especificar el flujo de datos con el fin de recuperar los datos de Finance and Operations y utilizarlos para generar un documento electrónico, debe hacer lo siguiente:
 
 - Enlace los orígenes de datos configurados con los elementos del modelo de datos específico del dominio diseñado. La estructura del modelo y los orígenes de datos seleccionados podrían formar parte de una estructura jerárquica compleja. Debido a esto, los enlaces finales pueden ser bastante grandes y contener muchos elementos de diferentes tipos (por ejemplo, relaciones, tablas y métodos,). Los enlaces pueden ser menos legibles y bastante complejos de revisar y entender, especialmente para los que no son propietarios. 
 - Enlace elementos del modelo de datos con componentes del formato para definir qué datos se rellenarán del modelo de datos a la salida del formato generado.

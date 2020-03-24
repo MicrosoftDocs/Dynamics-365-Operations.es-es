@@ -1,6 +1,6 @@
 ---
-title: Configurar códigos de niveles
-description: ''
+title: Configurar códigos de nivel
+description: Dynamics 365 Human Resources usa códigos de niveles con tasas de prestaciones que se pagan por los empleados y el empleador.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f9c020d5825150feea90d4029d862cae80465e09
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 15b6d84876b6f3907b052f6b297ab52bbd182a0f
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010472"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092474"
 ---
-# <a name="set-up-tier-codes"></a>Configurar códigos de niveles
+# <a name="set-up-tier-codes"></a>Configurar códigos de nivel
 
 [!include [banner](includes/preview-feature.md)]
 

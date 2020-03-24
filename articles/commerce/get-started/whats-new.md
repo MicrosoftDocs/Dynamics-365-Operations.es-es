@@ -16,12 +16,12 @@ ms.search.industry: retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-07-31
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 3190a8978932ad8f8b22c9038625fe2dcdb43fce
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: ec4750d712c82ae909b0d4d7f52cc9f7f44d0875
+ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024510"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "3117299"
 ---
 # <a name="whats-new-and-changed-in-dynamics-365-retail"></a>Novedades y cambios en Dynamics 365 Retail
 
@@ -29,7 +29,6 @@ ms.locfileid: "3024510"
 
 Esta página le señala a recursos que pueden ayudarle a obtener información acerca de las nuevas características y cambios de las versiones más recientes de Microsoft Dynamics 365 Retail.
 
-[!include [release notes](../includes/release-notes.md)]
 
 ## <a name="releases-of-dynamics-365-retail"></a>Versiones de Dynamics 365 Retail
 

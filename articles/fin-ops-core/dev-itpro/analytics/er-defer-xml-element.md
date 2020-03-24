@@ -19,11 +19,11 @@ ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
 ms.openlocfilehash: e9f6161186d04b690ee560dac7ee12974d070506
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.sourcegitcommit: 9c401a4adba260704b0b1cb9fe8e148bbb5afeed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015380"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "3120887"
 ---
 # <a name="defer-the-execution-of-xml-elements-in-er-formats"></a>Aplazar la ejecución de elementos XML en formatos ER
 
@@ -47,7 +47,7 @@ La opción **Ejecución diferida** solo se admite para elementos XML que residen
 
 La opción **Ejecución aplazada** no es compatible con elementos XML que residen en el elemento de formato **Common\\File** cuando el la opción **Archivo dividido** está establecida en **Sí**. Para más información acerca de cómo dividir archivos XML, consulte [Dividir los archivos XML generados según su tamaño y la cantidad de contenido](er-split-files.md).
 
-## <a name="Example"></a>Ejemplo: aplazar la ejecución de un elemento XML en formato ER
+## <a name="example-defer-the-execution-of-an-xml-element-in-an-er-format"></a><a name="Example"></a>Ejemplo: aplazar la ejecución de un elemento XML en formato ER
 
 Los siguientes pasos explican cómo un usuario con el [rol](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/tasks/assign-users-security-roles) de administrador del sistema o consultor funcional de informes electrónicos puede configurar un formato ER que contiene un elemento XML donde el orden de ejecución difiere del orden de la jerarquía de formatos.
 

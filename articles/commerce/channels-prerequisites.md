@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 8a0927f6ee9b2d5bed1327bb223ceca85ecc16a0
-ms.sourcegitcommit: 161e85eb0a6b772b60ba8b2578a3de149ce5bfd7
+ms.openlocfilehash: 0da0457240cf12686fff2fa929c7fb510c11f242
+ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "3081324"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3113791"
 ---
 # <a name="channel-setup-prerequisites"></a>Requisitos previos de configuración de canales
 
@@ -47,9 +47,9 @@ Para poder crear un canal de Dynamics 365 Commerce es necesario completar antes 
 - [Definir y configurar su estructura de entidad jurídica](channels-legal-entities.md) 
 - [Configurar su jerarquía organizativa](channels-org-hierarchies.md)
 - [Configurar un almacén](channels-setup-warehouse.md)
-- [Configurar impuestos](https://docs.microsoft.com/dynamics365/finance/general-ledger/indirect-taxes-overview?toc=/dynamics365/commerce/toc.json)
+- [Configurar impuestos](../finance/general-ledger/indirect-taxes-overview.md?toc=/dynamics365/commerce/toc.json)
 - [Configurar un perfil de notificación por correo electrónico](email-notification-profiles.md)
-- [Configurar secuencias numéricas](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview?toc=/dynamics365/commerce/toc.json)
+- [Configurar secuencias numéricas](../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/commerce/toc.json)
 - [Configurar un cliente y una libreta de direcciones predeterminados](default-customer.md)
 <!--
 - [Configure commerce parameters](commerce-parameters.md)

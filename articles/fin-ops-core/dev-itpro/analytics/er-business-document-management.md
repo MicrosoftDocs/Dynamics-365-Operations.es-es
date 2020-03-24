@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0deb51bb23851b179e2c4166b6444af654a64e1d
-ms.sourcegitcommit: 380664bf10bb25449e3af3d62e235b76d46c0c89
+ms.openlocfilehash: 11db3ee1e9407febce7731d0888e7a10375a90da
+ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "2957376"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "3117346"
 ---
 # <a name="business-document-management-overview"></a>Visión general de la gestión de documentos empresariales
+
+[!include [banner](../includes/banner.md)]
 
 Los usuarios empresariales usan el marco [Informes electrónicos (ER)](general-electronic-reporting.md) para configurar formatos para documentos de salida en función de los requisitos legales de diversos países o regiones. Los usuarios también pueden definir el flujo de datos para especificar qué datos de la aplicación se colocan en los documentos generados. El marco de ER genera documentos de salida en los formatos de Microsoft Office (libros de Excel o documentos de Word) a través de plantillas predefinidas. Las plantillas se rellenan con los datos requeridos según el flujo de datos configurado mientras se generan los documentos necesarios. Cada formato configurado se puede publicar como parte de una solución de ER para generar documentos de salida específicos. Esto se representa mediante una configuración de formato de ER que pueda contener plantillas que puede usar para generar distintos documentos de salida. Los usuarios empresariales pueden usar este marco para gestionar los documentos empresariales necesarios.
 
@@ -147,7 +149,7 @@ Para obtener información sobre cómo configurar los parámetros de gestión de 
 
 ![Configurar el tipo de documento para la gestión de documentos](./media/BDM-Overview-DMSetting.png)
 
-### <a name="SetupBdmParameters">Configurar parámetros</a>
+### <a name=""></a><a name="SetupBdmParameters">Configurar parámetros</a>
 
 Los parámetros básicos para la gestión de documentos empresariales se pueden configurar en la página **Parámetros de documentos empresariales**. Solo usuarios específicos pueden tener acceso a la página. Esto incluye:
 
@@ -158,7 +160,7 @@ Use el procedimiento siguiente para configurar parámetros básicos para todas l
 
 1. Inicie sesión como usuario con acceso a la página **Parámetros de documentos empresariales**.
 2. Vaya a **Administración de la organización** \> **Informes electrónicos** \> **Gestión de documentos empresariales** \> **Parámetros de los documentos empresariales**.
-3.  En la página **Parámetros de los documentos empresariales**, en la pestaña **Datos adjuntos**, en el campo **Tipo de documento de SharePoint**, defina el tipo de documento que se debe utilizar para almacenar temporalmente plantillas en formatos de Office mientras se están editando con aplicaciones de escritorio de la Office. 
+3.    En la página **Parámetros de los documentos empresariales**, en la pestaña **Datos adjuntos**, en el campo **Tipo de documento de SharePoint**, defina el tipo de documento que se debe utilizar para almacenar temporalmente plantillas en formatos de Office mientras se están editando con aplicaciones de escritorio de la Office. 
 
 > [!NOTE]
 > Solo los tipos de documento que se configuran con una ubicación de SharePoint están disponibles para este parámetro.
@@ -288,13 +290,13 @@ La página **Editor de plantillas de BDM** se abrirá. La plantilla seleccionada
 
 ![Página del espacio de trabajo de la gestión de documentos empresariales](./media/BDM-Overview-EditingLayout1.png)
 
-### <a name="EditInOffice365">Editar una plantilla en Office 365</a>
+### <a name=""></a><a name="EditInOffice365">Editar una plantilla en Office 365</a>
 
 Puede modificar la plantilla mediante Office 365. Por ejemplo, en Office Online, cambie la fuente de los mensajes de campo en el encabezado de **Normal** a **Negrita**. Estos cambios se almacenan automáticamente en la plantilla editable almacenada en el almacenamiento principal de la plantilla (de forma predeterminada, el almacenamiento blob de Azure). Se configura para el marco ER.
 
 ![Página del editor de plantillas de la gestión de documentos empresariales](./media/BDM-Overview-EditingLayout2.png)
 
-### <a name="EditInOfficeDesktopApp">Editar una plantilla en la aplicación de escritorio de Office</a>
+### <a name=""></a><a name="EditInOfficeDesktopApp">Editar una plantilla en la aplicación de escritorio de Office</a>
 
 > [!NOTE]
 > Esta función solo está disponible cuando el parámetro **Tipo de documento de SharePoint** está configurado correctamente. Para obtener más información consulte [Configurar parámetros](#SetupBdmParameters).

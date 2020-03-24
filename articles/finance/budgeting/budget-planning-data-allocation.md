@@ -3,7 +3,7 @@ title: Asignación de datos de la planificación presupuestaria
 description: Este tema describe los métodos de asignación que están disponibles en Microsoft Dynamics 365 Finance y cómo se pueden usar.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 03/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,23 +18,26 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8bcfb4d3720d03ce84024766a66ccfc546767ab
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: ceddeda5760d961568d58e7e4805955ea972c586
+ms.sourcegitcommit: 8fad5a8c7ea5d0d0037669e61e2313f684bcae23
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772085"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "3106891"
 ---
 # <a name="budget-planning-data-allocation"></a>Asignación de datos de la planificación presupuestaria
 
 [!include [banner](../includes/banner.md)]
 
-Este artículo describe los métodos de asignación que están disponibles en Microsoft Dynamics 365 Finance y cómo se pueden usar.  
+Este tema describe los métodos de asignación que están disponibles en Microsoft Dynamics 365 Finance y cómo se pueden usar.  
 
 Puede distribuir los datos en un plan de presupuesto de varias formas de retratar exactamente los importes proyectados.
 
 ## <a name="allocation-methods"></a>Métodos de asignación
 Tres métodos de asignación (Asignar en períodos, Asignar a dimensiones y Usar reglas de asignación contable) pueden crear las líneas del plan presupuestario que se basan en las líneas del mismo plan presupuestario. Otros tres métodos (Agregado, Distribuir y Copiar del plan presupuestario) pueden crear líneas de plan presupuestario en otros planes de presupuesto. Para los seis métodos de asignación, especifica la situación de destino. El escenario de destino puede ser el mismo que el escenario de origen o puede ser diferente. Además, puede especificar si las nuevas líneas se agregan al plan presupuestario o reemplazan las líneas actuales en el plan presupuestario.
+
+> [!NOTE] 
+> Se debe usar un escenario único para la agregación que sea diferente del escenario que se usó para la distribución u otras modificaciones que se realizaron previamente en el plan principal.  
 
 [![Método de asignación de asignar en períodos](./media/allocateacrossperiods-300x259.png)](./media/allocateacrossperiods.png)
 **Asignar en períodos**: use una clave de asignación de período para asignar las líneas del plan presupuestario desde el escenario del plan presupuestario de origen en los períodos del escenario de destino. El importe de origen se asigna a varias líneas en la situación de destino, en función del porcentaje y la fecha que se definen en la categoría de asignación de períodos.         

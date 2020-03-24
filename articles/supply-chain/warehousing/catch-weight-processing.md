@@ -3,7 +3,7 @@ title: Procesamiento de producto con peso capturado con la gestión de almacenes
 description: Este tema describe cómo usar plantillas de trabajo y directivas de ubicación para determinar cómo y dónde se realiza el trabajo en el almacén.
 author: perlynne
 manager: AnnBe
-ms.date: 01/10/2020
+ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 8bc3e3e7bea15127062edfcd362476de97bff07d
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 3014a7b22c47f99b5c57fd6acd9be8d89c6fb8ab
+ms.sourcegitcommit: 75974ae567bb0eacf0f65cac992b34ce5c680b93
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004120"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3095806"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Procesamiento de producto con peso capturado con la gestión de almacenes
 
@@ -30,10 +30,10 @@ ms.locfileid: "3004120"
 
 ## <a name="feature-exposure"></a>Exposición de la función
 
-Para usar la gestión de almacén para procesar los productos con peso capturado, debe usar una clave de configuración de la licencia para activar la funcionalidad. (Vaya a **Administración del sistema \> Configuración \> Configuración de licencias**. A continuación, en la pestaña **Claves de configuración** , expanda **Comercio \> Administración del almacén y el transporte**, y seleccione la casilla para **Peso capturado para el almacén**).
+Para usar la gestión de almacén para procesar los productos con peso capturado, debe usar una clave de configuración de la licencia para activar la funcionalidad. Vaya a **Administración del sistema \> Configuración \> Configuración de licencias**. A continuación, en la pestaña **Claves de configuración** , expanda **Comercio \> Administración del almacén y el transporte**, y seleccione la casilla para **Peso capturado para el almacén**.
 
 > [!NOTE]
-> Tanto la clave de configuración de la licencia **Administración del almacén y el transporte** y las claves de configuración de la licencia **Procesar distribución \> Peso capturado** también se deben activar. Para establecer las claves de configuración para el peso capturado, también debe activar la característica a través del espacio de trabajo **Administración de características**. La característica principal que hay que activarse es **Procesamiento de producto con peso capturado con la gestión de almacenes**. Otra característica relacionada pero opcional que puede que desee activar es **Cambios de estado del inventario para productos de peso capturado**. Esta característica agrega compatibilidad con los cambios de estado del inventario para productos habilitados para peso capturado.
+> Tanto la clave de configuración de la licencia **Administración del almacén y el transporte** y las claves de configuración de la licencia **Procesar distribución \> Peso capturado** también se deben activar. Para establecer las claves de configuración para el peso capturado, también debe activar la característica a través del espacio de trabajo **Administración de características**. La característica principal que hay que activarse es **Procesamiento de producto con peso capturado con la gestión de almacenes**. Dos características relacionadas pero opcionales que es posible que desee activar son **Cambios en el estado del inventario para productos de peso de captura** y **Use las etiquetas de peso de captura existentes al informar las órdenes de producción como terminadas**.
 
 Después de que se vuelva a activar la clave de configuración de la licencia, al crear un producto liberado, puede seleccionar **Peso capturado**. También puede asociar el producto lanzado a un grupo de dimensiones de almacenamiento que el parámetro **Procesos de gestión de almacenes de uso** se ha seleccionado.
 
@@ -107,10 +107,11 @@ Además, cuando se realiza un seguimiento de etiqueta de un artículo, hay un pa
 **Cuando se usa el seguimiento de la etiqueta de peso capturado**, siempre se debe crear una etiqueta para cada unidad de peso capturado recibida, y cada etiqueta debe asociarse siempre a un peso.
 
 Por ejemplo, **Caja** es la unidad de peso capturado, y usted recibe un pallet de ocho cajas. En este caso, deberán crearse ocho etiquetas únicas de peso capturado, y un peso se debe asociar a cada etiqueta. En función de la etiqueta de entrada con peso capturado, el peso de las ocho cajas puede capturarse, y el peso medio se puede distribuir a cada caja, o se puede capturar un peso único para cada caja.
+Cuando use la característica **Use las etiquetas de peso de captura existentes al informar las órdenes de producción como terminadas** con el proceso habilitado a través de un elemento de menú del dispositivo móvil, el inventario se actualiza en función de la información de la etiqueta de peso de captura existente. Como resultado, la aplicación Warehousing no solicita capturar los datos de la etiqueta de peso de captura como parte de un informe de producción como una operación finalizada.
 
 **Cuando el seguimiento de etiquetas de peso capturado no se usa**, el peso se puede capturar para cada conjunto de dimensiones (por ejemplo, para cada matrícula de entidad y cada dimensión de seguimiento). Como alternativa, el peso se puede capturar en función de un nivel agregado, como cinco matrículas de entidad (pallets).
 
-Para los métodos de captura de peso saliente, la opción **Por unidad de peso capturado** le permite especificar que la medición de peso debe realizarse para cada unidad de peso capturado (por ejemplo, por caja). La opción **Por unidad de selección** le permite especificar que el peso debe capturarse en función de la cantidad que se va a seleccionar (por ejemplo, tres cajas). Tenga en cuenta que para los procesos de selección de línea y de movimiento interno se usará el peso medio si se usa la opción **No capturado**.
+Para los métodos de captura de peso saliente, la opción **Por unidad de peso capturado** le permite especificar que la medición de peso debe realizarse para cada unidad de peso capturado (por ejemplo, por caja). La opción **Por unidad de selección** le permite especificar que el peso debe capturarse en función de la cantidad que se va a seleccionar (por ejemplo, tres cajas). Tenga en cuenta que para el proceso de selección de la línea y el de movimiento interno, el peso medio se usará si se usa la opción **No capturado**.
 
 Se definen varios métodos de captura de peso en la directiva de manipulación de artículos de peso capturado. Cada parámetro de método de captura de peso es utilizado por varias transacciones. En la tabla siguiente se resume qué parámetros son utilizados por qué transacciones.
 
