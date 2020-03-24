@@ -1,9 +1,9 @@
 ---
 title: Campos personalizados
-description: ''
+description: Puede agregar campos personalizados a páginas en Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 03/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,27 +18,23 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6de1bcc6df5f8e4ab1ebbccb4b9a56f6f019c37f
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 7348fb9d3457da23fc4e250a1fd3f6cac82bdb5e
+ms.sourcegitcommit: 8493593e1405cde8cde23a3d9eb90385136088e1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010461"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3116008"
 ---
-# <a name="custom-fields"></a><span data-ttu-id="678fe-102">Campos personalizados</span><span class="sxs-lookup"><span data-stu-id="678fe-102">Custom fields</span></span>
+# <a name="custom-fields"></a><span data-ttu-id="2c911-103">Campos personalizados</span><span class="sxs-lookup"><span data-stu-id="2c911-103">Custom fields</span></span>
 
-<span data-ttu-id="678fe-103">Puede agregar campos personalizados a páginas en Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="678fe-103">You can add custom fields to pages in Dynamics 365 Human Resources.</span></span> <span data-ttu-id="678fe-104">Para obtener más información sobre cómo crear campos personalizados en una página, consulte [Crear y trabajar con campos personalizados](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields).</span><span class="sxs-lookup"><span data-stu-id="678fe-104">For more information about how to create custom fields on a page, see [Create and work with custom fields](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields).</span></span>
+<span data-ttu-id="2c911-104">Puede agregar campos personalizados a páginas en Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="2c911-104">You can add custom fields to pages in Dynamics 365 Human Resources.</span></span> <span data-ttu-id="2c911-105">Para obtener más información sobre cómo crear campos personalizados, consulte [Crear y trabajar con campos personalizados](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields).</span><span class="sxs-lookup"><span data-stu-id="2c911-105">For more information about creating custom fields, see [Create and work with custom fields](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields).</span></span>
 
-<span data-ttu-id="678fe-105">Las siguientes entidades de Common Data Service admiten campos personalizados creados en Human Resources:</span><span class="sxs-lookup"><span data-stu-id="678fe-105">The following entities in Common Data Service support custom fields created in Human Resources:</span></span>
+<span data-ttu-id="2c911-106">La mayoría de entidades de Common Data Service admiten campos personalizados.</span><span class="sxs-lookup"><span data-stu-id="2c911-106">Most Common Data Service entities support custom fields.</span></span> <span data-ttu-id="2c911-107">Para una lista completa de entidades Common Data Service, consulte [Entidades Common Data Service](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities).</span><span class="sxs-lookup"><span data-stu-id="2c911-107">For a full list of Common Data Service entities, see [Common Data Service entities](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities).</span></span> 
 
-- <span data-ttu-id="678fe-106">Trabajador</span><span class="sxs-lookup"><span data-stu-id="678fe-106">Worker</span></span>
-- <span data-ttu-id="678fe-107">Origen étnico</span><span class="sxs-lookup"><span data-stu-id="678fe-107">Ethnic origin</span></span>
-- <span data-ttu-id="678fe-108">Estado de excombatiente</span><span class="sxs-lookup"><span data-stu-id="678fe-108">Veteran status</span></span>
-- <span data-ttu-id="678fe-109">Código de idioma</span><span class="sxs-lookup"><span data-stu-id="678fe-109">Language code</span></span>
-- <span data-ttu-id="678fe-110">Puesto</span><span class="sxs-lookup"><span data-stu-id="678fe-110">Job</span></span>
-- <span data-ttu-id="678fe-111">Tipo de trabajo</span><span class="sxs-lookup"><span data-stu-id="678fe-111">Job type</span></span>
-- <span data-ttu-id="678fe-112">Función de trabajo</span><span class="sxs-lookup"><span data-stu-id="678fe-112">Job function</span></span>
-- <span data-ttu-id="678fe-113">Posición</span><span class="sxs-lookup"><span data-stu-id="678fe-113">Position</span></span>
-- <span data-ttu-id="678fe-114">Tipo de puesto</span><span class="sxs-lookup"><span data-stu-id="678fe-114">Position type</span></span>
+<span data-ttu-id="2c911-108">Asegúrese de habilitar los campos personalizados que cree para poder usarlos en Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="2c911-108">Be sure to enable any custom fields that you create so you can use them in Common Data Service.</span></span> <span data-ttu-id="2c911-109">Para obtener más información, consulte [Exponer campos personalizados en entidades de datos](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities).</span><span class="sxs-lookup"><span data-stu-id="2c911-109">For more information, see [Exposing custom fields on data entities](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities).</span></span>
 
-<span data-ttu-id="678fe-115">Asegúrese de habilitar los campos personalizados que cree para poder usarlos en Common Data Service.</span><span class="sxs-lookup"><span data-stu-id="678fe-115">Be sure to enable any custom fields that you create so you can use them in Common Data Service.</span></span> <span data-ttu-id="678fe-116">Para obtener más información, consulte [Exponer campos personalizados en entidades de datos](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities).</span><span class="sxs-lookup"><span data-stu-id="678fe-116">For more information, see [Exposing custom fields on data entities](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities).</span></span>
+## <a name="see-also"></a><span data-ttu-id="2c911-110">Consulte también</span><span class="sxs-lookup"><span data-stu-id="2c911-110">See also</span></span>
+
+[<span data-ttu-id="2c911-111">Entidades de Common Data Service</span><span class="sxs-lookup"><span data-stu-id="2c911-111">Common Data Service entities</span></span>](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities)</br>
+[<span data-ttu-id="2c911-112">Crear y trabajar con campos personalizados</span><span class="sxs-lookup"><span data-stu-id="2c911-112">Create and work with custom fields</span></span>](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields)</br>
+[<span data-ttu-id="2c911-113">Exponer campos personalizados en entidades de datos</span><span class="sxs-lookup"><span data-stu-id="2c911-113">Exposing custom fields on data entities</span></span>](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities)
