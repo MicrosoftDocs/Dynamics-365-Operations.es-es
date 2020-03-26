@@ -1,9 +1,9 @@
 ---
 title: Sintaxis de consulta y filtro avanzados
-description: Este artículo describe el filtrado y las opciones de consulta que están disponibles cuando usa el diálogo Ordenación o filtro avanzados o el operador coincide en el panel de filtro o los filtros de los encabezados de las columnas de la cuadrícula.
+description: Este tema describe el filtrado y las opciones de consulta que están disponibles cuando usa el diálogo Ordenación o filtro avanzados o el operador coincide en el panel de filtro o los filtros de los encabezados de las columnas de la cuadrícula.
 author: jasongre
 manager: AnnBe
-ms.date: 01/02/2020
+ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5a96921436311440ba60c3fa31135457cf9f291
-ms.sourcegitcommit: 8585de8acf579bcc033671ef270fa9d92230121b
+ms.openlocfilehash: 7a525422a091efe8ea88f42e91dc52488430cfe5
+ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/02/2020
-ms.locfileid: "2931297"
+ms.lasthandoff: 03/09/2020
+ms.locfileid: "3112200"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Sintaxis de consulta y filtro avanzados
 
 [!include [banner](../includes/banner.md)]
 
-Este artículo describe el filtrado y las opciones de consulta que están disponibles cuando usa el diálogo Ordenación o filtro avanzados o el operador **coincide** en el panel de filtro o los filtros de los encabezados de las columnas de la cuadrícula.
+Este tema describe el filtrado y las opciones de consulta que están disponibles cuando usa el diálogo Ordenación o filtro avanzados o el operador **coincide** en el panel de filtro o los filtros de los encabezados de las columnas de la cuadrícula.
 
 ## <a name="advanced-query-syntax"></a>Sintaxis de consulta avanzada
 
@@ -122,13 +122,14 @@ Este artículo describe el filtrado y las opciones de consulta que están dispon
 <td>Dos comillas dobles consecutivas (<strong>""</strong>) busca filas sin valor para la columna actual.</td>
 </tr>
 <tr>
-<td>(<span class="code">Instrucción SQL</span>) (instrucción SQL entre paréntesis)</td>
+<td>(<span class="code">Finance and Operations consulta</span>) (Finance and Operations consulta entre paréntesis)</td>
 <td>Que coincide con una consulta definida</td>
-<td>Escriba una consulta como una instrucción SQL entre paréntesis.</td>
-<td><strong><span class="code">(origen_de_datos.Nombre_de_campo != &quot;A&quot;)</span></strong></td>
+<td>Escriba una consulta como una declaración SQL entre paréntesis utilizando el lenguaje de consulta de Finance and Operations.</td>
+  <td><strong><span class="code">((AccountNum LIKE "US *") && (DirPartyTable.Name LIKE "Cont*"))</span></strong><br><br> 
+       Como ejemplo de sintaxis para una condición de filtro en un campo del origen de datos raíz, así como un campo de un origen de datos diferente (para la página Todos los clientes)</td>
 </tr>
 <tr>
-<td>N</td>
+<td>M</td>
 <td>Fecha de hoy</td>
 <td>Escriba <strong>B</strong>.</td>
 <td><strong>B</strong> coincide con la fecha de hoy.</td>

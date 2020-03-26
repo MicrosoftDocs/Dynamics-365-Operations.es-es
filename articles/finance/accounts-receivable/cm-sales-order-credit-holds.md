@@ -1,6 +1,6 @@
 ---
 title: Retenciones de crédito para pedidos de ventas
-description: ''
+description: En este tema se describe la configuración de las reglas utilizadas para colocar un pedido de ventas en retención de crédito.
 author: mikefalkner
 manager: AnnBe
 ms.date: 01/25/2019
@@ -9,25 +9,23 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschloma
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 316a626e6a18f0afda632111138482f62f6809db
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 8a0e006be8a72f35d6c6009ca9d67d083b8fac89
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057679"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124263"
 ---
 # <a name="credit-holds-for-sales-orders"></a>Retenciones de crédito para pedidos de ventas
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-
-En este tema se describe la configuración de las reglas utilizadas para colocar un pedido de ventas en retención de crédito. Las reglas de bloqueo de la administración de crédito pueden aplicarse a un cliente individual o a un grupo de clientes.  Las reglas de bloqueo definen respuestas a las siguientes circunstancias:
+En este tema se describe la configuración de las reglas utilizadas para colocar un pedido de ventas en retención de crédito. Las reglas de bloqueo de la administración de crédito pueden aplicarse a un cliente individual o a un grupo de clientes. Las reglas de bloqueo definen respuestas a las siguientes circunstancias:
 
 1. Número de días vencido
 2. Estado de cuentas
@@ -87,9 +85,9 @@ Abre la pestaña **Límite de crédito vencido** si la regla de bloqueo se aplic
    - Seleccione **Todos** si la regla se aplica a todos los clientes. 
 3. Seleccione un **Grupo de riesgo** para limitar todavía más la lista de clientes que se pondrán en espera de administración de crédito. 
 4. Seleccione el tipo de proyecto que está configurando. 
-  - Seleccione **Bloqueo** para crear una regla que bloquea un pedido. 
-  - Seleccione **Exclusión** para crear una regla que excluirá a otra regla de bloquear un pedido. 
-6. Introduzca los **Días de límite de crédito vencido** para la regla de bloqueo seleccionada antes de que se coloque un pedido en espera de administración de crédito. El número de días vencidos representa días de gracia adicionales que se agregan al número de días de vencimiento del límite de crédito.
+   - Seleccione **Bloqueo** para crear una regla que bloquea un pedido. 
+   - Seleccione **Exclusión** para crear una regla que excluirá a otra regla de bloquear un pedido. 
+5. Introduzca los **Días de límite de crédito vencido** para la regla de bloqueo seleccionada antes de que se coloque un pedido en espera de administración de crédito. El número de días vencidos representa días de gracia adicionales que se agregan al número de días de vencimiento del límite de crédito.
 
 ### <a name="overdue-amount"></a>Importe vencido
 
@@ -104,11 +102,10 @@ Abra la pestaña **Importe vencida** si la regla de bloqueo se aplica a clientes
    - Seleccione **Todos** si la regla se aplica a todos los clientes. 
 3. Seleccione un **Grupo de riesgo** si desea limitar todavía más la lista de clientes que se pondrán en espera de administración de crédito. 
 4. Seleccione el tipo de proyecto que está configurando. 
-  - Seleccione **Bloqueo** para crear una regla que bloquea un pedido. 
-  - Seleccione **Exclusión** para crear una regla que excluirá a otra regla de bloquear un pedido. 
+   - Seleccione **Bloqueo** para crear una regla que bloquea un pedido. 
+   - Seleccione **Exclusión** para crear una regla que excluirá a otra regla de bloquear un pedido. 
 5. Introduzca el **Importe vencido** para la regla de bloqueo seleccionada antes de que se coloque un pedido en espera de administración de crédito. 
-6. Seleccione el **Tipo de valor** que define el tipo de valor que se usará para probar también cuánto del límite de crédito se ha usado. Las reglas de bloqueo requieren un porcentaje, pero una exclusión puede tener un importe fijo o un porcentaje.
-Umbral. El umbral se relaciona con el límite de crédito.
+6. Seleccione el **Tipo de valor** que define el tipo de valor que se usará para probar también cuánto del límite de crédito se ha usado. Las reglas de bloqueo requieren un porcentaje, pero una exclusión puede tener un importe fijo o un porcentaje. El umbral se relaciona con el límite de crédito.
 7. Introduzca el valor del **Umbral de límite de crédito** para la regla seleccionada antes de que un cliente quede en espera de administración de crédito. Puede ser un importe o un porcentaje según el tipo de valor seleccionado en el tipo de valor.
 8. La regla comprueba que se superan el **Importe vencido** y el **Umbral de límite de crédito**. 
 
@@ -125,9 +122,9 @@ Seleccione **Pedido de ventas** si la regla de bloqueo se aplica al valor del pe
    - Seleccione **Todos** si la regla se aplica a todos los clientes. 
 3. Seleccione un **Grupo de riesgo** si desea limitar todavía más la lista de clientes que se pondrán en espera de administración de crédito. 
 4. Seleccione el tipo de proyecto que está configurando.  
-  - Seleccione **Bloqueo** para crear una regla que bloquea un pedido. 
-  - Seleccione **Exclusión** para crear una regla que excluirá a otra regla de bloquear un pedido. 
-6. Introduzca el **Importe de pedido de ventas** para la regla de bloqueo seleccionada antes de que se coloque un pedido en espera de administración de crédito. 
+   - Seleccione **Bloqueo** para crear una regla que bloquea un pedido. 
+   - Seleccione **Exclusión** para crear una regla que excluirá a otra regla de bloquear un pedido. 
+5. Introduzca el **Importe de pedido de ventas** para la regla de bloqueo seleccionada antes de que se coloque un pedido en espera de administración de crédito. 
 
 La regla del pedido de ventas incluye una configuración adicional que anula todas las demás reglas. Para crear una exclusión que libere el pedido de ventas sin tener en cuenta ninguna otra regla, marque la casilla **Liberar pedido de ventas** en la línea de exclusión.
 
@@ -187,7 +184,7 @@ El comportamiento de la regla **Límite de crédito utilizado** cambiará en fun
 
 Los pedidos se pueden excluir de la administración de crédito aunque haya reglas vigentes. 
 
-- Si cambia la opción de configuración **Excluir cliente de la administración de crédito** en **Todos los clientes > Ficha desplegable Crédito y y cobros** a **Sí**, no se procesarán pedidos para ese cliente.
+- Si cambia la opción de configuración **Excluir cliente de la administración de crédito** en **Todos los clientes > Ficha desplegable Crédito y y cobros** a **Sí**, no se procesarán pedidos para ese cliente
 - Si cambia el valor **Excluir de la administración de crédito** en el **encabezado de pedidos de ventas** en la **Ficha desplegable Administración de crédito** a **Sí**, las reglas de administración de crédito no se procesarán. Esta opción de configuración solo la puede establecer el empleado de crédito o el administrador de crédito.
 
 ## <a name="processing-orders-on-hold-using-the-credit-management-hold-list"></a>Procesamiento de pedidos en espera mediante la lista de retención de la administración de crédito
@@ -216,8 +213,8 @@ Cuando haya investigado los motivos de la retención y los haya solucionado, pue
 2) Seleccione un **Motivo de liberación** para el pedido que se ha seleccionado para su liberación.  
 3) Introduzca la **Fecha de revisión** para cada pedido que se haya seleccionado para su liberación.  
 4) Selecciona el menú **Liberar** en el panel de acciones para liberar un pedido. Este menú solo estará disponible después de que se hayan seleccionado transacciones. Al usuario se le presentan dos opciones:
- - Seleccione **Con registro** para eliminar la retención y registrar el documento mediante el mismo proceso de registro que se utilizó cuando se puso en espera. Por ejemplo, si la confirmación del pedido de ventas se puso en espera, la confirmación del pedido de ventas se completará después de la liberación. Se mostrará el formulario de registro de pedidos de ventas que permite al usuario registrar la confirmación.
- - Seleccione **Sin registrar** para eliminar la retención sin realizar ningún procesamiento adicional. El pedido de ventas se puede registrar manualmente.
+   - Seleccione **Con registro** para eliminar la retención y registrar el documento mediante el mismo proceso de registro que se utilizó cuando se puso en espera. Por ejemplo, si la confirmación del pedido de ventas se puso en espera, la confirmación del pedido de ventas se completará después de la liberación. Se mostrará el formulario de registro de pedidos de ventas que permite al usuario registrar la confirmación.
+   - Seleccione **Sin registrar** para eliminar la retención sin realizar ningún procesamiento adicional. El pedido de ventas se puede registrar manualmente.
 
 ### <a name="rejecting-orders-in-the-hold-list"></a>Rechazar pedidos en la lista de retención
 Puede usar el menú **Rechazar** en el panel de acciones para rechazar un pedido de ventas

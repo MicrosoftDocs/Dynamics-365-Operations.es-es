@@ -3,7 +3,7 @@ title: Búsqueda de acción
 description: Este artículo describe la funcionalidad de búsqueda de la acción. La búsqueda de acción le ayudará a encontrar y ejecutar acciones en una página.
 author: jasongre
 manager: AnnBe
-ms.date: 09/20/2019
+ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d01247aa356625cb759306e5ead2afd3cdeb840f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: bd4d81f010149c762dac0f4e6fa912c2e2cef072
+ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2191325"
+ms.lasthandoff: 03/09/2020
+ms.locfileid: "3112177"
 ---
 # <a name="action-search"></a>Búsqueda de acción
 
@@ -69,6 +69,9 @@ Por ejemplo, si escribió **bebé** en el campo **búsqueda de acciones** y ahor
 En el ejemplo anterior, la búsqueda de acción muestra resultados del panel de acciones estándar en la parte superior de una página. Sin embargo, la búsqueda de acciones también muestra resultados de barra de herramientas visibles situadas en otros lugares en la página. Por ejemplo, si está buscando el botón de **Inventario disponible** ubicado en la pestaña desplegable **Líneas de pedidos de ventas**. En este caso, la ruta del botón en la lista de resultados (**Líneas de pedidos de ventas** &gt; **Inventario** &gt; **Visualización**) le informa de que este botón se encuentra debajo del encabezado de **Visualización** en el botón de menú **Inventario** en la pestaña desplegable **Líneas de pedidos de ventas**.
 
 [![on-hand-inventory](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
+
+> [!NOTE]
+> Hay algunos botones que no aparecen en la búsqueda de acciones. Estos incluyen botones de diálogo y botones de subformularios. 
 
 ## <a name="action-search-vs-navigation-search"></a>Búsqueda de acciones frente a búsqueda de navegación
 

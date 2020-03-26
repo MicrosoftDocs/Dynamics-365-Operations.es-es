@@ -19,11 +19,11 @@ ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
 ms.openlocfilehash: 6efa4466dbf7f5ca1d3945acf15fac65d628d691
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015379"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124552"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>Aplazar la ejecución de elementos de secuencia en formatos ER
 
@@ -45,7 +45,7 @@ La opción **Ejecución aplazada** solo se admite para elementos de secuencia co
 
 La opción **Ejecución aplazada** no es aplicable a las secuencias que se han configurado como secuencias recortadas donde la longitud máxima está limitada.
 
-## <a name="Example"></a>Ejemplo: aplazar la ejecución de un elemento de secuencia en formato ER
+## <a name="example-defer-the-execution-of-a-sequence-element-in-an-er-format"></a><a name="Example"></a>Ejemplo: aplazar la ejecución de un elemento de secuencia en formato ER
 
 Los siguientes pasos explican cómo un usuario con el [rol](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/tasks/assign-users-security-roles) de administrador del sistema o consultor funcional de informes electrónicos puede configurar un formato ER que contiene un elemento de secuencia donde el orden de ejecución difiere del orden de la jerarquía de formatos.
 

@@ -24,6 +24,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/public-preview-releases.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Aplicar actualizaciones a entornos de nube
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Aplicar actualizaciones a implementaciones locales
+                  href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Configurar actualizaciones de servicio
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Pausar actualizaciones de servicio
@@ -72,10 +74,12 @@
                       href: get-started/whats-new-scm-10-0-9.md
                     - name: Supply Chain Management versión 10.0.8 (febrero de 2020)
                       href: get-started/whats-new-scm-10-0-8.md
-                    - name: Supply Chain Management versión 10.0.7 (enero de 2020)
-                      href: get-started/whats-new-scm-10-0-7.md
                 - name: Características quitadas u obsoletas
-                  href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
+                  items:
+                    - name: Características quitadas u obsoletas de Dynamics 365 Supply Chain Management
+                      href: get-started/removed-deprecated-features-scm-updates.md
+                    - name: Funciones quitadas u obsoletas de versiones anteriores
+                      href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Características de AX 2012 pospuestas
                   href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Características no implementadas en implementaciones locales

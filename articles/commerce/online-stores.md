@@ -3,7 +3,7 @@ title: Configurar un canal de la tienda en línea
 description: Este artículo proporciona información sobre canales de tiendas en línea y acerca de cómo configurarlas en Dynamics 365 Commerce.
 author: kfend
 manager: AnnBe
-ms.date: 10/31/2019
+ms.date: 03/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: meeram
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c427b0eba2120123a47f52029d70896be88b9ec0
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: b719e40720b091eec879edf332ab63db710a1ebc
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023998"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096903"
 ---
 # <a name="set-up-an-online-store-channel"></a>Configurar un canal de la tienda en línea
 
@@ -71,3 +71,27 @@ Las jerarquías organizativas se usan para estructurar canales de Commerce y par
 Al crear una jerarquía organizativa, se le asigna un propósito. El propósito indica cómo se usa la jerarquía en la estructura comercial. Puede crear una jerarquía organizativa para sus operaciones de tienda y usarla para las selecciones, reabastecimientos e informes. 
 
 También puede crear una jerarquía organizativa independiente para cada propósito. También puede crear varias jerarquías con el mismo propósito y asignar un canal independiente a cada una de ellas. Si tiene previsto publicar catálogos de productos en la tienda en línea, deberá, como mínimo, agregar la tienda en línea a una jerarquía organizativa para los surtidos. Los productos de un catálogo se seleccionan de los surtidos asignados a la tienda en línea. Cuando se publique el catálogo, el proceso de publicación compara las fechas de vigencia para el surtido asignado a la tienda en línea con los productos que se incluyen en el catálogo para determinar los productos que estarán disponibles en la tienda en línea.
+
+## <a name="additional-resources"></a>Recursos adicionales
+
+[Configurar su nombre de dominio](configure-your-domain-name.md)
+
+[Implementar un sitio nuevo de comercio electrónico](deploy-ecommerce-site.md)
+
+[Crear un sitio de comercio electrónico](create-ecommerce-site.md)
+
+[Asociar un sitio en línea con un canal](associate-site-online-store.md)
+
+[Administrar archivos robots.txt](manage-robots-txt-files.md)
+
+[Subir redireccionamientos de URL en grandes cantidades](upload-bulk-redirects.md)
+
+[Configurar un inquilino B2C en Commerce](set-up-B2C-tenant.md)
+
+[Configurar páginas personalizadas para inicios de sesión de usuario](custom-pages-user-logins.md)
+
+[Configurar múltiples inquilinos B2C en un entorno de Commerce](configure-multi-B2C-tenants.md)
+
+[Agregar soporte para una red de entrega de contenido (CDN)](add-cdn-support.md)
+
+[Habilitar la detección de tienda según la ubicación](enable-store-detection.md)

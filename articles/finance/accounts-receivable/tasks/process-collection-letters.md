@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 326d9375670cb4f4990a4f7070bf923a28b2c025
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2b8ce102086535a5462d3fa0e8ac76e9ec3dd15c
+ms.sourcegitcommit: 8fad5a8c7ea5d0d0037669e61e2313f684bcae23
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179819"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "3106868"
 ---
 # <a name="process-collection-letters"></a>Procesar cartas de cobro
 
@@ -70,7 +70,11 @@ En este tema se muestra cómo crear, imprimir y registrar cartas de cobro. Esta 
     1. En el campo **Impreso**, seleccione una opción.
 
 ## <a name="control-collection-letters-at-the-customer-level"></a>Supervisar las cartas de cobro a nivel de cliente
-También puede configurar las cartas de cobro a nivel de cliente para seguir el código de carta de cobro para cada transacción, pero el procesamiento de la carta de cobro se basará en un único nivel de la carta de cobro que se almacena para el cliente. La única carta de cobro contendrá todas las transacciones que están vencidas para el cliente. Dado que los días de gracia ahora se siguen a nivel de cliente, la siguiente carta de cobro no se registrará hasta que el número de días de gracia haya pasado para la carta de cobro siguiente de la secuencia, aunque las transacciones vencen después de que la última carta de cobro se haya enviado. Esta opción reduce el número de cartas de cobro que enviará por cliente. 
+Si las cartas de cobro se configuran a nivel de transacción, se pueden generar varias cartas para un cliente, en función del vencimiento de la transacción. Si las transacciones aparecen en diferentes secuencias de cartas, se generarán para el cliente cartas de cobro independientes para cada grupo de transacciones vencidas. Por lo tanto, un cliente individual puede recibir, por ejemplo, una carta de cobro para transacciones vencidas hace 60 días y otra carta de cobro para transacciones vencidas hace 90 días. 
+
+Cada carta de cobro está también asociada con un código de carta de cobro. El código de carta de cobro está asociado con transacciones individuales y se utiliza para determinar cuándo se debe generar la próxima carta de cobro para cada transacción. Por ejemplo, si una transacción está vencida desde hace más de 30 días, el código de la carta de cobro determina que la próxima carta de cobro se enviará cuando el vencimiento de la transacción sea de 60 días, si no se ha pagado antes. 
+
+Las cartas de cobro también se pueden configurar a nivel de cliente. En este caso, se hace un seguimiento del código de carta de cobro para cada transacción, pero el procesamiento de la carta de cobro se basará en un único nivel de carta de cobro almacenado para el cliente. La carta de cobro única contendrá todas las transacciones que están vencidas para el cliente. Dado que los días de gracia ahora se siguen a nivel de cliente, la siguiente carta de cobro no se registrará hasta que el número de días de gracia haya pasado para la carta de cobro siguiente de la secuencia, aunque las transacciones vencen después de que la última carta de cobro se haya enviado. Esta opción ayuda a reducir el número de cartas de cobro que hay que enviar a cada cliente.
 
 ### <a name="set-up-the-customer-to-control-collection-letters-at-the-customer-level"></a>Configurar el cliente para que controle las cartas de cobro a nivel de cliente
 1.  Vaya a **Panel de navegación > Módulos > Crédito y cobros > Configuración > Parámetros de clientes** y seleccione la pestaña **Cobros**. 

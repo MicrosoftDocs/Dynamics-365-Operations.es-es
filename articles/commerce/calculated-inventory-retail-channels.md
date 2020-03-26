@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: hhainesms
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 8bef8edb46a1942d3efc325e2c437a138ad44839
-ms.sourcegitcommit: e1a55b4dc43abedf523c33ba9a8abe7b073f2ec6
+ms.openlocfilehash: 5b85438bc23e8f6cef0730dee9ac2c7f6dc26589
+ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "3083027"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3113929"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Calcular la disponibilidad de inventario para canales minoristas
 
@@ -41,7 +41,7 @@ Este tema explica los procesos de sincronización de datos que se pueden ejecuta
 Puede usar las siguientes API para mostrar la disponibilidad de inventario de un producto cuando sus clientes compran en un sitio de comercio electrónico.
 
 - **GetEstimatedAvailability** - Use esta API para obtener disponibilidad de inventario para el artículo en el almacén del canal de comercio electrónico o en todos los almacenes que están vinculados a la configuración del grupo de cumplimiento para el canal de comercio electrónico. Esta API también se puede utilizar para almacenes en un área o radio de búsqueda específica, según los datos de longitud y latitud.
-- **ProductWarehouseInventoryAvailabilities** - Use esta API para solicitar inventario para un artículo de un almacén específico. Por ejemplo, puede usarlo para mostrar la disponibilidad de inventario en escenarios que involucran la recolección de pedidos.
+- **GetEstimatedProductWarehouseAvailability** - Use esta API para solicitar inventario para un artículo de un almacén específico. Por ejemplo, puede usarlo para mostrar la disponibilidad de inventario en escenarios que involucran la recolección de pedidos.
 
 > [!NOTE]
 > Estas API reemplazan las API **GetProductAvailabilities** y **GetAvailableInventoryNearby** en Dynamics 365 Retail versión 10.0.7 y anterior.

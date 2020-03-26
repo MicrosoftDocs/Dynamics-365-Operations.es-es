@@ -3,7 +3,7 @@ title: Visión general de los trabajos de exportación e importación de datos
 description: Use el espacio de trabajo de gestión de datos para crear y administrar trabajos de importación y exportación de datos.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 09/16/2019
+ms.date: 02/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87b852a73268251241cd66a07d7e4f4720706c0d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 7a4b5396d2bb3fbb98b3f0f8a1bf59d62f673a3d
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184563"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124621"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Visión general de los trabajos de exportación e importación de datos
 
@@ -191,8 +191,11 @@ Al programar el proceso de limpieza hay que especificar los siguientes parámetr
 
 -   **Número de días del historial que se conservarán**: este valor se usa para controlar la cantidad de historial de ejecución que se va a conservar. Se especifica como un número de días. Cuando el trabajo de limpieza se programa como trabajo por lotes periódico, este valor representa un intervalo de tiempo que se mueve continuamente, manteniendo siempre intacto el número de días especificado del historial y eliminando el resto. El valor predeterminado es de 7 días.
 
--   **Número total de horas necesarias para ejecutar el trabajo**: en función de la cantidad de historial que haya que limpiar, el tiempo total de ejecución del trabajo de limpieza puede variar de unos minutos a unas horas. Dado que la limpieza de las tablas mencionadas debe hacerse cuando no hay otra actividad de administración de datos en el sistema, es importante asegurarse de que ejecutar y finalizar el trabajo de limpieza antes del inicio de actividad empresarial.
+-   **Número total de horas necesarias para ejecutar el trabajo**: en función de la cantidad de historial que haya que limpiar, el tiempo total de ejecución del trabajo de limpieza puede variar de unos minutos a unas horas. Este parámetro debe establecerse en la cantidad de horas que se ejecutará el trabajo. Después de que el trabajo de limpieza se haya ejecutado durante el número de horas especificado, el trabajo saldrá y reanudará la limpieza la próxima vez que se ejecute según el programa de repetición.
 
     Con esta opción de configuración se puede especificar un tiempo de ejecución máximo estableciendo un límite máximo del número de horas que el trabajo debe ejecutarse. La lógica de limpieza pasa por un identificador de ejecución de trabajo a la vez en una secuencia ordenada cronológicamente, donde el más antiguo es el primero para la limpieza del historial de ejecución relacionado. Dejará de seleccionar nuevos id. de ejecución para la limpieza cuando la duración restante de la ejecución esté dentro del último 10 % de la duración especificada. En algunos casos, se esperará que el trabajo de limpieza continúe más allá del tiempo máximo especificado. Esto dependerá en gran parte del número de registros que se deben eliminar para el id. de ejecución actual que se inició antes de que se alcanzara el umbral del 10 %. La limpieza iniciada debe completarse para garantizar la integridad de los datos, lo que significa que la limpieza continuará aunque se supere el límite especificado. Una vez completada, no se seleccionarán nuevos identificadores de ejecución y el trabajo de limpieza finalizará. El historial de ejecución restante que no se haya limpiado por falta de tiempo de ejecución se seleccionará la próxima vez que se programe el trabajo de limpieza. El valor predeterminado (y el valor mínimo) de esta configuración está establecido en 2 horas.
 
 -   **Lote periódico**: el trabajo de limpieza se puede ejecutar como una ejecución manual puntual o se puede programar para una ejecución periódica por lotes. El lote se puede programar con la opción de configuración **Ejecutar en segundo plano**, que es la configuración de lote estándar.
+
+> [!NOTE]
+> Si los registros en las tablas de preparación no se limpian por completo, asegúrese de que el trabajo de limpieza esté programado para ejecutarse periódicamente. Como se explicó anteriormente, en cualquier ejecución de limpieza, el trabajo solo limpiará tantas ID de ejecución como sea posible dentro de las horas máximas proporcionadas. Para continuar la limpieza de los registros de etapas restantes, el trabajo debe programarse para ejecutarse periódicamente.

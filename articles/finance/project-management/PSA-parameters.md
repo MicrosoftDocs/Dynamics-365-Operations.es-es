@@ -3,7 +3,7 @@ title: Parámetros de integración de Project Service Automation
 description: Este tema explica cómo configurar cómo se especifican los datos predeterminados cuando se integra Microsoft Dynamics 365 for Project Service Automation con Microsoft Dynamics 365 Finance.
 author: KimANelson
 manager: AnnBe
-ms.date: 07/20/2018
+ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,18 +17,20 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: f7cef5384812e0dcb7d5e084ddd7668a7687a259
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: cd09dad15112fd71bfd386e0072a77a4121c96e0
+ms.sourcegitcommit: 236672932ffd0a758012ebb7b2df9bc51249c126
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175023"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096260"
 ---
 # <a name="project-service-automation-integration-parameters"></a>Parámetros de integración de Project Service Automation
 
 [!include[banner](../includes/banner.md)]
 
 En la página **Parámetros de la integración de Project Service Automation** , puede configurar cómo se especifican los datos predeterminados cuando se integra Dynamics 365 Project Service Automation con Dynamics 365 Finance. Para que los proyectos se sincronicen con éxito de Project Service Automation en Finance, debe configurar los siguientes campos.
+
+Para abrir la página **Parámetros de integración de Project Service Automation**, vaya a **Gestión y contabilidad de proyectos** \> **Configuración** \> **Parámetros de integración de Dynamics 365 for Project Service Automation**. 
 
 > [!NOTE]
 > - La integración de tareas de proyectos, las categorías de transacción de gastos, las estimaciones de hora, las estimaciones de gastos y el bloqueo de funciones están disponibles la versión 8.0.

@@ -18,17 +18,17 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 28b034c9b2a2c7ae63b055338dea3aab4a3b86f2
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 0c561c39dfcbfa739c5a22394c05191e7f9bc107
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023901"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127707"
 ---
 # <a name="cash-management-improvements"></a>Mejoras en la administración de efectivo
 
 [!include [banner](includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
+
 
 La administración de efectivo es una función clave para los minoristas en tiendas físicas. Los minoristas quieren que sus tiendas tengan sistemas que puedan ayudarle para proporcionar rastreabilidad y la contabilidad de efectivo y de su movimiento en varios registros y cajeros en una tienda. Deben poder conciliar cualquier diferencia y determinar la responsabilidad.
 

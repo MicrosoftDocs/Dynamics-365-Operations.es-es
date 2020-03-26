@@ -18,16 +18,17 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 411daa5bc08df530750fd5c09ca8b54bf537b548
-ms.sourcegitcommit: ba1c76497acc9afba85257976f0d4e96836871d1
+ms.openlocfilehash: 0cfa7d55f5d4d219c0bc43eb6313c0c6bd014ab6
+ms.sourcegitcommit: ac7c457bda3d8545ee8c0de45e4fcc24d677ffdc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "2890336"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3133905"
 ---
 # <a name="vendor-invoices-overview"></a>Visión general de facturas de proveedores
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Este tema ofrece información general relativa a facturas de proveedor. Las facturas de proveedor son solicitudes de pago para productos y servicios que se han recibido. Las facturas de proveedor pueden representar una cuenta para servicios en curso ose pueden basar en pedidos de compra para artículos y servicios específicos.
 
@@ -44,7 +45,7 @@ Hay varias formas de especificar una factura de proveedor:
 - Junto con el grupo de facturas de proveedor, el registro de facturas de proveedor le permite especificar rápidamente facturas para acumular el gasto. Puede abrir los pedidos de compra asociados más tarde para registrar la factura en la cuenta de gastos.
 - Las páginas **Facturas de proveedor abiertas** y **Facturas de proveedor pendientes** le permiten crear facturas de proveedor a partir de pedidos de compra confirmados.
 
-La discusión siguiente proporciona más información sobre cómo las páginas **Facturas de proveedor abiertas** o **Facturas de proveedor pendientes** para crear una factura de proveedor a partir de un pedido de compra.
+La discusión siguiente proporciona más información sobre cómo se usan las páginas **Facturas de proveedor abiertas** o **Facturas de proveedor pendientes** para crear una factura de proveedor a partir de un pedido de compra.
 
 ## <a name="understanding-invoice-line-quantities"></a>Comprensión de las cantidades de línea de factura
 
@@ -66,6 +67,16 @@ Puede agregar una línea que no estaba en el pedido de compra a la factura de pr
 
 La organización puede usar flujos de trabajo para gestionar el proceso de revisión de facturas de proveedor. La revisión de flujo de trabajo puede ser necesaria para el encabezado de factura, la línea de factura, o ambos. Los controles de flujo de trabajo se aplican al encabezado o la línea, en función de dónde está el enfoque al seleccionar el control. En lugar del botón **Registrar**, verá un botón **Enviar** que puede usar para enviar la factura de proveedor mediante el proceso de revisión.
 
+### <a name="preventing-invoice-from-being-submitted-to-workflow"></a>Evitar que se envíe la factura al flujo de trabajo 
+
+A continuación se indican varias maneras de impedir que se envíe una factura a un flujo de trabajo.
+
+- **El total de la factura y el total registrado no coinciden.** La persona que envió la factura recibirá una alerta que le comunicará que los totales no coinciden para que pueda corregir los saldos antes de volver a enviar la factura al flujo de trabajo. Esta característica está disponible si el parámetro **Prohibir el envío al flujo de trabajo si el total de la factura y el total de la factura registrada no coinciden** de la página **Administración de características** está activado. 
+
+- **La factura contiene cargos no asignados.** La persona que envió la factura recibirá una alerta que le comunicará que la factura contiene cargos no asignados para que pueda corregir la factura antes de volver a enviarla al flujo de trabajo. Esta característica está disponible si el parámetro **Prohibir el envío al flujo de trabajo si hay cargos no asignados en una factura de proveedor** de la página **Administración de características** está activado.
+
+- **La factura contiene el mismo número de factura que otra factura registrada.** La persona que envió la factura recibirá una alerta que le comunicará que se ha encontrado una factura con un número duplicado para que pueda corregirla antes de volver a enviarla al flujo de trabajo. Esta alerta se mostrará cuando el parámetro Proveedores etiquetado **Comprobar el número de factura utilizado** esté establecido en **Rechazar duplicado**. Esta función está disponible si el parámetro **Prohibir el envío al flujo de trabajo si el número de factura ya existe en una factura registrada y su sistema no está configurado para aceptar números de factura duplicados** de la página **Administración de características** está activado.  
+
 ## <a name="matching-vendor-invoices-to-product-receipts"></a>Conciliación de facturas de proveedor a recepciones de producto
 
 Puede especificar y guardar la información de facturas de proveedor y asignar líneas de factura a líneas de recepción de producto. También puede conciliar cantidades parciales para una línea.
@@ -78,9 +89,19 @@ En esta opción se supone que se ha registrado al menos una recepción de produc
 
 Para obtener más información, consulte [Registrar la factura de proveedor y cuadrarla con la cantidad recibida](../accounts-payable/tasks/record-vendor-invoice-match-against-received-quantity.md)
 
+## <a name="configure-an-automated-task-for-vendor-invoice-workflow-to-post-the-vendor-invoice-using-a-batch-job"></a>Configurar una tarea automatizada para el flujo de trabajo de facturas proveedor con el fin de registrar la factura del proveedor mediante un trabajo por lotes
+
+Puede agregar una tarea de registro automatizada al flujo de trabajo de facturas de proveedor para que las facturas se procesen en un lote. El registro de facturas en un lote permite que el proceso del flujo de trabajo continúe sin tener que esperar a que finalice el registro, lo que mejora el rendimiento global de todas las tareas enviadas al flujo de trabajo.
+
+Para registrar una factura de proveedor en un lote, en la página **Administración de características**, active el parámetro **Registro de lotes de facturas de proveedores**. Los flujos de trabajo de factura de proveedor se configuran en **Proveedores > Configuración> Flujos de trabajo de proveedor**.
+
+Puede ver la tarea **Registrar la factura de proveedor mediante un lote** en el editor de flujo de trabajo, con independencia de si el parámetro de característica **Registro de lote de facturas de proveedor** está habilitado. Cuando el parámetro de característica no está habilitado, una factura que contenga la tarea **Registrar la factura de proveedor mediante una tarea por lotes** no se procesará en el flujo de trabajo hasta que se habilite el parámetro. La tarea **Registrar la factura de proveedor mediante una tarea por lotes** no debe usarse en el mismo flujo de trabajo que la tarea automatiza **Registrar facturas de proveedor**. Además, la tarea **Registrar la factura del proveedor mediante un lote** debe ser el último elemento en la configuración del flujo de trabajo.
+
+Para especificar el número de facturas que se deben incluir en el lote y el número de horas que se deben esperar antes de reprogramar un lote, vaya a **Proveedores > Configuración> Parámetros de proveedores > Factura > Flujo de trabajo de factura**. 
+
 ## <a name="working-with-multiple-invoices"></a>Trabajar con múltiples facturas
 
-Puede trabajar con varias facturas a la vez y registrarlas al mismo tiempo. Si debe crear varias facturas, use la página **Facturas de proveedor pendientes**. Si debe registrar e imprimir varias facturas de proveedor, utilice el diario de aprobación de facturas. Si usa el diario de aprobación de facturas, debe registrarse al menos una recepción de producto para el pedido de compra y debe registrarse una factura del pedido de compra en un registro de facturas. La información financiera de la factura proviene de la factura registrada en el registro.
+Puede trabajar con varias facturas a la vez y registrarlas todas a la vez. Si necesita crear varias facturas, use la página **Facturas de proveedor pendientes**. Si debe registrar e imprimir varias facturas de proveedor, utilice el diario de aprobación de facturas. Si usa el diario de aprobación de facturas, debe registrarse al menos una recepción de producto para el pedido de compra y debe registrarse una factura del pedido de compra en un registro de facturas. La información financiera de la factura proviene de la factura registrada en el registro.
 
 ## <a name="recovering-vendor-invoices-that-are-being-used"></a>Recuperar facturas de proveedor que se están usando
 

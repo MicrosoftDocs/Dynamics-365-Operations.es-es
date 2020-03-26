@@ -12,8 +12,10 @@
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Novedades y cambios en Platform updates
               items:
-                - name: Página principal de Novedades y cambios en Platform updates
+                - name: Página principal de Novedades y cambios en las actualizaciones de la plataforma
                   href: get-started/whats-new-home-page.md
+                - name: Platform update 34 (mayo 2020)
+                  href: get-started/whats-new-platform-update-34.md
                 - name: Platform update 33 (abril de 2020)
                   href: get-started/whats-new-platform-update-33.md
                 - name: Platform update 32 (febrero de 2020)
@@ -146,41 +148,67 @@
                   items:
                     - name: Visión general de la integración de datos mediante Common Data Service
                       href: data-entities/data-integration-cds.md
-                    - name: Integración sincrónica bidireccional
+                    - name: Integración de doble escritura
                       items:
                         - name: Página de inicio de doble escritura
                           href: data-entities/dual-write/dual-write-home-page.md
                         - name: Visión general de doble escritura
                           href: data-entities/dual-write/dual-write-overview.md
-                        - name: Jerarquía organizativa en Common Data Service
-                          href: data-entities/dual-write/organization-mapping.md
-                        - name: Integración de empresa
+                        - name: Configuración de doble escritura
                           items:
-                            - name: Concepto de empresa en Common Data Services
-                              href: data-entities/dual-write/company-data.md
-                            - name: Arranque con datos de empresa
-                              href: data-entities/dual-write/bootstrap-company-data.md
-                        - name: Maestro de clientes integrado
-                          href: data-entities/dual-write/customer-mapping.md
-                        - name: Libro mayor integrado
-                          href: data-entities/dual-write/ledger-mapping.md
-                        - name: Experiencia unificada del producto
-                          href: data-entities/dual-write/product-mapping.md
-                        - name: Integración del proveedor
+                            - name: Requisitos del sistema para doble escritura
+                              href: data-entities/dual-write/dual-write-system-req.md
+                            - name: Escenarios admitidos para la configuración de doble escritura
+                              href: data-entities/dual-write/connection-setup.md
+                            - name: Configuración de doble escritura de Lifecycle Services
+                              href: data-entities/dual-write/lcs-setup.md
+                        - name: Conceptos de asignación entre aplicaciones
                           items:
-                            - name: Maestro de proveedores integrado
-                              href: data-entities/dual-write/vendor-mapping.md
-                            - name: Cambiar entre diseños de proveedor
-                              href: data-entities/dual-write/vendor-switch.md
-                        - name: Sitios y almacenes integrados
-                          href: data-entities/dual-write/sites-warehouses-mapping.md
-                        - name: Maestro de impuestos integrado
-                          href: data-entities/dual-write/tax-mapping.md
-                        - name: Sincronización inicial
-                          href: data-entities/dual-write/initial-sync.md
-                        - name: Solución de problemas de integración de datos
-                          href: data-entities/dual-write/dual-write-troubleshooting.md
-                    - name: Integración asincrónica unidireccional
+                            - name: Jerarquía organizativa en Common Data Service
+                              href: data-entities/dual-write/organization-mapping.md
+                            - name: Integración de empresa
+                              items:
+                                - name: Concepto de empresa en Common Data Services
+                                  href: data-entities/dual-write/company-data.md
+                                - name: Arranque con datos de empresa
+                                  href: data-entities/dual-write/bootstrap-company-data.md
+                            - name: Maestro de clientes integrado
+                              href: data-entities/dual-write/customer-mapping.md
+                            - name: Integración del producto
+                              items:
+                                - name: Experiencia unificada del producto
+                                  href: data-entities/dual-write/product-mapping.md
+                                - name: Sitios y almacenes integrados
+                                  href: data-entities/dual-write/sites-warehouses-mapping.md
+                            - name: Datos financieros y fiscales
+                              items:
+                                - name: Acceso a datos financieros y de referencia fiscal
+                                  href: data-entities/dual-write/finance-tax-reference.md
+                                - name: Libro mayor integrado
+                                  href: data-entities/dual-write/ledger-mapping.md
+                                - name: Maestro de impuestos integrado
+                                  href: data-entities/dual-write/tax-mapping.md
+                            - name: Integración del proveedor
+                              items:
+                                - name: Maestro de proveedores integrado
+                                  href: data-entities/dual-write/vendor-mapping.md
+                                - name: Cambiar entre diseños de proveedor
+                                  href: data-entities/dual-write/vendor-switch.md
+                            - name: Cliente potencial a cliente en doble escritura
+                              href: data-entities/dual-write/dual-write-prospect-to-cash.md
+                            - name: Activos internos para mantenimiento
+                              href: data-entities/dual-write/in-house-assets.md
+                            - name: 'Trabajador integrado, trabajo y puesto'
+                              href: data-entities/dual-write/integrated-hr.md
+                        - name: Compatibilidad para doble escritura
+                          items:
+                            - name: Compatibilidad para soluciones de Field Service y soluciones de Project Service Automation
+                              href: data-entities/dual-write/field-service-project-service-automation.md
+                            - name: Sincronización inicial
+                              href: data-entities/dual-write/initial-sync.md
+                            - name: Solución de problemas de integración de datos
+                              href: data-entities/dual-write/dual-write-troubleshooting.md
+                    - name: Integración con Integrador de datos de Power Platform
                       items:
                         - name: Configurar un escenario de cliente potencial a cliente
                           items:
@@ -332,6 +360,8 @@
                   href: database/import-database.md
                 - name: Restauración en un momento determinado de la base de datos
                   href: database/database-point-in-time-restore.md
+                - name: Restauración en un momento determinado de la base de datos de producción a un entorno de espacio aislado
+                  href: database/database-pitr-prod-sandbox.md
             - name: Tutoriales
               items:
                 - name: Actualización para fines de formación
@@ -428,8 +458,10 @@
                       href: deployment/setup-deploy-on-premises-pu12.md
                     - name: Implementar entornos locales (Platform updates 8 y 11)
                       href: deployment/setup-deploy-on-premises-pu8-pu11.md
-                    - name: Pasos de instalación para los componentes del canal minorista en un entorno local
+                    - name: Pasos de instalación para los componentes del canal Retail en un entorno local
                       href: deployment/deploy-retail-onprem.md
+                    - name: Volver a utilizar la misma instancia de AD FS para varios entornos
+                      href: deployment/onprem-reuseadfs.md
                 - name: Desarrollar e implementar modelos personalizados para entornos locales
                   href: deployment/develop-deploy-custom-models-on-premises.md
                 - name: Integración de PowerBI.com con los entornos locales
@@ -970,24 +1002,34 @@
               href: lifecycle-services/configure-execute-code-upgrade.md
             - name: Crear o actualizar metodologías
               href: lifecycle-services/create-methodology.md
-            - name: Modelador de procesos empresariales
-              href: lifecycle-services/bpm-overview.md
-            - name: Bibliotecas de procesos empresariales en el Modelador de procesos empresariales
-              href: lifecycle-services/business-process-libraries-business-process-modeler.md
-            - name: 'Crear, editar y examine las bibliotecas del Modelador de procesos empresariales'
-              href: lifecycle-services/creating-editing-browsing.md
-            - name: Completar tareas en el modelador de procesos empresariales
-              href: lifecycle-services/complete-tasks-bpm.md
-            - name: Trabajar con diagramas de actividad en bibliotecas BPM
-              href: lifecycle-services/using-activity-diagrams.md
-            - name: Sincronizar bibliotecas BPM con Azure DevOps
-              href: lifecycle-services/synchronize-bpm-vsts.md
-            - name: Crear bibliotecas de prueba de aceptación del usuario mediante las guías de tareas y el BPM
-              href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
-            - name: Diagramas de flujo en el Modelador de procesos empresariales
-              href: lifecycle-services/flowcharts-business-process-modeler.md
-            - name: Cargar los procesos empresariales personalizados en el Modelador de procesos empresariales
-              href: lifecycle-services/upload-business-processes-bpm-task-recorder.md
+            - name: Modelador de procesos empresariales (BPM)
+              items:
+                - name: Visión general del Modelador de procesos empresariales (BPM)
+                  href: lifecycle-services/bpm-overview.md
+                - name: Bibliotecas de procesos empresariales en el Modelador de procesos empresariales
+                  href: lifecycle-services/business-process-libraries-business-process-modeler.md
+                - name: 'Crear, editar y examinar las bibliotecas del Modelador de procesos empresariales'
+                  href: lifecycle-services/creating-editing-browsing.md
+                - name: Completar tareas en el modelador de procesos empresariales
+                  href: lifecycle-services/complete-tasks-bpm.md
+                - name: Trabajar con diagramas de actividad en bibliotecas BPM
+                  href: lifecycle-services/using-activity-diagrams.md
+                - name: Sincronizar bibliotecas BPM con Azure DevOps
+                  href: lifecycle-services/synchronize-bpm-vsts.md
+                - name: Crear bibliotecas de prueba de aceptación del usuario mediante las guías de tareas y el BPM
+                  href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
+                - name: Diagramas de flujo en el Modelador de procesos empresariales
+                  href: lifecycle-services/flowcharts-business-process-modeler.md
+                - name: Cargar los procesos empresariales personalizados en el Modelador de procesos empresariales
+                  href: lifecycle-services/upload-business-processes-bpm-task-recorder.md
+            - name: Solicitudes de servicio
+              items:
+                - name: Operaciones en la nube y mantenimiento
+                  href: lifecycle-services/cloud-operations-servicing.md
+                - name: Enviar solicitudes de servicio al equipo de ingeniería de servicios de Dynamics
+                  href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
+                - name: Preguntas frecuentes sobre el plazo del mantenimiento planificado
+                  href: lifecycle-services/planned-maintenance-window-faq.md
             - name: Supervisión y diagnóstico
               href: lifecycle-services/monitoring-diagnostics.md
             - name: Reiniciar servicios del entorno
@@ -1282,14 +1324,8 @@
               href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
             - name: Obtener soporte para Finance and Operations operado por 21Vianet en China
               href: lifecycle-services/21vianet-support.md
-            - name: Enviar solicitudes al equipo de ingeniería de servicios de Dynamics
-              href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
             - name: Configurar soporte técnico para Finance and Operations
               href: lifecycle-services/support-experience.md
-            - name: Preguntas frecuentes sobre el plazo del mantenimiento planificado
-              href: lifecycle-services/planned-maintenance-window-faq.md
-            - name: Operaciones en la nube y mantenimiento
-              href: lifecycle-services/cloud-operations-servicing.md
             - name: Administrar experiencias de soporte de Finance and Operations
               href: lifecycle-services/cloud-powered-support-lcs.md
         - name: Administración del sistema

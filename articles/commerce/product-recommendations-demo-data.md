@@ -1,9 +1,9 @@
 ---
-title: Obtener recomendaciones de producto mediante datos de prueba
+title: Crear recomendaciones con datos de demostración
 description: Este documento ofrece instrucciones acerca de cómo aprovechar las recomendaciones de producto de omnicanal en entornos de un solo cuadro de nivel 1 utilizando datos de demostración personalizables y ya cumplimentados.
 author: bebeale
 manager: AnnBe
-ms.date: 10/01/19
+ms.date: 03/12/20
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,14 +19,17 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1456feb0665b6ec79a36a3704f17da80ffd759a0
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 2e790d78b4d5216822ffda3a3895feb674876bd8
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042789"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127845"
 ---
-# <a name="get-product-recommendations-using-demo-data"></a>Obtener recomendaciones de producto mediante datos de prueba
+# <a name="create-recommendations-with-demo-data"></a>Crear recomendaciones con datos de demostración
+
+[!include [banner](includes/banner.md)]
+
 Este documento ofrece instrucciones acerca de cómo aprovechar las recomendaciones de producto de omnicanal en entornos de un solo cuadro de nivel 1 utilizando datos de demostración personalizables y ya cumplimentados.
 
 Las recomendaciones de producto omnicanal proporcionan un conjunto de listas de productos generadas por programación o de forma dirigida. Estas listas se pueden usar en varias situaciones, en función de la necesidad empresarial. Para obtener más información sobre las listas de recomendaciones del producto, consulte [Información general sobre las recomendaciones del producto](product-recommendations.md).
@@ -49,7 +52,7 @@ Los datos se estructuran en las siguientes columnas.
 | OperatingUnitNumber | :heavy_check_mark: | El número de unidad operativa específico donde se espera que aparezcan las recomendaciones de productos.                                        |                                                                              |
 | Categoría            |                    |    La categoría para la que debe devolverse la lista específica. Si no se especifica ninguna categoría, la lista es solo para los primeros elementos de la jerarquía de navegación.    |                                                                              |
 | SeedItemId          |                    |    Para las listas que requieren inicialización (RecoPeopleAlsoBuy y RecoCart), el producto para el que esas listas deben mostrar productos adicionales.            |                                                                              |
-| ItemIds             | :heavy_check_mark: | Uno o más productos que se devolverán como el resultado, separado por ‘;’.                                                                  |                                                                              |
+| ItemIds             | :heavy_check_mark: | Uno o más productos que se devolverán como resultado, separados por signos de punto y coma.                                                                  |                                                                              |
 
 ## <a name="customize-demo-data"></a>Personalizar datos de demostración
 Puede editar los datos predeterminados de prueba con cualquier información de producto y categoría que se configure en la sede. Una vez que se actualice el .csv, las recomendaciones de productos devueltas para los clientes inmediatamente reflejarán los cambios.
@@ -67,4 +70,22 @@ La extensión contiene un archivo de datos denominado 'RecoMockDataset.csv' que 
 
 [Visión general de recomendaciones de producto](product-recommendations.md)
 
-[Planificación de entorno](../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md)
+[Habilitar ADLS en un entorno de Dynamics 365 Commerce](enable-adls-environment.md)
+
+[Habilitar recomendaciones de producto](enable-product-recommendations.md)
+
+[Habilitar recomendaciones personalizadas](personalized-recommendations.md)
+
+[Cancelar recomendaciones personalizadas](personalization-gdpr.md)
+
+[Agregar listas de recomendaciones de producto a un sitio de comercio electrónico](add-reco-list-to-page.md)
+
+[Agregar recomendaciones de producto en PDV](product.md)
+
+[Agregar recomendaciones a la pantalla de transacción](add-recommendations-control-pos-screen.md)
+
+[Ajuste los resultados de las recomendaciones AI-ML](modify-product-recommendation-results.md)
+
+[Crear manualmente recomendaciones curadas](create-editorial-recommendation-lists.md)
+
+[Preguntas más frecuentes de recomendaciones de producto](faq-recommendations.md)

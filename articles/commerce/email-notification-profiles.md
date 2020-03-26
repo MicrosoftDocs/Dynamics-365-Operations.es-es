@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 320f21916a5f451ebf4f21e0075017a121ba6d6a
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 9e5d90eaf1815bbe54b0bea40d92a0a993a23b75
+ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057623"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3113814"
 ---
 # <a name="set-up-an-email-notification-profile"></a>Configurar un perfil de notificación por correo electrónico
 
@@ -35,7 +35,7 @@ Este tema describe cómo crear un perfil de notificación por correo electrónic
 
 Antes de crear canales, querrá configurar un perfil para asegurarse de que se puedan enviar notificaciones por correo electrónico para varios eventos, como la creación de pedidos, el estado de envío del pedido y el incumplimiento del pago.
 
-Para obtener más información sobre cómo configurar el correo electrónico, consulte [Configurar y enviar correo electrónico](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-email).
+Para obtener más información sobre cómo configurar el correo electrónico, consulte [Configurar y enviar correo electrónico](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json).
 
 ## <a name="create-an-email-notification-profile"></a>Crear un perfil de notificación por correo electrónico
 
@@ -84,7 +84,7 @@ La siguiente imagen muestra algunos ejemplos de configuración de notificaciones
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Configurar y enviar correo electrónico](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-email)
+[Configurar y enviar correo electrónico](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json)
 
 [Resumen de canales](channels-overview.md)
 

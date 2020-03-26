@@ -3,7 +3,7 @@ title: Actualizaciones reglamentarias
 description: Este tema proporciona una lista de actualizaciones normativas planificadas y publicadas para Microsoft Dynamics 365 Finance.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 01/29/2020
+ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: d596a543ca8aacc2c6530672111001a9dd161aa7
-ms.sourcegitcommit: 9168621ca9b5061c65f3e05dbc5918b6a11d53d5
+ms.openlocfilehash: 2aea83f99c7e5b017ae0cf9d755882739e22ccb7
+ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "3000010"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3112764"
 ---
 # <a name="regulatory-updates"></a>Actualizaciones reglamentarias
 
@@ -42,39 +42,34 @@ Para ver los últimos planes de actualizaciones regulatorias, consulte la siguie
 
 |País|Fecha de lanzamiento planeada:|Versión|Actualización reglamentaria|
 |--------------------|---------------|-------|-------|
+|      Brasil         |   Marzo de 2020 - enero de 2020      | 10.0.9, 10.0.8      |   DRCST SC - Ordenanza SEF N.º 416    |
+|      Brasil         |   Marzo de 2020 - enero de 2020     | 10.0.9, 10.0.8      |   Contribución de SPED: diseño para enero de 2020    |
 |      Brasil         |   2020 de marzo       | 10.0.9      |   SPED fiscal: cambios en el campo D100 de registro COD_MUN_ORI    |
-|      Brasil         |   Marzo de 2020 - diciembre de 2019       | 10.0.9, 10.0.8, 10.0.7HF      |   DRCST SC - Ordenanza SEF N.º 254/19    |
-|      Brasil         |   Enero de 2020 - diciembre de 2019       | 10.0.8, 10.0.7HF      |   Información complementaria de ICMS-ST    |
-|      Brasil        |   Marzo de 2020 - diciembre de 2019       | 10.0.9, 10.0.8HF, 10.0.7HF      |   Disposición fiscal acelerada 014 |
-|      Brasil         |   2019 de diciembre       | 10.0.7      |   Una nueva versión de notas técnicas para NF-e: NT 2019.001 Versión 1.20    |
-|      Brasil         |   2019 de diciembre       | 10.0.7      |   SC de la declaración de DRCST    |
-|      Brasil          |   Marzo de 2020 - enero de 2020       | 10.0.9, 10.0.8HF, 10.0.7HF      |   DRCST SC - Ordenanza SEF N.º 343DR   |
+|      Brasil         |   Marzo de 2020 - enero de 2020       | 10.0.9, 10.0.8      |   DRCST SC - Ordenanza SEF N.º 254/19    |
+|      Brasil         |   2020 de enero       | 10.0.8      |   Información complementaria de ICMS-ST    |
+|      Brasil        |   Marzo de 2020 - enero de 2020       | 10.0.9, 10.0.8HF      |   Disposición fiscal acelerada 014 |
+|      Brasil          |   Marzo de 2020 - enero de 2020       | 10.0.9, 10.0.8HF      |   DRCST SC - Ordenanza SEF N.º 343DR   |
 |      Francia          |   2020 de marzo       | 10.0.9      |   Localización en francés: formato ISO 20022 para pagos internacionales y transferencias de tesorería   |
+|      Hungría          |   2020 de marzo       | 10.0.9, 10.0.8      |   Sistema de facturación en línea v.2.0 en Finance and Operations    |
 |      India          |   2020 de marzo       | 10.0.9      |   Nueva herramienta sin conexión de devolución GSTR (ANX-1 y ANX-2)   |
 |      Italia          |   2020 de enero       | 10.0.8      |   Cambios en administración del IVA por D.L. 119 del 23 de octubre de 2018: comunicación de impuestos anual |
-|      Italia         |   2019 de diciembre       | 10.0.7      |   Cambios en administración del IVA por D.L. 119 de 23 de octubre de 2019: Comunicación trimestral sobre el IVA (Lipe “2018”)    |
-|      Italia         |   Marzo de 2020 - diciembre de 2019     | 10.0.9, 10.0.8HF, 10.0.7HF      |   Retail - Administración de la información sobre clientes en PDV |
-|      Italia         |   Marzo de 2020 - diciembre de 2019      | 10.0.9, 10.0.8HF, 10.0.7HF      |   Retail - Impresión de información del cliente en el recibo fiscal |
-|      Italia         |   2019 de diciembre     | 10.0.7      |   Cambios en administración del IVA por D.L. 119 de 23 oct 2018: comunicación de facturas  |
-|      Japón          |   Marzo de 2020 - diciembre de 2019     | 10.0.9, 10.0.8HF, 10.0.7HF     |   La Asociación de Banqueros de Japón reemplaza los formatos de pago de longitud fija JBA con ISO20022 |
-|      Japón          |   Enero de 2020 - diciembre de 2019     | 10.0.8, 10.0.7HF       |   Se cambia la tasa de impuestos de consumo y se introduce la tasa fiscal reducida (Informe de impuestos de consumo) |
-|      Japón         |   2019 de diciembre      | 10.0.7       |   Se cambia la tasa de consumo y se introduce la tasa fiscal reducida (disposiciones de facturas) |
-|      México          |   Enero de 2020 - diciembre de 2019    | 10.0.8, 10.0.7HF        |   Minorista: CFDI Global: Resol. Div. 2019 - c_CodigoPostal y zona horaria |
-|     México          |   2019 de diciembre       | 10.0.7      |   Actualización de la regla 2.7.2.9 - mediante la zona horaria del código postal del establecimiento que envía el documento de CFDI |
-|      México           |   Enero de 2020 - diciembre de 2019      | 10.0.8, 10.0.7HF     |   Validación de código en catálogo de productos y servicios |
-|      Noruega          |   Marzo de 2020 - diciembre de 2019   | 10.0.9, 10.0.8HF, 10.7.7HF     |   Actualización de SAF-T XSD a la versión 1.1 para Dynamics 365 for Finance and Operations |
+|      Italia         |   2020 de marzo     | 10.0.9, 10.0.8HF      |   Retail - Administración de la información sobre clientes en PDV |
+|      Italia         |   2020 de marzo      | 10.0.9, 10.0.8HF      |   Retail - Impresión de información del cliente en el recibo fiscal |
+|      Japón          |   2020 de marzo     | 10.0.9, 10.0.8HF     |   La Asociación de Banqueros de Japón reemplaza los formatos de pago de longitud fija JBA con ISO20022 |
+|      Japón          |   2020 de enero      | 10.0.8       |   Se cambia la tasa de impuestos de consumo y se introduce la tasa fiscal reducida (Informe de impuestos de consumo) |
+|      México          |   2020 de enero     | 10.0.8        |   Minorista: CFDI Global: Resol. Div. 2019 - c_CodigoPostal y zona horaria |
+|      México           |   2020 de enero       | 10.0.8     |   Validación de código en catálogo de productos y servicios |
+|      Noruega          |   2020 de marzo   | 10.0.9, 10.0.8HF     |   Actualización de SAF-T XSD a la versión 1.1 para Dynamics 365 for Finance and Operations |
 |      Polonia          |   2020 de marzo    | 10.0.9     |   Registro de IVA soportado y registro de IVA SAF: la agencia personalizada de los documentos SAD debe ser reemplazada por un nombre de terceros y un NIF |
 |      Polonia          |   Marzo de 2020 - enero de 2020   | 10.0.9, 10.0.8HF     |   Retail - Administración de la información sobre clientes en PDV |
 |      Polonia          |   Marzo de 2020 - enero de 2020     | 10.0.9, 10.0.8HF     |   Retail - Impresión de información del cliente en el recibo fiscal |
-|      Polonia          |   Marzo de 2020 - diciembre de 2019     | 10.0.9, 10.0.8, 10.0.7     |   Facturas SAF (JPK_FA) v.3 a partir del 2 de diciembre de 2019 |
-|      Polonia          |   Marzo de 2020 - enero de 2019     | 10.0.9, 10.0.8     |   JPK_VDEK que reemplaza JPK_VAT (SAF VAT) |
-|      Polonia          |   2019 de diciembre     | 10.0.7     |   Pago fraccionado obligatorio |
+|      Polonia          |   Marzo de 2020 - enero de 2020     | 10.0.9, 10.0.8     |   Facturas SAF (JPK_FA) v.3 a partir del 2 de diciembre de 2019 |
+|      Polonia          |   Marzo de 2020 - enero de 2020     | 10.0.9, 10.0.8     |   JPK_VDEK que reemplaza JPK_VAT (SAF VAT) |
 |      Rusia          |   2020 de marzo     | 10.0.9     |   Formato de la notificaciones de la declaración de impuestos de la propiedad para 2019 |
 |      Rusia          |   2020 de marzo     | 10.0.9     |   Actualizaciones del formato de declaración de impuestos sobre las ganancias |
-|      Singapur           |   Enero de 2020 - diciembre de 2019     | 10.0.8, 10.0.7HF      |   Informe de devolución de GST |
+|      Singapur           |   2020 de enero     | 10.0.8      |   Informe de devolución de GST |
 |      Suiza           |   2020 de marzo     | 10.0.9      |   El resguardo de pago suizo ISR obtiene un nuevo formato (código QR) |
 |      Reino Unido          |   2020 de enero       | 10.0.8      |   Crear impuestos digitales (MTD): consentimiento del administrador del sistema para transmitir información fuera de D365 mediante la integración con HMRC |
-|      Reino Unido          |   2019 de diciembre     | 10.0.7     |   Crear impuestos digital - creación del informe de devolución de IVA para las empresas que informan como grupo de IVA dentro de la misma base de datos del sistema v.10 |
 
 
 
