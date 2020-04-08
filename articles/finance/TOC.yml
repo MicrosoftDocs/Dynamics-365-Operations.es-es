@@ -660,7 +660,7 @@
               href: expense-management/expense-report-distributions.md
             - name: Gastos de empresas vinculadas
               href: expense-management/intercompany-expense.md
-            - name: Directivas de gastos
+            - name: Definir directivas de gastos
               href: expense-management/travel-expense-policies.md
             - name: Visualización de un informe de gastos
               href: expense-management/view-expense-report.md
@@ -984,6 +984,8 @@
               href: project-management/project-contracts.md
             - name: Previsiones y presupuestos del proyecto
               href: project-management/project-forecasts-budgets.md
+            - name: Transferir presupuestos de proyecto al final del ejercicio
+              href: project-management/process-project-budgets-for-fiscal-year-end.md
             - name: Pedidos de ventas del proyecto
               href: project-management/project-sales-orders.md
             - name: Pedidos de compra para un proyecto
@@ -1646,6 +1648,12 @@
                       href: localizations/tasks/create-submit-vat-report.md
                 - name: Ver transacciones sobre la liquidación
                   href: localizations/emea-transactions-settlement-form.md
+            - name: Finlandia
+              items:
+                - name: Visión general de Finlandia
+                  href: localizations/finland.md
+                - name: Informe de pago de impuestos para Finlandia
+                  href: localizations/emea-fin-sales-tax-payment-report-finland.md
             - name: Francia
               items:
                 - name: Visión general de Francia
@@ -1696,6 +1704,8 @@
                   href: localizations/tasks/fr-00004-setup-method-payment.md
                 - name: Actualizar el método de pago en el cliente
                   href: localizations/tasks/fr-00004-update-method-payment-customer.md
+                - name: Informe DAS-2
+                  href: localizations/emea-fra-das2-report.md
             - name: Alemania
               items:
                 - name: Visión general de Alemania
@@ -1992,10 +2002,16 @@
                   href: localizations/emea-ita-exil-goods-for-free.md
                 - name: Consulta mejorada sobre liquidaciones de débito o crédito
                   href: localizations/emea-ita-exil-improved-inquiry-settlement.md
+                - name: Liquidación de comisión sobre pagos
+                  href: localizations/emea-ita-exil-commission-settlement.md
                 - name: Simulaciones de contabilidad general (Italia)
                   href: localizations/emea-ita-exil-general-ledger-simulations.md
+                - name: Perfiles de registro configurable para bancos y tipos de remesas
+                  href: localizations/emea-ita-exil-bank-remittance.md
                 - name: Certificación única
                   href: localizations/emea-ita-exil-unique-certification.md
+                - name: Importe de impago de letras de cambio
+                  href: localizations/emea-ita-exil-protest-boe.md
             - name: Japón
               items:
                 - name: Visión general de Japón
@@ -2460,6 +2476,8 @@
                       href: localizations/rus-inventory-cost-structure.md
                     - name: Asistente para ajustes de inventario
                       href: localizations/rus-inventory-adjustment-wizard.md
+                    - name: Informes de inventario
+                      href: localizations/rus-inventory-reports.md
                 - name: Informes
                   items:
                     - name: Informes financieros

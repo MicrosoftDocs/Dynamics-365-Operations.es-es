@@ -162,24 +162,52 @@
                               href: data-entities/dual-write/connection-setup.md
                             - name: Configuración de doble escritura de Lifecycle Services
                               href: data-entities/dual-write/lcs-setup.md
+                            - name: Sincronización inicial
+                              href: data-entities/dual-write/initial-sync.md
+                            - name: Habilitar doble escritura para aplicaciones de Finance and Operations existentes
+                              items:
+                                - name: Habilitar doble escritura para aplicaciones de Finance and Operations existentes
+                                  href: data-entities/dual-write/enable-dual-write.md
+                                - name: Requisitos y requisitos previos del sistema
+                                  href: data-entities/dual-write/requirements-and-prerequisites.md
+                                - name: Cómo usar el asistente de doble escritura para vincular sus entornos
+                                  href: data-entities/dual-write/link-your-environment.md
+                                - name: Habilitar mapa de entidad para doble escritura
+                                  href: data-entities/dual-write/enable-entity-map.md
+                        - name: Gestión de doble escritura
+                          items:
+                            - name: Personalizar asignaciones de entidad y campo
+                              href: data-entities/dual-write/customizing-mappings.md
+                            - name: Gestión de errores y notificaciones de alerta
+                              href: data-entities/dual-write/errors-and-alerts.md
+                            - name: Administración de ciclo de vida de la aplicación
+                              href: data-entities/dual-write/app-lifecycle-management.md
                         - name: Conceptos de asignación entre aplicaciones
                           items:
-                            - name: Jerarquía organizativa en Common Data Service
-                              href: data-entities/dual-write/organization-mapping.md
-                            - name: Integración de empresa
-                              items:
-                                - name: Concepto de empresa en Common Data Services
-                                  href: data-entities/dual-write/company-data.md
-                                - name: Arranque con datos de empresa
-                                  href: data-entities/dual-write/bootstrap-company-data.md
                             - name: Maestro de clientes integrado
                               href: data-entities/dual-write/customer-mapping.md
+                            - name: Integración del proveedor
+                              items:
+                                - name: Maestro de proveedores integrado
+                                  href: data-entities/dual-write/vendor-mapping.md
+                                - name: Cambiar entre diseños de proveedor
+                                  href: data-entities/dual-write/vendor-switch.md
+                            - name: Tarjetas de fidelización de clientes y puntos de recompensa
+                              href: data-entities/dual-write/loyalty-mapping.md
                             - name: Integración del producto
                               items:
                                 - name: Experiencia unificada del producto
                                   href: data-entities/dual-write/product-mapping.md
                                 - name: Sitios y almacenes integrados
                                   href: data-entities/dual-write/sites-warehouses-mapping.md
+                            - name: Integración de empresa
+                              items:
+                                - name: Concepto de empresa en Common Data Services
+                                  href: data-entities/dual-write/company-data.md
+                                - name: Arranque con datos de empresa
+                                  href: data-entities/dual-write/bootstrap-company-data.md
+                            - name: Jerarquía organizativa en Common Data Service
+                              href: data-entities/dual-write/organization-mapping.md
                             - name: Datos financieros y fiscales
                               items:
                                 - name: Acceso a datos financieros y de referencia fiscal
@@ -188,12 +216,8 @@
                                   href: data-entities/dual-write/ledger-mapping.md
                                 - name: Maestro de impuestos integrado
                                   href: data-entities/dual-write/tax-mapping.md
-                            - name: Integración del proveedor
-                              items:
-                                - name: Maestro de proveedores integrado
-                                  href: data-entities/dual-write/vendor-mapping.md
-                                - name: Cambiar entre diseños de proveedor
-                                  href: data-entities/dual-write/vendor-switch.md
+                            - name: Sincronizar con el motor de precios de Dynamics 365 Supply Chain Management a petición
+                              href: data-entities/dual-write/pricing-engine.md
                             - name: Cliente potencial a cliente en doble escritura
                               href: data-entities/dual-write/dual-write-prospect-to-cash.md
                             - name: Activos internos para mantenimiento
@@ -204,11 +228,25 @@
                           items:
                             - name: Compatibilidad para soluciones de Field Service y soluciones de Project Service Automation
                               href: data-entities/dual-write/field-service-project-service-automation.md
-                            - name: Sincronización inicial
-                              href: data-entities/dual-write/initial-sync.md
-                            - name: Solución de problemas de integración de datos
-                              href: data-entities/dual-write/dual-write-troubleshooting.md
-                    - name: Integración con Integrador de datos de Power Platform
+                            - name: Solución de problemas
+                              items:
+                                - name: Verificar que la doble escritura esté configurada en aplicaciones de Finance and Operations y Common Data Service
+                                  href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                                - name: Solucionar problemas durante la configuración inicial
+                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
+                                - name: Solucionar problemas durante la sincronización inicial
+                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
+                                - name: Solucionar problemas con el módulo de doble escritura en aplicaciones de Finance and Operations
+                                  href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
+                                - name: Solucionar problemas de sincronización en vivo
+                                  href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
+                                - name: Solucionar problemas relacionados con el conocimiento de la solución
+                                  href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
+                                - name: Solucionar problemas relacionados con actualizaciones de aplicaciones de Finance and Operations
+                                  href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
+                                - name: Solucionar problemas generales
+                                  href: data-entities/dual-write/dual-write-troubleshooting.md
+                    - name: Integración con Power Platform
                       items:
                         - name: Configurar un escenario de cliente potencial a cliente
                           items:
@@ -392,6 +430,8 @@
                       href: database/api/v1/reference-list-backups.md
                     - name: Crear actualización de base de datos
                       href: database/api/v1/reference-create-refresh.md
+                    - name: Crear un informe de base de datos
+                      href: database/api/v1/reference-create-export.md
                     - name: Obtener estado de actividad de la operación
                       href: database/api/v1/reference-get-status.md
         - name: Datos de demostración
@@ -1032,6 +1072,8 @@
                   href: lifecycle-services/planned-maintenance-window-faq.md
             - name: Supervisión y diagnóstico
               href: lifecycle-services/monitoring-diagnostics.md
+            - name: Informe de análisis de impacto
+              href: lifecycle-services/impact-analysis-report.md
             - name: Reiniciar servicios del entorno
               href: lifecycle-services/restart-environment-services.md
             - name: Notificar una interrupción de la producción
@@ -1396,6 +1438,10 @@
                   href: sysadmin/create-rules-optimization-advisor.md
             - name: Notificar una interrupción de la producción
               href: lifecycle-services/report-production-outage.md
+            - name: Configurar y administrar el registro de la base de datos
+              href: sysadmin/configure-manage-database-log.md
+            - name: Crear caché de metadatos OData cuando se inicie AOS
+              href: sysadmin/odata-warmup.md
         - name: 'Cambios a versión superior, actualizaciones y sustituciones'
           items:
             - name: 'Recursos de Cambios a versión superior, actualizaciones y sustituciones'
@@ -1426,7 +1472,7 @@
                   href: migration-upgrade/upgrade-go-live-prep.md
                 - name: 'Actualización de AX 2012: publicación'
                   href: migration-upgrade/2012-upgrade-cutover.md
-                - name: "Cambios que afectan a la actualización desde AX\_2012"
+                - name: Cambios que afectan a la actualización desde AX 2012
                   items:
                     - name: Hacer único el delimitador del plan de cuentas
                       href: migration-upgrade/chart-accounts-delimiter-unique.md

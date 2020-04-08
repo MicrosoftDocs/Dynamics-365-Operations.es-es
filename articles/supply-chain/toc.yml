@@ -70,6 +70,8 @@
                   items:
                     - name: Novedades o cambios de la página principal de Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management versión 10.0.10 (mayo de 2020)
+                      href: get-started/whats-new-scm-10-0-10.md
                     - name: Supply Chain Management versión 10.0.9 (abril de 2020)
                       href: get-started/whats-new-scm-10-0-9.md
                     - name: Supply Chain Management versión 10.0.8 (febrero de 2020)
@@ -2431,7 +2433,7 @@
                   href: warehousing/process-guide-framework.md
             - name: Actualizar y migrar
               items:
-                - name: Actualizar los procesos de gestión de almacenes desde Microsoft DynamicsAX 2012 a Finance and Operations
+                - name: Actualizar los procesos de gestión de almacenes desde Microsoft Dynamics AX 2012 a Finance and Operations
                   href: warehousing/upgrade-migration-warehouse-management-processes.md
             - name: Recibos para su registro y ubicación
               items:
