@@ -15,60 +15,60 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3aafb42cea1664b0629f57fe4492736601902cc1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 67f719d5990a4331559cab34412bf82f15eca735
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568267"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148363"
 ---
-# <a name="define-partial-location-cycle-counting-process"></a><span data-ttu-id="8c818-103">Definir proceso de recuento cíclico de ubicaciones parcial</span><span class="sxs-lookup"><span data-stu-id="8c818-103">Define partial location cycle counting process</span></span> 
+# <a name="define-partial-location-cycle-counting-process"></a><span data-ttu-id="32617-103">Definir proceso de recuento cíclico de ubicaciones parcial</span><span class="sxs-lookup"><span data-stu-id="32617-103">Define partial location cycle counting process</span></span> 
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="8c818-104">Al usar planes de recuento cíclico para crear trabajos de recuento, puede dirigir las operaciones de recuento en curso solicitando que solo los productos específicos y las variantes de producto se cuenten en lugar de todos los inventarios disponibles en la ubicación.</span><span class="sxs-lookup"><span data-stu-id="8c818-104">When you use cycle count plans to create counting work, you can guide the actual counting operations by requesting that only specific products and product variants be counted instead of all on-hand inventory at the location.</span></span> <span data-ttu-id="8c818-105">Al filtrar según productos específicos, el responsable del almacén puede reducir los costes generales de revisión, ayudar a evitar errores de consolidación y ahorrar tiempo.</span><span class="sxs-lookup"><span data-stu-id="8c818-105">By filtering on specific products, the warehouse manager can reduce review overhead, help prevent consolidation mistakes, and save time.</span></span> <span data-ttu-id="8c818-106">Normalmente, un administrador de almacén realiza las tareas de configuración.</span><span class="sxs-lookup"><span data-stu-id="8c818-106">Typically, a warehouse manager performs the setup tasks.</span></span> <span data-ttu-id="8c818-107">Puede explorar este procedimiento en los datos de la empresa de demostración USMF o utilizar sus propios datos.</span><span class="sxs-lookup"><span data-stu-id="8c818-107">You can go through this procedure in the USMF demo data company or in your own data.</span></span>
+<span data-ttu-id="32617-104">Al usar planes de recuento cíclico para crear trabajos de recuento, puede dirigir las operaciones de recuento en curso solicitando que solo los productos específicos y las variantes de producto se cuenten en lugar de todos los inventarios disponibles en la ubicación.</span><span class="sxs-lookup"><span data-stu-id="32617-104">When you use cycle count plans to create counting work, you can guide the actual counting operations by requesting that only specific products and product variants be counted instead of all on-hand inventory at the location.</span></span> <span data-ttu-id="32617-105">Al filtrar según productos específicos, el responsable del almacén puede reducir los costes generales de revisión, ayudar a evitar errores de consolidación y ahorrar tiempo.</span><span class="sxs-lookup"><span data-stu-id="32617-105">By filtering on specific products, the warehouse manager can reduce review overhead, help prevent consolidation mistakes, and save time.</span></span> <span data-ttu-id="32617-106">Normalmente, un administrador de almacén realiza las tareas de configuración.</span><span class="sxs-lookup"><span data-stu-id="32617-106">Typically, a warehouse manager performs the setup tasks.</span></span> <span data-ttu-id="32617-107">Puede explorar este procedimiento en los datos de la empresa de demostración USMF o utilizar sus propios datos.</span><span class="sxs-lookup"><span data-stu-id="32617-107">You can go through this procedure in the USMF demo data company or in your own data.</span></span>
 
 
-## <a name="create-a-cycle-counting-work-template"></a><span data-ttu-id="8c818-108">Cree una plantilla de trabajo de recuento cíclico</span><span class="sxs-lookup"><span data-stu-id="8c818-108">Create a cycle counting work template</span></span>
-1. <span data-ttu-id="8c818-109">Vaya a Gestión de almacenes > Configurar > Trabajo > Plantillas de trabajo.</span><span class="sxs-lookup"><span data-stu-id="8c818-109">Go to Warehouse management > Setup > Work > Work templates.</span></span>
-2. <span data-ttu-id="8c818-110">En el campo Tipo de pedido de trabajo, seleccione "Recuento cíclico".</span><span class="sxs-lookup"><span data-stu-id="8c818-110">In the Work order type field, select 'Cycle counting'.</span></span>
-3. <span data-ttu-id="8c818-111">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="8c818-111">Click New.</span></span>
-4. <span data-ttu-id="8c818-112">En el campo Número de secuencia, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="8c818-112">In the Sequence number field, enter a number.</span></span>
-    * <span data-ttu-id="8c818-113">El criterio de ordenación es del número más pequeño al número más grande.</span><span class="sxs-lookup"><span data-stu-id="8c818-113">The sort order is from the smallest number to the largest number.</span></span> <span data-ttu-id="8c818-114">El valor debe ser mayor que 0 (cero).</span><span class="sxs-lookup"><span data-stu-id="8c818-114">The value must be more than 0 (zero).</span></span>  
-5. <span data-ttu-id="8c818-115">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="8c818-115">In the list, mark the selected row.</span></span>
-6. <span data-ttu-id="8c818-116">En el campo Plantilla de trabajo, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="8c818-116">In the Work template field, type a value.</span></span>
-7. <span data-ttu-id="8c818-117">En el campo Descripción de la plantilla de trabajo, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="8c818-117">In the Work template description field, type a value.</span></span>
-8. <span data-ttu-id="8c818-118">En el campo Id. del grupo de trabajo, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="8c818-118">In the Work pool ID field, enter or select a value.</span></span>
-9. <span data-ttu-id="8c818-119">En el campo Prioridad de trabajo, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="8c818-119">In the Work priority field, enter a number.</span></span>
-10. <span data-ttu-id="8c818-120">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="8c818-120">Click Save.</span></span>
-11. <span data-ttu-id="8c818-121">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="8c818-121">Click New.</span></span>
-12. <span data-ttu-id="8c818-122">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="8c818-122">In the list, mark the selected row.</span></span>
-13. <span data-ttu-id="8c818-123">En el campo Tipo de trabajo, seleccione "Recuento".</span><span class="sxs-lookup"><span data-stu-id="8c818-123">In the Work type field, select 'Counting'.</span></span>
-14. <span data-ttu-id="8c818-124">En el campo Identificador de la clase de trabajo, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="8c818-124">In the Work class ID field, enter or select a value.</span></span>
-15. <span data-ttu-id="8c818-125">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="8c818-125">Click Save.</span></span>
-16. <span data-ttu-id="8c818-126">Haga clic en Saltos de línea de trabajo.</span><span class="sxs-lookup"><span data-stu-id="8c818-126">Click Work line breaks.</span></span>
-17. <span data-ttu-id="8c818-127">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="8c818-127">Click New.</span></span>
-18. <span data-ttu-id="8c818-128">En el campo Número de secuencia, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="8c818-128">In the Sequence number field, enter a number.</span></span>
-    * <span data-ttu-id="8c818-129">El criterio de ordenación es del número más pequeño al número más grande.</span><span class="sxs-lookup"><span data-stu-id="8c818-129">The sort order is from the smallest number to the largest number.</span></span> <span data-ttu-id="8c818-130">El valor debe ser mayor que 0 (cero).</span><span class="sxs-lookup"><span data-stu-id="8c818-130">The value must be more than 0 (zero).</span></span>  
-19. <span data-ttu-id="8c818-131">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="8c818-131">Click Save.</span></span>
-20. <span data-ttu-id="8c818-132">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="8c818-132">Close the page.</span></span>
-21. <span data-ttu-id="8c818-133">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="8c818-133">Close the page.</span></span>
+## <a name="create-a-cycle-counting-work-template"></a><span data-ttu-id="32617-108">Cree una plantilla de trabajo de recuento cíclico</span><span class="sxs-lookup"><span data-stu-id="32617-108">Create a cycle counting work template</span></span>
+1. <span data-ttu-id="32617-109">Vaya a Gestión de almacenes > Configurar > Trabajo > Plantillas de trabajo.</span><span class="sxs-lookup"><span data-stu-id="32617-109">Go to Warehouse management > Setup > Work > Work templates.</span></span>
+2. <span data-ttu-id="32617-110">En el campo Tipo de pedido de trabajo, seleccione "Recuento cíclico".</span><span class="sxs-lookup"><span data-stu-id="32617-110">In the Work order type field, select 'Cycle counting'.</span></span>
+3. <span data-ttu-id="32617-111">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="32617-111">Click New.</span></span>
+4. <span data-ttu-id="32617-112">En el campo Número de secuencia, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="32617-112">In the Sequence number field, enter a number.</span></span>
+    * <span data-ttu-id="32617-113">El criterio de ordenación es del número más pequeño al número más grande.</span><span class="sxs-lookup"><span data-stu-id="32617-113">The sort order is from the smallest number to the largest number.</span></span> <span data-ttu-id="32617-114">El valor debe ser mayor que 0 (cero).</span><span class="sxs-lookup"><span data-stu-id="32617-114">The value must be more than 0 (zero).</span></span>  
+5. <span data-ttu-id="32617-115">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="32617-115">In the list, mark the selected row.</span></span>
+6. <span data-ttu-id="32617-116">En el campo Plantilla de trabajo, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="32617-116">In the Work template field, type a value.</span></span>
+7. <span data-ttu-id="32617-117">En el campo Descripción de la plantilla de trabajo, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="32617-117">In the Work template description field, type a value.</span></span>
+8. <span data-ttu-id="32617-118">En el campo Id. del grupo de trabajo, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="32617-118">In the Work pool ID field, enter or select a value.</span></span>
+9. <span data-ttu-id="32617-119">En el campo Prioridad de trabajo, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="32617-119">In the Work priority field, enter a number.</span></span>
+10. <span data-ttu-id="32617-120">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="32617-120">Click Save.</span></span>
+11. <span data-ttu-id="32617-121">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="32617-121">Click New.</span></span>
+12. <span data-ttu-id="32617-122">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="32617-122">In the list, mark the selected row.</span></span>
+13. <span data-ttu-id="32617-123">En el campo Tipo de trabajo, seleccione "Recuento".</span><span class="sxs-lookup"><span data-stu-id="32617-123">In the Work type field, select 'Counting'.</span></span>
+14. <span data-ttu-id="32617-124">En el campo Identificador de la clase de trabajo, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="32617-124">In the Work class ID field, enter or select a value.</span></span>
+15. <span data-ttu-id="32617-125">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="32617-125">Click Save.</span></span>
+16. <span data-ttu-id="32617-126">Haga clic en Saltos de línea de trabajo.</span><span class="sxs-lookup"><span data-stu-id="32617-126">Click Work line breaks.</span></span>
+17. <span data-ttu-id="32617-127">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="32617-127">Click New.</span></span>
+18. <span data-ttu-id="32617-128">En el campo Número de secuencia, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="32617-128">In the Sequence number field, enter a number.</span></span>
+    * <span data-ttu-id="32617-129">El criterio de ordenación es del número más pequeño al número más grande.</span><span class="sxs-lookup"><span data-stu-id="32617-129">The sort order is from the smallest number to the largest number.</span></span> <span data-ttu-id="32617-130">El valor debe ser mayor que 0 (cero).</span><span class="sxs-lookup"><span data-stu-id="32617-130">The value must be more than 0 (zero).</span></span>  
+19. <span data-ttu-id="32617-131">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="32617-131">Click Save.</span></span>
+20. <span data-ttu-id="32617-132">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="32617-132">Close the page.</span></span>
+21. <span data-ttu-id="32617-133">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="32617-133">Close the page.</span></span>
 
-## <a name="create-a-cycle-counting-plan"></a><span data-ttu-id="8c818-134">Cree un plan de recuento cíclico</span><span class="sxs-lookup"><span data-stu-id="8c818-134">Create a cycle counting plan</span></span>
-1. <span data-ttu-id="8c818-135">Vaya a Administración de almacenes > Configuración > Recuento de ciclos > Planes de recuento cíclico.</span><span class="sxs-lookup"><span data-stu-id="8c818-135">Go to Warehouse management > Setup > Cycle counting > Cycle count plans.</span></span>
-2. <span data-ttu-id="8c818-136">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="8c818-136">Click New.</span></span>
-3. <span data-ttu-id="8c818-137">En el campo Id. de plan de recuento cíclico, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="8c818-137">In the Cycle counting plan ID field, type a value.</span></span>
-4. <span data-ttu-id="8c818-138">En el campo Descripción, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="8c818-138">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="8c818-139">En el campo Número máximo de recuentos cíclicos, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="8c818-139">In the Maximum number of cycle counts field, enter a number.</span></span>
-6. <span data-ttu-id="8c818-140">En el campo Plantilla de trabajo, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="8c818-140">In the Work template field, enter or select a value.</span></span>
-7. <span data-ttu-id="8c818-141">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="8c818-141">Click New.</span></span>
-8. <span data-ttu-id="8c818-142">En el campo Número de secuencia, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="8c818-142">In the Sequence number field, enter a number.</span></span>
-    * <span data-ttu-id="8c818-143">El criterio de ordenación es del número más pequeño al número más grande.</span><span class="sxs-lookup"><span data-stu-id="8c818-143">The sort order is from the smallest number to the largest number.</span></span> <span data-ttu-id="8c818-144">El valor debe ser mayor que 0 (cero).</span><span class="sxs-lookup"><span data-stu-id="8c818-144">The value must be more than 0 (zero).</span></span>  
-9. <span data-ttu-id="8c818-145">En el campo Descripción, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="8c818-145">In the Description field, type a value.</span></span>
-10. <span data-ttu-id="8c818-146">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="8c818-146">Click Save.</span></span>
-11. <span data-ttu-id="8c818-147">Haga clic en Definir consulta de producto.</span><span class="sxs-lookup"><span data-stu-id="8c818-147">Click Define product query.</span></span>
-12. <span data-ttu-id="8c818-148">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="8c818-148">In the list, mark the selected row.</span></span>
-13. <span data-ttu-id="8c818-149">En el campo Criterios, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="8c818-149">In the Criteria field, enter or select a value.</span></span>
-14. <span data-ttu-id="8c818-150">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="8c818-150">Click OK.</span></span>
-15. <span data-ttu-id="8c818-151">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="8c818-151">Close the page.</span></span>
+## <a name="create-a-cycle-counting-plan"></a><span data-ttu-id="32617-134">Cree un plan de recuento cíclico</span><span class="sxs-lookup"><span data-stu-id="32617-134">Create a cycle counting plan</span></span>
+1. <span data-ttu-id="32617-135">Vaya a Administración de almacenes > Configuración > Recuento de ciclos > Planes de recuento cíclico.</span><span class="sxs-lookup"><span data-stu-id="32617-135">Go to Warehouse management > Setup > Cycle counting > Cycle count plans.</span></span>
+2. <span data-ttu-id="32617-136">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="32617-136">Click New.</span></span>
+3. <span data-ttu-id="32617-137">En el campo Id. de plan de recuento cíclico, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="32617-137">In the Cycle counting plan ID field, type a value.</span></span>
+4. <span data-ttu-id="32617-138">En el campo Descripción, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="32617-138">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="32617-139">En el campo Número máximo de recuentos cíclicos, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="32617-139">In the Maximum number of cycle counts field, enter a number.</span></span>
+6. <span data-ttu-id="32617-140">En el campo Plantilla de trabajo, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="32617-140">In the Work template field, enter or select a value.</span></span>
+7. <span data-ttu-id="32617-141">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="32617-141">Click New.</span></span>
+8. <span data-ttu-id="32617-142">En el campo Número de secuencia, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="32617-142">In the Sequence number field, enter a number.</span></span>
+    * <span data-ttu-id="32617-143">El criterio de ordenación es del número más pequeño al número más grande.</span><span class="sxs-lookup"><span data-stu-id="32617-143">The sort order is from the smallest number to the largest number.</span></span> <span data-ttu-id="32617-144">El valor debe ser mayor que 0 (cero).</span><span class="sxs-lookup"><span data-stu-id="32617-144">The value must be more than 0 (zero).</span></span>  
+9. <span data-ttu-id="32617-145">En el campo Descripción, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="32617-145">In the Description field, type a value.</span></span>
+10. <span data-ttu-id="32617-146">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="32617-146">Click Save.</span></span>
+11. <span data-ttu-id="32617-147">Haga clic en Definir consulta de producto.</span><span class="sxs-lookup"><span data-stu-id="32617-147">Click Define product query.</span></span>
+12. <span data-ttu-id="32617-148">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="32617-148">In the list, mark the selected row.</span></span>
+13. <span data-ttu-id="32617-149">En el campo Criterios, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="32617-149">In the Criteria field, enter or select a value.</span></span>
+14. <span data-ttu-id="32617-150">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="32617-150">Click OK.</span></span>
+15. <span data-ttu-id="32617-151">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="32617-151">Close the page.</span></span>
 

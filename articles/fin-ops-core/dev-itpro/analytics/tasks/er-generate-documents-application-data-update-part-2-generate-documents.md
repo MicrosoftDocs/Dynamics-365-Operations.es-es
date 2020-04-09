@@ -15,47 +15,47 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9aec1da7fe168b05af10470221ac745ec1c01f6b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0ca80a2cc1e58723d1f1b39c1fde003fa990a93c
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182333"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142441"
 ---
-# <a name="design-configurations-to-generate-documents-that-have-application-data"></a><span data-ttu-id="05597-103">Diseñar configuraciones para generar documentos que tengan datos de la aplicación</span><span class="sxs-lookup"><span data-stu-id="05597-103">Design configurations to generate documents that have application data</span></span>
+# <a name="design-configurations-to-generate-documents-that-have-application-data"></a><span data-ttu-id="5a8b4-103">Diseñar configuraciones para generar documentos que tengan datos de la aplicación</span><span class="sxs-lookup"><span data-stu-id="5a8b4-103">Design configurations to generate documents that have application data</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="05597-104">Para completar los pasos de este procedimiento, primero debe completar el procedimiento, "ER: Generar documentos con la actualización de los datos de la aplicación (Parte 1: Configuraciones de importación)".</span><span class="sxs-lookup"><span data-stu-id="05597-104">To complete the steps in this procedure, you must first complete the procedure, ER Generate documents with application data update (Part 1: Import configurations).</span></span>
-
-
-
-<span data-ttu-id="05597-105">Los pasos de este procedimiento explican cómo diseñar las configuraciones de los informes electrónicos (ER) para generar un documento electrónico.</span><span class="sxs-lookup"><span data-stu-id="05597-105">The steps in this procedure explain how to design Electronic reporting (ER) configurations to generate an electronic document.</span></span> <span data-ttu-id="05597-106">En este procedimiento, ejecute la configuración del formato importado de ER que se ha creado para la empresa de ejemplo, Litware, Inc. para generar documentos electrónicos.</span><span class="sxs-lookup"><span data-stu-id="05597-106">In this procedure, you run the ER imported format configuration that has been created for the sample company, Litware, Inc. to generate electronic documents.</span></span>
+<span data-ttu-id="5a8b4-104">Para completar los pasos de este procedimiento, primero debe completar el procedimiento, "ER: Generar documentos con la actualización de los datos de la aplicación (Parte 1: Configuraciones de importación)".</span><span class="sxs-lookup"><span data-stu-id="5a8b4-104">To complete the steps in this procedure, you must first complete the procedure, ER Generate documents with application data update (Part 1: Import configurations).</span></span>
 
 
 
-<span data-ttu-id="05597-107">Este procedimiento se ha creado para los usuarios con los roles Administrador del sistema o Desarrollador de informes electrónicos asignados.</span><span class="sxs-lookup"><span data-stu-id="05597-107">This procedure is created for users with the assigned role of system administrator or electronic reporting developer.</span></span> <span data-ttu-id="05597-108">Estos pasos se pueden completar mediante el conjunto de datos de DEMF.</span><span class="sxs-lookup"><span data-stu-id="05597-108">These steps can be completed using the DEMF dataset.</span></span> 
+<span data-ttu-id="5a8b4-105">Los pasos de este procedimiento explican cómo diseñar las configuraciones de los informes electrónicos (ER) para generar un documento electrónico.</span><span class="sxs-lookup"><span data-stu-id="5a8b4-105">The steps in this procedure explain how to design Electronic reporting (ER) configurations to generate an electronic document.</span></span> <span data-ttu-id="5a8b4-106">En este procedimiento, ejecute la configuración del formato importado de ER que se ha creado para la empresa de ejemplo, Litware, Inc. para generar documentos electrónicos.</span><span class="sxs-lookup"><span data-stu-id="5a8b4-106">In this procedure, you run the ER imported format configuration that has been created for the sample company, Litware, Inc. to generate electronic documents.</span></span>
 
 
 
-<span data-ttu-id="05597-109">Antes de comenzar, cambie el contexto del país para la empresa de DEMF de Alemania (DEU) al Bélgica (BEL).</span><span class="sxs-lookup"><span data-stu-id="05597-109">Before you begin, change the country context for the DEMF company from DEU (Germany) to BEL (Belgium).</span></span> <span data-ttu-id="05597-110">Haga clic en Administración de organizaciones > Organizaciones > Entidades jurídicas para actualizar el código de país en la dirección principal de la entidad jurídica DEMF.</span><span class="sxs-lookup"><span data-stu-id="05597-110">Click Organization administration > Organizations > Legal entities to update the country code in the primary address of the legal entity DEMF.</span></span> <span data-ttu-id="05597-111">Reinicie la aplicación.</span><span class="sxs-lookup"><span data-stu-id="05597-111">Restart your application.</span></span>
+<span data-ttu-id="5a8b4-107">Este procedimiento se ha creado para los usuarios con los roles Administrador del sistema o Desarrollador de informes electrónicos asignados.</span><span class="sxs-lookup"><span data-stu-id="5a8b4-107">This procedure is created for users with the assigned role of system administrator or electronic reporting developer.</span></span> <span data-ttu-id="5a8b4-108">Estos pasos se pueden completar mediante el conjunto de datos de DEMF.</span><span class="sxs-lookup"><span data-stu-id="5a8b4-108">These steps can be completed using the DEMF dataset.</span></span> 
 
 
-## <a name="run-imported-er-format"></a><span data-ttu-id="05597-112">Ejecutar formato de ER importado</span><span class="sxs-lookup"><span data-stu-id="05597-112">Run imported ER format</span></span>
-1. <span data-ttu-id="05597-113">Vaya a Administración de la organización > Informes electrónicos > Configuraciones.</span><span class="sxs-lookup"><span data-stu-id="05597-113">Go to Organization administration > Electronic reporting > Configurations.</span></span>
-2. <span data-ttu-id="05597-114">En el árbol, expanda "Intrastat (modelo)".</span><span class="sxs-lookup"><span data-stu-id="05597-114">In the tree, expand 'Intrastat (model)'.</span></span>
-3. <span data-ttu-id="05597-115">En el árbol, seleccione "Intrastat (modelo)\Intrastat (formato)".</span><span class="sxs-lookup"><span data-stu-id="05597-115">In the tree, select 'Intrastat (model)\Intrastat (format)'.</span></span>
-4. <span data-ttu-id="05597-116">Haga clic en Ejecutar.</span><span class="sxs-lookup"><span data-stu-id="05597-116">Click Run.</span></span>
-    * <span data-ttu-id="05597-117">Ejecute la versión de borrador de la configuración del formato de ER para generar el informe de Intrastat.</span><span class="sxs-lookup"><span data-stu-id="05597-117">Run the draft version of the ER format configuration to generate the Intrastat report.</span></span>  
-5. <span data-ttu-id="05597-118">En el campo Especificar nombre de archivo, escriba“intrastat.xml”.</span><span class="sxs-lookup"><span data-stu-id="05597-118">In the Enter file name field, type 'intrastat.xml'.</span></span>
-    * <span data-ttu-id="05597-119">Especifique el nombre del archivo.</span><span class="sxs-lookup"><span data-stu-id="05597-119">Specify the name of the file.</span></span>  
-6. <span data-ttu-id="05597-120">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="05597-120">Click OK.</span></span>
-    * <span data-ttu-id="05597-121">Revise el archivo XML generado.</span><span class="sxs-lookup"><span data-stu-id="05597-121">Review the generated XML file.</span></span>  
-7. <span data-ttu-id="05597-122">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="05597-122">Close the page.</span></span>
-8. <span data-ttu-id="05597-123">Vaya a Impuestos > Declaraciones > Comercio exterior > Intrastat.</span><span class="sxs-lookup"><span data-stu-id="05597-123">Go to Tax > Declarations > Foreign trade > Intrastat.</span></span>
-    * <span data-ttu-id="05597-124">Abra este formulario para ver las transacciones de Intrastat que se incluyen en el documento electrónico generado.</span><span class="sxs-lookup"><span data-stu-id="05597-124">Open this form to view the Intrastat transactions that are included in the generated electronic document.</span></span>  
-9. <span data-ttu-id="05597-125">Haga clic en de archivo de Intrastat.</span><span class="sxs-lookup"><span data-stu-id="05597-125">Click Intrastat archive.</span></span>
-    * <span data-ttu-id="05597-126">Dado que el formato de informe electrónico ejecutado no contiene ningún valor para la actualización de los datos de la aplicación, los detalles del informe de Intrastat completado no se han almacenado.</span><span class="sxs-lookup"><span data-stu-id="05597-126">Because the executed ER format does not contain any settings for application data update, the details of the completed Intrastat report have not been archived.</span></span>  
-10. <span data-ttu-id="05597-127">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="05597-127">Close the page.</span></span>
-11. <span data-ttu-id="05597-128">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="05597-128">Close the page.</span></span>
+
+<span data-ttu-id="5a8b4-109">Antes de comenzar, cambie el contexto del país para la empresa de DEMF de Alemania (DEU) al Bélgica (BEL).</span><span class="sxs-lookup"><span data-stu-id="5a8b4-109">Before you begin, change the country context for the DEMF company from DEU (Germany) to BEL (Belgium).</span></span> <span data-ttu-id="5a8b4-110">Haga clic en Administración de organizaciones > Organizaciones > Entidades jurídicas para actualizar el código de país en la dirección principal de la entidad jurídica DEMF.</span><span class="sxs-lookup"><span data-stu-id="5a8b4-110">Click Organization administration > Organizations > Legal entities to update the country code in the primary address of the legal entity DEMF.</span></span> <span data-ttu-id="5a8b4-111">Reinicie la aplicación.</span><span class="sxs-lookup"><span data-stu-id="5a8b4-111">Restart your application.</span></span>
+
+
+## <a name="run-imported-er-format"></a><span data-ttu-id="5a8b4-112">Ejecutar formato de ER importado</span><span class="sxs-lookup"><span data-stu-id="5a8b4-112">Run imported ER format</span></span>
+1. <span data-ttu-id="5a8b4-113">Vaya a Administración de la organización > Informes electrónicos > Configuraciones.</span><span class="sxs-lookup"><span data-stu-id="5a8b4-113">Go to Organization administration > Electronic reporting > Configurations.</span></span>
+2. <span data-ttu-id="5a8b4-114">En el árbol, expanda "Intrastat (modelo)".</span><span class="sxs-lookup"><span data-stu-id="5a8b4-114">In the tree, expand 'Intrastat (model)'.</span></span>
+3. <span data-ttu-id="5a8b4-115">En el árbol, seleccione "Intrastat (modelo)\Intrastat (formato)".</span><span class="sxs-lookup"><span data-stu-id="5a8b4-115">In the tree, select 'Intrastat (model)\Intrastat (format)'.</span></span>
+4. <span data-ttu-id="5a8b4-116">Haga clic en Ejecutar.</span><span class="sxs-lookup"><span data-stu-id="5a8b4-116">Click Run.</span></span>
+    * <span data-ttu-id="5a8b4-117">Ejecute la versión de borrador de la configuración del formato de ER para generar el informe de Intrastat.</span><span class="sxs-lookup"><span data-stu-id="5a8b4-117">Run the draft version of the ER format configuration to generate the Intrastat report.</span></span>  
+5. <span data-ttu-id="5a8b4-118">En el campo Especificar nombre de archivo, escriba“intrastat.xml”.</span><span class="sxs-lookup"><span data-stu-id="5a8b4-118">In the Enter file name field, type 'intrastat.xml'.</span></span>
+    * <span data-ttu-id="5a8b4-119">Especifique el nombre del archivo.</span><span class="sxs-lookup"><span data-stu-id="5a8b4-119">Specify the name of the file.</span></span>  
+6. <span data-ttu-id="5a8b4-120">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="5a8b4-120">Click OK.</span></span>
+    * <span data-ttu-id="5a8b4-121">Revise el archivo XML generado.</span><span class="sxs-lookup"><span data-stu-id="5a8b4-121">Review the generated XML file.</span></span>  
+7. <span data-ttu-id="5a8b4-122">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="5a8b4-122">Close the page.</span></span>
+8. <span data-ttu-id="5a8b4-123">Vaya a Impuestos > Declaraciones > Comercio exterior > Intrastat.</span><span class="sxs-lookup"><span data-stu-id="5a8b4-123">Go to Tax > Declarations > Foreign trade > Intrastat.</span></span>
+    * <span data-ttu-id="5a8b4-124">Abra este formulario para ver las transacciones de Intrastat que se incluyen en el documento electrónico generado.</span><span class="sxs-lookup"><span data-stu-id="5a8b4-124">Open this form to view the Intrastat transactions that are included in the generated electronic document.</span></span>  
+9. <span data-ttu-id="5a8b4-125">Haga clic en de archivo de Intrastat.</span><span class="sxs-lookup"><span data-stu-id="5a8b4-125">Click Intrastat archive.</span></span>
+    * <span data-ttu-id="5a8b4-126">Dado que el formato de informe electrónico ejecutado no contiene ningún valor para la actualización de los datos de la aplicación, los detalles del informe de Intrastat completado no se han almacenado.</span><span class="sxs-lookup"><span data-stu-id="5a8b4-126">Because the executed ER format does not contain any settings for application data update, the details of the completed Intrastat report have not been archived.</span></span>  
+10. <span data-ttu-id="5a8b4-127">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="5a8b4-127">Close the page.</span></span>
+11. <span data-ttu-id="5a8b4-128">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="5a8b4-128">Close the page.</span></span>
 

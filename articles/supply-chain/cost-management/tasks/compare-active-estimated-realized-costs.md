@@ -17,26 +17,26 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1c2bc7c214ac8f9f6cbdc1ea3385b59f275dc6c9
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 47c87f47e200c06d750a713b1adafe18955478db
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845627"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3150493"
 ---
-# <a name="compare-active-estimated-and-realized-costs-on-a-production-order"></a><span data-ttu-id="06bcb-103">Comparar los costes activos, estimados y realizados en un pedido de producción</span><span class="sxs-lookup"><span data-stu-id="06bcb-103">Compare active, estimated, and realized costs on a production order</span></span>
+# <a name="compare-active-estimated-and-realized-costs-on-a-production-order"></a><span data-ttu-id="0b74a-103">Comparar los costes activos, estimados y realizados en un pedido de producción</span><span class="sxs-lookup"><span data-stu-id="0b74a-103">Compare active, estimated, and realized costs on a production order</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="06bcb-104">Este procedimiento muestra cómo ver los motivos de la alta desviación de producción para un pedido de producción.</span><span class="sxs-lookup"><span data-stu-id="06bcb-104">This procedure shows how to view reasons for high production variance for a production order.</span></span> <span data-ttu-id="06bcb-105">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="06bcb-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="06bcb-106">Este procedimiento se va a utilizar para el controlador de costes.</span><span class="sxs-lookup"><span data-stu-id="06bcb-106">This procedure is intended for the cost controller.</span></span>
+<span data-ttu-id="0b74a-104">Este procedimiento muestra cómo ver los motivos de la alta desviación de producción para un pedido de producción.</span><span class="sxs-lookup"><span data-stu-id="0b74a-104">This procedure shows how to view reasons for high production variance for a production order.</span></span> <span data-ttu-id="0b74a-105">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="0b74a-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="0b74a-106">Este procedimiento se va a utilizar para el controlador de costes.</span><span class="sxs-lookup"><span data-stu-id="0b74a-106">This procedure is intended for the cost controller.</span></span>
 
-1. <span data-ttu-id="06bcb-107">Haga clic en Administración de costes.</span><span class="sxs-lookup"><span data-stu-id="06bcb-107">Click Cost administration.</span></span>
-2. <span data-ttu-id="06bcb-108">En el campo Fecha, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="06bcb-108">In the Date field, enter or select a value.</span></span>
-    * <span data-ttu-id="06bcb-109">Este procedimiento usa el ejercicio 2012.</span><span class="sxs-lookup"><span data-stu-id="06bcb-109">This procedure uses the fiscal year 2012.</span></span> <span data-ttu-id="06bcb-110">Puede establecer la fecha Desde en el 1 de enero de 2012 y la fecha Hasta en el 31 de diciembre de 2012.</span><span class="sxs-lookup"><span data-stu-id="06bcb-110">You can set From date to January 1, 2012 and To date to December 31, 2012.</span></span>  
-3. <span data-ttu-id="06bcb-111">Haga clic en la ficha Desviaciones de producción superiores.</span><span class="sxs-lookup"><span data-stu-id="06bcb-111">Click the High production variances tab.</span></span>
-4. <span data-ttu-id="06bcb-112">Haga clic para seguir el vínculo en el campo Producción.</span><span class="sxs-lookup"><span data-stu-id="06bcb-112">Click to follow the link in the Production field.</span></span>
-    * <span data-ttu-id="06bcb-113">Haga clic en P000116 para seguir el vínculo en el campo Producción.</span><span class="sxs-lookup"><span data-stu-id="06bcb-113">Click P000116 to follow the link in the Production field.</span></span>  
-5. <span data-ttu-id="06bcb-114">En el panel de acciones, haga clic en Gestionar costes.</span><span class="sxs-lookup"><span data-stu-id="06bcb-114">On the Action Pane, click Manage costs.</span></span>
-6. <span data-ttu-id="06bcb-115">Haga clic en Ver comparación del coste.</span><span class="sxs-lookup"><span data-stu-id="06bcb-115">Click View cost comparison.</span></span>
-7. <span data-ttu-id="06bcb-116">Haga clic en Cerrar.</span><span class="sxs-lookup"><span data-stu-id="06bcb-116">Click Close.</span></span>
+1. <span data-ttu-id="0b74a-107">Haga clic en Administración de costes.</span><span class="sxs-lookup"><span data-stu-id="0b74a-107">Click Cost administration.</span></span>
+2. <span data-ttu-id="0b74a-108">En el campo Fecha, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="0b74a-108">In the Date field, enter or select a value.</span></span>
+    * <span data-ttu-id="0b74a-109">Este procedimiento usa el ejercicio 2012.</span><span class="sxs-lookup"><span data-stu-id="0b74a-109">This procedure uses the fiscal year 2012.</span></span> <span data-ttu-id="0b74a-110">Puede establecer la fecha Desde en el 1 de enero de 2012 y la fecha Hasta en el 31 de diciembre de 2012.</span><span class="sxs-lookup"><span data-stu-id="0b74a-110">You can set From date to January 1, 2012 and To date to December 31, 2012.</span></span>  
+3. <span data-ttu-id="0b74a-111">Haga clic en la ficha Desviaciones de producción superiores.</span><span class="sxs-lookup"><span data-stu-id="0b74a-111">Click the High production variances tab.</span></span>
+4. <span data-ttu-id="0b74a-112">Haga clic para seguir el vínculo en el campo Producción.</span><span class="sxs-lookup"><span data-stu-id="0b74a-112">Click to follow the link in the Production field.</span></span>
+    * <span data-ttu-id="0b74a-113">Haga clic en P000116 para seguir el vínculo en el campo Producción.</span><span class="sxs-lookup"><span data-stu-id="0b74a-113">Click P000116 to follow the link in the Production field.</span></span>  
+5. <span data-ttu-id="0b74a-114">En el panel de acciones, haga clic en Gestionar costes.</span><span class="sxs-lookup"><span data-stu-id="0b74a-114">On the Action Pane, click Manage costs.</span></span>
+6. <span data-ttu-id="0b74a-115">Haga clic en Ver comparación del coste.</span><span class="sxs-lookup"><span data-stu-id="0b74a-115">Click View cost comparison.</span></span>
+7. <span data-ttu-id="0b74a-116">Haga clic en Cerrar.</span><span class="sxs-lookup"><span data-stu-id="0b74a-116">Click Close.</span></span>
 

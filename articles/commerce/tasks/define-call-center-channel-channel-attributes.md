@@ -15,88 +15,88 @@ ms.search.region: Global
 ms.author: mumani
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 62075c01ad7e2a4c393e9658fa67f8b536654aec
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: a2f99029195a8b783f0d12990d4e8bab0bb348d7
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057191"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140974"
 ---
-# <a name="create-call-center-channels-and-define-channel-attributes"></a><span data-ttu-id="b7265-103">Crear canales del centro de llamadas y definir los atributos del canal</span><span class="sxs-lookup"><span data-stu-id="b7265-103">Create call center channels and define channel attributes</span></span>
+# <a name="create-call-center-channels-and-define-channel-attributes"></a><span data-ttu-id="0b214-103">Crear canales del centro de llamadas y definir los atributos del canal</span><span class="sxs-lookup"><span data-stu-id="0b214-103">Create call center channels and define channel attributes</span></span>
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="b7265-104">Este procedimiento le muestra cómo crear un nuevo canal de Commerce y definir atributos de canal.</span><span class="sxs-lookup"><span data-stu-id="b7265-104">This procedure walks through creating a new commerce channel and defining channel attributes.</span></span> <span data-ttu-id="b7265-105">La empresa de datos de prueba utilizada para crear esta tarea es USRT.</span><span class="sxs-lookup"><span data-stu-id="b7265-105">The demo data company used to create this task is USRT.</span></span> <span data-ttu-id="b7265-106">Este procedimiento se va a utilizar para el rol de TI de Commerce.</span><span class="sxs-lookup"><span data-stu-id="b7265-106">This procedure is intended for the Commerce IT role.</span></span>
+<span data-ttu-id="0b214-104">Este procedimiento le muestra cómo crear un nuevo canal de Commerce y definir atributos de canal.</span><span class="sxs-lookup"><span data-stu-id="0b214-104">This procedure walks through creating a new commerce channel and defining channel attributes.</span></span> <span data-ttu-id="0b214-105">La empresa de datos de prueba utilizada para crear esta tarea es USRT.</span><span class="sxs-lookup"><span data-stu-id="0b214-105">The demo data company used to create this task is USRT.</span></span> <span data-ttu-id="0b214-106">Este procedimiento se va a utilizar para el rol de TI de Commerce.</span><span class="sxs-lookup"><span data-stu-id="0b214-106">This procedure is intended for the Commerce IT role.</span></span>
 
 
-## <a name="create-new-store"></a><span data-ttu-id="b7265-107">Crear nueva tienda</span><span class="sxs-lookup"><span data-stu-id="b7265-107">Create new store</span></span>
-1. <span data-ttu-id="b7265-108">Vaya a Todos los espacios de trabajo > Implementación de canales.</span><span class="sxs-lookup"><span data-stu-id="b7265-108">Go to All workspaces > Channel deployment.</span></span>
-2. <span data-ttu-id="b7265-109">Haga clic en Nuevo canal.</span><span class="sxs-lookup"><span data-stu-id="b7265-109">Click New channel.</span></span>
-3. <span data-ttu-id="b7265-110">Haga clic en Tienda.</span><span class="sxs-lookup"><span data-stu-id="b7265-110">Click Store.</span></span>
-4. <span data-ttu-id="b7265-111">En el campo Nombre, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="b7265-111">In the Name field, type a value.</span></span>
-5. <span data-ttu-id="b7265-112">En el campo Número de tienda, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="b7265-112">In the Store number field, type a value.</span></span>
-6. <span data-ttu-id="b7265-113">En el campo Almacén, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="b7265-113">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
-7. <span data-ttu-id="b7265-114">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="b7265-114">In the list, find and select the desired record.</span></span>
-8. <span data-ttu-id="b7265-115">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="b7265-115">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="b7265-116">En el campo Zona horaria de la tienda, seleccione una opción.</span><span class="sxs-lookup"><span data-stu-id="b7265-116">In the Store time zone field, select an option.</span></span>
-10. <span data-ttu-id="b7265-117">En el campo Perfil de canal, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="b7265-117">In the Channel profile field, click the drop-down button to open the lookup.</span></span>
-11. <span data-ttu-id="b7265-118">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="b7265-118">In the list, click the link in the selected row.</span></span>
-12. <span data-ttu-id="b7265-119">En el campo Idioma, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="b7265-119">In the Language field, click the drop-down button to open the lookup.</span></span>
-13. <span data-ttu-id="b7265-120">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="b7265-120">In the list, find and select the desired record.</span></span>
-14. <span data-ttu-id="b7265-121">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="b7265-121">In the list, click the link in the selected row.</span></span>
-15. <span data-ttu-id="b7265-122">En el campo Grupo de impuestos, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="b7265-122">In the Sales tax group field, click the drop-down button to open the lookup.</span></span>
-16. <span data-ttu-id="b7265-123">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="b7265-123">In the list, find and select the desired record.</span></span>
-17. <span data-ttu-id="b7265-124">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="b7265-124">In the list, click the link in the selected row.</span></span>
-18. <span data-ttu-id="b7265-125">En el campo Libreta de direcciones de cliente, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="b7265-125">In the Customer address book field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="b7265-126">Seleccione la libreta de direcciones utilizada para vincular clientes a esta tienda.</span><span class="sxs-lookup"><span data-stu-id="b7265-126">Select the address book used to link customers to this store.</span></span>  
-19. <span data-ttu-id="b7265-127">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="b7265-127">In the list, find and select the desired record.</span></span>
-20. <span data-ttu-id="b7265-128">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="b7265-128">In the list, click the link in the selected row.</span></span>
-21. <span data-ttu-id="b7265-129">Haga clic en Seleccionar.</span><span class="sxs-lookup"><span data-stu-id="b7265-129">Click Select.</span></span>
-22. <span data-ttu-id="b7265-130">En el campo Libreta de direcciones de empleado, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="b7265-130">In the Employee address book field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="b7265-131">Seleccione la libreta de direcciones utilizada para cajeros clientes a esta canal.</span><span class="sxs-lookup"><span data-stu-id="b7265-131">Select the address book used to link cashiers to this channel.</span></span>  
-23. <span data-ttu-id="b7265-132">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="b7265-132">In the list, find and select the desired record.</span></span>
-24. <span data-ttu-id="b7265-133">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="b7265-133">In the list, click the link in the selected row.</span></span>
-25. <span data-ttu-id="b7265-134">Haga clic en Seleccionar.</span><span class="sxs-lookup"><span data-stu-id="b7265-134">Click Select.</span></span>
-26. <span data-ttu-id="b7265-135">En el campo Cliente predeterminado, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="b7265-135">In the Default customer field, click the drop-down button to open the lookup.</span></span>
-27. <span data-ttu-id="b7265-136">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="b7265-136">In the list, click the link in the selected row.</span></span>
-28. <span data-ttu-id="b7265-137">Expanda o contraiga la sección Diseño de pantalla.</span><span class="sxs-lookup"><span data-stu-id="b7265-137">Expand or collapse the Screen layout section.</span></span>
-29. <span data-ttu-id="b7265-138">En el campo Id. de diseño de pantalla, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="b7265-138">In the Screen layout ID field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="b7265-139">Seleccione el diseño de pantalla de POS predeterminado para esta tienda.</span><span class="sxs-lookup"><span data-stu-id="b7265-139">Select the default POS screen layout for this store.</span></span>  
-30. <span data-ttu-id="b7265-140">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="b7265-140">In the list, find and select the desired record.</span></span>
-31. <span data-ttu-id="b7265-141">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="b7265-141">In the list, click the link in the selected row.</span></span>
-32. <span data-ttu-id="b7265-142">En el panel de acciones, haga clic en Configurar.</span><span class="sxs-lookup"><span data-stu-id="b7265-142">On the Action Pane, click Set up.</span></span>
-33. <span data-ttu-id="b7265-143">Haga clic en Atributos del canal.</span><span class="sxs-lookup"><span data-stu-id="b7265-143">Click Channel attributes.</span></span>
-34. <span data-ttu-id="b7265-144">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="b7265-144">Click New.</span></span>
-35. <span data-ttu-id="b7265-145">En el campo Nombre, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="b7265-145">In the Name field, click the drop-down button to open the lookup.</span></span>
-36. <span data-ttu-id="b7265-146">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="b7265-146">In the list, find and select the desired record.</span></span>
-37. <span data-ttu-id="b7265-147">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="b7265-147">In the list, click the link in the selected row.</span></span>
-38. <span data-ttu-id="b7265-148">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="b7265-148">Click Save.</span></span>
-39. <span data-ttu-id="b7265-149">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="b7265-149">Close the page.</span></span>
-40. <span data-ttu-id="b7265-150">En el panel de acciones, haga clic en Configurar.</span><span class="sxs-lookup"><span data-stu-id="b7265-150">On the Action Pane, click Set up.</span></span>
-41. <span data-ttu-id="b7265-151">Haga clic en Métodos de pago.</span><span class="sxs-lookup"><span data-stu-id="b7265-151">Click Payment methods.</span></span>
-42. <span data-ttu-id="b7265-152">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="b7265-152">Click New.</span></span>
-43. <span data-ttu-id="b7265-153">En el campo Método de pago, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="b7265-153">In the Payment method field, click the drop-down button to open the lookup.</span></span>
-44. <span data-ttu-id="b7265-154">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="b7265-154">In the list, click the link in the selected row.</span></span>
-45. <span data-ttu-id="b7265-155">Expanda o contraiga la sección Registro.</span><span class="sxs-lookup"><span data-stu-id="b7265-155">Expand or collapse the Posting section.</span></span>
-46. <span data-ttu-id="b7265-156">En el campo Número de cuenta, especifique los valores deseados.</span><span class="sxs-lookup"><span data-stu-id="b7265-156">In the Account number field, specify the desired values.</span></span>
-47. <span data-ttu-id="b7265-157">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="b7265-157">Click Save.</span></span>
-48. <span data-ttu-id="b7265-158">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="b7265-158">Close the page.</span></span>
-49. <span data-ttu-id="b7265-159">En el panel de acciones, haga clic en Configurar.</span><span class="sxs-lookup"><span data-stu-id="b7265-159">On the Action Pane, click Set up.</span></span>
-50. <span data-ttu-id="b7265-160">Haga clic en Declaración de efectivo.</span><span class="sxs-lookup"><span data-stu-id="b7265-160">Click Cash declaration.</span></span>
-51. <span data-ttu-id="b7265-161">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="b7265-161">Click New.</span></span>
-52. <span data-ttu-id="b7265-162">En el campo Importe en divisa de la transacción, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="b7265-162">In the Amount in transaction currency field, enter a number.</span></span>
-53. <span data-ttu-id="b7265-163">En el campo Divisa, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="b7265-163">In the Currency field, click the drop-down button to open the lookup.</span></span>
-54. <span data-ttu-id="b7265-164">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="b7265-164">In the list, find and select the desired record.</span></span>
-55. <span data-ttu-id="b7265-165">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="b7265-165">In the list, click the link in the selected row.</span></span>
-56. <span data-ttu-id="b7265-166">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="b7265-166">Click Save.</span></span>
-57. <span data-ttu-id="b7265-167">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="b7265-167">Close the page.</span></span>
-58. <span data-ttu-id="b7265-168">En el panel de acciones, haga clic en Configurar.</span><span class="sxs-lookup"><span data-stu-id="b7265-168">On the Action Pane, click Set up.</span></span>
-59. <span data-ttu-id="b7265-169">Haga clic en Asignación del grupo de localizadores de almacén.</span><span class="sxs-lookup"><span data-stu-id="b7265-169">Click Store locator group assignment.</span></span>
-60. <span data-ttu-id="b7265-170">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="b7265-170">Click New.</span></span>
-61. <span data-ttu-id="b7265-171">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="b7265-171">In the list, mark the selected row.</span></span>
-62. <span data-ttu-id="b7265-172">En el campo Grupo de localizadores, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="b7265-172">In the Locator group field, click the drop-down button to open the lookup.</span></span>
-63. <span data-ttu-id="b7265-173">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="b7265-173">In the list, find and select the desired record.</span></span>
-64. <span data-ttu-id="b7265-174">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="b7265-174">In the list, click the link in the selected row.</span></span>
-65. <span data-ttu-id="b7265-175">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="b7265-175">Click Save.</span></span>
-66. <span data-ttu-id="b7265-176">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="b7265-176">Close the page.</span></span>
+## <a name="create-new-store"></a><span data-ttu-id="0b214-107">Crear nueva tienda</span><span class="sxs-lookup"><span data-stu-id="0b214-107">Create new store</span></span>
+1. <span data-ttu-id="0b214-108">Vaya a Todos los espacios de trabajo > Implementación de canales.</span><span class="sxs-lookup"><span data-stu-id="0b214-108">Go to All workspaces > Channel deployment.</span></span>
+2. <span data-ttu-id="0b214-109">Haga clic en Nuevo canal.</span><span class="sxs-lookup"><span data-stu-id="0b214-109">Click New channel.</span></span>
+3. <span data-ttu-id="0b214-110">Haga clic en Tienda.</span><span class="sxs-lookup"><span data-stu-id="0b214-110">Click Store.</span></span>
+4. <span data-ttu-id="0b214-111">En el campo Nombre, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="0b214-111">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="0b214-112">En el campo Número de tienda, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="0b214-112">In the Store number field, type a value.</span></span>
+6. <span data-ttu-id="0b214-113">En el campo Almacén, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="0b214-113">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="0b214-114">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="0b214-114">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="0b214-115">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="0b214-115">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="0b214-116">En el campo Zona horaria de la tienda, seleccione una opción.</span><span class="sxs-lookup"><span data-stu-id="0b214-116">In the Store time zone field, select an option.</span></span>
+10. <span data-ttu-id="0b214-117">En el campo Perfil de canal, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="0b214-117">In the Channel profile field, click the drop-down button to open the lookup.</span></span>
+11. <span data-ttu-id="0b214-118">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="0b214-118">In the list, click the link in the selected row.</span></span>
+12. <span data-ttu-id="0b214-119">En el campo Idioma, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="0b214-119">In the Language field, click the drop-down button to open the lookup.</span></span>
+13. <span data-ttu-id="0b214-120">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="0b214-120">In the list, find and select the desired record.</span></span>
+14. <span data-ttu-id="0b214-121">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="0b214-121">In the list, click the link in the selected row.</span></span>
+15. <span data-ttu-id="0b214-122">En el campo Grupo de impuestos, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="0b214-122">In the Sales tax group field, click the drop-down button to open the lookup.</span></span>
+16. <span data-ttu-id="0b214-123">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="0b214-123">In the list, find and select the desired record.</span></span>
+17. <span data-ttu-id="0b214-124">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="0b214-124">In the list, click the link in the selected row.</span></span>
+18. <span data-ttu-id="0b214-125">En el campo Libreta de direcciones de cliente, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="0b214-125">In the Customer address book field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="0b214-126">Seleccione la libreta de direcciones utilizada para vincular clientes a esta tienda.</span><span class="sxs-lookup"><span data-stu-id="0b214-126">Select the address book used to link customers to this store.</span></span>  
+19. <span data-ttu-id="0b214-127">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="0b214-127">In the list, find and select the desired record.</span></span>
+20. <span data-ttu-id="0b214-128">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="0b214-128">In the list, click the link in the selected row.</span></span>
+21. <span data-ttu-id="0b214-129">Haga clic en Seleccionar.</span><span class="sxs-lookup"><span data-stu-id="0b214-129">Click Select.</span></span>
+22. <span data-ttu-id="0b214-130">En el campo Libreta de direcciones de empleado, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="0b214-130">In the Employee address book field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="0b214-131">Seleccione la libreta de direcciones utilizada para cajeros clientes a esta canal.</span><span class="sxs-lookup"><span data-stu-id="0b214-131">Select the address book used to link cashiers to this channel.</span></span>  
+23. <span data-ttu-id="0b214-132">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="0b214-132">In the list, find and select the desired record.</span></span>
+24. <span data-ttu-id="0b214-133">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="0b214-133">In the list, click the link in the selected row.</span></span>
+25. <span data-ttu-id="0b214-134">Haga clic en Seleccionar.</span><span class="sxs-lookup"><span data-stu-id="0b214-134">Click Select.</span></span>
+26. <span data-ttu-id="0b214-135">En el campo Cliente predeterminado, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="0b214-135">In the Default customer field, click the drop-down button to open the lookup.</span></span>
+27. <span data-ttu-id="0b214-136">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="0b214-136">In the list, click the link in the selected row.</span></span>
+28. <span data-ttu-id="0b214-137">Expanda o contraiga la sección Diseño de pantalla.</span><span class="sxs-lookup"><span data-stu-id="0b214-137">Expand or collapse the Screen layout section.</span></span>
+29. <span data-ttu-id="0b214-138">En el campo Id. de diseño de pantalla, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="0b214-138">In the Screen layout ID field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="0b214-139">Seleccione el diseño de pantalla de POS predeterminado para esta tienda.</span><span class="sxs-lookup"><span data-stu-id="0b214-139">Select the default POS screen layout for this store.</span></span>  
+30. <span data-ttu-id="0b214-140">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="0b214-140">In the list, find and select the desired record.</span></span>
+31. <span data-ttu-id="0b214-141">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="0b214-141">In the list, click the link in the selected row.</span></span>
+32. <span data-ttu-id="0b214-142">En el panel de acciones, haga clic en Configurar.</span><span class="sxs-lookup"><span data-stu-id="0b214-142">On the Action Pane, click Set up.</span></span>
+33. <span data-ttu-id="0b214-143">Haga clic en Atributos del canal.</span><span class="sxs-lookup"><span data-stu-id="0b214-143">Click Channel attributes.</span></span>
+34. <span data-ttu-id="0b214-144">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="0b214-144">Click New.</span></span>
+35. <span data-ttu-id="0b214-145">En el campo Nombre, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="0b214-145">In the Name field, click the drop-down button to open the lookup.</span></span>
+36. <span data-ttu-id="0b214-146">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="0b214-146">In the list, find and select the desired record.</span></span>
+37. <span data-ttu-id="0b214-147">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="0b214-147">In the list, click the link in the selected row.</span></span>
+38. <span data-ttu-id="0b214-148">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="0b214-148">Click Save.</span></span>
+39. <span data-ttu-id="0b214-149">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="0b214-149">Close the page.</span></span>
+40. <span data-ttu-id="0b214-150">En el panel de acciones, haga clic en Configurar.</span><span class="sxs-lookup"><span data-stu-id="0b214-150">On the Action Pane, click Set up.</span></span>
+41. <span data-ttu-id="0b214-151">Haga clic en Métodos de pago.</span><span class="sxs-lookup"><span data-stu-id="0b214-151">Click Payment methods.</span></span>
+42. <span data-ttu-id="0b214-152">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="0b214-152">Click New.</span></span>
+43. <span data-ttu-id="0b214-153">En el campo Método de pago, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="0b214-153">In the Payment method field, click the drop-down button to open the lookup.</span></span>
+44. <span data-ttu-id="0b214-154">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="0b214-154">In the list, click the link in the selected row.</span></span>
+45. <span data-ttu-id="0b214-155">Expanda o contraiga la sección Registro.</span><span class="sxs-lookup"><span data-stu-id="0b214-155">Expand or collapse the Posting section.</span></span>
+46. <span data-ttu-id="0b214-156">En el campo Número de cuenta, especifique los valores deseados.</span><span class="sxs-lookup"><span data-stu-id="0b214-156">In the Account number field, specify the desired values.</span></span>
+47. <span data-ttu-id="0b214-157">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="0b214-157">Click Save.</span></span>
+48. <span data-ttu-id="0b214-158">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="0b214-158">Close the page.</span></span>
+49. <span data-ttu-id="0b214-159">En el panel de acciones, haga clic en Configurar.</span><span class="sxs-lookup"><span data-stu-id="0b214-159">On the Action Pane, click Set up.</span></span>
+50. <span data-ttu-id="0b214-160">Haga clic en Declaración de efectivo.</span><span class="sxs-lookup"><span data-stu-id="0b214-160">Click Cash declaration.</span></span>
+51. <span data-ttu-id="0b214-161">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="0b214-161">Click New.</span></span>
+52. <span data-ttu-id="0b214-162">En el campo Importe en divisa de la transacción, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="0b214-162">In the Amount in transaction currency field, enter a number.</span></span>
+53. <span data-ttu-id="0b214-163">En el campo Divisa, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="0b214-163">In the Currency field, click the drop-down button to open the lookup.</span></span>
+54. <span data-ttu-id="0b214-164">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="0b214-164">In the list, find and select the desired record.</span></span>
+55. <span data-ttu-id="0b214-165">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="0b214-165">In the list, click the link in the selected row.</span></span>
+56. <span data-ttu-id="0b214-166">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="0b214-166">Click Save.</span></span>
+57. <span data-ttu-id="0b214-167">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="0b214-167">Close the page.</span></span>
+58. <span data-ttu-id="0b214-168">En el panel de acciones, haga clic en Configurar.</span><span class="sxs-lookup"><span data-stu-id="0b214-168">On the Action Pane, click Set up.</span></span>
+59. <span data-ttu-id="0b214-169">Haga clic en Asignación del grupo de localizadores de almacén.</span><span class="sxs-lookup"><span data-stu-id="0b214-169">Click Store locator group assignment.</span></span>
+60. <span data-ttu-id="0b214-170">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="0b214-170">Click New.</span></span>
+61. <span data-ttu-id="0b214-171">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="0b214-171">In the list, mark the selected row.</span></span>
+62. <span data-ttu-id="0b214-172">En el campo Grupo de localizadores, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="0b214-172">In the Locator group field, click the drop-down button to open the lookup.</span></span>
+63. <span data-ttu-id="0b214-173">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="0b214-173">In the list, find and select the desired record.</span></span>
+64. <span data-ttu-id="0b214-174">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="0b214-174">In the list, click the link in the selected row.</span></span>
+65. <span data-ttu-id="0b214-175">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="0b214-175">Click Save.</span></span>
+66. <span data-ttu-id="0b214-176">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="0b214-176">Close the page.</span></span>
 
