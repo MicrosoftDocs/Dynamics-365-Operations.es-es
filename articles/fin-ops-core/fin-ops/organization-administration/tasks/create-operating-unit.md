@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 164b347e1c929f60762793799a500a7203f0f72f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 38db4a5f93f4b755cfd6fee43eaef27672551077
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189899"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143847"
 ---
 # <a name="create-an-operating-unit"></a>Creación de una unidad operativa
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Una unidad operativa es una organización que se usa para dividir el control de los recursos económicos y los procesos operativos de un negocio. Las personas de una unidad operativa tienen el deber de optimizar el uso de recursos escasos, mejorar los procesos y responder de su rendimiento. Los tipos de unidades operativas incluyen los centros de coste, las unidades de negocio, los flujos de valor y los departamentos. Realice el procedimiento siguiente para crear una unidad operativa. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 

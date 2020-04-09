@@ -16,16 +16,16 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 68475c96e7c85cc5a4c540441a4b1f3752ecf0bd
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5126868038801091c7a9c17eee78e31db322cbb7
+ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175110"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138885"
 ---
 # <a name="eur-00015-registration-of-vendor-vat-id"></a>EUR-00015 Registro de ID de IVA del proveedor
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimiento muestra cómo agregar identificadores de registro de IVA y un impuesto salvo el número en una cuenta de proveedor. Este proceso es similar para las entidades jurídicas y clientes. 
 

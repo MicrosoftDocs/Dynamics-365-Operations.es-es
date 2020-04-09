@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 494af854d408f0b0c02d753ff3d24eb3d6216fd9
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 07961d8613b6b5e0e1c5dc6a91b554305dcb17f5
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179751"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138170"
 ---
 # <a name="set-up-fixed-asset-posting-profiles"></a>Configuración de perfiles de registro de activos fijos
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Esta guía de la tarea configurará los perfiles de contabilización de activos fijos.  Usa el rol de contable y los datos de prueba de la entidad jurídica USMF.  Los ejemplos proporcionados en esta guía de la tarea son para un perfil de contabilización básico, aunque se deben crear perfiles de contabilización para sus requisitos específicos de plan de cuentas y de informes financieros.
 

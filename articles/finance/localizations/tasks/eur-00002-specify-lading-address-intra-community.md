@@ -16,16 +16,16 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6eea2a905a59842b6f39c5b1e1c78ae6801b28e0
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e555d6791f596850ba1ed718aa5593ee3f88bed9
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175113"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144521"
 ---
 # <a name="eur-00002-specifying-a-lading-address-for-an-intra-community-transaction"></a>EUR-00002 Especificación de una dirección de embarque para una transacción intracomunitaria
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimiento muestra cómo especificar una dirección de embarque para una transacción de comercio intracomunitario. Por ejemplo, una empresa de Alemania pide artículos de un proveedor con una dirección empresarial alemana. Este proveedor tiene un almacén en Italia y envía artículos desde ahí. Esta entrega se debe notificar en Intrastat. El mismo comportamiento es válido para las devoluciones del cliente.
 Este procedimiento se aplica a todos los países o regiones europeos. Esta tarea se ha creado con los datos de demostración de la empresa DEMF y con una dirección principal en Alemania. Para poder completar este procedimiento, debe configurar los informes Intrastat. Este procedimiento está pensado para contables. Este procedimiento es para una función que se ha agregado en la versión 1611 de Dynamics 365 for Operations.

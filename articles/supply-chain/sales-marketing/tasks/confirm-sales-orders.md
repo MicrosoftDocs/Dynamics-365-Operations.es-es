@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f9274a90ffbf6e5703d3ed97a8b974227b25c2a0
-ms.sourcegitcommit: 62d66f98d4bbf916e19184506b90055bb68d219f
+ms.openlocfilehash: 6383576302789d268d64edcbbe05305b03e956d0
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "1924387"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148722"
 ---
 # <a name="confirm-sales-orders"></a>Confirmar pedidos de ventas
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimiento muestra cómo confirmar pedidos de ventas. Se le mostrará cómo confirmar un solo pedido y cómo confirmar varios pedidos de una vez. Estas tareas las realizará normalmente la persona encargada de procesar los pedidos de ventas. Puede utilizar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos. Antes de empezar, asegúrese de que haya varios pedidos de ventas abiertos para el mismo cliente. Si está usando USMF, puede usar el cliente US-027.
 

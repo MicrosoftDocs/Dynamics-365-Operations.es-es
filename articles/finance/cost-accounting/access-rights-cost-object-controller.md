@@ -1,5 +1,5 @@
 ---
-title: Definir los derechos de acceso de un controlador de objeto de coste
+title: Derechos de acceso para controladores de objeto de coste
 description: Este tema proporciona información sobre los derechos de acceso para los controladores de objeto de coste.
 author: AndersGirke
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e86f087a1df0f133dbaa5491cf5ba9e57b0e12d9
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: af6ddc86bb6313387aa9c6ccc347d2a1c5fac50a
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551735"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154491"
 ---
-# <a name="define-access-rights-for-cost-object-controllers"></a>Definir los derechos de acceso de un controlador de objeto de coste
+# <a name="access-rights-for-cost-object-controllers"></a>Derechos de acceso para controladores de objeto de coste
 
 [!include [banner](../includes/banner.md)]
 

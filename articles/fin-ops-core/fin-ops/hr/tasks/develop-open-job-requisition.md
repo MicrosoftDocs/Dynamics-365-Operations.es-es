@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 556f99d34521cce70efb64c5fbababd815e8429d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 55260a4d25f41bc649f5e1f1f8c950c6b438ecfb
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190474"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144050"
 ---
 # <a name="develop-and-open-job-requisition"></a>Desarrollar y abrir solicitudes de trabajo
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Los proyectos de contratación ayudan a gestionar el proceso de contratación. Se puede configurar la información de cada proyecto de contratación, como el trabajo para el que se está contratando personal, el nombre de la persona a cargo de la contratación, el estado del proyecto y el departamento en el cual se realizará el trabajo en cuestión. Tras crear un proyecto de contratación, puede escribir un anuncio de trabajo para el proyecto, publicarlo en las páginas de autoservicio del empleado, asociar solicitudes de empleo con el proyecto y realizar un seguimiento de las actividades del proyecto. La empresa de datos de prueba utilizada para crear este procedimiento es USMF. Para iniciar el procedimiento, vaya a Recursos humanos > Contratación > Proyectos de contratación > Proyectos de contratación
 

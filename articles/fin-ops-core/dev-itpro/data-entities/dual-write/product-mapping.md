@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 9593e8e54b18c6fe723a133eca699a30baabfdd0
-ms.sourcegitcommit: e0e013fa8a4cc994ef6d1e0a1a3389b36b5afffa
+ms.openlocfilehash: 7de7af1084b62a7248eeda54df215e56f2541286
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "3081160"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3173209"
 ---
 # <a name="unified-product-experience"></a>Experiencia unificada del producto
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
+
 
 Cuando un ecosistema de negocio está compuesto de aplicaciones de Dynamics 365, como Finance, Supply Chain Management y Sales, los negocios a menudo usan estas aplicaciones en los datos del producto de origen. Esto se debe a que estas aplicaciones proporcionan una infraestructura robusta de producto complementada con conceptos sofisticados de precios y datos de inventario disponibles exactos. Las empresas que usan un sistema externo de (PLM) de administración del ciclo de vida del producto para abastecer los datos del producto pueden pasar productos de Finance and Operations a otras aplicaciones de Dynamics 365. La experiencia unificada de producto lleva el modelo de datos del producto integrado a Common Data Service, de modo que todos los usuarios de aplicación incluidos los usuarios de Power Platform puedan aprovechar la riqueza de datos de producto que procede de aplicaciones de Finance and Operations.
 
@@ -52,7 +52,7 @@ Los mapas de entidad de escritura dual para productos se diseñaron para que los
 
 La información de producto contiene toda la información relacionada con el producto y la definición, como las dimensiones del producto o el seguimiento y las dimensiones de almacenamiento. Como la tabla siguiente muestra, una colección de mapas de la entidad se crea para sincronizar los productos y la información relacionada.
 
-Finance and Operations | Otras aplicaciones de Dynamics 365 | Descripción
+Aplicaciones de Finance and Operations | Otras aplicaciones de Dynamics 365 | Descripción
 -----------------------|--------------------------------|---
 Productos liberados V2 | msdyn\_sharedproductdetails | La entidad **msdyn\_sharedproductdetails** contiene los campos de las aplicaciones de Finance and Operations que definen el producto y que contienen la información de administración y financiera del producto. 
 Productos únicos emitidos por Common Data Service | Producto | La entidad **Product** contiene los campos que definen el producto. Incluye productos individuales (productos con producto del subtipo) y las variantes de producto. La tabla siguiente muestra las correlaciones.
@@ -75,8 +75,8 @@ Unidad | uoms
 Conversiones de unidades | msdyn_ unitofmeasureconversions
 Conversión de unidad de medida específica del producto | msdyn_productspecificunitofmeasureconversion
 Categorías de productos | msdyn_productcategories | Cada una de las categorías de productos e información acerca de su estructura y funciones se incluyen en la entidad de categoría de producto. 
-Jerarquías de categorías de producto | msdyn_productcategoryhierarhies | Use las jerarquías de producto para clasificar o para agrupar productos. Las jerarquías de categorías están disponibles en Common Data Service mediante la entidad de jerarquía de categoría de Product. 
-Roles de jerarquía de categorías de producto | msdyn_productcategoryhierarchies | Las jerarquías de producto se pueden usar para distintos roles en D365 Finance and Operations. Especificar qué categoría se usa en cada rol en que la entidad de rol de categoría de producto se utiliza. 
+Jerarquías de categorías de producto | msdyn_productcategoryhierarhies | Use jerarquías de productos para categorizar o agrupar productos. Las jerarquías de categorías están disponibles en Common Data Service utilizando la entidad de jerarquía de categoría de producto. 
+Roles de jerarquía de categorías de producto | msdyn_productcategoryhierarchies | Las jerarquías de producto se pueden usar para distintos roles en D365 Finance and Operations. Especifican qué categoría se usa en cada rol en que la entidad de rol de categoría de producto se utiliza. 
 Asignaciones de categorías de producto | msdyn_productcategoryassignments | Para asignar un producto a una categoría se puede usar la entidad de asignaciones de categorías de producto.
 
 ## <a name="integration-of-products"></a>Integración de productos
@@ -153,7 +153,7 @@ El concepto de unidad de medida está integrado entre aplicaciones de Finance an
 
 [!include [unit of measure conversions](includes/UnitOfMeasureConversionEntity-msdyn-unitofmeasureconversions.md)]
 
-[!include [product specific unit of measure conversions](includes/EcoResProductSpecificUnitConversionEntity-msdyn-productspecificunitofmeasureconversions.md)]
+[!include [product-specific unit of measure conversions](includes/EcoResProductSpecificUnitConversionEntity-msdyn-productspecificunitofmeasureconversions.md)]
 
 ## <a name="initial-synchronization-of-units-data-matching-between-finance-and-operations-and-common-data-service"></a>Sincronización inicial de datos de unidades coincidentes entre Finance and Operations y Common Data Service
 
@@ -203,7 +203,7 @@ Las directivas de producto son conjuntos de directivas que se usan para definir 
 
 Para identificar de forma única productos entre Dynamics 365 for Finance and Operations y productos de Common Data Service las claves de integración se usan. Para los productos, **(productnumber)** es la clave única que identifica un producto en Common Data Service. Está compuesto por la concatenación de: **(empresa, msdyn_productnumber)**. **empresa** indica la entidad jurídica en Finance and Operations y **msdyn_productnumber** indica el número de producto del producto específico en Finance and Operations. 
 
-Para otro usuario de aplicaciones de Dynamics 365, el producto se identifica en la interfaz de usuario con **msdyn_productnumber** (tenga en cuenta que la etiqueta del campo es **Número de producto**). En el formulario de producto se muestran la empresa y el msydn_productnumber. Sin embargo, el campo (productnumber), la clave única para un producto, no se muestra. 
+Para usuarios de otras aplicaciones de Dynamics 365, el producto se identifica en la interfaz de usuario con **msdyn_productnumber** (tenga en cuenta que la etiqueta del campo es **Número de producto**). En el formulario de producto se muestran la empresa y el msydn_productnumber. Sin embargo, el campo (productnumber), la clave única para un producto, no se muestra. 
 
 Si construye aplicaciones en Common Data Service, debe prestar atención al uso de **Número de producto** (el ID de producto único) como clave de integración. No utilice **msdyn_productnumber**, porque no es único. 
 

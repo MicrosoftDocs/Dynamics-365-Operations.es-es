@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 035f6e3b0268f8ee4c9006ca5f0527133cf2771c
-ms.sourcegitcommit: 69f8233e86b32347474a25d83b4ac5920f60407d
+ms.openlocfilehash: 22e67aa051b5ea8267df7efac40e007d0f11a83d
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2538487"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141117"
 ---
 # <a name="set-up-postdated-checks"></a>Configuración de cheques con pago diferido
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 En este tema se explica cómo especificar si desea registrar entradas de diario para cheques con fecha futura y qué diarios de registro desea usar para liquidar entradas y pagos de proveedor. También puede especificar cuentas de compensación para cheques emitidos, cheques recibidos y retención de impuestos. Cheques con fecha futura que se emiten con el fin de realizar y recibir pagos en una fecha futura. Puede especificar si el cheque debe reflejarse en los libros financieros antes de la fecha de vencimiento.
 

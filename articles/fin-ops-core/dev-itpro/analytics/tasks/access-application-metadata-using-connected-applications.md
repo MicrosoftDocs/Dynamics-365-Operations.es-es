@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5020b523ca5d76d36f7436a8f43e8629c029e3e8
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 28b8346b916729669af42ca47fe9a882e7a77bd0
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769887"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142210"
 ---
 # <a name="access-application-metadata-by-using-connected-applications"></a>Acceder a metadatos de la aplicación mediante el uso de aplicaciones conectadas
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-En los pasos siguientes se explica cómo un usuario de Regulatory Configuration Service (RCS) con el rol de administrador del sistema o de desarrollador de informes electrónicos puede diseñar una nueva asignación de modelo de informes electrónicos (ER) mediante el uso de los metadatos de Finance and Operations. Se accederá en línea a los metadatos de la aplicación mediante el uso de la aplicación conectada de RCS. La asignación del modelo de ER de ejemplo se configurará para acceder a transacciones de comercio exterior. Para completar estos pasos, en RCS primero debe completar los pasos del tema [Crear proveedores de configuración y marcarlos como activos](er-configuration-provider-mark-it-active-2016-11.md). Si no ha completado los pasos del tema [Acceder a metadatos de la aplicación mediante el uso de la configuración de ER](access-application-metadata-er-configuration.md), vaya a la [Página de ejemplos de informes electrónicos](https://go.microsoft.com/fwlink/?linkid=862266) para descargar y guardar las siguientes configuraciones de ER: Metadatos de comercio exterior.xml; Modelo de comercio exterior.xml; Asignación de comercio exterior.xml y, a continuación, complete los pasos del procedimiento.
+En los pasos siguientes se explica cómo un usuario de Regulatory Configuration Service (RCS) con el rol de administrador del sistema o de desarrollador de informes electrónicos puede diseñar una nueva asignación de modelo de informes electrónicos (ER) mediante el uso de metadatos en Finance and Operations. Se accederá en línea a los metadatos de la aplicación mediante el uso de la aplicación conectada de RCS. La asignación del modelo de ER de ejemplo se configurará para acceder a transacciones de comercio exterior. Para completar estos pasos, en RCS primero debe completar los pasos del tema [Crear proveedores de configuración y marcarlos como activos](er-configuration-provider-mark-it-active-2016-11.md). Si no ha completado los pasos del tema [Acceder a metadatos de la aplicación mediante el uso de la configuración de ER](access-application-metadata-er-configuration.md), vaya a la [Página de ejemplos de informes electrónicos](https://go.microsoft.com/fwlink/?linkid=862266) para descargar y guardar las siguientes configuraciones de ER: Metadatos de comercio exterior.xml; Modelo de comercio exterior.xml; Asignación de comercio exterior.xml y, a continuación, complete los pasos del procedimiento.
 
 ## <a name="prerequisites"></a>Requisitos previos
 1. Vaya a **Todos los espacios de trabajo** > **Informes electrónicos**. 
@@ -58,7 +58,7 @@ En los pasos siguientes se explica cómo un usuario de Regulatory Configuration 
 6. Haga clic en **Nuevo**. 
 7. En el campo **Nombre**, escriba 'MyConnectedApp'. 
 8. En el campo **Aplicación**, escriba 'https:// mycompany.operations.dynamics.com'. 
-9. En el campo **Inquilino**, escriba ‘mycompany.onmicrosoft.com’. 
+9. En el campo **Inquilino**, escriba "mycompany.onmicrosoft.com". 
 10. Haga clic en **Guardar**. 
 11. Cuando compruebe la conexión a la aplicación configurada, en la página **Conectar con aplicación remota**, haga clic en el vínculo **Haga clic aquí para conectarse a la aplicación remota seleccionada**. 
 12. Haga clic en **Comprobar conexión**. 

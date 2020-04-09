@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 25f84d960be4f4e8ff1b569d00b356390c232a2c
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 39e3c208ec98bc79a72b902b67be24c0cf891e31
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003913"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147558"
 ---
 # <a name="release-a-productproduct-master-to-legal-entities"></a>Liberar un producto o un producto maestro a otras entidades jurídicas
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimiento le muestra cómo liberar un producto o a un producto maestro en una o más entidades jurídicas. La empresa de datos de prueba utilizada para crear esta tarea es USRT y la tarea está pensada para el encargado de comercialización y el diseñador de productos.
 

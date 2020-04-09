@@ -16,16 +16,16 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6f86c0f7c60731819ad9389e5b4de617b375275e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 093956eec8062f6e555c98eb5594d9c4f27c2a91
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183563"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144925"
 ---
 # <a name="mx-00010-set-parameters-for-an-electronic-invoice"></a>MX-00010 Definir parámetros para una factura electrónica
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimiento muestra cómo configurar una factura electrónica y la cuenta de PAC para obtener la aprobación y el sello digital. Este procedimiento solo se puede completar con entidades jurídicas con dirección principal en México. Este procedimiento se creó con los datos de demostración de la empresa MXMF. Los certificados que se utilizan para cifrar el mensaje XML deben haberse instalado anteriormente, y el archivo XSD de esquema se debe haber copiado en la aplicación también antes de comenzar este procedimiento.
 

@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cb6c8175776e4f8ebf59769b904275970dd918f2
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 02feb730b3fd4715516b11de42bd69d411f712ee
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1837696"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149076"
 ---
 # <a name="define-production-flow-models"></a>Definir modelos de flujo de producción
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Los modelos de flujo de producción describen cómo se calcula y mantienen la capacidad de celdas de trabajo de lean manufacturing. Por tanto, la definición de un modelo de flujo de producción es un requisito previo de la definición de las celdas de trabajo. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 

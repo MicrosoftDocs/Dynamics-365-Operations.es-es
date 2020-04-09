@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 500aa71e57f9c1ac8d1a2a080468381bc248741c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 074a1b80584050302920a95c20fb547523a4866c
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187024"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142924"
 ---
 # <a name="calculate-fixed-asset-depreciation-across-legal-entities"></a>Calcular la amortización de activos fijos en las entidades jurídicas
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 La depreciación de activos fijos se puede ejecutar en entidades jurídicas en un solo paso. Este procedimiento muestra cómo establecer y ejecutar el proceso para varias entidades jurídicas. Usa el rol de contable y los datos de prueba de la entidad jurídica USMF.
 

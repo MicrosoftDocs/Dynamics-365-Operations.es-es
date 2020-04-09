@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 278cfe89181efbbb934e108708db8fc29c25ab62
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: dd2ce6b223c99d890691d5fdb9f93a5ceaf33a0d
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124414"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154189"
 ---
 # <a name="peripherals"></a>Periféricos
 
@@ -158,7 +158,7 @@ Las cajas registradoras, las impresoras de recibos y los terminales de pago gest
 
 ### <a name="dedicated"></a>Dedicada
 
-Los clientes de Modern POS para Windows y Android incluyen estaciones de hardware **dedicadas** o integradas. Esos clientes pueden comunicarse directamente con los periféricos utilizando la lógica de negocios que está integrada en las aplicaciones. La aplicación Android solo admite dispositivos de red. Para más información sobre soporte periférico para Android, visite el artículo [Configurar la aplicación POS hybrid en Android e iOS](https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp).
+Los clientes de Modern POS para Windows y Android incluyen estaciones de hardware **dedicadas** o integradas. Esos clientes pueden comunicarse directamente con los periféricos utilizando la lógica de negocios que está integrada en las aplicaciones. La aplicación Android solo admite dispositivos de red. Para más información sobre soporte periférico para Android, visite el artículo [Configurar la aplicación POS hybrid en Android e iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
 
 Para usar la estación de hardware dedicada, asigne un perfil de hardware a un registro que usará Modern POS para las aplicaciones de Windows o Android. A continuación, cree una estación de hardware de tipo **Dedicado** para la tienda donde se usará el registro. Inicie Modern POS en modo sin caja registradora y use la operación **Gestionar estaciones de hardware** para activar las capacidades de la estación de hardware, la estación de hardware dedicada estará activa de manera predeterminada. A continuación, cierre sesión en Modern POS, vuelva a iniciar sesión y abra un turno y los periféricos configurados en el perfil de hardware se podrán utilizar. 
 
@@ -199,7 +199,7 @@ Para obtener información, consulte [Configurar, instalar y activar Modern POS (
 
 ### <a name="modern-pos-for-android-and-ios-setup-and-configuration"></a>Establecimiento y configuración de Modern POS para Android e iOS
 
-Para obtener más información, consulte [Configurar una aplicación de POS Hybrid en Android e iOS](https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp).
+Para obtener más información, consulte [Configurar una aplicación de POS Hybrid en Android e iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
 
 ### <a name="opos-device-setup-and-configuration"></a>Establecimiento y configuración del dispositivo de OPDV
 
@@ -494,7 +494,7 @@ Esta configuración es la más típica para los registros tradicionales y fijos 
 
 ### <a name="modern-pos-for-android-with-an-ipc-built-in-hardware-station"></a>Modern POS para Android con una estación de hardware de IPC (integrado)
 
-**Novedad para 10.0.8**: las impresoras de red Epson y las cajas registradoras conectadas a esas impresoras a través del puerto DK ahora son compatibles con la aplicación Modern POS para Android Para obtener más información, visite el artículo [Configurar una aplicación de POS Hybrid en Android e iOS](https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp).
+**Novedad para 10.0.8**: las impresoras de red Epson y las cajas registradoras conectadas a esas impresoras a través del puerto DK ahora son compatibles con la aplicación Modern POS para Android Para obtener más información, visite el artículo [Configurar una aplicación de POS Hybrid en Android e iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
 
 ### <a name="all-modern-pos-clients-that-have-a-committed-shared-iis-hardware-station"></a>Todos los clientes de Modern POS que tienen una estación de hardware de IIS compartida comprometida
 

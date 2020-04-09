@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: pjacobse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fe0fd9a7c27efb71f15cca9d3a0341b550bf9698
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: ba64093dfe9ca28108456641ad17b5eda23d7f49
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916689"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148225"
 ---
 # <a name="trace-an-item-or-raw-material"></a>Realizar el seguimiento de un artículo o una materia prima
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimiento muestra cómo usar el seguimiento de artículos para identificar dónde se han usado los artículos o las materias primas o dónde se están usando. Con este procedimiento, puede identificar un artículo, realizar un seguimiento de él hasta el origen y después, hacia la producción y la venta del producto terminado. El proceso se puede usar para investigar los clientes y los pedidos de ventas afectados, entre otros. Este procedimiento usa la empresa de datos de demostración USP2.
 
@@ -48,7 +48,7 @@ El nodo superior del árbol representa la cantidad disponible del artículo y de
     Expanda: "P9100 / 1 / 10 / as-12-344-01 ● 2 keg ● 7,00 gal  \P9100 ● Seleccionado ● Pedido de venta 000072 ● 12/22/2015  ● -1 keg ● -4.00 gal ● Sitio=1, Almacén=10, Número de lote=as-12-344-01  \P9100 ● Producción B-000050 ● 12/9/2015● 7 keg ● 27.00 gal ● Sitio=1,Almacén=10,Número de lote=as-12-344-01 ● Productos asociados: P9101' y después seleccione ese nodo.     
 2. En el árbol, expanda "el nodo descrito a continuación y después seleccione ese nodo".
     
-    Empezando por el nodo que acaba de seleccionar, expanda "M9103 ● Línea de producción B-000050 ● 12/9/2015  ● -160.00 lb ● Tamaño=70, Color=Aceptar, Sitio=1, Almacén=10, Número de lote=App01' y a continuación seleccione ese nodo.  
+    Empezando por el nodo que acaba de seleccionar, expanda "M9103 ● Línea de producción B-000050 ● 12/9/2015 ● -160,00 lb ● Tamaño=70, Color=Aceptar, Sitio=1, Almacén=10, Número de lote=App01" y a continuación seleccione ese nodo.  
 3. Haga clic en **Hacer seguimiento a partir del nodo**.
 4. Haga clic en **Hacia adelante.**
 5. En el **Panel de acciones**, haga clic en **Seguimiento**.

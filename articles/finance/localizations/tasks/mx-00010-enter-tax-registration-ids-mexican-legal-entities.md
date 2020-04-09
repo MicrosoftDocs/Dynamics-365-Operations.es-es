@@ -16,16 +16,16 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8d0dc04962e1e34584c7c6a7dc55ae096ad324bc
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2f669c07a064bbc414adad67767ac256ddbbdd39
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174610"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3137987"
 ---
 # <a name="mx-00010-enter-tax-registration-ids-for-mexican-legal-entities"></a>MX-00010 Especificar los identificadores de registro de impuestos para las entidades jurídicas mexicanas
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Los documentos financieros jurídicos, como declaraciones de impuestos o facturas electrónicas enviadas a las autoridades fiscales en México, deben contener distintos tipos de identificadores de registro de impuestos u otra información relacionada. Esta guía detalla todos los pasos necesarios para completar la información sobre identificadores de registro en entidades jurídicas mexicanas.
 

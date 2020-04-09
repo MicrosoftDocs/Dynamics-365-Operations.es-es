@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bb0b30be91e33cb50af0ae5c2e4dcd75bd12599b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: dc6aeb39591c68cae78537faa077010d68628b02
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175617"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144775"
 ---
 # <a name="set-up-sales-tax-authorities"></a>Configuración de las autoridades fiscales
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Las autoridades fiscales son las entidades a las que tienen que notificarse y pagarse los impuestos cobrados. Puede pagar los impuestos a la autoridad directamente o a través de una cuenta de proveedor que cree para la autoridad fiscal. Si lo hace, la empresa puede usar sus rutinas de pago habituales para pagar a la autoridad fiscal puntualmente. Si no configura la autoridad fiscal como proveedor, una persona deberá prepararle un pago manual en la fecha de vencimiento correspondiente. Esta tarea usa la empresa de demostración USMF.
 

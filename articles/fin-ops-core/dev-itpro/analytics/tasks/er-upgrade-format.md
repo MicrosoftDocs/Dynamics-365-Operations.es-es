@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0b4ad9fb7a3d768acb0af73dcbe3d87b323de727
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 52bc276a4a88971a7214fa09087cb1323b91aaf5
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042813"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143291"
 ---
 # <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>ER Actualizar el formato adoptando una nueva versión de base de ese formato
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 En los pasos siguientes se explica cómo un usuario con rol de administrador del sistema o de desarrollador de informes electrónicos puede mantener una configuración de formato de informes electrónicos. Este procedimiento explica el modo en que se puede crear una versión personalizada de un formato en función del formato recibido de un proveedor de configuración. También explica cómo adoptar una nueva versión base de ese formato.
 
@@ -127,7 +127,7 @@ Complete los pasos del procedimiento “Usar formato creado para generar documen
 ## <a name="update-the-existing-country-specific-configuration"></a>Actualizar la configuración específica de país existente
 Litware. Inc debe actualizar la configuración de BACS (ficticio del Reino Unido) y adoptar nuevos requisitos de país para gestionar el formato de documentos electrónicos. Más adelante, esto se incluirá en una nueva versión de esta configuración que se ofrecerá para los suscriptores de servicio, incluidos Proseware, Inc.  
 
-En los procesos relacionados con las disposiciones de servicio reales, cada nueva versión de BACS (ficticio del Reino Unido) se puede importar por Proseware, Inc. desde Litware, Inc. configuraciones repositorias LCS En este procedimiento simularemos esto actualizando BACS (ficticio del Reino Unido) en nombre de un proveedor de servicio.  
+En los procesos relacionados con las disposiciones de servicio reales, cada nueva versión de BACS (ficticio del Reino Unido) se puede importar por Proseware, Inc. desde Litware, Inc. configuraciones repositorias LCS. En este procedimiento simularemos esto actualizando BACS (ficticio del Reino Unido) en nombre de un proveedor de servicio.  
 
 1. Cierre la página.
 2. Seleccione el proveedor Litware, Inc.

@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bcfc258e7fe364779fd77cc79413e8d5e871e214
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c6ba23af5f7eb517cc58994e54e918b2a305da17
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182701"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142184"
 ---
 # <a name="create-electronic-reporting-er-model-mapping-configurations"></a>Crear configuraciones de asignación de modelo de informes electrónicos (ER)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Use este procedimiento para diseñar una nueva configuración de asignación de modelo de informes electrónicos (ER) y utilizar las funciones de ER integradas para realizar cálculos agregados eficientes. En este procedimiento, creará una configuración para la empresa de ejemplo Litware, Inc. 
 

@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d7010a1c612b9b3884c675f578657d951da06c38
-ms.sourcegitcommit: 25fe679b73663fda6b5b3c32646026d0993a9f00
+ms.openlocfilehash: c7010fb702d16dc276bfee397066ccf95bf5d25a
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2019
-ms.locfileid: "1995291"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147282"
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>Configurar una jerarquía de categorías de compras
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimiento muestra cómo crear nuevos nodos en una jerarquía de categorías de compras y cómo configurar una categoría de compras para usarla en un proceso de compra. Estas tareas las realizará normalmente el director de compras. Para poder comenzar este procedimiento, debe haber una jerarquía de categorías de tipo Adquisición. Si usa una empresa de datos de demostración, puede ejecutar este procedimiento en la empresa USMF.
 

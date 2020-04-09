@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 1319f1228b635e207754f7c2516cb2b5353a9edd
-ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
+ms.openlocfilehash: d7ff514768ee8e4797b591da89e190a855385885
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2020
-ms.locfileid: "3112514"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3172863"
 ---
 # <a name="supported-scenarios-for-dual-write-setup"></a>Escenarios admitidos para la configuración de doble escritura
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+[!include [preview-banner](../../includes/preview-banner.md)]
 
 Puede configurar una conexión de doble escritura entre entorno de Finance and Operations y uno de Common Data Service.
 

@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 468a2637f4a5b2b7ff3514c92c52fb26b9231bc4
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: e06fdda7d2d73c3fe4a4b9ee5bd44e6ef857b8d5
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042928"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142272"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>Definir la dependencia de las configuraciones de ER en otros componentes
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Para completar estos pasos, primero debe completar los pasos de la guía de tareas, "ER: Administrar las configuraciones de asignación de modelos" y debe tener acceso a Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -83,7 +83,7 @@ Este procedimiento se ha creado para los usuarios con los roles de Administrador
 9. Haga clic en Crear repositorio.
 10. En el campo Proyecto, especifique o seleccione un valor.
     * Seleccione el proyecto deseado de LCS en la búsqueda del campo “Proyecto”.  
-11. Haga clic en Aceptar
+11. Haga clic en Aceptar.
 12. Cierre la página.
 
 ## <a name="upload-configurations-to-lcs"></a>Cargar las configuraciones en LCS

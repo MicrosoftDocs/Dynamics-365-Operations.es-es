@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da161c9066c822f8c09e5eda90994e8b03af4681
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: da25486207319879a9acc8376f3f2c78f9b8d939
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916876"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149697"
 ---
 # <a name="create-a-purchase-release-order-from-a-purchase-agreement"></a>Crear un pedido parcial de compra de un acuerdo de compra
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimiento muestra cómo usar un acuerdo de compra cuando se crea un pedido de compra. El acuerdo de compra se tiene que aplicar en el momento de crear el pedido de compra, ya que hay condiciones generales que se deben copiar al encabezado del pedido de compra. Esta tarea la realizará normalmente el agente de compras. Como requisito previo para este procedimiento, debe tener un acuerdo de compra en vigor con un compromiso de cantidad de productos para un proveedor y para artículos. El mismo procedimiento puede usarse si tiene un acuerdo de compra con otros tipos de compromisos. Puede ejecutar esta guía en la empresa de datos de demostración USMF. Si está usando USMF, puede ejecutar el procedimiento "Creación de un acuerdo de compra" primero para establecer las condiciones previas necesarias para este procedimiento.
 

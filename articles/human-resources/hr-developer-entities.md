@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6879a45dd1fcc1ba718747aaaf0d7936c2eac49f
-ms.sourcegitcommit: 3cad15f8ecc257d3a45c1bc1fada7c094ff4bcec
+ms.openlocfilehash: c8e0288da16829c04a9b97c0a52caa8bd27cddf8
+ms.sourcegitcommit: fde8045ea49d0cf26d5e7ac5a0da5c0d3d69d5bc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "3087355"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3166507"
 ---
 # <a name="common-data-service-entities"></a>Entidades de Common Data Service
 
@@ -87,14 +87,19 @@ Las siguientes entidades de Recursos Humanos están disponibles en Common Data S
 | Puesto de trabajo | cdm_jobposition |
 | Tipo de puesto | cdm_positiontype |
 | Asignación del trabajador del puesto | cdm_positionworkerassignmentmap |
+| Dimensión de puesto de trabajo | cdm_jobpositiondimension|
 | Tipo de trabajo | cdm_jobtype |
 | Idioma | cdm_language |
+| Cargo | cdm_title |
+
+> [!NOTE]
+> Dimensiones financieras para **Tipo de puesto**, **Asignación de puesto de trabajador** y **Empleo** proporcionan integración unidireccional a Common Data Service. Actualmente las actualizaciones de dimensiones financieras no se pueden sincronizar desde Common Data Service a Human Resources. 
 
 ## <a name="leave-and-absence-entities"></a>Entidades de permisos y ausencias
 
 | Nombre | Entidad |
 | --- | --- |
-| Transacciones bancaria de bajas | cdm_leavebanktransaction |
+| Transacción bancaria de bajas | cdm_leavebanktransaction |
 | Inscripción en baja | cdm_leaveenrollment |
 | Plan de bajas | cdm_leaveplan |
 | Solicitud de baja | cdm_leaverequest |

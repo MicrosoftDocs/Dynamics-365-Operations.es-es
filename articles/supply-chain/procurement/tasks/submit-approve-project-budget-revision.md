@@ -17,16 +17,16 @@ ms.search.industry: Service industries
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b5f3d08b0ebd98c9256d5eca393a483721ecc5bc
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: d88ae709f55fb7e33e794a539cd78719bf7ac64f
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1837935"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147259"
 ---
 # <a name="submit-and-approve-project-budget-revision"></a>Enviar y aprobar una revisión de presupuesto de proyecto
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimiento proporciona información acerca de cómo revisar un presupuesto de proyecto. Puede revisar un presupuesto de proyecto tantas veces como sea necesario, aunque no puede ver el importe de una revisión individual si el presupuesto se ha revisado más de una vez. 
 

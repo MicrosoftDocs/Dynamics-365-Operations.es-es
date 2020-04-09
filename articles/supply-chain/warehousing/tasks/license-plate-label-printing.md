@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ed4fa28039c9320998f6524c9c9edb0a0301b7b0
-ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
+ms.openlocfilehash: 545f1c15888bcd0b46e1028f58cbe3a274846c92
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "1866835"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146040"
 ---
 # <a name="enable-license-plate-label-printing"></a>Habilitar la impresión de la etiqueta de matrícula
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 En este tema se muestra cómo habilitar la impresión automática de una etiqueta de código de contenedor de envío en serie (SSCC) después de que el último artículo se selecciona del inventario en un proceso de trabajo de selección de ventas. Puede ejecutar este procedimiento en la empresa USMF de los datos de prueba. Si lo ejecuta mediante sus propios datos, debe tener una secuencia numérica configurada para las matrículas de entidad de almacén. Es necesario configurar una impresora de etiquetas para poder comenzar esta tarea. Vaya a Administración de la organización > Configurar > Impresoras de red. En el panel de acciones, haga clic en Opciones y, a continuación, haga clic en el botón Descargar instalador del agente de ruta de documentos. Ejecute el instalador y asegúrese de que tiene una impresora de red de trabajo establecida en Activa para poder continuar con el procedimiento.
 

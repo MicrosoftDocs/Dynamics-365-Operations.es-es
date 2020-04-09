@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5b53077844c231496642f97a62b373eb0547fde2
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a53eed5127267614ce8fb46622be59f77e68217e
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175616"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145014"
 ---
 # <a name="maintain-financial-dimension-default-templates"></a>Mantener plantillas predeterminadas de dimensión financiera
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este tema muestra cómo configurar las plantillas predeterminadas de dimensión financiera. Las plantillas se pueden usar para distribuir importes rápidamente en documentos de origen.
 

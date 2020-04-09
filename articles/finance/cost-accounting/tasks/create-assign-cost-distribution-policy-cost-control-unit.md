@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d040f9495c7fb36985b5f96c15ac43aa226da24
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 348bca5504a633c7b3f158a667a85d36eace52a0
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179782"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138454"
 ---
 # <a name="create-and-assign-a-cost-distribution-policy-to-a-cost-control-unit"></a>Crear y asignar una directiva de distribución de costes a una unidad de control de costes
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Las reglas de distribución de costes se usan para distribuir los costes que se han contado financieramente en un centro de coste colectivo. El contable de costes se asegura de que el coste se distribuye en los centros de coste, en función de la base de asignación seleccionada. Una directiva y las reglas correspondientes se asignan a una unidad de control de costes. Esta guía de tareas utiliza un ejemplo para mostrar cómo crear una directiva de distribución de costes y las reglas correspondientes.
 

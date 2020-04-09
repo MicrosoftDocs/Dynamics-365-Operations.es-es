@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 116085a71e872c13bbf2820f4408e3c7d1261d17
-ms.sourcegitcommit: 62d66f98d4bbf916e19184506b90055bb68d219f
+ms.openlocfilehash: ba585a9bb1a296bbf7181530e151d737bfa22fc2
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "1924433"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149605"
 ---
 # <a name="create-a-vendor-account"></a>Crear una cuenta de proveedor
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimiento muestra cómo crear una cuenta de proveedor y agregar una dirección e información de contacto. El procedimiento no muestra cómo rellenar todos los campos para realizar compras o de uso financiero. Para obtener más información acerca de estos campos, lea las descripciones de los campos. Puede utilizar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos. Las cuentas de proveedor las crean normalmente los profesionales de compras o el personal de cuentas de cliente.
 

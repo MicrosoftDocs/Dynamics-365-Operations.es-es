@@ -16,28 +16,28 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e85109cd0448383ba231cbec1bdeeb9dcd2db805
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: a7a2559bdadbfc74a14bd0e7add9c2f794226e0b
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550795"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141934"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-1---create-format"></a>Informe electrónico Configurar el formato para contar y sumar (Parte 1: Creación de formato)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Los pasos siguientes explican cómo un usuario asignado al administrador del sistema o al rol de desarrollador de informes electrónicos puede configurar un formato de informe electrónico (ER) para que realice el recuento y calcule en función de los datos de la salida de texto ya generada. Estos pasos se pueden llevar a cabo en cualquier empresa.
 
-Para completar estos pasos, primero debe completar los pasos del procedimiento Creación y activación de un proveedor de configuraciones.
+Para completar estos pasos, primero debe completar los pasos del procedimiento "Creación y activación de un proveedor de configuraciones".
 
 Este procedimiento es para una función que se ha agregado en la versión 1611 de Dynamics 365 for Operations.
 
 
 ## <a name="get-access-to-the-list-of-configurations-provided-by-microsoft"></a>Obtenga acceso a la lista de configuraciones proporcionada por Microsoft
 1. Vaya a Administración de la organización > Espacios de trabajo > Informes electrónicos.
-    * Asegúrese de que el proveedor “Litware, Inc.” está disponible y marcado como activo.  
-2. Seleccione el proveedor "Litware, Inc.
+    * Asegúrese de que “Litware, Inc.” está disponible y marcado como activo.  
+2. Seleccione "Litware, Inc." Inc.
 3. Haga clic en Repositorios.
     * Si ya existe un repositorio del tipo "Recursos de Operations", omita los pasos restantes de la subtarea actual.  
 4. Haga clic en Agregar para abrir el cuadro desplegable.

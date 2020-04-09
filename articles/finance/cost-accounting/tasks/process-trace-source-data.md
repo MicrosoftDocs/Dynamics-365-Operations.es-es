@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a6e913f3630862ba07718592cdd039940c5d40b8
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 34cd29c4c31e1941c4e4acdbc1609210ea46934f
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187691"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142303"
 ---
 # <a name="process-and-trace-source-data"></a>Procesar datos de origen y hacer un seguimiento
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Todo el procesamiento de datos se ejecuta por trabajos. Para cada trabajo y proveedor de datos, se crea un diario para documentar que se ejecutó el proceso y que las entradas se procesaran en el trabajo actual. Use este procedimiento para configurar un origen de datos y después para realizar un seguimiento del origen de un asiento de coste específico. Este registro usa la empresa USP2 con los datos para demostración. Para completar esta tarea, asegúrese de que reproduce las siguientes guías de tareas: “Crear un libro mayor de contabilidad de costes“, “Definir unidades de control de costes" y "Gestionar un origen de datos para el libro mayor de contabilidad de costes".
 

@@ -15,26 +15,26 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 47d8cf2ff1e275df0466a7fe327a3180c0399e49
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4cdcb9c337440b8fa9de2bdeb78d3b2d118e91ca
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186932"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138286"
 ---
 # <a name="reclassify-fixed-assets"></a>Reclasificar activos fijos
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Para reclasificar un activo fijo, debe transferirlo a un grupo de activos fijos nuevo o asignarle un número de activo fijo nuevo en el mismo grupo. 
 
 Cuando se reclasifica un activo fijo:
 
-• Todos los libros del activo fijo existente se crean para el activo fijo nuevo. Cualquier información que se haya configurado para el activo fijo se copia en el activo fijo nuevo. El estado de los libros para el activo fijo original es Cerrado. 
+* Todos los libros del activo fijo existente se crean para el activo fijo nuevo. Cualquier información que se haya configurado para el activo fijo se copia en el activo fijo nuevo. El estado de los libros para el activo fijo original es Cerrado. 
 
-• Los libros nuevos de un nuevo activo fijo contienen la fecha de reclasificación en el campo **Fecha de adquisición**. La fecha del campo **Fecha de ejecución de la depreciación** se copia de la información del activo original. Si ya se inició la depreciación, el campo **Fecha en la que se ejecutó la última depreciación** mostrará la fecha de reclasificación. 
+* Los libros nuevos de un nuevo activo fijo contienen la fecha de reclasificación en el campo **Fecha de adquisición**. La fecha del campo **Fecha de ejecución de la depreciación** se copia de la información del activo original. Si ya se inició la depreciación, el campo **Fecha en la que se ejecutó la última depreciación** mostrará la fecha de reclasificación. 
 
-• Las transacciones de activos fijos existentes para el activo fijo original se cancelan y se vuelven a generar para el activo fijo nuevo.
+* Las transacciones de activos fijos existentes para el activo fijo original se cancelan y se vuelven a generar para el activo fijo nuevo.
 
 Siga estos pasos para reclasificar un activo fijo:
 

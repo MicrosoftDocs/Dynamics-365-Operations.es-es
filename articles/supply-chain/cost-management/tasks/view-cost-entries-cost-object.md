@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ec5a156fc04f1381a9c45756801d7855d7db69da
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 1c618322b4bc26211932fe671b5178d9a6a16d4c
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836489"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3150462"
 ---
 # <a name="view-cost-entries-for-a-cost-object"></a>Ver entradas de costes de un objeto de coste
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimiento muestra cómo ver las entradas de coste para un objeto de coste. La empresa de datos de prueba utilizada para crear este procedimiento es USMF. Este procedimiento se va a utilizar para el controlador de costes.
 

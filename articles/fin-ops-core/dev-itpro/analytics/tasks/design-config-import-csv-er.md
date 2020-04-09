@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cf27590d80bbaf7749a0b6e69adc63ddcf4f9380
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c8511b83a5d327f6a1d5c9ace091eae9e546307b
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185161"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142273"
 ---
 # <a name="design-er-configurations-to-import-data-from-external-csv-files"></a>Diseñar configuraciones de ER para importar datos desde archivos CSV externos
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Use este procedimiento para diseñar configuraciones de informes electrónicos (ER) para importar datos, desde un archivo externo en formato CSV. En este procedimiento, creará las configuraciones necesarias de ER para la empresa del ejemplo, Litware, Inc. Para completar estos pasos, primero debe completar los pasos en el procedimiento, "ER crea un proveedor de la configuración y marcarlo como activo". 
 
@@ -104,7 +104,7 @@ También debe descargar y guardar los siguientes archivos localmente: (https://g
     * Tenga en cuenta que los elementos del formato que define la estructura del archivo importado están vinculados a los elementos del modelo de datos. En función de estos vínculos, el contenido del archivo CSV importado se almacenará al tiempo de ejecución en el modelo de datos existente. Preste atención al vínculo del elemento CountryRegion. En el caso de elementos de transacción en el archivo de entrada que no tengan un valor de código de país especificado, el código de país predeterminado será “EE.UU.” y se rellenará en el modelo de datos.   
 13. Active "Mostrar detalles".
 14. Haga clic en la pestaña Validaciones.
-15. Haga clic en Buscar.
+15. Haga clic en Buscar
 16. Escriba "vend" en el campo Buscar.
 17. Haga clic en Buscar siguiente.
     * Esta asignación de formato puede contener una lógica definida por el usuario para validar la precisión de los datos importados desde una perspectiva empresarial. Por ejemplo, según el valor, por toda línea del archivo de importación cuya estructura no coincida ni con la estructura de la línea de encabezado ni con la línea de transacción, se generará un mensaje de advertencia en el registro de información que informe al usuario acerca de este caso e indique el número de secuencia de la transacción en el archivo.   

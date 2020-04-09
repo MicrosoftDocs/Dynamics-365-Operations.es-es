@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7715c8e7a56703993e8512af03f2ab8d6802a987
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: 899701413814ce38a4367618ed72d1039eca0bf8
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916585"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148179"
 ---
 # <a name="transfer-physical-inventory-within-the-warehouse"></a>Transferencia del inventario físico en el almacén
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimiento le muestra el proceso para crear y enviar un diario de transferencia de inventario para registrar el movimiento de un artículo desde una ubicación de un almacén a otra. Antes de comenzar, necesita tener configurado un nombre de diario de inventario para las transferencias de inventario. Puede revisar este procedimiento en la empresa de demostración USMF con los valores de ejemplo mostrados o puede usar sus propios datos si tiene productos y ubicaciones configurados. Estas tareas las realizará normalmente el empleado del almacén.
 

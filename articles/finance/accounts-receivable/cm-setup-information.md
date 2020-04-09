@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 65b1d1a232558efbe05e83d51706a78b12439e47
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 524ae7b3062893ed07170227ea9b8908cd5858e1
+ms.sourcegitcommit: 1fb34abfe3382bc00237a2c00184fe201c12229f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124148"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "3151306"
 ---
 # <a name="credit-management-setup"></a>Configuración de la administración de crédito 
 
@@ -40,13 +40,17 @@ Vaya **Créditos y cobros \> Configurar \> Flujos de trabajo de administración 
 
 Puede poner un pedido de ventas en espera si las condiciones de pago del pedido no coinciden con las condiciones de pago predeterminadas para el cliente. Sin embargo, a veces las condiciones de pago difieren pero son lo suficientemente similares como para que no desee poner el pedido en espera. Puede clasificar los términos de pago para que algunos de ellos tengan el mismo rango, y otros tengan un rango más alto o más bajo.
 
-Si las clasificaciones de las condiciones de pago están activas, los pedidos de ventas se suspenderán si las condiciones de pago del pedido tienen una clasificación más alta que las condiciones de pago predeterminadas para el cliente.
+Si las clasificaciones de las condiciones de pago están activas y si las condiciones de pago del pedido tienen una clasificación más alta que las condiciones de pago predeterminadas para el cliente, el pedido de ventas se pondrá en espera.
+
+Para configurar la clasificación de condiciones de pago vaya a **Crédito y cobros \> Configuración \> Configuración de administración de crédito \> Clasificar condiciones de pago**  
 
 ### <a name="ranking-settlement-discounts"></a>Clasificación de descuentos de liquidación
 
 Puede poner un pedido de ventas en espera si el descuento por pronto pago del pedido no coincide con el descuento por pronto pago predeterminado para el cliente. Sin embargo, a veces los descuentos por pronto pago difieren pero son lo suficientemente similares como para que no desee poner el pedido en espera. Puede clasificar los descuentos por pronto pago para que algunos de ellos tengan el mismo rango, y otros tengan un rango más alto o más bajo.
 
-Si las clasificaciones de descuentos de liquidación están activas, los pedidos de ventas se suspenderán si el descuento por pronto pago del pedido tiene una clasificación más alta que el descuento por pronto pago predeterminado para el cliente.
+Si las clasificaciones de descuentos de liquidación están activas y si el descuento por pronto pago del pedido tiene una clasificación más alta que el descuento por pronto pago predeterminado para el cliente, el pedido de ventas se pondrá en espera.
+
+Para configurar la clasificación de condiciones de pago vaya a **Crédito y cobros \> Configuración \> Configuración de administración de crédito \> Clasificar liquidación de descuentos**  
 
 ## <a name="reasons"></a>Motivos
 
@@ -56,7 +60,7 @@ Se utilizan varios tipos de razones en la administración de crédito:
 - Los motivos de liberación se asignan a un pedido cuando se libera de la retención.
 - Las razones de estado indican por qué se asignó el estado de una cuenta a un cliente.
 
-Puede configurar razones en la página **Razones de la administración de crédito**(**Administración de crédito \> Configurar \> Administración de crédito \> Razones de la administración de crédito**).
+Puede configurar razones en la página **Razones de la administración de crédito** (**Crédito y cobros \> Configuración \> Configuración de administración de crédito \> Razones de la administración de crédito**).
 
 1. En el campo **Tipo de razón**, seleccione el tipo de razón: **Retener**, **Liberar** o **Estado**.
 2. En el campo **Razón**, especifique un nombre para la razón.
@@ -66,7 +70,7 @@ Puede configurar razones en la página **Razones de la administración de crédi
 
 Los grupos de administración de crédito se utilizan para identificar clientes o grupos de clientes que tienen las mismas propiedades de administración de crédito. Por ejemplo, los grupos de administración de crédito pueden usarse para determinar las reglas de administración de crédito de bloqueo y exclusión para los clientes.
 
-Puede crear grupos de administración de crédito en la página **Grupos de administración de crédito** (**Administración de crédito \> Configurar > Configuración de grupos \> Grupos de administración de crédito**).
+Puede crear grupos de administración de crédito en la página **Grupos de administración de crédito** (**Crédito y cobros \> Configuración > Configuración de administración de crédito \> Grupos de administración de crédito**).
 
 1. Seleccione **Nuevo** para crear una línea.
 2. Especifique un id. para el grupo. El id. puede tener hasta 10 caracteres.
@@ -78,7 +82,7 @@ El grupo de administración de crédito se asigna a un cliente en la ficha despl
 
 Puede crear estados de cuenta para identificar la solvencia de una cuenta de cliente. Puede definir un estado y su efecto en los procesos de facturación y entrega en espera. Los estados de cuenta también se pueden usar para determinar las reglas de bloqueo para un cliente.
 
-Puede crear estados de cuenta en la página **Estados de cuenta** (**Administración de crédito \> Configurar > Configuración de grupos \> Estados de cuenta**).
+Puede crear estados de cuenta en la página **Estados de cuenta** (**Crédito y cobros \> Configuración > Configuración de administración de crédito \> Estados de cuenta**).
 
 1. Agregue un estado de cuenta y escriba una descripción que represente la solvencia de un cliente. Por ejemplo, use **Normal** para indicar que un cliente está al día y los pedidos abiertos están sujetos al procesamiento estándar de administración de crédito.
 2. En los campos **Facturación** y **Entrega en espera**, seleccione el tipo de retención que debe producirse para los clientes que tienen este estado de cuenta. Puede retener todo el procesamiento, retener solo el procesamiento de facturas o no retener ningún procesamiento cuando se aplican las reglas de límite de crédito.
@@ -87,7 +91,7 @@ Puede crear estados de cuenta en la página **Estados de cuenta** (**Administrac
 
 Puede configurar grupos de puntuación para definir los factores de riesgo y los criterios que se utilizan para medirlos. Cuando la información sobre un cliente se aplica a un grupo de puntuación, se calcula una puntuación para cada factor de riesgo y se utiliza para colocar al cliente en un grupo de riesgo. El grupo de riesgo se puede utilizar para identificar la solvencia y calcular los límites de crédito automáticos.
 
-Puede crear grupos de puntuación en la página **Grupos de puntuación** (**Administración de crédito \> Configurar \> Configuración de riesgo \> Grupos de puntuación**).
+Puede crear grupos de puntuación en la página **Grupos de puntuación** (**Crédito y cobros \> Configuración \> Configuración de administraciónde crédito \> Riesgo \> Grupos de puntuación**).
 
 1. Cree un grupo de puntuación y asígnele un nombre.
 2. Escriba una descripción para describir mejor el grupo de puntuación.
@@ -108,11 +112,11 @@ Puede crear grupos de puntuación en la página **Grupos de puntuación** (**Adm
     1. En el campo **Valor**, introduzca el valor definido por el usuario que se debe proporcionar a partir de la información del cliente.
     2. En el campo **Puntuación**, introduzca la puntuación que se debe asignar cuando el valor proporcionado está en el rango "inicial"/"final".
 
-## <a name="risk-assessments"></a>Valoraciones de riesgo
+## <a name="risk-classification"></a>Clasificación del riesgo
 
 Puede definir valoraciones de riesgos que se pueden asignar a los clientes, en función de su puntuación de riesgo. Una puntuación de riesgo se calcula comparando la información del cliente con cada grupo de puntuación. Las puntuaciones se suman y la puntuación total se compara con los valores de la configuración del grupo de riesgo para identificar el grupo de riesgo al que pertenece el cliente. La puntuación del grupo de riesgo se usa para definir reglas de bloqueo y exclusión de administración de crédito para el cliente.
 
-Puede configurar grupos de riesgo en la página **Valoraciones de riesgo** (**Administración de crédito \> Configurar \> Configuración de riesgo \> Valoraciones de riesgo**).
+Puede configurar grupos de riesgo en la página **Valoraciones de riesgo** (**Crédito y cobros \> Configuración \> Configuración de administración de crédito \> Riesgo \> Clasificación de riesgo**).
 
 1. Introduzca un id. de grupo de riesgo.
 2. Escriba una descripción para explicar mejor el grupo de riesgo.
@@ -121,7 +125,7 @@ Puede configurar grupos de riesgo en la página **Valoraciones de riesgo** (**Ad
 
 ## <a name="guaranteeinsurance-types"></a>Tipos de garantía/seguro
 
-Puede configurar tipos de garantía/seguro en la página **Tipos de garantía/seguro** (**Administración de crédito \> Configurar \> Configuración de garantía/seguro \> Tipos de garantía/seguro**).
+Puede configurar tipos de garantía/seguro en la página **Tipos de garantía/seguro** (**Crédito y cobros \> Configuración \> Configuración de administración de crédito \> Seguro y garantías \> Tipos de seguro y garantías**).
 
 1. Introduzca un tipo de garantía o de seguro que identifique el nombre del garante o del corredor de seguros.
 2. Introduzca una descripción para describir al garante/corredor de seguros.
@@ -130,14 +134,14 @@ Puede configurar tipos de garantía/seguro en la página **Tipos de garantía/se
 
 Los tipos de cobertura se pueden usar para clasificar mejor las pólizas de seguro. No se pueden usar con garantías.
 
-Puede agregar tipos de cobertura en la página **Tipos de cobertura** (**Administración de crédito \> Configurar \> Configuración de garantía/seguro \> Tipos de cobertura**).
+Puede agregar tipos de cobertura en la página **Tipos de cobertura** (**Crédito y cobros \> Configuración \> Configuración de administración de crédito \> Seguro y garantías \> Tipos de cobertura**).
 
 1. Introduzca un tipo de cobertura para identificar el tipo de cobertura que se debe agregar como seguro o garantía.
 2. Especifique una descripción del tipo de cobertura.
 
 ## <a name="automatic-credit-limits"></a>Límites de crédito automáticos
 
-Puede crear criterios para límites de crédito automáticos en la página **Límites de crédito automáticos** (**Administración de crédito \> Configurar \> Configuración de riesgo \> Límites de crédito automáticos**).
+Puede crear criterios para límites de crédito automáticos en la página **Límites de crédito automáticos** (**Crédito y cobros \> Configuración \> Configuración de administración de crédito \> Riesgo \> Límites automáticos de crédito**).
 
 1. Seleccione un grupo de riesgo al que se debe asignar el límite automático de crédito.
 2. Seleccione la divisa para el límite automático de crédito. Puede crear múltiples límites de crédito automáticos en diferentes divisas para un mismo grupo de riesgo.

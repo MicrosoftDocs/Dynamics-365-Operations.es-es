@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9557b25af0fba6429d34564e1a3e158b6258698a
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 4e40ebcbf3ab1befc641ae34571a8b974bd0425a
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023926"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140885"
 ---
 # <a name="define-loyalty-reward-points"></a>Definir puntos de recompensa de fidelización
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este procedimiento le muestra la definición de puntos de recompensa de fidelización. Debe configurar puntos de recompensa de fidelización antes de configurar un programa de fidelización. Este procedimiento usa la empresa de datos de demostración USRT.
 
@@ -42,7 +42,7 @@ Este procedimiento le muestra la definición de puntos de recompensa de fideliza
 8. En el campo Clasificación de canjes, escriba un número.
     * Se usa Clasificación de canjes cuando se pueden usar dos o más puntos de recompensa canjeables para pagar productos. Si los dos puntos de recompensa tienen la misma clasificación de canjes, se usará el que necesita reducir el número de puntos.  
 9. En el campo Valor de tiempo de vencimiento, escriba un número.
-    * Los puntos de recompensa expirarán el número especificado de días, semanas, meses o años tras la emisión de los puntos. Un valor de "0"significa que nunca expirarán los puntos de recompensa de fidelización.  
+    * Los puntos de recompensa expirarán el número especificado de días, semanas, meses o años tras la emisión de los puntos. Un valor de "0" significa que nunca expirarán los puntos de recompensa de fidelización.  
 10. En el campo Unidad de tiempo de vencimiento, seleccione una opción.
 11. Haga clic en Guardar.
 

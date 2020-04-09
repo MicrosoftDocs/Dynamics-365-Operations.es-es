@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 143782413359d87f3d4c46940f9a699fbf0e8f90
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 6d292d028ebc87892760524dbd7709e8f181fc5d
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769818"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141819"
 ---
 # <a name="design-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Diseñar configuraciones para generar informes en los formatos de Office que tengan imágenes incrustadas
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Para completar los pasos de este procedimiento, primero complete el procedimiento, "ER: Crear un proveedor de configuraciones y marcarlo como activo". Este procedimiento explica cómo diseñar las configuraciones de informes electrónicos (ER) para generar documentos de Microsoft Excel o Word que contienen imágenes incrustadas. En este procedimiento, creará las configuraciones de ER necesarias para la empresa de ejemplo, Litware, Inc. Estos pasos se pueden completar mediante el conjunto de datos de USMF. Este procedimiento se ha creado para los usuarios con los roles Administrador del sistema o Desarrollador de informes electrónicos asignados. Antes de empezar, descargue y guarde los archivos que aparecen en el tema de Ayuda [Insertar imágenes y formas en documentos que genera mediante ER](../electronic-reporting-embed-images-shapes.md). Los archivos son: modelo Model for cheques.xml, Cheques printing format.xml, Company logo.png, Signature image.png, Signature image 2.png y Cheque template Word.docx.
 
@@ -55,7 +55,7 @@ Para completar los pasos de este procedimiento, primero complete el procedimient
  1. En el panel de acciones, haga clic en Configuraciones.  
  2. Haga clic en Parámetros de usuario.  
  3. Seleccione Sí en el campo Parámetros de ejecución.  
-  Desconecte el indicador de ejecución de borrador para iniciar la versión de borrador del formato seleccionado en lugar del completado.  
+  Desconecte el indicador de "Ejecución de borrador" para iniciar la versión de borrador del formato seleccionado en lugar del completado.  
  4. Haga clic en Aceptar  
 
 ## <a name="configure-cash--bank-management-parameters"></a>Configure los parámetros de administración de efectivo y bancos  

@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a0909625f31d15fe6b1387ff9ab7fd5d9a9135f4
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 53e9457074b696efaf5958b3a3b4616f06f5a6ff
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836465"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145776"
 ---
 # <a name="count-inventory-in-a-warehouse"></a>Recuento de inventario en un almacén
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 En este tema se describe el proceso para crear y registrar un diario de recuento de inventario para contar un artículo específico en una ubicación del almacén. El procedimiento se aplica a la funcionalidad de “almacenamiento básico”, disponible en el módulo Gestión del inventario, no en la funcionalidad de almacenamiento que está disponible en el módulo Gestión de almacenes. Puede revisar este procedimiento con los datos de prueba de la empresa USMF o utilizar sus propios datos. Si usa sus propios datos, asegúrese de que tiene los productos y las ubicaciones configurados, y de que ha creado un nombre de diario de inventario para contar los diarios. El recuento de inventario lo lleva a cabo normalmente un empleado de almacén.
 

@@ -16,22 +16,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fcceb0e4d5f3bec54598515da0a5cbd8d11def3d
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: ea5b17873dea4508230f39ffb41a50e2f427584f
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769864"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142141"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER Diseña una configuración para generar informes en formato OPENXML (noviembre de 2016)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 En este tema se explica cómo un usuario con rol de administrador del sistema o desarrollador de informes electrónicos puede crear una nueva configuración de informes electrónicos que contenga una plantilla para generar documentos electrónicos en formato OPENXML. Esta configuración se usará para procesar los pagos de proveedor.
 
 En este ejemplo, creará una configuración para la empresa de demostración, Litware, Inc. Estos pasos se pueden realizar en empresa GBSI.
 
-Para completar estos pasos, primero debe completar los pasos del procedimiento Creación y activación de un proveedor de configuraciones. También debe tener un archivo Excel que se importará el crear la plantilla. A este archivo se obtiene acceso desde la [Plantilla de informe de pago](https://go.microsoft.com/fwlink/?linkid=862266).
+Para completar estos pasos, primero debe completar los pasos del procedimiento "Creación y activación de un proveedor de configuraciones". También debe tener un archivo Excel que se importará el crear la plantilla. A este archivo se obtiene acceso desde la [Plantilla de informe de pago](https://go.microsoft.com/fwlink/?linkid=862266).
 
 
 ## <a name="upload-the-payments-data-model-configuration"></a>Cargar la configuración del modelo de datos de pagos
@@ -55,7 +55,7 @@ Para completar estos pasos, primero debe completar los pasos del procedimiento C
 3. Seleccione **Crear configuración** para abrir el cuadro de diálogo desplegable.
 4. En el campo **Nuevo**, escriba `Format based on data model PaymentModel`. Cree un formato que se base en el modelo de datos de PaymentModel.
 5. En el campo **Nombre**, escriba `Sample worksheet report`. Informe de hoja de cálculo de muestra  
-6. En el campo **Descripción**, escriba `Sample worksheet report for vendors’ payments`, Informe de hoja de cálculo para pagos de proveedores.  
+6. En el campo **Descripción**, escriba `Sample worksheet report for vendors' payments`, Informe de hoja de cálculo para pagos de proveedores.  
 7. En el campo **definición del modelo de Datos**, introduzca o seleccione un valor. Seleccione la definición **CustomerCreditTransferInitiation**.  
 8. Seleccionar **Crear configuración**.
 

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dccc90321977382c7625ca1785427a6d26a14f27
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 90ddb1f26dc3bf23fe5fc44281d74ed80f59e675
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835650"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146569"
 ---
 # <a name="create-delivery-schedule"></a>Creación de una programación de entrega
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 En este procedimiento se demuestra cómo crear una programación de entrega para un pedido de ventas. Se usa una programación de entrega cuando se solicita que una cantidad de un pedido o un presupuesto se entregue en varios envíos. Puede ejecutar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos.
 

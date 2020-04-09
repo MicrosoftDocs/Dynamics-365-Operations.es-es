@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cfce85b43a4678bf94a5570f4df047249cf29d1e
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 85cdd35e2e2f1e4e7a311b7eb61989d87f681466
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836297"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149099"
 ---
 # <a name="define-lean-manufacturing-work-cells"></a>Definir celdas de trabajo de lean manufacturing (producción ajustada)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Una celda de trabajo es una forma específica de grupos de recursos que pueden usarse en actividades de proceso de lean manufacturing. Las celdas de trabajo tienen ubicaciones de entrada y salida y una definición de capacidad basada en un modelo de flujo de producción. Para obtener más información acerca de los conceptos básicos de las celdas de trabajo de lean manufacturing y de cálculos de capacidad, consulte las notas del producto sobre lean manufacturing. La empresa de datos de demostración usada para crear este procedimiento es USMF.
 

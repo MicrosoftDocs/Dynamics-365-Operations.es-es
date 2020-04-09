@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4bac365217c20bececa1b4ff2b9de12288326dcc
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: f15b035c01801041d637a2d315d8a3ddcc9d6540
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023935"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140969"
 ---
 # <a name="create-online-channel-and-define-channel-attributes"></a>Creación del canal en línea y definición de los atributos del canal
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este procedimiento le guía por la creación de un nuevo canal en línea y su adición a la jerarquía organizativa. Debe crear la jerarquía organizativa para poder crear un nuevo canal en línea. Este procedimiento usa la empresa de datos de demostración USRT.
 

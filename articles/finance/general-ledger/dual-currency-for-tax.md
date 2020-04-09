@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 1ba4d09240888f0c533fb07614e75ffecea0742c
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 863403dc3b2444f00f0cac27a494fc49d3d70de7
+ms.sourcegitcommit: 34e543e807ac8790597f522fe3b4f0266cf4ee56
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124102"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3161601"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>Soporte de divisa doble para impuestos
 [!include [banner](../includes/banner.md)]
@@ -34,7 +34,7 @@ La función de divisa doble para Dynamics 365 Finance se introdujo en la versió
 
 En versiones anteriores, las transacciones se convirtieron a la divisa de notificación en la siguiente secuencia: 
 
-El total de la transacción se calculó en la divisa de la transacción > La cantidad de la transacción n se convirtió a la divisa de contabilidad > El monto de la divisa de contabilidad se convirtió a la divisa de notificación
+- El total de la transacción se calculó en la divisa de la transacción > La cantidad de la transacción n se convirtió a la divisa de contabilidad > El monto de la divisa de contabilidad se convirtió a la divisa de notificación
 
 Después de habilitar la función de divisa doble, las transacciones se convirtieron a la divisa de notificación en la siguiente secuencia:
 
@@ -48,8 +48,6 @@ Como consecuencia del soporte para divisas dobles, hay dos nuevas funciones disp
 - Saldo automático de liquidación de impuestos en la divisa de notificación (Publicada en la versión 10.0.11)
 
 El soporte de divisa doble para los impuestos garantiza que los impuestos se calculen con precisión en la divisa del impuesto, y que el saldo de liquidación de impuestos se calcule con precisión tanto en la divisa de contabilidad como en la divisa de notificación. 
-
-Las nuevas funciones están actualmente habilitadas para clientes de vista previa privada. Para habilitar las funciones, envíe una solicitud de servicio a Microsoft a través de los canales correspondientes.
 
 ## <a name="sales-tax-conversion"></a>Conversión de impuestos
 

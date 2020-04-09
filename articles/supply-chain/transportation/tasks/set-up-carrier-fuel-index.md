@@ -16,16 +16,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b6f72de7ad54a2b2dc1bf40fd8cb86d8b055e2d1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 73336c6803f28239ff8ca78dcff5ea8db0835e32
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552101"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146278"
 ---
 # <a name="set-up-a-carrier-fuel-index"></a>Configuración de un índice de combustible de transportista
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Esta guía muestra cómo crear una región de índice de combustible, un índice de combustible y un índice de combustible de transportista. La región de índice de combustible especifica a qué región se debe aplicar el índice de combustible, y el índice de combustible especifica un precio por combustible para un período de tiempo concreto. Para reflejar el cambio de precios de combustible en el tiempo, puede asociar varios índices de combustible con un transportista.  Estas tareas las realiza normalmente el coordinador de transporte. Puede utilizar este procedimiento con la empresa de datos de demostración USMF o utilizar sus propios datos.
 

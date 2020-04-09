@@ -16,24 +16,24 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d7882a7a17f5736d9d5a11cd91ac963fa89ff12f
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: f2b93f74a121de4c23eb5dddfb94c6596b78544d
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042905"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142671"
 ---
 # <a name="er-design-domain-specific-data-model"></a>CE Diseñar el modelo de datos específico de dominio
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 En los pasos siguientes se explica cómo un usuario con rol de administrador del sistema o desarrollador de informes electrónicos puede crear una nueva configuración de informes electrónicos que contenga un modelo de datos para los documentos de pago electrónico. Este modelo de datos se usará posteriormente como origen de datos al crear el formato de los documentos de pago.
 
-En este ejemplo, creará una configuración para la empresa de demostración, Litware, Inc. Estos pasos se pueden realizar en cualquier empresa a medida que las configuraciones de ER se comparten entre las empresas. Para completar estos pasos, primero debe completar los pasos del procedimiento Creación y activación de un proveedor de configuraciones.
+En este ejemplo, creará una configuración para la empresa de demostración, Litware, Inc. Estos pasos se pueden realizar en cualquier empresa a medida que las configuraciones de ER se comparten entre las empresas. Para completar estos pasos, primero debe completar los pasos del procedimiento "Creación y activación de un proveedor de configuraciones".
 
 1. Vaya a Administración de la organización > Espacios de trabajo > Informes electrónicos.
 
-    Seleccione el proveedor de configuración de la empresa de ejemplo, "Litware, Inc". Si no ve a este proveedor de configuración, primero debe completar los pasos del procedimiento "Creación y activación de un proveedor de configuraciones".  
+    Seleccione el proveedor de configuración de la empresa de ejemplo, "Litware, Inc". Si no ve a este proveedor de configuración, primero debe completar los pasos del procedimiento "Creación de un proveedor de configuración y marcarlo como activo".  
     
 2. Haga clic en Configuraciones de informes.
 
@@ -46,7 +46,7 @@ En este ejemplo, creará una configuración para la empresa de demostración, Li
 
     El proveedor de configuraciones activo se especifica automáticamente aquí. Este proveedor podrá mantener esta configuración. Otros proveedores podrán usar esta configuración, pero no podrán mantenerla.  
 
-4. Haga clic en el botón Crear configuración para completar la tarea de creación de la configuración.
+4. Haga clic en el botón "Crear configuración" para completar la tarea de creación de la configuración
 
 ## <a name="create-a-data-model"></a>Creación de un modelo de datos
 Usted está creando un nuevo modelo de datos para la configuración seleccionada. Esta versión de la configuración tendrá un estado de borrador.  

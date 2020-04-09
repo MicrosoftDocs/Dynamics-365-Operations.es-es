@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dbd6dc6c2e5b7c1abe6e19f00a5df285e0147a92
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 3f922620c7aeeafd8560316239875c1ec5486191
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845409"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145695"
 ---
 # <a name="initialize-stock-levels-in-the-warehouse"></a>Inicializar los niveles de existencias en el almacén
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimiento muestra cómo obtener el inventario disponible actualizado manualmente mediante un diario de movimientos de inventario. (También es posible actualizar el inventario disponible importando transacciones en entidades de datos). Puede ejecutar este procedimiento con los datos de la empresa de demostración USMF, donde todos los requisitos previos, como el nombre del diario, la configuración del artículo, los perfiles de contabilización y las cuentas, están disponibles. El procedimiento sugiere los valores específicos para el artículo y las dimensiones que se usan. Si elige un artículo diferente, es posible que tenga que especificar valores para distintas dimensiones.
 

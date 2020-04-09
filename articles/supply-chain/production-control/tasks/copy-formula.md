@@ -16,16 +16,16 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd87ded3bcc20b94fae723424d9cc6b94049a1a5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 9c5d8dbc5204464b2265029b6a11fcac7b79b464
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558787"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147167"
 ---
 # <a name="copy-a-formula"></a>Copiar una fórmula
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimiento se centra en crear una fórmula que incluya los mismos ingredientes que una fórmula existente, con diferencias menores. Para crear las líneas de la fórmula puede usar la función Copiar para copiar una fórmula existente que tenga la mayoría de los ingredientes necesarios. Puede realizar los cambios oportunos en las líneas individuales de la nueva versión. Al usar la función Copiar no es necesario crear varias fórmulas casi idénticas. La empresa de datos de demostración utilizada para crear esta tarea es USP2.
 

@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ec17fc31df1daed943f9bc3f4cbe25a683c8ac7e
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 386c035fb84b1f88cf53837a1e875eb2aa8ba910
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026323"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146316"
 ---
 # <a name="reconcile-freight-manually"></a>Conciliar el flete manualmente
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]]
 
 Este procedimiento muestra cómo conciliar el flete manualmente. Esto lo hace normalmente el coordinador de transporte. Puede utilizar este procedimiento en la empresa de datos de demostración USMF.
 

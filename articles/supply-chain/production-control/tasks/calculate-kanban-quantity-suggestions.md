@@ -16,16 +16,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 540dd32c5da5859ef5e69f55d6806eada90bc840
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b6769eb1c971b4641aee7cae9dd710a856b3c8fb
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558204"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149375"
 ---
 # <a name="calculate-kanban-quantity-suggestions"></a>Cálculo de sugerencias de cantidades kanban
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimiento se centra en la optimización del tamaño y las cantidades kanban para una regla kanban calculando la cantidad kanban. La empresa de datos de prueba utilizada para crear este procedimiento es USMF. Este procedimiento va destinado al administrador del flujo de valor. Es indispensable haber completado el procedimiento Adición de una directiva de cálculo de cantidad kanban a una regla kanban.
 

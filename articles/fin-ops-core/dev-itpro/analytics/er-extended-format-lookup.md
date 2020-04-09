@@ -3,7 +3,7 @@ title: Búsqueda de formato extendido de informes electrónicos (ER)
 description: Este tema describe cómo se puede configurar una referencia de formato ER en la búsqueda de formato ER cuando el formato requerido se almacena en el repositorio Global.
 author: NickSelin
 manager: AnnBe
-ms.date: 01/24/2020
+ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: c72335d7d83934146f827ef0bb568b79a585a7a5
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: 28bdd02c25db27536a489f9e8ab2a91a5ca0f09c
+ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015381"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138869"
 ---
 # <a name="allow-users-to-set-up-an-er-format-reference-inquiring-a-format-from-the-global-repository"></a>Permitir a los usuarios configurar una referencia de formato ER preguntando un formato desde el repositorio global
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 Puede usar el marco de [informes electrónicos](general-electronic-reporting.md) (ER) para configurar [formatos](general-electronic-reporting.md#FormatComponentOutbound) para documentos de salida en función de los requisitos legales de diversos países o regiones. También puede usar el marco ER para configurar [formatos](general-electronic-reporting.md#FormatComponentInbound) para analizar documentos entrantes y usar la información de esos documentos para agregar o actualizar datos de la aplicación. Cada uno de estos formatos puede usarse en su instancia de Dynamics 365 Finance para manejar documentos comerciales entrantes o salientes como parte de un determinado proceso comercial. 
 

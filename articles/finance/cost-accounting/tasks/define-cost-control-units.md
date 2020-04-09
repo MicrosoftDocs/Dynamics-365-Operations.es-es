@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 77583232ee69819ea9ba28dd101326341d61c42d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a19d5b364305b817e3fd8e5e9001ed52db80c508
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179783"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3137900"
 ---
 # <a name="define-cost-control-units"></a>Definir unidades de control de costes
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimiento muestra cómo definir unidades de control de costes en la libro mayor de la contabilidad de costes. Seleccione la dimensión de objeto de costes para la que desea controlar costes en el libro mayor. Los miembros de la dimensión de objeto de coste se transforman en objetos de coste de las unidades de control de costes. La empresa de datos de demostración utilizada para crear este procedimiento es USP2.
 

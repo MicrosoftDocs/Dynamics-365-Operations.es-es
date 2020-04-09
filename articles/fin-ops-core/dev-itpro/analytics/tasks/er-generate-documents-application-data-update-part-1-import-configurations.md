@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdd7a07d041373b266103f313df1bf2810e9c858
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0bfa09fe7059925249f20e1d93bc9d091d6bc63d
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182356"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141911"
 ---
 # <a name="import-configurations-to-generate-documents-that-have-application-data"></a>Importar configuraciones para generar documentos que tengan datos de la aplicación
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Para completar los pasos de este procedimiento, primero debe completar los pasos del procedimiento, "ER: Crear un proveedor de configuraciones y marcarlo como activo".
 
@@ -45,7 +45,7 @@ Los pasos de este procedimiento explican cómo diseñar las configuraciones de l
 6. Haga clic en Diseñador.
 7. En el árbol, expanda "Para el documento de salida".
 8. En el árbol, expanda "Para el documento de salida\Transacciones".
-    * Revisar la estructura del modelo de datos importado. Tenga en cuenta que el artículo de la raíz “para el documento de salida” se ha definido para especificar el flujo de datos para recopilar datos de la aplicación y utilizarlos como origen de datos para generar el informe Intrastat. Las transacciones (“lista de registro”) se utilizan para representar la lista de transacciones Intrastat que deben crear un informe. Dado que se guardarán los códigos de producto del informe, el identificador único de un código de producto “Id. de inf de producto Int64 (”) es necesario en este flujo de datos.   
+    * Revisar la estructura del modelo de datos importado. Tenga en cuenta que el artículo de la raíz “para el documento de salida” se ha definido para especificar el flujo de datos para recopilar datos de la aplicación y utilizarlos como origen de datos para generar el informe Intrastat. Las "transacciones (lista de registro)" se utilizan para representar la lista de transacciones Intrastat que deben crear un informe. Dado que se guardarán los códigos de producto del informe, el identificador único de un código de producto "Id. de inf de producto (Int64)" es necesario en este flujo de datos.   
 9. Cierre la página.
 10. Haga clic en Intercambiar.
 11. Haga clic en Cargar desde un archivo XML.

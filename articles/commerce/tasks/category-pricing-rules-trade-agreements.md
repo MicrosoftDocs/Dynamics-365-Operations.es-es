@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 35c85e6e3bbdc913e9cd7aefdf6b143f3f03496f
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 21b1986aa36aab23f50a5af434435f9e93318e45
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023945"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141092"
 ---
 # <a name="category-pricing-rules-to-create-trade-agreements"></a>Reglas de precios de categoría para crear acuerdos comerciales
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este procedimiento muestra cómo crear acuerdos comerciales de precios de venta con una regla de precios de categoría. La empresa de datos de prueba utilizada para crear esta tarea es USRT. Esta tarea está pensada para el rol de encargado de comercialización de Commerce.
 

@@ -1,5 +1,5 @@
 ---
-title: Configurar flujos de trabajo de los gastos
+title: Configurar flujos de trabajo para gestión de gastos
 description: Puede configurar un proceso de flujo de trabajo que se usa para revisar y aprobar documentos de gastos y viajes.
 author: ShylaThompson
 manager: AnnBe
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86cadf7277fbb7e08dad4b5dc2a46e1c6ce5a888
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: cdd4d69cb86da12e4a265f89c021c238d00cad08
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179775"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154003"
 ---
-# <a name="set-up-workflows-for-expense"></a>Configurar flujos de trabajo de los gastos
+# <a name="set-up-workflows-for-expense-management"></a>Configurar flujos de trabajo para gestión de gastos
 
 [!include [banner](../includes/banner.md)]
 
- Puede configurar un proceso de flujo de trabajo que se usa para revisar y aprobar documentos de gastos y viajes. Los documentos para los que pueden definirse los flujos de trabajo incluyen informes de gastos, pedidos de viaje y solicitudes de anticipo.
+Puede configurar un proceso de flujo de trabajo que se usa para revisar y aprobar documentos de gastos y viajes. Los documentos para los que pueden definirse los flujos de trabajo incluyen informes de gastos, pedidos de viaje y solicitudes de anticipo.
 
 Un flujo de trabajo representa un proceso empresarial. El flujo de trabajo define cómo se gestiona un documento en el sistema e indica quién debe completar una tarea o aprobar un documento. El uso del sistema de flujo de trabajo en su organización le ofrece varias ventajas:
 

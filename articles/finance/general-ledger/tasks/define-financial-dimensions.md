@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fb2dc5df96198f3c9f68fcac70b2e5dcbe8c8832
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6fbe739eec0cfa1e7b0276872640bd4f82be3ef7
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175621"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138345"
 ---
 # <a name="define-financial-dimensions"></a>Definir dimensiones financieras
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Esta guía de tareas muestra la adición de una dimensión financiera respaldada por la entidad y una dimensión financiera personalizada.  La guía usa la empresa de demostración de USMF.
 

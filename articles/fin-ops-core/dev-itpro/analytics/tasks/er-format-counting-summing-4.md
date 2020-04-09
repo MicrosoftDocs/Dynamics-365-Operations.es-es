@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f0a80e5b1a79c874ce0a8d24c85be71d0dc5c9c8
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: b89d08d8f6a4223eb592ffa2b918504839e5287b
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550565"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142418"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-4---run-format"></a>Informe electrónico Configurar el formato para contar y sumar (Parte 4: Ejecución de formato)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Los pasos siguientes explican cómo un usuario asignado al administrador del sistema o al rol de desarrollador de informes electrónicos puede configurar un formato de informe electrónico (ER) para que realice el recuento y calcule en función de los datos de la salida de texto ya generada. Estos pasos se pueden llevar a cabo en la empresa DEMF.
 

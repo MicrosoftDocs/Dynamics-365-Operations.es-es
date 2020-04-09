@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 48a327fc5033a7478d2ae5e401ffdce6e4546ad0
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 33d3f3773fdba4b704deeca48874b10958e2ea4e
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042882"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143324"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>ER Crear las configuraciones requeridas para importar datos desde un archivo externo
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 En los siguientes pasos se explica cómo un usuario con rol de administrador del sistema o desarrollador de informes electrónicos puede diseñar configuraciones de informes electrónicos (ER) para importar datos en la aplicación desde un archivo externo. En este ejemplo, creará las configuraciones necesarias de ER para la empresa del ejemplo, Litware, Inc. Para completar estos pasos, primero debe completar los pasos en la guía de la tarea, "ER crea un proveedor de la configuración y marcarlo como activo". Estos pasos se pueden completar mediante el conjunto de datos de USMF. También debe descargar y guardar los archivos siguientes localmente mediante vínculos desde el tema Visión general de los informes electrónicos (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.
 
@@ -36,7 +36,7 @@ La siguiente situación muestra las capacidades de importación de datos de ER. 
 ## <a name="add-a-new-er-model-configuration"></a>Añada una nueva configuración para el modelo ER
 1. Vaya a Administración de la organización > Espacios de trabajo > Informes electrónicos.
 
-    Compruebe que el proveedor de configuración de la empresa de ejemplo, Litware, Inc. está disponible y marcado como activo. Si no ve a este proveedor de configuración, primero debe completar los pasos del procedimiento "Creación de un proveedor de configuración y marcarlo como activo".    
+    Compruebe que el proveedor de configuración de la empresa de ejemplo, Litware, Inc. está disponible y marcado como activo. Si no ve a este proveedor de configuración, primero debe completar los pasos del procedimiento "Creación de un proveedor de configuración y marcarlo como activo".   
 
 2. Haga clic en Configuraciones de informes.
 
