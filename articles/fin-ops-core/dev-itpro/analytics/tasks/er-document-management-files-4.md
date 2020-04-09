@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f715be8c151f62a4bbb4cc295d3158fe5a17e084
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: f5639a46c105e735d028e903513b4fcfb1f0d968
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550818"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142625"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-4---run-format"></a>Informe electrónico Usar archivos de gestión de documentos en las salidas de formato (Parte 4: Ejecución del formato)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 En los pasos siguientes se explica cómo un usuario asignado al administrador del sistema, o a un rol de desarrollador de informes electrónicos, puede configurar un formato de informe electrónico (ER) para usar archivos de gestión de documentos (adjuntos) en formato ER. Estos pasos se pueden llevar a cabo en la empresa DEMF.
 
@@ -66,7 +66,7 @@ Este procedimiento es para una función que se ha agregado en la versión 1611 d
 8. Seleccione la fila del diario de facturas de Cliente y el campo de Pedido de ventas.
 9. En campo Criterios, introduzca '000148'.
     * En los criterios del campo “Pedido de ventas”, introduzca el número de pedido 000148.  
-10. Haga clic en Aceptar
-11. Haga clic en Aceptar
+10. Haga clic en Aceptar.
+11. Haga clic en Aceptar.
     * Revise la salida generada. Tenga en cuenta que se ha creado un nodo XML por cada adjunto. El contenido del adjunto se rellena al archivo de salida XML en formato de texto MIME (base64).  
 

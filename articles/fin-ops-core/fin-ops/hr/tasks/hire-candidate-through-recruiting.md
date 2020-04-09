@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f56769abb4da0068d6e2916df8dc782e662a2d56
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0c4367838bc334f18608e17f966397302c20aa06
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190405"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143636"
 ---
 # <a name="hiring-candidate-through-recruiting"></a>Contratación de candidato a través de la contratación
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimiento permite a la persona encargada de contratación contratar a un candidato que ha enviado una solicitud a través de un proyecto de contratación específico. Si contrata a un candidato a través de un proyecto de contratación, se creará un nuevo registro de trabajador con estado Empleado. La empresa de datos de prueba utilizada para crear este procedimiento es USMF. Para completar este procedimiento, navegue hasta Recursos humanos > Contratación > Solicitudes > Solicitudes. 
 
