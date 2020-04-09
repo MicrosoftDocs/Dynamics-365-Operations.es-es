@@ -16,33 +16,33 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f56769abb4da0068d6e2916df8dc782e662a2d56
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0c4367838bc334f18608e17f966397302c20aa06
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190405"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143636"
 ---
-# <a name="hiring-candidate-through-recruiting"></a><span data-ttu-id="36566-103">Contratación de candidato a través de la contratación</span><span class="sxs-lookup"><span data-stu-id="36566-103">Hiring candidate through recruiting</span></span>
+# <a name="hiring-candidate-through-recruiting"></a><span data-ttu-id="9ee02-103">Contratación de candidato a través de la contratación</span><span class="sxs-lookup"><span data-stu-id="9ee02-103">Hiring candidate through recruiting</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="36566-104">Este procedimiento permite a la persona encargada de contratación contratar a un candidato que ha enviado una solicitud a través de un proyecto de contratación específico.</span><span class="sxs-lookup"><span data-stu-id="36566-104">This procedure enables a recruiter to hire an applicant who submitted an application through a specific recruitment project.</span></span> <span data-ttu-id="36566-105">Si contrata a un candidato a través de un proyecto de contratación, se creará un nuevo registro de trabajador con estado Empleado.</span><span class="sxs-lookup"><span data-stu-id="36566-105">When you hire an applicant through a recruiting project, a new worker record will be created and the applicant’s record will have a status of Employed.</span></span> <span data-ttu-id="36566-106">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="36566-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="36566-107">Para completar este procedimiento, navegue hasta Recursos humanos > Contratación > Solicitudes > Solicitudes.</span><span class="sxs-lookup"><span data-stu-id="36566-107">To complete this procedure, navigate to Human resources > Recruitment > Applications >Applications</span></span> 
+<span data-ttu-id="9ee02-104">Este procedimiento permite a la persona encargada de contratación contratar a un candidato que ha enviado una solicitud a través de un proyecto de contratación específico.</span><span class="sxs-lookup"><span data-stu-id="9ee02-104">This procedure enables a recruiter to hire an applicant who submitted an application through a specific recruitment project.</span></span> <span data-ttu-id="9ee02-105">Si contrata a un candidato a través de un proyecto de contratación, se creará un nuevo registro de trabajador con estado Empleado.</span><span class="sxs-lookup"><span data-stu-id="9ee02-105">When you hire an applicant through a recruiting project, a new worker record will be created and the applicant's record will have a status of Employed.</span></span> <span data-ttu-id="9ee02-106">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="9ee02-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="9ee02-107">Para completar este procedimiento, navegue hasta Recursos humanos > Contratación > Solicitudes > Solicitudes.</span><span class="sxs-lookup"><span data-stu-id="9ee02-107">To complete this procedure, navigate to Human resources > Recruitment > Applications >Applications</span></span> 
 
-1. <span data-ttu-id="36566-108">Seleccione una solicitud para un candidato externo.</span><span class="sxs-lookup"><span data-stu-id="36566-108">Select an Application for an External applicant</span></span>
-2. <span data-ttu-id="36566-109">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="36566-109">In the list, click the link in the selected row.</span></span>
-3. <span data-ttu-id="36566-110">Haga clic en Estado de la solicitud.</span><span class="sxs-lookup"><span data-stu-id="36566-110">Click Application status.</span></span>
-4. <span data-ttu-id="36566-111">Haga clic en Contratar un trabajador nuevo.</span><span class="sxs-lookup"><span data-stu-id="36566-111">Click Hire new worker.</span></span>
-5. <span data-ttu-id="36566-112">En el campo de fecha de inicio del empleo, especifique una fecha y una hora.</span><span class="sxs-lookup"><span data-stu-id="36566-112">In the Employment start date field, enter a date and time.</span></span>
-6. <span data-ttu-id="36566-113">En el campo Puesto, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="36566-113">In the Position field, click the drop-down button to open the lookup.</span></span>
-7. <span data-ttu-id="36566-114">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="36566-114">In the list, click the link in the selected row.</span></span>
-8. <span data-ttu-id="36566-115">En el campo Inicio de asignación, especifique una fecha y una hora.</span><span class="sxs-lookup"><span data-stu-id="36566-115">In the Assignment start field, enter a date and time.</span></span>
-9. <span data-ttu-id="36566-116">Haga clic en Contratar un trabajador nuevo.</span><span class="sxs-lookup"><span data-stu-id="36566-116">Click Hire new worker.</span></span>
-10. <span data-ttu-id="36566-117">Expanda el cuadro informativo Historial del empleo.</span><span class="sxs-lookup"><span data-stu-id="36566-117">Expand the Employment history FactBox.</span></span>
-11. <span data-ttu-id="36566-118">Expanda el cuadro informativo Puestos actuales.</span><span class="sxs-lookup"><span data-stu-id="36566-118">Expand the Current positions FactBox.</span></span>
-12. <span data-ttu-id="36566-119">Expanda el cuadro informativo Historial del empleo.</span><span class="sxs-lookup"><span data-stu-id="36566-119">Expand the Employment history FactBox.</span></span>
-13. <span data-ttu-id="36566-120">Expanda el cuadro informativo Puestos actuales.</span><span class="sxs-lookup"><span data-stu-id="36566-120">Expand the Current positions FactBox.</span></span>
-14. <span data-ttu-id="36566-121">Expanda o contraiga la sección Direcciones.</span><span class="sxs-lookup"><span data-stu-id="36566-121">Expand or collapse the Addresses section.</span></span>
-15. <span data-ttu-id="36566-122">Expanda o contraiga la sección Información de contacto.</span><span class="sxs-lookup"><span data-stu-id="36566-122">Expand or collapse the Contact information section.</span></span>
-16. <span data-ttu-id="36566-123">Expanda o contraiga la sección Información personal.</span><span class="sxs-lookup"><span data-stu-id="36566-123">Expand or collapse the Personal information section.</span></span>
+1. <span data-ttu-id="9ee02-108">Seleccione una solicitud para un candidato externo.</span><span class="sxs-lookup"><span data-stu-id="9ee02-108">Select an Application for an External applicant</span></span>
+2. <span data-ttu-id="9ee02-109">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="9ee02-109">In the list, click the link in the selected row.</span></span>
+3. <span data-ttu-id="9ee02-110">Haga clic en Estado de la solicitud.</span><span class="sxs-lookup"><span data-stu-id="9ee02-110">Click Application status.</span></span>
+4. <span data-ttu-id="9ee02-111">Haga clic en Contratar un trabajador nuevo.</span><span class="sxs-lookup"><span data-stu-id="9ee02-111">Click Hire new worker.</span></span>
+5. <span data-ttu-id="9ee02-112">En el campo de fecha de inicio del empleo, especifique una fecha y una hora.</span><span class="sxs-lookup"><span data-stu-id="9ee02-112">In the Employment start date field, enter a date and time.</span></span>
+6. <span data-ttu-id="9ee02-113">En el campo Puesto, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="9ee02-113">In the Position field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="9ee02-114">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="9ee02-114">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="9ee02-115">En el campo Inicio de asignación, especifique una fecha y una hora.</span><span class="sxs-lookup"><span data-stu-id="9ee02-115">In the Assignment start field, enter a date and time.</span></span>
+9. <span data-ttu-id="9ee02-116">Haga clic en Contratar un trabajador nuevo.</span><span class="sxs-lookup"><span data-stu-id="9ee02-116">Click Hire new worker.</span></span>
+10. <span data-ttu-id="9ee02-117">Expanda el cuadro informativo Historial del empleo.</span><span class="sxs-lookup"><span data-stu-id="9ee02-117">Expand the Employment history FactBox.</span></span>
+11. <span data-ttu-id="9ee02-118">Expanda el cuadro informativo Puestos actuales.</span><span class="sxs-lookup"><span data-stu-id="9ee02-118">Expand the Current positions FactBox.</span></span>
+12. <span data-ttu-id="9ee02-119">Expanda el cuadro informativo Historial del empleo.</span><span class="sxs-lookup"><span data-stu-id="9ee02-119">Expand the Employment history FactBox.</span></span>
+13. <span data-ttu-id="9ee02-120">Expanda el cuadro informativo Puestos actuales.</span><span class="sxs-lookup"><span data-stu-id="9ee02-120">Expand the Current positions FactBox.</span></span>
+14. <span data-ttu-id="9ee02-121">Expanda o contraiga la sección Direcciones.</span><span class="sxs-lookup"><span data-stu-id="9ee02-121">Expand or collapse the Addresses section.</span></span>
+15. <span data-ttu-id="9ee02-122">Expanda o contraiga la sección Información de contacto.</span><span class="sxs-lookup"><span data-stu-id="9ee02-122">Expand or collapse the Contact information section.</span></span>
+16. <span data-ttu-id="9ee02-123">Expanda o contraiga la sección Información personal.</span><span class="sxs-lookup"><span data-stu-id="9ee02-123">Expand or collapse the Personal information section.</span></span>
 
