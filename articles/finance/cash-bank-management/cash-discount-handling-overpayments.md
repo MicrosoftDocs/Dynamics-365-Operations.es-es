@@ -1,5 +1,5 @@
 ---
-title: Gestión de descuentos por pronto pago para sobrepagos
+title: Descuentos por pronto pago para sobrepagos
 description: Este artículo proporcionan escenarios que muestran cómo se gestiona un pago cuando el cliente recibe un descuento por pronto pago pero también paga en exceso.
 author: ShylaThompson
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 803cb478bb7631439ebde66ad96182193d3dd1ae
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e2fafe2fba9dd71fc09c60bfa20d72fa59510b7f
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188358"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154165"
 ---
-# <a name="handling-cash-discounts-for-overpayments"></a>Gestión de descuentos por pronto pago para sobrepagos
+# <a name="cash-discounts-for-overpayments"></a>Descuentos por pronto pago para sobrepagos
 
 [!include [banner](../includes/banner.md)]
 

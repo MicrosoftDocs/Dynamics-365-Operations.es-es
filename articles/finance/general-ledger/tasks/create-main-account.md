@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 58418291d3732c1acbccd097205fa7e64a967038
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a116164a31337013d34f963b549c394aade2de1c
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179723"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140001"
 ---
 # <a name="create-a-main-account"></a>Crear cuenta principal
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Esta guía de tareas describe los pasos de la adición de una cuenta principal a un plan contable existente. Esta grabación usa la empresa de demostración USMF.  
 

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ec792ca27bf0245ff25e59cfe28122f17caec7fc
-ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
+ms.openlocfilehash: 81b0e33d8f721cfcfd437e34b42a909798a6514b
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "1866859"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147466"
 ---
 # <a name="create-a-purchase-agreement"></a>Crear un acuerdo de compra
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este tema le guía por el proceso de creación de un acuerdo de compra. Esto normalmente lo haría el director de compras. Puede utilizar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos. Es necesario haber configurado clasificaciones de acuerdo de compra antes de comenzar. Una vez que haya creado un acuerdo, podrá usarlo cuando cree un pedido de compra; esto copiará las condiciones del acuerdo de compra al encabezado y a cualquier línea del pedido a la que afecte el acuerdo.
 

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1a3e0d00d674af913953d7fd01183b0289c20d3d
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 57abbab21a20278d77001a39e226af11994230be
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844126"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149651"
 ---
 # <a name="create-solicitation-types-and-scoring-criteria-for-rfqs"></a>Crear tipos de solicitud y criterios de puntuación para solicitudes de presupuesto
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Esta guía le muestra cómo crear un tipo de solicitud y asociar esto a un método de puntuación. También muestra cómo utilizar el tipo de solicitud en una solicitud de presupuesto que después establece el método de puntuación predeterminado. Estas tareas las realizará normalmente el director de compras. Puede utilizar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos. Necesita tener un método de puntuación disponible antes de empezar.
 

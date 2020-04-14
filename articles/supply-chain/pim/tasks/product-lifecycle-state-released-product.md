@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 94ef09c8906c793b0187d82cef259122c91a8e01
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 31dabc8994ce9e49da744db5eff3d4f45c66ec4d
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567616"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147600"
 ---
 # <a name="assign-a-product-lifecycle-state-to-a-released-product"></a>Asignar un estado del ciclo de vida del producto a un producto liberado
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimiento muestra cómo asignar un estado de ciclo de vida a un producto liberado. Requisito previo: Necesita reproducir primero la guía de tareas “Crear un nuevo estado de ciclo de vida de producto” para asegurarse de que al menos se cree un estado de ciclo de vida del producto antes de reproducir este manual.
 

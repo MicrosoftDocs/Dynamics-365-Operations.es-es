@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 08fddd6404bf835283adaca14ad7ceb851f5a489
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 7ebae3fac556348aafa595e6e21caf9cd6b44ba4
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1837647"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149030"
 ---
 # <a name="execute-kanban-process-jobs"></a>Ejecutar trabajos de proceso kanban
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimiento se centra en la ejecución de trabajos de procesos kanban. El primer trabajo se completa con la cantidad prevista y no tiene errores. El segundo trabajo se completa con errores. La empresa de datos de prueba utilizada para crear este procedimiento es USMF. Este procedimiento va destinado al operario de la máquina.
 

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 653b93744f5b891655cade0cb669d34179fca9cd
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: bdc4b5c31d9a478a5226ae6b5e8c776de3b661dd
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186150"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144844"
 ---
 # <a name="create-sales-tax-transactions-on-documents"></a>Crear transacciones de impuestos en documentos
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Los impuestos en los documentos se calculan si proporciona un grupo de impuestos y un grupo de impuestos de artículos en las líneas del documento. Los valores predeterminados provienen de los datos maestros pero se pueden cambiar manualmente en caso necesario. Los impuestos calculados se pueden comprobar en el nivel de línea y de documento. Esta tarea usa la empresa de demostración USMF.
 

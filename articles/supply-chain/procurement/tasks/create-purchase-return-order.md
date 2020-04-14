@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d586f4cc92e7533cabb8810ce5a42a37e6ba9ff1
-ms.sourcegitcommit: 25fe679b73663fda6b5b3c32646026d0993a9f00
+ms.openlocfilehash: 743cb2677696727ac2730fec2c11954d150f4cfa
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2019
-ms.locfileid: "1995199"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147374"
 ---
 # <a name="create-a-purchase-return-order"></a>Creación de pedido de devolución de compra
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimiento le muestra cómo crear un pedido de devolución de compras con la acción Nota de abono para copiar líneas de un documento de factura de proveedor a un nuevo pedido de compra. También le muestra cómo confirmar el pedido y procesar el envío de las mercancías de vuelta al proveedor. El ejemplo mostrado en este procedimiento se puede utilizar en la empresa de datos de demostración USMF. Esta tarea la realizaría normalmente un agente de compras.
 

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4671e1df3bc86361736b5882d67e6b160b4c5644
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c843f3b504d8390b26fdc94dd747a73de75df6a9
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175028"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143467"
 ---
 # <a name="set-up-payment-slip-format-for-project-invoices"></a>Configuración de un formato de resguardo de pago para facturas de proyecto
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Las empresas suelen adjuntar resguardos de pago impresos a las facturas para ofrecer asistencia a los clientes y proporcionar una referencia de pago para su registro y liquidación. El resguardo de pago se puede usar para facturas de proyecto o texto sin formato, cartas de cobro, notas de interés y extractos de cuenta, además de las facturas de ventas y facturas de servicios. Para procesar resguardos de pago, configure en primer lugar los formatos de datos adjuntos del resguardo de pago y el número de identificación de un acreedor.
 

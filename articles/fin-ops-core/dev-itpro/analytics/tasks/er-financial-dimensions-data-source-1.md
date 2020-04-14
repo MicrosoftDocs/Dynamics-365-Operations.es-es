@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 92481749fa15d8a9c273edf6a79ee9fcfdc722e7
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: b02496ebb06e0c2eb644fc7ef3280ca4eca05923
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550680"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142048"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-1---design-data-model"></a>ER Usar dimensiones financieras como origen de datos (Parte 1: Modelo de datos de diseño)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 En los pasos siguientes se explica cómo un administrador del sistema o desarrollador de informes electrónicos puede configurar un modelo de informes electrónicos (ER) para que use las dimensiones financieras como origen de datos de informes ER. Estos pasos se pueden llevar a cabo en cualquier empresa.
 
@@ -34,7 +34,7 @@ Para completar estos pasos, primero debe completar los pasos del procedimiento "
 
 ## <a name="create-a-new-data-model"></a>Crear un nuevo modelo de datos
 1. Vaya a Administración de la organización > Espacios de trabajo > Informes electrónicos.
-    * Asegúrese de que el proveedor “Litware, Inc.” está disponible y marcado como activo.  
+    * Asegúrese de que “Litware, Inc.” está disponible y marcado como activo.  
 2. Haga clic en Configuraciones de informes.
 3. Haga clic en Crear configuración para abrir el cuadro de diálogo desplegable.
 4. En el campo Nombre, escriba "Modelo de ejemplo de las dimensiones financieras".

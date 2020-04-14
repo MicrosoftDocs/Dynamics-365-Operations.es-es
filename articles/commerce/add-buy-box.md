@@ -3,7 +3,7 @@ title: Módulo de cuadro de compra
 description: En este tema se tratan los módulos de cuadro de compra y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 13d044a150651dd18c3a09c4db6a783fe8f42287
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 3417156cbf3cb20a5190e5e51b61b3423816895a
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025469"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154072"
 ---
 # <a name="buy-box-module"></a>Módulo de cuadro de compra
 
@@ -58,7 +58,7 @@ Los temas se pueden usar para eliminar o cambiar el orden de las propiedades del
 ## <a name="modules-that-can-be-used-in-a-buy-box-module"></a>Módulos que se pueden usar en un módulo de cuadro de compra
 
 - **Galería de medios** Este módulo se usa para mostrar imágenes de un producto en una página de detalles de productos. Puede admitir de una a varias Imágenes. También admite imágenes en miniatura. Las imágenes en miniatura se pueden organizar horizontalmente fila (como fila debajo de la imagen) o verticalmente (como columna junto a la imagen). El módulo de galería de medios se puede agregar a la franja **Medios** del módulo del cuadro de compra. Actualmente solo admite imágenes y vídeos. 
-- **Selector de tienda**: este módulo muestra una lista de las tiendas cercanas en las que un artículo está disponible para su recogida. Permite a los usuarios especificar una ubicación para encontrar tiendas cercanas. El módulo selector de tienda se integra con la interfaz de programación de aplicaciones (API) de geocodificación de Bing Maps para convertir la ubicación que el cliente ha introducido en una latitud y una longitud. Se requiere una clave de la API de Bing Maps, y debe agregarse a la página de parámetros compartidos de Retail en Dynamics 365 Retail. Este módulo admite dos propiedades, **Radio de búsqueda** y **Vínculo a los términos de servicio**. La propiedad **Radio de búsqueda** define el radio de búsqueda de las tiendas, en millas. Si no se especifica ningún valor, se utiliza el radio de búsqueda predeterminado: 50 millas. Si se utiliza Bings Maps o cualquier servicio externo, se puede usar la propiedad **Vínculo a los términos de servicio** para proporcionar un enlace a los términos del servicio. Se requiere un vínculo a los términos de servicio para el servicio Bing Maps. 
+- **Selector de tienda**: este módulo muestra una lista de las tiendas cercanas en las que un artículo está disponible para su recogida. Permite a los usuarios especificar una ubicación para encontrar tiendas cercanas. Para obtener más información sobre este módulo, vea [Módulo selector de tienda](store-selector.md).
 
 ## <a name="buy-box-module-settings"></a>Configuración del módulo de cuadro de compra
 
@@ -92,6 +92,8 @@ Para agregar un módulo de cuadro de compra a una página nueva y establecer las
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Visión general de kit de inicio](starter-kit-overview.md)
+
+[Módulo de selector de tienda](store-selector.md)
 
 [Módulo Contenedor](add-container-module.md)
 

@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 90032539d59b310cb2d4c1324312eac6593fba6b
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: a5142fe552147a9b2988a8828ba1206fad9e252e
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843610"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146753"
 ---
 # <a name="lean-pegging-from-sales-orders"></a>Diagrama de árbol lean de pedidos de ventas
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimiento se centra en validar el diagrama de árbol de una línea de ventas donde el artículo se produce con kanbans. Después de validar el diagrama de árbol, se planifican todos los trabajos kanban. Esto resulta útil para escenarios de pedidos donde el creador del pedido necesita asegurarse de que la producción puede comenzar inmediatamente. La empresa de datos de prueba utilizada para crear este procedimiento es USMF. Este procedimiento está pensado para el creador del pedido avanzado que trabaja en una empresa lean.
 

@@ -3,7 +3,7 @@ title: Habilitar ADLS en un entorno de Dynamics 365 Commerce
 description: Este tema explica cómo habilitar y probar Azure Data Lake Storage (ADLS) para un entorno de Dynamics 365 Commerce, que es un requisito previo para habilitar las recomendaciones de productos.
 author: bebeale
 manager: AnnBe
-ms.date: 03/12/2020
+ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 553e1512ba72559923403eef741ce08222172a09
-ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
+ms.openlocfilehash: 3c037f5603af5af84917084eefa1edd508891c0d
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3127776"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154445"
 ---
 # <a name="enable-adls-in-a-dynamics-365-commerce-environment"></a>Habilitar ADLS en un entorno de Dynamics 365 Commerce
 
@@ -98,8 +98,6 @@ Si aún no se ha completado, siga los pasos para [habilitar las recomendaciones 
 [Habilitar recomendaciones personalizadas](personalized-recommendations.md)
 
 [Cancelar recomendaciones personalizadas](personalization-gdpr.md)
-
-[Agregar listas de recomendaciones de producto a un sitio de comercio electrónico](add-reco-list-to-page.md)
 
 [Agregar recomendaciones de producto en PDV](product.md)
 

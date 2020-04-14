@@ -16,16 +16,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aea3f08ea2d1bd584448c3033aea41eca2a0e3ce
-ms.sourcegitcommit: 0e2e4d8419c03a30d2223662ba8d403a28fa31eb
+ms.openlocfilehash: 54c75696f7147a7a4eb7b9d984936af9c28ef501
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2019
-ms.locfileid: "1870925"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146224"
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Configurar una directiva de ubicación para la ubicación de pedidos de compra
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este tema explica cómo configurar una directiva de ubicación simple. El ejemplo que se muestra crea una directiva de ubicación que se usará para determinar dónde colocar los artículos recibidos para un pedido de compra. Puede reproducir esta guía de tarea con los datos mencionados usando para ello la empresa de demostración USMF. Condiciones previas: necesita crear un código de disposición. En este procedimiento usamos un código de disposición llamado Relabel. Si está creando una directiva de ubicación en sus propios datos, debe haber configurado la gestión de almacenes avanzada para su almacén y sus artículos. Este procedimiento va destinado al encargado de almacén.
 

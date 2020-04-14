@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e0c00b2a79ab588ff47c249f73570544d884b79e
-ms.sourcegitcommit: 25fe679b73663fda6b5b3c32646026d0993a9f00
+ms.openlocfilehash: a6ced839f93103a62bcfa8ea14ca463f0f1e174e
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2019
-ms.locfileid: "1995264"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145856"
 ---
 # <a name="check-the-availability-of-stock"></a>Comprobar la disponibilidad de existencias
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimiento le muestra cómo comprobar el inventario disponible y el inventario físico disponible para un número de artículo concreto. También se muestra cómo obtener la información de suministro relacionada con un artículo. El inventario físico disponible es el inventario disponible que se tiene a mano, es decir, se ha comprado, recibido y registrado. El inventario disponible incluye el inventario disponible que se tiene a mano, pero también el inventario pedido y que se espera pero aún no se ha recibido o registrado. Puede revisar este procedimiento con los datos de prueba de la empresa USMF o utilizar sus propios datos. Si está usando USMF, puede utilizar los valores del ejemplo mostrados. Estas tareas las realizará normalmente un trabajador del almacén.
 

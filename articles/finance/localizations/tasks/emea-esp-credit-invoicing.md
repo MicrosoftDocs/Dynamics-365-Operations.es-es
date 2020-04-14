@@ -15,16 +15,16 @@ ms.search.region: Spain
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2e0248370d3340f9b31726e18a13fcdf2d104d55
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 54fac0b0c84cdc8b54861786ee7e1be12e9e7737
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183573"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141097"
 ---
 # <a name="create-a-corrective-invoice-spain"></a>Crear una factura correctiva (España)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimiento le guía por la manera de crear una factura de corrección. Este procedimiento se ha creado con los datos de demostración de la empresa DEMF y con una dirección principal en España.
 

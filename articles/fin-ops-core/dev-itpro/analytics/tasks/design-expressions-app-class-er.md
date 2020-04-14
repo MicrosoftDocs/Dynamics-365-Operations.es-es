@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f61228d328521d0c6fe8e0ae704001a65d03151f
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 207309e8be6c097cec187f3475a489330e1f6b6c
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249236"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142694"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>Diseñe expresiones de ER para abrir métodos de clase de aplicación
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Esta guía proporciona información acerca de cómo volver a usar la lógica de aplicación existente en las configuraciones de informes electrónicos (ER) llamando a los métodos necesarios de clases de aplicación en expresiones de ER. Los valores de los argumentos para llamar a clases se pueden definir de forma dinámica en tiempo de ejecución: por ejemplo, en función de la información en el documento de análisis para proteger su corrección. En esta guía, creará las configuraciones de ER necesarias para la empresa de muestra, Litware, Inc. Este procedimiento se crea para los usuarios con el rol asignado de Administrador del sistema o de Desarrollador de informes electrónicos. 
 

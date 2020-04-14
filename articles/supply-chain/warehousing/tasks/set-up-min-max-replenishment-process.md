@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e9002b1d9f8507af42277ccc47621d92a4a00f62
-ms.sourcegitcommit: 7b74425637ddcf02087f1d391755e5cb8ce25949
+ms.openlocfilehash: e8210369139b3c3d4123deff5279abb26b1cbb17
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "2559198"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145971"
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>Configurar un proceso de reabastecimiento mínimo-máximo
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimiento le muestra cómo configurar un nuevo proceso de reabastecimiento que usa la estrategia de reabastecimiento mínima/máxima. Cuando el inventario se encuentran por debajo del nivel mínimo, el trabajo se creará para reabastecer la ubicación. El procedimiento también muestra cómo usar ubicaciones de picking fijas para permitir la reposición incluso si el inventario se encuentra por debajo del nivel mínimo, y cómo habilitar el proceso de reabastecimiento para ejecutarse con regularidad mediante un trabajo por lotes. Estas tareas las realizará normalmente el director del almacén. Puede ejecutar este procedimiento en la empresa de datos de demostración USMF con los valores del ejemplo de abajo o puede ejecutarlo en sus propios datos. Si está usando sus propios datos, asegúrese de que tiene un almacén que está habilitado para los procesos de Administración de almacenes.
 

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 199ee5cd20a064bc6e1fd480f52c9c01ced8b1ba
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 5bdbf9a0708a8e5ae15516ffd603fa0e01595dc8
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844762"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147811"
 ---
 # <a name="create-a-product-configuration-model"></a>Crear un modelo de configuración de productos
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimiento muestra cómo crear un modelo de configuración de productos y especificar información básica como atributos y subcomponentes. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 

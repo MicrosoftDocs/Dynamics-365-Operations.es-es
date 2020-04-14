@@ -19,20 +19,19 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 269346d38eeb3812c352d16f9d50fbcd09307c12
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 977b74b10b4549d09a8816264f9ff603fa86e91c
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124598"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3172840"
 ---
 # <a name="integrated-customer-master"></a>Maestro de clientes integrado
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
 
-Es habitual que los registros de cliente se controlen en más de una aplicación. Por ejemplo, la actividad de ventas puede aportar registros de clientes comerciales a través de una aplicación de Sales y el comercio electrónico o la venta minorista pueden aportar registros de cliente a través de una aplicación de Finance and Operations. Independientemente del origen del registro de cliente, se encuentra integrado en segundo plano entre aplicaciones e infraestructuras diferentes. El control de cliente integrado ayuda a gestionar escenarios de múltiples maestros y proporciona una vista completa del cliente al conjunto de aplicaciones de Dynamics 365.
+Los datos del cliente se pueden dominar en más de una aplicación de Dynamics 365. Por ejemplo, un registro de cliente puede originarse a través de la actividad de ventas en Dynamics 365 Sales (una aplicación basada en modelos en Dynamics 365), o un registro puede originarse a través de la actividad minorista en Dynamics 365 Commerce (una aplicación de Finance and Operations). No importa dónde se originan los datos del cliente, se integran detrás de escena. El maestro de clientes integrado le brinda la flexibilidad de dominar los datos del cliente en cualquier aplicación de Dynamics 365 y brinda una visión integral del cliente a través del conjunto de aplicaciones de Dynamics 365.
 
 ## <a name="customer-data-flow"></a>Flujo de datos del cliente
 
@@ -59,7 +58,6 @@ Grupos de clientes             | msdyn_customergroups            | Esta plantill
 Método de pago de cliente     | msdyn_customerpaymentmethods    | Esta plantilla sincroniza la información del método de pago del cliente.
 Clientes V3                | cuentas                        | Esta plantilla sincroniza la información de maestro de cliente para los clientes comerciales y organizativos.
 Clientes V3                | contactos                        | Esta plantilla sincroniza los datos maestros de cliente para los consumidores y los usuarios finales.
-Tarjeta de fidelización                | msdyn_loyaltycards              | Esta plantilla sincroniza la información de la tarjeta de fidelización del cliente.
 Afijos de nombre                | msdyn_nameaffixes               | Esta plantilla sincroniza los datos de referencia de los afijos de nombre, para clientes y proveedores.
 Líneas de días de pago de CDS V2    | msdyn_paymentdaylines           | Esta plantilla sincroniza los datos de referencia de las líneas de días de pago, para clientes y proveedores.
 Días de pago de CDS            | msdyn_paymentdays               | Esta plantilla sincroniza los datos de referencia de los días de pago, para clientes y proveedores.
@@ -78,8 +76,6 @@ Condiciones de pago            | msdyn_paymentterms              | Esta plantill
 [!include [mapping customer accounts](includes/CustomersV3-accounts.md)]
 
 [!include [mapping customer contacts](includes/CustomersV3-contacts.md)]
-
-[!include [mapping loyalty card](includes/LoyaltyCard-msdyn-loyaltycards.md)]
 
 [!include [mapping name affixes](includes/NameAffixes-msdyn-nameaffixes.md)]
 

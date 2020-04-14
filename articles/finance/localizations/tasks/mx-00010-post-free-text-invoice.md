@@ -16,16 +16,16 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: af5ee92dd9287c55eb62229944cc06ddb7c73834
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 53ddc1f28eda57910548471bb51e9e1db2e9b442
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174609"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3137986"
 ---
 # <a name="mx-00010-post-a-free-text-invoice"></a>MX-00010 Registrar una factura de servicio
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Use el formulario Factura de texto libre para crear y registrar una factura de cliente como factura electrónica mediante el método CFDI. Debe haber iniciado sesión en una entidad jurídica mexicana. Esta tarea se creó con los datos de la empresa de demostración MXMF.
 
@@ -51,7 +51,7 @@ Use el formulario Factura de texto libre para crear y registrar una factura de c
 16. Cierre la página.
 17. Vaya a Clientes > Facturas > Facturas electrónicas > Proceso de exportar/importar factura electrónica.
 18. Haga clic en Aceptar
-    * Este trabajo por lotes ejecuta la conexión con los servicios web PAC para obtener la aprobación o la cancelación de una factura electrónica CFDI. La tarea en el lote se puede ejecutar manualmente o se puede programar para un período de tiempo específico.    Tras presionar Aceptar, se establece la conexión web para obtener la validación y la firma digital. Si se aprueba la factura electrónica, PAC envía el mensaje XML de respuesta y el estado de la factura electrónica se actualiza para su aprobación. Se envía un mensaje de correo electrónico automáticamente al cliente con el archivo XML y PDF adjunto. Las casillas Enviar correo y Enviar archivo de informe: PDF deben estar activadas en los parámetros de factura electrónica. Si no, puede enviar por correo electrónico o imprimir un informe PDF basándose en la solicitud del cliente mediante el menú Consultar e informar > CFDI (facturas electrónicas).    
+    * Este trabajo por lotes ejecuta la conexión con los servicios web PAC para obtener la aprobación o la cancelación de una factura electrónica CFDI. La tarea en el lote se puede ejecutar manualmente o se puede programar para un período de tiempo específico.       Tras presionar Aceptar, se establece la conexión web para obtener la validación y la firma digital. Si se aprueba la factura electrónica, PAC envía el mensaje XML de respuesta y el estado de la factura electrónica se actualiza para su aprobación. Se envía un mensaje de correo electrónico automáticamente al cliente con el archivo XML y PDF adjunto. Las casillas Enviar correo y Enviar archivo de informe: PDF deben estar activadas en los parámetros de factura electrónica. Si no, puede enviar por correo electrónico o imprimir un informe PDF basándose en la solicitud del cliente mediante el menú Consultar e informar > CFDI (facturas electrónicas).    
 19. Vaya a Clientes > Consultas e informes > CFDI (facturas electrónicas).
 20. En la lista, marque la fila seleccionada.
 21. En la lista, haga clic en el vínculo de la fila seleccionada.

@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6e3293caa905eacaebc757a57ec5b104629b6a8d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8557a196a3998d57baf3db63c05fc3945d52e8f4
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567685"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149904"
 ---
 # <a name="create-a-new-product-lifecycle-state"></a>Crear un nuevo estado de ciclo de vida de producto
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimiento muestra cómo crear un nuevo estado de ciclo de vida del producto. El estado del ciclo de vida de un producto documenta el estado de ciclo de vida de un producto liberado o una variante del producto. Los estados del ciclo de vida de un producto están definidos por el usuario, normalmente administrador de producto o administrador de datos de producto maestro. Los procesos empresariales específicos, como planificación maestra, pueden verse afectados por una estado de ciclo de vida específico.
 

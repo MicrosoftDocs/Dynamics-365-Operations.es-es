@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 788564bfd7c3df146266976d8eef6621ff37ca2a
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 48ce4942f8407242013df45f533390784694d4e6
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550634"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142556"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-2---model-mapping"></a>ER Usar dimensiones financieras como origen de datos (Parte 2: Asignación de modelo)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 En los pasos siguientes se explica cómo un usuario asignado al rol de administrador del sistema o desarrollador de informes electrónicos puede configurar un modelo de informes electrónicos (ER) para que use las dimensiones financieras como origen de datos de informes ER. Estos pasos se pueden llevar a cabo en cualquier empresa.
 
@@ -58,7 +58,7 @@ Para completar estos pasos, primero debe completar los pasos del procedimiento "
     * Seleccione Todos para permitir al usuario seleccionar las dimensiones deseadas para la instancia actual en el campo Buscar.  Seleccione Entidad legal para permitir al usuario seleccionar las dimensiones para la empresa en el campo Buscar.  Seleccione Dimensión para permitir al usuario seleccionar las dimensiones usando un conjunto de dimensiones único.  
 21. Seleccione Sí en el campo Pedir cuenta principal.
     * Establezca "Pedir cuenta principal" en Sí para permitir a los usuarios seleccionar la cuenta principal como parte de la lista de dimensiones.   Si se establece en No, la cuenta principal no se incluirá en la lista de dimensiones y la opción "La cuenta principal es obligatoria" se habilita. Si "La cuenta principal es obligatoria" se establece en Sí, incluya la cuenta principal en la lista de dimensiones independientemente de la selección del usuario.  
-22. Haga clic en Aceptar
+22. Haga clic en Aceptar.
 23. En el árbol, seleccione "Dynamics 365 for Operations\Registros de tabla".
 24. Haga clic en Agregar raíz.
 25. En el campo Nombre, escriba "LedgerJournal".

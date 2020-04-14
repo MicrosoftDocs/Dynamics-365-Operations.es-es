@@ -3,7 +3,7 @@ title: Configuración de parámetros de la administración de crédito
 description: En este tema se describen las opciones que puede usar para configurar la Administración de crédito a fin de cumplir los requisitos de su empresa.
 author: mikefalkner
 manager: AnnBe
-ms.date: 09/04/2019
+ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ba0b047fe984f6bc164cbe137320d6bf6c13dafc
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 6d4ced14e51dd28d51d2081d8e92891e31eea49d
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124194"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154537"
 ---
 # <a name="credit-management-parameters-setup"></a>Configuración de parámetros de la administración de crédito
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se describen las opciones que puede usar para configurar la Administración de crédito a fin de cumplir los requisitos de su empresa. Para comenzar a usar las características de Administración de crédito, configure los parámetros en la página **Parámetros de administración de crédito** (**Administración de crédito \> Configurar \> Parámetros de administración de crédito**).
+En este tema se describen las opciones que puede usar para configurar la Administración de crédito a fin de cumplir los requisitos de su empresa. Para comenzar a usar las características de Administración de crédito, configure los parámetros en la página **Parámetros de crédito y cobros** (**Crédito y cobros \> Configurar \> Parámetros de crédito y cobros**).
 
 ## <a name="credit-parameters"></a>Parámetros de crédito
 
-Existen cuatro fichas desplegables en las que puede cambiar los parámetros que controlan la Administración de crédito: **Retenciones de crédito**, **Punto de comprobación de administración de crédito**, **Estadísticas de administración de crédito** y **Límites de crédito**. En las siguientes secciones se describe la configuración que está disponible en cada ficha desplegable.
+Existen cuatro fichas desplegables en la sección **Crédito** en las que puede cambiar los parámetros que controlan la Administración de crédito: **Retenciones de crédito**, **Punto de comprobación de administración de crédito**, **Estadísticas de administración de crédito** y **Límites de crédito**. En las siguientes secciones se describe la configuración que está disponible en cada ficha desplegable.
 
 ### <a name="credit-holds"></a>Retenciones de crédito
 

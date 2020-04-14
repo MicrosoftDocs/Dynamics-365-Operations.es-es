@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a6b0fa28d778a4d9fa1f718b1d50bf1dce00be00
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: ba720fd1bbbbf8b4f3b936d65d9d7840432f291a
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186127"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145038"
 ---
 # <a name="define-audit-policies-for-source-documents"></a>Definir directivas de auditoría para documentos de origen
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 En este tema se explica cómo configurar y ejecutar las reglas de directivas de auditoría. En el ejemplo se usan informes de gastos con el tipo de gastos de hotel. Este procedimiento usa la empresa de demostración USMF. El rol de auditor contiene los permisos correctos para llevar a cabo estas tareas.
 

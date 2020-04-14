@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b048c49de7357ec1b5cbf36dd4f22a5d3efd443b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a101edd9e25fba1aa2325cb2193c6ea56282c9d1
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189416"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143797"
 ---
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>Configurar la validación de conciliación de facturas de proveedores
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Antes de empezar, asegúrese de que la clave de configuración Conciliación de facturas esté seleccionada. Si la entidad jurídica realiza un seguimiento de gastos, como el flete, usando los cargos, asegúrese de que la clave de configuración de cargos esté seleccionada.  La conciliación de facturas de proveedores es el proceso de conciliación de la factura de proveedor, el pedido de compra y la información de recepción de producto. Las diferencias entre estos documentos se denominan "discrepancias coincidentes". Las discrepancias de conciliación se comparan con las tolerancias especificadas. Si una discrepancia de conciliación supera el porcentaje o el importe de tolerancia, se mostrarán iconos de desviación de conciliación en la página **Factura de proveedor** y en la página **Detalles de coincidencia de factura**.
 

@@ -3,7 +3,7 @@ title: Actualizar proceso
 description: Microsoft Dynamics 365 Human Resources es un verdadero software como servicio (SaaS) que proporciona actualizaciones continuas y sin contacto del servicio para la aplicación y cambios de plataforma.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 02/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -16,14 +16,14 @@ ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anbichse
-ms.search.validFrom: 2020-02-03
+ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 267682f4497bacf70f93840a948d0e525dfa4aa1
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 424027e82717b8636d59289b28978d6ce3c6db4d
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092210"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154514"
 ---
 # <a name="update-process"></a>Actualizar proceso
 
@@ -37,52 +37,39 @@ Las actualizaciones se lanzan en una cadencia regular en todos los entornos. Hum
 
 Las actualizaciones de Human Resources se aplican a todos los entornos automáticamente. Human Resources proporciona dos tipos de lanzamientos:
 
-- **Actualizaciones de servicio**: actualizaciones semanales que incluyen correcciones de errores y nuevas características. Las actualizaciones de servicio también incluyen actualizaciones de plataforma aplicables cuando se lanzan. Para tener una idea de cuándo se lanzan las actualizaciones de la Plataforma, vea [Tabla 3: Lanzamientos de plataforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy#table-3-platform-releases). Las actualizaciones semanales generalmente se lanzan los miércoles. Para obtener más información sobre las actualizaciones semanales, vea [Novedades o cambios en Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365/talent/whats-new).
+- **Actualizaciones de servicio**: las actualizaciones se producen cada dos semanas e incluyen correcciones de errores y nuevas características. Las actualizaciones de servicio también incluyen actualizaciones de plataforma aplicables cuando se lanzan. Para tener una idea de cuándo se lanzan las actualizaciones de la Plataforma, vea [Tabla 3: Lanzamientos de plataforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy#table-3-platform-releases). Las actualizaciones quincenales tienen una implementación global por etapas en todas las regiones. Para obtener más información sobre las actualizaciones quincenales, vea [Novedades o cambios en Dynamics 365 Human Resources](hr-admin-whats-new.md).
 
-    Todos los centros de datos compatibles se actualizan semanalmente, a menos que se indique lo contrario. Las actualizaciones semanales generalmente comienzan el miércoles y finalizan el domingo. Las regiones de EE. UU., Australia, Europa, Reino Unido, Asia y Canadá se incluyen en las actualizaciones semanales. 
+    Todos los centros de datos compatibles se actualizan cada dos semanas, a menos que se indique lo contrario. Las regiones de EE. UU., Australia, Europa, Reino Unido, Asia y Canadá se incluyen en las actualizaciones quincenales. 
 
-- **Actualizaciones de soluciones de Common Data Service**: estas actualizaciones se producen aproximadamente cada seis semanas, según sea necesario. Incluyen nuevas entidades y cambios a entidades existentes en Common Data Service. Estas actualizaciones se lanzan a las mismas regiones que las actualizaciones semanales, y tardan aproximadamente seis semanas en replicarse en todos los centros de datos. Las actualizaciones de la solución pueden o no alinearse con las actualizaciones semanales del servicio.
-
-La siguiente tabla muestra una programación de ejemplo:
-
-| Semana | Tipo de actualización |
-| --- | --- |
-| 1 | Actualización del servicio (todas las regiones) |
-| 2 | Actualización del servicio (todas las regiones) + Actualización de la solución (regiones de la semana 1) |
-| 3 | Actualización del servicio (todas las regiones) + Actualización de la solución (regiones de la semana 2) |
-| 4 | Actualización del servicio (todas las regiones) + Actualización de la solución (regiones de la semana 3) |
-| 5 | Actualización del servicio (todas las regiones) + Actualización de la solución (regiones de la semana 4) |
-| 6 | Actualización del servicio (todas las regiones) + Actualización de la solución (regiones de la semana 5) |
-| 7 | Actualización del servicio (todas las regiones) + Actualización de la solución (regiones de la semana 6) |
-| 8 | Actualización del servicio (todas las regiones) |
+- **Actualizaciones de soluciones de Common Data Service**: estas actualizaciones se producen aproximadamente cada seis semanas, según sea necesario. Incluyen nuevas entidades y cambios a entidades existentes en Common Data Service. Estas actualizaciones se lanzan a las mismas regiones que las actualizaciones quincenales, y tardan aproximadamente seis semanas en replicarse en todos los centros de datos. Las actualizaciones de la solución pueden o no alinearse con las actualizaciones quincenales del servicio.
 
 > [!NOTE]
 > Las actualizaciones de la solución están disponibles en todos los centros de datos una vez que se lanzan. Si no desea esperar a que las actualizaciones se repliquen automáticamente, puede aplicarlas manualmente en cualquier entorno en cualquier centro de datos.
 
 Cuando es necesario, Human Resources también proporciona los siguientes tipos de soluciones:
 
-- **Revisión (hotfix)**: correcciones de errores que pueden ocurrir con o sin una versión de actualización de servicio semanal
+- **Revisión (hotfix)**: correcciones de errores que pueden ocurrir con o sin una versión de actualización de servicio quincenal
 
-- **Corrección de emergencia**: las revisiones proactivas y reactivas que son de naturaleza independiente, pueden incluir solo cambios de configuración o código para resolver problemas del sitio en vivo, y pueden ocurrir aparte de una versión de actualización de servicio semanal
+- **Corrección de emergencia**: las revisiones proactivas y reactivas que son de naturaleza independiente, pueden incluir solo cambios de configuración o código para resolver problemas del sitio en vivo, y pueden ocurrir aparte de una versión de actualización de servicio quincenal
 
 Las versiones se revisan, prueban y validan en un entorno interno. Después de que las compilaciones se cierran, se implementan en producción.
 
-## <a name="exceptions-in-2019"></a>Excepciones en 2019
+## <a name="release-cadence-exceptions-in-2020"></a>Liberar excepciones de cadencia en 2020
 
 Las siguientes fechas son excepciones al calendario de lanzamiento regular:
 
 | Fecha | Descripción |
 | --- | --- |
-| Semana del 25 de noviembre | Sin actualizaciones |
-| Semana del 16 de diciembre | Solo actualizaciones secundarias |
-| Semana del 23 de diciembre | Sin actualizaciones |
-| Semana del 30 de diciembre | Sin actualizaciones |
+| Semana del 23 de noviembre | Sin actualizaciones |
+| Semana del 14 de diciembre | Solo actualizaciones secundarias |
+| Semana del 21 de diciembre | Sin actualizaciones |
+| Semana del 28 de diciembre | Sin actualizaciones |
 
 ## <a name="communications"></a>Comunicaciones
 
 Puede averiguar qué se está trabajando para Recursos Humanos y qué hemos publicado en las siguientes ubicaciones:
 
-- [Hoja de ruta de Dynamics 365 Human Resources](https://dynamics.microsoft.com/roadmap/talent/)
+- [Hoja de ruta de Dynamics 365 Human Resources](https://dynamics.microsoft.com/roadmap/human-resources/)
 
 - [Planes de la versión de Dynamics 365](https://docs.microsoft.com/dynamics365/release-plans/)
 
@@ -114,7 +101,7 @@ Mientras prueba las funciones de vista previa o prueba nuevas capacidades, puede
 
 ## <a name="see-also"></a>Consulte también
 
-- [Planes de la versión de Dynamics 365 y Power Platform](https://docs.microsoft.com/dynamics365/release-plans)
-- [Novedades y cambios en Dynamics 365 Human Resources](hr-admin-whats-new.md)
-- [Directiva del ciclo de vida del software](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
+[Planes de la versión de Dynamics 365 y Power Platform](https://docs.microsoft.com/dynamics365/release-plans)</br>
+[Novedades y cambios en Dynamics 365 Human Resources](hr-admin-whats-new.md)</br>
+[Directiva del ciclo de vida del software](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
 

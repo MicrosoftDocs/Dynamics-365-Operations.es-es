@@ -3,7 +3,7 @@ title: Configurar dispositivos móviles para el trabajo de almacén
 description: En este tema se describe cómo configurar los elementos de menú que usan los trabajadores del almacén para trabajar en un dispositivo móvil.
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 04/18/2019
+ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df3968c01006d773300593b966a69b5283a889a2
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 4c4b131c14101722593f685cbe1133b1aa1319b0
+ms.sourcegitcommit: 34e543e807ac8790597f522fe3b4f0266cf4ee56
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813054"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3161837"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Configurar dispositivos móviles para el trabajo de almacén
 
@@ -95,11 +95,11 @@ Puede configurar un elemento de menú que crea trabajo para otro trabajador tras
 </tr>
 <tr>
 <td>Recepción de matrícula de entidad de almacén</td>
-<td>Reciba una carga de entrada mediante la identificación del número de matrícula.</td>
+<td>Reciba un aviso de envío por adelantado (ASN) entrante mediante la identificación de matrícula de entidad de almacén.</td>
 </tr>
 <tr>
 <td>Recepción de matrícula de entidad de almacén y ubicación</td>
-<td>Reciba y ubique una carga de entrada mediante la identificación de matrícula de entidad de almacén.</td>
+<td>Reciba y aparte un aviso de envío por adelantado (ASN) entrante mediante la identificación de matrícula de entidad de almacén.</td>
 </tr>
 <tr>
 <td>Recepción de artículo de carga</td>
@@ -119,7 +119,7 @@ Puede configurar un elemento de menú que crea trabajo para otro trabajador tras
 <td>Registre la recepción de una cantidad de un artículo registrando el número RMA y ubique los artículos. El mismo trabajador realiza ambas acciones.</td>
 </tr>
 <tr>
-<td rowspan="4">Orden de transferencia</td>
+<td rowspan="6">Orden de transferencia</td>
 <td>Recepción de artículo de pedido de transferencia</td>
 <td>Registre la recepción de una cantidad de un artículo y cree el trabajo de ubicación para otro trabajador.
 
@@ -138,6 +138,14 @@ Puede configurar un elemento de menú que crea trabajo para otro trabajador tras
 <tr>
 <td>Recepción de línea del pedido de transferencia y ubicación</td>
 <td>Registre la recepción de una cantidad de un artículo y ubique los artículos. El mismo trabajador realiza ambas acciones.</td>
+</tr>
+<tr>
+<td>Recepción de matrícula de entidad de almacén</td>
+<td>Reciba un aviso de envío por adelantado (ASN) entrante mediante la identificación de matrícula de entidad de almacén.</td>
+</tr>
+<tr>
+<td>Recepción de matrícula de entidad de almacén y ubicación</td>
+<td>Reciba y aparte un aviso de envío por adelantado (ASN) entrante mediante la identificación de matrícula de entidad de almacén.</td>
 </tr>
 <tr>
 <td rowspan="4">Producción</td>

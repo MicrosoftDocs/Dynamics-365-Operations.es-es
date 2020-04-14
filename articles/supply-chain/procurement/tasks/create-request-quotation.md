@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3e35dbc489608c0aa3bfb13db5ae237f854612b1
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 954bfe3972e46eac803681a5a09e85661999f1d6
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844138"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149674"
 ---
 # <a name="create-a-request-for-quotation"></a>Crear una solicitud de presupuesto
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimiento le muestra cómo crear una solicitud de presupuesto. Esto normalmente lo haría el agente de compras. Puede utilizar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos. Es necesario haber configurado tipos de solicitud antes de comenzar. Una vez que haya completado esta tarea y haya creado y enviado una solicitud de presupuesto, podrá escribir las respuestas por proveedor, compararlas y conceder el contrato.
 

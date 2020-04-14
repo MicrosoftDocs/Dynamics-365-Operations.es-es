@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 0e2b98bde04b221730413bcd7ddd028074b19d47
-ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
+ms.openlocfilehash: e65d371486d53d0fe4f039da68fbb4dcc35074d1
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3030954"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154583"
 ---
 # <a name="financial-dimensions-and-posting"></a>Dimensiones financieras y registro 
 
@@ -37,7 +37,7 @@ Un sistema rico basado en reglas se usa para definir combinaciones válidas de c
 
 ### <a name="account-structures"></a>Estructuras contables
 
-Se requiere una estructura contable cuando configura el libro mayor. Debe definir y activar al menos una estructura contable y, debe asignarla al libro mayor. La estructura contable debe contener la cuenta principal. Puede definir el orden de los segmentos que mejor funcione para el negocio. Después de que se defina la cuenta principal, el sistema puede determinar la estructura contable que se usa. Al configurar la cuenta principal primero o cerca del frente de una estructura, puede ayudar a restringir los valores y también ayudar al sistema a aplicar el último valor conocido como valor predeterminado. Puede tener hasta 10 dimensiones financieras adicionales en la estructura contable. La estructura contable define qué valores de dimensión son válidos en combinación con otros valores. también define si los valores de dimensión se deben introducir.
+Se requiere una estructura contable cuando configura el libro mayor. Debe definir y activar al menos una estructura contable y, debe asignarla al libro mayor. La estructura contable debe contener la cuenta principal. Puede definir el orden de los segmentos que mejor funcione para el negocio. Después de que se defina la cuenta principal, el sistema puede determinar la estructura contable que se usa. Al configurar la cuenta principal primero o cerca del frente de una estructura, puede ayudar a restringir los valores y también ayudar al sistema a aplicar el último valor conocido como valor predeterminado. Puede tener hasta 10 dimensiones financieras adicionales en la estructura contable. La estructura contable define qué valores de dimensión son válidos en combinación con otros valores. También define si los valores de dimensión se deben introducir.
 
 ### <a name="advanced-rules"></a>Reglas avanzadas
 

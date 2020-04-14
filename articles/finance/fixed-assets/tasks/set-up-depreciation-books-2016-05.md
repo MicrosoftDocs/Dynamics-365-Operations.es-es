@@ -1,6 +1,6 @@
 ---
-title: Configuración de libros depreciación (mayo de 2016)
-description: Esta guía de la tarea creará un nuevo libro de amortización y lo asociará a un grupo de activos fijos.
+title: Configurar libros de amortización
+description: Este procedimiento explica el proceso de creación de un nuevo libro de amortización y lo asocia con un grupo de activos fijos.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
@@ -16,19 +16,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6840e211847494598a81cd3228dbd3796447e18c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 03f915fa91e0eeff2f26ab9a60bbd5118317e853
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186909"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154614"
 ---
-# <a name="set-up-depreciation-books-may-2016"></a>Configuración de libros depreciación (mayo de 2016)
+# <a name="set-up-depreciation-books"></a>Configurar libros de amortización 
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Esta guía de la tarea creará un nuevo libro de amortización y lo asociará a un grupo de activos fijos.  Usa el rol de contable y los datos de prueba de la entidad jurídica USMF.
-
+Este procedimiento explica el proceso de creación de un nuevo libro de amortización y lo asocia con un grupo de activos fijos. 
 
 ## <a name="create-a-depreciation-book"></a>Crear un libro de amortización
 1. Vaya a Activos fijos > Configuración > Libros amortización.

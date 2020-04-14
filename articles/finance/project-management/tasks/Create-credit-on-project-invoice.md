@@ -16,16 +16,16 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 19ec4499ba37628e037f862da28e271d5313c6ad
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3a0158c4ed17179b8b15d13fdc20e369da12de54
+ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174475"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3139110"
 ---
 # <a name="create-a-credit-note-on-project-invoices"></a>Crear una nota de abono en facturas de proyecto
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 1. Vaya a Gestión de proyectos y contabilidad > Proyectos > Todos los proyectos. 
 2. En la lista, busque y seleccione el registro deseado. 

@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5f9931a39e4ca2141ed5b43086226c7fcc7cbd7c
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 0d148fa36a116860af8c44043d90759b8a2d76fb
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023913"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140771"
 ---
 # <a name="generate-and-run-out-of-box-reports"></a>Generar y ejecutar informes listos para usar
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Use esta guía de tareas para ejecutar informes listos para usar en la sede de diferentes áreas de trabajo e informes de Consultas y ventas que se encuentran en Commerce.
 

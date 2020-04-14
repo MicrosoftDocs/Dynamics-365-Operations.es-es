@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 980ce00ae702ea0a3394efa15419e0f7b7dc2530
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5def757de8fb9d347f5fd0f828039dad5c989c19
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182218"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143301"
 ---
 # <a name="er-upload-a-configuration-into-lifecycle-services"></a>ER Cargar una configuración en Lifecycle Services
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 En los pasos siguientes se explica cómo un usuario con rol de administrador del sistema o de desarrollador de informes electrónicos puede crear una configuración nueva de informes electrónicos y cargarla en Microsoft Lifecycle Services (LCS).
 
-En este ejemplo, creará una configuración y la subira a LCS para la empresa de demostración, Litware, Inc. Estos pasos se pueden realizar en cualquier empresa a medida que las configuraciones de ER se comparten entre las empresas. Para completar estos pasos, primero debe completar los pasos del procedimiento Creación y activación de un proveedor de configuraciones. También se requiere el acceso a LCS para finalizar estos pasos.
+En este ejemplo, creará una configuración y la subira a LCS para la empresa de demostración, Litware, Inc. Estos pasos se pueden realizar en cualquier empresa a medida que las configuraciones de ER se comparten entre las empresas. Para completar estos pasos, primero debe completar los pasos del procedimiento "Creación y activación de un proveedor de configuraciones". También se requiere el acceso a LCS para finalizar estos pasos.
 
 1. Vaya a Administración de la organización > Espacios de trabajo > Informes electrónicos.
 2. Seleccione "Litware, Inc." y establézcala como activa.
@@ -83,7 +83,7 @@ En este ejemplo, creará una configuración y la subira a LCS para la empresa de
 4. Haga clic en Cambiar estado.
 5. Haga clic en Compartir.
     * El estado de la configuración cambiará de "Completado" a "Compartido" cuando se publique en LCS.  
-6. Haga clic en Aceptar
+6. Haga clic en Aceptar.
 7. En la lista, busque y seleccione el registro deseado.
     * Seleccione la versión de configuración con el estado de "Compartido".  
     * Tenga en cuenta que el estado de la versión seleccionada ha cambiado de "Completado" a "Compartido".  

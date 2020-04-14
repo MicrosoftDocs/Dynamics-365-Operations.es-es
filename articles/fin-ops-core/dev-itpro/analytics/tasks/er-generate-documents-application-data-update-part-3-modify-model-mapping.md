@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5df6128228b9ff620c606c550c5eb7a6039b915
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a4546de2c5c1773aadce0ec084ee7058ff2ae153
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182310"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141888"
 ---
 # <a name="modify-models-and-mappings-to-generate-documents-that-have-application-data"></a>Modificar modelos y asignaciones para generar documentos que tengan datos de la aplicación
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Para completar los pasos de este procedimiento, primero debe completar el procedimiento, "ER: Generar documentos con la actualización de los datos de la aplicación (Parte 2: Generar documentos)". 
+Para completar los pasos de este procedimiento, primero debe completar el procedimiento, "ER: Generar documentos con la actualización de datos de la aplicación (Parte 2: Generar documentos)". 
 
 Los pasos de este procedimiento explican cómo diseñar las configuraciones de los informes electrónicos (ER) para generar un documento electrónico y actualizar los datos de la aplicación. En este procedimiento, se modificarán las configuraciones de ER para comenzar a utilizarlas para generar documentos electrónicos y actualizar los datos de la aplicación. Este procedimiento se ha creado para los usuarios con los roles Administrador del sistema o Desarrollador de informes electrónicos asignados. Estos pasos se pueden completar mediante el conjunto de datos de DEMF.
 
@@ -103,7 +103,7 @@ Los pasos de este procedimiento explican cómo diseñar las configuraciones de l
     * modelo  
 12. En el campo de Definición, especifique o seleccione el valor “Para la actualización de datos de la aplicación".
     * Para la actualización de los datos de la aplicación  
-13. Haga clic en Aceptar
+13. Haga clic en Aceptar.
 14. En el árbol , expanda "modelo".
 15. En el árbol, seleccione el apartado "Funciones\Campo calculado".
 16. En el árbol, seleccione "modelo\Encabezado de archivo".
@@ -133,7 +133,7 @@ Los pasos de este procedimiento explican cómo diseñar las configuraciones de l
 33. Seleccione Sí en el campo Registrar en registro de información.
     * Seleccione Si para obtener información sobre los problemas con la actualización de los datos de la aplicación.  
 34. Seleccione Sí en el campo Omitir validación de acciones del registro.
-    * Seleccione Sí para suprimir errores de validación sobre campo vacío de archivo Intrastat ID“ Esto se hace después de que se agreguen los registros, en función de la configuración del número de secuencia que esté configurado para esta tabla en el formulario de Parámetros de comercio exterior.  
+    * Seleccione Sí para suprimir errores de validación sobre campo vacío de "archivo Intrastat ID“. Esto se hace después de que se agreguen los registros, en función de la configuración del número de secuencia que esté configurado para esta tabla en el formulario de Parámetros de comercio exterior.  
 35. Haga clic en Aceptar
     * Vincular elementos del origen de datos agregados (el modelo filtrado basado en el elemento raíz seleccionado) con los elementos de destino agregados.  
 36. En el árbol, expanda "Archivo".

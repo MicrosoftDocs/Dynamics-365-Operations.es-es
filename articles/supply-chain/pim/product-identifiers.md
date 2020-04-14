@@ -3,7 +3,7 @@ title: Identificadores de producto
 description: Este tema proporciona información sobre los distintos tipos de identificadores de producto y explica cómo puede agregar los identificadores de producto en sus datos de producto.
 author: cvocph
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 03/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: adac308a17ac51ed6da28d04d8c69b01f579aab7
-ms.sourcegitcommit: 7789ef6b0d337bee6aa05110c40e002f02eec71b
+ms.openlocfilehash: 0aa8baf5802ccdd9a502e2a7d291a76fc4afe932
+ms.sourcegitcommit: d91d96c98b31ae59bc82ec91efbb7da86ffb25fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3095626"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3172034"
 ---
-# <a name="product-identifiers"></a>Identificadores de producto 
+# <a name="product-identifiers"></a>Identificadores de producto
 
 [!include [banner](../includes/banner.md)]
 
@@ -53,6 +53,9 @@ Además, una variante del producto no se podrá identificar exclusivamente por u
 Muchas páginas aún tienen el número de artículo y las dimensiones del producto como los identificadores principales. Sin embargo, los números de producto se pueden usar para realizar búsquedas. En **Ventas y marketing** &gt; **Configuración** &gt; **Buscar** &gt; **Parámetros de búsqueda**, puede cambiar la búsqueda, de modo que utilice los números de producto en lugar de números de artículo como estrategia de búsqueda principal. Si establece la opción **Habilitar la búsqueda de productos** en **Sí**, la búsqueda muestra no sólo los productos maestros sino las variantes de producto. Para obtener más información, consulte [Buscar los productos y variantes de producto durante la entrada de pedidos](search-products-product-variants.md).
 
 Además, podrá realizar búsquedas y filtros en el código de producto, el nombre y la descripción del producto y los id. de la dimensión del producto de la variante del producto. Al seleccionar una variante, el número de artículo relacionado y todos los id. de la dimensión del producto se seleccionarán. Por lo tanto, puede encontrar más fácilmente la variante correcta y seleccionarla. Este valor es muy recomendable si usa las variantes de producto y el número de producto único como los identificadores principales para los productos. La única excepción podría ser la industria de la moda, donde los procesos de negocio requieren a menudo que seleccione el maestro antes de seleccionar una variante. Debe evaluar con cuidado esta opción antes de implementar el sistema de numeración.
+
+> [!NOTE]
+> El número de artículo para un producto no se puede cambiar una vez que existan una o más transacciones para ese producto.
 
 ## <a name="product-name-and-description"></a>Nombre y descripción del producto
 
@@ -123,7 +126,7 @@ Desafortunadamente, no hay función estándar que le permita buscar los producto
 | Productos V2 | Número de producto, nombre de búsqueda de producto, nombre de producto, descripción del producto | Número de producto, nombre de búsqueda de producto, nombre de producto, descripción del producto | En función de la configuración de la entidad y la secuencia numérica para el número de producto, el número de producto se puede crear automáticamente en el momento de la importación. |
 | Variantes del producto | Número de producto, nombre de búsqueda de producto, nombre de producto, descripción del producto | Número de producto, nombre de búsqueda de producto, nombre de producto, descripción del producto | Según la plantilla de la nomenclatura de producto, el número de producto se puede crear automáticamente en el momento de la importación. Sin embargo, puede importar cualquier número de producto único y dicho número de producto no necesitará seguir la estructura de las plantillas de la nomenclatura de producto. |
 | Traducciones del producto | Nombre de producto, descripción del producto | Nombre de producto, descripción del producto | Esta entidad sobrescribe cualquier lenguaje. Tenga en cuenta que cuando el nombre o la descripción del idioma principal de la entidad jurídica se sobrescribe, el nombre y la descripción del producto en sí se cambian. |
-| Productos liberados V2 | Número de artículo, número de producto, nombre de búsqueda del artículo| Número de artículo, número de producto, nombre de búsqueda del artículo, nombre de búsqueda de producto, nombre de producto | Esta entidad puede ser un desafío cuando las secuencias numéricas se usan durante la creación de nuevos productos liberados. Tanto la secuencia numérica **Código de artículo** como la secuencia numérica **Código de producto** tienen una influencia. Sin embargo, la secuencia numérica **Código de artículo** es por la entidad jurídica, mientras que la secuencia numérica **Número de producto** es global. Por lo tanto, no se recomienda usar la secuencia del número **Código de artículo** al implementar los productos recién liberados. Obviamente, cuando use la entidad para liberar un producto existente, el número de producto debe darse en la entidad. Para obtener más información, consulte la sección "secuencias numéricas de producto y artículo" en este tema. |
+| Creación de productos liberados V2 | Número de artículo, número de producto, nombre de búsqueda del artículo| Número de artículo, número de producto, nombre de búsqueda del artículo, nombre de búsqueda de producto, nombre de producto | Esta entidad puede ser un desafío cuando las secuencias numéricas se usan durante la creación de nuevos productos liberados. Tanto la secuencia numérica **Código de artículo** como la secuencia numérica **Código de producto** tienen una influencia. Sin embargo, la secuencia numérica **Código de artículo** es por la entidad jurídica, mientras que la secuencia numérica **Número de producto** es global. Por lo tanto, no se recomienda usar la secuencia del número **Código de artículo** al implementar los productos recién liberados. Obviamente, cuando use la entidad para liberar un producto existente, el número de producto debe darse en la entidad. Para obtener más información, consulte la sección "secuencias numéricas de producto y artículo" en este tema. |
 | Variantes de productos emitidos | Código de artículo, dimensiones de producto, número de producto | Número de producto, nombre de búsqueda de producto, nombre de producto, descripción del producto, dimensiones de producto | Al igual que la entidad **Variantes del producto**, esta entidad puede ser utilizada para crear nuevos productos que sigan la plantilla de la nomenclatura de producto o utilicen sus propios números de producto para la variante. |
 | Descripción externa de artículos para clientes | El código de artículo del cliente, nombre de artículo del cliente, descripción del cliente, la cuenta del cliente | El código de artículo del cliente, nombre de artículo del cliente, descripción del cliente, la cuenta del cliente | Un grupo de clientes (por ejemplo, asociación del comprador) se puede agregar a un grupo mediante la entidad **Grupos de clientes de la descripción externa de artículos**. |
 | Descripción externas de artículos para proveedores | Código de artículo de proveedor, nombre de artículo de proveedor, descripción del proveedor, cuenta de proveedor | Código de artículo de proveedor, nombre de artículo de proveedor, descripción del proveedor, cuenta de proveedor | Un grupo de proveedores (por ejemplo, asociación de compras u organización industrial) se puede agregar a un grupo mediante la entidad **Grupos de proveedores de la descripción externa de artículos**. |
@@ -144,7 +147,7 @@ En el formulario dos secuencias númerica diferentes:
 > [!NOTE]
 > Debe usar el número de artículo como identificador independiente solo al migrar entidades jurídicas diferentes desde orígenes diferentes que tenían diferentes sistemas de numeración. Debe intentar siempre utilizar un identificador de producto que sea único en todas las entidades jurídicas. Por lo tanto, debe establecer la opción **Manual** en **Sí** para la secuencia del número **Código de artículo**. De esta manera, el número de artículo seguirá al número de producto en la creación. Si Supply Chain Management no es el sistema principal para nuevos números de producto, debe establecer la opción **Manual** en **Sí** para las secuencias numéricas **Código de artículo** y **Número de producto**.
 
-Cuando utilice la entidad **Producto liberado V2** para crear productos, los valores múltiples pueden afectar a cómo las secuencias numéricas se usan para crear el número de producto y el número de artículo:
+Cuando utilice la entidad **Producto liberado creación V2** para crear productos, los valores múltiples pueden afectar a cómo las secuencias numéricas se usan para crear el número de producto y el número de artículo:
 
 - Configuración de la secuencia de números **Código de producto**
 - Configuración de la secuencia de números **Código de artículo**
@@ -155,9 +158,9 @@ La tabla siguiente proporciona una visión general de los resultados de la impor
 
 | Secuencia numérica de código de producto | Secuencia numérica del número de artículo | Asignación del número del artículo | Asignación del número de producto | Resultado de una importación de entidad | Resultado de la creación manual | Conclusión |
 |--------------------------------|-----------------------------|----------------------------|-------------------------------|-------------------------|----------------------------|-----------|
-| Manual = No | Manual = No | Sin asignación | Sin asignación | Los números de producto usan la secuencia numérica **Código de producto**. Los números de artículo usan la secuencia numérica **Código de artículo**. | Los números de producto usan la secuencia numérica **Código de producto**. Los números de artículo usan la secuencia numérica **Código de artículo**. | Estos parámetros pueden usarse si necesita un número distinto para los productos y artículos. Sin embargo, no se recomienda usar números distintos para los artículos y los productos. |
-| Manual = No | Manual = Sí | Generar automáticamente | Sin asignación | Los números de producto y códigos de artículo usan la secuencia numérica **Código de artículo**. | Los números de producto y códigos de artículo usan la secuencia numérica **Código de producto**. | Estos valores no se recomiendan. La importación y la creación manual funcionan de forma diferente. |
-| Manual = No | Manual = Sí | Sin asignación | Sin asignación | Los números de producto y códigos de artículo usan la secuencia numérica **Código de producto**. | Los números de producto y códigos de artículo usan la secuencia numérica **Código de producto**. | Estos valores se recomiendan si los productos han de tener una numeración automática coherente, independientemente de si se usa la importación o la creación manual. |
+| Manual = No | Manual = No | Sin asignación | Sin asignación | Los números de producto usan la secuencia numérica **Código de producto**. Los números de artículo usan la secuencia numérica **Código de artículo**. | Los números de producto usan la secuencia numérica **Código de producto**. Los números de artículo usan la secuencia numérica **Código de artículo**. | Con esta configuración, los números de producto seguirán la secuencia de números de producto y los números de artículo seguirán la secuencia de números de artículo. Sin embargo, esta configuración no funcionará si hay más de un elemento (fila) para importar. |
+| Manual = No | Manual = Sí | Generar automáticamente | Sin asignación | Los números de producto y códigos de artículo usan la secuencia numérica **Código de artículo**. | Los números de producto y códigos de artículo usan la secuencia numérica **Código de producto**. | Los números de producto y códigos de artículo seguirán la secuencia numérica del producto. Este es el enfoque recomendado para importar productos a granel con la entidad de datos V2 de creación de productos liberados. |
+| Manual = No | Manual = Sí | Sin asignación | Sin asignación | Los números de producto y códigos de artículo usan la secuencia numérica **Código de producto**. | Los números de producto y códigos de artículo usan la secuencia numérica **Código de producto**. | Los números de producto y códigos de artículo usarán la secuencia numérica del producto. Sin embargo, esta configuración no funcionará si hay más de un elemento (fila) para importar. |
 | Manual = Sí | No aplicable | No aplicable | Generar automáticamente | Recibe el siguiente mensaje de error: “La secuencia numérica no se puede detectar”. | Según la secuencia de números **Código de artículo** | Este valor no se admite para la importación. |
 
 ## <a name="product-entity-identifier-export-all-product-identifiers"></a>Identificador de entidad de producto (exportar todos los identificadores de producto)

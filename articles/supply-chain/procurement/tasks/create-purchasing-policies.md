@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e29df3b42479a215b66354f8dfceea002a146e74
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: c8416f9a869b9144a63a6fb08c667cc32dec9854
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856481"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149720"
 ---
 # <a name="create-purchasing-policies"></a>Crear directivas de compra
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este tema le explica cómo crear directivas de compra para alinearlas con sus procesos empresariales para compras. Para crear directivas de compra, es necesario configurar los parámetros de directiva de compra. Es posible crear, modificar y retirar una directiva de compras, pero no puede eliminar una directiva de compras. Este procedimiento lo realizará normalmente un director de compras. Puede utilizar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos.
 

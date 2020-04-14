@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 26a3dee8b73ae710def7e526ceefa7194171d716
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a261acee47c6d52e3a1390d0e55cb3f9d197efec
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182678"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142271"
 ---
 # <a name="design-er-configurations-to-parse-incoming-documents"></a>Diseñar configuraciones de ER para analizar documentos entrantes
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimiento muestra cómo diseñar las configuraciones de los informes electrónicos (ER) para analizar un documento electrónico entrante. En este procedimiento, importará las configuraciones de ER necesarias que se han creado para la empresa de ejemplo, Litware, Inc. y las usará para analizar documentos electrónicos entrantes. Para completar los pasos de este procedimiento, primero debe completar los pasos del procedimiento, "ER: Crear un proveedor de configuraciones y marcarlo como activo".
 
@@ -60,9 +60,9 @@ Importe la configuración del modelo de ER que contiene el modelo de datos de ej
 14. Haga clic en Expandir/Contraer.
     * Tenga en cuenta que el elemento de formato CASE se usa como la raíz y contiene tres elementos anidados FILE, lo que significa que este formato se ha diseñado para analizar los archivos entrantes de varios formatos.  
 15. En el árbol, seleccione 'Responses\Transaction completion\TraC'.
-    * Tenga en cuenta que la respuesta sobre la transacción enviada comienza desde el elemento raíz de TraC.   
+    * Tenga en cuenta que la respuesta sobre la transacción enviada comienza desde el elemento raíz de "TraC".   
 16. En el árbol, seleccione 'Responses\Last transaction request\Tra'.
-    * Tenga en cuenta que la respuesta sobre la última transacción enviada comienza desde el elemento raíz de Tra.   
+    * Tenga en cuenta que la respuesta sobre la última transacción enviada comienza desde el elemento raíz de "Tra".   
 17. En el árbol, seleccione 'Responses\Unexpected response\Text'.
     * El tercer elemento FILE con el elemento TEXT anidado se ha agregado para reconocer cualquier otro tipo de respuestas que difiera de la respuesta mencionada anteriormente.   
 18. Haga clic en Asignar formato a modelo.

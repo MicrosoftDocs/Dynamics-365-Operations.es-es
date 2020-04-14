@@ -3,7 +3,7 @@ title: Crear documentación o formación con Grabador de tareas
 description: Este tema explica qué son el Grabador de tareas y las guías de tareas, cómo crear grabaciones de tareas y cómo personalizar las guías de tareas de Microsoft e incluirlas en la Ayuda.
 author: josaw1
 manager: AnnBe
-ms.date: 10/24/2017
+ms.date: 03/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 268b95aad57c2e4863a3f58cd54828dbb0e09465
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 927f6475e60b5b93aac0e0c2840cb0b4fc7f0ac8
+ms.sourcegitcommit: 61f9e15c5791d27db392d0a90cd781aa8e5baa6f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3006204"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3164567"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Crear documentación o formación con Grabador de tareas
 
@@ -40,8 +40,6 @@ Este tema explica qué son el Grabador de tareas y las guías de tareas, cómo c
 El Grabador de tareas es una herramienta que puede usar para grabar las acciones que realice en la interfaz de usuario (IU) del producto. Al usar el Grabador de tareas, se capturan todos los eventos que realiza en la IU que se ejecutan en relación con el servidor, entre los que se incluyen la adición de valores, el cambio de configuración y la eliminación de datos. Los pasos que grabe se denominan conjuntamente *grabación de tareas*. Las grabaciones de tareas se pueden usar de muchas maneras:
 
 -   **Las grabaciones de tareas se pueden reproducir como guías de tareas.** Las guías de tareas son una parte integral de la experiencia de la Ayuda. Una guía de tareas es una experiencia controlada, dirigida e interactiva a través de los pasos de un proceso empresarial. Al usuario se le indica que complete cada paso mediante un aviso móvil (o "burbuja"), que se animará a través de la IU y señalará al elemento de la IU con el que debe interactuar el usuario. La “burbuja” también proporciona información sobre cómo interactuar con el elemento, como "Haga clic aquí" o "En este campo, escriba un valor". Se ejecuta una guía de tareas con el conjunto de datos actual del usuario y los datos especificados se guardan en el entorno del usuario.
--   **Las registros de tarea se pueden mostrar como pasos de procedimientos en el panel de la Ayuda.** Puede usar el panel de la Ayuda para buscar y mostrar grabaciones de tareas. Puede obtener acceso al panel de la Ayuda haciendo clic en el icono **?** de la barra de navegación superior o puede usar la combinación de teclas de método abreviado,  **Ctrl+Mayús+?**. Solo puede leer los pasos de una grabación de tareas en el panel de la Ayuda o puede optar por reproducir la grabación como guía de tareas para que le guíe por la IU.
--   **Los registros de tareas se pueden guardar en BPM.** Puede guardar su grabación de tareas en una línea de una jerarquía en una biblioteca del BPM en Lifecycle Services (LCS). Se generará una lista de pasos y un diagrama de flujo de proceso empresarial desde la grabación. Las grabaciones de tareas que se han guardado en una biblioteca de BPM se pueden mostrar como Ayuda.
 -   **Las grabaciones de tareas se pueden guardar como documentos de Word.** Esto le permite producir con facilidad guías de formación imprimibles.
 
 Puede crear sus propias grabaciones de tareas, reproducir grabaciones de tareas proporcionadas por Microsoft o modificar grabaciones de tareas proporcionadas por Microsoft para reflejar su configuración. Para obtener más información sobre el Grabador de tareas, consulte [Grabador de tareas](task-recorder.md).
@@ -114,8 +112,7 @@ Puede descargar y editar las grabaciones de tareas de Microsoft para usarlas par
 10. Cuando se haya reproducido la grabación hasta el final, haga clic en **Detener** en el grabador de tareas de la parte superior de la pantalla.
 11. Elija cómo desea guardar la grabación de tareas.
 
-## <a name="include-your-task-recordings-in-the-help-pane"></a>Incluir las grabaciones de tareas en el panel de la Ayuda
-Para mostrar sus propias grabaciones de tareas personalizadas en el panel de la Ayuda para que se puedan reproducir como guías de tareas o ver como texto, debe guardar sus grabaciones de tareas en su propia biblioteca de BPM y después actualizar los parámetros del sistema de Ayuda para que señalen a la biblioteca de BPM. Para obtener más información, consulte [Establecer la conexión con el sistema de Ayuda](../../fin-ops/get-started/help-connect.md)
+
 
 <a name="additional-resources"></a>Recursos adicionales
 --------

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5c89d27eb8b587e8936258aae3ec1fee4574ccfb
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 70fe3bb707f2f204cda92ec979fe9fe1a3b96bac
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180930"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143613"
 ---
 # <a name="identify-and-resolve-conflicts-in-segregation-of-duties"></a>Identificar y resolver conflictos de segregación de controles
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este tema explica cómo identificar y resolver conflictos de segregación de controles. Puede configurar reglas para tareas diferentes que deban llevar a cabo diferentes usuarios. Este concepto se denomina "segregación de controles". Cuando la definición de un rol de seguridad o las asignaciones de roles de un usuario infringen las reglas, se registra el conflicto. Todos los conflictos los debe resolver el administrador. Complete el siguiente procedimiento para identificar y resolver conflictos. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 

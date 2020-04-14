@@ -16,16 +16,16 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 20afb1f795e1c532d9dc84adef588957b1bb47fb
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 14534abcff4dba41a1d66dc3b46487e1f1aaddf4
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183564"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3137985"
 ---
 # <a name="mx-00010-inquire-and-print-an-electronic-invoice"></a>MX-00010 Consultar e imprimir una factura electrónica
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Use el formulario CFDI: facturas electrónicas para ver, exportar, enviar por correo electrónico o imprimir una factura electrónica de CFDI ya generada según la solicitud de un cliente. La factura electrónica impresa de CFDI incluye un código de barras bidimensional de acuerdo con el formato de código QR (código de respuesta rápida) descrito por el estándar ISO/IEC18004. Esta tarea se completó con los datos de demostración de la empresa MXMF.
 

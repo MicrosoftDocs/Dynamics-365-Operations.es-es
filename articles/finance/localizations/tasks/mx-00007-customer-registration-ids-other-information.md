@@ -16,16 +16,16 @@ ms.search.region: Mexico
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a6f967417a52e198c30405f987854c485ec6b5be
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0ba0e9fb9f149a0762c99f216d58c0f8e9fbefe7
+ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174612"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3139117"
 ---
 # <a name="mx-00007-customer-registration-ids-and-other-information"></a>MX-00007 Id. de registro del cliente y otra información
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimiento le muestra cómo crear un cliente con la información fiscal y otra información relacionada utilizada en facturas electrónicas e informes jurídicos para México. Este procedimiento se creó con los datos de demostración de la empresa MXMF.
 

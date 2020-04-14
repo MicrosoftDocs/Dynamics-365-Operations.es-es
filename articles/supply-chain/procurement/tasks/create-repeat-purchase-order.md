@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0abbce32e2fabe860077502875b92f93ea0ea95c
-ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
+ms.openlocfilehash: 488fb1bea2d2ae06c92c20afdd98735928eee3b8
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "1867086"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147305"
 ---
 # <a name="create-a-repeat-purchase-order"></a>Crear pedido de repetición de compra
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este tema le muestra cómo crear un pedido de compra de repetición copiando líneas de un documento de pedido de compra anterior en un pedido de compra nuevo o en un pedido de compra existente. Hay dos métodos para crear pedidos de repetición. Puede utilizar las acciones disponibles en el nivel del documento en el Panel de acciones o utilizar las acciones de detalles de línea. Las acciones del nivel del documento están pensadas principalmente para crear un nuevo pedido de compra agregando líneas e información de encabezado de otro pedido, mientras que la acción de detalles de línea es principalmente para agregar líneas a una orden existente. El ejemplo mostrado en esta guía se puede utilizar en la empresa de datos de demostración USMF. Esta tarea la realizaría normalmente un agente de compras.
 

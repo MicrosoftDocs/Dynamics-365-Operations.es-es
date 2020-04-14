@@ -16,16 +16,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ae0aa90cfd673704bcd8e19f795499283ff01d44
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 0fbd58fb6b03f3c6eb5e54f811d98ad636e65a94
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560964"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146385"
 ---
 # <a name="associate-a-fuel-index-with-a-carrier-as-an-accessorial-charge"></a>Asociación de un índice de combustible con un transportista como cargo adicional
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimiento muestra cómo crear una asignación de cargos adicionales, un cargo adicional de transportista y cargos adicionales maestros por recargo por combustible, y cómo asociar un índice de combustible de transportista con un transportista. Es necesario haber configurado un índice de combustible de transportista antes de ejecutar este procedimiento. Puede usar el procedimiento "Configuración de un índice de combustible de transportista". Estas tareas de configuración las realiza normalmente el administrador de logística. Los datos de demostración utilizados para crear este procedimiento son los de la empresa USMF.
 

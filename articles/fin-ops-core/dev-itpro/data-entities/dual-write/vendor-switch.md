@@ -1,6 +1,6 @@
 ---
 title: Cambiar entre diseños de proveedor
-description: Este tema describe como cambiar entre la integración de datos de proveedor entre aplicaciones de Finance and Operations y Common Data Service.
+description: Este tema describe como cambiar la integración de datos de proveedor entre aplicaciones de Finance and Operations y Common Data Service.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 09/20/2019
@@ -19,48 +19,61 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 587a9b98f28b11e303aff4b59e9726f220d956eb
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: ffd7a4c01810578b4abb6942aeff76e5147fafa9
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019993"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3173048"
 ---
 # <a name="switch-between-vendor-designs"></a>Cambiar entre diseños de proveedor
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
+
 
 ## <a name="vendor-data-flow"></a>Flujo de datos del proveedor 
 
-Si usa otras aplicaciones de Dynamics 365 para el control de proveedores y desea aislar la información de proveedor de los clientes, use este diseño de proveedor básico.  
+Si elige usar la entidad **Cuenta** para almacenar proveedores del tipo **Organización** y la entidad **Contacto** para almacenar proveedores del tipo **Persona**, configure los siguientes flujos de trabajo. De lo contrario, esta configuración no es necesaria.
 
-![Flujo básico del proveedor](media/dual-write-vendor-data-flow.png)
- 
-Si usa otras aplicaciones Dynamics 365 para el control de proveedores y desea seguir usando la entidad **Cuenta** para almacenar la información de proveedor, use este diseño de proveedor ampliado. En este diseño, la información de proveedor extendida, como el estado en espera del proveedor y el perfil de proveedor, se almacena en la entidad **proveedores** en Common Data Service. 
+## <a name="use-the-extended-vendor-design-for-vendors-of-the-organization-type"></a>Utilice el diseño de proveedor extendido para proveedores del tipo Organización
 
-![Flujo ampliado del proveedor](media/dual-write-vendor-detail.jpg)
- 
-Siga los pasos siguientes para usar el diseño de proveedor extendido: 
- 
-1. El paquete de solución **SupplyChainCommon** contiene las plantillas el proceso de flujo de trabajo tal y como se muestra en la imagen siguiente.
-    > [!div class="mx-imgBorder"]
-    > ![Plantillas de proceso de flujo de trabajo](media/dual-write-switch-3.png)
-2. Cree nuevos procesos de flujo de trabajo mediante las plantillas de proceso de flujo de trabajo: 
-    1. Cree un nuevo proceso de flujo de trabajo para la entidad **Proveedor** mediante la plantilla del proceso de flujo de trabajo **Crear proveedores en la entidad cuenta** y haga clic en **Aceptar**. Este flujo de trabajo gestiona el escenario de creación de proveedor para la entidad **Cuenta**.
-        > [!div class="mx-imgBorder"]
-        > ![Crear proveedores en la entidad cuenta](media/dual-write-switch-4.png)
-    2. Cree un nuevo proceso de flujo de trabajo para la entidad **Proveedor** mediante la plantilla del proceso de flujo de trabajo **Actualizar entidad Cuentas** y haga clic en **Aceptar**. Este flujo de trabajo gestiona el escenario de actualización de proveedor para la entidad **Cuenta**. 
-        > [!div class="mx-imgBorder"]
-        > ![Actualizar la entidad Cuentas](media/dual-write-switch-5.png)
-    3. Cree nuevos procesos de flujo de trabajo a partir de las plantillas creadas en la entidad **Cuentas**. 
-        > [!div class="mx-imgBorder"]
-        > ![Crear proveedores en la entidad proveedores](media/dual-write-switch-6.png)
-        > [!div class="mx-imgBorder"]
-        > ![Actualizar la entidad de proveedores](media/dual-write-switch-7.png)
-    4. Puede configurar los flujos de trabajo como flujos de trabajo en tiempo real o de fondo en función de sus requisitos. 
-        > [!div class="mx-imgBorder"]
-        > ![Convertir a un flujo de trabajo de fondo](media/dual-write-switch-8.png)
-    5. Active los flujos de trabajo que ha creado en las entidades **Cuenta** y **Proveedor** para comenzar a utilizar la entidad **Cuenta** para almacenar información del proveedor. 
- 
+El paquete de solución **Dynamics365FinanceExtended** contiene las siguientes plantillas de proceso de flujo de trabajo. Creará un flujo de trabajo para cada plantilla.
+
++ Crear proveedores en la entidad Cuentas
++ Crear proveedores en la entidad Proveedores
++ Actualizar proveedores en la entidad Cuentas
++ Actualizar proveedores en la entidad Proveedores
+
+Para crear nuevos procesos de flujo de trabajo mediante las plantillas de proceso de flujo de trabajo, siga estos pasos.
+
+1. Cree un proceso de flujo de trabajo para la entidad **Proveedor** y seleccione la plantilal de proceso de flujo de trabajo **Crear proveedores en la entidad Cuentas**. A continuación seleccione **Aceptar**. Este flujo de trabajo gestiona el escenario de creación de proveedor para la entidad **Cuenta**.
+
+    ![Crear proveedores en el proceso de flujo de trabajo de la entidad Cuentas](media/create_process.png)
+
+2. Cree un proceso de flujo de trabajo para la entidad **Proveedor** y seleccione la plantilal de proceso de flujo de trabajo **Actualizar proveedores en la entidad Cuentas**. A continuación seleccione **Aceptar**. Este flujo de trabajo gestiona el escenario de actualización de proveedor para la entidad **Cuenta**.
+3. Cree un proceso de flujo de trabajo para la entidad **Cuenta** y seleccione la plantilal de proceso de flujo de trabajo **Crear proveedores en la entidad Proveedores**.
+4. Cree un proceso de flujo de trabajo para la entidad **Cuenta** y seleccione la plantilal de proceso de flujo de trabajo **Actualizar proveedores en la entidad Proveedores**.
+5. Puede configurar los flujos de trabajo como flujos de trabajo en tiempo real o en segundo plano, dependiendo de sus requisitos. Para configurar un flujo de trabajo como flujo de trabajo en segundo plano, seleccione **Convertir a un flujo de trabajo en segundo plano**.
+
+    ![Botón convertir a un flujo de trabajo en segundo plano](media/background_workflow.png)
+
+6. Active los flujos de trabajo que ha creado para las entidades **Cuenta** y **Proveedor** para comenzar a utilizar la entidad **Cuenta** para almacenar información de proveedores del tipo **Organización**.
+
+## <a name="use-the-extended-vendor-design-for-vendors-of-the-person-type"></a>Utilice el diseño de proveedor extendido para proveedores del tipo Persona
+
+El paquete de solución **Dynamics365FinanceExtended** contiene las siguientes plantillas de proceso de flujo de trabajo. Creará un flujo de trabajo para cada plantilla.
+
++ Crear proveedores de tipo Persona en la entidad Proveedores
++ Crear proveedores de tipo Persona en la entidad Contactos
++ Actualizar proveedores de tipo Persona en la entidad Contactos
++ Actualizar proveedores de tipo Persona en la entidad Proveedores
+
+Para crear nuevos procesos de flujo de trabajo mediante las plantillas de proceso de flujo de trabajo, siga estos pasos.
+
+1. Cree un proceso de flujo de trabajo para la entidad **Proveedor** y seleccione la plantilal de proceso de flujo de trabajo **Crear proveedores de tipo Persona en la entidad Contactos**. A continuación seleccione **Aceptar**. Este flujo de trabajo gestiona el escenario de creación de proveedor para la entidad **Contacto**.
+2. Cree un proceso de flujo de trabajo para la entidad **Proveedor** y seleccione la plantilal de proceso de flujo de trabajo **Actualizar proveedores de tipo Persona en la entidad Contactos**. A continuación seleccione **Aceptar**. Este flujo de trabajo gestiona el escenario de actualización de proveedor para la entidad **Contacto**.
+3. Cree un proceso de flujo de trabajo para la entidad **Contacto** y seleccione la plantilal **Crear proveedores del tipo Persona en la entidad Proveedores**.
+4. Cree un proceso de flujo de trabajo para la entidad **Contacto** y seleccione la plantilal **Actualizar proveedores del tipo Persona en la entidad Proveedores**.
+5. Puede configurar los flujos de trabajo como flujos de trabajo en tiempo real o en segundo plano, dependiendo de sus requisitos. Para configurar un flujo de trabajo como flujo de trabajo en segundo plano, seleccione **Convertir a un flujo de trabajo en segundo plano**.
+6. Active los flujos de trabajo que ha creado en la entidad **Contacto** y **Proveedor** para comenzar a utilizar la entidad **Contacto** para almacenar información de proveedores del tipo **Persona**.

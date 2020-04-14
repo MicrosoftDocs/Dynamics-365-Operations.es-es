@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 48c8564694b22a5110341d853a79096fbe805c91
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: dde06f758be57fb646696c861218565476abcadc
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179864"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140568"
 ---
 # <a name="create-an-organization-hierarchy"></a>Crear una jerarquía organizativa
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Realice el procedimiento siguiente para crear una jerarquía organizativa. Puede usar jerarquías organizativas para ver e informar de su negocio de diferentes perspectivas. Por ejemplo, puede configurar una jerarquía para informes estatutarios, legales o de impuestos. A continuación, puede configurar otra jerarquía para elaborar información financiera que no sea legalmente necesaria pero que se use para informes internos. 
 

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 22680a3033c1518735eb9edb4c6f22f310509aba
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4b9960c3fdf0d65be19e28dbb41913a310ae7530
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188818"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140223"
 ---
 # <a name="establish-customer-method-of-payment"></a>Establecer método de pago de cliente
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 En este tema se explica cómo crear un método de pago para los pagos de clientes. Esta tarea usa la empresa de demostración USMF.
 

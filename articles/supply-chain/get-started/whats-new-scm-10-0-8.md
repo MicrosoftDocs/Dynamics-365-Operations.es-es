@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-01-31
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: fb34ecc0ff5966ae09fdb00e80134a11eceb30a2
-ms.sourcegitcommit: c6be9706bca05089d4a4dc898d991410edb5c609
+ms.openlocfilehash: d62cf8be089eb8bccaf323041bf446b7f120b93f
+ms.sourcegitcommit: 61f9e15c5791d27db392d0a90cd781aa8e5baa6f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3097524"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3164544"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1008-february-2020"></a>Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.8 (febrero de 2020)
 
@@ -32,13 +32,14 @@ En este tema se enumeran las características nuevas o modificadas en Microsoft 
 
 - **Versión preliminar:** diciembre de 2019
 - **Disponibilidad general (actualización automática):** enero de 2020
-- **Actualización automática:** febrero de 2020 
+- **Actualización automática:** febrero de 2020
 
 ## <a name="features-included-in-this-release"></a>Características incluidas en esta versión
 
 En esta versión se incluyen las siguientes características. Los títulos de características están vinculados a información adicional en el sitio [Planes de lanzamiento](https://docs.microsoft.com/dynamics365/release-plans/). Los vínculos adicionales apuntan a documentación o vídeos adicionales que están disponibles actualmente para esa característica. Es posible que algunas de estas características también se hayan incluido en una versión incremental anterior pero no hayan anunciado en el tema *Novedades* anterior, por lo que las agregamos aquí. La mayoría de estas características deben habilitarse mediante la [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para poder usarse.
 
 - [Zona de ubicación adicional](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/additional-location-zone)
+- [Gestión de activos](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/dynamics-365-asset-management) - Para más información, vea [Resumen de gestión de activos empresariales](../asset-management/index.md).
 - [Cancelar trabajo](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cancel-work): para obtener más información, consulte [Cancelar trabajo de almacén para el control de excepciones](../warehousing/cancel-warehouse-work.md).
 - [Cambiar grupo de trabajo en trabajo](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/change-work-pool-work)
 - [Posición completa del clúster](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full)

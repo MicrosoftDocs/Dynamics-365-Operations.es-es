@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 08ee7d0f0ce7e92eaa85137dcd2761bfd702eb8c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: ec21415158ad611d0ad55778e76aa128f53561bd
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181942"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143393"
 ---
 # <a name="create-a-record-template-to-facilitate-data-entry"></a>Crear una plantilla de registro para facilitar la entrada de datos
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este tema demuestra la creación de plantillas de registro para no tener que especificar los valores de campo que se utilizan a menudo explícitamente para cada registro nuevo. En este procedimiento, usted creará un registro nuevo para los nuevos portátiles que deberán agregarse a sus activos fijos. Este procedimiento usa la empresa de muestra USMF.
 

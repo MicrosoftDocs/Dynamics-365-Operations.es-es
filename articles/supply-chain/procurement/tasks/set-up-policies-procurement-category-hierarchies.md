@@ -16,23 +16,23 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 230794eacd5e9911496dd3826f08126cc21494cb
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 8d8c259ad081d02395c6ae3c3b7cf66b89933fdf
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844186"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149513"
 ---
 # <a name="set-up-policies-for-procurement-category-hierarchies"></a>Configurar directivas para jerarquías de categorías de compras
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Use este procedimiento para configurar las reglas para solicitar productos en una categoría. Las reglas se definen para una directiva de compras específica. La regla de acceso de categorías controla a qué categorías de compras tendrán acceso los empleados al crear una solicitud. Cuando se está creando una solicitud, la directiva de compra y regla de acceso de categoría que se deben aplicar se determinan por la entidad jurídica y la unidad operativa a las que pertenece el empleado. Puede utilizar este procedimiento en la empresa de datos de demostración USMF. Esta tarea la realizará normalmente un director de compras.
 
 
 ## <a name="find-the-procurement-policy"></a>Encuentre la directiva de compras
 1. En el panel de exploración, vaya a **Módulos > Adquisición y abastecimiento > Configuración > Directivas > Directivas de compras**.
-2. Haga clic en el vínculo en la directiva de "USMF de la directiva de compras". Esta es la política a la que agregará una regla. Debe ser una directiva activa.  
+2. Haga clic en el vínculo en la directiva de "USMF de la directiva de compras". Esta es la directiva a la que agregará una regla. Debe ser una directiva activa.  
 
 ## <a name="create-a-category-access-rule"></a>Crear una regla de acceso de categorías
 1. Expanda la fastTab **Reglas de directivas**.

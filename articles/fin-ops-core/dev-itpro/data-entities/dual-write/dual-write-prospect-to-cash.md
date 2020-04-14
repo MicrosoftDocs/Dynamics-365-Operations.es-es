@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 249fde6f7bba5d6e0bc6cfde62fd792dee3f1301
-ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
+ms.openlocfilehash: 12a0e07d1c60a359b3ba6c0d20176927ffe89431
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2020
-ms.locfileid: "3112513"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3172817"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Cliente potencial a efectivo en doble escritura
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+
 
 Un objetivo importante de la mayoría de las empresas es convertir clientes potenciales en clientes y luego mantener una relación comercial continua con esos clientes. En las aplicaciones Microsoft Dynamics 365, el proceso de cliente potencial a efectivo ocurre a través de presupuestos o flujos de trabajo de procesamiento de pedidos, y las finanzas se concilian y reconocen. La integración de cliente potencial a efectivo con doble escritura crea un flujo de trabajo que toma una cotización y un pedido que se origina en Dynamics 365 Sales o Dynamics 365 Supply Chain Management y hace que la oferta y el pedido estén disponibles en ambas aplicaciones.
 

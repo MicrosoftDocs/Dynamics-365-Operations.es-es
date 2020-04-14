@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 24c4c27745a15f013d20b52efc6e36de848a0251
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: e55ccab9205ffa8462d7d40f644e759a34e703d8
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916792"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146020"
 ---
 # <a name="define-cycle-counting"></a>Definir el recuento cíclico 
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 La cuenta de ciclo es un proceso de almacén que puede usar para revisar artículos de inventario disponibles. Esta grabación de tarea muestra cómo configurar el valor predeterminado de prioridad de trabajo de recuento; cómo habilitar un elemento de menú de dispositivo móvil para procesar operaciones de selección y recuento; cómo habilitar un activador de umbral de recuento cuando una ubicación quede vacía; cómo habilitar un plan de recuento cíclico para un artículo específico dentro de un almacén concreto. Normalmente, estas tareas las realiza el administrador de almacén. Puede explorar este procedimiento en los datos de la empresa de demostración USMF o utilizar sus propios datos.
 

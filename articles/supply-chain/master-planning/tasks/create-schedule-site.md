@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 51c9ca8c402880f93a5998605d946b881d5ccdf5
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: e1273297a7a48da11b1448f153a151c2a7b461d0
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835893"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148064"
 ---
 # <a name="create-a-schedule-for-a-site"></a>Crear una programación para un sitio
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimiento muestra cómo programar los pedidos de producción que no se han iniciado aún para un sitio.  Se usa la empresa de datos de demostración USMF para completar este procedimiento.
 

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fb690769a33f88e63ab8f54cec69a5e927fd324c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 788397b5c9a3f42e373f7cdad256c1ee3d058e57
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179843"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143775"
 ---
 # <a name="key-invoice-data-into-accounts-payable-using-an-approval-journal"></a>Introducir datos de factura en el sistema de proveedores mediante un diario de aprobación
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 En este tema se explica cómo usar el registro de facturas para crear facturas y, después, utilizar el diario de aprobación para actualizar las cuentas de gastos.
 

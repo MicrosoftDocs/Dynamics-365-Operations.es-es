@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2526c2bd106e35c736e930b5b5114d019718dc5a
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: cad61ad292f80d6092ecea679645f729469b8a8f
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836249"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149007"
 ---
 # <a name="move-scheduled-kanban-jobs"></a>Desplazamiento de trabajos kanban programados
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimiento se centra en mover trabajos kanban de proceso planificados a un período diferente. La empresa de datos de prueba utilizada para crear este procedimiento es USMF. Este procedimiento está pensado para el supervisor de planta o el planificador de producción que trabajan con kanbans.
 

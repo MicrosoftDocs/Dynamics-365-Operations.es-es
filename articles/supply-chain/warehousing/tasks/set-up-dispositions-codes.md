@@ -16,16 +16,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85402e05d55367da5fe89b242ad8eafc727b441e
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ec353ecffdc457e1502cfad24e7a50ae31048647
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558016"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146063"
 ---
 # <a name="set-up-dispositions-codes"></a>Configurar códigos de disposiciones
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimiento se centra en la configuración de un código de disposición que se puede utilizar en un dispositivo móvil para el proceso de recepción de pedidos de devolución. Los códigos de disposición son una recopilación de reglas que se pueden usar cuando se reciben artículos. Por ejemplo, cuando un usuario usa un dispositivo móvil para recibir artículos dañados, el usuario debe escanear un código de disposición para artículos dañados. El estado de inventario de las mercancías recibidas, la plantilla de trabajo y la directiva de la ubicación se pueden determinar a partir del código de disposición escaneado. Para el proceso de recepción de pedido de compra y el informe de pedido de producción como proceso finalizado, es opcional usar un código de disposición. Para el proceso de recepción de devolución de pedido de ventas, si los artículos se registran mediante un dispositivo móvil, el uso del código de disposición es obligatorio.  Este procedimiento se creó con los datos de demostración de la empresa USMF. Este procedimiento va destinado al encargado de almacén. 
 

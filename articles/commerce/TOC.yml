@@ -454,6 +454,8 @@
                   items:
                     - name: Configurar y usar cargos automáticos avanzados
                       href: omni-auto-charges.md
+                    - name: Habilitar y configurar cargos automáticos por canal
+                      href: auto-charges-by-channel.md
                     - name: Prorratear los cargos de encabezado con las líneas de ventas coincidentes
                       href: pro-rate-charges-matching-lines.md
                 - name: Administrar programas de continuidad
@@ -525,7 +527,7 @@
                 - name: Crear un nuevo producto
                   items:
                     - name: Crear un nuevo producto en Commerce
-                      href: create-new-product.md
+                      href: create-new-product-commerce.md
                     - name: Administrar categorías de productos y productos
                       href: category-management-product-creation.md
                 - name: Atributos de producto
@@ -598,8 +600,6 @@
                       href: personalized-recommendations.md
                     - name: Cancelar recomendaciones personalizadas
                       href: personalization-gdpr.md
-                - name: Agregar listas de recomendaciones a un sitio de comercio electrónico
-                  href: add-reco-list-to-page.md
                 - name: Experiencias de PDV
                   items:
                     - name: Agregar recomendaciones de producto en PDV
@@ -944,6 +944,8 @@
                       href: add-checkout-module.md
                     - name: Módulo de confirmación de pedido
                       href: order-confirmation-module.md
+                    - name: Módulo de selector de tienda
+                      href: store-selector.md
                 - name: Módulos de página de gestión de cuentas
                   items:
                     - name: Módulos y páginas de gestión de cuentas
@@ -2115,7 +2117,7 @@
                 - name: Uso de datos de pago
                   href: payment-connector-data-fields.md
                 - name: Habilitar protección de pago duplicada para conector de pago
-                  href: dev-itpro/duplicate-payment-protection.md
+                  href: dev-itpro/duplicate-payments-protection.md
                 - name: Crear paquetes de pago para el Explorador de aplicaciones en implementaciones de Service Fabric
                   href: dev-itpro/payment-connector-package.md
             - name: Extensibilidad de comercio electrónico de terceros

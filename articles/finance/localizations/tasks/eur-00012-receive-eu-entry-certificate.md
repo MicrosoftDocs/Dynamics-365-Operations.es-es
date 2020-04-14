@@ -16,16 +16,16 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 25cc90c84ac7ceb8bc3bd127bfb3a5207a9874d1
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 591e267da5f486fe3d06e6519cb33d98f4522ae7
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175111"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144341"
 ---
 # <a name="eur-00012-receive-an-eu-entry-certificate"></a>EUR-00012 Recepción de un certificado de entrada de la UE
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimiento le muestra cómo registrar un certificado de entrada de la UE emitido por un tercero y recibido del cliente.
 
