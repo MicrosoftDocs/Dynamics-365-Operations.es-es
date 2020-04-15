@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ba5e66b8c4b9ee991b2889eecf4dcec174b31ef2
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8c45741dfef8be659dfe3ac632748cb5e19e977c
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185782"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141563"
 ---
 # <a name="create-and-submit-vat-report"></a>Crear y enviar un informe de IVA
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este procedimiento le muestra cómo crear y enviar el informe de IVA a la autoridad competente alemana. Este procedimiento se creó con los datos de demostración de la empresa DEMF. Esta funcionalidad solo está disponible para entidades jurídicas cuya dirección principal se encuentra en Alemania.
 

@@ -17,16 +17,16 @@ ms.search.industry: Service industries
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7699f426c102b4ae2610db0851ddd127e514b652
-ms.sourcegitcommit: 6545bef4584d72dd7789f2d3935cf00ac8f489b0
+ms.openlocfilehash: 06d251992c7facca471ac893e5a0fee333e0cbed
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1871038"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148662"
 ---
 # <a name="enter-sales-agreements"></a>Especificar los acuerdos de ventas
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este tema explica cómo crear un acuerdo de venta que compromete uno de los clientes a comprar un producto en una cantidad acordada durante un período de tiempo a cambio de descuentos especiales. Puede ejecutar este procedimiento con los datos de la empresa de demostración USMF o utilizar sus propios datos.
 
