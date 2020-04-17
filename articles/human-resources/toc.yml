@@ -5,6 +5,12 @@
       items:
         - name: Novedades y cambios en Human Resources
           href: hr-admin-whats-new.md
+        - name: 13 de abril de 2020
+          href: hr-whats-new-2020-04-13.md
+        - name: 3 de abril de 2020
+          href: hr-whats-new-2020-04-03.md
+        - name: 24 de marzo de 2020
+          href: hr-whats-new-2020-03-24.md
         - name: 19 de marzo de 2020
           href: hr-whats-new-2020-03-19.md
         - name: 10 de marzo de 2020
@@ -401,7 +407,7 @@
               href: hr-compensation-process.md
         - name: Administrar prestaciones
           items:
-            - name: 'Característica de vista previa: administración de prestaciones'
+            - name: Administración de prestaciones
               items:
                 - name: Visión general de administración de prestaciones
                   href: hr-benefits-management-overview.md
@@ -445,12 +451,8 @@
                   items:
                     - name: Configurar planes de prestaciones
                       href: hr-benefits-plans-setup.md
-                    - name: Crear planes de beneficios de trabajador
-                      href: hr-benefits-plans-worker.md
                     - name: Configurar programas de crédito flexible
                       href: hr-benefits-plans-flex-credit-programs.md
-                    - name: Configurar eventos de vida futuros
-                      href: hr-benefits-plans-future-life-events.md
                 - name: Procesar planes de beneficios
                   items:
                     - name: Procesar idoneidad de inscripción
@@ -497,8 +499,10 @@
               href: hr-leave-and-absence-plans.md
             - name: Asignar trabajadores a un plan de ausencias
               href: hr-leave-and-absence-enroll.md
-            - name: Acumular planes de permisos y ausencias
+            - name: Acumular planes de bajas y ausencias
               href: hr-leave-and-absence-accrue.md
+            - name: Suspender baja
+              href: hr-leave-and-absence-suspend-leave.md
             - name: Ver análisis de permisos y ausencias
               href: hr-leave-and-absence-analytics.md
             - name: Administrar solicitudes de permisos y ausencias
