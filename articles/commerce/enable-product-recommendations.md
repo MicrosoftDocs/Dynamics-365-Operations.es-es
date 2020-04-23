@@ -3,7 +3,7 @@ title: Habilitar recomendaciones de producto
 description: Este tema explica cómo hacer recomendaciones de productos que se basan en la inteligencia artificial-aprendizaje automático (AI-ML) disponible para clientes de Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,72 +19,94 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d8a579be5df3c5e7718a6fb4720341f3bd01a64c
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: d38d7b0e98d84e23d7a51c5d8ee65df4a3b9e4a7
+ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154422"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "3259803"
 ---
-# <a name="enable-product-recommendations"></a><span data-ttu-id="79519-103">Habilitar recomendaciones de producto</span><span class="sxs-lookup"><span data-stu-id="79519-103">Enable product recommendations</span></span>
+# <a name="enable-product-recommendations"></a><span data-ttu-id="264cb-103">Habilitar recomendaciones de producto</span><span class="sxs-lookup"><span data-stu-id="264cb-103">Enable product recommendations</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="79519-104">Este tema explica cómo hacer recomendaciones de productos que se basan en la inteligencia artificial-aprendizaje automático (AI-ML) disponible para clientes de Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="79519-104">This topic explains how to make product recommendations that are based on artificial intelligence-machine learning (AI-ML) available for Microsoft Dynamics 365 Commerce customers.</span></span> <span data-ttu-id="79519-105">Para obtener más información sobre las listas de recomendaciones del producto, consulte [Información general sobre las recomendaciones del producto](product-recommendations.md).</span><span class="sxs-lookup"><span data-stu-id="79519-105">For more information about product recommendation lists, see [Product recommendations overview](product-recommendations.md).</span></span>
+<span data-ttu-id="264cb-104">Este tema explica cómo hacer recomendaciones de productos que se basan en la inteligencia artificial-aprendizaje automático (AI-ML) disponible para clientes de Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="264cb-104">This topic explains how to make product recommendations that are based on artificial intelligence-machine learning (AI-ML) available for Microsoft Dynamics 365 Commerce customers.</span></span> <span data-ttu-id="264cb-105">Para obtener más información sobre las listas de recomendaciones del producto, consulte [Información general sobre las recomendaciones del producto](product-recommendations.md).</span><span class="sxs-lookup"><span data-stu-id="264cb-105">For more information about product recommendation lists, see [Product recommendations overview](product-recommendations.md).</span></span>
 
-## <a name="recommendations-pre-check"></a><span data-ttu-id="79519-106">Recomendaciones previas a la comprobación</span><span class="sxs-lookup"><span data-stu-id="79519-106">Recommendations pre-check</span></span>
+## <a name="recommendations-pre-check"></a><span data-ttu-id="264cb-106">Recomendaciones previas a la comprobación</span><span class="sxs-lookup"><span data-stu-id="264cb-106">Recommendations pre-check</span></span>
 
-<span data-ttu-id="79519-107">Antes de habilitar, tenga en cuenta que las recomendaciones de productos solo se admiten para clientes de Commerce que han migrado su almacenamiento para usar Azure Data Lake Storage (ADLS).</span><span class="sxs-lookup"><span data-stu-id="79519-107">Before enabling, please note that product recommendations are only supported for Commerce customers who have migrated their storage to using Azure Data Lake Storage (ADLS).</span></span> 
+<span data-ttu-id="264cb-107">Antes de habilitar, tenga en cuenta que las recomendaciones de productos solo se admiten para clientes de Commerce que han migrado su almacenamiento para usar Azure Data Lake Storage (ADLS).</span><span class="sxs-lookup"><span data-stu-id="264cb-107">Before enabling, note that product recommendations are only supported for Commerce customers who have migrated their storage to using Azure Data Lake Storage (ADLS).</span></span> 
 
-<span data-ttu-id="79519-108">Para conocer los pasos para habilitar ADLS, vea [Cómo habilitar ADLS en un entorno de Dynamics 365](enable-ADLS-environment.md).</span><span class="sxs-lookup"><span data-stu-id="79519-108">For steps on enabling ADLS, see [How to enable ADLS in a Dynamics 365 environment](enable-ADLS-environment.md).</span></span>
+<span data-ttu-id="264cb-108">Las siguientes configuraciones deben estar habilitadas en el back office antes de habilitar las recomendaciones:</span><span class="sxs-lookup"><span data-stu-id="264cb-108">The following configurations must be enabled in the back office before enabling recommendations:</span></span>
 
-<span data-ttu-id="79519-109">Además, asegúrese de que se han habilitado las medidas de RetailSale.</span><span class="sxs-lookup"><span data-stu-id="79519-109">Additionally, ensure that RetailSale measurements have been enabled.</span></span> <span data-ttu-id="79519-110">Para obtener más información acerca de este proceso de configuración, vaya [aquí.](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-measures)</span><span class="sxs-lookup"><span data-stu-id="79519-110">To learn more about this set up process, go [here.](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-measures)</span></span>
+1. <span data-ttu-id="264cb-109">Asegúrese de que ADLS se haya comprado y verificado con éxito en el entorno.</span><span class="sxs-lookup"><span data-stu-id="264cb-109">Ensure that ADLS has been purchased and successfully verified in the environment.</span></span> <span data-ttu-id="264cb-110">Para más información, consulte [Asegúrese de que ADLS se haya comprado y verificado con éxito en el entorno](enable-ADLS-environment.md).</span><span class="sxs-lookup"><span data-stu-id="264cb-110">For more information, see [Ensure that ADLS has been purchased and successfully verified in the environment](enable-ADLS-environment.md).</span></span>
+2. <span data-ttu-id="264cb-111">Asegúrese de que la actualización de la tienda de la entidad se haya automatizado.</span><span class="sxs-lookup"><span data-stu-id="264cb-111">Ensure that the entity store refresh has been automated.</span></span> <span data-ttu-id="264cb-112">Para más información, ver [Asegúrese de que la actualización de la tienda Entity se haya automatizado](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).</span><span class="sxs-lookup"><span data-stu-id="264cb-112">For more information, see [Ensure that the Entity store refresh has been automated](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).</span></span>
+3. <span data-ttu-id="264cb-113">Confirme que la configuración de Azure AD Identity contiene una entrada para Recomendaciones.</span><span class="sxs-lookup"><span data-stu-id="264cb-113">Confirm that Azure AD Identity configuration contains an entry for Recommendations.</span></span> <span data-ttu-id="264cb-114">A continuación se encuentra más información sobre cómo hacer esta acción.</span><span class="sxs-lookup"><span data-stu-id="264cb-114">More information on how to do this action is below.</span></span>
 
+<span data-ttu-id="264cb-115">Además, asegúrese de que se han habilitado las medidas de RetailSale.</span><span class="sxs-lookup"><span data-stu-id="264cb-115">Additionally, ensure that RetailSale measurements have been enabled.</span></span> <span data-ttu-id="264cb-116">Para obtener más información sobre este proceso de configuración, consulte [Trabajar con medidas](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-measures).</span><span class="sxs-lookup"><span data-stu-id="264cb-116">To learn more about this set up process, see [Work with measures](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-measures).</span></span>
 
-## <a name="turn-on-recommendations"></a><span data-ttu-id="79519-111">Activar recomendaciones</span><span class="sxs-lookup"><span data-stu-id="79519-111">Turn on recommendations</span></span>
+## <a name="azure-ad-identity-configuration"></a><span data-ttu-id="264cb-117">Configuración de Azure AD Identity</span><span class="sxs-lookup"><span data-stu-id="264cb-117">Azure AD Identity configuration</span></span>
 
-<span data-ttu-id="79519-112">Para activar recomendaciones de productos, siga estos pasos.</span><span class="sxs-lookup"><span data-stu-id="79519-112">To turn on product recommendations, follow these steps.</span></span>
+<span data-ttu-id="264cb-118">Este paso es necesario para todos los clientes que ejecutan una configuración de infraestructura como servicio (IaaS).</span><span class="sxs-lookup"><span data-stu-id="264cb-118">This step is required for all customers running an infra-structure as a service (IaaS) configuration.</span></span> <span data-ttu-id="264cb-119">Para los clientes que se ejecutan en Service Fabric (SF), este paso debe ser automático y recomendamos verificar que la configuración esté configurada como se esperaba.</span><span class="sxs-lookup"><span data-stu-id="264cb-119">For customers running on service fabric (SF), this step should be automatic and we recommend verifying the setting is configured as expected.</span></span>
 
-1. <span data-ttu-id="79519-113">Vaya a **Retail y Commerce &gt; Recomendaciones de producto &gt; Parámetros de recomendaciones**.</span><span class="sxs-lookup"><span data-stu-id="79519-113">Go to **Retail and Commerce &gt; Product recommendations &gt; Recommendation parameters**.</span></span>
-1. <span data-ttu-id="79519-114">En la lista de parámetros compartidos, seleccione **Listas de recomendaciones**.</span><span class="sxs-lookup"><span data-stu-id="79519-114">In the list of shared parameters, select **Recommendation Lists**.</span></span>
-1. <span data-ttu-id="79519-115">Establezca la opción **Habilitar recomendaciones** en **Sí**.</span><span class="sxs-lookup"><span data-stu-id="79519-115">Set the **Enable recommendations** option to **Yes**.</span></span>
+### <a name="setup"></a><span data-ttu-id="264cb-120">Configurar</span><span class="sxs-lookup"><span data-stu-id="264cb-120">Setup</span></span>
 
-![habilitar recomendaciones de producto](./media/enableproductrecommendations.png)
+1. <span data-ttu-id="264cb-121">Desde el back office, busque la página **aplicaciones Azure Active Directory**.</span><span class="sxs-lookup"><span data-stu-id="264cb-121">From the back office, search for the **Azure Active Directory applications** page.</span></span>
+2. <span data-ttu-id="264cb-122">Verifique si existe una entrada para "RecommendationSystemApplication-1".</span><span class="sxs-lookup"><span data-stu-id="264cb-122">Verify if an entry exists for "RecommendationSystemApplication-1".</span></span>
+
+<span data-ttu-id="264cb-123">Si la entrada no existe, agregue una nueva entrada con la siguiente información:</span><span class="sxs-lookup"><span data-stu-id="264cb-123">If the entry does not exist, add a new entry with the following information:</span></span>
+
+- <span data-ttu-id="264cb-124">**Id. de cliente** - d37b07e8-dd1c-4514-835d-8b918e6f9727</span><span class="sxs-lookup"><span data-stu-id="264cb-124">**Client Id** - d37b07e8-dd1c-4514-835d-8b918e6f9727</span></span>
+- <span data-ttu-id="264cb-125">**Nombre** - RecommendationSystemApplication-1</span><span class="sxs-lookup"><span data-stu-id="264cb-125">**Name** - RecommendationSystemApplication-1</span></span>
+- <span data-ttu-id="264cb-126">**Id. de usuario** - RetailServiceAccount</span><span class="sxs-lookup"><span data-stu-id="264cb-126">**User Id** - RetailServiceAccount</span></span>
+
+<span data-ttu-id="264cb-127">Guarde y cierre la página.</span><span class="sxs-lookup"><span data-stu-id="264cb-127">Save and close the page.</span></span> 
+
+## <a name="turn-on-recommendations"></a><span data-ttu-id="264cb-128">Activar recomendaciones</span><span class="sxs-lookup"><span data-stu-id="264cb-128">Turn on recommendations</span></span>
+
+<span data-ttu-id="264cb-129">Para activar recomendaciones de productos, siga estos pasos.</span><span class="sxs-lookup"><span data-stu-id="264cb-129">To turn on product recommendations, follow these steps.</span></span>
+
+1. <span data-ttu-id="264cb-130">Vaya a **Retail y Commerce &gt; Recomendaciones de producto &gt; Parámetros de recomendaciones**.</span><span class="sxs-lookup"><span data-stu-id="264cb-130">Go to **Retail and Commerce &gt; Product recommendations &gt; Recommendation parameters**.</span></span>
+1. <span data-ttu-id="264cb-131">En la lista de parámetros compartidos, seleccione **Listas de recomendaciones**.</span><span class="sxs-lookup"><span data-stu-id="264cb-131">In the list of shared parameters, select **Recommendation Lists**.</span></span>
+1. <span data-ttu-id="264cb-132">Establezca la opción **Habilitar recomendaciones** en **Sí**.</span><span class="sxs-lookup"><span data-stu-id="264cb-132">Set the **Enable recommendations** option to **Yes**.</span></span>
+
+![Activar las recomendaciones](./media/enablepersonalization.png)
 
 > [!NOTE]
-> <span data-ttu-id="79519-117">Este procedimiento inicia el proceso de generar listas de recomendaciones de productos.</span><span class="sxs-lookup"><span data-stu-id="79519-117">This procedure starts the process of generating product recommendation lists.</span></span> <span data-ttu-id="79519-118">Es posible que se requieran varias horas antes de que las listas estén disponibles y puedan verse en el punto de venta (PDV) o en Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="79519-118">Up to several hours might be required before the lists are available and can be seen at the point of sale (POS) or in Dynamics 365 Commerce.</span></span>
+> <span data-ttu-id="264cb-134">Este procedimiento inicia el proceso de generar listas de recomendaciones de productos.</span><span class="sxs-lookup"><span data-stu-id="264cb-134">This procedure starts the process of generating product recommendation lists.</span></span> <span data-ttu-id="264cb-135">Es posible que se requieran varias horas antes de que las listas estén disponibles y puedan verse en el punto de venta (PDV) o en Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="264cb-135">It may take several hours before the lists are available and can be viewed at the point of sale (POS) or in Dynamics 365 Commerce.</span></span>
 
-## <a name="configure-recommendation-list-parameters"></a><span data-ttu-id="79519-119">Configurar parámetros de la lista de recomendaciones</span><span class="sxs-lookup"><span data-stu-id="79519-119">Configure recommendation list parameters</span></span>
+## <a name="configure-recommendation-list-parameters"></a><span data-ttu-id="264cb-136">Configurar parámetros de la lista de recomendaciones</span><span class="sxs-lookup"><span data-stu-id="264cb-136">Configure recommendation list parameters</span></span>
 
-<span data-ttu-id="79519-120">De forma predeterminada, la lista de recomendaciones de productos según AI-ML ofrece valores sugeridos.</span><span class="sxs-lookup"><span data-stu-id="79519-120">By default, the AI-ML-based product recommendation list provides suggested values.</span></span> <span data-ttu-id="79519-121">Puede cambiar los valores sugeridos predeterminados para adaptarlos al flujo de su negocio.</span><span class="sxs-lookup"><span data-stu-id="79519-121">You can change the default suggested values to suit the flow of your business.</span></span> <span data-ttu-id="79519-122">Para obtener más información acerca de cómo cambiar los parámetros predeterminados, vaya a [Administrar resultados de recomendaciones de producto basadas en AI-ML](modify-product-recommendation-results.md).</span><span class="sxs-lookup"><span data-stu-id="79519-122">To learn more about how to change the default parameters, go to [Manage AI-ML-based product recommendation results](modify-product-recommendation-results.md).</span></span>
+<span data-ttu-id="264cb-137">De forma predeterminada, la lista de recomendaciones de productos según AI-ML ofrece valores sugeridos.</span><span class="sxs-lookup"><span data-stu-id="264cb-137">By default, the AI-ML-based product recommendation list provides suggested values.</span></span> <span data-ttu-id="264cb-138">Puede cambiar los valores sugeridos predeterminados para adaptarlos al flujo de su negocio.</span><span class="sxs-lookup"><span data-stu-id="264cb-138">You can change the default suggested values to suit the flow of your business.</span></span> <span data-ttu-id="264cb-139">Para obtener más información acerca de cómo cambiar los parámetros predeterminados, vaya a [Administrar resultados de recomendaciones de producto basadas en AI-ML](modify-product-recommendation-results.md).</span><span class="sxs-lookup"><span data-stu-id="264cb-139">To learn more about how to change the default parameters, go to [Manage AI-ML-based product recommendation results](modify-product-recommendation-results.md).</span></span>
 
-## <a name="show-recommendations-on-pos-devices"></a><span data-ttu-id="79519-123">Mostrar recomendaciones en dispositivos PDV</span><span class="sxs-lookup"><span data-stu-id="79519-123">Show recommendations on POS devices</span></span>
+## <a name="show-recommendations-on-pos-devices"></a><span data-ttu-id="264cb-140">Mostrar recomendaciones en dispositivos PDV</span><span class="sxs-lookup"><span data-stu-id="264cb-140">Show recommendations on POS devices</span></span>
 
-<span data-ttu-id="79519-124">Tras habilitar recomendaciones en la oficina administrativa de Commerce, el panel de recomendaciones se debe agregar a la pantalla de PDV de control mediante la herramienta de diseño.</span><span class="sxs-lookup"><span data-stu-id="79519-124">After enabling recommendations in Commerce back office, the recommendations panel must be added to the control POS screen using the layout tool.</span></span> <span data-ttu-id="79519-125">Para conocer este proceso, vea [Agregar un control de recomendaciones a la pantalla de transacciones en dispositivos de PDV](add-recommendations-control-pos-screen.md).</span><span class="sxs-lookup"><span data-stu-id="79519-125">To learn about this process, see [Add a recommendations control to the transaction screen on POS devices](add-recommendations-control-pos-screen.md).</span></span> 
+<span data-ttu-id="264cb-141">Tras habilitar recomendaciones en la oficina administrativa de Commerce, el panel de recomendaciones se debe agregar a la pantalla de PDV de control mediante la herramienta de diseño.</span><span class="sxs-lookup"><span data-stu-id="264cb-141">After enabling recommendations in Commerce back office, the recommendations panel must be added to the control POS screen using the layout tool.</span></span> <span data-ttu-id="264cb-142">Para conocer este proceso, vea [Agregar un control de recomendaciones a la pantalla de transacciones en dispositivos de PDV](add-recommendations-control-pos-screen.md).</span><span class="sxs-lookup"><span data-stu-id="264cb-142">To learn about this process, see [Add a recommendations control to the transaction screen on POS devices](add-recommendations-control-pos-screen.md).</span></span> 
 
-## <a name="enable-personalized-recommendations"></a><span data-ttu-id="79519-126">Habilitar recomendaciones personalizadas</span><span class="sxs-lookup"><span data-stu-id="79519-126">Enable personalized recommendations</span></span>
+## <a name="enable-personalized-recommendations"></a><span data-ttu-id="264cb-143">Habilitar recomendaciones personalizadas</span><span class="sxs-lookup"><span data-stu-id="264cb-143">Enable personalized recommendations</span></span>
 
-<span data-ttu-id="79519-127">Para obtener más información sobre cómo recibir recomendaciones personalizadas, consulte [Habilitar recomendaciones personalizadas](personalized-recommendations.md).</span><span class="sxs-lookup"><span data-stu-id="79519-127">To learn more about how to receive personalized recommendations, see [Enable personalized recommendations](personalized-recommendations.md).</span></span>
+<span data-ttu-id="264cb-144">En Dynamics 365 Commerce, los minoristas pueden hacer que estén disponibles recomendaciones de productos personalizadas (lo que también se conoce como personalización).</span><span class="sxs-lookup"><span data-stu-id="264cb-144">In Dynamics 365 Commerce, retailers can make personalized product recommendations (also known as personalization) available.</span></span> <span data-ttu-id="264cb-145">De esta manera, se pueden incorporar recomendaciones personalizadas en la experiencia del cliente en línea y en el punto de venta.</span><span class="sxs-lookup"><span data-stu-id="264cb-145">In this way, personalized recommendations can be incorporated into the online customer experience and at the point of sale.</span></span> <span data-ttu-id="264cb-146">Cuando se activa la funcionalidad de personalización, el sistema puede asociar la compra de un usuario y la información del producto para generar recomendaciones de productos individualizadas.</span><span class="sxs-lookup"><span data-stu-id="264cb-146">When the personalization functionality is turned on, the system can associate a user's purchase and product information to generate individualized product recommendations.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="79519-128">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="79519-128">Additional resources</span></span>
+<span data-ttu-id="264cb-147">Para obtener más información recomendaciones personalizadas, consulte [Habilitar recomendaciones personalizadas](personalized-recommendations.md).</span><span class="sxs-lookup"><span data-stu-id="264cb-147">To learn more about personalized recommendations, see [Enable personalized recommendations](personalized-recommendations.md).</span></span>
 
-[<span data-ttu-id="79519-129">Visión general de recomendaciones de producto</span><span class="sxs-lookup"><span data-stu-id="79519-129">Product recommendations overview</span></span>](product-recommendations.md)
+## <a name="additional-resources"></a><span data-ttu-id="264cb-148">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="264cb-148">Additional resources</span></span>
 
-[<span data-ttu-id="79519-130">Habilitar ADLS en un entorno de Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="79519-130">Enable ADLS in a Dynamics 365 Commerce environment</span></span>](enable-adls-environment.md)
+[<span data-ttu-id="264cb-149">Visión general de recomendaciones de producto</span><span class="sxs-lookup"><span data-stu-id="264cb-149">Product recommendations overview</span></span>](product-recommendations.md)
 
-[<span data-ttu-id="79519-131">Habilitar recomendaciones personalizadas</span><span class="sxs-lookup"><span data-stu-id="79519-131">Enable personalized recommendations</span></span>](personalized-recommendations.md)
+[<span data-ttu-id="264cb-150">Habilitar ADLS en un entorno de Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="264cb-150">Enable ADLS in a Dynamics 365 Commerce environment</span></span>](enable-adls-environment.md)
 
-[<span data-ttu-id="79519-132">Cancelar recomendaciones personalizadas</span><span class="sxs-lookup"><span data-stu-id="79519-132">Opt out of personalized recommendations</span></span>](personalization-gdpr.md)
+[<span data-ttu-id="264cb-151">Habilitar recomendaciones personalizadas</span><span class="sxs-lookup"><span data-stu-id="264cb-151">Enable personalized recommendations</span></span>](personalized-recommendations.md)
 
-[<span data-ttu-id="79519-133">Agregar recomendaciones de producto en PDV</span><span class="sxs-lookup"><span data-stu-id="79519-133">Add product recommendations on POS</span></span>](product.md)
+[<span data-ttu-id="264cb-152">Cancelar recomendaciones personalizadas</span><span class="sxs-lookup"><span data-stu-id="264cb-152">Opt out of personalized recommendations</span></span>](personalization-gdpr.md)
 
-[<span data-ttu-id="79519-134">Agregar recomendaciones a la pantalla de transacción</span><span class="sxs-lookup"><span data-stu-id="79519-134">Add recommendations to the transaction screen</span></span>](add-recommendations-control-pos-screen.md)
+[<span data-ttu-id="264cb-153">Agregar recomendaciones de producto en PDV</span><span class="sxs-lookup"><span data-stu-id="264cb-153">Add product recommendations on POS</span></span>](product.md)
 
-[<span data-ttu-id="79519-135">Ajuste los resultados de las recomendaciones AI-ML</span><span class="sxs-lookup"><span data-stu-id="79519-135">Adjust AI-ML recommendations results</span></span>](modify-product-recommendation-results.md)
+[<span data-ttu-id="264cb-154">Agregar recomendaciones a la pantalla de transacción</span><span class="sxs-lookup"><span data-stu-id="264cb-154">Add recommendations to the transaction screen</span></span>](add-recommendations-control-pos-screen.md)
 
-[<span data-ttu-id="79519-136">Crear manualmente recomendaciones curadas</span><span class="sxs-lookup"><span data-stu-id="79519-136">Manually create curated recommendations</span></span>](create-editorial-recommendation-lists.md)
+[<span data-ttu-id="264cb-155">Ajuste los resultados de las recomendaciones AI-ML</span><span class="sxs-lookup"><span data-stu-id="264cb-155">Adjust AI-ML recommendations results</span></span>](modify-product-recommendation-results.md)
 
-[<span data-ttu-id="79519-137">Crear recomendaciones con datos de demostración</span><span class="sxs-lookup"><span data-stu-id="79519-137">Create recommendations with demo data</span></span>](product-recommendations-demo-data.md)
+[<span data-ttu-id="264cb-156">Crear manualmente recomendaciones curadas</span><span class="sxs-lookup"><span data-stu-id="264cb-156">Manually create curated recommendations</span></span>](create-editorial-recommendation-lists.md)
 
-[<span data-ttu-id="79519-138">Preguntas más frecuentes de recomendaciones de producto</span><span class="sxs-lookup"><span data-stu-id="79519-138">Product recommendations FAQ</span></span>](faq-recommendations.md)
+[<span data-ttu-id="264cb-157">Crear recomendaciones con datos de demostración</span><span class="sxs-lookup"><span data-stu-id="264cb-157">Create recommendations with demo data</span></span>](product-recommendations-demo-data.md)
+
+[<span data-ttu-id="264cb-158">Preguntas más frecuentes de recomendaciones de producto</span><span class="sxs-lookup"><span data-stu-id="264cb-158">Product recommendations FAQ</span></span>](faq-recommendations.md)
 

@@ -2,7 +2,7 @@
 title: Incluir peso y volumen del contenedor de la carga
 description: En este tema se describe cómo configurar y aplicar una funcionalidad para incluir el peso y el volumen del contenedor en las cargas.
 author: pjacobse
-manager: AnnBe
+manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
@@ -10,38 +10,38 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSRateRouteWorkbench, TMSDriverLogListPage, TMSTransportationTender
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: adbaa379889d373d597b2f6882b78f82bd71ae57
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7e6b29bf2e42ea2df3d36f39fa577078009aa584
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549230"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3206297"
 ---
-# <a name="include-container-weight-and-volume-on-load"></a><span data-ttu-id="a51b8-103">Incluir peso y volumen del contenedor de la carga</span><span class="sxs-lookup"><span data-stu-id="a51b8-103">Include container weight and volume on load</span></span>
+# <a name="include-container-weight-and-volume-on-load"></a><span data-ttu-id="403c4-103">Incluir peso y volumen del contenedor de la carga</span><span class="sxs-lookup"><span data-stu-id="403c4-103">Include container weight and volume on load</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="a51b8-104">La funcionalidad para incluir el peso y el volumen del contenedor en una carga ofrece una representación clara del peso y volumen totales de los contenedores y los artículos que se vayan a cargar.</span><span class="sxs-lookup"><span data-stu-id="a51b8-104">The functionality for including the container weight and volume on a load gives a clear representation of the total weight and volume of containers and items that are going on a load.</span></span>
+<span data-ttu-id="403c4-104">La funcionalidad para incluir el peso y el volumen del contenedor en una carga ofrece una representación clara del peso y volumen totales de los contenedores y los artículos que se vayan a cargar.</span><span class="sxs-lookup"><span data-stu-id="403c4-104">The functionality for including the container weight and volume on a load gives a clear representation of the total weight and volume of containers and items that are going on a load.</span></span>
 
-<span data-ttu-id="a51b8-105">Una carga contiene un envío único o varios envíos y estos contienen distintos artículos que pertenecen a un único pedido de ventas o a varios pedidos de ventas.</span><span class="sxs-lookup"><span data-stu-id="a51b8-105">A load contains a single shipment or multiple shipments, and these shipments contain distinct items that belong to a single sales order or multiple sales orders.</span></span> <span data-ttu-id="a51b8-106">Los artículos se almacenan en un contenedor y los contenedores se cargan en una carga.</span><span class="sxs-lookup"><span data-stu-id="a51b8-106">The items are stored inside a container, and containers are loaded on a load.</span></span> <span data-ttu-id="a51b8-107">Los artículos que se encuentran fuera de un contenedor también pueden formar parte de una carga.</span><span class="sxs-lookup"><span data-stu-id="a51b8-107">Items that are outside a container can also be part of a load.</span></span> <span data-ttu-id="a51b8-108">Según estas condiciones, el sistema calculará los valores del peso y volumen en la carga considerando el peso y el volumen de los contenedores y los artículos.</span><span class="sxs-lookup"><span data-stu-id="a51b8-108">Based on these conditions, the system calculates values for the weight and volume on the load by considering the weight and volume of both containers and items.</span></span>
+<span data-ttu-id="403c4-105">Una carga contiene un envío único o varios envíos y estos contienen distintos artículos que pertenecen a un único pedido de ventas o a varios pedidos de ventas.</span><span class="sxs-lookup"><span data-stu-id="403c4-105">A load contains a single shipment or multiple shipments, and these shipments contain distinct items that belong to a single sales order or multiple sales orders.</span></span> <span data-ttu-id="403c4-106">Los artículos se almacenan en un contenedor y los contenedores se cargan en una carga.</span><span class="sxs-lookup"><span data-stu-id="403c4-106">The items are stored inside a container, and containers are loaded on a load.</span></span> <span data-ttu-id="403c4-107">Los artículos que se encuentran fuera de un contenedor también pueden formar parte de una carga.</span><span class="sxs-lookup"><span data-stu-id="403c4-107">Items that are outside a container can also be part of a load.</span></span> <span data-ttu-id="403c4-108">Según estas condiciones, el sistema calculará los valores del peso y volumen en la carga considerando el peso y el volumen de los contenedores y los artículos.</span><span class="sxs-lookup"><span data-stu-id="403c4-108">Based on these conditions, the system calculates values for the weight and volume on the load by considering the weight and volume of both containers and items.</span></span>
 
-<span data-ttu-id="a51b8-109">Si los valores calculados no coinciden exactamente, puede ajustarlos especificando valores reales del peso y el volumen en la carga.</span><span class="sxs-lookup"><span data-stu-id="a51b8-109">If the calculated values aren’t precise, you can adjust them by entering the actual values for the weight and volume on the load.</span></span> <span data-ttu-id="a51b8-110">Los valores de peso y volumen se usan en procesos de gestión de transporte.</span><span class="sxs-lookup"><span data-stu-id="a51b8-110">The values for the weight and volume are used in transportation management processes.</span></span> <span data-ttu-id="a51b8-111">Por ejemplo, los valores se usan en el banco de trabajo de una ruta de tasa, donde se definen la tasa y la ruta de las cargas y también las formas de pago de transporte y el registro de entrada del conductor.</span><span class="sxs-lookup"><span data-stu-id="a51b8-111">For example, the values are used in the rate route workbench, where they help define the rate and route for loads, and they are also used for transportation tenders and driver check-in.</span></span>
+<span data-ttu-id="403c4-109">Si los valores calculados no coinciden exactamente, puede ajustarlos especificando valores reales del peso y el volumen en la carga.</span><span class="sxs-lookup"><span data-stu-id="403c4-109">If the calculated values aren’t precise, you can adjust them by entering the actual values for the weight and volume on the load.</span></span> <span data-ttu-id="403c4-110">Los valores de peso y volumen se usan en procesos de gestión de transporte.</span><span class="sxs-lookup"><span data-stu-id="403c4-110">The values for the weight and volume are used in transportation management processes.</span></span> <span data-ttu-id="403c4-111">Por ejemplo, los valores se usan en el banco de trabajo de una ruta de tasa, donde se definen la tasa y la ruta de las cargas y también las formas de pago de transporte y el registro de entrada del conductor.</span><span class="sxs-lookup"><span data-stu-id="403c4-111">For example, the values are used in the rate route workbench, where they help define the rate and route for loads, and they are also used for transportation tenders and driver check-in.</span></span>
 
-## <a name="where-it-applies"></a><span data-ttu-id="a51b8-112">Dónde se aplica</span><span class="sxs-lookup"><span data-stu-id="a51b8-112">Where it applies</span></span>
+## <a name="where-it-applies"></a><span data-ttu-id="403c4-112">Dónde se aplica</span><span class="sxs-lookup"><span data-stu-id="403c4-112">Where it applies</span></span>
 
-<span data-ttu-id="a51b8-113">La funcionalidad para incluir el peso y el volumen del contenedor en una carga, se aplica a los procesos de gestión de transporte tales como el banco de trabajo de una ruta de tasa, las formas de pago de transporte y el registro de entrada del conductor</span><span class="sxs-lookup"><span data-stu-id="a51b8-113">The functionality for including the container weight and volume on a load applies in transportation management processes, such as the rate route workbench, transportation tenders, and driver check-in.</span></span>
+<span data-ttu-id="403c4-113">La funcionalidad para incluir el peso y el volumen del contenedor en una carga, se aplica a los procesos de gestión de transporte tales como el banco de trabajo de una ruta de tasa, las formas de pago de transporte y el registro de entrada del conductor</span><span class="sxs-lookup"><span data-stu-id="403c4-113">The functionality for including the container weight and volume on a load applies in transportation management processes, such as the rate route workbench, transportation tenders, and driver check-in.</span></span>
 
-## <a name="how-it-is-set-up"></a><span data-ttu-id="a51b8-114">Cómo se configura</span><span class="sxs-lookup"><span data-stu-id="a51b8-114">How it is set up</span></span>
+## <a name="how-it-is-set-up"></a><span data-ttu-id="403c4-114">Cómo se configura</span><span class="sxs-lookup"><span data-stu-id="403c4-114">How it is set up</span></span>
 
-<span data-ttu-id="a51b8-115">El número de contenedores que se deben tener en cuente para una carga se calcula en función del peso y el volumen del contenedor, así como el porcentaje del contenedor que se utiliza.</span><span class="sxs-lookup"><span data-stu-id="a51b8-115">The number of containers that should be considered for a load is calculated based on the weight and volume of the container, and on the percentage of the container is used.</span></span>
+<span data-ttu-id="403c4-115">El número de contenedores que se deben tener en cuente para una carga se calcula en función del peso y el volumen del contenedor, así como el porcentaje del contenedor que se utiliza.</span><span class="sxs-lookup"><span data-stu-id="403c4-115">The number of containers that should be considered for a load is calculated based on the weight and volume of the container, and on the percentage of the container is used.</span></span>
 
--   <span data-ttu-id="a51b8-116">Para establecer el peso y el volumen de un contenedor, haga clic en **Gestión de almacenes** \> **Configuración** \> **Contenedores** \> **Tipos de contenedor**.</span><span class="sxs-lookup"><span data-stu-id="a51b8-116">To set the weight and volume for a container, click **Warehouse management** \> **Setup** \> **Containers** \> **Container types**.</span></span>
+-   <span data-ttu-id="403c4-116">Para establecer el peso y el volumen de un contenedor, haga clic en **Gestión de almacenes** \> **Configuración** \> **Contenedores** \> **Tipos de contenedor**.</span><span class="sxs-lookup"><span data-stu-id="403c4-116">To set the weight and volume for a container, click **Warehouse management** \> **Setup** \> **Containers** \> **Container types**.</span></span>
 
--   <span data-ttu-id="a51b8-117">Para configurar el porcentaje de utilización del contenedor, haga clic en **Gestión de almacenes** \> **Configuración** \> **Contenedores** \> **Grupos de contenedor** y, a continuación, especifique un valor en el campo **Porcentaje de utilización del contenedor**.</span><span class="sxs-lookup"><span data-stu-id="a51b8-117">To set the container utilization percentage, click **Warehouse management** \> **Setup** \> **Containers** \> **Container groups**, and then enter a value in the **Container utilization percentage** field.</span></span>
+-   <span data-ttu-id="403c4-117">Para configurar el porcentaje de utilización del contenedor, haga clic en **Gestión de almacenes** \> **Configuración** \> **Contenedores** \> **Grupos de contenedor** y, a continuación, especifique un valor en el campo **Porcentaje de utilización del contenedor**.</span><span class="sxs-lookup"><span data-stu-id="403c4-117">To set the container utilization percentage, click **Warehouse management** \> **Setup** \> **Containers** \> **Container groups**, and then enter a value in the **Container utilization percentage** field.</span></span>

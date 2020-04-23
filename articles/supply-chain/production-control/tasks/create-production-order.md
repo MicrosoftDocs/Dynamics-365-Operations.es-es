@@ -2,7 +2,7 @@
 title: Crear un pedido de producción
 description: Este procedimiento muestra cómo crear un pedido de producción.
 author: johanhoffmann
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,64 +10,64 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdTableListPage, ProdTableCreate, ProdTable, ProdBOM, ProdRoute
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: aaef3ed01573c10bc15c6768f13c1bf0151d212d
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: c16413b25a8d2a11b478b148cb3e96c3a677c6eb
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3149283"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3210902"
 ---
-# <a name="create-a-production-order"></a><span data-ttu-id="8f8fe-103">Crear un pedido de producción</span><span class="sxs-lookup"><span data-stu-id="8f8fe-103">Create a production order</span></span>
+# <a name="create-a-production-order"></a><span data-ttu-id="6b3c2-103">Crear un pedido de producción</span><span class="sxs-lookup"><span data-stu-id="6b3c2-103">Create a production order</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="8f8fe-104">Este procedimiento muestra cómo crear un pedido de producción.</span><span class="sxs-lookup"><span data-stu-id="8f8fe-104">This procedure shows how to create a production order.</span></span> <span data-ttu-id="8f8fe-105">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="8f8fe-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="8f8fe-106">Este es el primer procedimiento de siete que explica el ciclo de vida del pedido de producción.</span><span class="sxs-lookup"><span data-stu-id="8f8fe-106">This is the first procedure out of seven which explains the production order lifecycle.</span></span>
+<span data-ttu-id="6b3c2-104">Este procedimiento muestra cómo crear un pedido de producción.</span><span class="sxs-lookup"><span data-stu-id="6b3c2-104">This procedure shows how to create a production order.</span></span> <span data-ttu-id="6b3c2-105">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="6b3c2-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="6b3c2-106">Este es el primer procedimiento de siete que explica el ciclo de vida del pedido de producción.</span><span class="sxs-lookup"><span data-stu-id="6b3c2-106">This is the first procedure out of seven which explains the production order lifecycle.</span></span>
 
 
-## <a name="create-a-production-order"></a><span data-ttu-id="8f8fe-107">Crear un pedido de producción</span><span class="sxs-lookup"><span data-stu-id="8f8fe-107">Create a production order</span></span>
-1. <span data-ttu-id="8f8fe-108">Vaya a Control de producción > Pedidos de producción > Todos los pedidos de producción.</span><span class="sxs-lookup"><span data-stu-id="8f8fe-108">Go to Production control > Production orders > All production orders.</span></span>
-2. <span data-ttu-id="8f8fe-109">Haga clic en Nuevo pedido de producción.</span><span class="sxs-lookup"><span data-stu-id="8f8fe-109">Click New production order.</span></span>
-3. <span data-ttu-id="8f8fe-110">En el campo Código de artículo, escriba 'D0001'.</span><span class="sxs-lookup"><span data-stu-id="8f8fe-110">In the Item number field, type 'D0001'.</span></span>
-4. <span data-ttu-id="8f8fe-111">En el campo Entrega, especifique una fecha.</span><span class="sxs-lookup"><span data-stu-id="8f8fe-111">In the Delivery field, enter a date.</span></span>
-    * <span data-ttu-id="8f8fe-112">La fecha de entrega indica si el pedido de producción debe completarse para entregarlo a tiempo.</span><span class="sxs-lookup"><span data-stu-id="8f8fe-112">The delivery date indicates when the production order should end in order to deliver on time.</span></span> <span data-ttu-id="8f8fe-113">Esta fecha se puede usar en el proceso de programación.</span><span class="sxs-lookup"><span data-stu-id="8f8fe-113">This date can be used in the scheduling process.</span></span> <span data-ttu-id="8f8fe-114">Por ejemplo, puede programar el pedido hacia atrás a partir de la fecha de entrega.</span><span class="sxs-lookup"><span data-stu-id="8f8fe-114">For example, you can schedule the order backward from the delivery date.</span></span>  
-5. <span data-ttu-id="8f8fe-115">Establezca el valor de cantidad en '20'.</span><span class="sxs-lookup"><span data-stu-id="8f8fe-115">Set Quantity to '20'.</span></span>
-    * <span data-ttu-id="8f8fe-116">Nota: el campo de número de L. MAT. muestra automáticamente el número de las L. MAT. activa para el artículo actual, pero puede cambiar la L. MAT. para el pedido de producción seleccionando una L. MAT. activa de la lista de versiones de L. MAT. aprobadas.</span><span class="sxs-lookup"><span data-stu-id="8f8fe-116">Note: The BOM number field automatically displays the number of any active BOM for the current item, but you can change the BOM for the production order by selecting an active BOM from the list of approved BOM versions.</span></span>    <span data-ttu-id="8f8fe-117">El campo Número de ruta muestra automáticamente el número de la ruta activa para el artículo actual, pero puede cambiar la ruta del pedido de producción seleccionando una ruta activa de la lista de versiones de ruta aprobadas.</span><span class="sxs-lookup"><span data-stu-id="8f8fe-117">The Route number field automatically displays the number of any active Route for the current item, but you can change the Route for the production order by selecting an active Route from the list of approved Route versions.</span></span>  
-6. <span data-ttu-id="8f8fe-118">Haga clic en Crear.</span><span class="sxs-lookup"><span data-stu-id="8f8fe-118">Click Create.</span></span>
+## <a name="create-a-production-order"></a><span data-ttu-id="6b3c2-107">Crear un pedido de producción</span><span class="sxs-lookup"><span data-stu-id="6b3c2-107">Create a production order</span></span>
+1. <span data-ttu-id="6b3c2-108">Vaya a Control de producción > Pedidos de producción > Todos los pedidos de producción.</span><span class="sxs-lookup"><span data-stu-id="6b3c2-108">Go to Production control > Production orders > All production orders.</span></span>
+2. <span data-ttu-id="6b3c2-109">Haga clic en Nuevo pedido de producción.</span><span class="sxs-lookup"><span data-stu-id="6b3c2-109">Click New production order.</span></span>
+3. <span data-ttu-id="6b3c2-110">En el campo Código de artículo, escriba 'D0001'.</span><span class="sxs-lookup"><span data-stu-id="6b3c2-110">In the Item number field, type 'D0001'.</span></span>
+4. <span data-ttu-id="6b3c2-111">En el campo Entrega, especifique una fecha.</span><span class="sxs-lookup"><span data-stu-id="6b3c2-111">In the Delivery field, enter a date.</span></span>
+    * <span data-ttu-id="6b3c2-112">La fecha de entrega indica si el pedido de producción debe completarse para entregarlo a tiempo.</span><span class="sxs-lookup"><span data-stu-id="6b3c2-112">The delivery date indicates when the production order should end in order to deliver on time.</span></span> <span data-ttu-id="6b3c2-113">Esta fecha se puede usar en el proceso de programación.</span><span class="sxs-lookup"><span data-stu-id="6b3c2-113">This date can be used in the scheduling process.</span></span> <span data-ttu-id="6b3c2-114">Por ejemplo, puede programar el pedido hacia atrás a partir de la fecha de entrega.</span><span class="sxs-lookup"><span data-stu-id="6b3c2-114">For example, you can schedule the order backward from the delivery date.</span></span>  
+5. <span data-ttu-id="6b3c2-115">Establezca el valor de cantidad en '20'.</span><span class="sxs-lookup"><span data-stu-id="6b3c2-115">Set Quantity to '20'.</span></span>
+    * <span data-ttu-id="6b3c2-116">Nota: el campo de número de L. MAT. muestra automáticamente el número de las L. MAT. activa para el artículo actual, pero puede cambiar la L. MAT. para el pedido de producción seleccionando una L. MAT. activa de la lista de versiones de L. MAT. aprobadas.</span><span class="sxs-lookup"><span data-stu-id="6b3c2-116">Note: The BOM number field automatically displays the number of any active BOM for the current item, but you can change the BOM for the production order by selecting an active BOM from the list of approved BOM versions.</span></span>    <span data-ttu-id="6b3c2-117">El campo Número de ruta muestra automáticamente el número de la ruta activa para el artículo actual, pero puede cambiar la ruta del pedido de producción seleccionando una ruta activa de la lista de versiones de ruta aprobadas.</span><span class="sxs-lookup"><span data-stu-id="6b3c2-117">The Route number field automatically displays the number of any active Route for the current item, but you can change the Route for the production order by selecting an active Route from the list of approved Route versions.</span></span>  
+6. <span data-ttu-id="6b3c2-118">Haga clic en Crear.</span><span class="sxs-lookup"><span data-stu-id="6b3c2-118">Click Create.</span></span>
 
-## <a name="validate-the-production-order"></a><span data-ttu-id="8f8fe-119">Validar el pedido de producción</span><span class="sxs-lookup"><span data-stu-id="8f8fe-119">Validate the production order</span></span>
-1. <span data-ttu-id="8f8fe-120">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="8f8fe-120">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="8f8fe-121">Haga clic en el vínculo para el número de pedido de producción que acaba de crear.</span><span class="sxs-lookup"><span data-stu-id="8f8fe-121">Click the link for the production order number that you have just created.</span></span> <span data-ttu-id="8f8fe-122">Esto permite abrir la página de detalles del pedido.</span><span class="sxs-lookup"><span data-stu-id="8f8fe-122">This will open the details page for the order.</span></span>  
-2. <span data-ttu-id="8f8fe-123">Haga clic en Editar.</span><span class="sxs-lookup"><span data-stu-id="8f8fe-123">Click Edit.</span></span>
-3. <span data-ttu-id="8f8fe-124">En el campo Entrega, especifique una fecha.</span><span class="sxs-lookup"><span data-stu-id="8f8fe-124">In the Delivery field, enter a date.</span></span>
-    * <span data-ttu-id="8f8fe-125">Por ejemplo, puede cambiar la fecha de entrega para el pedido de producción.</span><span class="sxs-lookup"><span data-stu-id="8f8fe-125">For example, you can change the delivery date for the production order.</span></span>  
-4. <span data-ttu-id="8f8fe-126">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="8f8fe-126">Click Save.</span></span>
-5. <span data-ttu-id="8f8fe-127">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="8f8fe-127">Close the page.</span></span>
+## <a name="validate-the-production-order"></a><span data-ttu-id="6b3c2-119">Validar el pedido de producción</span><span class="sxs-lookup"><span data-stu-id="6b3c2-119">Validate the production order</span></span>
+1. <span data-ttu-id="6b3c2-120">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="6b3c2-120">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="6b3c2-121">Haga clic en el vínculo para el número de pedido de producción que acaba de crear.</span><span class="sxs-lookup"><span data-stu-id="6b3c2-121">Click the link for the production order number that you have just created.</span></span> <span data-ttu-id="6b3c2-122">Esto permite abrir la página de detalles del pedido.</span><span class="sxs-lookup"><span data-stu-id="6b3c2-122">This will open the details page for the order.</span></span>  
+2. <span data-ttu-id="6b3c2-123">Haga clic en Editar.</span><span class="sxs-lookup"><span data-stu-id="6b3c2-123">Click Edit.</span></span>
+3. <span data-ttu-id="6b3c2-124">En el campo Entrega, especifique una fecha.</span><span class="sxs-lookup"><span data-stu-id="6b3c2-124">In the Delivery field, enter a date.</span></span>
+    * <span data-ttu-id="6b3c2-125">Por ejemplo, puede cambiar la fecha de entrega para el pedido de producción.</span><span class="sxs-lookup"><span data-stu-id="6b3c2-125">For example, you can change the delivery date for the production order.</span></span>  
+4. <span data-ttu-id="6b3c2-126">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="6b3c2-126">Click Save.</span></span>
+5. <span data-ttu-id="6b3c2-127">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="6b3c2-127">Close the page.</span></span>
 
-## <a name="update-the-bom"></a><span data-ttu-id="8f8fe-128">Actualizar la L. MAT.</span><span class="sxs-lookup"><span data-stu-id="8f8fe-128">Update the BOM</span></span>
-1. <span data-ttu-id="8f8fe-129">En el panel de acciones, haga clic en Pedido de producción.</span><span class="sxs-lookup"><span data-stu-id="8f8fe-129">On the Action Pane, click Production order.</span></span>
-2. <span data-ttu-id="8f8fe-130">Haga clic en L. MAT.</span><span class="sxs-lookup"><span data-stu-id="8f8fe-130">Click BOM.</span></span>
-    * <span data-ttu-id="8f8fe-131">Abrir la página L. MAT. para validar los datos de la L. MAT. que se copiaron de los datos predeterminados al crear el pedido de producción.</span><span class="sxs-lookup"><span data-stu-id="8f8fe-131">Open the BOM page to validate the BOM data that was copied from the default data when the production order was created.</span></span> <span data-ttu-id="8f8fe-132">En este procedimiento, es necesario actualizar la cantidad de una L. MAT.</span><span class="sxs-lookup"><span data-stu-id="8f8fe-132">In this procedure, you need to update the quantity for a BOM.</span></span>  
-3. <span data-ttu-id="8f8fe-133">Haga clic en Editar.</span><span class="sxs-lookup"><span data-stu-id="8f8fe-133">Click Edit.</span></span>
-4. <span data-ttu-id="8f8fe-134">En el campo Cantidad, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="8f8fe-134">In the Quantity field, enter a number.</span></span>
-    * <span data-ttu-id="8f8fe-135">Cambiar la cantidad de la línea de L. MAT. afecta a la estimación de coste de consumo de material para el pedido de producción.</span><span class="sxs-lookup"><span data-stu-id="8f8fe-135">Changing the quantity on the BOM line affects the cost estimate of material consumption for the production order.</span></span>  
-5. <span data-ttu-id="8f8fe-136">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="8f8fe-136">Click Save.</span></span>
-6. <span data-ttu-id="8f8fe-137">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="8f8fe-137">Close the page.</span></span>
+## <a name="update-the-bom"></a><span data-ttu-id="6b3c2-128">Actualizar la L. MAT.</span><span class="sxs-lookup"><span data-stu-id="6b3c2-128">Update the BOM</span></span>
+1. <span data-ttu-id="6b3c2-129">En el panel de acciones, haga clic en Pedido de producción.</span><span class="sxs-lookup"><span data-stu-id="6b3c2-129">On the Action Pane, click Production order.</span></span>
+2. <span data-ttu-id="6b3c2-130">Haga clic en L. MAT.</span><span class="sxs-lookup"><span data-stu-id="6b3c2-130">Click BOM.</span></span>
+    * <span data-ttu-id="6b3c2-131">Abrir la página L. MAT. para validar los datos de la L. MAT. que se copiaron de los datos predeterminados al crear el pedido de producción.</span><span class="sxs-lookup"><span data-stu-id="6b3c2-131">Open the BOM page to validate the BOM data that was copied from the default data when the production order was created.</span></span> <span data-ttu-id="6b3c2-132">En este procedimiento, es necesario actualizar la cantidad de una L. MAT.</span><span class="sxs-lookup"><span data-stu-id="6b3c2-132">In this procedure, you need to update the quantity for a BOM.</span></span>  
+3. <span data-ttu-id="6b3c2-133">Haga clic en Editar.</span><span class="sxs-lookup"><span data-stu-id="6b3c2-133">Click Edit.</span></span>
+4. <span data-ttu-id="6b3c2-134">En el campo Cantidad, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="6b3c2-134">In the Quantity field, enter a number.</span></span>
+    * <span data-ttu-id="6b3c2-135">Cambiar la cantidad de la línea de L. MAT. afecta a la estimación de coste de consumo de material para el pedido de producción.</span><span class="sxs-lookup"><span data-stu-id="6b3c2-135">Changing the quantity on the BOM line affects the cost estimate of material consumption for the production order.</span></span>  
+5. <span data-ttu-id="6b3c2-136">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="6b3c2-136">Click Save.</span></span>
+6. <span data-ttu-id="6b3c2-137">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="6b3c2-137">Close the page.</span></span>
 
-## <a name="update-the-production-route"></a><span data-ttu-id="8f8fe-138">Actualizar la ruta de producción</span><span class="sxs-lookup"><span data-stu-id="8f8fe-138">Update the production route</span></span>
-1. <span data-ttu-id="8f8fe-139">En el panel de acciones, haga clic en Pedido de producción.</span><span class="sxs-lookup"><span data-stu-id="8f8fe-139">On the Action Pane, click Production order.</span></span>
-2. <span data-ttu-id="8f8fe-140">Haga clic en Ruta.</span><span class="sxs-lookup"><span data-stu-id="8f8fe-140">Click Route.</span></span>
-    * <span data-ttu-id="8f8fe-141">Abra la página Ruta para validar los datos de la ruta de producción que se copiaron de los datos predeterminados al crear el pedido.</span><span class="sxs-lookup"><span data-stu-id="8f8fe-141">Open the Route page to validate the data of the production route that was copied from the default data when the order was created.</span></span> <span data-ttu-id="8f8fe-142">En este procedimiento, es necesario actualizar la cantidad de una de las operaciones de la ruta de producción.</span><span class="sxs-lookup"><span data-stu-id="8f8fe-142">In this procedure, you need to update the quantity for one of the operations in the production route.</span></span>  
-3. <span data-ttu-id="8f8fe-143">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="8f8fe-143">In the list, find and select the desired record.</span></span>
-4. <span data-ttu-id="8f8fe-144">Haga clic en Editar.</span><span class="sxs-lookup"><span data-stu-id="8f8fe-144">Click Edit.</span></span>
-5. <span data-ttu-id="8f8fe-145">En el campo Cantidad de proceso, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="8f8fe-145">In the Process qty. field, enter a number.</span></span>
-    * <span data-ttu-id="8f8fe-146">El cambio del tiempo de proceso afecta al consumo de ruta estimado y al coste del pedido de producción.</span><span class="sxs-lookup"><span data-stu-id="8f8fe-146">Changing the process time affects the estimated route consumption and the cost of the production order.</span></span>  
-6. <span data-ttu-id="8f8fe-147">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="8f8fe-147">Click Save.</span></span>
-7. <span data-ttu-id="8f8fe-148">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="8f8fe-148">Close the page.</span></span>
+## <a name="update-the-production-route"></a><span data-ttu-id="6b3c2-138">Actualizar la ruta de producción</span><span class="sxs-lookup"><span data-stu-id="6b3c2-138">Update the production route</span></span>
+1. <span data-ttu-id="6b3c2-139">En el panel de acciones, haga clic en Pedido de producción.</span><span class="sxs-lookup"><span data-stu-id="6b3c2-139">On the Action Pane, click Production order.</span></span>
+2. <span data-ttu-id="6b3c2-140">Haga clic en Ruta.</span><span class="sxs-lookup"><span data-stu-id="6b3c2-140">Click Route.</span></span>
+    * <span data-ttu-id="6b3c2-141">Abra la página Ruta para validar los datos de la ruta de producción que se copiaron de los datos predeterminados al crear el pedido.</span><span class="sxs-lookup"><span data-stu-id="6b3c2-141">Open the Route page to validate the data of the production route that was copied from the default data when the order was created.</span></span> <span data-ttu-id="6b3c2-142">En este procedimiento, es necesario actualizar la cantidad de una de las operaciones de la ruta de producción.</span><span class="sxs-lookup"><span data-stu-id="6b3c2-142">In this procedure, you need to update the quantity for one of the operations in the production route.</span></span>  
+3. <span data-ttu-id="6b3c2-143">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="6b3c2-143">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="6b3c2-144">Haga clic en Editar.</span><span class="sxs-lookup"><span data-stu-id="6b3c2-144">Click Edit.</span></span>
+5. <span data-ttu-id="6b3c2-145">En el campo Cantidad de proceso, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="6b3c2-145">In the Process qty. field, enter a number.</span></span>
+    * <span data-ttu-id="6b3c2-146">El cambio del tiempo de proceso afecta al consumo de ruta estimado y al coste del pedido de producción.</span><span class="sxs-lookup"><span data-stu-id="6b3c2-146">Changing the process time affects the estimated route consumption and the cost of the production order.</span></span>  
+6. <span data-ttu-id="6b3c2-147">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="6b3c2-147">Click Save.</span></span>
+7. <span data-ttu-id="6b3c2-148">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="6b3c2-148">Close the page.</span></span>
 

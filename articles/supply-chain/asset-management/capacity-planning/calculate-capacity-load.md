@@ -2,7 +2,7 @@
 title: Calcular carga de capacidad
 description: En este tema se explica cómo calcular la carca de capacidad Administración de activos.
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 08/16/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,46 +18,46 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: da737cedfcd678a835e85a2b82a05394d771f8cc
-ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
+ms.openlocfilehash: 2ddce7d3076d44b969cfb4c52462f92ed7f6db1d
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2652273"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3216491"
 ---
-# <a name="calculate-capacity-load"></a><span data-ttu-id="329ee-103">Calcular carga de capacidad</span><span class="sxs-lookup"><span data-stu-id="329ee-103">Calculate capacity load</span></span>
+# <a name="calculate-capacity-load"></a><span data-ttu-id="c8a04-103">Calcular carga de capacidad</span><span class="sxs-lookup"><span data-stu-id="c8a04-103">Calculate capacity load</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
 
-<span data-ttu-id="329ee-104">En Administración de activos, puede calcular la carga de capacidad en:</span><span class="sxs-lookup"><span data-stu-id="329ee-104">In Asset Management, you can calculate capacity load on:</span></span>
+<span data-ttu-id="c8a04-104">En Administración de activos, puede calcular la carga de capacidad en:</span><span class="sxs-lookup"><span data-stu-id="c8a04-104">In Asset Management, you can calculate capacity load on:</span></span>
 
-- <span data-ttu-id="329ee-105">líneas del programa de mantenimiento</span><span class="sxs-lookup"><span data-stu-id="329ee-105">maintenance schedule lines</span></span>  
-- <span data-ttu-id="329ee-106">órdenes de trabajo que aún no se han programado</span><span class="sxs-lookup"><span data-stu-id="329ee-106">work orders that have not yet been scheduled</span></span>  
-- <span data-ttu-id="329ee-107">órdenes de trabajo programadas</span><span class="sxs-lookup"><span data-stu-id="329ee-107">scheduled work orders</span></span>
+- <span data-ttu-id="c8a04-105">líneas del programa de mantenimiento</span><span class="sxs-lookup"><span data-stu-id="c8a04-105">maintenance schedule lines</span></span>  
+- <span data-ttu-id="c8a04-106">órdenes de trabajo que aún no se han programado</span><span class="sxs-lookup"><span data-stu-id="c8a04-106">work orders that have not yet been scheduled</span></span>  
+- <span data-ttu-id="c8a04-107">órdenes de trabajo programadas</span><span class="sxs-lookup"><span data-stu-id="c8a04-107">scheduled work orders</span></span>
 
-<span data-ttu-id="329ee-108">Esto resulta útil si desea obtener una visión general de la carga de capacidad esperada para un período específico.</span><span class="sxs-lookup"><span data-stu-id="329ee-108">This is useful if you want to get an overview of expected capacity load for a specific period.</span></span> <span data-ttu-id="329ee-109">El cálculo de la carga de capacidad se puede realizar en todos los activos o los activos seleccionados.</span><span class="sxs-lookup"><span data-stu-id="329ee-109">Calculation of capacity load can be done on all assets or selected assets.</span></span> <span data-ttu-id="329ee-110">También puede crear un cálculo de los conjuntos de las actividades del tiempo de inactividad o los grupos de órdenes de trabajo.</span><span class="sxs-lookup"><span data-stu-id="329ee-110">You can also make a calculation on maintenance downtime activities or work order pools.</span></span>
+<span data-ttu-id="c8a04-108">Esto resulta útil si desea obtener una visión general de la carga de capacidad esperada para un período específico.</span><span class="sxs-lookup"><span data-stu-id="c8a04-108">This is useful if you want to get an overview of expected capacity load for a specific period.</span></span> <span data-ttu-id="c8a04-109">El cálculo de la carga de capacidad se puede realizar en todos los activos o los activos seleccionados.</span><span class="sxs-lookup"><span data-stu-id="c8a04-109">Calculation of capacity load can be done on all assets or selected assets.</span></span> <span data-ttu-id="c8a04-110">También puede crear un cálculo de los conjuntos de las actividades del tiempo de inactividad o los grupos de órdenes de trabajo.</span><span class="sxs-lookup"><span data-stu-id="c8a04-110">You can also make a calculation on maintenance downtime activities or work order pools.</span></span>
 
-1. <span data-ttu-id="329ee-111">Haga clic en **Administración de activos** > **Consultas** > **Carga de capacidad** o **Administración de activos** > **Común** > **Grupos de órdenes de trabajo** > **Todos los grupos de órdenes de trabajo** / **Grupos de órdenes de trabajo activas** > seleccionar el grupo de órdenes de trabajo en la lista > botón **Carga de capacidad** o **Administración de activos** > **Común**  > **Actividades de tiempo de inactividad por mantenimiento** > **Todas las actividades de tiempo de inactividad por mantenimiento** / **Actividades de tiempo de inactividad por mantenimiento activas** > seleccione actividad de mantenimiento en la lista > botón **Carga de capacidad**.</span><span class="sxs-lookup"><span data-stu-id="329ee-111">Click **Asset management** > **Inquiries** > **Capacity load**, or **Asset management** > **Common** > **Work order pools** > **All work order pools** / **Active work order pools** > select work order pool in the list > **Capacity load** button, or **Asset management** > **Common** > **Maintenance downtime activities** > **All maintenance downtime activities** / **Active maintenance downtime activities** > select maintenance activity in the list > **Capacity load** button.</span></span>
+1. <span data-ttu-id="c8a04-111">Haga clic en **Administración de activos** > **Consultas** > **Carga de capacidad** o **Administración de activos** > **Común** > **Grupos de órdenes de trabajo** > **Todos los grupos de órdenes de trabajo** / **Grupos de órdenes de trabajo activas** > seleccionar el grupo de órdenes de trabajo en la lista > botón **Carga de capacidad** o **Administración de activos** > **Común**  > **Actividades de tiempo de inactividad por mantenimiento** > **Todas las actividades de tiempo de inactividad por mantenimiento** / **Actividades de tiempo de inactividad por mantenimiento activas** > seleccione actividad de mantenimiento en la lista > botón **Carga de capacidad**.</span><span class="sxs-lookup"><span data-stu-id="c8a04-111">Click **Asset management** > **Inquiries** > **Capacity load**, or **Asset management** > **Common** > **Work order pools** > **All work order pools** / **Active work order pools** > select work order pool in the list > **Capacity load** button, or **Asset management** > **Common** > **Maintenance downtime activities** > **All maintenance downtime activities** / **Active maintenance downtime activities** > select maintenance activity in the list > **Capacity load** button.</span></span>
 
-2. <span data-ttu-id="329ee-112">En el diálogo **Calcular la carga de capacidad**, seleccione un período para el cálculo en los campos **Fecha y hora de inicio** y los campos **Fecha y hora final**.</span><span class="sxs-lookup"><span data-stu-id="329ee-112">In the **Calculate capacity load** dialog, select a period for the calculation in the **Start date/time** and **End date/time** fields.</span></span>
+2. <span data-ttu-id="c8a04-112">En el diálogo **Calcular la carga de capacidad**, seleccione un período para el cálculo en los campos **Fecha y hora de inicio** y los campos **Fecha y hora final**.</span><span class="sxs-lookup"><span data-stu-id="c8a04-112">In the **Calculate capacity load** dialog, select a period for the calculation in the **Start date/time** and **End date/time** fields.</span></span>
 
-3. <span data-ttu-id="329ee-113">Seleccione "Sí" en el botón de alternar **Incluir programación de mantenimiento** si desea incluir líneas de mantenimiento en el cálculo.</span><span class="sxs-lookup"><span data-stu-id="329ee-113">Select "Yes" on the **Include maintenance schedule** toggle button if you want to include maintenance schedule lines in the calculation.</span></span>
+3. <span data-ttu-id="c8a04-113">Seleccione "Sí" en el botón de alternar **Incluir programación de mantenimiento** si desea incluir líneas de mantenimiento en el cálculo.</span><span class="sxs-lookup"><span data-stu-id="c8a04-113">Select "Yes" on the **Include maintenance schedule** toggle button if you want to include maintenance schedule lines in the calculation.</span></span>
 
-4. <span data-ttu-id="329ee-114">Seleccione "Sí" en el botón de alternar **Incluir orden de trabajo** si desea incluir trabajos de orden de trabajo en el cálculo.</span><span class="sxs-lookup"><span data-stu-id="329ee-114">Select "Yes" on the **Include work order** toggle button if you want to include work order jobs in the calculation.</span></span>
+4. <span data-ttu-id="c8a04-114">Seleccione "Sí" en el botón de alternar **Incluir orden de trabajo** si desea incluir trabajos de orden de trabajo en el cálculo.</span><span class="sxs-lookup"><span data-stu-id="c8a04-114">Select "Yes" on the **Include work order** toggle button if you want to include work order jobs in the calculation.</span></span>
 
-5. <span data-ttu-id="329ee-115">Puede usar el campo **Nivel** para indicar el nivel de detalle que desea para las líneas de carga de capacidad con respecto a las ubicaciones técnicas.</span><span class="sxs-lookup"><span data-stu-id="329ee-115">You can use the **Level** field to indicate how detailed you want the capacity load lines to be regarding functional locations.</span></span> 
+5. <span data-ttu-id="c8a04-115">Puede usar el campo **Nivel** para indicar el nivel de detalle que desea para las líneas de carga de capacidad con respecto a las ubicaciones técnicas.</span><span class="sxs-lookup"><span data-stu-id="c8a04-115">You can use the **Level** field to indicate how detailed you want the capacity load lines to be regarding functional locations.</span></span> 
 
-    <span data-ttu-id="329ee-116">Por ejemplo, si especifica el número "1" en el campo, y tiene una estructura de ubicación técnica de varios niveles, todas líneas del programa de mantenimiento y órdenes de trabajo para una ubicación técnica se mostrarán en el nivel superior, y por tanto, las horas en una línea se pueden agregar desde las ubicaciones técnicas ubicadas en un nivel inferior.</span><span class="sxs-lookup"><span data-stu-id="329ee-116">For example, if you insert the number "1" in the field, and you have a multi-level functional location structure, all maintenance schedule lines and work orders for a functional location will be shown on the top level, and therefore the hours on a line may be added up from functional locations located at a lower level.</span></span> 
+    <span data-ttu-id="c8a04-116">Por ejemplo, si especifica el número "1" en el campo, y tiene una estructura de ubicación técnica de varios niveles, todas líneas del programa de mantenimiento y órdenes de trabajo para una ubicación técnica se mostrarán en el nivel superior, y por tanto, las horas en una línea se pueden agregar desde las ubicaciones técnicas ubicadas en un nivel inferior.</span><span class="sxs-lookup"><span data-stu-id="c8a04-116">For example, if you insert the number "1" in the field, and you have a multi-level functional location structure, all maintenance schedule lines and work orders for a functional location will be shown on the top level, and therefore the hours on a line may be added up from functional locations located at a lower level.</span></span> 
     
-    <span data-ttu-id="329ee-117">Si especifica el número "0" en el campo **Nivel**, verá un resultado detallado que muestra todas las líneas del programa de mantenimiento y todas las órdenes de trabajo en todos los niveles de la ubicación técnica con el que están relacionadas.</span><span class="sxs-lookup"><span data-stu-id="329ee-117">If you insert the number "0" in the **Level** field, you will see a detailed result showing all maintenance schedule lines and all work orders on all the functional location levels to which they are related.</span></span>
+    <span data-ttu-id="c8a04-117">Si especifica el número "0" en el campo **Nivel**, verá un resultado detallado que muestra todas las líneas del programa de mantenimiento y todas las órdenes de trabajo en todos los niveles de la ubicación técnica con el que están relacionadas.</span><span class="sxs-lookup"><span data-stu-id="c8a04-117">If you insert the number "0" in the **Level** field, you will see a detailed result showing all maintenance schedule lines and all work orders on all the functional location levels to which they are related.</span></span>
 
-6. <span data-ttu-id="329ee-118">Haga clic en **Aceptar** para iniciar el cálculo.</span><span class="sxs-lookup"><span data-stu-id="329ee-118">Click **OK** to start the calculation.</span></span>
+6. <span data-ttu-id="c8a04-118">Haga clic en **Aceptar** para iniciar el cálculo.</span><span class="sxs-lookup"><span data-stu-id="c8a04-118">Click **OK** to start the calculation.</span></span>
 
-7. <span data-ttu-id="329ee-119">En los grupos **Agrupar por...**, haga clic en los botones relevantes para mostrar el nivel de detalle necesario del cálculo.</span><span class="sxs-lookup"><span data-stu-id="329ee-119">In the **Group by...** groups, click the relevant buttons to show the required detail level of the calculation.</span></span> <span data-ttu-id="329ee-120">En la captura de pantalla siguiente, los botones **Agrupar por** seleccionados se destacan en color azul.</span><span class="sxs-lookup"><span data-stu-id="329ee-120">In the screenshot below, the selected **Group by** buttons are highlighted in blue color.</span></span> <span data-ttu-id="329ee-121">Haga clic en un botón para activarlo o desactivarlo.</span><span class="sxs-lookup"><span data-stu-id="329ee-121">Click on a button to activate or deactivate it.</span></span>
+7. <span data-ttu-id="c8a04-119">En los grupos **Agrupar por...**, haga clic en los botones relevantes para mostrar el nivel de detalle necesario del cálculo.</span><span class="sxs-lookup"><span data-stu-id="c8a04-119">In the **Group by...** groups, click the relevant buttons to show the required detail level of the calculation.</span></span> <span data-ttu-id="c8a04-120">En la captura de pantalla siguiente, los botones **Agrupar por** seleccionados se destacan en color azul.</span><span class="sxs-lookup"><span data-stu-id="c8a04-120">In the screenshot below, the selected **Group by** buttons are highlighted in blue color.</span></span> <span data-ttu-id="c8a04-121">Haga clic en un botón para activarlo o desactivarlo.</span><span class="sxs-lookup"><span data-stu-id="c8a04-121">Click on a button to activate or deactivate it.</span></span>
 
     ![Figura 1](media/01-capacity-planning.png)
 
 >[!NOTE]
-><span data-ttu-id="329ee-123">Si desea centrarse únicamente en el diseño de la capacidad en relación a las órdenes de trabajo programadas, vea [Calcular la carga de capacidad en órdenes de trabajo programadas](../work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md).</span><span class="sxs-lookup"><span data-stu-id="329ee-123">If you want to focus only on capacity planning regarding scheduled work orders, see [Calculate capacity load on scheduled work orders](../work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md).</span></span>
+><span data-ttu-id="c8a04-123">Si desea centrarse únicamente en el diseño de la capacidad en relación a las órdenes de trabajo programadas, vea [Calcular la carga de capacidad en órdenes de trabajo programadas](../work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md).</span><span class="sxs-lookup"><span data-stu-id="c8a04-123">If you want to focus only on capacity planning regarding scheduled work orders, see [Calculate capacity load on scheduled work orders](../work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md).</span></span>
 

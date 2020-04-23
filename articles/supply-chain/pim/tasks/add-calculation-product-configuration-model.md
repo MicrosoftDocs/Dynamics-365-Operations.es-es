@@ -2,7 +2,7 @@
 title: Agregar un cálculo a un modelo de configuración de producto
 description: Este procedimiento muestra cómo agregar un nuevo cálculo a un modelo de configuración de productos.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,32 +10,32 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCProductConfigurationModelDetails, PCConstraintEditor, PCRuntimeConfiguratorValidate
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 55f8fcfdafb2d5fb5a4d4800221fabf4b2111f86
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: 32bc2ac5815c2739147664f1e1df2528178db51e
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3150272"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3213409"
 ---
-# <a name="add-a-calculation-to-a-product-configuration-model"></a><span data-ttu-id="aa26b-103">Agregar un cálculo a un modelo de configuración de producto</span><span class="sxs-lookup"><span data-stu-id="aa26b-103">Add a calculation to a product configuration model</span></span>
+# <a name="add-a-calculation-to-a-product-configuration-model"></a><span data-ttu-id="53c1f-103">Agregar un cálculo a un modelo de configuración de producto</span><span class="sxs-lookup"><span data-stu-id="53c1f-103">Add a calculation to a product configuration model</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="aa26b-104">Este procedimiento muestra cómo agregar un nuevo cálculo a un modelo de configuración de productos.</span><span class="sxs-lookup"><span data-stu-id="aa26b-104">This procedure shows how to add a new calculation to a product configuration model.</span></span> <span data-ttu-id="aa26b-105">Muestra cómo puede crear una expresión lógica mediante el operador "If" para establecer una altura de altavoz en 10 para los altavoces blancos y 15 para todos los demás acabados de armarios.</span><span class="sxs-lookup"><span data-stu-id="aa26b-105">It shows how you can create a logical expression using the "If" operator to set a speaker height to 10 for white speakers and 15 for all other cabinet finishes.</span></span> <span data-ttu-id="aa26b-106">El procedimiento usa el componente Altavoz superior en la empresa de demostración USMF.</span><span class="sxs-lookup"><span data-stu-id="aa26b-106">The procedure uses the High end speaker component in the demo company USMF.</span></span>
+<span data-ttu-id="53c1f-104">Este procedimiento muestra cómo agregar un nuevo cálculo a un modelo de configuración de productos.</span><span class="sxs-lookup"><span data-stu-id="53c1f-104">This procedure shows how to add a new calculation to a product configuration model.</span></span> <span data-ttu-id="53c1f-105">Muestra cómo puede crear una expresión lógica mediante el operador "If" para establecer una altura de altavoz en 10 para los altavoces blancos y 15 para todos los demás acabados de armarios.</span><span class="sxs-lookup"><span data-stu-id="53c1f-105">It shows how you can create a logical expression using the "If" operator to set a speaker height to 10 for white speakers and 15 for all other cabinet finishes.</span></span> <span data-ttu-id="53c1f-106">El procedimiento usa el componente Altavoz superior en la empresa de demostración USMF.</span><span class="sxs-lookup"><span data-stu-id="53c1f-106">The procedure uses the High end speaker component in the demo company USMF.</span></span>
 
 
-## <a name="add-a-calculation"></a><span data-ttu-id="aa26b-107">Agregar un cálculo</span><span class="sxs-lookup"><span data-stu-id="aa26b-107">Add a calculation</span></span>
+## <a name="add-a-calculation"></a><span data-ttu-id="53c1f-107">Agregar un cálculo</span><span class="sxs-lookup"><span data-stu-id="53c1f-107">Add a calculation</span></span>
 
-## <a name="create-calculation-expression"></a><span data-ttu-id="aa26b-108">Crear expresión de cálculo</span><span class="sxs-lookup"><span data-stu-id="aa26b-108">Create calculation expression</span></span>
-1. <span data-ttu-id="aa26b-109">Haga clic en Editar expresión.</span><span class="sxs-lookup"><span data-stu-id="aa26b-109">Click Edit expression.</span></span>
-2. <span data-ttu-id="aa26b-110">En el campo ConstraintBody, especifique "If[CabinetFinish=="White", 10, 15]".</span><span class="sxs-lookup"><span data-stu-id="aa26b-110">In the ConstraintBody field, enter 'If[CabinetFinish=="White", 10, 15]'.</span></span>
-3. <span data-ttu-id="aa26b-111">Haga clic en Validar.</span><span class="sxs-lookup"><span data-stu-id="aa26b-111">Click Validate.</span></span>
-4. <span data-ttu-id="aa26b-112">Haga clic en Cerrar.</span><span class="sxs-lookup"><span data-stu-id="aa26b-112">Click Close.</span></span>
-5. <span data-ttu-id="aa26b-113">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="aa26b-113">Click OK.</span></span>
+## <a name="create-calculation-expression"></a><span data-ttu-id="53c1f-108">Crear expresión de cálculo</span><span class="sxs-lookup"><span data-stu-id="53c1f-108">Create calculation expression</span></span>
+1. <span data-ttu-id="53c1f-109">Haga clic en Editar expresión.</span><span class="sxs-lookup"><span data-stu-id="53c1f-109">Click Edit expression.</span></span>
+2. <span data-ttu-id="53c1f-110">En el campo ConstraintBody, especifique "If[CabinetFinish=="White", 10, 15]".</span><span class="sxs-lookup"><span data-stu-id="53c1f-110">In the ConstraintBody field, enter 'If[CabinetFinish=="White", 10, 15]'.</span></span>
+3. <span data-ttu-id="53c1f-111">Haga clic en Validar.</span><span class="sxs-lookup"><span data-stu-id="53c1f-111">Click Validate.</span></span>
+4. <span data-ttu-id="53c1f-112">Haga clic en Cerrar.</span><span class="sxs-lookup"><span data-stu-id="53c1f-112">Click Close.</span></span>
+5. <span data-ttu-id="53c1f-113">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="53c1f-113">Click OK.</span></span>
 

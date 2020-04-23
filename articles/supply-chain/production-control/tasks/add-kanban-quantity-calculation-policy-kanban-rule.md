@@ -2,7 +2,7 @@
 title: Agregar una directiva de cálculo de cantidad kanban a una regla kanban
 description: Este procedimiento se centra en la creación de una directiva de cálculo de cantidad kanban y su adición a una regla kanban para optimizar el tamaño y las cantidades kanban.
 author: ChristianRytt
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,56 +10,56 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanQuantityPolicy, KanbanRules
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 93f0c2024e7fbe7d9c6525d41207b788032e763a
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: 19f563379a10bbe42681a5f61779fb9e72d1f60c
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3147213"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3211017"
 ---
-# <a name="add-a-kanban-quantity-calculation-policy-to-a-kanban-rule"></a><span data-ttu-id="90728-103">Agregar una directiva de cálculo de cantidad kanban a una regla kanban</span><span class="sxs-lookup"><span data-stu-id="90728-103">Add a kanban quantity calculation policy to a kanban rule</span></span>
+# <a name="add-a-kanban-quantity-calculation-policy-to-a-kanban-rule"></a><span data-ttu-id="8cb5a-103">Agregar una directiva de cálculo de cantidad kanban a una regla kanban</span><span class="sxs-lookup"><span data-stu-id="8cb5a-103">Add a kanban quantity calculation policy to a kanban rule</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="90728-104">Este procedimiento se centra en la creación de una directiva de cálculo de cantidad kanban y su adición a una regla kanban para optimizar el tamaño y las cantidades kanban.</span><span class="sxs-lookup"><span data-stu-id="90728-104">This procedure focuses on creating a kanban quantity calculation policy and adding it to a kanban rule to optimize the kanban size and quantities.</span></span> <span data-ttu-id="90728-105">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="90728-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="90728-106">Este procedimiento va destinado al administrador del flujo de valor.</span><span class="sxs-lookup"><span data-stu-id="90728-106">This procedure is intended for the value stream manager.</span></span> <span data-ttu-id="90728-107">Este procedimiento es requisito previo para crear el procedimiento Calcular sugerencias de cantidades kanban.</span><span class="sxs-lookup"><span data-stu-id="90728-107">This procedure is a prerequisite for creating the procedure Calculate kanban quantity suggestions.</span></span> 
+<span data-ttu-id="8cb5a-104">Este procedimiento se centra en la creación de una directiva de cálculo de cantidad kanban y su adición a una regla kanban para optimizar el tamaño y las cantidades kanban.</span><span class="sxs-lookup"><span data-stu-id="8cb5a-104">This procedure focuses on creating a kanban quantity calculation policy and adding it to a kanban rule to optimize the kanban size and quantities.</span></span> <span data-ttu-id="8cb5a-105">La empresa de datos de prueba utilizada para crear este procedimiento es USMF.</span><span class="sxs-lookup"><span data-stu-id="8cb5a-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="8cb5a-106">Este procedimiento va destinado al administrador del flujo de valor.</span><span class="sxs-lookup"><span data-stu-id="8cb5a-106">This procedure is intended for the value stream manager.</span></span> <span data-ttu-id="8cb5a-107">Este procedimiento es requisito previo para crear el procedimiento Calcular sugerencias de cantidades kanban.</span><span class="sxs-lookup"><span data-stu-id="8cb5a-107">This procedure is a prerequisite for creating the procedure Calculate kanban quantity suggestions.</span></span> 
 
 
-## <a name="create-a-kanban-quantity-calculation-policy"></a><span data-ttu-id="90728-108">Creación de una directiva de cálculo de cantidad kanban</span><span class="sxs-lookup"><span data-stu-id="90728-108">Create a kanban quantity calculation policy</span></span>
-1. <span data-ttu-id="90728-109">Vaya a Control de producción > Tareas periódicas > Cálculo de cantidad kanban > Directivas de cálculo de cantidad kanban.</span><span class="sxs-lookup"><span data-stu-id="90728-109">Go to Production control > Periodic tasks > Kanban quantity calculation > Kanban quantity calculation policies.</span></span>
-2. <span data-ttu-id="90728-110">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="90728-110">Click New.</span></span>
-3. <span data-ttu-id="90728-111">En el campo Nombre, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="90728-111">In the Name field, type a value.</span></span>
-    * <span data-ttu-id="90728-112">Por ejemplo, escriba Speaker2016.</span><span class="sxs-lookup"><span data-stu-id="90728-112">For example, type Speaker2016.</span></span>  
-4. <span data-ttu-id="90728-113">En el campo Plan maestro, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="90728-113">In the Master plan field, click the drop-down button to open the lookup.</span></span>
-5. <span data-ttu-id="90728-114">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="90728-114">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="90728-115">Seleccione StaticPlan para calcular la demanda.</span><span class="sxs-lookup"><span data-stu-id="90728-115">Select StaticPlan to calculate demand.</span></span>  
-6. <span data-ttu-id="90728-116">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="90728-116">In the list, click the link in the selected row.</span></span>
-7. <span data-ttu-id="90728-117">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="90728-117">Click Save.</span></span>
-8. <span data-ttu-id="90728-118">En el campo Cantidad kanban mínima, especifique "1".</span><span class="sxs-lookup"><span data-stu-id="90728-118">In the Minimum kanban quantity field, enter '1'.</span></span>
-    * <span data-ttu-id="90728-119">Este es el número de kanbans adicionales que se incluyen en el cálculo de la cantidad kanban.</span><span class="sxs-lookup"><span data-stu-id="90728-119">This is the additional number of kanbans that is included in the kanban quantity calculation.</span></span>  
-9. <span data-ttu-id="90728-120">Defina Factor de seguridad en "1".</span><span class="sxs-lookup"><span data-stu-id="90728-120">Set Safety factor to '1'.</span></span>
-    * <span data-ttu-id="90728-121">Este es el factor que se usa para calcular la cantidad adicional de existencias de seguridad.</span><span class="sxs-lookup"><span data-stu-id="90728-121">This is the factor that is used to calculate additional quantity of safety stock.</span></span>  
-10. <span data-ttu-id="90728-122">En el campo Días por delante, especifique "30".</span><span class="sxs-lookup"><span data-stu-id="90728-122">In the Days ahead field, enter '30'.</span></span>
-    * <span data-ttu-id="90728-123">Este es el número de días anteriores a la fecha de cálculo de la cantidad kanban que se incluye en el cálculo de la demanda.</span><span class="sxs-lookup"><span data-stu-id="90728-123">This is the number of days prior to the kanban quantity calculation date that is included in the demand calculation.</span></span>  
-11. <span data-ttu-id="90728-124">En el campo Días por detrás, especifique "30".</span><span class="sxs-lookup"><span data-stu-id="90728-124">In the Days behind field, enter '30'.</span></span>
-    * <span data-ttu-id="90728-125">Este es el número de días posteriores a la fecha de cálculo de la cantidad kanban que se incluye en el cálculo de la demanda.</span><span class="sxs-lookup"><span data-stu-id="90728-125">This is the number of days forward from the kanban quantity calculation date that is included in the demand calculation.</span></span>  <span data-ttu-id="90728-126">La fórmula usada para el cálculo muestra los valores reales.</span><span class="sxs-lookup"><span data-stu-id="90728-126">The formula used for the calculation is shown with the actual values.</span></span> <span data-ttu-id="90728-127">Por ejemplo, Cantidad kanban = ((Demanda diaria promedio x plazo x 2.00) / Cantidad de producto por unidad de gestión de material) + 1</span><span class="sxs-lookup"><span data-stu-id="90728-127">For example,  Kanban quantity = ((Average daily demand x lead time x 2.00) / Product quantity per handling unit) + 1</span></span>  
-12. <span data-ttu-id="90728-128">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="90728-128">Close the page.</span></span>
+## <a name="create-a-kanban-quantity-calculation-policy"></a><span data-ttu-id="8cb5a-108">Creación de una directiva de cálculo de cantidad kanban</span><span class="sxs-lookup"><span data-stu-id="8cb5a-108">Create a kanban quantity calculation policy</span></span>
+1. <span data-ttu-id="8cb5a-109">Vaya a Control de producción > Tareas periódicas > Cálculo de cantidad kanban > Directivas de cálculo de cantidad kanban.</span><span class="sxs-lookup"><span data-stu-id="8cb5a-109">Go to Production control > Periodic tasks > Kanban quantity calculation > Kanban quantity calculation policies.</span></span>
+2. <span data-ttu-id="8cb5a-110">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="8cb5a-110">Click New.</span></span>
+3. <span data-ttu-id="8cb5a-111">En el campo Nombre, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="8cb5a-111">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="8cb5a-112">Por ejemplo, escriba Speaker2016.</span><span class="sxs-lookup"><span data-stu-id="8cb5a-112">For example, type Speaker2016.</span></span>  
+4. <span data-ttu-id="8cb5a-113">En el campo Plan maestro, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="8cb5a-113">In the Master plan field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="8cb5a-114">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="8cb5a-114">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="8cb5a-115">Seleccione StaticPlan para calcular la demanda.</span><span class="sxs-lookup"><span data-stu-id="8cb5a-115">Select StaticPlan to calculate demand.</span></span>  
+6. <span data-ttu-id="8cb5a-116">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="8cb5a-116">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="8cb5a-117">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="8cb5a-117">Click Save.</span></span>
+8. <span data-ttu-id="8cb5a-118">En el campo Cantidad kanban mínima, especifique "1".</span><span class="sxs-lookup"><span data-stu-id="8cb5a-118">In the Minimum kanban quantity field, enter '1'.</span></span>
+    * <span data-ttu-id="8cb5a-119">Este es el número de kanbans adicionales que se incluyen en el cálculo de la cantidad kanban.</span><span class="sxs-lookup"><span data-stu-id="8cb5a-119">This is the additional number of kanbans that is included in the kanban quantity calculation.</span></span>  
+9. <span data-ttu-id="8cb5a-120">Defina Factor de seguridad en "1".</span><span class="sxs-lookup"><span data-stu-id="8cb5a-120">Set Safety factor to '1'.</span></span>
+    * <span data-ttu-id="8cb5a-121">Este es el factor que se usa para calcular la cantidad adicional de existencias de seguridad.</span><span class="sxs-lookup"><span data-stu-id="8cb5a-121">This is the factor that is used to calculate additional quantity of safety stock.</span></span>  
+10. <span data-ttu-id="8cb5a-122">En el campo Días por delante, especifique "30".</span><span class="sxs-lookup"><span data-stu-id="8cb5a-122">In the Days ahead field, enter '30'.</span></span>
+    * <span data-ttu-id="8cb5a-123">Este es el número de días anteriores a la fecha de cálculo de la cantidad kanban que se incluye en el cálculo de la demanda.</span><span class="sxs-lookup"><span data-stu-id="8cb5a-123">This is the number of days prior to the kanban quantity calculation date that is included in the demand calculation.</span></span>  
+11. <span data-ttu-id="8cb5a-124">En el campo Días por detrás, especifique "30".</span><span class="sxs-lookup"><span data-stu-id="8cb5a-124">In the Days behind field, enter '30'.</span></span>
+    * <span data-ttu-id="8cb5a-125">Este es el número de días posteriores a la fecha de cálculo de la cantidad kanban que se incluye en el cálculo de la demanda.</span><span class="sxs-lookup"><span data-stu-id="8cb5a-125">This is the number of days forward from the kanban quantity calculation date that is included in the demand calculation.</span></span>  <span data-ttu-id="8cb5a-126">La fórmula usada para el cálculo muestra los valores reales.</span><span class="sxs-lookup"><span data-stu-id="8cb5a-126">The formula used for the calculation is shown with the actual values.</span></span> <span data-ttu-id="8cb5a-127">Por ejemplo, Cantidad kanban = ((Demanda diaria promedio x plazo x 2.00) / Cantidad de producto por unidad de gestión de material) + 1</span><span class="sxs-lookup"><span data-stu-id="8cb5a-127">For example,  Kanban quantity = ((Average daily demand x lead time x 2.00) / Product quantity per handling unit) + 1</span></span>  
+12. <span data-ttu-id="8cb5a-128">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="8cb5a-128">Close the page.</span></span>
 
-## <a name="add-the-kanban-quantity-calculation-policy-to-a-kanban-rule"></a><span data-ttu-id="90728-129">Adición de una directiva de cálculo de cantidad kanban a una regla kanban</span><span class="sxs-lookup"><span data-stu-id="90728-129">Add the kanban quantity calculation policy to a kanban rule</span></span>
-1. <span data-ttu-id="90728-130">Vaya a Gestión de información de productos > Producción ajustada > Reglas kanban.</span><span class="sxs-lookup"><span data-stu-id="90728-130">Go to Product information management > Lean manufacturing > Kanban rules.</span></span>
-2. <span data-ttu-id="90728-131">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="90728-131">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="90728-132">Seleccione la regla kanban 000020 para este procedimiento.</span><span class="sxs-lookup"><span data-stu-id="90728-132">Select kanban rule 000020 for this procedure.</span></span>  
-3. <span data-ttu-id="90728-133">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="90728-133">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="90728-134">Expanda la sección Directivas de cálculo de cantidad kanban.</span><span class="sxs-lookup"><span data-stu-id="90728-134">Toggle the expansion of the Kanban quantity calculation policies section.</span></span>
-5. <span data-ttu-id="90728-135">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="90728-135">Click Add.</span></span>
-    * <span data-ttu-id="90728-136">Agregue la directiva de cálculo de cantidad kanban que acaba de crear en la subtarea anterior.</span><span class="sxs-lookup"><span data-stu-id="90728-136">Add the kanban quantity calculation policy that you have just created in the previous sub-task.</span></span>  
-6. <span data-ttu-id="90728-137">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="90728-137">In the list, mark the selected row.</span></span>
-7. <span data-ttu-id="90728-138">En el campo Nombre, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="90728-138">In the Name field, click the drop-down button to open the lookup.</span></span>
-8. <span data-ttu-id="90728-139">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="90728-139">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="90728-140">Seleccione la directiva Speaker2016 que acaba de crear en la subtarea anterior.</span><span class="sxs-lookup"><span data-stu-id="90728-140">Select the policy Speaker2016 that you have just created in the previous sub-task.</span></span>  
+## <a name="add-the-kanban-quantity-calculation-policy-to-a-kanban-rule"></a><span data-ttu-id="8cb5a-129">Adición de una directiva de cálculo de cantidad kanban a una regla kanban</span><span class="sxs-lookup"><span data-stu-id="8cb5a-129">Add the kanban quantity calculation policy to a kanban rule</span></span>
+1. <span data-ttu-id="8cb5a-130">Vaya a Gestión de información de productos > Producción ajustada > Reglas kanban.</span><span class="sxs-lookup"><span data-stu-id="8cb5a-130">Go to Product information management > Lean manufacturing > Kanban rules.</span></span>
+2. <span data-ttu-id="8cb5a-131">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="8cb5a-131">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="8cb5a-132">Seleccione la regla kanban 000020 para este procedimiento.</span><span class="sxs-lookup"><span data-stu-id="8cb5a-132">Select kanban rule 000020 for this procedure.</span></span>  
+3. <span data-ttu-id="8cb5a-133">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="8cb5a-133">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="8cb5a-134">Expanda la sección Directivas de cálculo de cantidad kanban.</span><span class="sxs-lookup"><span data-stu-id="8cb5a-134">Toggle the expansion of the Kanban quantity calculation policies section.</span></span>
+5. <span data-ttu-id="8cb5a-135">Haga clic en Agregar.</span><span class="sxs-lookup"><span data-stu-id="8cb5a-135">Click Add.</span></span>
+    * <span data-ttu-id="8cb5a-136">Agregue la directiva de cálculo de cantidad kanban que acaba de crear en la subtarea anterior.</span><span class="sxs-lookup"><span data-stu-id="8cb5a-136">Add the kanban quantity calculation policy that you have just created in the previous sub-task.</span></span>  
+6. <span data-ttu-id="8cb5a-137">En la lista, marque la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="8cb5a-137">In the list, mark the selected row.</span></span>
+7. <span data-ttu-id="8cb5a-138">En el campo Nombre, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="8cb5a-138">In the Name field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="8cb5a-139">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="8cb5a-139">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="8cb5a-140">Seleccione la directiva Speaker2016 que acaba de crear en la subtarea anterior.</span><span class="sxs-lookup"><span data-stu-id="8cb5a-140">Select the policy Speaker2016 that you have just created in the previous sub-task.</span></span>  
 

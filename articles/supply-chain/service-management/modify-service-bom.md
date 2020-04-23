@@ -2,7 +2,7 @@
 title: Modificar un L. MAT de servicio
 description: Modificar un L. MAT de servicio.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 05/03/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAAgreementTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,56 +18,56 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6a66f7ea7b30e033a39c292dff4064deef6bff4c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 11017cf239c55bde5f90a0d48783740a1b3e0591
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570351"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3202270"
 ---
-# <a name="modify-a-service-bom"></a><span data-ttu-id="e4831-103">Modificar un L. MAT de servicio</span><span class="sxs-lookup"><span data-stu-id="e4831-103">Modify a Service BOM</span></span> 
+# <a name="modify-a-service-bom"></a><span data-ttu-id="a9175-103">Modificar un L. MAT de servicio</span><span class="sxs-lookup"><span data-stu-id="a9175-103">Modify a Service BOM</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="e4831-104">Puede registrar el historial de un elemento dentro de una L. MAT de servicio.</span><span class="sxs-lookup"><span data-stu-id="e4831-104">You can record the history of an element in a service BOM.</span></span> <span data-ttu-id="e4831-105">Cada vez que actualice una línea de L. MAT, se crea una línea de historial en el panel **Historial**.</span><span class="sxs-lookup"><span data-stu-id="e4831-105">Every time that you update a BOM line, a history line is created in the **History** pane.</span></span> <span data-ttu-id="e4831-106">La línea del historial muestra el estado actual de la línea de L. MAT.</span><span class="sxs-lookup"><span data-stu-id="e4831-106">The history line shows the current state of the BOM line.</span></span>
+<span data-ttu-id="a9175-104">Puede registrar el historial de un elemento dentro de una L. MAT de servicio.</span><span class="sxs-lookup"><span data-stu-id="a9175-104">You can record the history of an element in a service BOM.</span></span> <span data-ttu-id="a9175-105">Cada vez que actualice una línea de L. MAT, se crea una línea de historial en el panel **Historial**.</span><span class="sxs-lookup"><span data-stu-id="a9175-105">Every time that you update a BOM line, a history line is created in the **History** pane.</span></span> <span data-ttu-id="a9175-106">La línea del historial muestra el estado actual de la línea de L. MAT.</span><span class="sxs-lookup"><span data-stu-id="a9175-106">The history line shows the current state of the BOM line.</span></span>
 
-## <a name="update-a-service-bom-element"></a><span data-ttu-id="e4831-107">Actualizar un elemento de L. MAT de servicio</span><span class="sxs-lookup"><span data-stu-id="e4831-107">Update a service BOM element</span></span>
+## <a name="update-a-service-bom-element"></a><span data-ttu-id="a9175-107">Actualizar un elemento de L. MAT de servicio</span><span class="sxs-lookup"><span data-stu-id="a9175-107">Update a service BOM element</span></span>
 
-1.  <span data-ttu-id="e4831-108">Haga clic en **Gestión de servicio** \> **Común** \> **Contratos de servicio** \> **Contratos de servicio**.</span><span class="sxs-lookup"><span data-stu-id="e4831-108">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span>
+1.  <span data-ttu-id="a9175-108">Haga clic en **Gestión de servicio** \> **Común** \> **Contratos de servicio** \> **Contratos de servicio**.</span><span class="sxs-lookup"><span data-stu-id="a9175-108">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span>
 
-2.  <span data-ttu-id="e4831-109">Haga clic en **Editar** para abrir el formulario de detalles de **Contratos de servicio**.</span><span class="sxs-lookup"><span data-stu-id="e4831-109">Click **Edit** to open the **Service agreements** details form.</span></span>
+2.  <span data-ttu-id="a9175-109">Haga clic en **Editar** para abrir el formulario de detalles de **Contratos de servicio**.</span><span class="sxs-lookup"><span data-stu-id="a9175-109">Click **Edit** to open the **Service agreements** details form.</span></span>
 
-3.  <span data-ttu-id="e4831-110">En el **Panel de acciones**, haga clic en **Objetos de servicio**, para abrir el formulario **Objetos de servicio**.</span><span class="sxs-lookup"><span data-stu-id="e4831-110">On the **Action Pane**, click **Service objects** to open the **Service objects** form.</span></span>
+3.  <span data-ttu-id="a9175-110">En el **Panel de acciones**, haga clic en **Objetos de servicio**, para abrir el formulario **Objetos de servicio**.</span><span class="sxs-lookup"><span data-stu-id="a9175-110">On the **Action Pane**, click **Service objects** to open the **Service objects** form.</span></span>
 
-4.  <span data-ttu-id="e4831-111">Seleccione el objeto para el cual quiere actualizar la línea de L. MAT. y haga clic en **Diseñador**.</span><span class="sxs-lookup"><span data-stu-id="e4831-111">Select the object to update a BOM line for, and then click **Designer**.</span></span>
+4.  <span data-ttu-id="a9175-111">Seleccione el objeto para el cual quiere actualizar la línea de L. MAT. y haga clic en **Diseñador**.</span><span class="sxs-lookup"><span data-stu-id="a9175-111">Select the object to update a BOM line for, and then click **Designer**.</span></span>
 
-5.  <span data-ttu-id="e4831-112">En el formulario **Diseñador**, seleccione la línea de L. MAT. que desea actualizar y haga clic en **Editar línea de L.MAT**.</span><span class="sxs-lookup"><span data-stu-id="e4831-112">In the **Designer** form, select the BOM line to update, and then click **Edit BOM line**.</span></span>
+5.  <span data-ttu-id="a9175-112">En el formulario **Diseñador**, seleccione la línea de L. MAT. que desea actualizar y haga clic en **Editar línea de L.MAT**.</span><span class="sxs-lookup"><span data-stu-id="a9175-112">In the **Designer** form, select the BOM line to update, and then click **Edit BOM line**.</span></span>
     
     > [!NOTE]
-    > <P><span data-ttu-id="e4831-113">En la ficha <STRONG>Configurar</STRONG>, seleccione la casilla de verificación <STRONG>Editar al agregar</STRONG> si desea que se abra el formulario <STRONG>Editar líneas de L.MAT</STRONG> cuando arrastra una línea a la L. MAT. de servicio.</span><span class="sxs-lookup"><span data-stu-id="e4831-113">On the <STRONG>Setup</STRONG> tab, select the <STRONG>Edit when adding</STRONG> check box if you want the <STRONG>Edit BOM line</STRONG> form to open when you drag a line into the service BOM.</span></span></P>
+    > <P><span data-ttu-id="a9175-113">En la ficha <STRONG>Configurar</STRONG>, seleccione la casilla de verificación <STRONG>Editar al agregar</STRONG> si desea que se abra el formulario <STRONG>Editar líneas de L.MAT</STRONG> cuando arrastra una línea a la L. MAT. de servicio.</span><span class="sxs-lookup"><span data-stu-id="a9175-113">On the <STRONG>Setup</STRONG> tab, select the <STRONG>Edit when adding</STRONG> check box if you want the <STRONG>Edit BOM line</STRONG> form to open when you drag a line into the service BOM.</span></span></P>
 
-6.  <span data-ttu-id="e4831-114">En el campo **Cantidad**, escriba la cantidad.</span><span class="sxs-lookup"><span data-stu-id="e4831-114">In the **Quantity** field, enter the quantity.</span></span>
+6.  <span data-ttu-id="a9175-114">En el campo **Cantidad**, escriba la cantidad.</span><span class="sxs-lookup"><span data-stu-id="a9175-114">In the **Quantity** field, enter the quantity.</span></span>
 
-7.  <span data-ttu-id="e4831-115">Si desea crear una línea de pedido de servicio para el artículo de sustitución, que se puede facturar, seleccione la casilla de verificación **Crear línea de pedido de servicio**.</span><span class="sxs-lookup"><span data-stu-id="e4831-115">If you want to create a service order line for the replacement item, which can then be invoiced, select the **Create service order line** check box.</span></span>
+7.  <span data-ttu-id="a9175-115">Si desea crear una línea de pedido de servicio para el artículo de sustitución, que se puede facturar, seleccione la casilla de verificación **Crear línea de pedido de servicio**.</span><span class="sxs-lookup"><span data-stu-id="a9175-115">If you want to create a service order line for the replacement item, which can then be invoiced, select the **Create service order line** check box.</span></span>
 
-8.  <span data-ttu-id="e4831-116">Haga clic en **Aceptar** para cerrar el formulario.</span><span class="sxs-lookup"><span data-stu-id="e4831-116">Click **OK** to close the form.</span></span>
+8.  <span data-ttu-id="a9175-116">Haga clic en **Aceptar** para cerrar el formulario.</span><span class="sxs-lookup"><span data-stu-id="a9175-116">Click **OK** to close the form.</span></span>
 
-## <a name="delete-a-service-bom-line"></a><span data-ttu-id="e4831-117">Eliminar una línea de L. MAT</span><span class="sxs-lookup"><span data-stu-id="e4831-117">Delete a service BOM line</span></span>
+## <a name="delete-a-service-bom-line"></a><span data-ttu-id="a9175-117">Eliminar una línea de L. MAT</span><span class="sxs-lookup"><span data-stu-id="a9175-117">Delete a service BOM line</span></span>
 
-1.  <span data-ttu-id="e4831-118">Haga clic en **Gestión de servicio** \> **Común** \> **Contratos de servicio** \> **Contratos de servicio**.</span><span class="sxs-lookup"><span data-stu-id="e4831-118">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span>
+1.  <span data-ttu-id="a9175-118">Haga clic en **Gestión de servicio** \> **Común** \> **Contratos de servicio** \> **Contratos de servicio**.</span><span class="sxs-lookup"><span data-stu-id="a9175-118">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span>
 
-2.  <span data-ttu-id="e4831-119">Haga clic en **Editar** para abrir el formulario de detalles de **Contratos de servicio**.</span><span class="sxs-lookup"><span data-stu-id="e4831-119">Click **Edit** to open the **Service agreements** details form.</span></span>
+2.  <span data-ttu-id="a9175-119">Haga clic en **Editar** para abrir el formulario de detalles de **Contratos de servicio**.</span><span class="sxs-lookup"><span data-stu-id="a9175-119">Click **Edit** to open the **Service agreements** details form.</span></span>
 
-3.  <span data-ttu-id="e4831-120">En el **Panel de acciones**, haga clic en **Objetos de servicio**, para abrir el formulario **Objetos de servicio**.</span><span class="sxs-lookup"><span data-stu-id="e4831-120">On the **Action Pane**, click **Service objects** to open the **Service objects** form.</span></span>
+3.  <span data-ttu-id="a9175-120">En el **Panel de acciones**, haga clic en **Objetos de servicio**, para abrir el formulario **Objetos de servicio**.</span><span class="sxs-lookup"><span data-stu-id="a9175-120">On the **Action Pane**, click **Service objects** to open the **Service objects** form.</span></span>
 
-4.  <span data-ttu-id="e4831-121">Seleccione el objeto del que desea borrar la línea de L. MAT. de servicio y haga clic en **Diseñador**.</span><span class="sxs-lookup"><span data-stu-id="e4831-121">Select the object to delete a service BOM line from, and then click **Designer**.</span></span>
+4.  <span data-ttu-id="a9175-121">Seleccione el objeto del que desea borrar la línea de L. MAT. de servicio y haga clic en **Diseñador**.</span><span class="sxs-lookup"><span data-stu-id="a9175-121">Select the object to delete a service BOM line from, and then click **Designer**.</span></span>
 
-5.  <span data-ttu-id="e4831-122">En el formulario **Diseñador**, seleccione la línea de L. MAT. que desea borrar y haga clic en **Eliminar línea de L.MAT**.</span><span class="sxs-lookup"><span data-stu-id="e4831-122">In the **Designer** form, select the BOM line to delete, and then click **Delete BOM line**.</span></span>
+5.  <span data-ttu-id="a9175-122">En el formulario **Diseñador**, seleccione la línea de L. MAT. que desea borrar y haga clic en **Eliminar línea de L.MAT**.</span><span class="sxs-lookup"><span data-stu-id="a9175-122">In the **Designer** form, select the BOM line to delete, and then click **Delete BOM line**.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="e4831-123">Consulte también</span><span class="sxs-lookup"><span data-stu-id="e4831-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a9175-123">Consulte también</span><span class="sxs-lookup"><span data-stu-id="a9175-123">See also</span></span>
 
-[<span data-ttu-id="e4831-124">Plantilla de L. MAT</span><span class="sxs-lookup"><span data-stu-id="e4831-124">Template BOMs</span></span>](template-boms.md)
+[<span data-ttu-id="a9175-124">Plantilla de L. MAT</span><span class="sxs-lookup"><span data-stu-id="a9175-124">Template BOMs</span></span>](template-boms.md)
 
   
 

@@ -2,7 +2,7 @@
 title: Planificación maestra para cobertura de sitios y almacenes, almacén no obligatorio
 description: Este tema describe cómo se planifica un artículo que tiene la dimensión del sitio establecida para cobertura.
 author: roxanadiaconu
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResStorageDimensionGroup, ReqItemTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 2474
 ms.assetid: 316da918-67ae-43c5-baea-00ae559e29b0
@@ -19,47 +19,47 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43989f95764a60dc7f5662ef74c005c5fddaa275
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 6260b4647bf40cdf2936a58e173051ba1cc7a77a
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813740"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3213672"
 ---
-# <a name="master-planning-for-site-coverage-warehouse-not-mandatory"></a><span data-ttu-id="980f7-103">Planificación maestra para cobertura de sitios y almacenes, almacén no obligatorio</span><span class="sxs-lookup"><span data-stu-id="980f7-103">Master planning for site coverage, warehouse not mandatory</span></span>
+# <a name="master-planning-for-site-coverage-warehouse-not-mandatory"></a><span data-ttu-id="29910-103">Planificación maestra para cobertura de sitios y almacenes, almacén no obligatorio</span><span class="sxs-lookup"><span data-stu-id="29910-103">Master planning for site coverage, warehouse not mandatory</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="980f7-104">Este tema describe cómo se planifica un artículo que tiene la dimensión del sitio establecida para cobertura.</span><span class="sxs-lookup"><span data-stu-id="980f7-104">This topic describes how an item that has the site dimension set for coverage is planned.</span></span>
+<span data-ttu-id="29910-104">Este tema describe cómo se planifica un artículo que tiene la dimensión del sitio establecida para cobertura.</span><span class="sxs-lookup"><span data-stu-id="29910-104">This topic describes how an item that has the site dimension set for coverage is planned.</span></span>
 
-<span data-ttu-id="980f7-105">El escenario de planificación maestra implica las condiciones siguientes:</span><span class="sxs-lookup"><span data-stu-id="980f7-105">This master planning scenario involves the following conditions:</span></span>
+<span data-ttu-id="29910-105">El escenario de planificación maestra implica las condiciones siguientes:</span><span class="sxs-lookup"><span data-stu-id="29910-105">This master planning scenario involves the following conditions:</span></span>
 
--   <span data-ttu-id="980f7-106">La dimensión del sitio está definida como obligatoria y se debe especificar en la transacción de demanda.</span><span class="sxs-lookup"><span data-stu-id="980f7-106">The site dimension is set to mandatory and must be entered on the demand transaction.</span></span>
--   <span data-ttu-id="980f7-107">La dimensión Almacén no está configurada como obligatoria.</span><span class="sxs-lookup"><span data-stu-id="980f7-107">The warehouse dimension is not set to mandatory.</span></span> <span data-ttu-id="980f7-108">El almacén puede ser conocido, pero no se usa en el cálculo de la planificación maestra.</span><span class="sxs-lookup"><span data-stu-id="980f7-108">The warehouse may be known, but it is not used in the master planning calculation.</span></span>
--   <span data-ttu-id="980f7-109">La dimensión de sitio está definida para la planificación de la cobertura.</span><span class="sxs-lookup"><span data-stu-id="980f7-109">The site dimension is set for coverage planning.</span></span>
--   <span data-ttu-id="980f7-110">La dimensión de almacén no está definida para la planificación de la cobertura.</span><span class="sxs-lookup"><span data-stu-id="980f7-110">The warehouse dimension is not set for coverage planning.</span></span> <span data-ttu-id="980f7-111">Por lo tanto, el suministro y la demanda se agregan por sitio y, quizás, también otras dimensiones planificadas por cobertura.</span><span class="sxs-lookup"><span data-stu-id="980f7-111">Therefore, supply and demand are aggregated by site and, perhaps, other coverage-planned dimensions also.</span></span>
+-   <span data-ttu-id="29910-106">La dimensión del sitio está definida como obligatoria y se debe especificar en la transacción de demanda.</span><span class="sxs-lookup"><span data-stu-id="29910-106">The site dimension is set to mandatory and must be entered on the demand transaction.</span></span>
+-   <span data-ttu-id="29910-107">La dimensión Almacén no está configurada como obligatoria.</span><span class="sxs-lookup"><span data-stu-id="29910-107">The warehouse dimension is not set to mandatory.</span></span> <span data-ttu-id="29910-108">El almacén puede ser conocido, pero no se usa en el cálculo de la planificación maestra.</span><span class="sxs-lookup"><span data-stu-id="29910-108">The warehouse may be known, but it is not used in the master planning calculation.</span></span>
+-   <span data-ttu-id="29910-109">La dimensión de sitio está definida para la planificación de la cobertura.</span><span class="sxs-lookup"><span data-stu-id="29910-109">The site dimension is set for coverage planning.</span></span>
+-   <span data-ttu-id="29910-110">La dimensión de almacén no está definida para la planificación de la cobertura.</span><span class="sxs-lookup"><span data-stu-id="29910-110">The warehouse dimension is not set for coverage planning.</span></span> <span data-ttu-id="29910-111">Por lo tanto, el suministro y la demanda se agregan por sitio y, quizás, también otras dimensiones planificadas por cobertura.</span><span class="sxs-lookup"><span data-stu-id="29910-111">Therefore, supply and demand are aggregated by site and, perhaps, other coverage-planned dimensions also.</span></span>
 
-<span data-ttu-id="980f7-112">El gráfico siguiente ilustra cómo tiene lugar la planificación maestra.</span><span class="sxs-lookup"><span data-stu-id="980f7-112">The following graphic illustrates how master planning proceeds.</span></span> <span data-ttu-id="980f7-113">Los parámetros a los que se hace referencia en el gráfico, así como sus ubicaciones, son los siguientes:</span><span class="sxs-lookup"><span data-stu-id="980f7-113">The parameters that are referred to in the graphic, and their locations, are as follows:</span></span>
--   <span data-ttu-id="980f7-114">La cobertura de artículos está definida para el artículo.</span><span class="sxs-lookup"><span data-stu-id="980f7-114">Item coverage is defined for the item.</span></span> <span data-ttu-id="980f7-115">Haga clic en **Gestión de información de productos &gt; Productos &gt; Productos emitidos**.</span><span class="sxs-lookup"><span data-stu-id="980f7-115">Click **Product information management &gt; Products&gt; Released products**.</span></span> <span data-ttu-id="980f7-116">Seleccione el artículo y haga clic en **Planificar &gt; Cobertura de artículos**.</span><span class="sxs-lookup"><span data-stu-id="980f7-116">Select the item, and then click **Plan &gt; Item coverage**.</span></span>
--   <span data-ttu-id="980f7-117">Están definidas relaciones de relleno para el almacén.</span><span class="sxs-lookup"><span data-stu-id="980f7-117">Refill relations are defined for the warehouse.</span></span> <span data-ttu-id="980f7-118">Haga clic en **Gestión del inventario &gt; Configurar &gt; Desglose del inventario &gt; Almacenes**.</span><span class="sxs-lookup"><span data-stu-id="980f7-118">Click **Inventory management &gt; Setup &gt; Inventory breakdown &gt; Warehouses**.</span></span> <span data-ttu-id="980f7-119">En la ficha **Planificación maestra**, consulte el grupo de campos **Almacén principal**.</span><span class="sxs-lookup"><span data-stu-id="980f7-119">On the **Master planning** tab, see the **Main warehouse** field group.</span></span>
--   <span data-ttu-id="980f7-120">El tipo de pedido predeterminado está definido en Producción, Pedido de compra o Kanban.</span><span class="sxs-lookup"><span data-stu-id="980f7-120">The default order type is set to Production, Purchase order or Kanban.</span></span> <span data-ttu-id="980f7-121">Haga clic en **Gestión de información de productos &gt; Productos &gt; Productos emitidos**.</span><span class="sxs-lookup"><span data-stu-id="980f7-121">Click **Product information management &gt; Products&gt; Released products**.</span></span> <span data-ttu-id="980f7-122">Seleccione el artículo y, a continuación, haga clic en **Planificar &gt; Configuración predeterminada de pedido**.</span><span class="sxs-lookup"><span data-stu-id="980f7-122">Select the item, and then click **Plan &gt; Default order settings**.</span></span> <span data-ttu-id="980f7-123">En el formulario **Configuración predeterminada de pedido**, consulte el campo **Tipo de pedido predeterminado**.</span><span class="sxs-lookup"><span data-stu-id="980f7-123">In the **Default order settings** form, see the **Default order type** field.</span></span>
+<span data-ttu-id="29910-112">El gráfico siguiente ilustra cómo tiene lugar la planificación maestra.</span><span class="sxs-lookup"><span data-stu-id="29910-112">The following graphic illustrates how master planning proceeds.</span></span> <span data-ttu-id="29910-113">Los parámetros a los que se hace referencia en el gráfico, así como sus ubicaciones, son los siguientes:</span><span class="sxs-lookup"><span data-stu-id="29910-113">The parameters that are referred to in the graphic, and their locations, are as follows:</span></span>
+-   <span data-ttu-id="29910-114">La cobertura de artículos está definida para el artículo.</span><span class="sxs-lookup"><span data-stu-id="29910-114">Item coverage is defined for the item.</span></span> <span data-ttu-id="29910-115">Haga clic en **Gestión de información de productos &gt; Productos &gt; Productos emitidos**.</span><span class="sxs-lookup"><span data-stu-id="29910-115">Click **Product information management &gt; Products&gt; Released products**.</span></span> <span data-ttu-id="29910-116">Seleccione el artículo y haga clic en **Planificar &gt; Cobertura de artículos**.</span><span class="sxs-lookup"><span data-stu-id="29910-116">Select the item, and then click **Plan &gt; Item coverage**.</span></span>
+-   <span data-ttu-id="29910-117">Están definidas relaciones de relleno para el almacén.</span><span class="sxs-lookup"><span data-stu-id="29910-117">Refill relations are defined for the warehouse.</span></span> <span data-ttu-id="29910-118">Haga clic en **Gestión del inventario &gt; Configurar &gt; Desglose del inventario &gt; Almacenes**.</span><span class="sxs-lookup"><span data-stu-id="29910-118">Click **Inventory management &gt; Setup &gt; Inventory breakdown &gt; Warehouses**.</span></span> <span data-ttu-id="29910-119">En la ficha **Planificación maestra**, consulte el grupo de campos **Almacén principal**.</span><span class="sxs-lookup"><span data-stu-id="29910-119">On the **Master planning** tab, see the **Main warehouse** field group.</span></span>
+-   <span data-ttu-id="29910-120">El tipo de pedido predeterminado está definido en Producción, Pedido de compra o Kanban.</span><span class="sxs-lookup"><span data-stu-id="29910-120">The default order type is set to Production, Purchase order or Kanban.</span></span> <span data-ttu-id="29910-121">Haga clic en **Gestión de información de productos &gt; Productos &gt; Productos emitidos**.</span><span class="sxs-lookup"><span data-stu-id="29910-121">Click **Product information management &gt; Products&gt; Released products**.</span></span> <span data-ttu-id="29910-122">Seleccione el artículo y, a continuación, haga clic en **Planificar &gt; Configuración predeterminada de pedido**.</span><span class="sxs-lookup"><span data-stu-id="29910-122">Select the item, and then click **Plan &gt; Default order settings**.</span></span> <span data-ttu-id="29910-123">En el formulario **Configuración predeterminada de pedido**, consulte el campo **Tipo de pedido predeterminado**.</span><span class="sxs-lookup"><span data-stu-id="29910-123">In the **Default order settings** form, see the **Default order type** field.</span></span>
 
 ![Demanda de cobertura de sitios, almacén no obligatorio](./media/multisitedemandexplosionscenarioforsitecoveragewarehousenotmandatory.jpg)
 
 
 
-<a name="additional-resources"></a><span data-ttu-id="980f7-125">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="980f7-125">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="29910-125">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="29910-125">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="980f7-126">Visión general de la planificación maestra y la funcionalidad multisitio</span><span class="sxs-lookup"><span data-stu-id="980f7-126">Master planning and multisite functionality overview</span></span>](master-plan-multisite-functionality.md)
+[<span data-ttu-id="29910-126">Visión general de la planificación maestra y la funcionalidad multisitio</span><span class="sxs-lookup"><span data-stu-id="29910-126">Master planning and multisite functionality overview</span></span>](master-plan-multisite-functionality.md)
 
-[<span data-ttu-id="980f7-127">Planificación maestra de cobertura de sitios y almacén, almacén obligatorio</span><span class="sxs-lookup"><span data-stu-id="980f7-127">Master planning for site and warehouse coverage, warehouse mandatory</span></span>](master-plan-site-coverage-warehouse-mandatory.md)
+[<span data-ttu-id="29910-127">Planificación maestra de cobertura de sitios y almacén, almacén obligatorio</span><span class="sxs-lookup"><span data-stu-id="29910-127">Master planning for site and warehouse coverage, warehouse mandatory</span></span>](master-plan-site-coverage-warehouse-mandatory.md)
 
-[<span data-ttu-id="980f7-128">Planificación maestra para cobertura de sitios, almacén obligatorio</span><span class="sxs-lookup"><span data-stu-id="980f7-128">Master planning for site coverage, mandatory warehouse</span></span>](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+[<span data-ttu-id="29910-128">Planificación maestra para cobertura de sitios, almacén obligatorio</span><span class="sxs-lookup"><span data-stu-id="29910-128">Master planning for site coverage, mandatory warehouse</span></span>](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
 
-[<span data-ttu-id="980f7-129">Planificación maestra para cobertura de sitios, almacén no obligatorio</span><span class="sxs-lookup"><span data-stu-id="980f7-129">Master planning for site coverage, warehouse not mandatory</span></span>](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+[<span data-ttu-id="29910-129">Planificación maestra para cobertura de sitios, almacén no obligatorio</span><span class="sxs-lookup"><span data-stu-id="29910-129">Master planning for site coverage, warehouse not mandatory</span></span>](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 
-[<span data-ttu-id="980f7-130">Determinar la versión de L. MAT.</span><span class="sxs-lookup"><span data-stu-id="980f7-130">Determine the BOM version</span></span>](master-plan-bom-version-determined.md)
+[<span data-ttu-id="29910-130">Determinar la versión de L. MAT.</span><span class="sxs-lookup"><span data-stu-id="29910-130">Determine the BOM version</span></span>](master-plan-bom-version-determined.md)
 
 
 
