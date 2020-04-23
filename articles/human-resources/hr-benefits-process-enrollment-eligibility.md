@@ -3,7 +3,7 @@ title: Proceso de idoneidad para inscripción
 description: Este artículo explica cómo ejecutar el proceso de idoneidad de inscripción.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,38 +18,57 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0344c48460a7d1540481e09ba106526e119de72b
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 1d978982213e713e362798c49aa57e6dc8b7a862
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010413"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3230025"
 ---
-# <a name="process-enrollment-eligibility"></a><span data-ttu-id="49a44-103">Proceso de idoneidad para inscripción</span><span class="sxs-lookup"><span data-stu-id="49a44-103">Process enrollment eligibility</span></span>
+# <a name="process-enrollment-eligibility"></a><span data-ttu-id="7f216-103">Proceso de idoneidad para inscripción</span><span class="sxs-lookup"><span data-stu-id="7f216-103">Process enrollment eligibility</span></span>
 
-[!include [banner](includes/preview-feature.md)]
+<span data-ttu-id="7f216-104">Este artículo explica cómo ejecutar el proceso de idoneidad de inscripción.</span><span class="sxs-lookup"><span data-stu-id="7f216-104">This article explains how to run the enrollment eligibility process.</span></span>
 
-<span data-ttu-id="49a44-104">Este artículo explica cómo ejecutar el proceso de idoneidad de inscripción.</span><span class="sxs-lookup"><span data-stu-id="49a44-104">This article explains how to run the enrollment eligibility process.</span></span>
+1. <span data-ttu-id="7f216-105">En el espacio de trabajo **Administración de prestaciones**, en **Procesamiento**, seleccione **Procesamiento de idoneidad para inscripción**.</span><span class="sxs-lookup"><span data-stu-id="7f216-105">In the **Benefits management** workspace, under **Processing**, select **Enrollment eligibility processing**.</span></span>
 
-1. <span data-ttu-id="49a44-105">En el espacio de trabajo **Administración de prestaciones**, en **Procesamiento**, seleccione **Procesamiento de idoneidad para inscripción**.</span><span class="sxs-lookup"><span data-stu-id="49a44-105">In the **Benefits management** workspace, under **Processing**, select **Enrollment eligibility processing**.</span></span>
+2. <span data-ttu-id="7f216-106">En el cuadro de diálogo **Ejecutar proceso de idoneidad para la inscripción en prestaciones**, especifique valores para los siguientes campos:</span><span class="sxs-lookup"><span data-stu-id="7f216-106">In the **Run benefit enrollment eligibility process** dialog box, specify values for the following fields:</span></span>
 
-2. <span data-ttu-id="49a44-106">En el cuadro de diálogo **Ejecutar proceso de idoneidad para la inscripción en prestaciones**, especifique valores para los siguientes campos:</span><span class="sxs-lookup"><span data-stu-id="49a44-106">In the **Run benefit enrollment eligibility process** dialog box, specify values for the following fields:</span></span>
-
-   | <span data-ttu-id="49a44-107">Campo</span><span class="sxs-lookup"><span data-stu-id="49a44-107">Field</span></span> | <span data-ttu-id="49a44-108">Descripción</span><span class="sxs-lookup"><span data-stu-id="49a44-108">Description</span></span> |
+   | <span data-ttu-id="7f216-107">Campo</span><span class="sxs-lookup"><span data-stu-id="7f216-107">Field</span></span> | <span data-ttu-id="7f216-108">Descripción</span><span class="sxs-lookup"><span data-stu-id="7f216-108">Description</span></span> |
    | --- | --- |
-   | <span data-ttu-id="49a44-109">Período de inscripción</span><span class="sxs-lookup"><span data-stu-id="49a44-109">Enrollment period</span></span> | <span data-ttu-id="49a44-110">El periodo de inscripción para procesar la idoneidad de inscripción.</span><span class="sxs-lookup"><span data-stu-id="49a44-110">The enrollment period to process enrollment eligibility for.</span></span> |
-   | <span data-ttu-id="49a44-111">Entidad jurídica</span><span class="sxs-lookup"><span data-stu-id="49a44-111">Legal entity</span></span> | <span data-ttu-id="49a44-112">La entidad jurídica para procesar la idoneidad de inscripción.</span><span class="sxs-lookup"><span data-stu-id="49a44-112">The legal entity to process enrollment eligibility for.</span></span> |
-   | <span data-ttu-id="49a44-113">Trabajador</span><span class="sxs-lookup"><span data-stu-id="49a44-113">Worker</span></span> | <span data-ttu-id="49a44-114">El trabajador para procesar la idoneidad de inscripción.</span><span class="sxs-lookup"><span data-stu-id="49a44-114">The worker to process enrollment eligibility for.</span></span> <span data-ttu-id="49a44-115">Si deja este campo en blanco, la idoneidad de inscripción se procesará para todos los trabajadores.</span><span class="sxs-lookup"><span data-stu-id="49a44-115">If you leave this field blank, enrollment eligibility will be processed for all workers.</span></span> |
-   | <span data-ttu-id="49a44-116">Plan de prestaciones</span><span class="sxs-lookup"><span data-stu-id="49a44-116">Benefit plan</span></span> | <span data-ttu-id="49a44-117">El plan de prestaciones para procesar la idoneidad de inscripción.</span><span class="sxs-lookup"><span data-stu-id="49a44-117">The benefit plan to process enrollment eligibility for.</span></span>
+   | <span data-ttu-id="7f216-109">**Período de inscripción**</span><span class="sxs-lookup"><span data-stu-id="7f216-109">**Enrollment period**</span></span> | <span data-ttu-id="7f216-110">El periodo de inscripción para procesar la idoneidad de inscripción.</span><span class="sxs-lookup"><span data-stu-id="7f216-110">The enrollment period to process enrollment eligibility for.</span></span> |
+   | <span data-ttu-id="7f216-111">**Entidad jurídica**</span><span class="sxs-lookup"><span data-stu-id="7f216-111">**Legal entity**</span></span> | <span data-ttu-id="7f216-112">La entidad jurídica para procesar la idoneidad de inscripción.</span><span class="sxs-lookup"><span data-stu-id="7f216-112">The legal entity to process enrollment eligibility for.</span></span> |
+   | <span data-ttu-id="7f216-113">**Trabajador**</span><span class="sxs-lookup"><span data-stu-id="7f216-113">**Worker**</span></span> | <span data-ttu-id="7f216-114">El trabajador para procesar la idoneidad de inscripción.</span><span class="sxs-lookup"><span data-stu-id="7f216-114">The worker to process enrollment eligibility for.</span></span> <span data-ttu-id="7f216-115">Si deja este campo en blanco, la idoneidad de inscripción se procesará para todos los trabajadores.</span><span class="sxs-lookup"><span data-stu-id="7f216-115">If you leave this field blank, enrollment eligibility will be processed for all workers.</span></span> |
+   | <span data-ttu-id="7f216-116">**Plan de beneficios**</span><span class="sxs-lookup"><span data-stu-id="7f216-116">**Benefit plan**</span></span> | <span data-ttu-id="7f216-117">El plan de prestaciones para procesar la idoneidad de inscripción.</span><span class="sxs-lookup"><span data-stu-id="7f216-117">The benefit plan to process enrollment eligibility for.</span></span>
 
-3. <span data-ttu-id="49a44-118">Si desea ejecutar el proceso en segundo plano, seleccione **Ejecutar en segundo plano** y realice las siguientes tareas:</span><span class="sxs-lookup"><span data-stu-id="49a44-118">If you want to run the process in the background, select **Run in the background** and do the following tasks:</span></span>
+3. <span data-ttu-id="7f216-118">Si desea ejecutar el proceso en segundo plano, seleccione **Ejecutar en segundo plano** y realice las siguientes tareas:</span><span class="sxs-lookup"><span data-stu-id="7f216-118">If you want to run the process in the background, select **Run in the background** and do the following tasks:</span></span>
 
-   1. <span data-ttu-id="49a44-119">Escriba información para proceso.</span><span class="sxs-lookup"><span data-stu-id="49a44-119">Enter information for the process.</span></span>
+   1. <span data-ttu-id="7f216-119">Escriba información para proceso.</span><span class="sxs-lookup"><span data-stu-id="7f216-119">Enter information for the process.</span></span>
 
-   2. <span data-ttu-id="49a44-120">Para configurar un trabajo periódico, seleccione **Periodicidad**, introduzca la información de periodicidad y seleccione **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="49a44-120">To set up a recurring job, select **Recurrence**, enter the recurrence information, and the select **OK**.</span></span>
+   2. <span data-ttu-id="7f216-120">Para configurar un trabajo periódico, seleccione **Periodicidad**, introduzca la información de periodicidad y seleccione **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="7f216-120">To set up a recurring job, select **Recurrence**, enter the recurrence information, and the select **OK**.</span></span>
 
-   3. <span data-ttu-id="49a44-121">Para configurar una alerta de trabajo, seleccione **Alertas**, seleccione las alertas que quiera recibir y luego seleccione **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="49a44-121">To set up a job alert, select **Alerts**, select the alerts to receive, and then select **OK**.</span></span>
+   3. <span data-ttu-id="7f216-121">Para configurar una alerta de trabajo, seleccione **Alertas**, seleccione las alertas que quiera recibir y luego seleccione **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="7f216-121">To set up a job alert, select **Alerts**, select the alerts to receive, and then select **OK**.</span></span>
 
-   4. <span data-ttu-id="49a44-122">Seleccione **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="49a44-122">Select **OK**.</span></span> <span data-ttu-id="49a44-123">El proceso se ejecutará con los parámetros que establezca.</span><span class="sxs-lookup"><span data-stu-id="49a44-123">The process will run with the parameters you set.</span></span>
+   4. <span data-ttu-id="7f216-122">Seleccione **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="7f216-122">Select **OK**.</span></span> <span data-ttu-id="7f216-123">El proceso se ejecutará con los parámetros que establezca.</span><span class="sxs-lookup"><span data-stu-id="7f216-123">The process will run with the parameters you set.</span></span>
 
-4. <span data-ttu-id="49a44-124">Seleccione **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="49a44-124">Select **OK**.</span></span>
+4. <span data-ttu-id="7f216-124">Seleccione **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="7f216-124">Select **OK**.</span></span>
+
+## <a name="view-process-results"></a><span data-ttu-id="7f216-125">Ver resultados de proceso</span><span class="sxs-lookup"><span data-stu-id="7f216-125">View Process Results</span></span>
+
+<span data-ttu-id="7f216-126">Este artículo explica cómo ver los resultados del proceso de idoneidad.</span><span class="sxs-lookup"><span data-stu-id="7f216-126">This article explains how to view eligibility process results.</span></span>
+
+1.  <span data-ttu-id="7f216-127">En el espacio de trabajo **Administración de prestaciones**, en **Procesamiento**, seleccione **Procesar resultados**.</span><span class="sxs-lookup"><span data-stu-id="7f216-127">In the **Benefits management** workspace, under **Processing**, select **Process results**.</span></span>
+
+2.  <span data-ttu-id="7f216-128">En el formulario **Procesar resultados**, se especifican los siguientes campos:</span><span class="sxs-lookup"><span data-stu-id="7f216-128">In the **Process results** form, the following fields are specified:</span></span>
+
+   | <span data-ttu-id="7f216-129">Campo</span><span class="sxs-lookup"><span data-stu-id="7f216-129">Field</span></span> | <span data-ttu-id="7f216-130">Descripción</span><span class="sxs-lookup"><span data-stu-id="7f216-130">Description</span></span> |
+   | --- | --- |
+   | <span data-ttu-id="7f216-131">**Id. de proceso**</span><span class="sxs-lookup"><span data-stu-id="7f216-131">**Process ID**</span></span> | <span data-ttu-id="7f216-132">El Id. único para la combinación de trabajador, entidad jurídica y ejecución del proceso.</span><span class="sxs-lookup"><span data-stu-id="7f216-132">The unique ID for the combination of Worker, Legal entity, and process run.</span></span> |
+   | <span data-ttu-id="7f216-133">**Tipo de proceso**</span><span class="sxs-lookup"><span data-stu-id="7f216-133">**Process type**</span></span> | <span data-ttu-id="7f216-134">Esto identifica el proceso que se ejecutó.</span><span class="sxs-lookup"><span data-stu-id="7f216-134">This identifies the process that was run.</span></span> <span data-ttu-id="7f216-135">Por ejemplo: Inscripción.</span><span class="sxs-lookup"><span data-stu-id="7f216-135">For example:  Enrollment.</span></span> |
+   | <span data-ttu-id="7f216-136">**Marca de tiempo**</span><span class="sxs-lookup"><span data-stu-id="7f216-136">**Time stamp**</span></span> | <span data-ttu-id="7f216-137">La hora en que se ejecutó el proceso de elegibilidad.</span><span class="sxs-lookup"><span data-stu-id="7f216-137">The time that the eligibility process was run.</span></span> |
+   | <span data-ttu-id="7f216-138">**Entidad jurídica**</span><span class="sxs-lookup"><span data-stu-id="7f216-138">**Legal entity**</span></span> | <span data-ttu-id="7f216-139">La entidad legal especificada durante el proceso de inscripción.</span><span class="sxs-lookup"><span data-stu-id="7f216-139">The legal entity specified during the enrollment process.</span></span> |
+   | <span data-ttu-id="7f216-140">**Trabajador**</span><span class="sxs-lookup"><span data-stu-id="7f216-140">**Worker**</span></span> | <span data-ttu-id="7f216-141">El trabajador que se procesó.</span><span class="sxs-lookup"><span data-stu-id="7f216-141">The worker who was processed.</span></span> |
+   | <span data-ttu-id="7f216-142">\*\*Plan</span><span class="sxs-lookup"><span data-stu-id="7f216-142">\*\*Plan</span></span> | <span data-ttu-id="7f216-143">El plan de prestaciones para el que se intentó la inscripción.</span><span class="sxs-lookup"><span data-stu-id="7f216-143">The Benefit plan that enrollment was attempted for.</span></span> |
+   | <span data-ttu-id="7f216-144">**Regla de idoneidad**</span><span class="sxs-lookup"><span data-stu-id="7f216-144">**Eligibility rule**</span></span> | <span data-ttu-id="7f216-145">La regla de elegibilidad que se procesó.</span><span class="sxs-lookup"><span data-stu-id="7f216-145">The eligibility rule that was processed.</span></span> <span data-ttu-id="7f216-146">Si se encontró un error antes de ejecutar la elegibilidad, estará en blanco.</span><span class="sxs-lookup"><span data-stu-id="7f216-146">If an error was encountered before eligibility was run, this will be blank.</span></span> <span data-ttu-id="7f216-147">Por ejemplo: si no se ha definido la compensación para un trabajador, el proceso de elegibilidad no se ejecutará y este campo se dejará en blanco.</span><span class="sxs-lookup"><span data-stu-id="7f216-147">For example: If compensation hasn't been defined for a worker, the eligibility process won't run, and this field will be left blank.</span></span> |
+   | <span data-ttu-id="7f216-148">**Estado de resultado**</span><span class="sxs-lookup"><span data-stu-id="7f216-148">**Result status**</span></span> | <span data-ttu-id="7f216-149">Esto será elegible o no elegible.</span><span class="sxs-lookup"><span data-stu-id="7f216-149">This will be Eligible or Ineligible.</span></span> <span data-ttu-id="7f216-150">El estado del resultado será No elegible si el trabajador no cumplió con los criterios de la regla de elegibilidad, si el trabajador no tiene la información requerida, como una frecuencia de pago o una compensación fija, o si falta información en el plan de prestaciones que impide que los trabajadores se inscriban.</span><span class="sxs-lookup"><span data-stu-id="7f216-150">The result status will be Ineligible if the worker didn’t meet the eligibility rule criteria, if the worker is missing required information such as a pay frequency or fixed compensation, or if there is information missing on the benefit plan that prevents workers from being enrolled.</span></span> |
+   | <span data-ttu-id="7f216-151">**Mensaje de resultado**</span><span class="sxs-lookup"><span data-stu-id="7f216-151">**Result message**</span></span> | <span data-ttu-id="7f216-152">Indica por qué un trabajador no es elegible para un plan de prestaciones o si se aprobó la regla de elegibilidad.</span><span class="sxs-lookup"><span data-stu-id="7f216-152">Indicates why a worker is ineligible for a benefit plan or if the eligibility rule passed.</span></span> |
+

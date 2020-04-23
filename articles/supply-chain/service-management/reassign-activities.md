@@ -2,7 +2,7 @@
 title: Reasignación de actividades
 description: Este tema describe cómo reasignar actividades de servicio de un trabajador a otro trabajador.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMADispatchBoard
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,43 +18,43 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 215b10cc0733c1beab52fa39e09c83d40a6297a3
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 6314b26bd73e6b6f6147c90ecfdfa71e7105d48f
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557439"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3211799"
 ---
-# <a name="reassign-activities"></a><span data-ttu-id="365d2-103">Reasignación de actividades</span><span class="sxs-lookup"><span data-stu-id="365d2-103">Reassign activities</span></span> 
+# <a name="reassign-activities"></a><span data-ttu-id="2c267-103">Reasignación de actividades</span><span class="sxs-lookup"><span data-stu-id="2c267-103">Reassign activities</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="365d2-104">Este tema describe cómo reasignar actividades de servicio de un trabajador a otro trabajador.</span><span class="sxs-lookup"><span data-stu-id="365d2-104">This topic describes how to reassign service activities from one worker to another worker.</span></span> <span data-ttu-id="365d2-105">Puede reasignar actividades de servicio de un empleado a otro incluso si los empleados están asignados a distintos equipos de distribución.</span><span class="sxs-lookup"><span data-stu-id="365d2-105">You can reassign service activities from one worker to another worker even if those workers are assigned to different dispatch teams.</span></span>
+<span data-ttu-id="2c267-104">Este tema describe cómo reasignar actividades de servicio de un trabajador a otro trabajador.</span><span class="sxs-lookup"><span data-stu-id="2c267-104">This topic describes how to reassign service activities from one worker to another worker.</span></span> <span data-ttu-id="2c267-105">Puede reasignar actividades de servicio de un empleado a otro incluso si los empleados están asignados a distintos equipos de distribución.</span><span class="sxs-lookup"><span data-stu-id="2c267-105">You can reassign service activities from one worker to another worker even if those workers are assigned to different dispatch teams.</span></span>
 
-<span data-ttu-id="365d2-106">Use los siguientes pasos para asignar una actividad a otro trabajador:</span><span class="sxs-lookup"><span data-stu-id="365d2-106">Use the following steps to reassign an activity to another worker:</span></span>
+<span data-ttu-id="2c267-106">Use los siguientes pasos para asignar una actividad a otro trabajador:</span><span class="sxs-lookup"><span data-stu-id="2c267-106">Use the following steps to reassign an activity to another worker:</span></span>
 
-1.  <span data-ttu-id="365d2-107">Haga clic en **Gestión de servicios** \> **Periódico** \> **Panel de distribución**.</span><span class="sxs-lookup"><span data-stu-id="365d2-107">Click **Service management** \> **Periodic** \> **Dispatch board**.</span></span>
+1.  <span data-ttu-id="2c267-107">Haga clic en **Gestión de servicios** \> **Periódico** \> **Panel de distribución**.</span><span class="sxs-lookup"><span data-stu-id="2c267-107">Click **Service management** \> **Periodic** \> **Dispatch board**.</span></span>
 
-2.  <span data-ttu-id="365d2-108">En los campos **Fecha inicial** y **Fecha final**, especifique fechas para definir el período de tiempo cuyas actividades se verán.</span><span class="sxs-lookup"><span data-stu-id="365d2-108">In the **From date** and **To date** fields, enter dates to define the time period to view activities for.</span></span>
+2.  <span data-ttu-id="2c267-108">En los campos **Fecha inicial** y **Fecha final**, especifique fechas para definir el período de tiempo cuyas actividades se verán.</span><span class="sxs-lookup"><span data-stu-id="2c267-108">In the **From date** and **To date** fields, enter dates to define the time period to view activities for.</span></span>
 
-3.  <span data-ttu-id="365d2-109">Seleccione si desea ver actividades cerradas e información de distribución para equipos relacionados y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="365d2-109">Select whether to view closed activities and dispatch information for related teams, and then click **OK**.</span></span>
+3.  <span data-ttu-id="2c267-109">Seleccione si desea ver actividades cerradas e información de distribución para equipos relacionados y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="2c267-109">Select whether to view closed activities and dispatch information for related teams, and then click **OK**.</span></span>
 
-4.  <span data-ttu-id="365d2-110">En el formulario **Panel de distribución**, haga clic en **Avanzada** para mostrar solo el gráfico de Gantt en la parte superior de la página.</span><span class="sxs-lookup"><span data-stu-id="365d2-110">In the **Dispatch board** form, click **Advanced** to display only the Gantt chart at the top of the page.</span></span> <span data-ttu-id="365d2-111">Haga clic en **Simple** para visualizar el gráfico de Gantt y las fichas en el formulario.</span><span class="sxs-lookup"><span data-stu-id="365d2-111">Click **Simple** to display the Gantt chart and the tabs in the form.</span></span>
+4.  <span data-ttu-id="2c267-110">En el formulario **Panel de distribución**, haga clic en **Avanzada** para mostrar solo el gráfico de Gantt en la parte superior de la página.</span><span class="sxs-lookup"><span data-stu-id="2c267-110">In the **Dispatch board** form, click **Advanced** to display only the Gantt chart at the top of the page.</span></span> <span data-ttu-id="2c267-111">Haga clic en **Simple** para visualizar el gráfico de Gantt y las fichas en el formulario.</span><span class="sxs-lookup"><span data-stu-id="2c267-111">Click **Simple** to display the Gantt chart and the tabs in the form.</span></span>
 
-5.  <span data-ttu-id="365d2-112">Amplíe todas las listas de equipos de distribución.</span><span class="sxs-lookup"><span data-stu-id="365d2-112">Expand each dispatch team list.</span></span>
+5.  <span data-ttu-id="2c267-112">Amplíe todas las listas de equipos de distribución.</span><span class="sxs-lookup"><span data-stu-id="2c267-112">Expand each dispatch team list.</span></span>
 
-6.  <span data-ttu-id="365d2-113">Use cualquiera de los siguientes pasos para reasignar una actividad:</span><span class="sxs-lookup"><span data-stu-id="365d2-113">Use either of the following steps to reassign an activity:</span></span>
+6.  <span data-ttu-id="2c267-113">Use cualquiera de los siguientes pasos para reasignar una actividad:</span><span class="sxs-lookup"><span data-stu-id="2c267-113">Use either of the following steps to reassign an activity:</span></span>
     
-      - <span data-ttu-id="365d2-114">Seleccione un gráfico codificado en color que represente una actividad de servicio para reasignar.</span><span class="sxs-lookup"><span data-stu-id="365d2-114">Select a color-coded graphic that represents the service activity to reassign.</span></span> <span data-ttu-id="365d2-115">Presione la tecla MAYÚS y mueva el gráfico codificado en color a la fila para otro empleado.</span><span class="sxs-lookup"><span data-stu-id="365d2-115">Press the SHIFT key, and then move the color-coded graphic to the row for another employee.</span></span>
+      - <span data-ttu-id="2c267-114">Seleccione un gráfico codificado en color que represente una actividad de servicio para reasignar.</span><span class="sxs-lookup"><span data-stu-id="2c267-114">Select a color-coded graphic that represents the service activity to reassign.</span></span> <span data-ttu-id="2c267-115">Presione la tecla MAYÚS y mueva el gráfico codificado en color a la fila para otro empleado.</span><span class="sxs-lookup"><span data-stu-id="2c267-115">Press the SHIFT key, and then move the color-coded graphic to the row for another employee.</span></span>
     
-      - <span data-ttu-id="365d2-116">En la ficha **Todo**, la ficha **Equipo**, la ficha **No distribuido** o la ficha **Relacionado**, en el campo **Trabajador**, especifique el nombre del trabajador que reemplaza al trabajador actual para la actividad.</span><span class="sxs-lookup"><span data-stu-id="365d2-116">On the **All** tab, **Team** tab, **Undispatched** tab, or **Related** tab, in the **Worker** field, enter the name of the worker who is replacing the current worker for the activity.</span></span>
+      - <span data-ttu-id="2c267-116">En la ficha **Todo**, la ficha **Equipo**, la ficha **No distribuido** o la ficha **Relacionado**, en el campo **Trabajador**, especifique el nombre del trabajador que reemplaza al trabajador actual para la actividad.</span><span class="sxs-lookup"><span data-stu-id="2c267-116">On the **All** tab, **Team** tab, **Undispatched** tab, or **Related** tab, in the **Worker** field, enter the name of the worker who is replacing the current worker for the activity.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="365d2-117">Consulte también</span><span class="sxs-lookup"><span data-stu-id="365d2-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2c267-117">Consulte también</span><span class="sxs-lookup"><span data-stu-id="2c267-117">See also</span></span>
 
-[<span data-ttu-id="365d2-118">Actividades de servicio</span><span class="sxs-lookup"><span data-stu-id="365d2-118">Service activities</span></span>](service-activities.md)
+[<span data-ttu-id="2c267-118">Actividades de servicio</span><span class="sxs-lookup"><span data-stu-id="2c267-118">Service activities</span></span>](service-activities.md)
 
-[<span data-ttu-id="365d2-119">Panel de distribución</span><span class="sxs-lookup"><span data-stu-id="365d2-119">Dispatch board</span></span>](dispatch-board.md)
+[<span data-ttu-id="2c267-119">Panel de distribución</span><span class="sxs-lookup"><span data-stu-id="2c267-119">Dispatch board</span></span>](dispatch-board.md)
 
 
 

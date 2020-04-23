@@ -2,7 +2,7 @@
 title: Plantillas de servicio
 description: Puede definir un acuerdo de servicio como plantilla y, a continuación, copiar las líneas de la plantilla en otro acuerdo o pedido de servicio.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 02/19/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAAgreementTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,43 +18,43 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c4bde1869b2be6e4cbbf979dae1b84c2a4974a9
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a9d8ebcb2e59fae58f0701b529674cf1f9876c6b
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567064"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3206850"
 ---
-# <a name="service-templates"></a><span data-ttu-id="1f16f-103">Plantillas de servicio</span><span class="sxs-lookup"><span data-stu-id="1f16f-103">Service templates</span></span>
+# <a name="service-templates"></a><span data-ttu-id="38864-103">Plantillas de servicio</span><span class="sxs-lookup"><span data-stu-id="38864-103">Service templates</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="1f16f-104">Puede definir un acuerdo de servicio como plantilla y, a continuación, copiar las líneas de la plantilla en otro acuerdo o pedido de servicio.</span><span class="sxs-lookup"><span data-stu-id="1f16f-104">You can define a service agreement as a template and copy the lines of the template later into another service agreement or into a service order.</span></span>
+<span data-ttu-id="38864-104">Puede definir un acuerdo de servicio como plantilla y, a continuación, copiar las líneas de la plantilla en otro acuerdo o pedido de servicio.</span><span class="sxs-lookup"><span data-stu-id="38864-104">You can define a service agreement as a template and copy the lines of the template later into another service agreement or into a service order.</span></span>
 
-## <a name="example"></a><span data-ttu-id="1f16f-105">ejemplo</span><span class="sxs-lookup"><span data-stu-id="1f16f-105">Example</span></span>
+## <a name="example"></a><span data-ttu-id="38864-105">ejemplo</span><span class="sxs-lookup"><span data-stu-id="38864-105">Example</span></span>
 
-<span data-ttu-id="1f16f-106">Un cliente al que presta servicio tiene ascensores de servicio idénticos en cinco ubicaciones distintas.</span><span class="sxs-lookup"><span data-stu-id="1f16f-106">A customer for whom you provide service has identical service elevators at five different locations.</span></span>
+<span data-ttu-id="38864-106">Un cliente al que presta servicio tiene ascensores de servicio idénticos en cinco ubicaciones distintas.</span><span class="sxs-lookup"><span data-stu-id="38864-106">A customer for whom you provide service has identical service elevators at five different locations.</span></span>
 
-<span data-ttu-id="1f16f-107">Desea establecer cinco acuerdos de servicio para el cliente, uno para cada sitio.</span><span class="sxs-lookup"><span data-stu-id="1f16f-107">You want to set up five service agreements for the customer, one for each site.</span></span>
-<span data-ttu-id="1f16f-108">Para limitar el trabajo repetitivo de configuración y asegurarse de que la información de configuración de los acuerdos de servicio sea idéntica, crea un acuerdo de servicio y lo especifica como plantilla para el trabajo de servicio de los ascensores.</span><span class="sxs-lookup"><span data-stu-id="1f16f-108">To limit repetitive setup work, and to make sure that the setup information in the service agreements is identical, you create a service agreement and specify it as a template for the service work on the elevators.</span></span>
+<span data-ttu-id="38864-107">Desea establecer cinco acuerdos de servicio para el cliente, uno para cada sitio.</span><span class="sxs-lookup"><span data-stu-id="38864-107">You want to set up five service agreements for the customer, one for each site.</span></span>
+<span data-ttu-id="38864-108">Para limitar el trabajo repetitivo de configuración y asegurarse de que la información de configuración de los acuerdos de servicio sea idéntica, crea un acuerdo de servicio y lo especifica como plantilla para el trabajo de servicio de los ascensores.</span><span class="sxs-lookup"><span data-stu-id="38864-108">To limit repetitive setup work, and to make sure that the setup information in the service agreements is identical, you create a service agreement and specify it as a template for the service work on the elevators.</span></span>
 
-<span data-ttu-id="1f16f-109">A continuación, podrá copiar las líneas de la plantilla en los cinco acuerdos de servicio, de modo que cada uno de ellos se rellene con las líneas de la plantilla.</span><span class="sxs-lookup"><span data-stu-id="1f16f-109">You can now copy the template lines into the five new service agreements, so that each service agreement is populated with the lines from the template.</span></span>
+<span data-ttu-id="38864-109">A continuación, podrá copiar las líneas de la plantilla en los cinco acuerdos de servicio, de modo que cada uno de ellos se rellene con las líneas de la plantilla.</span><span class="sxs-lookup"><span data-stu-id="38864-109">You can now copy the template lines into the five new service agreements, so that each service agreement is populated with the lines from the template.</span></span>
 
-## <a name="create-a-template"></a><span data-ttu-id="1f16f-110">Crear una plantilla</span><span class="sxs-lookup"><span data-stu-id="1f16f-110">Create a template</span></span>
+## <a name="create-a-template"></a><span data-ttu-id="38864-110">Crear una plantilla</span><span class="sxs-lookup"><span data-stu-id="38864-110">Create a template</span></span>
 
-<span data-ttu-id="1f16f-111">Al crear una plantilla de servicio, crea un acuerdo de servicio y las líneas que éste requiere, y vincula el acuerdo de servicio a un grupo de plantillas de servicio.</span><span class="sxs-lookup"><span data-stu-id="1f16f-111">When you create a service template, you create a service agreement, create the required lines on it, and attach the service agreement to a service-template group.</span></span>
+<span data-ttu-id="38864-111">Al crear una plantilla de servicio, crea un acuerdo de servicio y las líneas que éste requiere, y vincula el acuerdo de servicio a un grupo de plantillas de servicio.</span><span class="sxs-lookup"><span data-stu-id="38864-111">When you create a service template, you create a service agreement, create the required lines on it, and attach the service agreement to a service-template group.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="1f16f-112">Un acuerdo de servicio sólo se puede definir como plantilla si no tiene vinculado ningún pedido de servicio.</span><span class="sxs-lookup"><span data-stu-id="1f16f-112">A service agreement can be defined as a template only if it has no service orders attached to it.</span></span> <span data-ttu-id="1f16f-113">Asimismo, no se pueden generar pedidos de servicio a partir de un acuerdo de servicio definido como plantilla.</span><span class="sxs-lookup"><span data-stu-id="1f16f-113">Also, no service orders can be generated from a service agreement that is defined as a template.</span></span>
+> <span data-ttu-id="38864-112">Un acuerdo de servicio sólo se puede definir como plantilla si no tiene vinculado ningún pedido de servicio.</span><span class="sxs-lookup"><span data-stu-id="38864-112">A service agreement can be defined as a template only if it has no service orders attached to it.</span></span> <span data-ttu-id="38864-113">Asimismo, no se pueden generar pedidos de servicio a partir de un acuerdo de servicio definido como plantilla.</span><span class="sxs-lookup"><span data-stu-id="38864-113">Also, no service orders can be generated from a service agreement that is defined as a template.</span></span>
 
-## <a name="copy-template-lines"></a><span data-ttu-id="1f16f-114">Copiar líneas de plantilla</span><span class="sxs-lookup"><span data-stu-id="1f16f-114">Copy template lines</span></span>
+## <a name="copy-template-lines"></a><span data-ttu-id="38864-114">Copiar líneas de plantilla</span><span class="sxs-lookup"><span data-stu-id="38864-114">Copy template lines</span></span>
 
-<span data-ttu-id="1f16f-115">Es posible copiar las líneas de plantilla desde una plantilla de servicio a otro acuerdo de servicio o a un pedido de servicio.</span><span class="sxs-lookup"><span data-stu-id="1f16f-115">You can copy template lines from a service template into another service agreement or into a service order.</span></span>
+<span data-ttu-id="38864-115">Es posible copiar las líneas de plantilla desde una plantilla de servicio a otro acuerdo de servicio o a un pedido de servicio.</span><span class="sxs-lookup"><span data-stu-id="38864-115">You can copy template lines from a service template into another service agreement or into a service order.</span></span>
 
-<span data-ttu-id="1f16f-116">Al copiar líneas de plantilla a los pedidos o acuerdos de servicio, los grupos de plantilla se muestran en una vista de árbol con cada grupo expandido.</span><span class="sxs-lookup"><span data-stu-id="1f16f-116">When you copy template lines into your service orders or service agreements, your template groups are displayed in a tree view in which each group can be expanded.</span></span> <span data-ttu-id="1f16f-117">Esta visualización permite ver todas las plantillas y las líneas correspondientes.</span><span class="sxs-lookup"><span data-stu-id="1f16f-117">This display lets you view each template and template line.</span></span>
+<span data-ttu-id="38864-116">Al copiar líneas de plantilla a los pedidos o acuerdos de servicio, los grupos de plantilla se muestran en una vista de árbol con cada grupo expandido.</span><span class="sxs-lookup"><span data-stu-id="38864-116">When you copy template lines into your service orders or service agreements, your template groups are displayed in a tree view in which each group can be expanded.</span></span> <span data-ttu-id="38864-117">Esta visualización permite ver todas las plantillas y las líneas correspondientes.</span><span class="sxs-lookup"><span data-stu-id="38864-117">This display lets you view each template and template line.</span></span>
 
-<span data-ttu-id="1f16f-118">Es más fácil determinar las líneas de plantilla de servicio que desea copiar si agrupa las plantillas en nombres que reflejen su uso.</span><span class="sxs-lookup"><span data-stu-id="1f16f-118">It is easier to determine the service-template lines that you want to copy if you have grouped the templates under names that reflect the use of the templates.</span></span>
+<span data-ttu-id="38864-118">Es más fácil determinar las líneas de plantilla de servicio que desea copiar si agrupa las plantillas en nombres que reflejen su uso.</span><span class="sxs-lookup"><span data-stu-id="38864-118">It is easier to determine the service-template lines that you want to copy if you have grouped the templates under names that reflect the use of the templates.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="1f16f-119">Temas relacionados</span><span class="sxs-lookup"><span data-stu-id="1f16f-119">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="38864-119">Temas relacionados</span><span class="sxs-lookup"><span data-stu-id="38864-119">Related topics</span></span>
 
-[<span data-ttu-id="1f16f-120">Copiar líneas de plantilla de servicio</span><span class="sxs-lookup"><span data-stu-id="1f16f-120">Copy service templates lines</span></span>](copy-service-template-lines.md)
+[<span data-ttu-id="38864-120">Copiar líneas de plantilla de servicio</span><span class="sxs-lookup"><span data-stu-id="38864-120">Copy service templates lines</span></span>](copy-service-template-lines.md)
