@@ -2,7 +2,7 @@
 title: LIFO con valor físico y marcado
 description: El método de valoración contable LIFO (Último en entrar, primero en salir) es un modelo de inventario según el cual las últimas recepciones (o recepciones más recientes) se emiten primero. Las emisiones del inventario se liquidan contra las últimas recepciones del inventario según la fecha de transacción de inventario.
 author: AndersGirke
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
 ms.custom: 55021
 ms.assetid: 49c492b0-b018-44e0-928f-9671e54eee20
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 792ff4d7b72ce092fe1ad92e53172cf40f0ecf26
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: e774b032bdcb3047f4788c97cd94e6336f20109a
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2569280"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201672"
 ---
 # <a name="lifo-with-physical-value-and-marking"></a>LIFO con valor físico y marcado
 

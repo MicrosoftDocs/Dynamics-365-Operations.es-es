@@ -1,9 +1,9 @@
 ---
 title: Configurar integración de Common Data Service
-description: Puede activar o desactivar la integración entre Common Data Service y una instancia de Microsoft Dynamics 365 Human Resources. También puede ver los detalles de sincronización, borrar los datos de seguimiento y volver a sincronizar una entidad para ayudar a solucionar problemas de datos entre los dos entornos.
+description: Puede activar o desactivar la integración entre Common Data Service y Dynamics 365 Human Resources. También puede ver los detalles de sincronización, borrar los datos de seguimiento y volver a sincronizar una entidad para ayudar a solucionar problemas de datos entre los dos entornos.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,25 +18,20 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 042daf3fdf7a906086af726472da050467d217e3
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 04280aa0908ed6dab86ef87b6c1843e4b4348e08
+ms.sourcegitcommit: c9657b44adb9c1a77c7c2f6ab63a58cc848974ea
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010440"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3198431"
 ---
 # <a name="configure-common-data-service-integration"></a>Configurar integración de Common Data Service
 
-Puede activar o desactivar la integración entre Common Data Service y una instancia de Microsoft Dynamics 365 Human Resources. También puede ver los detalles de sincronización, borrar los datos de seguimiento y volver a sincronizar una entidad para ayudar a solucionar problemas de datos entre los dos entornos.
+Puede activar o desactivar la integración entre Common Data Service y Dynamics 365 Human Resources. También puede ver los detalles de sincronización, borrar los datos de seguimiento y volver a sincronizar una entidad para ayudar a solucionar problemas de datos entre los dos entornos.
 
 Cuando desactiva la integración, los usuarios pueden realizar cambios en Human Resources o Common Data Service, pero esos cambios no se sincronizan entre los dos entornos.
 
-Por defecto, la integración entre Human Resources y Common Data Service está desactivada o activada, dependiendo de la presencia de datos de demostración en los entornos:
-
-- **Desactivada** para nuevos entornos que no incluyen datos de demostración
-- **Activada** para nuevos entornos que incluyen datos de demostración
-
-Los nuevos entornos que incluyen datos de demostración comenzarán a sincronizarse cuando se aprovisionen.
+De forma predeterminada, la integración entre Human Resources y Common Data Service está desactivada.
 
 Es posible que desee desactivar la integración en estas situaciones:
 
@@ -103,9 +98,17 @@ Para ejecutar una sincronización completa en la entidad después de borrar el s
 
 ## <a name="sync-an-entity-between-human-resources-and-common-data-service"></a>Sincronizar una entidad entre Human Resources y Common Data Service
 
-Use este procedimiento si los cambios de Common Data Service tardan demasiado en aparecer en Human Resources o si debe actualizar la tabla de seguimiento después de borrar el seguimiento.
+Use este procedimiento cuando:
 
-- Para ejecutar una sincronización completa en una entidad entre Human Resources y Common Data Service, seleccione la entidad en el campo **Nombre de entidad CDS** y luego seleccione **Sincronizar ahora**.
+- Cambios de Common Data Service tardan demasiado en aparecer en Human Resources.
+
+- Debe actualizar la tabla de seguimiento después de borrar el seguimiento.
+
+Para ejecutar una sincronización completa en una entidad entre Human Resources y Common Data Service:
+
+1. Seleccione la entidad en el campo **Nombre de entidad CDS**.
+
+2. Seleccione **Sincronizar ahora**.
 
 [![Ejecutar una sincronización completa](./media/hr-common-data-service-configuration-sync-now.png)](./media/hr-common-data-service-configuration-sync-now.png)
 

@@ -2,7 +2,7 @@
 title: Cálculos de L. MAT
 description: La acumulación de costes y los cálculos del precio de venta se conocen como cálculos de lista de materiales (L. MAT) y se inician desde la página Cálculos. Este tema proporciona información sobre los cálculos de L.MAT.
 author: AndersGirke
-manager: AnnBe
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion, InventItemPrice
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 273763
 ms.assetid: c6fa3348-eafa-4847-9132-e65c5f55cbf4
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: 29ea9ddefba3416a33cd0e2f873624cc5c781a55
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 6e83d438f4f1a913bfa86827d7ba0c1d9366030f
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552703"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3202017"
 ---
 # <a name="bom-calculations"></a>Cálculos de L. MAT
 

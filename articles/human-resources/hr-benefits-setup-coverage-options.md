@@ -1,9 +1,9 @@
 ---
 title: Crear opciones de cobertura
-description: Las opciones de cobertura en Microsoft Dynamics 365 Human Resources son niveles de cobertura para la elección de un participante en un plan o programa de prestaciones, como Solo empleados para un plan médico o Sueldo x2 para un plan de seguro de vida.
+description: Las opciones de cobertura en Microsoft Dynamics 365 Human Resources son niveles de cobertura para la elección de un participante en un plan o programa de prestaciones.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,20 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0af2b6ae0853b4c7f64c4d4f04299c87089d622b
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 021fea7604af2fff833ddc6868d55a316ef70aae
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092715"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3230186"
 ---
 # <a name="create-coverage-options"></a>Crear opciones de cobertura
 
-[!include [banner](includes/preview-feature.md)]
+Las opciones de cobertura en Microsoft Dynamics 365 Human Resources son niveles de cobertura para la elección de un participante en un plan o programa de prestaciones. Por ejemplo, las opciones de cobertura podrían incluir **Solo empleado** para un plan médico, o **2x salario** para un plan de seguro de vida. Una vez definido, puede reutilizar las opciones de cobertura de prestaciones. Puede asociar una opción con uno o más planes.
 
-Las opciones de cobertura en Microsoft Dynamics 365 Human Resources son niveles de cobertura para la elección de un participante en un plan o programa de prestaciones, como Solo empleados para un plan médico o Sueldo x2 para un plan de seguro de vida. Una vez definidas, las opciones de cobertura de prestaciones son reutilizables y puede asociar una opción con uno o más planes.
-
-Una vez que se definen las opciones de cobertura, adjunte las opciones de cobertura a un tipo de plan de prestaciones. El tipo de plan se asocia con un plan o programa de prestaciones. Las opciones de cobertura asociadas con un tipo de plan estarán disponibles para todos los planes creados con ese tipo de plan. 
+Después de definir las opciones de cobertura, adjunte las opciones de cobertura a un tipo de plan de prestaciones. El tipo de plan se asocia con un plan o programa de prestaciones. Las opciones de cobertura asociadas con un tipo de plan están disponibles para todos los planes creados con ese tipo de plan. 
 
 1. En el espacio de trabajo **Administración de prestaciones**, en **Configuración**, seleccione **Opciones de cobertura**.
 

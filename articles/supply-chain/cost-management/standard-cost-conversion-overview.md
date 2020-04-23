@@ -2,7 +2,7 @@
 title: Visión general de conversión de costes estándares
 description: Este artículo proporciona una visión general del proceso para ayudarle a configurar y a ejecutar una conversión de coste estándar. Los pasos mostrados están pensados para completarse una vez se hayan completado los requisitos previos para una conversión de coste estándar.
 author: AndersGirke
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostingVersion, InventStdCostConv
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 78212
 ms.assetid: d601d9d5-1de3-4868-aff4-534dca01d624
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5818bcf55cd7efc2d62f7b382a85653eb8bcbad6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e9874d3b44a687a60ea1fd26889af3d1b644f86a
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564655"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3214398"
 ---
 # <a name="standard-cost-conversion-overview"></a>Visión general de conversión de costes estándares
 

@@ -2,7 +2,7 @@
 title: Liberación por lotes de pedidos de transferencia parcialmente reservados
 description: En este tema se describe cómo configurar y aplicar la opción de liberación por lotes de pedidos de transferencia parcialmente reservados desde un dispositivo móvil.
 author: pjacobse
-manager: AnnBe
+manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadPlanningWorkbench
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 578b9875deec077a077b54a9227815e2c4fd3b2d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f0707731caaf9b4852e3c19be899ad92f5b84e29
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569065"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201304"
 ---
 # <a name="batch-release-of-partially-reserved-transfer-orders"></a>Liberación por lotes de pedidos de transferencia parcialmente reservados
 

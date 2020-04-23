@@ -2,7 +2,7 @@
 title: Política de reserva de dimensión de nivel de almacén flexible
 description: Este tema describe la política de reserva de inventario que permite a las empresas que venden productos con seguimiento por lotes y ejecutan su logística como operaciones habilitadas para WMS reservar lotes específicos para pedidos de clientes, a pesar de que la jerarquía de reservas asociada con los productos no permite la reserva de lotes específicos.
 author: omulvad
-manager: AnnBe
+manager: tfehr
 ms.date: 02/07/2020
 ms.topic: article
 ms.prod: ''
@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSReservationHierarchy
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: cd6ec1013de757214db99ada02170bb6e2af96c0
-ms.sourcegitcommit: f52ddcad105aac4ad2caef709751ff80caf363c0
+ms.openlocfilehash: 0fe9ed9f2bebe8683f3b8bb37b33e8a63b9521f6
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "3036938"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3205676"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Política de reserva de dimensión de nivel de almacén flexible
 

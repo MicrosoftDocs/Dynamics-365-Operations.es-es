@@ -3,7 +3,7 @@ title: Módulo de carro
 description: En este tema se tratan los módulos de carro y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 03/19/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 598b35b1bd365e761d8d4c5ef214935e60b971f4
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: d91f6ff24f8f2c051ed23565983c2bc6a2c12b55
+ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154026"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3261430"
 ---
 # <a name="cart-module"></a>Módulo de carro
 
@@ -47,12 +47,13 @@ El módulo de carro tiene una propiedad **Encabezado** que se puede establecer e
 - **Bloque de texto**: este módulo admite mensajería personalizada en el módulo de carro. Los mensajes se controlan mediante el sistema de gestión de contenidos (CMS). Se puede agregar cualquier mensaje, como “Si hubiera algún problema con el pedido, póngase en contacto con 1-800-Fabrikam”.
 - **Selector de tienda**: este módulo muestra una lista de las tiendas cercanas en las que un artículo está disponible para su recogida. Permite a los usuarios especificar una ubicación para encontrar tiendas cercanas. Para obtener más información sobre este módulo, vea [Módulo selector de tienda](store-selector.md).
 
-## <a name="cart-module-settings"></a>Configuración de módulo de carro
+
+## <a name="module-properties"></a>Propiedades del módulo
 
 Los módulos de carro tienen las siguientes opciones de configuración que se pueden establecer en **Valores de configuración de sitio \> Extensiones**:
 
 - **Cantidad máxima**: esta propiedad se usa para especificar el número máximo de cada artículo que se puede agregar al carro. Por ejemplo, un minorista puede decidir si solo 10 de cada producto se pueden vender en una única transacción.
-- **Comprobación de inventario**: Cuando el valor se establece en **Verdadero**, se agrega un artículo al carro solo después de que el módulo del cuadro de compra se asegure de que está en existencias. Esta comprobación de inventario se realiza para situaciones donde se enviará el artículo y para situaciones en la que se recogerá en la tienda. Si el valor se establece en **Falso**, no se realiza ninguna comprobación de inventario antes de agregar un artículo al carro y se realiza el pedido.
+- **Comprobación de inventario**: Cuando el valor se establece en **Verdadero**, se agrega un artículo al carro solo después de que el módulo del cuadro de compra se asegure de que está en existencias. Esta comprobación de inventario se realiza para situaciones donde se enviará el artículo y para situaciones en la que se recogerá en la tienda. Si el valor se establece en **Falso**, no se realiza ninguna comprobación de inventario antes de agregar un artículo al carro y se realiza el pedido. Para obtener información sobre cómo configurar las opciones de inventario en la oficina administrativa, vea [Calcular la disponibilidad de inventario para canales minoristas](calculated-inventory-retail-channels.md).
 - **Almacenaje de inventario**: esta propiedad se usa para especificar un número de almacenaje para el inventario. El inventario se mantiene en tiempo real y, cuando muchos clientes realizan pedidos, puede ser difícil mantener un recuento de inventario preciso. Cuando se realiza una comprobación de inventario, si el inventario es inferior a la cantidad de almacenaje, el producto se tratará como sin existencias. Por lo tanto, cuando las ventas se producen rápidamente entre varios canales, y el recuento de inventario no está completamente sincronizado, hay un riesgo menor de que se venda un artículo del que no hay existencias.
 - **Volver a la compra**: esta propiedad se utiliza para especificar la ruta para el vínculo **Volver a la compra**. La ruta se puede configurar a nivel de sitio, lo que permite a los minoristas llevar al cliente de vuelta a la página de inicio o cualquier otra página del sitio.
 
@@ -84,6 +85,8 @@ Para agregar un módulo de carro a una página nueva y establecer las propiedade
 
 [Módulo de cuadro de compra](add-buy-box.md)
 
+[Módulo de icono de carrito](cart-icon-module.md)
+
 [Módulo de finalización de compra](add-checkout-module.md)
 
 [Módulo de confirmación de pedido](order-confirmation-module.md)
@@ -91,3 +94,5 @@ Para agregar un módulo de carro a una página nueva y establecer las propiedade
 [Módulo de encabezado](author-header-module.md)
 
 [Módulo de pie de página](author-footer-module.md)
+
+[Calcular la disponibilidad de inventario para canales comerciales](calculated-inventory-retail-channels.md)

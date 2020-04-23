@@ -3,7 +3,7 @@ title: Configurar parámetros de bajas y ausencias
 description: Defina parámetros de recursos humanos para bajas y ausencias en Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2acb8502ebcab122a0a1ff21e9f5e23931026327
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: eb992cbfbed33f88e125d3a8b721f8815414599a
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010449"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197990"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>Configurar parámetros de bajas y ausencias
 
@@ -50,18 +50,25 @@ Antes de configurar planes de bajas y ausencias en Dynamics 365 Human Resources,
 
 7. Seleccione **Guardar**.
 
-## <a name="configure-calendar-parameters"></a>Configurar parámetros de calendario
-
-Si ha habilitado la característica de vista previa del calendario de bajas y ausencias, debe configurar parámetros adicionales. 
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
-
-> [!NOTE]
-> Para la versión de vista previa del 3 de febrero de 2020, solo la opción **Solicitudes de licencias pendientes** está habilitada.
+## <a name="view-and-change-leave-and-absence-parameters"></a>Ver y cambiar parámetros de permisos y ausencias
 
 1. En la página **Bajas y ausencias**, seleccione la pestaña **Vínculos**.
 
-2. En **Configuración**, seleccione **Parámetros de Recursos Humanos**.
+2. En **Configuración**, seleccione **Parámetros de permisos y ausencias**.
+
+3. En la pestaña **General**, establezca los parámetros siguientes:
+ 
+    - Establezca **Unidad de permiso y ausencia** a horas o días. Si es días, puede seleccionar **Habilitar definición de medio día** para permitir a los empleados elegir la primera o segunda mitad del día en sus solicitudes de tiempo libre. 
+
+    - Seleccione **Meses de servicio fecha efectiva** para establecer cuándo entran en vigencia las tasas de acumulación para los planes de permisos que utilizan meses de servicio.
+
+    - Seleccione **Cálculo de saldo** para mostrar los saldos a partir de hoy o del período de acumulación. Si selecciona **Saldo a partir de hoy**, el saldo muestra el total de todas las acumulaciones, ajustes y solicitudes a partir de hoy. Si selecciona **Saldo a partir del período de acumulación**, el saldo muestra el total de todas las acumulaciones, ajustes y solicitudes a partir del período de acumulación definido por la frecuencia en el plan de permisos. 
+
+## <a name="configure-calendar-parameters"></a>Configurar parámetros de calendario
+
+1. En la página **Bajas y ausencias**, seleccione la pestaña **Vínculos**.
+
+2. En **Configuración**, seleccione **Parámetros de permisos y ausencias**.
 
 3. En la pestaña **Calendario**, compruebe la configuración del calendario según sea necesario.
 

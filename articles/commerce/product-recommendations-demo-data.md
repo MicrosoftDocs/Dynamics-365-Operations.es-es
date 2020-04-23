@@ -1,9 +1,9 @@
 ---
 title: Crear recomendaciones con datos de demostración
-description: Este documento ofrece instrucciones acerca de cómo aprovechar las recomendaciones de producto de omnicanal en entornos de un solo cuadro de nivel 1 utilizando datos de demostración personalizables y ya cumplimentados.
+description: Este tema ofrece instrucciones acerca de cómo aprovechar las recomendaciones de producto de omnicanal en entornos de un solo cuadro de nivel 1 utilizando datos de demostración personalizables y ya cumplimentados.
 author: bebeale
 manager: AnnBe
-ms.date: 03/19/20
+ms.date: 03/30/20
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 59cb5e5c9b59ff2127149e3e47b6c30c9c938a27
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: ec23461352abc53b90b6af539a3dd1764e4b5460
+ms.sourcegitcommit: 67cf9e2cf0f75e90526cae6bf176a40156c62a53
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154258"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "3175558"
 ---
 # <a name="create-recommendations-with-demo-data"></a>Crear recomendaciones con datos de demostración
 
 [!include [banner](includes/banner.md)]
 
-Este documento ofrece instrucciones acerca de cómo aprovechar las recomendaciones de producto de omnicanal en entornos de un solo cuadro de nivel 1 utilizando datos de demostración personalizables y ya cumplimentados.
+Este tema ofrece instrucciones acerca de cómo aprovechar las recomendaciones de producto de omnicanal en entornos de un solo cuadro de nivel 1 utilizando datos de demostración personalizables y ya cumplimentados.
 
 Las recomendaciones de producto omnicanal proporcionan un conjunto de listas de productos generadas por programación o de forma dirigida. Estas listas se pueden usar en varias situaciones, en función de la necesidad empresarial. Para obtener más información sobre las listas de recomendaciones del producto, consulte [Información general sobre las recomendaciones del producto](product-recommendations.md).
 
@@ -42,22 +42,23 @@ Para entornos de nivel 1, las recomendaciones de productos solo se basan en dato
 Para habilitar datos de demostración para recomendaciones de productos, tiene que implementar la Extensión de demostración de vista previa de Dynamics 365 Commerce para el entorno respectivo. Hacerlo automáticamente habilita los datos de demostración de recomendaciones de productos.
 
 ## <a name="default-demo-data"></a>Datos de demostración predeterminados
-Cada entorno de tipo Onebox incorpora un conjunto preinstalado de datos de demostración para recomendaciones de productos almacenado en el archivo separado por comas “reco_demo_data.csv”, que se encuentra en Commerce Scale Unit.
+Cada entorno de tipo OneBox incorpora un conjunto preinstalado de datos de demostración para recomendaciones de productos almacenado en el archivo separado por comas “reco_demo_data.csv”, que se encuentra en Commerce Scale Unit.
 
 Los datos se estructuran en las siguientes columnas.
 
-| Nombre de columna         | Obligatorio          | Descripción                                                                                                                                 | Valores posibles                                                              |
+| Nombre columna         | Obligatorio          | Descripción                                                                                                                                 | Valores posibles                                                              |
 |---------------------|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
 | RecoList            | :heavy_check_mark: | El tipo de lista específico de recomendaciones de productos que el punto de datos de demostración va a generar.                                                    | <ul><li>RecoBestSelling</li><li>RecoNew</li><li>RecoTrending</li><li>RecoCart</li><li>RecoPeopleAlsoBuy</li></ul> |
 | OperatingUnitNumber | :heavy_check_mark: | El número de unidad operativa específico donde se espera que aparezcan las recomendaciones de productos.                                        |                                                                              |
 | Categoría            |                    |    La categoría para la que debe devolverse la lista específica. Si no se especifica ninguna categoría, la lista es solo para los primeros elementos de la jerarquía de navegación.    |                                                                              |
 | SeedItemId          |                    |    Para las listas que requieren inicialización (RecoPeopleAlsoBuy y RecoCart), el producto para el que esas listas deben mostrar productos adicionales.            |                                                                              |
+| CustomerId          |                    |    Para listas que requieren un identificador de cliente (RecoPicks).  El valor predeterminado '0' se aplica a todos los clientes.          |                                                                              |
 | ItemIds             | :heavy_check_mark: | Uno o más productos que se devolverán como resultado, separados por signos de punto y coma.                                                                  |                                                                              |
 
 ## <a name="customize-demo-data"></a>Personalizar datos de demostración
-Puede editar los datos predeterminados de prueba con cualquier información de producto y categoría que se configure en la sede. Una vez que se actualice el .csv, las recomendaciones de productos devueltas para los clientes inmediatamente reflejarán los cambios.
+Puede editar los datos predeterminados de prueba con cualquier información de producto y categoría que se configure en la sede. Después de actualizar el .csv, las recomendaciones de productos devueltas para los clientes inmediatamente reflejarán los cambios.
 
-La extensión contiene un archivo de datos denominado 'RecoMockDataset.csv' que le permite controlar el conjunto de datos usado para activar los resultados de las recomendaciones simuladas. El nombre de archivo se puede controlar con la configuración de la extensión mediante la configuración **ext.Recommendations.DemoFilePath**. Esto le permite disponer de varios conjuntos de datos que se pueden intercambiar fácilmente entre ellos a través de la configuración.
+La extensión contiene un archivo de datos denominado "RecoMockDataset.csv", que le permite controlar el conjunto de datos usado para activar los resultados de las recomendaciones simuladas. El nombre de archivo se puede controlar con la configuración de la extensión mediante la configuración **ext.Recommendations.DemoFilePath**. Esto le permite disponer de varios conjuntos de datos que se pueden intercambiar fácilmente entre ellos a través de la configuración.
 
 
 ```xml

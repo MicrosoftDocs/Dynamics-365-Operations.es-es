@@ -2,7 +2,7 @@
 title: Visibilidad sobre excepciones de material
 description: Este tema describe cómo puede obtener una mejor visibilidad en las excepciones para las materias primas para los pedidos de producción y los pedidos por lote.
 author: johanhoffmann
-manager: AnnBe
+manager: tfehr
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgShopSupervisorWorkspace
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c7a5cc4f6c6f430a2ceb9125edb3916fe7b71ab8
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 37d0841b656153255b9230a60229d30064b81fbe
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569808"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3212627"
 ---
 # <a name="visibility-into-material-exceptions"></a>Visibilidad sobre excepciones de material
 

@@ -2,14 +2,14 @@
 title: Espacio de trabajo móvil de inventario disponible
 description: Este tema proporciona información sobre del espacio de trabajo móvil Inventario disponible. Este espacio de trabajo le ayuda a obtener información del inventario reservado y disponible en cualquier momento y en cualquier lugar.
 author: Mirzaab
-manager: AnnBe
+manager: tfehr
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 267094
 ms.assetid: 3fa385ba-894d-4a9e-b394-ef3697abf895
@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: f4f6de139d0399263fa19507d63e9521f489dcbd
-ms.sourcegitcommit: 38ce9f4ef499ad208f2fbbc51bc21b12c67dfa16
+ms.openlocfilehash: 4a41f877816e331351a0950dcdc07ee07f643beb
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "2574808"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3212742"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>Espacio de trabajo móvil de inventario disponible
 
@@ -33,7 +33,7 @@ Este tema proporciona información sobre del espacio de trabajo móvil **Inventa
 
 Este espacio de trabajo móvil se debe usar con la aplicación móvil Finance and Operations.
 
-## <a name="overview"></a>Visión general
+## <a name="overview"></a>Información general
 Por lo general, las empresas tienen múltiples envíos y múltiples recepciones de inventario cada día. Estos movimientos cambian constantemente el estado del inventario disponible. El espacio de trabajo móvil **Inventario disponible** le permite ver el estado de inventario disponible entre empresas, de modo que puede obtener la información más reciente sobre los datos de inventario en el dispositivo móvil que elija. Independientemente de si trabaja en el almacén, compras, ventas, fabricación o administración, o tiene otras funciones, puede tener acceso a los datos de inventario disponible en cualquier momento y en cualquier lugar. 
 
 El espacio de trabajo móvil proporciona una vista inmediata del estado disponible en las instalaciones. Le permite ver el inventario disponible en las instalaciones, las reservas de material actuales y el inventario disponible no reservado. También puede introducir los números de artículo para consultar el inventario disponible y realizar una búsqueda filtrada para los productos o variantes disponibles. 
@@ -96,7 +96,7 @@ Si se ha implementado la actualización de plataforma 3 o posterior en su organi
 
 ## <a name="download-and-install-the-mobile-app"></a>Descargar e instalar la aplicación móvil
 
-Descargue e instale la aplicación móvil Finance and Operations:
+Descargar e instalar la aplicación móvil de Finance and Operations:
 
 -   [Para teléfonos Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Para iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

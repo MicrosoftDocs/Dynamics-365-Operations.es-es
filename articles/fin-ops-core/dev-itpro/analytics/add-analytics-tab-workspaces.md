@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: de85bf52d8e3415549db64501b2435ebd7377fef
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 442557a01b25e13b76074c865dfe5468bbc9fde0
+ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025863"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "3259641"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Agregar análisis a espacios de trabajo mediante Power BI Embedded
 
@@ -84,7 +84,7 @@ Siga estos pasos para extender la definición del formulario para el espacio de 
 8. Haga clic con el botón secundario del mouse y seleccione **Página de nueva pestaña**.
 9. Cambie el nombre de la página de ficha por un nombre con significado, como por ejemplo **Análisis**.
 10. En el diseñador de formularios, seleccione **Análisis (página de pestaña)**.
-11. Establezca la propiedad **Leyenda** en **Análisis**.
+11. Establezca la propiedad **Subtítulo** a **Análisis** y establezca la propiedad **Declaración automática** a **Sí**.
 12. Haga clic con el botón secundario en el control y, a continuación seleccione **Nuevo** \> **Grupo** para agregar un nuevo control de grupo del formulario.
 13. Cambie el nombre del grupo de formulario por un nombre con significado, como por ejemplo **powerBIReportGroup**.
 14. En el diseñador de formularios, seleccione **PanoramaBody (ficha)**, y después arrastre el control a la pestaña **Espacio de trabajo** .

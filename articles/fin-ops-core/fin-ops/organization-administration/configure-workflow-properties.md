@@ -3,7 +3,7 @@ title: Configurar propiedades del flujo de trabajo
 description: Este tema explica cómo configurar las diversas propiedades de un flujo de trabajo.
 author: sericks007
 manager: AnnBe
-ms.date: 07/17/2018
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76d44c472989a73d71c2edd19f1187ecd09827ae
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d745389b37b899760ea32ae75c5cb80d9139be2d
+ms.sourcegitcommit: 1852f08f015acd106f4cefd03fa07985dc009123
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190129"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3199445"
 ---
 # <a name="configure-workflow-properties"></a>Configurar propiedades del flujo de trabajo
 
@@ -75,9 +75,11 @@ Puede proporcionar instrucciones a los usuarios que envían los documentos que s
     5. Para personalizar el texto, puede insertar marcadores de posición. Para obtener instrucciones acerca de cómo agregar un marcador de posición, consulte el paso 3.
     6. Haga clic en **Cerrar**.
 
-## <a name="specify-when-this-workflow-is-used"></a>Especificación de las condiciones en que se usa el flujo de trabajo
+## <a name="specify-when-this-workflow-is-used-through-activation-conditions"></a>Especifique cuándo se usa este flujo de trabajo mediante condiciones de activación
 
-Puede crear varios flujos de trabajo que estén basados en el mismo tipo. Por ejemplo, puede crear un flujo de trabajo de solicitudes de compra para cada país o región en los que opera como, por ejemplo, Solicitudes de compra Dinamarca y Solicitudes de compra España. Cuando existen varios flujos de trabajo basados en el mismo tipo, debe especificar cuándo se usa cada uno. Para el ejemplo anterior, especifique las siguientes condiciones:
+Puede crear varios flujos de trabajo que estén basados en el mismo tipo de flujo de trabajo. Cuando existen varios flujos de trabajo basados en el mismo tipo, debe especificar cuándo se usa cada uno usando condiciones de activación. Si no se cumplen las condiciones de activación, se utiliza el flujo de trabajo predeterminado. De manera similar, si solo hay una configuración de flujo de trabajo definida para un tipo de flujo de trabajo, entonces esa configuración de flujo de trabajo se usará independientemente de las condiciones de activación.
+
+Por ejemplo, puede crear un flujo de trabajo de solicitudes de compra para cada país o región en los que opera como, por ejemplo, Solicitudes de compra Dinamarca y Solicitudes de compra España, con las siguientes condiciones:
 
 - Se usa Solicitudes de compra Dinamarca cuando: país/región = DK
 - Se usa Solicitudes de compra España cuando: país/región = ES

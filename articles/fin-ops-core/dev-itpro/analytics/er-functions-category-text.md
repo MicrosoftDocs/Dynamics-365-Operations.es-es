@@ -3,7 +3,7 @@ title: Lista de funciones ER de la categoría de texto.
 description: Este tema proporciona información sobre las funciones de texto que son compatibles con los informes electrónicos (ER).
 author: NickSelin
 manager: kfend
-ms.date: 12/05/2019
+ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f519d242fe74196b0d12bdc9df4f1b4b0e585752
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: bd4dd7e9a3e1aa448adea5abd0c21b8133f34e3b
+ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916623"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201098"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>Lista de funciones ER de la categoría de texto.
 
@@ -52,7 +52,7 @@ Las funciones de texto de informes electrónicos (ER) se pueden utilizar para re
 | [Reemplazar](er-functions-text-replace.md) | Esta función devuelve la cadena de texto especificada como un valor *Cadena* después de que todo o parte de él haya sido reemplazado por otra cadena. |
 | [Derecho](er-functions-text-right.md) | Esta función devuelve un valor *Cadena* que presenta el número especificado de caracteres desde el final de la cadena especificada. |
 | [Texto](er-functions-text-text.md) | Esta función devuelve el número especificado como un valor *Cadena* después de que se haya convertido en una cadena de texto que se formatea según la configuración regional del servidor de la instancia actual de la aplicación. |
-| [Traducir](er-functions-text-translate.md) | Esta función devuelve la cadena de texto especificada como un valor *Cadena* después de que todo o parte de él haya sido reemplazado por otra cadena. |
+| [Traducir](er-functions-text-translate.md) | Esta función devuelve un valor *Cadena* que contiene el resultado del reemplazo de caracteres del texto especificado en caracteres de otro conjunto proporcionado de caracteres. |
 | [Trim](er-functions-text-trim.md) | Esta función devuelve la cadena de texto especificada como un valor *Cadena* después de haber truncado los espacios principales y finales, y después de haber quitado múltiples espacios entre palabras. |
 | [Upper](er-functions-text-upper.md) | Esta función devuelve la cadena de texto especificada como un valor *Cadena* después de que se haya convertido a letras mayúsculas. |
 

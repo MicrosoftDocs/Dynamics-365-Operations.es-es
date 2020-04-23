@@ -2,7 +2,7 @@
 title: Agregar variantes de productos a pedidos de compra con variantes de peso
 description: Este procedimiento le guía por los pasos para el uso de pesos de variante con el fin de rellenar automáticamente las líneas de pedido de compra para cada variante de un producto.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 11/14/2016
 ms.topic: business-process
 ms.prod: ''
@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ae45dc0ed5332242a12efbb7f8ca37f97a244cce
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: 0199f4b05c23eec5c03c770c37111a6ee6d13efe
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3147995"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3208395"
 ---
 # <a name="add-variant-products-to-purchase-orders-using-variant-weights"></a>Agregar variantes de productos a pedidos de compra con variantes de peso
 

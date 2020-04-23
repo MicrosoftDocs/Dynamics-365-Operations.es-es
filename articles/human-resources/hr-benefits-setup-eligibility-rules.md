@@ -3,7 +3,7 @@ title: Configurar reglas y opciones de idoneidad
 description: Establezca reglas y opciones de idoneidad en la administración de prestaciones en Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 448156a2428e99d8b95de547cb6f1621d49b1c7b
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 07dd8a6ca7edb460769f761950dc0c143112f708
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010529"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229910"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Configurar reglas y opciones de idoneidad
-
-[!include [banner](includes/preview-feature.md)]
 
 Después de configurar los parámetros necesarios para la administración de prestaciones en Microsoft Dynamics 365 Human Resources, puede crear reglas de idoneidad, paquetes, periodos y programas que asociará con sus planes de prestaciones.
 
@@ -57,6 +55,7 @@ Durante la inscripción abierta, los empleados pueden seleccionar planes de pres
    | **Categoría laboral** | La categoría de empleo del empleado si **Usar categoría de empleo** se establece en **Sí**. |
    | **Usar nueva regla de contratación** | Especifica si se debe usar el valor del periodo de nueva contratación del nuevo empleado como parte de la regla de idoneidad de prestaciones. |
    | **Período de inscripción** | El periodo de tiempo en que se permite la inscripción de nuevos empleados. Si también configura esto en los parámetros, la configuración de los parámetros tiene prioridad sobre este. |
+   | **Usar situación laboral anterior** | Especifica si se usa el estado de empleo previo de un empleado como parte de la regla de idoneidad para prestaciones. Por ejemplo, puede especificar una regla de elegibilidad que exima un período de espera de cobertura para todos los empleados que hayan pasado de un estado **Despedido** a un estado **Empleado** dentro de los 90 días de su empleo anterior. |
 
 4. En **Criterios adicionales**, seleccione las siguientes opciones y agregue información según sea necesario:
 

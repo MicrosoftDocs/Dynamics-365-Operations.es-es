@@ -2,7 +2,7 @@
 title: Visión general de los planes maestros
 description: Utilice varios planes maestros para dar soporte a las operaciones de trabajo diarias de la empresa, simular distintas estrategias de planificación que desee supervisar e implementar una directiva empresarial, como una directiva sobre rendimiento interno o la satisfacción del cliente.
 author: roxanadiaconu
-manager: AnnBe
+manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqParameters, ReqPlanSched
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 7911
 ms.assetid: a116b7de-3d6d-4321-87ba-5a5d99c2f64e
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6a3fa16e0eeb4c392a80cc16cff004cf3765bd12
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 56c9c3f910c5c5386cdab25566b43198288eb419
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865433"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3213547"
 ---
 # <a name="master-plans-overview"></a>Visión general de los planes maestros
 

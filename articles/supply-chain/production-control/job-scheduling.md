@@ -2,7 +2,7 @@
 title: Programación de trabajos
 description: Este artículo proporciona información acerca de la programación de trabajos, que es un formulario más detallado de programación que la programación de operaciones. Puede utilizar una programación de trabajos para programar trabajos o pedidos de tienda y controlar el entorno de fabricación.
 author: ChristianRytt
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProdSchedule
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 19431
 ms.assetid: aef37341-91d8-4263-80eb-35d9584be156
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d506a6fbeb7e88dc6b1709203bc0822b1f4dc0f8
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: bff966a68001d479b8631e13caa18c9ec8d2bf4c
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563029"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3211500"
 ---
 # <a name="job-scheduling"></a>Programación de trabajos
 

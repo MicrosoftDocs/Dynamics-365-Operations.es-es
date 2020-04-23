@@ -3,7 +3,7 @@ title: Configurar un perfil de notificación por correo electrónico
 description: Este tema describe cómo crear un perfil de notificación por correo electrónico en Microsoft Dynamics 365 Commerce.
 author: samjarawan
 manager: annbe
-ms.date: 01/27/2020
+ms.date: 03/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9e5d90eaf1815bbe54b0bea40d92a0a993a23b75
-ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
+ms.openlocfilehash: c0ab56c15a37313d0a88b1174d5bcf51d391dcec
+ms.sourcegitcommit: 17ffdcbf4b1801bd6ee9c9ddc18622d5d04b8a98
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "3113814"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3180204"
 ---
 # <a name="set-up-an-email-notification-profile"></a>Configurar un perfil de notificación por correo electrónico
 
@@ -82,11 +82,16 @@ La siguiente imagen muestra algunos ejemplos de configuración de notificaciones
 
 ![Configuración de notificación de evento](media/email-notification-profile.png)
 
+### <a name="next-steps"></a>Pasos siguientes
+
+Antes de poder enviar correos, debe configurar su servicio de correo saliente y configurar un trabajo por lotes. Para obtener más información, consulte [Configurar y enviar correo electrónico](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json).
+
+
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Configurar y enviar correo electrónico](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json)
 
-[Resumen de canales](channels-overview.md)
+[Visión general de canales](channels-overview.md)
 
 [Requisitos previos de configuración de canales](channels-prerequisites.md)
 

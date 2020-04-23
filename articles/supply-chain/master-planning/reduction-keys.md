@@ -2,15 +2,15 @@
 title: Previsión de las claves de reducción
 description: Este tema proporciona ejemplos que muestran cómo configurar una clave de reducción. Incluye información sobre los distintos ajustes de la clave de reducción y los resultados de cada uno. Puede usar una clave de reducción para definir cómo reducir los requisitos de previsión.
 author: roxanadiaconu
-manager: AnnBe
-ms.date: 07/09/2019
+manager: tfehr
+ms.date: 04/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqPlanSched
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 19251
 ms.assetid: aa9e0dfb-6052-4a2e-9378-89507c02fdf2
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11d5613f23805993b2a83d007c818c80de6a4b9b
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 25cdde073878ed090a4d981eff75a337a79b37af
+ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814292"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "3225114"
 ---
 # <a name="forecast-reduction-keys"></a>Previsión de las claves de reducción
 
@@ -34,7 +34,7 @@ Este tema proporciona información sobre los distintos métodos que se usan para
 
 ## <a name="methods-that-are-used-to-reduce-forecast-requirements"></a>Los métodos que se usan para reducir los requisitos de previsión
 
-Cuando incluye una previsión en un plan maestro, puede seleccionar cómo se reducen los requisitos de previsión cuando la demanda real es incluida.
+Cuando incluye una previsión en un plan maestro, puede seleccionar cómo se reducen los requisitos de previsión cuando la demanda real es incluida. Tenga en cuenta que la planificación maestra excluye los requisitos de pronóstico del pasado, lo que significa todos los requisitos de pronóstico antes de la fecha de hoy.
 
 Para incluir una previsión en un plan maestro y seleccionar el método que se usa para reducir los requisitos de previsión, vaya a **Planificación maestra \> Configuración \> Planes \> Planes maestros**. En el campo **Modelo de previsión** seleccione un modelo de previsión. En el campo **Método utilizado para reducir los requisitos de previsión**, seleccione un método. Las opciones siguientes están disponibles:
 

@@ -2,7 +2,7 @@
 title: Informe de orden de trabajo
 description: En este tema se describen los informes de órdenes de trabajo en Administración de activos.
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6eb5c5156898fc826376ae35745ff4a7451d00c6
-ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
+ms.openlocfilehash: d3719a533ef9861514f71ce98d5a9f080c29fb17
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2626394"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3206067"
 ---
 # <a name="work-order-report"></a>Informe de orden de trabajo
 

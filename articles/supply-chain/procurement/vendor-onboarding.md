@@ -2,7 +2,7 @@
 title: Incorporación de proveedores
 description: En este tema se describe el proceso para incorporación de nuevos proveedores. Explica las acciones que requieren para varios roles durante este proceso.
 author: mkirknel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests,SysUserRequestListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: b1290617cc691f88f517a4f3cae5c20668173b0d
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: a7168f9042bae561eb46ecdc8eea377862af8df0
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250170"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3203420"
 ---
 # <a name="onboard-vendors"></a>Incorporación de proveedores
 [!include [banner](../includes/banner.md)]
@@ -48,7 +48,7 @@ En la tabla siguiente muestran los pasos y los roles que están involucrados en 
 | Administrador            | | | Cree un usuario en Supply Chain Management y Microsoft Azure. | | | |
 | Persona de contacto del proveedor    | | | Enviar correo electrónico a la persona de contacto. | Registrar la información del proveedor. | | |
 
-Para ver una demostración rápida del proceso de integración del proveedor, vea este vídeo corto de YouTube sobre [Cómo Integrar a un nuevo proveedor Finance and Operations](https://www.youtube.com/watch?v=0KUc3AGaTKk).
+Para obtener una demostración rápida del proceso de incorporación de proveedores, vea este breve vídeo de YouTube: [Integrar a un nuevo proveedor en Finance and Operations](https://www.youtube.com/watch?v=0KUc3AGaTKk).
 
 ## <a name="importing-the-prospective-vendor-registration-request"></a>Importar la solicitud de registro del proveedor potencial
 

@@ -3,7 +3,7 @@ title: Funciones quitadas u obsoletas de versiones anteriores
 description: Este tema describe las características que se eliminaron o que se planearon eliminar de Dynamics 365 for Finance and Operations y versiones anteriores de ese producto.
 author: sericks007
 manager: AnnBe
-ms.date: 03/05/2020
+ms.date: 04/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2e079f1eb43d46acdc39819ae81e0472bba6aa1
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: c1aade5d1272e069c1c2e3470363ffd7d5fc3cdc
+ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124575"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "3225137"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Funciones quitadas u obsoletas de versiones anteriores
 
@@ -263,11 +263,11 @@ Los indicadores de rendimiento clave incrustados (KPIs) podrían ser modelados e
 
 |   |  |
 |------------|--------------------|
-| **Motivo de la depreciación/eliminación** | Es posible que las definiciones de metadatos de la tabla tengan grupos de campos que contienen referencias no válidas del campo. Este problema se categoriza actualmente como *advertencia del compilador* en lugar de *error*, lo que significa que la creación y la implementación de paquete desplegable puede continuar sin corregirse el problema. Si se implementa, esto puede provocar errores del tiempo de ejecución en Financial Reporting y SQL Server Reporting Services (SSRS). Para solucionar este problema:<br><br>1. Quite la referencia de campo no válida de la definición del grupo de campos de tabla.<br><br>2. Vuelva a compilar.<br><br>3. Asegúrese de que las advertencias o los errores se abordan. |
-| **¿Reemplazado por otra característica?**   | Esta advertencia se reemplazará por un error de compilación en el futuro.  |
-| **Áreas de producto afectadas**         | Herramientas de desarrollo de Visual Studio. |
-| **Opción de implementación**              | Todos. |
-| **Estado**                         | En desuso: la advertencia se convertirá en un error de tiempo de compilación en el futuro. Actualmente tomamos como objetivo la actualización 30 de la plataforma. |
+| **Motivo de la depreciación/eliminación** | Es posible que las definiciones de metadatos de la tabla tengan grupos de campos que contienen referencias no válidas del campo. Si se implementa, esto puede provocar errores del tiempo de ejecución en Financial Reporting y SQL Server Reporting Services (SSRS). Este problema se categoriza actualmente como *advertencia del compilador* en lugar de *error*, lo que significa que la creación y la implementación de paquete desplegable puede continuar sin corregirse el problema. Para solucionar este problema:<br><br>1. Quite la referencia de campo no válida de la definición del grupo de campos de tabla.<br><br>2. Vuelva a compilar.<br><br>3. Asegúrese de que las advertencias o los errores se abordan. |
+| **¿Reemplazado por otra característica?**   | Esta advertencia se reemplazará por un error de compilación en el futuro. |
+| **Áreas de producto afectadas**         | Herramientas de desarrollo de Visual Studio |
+| **Opción de implementación**              | Todos |
+| **Estado**                         | En desuso: la advertencia se convertirá en un error de tiempo de compilación en el futuro. Este cambio está dirigido con actualizaciones de plataforma para la versión 10.0.11 de aplicaciones Finance and Operations. |
 
 #### <a name="complete-list"></a>Lista completa
 Para obtener acceso a la lista completa de API que se están dejando de utilizar, consulte [Deprecación de métodos y elementos de metadatos](deprecation-deletion-apis.md).

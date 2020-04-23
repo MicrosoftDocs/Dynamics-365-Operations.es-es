@@ -3,7 +3,7 @@ title: Funcionalidad de cuadrícula
 description: Este tema describe varias características potentes del control de cuadrícula. La nueva función de cuadrícula debe estar habilitada para tener acceso a estas capacidades.
 author: jasongre
 manager: AnnBe
-ms.date: 02/10/2020
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7136edba828bf97b6e0c8d2a698b884640d680e5
-ms.sourcegitcommit: 880f617d1d6e95eccbed762c7ea04398553c2ec0
+ms.openlocfilehash: 0fd0e15ea88e9f5f34d8dff82606a8d26616a16d
+ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "3036274"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3260469"
 ---
 # <a name="grid-capabilities"></a>Funcionalidad de cuadrícula
 
@@ -90,4 +90,23 @@ Para deshacer la agrupación en una cuadrícula, haga clic derecho en la columna
 ## <a name="evaluating-math-expressions"></a>Evaluar expresiones matemáticas
 Como un refuerzo de productividad, los usuarios pueden introducir fórmulas matemáticas en celdas numéricas en una cuadrícula. No tienen que hacer el cálculo en una aplicación fuera del sistema. Por ejemplo, si introduce **= 15\*4** y después pulsa la tecla **Tab** para salir del campo, el sistema evaluará la expresión y guardará un valor de **60** para el campo.
 
-Para que el sistema reconozca un valor como una expresión, comience el valor con un signo igual (**=**). Para obtener más detalles sobre los operadores y la sintaxis compatibles, vea [Símbolos matemáticos admitidos](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).  
+Para que el sistema reconozca un valor como una expresión, comience el valor con un signo igual (**=**). Para obtener más información sobre los operadores y la sintaxis compatibles, vea [Símbolos matemáticos admitidos](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
+
+## <a name="frequently-asked-questions"></a>Preguntas frecuentes
+### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>¿Cómo habilito el nuevo control de cuadrícula en mi entorno? 
+
+**10.0.9 / Platform update 33 y posteriores** La característica **Nuevo control de cuadrícula** está disponible directamente en Administración de características en cualquier entorno. Al igual que otras características de vista previa pública, la habilitación de esta característica en producción está sujeta a [Acuerdo de términos de uso complementarios](https://go.microsoft.com/fwlink/?linkid=2105274).  
+
+**10.0.8 / Platform update 32 y 10.0.7 / Platform update 31** La característica **Nuevo control de cuadrícula** se puede habilitar en entornos de Nivel 1 (desarrollo/prueba) y Nivel 2 (espacio aislado) para proporcionar pruebas adicionales y cambios de diseño siguiendo los pasos siguientes.
+
+1.  **Habilite el tramo**: ejecute la instrucción SQL siguiente: 
+
+    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('CLIReactGridEnableFeature', 1, 0, 5637144576);`
+
+2. **Restablecer IIS** para vaciar la memoria caché estática de la distribución de paquetes piloto. 
+
+3.  **Encontrar la característica**: vaya al espacio de trabajo **Administración de características**. Si **Nuevo control de cuadrícula** no aparece en la lista de todas las funciones, seleccione **Buscar actualizaciones**.   
+
+4.  **Habilitar la característica**: encuentre la característica **Nuevo control de cuadrícula** en la lista de características y seleccione **Habilitar ahora** en el panel de detalles. Tenga en cuenta que se requiere una actualización del navegador. 
+
+Todas las sesiones de usuario posteriores comenzarán con el nuevo control de cuadrícula habilitado.

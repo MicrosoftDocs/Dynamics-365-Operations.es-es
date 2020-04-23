@@ -2,7 +2,7 @@
 title: Crear órdenes de trabajo a partir de solicitudes de mantenimiento
 description: En este tema se explica cómo crear una orden de trabajo a partir de una solicitud de mantenimiento en Administración de activos.
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c42f259a57675c3dbac829d6d671e91982ef9011
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: b6bd98796140ab7aa3e7813ff1526413504554c5
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571700"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3205216"
 ---
 # <a name="create-work-orders-from-maintenance-requests"></a>Crear órdenes de trabajo a partir de solicitudes de mantenimiento
 

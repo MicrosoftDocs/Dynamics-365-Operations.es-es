@@ -3,7 +3,7 @@ title: Personalizar la experiencia del usuario
 description: Este tema explica cómo puede personalizar la aplicación.
 author: jasongre
 manager: AnnBe
-ms.date: 02/05/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c745248a0c7e54b58b1d3e491f3bbb067ec0e2c2
-ms.sourcegitcommit: d8a2301eda0e5d0a6244ebbbe4459ab6caa88a95
+ms.openlocfilehash: d0a995d25cfc5e78cc76dd73ddea2fb8bd904328
+ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "3029371"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3260515"
 ---
 # <a name="personalize-the-user-experience"></a>Personalizar la experiencia del usuario
 
@@ -80,15 +80,16 @@ Algunos de los cambios más habituales y más importantes que se pueden realizar
 
 Además, los tipos más básicos de personalización explícita están disponibles haciendo clic con el botón secundario en un elemento y después seleccionando **Personalizar**. (Tenga en cuenta que no todos los elementos en su página se pueden personalizar.) Si usa este método de personalización, aparecerá la ventana de la propiedad del elemento.
 
-![Personalización de las propiedades de un elemento](./media/personalization-element-properties.png)
+![Personalización de las propiedades de un elemento](./media/cli-element-property-window.png)
 
 Puede usar la ventana de propiedad para personalizar un elemento de las siguientes formas:
 
 - Cambiar la etiqueta del elemento.
 - Ocultar el elemento para que no se muestre en la página. Los datos del campo no se eliminan ni se modifican. La información simplemente deja de aparecer en la página.
 - Incluir la información en la sección de resumen de la ficha desplegable (si el artículo se encuentra en una ficha desplegable).
-- Omitir el campo, de modo que nunca reciba el enfoque cuando se desplace por la página.
+- Omitir el campo de modo que nunca reciba el enfoque cuando se desplace por la página.
 - Evitar que los datos en el campo (de cualquier registro) se editen.
+- Designe un campo para que sea necesario para la entrada de datos. Si no se ha introducido ningún valor en este campo, aparecerá con un borde rojo y un asterisco para indicar este estado. Esta opción solo está disponible a partir de la versión 10.0.11 cuando las características [Vistas guardadas](saved-views.md) y **Designar campos según sea necesario utilizando personalización** están habilitadas.
 
 La ventana de la propiedad puede incluir otras capacidades de personalización, en función del elemento. Por ejemplo, la ventana de propiedad de un mosaico puede permitirle ascender ese mosaico a un panel, y la ventana de la propiedad de un panel puede dejarle crear una nueva área de trabajo en el panel.
 
@@ -116,6 +117,7 @@ Las siguientes herramientas están disponibles en la barra de herramientas **Per
 - Elija la herramienta **Mover** si desea mover un elemento a otra ubicación dentro del grupo actual de elementos. Tenga en cuenta que no puede mover un elemento fuera del grupo principal. Para utilizar esta herramienta, seleccione el botón **Mover** en la barra de herramientas, y seleccione el artículo que desea mover. Al seleccionar un elemento, la aplicación determina las ubicaciones adónde se puede mover el elemento. Estas ubicaciones se conocen como *zonas de colocación*. Mientras arrastra el elemento dentro del grupo actual, todas las zonas de colocación se muestran como una línea en color y negrita junto al área donde el elemento se puede colocar.
 - Use la herramienta **Omitir** para quitar un elemento de la secuencia del tabulador del teclado de la página. Al seleccionar el botón **Omitir** de la barra de herramientas, todos los elementos que se omiten se muestran en un contenedor sombreado. Puede agregar o quitar interactivamente campos de la secuencia de fichas.
 - Utilice la herramienta **Mostrar en encabezado** cuando desee que aparezca un campo en la sección de resumen de la ficha desplegable. Al seleccionar el botón **Mostrar en encabezado** en la barra de herramientas, todos los campos que se seleccionan como campos de resumen se muestran en un contenedor sombreado. Puede agregar interactivamente campos al resumen de ficha desplegable y quitar campos seleccionando los campos.
+- Use la herramienta **Obligatorio** para designar un elemento como obligatorio para la entrada de datos. Al seleccionar el botón **Obligatorio** de la barra de herramientas, todos los elementos que se han personalizado para ser obligatorios se muestran en un contenedor sombreado. Puede hacer que vuelvan a ser no obligatorios. Esta opción solo está disponible en una versión futura cuando las características [Vistas guardadas](saved-views.md) y **Designar campos según sea necesario utilizando personalización** estén habilitadas.
 - Elija la herramienta **Bloquear** para marcar un elemento como editable o no editable. Al seleccionar el botón **Bloquear** de la barra de herramientas, todos los elementos que no se pueden editar en ese momento se muestran en un contenedor sombreado. A continuación puede hacer que vuelvan a ser editables. Tenga en cuenta que algunos campos son necesarios y no se pueden convertir en no editables. Un símbolo de candado aparece junto a dichos campos.
 - Utilice el botón **Agregar una aplicación desde Power Apps** para insertar una aplicación que se creó usando Microsoft Power Apps en la página. Para obtener información detallada acerca de cómo insertar una aplicación de Power Apps en una página, consulte [Integrar aplicaciones desde Power Apps](embed-power-apps.md). Esta opción solo está disponible cuando la característica [Vistas guardadas](saved-views.md) está deshabilitada.  
 - Utilice el botón **Agregar una aplicación** para insertar una aplicación, ya sea una creada desde Microsoft Power Apps o un tercero, en la página. Esta opción solo está disponible cuando la característica [Vistas guardadas](saved-views.md) está habilitada. 

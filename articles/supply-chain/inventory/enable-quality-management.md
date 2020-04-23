@@ -2,7 +2,7 @@
 title: Visión general de la gestión de la calidad
 description: Este tema describe cómo puede usar la gestión de calidad en Dynamics 365 Supply Chain Management para ayudar a mejorar la calidad del producto dentro de la cadena de suministro.
 author: perlynne
-manager: AnnBe
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventTestAssociationTable, InventTestGroup, InventTestItemQualityGroup, InventTestTable, InventTestVariable, InventTestVariableOutcome
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c2d51c659d9d06f075458359d81de978e7a6d14b
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 9b090450c6b39607f9661667f8063998bbe5ff52
+ms.sourcegitcommit: c79062ba89498aa3fe3d86e478d9f32484f5f6dc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814407"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "3224918"
 ---
 # <a name="quality-management-overview"></a>Visión general de la gestión de la calidad
 
@@ -302,122 +302,6 @@ En la compra, si establece el campo **Tipo de evento** en **Recepción de produc
 
 - Si la opción **Por cantidad actualizada** se establece en **Sí**, un pedido de calidad se genera para cada recepción con el pedido de compra, en función de la cantidad y los valores recibidos en el muestreo de artículos. Cada vez que una cantidad se reciba contra el pedido de compra, los nuevos pedidos de calidad se generan en función de la cantidad recién recibida.
 - Si la opción **Por cantidad actualizada** se establece en **No**, un pedido de calidad se genera para la primera recepción con el pedido de compra, en función de la cantidad recibida. Además, uno o más pedidos de calidad se crean en función de la cantidad restante, en función de las dimensiones de seguimiento. Los pedidos de calidad no se generan para las recepciones posteriores con el pedido de compra.
-
-<table>
-<tbody>
-<tr>
-<th>Especificación de calidad</th>
-<th>Por cantidad actualizada</th>
-<th>Por dimensión de seguimiento</th>
-<th>Resultado</th>
-</tr>
-<tr>
-<td>Porcentaje: 10 %</td>
-<td>Sí</td>
-<td>
-<p>Número de lote: No</p>
-<p>Número de serie: No</p>
-</td>
-<td>
-<p>Cantidad de pedido: 100</p>
-<ol>
-<li>Notificar como terminado para 30
-<ul>
-<li>Pedido de calidad #1 para 3 (10 % de 30)</li>
-</ul>
-</li>
-<li>Notificar como terminado para 70
-<ul>
-<li>Pedido de calidad #2 para 7 (10% de la cantidad de pedido restantes, que es igual a 70 en este caso)</li>
-</ul>
-</li>
-</ol>
-</td>
-</tr>
-<tr>
-<td>Cantidad fija: 1</td>
-<td>No</td>
-<td>
-<p>Número de lote: No</p>
-<p>Número de serie: No</p>
-</td>
-<td>Cantidad de pedido: 100
-<ol>
-<li>Notificar como terminado para 30
-<ul>
-<li>El pedido de calidad #1 se crea para 1 (para la primera cantidad notificada como terminada, que tiene un valor fijo de 1).</li>
-<li>No se crean más de pedidos de calidad con la cantidad restante.</li>
-</ul>
-</li>
-<li>Notificar como terminado para 10
-<ul>
-<li>No se crea ningún pedido de calidad.</li>
-</ul>
-</li>
-<li>Notificar como terminado para 60
-<ul>
-<li>No se crea ningún pedido de calidad.</li>
-</ul>
-</li>
-</ol>
-</td>
-</tr>
-<tr>
-<td>Cantidad fija: 1</td>
-<td>Sí</td>
-<td>
-<p>Número de lote: Sí</p>
-<p>Número de serie: Sí</p>
-</td>
-<td>
-<p>Cantidad de pedido: 10</p>
-<ol>
-<li>Notificar como terminado para 3
-<ul>
-<li>Pedido de calidad #1 para 1 del lote #b1, serie #s1</li>
-<li>Pedido de calidad #2 para 1 del lote #b2, serie #s2</li>
-<li>Pedido de calidad #3 para 1 del lote #b3, serie #s3</li>
-</ul>
-</li>
-<li>Notificar como terminado para 2
-<ul>
-<li>Pedido de calidad #4 para 1 del lote #b4, serie #s4</li>
-<li>Pedido de calidad #5 para 1 del lote #b5, serie #s5</li>
-</ul>
-</li>
-</ol>
-<p><strong>Nota:</strong> El lote se puede volver a utilizar.</p>
-</td>
-</tr>
-<tr>
-<td>Cantidad fija: 2</td>
-<td>No</td>
-<td>
-<p>Número de lote: Sí</p>
-<p>Número de serie: Sí</p>
-</td>
-<td>
-<p>Cantidad de pedido: 10</p>
-<ol>
-<li>Notificar como terminado para 4
-<ul>
-<li>Pedido de calidad #1 para 1 del lote #b1, serie #s1.</li>
-<li>Pedido de calidad #2 para 1 del lote #b2, serie #s2.</li>
-<li>Pedido de calidad #3 para 1 del lote #b3, serie #s3.</li>
-<li>Pedido de calidad #4 para 1 del lote #b4, serie #s4.</li>
-<li>No se crean más de pedidos de calidad con la cantidad restante.</li>
-</ul>
-</li>
-<li>Notificar como terminado para 6
-<ul>
-<li>No se crea ningún pedido de calidad.</li>
-</ul>
-</li>
-</ol>
-</td>
-</tr>
-</tbody>
-</table>
 
 ### <a name="production"></a>Producción
 

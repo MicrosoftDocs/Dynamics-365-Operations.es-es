@@ -2,7 +2,7 @@
 title: Creación masiva de presupuestos de ventas
 description: Este procedimiento muestra cómo crear de manera eficaz presupuestos que ofrecen un conjunto de productos o servicios que se deben enviar a varios clientes.
 author: omulvad
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesQuotationTemplateGroup, SalesQuotationListPage, SalesCreateQuotation, SalesQuotationTable, SysQueryForm
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 77f7a2df813eb0bf211b72646c1e99306fdf3f88
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: a1a9c7235f37ccdedc87ce70d3846443f645c0fe
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3148616"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3211891"
 ---
 # <a name="mass-create-sales-quotations"></a>Creación masiva de presupuestos de ventas
 

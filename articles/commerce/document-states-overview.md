@@ -3,7 +3,7 @@ title: Estados y ciclo de vida de documentos
 description: En este tema se tratan los diversos estados de documentos de elementos de página en Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b4f1c462f734b2d58843308f0f877fe18a4d9af7
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 4a00f1c363e5ecb0e3e64637a8f487c48df2df72
+ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002990"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3261522"
 ---
 # <a name="document-states-and-lifecycle"></a>Estados y ciclo de vida de documentos
 
@@ -37,13 +37,13 @@ El tema [Elementos de página](page-elements-overview.md) muestra diversos tipos
 
 En la tabla siguiente se muestran los posibles estados de documentos de elementos de página en Commerce.
 
-| Estado del documento | Descripción |
-|---|---|
-| Desprotegido | Si un artículo de CMS se desprotege para usted, no lo podrán editar otros usuarios del sistema autenticados. Los cambios que realice al artículo solo serán visibles para usted. |
-| Protegido | Cuando se protege un artículo de CMS, todos los cambios son visibles para otros usuarios del sistema autenticados y dichos usuarios pueden desproteger a continuación el artículo y editarlo. Cada protección crea un registro de versión de documento en el historial del artículo. |
-| Publicada | Cuando se publica un artículo de CMS, se envía a su sitio activo y usuarios externos no autenticados pueden detectarlo en Internet. Los artículos se pueden publicar solo si se han protegido. |
-| Guardado | Los cambios realizados en un artículo de CMS desprotegido se pueden guardar en el CMS antes de que el artículo se proteja o se publique. Estos cambios guardados no son visibles para otros usuarios del sistema autenticados hasta que el artículo se protege. No están visibles para usuarios externos hasta que se publica el artículo. |
-| Desprotección descartada | Cuando se descarta un artículo de CMS desprotegido, se eliminan todos los cambios guardados y el artículo se revierte a la versión que se protegió más recientemente. |
+| Estado del documento      | Acción generador de sitios        | Descripción                                                  |
+| ------------------- | -------------------------- | ------------------------------------------------------------ |
+| Comprado         | Seleccione **Editar**.           | El documento correspondiente se le ha retirado. Mientras un documento está en este estado, no puede ser modificado por otros usuarios autenticados del sistema y cualquier cambio que realice en el documento será visible solo para usted. |
+| Guardado               | Seleccione **Guardar**.           | Los cambios que se han realizado en un documento desprotegido se guardan en la base de datos, pero el documento aún no se ha registrado ni publicado. Los cambios guardados no son visibles para otros usuarios del sistema autenticados hasta que el autor selecciona **Finalizar edición**. No están visibles para usuarios externos hasta que se publica el artículo. |
+| Desprotección descartada | Seleccione **Descartar ediciones**.  | Todos los cambios en el documento desprotegido se descartan y el elemento vuelve a la última versión que se registró. |
+| Entrada registrada          | Seleccione **Finalizar edición**. | El documento editado está registrado. Todos los cambios son visibles para otros usuarios del sistema autenticados, y esos usuarios pueden editar el documento. Cada protección crea un registro de versión de documento en el historial del artículo. |
+| Publicadas           | Seleccione **Publicar**.        | El documento se publica y los cambios se envían a su sitio en vivo y los usuarios externos pueden descubrirlos. Los elementos solo se pueden publicar si se registraron primero seleccionando **Finalizar edición**. |
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

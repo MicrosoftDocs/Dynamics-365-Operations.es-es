@@ -2,14 +2,14 @@
 title: Visión general de ventas y marketing
 description: Puede usar Ventas y marketing para obtener, almacenar y usar distintos tipos de datos en el flujo de ventas. Estos datos incluyen la iniciativa de venta original, la acción de seguimiento futura y las ventas adicionales.
 author: kfend
-manager: AnnBe
+manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 92303
 ms.assetid: 65ca9992-bbfa-4224-bf0e-067a25c7e6a4
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5d55dfe26cd298372701aeb98a6aafc49977f381
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f03db7f830d0b7efa4ba32b9e194a4e3a65266e8
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248640"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3216192"
 ---
 # <a name="sales-and-marketing-overview"></a>Visión general de ventas y marketing
 

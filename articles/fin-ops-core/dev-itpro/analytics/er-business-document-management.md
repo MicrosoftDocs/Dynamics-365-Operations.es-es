@@ -3,7 +3,7 @@ title: Visión general de la gestión de documentos empresariales
 description: Este tema proporciona información acerca de cómo utilizar la característica de gestión de documentos empresarial del marco de ER.
 author: NickSelin
 manager: AnnBe
-ms.date: 01/15/2020
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 11db3ee1e9407febce7731d0888e7a10375a90da
-ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
+ms.openlocfilehash: 5a57b96387ca5746a30b2e438d6b5f0ce3040f54
+ms.sourcegitcommit: 728cd7f723ee821337eee315a27977e99a44d9d3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "3117346"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "3258566"
 ---
 # <a name="business-document-management-overview"></a>Visión general de la gestión de documentos empresariales
 
@@ -248,9 +248,18 @@ Use el procedimiento siguiente para editar plantillas de facturas de servicios e
 1. Inicie sesión como usuario con acceso al espacio de trabajo de administración de documentos empresariales.
 2. Abra el espacio de trabajo de la gestión de documentos empresariales.
 
+Cuando la función **Experiencia de UI similar a la de la oficina para la gestión de documentos empresariales** está desactivada en el espacio de trabajo **Gestión de funciones**, la cuadrícula principal en el espacio de trabajo **Gestión de documentos empresariales** muestra las siguientes plantillas:
+
+- Plantillas que son propiedad de su proveedor de configuración de ER (es decir, el proveedor que actualmente está marcado como activo en el espacio de trabajo **Informes electrónicos**). Después de seleccionar una de estas plantillas, puede seleccionar **Editar plantilla** para comenzar o continuar editándola.
+- Plantillas que son propiedad de otros proveedores de configuración de ER. Después de seleccionar una de estas plantillas, puede seleccionar **Nuevo documento** para crear una copia que sea propiedad de su proveedor de configuración de ER y luego empezar a editar la copia.
+
 ![Página del espacio de trabajo de la gestión de documentos empresariales](./media/BDM-Overview-EditingTemplate1.png)
 
 La pestaña **Plantilla** muestra el contenido de la plantilla seleccionada. Seleccione la pestaña **Detalles** para revisar los detalles de la plantilla seleccionada así como los detalles de una configuración del formato de ER donde resida esta plantilla. Observe que todas las plantillas tienen un estado de **Publicada**, y no contienen detalles en la columna **Revisión**. Esto significa que estas plantillas no se están editando actualmente.
+
+Cuando la función **Experiencia de UI similar a la de la oficina para la gestión de documentos empresariales** está activada en el espacio de trabajo **Gestión de funciones**, la cuadrícula principal en el espacio de trabajo **Gestión de documentos empresariales** muestra plantillas que son propiedad de su proveedor de configuración de ER (es decir, el proveedor que actualmente está marcado como activo en el espacio de trabajo **Informes electrónicos**). Después de seleccionar una de estas plantillas, puede seleccionar **Editar plantilla** para comenzar o continuar editándola.
+
+Para trabajar con plantillas que son propiedad de otros proveedores de configuración de ER, seleccione **Nuevo documento** para crear una copia de la plantilla que pertenece a su proveedor de ER. Entonces podrá empezar a editar la copia. Para más información, vea [Nueva interfaz de usuario de documentos en la Administración de documentos empresariales](er-business-document-management-new-template-ui.md).
 
 ### <a name="initiate-editing-templates-owned-by-your-configuration-provider"></a>Comenzar a editar plantillas propiedad de su proveedor de configuración
 

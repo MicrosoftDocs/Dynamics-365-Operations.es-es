@@ -2,7 +2,7 @@
 title: Calcular un L.MAT mediante una estructura de un solo nivel (febrero de 2016)
 description: Este procedimiento muestra cómo calcular el coste de un producto terminado mediante la expansión de un único nivel que se basa en la hoja de Gestión de costes.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, InventItemPrice, BOMCalcDialog
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e02e76cd5762fc683290eeee49d23c9fed8d4503
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: e7c2c34474cada787b7a7ba720ba177aa8dc125f
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3150525"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3214367"
 ---
 # <a name="calculate-a-bom-by-using-a-single-level-structure-february-2016"></a>Calcular un L.MAT mediante una estructura de un solo nivel (febrero de 2016)
 

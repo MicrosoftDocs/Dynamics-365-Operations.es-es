@@ -3,7 +3,7 @@ title: Cargos automáticos avanzados omnicanal
 description: Este tema describe las capacidades para gestionar los cargos adicionales de pedidos de los pedidos del canal de Commerce mediante el uso de varias funciones avanzadas de cargos automáticos.
 author: hhaines
 manager: annbe
-ms.date: 03/08/2019
+ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: fd02a81f35b40e5075ccfe5c9a617d7de4e8250d
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 826c955b7c99073ff41c8a5ed75254c824359925
+ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024000"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "3175163"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Cargos automáticos avanzados omnicanal
 
@@ -63,7 +63,7 @@ Las nuevas operaciones son las siguientes.
 - **142 - Gestionar cargos** - Esta operación permite a los usuarios de PDV editar los cargos varios para la transacción PDV que se han agregado manualmente o sistemáticamente con los cálculos cargos automáticos.
 - **141 - Agregar cargos de encabezado** - Use esta operación para dar al usuario la capacidad de agregar manualmente cargos varios a nivel de encabezado en cualquier transacción de las ventas PDV (y seleccione el código de cargos que se utilizará).
 - **140 - Agregar cargos de línea** - Use esta operación para dar al usuario la capacidad de agregar manualmente cargos varios de línea en cualquier transacción de las ventas PDV de línea (y seleccione el código de cargos que se utilizará).
-- **143 - Actualizar los cargos** - Esta operación permite realizar un cálculo completo de los cargos para la transacción de ventas. Actualizará cualquier cargo automático sobrescrito por el usuario basándose en la configuración de carrito actual.
+- **143 - Actualizar los cargos** - Esta operación permite realizar una actualización completa de los cargos para la transacción de ventas. Actualizará cualquier cargo automático sobrescrito por el usuario basándose en la configuración de carrito actual.
 
 Como con todas las operaciones de PDV, las configuraciones de seguridad se pueden crear para requerir la aprobación del director para ejecutar la operación.
 
@@ -77,7 +77,7 @@ En esta sección, los casos de uso del ejemplo se muestran para ayudarle a compr
 
 #### <a name="use-case-scenario"></a>Escenario del caso de uso
 
-Un minoristas desea agregar automáticamente los cargos de flete cuando se realizan transacciones en cualquier canal de Commerce que requieren un envío de productos al cliente. El minorista 2 proporciona métodos de entrega: tierra y aire. Si un cliente elige la entrega por tierra y el valor del pedido menos de 100 $, el minoristas desea cobrar al cliente un flete de 10 $. Si el pedido es de más de 100 $ y el cliente tienen el envío por tierra, no cobrará al cliente ningún cargo de flete adicional. Si el cliente elige aire como método de entrega para todos los pedidos, independientemente de su valor total, se cargarán una cuota de flete de 20 $.
+Un minoristas desea agregar automáticamente los cargos de flete cuando se realizan transacciones en cualquier canal de Commerce que requieren un envío de productos al cliente. El minorista dos proporciona métodos de entrega: tierra y aire. Si un cliente elige la entrega por tierra y el valor del pedido menos de 100 $, el minoristas desea cobrar al cliente un flete de 10 $. Si el pedido es de más de 100 $ y el cliente tienen el envío por tierra, no cobrará al cliente ningún cargo de flete adicional. Si el cliente elige aire como método de entrega para todos los pedidos, independientemente de su valor total, se cargarán una cuota de flete de 20 $.
 
 #### <a name="setup-and-configuration"></a>Establecimiento y configuración
 
@@ -133,7 +133,7 @@ En este tiempo los cargos se aplicarán a cualquier línea de ventas que coincid
 
 #### <a name="use-case-scenario-description"></a>Descripción del escenario caso de uso
 
-Un minorista está creando una excepción a los procesos típicos ofertando un servicio a domicilio especial para productos a los clientes que piden productos en la tienda. El minorista y el cliente han acordado que el cliente pagará una cuota de manipulación adicional de 25 $ por este servicio. El que realiza el pedido necesita agregar esta cuota adicional a la transacción. Dado que la cuota es una cuota plana y no relacionada con un producto único del pedido, se va a utilizar un cargo de cabecera.
+Un minorista está creando una excepción a los procesos típicos ofertando un servicio a domicilio especial para productos a clientes que piden productos en la tienda. El minorista y el cliente han acordado que el cliente pagará una cuota de manipulación adicional de 25 $ por este servicio. El que realiza el pedido necesita agregar esta cuota adicional a la transacción. Dado que la cuota es una cuota plana y no relacionada con un producto único del pedido, se va a utilizar un cargo de cabecera.
 
 #### <a name="setup-and-configuration"></a>Establecimiento y configuración
 
@@ -157,7 +157,7 @@ Este proceso se puede aplicar al centro de asistencia telefónica mediante la fu
 
 #### <a name="use-case-scenario"></a>Escenario del caso de uso
 
-Un cliente ha solicitado que los 2 de 5 artículos en el pedido de ventas se envuelvan para regalo. El minorista ofrece este servicio opcional con una cuota de 2 $ por artículo. El que realice el pedido deberá agregar estas cuotas a los artículos específicos que deben llevarse a envuelto para regalos.
+Un cliente ha solicitado que los dos de cinco artículos en el pedido de ventas se envuelvan para regalo. El minorista ofrece este servicio opcional con una cuota de 2 $ por artículo. El que realice el pedido deberá agregar estas cuotas a los artículos específicos que deben llevarse a envuelto para regalos.
 
 #### <a name="setup-and-configuration"></a>Establecimiento y configuración
 
@@ -215,3 +215,10 @@ Algunas organizaciones pueden preferir espera hasta que el usuario haya terminad
 ### <a name="charges-override-reports"></a>Informes de anulación de cargos
 
 Si los usuarios manualmente anulan los gastos calculados o agregan gastos manualmente a la transacción, estos datos estarán disponibles para fines de auditoría en el informe **Historial de la anulación de cargos**. Se puede obtener acceso al informe en **Retail y Commerce \> Consultas e informes \> Historial de la anulación de cargos**. Es importante tener en cuenta que los datos necesarios para este informe se importan de la base de datos del canal en la Sede a través de los trabajos de la programación de distribución “P”. Por lo tanto, la información sobre anulaciones recién efectuadas en el PDV puede no estar disponible inmediatamente en este informe hasta que el trabajo haya cargado los datos de transacciones de la tienda en la Sede.
+
+## <a name="additional-resources"></a>Recursos adicionales
+
+[Habilitar y configurar cargos automáticos por canal](auto-charges-by-channel.md)
+
+[Prorratear los cargos de encabezado con las líneas de ventas coincidentes](pro-rate-charges-matching-lines.md)
+
