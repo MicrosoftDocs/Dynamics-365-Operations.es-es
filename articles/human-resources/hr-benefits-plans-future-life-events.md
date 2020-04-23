@@ -3,7 +3,7 @@ title: Configurar eventos de vida futuros
 description: Puede programar eventos de vida futuros en Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 655070e52e3d1f43ca6904ce3218582868f193fe
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 134152bb8ae2b9f42b59cc9202e244435a607eba
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010481"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3230094"
 ---
 # <a name="configure-future-life-events"></a>Configurar eventos de vida futuros
-
-[!include [banner](includes/preview-feature.md)]
 
 Puede programar eventos de vida futuros en Dynamics 365 Human Resources.
 

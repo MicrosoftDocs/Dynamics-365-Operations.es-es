@@ -3,7 +3,7 @@ title: Crear tipos de planes
 description: Un tipo de plan en Microsoft Dynamics 365 Human Resources es una agrupación de alto nivel de tipos específicos de prestaciones. Cada tipo de plan tiene un código de tipo de plan que determina reglas para el tipo de plan.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8d9bb490326c6dbfafa0f186cd05185ac01bad30
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 06a36f9f3fef54e7e06d616c9179374db4ce7115
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092383"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229703"
 ---
 # <a name="create-plan-types"></a>Crear tipos de planes
-
-[!include [banner](includes/preview-feature.md)]
 
 Un tipo de plan en Microsoft Dynamics 365 Human Resources es una agrupación de alto nivel de tipos específicos de prestaciones. Cada tipo de plan tiene un código de tipo de plan que determina reglas para el tipo de plan. Por ejemplo, el tipo de plan Vida básica tendría el código de tipo de plan Vida porque es un tipo de plan de seguro de vida y debe cumplir las reglas establecidas para el código de tipo de plan de vida. Otro tipo de plan podría ser vida complementaria, también con el código de tipo de plan Vida.
 
@@ -45,23 +43,23 @@ Un tipo de plan puede definir opciones de cobertura. Las opciones de cobertura s
 
    | Campo | Descripción |
    | --- | --- |
-   | Tipo de plan | Un nombre único que identifica el tipo de plan. |
-   | Descripción | Una descripción del tipo de plan. |
-   | Código de tipo de plan | Seleccione un código de tipo plan en la lista desplegable de valores. La lista de códigos de tipo de plan muestra todos los tipos de plan admitidos en la versión actual. |
-   | Inscripción simultánea | Especifica si un empleado puede inscribirse en varios planes de prestaciones del mismo tipo de plan o solo un plan de prestaciones por tipo de plan. |
-   | Tipo de contacto | Especifica el rol del contacto personal. Los valores son en blanco, Dependiente y Beneficiario. Puede dejar el Tipo de contacto en blanco si su tipo de plan no requiere un dependiente o beneficiario según la opción de cobertura. |
+   | **Tipo de plan** | Un nombre único que identifica el tipo de plan. |
+   | **Descripción** | Una descripción del tipo de plan. |
+   | **Código de tipo de plan** | Seleccione un código de tipo plan en la lista desplegable de valores. La lista de códigos de tipo de plan muestra todos los tipos de plan admitidos en la versión actual. |
+   | **Inscripción simultánea** | Especifica si un empleado puede inscribirse en varios planes de prestaciones del mismo tipo de plan o solo un plan de prestaciones por tipo de plan. |
+   | **Tipo de contacto** | Especifica el rol del contacto personal. Los valores son en blanco, Dependiente y Beneficiario. Puede dejar el **Tipo de contacto** en blanco si su tipo de plan no requiere un dependiente o beneficiario según la opción de cobertura. |
 
 4. Para configurar las opciones de eventos de vida, seleccione **Acciones** y luego seleccione **Opciones de eventos de vida**. Especifique los valores para los siguientes campos:
 
    | Campo | Descripción |
    | --- | --- |
-   | Tipo de plan | El tipo de plan para el que configurar opciones de eventos de vida. |
-   | Id. del tipo de evento de vida | El id. del tipo de evento de vida. |
-   | Permitir cancelación | Especifica si un empleado puede cancelar un plan de prestaciones durante el evento de vida. |
-   |Cambiar opción de cobertura | Especifica si un empleado puede cambiar opciones de cobertura durante el evento de vida. |
-   | Cambiar a un nuevo plan | Especifica si un empleado puede cambiar planes durante el evento de vida. |
-   | Cancelar automáticamente el plan |Especifica si se cancelará automáticamente el plan durante el evento de vida. |
-   | Volver a abrir automáticamente la comprobación de idoneidad | Especifica si la comprobación de idoneidad de la inscripción en prestaciones se debe volver a abrir automáticamente durante el evento de vida. |
-   | Ventana de notificación | Especifica la ventana de notificación, en días, del evento de vida. **Nota**: Si no introduce un importe, el sistema supone que la ventana de informes es cero y no procesará el evento de vida. |
+   | **Tipo de plan** | El tipo de plan para el que configurar opciones de eventos de vida. |
+   | **Identificador del tipo de evento de vida** | El id. del tipo de evento de vida. |
+   | **Permitir cancelación** | Especifica si un empleado puede cancelar un plan de prestaciones durante el evento de vida. |
+   | **Cambiar opción de cobertura** | Especifica si un empleado puede cambiar opciones de cobertura durante el evento de vida. |
+   | **Cambiar a un nuevo plan** | Especifica si un empleado puede cambiar planes durante el evento de vida. |
+   | **Cancelar automáticamente el plan** | Especifica si se cancelará automáticamente el plan durante el evento de vida. |
+   | **Volver a abrir automáticamente la comprobación de idoneidad** | Especifica si la comprobación de idoneidad de la inscripción en prestaciones se debe volver a abrir automáticamente durante el evento de vida. |
+   | **Ventana de notificación** | Especifica la ventana de notificación, en días, del evento de vida. **Nota**: Si no introduce un importe, el sistema supone que la ventana de informes es cero y no procesará el evento de vida. |
 
 5. Seleccione **Guardar**. 

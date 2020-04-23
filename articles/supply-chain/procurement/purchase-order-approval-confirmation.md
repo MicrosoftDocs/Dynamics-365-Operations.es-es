@@ -1,30 +1,30 @@
 ---
 title: Aprobar y confirmar pedidos de compra
-description: Este tema describe los estados por los que pasa un pedido de compra (PO) una vez que se ha creado y el efecto de habilitar la administración de cambios en los pedidos de compra.
-author: FrankDahl
-manager: AnnBe
-ms.date: 06/20/2017
+description: Este tema describe los estados por los que pasa un pedido de compra una vez que se ha creado y el efecto de habilitar la administración de cambios en los pedidos de compra.
+author: mkirknel
+manager: tfehr
+ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
 ms.custom: 93143
 ms.assetid: cd12a944-c52c-4579-a301-7abe1d237c72
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: fdahl
+ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d0fc75f233ee2eab42317f835834ff24b6ada2f
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 6b331b7e7725b3dd284deb02e59fcf2d699822c4
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813440"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3208003"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Aprobar y confirmar pedidos de compra
 
@@ -69,9 +69,10 @@ En algunas situaciones, es posible que tenga que cambiar un pedido de compra una
 
 Si el pedido de compra se creó mediante un proceso de administración de cambios, puede realizar cambios recuperando el pedido o, si ya se ha aprobado el pedido, con la acción **Solicitar cambio**. En este caso, el estado de aprobación vuelve a ser **Borrador** y, a continuación, podrá modificar el pedido. Una vez que haya terminado de realizar cambios, es posible que tenga que enviar el pedido para la nueva aprobación. Puede configurar los tipos de cambios que requieren nueva aprobación mediante una regla de directivas **Regla de nueva aprobación para pedidos de compra** en la página **Directivas de compra**.
 
-Si se ha entregado parte de la cantidad pedida para una línea de pedido de compra, no puede cambiar la cantidad pedida. Sin embargo, puede cambiar la cantidad **Pendiente de entrega** en la línea. A continuación, puede utilizar la acción **Finalizar** para cancelar líneas y evitar el procesamiento adicional. 
+Si se ha entregado parte de la cantidad pedida para una línea de pedido de compra, no puede cambiar la cantidad pedida cuando el pedido de compra está en **Borrador**. Sin embargo, puede cambiar la cantidad **Entregar el resto** en la línea para la orden de compra que está en el estado **Borrador**.
 
-Tras la confirmación de un pedido, ya no podrá eliminarlo. Sin embargo, puede cancelar la cantidad total o cualquier cantidad restante de un pedido, siempre que la cantidad no se haya recibido o facturado.
+Tras la confirmación de un pedido, ya no podrá eliminarlo. Sin embargo, puede cancelar la cantidad total o cualquier cantidad restante de un pedido, siempre que la cantidad no se haya recibido o facturado. A continuación, puede utilizar la acción **Finalizar** para evitar el procesamiento adicional. 
+
 
 ## <a name="canceling-purchase-orders"></a>Cancelar pedidos de compra
 

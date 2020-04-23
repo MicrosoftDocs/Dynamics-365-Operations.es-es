@@ -2,14 +2,14 @@
 title: Página inicial de adquisición y abastecimiento
 description: Este tema proporciona una lista de temas de ayuda y otros recursos disponibles para Adquisición y abastecimiento.
 author: mkirknel
-manager: AnnBe
+manager: tfehr
 ms.date: 09/27/2017
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 50651
 ms.assetid: 17f06036-cac2-4c28-8dc6-1dff6b81a7cc
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cce822f76323b6ce514d3793ce19f0160957e7a8
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 2a23e445fa6a3133c5248aef1e5dc9fdf5aeb162
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813396"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3209223"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Página inicial de adquisición y abastecimiento
 
@@ -58,7 +58,7 @@ Adquisición y abastecimiento cubre todos los pasos desde identificar una necesi
 -   [Demostración de entrada de demostración de inventario de envío para Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(documentación)
 -   [Supervisar el inventario de entrega mediante la colaboración de proveedores](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
 -   [Colaborar con proveedores mediante el portal de proveedores](collaborate-vendors-vendor-portal.md) (solo en las versiones de febrero de 2016 y mayo de 2016 de Dynamics AX)
--   [Seguridad para los usuarios del portal de proveedores](configure-security-vendor-portal-users.md) (solo en las versiones de 2016 y mayo de 2016 de Finance and Operations)
+-   [Seguridad para los usuarios del portal de proveedores](configure-security-vendor-portal-users.md) (solo en las versiones de 2016 y mayo de 2016 Finance and Operations)
 -   [Espacio de trabajo de móvil de colaboración de proveedor](vendor-collaboration-mobile-workspace.md)
 
 ## <a name="procurement-product-management"></a>Gestión de compra de productos

@@ -3,7 +3,7 @@ title: Habilitar ADLS en un entorno de Dynamics 365 Commerce
 description: Este tema explica cómo habilitar y probar Azure Data Lake Storage (ADLS) para un entorno de Dynamics 365 Commerce, que es un requisito previo para habilitar las recomendaciones de productos.
 author: bebeale
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3c037f5603af5af84917084eefa1edd508891c0d
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: ba428765babb9ca7566da7a457368959b1c29083
+ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154445"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "3259757"
 ---
 # <a name="enable-adls-in-a-dynamics-365-commerce-environment"></a>Habilitar ADLS en un entorno de Dynamics 365 Commerce
 
@@ -48,7 +48,8 @@ Para obtener más información acerca de ADLS, consulte la [documentación ofici
   
 ## <a name="configuration-steps"></a>Pasos de configuración
 
-Esta sección cubre los pasos de configuración necesarios para habilitar ADLS en un entorno.
+Esta sección cubre los pasos de configuración necesarios para habilitar ADLS en un entorno en relación con las recomendaciones del producto.
+Para obtener una descripción más detallada de los pasos necesarios para habilitar ADLS, vea [Hacer que el almacén de entidades esté disponible como Data Lake](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
 
 ### <a name="enable-adls-in-the-environment"></a>Habilitar ADLS en el entorno
 
@@ -91,6 +92,8 @@ Si aún no se ha completado, siga los pasos para [habilitar las recomendaciones 
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
+[Hacer que un almacén de entidades esté disponible como un Data Lake](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md)
+
 [Visión general de recomendaciones de producto](product-recommendations.md)
 
 [Habilitar recomendaciones de producto](enable-product-recommendations.md)
@@ -110,5 +113,3 @@ Si aún no se ha completado, siga los pasos para [habilitar las recomendaciones 
 [Crear recomendaciones con datos de demostración](product-recommendations-demo-data.md)
 
 [Preguntas más frecuentes de recomendaciones de producto](faq-recommendations.md)
-
-

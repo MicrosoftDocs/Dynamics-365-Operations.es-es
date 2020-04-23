@@ -2,7 +2,7 @@
 title: Informe de vencimiento de inventario
 description: Este tema describe la funcionalidad que permite ejecutar un informe de antigüedad de inventario y generar resultados como formulario y gráfico.
 author: AndersGirke
-manager: AnnBe
+manager: tfehr
 ms.date: 11/11/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2019-01-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 21411c104c854224ff3689dc8e080b88d9fc7d23
-ms.sourcegitcommit: 9267608347c9781fb4ba70f1384ca24da69c716d
+ms.openlocfilehash: 790c8fe3a52bce652227f1cef97eff6496476100
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2810260"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201634"
 ---
 # <a name="inventory-aging-report"></a>Informe de vencimiento de inventario
 
