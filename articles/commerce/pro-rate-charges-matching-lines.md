@@ -3,7 +3,7 @@ title: Prorratear los cargos de encabezado con las líneas de ventas coincidente
 description: Este tema describe las capacidades adicionales para calcular y aplicar cargos automáticos a los pedidos del canal de Commerce mediante la función de cargos automáticos avanzada.
 author: hhaines
 manager: annbe
-ms.date: 04/23/2019
+ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 5c03b1a1db11098058022a6916dc5bddf5518f9b
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 048885cac7a316e144b2df072da405d74096203f
+ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023982"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "3175140"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Prorratear los cargos de encabezado con las líneas de ventas coincidentes
 
@@ -169,3 +169,9 @@ Por lo tanto, para este ejemplo, al artículo 81334 se le asignará un cargo de 
 ![Cargos prorrateados en la línea de ventas para el artículo 81334](media/proratedlinecharge.png)
 
 Cuando este método de cálculo se usa en una situación de devolución parcial, si el código de gasto es reembolsable se devolverán sólo la parte del gasto que se asigna a dicha línea cuando se devuelve el artículo.
+
+## <a name="additional-resources"></a>Recursos adicionales
+
+[Cargos automáticos avanzados omnicanal](omni-auto-charges.md)
+
+[Habilitar y configurar cargos automáticos por canal](auto-charges-by-channel.md)

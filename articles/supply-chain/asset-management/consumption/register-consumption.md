@@ -2,7 +2,7 @@
 title: Registrar consumo
 description: En este tema se explica cómo registrar el consumo en Administración de activos.
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 08/21/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3d23375ec7ebe9b43c2d2e3e376e26c348131bd3
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: c59664346c07f5e74825de41870f6635ced24ebd
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812269"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3216338"
 ---
 # <a name="register-consumption"></a>Registrar consumo
 
@@ -93,5 +93,5 @@ Al hacer registros de consumo, las dimensiones financieras relacionadas con los 
 - *Registros de artículos:* en primer lugar, se agregan las dimensiones financieras del encabezado del diario, si existen. Después, se agregan las dimensiones financieras del proyecto de orden de trabajo relacionado. A continuación, se agregan las dimensiones financieras del sitio. Finalmente, se agregan las dimensiones financieras del artículo.
 
 >[!NOTE]
->Para los tres tipos de registro, se valida la combinación de dimensiones financieras y se dejan en blanco las combinaciones no válidas. Es configuración estándar con otras aplicaciones de Finance and Operations.
+>Para los tres tipos de registro, se valida la combinación de dimensiones financieras y se dejan en blanco las combinaciones no válidas. Esta es la configuración estándar con otras aplicaciones Finance and Operations.
 

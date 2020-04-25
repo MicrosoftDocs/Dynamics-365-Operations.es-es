@@ -16,17 +16,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 580f0c885373006cb9cd955a61c41704a2ac9a94
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4a01b8387afd45648f1205d4246378edc8a9e79b
+ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186702"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "3249020"
 ---
 # <a name="dual-currency"></a>Divisa dual
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 La funcionalidad que se introdujo en Microsoft Dynamics 365 for Finance and Operations versión 8.1 (octubre de 2018) habilita el cambio de propósito de la divisa de notificación y su uso como segunda divisa de contabilidad. Esta función se denomina *divisa dual*. Los cambios de la divisa dual no se pueden desactivar con una clave de configuración o un parámetro. Dado que la divisa de notificación se usa como segunda divisa de contabilidad, la manera en que la divisa de notificación se calcula en la lógica del registro ha cambiado.
 

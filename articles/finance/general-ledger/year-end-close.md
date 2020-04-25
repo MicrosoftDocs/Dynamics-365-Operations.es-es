@@ -3,7 +3,7 @@ title: Cierre de fin de año
 description: Este tema describe la configuración y los pasos necesarios para ejecutar el proceso de cierre de fin de año de la contabilidad general.
 author: kweekley
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3071365640eb6c012cb9af5461e885bb3f135143
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3f5b81ed788536a8b81ca53d6b6f12200836b6f5
+ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175610"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "3259780"
 ---
 # <a name="year-end-close"></a>Cierre de fin de año
 
@@ -74,7 +74,7 @@ La ficha **Dimensión financiera** se emplea para definir las dimensiones financ
 El proceso de cierre de fin de año no sigue las estructuras contables. Esto se debe a que las estructuras contables pueden cambiar en un ejercicio y no siempre es posible identificar la estructura contable relevante debido a dichos cambios.  Si se crean las transacciones de apertura, los saldos se presentarán con las dimensiones financieras definidas en la plantilla cierre de fin de año. Las entradas de saldo inicial podrían incluir dimensiones financieras que ya no están en la estructura contable actual y combinaciones de segmentos que ya no son válidas en la estructura contable actual. Si su organización desea excluir una dimensión financiera del saldo inicial de ganancias retenidas, establezca la dimensión financiera en **Cerrar uno** y deje el valor de dimensión vacío.
 
 ## <a name="run-the-year-end-close-process"></a>Realizar el proceso de cierre de fin de año
-Una vez creadas las plantillas de cierre de fin de año, el proceso de cierre de fin de año se inicia eligiendo **Ejecutar ejercicio** en el panel de acciones. Seleccione todas o un subconjunto de entidades jurídicas de la plantilla para las que se va a realizar el cierre de fin de año. Al realizar el cierre de fin de año por primera vez en un ejercicio, probablemente elegirá todas las entidades jurídicas para crear los saldos iniciales de todas las entidades jurídicas. Si realiza el cierre de fin de año de nuevo, puede elegir ejecutar el proceso solo para las entidades jurídicas que han registrado entradas de ajuste. 
+Una vez creadas las plantillas de cierre de fin de año, el proceso de cierre de fin de año se inicia eligiendo **Ejecutar cierre fiscal** en el panel de acciones. Seleccione todas o un subconjunto de entidades jurídicas de la plantilla para las que se va a realizar el cierre de fin de año. Al realizar el cierre de fin de año por primera vez en un ejercicio, probablemente elegirá todas las entidades jurídicas para crear los saldos iniciales de todas las entidades jurídicas. Si realiza el cierre de fin de año de nuevo, puede elegir ejecutar el proceso solo para las entidades jurídicas que han registrado entradas de ajuste. 
 
 Seleccione el ejercicio con el que desee realizar el proceso de cierre de fin de año. Si existe más de un período de cierre para el último período del ejercicio, el campo **Nombre del período** estará disponible para que pueda seleccionar el período de cierre para registrar la transacción de cierre, si la configuración está definida para crear la transacción de cierre. 
 

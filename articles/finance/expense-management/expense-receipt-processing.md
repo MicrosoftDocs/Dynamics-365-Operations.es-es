@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 49cdfeac8cda9f1ddd3aca61f902f00f30f3485b
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: efba2faf9428d9b556d74273bc7daadba7211c48
+ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154049"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "3248972"
 ---
 # <a name="expense-receipt-processing"></a>Procesamiento de recibos de gastos
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
-
 
 La entrada de gastos se ha mejorado mediante la introducción del procesamiento de reconocimiento óptico de caracteres (OCR) para los recibos. Esta característica está diseñada para mejorar la experiencia del usuario cuando se crean informes de gastos.
 

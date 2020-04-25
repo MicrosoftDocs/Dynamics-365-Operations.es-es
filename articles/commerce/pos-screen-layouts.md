@@ -1,9 +1,9 @@
 ---
-title: Diseños de pantalla para el punto de venta (POS)
+title: Configuraciones visuales de la interfaz de usuario de PDV
 description: Este tema proporciona información sobre los diseños de pantalla para experiencias con Dynamics 365 Commerce point of sale (POS).
-author: jblucher
-manager: AnnBe
-ms.date: 05/20/2019
+author: boycezhu
+manager: annbe
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -16,23 +16,22 @@ ms.custom: 90573
 ms.assetid: a6868f93-02ed-4928-9f6a-3b7383e7e399
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: jeffbl
+ms.author: boycezhu
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 5bf7b3d20ff0b42eb9eaedf584b2a508c1307707
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 3a84318f7156ef42f7e00f1e89228f541b1634ce
+ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023987"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3261476"
 ---
-# <a name="screen-layouts-for-the-point-of-sale-pos"></a>Diseños de pantalla para el punto de venta (POS)
+# <a name="pos-user-interface-visual-configurations"></a>Configuraciones visuales de la interfaz de usuario de PDV
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
-Este tema proporciona información sobre los diseños de pantalla para experiencias con Dynamics 365 Commerce point of sale (POS).
-
-La interfaz de usuario (IU) de PDV se puede configurar mediante una combinación de perfiles visuales y diseños de pantalla que se asignan a tiendas, registros y/o usuarios.
+La interfaz de usuario (IU) de Microsoft Dynamics 365 Commerce punto de venta (PDV) se puede configurar mediante una combinación de perfiles visuales y diseños de pantalla que se asignan a tiendas, registros y usuarios. Este tema ofrece información acerca de esas opciones de configuración.
 
 La siguiente ilustración muestra las relaciones entre las distintas entidades que comprenden los aspectos configurables de la IU del sistema PDV.
 
@@ -40,7 +39,7 @@ La siguiente ilustración muestra las relaciones entre las distintas entidades q
 
 ## <a name="visual-profile"></a>Perfil visual
 
-Los perfiles visuales se asignan a registros y especifican los elementos visuales que son específicos del registro y que se comparten entre los usuarios. Cada usuario que inicia sesión en el registro ve el mismo tema, colores e imágenes.
+Los perfiles visuales se asignan a registros y especifican los elementos visuales que son específicos del registro y que se comparten entre los usuarios. Cada usuario que inicia sesión en el registro ve el mismo tema, diseño, colores e imágenes.
 
 ![Pantalla de bienvenida de PDV con tema claro](../commerce/media/POS-Welcome-Screen-with-Light-theme.png)
 
@@ -48,16 +47,24 @@ Los perfiles visuales se asignan a registros y especifican los elementos visuale
 
 - **Número de perfil** – El número del perfil es el identificador exclusivo del perfil visual.
 - **Descripción** – Puede especificar un nombre descriptivo que ayude a identificar el perfil correcto para su situación.
-- **Tema** – Puede seleccionar entre los temas de aplicación claro u oscuro. El tema afecta a los colores de fuente y de fondo en toda la aplicación.
+- **Tema** – Puede seleccionar entre los temas de aplicación **Claro** u **Oscuro**. El tema afecta a los colores de fuente y de fondo en toda la aplicación.
 - **Color de acento** – El color de acento se utiliza en el sistema PDV para distinguir o resaltar elementos visuales específicos como mosaicos, botones de comandos e hipervínculos. Normalmente, estos elementos se pueden accionar.
-- **Color de encabezado** – Puede configurar el color del encabezado de la página para cumplir los requisitos de las marcas del minorista. Esta función solo está disponible en Retail, versión 1611.
-- **Mostrar fecha/hora** - Cuando se activa, la fecha y hora actuales se mostrará en el encabezado del PDV.
-- **Fondo de inicio de sesión** – Puede especificar una imagen de fondo para la pantalla de inicio de sesión. El tamaño de archivo de las imágenes de fondo se debe mantener lo más pequeño posible, ya que el almacenamiento y la carga de archivos grandes podría afectar al comportamiento y al rendimiento de la aplicación.
-- **Fondo de la aplicación** – Puede especificar una imagen de fondo que se utiliza en lugar del color liso del tema en toda la aplicación. En cuanto a los fondos de inicio de sesión, el tamaño del archivo debe mantenerse lo más pequeño posible.
+- **Color de encabezado** – Puede configurar el color del encabezado de la página para cumplir los requisitos de las marcas del minorista.
+- **Esquema de fuente** - Puede seleccionar entre esquemas de fuente **Estándar** y **Grande**. El esquema de fuente afecta el tamaño de fuente en toda la aplicación. La selección predeterminada es **Estándar**.
+- **Mostrar siempre las etiquetas de la barra de aplicaciones** - Cuando esta opción está activada, el texto de la etiqueta siempre está visible debajo de los botones de la barra de la aplicación.
+- **Diseño** - Puede seleccionar entre los diseños **Centrado** y **Derecho**. El diseño afecta la alineación del cuadro de inicio de sesión en la pantalla de inicio de sesión. La selección predeterminada es **Centrado**.
+- **Mostrar fecha / hora** - Cuando esta opción está activada, la fecha y hora actuales se muestran en el encabezado PDV y en la pantalla de inicio de sesión.
+- **Teclado** - Puede seleccionar entre **Valor predeterminado para el teclado del sistema operativo** y **Mostrar teclado numérico** para especificar el teclado predeterminado que se usa para la entrada en la pantalla de inicio de sesión. El teclado numérico es un teclado virtual que se usa principalmente para dispositivos táctiles. La selección predeterminada es **Predeterminado para el teclado del sistema operativo**.
+- **Logotipo** - Puede especificar una imagen de logotipo que se muestra en la pantalla de inicio de sesión. Recomendamos que use una imagen que tenga un fondo transparente. El tamaño de archivo se debe mantener lo más pequeño posible, ya que podría afectar el comportamiento y rendimiento de la aplicación pueden verse afectados cuando se almacenan y cargan archivos grandes.
+- **Fondo de inicio de sesión** – Puede especificar una imagen de fondo para la pantalla de inicio de sesión. El tamaño de archivo de las imágenes de fondo debe mantenerse lo más pequeño posible.
+- **Fondo** – Puede especificar una imagen de fondo que se utiliza en lugar del color liso del tema en toda la aplicación. En cuanto a las imágenes de fondo para la pantalla de inicio de sesión, el tamaño del archivo debe mantenerse lo más pequeño posible.
+
+> [!NOTE]
+> El diseño **Derecho** y la visualización de fecha / hora no se aplican a la pantalla de inicio de sesión en la vista compacta.
 
 ## <a name="screen-layouts"></a>Diseños de pantalla
 
-Las configuraciones del diseño de pantalla determinan las acciones, el contenido y la posición de los controles de la interfaz de usuario en la pantalla de bienvenida del PDV y en la pantalla **Transacción**.
+Las configuraciones del diseño de pantalla determinan las acciones, el contenido y la posición de los controles de la interfaz de usuario en la pantalla de **Bienvenida** del PDV y en la pantalla **Transacción**.
 
 ![Vista Diseño de pantalla de PDV](../commerce/media/POS-Screen-Layout-View.png)
 

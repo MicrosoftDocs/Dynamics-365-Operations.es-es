@@ -3,7 +3,7 @@ title: Función TRANSLATE de ER
 description: Este tema proporciona información general sobre cómo usar la función TRANSLATE de informes electrónicos (ER).
 author: NickSelin
 manager: kfend
-ms.date: 12/10/2019
+ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 07fe19c5f66c33e336f76f3a72d3bbda0c7e8d86
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 415444bda097c00522155d1b37988a79da836902
+ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3040926"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201121"
 ---
-# <a name="TRANSLATE">Función TRANSLATE de ER</a>
+# <a name=""></a><a name="TRANSLATE">Función TRANSLATE de ER</a>
 
 [!include [banner](../includes/banner.md)]
 
-La función `TRANSLATE` devuelve la cadena de texto especificada como un valor de tipo *Cadena* después de reemplazarla total o parcialmente por otra cadena.
+La función `TRANSLATE` devuelve un valor *Cadena* que contiene el resultado del reemplazo de caracteres del texto especificado en caracteres de otro conjunto proporcionado.
 
 ## <a name="syntax"></a>Sintaxis
 
@@ -57,9 +57,23 @@ El texto que se va a usar como reemplazo.
 
 El valor de texto resultante.
 
-## <a name="example"></a>Ejemplo
+## <a name="usage-notes"></a>Notas de uso
 
-`TRANSLATE ("abcdef", "cd", "GH")` reemplaza el patrón **"cd"** por la cadena **"GH"** y devuelve **"abGHef"**.
+La función `TRANSLATE` reemplaza un carácter a la vez. La función reemplaza el primer carácter del argumento `text` con el primer personaje del argumento `pattern` y luego el segundo carácter y sigue el mismo flujo hasta que termine. Cuando un carácter de los argumentos `text` y `pattern` coincide, se reemplaza por un carácter del argumento `replacement` que se encuentra en la misma posición que el personaje del argumento `pattern`. Si un personaje aparece varias veces en el argumento `pattern`, el argumento `replacement` asignará el que corresponde a la primera aparición de este carácter.
+
+## <a name="example-1"></a>Ejemplo 1
+
+`TRANSLATE ("abcdef", "cd", "GH")` reemplaza el carácter **"c"** del texto especificado **"abcedef"** con el carácter **"G"** del texto `replacement` debido a lo siguiente:
+-   El carácter **"c"** está presente en el texto `pattern` en la primera posición.
+-   La primera posición del texto `replacement` contiene el carácter **"G"**.
+
+## <a name="example-2"></a>Ejemplo 2
+
+`TRANSLATE ("abcdef", "ccd", "GH")` devuelve **"abGdef"**.
+
+## <a name="example-3"></a>Ejemplo 3
+
+`TRANSLATE ("abccba", "abc", "123")` devuelve **"123321"**.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

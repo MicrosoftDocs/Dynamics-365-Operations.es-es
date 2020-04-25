@@ -2,7 +2,7 @@
 title: Configurar un perfil de visión general de recepción de artículos
 description: Este tema se centra en la configuración de un perfil general de llegadas.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 07/30/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMSArrivalOverviewProfile
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 55512c75445a5f3b9c1521376a20d48dd60e22c6
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: 885dc6c4fff53b9c1ddbac64e97b2b415bac1c7a
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3145534"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3204065"
 ---
 # <a name="set-up-an-item-arrival-overview-profile"></a>Configurar un perfil de visión general de recepción de artículos
 

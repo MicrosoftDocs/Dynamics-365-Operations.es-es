@@ -2,7 +2,7 @@
 title: Artículos fantasma
 description: Este tema describe, en detalle, cómo el tipo de línea fantasma puede usarse para las líneas de una lista de materiales (BOM) y una fórmula en Dynamics 365 Supply Chain Management.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 06/15/2018
 ms.topic: article
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validfrom: ''
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 7c39b0ac2eb8a2293c828fee23ed6a78cb5fe2c9
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: dc69687b1dd94407b28209178e923fe5169bcdac
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250028"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3211339"
 ---
 # <a name="phantom-items"></a>Artículos fantasma
 

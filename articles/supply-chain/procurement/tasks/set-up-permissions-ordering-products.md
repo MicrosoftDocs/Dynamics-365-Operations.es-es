@@ -2,7 +2,7 @@
 title: Configurar permisos para pedir productos en nombre de otro usuario
 description: En este tema se explica cómo conceder a los trabajadores permiso para preparar solicitudes de la compra en nombre de otros trabajadores.
 author: mkirknel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
@@ -10,22 +10,22 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchReqAuthorization, HcmWorkerLookUp
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: baf39040bef2ccd0c643ce0d034348807ecdc50c
-ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
+ms.openlocfilehash: 145d8a0e341857bf238fc934cd668ff12b8505b8
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "1914831"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3207563"
 ---
 # <a name="set-up-permissions-for-ordering-products-on-behalf-of-someone-else"></a>Configurar permisos para pedir productos en nombre de otro usuario
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 En este tema se explica cómo conceder a los trabajadores permiso para preparar solicitudes de la compra en nombre de otros trabajadores. Es decir, un “preparador” de una solicitud de compra puede crear una solicitud para otro “solicitante.” El procedimiento también muestra cómo conceder permisos a un trabajador para que pida los artículos y los servicios en diferentes entidades jurídicas o unidades operativas. Normalmente, estas tareas las realiza el administrador de compras. Puede utilizar este procedimiento en los datos para la empresa de demostración USMF o en sus propios datos.
 

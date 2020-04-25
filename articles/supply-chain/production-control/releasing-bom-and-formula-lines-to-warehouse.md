@@ -2,7 +2,7 @@
 title: Liberar las líneas de LM y fórmula al almacén
 description: En este tema se describe el proceso para liberar la materia prima para las líneas de LM y las líneas de fórmula al almacén.
 author: johanhoffmann
-manager: AnnBe
+manager: tfehr
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 3677db634366ecfe6a26f2f5e01532ce5a087593
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: dd28e6f96f70c261edc9ba85a9356a704335382b
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2815258"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3211201"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Liberar las líneas de LM y fórmula al almacén
 

@@ -3,7 +3,7 @@ title: Módulo de cuadro de compra
 description: En este tema se tratan los módulos de cuadro de compra y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 03/19/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3417156cbf3cb20a5190e5e51b61b3423816895a
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 35b7027e0f0b680dd82ebfcea754fef1617c0163
+ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154072"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3261407"
 ---
 # <a name="buy-box-module"></a>Módulo de cuadro de compra
 
@@ -46,7 +46,7 @@ En una página de detalles de productos, un cuadro de compra se divide en dos re
 Un módulo de caja de compra representa el título, la descripción, el precio y las calificaciones de un producto. También permite a los clientes seleccionar variantes de productos que tienen atributos de producto distintos, como tamaño, estilo y color. Cuando hay una variante de producto seleccionada, se actualizan otras propiedades del cuadro de compra (por ejemplo, la descripción del producto y las imágenes) para reflejar la información de la variante. 
 
 Se proporciona un selector de cantidad, para que los clientes puedan especificar la cantidad de artículos a comprar. La cantidad máxima que se puede comprar se puede establecer en la configuración del sitio.
- 
+
 Desde el cuadro de compra, los clientes también pueden realizar acciones como agregar un producto al carro, agregar un producto a su lista de deseos y seleccionar una ubicación de recogida. Estas acciones se pueden realizar en un producto o una variante de producto. Para agregar un producto a una lista de deseos, el cliente debe iniciar sesión.
 
 Los temas se pueden usar para eliminar o cambiar el orden de las propiedades del producto de la caja de compra y los controles de acción. 
@@ -65,7 +65,8 @@ Los temas se pueden usar para eliminar o cambiar el orden de las propiedades del
 Los módulos de cuadro de compra tienen tres opciones de configuración opciones que se pueden establecer en **Valores de configuración de sitio \> Extensiones**:
 
 - **Cantidad máxima**: esta propiedad se usa para especificar el número máximo de cada artículo que se puede agregar al carro. Por ejemplo, un minorista puede decidir si solo 10 de cada producto se pueden vender en una única transacción.
-- **Comprobación de inventario**: Cuando el valor se establece en **Verdadero**, se agrega un artículo al carro solo después de que el módulo del cuadro de compra se asegure de que está en existencias. Esta comprobación de inventario se realiza tanto para situaciones donde se enviará el artículo como para situaciones en la que se recogerá en la tienda. Si el valor se establece en **Falso**, no se realiza ninguna comprobación de inventario antes de agregar un artículo al carro y se realiza el pedido.
+- **Comprobación de inventario**: Cuando el valor se establece en **Verdadero**, se agrega un artículo al carro solo después de que el módulo del cuadro de compra se asegure de que está en existencias. Esta comprobación de inventario se realiza para situaciones donde se enviará el artículo y para situaciones en la que se recogerá en la tienda. Si el valor se establece en **Falso**, no se realiza ninguna comprobación de inventario antes de agregar un artículo al carro y se realiza el pedido. Para obtener información sobre cómo configurar las opciones de inventario en la oficina administrativa, vea [Calcular la disponibilidad de inventario para canales minoristas](calculated-inventory-retail-channels.md).
+
 - **Almacenaje de inventario**: esta propiedad se usa para especificar un número de almacenaje para el inventario. El inventario se mantiene en tiempo real y, cuando muchos clientes realizan pedidos, puede ser difícil mantener un recuento de inventario preciso. Cuando se realiza una comprobación de inventario, si el inventario es inferior a la cantidad de almacenaje, el producto se tratará como sin existencias. Por lo tanto, cuando las ventas se producen rápidamente entre varios canales, y el recuento de inventario no está completamente sincronizado, hay un riesgo menor de que se venda un artículo del que no hay existencias.
 
 ## <a name="commerce-scale-unit-interaction"></a>Interacción con Commerce Scale Unit
@@ -99,6 +100,8 @@ Para agregar un módulo de cuadro de compra a una página nueva y establecer las
 
 [Módulo de carro](add-cart-module.md)
 
+[Módulo de icono de carrito](cart-icon-module.md)
+
 [Módulo de finalización de compra](add-checkout-module.md)
 
 [Módulo de confirmación de pedido](order-confirmation-module.md)
@@ -106,3 +109,5 @@ Para agregar un módulo de cuadro de compra a una página nueva y establecer las
 [Módulo de encabezado](author-header-module.md)
 
 [Módulo de pie de página](author-footer-module.md)
+
+[Calcular la disponibilidad de inventario para canales comerciales](calculated-inventory-retail-channels.md)

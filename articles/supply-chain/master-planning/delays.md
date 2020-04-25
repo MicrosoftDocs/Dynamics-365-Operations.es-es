@@ -2,15 +2,15 @@
 title: Retrasos
 description: Este tema proporciona información acerca de fechas retrasadas en la planificación maestra. Una fecha retrasada es una fecha de vencimiento realista que una transacción recibe si la fecha de cumplimiento más temprana que la planificación maestra calcula es posterior a la fecha solicitada.
 author: roxanadiaconu
-manager: AnnBe
-ms.date: 03/15/2019
+manager: tfehr
+ms.date: 03/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqTransFuturesListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 19311
 ms.assetid: 5ffb1486-2e08-4cdc-bd34-b47ae795ef0f
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c1a8c738fffda76f2a8492c20e2c67a154c68559
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 34252e5cd9ee5151b1cba47975fc0cc612521a17
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1522298"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3203857"
 ---
 # <a name="delays"></a>Retrasos
 
@@ -44,6 +44,12 @@ En la página **Parámetros de planificación maestra** puede establecer el mome
 
 > [!NOTE]
 > En versiones anteriores, los retrasos calculados se conocían como *mensajes de futuros*, la fecha retrasada como *fecha de futuros* y las transacciones retrasadas como *transacciones establecidas en una fecha futura*.
+
+## <a name="limited-delays-in-production-setup-with-multiple-bom-levels"></a>Demoras limitadas en la configuración de producción con múltiples niveles de lista de materiales
+Cuando trabaja con retrasos en una configuración de producción que tiene varios niveles de lista de materiales, es importante tener en cuenta que solo los artículos directamente encima del artículo (en la estructura de la lista de materiales) que causan el retraso, se actualizarán con un retraso como parte de la ejecución de la planificación maestra. Otros elementos en la estructura de la lista de materiales no aplicarán el retraso hasta la primera ejecución de planificación maestra, cuando se apruebe o firme el pedido planificado para el nivel superior. 
+
+Para evitar esta limitación conocida, las órdenes de producción en la parte superior de la estructura de la lista de materiales con demoras pueden aprobarse (o reafirmarse) antes de la próxima ejecución de planificación maestra. De esta forma, se mantendrá el retraso del pedido de producción planificado aprobado retrasado y todos los componentes subyacentes se actualizarán en consecuencia.
+Los mensajes de acción también se pueden usar para identificar órdenes planificadas que se pueden mover a una fecha posterior, debido a otros retrasos en la estructura de la lista de materiales.
 
 ## <a name="desired-date"></a>Fecha deseada
 

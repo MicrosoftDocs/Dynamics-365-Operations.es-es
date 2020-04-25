@@ -2,7 +2,7 @@
 title: Precio de coste de la devolución e identificador de lote interno de devolución
 description: Puede que desee que el coste de productos devueltos sea igual al coste que tenían los productos cuando se vendieron al cliente. Puede hacerlo utilizando el **Id. de devolución de lote**.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 04/30/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReturnTableListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 33cd3d50fe342ba12a17419f4e759c243a60b3e0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b3d038b90595511b25863865045c5ce8ad45b1e0
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1565543"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3216353"
 ---
 # <a name="return-cost-price-and-return-lot-id"></a>Precio de coste de la devolución e identificador de lote interno de devolución        
 

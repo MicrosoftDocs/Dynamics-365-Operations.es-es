@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 51200a67a51097c438370866cb9d0ccbebe8392c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2d8a05ad7f100e6c54ccf1ecf7b76509cf44dbb8
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190382"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143958"
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a>Identificar e implementar herramientas de selección de candidatos
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Encontrar un grupo calificado de candidatos para cubrir vacantes puede ser difícil, especialmente cuando un puesto requiere un conjunto único de aptitudes.  Sin embargo, los candidatos con las aptitudes que necesita podrían ser ya empleados de su organización. Puede buscar un conjunto de aptitudes específico entre los empleados existentes o los nuevos candidatos. Esto permite a un reclutador reunir y filtrar rápidamente a los candidatos que han solicitado la vacante ahora o en el pasado, o encontrar a los candidatos potenciales del grupo existente de empleados. Utilice este registro de tareas para saber cómo la funcionalidad de distribución de perfiles puede ayudarle a encontrar a la persona adecuada para una vacante. La empresa de datos de prueba utilizada para crear este procedimiento es USMF.
 

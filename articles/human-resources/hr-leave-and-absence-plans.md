@@ -3,7 +3,7 @@ title: Crear un plan de permisos y ausencias
 description: Crear planes de ausencias en Dynamics 365 Human Resources para diferentes tipos de baja.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ed7a47068c451cd3ffaa26ee709599373858721b
-ms.sourcegitcommit: 3cad15f8ecc257d3a45c1bc1fada7c094ff4bcec
+ms.openlocfilehash: 532d9b276692858c77e4de41018775e9520f1882
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "3087309"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197368"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>Crear un plan de permisos y ausencias
 
@@ -42,6 +42,11 @@ También puede crear prestaciones de bajas basadas en el puesto, como horas de p
 1. En la página **Permisos y ausencias**, seleccione **Crear nuevo plan**.
 
 2. En **Detalles**, introduzca el **Nombre**, la **Fecha de inicio**, la **Descripción** y el **Tipo de baja** para su plan.
+
+Si la característica **Configure múltiples tipos de permiso para un solo plan de permiso y ausencia** está habilitada, los tipos de permisos se configuran en **Programación de acumulación** en lugar de en **Detalles**. Para cada registro de la tabla de programación de acumulación, puede definir un tipo de licencia.
+
+ > [!IMPORTANT]
+   > Después de habilitar esta función, no puede desactivarla.
 
 3. Defina acumulaciones en la pestaña **Acumulaciones**. Las acumulaciones determinan cuándo y con qué frecuencia se le concede tiempo libre a un empleado. En este paso, usted define directivas acerca de cuándo se deben otorgar acumulaciones y directivas acerca del prorrateo de las prestaciones de bajas.
 
@@ -95,8 +100,8 @@ También puede crear prestaciones de bajas basadas en el puesto, como horas de p
    Puede crear niveles para conceder el tiempo libre basándose en diferentes niveles.
 
    Si tiene empleados por horas, puede conceder tiempo libre en función de las horas trabajadas en lugar de ocupación en su organización. Las datos de las horas trabajadas se almacenan normalmente en un sistema de asistencia y tiempo. Puede importar las horas regulares y extras trabajadas desde el sistema de tiempo y asistencia y utilizarlas como base para la prima de un empleado.
-
-   1. Seleccione una opción en el cuadro desplegable **Tipo de acumulación**:
+   
+    1. Seleccione una opción en el cuadro desplegable **Tipo de acumulación**:
 
       - **Meses de servicio**: base de la programación de acumulación en meses de servicio.
 
@@ -117,6 +122,13 @@ También puede crear prestaciones de bajas basadas en el puesto, como horas de p
       - **Transferencia máxima**: el proceso de acumulación ajusta los saldos de licencia que superen el saldo máximo transferible en el aniversario de la fecha de inicio.
 
       - **Importe de la concesión**: el número inicial de horas o días que se concede a los empleados cuando se inscriben por primera vez en el plan de baja. El importe no se acumula para cada período de acumulación.
+      
+Si la característica **Configure múltiples tipos de permiso para un solo plan de permiso y ausencia** está habilitada, seleccione una opción en **Tipo de permiso**. 
+
+   > [!IMPORTANT]
+   > Después de habilitar esta función, no puede desactivarla.
+
+Si la característica **Usar equivalencia de jornada completa**, Human Resources utiliza la equivalencia de jornada completa (FTE) definida para el puesto para prorratear la acumulación de un empleado. Por ejemplo, si la FTE es 0,5 y la cantidad acumulada es 10, el empleado acumulará 5. Solo puede usar esta característica si habilita varios tipos de baja.  
 
 5. Seleccione **Guardar**.
 
@@ -357,19 +369,6 @@ Saldo previsto (30) = Importe acumulación (10 x 1) + Saldo actual (40) – ajus
 |---------------------|-------------------|-----------------|------------|----------------|-----------------|---------|
 | Jeannette Nicholson | 0,00              | 6/1/2018        | 6/1/2018   | 1,00           | 9/1/2018        | 3.00    |
 | Jay Norman          | 0,00              | 6/15/2018       | 6/15/2018  | 1.00           | 9/1/2018        | 2.00    |
-
-## <a name="configure-preview-features"></a>Configurar características de vista previa
-
-Si ha habilitado las características de vista previa para Permisos y ausencias, también debe configurarlas.
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
-
-1. **Característica de vista previa: configurar varios tipos de baja para un único plan de permisos y ausencias**. Para cada registro de la tabla de programación de acumulación, puede definir un tipo de licencia.
-
-   > [!IMPORTANT]
-   > Después de habilitar esta función, no puede desactivarla.
-
-2. **Característica de vista previa: usar equivalencia de jornada completa**. Si habilita esta característica de vista previa, Recursos Humanos utiliza la equivalencia de jornada completa (FTE) definida para el puesto para prorratear la acumulación de un empleado. Por ejemplo, si la FTE es 0,5 y la cantidad acumulada es 10, el empleado acumulará 5. Solo puede usar esta característica si habilita varios tipos de baja.
 
 ## <a name="see-also"></a>Consulte también
 

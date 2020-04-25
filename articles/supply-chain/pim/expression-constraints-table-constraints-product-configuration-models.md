@@ -2,7 +2,7 @@
 title: Restricciones de expresión y tabla en modelos de configuración de productos
 description: En este tema se describe el uso de las restricciones de expresión y las restricciones de tabla. Las restricciones controlan los valores de atributo que puede seleccionar al configurar los productos para un pedido de ventas, un presupuesto de ventas, un pedido de compra o un pedido de producción. Puede usar las restricciones de expresión o las restricciones de tablas, en función de cómo prefiere crear las restricciones.
 author: cvocph
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCGlobalTableConstraintEdit, PCProductConfigurationModelDetails, PCTableConstraintAttachAttributeTree, PCTableConstraintDefinition
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 53111
 ms.assetid: 5c12b1f2-eb89-4648-a755-de412f2eadd6
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 91eb5f166633f5be0ad68c039d3e538e4060ea0b
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 3d85d10113e7cc4e95a25efe7fee6d1f23990694
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2815074"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3208487"
 ---
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Restricciones de expresión y tabla en modelos de configuración de productos
 
@@ -63,7 +63,7 @@ La tabla siguiente muestra las combinaciones definidas por la restricción de ta
 Puede crear restricciones de tablas definidas por el sistema y definidas por el usuario. Para obtener más información, consulte [Restricciones de tablas definidas por el usuario o definidas por el sistema](system-defined-user-defined-table-constraints.md).
 
 ## <a name="what-syntax-should-be-used-to-write-constraints"></a>¿Qué sintaxis debe usarse para resolver restricciones de escritura?
-Debe utilizar la sintaxis del lenguaje de modelado de optimización (OML) para escribir las restricciones. El sistema utiliza Microsoft Microsoft Solver Foundation para solucionar las restricciones.
+Debe utilizar la sintaxis del lenguaje de modelado de optimización (OML) para escribir las restricciones. El sistema utiliza Microsoft Solver Foundation para solucionar las restricciones.
 
 ## <a name="should-i-use-table-constraints-or-expression-constraints"></a>¿Se deben usar restricciones de tablas o restricciones de expresión?
 Puede usar restricciones de expresión o restricciones de tablas, en función de cómo prefiere crear las restricciones. Una restricción de tabla se crea como una matriz, mientras que una restricción de expresión es una sentencia individual. Si configura un producto, no importa qué tipo de restricción se usa. El ejemplo siguiente muestra en qué se diferencian los dos métodos.  

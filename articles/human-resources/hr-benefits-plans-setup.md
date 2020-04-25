@@ -3,7 +3,7 @@ title: Crear un nuevo plan de prestaciones
 description: Configurar planes de prestaciones en Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 97c3acf1294b7a8c2496f23a32918152f50a9e5e
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 6e3822a1071023898e459a82c14ff648d8cdebed
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010482"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3230117"
 ---
 # <a name="create-a-benefits-plan"></a>Crear un nuevo plan de prestaciones
-
-[!include [banner](includes/preview-feature.md)]
 
 Este artículo le muestra cómo configurar planes de prestaciones en Dynamics 365 Human Resources.
 
@@ -39,16 +37,16 @@ Este artículo le muestra cómo configurar planes de prestaciones en Dynamics 36
 
    | Campo | Descripción |
    | --- | --- |
-   | Plan | Un identificador único para el plan. |
-   | Descripción | Una descripción del plan. |
-   | Tipo de plan | Cuando crea un nuevo plan, debe especificar el tipo de plan. Un tipo de plan es una agrupación de alto nivel de tipos específicos de prestaciones. Cada tipo de plan especifica si un empleado puede inscribirse en diferentes planes de ese tipo, especifica si los contactos son beneficiarios o dependientes y define las opciones de cobertura. Puede crear nuevos tipos de planes personalizados para satisfacer las necesidades de sus ofertas de prestaciones. Los principales tipos de planes de prestaciones son: <ul><li>401K</li><li>ADD</li><li>Dental</li><li>Bienestar físico</li><li>FSA</li><li>Vida</li><li>LTD</li><li>Cobertura médica</li><li>PTO</li><li>STD</li><li>Visión</li></ul> |
-   | Código de tipo de plan | El código del tipo de plan del tipo de plan. |
-   | Programa | Especifica un programa para asignarlo opcionalmente al plan. |
-   | Agrupación de trabajos | Especifica una agrupación para asignarla opcionalmente al plan. |
-   | Embarque maestro | Especifica si el plan es el plan maestro de la agrupación a la que está asignado. |
-   | Estado | Indica el estado actual del plan de prestaciones. El valor predeterminado es Activo. Si cambia el estado a Inactivo, el plan no estará disponible como selección durante la inscripción. |
-   | Fecha y hora de inicio de validez | La fecha y la hora en las que empieza el plan. El valor predeterminado de la fecha actual del sistema. |
-   | Fecha y hora de fin de validez | La fecha y hora en las que finaliza el plan (el estado cambia a Inactivo). El valor predeterminado es 12/31/2154, que significa nunca. |
+   | **Plan** | Un identificador único para el plan. |
+   | **Descripción** | Una descripción del plan. |
+   | **Tipo de plan** | Cuando crea un nuevo plan, debe especificar el tipo de plan. Un tipo de plan es una agrupación de alto nivel de tipos específicos de prestaciones. Cada tipo de plan especifica si un empleado puede inscribirse en diferentes planes de ese tipo, especifica si los contactos son beneficiarios o dependientes y define las opciones de cobertura. Puede crear nuevos tipos de planes personalizados para satisfacer las necesidades de sus ofertas de prestaciones. Los principales tipos de planes de prestaciones son: <ul><li>401K</li><li>ADD</li><li>Dental</li><li>Bienestar físico</li><li>FSA</li><li>Vida</li><li>LTD</li><li>Cobertura médica</li><li>PTO</li><li>STD</li><li>Visión</li></ul> |
+   | **Código de tipo de plan** | El código del tipo de plan del tipo de plan. |
+   | **Programa** | Especifica un programa para asignarlo opcionalmente al plan. |
+   | **Agrupación de trabajos** | Especifica una agrupación para asignarla opcionalmente al plan. |
+   | **Embarque maestro** | Especifica si el plan es el plan maestro de la agrupación a la que está asignado. |
+   | **Estado** | Indica el estado actual del plan de prestaciones. El valor predeterminado es Activo. Si cambia el estado a Inactivo, el plan no estará disponible como selección durante la inscripción. |
+   | **Fecha y hora de inicio de validez** | La fecha y la hora en las que empieza el plan. El valor predeterminado de la fecha actual del sistema. |
+   | **Fecha y hora de fin de validez** | La fecha y hora en las que finaliza el plan (el estado cambia a Inactivo). El valor predeterminado es 12/31/2154, que significa nunca. |
 
 4. En la pestaña **Configuración**, especifique valores para los siguientes campos, según el tipo de plan que esté creando:
 
@@ -77,42 +75,42 @@ Este artículo le muestra cómo configurar planes de prestaciones en Dynamics 36
 
    | Campo | Descripción |
    | --- | --- |
-   | Permitir/continuar la inscripción | Especifica si los empleados pueden inscribirse en el plan si cumplen con los requisitos de idoneidad.</br></br>Si se establece en No, el plan no estará disponible para los empleados cuando procese la idoneidad. |
-   | Inscribir automáticamente desde el año anterior | Especifica si se debe inscribir automáticamente en el plan a un empleado apto si se inscribió durante el año anterior. |
-   | Inscripción automática de forma predeterminada | Especifica si se selecciona el plan para la inscripción de forma predeterminada. El plan no es obligatorio, por lo que el empleado puede cambiar la selección predeterminada. |
-   | Cerrado para inscripciones nuevas | Especifica si se debe restringir el plan solo a los empleados idóneos que se inscribieron en el plan en el año anterior. |
-   | Plan obligatorio | Especifica si se inscriben automáticamente los empleados en el plan. Los empleados no pueden cambiar la selección de inscripción. |
-   | Fecha de inicio | La fecha en que se creó el plan en la empresa. |
-   | Cuenta de proveedor (proveedor de prestaciones) | El proveedor al que la empresa paga las bonificaciones del plan. |
-   | Nombre (proveedor de prestaciones) | Nombre del proveedor. |
-   | Referencia de proveedor (proveedor de prestaciones) | La referencia del proveedor para el plan. Por ejemplo, el número de plan de grupo de la empresa. |
-   | Referencia alternativa (proveedor de prestaciones) | La referencia alternativa del proveedor para el plan. Por ejemplo, el número de cuenta de la empresa. |
-   | Divisa (proveedor de prestaciones) | La divisa que se utiliza para pagar las bonificaciones al proveedor. |
-   | Cuenta de gastos (proveedor de prestaciones) | La cuenta de contabilidad general que se usa como cuenta de gastos para las bonificaciones del plan. |
-   | Cuenta de proveedor (administrador de prestaciones) | El proveedor al que la empresa paga para que administre el plan. Si el plan se administra automáticamente, deje este campo en blanco. |
-   | Nombre (administrador de prestaciones) | El nombre del proveedor de administración de prestaciones. |
-   | Referencia de proveedor (administrador de prestaciones) | La referencia del proveedor de administración para el plan. |
-   | Referencia alternativa (administrador de prestaciones) | La referencia alternativa del proveedor de administración para el plan. |
-   | Divisa (administrador de prestaciones) | La divisa que se utiliza para pagar al administrador de prestaciones. |
-   | Cuenta de gastos (administrador de prestaciones) | La cuenta contabilidad general que se utiliza como cuenta de gastos para los costes asociados con la administración del plan. |
+   | **Permitir/continuar la inscripción** | Especifica si los empleados pueden inscribirse en el plan si cumplen con los requisitos de idoneidad.</br></br>Si se establece en No, el plan no estará disponible para los empleados cuando procese la idoneidad. |
+   | **Inscribir automáticamente desde el año anterior** | Especifica si se debe inscribir automáticamente en el plan a un empleado apto si se inscribió durante el año anterior. |
+   | **Inscripción automática de forma predeterminada** | Especifica si se selecciona el plan para la inscripción de forma predeterminada. El plan no es obligatorio, por lo que el empleado puede cambiar la selección predeterminada. |
+   | **Cerrado para inscripciones nuevas** | Especifica si se debe restringir el plan solo a los empleados idóneos que se inscribieron en el plan en el año anterior. |
+   | **Plan obligatorio** | Especifica si se inscriben automáticamente los empleados en el plan. Los empleados no pueden cambiar la selección de inscripción. |
+   | **Fecha de inicio** | La fecha en que se creó el plan en la empresa. |
+   | **Cuenta de proveedor** (proveedor de prestaciones) | El proveedor al que la empresa paga las bonificaciones del plan. |
+   | **Nombre** (proveedor de prestaciones) | Nombre del proveedor. |
+   | **Referencia de proveedor** (proveedor de prestaciones) | La referencia del proveedor para el plan. Por ejemplo, el número de plan de grupo de la empresa. |
+   | **Referencia alternativa** (proveedor de prestaciones) | La referencia alternativa del proveedor para el plan. Por ejemplo, el número de cuenta de la empresa. |
+   | **Divisa** (proveedor de prestaciones) | La divisa que se utiliza para pagar las bonificaciones al proveedor. |
+   | **Cuenta de gastos** (proveedor de prestaciones) | La cuenta de contabilidad general que se usa como cuenta de gastos para las bonificaciones del plan. |
+   | **Cuenta de proveedor** (administrador de prestaciones) | El proveedor al que la empresa paga para que administre el plan. Si el plan se administra automáticamente, deje este campo en blanco. |
+   | **Nombre** (administrador de prestaciones) | El nombre del proveedor de administración de prestaciones. |
+   | **Referencia de proveedor** (administrador de prestaciones) | La referencia del proveedor de administración para el plan. |
+   | **Referencia alternativa** (administrador de prestaciones) | La referencia alternativa del proveedor de administración para el plan. |
+   | **Divisa** (administrador de prestaciones) | La divisa que se utiliza para pagar al administrador de prestaciones. |
+   | **Cuenta de gastos** (administrador de prestaciones) | La cuenta contabilidad general que se utiliza como cuenta de gastos para los costes asociados con la administración del plan. |
 
 6. En la pestaña **Filtros**, filtre según sea necesario. Puede filtrar por los siguientes campos:
 
-   - Unidad de negocio
-   - Departamento
-   - Entidad jurídica
-   - Ubicación
-   - Posición
+   - **Unidad de negocio**
+   - **Departamento**
+   - **Entidad jurídica**
+   - **Ubicación**
+   - **Posición**
 
 7. En la pestaña **Reglas de idoneidad**, especifique valores para los siguientes campos:
 
    | Campo | Descripción |
    | --- | --- |
-   | Número de línea | Número de línea de la regla de idoneidad. |
-   | Regla de idoneidad | Una regla de idoneidad para aplicar al plan de beneficios. Esta regla de idoneidad se aplicará al tipo de acción correspondiente y se asociará con el periodo de espera de cobertura y las deducciones especificadas. |
-   | Tipo de acción | La acción para aplicar la regla de idoneidad a: inscripción de prestaciones o vencimiento de prestaciones. |
-   | Período de espera de cobertura | Un valor del formulario de periodos de espera. El periodo de espera de la cobertura determina la cantidad de días o meses que un empleado espera la cobertura de prestaciones o el vencimiento de las prestaciones según los criterios de la regla de idoneidad y el tipo de acción. |
-   | Período de espera de deducción | Un valor del formulario de periodos de espera. La deducción del periodo de espera de la cobertura determina la cantidad de días o meses que un empleado espera las deducciones de su sueldo según los criterios de la regla de idoneidad y el tipo de acción. |
+   | **Número de línea** | Número de línea de la regla de idoneidad. |
+   | **Regla de idoneidad** | Una regla de idoneidad para aplicar al plan de beneficios. Esta regla de idoneidad se aplicará al tipo de acción correspondiente y se asociará con el periodo de espera de cobertura y las deducciones especificadas. |
+   | **Tipo de acción** | La acción para aplicar la regla de idoneidad a: inscripción de prestaciones o vencimiento de prestaciones. |
+   | **Período de espera de cobertura** | Un valor del formulario de periodos de espera. El periodo de espera de la cobertura determina la cantidad de días o meses que un empleado espera la cobertura de prestaciones o el vencimiento de las prestaciones según los criterios de la regla de idoneidad y el tipo de acción. |
+   | **Período de espera de deducción** | Un valor del formulario de periodos de espera. La deducción del periodo de espera de la cobertura determina la cantidad de días o meses que un empleado espera las deducciones de su sueldo según los criterios de la regla de idoneidad y el tipo de acción. |
 
 8. Seleccione **Guardar**.
 

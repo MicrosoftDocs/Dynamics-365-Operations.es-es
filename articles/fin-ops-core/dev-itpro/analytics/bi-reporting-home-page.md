@@ -1,6 +1,6 @@
 ---
-title: Página de inicio de Business Intelligence (BI) y creación de informes
-description: En este tema se tratan los recursos que puede usar para obtener más información sobre Business Intelligence y las herramientas de informes disponibles.
+title: Informes y análisis con la página principal de Power BI
+description: En este tema se tratan los recursos que puede usar para obtener más información sobre inteligencia empresarial y las herramientas de informes disponibles.
 author: sericks007
 manager: AnnBe
 ms.date: 10/02/2019
@@ -17,23 +17,23 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5da4272e65940708d301d465966dea3f53498b48
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 424da665f91820f3fe42c98b352a646dd3db72c5
+ms.sourcegitcommit: 728cd7f723ee821337eee315a27977e99a44d9d3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771573"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "3258589"
 ---
-# <a name="business-intelligence-bi-and-reporting-home-page"></a>Página de inicio de Business Intelligence (BI) y creación de informes
+# <a name="reporting-and-analytics-with-power-bi-home-page"></a>Informes y análisis con la página principal de Power BI
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se tratan los recursos que puede usar para obtener más información sobre Business Intelligence (BI) y las herramientas de informes disponibles.
+En este tema se tratan los recursos que puede usar para obtener más información sobre inteligencia empresarial (BI) y las herramientas de informes disponibles.
 
 ## <a name="get-started"></a>Introducción
 - [Acceso a información e informes](information-access-reporting.md)
 - [Tech Talk: Reporting options](https://www.youtube.com/watch?v=NzZONjKs5xA) (Charla técnica: opciones de informe) (vídeo)
-- [Finance and Operations: blog Power BI Analytics & Reporting Services](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (blog)
+- [Finance and Operations: blog de servicios de análisis e informes de Power BI](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (blog)
 
 ## <a name="analytical-workspaces"></a>Espacios de trabajo analíticos
 Los espacios de trabajo pueden usar infografía y elementos visuales enriquecidos que son compatibles con Microsoft Power BI. Entre estos elementos visuales e infografía se incluyen muchos controles proporcionados por terceros. Por lo tanto, los espacios de trabajo pueden ofrecer a los usuarios una experiencia interactiva altamente visual.

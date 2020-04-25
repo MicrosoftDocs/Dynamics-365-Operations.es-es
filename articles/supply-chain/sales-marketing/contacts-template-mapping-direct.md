@@ -2,7 +2,7 @@
 title: Sincronizar contactos directamente desde Sales con contactos o clientes de Supply Chain Management
 description: En este tema se describen las plantillas y las tareas subyacentes que se usan para sincronizar entidades de Contacto (Contactos) y Contacto (Clientess) directamente de Dynamics 365 Sales a Dynamics 365 Supply Chain Management.
 author: ChristianRytt
-manager: AnnBe
+manager: tfehr
 ms.date: 10/25/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 141464f2ce7cb4ccfd2a8fb7a266e657e8f52015
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 1a7f66797dea62a22d93ab105722bb26b4cf94e1
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814130"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3210120"
 ---
 # <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-supply-chain-management"></a>Sincronizar contactos directamente desde Sales con contactos o clientes de Supply Chain Management
 

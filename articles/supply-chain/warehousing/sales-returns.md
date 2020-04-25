@@ -2,7 +2,7 @@
 title: Devoluciones de ventas
 description: Este tema ofrece información sobre los procesos para devolver pedidos. Incluye información sobre las devoluciones de clientes y su efecto en la gestión de costes y cantidades disponibles de inventario.
 author: omulvad
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReturnTableListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.assetid: 98a4b517-e606-4036-b55f-1ab248898bdf
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b1f5658de1da8a0b6c36d99e4bb9cf401c09ad0b
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 159df9006feff96c98a704f8bdc88a8a6cf05939
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249805"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3209108"
 ---
 # <a name="sales-returns"></a>Devoluciones de ventas
 

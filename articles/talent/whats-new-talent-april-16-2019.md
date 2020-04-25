@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-16
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a37436eb15ee4c561d5d0c15c90e37815cb80860
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: aa61a70e14b7997258376beaf389129a4ad2fa73
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897934"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197276"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-16-2019"></a>Novedades y cambios en Dynamics 365 Talent (16 de abril de 2019)
 
@@ -46,10 +46,6 @@ Los cambios que se describen en esta sección se aplican a la compilación núme
 ### <a name="compensation-region-compensation-level-benefit-option-and-skill-type-entities-in-common-data-service-updated-to-include-customer-field-support"></a>Las entidades de la región de compensación, nivel de compensación, opción de prestación y del tipo de aptitud en Common Data Service se actualizaron para incluir el soporte del campo del cliente
 
 Con esta versión, se han actualizado a estas entidades de Common Data Service para incluir la capacidad de incluir el campo personalizado agregado con el Talent: Core HR.
-
-### <a name="new-common-data-service-entity-support-for-compensation-vesting-rules-compensation-variable-plan-variable-compensation"></a>Nuevo soporte de la entidad de Common Data Service para: Reglas de atribución de compensación, Plan de compensación variable y Compensación variable
-
-Con esta versión se han agregado las Reglas de atribución de compensación, el Plan variable de compensación, y a las entidades de Compensación variable a Common Data Service. Estas entidades también son compatibles con campos personalizados agregados a través de Talent: Core HR.
 
 ### <a name="powerbi-refresh-issues-314342"></a>Problemas de actualización de PowerBI (314342)
 

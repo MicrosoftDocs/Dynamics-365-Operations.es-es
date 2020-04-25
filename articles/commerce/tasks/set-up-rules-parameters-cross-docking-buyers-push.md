@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ecc3e1ce842e8d3b693b5e81ed665e9f3c00bfb5
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 9bccd92946783628dce37c3fd018e4dd927efd49
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023915"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141147"
 ---
 # <a name="set-up-rules-and-parameters-for-cross-docking-and-buyers-push"></a>Configurar las reglas y los parámetros para el tránsito directo y la estrategia de presión
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este procedimiento muestra los pasos para crear Reglas de reabastecimiento. Las reglas de reabastecimiento se pueden usar para controlar la manera en que los productos se distribuyen a los almacenes al usar tránsito directo y estrategia de presión. Las reglas de reabastecimiento se pueden configurar para tiendas o grupos de tiendas. El peso definido para cada línea en una regla controlará la manera en que las cantidades de productos se distribuirán entre almacenes al usar reglas de reabastecimiento como el método de distribución en tránsito directo o estrategia de presión. Este procedimiento usa la empresa de prueba USRT.
 

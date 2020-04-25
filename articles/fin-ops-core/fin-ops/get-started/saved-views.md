@@ -3,7 +3,7 @@ title: Vistas guardadas
 description: Este tema describe cómo usar las características guardadas de las vistas.
 author: jasongre
 manager: AnnBe
-ms.date: 03/02/2020
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: c6a5880c6ae9470dbf7986f39798ec888d0c22ea
-ms.sourcegitcommit: 1789a78de1cbeac19d96767812df653a191c67e9
+ms.openlocfilehash: fe79558b9d2ac4ef1c83918b949d11983b2cc0d8
+ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "3100317"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3260492"
 ---
 # <a name="saved-views"></a>Vistas guardadas
 

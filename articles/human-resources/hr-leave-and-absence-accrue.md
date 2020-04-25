@@ -3,7 +3,7 @@ title: Acumular planes de bajas y ausencias
 description: Puede acumular permisos y ausencias en Dynamics 365 Human Resources para varios empleados o para un individuo.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ba60fc2e5b17ec32aa6ad7eb104e8ae55ddee3bb
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 3048f9b6b52a150219067430abb54e5b5bf5c3e4
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092347"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197322"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Acumular planes de bajas y ausencias
 
@@ -35,7 +35,7 @@ Puede acumular permisos y ausencias en Dynamics 365 Human Resources para varios 
 
 2. Debajo de **Administrar bajas**, seleccione **Acumular planes de permisos y ausencias**.
 
-3. En el cuadro de diálogo **Acumular planes de permisos y ausencias**, en **Acumular a partir de**, seleccione **Fecha de hoy** o seleccione **Fecha personalizada** e introduzca una fecha personalizada.
+3. Apare el cuadro de diálogo **Acumular planes de permiso y ausencia**. En **A partir de**, seleccione **Fecha de hoy** o seleccione **Fecha personalizada** e introduzca una fecha personalizada.
 
 4. Si desea ejecutar el proceso de acumulación en segundo plano, seleccione **Ejecutar en segundo plano** y realice las siguientes tareas:
 
@@ -53,7 +53,7 @@ Puede acumular permisos y ausencias en Dynamics 365 Human Resources para varios 
 
 2. Seleccione **Acumular planes de permisos y ausencias**.
 
-3. En el cuadro de diálogo **Acumular planes de permisos y ausencias**, en **Acumular a partir de**, seleccione **Fecha de hoy** o seleccione **Fecha personalizada** e introduzca una fecha personalizada.
+3. Apare el cuadro de diálogo **Acumular planes de permiso y ausencia**. En **A partir de**, seleccione **Fecha de hoy** o seleccione **Fecha personalizada** e introduzca una fecha personalizada.
 
 4. Si desea ejecutar el proceso de acumulación en segundo plano, seleccione **Ejecutar en segundo plano** y realice las siguientes tareas:
 
@@ -65,15 +65,43 @@ Puede acumular permisos y ausencias en Dynamics 365 Human Resources para varios 
 
    4. Seleccione **Aceptar**. El proceso de acumulación se ejecutará con los parámetros que establezca.
 
-## <a name="preview-features-for-leave-and-absence"></a>Características de vista previa para permisos y ausencias
+## <a name="delete-leave-and-absence-accruals-for-multiple-employees"></a>Eliminar acumulaciones de permisos y ausencias para varios empleados
 
-[!include [banner](includes/preview-feature-leave-absence.md)]
+Eliminar registros de acumulación para un plan e intervalo de fechas específico. Las fechas de acumulación deben ser la de hoy o fechas en el futuro.
 
-Puede habilitar las siguientes características de vista previa para permisos y ausencias:
+1. En la página **Bajas y ausencias**, seleccione la pestaña **Vínculos**.
 
-- **Eliminar acumulaciones de permisos y ausencias**. Eliminar registros de acumulación para un plan e intervalo de fechas específico. Las fechas de acumulación deben ser la de hoy o fechas en el futuro.
+2. Debajo de **Administrar bajas**, seleccione **Eliminar acumulaciones de permisos y ausencias**.
 
-- **Auditoría de acumulación de bajas**. Se muestra cada vez que alguien ejecuta o elimina una acumulación para uno o todos los empleados, junto con la fecha y quién realizó la acción.
+3. En el cuadro de diálogo **Eliminar acumulaciones de planes de permiso y ausencia**, seleccione **Dejar plan**. 
+
+4. Si corresponde, elija **Eliminar ajustes de saldo**.
+
+5. Ingrese o seleccione una **Fecha de abandono de acumulación**. Esta fecha tiene que ser hoy o en el futuro. 
+
+6. Seleccione **Aceptar**. El proceso de acumulación eliminará acumulaciones con los parámetros que establezca. 
+
+## <a name="delete-leave-and-absence-accruals-for-a-single-employee"></a>Eliminar acumulaciones de permisos y ausencias para un empleado
+
+1. En el registro del empleado, seleccione **Baja**.
+
+2. Seleccione **Eliminar acumulaciones de planes de permisos y ausencias**.
+
+3. En el cuadro de diálogo **Eliminar acumulaciones de planes de permiso y ausencia**, seleccione **Dejar plan**. 
+
+4. Si corresponde, elija **Eliminar ajustes de saldo**.
+
+5. Ingrese o seleccione una **Fecha de abandono de acumulación**. Esta fecha tiene que ser hoy o en el futuro. 
+
+6. Seleccione **Aceptar**. El proceso de acumulación eliminará acumulaciones con los parámetros que establezca. 
+
+## <a name="review-leave-accrual-and-deletion-processes"></a>Revisar los procesos de acumulación y eliminación de permisos
+
+**Auditoría de acumulación de permisos** se muestra cada vez que ejecuta o elimina una acumulación para uno o todos los empleados. También se muestra la fecha y la persona que realizó la acción.
+
+1. En la página **Bajas y ausencias**, seleccione la pestaña **Vínculos**.
+
+2. Debajo de **Administrar bajas**, seleccione **Eliminar auditoría de acumulaciones de permisos**.
 
 ## <a name="see-also"></a>Consulte también
 
