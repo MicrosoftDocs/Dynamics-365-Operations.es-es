@@ -70,12 +70,12 @@
                   items:
                     - name: Novedades o cambios de la página principal de Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.11 (julio de 2020)
+                      href: get-started/whats-new-scm-10-0-11.md
                     - name: Supply Chain Management 10.0.10 (mayo de 2020)
                       href: get-started/whats-new-scm-10-0-10.md
                     - name: Supply Chain Management 10.0.9 (abril de 2020)
                       href: get-started/whats-new-scm-10-0-9.md
-                    - name: Supply Chain Management 10.0.8 (febrero de 2020)
-                      href: get-started/whats-new-scm-10-0-8.md
                 - name: Características quitadas u obsoletas
                   items:
                     - name: Características quitadas u obsoletas de Dynamics 365 Supply Chain Management
@@ -349,6 +349,8 @@
               items:
                 - name: 'Previsiones, órdenes de trabajo y proyectos'
                   href: asset-management/integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md
+            - name: Integrar la administración de activos con activos fijos.
+              href: asset-management/integration-to-fixed-assets/fixed-asset-integration.md
             - name: Mantenimiento preventivo y reactivo
               items:
                 - name: Visión general del mantenimiento preventivo
@@ -565,6 +567,8 @@
                   href: cost-management/lifo-physical-value-marking.md
                 - name: Media móvil
                   href: cost-management/moving-average.md
+                - name: Secuencia de costes de reserva de media móvil
+                  href: cost-management/moving-average-fallback.md
                 - name: Actualizaciones físicas y financieras
                   href: cost-management/physical-financial-updates.md
                 - name: Ejecución del precio de coste promedio móvil
@@ -579,7 +583,9 @@
                   href: cost-management/inventory-close.md
                 - name: Ajuste de valores de coste de inventario disponible
                   href: cost-management/adjust-hand-inventory-cost-values.md
-                - name: Informe de vencimiento de inventario
+                - name: Informe de almacenamiento de valor de inventario
+                  href: cost-management/inventory-value-report-storage.md
+                - name: Almacenamiento de informe de vencimiento de inventario
                   href: cost-management/inventory-aging-report-storage.md
             - name: Contabilidad de fabricación
               items:
@@ -1223,6 +1229,8 @@
                   href: inventory/enable-quality-management.md
                 - name: Procesos de administración de la calidad
                   href: inventory/quality-management-processes.md
+                - name: Administración de la calidad para procesos de almacén
+                  href: inventory/quality-management-for-warehouses-processes.md
                 - name: Gestión de disconformidad
                   href: inventory/enable-nonconformance-management.md
                 - name: Configurar requisitos previo para la gestión
@@ -2549,6 +2557,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
                 - name: Agrupamiento del sistema en una lista de trabajo abierta
                   href: warehousing/system-group-on-open-work-list.md
+                - name: Diseño de enrutamiento de documentos para matrículas de entidad
+                  href: warehousing/document-routing-layout-for-license-plates.md
                 - name: Digitalizar códigos de barras mediante una cámara en Dynamics 365 for Finance and Operations
                   href: warehousing/scan-bar-codes-using-a-camera.md
                 - name: Compatibilidad con un lector de códigos de barras
@@ -2653,6 +2663,8 @@
                   href: warehousing/configure-app-field-names-priorities-warehouse.md
                 - name: Configurar dispositivos móviles para el trabajo de almacén
                   href: warehousing/configure-mobile-devices-warehouse.md
+                - name: Matrícula que se recibe con Warehouse Mobile App
+                  href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                 - name: Configurar un elemento de menú del dispositivo móvil para completar el trabajo en un pedido de compra
                   href: warehousing/tasks/set-up-mobile-device-menu.md
                 - name: Configurar un elemento de menú del dispositivo móvil para registrar los artículos recibidos
@@ -2673,6 +2685,8 @@
                   href: warehousing/upgrade-migration-warehouse-management-processes.md
             - name: Recibos para su registro y ubicación
               items:
+                - name: Manejo de almacén de cargas entrantes para pedidos de compra
+                  href: warehousing/inbound-load-handling.md
                 - name: Registrar artículos habilitados para almacenamiento avanzado mediante un diario de recepción de artículos
                   href: warehousing/tasks/register-items-advanced-warehousing.md
                 - name: Registrar artículos habilitados para almacenamiento básico mediante un diario de recepción de artículos
@@ -2682,6 +2696,7 @@
                 - name: Configurar una directiva de ubicación para la ubicación de pedidos de compra
                   href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
                 - name: Configurar una plantilla de trabajo para pedidos de compra
+                  href: warehousing/tasks/set-up-work-template-purchase-orders.md
         - name: Desarrollo de Supply Chain Management
           items:
             - name: Guía de desarrollo de control de Gantt
