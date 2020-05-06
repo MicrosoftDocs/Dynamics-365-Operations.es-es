@@ -1,5 +1,5 @@
 ---
-title: Solucione problemas con el módulo de doble escritura en aplicaciones Finance and Operations
+title: Solucionar problemas con el módulo de doble escritura en aplicaciones Finance and Operations
 description: Este tema proporciona información de solución de problemas que puede ayudarlo a solucionar problemas con el módulo de escritura doble en aplicaciones Finance and Operations.
 author: RamaKrishnamoorthy
 manager: AnnBe
@@ -19,18 +19,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 34c10e38400a72a670a93f2a72d0aa7a4aed561a
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 853791d5ffc1d92b9fbafa2acc13cd5543c38196
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172769"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275542"
 ---
-# <a name="troubleshoot-issues-with-the-dual-write-module-in-finance-and-operations-apps"></a>Solucione problemas con el módulo de doble escritura en aplicaciones Finance and Operations
+# <a name="troubleshoot-issues-with-the-dual-write-module-in-finance-and-operations-apps"></a>Solucionar problemas con el módulo de doble escritura en aplicaciones Finance and Operations
 
 [!include [banner](../../includes/banner.md)]
-
-
 
 Este tema proporciona información para solución de problemas de integración de escritura doble entre las aplicaciones de Finance and Operations y Common Data Service. Específicamente, proporciona información que puede ayudarlo a solucionar problemas con el módulo de **Escritura doble** en aplicaciones Finance and Operations.
 
@@ -41,17 +39,14 @@ Este tema proporciona información para solución de problemas de integración d
 
 Si no puede abrir la página **Doble escritura** seleccionando el mosaico **Doble escritura** en el espacio de trabajo **Gestión de datos**, el servicio de integración de datos probablemente esté inactivo. Cree un ticket de soporte para solicitar un reinicio del servicio de integración de datos.
 
-## <a name="error-when-you-try-to-create-a-new-entity-mapping"></a>Error al intentar crear una nueva asignación de entidad
+## <a name="error-when-you-try-to-create-a-new-entity-map"></a>Error al intentar crear una nueva asignación de entidad
 
-**Credenciales requeridas para arreglar el problema:** Administrador de inquilinos Azure AD
+**Credenciales necesarias para solucionar el problema**: el mismo usuario que configuró la doble escritura.
 
-Es posible que reciba el siguiente mensaje de error cuando intente configurar una nueva entidad para doble escritura:
+Es posible que reciba el siguiente mensaje de error cuando intente configurar una nueva entidad para doble escritura. El único usuario que puede crear una asignación es el usuario que configuró la conexión de doble escritura.
 
 *El código de estado de respuesta no indica éxito: 401 (No autorizado)*
 
-Este error ocurre porque solo un administrador de inquilino Azure AD puede agregar una nueva asignación de entidad.
-
-Para solucionar el problema, inicie sesión en aplicaciones Finance and Operations como inquilino administrador Azure AD. También debe ir a web.PowerApps.com y revalidar su conexión.
 
 ## <a name="error-when-you-open-the-dual-write-user-interface"></a>Error al abrir la interfaz de usuario de doble escritura
 
@@ -63,13 +58,13 @@ Para solucionar el problema, inicie sesión utilizando una ventana InPrivate en 
 
 ## <a name="error-when-you-link-the-environment-for-dual-write-or-add-a-new-entity-mapping"></a>Error al vincular el entorno para doble escritura o agregar una nueva asignación de entidad
 
-**Credenciales requeridas para arreglar el problema:** Administrador de inquilinos Azure AD
+**Rol requerido para solucionar el problema**: Administrador del sistema en aplicaciones de Finance and Operations y Common Data Service.
 
 Puede encontrar el siguiente error al vincular o crear mapas:
 
 *El código de estado de respuesta no indica éxito: 403 (tokenexchange).<br> ID de sesión: \<su id de sesión\><br> ID de actividad raíz: \<su id de actividad raíz\>*
 
-Este error puede ocurrir si no tiene permisos suficientes para vincular escritura doble o crear mapas. Debes usar una cuenta de administrador de inquilinos de Azure AD para vincular entornos y agregar nuevas asignaciones de entidades. Sin embargo, después de la configuración, puede usar una cuenta que no sea de administrador para seguir el estado y editar las asignaciones.
+Este error puede ocurrir si no tiene permisos suficientes para vincular escritura doble o crear mapas. Este error también puede ocurrir si el entorno de Common Data Service se restableció sin desvincular la doble escritura. Cualquier usuario con rol de administrador del sistema en aplicaciones de Finance and Operations y Common Data Service puede vincular los entornos. Solo el usuario que configuró la conexión de doble escritura puede agregar nuevas asignaciones de entidad. Después de la configuración, cualquier usuario con función de administrador del sistema puede monitorear el estado y editar las asignaciones.
 
 ## <a name="error-when-you-stop-the-entity-mapping"></a>Error al detener la asignación de entidad
 
@@ -80,3 +75,14 @@ Es posible que reciba el siguiente mensaje de error cuando intenta detener las a
 Este error ocurre cuando el entorno vinculado Common Data Service no está disponible.
 
 Para solucionar el problema, cree un ticket para el equipo de integración de datos. Adjunte la traza de red para que el equipo de integración de datos pueda marcar los mapas como **No ejecutando** en el back-end.
+
+## <a name="error-while-trying-to-start-an-entity-mapping"></a>Error al intentar iniciar una asignación de entidad
+
+Es posible que reciba un error como el siguiente cuando intenta establecer ese estado de una asignación como **En ejecución**:
+
+*No se puede completar la sincronización de datos inicial. Error: error de doble escritura - error en el registro del complemento: no se pueden construir metadatos de búsqueda de doble escritura. La referencia de objeto de error no está establecida en una instancia de un objeto*.
+
+La solución para este error depende de la causa del error:
+
++ Si la asignación tiene asignaciones dependientes, asegúrese de habilitar las asignaciones dependientes de esta asignación de entidad.
++ Es posible que falten campos de origen o destino en la asignación. Si falta un campo en la aplicación de Finance and Operations, siga los pasos de la sección [Problema de campos de entidad faltantes en mapas](dual-write-troubleshooting-finops-upgrades.md#missing-entity-fields-issue-on-maps). Si falta un campo en Common Data Service, haga clic en el botón **Actualizar entidades** en la asignación para que los campos se rellenen automáticamente en la asignación.

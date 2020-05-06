@@ -3,7 +3,7 @@ title: Recortar imágenes
 description: En este tema se describe cómo recortar imágenes en el generador de sitios de Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 03/03/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 771f98ef11355ad30ededcb310e9794ce792b7f0
-ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
+ms.openlocfilehash: 9496a1f96e2d0e18eb477a9743927b2076c5548a
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3097076"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269576"
 ---
 # <a name="crop-images"></a>Recortar imágenes
 
@@ -41,7 +41,7 @@ Para recortar una imagen al generador de sitios, siga estos pasos.
 
 1. En el panel de navegación izquierdo del generador de sitios de Commerce, seleccione **Biblioteca multimedia**.
 1. En la ventana principal, seleccione la imagen que desea modificar.
-1. En la barra de comandos, seleccione **Editar** para revisar el archivo.
+1. En la barra de comandos, seleccione **Editar**.
 1. Seleccione la imagen para pasar al **Modo de edición**.
 1. En el **Modo de edición**, seleccione **Editar vista por módulo**.
 1. Desde el menú desplegable **Módulo**, seleccione el tipo de módulo.

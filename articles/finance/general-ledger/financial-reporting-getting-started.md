@@ -3,7 +3,7 @@ title: Visión general de informes financieros
 description: Este tema describe cómo acceder a los informes financieros en Microsoft Dynamics 365 Finance y cómo usar las capacidades de informes financieros. Incluye una descripción de los informes financieros predeterminados proporcionados.
 author: aprilolson
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 01fcc7c4f3e1eb7aadfc93b120cd57e62077d0c0
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: 6cd77e22f9c6f90f6aa9934d70a121008e1274dd
+ms.sourcegitcommit: 5419f2b8f51cd5de55be66d1389b5b9d7771fd52
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3249069"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262658"
 ---
 # <a name="financial-reporting-overview"></a>Visión general de informes financieros
 
@@ -83,13 +83,15 @@ Tras la adición de un usuario o el cambio de un rol, el usuario debe poder tene
 ## <a name="report-deletions-and-expirations"></a>Notificar eliminaciones y vencimientos
 Los usuarios que generan un informe pueden eliminar sus propios informes. Los usuarios con el deber **Mantener seguridad de informes financieros** puede eliminar los informes de otros. 
 
-En la versión 10.0.7 se introdujo el concepto de fechas de vencimiento. Una característica nueva obligatoria se habilitará en el espacio de trabajo de administración de características. Esta característica contiene los siguientes cambios:
+En la versión 10.0.8, se introdujo el concepto de fechas de vencimiento. Se habilitará una nueva función requerida en la página **Todas** dentro del espacio de trabajo de gestión de características. La característica **Políticas de retención de informes financieros** contiene los siguientes cambios:
 * Los informes recién generados se marcarán automáticamente con una fecha de vencimiento de 90 días a partir de la fecha en que se generaron
 * Cualquier informe existente que sea anterior a la instalación de la característica tendrá un período de vencimiento de 90 días. La fecha puede mostrarse en blanco durante un corto período de tiempo hasta que se ejecute el servicio de informes financieros, se genere un informe y el servicio realice la actualización de los informes existentes con una fecha de vencimiento en blanco. 
-* Los usuarios con la opción **Mantener seguridad de informes financieros** tienen acceso a esta funcionalidad. Cualquier usuario con el deber **Mantener informes financieros** que tenga concedido el privilegio **Mantener el vencimiento del informe financiero** también tendrá la capacidad de modificar el período de vencimiento. Actualmente hay dos opciones de retención disponibles: 
+* Los usuarios con **Mantener seguridad de informes financieros** tienen acceso a esta funcionalidad. Cualquier usuario con el deber **Mantener informes financieros** que tenga concedido el privilegio **Mantener el vencimiento del informe financiero** también tendrá la capacidad de modificar el período de vencimiento. Actualmente hay dos opciones de retención disponibles. 
   * Un vencimiento de 90 días.
-  * La opción de establecer que el informe nunca venza
-
+  * La opción de establecer que el informe nunca venza.
+  
+Se considerarán opciones adicionales en la funcionalidad futura. El vencimiento de 90 días será el predeterminado y los usuarios con los permisos adecuados pueden anular la configuración predeterminada en la página de lista **Informes financieros**.    
+  
 Cuando se selecciona un vencimiento de 90 días, otorga 90 días a partir de hoy, que es un comportamiento que difiere de los 90 días a partir de la fecha de generación original establecida al generar el informe. 
 
 ## <a name="default-reports"></a>Informes predeterminados

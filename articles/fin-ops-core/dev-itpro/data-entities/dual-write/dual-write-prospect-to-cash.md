@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 12a0e07d1c60a359b3ba6c0d20176927ffe89431
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 57aabeef0ee94b4b13bbe6e3925bcafe1e809ab2
+ms.sourcegitcommit: 984604fd651d74aa49a2d7513f096faaf49f9f27
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172817"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "3270297"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Cliente potencial a efectivo en doble escritura
 
@@ -66,6 +66,14 @@ Los presupuestos de ventas pueden crearse en Sales o Supply Chain Management. Si
 + Puede agregar un descuento al producto en el presupuesto. En este caso, el descuento se sincronizará con Supply Chain Management. Los campos **Descuento**, **Cargos** e **Impuestos** en el encabezado se controlan mediante una configuración compleja en Supply Chain Management. Esta configuración no admite la asignación de la integración. En su lugar, los campos **Precio**, **Descuento**, **Cargo** e **Impuestos** son gestionados y mantenidos en Supply Chain Management.
 + Los campos **% de descuento**, **Descuento** e **Importe del fleje** en el encabezado del presupuesto de ventas son campos de solo lectura.
 + Los campos **Condiciones de flete**, **Condiciones de entrega**, **Método de envío** y **Modo de entrega** no forman parte de las asignaciones predeterminadas. Para asignar estos campos, debe configurar una asignación de valores que sea específica de los datos en las organizaciones entre las que se sincroniza la entidad.
+
+Si también está utilizando la solución Field Service, asegúrese de volver a habilitar el parámetro **Creación rápida de línea de presupuesto**. Volver a habilitar el parámetro le permite continuar creando líneas de presupuesto usando la función de creación rápida.
+1. Navegue a su aplicación Dynamics 365 Sales.
+2. Seleccione el icono de configuración en la barra de navegación superior.
+3. Seleccione **Ajustes avanzados**.
+4. Elija la opción **Personalizar el sistema**.
+5. Seleccione el elemento de menú **Línea de cotización**.
+6. Vaya a la sección **Servicios de datos** y seleccione la casilla **Permitir creación rápida**.
 
 ## <a name="sales-orders"></a>Pedidos de ventas
 

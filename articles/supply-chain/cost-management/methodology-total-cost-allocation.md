@@ -3,7 +3,7 @@ title: Método de asignación de coste total
 description: Este tema proporciona directrices para usar la asignación de coste total (TCA). TCA es un método para calcular el coste entre el producto de fórmula principal para un pedido de lote y los coproductos que se definen para la fórmula.
 author: AndersGirke
 manager: tfehr
-ms.date: 10/24/2017
+ms.date: 04/15/2017
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,18 +19,16 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e621b76742a5a115ba2d77e03b47cd1aead8664
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 758015c566e39df7306e1b34b8d3b42f1f1eba79
+ms.sourcegitcommit: 5419f2b8f51cd5de55be66d1389b5b9d7771fd52
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214674"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262682"
 ---
 # <a name="total-cost-allocation-method"></a>Método de asignación de coste total
 
 [!include [banner](../includes/banner.md)]
-
-Este tema proporciona directrices para usar la asignación de coste total (TCA). TCA es un método para calcular el coste entre el producto de fórmula principal para un pedido de lote y los coproductos que se definen para la fórmula.
 
 La asignación de coste total (TCA) es un método para calcular el coste entre el producto de fórmula principal para un pedido de lote y los coproductos que se definen para la fórmula. Este método es dinámico. Calcula el coste como media ponderada entre las cantidades que se notifican como terminadas del producto de fórmula y los coproductos. Cuando se usa el TCA, no es necesario revisar las asignaciones de costes para cada pedido de lote. Si no se usa el TCA, el cálculo de la fórmula usa la funcionalidad existente.
 

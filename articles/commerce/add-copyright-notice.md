@@ -3,7 +3,7 @@ title: Agregar un aviso de derechos de autor
 description: En este tema se describe cómo agregar un aviso de derechos de autor a su sitio web de comercio electrónico.
 author: psimolin
 manager: AnnBe
-ms.date: 01/23/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 54b48ee74bc9d9f2b77f0584a0bf1739a8dfdbdb
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: a2ed52dbd19508e07fcced92a7fad831180b1d1d
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025491"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269599"
 ---
 # <a name="add-a-copyright-notice"></a>Agregar un aviso de derechos de autor
-
 
 [!include [banner](includes/banner.md)]
 
@@ -51,12 +50,12 @@ Para agregar un aviso de derecho de autor a la parte inferior de cada página qu
 1. En el cuadro de diálogo, seleccione **Bloque de texto** y después seleccione **Aceptar**.
 1. En el panel de navegación, seleccione **Bloque de texto**.
 1. En el panel de propiedades de la derecha, en el campo **Párrafo**, agregue su mensaje de derechos de autor. Por ejemplo, especifique **(C) Fabrikam 2019**.
-1. Seleccione **Guardar**, **Proteger** y **Publicar**.
-1. Vaya a **Plantillas**, seleccione la plantilla y, a continuación, seleccione **Desproteger**.
+1. Seleccione **Guardar**, **Finalizar edición** y **Publicar**.
+1. Vaya a **Plantillas**, seleccione la plantilla y, a continuación, seleccione **Editar**.
 1. En **página Esquema**, expanda **Cuerpo** y, a continuación, expanda **Página predeterminada**.
 1. Seleccione el botón de puntos suspensivos junto a **Espacio de pie de página** y, a continuación, seleccione **Agregar fragmento**.
 1. Seleccione el fragmento que haya creado anteriormente y después, **Seleccionar**.
-1. Proteja la plantilla y publíquela.
+1. Seleccione **Finalizar edición** para proteger la plantilla y luego seleccione **Publicar** para publicarla.
 
 El pie de página que contiene el aviso de derechos de autor aparece automáticamente en la parte inferior de todas las páginas que utilicen la plantilla seleccionada.
 

@@ -3,7 +3,7 @@ title: Visión general de los trabajos de exportación e importación de datos
 description: Use el espacio de trabajo de gestión de datos para crear y administrar trabajos de importación y exportación de datos.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 02/20/2020
+ms.date: 04/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7a4b5396d2bb3fbb98b3f0f8a1bf59d62f673a3d
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: b25edf9fe09c130ea3d55b11f2698b29c7a39a8b
+ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124621"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "3278907"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Visión general de los trabajos de exportación e importación de datos
 
@@ -151,6 +151,18 @@ Los detalles de la ejecución muestran el estado de cada entidad de datos que pr
 Puede descargar los datos provisionales en un archivo dedicado a los trabajos de exportación, o bien descargarlo como un paquete de los trabajos de exportación e importación.
 
 Desde la opción de detalles de ejecución, también puede abrir el registro de ejecución.
+
+## <a name="parallel-imports"></a>Importaciones paralelas
+Para acelerar la importación de datos, se puede habilitar el procesamiento paralelo de la importación de un archivo si la entidad admite importaciones paralelas. Para configurar la importación paralela para una entidad, se deben seguir los siguientes pasos.
+
+1. Vaya a **Administración del sistema \> Áreas de trabajo \> Administración de datos**.
+2. En la sección **Importación y exportación**, seleccione el icono **Parámetros de marco** para abrir la página **Parámetros del marco de importación/exportación de datos**.
+3. En la pestaña **Configuraciones de entidad**, seleccione **Configurar parámetros de ejecución de entidad** para abrir la página **Parámetros de ejecución de importación de entidad**.
+4. Establezca los siguientes campos para configurar la importación paralela para una entidad:
+
+    - En el campo **Entidad**, seleccione la entidad.
+    - En el campo **Importar recuento de registros de umbral**, ingrese el recuento de registros de umbral para la importación. Esto determina el recuento de registros que debe procesar un subproceso. Si un archivo tiene 10K registros, un recuento de registros de 2500 con un recuento de tareas de 4 significará que cada subproceso procesará 2500 registros.
+    - En el campo **Recuento de tareas de importación**, ingrese el recuento de tareas de importación. Este no debe exceder los subprocesos de lote máximos asignados para el procesamiento por lotes en **Administracion del sistema \>Configuración del servidor**.
 
 ## <a name="clean-up-the-staging-tables"></a>Limpiar las tablas de almacenamiento provisional
 Esta funcionalidad ha quedado en desuso desde la Platform update 29. Se ha reemplazado por una nueva versión de la funcionalidad de limpieza del historial de trabajo que se explica a continuación.

@@ -3,20 +3,20 @@ title: Catálogo de formación para Finance and Operations
 description: Encuentra todas las opciones de formación para Finance and Operations.
 author: loreleishannonmsft
 ms.topic: article
-ms.date: 02/19/2020
+ms.date: 04/17/2020
 ms.author: v-lshann
-audience: Application User
+audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Core, Operations
+ms.search.scope: Operations
 ms.search.region: Global
-ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 751e0ec649d962af084f992957f0e4821ea9509d
-ms.sourcegitcommit: 41950e3b5e4d1d0014bef308ac017cb4c2b8e134
+ms.search.validFrom: 2019-1-29
+ms.dyn365.ops.version: 8.0999999999999996
+ms.openlocfilehash: 32b67cfd4c007ddc590cd0ee95255d6f3fbc1d17
+ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3078002"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "3279082"
 ---
 # <a name="learning-catalog-for-finance-and-operations"></a>Catálogo de formación para Finance and Operations
 
@@ -33,6 +33,10 @@ Busque la formación en línea adecuada, talleres presenciales y eventos para su
     ¿Decide a la hora de invertir en nuevas tecnologías? 
 
     [Catálogo de aprendizaje para los responsables de la toma de decisiones empresariales y técnicas](learning-catalog-bdm.md#)
+
+    [Introducción](learning-catalog-bdm.md#get-started)
+
+    [Examen](learning-catalog-bdm.md#exam)
 
         :::column-end:::
     :::column:::
@@ -53,12 +57,14 @@ Busque la formación en línea adecuada, talleres presenciales y eventos para su
 
     [Administración financiera](learning-catalog-business-user.md#financial-management)
 
+    [Examen](learning-catalog-business-user.md#exam)
+
     :::column-end:::
 :::row-end:::
 :::row:::
     :::column:::
 
-        ### <a name="implementation-project-managers"></a>Directores de proyectos de implementación
+    ### <a name="implementation-project-managers"></a>Directores de proyectos de implementación
 
     ¿Es responsable de asegurarse de que la implementación de su empresa se realice sin problemas?
 
@@ -73,6 +79,9 @@ Busque la formación en línea adecuada, talleres presenciales y eventos para su
     [Fabricación](learning-catalog-project-manager.md#manufacturing)
 
     [Gestión de la cadena de suministro](learning-catalog-project-manager.md#supply-chain-management)
+
+    [Exámenes](learning-catalog-project-manager.md#exams)
+
         :::column-end:::
     :::column:::
 
@@ -86,11 +95,15 @@ Busque la formación en línea adecuada, talleres presenciales y eventos para su
 
     [Conocimiento sobre la plataforma central](learning-catalog-administrator.md#core-platform-knowledge)
 
+    [Desarrollo básico](learning-catalog-administrator.md#core-development)
+
     [Migrar y actualizar](learning-catalog-administrator.md#migration-and-upgrade)
 
     [Servicio](learning-catalog-administrator.md#servicing)
 
     [Prueba](learning-catalog-administrator.md#testing)
+
+    [Examen](learning-catalog-administrator.md#exam)
 
   :::column-end:::
 :::row-end:::
@@ -131,6 +144,8 @@ Busque la formación en línea adecuada, talleres presenciales y eventos para su
 
     [Gestión de la cadena de suministro](learning-catalog-functional-consultant.md#supply-chain-management)
 
+    [Exámenes](learning-catalog-functional-consultant.md#exams)
+
     :::column-end:::
 :::row-end:::
 :::row:::
@@ -141,6 +156,10 @@ Busque la formación en línea adecuada, talleres presenciales y eventos para su
     ¿Es responsable de ayudar a sus clientes a comprar la solución adecuada? 
 
     [Catálogo de aprendizaje para los departamentos de marketing y ventas de los partners de Microsoft](learning-catalog-partner-sales.md)
+
+    [Introducción](learning-catalog-partner-sales.md#get-started)
+
+    [Examen](learning-catalog-partner-sales.md#exam)
 
         :::column-end:::
     :::column:::

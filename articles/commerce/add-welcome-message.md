@@ -3,7 +3,7 @@ title: Agregar un mensaje de bienvenida
 description: Este tema describe cómo agregar un mensaje de bienvenida en su sitio web de Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ca10b01268b5dcd4c6fe448d90cd0ebd65a2673b
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: d2a125b4e71016ad620f128af2e3c9f29aa04f4c
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001263"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269627"
 ---
 # <a name="add-a-welcome-message"></a>Agregar un mensaje de bienvenida
 
@@ -41,17 +41,14 @@ Cuando se agrega un mensaje de bienvenida a un fragmento de encabezado compartid
 
 Para agregar un mensaje de bienvenida al sitio, siga estos pasos.
 
-1. En Dynamics 365 Commerce, vaya a su sitio.
+1. En el generador de sitios de Commerce, vaya a su sitio.
 1. Seleccione **Fragmentos**.
 1. Seleccione el fragmento de encabezado al que agregar el mensaje.
 1. En el árbol de esquema, expanda **Mensajes de error o información**.
-1. Seleccione el módulo de alerta.
-
-    Si no existe todavía un módulo de alerta, seleccione los puntos suspensivos (**...**) situados junto a **Mensajes de error o información** y, a continuación, seleccione **Agregar módulo**. Seleccione el módulo de alerta y, a continuación, seleccione **Aceptar**.
-
+1. Seleccione el módulo de alerta y, a continuación, seleccione **Aceptar**. Si no existe todavía un módulo de alerta, primero seleccione los puntos suspensivos (**...**) situados junto a **Mensajes de error o información** y, a continuación, seleccione **Agregar módulo**.
 1. En el panel de propiedades de la derecha, en la pestaña **Datos**, seleccione **Agregar origen de datos** y, a continuación, **Contenido**.
 1. En el campo **Texto de entrada**, escriba el texto del mensaje de bienvenida.
-1. Guarde el fragmento de encabezado, protéjalo y publíquelo.
+1. Seleccione **Guardar** y seleccione **Finalizar edición** para proteger el fragmento de encabezado y luego seleccione **Publicar** para publicarlo. 
 
 El mensaje de bienvenida aparecerá ahora en la parte superior de cada página del sitio que usa el fragmento de encabezado seleccionado.
 

@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b090450c6b39607f9661667f8063998bbe5ff52
-ms.sourcegitcommit: c79062ba89498aa3fe3d86e478d9f32484f5f6dc
+ms.openlocfilehash: e1d7828e6bb9a3684c1d76e2cfac96174a8dfbf4
+ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3224918"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3268825"
 ---
 # <a name="quality-management-overview"></a>Visión general de la gestión de la calidad
 
@@ -43,7 +43,11 @@ La gestión de calidad es flexible y puede ejecutarse de distintas maneras para 
 
 -   Inicie automáticamente un proceso de control de calidad en función de los criterios predefinidos (sobre el registro del almacén de un pedido de compra para un proveedor específico).
 -   Bloquear el inventario durante la inspección para evitar que el inventario no aprobado se use (bloqueo completo de las cantidades de pedido de compra).
--   Use el muestreo del artículo como parte de una asociación de calidad para definir la cantidad de inventario físico actual que debe inspeccionarse. El muestreo puede basarse en cantidades fijas o en un porcentaje.
+-   Use el muestreo del artículo como parte de una asociación de calidad para definir la cantidad de inventario físico actual que debe inspeccionarse. El muestreo puede basarse en cantidades fijas o en un porcentaje, o en una matrícula completa.
+
+> [!NOTE]
+> La característica _Administración de la calidad para procesos de almacén_ amplía las capacidades de la gestión de calidad. Si está utilizando esta función, vea [Gestión de calidad para procesos de almacén](quality-management-for-warehouses-processes.md) para ver ejemplos de cómo funciona la gestión de calidad cuando está habilitada.
+
 -   Crear pedidos de calidad para recepciones parciales. Para crear un pedido de calidad basado en la cantidad que se recibe físicamente con un pedido, debe seleccionar la casilla de verificación **Por cantidad actualizada** en el formulario **Muestreo de artículos** .
 -   Permite crear tipos de prueba que incluyen mínimo, máximo y valores de prueba de destino, y realizar pruebas cualitativas en contraposición a cuantitativas que tengan resultados de validación predefinidos.
 -   Especifique un nivel de calidad aceptable (AQL) para controlar las tolerancias de medida de calidad.
@@ -428,6 +432,9 @@ En la producción, si establece el campo **Tipo de evento** en **Informar como c
 </tbody>
 </table>
 
+> [!NOTE]
+> La característica *Gestión de calidad para procesos de almacén* agrega capacidades para el procesamiento de pedidos de calidad para la producción con **Tipo de evento** establecido en *Informar como terminado* y **Ejecución** establecido en *Después*, y para compras con **Tipo de evento** establecido en *Registro*. Para más detalles, vea [Administración de la calidad para procesos de almacén](quality-management-for-warehouses-processes.md).
+
 ## <a name="quality-management-pages"></a>Páginas de administración de calidad
 <table>
 <colgroup>
@@ -495,3 +502,5 @@ Debe definir una asociación de calidad para cada variación de un proceso empre
 [Procesos de administración de la calidad](quality-management-processes.md)
 
 [Gestión de disconformidad](enable-nonconformance-management.md)
+
+[Administración de la calidad para procesos de almacén](quality-management-for-warehouses-processes.md)

@@ -3,7 +3,7 @@ title: Estados de ciclo de vida de solicitud de mantenimiento
 description: Este tema describe cómo configurar los estados de ciclo de vida de la solicitud de mantenimiento en Administración de activos.
 author: josaw1
 manager: tfehr
-ms.date: 07/26/2019
+ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d1e4412af0619b57467b5bcba75ea7259604d1d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 08c45742b064f3a13a0ea2704f8873b9c53aad4e
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209016"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275635"
 ---
 # <a name="maintenance-request-lifecycle-states"></a>Estados de ciclo de vida de solicitud de mantenimiento
 
@@ -47,7 +47,7 @@ Los estados de ciclo de vida de solicitud de mantenimiento definen las etapas po
 6. Establezca la opción **Establecer el final real** en **Sí** si se deben introducir una fecha y hora finales reales automáticamente en una solicitud de mantenimiento que se encuentre en este estado de ciclo de vida.
 7. Establezca la opción **Crear orden de trabajo** en **Sí** si se puede crear una orden de trabajo a partir de una solicitud de mantenimiento que se encuentre en este estado de ciclo de vida.
 8. Establezca la opción **Eliminar** en **Sí** si una solicitud de mantenimiento se puede eliminar siempre que se encuentre en este estado de ciclo de vida.
-9. En el FastTab **Actualizar**, las opciones **Entrante** y **Saliente** de la sección **Activo** son relevantes si usa la reparación interna. Establezca la opción adecuada en **Sí** si se debe actualizar automáticamente el estado de ciclo de vida de los activos seleccionados en una solicitud de mantenimiento a **Entrante** o **Saliente** cuando el estado de ciclo de vida de la solicitud de mantenimiento de dicha solicitud de mantenimiento se establece en **Entrante** o **Saliente**.
+9. En la ficha desplegable **Actualizar**, las opciones **Entrante** y **Saliente** de la sección **Activo** son relevantes si utiliza la reparación de depósito. Establezca la opción adecuada en **Sí** si el estado del ciclo de vida de los activos seleccionados en una solicitud de mantenimiento debe actualizarse automáticamente a **Entrante** o **Saliente** cuando el estado del ciclo de vida de la solicitud de mantenimiento de esa solicitud de mantenimiento se establece en **Entrante** o **Saliente**.
 
 La ilustración siguiente muestra un ejemplo de la página **Estados de ciclo de vida de solicitud de mantenimiento**.
 

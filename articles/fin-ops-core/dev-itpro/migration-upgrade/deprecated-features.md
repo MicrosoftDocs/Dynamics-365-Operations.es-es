@@ -3,7 +3,7 @@ title: Funciones quitadas u obsoletas de versiones anteriores
 description: Este tema describe las características que se eliminaron o que se planearon eliminar de Dynamics 365 for Finance and Operations y versiones anteriores de ese producto.
 author: sericks007
 manager: AnnBe
-ms.date: 04/03/2020
+ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c1aade5d1272e069c1c2e3470363ffd7d5fc3cdc
-ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
+ms.openlocfilehash: be266f838c5e6cd10655546179e9075e36570bfc
+ms.sourcegitcommit: 399f128d90b71bd836a1c8c0c8c257b7f9eeb39a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3225137"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "3284023"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Funciones quitadas u obsoletas de versiones anteriores
 
@@ -230,7 +230,7 @@ La compatibilidad para crear los pedidos de ventas basados en proyectos donde el
 | **¿Reemplazado por otra característica?**   | N. º |
 | **Áreas de producto afectadas**         | Gestión de información de productos |
 | **Opción de implementación**              | Todos  |
-| **Estado**                         | Eliminado desde Finance and Operations 10.0.0 con Platform update 24. (Si y solo si necesita reparar la corrupción de datos causada por un cambio de nombre anterior de la clave principal de un producto lanzado, comuníquese con el Soporte de Microsoft para solicitar la eliminación temporal de esta restricción). |
+| **Estado**                         | Eliminado desde Finance and Operations 10.0.0 con Platform update 24.|
 
 
 ## <a name="finance-and-operations-813-with-platform-update-23"></a>Finance and Operations 8.1.3 con Platform update 23
@@ -267,7 +267,7 @@ Los indicadores de rendimiento clave incrustados (KPIs) podrían ser modelados e
 | **¿Reemplazado por otra característica?**   | Esta advertencia se reemplazará por un error de compilación en el futuro. |
 | **Áreas de producto afectadas**         | Herramientas de desarrollo de Visual Studio |
 | **Opción de implementación**              | Todos |
-| **Estado**                         | En desuso: la advertencia se convertirá en un error de tiempo de compilación en el futuro. Este cambio está dirigido con actualizaciones de plataforma para la versión 10.0.11 de aplicaciones Finance and Operations. |
+| **Estado**                         | Obsoleto: la advertencia es un error en tiempo de compilación con actualizaciones de plataforma para la versión 10.0.11 de aplicaciones de Finance and Operations. |
 
 #### <a name="complete-list"></a>Lista completa
 Para obtener acceso a la lista completa de API que se están dejando de utilizar, consulte [Deprecación de métodos y elementos de metadatos](deprecation-deletion-apis.md).

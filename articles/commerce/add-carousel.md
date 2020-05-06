@@ -3,7 +3,7 @@ title: Módulo de carrusel
 description: En este tema se tratan los módulos de carrusel y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f279d7db0a92df9e64b1d3f6ca01c65ca1478d79
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: f399e4c5618b65b781fdd3ec835e841614579313
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025790"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269737"
 ---
 # <a name="carousel-module"></a>Módulo de carrusel
 
@@ -58,9 +58,10 @@ Puede agregar los módulos de bloque de contenido dentro de un módulo de carrus
 
 Para agregar un módulo de carrusel a una página nueva y establecer las propiedades necesarias, siga estos pasos.
 
-1. Cree una plantilla de página con el nombre **plantilla de carrusel**.
+1. Seleccione **Nuevo** para crear una plantilla de página.
+1. En el cuadro de diálogo **Nueva plantilla**, debajo de **Nombre de la plantilla**, ingrese **Plantilla de carrusel** y luego seleccione **Aceptar**.
 1. En el espacio **Cuerpo**, agregue un módulo de **Página predeterminada**.
-1. Proteja la plantilla y publíquela. 
+1. Seleccione **Finalizar edición** para proteger la plantilla y luego seleccione **Publicar** para publicarla.  
 1. Use la plantilla de carrusel que acaba de crear para crear una página que se llame **página de carrusel**.
 1. En el espacio **Principal** de la página nueva, agregue un módulo de contenedor. 
 1. En el panel de la derecha, establezca el valor de **Ancho** para **Rellenar pantalla**.
@@ -68,8 +69,8 @@ Para agregar un módulo de carrusel a una página nueva y establecer las propied
 1. Agregue un módulo de bloque de contenido al módulo de carrusel. Establezca las propiedades del módulo de bloque de contenido proporcionando **Encabezado**, **Vínculo**, **Diseño** y otras propiedades.
 1. Agregue y configure otro módulo de bloque de contenido.
 1. Establezca propiedades adicionales para el módulo de carrusel según corresponda.
-1. Guarde la página y obtenga una vista previa de ella. La página debe mostrar un carrusel con dos módulos dentro (un módulo de elemento principal y un módulo de características). Puede cambiar las propiedades adicionales para que los módulos de carrusel, elemento principal y características logren el efecto deseado.
-1. Termine de editar la página y publíquela.
+1. Seleccione **Guardar** y luego seleccione **Vista previa** para previsualizar la página. La página debe mostrar un carrusel con dos módulos dentro (un módulo de elemento principal y un módulo de características). Puede cambiar las propiedades adicionales para que los módulos de carrusel, elemento principal y características logren el efecto deseado.
+1. Seleccione **Finalizar edición** para proteger la página y luego seleccione **Publicar** para publicarla.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

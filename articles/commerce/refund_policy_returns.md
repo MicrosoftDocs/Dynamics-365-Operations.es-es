@@ -17,18 +17,16 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
-ms.openlocfilehash: 66bb9bbd338561315f2f69ae4aff86a67513b190
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: c2a9325f09ffe43c3436b7e0ca2ab511e1f57f83
+ms.sourcegitcommit: 02640a0f63daa9e509146641824ed623c4d69c7f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024009"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "3265602"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>Crear y actualizar una directiva de devoluciones y reembolsos para un canal
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
-
 
 ## <a name="overview"></a>Visión general
 

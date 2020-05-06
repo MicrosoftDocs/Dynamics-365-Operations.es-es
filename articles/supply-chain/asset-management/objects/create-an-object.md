@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f734def69ff50549acae1506015ce9b23a1b8a93
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f5c77f32caad5e2e79cbc0e21f72a3daa79acecb
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209913"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3274174"
 ---
 # <a name="create-an-asset"></a>Crear un activo
 
@@ -38,13 +38,13 @@ En este tema se describe cómo crear un activo en la Administración de activos.
 3. En el diálogo **Crear activos**, inserte datos relativos al **Activo** (el id. de activo) y el nombre del activo. Seleccione la fecha y la hora para el activo en el campo **Vigente**. A partir de esa fecha podrá instalar el activo en una ubicación técnica, así como mover y reemplazar el activo en una estructura de activo.
 4. En el campo **Tipo de activo**, seleccione el tipo del activo (campo obligatorio). Si es necesario, seleccione **Fabricante del activo** y **Modelo del activo** para el activo. Si solo se ha configurado un producto, ese producto se seleccionará automáticamente en el campo **Fabricante del activo**. Las selecciones disponible en los **Fabricante del activo** y **Modelo del activo** dependerán de la configuración de [Fabricantes y modelos del activo](../setup-for-objects/product-and-model.md).
 5. En el grupo **Activo principal**, el campo **Activo** está en blanco de forma predeterminada. Si es necesario, puede seleccionar un activo principal. Todos los campos del grupo **Activo principal** se rellenarán automáticamente.
->[!NOTE]  
->Al seleccionar un activo principal, hay dos o tres pestañas disponibles: la pestaña **Mis activos** contiene los activos relacionados con las ubicaciones técnicas a las que usted (el trabajador de mantenimiento conectado al sistema) puede ser asignado. Si no se ha configurado ninguna ubicación técnica para un trabajador de mantenimiento en el formulario [Trabajadores de mantenimiento y grupos de trabajadores](../setup-for-objects/workers-and-worker-groups.md), la pestaña **Mis activos** no estará visible. La pestaña **Activos activos** contiene una lista de todos los activos cuyo estado de ciclo de vida es "Activo". La pestaña **Vista de activos** muestra una vista de árbol de las ubicaciones técnicas y los activos instalados en esas ubicaciones.
+    >[!NOTE]  
+    >Al seleccionar un activo principal, hay dos o tres pestañas disponibles: la pestaña **Mis activos** contiene los activos relacionados con las ubicaciones técnicas a las que usted (el trabajador de mantenimiento conectado al sistema) puede ser asignado. Si no se ha configurado ninguna ubicación técnica para un trabajador de mantenimiento en el formulario [Trabajadores de mantenimiento y grupos de trabajadores](../setup-for-objects/workers-and-worker-groups.md), la pestaña **Mis activos** no estará visible. La pestaña **Activos activos** contiene una lista de todos los activos cuyo estado de ciclo de vida es "Activo". La pestaña **Vista de activos** muestra una vista de árbol de las ubicaciones técnicas y los activos instalados en esas ubicaciones.
 
 6. La ubicación técnica predeterminada que ha configurado se sugiere para el activo en el campo **Grupo de activos** > **Ubicación técnica**. Seleccione otra ubicación técnica si es necesario.
 
->[!NOTE]
->Después de crear un activo, puede instalarlo en otra ubicación técnica si es necesario. Solo se pueden instalar activos de nivel superior (activos que no tienen un activo principal actualmente) en una ubicación técnica. Esto significa que los activos de nivel superior y los activos secundarios se instalan en la ubicación técnica seleccionada. Para obtener más información sobre la instalación de activos en ubicaciones técnicas, consulte [Introducción a las ubicaciones técnicas](../functional-locations/introduction-to-functional-locations.md).
+    >[!NOTE]
+    >Después de crear un activo, puede instalarlo en otra ubicación técnica si es necesario. Solo se pueden instalar activos de nivel superior (activos que no tienen un activo principal actualmente) en una ubicación técnica. Esto significa que los activos de nivel superior y los activos secundarios se instalan en la ubicación técnica seleccionada. Para obtener más información sobre la instalación de activos en ubicaciones técnicas, consulte [Introducción a las ubicaciones técnicas](../functional-locations/introduction-to-functional-locations.md).
 
 7. Haga clic en **Aceptar**.
 8. Seleccione el activo en la lista **Todos los activos** y haga clic en el botón **Editar** para agregar más información al activo.

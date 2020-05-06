@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: f7ee0b5aa4e72614205e129acd986376b33efc70
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: d5d9dbce0c74d32107db6bbae033b921e4201693
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172700"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275659"
 ---
 # <a name="general-troubleshooting"></a>Solución de problemas generales
 
@@ -70,14 +70,12 @@ Para activar el registro de seguimiento, siga estos pasos.
 Para ver el registro de seguimiento, siga estos pasos.
 
 1. Inicie sesión en la aplicación Finance and Operations, abra la página **Configuración**, y luego, en **Personalización**, seleccione **Registro de seguimiento de complemento**.
-2. Encuentre los registros de seguimiento donde el campo **Escribir nombre** se establece en **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin**.
+2. Encuentre los registros de seguimiento donde el campo **Escribir nombre** se establece en **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
 3. Haga doble clic en un elemento para ver el registro completo y luego, en la ficha desplegable **Ejecución**, revise el texto **Bloque de mensajes**.
 
 ## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Habilite el modo de depuración para solucionar problemas de sincronización en vivo en aplicaciones Finance and Operations
 
-**Rol requerido para ver los errores:** Administrador del sistema
-
-Los errores de doble escritura que se originan en Common Data Service puede aparecer en la aplicación Finance and Operations. En algunos casos, el texto completo del mensaje de error no está disponible porque el mensaje es demasiado largo o contiene información de identificación personal (PII). Puede activar el registro detallado de errores siguiendo estos pasos.
+**Rol requerido para ver los errores**: los errores de doble escritura del administrador del sistema que se originan en Common Data Service pueden aparecer en la aplicación de Finance and Operations. En algunos casos, el texto completo del mensaje de error no está disponible porque el mensaje es demasiado largo o contiene información de identificación personal (PII). Puede activar el registro detallado de errores siguiendo estos pasos.
 
 1. Todas las configuraciones del proyecto en las aplicaciones Finance and Operations tienen una propiedad **IsDebugMode** en la entidad **DualWriteProjectConfiguration**. Abra la entidad **DualWriteProjectConfiguration** usando el complemento de Excel.
 
@@ -92,7 +90,7 @@ Los errores de doble escritura que se originan en Common Data Service puede apar
 
 ## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Verifique los errores de sincronización en la máquina virtual para la aplicación Finance and Operations
 
-**Rol requerido para ver los errores:** Administrador del sistema
+**Rol requerido para ver los errores**: Administrador del sistema
 
 1. Inicie sesión en Microsoft Dynamics LifeCycle Services (LCS).
 2. Abra el proyecto LCS que seleccionó para realizar la prueba de escritura dual.
@@ -104,7 +102,7 @@ Los errores de doble escritura que se originan en Common Data Service puede apar
 
 ## <a name="unlink-and-link-another-common-data-service-environment-from-a-finance-and-operations-app"></a>Desvincular y vincular a otro entorno de Common Data Service de una aplicación Finance and Operations
 
-**Credenciales requeridas para desvincular el entorno:** Administrador de inquilinos Azure AD
+**Rol requerido para desvincular el entorno**: Administrador del sistema para cualquier aplicación de Finance and Operations o Common Data Service.
 
 1. Iniciar sesión en la aplicación Finance and Operations.
 2. Vaya a **Espacios de trabajo \> Gestión de datos** y seleccione el mosaico **Doble escritura**.
@@ -113,3 +111,13 @@ Los errores de doble escritura que se originan en Common Data Service puede apar
 5. Seleccione **Sí** para confirmar la operación.
 
 Ahora puede vincular un nuevo entorno.
+
+## <a name="unable-to-view-the-sales-order-line-information-form"></a>No se puede ver el formulario de información de línea para el pedido de ventas 
+
+Cuando crea un pedido de ventas en Dynamics 365 Sales, al hacer clic en **+ Agregar productos** podría redirigírsele al formulario de línea de pedido de Dynamics 365 Project Operations. No hay forma desde ese formulario de ver el formulario de **Información** de la línea de pedido de ventas. La opción para **Información** no aparece en el menú desplegable bajo **Nueva línea de pedido**. Esto sucede porque Project Operations se ha instalado en su entorno.
+
+Para volver a habilitar la opción de formulario **Información**, siga estos pasos:
+1. Navegue hasta la entidad **Línea de pedido**.
+2. Busque el formulario **Información** bajo el nodo de formularios. 
+3. Seleccione el formulario **Información** y haga clic en **Habilitar roles de seguridad**. 
+4. Cambie la configuración de seguridad a **Mostrar para todos**.

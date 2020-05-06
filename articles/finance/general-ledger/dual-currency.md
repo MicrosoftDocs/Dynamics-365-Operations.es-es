@@ -3,7 +3,7 @@ title: Divisa dual
 description: Este tema proporciona información sobre la divisa dual, donde la divisa de notificación se usa como segunda divisa de contabilidad para Microsoft Dynamics 365 Finance.
 author: kweekley
 manager: AnnBe
-ms.date: 08/07/2019
+ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4a01b8387afd45648f1205d4246378edc8a9e79b
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: 8b71b571b03e8fa2648c90258bbcaa020baeabc0
+ms.sourcegitcommit: 984604fd651d74aa49a2d7513f096faaf49f9f27
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3249020"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "3270321"
 ---
 # <a name="dual-currency"></a>Divisa dual
 
@@ -174,10 +174,10 @@ Además, cambios importantes se han realizado en el proceso de depreciación. Es
 
         | Activo fijo | Reserva      | Tipo de transacción | Fecha de la transacción | Divisa | Importe en divisa de la transacción | Importe  | Tasa de cambio | Importe en divisa de notificación |
         |-------------|-----------|------------------|------------------|----------|--------------------------------|---------|-----------|---------------------------|
-        | BUIL-00001  | 200\_SLLT | Adquisición      | 6/3/2016         | Coronas danesas      | 1.000.000                      | 500,000 | 2,5       | 250,000                   |
-        | BUIL-00001  | 200\_SLLT | Depreciación     | 6/3/2016         | Coronas danesas      | 50.000                         | 50.000  | 2,5       | 250,000                   |
-        | BUIL-00001  | 200\_SLLT | Depreciación     | 6/3/2016         | Coronas danesas      | 50.000                         | 50.000  | 2,5       | 250,000                   |
-        | BUIL-00001  | 200\_SLLT | Depreciación     | 6/3/2016         | Coronas danesas      | 50.000                         | 50.000  | 2,5       | 250,000                   |
+        | BUIL-00001  | 200\_SLLT | Adquisición      | 6/3/2016         | Coronas danesas      | 1.000.000                      | 500,000 | 2.5       | 250,000                   |
+        | BUIL-00001  | 200\_SLLT | Depreciación     | 6/3/2016         | USD      | 50,000                         | 50,000  | 2.5       |  25,000                   |
+        | BUIL-00001  | 200\_SLLT | Depreciación     | 6/3/2016         | USD      | 50,000                         | 50,000  | 2.5       |  25,000                   |
+        | BUIL-00001  | 200\_SLLT | Depreciación     | 6/3/2016         | USD      | 50,000                         | 50,000  | 2.5       |  25,000                   |
 
     - Muchos clientes realizaban el seguimiento de los detalles de transacción de activos en libros. Estos detalles incluyen los tipos de cambio e importes. Si tiene estos datos en un libro, puede crear un tipo de cambio personalizado y actualizarlo con los tipos de cambio del libro. A continuación este tipo de cambio se va a utilizar para especificar un tipo de cambio predeterminado en la fecha de adquisición y para calcular el importe de la divisa de notificación. Si no se selecciona ningún tipo de cambio, el asistente usa el tipo de cambio definido en el libro mayor.
     - Los importes del tipo de cambio y la divisa de notificación se pueden cambiar. Si se cambia el tipo de cambio, el importe de la divisa de notificación se vuelve a calcular usando el nuevo tipo.
