@@ -3,7 +3,7 @@ title: Pagos de impuestos y reglas de redondeo
 description: En este artículo se explica cómo funciona la configuración de la regla de redondeo en las autoridades fiscales y el redondeo del saldo de impuestos durante el trabajo Liquidar y registrar impuestos.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 05/30/2018
+ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: yijialuan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e66a62007025964b3d58ff0620ebecd6d9769f9
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: adc48d1841903670577684b1c3d773d323c19ea1
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771761"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275683"
 ---
 # <a name="sales-tax-payments-and-rounding-rules"></a>Pagos de impuestos y reglas de redondeo
 
@@ -43,26 +43,26 @@ El total de impuestos para un período muestra un saldo de crédito de -98.765,4
 
 La entidad jurídica desea utilizar un método de redondeo que redondee el saldo al 1,00 más cercano. El usuario a cargo de contabilizar las cuentas de los impuestos sobre las ventas debe seguir los siguientes pasos.
 
-1.  Haga clic en Impuestos &gt; Impuestos indirectos &gt; Impuestos &gt; Autoridades fiscales.
-2.  En la ficha desplegable General, seleccione Normal en el campo Forma de redondear.
-3.  En el campo Redondear, escriba 1,00.
-4.  A la hora de pagar impuestos a la autoridad fiscal, abra la página Liquidar y registrar impuestos. (Haga clic en Impuestos &gt; Declaraciones &gt; Impuestos &gt; Liquidar y registrar impuestos).
-5.  En la cuenta de liquidación de impuestos, el monto de deuda tributaria 98.765,43 se redondea a 98.765.
+1. Haga clic en **Impuestos** > **Impuestos indirectos** > **Impuestos** > **Autoridades fiscales**.
+2. En la ficha desplegable **General**, seleccione **Normal** en el campo **Forma de redondear**.
+3. En el campo **Redondear**, escriba 1,00.
+4. A la hora de pagar impuestos a la autoridad fiscal, vaya a **Impuesto** > **Declaraciones** > **Impuestos** > **Liquidar y registrar impuestos**. En la cuenta de liquidación de impuestos, puede ver que el monto de deuda tributaria **98 765,43** se redondea a **98 765**.
 
-La siguiente tabla muestra cómo el monto 98.765,43 se redondea mediante cada uno de los métodos de redondeo disponibles en el campo Forma de redondeo en la página Autoridades fiscales.
+La siguiente tabla muestra cómo el monto 98 765,43 se redondea mediante cada uno de los métodos de redondeo disponibles en el campo **Forma de redondeo** en la página **Autoridades fiscales**.
 
-| Opción Forma de redondeo                | Valor de redondeo = 0,01 | Valor de redondeo = 0,10 | Valor de redondeo = 1,00 | Valor de redondeo = 100,00 |
-|-------------------------------------|------------------------|------------------------|------------------------|--------------------------|
-| Normal                              | 98.765,43              | 98,765,40              | 98.765,00              | 98.800,00                |
-| Hacia abajo                            | 98.765,43              | 98.765,40              | 98.765,00              | 98.700,00                |
-| Redondeo por arriba                         | 98.765,43              | 98.765,50              | 98.766,00              | 98,800.00                |
-| Ventaja propia, para un saldo de crédito | 98.765,43              | 98.765,40              | 98.765,00              | 98.700,00                |
-| Ventaja propia, para un saldo de débito  | 98,765.43              | 98,765.50              | 98,766.00              | 98,800.00                |
+> [!NOTE]                                                                                  
+> Si el valor de redondeo se establece como 0,00, entonces:
+>
+> - Para el redondeo normal, el comportamiento de redondeo es el mismo que para **Redondeo = 0,01**.
+> - Para **Opciones de forma de redondeo**, **A la baja**, **Al alza** y **Ventaja propia**, el comportamiento es el mismo que para **Redondeo = 1,00**.
 
-
-### <a name="no-rounding-at-all-since-the-round-off-is-000"></a>No se redondea en absoluto, ya que el redondeo es 0,00
-
-round(1,0151, 0,00) = 1,0151 round(1,0149, 0,00) = 1,0149
+| Opción Forma de redondeo                | Valor de redondeo = 0,01 | Valor de redondeo = 0,10 | Valor de redondeo = 1,00 | Valor de redondeo = 100,00 | Valor de redondeo = 0,00   |
+|-------------------------------------|------------------------|------------------------|------------------------|--------------------------|--------------------------|
+| Normal                              | 98,765.43              | 98,765.40              | 98,765.00              | 98,800.00                | 98,765.43                |
+| Hacia abajo                            | 98,765.43              | 98,765.40              | 98,765.00              | 98,700.00                | 98,765.00                |
+| Redondeo al alza                         | 98,765.43              | 98,765.50              | 98,766.00              | 98,800.00                | 98,766.00                |
+| Ventaja propia, para un saldo de crédito | 98,765.43              | 98,765.40              | 98,765.00              | 98,700.00                | 98,765.00                |
+| Ventaja propia, para un saldo de débito  | 98,765.43              | 98,765.50              | 98,766.00              | 98,800.00                | 98,766.00                |
 
 ### <a name="normal-round-and-round-precision-is-001"></a>Redondeo normal y precisión de redondeo de 0,01
 

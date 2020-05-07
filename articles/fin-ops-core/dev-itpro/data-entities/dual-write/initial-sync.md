@@ -19,22 +19,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 4adb2c8d57ad8f67346b8d34212b7a4b0bd052ab
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 9ae14703941b97308bca5845eeac3eb9b181ae75
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3173140"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275496"
 ---
 # <a name="entity-dependency-chain-synchronization-order"></a>Cadena de dependencia de entidad (orden de sincronización)
 
 [!include [banner](../../includes/banner.md)]
 
-
-
-En las siguientes tablas, las entidades se listan en el orden en que debe habilitarlas. Cuando habilita un mapa para la sincronización inicial, la escritura dual detecta automáticamente otros mapas que deben habilitarse. Puedes usar la página **Doble escritura** en aplicaciones Finance and Operations para seleccionar o cancelar la selección de entidades durante la sincronización inicial.
-
-En la última versión de doble escritura, puede habilitar solo algunas entidades y las dependencias las gestiona usted.
+Este tema especifica el orden de sincronización que debe seguir para crear los datos iniciales si no está utilizando las dependencias de entidad proporcionadas por la característica **sincronización inicial**. Si no está usando **sincronización inicial**, debe ejecutar cada mapa de entidad individualmente.
 
 ## <a name="dynamics-365-supply-chain-management-entities"></a>Entidades de Dynamics 365 Supply Chain Management
 

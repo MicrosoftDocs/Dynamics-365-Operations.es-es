@@ -3,7 +3,7 @@ title: Trabajar con diseños predefinidos
 description: En este tema se describe cómo trabajar con diseños preestablecidos en Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c8149c6e443c77dabfa641a698c931176bedbc98
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: f31dfa1fdbb3732610748abe4a9de851033f2b89
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002645"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269898"
 ---
 # <a name="work-with-preset-layouts"></a>Trabajar con diseños predefinidos
 
@@ -44,7 +44,7 @@ Existen dos métodos para crear un diseño preestablecido. Puede guardar un dise
 Para crear un diseño preestablecido de un diseño personalizado existente, siga estos pasos.
 
 1. Abra una página existente que no use actualmente un diseño preestablecido, y que tiene una estructura de módulo que desee volver a usar para otras páginas del sitio.
-1. Seleccione **Desproteger**.
+1. Seleccione **Editar** para comprobar la página.
 1. Seleccione **Guardar como nuevo diseño**. Aparece el cuadro de diálogo **Guardar como nuevo diseño**.
 1. Especifique un nombre y una descripción para su diseño preestablecido. Los valores que especifique se mostrarán a otros autores cuando creen páginas nuevas desde su diseño o pasen a él. Por lo tanto, especifique valores que serán útiles para autores de página.
 1. Seleccione **Aceptar**.
@@ -91,14 +91,14 @@ Para establecer o cambiar el tema para todas las páginas secundarias que utilic
 Para guardar y proteger su diseño preestablecido, siga estos pasos.
 
 1. Seleccione **Guardar** en la parte superior del editor de diseño. Los cambios guardados no afectan a las páginas en sentido descendente hasta que se protegen.
-1. Seleccione **Proteger**. Sus cambios son ahora detectables para flujos de trabajo en sentido descendente.
+1. Seleccione **Finalizar edición**. Sus cambios son ahora detectables para flujos de trabajo en sentido descendente.
 
 Para obtener una vista previa de los cambios, abra una página existente que utilice el diseño preestablecido o cree una nueva página a partir del diseño.
 
 Cuando haya obtenido una vista previa de los cambios para su diseño preestablecido, siga uno de estos pasos para publicar el diseño en el sitio activo:
 
 * Vaya a **Diseños**, seleccione el diseño y, a continuación, **Publicar**.
-* En el editor de diseño, seleccione **Publicar**.
+* Seleccione el nombre del diseño para abrir el editor de diseño y después seleccione **Publicar**.
 * Publique una página que haga referencia al diseño sin publicar. El diseño se publicará automáticamente.
 
 > [!WARNING]

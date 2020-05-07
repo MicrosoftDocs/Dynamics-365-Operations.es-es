@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a3d0b6c4ef9e6f21e1542bece9046e98edcab6b
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f5cbf313666e03c0006bee985bcf622a20ce4e51
+ms.sourcegitcommit: f1bef1cb4b3d2c9261e89820d624e4b0fe60d25c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207842"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "3281518"
 ---
 # <a name="purchase-requisition-workflow"></a>Flujo de trabajo de solicitudes de compra
 
@@ -85,6 +85,9 @@ En este ejemplo, el proceso del flujo de trabajo de las líneas de la solicitud 
 3.  El administrador de la línea del solicitante revisa y aprueba las líneas de la solicitud de compra. La aprobación podría enrutarse al director del solicitante si, por ejemplo, el importe de una línea de la solicitud de compra supera el límite de gasto del solicitante para las líneas de solicitud de compra. El administrador puede aprobar o rechazar una de las líneas de la solicitud de compra, o ambas.
 4.  El director del departamento de marketing revisa las líneas de la solicitud de compra para los pósters y las camisetas. El administrador del departamento de ventas revisa la línea de la solicitud de compra solo de los pósters, porque es el único coste que corre a cargo del departamento de ventas.
 5.  El director del grupo revisa y aprueba la línea de la solicitud de compra para las camisetas solo si se requiere la aprobación del director del grupo porque, por ejemplo, el importe de la línea de solicitud de compra supera el límite de aprobación del director de departamento. El administrador del grupo no tiene que aprobar la línea de la solicitud de compra de los pósters.
+
+> [!NOTE]
+> La moneda del sistema debe establecerse si el flujo de trabajo del encabezado para una solicitud de compra requiere aprobaciones relacionadas con los límites de firma.
 
 ## <a name="configuring-a-workflow-for-purchase-requisitions"></a>Configuración de flujos de trabajo para solicitudes de compra
 Para dirigir una solicitud de compra a revisión, debe configurar los procesos de flujo de trabajo de la solicitud de compra. El proceso de flujo de trabajo definido controlará la interacción entre el usuario que ha solicitado los artículos (el solicitante) y el revisor y el aprobador del flujo de trabajo. La ruta de la solicitud de compra depende de las condiciones que se especifican en la configuración del flujo de trabajo. Por ejemplo, estas condiciones determinan cuándo debe enrutarse la solicitud de compra, a qué usuario o rol se debe enrutar y las acciones que los usuarios pueden realizar.  
