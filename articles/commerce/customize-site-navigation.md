@@ -3,7 +3,7 @@ title: Personalizar navegación del sitio
 description: Este tema describe cómo crear una jerarquía de navegación en línea personalizada para organizar sus productos para examinar en su sitio de Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c2235510c7ef386d66fe3b137f8e791d14706379
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: ae7696dcb5cdd99cd46b89ed1de1b03c16146e2d
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001838"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269668"
 ---
 # <a name="customize-site-navigation"></a>Personalizar navegación del sitio
 
@@ -93,7 +93,7 @@ Para agregar opciones de navegación personalizadas al menú de navegación, sig
 1. En el panel de propiedades, en la pestaña **Datos**, seleccione **Agregar artículo** para crear un artículo nuevo de navegación del sistema de gestión de contenidos (CMS).
 1. Especificar el texto del vínculo y una dirección URL.
 1. Repita los pasos 2 y 3 para agregar más opciones de navegación personalizadas.
-1. Cuando haya terminado, guarde la plantilla o el fragmento, y protéjalo.
+1. Cuando haya terminado, seleccione **Guardar** para guardar la plantilla o el fragmento y luego seleccione **Finalizar edición** para protegerlos.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

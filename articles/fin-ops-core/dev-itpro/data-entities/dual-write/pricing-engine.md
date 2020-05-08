@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-10
-ms.openlocfilehash: ef4465144155130087b078f9f96911df38b62c41
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 5ffc0358ff58b2a05aa84b4467a27d88b5e1ec42
+ms.sourcegitcommit: 984604fd651d74aa49a2d7513f096faaf49f9f27
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3173186"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "3270345"
 ---
 # <a name="sync-with-the-dynamics-365-supply-chain-management-pricing-engine-on-demand"></a>Sincronizar con el motor de precios bajo demanda Dynamics 365 Supply Chain Management
 
@@ -50,6 +50,12 @@ Microsoft Dynamics 365 Supply Chain Management incluye un motor de precios que g
     + Importe del flete
     + Impuestos totales
     + Importe total
+    
+5. Para garantizar que el sistema considera los acuerdos comerciales y de ventas para calcular el precio:
+    1. Navegue a su entorno de Supply Chain Management.
+    2. Navegue a **Clientes \> Configuración \> Parámetros de clientes**.
+    3. Seleccione la pestaña **Precios** en la barra de navegación lateral.
+    4. Bajo la ficha desplegable **Evaluación de acuerdos comerciales**, desmarque la opción **Entrada manual**.
 
 ## <a name="how-it-works"></a>Cómo funciona
 

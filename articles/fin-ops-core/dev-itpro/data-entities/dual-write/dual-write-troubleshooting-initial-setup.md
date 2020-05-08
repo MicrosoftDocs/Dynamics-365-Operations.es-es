@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: e20c9c5e1250c8e65b5642a7c45d7ae859315697
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 76e104c9ebd7db7ebcbaf214e84be6c4353e8a73
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172677"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275450"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Solucionar problemas durante la configuración inicial
 
@@ -39,7 +39,7 @@ Este tema proporciona información para solución de problemas de integración d
 
 ## <a name="you-cant-link-a-finance-and-operations-app-to-common-data-service"></a>No puede vincular una aplicación Finance and Operations a Common Data Service
 
-**Credenciales requeridas para configurar doble escritura:** Administrador de inquilinos de Azure AD
+**Rol requerido para configurar doble escritura**: Administrador del sistema en aplicaciones de Finance and Operations y Common Data Service.
 
 Los errores en la página **Enlace de configuración a Common Data Service** generalmente se deben a problemas de configuración o permisos incompletos. Asegúrese de que toda la compración de estado aprueba en la página **Enlace de configuración a Common Data Service**, como se muestra en la siguiente ilustración. No puede vincular la escritura doble a menos que se apruebe toda la comprobación de estado.
 

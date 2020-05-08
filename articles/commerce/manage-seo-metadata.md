@@ -3,7 +3,7 @@ title: Administrar metadatos de SEO
 description: Este tema describe cómo administrar los metadatos de la optimización de motor de búsqueda (SEO) en Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1e7da7bf5c473746413e92babfa943f546b7724d
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 74229628e48ffb8ac974acd868e325eeca77d91e
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003473"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3270059"
 ---
 # <a name="manage-seo-metadata"></a>Administrar metadatos de SEO
 
@@ -72,13 +72,10 @@ Para modificar metadatos de página, siga estos pasos.
 1. En **Sitios**, seleccione **Fabrikam** (o el nombre del sitio).
 1. En el panel de navegación de la izquierda, seleccione **Páginas**.
 1. Seleccione la página principal para abrirla en el editor de páginas.
-1. En el panel de acciones, seleccione **Desproteger**.
+1. En la barra de comandos, seleccione **Editar**.
 1. En el panel de propiedades de la derecha, expanda **Etiquetas META predeterminadas**.
-1. Para agregar una nueva etiqueta META, seleccione **Agregar** y después introduzca la etiqueta en el campo.
-
-    Para quitar un etiqueta META existente, seleccione el símbolo de papelera que se encuentra a su derecha.
-
-1. Seleccione **Guardar** y, a continuación, seleccione **Proteger**.
+1. Para agregar una nueva etiqueta META, seleccione **Agregar** y después introduzca la etiqueta en el campo. Para quitar un etiqueta META existente, seleccione el símbolo de papelera que se encuentra a su derecha.
+1. Seleccione **Guardar** y, a continuación, seleccione **Finalizar edición**.
 1. En el campo **Comentarios**, especifique **Etiquetas META actualizadas** y, a continuación seleccione **Aceptar**.
 1. Seleccione **Vista previa** para obtener una vista previa de la página. Cuando haya terminado, cierre la pestaña de vista previa para volver a la herramienta de creación.
 1. Seleccione **Publicar**.

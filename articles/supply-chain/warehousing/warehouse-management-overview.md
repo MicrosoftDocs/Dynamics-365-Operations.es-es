@@ -3,7 +3,7 @@ title: Visión general de la gestión de almacenes
 description: Use la gestión de almacenes para supervisar y automatizar procesos de almacén.
 author: ShylaThompson
 manager: tfehr
-ms.date: 07/25/2019
+ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 17e4429dbf3f7e5d6c737c365f0351d5c588fcd2
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: bed896245b777ca195f7d03a9fdb697cad360ee7
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204594"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275403"
 ---
 # <a name="warehouse-management-overview"></a>Visión general de la gestión de almacenes
 
@@ -30,7 +30,7 @@ ms.locfileid: "3204594"
 El módulo de gestión de almacenes le permite gestionar procesos de almacén en empresas de fabricación, distribución y comercio minorista. Este módulo tiene una gran variedad de características que le permitirán sacarle el máximo rendimiento a su instalación de almacén. La gestión de almacenes está completamente integrada con otros procesos empresariales, tales como el transporte, la fabricación, el control de calidad, las compras, las ventas, las transferencias y las devoluciones.
 
 ## <a name="get-started"></a>Introducción
-Para empezar a trabajar con la gestión de almacenes, debe completar la configuración de los parámetros generales del almacén para los procesos empresariales de la empresa.
+Para empezar a trabajar con la gestión de almacenes, debe completar la configuración de los parámetros generales del almacén para los procesos empresariales de su empresa.
 
 - Vaya a la página **Parámetros de gestión de almacenes** en **Gestión de almacenes** > **Configuración** y configure los parámetros generales del almacén.
 

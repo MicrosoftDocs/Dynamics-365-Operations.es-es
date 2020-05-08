@@ -1,9 +1,9 @@
 ---
 title: Compromisos de pedidos
-description: En este artículo se proporciona información acerca de los compromisos de entrega. Los compromisos de entrega le ayuda a comprometer fechas de entrega de manera confiable a sus clientes y le ofrecen flexibilidad para que pueda cumplir esas fechas.
+description: En este tema se proporciona información acerca de los compromisos de entrega. Los compromisos de entrega le ayuda a comprometer fechas de entrega de manera confiable a sus clientes y le ofrecen flexibilidad para que pueda cumplir esas fechas.
 author: ShylaThompson
 manager: tfehr
-ms.date: 06/20/2017
+ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78b81431d44ea5f85676b6999eece1330d3101a4
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: ccb7ef432553c0516eb49013eaad68dd21bf752c
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3210072"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3270037"
 ---
 # <a name="order-promising"></a>Compromisos de pedidos
 
 [!include [banner](../includes/banner.md)]
 
-En este artículo se proporciona información acerca de los compromisos de entrega. Los compromisos de entrega le ayuda a comprometer fechas de entrega de manera confiable a sus clientes y le ofrecen flexibilidad para que pueda cumplir esas fechas.
+En este tema se proporciona información acerca de los compromisos de entrega. Los compromisos de entrega le ayuda a comprometer fechas de entrega de manera confiable a sus clientes y le ofrecen flexibilidad para que pueda cumplir esas fechas.
 
 Los compromisos de pedidos calculan las fechas de envío y recepción más tempranas, y se basan en el método de control de fecha de entrega y los días de transporte. Puede seleccionar entre cuatro métodos de control de fecha de entrega:
 
@@ -47,11 +47,13 @@ La ATP se calcula mediante la fórmula siguiente:
 
 ATP = ATP para el período anterior + Recepciones del período actual - Emisiones del período actual - Cantidad neta de emisión para los períodos futuros hasta el período en el que la suma de las recepciones de todos los períodos futuros (hasta el período futuro, incluido éste) sea superior a la suma de las emisiones (hasta el período futuro, incluido este).  
 
+Tenga en cuenta que el cálculo de ATP no incluye información sobre la fecha de vencimiento y más allá del límite de tiempo ATP que el sistema espera cuando se puede prometer cualquier cantidad.
+
 Cuando ya no queden emisiones o recepciones para tener en cuenta, la cantidad ATP de las fechas siguientes será la misma que la última cantidad ATP calculada.  
 
 Si no se proporcionan todas las dimensiones que se usan para un artículo a la hora de realizar la comprobación NNC, es posible que aún se especifiquen en la emisión y las recepciones. En este caso, el cálculo de NNC, las recepciones y las emisiones deberán agregarse a las dimensiones existentes con el fin de reducir el número de líneas de recepción y emisión que se usan en el cálculo de NNC.  
 
-La cantidad de NNC que se muestra siempre es mayor o igual que 0 (cero). Si el cálculo devuelve una cantidad negativa de NNC (por ejemplo, si la cantidad que se prometió anteriormente excede la cantidad disponible), el programa establece automáticamente la cantidad en **0**.
+La cantidad de NNC que se muestra siempre es mayor o igual que 0 (cero). Si el cálculo devuelve una cantidad negativa de NNC (por ejemplo, si la cantidad que se prometió anteriormente excede la cantidad disponible), la cantidad se establece automáticamente en 0.
 
 ### <a name="example"></a>Ejemplo
 

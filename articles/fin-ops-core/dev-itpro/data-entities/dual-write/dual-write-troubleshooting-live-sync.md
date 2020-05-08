@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 60839bbd1b3ae642cdd419c7df2388292776a461
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: d45b19c1e88e6a27bde4335d4a356f2173bdfcd3
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172746"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275426"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Solucionar problemas de sincronización en vivo
 
@@ -102,7 +102,7 @@ Es posible que reciba el siguiente mensaje de error cuando crea datos en una apl
 
 Este es el aspecto del error en la aplicación basada en modelos en Dynamics 365:
 
-*Se produjo un error inesperado del código ISV. (ErrorType = ClientError) Excepción inesperada del complemento (Execute): Microsoft.Dynamics.Integrator.CrmPlugins.Plugin: System.Exception: no se pudo procesar la cuenta de la entidad - (Un intento de conexión falló porque la parte conectada no respondió correctamente después de un período de tiempo, o la conexión establecida falló porque el anfitrión conectado no pudo responder*
+*Se produjo un error inesperado del código ISV. (ErrorType = ClientError) Excepción inesperada del complemento (Execute): Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PostCommitPlugin: no se pudo procesar la cuenta de la entidad - (Un intento de conexión falló porque la parte conectada no respondió correctamente después de un período de tiempo, o la conexión establecida falló porque el anfitrión conectado no pudo responder).*
 
 Este error ocurre cuando el entorno Common Data Service se restablece incorrectamente al mismo tiempo que intenta crear datos en la aplicación Finance and Operations.
 

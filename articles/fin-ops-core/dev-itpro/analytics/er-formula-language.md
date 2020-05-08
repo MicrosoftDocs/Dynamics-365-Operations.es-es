@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bdd8b9c120fc4a860717a66b9dfa66e6b0daed93
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 79b4640a23d4fc78ade4de57e4071abe6c9ecb56
+ms.sourcegitcommit: 0d7b700950b1f95dc030ceab5bbdfd4fe1f79ace
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042720"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "3284365"
 ---
 # <a name="electronic-reporting-formula-language"></a>Idioma de fórmulas en los informes electrónicos
 
 [!include [banner](../includes/banner.md)]
 
-Los informes electrónicos (ER) proporcionan una potente experiencia de transformación de datos. El lenguaje que se usa para expresar las manipulaciones de datos requeridas en el diseñador de fórmulas ER se asemeja al lenguaje de fórmulas en Microsoft Excel.
+Los informes electrónicos (ER) proporcionan una potente experiencia de transformación de datos. El lenguaje que se usa para expresar las manipulaciones de datos requeridas en el [diseñador de fórmulas ER](general-electronic-reporting-formula-designer.md) se asemeja al lenguaje de fórmulas en Microsoft Excel.
 
 ## <a name="basic-syntax"></a>Sintaxis básica
 
@@ -41,13 +41,13 @@ Las expresiones de ER pueden contener todo los elementos siguientes o cualquiera
 - [Rutas](#Paths)
 - [Funciones](#Functions)
 
-## <a name="Constants">Constantes</a>
+## <a name=""></a><a name="Constants">Constantes</a>
 
 Cuando diseñe expresiones, puede usar constantes de texto y numéricas (es decir, valores que no se calculan). Por ejemplo, la expresión `VALUE ("100") + 20` usa la constante numérica **20** y la constante de cadena **“100”** y devuelve el valor numérico **120**.
 
 El diseñador de fórmulas de ER admite secuencias de escape. Por lo tanto, puede especificar una cadena de expresión que debe gestionarse de forma diferente. Por ejemplo, la expresión `"Leo Tolstoy ""War and Peace"" Volume 1"` devuelve la cadena de texto **Leo Tolstoi "Guerra y paz" Volumen 1**.
 
-## <a name="Operators">Operadores</a>
+## <a name=""></a><a name="Operators">Operadores</a>
 
 La tabla siguiente muestra los operadores aritméticos que puede usar para realizar operaciones matemáticas básicas, como suma, resta, multiplicación y división.
 
@@ -91,7 +91,7 @@ El orden en el que se evalúan las partes de una expresión compuesta es importa
 
 Si una expresión incluye múltiples operadores consecutivos que tienen la misma prioridad, dichas operaciones se evalúan de izquierda a derecha. Por ejemplo, la expresión `1 + 6 / 2 \* 3 > 5` devuelve **true**. Se recomienda usar paréntesis para indicar explícitamente el orden deseado de operaciones en las expresiones, de manera que las expresiones resulten más sencills de leer y mantener.
 
-## <a name="References">Referencias</a>
+## <a name=""></a><a name="References">Referencias</a>
 
 Todos los orígenes de datos del componente del ER actual que están disponibles durante el diseño de una expresión se pueden usar como referencias con nombre. El componente ER actual puede ser un mapeo de modelo o un formato. Por ejemplo, el modelo de mapeo actual de ER contiene el origen de datos **ReportingDate**, que devuelve el valor del tipo de datos *DateTime*. Para dar formato correctamente a ese valor en el documento que lo genera, puede hacer referencia el origen de datos en la expresión `DATETIMEFORMAT (ReportingDate, "dd-MM-yyyy")`.
 
@@ -112,7 +112,7 @@ Puede limitar la forma en que los valores se pasan a los parámetros de este tip
 - Únicamente las constantes se pueden pasar a los métodos de este tipo. Los valores de las constantes se definen en el tiempo de diseño.
 - Solo se admiten tipos de datos primitivos (básicos) para los parámetros de este tipo. Los tipos de datos primitivos incluyen *entero*, *real*, *booleano* y *cadena*.
 
-## <a name="Paths">Rutas</a>
+## <a name=""></a><a name="Paths">Rutas</a>
 
 Cuando una expresión hace referencia a un origen de datos estructurado, puede usar la definición de ruta para seleccionar un elemento primitivo específico de ese origen de datos. Un carácter de punto (.) se usa para separar elementos individuales de un origen de datos estructurado. Por ejemplo, el modelo de mapeado actual de ER contiene el origen de datos **InvoiceTransactions**, y este origen de datos devuelve una lista de registros. La estructura de registros **InvoiceTransactions** contiene los campos **AmountDebit** y **AmountCredit**, y estos campos devuelven valores numéricos. Por lo tanto, puede diseñar la siguiente expresión para calcular el importe facturado: `InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit`. La construcción `InvoiceTransactions.AmountDebit` en esta expresión es la ruta que se utiliza para acceder al campo **Monto Débito** de la fuente de datos **FacturaTransacciones** del tipo *Lista de registros*.
 
@@ -130,7 +130,7 @@ La parte restante de la ruta absoluta también se muestra en el [Editor de fórm
 
 ![Parte restante de la ruta absoluta en la página del diseñador de fórmulas ER](./media/ER-FormulaLanguage-RelativePath2.png)
 
-## <a name="Functions">Funciones</a>
+## <a name=""></a><a name="Functions">Funciones</a>
 
 Las funciones integradas de ER se pueden usar en expresiones de ER. Todos los orígenes de datos del contexto de la expresión (estos es, el mapeado de modelo de ER o formato actual de ER) pueden usarse como parámetros de funciones de llamada de acuerdo con la lista de argumentos de las funciones de llamada. Las constantes también se pueden usar como parámetros de las funciones de llamada. Por ejemplo, el modelo de mapeado actual de ER contiene el origen de datos **InvoiceTransactions**, y este origen de datos devuelve una lista de registros. La estructura de registros **InvoiceTransactions** contiene los campos **AmountDebit** y **AmountCredit**, y estos campos devuelven valores numéricos. Por tanto, para calcular el importe facturado, puede diseñar la siguiente expresión que usa la función de redondeo incorporada de ER: `ROUND (InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit, 2)`.
 

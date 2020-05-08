@@ -44,6 +44,8 @@
                   href: provisioning-guide.md
                 - name: Configurar un entorno de vista previa de Dynamics 365 Commerce
                   href: cpe-post-provisioning.md
+                - name: Configurar BOPIS en un entorno de Dynamics 365 Commerce
+                  href: cpe-bopis.md
                 - name: Configurar características opcionales para un entorno de vista previa de Dynamics 365 Commerce
                   href: cpe-optional-features.md
                 - name: Preguntas frecuentes del entorno de vista previa de Dynamics 365 Commerce
@@ -86,6 +88,8 @@
                   items:
                     - name: Página principal de Novedades y cambios en Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.11 (julio de 2020)
+                      href: get-started/whats-new-commerce-10-0-11.md
                     - name: Commerce 10.0.10 (mayo de 2020)
                       href: get-started/whats-new-commerce-10-0-10.md
                     - name: Commerce 10.0.9 (abril de 2020)
@@ -206,6 +210,8 @@
                   href: retail-onprem.md
             - name: Implementación y revisiones
               items:
+                - name: Sincronizar instaladores de autoservicio en Dynamics 365 Commerce
+                  href: dev-itpro/Synchronize-installers.md
                 - name: Commerce Scale Unit
                   href: dev-itpro/retail-store-system-begin.md
                 - name: Configurar e instalar Commerce Scale Unit
@@ -226,6 +232,8 @@
                   href: dev-itpro/retail-component-events-diagnostics-troubleshooting.md
                 - name: Aplicar un paquete implementable
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
+                - name: Inicializar datos semilla en nuevos entornos de Commerce
+                  href: enable-configure-retail-functionality.md
             - name: Administración del ciclo de vida de la implementación
               items:
                 - name: Página de inicio de administración del ciclo de vida de la implementación
@@ -378,7 +386,7 @@
                       items:
                         - name: Diseños de pantalla de datos de demostración en MPOS/CPOS
                           href: demo-data.md
-                        - name: Diseños de pantalla para el PDV
+                        - name: Configuraciones visuales de la interfaz de usuario de PDV
                           href: pos-screen-layouts.md
                         - name: Instalar el diseñador de PDV
                           href: install-pos-layout-designer.md
@@ -906,6 +914,8 @@
                   href: cookie-compliance.md
                 - name: Agregar una página de directivas de privacidad
                   href: add-privacy-page.md
+                - name: Reemplazar id. de usuario asociado con cambios de contenido con seguimiento
+                  href: replace-IDs-tracked-changes.md
             - name: Kit de inicio
               items:
                 - name: Visión general de kit de inicio
@@ -942,12 +952,16 @@
                   items:
                     - name: Módulo de carro
                       href: add-cart-module.md
+                    - name: Módulo de icono de carro
+                      href: cart-icon-module.md
                     - name: Módulo de finalización de compra
                       href: add-checkout-module.md
                     - name: Módulo de confirmación de pedido
                       href: order-confirmation-module.md
                     - name: Módulo de selector de tienda
                       href: store-selector.md
+                    - name: Módulo de tarjeta de regalo
+                      href: add-giftcard.md
                 - name: Módulos de página de gestión de cuentas
                   items:
                     - name: Módulos y páginas de gestión de cuentas
@@ -1940,6 +1954,8 @@
                       href: e-commerce-extensibility/create-theme.md
                     - name: Configurar opciones de tema
                       href: e-commerce-extensibility/configure-theme-settings.md
+                    - name: Ampliar un tema
+                      href: e-commerce-extensibility/extend-theme.md
                 - name: Insertar secuencia de comandos
                   items:
                     - name: Inyectores de secuencia de comandos
@@ -1962,6 +1978,8 @@
                   href: dev-itpro/UpcomingSDKChanges.md
                 - name: Fusionar los sistemas de compilación para Commerce y Finance and Operations
                   href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
+                - name: "Migrar el SDK de Retail desde Visual Studio 2015\_a Visual Studio 2017"
+                  href: dev-itpro/retail-sdk/migrate-sdk.md
                 - name: Muestras de extensibilidad de SDK de Retail
                   href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
                 - name: Crear paquetes implementables

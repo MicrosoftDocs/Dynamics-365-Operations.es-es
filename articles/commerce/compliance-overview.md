@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f8c2cdbf055a2854c4140d3ccc264da260c7cdf5
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 45d96317f5b6ef956647bfc511e80533e2c34bca
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002275"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275357"
 ---
 # <a name="compliance-overview"></a>Información general sobre cumplimiento
 
@@ -44,3 +44,5 @@ Para obtener más información sobre los principios básicos que utiliza Microso
 [Cumplimiento de cookies](cookie-compliance.md)
 
 [Agregar una página de directivas de privacidad](add-privacy-page.md)
+
+[Reemplazar id. de usuario asociado con cambios de contenido con seguimiento](replace-IDs-tracked-changes.md)

@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: hhainesms
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 26e798c664844b575de6f019ad8f5349ed92be98
-ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
+ms.openlocfilehash: d2691ef6b08a44a845857c34fe60072211364f82
+ms.sourcegitcommit: 02640a0f63daa9e509146641824ed623c4d69c7f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "3114413"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "3265489"
 ---
 # <a name="change-mode-of-delivery-in-pos"></a>Cambiar modo de entrega en PDV
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 En este tema se describe cómo configurar y utilizar la funcionalidad "cambiar modo de entrega" en su entorno de punto de venta (PDV). 
 

@@ -3,7 +3,7 @@ title: Módulo de cuadro de compra
 description: En este tema se tratan los módulos de cuadro de compra y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 04/13/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 35b7027e0f0b680dd82ebfcea754fef1617c0163
-ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
+ms.openlocfilehash: 095374c14cddf1ae3608ae1427a7144b3e7ca7b2
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261407"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269760"
 ---
 # <a name="buy-box-module"></a>Módulo de cuadro de compra
 
@@ -80,15 +80,15 @@ Para agregar un módulo de cuadro de compra a una página nueva y establecer las
 1. Cree un fragmento que se llame **fragmento de cuadro de compra** y agréguele un módulo de cuadro de compra.
 1. En la franja **Medios** del módulo del cuadro de compra, agregue un módulo de galería de medios.
 1. En la franja **Selector de tienda** del módulo de caja de compra, agregue un módulo de selector de tienda.
-1. Proteja la página y publíquela.
+1. Seleccione **Guardar** y seleccione **Finalizar edición** para proteger el fragmento y luego seleccione **Publicar** para publicarlo.
 1. Cree una plantilla para una página de detalles de productos y asígnele el nombre **Plantilla de PDP**.
 1. Agregue una página predeterminada.
 1. En el espacio **Principal** de la página predeterminada, agregue un fragmento de cuadro de compra.
-1. Guarde la plantilla, termine de editarla y publíquela.
+1. Seleccione **Guardar** y seleccione **Finalizar edición** para proteger la plantilla y luego seleccione **Publicar** para publicarla.
 1. Use la plantilla que acaba de crear para crear una página que se llame **Página de PDP**.
 1. En el espacio **Principal** de la página nueva, agregue un fragmento de cuadro de compra.
 1. Guarde la página y obtenga una vista previa de ella. Agregue el parámetro de cadena de consulta **?productid=&lt;id. de producto&gt;** a la dirección URL de la página de vista previa. De esa manera, el contexto del producto se usa para cargar y representar la página de vista previa.
-1. Guarde la página, termine de editarla y publíquela. Un cuadro de la compra debe aparecer en la página de detalles de productos.
+1. Seleccione **Guardar** y seleccione **Finalizar edición** para proteger la página y luego seleccione **Publicar** para publicarla. Un cuadro de la compra debe aparecer en la página de detalles de productos.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

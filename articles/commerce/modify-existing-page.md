@@ -3,7 +3,7 @@ title: Modificar una página de sitio existente
 description: En este tema se describe cómo modificar una página de sitio existente en Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c393fc143214c2c7c7ddad9a77e273e1e53e34ac
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 87c90ed6ee62a094fe44f549c827cf9de2bf5b2f
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003450"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3270013"
 ---
 # <a name="modify-an-existing-site-page"></a>Modificar una página de sitio existente
 
@@ -36,11 +36,11 @@ En este tema se describe cómo modificar una página de sitio existente en Micro
 Si debe modificar una página, el primer paso es abrirla en el editor de páginas. Vaya al sitio que contiene su página y, a continuación, en la lista de páginas, encuentre la página que desea. Si no encuentra la página, puede usar la función de búsqueda enriquecida de la herramienta de creación. Escriba el nombre de página exacto o escriba las primeras letras y luego un asterisco (\*). Aparece una lista filtrada de páginas. Puede usar esta lista para encontrar la página que desea. Cuando encuentre la página correcta, seleccione el nombre de la página para abrirla en el editor de páginas.
 
 > [!TIP]
-> Si su página está visible en el inspector la página, puede seleccionarla y desprotegerla antes de abrirla en el editor de páginas. De esta manera, puede desproteger varias páginas al mismo tiempo.
+> Si su página está visible en el inspector la página, puede seleccionar **Editar** y desproteger la página antes de abrirla en el editor de páginas. De esta manera, puede desproteger varias páginas al mismo tiempo.
 
-Una vez que se abre la página en el editor de páginas, debe asegurarse de que se ha desprotegido para usted. La barra de comandos de la herramienta de creación es dinámica, contextual y sensible al estado. Por lo tanto, solo muestra las acciones que puede realizar actualmente en la página. Por ejemplo, si la página está desprotegida para usted, los botones **Guardar** y **Proteger** no aparecen en la barra de comandos. El estado de la página también se muestra en el lado derecho de la ventana.
+Una vez que se abre la página en el editor de páginas, debe asegurarse de que se ha desprotegido para usted. La barra de comandos de la herramienta de creación es dinámica, contextual y sensible al estado. Por lo tanto, solo muestra las acciones que puede realizar actualmente en la página. Por ejemplo, si la página está desprotegida para usted, los botones **Guardar** y **Terminar edición** no aparecen en la barra de comandos. El estado de la página también se muestra en el lado derecho de la ventana.
 
-Si la página no está ya desprotegida para usted, seleccione **Desproteger** en la barra de comandos. La barra de comandos cambia para reflejar el nuevo estado de la página. También recibe una notificación que indica que la página se desprotegió para usted.
+Si la página no está ya desprotegida para usted, seleccione **Editar** en la barra de comandos. La barra de comandos cambia para reflejar el nuevo estado de la página. También recibe una notificación que indica que la página se desprotegió para usted.
 
 El siguiente paso es realizar sus cambios reales. A menudo, usará el árbol de esquema de página de la izquierda para encontrar y seleccionar el módulo que desea cambiar y, a continuación, realizará cambios en el panel de propiedades de la derecha. 
 
@@ -49,7 +49,7 @@ No obstante, su cambio puede implicar a veces la adición o eliminación de mode
 > [!TIP]
 > También puede ver y editar las propiedades para cualquier módulo que esté visible en la vista previa de “Lo que se ve es lo que se verá" (WYSIWYG) seleccionándolo directamente.
 
-Una vez que haya terminado de realizar los cambios y de obtener una vista previa del efecto, debe proteger la página seleccionando **Proteger** en la barra de comandos. 
+Una vez que haya terminado de realizar los cambios y de obtener una vista previa del efecto, debe proteger la página seleccionando **Terminar edición** en la barra de comandos. 
 
 Para publicar sus cambios inmediatamente, seleccione **Publicar** en la barra de comandos. Se publica la última versión protegida de la página que ha modificado y se vuelve disponible para los usuarios externos que ven el sitio. 
 
@@ -60,14 +60,14 @@ El siguiente ejemplo muestra cómo modificar la página principal cambiando el v
 1. En **Sitios**, seleccione **Fabrikam** (o el nombre del sitio).
 1. En el panel de navegación de la izquierda, seleccione **Páginas**.
 1. Busque y seleccione la página principal para abrirla en el editor de páginas.
-1. En la barra de comandos, seleccione **Desproteger**.
+1. En la barra de comandos, seleccione **Editar**.
 1. En el esquema de página, seleccione la franja **Principal**.
 1. En la franja **Principal**, expanda todos los módulos de contenedor de fluido.
 1. Encuentre y seleccione el módulo de reproductor de vídeo.
 1. En el panel de propiedades de la derecha, seleccione la propiedad **vídeo**. Aparece el selector de activos.
 1. En el selector de activos, seleccione un activo de vídeo disponible o elija **Cargar nuevo activo** para cargar un nuevo activo de vídeo.
 1. Seleccione **Aceptar**.
-1. Seleccione **Guardar** y, a continuación, seleccione **Proteger**.
+1. Seleccione **Guardar** y, a continuación, seleccione **Finalizar edición**.
 1. En el campo **Comentarios**, especifique **Cambiar el vídeo** y, a continuación seleccione **Aceptar**.
 1. Seleccione **Vista previa** para obtener una vista previa de la página actualizada. Cuando haya terminado, cierre la pestaña de vista previa para volver a la herramienta de creación.
 1. Seleccione **Publicar**.

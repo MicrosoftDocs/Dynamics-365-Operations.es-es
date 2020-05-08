@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 679448255bd85aafb07270f4858d4b83d2fe643b
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 4577b8b189403b3d71eb634e159d51d2fa53ce12
+ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204042"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3268802"
 ---
 # <a name="set-up-quality-orders"></a>Configuración de pedidos de calidad
 
@@ -78,6 +78,9 @@ Este procedimiento le muestra cómo habilitar un proceso de administración de c
 8. Haga clic en **Guardar**.
 9. Cierre la página.
 
+> [!NOTE]
+> La característica *Gestión de calidad para procesos de almacén* proporciona capacidades de muestreo de elementos adicionales. Agrega un concepto de *alcance de muestreo del artículo* y la capacidad de definir una matrícula completa como especificación de cantidad. Si ha habilitado esta función, vea [Gestión de calidad para procesos de almacén](../quality-management-for-warehouses-processes.md) para más detalles.
+
 ## <a name="create-a-quality-group"></a>Crear un grupo de calidad
 1. Vaya a **Gestión del inventario > Configurar > Control de calidad > Grupos de calidad**.
 2. Haga clic en **Nuevo**.
@@ -131,3 +134,5 @@ Este procedimiento le muestra cómo habilitar un proceso de administración de c
 16. Haga clic en **Guardar**.
 17. Cierre la página.
 
+> [!NOTE]
+> La característica *Administración de calidad para procesos de almacén* proporciona opciones adicionales para configurar asociaciones de calidad. Agrega una nueva condición (**Tipo de almacén aplicable**) y una nueva configuración (**Política de procesamiento de calidad**). Si ha habilitado esta función, vea [Gestión de calidad para procesos de almacén](../quality-management-for-warehouses-processes.md) para más detalles.

@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 59384d8e8d043eb14231a471c7218ced2dddf739
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 53df00de82b101aa02160d865a9c3bbebcfcae15
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172886"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275473"
 ---
 # <a name="troubleshoot-issues-related-to-upgrades-of-finance-and-operations-apps"></a>Solucionar problemas relacionados con actualizaciones de aplicaciones Finance and Operations
 
@@ -85,9 +85,8 @@ Si el problema aún no se soluciona, siga estos pasos.
 > Estos pasos lo guían a través del proceso de eliminar una entidad y luego agregarla nuevamente. Para evitar problemas, asegúrese de seguir los pasos exactamente.
 
 1. En la aplicación Finance and Operations, vaya a **Espacios de trabajo \> Gestión de datos** y seleccione el mosaico **Entidades de datos**.
-2. Encuentre la entidad a la que le falta el campo. Tome nota de la entidad de destino, la tabla de ensayo, el nombre de la entidad y otros valores de columna.
-3. Si alguno de sus grupos de procesamiento depende de esta entidad, tome las medidas apropiadas para los grupos de procesamiento antes de eliminar la entidad.
-4. Elimine la entidad a la que le falta el campo.
-5. Seleccione **Nueva** y agregue la entidad nuevamente. Especifique los valores que anotó en el paso 2.
-6. Abra la página **Asignación de entidades** de la página **Doble escritura** en la aplicación Finance and Operations.
-7. Seleccione **Actualizar lista de entidades** para completar automáticamente los campos en las asignaciones de entidades.
+2. Encuentre la entidad a la que le falta el atributo. Haga clic en **Modificar asignación de destino** en la barra de herramientas.
+3. En el panel **Asignar ubicación provisional a destino**, haga clic en **Generar asignación**.
+4. Abra la página **Asignación de entidades** de la página **Doble escritura** en la aplicación Finance and Operations.
+5. Si el atributo no se rellena automáticamente en la asignación, agréguelo manualmente haciendo clic en el botón **Agregar atributo** y luego haga clic en **Guardar**. 
+6. Seleccione la asignación y haga clic en **Ejecutar**.

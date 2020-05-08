@@ -3,7 +3,7 @@ title: Módulo de bloque de contenido
 description: En este tema se tratan los módulos de bloque de contenido y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f91de93ce5ed4813f9f2adbe7678229189b5af2f
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: daf9193a7fdc3b57defbb3250ae902f6eb6ee6c4
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025767"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269691"
 ---
 # <a name="content-block-module"></a>Módulo de bloque de contenido
 
@@ -79,10 +79,10 @@ La siguiente imagen muestra un ejemplo de módulo de bloque de contenido con un 
 
 Para agregar un módulo de elemento principal a una página nueva y establecer las propiedades necesarias, siga estos pasos.
 
-1. Vaya a **Plantillas** y cree una plantilla de página con el nombre **plantilla de bloque de contenido**.
+1. Vaya a **Plantillas** y cree una plantilla de página con el nombre **Plantilla de bloque de contenido**.
 1. En el espacio **Principal** de la página predeterminada, agregue un módulo de elemento principal.
-1. Proteja la plantilla y publíquela.
-1. Use la plantilla de héroe que acaba de crear para crear una página que se llame **página de bloque de contenido**.
+1. Seleccione **Guardar** y seleccione **Finalizar edición** para proteger la plantilla y luego seleccione **Publicar** para publicarla.
+1. Use la plantilla de héroe que acaba de crear para crear una página que se llame **Página de bloque de contenido**.
 1. En el espacio **Principal** de la página predeterminada, seleccione los puntos suspensivos (**...**) y, a continuación, **Agregar módulo**.
 1. En el cuadro de diálogo **Agregar módulo**, en **Seleccionar módulos**, seleccione el módulo de elemento principal y, a continuación, **Aceptar**.
 1. En el árbol de esquema de la izquierda, seleccione el módulo de bloque de contenido.
@@ -93,8 +93,8 @@ Para agregar un módulo de elemento principal a una página nueva y establecer l
 1. Seleccione **Agregar vínculo**.
 1. En el cuadro de diálogo **Vínculo**, agregue el texto del vínculo, una dirección URL de vínculo y una etiqueta ARIA para el vínculo. A continuación. seleccione **Aceptar**.
 1. Selecciona el diseño **Héroe**.
-1. Guarde la página y obtenga una vista previa de los cambios.
-1. Proteja la página y publíquela.
+1. Seleccione **Guardar** y luego seleccione **Vista previa** para previsualizar la página.
+1. Seleccione **Finalizar edición** para proteger la plantilla y luego seleccione **Publicar** para publicarla. 
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

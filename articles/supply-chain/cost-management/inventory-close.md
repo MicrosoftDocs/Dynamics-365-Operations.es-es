@@ -3,7 +3,7 @@ title: Cierre de inventario
 description: Como parte del proceso para liquidar transacciones de emisión con transacciones de recepción, también puede elegir actualizar la contabilidad general para reflejar los ajustes realizados.
 author: AndersGirke
 manager: tfehr
-ms.date: 10/24/2017
+ms.date: 04/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 83c88a5fe52e41df5a0371d6666f544996bd3c76
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 9e9f0608c9afc25e7ca6657f6a2e87d088d4cbad
+ms.sourcegitcommit: 399f128d90b71bd836a1c8c0c8c257b7f9eeb39a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201649"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "3283999"
 ---
 # <a name="inventory-close"></a>Cierre de inventario
 
@@ -59,11 +59,10 @@ Algunas de las tareas que se pueden llevar a cabo en la página **Cierre y ajust
 
 Las cuentas contables que se actualizan debido a estas tareas se vinculan a la transacción de inventario original. Por ejemplo, si se liquida un pedido de ventas a un pedido de compra, se ajustan las cuentas contables que se usaron para el pedido de ventas original. Este comportamiento se produce incluso si las cuentas contables del grupo de artículos que se asigna al artículo han cambiado desde que se registró el pedido de ventas. Después de que el cierre de inventario cree un importe de liquidación, este último aún se registrará en las cuentas contables originales, no en las nuevas cuentas contables que se asignan al artículo. Es posible que la contabilidad general también se actualice si invierte un cierre de inventario. 
 
-**Notas:**
-
--   El cierre de inventario no es necesario si usa el método de valoración de costes estándar.
--   Antes de ejecutar el procedimiento de cierre, puede consultar una lista de artículos que no se pueden liquidar durante la actualización.
--   Se recomienda ejecutar el cierre de inventario durante las horas de menor actividad empresarial para lograr una distribución más uniforme de los recursos informáticos.
+> [!NOTE] 
+> - El cierre de inventario es un paso obligatorio en el procedimiento de cierre de fin de mes para todos los modelos de inventario. Esto incluye el costo estándar y el promedio móvil. No podrá cerrar el período financiero hasta que se haya realizado un cierre de inventario a partir de la fecha de finalización del período.
+> - Antes de ejecutar el procedimiento de cierre, puede consultar una lista de artículos que no se pueden liquidar durante la actualización.
+> - Se recomienda ejecutar el cierre de inventario durante las horas de menor actividad empresarial para lograr una distribución más uniforme de los recursos informáticos.
 
 ## <a name="the-inventory-close-log"></a> El registro de cierre del inventario
 Una vez finalizado el procedimiento de cierre de inventario, es posible que un mensaje en el centro de mensajes informe de que un precio de coste unitario es incorrecto porque una transacción no se ha podido liquidar completamente. 
@@ -85,7 +84,6 @@ En algunas circunstancias es posible que no pueda hacer nada en relación con la
 ## <a name="reversing-a-completed-inventory-close"></a>Reversión de un cierre de inventario completado
 En ocasiones, puede ser necesario invertir un cierre de inventario completado para devolver las liquidaciones al estado que tenían antes de realizarse los ajustes. Cuando se invierte un cierre de inventario completado, se abrirá también el inventario de forma que puedan introducirse los registros en el período aplicable al cierre de inventario. También se pueden realizar los cambios relacionados en la contabilidad general. Una vez haya terminado de realizar los ajustes, puede volver a ejecutar el cierre de inventario para el período en el que está trabajando. 
 
-**Nota:** Solo se puede volver a abrir el período correspondiente al último cierre de inventario. Para invertir un cierre anterior del inventario, debe invertir cada cierre posterior de inventario uno a uno, comenzando por el cierre más reciente.
-
-
+> [!NOTE] 
+> Solo se puede volver a abrir el período correspondiente al último cierre de inventario. Para invertir un cierre anterior del inventario, debe invertir cada cierre posterior de inventario uno a uno, comenzando por el cierre más reciente.
 

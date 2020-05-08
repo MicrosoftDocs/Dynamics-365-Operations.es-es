@@ -3,7 +3,7 @@ title: Enriquecer una página de aterrizaje de categoría
 description: Este tema aborda el enriquecimiento de páginas de categoría en Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 71348efba9fc1374b9e6599eb23f198d3851036e
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: ca31ec7d2eee7d2b0c863506338341a870ff07ee
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003059"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269852"
 ---
 # <a name="enrich-a-category-landing-page"></a>Enriquecer una página de aterrizaje de categoría
 
@@ -39,7 +39,7 @@ Sin embargo, en lugar de usar la página de categoría predeterminada, es posibl
 
 ![Página de aterrizaje de categoría enriquecida](./media/CategoryLandingPages.png)
 
-En la herramienta de creación, la página **Producto** incluye una lista de categorías del canal que se asignan al sitio. Si el estado **Enriquecido** está seleccionado para una página de categoría, se ha enriquecido esa página de categoría. De lo contrario, la página de categoría predeterminada y el contenido se utilizan para la categoría. Puede obtener una vista preliminar de las páginas de categoría enriquecidas y no enriquecidas para una categoría seleccionando el nombre de la categoría.
+En el generador de sitios de Commerce, la página **Productos** incluye una lista de categorías del canal que se asignan al sitio. Si el estado **Enriquecido** está seleccionado para una página de categoría, se ha enriquecido esa página de categoría. De lo contrario, la página de categoría predeterminada y el contenido se utilizan para la categoría. Puede obtener una vista preliminar de las páginas de categoría enriquecidas y no enriquecidas para una categoría seleccionando el nombre de la categoría.
 
 Para enriquecer una página de categoría, haga lo siguiente.
 
@@ -48,9 +48,7 @@ Para enriquecer una página de categoría, haga lo siguiente.
 3. Seleccione una plantilla para la página de categoría enriquecida. Si está realizando solo cambios de menor importancia, puede seleccionar la página de categoría predeterminada. También, puede seleccionar una plantilla específica de página de categoría. Al seleccionar la plantilla, se abre el editor de páginas y la plantilla seleccionada se utiliza para crear una nueva página de categoría para la categoría seleccionada. La página se desprotege para usted y podrá realizar los cambios.
 
 > [!NOTE]
-> Los módulos que usan datos de especificación de categoría usan los datos de su categoría seleccionada.
->
-> La configuración de la plantilla que seleccione determina los cambios que puede realizar.
+> Los módulos que usan datos de especificación de categoría usan los datos de su categoría seleccionada. La configuración de la plantilla que seleccione determina los cambios que puede realizar.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

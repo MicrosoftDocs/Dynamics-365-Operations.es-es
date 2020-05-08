@@ -19,17 +19,16 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: 54201de6b242f8100c19a78468476a6308b1b18a
-ms.sourcegitcommit: 5554b3abb4365666992efad692ae28e943faebd4
+ms.openlocfilehash: 89f7b79733f01c089a16c507b127b23ada5df1a6
+ms.sourcegitcommit: 02640a0f63daa9e509146641824ed623c4d69c7f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "3116565"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "3265599"
 ---
 # <a name="show-discounts-in-pos"></a>Mostrar descuentos en PDV
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Las promociones juegan un papel importante en motivar a los clientes que toman decisiones de compra. Por ejemplo, las vacaciones pueden producir el mayor número de ventas para los minoristas, porque todo el mercado minorista está inundado de atractivas promociones y descuentos. Si los asociados de la tienda conocen y entienden las promociones disponibles, pueden aprovechar fácilmente esas promociones para realizar ventas cruzadas y ventas adicionales. Este tema explica cómo Microsoft Dynamics 365 Commerce ayuda a los asociados de ventas a conocer las promociones y cómo se pueden usar para las ventas cruzadas y las ventas adicionales.
 
