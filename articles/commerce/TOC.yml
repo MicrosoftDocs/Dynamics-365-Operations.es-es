@@ -94,12 +94,12 @@
                       href: get-started/whats-new-commerce-10-0-10.md
                     - name: Commerce 10.0.9 (abril de 2020)
                       href: get-started/whats-new-10-0-9.md
-                    - name: Commerce 10.0.8 (febrero de 2020)
-                      href: get-started/whats-new-10-0-8.md
                 - name: Características quitadas u obsoletas
                   items:
-                    - name: Características quitadas u obsoletas de Finance and Operations
+                    - name: Características quitadas u obsoletas en Finance and Operations
                       href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/commerce/toc.json
+                    - name: Características quitadas u obsoletas en Dynamics 365 Commerce
+                      href: get-started/removed-deprecated-features-commerce.md
                 - name: Características de AX 2012 pospuestas
                   href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/commerce/toc.json
                 - name: Características no implementadas en implementaciones locales
@@ -644,6 +644,8 @@
                       href: work-with-store-inventory.md
                     - name: Trabajo con artículos serializados
                       href: ../supply-chain/sales-marketing/register-serial-numbers-sales-process.md?toc=/dynamics365/commerce/toc.json
+                    - name: Trabajar con artículos serializados en PDV
+                      href: pos-serialized-items.md
                     - name: Insertar productos del centro de distribución al almacén mediante estrategia de presión
                       href: tasks/push-products-distribution-center-store-buyers-push.md
                     - name: Configurar las reglas y los parámetros para el tránsito directo y la estrategia de presión
@@ -1002,7 +1004,7 @@
               href: store-performance-information.md
             - name: 'Configurar análisis de novedad, frecuencia y monetario (RFM)'
               href: set-up-rfm-analysis.md
-        - name: Características normativas y de localización
+        - name: Globalización
           items:
             - name: Visión general de la integración fiscal para el canal de Commerce
               href: localizations/fiscal-integration-for-retail-channel.md
@@ -1014,18 +1016,26 @@
                   href: localizations/emea-aut-fi-sample.md
             - name: Europa del Este
               items:
-                - name: Facturas anticipadas para Commerce para Europa del Este
-                  href: localizations/emea-eeu-advance-invoices-for-retail.md
-                - name: Gestión del efectivo para gastos menores para Commerce para Europa del Este
-                  href: localizations/emea-eeu-petty-cash-for-retail.md
-                - name: Facturas de clientes y pedidos de venta de devolución en países de Europa del Este
-                  href: localizations/emea-eeu-retail-invoices.md
-                - name: 'Directrices de implementación para cajas registradoras para la República Checa, Hungría y Polonia'
-                  href: localizations/emea-eeu-deployment.md
-                - name: Ejemplo de integración de impresora fiscal para Polonia
-                  href: localizations/emea-pol-fpi-sample.md
-                - name: Ejemplo de integración de servicio de registro fiscal para la República Checa
-                  href: localizations/emea-cze-fi-sample.md
+                - name: Común
+                  items:
+                    - name: Facturas anticipadas para Commerce para Europa del Este
+                      href: localizations/emea-eeu-advance-invoices-for-retail.md
+                    - name: Gestión del efectivo para gastos menores para Commerce para Europa del Este
+                      href: localizations/emea-eeu-petty-cash-for-retail.md
+                    - name: Facturas de clientes y pedidos de venta de devolución en países de Europa del Este
+                      href: localizations/emea-eeu-retail-invoices.md
+                    - name: 'Directrices de implementación para cajas registradoras para la República Checa, Hungría y Polonia'
+                      href: localizations/emea-eeu-deployment.md
+                - name: República Checa
+                  items:
+                    - name: Ejemplo de integración de servicio de registro fiscal para la República Checa
+                      href: localizations/emea-cze-fi-sample.md
+                - name: Polonia
+                  items:
+                    - name: Ejemplo de integración de impresora fiscal para Polonia
+                      href: localizations/emea-pol-fpi-sample.md
+                    - name: Gestión de información de cliente para Polonia
+                      href: localizations/emea-pol-customer-information.md
             - name: Francia
               items:
                 - name: Funcionalidad de caja registradora
@@ -1044,6 +1054,8 @@
               items:
                 - name: Ejemplo de integración de impresora fiscal para Italia
                   href: localizations/emea-ita-fpi-sample.md
+                - name: Gestión de información de cliente para Italia
+                  href: localizations/emea-ita-customer-information.md
             - name: México
               items:
                 - name: Facturas electrónicas de CFDI globales para México
@@ -1058,7 +1070,9 @@
               items:
                 - name: Funcionalidad de caja registradora
                   href: localizations/emea-swe-cash-registers.md
-                - name: Muestra de integración de POS con unidades de control
+                - name: Muestra de integración de unidad de control para Suecia
+                  href: localizations/emea-swe-fi-sample.md
+                - name: Muestra de integración de Retail POS con unidades de control (heredada)
                   href: localizations/retail-sdk-control-unit-sample.md
         - name: Integraciones de informes y Power BI
           items:
@@ -1138,7 +1152,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/commerce/toc.json
                 - name: Agregar dimensiones financieras a medidas agregadas
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/commerce/toc.json
-                - name: Crear informes analíticos mediante PowerBI Desktop
+                - name: Crear informes analíticos mediante Power BI Desktop
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/commerce/toc.json
                 - name: Agregar análisis a espacios de trabajo mediante Power BI Embedded
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/commerce/toc.json
