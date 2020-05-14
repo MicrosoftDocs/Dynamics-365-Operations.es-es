@@ -425,6 +425,8 @@
                   href: asset-management/controlling-and-reporting/item-where-used.md
                 - name: Estado de mantenimiento
                   href: asset-management/controlling-and-reporting/maintenance-status.md
+            - name: Integrar la administración de activos con Dynamics 365 Guides
+              href: asset-management/asset-management-guides-integration.md
             - name: Espacio de trabajo móvil de gestión de activos
               href: asset-management/asset-management-mobile-workspace.md
         - name: Administración de datos
@@ -703,7 +705,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Agregar dimensiones financieras a medidas agregadas
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Crear informes analíticos mediante PowerBI Desktop
+                - name: Crear informes analíticos mediante Power BI Desktop
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Agregar análisis a espacios de trabajo mediante Power BI Embedded
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/supply-chain/toc.json
@@ -1319,7 +1321,7 @@
               items:
                 - name: Visión general de la optimización de la planificación
                   href: master-planning/planning-optimization/planning-optimization-overview.md
-                - name: El inventario disponible negativo se trata como inventario disponible cero
+                - name: Planificación con cantidades negativas disponibles
                   href: master-planning/planning-optimization/negative-on-hand.md
                 - name: Introducción a la optimización de la planificación
                   href: master-planning/planning-optimization/get-started.md
@@ -2653,8 +2655,6 @@
                   href: warehousing/material-replenishment-withdrawal-kanban.md
                 - name: Configurar un proceso de reabastecimiento mínimo-máximo
                   href: warehousing/tasks/set-up-min-max-replenishment-process.md
-                - name: Configurar una plantilla de trabajo para pedidos de compra
-                  href: ../supply-chain/warehousing/tasks/set-up-work-template-purchase-orders.md
             - name: Instalar y configurar la aplicación Warehousing
               items:
                 - name: Visión general de la instalación y configuración
@@ -2663,7 +2663,7 @@
                   href: warehousing/configure-app-field-names-priorities-warehouse.md
                 - name: Configurar dispositivos móviles para el trabajo de almacén
                   href: warehousing/configure-mobile-devices-warehouse.md
-                - name: Matrícula que se recibe con Warehouse Mobile App
+                - name: Matrícula que se recibe con la aplicación Warehousing
                   href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                 - name: Configurar un elemento de menú del dispositivo móvil para completar el trabajo en un pedido de compra
                   href: warehousing/tasks/set-up-mobile-device-menu.md
