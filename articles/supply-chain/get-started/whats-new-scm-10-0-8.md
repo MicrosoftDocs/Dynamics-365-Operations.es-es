@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-01-31
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 6ace25bc64bcd5afce7e3f23479b0d93535b1a9b
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 40d1090d18857c6978ce42a34d6d67241f9df18f
+ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201511"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346338"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1008-february-2020"></a>Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.8 (febrero de 2020)
 
@@ -51,7 +51,7 @@ En esta versión se incluyen las siguientes características. Los títulos de ca
 - [Dividir el trabajo de reposición de la demanda desde el paso de creación de trabajo de selección](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/split-demand-replenishment-work-create-pick-work-step)
 - [Dividir trabajo](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/split-work)
 - [Selección de clúster dirigida por el sistema](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/system-directed-cluster-picking): para obtener más información, consulte [Selección de clúster dirigida por el sistema](../warehousing/system-directed-cluster-pick.md).
-- [Validación de tarea de aplicación de almacén mediante RSAT](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-app-task-validation-rsat)
+- [Validación de tarea de aplicación de almacenamiento con RSAT](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-app-task-validation-rsat)
 - [Regla de liberación al almacén](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-release-rule)
 - [Visualización del estado de oleada](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-status-visualization)
 - [Agrupación de plantillas de oleada](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-template-grouping)

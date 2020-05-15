@@ -3,7 +3,7 @@ title: Configurar un inquilino B2C en Commerce
 description: En este tema se describe cómo configurar los inquilinos de empresa a consumidor (B2C) de Azure Active Directory (Azure AD) para la autenticación del sitio del usuario en Dynamics 365 Commerce.
 author: BrianShook
 manager: annbe
-ms.date: 04/17 /2020
+ms.date: 04/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: BriShoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f4768eede43003aac892b861b4a86ababe98a189
-ms.sourcegitcommit: 063c4d7155be6c2cadcafa1630d16ee235285479
+ms.openlocfilehash: 22d62419c703c64470723cf82864a4782306ea8a
+ms.sourcegitcommit: 1b00e21faf89de8b3450936253a4c02cb4d12a3d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3270219"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "3295278"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Configurar un inquilino B2C en Commerce
 
@@ -87,7 +87,7 @@ Para crear la aplicación B2C, siga estos pasos.
 
 ### <a name="reply-urls"></a>Direcciones URL de respuesta
 
-Las direcciones URL de respuesta son importantes, ya que permiten una lista blanca de los dominios de retorno cuando su sitio llama a Azure AD B2C para autenticar a un usuario. Esto permite que el usuario autenticado regrese al dominio desde el que inició sesión (el dominio de su sitio). 
+Las direcciones URL de respuesta son importantes, ya que ofrecen una lista blanca de los dominios de retorno cuando su sitio llama a Azure AD B2C para autenticar a un usuario. Esto posibilita que el usuario autenticado regrese al dominio desde el que inició sesión (el dominio de su sitio). 
 
 En el cuadro **Dirección URL de respuesta** de la pantalla **Azure AD B2C - Aplicaciones \> Nueva aplicación** debe agregar líneas independientes para el dominio de su sitio y (una vez que se haya aprovisionado el entorno) la dirección URL generada por Commerce. Estas direcciones URL siempre deben usar un formato de URL válido y deben ser direcciones URL base únicamente (sin barras diagonales ni rutas). Hay que agregar a las direcciones URL base la cadena ``/_msdyn365/authresp``, como en los siguientes ejemplos.
 
@@ -121,9 +121,9 @@ Para crear una directiva de flujo de usuario de registro e inicio de sesión, si
 
     | **Recopilar atributo** | **Notificación de devolución** |
     | ---------------------- | ----------------- |
-    |                        | Direcciones de correo electrónico   |
+    | Dirección de correo electrónico          | Direcciones de correo electrónico   |
     | Nombre propio             | Nombre propio        |
-    |                        | Proveedor de identidad |
+    |                        | Proveedor de identidades |
     | Apellido                | Apellido           |
     |                        | ID de objeto del usuario  |
 
@@ -246,10 +246,6 @@ Para actualizar la sede con la nueva información de Azure AD B2C, siga estos pa
     1. En el cuadro **Tipo**, introduzca **Público**.
     1. En el cuadro **Tipo de usuario**, introduzca **Cliente**.
 1. En el panel de acciones, seleccione **Guardar**.
-1. En el cuadro de búsqueda de Commerce, busque **Secuencias numéricas** (Administración de la organización > Secuencias numéricas).
-1. En panel de acciones, seleccione **Editar** en **Mantener**.
-1. En la ficha desplegable **General**, seleccione **No** para **Manual**.
-1. En el panel de acciones, seleccione **Guardar**. 
 1. En el cuadro de búsqueda de Commerce, busque **Programación de distribución**
 1. En el menú de navegación izquierdo de la página **Programaciones de distribución**, seleccione el trabajo **1110 Configuración global**.
 1. En el panel de acciones, seleccione **Ejecutar ahora**.
@@ -304,13 +300,14 @@ Para agregar a Commerce la información de su aplicación de inquilino de AAD B2
 1. Introduzca los siguientes elementos obligatorios en el formulario que se muestra, utilizando los valores del inquilino de B2C y la aplicación B2C. Los campos que no son obligatorios (los que no muestran un asterisco) pueden dejarse en blanco.
 
     - **Nombre de la aplicación**: el nombre de la aplicación B2C (por ejemplo, "Fabrikam B2C").
-    - **Nombre del inquilino**: el nombre del inquilino B2C (por ejemplo, "Fabrikam").
+    - **Nombre del inquilino**: el nombre de su inquilino B2C (por ejemplo, use "fabrikam" si el dominio aparece como "fabrikam.onmicrosoft.com" para el inquilino B2C). 
     - **Id. de directiva de restablecimiento de contraseña**: el id. de la directiva del flujo de usuario de restablecimiento de contraseña (por ejemplo, "B2C_1_PasswordReset").
     - **Id. de directiva de registro e inicio de sesión**: el id. de la directiva de registro e inicio de sesión (por ejemplo, "B2C_1_signup_signin").
     - **GUID del cliente**: el id. de la aplicación B2C (por ejemplo, "22290eb2-c52e-42e9-8b35-a2b0a3bcb9e6").
     - **Id. de directiva de edición de perfil**: el id. de la directiva del flujo de usuario de edición de perfil (por ejemplo, "B2C_1A_ProfileEdit").
 
 1. Seleccione **Aceptar**. Ahora debería ver el nombre de su aplicación B2C en la lista.
+1. Seleccione **Guardar** para guardar los cambios.
 
 ### <a name="associate-the-b2c-application-to-your-site-and-channel"></a>Asociar la aplicación B2C a su sitio y canal
 

@@ -3,7 +3,7 @@ title: Destinos de informes electrónicos (ER)
 description: Este tema proporciona información sobre la administración de los destinos de informes electrónicos (ER), los tipos de destinos admitidos y las consideraciones de seguridad.
 author: nselin
 manager: AnnBe
-ms.date: 03/17/2020
+ms.date: 04/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 8a6536c82cd3407626fc0d8e102e3819c80cfd4b
-ms.sourcegitcommit: 0d9ca44b48fb2e33d8160faccc1e6bd932e58934
+ms.openlocfilehash: 1bad9e5094f0daa260f66ecd429233f20a2545a5
+ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3150824"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3323701"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Destinos de informes electrónicos (ER)
 
@@ -52,7 +52,36 @@ También hay un tipo de destino de [Impresión](er-destination-type-print.md). P
 
 ## <a name="overview"></a>Visión general
 
-Puede configurar destinos solo para configuraciones de ER que se han [importado](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) en la instancia de Finance actual y para los formatos que están disponibles en la página **Configuraciones de informes electrónicos**. La funcionalidad de administración de destinos de ER está disponible en **Administración de la organización** \> **Informes electrónicos** \> **Destino de informes electrónicos**. En la página **Destino de informes electrónicos**, puede anular el comportamiento predeterminado para una configuración. Las configuraciones importadas no se muestran en esta página hasta que se selecciona **Nueva** y, a continuación, en el campo **Referencia** , selecciona una configuración para la que crear la configuración de destino.
+Puede configurar destinos solo para configuraciones de ER que se han [importado](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) en la instancia de Finance actual y para los formatos que están disponibles en la página **Configuraciones de informes electrónicos**. La funcionalidad de administración de destinos de ER está disponible en **Administración de la organización** \> **Informes electrónicos** \> **Destino de informes electrónicos**.
+
+### <a name="default-behavior"></a>Comportamiento predeterminado
+
+El comportamiento predeterminado para una configuración de formato ER depende del tipo de ejecución que especifique cuando se inicia un formato ER.
+
+En el cuadro de diálogo **Informe Intrastat**, en la ficha desplegable **Ejecutar en segundo plano**, si configura la opción de **Procesamiento por lotes** en **No**, un formato ER se ejecuta inmediatamente en modo interactivo. Cuando esta ejecución se completa con éxito, un documento resultante generado está disponible para descargar.
+
+Si configura la opción **Procesamiento por lotes** en **Sí**, se ejecuta un formato ER en modo [lote](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/batch-processing-overview). Se crea el trabajo por lotes adecuado, en función de los parámetros que especifique en la pestaña **Ejecutar en segundo plano** del cuadro de diálogo **Parámetros ER**.
+
+> [!NOTE]
+> La descripción del trabajo se inicia para informarle sobre la ejecución de una asignación de formato ER. También contiene el nombre del componente ER ejecutado.
+
+[![Ejecución de un formato ER](./media/ER_Destinations-RunInBatchMode.png)](./media/ER_Destinations-RunInBatchMode.png)
+
+Puede encontrar información sobre este trabajo en varios lugares:
+
+- Vaya a **Común** \> **Consultas** \> **Trabajos por lotes** \> **Mis trabajos por lotes** para verificar el estado del trabajo programado.
+- Vaya a **Administración de la organización** \> **Informes electrónicos** \> **Trabajos de informes electrónicos** para verificar el estado del trabajo programado y los resultados de ejecución del trabajo completado. Cuando la ejecución del trabajo se complete con éxito, seleccione **Mostrar archivos** en la página **Trabajos de informes electrónicos** para obtener un documento resultante generado.
+
+    > [!NOTE]
+    > Este documento se almacena como un archivo adjunto del registro de trabajo actual y se controla mediante el marco de referencia [Gestión de documentos](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management). El [tipo de Documento](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types) que se utiliza para almacenar artefactos ER de este tipo se configura en los [Parámetros ER](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
+
+- En la página **Trabajos de informes electrónicos**, seleccione **Mostrar archivos** para ver la lista de errores y advertencias que se generaron durante la ejecución del trabajo.
+
+    [![Revisión de la lista de trabajos de ER](./media/ER_Destinations-ReviewERJobs.png)](./media/ER_Destinations-ReviewERJobs.png)
+
+### <a name="user-configured-behavior"></a>Comportamiento configurado por el usuario
+
+En la página **Destino de informes electrónicos**, puede anular el comportamiento predeterminado para una configuración. Las configuraciones importadas no se muestran en esta página hasta que se selecciona **Nueva** y, a continuación, en el campo **Referencia** , selecciona una configuración para la que crear la configuración de destino.
 
 [![Selección de una configuración en el campo Referencia](./media/ER_Destinations-SelectFormat.png)](./media/ER_Destinations-SelectFormat.png)
 
@@ -148,7 +177,7 @@ La opción de conversión de PDF solo se puede activar para los componentes de a
 >
 > El PDF producido está limitado a un número máximo de 300 páginas.
 >
-> En este momento, solo se admite la orientación de página horizontal en el documento PDF que se produce a partir de una salida de Excel.
+> En Microsoft Dynamics 365 Finance, versión 10.0.9 (abril de 2020), solo se admite la orientación de página horizontal en el documento PDF que se produce a partir de una salida de Excel. Con el lanzamiento de Dynamics 365 Finance, versión 10.0.10 (mayo de 2020), puede [especificar la orientación de la página](#SelectPdfPageOrientation) en el documento PDF que se produce a partir de una salida de Excel mientras configura un destino de ER.
 >
 > Solo se usan las fuentes comunes del sistema operativo Windows para la conversión de una salida que no contiene fuentes incrustadas.
 
@@ -173,7 +202,7 @@ Si genera una configuración ER en formato Excel y desea convertirla a formato P
 
 ## <a name="security-considerations"></a>Consideraciones de seguridad
 
-Se utilizan dos tipos de privilegios y deberes para destinos de ER. Un tipo controla la capacidad general de un usuario de mantener los destinos que están configurados para una entidad jurídica (es decir, controla el acceso a la página **Destinos de informes electrónicos** ). El otro tipo controla la capacidad de un usuario de aplicación para reemplazar, en tiempo de ejecución, los parámetros de destino que un desarrollador de ER o consultor funcional de ER han configurado.
+Se utilizan dos tipos de privilegios y deberes para destinos de ER. Un tipo controla la capacidad general de un usuario de mantener los destinos que están configurados para una entidad jurídica (es decir, controla el acceso a la página **Destinos de informes electrónicos**). El otro tipo controla la capacidad de un usuario de aplicación para reemplazar, en tiempo de ejecución, los parámetros de destino que un desarrollador de ER o consultor funcional de ER han configurado.
 
 | Rol (nombre AOT)                     | Nombre de rol                                  | Aranceles (nombre AOT)                     | Nombre de arancel                                                        |
 |-------------------------------------|--------------------------------------------|-------------------------------------|------------------------------------------------------------------|

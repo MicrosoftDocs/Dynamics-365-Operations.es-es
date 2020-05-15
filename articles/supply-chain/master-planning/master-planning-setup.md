@@ -19,17 +19,15 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 7b6b4cb1c3035e8341928562c447b03affd40167
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 1e7775e797708668a339b6b02ed822261406c829
+ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213570"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3323678"
 ---
 # <a name="set-up-master-planning"></a>Configurar planificación maestra
 
-
-[!include [banner](../includes/preview-banner.md)]
 [!include [banner](../includes/banner.md)]
 
 En este tema se describen distintas estrategias y parámetros importantes que se utilizan para configurar una planificación maestra. Incluye una visión general de los tipos de planes que utiliza una planificación maestra y explica qué estrategia del plan debe utilizar, según sus requisitos empresariales. También describe los principales parámetros que afectan al plan y explica cómo afectan esos parámetros a los pedidos planificados que se sugieren.

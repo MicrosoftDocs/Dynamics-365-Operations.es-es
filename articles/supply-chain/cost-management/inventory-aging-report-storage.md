@@ -19,18 +19,16 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2019-01-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9148a9032615222a1fdfe453488e716bacadbabc
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 1e68833cc2b4430f66419a67b1cba5f6c8c209f4
+ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275588"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3323632"
 ---
 # <a name="inventory-aging-report-storage"></a>Almacenamiento de informe de vencimiento de inventario
 
-
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 En Microsoft Dynamics 365 Supply Chain Management, puede ejecutar un informe de **Almacenamiento de informe de vencimiento de inventario** y generar resultados como un formulario y gráfico. En el formulario, las columnas y saldos agregados se ajustan dinámicamente, en función del diseño que se configura. El gráfico proporciona una visión general visual que admite el filtrado y permite explorar en profundidad los detalles. Además, una entidad de datos que se denomina **Informe de vencimiento de inventario** permite exportar los resultados de una ejecución de informe de **Almacenamiento de informe de vencimiento de inventario** en un formato como un archivo Microsoft Excel o PDF.
 

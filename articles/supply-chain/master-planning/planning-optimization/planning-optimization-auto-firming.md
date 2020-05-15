@@ -19,16 +19,15 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-11-30
 ms.dyn365.ops.version: AX 10.0.7
-ms.openlocfilehash: 5bfa8a1f025c2884f31b9fcb817e008a007ac010
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 81c26b8a99f86d663d91ac4f549987262c0541ad
+ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209752"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3323540"
 ---
 # <a name="auto-firming-with-planning-optimization"></a>Puesta en firme automática con la optimización de la planificación
 
-[!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
 
 La puesta en firme automática permite poner en firme (es decir, enviar) los pedidos planificados como parte del proceso de planificación maestra. Cuando se ponen en firme los pedidos planificados, se transforman en pedidos de compra reales, pedidos de transferencia o pedidos de producción. Cuando se usa la optimización de la planificación, los pedidos planificados se ponen en firme durante una planificación maestra ejecutada cuando la fecha del pedido (es decir, la fecha inicial) está dentro del límite de tiempo para la puesta en firme.

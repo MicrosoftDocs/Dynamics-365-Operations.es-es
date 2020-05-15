@@ -3,7 +3,7 @@ title: Usar los orígenes de datos de JOIN del modelo ER asignaciones para recop
 description: En este tema se explica cómo puede usar orígenes de datos de tipo JOIN en informes electrónicos (ER).
 author: NickSelin
 manager: AnnBe
-ms.date: 10/25/2019
+ms.date: 05/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: Release 10.0.1
-ms.openlocfilehash: 224acc19ee5dda430cd9471aa50e9d870a4f8c60
-ms.sourcegitcommit: 564aa8eec89defdbe2abaf38d0ebc4cca3e28109
+ms.openlocfilehash: 668ab28297ee7baf8f28cbbaf179d13cb5151dc4
+ms.sourcegitcommit: 248369a0da5f2b2a1399f6adab81f9e82df831a1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "2667963"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "3332331"
 ---
 # <a name="use-join-data-sources-to-get-data-from-multiple-application-tables-in-electronic-reporting-er-model-mappings"></a>Usar los orígenes de datos de JOIN para obtener datos de varias tablas de aplicación múltiple en las asignaciones de modelo de informes electrónicos (ER)
 
@@ -140,7 +140,7 @@ Revise los valores del componente de asignación del modelo de ER. El componente
 
 7.  Cierre la página.
 
-### <a name="review"></a>Revise la asignación del modelo de ER (parte 2)
+### <a name="review-er-model-mapping-part-2"></a><a name="review"></a> Revise la asignación del modelo de ER (parte 2)
 
 Revise los valores del componente de asignación del modelo de ER. El componente está configurado para acceder a información sobre las versiones de configuraciones ER, detalles de las configuraciones y proveedores de configuración usando una fuente de datos del tipo **Unión**.
 
@@ -152,7 +152,7 @@ Revise los valores del componente de asignación del modelo de ER. El componente
 
     ![Página de diseñador de asignación de modelos de ER](./media/GER-JoinDS-AddJoinDS.PNG)
 
-2.  Seleccionar **Detalles** del origen de datos.
+2.  Seleccionar **Detalle**s del origen de datos.
 3.  Seleccione **Editar** en el panel **Orígenes de datos**.
 4.  Seleccione **Editar unión**.
 5.  Seleccionar **Mostrar detalles**.
@@ -185,7 +185,7 @@ Revise los valores del componente de asignación del modelo de ER. El componente
 9.  Cierre la página.
 10. Seleccione **Cancelar**.
 
-### <a name="executeERformat"></a> Ejecutar formato ER
+### <a name="execute-er-format"></a><a name="executeERformat"></a> Ejecutar formato ER
 
 1.  Acceda a Finance o al RCS en la segunda sesión del explorador web mediante las mismas credenciales y empresa que en la primera sesión.
 2.  Vaya a **Administración de la organización \> Informes electrónicos \> Configuraciones**.
@@ -196,7 +196,7 @@ Revise los valores del componente de asignación del modelo de ER. El componente
 7.  Seleccione **Asignación**.
 8.  Seleccione **Expandir/Contraer**.
 
-    Tenga en cuenta que este formato están diseñado para rellenar un archivo de texto generado con una nueva línea para cada versión de una configuración ER (secuencia **Versión**). Cada línea generada contendrá el nombre de un proveedor de la configuración que posee la configuración actual, el nombre de la configuración y la versión de configuración separados por la marca del punto y coma. La línea final de archivo generado contendrá el número de versiones detectadas de las configuraciones de ER (secuencia **Resumen** ).
+    Tenga en cuenta que este formato están diseñado para rellenar un archivo de texto generado con una nueva línea para cada versión de una configuración ER (secuencia **Versión**). Cada línea generada contendrá el nombre de un proveedor de la configuración que posee la configuración actual, el nombre de la configuración y la versión de configuración separados por la marca del punto y coma. La línea final de archivo generado contendrá el número de versiones detectadas de las configuraciones de ER (secuencia **Resumen**).
 
     ![Página de diseñador de formato ER](./media/GER-JoinDS-FormatReview.PNG)
 
@@ -240,7 +240,7 @@ Revise los valores del componente de asignación del modelo de ER. El componente
 
     ![Página del diálogo de usuario del ER](./media/GER-JoinDS-Set2Run.PNG)
 
-#### <a name="analyze"></a> Analizar el seguimiento de la ejecución del formato de ER
+#### <a name="analyze-er-format-execution-trace"></a><a name="analyze"></a> Analizar el seguimiento de la ejecución del formato de ER
 
 1.  En la primera sesión de Finance o de RCS, seleccione **Diseñador**.
 2.  Seleccione **Seguimiento del rendimiento**.
@@ -256,6 +256,33 @@ Revise los valores del componente de asignación del modelo de ER. El componente
     - La base de datos de aplicación se ha llamado una vez para calcular el número de versiones de la configuración mediante las uniones que se hayan configurado en el origen de datos **Detalles**.
 
     ![Página de diseñador de asignación de modelos de ER](./media/GER-JoinDS-Set2Run3.PNG)
+
+## <a name="limitations"></a>Limitaciones
+
+Como puede ver en el ejemplo de este tema, el origen de datos **UNIRSE** se puede construir a partir de varias fuentes de datos que describen los conjuntos de datos individuales de los registros que eventualmente se deben unir. Puede configurar esos orígenes de datos utilizando la función ER incorporada [FILTRAR](er-functions-list-filter.md). Cuando configura el origen de datos para que se llame más allá del origen de datos **UNIRSE**, puede usar los rangos de empresas como parte de la condición para la selección de datos. La implementación inicial del origen de datos **UNIRSE** no admite fuentes de datos de este tipo. Por ejemplo, cuando llama a un origen de datos basado en [FILTRAR](er-functions-list-filter.md) dentro del alcance de la ejecución de un origen de datos **UNIRSE**, si el origen de datos llamado contiene rangos de empresas como parte de la condición para la selección de datos, se produce una excepción.
+
+En Microsoft Dynamics 365 Finance, versión 10.0.12 (agosto de 2020), puede utilizar rangos de empresas como parte de la condición para la selección de datos en orígenes de datos basados en [FILTRAR](er-functions-list-filter.md) que se llaman dentro del alcance de la ejecución de un origen de datos **UNIRSE**. Debido a las limitaciones de la aplicación creadora de [consultas](../dev-ref/xpp-library-objects.md#query-object-model), los rangos de empresas solo se admiten para el primer origen de datos de un origen de datos **UNIRSE**.
+
+### <a name="example"></a>Ejemplo
+
+Por ejemplo, debe hacer una sola llamada a la base de datos de la aplicación para obtener la lista de transacciones de comercio exterior de varias compañías y los detalles del artículo de inventario al que se hace referencia en esas transacciones.
+
+En este caso, configure los siguientes artefactos en su asignación de modelo ER:
+
+- Origen de datos raíz **Intrastat** que representa la tabla **Intrastat**.
+- Origen de datos raíz **Elementos** que representa la tabla **InventTable**.
+- Origen de datos raíz **Empresas** que devuelve la lista de empresas (**DEMF** y **GBSI** en este ejemplo) donde se debe acceder a las transacciones. El código de empresa está disponible en el campo **Companies.Code**.
+- Origen de datos raíz **X1** que tiene la expresión `FILTER (Intrastat, VALUEIN(Intrastat.dataAreaId, Companies, Companies.Code))`. Como parte de la condición para la selección de datos, esta expresión contiene la definición de rangos de empresa `VALUEIN(Intrastat.dataAreaId, Companies, Companies.Code)`.
+- Origen de datos **X2** como elemento anidado del origen de datos **X1**. Incluye la expresion `FILTER (Items, Items.ItemId = X1.ItemId)`.
+
+Finalmente, puedes configurar un origen de datos **UNIRSE**, donde **X1** es el primer origen de datos y **X2** es la segunda fuente de datos. Puede especificar **Consulta** como opción de **Ejecutar** para forzar a ER a ejecutar este origen de datos en el nivel de la base de datos como una llamada directa de SQL.
+
+Cuando el origen de datos configurado se ejecuta mientras la ejecución de ER se [rastrea](trace-execution-er-troubleshoot-perf.md), la siguiente declaración se muestra en el diseñador de asignación del modelo ER como parte de la traza de rendimiento ER.
+
+`SELECT ... FROM INTRASTAT T1 CROSS JOIN INVENTTABLE T2 WHERE ((T1.PARTITION=?) AND (T1.DATAAREAID IN (N'DEMF',N'GBSI') )) AND ((T2.PARTITION=?) AND (T2.ITEMID=T1.ITEMID AND (T2.DATAAREAID = T1.DATAAREAID) AND (T2.PARTITION = T1.PARTITION))) ORDER BY T1.DISPATCHID,T1.SEQNUM`
+
+> [!NOTE]
+> Se produce un error si se ejecuta un origen de datos **UNIRSE** que se ha configurado para que contenga condiciones de selección de datos que tengan rangos de empresas para orígenes de datos adicionales de los orígenes de datos **UNIRSE** ejecutados.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

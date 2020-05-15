@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: d5d9dbce0c74d32107db6bbae033b921e4201693
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 8cc7c11233c745719af72222eba02fb71d7a8944
+ms.sourcegitcommit: 4edc658448612afbf1c1663c166d12e08e4c4165
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275659"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "3340939"
 ---
 # <a name="general-troubleshooting"></a>Solución de problemas generales
 
@@ -62,14 +62,14 @@ Después de instalar la herramienta Package Deployer, instale el paquete de la s
 
 Para activar el registro de seguimiento, siga estos pasos.
 
-1. Inicie sesión en la aplicación Finance and Operations, abra la página **Configuración**, y luego, en **Sistema**, seleccione **Administración**.
+1. Inicie sesión en la aplicación basada en modelos en Dynamics 365, abra la página **Configuración**, y luego, en **Sistema**, seleccione **Administración**.
 2. En la página **Administración** , seleccione **Configuración del sistema**.
 3. En la pestaña **Personalización**, en el campo **Complemento y seguimiento de actividad de flujo de trabajo personalizado**, seleccione **Todo** para habilitar el registro de seguimiento del complemento. Si desea registrar registros de rastreo solo cuando se producen excepciones, puede seleccionar **Excepción** en su lugar.
 
 
 Para ver el registro de seguimiento, siga estos pasos.
 
-1. Inicie sesión en la aplicación Finance and Operations, abra la página **Configuración**, y luego, en **Personalización**, seleccione **Registro de seguimiento de complemento**.
+1. Inicie sesión en la aplicación basada en modelos en Dynamics 365, abra la página **Configuración**, y luego, en **Personalización**, seleccione **Registro de seguimiento de complementos**.
 2. Encuentre los registros de seguimiento donde el campo **Escribir nombre** se establece en **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
 3. Haga doble clic en un elemento para ver el registro completo y luego, en la ficha desplegable **Ejecución**, revise el texto **Bloque de mensajes**.
 

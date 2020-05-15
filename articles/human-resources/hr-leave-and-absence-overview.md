@@ -3,7 +3,7 @@ title: Información general
 description: En Dynamics 365 Human Resources el espacio de trabajo Permisos y ausencias proporciona un marco flexible para crear nuevos planes de baja, flujos de trabajo para administrar solicitudes y una página intuitiva de autoservicio para que los empleados soliciten tiempo libre.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/03/2020
+ms.date: 04/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5f7ba32b31a67d81ee5be568b0e64842f343f96b
-ms.sourcegitcommit: 9940ca772807d3c4e1ff3bf47f45b7251c4469ac
+ms.openlocfilehash: 2bb123b808615ff7d770c7c6b83338a32d922be3
+ms.sourcegitcommit: de217452a85429675994e9cc0e06eb4821cab3e5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/04/2020
-ms.locfileid: "3226239"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3325774"
 ---
 # <a name="overview"></a>Información general
 
@@ -78,8 +78,16 @@ No puede configurar **Precisión de redondeo** cuando establece **Tipo de redond
 
 ## <a name="leave-and-absence-preview-features"></a>Características de vista previa para permisos y ausencias
 
-Puede probar nuevas características de vista previa de Permisos y ausencias en un entorno de **espacio aislado**. Para obtener información acerca cómo activar las características de vista previa, consulte [Administrar características](hr-admin-manage-features.md). Entre las características de vista previa se incluyen:
+Puede probar nuevas características de vista previa de Permisos y ausencias en un entorno de **espacio aislado**. Para obtener información acerca cómo activar las características de vista previa, consulte [Administrar características](hr-admin-manage-features.md). 
 
-- **Suspensión de baja** - Puede suspender la baja y la ausencia en Human Resources para un empleado. La suspensión de la baja detiene las acumulaciones de baja para los tipos de baja seleccionados. Si la suspensión ocurre después de que se ha procesado una acumulación, la suspensión de la licencia crea un ajuste prorrateado al saldo de licencia del empleado. 
+[!include [banner](includes/preview-feature.md)]
+
+Entre las características de vista previa se incluyen:
+
+- **Suspensión de baja** - Puede suspender la baja y la ausencia en Human Resources para un empleado. La suspensión de la baja detiene las acumulaciones de baja para los tipos de baja seleccionados. Si la suspensión ocurre después de que se ha procesado una acumulación, la suspensión de la licencia crea un ajuste prorrateado al saldo de licencia del empleado. También puede incluir códigos de motivo al suspender la baja de un empleado. La experiencia del usuario se ha actualizado para indicar la suspensión. 
 
 - **Reglas de transferencia** - Puede especificar un tipo de transferencia de baja para transferir saldos en los que los ajustes de transferencia se traspasan. Por ejemplo, si un empleado adelanta 10 días, puede elegir un tipo de baja diferente para esos 10 días. 
+
+- **Incluir código de razón y comentarios para ajustes**: puede incluir un código de razón y un comentario al realizar un ajuste en el resultado de bajas de un empleado. 
+
+- **Transición a los parámetros de bajas y ausencias**: ahora puede usar solo los parámetros de bajas y ausencias en lugar de los parámetros de Recursos humanos. 
