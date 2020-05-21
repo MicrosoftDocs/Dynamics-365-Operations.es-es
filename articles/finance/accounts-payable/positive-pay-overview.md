@@ -1,7 +1,7 @@
 ---
 title: Visión general de pago positivo
 description: Este artículo proporciona información acerca del pago positivo, que se usa para generar una lista electrónica de cheques que se pueden presentar a un banco.
-author: abruer
+author: panolte
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 49fe8369fce599d16134541b1c968727f38ebff9
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f64b2bc6c336ba833cbd95f83596fe516bce8b56
+ms.sourcegitcommit: 1b00e21faf89de8b3450936253a4c02cb4d12a3d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189646"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "3295232"
 ---
 # <a name="positive-pay-overview"></a>Visión general de pago positivo
 

@@ -19,16 +19,15 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 01db8a02e57c61daf940e2f459124a857ced68cb
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: fa8426c3a1f19f8607f45e9ac4d57300abddb161
+ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213616"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3323655"
 ---
 # <a name="improve-master-planning-performance"></a>Mejorar el rendimiento de la planificación maestra
 
-[!include [banner](../includes/preview-banner.md)]
 [!include [banner](../includes/banner.md)]
 
 En este tema se explican las distintas opciones que pueden ayudarle a mejorar el rendimiento de la planificación maestra y a resolver problemas. Incluye información sobre parámetros y ajustes, y sobre configuraciones y acciones recomendadas. También se incluye un resumen de todos los parámetros importantes que debe tener en cuenta cuando tenga trabajos de planificación maestra de larga ejecución.
@@ -96,7 +95,7 @@ Puede establecer el parámetro **Número de pedidos de agrupación de puesta en 
 
 Los límites de tiempo especifican hasta qué punto en el futuro la planificación maestra debe calcular los cálculos y otros requisitos. Cuanto mayor sea el límite de tiempo, más tardará en ejecutarse la planificación maestra. Por lo tanto, establezca los límites de tiempo de acuerdo con sus requisitos empresariales. Para obtener más información acerca de los límites de tiempo, consulte [Configurar planificación maestra](master-planning-setup.md).
 
-### <a name="actions"></a>Acciones 
+### <a name="actions"></a>Acciones
 
 Entre los límites de tiempo, también puede encontrar el parámetro **Mensaje de acción**. El cálculo de mensajes de acción provoca un mayor tiempo de ejecución para la planificación maestra. Si los mensajes de acción no se analizan y aplican de forma periódica (a diario, cada semana, etc.), considere desactivar el cálculo durante la ejecución de la planificación maestra. Para desactivar el cálculo, en la página **Planes maestros**, (**Planificación maestra \> Configuración \> Planes \> Planes maestros**), establezca el límite de tiempo **Mensaje de acción** en **0** (cero). Asegúrese también de que la configuración **Mensaje de acción** está desactivada para todos los grupos de cobertura.
 

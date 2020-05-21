@@ -1,6 +1,6 @@
 ---
 title: Configuración de nombres de campo de aplicación en la aplicación de almacén
-description: Este tema describe cómo definir y configurar nombres de campo y prioridades de la aplicación de almacén en Dynamics 365 Supply Chain Management.
+description: Este tema describe cómo definir y configurar nombres de campo y prioridades de la aplicación de almacenamiento en Dynamics 365 Supply Chain Management.
 author: MarkusFogelberg
 manager: tfehr
 ms.date: 06/20/2017
@@ -19,23 +19,23 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f9b02b93895757580b323a4cd891909d5551ea55
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 0390900d97e74bb9fd8deac913b1606cb775aa7c
+ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205768"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346408"
 ---
 # <a name="configure-app-field-names-in-warehousing-app"></a>Configuración de nombres de campo de aplicación en la aplicación de almacén
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe cómo definir y configurar nombres de campo y prioridades de la aplicación de almacén en Dynamics 365 Supply Chain Management. 
+Este tema describe cómo definir y configurar nombres de campo y prioridades de la aplicación de almacenamiento en Dynamics 365 Supply Chain Management. 
 
 > [!NOTE]
-> Este tema se aplica a las características de gestión de almacenes. No se aplica a las características de gestión del inventario. Warehousing es una aplicación que puede usar para realizar tareas de almacén. Es posible definir y configurar los nombres de campo que se utilizan en la aplicación, así como configurar la prioridad a la que los nombres de campo se deben asignar. Este tema explica cómo definir y configurar estos nombres de campo y prioridades de la aplicación de almacén y cómo se usan en Warehousing. Para obtener información detallada sobre cómo configurar la conexión a Warehousing, consulte el tutorial sobre [Instalación y configuración de la aplicación de Warehousing](install-configure-warehousing-app.md).
+> Este tema se aplica a las características de gestión de almacenes. No se aplica a las características de gestión del inventario. Warehousing es una aplicación que puede usar para realizar tareas de almacén. Es posible definir y configurar los nombres de campo que se utilizan en la aplicación, así como configurar la prioridad a la que los nombres de campo se deben asignar. Este tema explica cómo definir y configurar estos nombres de campo y prioridades de la aplicación de almacenamiento y cómo se usan en Warehousing. Para obtener información detallada sobre cómo configurar la conexión a Warehousing, consulte el tutorial sobre [Instalación y configuración de la aplicación de Warehousing](install-configure-warehousing-app.md).
 
-## <a name="configure-warehouse-app-field-names"></a>Configurar nombres de campo de la aplicación de almacén
+## <a name="configure-warehousing-app-field-names"></a>Configuración de nombres de campo en la aplicación de almacenamiento
 
 Cuando se usa Warehousing en el dispositivo móvil, puede configurar cómo los metadatos se deben mostrar en su dispositivo en la página **Nombres de campo de aplicación de almacén**. En una nueva empresa, seleccione **Crear configuración predeterminada** para generar todos los nombres de campo que se usarán en los flujos de trabajo del dispositivo móvil de almacén y, a continuación, para asignarles un modo y un tipo de entrada preferidos. Una vez que haya generado todos los nombres de campo, puede seleccionar las siguientes opciones de entrada.
 
@@ -68,7 +68,7 @@ Cuando se usa Warehousing en el dispositivo móvil, puede configurar cómo los m
 </tbody>
 </table>
 
-## <a name="configure-warehouse-app-field-priority"></a>Configurar la prioridad de campo de aplicación de almacén
+## <a name="configure-warehousing-app-field-priority"></a>Configuración de prioridad de campo en la aplicación de almacenamiento
 
 En la página **Prioridad de campo de aplicación de almacén**, puede poner nombres de campo en distintos grupos de prioridad. Esto permite decidir qué información se debe mostrar en la página de la tarea principal cuando los trabajadores del almacén realizan tareas mediante la aplicación. Si hace clic en **Crear configuración predeterminada**, se generará un conjunto predeterminado de grupos de prioridad. Es posible crear tantos grupos de prioridad según sea necesario, pero solo se mostrarán tres grupos de prioridad en la página de tareas. Cuando el sistema envía metadatos a la aplicación, asignará a cada campo una prioridad relativa en función de su grupo de prioridad, y la aplicación mostrará los primeros tres grupos de prioridad contenidos en los metadatos en la página de tareas. El resto de los metadatos que se desbordan se mostrará en una página de detalles secundaria. En la tabla siguiente se muestra un ejemplo de cinco grupos de prioridad.
 
@@ -132,7 +132,7 @@ Por ejemplo, cuando un trabajador del almacén realiza una tarea en un dispositi
 -   Descripción de artículo
 -   Tamaño y ubicación
 
-En función de la configuración de la prioridad del campo de la aplicación de almacén de la tabla anterior, las 3 filas siguientes de información se mostrarán en la página de tareas:
+En función de la configuración de la prioridad del campo de la aplicación de almacenamiento de la tabla anterior, las 3 filas siguientes de información se mostrarán en la página de tareas:
 
 -   Fila 1: artículo, cantidad, unidad de medida
 -   Fila 2: descripción del artículo

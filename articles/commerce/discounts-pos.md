@@ -3,7 +3,7 @@ title: Mostrar descuentos en PDV
 description: Este tema explica cómo Microsoft Dynamics 365 Commerce ayuda a los asociados de ventas a conocer las promociones y cómo se pueden usar para las ventas cruzadas y las ventas adicionales.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 03/06/2020
+ms.date: 05/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-Commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: 89f7b79733f01c089a16c507b127b23ada5df1a6
-ms.sourcegitcommit: 02640a0f63daa9e509146641824ed623c4d69c7f
+ms.openlocfilehash: 0ffa7ca6294c7b523ec743f1cb9bc4aef8ef46a8
+ms.sourcegitcommit: 4d5bcda288341572076364559125c86e2ec05273
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "3265599"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "3334717"
 ---
 # <a name="show-discounts-in-pos"></a>Mostrar descuentos en PDV
 
@@ -54,9 +54,9 @@ En la página **Todos los descuentos**, los asociados de ventas también pueden 
 
 Los descuentos multilínea, como los descuentos por cantidad, los descuentos mixtos y los descuentos por umbral, son una excelente manera de motivar a los clientes a comprar más productos para obtener mayores descuentos. Por lo tanto, también ayudan a aumentar el tamaño del carrito de un cliente y los ingresos del minorista. Estos descuentos pueden publicarse en sitios web de comercio electrónico, en redes sociales y en pancartas en la tienda.
 
-Sin embargo, incluso cuando se utilizan todos estos métodos de publicidad, los clientes pueden perder la oportunidad de aprovechar las promociones. Para facilitar que los asociados de ventas sepan qué promociones son aplicables a una línea seleccionada, o incluso a todo el carrito, los minoristas pueden agregar el botón para la operación "Ver todos los descuentos" a cualquier cuadrícula de botones en PDV. Recomendamos que el botón se agregue a la cuadrícula de botones para la página **Transacción**. De esa manera, un asociado de ventas puede seleccionar una línea de transacción y luego seleccionar el botón para mostrar todos los descuentos disponibles para la línea seleccionada. El asociado de ventas también puede seleccionar otra pestaña para mostrar los descuentos que se aplican a toda la transacción.
+Sin embargo, incluso cuando se utilizan todos estos métodos de publicidad, los clientes pueden perder la oportunidad de aprovechar las promociones. Para facilitar que los asociados de ventas sepan qué promociones son aplicables a una línea seleccionada, o incluso a todo el carrito, los minoristas pueden agregar el botón para la operación "Ver descuentos disponibles" a la cuadrícula de botones de la página **Transacción**. De esta manera, un asociado de ventas puede seleccionar una línea de transacciones y luego seleccionar el botón para mostrar todos los descuentos disponibles para la línea seleccionada. El asociado de ventas también puede seleccionar otra pestaña para mostrar los descuentos que se aplican a toda la transacción.
 
-La página **Todos los descuentos** que se mencionó anteriormente muestra solo descuentos que no compiten con ninguno de los descuentos aplicados. Este comportamiento ayuda a garantizar que, si un asociado de ventas informa a un cliente sobre un descuento, y el cliente toma la acción requerida (por ejemplo, el cliente compra un artículo más para obtener un 10 por ciento de descuento), el descuento se aplica a la transacción. Como se mencionó anteriormente,los descuentos basados en cupones se muestran solo si la opción **Aplicar sin un código de cupón** está activada.
+La página **Todos los descuentos** muestra solo descuentos que no compiten con ninguno de los descuentos aplicados. Este comportamiento ayuda a garantizar que, si un asociado de ventas informa a un cliente sobre un descuento, y el cliente toma la acción requerida (por ejemplo, el cliente compra un artículo más para obtener un 10 por ciento de descuento), el descuento se aplica a la transacción. Los descuentos basados en cupones se muestran solo si la opción **Aplicar sin un código de cupón** está activada.
 
 En un escenario simple donde todos los descuentos tienen la misma prioridad, el modo de concurrencia de descuento es **Compuesto**, y el control de concurrencia de descuento se establece en **El mejor precio y compuesto dentro de la prioridad, nunca compuesto a través de prioridades**, la página **Todos los descuentos** muestra todos los descuentos disponibles para un producto, porque todos los descuentos son compuestos y no compiten entre sí.
 

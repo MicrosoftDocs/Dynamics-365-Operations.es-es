@@ -1,9 +1,9 @@
 ---
 title: Crear evaluaciones del rendimiento
-description: Este artículo explica cómo crear una revisión de rendimiento y describe el propósito de cada sección de la revisión.
+description: Este tema explica cómo crear una revisión de rendimiento y describe el propósito de cada sección de la revisión.
 author: andreabichsel
 manager: AnnBe
-ms.date: 08/06/2019
+ms.date: 05/05/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,18 +16,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 50ef3f305756f1ab0db895854cd7e1c71237cb48
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 22f3e82e7a1ebba689c1aa1ebbe75603a5c09188
+ms.sourcegitcommit: f06e48c7d487299aa4e2cff3e8f60cb8be0790df
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010466"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "3334692"
 ---
 # <a name="create-performance-reviews"></a>Crear evaluaciones del rendimiento
 
 
-
-Este artículo explica cómo crear una revisión de rendimiento y describe el propósito de cada sección de la revisión. Este procedimiento se creó con los datos de demostración de la empresa USMF.
+Este tema explica cómo crear una revisión de rendimiento y describe el propósito de cada sección de la revisión. Este procedimiento se creó con los datos de demostración de la empresa USMF.
 
 1. En la página principal, seleccione el espacio de trabajo **Autoservicio para empleados**.
 2. Seleccione **Nueva revisión** para crear una revisión nueva.
@@ -37,7 +36,7 @@ Este artículo explica cómo crear una revisión de rendimiento y describe el pr
 6. Seleccione **Aceptar**. También podrá crear una revisión a partir de una plantilla. Esta es la mejor manera de crear una revisión porque cada sección contendrá la información necesaria para iniciar una revisión.  
 7. Puede mostrar u ocultar las fichas como la ficha de los datos adjuntos:
 
-    1. En el panel de acciones, seleccione **Mostrar secciones** para abrir el diálogo desplegable.
+    1. En el panel Acciones, seleccione **Mostrar secciones** para abrir el menú de diálogo.
     1. Seleccione **Sí** o **No** en el campo **Mostrar datos adjuntos** para mostrar u ocultar la ficha de datos adjuntos.
     1. Seleccione **Guardar**.
 
@@ -51,7 +50,7 @@ Este artículo explica cómo crear una revisión de rendimiento y describe el pr
 15. Seleccione **Agregar comentario**.
 16. Seleccione **Registrar**.
 17. Seleccione la pestaña **Medidas**.
-18. Seleccione **Agregar medida** para abrir el cuadro desplegable.
+18. Seleccione **Agregar medida** para abrir el menú de diálogo.
 19. En el campo **Medida**, especifique o seleccione un valor.
 26. En el campo **Importe objetivo**, especifique un número.
 20. Seleccione **Aceptar**.
@@ -66,14 +65,14 @@ Este artículo explica cómo crear una revisión de rendimiento y describe el pr
 29. Seleccione **Guardar**.
 30. Seleccionar la pestaña **Calificaciones**.  
 
-    - La ficha desplegable de **detalles de la valoración** permite a los empleados autoevaluarse y que el responsable evalúe al empleado. Si se utilizan ponderaciones, el valor ponderado de las puntuaciones se calculará automáticamente.  
-    - Para ver esta sección, habilite la configuración de parámetros para mostrar valoraciones del empleado.  
+    - La ficha desplegable de **Detalles de valoración** permite a los empleados autoevaluarse y que el responsable evalúe al empleado. Si se utilizan ponderaciones, el valor ponderado de las puntuaciones se calculará automáticamente.  
+    - Para ver esta sección, habilite la configuración de parámetros para mostrar valoraciones de empleados.  
 
 31. Seleccione la ficha **Aprobaciones**. Si la revisión utiliza flujos de trabajo, entonces las aprobaciones aparecerán después de completar el flujo de trabajo. Si no se usa ningún flujo de trabajo, aquí aparecerán el trabajador y el responsable. La casilla necesaria se selecciona en función de los valores del tipo de revisión.  
 32. Seleccione la ficha **General**.
 
     - El período de rendimiento crea las fechas inicial y final predeterminadas. Estas fechas se pueden editar.  
-    - Los estados controlan el acceso a la revisión. El estado **No iniciada** permite a todo el mundo editar la revisión. El estado **En curso** solo permite que el empleado vea y edite la revisión. Listo para revisión permite que sólo el responsable vea y edite la revisión. El estado Revisión final permite que el empleado y el responsable vean la revisión y también la editen si se configura en el tipo de revisión. Los estados **Completada**, **Rechazada** y **Cancelada** convierten la revisión en de sólo lectura.  
+    - Los estados controlan el acceso a la revisión. El estado **No iniciada** permite a todo el mundo editar la revisión. El estado **En curso** solo permite que el empleado vea y edite la revisión. **Listo para revisión** permite que sólo el responsable vea y edite la revisión. El estado **Revisión final** permite que el empleado y el responsable vean la revisión y también la editen si se configura en el tipo de revisión. Los estados **Completada** y **Cancelada** convierten la revisión en de sólo lectura. Si una revisión es **Rechazada** y se devuelve al empleado, tanto el empleado como el gerente pueden realizar las modificaciones necesarias para que el empleado pueda volver a enviarla.
 
 33. En el campo **Visión general**, escriba un valor.
 34. Seleccione la ficha **Revisión**. A medida que la revisión pasa por los estados, el empleado y el responsable pueden agregar comentarios para cada objetivo o competencia.  

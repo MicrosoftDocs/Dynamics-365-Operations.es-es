@@ -3,7 +3,7 @@ title: Función SUMIF ER
 description: Este tema proporciona información general sobre cómo usar la función SUMIF de informes electrónicos (ER).
 author: NickSelin
 manager: kfend
-ms.date: 12/04/2019
+ms.date: 04/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 374569d3bbe59f1b96eee9c789b97b7b2a6004bf
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 9df7be0825203f91434d348385c1ee358ae555ea
+ms.sourcegitcommit: ef6fd78c817f93610771cfb2477f52f16b882164
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042490"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "3290209"
 ---
-# <a name="SUMIF">Función SUMIF ER</a>
+# <a name=""></a><a name="SUMIF">Función SUMIF ER</a>
 
 [!include [banner](../includes/banner.md)]
 
@@ -53,7 +53,7 @@ El valor numérico resultante.
 
 ## <a name="usage-notes"></a>Notas de uso
 
-Esta función devuelve un valor **0** (cero) cuando la opción **Recopilar detalles de salida** del componente actual **Común \\Archivo** está desactivado.
+Esta función devuelve un valor **0** (cero) cuando la opción **Recopilar detalles de salida** del componente actual **Común\\Archivo** está desactivado.
 
 En el argumento `condition range`, el carácter comodín **"\*"** se puede usar para representar cualquier carácter múltiple.
 
@@ -62,6 +62,8 @@ En el argumento `condition value`, el carácter comodín **"\*"** se puede usar 
 ## <a name="example"></a>Ejemplo
 
 Para obtener más información sobre cómo usar esta función, consulte la guía de tareas de los [datos de uso de ER del formato generados para contar y calcular](tasks/er-format-counting-summing-1.md), que forma parte del proceso empresarial de **Adquirir/desarrollar los componentes de servicio/solución de IT**.
+
+Para obtener más información y ejemplos sobre el uso de esta función, consulte [Aplazar la ejecución de elementos de secuencia en formatos ER](er-defer-sequence-element.md#Example) y [Aplazar la ejecución de elementos XML en formatos ER](er-defer-xml-element.md#Example).
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

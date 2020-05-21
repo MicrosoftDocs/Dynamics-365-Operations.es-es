@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 0fe9ed9f2bebe8683f3b8bb37b33e8a63b9521f6
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 6c462a87494c434a6047542d448a85b3bce9f769
+ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205676"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346477"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Política de reserva de dimensión de nivel de almacén flexible
 
@@ -233,7 +233,7 @@ Las siguientes tablas proporcionan una descripción general que muestra cómo el
 <td>Sí</td>
 <td>
 <ol>
-<li>Seleccione el elemento de menú <strong>Anular ubicación</strong> en la aplicación Warehouse Mmobile (WMA) cuando comience a seleccionar el trabajo.</li>
+<li>Seleccione el elemento de menú <strong>Anular ubicación</strong> en la aplicación de almacenamiento al comenzar a seleccionar trabajo.</li>
 <li>Seleccione <strong>Sugerir</strong>.</li>
 <li>Confirme la nueva ubicación que se sugiere según la disponibilidad de la cantidad de lote.</li>
 </ol>
@@ -247,10 +247,10 @@ Las siguientes tablas proporcionan una descripción general que muestra cómo el
 <td>No aplicable</td>
 </tr>
 <tr>
-<td>No</td>
+<td>Nº</td>
 <td>
 <ol>
-<li>Seleccione el elemento de menú <strong>Anular ubicación</strong> en la aplicación WMA cuando comience el trabajo de selección.</li>
+<li>Seleccione el elemento de menú <strong>Anular ubicación</strong> en la aplicación de almacenamiento al comenzar a seleccionar trabajo.</li>
 <li>Introduzca manualmente una ubicación.</li>
 </ol>
 </td>
@@ -278,7 +278,7 @@ Las siguientes tablas proporcionan una descripción general que muestra cómo el
 <td>No aplicable</td>
 <td>
 <ol>
-<li>Seleccione el elemento de menú <strong>Completo</strong> en la aplicación WMA cuando procese el trabajo de selección.</li>
+<li>Seleccione el elemento de menú <strong>Completo</strong> en la aplicación de almacenamiento al procesar la selección de trabajo.</li>
 <li>En el campo <strong>Cant. picking</strong>, introduzca una cantidad parcial de la selección requerida para indicar la capacidad total.</li>
 </ol>
 </td>
@@ -353,7 +353,7 @@ Las siguientes tablas proporcionan una descripción general que muestra cómo el
 <td>Sí</td>
 <td>
 <ol>
-<li>Inicie un movimiento en la WMA.</li>
+<li>Inicie un movimiento en la aplicación de almacenamiento.</li>
 <li>Especifique las ubicaciones de origen y destino.</li>
 </ol></td>
 <td>
@@ -469,7 +469,7 @@ Las siguientes tablas proporcionan una descripción general que muestra cómo el
 <td>Sí</td>
 <td>
 <ol>
-<li>Seleccione el elemento de menú <strong>ShortPick</strong> en la aplicación WMA cuando ejecute el trabajo de selección.</li>
+<li>Seleccione el elemento de menú <strong>Elección corta</strong> en la aplicación de almacenamiento al ejecutar la selección de trabajo.</li>
 <li>En el campo <strong>Seleccionar cantidad</strong>, especifique <strong>0</strong> (cero).</li>
 <li>En el campo <strong>Razón</strong>, introduzca <strong>Sin reasignación</strong>.</li>
 </ol>
@@ -498,7 +498,7 @@ Las siguientes tablas proporcionan una descripción general que muestra cómo el
 <td>Sí</td>
 <td>
 <ol>
-<li>Seleccione el elemento de menú <strong>ShortPick</strong> en la aplicación WMA cuando ejecute el trabajo de selección.</li>
+<li>Seleccione el elemento de menú <strong>Elección corta</strong> en la aplicación de almacenamiento al ejecutar la selección de trabajo.</li>
 <li>En el campo <strong>Seleccionar cantidad</strong>, especifique <strong>0</strong> (cero).</li>
 <li>En el campo <strong>Razón</strong>, introduzca <strong>Sin reasignación</strong>.</li>
 </ol>
@@ -522,7 +522,7 @@ Las siguientes tablas proporcionan una descripción general que muestra cómo el
 <td>Sí</td>
 <td>
 <ol>
-<li>Seleccione el elemento de menú <strong>ShortPick</strong> en la aplicación WMA cuando ejecute el trabajo de selección.</li>
+<li>Seleccione el elemento de menú <strong>Elección corta</strong> en la aplicación de almacenamiento al ejecutar la selección de trabajo.</li>
 <li>En el campo <strong>Cantidad de selección corta</strong>, especifique <strong>0</strong> (cero).</li>
 <li>En el campo <strong>Razón</strong>, seleccione <strong>Selección corta con reasignación manual</strong>.</li>
 <li>Seleccione la ubicación/matrícula en la lista.</li>
@@ -545,10 +545,10 @@ Las siguientes tablas proporcionan una descripción general que muestra cómo el
 </tr>
 <tr>
 <td>Se ha configurado una excepción de trabajo del tipo <strong>Selección corta</strong> donde <strong>Reasignación de artículos</strong> = <strong>Manual</strong>, <strong>Ajustar inventario</strong> = <strong>Sí</strong> y <strong>Eliminar reservas</strong> = <strong>No</strong>. Además, la opción <strong>Permitir reasignación manual de artículos</strong> está habilitada en el trabajador.</td>
-<td>No</td>
+<td>Nº</td>
 <td>
 <ol>
-<li>Seleccione el elemento de menú <strong>ShortPick</strong> en la aplicación WMA cuando ejecute el trabajo de selección.</li>
+<li>Seleccione el elemento de menú <strong>Elección corta</strong> en la aplicación de almacenamiento al ejecutar la selección de trabajo.</li>
 <li>En el campo <strong>Cantidad de selección corta</strong>, especifique <strong>0</strong> (cero).</li>
 <li>En el campo <strong>Razón</strong>, seleccione <strong>Selección corta con reasignación manual</strong>.</li>
 </ol>
@@ -558,10 +558,10 @@ Las siguientes tablas proporcionan una descripción general que muestra cómo el
 </tr>
 <tr>
 <td>Se ha configurado una excepción de trabajo del tipo <strong>Selección corta</strong> donde <strong>Reasignación de artículos</strong> = <strong>Manual</strong>, <strong>Ajustar inventario</strong> = <strong>Sí</strong> y <strong>Eliminar reservas</strong> = <strong>Sí</strong>. Además, la opción <strong>Permitir reasignación manual de artículos</strong> está habilitada en el trabajador.</td>
-<td>No</td>
+<td>Nº</td>
 <td>
 <ol>
-<li>Seleccione el elemento de menú <strong>ShortPick</strong> en la aplicación WMA cuando ejecute el trabajo de selección.</li>
+<li>Seleccione el elemento de menú <strong>Elección corta</strong> en la aplicación de almacenamiento al ejecutar la selección de trabajo.</li>
 <li>En el campo <strong>Cantidad de selección corta</strong>, especifique <strong>0</strong> (cero).</li>
 <li>En el campo <strong>Razón</strong>, seleccione <strong>Selección corta con reasignación manual</strong>.</li>
 <li>Seleccione la ubicación/matrícula en la lista.</li>
@@ -585,7 +585,7 @@ Las siguientes tablas proporcionan una descripción general que muestra cómo el
 <td>No aplicable</td>
 <td>
 <ol>
-<li>Seleccione el elemento de menú <strong>ShortPick</strong> en la aplicación WMA cuando ejecute el trabajo de selección.</li>
+<li>Seleccione el elemento de menú <strong>Elección corta</strong> en la aplicación de almacenamiento al ejecutar la selección de trabajo.</li>
 <li>En el campo <strong>Cantidad de selección corta</strong>, especifique <strong>0</strong> (cero).</li>
 <li>En el campo <strong>Razón</strong>, seleccione <strong>Selección corta con reasignación automática</strong>.</li>
 </ol>

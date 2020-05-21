@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a68ed1cf21039ec1077bae428dea242f19514b51
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: 81a3d64d04ceb20fec2f5ca4bb005e7ecb3c1929
+ms.sourcegitcommit: d2b111bf7a5fbf62ff2874d6c57c5ef8412df82e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658629"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "3331381"
 ---
 # <a name="project-invoicing"></a>Facturación del proyecto
 
@@ -112,6 +112,9 @@ Cuando solicita un artículo de un proveedor y asigna el artículo a un proyecto
 
 -   Facturar al cliente del proyecto por el artículo: defina la propiedad de la línea en un valor imputable en el pedido de compra y, a continuación, facture al cliente con el método de facturación de proyecto correcto.
 -   No facturar al cliente del proyecto por el artículo: no seleccione la propiedad de línea **Imputable** en la línea del pedido de compra para el artículo. A continuación puede facturar el pedido de compra, sin necesidad de tomar medidas adicionales.
+
+> [!NOTE] 
+> Las líneas de liberación de retención no tienen cargo por defecto. Esto significa que la capacidad de crear una propuesta de factura para la retención liberada no está habilitada.
 
 ## <a name="credit-notes"></a>Notas de abono
 Cuando un importe de una factura de cliente tiene un valor negativo, la factura se clasifica como nota de abono. Cuando se imprime el documento, tiene el título "Nota de abono". 

@@ -3,7 +3,7 @@ title: Análisis de aptitud de la optimización de la planificación
 description: Este tema explica cómo comprobar la configuración actual y los datos frente a las prestaciones de la funcionalidad de optimización de la planificación.
 author: ChristianRytt
 manager: tfehr
-ms.date: 04/17/2020
+ms.date: 05/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,16 +19,15 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 0382e78942e6cb2047e37b76f1daf5725638d5c3
-ms.sourcegitcommit: 915ee7c59ef5fbd4927c10840e5c5e8652f667a9
+ms.openlocfilehash: 9bf19604d246988e05b91c8a41b1f57b523d2192
+ms.sourcegitcommit: 73ae66c9464bcc9ddc1efbf4e76abb2758862fe6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3277807"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346662"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Análisis de aptitud de la optimización de la planificación
 
-[!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
 
 Para ver el grado de compatibilidad de su configuración actual y los datos con la funcionalidad de optimización de la planificación, vaya **Planificación maestra** \> **Configuración** \> **Análisis de aptitud de la optimización de la planificación** y después seleccione **Ejecutar análisis**. Si el análisis detecta incoherencias, se enumeran en la misma página. (El análisis puede tardar algunos minutos en ejecutarse).
@@ -54,7 +53,7 @@ La siguiente tabla muestra los diversos resultados que se pueden mostrar despué
 
 | Característica | Problema mencionado | Explicación |
 | --- | --- | --- |
-| Acciones  | Grupos de cobertura con el cálculo de acciones habilitado: _\#_ | Esta característica está pendiente. Actualmente, las acciones no se generan durante la planificación maestra cuando la optimización de la planificación está habilitada, independientemente de esta configuración. El objetivo principal de las acciones es sugerir cambios en los pedidos existentes. |
+| Acciones | Grupos de cobertura con el cálculo de acciones habilitado: _\#_ | Esta característica está pendiente. Actualmente, las acciones no se generan durante la planificación maestra cuando la optimización de la planificación está habilitada, independientemente de esta configuración. El objetivo principal de las acciones es sugerir cambios en los pedidos existentes. |
 | Calendarios base | Calendarios que usan el calendario base: _\#_ | Esta característica está pendiente. Actualmente, el calendario base se ignora cuando la optimización de la planificación está habilitada. |
 | Códigos de disposición de lote | Maestros de disposición de lote no incluidos: _\#_ | Esta característica está pendiente. Actualmente, los códigos de disposición de lotes se ignoran cuando la optimización de la planificación está habilitada. |
 | Capaz de comprometer (CTP) | Configuración de pedido predeterminada con control de fecha de entrega establecido en CTP: _\#_ | Esta característica está pendiente. Actualmente, CTP se ignora cuando la optimización de planificación está habilitada, independientemente de esta configuración. |
@@ -73,6 +72,7 @@ La siguiente tabla muestra los diversos resultados que se pueden mostrar despué
 | Empresas vinculadas | Planes maestros que incluyen demanda planificada descendente: _\#_ | Esta característica está pendiente. Actualmente, la planificación maestra no incluye la demanda planificada descendente cuando la optimización de la planificación está habilitada, independientemente de esta configuración. Tenga en cuenta que los pedidos liberados/puestos en firme aún funcionan con la funcionalidad entre empresas vinculadas normal y cubrirán la mayoría de los escenarios. |
 | Kanban | Registros de cobertura de artículos con kanban de tipo de pedido planificado: _\#_ | Esta característica está pendiente. Actualmente, la cobertura de artículos que se establece en kanban se ignorará cuando la optimización de la planificación esté habilitada. El tipo de orden planificada kanban creará una advertencia durante la planificación maestra y se crearán órdenes de compra planificadas para cubrir la demanda relacionada. |
 | Kanban | Artículos con kanban de tipo de pedido predeterminado: _\#_ | Actualmente, un tipo de pedido predeterminado que se establece en kanban se ignora cuando la optimización de la planificación está habilitada. El tipo predeterminado de orden planificada kanban creará una advertencia durante la planificación maestra y se crearán órdenes de compra planificadas para cubrir la demanda relacionada. |
+| Estado de ciclo de vida de producto   | Estados de ciclo de vida de producto no activos para planificación: _\#_ | Esta es una función pendiente. Actualmente, el estado del ciclo de vida del producto se ignora con la optimización de planificación habilitada. Puede ajustar el filtro de producto en el nivel de plan para evitar incluir productos en los que el estado del ciclo de vida del producto esté deshabilitado para la planificación. |
 | Producción | Líneas de L. MAT con redondeo o configuración múltiple: _\#_ | Esta característica está pendiente. Actualmente, el redondeo y las configuraciones múltiples se ignoran en las líneas de la lista de materiales cuando la optimización de la planificación está habilitada, independientemente de esta configuración. |
 | Producción | L. MAT/líneas de fórmula con medida de fórmula: _\#_ | Esta característica está pendiente. Actualmente, la medida de fórmula se ignora en las líneas de la lista de materiales y la fórmula cuando la optimización de la planificación está habilitada, independientemente de esta configuración. |
 | Producción | L. MAT/líneas de fórmula con sustitución de artículos (grupos de planes): _\#_ | Esta característica está pendiente. Actualmente, la sustitución de artículos (grupos de plan) se ignora en las líneas de la lista de materiales y la fórmula cuando la optimización de la planificación está habilitada, independientemente de esta configuración. |
@@ -99,7 +99,7 @@ La siguiente tabla muestra los diversos resultados que se pueden mostrar despué
 | Presupuestos de ventas | Planes maestros con presupuestos de ventas habilitados: _\#_ | Esta característica está pendiente. Actualmente, los presupuestos no se consideran cuando la optimización de la planificación está habilitada. Se ignorarán, independientemente de esta configuración. |
 | Vida útil | Planes maestros con vida útil habilitada: _\#_ | Esta característica está pendiente. Actualmente, la vida útil no se considera cuando la optimización de planificación está habilitada, independientemente de esta configuración. |
 
-## <a name="related-resources"></a>Recursos relacionados
+## <a name="additional-resources"></a>Recursos adicionales
 
 [Visión general de la optimización de la planificación](planning-optimization-overview.md)
 

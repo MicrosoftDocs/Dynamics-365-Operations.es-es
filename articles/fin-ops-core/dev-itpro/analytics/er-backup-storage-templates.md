@@ -3,7 +3,7 @@ title: Almacenamiento de copia de seguridad de las plantillas de ER
 description: Este tema explica cómo utilizar el almacenamiento de copia de seguridad de los informes electrónicos (ER) para recuperar plantillas.
 author: NickSelin
 manager: AnnBe
-ms.date: 08/19/2019
+ms.date: 04/29/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5dad101ffe56c9266c0d81ede8be1f72b684a8fb
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 2e399290153c2c63ac1c02f0f9cdb956ff5031e5
+ms.sourcegitcommit: 5de75c61c33e57c813944f1ab6100aceb020d432
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771430"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "3321675"
 ---
 # <a name="backup-storage-of-er-templates"></a>Almacenamiento de copia de seguridad de las plantillas de ER
 
@@ -31,7 +31,7 @@ ms.locfileid: "2771430"
 
 La [Visión general del marco de informes electrónicos (ER)](general-electronic-reporting.md) permite a los usuarios de la empresa configurar formatos para documentos de salida en función de los requisitos legales de diversos países o regiones. Los formatos de ER configurados pueden usar plantillas predefinidas para generar documentos salientes en distintos formatos, como libros Microsoft Excel , documentos Microsoft Word , o documentos PDF. Las plantillas se rellenan con los datos que necesita el flujo de datos configurado para los documentos generados.
 
-Cada formato configurado se puede publicar como parte de una solución de ER. Cada solución de ER se puede exportar a partir de una instancia de Finance and Operations e importar a otra instancia.
+Cada formato configurado se puede publicar como parte de una solución de ER. Cada solución de ER se puede exportar a partir de una instancia de Finance and Operations e importarse a otra instancia.
 
 El marco de ER usa [Configurar la gestión de documentos](../../fin-ops/organization-administration/configure-document-management.md) para conservar las plantillas necesarias para la instancia actual de Finance and Operations. En función de la configuración del marco de ER, el Blob Storage de Microsoft Azure o una carpeta de Microsoft SharePoint se pueden seleccionar como la ubicación de almacenamiento principal físico para las plantillas. (Para obtener más información, consulte [Configurar el marco de informes electrónicos (ER)](electronic-reporting-er-configure-parameters.md)). La tabla DocuValue contiene un registro individual para cada plantilla. En cada registro, el campo **AccessInformation** almacena la ruta del archivo de una plantilla ubicado en la ubicación de almacenamiento configurada.
 
@@ -42,12 +42,14 @@ La característica de almacenamiento de copia de seguridad de las plantillas de 
 > [!NOTE]
 > Esta función se puede utilizar solo si Blob storage se ha seleccionado como la ubicación de almacenamiento físico de las plantillas de ER.
 
+## <a name="automated-recovery-and-notification"></a>Recuperación automatizada y notificación
+
 Para esta función, cada plantilla de una nueva configuración de formato de ER en el entorno actual se guarda automáticamente en la ubicación de almacenamiento de copia de seguridad (la tabla de base de datos de ERDocuDatabaseStorage) cuando los eventos siguientes se producen:
 
 - Importa una nueva configuración del formato de ER que contiene una plantilla.
 - Completa el borrador de versión de una configuración del formato de ER que contiene una plantilla.
 
-Las copias de seguridad de plantillas se migran a una nueva instancia de Finance and Operations como parte de la base de datos de aplicación.
+Las copias de seguridad de plantillas se migran a una nueva instancia de Finance and Operations como parte de la base de datos de la aplicación.
 
 Si una plantilla de un formato de ER se requiere para la generación de documentos salientes, para procesar pagos de proveedor incluidas la generación de avisos de pago y informes de control, por ejemplo, pero la plantilla requerida no se encuentra en la ubicación de almacenamiento principal, los eventos siguientes se producen:
 
@@ -59,7 +61,7 @@ Si una plantilla de un formato de ER se requiere para la generación de document
 
 Para configurar el parámetro **Ejecutar automáticamente el procedimiento de restablecer las plantillas rotas por lotes**, complete los pasos siguientes:
 
-1. En Finance and Operations, abra **Administración de la organización \> Informes electrónicos \> Página de configuraciones**.
+1. En Finance and Operations, abra la página **Administración de la organización \> Informes electrónicos \> Configuraciones**.
 2. En la página **Configuraciones**, en el panel de acciones, en la pestaña **Configuraciones**, en el grupo **Configuración avanzada**, seleccione **Parámetros de usuario**.
 3. En el cuadro de diálogo **Parámetros de usuario** , establezca el valor necesario para el parámetro **Ejecutar automáticamente el procedimiento de restablecer las plantillas rotas por lotes**.
 
@@ -84,13 +86,17 @@ De forma predeterminada, el proceso de crear automáticamente las copias de segu
 
 Si establece la opción **Detener la creación de copias de seguridad de plantillas** en **Sí** y no desea conservar las copias de seguridad que se realizaron anteriormente de plantillas, seleccione **Borrar almacenamiento de copia de seguridad** en la página **Parámetros de informes electrónico**.
 
-Si ha actualizado el entorno la versión 10.0.5 de Finance and Operations (octubre de 2019) y desea migrar a un nuevo entorno que incluye las configuraciones del formato de ER que pueden ejecutarse, seleccione **Rellenar el almacenamiento de copia de seguridad** en la página **Parámetros de informes electrónicos** antes de que se produzca la migración. Este botón inicia el proceso de crear las copias de seguridad de todas las plantillas disponibles, para que se puedan almacenar en la ubicación de almacenamiento de copia de seguridad de ER para plantillas.
+Si ha actualizado el entorno a Finance and Operations, versión 10.0.5 (octubre de 2019), y desea migrar a un nuevo entorno que incluye las configuraciones del formato de ER que pueden ejecutarse, seleccione **Rellenar el almacenamiento de copia de seguridad** en la página **Parámetros de informes electrónicos** antes de que se produzca la migración. Este botón inicia el proceso de crear las copias de seguridad de todas las plantillas disponibles, para que se puedan almacenar en la ubicación de almacenamiento de copia de seguridad de ER para plantillas.
 
 ![Página de parámetros de informes electrónicos](./media/GER-BackupTemplates-5.png)
 
+## <a name="manual-recovery"></a>Recuperación manual
+
+Vaya a **Administración de la organización** \> **Informes electrónicos** \> **Restaurar plantillas estropeadas** para iniciar manualmente el proceso de restauración de plantillas ER desde la ubicación de almacenamiento de respaldo a la ubicación de almacenamiento principal. Antes de comenzar este proceso, en la página **Restaurar plantillas estropeadas** puede especificar si se realizará de forma interactiva, o el proceso por lotes se programará para esto.
+
 ## <a name="supported-deployments"></a>Implementaciones compatibles
 
-En Finance and Operations versión 10.0.5, el almacenamiento de copia de seguridad de la característica de las plantillas de ER solo está disponible en las implementaciones de la nube.
+En Finance and Operations, versión 10.0.5, el almacenamiento de copia de seguridad de la función de plantillas de ER solo está disponible en las implementaciones en la nube.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
