@@ -3,7 +3,7 @@ title: Gestión de pedidos distribuida (DOM)
 description: En este tema se describe la funcionalidad de gestión de pedidos distribuida (DOM) de Dynamics 365 Commerce.
 author: josaw1
 manager: AnnBe
-ms.date: 10/14/2019
+ms.date: 05/22/2020
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7a584953b0f4961e25b59bca51aa3928b87b2c7c
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 1121cc89b278c3694d0bbd667f1a540d17f4d180
+ms.sourcegitcommit: b7af921189048d9f2eb4d3fd57c704c742bc96e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004329"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "3396041"
 ---
 # <a name="distributed-order-management-dom"></a>Gestión de pedidos distribuida (DOM)
 
@@ -37,7 +37,7 @@ DOM optimiza el cumplimiento de pedidos a través de una red compleja de sistema
 
 La siguiente ilustración muestra el ciclo de vida de un pedido de ventas en un sistema DOM.
 
-![Ciclo de vida de pedido de ventas en el contexto de DOM](./media/flow.png "Ciclo de vida de pedido de ventas en el contexto de DOM")
+![![Ciclo de vida de pedido de ventas en el contexto de DOM](./media/flow.png "Ciclo de vida de pedido de ventas en el contexto de DOM")](./media/flow.png "Sales order lifecycle in the context of DOM")
 
 ## <a name="set-up-dom"></a>Configurar DOM
 
@@ -83,6 +83,15 @@ La siguiente ilustración muestra el ciclo de vida de un pedido de ventas en un 
     2. Seleccione **Nuevo** y especifique un nombre y una descripción del nuevo grupo.
     3. Seleccione **Guardar**.
     4. Seleccione **Agregar línea** para agregar una sola ubicación al grupo. Como alternativa, seleccione **Agregar líneas** para agregar distintas ubicaciones.
+    
+    > [!NOTE]
+    > En Commerce versión 10.0.12 y posterior, la **Capacidad para especificar ubicaciones como 'Envío' o 'Recogida' habilitada dentro del grupo de cumplimiento** debe estar habilitada en el espacio de trabajo **Administración de características**.
+    >
+    > Esta característica agrega nuevas configuraciones en la página **Grupo de cumplimiento** para que pueda definir si el almacén se puede utilizar para envíos o si la combinación de almacén/tienda se puede utilizar para envíos, recogidas o ambos. 
+    >
+    > Si habilita la característica, se actualizarán las opciones disponibles para la selección de ubicación al crear pedidos de recogida o envío en PDV.
+    >
+    > Al habilitar la característica también se actualizan páginas en PDV cuando se seleccionan las operaciones "enviar todo" o "enviar selección".
 
 9. Para definir reglas, vaya a **Retail y Commerce \> Gestión de pedidos distribuida \> Configuración \> Administrar reglas**. Actualmente se admiten las siguientes reglas de DOM:
 
@@ -134,7 +143,17 @@ La siguiente ilustración muestra el ciclo de vida de un pedido de ventas en un 
     2. Seleccione **Nuevo**.
     3. Escriba valores en los campos **Perfil** y **Descripción**.
     4. Establezca la opción **Aplicar resultado automáticamente**. Si establece esta opción en **Sí**, los resultados de la ejecución de DOM para el perfil se aplicarán automáticamente a las líneas de pedido de ventas. Si la establece en **No**, los resultados solo se podrán visualizar en el plan de cumplimiento. No se aplicarán a las líneas de pedido de ventas.
-    5. Si desea que el perfil de DOM se ejecute para pedidos que tengan cualquier origen de pedido de ventas, incluso pedidos cuyo origen de pedido de ventas esté indefinido, establezca la opción **Procesar pedidos con origen de ventas vacío** en **Sí**. Para ejecutar el perfil para solo unos pocos orígenes de pedido de ventas, puede definirlos en la página **Orígenes de ventas**, tal como se explica más adelante.
+    5. Si desea que el perfil de DOM se ejecute para pedidos que tengan cualquier origen de pedido de ventas, como pedidos cuyo origen de pedido de ventas esté indefinido, establezca la opción **Procesar pedidos con origen de ventas vacío** en **Sí**. Para ejecutar el perfil para solo unos pocos orígenes de pedido de ventas, puede definirlos en la página **Orígenes de ventas**, tal como se explica más adelante.
+
+    > [!NOTE]
+    > En Commerce versión 10.0.12 y posterior, la **Capacidad para asignar un grupo de cumplimiento a un perfil de cumplimiento** debe estar habilitada en el espacio de trabajo **Administración de características**. 
+    >
+    > Esta característica agrega una nueva configuración en la página **Perfil de cumplimiento** que se puede asociar a un solo grupo de cumplimiento. 
+    >
+    > Si selecciona el grupo de cumplimiento, las reglas de DOM para ese perfil de cumplimiento se ejecutarán de manera eficiente frente a los almacenes de "envío" incluidos en el grupo de cumplimiento. 
+    > 
+    > Para utilizar esta característica de manera efectiva, asegúrese de que haya un grupo de cumplimiento que contenga todos los almacenes de envío y luego asocie ese grupo de cumplimiento al perfil de cumplimiento.
+    
     6. En la ficha desplegable **Entidades jurídicas** seleccione **Agregar** y, a continuación, seleccione una entidad jurídica.
     7. En la ficha desplegable **Reglas**, seleccione **Agregar** y seleccione la regla que desee vincular al perfil.
     8. Repita los dos pasos anteriores hasta que haya asociado todas las reglas necesarias al perfil.
@@ -179,7 +198,7 @@ Durante el procesamiento, DOM tendrá en cuenta los pedidos y las líneas de ped
 
 Después de aplicar las reglas, las restricciones de inventario y la optimización, DOM elige la ubicación más cercana a la dirección de entrega del cliente.
 
-![Criterios de pedidos de ventas](./media/ordercriteria.png "Criterios de pedidos de ventas")
+![![Criterios de pedidos de ventas](./media/ordercriteria.png "Criterios de pedidos de ventas")](./media/ordercriteria.png "Sales order criteria")
 
 ## <a name="results-of-dom-runs"></a>Resultados de las ejecuciones de DOM
 

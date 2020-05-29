@@ -1,5 +1,5 @@
 ---
-title: Recursos de ayuda para Supply Chain Management
+title: Página principal de Supply Chain Management
 description: En esta página se proporciona una lista de los temas de ayuda y de otros recursos para las características de Supply Chain Management.
 author: josaw1
 manager: tfehr
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 014b5db6efc15fbed7401d9a857586912c7578f2
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: cf505f3e84cb8a8b4a1ac0af9f776587c06acf77
+ms.sourcegitcommit: 261b70ea358b2c231e20f320ed8bd6adc1e7d715
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201534"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "3386396"
 ---
-# <a name="help-resources-for-supply-chain-management"></a>Recursos de ayuda para Supply Chain Management
+# <a name="supply-chain-management-home-page"></a>Página principal de Supply Chain Management
 
 [!include [banner](includes/banner.md)]
 
@@ -42,6 +42,7 @@ Seleccione un área de características para obtener más información al respec
 - [Contabilidad de costes](../finance/cost-accounting/cost-accounting-home-page.md)
 - [Gestión de costes](cost-management/cost-management-home-page.md)  
 - [Gestión de inventarios](inventory/inventory-home-page.md)
+- [Inteligencia de IoT](iot/iot-intelligence-home-page.md)
 - [Planificación maestra](master-planning/master-planning-home-page.md)
 - [Adquisición y abastecimiento](procurement/procurement-sourcing-overview.md)
 - [Gestión de información de productos](pim/product-information.md)
