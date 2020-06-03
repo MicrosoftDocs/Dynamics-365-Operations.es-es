@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 438e13d6887decc9867d474467efc06d7a2f3274
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 6ae7587fc46d2907241a5da3b6329465d77b3555
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205722"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383099"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Configurar dispositivos móviles para el trabajo de almacén
 
@@ -32,7 +32,7 @@ ms.locfileid: "3205722"
 En este tema se describe cómo configurar los elementos de menú que usan los trabajadores del almacén para trabajar en un dispositivo móvil.
 
 > [!NOTE]
-> Este tema se aplica a las características de gestión de almacenes. No se aplica a las características de gestión del inventario. Los elementos de menú que aparecen en los menús en un dispositivo móvil del almacén se configuran en la página **Elementos de menú del dispositivo móvil**. Dado que los elementos de menú se pueden colocar en diferentes menús, resulta fácil configurar las estructuras de menú para que solo tipos específicos de trabajo se expongan a usuarios específicos. Puede configurar los elementos de menú para realizar las tareas siguientes:
+> Este tema se aplica a las funciones de gestión de almacenes. No se aplica a las funciones de gestión del inventario. Los elementos de menú que aparecen en los menús en un dispositivo móvil del almacén se configuran en la página **Elementos de menú del dispositivo móvil**. Dado que los elementos de menú se pueden colocar en diferentes menús, resulta fácil configurar las estructuras de menú para que solo tipos específicos de trabajo se expongan a usuarios específicos. Puede configurar los elementos de menú para realizar las tareas siguientes:
 
 -   Procese una consulta o realice una actividad, como imprimir una etiqueta, generar matrículas de entidad de almacén, iniciar un pedido de producción o buscar rápidamente información sobre los elementos en una ubicación.
 -   Cree el trabajo que se realizará con otro proceso. Por ejemplo, la recepción de un artículo para un pedido de compra puede crear un trabajo de ubicación para otro trabajador.
@@ -224,7 +224,7 @@ Además de los elementos de menú de la configuración para crear el trabajo del
 </tr>
 <tr class="even">
 <td>Dirigido por el sistema</td>
-<td>Supply Chain Management controla el tipo de trabajo asignado a un trabajador y el pedido en el que el trabajador realiza el trabajo. Cuando selecciona esta opción, puede hacer clic en <strong>Trabajo dirigido por el sistema</strong> en el panel de acciones para abrir la página <strong>Orden de clasificación dirigido por el sistema</strong>, donde puede configurar los criterios de clasificación para el trabajo. Los criterios de ordenación controlan el orden en que el trabajador realiza el trabajo. Puede agregar tantos criterios como sea necesario.</td>
+<td>Supply Chain Management controla el tipo de trabajo asignado a un trabajador y el pedido en el que el trabajador realiza el trabajo. Cuando selecciona esta opción, puede hacer clic en <strong>Trabajo dirigido por el sistema</strong>, en el panel Acciones para abrir la página <strong>Orden de clasificación dirigido por el sistema</strong>, donde puede configurar los criterios de clasificación para el trabajo. Los criterios de ordenación controlan el orden en que el trabajador realiza el trabajo. Puede agregar tantos criterios como sea necesario.</td>
 </tr>
 <tr class="odd">
 <td>Dirigido por el usuario</td>
@@ -257,7 +257,7 @@ Esta opción es útil, por ejemplo, cuando varios pallets se almacenan provision
 </tr>
 <tr class="even">
 <td>Agrupación de recuentos cíclicos</td>
-<td>El trabajador selecciona una zona, un grupo de trabajo o una ubicación y Supply Chain Management asigna el trabajo basándose en la selección. Si selecciona esta opción, puede hacer clic en <strong>Recuento cíclico</strong> en el panel de acciones para especificar información adicional para mostrar y también puede especificar el número de veces que el trabajador debe repetir el recuento si se encuentra una diferencia.</td>
+<td>El trabajador selecciona una zona, un grupo de trabajo o una ubicación y Supply Chain Management asigna el trabajo basándose en la selección. Si selecciona esta opción, puede hacer clic en <strong>Recuento cíclico</strong> en el panel Acciones para especificar información adicional para mostrar y también puede especificar el número de veces que el trabajador debe repetir el recuento si se encuentra una diferencia.</td>
 </tr>
  <tr class="odd">
 <td>Carga de transporte</td>
@@ -345,7 +345,7 @@ La siguiente tabla describe estas opciones.
 </tr>
 <tr class="odd">
 <td>Ubicaciones en grupo</td>
-<td>Seleccione esta opción para agrupar el trabajo de ubicación. Esta opción está disponible cuando el trabajo fue agrupado por el trabajador o por Supply Chain Management. Cuando el trabajador haya acabado todo el trabajo de picking en el grupo, se creará trabajo de traslado para el mismo grupo. </td>
+<td>Seleccione esta opción para agrupar el trabajo de ubicación. Esta opción está disponible cuando el trabajo fue agrupado por el trabajador o por Supply Chain Management. Cuando el trabajador haya acabado todo el trabajo de picking en el grupo, se creará trabajo de traslado para el mismo grupo.</td>
 </tr>
 <tr class="even">
 <td>Tipos de ajuste de inventario</td>
@@ -386,7 +386,7 @@ La siguiente tabla describe estas opciones.
 </tr>
 <tr class="even">
 <td>Usar datos predeterminados</td>
-<td>Active esta opción para habilitar el botón <strong>Datos predeterminados</strong> del panel de acciones, donde puede seleccionar campos para mostrar los datos que un trabajador necesita normalmente en su trabajo diario. Esta opción resulta útil, por ejemplo, si un trabajador a menudo selecciona artículos de la misma ubicación. Puede seleccionar el campo <strong>Desde ubicación</strong> para mostrar la ubicación de forma predeterminada.</td>
+<td>Active esta opción para habilitar el botón <strong>Datos predeterminados</strong> del panel Acciones, donde puede seleccionar campos para mostrar los datos que un trabajador necesita normalmente en su trabajo diario. Esta opción resulta útil, por ejemplo, si un trabajador a menudo selecciona artículos de la misma ubicación. Puede seleccionar el campo <strong>Desde ubicación</strong> para mostrar la ubicación de forma predeterminada.</td>
 </tr>
 <tr class="odd">
 <td>Campo Dirigido por el usuario validado</td>

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a7f7e2220a8eca9f9bf45216491f606ef0a2eb18
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: abc02c73ae36975fa4872d638fe53cbf0379d15d
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203558"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383674"
 ---
 # <a name="manage-unit-of-measure"></a>Gestionar la unidad de medida
 
@@ -29,7 +29,7 @@ ms.locfileid: "3203558"
 
 Este procedimiento muestra cómo definir una unidad de medida, proporcionar traducciones para la unidad y su descripción, y definir reglas de conversión para las unidades relacionadas. Puede revisar este procedimiento con datos de demostración, o bien, utilizar sus propios datos.
 
-1. Vaya a **Panel de navegación > Módulos > Gestión de información de productos > Mantenimiento de productos emitidos**.
+1. Vaya a **Panel de navegación > Módulos > Gestión de información de productos > Mantenimiento de Productos despachados**.
 2. Haga clic en **Unidades**.
 
 ## <a name="create-a-unit-of-measure"></a>Creación de una unidad de medida
@@ -41,13 +41,13 @@ Este procedimiento muestra cómo definir una unidad de medida, proporcionar trad
 6. Haga clic en **Guardar**.
 
 ## <a name="define-unit-translations"></a>Definición de conversiones de unidades
-1. En el **panel de acciones**, haga clic en **Textos de la unidad**.
+1. En el **Panel Acciones**, haga clic en **Textos de la unidad**.
 2. Haga clic en **Nuevo**. Use el texto de unidad para crear una traducción del identificador o de un símbolo que represente a la unidad de medida para su uso en documentos externos en los idiomas específicos del cliente o del proveedor.  
 3. En el campo **Idioma**, especifique o seleccione un valor.
 4. En el campo **Texto**, escriba un valor.
 5. Haga clic en **Guardar**.
 6. Cierre la página.
-7. En el **panel de acciones**, haga clic en **Descripciones de unidades convertidas**.
+7. En el **Panel Acciones**, haga clic en **Descripciones de unidades convertidas**.
 8. Haga clic en **Nuevo**. Defina descripciones en idiomas específicos para la unidad de medida.  
 9. En el campo **Idioma**, especifique o seleccione un valor.
 10. En el campo **Descripción**, escriba un valor.
@@ -55,7 +55,7 @@ Este procedimiento muestra cómo definir una unidad de medida, proporcionar trad
 12. Cierre la página.
 
 ## <a name="define-unit-conversion-rules"></a>Definición de reglas de conversión de unidades
-1. En el **panel de acciones**, haga clic en **Conversiones de unidades**. Defina reglas para convertir la unidad de medida a y de otras unidades de medida en la clase de unidad seleccionada.  
+1. En el **Panel Acciones**, haga clic en **Conversiones de unidades**. Defina reglas para convertir la unidad de medida a y de otras unidades de medida en la clase de unidad seleccionada.  
 2. Haga clic en **Nueva** para abrir el cuadro de diálogo desplegable.
 3. En el campo **Factor**, escriba un número. Factor de conversión entre la unidad de origen y la de destino. Por ejemplo, el factor de conversión de centímetros a metros es 100 porque hay 100 centímetros en un metro.  
 4. En el campo **Hasta unidad**, especifique o seleccione un valor.

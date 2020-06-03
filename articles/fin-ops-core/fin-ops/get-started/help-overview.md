@@ -1,57 +1,57 @@
 ---
 title: Sistema de ayuda
-description: Este tema proporciona una visión general del sistema de Ayuda.
-author: margoc
+description: Este tema proporciona una visión general del sistema de ayuda para las aplicaciones de Finance and Operations.
+author: edupont04
 manager: AnnBe
-ms.date: 10/02/2019
+ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
-ms.reviewer: sericks
+ms.reviewer: tfehr
 ms.search.scope: Core, Operations
 ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
-ms.author: margoc
+ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4594da0feeb3b74eb066fb5761e36398804b4fc2
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 28118eddd2f85df5f9daa2c5a6c3cb00957909db
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124667"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367347"
 ---
 # <a name="help-system"></a>Sistema de ayuda
 
 [!include [banner](../includes/banner.md)]
 
-Este tema proporciona una visión general de los componentes del sistema de la Ayuda. El sistema de Ayuda lo comparten los siguientes productos:
+Los usuarios de las siguientes aplicaciones pueden acceder a la ayuda contextual y a otro contenido basado en el mismo sistema de ayuda:
 
-- Dynamics 365 Finance 
-- Dynamics 365 Commerce
-- Dynamics 365 Supply Chain Management
+- Microsoft Dynamics 365 Commerce
+- Dynamics 365 Finance
 - Dynamics 365 Human Resources
+- Dynamics 365 Supply Chain Management
 
-Puede obtener acceso a la ayuda del panel de la Ayuda de cualquier producto que esté usando. 
+En todas esas aplicaciones, puede acceder a la ayuda específica del producto desde el panel **Ayuda**.
 
-![Panel Ayuda](./media/help-pane-ops-task-guides.png)
+![Panel Ayuda](./media/help-pane-ops-help.png)
 
 ## <a name="help-on-docsmicrosoftcom"></a>Ayuda en docs.microsoft.com
 
-El sitio docs.microsoft.com ([docs.microsoft.com/dynamics365/](https://docs.microsoft.com/dynamics365/)) es el origen principal de la documentación para las aplicaciones arriba indicadas. El sitio ofrece las características siguientes:
+El sitio docs.microsoft.com ([docs.microsoft.com/dynamics365](https://docs.microsoft.com/dynamics365/)) es el origen predeterminado de la documentación de producto para las aplicaciones antes enumeradas. Este sitio ofrece las funciones siguientes:
 
-- **Acceso al contenido más actualizado**: el sitio nos ofrece una manera más rápida y flexible de crear, entregar y actualizar documentación del producto. Por lo tanto, ayuda a garantizar que puede acceder a la información técnica más reciente.
-- **Contenido escrito por expertos**: el sitio proporciona un conjunto enriquecido de documentación de producto que se puede mejorar por los miembros de la comunidad tanto dentro como fuera de Microsoft.
+- **Acceso al contenido más actualizado**: el sitio nos ofrece a Microsoft una manera más rápida y flexible de crear, entregar y actualizar documentación del producto. Por lo tanto, dispone de fácil acceso a la información técnica más reciente.
+- **Contenido escrito por expertos**: el contenido del sitio está abierto a contribuciones de miembros de la comunidad, tanto dentro como de fuera de Microsoft.
 
-También puede encontrar nuestro contenido con cualquier motor de búsqueda. Para obtener los mejores resultados, recomendamos utilizar una búsqueda en sitio con el parámetro site:docs.microsoft.com dynamics 365 “término buscado”.
+Puede encontrar contenido en docs.microsoft.com utilizando cualquier motor de búsqueda. Para obtener los mejores resultados, se recomienda utilizar una búsqueda de sitio como **site:docs.microsoft.com dynamics 365 "search term"**.
 
-### <a name="use-an-rss-feed"></a>Use una fuente RSS
+### <a name="get-notified-about-changes-through-an-rss-feed"></a>Recibir notificaciones sobre cambios a través de una fuente RSS
 
-Para suscribirse a una fuente RSS de todas las actualizaciones del contenido, utilice el siguiente enlace de un explorador que admita fuentes RSS, como Internet Explorer, o un gestor de fuentes RSS:
+Para suscribirse a una fuente Really Simple Syndication (RSS) de todas las actualizaciones que se encuentran en el contenido de docs.microsoft.com, use el siguiente vínculo:
 
 [Fuente RSS](https://docs.microsoft.com/api/search/rss?locale=en-us&$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))
 
@@ -59,34 +59,37 @@ Para suscribirse a una fuente RSS de todas las actualizaciones del contenido, ut
 
 Si tiene opiniones o preguntas sobre un tema, déjenos un comentario en la parte inferior de la página.
 
-1. Haga clic en **Comentarios** para acceder a los comentarios de la parte inferior de la página y, a continuación, haga clic en **Comentarios sobre el producto** o **Iniciar sesión para proporcionar comentarios sobre la documentación**.
+1. Seleccione **Comentarios** para ir a los comentarios de la parte inferior de la página. Luego, seleccione **Comentarios del producto** o **Iniciar sesión para enviar comentarios sobre la documentación**.
 
-2. Empiece a escribir sus comentarios y, continuación, haga clic en **Enviar comentarios**.
+2. Empiece a escribir sus comentarios y, continuación, seleccione **Enviar comentarios**.
 
     ![Publicar comentario](./media/feedback.png)
 
+> [!NOTE]
+> Si desea enviar comentarios sobre la documentación, debe iniciar sesión con una cuenta de GitHub. Para obtener más información, ver [Configurar y administrar el perfil de GitHub](https://help.github.com/github/setting-up-and-managing-your-github-profile).
+
 ### <a name="contribute-to-the-documentation"></a>Contribuir a la documentación
 
-Puede contribuir y hacer ediciones a la documentación. Para empezar, haga clic en el botón **Edición** (lápiz) en un tema. El siguiente vídeo muestra cómo puede contribuir a nuestra documentación.
+Puede contribuir y hacer ediciones a la documentación. Para empezar, seleccione el botón **Editar** (símbolo de lápiz) en un tema. El siguiente vídeo muestra cómo puede contribuir a nuestra documentación.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE36liB]
 
 El vídeo [Cómo contribuir a la documentación de Microsoft Dynamics 365](https://youtu.be/m5djioozRbg) (se muestra más arriba) se incluye en el canal de Microsoft Dynamics 365 en YouTube.
 
-Para obtener más información, consulte la [guía de nuestro colaborador](https://docs.microsoft.com/contribute).
+Para obtener más información, consulte la [Guía del colaborador de documentos](https://docs.microsoft.com/contribute), que publica el equipo que creó el sitio docs.microsoft.com.
 
 > [!NOTE]
 > Solo aceptamos contribuciones a nuestra sección de contenido en inglés en este momento.
 
 ## <a name="task-guides"></a>Guías de tareas
 
-Una guía de tareas es una experiencia guiada, interactiva y controlada que le lleva por los pasos de una tarea o de un proceso empresarial. Puede abrir (reproducir) una guía de tareas desde el panel Ayuda. Al hacer clic por primera vez en una guía de tareas, el panel Ayuda mostrará instrucciones detalladas para la tarea. Dispone de guías de tareas localizadas.
+Una guía de tareas es una experiencia guiada, interactiva y controlada que le lleva por los pasos de una tarea o de un proceso empresarial. Puede abrir (reproducir) una guía de tareas desde el panel **Ayuda**. Al seleccionar por primera vez una guía de tareas, el panel **Ayuda** mostrará instrucciones detalladas para la tarea. Están disponibles guías de tareas localizadas.
 
-Microsoft envió bibliotecas de la guía de tareas para las versiones hasta diciembre de 2017 para Dynamics 365 for Finance and Operations. La sección [Sistema de Ayuda](help-overview.md#accessing-task-guides-from-the-help-pane) describe cómo buscar las guías de tareas correctas para su producto.
+Microsoft publicó bibliotecas de guías de tareas para versiones de productos a través de la versión de diciembre de 2017 de Dynamics 365 for Finance and Operations. La sección [Acceso a guías de tareas desde el panel Ayuda](#accessing-task-guides-from-the-help-pane) de este tema explica cómo buscar las guías de tareas correctas para su producto.
 
 ![Vista de lectura de la guía de tareas](./media/task-guide-ops.png)
 
-Para comenzar la experiencia interactiva y guiada, haga clic en **Iniciar guía de tareas** en la parte inferior del panel Ayuda. Se abre un puntero negro e indica la acción que debe realizar. Siga las indicaciones que aparecen en la IU y especifique los datos como se indica.
+Para comenzar la experiencia interactiva y guiada, seleccione **Iniciar guía de tareas** en la parte inferior del panel **Ayuda**. Un puntero negro le mostrará a dónde ir primero. Siga las instrucciones que aparecen en la interfaz de usuario (IU) e introduzca datos como se indique.
 
 ![Instrucción de pasos de la guía de tareas](./media/task-guide-step-1-ops.png)
 
@@ -97,69 +100,68 @@ Puede usar el Grabador de tareas para crear sus propias guías de tareas persona
 
 ## <a name="in-product-help"></a>Ayuda en el producto
 
-Para obtener acceso al contenido de la Ayuda, haga clic en el icono **Ayuda** (**?**) y después elija Ayuda, o presione Ctrl+Mayús+?. En ambos casos, se abre el panel Ayuda. En el panel Ayuda, puede obtener acceso a los artículos del sitio o las guías de tareas.
+Algunos campos tienen descripciones de campo para ayudar a los usuarios a desbloquearse cuando no están seguros acerca de los datos que contiene el campo, por ejemplo. Además, el panel **Ayuda** incorporado proporciona acceso contextual al contenido que puede ayudar a los usuarios a comenzar, desbloquearse y obtener más información.
 
-![Panel Ayuda](./media/help-pane-wiki.png)
+Para acceder al contenido de la ayuda, seleccione el botón **Ayuda** (**?**) y luego seleccione **Ayuda**. Como alternativa, presione **Ctrl+Mayús+?**. En ambos casos, aparece el panel **Ayuda**. Desde el panel **Ayuda**, puede acceder a temas conceptuales o guías de tareas que son relevantes para el área del producto en el que se encuentra actualmente.
 
-### <a name="accessing-help-topics-from-the-help-pane"></a>Acceso a los temas de ayuda desde el panel Ayuda
+![Panel Ayuda](./media/help-pane-ops-help.png)
 
-En el panel Ayuda, puede obtener acceso a artículos que se aplican al cliente. Al abrir el panel de la Ayuda por primera vez y hacer clic en la pestaña **Ayuda**, verá los artículos que se aplican a la página en la que se encuentra actualmente. Si no encuentra ningún artículo, puede escribir palabras clave para limitar la búsqueda. Al hacer clic en un artículo del panel Ayuda, se abre una nueva pestaña en el explorador y se muestra el artículo.
+### <a name="accessing-help-topics-from-the-help-pane"></a>Acceso a temas de ayuda desde el panel Ayuda
+
+En el panel **Ayuda**, puede acceder a temas que se aplican al cliente. Al abrir el panel **Ayuda** por primera vez, la pestaña **Ayuda** muestra los temas que se aplican a la página en la que se encuentra actualmente. Si no se encuentran temas, puede escribir palabras clave para limitar la búsqueda. Cuando selecciona un tema en el panel **Ayuda**, se abre en una nueva pestaña del navegador.
 
 > [!IMPORTANT]
-> Esta sección no se aplica a Dynamics 365 Human Resources. El sistema de Recursos humanos se conecta automáticamente a las guías de tareas para el producto. Además, no puede crear guías de tareas personalizadas para Recursos humanos.
-
+> Esta sección no se aplica a Dynamics 365 Human Resources. El sistema Ayuda de Recursos humanos se conecta automáticamente a las guías de tareas para el producto. Además, no puede crear guías de tareas personalizadas para Recursos humanos.
 
 ### <a name="accessing-task-guides-from-the-help-pane"></a>Acceso a guías de tareas desde el panel Ayuda
 
-Para acceder a las guías de tareas desde el panel de Ayuda, un administrador del sistema tiene que ir a la página **Parámetros del sistema** en Finance, Supply Chain Management y Commerce, y configurar algunos parámetros.
+Para poder acceder a las guías de tareas desde el panel **Ayuda**, un administrador del sistema tiene que configurar algunos parámetros en la página **Parámetros del sistema** en Finance, Supply Chain Management o Commerce. Para obtener más información, consulte [Adición de guías de tareas](help-connect.md#adding-task-guides).
 
-> [!NOTE]
-> - Para configurar la Ayuda, debe iniciar sesión con una cuenta en el mismo inquilino que el inquilino en que se implementa la aplicación.
-> - No es posible conectarse a una biblioteca de LCS desde una instancia de la aplicación que se ejecuta en un disco duro virtual (VHD) local.
+<!-- > [!NOTE]
+> - In order to configure Help, you must be signed in with an account in the same tenant as the tenant in which the app is deployed.
+> - It is not possible to connect to an LCS library from an instance of the app running in a local virtual hard drive (VHD).
 
-![Formulario Parámetros del sistema con configuración de Ayuda](./media/system-parameters_ops-1024x437.png)
+![System Parameters form with Help settings](./media/system-parameters_ops-1024x437.png)
 
-En la página **Parámetros del sistema**, siga estos pasos:
+On the **System parameters** page, follow these steps:
 
-1. **Importante:** La primera vez que abra la ficha de la Ayuda, debe conectarse a Lifecycle Services. Asegúrese de hacer clic en el vínculo que hay en el medio del formulario, espere por la conexión, cierre el cuadro de diálogo y haga clic en **Aceptar** para obtener los parámetros del formulario.
+1. **Important:** The first time that you open the Help tab, you must connect to Lifecycle Services. Be sure to select the link in the middle of the form, wait for the connection, close the dialog box, and then select **OK** to get to the parameters form.
 
-    ![Conectarse a LCS](./media/connect-to-lcs-crop-1024x365.png)
+    ![Connect to LCS](./media/connect-to-lcs-crop-1024x365.png)
 
-2. Seleccione el proyecto de Lifecycle Services al que conectarse.
-3. Seleccione las bibliotecas de BPM (dentro del proyecto seleccionado) desde la que recuperar grabaciones de tareas.
-4. Establezca el orden de visualización de las bibliotecas de BPM. Esto determina el orden en que las grabaciones de tareas de las bibliotecas aparecerán en el panel Ayuda.
+2. Select the Lifecycle Services project to connect to.
+3. Select BPM libraries (within the selected project) to retrieve task recordings from.
+4. Set the display order of the BPM libraries. This setting determines the order in which task recordings from the libraries will appear in the Help pane.-->
 
-Una vez el administrador del sistema complete estos pasos, puede abrir el panel de Ayuda y hacer clic en la pestaña **Guías de tareas**. Verá las guías de tareas que se aplican a la página en la que se encuentra actualmente. Si no se encuentra ninguna guía de tareas, puede escribir palabras clave para limitar la búsqueda. Tras hacer clic en una guía de tareas en el panel Ayuda, el panel Ayuda muestra las instrucciones detalladas y puede reproducir la guía de tareas.
+Una vez que un administrador del sistema complete estos pasos, puede abrir el panel **Ayuda** y seleccionar la pestaña **Guías de tareas**. Podrá ver las guías de tareas que se aplican a la página en la que se encuentra actualmente. Si no se encuentra ninguna guía de tareas, puede escribir palabras clave para limitar la búsqueda. Tras seleccionar una guía de tareas en el panel **Ayuda**, el panel **Ayuda** muestra las instrucciones detalladas y puede reproducir la guía de tareas.
 
 ![Vista de lectura de la guía de tareas](./media/task-guide-ops.png)
 
 ### <a name="where-are-the-translated-task-guides-for-microsoft-libraries"></a>¿Dónde están las guías de tareas traducidas para las bibliotecas de Microsoft?
 
-Las guías de tareas traducidas se publican en bibliotecas que llevan "Todos los idiomas" en el título. Para ver la ayuda de la guía de tareas localizada, asegúrese de que está conectado a la biblioteca apropiada. El idioma en el que aparece una guía de tareas se controla para cada usuario mediante la configuración de idioma en **Opciones** &gt; **Preferencias**.
+Las guías de tareas traducidas se publican en bibliotecas que incluyen "Todos los idiomas" en el título. Para ver la ayuda de la guía de tareas localizada, asegúrese de estar conectado a una biblioteca apropiada. Cada usuario puede cambiar el idioma en el que aparece una guía de tareas cambiando la configuración de idioma en **Opciones** &gt; **Preferencias**.
 
 - Si se ha traducido una guía de tareas, al abrir esa guía de tareas, todo el texto de la guía de tareas aparecerá en el idioma seleccionado.
-- Si aún no se ha traducido una guía de tareas, al abrirla, solo parte del texto (el texto de los controles) aparecerá en el idioma seleccionado.
+- Si no se ha traducido aún una guía de tareas, al abrirla, solo aparecerá el texto de los controles en el idioma elegido.
 
 ## <a name="creating-custom-help"></a>Creación de ayuda personalizada
 
-Puede crear la ayuda de sus usuarios creando guías de tareas personalizadas, o conectando su propia página Web al panel de la Ayuda. Para obtener detalles, consulte:
+Puede crear ayuda para sus usuarios creando guías de tareas personalizadas o conectando su propio sitio web al panel **Ayuda**. Para obtener más información, consulte los siguientes temas:
 
-- [Recursos del Grabador de tareas](../../dev-itpro/user-interface/task-recorder.md).
-- [Crear ayuda personalizada (notas del producto)](https://go.microsoft.com/fwlink/?linkid=2041185)
+- [Recursos del Grabador de tareas](../../dev-itpro/user-interface/task-recorder.md)
+- [Resumen de ayuda personalizada](../../dev-itpro/help/custom-help-overview.md)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-- [Recursos del Grabador de tareas](../../dev-itpro/user-interface/task-recorder.md)
-
 En la tabla siguiente aparecen las listas de nuestras páginas web. Los sitios que tienen un asterisco (\*) junto al nombre requieren que inicie sesión con una cuenta asociada a un plan de servicio.
 
-| Sitio                                                                                           | Descripción |
-|------------------------------------------------------------------------------------------------|-------------|
-| [Docs.microsoft.com](/dynamics365/)                                                            | Hospeda o vincula a toda la documentación del producto para Dynamics 365. |
-| [Microsoft Learn](https://docs.microsoft.com/learn/)                                           | Sitio de eLearning gratuito de Microsoft. |
-| [Lifecycle Services](https://lcs.dynamics.com/)\*                                              | Proporciona un espacio de trabajo de colaboración basado en la nube que los clientes y sus socios pueden utilizar para gestionar los proyectos desde preventas hasta implementación y operaciones. Este sitio es útil en todas las fases de una implementación. |
-| [Blog de soporte](https://aka.ms/AXSupportBlog)                                                    | Proporciona sugerencias y trucos que se registran por el equipo de soporte. |
-| [Docs.microsoft.com/previous versions](https://docs.microsoft.com/previous-versions/dynamics/) | Contenido de host de versiones anteriores. |
-| [Comunidad de Dynamics](https://community.dynamics.com/)                                          | Hospeda blogs, foros y vídeos. |
-| [Microsoft.com/dynamics365/](https://www.microsoft.com/dynamics365/home)                       | Ofrece información de evaluación y ventas. |
-| [CustomerSource](https://mbs.microsoft.com/customersource/)\*                                  | Hospeda recursos de formación, informes descargables y documentación técnica, y es el sitio de asistencia principal para los titulares de planes de servicio. Puede requerir un plan de servicio para tener acceso a algunos recursos en el sitio. |
+| Sitio | Descripción |
+|------|-------------|
+| [Docs.microsoft.com](/dynamics365/) | Este sitio hospeda toda la documentación del producto para Dynamics 365, o vincula a ella. |
+| [Microsoft Learn](https://docs.microsoft.com/learn/) | Este sitio es el sitio gratuito de eLearning de Microsoft. |
+| [Microsoft DynamicsLifecycle Services (LCS)](https://lcs.dynamics.com/)\* | este sitio proporciona un espacio de trabajo de colaboración basado en la nube que los clientes y socios pueden utilizar para gestionar proyectos desde las preventas hasta la implementación y las operaciones. Resulta útil en todas las fases de una implementación. |
+| [Blog de soporte](https://aka.ms/AXSupportBlog) | este sitio proporciona sugerencias y trucos que publica el equipo de Soporte técnico. |
+| [Docs.microsoft.com/previous versions](/previous-versions/dynamics/) | Este sitio hospeda contenido de versiones anteriores. |
+| [Comunidad de Dynamics](https://community.dynamics.com/) | Este sitio hospeda blogs, foros y vídeos. |
+| [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | Este sitio ofrece información de evaluación y ventas. |
+| [CustomerSource](https://mbs.microsoft.com/customersource/)\* | Este sitio hospeda recursos de formación, informes descargables y documentación técnica, y es el sitio de asistencia principal para los titulares de planes de servicio. Puede ser necesario un plan de servicio para acceder a algunos recursos del sitio. |

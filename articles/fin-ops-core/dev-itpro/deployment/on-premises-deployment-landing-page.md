@@ -3,7 +3,7 @@ title: Página principal de Implementación local
 description: Este tema proporciona información y vínculos al contenido acerca de implementaciones locales.
 author: sericks007
 manager: AnnBe
-ms.date: 03/04/2020
+ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: b251125323bb74eb8be4172cb1b143c4866a8eac
-ms.sourcegitcommit: ec4df51e17be0b2df393635605ea17250c991ee9
+ms.openlocfilehash: 90285c8f2e0e86e04c8f2ac401c324c888740e99
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3099739"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367067"
 ---
 # <a name="on-premises-deployment-home-page"></a>Página principal de Implementación local
 
@@ -41,7 +41,6 @@ Puede implementar Dynamics 365 Finance and Operations (on-premises). Cuando sele
 ## <a name="onboard"></a>Incorporar
 - [Configurar en proyectos locales en Lifecycle Services (LCS)](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
 - [Configurar e implementar entornos locales (actualización 12 de Platform y posteriores)](setup-deploy-on-premises-pu12.md)
-- [Configurar e implementar entornos locales (Actualizaciones 8 y 11 de la plataforma)](setup-deploy-on-premises-pu8-pu11.md)
 - [Instalar dispositivos de impresora de red en entornos locales](../analytics/install-network-printer-onprem.md)
 - [Configurar SQL Server Reporting Services para implementaciones locales](../analytics/configure-ssrs-on-premises.md)
 - [Desarrollar e implementar modelos personalizados para entornos locales](develop-deploy-custom-models-on-premises.md)

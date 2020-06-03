@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eaab2093eb2531b63f27717d828f7064a8f9ed1d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e45c80718c73ad785643c2a5fc0e712b291104d5
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207517"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383122"
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>Configurar una jerarquía de categorías de compras
 
@@ -31,8 +31,8 @@ Este procedimiento muestra cómo crear nuevos nodos en una jerarquía de categor
 
 ## <a name="add-a-new-procurement-category"></a>Adición de una nueva categoría de compras
 1. Vaya a **Panel de exploración > Módulos > Adquisición y abastecimiento > Entrega > Categorías de adquisición**.
-2. En el Panel de acción, seleccione **Editar jerarquía de categoría**. La jerarquía de la categoría de compras actual se muestra en el lado izquierdo de la página. Va a modificar la jerarquía.  
-3. En el Panel de acción, seleccione **Nueva categoría de nodo**. El sistema selecciona el nodo superior de forma predeterminada. Si está ejecutando este procedimiento como guía de tarea, puede hacer clic en el botón Desbloquear y seleccionar otro nodo principal donde insertar su nuevo nodo. Una vez hecho, bloquee la guía de tarea de nuevo y haga clic en Nodo de categoría nueva.  
+2. En el panel Acciones, seleccione **Editar jerarquía de categoría**. La jerarquía de la categoría de compras actual se muestra en el lado izquierdo de la página. Va a modificar la jerarquía.  
+3. En el panel Acciones, seleccione **Nuevo nodo de categoría**. El sistema selecciona el nodo superior de forma predeterminada. Si está ejecutando este procedimiento como guía de tarea, puede hacer clic en el botón Desbloquear y seleccionar otro nodo principal donde insertar su nuevo nodo. Una vez hecho, bloquee la guía de tarea de nuevo y haga clic en Nodo de categoría nueva.  
 4. En el campo **Nombre**, escriba un valor.
 5. En el campo **Descripción**, escriba un valor.
 6. En el campo **Nombre descriptivo**, escriba un valor. El nombre descriptivo es opcional. Se mostrará en las búsquedas de categorías junto con el nombre de la categoría.  

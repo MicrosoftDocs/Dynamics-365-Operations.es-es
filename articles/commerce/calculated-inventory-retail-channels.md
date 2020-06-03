@@ -3,7 +3,7 @@ title: Calcular la disponibilidad de inventario para canales minoristas
 description: Este tema describe las opciones disponibles para mostrar el inventario disponible para la tienda y los canales en línea.
 author: hhainesms
 manager: annbe
-ms.date: 02/25/2020
+ms.date: 05/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: hhainesms
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 5b85438bc23e8f6cef0730dee9ac2c7f6dc26589
-ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
+ms.openlocfilehash: 51e6633caa49daeedca685f3323eaf4e14e788a5
+ms.sourcegitcommit: e789b881440f5e789f214eeb0ab088995b182c5d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "3113929"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "3379245"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Calcular la disponibilidad de inventario para canales minoristas
 
@@ -50,12 +50,7 @@ Ambas API obtienen datos del servidor de Commerce y proporcionan una estimación
 
 ### <a name="get-started-with-e-commerce-calculated-inventory-availability"></a>Comience con la disponibilidad de inventario calculada de comercio electrónico
 
-Antes de utilizar las dos API que se mencionaron anteriormente, debe realizar un cambio de parámetro en Commerce Headquarters para asegurarse de que la instantánea de los valores de inventario que calcula Commerce Headquarters utiliza el trabajo **Disponibilidad de producto** e introduce datos en las tablas correctas.
-
-Para establecer el parámetro, siga estos pasos.
-
-1. Vaya a **Retail y Commerce \> Configuración de sede central \> Parámetros \> Parámetros compartidos de Commerce**.
-1. En la pestaña **Inventario**, en la sección **Disponibilidad de producto trabajo**, seleccione **Usar el proceso optimizado para el trabajo de disponibilidad del producto**. Esta configuración garantiza que se use el conjunto de características óptimo para calcular el inventario disponible del canal a través del servidor de Commerce.
+Antes de utilizar las dos API que se mencionaron anteriormente, debe habilitar la función **Cálculo de disponibilidad de producto optimizado** a través del espacio de trabajo **Gestión de funciones** de espacio de trabajo en la sede de Commerce.
 
 Antes de que las API puedan calcular la mejor estimación de disponibilidad de inventario para un artículo, debe procesarse una instantánea periódica de la disponibilidad de inventario de la sede de Commerce y enviarse a la base de datos de canales que utiliza la Unidad de Escala de Commerce de Comercio Electrónico. La instantánea representa la información que Commerce Headquarters tiene sobre la disponibilidad de inventario para una combinación específica de un producto o variante de producto y un almacén. Puede incluir ajustes de inventario o movimientos causados por recibos de inventario, o por envíos u otros procesos que se realizan en Commerce Headquarters y sobre los que el canal de comercio electrónico tiene información solo debido al proceso de sincronización.
 
@@ -85,20 +80,15 @@ Cuando el cálculo del lado del canal está configurado y administrado correctam
 
 ### <a name="get-started-with-pos-channel-side-calculated-inventory-availability"></a>Comience con la disponibilidad de inventario calculada de en el lado del canal PDV
 
-Para usar la lógica de cálculo del lado del canal y desactivar las llamadas de servicio en tiempo real para búsquedas de inventario desde la aplicación PDV, primero debe hacer dos cambios de parámetros. Después debe sincronizar los cambios al canal a través del proceso de programación de distribución.
+Para usar la lógica de cálculo del lado del canal y desactivar las llamadas de servicio en tiempo real para búsquedas de inventario desde la aplicación POS, primero debe habilitar la función **Cálculo de disponibilidad de producto optimizado** a través del espacio de trabajo **Gestión de funciones** de la sede de Commerce. Además de habilitar la función, debe realizar cambios en el **Perfil de funcionalidad**.
 
-Para establecer el primer parámetro, siga estos pasos.
-
-1. Vaya a **Retail y Commerce \> Configuración de sede central \> Parámetros \> Parámetros compartidos de Commerce**.
-1. En la pestaña **Inventario**, en la sección **Disponibilidad de producto trabajo**, seleccione **Usar el proceso optimizado para el trabajo de disponibilidad del producto**. Esta configuración garantiza que se use el conjunto de características óptimo para calcular el inventario disponible del canal a través del servidor de Commerce.
-
-Para establecer el segundo parámetro, siga estos pasos.
+Para cambiar el **Perfil de funcionalidad**, siga estos pasos:
 
 1. Vaya a **Retail y Commerce \> Configuración de canal \> Configuración de PDV \> Perfiles de PDV \> Perfiles de funcionalidad**.
 1. Seleccione un perfil de funcionalidad.
 1. En la ficha desplegable **Funciones**, en la sección **Inventariar cálculo de disponibilidad**, cambie el valor del campo **Inventariar el modo de cálculo de disponibilidad** de **Servicio en tiempo real** a **Canal**. Por defecto, todos los perfiles de funcionalidad utilizan llamadas de servicio en tiempo real. Por lo tanto, debe cambiar el valor de este campo si desea utilizar la lógica de cálculo del lado del canal. Todas las tiendas minoristas que estén vinculadas al perfil de funcionalidad seleccionado se verán afectadas por este cambio.
 
-Para actualizar los servidores, siga estos pasos.
+Luego debe sincronizar los cambios en el canal a través del proceso de programación de distribución realizando los siguientes pasos:
 
 1. Vaya a **Retail y Commerce \> TI de Retail y Commerce \> Programación de distribución**.
 1. Ejecute el trabajo **1070** (**Configuración del canal**) .

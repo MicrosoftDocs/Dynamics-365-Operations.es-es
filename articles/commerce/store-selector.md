@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8efc2345ded52bfaee2d400815795906f326f4fd
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 460d05ca29d5b8da70a971a649d9edd786f7260d
+ms.sourcegitcommit: 15c5ec742d648c5f3506d031a2ab6150dcbae348
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3157349"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "3378217"
 ---
 # <a name="store-selector-module"></a>Módulo selector de tienda
 
@@ -35,7 +35,7 @@ En este tema se trata el modulo selector de tienda y se describe la forma de agr
 
 Se utiliza un módulo selector de tienda para el escenario de cliente "comprar en línea, recoger en la tienda" (BOPIS). Muestra una lista de tiendas donde un producto está disponible para recoger, así como el horario de la tienda y el inventario de productos para cada tienda.
 
-El módulo selector de tiendas requiere el contexto de un producto y una ubicación de búsqueda para encontrar tiendas. En ausencia de una ubicación de búsqueda, el valor predeterminado es la ubicación del navegador del cliente, siempre que el cliente dé su consentimiento. El módulo tiene un cuadro de entrada que permite al cliente ingresar una ubicación (código postal, o ciudad y estado) para encontrar tiendas cercanas.
+El módulo selector de tiendas requiere el contexto de un producto y una ubicación de búsqueda para encontrar tiendas. En ausencia de una ubicación de búsqueda, el valor predeterminado es la ubicación del navegador del cliente, siempre que el cliente dé su consentimiento. El módulo tiene un cuadro de entrada que permite al cliente Introducir una ubicación (código postal, o ciudad y estado) para encontrar tiendas cercanas.
 
 El módulo selector de tienda se integra con la interfaz de programación de aplicaciones (API) de geocodificación de Bing Maps para convertir la ubicación que el cliente ha introducido en una latitud y una longitud. Se requiere una clave de la API de Bing Maps, y debe agregarse a la página de parámetros compartidos de Commerce en Dynamics 365 Commerce.
 
@@ -79,3 +79,5 @@ Un módulo selector de tienda necesita el contexto de un producto, por lo que so
 [Paseo rápido por el carro y la finalización de la compra](quick-tour-cart-checkout.md)
 
 [Configurar modos de entrega](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
+
+[Administrar Bing Maps para la organización](dev-itpro/manage-bing-maps.md)

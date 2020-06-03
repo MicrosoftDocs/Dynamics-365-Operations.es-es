@@ -1,9 +1,9 @@
 ---
 title: Procesamiento de recibos de gastos
-description: Este tema proporciona información sobre el procesamiento de recibos mediante reconocimiento óptico de caracteres (OCR). Esta característica está diseñada para mejorar la experiencia del usuario cuando se crean informes de gastos en Microsoft Dynamics 365 Finance.
+description: Este tema proporciona información sobre el procesamiento de recibos mediante reconocimiento óptico de caracteres (OCR). Esta función está diseñada para mejorar la experiencia del usuario cuando se crean informes de gastos en Microsoft Dynamics 365 Finance.
 author: stsporen
 manager: AnnBe
-ms.date: 11/20/2019
+ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,45 +15,45 @@ ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: efba2faf9428d9b556d74273bc7daadba7211c48
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: 31c08ea264e6caec3217f4b424275495f39123e3
+ms.sourcegitcommit: 15c5ec742d648c5f3506d031a2ab6150dcbae348
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3248972"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "3378240"
 ---
 # <a name="expense-receipt-processing"></a>Procesamiento de recibos de gastos
 
 [!include [banner](../includes/banner.md)]
 
-La entrada de gastos se ha mejorado mediante la introducción del procesamiento de reconocimiento óptico de caracteres (OCR) para los recibos. Esta característica está diseñada para mejorar la experiencia del usuario cuando se crean informes de gastos.
+La entrada de gastos se ha mejorado mediante la introducción del procesamiento de reconocimiento óptico de caracteres (OCR) para los recibos. Esta función está diseñada para mejorar la experiencia del usuario cuando se crean informes de gastos.
 
 ## <a name="key-features"></a>Funciones principales
 
 - El nombre del comerciante, la fecha y el importe total se extraen de los recibos.
 - La función intenta hacer coincidir los recibos no vinculados con las transacciones de gastos no vinculados.
-- Los usuarios pueden crear transacciones de gastos ingresadas manualmente a partir de recibos.
+- Los usuarios pueden crear transacciones de gastos introducidas manualmente a partir de recibos.
 
 ## <a name="usage-examples"></a>Ejemplos de uso
 
-- **Adjuntar automáticamente recibos que incluyan transacciones con tarjeta de crédito cuando se cree un informe de gastos**
+Para adjuntar automáticamente recibos que incluyan transacciones con tarjeta de crédito cuando se cree un informe de gastos, haga lo siguiente:
 
-    1. Abra el espacio de trabajo **Administración de gastos**.
-    2. En la pestaña **Recibos**, verifique que haya recibos sin adjuntar. También puede cargar recibos en la pestaña **Ingresos**.
-    3. En la pestaña **Gastos**, verifique que haya gastos sin adjuntar. Por lo general, el administrador de gastos importa estos gastos del proveedor de la tarjeta de crédito.
-    4. Seleccione **Nuevo informe de gastos**. Tenga en cuenta que ahora también puede incluir gastos y recibos cuando cree un informe de gastos. Si agrega gastos y recibos, se activa la comparación automática de los recibos con los gastos.
+  1. Abra el espacio de trabajo **Administración de gastos**.
+  2. En la pestaña **Recibos**, verifique que haya recibos sin adjuntar. También puede cargar recibos en la pestaña **Ingresos**.
+  3. En la pestaña **Gastos**, verifique que haya gastos sin adjuntar. Por lo general, el administrador de gastos importa estos gastos del proveedor de la tarjeta de crédito.
+  4. Seleccione **Nuevo informe de gastos**. Tenga en cuenta que ahora también puede incluir gastos y recibos cuando cree un informe de gastos. Si agrega gastos y recibos, se activa la comparación automática de los recibos con los gastos.
 
-- **Crear un gasto o conciliar un gasto de un recibo**
+Para crear un gasto o asignar un gasto de un recibo, haga lo siguiente:
 
-    1. En un informe de gastos, en la pestaña **Recibos**, adjunte un recibo seleccionando **Agregar recibos**.
-    2. Debajo de la imagen cargada del recibo, observe las opciones **Crear** y **Conciliar**.
+  1. En un informe de gastos, en la pestaña **Recibos**, adjunte un recibo seleccionando **Agregar recibos**.
+  2. Debajo de la imagen cargada del recibo, observe las opciones **Crear** y **Conciliar**.
 
-        - Seleccione **Crear** para crear una transacción de gastos introducida manualmente y completar los valores que se extraen del recibo.
-        - Si selecciona **Conciliar**, el sistema intenta hacer coincidir un gasto existente con el recibo.
+      - Seleccione **Crear** para crear una transacción de gastos introducida manualmente y completar los valores que se extraen del recibo.
+      - Si selecciona **Conciliar**, el sistema intenta hacer coincidir un gasto existente con el recibo.
 
 ## <a name="installation"></a>Instalación
 
-Esta característica funciona en combinación con **Informes de gastos reinventados** para ayudar a simplificar la experiencia de los gastos.
+Esta función funciona en combinación con **Informes de gastos reinventados** para ayudar a simplificar la experiencia de los gastos. Esta función solo está disponible para entornos de Nivel 2 o superior, que son Espacio aislado y Producción.
 
 Para usar estas capacidades avanzadas de gastos, instale el complemento del Servicio de administración de gastos para Microsoft Dynamics 365 Finance y active las funciones en su instancia. Puede acceder al complemento desde su proyecto en Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -65,12 +65,12 @@ Para usar estas capacidades avanzadas de gastos, instale el complemento del Serv
 6. Siga la guía de instalación y acepte los términos y condiciones.
 7. Seleccione **Instalar**.
 
-En el espacio de trabajo **Administración de características**, active las siguientes características:
+En el espacio de trabajo **Administración de funciones**, active las siguientes funciones:
 
 - Informes de gastos reinventados
 - Conciliar automáticamente y crear gasto del recibo
 
-Al activar estas características, ocurren las acciones siguientes:
+Al activar estas funciones, ocurren las acciones siguientes:
 
 - El espacio de trabajo **Gestión de gastos** existente se reemplaza con el nuevo espacio de trabajo.
 - Un nuevo elemento de menú para la visibilidad del campo de gastos se agrega.

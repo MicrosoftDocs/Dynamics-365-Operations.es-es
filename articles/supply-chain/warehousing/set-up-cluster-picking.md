@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: daf8bc65dc937962e2e08b6f25805ddd3b8ee3c5
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 86aed1b2071875117b74309030ac5e9008babdaf
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204295"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367416"
 ---
-[!include[banner](../includes/banner.md)]
-
 # <a name="set-up-cluster-picking"></a>Configurar picking en clúster
+
+[!include[banner](../includes/banner.md)]
 
 Este tema describe cómo permitir a los trabajadores usar sus dispositivos móviles para agrupar el trabajo de picking en clústeres, de forma que puedan seleccionar artículos de una única ubicación para varios pedidos de trabajo al mismo tiempo. A esto se le llama *picking en clúster*.
 
@@ -36,35 +36,35 @@ Una vez que los pedidos de trabajo se liberan al almacén, el trabajador puede u
 
 Si es necesario, un trabajador puede gastar un clúster a otro trabajador. Esto cambia el estado del clúster a Pasado. Cuando el trabajador usa un dispositivo móvil para indicar que el trabajo de picking y colocación se ha completado, el envío o la carga deben confirmarse en el cliente.
 
-## <a name="set-up-cluster-picking"></a>Configurar picking de clústeres
+## <a name="enable-cluster-picking"></a>Habilitar selección de clústeres
 
 Para habilitar el picking en clúster, debe configurar lo siguiente:
 
--   **Perfiles de clúster**: especifique si generar automáticamente id. de clúster, el número de puestos para usar, cuándo interrumpir clústeres y cómo organizar por secuencias y comprobar el trabajo de picking.
+- **Perfiles de clúster**: especifique si generar automáticamente id. de clúster, el número de posiciones a usar, cuándo interrumpir clústeres y cómo organizar por secuencias y comprobar el trabajo de selección.
 
--   **Plantillas de trabajo**: permite definir cómo crear el trabajo de picking para el picking en clúster.
+- **Plantillas de trabajo**: defina cómo crear el trabajo de selección para la selección de clústeres.
 
--   **Directivas de ubicación**: permite especificar de dónde seleccionar los artículos y dónde ponerlos.
+- **Directivas de ubicación**: permite especificar dónde seleccionar los artículos y dónde ponerlos.
 
--   **Elementos de menú del dispositivo móvil**: permite configurar un elemento de menú del dispositivo móvil para usar el trabajo existente realizado mediante picking en clúster. A continuación debe agregar el elemento de menú a un menú del dispositivo móvil para que se muestre en dispositivos móviles.
+- **Elementos de menú del dispositivo móvil**: permite configurar un elemento de menú del dispositivo móvil para usar el trabajo existente realizado mediante picking en clúster. A continuación debe agregar el elemento de menú a un menú del dispositivo móvil para que se muestre en dispositivos móviles.
 
--   **Parámetros de gestión de almacenes**: permite especificar la secuencia numérica que se usará si desea generar identificadores para los clústeres.
+- **Parámetros de gestión de almacenes**: permite especificar la secuencia numérica que se usará si desea generar identificadores para los clústeres.
 
 ## <a name="set-up-a-cluster-profile"></a>Configurar un perfil de clúster
 
 Para establecer un perfil de clúster, siga estos pasos:
 
-1.  Haga clic en **Gestión de almacenes** \> **Configuración** \> **Dispositivo móvil** \> **Perfiles de clúster**.
+1. Haga clic en **Gestión de almacenes** \> **Configuración** \> **Dispositivo móvil** \> **Perfiles de clúster**.
 
-2.  Haga clic en **Nuevo** para crear un nuevo perfil.
+1. Haga clic en **Nuevo** para crear un nuevo perfil.
 
-3.  Haga clic en **Crear clúster** y, en **Ordenación de clústeres**, haga clic en **Nuevo** para configurar los criterios de ordenación para el clúster. Los criterios de ordenación controlan el orden en que el trabajador debe realizar el trabajo de picking. Puede agregar tantos criterios como sea necesario.
+1. Haga clic en **Crear clúster** y, en **Ordenación de clústeres**, haga clic en **Nuevo** para configurar los criterios de ordenación para el clúster. Los criterios de ordenación controlan el orden en que el trabajador debe realizar el trabajo de picking. Puede agregar tantos criterios como sea necesario.
 
-4.  En el campo **Número de secuencia**, especifique un número para definir el orden en que se procesarán los criterios de ordenación.
+1. En el campo **Número de secuencia**, especifique un número para definir el orden en que se procesarán los criterios de ordenación.
 
-5.  En el campo **Nombre de campo**, seleccione el campo que va a determinar la ordenación. Por ejemplo, si selecciona el campo **WMSLocationId**, el trabajo se ordenará por ubicación.
+1. En el campo **Nombre de campo**, seleccione el campo que va a determinar la ordenación. Por ejemplo, si selecciona el campo **WMSLocationId**, el trabajo se ordenará por ubicación.
 
-6.  En el campo **Ordenación**, seleccione una de las siguientes opciones.
+1. En el campo **Ordenación**, seleccione una de las siguientes opciones.
 
 | **Opción**     | **Descripción**                                                                                                                                                                                                                    |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -77,6 +77,6 @@ Cuando se aplica el picking en clúster, es esencial la confirmación del artíc
 
 ### <a name="set-up-item-verification-with-cluster-picking"></a>Establecer la comprobación de artículos con picking en clúster
 
-1.  En un elemento de menú del dispositivo móvil, abra el formulario de configuración para la confirmación del trabajo: **Gestión de almacenes** \> **Gestión de almacenes** \> **Configuración** \> **Dispositivo móvil** \> **Elementos de menú del dispositivo móvil**.
+1. En un elemento de menú del dispositivo móvil, abra el formulario de configuración para la confirmación del trabajo: **Gestión de almacenes** \> **Gestión de almacén** \> **Configuración** \> **Dispositivo móvil** \> **Elementos de menú del dispositivo móvil**.
 
-2.  En el elemento de menú del dispositivo móvil, abra **Configuración de la confirmación de trabajo**. La opción **Confirmación del producto** le permite que se compruebe cada pieza de inventario desde el dispositivo móvil cuando se escanea.
+1. En el elemento de menú del dispositivo móvil, abra **Configuración de la confirmación de trabajo**. La opción **Confirmación del producto** le permite que se compruebe cada pieza de inventario desde el dispositivo móvil cuando se escanea.

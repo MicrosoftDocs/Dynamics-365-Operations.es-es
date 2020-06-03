@@ -3,7 +3,7 @@ title: Calcular las fechas de vencimiento y el informe en el período medio de p
 description: Este tema proporciona información acerca de las fechas de vencimiento y el período medio de pagos para España.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 09/20/2018
+ms.date: 05/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Spain
 ms.author: anasyash
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: d92882b57e52dc247e332de75862ec663e053234
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 819739d61839b297f454fd943071d99c08b48ec3
+ms.sourcegitcommit: 8058db089b8768076ff1250be77d42a6e2b3f570
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183588"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "3378956"
 ---
 # <a name="calculate-due-dates-and-report-on-the-average-period-of-payments-spain"></a>Calcular las fechas de vencimiento y el informe en el período medio de pagos (España)
 
@@ -60,11 +60,11 @@ Si a una factura se aplica más de un límite de fecha de vencimiento, se usa el
 ## <a name="set-up-due-date-limits-to-calculate-invoice-due-dates"></a>Configurar límites de fecha de vencimiento para calcular las fechas de vencimiento de la factura
 Use la página **Límites de fecha de vencimiento** para crear los límites de fecha de vencimiento que especifican el número máximo de días en que los pagos de facturas deben realizarse.
 
-1. Seleccione **proveedores \> Configuración > pago \> Límites de fecha de vencimiento**.
+1. Seleccione **Proveedores \> Configuración de pagos \> Límites de fecha de vencimiento**.
 
-     - O bien -
+    O bien
 
-    Seleccione **Clientes \> Configuración \> Pago \> Límites de fecha de vencimiento**.
+    Seleccione **Clientes \> Configuración de pagos \> Límites de fecha de vencimiento**.
 
 2. Haga clic en **Nuevo** para crear un límite de fecha de vencimiento.
 3. En el campo **Límite de fecha de vencimiento**, escriba un nombre para la nueva fecha límite de vencimiento. En el campo **Descripción**, escriba una descripción.
@@ -82,11 +82,11 @@ Al crear y registrar facturas de ventas o facturas de compra, la fecha de vencim
 
 Use la página **Condiciones de pago** para especificar un límite de fecha de vencimiento, con el fin de asegurarse de que la fecha de vencimiento de la factura que se calcula se encuentre en el límite especificado de la fecha de vencimiento.
 
-1. Seleccione **Proveedores \> Configuración \> Pago \> Condiciones de pago**.
+1. Seleccione **Proveedores \> Configuración de pagos \> Condiciones de pago**.
 
-     - O bien - 
+    O bien 
 
-    Seleccione **Clientes \> Configuración \> Pago \> Condiciones de pago**.
+    Seleccione **Clientes \> Configuración de pagos \> Condiciones de pago**.
 
 2. Presione el botón **Nuevo** para crear condiciones de pago o seleccione una línea de condiciones de pago.
 3. En la ficha desplegable **Configuración**, establezca la opción **Use la fecha de entrega para calcular la fecha de vencimiento de pago** en **Sí** para calcular la fecha de vencimiento aplicando las condiciones de pago a la fecha de entrega en vez de aplicarlas a la fecha de la factura.

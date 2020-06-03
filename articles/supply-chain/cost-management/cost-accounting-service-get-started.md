@@ -1,5 +1,5 @@
 ---
-title: Introducción al servicio de contabilidad de costes
+title: Introducción al servicio de contabilidad de costes (vista previa privada)
 description: Este tema proporciona detalles sobre licencias e instrucciones de instalación para el servicio de contabilidad de costes.
 author: AndersGirke
 manager: tfehr
@@ -15,21 +15,21 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: cbbce7eaac264973bf0b95ad5175bf70ed2b4ae9
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: a82af9e8ec1806f470103897389d0316d33a4a06
+ms.sourcegitcommit: 7fec9dc5297ed6e687d4a0dff099922d59d6a830
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3276960"
+ms.lasthandoff: 05/13/2020
+ms.locfileid: "3372745"
 ---
-# <a name="get-started-with-the-cost-accounting-service"></a>Introducción al servicio de contabilidad de costes
+# <a name="get-started-with-the-cost-accounting-service-private-preview"></a>Introducción al servicio de contabilidad de costes (vista previa privada)
 
 [!INCLUDE [banner](../includes/banner.md)]
 
 > [!IMPORTANT]
 > La funcionalidad que se describe en este tema está disponible como parte de una versión preliminar privada. El contenido de este tema y la funcionalidad que describe están sujetos a cambios. Para obtener más información acerca las versiones preliminares, consulte [Preguntas frecuentes sobre actualizaciones del servicio de una versión](../../fin-ops-core/fin-ops/get-started/one-version.md).
 
-El servicio de contabilidad de costos le permite realizar múltiples inventarios en los libros de contabilidad de costos que ha configurado. Usted asocia cada libro de contabilidad de costos a una *convención*. Una convención es una colección de los siguientes tipos de políticas contables:
+El servicio de contabilidad de costos le permite realizar múltiples inventarios en los libros de contabilidad de costos que ha configurado. Usted asocia cada libro de contabilidad de costos a una *convención*. Una convención es una colección de los siguientes tipos de directivas contables:
 
 - Objeto de coste
 - Base de medida de entrada
@@ -43,24 +43,30 @@ El servicio de contabilidad de costos es un complemento. Para que sus funciones 
 
 El servicio de contabilidad de costos no admite actualmente todas las funciones de administración de costos integradas en Dynamics 365 Supply Chain Management. Por lo tanto, es importante que evalúe si el conjunto de funciones que están disponibles actualmente cumplirá sus requisitos.
 
-## <a name="licensing"></a>Licencias
-
-El servicio de contabilidad de costos tiene licencia junto con las características estándar de la contabilidad de inventario que están disponibles para Supply Chain Management. No tiene que comprar una licencia adicional para usar el servicio de contabilidad de costos.
-
-## <a name="install-the-add-in"></a>Instalar el complemento
+## <a name="how-to-get-the-cost-accounting-service-private-preview"></a><a name="sign-up"></a>Cómo obtener el servicio de contabilidad de costes (vista previa privada)
 
 > [!IMPORTANT]
 > Para usar el servicio de contabilidad de costos, debe tener un entorno de alta disponibilidad habilitado para LCS (no un entorno OneBox), y debe estar ejecutando Dynamics 365 Supply Chain Management versión 10.0.11 o posterior.
 
+Para suscribirse a la vista previa privada del servicio de contabilidad de costes, envíe su id. de entorno LCS por correo electrónico a [Servicio de contabilidad de costes (vista previa privada)](mailto:aevengir@microsoft.com?subject=Cost%20accounting%20service%20%28private%20preview%29). Al admitirle en el programa, le enviaremos un correo electrónico de seguimiento que contendrá una clave beta del servicio de contabilidad de costes. Al recibir la clave beta, puede continuar [instalando el complemento](#install).
+
+## <a name="licensing"></a>Licencias
+
+El servicio de contabilidad de costos tiene licencia junto con las funciones estándar de la contabilidad de inventario que están disponibles para Supply Chain Management. No tiene que comprar una licencia adicional para usar el servicio de contabilidad de costos.
+
+## <a name="install-the-add-in"></a><a name="install"></a>Instalar el complemento
+
 Para usar el servicio de contabilidad de costos, instale el complemento de servicio de contabilidad de costos para Supply Chain Management como se describe en el siguiente procedimiento.
+
+1. [Registrarse](#sign-up) para obtener el servicio de contabilidad de costes (vista previa privada).
 
 1. Inicie sesión en LCS.
 
-1. Vaya a **Administración de características de vista previa**.
+1. Vaya a **Administración de funciones de vista previa**.
 
 1. Seleccione el signo más (**+**).
 
-1. En el campo **Código**, ingrese su clave beta de complemento para el servicio de contabilidad de costos. (Debería haber recibido su clave por correo electrónico).
+1. En el campo **Código**, introduzca su clave beta de complemento para el servicio de contabilidad de costos. (Debería haber recibido su clave por correo electrónico).
 
 1. Seleccione **Desbloquear**.
 
@@ -84,7 +90,7 @@ Para usar el servicio de contabilidad de costos, instale el complemento de servi
 
 Para configurar la integración entre el servicio de contabilidad de costos y Dynamics 365 Supply Chain Management:
 
-1. Vaya a **Administración del sistema > Administración de características**.
+1. Vaya a **Administración del sistema > Administración de funciones**.
 
 1. Seleccione **Buscar actualizaciones**.
 
@@ -94,11 +100,11 @@ Para configurar la integración entre el servicio de contabilidad de costos y Dy
 
 1. Vaya a **Gestión de costes > Servicio de contabilidad de costes > Configuración > Parámetros del servicio de contabilidad de costes > Parámetros de integración**.
 
-1. En el campo **ID de aplicación**, ingrese el siguiente código:<br> 08231eb2-a501-4edb-b3c5-aede5e5e0c3f
+1. En el campo **ID de aplicación**, introduzca el siguiente código:<br> 08231eb2-a501-4edb-b3c5-aede5e5e0c3f
 
-1. En el campo **Punto final del servicio de datos**, ingrese la siguiente URL:<br>https://operationsdataservice.operations365.dynamics.com/
+1. En el campo **Punto final del servicio de datos**, introduzca la siguiente URL:<br>https://operationsdataservice.operations365.dynamics.com/
 
-1. En el campo **Punto final de contabilidad de costes**, ingrese la siguiente URL:<br>https://costaccountingservice.operations365.dynamics.com/
+1. En el campo **Punto final de contabilidad de costes**, introduzca la siguiente URL:<br>https://costaccountingservice.operations365.dynamics.com/
 
 1. El servicio de contabilidad de costos ahora está listo para usar.
 

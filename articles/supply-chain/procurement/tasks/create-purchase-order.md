@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 26112a9d25c0097bdbf30003247ce6dd4b4fb634
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 7ed359521dd018047fdbd5312d0cb73d764de925
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204893"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383237"
 ---
 # <a name="create-a-purchase-order"></a>Crear un pedido de compra
 
@@ -68,7 +68,7 @@ Este tema muestra cómo crear un pedido de compra manualmente. Es más habitual 
 ## <a name="review-order-totals"></a>Revisar totales del pedido
 1. Seleccione **Totales**.
 
-    - Si no ve la acción **Totales**, haga clic en la ficha **Pedido de compra** en la barra de acciones.  
+    - Si no ve la acción **Totales**, haga clic en la pestaña **Pedido de compra** en el panel Acciones.  
     - Este cuadro de diálogo muestra los totales para todo el pedido.  
     - El campo **Selección** le permite cambiar la base de cómo se calculan los totales. Por ejemplo, podría elegir la **Cantidad de recepción de producto** para mostrar los totales relacionados con el importe de los productos que se han recibido o la **Cantidad pedida para mostrar** el importe del producto que se ha pedido.  
 

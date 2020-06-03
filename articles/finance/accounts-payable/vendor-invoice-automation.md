@@ -3,7 +3,7 @@ title: Automatización de factura de proveedor
 description: Este tema explica las funciones disponibles para la automatización completa de las facturas de proveedor, incluso las facturas que incluyen adjuntos.
 author: abruer
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 05/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ba986afb5c17c7a317b47d1e9cf4ae57ac29da97
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4560d7b61fa8f014f9a1185da087df8b1c8e61ba
+ms.sourcegitcommit: b7af921189048d9f2eb4d3fd57c704c742bc96e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179839"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "3396018"
 ---
 # <a name="vendor-invoice-automation"></a>Automatización de factura de proveedor
 
@@ -61,7 +61,7 @@ Un paquete de datos es la unidad de trabajo que debe enviarse para que se puedan
 
 Los adjuntos del documento de la factura de proveedor son una nueva entidad de datos que se introduce como parte de esta función. Se ha modificado la entidad del encabezado de la factura de proveedor para que admita adjuntos. No se ha modificado la entidad de la línea de factura de proveedor para esta función.
 
-Este tema no ofrece una definición detallada de un paquete de datos. Tampoco explica cómo crear los paquetes de los datos. Para obtener esta información, consulte [Marco de entidades y paquetes de datos](../../dev-itpro/data-entities/data-entities-data-packages.md).
+Para obtener información detallada sobre los paquetes de datos, consulte [Resumen de gestión de datos](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md). Para obtener información sobre cómo crear paquetes de datos utilizando el espacio de trabajo de administración de datos, consulte [Procesar y consumir paquetes de datos en la solución de aplicaciones Dynamics 365 Finance and Operations](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md).
 
 Para generar rápidamente los datos de prueba que incluyen facturas y adjuntos, siga estos pasos.
 
@@ -89,7 +89,7 @@ Las facturas que se importan mediante los paquetes de datos se pueden asociar a 
 
 ## <a name="exception-processing"></a>Procesamiento de excepciones
 
-En las situaciones en las que las facturas de proveedor se introducen en Finance and Operations a través de la integración, debe haber una forma sencilla de que un miembro del equipo de los proveedores procese las excepciones o facturas que han fallado, y que cree facturas pendientes fuera de facturas que han fallado. Este procesamiento de excepciones para las facturas de proveedor es ahora parte de Finance and Operations.
+En los escenarios en los que las facturas de proveedores se introducen en Finance and Operations a través de integración, debe haber una forma sencilla de que un miembro del equipo de Proveedores procese las facturas con excepciones o errores y cree facturas pendientes a partir de las facturas con errores. Este procesamiento de excepciones para facturas de proveedores ya forma parte de Finance and Operations.
 
 ### <a name="exceptions-list-page"></a>Página de lista de excepciones
 

@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e6a29dce877a53d125c5a151da6cfbb13d46b29
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 0d157470527a986ea1c9fe0a9a02e2ba6ee8819e
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201603"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383007"
 ---
 # <a name="set-up-shipping-carriers"></a>Configuración de transportistas de envío
 
@@ -32,7 +32,7 @@ En este tema se muestra cómo configurar un transportista y definir detalles com
 
 ## <a name="create-a-new-shipping-carrier"></a>Creación de un nuevo transportista de envío
 1. Vaya a **Panel de navegación > Módulos > Administración de transporte > Configuración > Transportistas > Transportistas de envío**.
-2. Seleccione **Nueva** en el panel de acciones.
+2. En el panel Acciones, seleccione **Nuevo**.
 3. En el campo **Transportista de envío**, escriba un valor.
 4. En el campo **Nombre**, escriba un valor.
 5. En el campo **Modo**, seleccione una opción en el menú desplegable.

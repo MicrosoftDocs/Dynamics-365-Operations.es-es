@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: ae42c9012a430aeeed6adb78b33776c727e4a3f8
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 4ce9c9d5b5def386f159df581c87d48f3e0b0ad9
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551158"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367324"
 ---
-[!include [banner](../includes/banner.md)]
-
 # <a name="electronic-reporting-sample-vendor-checks"></a>Cheques de proveedor de ejemplo para informes electrónicos
+
+[!include [banner](../includes/banner.md)]
 
 Puede usar informes electrónicos (ER) para dar formato a los cheques de proveedores. Muchos formatos de cheque específicos de bancos y proveedores están disponibles en el mercado. Los formatos de cheque de ejemplo se han incluido en el modelo de cheques de pago en el repositorio de la herramienta de ER. Estos cheques de ejemplo se etiquetan como **Cheque en el medio (EE. UU.)** y **Cheque sobre recibo inferior (EE. UU.)**.
 

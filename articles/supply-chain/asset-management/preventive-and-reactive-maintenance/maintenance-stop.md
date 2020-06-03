@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8946baa4597ad4b696bcb6bcc49d4202163a41a9
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: c1b219d352b6b090c5c2cd3c063d7f890beaa35c
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214882"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383536"
 ---
 # <a name="maintenance-downtime"></a>Tiempo de inactividad por mantenimiento
 
@@ -75,7 +75,7 @@ La ilustración siguiente muestra un ejemplo de vista detallada de las **Activid
 
 9. En el cuadro de diálogo **Calcular carga de capacidad**, edite las horas de inicio y de finalización, si es necesario, y seleccione si desea incluir órdenes de trabajo y programas de mantenimiento en el cálculo. Puede usar el campo **Nivel** para indicar el nivel de detalle que desea para el cálculo de carga de capacidad con respecto a las ubicaciones técnicas. Por ejemplo, si especifica el número "1" en el campo y tiene una estructura de ubicación técnica de varios niveles, todos los activos para una ubicación técnica, que se seleccionan en la actividad del tiempo de inactividad por mantenimiento, se mostrarán en el nivel superior. De este modo, las horas en una línea se pueden agregar desde las ubicaciones técnicas situadas en un nivel inferior. Si especifica el número "0" en el campo **Nivel**, verá un resultado detallado que muestra todas las líneas de carga de capacidad en todos los niveles de la ubicación técnica con el que están relacionadas.
 
-10. Haga clic en **Aceptar** para iniciar el cálculo. El número total de horas se muestra en la visión general **Carga de capacidad**. En la pestaña **Carga de capacidad** > los grupos del panel de acciones **Agrupar por…**, haga clic en los botones pertinentes para obtener una visión general más detallada de la asignación de horas previstas. La ilustración siguiente muestra los resultados del cálculo de la **Carga de capacidad**.
+10. Haga clic en **Aceptar** para iniciar el cálculo. El número total de horas se muestra en la visión general **Carga de capacidad**. En la pestaña **Carga de capacidad** > grupos del panel Acciones **Agrupar por…**, haga clic en los botones pertinentes para obtener una visión general más detallada de la asignación de horas previstas. La ilustración siguiente muestra los resultados del cálculo de la **Carga de capacidad**.
 
 ![Figura 3](media/21-preventive-maintenance.png)
 
@@ -92,7 +92,7 @@ La ilustración siguiente muestra un ejemplo de vista detallada de las **Activid
 
 15. En el cuadro de diálogo **Calcular previsión de artículo**, edite las horas de inicio y de finalización, si es necesario, y seleccione si desea incluir órdenes de trabajo y programas de mantenimiento en el cálculo. Puede usar el campo **Nivel** para indicar el nivel de detalle que desea para el cálculo de carga de capacidad con respecto a las ubicaciones técnicas. Por ejemplo, si especifica el número "1" en el campo y tiene una estructura de ubicación técnica de varios niveles, todos los activos para una ubicación técnica, que se seleccionan en la actividad del tiempo de inactividad por mantenimiento, se mostrarán en el nivel superior. De este modo, las horas en una línea se pueden agregar desde las ubicaciones técnicas situadas en un nivel inferior. Si especifica el número "0" en el campo **Nivel**, verá un resultado detallado que muestra todas las líneas de carga de capacidad en todos los niveles de la ubicación técnica con el que están relacionadas.
 
-16. Haga clic en **Aceptar** para iniciar el cálculo. El número total de previsiones de artículos se muestra en la visión general **Previsión de artículo**. En la pestaña **Previsión de artículo** > los grupos del panel de acciones **Agrupar por…**, haga clic en los botones pertinentes para obtener una visión general más detallada de la asignación de artículos previstos. La ilustración siguiente muestra los resultados de un cálculo de **Previsión de artículos**.
+16. Haga clic en **Aceptar** para iniciar el cálculo. El número total de previsiones de artículos se muestra en la visión general **Previsión de artículo**. En la pestaña **Previsión de artículo** > grupos del panel Acciones **Agrupar por…**, haga clic en los botones pertinentes para obtener una visión general más detallada de la asignación de artículos previstos. La ilustración siguiente muestra los resultados de un cálculo de **Previsión de artículos**.
 
 ![Figura 4](media/22-preventive-maintenance.png)
 

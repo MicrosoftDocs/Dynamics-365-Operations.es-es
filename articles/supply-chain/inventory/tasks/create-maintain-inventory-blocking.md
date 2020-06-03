@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e76c3d1f46e31dcd2171682a629dabe5bf5db418
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 12c6e047e15aaab157e6de70f4a09f500af2965f
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204157"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383467"
 ---
 # <a name="create-and-maintain-an-inventory-blocking"></a>Creación y mantenimiento de un bloqueo del inventario
 
@@ -48,7 +48,7 @@ Este procedimiento muestra cómo impedir que se reserve inventario disponible f�
 3. Haga clic en **Guardar**.
 
 ## <a name="remove-the-inventory-blocking"></a>Eliminación del bloqueo de inventario
-1. En el **panel de acciones**, haga clic en **Eliminar**.
+1. En el **Panel Acciones**, haga clic en **Eliminar**.
 2. Haga clic en **Sí**.
 3. Cierre la página.
 

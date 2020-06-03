@@ -3,7 +3,7 @@ title: Cancelar un trabajo de planificación maestro
 description: Este tema explica cómo cancelar un trabajo activo de planificación que utilice la función planificación integrada.
 author: ChristianRytt
 manager: tfehr
-ms.date: 01/10/2020
+ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-12-16
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 08dd612d9fb01ba2db6d4fcc7db9507a41a4b29f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 1e38b1bb84414dde603dbf5bcda0e8253a12e40b
+ms.sourcegitcommit: 78a1aa37f9a1565135b139e36501b759e7b2f849
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203926"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "3374805"
 ---
 # <a name="cancel-a-master-planning-job"></a>Cancelar un trabajo de planificación maestro
 
@@ -51,4 +51,5 @@ Estas solo deben usarse si la cancelación del trabajo de planificación maestra
 2. Si la ID del trabajo no se muestra en la lista, haga clic en **Cambiar a forma mejorada**, de lo contrario, continúe con el siguiente paso.
 3. Abra el trabajo por lotes. Haga clic en la **Identificación del trabajo** para el trabajo por lotes con tareas que desea finalizar.
 4. En **Tareas por lotes**, seleccione las tareas para finalizar.
-5. En la ficha desplegable **Tareas por lotes**, haga clic en **Anular**.
+5. Haga clic en **Cambiar Estado**, elija **Cancelación** y haga clic en **Aceptar**.
+6. En la ficha desplegable **Tareas por lotes**, haga clic en **Anular**.

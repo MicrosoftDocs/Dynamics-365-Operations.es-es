@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c83cafd3a8934c488bb7a9f315bd5cb154f88c09
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: b4587c9d64c2456e5f9f27cdb19625d9537f1e29
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204846"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383214"
 ---
 # <a name="create-a-purchase-return-order"></a>Creación de pedido de devolución de compra
 
@@ -34,7 +34,7 @@ Este procedimiento le muestra cómo crear un pedido de devolución de compras co
 2. Haga clic en **Nuevo**.
 3. En el campo **Cuenta de proveedor**, escriba "US-102".
 4. Haga clic en **Aceptar**.
-5. En el **panel de acciones**, haga clic en **Comprar**.
+5. En el **Panel Acciones**, haga clic en **Compra**.
 6. Haga clic en **Nota de abono**. Esta es la página desde la que puede copiar desde una factura de proveedor existente a su pedido de devolución. Esta es la misma página que se utiliza para otras acciones de copia. Sin embargo, como la abrimos desde la acción Nota de abono, la página se configura para admitir la creación de un pedido de devolución que compense facturas de proveedor.  
 7. Expanda la sección **Parámetros**.
     - La opción **Invertir el signo** se selecciona automáticamente y no se puede cambiar. Esto garantiza que el signo se cambia para las cantidades y que las líneas de pedido que se agreguen compensarán la factura de proveedor.  
@@ -61,7 +61,7 @@ Este procedimiento le muestra cómo crear un pedido de devolución de compras co
 
 ## <a name="confirm-and-record-the-shipment-of-goods"></a>Confirmar y registrar el envío de mercancías
 1. Haga clic en **Acciones > confirmar**.
-2. En el **panel de acciones**, haga clic en **Recibir**.
+2. En el **Panel Acciones**, haga clic en **Recibir**.
 3. Haga clic en **Recepción de producto.**
     - Esta página se utiliza para registrar la recepción de producto para pedidos de compra y también para procesar la devolución de las mercancías al proveedor. Las líneas de pedido con una cantidad negativa significa que se tienen que devolver al proveedor y que el documento que se puede generar de esta página se puede utilizar como albarán para este uso.   
     - En el campo **Cantidad**, seleccione la Cantidad pedida para este ejemplo. Esto garantiza que el envío se procesará para la cantidad pedida completa con la que se crearon las líneas de pedido.   

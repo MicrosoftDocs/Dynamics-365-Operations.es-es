@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a594bacb1fcf53ae4a278dbb26f1de174e22288c
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: e98a30a03856f5532d420e516cb35d66acffb278
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275611"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383502"
 ---
 # <a name="schedule-work-orders"></a>Programar órdenes de trabajo
 
@@ -66,7 +66,7 @@ El tipo de orden de trabajo relacionada con órdenes de trabajo puede configurar
 El proceso de programación en Administración de activos incluye varios factores en el cálculo de la programación:
 
 - Calcular puntuaciones para órdenes de trabajo y para trabajadores de mantenimiento. Las puntuaciones de las órdenes de trabajo y los trabajadores de mantenimiento se configuran en **Parámetros de administración de activos**. 
-- Comprobar competencias coincidentes, es decir, aptitudes y certificados necesarios para realizar el trabajo. Las aptitudes y los certificados se configuran en los trabajadores de mantenimiento en el módulo **Recursos humanos** (**Recursos humanos** > **Trabajadores** > **Trabajadores** > seleccione el trabajador de la lista > pestaña **Trabajador** > sección **Competencias** > botones **Aptitudes** y **Certificados**). Además, se pueden agregar aptitudes y certificados a los tipos y comercios de trabajo de mantenimiento. Obtenga más información sobre las competencias y los tipos de trabajo de mantenimiento en [Categorías del tipo de trabajo de mantenimiento y tipos de trabajo de mantenimiento, variantes del tipo de trabajo de mantenimiento, comercios de trabajo de mantenimiento y listas de comprobación de mantenimiento](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).  
+- Comprobar competencias coincidentes, es decir, aptitudes y certificados necesarios para realizar el trabajo. Las aptitudes y los certificados se configuran en los trabajadores de mantenimiento en el módulo **Recursos humanos** (**Recursos humanos** > **Trabajadores** > **Trabajadores** > seleccione el trabajador de la lista > Pestaña **Trabajador** > Sección **Competencias** > Botones **Aptitudes** y **Certificados**). Además, se pueden agregar aptitudes y certificados a los tipos y comercios de trabajo de mantenimiento. Obtenga más información sobre las competencias y los tipos de trabajo de mantenimiento en [Categorías del tipo de trabajo de mantenimiento y tipos de trabajo de mantenimiento, variantes del tipo de trabajo de mantenimiento, comercios de trabajo de mantenimiento y listas de comprobación de mantenimiento](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).  
 
 ## <a name="scores-used-in-work-order-scheduling"></a>Puntuaciones utilizadas en la programación de una orden de trabajo
 
@@ -137,4 +137,4 @@ Para ver y trabajar con el diagrama de Gantt:
     - El diagrama de Gantt se actualiza para mostrar las órdenes de trabajo programadas que coinciden con su configuración. Cada orden de trabajo está representada por un rectángulo azul.
     - Para reprogramar una orden de trabajo visualizada, selecciónela y luego arrástrela a la nueva fecha y hora apropiadas.
 
-1. Si realizó algún cambio, seleccione **Guardar** en el panel de acciones para guardarlo.
+1. Si realizó algún cambio, seleccione **Guardar** en el panel Acciones para guardarlo.
