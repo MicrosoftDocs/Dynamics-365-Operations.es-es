@@ -1,9 +1,9 @@
 ---
-title: Conectar el sistema de ayuda
-description: Este tema describe los componentes del sistema de Ayuda para aplicaciones de Finance and Operations y proporciona una visión general de cómo conectar los y un resumen de cómo crear la ayuda personalizada.
+title: Configurar la experiencia de ayuda para aplicaciones de Finance and Operations
+description: Este tema proporciona información sobre los componentes del sistema de ayuda para algunas aplicaciones Microsoft Dynamics 365. También explica cómo conectar esas aplicaciones y proporciona un resumen del proceso para crear ayuda personalizada.
 author: margoc
 manager: AnnBe
-ms.date: 10/02/2019
+ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,81 +18,85 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4427388d75c1aef40a978ce35c831d5b714f2562
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 827d4cd14f497b79c85fb084a6295af13c5eb0c7
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3006181"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367393"
 ---
-# <a name="connect-the-help-system"></a>Conectar el sistema de ayuda
+# <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Configurar la experiencia de ayuda para aplicaciones de Finance and Operations
 
 [!include [banner](../includes/banner.md)]
 
-Este tema describe los componentes del sistema de ayuda de las aplicaciones de Finance and Operations como Dynamics 365 Finance, Supply Chain Management, Commerce y Human Resources. Ofrece una visión general de cómo conectar estos componentes y un resumen de cómo crear una ayuda personalizada.
+En este tema, encontrará una descripción general de los componentes del sistema de ayuda para aplicaciones de Finance and Operations, como Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce y Dynamics 365 Human Resources. El tema también explica cómo conectar estos componentes y proporciona un resumen del proceso para crear ayuda personalizada.
 
 ## <a name="help-architecture"></a>Arquitectura de la Ayuda
 
-En el ejemplo siguiente se muestra las partes del sistema de Ayuda. El sistema de Ayuda del producto extrae artículos de https://docs.microsoft.com, además de guías de tareas guardadas en el Modelador de procesos empresariales de Lifecycle Services (LCS).
-
-> [!NOTE]
-> Las características que aparecen en el diagrama con un asterisco (\*) están planificadas, pero aún no se encuentran disponibles.
+Las aplicaciones de Finance and Operations incluyen descripciones generales conceptuales y otros temas que se publican en el sitio [https://docs.microsoft.com/dynamics365](/dynamics365/). Se puede acceder a este contenido desde el panel **Ayuda** del producto. En el ejemplo siguiente se muestra las partes del sistema de Ayuda.
 
 [![Arquitectura de la Ayuda](./media/help-architecture.png)](./media/help-architecture.png)
 
-## <a name="connecting-the-help-system"></a>Conexión con el sistema de Ayuda
+El sistema de ayuda integrado en el producto extrae artículos de docs.microsoft.com y otros sitios web conectados. También extrae guías de tareas que se almacenan en Modelador de procesos empresariales (BPM), en Lifecycle Services de Microsoft Dynamics (LCS).
+
+## <a name="adding-task-guides"></a>Adición de guías de tareas
 
 > [!NOTE]
-> La pestaña **Guías de la tarea** no está actualmente disponible en Dynamics 365 Human Resources o Commerce. Estamos trabajando actualmente para permitir esta funcionalidad en una versión futura. Las Guías de tareas para la Introducción a Human Resources seguirán disponibles para cubrir las funcionalidades básicas. La ayuda de procedimiento también está disponible en el sitio de docs.microsoft.com para Human Resources y Commerce.
+> La pestaña **Guías de tareas** no está actualmente en Recursos Humanos ni en Commerce. <!--We are currently working to enable this functionality in a future release.--> Sin embargo, las guías de tareas de la experiencia Introducción en Recursos humanos seguirán disponibles para cubrir las funcionalidades básicas. Tanto para Recursos Humanos como para Commerce, la ayuda de procedimiento está disponible en el sitio [https://docs.microsoft.com/dynamics365](/dynamics365/).
 
-Con el formulario **Parámetros del sistema**, los administradores del sistema conectan las piezas del sistema de Ayuda para una implementación.
+En la página **Parámetros del sistema**, los administradores del sistema pueden configurar el acceso a las bibliotecas de guías de tareas relevantes para una implementación.
+
+> [!NOTE]
+> - Para configurar Ayuda, debe iniciar sesión con una cuenta en el mismo inquilino que el inquilino en el que se implementa la aplicación.
+> - No es posible conectar una biblioteca LCS desde una instancia de la aplicación que se ejecute en un disco duro virtual (VHD) local.
 
 [![Formulario Parámetros del sistema con configuración de Ayuda](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png)
 
-En la página **Parámetros del sistema**, siga estos pasos:
+Para configurar guías de tareas para una solución, siga estos pasos en la página **Parámetros del sistema**.
 
 > [!IMPORTANT]
-> La primera vez que abra la ficha **Ayuda** debe conectarse a Lifecycle Services. Asegúrese de hacer clic en el vínculo que hay en el medio del formulario, espere por la conexión, cierre el cuadro de diálogo y haga clic en **Aceptar** para obtener la página **Parámetros del sistema**.
+> La primera vez que abra la ficha **Ayuda** debe conectarse a Lifecycle Services. Asegúrese de seleccionar el vínculo que está en la mitad del formulario, espere a la conexión, cierre el cuadro de diálogo y luego seleccione **Aceptar** para obtener la página **Parámetros del sistema**.
 >
 > [![Conectarse a LCS](./media/connect-to-lcs-crop-1024x365.png "Conectarse a LCS")](./media/connect-to-lcs-crop.png)
 
 1. Seleccione el proyecto de Lifecycle Services al que conectarse.
 2. Seleccione las bibliotecas de BPM (dentro del proyecto seleccionado) desde la que recuperar grabaciones de tareas.
-3. Establezca el orden de visualización de las bibliotecas de BPM. Esto determina el orden en que las grabaciones de tareas de las bibliotecas aparecerán en el panel **Ayuda**.
+3. Establezca el orden de visualización de las bibliotecas de BPM. El orden de visualización define el orden en que las grabaciones de tareas de las bibliotecas aparecerán en el panel **Ayuda**.
 
-Una vez complete estos pasos, puede abrir el panel de **Ayuda** y hacer clic en la pestaña **Guías de tareas**. Verá las guías de tareas que se aplican a la página en la que se encuentra actualmente en las aplicaciones de Finance and Operations. Si no se encuentra ninguna guía de tareas, puede escribir palabras clave para limitar la búsqueda.
+Una vez completados estos pasos, puede abrir el panel **Ayuda** y seleccionar la pestaña **Guías de tareas**. Verá las guías de tareas que se aplican a la página en la que se encuentra actualmente en las aplicaciones de Finance and Operations. Si no se encuentra ninguna guía de tareas, puede escribir palabras clave para limitar la búsqueda.
 
 ### <a name="showing-translated-task-guides"></a>Mostrar guías de tareas traducidas
 
-Las guías de tareas traducidas se incluyeron por primera vez en la biblioteca unificada APQC de mayo de 2016 y en la biblioteca de introducción. En las aplicaciones de Finance and Operations, para ver la ayuda de la guía de tareas localizada, asegúrese de que está conectado a la biblioteca de mayo. El idioma en el que aparece una guía de tareas se controla para cada usuario mediante la configuración de idioma en **Opciones** &gt; **Preferencias**.
+Las guías de tareas traducidas se distribuyeron por primera vez en la Biblioteca unificada APQC de mayo de 2016 y en la biblioteca Introducción. Para ver la ayuda de la guía de tareas localizada, asegúrese de que su solución Dynamics 365 está conectada a la biblioteca de mayo de 2016. Los usuarios pueden cambiar el idioma en el que aparece una guía de tareas cambiando la configuración de idioma en **Opciones** &gt; **Preferencias**.
 
 > [!NOTE]
-> Aunque se han traducido muchas guías de tareas, ahora el cliente no muestra los nombres traducidos de las guías de tareas. Además, en la biblioteca de mayo de solo están disponibles en este momento las guías de tareas que se publicaron en febrero de 2016. Publicaremos una biblioteca actualizada con traducciones adicionales.
+> Pese a que se han traducido muchas guías de tareas, actualmente el cliente no muestra los nombres traducidos de las guías de tareas. Además, en la biblioteca de mayo de 2016, solo están disponibles traducciones para las guías de tareas que se publicaron en febrero de 2016. Microsoft publicará una biblioteca actualizada que incluye traducciones adicionales.
 >
 > - Si se ha traducido una guía de tareas, al abrir esa guía de tareas, todo el texto de la guía de tareas aparecerá en el idioma seleccionado.
 > - Si se ha traducido aún una guía de tareas, al abrirla, solo parte del texto (el texto de los controles) aparecerá en el idioma seleccionado.
 
-## <a name="creating-custom-help"></a>Creación de ayuda personalizada
+## <a name="adding-custom-help"></a>Adición de ayuda personalizada
 
-Puede usar las guías de tareas para crear ayuda personalizada, o para conectar una página Web al panel de la Ayuda.
+Puede usar las guías de tareas para crear ayuda personalizada o puede conectar un sitio web de ayuda personalizada al panel **Ayuda**.
 
-### <a name="create-custom-help-with-task-guides"></a>Creación de ayuda personalizada mediante guías de tareas
+### <a name="create-custom-help-by-using-task-guides"></a>Creación de ayuda personalizada mediante guías de tareas
 
-Puede crear ayuda personalizada para su implementación de Supply Chain Management y para Commerce creando grabaciones de tareas que reflejan su implementación y guardándolos en una Biblioteca de proceso empresarial LCS. No puede crear guías de tareas personalizadas para Human Resources.
+Puede crear ayuda personalizada para las aplicaciones soportadas, creando grabaciones de tareas que reflejen su implementación y luego guardándolas en una biblioteca de proceso empresarial en LCS. No puede crear guías de tareas personalizadas para Recursos humanos.
 
-Para socios, si promociona una biblioteca para que sea una biblioteca corporativa, e incluirla en una solución, esta estará disponible para sus clientes. También puede realizar una copia de la biblioteca global unificada APQC y, a continuación abrir su copia, abrir grabaciones de tareas desde allí, modificarlas y guardar las grabaciones con sus cambios. Para obtener más información, consulte [Recursos del grabador de tareas](../../dev-itpro/user-interface/task-recorder.md).
+Si es socio y promociona una biblioteca para que sea biblioteca corporativa e incluirla en una solución, esta quedará a disposición de sus clientes. También puede realizar una copia de la biblioteca unificada APQC y luego abrir las grabaciones de tareas en la copia, editarlas y guardar los cambios. Para obtener más información, consulte [Recursos del grabador de tareas](../../dev-itpro/user-interface/task-recorder.md).
 
-### <a name="connect-a-custom-site"></a>Conectar un sitio personalizado
+### <a name="connect-a-custom-help-site"></a>Conectar un sitio de ayuda personalizada
 
-Microsoft ha proporcionado documentación técnica y código de muestra que describen cómo crear y conectar un sitio personalizado de la ayuda al panel de la Ayuda. Para obtener más información, consulte:
+Las aplicaciones Finance and Operations rara vez se usan en su forma original. En su lugar, la solución se personaliza y se extiende para satisfacer las necesidades de la organización. También puede personalizar y ampliar la experiencia de Ayuda. Por ejemplo, puede agregar ayuda personalizada al panel **Ayuda** integrado del producto.
 
-- [Crear ayuda personalizada para aplicaciones de Finance and Operations (notas del producto)](https://go.microsoft.com/fwlink/?linkid=2041185)
-- [Repositorio GitHub de ayuda personalizada](https://github.com/microsoft/dynamics356f-o-custom-help)
+Microsoft ha proporcionado un kit de herramientas para ayudarle a implementar y conectar ayuda personalizada al panel **Ayuda**. Para obtener información acerca de cómo puede configurar una solución de ayuda personalizada que esté conectada al panel **Ayuda**, consulte [Resumen de ayuda personalizada](../../dev-itpro/help/custom-help-overview.md).
 
-## <a name="additional-resources"></a>Recursos adicionales
+Si desea colaborar con Microsoft en herramientas y procesos para personalizar la ayuda, complete el formulario en [https://aka.ms/customhelpfeedback](https://aka.ms/customhelpfeedback).
 
-[Sistema de ayuda](help-overview.md)
+## <a name="see-also"></a>Consulte también
 
-[Recursos del Grabador de tareas](../../dev-itpro/user-interface/task-recorder.md)
-
-[Crear documentación o formación con el Grabador de tareas](../../dev-itpro/user-interface/task-recorder-training-docs.md)
+[Sistema de ayuda](help-overview.md)  
+[Resumen de ayuda personalizada](../../dev-itpro/help/custom-help-overview.md)  
+[Recursos del Grabador de tareas](../../dev-itpro/user-interface/task-recorder.md)  
+[Crear documentación o formación con el Grabador de tareas](../../dev-itpro/user-interface/task-recorder-training-docs.md)  
+[Repositorio GitHub de ayuda personalizada](https://github.com/microsoft/dynamics356f-o-custom-help)  

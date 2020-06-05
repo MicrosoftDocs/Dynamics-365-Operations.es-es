@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cdb66620d5d57a42ce6a2dc443a9276a2e3ca0ae
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 540ba2266ea74c36babce57670f84159c89018f1
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203995"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383442"
 ---
 # <a name="transfer-physical-inventory-within-the-warehouse"></a>Transferencia del inventario físico en el almacén
 
@@ -52,7 +52,7 @@ Este procedimiento le muestra el proceso para crear y enviar un diario de transf
 12. Haga clic en **Guardar**.
 
 ## <a name="post-the-inventory-transfer-journal"></a>Registrar el diario de transferencias de inventario
-1. En el **panel de acciones**, haga clic en **Publicar**.
+1. En el **Panel Acciones**, haga clic en **Publicar**.
 2. Haga clic en **Aceptar**.
 
 ## <a name="view-inventory-transactions"></a>Ver transacciones de inventario

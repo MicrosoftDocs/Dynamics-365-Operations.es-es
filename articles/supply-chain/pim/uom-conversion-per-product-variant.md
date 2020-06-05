@@ -1,9 +1,9 @@
 ---
 title: Conversión de unidad de medida por variante del producto
-description: Este tema explica cómo las conversiones de unidad de medida se pueden configurar en variantes de producto.
+description: Este tema explica cómo configurar las conversiones de unidades de medida para variantes de producto. Incluye un ejemplo de configuración.
 author: johanhoffmann
 manager: tfehr
-ms.date: 01/06/2020
+ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,71 +17,93 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: e50be7fa6fa686a90b2dd5c5200c881e4629f019
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 71d35d47a703f0931ba3b4ab5df21c7199c7ea5b
+ms.sourcegitcommit: 92611ec276da6f7211d722cfcd66739b612296dc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204502"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3382806"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Conversión de unidad de medida por variante del producto
 
 [!include [banner](../includes/banner.md)]
 
-Este tema explica cómo las conversiones de unidad de medida se pueden configurar en variantes de producto. Incluye un ejemplo de configuración.
+Este tema explica cómo configurar las conversiones de unidades de medida para diversas variantes de producto.
 
-Esta función permite a las empresas definir una conversión de unidad diferente entre las variantes del mismo producto. El siguiente ejemplo se usa en este tema. Una empresa vende camisetas de tamaños pequeños, medios, grande y extragrande. La camiseta se define como producto, y los distintos tamaños se definen como variantes del producto. Las camisetas están embaladas en cajas y puede haber cinco camisetas en una caja, excepto el tamaño extragrande donde solo hay espacio para cuatro camisetas. La empresa desea realizar un seguimiento de las distintos variantes de camisetas en la unidad **Piezas** pero está vendiendo las camisetas en la unidad **Cajas**. La conversión entre la unidad de inventario y la unidad de ventas es 1 caja = 5 unidades, excepto la variante extragrande, donde la conversión es 1 caja = 4 piezas.
+En lugar de crear varios productos individuales que deberán mantenerse, puede usar variantes del producto para crear variaciones de un único producto. Por ejemplo, una variante del producto podría ser una camiseta de un tamaño y color determinados.
 
-### <a name="set-up-a-product-for-unit-conversion-per-variant"></a>Configurar un producto para la conversión de unidades por variante
+Anteriormente, las conversiones de unidades solo se podían configurar en el producto maestro. Por lo tanto, todas las variantes de producto tenían las mismas reglas de conversión de unidades. Sin embargo, cuando la función *Conversiones de unidades de medida para variantes de producto* está activada, si sus camisetas se venden en cajas y la cantidad de camisetas que se pueden empaquetar en una caja depende del tamaño de las camisetas, ahora puede configurar conversiones de unidades entre las diferentes tamaños de camisetas y las cajas que se utilizan para el empaquetado.
 
-Las variantes de producto solo se pueden crear para productos del **subtipo producto**: **producto maestro**. Para obtener más información, consulte [Crear un producto maestro](tasks/create-product-master.md).
+## <a name="turn-on-the-feature-in-your-system"></a>Activar la función en el sistema
 
-La característica no está habilitada para los productos configurados para procesos de peso capturado. 
+Si ya no ve esta función en su sistema, vaya a [Gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) y active la función *Conversiones de unidades de medida para variantes de producto*.
 
-Cuando se crea el producto maestro con variantes de productos emitidos, las conversiones de unidades por variantes se pueden configurar. Puede encontrar el elemento de menú para abrir la página de conversión de unidades en el contexto de un producto o una variante del producto en las siguientes páginas.
+## <a name="set-up-a-product-for-unit-conversion-per-variant"></a>Configurar un producto para la conversión de unidades por variante
 
--   Página **Detalles de producto**
--   Página **Administrar detalles de productos**
--   Página **Variantes del producto publicadas**
+Las variantes de producto solo se pueden crear solo para productos que sean productos maestro. Para obtener más información, consulte [Crear un producto maestro](tasks/create-product-master.md). La función *Conversiones de unidades de medida para variantes de producto* no está disponible para productos que están configurados para procesos de captura de peso.
 
-Al abrir la página **Conversión de unidades** en el contexto de una variante del producto maestro o de producto liberado, puede seleccionar si desea configurar la conversión de unidades del producto o de la variante del producto. Esto se hace seleccionando **Variante del producto** o **Producto** en el campo **Crear para la conversión**.
+Para configurar un producto maestro para admitir la conversión de unidades por variante, siga estos pasos.
 
-### <a name="product-variant"></a>Variante del producto
+1. Vaya a **Gestión de información de productos \> Productos \> Productos maestros**.
+1. Cree o abra un producto maestro para ir a su página **Detalles de producto**.
+1. Seleccione la opción **Habilitar conversiones de unidades de medida** en *Sí*.
+1. En el panel Acciones, en la pestaña **Producto** del grupo **Configurar**, haga clic en **Conversiones de unidades**.
+1. Se abrirá la página **Conversiones de unidades**. Seleccione una de las pestañas siguientes:
 
-Si se selecciona **Variante del producto,** puede seleccionar para qué variante desea configurar la conversión de unidades en el campo **Variante del producto**.
+    - **Conversiones intraclase**: seleccione esta pestaña para convertir entre unidades que pertenecen a la misma clase de unidades.
+    - **Conversiones interclase**: seleccione esta pestaña para convertir entre unidades que pertenecen a diferentes clases de unidades.
 
-### <a name="product"></a>Producto
+1. Para agregar una unidad de conversión nueva, haga clic en **Nueva**.
+1. Seleccione el campo **Crear conversión para** en uno de los siguientes valores:
 
-Si se selecciona **Producto**, puede configurar una conversión de unidades para el producto maestro. Esta conversión de unidades se aplicará a todas las variantes de producto sin conversión de unidad definida.
+    - **Producto**: si selecciona este valor, puede configurar una conversión de unidades para el producto maestro. Esa conversión de unidades se utilizará como alternativa para todas las variantes de producto para las que no esté definida ninguna conversión de unidades.
+    - **Variante del producto**: si selecciona este valor, puede configurar una conversión de unidades para una variante del producto específica. Utilicer el campo **Variante del producto** para seleccionar la variante.
 
-### <a name="example"></a>Ejemplo
+    ![Agregar una nueva conversión de unidades](media/uom-new-conversion.png "Agregar una nueva conversión de unidades")
 
-Un producto maestro, **Camiseta**, tiene cuatro variantes de producto liberadas: pequeños, medios, grande y extragrande. Las camisetas están embaladas en cajas y puede haber cinco camisetas en una caja, excepto el tamaño extragrande donde solo hay espacio para cuatro camisetas.
+1. Use los otros campos que se proporcionan para configurar su conversión de unidades.
+1. Seleccione **Aceptar** para guardar la nueva conversión de unidades.
 
-Primero, abra la página la página **Conversión de unidades** en la página de liberación de detalles de producto para **Camiseta.**
+> [!TIP]
+> Puede abrir la página **Conversiones de unidades** para un producto o una variante de producto desde cualquiera de las siguientes páginas:
+> 
+> - Detalles de producto
+> - Detalles de productos despachados
+> - Variantes de Productos despachados
 
-En la página **Conversión de unidades**, configure la conversión de unidades para la variante del producto extragrande liberada.
+## <a name="example-scenario"></a>Supuesto de ejemplo
 
-| **Campo**             | **Configuración**             |
-|-----------------------|-------------------------|
-| Crear conversión para | Variante del producto         |
-| Variante del producto       | Camiseta : : extragrande : : |
-| Desde unidad             | Cajas                   |
-| Factor                | 4                       |
-| Hasta unidad               | Piezas                  |
+En este escenario, una empresa vende camisetas de tamaños pequeño, mediano, grande y extragrande. La camiseta se define como un producto, y los distintos tamaños se definen como variantes de ese producto. Las camisas se empaquetan en cajas. Para los tamaños pequeño, mediano y grande, puede haber cinco camisetas en cada caja. Sin embargo, para el tamaño extragrande, hay espacio para solo cuatro camisetas en cada caja.
 
-Las variantes del producto liberado: pequeños, medios y grandes tienen la misma conversión de unidades entre la caja de unidades y las piezas, lo que significa que puede definir la conversión de unidades de estas variantes de producto en el producto maestro.
+La empresa desea realizar un seguimiento de las distintas variantes en la unidad *Piezas*, pero las está vendiendo en la unidad *Cajas*. Para los tamaños pequeño, mediano y grande, la conversión entre la unidad de inventario y la unidad de ventas es de 1 caja = 5 piezas. Para tamaño extragrande, la conversión es 1 caja = 4 piezas.
 
-| **Campo**             | **Configuración** |
-|-----------------------|-------------|
-| Crear conversión para | Producto     |
-| Producto               | Camiseta     |
-| Desde unidad             | Cajas       |
-| Factor                | 5           |
-| Hasta unidad               | Piezas      |
+1. Desde la página **Detalles de producto despachado** del producto **Camiseta**, abra la página la página **Conversión de unidades**.
+1. En la página **Conversión de unidades**, configure la siguiente conversión de unidades para la variante del producto despachada **Extragrande**.
 
-### <a name="using-excel-to-update-the-unit-conversions"></a>Uso de Excel para actualizar las conversiones de unidades
+    | Campo                 | Configuración                 |
+    |-----------------------|-------------------------|
+    | Crear conversión para | Variante del producto         |
+    | Variante del producto       | Camiseta : : extragrande : : |
+    | Desde unidad             | Cajas                   |
+    | Factor                | 4                       |
+    | Hasta unidad               | Piezas                  |
 
-Si un producto tiene numerosas variantes de producto con conversiones de unidad diferente, es recomendable exportar las conversiones de unidades de la página **Conversión de unidades** a una hoja de cálculo de Excel, actualizar las conversiones y, a continuación publicarlas de nuevo en Supply Chain Management.
+1. Dado que las variantes del producto **Pequeña**, **Mediana** y **Grande** tienen todas la misma conversión de unidades entre las unidades *Caja* y *Piezas*, puede definir la siguiente conversión de unidades para ellas en el producto maestro.
 
-La opción para exportar a Excel y publicar las ediciones de nuevo en Supply Chain Management se habilita en el elemento de menú **Abrir en Microsoft Office** en el panel de acciones de la página **Conversión de unidades**.
+    | Campo                 | Configuración |
+    |-----------------------|---------|
+    | Crear conversión para | Producto |
+    | Producto               | Camiseta |
+    | Desde unidad             | Cajas   |
+    | Factor                | 5       |
+    | Hasta unidad               | Piezas  |
+
+## <a name="using-excel-to-update-the-unit-conversions"></a>Uso de Excel para actualizar las conversiones de unidades
+
+Si un producto tiene muchas variantes de producto que tienen conversiones de unidades diferentes, es una buena idea exportar las conversiones de unidades al libro de trabajo Microsoft Excel, actualizarlas y luego volver a a publicarlas en Dynamics 365 Supply Chain Management.
+
+Para exportar conversiones de unidades a Excel, en la página **Conversiones de unidades**, en el panel Acciones, seleccione **Abrir en Microsoft Office**.
+
+## <a name="additional-resources"></a>Recursos adicionales
+
+[Gestionar la unidad de medida](tasks/manage-unit-measure.md)

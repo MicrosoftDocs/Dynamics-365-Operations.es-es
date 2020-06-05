@@ -1,9 +1,9 @@
 ---
 title: Vídeos
-description: Esta página muestra los vídeos de procedimientos y de charlas técnicas creadas por aplicaciones de Finance and Operations que están disponibles en YouTube y en otros sitios.
+description: Esta página enumera vídeos de "procedimientos" y de charlas técnicas relacionados con aplicaciones de Finance and Operations que están disponibles en YouTube y otros sitios.
 author: josaw1
 manager: AnnBe
-ms.date: 11/11/2019
+ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,28 +17,28 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 00ea8de8ba0567e8cc086a754062b3fec9672937
-ms.sourcegitcommit: 0138b6c108a10f2bcb90c91205da8092917160d8
+ms.openlocfilehash: f5e7751b71c75f80f1c3031ef00b32e80e7db42a
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2781859"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367138"
 ---
 # <a name="videos"></a>Vídeos 
 
 [!include [banner](../includes/banner.md)]
 
-En el [Canal de YouTube de Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ), puede encontrar los vídeos creados por Microsoft que demuestran una gran variedad de soluciones empresariales para productos Dynamics 365. En esta sección se muestran los vídeos de procedimientos para aplicaciones Finance and Operations que se hospedan en el canal.
+En el [Canal de YouTube de Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ), puede encontrar los vídeos creados por Microsoft que demuestran una gran variedad de soluciones empresariales para productos Dynamics 365. En esta sección se muestran los vídeos de "procedimientos" para aplicaciones de Finance and Operations que se hospedan en el canal.
 
 > [!Note]
 > Algunos de los vídeos enumerados se publicaron con un nombre de producto anterior, pero todavía son útiles.
 
-## <a name="videos-for-finance-and-operations-development-and-administration"></a>Vídeos para el desarrollo y administración de Finance and Operations
+## <a name="videos-for-finance-and-operations-development-and-administration"></a>Vídeos de desarrollo y administración para Finance and Operations
 
 ### <a name="data-integration"></a>Integración de datos
 
 - [Integración de cliente potencial a cliente](https://youtu.be/AVV9x5x-XCg)
-- [Sincronizar un pedido de trabajo entre Dynamics 365 for Field Service y aplicaciones Finance and Operations](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
+- [Sincronizar pedidos de trabajo entre Dynamics 365 for Field Service y aplicaciones de Finance and Operations](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 ### <a name="data-management"></a>Administración de datos
 
@@ -55,8 +55,8 @@ En el [Canal de YouTube de Microsoft Dynamics 365](https://www.youtube.com/chann
 ### <a name="intelligence"></a>Inteligencia
 
 - [Cómo editar un informe incrustado en un área de trabajo analítica](https://youtu.be/_8WlwmSggcQ)
-- [Cómo insertar los informes de PowerBI.com en aplicaciones Finance and Operations](https://youtu.be/gGWuNJDoi-M)
-- [Usar su propia base de datos (BYOD) en aplicaciones Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
+- [HCómo insertar los informes de PowerBI.com en aplicaciones de Finance and Operations](https://youtu.be/gGWuNJDoi-M)
+- [Traer la propia base de datos (BYOD) a las aplicaciones de Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
 - [Cómo usar el contenido de Power BI de administración de costes en Dynamics 365](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
 ### <a name="lifecycle-services-lcs"></a>Lifecycle Services (LCS)
@@ -76,6 +76,12 @@ En el [Canal de YouTube de Microsoft Dynamics 365](https://www.youtube.com/chann
 - [Actualizar datos en un entorno de producción](https://www.youtube.com/watch?v=VCd5SgkYPTw)
 - [Consumir una nueva versión de plataforma después de la actualización 3 de plataforma](https://www.youtube.com/watch?v=nkiKP2Au6OQ&feature=youtu.be)
 - [Usar la telemetría para controlar los contadores de rendimiento clave en Dynamics Lifecycle Services](https://www.youtube.com/watch?v=18u6SC8GeFY&feature=youtu.be)
+
+### <a name="regression-suite-automation-tool-rsat"></a>Regression Suite Automation Tool (RSAT)
+
+- [Cómo utilizar el grabador de tareas para crear un caso para de prueba para Regression Suite Automation Tool (RSAT)](https://youtu.be/bBr4BXAxTNI)
+- [Cómo crear un plan de prueba en Azure DevOps para Regression Suite Automation Tool (RSAT)](https://youtu.be/3jIuBleAnQk) 
+- [Cómo usar Regression Suite Automation Tool (RSAT)](https://youtu.be/uhN9JItzGAk)
 
 
 ## <a name="videos-for-dynamics-365-finance"></a>Vídeos para Dynamics 365 Finance

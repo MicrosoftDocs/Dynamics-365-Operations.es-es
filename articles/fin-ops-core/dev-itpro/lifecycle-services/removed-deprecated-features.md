@@ -1,9 +1,9 @@
 ---
-title: Características quitadas u obsoletas en Lifecycle Services (LCS)
-description: En este tema se describen las características que se han eliminado, o que está previsto que se eliminen, de Microsoft Dynamics Lifecycle Services (LCS).
+title: Funciones quitadas u obsoletas en Lifecycle Services (LCS)
+description: En este tema se describen las funciones que se han eliminado, o que está previsto que se eliminen, de Microsoft Dynamics Lifecycle Services (LCS).
 author: AngelMarshall
 manager: AnnBe
-ms.date: 02/05/2020
+ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,21 +15,21 @@ ms.search.region: Global
 ms.author: tsmarsha
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 96ecd040ef8661765c0a3861d8e07fee3c241161
-ms.sourcegitcommit: fb7d0efd97754f1ae0b5aa765d0eeb3f57b8078f
+ms.openlocfilehash: 5c5c525b403715ba8dfd3c1bc2dfac4dd69f4a3d
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3027989"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367277"
 ---
-# <a name="removed-or-deprecated-features-in-lifecycle-services-lcs"></a>Características quitadas u obsoletas en Lifecycle Services (LCS)
+# <a name="removed-or-deprecated-features-in-lifecycle-services-lcs"></a>Funciones quitadas u obsoletas en Lifecycle Services (LCS)
 
 [!include[banner](../includes/banner.md)]
 
-En este tema se describen las características que se han eliminado, o que están en desuso, en Microsoft Dynamics Lifecycle Services (LCS).
+En este tema se describen las funciones que se han eliminado, o que están en desuso, en Microsoft Dynamics Lifecycle Services (LCS).
 
-- Una característica *quitada* deja de estar disponible en el servicio.
-- Una característica *en desuso* no está en desarrollo activo y se podría quitar en una actualización futura.
+- Una función *quitada* deja de estar disponible en el servicio.
+- Una función *en desuso* no está en desarrollo activo y se podría quitar en una actualización futura.
 
 Esta lista se proporciona para ayudarle a tener en cuenta estas eliminaciones y deprecaciones para su propia planificación.
 
@@ -44,7 +44,7 @@ Esta lista se proporciona para ayudarle a tener en cuenta estas eliminaciones y 
 <td>Vamos a dejar de usar el componente de diagramas de flujo en el Modelador de procesos empresariales (BPM), ya que el diseño heredado hizo que se usara poco.</td>
 </tr>
 <tr>
-<td><strong>¿Reemplazado por otra característica?</strong></td>
+<td><strong>¿Reemplazado por otra función?</strong></td>
 <td>No</td>
 </tr>
 <tr>
@@ -53,11 +53,11 @@ Esta lista se proporciona para ayudarle a tener en cuenta estas eliminaciones y 
 </tr>
 <tr>
 <td><strong>Estado</strong></td>
-<td>En desuso: se prevé la eliminación del componente de diagramas de flujo en BPM en 2020. Se quitará la siguiente funcionalidad:
+<td>En desuso: se prevé la eliminación del componente de diagramas de flujo en BPM en 2020. La siguiente funcionalidad no estará disponible:
 <ul>
-<li>Los diagramas de flujo existentes no se podrán ver ni editar. Las propiedades de forma asociadas a las actividades del diagrama de flujo tampoco estarán disponibles, ya que se quitará la pestaña <strong>Diagrama de flujo</strong> completa. Estos diagramas de flujo incluyen diagramas de flujo predeterminados que se generan automáticamente y diagramas de flujo personalizados que se modifican en función de esos diagramas de flujo predeterminados.</li>
-<li>La característica de análisis de idoneidad/lagunas heredado no estará disponible. Por lo tanto, no se creará automáticamente una lista de lagunas ni estará disponible para la exportación.
-<p><strong>Nota:</strong> esta característica quedó en desuso anteriormente y fue reemplazada por las integraciones de Microsoft Azure DevOps.</p>
+<li>Todos los diagramas de flujo serán de solo lectura y no estarán disponibles para edición. Las propiedades de forma asociadas con las actividades del diagrama de flujo tampoco estarán disponibles. Estos diagramas de flujo incluyen diagramas de flujo predeterminados que se generan automáticamente y diagramas de flujo personalizados que se modifican en función de esos diagramas de flujo predeterminados.</li>
+<li>La función de análisis de idoneidad/lagunas heredado no estará disponible. Por lo tanto, no se creará automáticamente una lista de lagunas ni estará disponible para la exportación.
+<p><strong>Nota:</strong> esta función quedó en desuso anteriormente y fue reemplazada por las integraciones de Microsoft Azure DevOps.</p>
 </li>
 <li>El historial de versiones del diagrama de flujo no estará disponible.</li>
 </ul>

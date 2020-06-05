@@ -526,6 +526,32 @@
                   href: deployment/uninstall-deployable-package.md
                 - name: Solucionar problemas de aplicación de paquete
                   href: deployment/deployable-package-troubleshooting.md
+            - name: Implementación de ayuda personalizada
+              items:
+                - name: Visión general de ayuda personalizada
+                  href: help/custom-help-overview.md
+                - name: Preparación de contenido para usarlo con el panel de ayuda
+                  href: help/preparing-content.md
+                - name: Implementación de ayuda personalizada en Azure
+                  href: help/walkthrough-help-azure.md
+                - name: Conectar su ayuda personalizada al panel de ayuda
+                  href: help/connect-help-pane.md
+                - name: Kit de herramientas de ayuda personalizada
+                  items:
+                    - name: Visión general
+                      href: help/custom-help-toolkit.md
+                    - name: La herramienta HTML From Repo Generator
+                      href: help/custom-help-toolkit-HtmlFromRepoGenerator.md
+                    - name: La herramienta Convert HTML To JSON
+                      href: help/custom-help-toolkit-ConvertHtmlToJson.md
+                    - name: La herramienta HTML Locale Changer
+                      href: help/custom-help-toolkit-HtmlLocaleChanger.md
+                    - name: Convertir la ayuda personalizada de Dynamics AX para usarla en Dynamics 365
+                      href: help/migrate-dynamicsax2012.md
+                - name: Descriptores de idioma y configuración regional en todo el producto y la ayuda
+                  href: help/language-locale.md
+                - name: 'Ampliar, personalizar y colaborar en la ayuda'
+                  href: help/contributor-guide.md
         - name: Desarrollar y personalizar
           items:
             - name: Página principal de Desarrollar y personalizar
@@ -835,7 +861,7 @@
                     - name: Cambios de extensibilidad de la versión 8.0.1
                       href: extensibility/extensibility-changes-801.md
                     - name: Cambios de extensibilidad en la versión 8.0
-                      href: extensibility/changes-80.md
+                      href: extensibility/Changes-80.md
                     - name: Cambios de extensibilidad en la versión 7.3
                       href: extensibility/extensibility-changes-73.md
                     - name: Cambios de extensibilidad de julio de 2017

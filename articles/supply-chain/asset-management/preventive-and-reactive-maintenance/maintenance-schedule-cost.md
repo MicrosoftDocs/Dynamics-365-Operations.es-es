@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8feea75bb223bdbd013b11cdf3a63d504afb04f5
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 91c5b2e70ee083bf2741e245f1ca840ab939ad3f
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208211"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3382984"
 ---
 # <a name="maintenance-schedule-cost"></a>Coste del programa de mantenimiento
 
@@ -46,7 +46,7 @@ En Administración de activos, puede calcular los costes presupuestarios en las 
 
 5. Haga clic en **Aceptar** para iniciar el cálculo de costes.
 
-6. En la pestaña **Coste del programa de mantenimiento** > en los grupos del panel de acciones **Agrupar por...**, haga clic en los botones relevantes para mostrar el nivel de detalle necesario del cálculo de costes. Se resaltarán los botones del grupo de paneles de acciones seleccionado. Haga clic en un botón para activarlo o desactivarlo.
+6. En la pestaña **Coste del programa de mantenimiento** > en los grupos del panel Acciones **Agrupar por...**, haga clic en los botones relevantes para mostrar el nivel de detalle necesario del cálculo de costes. Se resaltarán los botones del grupo del panel Acciones seleccionado. Haga clic en un botón para activarlo o desactivarlo.
 
 7. Haga clic en el botón **Calcular coste** si desea crear un nuevo cálculo de costes.
 

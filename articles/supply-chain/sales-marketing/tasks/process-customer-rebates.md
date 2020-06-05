@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 87ddaddb00da50ef9e9e1e7ecf7c3620dabb5a17
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: c77129abc5c93d7b11445bdaa2c4851d73bb0b62
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209959"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383605"
 ---
 # <a name="generate-and-process-customer-rebates"></a>Generar y procesar devoluciones de cliente
 
 [!include [banner](../../includes/banner.md)]
 
-Este procedimiento muestra cómo procesar devoluciones de cliente desde que se genera la reclamación hasta pasarlas como acumulaciones a Clientes. Se le guiará por un ejemplo específico para explicar cómo afectan las distintas condiciones en las líneas de devolución a los importes finales que se abonarán al cliente. Deberá usar la empresa de demostración USMF y realizar las tareas siguientes antes de comenzar el procedimiento: (1) Vaya a la página Parámetros de clientes, expanda la ficha Precios y, luego, en la ficha Detalles de precio, confirme que la opción Habilitar detalles de precio esté establecida en Sí. (2) Vaya a la página Acuerdos de devoluciones y seleccione el acuerdo de devolución de cliente: USMF-000001. Si el campo Aprobación del flujo de trabajo no está establecido en Aprobado, debe hacer clic en Validación en el panel de acciones para aprobarlo.
+Este procedimiento muestra cómo procesar devoluciones de cliente desde que se genera la reclamación hasta pasarlas como acumulaciones a Clientes. Se le guiará por un ejemplo específico para explicar cómo afectan las distintas condiciones en las líneas de devolución a los importes finales que se abonarán al cliente. Deberá usar la empresa de demostración USMF y realizar las tareas siguientes antes de comenzar el procedimiento: (1) Vaya a la página Parámetros de clientes, expanda la ficha Precios y, luego, en la ficha Detalles de precio, confirme que la opción Habilitar detalles de precio esté establecida en Sí. (2) Vaya a la página Acuerdos de devoluciones y seleccione el acuerdo de devolución de cliente: USMF-000001. Si el campo Estado de aprobación de flujo de trabajo no está establecido en Aprobado, debe hacer clic en Validación en el panel Acciones para aprobarlo.
 
 
 ## <a name="review-a-customer-rebate-agreement"></a>Revisión de un acuerdo de devoluciones de cliente
@@ -56,7 +56,7 @@ Este procedimiento muestra cómo procesar devoluciones de cliente desde que se g
 12. En el campo **Número de artículo**, especifique o seleccione un valor.
 13. Establezca el valor de **Cantidad** en '60'.
 14. Haga clic en **Guardar**.
-15. En el **panel de acciones**, haga clic en **Factura**.
+15. En el **Panel Acciones**, haga clic en **Factura**.
 16. Haga clic en **Factura**.
 17. Expanda la sección **Parámetros**.
 18. En el campo **Cantidad**, seleccione "Todo".

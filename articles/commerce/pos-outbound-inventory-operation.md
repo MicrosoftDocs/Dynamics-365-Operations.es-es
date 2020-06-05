@@ -3,7 +3,7 @@ title: Operación de inventario saliente en PDV
 description: Este tema describe las capacidades de la operación de inventario de salida del punto de venta (PDV).
 author: hhaines
 manager: annbe
-ms.date: 03/02/2020
+ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 26d8d67ac6d2fde0753104483fd2127f9acbaa05
-ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
+ms.openlocfilehash: 22f057c20898bb4b4c34e38d62313d2634a33511
+ms.sourcegitcommit: 3b6fc5845ea2a0de3db19305c03d61fc74f4e0d4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "3123931"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3384138"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Operación de inventario saliente en PDV
 
@@ -34,7 +34,7 @@ ms.locfileid: "3123931"
 En Microsoft Dynamics 365 Commerce versión 10.0.10 y posterior, las operaciones de entrada y salida en el punto de venta (PDV) reemplazan la operación de selección y recepción.
 
 > [!NOTE]
-> En la versión 10.0.10 y posteriores, cualquier característica nueva en la aplicación PDV relacionada con la recepción del inventario de la tienda contra órdenes de compra y órdenes de transferencia se agregará a la operación de operaciones de entrada. Si actualmente está utilizando la operación de recogida y recepción en PDV, le recomendamos que desarrolle una estrategia para pasar de esa operación a las nuevas operaciones de entrada y salida. Aunque la operación de selección y recepción no se eliminará del producto, no habrá más inversiones en él, desde una perspectiva funcional o de rendimiento, después de la versión 10.0.9.
+> En la versión 10.0.10 y posteriores, cualquier función nueva en la aplicación PDV relacionada con la recepción del inventario de la tienda contra órdenes de compra y órdenes de transferencia se agregará a la operación de operaciones de entrada. Si actualmente está utilizando la operación de recogida y recepción en PDV, le recomendamos que desarrolle una estrategia para pasar de esa operación a las nuevas operaciones de entrada y salida. Aunque la operación de selección y recepción no se eliminará del producto, no habrá más inversiones en él, desde una perspectiva funcional o de rendimiento, después de la versión 10.0.9.
 
 ## <a name="prerequisite-configure-an-asynchronous-document-framework"></a>Requisito previo: configurar un marco de documentos asíncrono
 
@@ -110,13 +110,25 @@ En la vista de página de la lista de documentos, también puede crear un nuevo 
 
 Después de seleccionar un documento de orden de transferencia en la pestaña **Activo**, puede seleccionar **Detalles del pedido** para comenzar el proceso de cumplimiento. Aparece la vista **Lista completa de pedidos**. Esta página muestra todas las líneas de documento que contienen el elemento. También muestra detalles de la cantidad pedida.
 
-Cada escaneo de un código de barras actualiza la cantidad en el campo **Enviando ahora** por una unidad. Alternativamente, puede introducir una cantidad de envío seleccionando **Enviar producto** en la barra de la aplicación, ingresando un ID de artículo y luego introduciendo la cantidad. Si el artículo está controlado por la ubicación, puede confirmar o establecer la ubicación de envío para la línea de documentos.
+Cada escaneo de un código de barras actualiza la cantidad en el campo **Enviando ahora** por una unidad. Alternativamente, puede introducir una cantidad de envío seleccionando **Enviar producto** en la barra de la aplicación, introduciendo un ID de artículo y luego introduciendo la cantidad. Si el artículo está controlado por la ubicación, puede confirmar o establecer la ubicación de envío para la línea de documentos.
 
 En la vista **Lista completa de pedidos**, puede seleccionar manualmente una línea en la lista y luego actualizar la cantidad **Enviando ahora** para la línea seleccionada en el panel **Detalles**.
 
 ### <a name="over-delivery-shipping-validations"></a>Validaciones de envío en exceso
 
 Las validaciones ocurren durante el proceso de recepción de las líneas del documento. Incluyen validaciones para sobre-entrega. Si un usuario intenta recibir más inventario del que se ordenó en un pedido de compra, pero la entrega en exceso no está configurada o la cantidad recibida excede la tolerancia de entrega en exceso configurada para la línea de pedido de compra, el usuario recibe un error y no se le permite recibir la cantidad en exceso.
+
+### <a name="underdelivery-close-lines"></a>Líneas de cierre de entrega incompleta
+
+En Commerce, versión 10.0.12, se agregó una funcionalidad que permite a los usuarios de POS cerrar o cancelar las cantidades restantes durante el envío del pedido de salida si el almacén de salida determina que no puede enviar la cantidad completa que se solicitó. Las cantidades también se pueden cerrar o cancelar más tarde. Para utilizar esta capacidad, la empresa debe estar configurada para permitir la entrega incompleta de órdenes de transferencia. Además, se debe definir un porcentaje de incompleto para la línea de pedido de transferencia.
+
+Para configurar la empresa para permitir la entrega incompleta de pedidos de transferencia, en la Central de Commerce, vaya a **Gestión de inventario \> Configurar \> Parámetros de gestión de inventario y almacén**. En la página **Parámetros de gestión de inventario y almacén**, en la pestaña **Pedidos de transferencia**, active el parámetro **Aceptar entrega incompleta**. Luego ejecuta el trabajo del planificador de distribución **1070** para sincronizar los cambios de parámetros a su canal de almacén.
+
+Los porcentajes de suministro incompleto para una línea de pedido de transferencia pueden predefinirse en productos como parte de la configuración de producto en la Central de Commerce. Alternativamente, se pueden establecer o sobrescribir en una línea de orden de transferencia específica a través de la Central de Commerce.
+
+Después de que una organización haya terminado de configurar la entrega incompleta de pedido de transferencia, los usuarios verán una nueva opción **Cerrar la cantidad restante** en el panel **Detalles** cuando seleccionan una línea de pedido de transferencia saliente a través de la operación **Operación de salida** en el PDV. Luego, cuando los usuarios completan el envío utilizando la operación **Terminar cumplimiento**, pueden enviar una solicitud a la central de Commerce para cancelar la cantidad restante no enviada. Si un usuario elige cerrar la cantidad restante, Commerce realiza una validación para verificar que la cantidad que se cancela está dentro de la tolerancia de porcentaje de entrega incompleta que se define en la línea de pedido de transferencia. Si se excede la tolerancia de incompleto, el usuario recibe un mensaje de error y no puede cerrar la cantidad restante hasta que la cantidad previamente enviada y para "enviar ahora" cumpla o exceda la tolerancia de entrega incompleta.
+
+Después de que el envío se sincronice con la Central de Commerce, las cantidades que se definen en el campo **Enviar ahora** para la línea de pedido de transferencia en POS se actualizan a un estado de enviado en la Central de Commerce. Las cantidades no enviadas que anteriormente se considerarían cantidades de "envío restante" (es decir, cantidades que se enviarán más tarde) se consideran, en lugar de ello, cantidades canceladas. La cantidad de "envío restante" para la línea de pedido de transferencia se establece en **0** y la línea se considera totalmente enviada.
 
 ### <a name="shipping-location-controlled-items"></a>Envío de artículos controlados por ubicación
 
@@ -156,7 +168,7 @@ Tras introducir las líneas en la orden de transferencia de salida, debe selecci
 
 Si un documento se guarda localmente, se puede encontrar en la pestaña **Borradores** de la lista de documentos **Operación entrante**. Mientras un documento está en el estado **Borrador**, puede editarlo seleccionando **Editar**. Puede actualizar, agregar o eliminar líneas según lo requiera. También puede eliminar todo el documento mientras está en el estado **Borrador** estado, seleccionando **Eliminar** en la pestaña **Borradores**.
 
-Después de que el borrador del documento se envíe con éxito a la sede de Commerce, aparecerá en la pestaña **Activo** y tiene un estado de **Solicitado**. En este punto, solo los usuarios del almacén de salida pueden editar el documento seleccionando **Operación de salida** en la aplicación PDV. Los usuarios en el almacén entrante pueden ver la orden de transferencia en la pestaña **Activo** de la lista de documentos **Operación entrante**, pero no pueden editarla ni eliminarla. El bloqueo de edición asegura que no ocurran conflictos porque un solicitante entrante cambia la orden de transferencia al mismo tiempo que el remitente saliente está recogiendo y enviando la orden de forma activa. Si se requieren cambios en la tienda o almacén de entrada después de que se haya enviado la orden de transferencia, se debe contactar al remitente de salida y solicitarle que ingrese los cambios.
+Después de que el borrador del documento se envíe con éxito a la sede de Commerce, aparecerá en la pestaña **Activo** y tiene un estado de **Solicitado**. En este punto, solo los usuarios del almacén de salida pueden editar el documento seleccionando **Operación de salida** en la aplicación PDV. Los usuarios en el almacén entrante pueden ver la orden de transferencia en la pestaña **Activo** de la lista de documentos **Operación entrante**, pero no pueden editarla ni eliminarla. El bloqueo de edición asegura que no ocurran conflictos porque un solicitante entrante cambia la orden de transferencia al mismo tiempo que el remitente saliente está recogiendo y enviando la orden de forma activa. Si se requieren cambios en la tienda o almacén de entrada después de que se haya enviado la orden de transferencia, se debe contactar al remitente de salida y solicitarle que introduzca los cambios.
 
 Después de que el documento esté en el estado **Pedido**, está listo para el procesamiento de cumplimiento por parte del almacén de salida. A medida que el envío se procesa utilizando la operación de salida, el estado de los documentos de la orden de transferencia se actualiza desde **Pedido** a **Completamente enviado** o **Parcialmente Enviado**. Después de que los documentos estén en el estado **Completamente enviado** o **Parcialmente Enviado**, la tienda entrante o el almacén pueden contabilizar recibos contra ellos mediante el proceso de recepción de operaciones entrantes.
 

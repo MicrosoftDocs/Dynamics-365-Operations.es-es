@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0c0c4415f490219485b3d96fa678a317c1f12f2
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 8bf20ed737707b7cf99023e3c78489caf4a68eab
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204134"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383628"
 ---
 # <a name="create-and-process-a-conformance"></a>Crear y procesar una conformidad
 
@@ -35,7 +35,7 @@ Este tema explica cómo gestionar los casos de disconformidad, en función de un
 2. En la lista, seleccione el pedido de calidad que se creó en [Inspección de la calidad de las mercancías](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/supply-chain/inventory/tasks/inspect-quality-goods.md).  
 
 ## <a name="create-a-nonconformance"></a>Creación de una disconformidad
-1. En el panel de acciones, seleccione **Consultas**.
+1. En el panel Acciones, seleccione **Consultas**.
 2. Seleccione **No conformidades**.
 3. Seleccione **Nuevo**.
 4. En el menú desplegable del campo **Tipo de problema**, seleccione el problema encontrado durante el proceso de inspección.  

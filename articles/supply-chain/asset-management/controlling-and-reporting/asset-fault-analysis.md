@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 67ccbb742bb4e2283c30b4dec055d137b4a51e40
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 32cd8fb55cd9245a9a7c426a7c956bb40c3fdb0e
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3216422"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383559"
 ---
 # <a name="asset-fault-analysis"></a>Análisis de defectos de activos
 
@@ -78,7 +78,7 @@ En el captura de pantalla de abajo, **Año** y **Mes** se agregan para mostrar c
 
 La combinación de activos y un tipo de activo se usará como base para los cálculos mostrados en las tres capturas de pantalla de más abajo, que incrementarán el nivel de detalle.  
 
-Normalmente, los botones en los grupos del panel de acción **Agrupar por fecha**, **Agrupar por activo**, **Agrupar por ubicación técnica**, así como el botón **Defecto** (identificador del defecto), contienen períodos o relaciones de activo. Los botones **Síntoma**, **Área**, **Tipo**, **Causa** y **Remedio** son clasificaciones utilizadas en la administración de defectos para analizar los registros de defectos del activo e identificar las áreas problemáticas.  
+Normalmente, los botones en los grupos del panel Acciones **Agrupar por fecha**, **Agrupar por activo** y **Agrupar por ubicación técnica**, así como el botón **Error** (id. de error), contienen períodos o relaciones de activos. Los botones **Síntoma**, **Área**, **Tipo**, **Causa** y **Remedio** son clasificaciones utilizadas en la administración de defectos para analizar los registros de defectos del activo e identificar las áreas problemáticas.  
 
 **Agrupar por síntoma, activo y tipo de activo**
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e76c123ffbeb33cbc3ba01b4b2758208ed0c445f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 66b6b365958820a76f733df5eb2aabf6c3c4ebac
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204226"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383513"
 ---
 # <a name="check-the-availability-of-stock"></a>Comprobar la disponibilidad de existencias
 
@@ -35,9 +35,9 @@ Este procedimiento le muestra cómo comprobar el inventario disponible y el inve
 2. Seleccione la fila **Númerode artículo**. Para consultar el inventario disponible por número de artículo, seleccione la fila donde Tabla está establecido en **Inventario disponible** y Campo está establecido en **Número de artículo**.
 3. En el campo **Criterios**, seleccione el artículo que desea consultar. Si utiliza a la empresa de datos de prueba USMF, puede seleccionar "M9201".  
 4. Haga clic en **Aceptar**.
-5. En el **panel de acciones**, haga clic en **Dimensiones**. La ficha **Dimensiones** permite seleccionar cuánto detalle desea ver sobre su inventario disponible. Si necesita los datos relacionados con la reserva, debe mostrar todas las dimensiones de inventario para los artículos que usan los procesos avanzados de almacén (WHS).
+5. En el **Panel Acciones**, haga clic en **Dimensiones**. La ficha **Dimensiones** permite seleccionar cuánto detalle desea ver sobre su inventario disponible. Si necesita los datos relacionados con la reserva, debe mostrar todas las dimensiones de inventario para los artículos que usan los procesos avanzados de almacén (WMS).
 6. Haga clic en **Aceptar**.
-7. En el **panel de acciones**, haga clic en **Información relacionada**. Si no ve esta opción, es posible que tenga que hacer clic en los puntos suspensivos (…) para ver opciones adicionales del panel de acciones.
+7. En el **Panel Acciones**, haga clic en **Información relacionada**. Si no ve esta opción, es posible que tenga que hacer clic en el botón Puntos suspensivos (…) para ver opciones adicionales del panel Acciones.
 8. Haga clic en **Visión general de suministros**. La ficha **Visión general de suministros** proporciona la información para un artículo específico, como la cantidad disponible, el plazo y la información del proveedor.  
 9. Expanda la sección **Disponible**.
 10. Expanda la sección **Proveedores**.
@@ -48,7 +48,7 @@ Este procedimiento le muestra cómo comprobar el inventario disponible y el inve
 1. Vaya a **Panel de navegación > Módulos > Gestión de almacén > Consultas e informes > Inventario físico disponible**.
 2. En el campo **Código de artículo**, escriba un valor. Puede utilizar los campos Sitio y Almacén para filtrar la lista de artículos. 
 3. Actualice la página.
-4. En el **Panel de acciones**, haga clic en **Mostrar Dimensiones**. La ficha Mostrar dimensiones permite seleccionar cuánto detalle desea ver sobre su inventario disponible.
+4. En el **Panel Acciones**, haga clic en **Mostrar Dimensiones**. La ficha Mostrar dimensiones permite seleccionar cuánto detalle desea ver sobre su inventario disponible.
 5. Haga clic en **Aceptar**.
 6. Cierre la página.
 

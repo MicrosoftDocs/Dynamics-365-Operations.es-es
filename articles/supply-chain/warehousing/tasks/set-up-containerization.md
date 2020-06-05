@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2b5ad1bdd91a2fb9109f29400f082e9a8af009ba
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f0f042e6ffe5ecf01b9e5044fc83d081528fbc56
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3216951"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383306"
 ---
 # <a name="set-up-containerization"></a>Configurar la creación de contenedores
 
@@ -60,7 +60,7 @@ Este tema describe cómo automatizar la creación de contenedores de cargas en A
 
 ## <a name="set-up-a-container-group"></a>Configurar un grupo de contenedores
 1. En el panel de exploración, vaya a **Módulos > Gestión de almacenes > Configurar > Contenedores > Grpos de contenedor**.
-2. En el panel de acciones, seleccione **Nueva**. Puede configurar grupos lógicos de tipos de contenedores. Para cada grupo, puede especificar la secuencia en la que se deben empaquetar los contenedores y el porcentaje de relleno de los contenedores. Las dimensiones del artículo se usan para determinar si cabrá en el contenedor. Se usa el contenedor que se encuentra más cercano a las dimensiones de tamaño del artículo. Si tiene varios tipos de contenedor en un grupo, se recomienda que organice la secuencia por tamaños, de modo que el contenedor más grande sea el primero, número 1 en la secuencia, y el contenedor más pequeño el último.    
+2. En el panel de acciones, haga clic en **Nueva**. Puede configurar grupos lógicos de tipos de contenedores. Para cada grupo, puede especificar la secuencia en la que se deben empaquetar los contenedores y el porcentaje de relleno de los contenedores. Las dimensiones del artículo se usan para determinar si cabrá en el contenedor. Se usa el contenedor que se encuentra más cercano a las dimensiones de tamaño del artículo. Si tiene varios tipos de contenedor en un grupo, se recomienda que organice la secuencia por tamaños, de modo que el contenedor más grande sea el primero, número 1 en la secuencia, y el contenedor más pequeño el último.    
 3. En el campo **Identificación del grupo de contenedor** , escriba un valor que creó anteriormente.
 4. En el campo **Descripción**, escriba un valor.
 5. Repita los pasos 2-4 para los tres tipos de contenedor que creó anteriormente.

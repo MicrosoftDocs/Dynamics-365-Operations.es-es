@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e16c9adf592282a941b1112e197ea1ce9bdd34f2
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 7f84701f5b82ece1806d289dd6aea370bbd8c750
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207724"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383260"
 ---
 # <a name="create-a-purchase-order-with-a-delivery-schedule"></a>Crear un pedido de compra con una programación de entrega
 
@@ -31,7 +31,7 @@ En este tema se demuestra cómo crear una programación de entrega para un pedid
 
 ## <a name="create-a-delivery-schedule"></a>Crear una programación de entrega
 1. En el panel de exploración, vaya a **Módulos > Adquisición y abastecimiento > Pedidos de compra > Todos los pedidos de compra**.
-2. En el panel de acciones, seleccione **Nueva**.
+2. En el panel de acciones, haga clic en **Nueva**.
 3. En el campo **Cuenta de proveedor**, escriba `US-101`.
 4. Seleccione **Aceptar**.
 5. En el campo **Número de artículo**, especifique `M0001`.

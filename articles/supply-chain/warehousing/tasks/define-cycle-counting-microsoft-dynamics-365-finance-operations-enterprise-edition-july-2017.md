@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d10904414b8c35960e421caeb7cae838edd312dd
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 1503ef3646657a4b7bb7e240144af2ac559a62d0
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3217066"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383030"
 ---
 # <a name="define-cycle-counting"></a>Definir el recuento cíclico 
 
@@ -46,10 +46,10 @@ La cuenta de ciclo es un proceso de almacén que puede usar para revisar artícu
 7. En el campo **Dirigido por**, seleccione "Dirigido por el sistema". Cuando se selecciona "Dirigido por el sistema", se dirigirá al trabajador del almacén a abrir el trabajo que está en las clases definidas de trabajo. (Crearemos estas clases de trabajo después.)  
 8. Expanda la ficha desplegable **Clases de trabajo**. A continuación, crearemos dos clases de trabajo que se usarán con este elemento de menú de dispositivo móvil. Cuando se use el elemento de menú, se consultarán estas clases de trabajo y se mostrará al usuario el trabajo con la prioridad más alta.  
 9. Haga clic en **Nuevo**.
-10. En el campo **Identificador de la clase de trabajo**, seleccione un valor.
+10. En el campo **Id. de la clase de trabajo**, seleccione un valor.
 11. Haga clic en **Nuevo**.
-12. En el campo **Identificador de la clase de trabajo**, seleccione un valor.
-13. En el **panel de acciones**, haga clic en **Guardar**.
+12. En el campo **Id. de la clase de trabajo**, seleccione un valor.
+13. En el **Panel Acciones**, haga clic en **Guardar**.
 14. Cierre la página.
 15. En el **Panel de exploración** vaya a **Módulos > Administración de módulos > Configuración > Dispositivo móvil > Menú del dispositivo móvil**.
 16. En la lista, busque y seleccione el registro deseado.

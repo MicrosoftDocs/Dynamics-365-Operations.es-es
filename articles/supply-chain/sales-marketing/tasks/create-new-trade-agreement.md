@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9aa46f959c35c209791457aa697ab829264b3275
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 1642da7b06363d1f704e51276b5cb36823707231
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211960"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383439"
 ---
 # <a name="create-a-new-trade-agreement"></a>Crear un nuevo acuerdo comercial
 
@@ -34,7 +34,7 @@ Este procedimiento muestra cómo crear un acuerdo comercial por el que se regist
 2. Haga clic en **Nuevo**.
 3. En el campo **Nombre**, haga clic en el botón desplegable para abrir la búsqueda.
 4. En la lista, busque y seleccione el registro deseado.
-5. En **Panel de acciones**, haga clic en **Líneas**.
+5. En **Panel Acciones**, haga clic en **Líneas**.
 6. En el campo **Código de cuenta**, seleccione 'Tabla'.
     
     En este ejemplo, va a actualizar el precio para un cliente específico, por lo que tiene que elegir Tabla. Si fuera a actualizar el precio de lista del producto, seleccionaría 'Todo', de modo que el nuevo precio fuera válido para todos los clientes. Si fuera a diferenciar precios entre distintos segmentos de cliente, seleccionaría Grupo. Para seleccionar Grupo debe haber configurado grupos de precios de cliente.  
@@ -60,7 +60,7 @@ Este procedimiento muestra cómo crear un acuerdo comercial por el que se regist
 20. Haga clic en **Aceptar**.
 
 ## <a name="view-trade-agreements-for-a-product"></a>Visualización de acuerdos comerciales para un producto
-1. Vaya a **Panel de navegación > Módulos > Gestión de información de productos > Productos > Productos emitidos**.
+1. Vaya a **Panel de navegación > Módulos > Gestión de información de productos > Productos > Productos despachados**.
 2. En la lista, busque y seleccione el producto cuyo precio acaba de actualizar.
 3. En **Panel de acciones**, haga clic en **Vender**.
 4. Haga clic en **Ver acuerdos comerciales**

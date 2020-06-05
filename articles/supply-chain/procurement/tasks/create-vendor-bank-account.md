@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab0a108b5c8b7f2f90a4d33d8a9ff088335c18d4
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f8092ab7f960fd36515afb8448dfe1e262197595
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207677"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383145"
 ---
 # <a name="create-a-vendor-bank-account"></a>Crear una cuenta bancaria de proveedor
 
@@ -31,9 +31,9 @@ Este procedimiento le muestra cómo crear una cuenta bancaria para un proveedor.
 
 1. Vaya al **Panel de exploración > Módulos > Adquisición y abastecimiento > Proveedores > Todos los proveedores**.
 2. Seleccione el proveedor para el que desea crear una cuenta bancaria y, a continuación, haga clic en el vínculo del **Id. de la cuenta de proveedor**.
-3. En el **panel de acciones**, haga clic en **Proveedor**.
+3. En el **Panel Acciones**, haga clic en **Proveedor**.
 4. Haga clic en **Cuentas bancarias**.
-5. En el **panel de acciones**, haga clic en **Nuevo**.
+5. En el **Panel de acciones**, haga clic en **Nuevo**.
 6. En el campo **Cuenta bancaria**, escriba un valor. Este id. se utilizará para identificar la cuenta bancaria en el registro del proveedor.  
 7. En el campo **Nombre**, escriba un valor.
 8. En el campo **Grupos de bancos**, especifique o seleccione un valor.

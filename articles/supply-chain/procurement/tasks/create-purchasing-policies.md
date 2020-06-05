@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4e13a9a594e8c4041a586734df53321d57b43586
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: d4ba2a23f84972391283eaf01cef70a161c75226
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204815"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383187"
 ---
 # <a name="create-purchasing-policies"></a>Crear directivas de compra
 
@@ -32,7 +32,7 @@ Este tema le explica cómo crear directivas de compra para alinearlas con sus pr
 
 ## <a name="set-up-policy-parameters"></a>Configuración de los parámetros de directivas
 1. En el panel de exploración, vaya a **Módulos > Adquisición y abastecimiento > Configuración > Directivas > Directivas de compras**.
-2. En el panel de acciones, seleccione **Parámetros**.
+2. En el panel Acciones, seleccione **Parámetros**.
 - Las reglas de prioridad de directivas se aplican a diferentes niveles de su organización. Las unidades organizativas que se muestran dependen de su jerarquía organizativa y de a qué niveles de la jerarquía se ha asignado el propósito del Control interno de compras. Por ejemplo, su organización puede tener entidades jurídicas, centros de costes, regiones y departamentos, pero es posible que solo algunos de estos tengan un propósito de jerarquía del Control interno de compras. De forma predeterminada, la organización de tipo Empresa está disponible.  
 3. Seleccione la pestaña **Parámetros de tipo de regla de directiva**.
 4. En el árbol, vaya a **Directiva de compra > Regla de control de la solicitud de compra**.

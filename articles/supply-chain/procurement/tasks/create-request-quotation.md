@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d2c13ed20ec86108bcb9edc0d20d53ff98732b9d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 68624a0288f9eaaf8f74b361bb308b8ca3c03b29
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204755"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383188"
 ---
 # <a name="create-a-request-for-quotation"></a>Crear una solicitud de presupuesto
 
@@ -67,7 +67,7 @@ Una vez que haya especificado la información básica acerca de la solicitud de 
 7. En el campo **Cuenta de proveedor**, especifique o seleccione un valor. Una vez que haya seleccionado un proveedor, el estado es Creado. Esto significa que la información del proveedor se ha guardado en la solicitud de presupuesto, pero que no ha enviado la solicitud de presupuesto al proveedor. Puede agregar un proveedor a una solicitud de presupuesto independientemente del estado de proveedor.  
 
 ## <a name="send-the-rfq-to-vendors"></a>Enviar solicitud de presupuesto a los proveedores
-1. En el **panel de acciones**, haga clic en **Enviar**. En la página Enviando solicitud de presupuesto, compruebe que los proveedores de la lista son los que desea que reciban la solicitud de presupuesto.  
+1. En el **Panel Acciones**, haga clic en **Enviar**. En la página Enviando solicitud de presupuesto, compruebe que los proveedores de la lista son los que desea que reciban la solicitud de presupuesto.  
 2. Haga clic en **Imprimir**. Este cuadro de diálogo permite imprimir la solicitud de presupuesto. Si elige imprimir una hoja de respuesta, el contenido de esta se define en Parámetros de adquisición y abastecimiento. Para elegir cómo imprimir hojas de respuestas, una vez que haya abierto el cuadro de diálogo Imprimir, haga clic en Opciones de impresión avanzadas. Una solicitud de presupuesto se imprimirá para cada proveedor que contenga las líneas con el estado de Creado o Enviado. No se imprimirán las líneas canceladas ni las líneas con respuestas registradas.   
 3. Haga clic en **Cancelar**.
 4. Haga clic en **Aceptar**.

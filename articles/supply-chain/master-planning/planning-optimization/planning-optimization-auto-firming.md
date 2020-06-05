@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-11-30
 ms.dyn365.ops.version: AX 10.0.7
-ms.openlocfilehash: 81c26b8a99f86d663d91ac4f549987262c0541ad
-ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
+ms.openlocfilehash: e412ccbc7c44d41e0a70ef8b5436901e01c671e6
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3323540"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383697"
 ---
 # <a name="auto-firming-with-planning-optimization"></a>Puesta en firme automática con la optimización de la planificación
 
@@ -39,7 +39,7 @@ La puesta en firme automática permite poner en firme (es decir, enviar) los ped
 
 Para activar la puesta en firme automática, siga estos pasos.
 
-1. En el espacio de trabajo **Administración de características**, en la pestaña **Nuevo**, seleccione **Puesta en firme para la optimización de la planificación** en la lista. Si la característica no aparece en la pestaña **Nuevo**, mire en las pestañas **No habilitado** y **Todo**.
+1. En el espacio de trabajo **Administración de funciones**, en la pestaña **Nuevo**, seleccione **Puesta en firme para la optimización de la planificación** en la lista. Si la función no aparece en la pestaña **Nuevo**, mire en las pestañas **No habilitado** y **Todo**.
 1. Seleccione **Habilitar ahora**. Como alternativa, seleccione **Programación** y el tiempo en que desea que la función esté activada.
 
 ## <a name="set-up-the-firming-time-fence"></a>Configurar el límite de tiempo de la puesta en firme
@@ -47,7 +47,7 @@ Para activar la puesta en firme automática, siga estos pasos.
 El límite de tiempo de puesta en firme se calcula en adelante desde la fecha de ejecución de programación maestra. Está definido por el número de días que especifique. Puede controlar el límite de tiempo de puesta en firme de las siguientes formas:
 
 - Para definir el límite de tiempo de puesta en firme predeterminado para un grupo de cobertura, vaya **Planificación maestra** \> **Configuración** \> **Cobertura** \> **Grupos de cobertura**, y seleccione un grupo de cobertura. A continuación, en la pestaña desplegable **Otro**, en el campo **Límite de tiempo de puesta en firme automática (días)**, especifique el número de días.
-- Para sobrescribir el límite de tiempo de puesta en firme que se define para el grupo de cobertura para un artículo específico, vaya **Gestión de información de productos** \> **Productos emitidos**, después del panel de acciones seleccione **Plan** y después seleccione **Cobertura de artículos**. A continuación, en la pestaña **General** , seleccione **Límite de tiempo de la anulación** y en el campo **Límite de tiempo de puesta en firme automática (días)**, especifique el número de días.
+- Para sobrescribir el intervalo de tiempo de puesta en firme que se define para el grupo de cobertura para un artículo específico, vaya **Gestión de información de productos** \> **Productos despachados** y, a continuación, desde el panel Acciones, seleccione **Plan** y después seleccione **Cobertura de artículos**. A continuación, en la pestaña **General** , seleccione **Límite de tiempo de la anulación** y en el campo **Límite de tiempo de puesta en firme automática (días)**, especifique el número de días.
 - Para sobrescribir el límite de tiempo de consolidación que se define para el grupo de cobertura y la cobertura de artículos para un plan maestro específico, vaya a **Planificación maestra** \> **Configuración** \> **Planes maestros** y seleccione un plan maestro. A continuación, en la pestaña desplegable **Límite de tiempo en días**, establezca **Congelar** en **Sí** y escriba en número de días.
 
 Si se activa la puesta en firme automática para la ejecución del plan maestro que usa la optimización de la planificación, el proceso de puesta en firme automática se realiza de acuerdo con la configuración de la puesta en firme automática. Si la puesta en firme automática está activada, o si la planificación se inicia desde la página **Requisitos netos**, se omite el proceso de puesta en firme automática.
