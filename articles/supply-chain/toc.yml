@@ -68,14 +68,14 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Novedades o cambios en Supply Chain Management
                   items:
-                    - name: Novedades o cambios de la página principal de Supply Chain Management
+                    - name: Novedades y cambios de la página principal de Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.12 (agosto de 2020)
+                      href: get-started/whats-new-scm-10-0-12.md
                     - name: Supply Chain Management 10.0.11 (julio de 2020)
                       href: get-started/whats-new-scm-10-0-11.md
                     - name: Supply Chain Management 10.0.10 (mayo de 2020)
                       href: get-started/whats-new-scm-10-0-10.md
-                    - name: Supply Chain Management 10.0.9 (abril de 2020)
-                      href: get-started/whats-new-scm-10-0-9.md
                 - name: Características quitadas u obsoletas
                   items:
                     - name: Características quitadas u obsoletas de Dynamics 365 Supply Chain Management
@@ -595,6 +595,8 @@
                   href: cost-management/bom-calculations.md
                 - name: Grupos de cálculo de L. MAT.
                   href: cost-management/bom-calculation-groups.md
+                - name: Nivel de cálculo de costes
+                  href: cost-management/cost-calculation-level.md
                 - name: Contabilización previa de los costes
                   href: cost-management/backflush-costing.md
                 - name: Orígenes comunes de desviaciones de producción
@@ -731,7 +733,7 @@
               items:
                 - name: Crear configuraciones
                   href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Prepare componentes de la solución de informes electrónicos
+                - name: Preparar componentes de la solución de informes electrónicos
                   items:
                     - name: Diseñar modelo de datos específicos del dominio
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/dynamics365/supply-chain/toc.json
@@ -739,7 +741,7 @@
                       items:
                         - name: (ER) preparar metadatos de aplicación para usarlos en RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: (RCS) Acceder a metadatos de aplicación con la configuración de ER
+                        - name: (RCS) Acceder a metadatos de aplicación con la configuración de informes electrónicos
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/dynamics365/supply-chain/toc.json
                         - name: (RCS) Acceder a metadatos de aplicación a través de aplicaciones conectadas
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/dynamics365/supply-chain/toc.json
@@ -751,7 +753,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-configuration-2016-11.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Asignar componentes del formato creado a elementos de modelo de datos
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Probar la solución de ER preparada en la aplicación de destino
+                    - name: Probar la solución de informes electrónicos preparada en la aplicación de destino
                       items:
                         - name: (ER) Importar configuraciones de RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
@@ -1009,9 +1011,9 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/supply-chain/toc.json
                         - name: 'Texto: QrCode'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: 'Texto: Texto'
+                        - name: 'Texto: Text'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Gestionar la asignación de modelos de ER en distintas configuraciones de ER
+            - name: Gestionar la asignación de modelos de informes electrónicos en distintas configuraciones de informes electrónicos
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/supply-chain/toc.json
             - name: Seleccionar definiciones de modelo de datos al crear formatos
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/supply-chain/toc.json
@@ -1045,7 +1047,7 @@
               href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/supply-chain/toc.json
             - name: Definir la dependencia que tienen las configuraciones de informes electrónicos de otros componentes
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Diseñar una solución de ER para usar dimensiones financieras
+            - name: Diseñar una solución de informes electrónicos para usar dimensiones financieras
               items:
                 - name: Diseñar modelos de datos para usar dimensiones financieras como orígenes de datos
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/dynamics365/supply-chain/toc.json
@@ -1055,7 +1057,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Ejecutar informes que utilicen dimensiones financieras como orígenes de datos
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Diseñar formatos de ER para contar y sumar utilizando la información de salida generada
+            - name: Diseñar formatos de informes electrónicos para contar y sumar utilizando la información de salida generada
               items:
                 - name: Crear formatos para realizar recuentos y sumas
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/dynamics365/supply-chain/toc.json
@@ -1073,15 +1075,15 @@
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/supply-chain/toc.json
             - name: Usar archivos de administración de documentos en salidas de formato
               items:
-                - name: Preparar modelos de datos para usar archivos de administración de documentos en salidas de ER
+                - name: Preparar modelos de datos para usar archivos de administración de documentos en salidas de informes electrónicos
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Extender modelos de datos para usar archivos de administración de documentos en salidas de ER
+                - name: Extender modelos de datos para usar archivos de administración de documentos en salidas de informes electrónicos
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Crear formatos para usar archivos de administración de documentos en salidas de ER
+                - name: Crear formatos para usar archivos de administración de documentos en salidas de informes electrónicos
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Ejecutar formatos para usar archivos de administración de documentos en salidas de ER
+                - name: Ejecutar formatos para usar archivos de administración de documentos en salidas de informes electrónicos
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Modificar y ejecutar formatos para usar archivos de administración de documentos en salidas de ER
+                - name: Modificar y ejecutar formatos para usar archivos de administración de documentos en salidas de informes electrónicos
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/supply-chain/toc.json
             - name: Actualizar datos de aplicación mediante informes electrónicos
               items:
@@ -1097,7 +1099,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Generar documentos que tengan datos de la aplicación
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Importar datos de los archivos de entrada mediante soluciones de ER
+            - name: Importar datos de los archivos de entrada mediante soluciones de informes electrónicos
               items:
                 - name: Analizar documentos de entrada en distintos formatos
                   href: ../fin-ops-core/dev-itpro/analytics/er-parse-incoming-documents.md?toc=/dynamics365/supply-chain/toc.json
@@ -1115,9 +1117,9 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md?toc=/dynamics365/supply-chain/toc.json
             - name: Dividir los archivos XML generados según su tamaño y la cantidad de contenido
               href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Admitir llamadas parametrizadas de orígenes de datos de ER del tipo de campo calculado
+            - name: Admitir llamadas parametrizadas de orígenes de datos de informes electrónicos del tipo de campo calculado
               href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Ciclo de vida de la configuración
+            - name: Ciclo de vida de configuración
               items:
                 - name: Administrar el ciclo de vida de las configuraciones
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/dynamics365/supply-chain/toc.json
@@ -1129,7 +1131,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Importar configuraciones
                   href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Descargar configuraciones de ER del repositorio de RCS
+                - name: Descargar configuraciones de informes electrónicos del repositorio de RCS
                   items:
                     - name: Descargar configuraciones del repositorio de informes electrónicos para el tipo RCS
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
@@ -1137,15 +1139,15 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
             - name: Tutoriales
               items:
-                - name: Use los orígenes de datos JOIN para obtener datos de varias tablas de aplicaciones
+                - name: Use los orígenes de datos UNIR para obtener datos de varias tablas de aplicaciones
                   href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Configurar asignaciones de modelo de ER que dependen del contexto del país
+                - name: Configurar asignaciones de modelo de informes electrónicos dependientes del contexto del país
                   href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Configurar formatos de ER para usar parámetros que se especifican por entidad jurídica
+                - name: Configurar formatos de informes electrónicos para usar parámetros especificados por entidad jurídica
                   href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Configurar los parámetros de un formato de ER por entidad jurídica
+                - name: Configurar los parámetros de un formato de informes electrónicos por entidad jurídica
                   href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Aplazar la ejecución de elementos de formato de ER
+                - name: Aplazar la ejecución de elementos de formato de informes electrónicos
                   items:
                     - name: Aplazar la ejecución de un elemento de secuencia
                       href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=/dynamics365/supply-chain/toc.json
@@ -1157,7 +1159,7 @@
                   items:
                     - name: Configurar el marco de informes electrónicos
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Realizar copia de seguridad y recuperar plantillas de ER
+                    - name: Realizar copia de seguridad y recuperar plantillas de informes electrónicos
                       href: ../fin-ops-core/dev-itpro/analytics/er-backup-storage-templates.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Crear proveedores de configuración y marcarlos como activos
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/dynamics365/supply-chain/toc.json
@@ -1181,7 +1183,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Configurar destinos
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Configurar una referencia a un formato de ER
+                - name: Configurar una referencia a un formato de informes electrónicos
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Validar automáticamente los informes generados
                   items:
@@ -1197,7 +1199,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Generar formularios de factura de servicios (FTI) imprimibles
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Realizar un seguimiento de la ejecución de los formatos de ER para solucionar problemas de rendimiento
+                - name: Realizar un seguimiento de la ejecución de los formatos de informes electrónicos para solucionar problemas de rendimiento
                   href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Administración de documentos empresariales
                   items:
@@ -1341,13 +1343,15 @@
                   href: master-planning/planning-optimization/negative-on-hand.md
                 - name: Introducción a la optimización de la planificación
                   href: master-planning/planning-optimization/get-started.md
-                - name: Análisis de idoneidad de optimización de la planificación
+                - name: Análisis de idoneidad de Optimización de planificación
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
                 - name: Aplicar filtros a un plan
                   href: master-planning/planning-optimization/plan-filters.md
+                - name: Planificación maestra con acuerdos comerciales de compra
+                  href: master-planning/planning-optimization/purchase-trade-agreement.md
                 - name: Ver historial del plan y registros de planificación
                   href: master-planning/planning-optimization/plan-history-logs.md
-                - name: Puesta en firme automática con la optimización de la planificación
+                - name: Puesta en firme automática con Optimización de planificación
                   href: master-planning/planning-optimization/planning-optimization-auto-firming.md
                 - name: Cancelar un trabajo de planificación
                   href: master-planning/planning-optimization/cancel-planning-job.md
@@ -1985,11 +1989,13 @@
                           href: production-control/tasks/report-production-order-finished.md
                         - name: Finalizar un pedido de producción
                           href: production-control/tasks/end-production-order.md
-                    - name: Liberar pedidos de producción
+                    - name: Despachar pedidos de producción
                       href: production-control/release-production-orders.md
                     - name: Notificar pedidos de producción como terminados
                       href: production-control/report-production-orders-as-finished.md
-                    - name: Notificar como terminado a una ubicación controlada por matrícula
+                    - name: Configurar tarjeta de trabajo para dispositivos
+                      href: production-control/config-job-card-device.md
+                    - name: Notificar como terminado desde el dispositivo de tarjetas de trabajo
                       href: production-control/report-finished-job-device.md
                     - name: Invertir el estado de un pedido de producción
                       href: production-control/reverse-production-order-status.md
@@ -2257,8 +2263,18 @@
               items:
                 - name: Registrar comisiones de ventas
                   href: sales-marketing/tasks/register-sales-commissions.md
-                - name: Configurar reglas de comisión de ventas
+                - name: Configurar reglas de comisiones de ventas
                   href: sales-marketing/tasks/set-up-sales-commission-rules.md
+            - name: Sección de clientes de Dynamics 365 Supply Chain Management
+              items:
+                - name: Visión general de la sección de clientes
+                  href: sales-marketing/customer-portal-overview.md
+                - name: 'Instalar, configurar y actualizar la sección de clientes'
+                  href: sales-marketing/customer-portal-setup.md
+                - name: Crear y administrar usuarios de la sección de clientes
+                  href: sales-marketing/customer-portal-user-admin.md
+                - name: Personalizar y usar la sección de clientes
+                  href: sales-marketing/customer-portal-customize.md
             - name: Concesión de comercialización
               href: sales-marketing/trade-allowance.md
             - name: Crear un nuevo acuerdo comercial
@@ -2655,9 +2671,11 @@
                   href: warehousing/partial-location-cycle-counting.md
                 - name: Definir proceso de recuento cíclico de ubicaciones parcial
                   href: warehousing/tasks/define-partial-location-cycle-counting-process.md
+                - name: Trabajo de limpieza de entradas disponibles de gestión de almacenes
+                  href: warehousing/onhand-cleanup.md
                 - name: Diario de inventario
                   href: inventory/inventory-journals.md
-                - name: Ubicación del inventario
+                - name: Ubicación de inventario
                   href: inventory/inventory-locations.md
                 - name: Estado de inventario
                   href: inventory/inventory-statuses.md
