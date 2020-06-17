@@ -12,8 +12,10 @@
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Novedades y cambios en Platform updates
               items:
-                - name: Página principal de Novedades y cambios en Platform updates
+                - name: Novedades y cambios en la página principal de Platform update
                   href: get-started/whats-new-home-page.md
+                - name: Platform updates para 10.0.12 (agosto de 2020)
+                  href: get-started/whats-new-platform-update-10-0-12.md
                 - name: Platform updates para 10.0.11 (julio de 2020)
                   href: get-started/whats-new-platform-update-35.md
                 - name: Platform updates para 10.0.10 (mayo de 2020)
@@ -198,7 +200,9 @@
                               href: data-entities/dual-write/in-house-assets.md
                             - name: 'Trabajador integrado, trabajo y puesto'
                               href: data-entities/dual-write/integrated-hr.md
-                        - name: Compatibilidad para doble escritura
+                            - name: Disponibilidad de inventario
+                              href: data-entities/dual-write/inventory-availability.md
+                        - name: Compatibilidad para escritura dual
                           items:
                             - name: Compatibilidad para soluciones de Field Service y soluciones de Project Service Automation
                               href: data-entities/dual-write/field-service-project-service-automation.md
@@ -452,9 +456,9 @@
                   href: ../fin-ops/imp-lifecycle/architecture-overview.md
                 - name: Aplicar actualizaciones a entornos de nube
                   href: deployment/apply-deployable-package-system.md
-                - name: Aplicar actualizaciones y extensiones para componentes de canal de Retail hospedado en la nube
+                - name: Aplicar actualizaciones y extensiones a Commerce Scale Unit (nube)
                   href: deployment/Update-retail-channel.md
-                - name: Inicializar Retail Cloud Scale Unit
+                - name: Inicializar Commerce Scale Unit (nube)
                   href: deployment/Initialize-Retail-Channels.md
                 - name: Residencia de datos de Retail
                   href: deployment/retail-data-residency.md
@@ -488,6 +492,8 @@
                       href: deployment/certificate-rotation-on-prem.md
                     - name: Conectividad a Internet de los clientes
                       href: user-interface/client-disconnected.md
+                    - name: Configurar nodos AOS solo por lotes y solo interactivos en implementaciones locales
+                      href: deployment/onprem-batchonly.md
                     - name: Configurar servidores proxy para entornos locales
                       href: deployment/onprem-reverseproxy.md
                     - name: Diagnósticos locales
@@ -646,11 +652,11 @@
                   href: dev-tools/debug-xpp.md
                 - name: Clases EventHandlerResult en escenarios de solicitud o respuesta
                   href: dev-tools/event-handler-result-class.md
-                - name: 'Escribir la lógica de negocios mediante el código fuente C# y X++'
+                - name: Escribir la lógica de negocios mediante el código fuente C# y X++
                   href: dev-tools/write-business-logic.md
                 - name: Cambios en X++ y el compilador X++
                   href: dev-tools/programming-language-support.md
-                - name: 'Proveedor de LINQ para C#'
+                - name: Proveedor de LINQ para C#
                   href: dev-tools/linq-provider-c.md
                 - name: Escribir reglas de prácticas recomendadas
                   href: dev-tools/author-best-practice-rules.md
@@ -710,7 +716,7 @@
                       href: dev-ref/xpp-macros.md
                     - name: Clases de atributo de X++
                       href: dev-ref/xpp-attribute-classes.md
-                    - name: 'Comparación de X++ y C#'
+                    - name: Comparación de X++ y C#
                       href: dev-ref/xpp-cs-comparison.md
                     - name: Sintaxis de X++
                       href: dev-ref/xpp-syntax.md
@@ -1046,8 +1052,10 @@
                   href: lifecycle-services/known-issues.md
                 - name: Características quitadas u obsoletas en Lifecycle Services (LCS)
                   href: lifecycle-services/removed-deprecated-features.md
-            - name: Manual del usuario de Lifecycle Services
+            - name: Guía del usuario de Lifecycle Services
               href: lifecycle-services/lcs-user-guide.md
+            - name: Incorporación de proyecto
+              href: lifecycle-services/project-onboarding.md
             - name: Calculador de suscripción
               href: lifecycle-services/subscription-estimator.md
             - name: Configurar la seguridad
@@ -1118,6 +1126,20 @@
                   href: lifecycle-services/use-translation-service-ua.md
                 - name: Archivos de memoria de traducción
                   href: lifecycle-services/use-translation-service-tm.md
+        - name: Integración de Microsoft Power Platform
+          items:
+            - name: Integración de Microsoft Power Platform con Finance and Operations
+              href: power-platform/overview.md
+            - name: Modelado de entidades
+              href: power-platform/entity-modeling.md
+            - name: Administración de ciclo de vida de la aplicación
+              href: power-platform/application-lifecycle-management.md
+            - name: Referencia de administrador de Finance and Operations y Common Data Service
+              href: power-platform/admin-reference.md
+            - name: Portales de Power Apps con Finance and Operations
+              href: power-platform/power-portal-reference.md
+            - name: Preguntas frecuentes sobre entidades virtuales de Finance and Operations
+              href: power-platform/faq.md
         - name: Plataforma móvil
           items:
             - name: Recursos de plataforma móvil
@@ -1326,13 +1348,11 @@
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
         - name: Regression Suite Automation Tool
           items:
-            - name: Visión general de Regression Suite Automation Tool
+            - name: introducción a Regression Suite Automation Tool
               href: perf-test/rsat/rsat-overview.md
             - name: Instalación y configuración
               href: perf-test/rsat/rsat-install-configure.md
-            - name: Prueba independiente de datos mediante Regression Suite Automation Tool
-              href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
-            - name: Ejecutar casos de prueba
+            - name: Usar Regression Suite Automation Tool
               href: perf-test/rsat/rsat-run.md
             - name: Validar valores esperados
               href: perf-test/rsat/rsat-validate-expected.md
@@ -1340,10 +1360,12 @@
               href: perf-test/rsat/rsat-chain-test-cases.md
             - name: Casos de prueba derivados
               href: perf-test/rsat/rsat-derived-test-cases.md
-            - name: Usar el tutorial de Regression Suite Automation Tool
+            - name: Tutorial de Regression Suite Automation Tool y otras características
               href: ../fin-ops/get-started/hol-use-regression-suite-automation-tool.md
             - name: Prácticas recomendadas
               href: perf-test/rsat/rsat-best-practices.md
+            - name: Prueba independiente de datos mediante Regression Suite Automation Tool
+              href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
             - name: Solución de problemas
               href: perf-test/rsat/rsat-troubleshooting.md
         - name: Lanzar soluciones mediante Lifecycle Services
@@ -1442,6 +1464,8 @@
                   href: sysadmin/copy-batch-job.md
                 - name: Períodos de lotes activos
                   href: sysadmin/activeperiod.md
+                - name: Compatibilidad del horario de verano para períodos de lotes activos
+                  href: sysadmin/batch-active-period-dst.md
                 - name: Rol de seguridad de administrador de lotes
                   href: sysadmin/runby.md
                 - name: Trabajo por lotes para administrar la desfragmentación del índice de SQL
