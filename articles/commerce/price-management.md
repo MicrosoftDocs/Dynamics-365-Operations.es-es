@@ -3,7 +3,7 @@ title: Administración de precio de ventas minoristas
 description: En este tema se describen los conceptos para crear y administrar precios de ventas en Dynamics 365 Commerce.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-retail
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1eb0b218b9008b255cc5a09eefb8c7fa35836cd7
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 84d673bef8597bd7d376c5c74737d5c7db247759
+ms.sourcegitcommit: 97206552616b248f88e516fea08b3f059257e8d1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057496"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3432010"
 ---
 # <a name="retail-sales-price-management"></a>Administración de precios de venta minorista
 
@@ -53,7 +53,9 @@ La siguiente ilustración muestra cómo se utilizan los grupos de precios. En es
 
 Al crear grupos de precios, no debe utilizar un único grupo de precios para varios tipos de entidades comerciales. De lo contrario, puede resultar difícil determinar por qué un precio o descuento específico se está aplicando a una transacción.
 
-Como muestra la línea discontinua roja en la ilustración, Commerce no admite la funcionalidad principal de Microsoft Dynamics 365 de un grupo de precios que se establece directamente en un cliente. Sin embargo, en este caso, solo obtiene acuerdos comerciales de precios de venta. Si desea aplicar los precios específicos del cliente, le recomendamos que no establezca grupos de precio directamente en el cliente. En su lugar, debe utilizar afiliaciones.
+Como muestra la línea discontinua roja en la ilustración, Commerce no admite la funcionalidad principal de Microsoft Dynamics 365 de un grupo de precios que se establece directamente en un cliente. Sin embargo, en este caso, solo obtiene acuerdos comerciales de precios de venta. Si desea aplicar los precios específicos del cliente, le recomendamos que no establezca grupos de precio directamente en el cliente. En su lugar, debe utilizar afiliaciones. 
+
+Tenga en cuenta que si el grupo de precios se establece en el cliente, este grupo de precios se asocia al encabezado del pedido de ventas de los pedidos creados para este cliente. Si el usuario cambia el grupo de precios en el encabezado del pedido, el grupo de precios anterior se reemplaza por el nuevo grupo de precios solo para el pedido actual. Por ejemplo, el antiguo grupo de precios no afectará al pedido actual, pero seguirá estando asociado al cliente para futuros pedidos.
 
 Las secciones siguientes proporcionan más información acerca de las entidades comerciales que puede usar para establecer precios distintos cuando se utilizan grupos de precios. La configuración de precios y descuentos para todas estas entidades es un proceso de dos pasos. Estos pasos se pueden realizar en cualquier pedido. Sin embargo, el pedido lógica es establecer primero los grupos de precios en las entidades, ya es probable que este paso sea una configuración única que se realiza durante la implementación. A continuación, cuando se crean los precios y descuentos, puede establecer de manera individual los grupos de precios en estos precios y descuentos.
 
@@ -76,7 +78,7 @@ En relación con los precios y descuentos, los programas de fidelidad son básic
 
 Los programas de fidelidad pueden tener varios niveles, y los descuentos pueden ser diferentes para distintos niveles. De esta manera, los minoristas pueden dar mayores recompensas a clientes frecuentes sin tener que meter manualmente a estos clientes en un grupo especial.
 
-Además de los precios y descuentos, los programas de fidelidad tienen funciones adicionales. Sin embargo, desde la perspectiva de los precios y descuentos, son las mismas que las afiliaciones.
+Además de los precios y descuentos, los programas de fidelidad tienen funcións adicionales. Sin embargo, desde la perspectiva de los precios y descuentos, son las mismas que las afiliaciones.
 
 ### <a name="catalogs"></a>Catálogos
 
@@ -96,11 +98,11 @@ El precio y un descuento pueden proceder de dos prioridades de precios diferente
 
 Para utilizar una prioridad de precios para los precios, debe asignar una prioridad de precios a un grupo de precios y luego crear un acuerdo comercial de precio de ventas para ese grupo de precios.
 
-La función de prioridad de precios se introdujo para admitir el escenario en el que un minorista desea aplicar precios mayores en un conjunto específico de tiendas. Por ejemplo, un minorista ha definido precios regionales para la costa este de los Estados Unidos, pero desea precios mayores para algunos productos en las tiendas de Nueva York, ya que cuesta más vender algunos productos en la ciudad, y/o porque el mercado local tendrá un precio más alto.
+La característica de prioridad de precios se introdujo para admitir el escenario en el que un minorista desea aplicar precios mayores en un conjunto específico de tiendas. Por ejemplo, un minorista ha definido precios regionales para la costa este de los Estados Unidos, pero desea precios mayores para algunos productos en las tiendas de Nueva York, ya que cuesta más vender algunos productos en la ciudad, y/o porque el mercado local tendrá un precio más alto.
 
-Como se describió en la sección "Mejor precio" de este tema, el motor de precios selecciona normalmente el precio más bajo de los dos. Por lo tanto, normalmente se impide al minorista usar el precio más alto de los dos en una tienda que tiene los grupos de precios del Nordeste y de Nueva York. Para resolver este problema antes de que se introduzca la función de prioridad de precios, el minorista tenía que definir los precios para cada producto dos veces y no asignar ambos grupos de precios. De manera alternativa, el minorista tuvo que crear grupos de precios adicionales para aislar los productos con precios más altos que los productos que tienen los precios habituales y más bajos.
+Como se describió en la sección "Mejor precio" de este tema, el motor de precios selecciona normalmente el precio más bajo de los dos. Por lo tanto, normalmente se impide al minorista usar el precio más alto de los dos en una tienda que tiene los grupos de precios del Nordeste y de Nueva York. Para resolver este problema antes de que se introduzca la característica de prioridad de precios, el minorista tenía que definir los precios para cada producto dos veces y no asignar ambos grupos de precios. De manera alternativa, el minorista tuvo que crear grupos de precios adicionales para aislar los productos con precios más altos que los productos que tienen los precios habituales y más bajos.
 
-Sin embargo, la función de prioridad de precios permite al minorista crear una prioridad de precios para precios de tienda que sea mayor que la prioridad de precio para precios regionales. De manera alternativa, el minorista puede crear una prioridad de precios solo para precios de tienda y dejar los precios regionales en la prioridad de precios predeterminada, que es 0 (cero). Ambas configuraciones ayudan a garantizar que los precios de tienda se utilizan siempre antes que los precios regionales.
+Sin embargo, la característica de prioridad de precios permite al minorista crear una prioridad de precios para precios de tienda que sea mayor que la prioridad de precio para precios regionales. De manera alternativa, el minorista puede crear una prioridad de precios solo para precios de tienda y dejar los precios regionales en la prioridad de precios predeterminada, que es 0 (cero). Ambas configuraciones ayudan a garantizar que los precios de tienda se utilizan siempre antes que los precios regionales.
 
 ### <a name="pricing-priority-example"></a>Ejemplo de prioridad de precios
 
@@ -179,7 +181,7 @@ El precio activo se calcula tomando el precio del acuerdo comercial y aplicando 
 
 ## <a name="category-price-rules"></a>Reglas de precios de categoría
 
-La función de reglas de precios de categorías en Commerce le brinda una forma sencilla de crear nuevos acuerdos comerciales para todos los productos en una categoría. Esta función también le permite encontrar automáticamente acuerdos comerciales existentes para los productos de la categoría y caducarlos.
+La característica de reglas de precios de categorías en Commerce le brinda una forma sencilla de crear nuevos acuerdos comerciales para todos los productos en una categoría. Esta característica también le permite encontrar automáticamente acuerdos comerciales existentes para los productos de la categoría y caducarlos.
 
 Al seleccionar la opción de caducar los acuerdos comerciales existentes, el sistema crea un nuevo diario de acuerdos comerciales para los productos de la categoría que tenga un acuerdo comercial activo. Sin embargo, el diario debe registrarse manualmente. Además, las reglas del precio de categoría puede encontrar acuerdos comerciales existentes solo si usa la misma regla de precios (es decir, si crea una nueva regla de precios que emplea la misma categoría que antes). Si no utiliza la misma regla de precios, los acuerdos comerciales existentes no caducarán.
 
@@ -226,8 +228,9 @@ El motor de precios **no admite** las siguientes características de precios:
 - Establecer precios por sitio o por dimensiones de almacenamiento de sitio o almacén. Si solo especifica la dimensión del sitio en los acuerdos comerciales, el motor de precios omitirá el sitio y aplicará el acuerdo comercial a todos los sitios. Si especifica tanto el sitio como el almacén, el comportamiento será indefinido/no probado porque se espera que los minoristas utilicen los grupos de precios de la tienda para controlar los precios de cada tienda o almacén.
 - No se admiten precios basados en atributos.
 - No se admite la transferencia de descuentos de proveedor.
+- El motor de precios estándar de Supply Chain Management admite el cálculo de precios basado en la "Fecha de envío solicitada" y la "Fecha de recepción solicitada", junto con la fecha actual. Sin embargo, los precios minoristas actualmente no son compatibles con estos valores. La razón es que para los escenarios B2C los clientes no esperan que la fecha de entrega solicitada afecte el precio del artículo. En algunos casos, los minoristas tienen operaciones B2B y B2C. Para operaciones B2B, es común cambiar los precios en función de las fechas de entrega. Estos minoristas pueden usar los precios de Supply Chain Management para sus negocios B2B y precios minoristas para sus negocios B2C. El precio minorista solo se aplica si el usuario de la aplicación se agrega como usuario del centro de llamadas, por lo que los minoristas pueden asignar ciertos usuarios que trabajarán con los precios de Supply Chain Management y asignar algunos que funcionarán con el precio minorista, es decir, estos usuarios debe agregarse como usuarios de un centro de llamadas. Además, la propiedad **Usar la fecha de hoy para calcular precios** de la sección **Parámetros de Commerce > Precios y descuentos > Varios** debe estar activada. De esta manera, pueden mantener el valor del parámetro de clientes usando para la fecha de envío solicitada o la fecha de recepción solicitada para los precios de Supply Chain Management, pero los precios minoristas seguirán usando la fecha de hoy para el cálculo de precios.
 
-Además, el motor de precios **solo** admite las siguientes funciones:
+Además, el motor de precios **solo** admite las siguientes características:
 
 - El precio se basa en dimensiones del producto, en orden desde el precio variable más específico al precio variable menos específico para el precio del producto maestro. Un precio que se establece mediante el uso de dos dimensiones del producto (por ejemplo, Color y Tamaño) se utiliza antes que un precio que se establece usando solo una dimensión del producto (por ejemplo, Tamaño).
 - Se puede utilizar el mismo grupo de precios para controlar precios y descuentos.

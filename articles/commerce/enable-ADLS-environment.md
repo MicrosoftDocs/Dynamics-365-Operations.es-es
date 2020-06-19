@@ -1,6 +1,6 @@
 ---
-title: Habilitar ADLS en un entorno de Dynamics 365 Commerce
-description: Este tema explica cómo habilitar y probar Azure Data Lake Storage (ADLS) para un entorno de Dynamics 365 Commerce, que es un requisito previo para habilitar las recomendaciones de productos.
+title: 'Habilitar Azure Data Lake Storage en un entorno Dynamics 365 Commerce '
+description: Este tema explica cómo habilitar y probar Azure Data Lake Storage para un entorno Dynamics 365 Commerce, que es un requisito previo para habilitar las recomendaciones de productos.
 author: bebeale
 manager: AnnBe
 ms.date: 04/13/2020
@@ -19,57 +19,57 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ba428765babb9ca7566da7a457368959b1c29083
-ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
+ms.openlocfilehash: 83b829306c2da2d10924e547fd3cac6ae6781db3
+ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "3259757"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3404195"
 ---
-# <a name="enable-adls-in-a-dynamics-365-commerce-environment"></a>Habilitar ADLS en un entorno de Dynamics 365 Commerce
+# <a name="enable-azure-data-lake-storage-in-a-dynamics-365-commerce-environment"></a>Habilitar Azure Data Lake Storage en un entorno Dynamics 365 Commerce 
 
 [!include [banner](includes/banner.md)]
 
-Este tema explica cómo habilitar y probar Azure Data Lake Storage (ADLS) para un entorno de Dynamics 365 Commerce, que es un requisito previo para habilitar las recomendaciones de productos.
+Este tema explica cómo habilitar y probar Azure Data Lake Storage para un entorno Dynamics 365 Commerce, que es un requisito previo para habilitar las recomendaciones de productos.
 
 ## <a name="overview"></a>Visión general
 
-En la solución Dynamics 365 Commerce, toda la información de productos y transacciones se rastrea en el almacén de entidades del entorno. Para hacer que estos datos sean accesibles a otros servicios de Dynamics 365, como análisis de datos, inteligencia empresarial y recomendaciones personalizadas, es necesario conectar el entorno a una solución Gen 2 (ADLS) Azure Data Lake Storage del cliente.
+En la solución Dynamics 365 Commerce, toda la información de productos y transacciones se rastrea en el almacén de entidades del entorno. Para hacer que estos datos sean accesibles a otros servicios de Dynamics 365, como análisis de datos, inteligencia empresarial y recomendaciones personalizadas, es necesario conectar el entorno a una solución Gen 2 de Azure Data Lake Storage propiedad del cliente.
 
-A medida que ADLS se configura en un entorno, todos los datos necesarios se reflejan desde el almacén de entidades mientras se protegen y están bajo el control del cliente.
+A medida que Azure Data Lake Storage se configura en un entorno, todos los datos necesarios se reflejan desde el almacén de entidades mientras siguen estando protegidos y bajo el control del cliente.
 
-Si las recomendaciones del producto o las recomendaciones personalizadas también están habilitadas en el entorno, la pila de recomendaciones del producto tendrá acceso a la carpeta dedicada de ADLS para recuperar los datos del cliente y calcular las recomendaciones a partir de ahí.
+Si las recomendaciones del producto o las recomendaciones personalizadas también están habilitadas en el entorno, la pila de recomendaciones del producto tendrá acceso a la carpeta dedicada de Azure Data Lake Storage para recuperar los datos del cliente y calcular las recomendaciones a partir de ahí.
 
 ## <a name="prerequisites"></a>Requisitos previos
 
-Los clientes deben tener ADLS configurado en una suscripción de Azure que posean. Este tema no cubre la compra de una suscripción de Azure ni la configuración de una cuenta de almacenamiento habilitada para ADLS.
+Los clientes deben tener Azure Data Lake Storage configurado en una suscripción de Azure que posean. Este tema no cubre la compra de una suscripción de Azure ni la configuración de una cuenta de almacenamiento habilitada para Azure Data Lake Storage.
 
-Para obtener más información acerca de ADLS, consulte la [documentación oficial de ADLS](https://azure.microsoft.com/pricing/details/storage/data-lake).
+Para obtener más información acerca de Azure Data Lake Storage, consulte la [Documentación oficial Gen2 de Azure Data Lake Storage](https://azure.microsoft.com/pricing/details/storage/data-lake).
   
 ## <a name="configuration-steps"></a>Pasos de configuración
 
-Esta sección cubre los pasos de configuración necesarios para habilitar ADLS en un entorno en relación con las recomendaciones del producto.
-Para obtener una descripción más detallada de los pasos necesarios para habilitar ADLS, vea [Hacer que el almacén de entidades esté disponible como Data Lake](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
+Esta sección cubre los pasos de configuración necesarios para habilitar Azure Data Lake Storage en un entorno en relación con las recomendaciones del producto.
+Para obtener una descripción más detallada de los pasos necesarios para habilitar Azure Data Lake Storage, consulte [Hacer que el almacén de entidades esté disponible como Data Lake](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
 
-### <a name="enable-adls-in-the-environment"></a>Habilitar ADLS en el entorno
+### <a name="enable-azure-data-lake-storage-in-the-environment"></a>Habilitar Azure Data Lake Storage en el entorno
 
 1. Inicie sesión en el portal de back office del entorno.
 1. Busque **Parámetros del sistema** y navegar a la pestaña **Conexiones de datos**. 
 1. Establezca **Habilitar la integración de Data Lake** en **Sí**.
 1. Establezca **Actualización por goteo de Data Lake** en **Sí**.
 1. Especifique la siguiente información necesaria:
-    1. **Id. de aplicación** // **Secreto de la aplicación** // **Nombre DNS** - Necesario para conectarse a KeyVault, donde se almacena el secreto ADLS.
-    1. **Nombre de secreto** - El nombre secreto almacenado en KeyVault que se usa para autenticarse con ADLS.
+    1. **Id. de aplicación** // **Secreto de la aplicación** // **Nombre DNS**: necesario para conectarse a KeyVault, donde se almacena el secreto de Azure Data Lake Storage.
+    1. **Nombre secreto**: nombre secreto almacenado en KeyVault que se usa para autenticarse con Azure Data Lake Storage.
 1. Guarde sus cambios en la esquina superior izquierda de la página.
 
-En la imagen siguiente se muestra un ejemplo de configuración de ADLS.
+En la imagen siguiente se muestra un ejemplo de configuración de Azure Data Lake Storage.
 
-![Ejemplo de configuración de ADLS](./media/exampleADLSConfig1.png)
+![Ejemplo de configuración de Azure Data Lake Storage](./media/exampleADLSConfig1.png)
 
-### <a name="test-the-adls-connection"></a>Probar la conexión ADLS
+### <a name="test-the-azure-data-lake-storage-connection"></a>Probar la conexión de Azure Data Lake Storage
 
 1. Pruebe la conexión con KeyVault utilizando el vínculo **Prueba de Azure Key Vault**.
-1. Pruebe la conexión con ADLS utilizando el vínculo **Probar Azure Storage**.
+1. Pruebe la conexión con Azure Data Lake Storage utilizando el vínculo **Probar Azure Storage**.
 
 > [!NOTE]
 > Si las pruebas fallan, verifique que toda la información de KeyVault agregada anteriormente sea correcta, luego inténtelo nuevamente.
@@ -86,7 +86,7 @@ La siguiente imagen muestra un ejemplo de almacén de entidades con la actualiza
 
 ![Ejemplo de almacén de entidades con actualización automática habilitada](./media/exampleADLSConfig2.png)
 
-ADLS ahora está configurado para el entorno. 
+Azure Data Lake Storage ya está configurado para el entorno. 
 
 Si aún no se ha completado, siga los pasos para [habilitar las recomendaciones de productos y la personalización](enable-product-recommendations.md) para el entorno.
 

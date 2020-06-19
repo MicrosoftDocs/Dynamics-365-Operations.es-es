@@ -11,12 +11,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c66b25e941d9492c9749043b65c929c9b81db641
-ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
+ms.openlocfilehash: ad0f33aae7651dff4f424a047eccabd691a99d83
+ms.sourcegitcommit: 840230f3dc500852791953d05c2737dd539ed0b3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3279090"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "3418575"
 ---
 # <a name="administrators-learning-catalog"></a>Catálogo de aprendizaje para administradores
 
@@ -30,7 +30,7 @@ El catálogo siguiente se organiza desde los conocimientos básicos a los domini
 |-----------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|
 | [Aspectos básicos de Dynamics 365 y Power Platform](https://docs.microsoft.com/learn/paths/dyn-power-plat-bus-app-fundamentals/) | ¿Está interesado obtener información sobre las aplicaciones empresariales? Empiece con esta ruta de aprendizaje para ver cómo se usan las aplicaciones Dynamics 365. Obtenga sobre los conceptos de la nube, Power Platform y cómo empezar a utilizar las aplicaciones Dynamics 365.  | Ruta de aprendizaje flexible, a su propio ritmo y en línea  | 5.5 horas |
 | [Introducción a las aplicaciones de Finance and Operations](https://docs.microsoft.com/learn/paths/get-started-finance-operations/)      | Obtenga información sobre cómo las aplicaciones de Finance and Operations respaldan a las empresas para que gestionen sus sistemas financieras globales, procesos de negocio y operativos, y cadenas de suministro ágiles para capacitar a las personas para tomar decisiones informadas y rápidas. Como paso inicial en su trayectoria de trabajo con aplicaciones de Finance and Operations, debe familiarizarse con sus características y funcionalidades, independientemente del rol que desee. | Ruta de aprendizaje flexible, a su propio ritmo y en línea   | 2 horas   |
-| [Curso MB-900T01-A: aspectos fundamentales de Dynamics 365](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01)   | En este curso, el alumno se familiarizará con la funcionalidad de y el valor de negocio de Dynamics 365. El curso tratará de las aplicaciones de Dynamics 365, Power Platform, los conceptos de la nube, el modelo de seguridad y consideraciones sobre licencias.  | Formación con presencial con instructor o en línea; el coste varía según región y socio | 1 día     |
+
 
 
 ## <a name="core-platform-knowledge"></a>Conocimiento sobre la plataforma central<a name="core-platform-knowledge"></a>
@@ -60,7 +60,7 @@ El catálogo siguiente se organiza desde los conocimientos básicos a los domini
 | [Finance and Operations: actualización de 7.x a 8+ (DYN519PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-upgrading-from-7-x-to-8-10-30-18)                                    | Participe en la próxima charla técnica, durante la cual abordaremos el proceso de actualización de la versión 7.x a la 8.x. Hablaremos de los diferentes escenarios y pasos a ejecutar para la actualización de código y los datos. También abordaremos escenarios de solicitud de extensibilidad y cómo activarlas si resulta apropiado. | Registro flexible de conferencias web | 61 minutos |
 | [Cómo actualizar a 7.2 (julio de 2017) desde 7.0 (RTW)/7.1 (versión 1611) (DYN338PAL2)](https://community.dynamics.com/365/b/techtalks/posts/how-to-upgrade-to-7-2-july-2017-from-7-0-rtw-7-1-release-1611-august-3-2017) | En esta sesión explicaremos cómo actualizar desde la versión 7.0 (RTW) y 7.1 (1611) de la aplicación Dynamics 365 Finance and Operations a la versión 7.2 (julio de 2017). Establecemos una clara diferencia entre los clientes de los proyectos que están ejecutando y los que no.  | Registro flexible de conferencias web | 58 minutos |
 | [Actualización de AX2012 a Dynamics 365 for Operations (VIR817PAL2)](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | Esta charla técnica proporcionará una visión general sobre cómo actualizar el código y las datos de Dynamics AX 2012 a Dynamics 365 for Operations.  | Registro flexible de conferencias web | 45 minutos |
-| [Herramientas de migración de AX2009 a Dynamics 365 for Operations (VIR809PAL)](https://community.dynamics.com/365/b/techtalks/posts/ax2009-to-dynamics-365-for-operations-migration-tools-march-2-2017)  | Esta sesión abordará las herramientas disponibles para ayudarle a migrar de AX2009 a D365 for Operations.  | Registro flexible de conferencias web | 55 minutos |
+| [Herramientas de migración de AX2009 a Dynamics 365 for Operations (VIR809PAL) ](https://community.dynamics.com/365/b/techtalks/posts/ax2009-to-dynamics-365-for-operations-migration-tools-march-2-2017)  | Esta sesión abordará las herramientas disponibles para ayudarle a migrar de AX2009 a D365 for Operations.  | Registro flexible de conferencias web | 55 minutos |
 
 
 ## <a name="servicing"></a>Servicio<a name="servicing"></a>

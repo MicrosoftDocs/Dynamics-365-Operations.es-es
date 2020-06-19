@@ -16,30 +16,30 @@ ms.search.region: Global
 ms.author: v-olbara
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: e879ec53a88e5e30257608cba7604b404ac2368a
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: e11ccdf138adbf05ae1fc8ef739687b9212ae1fe
+ms.sourcegitcommit: 52ba8d3e6af72df5dab6c04b9684a61454d353ad
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383856"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3403344"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Configurar directivas de consolidación de envíos
 
 [!include [banner](../includes/banner.md)]
 
-El proceso de consolidación de envíos que utiliza directivas de consolidación de envíos permite la consolidación automatizada de envíos durante la liberación automática y manual al almacén. Después de activar esta función, debe configurar sus directivas iniciales. Si no se configuran directivas, cada línea de ventas generará un envío separado que tiene una sola línea de carga.
+El proceso de consolidación de envíos que utiliza directivas de consolidación de envíos permite la consolidación automatizada de envíos durante la liberación automática y manual al almacén. Después de activar esta característica, debe configurar sus directivas iniciales. Si no se configuran directivas, cada línea de ventas generará un envío separado que tiene una sola línea de carga.
 
 Los escenarios que se presentan en este tema muestran cómo configurar directivas de consolidación de envío predeterminadas y personalizadas.
 
-## <a name="turn-on-the-shipment-consolidation-policies-feature"></a>Active la función Directivas de consolidación de envíos
+## <a name="turn-on-the-shipment-consolidation-policies-feature"></a>Active la característica Directivas de consolidación de envíos
 
 > [!IMPORTANT]
-> En el [primer escenario](#scenario-1) que se describe en este tema, primero configurará un almacén para que use la función de consolidación de envíos anterior. Luego, hará que las directivas de consolidación de envíos estén disponibles. De esta manera, puede experimentar cómo funciona el escenario de actualización. Si planea utilizar un entorno de datos de demostración para pasar por el primer escenario, no active la función antes de pasar por el escenario.
+> En el [primer escenario](#scenario-1) que se describe en este tema, primero configurará un almacén para que use la característica de consolidación de envíos anterior. Luego, hará que las directivas de consolidación de envíos estén disponibles. De esta manera, puede experimentar cómo funciona el escenario de actualización. Si planea utilizar un entorno de datos de demostración para pasar por el primer escenario, no active la característica antes de pasar por el escenario.
 
-Antes de poder usar la función *Directivas de consolidación de envíos*, debe activarla en su sistema. Los administradores pueden usar la configuración de [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la función y activarla. En el espacio de trabajo **Administración de funciones**, la función aparece de la siguiente forma:
+Antes de poder usar la característica *Directivas de consolidación de envíos*, debe activarla en su sistema. Los administradores pueden usar la configuración de [gestión de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y activarla. En el espacio de trabajo **Administración de características**, la característica aparece de la siguiente forma:
 
 - **Módulo:** *Gestión de almacén*
-- **Nombre de la función:** *Consolidar envío*
+- **Nombre de la característica:** *Consolidar envío*
 
 ## <a name="make-demo-data-available"></a>Hacer que los datos de demostración estén disponibles
 
@@ -47,14 +47,14 @@ Cada escenario de este tema hace referencia a valores y registros que se incluye
 
 ## <a name="scenario-1-configure-default-shipment-consolidation-policies"></a><a name="scenario-1"></a>Escenario 1: configurar directivas de consolidación de envíos predeterminadas
 
-Hay dos situaciones en las que debe configurar el número mínimo de directivas predeterminadas después de activar la función *Directivas de consolidación de envíos*.
+Hay dos situaciones en las que debe configurar el número mínimo de directivas predeterminadas después de activar la característica *Directivas de consolidación de envíos*.
 
 - Está actualizando un entorno que ya contiene datos.
 - Está configurando un entorno completamente nuevo.
 
 ### <a name="upgrade-an-environment-where-warehouses-are-already-configured-for-cross-order-consolidation"></a>Actualice un entorno donde los almacenes ya están configurados para la consolidación de pedidos cruzados
 
-Cuando comienza este procedimiento, la función *Directivas de consolidación de envíos* debería estar desactivada, para simular un entorno en el que ya se haya utilizado la función básica de consolidación de orden cruzado. Luego usará la administración de funciones para activar la función, de modo que pueda aprender cómo configurar directivas de consolidación de envíos después de la actualización.
+Cuando comienza este procedimiento, la característica *Directivas de consolidación de envíos* debería estar desactivada, para simular un entorno en el que ya se haya utilizado la característica básica de consolidación de orden cruzado. Luego usará la administración de características para activar la característica, de modo que pueda aprender cómo configurar directivas de consolidación de envíos después de la actualización.
 
 Siga estos pasos para configurar directivas de consolidación de envío predeterminadas en un entorno donde los almacenes ya se han configurado para la consolidación de pedidos cruzados.
 
@@ -64,27 +64,27 @@ Siga estos pasos para configurar directivas de consolidación de envío predeter
 1. En la ficha desplegable **Almacén**, configure la opción **Consolidar el envío en el despacho al almacén** en *Sí*.
 1. Repita los pasos 2 a 4 para todos los demás almacenes donde se requiera consolidación.
 1. Cierre la página.
-1. Utilice [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para activar la función *Directivas de consolidación de envíos*. En el espacio de trabajo **Gestión de funciones**, la función se llama *Consolidar envío*.
-1. Vaya a **Gestion de almacenes \> Configurar \> Despachar al almacén \> Directivas de consolidación de envíos**. Puede que tenga que actualizar su navegador para ver el nuevo elemento de menú **Directivas de consolidación de envíos** después de activar la función.
+1. Utilice [gestión de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para activar la característica *Directivas de consolidación de envíos*. En el espacio de trabajo **Gestión de características**, la característica se llama *Consolidar envío*.
+1. Vaya a **Gestion de almacenes \> Configurar \> Despachar al almacén \> Directivas de consolidación de envíos**. Puede que tenga que actualizar su navegador para ver el nuevo elemento de menú **Directivas de consolidación de envíos** después de activar la característica.
 1. En el panel Acciones, seleccione **Crear configuración predeterminada** para crear las siguientes directivas:
 
-    - Una directiva **CrossOrder** para el tipo de directiva *Ordenes de venta* (siempre que tenga al menos un almacén configurado para usar la función de consolidación anterior)
+    - Una directiva **CrossOrder** para el tipo de directiva *Ordenes de venta* (siempre que tenga al menos un almacén configurado para usar la característica de consolidación anterior)
     - Una directiva **Predeterminada** para el tipo de directiva *Ordenes de venta*
     - Una directiva **Predeterminada** para el tipo de directiva *Problema de transferencia*
-    - Una directiva **CrossOrder** para el tipo de directiva *Problema de transferencia* (siempre que tenga al menos un almacén configurado para usar la función de consolidación anterior)
+    - Una directiva **CrossOrder** para el tipo de directiva *Problema de transferencia* (siempre que tenga al menos un almacén configurado para usar la característica de consolidación anterior)
 
     > [!NOTE]
     > - Ambas directivas **CrossOrder** consideran el mismo conjunto de campos que la lógica anterior, excepto el campo del número de pedido. (Ese campo se utiliza para consolidar líneas en envíos, en función de factores como el almacén, el modo de transporte de entrega y la dirección).
     > - Ambas directivas **Predeterminadas** consideran el mismo conjunto de campos que la lógica anterior, incluido el campo del número de pedido. (Ese campo se utiliza para consolidar líneas en envíos, en función de factores como número de pedido, el almacén, el modo de transporte de entrega y la dirección).
 
-1. Selecciona la directiva **CrossOrder** para el tipo de directiva *Ordenes de venta* y luego, en el Panel de acciones, seleccione **Editar consulta**.
+1. Selecciona la directiva **CrossOrder** para el tipo de directiva *Ordenes de venta* y luego, en el panel Acciones, seleccione **Editar consulta**.
 1. En el cuadro de diálogo del editor de consultas, observe que se enumeran los almacenes donde la opción **Consolidar el envío en el despacho al almacén** está establecida en *Sí*. Por lo tanto, están incluidos en la consulta.
 
 ### <a name="create-default-policies-for-a-new-environment"></a>Crear directivas predeterminadas para un nuevo entorno
 
 Siga estos pasos para configurar directivas de consolidación de envío predeterminadas en un entorno completamente nuevo.
 
-1. Utilice [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para activar la función *Directivas de consolidación de envíos*, si todavía no la ha activado. En el espacio de trabajo **Gestión de funciones**, la función se llama *Consolidar envío*.
+1. Utilice [gestión de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para activar la característica *Directivas de consolidación de envíos*, si todavía no la ha activado. En el espacio de trabajo **Gestión de características**, la característica se llama *Consolidar envío*.
 1. Vaya a **Gestion de almacenes \> Configurar \> Despachar al almacén \> Directivas de consolidación de envíos**.
 1. En el panel Acciones, seleccione **Crear configuración predeterminada** para crear las siguientes directivas:
 
@@ -98,13 +98,13 @@ Siga estos pasos para configurar directivas de consolidación de envío predeter
 
 Este escenario muestra cómo configurar directivas de consolidación de envío personalizadas. Las directivas personalizadas pueden admitir requisitos comerciales complejos donde la consolidación de envíos depende de varias condiciones. Para cada directiva de ejemplo que aparece más adelante en este escenario, se incluye una breve descripción del caso de negocio. Estas directivas de ejemplo deben configurarse en una secuencia que garantice una evaluación similar a una pirámide de las consultas. (En otras palabras, las directivas que tienen la mayoría de las condiciones deben ser evaluadas como de mayor prioridad).
 
-### <a name="turn-on-the-feature-and-prepare-master-data-for-this-scenario"></a>Active la función y prepare los datos maestros para este escenario
+### <a name="turn-on-the-feature-and-prepare-master-data-for-this-scenario"></a>Active la característica y prepare los datos maestros para este escenario
 
-Antes de poder realizar los ejercicios en este escenario, debe activar la función y preparar los datos maestros necesarios para realizar el filtrado, como se describe en las subsecciones siguientes. (Estos requisitos previos también se aplican a los escenarios enumerados en [Escenarios de ejemplo de cómo usar las directivas de consolidación de envíos](#example-scenarios)).
+Antes de poder realizar los ejercicios en este escenario, debe activar la característica y preparar los datos maestros necesarios para realizar el filtrado, como se describe en las subsecciones siguientes. (Estos requisitos previos también se aplican a los escenarios enumerados en [Escenarios de ejemplo de cómo usar las directivas de consolidación de envíos](#example-scenarios)).
 
-#### <a name="turn-on-the-feature-and-create-the-default-policies"></a>Active la función y cree las directivas predeterminadas
+#### <a name="turn-on-the-feature-and-create-the-default-policies"></a>Active la característica y cree las directivas predeterminadas
 
-Utilice la administración de funciones para activar la función, si aún no la ha activado, y cree las directivas de consolidación predeterminadas que se describen en el [escenario 1](#scenario-1).
+Utilice la administración de características para activar la característica, si aún no la ha activado, y cree las directivas de consolidación predeterminadas que se describen en el [escenario 1](#scenario-1).
 
 #### <a name="create-two-new-product-filter-codes"></a>Crear dos nuevos códigos de filtro de producto
 
@@ -174,7 +174,7 @@ Siga estos pasos para crear la directiva de consolidación de envíos para este 
 
 1. Vaya a **Gestion de almacenes \> Configurar \> Despachar al almacén \> Directivas de consolidación de envíos**.
 1. Establezca el campo **Tipo de directiva** en *Ordenes de venta*.
-1. En el Panel de acciones, seleccione **Nuevo** para crear una directiva que tenga la siguiente configuración:
+1. En el panel Acciones, seleccione **Nuevo** para crear una directiva que tenga la siguiente configuración:
 
     - **Nombre de directiva:** *CustomerMode*
     - **Descripción de directiva:** *Cuenta de cliente y modo de entrega*
@@ -209,7 +209,7 @@ Siga estos pasos para crear la directiva de consolidación de envíos para este 
 
 1. Vaya a **Gestion de almacenes \> Configurar \> Despachar al almacén \> Directivas de consolidación de envíos**.
 1. Establezca el campo **Tipo de directiva** en *Ordenes de venta*.
-1. En el Panel de acciones, seleccione **Nuevo** para crear una directiva que tenga la siguiente configuración:
+1. En el panel Acciones, seleccione **Nuevo** para crear una directiva que tenga la siguiente configuración:
 
     - **Nombre de directiva:** *Tipo de artículo*
     - **Descripción de directiva:** *Consolidar el mismo tipo de artículo en todos los pedidos*
@@ -246,7 +246,7 @@ Siga estos pasos para crear la directiva de consolidación de envíos para este 
 
 1. Vaya a **Gestion de almacenes \> Configurar \> Despachar al almacén \> Directivas de consolidación de envíos**.
 1. Establezca el campo **Tipo de directiva** en *Ordenes de venta*.
-1. En el Panel de acciones, seleccione **Nuevo** para crear una directiva que tenga la siguiente configuración:
+1. En el panel Acciones, seleccione **Nuevo** para crear una directiva que tenga la siguiente configuración:
 
     - **Nombre de directiva:** *CustomerOrderNo*
     - **Descripción de directiva:** *Consolidar líneas basadas en el pedido del cliente*
@@ -270,7 +270,7 @@ En este ejemplo, creará una directiva *Clientes que permiten consolidación* qu
 
 - La directiva consultará un grupo de pedidos específico para identificar a los clientes que aceptan envíos consolidados.
 - La consolidación con envíos abiertos está desactivada.
-- La consolidación se realiza en todos los pedidos utilizando los campos seleccionados por defecto en la directiva CrossOrder (para replicar la casilla anterior **Almacén**).
+- La consolidación se realiza en todos los pedidos utilizando los campos seleccionados por defecto en la directiva CrossOrder (para replicar la casilla anterior **Consolidar envío en el despacho al alamacén**).
 
 - Puede anular la regla en un pedido de ventas seleccionando un grupo de pedidos diferente.
 
@@ -278,7 +278,7 @@ Siga estos pasos para crear la directiva de consolidación de envíos para este 
 
 1. Vaya a **Gestion de almacenes \> Configurar \> Despachar al almacén \> Directivas de consolidación de envíos**.
 1. Establezca el campo **Tipo de directiva** en *Ordenes de venta*.
-1. En el Panel de acciones, seleccione **Nuevo** para crear una directiva que tenga la siguiente configuración:
+1. En el panel Acciones, seleccione **Nuevo** para crear una directiva que tenga la siguiente configuración:
 
     - **Nombre de directiva:** *Grupo de pedidos*
     - **Descripción de directiva:** *Consolidar en todos los pedidos según el grupo de pedidos*
@@ -306,13 +306,13 @@ En este ejemplo, creará una directiva *Almacenes que permiten consolidación* q
 
 - La directiva consultará un grupo de pedidos específico para identificar almacenes que pueden consolidar envíos.
 - La consolidación con envíos abiertos está desactivada.
-- La consolidación se realiza en todos los pedidos utilizando los campos seleccionados por defecto en la directiva CrossOrder (para replicar la casilla anterior **Almacén**).
+- La consolidación se realiza en todos los pedidos utilizando los campos seleccionados por defecto en la directiva CrossOrder (para replicar la casilla anterior **Consolidar envío en el despacho al alamacén**).
 
 Por lo general, este caso de negocios se puede abordar mediante las directivas predeterminadas que creó en el [escenario 1](#scenario-1). Sin embargo, también puede crear directivas similares manualmente siguiendo estos pasos.
 
 1. Vaya a **Gestion de almacenes \> Configurar \> Despachar al almacén \> Directivas de consolidación de envíos**.
 1. Establezca el campo **Tipo de directiva** en *Ordenes de venta*.
-1. En el Panel de acciones, seleccione **Nuevo** para crear una directiva que tenga la siguiente configuración:
+1. En el panel Acciones, seleccione **Nuevo** para crear una directiva que tenga la siguiente configuración:
 
     - **Nombre de directiva:** *Peido cruzado*
     - **Descripción de directiva:** *Consolidación de pedidos cruzados para almacenes específicos*
@@ -331,7 +331,7 @@ Ahora que ha creado todas sus directivas, debe establecer el orden en que se apl
 
 1. Vaya a **Gestion de almacenes \> Configurar \> Despachar al almacén \> Directivas de consolidación de envíos**.
 1. Establezca el campo **Tipo de directiva** en *Ordenes de venta*.
-1. Seleccione cada directiva que aparezca en la columna de la izquierda y luego use los botones **Hacer subir** y **Hacer bajar** del Panel de acciones para organizar las directivas en el siguiente orden:
+1. Seleccione cada directiva que aparezca en la columna de la izquierda y luego use los botones **Hacer subir** y **Hacer bajar** del panel Acciones para organizar las directivas en el siguiente orden:
 
     1. CustomerMode
     1. Tipo de artículo

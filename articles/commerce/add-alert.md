@@ -3,7 +3,7 @@ title: Módulo de banner promocional
 description: En este tema se tratan los módulos de banner promocional y se describe la forma de agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,15 +18,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 12cabbf0b8d9f337f15a8cd6cb1f2a85100b75f7
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: dae824cdbaaf56f85f125c5f36aaa56171bbd6bc
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269783"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411374"
 ---
 # <a name="promo-banner-module"></a>Módulo de banner promocional
-
 
 [!include [banner](includes/banner.md)]
 
@@ -48,6 +47,12 @@ Los banners promocionales se pueden usar en el encabezado del sitio para mostrar
 
 “Ahorre a lo grande con la oferta de la vuelta al cole. Compre ahora."
 
+"¡Compre en la VENTA de Acción de Gracias!" 
+
+La siguiente imagen muestra un ejemplo de un banner promocional.
+
+![Ejemplo de un módulo de banner promocional](./media/ecommerce-Promobanner.PNG)
+
 ## <a name="promo-banner-module-properties"></a>Propiedades del módulo de banner promocional
 
 | Nombre de la propiedad             | Valor                              | Descripción |
@@ -64,8 +69,8 @@ Los banners promocionales se pueden usar en el encabezado del sitio para mostrar
 
 Para agregar un módulo banner promocional a una página y establecer las propiedades necesarias, siga estos pasos.
 
-1. Seleccione **Nuevo** para crear una plantilla de página.
-1. En el cuadro de diálogo **Nueva plantilla**, debajo de **Nombre de la plantilla**, ingrese **Plantilla de banner promocional** y luego seleccione **Aceptar**.
+1. Vaya a **Plantillas** y luego seleccione **Nuevo** para crear una nueva plantilla.
+1. En el cuadro de diálogo **Nueva plantilla**, debajo de **Nombre de la plantilla**, introduzca **Plantilla de banner promocional** y luego seleccione **Aceptar**.
 1. En **Esquema de la página**, agregue un módulo de **Página predeterminada** a la franja **Cuerpo**. 
 1. Seleccione **Finalizar edición** para proteger la plantilla y luego seleccione **Publicar** para publicarla. 
 1. Use la plantilla que acaba de crear para crear una página que se llame **Página de banner promocional**. 
@@ -74,7 +79,7 @@ Para agregar un módulo banner promocional a una página y establecer las propie
 1. En **Esquema de la página**, agregue un módulo de banner promocional al módulo de contenedor.
 1. En la configuración del módulo de banner, agregue uno o más mensajes de banner. Cada mensaje puede tener texto junto con un vínculo. Puede editar las otras propiedades para personalizar más el módulo.
 1. Seleccione **Guardar** y luego seleccione **Vista previa** para previsualizar la página. En la parte superior de la página, debe ver una alerta que muestra el texto que ha agregado.
-1. Seleccione **Finalizar edición** para proteger la página y luego seleccione **Publicar** para publicarla. 
+1. Seleccione **Finalizar edición** para proteger la página y luego seleccione **Publicar** para publicarla.
 
 > [!NOTE]
 > Un banner promocional se usa generalmente en la franja de encabezado de página o en una franja de subtítulo.

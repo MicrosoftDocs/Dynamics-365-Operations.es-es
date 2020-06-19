@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 0b71a76b348941f5a010e2f3e4bbb2fa60d37101
-ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
+ms.openlocfilehash: e396d2f2731d3600ee9e83e419d1038571e7bd85
+ms.sourcegitcommit: b0e4fa3fb43cf05fce4c833da73012cb01450125
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "3346362"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "3413040"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10011-july-2020"></a>Novedades o cambios en Dynamics 365 Supply Chain Management 10.0.11 (julio de 2020)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 En este tema se enumeran las características nuevas o modificadas en Microsoft Dynamics 365 Supply Chain Management versión preliminar 10.0.11. Esta versión tiene el número de compilación 10.0.464 y está disponible de la siguiente manera:
 
@@ -44,13 +43,13 @@ En esta versión se incluyen las siguientes características. Los títulos de ca
 - [Mejoras de reserva de línea para el formulario de reserva de número de lote](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form): para más información, consulte [Reservar el mismo lote para un pedido de ventas](../sales-marketing/reserve-same-batch-sales-order.md)
 - [Nuevas entidades de datos para el área de fabricación](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
 - [Sobre recepción de cantidades de carga](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement) - Para más información, ver [Manejo de almacén de cargas entrantes para órdenes de compra](../warehousing/inbound-load-handling.md).
-- [Informe como terminado en los números de lote del dispositivo de la tarjeta de trabajo](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/report-as-finished-batch-numbers-job-card-device)
+- [Informe como terminado en los números de lote del dispositivo de la tarjeta de trabajo](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/report-as-finished-batch-numbers-job-card-device): para más información, consulte [Informar como terminado desde el dispositivo de tarjeta de trabajo](../production-control/report-finished-job-device.md)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Platform updates para aplicaciones de Finance and Operations
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.11 incluye Platform updates. Para obtener más información, vea [Platform updates para la versión 10.0.11 de aplicaciones Finance and Operations (julio de 2020)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-35.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.11 incluye Platform updates. Para obtener más información, consulte [Platform updates para la versión 10.0.11 de aplicaciones Finance and Operations (julio de 2020)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-35.md).
 
 ### <a name="bug-fixes"></a>Correcciones de errores
 
@@ -66,8 +65,8 @@ Consulte [Dynamics 365: primera oleada de lanzamiento de versiones de 2020](http
 
 En el tema [Características quitadas o en desuso en Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) se describen las características que se han quitado o cuya eliminación o puesta en desuso están programadas para Supply Chain Management.
 
-- Una función *quitada* dejará de estar disponible en el producto.
-- Una función *en desuso* no está en el desarrollo activo y se podría quitar en una actualización futura.
+- Una característica *quitada* dejará de estar disponible en el producto.
+- Una característica *en desuso* no está en el desarrollo activo y se podría quitar en una actualización futura.
 
 Antes de eliminar una característica del producto, se anunciará el aviso de desuso en el tema [Características quitadas o en desuso en Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 meses antes de su eliminación.
 

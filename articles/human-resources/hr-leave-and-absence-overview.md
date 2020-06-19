@@ -3,12 +3,12 @@ title: Información general
 description: En Dynamics 365 Human Resources el espacio de trabajo Permisos y ausencias proporciona un marco flexible para crear nuevos planes de baja, flujos de trabajo para administrar solicitudes y una página intuitiva de autoservicio para que los empleados soliciten tiempo libre.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/30/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2bb123b808615ff7d770c7c6b83338a32d922be3
-ms.sourcegitcommit: de217452a85429675994e9cc0e06eb4821cab3e5
+ms.openlocfilehash: ec72d2d741f7f8428a7daa97bb982e9fc00b8c3f
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3325774"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428976"
 ---
 # <a name="overview"></a>Información general
 
@@ -84,10 +84,9 @@ Puede probar nuevas características de vista previa de Permisos y ausencias en 
 
 Entre las características de vista previa se incluyen:
 
-- **Suspensión de baja** - Puede suspender la baja y la ausencia en Human Resources para un empleado. La suspensión de la baja detiene las acumulaciones de baja para los tipos de baja seleccionados. Si la suspensión ocurre después de que se ha procesado una acumulación, la suspensión de la licencia crea un ajuste prorrateado al saldo de licencia del empleado. También puede incluir códigos de motivo al suspender la baja de un empleado. La experiencia del usuario se ha actualizado para indicar la suspensión. 
+- **Acumulación de bajas por empresa o plan**: puede ejecutar el proceso de acumulación para todas las empresas o para una sola empresa. También puede ejecutar el proceso de acumulación para un plan específico de baja de una empresa específica. 
 
-- **Reglas de transferencia** - Puede especificar un tipo de transferencia de baja para transferir saldos en los que los ajustes de transferencia se traspasan. Por ejemplo, si un empleado adelanta 10 días, puede elegir un tipo de baja diferente para esos 10 días. 
+- **Comprar baja**: puede habilitar y crear directivas de compra de bajas para que los empleados envíen solicitudes de compra. Los empleados pueden enviar solicitudes de compra y tener saldos actualizados automáticamente para reflejar la solicitud.  
 
-- **Incluir código de razón y comentarios para ajustes**: puede incluir un código de razón y un comentario al realizar un ajuste en el resultado de bajas de un empleado. 
+- **Agregar archivos adjuntos a las solicitudes de baja aprobadas**: puede agregar un archivo adjunto a una solicitud de baja que ya se ha aprobado. 
 
-- **Transición a los parámetros de bajas y ausencias**: ahora puede usar solo los parámetros de bajas y ausencias en lugar de los parámetros de Recursos humanos. 
