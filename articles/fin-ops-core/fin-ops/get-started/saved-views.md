@@ -3,7 +3,7 @@ title: Vistas guardadas
 description: Este tema describe cómo usar las características guardadas de las vistas.
 author: jasongre
 manager: AnnBe
-ms.date: 04/10/2020
+ms.date: 05/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: fe79558b9d2ac4ef1c83918b949d11983b2cc0d8
-ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
+ms.openlocfilehash: f6b7f1c64c273f52dc1d414185ba54efdfb8e5c0
+ms.sourcegitcommit: dc67232c9aa3223d42f22cc1f7aafbd121e7e616
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3260492"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "3412340"
 ---
 # <a name="saved-views"></a>Vistas guardadas
 
@@ -29,7 +29,7 @@ ms.locfileid: "3260492"
 [!include [preview banner](../includes/preview-banner.md)]
 
 ## <a name="introduction"></a>Introducción
-La personalización desempeña una función importante al permitir que los usuarios y las organizaciones optimicen la experiencia del usuario para satisfacer sus necesidades. Para obtener más detalles acerca de la personalización, consulte [Personalizar la experiencia del usuario](personalize-user-experience.md).
+La personalización desempeña una característica importante al permitir que los usuarios y las organizaciones optimicen la experiencia del usuario para satisfacer sus necesidades. Para obtener más detalles acerca de la personalización, consulte [Personalizar la experiencia del usuario](personalize-user-experience.md).
 
 Con la personalización tradicional, los usuarios sólo podían tener un único conjunto de personalizaciones por el formulario. Las vistas guardadas expanden la personalización de varias maneras importantes:
 
@@ -103,7 +103,7 @@ Para ayudar a comprender cómo las vistas guardadas ayudan a mejorar la gestión
 
 Sin vistas, los administradores aplicarían un conjunto de personalizaciones para una página a un usuario o a un grupo de usuarios usando la página de personalización. Si estos usuarios tuvieran derechos de personalización, las personalizaciones serían aplicadas a esa página. Sin embargo, no había capacidad para evitar que los usuarios personalizasen más la página, lo que significaba que la organización no podía garantizar que los usuarios tuvieran una interfaz de usuario coherente. Si ninguno de estos usuarios tenían derechos de personalización, las personalizaciones que les concedía un administrador no se cargaban. Además, si se contrataba a nuevos usuarios en una organización, los administradores debían cargar manualmente un conjunto de personalizaciones para el usuario. No había un mecanismo automático para especificar que un determinado conjunto de personalizaciones debían estar disponibles para los usuarios de ese rol.
 
-La función de vistas guardadas, facilita mucho la gestión de organización de personalizaciones, principalmente debido a que las vistas se pueden publicar en grupos de usuarios. Una vez que se ha publicado una vista, cualquier usuario que tenga uno de los roles de seguridad definidos y tenga acceso a las entidades jurídicas especificadas podrá ver y usar la vista, aunque dicho usuario no pueda personalizarla. Aunque cada usuario tenga una copia de la vista publicada en la que el uso de la página (personalizaciones implícitas) se aplique automáticamente, ningún usuario puede guardar personalizaciones o actualizaciones de consulta explícitas en una la vista publicada. Es decir, las vistas publicadas están bloqueadas. Además, si a los usuarios nuevos se les proporcionan roles en entidades jurídicas donde se publican las vistas, verán automáticamente las vistas que están asociados a sus roles y entidades jurídicas. No se requiere ninguna acción adicional por el administrador. Del mismo modo, si los usuarios cambian de roles en una organización o se les da acceso a diferentes entidades jurídicas, es posible que ya no puedan tener acceso a las vistas que se publicaron anteriormente a ellas. Una vez más no se requiere ninguna acción adicional por la administración.
+La característica de vistas guardadas, facilita mucho la gestión de organización de personalizaciones, principalmente debido a que las vistas se pueden publicar en grupos de usuarios. Una vez que se ha publicado una vista, cualquier usuario que tenga uno de los roles de seguridad definidos y tenga acceso a las entidades jurídicas especificadas podrá ver y usar la vista, aunque dicho usuario no pueda personalizarla. Aunque cada usuario tenga una copia de la vista publicada en la que el uso de la página (personalizaciones implícitas) se aplique automáticamente, ningún usuario puede guardar personalizaciones o actualizaciones de consulta explícitas en una la vista publicada. Es decir, las vistas publicadas están bloqueadas. Además, si a los usuarios nuevos se les proporcionan roles en entidades jurídicas donde se publican las vistas, verán automáticamente las vistas que están asociados a sus roles y entidades jurídicas. No se requiere ninguna acción adicional por el administrador. Del mismo modo, si los usuarios cambian de roles en una organización o se les da acceso a diferentes entidades jurídicas, es posible que ya no puedan tener acceso a las vistas que se publicaron anteriormente a ellas. Una vez más no se requiere ninguna acción adicional por la administración.
 
 Las actualizaciones de una vista publicada se pueden distribuir fácilmente a los usuarios republicando la vista a los roles de seguridad y las entidades jurídicas correspondientes.
 
@@ -137,7 +137,7 @@ Si los cambios que desea realizar en una vista publicada afectan sólo a los par
 7. [10.0.9/Platform update 33 o posterior] Si originalmente había elegido esta vista publicada para que fuera la predeterminada, será la vista predeterminada para estos usuarios nuevamente después de la republicación.  
 
 Si los cambios a la vista publicada implican modificar las personalizaciones o los filtros asociados a la vista, siga estos pasos: 
-1.  Cambie a la vista publicada que desea modificar. 
+1.  Cargue la vista publicada que desea modificar. 
 2.  Guarde una copia de la vista publicada para crear un borrador local de la vista publicada. 
 3.  Modificar el borrador local con los cambios necesarios.
 4.  Publicar la vista con el nombre original. 
@@ -149,14 +149,27 @@ Aunque todos los usuarios ven una pestaña **Mis vistas** mostrando sus vistas p
 
 Para una lista de todas las vistas publicadas para dicha página, el conjunto de acciones siguiente está disponible. 
 
--    **Publicar**: use la acción **Publicar** para volver a publicar una vista después de parámetros de publicación (nombre, descripción, roles de seguridad o entidades jurídicas) se cambien.
+-    **Publicar**: use la acción **Publicar** para volver a publicar una vista después de cambiar los parámetros de publicación (nombre, descripción, roles de seguridad o entidades jurídicas).
+-    **Guardar como personal**: utilice la acción **Guardar como personal** para crear una copia de borrador personal de la vista publicada. Esta capacidad puede ayudarle a comprender el contenido de una vista que no se le había publicado o que aún no se ha publicado. También puede usarlo para editar y luego volver a publicar una vista. Esta capacidad se introduce en la versión 10.0.12.  
 -    **Eliminar**: use la acción **Eliminar** para eliminar de forma permanente una vista publicada. Esta acción elimina la vista para todos los usuarios en el sistema. La eliminación de vistas publicadas surtirá efecto después de que se seleccione el botón **Guardar**.
+
+## <a name="managing-views-globally"></a>Gestionar vistas globalmente
+Aunque aparecen algunas capacidades de administración en cada página, como se indica en este tema, **administradores del sistema** y **ver administradores guardados** puede administrar vistas de manera más holística para el sistema a través de la página **Personalización**. En particular, esta página tiene las siguientes secciones y capacidades: 
+
+- **Vistas publicadas**: esta sección enumera todas las vistas que se han publicado para su organización. Desde aquí, puede volver a publicar una vista después de ajustar las características de seguridad o las entidades legales a las que se dirige la vista. También puede exportar o eliminar una o varias vistas publicadas. En la versión 10.0.12 y posteriores, puede usar la acción **Guardar como personal** para crear una copia personal de la vista, de modo que pueda actualizar la vista u obtener una mejor comprensión de su contenido. 
+- **Vistas no publicadas**: esta sección enumera todas las vistas de la plantilla que se han importado en el sistema pero aún no se han publicado. Puede publicar, exportar o eliminar estas vistas. La acción **Publicación rápida** que se agregó en la versión 10.0.12 permite que se publiquen varias vistas de esta sección en una sola acción, utilizando el rol de seguridad existente y las configuraciones de entidad legal. En la versión 10.0.12 y posteriores, puede usar la acción **Guardar como personal** para crear copias personales de estas vistas, de modo que pueda obtener una mejor comprensión de sus contenidos.   
+- **Vistas personales**: esta sección enumera todas las vistas que han creado los usuarios en el sistema. Desde aquí, puede publicar una vista personal en la organización, o copiar una o más de estas vistas a otros usuarios. También puede exportar o eliminar estas vistas como sea necesario.
+- **Usuarios**: seleccione un usuario para ver una lista de páginas que este usuario ha visitado. A continuación puede ajustar la capacidad del usuario seleccionado para utilizar la personalización para páginas determinadas o el sistema completo. También puede importar, exportar o borrar una personalización para el usuario. Además, puede restablecer las llamadas de características del usuario. Luego, si el usuario descartó anteriormente algunas ventanas emergentes que introducían nuevas características, estas ventanas emergentes aparecerán de nuevo la próxima vez que el usuario se encuentre con aquellas características.
+- **Sistema:** – Puede desactivar temporalmente la personalización para todos los usuarios del sistema. En este caso, todas las personalizaciones se eliminan para todos los usuarios, y todas las páginas se restablecen a su estado predeterminado. Si vuelve a habilitar más tarde la personalización, todas las personalizaciones se volverán a aplicar. También puede desactivar permanentemente todas las personalizaciones para todos los usuarios del sistema. No es posible recuperar las personalizaciones que se han eliminado. Por lo tanto, antes de realizar esta tarea, asegúrese de exportar todas las personalizaciones que pueda querer más tarde.
+
+Los usuarios con acceso a la página **Personalización** también pueden importar las vistas personales o de la plantilla con el botón **Importar vistas** del panel Acciones. En la versión 10.0.12 y posteriores, se ha agregado un mecanismo para publicar vistas inmediatamente cuando se importan.  
 
 ## <a name="frequently-asked-questions"></a>Preguntas frecuentes
 ### <a name="how-do-i-enable-saved-views-in-my-environment"></a>¿Cómo habilito las vistas guardadas en mi entorno? 
-Nota: La característica **Vistas guardadas** requiere que el sistema de personalización en Finance and Operations esté habilitado. Si la personalización se desactiva para todo el entorno, las vistas se deshabilitarán incluso si sigue los pasos siguientes. 
+> [!NOTE]
+> La característica **Vistas guardadas** requiere que el sistema de personalización de Finance and Operations esté habilitado. Si la personalización se desactiva para todo el entorno, las vistas se deshabilitarán incluso si sigue los pasos siguientes. 
 
-**10.0.9 / Platform update 33 y posteriores** La característica **Vistas guardadas** está disponible directamente en Administración de características en cualquier entorno. Al igual que otras características de vista previa pública, la habilitación de esta característica en producción está sujeta a [Acuerdo de términos de uso complementarios](https://go.microsoft.com/fwlink/?linkid=2105274).  
+**10.0.9 / Platform update 33 y posteriores** La característica **Vistas guardadas** está disponible directamente en Administración de características en cualquier entorno. Al igual que otras características de vista previa pública, la habilitación de esta característica en producción está sujeta a [Términos complementarios de acuerdo de uso](https://go.microsoft.com/fwlink/?linkid=2105274).  
 
 **10.0.8 / Platform update 32 y anteriores** La característica **Vistas guardadas** se puede habilitar en entornos de Nivel 1 (desarrollo/prueba) y Nivel 2 (espacio aislado) para proporcionar pruebas adicionales y cambios de diseño siguiendo los pasos siguientes.
 

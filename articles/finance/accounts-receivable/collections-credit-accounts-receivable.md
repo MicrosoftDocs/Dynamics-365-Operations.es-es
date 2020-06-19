@@ -1,5 +1,5 @@
 ---
-title: Créditos y cobros en Clientes
+title: Cobros en Clientes
 description: La información de los cobros de clientes se gestiona en una vista central usando la página Cobros de Microsoft Dynamics 365 Finance. Los administradores de crédito y cobros pueden usar esta vista central para gestionar los cobros. Los agentes de cobros pueden comenzar el proceso de cobro por las listas de clientes que se generan mediante criterios de cobro predefinidos o por la página Clientes.
 author: ShivamPandey-msft
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 471de43bc0d171e60100613a6d779a249cd9e92f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c150eb7283b34c82e728da36ed0e1e6643eff46a
+ms.sourcegitcommit: be7e4378c8122c6e7cfc4e7991efbdffee45e006
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189186"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "3426405"
 ---
-# <a name="credit-and-collections-in-accounts-receivable"></a>Créditos y cobros en Clientes
+# <a name="collections-in-accounts-receivable"></a>Cobros en Clientes
 
 [!include [banner](../includes/banner.md)]
 
@@ -52,7 +52,7 @@ El encabezado de instantánea de vencimientos contiene el importe vencido total,
 
 Para cada período de vencimiento de la definición de período de vencimiento, se crea un registro de detalle de la instantánea de vencimientos. Cada registro de detalles de las instantáneas de vencimiento contiene el id. del período de vencimiento y el importe total de las transacciones con las fechas del período de vencimiento. Las transacciones tienen asignado un período de vencimiento, como 30 días pasados desde el vencimiento. La fecha está relacionada con la fecha de Vencimiento a partir de especificada al crear la instantánea de vencimientos. Esta información se muestra en la página de lista Saldos vencidos y en el cuadro informativo Saldos vencidos de la página Cobros.
 
-## <a name="collections-customer-pools"></a> Secciones de cobros de clientes
+## <a name="collections-customer-pools"></a>Secciones de cobros de clientes
 Las secciones de clientes son consultas que definen un grupo de registros de cliente que se pueden mostrar y gestionar para cobros o procesos de vencimiento. Use las secciones de clientes para filtrar información en las páginas Saldos vencidos, Actividades de cobros y Casos de cobros. También se usan las secciones de clientes para filtrar las cuentas de cliente que se incluyen al crear instantáneas de vencimientos.
 
 ## <a name="collections-agents"></a>Agentes de cobros
@@ -60,7 +60,7 @@ De forma predeterminada, los usuarios pueden ver toda la información de cliente
 
 El agente de cobros es una persona que trabaja con clientes para asegurarse de que los pagos se cobran a tiempo. Los agentes de cobros son trabajadores asignados a usuarios en la página Configuración de usuario.
 
-## <a name="collections-list-pages"></a> Páginas de listas Cobros 
+## <a name="collections-list-pages"></a>Páginas de listas Cobros
 En las siguientes páginas de lista, se le ayuda a organizar la información de cobros.
 -   Saldos vencidos: las columnas de la página de la lista muestran los saldos de los clientes y los importes vencidos por período de vencimiento. Esta información se almacena como una instantánea de vencimientos. Los períodos de vencimiento se determinan por la definición de período de vencimiento que se use. La definición del período de vencimiento se toma de la sección de clientes, si se ha especificado una para la consulta de secciones. Si la sección no tiene definición de período de vencimiento, se usará la definición de período de vencimiento predeterminada que se haya especificado en la página Parámetros de clientes. Si no se especifica ninguna definición de período de vencimiento predeterminada, se usa la primera definición de período de vencimiento de la página Definiciones de período de vencimiento.
 -   Actividades de cobros: en las columnas de la página de lista, se muestran las actividades identificadas como actividades de cobros. Estas actividades se crean mediante el uso de la página Cobros. Use actividades para realizar un seguimiento del trabajo que realiza en relación con los cobros.
@@ -70,20 +70,20 @@ En las siguientes páginas de lista, se le ayuda a organizar la información de 
 > Es necesario crear una instantánea de vencimientos antes de que pueda visualizar información en estas páginas de lista. Sólo se muestra información para aquellos clientes para los que se haya creado una instantánea de vencimientos. Los registros que se muestran en la página de lista pueden estar más filtrados, por ejemplo:
 > <li>De forma predeterminada, un usuario de Finance and Operations tiene acceso a todos los clientes que dispongan de una instantánea de vencimientos.</li>
 > <li>Si existen secciones de clientes, es necesario configurar un usuario como agente de cobros para que pueda usar las secciones para filtrar información de páginas de listas de cobros. El acceso a esta información está limitado a los clientes incluidos en la sección de clientes seleccionada.</li>
-> <li>Si un usuario está configurado como agente de cobros, sólo estarán disponibles en la página de lista las secciones seleccionadas para dicho agente de cobros. Si se ha seleccionado Permitir que el agente vea todas las secciones de clientes en la página Agente de cobros para el agente de cobros, todas las secciones quedan disponibles para dicho agente.</li>
+> <li>Si un usuario está configurado como agente de cobros, sólo estarán disponibles en la página de lista las secciones seleccionadas para dicho agente de cobros. Si se ha seleccionado Permitir que el agente consulte todas las secciones de clientes en la página Agente de cobros para el agente de cobros, todas las secciones quedan disponibles para dicho agente.</li>
 
 
-## <a name="collections-page"></a> Página Cobros
+## <a name="collections-page"></a>Página Cobros
 Use la página Cobros para ver, administrar y actuar en la información de cobros, actividades y casos de un cliente. 
 
 En el panel superior, se muestran los casos del cliente seleccionado. En el panel intermedio se muestran las transacciones del cliente. En el panel inferior, se muestran las actividades del cliente. Puede crear casos de cobros para realizar seguimientos de la información de cobros de una o varias transacciones y actividades. La información que aparece en la parte superior y en los paneles inferiores se puede filtrar por caso. 
 
 En los cuadros informativos, se muestran los saldos vencidos y la información de límite de crédito para el cliente seleccionado. Esta información se almacena en la instantánea de vencimientos. En caso necesario, puede actualizar la instantánea de vencimientos con información actual. 
 
-El panel de acciones contiene los botones que muestran información relacionada para el cliente, el caso, la transacción o la actividad seleccionada. También puede realizar acciones comunes, como cambiar el estado de cobros de una transacción, enviar mensajes de correo electrónico por medio de la integración con su proveedor de correo electrónico, realizar reembolsos a clientes, procesar pagos NSF y cancelar saldos incobrables.
+El panel Acciones contiene los botones que muestran información relacionada para el cliente, el caso, la transacción o la actividad seleccionada. También puede realizar acciones comunes, como cambiar el estado de cobros de una transacción, enviar mensajes de correo electrónico por medio de la integración con su proveedor de correo electrónico, realizar reembolsos a clientes, procesar pagos NSF y cancelar saldos incobrables.
 
-## <a name="waive-reinstate-or-reverse-interest-and-fees"></a> Condonar, restablecer o revertir interés y cuotas
-Puede renunciar, restablecer o invertir notas de interés completas, o las cuotas e intereses de la transacción que forman parte de las notas de interés. Puede hacerlo desde la ficha Cobrar en el panel de acciones de la página de lista Todos los clientes al hacer clic en Nota de interés, Interés de transacción o Cuota. 
+## <a name="waive-reinstate-or-reverse-interest-and-fees"></a>Condonar, restablecer o revertir interés y cuotas
+Puede renunciar, restablecer o invertir notas de interés completas, o las cuotas e intereses de la transacción que forman parte de las notas de interés. Puede hacerlo desde la ficha Cobrar en el panel Acciones de la página de lista Todos los clientes al hacer clic en Nota de interés, Interés de transacción o Cuota. 
 
 Estos ajustes sólo afectan a las notas de interés, así como a los intereses y cuotas incluidos en éstos. Realice los pasos descritos en la sección “Crear transacciones de cancelación en un paso” para cancelar todos los cargos que debe un cliente.
 
@@ -102,7 +102,7 @@ La transacción de cancelación se crea en la divisa de la transacción.
 
 Para obtener más información, consulte [Crear un diario de cancelación para un cliente](tasks/create-write-off-journal-customer.md).
 
-<a name="process-not-sufficient-funds-nsf-payments"></a>Procesamiento de pagos de fondos insuficientes (NSF)  
+<a name="process-not-sufficient-funds-nsf-payments"></a>Procesamiento de pagos de fondos insuficientes (NSF) 
 --------------------------------------------
 
 Puede procesar pagos NSF haciendo clic en Pago NSF en la página Cobros. Al hacer clic en este botón, se cancela el pago. Si se aplica una cuota NSF para el cliente, se creará una transacción de cargos en un diario de pagos. El importe de la cuota se basa en la configuración de los cargos automáticos. Los cargos automáticos que se aplican para los pagos NSF se especifican en función del grupo de cargos seleccionado en la página Cuentas bancarias de la cuenta bancaria afectada.

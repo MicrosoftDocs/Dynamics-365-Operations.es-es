@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b2d65be5163e5dcb7971f04ebcad2fce55a06dad
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 9da6fc7338942e97a1a7417dbd4dfca55fa95272
+ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010421"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "3410067"
 ---
 # <a name="overview"></a>Visión general
 
@@ -35,7 +35,7 @@ Esta Guía del administrador lo ayuda a configurar, administrar y solucionar pro
   - [Aprovisionar Human Resources](hr-admin-setup-provision.md)
   - [Copiar una instancia](hr-admin-setup-copy-instance.md)
   - [Quitar una instancia](hr-admin-setup-remove-instance.md)
-  - [Proceso de actualización](hr-admin-setup-update-process.md)
+  - [Actualizar proceso](hr-admin-setup-update-process.md)
 
 - Configurar integración de datos
   - [Elegir una tecnología de integración de datos](hr-admin-integration-choose-technology.md)
@@ -43,7 +43,7 @@ Esta Guía del administrador lo ayuda a configurar, administrar y solucionar pro
   - [Configurar la integración con Finance](hr-admin-integration-finance.md)
   - [Configurar la integración con Dayforce](hr-admin-integration-dayforce.md)
   - [Crear una aplicación de exportación de datos recurrente](hr-admin-integration-recurring-data-export.md)
-  - Integración con Microsoft Office
+  - Integrar con Office
     - [Tutorial de integración con Office](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
     - [Actualizar los datos de la entidad en Excel](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
     - [Crear experiencias de tipo Abrir en Excel](../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)
@@ -75,18 +75,17 @@ Esta Guía del administrador lo ayuda a configurar, administrar y solucionar pro
 - Recursos de documentación
   - [Sistema de ayuda](../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json)
   - [Conectar el sistema de ayuda](../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/human-resources/toc.json)
-  - [Conectar un sitio de ayuda personalizado](../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/human-resources/toc.json        )
   - [Ver y exportar las descripciones de los campos](../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/human-resources/toc.json)
   - [Grabador de tareas](../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/human-resources/toc.json)
   - [Crear documentación o formación con el Grabador de tareas](../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json)
 
-- Solución de recursos humanos
+- Solución de problemas de Human Resources
   - [Obtener soporte](hr-admin-troubleshooting-support.md)
   - [Optimizar el rendimiento con tareas automáticas de limpieza](hr-admin-troubleshooting-batch-history.md)
   - [Los informes de análisis no están actualizados](hr-admin-troubleshooting-analytic-reports.md)
   - [No se puede crear un entorno en el centro de administración de Power Apps](hr-admin-troubleshooting-power-apps.md)
   - [El cliente se desconecta](hr-admin-troubleshooting-disconnect.md)
-  - [Evitar el texto truncado en la jerarquía de posición](hr-admin-troubleshooting-truncate.md)
+  - [Evite el texto truncado en la jerarquía de posición](hr-admin-troubleshooting-truncate.md)
   - [Ejecutar el proceso de compensación](hr-admin-troubleshooting-compensation.md)
   - [Guardar una guía de tareas para LCS](hr-admin-troubleshooting-task-guide.md)
   - [Acceder a direcciones privadas por rol de seguridad](hr-admin-troubleshooting-private-addresses.md)

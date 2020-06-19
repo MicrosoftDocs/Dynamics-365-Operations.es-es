@@ -3,7 +3,7 @@ title: Trabajar con artículos serializados en el PDV
 description: Este tema explica cómo administrar artículos serializados en la aplicación de punto de venta (POS).
 author: boycezhu
 manager: annbe
-ms.date: 04/21/2020
+ms.date: 05/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -15,17 +15,16 @@ ms.search.region: global
 ms.author: boycezhu
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 1e0d6aa7cd5576578378e70c6ee808833314aff3
-ms.sourcegitcommit: 919620b4aca425e6a1248ee12f50a622d2531e58
+ms.openlocfilehash: eedb64ae04345cb94bdd8cc68de833cfcfd40119
+ms.sourcegitcommit: 39981582778b0a62567324452485a6721ca18284
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "3290779"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "3407507"
 ---
 # <a name="work-with-serialized-items-in-the-pos"></a>Trabajar con artículos serializados en el PDV
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Muchos minoristas venden productos que requieren control de serie. Estos artículos se denominan *artículos serializados*. Algunos minoristas pueden querer mantener números de serie para fines de seguimiento. Otros minoristas pueden querer capturar números de serie durante el proceso de venta, para fines de servicio y garantía. Este tema explica cómo puede administrar artículos serializados en la aplicación de punto de venta (POS) de Microsoft Dynamics 365 Commerce.
 

@@ -3,7 +3,7 @@ title: Módulo de tarjeta de regalo
 description: En este tema se tratan los módulos de tarjeta regalo y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 04/13/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 70047376cec44523cc9cfe4df792bde23c776d8c
-ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
+ms.openlocfilehash: a8428963e105e422dcd048863c17df0926a409ac
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261589"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411121"
 ---
 # <a name="gift-card-module"></a>Módulo de tarjeta de regalo
 
@@ -35,6 +35,10 @@ En este tema se tratan los módulos de tarjeta regalo y se describe cómo agrega
 Las tarjetas de regalo son una forma común de pago y el módulo de tarjeta de regalo se puede usar en un módulo de pago para aceptar tarjetas de regalo. El módulo de tarjeta de regalo admite tarjetas de regalo Dynamics 365, SVS y Givex. Las tarjetas de regalo SVS y Givex se canjean a través del proveedor de pagos Adyen.
 
 Para obtener más información sobre la compatibilidad con tarjetas de regalo externas como SVS y Givex, consulte [Soporte para tarjetas de regalo externas](./dev-itpro/gift-card.md)
+
+La siguiente imagen muestra un ejemplo de un módulo de tarjeta regalo en una página de finalización de compra.
+
+![Ejemplo de un módulo de tarjeta regalo](./media/ecommerce-giftcard.PNG)
 
 ## <a name="module-properties"></a>Propiedades del módulo
 

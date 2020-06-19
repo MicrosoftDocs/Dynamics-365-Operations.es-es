@@ -3,7 +3,7 @@ title: Módulo Contenedor
 description: En este tema se tratan los módulos de contenedor y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 93c16da0988cc955835231bdd1f7342f19063f85
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: c7d607047aab92144932b4b59db050a588d6483d
+ms.sourcegitcommit: 2683aacb426bfb3b541637edf1f8ec2d6cb5a745
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025537"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "3417355"
 ---
 # <a name="container-module"></a>Módulo Contenedor
-
 
 [!include [banner](includes/banner.md)]
 
@@ -45,6 +44,10 @@ Se admiten tres módulos de contenedor: contenedor, contenedor con 2 franjas y c
 - Un autor del sitio desea un diseño de tres columnas, donde aparecen tres módulos de forma paralela. Por lo tanto, el autor del sitio utiliza un módulo de contenedor del contenedor con el tipo de 3 franjas.
 - Un autor del sitio desea un diseño de seis columnas, donde aparecen seis módulos de forma paralela. Por lo tanto, el autor del sitio utiliza un contenedor del tipo contenedor con seis columnas dentro.
 - Un autor del sitio desea colocar un módulo en una página pero no desea que rellene la pantalla. Por lo tanto, el autor del sitio agrega el módulo a un módulo de contenedor y establece la propiedad **Ancho** del contenedor en **Ajustar contenedor**.
+
+La siguiente imagen muestra un ejemplo de un módulo contenedor que contiene un módulo carrusel en el creador de sitios de Commerce. En este ejemplo, la propiedadel **Anchura** del módulo contenedor se establece en **Rellenar pantalla**.
+
+![Ejemplo de módulo contenedor](./media/ecommerce-container.PNG)
 
 ## <a name="container-module-properties"></a>Propiedades de módulo de contenedor
 
@@ -99,23 +102,32 @@ Se pueden usar propiedades adicionales para optimizar el diseño de los diferent
 
 Para agregar un módulo de reproductor de contenedor a una página nueva y establecer las propiedades necesarias, siga estos pasos.
 
-1. Cree una plantilla de página con el nombre **plantilla de contenedor**. 
-1. En el espacio **Cuerpo**, agregue un módulo de **Página predeterminada**.
-1. Termine de editar la plantilla y publíquela.
-1. Use la plantilla de contenedor que acaba de crear para crear una página que se llame **página de contenido**.
-1. En el espacio **Principal** de la página nueva, agregue un módulo de contenedor.
+1. Vaya a **Plantillas** y luego seleccione **Nuevo** para crear una nueva plantilla.
+1. En el cuadro de diálogo **Nueva plantilla**, en **Nombre de la plantilla**, introduzca **Plantilla de contenedor** y luego seleccione **Aceptar**.
+1. En el espacio **Cuerpo**, seleccione los puntos suspensivos (**...**) y después seleccione **Agregar módulo**.
+1. En el cuadro de diálogo **Agregar módulo**, seleccione el módulo **Página predeterminada** y, a continuación, **Aceptar**.
+1. Seleccione **Guardar** y seleccione **Finalizar edición** para proteger la plantilla y luego seleccione **Publicar** para publicarla. 
+1. Vaya a **Páginas** y seleccione **Nuevo** para crear una nueva página.
+1. En el cuadro de diálogo **Elegir una plantilla** seleccione la plantilla del reproductor de video que creó. En **Nombre de página**, introduzca **Página de contenedor** y después seleccione **Aceptar**.
+1. En el espacio **Principal** de la nueva página, seleccione los puntos suspensivos (**...**) y, a continuación, seleccione **Agregar módulo**.
+1. En el cuadro de diálogo **Agregar módulo**, seleccione el módulo **Contenedor** y, a continuación, **Aceptar**.
 1. En el panel de propiedades para el módulo del contenedor, establezca la propiedad **Número de columna** en **1** y la propiedad **Ancho** en **Rellenar contenedor**.
-1. En el módulo de contenedor, agregue un módulo de bloque de contenido.
+1. En el espacio **Contenedor**, seleccione los puntos suspensivos (**...**) y después seleccione **Agregar módulo**.
+1. En el cuadro de diálogo **Agregar módulo**, seleccione el módulo **Bloque de contenido** y, a continuación, **Aceptar**.
 1. En el panel de propiedades para el módulo de bloque de contenido, configure el encabezado, la imagen y el diseño.
-1. Guarde la página y obtenga una vista previa de ella. Debería ver un módulo de características que se ajuste al ancho del módulo de contenedor.
+1. Seleccione **Guardar** y luego seleccione **Vista previa** para previsualizar la página. Debería ver un módulo de características que se ajuste al ancho del módulo de contenedor.
 1. En el panel de propiedades para el módulo de contenedor, cambie el valor de la propiedad **Número de columnas** a **3**.
-1. Agregue otros dos módulos de bloque de contenido al módulo de contenedor.
-1. Guarde la página y obtenga una vista previa de ella. Debe ver ahora tres módulos de bloque de contenido que aparecen de forma paralela.
-1. Una vez haya logrado el diseño que desee, termine de editar la página y publíquela.
+1. Agregue dos módulos de bloque de contenido más al módulo contenedor y configúrelos.
+1. Seleccione **Guardar** y luego seleccione **Vista previa** para previsualizar la página. Debe ver ahora tres módulos de bloque de contenido que aparecen de forma paralela.
+1. Una vez que haya logrado el diseño que desea, seleccione **Finalizar edición** para comprobar en la página y luego seleccione **Publicar** para publicarlo.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general de kit de inicio](starter-kit-overview.md)
+[Visión general del kit de inicio](starter-kit-overview.md)
+
+[Módulo de acordeón](add-accordion.md)
+
+[Módulo de pestañas](add-tab.md)
 
 [Módulo de carrusel](add-carousel.md)
 
