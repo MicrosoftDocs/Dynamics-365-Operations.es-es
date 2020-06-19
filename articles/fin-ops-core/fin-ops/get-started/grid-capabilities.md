@@ -1,9 +1,9 @@
 ---
 title: Funcionalidad de cuadrícula
-description: Este tema describe varias características potentes del control de cuadrícula. La nueva función de cuadrícula debe estar habilitada para tener acceso a estas capacidades.
+description: Este tema describe varias características potentes del control de cuadrícula. La nueva característica de cuadrícula debe estar habilitada para tener acceso a estas capacidades.
 author: jasongre
 manager: AnnBe
-ms.date: 04/23/2020
+ms.date: 06/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: fd45f71fc15e467c461433682310ab7b7cc0158a
-ms.sourcegitcommit: 0d7b700950b1f95dc030ceab5bbdfd4fe1f79ace
+ms.openlocfilehash: 88a4e2fe69000f8034729d468ad5fd108d435c3e
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "3284413"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3431369"
 ---
 # <a name="grid-capabilities"></a>Funcionalidad de cuadrícula
 
@@ -74,7 +74,7 @@ Los totales se actualizarán automáticamente a medida que actualice, elimine o 
 ## <a name="grouping-data"></a>Agrupar datos
 Los usuarios comerciales a menudo necesitan realizar análisis de datos ad-hoc. Si bien esto se puede hacer exportando datos a Microsoft Excel y usando tablas dinámicas, la funcionalidad de **Agrupamiento** en cuadrículas tabulares permite a los usuarios organizar sus datos de manera interesante dentro de las aplicaciones de Finance and Operations. Como esta característica extiende la característica **Totales**, **Agrupamiento** también permite obtener información significativa sobre los datos al proporcionar subtotales a nivel de grupo.
 
-Para usar esta función, haga clic con el botón derecho en la columna por la que desea agrupar y seleccione **Agrupar por esta columna**. Esta acción ordenará los datos por la columna seleccionada, agregará un nuevo Grupo por columna al principio de la cuadrícula e insertará "filas de encabezado" al comienzo de cada grupo. Estas filas de encabezado proporcionan la siguiente información sobre cada grupo: 
+Para usar esta característica, haga clic con el botón derecho en la columna por la que desea agrupar y seleccione **Agrupar por esta columna**. Esta acción ordenará los datos por la columna seleccionada, agregará un nuevo Grupo por columna al principio de la cuadrícula e insertará "filas de encabezado" al comienzo de cada grupo. Estas filas de encabezado proporcionan la siguiente información sobre cada grupo: 
 -  Valor de datos para el grupo 
 -  Etiqueta de columna (esta información será especialmente útil después de que se admitan múltiples niveles de agrupación).
 -  Número de filas de datos en este grupo
@@ -87,19 +87,19 @@ Si selecciona **Agrupar por esta columna** para una columna diferente, la agrupa
 Para deshacer la agrupación en una cuadrícula, haga clic derecho en la columna de agrupación y seleccione **Desagrupar**.  
 
 ## <a name="typing-ahead-of-the-system"></a>Escribir por delante del sistema
-En muchos escenarios comerciales, la capacidad de ingresar datos rápidamente en el sistema es muy importante. Antes de que se introdujera el nuevo control de cuadrícula, los usuarios podían cambiar los datos solo en la fila actual. Antes de que pudieran crear una nueva fila o cambiar a una fila diferente, debían esperar a que el sistema validara con éxito los cambios. En un intento por reducir la cantidad de tiempo que los usuarios esperan a que se completen estas validaciones y para mejorar la productividad del usuario, la nueva cuadrícula ajusta estas validaciones para que sean asíncronas. Por lo tanto, el usuario puede moverse a otras filas para realizar cambios mientras las validaciones de fila anteriores están pendientes. 
+En muchos escenarios comerciales, la capacidad de introducir datos rápidamente en el sistema es muy importante. Antes de que se introdujera el nuevo control de cuadrícula, los usuarios podían cambiar los datos solo en la fila actual. Antes de que pudieran crear una nueva fila o cambiar a una fila diferente, debían esperar a que el sistema validara con éxito los cambios. En un intento por reducir la cantidad de tiempo que los usuarios esperan a que se completen estas validaciones y para mejorar la productividad del usuario, la nueva cuadrícula ajusta estas validaciones para que sean asíncronas. Por lo tanto, el usuario puede moverse a otras filas para realizar cambios mientras las validaciones de fila anteriores están pendientes. 
 
-Para admitir este nuevo comportamiento, se ha agregado una nueva columna para el estado de la fila en la parte superior de la cuadrícula cuando la cuadrícula está en modo de edición. Esta columna indica uno de los siguientes estados:
+Para admitir este nuevo comportamiento, se ha agregado una nueva columna para el estado de fila a la derecha de la columna de selección de fila cuando la cuadrícula está en modo de edición. Esta columna indica uno de los siguientes estados:
 
 - **En blanco**: ninguna imagen de estado indica que la fila ha sido guardada con éxito por el sistema.
 - **Procesamiento pendiente**: este estado indica que los cambios en la fila aún no han sido guardados por el servidor, pero están en una cola de cambios que deben procesarse. Antes de tomar medidas fuera de la cuadrícula, debe esperar a que se procesen todos los cambios pendientes. Además, el texto en estas filas está en cursiva para indicar el estado no guardado de las filas. 
-- **Advertencia de validación**: este estado indica que el sistema no puede guardar los cambios en la fila debido a algún problema de validación. En la cuadrícula anterior, ¿se veía obligado a volver a la fila para solucionar el problema de inmediato? Sin embargo, en la nueva cuadrícula, se le notifica que se encontró un problema de validación, pero puede decidir cuándo desea solucionarlo. Cuando esté listo para solucionar el problema, puede mover manualmente el foco de nuevo a la fila. Alternativamente, puede seleccionar la acción **Solucionar este problema**. Esta acción mueve inmediatamente el foco a la fila que tiene el problema y le permite realizar modificaciones dentro o fuera de la cuadrícula. Tenga en cuenta que el procesamiento de las filas pendientes posteriores se detiene hasta que se resuelve esta advertencia de validación. 
-- **Pausado**: este estado indica que el procesamiento por parte del servidor está en pausa porque la validación de la fila activó un cuadro de diálogo emergente que requiere la intervención del usuario. Debido a que el usuario podría estar ingresando datos en alguna otra fila, el cuadro de diálogo emergente no se presenta de inmediato a ese usuario. En cambio, se presentará cuando el usuario elija reanudar el procesamiento. Este estado va acompañado de una notificación que informa al usuario sobre la situación. La notificación incluye una acción **Reanudar procesamiento** que activa el cuadro de diálogo emergente.  
+- **Estado no válido**: este estado indica que se activó alguna advertencia o mensaje durante el procesamiento de la fila, y podría haber evitado que el sistema guarde los cambios en esa fila. En la cuadrícula antigua, si la operación de guardado resultó incorrecta, se le hubiera obligado a volver a la fila para solucionar el problema de inmediato. Sin embargo, en la nueva cuadrícula, se le notifica que se encontró un problema de validación, pero puede decidir cuándo desea solucionarlo. Cuando esté listo para solucionar un problema, puede mover manualmente el foco de nuevo a la fila. Alternativamente, puede seleccionar la acción **Solucionar este problema**. Esta acción mueve inmediatamente el foco a la fila que tiene el problema y le permite realizar modificaciones dentro o fuera de la cuadrícula. Tenga en cuenta que el procesamiento de las filas pendientes posteriores se detiene hasta que se resuelve esta advertencia de validación. 
+- **Pausado**: este estado indica que el procesamiento por parte del servidor está en pausa porque la validación de la fila activó un cuadro de diálogo emergente que requiere la intervención del usuario. Debido a que el usuario podría estar introduciendo datos en alguna otra fila, el cuadro de diálogo emergente no se presenta de inmediato a ese usuario. En cambio, se presentará cuando el usuario elija reanudar el procesamiento. Este estado va acompañado de una notificación que informa al usuario sobre la situación. La notificación incluye una acción **Reanudar procesamiento** que activa el cuadro de diálogo emergente.  
     
-Cuando los usuarios ingresan datos con antelación al lugar donde el servidor está procesando, pueden esperar algunas degradaciones en la experiencia de entrada de datos, como la falta de búsquedas, la validación de nivel de control y la entrada de valores predeterminados. Se recomienda a los usuarios que necesitan una lista desplegable para encontrar un valor que esperen a que el servidor se ponga al día con la fila actual. La validación de nivel de control y la entrada de valores predeterminados también ocurrirán cuando el servidor procese esa fila.   
+Cuando los usuarios introducen datos con antelación al lugar donde el servidor está procesando, pueden esperar algunas degradaciones en la experiencia de entrada de datos, como la falta de búsquedas, la validación de nivel de control y la entrada de valores predeterminados. Se recomienda a los usuarios que necesitan una lista desplegable para encontrar un valor que esperen a que el servidor se ponga al día con la fila actual. La validación de nivel de control y la entrada de valores predeterminados también ocurrirán cuando el servidor procese esa fila.   
 
 ### <a name="pasting-from-excel"></a>Pegar desde Excel
-Los usuarios siempre han podido exportar datos de cuadrículas en aplicaciones de Finance and Operations a Excel utilizando el mecanismo **Exportar a Excel**. Sin embargo, la capacidad de ingresar datos por delante del sistema permite que la nueva cuadrícula admita copiar tablas de Excel y pegarlas directamente en cuadrículas en las aplicaciones de Finance and Operations. La celda de la cuadrícula desde la que se inicia la operación de pegado determina dónde comienza a pegarse la tabla copiada. El contenido de la cuadrícula se sobrescribe con el contenido de la tabla copiada, excepto en dos casos:
+Los usuarios siempre han podido exportar datos de cuadrículas en aplicaciones de Finance and Operations a Excel utilizando el mecanismo **Exportar a Excel**. Sin embargo, la capacidad de introducir datos por delante del sistema permite que la nueva cuadrícula admita copiar tablas de Excel y pegarlas directamente en cuadrículas en las aplicaciones de Finance and Operations. La celda de la cuadrícula desde la que se inicia la operación de pegado determina dónde comienza a pegarse la tabla copiada. El contenido de la cuadrícula se sobrescribe con el contenido de la tabla copiada, excepto en dos casos:
 
 - Si el número de columnas en la tabla copiada excede el número de columnas que permanecen en la cuadrícula, comenzando desde la ubicación de pegado, se notifica al usuario de que se han ignorado las columnas adicionales. 
 - Si el número de filas en la tabla copiada excede el número de filas en la cuadrícula, comenzando desde la ubicación de pegado, el contenido pegado sobrescribe las celdas existentes y las filas adicionales de la tabla copiada se insertan como nuevas filas en la parte inferior de la cuadrícula. 
@@ -107,7 +107,7 @@ Los usuarios siempre han podido exportar datos de cuadrículas en aplicaciones d
 ## <a name="evaluating-math-expressions"></a>Evaluar expresiones matemáticas
 Como un refuerzo de productividad, los usuarios pueden introducir fórmulas matemáticas en celdas numéricas en una cuadrícula. No tienen que hacer el cálculo en una aplicación fuera del sistema. Por ejemplo, si introduce **= 15\*4** y después pulsa la tecla **Tab** para salir del campo, el sistema evaluará la expresión y guardará un valor de **60** para el campo.
 
-Para que el sistema reconozca un valor como una expresión, comience el valor con un signo igual (**=**). Para obtener más información sobre los operadores y la sintaxis compatibles, vea [Símbolos matemáticos admitidos](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
+Para que el sistema reconozca un valor como una expresión, comience el valor con un signo igual (**=**). Para obtener más información sobre los operadores y la sintaxis compatibles, consulte [Símbolos matemáticos admitidos](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
 
 ## <a name="frequently-asked-questions"></a>Preguntas frecuentes
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>¿Cómo habilito el nuevo control de cuadrícula en mi entorno? 
@@ -122,68 +122,75 @@ Para que el sistema reconozca un valor como una expresión, comience el valor co
 
 2. **Restablecer IIS** para vaciar la memoria caché estática de la distribución de paquetes piloto. 
 
-3.  **Encontrar la característica**: vaya al espacio de trabajo **Administración de características**. Si **Nuevo control de cuadrícula** no aparece en la lista de todas las funciones, seleccione **Buscar actualizaciones**.   
+3.  **Encontrar la característica**: vaya al espacio de trabajo **Administración de características**. Si **Nuevo control de cuadrícula** no aparece en la lista de todas las características, seleccione **Buscar actualizaciones**.   
 
 4.  **Habilitar la característica**: encuentre la característica **Nuevo control de cuadrícula** en la lista de características y seleccione **Habilitar ahora** en el panel de detalles. Tenga en cuenta que se requiere una actualización del navegador. 
 
 Todas las sesiones de usuario posteriores comenzarán con el nuevo control de cuadrícula habilitado.
 
 ## <a name="known-issues"></a>Problemas conocidos
-Esta sección mantiene una lista de problemas conocidos para el nuevo control de cuadrícula mientras la función está en un estado de vista previa.  
+Esta sección mantiene una lista de problemas conocidos para el nuevo control de cuadrícula mientras la característica está en un estado de vista previa.  
 
 ### <a name="open-issues"></a>Problemas abiertos
 
 - Las listas de tarjetas que se representaban como columnas múltiples ahora se representan como una sola columna.
 - Las listas agrupadas no se representan como grupos o en columnas separadas.
-- La información sobre herramientas no se muestra para las imágenes.
-- La visualización de líneas de cuadrícula no funciona para todos los tipos de campo.
-- De forma intermitente, no puede hacer clic fuera de la cuadrícula después de seleccionar varias filas.
-- Las opciones del Grabador de tareas **Validar** y **Copiar** no están disponibles para los controles de fecha/número.
+
+### <a name="fixed-as-part-of-10013"></a>Corregido como parte de 10.0.13
+
+> [!NOTE]
+> Se proporciona la siguiente información para que pueda planificar en consecuencia. Para obtener más información acerca la programación de lanzamiento de la versión 10.0.13 objetivo, consulte [Disponibilidad de actualización del servicio](../../fin-ops/get-started/public-preview-releases.md).
+
+- [KB 4563317] La información sobre herramientas no se muestra para las imágenes.
 
 ### <a name="fixed-as-part-of-10012"></a>Corregido como parte de 10.0.12
 
-> [!Note]
-> Se proporciona la siguiente información para que pueda planificar en consecuencia. Para obtener más información acerca la programación de lanzamiento de la versión 10.0.12 objetivo, consulte [Disponibilidad de actualización del servicio](../../fin-ops/get-started/public-preview-releases.md).
-
-- [Problema 429126] Los controles fuera de la cuadrícula no se actualizan después de eliminar el último registro.
-- [Problema 430575] Los controles de tabla no actualizan el contenido de los elementos mostrados.
+- [KB 4558545] Los controles de tabla no actualizan el contenido de los elementos mostrados.
 - [KB 4558570] Los elementos aún se muestran en la página una vez que se ha eliminado el registro.
-- [KB 4558584] Los números negativos no se representan correctamente.
-- [KB 4558575] Los campos no se actualizan después de un cambio de fila/El procesamiento de cuadrícula se atasca después de la eliminación de filas.
-- [Problema 436980] No se aplica el estilo asociado con el Panel de lista **ExtendedStyle**.
+- [KB 4558572] No se aplica el estilo asociado con el Panel de lista **ExtendedStyle**.
 - [KB 4558573] Los errores de validación no se pueden corregir cuando el cambio requerido está fuera de la cuadrícula.
-    
-### <a name="quality-update-for-10011"></a>Actualización de calidad para 10.0.11
-
-- [KB 4558381] Los números negativos no se representan correctamente/Los usuarios a veces se bloquean después de encontrar problemas de validación.
+- [KB 4558584] Los números negativos no se representan correctamente.
+- [KB 4560726] Se produce un "error inesperado del cliente" después de que el intercambio entre listas se realiza mediante un control de Vista de lista.
+- [KB 4562141] Los índices de cuadrícula se desactivan después de agregar un nuevo registro.
+- [KB 4562151] Las opciones del grabador de tareas **Validar** y **Copiar** no están disponibles para los controles de fecha/número. 
+- [KB 4562153] Las casillas de selección múltiple no están visibles en las cuadrículas de listas/tarjetas.
+- [KB 4562646] En ocasiones, no puede hacer clic fuera de la cuadrícula después de seleccionar varias filas en la cuadrícula.
+- [KB 4562647] El foco se restablece al primer control en el cuadro de diálogo **Publicar** después de agregar una nueva fila en la cuadrícula de roles de seguridad.
+- [KB 4563310] La vista previa mejorada no se cierra después de cambiar una fila.
+- [KB 4563313] Se produce un "error inesperado del cliente" en Internet Explorer cuando se selecciona un valor en una búsqueda.
+- [KB 4563324] La navegación no funciona después de abierto el espacio de trabajo **Gestión de personal**.
 
 ### <a name="fixed-as-part-of-10011"></a>Corregido como parte de 10.0.11
 
+- [Problema 432458] Las líneas vacías o duplicadas se muestran al comienzo de algunas colecciones secundarias.
+- [KB 4549711] Las líneas de una propuesta de pago no se pueden eliminar correctamente después de habilitar el nuevo control de cuadrícula.
 - [KB 4558374] No se pueden crear registros que requieran un cuadro de diálogo selector polimórfico.
-- [KB 4558382] Se producen errores inesperados del cliente.
 - [KB 4558375] El texto de ayuda no se muestra en las columnas de la nueva cuadrícula.
 - [KB 4558376] Las cuadrículas del panel de lista no se representan a la altura correcta en Internet Explorer.
 - [KB 4558377] Las columnas de cuadro combinado que tienen el ancho **SizeToAvailable** no se representan en algunas páginas.
-- [KB 4549711] Las líneas de una propuesta de pago no se pueden eliminar correctamente después de habilitar el nuevo control de cuadrícula.
 - [KB 4558378] La obtención de detalles a veces abre el registro incorrecto.
 - [KB 4558379] Se produce un error cuando se abren búsquedas donde **ReplaceOnLookup**=**No**.
 - [KB 4558380] El espacio disponible en la cuadrícula no se llena inmediatamente después de que se contrae parte de la página.
-- [Problema 432458] Las líneas vacías o duplicadas se muestran al comienzo de algunas colecciones secundarias.
+- [KB 4558381] Los números negativos no se representan correctamente/Los usuarios a veces se bloquean después de encontrar problemas de validación.
+- [KB 4558382] Se producen errores inesperados del cliente.
+- [KB 4558383] Los controles fuera de la cuadrícula no se actualizan después de eliminar el último registro.
 - [KB 4558587] Los grupos de referencia que tienen cuadros combinados para los campos de reemplazo no muestran valores.
+- [KB 4562143] Los campos no se actualizan después de un cambio de fila/El procesamiento de cuadrícula se atasca después de la eliminación de filas.
+- [KB 4562645] Se produce una excepción cuando se abre una búsqueda mientras se ejecutan las pruebas de Herramientas de administración remota del servidor (RSAT).
 
 ### <a name="fixed-as-part-of-10010"></a>Corregido como parte de 10.0.10
 
 - [Problema 414301] Algunos datos de líneas anteriores desaparecen cuando se crean nuevas líneas.
-- [KB 4550367] Los valores de tiempo no tienen el formato correcto.
-- [KB 4549734] Las filas activas no se tratan como marcadas si la columna de marcado está oculta.
 - [Error 417044] No hay un mensaje de cuadrícula vacío para las cuadrículas de estilo de lista.
-- [KB 4558367] La selección de texto es inconsistente cuando se cambian las filas.
-- [KB 4558372] La nueva cuadrícula se bloquea en el modo de procesamiento si el número de columnas en el contenido que se pega excede el número de columnas restantes en la cuadrícula.
-- [KB 4558368] La selección múltiple con el teclado está permitida en escenarios de selección única.
 - [KB 4539058] Algunas cuadrículas (generalmente en fichas desplegables) a veces no se representan (pero se mostrarán si se aleja la imagen).
+- [KB 4549734] Las filas activas no se tratan como marcadas si la columna de marcado está oculta.
+- [KB 4549796] Los valores no se pueden editar en una cuadrícula cuando está en modo de vista.
+- [KB 4558367] La selección de texto es inconsistente cuando se cambian las filas.
+- [KB 4558368] La selección múltiple con el teclado está permitida en escenarios de selección única.
 - [KB 4558369] Las imágenes de estado desaparecen en la cuadrícula jerárquica.
 - [KB 4558370] Una fila nueva no se desplaza hasta la vista.
-- [KB 4549796] Los valores no se pueden editar en una cuadrícula cuando está en modo de vista.
+- [KB 4558372] La nueva cuadrícula se bloquea en el modo de procesamiento si el número de columnas en el contenido que se pega excede el número de columnas restantes en la cuadrícula.
+- [KB 4562631] Los valores de tiempo no tienen el formato correcto.
 
 ### <a name="quality-update-for-1009platform-update-33"></a>Actualización de calidad para 10.0.9/Actualización de plataforma 33
 

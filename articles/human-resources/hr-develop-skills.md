@@ -1,6 +1,6 @@
 ---
 title: Alienación de las aptitudes de los recursos con las necesidades empresariales
-description: Puede realizar un seguimiento de las aptitudes que los trabajadores, los candidatos o las personas de contacto tienen o deben tener para cumplir adecuadamente con sus funciones. También puede especificar las aptitudes necesarias para un puesto concreto.
+description: Puede realizar un seguimiento de las aptitudes que los trabajadores, los candidatos o las personas de contacto tienen o deben tener para cumplir adecuadamente con sus características. También puede especificar las aptitudes necesarias para un puesto concreto.
 author: andreabichsel
 manager: AnnBe
 ms.date: 11/01/2017
@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-human-resources
 ms.technology: ''
-ms.search.form: HcmSkill, HcmSkillGapProfile, HcmSkillMapping, HcmSkillType
+ms.search.form: HcmSkill, HcmSkillGapProfile, HcmSkillMapping, HcmSkillType, HcmEmployeeDevelopmentWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Core, Operations, Human Resources
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: da9eb140431d00f11f86b70d4e88ee20750fa7c9
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 7abaa99bdec5fcf20a63bfeb716ebb63dd3712df
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010465"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3430426"
 ---
 # <a name="align-workforce-skills-with-business-needs"></a>Alienación de las aptitudes de los recursos con las necesidades empresariales
 
-Puede realizar un seguimiento de las aptitudes que los trabajadores, los candidatos o las personas de contacto tienen o deben tener para cumplir adecuadamente con sus funciones. También puede especificar las aptitudes necesarias para un puesto concreto.
+Puede realizar un seguimiento de las aptitudes que los trabajadores, los candidatos o las personas de contacto tienen o deben tener para cumplir adecuadamente con sus características. También puede especificar las aptitudes necesarias para un puesto concreto.
 
 Estos son ejemplos de aptitudes de las que se puede hacer un seguimiento:
 -   Supervisión: capacidad para supervisar el trabajo de los demás.
@@ -46,7 +46,7 @@ Cuando se incluye información acerca de un trabajo, se pueden especificar las a
 ## <a name="enter-skills-for-workers-applicants-or-contacts"></a>Especificar las aptitudes para trabajadores, candidatos o contactos
 Puede especificar aptitudes objetivo o aptitudes reales para trabajadores, candidatos o contactos. Una aptitud objetivo es una aptitud una persona tiene previsto lograr. Una aptitud real es una aptitud que una persona tiene actualmente.
 
-## <a name="skill-mapping-and-skill-mapping-profiles"></a> Distribución de habilidades y perfiles de distribución de habilidades
+## <a name="skill-mapping-and-skill-mapping-profiles"></a>Distribución de habilidades y perfiles de distribución de habilidades
 Puede crear una búsqueda de distribución de aptitudes para encontrar un trabajador, un candidato o una persona de contacto cualificada para realizar un tipo específico de tarea. Las búsquedas de distribución de aptitudes realizan búsquedas de aptitudes, formación, certificados, puestos de confianza y experiencia en proyectos, y devuelven resultados que coincidan con los criterios especificados.  Por ejemplo, puede ser útil saber qué trabajadores de su organización tienen determinados certificados.
 
 Los perfiles de distribución de aptitudes le permiten buscar empleados o candidatos actuales con cualificaciones que se correspondan directamente con sus necesidades empresariales.  Por ejemplo, podría crear un perfil de distribución de aptitudes para una vacante en su organización. Al crear un perfil para un determinado trabajo y copiar las aptitudes, la formación y los certificados de dicho trabajo al perfil, puede buscar rápidamente trabajadores, candidatos y personas de contacto que coincidan con uno o más de los criterios especificados en el perfil y ver una lista de los candidatos cuyas habilidades coincidan más con las aptitudes necesarias para el trabajo.

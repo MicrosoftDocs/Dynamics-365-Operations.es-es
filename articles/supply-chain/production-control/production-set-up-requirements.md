@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55820d7376750c210d2b7f214f705ffcb222c6cd
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 0513392fe066e02f0789bcfadb0ee676559cb223
+ms.sourcegitcommit: f3456df4d91cf0c51cd395ae64e3c192bd46835e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212512"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428409"
 ---
 # <a name="production-setup-requirements"></a>Requisitos de configuración de producción
 
@@ -32,7 +32,7 @@ ms.locfileid: "3212512"
 
 Este artículo proporciona información acerca de los requisitos de configuración para poder trabajar con el Control de producción. 
 
-Control de producción se integra con funciones de otros módulos. Esta interconectividad le permite modificar las órdenes de producción y garantizar que se actualizan automáticamente en los demás procesos y cálculos del sistema. Los siguientes procesos de configuración se enumeran en el orden en que se deben realizar.
+Control de producción se integra con características de otros módulos. Esta interconectividad le permite modificar las órdenes de producción y garantizar que se actualizan automáticamente en los demás procesos y cálculos del sistema. Los siguientes procesos de configuración se enumeran en el orden en que se deben realizar.
 
 ## <a name="required-baseline-setup-in-other-modules"></a>Configuración de línea base requerida en los demás módulos
 Para poder trabajar con Control de producción, debe configurarse previamente información en los demás módulos. Esta configuración incluye las tareas siguientes:
@@ -71,7 +71,7 @@ Si trabaja con rutas, deben definirse operaciones para cada ruta de producción 
 2.  **Grupos de coste**: configure grupos de costes para crear y mantener diferentes tipos de versiones de costes.
 3.  **Grupos de rutas**: configure grupos de rutas para definir parámetros relacionados con los grupos de rutas. Debe configurar los grupos de rutas antes de poder crear rutas de producción.
 4.  **Rutas**: configure rutas de producción y defina los parámetros predeterminados para el control de programación, las operaciones de coste y el precio de rutas y controlar los informes de progreso.
-5.  **Rutas**: configure versiones de ruta para habilitar variaciones del artículo en la producción.
+5.  **Versión de ruta**: configure versiones de ruta para habilitar variaciones del artículo en la producción.
 
 ## <a name="optional-advanced-settings"></a>Parámetros avanzados opcionales
 1.  **Grupos de producción**: configure grupos de producción para establecer relaciones entre la orden de producción y las cuentas contables. Las cuentas contables se usan para registrar o agrupar pedidos que están listos para informe.
