@@ -5,6 +5,8 @@
       items:
         - name: Novedades y cambios en Human Resources
           href: hr-admin-whats-new.md
+        - name: 28 de mayo de 2020
+          href: hr-whats-new-2020-05-28.md
         - name: 14 de mayo de 2020
           href: hr-whats-new-2020-05-14.md
         - name: 1 de mayo de 2020
@@ -489,37 +491,43 @@
               href: hr-benefits-expiration-dates.md
             - name: Generar informes ACA
               href: hr-benefits-aca-reports.md
-        - name: Administrar permisos y ausencias
+        - name: Administrar bajas y ausencias
           items:
             - name: Visión general
               href: hr-leave-and-absence-overview.md
-            - name: Configurar parámetros de permisos y ausencias
+            - name: Configurar parámetros de bajas y ausencias
               href: hr-leave-and-absence-parameters.md
             - name: Crear un calendario de horas de trabajo
               href: hr-leave-and-absence-working-time-calendar.md
             - name: Crear un flujo de trabajo de solicitud de baja
               href: hr-leave-and-absence-workflow.md
-            - name: Configurar tipos de permisos y ausencias
+            - name: Configurar tipos de bajas y ausencias
               href: hr-leave-and-absence-types.md
-            - name: Crear un plan de permisos y ausencias
+            - name: Crear un plan de bajas y ausencias
               href: hr-leave-and-absence-plans.md
-            - name: Asignar trabajadores a un plan de ausencias
+            - name: Asignar trabajadores a un plan de bajas
               href: hr-leave-and-absence-enroll.md
             - name: Acumular planes de bajas y ausencias
               href: hr-leave-and-absence-accrue.md
             - name: Suspender baja
               href: hr-leave-and-absence-suspend-leave.md
+            - name: Solicitud de permiso para ausentarse
+              href: hr-employee-self-service-request-leave-of-absence.md
             - name: Administrar bajas de empleados
               href: hr-leave-and-absence-manage-employee-leave.md
-            - name: Ver análisis de permisos y ausencias
+            - name: Ver análisis de bajas y ausencias
               href: hr-leave-and-absence-analytics.md
-            - name: Administrar solicitudes de permisos y ausencias
+            - name: Administrar solicitudes de bajas y ausencias
               href: hr-employee-self-service-manage-requests.md
             - name: Solicitar permiso
               href: hr-employee-self-service-request-time-off.md
             - name: Ver calendarios de equipo y empresa
               href: hr-employee-self-service-calendar.md
-        - name: Administrar solicitudes de permisos en Teams
+            - name: Gestionar directivas de compra y venta de bajas
+              href: hr-leave-and-absence-manage-buy-and-sell-leave-policies.md
+            - name: Comprar y vender bajas
+              href: hr-employee-self-service-buy-sell-leave.md
+        - name: Administrar solicitudes de bajas en Teams
           href: hr-teams-leave-app.md
         - name: Desarrollar empleados
           items:
