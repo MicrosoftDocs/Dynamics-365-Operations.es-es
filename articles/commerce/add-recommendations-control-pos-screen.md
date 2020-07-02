@@ -3,7 +3,7 @@ title: Agregar recomendaciones a la pantalla de transacción
 description: Este tema describe cómo agregar un control de recomendaciones a la pantalla de transacción en un dispositivo de punto de venta (PDV) mediante el diseñador de pantalla en Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 05/26/20
+ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,101 +19,101 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 77870cd19ebf15a72f323f116579f7769a766995
-ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
+ms.openlocfilehash: 760e6e093dbe0ba6b2781f90af7fbb614c492b93
+ms.sourcegitcommit: ac47e8679fb104515f7dcca509294264bd05d2b1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3404242"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454588"
 ---
-# <a name="add-recommendations-to-the-transaction-screen"></a><span data-ttu-id="dfd78-103">Agregar recomendaciones a la pantalla de transacción</span><span class="sxs-lookup"><span data-stu-id="dfd78-103">Add recommendations to the transaction screen</span></span>
+# <a name="add-recommendations-to-the-transaction-screen"></a><span data-ttu-id="71c51-103">Agregar recomendaciones a la pantalla de transacción</span><span class="sxs-lookup"><span data-stu-id="71c51-103">Add recommendations to the transaction screen</span></span>
 
 [!include [banner](includes/banner.md)]
 
 
-<span data-ttu-id="dfd78-104">Este tema describe cómo agregar un control de recomendaciones a la pantalla de transacción en un dispositivo de punto de venta (PDV) mediante el diseñador de pantalla en Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="dfd78-104">This topic describes how to add a recommendations control to the transaction screen on a point of sale (POS) device using the screen layout designer in Microsoft Dynamics 365 Commerce.</span></span> <span data-ttu-id="dfd78-105">Para obtener más información sobre recomendaciones del producto, lea [recomendaciones del producto en la documentación de PDV](product.md).</span><span class="sxs-lookup"><span data-stu-id="dfd78-105">For more information about product recommendations, read the  [product recommendations on POS documentation](product.md).</span></span>
+<span data-ttu-id="71c51-104">Este tema describe cómo agregar un control de recomendaciones a la pantalla de transacción en un dispositivo de punto de venta (PDV) mediante el diseñador de pantalla en Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="71c51-104">This topic describes how to add a recommendations control to the transaction screen on a point of sale (POS) device using the screen layout designer in Microsoft Dynamics 365 Commerce.</span></span> <span data-ttu-id="71c51-105">Para obtener más información sobre recomendaciones del producto, lea [recomendaciones del producto en la documentación de PDV](product.md).</span><span class="sxs-lookup"><span data-stu-id="71c51-105">For more information about product recommendations, read the  [product recommendations on POS documentation](product.md).</span></span>
 
 
-<span data-ttu-id="dfd78-106">Puede mostrar recomendaciones del producto en el dispositivo de PDV cuando utilice Commerce.</span><span class="sxs-lookup"><span data-stu-id="dfd78-106">You can display product recommendations on your POS device when you use Commerce.</span></span> <span data-ttu-id="dfd78-107">Para mostrar recomendaciones del producto, debe agregar un control a la pantalla de transacción mediante el diseñador de pantalla.</span><span class="sxs-lookup"><span data-stu-id="dfd78-107">To display product recommendations, you need to add a control to the transaction screen using the screen layout designer.</span></span> 
+<span data-ttu-id="71c51-106">Puede mostrar recomendaciones del producto en el dispositivo de PDV cuando utilice Commerce.</span><span class="sxs-lookup"><span data-stu-id="71c51-106">You can display product recommendations on your POS device when you use Commerce.</span></span> <span data-ttu-id="71c51-107">Para mostrar recomendaciones del producto, debe agregar un control a la pantalla de transacción mediante el diseñador de pantalla.</span><span class="sxs-lookup"><span data-stu-id="71c51-107">To display product recommendations, you need to add a control to the transaction screen using the screen layout designer.</span></span> 
 
-## <a name="open-layout-designer"></a><span data-ttu-id="dfd78-108">Abra el Diseñador</span><span class="sxs-lookup"><span data-stu-id="dfd78-108">Open Layout designer</span></span>
+## <a name="open-layout-designer"></a><span data-ttu-id="71c51-108">Abra el Diseñador</span><span class="sxs-lookup"><span data-stu-id="71c51-108">Open Layout designer</span></span>
 
-1. <span data-ttu-id="dfd78-109">Vaya a **Retail y Commerce** &gt; **Configuración de canal** &gt; **Configuración de PDV** &gt; **PDV** &gt; **Diseños de pantalla**.</span><span class="sxs-lookup"><span data-stu-id="dfd78-109">Go to **Retail and Commerce** &gt; **Channel setup** &gt; **POS setup** &gt; **POS** &gt; **Screen layouts**.</span></span>
-2. <span data-ttu-id="dfd78-110">Utilice el filtro rápido para buscar la pantallla a la que desea agregar el control.</span><span class="sxs-lookup"><span data-stu-id="dfd78-110">Use the Quick Filter to find the screen that you want to add the control to.</span></span> <span data-ttu-id="dfd78-111">Por ejemplo, filtro el campo **Id. de diseño de pantalla** usando un valor de **F2CP16:9M**.</span><span class="sxs-lookup"><span data-stu-id="dfd78-111">For example, filter on the **Screen layout ID** field using a value of **F2CP16:9M**.</span></span>
-3. <span data-ttu-id="dfd78-112">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="dfd78-112">In the list, find and select the desired record.</span></span> <span data-ttu-id="dfd78-113">Por ejemplo, seleccione **Nombre: F2CP16:9M Id. de diseño de pantalla: F2CP16:9M**.</span><span class="sxs-lookup"><span data-stu-id="dfd78-113">For example, select **Name: F2CP16:9M Screen Layout ID: F2CP16:9M**.</span></span>
-4. <span data-ttu-id="dfd78-114">Haga clic en **Diseñador**.</span><span class="sxs-lookup"><span data-stu-id="dfd78-114">Click **Layout designer**.</span></span>
-5. <span data-ttu-id="dfd78-115">Siga las instrucciones para iniciar al diseñador.</span><span class="sxs-lookup"><span data-stu-id="dfd78-115">Follow the prompts to launch the layout designer.</span></span> <span data-ttu-id="dfd78-116">Cuando se le soliciten las credenciales, introduzca las mismas credenciales que utilizó cuando se inició el Diseñador desde la página **Diseños de pantalla**.</span><span class="sxs-lookup"><span data-stu-id="dfd78-116">When prompted for credentials, enter the same credentials that were in use when the Layout designer was launched from **Screen layouts** page.</span></span>
-6. <span data-ttu-id="dfd78-117">Cuando inicie sesión, aparece una página similar a la siguiente.</span><span class="sxs-lookup"><span data-stu-id="dfd78-117">When you log in, a page similar to the one below appears.</span></span> <span data-ttu-id="dfd78-118">El diseño variará en función de las personalizaciones que se crearon para su tienda.</span><span class="sxs-lookup"><span data-stu-id="dfd78-118">The layout will be different depending on the customizations that were made for your store.</span></span>
-
-
-    <span data-ttu-id="dfd78-119">[![Diseñador](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)</span><span class="sxs-lookup"><span data-stu-id="dfd78-119">[![Layout designer](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)</span></span>
-
-## <a name="choose-a-display-option"></a><span data-ttu-id="dfd78-120">Elija una opción de visualización</span><span class="sxs-lookup"><span data-stu-id="dfd78-120">Choose a display option</span></span>
-
-<span data-ttu-id="dfd78-121">Hay dos opciones de configuración disponibles:</span><span class="sxs-lookup"><span data-stu-id="dfd78-121">There are two configurations options available.</span></span> <span data-ttu-id="dfd78-122">Elija la opción que mejor se ajuste a su tienda y siga las instrucciones restantes para finalizar la configuración del control.</span><span class="sxs-lookup"><span data-stu-id="dfd78-122">Choose the option that works best for your store, and follow the remaining instructions to finish setting up the control.</span></span> <span data-ttu-id="dfd78-123">Las dos opciones son:</span><span class="sxs-lookup"><span data-stu-id="dfd78-123">The two options are:</span></span>
-
-- <span data-ttu-id="dfd78-124">Las recomendaciones siempre están visibles.</span><span class="sxs-lookup"><span data-stu-id="dfd78-124">Recommendations are always visible.</span></span>
-- <span data-ttu-id="dfd78-125">Aparece una pestaña de **Recomendaciones** en la cuadrícula del lado derecho de la pantalla.</span><span class="sxs-lookup"><span data-stu-id="dfd78-125">A **Recommendations** tab appears in the grid on the right side of the screen.</span></span>
-
-### <a name="make-recommendations-always-visible"></a><span data-ttu-id="dfd78-126">Hacer que las recomendaciones estén siempre visibles</span><span class="sxs-lookup"><span data-stu-id="dfd78-126">Make recommendations always visible</span></span>
+1. <span data-ttu-id="71c51-109">Vaya a **Retail y Commerce** &gt; **Configuración de canal** &gt; **Configuración de PDV** &gt; **PDV** &gt; **Diseños de pantalla**.</span><span class="sxs-lookup"><span data-stu-id="71c51-109">Go to **Retail and Commerce** &gt; **Channel setup** &gt; **POS setup** &gt; **POS** &gt; **Screen layouts**.</span></span>
+2. <span data-ttu-id="71c51-110">Utilice el filtro rápido para buscar la pantallla a la que desea agregar el control.</span><span class="sxs-lookup"><span data-stu-id="71c51-110">Use the Quick Filter to find the screen that you want to add the control to.</span></span> <span data-ttu-id="71c51-111">Por ejemplo, filtro el campo **Id. de diseño de pantalla** usando un valor de **F2CP16:9M**.</span><span class="sxs-lookup"><span data-stu-id="71c51-111">For example, filter on the **Screen layout ID** field using a value of **F2CP16:9M**.</span></span>
+3. <span data-ttu-id="71c51-112">En la lista, busque y seleccione el registro deseado.</span><span class="sxs-lookup"><span data-stu-id="71c51-112">In the list, find and select the desired record.</span></span> <span data-ttu-id="71c51-113">Por ejemplo, seleccione **Nombre: F2CP16:9M Id. de diseño de pantalla: F2CP16:9M**.</span><span class="sxs-lookup"><span data-stu-id="71c51-113">For example, select **Name: F2CP16:9M Screen Layout ID: F2CP16:9M**.</span></span>
+4. <span data-ttu-id="71c51-114">Haga clic en **Diseñador**.</span><span class="sxs-lookup"><span data-stu-id="71c51-114">Click **Layout designer**.</span></span>
+5. <span data-ttu-id="71c51-115">Siga las instrucciones para iniciar al diseñador.</span><span class="sxs-lookup"><span data-stu-id="71c51-115">Follow the prompts to launch the layout designer.</span></span> <span data-ttu-id="71c51-116">Cuando se le soliciten las credenciales, introduzca las mismas credenciales que utilizó cuando se inició el Diseñador desde la página **Diseños de pantalla**.</span><span class="sxs-lookup"><span data-stu-id="71c51-116">When prompted for credentials, enter the same credentials that were in use when the Layout designer was launched from **Screen layouts** page.</span></span>
+6. <span data-ttu-id="71c51-117">Cuando inicie sesión, aparece una página similar a la siguiente.</span><span class="sxs-lookup"><span data-stu-id="71c51-117">When you log in, a page similar to the one below appears.</span></span> <span data-ttu-id="71c51-118">El diseño variará en función de las personalizaciones que se crearon para su tienda.</span><span class="sxs-lookup"><span data-stu-id="71c51-118">The layout will be different depending on the customizations that were made for your store.</span></span>
 
 
-1. <span data-ttu-id="dfd78-127">Reduzca la altura del área de detalles de las líneas de transacción de manera que tenga la misma altura que el panel de cliente a la izquierda.</span><span class="sxs-lookup"><span data-stu-id="dfd78-127">Reduce the height of the transaction lines details area so that it is the same height as the customer panel to its left.</span></span>
+    <span data-ttu-id="71c51-119">[![Diseñador](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)</span><span class="sxs-lookup"><span data-stu-id="71c51-119">[![Layout designer](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)</span></span>
+
+## <a name="choose-a-display-option"></a><span data-ttu-id="71c51-120">Elija una opción de visualización</span><span class="sxs-lookup"><span data-stu-id="71c51-120">Choose a display option</span></span>
+
+<span data-ttu-id="71c51-121">Hay dos opciones de configuración disponibles:</span><span class="sxs-lookup"><span data-stu-id="71c51-121">There are two configurations options available.</span></span> <span data-ttu-id="71c51-122">Elija la opción que mejor se ajuste a su tienda y siga las instrucciones restantes para finalizar la configuración del control.</span><span class="sxs-lookup"><span data-stu-id="71c51-122">Choose the option that works best for your store, and follow the remaining instructions to finish setting up the control.</span></span> <span data-ttu-id="71c51-123">Las dos opciones son:</span><span class="sxs-lookup"><span data-stu-id="71c51-123">The two options are:</span></span>
+
+- <span data-ttu-id="71c51-124">Las recomendaciones siempre están visibles.</span><span class="sxs-lookup"><span data-stu-id="71c51-124">Recommendations are always visible.</span></span>
+- <span data-ttu-id="71c51-125">Aparece una pestaña de **Recomendaciones** en la cuadrícula del lado derecho de la pantalla.</span><span class="sxs-lookup"><span data-stu-id="71c51-125">A **Recommendations** tab appears in the grid on the right side of the screen.</span></span>
+
+### <a name="make-recommendations-always-visible"></a><span data-ttu-id="71c51-126">Hacer que las recomendaciones estén siempre visibles</span><span class="sxs-lookup"><span data-stu-id="71c51-126">Make recommendations always visible</span></span>
 
 
-    <span data-ttu-id="dfd78-128">[![La altura del espacio de los detalles de las líneas de transacción se ha reducido](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)</span><span class="sxs-lookup"><span data-stu-id="dfd78-128">[![Height of the transaction lines details area reduced](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)</span></span>
-
-2. <span data-ttu-id="dfd78-129">En el menú de la izquierda, arrastre y suelte el control de recomendaciones entre el área de detalles de la línea de transacción y la cuadrícula de botones en la parte inferior central de la pantalla de transición.</span><span class="sxs-lookup"><span data-stu-id="dfd78-129">From the menu on the left, drag and drop the recommendations control to between the transaction line details area and the button grid in the center bottom of the transaction screen.</span></span> <span data-ttu-id="dfd78-130">Cambie el control de modo que se ajuste a ese espacio.</span><span class="sxs-lookup"><span data-stu-id="dfd78-130">Resize the control so it fits in that space.</span></span>
-
-    <span data-ttu-id="dfd78-131">[![Se han agreado al diseño las recomendaciones de control](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)</span><span class="sxs-lookup"><span data-stu-id="dfd78-131">[![Recommendations control added to the layout](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)</span></span>
+1. <span data-ttu-id="71c51-127">Reduzca la altura del área de detalles de las líneas de transacción de manera que tenga la misma altura que el panel de cliente a la izquierda.</span><span class="sxs-lookup"><span data-stu-id="71c51-127">Reduce the height of the transaction lines details area so that it is the same height as the customer panel to its left.</span></span>
 
 
-3. <span data-ttu-id="dfd78-132">Haga clic en la **X** para guardar y salir del Diseñador.</span><span class="sxs-lookup"><span data-stu-id="dfd78-132">Click the **X** to save and exit Layout designer.</span></span>
-4. <span data-ttu-id="dfd78-133">En Commerce, vaya a **Retail y Commerce** &gt; **TI de Retail y Commerce** &gt; **Programaciones de distribución**.</span><span class="sxs-lookup"><span data-stu-id="dfd78-133">In Commerce, go to **Retail and Commerce** &gt; **Retail and Commerce IT** &gt; **Distribution schedules**.</span></span>
-5. <span data-ttu-id="dfd78-134">En la lista, seleccione **1090, Cajas registradoras**.</span><span class="sxs-lookup"><span data-stu-id="dfd78-134">In the list, select **1090 Registers**.</span></span>
-6. <span data-ttu-id="dfd78-135">Haga clic en **Ejecutar ahora**.</span><span class="sxs-lookup"><span data-stu-id="dfd78-135">Click **Run now**.</span></span>
+    <span data-ttu-id="71c51-128">[![La altura del espacio de los detalles de las líneas de transacción se ha reducido](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)</span><span class="sxs-lookup"><span data-stu-id="71c51-128">[![Height of the transaction lines details area reduced](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)</span></span>
+
+2. <span data-ttu-id="71c51-129">En el menú de la izquierda, arrastre y suelte el control de recomendaciones entre el área de detalles de la línea de transacción y la cuadrícula de botones en la parte inferior central de la pantalla de transición.</span><span class="sxs-lookup"><span data-stu-id="71c51-129">From the menu on the left, drag and drop the recommendations control to between the transaction line details area and the button grid in the center bottom of the transaction screen.</span></span> <span data-ttu-id="71c51-130">Cambie el control de modo que se ajuste a ese espacio.</span><span class="sxs-lookup"><span data-stu-id="71c51-130">Resize the control so it fits in that space.</span></span>
+
+    <span data-ttu-id="71c51-131">[![Se han agreado al diseño las recomendaciones de control](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)</span><span class="sxs-lookup"><span data-stu-id="71c51-131">[![Recommendations control added to the layout](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)</span></span>
 
 
-### <a name="add-a-recommendations-tab-to-the-button-grid-on-the-right-side-of-the-screen"></a><span data-ttu-id="dfd78-136">Agregue una pestaña de Recomendaciones a la cuadrícula de botones en el lado derecho de la pantalla</span><span class="sxs-lookup"><span data-stu-id="dfd78-136">Add a Recommendations tab to the button grid on the right side of the screen</span></span>
+3. <span data-ttu-id="71c51-132">Haga clic en la **X** para guardar y salir del Diseñador.</span><span class="sxs-lookup"><span data-stu-id="71c51-132">Click the **X** to save and exit Layout designer.</span></span>
+4. <span data-ttu-id="71c51-133">En Commerce, vaya a **Retail y Commerce** &gt; **TI de Retail y Commerce** &gt; **Programaciones de distribución**.</span><span class="sxs-lookup"><span data-stu-id="71c51-133">In Commerce, go to **Retail and Commerce** &gt; **Retail and Commerce IT** &gt; **Distribution schedules**.</span></span>
+5. <span data-ttu-id="71c51-134">En la lista, seleccione **1090, Cajas registradoras**.</span><span class="sxs-lookup"><span data-stu-id="71c51-134">In the list, select **1090 Registers**.</span></span>
+6. <span data-ttu-id="71c51-135">Haga clic en **Ejecutar ahora**.</span><span class="sxs-lookup"><span data-stu-id="71c51-135">Click **Run now**.</span></span>
 
-1. <span data-ttu-id="dfd78-137">Haga clic con el botón secundario en el espacio vacío por debajo de la última pestaña en la cuadrícula de botones que se encuentra en el lado derecho de la página.</span><span class="sxs-lookup"><span data-stu-id="dfd78-137">Right-click in the empty space below the last tab on the button grid located on the right side of the page.</span></span>
 
-2. <span data-ttu-id="dfd78-138">Haga clic en **personalizar**.</span><span class="sxs-lookup"><span data-stu-id="dfd78-138">Click **Customize**.</span></span>
+### <a name="add-a-recommendations-tab-to-the-button-grid-on-the-right-side-of-the-screen"></a><span data-ttu-id="71c51-136">Agregue una pestaña de Recomendaciones a la cuadrícula de botones en el lado derecho de la pantalla</span><span class="sxs-lookup"><span data-stu-id="71c51-136">Add a Recommendations tab to the button grid on the right side of the screen</span></span>
 
-    <span data-ttu-id="dfd78-139">[![Personalización - Pestaña de control del cuadro de diálogo](./media/pic-5.png)](./media/pic-5.png)</span><span class="sxs-lookup"><span data-stu-id="dfd78-139">[![Customization - Tab control dialog box](./media/pic-5.png)](./media/pic-5.png)</span></span>
+1. <span data-ttu-id="71c51-137">Haga clic con el botón secundario en el espacio vacío por debajo de la última pestaña en la cuadrícula de botones que se encuentra en el lado derecho de la página.</span><span class="sxs-lookup"><span data-stu-id="71c51-137">Right-click in the empty space below the last tab on the button grid located on the right side of the page.</span></span>
 
-3. <span data-ttu-id="dfd78-140">Haga clic en **Nueva pestaña**.</span><span class="sxs-lookup"><span data-stu-id="dfd78-140">Click **New tab**.</span></span>
-4. <span data-ttu-id="dfd78-141">Encuentre la nueva pestaña que acaba de agregar.</span><span class="sxs-lookup"><span data-stu-id="dfd78-141">Find the new tab that you just added.</span></span> <span data-ttu-id="dfd78-142">Es posible que tenga que desplazarse hacia abajo.</span><span class="sxs-lookup"><span data-stu-id="dfd78-142">You may need to scroll down.</span></span>
-5. <span data-ttu-id="dfd78-143">En la lista desplegable **Contenido**, seleccione **Productos recomendados**.</span><span class="sxs-lookup"><span data-stu-id="dfd78-143">In the **Contents** drop-down, select **Recommended products**.</span></span>
+2. <span data-ttu-id="71c51-138">Haga clic en **personalizar**.</span><span class="sxs-lookup"><span data-stu-id="71c51-138">Click **Customize**.</span></span>
 
-    <span data-ttu-id="dfd78-144">[![Seleccionando productos recomendados en el campo contenidos](./media/pic-6.png)](./media/pic-6.png)</span><span class="sxs-lookup"><span data-stu-id="dfd78-144">[![Selecting Recommended products in the Contents field](./media/pic-6.png)](./media/pic-6.png)</span></span>
+    <span data-ttu-id="71c51-139">[![Personalización - Pestaña de control del cuadro de diálogo](./media/pic-5.png)](./media/pic-5.png)</span><span class="sxs-lookup"><span data-stu-id="71c51-139">[![Customization - Tab control dialog box](./media/pic-5.png)](./media/pic-5.png)</span></span>
 
-6. <span data-ttu-id="dfd78-145">En el campo **Etiqueta** , escriba un nombre para la pestaña de recomendaciones. Por ejemplo, escriba "Productos recomendados".</span><span class="sxs-lookup"><span data-stu-id="dfd78-145">In the **Label** field, type a name for the recommendations tab. For example, type 'Recommended products'.</span></span>
-7. <span data-ttu-id="dfd78-146">En el campo **Imagen**, seleccione la imagen que desea que aparezca en la pestaña.</span><span class="sxs-lookup"><span data-stu-id="dfd78-146">In the **Image** field, select the image to appear on the tab.</span></span>
-8. <span data-ttu-id="dfd78-147">Haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="dfd78-147">Click **OK**.</span></span> <span data-ttu-id="dfd78-148">La nueva pestaña aparece en la cuadrícula de botones.</span><span class="sxs-lookup"><span data-stu-id="dfd78-148">The new tab appears in the button grid.</span></span>
-9. <span data-ttu-id="dfd78-149">Haga clic en la **X** para guardar y salir del Diseñador.</span><span class="sxs-lookup"><span data-stu-id="dfd78-149">Click the **X** to save and exit Layout designer.</span></span>
-10. <span data-ttu-id="dfd78-150">En Commerce, vaya a **Retail y Commerce** &gt; **TI de Retail y Commerce** &gt; **Programaciones de distribución**.</span><span class="sxs-lookup"><span data-stu-id="dfd78-150">In Commerce, go to **Retail and Commerce** &gt; **Retail and Commerce IT** &gt; **Distribution schedules**.</span></span>
-11. <span data-ttu-id="dfd78-151">En la lista, seleccione **1090, Cajas registradoras**.</span><span class="sxs-lookup"><span data-stu-id="dfd78-151">In the list, select **1090 Registers**.</span></span>
-12. <span data-ttu-id="dfd78-152">Haga clic en **Ejecutar ahora**.</span><span class="sxs-lookup"><span data-stu-id="dfd78-152">Click **Run now**.</span></span>
+3. <span data-ttu-id="71c51-140">Haga clic en **Nueva pestaña**.</span><span class="sxs-lookup"><span data-stu-id="71c51-140">Click **New tab**.</span></span>
+4. <span data-ttu-id="71c51-141">Encuentre la nueva pestaña que acaba de agregar.</span><span class="sxs-lookup"><span data-stu-id="71c51-141">Find the new tab that you just added.</span></span> <span data-ttu-id="71c51-142">Es posible que tenga que desplazarse hacia abajo.</span><span class="sxs-lookup"><span data-stu-id="71c51-142">You may need to scroll down.</span></span>
+5. <span data-ttu-id="71c51-143">En la lista desplegable **Contenido**, seleccione **Productos recomendados**.</span><span class="sxs-lookup"><span data-stu-id="71c51-143">In the **Contents** drop-down, select **Recommended products**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="dfd78-153">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="dfd78-153">Additional resources</span></span>
+    <span data-ttu-id="71c51-144">[![Seleccionando productos recomendados en el campo contenidos](./media/pic-6.png)](./media/pic-6.png)</span><span class="sxs-lookup"><span data-stu-id="71c51-144">[![Selecting Recommended products in the Contents field](./media/pic-6.png)](./media/pic-6.png)</span></span>
 
-[<span data-ttu-id="dfd78-154">Visión general de recomendaciones de producto</span><span class="sxs-lookup"><span data-stu-id="dfd78-154">Product recommendations overview</span></span>](product-recommendations.md)
+6. <span data-ttu-id="71c51-145">En el campo **Etiqueta** , escriba un nombre para la pestaña de recomendaciones. Por ejemplo, escriba "Productos recomendados".</span><span class="sxs-lookup"><span data-stu-id="71c51-145">In the **Label** field, type a name for the recommendations tab. For example, type 'Recommended products'.</span></span>
+7. <span data-ttu-id="71c51-146">En el campo **Imagen**, seleccione la imagen que desea que aparezca en la pestaña.</span><span class="sxs-lookup"><span data-stu-id="71c51-146">In the **Image** field, select the image to appear on the tab.</span></span>
+8. <span data-ttu-id="71c51-147">Haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="71c51-147">Click **OK**.</span></span> <span data-ttu-id="71c51-148">La nueva pestaña aparece en la cuadrícula de botones.</span><span class="sxs-lookup"><span data-stu-id="71c51-148">The new tab appears in the button grid.</span></span>
+9. <span data-ttu-id="71c51-149">Haga clic en la **X** para guardar y salir del Diseñador.</span><span class="sxs-lookup"><span data-stu-id="71c51-149">Click the **X** to save and exit Layout designer.</span></span>
+10. <span data-ttu-id="71c51-150">En Commerce, vaya a **Retail y Commerce** &gt; **TI de Retail y Commerce** &gt; **Programaciones de distribución**.</span><span class="sxs-lookup"><span data-stu-id="71c51-150">In Commerce, go to **Retail and Commerce** &gt; **Retail and Commerce IT** &gt; **Distribution schedules**.</span></span>
+11. <span data-ttu-id="71c51-151">En la lista, seleccione **1090, Cajas registradoras**.</span><span class="sxs-lookup"><span data-stu-id="71c51-151">In the list, select **1090 Registers**.</span></span>
+12. <span data-ttu-id="71c51-152">Haga clic en **Ejecutar ahora**.</span><span class="sxs-lookup"><span data-stu-id="71c51-152">Click **Run now**.</span></span>
 
-[<span data-ttu-id="dfd78-155">Habilitar Azure Data Lake Storage en un entorno Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="dfd78-155">Enable Azure Data Lake Storage in a Dynamics 365 Commerce environment</span></span>](enable-adls-environment.md)
+## <a name="additional-resources"></a><span data-ttu-id="71c51-153">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="71c51-153">Additional resources</span></span>
 
-[<span data-ttu-id="dfd78-156">Habilitar recomendaciones de producto</span><span class="sxs-lookup"><span data-stu-id="dfd78-156">Enable product recommendations</span></span>](enable-product-recommendations.md)
+[<span data-ttu-id="71c51-154">Visión general de recomendaciones de producto</span><span class="sxs-lookup"><span data-stu-id="71c51-154">Product recommendations overview</span></span>](product-recommendations.md)
 
-[<span data-ttu-id="dfd78-157">Habilitar recomendaciones personalizadas</span><span class="sxs-lookup"><span data-stu-id="dfd78-157">Enable personalized recommendations</span></span>](personalized-recommendations.md)
+[<span data-ttu-id="71c51-155">Habilitar Azure Data Lake Storage en un entorno Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="71c51-155">Enable Azure Data Lake Storage in a Dynamics 365 Commerce environment</span></span>](enable-adls-environment.md)
 
-[<span data-ttu-id="dfd78-158">Cancelar recomendaciones personalizadas</span><span class="sxs-lookup"><span data-stu-id="dfd78-158">Opt out of personalized recommendations</span></span>](personalization-gdpr.md)
+[<span data-ttu-id="71c51-156">Habilitar recomendaciones de producto</span><span class="sxs-lookup"><span data-stu-id="71c51-156">Enable product recommendations</span></span>](enable-product-recommendations.md)
 
-[<span data-ttu-id="dfd78-159">Agregar recomendaciones de producto en PDV</span><span class="sxs-lookup"><span data-stu-id="dfd78-159">Add product recommendations on POS</span></span>](product.md)
+[<span data-ttu-id="71c51-157">Habilitar recomendaciones personalizadas</span><span class="sxs-lookup"><span data-stu-id="71c51-157">Enable personalized recommendations</span></span>](personalized-recommendations.md)
 
-[<span data-ttu-id="dfd78-160">Ajuste los resultados de las recomendaciones AI-ML</span><span class="sxs-lookup"><span data-stu-id="dfd78-160">Adjust AI-ML recommendations results</span></span>](modify-product-recommendation-results.md)
+[<span data-ttu-id="71c51-158">Cancelar recomendaciones personalizadas</span><span class="sxs-lookup"><span data-stu-id="71c51-158">Opt out of personalized recommendations</span></span>](personalization-gdpr.md)
 
-[<span data-ttu-id="dfd78-161">Crear manualmente recomendaciones curadas</span><span class="sxs-lookup"><span data-stu-id="dfd78-161">Manually create curated recommendations</span></span>](create-editorial-recommendation-lists.md)
+[<span data-ttu-id="71c51-159">Agregar recomendaciones de producto en PDV</span><span class="sxs-lookup"><span data-stu-id="71c51-159">Add product recommendations on POS</span></span>](product.md)
 
-[<span data-ttu-id="dfd78-162">Crear recomendaciones con datos de demostración</span><span class="sxs-lookup"><span data-stu-id="dfd78-162">Create recommendations with demo data</span></span>](product-recommendations-demo-data.md)
+[<span data-ttu-id="71c51-160">Ajuste los resultados de las recomendaciones AI-ML</span><span class="sxs-lookup"><span data-stu-id="71c51-160">Adjust AI-ML recommendations results</span></span>](modify-product-recommendation-results.md)
 
-[<span data-ttu-id="dfd78-163">Preguntas más frecuentes de recomendaciones de producto</span><span class="sxs-lookup"><span data-stu-id="dfd78-163">Product recommendations FAQ</span></span>](faq-recommendations.md)
+[<span data-ttu-id="71c51-161">Crear manualmente recomendaciones curadas</span><span class="sxs-lookup"><span data-stu-id="71c51-161">Manually create curated recommendations</span></span>](create-editorial-recommendation-lists.md)
+
+[<span data-ttu-id="71c51-162">Crear recomendaciones con datos de demostración</span><span class="sxs-lookup"><span data-stu-id="71c51-162">Create recommendations with demo data</span></span>](product-recommendations-demo-data.md)
+
+[<span data-ttu-id="71c51-163">Preguntas más frecuentes de recomendaciones de producto</span><span class="sxs-lookup"><span data-stu-id="71c51-163">Product recommendations FAQ</span></span>](faq-recommendations.md)

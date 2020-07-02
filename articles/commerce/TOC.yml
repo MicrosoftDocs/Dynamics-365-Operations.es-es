@@ -74,7 +74,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
             - name: Actualización y compatibilidad de N-1
               items:
-                - name: Actualización y compatibilidad de N-1 para Retail
+                - name: Actualización y compatibilidad de N-1 para Commerce
                   href: dev-itpro/overview-upgrade-n-minus1.md
                 - name: 'Instalación, configuración y transferencia de implementación por fases (N-1)'
                   href: dev-itpro/n-1-installation-configuration.md
@@ -94,11 +94,9 @@
                       href: get-started/whats-new-commerce-10-0-11.md
                     - name: Commerce 10.0.10 (mayo de 2020)
                       href: get-started/whats-new-commerce-10-0-10.md
-                    - name: Commerce 10.0.9 (abril de 2020)
-                      href: get-started/whats-new-10-0-9.md
                 - name: Características quitadas u obsoletas
                   items:
-                    - name: Características quitadas u obsoletas en Finance and Operations
+                    - name: Características quitadas o en desuso en Finance and Operations
                       href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/commerce/toc.json
                     - name: Características quitadas u obsoletas en Dynamics 365 Commerce
                       href: get-started/removed-deprecated-features-commerce.md
@@ -504,6 +502,8 @@
                       href: dev-itpro/adyen-connector-listPI.md
                     - name: Autenticación de cliente sólida (SCA) usando el conector Adyen
                       href: adyen_redirect.md
+                    - name: Terminales de pago dedicados y avisos para una impresora y un cajón de efectivo
+                      href: pos-multi-hws.md
                     - name: Cambio sin conexión perfecto para operaciones con tarjetas regalo y notas de crédito
                       href: dev-itpro/seamless-offline-improvements.md
                     - name: Configurar situaciones de pago de facturas
@@ -572,6 +572,10 @@
                       href: set-up-bar-codes.md
                     - name: Configurar máscaras de código de barras
                       href: set-up-bar-code-masks.md
+                - name: Garantías
+                  items:
+                    - name: Crear y configurar garantías extendidas
+                      href: extended-warranty.md
             - name: Precios y descuentos
               items:
                 - name: Descuentos
@@ -974,13 +978,13 @@
                       href: cart-icon-module.md
                     - name: Módulo de finalización de compra
                       href: add-checkout-module.md
-                    - name: Módulo de confirmación de pedido
+                    - name: Módulo de detalles del pedido
                       href: order-confirmation-module.md
                     - name: Módulo de selector de tienda
                       href: store-selector.md
                     - name: Módulo de tarjeta de regalo
                       href: add-giftcard.md
-                - name: Módulos de página de gestión de cuentas
+                - name: Módulos de gestión de cuentas
                   items:
                     - name: Módulos y páginas de gestión de cuentas
                       href: account-management.md
@@ -1896,6 +1900,8 @@
                       href: e-commerce-extensibility/setup-dev-environment.md
                     - name: Configurar un archivo de entorno de desarrollo (.env)
                       href: e-commerce-extensibility/configure-env-file.md
+                    - name: Depurar con un entorno de desarrollo de Commerce de nivel 1
+                      href: e-commerce-extensibility/debug-tier-1.md
                     - name: Configurar el uso compartido de Azure DevOps y crear una canalización de compilación
                       href: e-commerce-extensibility/set-up-code-sharing-build-pipeline.md
                 - name: Visión general de la plataforma
@@ -2028,6 +2034,8 @@
                   href: dev-itpro/retail-sdk/retail-sdk-packaging.md
                 - name: Desarrollo en entornos de desarrollo hospedados en la nube sin acceso de administración
                   href: dev-itpro/cloud-dev-box.md
+                - name: Configurar canalización de compilación de SDK de Commerce
+                  href: dev-itpro/retail-sdk/SDK-build-pipeline.md
             - name: Extensibilidad de punto de venta
               items:
                 - name: Diseños de pantalla de PDV
