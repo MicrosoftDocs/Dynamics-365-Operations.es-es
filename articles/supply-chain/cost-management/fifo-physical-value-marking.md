@@ -3,7 +3,7 @@ title: FIFO con valor físico y marcado
 description: FIFO (primero en entrar, primero en salir) es un modelo de inventario en que las primeras recepciones adquiridas se emiten primero. Las emisiones actualizadas financieramente del inventario se liquidan contra las primeras recepciones actualizadas financieramente en el inventario, según la fecha financiera de la transacción de inventario.
 author: AndersGirke
 manager: tfehr
-ms.date: 06/20/2017
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e237d1e9f9bb83d0fe65556eca07c8757f920664
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: a66a1b977a4e36f9ad057683366c39a81ba1d833
+ms.sourcegitcommit: ac47e8679fb104515f7dcca509294264bd05d2b1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201764"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454635"
 ---
 # <a name="fifo-with-physical-value-and-marking"></a>FIFO con valor físico y marcado
 
@@ -49,8 +49,8 @@ En este ejemplo, el grupo de modelos de artículo no está marcado para incluir 
 -   4a. Recepción del inventario físico de una cantidad de 1 unidad a un coste de 30,00 dólares USD por unidad.
 -   4b. Recepción del inventario financiero de una cantidad de 1 unidad a un coste de 30,00 dólares USD por unidad.
 -   5a. Recepción del inventario físico de una cantidad de 1 unidad con un precio de coste de 20,00 dólares USD por unidad (promedio móvil de transacciones actualizadas financieramente).
--   5b. Emisión del inventario financiero de una cantidad de 1 unidad con un precio de coste de 20,00 dólares USD por unidad (promedio móvil de transacciones actualizadas financieramente).
--   6. Se efectúa el cierre de inventario. Según el método FIFO, la primera emisión actualizada financieramente se liquidará contra la primera recepción actualizada financieramente. Se lleva a cabo un ajuste de 10,00 dólares USD en la transacción de emisión.
+-   5b. Emisión del inventario financiero de una cantidad de 1 unidad con un precio de coste de 15,00 dólares USD por unidad (promedio móvil de transacciones actualizadas financieramente).
+-   6. Se efectúa el cierre de inventario. Según el método FIFO, la primera emisión actualizada financieramente se liquidará contra la primera recepción actualizada financieramente. Se lleva a cabo un ajuste de 5,00 dólares USD en la transacción de emisión.
 
 El nuevo precio de coste promedio móvil refleja la media de las transacciones actualizadas financieramente. Los ejemplos siguientes muestran los efectos del modelo de inventario FIFO sobre esta serie de transacciones cuando no se usa la opción **Incluir valor físico**. 
 

@@ -3,7 +3,7 @@ title: Características de Platform quitadas u obsoletas
 description: En este tema se describen las características que se han eliminado, o que está previsto que se eliminen en las Platform updates de las aplicaciones de Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 06/02/2020
+ms.date: 06/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 6fc699907d30fff2d05e752ea055cae8d1134d9b
-ms.sourcegitcommit: 3eaa71c889545318737b3bc88b05eae1a47ad2c0
+ms.openlocfilehash: 1faee75c9112b3aa584ad021ffdc1144fcf4ba32
+ms.sourcegitcommit: 3485d7f36058151cb4fff5c425ef27f56e3ee7d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "3433931"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "3457575"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Características de Platform quitadas u obsoletas
 
@@ -36,6 +36,22 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 > [!NOTE]
 > La información detallada sobre los objetos de aplicaciones Finance and Operations se puede encontrar en los [Informes de referencia técnica](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de aplicaciones Finance and Operations.
 
+## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Platform updates para la versión 10.0.13 de aplicaciones Finance and Operations
+
+> [!NOTE]
+> La versión 10.0.13 aún no se ha lanzado. Esta información solo es para fines de planificación. El contenido y la funcionalidad de la versión 10.0.13 están sujetos a cambios. Para obtener más información sobre los lanzamientos, consulte [Disponibilidad de actualización del servicio](../../fin-ops/get-started/public-preview-releases.md).
+
+
+### <a name="upgrade-of-three-jquery-component-libraries"></a>Actualización de tres bibliotecas de componentes jQuery 
+
+|   |  |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | Se están actualizando tres bibliotecas de componentes jQuery para las correcciones de seguridad y para mantener la moneda.   
+| **¿Reemplazado por otra característica?**   | Las siguientes bibliotecas se ven afectadas: jQuery (a la versión 3.5.0 de la versión 2.1.4), jQuery UI (a la versión 1.12.1 de la versión 1.11.4), jQuery qTip (a la versión 3.0.3 de 2.2.1). La guía de migración ha sido proporcionada en línea por jQuery.  |
+| **Áreas de producto afectadas**         | Controles extensibles, específicamente código JavaScript personalizado que utiliza API obsoletas o eliminadas |
+| **Opción de implementación**              | Todos |
+| **Estado**                         | Con la versión 10.0.13/Actualización de plataforma 37, los clientes pueden pasar opcionalmente a las últimas bibliotecas habilitando la característica "Actualizar tres bibliotecas de componentes jQuery". El cambio a las nuevas bibliotecas será obligatorio con la versión de abril de 2021 para dar tiempo a la migración de las API afectadas.   |
+
 ## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Platform updates para la versión 10.0.12 de aplicaciones Finance and Operations
 
 ### <a name="grid-or-group-control-form-extensions-containing-invalid-field-references"></a>Extensiones de formulario de control de grupo o cuadrícula que contienen referencias de campo no válidas
@@ -50,11 +66,11 @@ Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y d
 
 ## <a name="platform-updates-for-version-10011-of-finance-and-operations-apps"></a>Platform updates para la versión 10.0.11 de aplicaciones Finance and Operations
 
-### <a name="explicit-whitelisting-for-self-service-environments"></a>Lista blanca explícita para entornos de autoservicio
+### <a name="explicit-safe-lists-for-self-service-environments"></a>Lista segura explícita para entornos de autoservicio
 
 |   |  |
 |------------|--------------------|
-| **Motivo de la depreciación/eliminación** | El proceso para la lista blanca de IP ha cambiado. El autoservicio ya no admite la lista blanca de IP. |
+| **Motivo de la depreciación/eliminación** | El proceso para mover IP a listas seguras ha cambiado. El autoservicio ya no admite la lista segura de IP. |
 | **¿Reemplazado por otra característica?**   | Para más información, consulte [Configuración de acceso condicional de Azure Active Directory](https://docs.microsoft.com/appcenter/general/configuring-aad-conditional-access).|
 | **Áreas de producto afectadas**         | Seguridad |
 | **Opción de implementación**              | Nube |

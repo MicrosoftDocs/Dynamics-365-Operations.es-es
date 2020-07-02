@@ -3,7 +3,7 @@ title: Vídeos
 description: Esta página enumera vídeos de "procedimientos" y de charlas técnicas relacionados con aplicaciones de Finance and Operations que están disponibles en YouTube y otros sitios.
 author: josaw1
 manager: AnnBe
-ms.date: 05/11/2020
+ms.date: 06/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: f5e7751b71c75f80f1c3031ef00b32e80e7db42a
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: e4756e4d1697fdba40ad8a71a5d33594583a219a
+ms.sourcegitcommit: 9a2e9f7dfec47c42178bb67a3e099e610515baf3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367138"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "3456958"
 ---
 # <a name="videos"></a>Vídeos 
 
@@ -122,6 +122,9 @@ En el [Canal de YouTube de Microsoft Dynamics 365](https://www.youtube.com/chann
 - [Espacio de trabajo móvil de control de costes](https://youtu.be/imsuTg8rUVk)
 - [Introducción a la contabilidad de costes](https://youtu.be/1pUDtJQZ8FU)
 - [Uso de Excel para análisis de costes](https://youtu.be/-HKHYdClvx8)
+
+### <a name="customer-portal"></a>Portal del cliente
+- [Descripción general de la plantilla del portal del cliente en Dynamics 365 Supply Chain Management](https://youtu.be/nPrqoLuHfV8)
 
 ### <a name="help-system"></a>Sistema de ayuda
 

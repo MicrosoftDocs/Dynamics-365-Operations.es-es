@@ -589,6 +589,8 @@
                   href: cost-management/inventory-value-report-storage.md
                 - name: Almacenamiento de informe de vencimiento de inventario
                   href: cost-management/inventory-aging-report-storage.md
+                - name: Ejemplos y lógica de informes de vencimiento de inventario
+                  href: cost-management/inventory-aging-report.md
             - name: Contabilidad de fabricación
               items:
                 - name: Cálculos de L. MAT.

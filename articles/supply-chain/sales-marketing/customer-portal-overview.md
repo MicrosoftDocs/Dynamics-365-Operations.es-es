@@ -3,7 +3,7 @@ title: Portal del cliente para introducción de Dynamics 365 Supply Chain Manage
 description: Este tema presenta el portal del Cliente y explica quién debe usarlo y cómo funciona.
 author: dasani-madipalli
 manager: tfehr
-ms.date: 04/22/2020
+ms.date: 06/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 6b57365d8042c1d791ee2c50c5458a6595a58270
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: 709ba18be9e2edd5d0a7f143aaed5ef94f365b91
+ms.sourcegitcommit: 9a2e9f7dfec47c42178bb67a3e099e610515baf3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3414005"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "3456935"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Portal del cliente para introducción de Dynamics 365 Supply Chain Management
 
@@ -37,6 +37,12 @@ La plantilla del portal del cliente tiene todas las capacidades de personalizaci
 
 > [!NOTE]
 > La documentación del portal del Cliente está dirigida a administradores, personalizadores e integradores de sistemas que configurarán el portal del Cliente para una instalación de Supply Chain Management. Utiliza los términos _cliente_ y _usuario_ para describir a las personas que son clientes de la organización que ejecuta Supply Chain Management y que utilizarán el portal final.
+
+## <a name="video"></a>Vídeo
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ylwW]
+
+El vídeo de la [Descripción general de la plantilla del portal del cliente en Dynamics 365 Supply Chain Management](https://youtu.be/nPrqoLuHfV8) (que se muestra arriba) está incluido en la [lista de reproducción de Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible en YouTube.
 
 ## <a name="who-should-use-it"></a>¿Quién debería usarlo?
 
@@ -58,6 +64,6 @@ El portal del cliente se proporciona como una plantilla de portales Power Apps. 
 
 La [doble escritura](https://docs.microsoft.com/powerapps/maker/portals/overview) es una infraestructura de uso inmediato que proporciona interacción casi en tiempo real entre aplicaciones basadas en modelos de Dynamics 365 y aplicaciones de Finance and Operations. La doble escritura proporciona una integración bidireccional entre aplicaciones de Finance and Operations y Common Data Service. Por taanto, este flujo de datos automatizado proporciona una experiencia de usuario integrada en todas las aplicaciones. El portal del cliente depende de entidades que se sincronizan con doble escritura. Para que los datos de Supply Chain Management puedan aparecer en el portal del Cliente, se debe habilitar la escritura doble para todas las entidades apropiadas.
 
-![![Dependencias del portal del cliente](media/customer-portal-elements.png "Dependencias del portal del cliente")](media/customer-portal-elements.png "Customer portal dependencies")
+![Dependencias del portal del cliente](media/customer-portal-elements.png "Dependencias del portal del cliente")
 
 El portal del cliente actúa como punto de partida para las organizaciones que desean utilizar portales Power Apps para construir un sitio web externo que utilice datos de su instalación de Supply Chain Management. Ayuda a las organizaciones a conectar la doble escritura, Supply Chain Management y los portales Power Apps.

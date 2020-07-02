@@ -3,7 +3,7 @@ title: Módulo Detalles del pedido
 description: En este tema se tratan los módulos de detalles de pedidos y se describe cómo usarlos en Microsoft Dynamics 365 Commerce.
 author: anupamar
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 06/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: cb09a0b6ce1e48707f96021e9fad0006d9c1c55c
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: c2ec629d9fd027be01652351ab1c99001e063e30
+ms.sourcegitcommit: 49656661c89c864e8e067259a601c3bbceb8bef4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026026"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "3464939"
 ---
 # <a name="order-details-module"></a>Módulo Detalles del pedido
 
@@ -35,11 +35,11 @@ En este tema se tratan los módulos de detalles de pedidos y se describe cómo u
 
 El módulo Detalles del pedido se usa para mostrar los detalles de confirmación de pedido después de que se haya realizado un pedido. Muestra el id. de confirmación del pedido, la información de contacto del pedido y otros detalles del pedido, como los artículos que se compraron, la información de pago y el método de envío.
 
-## <a name="order-confirmation-module-properties"></a>Propiedades del módulo de confirmación de pedido
+## <a name="order-details-module-properties"></a>Propiedades del módulo de detalles de pedido
 
 | Nombre de la propiedad  | Valores | Descripción |
 |----------------|--------|-------------|
-| Título        | Etiqueta de encabezado y texto de encabezado (**H1**, **H2**, **H3**, **H4**, **H5** o **H6**) | El módulo de confirmación de pedido puede tener un encabezado. De forma predeterminada, la etiqueta de encabezado **H2** se usa para el encabezado. Sin embargo, la etiqueta se puede cambiar para satisfacer los requisitos de accesibilidad. |
+| Cabecera        | Etiqueta de encabezado y texto de encabezado (**H1**, **H2**, **H3**, **H4**, **H5** o **H6**) | El módulo de detalles de pedido puede tener un encabezado. De forma predeterminada, la etiqueta de encabezado **H2** se usa para el encabezado. Sin embargo, la etiqueta se puede cambiar para satisfacer los requisitos de accesibilidad. |
 | Número de contacto | Text | Se puede proporcionar un número de contacto para preguntas relacionadas con pedidos. |
 
 ## <a name="modules-that-can-be-used-on-an-order-details-page"></a>Módulos que se pueden usar en una página de detalles del pedido
@@ -49,28 +49,32 @@ Al crear una página de detalles del pedido, puede agregar otros módulos releva
 - **Módulo Recomendaciones**: el módulo de recomendaciones se puede agregar a la página de detalles del pedido para sugerir otros productos al cliente.
 - **Módulos de marketing**: se puede agregar cualquier módulo de marketing a la página de detalles del pedido para mostrar el contenido de marketing.
 
-## <a name="create-an-order-details-page-module"></a>Crear un módulo de página de detalles del pedido
+## <a name="add-an-order-details-module-to-a-page"></a>Agregar un módulo detalles de pedido a una página
 
-1. Cree una plantilla de página con el nombre **Plantilla de detalles del pedido**.
-1. En la franja **Principal** de la página predeterminada, agregue un módulo de detalles de pedido.
-1. En el módulo de detalles del pedido, agregue un módulo de recomendaciones.
-1. Guarde la plantilla y obtenga una vista previa de ella. No se representará el módulo de detalles del pedido porque requiere el contexto del número de confirmación de pedido.
-1. Termine de editar la plantilla y publíquela.
-1. Use la plantilla de detalles del pedido que acaba de crear para crear una página con el nombre **página de detalles de pedido**.
-1. Agregue la página predeterminada al esquema de página.
-1. En la franja **Encabezado**, agregue un fragmento de encabezado.
-1. En la franja **Pie de página**, agregue un fragmento de pie de página.
-1. En la franja **Principal**, agregue un módulo de detalles de pedido.
-1. En el panel de propiedades para el módulo de detalles de pedido, agregue el encabezado **Detalles de pedido**.
-1. Debajo del módulo de detalles de pedido, agregue un módulo de recomendaciones y configúrelo para que use la configuración **Nuevos** y **Más vendidos**.
-1. Guarde la página y obtenga una vista previa de ella.
-1. Termine de editar la página y publíquela.
+Para agregar un módulo de detalles de pedido a una página nueva y establecer las propiedades necesarias, siga estos pasos.
+
+1. Vaya a **Plantillas** y luego seleccione **Nuevo** para crear una nueva plantilla.
+1. En el cuadro de diálogo **Nueva plantilla**, en de **Nombre de la plantilla**, especifique el nombre **Plantilla de detalles pedio** y luego seleccione **Aceptar**.
+1. En el espacio **Cuerpo**, seleccione los puntos suspensivos (**...**) y después seleccione **Agregar módulo**.
+1. En el cuadro de diálogo **Agregar módulo**, seleccione el módulo **Página predeterminada** y, a continuación, **Aceptar**.
+1. En el espacio **Principal** del módulo **Página predeterminada**, seleccione los puntos suspensivos (**...**) y, a continuación, seleccione **Agregar módulo**.
+1. En el cuadro de diálogo **Agregar módulo**, seleccione el módulo **Detalles del pedido** y, a continuación, **Aceptar**.
+1. Seleccione **Guardar** y luego seleccione **Vista previa** para previsualizar la plantilla. No se representará el módulo de detalles del pedido porque requiere el contexto del número de confirmación de pedido.
+1. Seleccione **Finalizar edición** para proteger la plantilla y luego seleccione **Publicar** para publicarla.
+1. Vaya a **Páginas** y seleccione **Nuevo** para crear una nueva página.
+1. En el cuadro de diálogo **Elegir una plantilla**, seleccione la plantilla **Plantilla de detalles del pedido**. En **Nombre de página**, introduzca **Página de detalles de pedido** y después seleccione **Aceptar**.
+1. En el espacio **Principal** del módulo **Página predeterminada**, seleccione los puntos suspensivos (**...**) y, a continuación, seleccione **Agregar módulo**.
+1. En el cuadro de diálogo **Agregar módulo**, seleccione el módulo **Detalles del pedido** y, a continuación, **Aceptar**.
+1. En el panel de propiedades del módulo de detalles del pedido, seleccione **Encabezado** al lado del símbolo de lápiz.
+1. En el campo **Texto de encabezado** del cuadro de diálogo **Encabezado**, especifique el texto de encabezado **Detalles del pedido** y luego seleccione **Aceptar**.
+1. Seleccione **Guardar** y luego seleccione **Vista previa** para previsualizar la página.
+1. Seleccione **Finalizar edición** para proteger la página y luego seleccione **Publicar** para publicarla.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general de kit de inicio](starter-kit-overview.md)
+[Visión general del kit de inicio](starter-kit-overview.md)
 
-[Módulo Contenedor](add-container-module.md)
+[Módulo contenedor](add-container-module.md)
 
 [Módulo de cuadro de compra](add-buy-box.md)
 

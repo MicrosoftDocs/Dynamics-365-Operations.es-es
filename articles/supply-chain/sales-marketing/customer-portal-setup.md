@@ -3,7 +3,7 @@ title: Instalar, configurar y actualizar el portal del cliente
 description: Este tema proporciona detalles sobre licencias e instrucciones de configuracion del Portal del cliente.
 author: dasani-madipalli
 manager: tfehr
-ms.date: 04/22/2020
+ms.date: 06/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: b9d1e742f78254d949dc49fda008d63b8bff4d65
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: 0343100362c4d7bc3e09334fb7890919bdb84941
+ms.sourcegitcommit: 7d943499f302298c6ff127f56cecc34af6cee289
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3414006"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "3435618"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>Instalar, configurar y actualizar el portal del cliente
 
@@ -35,7 +35,7 @@ Para implementar el portal del Cliente, debe tener las siguientes licencias:
 
 El portal del cliente depende de los portales Power Apps portales y la doble escritura, como se muestra en la siguiente ilustración.
 
-![![Dependencias del portal del cliente](media/customer-portal-elements.png "Dependencias del portal del cliente")](media/customer-portal-elements.png "Customer portal dependencies")
+![Dependencias del portal del cliente](media/customer-portal-elements.png "Dependencias del portal del cliente")
 
 A diferencia de otras características de Supply Chain Management, la plantilla del portal del cliente reside en los portales Power Apps. Por lo tanto, el portal del Cliente está limitado por la funcionalidad y las capacidades proporcionadas por los portales Power Apps y las entidades en doble escritura.
 
@@ -59,7 +59,7 @@ Antes de comenzar, asegúrese de haber completado la [configuración requerida](
 
 1. Vaya a [make.powerapps.com](https://make.powerapps.com/).
 2. Asegúrese de estar utilizando el entorno donde habilitó la escritura dual.
-3. Enla pestaña **Crear**, desplácese hacia abajo a la sección **Comenzar desde plantilla** y seleccione la plantilla que se llama **Cliente de Supply Chain Management**.
+3. En la pestaña **Crear**, desplácese hacia abajo a la sección **Comenzar desde plantilla** y seleccione la plantilla que se llama **Portal del cliente**.
 4. Siga las instrucciones en pantalla.
 
 Después de completar el aprovisionamiento, puede acceder al portal del Cliente en la sección **Sus aplicaciones** de la página **Inicio**.
@@ -71,7 +71,7 @@ Después de completar el aprovisionamiento, puede acceder al portal del Cliente 
 
 Se podría agregar más funcionalidad al portal del Cliente más adelante. Cualquier cambio que Microsoft realice en los componentes de la solución subyacente aparecerá automáticamente en su entorno. Sin embargo, el sitio web aprovisionado en su entorno no reflejará automáticamente los cambios realizados en los datos de configuración. Tendrá que aplicar manualmente esos cambios obteniendo el código de la nueva plantilla y fusionándolo con el sitio web aprovisionado.
 
-## <a name="resources"></a>Recursos
+## <a name="additional-resources"></a>Recursos adicionales
 
 Para saber cómo puede configurar y personalizar el portal del Cliente, debe comenzar por revisar la siguiente documentación para las tecnologías subyacentes:
 

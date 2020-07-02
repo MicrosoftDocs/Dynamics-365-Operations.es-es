@@ -19,17 +19,19 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: fc719348f94ff4a1fb7b4ac96f6f617872c9af92
-ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
+ms.openlocfilehash: e3243a69b98aae25ad8514890fb984c8a0d9f694
+ms.sourcegitcommit: 218e22014a964b8b52fc0152e355b07b0b84ae2c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "3123955"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "3456582"
 ---
-# <a name="reset-receipt-numbers"></a>Restablecer números de recibos 
+# <a name="reset-receipt-numbers"></a>Restablecer números de recibo 
 
 [!include [banner](includes/banner.md)]
 
+> [!NOTE]
+> Requerimos que seleccione la propiedad **Secuencia independiente** para todos los tipos de recibos en el perfil de funcionalidad antes de usar esta características. Además, la zona horaria del sistema del dispositivo, donde se utiliza el POS, debe coincidir con la zona horaria de la tienda correspondiente. Estamos trabajando para deshacernos de estas limitaciones en una versión futura. Póngase en contacto con el soporte técnico de Microsoft antes de usar esta función en producción.
 
 Los minoristas generan números de recibos para diversas acciones en la tienda, como transacciones de pago al contado sin entrega a domicilio, transacciones de devolución, pedidos de clientes, presupuestos y pagos. Aunque los minoristas definen sus propios formatos de recibos, algunos países o regiones tienen normativas que imponen restricciones a estos formatos de recibos. Por ejemplo, estas normativas podrían limitar el número de caracteres en el recibo, requerir números de recibos consecutivos, restringir algunos caracteres especiales o requerir un restablecimiento de los números de recibos al comienzo del año. Microsoft Dynamics 365 Commerce hace que el proceso de administración de números de recibos sea muy flexible, para ayudar a los minoristas a cumplir con los requisitos reglamentarios. Este tema explica cómo usar la funcionalidad para restablecer los números de recibos.
 

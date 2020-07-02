@@ -3,7 +3,7 @@ title: Visión general de clienteling
 description: En este tema se proporciona una visión general de las nuevas capacidades de clienteling disponibles en la aplicación de tienda.
 author: bebeale
 manager: AnnBe
-ms.date: 11/01/19
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 4f045f8509a6b5027fd3cf8e5ca9e382457a5e83
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: d76668fa16a7634e7fbd953afaa6c89eed5457a2
+ms.sourcegitcommit: 21943fa91c35f063a5bd064290bf2c005394df52
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023899"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "3456516"
 ---
 # <a name="clienteling-overview"></a>Visión general de relación con los clientes
 
@@ -115,7 +115,7 @@ Siga estos pasos para configurar la integración.
 3. Cree un Azure Key Vault, y guarde el secreto de la aplicación. Para obtener instrucciones, consulte [Inicio rápido: Establecer y recuperar el Azure Key Vault mediante el portal de Azure](https://docs.microsoft.com/azure/key-vault/quick-create-portal).
 4. Conecte el acceso a Azure Key Vault desde Commerce. Para completar este paso, debe tener un identificador y un secreto de la aplicación. La aplicación puede ser la misma solicitud que ha creado en el paso 1, o puede ser una nueva aplicación. (Es decir, puede usar la aplicación que creó en el paso 1 para el acceso a Key Vault y el acceso al servicio de Customer Insights, o puede crear una aplicación única para cada tipo de acceso.) Para obtener instrucciones, consulte [Credenciales principales del servicio de tienda de Azure Stack Key Vault](https://docs.microsoft.com/azure-stack/user/azure-stack-key-vault-store-credentials?view=azs-1908#create-a-service-principal).
 5. En la sede central, vaya al **Administración del sistema \> Configuración \> Parámetros de Key Vault** e introduzca la información requerida para Key Vault. A continuación, en el campo **Cliente de Key Vault**, especifique el identificador de la aplicación que usó en el paso 4, de modo que Commerce pueda acceder a los secretos del almacén de claves.
-6. Para agregar la aplicación que creó en el paso 1 a la lista de aplicaciones seguras (en ocasiones denominada lista blanca), vaya a Customer Insights, y proporcione acceso de **Vista** a la aplicación. Para obtener instrucciones, consulte [Permisos](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-permissions).
+6. Para agregar la aplicación que creó en el paso 1 a la lista de aplicaciones seguras (en ocasiones denominada lista segura), vaya a Customer Insights, y proporcione acceso de **Vista** a la aplicación. Para obtener instrucciones, consulte [Permisos](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-permissions).
 7. En Commerce, en la página **Parámetros de Commerce**, en la pestaña **Clienteling**, en la ficha desplegable **Dynamics 365 Customer Insights**, siga estos pasos:
 
     1. En el campo **Id. de aplicación**, especifique el identificador de la aplicación que usó en el paso 1.

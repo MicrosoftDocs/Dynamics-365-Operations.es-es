@@ -3,7 +3,7 @@ title: Métodos de pago
 description: Al configurar el sistema, se deben configurar todos los tipos de pago que acepte un minorista. Este artículo describe los tipos de pago que puede configurar y describe el proceso para configurarlos.
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 6afbddad869c70e4527c49fc5d4b520d7602f825
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 710c2f3bbe5b76af6d0bc0bf9a469e52c98c18d2
+ms.sourcegitcommit: 550006e6376815237c21b5b30e928353f62fd97c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023994"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "3463169"
 ---
 # <a name="payment-methods"></a>Métodos de pago
 
@@ -39,7 +39,7 @@ Los minoristas pueden aceptar distintos tipos de pago a cambio de los productos 
 - **Divisa**: forma principal de pago, aparte de la divisa predeterminada de la empresa. Tanto las monedas como los billetes son formas de divisa. El método de pago en divisa representa todas las divisas que se usan. Para poder usar este método de pago, debe configurar divisas y especificar su información de cambio para las divisas.
 - **Tarjeta**: todos los tipos de tarjetas que se usan en, como tarjetas de débito y crédito. Le recomendamos que, en la organización, configure un método de pago con tarjeta que represente todos los tipos de tarjeta. A continuación, configure en cada tienda un método de pago para cada tarjeta o grupo de tarjetas que se procesen con la misma configuración. Debe configurar las tarjetas de fabricantes disponibles en el mercado, como tarjetas de débito y crédito, para poder aceptar las tarjetas como pago en una tienda.
 - **Nota de crédito**: notas de crédito emitidas o canjeadas en el punto de venta. La nota de crédito puede ser un crédito o una nota de crédito de devolución que se utiliza con una devolución. Si las notas de crédito se canjean parcialmente, el programa emite una nueva nota de crédito para el nuevo saldo. La nueva nota de crédito tiene un nuevo número. Una nota de crédito solo se puede usar una vez y el sistema guarda un registro de todos los números que se usan. El registro se puede ver en la página **Tabla de notas de crédito**. Los clientes no pueden canjear por un valor superior al de la nota de crédito.
-- **Tarjeta regalo**: tarjetas regalo emitidas y canjeadas en el punto de venta. No se permite el sobrepago con tarjetas regalo.
+- **Tarjeta regalo**: tarjetas regalo emitidas y canjeadas en el punto de venta. No se permite el sobrepago con tarjetas regalo. Todas las tarjetas de regalo deben tener asignaciones de números de tarjeta. 
 - **Cuenta de cliente**: permite cargar los pagos desde la caja registradora a una cuenta de cliente en el momento de la venta. También puede usar este método de pago para recopilar información de ventas o descuentos específicos del cliente si este realiza el pago mediante otro método. En tal caso, debe configurar información específica del cliente.
 - **Puntos de fidelidad**: los puntos que los clientes acumulan mediante programas de fidelización. Si crea los programas de fidelización, los clientes pueden conseguir puntos y canjearlos de distintas maneras. Por ejemplo, en algunos programas de fidelización, los clientes pueden canjear los puntos de fidelidad en un formulario de descuento o incluso usarlos como forma de pago.
 
