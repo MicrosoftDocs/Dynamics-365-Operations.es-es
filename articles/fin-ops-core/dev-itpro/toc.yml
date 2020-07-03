@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-update-35.md
                 - name: Platform updates para 10.0.10 (mayo de 2020)
                   href: get-started/whats-new-platform-update-34.md
-                - name: Platform update 33 (abril de 2020)
-                  href: get-started/whats-new-platform-update-33.md
             - name: Características quitadas u obsoletas
               items:
                 - name: Características de Platform quitadas u obsoletas
@@ -150,6 +148,8 @@
                                   href: data-entities/dual-write/link-your-environment.md
                                 - name: Habilitar mapa de entidad para doble escritura
                                   href: data-entities/dual-write/enable-entity-map.md
+                            - name: Migración de tipo de datos de divisa para doble escritura
+                              href: data-entities/dual-write/currrency-decimal-places.md
                         - name: Gestión de doble escritura
                           items:
                             - name: Personalizar asignaciones de entidad y campo
@@ -364,6 +364,8 @@
           items:
             - name: Visión general de Azure Data Lake
               href: data-entities/azure-data-lake-overview.md
+            - name: Configurar exportación a Azure Data Lake
+              href: data-entities/configure-export-data-lake.md
             - name: Aplicaciones de Finance and Operations en Azure Data Lake
               href: data-entities/finance-data-azure-data-lake.md
             - name: Hacer que un almacén de entidades esté disponible como un Data Lake
@@ -498,6 +500,8 @@
                       href: deployment/onprem-reverseproxy.md
                     - name: Diagnósticos locales
                       href: deployment/on-premises-diagnostics.md
+                    - name: Configuración local de recuperación ante desastres
+                      href: deployment/onprem-dr.md
                     - name: Integración de PowerBI.com con los entornos locales
                       href: analytics/entity-store-on-prem.md
                     - name: Volver a configurar entornos
@@ -1436,6 +1440,8 @@
                   href: sysadmin/role-based-security.md
                 - name: Arquitectura de seguridad
                   href: sysadmin/security-architecture.md
+                - name: Cifrado en aplicaciones de Finance and Operations
+                  href: sysadmin/encryption.md
                 - name: Establecer el tiempo de espera de la sesión
                   href: sysadmin/session-idle-timeout.md
                 - name: Informes de seguridad listos para usar

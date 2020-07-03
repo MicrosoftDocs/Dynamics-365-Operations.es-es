@@ -3,7 +3,7 @@ title: Trabajar con archivos de anulación de CSS
 description: Este tema describe por qué, cuándo y cómo usar las hojas de estilo en cascada (CSS) para archivos de anulación en Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3c40145ea76296c1b8df9284af820534e3c869d4
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 3ec43b16b1df07400cffe597378ad4035e4d07e0
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001861"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411256"
 ---
 # <a name="work-with-css-override-files"></a>Trabajar con archivos de anulación de CSS
 
@@ -102,6 +102,8 @@ Para desactivar un archivo de anulación de CSS en su sitio, siga estos pasos.
 [Agregar un logotipo](add-logo.md)
 
 [Seleccionar un tema de sitio](select-site-theme.md)
+
+[Trabajar con preajustes de estilo](style-presets.md)
 
 [Agregar un icono de favoritos](add-favicon.md)
 

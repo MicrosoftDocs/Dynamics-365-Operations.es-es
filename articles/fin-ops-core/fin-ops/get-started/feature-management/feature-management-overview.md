@@ -1,9 +1,9 @@
 ---
 title: Vista previa de Administración de características
 description: Este tema describe la función de Administración de características y cómo puede utilizarla.
-author: mikefalkner
+author: ChrisGarty
 manager: AnnBe
-ms.date: 09/12/2019
+ms.date: 06/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -13,17 +13,17 @@ audience: IT Pro, Application user
 ms.reviewer: sericks
 ms.search.scope: Operations, Core
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: cgarty
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: a9be51c4a5cdadd968de160dc0b1406c95382eeb
-ms.sourcegitcommit: 260a820038c29f712e8f1483cca9315b6dd3df55
+ms.openlocfilehash: 416c19dcf5b2c983afff7d2e8a9797fb0c0e2780
+ms.sourcegitcommit: 218e22014a964b8b52fc0152e355b07b0b84ae2c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "2778714"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "3456606"
 ---
 # <a name="feature-management-overview"></a>Visión general de la administración de características
 
@@ -144,3 +144,34 @@ La Administración de características le permite controlar las características
 ## <a name="using-feature-management-to-turn-on-isv-features-or-custom-features"></a>Usar la Administración de características para activar las características de ISV o las personalizadas
 
 La administración de características no está actualmente disponible para las características de los fabricantes de software independientes (ISVs) y las características personalizadas. Sin embargo, Microsoft está añadiendo más funcionalidad para ampliar la administración de características. Después de que las mejoras hayan finalizado, Microsoft configurará la administración de características para todas las características y proporcionará instrucciones para actualizar sus características para usarla.
+
+## <a name="frequently-asked-questions-faq"></a>Preguntas frecuentes
+
+### <a name="when-are-features-added-removed-or-changed"></a>¿Cuándo se agregan, quitan o cambian características? 
+Las características se agregan, eliminan y cambian mediante cambios en el código. Los entornos deben actualizarse para recibir esos cambios.
+
+### <a name="does-a-feature-become-mandatory-automatically"></a>¿Una característica se vuelve obligatoria automáticamente? 
+No, una función que se vuelve obligatoria no es una acción automática. Los equipos de producto necesitan hacer un cambio de código.
+
+### <a name="when-do-features-become-mandatory"></a>¿Cuándo se vuelven obligatorias las características? 
+La política es que todas las nuevas características se habiliten por un período de 12 meses y que no requieran ninguna gestión de cambios hasta que habilite la función. Los equipos de productos pueden elegir si hacer que una característica sea obligatoria una vez que finaliza ese período. 
+
+### <a name="why-isnt-there-a-specific-mandatory-enabled-date"></a>¿Por qué no hay una "fecha habilitada obligatoria" específica? 
+El tiempo de actualización es variable, el tiempo de actualización del entorno es variable y los clientes pueden optar por omitir algunas actualizaciones. Como resultado, las fechas específicas son difíciles de determinar. 
+
+### <a name="wheres-the-documentation-for-features-that-are-being-made-mandatory"></a>¿Dónde está la documentación de las características que se hacen obligatorias? 
+Esta documentación proviene de los equipos de aplicación. A menudo, estos se mencionarán en [Funciones eliminadas o en desuso](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/deprecated-features). 
+
+### <a name="is-there-an-in-product-notification-or-signal-that-a-feature-is-going-to-be-mandatory-enabled"></a>¿Hay una notificación en el producto o una señal de que una característica será obligatoriamente habilitada? 
+Hoy en día no existe un mecanismo de notificación relacionado con hacer que una característica sea obligatoria.
+
+### <a name="do-features-ever-get-enabled-without-the-customer-knowing-about-it"></a>¿Se habilitan las características sin que el cliente lo sepa? 
+Sí, si las características no tienen un impacto funcional, entonces pueden habilitarse de manera predeterminada.
+
+### <a name="what-is-feature-flighting-and-how-does-it-relate-to-feature-management"></a>¿Qué es el paquete piloto de características y cómo se relaciona con la gestión de características? 
+Los paquetes piloto de características son interruptores de encendido y apagado en tiempo real que controla Microsoft. Están fuera del control del cliente que proporciona Feature Management. 
+- Las características de versión preliminar privada no aparecerán en Feature Management hasta que se activen en el paquete piloto. En el entorno de producción, el cliente debe aceptar ser parte de un programa especial para que eso se produzca.
+- Las características de versión preliminar pública (generalmente disponibles) se enumerarán en Feature Management a menos que estén desactivadas. Desactivar una característica del paquete piloto se considera una opción de último recurso para los equipos de productos si se encuentra un problema crítico y, por lo general, sería una operación por cliente.
+
+### <a name="do-features-ever-get-flighted-off-without-the-customer-knowing-about-it"></a>¿Se deshabilitan características del paquete piloto sin que el cliente lo sepa? 
+Sí, si una característica está afectando al funcionamiento de un entorno que no tiene un impacto funcional, entonces se pueden habilitar de forma predeterminada.

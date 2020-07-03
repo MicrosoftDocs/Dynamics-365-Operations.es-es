@@ -3,7 +3,7 @@ title: Módulo de reproductor de vídeo
 description: En este tema se tratan los módulos de reproductor de vídeo y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e94658eed12b12d6666e63d2c06b86646c81a120
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 0612682d310362c7523bf08db40faf51c80ea2e3
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025680"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411168"
 ---
 # <a name="video-player-module"></a>Módulo de reproductor de vídeo
 
@@ -47,6 +47,10 @@ El módulo del reproductor de vídeo también admite pistas de audio secundarias
 - Vídeos promocionales o vídeos sobre directivas en cualquier página de marketing
 - Vídeos de marketing que resaltan características de productos en las páginas de detalles de productos o páginas de marketing
 
+La siguiente imagen muestra un ejemplo de un módulo de reproductor de vídeo en una página principal.
+
+![Ejemplo de un módulo de reproductor de vídeo](./media/ecommerce-videoplayer.PNG)
+
 ### <a name="video-player-module-properties"></a>Propiedades de módulo de reproductor de vídeo
 
 | Nombre de la propiedad         | Valor                               | Descripción |
@@ -68,20 +72,32 @@ El módulo del reproductor de vídeo también admite pistas de audio secundarias
 
 Para agregar un módulo de reproductor de vídeo a una página nueva y establecer las propiedades necesarias, siga estos pasos.
 
-1. Cree una plantilla de página con el nombre **plantilla de reproductor de vídeo**.
-1. En el espacio **Principal** de la página predeterminada, agregue un módulo de contenedor.
-1. En el módulo de contenedor, agregue los módulos de reproductor de vídeo y reproductor de vídeo ambiental.
-1. Termine de editar la plantilla y publíquela.
-1. Use la plantilla de reproductor de vídeo que acaba de crear para crear una página llamada **página de reproductor de vídeo**.
-1. En el espacio **Principal** de la página nueva, agregue un módulo de reproductor de vídeo.
-1. En el panel de propiedades para el módulo del reproductor de video, seleccione **Agregar un video**.
+1. Vaya a **Plantillas** y luego seleccione **Nuevo** para crear una nueva plantilla.
+1. En el cuadro de diálogo **Nueva plantilla**, en **Nombre de la plantilla**, introduzca **Plantilla de reproductor de vídeo** y luego seleccione **Aceptar**.
+1. En el espacio **Cuerpo**, seleccione los puntos suspensivos (**...**) y después seleccione **Agregar módulo**.
+1. En el cuadro de diálogo **Agregar módulo**, seleccione el módulo **Página predeterminada** y, a continuación, **Aceptar**.
+1. En el espacio **Principal** del módulo **Página predeterminada**, seleccione los puntos suspensivos (**...**) y, a continuación, seleccione **Agregar módulo**.
+1. En el cuadro de diálogo **Agregar módulo**, seleccione el módulo **Contenedor** y, a continuación, **Aceptar**.
+1. En el espacio **Contenedor**, seleccione los puntos suspensivos (**...**) y después seleccione **Agregar módulo**.
+1. En el cuadro de diálogo **Agregar módulo**, seleccione el módulo **Reproductor de vídeo** y, a continuación, **Aceptar**.
+1. Seleccione **Guardar** y seleccione **Finalizar edición** para proteger la plantilla y luego seleccione **Publicar** para publicarla. 
+1. Vaya a **Páginas** y seleccione **Nuevo** para crear una nueva página.
+1. En el cuadro de diálogo **Elegir una plantilla** seleccione la plantilla del reproductor de video que creó. En **Nombre de página**, introduzca **Página de reproductor de vídeo** y después seleccione **Aceptar**.
+1. En el espacio **Principal** de la nueva página, seleccione los puntos suspensivos (**...**) y, a continuación, seleccione **Agregar módulo**.
+1. En el cuadro de diálogo **Agregar módulo**, seleccione el módulo **Contenedor** y, a continuación, **Aceptar**.
+1. En el espacio **Contenedor**, seleccione los puntos suspensivos (**...**) y después seleccione **Agregar módulo**.
+1. En el cuadro de diálogo **Agregar módulo**, seleccione el módulo **Reproductor de vídeo** y, a continuación, **Aceptar**.
+1. En el panel de propiedades del módulo de reproductor de video, seleccione **Agregar un video**.
 1. En el cuadro de diálogo **Selector de medios**, seleccione un video y, a continuación, seleccione **Cargar nuevo elemento multimedia**.
-1. Guarde la página y obtenga una vista previa de ella. Debería ver el módulo de vídeo en la página. Puede cambiar la configuración adicional para personalizar el comportamiento del módulo.
-1. Termine de editar la página y publíquela.
+1. En el Explorador de archivos, seleccione un archivo de vídeo y luego seleccione **Abrir**.
+1. En el cuadro de diálogo **Subir elemento multimedia** introduzca un título y otra información según sea necesario, y luego seleccione **Aceptar**.
+1. En el cuadro de diálogo **Selector de medios** seleccione **Cerrar**.
+1. Seleccione **Guardar** y luego seleccione **Vista previa** para previsualizar la página. Debería ver el módulo de vídeo en la página. Puede cambiar la configuración adicional para personalizar el comportamiento del módulo.
+1. Seleccione **Finalizar edición** para proteger la página y luego seleccione **Publicar** para publicarla. 
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general de kit de inicio](starter-kit-overview.md)
+[Visión general del kit de inicio](starter-kit-overview.md)
 
 [Módulo de banner promocional](add-alert.md)
 

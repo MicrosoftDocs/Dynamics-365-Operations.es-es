@@ -3,7 +3,7 @@ title: Módulos de colección de productos
 description: Este tema proporciona una visión general de los módulos de colección de productos en Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 01/07/2020
+ms.date: 06/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 069fa1cb6acad4b8d6618cebb754cbc0892ca9cf
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 698bdd22cffad26bc9126fca5649f091fbeef4dd
+ms.sourcegitcommit: 49656661c89c864e8e067259a601c3bbceb8bef4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025957"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "3464962"
 ---
 # <a name="product-collection-modules"></a>Módulos de colección de productos
 
@@ -72,16 +72,17 @@ En la siguiente tabla se describen diversos tipos de módulos de colección de p
 
 Para agregar un módulo de colección de productos a una página de categoría, siga estos pasos.
 
-1. En Dynamics 365 Commerce, vaya al sitio y cree una página que use la misma plantilla que la página de categoría predeterminada.
-1. En la página Esquema, seleccione la franja **Pie de página secundario**, los puntos suspensivos (**...**) y, a continuación, **Agregar módulo**.
-1. En el cuadro de diálogo **Agregar módulo**, seleccione **Contenedor** y **Aceptar**.
-1. En el módulo de contenedor, seleccione el botón de puntos suspensivos y **Agregar módulo**.
-1. En el cuadro de diálogo **Agregar módulo**, seleccione **Colección de productos** y **Aceptar**.  
-1. Configure los valores seleccionando entradas y un origen de datos adecuados para la colección de productos.
+1. Vaya a **Páginas** y seleccione **Nuevo** para crear una nueva página.
+1. En el cuadro de diálogo **Elegir una plantilla**, seleccione la misma plantilla que la utilizada por su página de categoría predeterminada. En **Nombre de página**, introduzca un nombre apropiado, y después seleccione **Aceptar**.
+1. En el espacio **Pie de página secundario**, seleccione los puntos suspensivos (**...**) y después seleccione **Agregar módulo**.
+1. En el cuadro de diálogo **Agregar módulo**, seleccione el módulo **Contenedor** y, a continuación, **Aceptar**.
+1. En el espacio **Contenedor**, seleccione los puntos suspensivos (**...**) y después seleccione **Agregar módulo**.
+1. En el cuadro de diálogo **Agregar módulo**, seleccione el módulo **Colección de productos** y, a continuación, **Aceptar**.  
 1. En el panel de propiedades del módulo de colección de productos, seleccione **Agregar una lista de productos**.
-1. En el cuadro de diálogo **Seleccionar la configuración de la lista de productos**, seleccione el tipo de lista, especifique el número de artículos y seleccione otras opciones que estén disponibles para el tipo de lista. Para obtener más información sobre los tipos de lista, consulte la tabla siguiente. 
+1. En el cuadro de diálogo **Seleccionar la configuración de la lista de productos**, seleccione el tipo de lista, el origen de la lista y especifique el número de artículos. Configure cualquier otra opción que esté disponible para el tipo de lista. Para obtener más información sobre los tipos de lista, consulte la tabla siguiente. 
 1. Seleccione **Aceptar**.
-1. Guarde la página y protéjala.
+1. Seleccione **Guardar** y luego seleccione **Vista previa** para previsualizar la página.
+1. Seleccione **Finalizar edición** para proteger la página y luego seleccione **Publicar** para publicarla.
 
 En la tabla siguiente se muestran los tipos de lista disponibles para la selección del cuadro de diálogo **Seleccionar la configuración de la lista de productos**.
 

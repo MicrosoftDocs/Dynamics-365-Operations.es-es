@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 45677681ebae40210d6e2d896323f7e691b765e2
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: d2455f775fcf41bbcb1388b2e8053ede8512335d
+ms.sourcegitcommit: 52ba8d3e6af72df5dab6c04b9684a61454d353ad
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057565"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3403224"
 ---
 # <a name="overview-of-fiscal-integration-for-commerce-channels"></a>Visión general de la integración fiscal para canales de Commerce
 
@@ -138,7 +138,8 @@ Los ejemplos siguientes fiscales de integración están disponibles actualmente 
 - [Ejemplo de integración de impresora fiscal para Polonia](emea-pol-fpi-sample.md)
 - [Ejemplo de integración de servicio de registro para Austria](emea-aut-fi-sample.md)
 - [Ejemplo de integración de servicio de registro fiscal para la República Checa](emea-cze-fi-sample.md)
-- [Ejemplo de integración de unidad de control para Suecia](./emea-swe-fi-sample.md)
+- [Muestra de integración de unidad de control para Suecia](./emea-swe-fi-sample.md)
+- [Ejemplo de integración de servicio de registro fiscal para Alemania](./emea-deu-fi-sample.md)
 
 La siguiente funcionalidad fiscal de integración también está disponible en el SDK al por menor pero no se aprovecha actualmente del marco fiscal de integración. La migración de esta funcionalidad fiscal al marco de integración está prevista para actualizaciones posteriores.
 

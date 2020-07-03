@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 03426e86186c6aa283531eb37ae26527e6891042
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 2742c5c12dcc554745b618dd1ff819c8c1e1d05f
+ms.sourcegitcommit: b0e4fa3fb43cf05fce4c833da73012cb01450125
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3276958"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "3413108"
 ---
 # <a name="inventory-value-storage-report"></a>Informe de almacenamiento de valor de inventario
 
@@ -50,7 +50,7 @@ Siga estos pasos para generar y almacenar un informe de **Almacenamiento de valo
 1. Seleccione **Nuevo**.
 1. En el cuadro de diálogo **Valor de inventario** que aparece, establezca los siguientes valores para definir qué registros se incluyen en su informe:
 
-    - En la ficha desplegable **Parámetros**, ingrese un nombre único para el informe y use los campos de la sección **Intervalo de fecha** para definir qué registros se incluyen en el informe. Para definir el intervalo de fechas, puede seleccionar un rango preestablecido (relativo a la fecha de generación del informe) en **Código de intervalo de fecha** o seleccionar fechas específicas en los campos **Fecha desde** y **Fecha hasta**. <!-- KFM: What is the ID setting for here? What do its values mean? -->
+    - En la ficha desplegable **Parámetros**, ingrese un nombre único para el informe y use los campos de la sección **Intervalo de fecha** para definir qué registros se incluyen en el informe. Para definir el intervalo de fechas, puede seleccionar un rango preestablecido (relativo a la fecha de generación del informe) en **Código de intervalo de fecha** o seleccionar fechas específicas en los campos **Fecha desde** y **Fecha hasta**.
     - En la ficha desplegable **Registros para incluir**, configure filtros y restricciones para definir qué datos se incluyen en el informe.
     - En la ficha desplegable **Ejecutar en segundo plano**, especifique cómo, cuándo y con qué frecuencia se genera el informe.
 

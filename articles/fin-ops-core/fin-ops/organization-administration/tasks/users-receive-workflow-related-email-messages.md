@@ -3,7 +3,7 @@ title: Permitir a los usuarios que reciban mensajes de correo electrónico relac
 description: Usted puede configurar el sistema para enviar mensajes de correo electrónico a los usuarios cuando se produzcan eventos relacionados con el flujo de trabajo.
 author: jasongre
 manager: AnnBe
-ms.date: 07/01/2019
+ms.date: 06/01/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f4c9f2f22bc4b5ca5b4351f7956ad2eb6d3b903d
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 40ad380c7bfb2b3fc518b0278286ae03532668ed
+ms.sourcegitcommit: 4db8c30c2f26af1896938dd3ece3756577374ecb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3140430"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "3416562"
 ---
 # <a name="enable-users-to-receive-workflow-related-email-messages"></a>Permitir a los usuarios que reciban mensajes de correo electrónico relacionados con el flujo de trabajo
 
@@ -31,7 +31,7 @@ Usted puede configurar el sistema para enviar mensajes de correo electrónico a 
 
 1. Vaya a **Panel de navegación > Módulos > Administración del sistema > Usuarios > Usuarios**.
 2. En la lista, busque y seleccione el registro deseado.
-3. En el **Panel de acciones**, haga clic en **Opciones de usuario**.
+3. En el **panel Acciones**, haga clic en **Opciones de usuario**.
 4. Haga clic en la pestaña **Flujo de trabajo**. Asegúrese de que está expandida la sección **Notificaciones**. En la sección **Notificaciones**, puede especificar la manera en que desea que se notifique al usuario acerca de los eventos relacionados con el flujo de trabajo.  
 5. En el campo **Tipo de notificación de flujo de trabajo de línea-artículo**, seleccione una opción.
     - Agrupado: las notificaciones de elementos de línea se agrupan en una solo mensaje de correo electrónico.
@@ -40,3 +40,5 @@ Usted puede configurar el sistema para enviar mensajes de correo electrónico a 
 6. Haga clic en **Guardar**.
 7. Cierre la página.
 
+> [!NOTE]
+> Las plantillas de correo electrónico del flujo de trabajo se obtendrán de las plantillas de correo electrónico del sistema o de las plantillas de correo electrónico de la organización, dependiendo de si el flujo de trabajo es un flujo de trabajo a nivel de sistema (no específico de la compañía) o de nivel de organización (específico de la compañía).

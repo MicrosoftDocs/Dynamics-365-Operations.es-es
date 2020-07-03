@@ -3,7 +3,7 @@ title: Ajustar resultados de recomendaciones de producto basadas en AI-ML
 description: Este tema explica cómo ajustar los resultados de recomendaciones de productos según la inteligencia artificial-aprendizaje automático (AI-ML) para tu negocio.
 author: bebeale
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: afd9271c680b1f4248d6e60036f3e79d204dc3c2
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 0b4228583c4a2b89d7139b51880cea0288d7fe49
+ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154350"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3404380"
 ---
 # <a name="adjust-ai-ml-based-product-recommendation-results"></a>Ajustar resultados de recomendaciones de producto basadas en AI-ML
 
@@ -102,7 +102,7 @@ Siga estos pasos para agregar o eliminar manualmente los resultados para un prod
 
 [Visión general de recomendaciones de producto](product-recommendations.md)
 
-[Habilitar ADLS en un entorno de Dynamics 365 Commerce](enable-adls-environment.md)
+[Habilitar Azure Data Lake Storage en un entorno Dynamics 365 Commerce](enable-adls-environment.md)
 
 [Habilitar recomendaciones de producto](enable-product-recommendations.md)
 

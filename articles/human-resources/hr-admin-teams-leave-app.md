@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: FeatureManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 423ec36a73e8af9d915c5cfe16bd4d552448e2b6
-ms.sourcegitcommit: d1541831d556b722a71aed442043ffb4a4576d87
+ms.openlocfilehash: 36684710e39c27840cc4aaa259a85579104fd8d6
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "3388125"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3431139"
 ---
 # <a name="human-resources-app-in-teams"></a>Aplicación Recursos humanos en Teams
 
@@ -45,6 +45,7 @@ Para obtener información sobre la administración de permisos de aplicaciones e
 
 | Emitir | Estado |
 | --- | --- |
+| Error: hay un problema para encontrar un entorno al que conectarse. | Puede recibir este error incluso si ha verificado que el usuario puede acceder a uno o más entornos de Human Resources. Además, es posible que no aparezcan todos los entornos que espera. Hasta que solucionemos este problema, elimine el usuario y luego impórtelo nuevamente para resolver el problema. |
 | El saldo es incorrecto si se envía tiempo libre para una fecha futura. | La previsión no está disponible aún. El saldo se muestra para la fecha actual. |
 | Al reducir el número de horas que se requieren en una solicitud existente, el **Saldo restante** baja en lugar subir. | Abordaremos este problema conocido en el futuro. La visualización es incorrecta, pero los importes correctos se ajustan en el momento del envío. |
 | Dos tarjetas **Próximo tiempo libre** se muestran para las mismas fechas. | Las tarjetas representan envíos individuales. Continuaremos recibiendo comentarios y haciendo ajustes. |

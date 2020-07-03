@@ -3,7 +3,7 @@ title: Módulo de cuadro de compra
 description: En este tema se tratan los módulos de cuadro de compra y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 095374c14cddf1ae3608ae1427a7144b3e7ca7b2
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: 583937be92b62991cd13f0806df4a0a6c9ac049c
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269760"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411351"
 ---
 # <a name="buy-box-module"></a>Módulo de cuadro de compra
 
-
+[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 En este tema se tratan los módulos de cuadro de compra y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
@@ -38,6 +38,10 @@ El término *cuadro de compra* hace referencia normalmente a una página de deta
 Un módulo de cuadro de compra es el contenedor especial que se usa para hospedar todos los módulos que se muestran en el área del cuadro de compra de una página de detalles de producto.
 
 La dirección URL de una página de detalles de producto incluye el id. de producto. Toda la información que se necesita para representar un módulo de cuadro de compra se deriva de este id. de producto. Si no se proporciona un id. de producto, el módulo de cuadro de compra no se representará correctamente en una página. Por lo tanto, un módulo de cuadro de compra solo se puede usar en páginas que tienen contexto de producto. Para usarlo en una página que no tiene contexto de producto (por ejemplo, una página de inicio o una página de marketing), debe realizar personalizaciones adicionales.
+
+La siguiente imagen muestra un ejemplo de un módulo de cuadro de compra en una página de detalles del producto.
+
+![Ejemplo de un módulo de cuadro de compra](./media/ecommerce-pdp-buybox.PNG)
 
 ## <a name="buy-box-module-properties-and-slots"></a>Franjas y propiedades del módulo de cuadro de compra 
 
@@ -58,35 +62,47 @@ Los temas se pueden usar para eliminar o cambiar el orden de las propiedades del
 ## <a name="modules-that-can-be-used-in-a-buy-box-module"></a>Módulos que se pueden usar en un módulo de cuadro de compra
 
 - **Galería de medios** Este módulo se usa para mostrar imágenes de un producto en una página de detalles de productos. Puede admitir de una a varias Imágenes. También admite imágenes en miniatura. Las imágenes en miniatura se pueden organizar horizontalmente fila (como fila debajo de la imagen) o verticalmente (como columna junto a la imagen). El módulo de galería de medios se puede agregar a la franja **Medios** del módulo del cuadro de compra. Actualmente solo admite imágenes y vídeos. 
-- **Selector de tienda**: este módulo muestra una lista de las tiendas cercanas en las que un artículo está disponible para su recogida. Permite a los usuarios especificar una ubicación para encontrar tiendas cercanas. Para obtener más información sobre este módulo, vea [Módulo selector de tienda](store-selector.md).
+- **Selector de tienda**: este módulo muestra una lista de las tiendas cercanas en las que un artículo está disponible para su recogida. Permite a los usuarios especificar una ubicación para encontrar tiendas cercanas. Para obtener más información sobre este módulo, consulte [Módulo selector de tienda](store-selector.md).
 
 ## <a name="buy-box-module-settings"></a>Configuración del módulo de cuadro de compra
 
-Los módulos de cuadro de compra tienen tres opciones de configuración opciones que se pueden establecer en **Valores de configuración de sitio \> Extensiones**:
+Las siguientes opciones de cuadro de compra pueden configurarse en **Configuración de sitio \> Extensiones**:
 
-- **Cantidad máxima**: esta propiedad se usa para especificar el número máximo de cada artículo que se puede agregar al carro. Por ejemplo, un minorista puede decidir si solo 10 de cada producto se pueden vender en una única transacción.
-- **Comprobación de inventario**: Cuando el valor se establece en **Verdadero**, se agrega un artículo al carro solo después de que el módulo del cuadro de compra se asegure de que está en existencias. Esta comprobación de inventario se realiza para situaciones donde se enviará el artículo y para situaciones en la que se recogerá en la tienda. Si el valor se establece en **Falso**, no se realiza ninguna comprobación de inventario antes de agregar un artículo al carro y se realiza el pedido. Para obtener información sobre cómo configurar las opciones de inventario en la oficina administrativa, vea [Calcular la disponibilidad de inventario para canales minoristas](calculated-inventory-retail-channels.md).
+- **Límite de cantidad de línea de carro**: esta propiedad se usa para especificar el número máximo de cada artículo que se puede agregar al carro. Por ejemplo, un minorista puede decidir si solo 10 de cada producto se pueden vender en una única transacción.
+- **Inventario**: para obtener información sobre cómo aplicar la configuración de inventario, consulte [Aplicar configuración de inventario](inventory-settings.md).
+- **Añadir al carro**: esta propiedad se utiliza para especificar el comportamiento después de agregar un artículo al carro. Los valores posibles son **Navegar al carro**, **No navegar al carro** y **Mostrar notificaciones**. Cuando el valor se establece en **Navegar al carro**, se envía a los usuarios a la página del carro después de agregar un artículo. Cuando el valor se establece en **No navegar al carro**, se envía a los usuarios a la página del carro después de agregar un artículo. Cuando el valor se establece en **Mostrar notificaciones**, los usuarios reciben una notificación de confirmación y pueden continuar navegando en la página de detalles del producto. 
 
-- **Almacenaje de inventario**: esta propiedad se usa para especificar un número de almacenaje para el inventario. El inventario se mantiene en tiempo real y, cuando muchos clientes realizan pedidos, puede ser difícil mantener un recuento de inventario preciso. Cuando se realiza una comprobación de inventario, si el inventario es inferior a la cantidad de almacenaje, el producto se tratará como sin existencias. Por lo tanto, cuando las ventas se producen rápidamente entre varios canales, y el recuento de inventario no está completamente sincronizado, hay un riesgo menor de que se venda un artículo del que no hay existencias.
+    La siguiente imagen muestra un ejemplo de una notificación de confirmación de "agregado al carro" en el sitio de Fabrikam.
+
+    ![Ejemplo de un módulo de notificación](./media/ecommerce-addtocart-notifications.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Interacción con Commerce Scale Unit
 
-El módulo de cuadro de compra recupera la información de producto mediante las API de Commerce Scale Unit. El id. del producto de la página de detalles de productos se utiliza para recuperar toda la información.
+El módulo de cuadro de compra recupera la información de producto mediante las interfaces de programación de aplicaciones (API) de Commerce Scale Unit. El id. del producto de la página de detalles de productos se utiliza para recuperar toda la información.
 
 ## <a name="add-a-buy-box-module-to-a-page"></a>Agregar un módulo de cuadro de compra a una página
 
 Para agregar un módulo de cuadro de compra a una página nueva y establecer las propiedades necesarias, siga estos pasos.
 
-1. Cree un fragmento que se llame **fragmento de cuadro de compra** y agréguele un módulo de cuadro de compra.
-1. En la franja **Medios** del módulo del cuadro de compra, agregue un módulo de galería de medios.
-1. En la franja **Selector de tienda** del módulo de caja de compra, agregue un módulo de selector de tienda.
+1. Vaya a **Fragmentos de página** y seleccione **Nuevo** para crear un nuevo fragmento.
+1. En el cuadro de diálogo, **Nuevo fragmento de página**, seleccione el módulo **Cuadro de compra**.
+1. En **Nombre del fragmento de página**, introduzca el nombre **Fragmento de cuadro de compra** y luego seleccione **Aceptar**.
+1. En el espacio **Galería de medios** del módulo de cuadro de compra, seleccione los puntos suspensivos (**...**) y luego seleccione **Agregar módulo**.
+1. En el cuadro de diálogo **Agregar módulo**, seleccione el módulo **Galería de medios** y, a continuación, **Aceptar**.
+1. En el espacio **Selector de tienda** del módulo de cuadro de compra, seleccione los puntos suspensivos (**...**) y luego seleccione **Agregar módulo**.
+1. En el cuadro de diálogo **Agregar módulo**, seleccione el módulo **Selector de tienda** y elija **Aceptar**.
 1. Seleccione **Guardar** y seleccione **Finalizar edición** para proteger el fragmento y luego seleccione **Publicar** para publicarlo.
-1. Cree una plantilla para una página de detalles de productos y asígnele el nombre **Plantilla de PDP**.
-1. Agregue una página predeterminada.
-1. En el espacio **Principal** de la página predeterminada, agregue un fragmento de cuadro de compra.
+1. Vaya a **Plantillas** y luego seleccione **Nuevo** para crear una nueva plantilla.
+1. En el cuadro de diálogo **Nueva plantilla**, en **Nombre de plantilla**, introduzca **Plantilla PDP** y luego seleccione **Aceptar**.
+1. En el espacio **Cuerpo**, seleccione los puntos suspensivos (**...**) y después seleccione **Agregar módulo**.
+1. En el cuadro de diálogo **Agregar módulo**, seleccione el módulo **Página predeterminada** y, a continuación, **Aceptar**.
+1. En el espacio **Principal** de la página predeterminada, seleccione los puntos suspensivos (**...**) y, a continuación, **Agregar fragmento de página**.
+1. En el cuadro de diálogo **Seleccionar fragmento de página**, seleccione el fragmento **Fragmento de cuadro de compra** creado anteriormente y, a continuación, seleccione **Aceptar**.
 1. Seleccione **Guardar** y seleccione **Finalizar edición** para proteger la plantilla y luego seleccione **Publicar** para publicarla.
-1. Use la plantilla que acaba de crear para crear una página que se llame **Página de PDP**.
-1. En el espacio **Principal** de la página nueva, agregue un fragmento de cuadro de compra.
+1. Vaya a **Páginas** y seleccione **Nuevo** para crear una nueva página.
+1. En el cuadro de diálogo **Elegir una plantilla**, seleccione la plantilla **Modelo PDP**. En **Nombre de página**, introduzca **Página PDP** y después seleccione **Aceptar**.
+1. En el espacio **Principal** de la nueva página, seleccione los puntos suspensivos (**...**) y, a continuación, **Agregar fragmento de página**.
+1. En el cuadro de diálogo **Seleccionar fragmento de página**, seleccione el fragmento **Fragmento de cuadro de compra** creado anteriormente y, a continuación, seleccione **Aceptar**.
 1. Guarde la página y obtenga una vista previa de ella. Agregue el parámetro de cadena de consulta **?productid=&lt;id. de producto&gt;** a la dirección URL de la página de vista previa. De esa manera, el contexto del producto se usa para cargar y representar la página de vista previa.
 1. Seleccione **Guardar** y seleccione **Finalizar edición** para proteger la página y luego seleccione **Publicar** para publicarla. Un cuadro de la compra debe aparecer en la página de detalles de productos.
 

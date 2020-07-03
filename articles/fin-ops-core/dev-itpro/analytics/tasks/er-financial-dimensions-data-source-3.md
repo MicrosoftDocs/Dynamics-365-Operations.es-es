@@ -3,7 +3,7 @@ title: 'ER Usar dimensiones financieras como origen de datos (Parte 3: Diseño d
 description: En los pasos siguientes se explica cómo un usuario asignado al rol de administrador del sistema o desarrollador de informes electrónicos puede configurar un modelo de informes electrónicos (ER) para que use las dimensiones financieras como origen de datos de informes ER.
 author: NickSelin
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 05/27/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7bbbc81eaf8c13e8d13e30a0276e38453e07ead9
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: cef61787e50561eaac4fd52741ab5f90d9c4171d
+ms.sourcegitcommit: d9125c20b21459076e4fd92fd9ebfe2e53a0431b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142533"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "3406506"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-3---design-the-report"></a>ER Usar dimensiones financieras como origen de datos (Parte 3: Diseño del informe)
 
@@ -94,7 +94,8 @@ Para completar estos pasos, primero debe completar los pasos del procedimiento "
 58. Haga clic en Aceptar
 59. Haga clic en Agregar atributos.
 60. En el campo Nombre, escriba "Desc".
-61. Haga clic en Aceptar
+61. Haga clic en Aceptar.
+![Página de diseñador de operaciones de ER](../media/er-financial-dimensions-guides-format1.png)
 
 ## <a name="map-report-elements-to-data-sources"></a>Asignar elementos del informe a orígenes de datos
 1. Haga clic en la ficha Asignación.
@@ -143,4 +144,5 @@ Para completar estos pasos, primero debe completar los pasos del procedimiento "
 44. Haga clic en Enlazar.
 45. Haga clic en Guardar.
 46. Cierre la página.
+![Página de diseñador de operaciones de ER](../media/er-financial-dimensions-guides-format2.png)
 

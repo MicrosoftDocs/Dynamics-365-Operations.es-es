@@ -3,7 +3,7 @@ title: Personalizar la experiencia del usuario
 description: Este tema explica cómo puede personalizar la aplicación.
 author: jasongre
 manager: AnnBe
-ms.date: 04/13/2020
+ms.date: 05/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0a995d25cfc5e78cc76dd73ddea2fb8bd904328
-ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
+ms.openlocfilehash: bb66db1e41dce6987bdfc52dd58e2b704ce36720
+ms.sourcegitcommit: dc67232c9aa3223d42f22cc1f7aafbd121e7e616
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3260515"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "3412363"
 ---
 # <a name="personalize-the-user-experience"></a>Personalizar la experiencia del usuario
 
@@ -48,12 +48,12 @@ La página **Opciones de usuario** contiene varios valores para todo el sistema 
 - **Cuenta:**: Ajuste su nombre de usuario y otras opciones relacionadas con la cuenta.
 - **Flujo de trabajo**: seleccione las opciones relacionadas con el flujo de trabajo.
 
-Además de modificar la configuración del usuario, también puede ver y eliminar sus datos de uso y personalizaciones con la página **Opciones de uso**. Simplemente seleccione **Datos de uso** en el panel de acciones.
+Además de modificar la configuración del usuario, también puede ver y eliminar sus datos de uso y personalizaciones con la página **Opciones de uso**. Simplemente seleccione **Datos de uso** en el panel Acciones.
 
 Cuando se utiliza la aplicación, muchas de las selecciones se guardan para que pueda utilizar el sistema más fácilmente en el futuro. La ficha **Personalización** le permite ver y gestionar los cambios personales que realizó en las páginas del sistema. En esta ficha, también puede restablecer las llamadas de características (es decir, las ventanas emergentes que introducen nuevas características de sistema). Se le volverá a alertar de las características anteriormente encontradas.
 
 > [!NOTE]
-> Si la característica [Vistas guardadas](saved-views.md) está activada, puede ver y gestionar sus personalizaciones seleccionando **Personalización** en el panel de acciones de la página **Opciones de usuario**.
+> Si la característica [Vistas guardadas](saved-views.md) está activada, puede ver y gestionar sus personalizaciones seleccionando **Personalización** en el panel Acciones de la página **Opciones de usuario**.
 
 ## <a name="implicit-personalizations"></a>Personalizaciones implícitas
 
@@ -63,7 +63,7 @@ Las personalizaciones implícitas son personalizaciones que se realizan simpleme
 - **Totales de columna de cuadrícula**: (solo disponible con el nuevo control de cuadrícula habilitado.) Puede decidir si se debe mostrar o no un total en la parte inferior de cualquier columna numérica en una cuadrícula, así como si el pie de página de la cuadrícula es visible. La aplicación almacena estos datos para que estas preferencias se recuerden la próxima vez que abra la página. Consulte el tema [Capacidades de cuadrícula](grid-capabilities.md) para más información. 
 - **Fichas Desplegables**: algunas páginas tienen secciones extensibles llamadas *Fichas Desplegables*. La aplicación almacena información sobre las fichas desplegables que usted ha expandido y contraído. A continuación, cada vez que abra la página, las mismas fichas desplegables se ampliarán o contraerán en función de su última interacción con la página. En algunos casos, puede ayudar a mejorar el rendimiento del sistema contrayendo una ficha desplegable, porque la aplicación no tiene que recuperar información para dicha ficha desplegable hasta que se extienda. Como se explica más adelante este tema, también puede cambiar el orden de las fichas desplegables de una página.
 - **Cuadros informativos**: algunas páginas tienen un panel de **información relacionada** que muestra la información de solo lectura relacionada con el asunto actual de la página. Cada sección del panel **Información relacionada** se conoce como *cuadro informativo*. Puede ocultar o mostrar el panel **Información relacionada** y también puede ampliar o contraer cuadros informativos individuales. La aplicación almacena estas preferencias. A continuación, cada vez que abra a la página, se expandirán o contraerán el panel **información relacionada** y los cuadros informativos individuales, en función de su última interacción con la página. En algunos casos, puede ayudar a mejorar el rendimiento del sistema contrayendo un cuadro informativo, porque la aplicación no tiene que recuperar información para dichos cuadros informativos hasta que se extiendan.
-- **Paneles de acciones** – Un *Panel de acciones* aparece cerca de la parte superior de la mayoría de las páginas. El panel de acciones contiene botones para muchas de las acciones que puede realizar en la página actual. Estos botones se organizan a menudo en fichas. Puede "anclar" el panel de acciones abierto completo o puede contraerlo de forma predeterminada. A continuación, cada vez que abra la página, el panel de acciones se abrirá o contraerá en función de su última interacción con la página. Si ha anclado el panel de acciones abierto, aparecerá la última ficha utilizada.
+- **Paneles de acciones** – Un *panel Acciones* aparece cerca de la parte superior de la mayoría de las páginas. El panel Acciones contiene botones para muchas de las acciones que puede realizar en la página actual. Estos botones se organizan a menudo en fichas. Puede "anclar" el panel Acciones abierto completo o puede contraerlo de forma predeterminada. A continuación, cada vez que abra la página, el panel Acciones se abrirá o contraerá en función de su última interacción con la página. Si ha anclado el panel Acciones abierto, aparecerá la última ficha utilizada.
 - **Filtros rápidos** – Un *filtro rápido* aparece sobre muchas cuadrículas. El filtro rápido le permite filtrar la cuadrícula, en función de una columna seleccionada. La aplicación almacena la columna en la que ha aplicado el filtro. A continuación, la próxima vez que abra la página que incluye la cuadrícula, la cuadrícula se filtrará en la misma columna. Sin embargo, puede seleccionar una columna diferente para filtrar la cuadrícula.
 - **Filtros de encabezado de columna** Cuando se filtra una cuadrícula con los *Filtros de encabezado de columna*, puede cambiar al operador del filtro según sea necesario para encontrar los datos que desee. Por ejemplo, puede cambiar el operador de **comienza con** a **es exactamente**. Cada vez que se utiliza un filtro de encabezado de columna y se modifica el operador del filtro, la aplicación almacena el cambio. A continuación restablecerá el operador del filtro la próxima vez que se filtre esa columna.
 - **Panel de exploración** Puede abrir el *Panel de exploración* seleccionando el botón **Expandir el panel de navegación** en el panel superior izquierdo de cualquier página. (En ocasiones se hace referencia al botón _**Menú**_ como *hamburguesa*, *menú de la hamburguesa* o *botón de la hamburguesa*.). Puede anclar el panel de navegación abierto o puede mantenerlo contraído de forma predeterminada. Tras anclar y mantener abierto el panel de navegación, la aplicación se mantendrá abierto hasta que lo contraigan.
@@ -98,7 +98,7 @@ La ventana de la propiedad puede incluir otras capacidades de personalización, 
 Si desea implementar varios cambios en una página o hacer cambios que no están disponibles con otros mecanismos (como reordenar elementos), puede utilizar la barra de herramientas **Personalización**. Para abrir la barra de herramientas **Personalización**, siga uno de estos pasos:
 
 - Seleccione **Personalizar esta página** en la ventana de propiedades del artículo.
-- En el panel de acciones de la página, seleccione **Personalizar esta página** en el grupo **Personalizar** en la ficha **Opciones**.
+- En el panel Acciones de la página, seleccione **Personalizar esta página** en el grupo **Personalizar** en la ficha **Opciones**.
 - Seleccione el botón **Configuración** (el símbolo de engranaje) en la barra de navegación y, a continuación, seleccione **Personalizar**.
 
 [![Barra de herramientas de personalización](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
@@ -117,7 +117,11 @@ Las siguientes herramientas están disponibles en la barra de herramientas **Per
 - Elija la herramienta **Mover** si desea mover un elemento a otra ubicación dentro del grupo actual de elementos. Tenga en cuenta que no puede mover un elemento fuera del grupo principal. Para utilizar esta herramienta, seleccione el botón **Mover** en la barra de herramientas, y seleccione el artículo que desea mover. Al seleccionar un elemento, la aplicación determina las ubicaciones adónde se puede mover el elemento. Estas ubicaciones se conocen como *zonas de colocación*. Mientras arrastra el elemento dentro del grupo actual, todas las zonas de colocación se muestran como una línea en color y negrita junto al área donde el elemento se puede colocar.
 - Use la herramienta **Omitir** para quitar un elemento de la secuencia del tabulador del teclado de la página. Al seleccionar el botón **Omitir** de la barra de herramientas, todos los elementos que se omiten se muestran en un contenedor sombreado. Puede agregar o quitar interactivamente campos de la secuencia de fichas.
 - Utilice la herramienta **Mostrar en encabezado** cuando desee que aparezca un campo en la sección de resumen de la ficha desplegable. Al seleccionar el botón **Mostrar en encabezado** en la barra de herramientas, todos los campos que se seleccionan como campos de resumen se muestran en un contenedor sombreado. Puede agregar interactivamente campos al resumen de ficha desplegable y quitar campos seleccionando los campos.
-- Use la herramienta **Obligatorio** para designar un elemento como obligatorio para la entrada de datos. Al seleccionar el botón **Obligatorio** de la barra de herramientas, todos los elementos que se han personalizado para ser obligatorios se muestran en un contenedor sombreado. Puede hacer que vuelvan a ser no obligatorios. Esta opción solo está disponible en una versión futura cuando las características [Vistas guardadas](saved-views.md) y **Designar campos según sea necesario utilizando personalización** estén habilitadas.
+- Use la herramienta **Obligatorio** para designar un elemento como obligatorio para la entrada de datos. Al seleccionar el botón **Obligatorio** de la barra de herramientas, todos los elementos que se han personalizado para ser obligatorios se muestran en un contenedor sombreado. Puede hacer que vuelvan a ser no obligatorios. Esta opción solo está disponible a partir de la versión 10.0.12 cuando está habilitada la característica **Designar campos según sea necesario utilizando personalización**.
+
+    > [!IMPORTANT]
+    > La versión 10.0.12 es una versión preliminar. El contenido y la funcionalidad están sujetos a cambios. Para obtener más información acerca las versiones preliminares, consulte [Disponibilidad de actualización del servicio](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
+
 - Elija la herramienta **Bloquear** para marcar un elemento como editable o no editable. Al seleccionar el botón **Bloquear** de la barra de herramientas, todos los elementos que no se pueden editar en ese momento se muestran en un contenedor sombreado. A continuación puede hacer que vuelvan a ser editables. Tenga en cuenta que algunos campos son necesarios y no se pueden convertir en no editables. Un símbolo de candado aparece junto a dichos campos.
 - Utilice el botón **Agregar una aplicación desde Power Apps** para insertar una aplicación que se creó usando Microsoft Power Apps en la página. Para obtener información detallada acerca de cómo insertar una aplicación de Power Apps en una página, consulte [Integrar aplicaciones desde Power Apps](embed-power-apps.md). Esta opción solo está disponible cuando la característica [Vistas guardadas](saved-views.md) está deshabilitada.  
 - Utilice el botón **Agregar una aplicación** para insertar una aplicación, ya sea una creada desde Microsoft Power Apps o un tercero, en la página. Esta opción solo está disponible cuando la característica [Vistas guardadas](saved-views.md) está habilitada. 
@@ -130,9 +134,9 @@ Tradicionalmente, cuando se utiliza la barra de herramientas **Personalización*
 
 En algunos casos, cuando seleccione una herramienta, un símbolo de candado aparecerá al lado de un elemento. Este símbolo indica que no podrá modificar las propiedades del elemento relacionadas con la herramienta seleccionada, ya que los cambios realizados a dichas propiedades impedirían que la página funcione correctamente.
 
-### <a name="adding-a-tile-list-or-link-to-a-workspace"></a>Agregar un mosaico, lista o enlace a un espacio de trabajo
+### <a name="adding-a-tile-list-or-link-to-a-workspace"></a>Agregar un mosaico, lista o vínculo a un espacio de trabajo
 
-Para algunas páginas que incluyan listas, la característica de personalización **Agregar al espacio de trabajo** está disponible en el grupo **Personalizar** en la ficha **Opciones** del panel de acciones. Esta característica permite insertar la información pertinente de lista actual a un espacio de trabajo específico. La información que aparece en el espacio de trabajo se puede basar en la lista completa o en una versión filtrada y guardada de la lista. También puede especificar si la información que aparece en el espacio de trabajo aparecerá como una lista, un mosaico de resumen que puede mostrar el número de elementos de la lista, o como un vínculo.
+Para algunas páginas que incluyan listas, la característica de personalización **Agregar al espacio de trabajo** está disponible en el grupo **Personalizar** en la ficha **Opciones** del panel Acciones. Esta característica permite insertar la información pertinente de lista actual a un espacio de trabajo específico. La información que aparece en el espacio de trabajo se puede basar en la lista completa o en una versión filtrada y guardada de la lista. También puede especificar si la información que aparece en el espacio de trabajo aparecerá como una lista, un mosaico de resumen que puede mostrar el número de elementos de la lista, o como un vínculo.
 
 > [!NOTE]
 > Si la característica [Vistas guardadas](saved-views.md) está activada, el contenido que se inserta en un espacio de trabajo se vincula directamente a una vista. La consulta de la vista se utiliza para capturar datos en el espacio de trabajo, y el mosaico o el vínculo correspondiente en el espacio de trabajo abre la página de esa vista para aplicar la consulta y las personalizaciones a la vista.
@@ -159,28 +163,21 @@ Para personalizar el panel de información, haga clic con el botón secundario e
 - Si desea reordenar los mosaicos del espacio de trabajo, en la ventana de la propiedad, seleccione **Personalizar esta página** para abrir la barra de herramientas **Personalización**. Podrá entonces usar la herramienta **Mover** para reorganizar los mosaicos tal y como desee.
 - Para agregar un nuevo mosaico del espacio de trabajo, en la ventana de la propiedad, seleccione **Agregar un espacio de trabajo**. Se creará un nuevo mosaico del espacio de trabajo en la parte inferior del panel de información. Puede cambiar el nombre de este nuevo mosaico de área de trabajo tal y como desee. También puede agregar listas, mosaicos y vínculos al área de trabajo tal y como se describe en la sección [Agregar listas, mosaicos o vínculos a las áreas de trabajo](#adding-a-tile-list-or-link-to-a-workspace) de este tema.
 
+
+## <a name="sharing-personalizations"></a>Uso compartido de personalizaciones
+Tras personalizar una página, puede compartir sus personalizaciones con otros usuarios exportando la página personalizada. A continuación puede pedir a los demás usuarios que abran la página personalizada e importen el archivo de personalización que ha creado. Como alternativa, puede dar sus personalizaciones a un usuario que tenga privilegios de administración. Ese usuario puede aplicar su archivo de personalización a muchos usuarios al mismo tiempo, utilizando la página de administración **Personalización**.
+
 ## <a name="administration-of-personalizations"></a>Administración de personalizaciones
+La página **Personalización** es el centro de administración de personalizaciones a nivel de la organización. El contenido y las capacidades de esta página dependen de si se ha habilitado la característica **Vistas guardadas**.  
 
-Tras personalizar una página, puede compartir sus personalizaciones con otros usuarios exportando la página personalizada. A continuación puede pedir a los demás usuarios que abran la página personalizada e importen el archivo de personalización que ha creado. Como alternativa, puede dar sus personalizaciones a un usuario que tenga privilegios de administración. Dicho usuario puede aplicar su archivo de personalización a muchos usuarios al mismo tiempo.
+Para clientes que han habilitado la característica **Vistas guardadas**, consulte la sección "Gestión global de vistas" en el tema [Vistas guardadas](saved-views.md).  
 
-Los usuarios con privilegios de administración también pueden gestionar las personalizaciones para otros usuarios en la página **Personalización**.
-
-En los clientes que no hayan activado la característica [Vistas guardadas](saved-views.md), esta página tiene cuatro fichas:
+Para los clientes que no hayan activado todavía la característica [Vistas guardadas](saved-views.md), esta página tiene cuatro pestañas:
 
 - **Aplicar**: puede importar o seleccionar una personalización para uno o varios usuarios. Para aplicar una personalización a uno o varios usuarios, seleccione primero un rol y a los usuarios con dicho rol. A continuación seleccione una personalización para aplicarla a los usuarios seleccionados o importe un archivo de personalización. La personalización se validará y aplicará a todos los usuarios seleccionados la próxima vez que abran la página seleccionada.
 - **Borrar**: puede borrar todas las personalizaciones de una página o espacio de trabajo de uno o varios usuarios. Primero seleccione una página o espacio de trabajo para ver la lista de los usuarios que la han personalizado. A continuación, seleccione los usuarios que deberían tener borradas las personalizaciones de esa página o espacio de trabajo, y seleccione **Borrar**. Se eliminan todas las personalizaciones que los usuarios seleccionados han aplicado a la página o al espacio de trabajo seleccionado. Esta acción no se puede deshacer. Sin embargo, si se guardó una personalización para la página o el espacio de trabajo, se podrá volver a importar dicha personalización.
-- **Usuarios**: seleccione un usuario para ver la lista de páginas que este usuario ha personalizado. A continuación puede habilitar o deshabilitar la capacidad del usuario seleccionado para utilizar personalizaciones para páginas determinadas o el sistema completo. También puede importar, exportar o borrar una personalización para el usuario. Además, puede restablecer las llamadas de funciones del usuario. En este caso, si el usuario descartó anteriormente algunas ventanas emergentes que introducían nuevas características, aparecerán de nuevo la próxima vez que el usuario se encuentre con aquellas características.
+- **Usuarios**: seleccione un usuario para ver la lista de páginas que este usuario ha personalizado. A continuación puede habilitar o deshabilitar la capacidad del usuario seleccionado para utilizar personalizaciones para páginas determinadas o el sistema completo. También puede importar, exportar o borrar una personalización para el usuario. Además, puede restablecer las llamadas de características del usuario. En este caso, si el usuario descartó anteriormente algunas ventanas emergentes que introducían nuevas características, aparecerán de nuevo la próxima vez que el usuario se encuentre con aquellas características.
 - **Sistema:** – Puede desactivar temporalmente la personalización para todos los usuarios del sistema. En este caso, todas las personalizaciones se eliminan para todos los usuarios, y todas las páginas se restablecen a su estado predeterminado. Si vuelve a habilitar más tarde la personalización, todas las personalizaciones se volverán a aplicar. También puede desactivar permanentemente todas las personalizaciones para todos los usuarios del sistema. No es posible recuperar las personalizaciones que se han eliminado. Por lo tanto, antes de realizar esta tarea, asegúrese de exportar todas las personalizaciones que pueda querer más tarde.
-
-En los clientes que hayan activado la característica [Vistas guardadas](saved-views.md), la página **Personalización** tiene cinco fichas:
-
-- **Vistas publicadas**: estas vistas se han publicado en su organización. Para cambiar los usuarios a los que afectan estas vistas, puede cambiar los roles de seguridad o entidades jurídicas asociados a cada vista. También puede exportar o eliminar una o varias vistas publicadas.
-- **Vistas no publicadas**: se trata de vistas de la plantilla que se han importado en el sistema pero aún no se han publicado. Puede publicar, exportar o eliminar estas vistas.
-- **Vistas personales**: estas vistas han sido creadas por los usuarios en el sistema. Puede publicar una vista personal en la organización, o copiar una o más de estas vistas a otros usuarios. También puede exportar o eliminar estas vistas como sea necesario.
-- **Usuarios**: seleccione un usuario para ver la lista de páginas que este usuario ha personalizado. A continuación puede habilitar o deshabilitar la capacidad del usuario seleccionado para utilizar personalizaciones para páginas determinadas o el sistema completo. También puede importar, exportar o borrar una personalización para el usuario. Además, puede restablecer las llamadas de funciones del usuario. En este caso, si el usuario descartó anteriormente algunas ventanas emergentes que introducían nuevas características, aparecerán de nuevo la próxima vez que el usuario se encuentre con aquellas características.
-- **Sistema:** – Puede desactivar temporalmente la personalización para todos los usuarios del sistema. En este caso, todas las personalizaciones se eliminan para todos los usuarios, y todas las páginas se restablecen a su estado predeterminado. Si vuelve a habilitar más tarde la personalización, todas las personalizaciones se volverán a aplicar. También puede desactivar permanentemente todas las personalizaciones para todos los usuarios del sistema. No es posible recuperar las personalizaciones que se han eliminado. Por lo tanto, antes de realizar esta tarea, asegúrese de exportar todas las personalizaciones que pueda querer más tarde.
-
-Los usuarios con acceso a la página **Personalización** también pueden importar las vistas personales o de la plantilla con el botón **Importar vistas** del panel de acciones.
 
 ## <a name="personalizing-inventory-dimensions"></a>Personalización de dimensiones de inventario
 

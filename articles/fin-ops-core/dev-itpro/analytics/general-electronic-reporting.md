@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7cd3e2ac729bdb3ecc8e7bfacb060e433b185f09
-ms.sourcegitcommit: 3a06d3b38d9de2afc22839e5a794829405068024
+ms.openlocfilehash: d050bfa5b28219ef421dba4ed3a72f11bfd4daee
+ms.sourcegitcommit: 7816902b59aa61d9183d54b50a86e282661e3971
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2933941"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "3421664"
 ---
 # <a name="electronic-reporting-er-overview"></a>Visión general de los informes electrónicos (ER)
 
@@ -40,7 +40,7 @@ ER admite actualmente los formatos de hoja de cálculo de texto, XML, documento 
 ## <a name="capabilities"></a>Capacidades
 El motor de ER tiene las siguientes capacidades:
 
-- Representa una sola herramienta compartida para informes electrónicos en diferentes ámbitos y reemplaza más de 20 distintos motores que hacen algún tipo de informe electrónico para Finance and Operations.
+- Representa una sola herramienta compartida para informes electrónicos en diferentes ámbitos y reemplaza más de 20 distintos motores que hacen algún tipo de informe electrónico de Finance and Operations.
 - Aísla el formato de un informe de la implementación actual. En otras palabras, el formato es aplicable para diferentes versiones.
 - Admite la creación de un formato personalizado que se basa en un formato original. También incluye capacidades para actualizar automáticamente el formato personalizado cuando se producen cambios en el formato original porque se introducen requisitos de localización y personalización.
 - Se convierte en la herramienta estándar principal para la ayuda de los requisitos de localización en los informes electrónicos, tanto para Microsoft como para los socios de MS.
@@ -81,7 +81,7 @@ Una asignación de modelo que admite documentos electrónicos entrantes tiene la
 
 Un componente de modelo de datos está diseñado para cada dominio del negocio que se debe usar como origen de datos unificado para creación de informes y que aísla los informes de la implementación física de los orígenes de datos. Representa conceptos y funcionalidades de dominio de negocio específicos en un formulario que hace que el diseño inicial del formato y el mantenimiento posterior sean más eficientes.
 
-#### <a name="FormatComponentOutbound"></a>Componentes del formato para los documentos electrónicos salientes
+#### <a name="format-components-for-outgoing-electronic-documents"></a><a name="FormatComponentOutbound"></a>Componentes del formato para los documentos electrónicos salientes
 
 Un componente de formato es el esquema de la salida de informes que se generará en el momento de la ejecución. Un esquema consta de los siguientes elementos:
 
@@ -90,7 +90,7 @@ Un componente de formato es el esquema de la salida de informes que se generará
 - Una asignación de formato como un conjunto de vinculaciones de los orígenes de datos de formato que tienen elementos individuales de formato que especifican, en tiempo de ejecución, el flujo de datos y las reglas de generación de salida de formato.
 - Una validación del formato como un conjunto de reglas configurables que controlan la generación de informes en el tiempo de ejecución en función de contexto de ejecución. Por ejemplo, puede haber una regla que detenga la generación de los pagos de proveedor y produzca una excepción cuando falten los atributos específicos del proveedor seleccionado, por ejemplo el número de cuenta bancaria.
 
-Un componente de formato admite las siguientes funciones:
+Un componente de formato admite las siguientes características:
 
 - Creación de salida de informes como archivos individuales en diversos formatos, como por ejemplo, texto, XML, documentos de Microsoft Word u hojas de cálculo.
 - Creación de varios archivos por separado y encapsulación de esos archivos en archivos zip.
@@ -107,7 +107,7 @@ La ilustración siguiente muestra fluyen los datos para estos formatos.
 
 Para ejecutar una sola configuración de formato ER y generar un documento electrónico salientes, debe identificar la asignación de la configuración del formato.
 
-#### <a name="FormatComponentInbound"></a>Componentes del formato para los documentos electrónicos entrantes
+#### <a name="format-components-for-incoming-electronic-documents"></a><a name="FormatComponentInbound"></a>Componentes del formato para los documentos electrónicos entrantes
 Un componente de formato es el esquema del documento entrante que se importa en tiempo de ejecución. Un esquema consta de los siguientes elementos:
 
 - Un formato que define la estructura y el contenido del documento electrónico de entrada que contiene datos que se importan en tiempo de ejecución. Un componente de formato se usa analizar un documento entrante en distintos formatos, como texto y XML.
@@ -144,7 +144,7 @@ El acceso a los componentes del formato de ER depende de la configuración del c
 
 Diferentes versiones de un componente de formato de datos pueden tener distintos ajustes de los códigos de país o región ISO.
 
-#### <a name="Configuration"></a>Configuración
+#### <a name="configuration"></a><a name="Configuration"></a>Configuración
 
 Una configuración de ER es el contenedor de un componente concreto de ER. Dicho componente puede ser un componente del modelo de datos o un componente del formato. Una configuración puede incluir diferentes versiones de un componente de ER. Cada configuración se marca como perteneciente a un proveedor específico de configuración. La versión **Borrador** de un componente de una configuración se puede editar cuando se ha seleccionado el propietario de la configuración como proveedor activo en la configuración de ER de la aplicación.
 
@@ -154,26 +154,26 @@ La configuración de formato que se crea contiene un componente formato. El comp
 
 Una configuración de ER se comparte en las empresas de la aplicación.
 
-#### <a name="Provider"></a>Proveedor
+#### <a name="provider"></a><a name="Provider"></a>Proveedor
 
 El proveedor de ER es la identificación de parte que se usa para indicar el autor (propietario) de cada configuración de ER. ER le permite administrar la lista de proveedores de configuración. Las configuraciones del formato que se liberan para documentos electrónicos como parte de la solución de Finance and Operations se marcan como propiedad del proveedor de configuración **Microsoft**.
 
 Para obtener información sobre cómo registrar un nuevo proveedor de ER, reproduzca la guía de la tarea, **ER Creación de un proveedor de configuraciones y marcarlo como activo** (parte del proceso empresarial **7.5.4.3 Adquirir y desarrollar los componentes del servicio o la solución de TI (10677)**).
 
-#### <a name="Repository"></a>Repositorio
+#### <a name="repository"></a><a name="Repository"></a>Repositorio
 
 Un repositorio de ER guarda las configuraciones de ER. Los tipos de repositorios de ER siguientes son compatibles: 
 
 - Biblioteca compartida LCS
 - Proyecto LCS
-- Sistema de archivo
-- Regulatory Configuration Services (RCS)
-- Recursos de operaciones
-
+- Sistema de archivos
+- RCS
+- Recursos de Operations
+- Repositorio Global
 
 Un repositorio **Biblioteca compartida LCS** proporciona acceso a la lista de configuraciones dentro de la biblioteca de activos compartidos en Lifecycle Services (LCS). Este tipo de repositorio de ER se puede registrar solo para el proveedor de Microsoft. En la biblioteca compartida LCS del activo puede importar las últimas versiones de las configuraciones de ER en la instancia actual.
 
-Un repositorio del **proyecto de LCS** proporciona acceso a la lista de configuraciones de un proyecto de LCS específico (biblioteca de los activos del proyecto de LCS) que se seleccionó en la etapa de registro del repositorio. ER le permite cargar las configuraciones compartidas de la instancia actual a un repositorio específico del **Proyecto LCS**. También puede importar configuraciones de un repositorio del **Proyecto LCS** en la instancia de Finance and Operations actual.
+Un repositorio del **proyecto LCS** proporciona acceso a la lista de configuraciones de un proyecto LCS específico (biblioteca de activos del proyecto LCS) que se seleccionó al registrarse el repositorio. ER le permite cargar las configuraciones compartidas de la instancia actual a un repositorio específico del **Proyecto LCS**. También puede importar configuraciones desde un repositorio de **proyecto LCS** en la instancia actual de sus aplicaciones de Finance and Operations.
 
 Un repositorio de **Sistema de archivos** proporciona acceso a la lista de configuraciones que están ubicadas como archivos XML en la carpeta específica del sistema de archivos local del equipo en el que se aloja el servicio AOS. La carpeta necesaria se selecciona en la etapa de registro de repositorio. Puede importar configuraciones de un repositorio del **sistema de archivos** en la instancia actual. 
 
@@ -184,9 +184,13 @@ Tenga en cuenta que este tipo de repositorio es accesible en los entornos siguie
 
 Para obtener más información, consulte [Importar configuraciones de informes electrónicos (ER)](./electronic-reporting-import-ger-configurations.md).
 
-Un repositorio de **instancia RCS** proporciona acceso a la lista de configuraciones de una instancia RCS específica que se seleccionó en la etapa de registro del repositorio. ER le permite importar configuraciones completadas o compartidas desde la instancia de RCS seleccionada a la instancia actual para que pueda usarlas en los informes electrónicos.
+Un repositorio **RCS** proporciona acceso a la lista de configuraciones de una instancia específica del [servicio de configuración](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) que se seleccionó en la etapa de registro del repositorio. ER le permite importar configuraciones completadas o compartidas desde la instancia de RCS seleccionada a la instancia actual para que pueda usarlas en los informes electrónicos.
 
-Para más información, consulte [Importar configuraciones de informes electrónicos (ER) de Regulatory Configuration Services (RCS)](./rcs-download-configurations.md).
+Para obtener más información, consulte [Importar configuraciones de informes electrónicos (ER) desde RCS](./rcs-download-configurations.md).
+
+Un **repositorio global** proporciona acceso a la lista de configuraciones del repositorio global en el [servicio de configuración](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration). Este tipo de repositorio de ER se puede registrar solo para el proveedor de Microsoft. Desde el repositorio global, puede importar las últimas versiones de las configuraciones de ER en la instancia actual.
+
+Para más información, consulte [Importar configuraciones de informes electrónicos (ER) del repositorio Global del servicio de configuración](./er-download-configurations-global-repo.md).
 
 Un repositorio de **Recursos de Operations** proporciona acceso a la lista de configuraciones que libera Microsoft, como el proveedor de configuración de ER, como parte inicial de la solución de la aplicación. Estas configuraciones se pueden importar a la instancia actual y usar para los informes electrónicos o realizar tareas de guía de muestra. También se pueden utilizar para localizaciones y personalizaciones adicionales. Tenga en cuenta que las últimas versiones proporcionados por las configuraciones de Microsoft ER deben importarse de la biblioteca de activos compartidos de LCS usando el repositorio ER correspondiente.
 
@@ -208,12 +212,12 @@ El contenido del modelo de datos (etiquetas y descripciones) se puede traducir a
 
 ### <a name="configuring-data-model-mappings-for-outgoing-documents"></a>Configurar asignaciones del modelo de datos para los documentos de salida
 
-ER proporciona un diseñador de asignación de modelos que permite a los usuarios asignar modelos de datos que se han diseñado para orígenes de datos de la aplicación específicos. En función de la asignación, los datos se importarán en tiempo de ejecución desde los orígenes de datos seleccionados en el modelo de datos. El modelo de datos se usa como un origen de datos abstracto de los formatos de ER que generan los documentos electrónicos salientes. 
+ER proporciona un diseñador de asignación de modelos que permite a los usuarios asignar modelos de datos que se han diseñado para orígenes de datos de la aplicación específicos. En característica de la asignación, los datos se importarán en tiempo de ejecución desde los orígenes de datos seleccionados en el modelo de datos. El modelo de datos se usa como un origen de datos abstracto de los formatos de ER que generan los documentos electrónicos salientes. 
 
 Para familiarizarse con los detalles de este escenario, reproduzca las guías de tareas **CE Definir asignación del modelo y seleccionar orígenes de datos** y **CE Asignar modelo de datos a los orígenes de datos seleccionados** (parte del proceso de negocio **7.5.4.3 Adquirir/Desarrollar componentes de solución/servicios de la TI (10677)**).
 
 ### <a name="configuring-data-model-mappings-for-incoming-documents"></a>Configurar asignaciones del modelo de datos para los documentos de entrada
-ER proporciona un diseñador de asignación de modelos que permite a los usuarios asignar modelos de datos que se han diseñado para destinos específicos. Por ejemplo, los modelos de datos se pueden asignar para los componentes de datos que se puede actualizar (tablas, entidades de datos y vistas). En función de la asignación, los datos se actualizarán en tiempo de ejecución con los datos del modelo de datos. Como almacenamiento abstracto del formato de ER, el modelo de datos se rellena con los datos que se importan de un documento electrónico entrante. 
+ER proporciona un diseñador de asignación de modelos que permite a los usuarios asignar modelos de datos que se han diseñado para destinos específicos. Por ejemplo, los modelos de datos se pueden asignar para los componentes de datos que se puede actualizar (tablas, entidades de datos y vistas). En característica de la asignación, los datos se actualizarán en tiempo de ejecución con los datos del modelo de datos. Como almacenamiento abstracto del formato de ER, el modelo de datos se rellena con los datos que se importan de un documento electrónico entrante. 
 
 ### <a name="storing-a-designed-model-component-as-a-model-configuration"></a>Almacenar un componente modelo diseñado como una configuración del modelo
 

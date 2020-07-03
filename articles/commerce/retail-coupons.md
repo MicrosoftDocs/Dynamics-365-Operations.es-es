@@ -3,7 +3,7 @@ title: Configurar vales para ventas minoristas
 description: Este tema proporciona una visión general de los cupones y explica cómo configurarlos.
 author: scott-tucker
 manager: AnnBe
-ms.date: 05/22/2017
+ms.date: 06/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4c580e40ae1f0398ab9f8437d42ddcb2979558c3
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: a07bed244152327047efd68cfacb329a722c0049
+ms.sourcegitcommit: 97206552616b248f88e516fea08b3f059257e8d1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057380"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3431987"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Configurar vales para ventas minoristas
 
@@ -48,8 +48,10 @@ Los vales se pueden configurar como vales de uso limitado. El límite de uso pue
 
 El límite se aplica por el código de vale. Por ejemplo, un cupón de un solo uso que tiene dos códigos de vale se puede utilizar dos veces: una vez por cada código de vale. Cada código de un vale se puede activar de forma independiente.
 
+Los cupones se pueden usar en cualquier canal de venta; sin embargo, para pedidos de centros de llamadas, los cupones de uso limitado se pueden usar solo para aquellos pedidos de centros de llamadas donde la configuración **Orden de finalización** del centro de llamadas está habilitada. Si esto no está habilitado, solo se pueden usar cupones de tipo de uso no limitado en los pedidos del centro de atención telefónica.
+
 > [!NOTE]
-> Una vez que un código de vale ha llegado a su límite de uso, el sistema *no* cambia automáticamente el estado del código de vale a "Usado". No obstante, el sistema no permite el uso adicional de un código de vale que ha llegado a su límite de uso. Si el estado de un código de vale se establece manualmente en cualquier otra cosa aparte de "Activo", entonces este código de vale no se puede utilizar en ningún canal.
+> Una vez que un código de vale ha llegado a su límite de uso, el sistema *no* cambia automáticamente el estado del código de vale a "Usado". Sin embargo, ese código de cupón ha alcanzado su límite de uso y no se puede usar. Si el estado de un código de vale se establece manualmente en algo distinto de **Activo**, entonces este código de vale no se puede utilizar en ningún canal.  
 
 ## <a name="managing-coupons"></a>Administrar vales
 

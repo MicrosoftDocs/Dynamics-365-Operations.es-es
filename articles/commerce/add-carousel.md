@@ -3,7 +3,7 @@ title: Módulo de carrusel
 description: En este tema se tratan los módulos de carrusel y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,16 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f399e4c5618b65b781fdd3ec835e841614579313
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: 35aaf35419a8c5b83b2a3e1136a02200bf347c6b
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269737"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411305"
 ---
 # <a name="carousel-module"></a>Módulo de carrusel
 
-
+[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 En este tema se tratan los módulos de carrusel y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
@@ -44,6 +44,10 @@ Puede agregar los módulos de bloque de contenido dentro de un módulo de carrus
 - Un carrusel que tiene dentro varios módulos promocionales se puede usar en una página de detalles de producto.
 - Un carrusel se puede utilizar en cualquier página de marketing para promocionar varias promociones o productos.
 
+La siguiente imagen muestra un ejemplo de un módulo de carrusel utilizado en una página principal. Este módulo de carrusel contiene múltiples elementos de bloque de contenido.
+
+![Ejemplo de módulo de carrusel](./media/Hero.PNG)
+
 ## <a name="carousel-module-properties"></a>Propiedades de módulo de carrusel
 
 | Nombre de la propiedad             | Valor                 | Descripción |
@@ -58,8 +62,8 @@ Puede agregar los módulos de bloque de contenido dentro de un módulo de carrus
 
 Para agregar un módulo de carrusel a una página nueva y establecer las propiedades necesarias, siga estos pasos.
 
-1. Seleccione **Nuevo** para crear una plantilla de página.
-1. En el cuadro de diálogo **Nueva plantilla**, debajo de **Nombre de la plantilla**, ingrese **Plantilla de carrusel** y luego seleccione **Aceptar**.
+1. Vaya a **Plantillas** y luego seleccione **Nuevo** para crear una nueva plantilla.
+1. En el cuadro de diálogo **Nueva plantilla**, debajo de **Nombre de la plantilla**, introduzca **Plantilla de carrusel** y luego seleccione **Aceptar**.
 1. En el espacio **Cuerpo**, agregue un módulo de **Página predeterminada**.
 1. Seleccione **Finalizar edición** para proteger la plantilla y luego seleccione **Publicar** para publicarla.  
 1. Use la plantilla de carrusel que acaba de crear para crear una página que se llame **página de carrusel**.

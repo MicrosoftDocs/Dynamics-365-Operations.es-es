@@ -3,12 +3,12 @@ title: Configurar tipos de permisos y ausencias
 description: Configure los tipos de baja que los empleados pueden tomar en Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: df6e34fe6a23e6f0a8307a035752a35a15a3431c
-ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
+ms.openlocfilehash: 1802938f54a1d78e6ea60572a76177a037192ae0
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3198059"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428602"
 ---
 # <a name="configure-leave-and-absence-types"></a>Configurar tipos de permisos y ausencias
 
@@ -56,7 +56,9 @@ Los tipos de permisos en Dynamics 365 Human Resources definen los distintos tipo
 
 8. Debajo de **Restringir el acceso a los roles seleccionados**, elija si desea restringir el acceso. Luego seleccione los roles de seguridad en **Roles de seguridad para este tipo de permiso**. Los roles de seguridad se definen en el flujo de trabajo que ha seleccionado en **Id. de flujo de trabajo** anteriormente en este procedimiento.
 
-9. Seleccione **Guardar**.
+9. En **Relaciones de suspensión**, elija si desea que este tipo de licencia suspenda otro tipo de licencia o sea suspendido por otro tipo de licencia. Cuando se envía una solicitud de baja para el tipo de licencia que suspende, se creará automáticamente una suspensión de licencia para el tipo de licencia suspendida. 
+
+10. Seleccione **Guardar**.
 
 ## <a name="configure-leave-type-rules"></a>Configurar reglas de tipo de permiso
 
@@ -66,16 +68,15 @@ Los tipos de permisos en Dynamics 365 Human Resources definen los distintos tipo
 
    Puede establecer días festivos en el calendario de tiempo laborable. Para obtener más información, consulte [Crear un calendario de horas de trabajo](hr-leave-and-absence-working-time-calendar.md).
    
-## <a name="configure-preview-features"></a>Configurar características de vista previa
-
-Si ha habilitado las características de vista previa para Permisos y ausencias, también debe configurarlas.
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
-
-1. Elija el tipo de permiso para transferir saldos a transferir. También puede crear un nuevo tipo de permiso para transferir. 
-
+ 3. Establezca **Tipo de baja de transferencia** para el tipo de baja. Cuando selecciona esta opción, los saldos de arrastre se transferirán al tipo de baja especificado. El tipo de baja de transferencia también debe incluirse en el plan de baja y ausencia. 
+ 
+ 4. Defina las **Reglas de vencimiento** para el tipo de licencia. Cuando configura esta opción, puede elegir la unidad de días o meses y establecer la duración hasta el vencimiento. También puede establecer la fecha de vigencia de la regla de vencimiento. Cualquier saldo de baja que exista al momento del vencimiento se restará del tipo de baja y se reflejará en el saldo de bajas. 
+ 
+ 
 ## <a name="see-also"></a>Consulte también
 
 - [Visión general de bajas y ausencias](hr-leave-and-absence-overview.md)
 - [Crear un plan de permisos y ausencias](hr-leave-and-absence-plans.md)
 - [Crear un calendario de horas de trabajo](hr-leave-and-absence-working-time-calendar.md)
+- [Suspender baja](hr-leave-and-absence-suspend-leave.md)
+

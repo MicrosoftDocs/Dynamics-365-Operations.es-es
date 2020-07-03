@@ -3,7 +3,7 @@ title: Aprovisionar un entorno de vista previa de Dynamics 365 Commerce
 description: En este tema se explica cómo aprovisionar un entorno de vista previa de Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
-ms.date: 04/10/2020
+ms.date: 06/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d54db89372a0f9ef5b267d25e14067e3243a803c
-ms.sourcegitcommit: 4254acb3cf8c6299fc2f3818ea6c499f058320d9
+ms.openlocfilehash: c109c2326cf01739255b49587c15aa34ad884f6a
+ms.sourcegitcommit: be7e4378c8122c6e7cfc4e7991efbdffee45e006
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "3254757"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "3426474"
 ---
 # <a name="provision-a-dynamics-365-commerce-preview-environment"></a>Aprovisionar un entorno de vista previa de Dynamics 365 Commerce
 
@@ -193,7 +193,7 @@ Para implementar el entorno, siga estos pasos.
 
 1. Antes de continuar, asegúrese de que el estado del entorno es **Implementado**.
 
-### <a name="initialize-the-commerce-scale-unit-csu"></a>Inicializar la Commerce Scale Unit (CSU)
+### <a name="initialize-the-commerce-scale-unit-cloud"></a>Inicializar la Commerce Scale Unit (nube)
 
 Para inicializar CSU, siga estos pasos.
 
@@ -251,7 +251,7 @@ Para continuar con el proceso de aprovisionamiento y configurar su entorno de vi
 
 [Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Retail Cloud Scale Unit (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Commerce Scale Unit (nube)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Portal de Microsoft Azure](https://azure.microsoft.com/features/azure-portal)
 

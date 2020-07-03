@@ -3,7 +3,7 @@ title: Configurar decisiones manuales en un flujo de trabajo
 description: Este tema explica cómo configurar las propiedades de una decisión manual.
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f46b875f52d3d3e7c755ee92dcd5faddf0d94356
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 130cb50369c13bc3478340023c94f169ee5250cf
+ms.sourcegitcommit: a5009c8958037afbaa1dd4f1469255b187ced93a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179872"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3455042"
 ---
 # <a name="configure-manual-decisions-in-a-workflow"></a>Configurar decisiones manuales en un flujo de trabajo
 
@@ -239,26 +239,6 @@ Siga estos pasos para especificar a quién se debe asignar una decisión manual.
     <li>Tras seleccionar <strong>Usuario</strong>, haga clic en la pestaña <strong>Usuario</strong>.</li>
     <li>La lista <strong>Usuarios disponibles</strong> incluye todos los usuarios. Seleccione aquellos a los que desea asignar la decisión y, a continuación, muévalos a la lista <strong>Usuarios seleccionados</strong>.</li>
     </ol>
-    </td>
-    </tr>
-    <tr>
-    <td>Cola</td>
-    <td>Una cola de elementos de trabajo</td>
-    <td>
-    <ol>
-    <li>Tras seleccionar <strong>Cola</strong>, haga clic en la pestaña <strong>Basado en cola</strong>.</li>
-    <li>Para asignar la decisión a una cola específica, siga estos pasos: <ol>
-    <li>En la lista <strong>Tipo de cola</strong>, seleccione <strong>Colas de elementos de trabajo</strong>.</li>
-    <li>En la lista <strong>Nombre de cola</strong>, seleccione la cola.</li>
-    </ol>
-    </li>
-    <li>Si la cola a la que se debe asignar la decisión debe estar determinada por una condición específica, siga estos pasos: <ol>
-    <li>En la lista <strong>Tipo de cola</strong>, seleccione <strong>Colas de elementos de trabajo condicional</strong>.</li>
-    <li>En la lista <strong>Nombre de cola</strong>, seleccione <strong>Cola condicional</strong>.</li>
-    </ol>
-    </li>
-    </ol>
-    <blockquote>[!NOTE] Esta opción solo se usa para algunos flujos de trabajo, como Gestión de casos.</blockquote>
     </td>
     </tr>
     </tbody>

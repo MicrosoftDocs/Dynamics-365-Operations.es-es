@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 2d3dde69b102ce161e5c1f1dd393ffceca608bcb
-ms.sourcegitcommit: 4fdee254649a751d46632fb4d0d48698e112fa72
+ms.openlocfilehash: 0c2babc3144cae5c68075bd853a2587505263776
+ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3248745"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "3410159"
 ---
-# <a name="use-the-regression-suite-automation-tool-tutorial"></a>Utilizar el tutorial Regression Suite Automation Tool
+# <a name="regression-suite-automation-tool-tutorial"></a>Tutorial de Regression Suite Automation Tool
 
 [!include [banner](../includes/banner.md)]
 
@@ -36,7 +36,7 @@ Este tutorial le muestra algunas de las características avanzadas de la Regress
 
 ### <a name="validate-a-field-value"></a>Validar un valor del campo
 
-RSAT le permite incluir pasos de validación dentro de su caso de prueba para validar los valores esperados. Para obtener información sobre esta función, consulte el artículo [Validar valores esperados](../../dev-itpro/perf-test/rsat/rsat-validate-expected.md).
+RSAT le permite incluir pasos de validación dentro de su caso de prueba para validar los valores esperados. Para obtener información sobre esta característica, consulte el artículo [Validar valores esperados](../../dev-itpro/perf-test/rsat/rsat-validate-expected.md).
 
 El siguiente ejemplo muestra cómo puede utilizar esta característica para validar si el inventario disponible es superior a 0 (cero).
 
@@ -66,11 +66,11 @@ Ahora, si es el valor del campo **Total disponible** para el artículo especific
 
 ### <a name="saved-variables-and-chaining-of-test-cases"></a>Variables guardadas y encadenamiento de casos de prueba
 
-Una característica clave de RSAT es el encadenamiento de casos de prueba, es decir, la capacidad de una prueba para transferir variables a otras pruebas. Para más información, vea el artículo [Copiar variables para encadenar casos de prueba](../../dev-itpro/perf-test/rsat/rsat-chain-test-cases.md).
+Una característica clave de RSAT es el encadenamiento de casos de prueba, es decir, la capacidad de una prueba para transferir variables a otras pruebas. Para más información, consulte el artículo [Copiar variables para encadenar casos de prueba](../../dev-itpro/perf-test/rsat/rsat-chain-test-cases.md).
 
 ### <a name="derived-test-case"></a>Caso de prueba derivado
 
-RSAT le permite utilizar la misma grabación de tareas con múltiples casos de prueba, lo que permite que una tarea se ejecute con diferentes configuraciones de datos. Para más información vea el articulo [Casos de prueba derivados](../../dev-itpro/perf-test/rsat/rsat-derived-test-cases.md).
+RSAT le permite utilizar la misma grabación de tareas con múltiples casos de prueba, lo que permite que una tarea se ejecute con diferentes configuraciones de datos. Para más información consulte el articulo [Casos de prueba derivados](../../dev-itpro/perf-test/rsat/rsat-derived-test-cases.md).
 
 ### <a name="validate-notifications-and-messages"></a>Validar notificaciones y mensajes
 
@@ -97,7 +97,7 @@ Esta característica realiza capturas de pantalla de los pasos que se realizaron
     <add key="VerboseSnapshotsEnabled" value="false" />
     ```
 
-Cuando ejecute el caso de prueba, RSAT generará instantáneas (imágenes) de los pasos en la carpeta de reproducción de los casos de prueba en el directorio de trabajo. Si está utilizando una versión anterior de RSAT, las imágenes se guardan en **C:\\Usuarios\\\<Nombre de usuario\>\\AppData\\Roaming\\regressionTool\\playback**, se crea una carpeta separada para cada caso de prueba que se ejecuta.
+Cuando ejecute el caso de prueba, RSAT generará instantáneas (imágenes) de los pasos en la carpeta de reproducción de los casos de prueba en el directorio de trabajo. Si está utilizando una versión anterior de RSAT, las imágenes se guardan en **C:\\Usuarios\\\<Username\>\\AppData\\Roaming\\Herramienta de regresión\\reproducción** y se crea una carpeta separada para cada caso de prueba que se ejecuta.
 
 ## <a name="assignment"></a>Asignación
 
@@ -126,7 +126,7 @@ La siguiente ilustración muestra la jerarquía de procesos empresariales para e
 - Asegúrese de que tiene volúmenes de datos representativos (una copia de los datos de configuración de producción/dorados más los datos migrados).
 - Cuando genere nuevos datos mediante el grabador de tareas, cree nombres de pruebas que no entren en conflicto con nombres existentes (por ejemplo, utilice un prefijo como **RSATxxx**).
 - Utilice la Restauración en un momento determinado de Azure para volver a ejecutar pruebas en entornos que no son del nivel 1.
-- Aunque puede utilizar las funciones de Excel **ALEATORIO** y **AHORA** para generar una combinación única, el esfuerzo es considerablemente elevado. He aquí un ejemplo.
+- Aunque puede utilizar las características de Excel **ALEATORIO** y **AHORA** para generar una combinación única, el esfuerzo es considerablemente elevado. He aquí un ejemplo.
 
     ```Excel
     product = "AT" &TEXT(NOW(),"yyymmddhhmm")
@@ -138,8 +138,8 @@ La siguiente ilustración muestra la jerarquía de procesos empresariales para e
 - Divida las grabaciones si son realizadas por distintos roles, o si hay un tiempo de espera o un evento externo para el paso siguiente.
 - Evite seleccionar valores en las listas. En su lugar, utilice formatos de texto, como **FIFO**, **AudioRM** y **SiteWH**. Cuando seleccione de una lista, se graba la posición del valor de la lista, no el valor en sí. Si los artículos se agregan a esa lista, el puesto de valor puede cambiar. Por lo tanto, su grabación utilizará un parámetro diferente, y el resto del escenario podría verse afectado.
 - Piense en el comportamiento de varios usuarios. Por ejemplo, supongamos que su pedido de ventas recién creado no se seleccionará siempre automáticamente. En su lugar, utilice siempre el filtro para encontrar el orden correcto.
-- Utilice la función Copiar en el Grabador de tareas para guardar el nombre de un producto recién creado para que pueda usarse en casos de prueba encadenados.
-- Use la función Validar en el Grabador de tareas para establecer los puntos de control que verifiquen que los pasos se han ejecutado correctamente.
+- Utilice la característica Copiar en el Grabador de tareas para guardar el nombre de un producto recién creado para que pueda usarse en casos de prueba encadenados.
+- Use la característica Validar en el Grabador de tareas para establecer los puntos de control que verifiquen que los pasos se han ejecutado correctamente.
 
 ### <a name="rsat"></a>RSAT
 
@@ -456,7 +456,7 @@ Tiene una secuencia de comandos de prueba que crea un nuevo cliente. Mediante la
 
 El id. del cliente tendrá el formato *ATCUS\<number\>*, donde \<number\> es un valor entre **000000001** y **999999999**.
 
-El siguiente ejemplo utiliza un parámetro, **start**, para definir el primer número que se usa. Utiliza un segundo parámetro, **nr**, para definir el número de clientes que deben crearse. Para cada iteración, los parámetros en el archivo de parámetros de Excel se cambian mediante una función UpdateCustomer. A continuación, la línea de comandos de RSAT se llama en una función RunTestCase.
+El siguiente ejemplo utiliza un parámetro, **start**, para definir el primer número que se usa. Utiliza un segundo parámetro, **nr**, para definir el número de clientes que deben crearse. Para cada iteración, los parámetros en el archivo de parámetros de Excel se cambian mediante una característica UpdateCustomer. A continuación, la línea de comandos de RSAT se llama en una característica RunTestCase.
 
 Abra el Entorno de scripting integrado (ISE) de Microsoft Windows PowerShell en modo de administración y pegue el siguiente código en la ventaja que se denomina **Untitled1.ps1**.
 

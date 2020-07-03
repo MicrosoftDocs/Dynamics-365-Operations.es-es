@@ -3,7 +3,7 @@ title: Módulo de bloque de texto
 description: En este tema se tratan los módulos de bloque de texto y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fc5b2fa35633b1ce7f7ffefacec318e14fa8db3f
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 93ad09a05d188a30b099b9a44c35e15839be80a7
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025606"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411144"
 ---
 # <a name="text-block-module"></a>Módulo de bloque de texto
 
@@ -46,6 +46,10 @@ Los módulos de bloque de texto se pueden utilizar de las siguientes maneras:
 * Para agregar mensajes personalizados en una página de detalles de productos. (por ejemplo, “Envío gratuito para pedidos superiores a 50 €").
 * Para declinaciones de responsabilidad y detalles de contacto sobre páginas de detalles de productos, páginas de finalización de compra y otras páginas (por ejemplo, "Los envíos y las directivas están sujetos a las directivas de la tienda”).
 
+La siguiente imagen muestra un ejemplo de un módulo de bloque de texto utilizado en una página principal.
+
+![Ejemplo de un módulo de bloque de texto](./media/ecommerce-textblock.PNG)
+
 ## <a name="text-block-module-properties"></a>Propiedades de módulo de bloque de texto
 
 | Nombre de la propiedad     | Valor                                            | Descripción |
@@ -58,19 +62,25 @@ Los módulos de bloque de texto se pueden utilizar de las siguientes maneras:
 
 Para agregar un módulo de bloque de texto a una nueva página y establecer las propiedades necesarias, siga estos pasos.
 
-1. Cree una plantilla de página con el nombre **Plantilla de contenido**. 
-1. En el espacio **Cuerpo**, agregue un módulo de **Página predeterminada**.
-1. Termine de editar la plantilla y publíquela.
-1. Use la plantilla de contenido que acaba de crear para crear una página que se llame **Página de contenido**.
-1. En el espacio **Principal** de la página nueva, agregue un módulo de contenedor.
+1. Vaya a **Plantillas** y luego seleccione **Nuevo** para crear una nueva plantilla.
+1. En el cuadro de diálogo **Nueva plantilla**, en **Nombre de plantilla**, introduzca **Plantilla de contenido**.
+1. En el espacio **Cuerpo**, seleccione los puntos suspensivos (**...**) y después seleccione **Agregar módulo**.
+1. En el cuadro de diálogo **Agregar módulo**, seleccione el módulo **Página predeterminada** y, a continuación, **Aceptar**.
+1. Seleccione **Guardar** y seleccione **Finalizar edición** para proteger la plantilla y luego seleccione **Publicar** para publicarla.
+1. Vaya a **Páginas** y seleccione **Nuevo** para crear una nueva página.
+1. En el cuadro de diálogo **Elegir una plantilla**, seleccione la plantilla **Plantilla de contenido**. En **Nombre de página**, introduzca **Página de contenido** y después seleccione **Aceptar**.
+1. En el espacio **Principal** de la nueva página, seleccione los puntos suspensivos (**...**) y, a continuación, seleccione **Agregar módulo**.
+1. En el cuadro de diálogo **Agregar módulo**, seleccione el módulo **Contenedor** y, a continuación, **Aceptar**.
 1. En el panel de propiedades para el módulo de contenedor, establezca la propiedad **Ancho** en **Rellenar contenedor**.
-1. Agregue un módulo de bloque de texto al módulo de contenedor. 
+1. En el espacio **Contenedor**, seleccione los puntos suspensivos (**...**) y después seleccione **Agregar módulo**.
+1. En el cuadro de diálogo **Agregar módulo**, seleccione el módulo **Bloque de texto** y, a continuación, **Aceptar**. 
 1. En el panel de propiedades del módulo de bloque de texto, agregue texto al campo **Texto enriquecido**.
-1. Termine de editar la página y publíquela.
+1. Seleccione **Guardar** y luego seleccione **Vista previa** para previsualizar la página.
+1. Seleccione **Finalizar edición** para proteger la página y luego seleccione **Publicar** para publicarla.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general de kit de inicio](starter-kit-overview.md)
+[Visión general del kit de inicio](starter-kit-overview.md)
 
 [Módulo de banner promocional](add-alert.md)
 
