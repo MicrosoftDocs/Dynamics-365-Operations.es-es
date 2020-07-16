@@ -3,7 +3,7 @@ title: Configurar un entorno de vista previa de Dynamics 365 Commerce
 description: Este tema explica cómo configurar una vista previa del entorno de Microsoft Dynamics 365 Commerce tras aprovisionarse.
 author: psimolin
 manager: annbe
-ms.date: 12/10/2019
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d72caee25c03e8167b94dd387c7861f98bd0f4cb
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: ad05996eaabd3965308370649a27b8bc3080c7ce
+ms.sourcegitcommit: f72e90dccc80718e99cab2752eaf8931dcbb915e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057726"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "3534076"
 ---
 # <a name="configure-a-dynamics-365-commerce-preview-environment"></a>Configurar un entorno de vista previa de Dynamics 365 Commerce
 
@@ -116,7 +116,7 @@ Para activar la gestión de trabajos en Commerce, siga estos pasos.
 
 Para ejecutar la sincronización de datos completa en Commerce, siga estos pasos.
 
-1. Use el menú de la izquierda, para ir a **Módulos \> Retail y Commerce \> Configuración de sede central \> Programador de tareas Retail \> Base de datos de canales**.
+1. Use el menú de la izquierda, para ir a **Módulos \> Retail y Commerce \> Configuración de sede central \> Programador de Commerce \> Base de datos de canales**.
 1. El canal **Predeterminado** está seleccionado en la lista de la izquierda. Seleccione el otro canal disponible. Este canal se llama **scXXXXXXXXX**.
 1. En el panel de acciones, seleccione **Sincronización de datos completa**.
 1. Introduzca **9999** como la programación de distribución.

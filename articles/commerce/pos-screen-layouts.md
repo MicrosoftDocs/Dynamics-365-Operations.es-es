@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: boycezhu
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 3a84318f7156ef42f7e00f1e89228f541b1634ce
-ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
+ms.openlocfilehash: a037c8514d7838b3a4797f21b3ef3f6d5736e840
+ms.sourcegitcommit: f7294160d18f15cb762c24f2459b4f0887c37541
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261476"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3505643"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>Configuraciones visuales de la interfaz de usuario de PDV
 
@@ -101,7 +101,7 @@ Al iniciar, la aplicación del PDV selecciona automáticamente el tamaño de dis
 > [!TIP]
 > Puede conocer el tamaño de diseño necesario para una pantalla del PDV viendo la resolución en la aplicación. Inicie el PDV y vaya **Configuración \> Información sobre la sesión**. El PDV muestra el diseño de pantalla que se carga actualmente, el tamaño de diseño y la resolución de la ventana de la aplicación.
 
-![Tamaños de diseño de PDV](../commerce/media/POS-Session-Information.png)
+![Página de información de la sesión de PDV que muestra el diseño de pantalla que se carga actualmente, el tamaño de diseño y la resolución de la ventana de la aplicación](../commerce/media/POS-Session-Information.png)
 
 ### <a name="button-grids"></a>Cuadrículas de botones
 

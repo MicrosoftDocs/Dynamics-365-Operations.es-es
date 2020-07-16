@@ -3,7 +3,7 @@ title: Visión general de la página principal
 description: Este tema proporciona una visión general de la página principal en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 06/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6f337af0b598322e9542a3c9462402e61dc11a88
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: c51c5af38f4ba50bbad124de4ac7f66be4001fa6
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025980"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527594"
 ---
-# <a name="overview-of-the-home-page"></a>Visión general de la página principal
-
+# <a name="home-page-overview"></a>Visión general de la página principal
 
 [!include [banner](includes/banner.md)]
 
@@ -68,8 +67,6 @@ La sección principal de la página principal puede resaltar productos, categor�
 > Todos los módulos que se muestran aquí se pueden utilizar en cualquier página del sitio. Sin embargo, su colocación en la página principal es importante porque esa página es donde los clientes interactúan primero con el sitio.
 
 ## <a name="additional-resources"></a>Recursos adicionales
-
-[Visión general de la página de aterrizaje de categoría predeterminada y la página de resultados de la búsqueda](category-search-page-overview.md)
 
 [Visión general de las páginas de detalles de producto](quick-tour-pdp.md)
 

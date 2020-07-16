@@ -1,6 +1,6 @@
 ---
 title: Gestionar trabajadores de almacén
-description: Este artículo describe cómo puede usar la aplicación Dynamics 365 Supply Chain Management - Warehousing para ayudar a controlar y a supervisar el trabajo que han realizado los empleados en los almacenes.
+description: Este artículo describe cómo puede usar la aplicación de almacén para ayudar a controlar y a supervisar el trabajo que han realizado los empleados en los almacenes.
 author: perlynne
 manager: tfehr
 ms.date: 06/20/2017
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0b143051ba39c74869d2ec56203ee4f1cda7268a
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: d8e7790fa8ab8d60d0e5fd8eb470d86d6728091b
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205584"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530038"
 ---
 # <a name="manage-warehouse-workers"></a>Gestionar trabajadores de almacén
 
 [!include [banner](../includes/banner.md)]
 
-Este artículo describe cómo puede usar la aplicación Dynamics 365 Supply Chain Management - Warehousing para ayudar a controlar y a supervisar el trabajo que han realizado los empleados en los almacenes.
+Este artículo describe cómo puede usar la aplicación de almacén para ayudar a controlar y a supervisar el trabajo que han realizado los empleados en los almacenes.
 
 Si usa la funcionalidad de gestión de almacenes, todas las operaciones de trabajador de almacén se conocen como *trabajo*. Trabajo como seleccionar, mover y recuento de inventario disponible se registra con los dispositivos móviles. Antes de que un trabajador de almacén pueda realizar el trabajo, debe estar asociado a un trabajador en recursos humanos. Cada cuenta de **Trabajador** puede tener varios usuarios de trabajo de almacén asociados. Dichos usuarios de trabajo pueden trabajar en varios almacenes y pueden tener distintos niveles de acceso a los distintos menús del dispositivo móvil. Puede pensar en los usuarios de trabajo de almacén como varios inicios de sesión para el trabajador seleccionado. Cada usuario de trabajo tiene un almacén predeterminado y los flujos de trabajo específicos son expuestos por los elementos de menú que están disponibles para dicho usuario de trabajo. 
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 5a751b360b2da8f786dd7b8d139e1a0a44052894
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: c6598a9ac2beb799ddfc4e3cce182e1281ae8d03
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211983"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530544"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Procesamiento de producto con peso capturado con la gestión de almacenes
 
@@ -107,7 +107,7 @@ Además, cuando se realiza un seguimiento de etiqueta de un artículo, hay un pa
 **Cuando se usa el seguimiento de la etiqueta de peso capturado**, siempre se debe crear una etiqueta para cada unidad de peso capturado recibida, y cada etiqueta debe asociarse siempre a un peso.
 
 Por ejemplo, **Caja** es la unidad de peso capturado, y usted recibe un pallet de ocho cajas. En este caso, deberán crearse ocho etiquetas únicas de peso capturado, y un peso se debe asociar a cada etiqueta. En función de la etiqueta de entrada con peso capturado, el peso de las ocho cajas puede capturarse, y el peso medio se puede distribuir a cada caja, o se puede capturar un peso único para cada caja.
-Cuando use la característica **Use las etiquetas de peso de captura existentes al informar las órdenes de producción como terminadas** con el proceso habilitado a través de un elemento de menú del dispositivo móvil, el inventario se actualiza en función de la información de la etiqueta de peso de captura existente. Como resultado, la aplicación Warehousing no solicita capturar los datos de la etiqueta de peso de captura como parte de un informe de producción como una operación finalizada.
+Cuando use la característica **Use las etiquetas de peso de captura existentes al informar las órdenes de producción como terminadas** con el proceso habilitado a través de un elemento de menú del dispositivo móvil, el inventario se actualiza en función de la información de la etiqueta de peso de captura existente. Como resultado, la aplicación de almacén no solicita capturar los datos de la etiqueta de peso de captura como parte de un informe de producción como una operación finalizada.
 
 **Cuando el seguimiento de etiquetas de peso capturado no se usa**, el peso se puede capturar para cada conjunto de dimensiones (por ejemplo, para cada matrícula de entidad y cada dimensión de seguimiento). Como alternativa, el peso se puede capturar en función de un nivel agregado, como cinco matrículas de entidad (pallets).
 
@@ -195,7 +195,7 @@ No todos los flujos de trabajo son compatibles con el procesamiento de producto 
 
 ### <a name="catch-weight-tags"></a>Etiquetas de peso capturado
 
-Una etiqueta de peso capturado se puede crear mediante un proceso de la aplicación de almacenamiento de datos, manualmente en el formulario o mediante un proceso de la entidad de datos. Si una etiqueta de peso capturado se asocia a una línea de entrada del documento de origen, como por ejemplo una línea de pedido de compra, se registra la etiqueta. Si la línea se utiliza para el procesamiento de salida, se actualizará la etiqueta como enviada.
+Una etiqueta de peso capturado se puede crear mediante un proceso de la aplicación de almacén, manualmente en el formulario o mediante un proceso de la entidad de datos. Si una etiqueta de peso capturado se asocia a una línea de entrada del documento de origen, como por ejemplo una línea de pedido de compra, se registra la etiqueta. Si la línea se utiliza para el procesamiento de salida, se actualizará la etiqueta como enviada.
 
 Además de las restricciones que se aplican actualmente para los productos de peso capturado, los productos de peso capturado etiquetados tienen otras restricciones que se aplican actualmente.
 

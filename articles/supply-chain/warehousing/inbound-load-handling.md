@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 709a75a259b1f8daa5b72e76b56942573c403f43
-ms.sourcegitcommit: 3a823444005d316bd95fc663e2dbc8252ac7d93a
+ms.openlocfilehash: 9a030f2e219c7c389d6255254545f3f895eff75b
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261372"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530590"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Manejo de almacén de cargas entrantes para pedidos de compra
 
@@ -66,7 +66,7 @@ Cuando una carga entrante llega por primera vez al almacén, los trabajadores de
 
 - **Un menú de dispositivo móvil que está configurado para admitir la recepción de carga**
 
-    [Dynamics 365 for Finance and Operations - Aplicación de almacenamiento](install-configure-warehousing-app.md) para dispositivos móviles es compatible con los siguientes procesos de creación de trabajo:
+    La [aplicación de almacén](install-configure-warehousing-app.md) para dispositivos móviles es compatible con los siguientes procesos de creación de trabajo:
 
     - Recepción de artículo de carga
     - Recepción de artículo de carga y ubicación
@@ -285,7 +285,7 @@ Para trabajar en estos escenarios mediante el uso de los registros y valores de 
 
 Antes de que los empleados de recepción del almacén puedan usar un dispositivo móvil para registrar el inventario entrante que está vinculado a una carga, debe crear un elemento de menú del dispositivo móvil para ese propósito.
 
-En esta sección, creará un elemento de menú del dispositivo móvil y lo agregará a un menú existente. Un trabajador de almacén puede seleccionar el elemento del menú en la aplicación de Almacén.
+En esta sección, creará un elemento de menú del dispositivo móvil y lo agregará a un menú existente. Un trabajador de almacén puede seleccionar el elemento del menú en la aplicación de almacén.
 
 1. Vaya a **Gestión de almacenes \> Configurar \> Dispositivo móvil \> Elementos del menú del dispositivo móvil** y asegúrese de que el menú de su dispositivo móvil incluya un elemento de menú que tenga la siguiente configuración:
 

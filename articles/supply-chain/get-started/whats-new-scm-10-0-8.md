@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-01-31
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 40d1090d18857c6978ce42a34d6d67241f9df18f
-ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
+ms.openlocfilehash: 83a27620a7bdd8624770442aa271a6dac6b5b04e
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "3346338"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530383"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1008-february-2020"></a>Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.8 (febrero de 2020)
 
@@ -51,7 +51,7 @@ En esta versión se incluyen las siguientes características. Los títulos de ca
 - [Dividir el trabajo de reposición de la demanda desde el paso de creación de trabajo de selección](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/split-demand-replenishment-work-create-pick-work-step)
 - [Dividir trabajo](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/split-work)
 - [Selección de clúster dirigida por el sistema](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/system-directed-cluster-picking): para obtener más información, consulte [Selección de clúster dirigida por el sistema](../warehousing/system-directed-cluster-pick.md).
-- [Validación de tarea de aplicación de almacenamiento con RSAT](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-app-task-validation-rsat)
+- [Validación de tarea de aplicación de almacén mediante RSAT](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-app-task-validation-rsat)
 - [Regla de liberación al almacén](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-release-rule)
 - [Visualización del estado de oleada](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-status-visualization)
 - [Agrupación de plantillas de oleada](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-template-grouping)
@@ -78,8 +78,8 @@ Consulte [Dynamics 365: plan de la segunda oleada de lanzamiento de versiones de
 
 En el tema [Características quitadas o en desuso en Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) se describen las características que se han quitado o cuya eliminación o puesta en desuso están programadas para Supply Chain Management.
 
-- Una función *quitada* dejará de estar disponible en el producto.
-- Una función *en desuso* no está en el desarrollo activo y se podría quitar en una actualización futura.
+- Una característica *quitada* dejará de estar disponible en el producto.
+- Una característica *en desuso* no está en el desarrollo activo y se podría quitar en una actualización futura.
 
 Antes de eliminar una característica del producto, se anunciará el aviso de desuso en el tema [Características quitadas o en desuso en Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 meses antes de su eliminación.
 

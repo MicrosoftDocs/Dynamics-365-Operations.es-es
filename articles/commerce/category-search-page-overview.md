@@ -1,9 +1,9 @@
 ---
 title: Visión general de la página de aterrizaje de categoría predeterminada y la página de resultados de la búsqueda
 description: Este tema ofrece una visión general de la página de aterrizaje de categoría predeterminada y la página de resultados de la búsqueda en Dynamics 365 Commerce.
-author: v-chgri
+author: ashishmsft
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 06/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 17746d2923ab84311253c47647c0020807bdb75c
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: e85449c10fa4a768a144ce423a77bd1fc2c94352
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002505"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527477"
 ---
-# <a name="overview-of-default-category-landing-page-and-search-results-page"></a>Visión general de la página de aterrizaje de categoría predeterminada y la página de resultados de la búsqueda
-
+# <a name="default-category-landing-page-and-search-results-page-overview"></a>Visión general de la página de aterrizaje de categoría predeterminada y la página de resultados de la búsqueda
 
 [!include [banner](includes/banner.md)]
 
@@ -96,7 +95,13 @@ Los siguientes componentes son esenciales para una página de resultados de la b
 - **Paginación** permite a los visitantes del sitio web pasar de una página de resultados de productos clasificados a otra página.
 - **Recuento total** proporciona el número total de productos definidos en una categoría y que coinciden con los criterios de búsqueda.
 
+>[!NOTE]
+>Estas capacidades de búsqueda basadas en la nube están disponibles a partir de la versión 10.0.8. Asegúrese de que en **Parámetros de Commerce > Parámetros de configuración** hay una entrada para "ProductSearch.UseAzureSearch establecido en 'true'". 
+![Parámetros de configuración para búsqueda en la nube](./media/CloudPoweredSearchConfigurationParameters.png)
+
 ## <a name="additional-resources"></a>Recursos adicionales
+
+[Visión general de la búsqueda con tecnología de nube](cloud-powered-search-overview.md)
 
 [Visión general de la página principal](quick-tour-home-page.md)
 

@@ -3,7 +3,7 @@ title: Funciones quitadas u obsoletas de versiones anteriores
 description: Este tema describe las características que se eliminaron o que se planearon eliminar de Dynamics 365 for Finance and Operations y versiones anteriores de ese producto.
 author: sericks007
 manager: AnnBe
-ms.date: 04/17/2020
+ms.date: 06/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be266f838c5e6cd10655546179e9075e36570bfc
-ms.sourcegitcommit: 399f128d90b71bd836a1c8c0c8c257b7f9eeb39a
+ms.openlocfilehash: 8a73231a8286a412e9ec8a4eef6c58d7afd73ec0
+ms.sourcegitcommit: bdfc84aa7f607511981c0b2f20f03fabcb773510
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "3284023"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "3500421"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Funciones quitadas u obsoletas de versiones anteriores
 
@@ -588,7 +588,7 @@ eGiro se basa en la norma internacional UN EDIFACT CREMUL (Mensaje de aviso de c
 |   |  |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | El formato de pago ya no se usa.                                                     |
-| **¿Reemplazado por otra característica?**   | N. º El formato se sustituirá por formatos ISO 20022 de importación de criterio en próximas versiones. |
+| **¿Reemplazado por otra característica?**   | Sí, la importación de notificaciones ISO20022 Camt.054. |
 | **Áreas de producto afectadas**         | Clientes                                                                       |
 | **Estado**                         | En desuso: No se ha establecido una fecha de eliminación para esta función.                            |
 
@@ -621,7 +621,7 @@ Puede seleccionar un formato de importación para los pagos finlandeses para imp
 |   |  |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | El formato de pago ya no se usa.                                                     |
-| **¿Reemplazado por otra característica?**   | N. º El formato se sustituirá por formatos ISO 20022 de importación de criterio en próximas versiones. |
+| **¿Reemplazado por otra característica?**   | Sí, la importación de notificaciones ISO20022 Camt.054. |
 | **Áreas de producto afectadas**         | Clientes                                                                       |
 | **Estado**                         | En desuso: No se ha establecido una fecha de eliminación para esta función.                            |
 
@@ -632,7 +632,7 @@ Se usa un formato específico para Finlandia para importar las transacciones de 
 |   |  |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | El formato de pago ya no se usa.                                                     |
-| **¿Reemplazado por otra característica?**   | N. º El formato se sustituirá por formatos ISO 20022 de importación de criterio en próximas versiones. |
+| **¿Reemplazado por otra característica?**   | Sí, la importación del extracto bancario ISO20022 Camt.053 utilizando la Conciliación bancaria avanzada. |
 | **Áreas de producto afectadas**         | Clientes                                                                       |
 | **Estado**                         | En desuso: No se ha establecido una fecha de eliminación para esta función.                            |
 
@@ -698,7 +698,7 @@ Los formatos de Telehansa y TeleTeenus se usan para la importación de pago banc
 |   |  |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Los formatos de pago ya no se usan.                                                    |
-| **¿Reemplazado por otra característica?**   | N. º Los formatos se sustituirán por formatos ISO 20022 de importación de criterio en próximas versiones. |
+| **¿Reemplazado por otra característica?**   | Sí, la importación de notificaciones bancarias ISO20022 Camt.054. |
 | **Áreas de producto afectadas**         | Clientes                                                                        |
 | **Estado**                         | En desuso: No se ha establecido una fecha de eliminación para esta función.                             |
 
@@ -784,7 +784,7 @@ Los formatos de pago Telepay incluyen la exportación del pago de proveedor (tra
 |   |  |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | Los formatos de pago ya no se usan.                                                        |
-| **¿Reemplazado por otra característica?**   | Sí, formato de pago de transferencia de crédito ISO20022 y formato de pago del cliente de AvtaleGiro para Noruega |
+| **¿Reemplazado por otra característica?**   | Sí, el formato de pago de transferencia de crédito ISO20022 y el formato de pago del cliente AvtaleGiro para Noruega, así como la importación de archivos de devolución de notificación bancaria pain.002 y camt.054. |
 | **Áreas de producto afectadas**         | Cuentas de proveedores, cuentas de clientes                                                          |
 | **Estado**                         | En desuso: No se ha establecido una fecha de eliminación para esta función.                                 |
 
@@ -844,7 +844,7 @@ Un flujo de trabajo para gestionar la creación de los objetivos del empleado es
 
 ### <a name="aif-axd-and-axbc-integrations"></a>Integración de AIF, Axd y AxBC
 
-En Application Integration Framework (AIF), los datos se pueden intercambiar con sistemas externos por medio de lógica de negocios expuesta como servicios. Dynamics AX incluye servicios que se basan en documentos y en .NET Business Connector (AxBC). Los documentos se crean mediante XML. El XML incluye información de encabezado que se agrega para crear un *mensaje* que se puede transferir a o de Dynamics AX. Algunos ejemplos de documentos son los pedidos de compra y venta. No obstante, casi cualquier entidad, como un cliente, puede ser representado por un documento. Los servicios que se basan en documentos usan las clases **Axd \<Documento\>**.
+En Application Integration Framework (AIF), los datos se pueden intercambiar con sistemas externos por medio de lógica de negocios expuesta como servicios. Dynamics AX incluye servicios que se basan en documentos y en .NET Business Connector (AxBC). Los documentos se crean mediante XML. El XML incluye información de encabezado que se agrega para crear un *mensaje* que se puede transferir a o de Dynamics AX. Algunos ejemplos de documentos son los pedidos de compra y venta. No obstante, casi cualquier entidad, como un cliente, puede ser representado por un documento. Los servicios que se basan en documentos usan las clases **Axd \<Document\>**.
 
 |   |  |
 |------------|--------------------|
@@ -1125,13 +1125,13 @@ La generación de prenotas no se puede hacer mediante un lote pero sí la puede 
 | **Áreas de producto afectadas**         | Todos los módulos  |
 | **Estado**                         | En desuso: No se ha establecido una fecha de eliminación para esta función. |
 
-### <a name="german-dtazv-payment-format"></a>Formato de pago DTAZV para Alemania
+### <a name="german-dtazv-payment-format-in-domestic-currency"></a>Formato de pago alemán DTAZV en divisa nacional
 
 |   |  |
 |------------|--------------------|
 | **Motivo de la depreciación/eliminación** | El formato ya no es aplicable en Alemania, ya que se ha sustituido por la funcionalidad SEPA. |
 | **¿Reemplazado por otra característica?**   | Exportación de pagos SEPA    |
-| **Áreas de producto afectadas**         | Todos los módulos   |
+| **Áreas de producto afectadas**         | Proveedores   |
 | **Estado**                         | En desuso: No se ha establecido una fecha de eliminación para esta función.    |
 
 ### <a name="german-mt940-import"></a>Importación MT940 alemana
