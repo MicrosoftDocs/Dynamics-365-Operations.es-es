@@ -18,8 +18,6 @@
                   href: get-started/whats-new-platform-update-10-0-12.md
                 - name: Platform updates para 10.0.11 (julio de 2020)
                   href: get-started/whats-new-platform-update-35.md
-                - name: Platform updates para 10.0.10 (mayo de 2020)
-                  href: get-started/whats-new-platform-update-34.md
             - name: Características quitadas u obsoletas
               items:
                 - name: Características de Platform quitadas u obsoletas
@@ -713,9 +711,29 @@
                         - name: Eventos
                           href: dev-ref/xpp-events.md
                     - name: Selección y manipulación de datos de X++
-                      href: dev-ref/xpp-data-query.md
-                    - name: Acceso a datos mediante la API de SysDa
-                      href: dev-ref/sysda.md
+                      items:
+                        - name: Visión general de la selección y manipulación de datos de X++
+                          href: dev-ref/xpp-data/xpp-data-home-page.md
+                        - name: Seleccionar extracto
+                          href: dev-ref/xpp-data/xpp-select-statement.md
+                        - name: Seleccionar datos
+                          href: dev-ref/xpp-data/xpp-select.md
+                        - name: Insertar datos
+                          href: dev-ref/xpp-data/xpp-insert.md
+                        - name: Actualizar datos
+                          href: dev-ref/xpp-data/xpp-update.md
+                        - name: Eliminar datos
+                          href: dev-ref/xpp-data/xpp-delete.md
+                        - name: Instrucción While select
+                          href: dev-ref/xpp-data/xpp-while-select.md
+                        - name: Escribir una instrucción select como una expresión
+                          href: dev-ref/xpp-data/xpp-select-expression.md
+                        - name: Integridad transaccional
+                          href: dev-ref/xpp-data/xpp-transaction.md
+                        - name: Conversión de operaciones de basada en conjunto a registro por registro
+                          href: dev-ref/xpp-data/xpp-data-perf.md
+                        - name: Acceso a datos mediante la API de SysDa
+                          href: dev-ref/sysda.md
                     - name: Macros de X++
                       href: dev-ref/xpp-macros.md
                     - name: Clases de atributo de X++
@@ -754,76 +772,58 @@
                   href: dev-ref/system-tables.md
                 - name: Clases del sistema
                   items:
-                    - name: Clases A
-                      href: dev-ref/a-classes.md
-                    - name: Clases B
-                      href: dev-ref/b-classes.md
-                    - name: Clases C
-                      href: dev-ref/c-classes.md
-                    - name: Clases D
-                      href: dev-ref/d-classes.md
-                    - name: Clases E
-                      href: dev-ref/e-classes.md
-                    - name: 'Clases F: (FieldBinding a FormBuildAnimateControl)'
-                      href: dev-ref/fieldbinding-classes.md
-                    - name: Clases F (FormBuildButtonControl a FormBuildFastTabSummarySeparator)
-                      href: dev-ref/formbuildbuttoncontrol-classes.md
-                    - name: Clases F (FormBuildFilterPaneControl a FormBuildRealControl)
-                      href: dev-ref/formbuildfilterpanecontrol-classes.md
-                    - name: Clases F (FormBuildReferenceControl a FormButtonSeparatorControl)
-                      href: dev-ref/formbuildreferencecontrol-classes.md
-                    - name: Clases F (FormChangeTracker a FormControlEventArgs)
-                      href: dev-ref/formchangetracker-classes.md
-                    - name: Clases F (FormDataObject a FormFastTabHeaderControl)
-                      href: dev-ref/formdataobject-classes.md
-                    - name: Clases F (FormFastTabSummarySeparator a FormGridControl)
-                      href: dev-ref/formfasttabsummaryseparator-classes.md
-                    - name: Clases F (FormGroupControl a FormIntControl)
-                      href: dev-ref/formgroupcontrol-classes.md
-                    - name: Clases F (FormListBoxControl a FormNotifyEventArgs)
-                      href: dev-ref/formlistboxcontrol-classes.md
-                    - name: Clases F (FormObject a FormRealControl)
-                      href: dev-ref/formobject-classes.md
-                    - name: Clases F (FormReferenceControl a FormStringControl)
-                      href: dev-ref/formreferencecontrol-classes.md
-                    - name: Clases F (FormTabControl a FormWindowControl)
-                      href: dev-ref/formtabcontrol-classes.md
-                    - name: Clases G
-                      href: dev-ref/g-classes.md
-                    - name: Clases H
-                      href: dev-ref/h-classes.md
-                    - name: Clases I
-                      href: dev-ref/i-classes.md
-                    - name: Clases J
-                      href: dev-ref/j-classes.md
-                    - name: Clases K
-                      href: dev-ref/k-classes.md
-                    - name: Clases L
-                      href: dev-ref/l-classes.md
-                    - name: Clases M
-                      href: dev-ref/m-classes.md
-                    - name: Clases N
-                      href: dev-ref/n-classes.md
-                    - name: Clases O
-                      href: dev-ref/o-classes.md
-                    - name: Clases P
-                      href: dev-ref/p-classes.md
-                    - name: Clases Q
-                      href: dev-ref/q-classes.md
-                    - name: Clases R
-                      href: dev-ref/r-classes.md
-                    - name: Clases S
-                      href: dev-ref/s-classes.md
-                    - name: Clases T
-                      href: dev-ref/t-classes.md
-                    - name: Clases U
-                      href: dev-ref/u-classes.md
-                    - name: Clases V
-                      href: dev-ref/v-classes.md
-                    - name: Clases W
-                      href: dev-ref/w-classes.md
-                    - name: Clases X
-                      href: dev-ref/x-classes.md
+                    - name: Lista de clases del sistema
+                      href: dev-ref/system-classes/toc.yml
+                    - name: Clases del sistema agrupadas alfabéticamente
+                      items:
+                        - name: Clases A
+                          href: dev-ref/a-classes.md
+                        - name: Clases B
+                          href: dev-ref/b-classes.md
+                        - name: Clases C
+                          href: dev-ref/c-classes.md
+                        - name: Clases D
+                          href: dev-ref/d-classes.md
+                        - name: Clases E
+                          href: dev-ref/e-classes.md
+                        - name: Clases F
+                          href: dev-ref/f-classes.md
+                        - name: Clases G
+                          href: dev-ref/g-classes.md
+                        - name: Clases H
+                          href: dev-ref/h-classes.md
+                        - name: Clases I
+                          href: dev-ref/i-classes.md
+                        - name: Clases J
+                          href: dev-ref/j-classes.md
+                        - name: Clases K
+                          href: dev-ref/k-classes.md
+                        - name: Clases L
+                          href: dev-ref/l-classes.md
+                        - name: Clases M
+                          href: dev-ref/m-classes.md
+                        - name: Clases N
+                          href: dev-ref/n-classes.md
+                        - name: Clases O
+                          href: dev-ref/o-classes.md
+                        - name: Clases P
+                          href: dev-ref/p-classes.md
+                        - name: Clases Q
+                          href: dev-ref/q-classes.md
+                        - name: Clases R
+                          href: dev-ref/r-classes.md
+                        - name: Clases S
+                          href: dev-ref/s-classes.md
+                        - name: Clases T
+                          href: dev-ref/t-classes.md
+                        - name: Clases U
+                          href: dev-ref/u-classes.md
+                        - name: Clases V
+                          href: dev-ref/v-classes.md
+                        - name: Clases W
+                          href: dev-ref/w-classes.md
+                        - name: Clases X
+                          href: dev-ref/x-classes.md
             - name: Extensibilidad
               items:
                 - name: Página de inicio de extensibilidad
@@ -964,15 +964,15 @@
               items:
                 - name: Tomar seguimientos mediante Trace Parser
                   href: perf-test/trace-trace-tutorial.md
-                - name: Pruebas de usuario único con el Grabador de tareas y el Performance SDK
+                - name: Pruebas de usuario único con el Grabador de tareas y el SDK de Performance
                   href: perf-test/single-user-test-perf-sdk.md
-                - name: Pruebas multiusuario con el Performance SDK y un controlador de pruebas local
+                - name: Pruebas multiusuario con el SDK de Performance y un controlador de pruebas local
                   href: perf-test/multi-user-testing-local-test-controller.md
-                - name: Pruebas multiusuario con el Performance SDK y Azure DevOps
+                - name: Pruebas multiusuario con el SDK de Performance y Azure DevOps
                   href: perf-test/multi-user-testing-perfsdk-azuredevops.md
-                - name: Guía de solución de problemas de pruebas de usuario único o multiusuario con el Performance SDK
+                - name: Guía de solución de problemas de pruebas de usuario único o multiusuario con el SDK de Performance
                   href: perf-test/troubleshoot-perf-sdk-user-testing.md
-                - name: Performance SDK y pruebas multiusuario en entornos locales
+                - name: SDK de Performance y pruebas multiusuario en entornos locales
                   href: perf-test/perfsdk-tutorial-lbd.md
                 - name: Diagnosticar problemas y analizar rendimiento mediante Trace parser
                   href: perf-test/trace-parser.md
@@ -1434,6 +1434,8 @@
               href: sysadmin/pre-configured-system-accounts.md
             - name: Exportar usuarios B2B a Azure AD
               href: sysadmin/implement-b2b.md
+            - name: Automatización de procesos
+              href: sysadmin/process-automation.md
             - name: Seguridad
               items:
                 - name: Seguridad basada en roles
@@ -1458,6 +1460,8 @@
                   href: sysadmin/tasks/assign-users-security-roles.md
                 - name: Diagnósticos de seguridad para las grabaciones de tareas
                   href: sysadmin/tasks/security-diagstics-task-recordings.md
+            - name: Automatización de procesos
+              href: /sysadmin/process-automation.md
             - name: Procesamiento por lotes
               items:
                 - name: Visión general del procesamiento por lotes
@@ -1518,6 +1522,8 @@
                   href: migration-upgrade/prepare-data-upgrade.md
                 - name: 'Actualización de AX 2012: actualización de datos en entornos aislados'
                   href: migration-upgrade/upgrade-data-sandbox.md
+                - name: 'Actualización de AX 2012: entornos locales'
+                  href: migration-upgrade/on-prem-upgrade-2012.md
                 - name: 'Actualización de AX 2012: prueba de la transferencia de sistema'
                   href: migration-upgrade/upgrade-cutover-testing.md
                 - name: 'Actualización de AX 2012: tareas posteriores a la actualización'
