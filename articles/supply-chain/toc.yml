@@ -74,11 +74,9 @@
                       href: get-started/whats-new-scm-10-0-12.md
                     - name: Supply Chain Management 10.0.11 (julio de 2020)
                       href: get-started/whats-new-scm-10-0-11.md
-                    - name: Supply Chain Management 10.0.10 (mayo de 2020)
-                      href: get-started/whats-new-scm-10-0-10.md
                 - name: Características quitadas u obsoletas
                   items:
-                    - name: Características quitadas u obsoletas de Dynamics 365 Supply Chain Management
+                    - name: Características quitadas o en desuso en Dynamics 365 Supply Chain Management
                       href: get-started/removed-deprecated-features-scm-updates.md
                     - name: Funciones quitadas u obsoletas de versiones anteriores
                       href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
@@ -1141,7 +1139,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
             - name: Tutoriales
               items:
-                - name: Use los orígenes de datos UNIR para obtener datos de varias tablas de aplicaciones
+                - name: Use los orígenes de datos COMBINACIÓN para obtener datos de varias tablas de aplicaciones
                   href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Configurar asignaciones de modelo de informes electrónicos dependientes del contexto del país
                   href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/supply-chain/toc.json
@@ -2565,192 +2563,230 @@
           items:
             - name: Visión general de la gestión de almacenes
               href: warehousing/warehouse-management-overview.md
+            - name: Operaciones de almacén de entrada
+              items:
+                - name: Recibos para su registro y ubicación
+                  items:
+                    - name: Manejo de almacén de cargas entrantes para pedidos de compra
+                      href: warehousing/inbound-load-handling.md
+                    - name: Registrar artículos habilitados para almacenamiento avanzado mediante un diario de recepción de artículos
+                      href: warehousing/tasks/register-items-advanced-warehousing.md
+                    - name: Registrar artículos habilitados para almacenamiento básico mediante un diario de recepción de artículos
+                      href: warehousing/tasks/register-items-basic-warehousing.md
+                    - name: Productos de tránsito directo del almacén de recepción a las tiendas
+                      href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
+                    - name: Configurar una directiva de ubicación para la ubicación de pedidos de compra
+                      href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
+                    - name: Configurar una plantilla de trabajo para pedidos de compra
+                      href: warehousing/tasks/set-up-work-template-purchase-orders.md
+                    - name: Combinación de dimensiones de producto de ubicación
+                      href: warehousing/location-product-dimension-mixing.md
+            - name: Operaciones de almacén de salida
+              items:
+                - name: Reservas en gestión de almacenes
+                  items:
+                    - name: Directiva de reserva de dimensión de nivel de almacén flexible
+                      href: warehousing/flexible-warehouse-level-dimension-reservation.md
+                - name: Liberación parcial y envío parcial
+                  items:
+                    - name: Envío parcial de una carga de transporte
+                      href: warehousing/partial-shipping-of-transport-loads.md
+                    - name: Liberación por lotes de pedidos de transferencia parcialmente reservados
+                      href: warehousing/batch-release-of-partially-reserved-transfer-orders.md
+                - name: Picking y embalaje
+                  items:
+                    - name: Configurar picking de clústeres
+                      href: warehousing/set-up-cluster-picking.md
+                    - name: Configurar la creación de contenedores
+                      href: warehousing/tasks/set-up-containerization.md
+                    - name: Confirmación de lote y matrícula
+                      href: warehousing/batch-and-license-plate-confirmation.md
+                    - name: Habilitar la impresión de la etiqueta de matrícula
+                      href: warehousing/tasks/license-plate-label-printing.md
+                    - name: Digitalizar códigos de barras mediante una cámara en Dynamics 365 for Finance and Operations
+                      href: warehousing/scan-bar-codes-using-a-camera.md
+                    - name: Confirmación de picking de pieza
+                      href: warehousing/piece-picking-confirmation.md
+                    - name: Materiales y cuotas de embalaje
+                      href: warehousing/pack-materials-packing-material-fees.md
+                    - name: Configurar el embalaje manual (febrero y mayo de 2016 únicamente)
+                      href: warehousing/tasks/set-up-manual-packing-2016-02-05.md
+                    - name: Configuración de la reasignación de artículos para la selección corta
+                      href: warehousing/tasks/set-up-short-picking-item-reallocation.md
+                    - name: Cancelar trabajo de almacén para el control de excepciones
+                      href: warehousing/cancel-warehouse-work.md
+                    - name: Picking de clústeres dirigidos por el sistema
+                      href: warehousing/system-directed-cluster-pick.md
+                    - name: Secuenciación del trabajo dirigida por el sistema
+                      href: warehousing/system-directed-work-sequencing.md
+                    - name: Picking de agrupación de líneas
+                      href: warehousing/pick-line-grouping.md
+                    - name: Slotting de almacén
+                      href: warehousing/warehouse-slotting.md
+                - name: Reabastecimiento
+                  items:
+                    - name: Visión general de la configuración de reabastecimiento
+                      href: warehousing/replenishment.md
+                    - name: Reabastecimiento inmediato
+                      href: warehousing/immediate-replenishment.md
+                    - name: Reabastecimiento con kanbans de transporte
+                      href: warehousing/material-replenishment-withdrawal-kanban.md
+                    - name: Configurar un proceso de reabastecimiento mínimo-máximo
+                      href: warehousing/tasks/set-up-min-max-replenishment-process.md
+                    - name: Reabastecimiento de umbral de zona
+                      href: warehousing/zone-threshold-replenishment.md
+                - name: Planificación de carga y envíos
+                  items:
+                    - name: Confirmar y transferir
+                      href: warehousing/confirm-and-transfer.md
+                    - name: Planiificación de carga avanzada durante una oleada
+                      href: warehousing/advanced-load-building-during-wave.md
+                    - name: Regla de liberación a almacén
+                      href: warehousing/release-to-warehouse-rule.md
+                    - name: Agrupación de plantillas de oleada
+                      href: warehousing/wave-template-grouping.md
+                - name: Directivas de consolidación de envíos
+                  items:
+                    - name: Directivas de consolidación de envíos
+                      href: warehousing/about-shipment-consolidation-policies.md
+                    - name: Configurar directivas de consolidación de envíos
+                      href: warehousing/configure-shipment-consolidation-policies.md
+                    - name: 'Escenario 1: consolidar envíos cuando se manden al almacén mediante la Liberación automática de pedidos de ventas'
+                      href: warehousing/consolidate-shipments-automatic.md
+                    - name: 'Escenario 2: consolidar envíos cuando la directiva de consolidación de envíos se anula desde la página Liberar al almacén'
+                      href: warehousing/consolidate-shipments-release-to-warehouse-override.md
+                    - name: 'Escenario 3: consolidar envíos utilizando Liberar al almacén desde el área de trabajo de planificación de la carga'
+                      href: warehousing/consolidate-shipments-load-planning-workbench.md
+                    - name: 'Escenario 4: consolidar envíos mediante el área de trabajo de consolidación de envíos'
+                      href: warehousing/consolidate-shipments-manual-workbench.md
+                    - name: 'Escenario 5: consolidar envíos manualmente mediante la página Consolidar envíos'
+                      href: warehousing/consolidate-shipments-manual-form.md
+            - name: Operaciones a través del almacén
+              items:
+                - name: Directivas de trabajo de almacén
+                  items:
+                    - name: Visión general de las directivas de trabajo de almacén
+                      href: warehousing/warehouse-work-policies.md
+                    - name: Configurar directivas de trabajo de almacén
+                      href: warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
+                    - name: Movimiento de inventario con trabajo asociado en gestión de almacenes
+                      href: warehousing/move-inventory-associated-work.md
+                    - name: Crear una clase de trabajo
+                      href: warehousing/tasks/create-work-class.md
+                    - name: Gestionar trabajadores de almacén
+                      href: warehousing/manage-warehouse-workers.md
+                    - name: Procesamiento aplazado de trabajo de almacén
+                      href: warehousing/deferred-put.md
+                - name: Tránsito directo
+                  items:
+                    - name: Tránsito directo desde pedidos de producción a muelles de salida
+                      href: production-control/cross-docking-opportunities.md
+                    - name: Liberación automática de envíos para tránsito directo
+                      href: warehousing/auto-release-shipment-for-cross-docking.md
+                    - name: Tránsito directo planificado
+                      href: warehousing/planned-cross-docking.md
+                - name: Recuento de inventario
+                  items:
+                    - name: Códigos de motivo de recuento de inventario
+                      href: warehousing/reason-codes-for-counting-journals.md
+                    - name: Bloquear inventario
+                      href: inventory/inventory-blocking.md
+                    - name: Recuento cíclico
+                      href: warehousing/cycle-counting.md
+                    - name: Definir el recuento cíclico
+                      href: warehousing/tasks/define-cycle-counting-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017.md
+                    - name: Recuento cíclico de ubicaciones parcial
+                      href: warehousing/partial-location-cycle-counting.md
+                    - name: Definir proceso de recuento cíclico de ubicaciones parcial
+                      href: warehousing/tasks/define-partial-location-cycle-counting-process.md
+                    - name: Trabajo de limpieza de entradas disponibles de gestión de almacenes
+                      href: warehousing/onhand-cleanup.md
+                    - name: Diario de inventario
+                      href: inventory/inventory-journals.md
+                    - name: Ubicación de inventario
+                      href: inventory/inventory-locations.md
+                    - name: Estado de inventario
+                      href: inventory/inventory-statuses.md
+                    - name: Recuento de etiquetas de inventario
+                      href: inventory/inventory-tag-counting.md
+                - name: Trabajo de almacén
+                  items:
+                    - name: Detalles de línea de trabajo
+                      href: warehousing/work-line-details.md
+                    - name: Posición de matrícula de entidad de almacén de ubicación
+                      href: warehousing/location-license-plate-positioning.md
             - name: Configuración de almacén
               items:
-                - name: Visión general de la configuración de almacén
-                  href: warehousing/warehouse-configuration.md
-                - name: Configurar un almacén mediante una plantilla de configuración de almacén
-                  href: inventory/warehouse-template.md
-                - name: Controlar el trabajo usando plantillas de trabajo y directivas de ubicación
-                  href: warehousing/control-warehouse-location-directives.md
-                - name: Códigos de paso de oleada
-                  href: warehousing/wave-step-codes.md
-                - name: Configurar procesamiento de oleadas
-                  href: warehousing/tasks/configure-wave-processing.md
-                - name: Actualizar envíos automáticamente
-                  href: warehousing/auto-update-shipment.md
-                - name: Crear un perfil de ubicación
-                  href: warehousing/tasks/create-location-profile.md
-                - name: Configurar ubicaciones en un almacén con WMS
-                  href: warehousing/tasks/configure-locations-wms-enabled-warehouse.md
-                - name: Programar utilización de carga
-                  href: warehousing/schedule-load-utilization.md
-                - name: Programar capacidad de la carga de trabajo
-                  href: warehousing/schedule-workload-capacity.md
-                - name: Configurar códigos de disposiciones
-                  href: warehousing/tasks/set-up-dispositions-codes.md
-                - name: Directivas de unidad de medida y de existencias
-                  href: warehousing/unit-measure-stocking-policies.md
-                - name: Contenido Power BI de almacén
-                  href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
-                - name: Agrupamiento del sistema en una lista de trabajo abierta
-                  href: warehousing/system-group-on-open-work-list.md
-                - name: Diseño de enrutamiento de documentos para matrículas de entidad
-                  href: warehousing/document-routing-layout-for-license-plates.md
-                - name: Digitalizar códigos de barras mediante una cámara en Dynamics 365 for Finance and Operations
-                  href: warehousing/scan-bar-codes-using-a-camera.md
-                - name: Compatibilidad con un lector de códigos de barras
-                  href: warehousing/mobile-barcode-support.md
-                - name: Configuración de almacén para pedidos de transferencia
-                  href: warehousing/transfer-orders-warehouse.md
-            - name: Reservas en gestión de almacenes
-              items:
-                - name: Directiva de reserva de dimensión de nivel de almacén flexible
-                  href: warehousing/flexible-warehouse-level-dimension-reservation.md
-            - name: Directivas de trabajo de almacén
-              items:
-                - name: Visión general de las directivas de trabajo de almacén
-                  href: warehousing/warehouse-work-policies.md
-                - name: Configurar directivas de trabajo de almacén
-                  href: warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
-                - name: Movimiento de inventario con trabajo asociado en gestión de almacenes
-                  href: warehousing/move-inventory-associated-work.md
-                - name: Crear una clase de trabajo
-                  href: warehousing/tasks/create-work-class.md
-                - name: Gestionar trabajadores de almacén
-                  href: warehousing/manage-warehouse-workers.md
-                - name: Procesamiento aplazado de trabajo de almacén
-                  href: warehousing/deferred-put.md
-            - name: Tránsito directo
-              items:
-                - name: Tránsito directo desde pedidos de producción a muelles de salida
-                  href: production-control/cross-docking-opportunities.md
-                - name: Liberación automática de envíos para tránsito directo
-                  href: warehousing/auto-release-shipment-for-cross-docking.md
-            - name: Liberación parcial y envío parcial
-              items:
-                - name: Envío parcial de una carga de transporte
-                  href: warehousing/partial-shipping-of-transport-loads.md
-                - name: Liberación por lotes de pedidos de transferencia parcialmente reservados
-                  href: warehousing/batch-release-of-partially-reserved-transfer-orders.md
-            - name: Picking y embalaje
-              items:
-                - name: Configurar picking de clústeres
-                  href: warehousing/set-up-cluster-picking.md
-                - name: Configurar la creación de contenedores
-                  href: warehousing/tasks/set-up-containerization.md
-                - name: Confirmación de lote y matrícula
-                  href: warehousing/batch-and-license-plate-confirmation.md
-                - name: Habilitar la impresión de la etiqueta de matrícula
-                  href: warehousing/tasks/license-plate-label-printing.md
-                - name: Digitalizar códigos de barras mediante una cámara en Dynamics 365 for Finance and Operations
-                  href: warehousing/scan-bar-codes-using-a-camera.md
-                - name: Confirmación de picking de pieza
-                  href: warehousing/piece-picking-confirmation.md
-                - name: Materiales y cuotas de embalaje
-                  href: warehousing/pack-materials-packing-material-fees.md
-                - name: Configurar el embalaje manual (febrero y mayo de 2016 únicamente)
-                  href: warehousing/tasks/set-up-manual-packing-2016-02-05.md
-                - name: Configuración de la reasignación de artículos para la selección corta
-                  href: warehousing/tasks/set-up-short-picking-item-reallocation.md
-                - name: Cancelar trabajo de almacén para el control de excepciones
-                  href: warehousing/cancel-warehouse-work.md
-                - name: Picking de clústeres dirigidos por el sistema
-                  href: warehousing/system-directed-cluster-pick.md
-                - name: Picking de agrupación de líneas
-                  href: warehousing/pick-line-grouping.md
-            - name: Recuento de inventario
-              items:
-                - name: Códigos de motivo de recuento de inventario
-                  href: warehousing/reason-codes-for-counting-journals.md
-                - name: Bloquear inventario
-                  href: inventory/inventory-blocking.md
-                - name: Recuento cíclico
-                  href: warehousing/cycle-counting.md
-                - name: Definir el recuento cíclico
-                  href: warehousing/tasks/define-cycle-counting-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017.md
-                - name: Recuento cíclico de ubicaciones parcial
-                  href: warehousing/partial-location-cycle-counting.md
-                - name: Definir proceso de recuento cíclico de ubicaciones parcial
-                  href: warehousing/tasks/define-partial-location-cycle-counting-process.md
-                - name: Trabajo de limpieza de entradas disponibles de gestión de almacenes
-                  href: warehousing/onhand-cleanup.md
-                - name: Diario de inventario
-                  href: inventory/inventory-journals.md
-                - name: Ubicación de inventario
-                  href: inventory/inventory-locations.md
-                - name: Estado de inventario
-                  href: inventory/inventory-statuses.md
-                - name: Recuento de etiquetas de inventario
-                  href: inventory/inventory-tag-counting.md
-            - name: Reabastecimiento
-              items:
-                - name: Visión general de la configuración de reabastecimiento
-                  href: warehousing/replenishment.md
-                - name: Reabastecimiento inmediato
-                  href: warehousing/immediate-replenishment.md
-                - name: Reabastecimiento con kanbans de transporte
-                  href: warehousing/material-replenishment-withdrawal-kanban.md
-                - name: Configurar un proceso de reabastecimiento mínimo-máximo
-                  href: warehousing/tasks/set-up-min-max-replenishment-process.md
-            - name: Instalar y configurar la aplicación Warehousing
-              items:
-                - name: Instalar y conectar la aplicación Warehousing
-                  href: warehousing/install-configure-warehousing-app.md
-                - name: Configuración de nombres de campo en la aplicación Warehousing
-                  href: warehousing/configure-app-field-names-priorities-warehouse.md
-                - name: Configurar dispositivos móviles para el trabajo de almacén
-                  href: warehousing/configure-mobile-devices-warehouse.md
-                - name: Matrícula que se recibe con la aplicación Warehousing
-                  href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
-                - name: Configurar un elemento de menú del dispositivo móvil para completar el trabajo en un pedido de compra
-                  href: warehousing/tasks/set-up-mobile-device-menu.md
-                - name: Configurar un elemento de menú del dispositivo móvil para registrar los artículos recibidos
-                  href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
-                - name: Crear un artículo de menú del dispositivo móvil para la consolidación del número de matrícula
-                  href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
-                - name: Matrícula combinada que se recibe en un dispositivo móvil
-                  href: warehousing/mixed-license-plate-receiving.md
-                - name: Configurar la visualización de lotes más antiguos del almacén en un dispositivo móvil
-                  href: warehousing/display-older-batches-within-warehouses.md
-                - name: Seleccionar el lote más antiguo en un dispositivo móvil
-                  href: warehousing/pick-oldest-batch.md
-                - name: Marco de guías de proceso
-                  href: warehousing/process-guide-framework.md
-            - name: Actualizar y migrar
-              items:
-                - name: Actualizar los procesos de gestión de almacenes desde Microsoft Dynamics AX 2012 a Finance and Operations
-                  href: warehousing/upgrade-migration-warehouse-management-processes.md
-            - name: Recibos para su registro y ubicación
-              items:
-                - name: Manejo de almacén de cargas entrantes para pedidos de compra
-                  href: warehousing/inbound-load-handling.md
-                - name: Registrar artículos habilitados para almacenamiento avanzado mediante un diario de recepción de artículos
-                  href: warehousing/tasks/register-items-advanced-warehousing.md
-                - name: Registrar artículos habilitados para almacenamiento básico mediante un diario de recepción de artículos
-                  href: warehousing/tasks/register-items-basic-warehousing.md
-                - name: Productos de tránsito directo del almacén de recepción a las tiendas
-                  href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
-                - name: Configurar una directiva de ubicación para la ubicación de pedidos de compra
-                  href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
-                - name: Configurar una plantilla de trabajo para pedidos de compra
-                  href: warehousing/tasks/set-up-work-template-purchase-orders.md
-            - name: Directivas de consolidación de envíos
-              items:
-                - name: Directivas de consolidación de envíos
-                  href: warehousing/about-shipment-consolidation-policies.md
-                - name: Configurar directivas de consolidación de envíos
-                  href: warehousing/configure-shipment-consolidation-policies.md
-                - name: 'Escenario 1: consolidar envíos cuando se manden al almacén mediante la Liberación automática de pedidos de ventas'
-                  href: warehousing/consolidate-shipments-automatic.md
-                - name: 'Escenario 2: consolidar envíos cuando la directiva de consolidación de envíos se anula desde la página Liberar al almacén'
-                  href: warehousing/consolidate-shipments-release-to-warehouse-override.md
-                - name: 'Escenario 3: consolidar envíos utilizando Liberar al almacén desde el área de trabajo de planificación de la carga'
-                  href: warehousing/consolidate-shipments-load-planning-workbench.md
-                - name: 'Escenario 4: consolidar envíos mediante el área de trabajo de consolidación de envíos'
-                  href: warehousing/consolidate-shipments-manual-workbench.md
-                - name: 'Escenario 5: consolidar envíos manualmente mediante la página Consolidar envíos'
-                  href: warehousing/consolidate-shipments-manual-form.md
+                - name: Configuración de almacén
+                  items:
+                    - name: Visión general de la configuración de almacén
+                      href: warehousing/warehouse-configuration.md
+                    - name: Configurar un almacén mediante una plantilla de configuración de almacén
+                      href: inventory/warehouse-template.md
+                    - name: Controlar el trabajo usando plantillas de trabajo y directivas de ubicación
+                      href: warehousing/control-warehouse-location-directives.md
+                    - name: Códigos de paso de oleada
+                      href: warehousing/wave-step-codes.md
+                    - name: Configurar procesamiento de oleadas
+                      href: warehousing/tasks/configure-wave-processing.md
+                    - name: Actualizar envíos automáticamente
+                      href: warehousing/auto-update-shipment.md
+                    - name: Crear un perfil de ubicación
+                      href: warehousing/tasks/create-location-profile.md
+                    - name: Configurar ubicaciones en un almacén con WMS
+                      href: warehousing/tasks/configure-locations-wms-enabled-warehouse.md
+                    - name: Estado de ubicación de almacén
+                      href: warehousing/warehouse-location-status.md
+                    - name: Zonas de ubicación adicionales
+                      href: warehousing/additional-location-zones.md
+                    - name: Programar utilización de carga
+                      href: warehousing/schedule-load-utilization.md
+                    - name: Programar capacidad de la carga de trabajo
+                      href: warehousing/schedule-workload-capacity.md
+                    - name: Configurar códigos de disposiciones
+                      href: warehousing/tasks/set-up-dispositions-codes.md
+                    - name: Directivas de unidad de medida y de existencias
+                      href: warehousing/unit-measure-stocking-policies.md
+                    - name: Contenido Power BI de almacén
+                      href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
+                    - name: Agrupamiento del sistema en una lista de trabajo abierta
+                      href: warehousing/system-group-on-open-work-list.md
+                    - name: Diseño de enrutamiento de documentos para matrículas de entidad
+                      href: warehousing/document-routing-layout-for-license-plates.md
+                    - name: Digitalizar códigos de barras mediante una cámara en Dynamics 365 for Finance and Operations
+                      href: warehousing/scan-bar-codes-using-a-camera.md
+                    - name: Compatibilidad con un lector de códigos de barras
+                      href: warehousing/mobile-barcode-support.md
+                    - name: Configuración de almacén para pedidos de transferencia
+                      href: warehousing/transfer-orders-warehouse.md
+                - name: Instalar y configurar la aplicación de almacén
+                  items:
+                    - name: Instalar y conectar la aplicación de almacén
+                      href: warehousing/install-configure-warehousing-app.md
+                    - name: Configuración de nombres de campo en la aplicación warehousing
+                      href: warehousing/configure-app-field-names-priorities-warehouse.md
+                    - name: Configurar dispositivos móviles para el trabajo de almacén
+                      href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Matrícula que se recibe con la aplicación de almacén
+                      href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
+                    - name: Configurar un elemento de menú del dispositivo móvil para completar el trabajo en un pedido de compra
+                      href: warehousing/tasks/set-up-mobile-device-menu.md
+                    - name: Configurar un elemento de menú del dispositivo móvil para registrar los artículos recibidos
+                      href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
+                    - name: Crear un artículo de menú del dispositivo móvil para la consolidación del número de matrícula
+                      href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
+                    - name: Matrícula combinada que se recibe en un dispositivo móvil
+                      href: warehousing/mixed-license-plate-receiving.md
+                    - name: Configurar la visualización de lotes más antiguos del almacén en un dispositivo móvil
+                      href: warehousing/display-older-batches-within-warehouses.md
+                    - name: Seleccionar el lote más antiguo en un dispositivo móvil
+                      href: warehousing/pick-oldest-batch.md
+                    - name: Marco de guías de proceso
+                      href: warehousing/process-guide-framework.md
+                - name: Actualizar y migrar
+                  items:
+                    - name: Actualizar los procesos de gestión de almacenes desde Microsoft Dynamics AX 2012 a Finance and Operations
+                      href: warehousing/upgrade-migration-warehouse-management-processes.md
         - name: Desarrollo de Supply Chain Management
           items:
             - name: Guía de desarrollo de control de Gantt

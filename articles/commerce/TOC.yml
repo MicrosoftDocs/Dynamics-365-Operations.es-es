@@ -92,8 +92,6 @@
                       href: get-started/whats-new-commerce-10-0-12.md
                     - name: Commerce 10.0.11 (julio de 2020)
                       href: get-started/whats-new-commerce-10-0-11.md
-                    - name: Commerce 10.0.10 (mayo de 2020)
-                      href: get-started/whats-new-commerce-10-0-10.md
                 - name: Características quitadas u obsoletas
                   items:
                     - name: Características quitadas o en desuso en Finance and Operations
@@ -192,6 +190,8 @@
               items:
                 - name: Visión general de la arquitectura de Dynamics 365 Commerce
                   href: commerce-architecture.md
+                - name: Flujos de autenticación de Dynamics 365 Commerce
+                  href: arch-auth-flow.md
                 - name: Arquitectura de Commerce Scale Unit
                   href: dev-itpro/retail-server-architecture.md
                 - name: Seleccione una topología en tienda
@@ -748,15 +748,15 @@
               href: edit-audit-retail-transactions.md
             - name: 'Crear, calcular y registrar extractos para una tienda'
               href: tasks/create-calculate-post-statement-retail-store.md
-            - name: Mejoras para la funcionalidad de registro de extractos
-              href: statement-posting-eod.md
             - name: Goteo en la creación de pedidos basados en fuente para transacciones de tienda
               href: trickle-feed.md
             - name: 'Crear, calcular y registrar extractos para una tienda'
               href: tasks/create-calculate-post-statement-retail-store.md
+            - name: Conciliación financiera en tiendas
+              href: fin-recon.md
             - name: Mejoras para la funcionalidad de registro de extractos
               href: statement-posting-eod.md
-            - name: Control mejorado de artículos con seguimiento por lotes
+            - name: Control administrado de artículos con seguimiento por lotes
               href: batch.md
             - name: Configurar parámetros de Commerce que afectan a extractos
               href: tasks/parameter-configurations-retail-statements.md
@@ -792,8 +792,6 @@
                   href: configure-your-domain-name.md
                 - name: Implementar un inquilino nuevo de comercio electrónico
                   href: deploy-ecommerce-site.md
-                - name: Configurar un canal de la tienda en línea
-                  href: online-stores.md
                 - name: Crear un sitio de comercio electrónico
                   href: create-ecommerce-site.md
                 - name: Asociar un sitio de comercio electrónico a un canal en línea
@@ -816,8 +814,6 @@
               items:
                 - name: Visión general de la página principal
                   href: quick-tour-home-page.md
-                - name: Visión general de la página de aterrizaje de categoría predeterminada y la página de resultados de la búsqueda
-                  href: category-search-page-overview.md
                 - name: Visión general de las páginas de detalles de producto
                   href: quick-tour-pdp.md
                 - name: Visión general de las páginas del carro y de la finalización de la compra
@@ -998,7 +994,7 @@
                       href: add-breadcrumb.md
             - name: Buscar
               items:
-                - name: Página de aterrizaje de categoría predeterminada y página de resultados de búsqueda
+                - name: Visión general de la página de aterrizaje de categoría predeterminada y la página de resultados de la búsqueda
                   href: category-search-page-overview.md
                 - name: Visión general de la búsqueda con tecnología de nube
                   href: cloud-powered-search-overview.md
@@ -1612,7 +1608,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
             - name: Tutoriales
               items:
-                - name: Use los orígenes de datos UNIR para obtener datos de varias tablas de aplicaciones
+                - name: Use los orígenes de datos COMBINACIÓN para obtener datos de varias tablas de aplicaciones
                   href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/commerce/toc.json
                 - name: Configurar asignaciones de modelo de informes electrónicos dependientes del contexto del país
                   href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/commerce/toc.json
@@ -2000,6 +1996,8 @@
                       href: e-commerce-extensibility/create-theme.md
                     - name: Configurar opciones de tema
                       href: e-commerce-extensibility/configure-theme-settings.md
+                    - name: Configurar ajustes preestablecidos de estilos de temas
+                      href: e-commerce-extensibility/theme-style-presets.md
                     - name: Ampliar un tema para agregar extensiones de módulo
                       href: e-commerce-extensibility/theme-module-extensions.md
                     - name: Ampliar un tema desde un tema base
@@ -2036,6 +2034,8 @@
                   href: dev-itpro/cloud-dev-box.md
                 - name: Configurar canalización de compilación de SDK de Commerce
                   href: dev-itpro/retail-sdk/SDK-build-pipeline.md
+                - name: Preguntas más frecuentes del SDK de Retail
+                  href: dev-itpro/retail-sdk/sdk-faq.md
             - name: Extensibilidad de punto de venta
               items:
                 - name: Diseños de pantalla de PDV
@@ -2044,10 +2044,8 @@
                   href: Open-URL-in-POS.md
                 - name: Instalar el diseñador de PDV
                   href: install-pos-layout-designer.md
-                - name: Expandir la vista de pantalla POS Dual
+                - name: Expandir la vista de pantalla de PDV dual
                   href: dev-itpro/pos-dual-display-extension.md
-                - name: Extensibilidad de desencadenadores de Modern PDV y Cloud POS
-                  href: dev-itpro/modern-pos-trigger-extensibility.md
                 - name: Agregar controles personalizados a vistas de PDV
                   href: dev-itpro/pos-custom-control.md
                 - name: Agregar operaciones de PDV a diseños de PDV mediante el diseñador de cuadrícula de botones
@@ -2082,7 +2080,7 @@
                   href: dev-itpro/pos-custom-transaction-column.md
                 - name: Llamar a API u operaciones de PDV desde extensiones de PDV
                   href: dev-itpro/pos-api-extension.md
-                - name: Desencadenadores e impresión de Modern PDV
+                - name: Desencadenadores e impresión de Modern PDV (MPOS)
                   href: dev-itpro/pos-trigger-printing.md
                 - name: Agregar controles personalizados a vistas de PDV basadas en diseñador sin pantalla
                   href: dev-itpro/pos-control-non-screen.md
