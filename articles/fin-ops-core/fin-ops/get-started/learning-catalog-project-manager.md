@@ -11,12 +11,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 7521784931cc4aac5a7e7729d045e501cba9460e
-ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
+ms.openlocfilehash: b310b787906850a60c9e2a453ce2d13330dad212
+ms.sourcegitcommit: 26399aafe2b02732c79073455f5bc9ac07bab4b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3279085"
+ms.lasthandoff: 06/24/2020
+ms.locfileid: "3502122"
 ---
 # <a name="implementation-project-manager-learning-catalog"></a>Catálogo de aprendizaje para el director de proyectos de implementación
 

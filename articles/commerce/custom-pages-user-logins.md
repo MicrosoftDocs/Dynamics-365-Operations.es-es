@@ -3,7 +3,7 @@ title: Configurar páginas personalizadas para inicios de sesión de usuario
 description: Este tema describe cómo crear páginas personalizadas en Microsoft Dynamics 365 Commerce que administran inicios de sesión personalizados para usuarios de inquilinos de negocio a consumidor (B2C) de Azure Active Directory (Azure AD).
 author: brianshook
 manager: annbe
-ms.date: 06/16/2020
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 71c0f0b6969985b04262b522dd2165eb1475878d
-ms.sourcegitcommit: 9a2e9f7dfec47c42178bb67a3e099e610515baf3
+ms.openlocfilehash: e9e78a4d6dc4189c927d9ef321f1eb5a6c120ee2
+ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "3456981"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "3533468"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Configurar páginas personalizadas para inicios de sesión de usuario
 
@@ -198,8 +198,6 @@ Después de actualizar el archivo global.json y publicar los cambios, el nuevo t
 [Configurar su nombre de dominio](configure-your-domain-name.md)
 
 [Implementar un sitio nuevo de comercio electrónico](deploy-ecommerce-site.md)
-
-[Configurar un canal de la tienda en línea](online-stores.md)
 
 [Crear un sitio de comercio electrónico](create-ecommerce-site.md)
 

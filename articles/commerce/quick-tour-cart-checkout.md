@@ -3,7 +3,7 @@ title: Visión general de las páginas del carro y de la finalización de la com
 description: Este tema proporciona una visión general de las páginas de carro y finalización de pago en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 06/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 07905b9a843eb42d3031dcc80b4e185c122a9e50
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: c879b90cf49dcab9cf069e4f3613602bd6673aa9
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002944"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527579"
 ---
-# <a name="overview-of-cart-and-checkout-pages"></a>Visión general de las páginas del carro y de la finalización de la compra
-
+# <a name="cart-and-checkout-pages-overview"></a>Visión general de las páginas del carro y de la finalización de la compra
 
 [!include [banner](includes/banner.md)]
 
@@ -104,8 +103,6 @@ Para obtener más información acerca de cómo crear una página de finalizació
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Visión general de la página principal](quick-tour-home-page.md)
-
-[Visión general de la página de aterrizaje de categoría predeterminada y la página de resultados de la búsqueda](category-search-page-overview.md)
 
 [Visión general de las páginas de detalles de producto](quick-tour-pdp.md)
 

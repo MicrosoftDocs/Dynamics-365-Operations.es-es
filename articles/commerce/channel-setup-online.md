@@ -3,7 +3,7 @@ title: Configurar un canal en línea
 description: En este tema se describe cómo crear un nuevo canal en línea en Microsoft Dynamics 365 Commerce.
 author: samjarawan
 manager: annbe
-ms.date: 01/27/2020
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9b7a2b8fd157df8b39e9e227d188a3802cacb4e3
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 0d803b23f9de9daf624537d1d1ef30f17dc05fea
+ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002436"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "3533330"
 ---
 # <a name="set-up-an-online-channel"></a>Configurar un canal en línea
 
@@ -35,9 +35,9 @@ En este tema se describe cómo crear un nuevo canal en línea en Microsoft Dynam
 
 Dynamics 365 Commerce admite varios canales comerciales. Estos canales de venta minorista incluyen tiendas en línea, centros de llamadas y tiendas minoristas (también conocidas como tiendas físicas). Las tiendas en línea proporcionan a los clientes la opción de comprar productos de su tienda en línea además de en sus tiendas físicas.
 
-Para crear una tienda en línea en Commerce, primero debe crear un canal en línea. 
+Para crear una tienda en línea en Commerce, primero debe crear un canal en línea. Antes de crear un nuevo canal en línea, asegúrese de haber completado los [Requisitos previos de configuración de canales](channels-prerequisites.md).
 
-Antes de crear un nuevo canal en línea, asegúrese de haber completado los [Requisitos previos de configuración de canales](channels-prerequisites.md).
+Para poder crear un sitio nuevo, se debe crear al menos una tienda en línea en Commerce. Para más información, consulte [Crear un sitio de comercio electrónico](create-ecommerce-site.md).
 
 ## <a name="create-and-configure-a-new-online-channel"></a>Crear y configurar un nuevo canal en línea
 

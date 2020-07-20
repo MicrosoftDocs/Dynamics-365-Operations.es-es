@@ -1,6 +1,6 @@
 ---
-title: Instalar y conectar la aplicación de almacenamiento
-description: Este tema explica cómo instalar la aplicación de almacenamiento en cada uno de sus dispositivos móviles y configurarla para conectarse a su entorno Microsoft Dynamics 365 Supply Chain Management. Puede configurar cada dispositivo manualmente o puede importar la configuración de conexión a través de un archivo o escaneando un código QR.
+title: Instalar y conectar la aplicación de almacén
+description: Este tema explica cómo instalar la aplicación de almacén en cada uno de sus dispositivos móviles y configurarla para conectarse a su entorno Microsoft Dynamics 365 Supply Chain Management. Puede configurar cada dispositivo manualmente o puede importar la configuración de conexión a través de un archivo o escaneando un código QR.
 author: MarkusFogelberg
 manager: tfehr
 ms.date: 05/25/2020
@@ -19,46 +19,46 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 290888dbf7d194b8cf259d7218d01d4a4f911db0
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: 88bce09a6d3bf154592955a6fb2dada6247f1993
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367091"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530084"
 ---
-# <a name="install-and-connect-the-warehousing-app"></a>Instalar y conectar la aplicación de almacenamiento
+# <a name="install-and-connect-the-warehouse-app"></a>Instalar y conectar la aplicación de almacén
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
 > Este tema describe cómo configurar el almacenamiento para implementaciones en la nube. Si busca información sobre cómo configurar el almacenamiento para implementaciones locales, consulte [Almacenamiento para implementaciones locales](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
-La aplicación de almacenamiento está disponible en Google Play Store y Microsoft Store. Se proporciona como un componente independiente. Por lo tanto, debe descargarlo en cada dispositivo y luego configurarlo para conectarse a su entorno Microsoft Dynamics 365 Supply Chain Management.
+La aplicación de almacén está disponible en Google Play Store y Microsoft Store. Se proporciona como un componente independiente. Por lo tanto, debe descargarlo en cada dispositivo y luego configurarlo para conectarse a su entorno Microsoft Dynamics 365 Supply Chain Management.
 
-Este tema explica cómo instalar la aplicación de almacenamiento en cada uno de sus dispositivos móviles y configurarla para conectarse a su entorno Supply Chain Management. Puede configurar cada dispositivo manualmente o puede importar la configuración de conexión a través de un archivo o escaneando un código QR.
+Este tema explica cómo instalar la aplicación de almacén en cada uno de sus dispositivos móviles y configurarla para conectarse a su entorno Supply Chain Management. Puede configurar cada dispositivo manualmente o puede importar la configuración de conexión a través de un archivo o escaneando un código QR.
 
 ## <a name="system-requirements"></a>Requisitos del sistema
 
-La aplicación de almacenamiento está disponible para los sistemas operativos Android y Windows. Para utilizar la última versión de esta aplicación, debe tener uno de los sistemas operativos siguientes instalado en los dispositivos móviles:
+La aplicación de almacén está disponible para los sistemas operativos Android y Windows. Para utilizar la última versión de esta aplicación, debe tener uno de los sistemas operativos siguientes instalado en los dispositivos móviles:
 
 - Windows 10 (Plataforma universal de Windows \[UWP\]) Fall Creators Update 1709 (compilación 10.0.16299) o posterior
 - Android 4.4 o posterior
 
 > [!NOTE]
-> Si debe admitir dispositivos Windows más antiguos que no pueden ejecutar la última versión de Windows, sigue pudiendo descargar la versión 1.6.3.0 de la aplicación de almacenamiento de Microsoft Store. Esa versión se ejecutará en Windows 10 (UWP), actualización de noviembre 1511 (compilación 10.0.10586) o posterior. Sin embargo, tenga en cuenta que esta versión de la aplicación de almacenamiento no admite la implementación masiva de configuraciones de conexión. Por lo tanto, debe [configurar manualmente la conexión](#config-manually) en cada dispositivo que ejecuta esta versión de la aplicación.
+> Si debe admitir dispositivos Windows más antiguos que no pueden ejecutar la última versión de Windows, sigue pudiendo descargar la versión 1.6.3.0 de la aplicación de almacén de Microsoft Store. Esa versión se ejecutará en Windows 10 (UWP), actualización de noviembre 1511 (compilación 10.0.10586) o posterior. Sin embargo, tenga en cuenta que esta versión de la aplicación de almacén no admite la implementación masiva de configuraciones de conexión. Por lo tanto, debe [configurar manualmente la conexión](#config-manually) en cada dispositivo que ejecuta esta versión de la aplicación.
 
-## <a name="get-the-warehousing-app"></a>Obtener la aplicación de almacenamiento
+## <a name="get-the-warehouse-app"></a>Obtener la aplicación de almacén
 
 Use uno de los siguientes vínculos para descargar la aplicación:
 
 - **Windows (UWP):** [Dynamics 365 for Finance and Operations - Warehousing en Microsoft Store](https://www.microsoft.com/store/apps/9p1bffd5tstm)
 - **Android:** [Warehousing - Dynamics 365 en Google Play Store](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
 
-Para implementaciones más pequeñas, es posible que desee instalar la aplicación desde la tienda correspondiente en cada dispositivo y luego configurar manualmente la conexión a los entornos que está utilizando. Sin embargo, en la versión 1.7.0.0 y posterior de la aplicación de almacenamiento, también puede automatizar la implementación y/o configuración de la aplicación. Es posible que este enfoque le resulte conveniente si administra muchos dispositivos y está utilizando una solución de administración de dispositivos móviles y aplicaciones móviles como [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune). Para obtener información sobre cómo usar Intune para agregar aplicaciones, consulte [Agregar aplicaciones a Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/apps-add).
+Para implementaciones más pequeñas, es posible que desee instalar la aplicación desde la tienda correspondiente en cada dispositivo y luego configurar manualmente la conexión a los entornos que está utilizando. Sin embargo, en la versión 1.7.0.0 y posterior de la aplicación de almacén, también puede automatizar la implementación y/o configuración de la aplicación. Es posible que este enfoque le resulte conveniente si administra muchos dispositivos y está utilizando una solución de administración de dispositivos móviles y aplicaciones móviles como [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune). Para obtener información sobre cómo usar Intune para agregar aplicaciones, consulte [Agregar aplicaciones a Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/apps-add).
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>Crear una aplicación de servicio web en Azure Active Directory
 
-Para habilitar la aplicación de almacenamiento para interactuar con un servidor específico de Supply Chain Management, debe registrar una aplicación de servicio web para el inquilino de Supply Chain Management en Azure Active Directory (Azure AD). El siguiente procedimiento muestra una manera de completar una tarea. Para obtener información detallada y alternativas, consulte los vínculos tras el procedimiento.
+Para habilitar la aplicación de almacén para interactuar con un servidor específico de Supply Chain Management, debe registrar una aplicación de servicio web para el inquilino de Supply Chain Management en Azure Active Directory (Azure AD). El siguiente procedimiento muestra una manera de completar una tarea. Para obtener información detallada y alternativas, consulte los vínculos tras el procedimiento.
 
 1. En un explorador web, vaya a [https://portal.azure.com](https://portal.azure.com/).
 1. Especifique el nombre y la contraseña del usuario que tiene acceso a la suscripción de Azure.
@@ -82,7 +82,7 @@ Para habilitar la aplicación de almacenamiento para interactuar con un servidor
 
 1. En la lista **Administrar**, seleccione **Certificado y secretos**. Luego, seleccione uno de los siguientes botones, según cómo desee configurar la aplicación para la autenticación. (Para obtener más información, consulte la sección [Autenticar usando un certificado o secreto de cliente](#authenticate), más adelante en este tema).
 
-    - **Cargar certificado**: cargue un certificado para usarlo como secreto. Recomendamos este enfoque, porque es más seguro y también se puede automatizar más completamente. Si está ejecutando la aplicación de almacenamiento en dispositivos Windows, anote el valor de **Huella digital** que se muestra después de cargar el certificado. Necesitará este valor cuando configure el certificado en dispositivos Windows.
+    - **Cargar certificado**: cargue un certificado para usarlo como secreto. Recomendamos este enfoque, porque es más seguro y también se puede automatizar más completamente. Si está ejecutando la aplicación de almacén en dispositivos Windows, anote el valor de **Huella digital** que se muestra después de cargar el certificado. Necesitará este valor cuando configure el certificado en dispositivos Windows.
     - **Nuevo secreto de cliente**: cree una clave introduciendo una descripción de clave y una duración en la sección **Contraseñas** y luego seleccione **Añadir**. Haga una copia de la clave y guárdela de forma segura.
 
     ![Certificado y secretos](media/app-connect-azure-authentication.png "Certificado y secretos")
@@ -99,7 +99,7 @@ Para obtener más información sobre cómo configurar aplicaciones de servicios 
 
 Para permitir que Supply Chain Management use su aplicación Azure AD, siga estos pasos.
 
-1. Crear un usuario correspondiente a las credenciales de usuario de la aplicación de almacenamiento:
+1. Crear un usuario correspondiente a las credenciales de usuario de la aplicación de almacén:
 
     1. En Supply Chain Management, vaya a **Administración del sistema \> Usuarios \> Usuarios**.
     1. Crear un usuario.
@@ -107,7 +107,7 @@ Para permitir que Supply Chain Management use su aplicación Azure AD, siga esto
 
     ![Asignar el usuario del dispositivo móvil de almacenamiento](media/app-connect-app-users.png "Asignar el usuario del dispositivo móvil de almacenamiento")
 
-1. Asocie su aplicación Azure AD con el usuario de la aplicación de almacenamiento:
+1. Asocie su aplicación Azure AD con el usuario de la aplicación de almacén:
 
     1. Vaya a **Administración del sistema \> Configuración \> Aplicaciones de Azure Active Directory**.
     1. Crear una línea.
@@ -119,9 +119,9 @@ Para permitir que Supply Chain Management use su aplicación Azure AD, siga esto
 
 La autenticación con Azure AD proporciona una forma segura de conectar un dispositivo móvil a Supply Chain Management. Puede autenticar usando un secreto de cliente o un certificado. Si va a importar la configuración de conexión, le recomendamos que use un certificado en lugar de un secreto de cliente. Debido a que el secreto del cliente siempre debe almacenarse de forma segura, no puede importarlo desde un archivo de configuración de conexión o un código QR, como se describe más adelante en este tema.
 
-Los certificados se pueden usar como secretos para probar la identidad de la aplicación cuando se solicita un token. La parte pública del certificado se carga en el registro de la aplicación en Azure Portal, mientras que el certificado completo debe implementarse en cada dispositivo donde está instalada la aplicación de almacenamiento. Su organización es responsable de administrar el certificado en términos de rotación, etc. Puede usar certificados autofirmados, pero siempre debe usar certificados no exportables.
+Los certificados se pueden usar como secretos para probar la identidad de la aplicación cuando se solicita un token. La parte pública del certificado se carga en el registro de la aplicación en Azure Portal, mientras que el certificado completo debe implementarse en cada dispositivo donde está instalada la aplicación de almacén. Su organización es responsable de administrar el certificado en términos de rotación, etc. Puede usar certificados autofirmados, pero siempre debe usar certificados no exportables.
 
-Debe hacer que el certificado esté disponible localmente en cada dispositivo donde ejecute la aplicación de almacenamiento. Para obtener información sobre cómo administrar certificados para dispositivos controlados por Intune si está usando Intune, consulte [Usar certificados para autenticación en Microsoft Intune](https://docs.microsoft.com/mem/intune/protect/certificates-configure).
+Debe hacer que el certificado esté disponible localmente en cada dispositivo donde ejecute la aplicación de almacén. Para obtener información sobre cómo administrar certificados para dispositivos controlados por Intune si está usando Intune, consulte [Usar certificados para autenticación en Microsoft Intune](https://docs.microsoft.com/mem/intune/protect/certificates-configure).
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>Configurar la aplicación importando la configuración de conexión
 
@@ -177,7 +177,7 @@ Puede guardar la información como un archivo JSON o generar un código QR que t
 
 ### <a name="save-the-connection-settings-file-on-each-device"></a>Guardar el archivo de configuración de conexión en cada dispositivo
 
-Por lo general, utilizará una herramienta de administración de dispositivos o un script para distribuir los archivos de configuración de conexión a cada dispositivo que esté administrando. Si utiliza el nombre y la ubicación predeterminados cuando guarda el archivo de configuración de conexión en cada dispositivo, la aplicación de almacenamiento los importará automáticamente, incluso durante la primera ejecución después de instalar la aplicación. Si usa un nombre o ubicación personalizados para el archivo, el usuario de la aplicación debe especificar los valores durante la primera ejecución. Sin embargo, la aplicación continuará usando después el nombre y la ubicación especificados.
+Por lo general, utilizará una herramienta de administración de dispositivos o un script para distribuir los archivos de configuración de conexión a cada dispositivo que esté administrando. Si utiliza el nombre y la ubicación predeterminados cuando guarda el archivo de configuración de conexión en cada dispositivo, la aplicación de almacén los importará automáticamente, incluso durante la primera ejecución después de instalar la aplicación. Si usa un nombre o ubicación personalizados para el archivo, el usuario de la aplicación debe especificar los valores durante la primera ejecución. Sin embargo, la aplicación continuará usando después el nombre y la ubicación especificados.
 
 Cada vez que se inicia la aplicación, vuelve a importar la configuración de conexión desde su ubicación anterior para determinar si ha habido algún cambio. La aplicación actualizará solo las conexiones que tengan los mismos nombres que las conexiones en el archivo de configuración de conexión. Las conexiones creadas por el usuario que usan otros nombres no se actualizarán.
 
@@ -197,7 +197,7 @@ Por lo general, las rutas se crean automáticamente después de la primera ejecu
 
 Siga estos pasos para importar la configuración de conexión desde un archivo o un código QR.
 
-1. Abra la aplicación de almacenamiento en su dispositivo móvil.
+1. Abra la aplicación de almacén en su dispositivo móvil.
 1. Vaya a **Configuración de la conexión**.
 1. Establezca la opción **Usar modo de demostración** en _No_.
 
@@ -226,7 +226,7 @@ Siga estos pasos para importar la configuración de conexión desde un archivo o
 
 Puede configurar la aplicación manualmente en el dispositivo para que se conecte al servidor Supply Chain Management a través de la aplicación Azure AD.
 
-1. Abra la aplicación de almacenamiento en su dispositivo móvil.
+1. Abra la aplicación de almacén en su dispositivo móvil.
 1. Vaya a **Configuración de la conexión**.
 1. Establezca la opción **Usar modo de demostración** en _No_.
 

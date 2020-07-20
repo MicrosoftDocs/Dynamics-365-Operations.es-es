@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 826c955b7c99073ff41c8a5ed75254c824359925
-ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
+ms.openlocfilehash: c397354ade1ac1d4f5f9bc0e6bb5d4be5a7ae9f3
+ms.sourcegitcommit: f7294160d18f15cb762c24f2459b4f0887c37541
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "3175163"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3505620"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Cargos automáticos avanzados omnicanal
 
@@ -40,7 +40,7 @@ Al usar versiones previas a la versión 10.0, se debe pedir a un usuario PDV que
 
 El uso de indicadores manuales de agregar cargos de envío aún está disponible en versiones 10.0 y posteriormente. Si una organización no habilita el parámetro **cargos automáticos avanzados** , los indicadores del sistema PDV para la entrada manual de cargos seguirán igual.
 
-Con la función avanzado de cargos automáticos, los usuarios de PDV pueden tener cálculos sistemáticos para los cargos varios definido basados en las tablas de configuración de los cargos automáticos. Además, los usuarios tendrán de la capacidad de agregar o editar un importe ilimitado de cargos adicionales y cuotas a cualquier transacción de las ventas PDV en la cabecera o el nivel de línea (para pedidos en efectivo o de clientes).
+Con la función avanzado de cargos automáticos, los usuarios de PDV pueden tener cálculos sistemáticos para los cargos varios definido basados en las tablas de configuración de los cargos automáticos. Además, los usuarios tendrán de la capacidad de agregar o editar un número ilimitado de cargos adicionales y cuotas a cualquier transacción de las ventas PDV en la cabecera o el nivel de línea (para pedidos en efectivo o de clientes).
 
 ## <a name="enabling-advanced-auto-charges"></a>Activar cargos automáticos avanzados
 
@@ -52,7 +52,7 @@ Cuando se habilitan los cargos automáticos, ya no se pide a los usuarios que es
 
 Cuando habilitan los cargos automáticos, los **Parámetros de Commerce** existentes para **Código de los cargos de envío** y **cargos de envío de la devolución** ya no se usan. Estos parámetros solo son aplicables si el parámetro **Usar cargos automáticos avanzados** se establece en **No**.
 
-Antes de habilitar esta función, asegúrese de que se haya probado y haya formado a sus empleados, ya que esto cambiará el flujo de proceso empresarial de cómo calculan y se agrega a los cargos de envío u otros a pedidos de ventas PDV. Asegúrese de que entiende el impacto del flujo de proceso en la creación de transacciones de PDV. Para el centro de asistencia telefónica y pedidos de e-commerce, el impacto de habilitar los cargos automáticos avanzados es mínimo. El centro de asistencia telefónica y las aplicaciones de comercio electrónico seguirán teniendo el mismo comportamiento que han tenido históricamente relacionado con las tablas de cargos automáticos para calcular las cuotas adicionales del pedido. Los usuarios del canal de centro de asistencia telefónica seguirán teniendo la capacidad de editar manualmente a cualquier cargo automático calculado por sistema en la cabecera o el nivel de línea, o agregar manualmente cargos varios extra en la cabecera o el nivel de línea.
+Antes de habilitar esta función, asegúrese de que se haya probado y haya formado a sus empleados, ya la función habilitada cambiará el flujo de proceso empresarial de cómo calculan y se agrega a los cargos de envío u otros a pedidos de ventas PDV. Asegúrese de que entiende el impacto del flujo de proceso en la creación de transacciones de PDV. Para el centro de asistencia telefónica y pedidos de e-commerce, el impacto de habilitar los cargos automáticos avanzados es mínimo. El centro de asistencia telefónica y las aplicaciones de comercio electrónico seguirán teniendo el mismo comportamiento que han tenido históricamente relacionado con las tablas de cargos automáticos para calcular las cuotas adicionales del pedido. Los usuarios del canal de centro de asistencia telefónica seguirán teniendo la capacidad de editar manualmente a cualquier cargo automático calculado por sistema en la cabecera o el nivel de línea, o agregar manualmente cargos varios extra en la cabecera o el nivel de línea.
 
 ## <a name="additional-pos-operations"></a>Operaciones adicionales de PDV
 
@@ -89,7 +89,7 @@ Configure dos cargos automáticos a nivel de encabezado. Configurar uno para el 
 
 Para los cargos de entrega por tierra, en la sección líneas de la página **cargos automáticos** , defina un cargo que se aplique para los pedidos entre 0,01 $ y 100 $ como 10 $. Cree otra línea de cargos para indicar que los pedidos de más de 100,01 $ no tendrán cargos.
 
-![Ejemplo de cargos automáticos](media/headerchargesexample.png)
+![Ejemplo de dos tablas de cobro automático](media/headerchargesexample.png)
 
 Para los cargos de entrega por aire, en la sección líneas del formulario cargos automáticos, defina un cargo de 20 $ que se aplicará a todos los pedidos (entre un valor de 0,01 $ a 9 999 999 $).
 
@@ -119,7 +119,7 @@ Vaya a **Clientes \> Configuración de cargos \> Cargos automáticos**.
 
 Establezca el menú desplegable **Nivel** en **Línea**, y cree un nuevo registro de cargos automáticos para todos los clientes y para el producto o el grupo de productos específico donde se cargarán las cuotas de configuración.
 
-![Ejemplo de cargos automáticos](media/linechargesexample.png)
+![Ejemplo de tabla de cargos automáticos de nivel de línea](media/linechargesexample.png)
 
 Envíe los cargos a Commerce Scale Unit/DB de canal para que los PDV puedan usarlos ejecutando el trabajo **Programación de distribución 1040**.
 
@@ -173,7 +173,7 @@ La operación **Agregar cargo de línea** se debe configurar en su [Diseño de p
 
 Para ejecutar el escenario en la aplicación de PDV, el usuario PDV creará la transacción de ventas como de costumbre, agregando los productos y cualquier otra configuración para la venta. Antes de cobrar el pago, el usuario debe seleccionar la línea específica en el cargo que se aplicará en la visualización de la lista de artículos del PDV y ejecutar la operación **Agregar cargo de línea** . Se le solicitará al usuario seleccionar un código de cargos y especifica el valor de los cargos. Una vez que el usuario complete el proceso, el cargo se vinculará a la línea y añadirá al total del pedido como un cargo a nivel de línea. El usuario puede repetir el proceso para agregar cargos de línea adicionales a otras líneas de los artículos de la transacción, si es necesario.
 
-El mismo proceso se puede aplicar al centro de asistencia telefónica mediante la función “mantener cargos” encontrada bajo el menú **Operaciones financieras** en la sección **Líneas de pedido de ventas** en la página **Pedidos de ventas** . Se abrirá la página **Mantener cargos** donde el usuario puede agregar un cargo específico de la nueva línea a la transacción.
+El mismo proceso se puede aplicar al centro de asistencia telefónica mediante la función “mantener cargos” encontrada bajo el menú **Operaciones financieras** en la sección **Líneas de pedido de ventas** en la página **Pedidos de ventas** . Seleccionar esta opción abrirá la página **Mantener cargos** donde el usuario puede agregar un cargo específico de la nueva línea a la transacción.
 
 ## <a name="additional-features"></a>Funciones adicionales
 

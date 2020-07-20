@@ -1,6 +1,6 @@
 ---
-title: Matrícula que se recibe a través de la aplicación de almacenamiento
-description: Este tema explica cómo configurar la aplicación Warehouse Mobile para admitir el uso de un proceso de recepción de matrículas para recibir inventario físico.
+title: Matrícula que se recibe a través de la aplicación de almacén
+description: Este tema explica cómo configurar la aplicación de almacén para admitir el uso de un proceso de recepción de matrículas para recibir inventario físico.
 author: perlynne
 manager: tfehr
 ms.date: 04/29/2020
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 82b4f40510d5bbf829508f17f1064886620a4aed
-ms.sourcegitcommit: a3cd2783ae120ac6681431c010b9b126a9ca7d94
+ms.openlocfilehash: 5330981bde98b80e81076a9b1416473135ebdac6
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410894"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530199"
 ---
-# <a name="license-plate-receiving-via-the-warehousing-app"></a>Matrícula que se recibe a través de la aplicación de almacenamiento
+# <a name="license-plate-receiving-via-the-warehouse-app"></a>Matrícula que se recibe a través de la aplicación de almacén
 
-Este tema explica cómo configurar la aplicación de almacenamiento para admitir el uso de un proceso de recepción de matrículas para recibir inventario físico.
+Este tema explica cómo configurar la aplicación de almacén para admitir el uso de un proceso de recepción de matrículas para recibir inventario físico.
 
 Puede usar esta funcionalidad para registrar rápidamente la recepción del inventario entrante relacionado con un aviso de envío por adelantado (ASN). El sistema crea automáticamente un aviso de envío por adelantado cuando los procesos de gestión de almacén se utilizan para enviar un pedido de transferencia. Para el proceso de pedido de compra, un aviso de envío por adelantado puede registrarse manualmente o puede importarse automáticamente mediante el uso de un proceso de entidad de datos de aviso de envío por adelantado entrante.
 

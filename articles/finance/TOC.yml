@@ -74,8 +74,6 @@
                       href: get-started/whats-new-changed-10-0-12.md
                     - name: Finance 10.0.11 (julio de 2020)
                       href: get-started/whats-new-changed-10-0-11.md
-                    - name: Finance 10.0.10 (mayo de 2020)
-                      href: get-started/whats-new-changed-10-0-10.md
             - name: Características quitadas u obsoletas
               items:
                 - name: Características quitadas u obsoletas de Dynamics 365 Finance
@@ -1184,6 +1182,8 @@
               href: ../fin-ops-core/dev-itpro/analytics/row-definitions-financial-reporting.md?toc=/dynamics365/finance/toc.json
             - name: Definición de columnas
               href: ../fin-ops-core/dev-itpro/analytics/column-definitions-financial-reports.md?toc=/dynamics365/finance/toc.json
+            - name: Definiciones de organigramas en informes financieros
+              href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md?toc=/dynamics365/finance/toc.json
             - name: Modificar celdas de definición de filas
               href: ../fin-ops-core/dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/dynamics365/finance/toc.json
             - name: Restablecer el data mart de informes financieros
@@ -3386,17 +3386,23 @@
                       items:
                         - name: Importar configuraciones de GR
                           href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: Importar versiones actualizadas de configuraciones de informes electrónicos
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=dynamics365/finance/toc.json
                         - name: Filtrado mejorado para encontrar configuraciones en GR
                           href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
                         - name: Cargar configuraciones a GR
                           href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
                         - name: Compartir configuraciones en GR
                           href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
+            - name: Guías de inicio rápido
+              items:
+                - name: Ajustar un formato de informes electrónicos para generar un documento electrónico personalizado
+                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start2-customize-report.md
             - name: Tutoriales
               items:
                 - name: Aprender a usar los orígenes de datos
                   items:
-                    - name: Usar UNIR para obtener datos de varias tablas
+                    - name: Usar COMBINACIÓN para obtener datos de varias tablas
                       href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: Usar XML sin formato para agregar contenido
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/finance/toc.json

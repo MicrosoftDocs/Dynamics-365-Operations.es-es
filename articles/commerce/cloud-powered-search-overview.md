@@ -1,9 +1,9 @@
 ---
 title: Visión general de la búsqueda con tecnología de nube
 description: Este tema ofrece una visión general de la búsqueda con tecnología de nube en Microsoft Dynamics 365 Commerce.
-author: v-chgri
+author: ashishmsft
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 06/29/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5501f4d39709990eb352511477b1427fb265afde
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 00a3de2515cea341f7529b8cb6cb2caae5e33d22
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057842"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527452"
 ---
 # <a name="cloud-powered-search-overview"></a>Visión general de la búsqueda con tecnología de nube
 
@@ -73,8 +73,12 @@ La ilustración siguiente muestra un ejemplo en el que se usa la sugerencia auto
 
 La ordenación mejorada en Dynamics 365 Commerce permite a los clientes ordenar, buscar y examinar resultados de la búsqueda, así como limitarlos por criterios como precio, nombre de producto y número de producto. Los clientes también pueden ordenar los resultados en función de si un producto es nuevo, más vendido o se ha agregado recientemente.
 
+>[!NOTE]
+>Estas capacidades de búsqueda basadas en la nube están disponibles a partir de la versión 10.0.8. Asegúrese de que en **Parámetros de Commerce > Parámetros de configuración** hay una entrada para "ProductSearch.UseAzureSearch establecido en 'true'". 
+![Parámetros de configuración para búsqueda en la nube](./media/CloudPoweredSearchConfigurationParameters.png)
+
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Página de aterrizaje de categoría predeterminada y página de resultados de la búsqueda](category-search-page-overview.md)
+[Visión general de la página de aterrizaje de categoría predeterminada y la página de resultados de la búsqueda](category-search-page-overview.md)
 
 [Administrar metadatos de SEO](manage-seo-metadata.md)

@@ -3,7 +3,7 @@ title: Vista previa de Administración de características
 description: Este tema describe la función de Administración de características y cómo puede utilizarla.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 06/12/2020
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 416c19dcf5b2c983afff7d2e8a9797fb0c0e2780
-ms.sourcegitcommit: 218e22014a964b8b52fc0152e355b07b0b84ae2c
+ms.openlocfilehash: ae2c7a0d089c81a62932c415eed5f752e7fb4ffa
+ms.sourcegitcommit: 17a8e3d48da4354ba74e35031c320a16369bfcd5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "3456606"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "3499628"
 ---
 # <a name="feature-management-overview"></a>Visión general de la administración de características
 
@@ -140,6 +140,10 @@ Los ejemplos siguientes describen lo que ocurre cuando utilice la entidad **Admi
 ## <a name="feature-management-and-flighting"></a>Administración de características y distribución de paquetes piloto
 
 La Administración de características le permite controlar las características que se añaden en cada versión. La distribución de paquetes piloto permite a los Microsoft Teams presentar características a un número limitado de clientes para poder ser probadas y validarlas las características sin afectar a todos los clientes. La Administración de características no controla la distribución de paquetes piloto de cualquier característica.
+
+## <a name="new-features-are-optional-for-12-months"></a>Las nuevas funciones son opcionales durante 12 meses
+
+Cuando se instala una nueva característica no crítica, será opcional por un período de 12 meses. Esto le permite a usted y a su organización tiempo para planificar con anticipación cuándo utilizar una función y hacer que se pruebe en sus operaciones diarias. Para obtener más información, consulte [Preguntas frecuentes sobre actualizaciones del servicio de una versión](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/one-version#what-about-new-features).
 
 ## <a name="using-feature-management-to-turn-on-isv-features-or-custom-features"></a>Usar la Administración de características para activar las características de ISV o las personalizadas
 

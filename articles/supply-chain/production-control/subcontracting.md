@@ -15,11 +15,11 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 05e6ccdce21ccc5f3e83ad860163cccadcea2edc
-ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
+ms.openlocfilehash: 1cc1040393d843f39ca8c741a7c51435c7169c00
+ms.sourcegitcommit: edb46dce498df42b09e8f5ad6de00f86c8022dfa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2020
+ms.lasthandoff: 07/03/2020
 ms.locfileid: "3346431"
 ---
 # <a name="subcontracting"></a>Subcontratación
@@ -211,7 +211,7 @@ Un pedido de producción de 10 piezas se crea para el producto D8100, “Caja ac
 
     ![Dos conjuntos de trabajos para la selección de la materia prima en la página Trabajo](./media/subcontract22_work-page.png)
 
-26. Inicie la aplicación de almacenamiento para procesar el trabajo del almacén para la operación 10.
+26. Inicie la aplicación del almacén para procesar el trabajo del almacén para la operación 10.
 
     <!-- TBD – screen shots for processing pick work for the materials. -->
 
@@ -229,7 +229,7 @@ Un pedido de producción de 10 piezas se crea para el producto D8100, “Caja ac
 
     Tenga en cuenta que el estado del pedido de producción ahora es **Iniciado**. El material para la operación 10 es consumido por un registro automático del diario de lista de selección. El consumo de tiempo para la operación 10 se indica mediante un registro automático de un diario de tarjeta de ruta.
 
-32. Inicie la aplicación de almacenamiento para procesar el trabajo del almacén para la operación 20.
+32. Inicie la aplicación del almacén para procesar el trabajo del almacén para la operación 20.
 
     <!-- TBD – screen shots for processing pick work for the materials. -->
 

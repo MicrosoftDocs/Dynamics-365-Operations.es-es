@@ -3,7 +3,7 @@ title: Conciliar extractos bancarios mediante la conciliación bancaria avanzada
 description: La característica de conciliación bancaria avanzada le permite importar extractos bancarios electrónicos y conciliarlos automáticamente con transacciones bancarias en Microsoft Dynamics 365 Finance. En este tema se explica el proceso de conciliación.
 author: saraschi2
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b37cf8d83c7134ae65da6a885bffeb01d16f9f06
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c13203217af1788fe3b8a6f9bbf805e03b650a0d
+ms.sourcegitcommit: 8a1621327568edf49758b70964e0a3e637527e1b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179802"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3497154"
 ---
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Conciliar extractos bancarios mediante la conciliación bancaria avanzada
 
@@ -41,9 +41,9 @@ Puede cargar un extracto bancario que contiene información tanto para una cuent
 -   Para importar un único archivo de extracto bancario para una única cuenta, establezca la opción **Importar extracto para varias cuentas bancarias en todas las entidades jurídicas** en **No** y seleccione la cuenta bancaria asociada al extracto. Haga clic en **Examinar** para seleccionar el archivo del extracto bancario asociado y, a continuación, haga clic en **Cargar**.
 -   Para importar un único archivo de extracto bancario para varias cuentas, establezca la opción **Importar extracto para varias cuentas bancarias en todas las entidades jurídicas** en **Sí**. Haga clic en **Examinar** para seleccionar el archivo del extracto bancario asociado y, a continuación, haga clic en **Cargar**.
 
-Si no se puede asociar ningún extracto del archivo electrónico con la cuenta bancaria mediante los campos de identificación, no se importarán. No obstante, se pueden importar todavía otros extractos del archivo. El usuario recibe, a continuación, un mensaje que indica que la importación de los extractos bancarios para las cuentas bancarias específicas no ha podido realizarse. Tenga en cuenta que el usuario que está importando el archivo del extracto bancario debe tener acceso a una entidad jurídica para importar los extractos para las cuentas bancarias de dicha entidad jurídica. 
+Si no se puede asociar ningún extracto del archivo electrónico con la cuenta bancaria o si se asocia con varias cuentas bancarias mediante los campos de identificación, no se importarán. No obstante, se pueden importar todavía otros extractos del archivo. El usuario recibe, a continuación, un mensaje que indica que la importación de los extractos bancarios para las cuentas bancarias específicas no ha podido realizarse. Tenga en cuenta que el usuario que está importando el archivo del extracto bancario debe tener acceso a una entidad jurídica para importar los extractos para las cuentas bancarias de dicha entidad jurídica. 
 
-Para cargar varios archivos de extractos a Finance en un único proceso, puede usar un archivo zip. Para importar varios archivos de extractos bancarios para varias cuentas, combine todos los archivos de extractos bancarios en un archivo zip. En el cuadro de diálogo **Importar extractos bancarios**, establezca la opción **Importar extracto para varias cuentas bancarias en todas las entidades jurídicas** en **Sí**. Haga clic en **Examinar** para seleccionar el archivo zip que contiene los archivos de extractos bancarios y, a continuación, haga clic en **Cargar**. El proceso de importación reconocerá el archivo zip y cargará cada extracto que se incluye en el mismo, independientemente de la entidad jurídica de la cuenta bancaria. 
+Para cargar varios archivos de extractos a Finance en un único proceso, puede usar un archivo zip. Para importar varios archivos de extractos bancarios para varias cuentas, combine todos los archivos de extractos bancarios en un archivo zip. En el cuadro de diálogo **Importar extractos bancarios**, establezca la opción **Importar extracto para varias cuentas bancarias en todas las entidades jurídicas** en **Sí**. Haga clic en **Examinar** para seleccionar el archivo zip que contiene los archivos de extractos bancarios y, a continuación, haga clic en **Cargar**. El proceso de importación reconocerá el archivo zip y cargará cada extracto que se incluye en el mismo, independientemente de la entidad jurídica de la cuenta bancaria.
 
 Hay una opción **Conciliar tras la importación** disponible. Cuando establece esta opción en **Sí**, el sistema valida el extracto bancario automáticamente, crea una conciliación bancaria y una hoja de cálculo nuevas, y ejecuta el Conjunto de reglas de coincidencia predeterminado cuando se carga el extracto bancario. Esta funcionalidad automatiza el proceso hasta el punto donde deben conciliarse manualmente transacciones.
 

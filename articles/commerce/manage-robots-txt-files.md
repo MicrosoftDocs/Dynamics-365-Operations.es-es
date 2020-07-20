@@ -3,7 +3,7 @@ title: Administrar archivos robots.txt
 description: En este tema se describe cómo administrar los archivos robots.txt en Microsoft Dynamics 365 Commerce.
 author: BrianShook
 manager: annbe
-ms.date: 03/02/2020
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: brishoo
 ms.search.validFrom: 2019-12-18
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d248dae36e6e038749ee17a5a6ccb32f1dde0aed
-ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
+ms.openlocfilehash: 4b3856a7a0b4b198e71ce9af6691b1d90362f3e7
+ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3096853"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "3533422"
 ---
 # <a name="manage-robotstxt-files"></a>Administrar archivos robots.txt
 
@@ -91,8 +91,6 @@ Para eliminar un archivo robots.txt en Commerce, siga estos pasos.
 [Configurar su nombre de dominio](configure-your-domain-name.md)
 
 [Implementar un sitio nuevo de comercio electrónico](deploy-ecommerce-site.md)
-
-[Configurar un canal de la tienda en línea](online-stores.md)
 
 [Crear un sitio de comercio electrónico](create-ecommerce-site.md)
 

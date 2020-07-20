@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: d11db378be6b2ba845de0ac0a2252092a50bc96a
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 2d8d6e67040f19cac99f8e0164296ef49768496e
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201488"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530245"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>Liberación automática de envío para tránsito directo
 
@@ -164,7 +164,7 @@ Para realizar un tránsito directo de la cantidad de productos terminados a la u
 8. En la página **Pedido de producción**, en el panel de acciones, en la pestaña **Pedido de producción**, en el grupo **Procesar**, seleccione **Estimar** y luego seleccione **Aceptar**. Se estima el pedido y la cantidad de materias primas se reserva para la producción.
 9. En el panel de acciones, en la pestaña **Pedido de producción**, en el grupo **Procesar**, seleccione **Liberar** y luego seleccione **Aceptar**. Se crea el trabajo de picking de almacén para materias primas.
 10. Abra y revise el trabajo. En el panel de acciones, en la pestaña **Almacén**, en el grupo **General**, seleccione **Detalles de trabajo**. Anote el id. de trabajo.
-11. Abra e inicie sesión en la aplicación Dynamics 365 for Finance and Operations – Warehousing para ejecutar en trabajo en el almacén 51.
+11. Inicie sesión en la aplicación de almacén para ejecutar trabajos en el almacén 51.
 12. Vaya a **Producción** \> **Selección de producción**.
 13. Introduzca el id. de trabajo para iniciar y complete el picking de materia prima. 
 
