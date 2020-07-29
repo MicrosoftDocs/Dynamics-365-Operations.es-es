@@ -32,23 +32,23 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/commerce/toc.json
                 - name: Automatización de tarea de datos
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/commerce/toc.json
-                - name: Entrega de soluciones de fabricante de software independiente mediante One Version
+                - name: Entrega de soluciones de ISV mediante One Version
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/commerce/toc.json
                 - name: Crear y automatizar pruebas de aceptación del usuario
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/commerce/toc.json
-            - name: Configurar un entorno de vista previa de Dynamics 365 Commerce
+            - name: Configurar un entorno de evaluación de Dynamics 365 Commerce
               items:
-                - name: Información general del entorno de vista previa de Dynamics 365 Commerce
+                - name: Información general del entorno de evaluación de Dynamics 365 Commerce
                   href: cpe-overview.md
-                - name: Aprovisionar un entorno de vista previa de Dynamics 365 Commerce
+                - name: Aprovisionar un entorno de evaluación de Dynamics 365 Commerce
                   href: provisioning-guide.md
-                - name: Configurar un entorno de vista previa de Dynamics 365 Commerce
+                - name: Configurar un entorno de evaluación de Dynamics 365 Commerce
                   href: cpe-post-provisioning.md
-                - name: Configurar BOPIS en un entorno de Dynamics 365 Commerce
+                - name: Configurar BOPIS en un entorno de evaluación de Dynamics 365 Commerce
                   href: cpe-bopis.md
-                - name: Configurar características opcionales para un entorno de vista previa de Dynamics 365 Commerce
+                - name: Configurar características opcionales para un entorno de evaluación de Dynamics 365 Commerce
                   href: cpe-optional-features.md
-                - name: Preguntas frecuentes del entorno de vista previa de Dynamics 365 Commerce
+                - name: Preguntas frecuentes sobre entorno de evaluación de Dynamics 365 Commerce
                   href: cpe-faq.md
             - name: Consideraciones sobre la implementación
               items:
@@ -72,6 +72,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
                 - name: Aplicaciones de Finance and Operations en Francia
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
+            - name: Obtener soporte para Dynamics 365 Commerce
+              href: retail-support.md
             - name: Actualización y compatibilidad de N-1
               items:
                 - name: Actualización y compatibilidad de N-1 para Commerce
@@ -192,6 +194,8 @@
                   href: commerce-architecture.md
                 - name: Flujos de autenticación de Dynamics 365 Commerce
                   href: arch-auth-flow.md
+                - name: Requisitos de versiones de componentes de Dynamics 365 Commerce
+                  href: arch-component-versioning.md
                 - name: Arquitectura de Commerce Scale Unit
                   href: dev-itpro/retail-server-architecture.md
                 - name: Seleccione una topología en tienda
@@ -1984,6 +1988,8 @@
                       href: e-commerce-extensibility/create-observable-data-action.md
                     - name: Compartir estado en diferentes módulos
                       href: e-commerce-extensibility/share-state-across-modules.md
+                    - name: Configuración de caché de acciones de datos
+                      href: e-commerce-extensibility/data-action-cache-settings.md
                     - name: Anulaciones de la acción de datos
                       href: e-commerce-extensibility/data-action-overrides.md
                     - name: Enlaces de acción de datos
