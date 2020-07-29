@@ -83,7 +83,7 @@ La mayor parte del ejercicio implica la creación de la aplicación lógica.
 
     ![Página de creación de aplicaciones lógicas](media/integration-logic-app-creation-1.png)
 
-2. En el Diseñador de aplicaciones lógicas, comience con una aplicación lógica en blanco.
+2. En Logic Apps Designer, comience con una aplicación lógica en blanco.
 3. Agregue un [desencadenador de programación periódica](https://docs.microsoft.com/azure/connectors/connectors-native-recurrence) para ejecutar la aplicación lógica cada 24 horas (o de acuerdo con un horario de su elección).
 
     ![Cuadro de diálogo Periodicidad](media/integration-logic-app-recurrence-step.png)
@@ -196,7 +196,7 @@ Para probar la aplicación lógica, seleccione el botón **Ejecutar** en el dise
 
 Si se informa una falla para cualquier paso, seleccione el paso fallido en el diseñador y examine los campos **Entradas** y **Salidas** para ello. Depure y ajuste el paso según sea necesario para corregir los errores.
 
-La siguiente ilustración muestra cómo se ve el Diseñador de aplicaciones lógicas cuando todos los pasos de la aplicación lógica se ejecutan correctamente.
+La siguiente ilustración muestra cómo se ve el Logic Apps Designer cuando todos los pasos de la aplicación lógica se ejecutan correctamente.
 
 ![Ejecución exitosa de la aplicación lógica](media/integration-logic-app-successful-run.png)
 
