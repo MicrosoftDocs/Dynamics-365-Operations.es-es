@@ -3,7 +3,7 @@ title: Configurar propiedades del flujo de trabajo
 description: Este tema explica cómo configurar las diversas propiedades de un flujo de trabajo.
 author: sericks007
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d745389b37b899760ea32ae75c5cb80d9139be2d
-ms.sourcegitcommit: 1852f08f015acd106f4cefd03fa07985dc009123
+ms.openlocfilehash: 268448049955170b8eb9e64cbd50416565a041b1
+ms.sourcegitcommit: 561d06c2a74602dfaa40334d8afac5053aebc055
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3199445"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "3541118"
 ---
 # <a name="configure-workflow-properties"></a>Configurar propiedades del flujo de trabajo
 
@@ -91,12 +91,7 @@ Siga estos pasos para especificar cuándo se usa el flujo de trabajo que está c
 3. Haga clic en **Agregar condición**.
 4. Escriba una condición.
 5. Escriba condiciones adicionales que sean necesarias.
-6. Para comprobar que las condiciones definidas se hayan establecido correctamente, siga estos pasos:
-
-    1. Haga clic en **Probar**.
-    2. En la página **Probar condición de flujo de trabajo**, en el área **Comprobar condición**, seleccione un registro.
-    3. Haga clic en **Probar**. El sistema evalúa el registro seleccionado para determinar si reúne las condiciones que se especificaron. Por ejemplo, si crea un flujo de trabajo de solicitudes de compra para España, el área **Comprobar condición** de la página muestra una lista de solicitudes de compra. Al hacer clic en **Probar**, el sistema evalúa la solicitud de compra seleccionada para determinar si el país o región es ES.
-    4. Haga clic en **Aceptar** o en **Cancelar** para regresar a la página **Propiedades**.
+6. Revise el flujo de trabajo con algunos registros de destino para comprobar que la condición incluya y excluya correctamente los registros.
 
 ## <a name="specify-when-notifications-are-sent"></a>Especificación del momento en que se envían notificaciones
 

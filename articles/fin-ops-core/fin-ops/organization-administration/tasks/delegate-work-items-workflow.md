@@ -3,7 +3,7 @@ title: Delegación de elementos de trabajo de un flujo de trabajo
 description: Si tiene planeado ausentarse de la oficina o, por alguna otra razón, no va a poder encargarse de los elementos de trabajo, puede delegar, o volver a asignar, sus elementos de trabajo a otros usuarios.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 06/23/2020
+ms.date: 07/07/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7d98d84b89f1f3322a9c896b74b63a3b6425b13b
-ms.sourcegitcommit: 267864eb0dccd6e26d49d280bd4ad1b770a73a77
+ms.openlocfilehash: 96777b66645453bc909bd4053e2724a37771d5d6
+ms.sourcegitcommit: 561d06c2a74602dfaa40334d8afac5053aebc055
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "3515773"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "3541094"
 ---
 # <a name="delegate-work-items-in-a-workflow"></a>Delegar elementos de trabajo de un flujo de trabajo
 
@@ -49,13 +49,15 @@ Si tiene planeado ausentarse de la oficina o de otro modo no va a poder dedicar 
 1. Vaya a **Común > Configuración > Opciones de usuario**.
 2. Haga clic en la pestaña **Flujo de trabajo**. Asegúrese de que está expandida la sección de delegación. Para configurar el sistema para que sus elementos de trabajo se deleguen de manera automática a otros usuarios, debe crear reglas de delegación, que especifican cuándo se delegan determinados tipos de elementos de trabajo. Siga estos pasos para crear una regla de delegación.  
 3. Haga clic en **Agregar**.
-4. En el campo **Ámbito**, seleccione una opción.
+4. En el campo **Ámbito**, seleccione una opción:
     - Todo: permite delegar todos los elementos de trabajo que tiene asignado el usuario.
-    - Módulo: delegar solo los elementos de trabajo relacionados con un tipo específico de flujo de trabajo. Si selecciona esta opción, también debe seleccionar el tipo de flujo de trabajo en el campo Nombre.
-    - Flujo de trabajo: delegue solo los elementos de trabajo relacionados con un flujo de trabajo específico. Si selecciona esta opción, también debe seleccionar el flujo de trabajo en el campo Nombre.  
-5. En el campo **Delegado**, seleccione el usuario al que desea delegar los elementos de trabajo. Use los campos Fecha/hora inicial y Fecha/hora final para especificar cuándo quiere delegar automáticamente los elementos de trabajo.  
-6. En el campo **Fecha y hora inicial**, especifique una fecha y una hora.
-7. En el campo **Fecha y hora final**, especifique una fecha y una hora.
-8. Active la casilla de verificación **Habilitado** para activar la regla de delegación. Si ha seleccionado **Módulo** como el Ámbito, deberá seleccionar el módulo en el campo Nombre. Si ha seleccionado **Flujo de trabajo** como el Ámbito, deberá seleccionar el flujo de trabajo específico para delegar el campo Nombre.  
-9. En el campo **Comentario**, escriba un comentario en el que se explique el motivo por el que delega los elementos de trabajo.
-
+    - Módulo: delegar solo los elementos de trabajo relacionados con un tipo específico de flujo de trabajo. Si selecciona esta opción, debe seleccionar el tipo de flujo de trabajo en el campo **Nombre**.
+    - Flujo de trabajo: delegue solo los elementos de trabajo relacionados con un flujo de trabajo específico. Si selecciona esta opción, también debe seleccionar el flujo de trabajo en el campo **Nombre**.  
+5. En el campo **Nombre**:
+    - En el ámbito **Módulo**, seleccione el módulo de destino.
+    - En el ámbito **Flujo de trabajo**, seleccione el flujo de trabajo de destino.
+6. En el campo **Delegado**, seleccione el usuario al que desea delegar los elementos de trabajo. Use los campos **Fecha/hora de inicio** y **Fecha/hora de finalización** para especificar cuándo desea delegar automáticamente los elementos de trabajo.  
+7. En el campo **Fecha y hora inicial**, especifique una fecha y una hora.
+8. En el campo **Fecha y hora final**, especifique una fecha y una hora.
+9. Active la casilla de verificación **Habilitado** para activar la regla de delegación. 
+10. En el campo **Comentario**, escriba un comentario en el que se explique el motivo por el que delega los elementos de trabajo.

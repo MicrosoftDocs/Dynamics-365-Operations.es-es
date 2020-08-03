@@ -1,9 +1,9 @@
 ---
-title: Configurar un entorno de vista previa de Dynamics 365 Commerce
-description: Este tema explica cómo configurar una vista previa del entorno de Microsoft Dynamics 365 Commerce tras aprovisionarse.
+title: Configurar un entorno de evaluación de Dynamics 365 Commerce
+description: Este tema explica cómo configurar un entorno de evaluación de Microsoft Dynamics 365 Commerce tras aprovisionarse.
 author: psimolin
 manager: annbe
-ms.date: 07/02/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,25 +17,24 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ad05996eaabd3965308370649a27b8bc3080c7ce
-ms.sourcegitcommit: f72e90dccc80718e99cab2752eaf8931dcbb915e
+ms.openlocfilehash: 6a1ae960f0f530104af7bdea9a8fcb78b01571f5
+ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3534076"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "3599733"
 ---
-# <a name="configure-a-dynamics-365-commerce-preview-environment"></a>Configurar un entorno de vista previa de Dynamics 365 Commerce
-
+# <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Configurar un entorno de evaluación de Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Este tema explica cómo configurar una vista previa del entorno de Microsoft Dynamics 365 Commerce tras aprovisionarse.
+Este tema explica cómo configurar un entorno de evaluación de Microsoft Dynamics 365 Commerce tras aprovisionarse.
 
-## <a name="overview"></a>Visión general
+## <a name="overview"></a>Información general
 
-Complete los procedimientos de este tema solo después de que se haya aprovisionado su entorno de vista previa de Commerce. Para obtener información sobre cómo aprovisionar su entorno de vista previa de Commerce, vea [Provisión de un entorno de vista previa de Commerce ](provisioning-guide.md).
+Complete los procedimientos de este tema solo después de aprovisionar el entorno de evaluación de Commerce. Para obtener información sobre cómo aprovisionar su entorno de evaluación de Commerce, vea [Provisión de un entorno de evaluación de Commerce](provisioning-guide.md).
 
-Después de que su entorno de vista previa de Commerce se haya aprovisionado de principio a fin, se deben completar pasos de configuración posteriores al aprovisionamiento antes de que pueda comenzar a evaluar el entorno. Para completar estos pasos, debe usar Microsoft Dynamics Lifecycle Services (LCS) y Dynamics 365 Commerce.
+Después de que su entorno de evaluación de Commerce se haya aprovisionado de principio a fin, se deben completar pasos de configuración posteriores al aprovisionamiento para poder comenzar a evaluar el entorno. Para completar estos pasos, debe usar Microsoft Dynamics Lifecycle Services (LCS) y Dynamics 365 Commerce.
 
 ## <a name="before-you-start"></a>Antes de comenzar
 
@@ -43,19 +42,20 @@ Después de que su entorno de vista previa de Commerce se haya aprovisionado de 
 1. Vaya a su proyecto.
 1. En el menú superior, seleccione **Entornos hospedados en la nube**.
 1. Seleccione el entorno en la lista.
-1. En la información del entorno, a la derecha, seleccione **Detalles completos**.
-1. Seleccione **Iniciar sesión** para abrir un menú y elija **Iniciar sesión en el entorno**.
+1. En la información del entorno, a la derecha, seleccione **Iniciar sesión en entorno**. Se le enviará a la sede de Commerce.
 1. Asegúrese de que la entidad jurídica **USRT** está seleccionada en la esquina superior derecha.
 
-## <a name="configure-the-point-of-sale-in-lcs"></a>Configurar el punto de venta en LCS
+Durante las actividades posteriores al aprovisionamiento en la sede de Commerce, asegúrese de que la entidad jurídica **USRT** siempre esté seleccionada.
+
+## <a name="configure-the-point-of-sale"></a>Configurar el punto de venta
 
 ### <a name="associate-a-worker-with-your-identity"></a>Asociar un trabajador con su identidad
 
-Para asociar un trabajador con su identidad en LCS, siga estos pasos.
+Para asociar un trabajador con su identidad, siga estos pasos la central de Commerce.
 
 1. Use el menú de la izquierda para ir a **Módulos \> Retail y Commerce \> Empleados \> Trabajadores**.
 1. En la lista, busque y seleccione el registro siguiente: **000713 - Andrew Collette**.
-1. En el panel de acciones, haga clic en **Retail**.
+1. En el panel Acciones, seleccione **Commerce**.
 1. Seleccione **Asociar identidad existente**.
 1. En el campo **Correo electrónico** a la derecha de **Buscar mediante correo electrónico**, escriba su dirección de correo electrónico.
 1. Selección **Buscar**.
@@ -65,25 +65,24 @@ Para asociar un trabajador con su identidad en LCS, siga estos pasos.
 
 ### <a name="activate-cloud-pos"></a>Activar PDV en la nube
 
-Para activar Cloud POS en LCS, siga estos pasos.
+Para activar Cloud PDV, siga estos pasos en LCS.
 
 1. En el menú superior, seleccione **Entornos hospedados en la nube**.
 1. Seleccione el entorno en la lista.
-1. En la información del entorno, a la derecha, seleccione **Detalles completos**.
-1. Seleccione **Iniciar sesión** para abrir un menú y luego seleccione **Iniciar sesión en el punto de venta en la nube** para abrir el punto de venta (POS).
-1. Seleccione **Siguiente**.
+1. En la información del entorno, a la derecha, seleccione **Iniciar sesión punto de venta en la nube**.
+1. Seleccione **Siguiente** para abrir el cuadro de diálogo **Antes de empezar**.
+1. Deje el campo **URL de servidor** tal cual. Seleccione **Siguiente**.
 1. Inicie sesión utilizando su cuenta de Microsoft Azure Active Directory ( Azure AD).
-1. En **Nombre de tienda**, elija **San Francisco**.
-1. Seleccione **Siguiente**.
+1. Debajo de **Nombre de la tienda**, seleccione **San Francisco** y luego **Siguiente**.
 1. En **Caja registradora y dispositivo**, seleccione **SANFRAN-1**.
 1. Seleccione **Activar**. Ha cerrado sesión y ha sido llevado a la página de inicio de sesión de POS.
 1. Ahora puede iniciar sesión en la experiencia de Cloud PDV mediante el id. de operador **000713** y contraseña **123**.
 
 ## <a name="set-up-your-site-in-commerce"></a>Configurar su sitio en Commerce
 
-Para comenzar a configurar su sitio de vista previa en Commerce, siga estos pasos.
+Para comenzar a configurar su sitio de evaluación en Commerce, siga estos pasos.
 
-1. Inicie sesión en la herramienta de administración del sitio utilizando la URL de la que tomó nota cuando inició el comercio electrónico durante el aprovisionamiento (consulte [Inicializar comercio electrónico ](provisioning-guide.md#initialize-e-commerce)).
+1. Inicie sesión en el generador de sitios utilizando la URL de la que tomó nota cuando inicializó el comercio electrónico durante el aprovisionamiento (consulte [Inicializar comercio electrónico](provisioning-guide.md#initialize-e-commerce)).
 1. Seleccione el sitio de **Fabrikam** para abrir el cuadro de diálogo de configuración del sitio.
 1. Seleccione el dominio que ingresó cuando inicializó el comercio electrónico.
 1. Como canal predeterminado seleccione **Tienda en línea extendida de Fabrikam**. (Asegúrese de seleccionar la tienda en línea **extendida**).
@@ -106,18 +105,24 @@ Para activar la gestión de trabajos en Commerce, siga estos pasos.
     * Trabajo de sincronización de pedidos
 
 1. Use el filtro rápido para buscar el trabajo por su nombre.
-1. Si el estado del trabajo **Retenido**, realice los siguientes pasos:
+1. Si el estado del trabajo es **En ejecución**, siga estos pasos:
 
     1. Seleccione el registro.
     1. En el panel de acciones, en la pestaña **Trabajo por lotes**, seleccione **Cambiar estado**.
-    1. Seleccione **Esperando** y, a continuación, seleccione **Aceptar**.
+    1. Haga clic en **Cancelar** y, a continuación, en **Aceptar**.
+
+Opcionalmente, también puede establecer el intervalo de recurrencia en un (1) minuto para los siguientes trabajos:
+
+* Procesar trabajo de notificación por correo electrónico de pedido comercial
+* Trabajo P-0001
+* Trabajo de sincronización de pedidos
 
 ### <a name="run-full-data-synchronization"></a>Ejecutar sincronización de datos completa
 
-Para ejecutar la sincronización de datos completa en Commerce, siga estos pasos.
+Para ejecutar la sincronización de datos completa en Commerce, siga estos pasos en la central de Commerce.
 
 1. Use el menú de la izquierda, para ir a **Módulos \> Retail y Commerce \> Configuración de sede central \> Programador de Commerce \> Base de datos de canales**.
-1. El canal **Predeterminado** está seleccionado en la lista de la izquierda. Seleccione el otro canal disponible. Este canal se llama **scXXXXXXXXX**.
+1. Seleccione el canal denominado **scXXXXXXXXX**.
 1. En el panel de acciones, seleccione **Sincronización de datos completa**.
 1. Introduzca **9999** como la programación de distribución.
 1. Seleccione **Aceptar**.
@@ -136,19 +141,21 @@ Para realizar transacciones de prueba en el sitio, puede usar esta información 
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Después de completar los pasos de aprovisionamiento y configuración, estará listo para evaluar su entorno de vista previa. Use la URL de la herramienta de administración del sitio de Commerce para acceder a la experiencia de creación. Use la URL del sitio de Commerce para ir la experiencia del sitio de cliente minorista.
+Después de completar los pasos de aprovisionamiento y configuración, podrá comenzar a usar su entorno de evaluación. Use la URL del creador de sitios de Commerce para acceder a la experiencia de creación. Use la URL del sitio de Commerce para ir la experiencia del sitio de cliente minorista.
 
-Para configurar características opcionales para su entorno de vista previa de Commerce, consulte [Configurar características opcionales para un entorno de vista previa de Commerce ](cpe-optional-features.md).
+Para configurar características opcionales para su entorno de evaluación de Commerce, consulte [Configurar características opcionales para un entorno de evaluación de Commerce](cpe-optional-features.md).
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Información general del entorno de vista previa de Dynamics 365 Commerce](cpe-overview.md)
+[Información general del entorno de evaluación de Dynamics 365 Commerce](cpe-overview.md)
 
-[Aprovisionar un entorno de vista previa de Dynamics 365 Commerce](provisioning-guide.md)
+[Aprovisionar un entorno de evaluación de Dynamics 365 Commerce](provisioning-guide.md)
 
-[Configurar características opcionales para un entorno de vista previa de Dynamics 365 Commerce](cpe-optional-features.md)
+[Configurar características opcionales para un entorno de evaluación de Dynamics 365 Commerce](cpe-optional-features.md)
 
-[Preguntas frecuentes sobre el entorno de vista previa de Dynamics 365 Commerce](cpe-faq.md)
+[Configurar BOPIS en un entorno de evaluación de Dynamics 365 Commerce](cpe-bopis.md)
+
+[Preguntas frecuentes sobre el entorno de evaluación de Dynamics 365 Commerce](cpe-faq.md)
 
 [Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

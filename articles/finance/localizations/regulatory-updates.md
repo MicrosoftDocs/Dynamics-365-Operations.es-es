@@ -3,7 +3,7 @@ title: Actualizaciones reglamentarias
 description: Este tema proporciona una lista de actualizaciones normativas planificadas y publicadas para Microsoft Dynamics 365 Finance.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 05/29/2020
+ms.date: 07/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: a7a26d8c506a9e61f6e4319a33176b4e92fc30ad
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: 785797af0fe62fa6d0ee40fb4df45bcec47780c7
+ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411421"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3598093"
 ---
 # <a name="regulatory-updates"></a>Actualizaciones reglamentarias
 
@@ -42,48 +42,30 @@ Para ver los últimos planes de actualizaciones regulatorias, consulte la siguie
 
 |País|Fecha de lanzamiento planeada:|Versión|Actualización reglamentaria|
 |--------------------|---------------|-------|-------|
-|      Brasil         |   Abril de 2020 - enero de 2020      | 10.0.10, 10.0.9HF      |   DRCST SC - Ordenanza SEF N.º 416    |
-|      Brasil         |   2020 de abril      | 10.0.10      |   Contribuciones SPED (PIS / COFINS) - Bloques M115 y M515    |
-|      Brasil         |   2020 de abril      | 10.0.10      |   Contribuciones aceleradas: registre actualizaciones de C100 y D100 cuando el crédito no sea recuperable    |
-|      Brasil         |   Abril de 2020 - enero de 2020     | 10.0.10, 10.0.9HF      |   Contribución de SPED: diseño para enero de 2020    |
-|      Brasil         |   2020 de marzo       | 10.0.9      |   SPED fiscal: cambios en el campo D100 de registro COD_MUN_ORI    |
-|      Brasil         |   Marzo de 2020 - enero de 2020       | 10.0.9      |   DRCST SC - Ordenanza SEF N.º 254/19    |
-|      Brasil         |   Marzo de 2020 - enero de 2020       | 10.0.9      |   Disposición fiscal acelerada 014 |
-|      Brasil         |   Marzo de 2020 - enero de 2020       | 10.0.9      |   DRCST SC - Ordenanza SEF N.º 343DR   |
-|      Brasil         |   Mayo de 2020 - marzo de 2020      | 10.0.11, 10.0.10HF, 10.0.9HF      |   SPED ECD diseño 8   |
-|      Brasil         |   Mayo de 2020 - abril de 2020      | 10.0.11, 10.0.10HF, 10.0.9HF      |   Nota técnica NT2019.001 v1.40   |
-|      Brasil         |   mayo de 2020      | 10.0.12, 10.0.11HF, 10.0.10HF,      |   Declaración de ADCR ICMS-ST para el estado de Paraná   |
+|      Brasil         |   2020 de marzo      | 10.0.11      |   SPED ECD diseño 8   |
+|      Brasil         |   2020 de abril      | 10.0.11      |   Nota técnica NT2019.001 v1.40   |
+|      Brasil         |   mayo de 2020      | 10.0.12, 10.0.11HF      |   Declaración de ADCR ICMS-ST para el estado de Paraná   |
+|      Brasil         |   Julio de 2020 - mayo de 2020      | 10.0.13, 10.0.12, 10.0.11      |   SPED ECF diseño 6   |
+|      Brasil         |   Julio de 2020      | 10.0.13, 10.0.12HF      |   SPED fiscal - Registro C176 - Estado RS   |
+|      República Checa      |   Julio de 2020      | 10.0.13      |   Cambios en la declaración de control del IVA en el esquema XML (lista de facturas)   |
+|      República Checa         |   Julio de 2020      | 10.0.13      |   Declaración de IVA en XML, vista previa de declaración de IVA en Excel y formatos XML de declaración de control del IVA basados en el modelo de declaración de impuestos   |
 |      Estonia         |   mayo de 2020       | 10.0.11      |   Factura electrónica en Estonia: exportación de facturas de clientes en formato específico estonio, versión 1.2.  |
-|      Francia         |   2020 de abril       | 10.0.10      |   Declaración de honorarios legales a las autoridades fiscales para trabajadores independientes (DAS2)    |
-|      Francia         |   2020 de marzo       | 10.0.9      |   Localización en francés: formato ISO 20022 para pagos internacionales y transferencias de tesorería    |
 |      Alemania         |   mayo de 2020       | 10.0.12      |   Alemania: Minorista, requisitos de caja registradora    |
-|      Hungría         |   Mayo de 2020 - marzo de 2020       | 10.0.11, 10.0.10, 10.0.9HF     |   Sistema de facturación en línea v.2.0 en Finance and Operations    |
-|      India         |   2020 de marzo      | 10.0.9      |   Nueva herramienta sin conexión de devolución GSTR (ANX-1 y ANX-2)    |
+|      Hungría         |   2020 de marzo       | 10.0.11     |   Sistema de facturación en línea v.2.0 en Finance and Operations    |
 |      India         |   mayo de 2020      | 10.0.12      |   Mejoras en el precio unitario y el manejo de precios de coste en pedidos de transferencia de stock  |
-|      Italia         |   2020 de marzo      | 10.0.9      |   Retail - Administración de la información sobre clientes en PDV |
-|      Italia         |   2020 de marzo      | 10.0.9      |   Retail - Impresión de información del cliente en el recibo fiscal |
-|      Italia         |   mayo de 2020      | 10.0.12. 10.0.11      |   Cambio de formato del modelo 770/2019 |
-|      Japón          |   2020 de marzo     | 10.0.9     |   La Asociación de Banqueros de Japón reemplaza los formatos de pago de longitud fija JBA con ISO20022 |
-|      Japón          |   2020 de enero      | 10.0.8       |   Se cambia la tasa de impuestos de consumo y se introduce la tasa fiscal reducida (Informe de impuestos de consumo) |
-|      Países Bajos          |   2020 de abril   | 10.0.10     |   Taxonomía holandesa nueva versión - NT14 |
-|      Noruega          |   2020 de marzo   | 10.0.9     |   Actualización de SAF-T XSD a la versión 1.1 para Dynamics 365 for Finance and Operations |
-|      Noruega          |   mayo de 2020   | 10.0.12     |   Rediseño del informe SAF-T: Saldos de apertura por tipo de transacción "operativa" e información fiscal en la moneda del código fiscal en Finance (v.10) |
+|      India         |   mayo de 2020      | 10.0.12      |   Transferencia de existencias con la misma aplicabilidad de tasa impositiva en el momento del envío y recepción (incluida la recepción parcial)  |
+|      Italia         |   mayo de 2020      | 10.0.12, 10.0.11      |   Cambio de formato del modelo 770/2019 |
+|      Italia         |   Julio de 2020      | 10.0.13, 10.0.12HF      |   Cambios en el formato de las facturas electrónicas italianas - FatturaPA |
+|      Noruega          |   mayo de 2020   | 10.0.12     |   Rediseño del informe SAF-T: Saldos de apertura por tipo de transacción "operativa" e información fiscal en la moneda del código fiscal en Finance (versión 10) |
 |      Noruega          |   mayo de 2020   | 10.0.12     |   Cambio de diálogo del informe SAF-T: para proporcionar la posibilidad de seleccionar Persona de contacto en todas las empresas |
 |      Noruega          |   mayo de 2020   | 10.0.12     |   Declaraciones de espacio de nombres SAF-T en cada línea, en lugar de solo en el encabezado |
-|      Polonia          |   2020 de marzo    | 10.0.9     |   Registro de IVA soportado y registro de IVA SAF: la agencia personalizada de los documentos SAD debe ser reemplazada por un nombre de terceros y un NIF |
-|      Polonia          |   Marzo de 2020 - enero de 2020   | 10.0.9     |   Retail - Administración de la información sobre clientes en PDV |
-|      Polonia          |   Marzo de 2020 - enero de 2020     | 10.0.9    |   Retail - Impresión de información del cliente en el recibo fiscal |
-|      Polonia          |   2020 de marzo     | 10.0.9     |   Facturas SAF (JPK_FA) v.3 a partir del 2 de diciembre de 2019 |
-|      Polonia          |   2020 de abril     | 10.0.10, 10.0.9     |   JPK_VDEK que reemplaza JPK_VAT (SAF VAT) |
 |      Polonia          |   mayo de 2020     | 10.0.11     |   Divida el monto de la diferencia de cambio AP / AR realizado en la diferencia de cambio del valor neto de la factura y del monto del IVA  |
 |      Polonia          |   mayo de 2020     | 10.0.11     |   Libros de contabilidad SAF: mejoras de filtrado de capas de registro |
-|      Polonia          |   mayo de 2020     | 10.0.11     |   JPK_VDEK suplementado paquete I |
+|      Polonia          |   2020 de marzo     | 10.0.11     |   JPK_VDEK suplementado paquete I |
 |      Polonia          |   mayo de 2020     | 10.0.12     |   Paquete II suplementado JPK_VDEK |
-|      Polonia          |   mayo de 2020     | 10.0.11     |   Nota de crédito parcial para pedido de ventas con factura anticipada |
-|      Rusia          |   2020 de marzo     | 10.0.9     |   Formato de la notificaciones de la declaración de impuestos de la propiedad para 2019 |
-|      Rusia          |   2020 de marzo     | 10.0.9     |   Actualizaciones del formato de declaración de impuestos sobre las ganancias |
-|      Suiza           |   2020 de marzo     | 10.0.9      |   El resguardo de pago suizo ISR obtiene un nuevo formato (código QR) |
-|      Reino Unido           |   2020 de abril     | 10.0.10      |   Paquete suplementario de prevención de fraude MTD |
+|      Polonia          |   2020 de marzo     | 10.0.11     |   Nota de crédito parcial para pedido de ventas con factura anticipada |
+|      Polonia          |   Julio de 2020     | 10.0.13     |   Mejoras en el pago fraccionado obligatorio |
+|      Rusia          |   Julio de 2020     | 10.0.13    |   Cálculo de depreciación sobre la base del coste de adquisición y reparaciones importantes con la aplicación de la depreciación de bonificación en la contabilidad de impuestos  |
 
 
 

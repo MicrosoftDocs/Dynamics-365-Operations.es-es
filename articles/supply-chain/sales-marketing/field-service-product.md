@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 1efa4e403f5cf2cdc5fb797f05781f6d42245ed5
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: d96d1cd91bad4f950868074d9558cb403821d73f
+ms.sourcegitcommit: 137e2bd30f0a85bd2e1baf1cf16b993edd2094f9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3210028"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "3546371"
 ---
 # <a name="synchronize-products-in-supply-chain-management-to-products-in-field-service"></a>Sincronizar productos de Supply Chain Management con productos de Field Service
 
@@ -48,13 +48,13 @@ El tema solo describe las diferencias entre las plantillas **Productos de Field 
 
 La plantilla **Productos de Field Service (Supply Chain Management a Field Service)** incluye un tipo de asignación que no se incluye en plantilla **Productos (Supply Chain Management a Sales) – Direct**. Esta asignación garantiza que el campo Field Service- específico **Tipo de producto de servicio** esté establecido correctamente.
 
-```Text
+```plaintext
 FIELDSERVICEPRODUCTTYPE        Fn        msdyn_fieldserciveproducttype
 ```
 
 Se usa la siguiente asignación de valores.
 
-```Text
+```plaintext
 inventory     :  690970000
 nonInventory  :  690970001 
 service       :  690970002 
