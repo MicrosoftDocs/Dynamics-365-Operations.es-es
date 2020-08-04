@@ -19,12 +19,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a6d792a0e52d2b82b25de461dcec358fdc8f439
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f2422dcec1fb222f1be7162d7c799a13046329b4
+ms.sourcegitcommit: f0faa2929435cd1408c5925f0ee4d6636fec5da1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211086"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3552926"
 ---
 # <a name="routes-and-operations"></a>Rutas y operaciones.
 
@@ -225,7 +225,7 @@ Cuando usa este enfoque, la página **Relaciones de operación** se convierte en
 Si no especifica un recurso de operaciones o un grupo de recursos como parte de los requisitos de recurso para una operación, los recursos aplicables pueden operar a varias velocidades. Por lo tanto, el tiempo necesario para procesar una operación puede variar. Para resolver este problema, puede usar el campo **Fórmula** de la relación de operación para especificar cómo se calcula el tiempo del proceso. Están disponibles las siguientes opciones:
 
 -   **Estándar**: (opción predeterminada) el cálculo usa solo los campos de la relación de operación y multiplica el tiempo de ejecución especificado por la cantidad del pedido.
--   **Capacidad:** el cálculo incluye el campo **Capacidad** del recurso de operaciones. Por lo tanto, el tiempo depende de los recursos. El valor que se especifica en el recurso de operaciones es la capacidad por hora. Este valor se multiplica por la cantidad de pedido y el valor **Factor** de la relación de operación.
+-   **Capacidad:** el cálculo incluye el campo **Capacidad** del recurso de operaciones. Por lo tanto, el tiempo depende de los recursos. El valor que se especifica en el recurso de operaciones es la capacidad por hora. El **Tiempo de proceso** se calcula como **Cantidad de pedido** dividida por **Capacidad**.
 -   **Lote:** una capacidad de lote se calcula usando la información de la relación de operación. El número de lotes y, por tanto, el tiempo del proceso se pueden calcular en función de la cantidad del pedido.
 -   **Lote de recursos:** esta opción es básicamente la misma que la opción **Lote**. Sin embargo, el cálculo incluye el campo **Capacidad de lote** del recurso de operaciones. Por lo tanto, el tiempo depende de los recursos.
 

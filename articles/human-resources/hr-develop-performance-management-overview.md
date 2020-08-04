@@ -3,7 +3,7 @@ title: Gestión del rendimiento
 description: El proceso de gestión del rendimiento permite a los empleados documentar y comentar su rendimiento con el administrador. A su vez, los administradores pueden proporcionar comentarios de retroalimentación y orientación a los empleados.
 author: andreabichsel
 manager: AnnBe
-ms.date: 12/11/2019
+ms.date: 07/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-human-resources
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6147b5d92381d76c572f8a10e52c9ed00225e7eb
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 4786717826592973d3b049c4aa5ca615332d5bc6
+ms.sourcegitcommit: 98cfbb42fc556e1afcb2fab50d8dff0ae2b7aa67
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3430449"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3609781"
 ---
 # <a name="performance-management"></a>Gestión del rendimiento
 
@@ -145,9 +145,9 @@ La página de medidas permite crear las medidas estándar que se utilizarán en 
 
 ### <a name="performance-journal-source-types"></a>Tipos de origen de diario de rendimiento
 
-Los tipos de origen del diario de rendimiento describen de dónde proceden los diarios de rendimiento. Puede ver si un artículo de diario será visto de manera predeterminada solo por el administrador, solo por el empleado, o por el administrador y el empleado. También puede habilitar o deshabilitar la característica de Enviar reconocimiento cambiando el tipo de origen del Reconocimiento. No puede deshabilitar los otros tipos de origen en este momento.
+Los tipos de origen del diario de rendimiento describen de dónde proceden los diarios de rendimiento. Puede ver si un artículo de diario será visto de manera predeterminada solo por el administrador, solo por el empleado, o por el administrador y el empleado. No puede deshabilitar los tipos de origen en este momento.
 
-### <a name="review-types"></a>Tipos de evaluación
+### <a name="review-types"></a>Tipos de revisión
 
 Los tipos de evaluación de rendimiento ayudan a controlar el comportamiento de una evaluación. Puede habilitar o deshabilitar el flujo de trabajo para una evaluación. Si la evaluación no utiliza flujo de trabajo, puede definir el estado predeterminado que se usará cuando se crea la evaluación. También puede decidir si se requiere que el empleado, el administrador o ambos aprueben la evaluación.
 

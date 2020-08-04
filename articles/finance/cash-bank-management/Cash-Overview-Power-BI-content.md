@@ -3,7 +3,7 @@ title: Visión general de contenido de efectivo de Power BI
 description: Este tema describe el contenido de efectivo de Power BI. Explica cómo tener acceso a los informes que se incluyen en el contenido, y proporciona información acerca del modelo de datos y las entidades que se utilizaron para generar el contenido.
 author: saraschi2
 manager: AnnBe
-ms.date: 06/25/2019
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7621ca961288af81966e0ac883c6525f89960654
-ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
+ms.openlocfilehash: 6ad99f00438b0f9ccbf84e504219e39aa49f2bc1
+ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553149"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3598142"
 ---
 # <a name="cash-overview-power-bi-content"></a>Visión general de contenido de efectivo de Power BI
 
@@ -38,10 +38,11 @@ El contenido de Power BI **Visión general de efectivo** se creó para las perso
 Es necesario completar la siguiente configuración para que los datos se muestren en los elementos visuales de Power BI **Visión general de efectivo** y **Gestión bancaria**.
 
 1. Vaya a **Administración del sistema > Configuración > Parámetros del sistema** para establecer **Divisa del sistema** y **Tipo de cambio del sistema**.
-2. Vaya a **Contabilidad general > Configuración > Libro mayor** para establecer **Divisa de contabilidad** y **Tipo de cambio**.
-2. Defina los tipos de cambio entre las Divisas de transacción y la Divisa de contabilidad, la Divisa de contabilidad y la Divisa del sistema, y la Divisa de contabilidad y las Divisas bancarias. Para ello, vaya a **Contabilidad general > Divisas > Tipos de cambio de divisas**.
-3. Configurar y ejecutar Previsiones de flujo de efectivo. Para obtener más información sobre cómo configurar Previsiones de flujo de efectivo, consulte [Previsiones de flujo de efectivo](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting). 
-4. Vaya a **Administración del sistema > Configuración > Almacén de entidades** para actualizar la medida agregada **LedgerCovLiquidityMeasurement**.
+2. Para validar las fechas del calendario fiscal asignadas al período de tiempo activo, vaya a **Contabilidad general > Calendarios > Calendarios fiscales**.
+3. Vaya a **Contabilidad general > Configuración > Libro mayor** para establecer **Divisa de contabilidad** y **Tipo de cambio**.
+4. Defina los tipos de cambio entre las divisas de transacción y la divisa de contabilidad, la divisa de contabilidad y la divisa del sistema, y la divisa de contabilidad y las divisas bancarias. Para ello, vaya a **Contabilidad general > Divisas > Tipos de cambio de divisas**.
+5. Configurar y ejecutar Previsiones de flujo de efectivo. Para obtener más información sobre cómo configurar Previsiones de flujo de efectivo, consulte [Previsiones de flujo de efectivo](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting). 
+6. Vaya a **Administración del sistema > Configuración > Almacén de entidades** para actualizar la medida agregada **LedgerCovLiquidityMeasurement**.
 
 ## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI
 

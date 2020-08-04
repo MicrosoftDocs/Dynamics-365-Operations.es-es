@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e8385b7dfcd1d7294542c7f54f609b26b7988ac4
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: b14baf49517f5d606038af20366944788b22eba2
+ms.sourcegitcommit: 1ec931f8fe86bde27f6def36ea214a2a05fb22f6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431254"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3554334"
 ---
 # <a name="copy-an-instance"></a>Copiar una instancia
 
@@ -68,11 +68,11 @@ Para completar esta tarea, primero copie una instancia y luego inicie sesión en
 
 4. En el panel de tareas **Copiar una instancia**, seleccione la instancia para sobrescribir y luego seleccione **Copiar**. Espere a que el valor del campo **Estado de copia** se actualice a **Terminado**.
 
-   ![[Seleccionar instancia para sobrescribir](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
+   ![[Seleccionar la instancia para sobrescribir](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
 5. Seleccione **Power Platform** e inicie sesión en el Centro de administración de Microsoft Power Platform.
 
-   ![[Seleccione Power Platform](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
+   ![[Seleccionar Power Platform](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
 6. Seleccione el entorno de PowerApps para copiar y luego seleccione **Copiar**.
 
@@ -108,6 +108,6 @@ Además, los siguientes estados cambian cuando copia una instancia:
 
 ## <a name="environment-admin"></a>Administración del entorno
 
-Todos los usuarios del entorno de espacio aislado de destino, incluidos los administradores, son reemplazados por los usuarios del entorno de origen. Antes de copiar una instancia, asegúrese de ser administrador en el entorno de destino. Si no lo está, no podrá iniciar sesión en el entorno de espacio aislado de destino una vez que se haya completado la copia.
+Todos los usuarios del entorno de espacio aislado de destino, incluidos los administradores, son reemplazados por los usuarios del entorno de origen. Antes de copiar una instancia, asegúrese de ser administrador en el entorno de origen. Si no lo está, no podrá iniciar sesión en el entorno de espacio aislado de destino una vez que se haya completado la copia.
 
 Todos los usuarios que no son administradores en el entorno de espacio aislado de destino están deshabilitados para evitar inicios de sesión no deseados en el entorno de espacio aislado. Los administradores pueden volver a habilitar a los usuarios si es necesario.

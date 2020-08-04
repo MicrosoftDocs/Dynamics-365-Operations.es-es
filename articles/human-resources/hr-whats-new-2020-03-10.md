@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-03-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7c1a9f10a434343e4c9c8a42ec5c0b7a1a18ad36
-ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
+ms.openlocfilehash: 1843095c41428d377341154c9f2140085831e770
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "3124025"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555271"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-10-2020"></a>Novedades y cambios en Dynamics 365 Human Resources (10 de marzo de 2020)
 
@@ -97,3 +97,10 @@ Las siguientes características de vista previa están disponibles desde el 3 de
 - Campos recomendados: los usuarios a menudo necesitan agregar campos a una cuadrícula o página. Esto puede ser difícil con tantos campos disponibles. En lugar de tener que buscar en una lista grande, esta función permite que el sistema muestre un conjunto de campos recomendados en función de lo que otros usuarios a menudo agregan en escenarios similares.
 
 - Acciones predeterminadas fijas en cuadrículas: esta función garantiza que la acción predeterminada en una cuadrícula esté vinculada a una columna específica en una cuadrícula, independientemente de si esa columna se mueve u oculta.
+
+## <a name="see-also"></a>Consulte también
+
+[Novedades y cambios en Human Resources](hr-admin-whats-new.md)</br>
+[Visión general de Dynamics 365 Human Resources 2019 en el segundo lanzamiento de versiones](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Actualizar proceso](hr-admin-setup-update-process.md)</br>
+[Administrar características](hr-admin-manage-features.md)

@@ -3,7 +3,7 @@ title: Espacio de trabajo de pagos de proveedor
 description: Este tema proporciona información acerca del espacio de trabajo Pagos a proveedores. El espacio de trabajo Pagos a proveedores muestra la información relacionada con el procesamiento de pagos a proveedores.
 author: abruer
 manager: AnnBe
-ms.date: 04/03/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 895725eeac46b5c20a2fb8dd932595a25fe372ce
-ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
+ms.openlocfilehash: 86091e16712092086a641d79e49afbc5b205e934
+ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3225022"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3598118"
 ---
 # <a name="vendor-payments-workspace"></a>Espacio de trabajo de pagos de proveedor
 
@@ -34,9 +34,10 @@ El espacio de trabajo **Pagos a proveedores** muestra la información relacionad
 
 Es necesario completar la siguiente configuración para que los datos se muestren en los elementos visuales de Power BI **Pagos a proveedores**.
 1. Vaya a **Administración del sistema > Configuración > Parámetros del sistema** para establecer **Divisa del sistema** y **Tipo de cambio del sistema**.
-2. Vaya a **Contabilidad general > Configuración > Libro mayor** para establecer **Divisa de contabilidad** y **Tipo de cambio**. 
-2. Defina los tipos de cambio entre las Divisas de transacción y la Divisa de contabilidad, la Divisa de contabilidad y la Divisa del sistema. Para ello, vaya a **Contabilidad general > Divisas > Tipos de cambio de divisas**.
-3. Vaya a **Administración del sistema > Configuración > Almacén de entidades** para actualizar la medida agregada **VendPaymentBIMeasureV2**. 
+2. Para validar las fechas del calendario fiscal asignadas al período de tiempo activo, vaya a **Contabilidad general > Calendarios > Calendarios fiscales**.
+3. Vaya a **Contabilidad general > Configuración > Libro mayor** para establecer **Divisa de contabilidad** y **Tipo de cambio**. 
+4. Defina los tipos de cambio entre las divisas de transacción y la divisa de contabilidad, y la divisa de contabilidad y la divisa del sistema. Para ello, vaya a **Contabilidad general > Divisas > Tipos de cambio de divisas**.
+5. Vaya a **Administración del sistema > Configuración > Almacén de entidades** para actualizar la medida agregada **VendPaymentBIMeasureV2**.
 
 ## <a name="my-work-view"></a>Vista Mi trabajo
 

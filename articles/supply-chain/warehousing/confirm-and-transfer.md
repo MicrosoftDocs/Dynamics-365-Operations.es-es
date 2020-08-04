@@ -2,7 +2,7 @@
 title: Confirmar y transferir
 description: Este tema explica cómo usar la función Confirmar y transferir, que permite a los usuarios enviar cargas fuera del almacén antes de completar todo el trabajo asociado con esas cargas.
 author: mirzaab
-manager: AnnBe
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 488eed23972022f9437e62a462ae5f70d6833a67
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: cc5dcec7e50f43d3c17feef55967b32b8a261cdd
+ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530567"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3597369"
 ---
 # <a name="confirm-and-transfer"></a>Confirmar y transferir
 

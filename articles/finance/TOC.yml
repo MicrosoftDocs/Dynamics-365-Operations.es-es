@@ -34,7 +34,7 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/finance/toc.json
                 - name: Automatización de tarea de datos
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/finance/toc.json
-                - name: Entrega de soluciones de fabricante de software independiente mediante One Version
+                - name: Entrega de soluciones de ISV mediante One Version
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/finance/toc.json
                 - name: Crear y automatizar pruebas de aceptación del usuario
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/finance/toc.json
@@ -2540,12 +2540,14 @@
                       href: localizations/rus-inventory-adjustment-wizard.md
                     - name: Informes de inventario
                       href: localizations/rus-inventory-reports.md
-                    - name: Visión general del perfil de inventario
-                      href: localizations/rus-inventory-profile-overview.md
-                    - name: Configurar un perfil de inventario
-                      hreF: localizations/rus-set-up-inventory-profile.md
-                    - name: Usar un perfil de inventario en documentos y consultas
-                      href: localizations/rus-use-inventory-profile-documents-queries.md
+                    - name: Perfil de inventario
+                      items:
+                        - name: Visión general del perfil de inventario
+                          href: localizations/rus-inventory-profile-overview.md
+                        - name: Configurar un perfil de inventario
+                          hreF: localizations/rus-set-up-inventory-profile.md
+                        - name: Usar un perfil de inventario en documentos y consultas
+                          href: localizations/rus-use-inventory-profile-documents-queries.md
                 - name: Informes
                   items:
                     - name: Informes financieros

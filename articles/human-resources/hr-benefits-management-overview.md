@@ -3,7 +3,7 @@ title: Visión general de administración de prestaciones
 description: Visión general de la característica de administración de prestaciones en Dynamics 365 Human Resources. Ofrezca a sus empleados opciones de prestaciones ampliadas con una experiencia en línea fácil de usar.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/06/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4157cb1f83d686d435f3d04e47c578df455376c9
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 1043fb18c33e5ec0cde13008b168fd317c7c7be6
+ms.sourcegitcommit: 9dc5c7dd5877cc6e7cd0059d173bcd8052ba13bc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429275"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3599389"
 ---
 # <a name="benefits-management-overview"></a>Visión general de la administración de prestaciones
 
@@ -59,6 +59,8 @@ Este artículo describe cómo activar las características en Recursos humanos. 
 ## <a name="configure-employee-information"></a>Configurar información de empleados
 
 Antes de poder inscribir a los empleados en las prestaciones, debe proporcionar la información requerida. Debe inscribir a un empleado en un **Plan de compensación fija** en su fecha de inicio, y debe seleccionar una **Frecuencia de pago de prestaciones** en **Detalles de empleo** en el formulario el **Trabajador**.
+
+Si tiene un empleado que recibe una compensación adicional como comisiones, puede agregar una cantidad **Salario anual de prestaciones** desde el registro del empleado. Recursos Humanos utilizará la cantidad **Salario anual de prestaciones** al determinar los importes de cobertura, en lugar del importe anual de compensación fija. El **Salario anual de prestaciones** debe ser válido a partir de la fecha de inicio del empleado o del comienzo del período de prestaciones, lo que sea más reciente. Si se registra una compensación fija y un importe de salario anual de prestaciones para un empleado, el salario anual de prestaciones se utilizará para determinar los importes de cobertura.
 
 Cuando crea un plan de prestaciones que utiliza tarifas que se basan en el sexo o la edad, debe ingresar una fecha de nacimiento y género del empleado para calcular el costo de la prestaciones.
 

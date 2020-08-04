@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-06-11
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 39f18dc92fb01f9a0437f4166c0f08f8d6b1b81b
-ms.sourcegitcommit: 218e22014a964b8b52fc0152e355b07b0b84ae2c
+ms.openlocfilehash: cba6e48899ec39fc4de6656f8151a42b8aa43261
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "3456629"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555204"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-11-2020"></a>Novedades o cambios en Dynamics 365 Human Resources (11 de junio de 2020)
 
@@ -95,3 +95,10 @@ Podrá hacer que los campos sean obligatorios mediante la personalización. Esta
 ## <a name="configure-the-name-of-employee-self-service"></a>Configurar el nombre de Autoservicio para empleados
 
 Una nueva opción estará disponible en los parámetros de Recursos humanos para actualizar el nombre del espacio de trabajo de autoservicio del empleado a Autoservicio. 
+
+## <a name="see-also"></a>Consulte también
+
+[Novedades y cambios en Human Resources](hr-admin-whats-new.md)</br>
+[Visión general de Dynamics 365 Human Resources 2019 en el segundo lanzamiento de versiones](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Actualizar proceso](hr-admin-setup-update-process.md)</br>
+[Administrar características](hr-admin-manage-features.md)

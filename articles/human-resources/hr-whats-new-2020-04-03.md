@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ab732853a2c37338d8003c5f8911c011aa8ffc60
-ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
+ms.openlocfilehash: 02243b2c75a4f50683a51c1d9d811f2e2a2d413f
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3225160"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555060"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-3-2020"></a>Novedades y cambios en Dynamics 365 Human Resources (3 de abril de 2020)
 
@@ -128,3 +128,10 @@ Si la vista previa del documento para documentos almacenados en SharePoint no fu
 3. Acceda a un archivo adjunto en SharePoint para comenzar la vista previa del documento.
 
 4. Inicie sesión con otra cuenta de usuario que tenga acceso a los archivos adjuntos y verifique que la vista previa funcione como se esperaba.
+
+## <a name="see-also"></a>Consulte también
+
+[Novedades y cambios en Human Resources](hr-admin-whats-new.md)</br>
+[Visión general de Dynamics 365 Human Resources 2019 en el segundo lanzamiento de versiones](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Actualizar proceso](hr-admin-setup-update-process.md)</br>
+[Administrar características](hr-admin-manage-features.md)

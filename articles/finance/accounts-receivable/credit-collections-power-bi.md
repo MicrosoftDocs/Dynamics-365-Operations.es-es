@@ -3,7 +3,7 @@ title: Contenido de administración de créditos y cobros de Power BI
 description: Este tema describe lo que se incluye en el contenido en Power BI de Administración de créditos y cobros. Explica cómo obtener acceso a los informes de Power BI y proporciona información acerca del modelo de datos y las entidades que se utilizan para generar el contenido.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 04/21/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5c4a2289d7fa0f062735c93cf26cba9ac29ab94e
-ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
+ms.openlocfilehash: 03face220fd63962f645b4fe91f20aec2f19b1ef
+ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3278883"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3598067"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>Contenido de administración de créditos y cobros de Power BI
 
@@ -47,9 +47,10 @@ De forma predeterminada, se muestran los datos sobre créditos y cobros para la 
 Es necesario completar la siguiente configuración para que los datos se muestren en los elementos visuales de Power BI **Crédito y cobros de clientes**.
 
 1. Vaya a **Administración del sistema > Configuración > Parámetros del sistema** para establecer **Divisa del sistema** y **Tipo de cambio del sistema**.
-2. Vaya a **Contabilidad general > Configuración > Libro mayor** y establezca **Divisa de contabilidad** y **Tipo de cambio**.
-3. Defina los tipos de cambio entre las Divisas de transacción y la Divisa de contabilidad, la Divisa de contabilidad y la Divisa del sistema. Para ello, vaya a **Contabilidad general > Divisas > Tipos de cambio de divisas**.
-4. Vaya a **Administración del sistema > Configuración > Almacén de entidades** para actualizar la medida agregada **CustCollectionsBIMeasurementsV2**.
+2. Para validar las fechas del calendario fiscal asignadas al período de tiempo activo, vaya a **Contabilidad general > Calendarios > Calendarios fiscales**.
+3. Vaya a **Contabilidad general > Configuración > Libro mayor** y establezca **Divisa de contabilidad** y **Tipo de cambio**.
+4. Defina los tipos de cambio entre las divisas de transacción y la divisa de contabilidad, la divisa de contabilidad, y la divisa del sistema. Para ello, vaya a **Contabilidad general > Divisas > Tipos de cambio de divisas**.
+5. Vaya a **Administración del sistema > Configuración > Almacén de entidades** para actualizar la medida agregada **CustCollectionsBIMeasurementsV2**.
 
 ## <a name="accessing-the-power-bi-content"></a>Acceso al contenido de Power BI
 

@@ -3,7 +3,7 @@ title: Operación de inventario saliente en PDV
 description: Este tema describe las capacidades de la operación de inventario de salida del punto de venta (PDV).
 author: hhaines
 manager: annbe
-ms.date: 05/14/2020
+ms.date: 07/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 22f057c20898bb4b4c34e38d62313d2634a33511
-ms.sourcegitcommit: 3b6fc5845ea2a0de3db19305c03d61fc74f4e0d4
+ms.openlocfilehash: c2c8acfaf7b84870ce00bf1ae84440dd369df9da
+ms.sourcegitcommit: 037712e348fcbf3569587089bd668ee7bf5567ff
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3384138"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "3551634"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Operación de inventario saliente en PDV
 
@@ -58,6 +58,9 @@ Para configurar un marco de documentos asíncrono, complete los siguientes proce
 7. En la ficha desplegable **General**, en la sección **Configuración**, establezca la opción **Continuo** a **No** para garantizar que no haya problemas de rendimiento.
 
 ### <a name="create-and-schedule-two-batch-jobs-for-the-document-processing-and-monitoring-tasks"></a>Cree y programe dos trabajos por lotes para el procesamiento de documentos y las tareas de seguimiento
+
+> [!NOTE]
+> En la versión 10.0.13 y posteriores de Commerce, no tiene que configurar los trabajos por lotes a través del marco de trabajo por lotes. Los procesos por lotes se pueden configurar desde el menú **Retail y Commerce > TI de Retail y Commerce**. Utilice las opciones de menú **Supervisor de operación de documento minorista** y **Procesamiento de operación de documento minorista** para configurar los trabajos por lotes
 
 Los trabajos por lotes que cree se usarán para procesar documentos que fallan o que caducan. También se utilizarán cuando el número de documentos de inventario activos que se procesan desde el PDV excede un valor configurado por el sistema.
 

@@ -1,9 +1,9 @@
 ---
-title: Información general del entorno de vista previa de Dynamics 365 Commerce
-description: Este tema ofrece una visión general del entorno de vista previa de Microsoft Dynamics 365 Commerce.
+title: Información general del entorno de evaluación de Dynamics 365 Commerce
+description: Este tema ofrece una visión general del entorno de evaluación de Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 12/10/2019
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,45 +17,50 @@ ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1ff96aeb5963df9ddee56783a089dad129bbb71c
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: 25c0574e8d4502bcb846fba0ddf913d81eded87b
+ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024692"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "3599775"
 ---
-# <a name="dynamics-365-commerce-preview-environment-overview"></a>Información general del entorno de vista previa de Dynamics 365 Commerce
-
+# <a name="dynamics-365-commerce-evaluation-environment-overview"></a>Información general del entorno de evaluación de Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Este tema ofrece una visión general del entorno de vista previa de Microsoft Dynamics 365 Commerce.
+Este tema ofrece una visión general del entorno de evaluación de Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Visión general
+> [!NOTE]
+> Los entornos de evaluación de Commerce no suelen estar disponibles y se conceden a socios y clientes por solicitud. Para obtener más información, póngase en contacto con su partner de Microsoft.
 
-El entorno de vista previa de Commerce es un entorno de vista previa opcional de extremo a extremo de Dynamics 365 Commerce que permite a los clientes potenciales probar el producto de Commerce antes de su lanzamiento general al público.
+## <a name="overview"></a>Información general
 
-Además de algunas limitaciones menores que no afectan las características o la funcionalidad, el entorno de vista previa de Commerce proporciona la experiencia completa de Commerce, y los clientes y socios de implementación pueden usarlo para evaluar el producto, proporcionar comentarios y hacer análisis de ajuste / brecha.
+El entorno de evaluación de Commerce es un entorno integral opcional de Dynamics 365 Commerce que permite a partners y posibles clientes probar el producto de Commerce.
 
-## <a name="limitations-of-the-commerce-preview-environment"></a>Limitaciones del entorno de vista previa de Commerce
+Los entornos de evaluación están parcialmente preconfigurados para reducir los pasos necesarios posteriores al aprovisionamiento.
 
-Aunque el entorno de vista previa de Commerce proporciona el conjunto completo de características y funcionalidades de Commerce, existen algunas limitaciones menores:
+Además de algunas limitaciones secundarias que no afectan a las características o a la funcionalidad, el entorno de evaluación de Commerce proporciona la experiencia completa de Commerce, y los clientes y partners de implementación pueden usarlo para evaluar el producto, proporcionar comentarios y realizar análisis de idoneidad/lagunas.
 
-- Aunque el entorno de vista previa de Commerce en sí no tiene limitaciones geográficas, los componentes del entorno, como el Retail Cloud Scale Unit (RCSU) y las aplicaciones de comercio electrónico, solo se pueden aprovisionar en los Estados Unidos.
-- El entorno de vista previa de Commerce tiene un límite de tiempo de uso de 30 días a partir de la fecha de aprovisionamiento de comercio electrónico.
-- El entorno de vista previa de Commerce se puede implementar e inicializar con éxito solo en un entorno que utiliza la topología de demostración, donde todos los componentes de un entorno se implementan en una sola máquina virtual (VM). La principal limitación de esta topología de OneBox VM es la cantidad de usuarios simultáneos que el entorno de vista previa puede admitir.
-- El entorno de vista previa de Commerce solo se puede evaluar hasta la disponibilidad general (GA) del producto de Commerce. Nuevos entornos de demostración estarán disponibles después de GA.
+## <a name="limitations-of-the-commerce-evaluation-environment"></a>Limitaciones del entorno de evaluación de Commerce
+
+Aunque el entorno de evaluación de Commerce proporciona el conjunto completo de características y funcionalidades de Commerce, hay algunas limitaciones secundarias:
+
+- Aunque el entorno de evaluación de Commerce en sí no tiene limitaciones geográficas, los componentes del entorno, como el Retail Cloud Scale Unit (RCSU) y las aplicaciones de comercio electrónico, solo se deben aprovisionar en Estados Unidos.
+- El entorno de evaluación de Commerce tiene un límite de tiempo de uso de 30 días a partir de la fecha de aprovisionamiento de comercio electrónico.
+- El entorno de evaluación de Commerce solo se puede implementar e inicializar correctamente en un entorno que utiliza la topología de demostración, donde todos los componentes de un entorno se implementan en una sola máquina virtual hospedada en la nube (VM). La limitación principal de esta topología es el número de usuarios simultáneos que puede admitir el entorno.
 
 ## <a name="get-started"></a>Introducción
 
-Para aprovisionar el entorno de vista previa de Commerce, vea [Provisión de un entorno de vista previa de Commerce](provisioning-guide.md).
+Para aprovisionar el entorno de evaluación de Commerce, consulte [Aprovisionar un entorno de evaluación de Commerce](provisioning-guide.md).
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Aprovisionar un entorno de vista previa de Dynamics 365 Commerce](provisioning-guide.md)
+[Aprovisionar un entorno de evaluación de Dynamics 365 Commerce](provisioning-guide.md)
 
-[Configurar un entorno de vista previa de Dynamics 365 Commerce](cpe-post-provisioning.md)
+[Configurar un entorno de evaluación de Dynamics 365 Commerce](cpe-post-provisioning.md)
 
-[Configurar características opcionales para un entorno de vista previa de Dynamics 365 Commerce](cpe-optional-features.md)
+[Configurar BOPIS en un entorno de evaluación de Dynamics 365 Commerce](cpe-bopis.md)
 
-[Preguntas frecuentes sobre el entorno de vista previa de Dynamics 365 Commerce](cpe-faq.md)
+[Configurar características opcionales para un entorno de evaluación de Dynamics 365 Commerce](cpe-optional-features.md)
+
+[Preguntas más frecuentes sobre el entorno de evaluación de Dynamics 365 Commerce](cpe-faq.md)

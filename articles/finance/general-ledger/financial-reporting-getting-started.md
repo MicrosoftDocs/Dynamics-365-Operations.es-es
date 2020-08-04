@@ -3,7 +3,7 @@ title: Visión general de informes financieros
 description: Este tema describe cómo acceder a los informes financieros en Microsoft Dynamics 365 Finance y cómo usar las capacidades de informes financieros. Incluye una descripción de los informes financieros predeterminados proporcionados.
 author: aprilolson
 manager: AnnBe
-ms.date: 04/14/2020
+ms.date: 07/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6cd77e22f9c6f90f6aa9934d70a121008e1274dd
-ms.sourcegitcommit: 5419f2b8f51cd5de55be66d1389b5b9d7771fd52
+ms.openlocfilehash: 015f0282a2defcd7a8388eeaa70e0de6fb7cac78
+ms.sourcegitcommit: faaa4215f513885dd92cf7430b3612848ec09893
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262658"
+ms.lasthandoff: 07/20/2020
+ms.locfileid: "3609598"
 ---
 # <a name="financial-reporting-overview"></a>Visión general de informes financieros
 
@@ -34,7 +34,7 @@ Este tema describe cómo acceder a los informes financieros y cómo usar las cap
 <a name="accessing-financial-reporting"></a>Acceso a informes financieros
 -----------------------------
 
-Encontrará el menú **Informes financieros** en los dos siguientes lugares:
+Encontrará el menú **Informes financieros** en los siguientes lugares:
 
 -   **Contabilidad general** &gt; **Consultas e informes**
 -   **Gestión presupuestaria** &gt; **Consultas e informes** &gt; **Gestión presupuestaria básica**
@@ -45,10 +45,11 @@ Encontrará el menú **Informes financieros** en los dos siguientes lugares:
 Para crear y generar informes financieros para una entidad jurídica, debe configurar la siguiente información para esa entidad jurídica:
 
 -   Calendario fiscal
--   Libro mayor
+-   Contabilidad
 -   Plan contable
 -   Divisa
 
+## <a name="granting-security-access-to-financial-reporting"></a>Concesión de acceso de seguridad a los Financial Reporting
 Las funciones de informes financieros están disponibles para los usuarios que tienen los privilegios y los derechos adecuados asignados con sus roles de seguridad. Las secciones siguientes muestran estos privilegios y deberes, junto con los roles asociados.
 
 ### <a name="duties"></a>Deberes
@@ -78,15 +79,26 @@ Las funciones de informes financieros están disponibles para los usuarios que t
 | Generar informes financieros            | Generar informes financieros            | Director financiero, CFO, contable                                                            |
 | Ver informes financieros                | Revisar rendimiento financiero          | Ninguno asignado                                                                   |
 
-Tras la adición de un usuario o el cambio de un rol, el usuario debe poder tener acceso a informes financieros al cabo de unos minutos. **Nota:** el rol sysadmin se agrega a todos los roles en informes financieros.
+Tras la adición de un usuario o el cambio de un rol, el usuario debe poder tener acceso a informes financieros al cabo de unos minutos. 
+
+> [!NOTE]
+> El rol sysadmin se agrega a todos los roles en informes financieros.
 
 ## <a name="report-deletions-and-expirations"></a>Notificar eliminaciones y vencimientos
 Los usuarios que generan un informe pueden eliminar sus propios informes. Los usuarios con el deber **Mantener seguridad de informes financieros** puede eliminar los informes de otros. 
 
-En la versión 10.0.8, se introdujo el concepto de fechas de vencimiento. Se habilitará una nueva función requerida en la página **Todas** dentro del espacio de trabajo de gestión de características. La característica **Políticas de retención de informes financieros** contiene los siguientes cambios:
+En la versión 10.0.7 se introdujo el concepto de fechas de vencimiento. Una característica nueva obligatoria se habilitará en el espacio de trabajo de administración de características. Esta característica contiene los siguientes cambios:
+
+* Los informes recién generados se marcarán automáticamente con una fecha de vencimiento de 90 días a partir de la fecha en que se generen.
+* Cualquier informe existente que sea anterior a la instalación de la característica tendrá un período de vencimiento de 90 días. La fecha puede mostrarse en blanco durante un corto período de tiempo hasta que se ejecute el servicio de informes financieros, se genere un informe y el servicio realice la actualización de los informes existentes con una fecha de vencimiento en blanco. 
+* Los usuarios con la opción **Mantener seguridad de informes financieros** tienen acceso a esta funcionalidad. Cualquier usuario con el deber **Mantener informes financieros** que tenga concedido el privilegio **Mantener el vencimiento del informe financiero** también tendrá la capacidad de modificar el período de vencimiento. Actualmente hay dos opciones de retención disponibles:
+   * Un vencimiento de 90 días.
+   * La opción de establecer que el informe nunca venza
+
+Cuando se selecciona un vencimiento, como 90 días, se aplica dentro de 90 días a partir de hoy, lo que es un comportamiento diferente de los 90 días a partir de la fecha de generación original establecida al generarse el informe. En la versión 10.0.8, se introdujo el concepto de fechas de vencimiento. Está habilitada una nueva función requerida en la página **Todas**, dentro del espacio de trabajo de gestión de características. La característica **Políticas de retención de informes financieros** contiene los siguientes cambios:
 * Los informes recién generados se marcarán automáticamente con una fecha de vencimiento de 90 días a partir de la fecha en que se generaron
 * Cualquier informe existente que sea anterior a la instalación de la característica tendrá un período de vencimiento de 90 días. La fecha puede mostrarse en blanco durante un corto período de tiempo hasta que se ejecute el servicio de informes financieros, se genere un informe y el servicio realice la actualización de los informes existentes con una fecha de vencimiento en blanco. 
-* Los usuarios con **Mantener seguridad de informes financieros** tienen acceso a esta funcionalidad. Cualquier usuario con el deber **Mantener informes financieros** que tenga concedido el privilegio **Mantener el vencimiento del informe financiero** también tendrá la capacidad de modificar el período de vencimiento. Actualmente hay dos opciones de retención disponibles. 
+* Los usuarios con **Mantener seguridad de informes financieros** tienen acceso a esta funcionalidad. Cualquier usuario con el deber **Mantener informes financieros** que tenga concedido el privilegio **Mantener el vencimiento del informe financiero** también tendrá la capacidad de modificar el período de vencimiento. Actualmente hay dos opciones de retención disponibles: 
   * Un vencimiento de 90 días.
   * La opción de establecer que el informe nunca venza.
   
@@ -125,16 +137,36 @@ Los informes financieros proporcionan 22 informes financieros predeterminados. C
 | Depositar fondos presupuestarios disponibles - Valor predeterminado                         | Vea una comparación detallada de presupuesto revisado, gastos reales, reservas de presupuesto y fondos de presupuestos disponibles para todas las cuentas                                                                                                                                                                                  |
 
 ## <a name="opening-financial-reports"></a>Apertura de informes financieros
-Al hacer clic en el menú **Informes financieros**, se muestra la lista de informes financieros predeterminado para la empresa. A continuación, puede abrir o modificar un informe. Para abrir uno de los informes predeterminados, seleccione el nombre del informe. La primera vez que se abre un informe, se genera automáticamente para el mes anterior. Por ejemplo, si abre un informe por primera vez en agosto de 2016, el informe se genera para el 31 de julio de 2016. Tras abrir un informe, puede empezar a explorarlo profundizando en fragmentos específicos de datos y cambiando las opciones de informe.
+Al seleccionar el menú **Informes financieros**, se muestra la lista de informes financieros predeterminados para la empresa. A continuación, puede abrir o modificar un informe. Para abrir uno de los informes predeterminados, seleccione el nombre del informe. La primera vez que se abre un informe, se genera automáticamente para el mes anterior. Por ejemplo, si abre un informe por primera vez en agosto de 2019, el informe se genera para el 31 de julio de 2019. Tras abrir un informe, puede empezar a explorarlo profundizando en fragmentos específicos de datos y cambiando las opciones de informe.
 
 ## <a name="creating-and-modifying-financial-reports"></a>Creación y modificación de informes financieros
-A partir de la lista de informes financieros, puede crear un nuevo informe o modificar un informe existente. Si dispone de los permisos adecuados, puede crear un nuevo informe financiero haciendo clic en **Nuevo** del panel de acciones. Se descarga un programa del diseñador de informes en el dispositivo. Una vez iniciado el diseñador de informes, puede crear el nuevo informe. Tras guardar el nuevo informe, aparece en la lista de informes financieros. En la lista se muestran solo los informes que se crearon para la empresa que está usando en Finance. 
+A partir de la lista de informes financieros, puede crear un nuevo informe o modificar un informe existente. Si dispone de los permisos adecuados, puede crear un nuevo informe financiero seleccionando **Nuevo** en el panel Acciones. Se descarga un programa del diseñador de informes en el dispositivo. Una vez iniciado el diseñador de informes, puede crear el nuevo informe. Tras guardar el nuevo informe, aparece en la lista de informes financieros. En la lista se muestran solo los informes que se crearon para la empresa que está usando en Dynamics 365 Finance. 
 
-> [!NOTE] 
-> El equipo en el que está descargando el cliente del diseñador de informes debe tener instalada la versión 4.6.2 del Microsoft .NET Framework. Esta versión de Microsoft .NET Framework puede descargarse e instalarse desde el [Centro de descarga de Microsoft](https://www.microsoft.com/download/details.aspx?id=53345). Si está usando Chrome, debe instalar una extensión ClickOnce para descargar el cliente del diseñador de informes. Si está ejecutando en modo ingógnito, asegúrese de que la extensión ClickOnce está activada para el modo incógnito. También puede modificar un informe que aparece en la lista de informes financieros. Cuando se seleccione el área alrededor del nombre del informe, haga clic en **Editar** en el Panel de acciones. Se inicia el programa del diseñador de informes.
+## <a name="troubleshooting-issues-opening-report-designer"></a>Solución de problemas al abrir Diseñador de informes
+Existen algunos problemas comunes que pueden causar problemas al abrir Diseñador de informes. Esos problemas y los pasos para resolverlos son los siguientes.
+
+Problema 1: Diseñador de informes no se inicia cuando selecciona **Nuevo** o **Editar**.
+
+* En Internet Explorer, seleccione **Configuración** y luego **Opciones de Internet**. Seleccione la pestaña **Seguridad**. Seleccione Sitios de confianza y luego elija **Sitios**. En **Agregar este sitio web a la zona**, introduzca "\*\.dynamics.com" (sin comillas) y luego seleccione **Agregar**. 
+* En Internet Explorer, seleccione **Configuración** y luego **Opciones de Internet**. Seleccione la pestaña **Seguridad**. Seleccione Sitios de confianza. En el área etiquetada como Nivel de seguridad para esta zona, cambie la opción a **Medio-bajo**.
+* Deshabilite el bloqueador de elementos emergentes en su navegador.
+* Se requieren estaciones de trabajo para instalar Visual Studio .NET 4.6.2 o superior.
+
+Esta versión de Microsoft .NET Framework puede descargarse e instalarse desde el [Centro de descarga de Microsoft](https://www.microsoft.com/download/details.aspx?id=53345).
+* Si está usando el explorador Chrome, debe instalar una extensión ClickOnce para descargar el cliente de Diseñador de informes. Si está ejecutando en modo incógnito, asegúrese de que la extensión ClickOnce está activada para el modo incógnito. Si no puede iniciar sesión con Chrome, intente seguir los pasos de configuración descritos en el Problema 1 usando Internet Explorer o Edge. 
+
+Problema 2: al usuario no se le han asignado los permisos necesarios para utilizar Financial Reporting. 
+
+* Para verificar si el usuario no tiene permiso, seleccione **Sí** en el error “No se puede conectar con el servidor de Financial Reporting. Seleccione Sí caso de que desee continuar y especifique una dirección de servidor diferente.” Luego, seleccione **Prueba de conexión**. Si no tiene permiso, verá un mensaje que dice "Error en el intento de conexión. El usuario no tiene los permisos adecuados para conectarse al servidor. Póngase de contacto con el administrador del sistema”.
+* Los permisos requeridos se enumeran anteriormente, en [Conceder acceso de seguridad a Financial Reporting](#granting-security-access-to-financial-reporting). La seguridad en Financial Reporting se basa en estos privilegios. No tendrá acceso a menos que se le asignen estos privilegios (u otra función de seguridad que incluya estos privilegios). 
+* La tarea de integración **Proveedor de usuarios empresariales a la empresa** (que también es responsable de la integración de usuarios y se la llama así) se ejecuta en un intervalo de 5 minutos. Pueden pasar hasta 10 minutos para que cualquier cambio de permiso entre en vigencia en Financial Reporting. 
+  Si otro usuario puede abrir el Diseñador de informes, seleccione **Herramientas** y luego seleccione **Estado de integración**. Verifique que el mapa de integración, "Proveedor de usuarios empresariales a la empresa" se haya ejecutado correctamente porque se le asignó permiso para usar Financial Reporting. 
+* Es posible que otro error haya impedido que termine **Integración de usuario de Dynamics con usuario de Financial Reporting**. O es posible que se haya iniciado un reinicio de datamart y aún no se haya completado, o que se haya producido otro error del sistema. Intente ejecutar el proceso nuevamente más tarde. Si el problema persiste, comuníquese con el administrador del sistema.
+
+Problema 3: puede pasar de la página de inicio de sesión ClickOnce de Diseñador de informes, pero no puede completar el inicio de sesión en Diseñador de informes. 
+
+* La hora establecida en el ordenador local cuando introduce sus credenciales de inicio de sesión debe estar dentro de los cinco minutos posteriores a la hora del servidor de Financial Reporting. Si hay una diferencia de más de cinco minutos, el sistema no permitirá el inicio de sesión. 
+* En este caso, recomendamos habilitar la opción de Windows para configurar la hora de su PC automáticamente. 
 
 ## <a name="additional-resources"></a>Recursos adicionales
 - [Ver informes financieros](view-financial-reports.md)
-
-
-
