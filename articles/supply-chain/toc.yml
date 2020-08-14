@@ -70,15 +70,15 @@
                   items:
                     - name: Novedades y cambios de la página principal de Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Desarrollo de Supply Chain Management 10.0.13 (octubre de 2020)
+                      href: get-started/whats-new-scm-10-0-13.md
                     - name: Supply Chain Management 10.0.12 (agosto de 2020)
                       href: get-started/whats-new-scm-10-0-12.md
                     - name: Supply Chain Management 10.0.11 (julio de 2020)
                       href: get-started/whats-new-scm-10-0-11.md
-                    - name: Supply Chain Management 10.0.10 (mayo de 2020)
-                      href: get-started/whats-new-scm-10-0-10.md
                 - name: Características quitadas u obsoletas
                   items:
-                    - name: Características quitadas u obsoletas de Dynamics 365 Supply Chain Management
+                    - name: Características quitadas o en desuso en Dynamics 365 Supply Chain Management
                       href: get-started/removed-deprecated-features-scm-updates.md
                     - name: Funciones quitadas u obsoletas de versiones anteriores
                       href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
@@ -109,23 +109,23 @@
             - name: Catálogo de aprendizaje
               items:
                 - name: Página principal de Catálogo de aprendizaje
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Responsables de la toma de decisiones empresariales
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-bdm.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-bdm.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Usuarios empresariales
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-business-user.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-business-user.md
                 - name: Directores de proyectos de implementación
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-project-manager.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-project-manager.md
                 - name: Administradores
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-administrator.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-administrator.md
                 - name: Desarrolladores
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-developer.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-developer.md
                 - name: Ventas y marketing de socios
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-partner-sales.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-partner-sales.md
                 - name: Asesores funcionales
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-functional-consultant.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-functional-consultant.md
                 - name: Arquitectos de soluciones
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-solution-architect.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-solution-architect.md
             - name: Explorar la interfaz de usuario
               items:
                 - name: Elementos de la interfaz de usuario
@@ -1257,6 +1257,8 @@
               items:
                 - name: Diarios de inventario
                   href: inventory/inventory-journals.md
+                - name: Flujos de trabajo de aprobación de diario de inventario
+                  href: inventory/inventory-journal-workflow.md
                 - name: Ubicaciones del inventario
                   href: inventory/inventory-locations.md
                 - name: Estados de inventario
@@ -1267,6 +1269,8 @@
                   href: inventory/tasks/maintain-barcode-types.md
                 - name: Comprobar la disponibilidad de existencias
                   href: inventory/tasks/check-availability-stock.md
+                - name: Lista de inventario disponible
+                  href: inventory/inventory-on-hand-list.md
                 - name: Inicializar los niveles de existencias en el almacén
                   href: inventory/tasks/initialize-stock-levels-warehouse.md
                 - name: Transferencia del inventario físico en el almacén
@@ -1949,9 +1953,9 @@
                       href: production-control/resource-capabilities.md
                     - name: Definir capacidades de recursos
                       href: production-control/tasks/define-resource-capabilities.md
-                    - name: Rutas y operaciones.
+                    - name: Rutas y operaciones
                       href: production-control/routes-operations.md
-                    - name: Directivas de trabajo de almacén
+                    - name: Directivas de trabajo
                       href: warehousing/warehouse-work-policies.md
                     - name: Crear propiedades de programación de horarios de trabajo
                       href: production-control/tasks/create-working-time-scheduling-properties.md
@@ -2589,6 +2593,8 @@
                   href: warehousing/tasks/set-up-work-template-purchase-orders.md
                 - name: Combinación de dimensiones de producto de ubicación
                   href: warehousing/location-product-dimension-mixing.md
+                - name: Control de calidad
+                  href: warehousing/quality-check.md
             - name: Operaciones de almacén de salida
               items:
                 - name: Reservas en gestión de almacenes
@@ -2647,10 +2653,14 @@
                       href: warehousing/tasks/set-up-min-max-replenishment-process.md
                     - name: Reabastecimiento de umbral de zona
                       href: warehousing/zone-threshold-replenishment.md
+                    - name: Reabastecimiento según la capacidad de la ubicación
+                      href: warehousing/replenishment-over-location-capacity.md
                 - name: Planificación de carga y envíos
                   items:
                     - name: Confirmar y transferir
                       href: warehousing/confirm-and-transfer.md
+                    - name: Confirmar envíos salientes de trabajos por lotes
+                      href: warehousing/confirm-outbound-shipments-from-batch-jobs.md
                     - name: Planificación de carga avanzada durante una oleada
                       href: warehousing/advanced-load-building-during-wave.md
                     - name: Regla de liberación a almacén
@@ -2679,10 +2689,8 @@
               items:
                 - name: Directivas de trabajo de almacén
                   items:
-                    - name: Visión general de las directivas de trabajo de almacén
+                    - name: Directivas de trabajo
                       href: warehousing/warehouse-work-policies.md
-                    - name: Configurar directivas de trabajo de almacén
-                      href: warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
                     - name: Movimiento de inventario con trabajo asociado en gestión de almacenes
                       href: warehousing/move-inventory-associated-work.md
                     - name: Crear una clase de trabajo
@@ -2715,7 +2723,7 @@
                       href: warehousing/tasks/define-partial-location-cycle-counting-process.md
                     - name: Trabajo de limpieza de entradas disponibles de gestión de almacenes
                       href: warehousing/onhand-cleanup.md
-                    - name: Diario de inventario
+                    - name: Diarios de inventario
                       href: inventory/inventory-journals.md
                     - name: Ubicación de inventario
                       href: inventory/inventory-locations.md

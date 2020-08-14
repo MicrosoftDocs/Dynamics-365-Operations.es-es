@@ -90,6 +90,8 @@
                   items:
                     - name: Novedades y cambios en la página principal de Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.13 (octubre de 2020)
+                      href: get-started/whats-new-commerce-10-0-13.md
                     - name: Commerce 10.0.12 (agosto de 2020)
                       href: get-started/whats-new-commerce-10-0-12.md
                     - name: Commerce 10.0.11 (julio de 2020)
@@ -127,23 +129,23 @@
             - name: Catálogo de aprendizaje
               items:
                 - name: Página principal de Catálogo de aprendizaje
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog.md
                 - name: Responsables de la toma de decisiones empresariales
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-bdm.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-bdm.md?
                 - name: Usuarios empresariales
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-business-user.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-business-user.md
                 - name: Directores de proyectos de implementación
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-project-manager.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-project-manager.md
                 - name: Administradores
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-administrator.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-administrator.md
                 - name: Desarrolladores
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-developer.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-developer.md
                 - name: Ventas y marketing de socios
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-partner-sales.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-partner-sales.md
                 - name: Asesores funcionales
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-functional-consultant.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-functional-consultant.md
                 - name: Arquitectos de soluciones
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-solution-architect.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-solution-architect.md
             - name: Explorar la interfaz de usuario
               items:
                 - name: Elementos de la interfaz de usuario
@@ -310,6 +312,8 @@
                           href: ../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md?toc=/dynamics365/commerce/toc.json
                         - name: Importe completo y opciones de cálculo de intervalo para los códigos de impuestos
                           href: ../finance/general-ledger/whole-amount-interval-options-sales-tax-codes.md?toc=/dynamics365/commerce/toc.json
+                        - name: Cálculo de exención de impuestos
+                          href: tax-exempt-price-inclusive.md
                     - name: Configurar perfil de notificación por correo electrónico
                       href: email-notification-profiles.md
                     - name: Secuencias numéricas
@@ -386,6 +390,8 @@
                           href: define-maintain-channel-clients-registers-hw-stations.md
                         - name: Comprobación de estado para periféricos y servicios de punto de venta
                           href: pos-healthcheck.md
+                        - name: Compatibilidad para periféricos de red
+                          href: dev-itpro/network-peripherals.md
                     - name: Diseños de pantalla
                       items:
                         - name: Diseños de pantalla de datos de demostración en MPOS/CPOS
@@ -940,12 +946,14 @@
                   href: starter-kit-overview.md
                 - name: Módulos de contenedor
                   items:
-                    - name: Módulo contenedor
+                    - name: Módulo de contenedor
                       href: add-container-module.md
                     - name: Módulo de acordeón
                       href: add-accordion.md
                     - name: Módulo de pestaña
                       href: add-tab.md
+                    - name: Módulo de iFrame
+                      href: iframe-module.md
                 - name: Módulos de marketing
                   items:
                     - name: Módulo de banner promocional
@@ -968,6 +976,8 @@
                   items:
                     - name: Módulo de cuadro de compra
                       href: add-buy-box.md
+                    - name: Módulo de galería de medios
+                      href: media-gallery-module.md
                     - name: Módulos de clasificaciones y opiniones
                       href: ratings-reviews-modules.md
                 - name: Módulos de compra
@@ -980,10 +990,14 @@
                       href: add-checkout-module.md
                     - name: Módulo de detalles del pedido
                       href: order-confirmation-module.md
-                    - name: Módulo de selector de tienda
-                      href: store-selector.md
                     - name: Módulo de tarjeta de regalo
                       href: add-giftcard.md
+                - name: Módulos de buscador de tiendas
+                  items:
+                    - name: Módulo de mapa
+                      href: map-module.md
+                    - name: Módulo de selector de tienda
+                      href: store-selector.md
                 - name: Módulos de gestión de cuentas
                   items:
                     - name: Módulos y páginas de gestión de cuentas
@@ -1938,7 +1952,7 @@
                       href: e-commerce-extensibility/add-module-config-fields.md
                     - name: Obtener una vista previa y depurar módulos
                       href: e-commerce-extensibility/test-module.md
-                    - name: Probar módulos mediante bocetos
+                    - name: Probar módulos con bocetos de módulos
                       href: e-commerce-extensibility/test-module-mock.md
                     - name: Probar módulos mediante bocetos de página
                       href: e-commerce-extensibility/test-page-mock.md

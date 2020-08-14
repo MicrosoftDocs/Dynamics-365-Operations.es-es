@@ -70,6 +70,8 @@
                   items:
                     - name: Novedades y cambios en la página principal de Finance
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.13 (octubre de 2020)
+                      href: get-started/whats-new-changed-10-0-13.md
                     - name: Finance 10.0.12 (agosto de 2020)
                       href: get-started/whats-new-changed-10-0-12.md
                     - name: Finance 10.0.11 (julio de 2020)
@@ -107,23 +109,23 @@
             - name: Catálogo de aprendizaje
               items:
                 - name: Página principal de Catálogo de aprendizaje
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog.md
                 - name: Responsables de la toma de decisiones empresariales
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-bdm.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-bdm.md
                 - name: Usuarios empresariales
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-business-user.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-business-user.md
                 - name: Directores de proyectos de implementación
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-project-manager.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-project-manager.md
                 - name: Administradores
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-administrator.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-administrator.md
                 - name: Desarrolladores
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-developer.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-developer.md
                 - name: Ventas y marketing de socios
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-partner-sales.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-partner-sales.md
                 - name: Asesores funcionales
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-functional-consultant.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-functional-consultant.md
                 - name: Arquitectos de soluciones
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-solution-architect.md?toc=/dynamics365/finance/toc.json
+                  href: ./get-started/learning-catalog-solution-architect.md
             - name: Explorar la interfaz de usuario
               items:
                 - name: Elementos de la interfaz de usuario
@@ -846,6 +848,8 @@
                   href: accounts-payable/accounting-distributions.md
                 - name: Procesar asignaciones
                   href: general-ledger/process-allocations.md
+                - name: Condiciones de asignación
+                  href: general-ledger/main-account-allocation-terms.md
                 - name: Dimensiones financieras
                   href: general-ledger/financial-dimensions.md
                 - name: Grupos de cuentas de consolidación y cuentas de consolidación adicionales
@@ -1122,6 +1126,8 @@
                   href: public-sector/advanced-ledger-entries-public-sector.md
                 - name: Creación de un asiento contable avanzado en el sector público
                   href: public-sector/tasks/create-advanced-ledger-entry-public-sector.md
+                - name: Saldo de comprobación con informe de detalles de transacciones
+                  href: public-sector/general-ledger-public-sector-trial-balance.md
                 - name: Usar límites de control de efectivo
                   href: public-sector/cash-control.md
                 - name: Procesamiento de cierre de ejercicio en el sector público
@@ -1146,6 +1152,8 @@
               href: public-sector/tasks/create-fund-type-public-sector.md
             - name: Agregar un tipo de certificación a un proveedor en el sector público
               href: public-sector/tasks/add-certification-type-vendor-public-sector.md
+            - name: Cálculo del impuesto unificados canadiense
+              href: public-sector/Calculating-Canadian-Harmonized-sales-tax.md
         - name: Informes financieros
           items:
             - name: Visión general de informes financieros
@@ -1846,6 +1854,8 @@
                           href: localizations/apac-ind-news-letter-10-0-10.md
                         - name: Novedades y cambios en 10.0.11
                           href: localizations/apac-ind-news-letter-10-0-11.md
+                        - name: Novedades y cambios en 10.0.12
+                          href: localizations/apac-ind-news-letter-10-0-12.md
                     - name: Grupos de referencia de India GST
                       href: localizations/apac-ind-gst-reference-groups.md
                     - name: Integración de GST para cajas registradoras
@@ -2632,10 +2642,14 @@
                   href: localizations/emea-esp-promissory-note-options.md
                 - name: Informe 340
                   href: localizations/emea-esp-report-340.md
+                - name: Informe de declaración 347
+                  href: localizations/emea-esp-declaration-347-report.md
                 - name: Ciclos de compra y venta
                   href: localizations/emea-esp-sales-purchase-cycle.md
                 - name: Entradas especiales y hojas de apertura
                   href: localizations/emea-esp-opening-sheets-spain.md
+                - name: Suministro inmediato de información sobre el IVA
+                  href: localizations/emea-esp-sii.md
             - name: Suecia
               items:
                 - name: Visión general de Suecia
