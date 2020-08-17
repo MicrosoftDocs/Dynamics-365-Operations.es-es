@@ -3,7 +3,7 @@ title: Módulo de cuadro de compra
 description: En este tema se tratan los módulos de cuadro de compra y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,17 +17,17 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 583937be92b62991cd13f0806df4a0a6c9ac049c
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: 9780aabbac6d01d41dae526c7c06139eba07de4e
+ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411351"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3645348"
 ---
 # <a name="buy-box-module"></a>Módulo de cuadro de compra
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 En este tema se tratan los módulos de cuadro de compra y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 
@@ -61,7 +61,7 @@ Los temas se pueden usar para eliminar o cambiar el orden de las propiedades del
 
 ## <a name="modules-that-can-be-used-in-a-buy-box-module"></a>Módulos que se pueden usar en un módulo de cuadro de compra
 
-- **Galería de medios** Este módulo se usa para mostrar imágenes de un producto en una página de detalles de productos. Puede admitir de una a varias Imágenes. También admite imágenes en miniatura. Las imágenes en miniatura se pueden organizar horizontalmente fila (como fila debajo de la imagen) o verticalmente (como columna junto a la imagen). El módulo de galería de medios se puede agregar a la franja **Medios** del módulo del cuadro de compra. Actualmente solo admite imágenes y vídeos. 
+- **Galería de medios** Este módulo se usa para mostrar imágenes de un producto en una página de detalles de productos. Para obtener más información sobre este módulo, consulte [Módulo de galería de medios](mediagallery-module.md).
 - **Selector de tienda**: este módulo muestra una lista de las tiendas cercanas en las que un artículo está disponible para su recogida. Permite a los usuarios especificar una ubicación para encontrar tiendas cercanas. Para obtener más información sobre este módulo, consulte [Módulo selector de tienda](store-selector.md).
 
 ## <a name="buy-box-module-settings"></a>Configuración del módulo de cuadro de compra
@@ -108,15 +108,17 @@ Para agregar un módulo de cuadro de compra a una página nueva y establecer las
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general de kit de inicio](starter-kit-overview.md)
+[Visión general del kit de inicio](starter-kit-overview.md)
 
 [Módulo de selector de tienda](store-selector.md)
 
-[Módulo Contenedor](add-container-module.md)
+[Módulo de galería de medios](media-gallery-module.md)
+
+[Módulo contenedor](add-container-module.md)
 
 [Módulo de carro](add-cart-module.md)
 
-[Módulo de icono de carrito](cart-icon-module.md)
+[Módulo de icono de carro](cart-icon-module.md)
 
 [Módulo de finalización de compra](add-checkout-module.md)
 

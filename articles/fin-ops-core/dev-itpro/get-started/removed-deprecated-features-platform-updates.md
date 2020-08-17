@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 50362ccd9df7a44961bd6e46fa16779829b1c408
-ms.sourcegitcommit: 96ec8b7252296de0049bff406c743f8da9e0f0be
+ms.openlocfilehash: 393349240d16636d3eec747126cc1ee6f6f9998d
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/20/2020
-ms.locfileid: "3606831"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3651675"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Características de Platform quitadas u obsoletas
 
@@ -38,8 +38,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 ## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Platform updates para la versión 10.0.13 de aplicaciones Finance and Operations
 
 > [!NOTE]
-> La versión 10.0.13 aún no se ha lanzado. Esta información solo es para fines de planificación. El contenido y la funcionalidad de la versión 10.0.13 están sujetos a cambios. Para obtener más información sobre los lanzamientos, consulte [Disponibilidad de actualización del servicio](../../fin-ops/get-started/public-preview-releases.md).
-
+> La versión 10.0.13 es una versión preliminar. El contenido y la funcionalidad están sujetos a cambios. Para obtener más información acerca las versiones preliminares, consulte [Disponibilidad de actualización del servicio](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
 
 ### <a name="upgrade-of-three-jquery-component-libraries"></a>Actualización de tres bibliotecas de componentes jQuery 
 
@@ -50,6 +49,27 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 | **Áreas de producto afectadas**         | Controles extensibles, específicamente código JavaScript personalizado que utiliza API obsoletas o eliminadas |
 | **Opción de implementación**              | Todos |
 | **Estado**                         | Con la versión 10.0.13/Actualización de plataforma 37, los clientes pueden pasar opcionalmente a las últimas bibliotecas habilitando la característica "Actualizar tres bibliotecas de componentes jQuery". El cambio a las nuevas bibliotecas será obligatorio con la versión de abril de 2021 para dar tiempo a la migración de las API afectadas.   |
+
+### <a name="existing-grid-controlforcelegacygrid-api"></a>Control de cuadrícula existente/API forceLegacyGrid()
+
+|   |  |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | El control de cuadrícula existente se está reemplazando por el nuevo control de cuadrícula. |
+| **¿Reemplazado por otra característica?**   | El [nuevo control de cuadrícula](../..//fin-ops/get-started/grid-capabilities.md) |
+| **Áreas de producto afectadas**         | Cliente web |
+| **Opción de implementación**              | Todos |
+| **Estado**                         | En la versión 10.0.13, el nuevo control de cuadrícula generalmente está disponible, y los clientes pueden activar esta función opcionalmente. El nuevo control de cuadrícula será obligatorio en la versión de octubre de 2021. Cuando el nuevo control de cuadrícula pase a ser obligatorio, la API **forceLegacyGrid()** se dejará de aplicar. |
+
+### <a name="personalization-without-saved-views"></a>Personalización sin vistas guardadas 
+
+|   |  |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | El subsistema de personalización se ha revisado con la característica de vistas guardadas, para que tenga un mejor rendimiento y ofrezca capacidades adicionales. |
+| **¿Reemplazado por otra característica?**   | Vistas guardadas |
+| **Áreas de producto afectadas**         | Cliente web |
+| **Opción de implementación**              | Todos |
+| **Estado**                         | En la versión 10.0.13/Platform update 37, la función de vistas guardadas generalmente está disponible, y los clientes pueden activar esta característica opcionalmente. El característica de vistas guardadas será obligatoria en la versión de octubre de 2021. |
+
 
 ## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Platform updates para la versión 10.0.12 de aplicaciones Finance and Operations
 

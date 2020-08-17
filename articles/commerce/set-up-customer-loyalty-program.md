@@ -3,7 +3,7 @@ title: Visión general de fidelidad
 description: Este tema describe las capacidades de fidelidad dentro de Dynamics 365 Commerce y los pasos de configuración correspondientes para ayudar a minoristas a iniciarse fácilmente en el uso de sus programas de fidelidad.
 author: scott-tucker
 manager: AnnBe
-ms.date: 03/08/2019
+ms.date: 07/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 337ede63cb9175f2674bae8f2caaac5f1ba5f5cb
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: fd0ceefe1890214ab5fe2f619f6bf8ce718dec11
+ms.sourcegitcommit: 59fb179c770c799918f624cf345848fd4202bbdd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023975"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "3613212"
 ---
 # <a name="loyalty-overview"></a>Visión general de fidelidad
 
@@ -55,7 +55,7 @@ En la tabla siguiente se describe cada componente y dónde se usa en la configur
 | Configurar descuentos (requisito previo)                  | Configure los descuentos que ofrece a sus clientes de fidelización. Por ejemplo, puede ofrecer un descuento del 5 % en todos los productos de ropa. | Los descuentos se deben agregar a grupos de precios para que se incluyan en un programa de fidelización. Los grupos de precios se asignan a programas de fidelización y niveles de fidelización. |
 | Configurar grupos de precio (requisito previo)               | Los grupos de precios se usan para crear y administrar precios y descuentos para los productos. Configure grupos de precios que incluyan los descuentos que se aplican a los programas de fidelización. | Los grupos de precios se asignan a programas de fidelización y niveles del programa de fidelización. |
 | Configurar canales (requisito previo)                   | Los canales de Commerce son tiendas que participan en los programas de fidelización, tales como las tiendas físicas, las tiendas en línea o los centros de llamadas. Debe configurar los canales antes de poder asignarles programas de fidelización. | Puede asignar canales comerciales a un programa de fidelización si el canal participa en el programa de fidelización. |
-| Configuración del método de pago de fidelización (requisito previo) | Debe configurar un método de pago antes de que una tarjeta de fidelización se pueda usar en una caja registradora y los puntos de fidelización se puedan canjear como parte del programa de fidelización. También debe agregar el método de pago de fidelización al canal para que los clientes puedan canjear sus puntos de fidelización como pago para los productos. | Configure un método de pago de tipo de fidelización y asigne el método de pago de fidelización a los canales que participan en el programa de fidelización. |
+| Configuración del método de pago de fidelización (requisito previo) | Para garantizar que los puntos de fidelidad se puedan canjear en cualquier canal, como tiendas físicas, tiendas en línea o centros de atención telefónica, debe configurar el rango de huecos para las tarjetas de fidelización en la página **Números de tarjeta**. | Configure un método de pago de tipo de fidelización y asigne el método de pago de fidelización a los canales que participan en el programa de fidelización. |
 | Configurar intervalos de fechas                            | Los intervalos de fechas proporcionan una forma flexible de definir la duración que se aplica a los niveles de fidelización. Use intervalos de fechas para especificar el tiempo durante el cual un cliente puede permanecer en un nivel o de cuánto tiempo dispone para realizar una actividad para optar a un nivel. | Los intervalos de fechas solo se aplican si usa niveles en los programas de fidelización. Seleccione el intervalo de fechas que se aplica a los niveles de programa y también los intervalos de fechas que se aplican a las reglas del nivel del programa. |
 | Configurar puntos de recompensa                             | Los puntos de recompensa son los tipos de recompensa que se ofrecen a los clientes. Los puntos de recompensas pueden ser canjeables o no canjeables. Los puntos de recompensa canjeables se pueden cambiar para obtener productos. Los puntos de recompensa no canjeables se usan para hacer un seguimiento o para que un cliente avance al siguiente nivel del programa de fidelización. | Se hace referencia a los puntos de recompensa en las reglas de nivel y dichos puntos se usan para que cliente pueda entrar en un nivel específico. También se hace referencia a los puntos de recompensa en los esquemas de fidelización de las reglas obtención y canje. En las reglas de obtención, especifica las recompensas que un cliente puede obtener para una actividad específica. En las reglas de canje, especifica la recompensa que el cliente puede canjear. |
 | Configurar programas de fidelización                          | Los programas de fidelización son el corazón de la entidad de fidelización que ofrece. Cada programa de fidelización también puede tener asignados niveles de fidelización. Los descuentos y los grupos de precios se asignan a los programas de fidelización por programa o por nivel. | Se crean esquemas de fidelización para los programas de fidelización. Se asignan tarjetas de fidelización a los programas de fidelización y las tarjetas de fidelización se pueden asignar a un cliente. Los canales participan en programas de fidelización asignados a los esquemas de fidelización. Los clientes que tengan una tarjeta de fidelización pueden participar en los programas de fidelización asignados a la tarjeta. |

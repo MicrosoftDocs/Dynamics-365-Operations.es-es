@@ -3,7 +3,7 @@ title: Visión general de informes financieros
 description: Este tema describe cómo acceder a los informes financieros en Microsoft Dynamics 365 Finance y cómo usar las capacidades de informes financieros. Incluye una descripción de los informes financieros predeterminados proporcionados.
 author: aprilolson
 manager: AnnBe
-ms.date: 07/10/2020
+ms.date: 07/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 015f0282a2defcd7a8388eeaa70e0de6fb7cac78
-ms.sourcegitcommit: faaa4215f513885dd92cf7430b3612848ec09893
+ms.openlocfilehash: 86022b662c265b4b98f6df86647f61ea35d31432
+ms.sourcegitcommit: f5200f37c6c436183b4ee5711026ef92a7cb9538
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/20/2020
-ms.locfileid: "3609598"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3618047"
 ---
 # <a name="financial-reporting-overview"></a>Visión general de informes financieros
 
@@ -87,24 +87,16 @@ Tras la adición de un usuario o el cambio de un rol, el usuario debe poder tene
 ## <a name="report-deletions-and-expirations"></a>Notificar eliminaciones y vencimientos
 Los usuarios que generan un informe pueden eliminar sus propios informes. Los usuarios con el deber **Mantener seguridad de informes financieros** puede eliminar los informes de otros. 
 
-En la versión 10.0.7 se introdujo el concepto de fechas de vencimiento. Una característica nueva obligatoria se habilitará en el espacio de trabajo de administración de características. Esta característica contiene los siguientes cambios:
-
-* Los informes recién generados se marcarán automáticamente con una fecha de vencimiento de 90 días a partir de la fecha en que se generen.
-* Cualquier informe existente que sea anterior a la instalación de la característica tendrá un período de vencimiento de 90 días. La fecha puede mostrarse en blanco durante un corto período de tiempo hasta que se ejecute el servicio de informes financieros, se genere un informe y el servicio realice la actualización de los informes existentes con una fecha de vencimiento en blanco. 
-* Los usuarios con la opción **Mantener seguridad de informes financieros** tienen acceso a esta funcionalidad. Cualquier usuario con el deber **Mantener informes financieros** que tenga concedido el privilegio **Mantener el vencimiento del informe financiero** también tendrá la capacidad de modificar el período de vencimiento. Actualmente hay dos opciones de retención disponibles:
-   * Un vencimiento de 90 días.
-   * La opción de establecer que el informe nunca venza
-
-Cuando se selecciona un vencimiento, como 90 días, se aplica dentro de 90 días a partir de hoy, lo que es un comportamiento diferente de los 90 días a partir de la fecha de generación original establecida al generarse el informe. En la versión 10.0.8, se introdujo el concepto de fechas de vencimiento. Está habilitada una nueva función requerida en la página **Todas**, dentro del espacio de trabajo de gestión de características. La característica **Políticas de retención de informes financieros** contiene los siguientes cambios:
+En la versión 10.0.8, se introdujo el concepto de fechas de vencimiento. Está habilitada una nueva función requerida en la página **Todas**, dentro del espacio de trabajo de gestión de características. La característica **Políticas de retención de informes financieros** contiene los siguientes cambios:
 * Los informes recién generados se marcarán automáticamente con una fecha de vencimiento de 90 días a partir de la fecha en que se generaron
 * Cualquier informe existente que sea anterior a la instalación de la característica tendrá un período de vencimiento de 90 días. La fecha puede mostrarse en blanco durante un corto período de tiempo hasta que se ejecute el servicio de informes financieros, se genere un informe y el servicio realice la actualización de los informes existentes con una fecha de vencimiento en blanco. 
 * Los usuarios con **Mantener seguridad de informes financieros** tienen acceso a esta funcionalidad. Cualquier usuario con el deber **Mantener informes financieros** que tenga concedido el privilegio **Mantener el vencimiento del informe financiero** también tendrá la capacidad de modificar el período de vencimiento. Actualmente hay dos opciones de retención disponibles: 
   * Un vencimiento de 90 días.
   * La opción de establecer que el informe nunca venza.
   
-Se considerarán opciones adicionales en la funcionalidad futura. El vencimiento de 90 días será el predeterminado y los usuarios con los permisos adecuados pueden anular la configuración predeterminada en la página de lista **Informes financieros**.    
+Cuando se selecciona un vencimiento, como 90 días, se aplica 90 días a partir de hoy. Este es un comportamiento diferente al de los 90 días desde la fecha de generación original establecida cuando se generó el informe. 
   
-Cuando se selecciona un vencimiento de 90 días, otorga 90 días a partir de hoy, que es un comportamiento que difiere de los 90 días a partir de la fecha de generación original establecida al generar el informe. 
+Se considerarán opciones adicionales en la funcionalidad futura. El vencimiento de 90 días será el predeterminado y los usuarios con los permisos adecuados pueden anular la configuración predeterminada en la página de lista **Informes financieros**.    
 
 ## <a name="default-reports"></a>Informes predeterminados
 Los informes financieros proporcionan 22 informes financieros predeterminados. Cada informe usa las categorías de cuenta principal predeterminada. Puede usar estos informes tal cual o como punto de partida para las necesidades de informes financieros. Además de los informes financieros tradicionales, como Informe financiero y Balance de situación, estos informes predeterminados incluyen informes que muestran los diferentes tipos de informes financieros que puede crear. 

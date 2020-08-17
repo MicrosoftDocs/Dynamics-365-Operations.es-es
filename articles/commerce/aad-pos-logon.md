@@ -3,7 +3,7 @@ title: Habilitar autenticación Azure Active Directory para el inicio de sesión
 description: Este tema explica cómo configurar la experiencia de inicio de sesión para Microsoft Dynamics 365 Commerce punto de venta (PDV) para que use la autenticación Azure Active Directory.
 author: boycezhu
 manager: annbe
-ms.date: 05/20/2020
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: boycezhu
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 4f5a02348e8cef44424ae5d6a49de02d762ba245
-ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
+ms.openlocfilehash: ccb2d62b09153d03b064d9661227f3499d67bca2
+ms.sourcegitcommit: dc1dcd0ccc40be5d45701114fa8c952c13488344
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "3410044"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "3641042"
 ---
 # <a name="enable-azure-active-directory-authentication-for-pos-sign-in"></a>Habilitar autenticación Azure Active Directory para el inicio de sesión PDV
 [!include [banner](includes/banner.md)]
@@ -63,6 +63,9 @@ Para asociar una cuenta de Azure AD con un trabajador, siga estos pasos.
 1. Seleccione la cuenta Azure AD cuenta que se devuelve y luego seleccione **Aceptar**.
 
 Los campos **Alias**, **UPN** y **Sub identificador externo** en la pestaña **Commerce** de la página de detalles del trabajador se rellenarán.
+
+> [!NOTE]
+> Después de actualizar un registro de trabajador, por ejemplo, si una nueva cuenta de Azure AD se asocia, se cambia una contraseña o se actualiza la libreta de direcciones de un empleado, se recomienda que ejecute el programa de distribución **1060** (**Personal**) para sincronizar la última información del personal con el canal. De esa forma, la aplicación del PDV puede obtener los datos correctos para la autenticación del usuario y la comprobación de autorización.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

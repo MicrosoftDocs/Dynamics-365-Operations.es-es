@@ -3,7 +3,7 @@ title: Funcionalidad de cuadrícula
 description: Este tema describe varias características potentes del control de cuadrícula. La nueva característica de cuadrícula debe estar habilitada para tener acceso a estas capacidades.
 author: jasongre
 manager: AnnBe
-ms.date: 06/04/2020
+ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 88a4e2fe69000f8034729d468ad5fd108d435c3e
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: b1dd5e852bdc116d0848687782c930b19eae7900
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431369"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3651699"
 ---
 # <a name="grid-capabilities"></a>Funcionalidad de cuadrícula
 
@@ -128,20 +128,47 @@ Para que el sistema reconozca un valor como una expresión, comience el valor co
 
 Todas las sesiones de usuario posteriores comenzarán con el nuevo control de cuadrícula habilitado.
 
+## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Desarrollador] Desactivar páginas individuales para que no usen la nueva cuadrícula 
+Si su organización detecta una página que tiene problemas al utilizar la nueva cuadrícula, hay una API disponible para permitir que un formulario individual use el control de cuadrícula heredado al mismo tiempo que permite que el resto del sistema utilice el nuevo control de cuadrícula. Para excluir una página individual de la nueva cuadrícula, agregue la siguiente publicación de llamada `super()` en el método `run()` del formulario.
+
+        this.forceLegacyGrid();
+
+Esta API se aplicará hasta la versión de octubre de 2021, cuando el nuevo control de cuadrícula se vuelva obligatorio. Informe de cualquier problema a Microsoft que requiera que se utilice esta API. 
+
 ## <a name="known-issues"></a>Problemas conocidos
 Esta sección mantiene una lista de problemas conocidos para el nuevo control de cuadrícula mientras la característica está en un estado de vista previa.  
 
 ### <a name="open-issues"></a>Problemas abiertos
+-  Después de habilitar la característica **Nuevo control de cuadrícula**, algunas páginas continuarán utilizando el control de cuadrícula existente. Esto ocurrirá en las siguientes situaciones:  
+    -  Existe una lista de tarjetas en la página que se representa en varias columnas.
+    -  Existe una lista de tarjetas agrupadas en la página.
+    -  Una columna de cuadrícula con un control extensible sin reacción.
 
-- Las listas de tarjetas que se representaban como columnas múltiples ahora se representan como una sola columna.
-- Las listas agrupadas no se representan como grupos o en columnas separadas.
+    Cuando un usuario encuentra por primera vez una de estas situaciones, aparecerá un mensaje sobre la actualización de la página. Después de que aparezca este mensaje, la página continuará utilizando la cuadrícula existente para todos los usuarios hasta la próxima actualización de la versión del producto. Se considerará una mejor administración de estos escenarios, para que se pueda utilizar la nueva cuadrícula, en una actualización futura.     
 
 ### <a name="fixed-as-part-of-10013"></a>Corregido como parte de 10.0.13
 
-> [!NOTE]
-> Se proporciona la siguiente información para que pueda planificar en consecuencia. Para obtener más información acerca la programación de lanzamiento de la versión 10.0.13 objetivo, consulte [Disponibilidad de actualización del servicio](../../fin-ops/get-started/public-preview-releases.md).
-
-- [KB 4563317] La información sobre herramientas no se muestra para las imágenes.
+-  [Error 470173] Las casillas de verificación en filas inactivas se alternan cuando se hace clic en el espacio en blanco en la celda
+-  [Error 474848] Las vistas previas mejoradas con cuadrículas no se muestran
+-  [Error 474851] Los hipervínculos en los controles del grupo de referencia no funcionan 
+-  [Error 471777] No se pueden seleccionar campos en una cuadrícula para editar o crear una aplicación móvil
+-  [KB 4569441] Problemas con la representación de listas de tarjetas de varias columnas, información sobre herramientas en imágenes y opciones de visualización en algunos campos
+-  [KB 4575279] No todas las filas marcadas se eliminan en el diario general
+-  [KB 4575233] Las opciones de visualización no se restauran después de pasar a otra fila
+-  [KB 4571095] La publicación del recibo del producto se produce al presionar accidentalmente Entrar (administración correcta de la acción predeterminada de una página)
+-  [KB 4575437] Las búsquedas con controles editables se cierran inesperadamente
+-  [KB 4569418] Línea duplicada creada en el formulario de programación de entrega
+-  [KB 4575435] La vista previa mejorada a veces persiste incluso cuando el puntero del mouse no está cerca del campo
+-  [KB 4575434] La búsqueda no se filtra cuando el campo se ha modificado
+-  [KB 4575430] Los valores en los campos de contraseña no están enmascarados en la cuadrícula
+-  [KB 4569438] "El procesamiento se ha detenido debido a un problema de validación" aparece después de marcar líneas mientras se liquidan las transacciones del proveedor
+-  [KB 4569434] La actualización del formulario de entidades jurídicas da como resultado menos registros
+-  [KB 4575297] El foco sigue moviéndose al panel del registrador de tareas al editar y tabular a través de una cuadrícula
+-  [KB 4566773] Las transacciones de corrección no se muestran como negativas en la consulta de transacciones de comprobantes 
+-  [KB 4575288] El foco se restablece a la fila activa al seleccionar el borde entre filas en una lista simple
+-  [KB 4575287] El foco no vuelve a la primera columna cuando se usa la flecha hacia abajo para crear una nueva fila en los diarios
+-  [KB 4564819] No se pueden eliminar líneas en una factura de texto libre (porque el origen de datos ChangeGroupMode = ImplicitInnerOuter)
+-  [KB 4563317] La información sobre herramientas o las vistas previas mejoradas no se muestran para las imágenes
 
 ### <a name="fixed-as-part-of-10012"></a>Corregido como parte de 10.0.12
 
@@ -158,6 +185,7 @@ Esta sección mantiene una lista de problemas conocidos para el nuevo control de
 - [KB 4562647] El foco se restablece al primer control en el cuadro de diálogo **Publicar** después de agregar una nueva fila en la cuadrícula de roles de seguridad.
 - [KB 4563310] La vista previa mejorada no se cierra después de cambiar una fila.
 - [KB 4563313] Se produce un "error inesperado del cliente" en Internet Explorer cuando se selecciona un valor en una búsqueda.
+- [KB 4564557] Las búsquedas y los menús desplegables no se abrirán en Internet Explorer
 - [KB 4563324] La navegación no funciona después de abierto el espacio de trabajo **Gestión de personal**.
 
 ### <a name="fixed-as-part-of-10011"></a>Corregido como parte de 10.0.11

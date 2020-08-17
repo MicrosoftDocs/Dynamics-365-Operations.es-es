@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 32271e967da2e7f3702b0c6c2dcdba460aa1b382
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 4c8216ebdd1f26601743e6b35849be0813d06b4a
+ms.sourcegitcommit: 4676ea9646fa1a182103ecab93e78a69001f0b8d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770629"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3612671"
 ---
 # <a name="process-allocations"></a>Procesar asignaciones
 
@@ -34,8 +34,8 @@ Este artículo proporciona información sobre las asignaciones, las opciones par
 Las siguientes competencias admiten este proceso:
 
 -   Asigne manualmente los importes de transacción con la acción Dividir en las distribuciones contables o aplicando plantillas predeterminadas de dimensión financiera a un documento. Para obtener más información, consulte [Distribuciones contables](../accounts-payable/accounting-distributions.md).
--   Asigne automáticamente los importes de las transacciones en función de los términos de asignación definidos en la cuenta principal individual. Se generarán asientos contables de asignación para cada diario según el porcentaje y la cuenta contable de destino siempre que un asiento contable cumpla los criterios definidos como la cuenta contable de origen.
--   Asigne automáticamente los saldos contables o los importes fijos según las reglas de asignación contable. Las reglas de asignación contable se procesan de manera periódica con diarios de asignación. 
+-   Asigne automáticamente los importes de las transacciones en función de los términos de asignación definidos en la cuenta principal individual. Se generarán asientos contables de asignación para cada diario según el porcentaje y la cuenta contable de destino siempre que un asiento contable cumpla los criterios definidos como la cuenta contable de origen. Para obtener más información, consulte [Términos de asignación de la cuenta principal](../general-ledger/main-account-allocation-terms.md).
+-   Asigne automáticamente los saldos contables o los importes fijos según las reglas de asignación contable. Las reglas de asignación contable se procesan de manera periódica con diarios de asignación. Para obtener más información, consulte [Reglas de asignación](../general-ledger/ledger-allocation-rules.md).
 
 ###  <a name="allocations-in-budget-planning"></a>Asignaciones en planificación presupuestaria
 
@@ -43,8 +43,4 @@ Las reglas de asignación contable se pueden usar para planes presupuestarios. C
 
 > [!NOTE]
 > No puede usar las reglas de asignación contable de empresas vinculadas para la planificación presupuestaria.
-
-
-
-
 

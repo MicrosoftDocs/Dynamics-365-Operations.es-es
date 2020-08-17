@@ -3,7 +3,7 @@ title: Crear y administrar usuarios del portal del cliente
 description: Este tema explica cómo crear cuentas de usuario del portal del Cliente y establecer permisos para ellas.
 author: dasani-madipalli
 manager: tfehr
-ms.date: 04/22/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: c56e41b8ea5039531205083b5b42aff05e05cf66
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: a751cbffd98b8d47ca7dad222f0ce374381a393d
+ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3414007"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3645322"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Crear y administrar usuarios del portal del cliente
 
@@ -30,11 +30,16 @@ Para que un usuario pueda usar un sitio web, se debe crear un registro de contac
 
 Cuando los usuarios se registran por sí mismos, los registros de contacto se crean automáticamente para ellos. Por lo tanto, no puede asegurarse de que un usuario seleccione la cuenta de cliente y la entidad jurídica correctas. Sin embargo, el proceso de invitación permite que un administrador asigne la cuenta de cliente correcta y la entidad legal al registro de contacto antes de enviar una invitación. Si está pensando en personalizar la solución para que los usuarios puedan registrarse por sí mismos, asegúrese de considerar las posibles consecuencias.
 
+## <a name="video"></a>Vídeo
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ADkI]
+
+El vídeo [Invitar a los clientes a registrarse y usar el portal de clientes](https://youtu.be/drGUYHX9QIQ) (se muestra arriba) se incluye en la [Lista de reproducción de Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponible en YouTube.
+
 ## <a name="prerequisite-setup"></a>Requisitos previos de configuración
 
 Los contactos en los portales Power Apps se almacenan como registros en la entidad **Contactos** en Common Data Service. La escritura dual luego sincroniza estos registros con Microsoft Dynamics 365 Supply Chain Management según sea necesario.
 
-![![Diagrama del sistema para contactos del portal del cliente](media/customer-portal-contacts.png "Diagrama del sistema para contactos del portal del cliente")](media/customer-portal-contacts.png "System diagram for Customer portal contacts")
+![Diagrama del sistema para contactos del portal del cliente](media/customer-portal-contacts.png "Diagrama del sistema para contactos del portal del cliente")
 
 Antes de comenzar a invitar a nuevos clientes, asegúrese de haber habilitado el mapeo de entidades del **Contacto** en doble escritura.
 

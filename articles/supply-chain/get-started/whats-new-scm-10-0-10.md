@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: fdf4464e5b6fc6f2f4b99dcac80eb199799bf13d
-ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
+ms.openlocfilehash: e9ca2d2cd018777b4c5c01fb10d63505af3940c4
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3268779"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3652116"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10010-may-2020"></a>Novedades y cambios en Dynamics 365 Supply Chain Management 10.0.10 (mayo de 2020)
 
@@ -39,11 +39,11 @@ En este tema se enumeran las características nuevas o modificadas en Microsoft 
 En esta versión se incluyen las siguientes características. Los títulos de características están vinculados a información adicional en el sitio [Planes de lanzamiento](https://docs.microsoft.com/dynamics365/release-plans/). Los vínculos adicionales apuntan a documentación o vídeos adicionales que están disponibles actualmente para esa característica. La mayoría de estas características deben habilitarse mediante la [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para poder usarse.
 
 - [Mejora para usar etiquetas de peso de captura existentes con gestión de almacenes](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/enhancement-use-existing-catch-weight-tags-warehouse-management)
-- [Mejoras en la gestión de carga entrante para la gestión de almacenes](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement) - Para más información, ver [Gestión de almacén de cargas entrantes para pedidos de compra](../warehousing/inbound-load-handling.md).
-- [Mejoras en la impresión de etiquetas para la gestión de almacenes](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management) - Para más información, ver [Diseño de enrutamiento de documentos para etiquetas de matrículas de entidad](../warehousing/document-routing-layout-for-license-plates.md).
+- [Mejoras en la gestión de carga entrante para la gestión de almacenes](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - Para más información sobre la gestión de cargas entrantes , consulte [Gestión de almacén de cargas entrantes para pedidos de compra](../warehousing/inbound-load-handling.md).
+- [Mejoras en la impresión de etiquetas para la administración de almacén](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management)<br> - Para más información, consulte [Diseño de enrutamiento de documentos para etiquetas de matrículas de entidad de almacén](../warehousing/document-routing-layout-for-license-plates.md).
 - [La planificación maestra incluye artículos con inventario disponible cuando los filtros de preprocesamiento están habilitados](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/master-planning-include-items-on-hand-when-pre-processing-filters-are-enabled)
 - [Nuevas entidades de datos para el área de fabricación](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
-- [Gestión de calidad para procesos de almacén](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/quality-management-warehouse-processes) - Para más información, vea [Gestión de calidad para procesos de almacén](../inventory/quality-management-for-warehouses-processes.md).
+- [Administración de la calidad para procesos de almacén](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/quality-management-warehouse-processes)<br> - Para más información, consulte [Administración de la calidad para procesos de almacén](../inventory/quality-management-for-warehouses-processes.md).
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
@@ -65,8 +65,8 @@ Consulte [Dynamics 365: primera oleada de lanzamiento de versiones de 2020](http
 
 En el tema [Características quitadas o en desuso en Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) se describen las características que se han quitado o cuya eliminación o puesta en desuso están programadas para Supply Chain Management.
 
-- Una función *quitada* dejará de estar disponible en el producto.
-- Una función *en desuso* no está en el desarrollo activo y se podría quitar en una actualización futura.
+- Una característica *quitada* dejará de estar disponible en el producto.
+- Una característica *en desuso* no está en el desarrollo activo y se podría quitar en una actualización futura.
 
 Antes de eliminar una característica del producto, se anunciará el aviso de desuso en el tema [Características quitadas o en desuso en Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 meses antes de su eliminación.
 

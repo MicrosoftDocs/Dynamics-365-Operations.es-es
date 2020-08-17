@@ -3,7 +3,7 @@ title: Funciones quitadas u obsoletas de versiones anteriores
 description: Este tema describe las características que se eliminaron o que se planearon eliminar de Dynamics 365 for Finance and Operations y versiones anteriores de ese producto.
 author: sericks007
 manager: AnnBe
-ms.date: 06/23/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a73231a8286a412e9ec8a4eef6c58d7afd73ec0
-ms.sourcegitcommit: bdfc84aa7f607511981c0b2f20f03fabcb773510
+ms.openlocfilehash: bccc9a0a2b0abfdeba248007cfdb2bd599e35f48
+ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "3500421"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3645398"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Funciones quitadas u obsoletas de versiones anteriores
 
@@ -62,7 +62,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 | **¿Reemplazado por otra característica?**   | Sí |
 | **Áreas de producto afectadas**         | Solicitud |
 | **Opción de implementación**              | Todas |
-| **Estado**                         | Desusado: El 1 de abril de 2020, los desarrolladores deben usar la nueva API. |
+| **Estado**                         | En desuso: antes del 1 de abril de 2020, los desarrolladores deben usar las API de plataforma que se encuentran en la clase **HasFunction**. |
 
 ### <a name="hashcomputesha1hashstring-message"></a>Hash.ComputeSHA1Hash(string message)
 
@@ -72,7 +72,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 | **¿Reemplazado por otra característica?**   | Sí |
 | **Áreas de producto afectadas**         | Plataforma |
 | **Opción de implementación**              | Todas |
-| **Estado**                         | Desusado: El 1 de abril de 2020, los desarrolladores deben usar la nueva API. |
+| **Estado**                         | En desuso: antes del 1 de abril de 2020, los desarrolladores deben usar las API de plataforma que se encuentran en la clase **HasFunction**. |
 
 
 ### <a name="formdatetimecontrolsetutcstring"></a>FormDateTimeControl.setUtcString()

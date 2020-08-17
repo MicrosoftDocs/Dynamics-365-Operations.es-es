@@ -1,9 +1,9 @@
 ---
 title: Política de reserva de dimensión de nivel de almacén flexible
 description: Este tema describe la política de reserva de inventario que permite a las empresas que venden productos con seguimiento por lotes y ejecutan su logística como operaciones habilitadas para WMS reservar lotes específicos para pedidos de clientes, a pesar de que la jerarquía de reservas asociada con los productos no permite la reserva de lotes específicos.
-author: omulvad
+author: perlynne
 manager: tfehr
-ms.date: 02/07/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -13,25 +13,29 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: omulvad
+ms.author: perlynne
 ms.search.validFrom: 2020-01-15
-ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: ec80346126713cc604b00e6ca7f6e8f4c242dc6f
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: 65304216b579b8def493d1e4218174cb9617013d
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530314"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3652188"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Política de reserva de dimensión de nivel de almacén flexible
 
 [!include [banner](../includes/banner.md)]
 
-Cuando una jerarquía de reserva de inventario de tipo "Batch-below\[ubicación\]" está asociada con productos, las empresas que venden productos con seguimiento de lotes y ejecutan su logística como operaciones habilitadas para Microsoft Dynamics 365 Warehouse Management System (WMS) no pueden reservar lotes específicos de esos productos para pedidos de clientes. Este tema describe la política de reserva de inventario que permite a estas empresas reservar lotes específicos, incluso cuando los productos están asociados con una jerarquía de reservas "Batch-below\[ubicación\]".
+Cuando una jerarquía de reserva de inventario de tipo "Batch-below\[ubicación\]" está asociada con productos, las empresas que venden productos con seguimiento de lotes y ejecutan su logística como operaciones habilitadas para Microsoft Dynamics 365 Warehouse Management System (WMS) no pueden reservar lotes específicos de esos productos para pedidos de clientes.
+
+De manera similar, las placas específicas no se pueden reservar para productos en pedidos de ventas cuando esos productos están asociados con la jerarquía de reserva predeterminada.
+
+Este tema describe la política de reserva de inventario que permite a estas empresas reservar lotes específicos o matrículas de entidad, incluso cuando los productos están asociados con una jerarquía de reservas "Batch-below\[ubicación\]".
 
 ## <a name="inventory-reservation-hierarchy"></a>Jerarquía de reservas de inventario
 
-Esta sección resume la jerarquía de reservas de inventario existente. Se centra en la forma en que se manejan los artículos seguidos por lotes y seguidos en serie.
+Esta sección resume la jerarquía de reservas de inventario existente.
 
 La jerarquía de reservas de inventario dicta que, en lo que respecta a las dimensiones de almacenamiento, la orden de demanda lleva las dimensiones obligatorias de sitio, almacén y estado del inventario, mientras que la lógica de almacén es responsable de asignar una ubicación a las cantidades solicitadas y reservar la ubicación. En otras palabras, en las interacciones entre el pedido de demanda y las operaciones de almacén, se espera que el pedido de demanda indique de dónde debe enviarse el pedido (es decir, qué sitio y almacén). El almacén se basa en su lógica para encontrar la cantidad requerida en las instalaciones del almacén.
 
@@ -64,7 +68,7 @@ Cuando se selecciona en la jerarquía el nivel de **Número de lote**, todas las
 > [!NOTE]
 > La casilla **Permitir reserva bajo pedido** se aplica solo a los niveles de jerarquía de reserva que están por debajo de la dimensión de ubicación del almacén.
 >
-> **Número de lote** es el único nivel en la jerarquía que está abierto para la política de reserva flexible. En otras palabras, no puede seleccionar la casilla **Permitir reserva bajo pedido** para el nivel **Ubicación**, **Matrícula de entidad de almacén** o **Número de serie**.
+> **Número de lote** y **Matrícula de entidad** es el único nivel en la jerarquía que está abierto para la política de reserva flexible. En otras palabras, no puede seleccionar la casilla **Permitir reserva bajo pedido** para el nivel **Ubicación** o **Número de serie**.
 >
 > Si su jerarquía de reservas incluye la dimensión del número de serie (que siempre debe estar por debajo del nivel de **Número de lote**) y si ha activado la reserva específica de lote para el número de lote, el sistema continuará manejando las operaciones de reserva y selección de número de serie, de acuerdo con las reglas que se aplican a la política de reserva "Serial-below\[ubicación\]".
 
@@ -90,11 +94,11 @@ El siguiente conjunto de reglas es válido cuando se procesan cantidades y se co
 
 El siguiente ejemplo muestra el flujo de extremo a extremo.
 
-## <a name="example-scenario"></a>Supuesto de ejemplo
+## <a name="example-scenario-batch-number-allocation"></a>Escenario de ejemplo: asignación de número de lote
 
 Para este ejemplo, los datos de prueba deben estar instalados y debe usar los datos de la compañía de prueba **USMF**.
 
-### <a name="set-up-an-inventory-reservation-hierarchy-to-allow-batch-specific-reservation"></a>Configurar una jerarquía de reservas de inventario para permitir la reserva específica de lote
+### <a name="set-up-an-inventory-reservation-hierarchy-to-allow-batch-specific-reservation"></a><a name="Example-batch-allocation"></a>Configurar una jerarquía de reservas de inventario para permitir la reserva específica de lote
 
 1. Vaya a **Gestión de almacenes** \> **Configurar** \> **Inventario \> Jerarquía de reservas**.
 2. Seleccione **Nuevo**.
@@ -122,7 +126,7 @@ Para este ejemplo, los datos de prueba deben estar instalados y debe usar los da
     | 24        | B11          | FL-001   | LP11          | 10       |
     | 24        | B22          | FL-002   | LP22          | 10       |
 
-### <a name="enter-sales-order-details"></a>Introducir detalles del pedido de ventas
+### <a name="enter-sales-order-details"></a><a name="sales-order-details"></a>Introducir detalles del pedido de ventas
 
 1. Vaya a **Ventas y marketing** \> **Pedidos de ventas** \> **Todos los pedidos de ventas**.
 2. Seleccione **Nuevo**.
@@ -186,6 +190,176 @@ Para este ejemplo, los datos de prueba deben estar instalados y debe usar los da
 
     Ahora se selecciona la cantidad **10** del número de lote **B11** para la línea del pedido de venta y se coloca en la ubicación **Baydoor**. En este punto, está listo para ser cargado en el camión y enviado a la dirección del cliente.
 
+## <a name="flexible-license-plate-reservation"></a>Reserva de matrícula de entidad de almacén flexible
+
+### <a name="business-scenario"></a>Escenario empresarial
+
+En este escenario, una empresa utiliza la gestión de almacenes y el procesamiento del trabajo, y administra la planificación de la carga a nivel de pallets o contenedores individuales fuera de la Supply Chain Management antes de crear el trabajo. Estos contenedores están representados por placas en las dimensiones del inventario. Por lo tanto, para este enfoque, las placas específicas deben asignarse previamente a las líneas de pedido de ventas antes de realizar el trabajo de selección. La empresa está buscando flexibilidad en la forma en que se administran las reglas de reserva de matrículas, para que ocurran los siguientes comportamientos:
+
+- Se puede registrar y reservar una matrícula de entidad de almacén cuando el procesador de ventas toma el pedido, y no se tomar por otras demandas. Este comportamiento ayuda a garantizar que la matrícula de la entidad se planificó se envíe al cliente.
+- Si la matrícula de licencia no está asignada a una línea de pedido de ventas, el personal del almacén puede seleccionar una matrícula de entidad de almacén durante el trabajo de selección, después de que se haya completado el registro y la reserva del pedido de ventas.
+
+### <a name="turn-on-flexible-license-plate-reservation"></a>Activar la reserva de matrícula de entidad de almacén flexible
+
+Antes de que pueda usar la reserva de matrícula de entidad de almacén flexible, se deben activar dos características en su sistema. Los administradores pueden usar la configuración de [gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de estas características y activarlas si es necesario. Debe activar las funciones en el siguiente orden:
+
+1. **Nombre de la característica**: *Reserva de dimensión de nivel de almacén flexible*
+1. **Nombre de la característica**: *Reserva flexible de matrícula de entidad de almacén de pedido confirmado*
+
+### <a name="reserve-a-specific-license-plate-on-the-sales-order"></a>Reservar una matrícula de entidad de almacén específica en el pedido de ventas
+
+Para habilitar la reserva de matrículas de entidad en un pedido, debe seleccionar la casilla **Permitir reserva bajo pedido** para el nivel **Matrícula de entidad** en la página **Jerarquías de reserva de inventario** para la jerarquía asociada con el elemento relevante.
+
+![Página de jerarquías de reserva de inventario para una jerarquía de reserva de matrículas de entidad flexible](media/Flexible-LP-reservation-hierarchy.png)
+
+Puede habilitar la reserva de matrículas en el pedido en cualquier punto de su implementación. Este cambio no afectará ninguna reserva o al trabajo de almacén abierto que se creó antes de que ocurriera el cambio. Sin embargo, no puede anular la selección de la casilla de verificación **Permitir reserva bajo pedido** si existen transacciones de inventario de salida con un estado de problema de *En pedido*, *Pedido reservado* o *Cantidad física reservada* para uno o más elementos que están asociados con esa jerarquía de reservas.
+
+Incluso si la casilla **Permitir reserva bajo pedido** está seleccionada para **Matrícula de entidad**, todavía es posible *no* reservar una matrícula de entidad de almacén específica en el pedido. En este caso, se aplica la lógica de operaciones de almacén predeterminada que es válida para la jerarquía de reservas.
+
+Para reservar una matrícula de entidad de almacén específica, debe usar un proceso [Open Data Protocol (OData)](../../fin-ops-core/dev-itpro/data-entities/odata.md). En la aplicación, puede hacer esta reserva directamente desde un pedido de ventas utilizando la opción **Reservas confirmadas por pedido por matrícula de entidad de almacén** del comando **Abrir en Excel**. En los datos de la entidad que se abren en el complemento de Excel, debe especificar los siguientes datos relacionados con la reserva y luego seleccionar **Publicar** para enviar los datos nuevamente a Supply Chain Management:
+
+- Referencia (solo el valor *Órdenes de venta* es compatible).
+- Número de pedido (el valor puede derivarse del lote).
+- Id. de lote interno
+- Matrícula de entidad de almacén
+- Cantidad
+
+Si debe reservar una matrícula de entidad de almacén específica para un artículo rastreado por lotes, use la página **Reserva de lotes**, como se describe en la sección [Especificar los detalles del pedido de ventas](#sales-order-details).
+
+Cuando la línea de pedido de ventas que utiliza una reserva de matrícula de entidad de almacén confirmada por pedido se procesa por operaciones de almacén, no se utilizan las directivas de ubicación.
+
+Si un elemento de trabajo de almacén consta de líneas que equivalen a un pallet completo y tienen cantidades confirmadas por la matrícula de entidad de almacén, puede optimizar el proceso de selección utilizando un elemento de menú del dispositivo móvil donde la opción **Gestionar por matrícula de entidad de almacén** esté establecida en *Sí*. Un trabajador del almacén puede escanear una placa para completar una selección en lugar de tener que escanear los artículos del trabajo uno por uno.
+
+![Elemento del menú del dispositivo móvil en el que la opción Gestionar por matrícula de entidad de almacén está establecida en Sí](media/Handle-by-LP-menu-item.png)
+
+Dado que la funcionalidad **Gestionar por matrícula de entidad de almacén** no admite trabajos que cubran múltiples pallets, es mejor tener un elemento de trabajo separado para diferentes matrículas de entidad. Para usar este enfoque, agregue el campo **Id. de matrícula de entidad de almacén confirmada por pedido** como un salto de encabezado de trabajo en la página **Plantilla de trabajo**.
+
+## <a name="example-scenario-set-up-and-process-an-order-committed-license-plate-reservation"></a>Escenario de ejemplo: configurar y procesar una reserva de matrícula de entidad de almacén confirmada por pedido
+
+Este escenario muestra cómo configurar y procesar una reserva de matrícula de entidad de almacén confirmada por pedido.
+
+### <a name="make-demo-data-available"></a>Hacer que los datos de demostración estén disponibles
+
+Este escenario hace referencia a valores y registros que se incluyen en los datos de demostración estándar que se proporcionan para Supply Chain Management. Si quiere trabajar en el escenario utilizando los valores que se presentan en este tema, asegúrese de trabajar en un entorno donde se instalen datos de demostración estándar. Además, también debe establecer la entidad jurídica en **USMF** antes de empezar.
+
+### <a name="create-an-inventory-reservation-hierarchy-that-allows-for-license-plate-reservation"></a>Crear una jerarquía de reserva de inventario que permita la reserva de matrículas
+
+1. Vaya a **Gestión de almacenes \> Configurar \> Inventario \> Jerarquía de reservas**.
+1. Seleccione **Nuevo**.
+1. En el campo **Nombre**, escriba un valor (por ejemplo, *FlexibleLP*).
+1. En el campo **Descripción**, indique un valor (por ejemplo, *Reserva de Flexible LP*).
+1. En la lista **Seleccionado**, seleccione **Número de lote**, **Número de serie** y **Propietario**.
+1. Seleccione el botón **Quitar** ![flecha hacia atrás](media/backward-button.png) para mover los registros seleccionados a la lista **Disponible**.
+1. Seleccione **Aceptar**.
+1. En la fila para el nivel de dimensión **Matrícula de entidad**, seleccione la casilla **Permitir reserva bajo pedido**. El nivel **Ubicación** se seleccionan automáticamente y no se pueden desactivar la casilla de verificación para este.
+1. Seleccione **Guardar**.
+
+### <a name="create-two-released-products"></a>Crear dos productos liberado
+
+1. Vaya a **Gestión de información de productos \> Productos \> Productos despachados**.
+1. En el panel de acciones, haga clic en **Nueva**.
+1. En el cuadro de diálogo **Nuevo producto liberado**, establezca los valores siguientes:
+
+    - **Número del producto**: *Artículo1*
+    - **Número de artículo**: *Artículo1*
+    - **Grupo de modelos de artículo**: *FIFO*
+    - **Grupo de artículos**: *Audio*
+    - **Grupo de dimensiones de almacenamiento:** *Almacén*
+    - **Grupo de dimensiones de seguimiento:** *Ninguno*
+    - **Jerarquía de reserva**: *FlexibleLP*
+
+1. Seleccione **Aceptar** para crear el producto y cerrar el cuadro de diálogo.
+1. El nuevo producto está abierto. En la ficha desplegable **Almacén**, establezca el campo **Identificador de grupo de secuencia de unidad** en *ea*.
+1. Repita los pasos anteriores para crear un segundo producto que tenga la misma configuración, pero establezca los campos **Número de producto** y **Número de artículo** en *Artículo2*.
+1. En el panel Acciones, en la pestaña **Administrar inventario**, en el grupo **Ver**, seleccione **Inventario disponible**. Luego seleccione **Ajuste de la cantidad**.
+1. Ajuste el inventario disponible de los nuevos artículos como se especifica en la siguiente tabla.
+
+    | Artículo  | Almacén | Ubicación | Matrícula de entidad de almacén | Cantidad |
+    |-------|-----------|----------|---------------|----------|
+    | Artículo1 | 24        | FL-010   | LP01          | 10       |
+    | Artículo1 | 24        | FL-011   | LP02          | 10       |
+    | Artículo2 | 24        | FL-010   | LP01          | 5        |
+    | Artículo2 | 24        | FL-011   | LP02          | 5        |
+
+    > [!NOTE]
+    > Debe crear las dos placas y utilizar ubicaciones que permitan elementos mixtos, como *FL-010* y *FL-011*.
+
+### <a name="create-a-sales-order-and-reserve-a-specific-license-plate"></a>Crear un pedido de venta y reservar una matrícula de entidad de almacén específica
+
+1. Vaya a **Ventas y marketing \> Pedidos de ventas \> Todos los pedidos de ventas**.
+1. Seleccione **Nuevo**.
+1. En el cuadro de diálogo **Crear pedido de ventas**, establezca los siguientes valores:
+
+    - **Cuenta de cliente:** *US-001*
+    - **Almacén**: *24*
+
+1. Seleccione **Aceptar** para crear el cuadro de diálogo **Crear pedido de ventas** y abrir el nuevo pedido de ventas.
+1. En la ficha desplegable **Líneas de pedido de venta**, agregue una línea que tenga los siguientes valores:
+
+    - **Número de artículo**: *Artículo1*
+    - **Cantidad:** *10*
+
+1. Agregue un segundo pedido de venta que tenga la siguiente configuración:
+
+    - **Número de artículo**: *Artículo2*
+    - **Cantidad:** *5*
+
+1. Seleccione **Guardar**.
+1. En la ficha desplegable **Detalles de línea**, en la pestaña **Configuración**, tome nota del valor del **Id. del lote** para cada línea. Estos valores serán necesarios durante la reserva de matrículas de entidad específicas.
+
+    > [!NOTE]
+    > Para reservar una placa específica, debe utilizar la entidad de datos **Reservas confirmadas por pedido por matrícula de entidad de almacén**. Para reservar una matrícula de entidad de almacén específica en una matrícula de entidad de almacén, también puede usar la página **Reserva de lotes**, como se describe en la sección [Especificar los detalles del pedido de ventas](#sales-order-details).
+    >
+    > Si especifica la placa directamente en la línea del pedido de venta y la confirma al sistema, el procesamiento de gestión de almacén no se utilizará para la línea.
+
+1. Seleccione **Abrir en Microsoft Office**, **Reservas confirmadas por pedido por matrícula de licencia** y descargue el archivo.
+1. Abra el archivo descargado en Excel, y seleccione **Habilitar edición** para habilitar el complemento de Excel que desee ejecutar.
+1. Si ejecuta el complemento de Excel por primera vez, seleccione **Confiar en este complemento**.
+1. Si se le pide que inicie sesión, seleccione **Iniciar sesión** y, a continuación, inicie sesión con las mismas credenciales empleadas para Supply Chain Management.
+1. Para reservar un artículo en una matrícula de entidad de almacén específica, en el complemento Excel, seleccione **Nuevo** para agregar una línea de reserva y luego establecer los siguientes valores:
+
+    - **Id. del lote**: especifique el valor del **Id. del lote** que encontró para la línea de pedido de ventas para *Artículo1*.
+    - **Matrícula de entidad**: *LP02*
+    - **ReservedInventoryQuantity**: *10*
+
+1. Seleccione **Nuevo** para agregar otra línea de reserva y establezca los siguientes valores en ella:
+
+    - **Id. del lote**: especifique el valor del **Id. del lote** que encontró para la línea de pedido de ventas para *Artículo2*.
+    - **Matrícula de entidad**: *LP02*
+    - **ReservedInventoryQuantity**: *5*
+
+1. En el complemento de Excel, seleccione **Publicar** para enviar los datos de vuelta a Supply Chain Management.
+
+    > [!NOTE]
+    > La línea de reserva aparecerá en el sistema solo si la publicación se completa sin errores.
+
+1. Vaya a Supply Chain Management. 
+1. Para revisar la reserva del artículo, en la ficha desplegable **Líneas de pedido de venta**, en el menú **Inventario**, seleccione **Mantener \> Reserva**. Tenga en cuenta que, para la línea de pedido de ventas para *Artículo1*, inventario de *10* está reservado y para la línea de pedido de ventas para *Artículo2*, inventario de *5* está reservado.
+1. Para revisar las transacciones de inventario relacionadas con la reserva de línea de pedido de ventas, en la ficha desplegable **Líneas de pedido de venta**, en el menú **Inventario**, seleccione **Ver \> Transacciones**. Observe que hay dos transacciones relacionadas con la reserva: una donde el campo **Referencia** se establece en *Pedido de venta* y otro donde el campo **Referencia** se establece en *Reserva confirmada por pedido*.
+
+    > [!NOTE]
+    > Una transacción donde el campo **Referencia** se establece en *Pedido de venta* representa la reserva de la línea de pedido para las dimensiones de inventario sobre el nivel de **Ubicación** (sitio, almacén y estado de inventario). Una transacción donde el campo **Referencia** se establece en *Reserva confirmada por pedido* representa la reserva de línea de pedido para la matrícula de entidad de almacén y ubicación específicas.
+
+1. Para despachar el pedido de ventas, en el panel de acciones, en la pestaña **Almacén**, seleccione el grupo **Acciones** y **Despachar al almacén**.
+
+### <a name="review-and-process-warehouse-work-with-order-committed-license-plates-assigned"></a>Revisar y procesar el trabajo del almacén con las matrículas de entidad de pedido asignadas
+
+1. En la ficha desplegable **Líneas de pedido de ventas**, en el menú **Almacén**, seleccione **Detalles del trabajo**.
+
+    Al igual que cuando se realiza la reserva para un lote específico, el sistema no utiliza las directivas de ubicación cuando crea el trabajo para el pedido de venta que utiliza la reserva de matrícula de entidad de almacén. Debido a que la reserva confirmada por pedido especifica todas las dimensiones del inventario, incluida la ubicación, las directivas de ubicación no tienen que usarse, porque esas dimensiones del inventario tan solo se especifican en el trabajo. Se muestran en la sección **De dimensiones de inventario** en la página **Transacciones de inventario de trabajo**.
+
+    > [!NOTE]
+    > Después de crear el trabajo, se elimina la transacción de inventario del artículo donde el campo **Referencia** se establece en *Reserva comprometida con el pedido*. La transacción de inventario donde el campo **Referencia** se establece en *Trabajo* mantiene la reserva física en todas las dimensiones de inventario de la cantidad.
+
+1. En el dispositivo móvil, termine de seleccionar y colocar el trabajo utilizando un elemento de menú donde la casilla **Gestiona por matrícula de entidad de almacén** está seleccionada.
+
+    > [!NOTE]
+    > La funcionalidad **Gestionar por matrícula de licencia** le ayuda a procesar toda la matrícula. Si debe procesar parte de la matrícula de licencia, no puede usar esta funcionalidad.
+    >
+    > Recomendamos que tenga un trabajo separado generado para cada matrícula de licencia. Para lograr este resultado, use la característica **Saltos de encabezado de trabajo** característica en la página **Plantilla de trabajo**.
+
+    La matrícula de licencia *LP02* se selecciona para las líneas de pedido de ventas y se coloca en la ubicación *Baydoor*. En este punto, está listo para ser cargado en el camión y enviado al cliente.
+
 ## <a name="exception-handling-of-warehouse-work-that-has-order-committed-batch-numbers"></a>Control de excepciones del trabajo de almacén que tiene números de lote confirmados por pedido
 
 El trabajo de almacén para seleccionar los números de lote comprometidos con el pedido está sujeto a las mismas acciones y control de excepciones de almacén estándar que el trabajo normal. En general, el trabajo abierto o la línea de trabajo se pueden cancelar, se pueden interrumpir porque la ubicación de un usuario está llena, se puede seleccionar con picking corto y se puede actualizar debido a un movimiento. Del mismo modo, la cantidad de trabajo seleccionada que ya se ha completado se puede reducir, o bien se puede revertir el trabajo.
@@ -194,7 +368,7 @@ La siguiente regla clave se aplica a todas estas acciones de manejo de excepcion
 
 ### <a name="example-scenario"></a>Supuesto de ejemplo
 
-Un ejemplo de este escenario es una situación en la que el trabajo completado anteriormente no se selecciona utilizando la función **Reducir cantidad seleccionada**. Este ejemplo continúa el ejemplo anterior de este tema.
+Un ejemplo de este escenario es una situación en la que el trabajo completado anteriormente no se selecciona utilizando la función **Reducir cantidad seleccionada**. Este ejemplo supone que ya ha completado los pasos que se describen en [Escenario de ejemplo: asignación de número de lote](#Example-batch-allocation). Continúa de ese ejemplo.
 
 1. Vaya a **Gestión de almacenes** \> **Cargas** \> **Cargas activas**.
 2. Seleccione la carga que se creó en relación con el envío de su pedido de ventas.

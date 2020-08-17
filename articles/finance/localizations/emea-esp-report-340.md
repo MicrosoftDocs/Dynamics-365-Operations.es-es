@@ -1,14 +1,14 @@
 ---
 title: Informe 340 para España
 description: En este tema se ofrece información acerca de cómo configurar y generar el informe 340 para España.
-author: ShylaThompson
+author: anasyash
 manager: AnnBe
-ms.date: 02/08/2018
+ms.date: 07/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ERWorkspace
+ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -16,114 +16,170 @@ ms.search.region: Spain
 ms.author: epodkolz
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 32d4ff5dbeb2d7a819a708ecf745eedeed1cad5d
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 6b694a804dc19487bd207ac5c2ce1777216f81c0
+ms.sourcegitcommit: 3227127dd20c43cedaa8912e74aaf6120a1dcbb9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552356"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "3628393"
 ---
 # <a name="report-340-for-spain"></a>Informe 340 para España
 
 [!include [banner](../includes/banner.md)]
 
-El informe 340 reemplazó dos informes anteriores (las estatutarias Libretas de ventas y las estatutarias Libretas de compras) que todas las empresas españolas enviaban como copias impresas a las autoridades fiscales españolas. El nuevo informe se puede cargar en la página web de las autoridades fiscales o se puede enviar mediante un paquete de software que está disponible de forma gratuita por parte de las autoridades fiscales.
+El informe 340 contiene información sobre todas las facturas e impuestos relacionados con las facturas que una empresa emitió o recibió durante un período específico. El informe 340 debe enviarse a las autoridades fiscales durante los primeros 20 días después el período de notificación. El período de notificación puede ser un mes o un trimestre, en función del tamaño de la empresa. El informe se puede cargar en la página web de las autoridades fiscales o se puede enviar mediante un paquete de software que está disponible de forma gratuita por parte de las autoridades fiscales.
 
-El informe 340 contiene información sobre todas las facturas e impuestos relacionados con las facturas que una empresa emitió o recibió durante un período específico. El informe 340 debe enviarse a las autoridades fiscales durante los primeros 20 días después el período de notificación. El período de notificación puede ser un mes o un trimestre, en función del tamaño de la empresa.
+El formato de archivo del informe 340 consta de dos tipos de registro basados en la estructura del archivo.
+
+-   **Tipo 1**: este tipo de registro contiene la información de encabezado acerca de la entidad jurídica que genera el informe.
+-   **Tipo 2**: este tipo de registro contiene información sobre los artículos y servicios que una entidad jurídica compra y vende durante un período concreto.
 
 ## <a name="entries-that-are-included-in-report-340"></a>Entradas que se incluyen en el informe 340
 
 El informe 340 incluye las siguientes entradas:
 
-- **Entradas de ventas**: entradas de líneas de informes de impuesto sobre el valor añadido (IVA) que corresponden a facturas de ventas y facturas de proyectos. Estos registros son facturas emitidas de **Tipo 2**.
-- **Notas de crédito de ventas (facturas correctivas)**: entradas de líneas de informes de IVA que corresponden a facturas correctivas.
-- **Entradas de compra**: entradas de líneas de informes de IVA que corresponden a facturas de compra. Estos registros son facturas recibidas de **Tipo 2**.
-- **Notas de crédito de compras**: entradas de líneas de informes de IVA que corresponden a facturas correctivas.
-- **Facturas automáticas y notas de crédito automáticas**: entradas de líneas de informes de IVA que corresponden a facturas y notas de crédito que se crean automáticamente cuando los bienes o servicios son prestados por un proveedor de la Unión Europea (UE).
-- **Facturas que incluyen cargo de equivalencia**: el cargo de equivalencia es un tipo de impuesto español.
-- **Facturas que incluyen varios IVA% o porcentaje de cargo de equivalencia (CE%)**: entradas de facturas que tienen más de un porcentaje de IVA o porcentaje de cargo de equivalencia (CE).
-
+-   **Entradas de ventas**: líneas de informes de impuesto sobre el valor añadido (IVA) que corresponden a facturas de ventas y facturas de proyectos.
+-   **Notas de crédito de ventas (facturas correctivas)**: entradas de líneas de informes de IVA que corresponden a facturas de ventas.
+-   **Entradas de compra**: líneas de informes de IVA que corresponden a facturas de compra.
+-   **Notas de crédito de compras**: entradas de líneas de informes de IVA que corresponden a facturas de compras.
+-   **Facturas automáticas y notas de crédito automáticas**: líneas de informes de IVA que corresponden a facturas y notas de crédito que se crean automáticamente cuando los bienes o servicios son prestados por un proveedor de la Unión Europea (UE).
+-   **Facturas que incluyen cargo de equivalencia**: el cargo de equivalencia es un tipo de impuesto español.
+-   **Facturas que incluyen varios IVA% o porcentaje de cargo de equivalencia (CE%)**: facturas que tienen más de un porcentaje de IVA o porcentaje de cargo de equivalencia.
+    
 ## <a name="generate-a-spanish-vat-book-and-export-the-report-340-ascii-file"></a>Generar un libro de IVA español y exportar el archivo ASCII del informe 340
 
-1. Seleccione **Impuestos** &gt; **Configuración** &gt; **Impuestos** &gt; **Libros de IVA españoles**.
-2. En los campos **Libro de IVA** y **Descripción**, introduzca un nombre y una descripción para el libro de IVA.
-3. En el campo **Código de secuencia numérica**, seleccione un código de secuencia numérica.
-4. En la ficha desplegable **Configuración**, seleccione el botón **Añadir** y, a continuación, siga estos pasos para configurar códigos de impuestos en las transacciones de impuestos que se van a incluir en el informe:
+1.  En [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/V2), en la Biblioteca de activos compartidos, descargue la últimas versión de las configuraciones de informes electrónicos (ER) para el siguiente formato de declaración de IVA:
 
-    1. En el campo **Código de impuestos**, seleccione un código de impuestos.
-    2. En el campo **Código de cargo de equivalencia**, seleccione el CE, si fuera necesario.
-    3. Establezca la opción **IVA no deducible** en **Sí** para activar el IVA no deducible para un código de impuestos.
+-   Libro de registro de IVA (ES)
 
-        > [!NOTE]
-        > No se permite a los compradores deducir el IVA no deducible de su propia obligatoriedad del IVA.
+Para obtener más información, consulte [Descargar configuraciones de informes electrónicos de Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
-    4. Establezca la opción **Cargo invertido** en **Sí** para activar cargos invertidos para un código de impuestos.
+2.  Vaya a **Impuestos \> Configuración \> Impuestos \> Libros de IVA españoles**.
 
-        > [!NOTE]
-        > Los cargos invertidos forman parte de la ley de IVA. En algunos casos, los bienes o servicios son prestado por una empresa extranjera. Si se activan cargos invertidos, el IVA de estos bienes y servicios lo paga la empresa destinataria, no la empresa extranjera.
+![Página de libros de impuestos españoles](media/1_Spanish_VAT_book.png)
 
-5. Seleccione el botón **Informes de IVA españoles** para abrir la página **Informes de IVA españoles** .
-6. Seleccione el botón **Crear nuevo** para crear un nuevo informe. En la página **Lista de IVA español**, relleno los campos **Libro de IVA**, **Descripción**, **Período de liquidación**, **Desde fecha** e **Iniciar numeración**, y siga estos pasos:
+3.  En los campos **Libro de IVA** y **Descripción**, introduzca un nombre y una descripción para el libro de IVA.
+4.  En el campo **Tipo de libro** seleccione un tipo de libro: **Impuestos repercutidos**, **Impuestos soportados** o **Todos los libros**.
+5.  En el campo **Código de secuencia numérica**, seleccione un código de secuencia numérica.
+6.  En la ficha desplegable **Preparar**, seleccione **Añadir**, y luego configure los siguientes campos para configurar los códigos de impuestos que deben incluirse en el libro de IVA.
 
-    1. En el campo **Método de numeración**, seleccione un valor.
-    2. Establezca la opción **Declaración sustitutiva** en **Sí** para sustituir la declaración anterior.
-    3. En el campo **Número de declaración anterior**, introduzca el número de 13 dígitos de la declaración anterior.
+| **Campo**               | **Descripción**                                                                                                                                                                                                                                                                                                                          |
+|-------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Código de impuestos          | Seleccione un código de impuestos.                                                                                                                                                                                                                                                                                                                 |
+| Código de cargo de equivalencia | Seleccione un código de impuesto para el cargo de equivalencia, si el cargo de equivalencia es de aplicación.                                                                                                                                                                                                                                                     |
+| IVA no deducible      | Seleccione la casilla de verificación para activar el IVA no deducible para el código de impuesto. Si el importe del IVA no es deducible, los compradores no pueden deducirlo.                                                                                                                                                                                 |
+| Cargo invertido          | Seleccione la casilla de verificación para activar los cargos invertidos para el código de impuestos. Los cargos invertidos forman parte de la ley de IVA. En algunos casos, los bienes o servicios se compran en una empresa extranjera. Si se activan cargos invertidos, el IVA de estos bienes y servicios lo paga la empresa destinataria, no la empresa extranjera compradora. |
 
-        > [!NOTE]
-        > El campo **Número de declaración anterior** se puede editar si la opción **Declaración sustitutiva** tiene **Sí**.
+7.  Seleccione **Informes de IVA españoles** para abrir la página **Informes de IVA españoles**.
+8.  Seleccionar **Crear nuevo** para crear un informe nuevo.
+9.  En el cuadro de diálogo **Lista de IVA español**, establezca los campos siguientes.
 
-7. Seleccione **Aceptar** para volver a la página **Informes de IVA españoles**. El sistema introduce la información de la página **Lista de IVA español** en la página **Informes de IVA españoles**. No puede modificar los valores de los campos **Período de liquidación**, **Método de numeración** y **Desde fecha** en la página **Informes de IVA españoles**.
-8. En la pestaña **General**, siga estos pasos:
+| Campo                                                   | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|---------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Libro de IVA                                                | Seleccione un libro de IVA.                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Descripción                                             | Especifique una descripción del libro de IVA.                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Período de liquidación                                     | Permite seleccionar un período de liquidación.                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Desde fecha                                             | Especifique fecha inicial del período de liquidación de impuestos.                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Método de numeración                                   | Seleccione un método de finalización:<br>- **Código de secuencia numérica**: el número de la línea del informe de IVA es igual al número de factura.<br>- **Código de secuencia numérica**: el número de la línea del informe de IVA se toma de la secuencia numérica que se define en el campo **Código de secuencia numérica** en la página **Libros de IVA españoles**.<br>- **Secuencia 340**: las líneas de informe de IVA se numeran por separado para compras y ventas. En ambos casos, los números de línea comienzan desde 1.  |
+| Comenzar a numerar (en la sección **Numeración manual**) | Especifique el primer número de línea.                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Plantilla (en la sección **Numeración manual**)        | Especifique la plantilla ara el número de línea. Por ejemplo, escriba #####.                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Declaración sustitutiva                               | Establezca esta opción en **Sí** para reemplazar la declaración anterior.                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Número declaración anterior                          | Especifique el número de 13 dígitos de la declaración anterior. Este campo solo se puede editar si la opción **Declaración sustitutiva** se establece en **Sí**.                                                                                                                                                                                                                                                                                                                     |
+| Cuenta de pago mínimo en efectivo                       | Especifique el importe de pago de efectivo mínimo que se debería notificarse en la declaración.                                                                                                                                                                                                                                                                                                                                                                                       |
 
-   1. En el campo **Tipo de presentación**, seleccione el tipo de medio para va a usar para exportar el archivo:
+10.  Seleccione **Aceptar** para crear una línea en la página **Informes de IVA español**, según los criterios que definió en el paso anterior.
+11.  Revise la línea que se crea.
 
-      - **Telemático**: cargue el informe en el sitio web de las autoridades fiscales o envíe el informe mediante el software gratuito provisto por las autoridades fiscales.
-        - **CD-R**: envía el informe a las autoridades fiscales en un CD-ROM.
-        - **Informe**
-
-        > [!NOTE]
-        > Seleccione **Telemático** o **CD-R**. Si selecciona **Informe**, recibe un mensaje de error.
-
-   2. Establezca la opción **Notificado** en **Sí** para generar el informe final.
-   3. En el campo **Persona de contacto**, introduzca el nombre de la persona de contacto.
-   4. En el campo **Teléfono**, introduzca el número de teléfono de la persona de contacto.
-   5. En el campo **Documento**, introduzca el número de documento de cuatro dígitos. Si introduce un número que contiene menos de cuatro dígitos, se agregan ceros iniciales para crear un número de cuatro dígitos. Por ejemplo, si especifica **1**, el sistema convierte automáticamente el valor **0001** y guarda el nuevo valor.
-   6. En el campo **Electrónico**, introduzca el código electrónico de 16 dígitos. Este número es obligatorio y lo proporciona las autoridades fiscales.
-
-9. Seleccione el botón **Totales** para abrir la página **Totales** . En esta página, puede ver los siguientes valores:
-
-    - **Número de operaciones**: el número total de ventas o de cuentas por cobrar del grupo del campo **Entregas** y el número total de compras o cuentas a pagar en el grupo del campo **Adquisiciones**.
-    - **Importe**: el importe total de las ventas o cuentas por cobrar en el grupo del campo **Entregas** y el importe total de compras o cuentas a pagar en el grupo del campo **Adquisiciones**.
-
-10. Seleccione el botón **Líneas de informes de IVA** para abrir la página **Líneas de informes de IVA** . En esta página, puede ver los detalles de las transacciones de IVA. Puede eliminar o excluir las líneas del informe si no se han informado al exportar el informe.
-11. Seleccione el botón **Salida** y seleccione **Imprimir** o **Exportar a archivo ASCII**. Si seleccionó **Exportar a archivo ASCII**, a continuación, complete los siguientes pasos: 
-
-    > [!NOTE]
-    > Si el informe de IVA no contiene ninguna transacción, recibirá un mensaje de error.
-    > Antes de ejecutar el siguiente paso, compruebe la información en la pestaña **General**. Debe rellenar la información en los grupos de campos **Información de contacto** y **Número de documento**. De lo contrario, recibiría el mensaje de error. 
-    
-    1. En la página **Exportar a ASCII**, seleccione el archivo que desea exportar y, a continuación, seleccione **Aceptar**. La legislación tributaria prohíbe la exportación de archivos ASCII de los años anteriores a 2009. Sin embargo, puede imprimir registros de los años anteriores a 2009.
-    2. En la página **Libro de registro de IVA español**, en el campo **Asignación de formato**, seleccione el formato.
-
-    La información se recupera de la página **Líneas de informes de IVA**.
-
-## <a name="file-format"></a>Formato de archivo
-
-El formato del archivo de texto del informe 340 cumple con los requisitos normativos y contiene los siguientes tipos de registro:
-
-- **Tipo 1**: el registro **Tipo 1** contiene información acerca de la empresa que envía el informe 340. Este empresa es conocida como *deponente*. La información se recupera de la tabla de información de la empresa y de la página **Libros de IVA españoles** .
-- **Tipo 2**: el informe debe incluir al menos un registro de **Tipo 2**. **Tipo 2**: los registros contienen información sobre los bienes y servicios que se compraron y vendieron durante el período especificado. La información del cliente y el proveedor se recupera de los registros del cliente y el proveedor.
+![Página Informes de impuestos españoles](media/2_Spanish_VAT_report.png)
 
 > [!NOTE]
-> Si no hay registros de **Tipo - 2**, el archivo no se genera.
+> No puede modificar los valores de los campos **Período de liquidación**, **Método de numeración** y **Desde fecha** en la página **Informes de IVA españoles**.
 
-## <a name="validate-the-file-format-and-submit-the-report-340-file-to-the-tax-authorities"></a>Valide el formato de archivo y envíe el archivo del informe 340 a las autoridades fiscales
+12.  En la pestaña **General**, establezca los campos siguientes:
 
-Puede validar el formato de archivo mediante uno de los siguientes métodos:
+| Campo                                | Descripción                                                                                                                                                                                                                                                                                         |
+|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Tipo de presentación                  | Seleccione el tipo de soporte a usar para el archivo exportado:<br>- **Telemático**: cargue el informe en el sitio web de las autoridades fiscales o envíe el informe mediante el software gratuito provisto por las autoridades fiscales.<br>- **CD-R**: envía el informe a las autoridades fiscales en un CD-ROM. |
+| Notificado                             | Establezca esta opción en **Sí** para indicar que la declaración ha sido notificada. El campo **Fecha de presentación** se establecerá en la fecha actual y el campo **Notificado por** se establecerá en el identificador del usuario.                                                                                   |
+| Persona de contacto                     | Especifique el nombre de la persona de contacto.                                                                                                                                                                                                                                                             |
+| Teléfono                            | Especifique el número de teléfono de la persona de contacto.                                                                                                                                                                                                                                                |
+| Número de documento de la declaración. | Especifique el número de cuatro dígitos del documento. <br>Si especifica un número que contiene menos de cuatro dígitos, se agregan ceros iniciales para crear un número de cuatro dígitos. Por ejemplo, si especifica **1**, el sistema convierte automáticamente el valor **0001** y guarda el nuevo valor.              |
+| Código electrónico                    | Especifique el código electrónico de 16 dígitos. Este número es obligatorio y lo proporciona las autoridades fiscales.                                                                                                                                                                                              |
 
-- Cargar el archivo en el sitio web de las autoridades fiscales españolas. Puede probar el archivo en una página determinada del sitio. Sin embargo, debe disponer de un certificado electrónico válido.
+13.  Seleccione **Líneas de informes de IVA** para abrir la página **Líneas de informes de IVA** . En esta página, puede ver los detalles de las transacciones de IVA que se transfieren al informe de IVA. Si alguna de las líneas que se transfieren automáticamente no tienen que notificarse, puede editarlas o eliminarlas.
 
-    > [!NOTE]
-    > Los certificados electrónicos se emiten solo a ciudadanos españoles.
+![Página de líneas de informe de IVA(media/3_VAT_report_lines.png)
 
-- Cargue el archivo mediante el software gratuito proporcionado por las autoridades fiscales.
+14.  Seleccione **Impuesto registrado** para abrir la página **Impuesto registrado**. En esta página, puede revisar las transacciones de impuestos registrados.
+15.  Cierre las páginas **Impuesto registrado** y **Líneas de informe de IVA**.
+16.  En la página **Informes de IVA español**, seleccione **Totales** para abrir la página **Totales**. En esta página, puede ver los siguientes valores:
+
+- **Número de operaciones**: el número total de ventas (o IVA repercutido) en la sección **Entregas** y el número total de compras (IVA soportado) en la sección **Adquisiciones**.
+- **Importe**: el importe total de ventas (o IVA repercutido) en la sección **Entregas** y el número total de compras (IVA soportado) en la sección **Adquisiciones**.
+
+17.  Seleccione **Resultado \> Exportar a archivo ASCII** para abrir el cuadro de diálogo **Exportar a archivo ASCII**.
+18.  En el campo **Nombre de archivo**, especifique un nombre para el archivo y, después, seleccione **Aceptar**.
+19.  Seleccione **Resultado \> Imprimir** para abrir el cuadro de diálogo **Libro de registro de IVA español**.
+20.  En el campo **Asignación de formato**, seleccione el formato **Libro de registro de IVA (ES)** que descargó anteriormente y luego seleccione **Aceptar**.
+
+## <a name="example"></a>Ejemplo
+
+1.  En el panel de exploración, vaya a **Impuesto \> Impuestos indirectos \> Impuestos \> Códigos de impuestos** y cree los códigos siguientes.
+
+| **Código de impuestos** | **Porcentaje** | **Descripción**                                                                                                                |
+|--------------------|----------------|--------------------------------------------------------------------------------------------------------------------------------|
+| IVA21              | 21             | Ventas nacionales a un tipo del 21 por ciento.                                                                                        |
+| IVA10              | 10             | Ventas nacionales a un tipo del 10 por ciento.                                                                                        |
+| IVA4               | 4              | Ventas nacionales a un tipo del 4 por ciento.                                                                                         |
+| EUP21              | 21             | Compras en la UE con una tasa del 21 por ciento.                                                                                          |
+| EUP-21             | \-21           | Compras de la UE a un tipo del 21 por ciento, donde la opción **Intracomunitario** en la página **Grupos de impuestos** está configurada en **Sí**. |
+| EUP10              | 10             | Compras en la UE con una tasa del 10 por ciento.                                                                                          |
+| EUP-10             | \-10           | Compras de la UE a un tipo del 10 por ciento, donde la opción **Intracomunitario** en la página **Grupos de impuestos** está configurada en **Sí**. |
+| EUP4               | 4              | Compras en la UE con una tasa del 4 por ciento.                                                                                           |
+| EUP-4              | \-4            | Compras de la UE a un tipo del 4 por ciento, donde la opción **Intracomunitario** en la página **Grupos de impuestos** está configurada en **Sí**.  |
+| EUS                | 0              | Ventas en la UE donde la opción **Exento** está establecida en **Sí**.                                                                        |
+
+> [!NOTE]
+> Para códigos con porcentaje de impuestos negativo, en la ficha desplegable **Cálculo**, establezca la opción **Permitir porcentaje de impuestos negativo a las ventas** en **Sí**.
+
+2.  Configure los impuestos de ventas. Para instrucciones, vea [Descripción general del impuesto](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/finance/general-ledger/indirect-taxes-overview.md).
+3.  Configurar el IVA intracomunitario para compras en la UE. Para instrucciones, vea [IVA intracomunitario para España](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/finance/localizations/emea-esp-intra-community-vat.md).
+
+4.  Publique las siguientes transacciones.
+
+    Por ejemplo, para facturas de clientes, vaya a **Clientes \> Facturas \> Todas las facturas de servicios**. Para las facturas de proveedores, vaya a **Proveedores \> Facturas \> Diario de facturas**.
+
+| **Fecha**        | **Factura** | **NIF** | **Tipo de transacción** | **Importe neto** | **Importe de IVA** | **Código de impuestos** |
+|-----------------|-------------|-----------------------|----------------------|----------------|----------------|--------------------|
+| 1 de enero de 2020 | FTI-000007  | 01396364B             | Factura de cliente     | 500            | 0              | EUS                |
+| 1 de enero de 2020 | FTI-000008  | 01396365B             | Factura de cliente     | 300            | 30             | IVA10              |
+| 1 de enero de 2020 | 1           | FR123321123           | Factura del proveedor       | 1000           | 210            | EUP21 EUP-21       |
+
+5.  Vaya a **Impuestos \> Configuración \> Impuestos \> Libros de IVA españoles**.
+6.  Seleccione **Nuevo** para crear un libro de IVA español.
+7.  En la ficha desplegable **Configuración**, agregue los siguientes códigos de impuestos:
+
+-   EUP21
+-   EUP-21
+-   EUS
+-   IVA 10
+
+![Página de libros de IVA en español, ficha desplegable Configuración](media/4_Spanish_VAT_book.png)
+
+8.  Seleccione **Informes de IVA español**.
+9.  Seleccione **Crear nuevo**.
+10.  En el cuadro de diálogo **Lista de IVA español**, establezca los valores de los campos y, a continuación, seleccione **Aceptar**:
+
+-   **Libro de IVA:** ESP
+-   **Período de liquidación**: Men
+-   **Desde fecha**: 1/1/2020
+
+11.  Seleccione **Líneas de informe de IVA** y revise los datos generados.
+
+![Datos generados en la página de líneas de informe de IVA](media/5_VAT_report_lines.png)
+
+12.  Seleccione **Resultado \> Imprimir**.
+13.  En el campo **Asignación de formato**, seleccione el formato **Libro de registro de IVA (ES)** que descargó anteriormente.
+14.  Seleccione **Aceptar**, abra el archivo descargado y revise los datos.
+
+![Datos del libro de registro de IVA español](media/6_Spanish_VAT_register_book.png)

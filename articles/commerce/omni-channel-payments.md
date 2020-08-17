@@ -3,7 +3,7 @@ title: Información general de pagos omnicanal
 description: Este tema proporciona una visión general de los pagos de omnicanal en Dynamics 365 Commerce.
 author: rubendel
 manager: AnnBe
-ms.date: 11/26/2019
+ms.date: 07/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: 2251e523f7dfa3a06f0c45a4e156dbe097587f9a
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 2127eb60a82bef8c6b5f5e9a917160331c483649
+ms.sourcegitcommit: 59fb179c770c799918f624cf345848fd4202bbdd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023999"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "3613186"
 ---
 # <a name="omni-channel-payments-overview"></a>Información general de pagos omnicanal
 
@@ -68,11 +68,13 @@ Los siguientes componentes y pasos de configuración son necesarios:
 
 - **Integración de comercio electrónico:** la integración con Commerce se requiere para admitir los escenarios donde un pedido se origina en un escaparate en línea. Para obtener más información acerca del SDK del comercio electrónico de Retail, consulte [Kit de desarrollo de software (SDK) de la plataforma de comercio electrónico](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/ecommerce-platform-sdk). En un entorno de demostración, el escaparate de referencia admite escenarios de pago de omnicanal. 
 - **Configuración de los pagos en línea:** la configuración del canal conectado debe incluir un conector de pago que se ha actualizado para admitir pagos de omnicanal. Como alternativa, puede usar el conector de pago tal cual. Para obtener información sobre cómo configurar el conector de pago Adyen para tiendas en línea, consulte [Conector de pago de Adyen](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3#e-commerce). Además de los pasos de configuración del comercio electrónico que se describen en este tema, el parámetro **Permitir guardar de la información de pago en comercio electrónico** se debe establecer en **Verdad** en la configuración del conector Adyen. 
-- **Configuración de pagos de omnicanal:** en la oficina administrativa, vaya a **Retail y Commerce \> Configuración de sede \> Parámetros \> Parámetros compartidos de Commerce**. A continuación, en la pestaña **Pagos de omnicanal**, establezca la opción **Usar pagos omnicanal** en **Sí**.
+- **Configuración de pagos de omnicanal:** en la oficina administrativa, vaya a **Retail y Commerce \> Configuración de sede \> Parámetros \> Parámetros compartidos de Commerce**. A continuación, en la pestaña **Pagos de omnicanal**, establezca la opción **Usar pagos omnicanal** en **Sí**. En las versiones 10.0.12 y posteriores de Commerce, esta configuración está en el espacio de trabajo **Administración de características**. Seleccione la característica **Pagos omnicanal** y haga clic **Habilitar ahora**. 
 - **Servicios de pago:** el centro de llamadas usa el conector de pago predeterminado en la página **Servicios de pago** para procesar los pagos. Para admitir escenarios como “Comprar en centro de llamadas, recoger en tienda,” este conector de pago predeterminado debe ser el conector de pago Adyen o un conector de pago que cumple con los requisitos de implementación de los pagos de omnicanal.
 - **Servicio EFT:** los pagos a través de un terminal de pago se deben configurar en la ficha desplegable **Servicio EFT** del perfil de hardware. El connector de Adyen admite escenarios de pagos omnicanal listos para usarse. Otros conectores de pago que admiten la interfaz **iNamedRequestHandler** también pueden usarse si admiten pagos omnicanal.
 - **Disponibilidad de conector de pago:** cuando se recuperar un pedido, las líneas de la propuesta de pago que se vuelven a llamar junto con la inclusión del pedido el nombre del conector de pago usado para crear las autorizaciones que están asociados a este orden. Cuando se cumple el pedido, el SDK de los pagos intentará usar el mismo conector usado para crear la autorización original. Por lo tanto, un conector de pago con las mismas propiedades mercantil debe estar disponible para la captura. 
 - **Tipos de tarjeta:** para que las escenarios de omnicanal funcionen correctamente, cada canal debe tener la misma configuración para los tipos de forma de pago que se pueden usar para el omnicanal. Esta configuración incluye identificadores de método de pago y tipo de tarjeta. Por ejemplo, si el tipo de forma de pago **Tarjetas** tiene un identificador **2** en la configuración de la tienda en línea, debe tener el mismo identificador en la configuración de la tienda minorista. El mismo requisito se aplica a los identificadores de tipo de tarjeta. Si el número de tarjeta **12** se establece en **VISA** en la tienda en línea, el mismo identificador se debe configurar para la tienda al por menor. 
+- Retail Modern POS para Windows o Android con una estación de hardware integrada o
+- Modern POS para iOS o Cloud POS con estación de hardware compartida conectada. 
 
 ### <a name="basic-principle-supporting-omni-channel-payments"></a>Principio básico que admite pagos de omnicanal
 
@@ -100,8 +102,10 @@ En las secciones siguientes se describen los pasos para cada escenario y se pres
 Antes de empezar, asegúrese de que se cumplan los siguientes requisitos previos:
 
 - Tiene un escaparate de referencia donde se configura el conector Adyen.
-- La opción **Pagos de omnicanal** en la página **Parámetros compartidos de Commerce** se establece en **Verdadero**.
+- La opción **Pagos de omnicanal** en la página **Parámetros compartidos de Commerce** se establece en **Verdadero**. En versiones posteriores, esta característica se pasa al espacio de trabajo **Administración de características** donde puede seleccionar la característica **Pagos omnicanal** característica y hacer clic en **Habilitar ahora**. 
 - El connector de pago de Adyen está configurado para el registro de Houston PDV.
+- Retail Modern POS para Windows o Android con una estación de hardware integrada o
+- Modern POS para iOS o Cloud POS con estación de hardware compartida conectada. 
 
 Para ejecutar el escenario, siga estos pasos:
 
@@ -229,3 +233,5 @@ Cuando un pedido que tenga varias líneas y formas de pago se recoge, primero el
 
 - [Preguntas frecuentes sobre pagos](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/payments-retail)
 - [Conector de pago de Dynamics 365 para Adyen](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
+- [Configurar BOPIS en un entorno de evaluación de Dynamics 365 Commerce](https://docs.microsoft.com/en-us/dynamics365/commerce/cpe-bopis)
+

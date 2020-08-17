@@ -3,7 +3,7 @@ title: Operación de inventario saliente en PDV
 description: Este tema describe las capacidades de la operación de inventario de salida del punto de venta (PDV).
 author: hhaines
 manager: annbe
-ms.date: 07/10/2020
+ms.date: 07/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: c2c8acfaf7b84870ce00bf1ae84440dd369df9da
-ms.sourcegitcommit: 037712e348fcbf3569587089bd668ee7bf5567ff
+ms.openlocfilehash: 026d25717dec8c5633f19fe63c6d6f64284d322d
+ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "3551634"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3646168"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Operación de inventario saliente en PDV
 
@@ -38,9 +38,9 @@ En Microsoft Dynamics 365 Commerce versión 10.0.10 y posterior, las operaciones
 
 ## <a name="prerequisite-configure-an-asynchronous-document-framework"></a>Requisito previo: configurar un marco de documentos asíncrono
 
-La operación de salida incluye mejoras de rendimiento para garantizar que los usuarios que tienen grandes volúmenes de contabilizaciones de recibos en muchas tiendas o compañías y grandes documentos de inventario, puedan procesar esos documentos a la sede de Comercio sin experimentar tiempos de espera o errores. Estas mejoras requieren el uso de un marco de documentos asíncrono.
+La operación de salida incluye mejoras de rendimiento para garantizar que los usuarios que tienen grandes volúmenes de contabilizaciones de recibos en muchas tiendas o compañías y grandes documentos de inventario, puedan procesar esos documentos a la sede de Commerce (HQ) sin experimentar tiempos de espera o errores. Estas mejoras requieren el uso de un marco de documentos asíncrono.
 
-Cuando se utiliza un marco de documentos asíncrono, puede confirmar los cambios de documentos salientes de PDV a Commerce Headquarters y luego pasar a otras tareas mientras el procesamiento a Commerce Headquarters se produce en segundo plano. Puede verificar el estado del documento a través de **Operación de salida** página de lista de documentos en PDV para asegurarse de que la publicación se realizó correctamente. En la aplicación PDV, también puede usar la lista de documentos activos de la operación de salida para ver los documentos que no se pudieron publicar en Commerce Headquarters. Si un documento falla, los usuarios de PDV pueden corregirlo y luego intentar nuevamente procesarlo en la sede de Comercio.
+Cuando se utiliza un marco de documentos asíncrono, puede confirmar los cambios de documentos salientes de PDV a la sede de Commerce (HQ) y luego pasar a otras tareas mientras el procesamiento a la sede de Commerce (HQ) se produce en segundo plano. Puede verificar el estado del documento a través de **Operación de salida** página de lista de documentos en PDV para asegurarse de que la publicación se realizó correctamente. En la aplicación PDV, también puede usar la lista de documentos activos de la operación de salida para ver los documentos que no se pudieron publicar en la sede de Commerce (HQ). Si un documento falla, los usuarios de PDV pueden corregirlo y luego intentar nuevamente procesarlo en la sede de Commerce (HQ).
 
 > [!IMPORTANT]
 > El marco de documentos asíncrono debe configurarse antes de que una empresa intente utilizar la operación de salida en PDV.
@@ -88,22 +88,22 @@ Cuando se inicia la operación de salida desde la aplicación PDV, aparece una v
 
 La lista de documentos de inventario de salida tiene tres pestañas.
 
-- **Activo** - Esta pestaña muestra las órdenes de transferencia que tienen un estado de **Solicitado** o **Parcialmente Enviado**. Los pedidos contienen líneas o cantidades en líneas que deben ser enviadas por la tienda actual del usuario. Esta pestaña también muestra los pedidos que tienen un estado de **Procesamiento en HQ** (es decir, están esperando la confirmación de una publicación exitosa de la sede de Comercio) o **Procesamiento fallido** (es decir, la publicación en la sede de Comercio no tuvo éxito y el usuario debe corregir los datos e intentar nuevamente enviar los pedidos).
-- **Borrador** - Esta pestaña muestra las nuevas solicitudes de órdenes de transferencia salientes que creó la tienda del usuario. Sin embargo, los documentos solo se han guardado localmente. Todavía no se han enviado a la sede de Comercio para su procesamiento.
+- **Activo** - Esta pestaña muestra las órdenes de transferencia que tienen un estado de **Solicitado** o **Parcialmente Enviado**. Los pedidos contienen líneas o cantidades en líneas que deben ser enviadas por la tienda actual del usuario. Esta pestaña también muestra los pedidos que tienen un estado de **Procesamiento en HQ** (es decir, están esperando la confirmación de una publicación exitosa de la sede de Commerce (HQ)) o **Procesamiento fallido** (es decir, la publicación en la sede de Commere (HQ) no tuvo éxito y el usuario debe corregir los datos e intentar nuevamente enviar los pedidos).
+- **Borrador** - Esta pestaña muestra las nuevas solicitudes de órdenes de transferencia salientes que creó la tienda del usuario. Sin embargo, los documentos solo se han guardado localmente. Todavía no se han enviado a la sede de Commerce (HQ) para su procesamiento.
 - **Completar** - Esta pestaña muestra una lista de documentos de pedido de transferencia que la tienda ha enviado completamente durante los últimos siete días. La finalidad de esta pestaña es meramente informativa. Toda la información sobre los documentos son datos de solo lectura para la tienda.
 
 Cuando ve documentos en cualquiera de las pestañas, el campo **Estado** puede ayudarlo a comprender la etapa en la que se encuentra el documento.
 
-- **Borrador** - El documento de orden de transferencia solo se ha guardado localmente en la base de datos de canales de la tienda. Aún no se ha enviado información sobre la solicitud de orden de transferencia a la sede de Comercio.
-- **Solicitado** - La orden de compra u orden de transferencia se ha creado en Commerce Headquarters y está completamente abierta. La tienda actual del usuario aún ha procesado cualquier envío contra el documento.
+- **Borrador** - El documento de orden de transferencia solo se ha guardado localmente en la base de datos de canales de la tienda. Aún no se ha enviado información sobre la solicitud de orden de transferencia a la sede de Commerce (HQ).
+- **Solicitado**: la orden de compra u orden de transferencia se ha creado en la sede de Commerce (HQ) y está completamente abierta. La tienda actual del usuario aún ha procesado cualquier envío contra el documento.
 - **Parcialmente Enviado** - El documento de orden de transferencia tiene una o más líneas o cantidades de líneas parciales que se registraron como enviadas por el almacén de salida. Estas líneas enviadas están disponibles para ser recibidas a través de la operación de entrada.
 - **Completamente enviado** - La orden de transferencia ha tenido todas sus líneas y cantidades de líneas completas registradas como enviadas por el almacén de salida.
 - **En progreso** - Este estado se utiliza para informar a los usuarios del dispositivo que otro usuario está trabajando activamente en el documento.
 - **Pausado** - Este estado se muestra después de seleccionar **Pausar la recepción** para detener temporalmente el proceso de recepción.
-- **Procesamiento en HQ** - El documento se envió a la sede de Comercio desde la aplicación PDV, pero aún no se ha publicado con éxito en la sede de Comercio. El documento está pasando por el proceso de publicación de documentos asincrónicos. Después de que el documento se publique con éxito en la sede de Comercio, su estado debe actualizarse a **Totalmente recibido** o **Parcialmente recibido**.
-- **Procesamiento fallido** - El documento fue publicado en la sede de Comercio y rechazado. El panel **Detalles** muestra el motivo del error de publicación. El documento debe editarse para corregir problemas de datos y luego debe volver a enviarse a la sede de Comercio para su procesamiento.
+- **Procesamiento en HQ**: el documento se envió a la sede de Commerce (HQ) desde la aplicación PDV, pero aún no se ha publicado con éxito en la sede de Commerce (HQ). El documento está pasando por el proceso de publicación de documentos asincrónicos. Después de que el documento se publique con éxito en la sede de Commerce (HQ), su estado debe actualizarse a **Totalmente recibido** o **Parcialmente recibido**.
+- **Procesamiento fallido** - El documento fue publicado en la sede de Commerce (HQ) y rechazado. El panel **Detalles** muestra el motivo del error de publicación. El documento debe editarse para corregir problemas de datos y luego debe volver a enviarse a la sede de Commerce (HQ) para su procesamiento.
 
-Cuando selecciona una línea de documento en la lista, aparece el panel **Detalles**. Este panel muestra información adicional sobre el documento, como información de envío y fecha. Una barra de progreso muestra cuántos elementos aún deben procesarse. Si el documento no se procesó correctamente en la sede de Comercio, el panel **Detalles** también muestra mensajes de error relacionados con el fallo.
+Cuando selecciona una línea de documento en la lista, aparece el panel **Detalles**. Este panel muestra información adicional sobre el documento, como información de envío y fecha. Una barra de progreso muestra cuántos elementos aún deben procesarse. Si el documento no se procesó correctamente en la sede de Commerce (HQ), el panel **Detalles** también muestra mensajes de error relacionados con el fallo.
 
 En la vista de página de la lista de documentos, puede seleccionar **Detalles del pedido** en la barra de la aplicación para ver los detalles del documento. También puede activar el procesamiento de recibos en líneas de documentos elegibles.
 
@@ -125,13 +125,13 @@ Las validaciones ocurren durante el proceso de recepción de las líneas del doc
 
 En Commerce, versión 10.0.12, se agregó una funcionalidad que permite a los usuarios de POS cerrar o cancelar las cantidades restantes durante el envío del pedido de salida si el almacén de salida determina que no puede enviar la cantidad completa que se solicitó. Las cantidades también se pueden cerrar o cancelar más tarde. Para utilizar esta capacidad, la empresa debe estar configurada para permitir la entrega incompleta de órdenes de transferencia. Además, se debe definir un porcentaje de incompleto para la línea de pedido de transferencia.
 
-Para configurar la empresa para permitir la entrega incompleta de pedidos de transferencia, en la Central de Commerce, vaya a **Gestión de inventario \> Configurar \> Parámetros de gestión de inventario y almacén**. En la página **Parámetros de gestión de inventario y almacén**, en la pestaña **Pedidos de transferencia**, active el parámetro **Aceptar entrega incompleta**. Luego ejecuta el trabajo del planificador de distribución **1070** para sincronizar los cambios de parámetros a su canal de almacén.
+Para configurar la empresa para permitir la entrega incompleta de pedidos de transferencia, en la sede de Commerce (HQ), vaya a **Gestión de inventario \> Configurar \> Parámetros de gestión de inventario y almacén**. En la página **Parámetros de gestión de inventario y almacén**, en la pestaña **Pedidos de transferencia**, active el parámetro **Aceptar entrega incompleta**. Luego ejecuta el trabajo del planificador de distribución **1070** para sincronizar los cambios de parámetros a su canal de almacén.
 
-Los porcentajes de suministro incompleto para una línea de pedido de transferencia pueden predefinirse en productos como parte de la configuración de producto en la Central de Commerce. Alternativamente, se pueden establecer o sobrescribir en una línea de orden de transferencia específica a través de la Central de Commerce.
+Los porcentajes de suministro incompleto para una línea de pedido de transferencia pueden predefinirse en productos como parte de la configuración de producto en la Central de Commerce. Alternativamente, se pueden establecer o sobrescribir en una línea de orden de transferencia específica a través de la Central de Commerce (HQ).
 
-Después de que una organización haya terminado de configurar la entrega incompleta de pedido de transferencia, los usuarios verán una nueva opción **Cerrar la cantidad restante** en el panel **Detalles** cuando seleccionan una línea de pedido de transferencia saliente a través de la operación **Operación de salida** en el PDV. Luego, cuando los usuarios completan el envío utilizando la operación **Terminar cumplimiento**, pueden enviar una solicitud a la central de Commerce para cancelar la cantidad restante no enviada. Si un usuario elige cerrar la cantidad restante, Commerce realiza una validación para verificar que la cantidad que se cancela está dentro de la tolerancia de porcentaje de entrega incompleta que se define en la línea de pedido de transferencia. Si se excede la tolerancia de incompleto, el usuario recibe un mensaje de error y no puede cerrar la cantidad restante hasta que la cantidad previamente enviada y para "enviar ahora" cumpla o exceda la tolerancia de entrega incompleta.
+Después de que una organización haya terminado de configurar la entrega incompleta de pedido de transferencia, los usuarios del PDV verán una nueva opción **Cerrar la cantidad restante** en el panel **Detalles** cuando seleccionan una línea de pedido de transferencia saliente a través de la función **Operación de salida** en el PDV. Cuando el usuario completa el envío utilizando la operación **Terminar cumplimiento**, pueden enviar una solicitud a la Central de Commerce (HQ) para cancelar la cantidad restante no enviada. Si el usuario cierra la cantidad restante, Commerce realiza una validación para verificar que la cantidad que se cancela está dentro de la tolerancia de porcentaje de entrega incompleta que se define en la línea de pedido de transferencia. Si se excede la tolerancia de incompleto, se muestra al usuario un mensaje de error y no puede cerrar la cantidad restante hasta que la cantidad previamente enviada y para "enviar ahora" cumpla o exceda la tolerancia de entrega incompleta.
 
-Después de que el envío se sincronice con la Central de Commerce, las cantidades que se definen en el campo **Enviar ahora** para la línea de pedido de transferencia en POS se actualizan a un estado de enviado en la Central de Commerce. Las cantidades no enviadas que anteriormente se considerarían cantidades de "envío restante" (es decir, cantidades que se enviarán más tarde) se consideran, en lugar de ello, cantidades canceladas. La cantidad de "envío restante" para la línea de pedido de transferencia se establece en **0** y la línea se considera totalmente enviada.
+Después de que el envío se sincronice con la Central de Commerce (HQ), las cantidades que se definen en el campo **Enviar ahora** para la línea de pedido de transferencia en POS se actualizan a un estado de enviado en la Central de Commerce (HQ). Las cantidades no enviadas que anteriormente se considerarían cantidades de "envío restante" (es decir, cantidades que se enviarán más tarde) se consideran, en lugar de ello, cantidades canceladas. La cantidad de "envío restante" para la línea de pedido de transferencia se establece en **0** y la línea se considera totalmente enviada.
 
 ### <a name="shipping-location-controlled-items"></a>Envío de artículos controlados por ubicación
 
@@ -145,13 +145,26 @@ Según lo requiera, puede seleccionar **Enviar todo** en la barra de la aplicaci
 
 ### <a name="cancel-fulfillment"></a>Cancelar el cumplimiento
 
-Debería usar la función **Cancelar cumplimiento** en la barra de la aplicación solo si desea salir del documento y no desea guardar ningún cambio. Por ejemplo, inicialmente seleccionó el documento incorrecto y no desea guardar ninguno de los datos de envío anteriores.
+Use la función **Cancelar cumplimiento** en la barra de la aplicación solo si desea salir del documento y no desea guardar ningún cambio. Por ejemplo, inicialmente seleccionó el documento incorrecto y no desea guardar ninguno de los datos de envío anteriores.
 
 ### <a name="pause-fulfillment"></a>Pausar el cumplimiento
 
-Si está cumpliendo el pedido de transferencia, puede usar la función **Pausar cumplimiento** si desea hacer un descanso del proceso. Por ejemplo, es posible que desee realizar otra operación desde el PDV, como cancelar la venta de un cliente o retrasar la publicación del envío a la sede de Commerce.
+Si está cumpliendo el pedido de transferencia, puede usar la función **Pausar cumplimiento** si desea hacer un descanso del proceso. Por ejemplo, es posible que desee realizar otra operación desde el PDV, como cancelar la venta de un cliente o retrasar la publicación del envío a la Central de Commerce (HQ).
 
 Cuando selecciona **Pausar cumplimiento**, el estado del documento cambia a **Pausado**. Por lo tanto, el usuario sabrá que los datos se han introducido en el documento, pero el documento aún no se ha confirmado. Cuando esté listo para reanudar el proceso de cumplimiento, seleccione el documento en pausa y luego seleccione **Detalles del pedido**. Ninguna cantidad de **Enviando ahora** que se guardaron previamente se conservarán y se pueden ver desde la vista **Lista completa de pedidos**.
+
+### <a name="review"></a>Revisar
+
+Antes del compromiso final de la finalización para la Central de Commerce (HQ), puede usar la funcionalidad **Revisión** para validar el documento entrante. Esta función lo alertará sobre los datos que falten o sean incorrectos que puedan causar una error en el procesamiento y le brindará la oportunidad de corregir problemas antes de enviar la solicitud de finalización. Para habilitar la función **Revisión** en la barra de aplicaciones, habilite la característica **Habilitar validación en las operaciones de inventario de entrada y salida del PDV** a través del espacio de trabajo Administración de características en la Central de Commerce (HQ).
+
+La función **Revisión** valida los siguientes problemas en un documento saliente:
+- **Envío en exceso**: la cantidad de envío en un momento determinado es mayor que la cantidad pedida. La gravedad de este problema está determinada por la configuración de sobreentrega en la Central de Commerce (HQ).
+- **Envío en defecto**: la cantidad de envío en un momento determinado es menor que la cantidad pedida. La gravedad de este problema está determinada por la configuración de entrega en defecto en la Central de Commerce (HQ).
+- **Número de serie**: el número de serie no se proporciona o no está disponible para un artículo serializado que requiere que el número de serie se registre en el inventario.
+- **Ubicación no establecida**: la ubicación no se especifica para un elemento controlado por ubicación donde no se permite la ubicación en blanco.
+- **Líneas eliminadas**: el pedido tiene líneas eliminadas por un usuario de la Central de Commerce (HQ) que la aplicación de PDV no conoce.
+
+Si establece el parámetro **Habilitar validación automática** en **Sí** en **Parámetros de Commerce** > **Inventario** > **Almacenar inventario** para ejecutar la validación automáticamente cuando se selecciona la función **Finalizar cumplimiento**.
 
 ### <a name="finish-fulfillment"></a>Finalizar el cumplimiento
 
@@ -163,15 +176,15 @@ Cuando se utiliza el procesamiento de documentos asíncrono, el recibo se envía
 
 Desde PDV, los usuarios pueden crear nuevos documentos de orden de transferencia. Para comenzar el proceso, seleccione **Nuevo** en la barra de aplicaciones mientras está en la lista de documento principal **Operación de salida**. Luego se le pedirá que seleccione un almacén o tienda al que **Transferir a** y al que su tienda actual enviará el inventario. Los valores se limitan a la selección que se define en la configuración del grupo de cumplimiento de la tienda. En una solicitud de transferencia saliente, su tienda actual siempre será el almacén **Transferido de** para la orden de transferencia. No se puede cambiar el valor.
 
-Puede introducir valores en los campos **Fecha de envío**, **Fecha de recepción** y **Modo de entrega** según lo requiera. También puede agregar una nota que se almacenará junto con el encabezado de la orden de transferencia, como un archivo adjunto al documento en la sede de Commerce.
+Puede introducir valores en los campos **Fecha de envío**, **Fecha de recepción** y **Modo de entrega** según lo requiera. También puede agregar una nota que se almacenará junto con el encabezado de la orden de transferencia, como un archivo adjunto al documento en la Central de Commerce (HQ).
 
 Después de crear la información del encabezado, puede agregar productos a la orden de transferencia. Para comenzar el proceso de agregar artículos y cantidades solicitadas, escanee códigos de barras o seleccione **Agregar Producto**.
 
-Tras introducir las líneas en la orden de transferencia de salida, debe seleccionar **Guardar** para guardar los cambios del documento localmente o **Enviar petición** para enviar los detalles del pedido a la sede de Commerce para su posterior procesamiento. Si selecciona **Guardar**, el borrador del documento se almacena en la base de datos del canal y el almacén de salida no puede ejecutar el documento hasta que se haya procesado correctamente a través de **Enviar petición**. Debería seleccionar **Guardar** solo si no está listo para enviar la solicitud a la sede de Commerce para su procesamiento.
+Tras introducir las líneas en la orden de transferencia de salida, debe seleccionar **Guardar** para guardar los cambios del documento localmente o **Enviar petición** para enviar los detalles del pedido a la Central de Commerce (HQ) para su posterior procesamiento. Si selecciona **Guardar**, el borrador del documento se almacena en la base de datos del canal y el almacén de salida no puede ejecutar el documento hasta que se haya procesado correctamente a través de **Enviar petición**. Seleccione **Guardar** solo si no está listo para enviar la solicitud a la Central de Commerce (HQ) para su procesamiento.
 
 Si un documento se guarda localmente, se puede encontrar en la pestaña **Borradores** de la lista de documentos **Operación entrante**. Mientras un documento está en el estado **Borrador**, puede editarlo seleccionando **Editar**. Puede actualizar, agregar o eliminar líneas según lo requiera. También puede eliminar todo el documento mientras está en el estado **Borrador** estado, seleccionando **Eliminar** en la pestaña **Borradores**.
 
-Después de que el borrador del documento se envíe con éxito a la sede de Commerce, aparecerá en la pestaña **Activo** y tiene un estado de **Solicitado**. En este punto, solo los usuarios del almacén de salida pueden editar el documento seleccionando **Operación de salida** en la aplicación PDV. Los usuarios en el almacén entrante pueden ver la orden de transferencia en la pestaña **Activo** de la lista de documentos **Operación entrante**, pero no pueden editarla ni eliminarla. El bloqueo de edición asegura que no ocurran conflictos porque un solicitante entrante cambia la orden de transferencia al mismo tiempo que el remitente saliente está recogiendo y enviando la orden de forma activa. Si se requieren cambios en la tienda o almacén de entrada después de que se haya enviado la orden de transferencia, se debe contactar al remitente de salida y solicitarle que introduzca los cambios.
+Después de que el borrador del documento se envíe con éxito a la Central de Commerce (HQ), aparecerá en la pestaña **Activo** y tiene un estado de **Solicitado**. En este punto, solo los usuarios del almacén de salida pueden editar el documento seleccionando **Operación de salida** en la aplicación PDV. Los usuarios en el almacén entrante pueden ver la orden de transferencia en la pestaña **Activo** de la lista de documentos **Operación entrante**, pero no pueden editarla ni eliminarla. El bloqueo de edición asegura que no ocurran conflictos porque un solicitante entrante cambia la orden de transferencia al mismo tiempo que el remitente saliente está recogiendo y enviando la orden de forma activa. Si se requieren cambios en la tienda o almacén de entrada después de que se haya enviado la orden de transferencia, se debe contactar al remitente de salida y solicitarle que introduzca los cambios.
 
 Después de que el documento esté en el estado **Pedido**, está listo para el procesamiento de cumplimiento por parte del almacén de salida. A medida que el envío se procesa utilizando la operación de salida, el estado de los documentos de la orden de transferencia se actualiza desde **Pedido** a **Completamente enviado** o **Parcialmente Enviado**. Después de que los documentos estén en el estado **Completamente enviado** o **Parcialmente Enviado**, la tienda entrante o el almacén pueden contabilizar recibos contra ellos mediante el proceso de recepción de operaciones entrantes.
 
