@@ -3,7 +3,7 @@ title: Proponer adquisiciones de activos fijos
 description: Este tema describe cómo adquirir un activo fijo mediante la propuesta de adquisición del diario de activos fijos.
 author: saraschi2
 manager: AnnBe
-ms.date: 07/22/2019
+ms.date: 07/27/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e08177aad2db2438c2d5d4ddd294c1056b88167c
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 0997af638c141661afb677e2407a90a883168aed
+ms.sourcegitcommit: a8201e0b9033c2afc2b1702b0337facaf7ad4b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142740"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "3628894"
 ---
 # <a name="propose-fixed-asset-acquisitions"></a>Proponer adquisiciones de activos fijos
 
 [!include [banner](../../includes/banner.md)]
 
-Este tema describe cómo adquirir un activo fijo mediante la propuesta de adquisición del diario de activos fijos. Usa el rol de contable y los datos de prueba de la entidad jurídica USMF.
+Este tema describe cómo adquirir un activo fijo mediante la propuesta de adquisición del diario de activos fijos. Usa el rol de contable y los datos de prueba de la entidad jurídica USMF. Para adquirir un activo fijo a través de un diario de propuestas de activos fijos, primero debe crear el registro de activos fijos y luego definir el precio de adquisición en el libro de activos.
 
-1. En el panel de navegación, vaya a **Módulos > Activos fijos > Entradas del diario > Diario de activos fijos**.
+1. En el panel de navegación, vaya a **Módulos > Activos fijos > Movimientos del diario > Diario de activos fijos**.
 2. Seleccione **Nuevo**.
 3. En el campo **Nombre**, especifique o seleccione un valor.
 4. En el panel de acciones, seleccione **Líneas**.
@@ -43,4 +43,3 @@ Este tema describe cómo adquirir un activo fijo mediante la propuesta de adquis
 - Solo los activos fijos con la fecha de adquisición y el precio de adquisición establecidos en el libro se incluirán en la propuesta de adquisición.  
 11. En la página, seleccione la ficha **Libros**.
 12. Seleccione **Registrar**.
-

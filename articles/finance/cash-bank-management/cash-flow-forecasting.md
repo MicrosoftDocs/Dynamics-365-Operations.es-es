@@ -3,7 +3,7 @@ title: Previsiones de flujo de efectivo
 description: Este tema proporciona una visión general del proceso de previsión de flujo de efectivo. También explica cómo la previsión de flujo de efectivo se integra con otros módulos del sistema.
 author: saraschi2
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 9795758a60d7913d306488ae6fbbfb7f9865cfc4
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2ffb8522729049ca98acfb70992738b45c05b552
+ms.sourcegitcommit: cf39369545a94201f367a4efada595a04a319d42
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188427"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3653785"
 ---
 # <a name="cash-flow-forecasting"></a>Previsiones de flujo de efectivo
 
@@ -104,6 +104,13 @@ Calcule la previsión de flujo de efectivo mediante la página **Calcular previs
 
 También puede usar el procesamiento por lotes para la previsión de flujo de efectivo. Para ayudar a garantizar que sus análisis de previsión se actualizan con regularidad, configure un proceso de lote periódico para el cálculo de la previsión de flujo de efectivo.
 
+En la versión 10.0.13, se publicó una mejora en el proceso de cálculo que utiliza el marco de trabajo de automatización de procesos para programar el trabajo de cálculo de flujo de efectivo. Esto se habilita usando la característica **Automatización de la previsión de flujo de efectivo** en el espacio de trabajo **Gestión de funciones**. Una vez habilitada, seleccione el vínculo **Automatización de la previsión de flujo de efectivo** para mostrar la nueva página de automatización donde puede programar el proceso de cálculo del flujo de efectivo. Para crear un nuevo programa de previsión de flujo de efectivo, seleccione **Crear nueva automatización de procesos** y luego seleccione **Automatización de la previsión de flujo de efectivo** en el menú desplegable **Tipo de programa**. Debe establecer un programa para cada compañía para la que está actualizando los datos de previsión del flujo de efectivo.  Esta página también muestra qué trabajos de automatización de la previsión del flujo de efectivo están pendientes y cuándo se completó el último trabajo.  
+
+> [!NOTE] 
+> Si los trabajos por lotes existentes ya están programados para las previsiones del flujo de efectivo, recibirá un mensaje de error y no podrá habilitar esta característica. Los trabajos por lotes existentes deberán borrarse antes de que pueda habilitar esta característica. 
+
+Para obtener más información, consulte [Automatización de procesos](../../fin-ops-core/dev-itpro/sysadmin/process-automation.md).
+
 ### <a name="reporting"></a>Notificación
 
 Tras calcularse la previsión de flujo de efectivo, debe actualizar la información asociada a la entidad para el informe de errores analítico. En la página **Almacén de entidades**, seleccione la medida **Agregado de LedgerCovLiquidityMeasurement** y, a continuación, haga clic en **Actualización**.
@@ -128,7 +135,7 @@ El espacio de trabajo **Visión general del efectivo para todas las empresas** m
 
 El espacio de trabajo **Visión general del efectivo para la empresa actual** muestra los análisis de previsión de flujo de efectivo en la divisa de contabilidad definida de la empresa. La divisa de contabilidad que se usa para el análisis se define en la página **Libro mayor**. Este espacio de trabajo muestra una visión general de la previsión del flujo de efectivo y los saldos de cuenta bancaria para la empresa actual. Un gráfico de los flujos de entrada y de salida de efectivo ofrece una visión general de los movimientos y los saldos de futuros de efectivo en la divisa de contabilidad, así como información detallada sobre las transacciones de previsión. También puede ver los saldos previstos de la divisa.
 
-Para obtener más información sobre los análisis de previsión de flujo de efectivo, consulte el tema de contenido de Power BI de visión general de efectivo.
+Para obtener más información sobre los análisis de previsión de flujo de efectivo, consulte el tema de [contenido de Power BI de visión general de efectivo](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-overview-power-bi-content).
 
 Además, puede ver los datos de previsión de flujo de efectivo para cuentas, pedidos y artículos específicos en las siguientes páginas:
 

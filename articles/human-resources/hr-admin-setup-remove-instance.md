@@ -3,7 +3,7 @@ title: Quitar una instancia
 description: Este artículo recorre con el usuario el proceso de eliminar una unidad de prueba o un entorno de producción para Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 17f299f81d1326dfb06c11a6125acc54b8ef2a6e
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: a384801060b2b684f7908daaac2311edd27c773a
+ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431208"
+ms.lasthandoff: 07/27/2020
+ms.locfileid: "3621389"
 ---
 # <a name="remove-an-instance"></a>Quitar una instancia
 
@@ -67,8 +67,21 @@ Para quitar un entorno de Human Resources de un entorno de Power Apps existente,
 1. Póngase en contacto con el soporte para iniciar una solicitud de eliminación.
 2. El equipo de soporte iniciará una solicitud de eliminación con el equipo de Human Resources DevOps. 
 3. Continúe tras recibir notificación de que se ha eliminado el entorno.
-4.  Inicie sesión en LCS mediante la cuenta que ha utilizado para suscribirse a Human Resources. 
+4. Inicie sesión en LCS mediante la cuenta que ha utilizado para suscribirse a Human Resources. 
 5. Seleccione el proyecto de Human Resources que contiene el entorno. 
 6. En su proyecto de LCS seleccione el mosaico **Gestión de la app Human Resources**. 
 7. Seleccione la instancia que desea quitar, que debe estar marcada con un estado de implementación **No superado**.
 8. Seleccione **Quitar instancia** y confirme la decisión. 
+
+## <a name="recover-a-soft-deleted-environment"></a>Recuperar un entorno eliminado temporalmente
+
+Si elimina el entorno Power Apps al que está conectado su entorno de Human Resources el estado del entorno de Human Resources en Lifecycle Services será **Eliminado temporalmente**. En este caso, los usuarios no pueden conectarse a Human Resources.
+
+Para restaurar el entorno:
+
+1. Siga las instrucciones en [Recuperar el entorno de Power Apps](/power-platform/admin/recover-environment.md).
+
+2. Póngase en contacto con el soporte técnico para restaurar el entorno de Human Resources. Para obtener más información, consulte [Obtener soporte](hr-admin-troubleshooting-support.md).
+
+> [!Warning]
+> Los entornos de Power Apps solo se guardan durante siete días después de la eliminación. Debe recuperar el entorno dentro de un período de siete días.

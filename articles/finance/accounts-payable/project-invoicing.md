@@ -1,9 +1,9 @@
 ---
 title: Facturación del proyecto
-description: Este artículo proporciona una visión general de la facturación del proyecto para Proyectos de tiempo y material y Proyectos de precio fijo. Incluye información acerca de las propuestas de factura (facturas preliminares), control de facturas, facturación a cuenta, facturación de proveedor y notas de abono.
-author: ShylaThompson
+description: En este tema se proporciona una visión general de la facturación del proyecto para Proyectos de tiempo y material y Proyectos de precio fijo. Incluye información acerca de las propuestas de factura (facturas preliminares), control de facturas, facturación a cuenta, facturación de proveedor y notas de abono.
+author: TaylorVH
 manager: AnnBe
-ms.date: 10/24/2017
+ms.date: 07/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,20 +16,20 @@ ms.custom: 23111
 ms.assetid: 1812d6f2-8b34-4258-8f5f-dcf12281547f
 ms.search.region: Global
 ms.author: shylaw
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 81a3d64d04ceb20fec2f5ca4bb005e7ecb3c1929
-ms.sourcegitcommit: d2b111bf7a5fbf62ff2874d6c57c5ef8412df82e
+ms.search.validFrom: 2020-07-06
+ms.dyn365.ops.version: AX 10.0.13
+ms.openlocfilehash: eab7523296996709dfe7407c582e61e28b7d4f23
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "3331381"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3651601"
 ---
 # <a name="project-invoicing"></a>Facturación del proyecto
 
 [!include [banner](../includes/banner.md)]
 
-Este artículo proporciona una visión general de la facturación del proyecto para Proyectos de tiempo y material y Proyectos de precio fijo. Incluye información acerca de las propuestas de factura (facturas preliminares), control de facturas, facturación a cuenta, facturación de proveedor y notas de abono.
+En este tema se proporciona una visión general de la facturación del proyecto para Proyectos de tiempo y material y Proyectos de precio fijo. Incluye información acerca de las propuestas de factura (facturas preliminares), control de facturas, facturación a cuenta, facturación de proveedor y notas de abono.
 
 El tipo de proyecto determina el procedimiento de facturación que se debe aplicar. Solo se pueden facturar los dos tipos de proyecto externo, Tiempo y material y Precio fijo. Los proyectos de tiempo y material y los proyectos de precio fijo están siempre vinculados a un contrato de proyecto.
 
@@ -47,7 +47,7 @@ Antes de crear una factura de cliente para un proyecto, puede crear una factura 
 
 ### <a name="creating-invoice-proposals"></a>Creación de propuestas de factura
 
-Puede crear propuestas de factura manualmente seleccionando una lista de transacciones para un proyecto especificado. También puede configurar reglas de facturación que especifiquen cuándo se debe crear automáticamente una propuesta de factura. Por ejemplo, puede crear una regla de facturación para crear una propuesta de factura cuando el trabajo de un proyecto esté completado al 25 por ciento, 50 por ciento, 75 por ciento y 100 por ciento. 
+Puede crear propuestas de factura manualmente seleccionando una transacción de una lista de transacciones disponibles para un proyecto especificado. También puede configurar reglas de facturación que especifiquen cuándo se debe crear automáticamente una propuesta de factura. Por ejemplo, puede crear una regla de facturación para crear una propuesta de factura cuando el trabajo de un proyecto esté completado al 25 por ciento, 50 por ciento, 75 por ciento y 100 por ciento. 
 
 Puede crear propuestas de factura para las transacciones siguientes:
 
@@ -57,7 +57,7 @@ Puede crear propuestas de factura para las transacciones siguientes:
 -   Importes que un cliente le pagó antes del inicio de un proyecto
 
 > [!NOTE]
-> La función **Habilitar la ordenación por recurso durante la creación de la propuesta de factura del proyecto** permite al contable del proyecto ordenar las transacciones del proyecto disponibles para facturación en función del recurso al crear una nueva propuesta de factura del proyecto. La cuadrícula que muestra las transacciones de proyecto disponibles tendrá un campo diferente para el Id. de recurso y el recurso, lo que permite que el usuario filtre y clasifique en el nombre del recurso. Esta función se deshabilita de forma predeterminada y se puede habilitar en **Áreas de trabajo > Administración de características**. Póngase en contacto con el administrador del sistema para obtener ayuda para habilitar esta función.
+> La función **Habilitar la ordenación por recurso durante la creación de la propuesta de factura del proyecto** permite al contable del proyecto ordenar las transacciones del proyecto disponibles para facturación en función del recurso al crear una nueva propuesta de factura del proyecto. La cuadrícula que muestra las transacciones de proyecto disponibles tendrá campos separados para el **Id. de recurso** y **Recurso**. Estos campos le permiten filtrar y ordenar el nombre del recurso. Esta característica está desactivada de forma predeterminada. Se puede habilitar usando la página **Administración de características** (**Espacios de trabajo> Administración de características**). Póngase en contacto con el administrador del sistema para obtener asistencia para habilitar esta función.
 
 Puede crear transacciones de gastos en una propuesta de factura. También puede modificar el precio de ventas en horas, gastos, artículos y transacciones de gastos. Cuando se registra una propuesta de factura, los precios y las transacciones actualizadas se agregan a los informes de proyecto y al historial de la transacción. 
 
@@ -69,22 +69,25 @@ Si un proyecto tiene más de una fuente de financiación, puede crear una propue
 
 Después de crear y registrar una propuesta de factura, se crea automáticamente una factura de cliente para las transacciones incluidas en la propuesta de factura. 
 
-Para poder registrar una propuesta de factura, puede agregarle transacciones o eliminarlas de ella. Por ejemplo, puede quitar las transacciones de gastos que se han registrado a un proyecto, pero no son imputables al cliente. 
+Para poder registrar una propuesta de factura, puede agregarle transacciones o eliminarlas de ella. Por ejemplo, puede quitar las transacciones de gastos que se han registrado a un proyecto pero no son imputables al cliente. 
 
 Si la organización requiere que las propuestas de factura se revisen antes de registrarse, puede que la propuesta de factura se deba aprobar a través de un flujo de trabajo "Revisar propuestas de factura de proyecto" antes de registrarse.
+
+### <a name="view-grant-information-on-project-invoice-list-pages"></a>Ver información de concesión en las páginas de la lista de facturas del proyecto
+
+Los usuarios del sector público pueden agregar el **Id. de concesión** y **Nombre de concesión** a las páginas de lista **Propuestas de factura de proyecto** y **Facturas del proyecto**. Estas columnas se habilitan utilizando la característica **Agregar información de subvención a las páginas de la lista de facturas del proyecto**. Esta función se desactiva de forma predeterminada y se puede habilitar en  **Áreas de trabajo > Administración de características**. Póngase en contacto con el administrador del sistema para obtener asistencia para habilitar esta función.
 
 ## <a name="on-account-invoicing"></a>Facturación a cuenta
 El importe que especifique para un proyecto en una factura a cuenta se basa en la sincronización, el porcentaje de finalización y otras condiciones de facturación que se especifican en el contrato del proyecto relacionado. El importe no se calcula en función de las horas, los artículos, los gastos o las tarifas que se publican en el proyecto. 
 
-Debe crear una transacción a cuenta para un proyecto de tiempo y materiales o un proyecto de precio fijo para poder agregar la transacción a cuenta a una factura de proyecto. En la transacción a cuenta, especifique el importe para facturar a un cliente. Para crear una factura de proyecto para el importe, cree una factura preliminar (propuesta de factura). En la propuesta de factura, seleccione la transacción a cuenta. Puede revisar la información a cuenta en la propuesta de factura antes de crear una factura de proyecto para ella.
+Debe crear una transacción a cuenta para un proyecto de tiempo y materiales o un proyecto de precio fijo para poder agregar la transacción a cuenta a una factura de proyecto. En la transacción a cuenta, especifique el importe para facturar a un cliente. Para crear una factura de proyecto para el importe, cree una factura preliminar (propuesta de factura). En la propuesta de factura, seleccione la transacción a cuenta. Puede revisar la información a cuenta en la propuesta de factura antes de crear una factura de proyecto para ella. 
 
 ### <a name="fixed-price-projects"></a>Proyectos de precio fijo
-
 Para proyectos de precio fijo, las transacciones a cuenta se basan en un hito acordado, la unidad de entrega o el acuerdo de facturación de progreso que se especifica en el contrato del proyecto. Se creará una línea para cada pago que se debe recibir del cliente del proyecto. No se necesitan ningunas deducciones.
 
 ### <a name="time-and-material-projects"></a>Proyectos de tiempo y material
 
-Para proyectos de tiempo y material, puede facturar a un cliente u otra fuente de financiación para un importe de anticipo mediante una propuesta de factura a cuenta. Permite especificar transacciones a cuenta como una línea. Opcionalmente, puede especificar las líneas adicionales como deducciones para borrar cualquier pago por adelantado que el cliente ya haya realizado. Para crear líneas de deducción, coloque un signo menos delante del importe.
+Para proyectos de tiempo y material, puede facturar a un cliente u otra fuente de financiación para un importe de anticipo mediante una propuesta de factura a cuenta. Permite especificar transacciones a cuenta como una línea. Opcionalmente, puede especificar las líneas adicionales como deducciones para borrar cualquier pago por adelantado que el cliente ya haya realizado. Para crear líneas de deducción, escriba un signo menos delante del importe.
 
 ## <a name="invoice-control"></a>Control de factura
 Puede usar el control de factura para realizar un seguimiento de las transacciones facturadas y no facturadas, y para analizar esas transacciones con los presupuestos para una vista de principio a fin de los proyectos desde la fase de presupuesto a la finalización. Puede ver qué transacciones se han cargado en un proyecto específico y qué líneas se han facturado. También puede ver transacciones individuales, de modo que pueda ajustarlas una vez registradas.
@@ -108,10 +111,10 @@ Por ejemplo, puede configurar la siguiente programación de facturación:
 Cuando los pagos por hito están listos para su facturación, se usa el procedimiento de facturación de importes a cuenta.
 
 ## <a name="vendor-invoicing"></a>Facturación de proveedor
-Cuando solicita un artículo de un proveedor y asigna el artículo a un proyecto, la propiedad de línea seleccionada para la línea de pedido de compra de ese artículo determina si el artículo adquirido se factura a un cliente. Si configura las propiedades de línea predeterminadas, se mostrarán para el artículo en la línea del pedido de compra (Detalles de línea &gt; Proyecto &gt; Propiedad de línea). Hay dos formas de modificar la propiedad de línea:
+Cuando solicita un artículo de un proveedor y asigna el artículo a un proyecto, la propiedad de línea seleccionada para la línea de pedido de compra de ese artículo determina si el artículo adquirido se factura a un cliente. Si configura las propiedades de línea predeterminadas, se mostrarán para el artículo en la línea del pedido de compra (**Detalles de línea > Proyecto > Propiedad de línea**). Hay dos formas de modificar la propiedad de línea:
 
--   Facturar al cliente del proyecto por el artículo: defina la propiedad de la línea en un valor imputable en el pedido de compra y, a continuación, facture al cliente con el método de facturación de proyecto correcto.
--   No facturar al cliente del proyecto por el artículo: no seleccione la propiedad de línea **Imputable** en la línea del pedido de compra para el artículo. A continuación puede facturar el pedido de compra, sin necesidad de tomar medidas adicionales.
+-   Facturar al cliente del proyecto por el artículo. Para hacer esto, defina la propiedad de la línea en un valor imputable en el pedido de compra y, a continuación, facture al cliente con el método de facturación de proyecto correcto.
+-   No facture al cliente del proyecto por el artículo. Para hacer esto, no seleccione la propiedad de línea **Imputable** en la línea de orden de compra del artículo. A continuación puede facturar el pedido de compra, sin necesidad de tomar medidas adicionales.
 
 > [!NOTE] 
 > Las líneas de liberación de retención no tienen cargo por defecto. Esto significa que la capacidad de crear una propuesta de factura para la retención liberada no está habilitada.
@@ -119,7 +122,7 @@ Cuando solicita un artículo de un proveedor y asigna el artículo a un proyecto
 ## <a name="credit-notes"></a>Notas de abono
 Cuando un importe de una factura de cliente tiene un valor negativo, la factura se clasifica como nota de abono. Cuando se imprime el documento, tiene el título "Nota de abono". 
 
-Cuando se crea una nota de abono para abonar un importe facturado anteriormente, se debe seleccionar primero el importe facturado para la asignación de abono. A continuación, se debe crear una nota de abono mediante el mismo procedimiento usado para crear una factura de cliente corriente. En otras palabras, debe seleccionar las transacciones que se han registrado anteriormente en una factura de cliente y, a continuación, crear y registrar una propuesta de nota de abono. 
+Cuando se crea una nota de abono para abonar un importe facturado anteriormente, se debe seleccionar primero el importe facturado para la asignación de abono. A continuación, se debe crear una nota de abono mediante el mismo procedimiento usado para crear una factura de cliente corriente. Debe seleccionar las transacciones que se han registrado anteriormente en una factura de cliente y, a continuación, crear y registrar una propuesta de nota de abono. 
 
 El mismo documento puede incluir transacciones seleccionadas para la asignación de abono, las transacciones de crédito y las transacciones que se han registrado. El documento se clasifica como una factura o una nota de abono, en función de si el importe total es positivo o negativo. 
 

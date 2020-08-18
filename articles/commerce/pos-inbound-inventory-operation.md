@@ -3,7 +3,7 @@ title: Operación de inventario entrante en PDV
 description: Este tema describe las capacidades de la operación de inventario de entrada del punto de venta (PDV).
 author: hhaines
 manager: annbe
-ms.date: 07/10/2020
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: cf3bec8ab0bfafccfe4b2b5b245d00fd6aeff635
-ms.sourcegitcommit: 037712e348fcbf3569587089bd668ee7bf5567ff
+ms.openlocfilehash: aba4f2d7932ebc3a0129f04c60c8b6358da68c64
+ms.sourcegitcommit: 0aabe4157f82d8c59dd2d285ab0b33f3c8ec5bbc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "3551610"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "3627547"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Operación de inventario entrante en PDV
 
@@ -33,7 +33,7 @@ ms.locfileid: "3551610"
 En Microsoft Dynamics 365 Commerce versión 10.0.10 y posterior, las operaciones de entrada y salida en el punto de venta (PDV) reemplazan la operación de selección y recepción.
 
 > [!NOTE]
-> En la versión 10.0.10 y posteriores, cualquier característica nueva en la aplicación PDV relacionada con la recepción del inventario de la tienda contra órdenes de compra y órdenes de transferencia se agregará a la operación de **Operaciones de entrada** de PDV. Si actualmente está utilizando la operación de recogida y recepción en PDV, le recomendamos que desarrolle una estrategia para pasar de esa operación a las nuevas operaciones de entrada y salida. Aunque la operación de selección y recepción no se eliminará del producto, no habrá más inversiones en él, desde una perspectiva funcional o de rendimiento, después de la versión 10.0.9.
+> En la versión 10.0.10 y posteriores de Commerce, cualquier característica nueva en la aplicación PDV relacionada con la recepción del inventario de la tienda contra órdenes de compra y órdenes de transferencia se agregará a la operación de **Operaciones de entrada** de PDV. Si actualmente está utilizando la operación de recogida y recepción en PDV, le recomendamos que desarrolle una estrategia para pasar de esa operación a las nuevas operaciones de entrada y salida. Aunque la operación de selección y recepción no se eliminará del producto, no habrá más inversiones en él, desde una perspectiva funcional o de rendimiento, después de la versión 10.0.9.
 
 ## <a name="prerequisite-configure-an-asynchronous-document-framework"></a>Requisito previo: configurar un marco de documentos asíncrono
 
@@ -153,6 +153,20 @@ Debería usar la función **Cancelar recepción** en la barra de la aplicación 
 Si está recibiendo inventario, puede usar la función **Pausar recepción** si desea hacer un descanso en el proceso de recepción. Por ejemplo, es posible que desee realizar otra operación desde el PDV, como cancelar la venta de un cliente o retrasar la publicación del recibo.
 
 Cuando selecciona **Pausar recepción**, el estado del documento cambia a **Pausado**. Por lo tanto, el usuario sabrá que los datos se han introducido para el documento, pero el documento aún no se ha confirmado. Cuando esté listo para reanudar el proceso de recepción, seleccione el documento en pausa y luego seleccione **Detalles del pedido**. Cualquier cantidad de **Recibiendo ahora** que se guardaron previamente se conservarán y se pueden ver desde la vista **Lista completa de pedidos**.
+
+### <a name="review"></a>Revisar
+
+Antes del compromiso final de la recepción para la Central de Commerce (HQ), puede usar la funcionalidad de revisión para validar el documento entrante. La revisión lo alertará sobre los datos que falte o sean incorrectos que puedan causar una error en el procesamiento y le brindará la oportunidad de corregir problemas antes de enviar la solicitud de recepción. Para habilitar la función **Revisión** en la barra de aplicaciones, habilite la característica **Habilitar validación en las operaciones de inventario de entrada y salida del PDV** a través del espacio de trabajo **Administración de características** en la Central de Commerce (HQ).
+
+La función **Revisión** valida los siguientes problemas en un documento entrante:
+
+- **Recepción en exceso**: la cantidad de recepción en un momento determinado es mayor que la cantidad pedida. La gravedad de este problema está determinada por la configuración de sobreentrega en la Central de Commerce (HQ).
+- **Recepción en defecto**: la cantidad de recepción en un momento determinado es menor que la cantidad pedida. La gravedad de este problema está determinada por la configuración de entrega en defecto en la Central de Commerce (HQ).
+- **Número de serie**: el número de serie no se proporciona o valida para un artículo serializado que requiere que el número de serie se registre en el inventario.
+- **Ubicación no establecida**: la ubicación no se especifica para un elemento controlado por ubicación donde no se permite la ubicación en blanco.
+- **Líneas eliminadas**: el pedido tiene líneas eliminadas por un usuario de la Central de Commerce (HQ) que la aplicación de PDV no conoce.
+
+Seleccione el parámetro **Habilitar validación automática** en **Sí** en **Parámetros de Commerce** > **Inventario** > **Almacenar inventario** para ejecutar la validación automáticamente cuando se selecciona **Terminar de recibir**.
 
 ### <a name="finish-receiving"></a>Finalizar la recepción
 

@@ -3,7 +3,7 @@ title: Trabajar con fragmentos
 description: Este tema describe por qué, cuándo y cómo usar fragmentos en Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 01/31/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,17 +17,17 @@ ms.search.industry: retail
 ms.author: phinneyridge
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f29046ded47ed9c49a2cc841aa7c1f6492b49aec
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 7ae834f38fe380ce0a66f5b1968f1261af670979
+ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124368"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3646000"
 ---
 # <a name="work-with-fragments"></a>Trabajar con fragmentos 
 
-
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Este tema describe por qué, cuándo y cómo usar fragmentos en Microsoft Dynamics 365 Commerce.
 
@@ -62,9 +62,10 @@ Puede crear un nuevo fragmento o guardar una configuración de módulo existente
 Para convertir un módulo configurado anteriormente en un fragmento reutilizable, siga estos pasos.
 
 1. Abra una página o una plantilla que contenga el módulo que desea convertir en un fragmento.
-1. En el panel de esquema de la izquierda, seleccione el botón de puntos suspensivos (**...**) junto al nombre del módulo. 
-1. Seleccione **Compartir como fragmento**. 
-1. Aparece un cuadro de diálogo. Especifique un nombre y metadatos para el fragmento.
+1. En el panel de contorno a la izquierda o directamente en el lienzo principal, seleccione el módulo configurado previamente.
+1. Seleccione los puntos suspensivos (**...**) junto al módulo en el panel de contorno o en la barra de herramientas del módulo seleccionado en el lienzo. 
+1. Seleccione **Compartir como fragmento de página**. 
+1. En el cuadro de diálogo **Guardar como fragmento de página**, especifique un nombre para el fragmento.
 1. Seleccione **Aceptar** para guardar la configuración del módulo como fragmento que se pueda agregar a otras páginas.
 
 La siguiente imagen muestra cómo guardar la configuración de un módulo como fragmento.
@@ -94,15 +95,16 @@ Los siguientes procedimientos describen cómo agregar, quitar y editar fragmento
 
 Para agregar un fragmento a una página, siga estos pasos.
 
-1. En el panel de esquema de la izquierda, seleccione un contenedor o una franja a la que se pueden agregar módulos secundarios.
-1. Seleccione el botón de puntos suspensivos junto al nombre del contenedor o franja y, a continuación, seleccione **Agregar fragmento**. Aparece un cuadro de diálogo.
+1. En el panel de esquema de la izquierda o directamente en el lienzo principal, seleccione un contenedor o una franja a la que se pueda agregar módulos secundarios.
+1. En el panel en línea, seleccione los puntos suspensivos (**...**) junto al nombre del contenedor o la franja.  Alternativamente, si usa el lienzo principal, seleccione el símbolo más (**+**).  
+1. Seleccione **Agregar fragmento**.
 
     ![Una captura de pantalla de cómo agregar un fragmento existente a un franja o contenedor](./media/add-fragment.png)
  
     > [!NOTE]
     > Si el contenedor o la franja no admiten nuevos módulos secundarios, la opción **Agregar fragmento** no está disponible.
     
-1. En el cuadro de diálogo, busque y seleccione un fragmento para agregarlo. Si no se muestran fragmentos disponibles, es posible que tenga que crear primero un fragmento de un tipo de módulo que la franja o el contenedor seleccionado admita.
+1. En el cuadro de diálogo **Agregar fragmento**, busque y seleccione un fragmento para agregarlo. Si no se muestran fragmentos disponibles, es posible que tenga que crear primero un fragmento de un tipo de módulo que la franja o el contenedor seleccionado admita.
 1. Seleccione el fragmento que desee para agregarlo a la franja o al contenedor seleccionado de su página.
 
     ![Una captura de pantalla de la ventana modal del selector de fragmentos](./media/fragment-picker.png)
@@ -114,7 +116,7 @@ Para agregar un fragmento a una página, siga estos pasos.
 
 Para eliminar un fragmento de una franja o un contenedor de una página, siga estos pasos.
 
-1. En el panel de esquema de la izquierda, seleccione el botón de puntos suspensivos que se encuentra junto al nombre del fragmento que se va a eliminar y, a continuación, seleccione el botón de papelera.
+1. En el panel de esquema de la izquierda, seleccione el botón de puntos suspensivos (**...**) que se encuentra junto al fragmento que se va a eliminar y, a continuación, seleccione el símbolo de papelera.  Alternativamente, puede seleccionar el fragmento en el lienzo y seleccionar el símbolo de la papelera en la barra de herramientas del fragmento.
 1. Cuando se le pida confirmar que desea quitar el fragmento, seleccione **Aceptar**.
 
 > [!NOTE]

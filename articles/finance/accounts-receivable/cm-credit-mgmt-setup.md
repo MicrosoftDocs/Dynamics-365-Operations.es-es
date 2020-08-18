@@ -3,7 +3,7 @@ title: Configuración de parámetros de la administración de crédito
 description: En este tema se describen las opciones que puede usar para configurar la Administración de crédito a fin de cumplir los requisitos de su empresa.
 author: mikefalkner
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6d4ced14e51dd28d51d2081d8e92891e31eea49d
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: c4930d346ddc4679e6a3196c5f35adb598ed38c1
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154537"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3651914"
 ---
 # <a name="credit-management-parameters-setup"></a>Configuración de parámetros de la administración de crédito
 
@@ -34,7 +34,7 @@ Existen cuatro fichas desplegables en la sección **Crédito** en las que puede 
 
 ### <a name="credit-holds"></a>Retenciones de crédito
 
-- Establezca la opción **Permitir la edición del valor de los pedidos de ventas después de que se libere la retención de pedidos** en **Sí** para exigir que se vuelvan a comprobar las reglas de contabilización si el valor del pedido de ventas (precio extendido) ha cambiado desde que se eliminó el pedido de ventas de la lista de retención. .
+- Establezca la opción **Permitir la edición del valor de los pedidos de ventas después de que se libere la retención de pedidos** en **No** para exigir que se vuelvan a comprobar las reglas de contabilización si el valor del pedido de ventas (precio extendido) ha aumentado desde que se eliminó el pedido de ventas de la lista de retención. .
 - En el campo **Motivos de pedidos cancelados**, seleccione el motivo de liberación que se usará de manera predeterminada cuando se cancele un pedido de ventas que estaba en espera de administración de crédito.
 - Establezca la opción **Comprobar el límite de crédito de grupos de crédito de cliente** en **Sí** para comprobar el límite de crédito de un grupo de crédito de cliente cuando el cliente de un pedido de ventas pertenece a un grupo de crédito de cliente. Se comprobará el límite de crédito para el grupo y después, si es suficiente, se comprobará el límite de crédito para el cliente.
 - Establezca la opción **Comprobar el límite de crédito cuando aumenta las condiciones de pago** en **Sí** para comprobar las clasificaciones de las condiciones de pago a fin de determinar si las condiciones de pago del pedido de ventas difieren de las condiciones de pago predeterminadas del cliente. Si las nuevas condiciones de pago tienen una clasificación más alta que las condiciones de pago originales, el pedido se pone en espera de administración de crédito.

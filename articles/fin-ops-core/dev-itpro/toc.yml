@@ -14,6 +14,8 @@
               items:
                 - name: Novedades y cambios en la página principal de Platform update
                   href: get-started/whats-new-home-page.md
+                - name: Platform updates para 10.0.13 (octubre de 2020)
+                  href: get-started/whats-new-platform-updates-10-0-13.md
                 - name: Platform updates para 10.0.12 (agosto de 2020)
                   href: get-started/whats-new-platform-update-10-0-12.md
                 - name: Platform updates para 10.0.11 (julio de 2020)
@@ -82,6 +84,8 @@
           items:
             - name: Elegir una estrategia de integración de datos (importación o exportación)
               href: data-entities/integration-overview.md
+            - name: Limitación basada en prioridades
+              hreF: data-entities/priority-based-throttling.md
             - name: API de integración de datos
               items:
                 - name: API de REST de paquete de administración de datos
@@ -152,6 +156,8 @@
                           items:
                             - name: Personalizar asignaciones de entidad y campo
                               href: data-entities/dual-write/customizing-mappings.md
+                            - name: Editar una entidad jurídica después de la configuración de doble escritura
+                              href: data-entities/dual-write/edit-legal-entity.md
                             - name: Gestión de errores y notificaciones de alerta
                               href: data-entities/dual-write/errors-and-alerts.md
                             - name: Administración de ciclo de vida de la aplicación
@@ -1198,7 +1204,7 @@
                       href: mobile-apps/platform/client-apis/modules/event-ievent.md
                     - name: Módulo Control
                       href: mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-icontrol.md
-                    - name: Módulo Contenedor
+                    - name: Módulo de contenedor
                       href: mobile-apps/platform/client-apis/modules/view-model-control-container-icontainercontrol.md
                     - name: Módulo Campo
                       href: mobile-apps/platform/client-apis/modules/view-model-control-field-ifield.md

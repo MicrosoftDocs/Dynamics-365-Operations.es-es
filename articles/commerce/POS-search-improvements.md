@@ -3,7 +3,7 @@ title: Búsqueda de productos y de clientes en el punto de venta (PDV)
 description: En este tema se proporciona una visión general de las mejoras que se han realizado en la funcionalidad de búsqueda de productos y clientes en Dynamics 365 Commerce.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 06/10/2019
+ms.date: 07/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 2b4c17b41056a35c2d2caaedb4f52998179b3c3e
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 415e8268c504487f2b66afc2ac9a50de1b538911
+ms.sourcegitcommit: a8201e0b9033c2afc2b1702b0337facaf7ad4b92
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023883"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "3628918"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Búsqueda de productos y de clientes en el punto de venta (PDV)
 
@@ -95,6 +95,9 @@ En una búsqueda de cliente remota, no se muestra el id. del cliente si este for
 
 Se han simplificado las búsquedas que se basan en el número de teléfono. Estas búsquedas ahora omiten caracteres especiales, como espacios, guiones y corchetes, lo que se puedan haber agregado cuándo se creó el cliente. Por lo tanto, los cajeros no tienen que preocuparse del formato de número de teléfono al realizar una búsqueda. También pueden buscar por cliente escribiendo un número de teléfono parcial. Si un número de teléfono incluye caracteres especiales, también se puede encontrar buscando los números que aparecen después de caracteres especiales. Por ejemplo, si un número de teléfono de cliente se escribió como **123-456-7890**, un cajero puede buscar el cliente escribiendo **123**, **456**, **7890** o **1234567890** o simplemente escribiendo los primeros números del teléfono.
 
+> [!NOTE]
+> Un cliente puede tener múltiples números de teléfono y múltiples correos electrónicos. El algoritmo de búsqueda de clientes también busca a través de estos correos electrónicos y números de teléfono secundarios, pero la página de resultados de búsqueda de clientes solo muestra el correo electrónico principal y el número de teléfono. Esto puede causar cierta confusión ya que los resultados devueltos del cliente no mostrarían el correo electrónico o el número de teléfono buscado. En una versión futura, planeamos mejorar la pantalla de resultados de búsqueda de clientes para mostrar esta información.
+
 La búsqueda tradicional de clientes puede ser larga, porque buscar en varios campos. En su lugar, los cajeros pueden ahora buscar en una única propiedad de cliente, como el nombre, dirección de correo electrónico o número de teléfono. Las propiedades que el algoritmo de búsqueda del cliente usa se conocen colectivamente como *criterios de búsqueda del cliente*. La administración del sistema puede configurar fácilmente uno o más criterios como métodos abreviados que aparecen en PDV. Dado que la búsqueda se limita a un único criterio, solo se muestran los resultados relevantes de la búsqueda y el rendimiento es mucho mejor que el rendimiento de una búsqueda estándar del cliente. La ilustración siguiente muestra los métodos abreviados de búsqueda del cliente en el PDV.
 
 ![Métodos abreviados de búsqueda del cliente](./media/SearchShortcutsPOS.png "Métodos abreviados de búsqueda del cliente")
@@ -114,3 +117,4 @@ El campo **Visualizar orden** determina el orden en que los accesos directos se 
 En una próxima versión de Commerce, los minoristas podrán establecer el modo de búsqueda de clientes predeterminado en el PDV en **Buscar en todas las tiendas**. Esta configuración puede resultar útil en escenarios en los que los clientes que se crearon fuera del PDV deben buscarse de inmediato (por ejemplo, incluso antes de que se ejecute el trabajo de distribución). Una nueva opción **Modo de búsqueda de clientes predeterminado** estará disponible en el perfil de funcionalidad de PDV. Establézcala en **Activa** para establecer el modo de búsqueda predeterminado en **Buscar en todas las tiendas**. Cada intento de búsqueda de clientes hará una llamada en tiempo real a la sede.
 
 Para ayudar a evitar problemas de rendimiento inesperados, esta configuración se oculta detrás de un indicador que se denomina **CUSTOMERSEARCH_ENABLE_DEFAULTSEARCH_FLIGHTING**. Por tanto, para mostrar el **Modo de búsqueda de clientes predeterminado** que configura la interfaz de usuario (IU), el minorista debe crear una incidencia de soporte técnico para su prueba de aceptación del usuario (UAT) y los entornos de producción. Una vez que se reciba la incidencia, el equipo de ingeniería trabajará con el minorista para garantizar que este último realiza la prueba en sus entornos que no son de producción a fin de evaluar el rendimiento e implementar cualquier optimización que sea necesaria.
+

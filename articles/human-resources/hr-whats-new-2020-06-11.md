@@ -3,7 +3,7 @@ title: Novedades o cambios en Dynamics 365 Human Resources (11 de junio de 2020)
 description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Human Resources.
 author: Darinkramer
 manager: AnnBe
-ms.date: 6/16/2020
+ms.date: 06/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-06-11
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cba6e48899ec39fc4de6656f8151a42b8aa43261
-ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
+ms.openlocfilehash: 8ec15c33cdb1abc32c28fd78822b06188dd0feac
+ms.sourcegitcommit: 81296c49be9953aa01e15527c34d0ef13b4622a9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/13/2020
-ms.locfileid: "3555204"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "3614295"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-11-2020"></a>Novedades o cambios en Dynamics 365 Human Resources (11 de junio de 2020)
 
@@ -57,7 +57,7 @@ Las entidades de gestión de ventajas se están lanzando. Las entidades DMF le p
 
 ## <a name="buy-and-sell-leave"></a>Comprar y vender bajas 
 
-Algunas organizaciones ofrecen un beneficio que permite a los empleados comprar o vender su baja. Este proceso a menudo se gestiona manualmente. Esta característica automatiza las políticas de gestión y las solicitudes del departamento de recursos humanos. Agiliza el proceso de gestión de licencias y ayuda a eliminar errores. Para obtener más información, consulte:
+Algunas organizaciones ofrecen un beneficio que permite a los empleados comprar o vender su baja. Este proceso a menudo se gestiona manualmente. Esta característica automatiza las políticas de gestión y las solicitudes del departamento de recursos humanos. Agiliza el proceso de gestión de bajas y ayuda a eliminar errores. Para obtener más información, consulte:
 
 - [Gestionar directivas de compra y venta de bajas](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
 - [Comprar y vender bajas](hr-employee-self-service-buy-sell-leave.md)

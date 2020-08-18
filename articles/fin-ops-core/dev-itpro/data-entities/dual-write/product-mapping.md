@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 7de7af1084b62a7248eeda54df215e56f2541286
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 3b9a1485d37da614eea2427735e0e1323897682d
+ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3173209"
+ms.lasthandoff: 07/27/2020
+ms.locfileid: "3621337"
 ---
 # <a name="unified-product-experience"></a>Experiencia unificada del producto
 
@@ -86,7 +86,7 @@ En este modelo, el producto se representa con la combinación de dos entidades e
 Dado que el producto se representa como SKU, los conceptos de productos únicos, de productos maestros y de variantes de producto se pueden capturar en Common Data Service de la siguiente manera:
 
 - **Productos con producto de subtipo** son productos que se definen por sí mismos. No hay que definir dimensiones. Un ejemplo es un libro específico. Para estos productos, se crea un registro en la entidad **Producto** y se crea un registro en la entidad **msdyn\_sharedproductdetails**. No se crea ningún registro de familia de productos.
-- Los **productos maestros** se usan como productos genéricos bloqueo que contienen la definición y las reglas que determinan el comportamiento en procesos empresariales. Según estas definiciones, los productos únicos que se conozcan como variantes de producto pueden generarse. Por ejemplo, si camiseta es el producto maestro, puede tener Color y Tamaño como dimensiones. Se pueden lanzar variantes que tienen diferentes combinaciones de estas dimensiones, como una pequeña camiseta azul o una camiseta verde de tamaño mediano. En la integración, se crea un registro por variante en la tabla del producto. Este registro contiene información específica de las variantes, como las diferentes dimensiones. La información genérica del producto se almacena en la entidad **msdyn\_sharedproductdetails**. (Esta información genérica se mantiene en el producto maestro.) Además, se crea un registro de familia de productos por producto maestro. La información de producto maestro se sincroniza con Common Data Service tan pronto como se crea el producto maestro lanzado (pero antes de que se lancen variantes).
+- Los **productos maestros** se usan como productos genéricos bloqueo que contienen la definición y las reglas que determinan el comportamiento en procesos empresariales. Según estas definiciones, los productos únicos que se conozcan como variantes de producto pueden generarse. Por ejemplo, si camiseta es el producto maestro, puede tener Color y Tamaño como dimensiones. Se pueden lanzar variantes que tienen diferentes combinaciones de estas dimensiones, como una pequeña camiseta azul o una camiseta verde de tamaño mediano. En la integración, se crea un registro por variante en la tabla del producto. Este registro contiene información específica de las variantes, como las diferentes dimensiones. La información genérica del producto se almacena en la entidad **msdyn\_sharedproductdetails**. (Esta información genérica se conserva en el producto maestro). La información de producto maestro se sincroniza con Common Data Service tan pronto como se crea el producto maestro lanzado (pero antes de que se lancen variantes).
 - **Productos únicos** hace referencia a todos los productos de subtipo de productos y a todas las variantes de producto. 
 
 ![Modelo de datos para productos](media/dual-write-product.png)

@@ -3,7 +3,7 @@ title: Configurar integración de Common Data Service
 description: Puede activar o desactivar la integración entre Common Data Service y Dynamics 365 Human Resources. También puede ver los detalles de sincronización, borrar los datos de seguimiento y volver a sincronizar una entidad para ayudar a solucionar problemas de datos entre los dos entornos.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7aad8217d48917d6855046a6810fe994f5564d94
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 8cbead2961c4576a5394080aae2fec109bce3f10
+ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431323"
+ms.lasthandoff: 07/27/2020
+ms.locfileid: "3621313"
 ---
 # <a name="configure-common-data-service-integration"></a>Configurar integración de Common Data Service
 
@@ -66,6 +66,9 @@ Es posible que desee desactivar la integración en estas situaciones:
 - Para desactivar la integración, configure la opción como **No**.
 
 [![Activar o desactivar la integración de Common Data Service](./media/hr-enable-or-disable-common-data-service-integration.png)](./media/hr-enable-or-disable-common-data-service-integration.png)
+
+> [!WARNING]
+> Recomendamos encarecidamente desactivar la integración con Common Data Service al realizar tareas de migración de datos. Las grandes cargas de datos pueden afectar significativamente el rendimiento. Por ejemplo, cargar 2000 trabajadores puede llevar varias horas cuando la integración está habilitada, y menos de una hora cuando está deshabilitada. Los números proporcionados en este ejemplo son solo para fines de demostración. La cantidad exacta de tiempo que lleva importar registros puede variar mucho en función de muchos factores.
 
 ## <a name="view-data-integration-details"></a>Ver los detalles de la integración de datos
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0efc2b50b080b769cb103d1519217517b8330668
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 3478c4c2acb134df1c293c1c33f615595aeaadd0
+ms.sourcegitcommit: 3ae002804858f201297a729d03ec7eab8209be34
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429667"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "3628438"
 ---
 # <a name="view-team-and-company-calendars"></a>Ver calendarios de equipo y empresa
 
@@ -33,15 +33,13 @@ Puede ver calendarios de equipo y empresa en Dynamics 365 Human Resources. Los c
 
 ## <a name="view-your-team-calendar-as-an-employee"></a>Ver el calendario de su equipo como empleado
 
-1. En el espacio de trabajo **Autoservicio para empleados**, seleccione **Mi equipo**.
-
-2. Seleccione **Bajas y ausencias** y luego seleccione **Ver calendario del equipo**.
+1. En el espacio de trabajo **Autoservicio para empleados**, seleccione **Calendario de ausencias del equipo** en **Resumen**.
 
 ## <a name="view-your-team-calendar-as-a-manager"></a>Ver el calendario de su equipo como gerente
 
 1. En el espacio de trabajo **Autoservicio para empleados**, seleccione **Mi equipo**.
 
-2. Seleccione **Bajas y ausencias** y luego seleccione **Ver calendario del equipo**.
+2. Seleccione **Bajas y ausencias** y luego seleccione **Ver calendario de ausencias del administrador**.
 
 Los gerentes también pueden acceder al calendario del equipo desde **Solicitudes pendientes de mi equipo**, **Tiempo libre aprobado** y **Solicitudes de tiempo libre**. 
 
