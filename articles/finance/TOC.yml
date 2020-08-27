@@ -1152,11 +1152,11 @@
               href: public-sector/tasks/create-fund-type-public-sector.md
             - name: Agregar un tipo de certificación a un proveedor en el sector público
               href: public-sector/tasks/add-certification-type-vendor-public-sector.md
-            - name: Cálculo del impuesto unificados canadiense
+            - name: Cálculo del impuesto armonizado canadiense
               href: public-sector/Calculating-Canadian-Harmonized-sales-tax.md
         - name: Informes financieros
           items:
-            - name: Visión general de informes financieros
+            - name: Introducción a los informes financieros
               href: general-ledger/financial-reporting-getting-started.md
             - name: Visión general de informes financieros
               href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/dynamics365/finance/toc.json
@@ -2600,6 +2600,12 @@
                       href: localizations/rus-counting-deferrals.md
                     - name: Informes para aplazamientos
                       href: localizations/rus-reporting-deferrals.md
+                - name: Contabilidad de impuestos
+                  items:
+                    - name: Códigos de gastos e ingresos
+                      href: localizations/rus-expense-and-income-codes.md
+                    - name: Registros fiscales de activos
+                      href: localizations/rus-assets-tax-registers.md
             - name: Arabia Saudí
               items:
                 - name: Visión general de Arabia Saudí
@@ -3100,7 +3106,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/finance/toc.json
                         - name: Today
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-today.md?toc=/dynamics365/finance/toc.json
-                    - name: Lista
+                    - name: List
                       items:
                         - name: Funciones de lista
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-list.md?toc=/dynamics365/finance/toc.json
@@ -3126,6 +3132,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-isempty.md?toc=/dynamics365/finance/toc.json
                         - name: List
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?toc=/dynamics365/finance/toc.json
+                        - name: ListDistinct
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listdistinct.md?toc=/dynamics365/finance/toc.json
                         - name: ListJoin
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listjoin.md?toc=/dynamics365/finance/toc.json
                         - name: ListOfFields
@@ -3413,7 +3421,9 @@
             - name: Guías de inicio rápido
               items:
                 - name: Ajustar un formato de informes electrónicos para generar un documento electrónico personalizado
-                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start2-customize-report.md
+                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start2-customize-report.md?toc=/dynamics365/finance/toc.json
+                - name: Diseñar una nueva solución de ER para imprimir un informe personalizado
+                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start1-new-solution.md?toc=/dynamics365/finance/toc.json
             - name: Tutoriales
               items:
                 - name: Aprender a usar los orígenes de datos
