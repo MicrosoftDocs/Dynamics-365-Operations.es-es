@@ -5,6 +5,8 @@
       items:
         - name: Novedades y cambios en Human Resources
           href: hr-admin-whats-new.md
+        - name: 6 de agosto de 2020
+          href: hr-whats-new-2020-08-06.md
         - name: 23 de julio de 2020
           href: hr-whats-new-2020-07-23.md
         - name: 8 de julio de 2020
@@ -23,16 +25,16 @@
           href: hr-whats-new-2020-04-13.md
         - name: 3 de abril de 2020
           href: hr-whats-new-2020-04-03.md
-        - name: 24 de marzo de 2020
-          href: hr-whats-new-2020-03-24.md
-        - name: 19 de marzo de 2020
-          href: hr-whats-new-2020-03-19.md
-        - name: 10 de marzo de 2020
-          href: hr-whats-new-2020-03-10.md
-        - name: 3 de marzo de 2020
-          href: hr-whats-new-2020-03-03.md
         - name: Novedades en los archivos de 2020
           items:
+            - name: 24 de marzo de 2020
+              href: hr-whats-new-2020-03-24.md
+            - name: 19 de marzo de 2020
+              href: hr-whats-new-2020-03-19.md
+            - name: 10 de marzo de 2020
+              href: hr-whats-new-2020-03-10.md
+            - name: 3 de marzo de 2020
+              href: hr-whats-new-2020-03-03.md
             - name: 25 de febrero de 2020
               href: hr-whats-new-2020-02-25.md
             - name: 18 de febrero de 2020
@@ -225,8 +227,6 @@
               href: hr-setup-parameters.md
             - name: Configurar parámetros compartidos de Human Resources
               href: hr-setup-shared-parameters.md
-            - name: Configurar flujos de trabajo de Human Resources
-              href: hr-setup-workflows.md
             - name: Comprender campos de fecha y hora
               href: hr-setup-date-time-fields.md
         - name: Establecer configuración de la organización
@@ -383,6 +383,8 @@
               href: hr-personnel-actions-faq.md
             - name: Utilizar flujos de trabajo para administrar la información sobre los empleados
               href: hr-workflow-manage-employee-information.md
+            - name: Ver y administrar cambios de dirección
+              href: hr-personnel-view-address-changes.md
             - name: Modificar las relaciones jerárquicas para un puesto
               href: hr-personnel-modify-reporting-relationships-position.md
             - name: Introducir información de trabajadores
@@ -395,8 +397,6 @@
               href: hr-personnel-loan-items.md
             - name: Desarrollar un plan de sucesión
               href: hr-personnel-develop-succession-plan.md
-            - name: Introducir hojas de horas de proyectos
-              href: hr-personnel-enter-project-timesheets.md
             - name: Proyectos de contratación masiva
               href: hr-personnel-mass-hire-projects.md
             - name: Crear un proyecto de contratación masiva

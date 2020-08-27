@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ab0c66ad0536b20b1ab23e9498ca3cb56b98ccf5
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: d601ca9b28bb720fd05e25ef66df7be12a08f7e0
+ms.sourcegitcommit: e2a953bea055611023c00a55c00391d14daaca25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530268"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "3696139"
 ---
 # <a name="supply-chain-management-home-page"></a>Página principal de Supply Chain Management
 
@@ -89,8 +89,6 @@ Las siguientes grabaciones de conferencias técnicas analizan la funcionalidad d
   - [Configurador del producto en Microsoft Dynamics AX](https://youtu.be/zotrj3SbCl4)
 - **Gestión de almacenes**:
   - [Saque el máximo partido al sistema de gestión de almacenes](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
-  - [Gestión avanzada de almacenes de R3: procesamiento de entrada y reabastecimiento mínimo/máximo](https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s)
-  - [Gestión avanzada de almacenes de R3: vida cotidiana, procesamiento de salida y reabastecimiento de la demanda](https://youtu.be/Og0gLlVp7jA)
   - [Etiquetas en la nueva gestión de almacenes de Microsoft Dynamics AX 2012 R3](https://youtu.be/5w1MngVchBA)
   - [Dynamics AX 2012 R3: Gestión avanzada de almacenes - Vida cotidiana de la fabricación en procesos](https://www.youtube.com/embed/QUxXUrN-7n4)
 - **Vídeos de control de producción**:
