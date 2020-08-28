@@ -3,7 +3,7 @@ title: Calcular la disponibilidad de inventario para canales minoristas
 description: Este tema describe las opciones disponibles para mostrar el inventario disponible para la tienda y los canales en línea.
 author: hhainesms
 manager: annbe
-ms.date: 05/15/2020
+ms.date: 08/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: hhainesms
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 51e6633caa49daeedca685f3323eaf4e14e788a5
-ms.sourcegitcommit: e789b881440f5e789f214eeb0ab088995b182c5d
+ms.openlocfilehash: 6d25a426268ebfb6990eb3dadb1ad451f86f59a1
+ms.sourcegitcommit: 65a8681c46a1d99e7ff712094f472d5612455ff0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "3379245"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3694931"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Calcular la disponibilidad de inventario para canales minoristas
 
@@ -40,7 +40,7 @@ Este tema explica los procesos de sincronización de datos que se pueden ejecuta
 
 Puede usar las siguientes API para mostrar la disponibilidad de inventario de un producto cuando sus clientes compran en un sitio de comercio electrónico.
 
-- **GetEstimatedAvailability** - Use esta API para obtener disponibilidad de inventario para el artículo en el almacén del canal de comercio electrónico o en todos los almacenes que están vinculados a la configuración del grupo de cumplimiento para el canal de comercio electrónico. Esta API también se puede utilizar para almacenes en un área o radio de búsqueda específica, según los datos de longitud y latitud.
+- **GetEstimatedAvailability**: use esta API para obtener disponibilidad de inventario para el artículo en el almacén del canal de comercio electrónico o en todos los almacenes que están vinculados a la configuración del grupo de cumplimiento para el canal de comercio electrónico. Esta API también se puede utilizar para almacenes en un área o radio de búsqueda específica, según los datos de longitud y latitud.
 - **GetEstimatedProductWarehouseAvailability** - Use esta API para solicitar inventario para un artículo de un almacén específico. Por ejemplo, puede usarlo para mostrar la disponibilidad de inventario en escenarios que involucran la recolección de pedidos.
 
 > [!NOTE]
@@ -50,7 +50,7 @@ Ambas API obtienen datos del servidor de Commerce y proporcionan una estimación
 
 ### <a name="get-started-with-e-commerce-calculated-inventory-availability"></a>Comience con la disponibilidad de inventario calculada de comercio electrónico
 
-Antes de utilizar las dos API que se mencionaron anteriormente, debe habilitar la función **Cálculo de disponibilidad de producto optimizado** a través del espacio de trabajo **Gestión de funciones** de espacio de trabajo en la sede de Commerce.
+Antes de utilizar las dos API que se mencionaron anteriormente, debe habilitar la característica **Cálculo optimizado de disponibilidad de producto** a través del espacio de trabajo **Administración de características** en la sede de Commerce.
 
 Antes de que las API puedan calcular la mejor estimación de disponibilidad de inventario para un artículo, debe procesarse una instantánea periódica de la disponibilidad de inventario de la sede de Commerce y enviarse a la base de datos de canales que utiliza la Unidad de Escala de Commerce de Comercio Electrónico. La instantánea representa la información que Commerce Headquarters tiene sobre la disponibilidad de inventario para una combinación específica de un producto o variante de producto y un almacén. Puede incluir ajustes de inventario o movimientos causados por recibos de inventario, o por envíos u otros procesos que se realizan en Commerce Headquarters y sobre los que el canal de comercio electrónico tiene información solo debido al proceso de sincronización.
 
@@ -66,7 +66,7 @@ Después de el trabajo **Disponibilidad de producto** ha terminado de ejecutarse
 1. Vaya a **Retail y Commerce \> TI de Retail y Commerce \> Programación de distribución**.
 1. Ejecute el trabajo **1130** (**Disponibilidad de producto**) para sincronizar los datos de la instantánea que el trabajo **Disponibilidad de producto** ha creado desde la sede de Commerce a las bases de datos de su canal.
 
-Cuando se solicita disponibilidad de inventario a la API **GetEstimatedAvailability** o **ProductWarehouseInventoryAvailabilities**, se ejecuta un cálculo para tratar de obtener la mejor estimación posible del inventario del producto. El cálculo hace referencia a todos los pedidos de clientes de comercio electrónico que se encuentran en la base de datos del canal, pero que no se incluyeron en los datos de instantánea que proporcionó el trabajo 1130. Esta lógica se realiza mediante el seguimiento de la última transacción de inventario procesada desde la sede de Commerce y comparándola con las transacciones en la base de datos del canal. Proporciona una línea de base para la lógica de cálculo del lado del canal, de modo que los movimientos de inventario adicionales que ocurrieron para las transacciones de ventas de pedidos de clientes en la base de datos del canal de comercio electrónico se pueden factorizar en el valor de inventario estimado que proporciona la API.
+Cuando se solicita disponibilidad de inventario a la API **GetEstimatedAvailability** o **GetEstimatedProductWarehouseAvailability**, se ejecuta un cálculo para tratar de obtener la mejor estimación posible del inventario del producto. El cálculo hace referencia a todos los pedidos de clientes de comercio electrónico que se encuentran en la base de datos del canal, pero que no se incluyeron en los datos de instantánea que proporcionó el trabajo 1130. Esta lógica se realiza mediante el seguimiento de la última transacción de inventario procesada desde la sede de Commerce y comparándola con las transacciones en la base de datos del canal. Proporciona una línea de base para la lógica de cálculo del lado del canal, de modo que los movimientos de inventario adicionales que ocurrieron para las transacciones de ventas de pedidos de clientes en la base de datos del canal de comercio electrónico se pueden factorizar en el valor de inventario estimado que proporciona la API.
 
 La lógica de cálculo del lado del canal devuelve un valor físicamente disponible estimado y un valor total disponible para el producto y el almacén solicitados. Los valores se pueden mostrar en su sitio de comercio electrónico si lo desea, o se pueden utilizar para activar otra lógica de negocios en su sitio de comercio electrónico. Por ejemplo, puede mostrar un mensaje de "agotado" en lugar de la cantidad disponible real que pasó la API.
 
@@ -80,7 +80,7 @@ Cuando el cálculo del lado del canal está configurado y administrado correctam
 
 ### <a name="get-started-with-pos-channel-side-calculated-inventory-availability"></a>Comience con la disponibilidad de inventario calculada de en el lado del canal PDV
 
-Para usar la lógica de cálculo del lado del canal y desactivar las llamadas de servicio en tiempo real para búsquedas de inventario desde la aplicación POS, primero debe habilitar la función **Cálculo de disponibilidad de producto optimizado** a través del espacio de trabajo **Gestión de funciones** de la sede de Commerce. Además de habilitar la función, debe realizar cambios en el **Perfil de funcionalidad**.
+Para usar la lógica de cálculo del lado del canal y desactivar las llamadas de servicio en tiempo real para búsquedas de inventario desde la aplicación PDV, primero debe habilitar la característica **Cálculo optimizado de disponibilidad de producto** a través del espacio de trabajo **Administración de características** de la sede de Commerce. Además de habilitar la función, debe realizar cambios en el **Perfil de funcionalidad**.
 
 Para cambiar el **Perfil de funcionalidad**, siga estos pasos:
 
@@ -107,6 +107,8 @@ Para garantizar la mejor estimación posible del inventario, es fundamental que 
 - **Publicar extractos transaccionales en lote** - Este trabajo también es necesario para la publicación de alimentación por goteo. Sigue el trabajo **Calcular declaraciones transaccionales en lote**. Este trabajo publica sistemáticamente los extractos calculados, de modo que los pedidos de ventas para ventas en efectivo se llevan a cabo en la sede de Commerce y la sede de Commerce refleja con mayor precisión el inventario de su tienda.
 - **Disponibilidad de producto** - Este trabajo crea la instantánea del inventario de Commerce Headquarters.
 - **1130 (disponibilidad del producto)** - Este trabajo se encuentra en la página **Programación de distribución** y debe ejecutarse inmediatamente después del trabajo **Disponibilidad de producto**. Este trabajo transporta los datos de la instantánea del inventario desde la sede de Commerce a las bases de datos del canal.
+
+Se recomienda que no ejecute esos trabajos por lotes con demasiada frecuencia (cada pocos minutos). Las ejecuciones frecuentes sobrecargarán la sede (HQ) de Commerce y pueden afectar al rendimiento. En general, es recomendable ejecutar la disponibilidad de productos y 1130 trabajos por hora, y programar trabajos P, sincronizar pedidos y trabajos relacionados con la publicación de alimentación por goteo con la misma o mayor frecuencia.
 
 > [!NOTE]
 > Por razones de rendimiento, cuando los cálculos de disponibilidad de inventario del lado del canal se utilizan para realizar una solicitud de disponibilidad de inventario utilizando las API de comercio electrónico o la nueva lógica de inventario del lado del canal PDV, el cálculo utiliza una memoria caché para determinar si ha pasado suficiente tiempo para justificar la ejecución de la lógica de cálculo de nuevo. La caché predeterminada está fijada en 60 segundos. Por ejemplo, activó el cálculo del lado del canal para su tienda y vio el inventario disponible de un producto en la página **Búsqueda de inventario**. Si luego se vende una unidad del producto, la página **Búsqueda de inventario** no mostrará el inventario reducido hasta que se haya borrado el caché. Después de que los usuarios publiquen transacciones en PDV, deben esperar 60 segundos antes de verificar que se haya reducido el inventario disponible.

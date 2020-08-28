@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 87c031c045249dbcde274d7c741beb72c3216aa8
-ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
+ms.openlocfilehash: a51c8c0e2743b67df9d66a8c45ab7a69597f4002
+ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3404288"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3664939"
 ---
 # <a name="opt-out-of-personalized-recommendations"></a>Cancelar recomendaciones personalizadas
 
@@ -90,6 +90,8 @@ El siguiente ejemplo muestra cómo un minorista puede realizar esta tarea.
 [Habilitar recomendaciones de producto](enable-product-recommendations.md)
 
 [Habilitar recomendaciones personalizadas](personalized-recommendations.md)
+
+[Habilitar recomendaciones de "comprar looks similares"](shop-similar-looks.md)
 
 [Agregar recomendaciones de producto en PDV](product.md)
 

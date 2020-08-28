@@ -3,7 +3,7 @@ title: Pedidos de cliente en Modern POS (MPOS)
 description: Este tema proporciona información acerca de los pedidos de cliente en Modern POS (MPOS). Los pedidos de cliente también se conocen como pedidos especiales. El tema incluye una discusión de parámetros y flujos de transacción relacionados.
 author: josaw1
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b8ea8339c2ad25ceed2415eb5ccf5e2048c612fa
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 87d1217204e0c5cb22f567793b043bf399ca5685
+ms.sourcegitcommit: b07434f2bd6db67d8dd712f096329acc902751ae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023896"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "3699378"
 ---
 # <a name="customer-orders-in-modern-pos-mpos"></a>Pedidos de cliente en Modern POS (MPOS)
 
@@ -53,6 +53,8 @@ A continuación se muestran algunos de los parámetros que se pueden configurar 
 
     - Los cargos se aplican en el nivel del encabezado del pedido de ventas, y cuando una cierta cantidad de una línea de productos se devuelve, la devolución máxima de cargos de envío permitida para los productos y la cantidad no se puede determinar por la forma en que funciona para todos los clientes.
     - Los cargos de envío se tienen por cada instancia de envío. Si un cliente devuelve varias veces productos y la directiva del distribuidor especifica que el distribuidor se hará cargo de los cargos de devolución de envío, los cargos de devolución de envío serán más elevados que los cargos de envío reales.
+    
+- **Comportamiento de cálculo de impuestos** - **Recalcular** es la configuración predeterminada y tradicional de cómo se recalculan los impuestos cuando se importa el pedido en el back-office. **No recalcular** deshabilita la opción de recalcular impuestos hasta que (o, a menos que) se edite el pedido en el back-office, activando la opción de recalcular. 
 
 ## <a name="transaction-flow-for-customer-orders"></a>Flujo de transacciones para pedidos de cliente
 

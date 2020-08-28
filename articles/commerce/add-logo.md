@@ -19,15 +19,14 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5fc0673dcdcc8b761089be2c2d201c8488128865
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 62b8237fa0c30fa9d901d670de38416cf8615c8d
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025728"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686655"
 ---
 # <a name="add-a-logo"></a>Agregar un logotipo
-
 
 [!include [banner](includes/banner.md)]
 
@@ -51,7 +50,7 @@ Antes de poder agregar un logotipo a todas las páginas de su sitio, debe comple
 
 Para agregar un logotipo al fragmento de encabezado de su sitio, siga estos pasos.
 
-1. En el panel de navegación de la izquierda, seleccione **Fragmentos de página**.
+1. En el panel de navegación de la izquierda, seleccione **Fragmentos**.
 1. Seleccione el fragmento de encabezado que ha creado y, a continuación, seleccione **Editar**.
 1. Expanda el módulo de encabezado.
 1. En el panel de propiedades del módulo de encabezado, proporcione una imagen y un vínculo para el logotipo. 

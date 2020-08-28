@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 59b4dd7a29af739d92a20f6fe55eff9f201fcb6d
-ms.sourcegitcommit: ac47e8679fb104515f7dcca509294264bd05d2b1
+ms.openlocfilehash: cca6913375eec2565852676f3c1da5a67f71e14f
+ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454565"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3664915"
 ---
 # <a name="create-recommendations-with-demo-data"></a>Crear recomendaciones con datos de demostración
 
@@ -78,6 +78,8 @@ La extensión contiene un archivo de datos denominado "RecoMockDataset.csv", que
 [Habilitar recomendaciones personalizadas](personalized-recommendations.md)
 
 [Cancelar recomendaciones personalizadas](personalization-gdpr.md)
+
+[Habilitar recomendaciones de "comprar looks similares"](shop-similar-looks.md)
 
 [Agregar recomendaciones de producto en PDV](product.md)
 

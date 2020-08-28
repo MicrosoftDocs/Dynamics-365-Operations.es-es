@@ -1,9 +1,9 @@
 ---
 title: Visión general de informes financieros
-description: Este tema describe cómo acceder a los informes financieros en Microsoft Dynamics 365 Finance y cómo usar las capacidades de informes financieros. Incluye una descripción de los informes financieros predeterminados proporcionados.
+description: Este tema describe cómo acceder a los informes financieros en Microsoft Dynamics 365 Finance y cómo usar las capacidades de informes financieros.
 author: aprilolson
 manager: AnnBe
-ms.date: 07/23/2020
+ms.date: 08/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86022b662c265b4b98f6df86647f61ea35d31432
-ms.sourcegitcommit: f5200f37c6c436183b4ee5711026ef92a7cb9538
+ms.openlocfilehash: 1944eda5fe933ff9fdf2b9a837eb2336e8b3a0d5
+ms.sourcegitcommit: 1322b94f10470e1728cf330d2d64f1471838c055
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3618047"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "3696697"
 ---
-# <a name="financial-reporting-overview"></a>Visión general de informes financieros
+# <a name="get-started-with-financial-reporting"></a>Introducción a Financial Reporting 
 
 [!include [banner](../includes/banner.md)]
 
@@ -88,7 +88,7 @@ Tras la adición de un usuario o el cambio de un rol, el usuario debe poder tene
 Los usuarios que generan un informe pueden eliminar sus propios informes. Los usuarios con el deber **Mantener seguridad de informes financieros** puede eliminar los informes de otros. 
 
 En la versión 10.0.8, se introdujo el concepto de fechas de vencimiento. Está habilitada una nueva función requerida en la página **Todas**, dentro del espacio de trabajo de gestión de características. La característica **Políticas de retención de informes financieros** contiene los siguientes cambios:
-* Los informes recién generados se marcarán automáticamente con una fecha de vencimiento de 90 días a partir de la fecha en que se generaron
+* Los informes recién generados se marcarán automáticamente con una fecha de vencimiento de 90 días a partir de la fecha en que se generen.
 * Cualquier informe existente que sea anterior a la instalación de la característica tendrá un período de vencimiento de 90 días. La fecha puede mostrarse en blanco durante un corto período de tiempo hasta que se ejecute el servicio de informes financieros, se genere un informe y el servicio realice la actualización de los informes existentes con una fecha de vencimiento en blanco. 
 * Los usuarios con **Mantener seguridad de informes financieros** tienen acceso a esta funcionalidad. Cualquier usuario con el deber **Mantener informes financieros** que tenga concedido el privilegio **Mantener el vencimiento del informe financiero** también tendrá la capacidad de modificar el período de vencimiento. Actualmente hay dos opciones de retención disponibles: 
   * Un vencimiento de 90 días.
@@ -134,6 +134,12 @@ Al seleccionar el menú **Informes financieros**, se muestra la lista de informe
 ## <a name="creating-and-modifying-financial-reports"></a>Creación y modificación de informes financieros
 A partir de la lista de informes financieros, puede crear un nuevo informe o modificar un informe existente. Si dispone de los permisos adecuados, puede crear un nuevo informe financiero seleccionando **Nuevo** en el panel Acciones. Se descarga un programa del diseñador de informes en el dispositivo. Una vez iniciado el diseñador de informes, puede crear el nuevo informe. Tras guardar el nuevo informe, aparece en la lista de informes financieros. En la lista se muestran solo los informes que se crearon para la empresa que está usando en Dynamics 365 Finance. 
 
+## <a name="reporting-tree-definitions"></a>Definiciones de los organigramas 
+Uno de los componentes que se utiliza para crear informes financieros es una definición de árbol de informes. Una definición de árbol de informes ayuda a definir la estructura y la jerarquía de la organización. Es una estructura jerárquica dimensional que se basa en las relaciones dimensionales de los datos financieros. Proporciona información en el nivel de la unidad de informes y en un nivel de resumen para todas las unidades del árbol.
+
+Puede crear un número ilimitado de organigramas para mostrar los datos de su organización de distintas maneras. Cada árbol de informes puede contener cualquier combinación de departamentos y unidades de resumen, pero una definición de informe solo puede vincularse a un árbol de informes a la vez. 
+
+
 ## <a name="troubleshooting-issues-opening-report-designer"></a>Solución de problemas al abrir Diseñador de informes
 Existen algunos problemas comunes que pueden causar problemas al abrir Diseñador de informes. Esos problemas y los pasos para resolverlos son los siguientes.
 
@@ -162,3 +168,4 @@ Problema 3: puede pasar de la página de inicio de sesión ClickOnce de Diseñad
 
 ## <a name="additional-resources"></a>Recursos adicionales
 - [Ver informes financieros](view-financial-reports.md)
+- [Definiciones de organigramas en informes financieros](../../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md)

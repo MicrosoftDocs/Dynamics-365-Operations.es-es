@@ -16,12 +16,12 @@ ms.search.region: Spain
 ms.author: epodkolz
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6b694a804dc19487bd207ac5c2ce1777216f81c0
-ms.sourcegitcommit: 3227127dd20c43cedaa8912e74aaf6120a1dcbb9
+ms.openlocfilehash: 033b002a633a85144ded21f4494b3af3bc453c55
+ms.sourcegitcommit: f9917706d45693e8d3f9f6224dca9e601db44bae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "3628393"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "3657354"
 ---
 # <a name="report-340-for-spain"></a>Informe 340 para España
 
@@ -108,7 +108,7 @@ Para obtener más información, consulte [Descargar configuraciones de informes 
 
 13.  Seleccione **Líneas de informes de IVA** para abrir la página **Líneas de informes de IVA** . En esta página, puede ver los detalles de las transacciones de IVA que se transfieren al informe de IVA. Si alguna de las líneas que se transfieren automáticamente no tienen que notificarse, puede editarlas o eliminarlas.
 
-![Página de líneas de informe de IVA(media/3_VAT_report_lines.png)
+![Página de líneas de informe de IVA](media/3_VAT_report_lines.png)
 
 14.  Seleccione **Impuesto registrado** para abrir la página **Impuesto registrado**. En esta página, puede revisar las transacciones de impuestos registrados.
 15.  Cierre las páginas **Impuesto registrado** y **Líneas de informe de IVA**.

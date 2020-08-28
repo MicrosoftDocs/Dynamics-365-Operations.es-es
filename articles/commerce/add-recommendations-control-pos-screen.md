@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 760e6e093dbe0ba6b2781f90af7fbb614c492b93
-ms.sourcegitcommit: ac47e8679fb104515f7dcca509294264bd05d2b1
+ms.openlocfilehash: af2450b27106325a86f6db68f9791637694cda63
+ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454588"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3665089"
 ---
 # <a name="add-recommendations-to-the-transaction-screen"></a>Agregar recomendaciones a la pantalla de transacción
 
@@ -107,6 +107,8 @@ Hay dos opciones de configuración disponibles: Elija la opción que mejor se aj
 [Habilitar recomendaciones personalizadas](personalized-recommendations.md)
 
 [Cancelar recomendaciones personalizadas](personalization-gdpr.md)
+
+[Habilitar recomendaciones de "comprar looks similares"](shop-similar-looks.md)
 
 [Agregar recomendaciones de producto en PDV](product.md)
 

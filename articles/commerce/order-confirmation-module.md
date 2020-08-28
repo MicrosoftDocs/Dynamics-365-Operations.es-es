@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c2ec629d9fd027be01652351ab1c99001e063e30
-ms.sourcegitcommit: 49656661c89c864e8e067259a601c3bbceb8bef4
+ms.openlocfilehash: 5876b953a3b3d960c106acf37731fde13b93f8e7
+ms.sourcegitcommit: ae0843763a8b6b232bb71db326fab28605ac6c53
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "3464939"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "3661181"
 ---
 # <a name="order-details-module"></a>Módulo Detalles del pedido
-
 
 [!include [banner](includes/banner.md)]
 
@@ -72,16 +71,16 @@ Para agregar un módulo de detalles de pedido a una página nueva y establecer l
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general del kit de inicio](starter-kit-overview.md)
-
-[Módulo contenedor](add-container-module.md)
-
-[Módulo de cuadro de compra](add-buy-box.md)
-
 [Módulo de carro](add-cart-module.md)
+
+[Módulo de icono de carro](cart-icon-module.md)
 
 [Módulo de finalización de compra](add-checkout-module.md)
 
-[Módulo de encabezado](author-header-module.md)
+[Módulo de pago](payment-module.md)
 
-[Módulo de pie de página](author-footer-module.md)
+[Módulo de dirección de envío](ship-address-module.md)
+
+[Módulo de opciones de entrega](delivery-options-module.md)
+
+[Módulo de tarjeta de regalo](add-giftcard.md)

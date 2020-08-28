@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a5f7ad7d9c5ff63c3c3a8fe38275eec0d138891d
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: e7dde3ba1ad375b309ae66cc6d31ccad85615e45
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411234"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686631"
 ---
 # <a name="header-module"></a>Módulo de encabezado
 
@@ -62,7 +62,7 @@ Los módulos siguientes se pueden usar en un módulo de encabezado:
 
 Para crear un módulo de encabezado, siga estos pasos.
 
-1. Vaya a **Fragmentos de página** y seleccione **Nuevo** para crear un nuevo fragmento.
+1. Vaya a **Fragmentos** y seleccione **Nuevo** para crear un nuevo fragmento.
 1. En el cuadro de diálogo **Nuevo fragmento de página**, seleccione el módulo **Contenedor**, especifique un nombre para el fragmento de la página y, a continuación, seleccione **Aceptar**.
 1. Seleccione el espacio **Contenedor predeterminado** y luego, en el panel de propiedades de la derecha, establezca la propiedad **Anchura** en **Rellenar contenedor**.
 1. En el espacio **Contenedor predeterminado**, seleccione los puntos suspensivos (**...**) y después seleccione **Agregar módulo**.

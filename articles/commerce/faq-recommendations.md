@@ -19,12 +19,12 @@ ms.search.industry: Retail, Core, Operations
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e27e4c4d8bdf614d6f55f44daeac3bc152219004
-ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
+ms.openlocfilehash: cf3df2267671b50c20b28dbdb1c6a21696bf2515
+ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3404311"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3664987"
 ---
 # <a name="product-recommendations-faq"></a>Preguntas más frecuentes de recomendaciones de producto
 
@@ -88,6 +88,8 @@ Después de habilitar recomendaciones de productos, deberá agregar el panel de 
 [Habilitar recomendaciones personalizadas](personalized-recommendations.md)
 
 [Cancelar recomendaciones personalizadas](personalization-gdpr.md)
+
+[Habilitar recomendaciones de "comprar looks similares"](shop-similar-looks.md)
 
 [Agregar recomendaciones de producto en PDV](product.md)
 

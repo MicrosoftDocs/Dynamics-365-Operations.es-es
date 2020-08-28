@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a8428963e105e422dcd048863c17df0926a409ac
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: 41f808d671bf5e7425390484ea30470e044899d8
+ms.sourcegitcommit: ae0843763a8b6b232bb71db326fab28605ac6c53
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411121"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "3661251"
 ---
 # <a name="gift-card-module"></a>Módulo de tarjeta de regalo
 
@@ -63,8 +63,18 @@ Para obtener instrucciones sobre cómo agregar un módulo de tarjeta de regalo a
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general de kit de inicio](starter-kit-overview.md)
+[Módulo de carro](add-cart-module.md)
+
+[Módulo de icono de carro](cart-icon-module.md)
 
 [Módulo de finalización de compra](add-checkout-module.md)
+
+[Módulo de pago](payment-module.md)
+
+[Módulo de dirección de envío](ship-address-module.md)
+
+[Módulo de opciones de entrega](delivery-options-module.md)
+
+[Módulo de detalles del pedido](order-confirmation-module.md)
 
 [Compatibilidad para tarjetas de regalo externas](./dev-itpro/gift-card.md)

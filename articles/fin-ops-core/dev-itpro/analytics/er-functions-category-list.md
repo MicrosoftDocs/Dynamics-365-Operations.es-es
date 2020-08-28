@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dcf1b755959c7ae25928e3f44e988f800027786a
-ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
+ms.openlocfilehash: 6e51d9a1d68c48391a223fe48f396c63c206580e
+ms.sourcegitcommit: 41e165482b9bff4175c0e3b224dbeead13461956
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201052"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3687967"
 ---
 # <a name="list-of-er-functions-in-the-list-category"></a>Lista de funciones ER en la categoría de lista.
 
@@ -46,6 +46,7 @@ Las funciones de la lista de informes electrónicos (ER) se pueden usar para ext
 | [Índice](er-functions-list-index.md)                       | Esta función devuelve un valor *Contenedor (registro)* que se selecciona utilizando el índice numérico especificado en la lista especificada. Si el índice está fuera del intervalo de los registros de la lista, esta función produce una excepción. |
 | [IsEmpty](er-functions-list-isempty.md)                   | Esta función devuelve un valor *Booleano* de **TRUE** si la lista especificada no contiene registros. De lo contrario, la expresión devuelve un valor *Booleano* de **FALSE**. |
 | [Lista](er-functions-list-list.md)                         | Esta función devuelve un valor *Lista de registros* nuevo que consiste en una lista nueva creada a partir de los argumentos especificados.|
+| [ListDistinct](er-functions-list-listdistinct.md)         | Esta función calcula la expresión especificada como un selector para cada registro de la lista especificada. Devuelve un nuevo valor de *Lista de registros* que contiene un solo registro para cada valor único del selector.|
 | [ListJoin](er-functions-list-listjoin.md)                 | Esta función devuelve un valor *Lista de registros* nuevo que representa una lista unida nueva creada a partir de los argumentos especificados.|
 | [ListOfFields](er-functions-list-listoffields.md)         | Esta función devuelve un valor *Lista de registros* que se crea en función de la estructura del argumento especificado del tipo *Enumeración* o *Contenedor (registro)*. |
 | [ListOfFirstItem](er-functions-list-listoffirstitem.md)   | Esta función devuelve un valor *Lista de registros* que consiste en solo el primer registro de la lista especificada.|

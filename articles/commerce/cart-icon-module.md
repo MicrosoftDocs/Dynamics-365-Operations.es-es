@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6771a84118504cd5c8e44302380eb970e4658902
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: 137debe3f4cad3948d20b2902ea80e66fa74ffd4
+ms.sourcegitcommit: ae0843763a8b6b232bb71db326fab28605ac6c53
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411098"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "3661156"
 ---
 # <a name="cart-icon-module"></a>Módulo de icono de carro
 
@@ -42,22 +42,22 @@ La siguiente imagen muestra un ejemplo de un módulo de icono de carro que muest
 
 - **Mostrar mini carrito** - Cuando es verdadera, esta propiedad permite que se muestre un resumen del carrito (mini carrito) cuando se pasa el icono del carrito. Esta funcionalidad solo es compatible con los puertos de vista de escritorio.
 
-
 ## <a name="add-a-cart-icon-module-to-a-page"></a>Agregar un módulo de icono de carrito a una página
 
 Para agregar un módulo de icono de carrito, consulte [Módulo de encabezado](author-header-module.md).
 
-
 ## <a name="additional-resources"></a>Recursos adicionales
-
-[Módulo de cuadro de compra](add-buy-box.md)
 
 [Módulo de carro](add-cart-module.md)
 
 [Módulo de finalización de compra](add-checkout-module.md)
 
-[Módulo de confirmación de pedido](order-confirmation-module.md)
+[Módulo de pago](payment-module.md)
 
-[Módulo de encabezado](author-header-module.md)
+[Módulo de dirección de envío](ship-address-module.md)
 
-[Módulo de pie de página](author-footer-module.md)
+[Módulo de opciones de entrega](delivery-options-module.md)
+
+[Módulo de detalles del pedido](order-confirmation-module.md)
+
+[Módulo de tarjeta de regalo](add-giftcard.md)
