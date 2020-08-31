@@ -3,7 +3,7 @@ title: Visión general de la contabilidad general y los informes financieros
 description: Use Contabilidad general para definir y gestionar los registros financieros de la entidad jurídica.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/31/2017
+ms.date: 08/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b4cad11bcd1b1674055a07b5093093e33d3ac556
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: e68fee44fdc18cada99e3c7e2cba021036e869db
+ms.sourcegitcommit: 1322b94f10470e1728cf330d2d64f1471838c055
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771808"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "3696673"
 ---
-# <a name="general-ledger-and-financial-reporting-overview"></a>Visión general de la contabilidad general y los informes financieros
+# <a name="general-ledger-home-page"></a>Página principal de contabilidad general
 
 [!include [banner](../includes/banner.md)]
 
@@ -55,11 +55,14 @@ Además, las reglas se deben actualizar periódicamente cuando las autoridades f
 
 #### <a name="whats-new-and-in-development"></a>Novedades y características en desarrollo
 
-Vaya a las [Notas de la versión Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) para ver qué nuevas características se han planificado. 
+Vaya a las [Planes de la versión de Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) para ver las nuevas características que se han planificado. 
+
+#### <a name="financial-reporting"></a>Informes financieros
+Vaya al tema [Visión general de Financial Reporting](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md) para obtener información sobre los informes financieros.
 
 #### <a name="blogs"></a>Blogs
 
-Puede encontrar opiniones, noticias y otra información en el [blog Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) y el [blog Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
+Puede encontrar opiniones, noticias y otra información en el [blog de Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) y el [blog de Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 El [blog de la comunidad Microsoft Dynamics Operations Partner](https://community.dynamics.com/partner/b/operationspartnercommunityblog) proporciona a los socios de Microsoft Dynamics un único recurso desde el que obtener información sobre las novedades y tendencias de MBS Operations.
 

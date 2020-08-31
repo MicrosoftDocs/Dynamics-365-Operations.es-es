@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 9780aabbac6d01d41dae526c7c06139eba07de4e
-ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
+ms.openlocfilehash: 3fe5c1eb5808ef778aeda29442fa884556671296
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3645348"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686679"
 ---
 # <a name="buy-box-module"></a>Módulo de cuadro de compra
 
@@ -61,7 +61,7 @@ Los temas se pueden usar para eliminar o cambiar el orden de las propiedades del
 
 ## <a name="modules-that-can-be-used-in-a-buy-box-module"></a>Módulos que se pueden usar en un módulo de cuadro de compra
 
-- **Galería de medios** Este módulo se usa para mostrar imágenes de un producto en una página de detalles de productos. Para obtener más información sobre este módulo, consulte [Módulo de galería de medios](mediagallery-module.md).
+- **Galería de medios** Este módulo se usa para mostrar imágenes de un producto en una página de detalles de productos. Para obtener más información sobre este módulo, consulte [Módulo de galería de medios](media-gallery-module.md).
 - **Selector de tienda**: este módulo muestra una lista de las tiendas cercanas en las que un artículo está disponible para su recogida. Permite a los usuarios especificar una ubicación para encontrar tiendas cercanas. Para obtener más información sobre este módulo, consulte [Módulo selector de tienda](store-selector.md).
 
 ## <a name="buy-box-module-settings"></a>Configuración del módulo de cuadro de compra
@@ -84,8 +84,8 @@ El módulo de cuadro de compra recupera la información de producto mediante las
 
 Para agregar un módulo de cuadro de compra a una página nueva y establecer las propiedades necesarias, siga estos pasos.
 
-1. Vaya a **Fragmentos de página** y seleccione **Nuevo** para crear un nuevo fragmento.
-1. En el cuadro de diálogo, **Nuevo fragmento de página**, seleccione el módulo **Cuadro de compra**.
+1. Vaya a **Fragmentos** y seleccione **Nuevo** para crear un nuevo fragmento.
+1. En el cuadro de diálogo **Nuevo fragmento de página**, seleccione el módulo **Cuadro de compra**.
 1. En **Nombre del fragmento de página**, introduzca el nombre **Fragmento de cuadro de compra** y luego seleccione **Aceptar**.
 1. En el espacio **Galería de medios** del módulo de cuadro de compra, seleccione los puntos suspensivos (**...**) y luego seleccione **Agregar módulo**.
 1. En el cuadro de diálogo **Agregar módulo**, seleccione el módulo **Galería de medios** y, a continuación, **Aceptar**.

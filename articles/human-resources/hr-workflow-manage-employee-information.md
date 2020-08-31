@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a159f5fd811ee80c0ac45ca1b582f2f46fcb2c61
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 250b214372a12f99d2ababc97c5edf4456cadcad
+ms.sourcegitcommit: 288df4fe766536e51ca9b5306c5bb948b7772ac5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010428"
+ms.lasthandoff: 08/12/2020
+ms.locfileid: "3688281"
 ---
 # <a name="use-workflows-to-manage-employee-information"></a>Utilizar flujos de trabajo para administrar la información sobre los empleados
 
@@ -67,6 +67,9 @@ Siga estos pasos para configurar un flujo de trabajo básico que se inicia cuand
 11. Seleccione **Matriz**.
 12. Agregue el flujo de trabajo **Número de identificación de trabajador** a la lista.
 
+## <a name="additional-resources"></a>Recursos adicionales
+
+[Ver y administrar cambios de dirección](hr-personnel-view-address-changes.md) 
 
 
 

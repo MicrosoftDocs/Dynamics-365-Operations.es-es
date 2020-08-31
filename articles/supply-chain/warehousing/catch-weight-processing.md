@@ -3,7 +3,7 @@ title: Procesamiento de producto con peso capturado con la gestión de almacenes
 description: Este tema describe cómo usar plantillas de trabajo y directivas de ubicación para determinar cómo y dónde se realiza el trabajo en el almacén.
 author: perlynne
 manager: tfehr
-ms.date: 03/03/2020
+ms.date: 08/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: c6598a9ac2beb799ddfc4e3cce182e1281ae8d03
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: b1d106fa6fe5072eb74813495253731dd988c376
+ms.sourcegitcommit: 9a0be1ceee90e80f4c75f241aba847547b5032e5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530544"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3693288"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Procesamiento de producto con peso capturado con la gestión de almacenes
 
@@ -168,7 +168,7 @@ No todos los flujos de trabajo son compatibles con el procesamiento de producto 
 
 - La funcionalidad para la selección del clúster no se admite para los productos con peso capturado.
 - El procesamiento del almacén de la selección y el embalaje no se admite para los productos con peso capturado.
-- Para los productos con peso capturado, el trabajo que se define en una plantilla de trabajo puede ejecutarse automáticamente.
+- Para los productos con peso capturado, el trabajo que se define en una plantilla de trabajo no se puede ejecutar automáticamente.
 - Para los productos con peso capturado, el sistema no admite el procesamiento manual de estación de embalaje, donde se crea el trabajo de selección de contenedor empaquetado después de cerrar los contenedores.
 - La funcionalidad para el escaneo pieza a pieza no se admite para los productos con peso capturado.
 

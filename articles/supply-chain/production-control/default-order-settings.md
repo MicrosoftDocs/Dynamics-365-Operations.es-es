@@ -3,7 +3,7 @@ title: Configuración predeterminada de pedidos para dimensiones y variantes de 
 description: Los configuración de pedido predeterminada define el sitio y el almacén de dónde se originan o almacenan los artículos, las cantidades mínimas, máximas, múltiples y estándar que se usarán en la gestión de comercio o de inventario, los plazos, el indicador de detención y el método prometedor del pedido.
 author: t-benebo
 manager: tfehr
-ms.date: 07/27/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,13 +18,13 @@ ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 13df8eb7873495847d994922be1acd77e57f8f23
-ms.sourcegitcommit: dfe5916d982eaa879e2afef7440c30b1d0f4380a
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: 0654ba019b71dc952ea52f206bc60d8fa05dd4ff
+ms.sourcegitcommit: f9917706d45693e8d3f9f6224dca9e601db44bae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "3637765"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "3657349"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Configuración predeterminada de pedidos para dimensiones y variantes de producto
 
@@ -32,7 +32,16 @@ ms.locfileid: "3637765"
 
 Los configuración de pedido predeterminada en Dynamics 365 Supply Chain Management define el sitio y el almacén de dónde se originan o almacenan los artículos, las cantidades mínimas, máximas, múltiples y estándar que se usarán en la gestión de comercio o de inventario, los plazos, el indicador de detención y el método prometedor del pedido. La configuración de pedido predeterminada se usa al crear pedidos de compra, pedidos de ventas, pedidos de transferencia, diarios de inventario y para generar pedidos planificados mediante planificación principal. La configuración de pedido predeterminada puede ser específica del artículo, del sitio, de la variante del producto o de la dimensión de producto.
 
-La configuración predeterminada del pedido se puede definir en la página **Configuración predeterminada de pedido**. Para abrir esta página, vaya a **Gestión de la información de productos** &gt; **Productos** &gt; **Productos emitidos** &gt; **Seleccionar un producto emitido** &gt; en el **Plan**. También puede ir a **Administrar inventario** &gt; **Configuración de pedido** &gt; **Configuración predeterminada de pedido**.
+Para definir la configuración de pedido predeterminada para un producto, siga estos pasos.
+
+1. Vaya a **Gestión de información de productos** &gt; **Productos** &gt; **Productos emitidos**.
+1. Seleccione el producto correspondiente en la cuadrícula.
+1. En el panel de acciones, siga uno de estos pasos para abrir la página **Configuración de pedido predeterminada** del producto seleccionado:
+
+    - En la pestaña **Plan**, en el grupo **Configuración de pedido**, seleccione **Configuración de pedido predeterminada**.
+    - En la pestaña **Administrar inventario**, en el grupo **Configuración de pedido**, seleccione **Configuración de pedido predeterminada**.
+
+1. Configure las opciones de la manera descrita en el resto de este tema.
 
 ## <a name="default-order-settings"></a>Configuración predeterminada de pedido
 
@@ -74,7 +83,7 @@ Los valores predeterminados del pedido de inventario también se aplican al crea
 
 ## <a name="full-definition-of-a-released-product"></a>Definición completa de un producto emitido
 
-Al crear una transacción, debe especificar la definición completa de un producto emitido en la línea para que Supply Chain Management intente identificar la configuración de pedido predeterminada. La definición completa del producto emitido significa que el número de artículo y todas las dimensiones de producto activo, como la configuración, tamaño, estilo, y color, están especificadas en la transacción. Por ejemplo, si crea manualmente una línea de pedido de compra para una variante del producto emitido, debe especificar todas las dimensiones de producto requeridas antes de que el sitio, el almacén, las cantidades y el plazo se muestren de forma predeterminada en la línea de pedido. 
+Al crear una transacción, debe especificar la definición completa de un producto emitido en la línea para que Supply Chain Management intente identificar la configuración de pedido predeterminada. En la definición completa del producto emitido, el número de artículo y todas las dimensiones de producto activo, como la configuración, tamaño, estilo, versión y color, se especifican en la transacción. Por ejemplo, si crea manualmente una línea de pedido de compra para una variante del producto emitido, debe especificar todas las dimensiones de producto requeridas para que el sitio, el almacén, las cantidades y el plazo aparezcan de forma predeterminada en la línea de pedido. 
 
 No se aplicarán todos los parámetros de la configuración de pedido predeterminada al crear líneas de pedido o líneas de diario. Las cantidades y los plazos se muestran de forma predeterminada únicamente cuando son adecuados. Por ejemplo, al realizar el recuento de una línea de diario, solo el sitio y el almacén mostrarán de forma predeterminada cuándo se ha creado la línea. Por este motivo, al crear la línea o registrar el diario, no se realizan faltas de pago de la cantidad o cheques en múltiplos y mínimos. 
 
@@ -96,7 +105,7 @@ Para productos emitidos distintos, puede definir la configuración general de pe
 
 ### <a name="site-specific-order-settings"></a>Configuración de pedido específica del sitio
 
-Para crear la configuración específica de pedido del sitio, seleccione **Nuevo**. En **Vista de detalles**, rellene el sitio en el campo **Valores aplicables para** &gt; **Sitio**. En **Vista de cuadrícula**, rellene el sitio en la columna **Sitio**. La nueva regla obtendrá automáticamente un nuevo valor de categoría, superior a cero. Puede crear tantas reglas específica del sitio como necesite y puede asignar todas las reglas específicas del sitio a la misma categoría, para mostrar que son igualmente importantes. 
+Para crear la configuración específica de pedido del sitio, seleccione **Nuevo**. En **Vista de detalles**, especifique el sitio en el campo **Sitio** de la sección **Valores aplicables para**. En **Vista de cuadrícula**, especifique el sitio en la columna **Sitio**. A la nueva regla se le asigna automáticamente un nuevo valor de categoría que es mayor que 0 (cero). Puede crear tantas reglas específicas de sitio como necesite. Para indicar que son igualmente importantes, puede asignar el mismo valor de categoría a todas las reglas específicas del sitio.
 
 Si está en **Vista de detalles**, no puede obtener información general de las reglas creadas para el artículo. Use el botón **Mostrar/Ocultar lista** para ver la información general. Si se crea una línea de pedido de cualquier tipo y no proporciona ningún sitio, Supply Chain Management busca una regla sin sitio especificado. Esto ayuda a determinar un sitio predeterminado en la línea de pedido. Este sitio se usa para buscar una regla específica del sitio, donde se haya configurado un almacén predeterminado. Este almacén se aplica a la línea de pedido.
 
@@ -111,41 +120,41 @@ Considere el siguiente producto de ejemplo.
 | **Nombre de producto**                                    | Sensor fotoeléctrico                    |
 | **Número de artículo**                                     | XW56                                    |
 | **Configuración** (usada para mostrar el tipo de luz) | C1-Luz roja visible, C2-luz infrarroja |
-| **Estilo** (usado para mostrar la revisión de ingeniería)  | R1, R2, R3                              |
+| **Versión** | V1, V2, V3                              |
 
 Para este ejemplo, supongamos que el producto se ha adquirido y no se ha producido. Supongamos también que la configuración C1 se usa normalmente, por lo que tiene plazos más cortos. 
 
 Cree la siguiente configuración de pedido predeterminada para mostrar esta situación.
 
-| Clasificación | Sitio | Configuración | Estilo | Compra - Sobrescribir la configuración predeterminada | Plazo de compra | Compra - Detenida | Ventas - Sobrescribir la configuración predeterminada | Ventas - Detenidas |
+| Clasificación | Sitio | Configuración | Versión | Compra - Sobrescribir la configuración predeterminada | Plazo de compra | Compra - Detenida | Ventas - Sobrescribir la configuración predeterminada | Ventas - Detenidas |
 |------|------|---------------|-------|--------------------------------------|--------------------|--------------------|-----------------------------------|-----------------|
 | 10   |      | C1            |       | Sí                                  | 2                  |                    |                                   |                 |
 | 0    |      |               |       |                                      | 5                  |                    |                                   |                 |
 
-Si una línea de pedido de compra o un pedido de compra planificado se crea para XW56, Configuración, C1, independientemente de la revisión o el sitio donde se ubica la línea, el plazo se considerará 2. Supongamos que se detienen todas las revisiones además de R3.
+Si una línea de pedido de compra o un pedido de compra planificado se crea para el artículo XW56, configuración C1, independientemente de la versión o el sitio donde se ubica la línea, el plazo se considerará 2. Supongamos que se detienen todas las versiones además de V3.
 
 Puede crear las siguientes reglas de configuración predeterminada de pedido.
 
-| Clasificación | Sitio | Configuración | Estilo | Compra - Sobrescribir la configuración predeterminada | Plazo de compra | Compra - Detenida | Ventas - Sobrescribir la configuración predeterminada | Ventas - Detenidas |
+| Clasificación | Sitio | Configuración | Versión | Compra - Sobrescribir la configuración predeterminada | Plazo de compra | Compra - Detenida | Ventas - Sobrescribir la configuración predeterminada | Ventas - Detenidas |
 |------|------|---------------|-------|--------------------------------------|--------------------|--------------------|-----------------------------------|-----------------|
-| 20   |      |               | R2    | Sí                                  |                    | Sí                | Sí                               | Sí             |
-| 20   |      |               | R1    | Sí                                  |                    | Sí                | Sí                               | Sí             |
+| 20   |      |               | V2    | Sí                                  |                    | Sí                | Sí                               | Sí             |
+| 20   |      |               | V1    | Sí                                  |                    | Sí                | Sí                               | Sí             |
 | 10   |      | C1            |       | Sí                                  | 2                  |                    |                                   |                 |
 | 0    |      |               |       |                                      | 5                  |                    |                                   |                 |
 
-Las dos reglas para detener las anteriores revisiones tienen la misma clasificación, lo que significa que son igualmente importantes. Ambas tienen una categoría mayor que la regla para la configuración C1, lo que significa que tienen preferencia sobre la regla para la configuración C1. 
+Las dos reglas para detener las versiones antiguas tienen la misma categoría. Por lo tanto, son igualmente importantes. Como ambas reglas tienen una categoría mayor que la regla para la configuración C1, tendrán prioridad con respecto a la regla para la configuración C1. 
 
-En este ejemplo se explica la necesidad de la categoría. Si se crea un pedido de compra para la configuración C1 y la revisión R2, en ausencia de la categoría, las dos reglas definidas para R2 y C1 serían ambiguas. Para solucionar la ambigüedad, Supply Chain Management buscará entre las reglas en orden descendente de categoría y aplicará la primera regla aplicable. En el ejemplo actual, cuando una línea de pedido de compra se crea para la configuración C1 y la revisión R2, el usuario obtendrá un mensaje de advertencia de que el artículo está en espera y que es debido al valor de la revisión. Si la regla para la configuración tuviera una categoría mayor que la de la revisión, la creación de una línea de pedido de compra para la configuración C1 y la revisión R2 se habría realizado correctamente y al usuario no le habría aparecido el mensaje de "artículo en espera". 
+En este ejemplo se explica la necesidad de la categoría. Si no se usa la categoría, cuando se cree un pedido de compra para la configuración C1 y la versión V2, las dos reglas definidas para V2 y C1 serán ambiguas. Para solucionar la ambigüedad, Supply Chain Management buscará entre las reglas en orden descendente de categoría y aplicará la primera regla aplicable. En el ejemplo actual, cuando una línea de pedido de compra se crea para la configuración C1 y la versión V2, el usuario obtendrá un mensaje de advertencia que indica que el artículo está en espera y que esto se debe al valor de la versión. Si la regla para la configuración tuviera una categoría mayor que la de la versión, la creación de una línea de pedido de compra para la configuración C1 y la versión V2 se habría realizado correctamente y el usuario no vería el mensaje de "artículo en espera". 
 
 Tenga en cuenta las siguientes reglas de configuración predeterminada de pedido.
 
-| Clasificación | Sitio | Configuración | Estilo | Sitio predeterminado | Almacén predeterminado | Compra - Reemplazar las dimensiones predeterminadas de almacenamiento | Almacén de compra |
+| Clasificación | Sitio | Configuración | Versión | Sitio predeterminado | Almacén predeterminado | Compra - Reemplazar las dimensiones predeterminadas de almacenamiento | Almacén de compra |
 |------|------|---------------|-------|--------------|-------------------|------------------------------------------------|--------------------|
 | 20   | 2    |               |       |              |                   | Sí                                            | 22                 |
-| 10   |      | C1            |  R2   |  2           |  21               |                                                |                    |
+| 10   |      | C1            |  V2   |  2           |  21               |                                                |                    |
 | 0    |      |               |       | 1            | 11                |                                                |                    |
 
-El sistema cruza el conjunto de reglas dos veces para determinar el sitio y el almacén. Si se crea una línea de pedido de compra para la configuración C1, estilo R2, el sitio se determina en función de la regla con categoría 10. A continuación, el sistema busca una regla para el sitio 2 para determinar un almacén. Se encuentra la regla 20 y, dado que tiene una categoría más alta, el almacén de la línea de pedido de compra será 22, y no 21.
+El sistema cruza el conjunto de reglas dos veces para determinar el sitio y el almacén. Si se crea una línea de pedido de compra para la configuración C1, versión V2, el sitio se determina en función de la regla con categoría 10. A continuación, el sistema busca una regla para que el sitio 2 determine un almacén. Se encuentra la regla 20 y, dado que tiene una categoría más alta, el almacén de la línea de pedido de compra será 22, y no 21.
 
 Como norma general, las reglas específicas y las reglas para las dimensiones que son más importantes que otras dimensiones obtienen categorías más altas, mientras que las reglas más genéricas obtienen categorías inferiores. 
 
@@ -159,14 +168,14 @@ Se puede crear un gran número de reglas para un producto emitido. Para tener un
 
 Si el sistema de la regla para la configuración predeterminada de pedido es demasiado complicado, existe la opción de definir la configuración predeterminada de pedido para cada variante del producto. En el siguiente ejemplo se muestra cómo se buscará el producto y los casos descritos anteriormente.
 
-| Clasificación | Sitio | Configuración | Estilo | Compra - Sobrescribir la configuración predeterminada | Plazo de compra | Compra - Detenida | Ventas - Sobrescribir la configuración predeterminada | Ventas - Detenidas |
+| Clasificación | Sitio | Configuración | Versión | Compra - Sobrescribir la configuración predeterminada | Plazo de compra | Compra - Detenida | Ventas - Sobrescribir la configuración predeterminada | Ventas - Detenidas |
 |------|------|---------------|-------|--------------------------------------|--------------------|--------------------|-----------------------------------|-----------------|
-| 10   |      | C2            | R3    | Sí                                  | 5                  |                    |                                   |                 |
-| 10   |      | C2            | R2    | Sí                                  | 5                  | Sí                | Sí                               | Sí             |
-| 10   |      | C2            | R1    | Sí                                  | 5                  | Sí                | Sí                               | Sí             |
-| 10   |      | C1            | R3    | Sí                                  | 2                  |                    |                                   |                 |
-| 10   |      | C1            | R2    | Sí                                  | 2                  | Sí                | Sí                               | Sí             |
-| 10   |      | C1            | R1    | Sí                                  | 2                  | Sí                | Sí                               | Sí             |
+| 10   |      | C2            | V3    | Sí                                  | 5                  |                    |                                   |                 |
+| 10   |      | C2            | V2    | Sí                                  | 5                  | Sí                | Sí                               | Sí             |
+| 10   |      | C2            | V1    | Sí                                  | 5                  | Sí                | Sí                               | Sí             |
+| 10   |      | C1            | V3    | Sí                                  | 2                  |                    |                                   |                 |
+| 10   |      | C1            | V2    | Sí                                  | 2                  | Sí                | Sí                               | Sí             |
+| 10   |      | C1            | V1    | Sí                                  | 2                  | Sí                | Sí                               | Sí             |
 | 0    |      |               |       |                                      | 5                  |                    |                                   |                 |
 
 La categoría en este caso no importa realmente, por lo que puede elegir ocultarla. Esta solución presenta potencialmente un problema de mantenimiento. Sin embargo, es posible que desee tener en cuenta esta configuración si tiene previsto realizar la integración con los sistemas de Product Lifecycle Management (PLM).
@@ -181,8 +190,8 @@ La validación estricta se aplica a los valores en **Cantidad de pedido estánda
 
 Antes de poder usar la opción de validación estricta, debe estar habilitada en su sistema. Los administradores pueden usar la página [Administración de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y habilitarla si es necesario. Aquí, la característica aparece como:
 
-- **Módulo**: *Gestión de información de productos*
-- **Nombre de la característica**: *Validación estricta en cantidades de pedido predeterminadas*
+- **Módulo** - *Gestión de información de productos*
+- **Nombre de la característica** - *Validación estricta en cantidades de pedido predeterminadas*
 
 ### <a name="set-the-validation-option"></a>Establecer la opción de validación
 

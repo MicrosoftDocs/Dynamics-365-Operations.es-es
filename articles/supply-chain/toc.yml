@@ -2751,6 +2751,8 @@
                       href: inventory/warehouse-template.md
                     - name: Controlar el trabajo usando plantillas de trabajo y directivas de ubicación
                       href: warehousing/control-warehouse-location-directives.md
+                    - name: Crear directivas de ubicación
+                      href: warehousing/create-location-directive.md
                     - name: Códigos de paso de oleada
                       href: warehousing/wave-step-codes.md
                     - name: Configurar procesamiento de oleadas
@@ -2821,6 +2823,8 @@
               href: ../fin-ops-core/dev-itpro/user-interface/gantt-development-guide.md?toc=/dynamics365/supply-chain/toc.json
             - name: Crear un nuevo motor de administración de transporte
               href: transportation/create-new-transportation-management-engine.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Ampliar las entidades de datos disponibles de inventario
+              href: inventory/extend-on-hand-entities.md
     - name: Desarrollo y administración de aplicaciones de Finance and Operations
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance

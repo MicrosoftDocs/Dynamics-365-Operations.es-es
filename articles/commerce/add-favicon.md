@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2d95e8b799c3b89418657342868e0ec7e94a86f9
-ms.sourcegitcommit: ce79fb570e299a26a644e29da7ceb5a57a1374e6
+ms.openlocfilehash: 198927e3391bdb577ebc845ff41d49ca798251ff
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "3295089"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686799"
 ---
 # <a name="add-a-favicon"></a>Agregar un icono de favoritos
 
@@ -62,7 +62,7 @@ Para crear el HTML para el icono favorito, use el siguiente código HTML. Para e
 
 Para crear un fragmento de página que contenga una metaetiqueta para el icono favorito, siga estos pasos.
 
-1. Vaya a **Fragmentos de página** y después seleccione **Nuevo**.
+1. Vaya a **Fragmentos** y después **Nuevo**.
 1. En el cuadro de diálogo **Nuevo fragmento de página**, seleccione **Metaetiquetas** como módulo en el que se basa el fragmento de página.
 1. Especifique un nombre para el fragmento de página y después seleccione **Aceptar**.
 1. En el árbol de jerarquía de fragmentos, seleccione el elemento secundario **Metaetiquetas predeterminadas**.

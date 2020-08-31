@@ -14,12 +14,12 @@ ms.search.region: Spain
 ms.author: elgolu
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 6aada4e909e2268a35b8d23fd7ce3e5d87cf37e0
-ms.sourcegitcommit: f5200f37c6c436183b4ee5711026ef92a7cb9538
+ms.openlocfilehash: e04d3d04a693b3de2d6ee3af70fa08ed72b58cef
+ms.sourcegitcommit: f9917706d45693e8d3f9f6224dca9e601db44bae
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3618078"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "3657355"
 ---
 # <a name="immediate-supply-of-information-on-vat-suministro-inmediato-de-informacin-del-iva-sii"></a>Suministro inmediato de información del IVA, SII
 
@@ -203,7 +203,7 @@ Para elementos EM rellenados, esta clase evalúa los valores para los siguientes
 
 4.  Seleccione **Aceptar** para iniciar la clase ejecutable.
 
-!Agregar nuevo panel de elementos de mensajería electrónica](media/emea-esp-sii-siigenerateitems-executable-class.png)
+![Agregar nuevo panel de elementos de mensajería electrónica](media/emea-esp-sii-siigenerateitems-executable-class.png)
 
 ### <a name="set-up-the-siipartyattributesevaluation-executable-class"></a>Configurar la clase ejecutable SIIPartyAttributesEvaluation
 

@@ -3,7 +3,7 @@ title: Aplicación Recursos humanos en Teams
 description: Este tema presenta la aplicación Microsoft Dynamics 365 Human Resources en Microsoft Teams.
 author: andreabichsel
 manager: AnnBe
-ms.date: 05/18/2020
+ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 36684710e39c27840cc4aaa259a85579104fd8d6
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 4822cc6560926df878a8b4e9f821b331ede27a8c
+ms.sourcegitcommit: 15c68822f4d412bfc609be31b3702f18c81ea0bc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431139"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3666369"
 ---
 # <a name="human-resources-app-in-teams"></a>Aplicación Recursos humanos en Teams
 
@@ -45,10 +45,10 @@ Para obtener información sobre la administración de permisos de aplicaciones e
 
 | Emitir | Estado |
 | --- | --- |
+| El desplazamiento horizontal no funciona en los teléfonos Android | El desplazamiento horizontal no es un problema en iOS ni en dispositivos de escritorio. Estamos trabajando en una solución para Android. |
 | Error: hay un problema para encontrar un entorno al que conectarse. | Puede recibir este error incluso si ha verificado que el usuario puede acceder a uno o más entornos de Human Resources. Además, es posible que no aparezcan todos los entornos que espera. Hasta que solucionemos este problema, elimine el usuario y luego impórtelo nuevamente para resolver el problema. |
 | El saldo es incorrecto si se envía tiempo libre para una fecha futura. | La previsión no está disponible aún. El saldo se muestra para la fecha actual. |
 | Al reducir el número de horas que se requieren en una solicitud existente, el **Saldo restante** baja en lugar subir. | Abordaremos este problema conocido en el futuro. La visualización es incorrecta, pero los importes correctos se ajustan en el momento del envío. |
-| Dos tarjetas **Próximo tiempo libre** se muestran para las mismas fechas. | Las tarjetas representan envíos individuales. Continuaremos recibiendo comentarios y haciendo ajustes. |
 | No se puede cancelar una solicitud **En revisión**. | Esta funcionalidad no es compatible actualmente y se agregará en una versión futura. |
 | La información del saldo se calcula a partir de hoy. | El sistema actualmente no muestra saldos a partir del período de acumulación, incluso si está configurado en los parámetros de Baja y Ausencia. |
 

@@ -3,7 +3,7 @@ title: Quitar una instancia
 description: Este artículo recorre con el usuario el proceso de eliminar una unidad de prueba o un entorno de producción para Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 07/27/2020
+ms.date: 08/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a384801060b2b684f7908daaac2311edd27c773a
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: 0a8eac74f0d840251ab56445dd5af4d19d3c0490
+ms.sourcegitcommit: f759d361fa505323b8b171a98024dca9cc9fa0f0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621389"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3668334"
 ---
 # <a name="remove-an-instance"></a>Quitar una instancia
 
@@ -70,7 +70,7 @@ Para quitar un entorno de Human Resources de un entorno de Power Apps existente,
 4. Inicie sesión en LCS mediante la cuenta que ha utilizado para suscribirse a Human Resources. 
 5. Seleccione el proyecto de Human Resources que contiene el entorno. 
 6. En su proyecto de LCS seleccione el mosaico **Gestión de la app Human Resources**. 
-7. Seleccione la instancia que desea quitar, que debe estar marcada con un estado de implementación **No superado**.
+7. Seleccione la instancia que desea quitar, que debe estar marcada con el estado de implementación **Eliminada**.
 8. Seleccione **Quitar instancia** y confirme la decisión. 
 
 ## <a name="recover-a-soft-deleted-environment"></a>Recuperar un entorno eliminado temporalmente

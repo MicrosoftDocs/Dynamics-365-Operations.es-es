@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: dd1df355d39065d6959915cc916987d3c58b15a6
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 93c9f2bebd038723d50e64bdaa0e0992c003f88d
+ms.sourcegitcommit: cec5de2dcfc7210a86a220e308f80ab204f12383
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570203"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3665851"
 ---
 # <a name="sales-tax-calculation-on-general-journal-lines"></a>Cálculo de impuestos en líneas de diario generales
 [!include [banner](../includes/banner.md)]
@@ -64,23 +64,6 @@ El siguiente diagrama muestra gráficamente la regla.
 
 Si tiene un asiento línea de diario en el que tipo de cuenta es **Proveedor**, todas las líneas de diario en el asiento aplicarán la misma dirección de impuestos. Los puntos siguientes muestran direcciones posibles de impuestos para las cuentas del proveedor. 
 
-•   Si el código de impuestos es exención de impuestos, la dirección de impuestos es Compra libre de impuestos.
-
-•   Si el código de impuestos es IVA intracomunitario, la dirección de impuestos es Impuestos soportados.
-
-•   Si el código de impuestos es cargo invertido, la dirección de impuestos es Impuestos soportados.
-
-
-De lo contrario, la dirección de impuestos es un impuesto repercutidos.
-
-El siguiente diagrama muestra gráficamente la regla.
-
-![Posibilidades de la dirección de impuestos de cuentas de proveedor](media/Sales-Tax-Direction-Vendor.jpg)
-
-### <a name="account-type-is-customer"></a>El tipo de cuenta es Cliente
-
-Si tiene un asiento línea de diario en el que tipo de cuenta es **Cliente**, todas las líneas de diario en el asiento aplicarán la misma dirección de impuestos. Los puntos siguientes muestran direcciones posibles de impuestos para las cuentas de cliente.
-
 •   Si el código de impuestos es IVA de importación, la dirección de impuestos es IVA de importación.
 
 •   Si el código de impuestos es exención de impuestos, la dirección de impuestos es Compra libre de impuestos.
@@ -90,6 +73,22 @@ Si tiene un asiento línea de diario en el que tipo de cuenta es **Cliente**, to
 •   Si el código de impuestos es cargo invertido, la dirección de impuestos es Impuestos repercutidos.
 
 De lo contrario, la dirección de impuestos es un impuesto soportados.
+
+El siguiente diagrama muestra gráficamente la regla.
+
+![Posibilidades de la dirección de impuestos de cuentas de proveedor](media/Sales-Tax-Direction-Vendor.jpg)
+
+### <a name="account-type-is-customer"></a>El tipo de cuenta es Cliente
+
+Si tiene un asiento línea de diario en el que tipo de cuenta es **Cliente**, todas las líneas de diario en el asiento aplicarán la misma dirección de impuestos. Los puntos siguientes muestran direcciones posibles de impuestos para las cuentas de cliente.
+
+•   Si el código de impuestos es exención de impuestos, la dirección de impuestos es Compra libre de impuestos.
+
+•   Si el código de impuestos es IVA intracomunitario, la dirección de impuestos es Impuestos soportados.
+
+•   Si el código de impuestos es cargo invertido, la dirección de impuestos es Impuestos soportados.
+
+De lo contrario, la dirección de impuestos es un impuesto repercutidos.
 
 El siguiente diagrama muestra gráficamente la regla.
 

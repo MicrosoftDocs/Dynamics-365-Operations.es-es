@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 81c36685c1eccceb2f1854fe7c866186120c08a3
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 4f26ed5b6674566f579e801f4b7be63c2d0dc38d
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154095"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686823"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Agregar secuencia de comandos a páginas del sitio para admitir telemetría
 
@@ -32,7 +32,7 @@ Este tema describe cómo agregar código de script del lado cliente a las págin
 
 ## <a name="overview"></a>Visión general
 
-Los análisis web son una herramienta esencial cuando desea comprender de qué manera interactúan los clientes con el sitio y toman decisiones que ayudarán a optimizar la experiencia para la conversión máxima. Muchos paquetes de análisis web están disponibles para ayudarle a alcanzar estos objetivos, como Google Analytics, Clicky, Moz Analytics y KISSMetrics. La mayoría de los paquetes de análisis web requieren que agregue código de script del lado cliente en el elemento **\<head\>** del HTML para todas las páginas del sitio.
+Los análisis web son una herramienta esencial cuando desea comprender de qué manera interactúan los clientes con el sitio y toman decisiones que ayudarán a optimizar la experiencia para la conversión máxima. Muchos paquetes de análisis web están disponibles para ayudarle a alcanzar estos objetivos, como Google Analytics, Clicky, Moz Analytics y KISSMetrics. La mayoría de los paquetes de análisis web requieren que agregue código de script del lado cliente en el elemento **\<head\>** del código HTML para todas las páginas del sitio.
 
 > [!NOTE]
 > Las directrices de este tema también se aplican a otra funcionalidad del lado cliente personalizada que Microsoft Dynamics 365 Commerce no ofrece de manera nativa.
@@ -45,8 +45,8 @@ Un fragmento de página le permite reutilizar código de script externo o en lí
 
 Para crear un fragmento de página reutilizable para su código de script en línea en el generador de sitios, siga estos pasos.
 
-1. Vaya a **Fragmentos de página** y después seleccione **Nuevo**.
-1. En el cuadro de diálogo **Fragmento de página nuevo**, seleccione **Script en línea**.
+1. Vaya a **Fragmentos** y seleccione **Nuevo**.
+1. En el cuadro de diálogo **Nuevo fragmento de página**, seleccione **Script en línea**.
 1. En **Nombre del fragmento de página**, introduzca un nombre para el fragmento y luego seleccione **Aceptar**.
 1. Debajo del fragmento de página que creó, seleccione el módulo **Script en línea predeterminado**.
 1. En el panel de propiedades a la derecha, debajo de **Script en línea**, introduzca su script del lado del cliente. Luego configure otras opciones según lo requiera.
@@ -57,8 +57,8 @@ Para crear un fragmento de página reutilizable para su código de script en lí
 
 Para crear un fragmento de página reutilizable para su código de script externo en el generador de sitios, siga estos pasos.
 
-1. Vaya a **Fragmentos de página** y después seleccione **Nuevo**.
-1. En el cuadro de diálogo **Fragmento de página nuevo**, seleccione **Script externo**.
+1. Vaya a **Fragmentos** y seleccione **Nuevo**.
+1. En el cuadro de diálogo **Nuevo fragmento de página**, seleccione **Script externo**.
 1. En **Nombre del fragmento de página**, introduzca un nombre para el fragmento y luego seleccione **Aceptar**.
 1. Debajo del fragmento de página que creó, seleccione el módulo **Script externo predeterminado**.
 1. En el panel de propiedades a la derecha, debajo de **Fuente de script**, agregue una URL externa o relativa para la fuente del script externo. Luego configure otras opciones según lo requiera.

@@ -3,7 +3,7 @@ title: Admita las llamadas con parámetros de los orígenes de datos de ER del t
 description: Este tema proporciona información sobre cómo usar el tipo de campo calculado para los orígenes de datos de ER.
 author: NickSelin
 manager: AnnBe
-ms.date: 09/09/2019
+ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3f331401f8d191243f72961333e4f1dbe84d0be5
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 02d53f4326d8f31abf6ec7404575728837954bef
+ms.sourcegitcommit: c9baf9a3b4552f0317b5ec87d252834f52df1b98
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771338"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3665619"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Admita las llamadas con parámetros de los orígenes de datos de ER del tipo de campo calculado
 
@@ -45,14 +45,14 @@ Para completar los ejemplos de este tema, debe tener el acceso siguiente:
     - Consultor funcional de informes electrónicos
     - Administrador del sistema
 
-Desde [Centro de descarga de Microsoft](https://go.microsoft.com/fwlink/?linkid=874684), descarga el archivo comprimido **Admita las llamadas con parámetros de los orígenes de datos de ER del tipo de campo calculado**. Contiene las siguientes configuraciones de ER que se deben extraer y almacenar localmente.
+Debe descargar y también almacenar localmente los archivos siguientes.
 
 | **Contenido**                           | **Nombre de archivo**                                        |
 |---------------------------------------|------------------------------------------------------|
-| Configuración del modelo datos de ER de ejemplo    | Modelo para aprender llamadas con parámetros.versión.1.xml     |
-| Configuración de metadatos de ER de ejemplo      | Metadatos para aprender llamadas con parámetros.versión.1.xml  |
-| Configuración del modelo de mapeado de ER de ejemplo | Asignación para aprender llamadas con parámetros.versión.1.1.xml |
-| Configuración de formato de ER de ejemplo        | Formato para aprender llamadas con parámetros.versión.1.1.xml  |
+| Configuración del modelo datos de ER de ejemplo    | [Modelo para aprender llamadas con parámetros.versión.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)     |
+| Configuración de metadatos de ER de ejemplo      | [Metadatos para aprender llamadas con parámetros.versión.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)  |
+| Configuración del modelo de mapeado de ER de ejemplo | [Asignación para aprender llamadas con parámetros.versión.1.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Configuración de formato de ER de ejemplo        | [Formato para aprender llamadas con parámetros.versión.1.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)  |
 
 ## <a name="sign-in-to-your-rcs-instance"></a>Iniciar sesión en su instancia de RCS
 En este ejemplo, creará una configuración para la empresa del ejemplo, Litware, Inc. First, en RCS, tiene que completar estos pasos, en el procedimiento [Crear proveedores de la configuración y marcarlos como activos](tasks/er-configuration-provider-mark-it-active-2016-11.md):
