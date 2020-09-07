@@ -3,7 +3,7 @@ title: Goteo en la creación de pedidos basados en fuente para transacciones de 
 description: En este tema se describe el goteo de la creación de pedidos basados en fuente para las transacciones de tienda en Microsoft Dynamics 365 Commerce.
 author: josaw1
 manager: AnnBe
-ms.date: 10/14/2019
+ms.date: 06/08/2020
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,20 +18,20 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7d5812893edff24a60a0e2eb3607701ac47a8a78
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 6e097ead7cacb3f71452323656546a4be661457f
+ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057183"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3710292"
 ---
-# <a name="trickle-feed-based-order-creation-for-retail-store-transactions-public-preview"></a>Goteo en la creación de pedidos basados en fuente para transacciones de tienda (versión preliminar pública)
+# <a name="trickle-feed-based-order-creation-for-retail-store-transactions"></a>Goteo en la creación de pedidos basados en fuente para transacciones de tienda
 
 [!include [banner](includes/banner.md)]
 
 En Dynamics 365 Retail versión 10.0.4 y anteriores, el registro del extracto es una operación de final del día y todas las transacciones se registran en los libros al final del día. Las transacciones grandes deben procesarse a continuación en una ventana de tiempo limitada, lo que a veces da lugar a errores de registro de extractos, carga y bloqueos. Los minoristas tampoco pueden reconocer ingresos y pagos en los libros durante todo el día.
 
-Con la versión preliminar pública del goteo de la creación de pedidos basados en fuente introducido en Retail versión 10.0.5, las transacciones se procesan durante todo el día y solo la conciliación financiera de formas de pago y otras transacciones de gestión de efectivo se procesan al final del día. Esta funcionalidad divide la carga de la creación de pedidos de ventas, facturas y pagos durante el día, ofreciendo el mejor rendimiento percibido y a la capacidad de reconocer ingresos y pagos en los libros casi en tiempo real. 
+Con el goteo de la creación de pedidos basados en fuente introducido en Retail versión 10.0.5, las transacciones se procesan durante todo el día y solo la conciliación financiera de formas de pago y otras transacciones de gestión de efectivo se procesan al final del día. Esta funcionalidad divide la carga de la creación de pedidos de ventas, facturas y pagos durante el día, ofreciendo el mejor rendimiento percibido y a la capacidad de reconocer ingresos y pagos en los libros casi en tiempo real. 
 
 
 ## <a name="how-to-use-trickle-feed-based-posting"></a>Cómo utilizar el goteo del registro basado en fuente
