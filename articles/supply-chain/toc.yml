@@ -158,7 +158,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Crear y trabajar con campos personalizados
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Insertar aplicaciones de PowerApps
+                - name: Insertar Microsoft Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Encontrar información mediante el uso de búsquedas
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/supply-chain/toc.json
@@ -633,17 +633,17 @@
               href: ../fin-ops-core/dev-itpro/analytics/bi-reporting-home-page.md?toc=/dynamics365/supply-chain/toc.json
             - name: Acceso a información e informes
               href: ../fin-ops-core/dev-itpro/analytics/information-access-reporting.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Opciones de personalización con PowerBI.com
+            - name: Opciones de personalización con Power BI
               items:
-                - name: Características disponibles a través de la integración de PowerBI.com
+                - name: Características disponibles a través de la integración de Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Anclar contenido de PowerBI.com
+                - name: Anclar el contenido de Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/pin-power-bi-reports.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Seleccionar espacios de trabajo analíticos de PowerBI.com
+                - name: Seleccionar espacios de trabajo analíticos de Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/select-analytical-workspace.md?toc=/dynamics365/supply-chain/toc.json
             - name: Contenido de Power BI
               items:
-                - name: Página principal de Contenido de Power BI
+                - name: Página principal de contenido de Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-home-page.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Gestión de costes
                   href: ../fin-ops-core/dev-itpro/analytics/cost-management-content-pack.md?toc=/dynamics365/supply-chain/toc.json
@@ -851,7 +851,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-stringjoin.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Where
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-where.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Logical
+                    - name: Lógicas
                       items:
                         - name: Funciones lógicas
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-logical.md?toc=/dynamics365/supply-chain/toc.json
@@ -1827,10 +1827,6 @@
                       href: pim/tasks/obsolete-product-variants.md
                     - name: Excluir productos de la planificación maestra
                       href: pim/tasks/exclude-products-master-planning.md
-                - name: Bienes de doble uso
-                  href: pim/dual-use.md
-                - name: País de origen
-                  href: pim/country-of-origin.md
                 - name: Crear un código de barras para un producto
                   href: pim/tasks/create-bar-code-product.md
                 - name: Especificar el código GTIN de un producto
@@ -1839,6 +1835,20 @@
                   href: pim/tasks/create-batch-attributes-product.md
                 - name: Agregar una imagen a un producto
                   href: pim/tasks/add-image-product.md
+                - name: País de origen
+                  href: pim/country-of-origin.md
+                - name: Bienes de doble uso
+                  href: pim/dual-use.md
+                - name: Materiales peligrosos
+                  items:
+                    - name: Visión general de materiales peligrosos
+                      href: pim/hazmat-overview.md
+                    - name: Configurar materiales peligrosos
+                      href: pim/hazmat-setup.md
+                    - name: 'Materiales peligrosos en productos, pedidos, envíos y cargas'
+                      href: pim/hazmat-items.md
+                    - name: Consultas e informes sobre materiales peligrosos
+                      href: pim/hazmat-reports.md
                 - name: Preguntas frecuentes sobre la traducción de la información de producto
                   href: pim/translations-product-related-information.md
                 - name: Búsqueda del producto durante la entrada de pedidos
