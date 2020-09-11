@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 87d1217204e0c5cb22f567793b043bf399ca5685
-ms.sourcegitcommit: b07434f2bd6db67d8dd712f096329acc902751ae
+ms.openlocfilehash: a6fdc7b8d7ad65c9e4bf1d3b932b62918dea6e77
+ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "3699378"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3710268"
 ---
 # <a name="customer-orders-in-modern-pos-mpos"></a>Pedidos de cliente en Modern POS (MPOS)
 
@@ -54,7 +54,10 @@ A continuación se muestran algunos de los parámetros que se pueden configurar 
     - Los cargos se aplican en el nivel del encabezado del pedido de ventas, y cuando una cierta cantidad de una línea de productos se devuelve, la devolución máxima de cargos de envío permitida para los productos y la cantidad no se puede determinar por la forma en que funciona para todos los clientes.
     - Los cargos de envío se tienen por cada instancia de envío. Si un cliente devuelve varias veces productos y la directiva del distribuidor especifica que el distribuidor se hará cargo de los cargos de devolución de envío, los cargos de devolución de envío serán más elevados que los cargos de envío reales.
     
-- **Comportamiento de cálculo de impuestos** - **Recalcular** es la configuración predeterminada y tradicional de cómo se recalculan los impuestos cuando se importa el pedido en el back-office. **No recalcular** deshabilita la opción de recalcular impuestos hasta que (o, a menos que) se edite el pedido en el back-office, activando la opción de recalcular. 
+
+## <a name="disable-option-to-pay-later"></a>Deshbilitar la opción de pagar más tarde
+
+En Commerce, versión 10.0.12 y posteriores, los comerciantes pueden eliminar la opción de pagar más tarde cuando se crea un pedido de cliente en el PDV. Para deshabilitar la opción, abra el **Perfil de funcionalidad** para el canal en el que no se permite pagar más tarde y luego seleccione **Editar**. En la pestaña **General**, seleccione el menú desplegable para **Requerir pago para cumplimiento**. Si no se va a permitir pagar más tarde en el PDV, seleccione **Tarjeta requerida** y seleccione **Guardar**. Ejecute la programación de distribución **1070** para sincronizar este cambio con l canal. 
 
 ## <a name="transaction-flow-for-customer-orders"></a>Flujo de transacciones para pedidos de cliente
 

@@ -3,7 +3,7 @@ title: Calendarios y planificación maestra
 description: Este tema proporciona una visión general de los calendarios de la cadena de suministro y cómo afectan a la planificación maestra.
 author: t-benebo
 manager: tfehr
-ms.date: 05/08/2019
+ms.date: 08/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: t-benebo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d542c52623c1b3c0aa4b23159d56791cdc981f48
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 373af2e7bdcbf6860f21e049403fdf174d5e8ca7
+ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213501"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3710342"
 ---
 # <a name="calendars-and-master-planning"></a>Calendarios y planificación maestra
 
@@ -105,28 +105,28 @@ La fecha del pedido en un pedido de compra planificado indica la fecha en que se
 
 ### <a name="delivery-date-of-a-planned-purchase-order"></a>Fecha de entrega de un pedido de compra planificado
 La fecha de recepción de una compra indica la fecha en que recibirá las mercancías. Será una fecha abierto en el calendario. El calendario que se tendrá en cuenta para indicar qué días se pueden recibir los pedidos de compra son los siguientes, en orden de mayor a menor prioridad: 
-    1. Calendario del proveedor
-    2. Calendario de grupo de cobertura
-    3. Calendario de almacén para el almacén de recepción
+1. Calendario del proveedor
+1. Calendario de grupo de cobertura
+1. Calendario de almacén para el almacén de recepción
 
 Tenga en cuenta que el calendario del grupo de cobertura se puede establecer en distintas páginas y tendrá prioridad en el siguiente orden:
-    1. Grupo de cobertura de artículos en la página **Detalles de productos emitidos**
-    2. Grupo de cobertura de artículos en la página **Cobertura de artículos**
-    3. Grupo predeterminado de cobertura de artículos en **Parámetros de planificación maestra**
+1. Grupo de cobertura de artículos en la página **Cobertura de artículos**
+1. Grupo de cobertura de artículos en la página **Detalles de productos emitidos**
+1. Grupo predeterminado de cobertura de artículos en **Parámetros de planificación maestra**
 
 ### <a name="shipping-date-of-a-planned-transfer-order"></a>Fecha de envío de un pedido de transferencia planificado
 Al crear un pedido de transferencia entre dos almacenes, la fecha de envío y la fecha de recepción se incluyen en la cabecera del pedido de transferencia, junto con el almacén “Desde” y el almacén "Hasta". La diferencia entre estas dos fechas es el tiempo previsto del transporte (en días) entre almacenes.
 
 La fecha de envío de un pedido de transferencia planificado indica la fecha en que se envía la mercancía desde el almacén “Desde”. Los calendarios utilizados para especificar la fecha de envío disponible se enumeran por prioridad: 
-    1. Calendario de almacén del almacén "Desde"
-    2. El calendario del grupo de cobertura (consulte pedido de reserva para este calendario arriba). Si hay un calendario de almacén establecido, la fecha de envío será una fecha abierto en el calendario. Si no hay un calendario de almacén establecido, tomará el calendario del grupo de cobertura. 
+1. Calendario de almacén del almacén "Desde"
+1. El calendario del grupo de cobertura (consulte pedido de reserva para este calendario arriba). Si hay un calendario de almacén establecido, la fecha de envío será una fecha abierto en el calendario. Si no hay un calendario de almacén establecido, tomará el calendario del grupo de cobertura. 
 
 ### <a name="receipt-date-of-a-planned-transfer-order"></a>Fecha de recepción de un pedido de transferencia planificado
 La fecha de recepción de un pedido de transferencia planificado indica la fecha en que se recibe la mercancía en el almacén “Hasta”.
 
 Los calendarios utilizados para especificar la fecha de recepción se enumeran por prioridad: 
-    1. Calendario de grupo de cobertura 
-    2. El calendario de almacén del almacén “A”. Si hay un calendario de cobertura establecido, la fecha de recepción será una fecha abierta en el calendario. Si no hay un calendario de grupo de cobertura establecido, tomará el calendario del almacén. 
+1. Calendario de grupo de cobertura 
+1. El calendario de almacén del almacén “A”. Si hay un calendario de cobertura establecido, la fecha de recepción será una fecha abierta en el calendario. Si no hay un calendario de grupo de cobertura establecido, tomará el calendario del almacén. 
 
 Al buscar las fechas de envío y recepción para la transferencia planificada, los márgenes liquidados por el usuario para enviar y recibir también se considerarán. 
 

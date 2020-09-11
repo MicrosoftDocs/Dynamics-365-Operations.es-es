@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f045cb7ab9f5e7aa4259f29e1b026f110425c236
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 43c16c5d0de91bf1f433f4fde36e7d13775f44a0
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429068"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712182"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Acumular planes de bajas y ausencias
 
@@ -37,7 +37,9 @@ Puede acumular permisos y ausencias en Dynamics 365 Human Resources para varios 
 
 3. Apare el cuadro de diálogo **Acumular planes de permiso y ausencia**. En **A partir de**, seleccione **Fecha de hoy** o seleccione **Fecha personalizada** e introduzca una fecha personalizada.
 
-4. Si desea ejecutar el proceso de acumulación en segundo plano, seleccione **Ejecutar en segundo plano** y realice las siguientes tareas:
+4. Si desea ejecutar acumulaciones para todas las empresas, seleccione **Todas las empresas**. Si desea procesar acumulaciones para un solo plan de vacaciones, seleccione **No** para **Todos los planes** y luego seleccione un **Plan de vacaciones**. Si elige todas las empresas, no puede seleccionar planes de baja individuales. 
+
+5. Si desea ejecutar el proceso de acumulación en segundo plano, seleccione **Ejecutar en segundo plano** y realice las siguientes tareas:
 
    1. Escriba información para el proceso de acumulación.
 
@@ -55,7 +57,9 @@ Puede acumular permisos y ausencias en Dynamics 365 Human Resources para varios 
 
 3. Apare el cuadro de diálogo **Acumular planes de permiso y ausencia**. En **A partir de**, seleccione **Fecha de hoy** o seleccione **Fecha personalizada** e introduzca una fecha personalizada.
 
-4. Si desea ejecutar el proceso de acumulación en segundo plano, seleccione **Ejecutar en segundo plano** y realice las siguientes tareas:
+4. Si desea ejecutar acumulaciones para todas las empresas, seleccione **Todas las empresas**. Si desea procesar acumulaciones para un solo plan de vacaciones, seleccione **No** para **Todos los planes** y luego seleccione un **Plan de vacaciones**. Si elige todas las empresas, no puede seleccionar planes de baja individuales. 
+
+5. Si desea ejecutar el proceso de acumulación en segundo plano, seleccione **Ejecutar en segundo plano** y realice las siguientes tareas:
 
    1. Escriba información para el proceso de acumulación.
 
@@ -102,18 +106,6 @@ Eliminar registros de acumulación para un plan e intervalo de fechas específic
 1. En la página **Bajas y ausencias**, seleccione la pestaña **Vínculos**.
 
 2. Debajo de **Administrar bajas**, seleccione **Eliminar auditoría de acumulaciones de permisos**.
-
-## <a name="configure-preview-features"></a>Configurar características de vista previa
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
-
-Si ha habilitado las características de vista previa para Permisos y ausencias, también debe configurarlas.
-
-### <a name="accrue-leave-per-company-or-per-leave-plan"></a>Baja acumulada por empresa o por plan de baja
-
-Al acumular los planes de baja y ausencia, puede optar por acumular para todas las empresas. Si elige todas las empresas, no puede seleccionar planes de baja individuales. Si elige no acumular para todas las empresas, puede acumular para un plan de baja específico. 
-
-Estas opciones están disponibles cuando se acumulan para todos los empleados o para empleados individuales. 
 
 ## <a name="see-also"></a>Consulte también
 

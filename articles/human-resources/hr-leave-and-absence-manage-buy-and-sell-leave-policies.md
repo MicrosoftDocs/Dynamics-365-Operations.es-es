@@ -3,7 +3,7 @@ title: Gestionar directivas de compra y venta de bajas
 description: Puede permitir que los empleados compren y vendan bajas Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 06/01/2020
+ms.date: 08/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,24 +18,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 859445f2b6e980b5960e512e69129f6a8fc6df2b
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 55d29c42cc1b2d69517e2fcd458ee6a1bdf5277f
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429022"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712130"
 ---
 # <a name="manage-buy-and-sell-leave-policies"></a>Gestionar directivas de compra y venta de bajas
 
-[!include [banner](includes/preview-feature.md)]
-
-Puede permitir que los empleados compren bajas creando una directiva de compra de bajas.  
+Puede permitir que los empleados compren y vendan bajas creando una directiva de compra y venta de bajas. Puede configurar estas políticas para utilizar el flujo de trabajo para las aprobaciones, establecer cantidades y tarifas máximas, y establecer tarifas de compra y venta. 
 
 ## <a name="enable-employees-to-buy-and-sell-leave"></a>Permitir que los empleados compren y vendan bajas
 
-1. En la página **Parámetros de baja y ausencia**, seleccione **Sí** para **Permitir que los empleados compren bajas**. 
+1. En la página **Parámetros de permisos y ausencias**, seleccione **Sí** para **Permitir que los empleados compren bajas** y **Permitir que los empleados vendan bajas**.
 
-## <a name="create-a-buy-leave-policy"></a>Crear una directiva de compra de bajas
+## <a name="create-a-buy-and-sell-leave-policy"></a>Crear directivas de compra y venta de bajas
 
 1. En la página **Bajas y ausencias**, seleccione la pestaña **Vínculos**. 
 
@@ -51,19 +49,23 @@ Puede permitir que los empleados compren bajas creando una directiva de compra d
 
 6. Seleccione una **Fecha inicial** y una **Fecha final** para la directiva. Las solicitudes para comprar o vender bajas solo estarán disponibles para su envío durante este período de tiempo. 
 
-7. En **Política de compra**, Seleccione **Equivalencia a tiempo completo** (FTE) para prorratear el importe máximo según el FTE definido en la posición del empleado. Si el tipo de política es **Importe**, introduzca un **Importe fijo máximo**. 
+7. Seleccione un **Id. de flujo de trabajo** para la directiva. Cualquier solicitud de compra y venta utilizará este flujo de trabajo para su revisión y aprobación. 
 
-8. Seleccione **Añadir** para agregar los tipos de baja para que los empleados compren bajas. Puede agregar varios tipos de bajas a la directiva. 
+8. En **Política de compra**, Seleccione **Equivalencia a tiempo completo** (FTE) para prorratear el importe máximo según el FTE definido en la posición del empleado. Si el tipo de política es **Importe**, introduzca un **Importe fijo máximo**. 
 
-9. Introduzca los **Meses de servicio** para el tipo de baja, para permitir diferentes meses de servicio para determinar el importe máximo que un empleado puede comprar. 
+9. Seleccione **Añadir** para agregar los tipos de baja para que los empleados compren bajas. Puede agregar varios tipos de bajas a la directiva. 
 
-10. Introduzca el **Importe máximo** para el tipo de baja. 
+10. Introduzca los **Meses de servicio** para el tipo de baja, para permitir diferentes meses de servicio para determinar el importe máximo que un empleado puede comprar. 
 
-11. Introduzca la **Tarifa** con la que el empleado comprará la baja. 
+11. Introduzca el **Importe máximo** para el tipo de baja. 
 
-12. Opcionalmente, introduzca el **Código de ingresos** a usar para comprar la baja. 
+12. Introduzca la **Tarifa** con la que el empleado comprará la baja. 
 
-13. Opcionalmente, establezca si usar FTE para determinar el importe máximo para el tipo de baja. 
+13. Opcionalmente, introduzca el **Código de ingresos** a usar para comprar la baja. 
+
+14. Opcionalmente, establezca si usar FTE para determinar el importe máximo para el tipo de baja. 
+
+15. Para crear una directiva de venta, siga los pasos 8 a 14 de **Directiva de ventas**. 
 
 ## <a name="add-the-buy-and-sell-leave-policy-to-a-leave-and-absence-plan"></a>Agregue la directiva de compra y venta de bajas a un plan de baja y ausencia
 

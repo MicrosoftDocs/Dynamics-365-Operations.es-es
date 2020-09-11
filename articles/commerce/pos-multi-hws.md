@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 41b0faa7ef24bdae229f7e6760d22357cb87eb0d
-ms.sourcegitcommit: 7b7cc93c0f78c6bfc7a3ea66a74a29ba0f218553
+ms.openlocfilehash: 03cb68ede82668523e6970d33df676738e65fd83
+ms.sourcegitcommit: 18c5ef10e311f3dd2dbf45c6439ae6beff921af8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "3658367"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "3719223"
 ---
 # <a name="dedicated-payment-terminals-and-prompts-for-a-printer-and-cash-drawer"></a>Terminales de pago dedicados y avisos para una impresora y un cajón de efectivo
 
@@ -78,8 +78,8 @@ Para configurar el perfil de hardware asignado al registro, siga estos pasos.
 
     | Dispositivo | Tipo | Nombre del dispositivo | Más detalles |
     |---|---|---|---|
-    | Impresora | Reserva | **Epson** o **Star** | El nombre de dispositivo distingue entre mayúsculas y minúsculas. El **Id. de perfil de recibo** debería ser el mismo que el **Id. de perfil de recibo** que se asigna a la impresora de red que está configurada en el perfil de hardware asignado a la estación de hardware en el nivel del canal. |
-    | Caja registradora | Reserva | **Epson** o **Star** | El nombre de dispositivo distingue entre mayúsculas y minúsculas. Establezca la opción **Usar de forma compartida** en **Sí**. |
+    | Impresora | Reserva | *Alguna* | El nombre de dispositivo distingue entre mayúsculas y minúsculas. El **Id. de perfil de recibo** debería ser el mismo que el **Id. de perfil de recibo** que se asigna a la impresora de red que está configurada en el perfil de hardware asignado a la estación de hardware en el nivel del canal. |
+    | Caja registradora | Reserva | *Alguna* | El nombre de dispositivo distingue entre mayúsculas y minúsculas. Establezca la opción **Usar de forma compartida** en **Sí**. |
     | Servicio EFT | Adyen | No aplicable | Para obtener información sobre cómo configurar el conector Adyen en su primer uso, consulte [Conector de pago de Dynamics 365 para Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3). Otros conectores de pago pueden ser compatibles a través del [kit de desarrollo de software (SDK) de Commerce para pagos](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/end-to-end-payment-extension). |
     | Terminal para introducción de PIN | Red | **MicrosoftAdyenDeviceV001** | Ninguno. |
 
@@ -103,7 +103,7 @@ Para configurar el perfil de hardware que se utiliza para agrupar la impresora d
     | Dispositivo | Tipo | Descripción | Más detalles |
     |---|---|---|---|
     | Impresora | Red | **Epson** o **Star** | El nombre de dispositivo distingue entre mayúsculas y minúsculas. El **Id. de perfil de recibo** debería ser el mismo que el **Id. de perfil de recibo** que se asigna a la impresora que está configurada en el perfil de hardware asignado al registro. |
-    | Caja registradora | Reserva | **Epson** o **Star** | El nombre de dispositivo distingue entre mayúsculas y minúsculas. Establezca la opción **Usar de forma compartida** en **Sí**. |
+    | Caja registradora | Red | **Epson** o **Star** | El nombre de dispositivo distingue entre mayúsculas y minúsculas. Establezca la opción **Usar de forma compartida** en **Sí**. |
 
 5. Seleccione **Guardar**.
 

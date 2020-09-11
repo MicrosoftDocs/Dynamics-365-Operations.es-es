@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: b10e5f0fe97e65ad380e85815c56e88a3ce4e303
-ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
+ms.openlocfilehash: a2ca0ce277a062c8d525b6a3619eaf1b0114667b
+ms.sourcegitcommit: 18c5ef10e311f3dd2dbf45c6439ae6beff921af8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "3443904"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "3719273"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Cliente potencial a efectivo en doble escritura
 
@@ -64,7 +64,7 @@ Por ejemplo, la secuencia numérica en Supply Chain Management es **1, 2, 3, 4, 
 Los presupuestos de ventas pueden crearse en Sales o Supply Chain Management. Si crea un presupuesto en Sales, se sincroniza con Supply Chain Management en tiempo real. De forma similar, si crea un presupuesto en Supply Chain Management, se sincroniza con Sales en tiempo real. Tenga en cuenta los aspectos siguientes:
 
 + Puede agregar un descuento al producto en el presupuesto. En este caso, el descuento se sincronizará con Supply Chain Management. Los campos **Descuento**, **Cargos** e **Impuestos** en el encabezado se controlan mediante una configuración compleja en Supply Chain Management. Esta configuración no admite la asignación de la integración. En su lugar, los campos **Precio**, **Descuento**, **Cargo** e **Impuestos** son gestionados y mantenidos en Supply Chain Management.
-+ Los campos **% de descuento**, **Descuento** e **Importe del fleje** en el encabezado del presupuesto de ventas son campos de solo lectura.
++ Los campos **% de descuento**, **Descuento** e **Importe del flete** en el encabezado del presupuesto de ventas son campos de solo lectura.
 + Los campos **Condiciones de flete**, **Condiciones de entrega**, **Método de envío** y **Modo de entrega** no forman parte de las asignaciones predeterminadas. Para asignar estos campos, debe configurar una asignación de valores que sea específica de los datos en las organizaciones entre las que se sincroniza la entidad.
 
 Si también está utilizando la solución Field Service, asegúrese de volver a habilitar el parámetro **Creación rápida de línea de presupuesto**. Volver a habilitar el parámetro le permite continuar creando líneas de presupuesto usando la función de creación rápida.
@@ -79,7 +79,7 @@ Si también está utilizando la solución Field Service, asegúrese de volver a 
 
 Los pedidos de ventas pueden crearse en Sales o Supply Chain Management. Si crea un pedido de ventas en Sales, se sincroniza con Supply Chain Management en tiempo real. De forma similar, si crea un pedido de ventas en Supply Chain Management, se sincroniza con Sales en tiempo real. Tenga en cuenta los aspectos siguientes:
 
-+ Puede activar y sincronizar pedidos de Sales solo si todos los productos del pedido provienen de aplicaciones de Finance and Operations. Por lo tanto, no puede haber productos de escritura.
++ Los productos de escritura en Dynamics 365 Sales aparecerán como categorías de productos en Dynamics 365 Supply Chain Management.
 + Cálculo del descuento y redondeo:
 
     - El modelo de cálculo del descuento en Sales es distinto del modelo de cálculo de descuento en Supply Chain Management. En Supply Chain Management, el importe del descuento final en una línea de ventas puede ser el resultado de una combinación de importes de descuento y de porcentajes de descuento. Si este importe del descuento final se divide por la cantidad en la línea, puede producirse redondeo. Sin embargo, este redondeo no se tiene en cuenta si un importe de descuento por unidad redondeado se sincroniza con Sales. Para ayudar a garantizar que el importe de descuento completo de una línea de ventas en Supply Chain Management se sincronice correctamente con Sales, el importe completo debe sincronizarse sin ser dividido por la cantidad de línea. Por lo tanto, debe definir método de cálculo de descuentos como **Artículo de línea** en Sales.
@@ -154,7 +154,7 @@ Estos son los mapas de entidades centrales relacionadas para cliente potencial a
 + [Clientes V3 para cuentas](customer-mapping.md#customers-v3-to-accounts)
 + [Contactos V2 de CDS para contactos](customer-mapping.md#cds-contacts-v2-to-contacts)
 + [Clientes V3 para contactos](customer-mapping.md#customers-v3-to-contacts)
-+ [Productos lanzados V2 para msdyn_sharedproductdetails](product-mapping.md#released-products-v2-to-msdyn_sharedproductdetails)
++ [Productos despachados V2 para msdyn_sharedproductdetails](product-mapping.md#released-products-v2-to-msdyn_sharedproductdetails)
 + [Todos los productos para msdyn_globalproducts](product-mapping.md#all-products-to-msdyn_globalproducts)
 + [Lista de precios](product-mapping.md)
 

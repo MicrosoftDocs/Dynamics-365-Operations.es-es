@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: conradv
 ms.search.validFrom: 2019-10-14
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5006f06d90ddcc314a51878e9e21337de7d493e7
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 079c8d23250368c92e5d79f0e2624f8340db2077
+ms.sourcegitcommit: c009ec75f53872272f11c92a1ce81a391e3845a2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208478"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "3699545"
 ---
 # <a name="hazardous-materials"></a>Materiales peligrosos
 
@@ -32,14 +32,14 @@ ms.locfileid: "3208478"
 
 La información sobre materiales peligrosos se configura en la gestión de información del producto. Este módulo también proporciona documentos que se pueden imprimir a través de la gestión del almacén.
 
-Cuando envía materiales clasificados como mercancías peligrosas, debe incluir documentación adicional con los envíos. La funcionalidad de materiales peligrosos permite que los clientes almacenen información de clasificación y la relacionen para liberar artículos. Esta información se puede utilizar para ayudar a preparar la documentación de envío.
+Cuando envía materiales clasificados como mercancías peligrosas, debe incluir documentación adicional con los envíos. La funcionalidad de materiales peligrosos permite que los clientes almacenen información de clasificación y la relacionen para despachar artículos. Esta información se puede utilizar para ayudar a preparar la documentación de envío.
 
 > [!IMPORTANT]
-> Para ayudar a administrar los envíos de mercancías peligrosas, Microsoft Dynamics 365 Supply Chain Management permite configurar información de referencia adicional relacionada con productos. También puede configurar documentos de envío adicionales. Sin embargo, el sistema no cumple automáticamente con las regulaciones de su país o región. En cambio, es una herramienta que puede ayudar a su programa general.
+> Las características de materiales peligrosos en Microsoft Dynamics 365 Supply Chain Management proporcionan una colección de campos de información de productos útiles y funciones relacionadas que pueden ayudarle a registrar y hacer referencia a información relacionada con sus productos peligrosos. Estas características también pueden ayudarle a diseñar e imprimir documentos de envío que incluyan parte de la misma información sobre cualquier material peligroso que esté enviando. Sin embargo, el sistema no hará que cumpla automáticamente todas las regulaciones de su país o región. Si bien estas herramientas están destinadas a ayudarla a cumplir con las regulaciones comunes, no son suficientes por sí mismas ni se garantiza que lo sean. Su organización es responsable de conocer todas las regulaciones aplicables y de tomar todas las medidas necesarias para cumplirlas.
 
 Antes de poder usar esta funcionalidad, se requiere la siguiente configuración:
 
-- **Gestión de la información del producto:** configure códigos que se pueden aplicar a productos lanzados.
+- **Gestión de la información del producto:** configure códigos que se pueden aplicar a productos despachados.
 - **Gestión de almacenes:** use documentos de envío adicionales para imprimir la información de envío.
 
 ## <a name="product-information-management"></a>Gestión de información de productos

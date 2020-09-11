@@ -1,6 +1,6 @@
 ---
 title: Novedades o cambios en Dynamics 365 Human Resources (25 de junio de 2020)
-description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Human Resources.
+description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Human Resources para el 23 de junio de 2020.
 author: Darinkramer
 manager: AnnBe
 ms.date: 06/25/2020
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fa02cf10b2b4fe08440d3641472e83dfe58169c9
-ms.sourcegitcommit: 81296c49be9953aa01e15527c34d0ef13b4622a9
+ms.openlocfilehash: d9787df5f36c1f08ade40e3e8fc5d5189e3bd5b0
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "3614395"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3711949"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-23-2020"></a>Novedades o cambios en Dynamics 365 Human Resources (23 de junio de 2020)
 
-Este tema describe las funciones que son nuevas o que se han cambiado en Dynamics 365 Human Resources. Los cambios se aplican al número de compilación 8.1.3347. Los números entre paréntesis en algunos encabezados hacen referencia a los números de soporte en (LCS) para su referencia.
+Este tema describe las características que son nuevas o que se han cambiado en Dynamics 365 Human Resources. Los cambios se aplican al número de compilación 8.1.3347. Los números entre paréntesis en algunos encabezados hacen referencia a los números de soporte en (LCS) para su referencia.
 
 ## <a name="when-an-enrollment-is-expired-for-a-terminated-employee-the-leave-type-balance-and-amount-are-all-cleared-in-the-leave-enrollment-form-444867"></a>Cuando una inscripción expira para un empleado despedido, el tipo de baja, el saldo y la cantidad se borran en el formulario de inscripción de licencia (444867)
 
@@ -43,7 +43,7 @@ Esta versión corrige un problema con las propiedades de navegación (relación)
  
 ## <a name="cross-company-comments-on-performance-review-455536"></a>Comentarios entre empresas sobre la evaluación del rendimiento (455536)
 
-Los comentarios entre empresas ahora son visibles en las revisiones de rendimiento con esta solución. Este cambio corrige la vista de los comentarios de los revisores que se ingresaron en diferentes compañías para la misma revisión de rendimiento.
+Los comentarios entre empresas ahora son visibles en las revisiones de rendimiento con esta solución. Este cambio corrige la vista de los comentarios de los revisores que se introdujeron en diferentes compañías para la misma revisión de rendimiento.
  
 ## <a name="inconsistency-in-showing-compensation-management-data-432562"></a>Inconsistencia en mostrar datos de gestión de compensación (432562)
 
@@ -88,7 +88,7 @@ Algunas organizaciones ofrecen un beneficio que permite a los empleados comprar 
 
 ## <a name="leave-accrual-for-a-single-company-or-single-plan"></a>Acumulación de bajas para una sola compañía o plan único
 
-Los clientes pueden procesar las acumulaciones para una sola compañía o un solo plan de licencia y ausencias. Esta capacidad proporciona transparencia en el proceso de acumulación para clientes con diferentes años de baja o directivas de acumulación de bajas. Para más información, consulte [Acumular bajas por empresa o por plan de licencia](hr-leave-and-absence-accrue.md#accrue-leave-per-company-or-per-leave-plan).
+Los clientes pueden procesar las acumulaciones para una sola compañía o un solo plan de licencia y ausencias. Esta capacidad proporciona transparencia en el proceso de acumulación para clientes con diferentes años de baja o directivas de acumulación de bajas. Para más información, consulte [Acumular bajas por empresa o por plan de licencia](hr-leave-and-absence-accrue.md).
 
 ## <a name="add-attachments-to-time-off-requests"></a>Agregar archivos adjuntos a las solicitudes de tiempo libre
 

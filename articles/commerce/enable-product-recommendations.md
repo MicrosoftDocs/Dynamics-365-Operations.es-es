@@ -3,7 +3,7 @@ title: Habilitar recomendaciones de producto
 description: Este tema explica cómo hacer recomendaciones de productos que se basan en la inteligencia artificial-aprendizaje automático (AI-ML) disponible para clientes de Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 05/26/2020
+ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d2dacd4a94f706be5aa65947c0b6a92e281733ca
-ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
+ms.openlocfilehash: b201e5481cfaf5bb6cd64a89cdb6b5a91f31447f
+ms.sourcegitcommit: d3b970c3b93d8be12886b1c5a6bf91f0b33726dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3665035"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3700851"
 ---
 # <a name="enable-product-recommendations"></a>Habilitar recomendaciones de producto
 
@@ -65,11 +65,13 @@ Guarde y cierre la página.
 
 Para activar recomendaciones de productos, siga estos pasos.
 
-1. Vaya a **Retail y Commerce &gt; Recomendaciones de producto &gt; Parámetros de recomendaciones**.
-1. En la lista de parámetros compartidos, seleccione **Listas de recomendaciones**.
-1. Establezca la opción **Habilitar recomendaciones** en **Sí**.
+1. En la central de Commerce, busque **Gestión de funciones**.
+1. Seleccione **Todas** para ver una lista de funciones disponibles. 
+1. En el cuadro de búsqueda, introduzca **Recomendaciones**.
+1. Seleccione la característica **Recomendaciones de productos**.
+1. En el panel de propiedades **Recomendaciones de productos**, seleccione **Habilitar ahora**.
 
-![Activar las recomendaciones](./media/enablepersonalization.png)
+![Activar las recomendaciones](./media/FeatureManagement_Recommendations.PNG)
 
 > [!NOTE]
 > Este procedimiento inicia el proceso de generar listas de recomendaciones de productos. Es posible que se requieran varias horas antes de que las listas estén disponibles y puedan verse en el punto de venta (PDV) o en Dynamics 365 Commerce.

@@ -3,7 +3,7 @@ title: Concepto de empresa en Common Data Service
 description: En este tema se describe la integración de datos de empresa entre Finance and Operations y Common Data Service.
 author: RamaKrishnamoorthy
 manager: AnnBe
-ms.date: 07/15/2019
+ms.date: 08/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 9a39cf5fa980d9a815ba675e410589dbd1279c83
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 444bfc1698a206ca34e67f742df63431a3b02649
+ms.sourcegitcommit: 7da8811f1a7db858efb76edb0bdf857a47d07600
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172909"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "3728422"
 ---
 # <a name="company-concept-in-common-data-service"></a>Concepto de empresa en Common Data Service
 
@@ -72,3 +72,32 @@ La integración de Common Data Service aporta paridad a la empresa mediante un i
 + Para los registros, después de que se agregua y se guarda una empresa, el valor pasa a ser de solo lectura. Por lo tanto, los usuarios deben asegurarse de que se selecciona la empresa correcta.
 + Solo los registros con datos de la empresa son aptos para la escritura dual entre la aplicación y Common Data Service.
 + Para los datos existentes de Common Data Service, pronto habrá una experiencia de arranque dirigida por el administrador.
+
+
+## <a name="autopopulate-company-name-in-customer-engagement-apps"></a>Autocompletar el nombre de la empresa en las aplicaciones de involucración del cliente
+
+Hay varias formas de completar automáticamente el nombre de la empresa en las aplicaciones de involucración del cliente.
+
++ Si es administrador del sistema, puede configurar la empresa predeterminada navegando a **Configuración avanzada > Sistema > Seguridad > Usuarios**. Abra el formulario **Usuario** y, en la sección **Información de la organización**, configure el valor **Empresa predeterminada en formularios**.
+
+    :::image type="content" source="media/autopopulate-company-name-1.png" alt-text="Establezca la empresa predeterminada en la sección Información de la organización.":::
+
++ Si tiene acceso de **Escribir** a la entidad **SystemUser** para el nivel **Unidad de negocio**, puede cambiar la empresa predeterminada en cualquier formulario seleccionando una empresa en el menú desplegable **Empresa**.
+
+    :::image type="content" source="media/autopopulate-company-name-2.png" alt-text="Cambio del nombre de la empresa en una nueva cuenta.":::
+
++ Si tiene acceso de **Escribir** a los datos en más de una empresa, en ese caso puede cambiar la empresa predeterminada eligiendo un registro que pertenezca a otra empresa.
+
+    :::image type="content" source="media/autopopulate-company-name-3.png" alt-text="La elección de un registro cambia la empresa predeterminada.":::
+
++ Si es un configurador o administrador del sistema y desea completar automáticamente los datos de la empresa en un formulario personalizado, puede usar [eventos de formulario](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/events-forms-grids). Agregue una referencia de JavaScript a **msdyn_ /DefaultCompany.js** y utilice los siguientes eventos. Puede utilizar cualquier formulario listo para usar, por ejemplo, el formulario **Cuenta**.
+
+    + Evento **OnLoad** para el formulario: establezca el campo **defaultCompany**.
+    + Evento **OnChange** para el campo **Empresa**: establezca el campo **updateDefaultCompany**.
+
+## <a name="apply-filtering-based-on-the-company-context"></a>Aplicar filtros basados en el contexto de la empresa
+
+Para aplicar el filtrado basado en el contexto de la empresa en sus formularios personalizados o en los campos de búsqueda personalizados agregados a los formularios estándar, abra el formulario y use la sección **Filtrado de registros relacionados** para aplicar el filtro de empresa. Debe establecer esto para cada campo de búsqueda que requiera filtrado según la empresa subyacente en un registro determinado. El ajuste se muestra para **Cuenta** en la siguiente ilustración.
+
+:::image type="content" source="media/apply-company-context.png" alt-text="Aplicar el contexto de la empresa":::
+

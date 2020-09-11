@@ -1,6 +1,6 @@
 ---
 title: Novedades y cambios en Dynamics 365 Human Resources (10 de marzo de 2020)
-description: Este artículo describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Human Resources.
+description: Este artículo describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Human Resources para el 10 de marzo de 2020.
 author: Darinkramer
 manager: AnnBe
 ms.date: 03/10/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-03-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1843095c41428d377341154c9f2140085831e770
-ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
+ms.openlocfilehash: 9302c2e3d3d273e4160886ab8783b7609295c5cd
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/13/2020
-ms.locfileid: "3555271"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3711973"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-10-2020"></a>Novedades y cambios en Dynamics 365 Human Resources (10 de marzo de 2020)
 
@@ -41,7 +41,7 @@ Con este cambio, la seguridad oculta este elemento del menú si no tiene acceso 
 
 El formulario de mantenimiento de tareas de los trabajadores enumera todas las tareas para un empleado a través de la incorporación, la exclusión, las transiciones y los procesos comerciales. Ahora puede eliminar, reasignar o actualizar el estado de las tareas.
 
-Ejemplo: Benjamin Martin es un administrador de beneficios. Durante la incorporación de los empleados, se crean tareas para que Benjamin revise la selección de beneficios del nuevo empleado. Benjamin tiene tareas pasadas que ha completado y tareas futuras que debe completar. Benjamin decide abandonar la empresa, por lo que sus tareas deben reasignarse o eliminarse. El formulario de mantenimiento de tareas (en el panel de acciones del **Trabajador**) permite que todas las tareas de Benjamin se reasignen a otro trabajador o se eliminen.  
+Ejemplo: Benjamin Martin es un administrador de beneficios. Durante la incorporación de los empleados, se crean tareas para que Benjamin revise la selección de beneficios del nuevo empleado. Benjamin tiene tareas pasadas que ha completado y tareas futuras que debe completar. Benjamin decide abandonar la empresa, por lo que sus tareas deben reasignarse o eliminarse. El formulario de mantenimiento de tareas (en el Panel Acciones del **Trabajador**) permite que todas las tareas de Benjamin se reasignen a otro trabajador o se eliminen.  
 
 ## <a name="common-data-service-solution-is-now-available-with-the-following-changes"></a>La solución Common Data Service ahora está disponible con los siguientes cambios:
 
@@ -88,9 +88,9 @@ Las siguientes características de vista previa están disponibles desde el 3 de
 
 ### <a name="platform-update-33"></a>Platform update 33
 
-- Aplicaciones de página completa (Vista previa): esta función de vista previa, que requiere que habilite la función Vistas guardadas, permite a Power Apps y aplicaciones de terceros agregarse como experiencias de página completa a través del panel de control.
+- Aplicaciones de página completa (Vista previa): esta característica de vista previa, que requiere que habilite la función Vistas guardadas, permite a Power Apps y aplicaciones de terceros agregarse como experiencias de página completa a través del panel de control.
 
-- Vistas guardadas (vista previa): esta función de vista previa permite vistas guardadas, lo cual es una mejora significativa para el subsistema de personalización. Esta característica permite a los usuarios tener múltiples conjuntos de personalizaciones con nombre por página. También puede publicar vistas en roles de seguridad.
+- Vistas guardadas (vista previa): esta característica de vista previa permite vistas guardadas, lo cual es una mejora significativa para el subsistema de personalización. Esta característica permite a los usuarios tener múltiples conjuntos de personalizaciones con nombre por página. También puede publicar vistas en roles de seguridad.
 
 - Optimizado "es una de" experiencia de filtrado: esta característica permite una experiencia de filtrado optimizada "es uno de" que facilita la entrada de múltiples valores de filtro, tiene un mecanismo más simple para eliminar valores de filtro individuales o todos, y tiene un diseño más compacto e intuitivo visualización de valores de filtro.
 

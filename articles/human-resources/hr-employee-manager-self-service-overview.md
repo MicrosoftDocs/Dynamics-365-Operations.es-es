@@ -3,7 +3,7 @@ title: Resumen de autoservicio para empleados y gerentes
 description: Este artículo proporciona una descripción general del espacio de trabajo de autoservicio para empleados y gerentes.
 author: andreabichsel
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 08/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5934b6a1a1a8aa30aa18d9be26845c84acfa2fd0
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: fd642d0976c607b47a7874d0771e441153272ec9
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429805"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712241"
 ---
 # <a name="employee-and-manager-self-service-overview"></a>Resumen de autoservicio para empleados y gerentes
 
@@ -32,6 +32,25 @@ Este artículo proporciona una descripción general del espacio de trabajo de au
 ## <a name="edit-personal-details"></a>Editar detalles personales
 
 Si necesita agregar o cambiar información personal, consulte [Editar información personal](hr-employee-manager-self-service-edit-personal-information.md).
+
+## <a name="user-not-assigned-to-a-worker-record"></a>Usuario no asignado a un registro de trabajador
+
+Si no ha vinculado a su usuario a un registro **Trabajador** de la página **Usuarios**, aparecerá el siguiente mensaje:
+
+**Su Id. de usuario no está asociado a su registro de empleado en el sistema. No podrá ver ni actualizar su información hasta que lo esté. Póngase en contacto con su administrador o equipo de soporte técnico para obtener ayuda.**
+
+Para asociar un usuario con un registro de **Trabajador**, vaya a **Usuarios** y seleccione el usuario. Seleccione **Editar**, agregue el trabajador correspondiente en el campo **Persona** del formulario, y seleccione **Guardar**. Ahora debería tener acceso al autoservicio para empleados.
+
+## <a name="security-requirements-for-employee-and-manager-self-service"></a>Requisitos de seguridad para el autoservicio de empleados y gerentes
+
+Eel autoservicio de empleados y gerentes requiere dos roles de seguridad:
+
+- Los empleados requieren el rol de empleado.
+- Los gerentes requieren los roles de empleado y gerente.
+
+>[!NOTE]
+>También puede usar roles personalizados para acceder al autoservicio de empleados y gerentes siempre que se les haya otorgado acceso a los espacios de trabajo Empleado y Gerente.<br>
+>El acceso del gerente a la información de los empleados se basa en la jerarquía de línea de posición actual definida en Human Resources.
 
 ## <a name="employee-self-service"></a>Autoservicio para empleados
 
@@ -51,7 +70,7 @@ La pestaña **Mi informacion** muestra la siguiente información para el autoser
 
 La sección **Mi información laboral** del autoservicio para empleados contiene tarjetas relacionadas con Bajas y Ausencias, Gestión del rendimiento, Competencias, Beneficios, Tareas y Adjuntos.
 
-La tarjeta **Balanza de tiempo libre** muestra los saldos de cualquier plan inscrito. Esta tarjeta pronostica su saldo en función de su método de acumulación. Puede ingresar y enviar solicitudes de tiempo libre, que luego pasarán por un proceso de aprobación del flujo de trabajo. Para obtener más información acerca de la administración de Baja y de ausencia, consulte [Vista general de bajas y de ausencias](hr-leave-and-absence-overview.md).
+La tarjeta **Balanza de tiempo libre** muestra los saldos de cualquier plan inscrito. Esta tarjeta pronostica su saldo en función de su método de acumulación. Puede introducir y enviar solicitudes de tiempo libre, que luego pasarán por un proceso de aprobación del flujo de trabajo. Para obtener más información acerca de la administración de Baja y de ausencia, consulte [Vista general de bajas y de ausencias](hr-leave-and-absence-overview.md).
 
 La tarjeta **Tareas** muestra las tareas que se le asignaron y le permite verlas y administrarlas.
 
@@ -144,7 +163,7 @@ La información de mi equipo permite a los gerentes ver y actualizar informes di
 
 #### <a name="summary-tab"></a>Pestaña Resumen
 
-La pestaña **Resumen** proporciona una vista rápida de sus informes directos. Si un informe directo también tiene trabajadores que le informan, la tarjeta muestra el número de informes directos en la sección superior, junto con el botón **Ver equipo**. Las opciones sobre cada tarjeta se aplican al empleado seleccionado. Por ejemplo, si desea ingresar una solicitud de licencia en nombre de un empleado, seleccione el empleado y luego elija **Solicitar tiempo libre** encima de las tarjetas. 
+La pestaña **Resumen** proporciona una vista rápida de sus informes directos. Si un informe directo también tiene trabajadores que le informan, la tarjeta muestra el número de informes directos en la sección superior, junto con el botón **Ver equipo**. Las opciones sobre cada tarjeta se aplican al empleado seleccionado. Por ejemplo, si desea introducir una solicitud de licencia en nombre de un empleado, seleccione el empleado y luego elija **Solicitar tiempo libre** encima de las tarjetas. 
 
 Si selecciona el botón **Detalles** después de seleccionar un empleado, se muestran las siguientes opciones:
 

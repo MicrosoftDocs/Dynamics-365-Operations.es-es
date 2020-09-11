@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c3b5b82917e3083b5ffe4546a6a15fd14938383a
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: c7f78b687865e63e658c1c1c4f148b50595bf063
+ms.sourcegitcommit: 54bdcf8e9b6d1b1aae2a244f7a82754879d12053
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3249044"
+ms.lasthandoff: 08/31/2020
+ms.locfileid: "3740672"
 ---
 # <a name=""></a><a name="LISTJOIN">Función LISTJOIN de ER</a>
 
@@ -69,8 +69,18 @@ Entonces especifique el origen de datos **Registro 2** del tipo `Container`. Est
 - **Cantidad**: este campo contiene una expresión que devuelve un valor de tipo `Real`.
 - **IsValid**: este campo contiene una expresión que devuelve un valor de tipo `Boolean`.
 
-En este caso, la expresión `LISTJOIN(LIST('Record 1'), LIST('Record 2'))` devuelve una nueva lista que contiene dos registros. La estructura de esta lista consta de un solo campo **Importe** del tipo `Real`, porque este campo es el único campo que se presenta en cada argumento de la función llamada.
+![Página de diseñador de asignación de modelos de ER](./media/er-functions-list-listjoin-image1.gif)
+
+En este caso, la expresión `LISTJOIN(LIST('Record 1'), LIST('Record 2'))` devuelve una nueva lista que contiene dos registros.
+
+![Página de diseñador de asignación de modelos de ER](./media/er-functions-list-listjoin-image2.gif)
+
+La estructura de esta lista consta de un solo campo **Importe** del tipo `Real`, porque este campo es el único campo que se presenta en cada argumento de la función llamada.
+
+![Página de diseñador de asignación de modelos de ER](./media/er-functions-list-listjoin-image3.gif)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Funciones de lista](er-functions-category-list.md)
+
+[Depurar las fuentes de datos de un formato ER ejecutado para analizar el flujo de datos y la transformación](er-debug-data-sources.md)
