@@ -1,6 +1,6 @@
 ---
 title: Novedades y cambios en Dynamics 365 Human Resources (19 de marzo de 2020)
-description: Este artículo describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Human Resources.
+description: Este artículo describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Human Resources para el 19 de marzo de 2020.
 author: Darinkramer
 manager: AnnBe
 ms.date: 03/19/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f636dbd3b0ba59ea6cafbc431af46315210dded1
-ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
+ms.openlocfilehash: f0b961de23a76947440f6616176874dc6a86cc4c
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/13/2020
-ms.locfileid: "3555272"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712529"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-19-2020"></a>Novedades y cambios en Dynamics 365 Human Resources (19 de marzo de 2020)
 
@@ -45,7 +45,7 @@ Ahora puede combinar entradas duplicadas de la libreta de direcciones selecciona
 
 ## <a name="unable-to-adjust-leave-balance-for-a-plan-with-no-accruals-that-was-created-with-the-multiple-leave-type-feature-on-419635"></a>No se puede ajustar el saldo de vacaciones para un plan sin acumulación que se creó con la función Tipo de licencia múltiple activada (419635)
 
-Ahora puede ajustar los saldos para los planes de vacaciones que se crearon con la función de vista previa **Tipo de licencia múltiple** habilitada en la gestión de funciones.
+Ahora puede ajustar los saldos para los planes de vacaciones que se crearon con la característica de vista previa **Tipo de licencia múltiple** habilitada en la gestión de funciones.
 
 ## <a name="primary-position-field-in-the-workerpositionassignmententity-when-an-employee-is-terminated-420774"></a>Campo de posición principal en WorkerPositionAssignmentEntity cuando un empleado es despedido (420774)
 
@@ -100,9 +100,9 @@ Si la vista previa del documento para documentos almacenados en SharePoint no fu
 
 ### <a name="platform-update-33"></a>Platform update 33
 
-- Aplicaciones de página completa (Vista previa): esta función de vista previa, que requiere que habilite la función Vistas guardadas, permite a Power Apps y aplicaciones de terceros agregarse como experiencias de página completa a través del panel de control.
+- Aplicaciones de página completa (Vista previa): esta característica de vista previa, que requiere que habilite la función Vistas guardadas, permite a Power Apps y aplicaciones de terceros agregarse como experiencias de página completa a través del panel de control.
 
-- Vistas guardadas (vista previa): esta función de vista previa permite vistas guardadas, lo cual proporciona una mejora significativa para el subsistema de personalización. Esta característica permite a los usuarios tener múltiples conjuntos de personalizaciones con nombre por página. También puede publicar vistas en roles de seguridad.
+- Vistas guardadas (vista previa): esta característica de vista previa permite vistas guardadas, lo cual proporciona una mejora significativa para el subsistema de personalización. Esta característica permite a los usuarios tener múltiples conjuntos de personalizaciones con nombre por página. También puede publicar vistas en roles de seguridad.
 
 - Optimizado "es una de" experiencia de filtrado: esta característica permite una experiencia de filtrado optimizada "es uno de" que facilita la entrada de múltiples valores de filtro, tiene un mecanismo más simple para eliminar valores de filtro individuales o todos, y tiene un diseño más compacto e intuitivo visualización de valores de filtro.
 

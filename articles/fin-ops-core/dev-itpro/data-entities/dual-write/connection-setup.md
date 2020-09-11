@@ -3,7 +3,7 @@ title: Escenarios admitidos para la configuración de doble escritura
 description: Este tema describe los escenarios que son compatibles con la configuración de doble escritura.
 author: RamaKrishnamoorthy
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 08/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: d7ff514768ee8e4797b591da89e190a855385885
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 275d24d8f32fd1d2d15356d14c5c6591e8503c65
+ms.sourcegitcommit: ec4df354602c20f48f8581bfe5be0c04c66d2927
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172863"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3706261"
 ---
 # <a name="supported-scenarios-for-dual-write-setup"></a>Escenarios admitidos para la configuración de doble escritura
 
@@ -34,8 +34,11 @@ ms.locfileid: "3172863"
 
 Puede configurar una conexión de doble escritura entre entorno de Finance and Operations y uno de Common Data Service.
 
-+ Un **entorno de Finance and Operations** proporciona la plataforma subyacente para las **aplicaciones de Finance and Operations** (por ejemplo, Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Retail y Dynamics 365 Human Resources).
++ Un **entorno de Finance and Operations** proporciona la plataforma subyacente para las **aplicaciones de Finance and Operations** (por ejemplo, Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management y Dynamics 365 Retail).
 + Un **entorno Common Data Service** proporciona la plataforma subyacente para **aplicaciones basadas en modelos en Dynamics 365** (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing y Dynamics 365 Project Service Automation).
+
+>[!IMPORTANT]
+>Human Resources en Finance and Operations admite conexiones de escritura dual, pero la aplicación Dynamics 365 Human Resources no lo hace.
 
 El mecanismo de configuración varía, dependiendo de su suscripción y el entorno.
 

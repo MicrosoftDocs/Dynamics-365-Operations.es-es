@@ -1,6 +1,6 @@
 ---
-title: Información general
-description: En Dynamics 365 Human Resources el espacio de trabajo Permisos y ausencias proporciona un marco flexible para crear nuevos planes de baja, flujos de trabajo para administrar solicitudes y una página intuitiva de autoservicio para que los empleados soliciten tiempo libre.
+title: Visión general de bajas y ausencias
+description: En Dynamics 365 Human Resources, el espacio de trabajo de permisos y ausencias proporciona un marco flexible para crear nuevos planes de permisos y ausencias. También proporciona flujos de trabajo para gestionar solicitudes y una página de autoservicio intuitiva para que los empleados soliciten permisos.
 author: andreabichsel
 manager: AnnBe
 ms.date: 06/01/2020
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ec72d2d741f7f8428a7daa97bb982e9fc00b8c3f
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: ea58c3a08e74eea1ab51aa19a5a28445a9bcbb04
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428976"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712409"
 ---
-# <a name="overview"></a>Información general
+# <a name="leave-and-absence-overview"></a>Visión general de bajas y ausencias
 
-Dynamics 365 Human Resources le ayuda a proporcionar excelentes prestaciones de baja a sus trabajadores. El espacio de trabajo **Permisos y ausencias** proporciona un marco flexible para crear nuevos planes de baja, flujos de trabajo para administrar solicitudes y una página intuitiva de autoservicio para que los empleados soliciten tiempo libre. Los análisis ayudan a su organización a medir y supervisar los saldos de bajas y el uso de sus planes de bajas.
+Dynamics 365 Human Resources le ayuda a proporcionar excelentes prestaciones de baja a sus trabajadores. El espacio de trabajo **Permisos y ausencias** proporciona un marco flexible para crear nuevos planes de permisos y ausencias. También proporciona flujos de trabajo para gestionar solicitudes y una página de autoservicio intuitiva para que los empleados soliciten permisos. Los análisis ayudan a su organización a medir y supervisar los saldos de bajas y el uso de sus planes de bajas.
 
 ## <a name="set-up-leave-and-absence"></a>Configurar permisos y ausencias
 
@@ -51,42 +51,6 @@ Antes de crear planes de bajas para sus trabajadores, debe crear tipos de permis
 
 Sus empleados pueden enviar solicitudes de tiempo libre y usted puede administrarlas en el espacio de trabajo **Autoservicio para empleados**.
 
-- [Solicitar permiso](hr-employee-self-service-request-time-off.md)
-- [Administrar solicitudes de permisos y ausencias](hr-employee-self-service-manage-requests.md)
-
-## <a name="leave-and-absence-known-issues"></a>Ausencia y problemas conocidos de ausencia
-
-### <a name="rounding-precision"></a>Precisión del redondeo
-
-No puede configurar **Precisión de redondeo** cuando establece **Tipo de redondeo**. Solo puede configurar **Precisión de redondeo** mediante el uso de la entidad **Tipo de permiso y ausencia**. 
-
-1. En **Tipos de permiso y ausencia**, seleccione **Abrir en Excel** para abrir la entidad **Tipo de permiso y ausencia**.
-
-2. Después de que el archivo se abra y esté habilitado, seleccione **Diseñar**.
-
-3. En la tabla **Tipo de permiso y ausencia**, seleccione la opción de lápiz para editar.
-
-4. Seleccione **RoundingPrecision** y **RoundingType** y luego seleccione **Agregar** para agregar a la lista de campos.
-
-5. Seleccione **Actualizar** y, a continuación, seleccione **Hecho**.
-
-6. Introduzca o seleccione el **Tipo de redondeo** para cada tipo de permiso si aún no se han configurado. 
-
-7. Introducir la **Precisión de redondeo** para los tipos apropiados.
-
-8. Seleccione **Publicar** para llevar los cambios a Human Resources.
-
-## <a name="leave-and-absence-preview-features"></a>Características de vista previa para permisos y ausencias
-
-Puede probar nuevas características de vista previa de Permisos y ausencias en un entorno de **espacio aislado**. Para obtener información acerca cómo activar las características de vista previa, consulte [Administrar características](hr-admin-manage-features.md). 
-
-[!include [banner](includes/preview-feature.md)]
-
-Entre las características de vista previa se incluyen:
-
-- **Acumulación de bajas por empresa o plan**: puede ejecutar el proceso de acumulación para todas las empresas o para una sola empresa. También puede ejecutar el proceso de acumulación para un plan específico de baja de una empresa específica. 
-
-- **Comprar baja**: puede habilitar y crear directivas de compra de bajas para que los empleados envíen solicitudes de compra. Los empleados pueden enviar solicitudes de compra y tener saldos actualizados automáticamente para reflejar la solicitud.  
-
-- **Agregar archivos adjuntos a las solicitudes de baja aprobadas**: puede agregar un archivo adjunto a una solicitud de baja que ya se ha aprobado. 
+[Solicitar permiso](hr-employee-self-service-request-time-off.md)
+[Administrar solicitudes de bajas y ausencias](hr-employee-self-service-manage-requests.md)
 

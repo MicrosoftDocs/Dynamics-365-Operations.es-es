@@ -3,7 +3,7 @@ title: Habilitar recomendaciones de productos personalizadas
 description: Este tema describe cómo realizar recomendaciones de productos personalizadas disponibles para clientes en Microsoft Dynamics 365 Commerce.
 author: bebeale
 manager: AnnBe
-ms.date: 05/26/2020
+ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4103096f23e5568cc2bf64f21720c7c16d3e0cd1
-ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
+ms.openlocfilehash: 8a61ef0720839d371701f2f0a1fdec7e85a5feb7
+ms.sourcegitcommit: d3b970c3b93d8be12886b1c5a6bf91f0b33726dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3664867"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3700875"
 ---
 # <a name="enable-personalized-recommendations"></a>Habilitar recomendaciones personalizadas
 
@@ -49,11 +49,13 @@ Para obtener más información acerca de las listas de recomendaciones de produc
 
 Para activar la personalización, siga estos pasos.
 
-1. Vaya a **Retail y Commerce \> Recomendaciones de producto \> Parámetros de recomendaciones**.
-1. En la lista de parámetros compartidos de Retail, seleccione **Listas de recomendaciones**.
-1. Establezca la opción **Habilitar personalización** en **Sí**.
+1. En la central de Commerce, busque **Gestión de funciones**.
+1. Seleccione **Todas** para ver una lista de funciones disponibles. 
+1. En el cuadro de búsqueda, introduzca **Recomendaciones**.
+1. Seleccione la característica **Recomendaciones de productos personalizados**.
+1. En el panel de propiedades **Recomendaciones de productos personalizados**, seleccione **Habilitar ahora**.
 
-![Activación de la personalización](./media/enablepersonalization.png)
+![Activación de la personalización](./media/FeatureManagement_Personalized.PNG)
 
 > [!NOTE]
 > Cuando activa la personalización, se inicia el proceso de generar listas de recomendaciones de productos personalizadas. Es posible que se requiera hasta un día antes de que estas listas estén disponibles y visibles en línea y en el PDV.

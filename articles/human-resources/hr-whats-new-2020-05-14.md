@@ -1,6 +1,6 @@
 ---
 title: Novedades y cambios en Dynamics 365 Human Resources (14 de mayo de 2020)
-description: Este tema describe las funciones que son nuevas o que se han cambiado en Microsoft Dynamics 365 Human Resources.
+description: Este tema describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Human Resources para el 14 de mayo de 2020.
 author: Darinkramer
 manager: AnnBe
 ms.date: 05/14/2020
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3ce1aca9cebc5b330f054a11e38b5dfc4fc9109d
-ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
+ms.openlocfilehash: d68647508c70a20b7ecba3358c7e3ebccd8d71ef
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/13/2020
-ms.locfileid: "3555180"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712047"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>Novedades y cambios en Dynamics 365 Human Resources (14 de mayo de 2020)
 
-Este tema describe las funciones que son nuevas o que se han cambiado en Dynamics 365 Human Resources. Los cambios se aplican al número de compilación 8.1.3244. Los números entre paréntesis en algunos encabezados hacen referencia a los números de soporte para referencia de Lifecycle Services (LCS).
+Este tema describe las características que son nuevas o que se han cambiado en Dynamics 365 Human Resources. Los cambios se aplican al número de compilación 8.1.3244. Los números entre paréntesis en algunos encabezados hacen referencia a los números de soporte para referencia de Lifecycle Services (LCS).
 
 ## <a name="platform-changes"></a>Cambios de plataforma
 
@@ -65,7 +65,7 @@ La entidad de datos **Persona de contacto personal del trabajador** (**HcmPerson
 
 Este cambio restringe los códigos de motivo a solo códigos de Baja y ausencia cuando habilita la entrada optimizada de empleados.
 
-## <a name="the-preview-feature-assign-a-leave-plan-to-employees-in-the-future-displays-error-433555"></a>La función de vista previa Asignar un plan de bajas a los empleados en el futuro muestra el error (433555)
+## <a name="the-preview-feature-assign-a-leave-plan-to-employees-in-the-future-displays-error-433555"></a>La característica de vista previa Asignar un plan de bajas a los empleados en el futuro muestra el error (433555)
 
 Este cambio corrige un error cuando un plan de bajas tiene dos tipos de bajas asignados e intenta asignar un empleado.
 

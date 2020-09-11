@@ -3,7 +3,7 @@ title: Operación de inventario entrante en PDV
 description: Este tema describe las capacidades de la operación de inventario de entrada del punto de venta (PDV).
 author: hhaines
 manager: annbe
-ms.date: 07/27/2020
+ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: aba4f2d7932ebc3a0129f04c60c8b6358da68c64
-ms.sourcegitcommit: 0aabe4157f82d8c59dd2d285ab0b33f3c8ec5bbc
+ms.openlocfilehash: 16a786a4b3ca1bcbd202f6753bdf3bf7233a4333
+ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "3627547"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3710318"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Operación de inventario entrante en PDV
 
@@ -126,7 +126,7 @@ Alternativamente, en un escenario donde la cantidad del artículo es grande, el 
 
 Aunque la vista **Recibiendo ahora** está optimizada para el escaneo de códigos de barras, los usuarios también pueden seleccionar **Recibir producto** en la barra de la aplicación y luego introducir la ID del elemento o los datos del código de barras a través de un cuadro de diálogo. Después de validar el artículo que se introdujo, se le solicita al usuario que añada la cantidad del recibo.
 
-La vista **Recibiendo ahora** proporciona una forma centrada para que los usuarios vean qué productos están recibiendo. Alternativamente puede usar la vista **Lista completa de pedidos**. Esta vista muestra la lista completa de líneas de documentos para el documento de pedido de compra o transferencia seleccionado. Los usuarios pueden seleccionar líneas manualmente en la lista y luego, en el panel **Detalles**, actualizar el campo **Cantidad de recepción** para la línea seleccionada. En la vista **Lista completa de pedidos**, los usuarios pueden escanear códigos de barras o pueden usar la función **Recibir producto** para ingresar la ID del artículo o el código de barras y los datos sobre la cantidad recibida, sin tener que seleccionar primero la línea del artículo correspondiente en la lista.
+La vista **Recibiendo ahora** proporciona una forma centrada para que los usuarios vean qué productos están recibiendo. Alternativamente puede usar la vista **Lista completa de pedidos**. Esta vista muestra la lista completa de líneas de documentos para el documento de pedido de compra o transferencia seleccionado. Los usuarios pueden seleccionar líneas manualmente en la lista y luego, en el panel **Detalles**, actualizar el campo **Cantidad de recepción** para la línea seleccionada. En la vista **Lista completa de pedidos**, los usuarios pueden escanear códigos de barras o pueden usar la función **Recibir producto** para introducir la ID del artículo o el código de barras y los datos sobre la cantidad recibida, sin tener que seleccionar primero la línea del artículo correspondiente en la lista.
 
 ### <a name="over-receiving-validations"></a>Sobre-recepción de validaciones
 
@@ -143,6 +143,20 @@ La operación respeta la configuración **Recibo en blanco permitido** en la dim
 ### <a name="receive-all"></a>Recibir todo
 
 Según lo requiera, puede seleccionar **Recibir todo** en la barra de la aplicación para actualizar rápidamente la cantidad **Recibiendo ahora** para todas las líneas del documento hasta el valor máximo que está disponible para recibir con esas líneas.
+
+### <a name="receipt-of-unplanned-items-on-purchase-orders"></a>Recepción de artículos no planificados en pedidos de compra
+
+En Commerce, versión 10.0.14 y posteriores, los usuarios pueden recibir un producto que no estaba originalmente en el pedido de compra. Para habilitar esta funcionalidad, active **Agregar líneas al pedido de compra durante la recepción del punto de venta**.  
+
+Esta función solo funciona para recibir pedidos de compra. No es posible recibir artículos contra pedidos de transferencia cuando los artículos no fueron pedidos y enviados previamente desde el almacén de salida.
+
+Los usuarios no pueden agregar nuevos productos al pedido de compra durante la recepción de PDV si el pedido de compra [flujo de trabajo de gestión de cambios](https://docs.microsoft.com/dynamics365/supply-chain/procurement/purchase-order-approval-confirmation) está habilitado en la sede de Commerce (HQ). Para habilitar la gestión de cambios, todos los cambios de un pedido de compra deben aprobarse antes de permitir la recepción. Debido a que este proceso permite que un receptor agregue nuevas líneas al pedido de compra, la recepción fallará si el flujo de trabajo de administración de cambios está habilitado. Si la gestión de cambios está habilitada para todos los pedidos de compra o para el proveedor vinculado a la orden de compra que se recibe activamente en PDV, el usuario no puede agregar nuevos productos al pedido de compra durante la recepción en PDV.
+
+La funcionalidad que permite agregar líneas no se puede utilizar como una solución para recibir cantidades adicionales de productos que ya están en el pedido de compra. La sobrerecepción se gestiona mediante la configuración estándar de [sobrerecepción](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation#over-receiving-validations) para la línea de producto en el pedido de compra.
+
+Si **Agregar líneas al pedido de compra durante la recepción del punto de venta** está habilitado y un usuario está recibiendo con la **Operación entrante** en el PDV, si el usuario escanea o teclea un código de barras de producto o un número de producto que no se reconoce como un artículo en el pedido de compra actual, pero se reconoce como un artículo válido, el usuario recibe un mensaje sobre cómo agregar el artículo al pedido de compra. Si el usuario agrega el artículo al pedido de compra, la cantidad introducida en **Recibiendo ahora** se considera la cantidad solicitada para la línea del pedido de compra.
+
+Cuando el recibo del pedido de compra está completo y se envía a la sede para su procesamiento, las líneas agregadas se crean en el documento maestro del pedido de compra. En la línea del pedido de compra en la sede, habrá un indicador **Agregado mediante PDV** en la pestaña **General** del pedido de la orden de compra. El indicador **Agregado mediante PDV** indica que la línea del pedido de compra se agregó mediante el proceso de recepción de PDV y no era una línea que estaba en el pedido de compra antes de recibirlo.
 
 ### <a name="cancel-receiving"></a>Cancelar recepción
 
@@ -172,7 +186,7 @@ Seleccione el parámetro **Habilitar validación automática** en **Sí** en **P
 
 Cuando haya terminado de introducir todas las cantidades de **Recibiendo ahora** para productos, debe seleccionar **Terminar recepción** en la barra de aplicaciones para procesar el recibo.
 
-Cuando los usuarios completan un recibo de pedido de compra, se les solicita que ingresen un valor en el campo **Número de recibo**, si esta funcionalidad está configurada. Normalmente, este valor es equivalente al identificador del albarán del proveedor. Los datos del **Número de recibo** se almacenarán en el diario de recepción de productos en Commerce Headquarters. Los números de recibo no se capturan para los recibos de órdenes de transferencia.
+Cuando los usuarios completan un recibo de pedido de compra, se les solicita que introduzcan un valor en el campo **Número de recibo**, si esta funcionalidad está configurada. Normalmente, este valor es equivalente al identificador del albarán del proveedor. Los datos del **Número de recibo** se almacenarán en el diario de recepción de productos en Commerce Headquarters. Los números de recibo no se capturan para los recibos de órdenes de transferencia.
 
 Cuando se utiliza el procesamiento de documentos asíncrono, el recibo se envía a través de un marco de documentos asíncrono. El tiempo que lleva publicar el documento depende del tamaño del documento (el número de líneas) y el tráfico de procesamiento general que se produce en el servidor. Por lo general, este proceso ocurre en cuestión de segundos. Si la publicación de documentos falla, se notifica al usuario a través de la lista del documento **Operación de entrada**, donde el estado del documento se actualizará a **Procesamiento fallido**. El usuario puede seleccionar el documento fallido en PDV para ver los mensajes de error y la razón de la falla en el panel **Detalles**. Un documento fallido permanece sin publicar y requiere que el usuario regrese a las líneas del documento seleccionando **Detalles del pedido** en PDV. El usuario debe actualizar el documento con correcciones, en función de los errores. Después de corregir un documento, el usuario puede intentar procesarlo de nuevo seleccionando **Terminar cumplimiento** en la barra de aplicaciones.
 
@@ -188,7 +202,7 @@ Tras introducir las líneas en la orden de transferencia de entrada, debe selecc
 
 Si un documento se guarda localmente, se puede encontrar en la pestaña **Borradores** de la lista de documentos **Operación entrante**. Mientras un documento está en el estado **Borrador**, puede editarlo seleccionando **Editar**. Puede actualizar, agregar o eliminar líneas según lo requiera. También puede eliminar todo el documento mientras está en el estado **Borrador** estado, seleccionando **Eliminar** en la pestaña **Borradores**.
 
-Después de que el borrador del documento se envíe con éxito a la sede de Commerce, aparecerá en la pestaña **Activo** y tiene un estado de **Solicitado**. En este punto, los usuarios en la tienda o almacén entrante ya no pueden editar el documento de pedido de transferencia entrante solicitado. Solo los usuarios del almacén de salida pueden editar el documento seleccionando **Operación de salida** en la aplicación PDV. El bloqueo de edición asegura que no ocurran conflictos porque un solicitante entrante cambia la orden de transferencia al mismo tiempo que el remitente saliente está recogiendo y enviando la orden de forma activa. Si se requieren cambios en la tienda o almacén de entrada después de que se haya enviado la orden de transferencia, se debe contactar al remitente de salida y solicitarle que ingrese los cambios.
+Después de que el borrador del documento se envíe con éxito a la sede de Commerce, aparecerá en la pestaña **Activo** y tiene un estado de **Solicitado**. En este punto, los usuarios en la tienda o almacén entrante ya no pueden editar el documento de pedido de transferencia entrante solicitado. Solo los usuarios del almacén de salida pueden editar el documento seleccionando **Operación de salida** en la aplicación PDV. El bloqueo de edición asegura que no ocurran conflictos porque un solicitante entrante cambia la orden de transferencia al mismo tiempo que el remitente saliente está recogiendo y enviando la orden de forma activa. Si se requieren cambios en la tienda o almacén de entrada después de que se haya enviado la orden de transferencia, se debe contactar al remitente de salida y solicitarle que introduzca los cambios.
 
 Después de que el documento esté en el estado **Pedido**, es visible en la pestaña **Activo**. Sin embargo, aún no puede ser recibido por la tienda entrante o el almacén. Después de que el almacén de salida ha enviado parte o la totalidad de la orden de transferencia, la tienda o almacén de entrada puede registrar recibos en PDV. Cuando la parte de salida procesa los documentos de orden de transferencia, su estado se actualiza de **Solicitado** a **Enviado** o **Parcialmente enviado**. Después de que los documentos estén en el estado **Enviado** o **Parcialmente Enviado**, la tienda entrante o el almacén pueden contabilizar recibos contra ellos mediante el proceso de recepción de operaciones entrantes.
 

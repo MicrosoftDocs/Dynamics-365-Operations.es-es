@@ -3,7 +3,7 @@ title: Lista de funciones ER en la categoría lógica.
 description: Este tema proporciona información sobre las funciones lógicas que son compatibles con los informes electrónicos (ER).
 author: NickSelin
 manager: kfend
-ms.date: 12/17/2019
+ms.date: 08/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 408b3c5ec37b24e0ccf6e368012a936701eedf0f
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: e622778c60646e5cc84cd6e23a5d4954a0fe0bb3
+ms.sourcegitcommit: 38ad6f791c3d5688a5dc201a234ba89f155f7f03
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916646"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3705104"
 ---
 # <a name="list-of-er-functions-in-the-logical-category"></a>Lista de funciones ER en la categoría lógica.
 
@@ -41,6 +41,8 @@ Las funciones lógicas de informes electrónicos (ER) se pueden utilizar para tr
 | [No](er-functions-logical-not.md)                       | Esta función devuelve el valor lógico invertido de la condición especificada como un valor *Booleano*. |
 | [Or](er-functions-logical-or.md)                         | Esta función devuelve un valor *Booleano* de **FALSE** si todas las condiciones especificadas son falsas. Si cualquier condición especificada es cierta, esta función devuelve un valor *Booleano* de **TRUE**. |
 | [ValueIn](er-functions-logical-valuein.md)               | Esta función determina si la entrada especificada coincide con algún valor de un elemento específico de la lista especificada. Devuelve un *Booleano* valor de **TRUE** si la entrada especificada coincide con el resultado de ejecutar la expresión especificada para al menos un registro de la lista especificada. De lo contrario, la expresión devuelve un valor *Booleano* de **FALSE**. |
+| [ValueInLarge](er-functions-logical-valueinlarge.md)     | Esta función determina si la entrada especificada del tipo *Int64* o *Entero* coincide con algún valor de un elemento específico de la lista especificada. Devuelve un *Booleano* valor de **TRUE** si la entrada especificada coincide con el resultado de ejecutar la expresión especificada para al menos un registro de la lista especificada. De lo contrario, la expresión devuelve un valor *Booleano* de **FALSE**. |
+
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

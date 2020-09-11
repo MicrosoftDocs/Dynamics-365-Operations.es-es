@@ -1,6 +1,6 @@
 ---
 title: Novedades y cambios en Dynamics 365 Human Resources (18 de febrero de 2020)
-description: Este artículo describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Human Resources.
+description: Este artículo describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Human Resources para el 18 de febrero de 2020.
 author: Darinkramer
 manager: AnnBe
 ms.date: 02/18/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 60b46f5bd8f5eeae8aedc9bf81f1e7892caa0c93
-ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
+ms.openlocfilehash: 5e9e1f05de682b4fe29ec23f06099b2968ebe3df
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/13/2020
-ms.locfileid: "3555348"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3711997"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-18-2020"></a>Novedades y cambios en Dynamics 365 Human Resources (18 de febrero de 2020)
 
@@ -37,9 +37,9 @@ La Platform update 32 ya está disponible. Para obtener más información, consu
 
 El nuevo formulario **Trabajador** ahora recuerda los valores de búsqueda cuando cambia las opciones de vista y aplica los cambios.
 
-## <a name="compensation-management-summary-tiles-in-preview-feature-redirect-to-wrong-form-401861"></a>Los mosaicos de resumen de administración de compensación en la función de vista previa redirigen a un formulario incorrecto (401861)
+## <a name="compensation-management-summary-tiles-in-preview-feature-redirect-to-wrong-form-401861"></a>Los mosaicos de resumen de administración de compensación en la característica de vista previa redirigen a un formulario incorrecto (401861)
 
-Los mosaicos de administración de compensación fija y variable ahora muestran los registros correctos en el nuevo formulario **Trabajador**. Se aplica solo a la función optimizada de vista previa del formulario de empleado. Puede habilitar esta función de vista previa en **Gestión de funciones**. Para obtener más información, vea [Administrar funciones](hr-admin-manage-features.md).
+Los mosaicos de administración de compensación fija y variable ahora muestran los registros correctos en el nuevo formulario **Trabajador**. Se aplica solo a la función optimizada de vista previa del formulario de empleado. Puede habilitar esta característica de vista previa en **Gestión de funciones**. Para obtener más información, vea [Administrar funciones](hr-admin-manage-features.md).
 
 ## <a name="empty-status-field-for-some-leave-request-records-in-common-data-service-414915"></a>Campo de estado vacío para algunos registros de solicitud de licencia en Common Data Service (414915)
 
@@ -74,7 +74,7 @@ Una nueva solución Common Data Service estará disponible pronto con los siguie
 | Nuevas entidades de configuración de compensación variable | **Tipo de plan de compensación variable**</br>**Plan de compensación variable**</br>**Reglas de atribución**</br>**Nivel de plan de compensación variable** |
 | Nueva entidad **Empleo de calendario de trabajador** | Se ha agregado la entidad **Calendario de trabajo** |
 | Nueva entidad **Detalle de puesto de nómina** | **Detalle de puesto de nómina** agregado |
-| Nueva entidad **Cargo** | **Cargo** agregado. La nueva entidad **Título** se incluirá en el proceso de sincronización entre Recursos Humanos y Common Data Service. No será referenciado inicialmente desde las entidades **Puesto de trabajo**o **Trabajo**. |
+| Nueva entidad **Cargo** | **Cargo** agregado. La nueva entidad **Título** se incluirá en el proceso de sincronización entre Recursos Humanos y Common Data Service. No será referenciado inicialmente desde las entidades **Puesto de trabajo** o **Trabajo**. |
 
 ## <a name="see-also"></a>Consulte también
 

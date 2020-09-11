@@ -1,6 +1,6 @@
 ---
 title: Novedades y cambios en Dynamics 365 Human Resources (25 de febrero de 2020)
-description: Este artículo describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Human Resources.
+description: Este artículo describe las características que son nuevas o que se han cambiado en Microsoft Dynamics 365 Human Resources para el 25 de febrero de 2020.
 author: Darinkramer
 manager: AnnBe
 ms.date: 02/25/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-02-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e5bc232bef257e757086d37d56b0f68b80114749
-ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
+ms.openlocfilehash: d3ce007ad7e7acb4c8dca22388f72ca94110f08c
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/13/2020
-ms.locfileid: "3555084"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712553"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-25-2020"></a>Novedades y cambios en Dynamics 365 Human Resources (25 de febrero de 2020)
 
@@ -31,7 +31,7 @@ Este artículo describe las características que son nuevas o que se han cambiad
 
 ## <a name="enable-case-management-navigation-and-data-management-framework-dmf-entity-414754"></a>Habilitar la navegación de Administración de caso y el marco de administración de datos (DMF) de la entidad (414754)
 
-Esta función de vista previa permite una navegación adicional a casos de administración de casos. Puede habilitar esta función de vista previa en el espacio de trabajo **Gestión de funciones**. Estos elementos de menú aparecen en el espacio de trabajo **Conformidad** de Dynamics 365 Human Resources. Con este cambio, Human Resources puede acceder a:
+Esta característica de vista previa permite una navegación adicional a casos de administración de casos. Puede habilitar esta característica de vista previa en el espacio de trabajo **Gestión de funciones**. Estos elementos de menú aparecen en el espacio de trabajo **Conformidad** de Dynamics 365 Human Resources. Con este cambio, Human Resources puede acceder a:
 
 - Todos los casos
 - Mis casos
@@ -72,7 +72,7 @@ Una nueva solución Common Data Service estará disponible pronto con los siguie
 | Nuevas entidades de configuración de compensación variable | **Tipo de plan de compensación variable**</br>**Plan de compensación variable**</br>**Reglas de atribución**</br>**Nivel de plan de compensación variable** |
 | Nueva entidad **Empleo de calendario de trabajador** | Se ha agregado la entidad **Calendario de trabajo** |
 | Nueva entidad **Detalle de puesto de nómina** | **Detalle de puesto de nómina** agregado |
-| Nueva entidad **Cargo** | **Cargo** agregado. La nueva entidad **Título** se incluirá en el proceso de sincronización entre Recursos Humanos y Common Data Service. No será referenciado inicialmente desde las entidades **Puesto de trabajo**o **Trabajo**. |
+| Nueva entidad **Cargo** | **Cargo** agregado. La nueva entidad **Título** se incluirá en el proceso de sincronización entre Recursos Humanos y Common Data Service. No será referenciado inicialmente desde las entidades **Puesto de trabajo** o **Trabajo**. |
 
 Durante las próximas semanas, estos cambios de entidad estarán disponibles en todos los entornos. Para instalar manualmente la última solución de Common Data Service para Human Resources:
 
