@@ -3,7 +3,7 @@ title: Goteo en la creación de pedidos basados en fuente para transacciones de 
 description: En este tema se describe el goteo de la creación de pedidos basados en fuente para las transacciones de tienda en Microsoft Dynamics 365 Commerce.
 author: josaw1
 manager: AnnBe
-ms.date: 06/08/2020
+ms.date: 09/04/2020
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6e097ead7cacb3f71452323656546a4be661457f
-ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
+ms.openlocfilehash: 79f99b9b401de3e3bcca6ec5a13a3b4f7bad6f8c
+ms.sourcegitcommit: 5b620f670ac0f403a0fdcdeb9c3f970b163191ee
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3710292"
+ms.lasthandoff: 09/04/2020
+ms.locfileid: "3766745"
 ---
 # <a name="trickle-feed-based-order-creation-for-retail-store-transactions"></a>Goteo en la creación de pedidos basados en fuente para transacciones de tienda
 
@@ -36,22 +36,20 @@ Con el goteo de la creación de pedidos basados en fuente introducido en Retail 
 
 ## <a name="how-to-use-trickle-feed-based-posting"></a>Cómo utilizar el goteo del registro basado en fuente
   
-1. Para habilitar el goteo del registro basado en fuente de las transacciones, vaya a **Administración del sistema > Configuración > Configuración de licencias** y deshabilita la clave **Extractos**.
+1. Para habilitar el goteo del registro basado en fuente de transacciones comerciales, habilite la característica denominada **Extractos comerciales - Fuente de goteo** utilizando la administración de características.
 
-2. En la misma página, habilite la clave de licencia **Extractos (fuente de goteo): versión preliminar**. Al habilitar esta clave, asegúrese de que no haya extractos pendientes en espera de registrarse. 
+    > [!IMPORTANT]
+    > Antes de habilitar la característica, asegúrese de que ningún extracto pendiente esté en espera de registrarse.
 
-    > [!Important]
-    > Antes de habilitar la clave de licencia **Extractos (fuente de goteo): versión preliminar**, asegúrese de que ninguno de los extractos pendientes está en espera de ser registrados.
-
-3. El documento de extracto actual se dividirá en dos tipos diferentes: extracto transaccional e informe financiero.
+2. El documento de extracto actual se dividirá en dos tipos: extracto transaccional e informe financiero.
 
       - El extracto transaccional recogerá todas las transacciones sin registrar y validadas, y creará pedidos de ventas, facturas de ventas, diarios de pagos y descuentos, así como transacciones de ingresos y gastos en la cadencia configurada. Debe configurar este proceso para su ejecución en una frecuencia alta de manera que se creen documentos cuando se carguen las transacciones en Headquarters mediante el trabajo P. Con el extracto transaccional que ya crea pedidos de ventas y facturas de ventas, no es necesario realmente configurar el trabajo por lotes **Registrar inventario**. No obstante, puede seguir usándolo para cumplir los requisitos empresariales específicos que pueda tener.  
       
      - El informe financiero se ha diseñado para crearse al final del día y solo admite el método de cierre de **Turno**. Este informe se limitará a la conciliación financiera y solo creará los diarios para los importes de diferencia entre el importe contado y el importe de la transacción para las diferentes formas de pago, junto con los diarios para otras transacciones de administración de flujos de efectivo.   
 
-4. Para calcular el extracto transaccional, haga clic en **Retail y Commerce > TI de Retail y Commerce > Registro de PDV > Calcular extractos transaccionales por lotes**. Para registrar los extractos transaccionales por lotes, haga clic en **Retail y Commerce > TI de Retail y Commerce > Registro de PDV > Registrar extractos transaccionales por lotes**.
+3. Para calcular el extracto transaccional, vaya a **Retail y Commerce > TI de Retail y Commerce > Registro de PDV > Calcular extractos transaccionales por lotes**. Para registrar los extractos transaccionales por lotes, vaya a **Retail y Commerce > TI de Retail y Commerce > Registro de PDV > Registrar extractos transaccionales por lotes**.
 
-5. Para calcular el extracto financiero, haga clic en **Retail y Commerce > TI de Retail y Commerce > Registro de PDV > Calcular extractos financieros por lotes**. Para registrar los extracto financieros por lotes, haga clic en **Retail y Commerce > TI de Retail y Commerce > Registro de PDV > Registrar extractos financieros por lotes**.
+4. Para calcular el informe financiero, vaya a **Retail y Commerce > TI de Retail y Commerce > Registro de PDV > Calcular informes financieros por lotes**. Para registrar los informes financieros por lotes, vaya a **Retail y Commerce > TI de Retail y Commerce > Registro de PDV > Registrar informes financieros por lotes**.
 
 > [!NOTE]
 > Los elementos de menú **Retail y Commerce > TI de Retail y Commerce > Registro de PDV > Calcular extractos por lotes** y **Retail y Commerce > TI de Retail y Commerce > Registro de PDV > Registrar extractos por lotes** se eliminan con esta nueva característica.

@@ -70,6 +70,8 @@
                   items:
                     - name: Novedades y cambios en la página principal de Finance
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.14 (noviembre de 2020)
+                      href: get-started/whats-new-changed-10-0-14.md
                     - name: Finance 10.0.13 (octubre de 2020)
                       href: get-started/whats-new-changed-10-0-13.md
                     - name: Finance 10.0.12 (agosto de 2020)
@@ -412,6 +414,8 @@
                   href: accounts-receivable/set-up-collections.md
                 - name: Revisar información de cobros
                   href: accounts-receivable/tasks/review-collections-information.md
+                - name: Automatización del proceso de cobros
+                  href: accounts-receivable/collections-process-automate.md
                 - name: Configuración de la gestión de créditos
                   href: accounts-receivable/cm-credit-mgmt-setup.md
                 - name: Información de la configuración de la gestión de crédito
@@ -756,6 +760,8 @@
                   href: fixed-assets/175-percent-reducing-balance-depreciation.md
                 - name: Depreciación con amortización degresiva del 200%
                   href: fixed-assets/200-percent-reducing-balance-depreciation.md
+                - name: Metodología de la convención de depreciación semestral
+                  href: fixed-assets/half-year-depreciation-methodology.md
                 - name: Depreciación de bonificación
                   href: fixed-assets/bonus-depreciation.md
                 - name: Configuración de la depreciación de bonificación
@@ -1013,7 +1019,27 @@
             - name: Transferir un presupuesto a un proyecto
               href: project-management/transfer-quote-new-existing-project.md
             - name: Recursos del proyecto
-              href: project-management/project-resourcing.md
+              items:
+                - name: Visión general de recursos del proyecto
+                  href: project-management/project-resourcing.md
+                - name: Configurar recursos del proyecto
+                  href: project-management/set-up-project-resources.md
+                - name: Gestionar competencias de recurso
+                  href: project-management/manage-resource-competencies.md
+                - name: Crear un proyecto nuevo
+                  href: project-management/create-new-project.md
+                - name: Configurar precios basados en roles
+                  href: project-management/set-up-role-based-pricing.md
+                - name: Crear un equipo de proyecto
+                  href: project-management/create-project-team.md
+                - name: Sincronizar la capacidad de los recursos
+                  href: project-management/synchronize-resource-capacity.md
+                - name: Rendimiento de programación de recursos del proyecto
+                  href: project-management/project-scheduling-performance.md
+                - name: Configurar roles en plantillas de estructura de descomposición del trabajo
+                  href: project-management/set-up-roles-wbs-template.md
+                - name: Cumplimiento de recursos para recursos planificados
+                  href: project-management/resource-fulfillment-planned-resources.md
             - name: Recibir artículos de un pedido de compra a partir de un artículo requerido
               href: project-management/tasks/receive-items-purchase-order-item-requirement.md
             - name: Estructuras de descomposición del trabajo
@@ -1224,6 +1250,16 @@
                   href: localizations/emea-aut-packing-material-fee-calculation.md
                 - name: Declaración de IVA
                   href: localizations/emea-aut-vat-statement-details.md
+            - name: Baréin
+              items:
+                - name: Visión general de Baréin
+                  href: localizations/bahrain.md
+                - name: Configurar diseño de factura para Baréin
+                  href: localizations/emea-bhr-invoice-layout.md
+                - name: Declaración de IVA para Baréin
+                  href: localizations/emea-bhr-vat-declaration.md
+                - name: Fecha de límite de emisión de factura
+                  href: localizations/gcc-invoice-issue-deadline.md
             - name: Bélgica
               items:
                 - name: Visión general de Bélgica
@@ -1496,6 +1532,8 @@
                   href: localizations/emea-amount-printing-forms.md
                 - name: Declaración de IVA
                   href: localizations/emea-cze-vat-statement-details.md
+                - name: Declaración de IVA (República Checa)
+                  href: localizations/emea-cze-vat-declaration-tax-declaration-model.md
                 - name: Cierre de fin de año
                   href: localizations/emea-cze-hun-year-end.md
             - name: Dinamarca
@@ -1780,6 +1818,8 @@
                   href: localizations/emea-cze-hun-year-end.md
                 - name: Sistema de facturación en línea
                   href: localizations/emea-hun-online-invoicing.md
+                - name: Cálculos de impuestos diferidos
+                  href: localizations/emea-hun-deferred-vat.md
             - name: Islandia
               items:
                 - name: Visión general de Islandia
@@ -2238,6 +2278,10 @@
                   href: localizations/tasks/use-assemble-list-fixed-asset.md
                 - name: Usar lista de desensamblaje para activos fijos
                   href: localizations/tasks/use-disassemble-list-fixed-assets.md
+            - name: Kuwait
+              items:
+                - name: Visión general de Kuwait
+                  href: localizations/kuwait.md
             - name: Letonia
               items:
                 - name: Visión general de Letonia
@@ -2288,6 +2332,8 @@
                   href: localizations/tasks/my-00007-self-billed-invoices.md
                 - name: Configurar cláusulas de liberación de GST
                   href: localizations/tasks/my-00006-01-gst-relief-clauses.md
+                - name: Declaración SST-02 para Malasia
+                  href: localizations/apac-mys-sst-declaration.md
             - name: México
               items:
                 - name: Visión general de México
@@ -2328,6 +2374,10 @@
                   href: localizations/tasks/mx-00020-specify-rfc-registration-id-mexican-bank-accounts.md
                 - name: Id. de registro de proveedores
                   href: localizations/tasks/mx-00008-vendor-registration-ids.md
+            - name: Omán
+              items:
+                - name: Visión general de Omán
+                  href: localizations/oman.md
             - name: Países Bajos
               items:
                 - name: Visión general de Países Bajos
@@ -2386,6 +2436,10 @@
                   href: localizations/emea-pol-turnover-balances-statement.md
                 - name: Dividir diferencia de cambio de proveedores/clientes
                   href: localizations/emea-pol-split-ap-ar-exchange-difference.md
+            - name: Catar
+              items:
+                - name: Visión general de Catar
+                  href: localizations/qatar.md
             - name: Rusia
               items:
                 - name: Visión general de Rusia
@@ -2488,7 +2542,7 @@
                           href: localizations/rus-fixed-asset-leasing.md
                         - name: Mantener activos fijos
                           href: localizations/rus-maintain-fixed-assets.md
-                        - name: Contabilidad de activos fijos
+                        - name: Recuento de activos fijos
                           href: localizations/rus-fixed-assets-counting.md
                         - name: Revalorización de divisas de activos fijos
                           href: localizations/rus-fixed-asset-currency-revaluation.md
@@ -2724,7 +2778,9 @@
                   href: localizations/noam-usa-year-end-1099-reporting.md
                 - name: Formulario 1099 para el sector público
                   href: localizations/noam-usa-form-1099-public-sector.md
-        - name: Human resources
+                - name: Configurar proveedores para informes 1099
+                  href: localizations/noam-usa-set-up-vndrs-1099-rprtg.md
+        - name: Human Resources
           items:
             - name: Visión general de Human Resources
               href: ../fin-ops-core/fin-ops/hr/hr-landing-page.md
@@ -2970,6 +3026,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: Experiencias de informes predeterminadas en entornos IaaS
                   href: ../fin-ops-core/dev-itpro/analytics/reporting-experience-iias-environments.md?toc=/dynamics365/finance/toc.json
+                - name: Opciones de vista previa de informes de documentos
+                  href: ../fin-ops-core/dev-itpro/analytics/reporting-printing-preview-page-options.md
                 - name: Impresión
                   items:
                     - name: Visión general de la impresión de documentos
@@ -3426,7 +3484,7 @@
               items:
                 - name: Ajustar un formato de informes electrónicos para generar un documento electrónico personalizado
                   href: ../fin-ops-core/dev-itpro/analytics/er-quick-start2-customize-report.md?toc=/dynamics365/finance/toc.json
-                - name: Diseñar una nueva solución de ER para imprimir un informe personalizado
+                - name: Diseñar una nueva solución de informes electronicos para imprimir un informe personalizado
                   href: ../fin-ops-core/dev-itpro/analytics/er-quick-start1-new-solution.md?toc=/dynamics365/finance/toc.json
             - name: Tutoriales
               items:
@@ -3436,11 +3494,15 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: Usar XML sin formato para agregar contenido
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/finance/toc.json
-                    - name: Admitir llamadas parametrizadas de orígenes de datos de campo calculado
-                      href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/finance/toc.json
+                    - name: Admitir llamadas parametrizadas de orígenes de datos de CAMPO CALCULADO
+                      items:
+                        - name: Mejorar la experiencia del usuario y el mantenimiento de la usabilidad
+                          href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/finance/toc.json
+                        - name: Mejorar el rendimiento del acceso a los datos
+                          href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-ds-performance.md?toc=/dynamics365/finance/toc.json
                     - name: Orígenes de datos de informes electrónicos entre empresas
                       href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/finance/toc.json
-                    - name: Usar orígenes de datos de detalles de dimensiones financieras
+                    - name: Usar orígenes de datos de DETALLES DE DIMENSIONES FINANCIERAS
                       items:
                         - name: Diseñar modelos de datos
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/dynamics365/finance/toc.json
@@ -3490,7 +3552,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=dynamics365/finance/toc.json
                     - name: Configurar los parámetros de un formato de informes electrónicos por entidad jurídica
                       href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=dynamics365/finance/toc.json
-                    - name: Aplazar la ejecución de elementos de formato de ER
+                    - name: Aplazar la ejecución de elementos de formato de informes electrónicos
                       items:
                         - name: Aplazar la ejecución de un elemento de secuencia
                           href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=dynamics365/finance/toc.json
