@@ -70,12 +70,12 @@
                   items:
                     - name: Novedades y cambios de la página principal de Supply Chain Management
                       href: get-started/whats-new-home-page.md
-                    - name: Desarrollo de Supply Chain Management 10.0.13 (octubre de 2020)
+                    - name: Supply Chain Management 10.0.14 (noviembre de 2020)
+                      href: get-started/whats-new-scm-10-0-14.md
+                    - name: Supply Chain Management 10.0.13 (octubre de 2020)
                       href: get-started/whats-new-scm-10-0-13.md
                     - name: Supply Chain Management 10.0.12 (agosto de 2020)
                       href: get-started/whats-new-scm-10-0-12.md
-                    - name: Supply Chain Management 10.0.11 (julio de 2020)
-                      href: get-started/whats-new-scm-10-0-11.md
                 - name: Características quitadas u obsoletas
                   items:
                     - name: Características quitadas o en desuso en Dynamics 365 Supply Chain Management
@@ -333,7 +333,7 @@
                   href: asset-management/work-orders/automatic-update-of-asset-counters.md
                 - name: Listas de comprobación de mantenimiento
                   href: asset-management/work-orders/maintenance-checklists.md
-                - name: Tiempo de inactividad por mantenimiento
+                - name: Tiempo de inactividad por mantenimiento para órdenes de trabajo
                   href: asset-management/work-orders/maintenance-downtime.md
                 - name: Agregar error a orden de trabajo
                   href: asset-management/work-orders/add-fault-to-work-order.md
@@ -341,7 +341,7 @@
                   href: asset-management/work-orders/work-order-report.md
                 - name: Grupos de órdenes de trabajo
                   href: asset-management/work-orders/work-order-pools.md
-                - name: Trabajos de mantenimiento de órdenes de trabajo
+                - name: Trabajos de mantenimiento de órdenes de trabajo activos
                   href: asset-management/work-orders/active-work-order-jobs-overview.md
                 - name: Órdenes de trabajo y activos fijos
                   href: asset-management/work-orders/work-orders-and-fixed-assets.md
@@ -367,7 +367,7 @@
                   href: asset-management/preventive-and-reactive-maintenance/maintenance-schedule-cost.md
                 - name: Crear órdenes de trabajo
                   href: asset-management/preventive-and-reactive-maintenance/creating-work-orders.md
-                - name: Tiempo de inactividad por mantenimiento
+                - name: Actividades de tiempo de inactividad por mantenimiento
                   href: asset-management/preventive-and-reactive-maintenance/maintenance-stop.md
             - name: Planificación de capacidad
               items:
@@ -1345,26 +1345,30 @@
               items:
                 - name: Visión general de la optimización de la planificación
                   href: master-planning/planning-optimization/planning-optimization-overview.md
-                - name: Planificación con cantidades negativas disponibles
-                  href: master-planning/planning-optimization/negative-on-hand.md
                 - name: Introducción a la optimización de la planificación
                   href: master-planning/planning-optimization/get-started.md
-                - name: Análisis de idoneidad de Optimización de planificación
+                - name: Análisis de idoneidad de optimización de la planificación
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
                 - name: Aplicar filtros a un plan
                   href: master-planning/planning-optimization/plan-filters.md
                 - name: Planificación maestra con acuerdos comerciales de compra
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
-                - name: Ver historial del plan y registros de planificación
-                  href: master-planning/planning-optimization/plan-history-logs.md
+                - name: Márgenes de seguridad
+                  href: master-planning/planning-optimization/safety-margins.md
+                - name: Aprobar pedidos planificados
+                  href: master-planning/planning-optimization/approved-planned-order.md
                 - name: Puesta en firme automática con Optimización de planificación
                   href: master-planning/planning-optimization/planning-optimization-auto-firming.md
+                - name: Planificación con cantidades negativas disponibles
+                  href: master-planning/planning-optimization/negative-on-hand.md
+                - name: Ver historial del plan y registros de planificación
+                  href: master-planning/planning-optimization/plan-history-logs.md
                 - name: Cancelar un trabajo de planificación
                   href: master-planning/planning-optimization/cancel-planning-job.md
-                - name: Extensibilidad de Optimización de planificación
-                  href: master-planning/planning-optimization/extensibility.md
                 - name: Solucionar problemas de optimización de la planificación
                   href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
+                - name: Extensibilidad de Optimización de planificación
+                  href: master-planning/planning-optimization/extensibility.md
             - name: Planes maestros
               items:
                 - name: Visión general de los planes maestros
@@ -2621,6 +2625,8 @@
                   items:
                     - name: Configurar picking de clústeres
                       href: warehousing/set-up-cluster-picking.md
+                    - name: Posición completa del clúster
+                      href: warehousing/cluster-position-full.md
                     - name: Picking de clústeres dirigidos por el sistema
                       href: warehousing/system-directed-cluster-pick.md
                     - name: Configurar la creación de contenedores
