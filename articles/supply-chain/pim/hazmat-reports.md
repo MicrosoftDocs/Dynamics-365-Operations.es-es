@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: a67c8d0795d31464d900eb5aa82a6d93b689950c
-ms.sourcegitcommit: c009ec75f53872272f11c92a1ce81a391e3845a2
+ms.openlocfilehash: 188c339ddf5f5c2488133924e9a0288f218f495c
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "3699656"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3803024"
 ---
 # <a name="hazardous-materials-inquiries-and-reports"></a>Consultas e informes sobre materiales peligrosos
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Microsoft Dynamics 365 Supply Chain Management proporciona divesos informes relacionados con materiales peligrosos. Muchos de estos informes son necesarios para que pueda seguir cumpliendo con las diversas regulaciones de materiales peligrosos durante el envío y almacenamiento.
 
