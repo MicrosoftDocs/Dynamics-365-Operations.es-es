@@ -18,51 +18,51 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3aa226be8bc27817b4369b9e5b24faee8ea52b88
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 47113d52e15d3d61f00b3c54229e286eb0f1a8d7
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042237"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745402"
 ---
-# <span data-ttu-id="27a3e-103"><a name="ALLITEMS">Función ALLITEMS ER</a></span><span class="sxs-lookup"><span data-stu-id="27a3e-103"><a name="ALLITEMS">ALLITEMS ER function</a></span></span>
+# <a name="allitems-er-function"></a><span data-ttu-id="bb5ed-103">Función ALLITEMS ER</span><span class="sxs-lookup"><span data-stu-id="bb5ed-103">ALLITEMS ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="27a3e-104">La función `ALLITEMS` se ejecuta como una selección en memoria y devuelve un nuevo valor aplanado *Lista de registros* como una lista de registros que representa todos los elementos que coinciden con la ruta especificada.</span><span class="sxs-lookup"><span data-stu-id="27a3e-104">The `ALLITEMS` function runs as an in-memory selection and returns a new flattened *Record list* value as a list of records that represents all items that match the specified path.</span></span>
+<span data-ttu-id="bb5ed-104">La función `ALLITEMS` se ejecuta como una selección en memoria y devuelve un nuevo valor aplanado *Lista de registros* como una lista de registros que representa todos los elementos que coinciden con la ruta especificada.</span><span class="sxs-lookup"><span data-stu-id="bb5ed-104">The `ALLITEMS` function runs as an in-memory selection and returns a new flattened *Record list* value as a list of records that represents all items that match the specified path.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="27a3e-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="27a3e-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="bb5ed-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="bb5ed-105">Syntax</span></span>
 
 ```vb
 ALLITEMS (path)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="27a3e-106">Argumentos</span><span class="sxs-lookup"><span data-stu-id="27a3e-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="bb5ed-106">Argumentos</span><span class="sxs-lookup"><span data-stu-id="bb5ed-106">Arguments</span></span>
 
-<span data-ttu-id="27a3e-107">`path`: *Lista de registros*</span><span class="sxs-lookup"><span data-stu-id="27a3e-107">`path`: *Record list*</span></span>
+<span data-ttu-id="bb5ed-107">`path`: *Lista de registros*</span><span class="sxs-lookup"><span data-stu-id="bb5ed-107">`path`: *Record list*</span></span>
 
-<span data-ttu-id="27a3e-108">La ruta válida de un origen de datos del tipo de datos *Lista de registros*.</span><span class="sxs-lookup"><span data-stu-id="27a3e-108">The valid path of a data source of the *Record list* data type.</span></span>
+<span data-ttu-id="bb5ed-108">La ruta válida de un origen de datos del tipo de datos *Lista de registros*.</span><span class="sxs-lookup"><span data-stu-id="bb5ed-108">The valid path of a data source of the *Record list* data type.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="27a3e-109">Valores de retorno</span><span class="sxs-lookup"><span data-stu-id="27a3e-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="bb5ed-109">Valores de retorno</span><span class="sxs-lookup"><span data-stu-id="bb5ed-109">Return values</span></span>
 
-<span data-ttu-id="27a3e-110">*Lista de registros*</span><span class="sxs-lookup"><span data-stu-id="27a3e-110">*Record list*</span></span>
+<span data-ttu-id="bb5ed-110">*Lista de registros*</span><span class="sxs-lookup"><span data-stu-id="bb5ed-110">*Record list*</span></span>
 
-<span data-ttu-id="27a3e-111">La lista de registros resultante.</span><span class="sxs-lookup"><span data-stu-id="27a3e-111">The resulting list of records.</span></span>
+<span data-ttu-id="bb5ed-111">La lista de registros resultante.</span><span class="sxs-lookup"><span data-stu-id="bb5ed-111">The resulting list of records.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="27a3e-112">Notas de uso</span><span class="sxs-lookup"><span data-stu-id="27a3e-112">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="bb5ed-112">Notas de uso</span><span class="sxs-lookup"><span data-stu-id="bb5ed-112">Usage notes</span></span>
 
-<span data-ttu-id="27a3e-113">La ruta se debe definir como ruta válida de un origen de datos a un elemento de origen de datos del tipo de datos de la *Lista de registro*.</span><span class="sxs-lookup"><span data-stu-id="27a3e-113">The path must be defined as a valid data source path of a data source element of the *Record list* data type.</span></span> <span data-ttu-id="27a3e-114">Elementos de datos como la cadena de ruta y la fecha deberían activar un error en el tiempo de diseño del generador de expresiones de informes electrónicos (ER).</span><span class="sxs-lookup"><span data-stu-id="27a3e-114">Data elements such as the path string and date should raise an error in the Electronic reporting (ER) expression builder at design time.</span></span>
+<span data-ttu-id="bb5ed-113">La ruta se debe definir como ruta válida de un origen de datos a un elemento de origen de datos del tipo de datos de la *Lista de registro*.</span><span class="sxs-lookup"><span data-stu-id="bb5ed-113">The path must be defined as a valid data source path of a data source element of the *Record list* data type.</span></span> <span data-ttu-id="bb5ed-114">Elementos de datos como la cadena de ruta y la fecha deberían activar un error en el tiempo de diseño del generador de expresiones de informes electrónicos (ER).</span><span class="sxs-lookup"><span data-stu-id="bb5ed-114">Data elements such as the path string and date should raise an error in the Electronic reporting (ER) expression builder at design time.</span></span>
 
-<span data-ttu-id="27a3e-115">No recomendamos que utilice esta función para orígenes de datos transaccionales que puedan contener un gran volumen de datos.</span><span class="sxs-lookup"><span data-stu-id="27a3e-115">We don't recommend that you use this function for transactional data sources that might contain a large volume of data.</span></span> <span data-ttu-id="27a3e-116">En cambio, considere usar la función [ALLTEMSQUERY ](er-functions-list-allitemsquery.md).</span><span class="sxs-lookup"><span data-stu-id="27a3e-116">Instead, consider using the [ALLTEMSQUERY](er-functions-list-allitemsquery.md) function.</span></span>
+<span data-ttu-id="bb5ed-115">No recomendamos que utilice esta función para orígenes de datos transaccionales que puedan contener un gran volumen de datos.</span><span class="sxs-lookup"><span data-stu-id="bb5ed-115">We don't recommend that you use this function for transactional data sources that might contain a large volume of data.</span></span> <span data-ttu-id="bb5ed-116">En cambio, considere usar la función [ALLTEMSQUERY ](er-functions-list-allitemsquery.md).</span><span class="sxs-lookup"><span data-stu-id="bb5ed-116">Instead, consider using the [ALLTEMSQUERY](er-functions-list-allitemsquery.md) function.</span></span>
 
-## <a name="example-1"></a><span data-ttu-id="27a3e-117">Ejemplo 1</span><span class="sxs-lookup"><span data-stu-id="27a3e-117">Example 1</span></span>
+## <a name="example-1"></a><span data-ttu-id="bb5ed-117">Ejemplo 1</span><span class="sxs-lookup"><span data-stu-id="bb5ed-117">Example 1</span></span>
 
-<span data-ttu-id="27a3e-118">Si introduce `SPLIT("abcdef" , 2)` como fuente de datos **DS**, la expresión `COUNT( ALLITEMS (DS))` devuelve **3**.</span><span class="sxs-lookup"><span data-stu-id="27a3e-118">If you enter `SPLIT("abcdef" , 2)` as data source **DS**, the expression `COUNT( ALLITEMS (DS))` returns **3**.</span></span>
+<span data-ttu-id="bb5ed-118">Si introduce `SPLIT("abcdef" , 2)` como fuente de datos **DS**, la expresión `COUNT( ALLITEMS (DS))` devuelve **3**.</span><span class="sxs-lookup"><span data-stu-id="bb5ed-118">If you enter `SPLIT("abcdef" , 2)` as data source **DS**, the expression `COUNT( ALLITEMS (DS))` returns **3**.</span></span>
 
-## <a name="example-2"></a><span data-ttu-id="27a3e-119">Ejemplo 2</span><span class="sxs-lookup"><span data-stu-id="27a3e-119">Example 2</span></span>
+## <a name="example-2"></a><span data-ttu-id="bb5ed-119">Ejemplo 2</span><span class="sxs-lookup"><span data-stu-id="bb5ed-119">Example 2</span></span>
 
-<span data-ttu-id="27a3e-120">Si introduce **Vendedor** como la fuente de datos del tipo de datos *Lista de registros* que se refiere a la tabla de la aplicación VendTable, la expresión `ALLITEMS (Vend.'<Relations'.ContactPerson)` devuelve una lista aplanada de registros que tiene la estructura de tabla **Persona de contacto** y contiene todas las personas de contacto a las que se puede acceder utilizando la relación **ContactPerson.ContactForParty == VendTable.Party**, y eso está disponible para todos los proveedores de la tabla de proveedores referenciada.</span><span class="sxs-lookup"><span data-stu-id="27a3e-120">If you enter **Vend** as the data source of the *Record list* data type that refers to the VendTable application table, the expression `ALLITEMS (Vend.'<Relations'.ContactPerson)` returns a flattened list of records that has the **ContactPerson** table structure and contains all contact persons that can be accessed by using the **ContactPerson.ContactForParty == VendTable.Party** relation, and that is available for all vendors from the referenced vendor table.</span></span>
+<span data-ttu-id="bb5ed-120">Si introduce **Vendedor** como la fuente de datos del tipo de datos *Lista de registros* que se refiere a la tabla de la aplicación VendTable, la expresión `ALLITEMS (Vend.'<Relations'.ContactPerson)` devuelve una lista aplanada de registros que tiene la estructura de tabla **Persona de contacto** y contiene todas las personas de contacto a las que se puede acceder utilizando la relación **ContactPerson.ContactForParty == VendTable.Party**, y eso está disponible para todos los proveedores de la tabla de proveedores referenciada.</span><span class="sxs-lookup"><span data-stu-id="bb5ed-120">If you enter **Vend** as the data source of the *Record list* data type that refers to the VendTable application table, the expression `ALLITEMS (Vend.'<Relations'.ContactPerson)` returns a flattened list of records that has the **ContactPerson** table structure and contains all contact persons that can be accessed by using the **ContactPerson.ContactForParty == VendTable.Party** relation, and that is available for all vendors from the referenced vendor table.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="27a3e-121">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="27a3e-121">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="bb5ed-121">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="bb5ed-121">Additional resources</span></span>
 
-[<span data-ttu-id="27a3e-122">Funciones de lista</span><span class="sxs-lookup"><span data-stu-id="27a3e-122">List functions</span></span>](er-functions-category-list.md)
+[<span data-ttu-id="bb5ed-122">Funciones de lista</span><span class="sxs-lookup"><span data-stu-id="bb5ed-122">List functions</span></span>](er-functions-category-list.md)
