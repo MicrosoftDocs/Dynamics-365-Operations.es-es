@@ -18,41 +18,41 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6784384bac31d8c7cdc9c6f71b7dbab79c15a934
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 12577e571c8e87db79395895e2a22e66ee7df32c
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041110"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745690"
 ---
-# <span data-ttu-id="e158c-103"><a name="LOWER">Función LOWER de ER</a></span><span class="sxs-lookup"><span data-stu-id="e158c-103"><a name="LOWER">LOWER ER function</a></span></span>
+# <a name="lower-er-function"></a><span data-ttu-id="4bb00-103">Función LOWER de ER</span><span class="sxs-lookup"><span data-stu-id="4bb00-103">LOWER ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="e158c-104">La función `LOWER` devuelve la cadena de texto especificada como un valor de tipo *Cadena* después de convertirla a letras minúsculas.</span><span class="sxs-lookup"><span data-stu-id="e158c-104">The `LOWER` function returns the specified text string as a *String* value after it has been converted to lowercase letters.</span></span>
+<span data-ttu-id="4bb00-104">La función `LOWER` devuelve la cadena de texto especificada como un valor de tipo *Cadena* después de convertirla a letras minúsculas.</span><span class="sxs-lookup"><span data-stu-id="4bb00-104">The `LOWER` function returns the specified text string as a *String* value after it has been converted to lowercase letters.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="e158c-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="e158c-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="4bb00-105">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="4bb00-105">Syntax</span></span>
 
 ```vb
 LOWER (text)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="e158c-106">Argumentos</span><span class="sxs-lookup"><span data-stu-id="e158c-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="4bb00-106">Argumentos</span><span class="sxs-lookup"><span data-stu-id="4bb00-106">Arguments</span></span>
 
-<span data-ttu-id="e158c-107">`text`: *Cadena*</span><span class="sxs-lookup"><span data-stu-id="e158c-107">`text`: *String*</span></span>
+<span data-ttu-id="4bb00-107">`text`: *Cadena*</span><span class="sxs-lookup"><span data-stu-id="4bb00-107">`text`: *String*</span></span>
 
-<span data-ttu-id="e158c-108">Valor de tipo *Cadena* que especifica el texto.</span><span class="sxs-lookup"><span data-stu-id="e158c-108">A *String* value that specifies the text.</span></span>
+<span data-ttu-id="4bb00-108">Valor de tipo *Cadena* que especifica el texto.</span><span class="sxs-lookup"><span data-stu-id="4bb00-108">A *String* value that specifies the text.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="e158c-109">Valores de retorno</span><span class="sxs-lookup"><span data-stu-id="e158c-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="4bb00-109">Valores de retorno</span><span class="sxs-lookup"><span data-stu-id="4bb00-109">Return values</span></span>
 
-<span data-ttu-id="e158c-110">*Cadena*</span><span class="sxs-lookup"><span data-stu-id="e158c-110">*String*</span></span>
+<span data-ttu-id="4bb00-110">*Cadena*</span><span class="sxs-lookup"><span data-stu-id="4bb00-110">*String*</span></span>
 
-<span data-ttu-id="e158c-111">El valor de texto resultante.</span><span class="sxs-lookup"><span data-stu-id="e158c-111">The resulting text value.</span></span>
+<span data-ttu-id="4bb00-111">El valor de texto resultante.</span><span class="sxs-lookup"><span data-stu-id="4bb00-111">The resulting text value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="e158c-112">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="e158c-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="4bb00-112">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="4bb00-112">Example</span></span>
 
-<span data-ttu-id="e158c-113">`LOWER ("Sample")` devuelve **"sample"**.</span><span class="sxs-lookup"><span data-stu-id="e158c-113">`LOWER ("Sample")` returns **"sample"**.</span></span>
+<span data-ttu-id="4bb00-113">`LOWER ("Sample")` devuelve **"sample"**.</span><span class="sxs-lookup"><span data-stu-id="4bb00-113">`LOWER ("Sample")` returns **"sample"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="e158c-114">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="e158c-114">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="4bb00-114">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="4bb00-114">Additional resources</span></span>
 
-[<span data-ttu-id="e158c-115">Funciones de texto</span><span class="sxs-lookup"><span data-stu-id="e158c-115">Text functions</span></span>](er-functions-category-text.md)
+[<span data-ttu-id="4bb00-115">Funciones de texto</span><span class="sxs-lookup"><span data-stu-id="4bb00-115">Text functions</span></span>](er-functions-category-text.md)

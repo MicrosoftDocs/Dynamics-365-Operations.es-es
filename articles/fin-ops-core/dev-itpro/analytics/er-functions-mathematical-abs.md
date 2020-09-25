@@ -18,41 +18,41 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 214fb2808f024487795f27de45de1d4de8cead2d
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: b53535d1a000b72577be5c6284cc4676c43d591b
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041662"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744608"
 ---
-# <span data-ttu-id="4984c-103"><a name="ABS">Función ABS de ER</a></span><span class="sxs-lookup"><span data-stu-id="4984c-103"><a name="ABS">ABS ER function</a></span></span>
+# <a name="abs-er-function"></a><span data-ttu-id="1c2af-103">Función ABS de ER</span><span class="sxs-lookup"><span data-stu-id="1c2af-103">ABS ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="4984c-104">La función `ABS` devuelve el valor absoluto (módulo) de la cifra especificada como un número *Real*.</span><span class="sxs-lookup"><span data-stu-id="4984c-104">The `ABS` function returns the absolute value (modulus) of the specified number as a *Real* value.</span></span> <span data-ttu-id="4984c-105">Es decir, devuelve el número sin su signo.</span><span class="sxs-lookup"><span data-stu-id="4984c-105">In other words, it returns the number without its sign.</span></span>
+<span data-ttu-id="1c2af-104">La función `ABS` devuelve el valor absoluto (módulo) de la cifra especificada como un número *Real*.</span><span class="sxs-lookup"><span data-stu-id="1c2af-104">The `ABS` function returns the absolute value (modulus) of the specified number as a *Real* value.</span></span> <span data-ttu-id="1c2af-105">Es decir, devuelve el número sin su signo.</span><span class="sxs-lookup"><span data-stu-id="1c2af-105">In other words, it returns the number without its sign.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="4984c-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="4984c-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="1c2af-106">Sintaxis</span><span class="sxs-lookup"><span data-stu-id="1c2af-106">Syntax</span></span>
 
 ```vb
 ABS (number)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="4984c-107">Argumentos</span><span class="sxs-lookup"><span data-stu-id="4984c-107">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="1c2af-107">Argumentos</span><span class="sxs-lookup"><span data-stu-id="1c2af-107">Arguments</span></span>
 
-<span data-ttu-id="4984c-108">`number`: *Real*</span><span class="sxs-lookup"><span data-stu-id="4984c-108">`number`: *Real*</span></span>
+<span data-ttu-id="1c2af-108">`number`: *Real*</span><span class="sxs-lookup"><span data-stu-id="1c2af-108">`number`: *Real*</span></span>
 
-<span data-ttu-id="4984c-109">Un valor numérico del que desea el módulo.</span><span class="sxs-lookup"><span data-stu-id="4984c-109">A numeric value that you want the modulus of.</span></span>
+<span data-ttu-id="1c2af-109">Un valor numérico del que desea el módulo.</span><span class="sxs-lookup"><span data-stu-id="1c2af-109">A numeric value that you want the modulus of.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="4984c-110">Valores de retorno</span><span class="sxs-lookup"><span data-stu-id="4984c-110">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="1c2af-110">Valores de retorno</span><span class="sxs-lookup"><span data-stu-id="1c2af-110">Return values</span></span>
 
-<span data-ttu-id="4984c-111">*Real*</span><span class="sxs-lookup"><span data-stu-id="4984c-111">*Real*</span></span>
+<span data-ttu-id="1c2af-111">*Real*</span><span class="sxs-lookup"><span data-stu-id="1c2af-111">*Real*</span></span>
 
-<span data-ttu-id="4984c-112">El valor numérico resultante.</span><span class="sxs-lookup"><span data-stu-id="4984c-112">The resulting numeric value.</span></span>
+<span data-ttu-id="1c2af-112">El valor numérico resultante.</span><span class="sxs-lookup"><span data-stu-id="1c2af-112">The resulting numeric value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="4984c-113">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="4984c-113">Example</span></span>
+## <a name="example"></a><span data-ttu-id="1c2af-113">Ejemplo</span><span class="sxs-lookup"><span data-stu-id="1c2af-113">Example</span></span>
 
-<span data-ttu-id="4984c-114">`ABS (-1)` devuelve **1**.</span><span class="sxs-lookup"><span data-stu-id="4984c-114">`ABS (-1)` returns **1**.</span></span>
+<span data-ttu-id="1c2af-114">`ABS (-1)` devuelve **1**.</span><span class="sxs-lookup"><span data-stu-id="1c2af-114">`ABS (-1)` returns **1**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="4984c-115">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="4984c-115">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="1c2af-115">Recursos adicionales</span><span class="sxs-lookup"><span data-stu-id="1c2af-115">Additional resources</span></span>
 
-[<span data-ttu-id="4984c-116">Funciones matemáticas</span><span class="sxs-lookup"><span data-stu-id="4984c-116">Mathematical functions</span></span>](er-functions-category-mathematical.md)
+[<span data-ttu-id="1c2af-116">Funciones matemáticas</span><span class="sxs-lookup"><span data-stu-id="1c2af-116">Mathematical functions</span></span>](er-functions-category-mathematical.md)
