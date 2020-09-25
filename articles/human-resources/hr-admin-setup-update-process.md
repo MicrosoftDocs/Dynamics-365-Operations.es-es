@@ -3,7 +3,7 @@ title: Actualizar proceso
 description: Microsoft Dynamics 365 Human Resources es un verdadero software como servicio (SaaS) que proporciona actualizaciones continuas y sin contacto del servicio para la aplicación y cambios de plataforma.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/27/2020
+ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 006f3c7218436c1c70e29e51f8b1b784ae36b2dd
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: be9be5509f933ecbda5bf6d040027a7bac8b666d
+ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431185"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759968"
 ---
 # <a name="update-process"></a>Actualizar proceso
 
@@ -33,7 +33,7 @@ Microsoft Dynamics 365 Human Resources es un verdadero software como servicio (S
 
 Las actualizaciones se lanzan en una cadencia regular en todos los entornos. Human Resources es compatible según la [directiva de ciclo de vida de Microsoft](https://support.microsoft.com/hub/4095338/microsoft-lifecycle-policy), que proporciona directrices coherentes y predecibles para la disponibilidad de la asistencia técnica.
 
-## <a name="release-cadence"></a>Cadencia de lanzamiento
+## <a name="release-cadence"></a>Cadencia de lanzamiento 
 
 Las actualizaciones de Human Resources se aplican a todos los entornos automáticamente. Human Resources proporciona dos tipos de lanzamientos:
 
@@ -56,14 +56,12 @@ Las versiones se revisan, prueban y validan en un entorno interno. Después de q
 
 ## <a name="release-cadence-exceptions-in-2020"></a>Liberar excepciones de cadencia en 2020
 
-Las siguientes fechas son excepciones al calendario de lanzamiento regular:
+Para tener en cuenta los días festivos, el calendario de lanzamientos para noviembre y diciembre de 2020 es el siguiente:
 
-| Fecha | Descripción |
-| --- | --- |
-| Semana del 23 de noviembre | Sin actualizaciones |
-| Semana del 14 de diciembre | Solo actualizaciones secundarias |
-| Semana del 21 de diciembre | Sin actualizaciones |
-| Semana del 28 de diciembre | Sin actualizaciones |
+- Lanzamiento de noviembre: 2 de noviembre - 13 de noviembre
+- Lanzamiento de diciembre: 30 de noviembre - 11 de diciembre
+ 
+La cadencia de lanzamiento de dos semanas se reanudará como de costumbre el 11 de enero de 2021.
 
 ## <a name="communications"></a>Comunicaciones
 

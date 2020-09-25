@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ccf8d373bb081270573f6f80711d8e31ff6c0dc3
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: a6815a8c9f4141649532f9cd56ac3bc442b48686
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042513"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3743336"
 ---
-# <a name="SUMIFS">Función SUMIFS ER</a>
+# <a name="sumifs-er-function"></a>Función SUMIFS ER
 
 [!include [banner](../includes/banner.md)]
 

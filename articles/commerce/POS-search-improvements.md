@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 415e8268c504487f2b66afc2ac9a50de1b538911
-ms.sourcegitcommit: a8201e0b9033c2afc2b1702b0337facaf7ad4b92
+ms.openlocfilehash: 10c843670a280c86790185c8a39cb2943e2838f9
+ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "3628918"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759944"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Búsqueda de productos y de clientes en el punto de venta (PDV)
 
@@ -93,7 +93,7 @@ En una búsqueda de cliente remota, no se muestra el id. del cliente si este for
 
 ### <a name="enhancements-to-local-customer-search"></a>Mejoras en la búsqueda de cliente locales
 
-Se han simplificado las búsquedas que se basan en el número de teléfono. Estas búsquedas ahora omiten caracteres especiales, como espacios, guiones y corchetes, lo que se puedan haber agregado cuándo se creó el cliente. Por lo tanto, los cajeros no tienen que preocuparse del formato de número de teléfono al realizar una búsqueda. También pueden buscar por cliente escribiendo un número de teléfono parcial. Si un número de teléfono incluye caracteres especiales, también se puede encontrar buscando los números que aparecen después de caracteres especiales. Por ejemplo, si un número de teléfono de cliente se escribió como **123-456-7890**, un cajero puede buscar el cliente escribiendo **123**, **456**, **7890** o **1234567890** o simplemente escribiendo los primeros números del teléfono.
+Se han simplificado las búsquedas que se basan en el número de teléfono. Estas búsquedas ahora omiten caracteres especiales, como espacios, guiones y corchetes, lo que se puedan haber agregado cuándo se creó el cliente. Por lo tanto, los cajeros no tienen que preocuparse del formato de número de teléfono al realizar una búsqueda. Por ejemplo, si un número de teléfono de cliente se escribió como **123-456-7890**, un cajero puede buscar el cliente escribiendo **1234567890** o simplemente escribiendo los primeros números del teléfono.
 
 > [!NOTE]
 > Un cliente puede tener múltiples números de teléfono y múltiples correos electrónicos. El algoritmo de búsqueda de clientes también busca a través de estos correos electrónicos y números de teléfono secundarios, pero la página de resultados de búsqueda de clientes solo muestra el correo electrónico principal y el número de teléfono. Esto puede causar cierta confusión ya que los resultados devueltos del cliente no mostrarían el correo electrónico o el número de teléfono buscado. En una versión futura, planeamos mejorar la pantalla de resultados de búsqueda de clientes para mostrar esta información.

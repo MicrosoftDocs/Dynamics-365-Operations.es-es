@@ -3,7 +3,7 @@ title: Funcionalidad de cuadrícula
 description: Este tema describe varias características potentes del control de cuadrícula. La nueva característica de cuadrícula debe estar habilitada para tener acceso a estas capacidades.
 author: jasongre
 manager: AnnBe
-ms.date: 08/03/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,24 +16,23 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b1dd5e852bdc116d0848687782c930b19eae7900
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: b4efad8423ab42bf6f7f6e2d1054307c11d31d2c
+ms.sourcegitcommit: 241ada0945c72d769eaa70ae35aedbb6a3233fdf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3651699"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3760408"
 ---
 # <a name="grid-capabilities"></a>Funcionalidad de cuadrícula
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 El nuevo control de cuadrícula proporciona una serie de capacidades útiles y potentes que se pueden utilizar para mejorar la productividad del usuario, construir vistas más interesantes de sus datos y obtener información significativa sobre sus datos. Este artículo cubrirá las siguientes capacidades: 
 
 -  Cálculo de los totales
--  Agrupar datos
 -  Escribir por delante del sistema
 -  Evaluar expresiones matemáticas 
+-  Agrupar datos tabulares (habilitado por separado usando la característica **(Versión preliminar) Agrupación en cuadrículas**)
 
 ## <a name="calculating-totals"></a>Cálculo de los totales
 En las aplicaciones de Finance and Operations, los usuarios tienen la capacidad de ver los totales en la parte inferior de las columnas numéricas en las cuadrículas. Estos totales se muestran en una sección de pie de página en la parte inferior de la cuadrícula. 
@@ -71,21 +70,6 @@ Si el cálculo tarda demasiado, puede cancelar la operación seleccionando el bo
 
 Los totales se actualizarán automáticamente a medida que actualice, elimine o cree filas en el conjunto de datos.  
 
-## <a name="grouping-data"></a>Agrupar datos
-Los usuarios comerciales a menudo necesitan realizar análisis de datos ad-hoc. Si bien esto se puede hacer exportando datos a Microsoft Excel y usando tablas dinámicas, la funcionalidad de **Agrupamiento** en cuadrículas tabulares permite a los usuarios organizar sus datos de manera interesante dentro de las aplicaciones de Finance and Operations. Como esta característica extiende la característica **Totales**, **Agrupamiento** también permite obtener información significativa sobre los datos al proporcionar subtotales a nivel de grupo.
-
-Para usar esta característica, haga clic con el botón derecho en la columna por la que desea agrupar y seleccione **Agrupar por esta columna**. Esta acción ordenará los datos por la columna seleccionada, agregará un nuevo Grupo por columna al principio de la cuadrícula e insertará "filas de encabezado" al comienzo de cada grupo. Estas filas de encabezado proporcionan la siguiente información sobre cada grupo: 
--  Valor de datos para el grupo 
--  Etiqueta de columna (esta información será especialmente útil después de que se admitan múltiples niveles de agrupación).
--  Número de filas de datos en este grupo
--  Subtotales para cualquier columna configurada para mostrar totales
-
-Con [Vistas guardadas](saved-views.md) habilitado, esta agrupación se puede guardar mediante personalización como parte de una vista para un acceso rápido la próxima vez que visite la página.  
-
-Si selecciona **Agrupar por esta columna** para una columna diferente, la agrupación original será reemplazada, porque solo un nivel de agrupación es compatible con la versión 10.0.9 / Platform update 33.
-
-Para deshacer la agrupación en una cuadrícula, haga clic derecho en la columna de agrupación y seleccione **Desagrupar**.  
-
 ## <a name="typing-ahead-of-the-system"></a>Escribir por delante del sistema
 En muchos escenarios comerciales, la capacidad de introducir datos rápidamente en el sistema es muy importante. Antes de que se introdujera el nuevo control de cuadrícula, los usuarios podían cambiar los datos solo en la fila actual. Antes de que pudieran crear una nueva fila o cambiar a una fila diferente, debían esperar a que el sistema validara con éxito los cambios. En un intento por reducir la cantidad de tiempo que los usuarios esperan a que se completen estas validaciones y para mejorar la productividad del usuario, la nueva cuadrícula ajusta estas validaciones para que sean asíncronas. Por lo tanto, el usuario puede moverse a otras filas para realizar cambios mientras las validaciones de fila anteriores están pendientes. 
 
@@ -109,6 +93,32 @@ Como un refuerzo de productividad, los usuarios pueden introducir fórmulas mate
 
 Para que el sistema reconozca un valor como una expresión, comience el valor con un signo igual (**=**). Para obtener más información sobre los operadores y la sintaxis compatibles, consulte [Símbolos matemáticos admitidos](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
 
+## <a name="grouping-tabular-data"></a>Agrupación de datos tabulares
+[!include [preview banner](../includes/preview-banner.md)]
+
+Los usuarios comerciales a menudo necesitan realizar análisis de datos ad-hoc. Si bien esto se puede hacer exportando datos a Microsoft Excel y usando tablas dinámicas, la característica **(Versión preliminar) Agrupación en cuadrículas**, que depende de la característica de control de cuadrículas nuevas, permite a los usuarios organizar sus datos de manera interesante dentro de las aplicaciones de Finance and Operations. Dado que esta característica extiende la característica **Totales**, **Agrupamiento** también permite obtener información significativa sobre los datos al proporcionar subtotales a nivel de grupo.
+
+Para usar esta característica, haga clic con el botón derecho en la columna que desea agrupar y seleccione **Agrupar por esta columna**. Esta acción ordenará los datos por la columna seleccionada, agregará un nuevo **Grupo por columna** al principio de la cuadrícula e insertará "filas de encabezado" al comienzo de cada grupo. Estas filas de encabezado proporcionan la siguiente información sobre cada grupo: 
+-  Valor de datos para el grupo 
+-  Nombre de columna (esta información será especialmente útil después de que se admitan múltiples niveles de agrupación).  
+-  Número de filas de datos en este grupo
+-  Subtotales para cualquier columna configurada para mostrar totales
+
+Con [Vistas guardadas](saved-views.md) habilitado, esta agrupación se puede guardar mediante personalización como parte de una vista para un acceso rápido la próxima vez que visite la página.  
+
+Si selecciona **Agrupar por esta columna** para una columna diferente, la agrupación original será reemplazada, porque solo un nivel de agrupación es compatible a partir de la versión 10.0.9 / Platform update 33.
+
+Para deshacer la agrupación en una cuadrícula, haga clic derecho en la columna de agrupación y seleccione **Desagrupar**.  
+
+### <a name="expanding-and-collapsing-groups"></a>Expandir y contraer grupos
+La agrupación inicial de datos tendrá todos los grupos expandidos. Puede crear vistas resumidas de los datos contrayendo grupos individuales, o puede usar la expansión y contracción de grupos para ayudar a navegar a través de los datos. Para expandir o contraer un grupo, seleccione el botón de chevron (>) en la fila de encabezado del grupo correspondiente. Tenga en cuenta que el estado expandir/contraer de grupos individuales **no** está guardado en la personalización.
+
+### <a name="selecting-and-unselecting-rows-at-the-group-level"></a>Seleccionar y anular la selección de filas a nivel de grupo
+De la misma manera que puede seleccionar (o anular la selección) todas las filas de la cuadrícula seleccionando la casilla de verificación en la parte superior de la primera columna de la cuadrícula, también puede seleccionar rápidamente (o anular la selección) todas las filas de un grupo seleccionando la casilla de verificación en la fila de encabezado de grupo correspondiente. La casilla de verificación en la fila del encabezado del grupo siempre reflejará el estado de selección actual de las filas de ese grupo, independientemente de si todas las filas están seleccionadas, no hay filas seleccionadas o solo algunas filas están seleccionadas.
+
+### <a name="hiding-column-names"></a>Ocultar nombres de columnas
+Al agrupar datos, el comportamiento predeterminado es mostrar el nombre de la columna en la fila del encabezado del grupo. A partir de la versión 10.0.14/Platform update 38, puede optar por suprimir el nombre de la columna en las filas de encabezado de grupo seleccionando **Opciones de cuadrícula** > **Ocultar el nombre de la columna del grupo**.
+
 ## <a name="frequently-asked-questions"></a>Preguntas frecuentes
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>¿Cómo habilito el nuevo control de cuadrícula en mi entorno? 
 
@@ -131,7 +141,7 @@ Todas las sesiones de usuario posteriores comenzarán con el nuevo control de cu
 ## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Desarrollador] Desactivar páginas individuales para que no usen la nueva cuadrícula 
 Si su organización detecta una página que tiene problemas al utilizar la nueva cuadrícula, hay una API disponible para permitir que un formulario individual use el control de cuadrícula heredado al mismo tiempo que permite que el resto del sistema utilice el nuevo control de cuadrícula. Para excluir una página individual de la nueva cuadrícula, agregue la siguiente publicación de llamada `super()` en el método `run()` del formulario.
 
-        this.forceLegacyGrid();
+ ```this.forceLegacyGrid();```
 
 Esta API se aplicará hasta la versión de octubre de 2021, cuando el nuevo control de cuadrícula se vuelva obligatorio. Informe de cualquier problema a Microsoft que requiera que se utilice esta API. 
 

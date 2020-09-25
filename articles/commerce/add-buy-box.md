@@ -3,7 +3,7 @@ title: Módulo de cuadro de compra
 description: En este tema se tratan los módulos de cuadro de compra y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3fe5c1eb5808ef778aeda29442fa884556671296
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: 6556ee8acf1e24a9f6ceddb622960cb3ac891852
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686679"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761306"
 ---
 # <a name="buy-box-module"></a>Módulo de cuadro de compra
 
@@ -59,10 +59,13 @@ Los temas se pueden usar para eliminar o cambiar el orden de las propiedades del
 
 - **Etiqueta de encabezado**: esta propiedad define la etiqueta de encabezado para el título del producto. Si el cuadro de compra está en la parte superior de la página, esta propiedad debe establecerse en **h1** para cumplir los estándares de accesibilidad. 
 
+- **Habilitar recomendaciones de "comprar looks similares"**: esta propiedad permite que el cuadro de compra muestre enlaces a productos que se parecen al artículo que se ve actualmente. Esta función está disponible en Commerce, versión 10.0.13 y posterior.
+
 ## <a name="modules-that-can-be-used-in-a-buy-box-module"></a>Módulos que se pueden usar en un módulo de cuadro de compra
 
 - **Galería de medios** Este módulo se usa para mostrar imágenes de un producto en una página de detalles de productos. Para obtener más información sobre este módulo, consulte [Módulo de galería de medios](media-gallery-module.md).
 - **Selector de tienda**: este módulo muestra una lista de las tiendas cercanas en las que un artículo está disponible para su recogida. Permite a los usuarios especificar una ubicación para encontrar tiendas cercanas. Para obtener más información sobre este módulo, consulte [Módulo selector de tienda](store-selector.md).
+- **Compartir en redes sociales**: este módulo se puede agregar al cuadro de compra para permitir a los usuarios compartir información del producto en las redes sociales. Para más información, consulte [Módulo Compartir en rees sociales](social-share-module.md).
 
 ## <a name="buy-box-module-settings"></a>Configuración del módulo de cuadro de compra
 
@@ -85,8 +88,8 @@ El módulo de cuadro de compra recupera la información de producto mediante las
 Para agregar un módulo de cuadro de compra a una página nueva y establecer las propiedades necesarias, siga estos pasos.
 
 1. Vaya a **Fragmentos** y seleccione **Nuevo** para crear un nuevo fragmento.
-1. En el cuadro de diálogo **Nuevo fragmento de página**, seleccione el módulo **Cuadro de compra**.
-1. En **Nombre del fragmento de página**, introduzca el nombre **Fragmento de cuadro de compra** y luego seleccione **Aceptar**.
+1. En el cuadro de diálogo **Nuevo fragmento**, seleccione el módulo **Cuadro de compra**.
+1. En **Nombre del fragmento**, especifique el nombre **Fragmento de cuadro de compra** y luego seleccione **Aceptar**.
 1. En el espacio **Galería de medios** del módulo de cuadro de compra, seleccione los puntos suspensivos (**...**) y luego seleccione **Agregar módulo**.
 1. En el cuadro de diálogo **Agregar módulo**, seleccione el módulo **Galería de medios** y, a continuación, **Aceptar**.
 1. En el espacio **Selector de tienda** del módulo de cuadro de compra, seleccione los puntos suspensivos (**...**) y luego seleccione **Agregar módulo**.
@@ -96,13 +99,13 @@ Para agregar un módulo de cuadro de compra a una página nueva y establecer las
 1. En el cuadro de diálogo **Nueva plantilla**, en **Nombre de plantilla**, introduzca **Plantilla PDP** y luego seleccione **Aceptar**.
 1. En el espacio **Cuerpo**, seleccione los puntos suspensivos (**...**) y después seleccione **Agregar módulo**.
 1. En el cuadro de diálogo **Agregar módulo**, seleccione el módulo **Página predeterminada** y, a continuación, **Aceptar**.
-1. En el espacio **Principal** de la página predeterminada, seleccione los puntos suspensivos (**...**) y, a continuación, **Agregar fragmento de página**.
-1. En el cuadro de diálogo **Seleccionar fragmento de página**, seleccione el fragmento **Fragmento de cuadro de compra** creado anteriormente y, a continuación, seleccione **Aceptar**.
+1. En el espacio **Principal** de la página predeterminada, seleccione los puntos suspensivos (**...**) y, a continuación, **Agregar fragmento**.
+1. En el cuadro de diálogo **Seleccionar fragmento**, seleccione el fragmento **Fragmento de cuadro de compra** creado anteriormente y, a continuación, seleccione **Aceptar**.
 1. Seleccione **Guardar** y seleccione **Finalizar edición** para proteger la plantilla y luego seleccione **Publicar** para publicarla.
 1. Vaya a **Páginas** y seleccione **Nuevo** para crear una nueva página.
 1. En el cuadro de diálogo **Elegir una plantilla**, seleccione la plantilla **Modelo PDP**. En **Nombre de página**, introduzca **Página PDP** y después seleccione **Aceptar**.
-1. En el espacio **Principal** de la nueva página, seleccione los puntos suspensivos (**...**) y, a continuación, **Agregar fragmento de página**.
-1. En el cuadro de diálogo **Seleccionar fragmento de página**, seleccione el fragmento **Fragmento de cuadro de compra** creado anteriormente y, a continuación, seleccione **Aceptar**.
+1. En el espacio **Principal** de la nueva página, seleccione los puntos suspensivos (**...**) y, a continuación, **Agregar fragmento**.
+1. En el cuadro de diálogo **Seleccionar fragmento**, seleccione el fragmento **Fragmento de cuadro de compra** creado anteriormente y, a continuación, seleccione **Aceptar**.
 1. Guarde la página y obtenga una vista previa de ella. Agregue el parámetro de cadena de consulta **?productid=&lt;id. de producto&gt;** a la dirección URL de la página de vista previa. De esa manera, el contexto del producto se usa para cargar y representar la página de vista previa.
 1. Seleccione **Guardar** y seleccione **Finalizar edición** para proteger la página y luego seleccione **Publicar** para publicarla. Un cuadro de la compra debe aparecer en la página de detalles de productos.
 
@@ -114,11 +117,9 @@ Para agregar un módulo de cuadro de compra a una página nueva y establecer las
 
 [Módulo de galería de medios](media-gallery-module.md)
 
-[Módulo contenedor](add-container-module.md)
+[Módulo de contenedor](add-container-module.md)
 
 [Módulo de carro](add-cart-module.md)
-
-[Módulo de icono de carro](cart-icon-module.md)
 
 [Módulo de finalización de compra](add-checkout-module.md)
 
@@ -127,5 +128,7 @@ Para agregar un módulo de cuadro de compra a una página nueva y establecer las
 [Módulo de encabezado](author-header-module.md)
 
 [Módulo de pie de página](author-footer-module.md)
+
+[Módulo Compartir en redes sociales](social-share-module.md)
 
 [Calcular la disponibilidad de inventario para canales comerciales](calculated-inventory-retail-channels.md)

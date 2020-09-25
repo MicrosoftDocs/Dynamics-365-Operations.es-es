@@ -3,7 +3,7 @@ title: Agregar un icono de favoritos
 description: En este tema se explica cómo agregar un icono de favoritos al sitio.
 author: bicyclingfool
 manager: annbe
-ms.date: 04/27/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 198927e3391bdb577ebc845ff41d49ca798251ff
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: 262e478d426fd913130b21a3434331c7d27b54b2
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686799"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761162"
 ---
 # <a name="add-a-favicon"></a>Agregar un icono de favoritos
 
@@ -58,30 +58,30 @@ Para crear el HTML para el icono favorito, use el siguiente código HTML. Para e
 
 `<link rel="shortcut icon" href="Public_URL_for_your_favicon">`
 
-## <a name="create-a-page-fragment-that-contains-a-metatag-for-your-favicon"></a>Crear un fragmento de página que contenga una metaetiqueta para el favicon
+## <a name="create-a-fragment-that-contains-a-metatag-for-your-favicon"></a>Crear un fragmento que contenga una metaetiqueta para el favicon
 
-Para crear un fragmento de página que contenga una metaetiqueta para el icono favorito, siga estos pasos.
+Para crear un fragmento que contenga una metaetiqueta para el icono favorito, siga estos pasos.
 
 1. Vaya a **Fragmentos** y después **Nuevo**.
-1. En el cuadro de diálogo **Nuevo fragmento de página**, seleccione **Metaetiquetas** como módulo en el que se basa el fragmento de página.
-1. Especifique un nombre para el fragmento de página y después seleccione **Aceptar**.
+1. En el cuadro de diálogo **Nuevo fragmento**, seleccione **Metaetiquetas** como módulo en el que se basa el fragmento.
+1. Especifique un nombre para el fragmento y después seleccione **Aceptar**.
 1. En el árbol de jerarquía de fragmentos, seleccione el elemento secundario **Metaetiquetas predeterminadas**.
 1. En el panel derecho, en **Metaetiquetas**, seleccione **Añadir** y luego introduzca la cadena HTML que creó anteriormente para el icono favorito. 
-1. Seleccione **Finalizar edición** y luego seleccione **Publicar** para publicar el fragmento de página.
+1. Seleccione **Finalizar edición** y luego seleccione **Publicar** para publicar el fragmento.
 
-## <a name="add-the-metatag-page-fragment-to-the-html-head-section-of-your-pages"></a>Agregar el fragmento de página de metaetiqueta a la sección de encabezado HTML de las páginas
+## <a name="add-the-metatag-fragment-to-the-html-head-section-of-your-pages"></a>Agregar el fragmento de metaetiqueta a la sección de encabezado HTML de las páginas
 
-Para agregar el fragmento de página de metaetiqueta a la sección **encabezado** de las páginas, siga estos pasos.
+Para agregar el fragmento de metaetiqueta a la sección **encabezado** de las páginas, siga estos pasos.
 
 1. Vaya a **Plantillas**, abra la plantilla para las páginas en las que desea agregar el icono favorito y luego seleccione **Editar**.
-1. En el árbol de jerarquía de plantilla, seleccione el botón de puntos suspensivos (**...**) a la derecha del contenedor **Cabeza HTML** y luego seleccione **Añadir fragmento de página**.
-1. En el cuadro de diálogo **Seleccionar fragmento de página**, seleccione el fragmento de página de metaetiqueta creado anteriormente y, a continuación, seleccione **Aceptar**.
+1. En el árbol de jerarquía de plantilla, seleccione el botón de puntos suspensivos (**...**) a la derecha del contenedor **Cabeza HTML** y luego seleccione **Añadir fragmento**.
+1. En el cuadro de diálogo **Seleccionar fragmento**, seleccione el fragmento de metaetiqueta creado anteriormente y, a continuación, seleccione **Aceptar**.
 1. Seleccione **Finalizar edición** y luego seleccione **Publicar** para publicar la plantilla.
 
 > [!NOTE]
-> Si su sitio utiliza más de una plantilla, debe agregar el fragmento de página de metaetiquetas a todas ellas.
+> Si su sitio utiliza más de una plantilla, debe agregar el fragmento de metaetiquetas a todas ellas.
 
-Cuando obtenga una vista previa de las páginas que se basan en la plantilla a la que agregó el fragmento de página de metaetiquetas, ahora debería ver el icono favorito en la pestaña del navegador.
+Cuando obtenga una vista previa de las páginas que se basan en la plantilla a la que agregó el fragmento de metaetiquetas, ahora debería ver el icono favorito en la pestaña del navegador.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
