@@ -1,6 +1,6 @@
 ---
-title: Tiempo de inactividad por mantenimiento
-description: En este tema se explica el tiempo de inactividad por mantenimiento en Administración de activos.
+title: Actividades de tiempo de inactividad por mantenimiento
+description: Este tema explica cómo se utiliza el tiempo de inactividad por mantenimiento para obtener una visión general de la capacidad necesaria para llevar a cabo trabajos de mantenimiento en determinados activos durante un período concreto.
 author: josaw1
 manager: tfehr
 ms.date: 08/27/2019
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c1b219d352b6b090c5c2cd3c063d7f890beaa35c
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: 2f864e7fe0129f8487cddadc99b32f75a2b6d9ca
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383536"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3802830"
 ---
-# <a name="maintenance-downtime"></a>Tiempo de inactividad por mantenimiento
+# <a name="maintenance-downtime-activities"></a>Actividades de tiempo de inactividad por mantenimiento
 
 [!include [banner](../../includes/banner.md)]
-
- 
 
 El tiempo de inactividad por mantenimiento se utiliza para obtener una visión general de la capacidad necesaria para llevar a cabo trabajos de mantenimiento en determinados activos durante un período concreto. Por ejemplo, puede crear un registro de tiempo de inactividad por mantenimiento para la Línea de producción 10 en la Sala de producción 29-A del sitio de producción 02. El registro de tiempo de inactividad por mantenimiento tiene una fecha de inicio y una hora de finalización que indican el periodo en el que los activos relacionados con la parada por mantenimiento no están disponibles para la producción.
 
@@ -79,7 +77,7 @@ La ilustración siguiente muestra un ejemplo de vista detallada de las **Activid
 
 ![Figura 3](media/21-preventive-maintenance.png)
 
-11. Tras obtener una visión general de carga de capacidad, si desea realizar ajustes en los trabaos de mantenimiento de la orden de trabajo o en las líneas del programa de mantenimiento, regrese a la vista detalles **Activites del tiempo de inactividad por mantenimiento** y seleccione las líneas que desea ajustar en las fichas desplegables **Trabajos de mantenimiento de orden de trabajo resultantes** y **Líneas del programa de mantenimiento**.
+11. Tras obtener una visión general de carga de capacidad, si desea realizar ajustes en los trabaos de mantenimiento de la orden de trabajo o en las líneas del programa de mantenimiento, regrese a la vista detalles **Actividades del tiempo de inactividad por mantenimiento** y seleccione las líneas que desea ajustar en las fichas desplegables **Trabajos de mantenimiento de orden de trabajo resultantes** y **Líneas del programa de mantenimiento**.
 
 12. Haga clic en el botón **Ajustar** y actualice las fechas previstas de inicio o finalización, el nivel de servicio o los trabajadores responsables del mantenimiento para los trabajos de mantenimiento de orden de trabajo o las líneas del programa de mantenimiento seleccionados.
 

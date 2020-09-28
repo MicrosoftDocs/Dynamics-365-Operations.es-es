@@ -14,12 +14,12 @@
               items:
                 - name: Novedades y cambios en la página principal de Platform update
                   href: get-started/whats-new-home-page.md
+                - name: Platform updates para 10.0.14 (noviembre de 2020)
+                  href: get-started/whats-new-platform-updates-10-0-14.md
                 - name: Platform updates para 10.0.13 (octubre de 2020)
                   href: get-started/whats-new-platform-updates-10-0-13.md
                 - name: Platform updates para 10.0.12 (agosto de 2020)
                   href: get-started/whats-new-platform-update-10-0-12.md
-                - name: Platform updates para 10.0.11 (julio de 2020)
-                  href: get-started/whats-new-platform-update-35.md
             - name: Características quitadas u obsoletas
               items:
                 - name: Características de Platform quitadas u obsoletas
@@ -606,6 +606,14 @@
                   href: dev-tools/pipeline-create-deployable-package.md
                 - name: Control de versiones de modelos X++ en Azure Pipelines
                   href: dev-tools/pipeline-model-version.md
+                - name: Descargar activos mediante Azure Pipelines
+                  href: dev-tools/pipeline-asset-download.md
+                - name: Cargar activos mediante Azure Pipelines
+                  href: dev-tools/pipeline-asset-upload.md
+                - name: Implementar activos mediante Azure Pipelines
+                  href: dev-tools/pipeline-deploy-asset.md
+                - name: Crear una conexión de Lifecycle Services (LCS) en Azure Pipelines
+                  href: dev-tools/pipeline-lcs-connection.md
             - name: Aplicación de ejemplo de administración de flota
               items:
                 - name: Escenario de extremo a extremo para aplicación de ejemplo de administración de flota

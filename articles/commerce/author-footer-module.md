@@ -3,7 +3,7 @@ title: Módulo de pie de página
 description: En este tema se tratan los módulos de pie de página y cómo crearlos en Dynamics 365 Commerce.
 author: anupamar
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e81617979a945274500c9f4ceaa8078d8dfd79e8
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: 6dd9f214fbeeeaabadac4853916363c20a3288ca
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686727"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761211"
 ---
 # <a name="footer-module"></a>Módulo de pie de página  
 
@@ -51,7 +51,7 @@ Como la mayoría de los contenedores, un módulo de pie de página admite propie
 ## <a name="create-a-footer-module"></a>Crear un módulo de pie de página
 
 1. Vaya a **Fragmentos** y seleccione **Nuevo** para crear un nuevo fragmento.
-1. En el cuadro de diálogo **Nuevo fragmento de página**, seleccione el módulo **Contenedor**, especifique un nombre para el fragmento de la página y, a continuación, seleccione **Aceptar**.
+1. En el cuadro de diálogo **Nuevo fragmento**, seleccione el módulo **Contenedor**, especifique un nombre para el fragmento y, a continuación, seleccione **Aceptar**.
 1. En el espacio **Contenedor predeterminado**, seleccione los puntos suspensivos (**...**) y después seleccione **Agregar módulo**.
 1. En el cuadro de diálogo **Agregar módulo**, seleccione el módulo **Categoría de pie de página** y, a continuación, **Aceptar**.
 1. En el espacio **Categoría de pie de página**, seleccione los puntos suspensivos (**...**) y después seleccione **Agregar módulo**.
@@ -68,7 +68,7 @@ Para ayudar a garantizar que un encabezado aparece en cada página, siga estos p
 1. En el espacio **Pie de página** del módulo **Página predeterminada**, agregue el fragmento de pie de página que ha creado.
 1. Seleccione **Finalizar edición** para proteger la plantilla y luego seleccione **Publicar** para publicarla.
 
-Al agregar el fragmento de página a plantillas de página, ayuda a garantizar que el pie de página se representa en cada página.
+Al agregar el fragmento a plantillas de página, ayuda a garantizar que el pie de página se representa en cada página.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

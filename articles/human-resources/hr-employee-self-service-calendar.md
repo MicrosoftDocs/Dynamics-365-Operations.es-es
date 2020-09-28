@@ -3,7 +3,7 @@ title: Crear un calendario de equipo
 description: Vea y cree calendarios de equipo en Dynamics 365 Human Resources.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/03/2020
+ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2862c98014f91c5500ec11119d04d15bd050c89c
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: f7d11b11864f73d4405a4e3629e6873b8cd13e8d
+ms.sourcegitcommit: 1edd3d4642f8fdc801b43b981b7c1a1c36ae0645
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712217"
+ms.lasthandoff: 09/11/2020
+ms.locfileid: "3796478"
 ---
 # <a name="view-team-and-company-calendars"></a>Ver calendarios de equipo y empresa
 
@@ -50,6 +50,22 @@ Las personas con roles de Recursos Humanos pueden ver calendarios de empresa. Lo
 2. Seleccione **Calendario de bajas y ausencias**.
 
 Los roles de recursos humanos también pueden acceder al calendario de la empresa desde **Solicitudes de licencia y ausencia**, **Tiempo libre aprobado** y **Solicitudes de tiempo libre**. 
+
+[!include [banner](includes/preview-feature.md)]
+
+Los calendarios ahora contienen filtros y opciones adicionales. Todos los calendarios incluyen opciones de visualización para:
+
+- Solicitudes aprobadas
+- Solicitudes pendientes
+- Empleados con solicitudes de baja
+- Empleados sin solicitudes de baja
+- Cumpleaños de empleados
+- Solicitudes de tiempo libre 
+- Solicitudes de permiso para ausentarse
+
+La configuración del calendario en los parámetros de permisos y ausencias determina las opciones de visualización disponibles.
+
+También puede filtrar calendarios por gerente o departamento. La asignación de puesto principal determina los empleados que se muestran cuando se establecen estos filtros. 
 
 Para obtener información acerca de la configuración del calendario, consulte [Configurar parámetros de calendario](hr-leave-and-absence-parameters.md?configure-calendar-parameters).
 

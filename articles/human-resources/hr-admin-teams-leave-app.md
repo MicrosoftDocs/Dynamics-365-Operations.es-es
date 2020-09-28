@@ -3,7 +3,7 @@ title: Aplicación Recursos humanos en Teams
 description: Este tema presenta la aplicación Microsoft Dynamics 365 Human Resources en Microsoft Teams.
 author: andreabichsel
 manager: AnnBe
-ms.date: 08/06/2020
+ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4822cc6560926df878a8b4e9f821b331ede27a8c
-ms.sourcegitcommit: 15c68822f4d412bfc609be31b3702f18c81ea0bc
+ms.openlocfilehash: a022f8297066793080d254baa01410884a3fafd9
+ms.sourcegitcommit: 55b729361ea852e38531c51972c6730e3d9c2b45
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3666369"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "3776317"
 ---
 # <a name="human-resources-app-in-teams"></a>Aplicación Recursos humanos en Teams
 
@@ -41,6 +41,45 @@ Puede encontrar la aplicación Recursos Humanos en la tienda Teams. Para obtener
 
 Para obtener información sobre la administración de permisos de aplicaciones en Teams, consulte [Administrar las directivas de permisos de aplicaciones en Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-app-permission-policies).
 
+## <a name="enable-notifications-for-the-human-resources-app-in-teams"></a>Habilitar notificaciones para la aplicación Human Resources en Teams
+
+Si desea que los usuarios reciban notificaciones de solicitud de permiso en la aplicación Teams, debe habilitar las notificaciones en Human Resources.
+
+>[!NOTE]
+>Solo los usuarios que hayan iniciado sesión en Teams y que utilicen la aplicación Human Resources Teams recibirán notificaciones.
+
+1. En Human Resources, seleccione **Administración del sistema**.
+
+2. Seleccione **Vínculos**.
+
+3. En **Configuración**, seleccione **Parámetros del sistema**.
+
+4. En la pestaña **General**, establezca **Habilitar notificaciones para la aplicación Teams** en **Sí**.
+
+   ![Habilitar las notificaciones de la aplicación Teams en los parámetros del sistema](./media/hr-admin-teams-leave-app-enable-notifications.png)
+
+5. Para activar las notificaciones de Teams para todos los usuarios, seleccione **Sí** en el aviso.
+
+   ![Habilitar notificaciones de Teams para todos los usuarios](./media/hr-admin-teams-leave-app-notifications-all-users.png)
+
+### <a name="turn-teams-notifications-on-or-off-for-individual-users"></a>Activar o desactivar las notificaciones de Teams para usuarios individuales
+
+Una vez que haya habilitado las notificaciones para la aplicación en la aplicación Human Resources Teams, puede activar o desactivar las notificaciones para usuarios individuales.
+
+1. En Human Resources, seleccione **Administración del sistema**.
+
+2. Seleccione **Vínculos**.
+
+3. En **Usuarios**, seleccione **Opciones de usuario**.
+
+4. Seleccione la pestaña **Flujo de trabajo**.
+
+5. Establezca **Habilitar notificaciones para la aplicación Teams** en **Sí** para habilitar notificaciones para el usuario o **No** para deshabilitar las notificaciones para el usuario.
+
+   ![Habilitar las notificaciones de la aplicación Teams en la pestaña Flujo de trabajo de opciones de usuario](./media/hr-admin-teams-leave-app-notifications.png)
+
+6. Seleccione **Guardar**.
+
 ## <a name="known-issues"></a>Problemas conocidos
 
 | Emitir | Estado |
@@ -48,23 +87,28 @@ Para obtener información sobre la administración de permisos de aplicaciones e
 | El desplazamiento horizontal no funciona en los teléfonos Android | El desplazamiento horizontal no es un problema en iOS ni en dispositivos de escritorio. Estamos trabajando en una solución para Android. |
 | Error: hay un problema para encontrar un entorno al que conectarse. | Puede recibir este error incluso si ha verificado que el usuario puede acceder a uno o más entornos de Human Resources. Además, es posible que no aparezcan todos los entornos que espera. Hasta que solucionemos este problema, elimine el usuario y luego impórtelo nuevamente para resolver el problema. |
 | El saldo es incorrecto si se envía tiempo libre para una fecha futura. | La previsión no está disponible aún. El saldo se muestra para la fecha actual. |
-| Al reducir el número de horas que se requieren en una solicitud existente, el **Saldo restante** baja en lugar subir. | Abordaremos este problema conocido en el futuro. La visualización es incorrecta, pero los importes correctos se ajustan en el momento del envío. |
 | No se puede cancelar una solicitud **En revisión**. | Esta funcionalidad no es compatible actualmente y se agregará en una versión futura. |
 | La información del saldo se calcula a partir de hoy. | El sistema actualmente no muestra saldos a partir del período de acumulación, incluso si está configurado en los parámetros de Baja y Ausencia. |
 
 ## <a name="privacy-notice"></a>Aviso de privacidad
 
-Con el bot de Dynamics 365 Human Resources en Microsoft Teams, las entradas de texto del usuario se analizan para comprender la consulta/intención subyacente. La entrada del usuario como “Buscar cuenta de Contoso” se enruta a uno de los Servicios cognitivos de Microsoft, denominado Servicio inteligente de comprensión del lenguaje (LUIS). Obtenga más información sobre LUIS [aquí](https://www.luis.ai/). El servicio LUIS desambigua o comprende la intención de la entrada del usuario (en este caso, la intención es encontrar información) y la entidad objetivo (en este caso, la entidad objetivo es una cuenta llamada Contoso). Esta información se pasa luego al  [marco de bot de Azure](https://azure.microsoft.com/services/bot-service/)  de Microsoft, que interactúa con los datos de Dynamics 365 Human Resources y recupera la información deseada para la consulta del usuario. 
+### <a name="microsoft-language-understanding-intelligent-service-luis"></a>Servicio inteligente de comprensión del lenguaje de Microsoft (LUIS)
+
+Con el bot de Dynamics 365 Human Resources en Microsoft Teams, las entradas de texto del usuario se analizan para comprender la consulta/intención subyacente. La entrada del usuario como “Buscar cuenta de Contoso” se enruta a uno de los Servicios cognitivos de Microsoft, denominado Servicio inteligente de comprensión del lenguaje (LUIS). Obtenga más información sobre LUIS [aquí](https://www.luis.ai/). El servicio LUIS desambigua o comprende la intención de la entrada del usuario (en este caso, la intención es encontrar información) y la entidad objetivo (en este caso, la entidad objetivo es una cuenta llamada Contoso). Esta información se pasa luego al  [marco de bot de Azure](https://azure.microsoft.com/services/bot-service/) de Microsoft, que interactúa con los datos de Dynamics 365 Human Resources y recupera la información deseada para la consulta del usuario. 
 
 Al instalar y permitir el acceso al uso del bot, usted acepta permitir que el servicio LUIS y el marco del bot de Azure procesen la intención de detrás de la entrada, lo que da por resultado una experiencia de usuario conversacional mejorada. El servicio LUIS y el marco de bot de Azure pueden tener diferentes niveles de cumplimiento en comparación con Dynamics 365 Human Resources. Si bien el servicio LUIS solo tiene acceso a las consultas del usuario y no está diseñado para conectarse a datos o a la cuenta Dynamics 365 Human Resources del usuario, un usuario del bot Dynamics 365 Human Resources podría Introducir voluntariamente una consulta que contenga datos del cliente, datos personales u otros datos y dicho contenido de la consulta podría enviarse al servicio LUIS y al marco del bot de Azure. 
 
 El contenido de las consultas y los mensajes del usuario se conserva en el sistema LUIS durante un máximo de 30 días, se cifra en reposo y no se utiliza para la formación ni la mejora del servicio. Puede obtener más información sobre servicios cognitivos  [aquí](https://azure.microsoft.com/services/cognitive-services/language-understanding-intelligent-service/). 
 
-Para administrar la configuración de administración de aplicaciones en Microsoft Teams, vaya al [Centro de administración de Microsoft Teams](https://admin.teams.microsoft.com/). 
+Para administrar la configuración de administración de aplicaciones en Microsoft Teams, vaya al [Centro de administración de Microsoft Teams](https://admin.teams.microsoft.com/).
+
+### <a name="microsoft-azure-event-grid-and-microsoft-teams"></a>Microsoft Azure Event Grid y Microsoft Teams
+
+Al utilizar la función de notificaciones para la aplicación Dynamics 365 Human Resources en Teams, ciertos datos de clientes fluirán fuera de la región geográfica donde se implementa el servicio de Recursos Humanos de su inquilino. Dynamics 365 Human Resources transmite la solicitud de licencia del empleado y los detalles de la tarea del flujo de trabajo a Microsoft Azure Event Grid y Microsoft Teams. Estos datos pueden almacenarse hasta por 24 horas y procesarse en los Estados Unidos, están encriptados en tránsito y en reposo, y Microsoft o sus subprocesadores no los utilizan para mejoras de formación o servicios.
 
 ## <a name="see-also"></a>Consulte también 
 
 [Descargar e instalar Microsoft Teams](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)</br>
 [Centro de ayuda de Microsoft Teams](https://support.office.com/teams)</br>
-[Administrar solicitudes de baja en Teams](hr-teams-leave-app.md)
+[Administrar solicitudes de bajas en Teams](hr-teams-leave-app.md)
 

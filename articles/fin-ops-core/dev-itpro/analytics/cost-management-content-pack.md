@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
-ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
+ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace, CostObjectWithLowestAccuracy, CostVarianceChart, CostObjectWithLowestTurn
 audience: Application User, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0bf2f843401811d601b5fe90709bf995f550870
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 54da05bb6b84390f9928d8400e3dafc3228ee2fc
+ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771526"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759265"
 ---
 # <a name="cost-management-power-bi-content"></a>Contenido de gestión de costes de Power BI
 
@@ -193,10 +193,10 @@ La tabla siguiente muestra las medidas calculadas clave en el contenido de Power
 | Cantidad de saldo final                | Cantidad de saldo final = CALCULATE(SUM(\[QTY\]), FILTER(ALL(FiscalCalendar),FiscalCalendar\[MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[MONTHSTARTDATE\]))) |
 | Cambio neto                         | Cambio neto = SUM(\[AMOUNT\]) |
 | Cantidad de cambio neto                    | Cantidad de cambio neto = SUM(\[QTY\]) |
-| Ratio de facturación de inventario por importe | Ratio de facturación de inventario por importe = if(OR(\[Saldo medio de inventario\] \<= 0, \[Emisiones de inventario vendidas o consumidas\] \>= 0), 0, ABS\[Emisiones de inventario vendidas o consumidas\])/\[Saldo medio de inventario\]) |
+| Ratio de facturación de inventario por importe | Ratio de facturación de inventario por importe = if(OR(\[Saldo medio de inventario\] \<= 0, \[Inventory sold or consumed issues\] \>= 0) 0, ABS (\[Emisiones de inventario vendidas o consumidas\])/\[Saldo medio de inventario\]) |
 | Saldo medio de inventario          | Saldo medio de inventario = ((\[Saldo final\] + \[Saldo inicial\]) / 2) |
 | Días de disponibilidad de inventario             | Días de disponibilidad de inventario = 365 / CostObjectStatementEntries\[Ratio de facturación de inventario por importe\] |
-| Precisión del inventario                 | Precisión de inventario por importe = IF\[Saldo final\] \<= 0, IF(OR(\[Importe contabilizado de inventario\] \<\> 0, \[Saldo final\] \< 0), 0, 1), MAX(0, (\[Saldo final\] - ABS(\[Importe contabilizado de inventario\]))/\[Saldo final\])) |
+| Precisión del inventario                 | Precisión del inventario por cantidad = SI(\[Balance final\] \<= 0, IF(OR(\[Inventory counted amount\] \<\> 0, \[Balance final\] \< 0), 0, 1), MAX(0, (\[Balance final\] - ABS (\[Cantidad contada de inventario\]))/\[Balance final\])) |
 
 Las dimensiones clave siguientes se utilizan como filtros para cortar las medidas agregadas, de forma que logre mayor granularidad y obtener una visión analítica más profunda.
 

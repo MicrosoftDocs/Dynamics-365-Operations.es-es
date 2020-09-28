@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c7f78b687865e63e658c1c1c4f148b50595bf063
-ms.sourcegitcommit: 54bdcf8e9b6d1b1aae2a244f7a82754879d12053
+ms.openlocfilehash: 035bf720a892e987ff9fc073ab8ed6f6cc6ea18e
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/31/2020
-ms.locfileid: "3740672"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745114"
 ---
-# <a name=""></a><a name="LISTJOIN">Función LISTJOIN de ER</a>
+# <a name="listjoin-er-function"></a>Función LISTJOIN de ER
 
 [!include [banner](../includes/banner.md)]
 
@@ -73,11 +73,11 @@ Entonces especifique el origen de datos **Registro 2** del tipo `Container`. Est
 
 En este caso, la expresión `LISTJOIN(LIST('Record 1'), LIST('Record 2'))` devuelve una nueva lista que contiene dos registros.
 
-![Página de diseñador de asignación de modelos de ER](./media/er-functions-list-listjoin-image2.gif)
+![Página del diseñador de asignación de modelos de ER con dos registros](./media/er-functions-list-listjoin-image2.gif)
 
 La estructura de esta lista consta de un solo campo **Importe** del tipo `Real`, porque este campo es el único campo que se presenta en cada argumento de la función llamada.
 
-![Página de diseñador de asignación de modelos de ER](./media/er-functions-list-listjoin-image3.gif)
+![Campo de cantidad de la página de diseñador de asignación de modelos de ER](./media/er-functions-list-listjoin-image3.gif)
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5cbf313666e03c0006bee985bcf622a20ce4e51
-ms.sourcegitcommit: f1bef1cb4b3d2c9261e89820d624e4b0fe60d25c
+ms.openlocfilehash: 7a9dceb3f9e71163dcaf8b8763317110ef019844
+ms.sourcegitcommit: 9c694772e1484df10afd72ea1a717fda0861627e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3281518"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3813897"
 ---
 # <a name="purchase-requisition-workflow"></a>Flujo de trabajo de solicitudes de compra
 
@@ -113,7 +113,7 @@ Para usar uno de los revisores de gastos que ha configurado en un flujo de traba
 
 [Crear una solicitud para consumo](tasks/create-requisition-consumption.md)
 
-[Definición de flujos de trabajo de procesos empresariales para solicitudes de compra](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
+[Definición de flujos de trabajo de procesos empresariales para solicitudes de compra](https://www.microsoft.com/download/details.aspx?id=101821)
 
 [Flujos de trabajo de adquisición y abastecimiento](procurement-sourcing-workflows.md)
 

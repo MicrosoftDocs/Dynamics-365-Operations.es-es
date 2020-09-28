@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 6585e44701160bf31c107c07226f992b12cf035e
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 207783f5a44d5c6432539ac27a8c491bca811da4
+ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550657"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3760040"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>Seguir la ejecución de formatos de ER para solucionar problemas de rendimiento
 
@@ -101,7 +101,7 @@ Supongamos que ha empezado a diseñar una nueva solución de ER para generar un 
 
 Supongamos que haya terminado de diseñar de la primera versión de la solución de ER. Ahora desea probarla en su instancia y analizar el rendimiento de la ejecución.
 
-### <a id='import-configuration'></a>Importar una configuración de ER de RCS en Finance and Operations
+### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a>Importar configuraciones de ER de RCS a Finance and Operations
 
 1. Iniciar sesión en su instancia de aplicación.
 2. Para este tutorial, se importarán las configuraciones de la instancia de RCS (donde se diseñan sus componentes de ER) en la instancia (donde las prueba y finalmente usa). Por lo tanto, debe asegurarse de que se hayan preparado todas artefactos necesarios. Para más instrucciones, consulte el procedimiento [Importar configuraciones de informes electrónicos (ER) de Regulatory Configuration Services (RCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/rcs-download-configurations).
@@ -146,7 +146,7 @@ Las versiones correspondientes de la configuración de la asignación del modelo
 
     ![Cuadro de diálogo parámetros de usuario](./media/GER-PerfTrace-GER-UserParameters.png)
 
-### <a id='run-format'></a>Ejecutar formato del ER
+### <a name="run-the-er-format"></a><a id='run-format'></a>Ejecutar formato del ER
 
 1. Seleccione la compañía **DEMF**.
 2. Vaya a **Administración de la organización \> Informes electrónicos \> Configuraciones**.
@@ -157,7 +157,7 @@ Tenga en cuenta que el archivo que se genera presenta información sobre 265 tra
 
 ## <a name="review-the-execution-trace"></a>Revisar el seguimiento de la ejecución
 
-### <a id='export-trace'></a>Exporta el seguimiento generado de la aplicación
+### <a name="export-the-generated-trace-from-the-application"></a><a id='export-trace'></a>Exporta el seguimiento generado de la aplicación
 
 Para realizar el seguimiento del rendimiento se desemparejan del formato de ER de origen y se pueden serializar a un archivo externo zip.
 
@@ -176,7 +176,7 @@ Para realizar el seguimiento del rendimiento se desemparejan del formato de ER d
 
 Observe que la asociación entre el rendimiento de seguimiento que se ha generado para el formato de ER ejecutado y la asignación de modelo de ER se basa en la raíz descriptor usada y el modelo de datos común. La numeración de la versión de formato y el mapa de modelado no se tienen en cuenta. El valor del indicador **Predeterminado para la distribución de modelo** para la distribución de modelo no se tiene en cuenta.
 
-### <a id='import-trace'></a>Importar el seguimiento generado a RCS
+### <a name="import-the-generated-trace-into-rcs"></a><a id='import-trace'></a>Importar el seguimiento generado a RCS
 
 1. En RCS, en el espacio de trabajo **Informe electrónico**, seleccione el mosaico **Configuraciones de informes**.
 2. En la página **Configuraciones**, en el árbol de configuración, expanda el elemento **Modelo de seguimiento del rendimiento** y seleccione el elemento **Formato de seguimiento del rendimiento**.
@@ -201,7 +201,7 @@ Observe que la asociación entre el rendimiento de seguimiento que se ha generad
 
 2. Cierre la página **Diseñador de formato**.
 
-### <a id='use-trace'></a>Usar el seguimiento de rendimiento para el análisis en RCS – Distribución del modelo
+### <a name="use-the-performance-trace-for-analysis-in-rcs--model-mapping"></a><a id='use-trace'></a>Usar el seguimiento de rendimiento para el análisis en RCS – Distribución del modelo
 
 1. En el RCS, en la página **Configuraciones**, en el árbol de configuración, seleccione el elemento **Distribución de seguimiento del rendimiento**.
 2. En el panel de acciones, haga clic en **Diseñador**.
@@ -301,7 +301,7 @@ Repita los pasos de la sección anterior [Importar una configuración de ER desd
 
 Repita los pasos de la sección anterior [Ejecutar formato del ER](#run-format) en este tema para generar un nuevo seguimiento del rendimiento.
 
-## <a name="review-the-execution-trace"></a>Revisar el seguimiento de la ejecución
+## <a name="work-with-the-execution-trace"></a>Trabajar con el seguimiento de ejecución
 
 ### <a name="export-the-generated-trace-from-the-application"></a>Exporta el seguimiento generado de la aplicación
 
@@ -347,7 +347,7 @@ Repita los pasos de la sección anterior [Ejecutar formato del ER](#run-format) 
 
 Observe que el explorador web proporciona un archivo zip para su descarga. Este archivo contiene el seguimiento del rendimiento en el formato de PerfView. Puede utilizar la herramienta de análisis de rendimiento de PerfView para analizar los detalles de la ejecución del formato de ER.
 
-![Información de seguimiento para el formato de ER ejecutado en PerfView](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
+![Información de seguimiento de rendimiento en formato PerfView](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
 
 ## <a name="use-external-tools-to-review-an-execution-trace-that-includes-database-queries"></a>Utilice herramientas externas para revisar una seguimiento de ejecución que incluya consultas en bases de datos
 
@@ -363,7 +363,7 @@ Debido a mejoras que se han realizado en el marco de ER, el seguimiento del rend
     - Establezca la opción **Recopilar estadísticas de consulta** en **Sí**.
     - Establezca la opción **Consulta de seguimiento** en **Sí**.
 
-    ![Cuadro de diálogo parámetros de usuario](./media/GER-PerfTrace2-GER-UserParameters.PNG)
+    ![Sección de seguimiento de ejecución, cuadro de diálogo Parámetros de usuario](./media/GER-PerfTrace2-GER-UserParameters.PNG)
 
 ### <a name="run-the-er-format"></a>Ejecutar formato del ER
 
@@ -372,3 +372,8 @@ Repita los pasos de la sección anterior [Ejecutar formato del ER](#run-format) 
 Observe que el explorador web proporciona un archivo zip para su descarga. Este archivo contiene el seguimiento del rendimiento en el formato de PerfView. Puede utilizar la herramienta de análisis de rendimiento de PerfView para analizar los detalles de la ejecución del formato de ER. Este seguimiento ahora incluye los detalles del acceso a la base de datos SQL durante la ejecución del formato de ER.
 
 ![Información de seguimiento para el formato de ER ejecutado en PerfView](./media/GER-PerfTrace2-PerfViewTrace2.PNG)
+
+## <a name="additional-resources"></a>Recursos adicionales
+
+- [Visión general de los informes electrónicos](general-electronic-reporting.md)
+- [Mejorar el rendimiento de las soluciones de ER agregando orígenes de datos de CAMPO CALCULADO parametrizados](er-calculated-field-ds-performance.md)

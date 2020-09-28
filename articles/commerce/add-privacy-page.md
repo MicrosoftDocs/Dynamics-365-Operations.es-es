@@ -3,7 +3,7 @@ title: Agregar una página de directivas de Privacidad
 description: En este tema se describe cómo agregar una página de directiva de privacidad a su sitio en Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2ee361c2e99b79e503e8d94c12602f9427f1ed5c
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: ce6491d176f90717877f084b11546010084c5f3b
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686704"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761282"
 ---
 # <a name="add-a-privacy-policy-page"></a>Agregar una página de directivas de Privacidad
 
@@ -89,8 +89,8 @@ Puede agregar un enlace a la página de directiva de privacidad a un fragmento. 
 Para agregar un enlace a un fragmento de pie de página, siga estos pasos.
 
 1. Vaya a **Fragmentos** y después seleccione **Nuevo** para crear un fragmento de página.
-1. En el cuadro de diálogo **Nuevo fragmento de página**, seleccione el módulo **Pie de página**.
-1. En **Nombre del fragmento de página**, introduzca un nombre para el fragmento y luego seleccione **Aceptar**.
+1. En el cuadro de diálogo **Nuevo fragmento**, seleccione el módulo **Pie de página**.
+1. En **Nombre del fragmento**, introduzca un nombre para el fragmento y luego seleccione **Aceptar**.
 1. En la posición **Categoría de pie de página**, agregue un módulo **Elemento de pie de página**.
 1. En el panel de propiedades de la derecha, seleccione **Texto del enlace**.
 1. En el cuadro de diálogo **Texto del enlace**, introduzca el texto del enlace y el objetivo del enlace de la página de directiva de privacidad, y luego haga clic en **Aceptar**.

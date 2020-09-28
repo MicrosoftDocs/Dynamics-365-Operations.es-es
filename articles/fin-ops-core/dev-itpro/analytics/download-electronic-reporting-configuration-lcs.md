@@ -3,7 +3,7 @@ title: Descargar configuraciones de informes electrónicos de Lifecycle Services
 description: En este tema se explica cómo descargar las configuraciones de Informes electrónicos (ER) de Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 08/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,20 +18,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 4cc14860bd969048c4378b40d97a7940a8710e89
-ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
+ms.openlocfilehash: 8a18427114bddb7c72024a8d96d33f3fbf8dbe17
+ms.sourcegitcommit: 9857d5cbdc0ab2fc9db049ac5ad118fc2b29bedc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2934663"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3810628"
 ---
 # <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>Descargar configuraciones de informes electrónicos de Lifecycle Services
 
 [!include [banner](../includes/banner.md)]
 
-En este tema se explica cómo descargar las configuraciones de Informes electrónicos (ER) de Microsoft Dynamics Lifecycle Services (LCS).
-
-Este tutorial le guía por el proceso de descarga de la versión más reciente de las configuraciones de Informes electrónicos (ER) de Microsoft Dynamics Lifecycle Services (LCS).
+Este tema explica cómo descargar la versión más reciente de [Configuraciones de informes electrónicos (ER)](general-electronic-reporting.md#Configuration) desde la [Biblioteca de activos compartidos](../lifecycle-services/asset-library.md) en Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Inicie sesión a la aplicación mediante uno de los roles siguientes:
 
@@ -41,36 +39,41 @@ Este tutorial le guía por el proceso de descarga de la versión más reciente d
 
 2. Vaya a **Administración de la organización** &gt; **Espacios de trabajo** &gt; **Informes electrónicos**.
 3. En la sección **Proveedores de configuración**, seleccione el icono de **Microsoft**.
-4. En el icono de **Microsoft**, haga clic en **Repositorios**.
+4. En el icono **Microsoft**, seleccione **Repositorios**.
 
-    [![update-er-from-lcs-for-ms-open-ms-repositories-list](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
+    [![Icono de Microsoft en la página de configuraciones de localización](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
 
 5. En la página **Repositorios de configuración**, en la cuadrícula, seleccione el repositorio existente del tipo **LCS**. Si este repositorio no aparece en la cuadrícula, siga estos pasos:
 
-    1. Haga clic en **Agregar** para agregar un repositorio nuevo.
+    1. Seleccione **Agregar** para agregar un repositorio.
     2. Seleccione **LCS** como el tipo de repositorio.
-    3. Haga clic en **Crear repositorio**.
-    4. Si se le solicite, siga las instrucciones de autorización.
+    3. Seleccione **Crear repositorio**.
+    4. Si se le solicita la autorización, siga las instrucciones en pantalla.
     5. Especifique un nombre y una descripción para el repositorio.
-    6. Haga clic en **Aceptar** para confirmar la nueva entrada de repositorio.
+    6. Seleccione **Aceptar** para confirmar la nueva entrada de repositorio.
     7. En la cuadrícula, seleccione el nuevo repositorio del tipo **LCS**.
 
-6. Haga clic en **Abierta** para ver la lista de configuraciones de ER para el repositorio seleccionado.
+6. Seleccione **Abrir** para ver la lista de configuraciones de ER para el repositorio seleccionado.
 
-    [![update-er-from-lcs-for-ms-make-lcs-repository](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
+    [![Página de repositorios de configuración](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
+
+    > [!TIP]
+    > Si tiene problemas para acceder al repositorio LCS para descargar configuraciones de la biblioteca de activos compartidos en LCS, puede descargar configuraciones desde el [Repositorio global](er-download-configurations-global-repo.md) en lugar.
 
 7. En el árbol de configuración del panel izquierdo, seleccione la configuración de ER que necesita.
 8. En la ficha desplegable **Versiones**, seleccione la versión necesaria de la configuración de ER seleccionada.
-9. Haga clic en **Importar** para descargar la versión seleccionada de LCS en la instancia actual.
+9. Seleccione **Importar** para descargar la versión seleccionada de LCS en la instancia actual.
 
     > [!NOTE]
     > El botón **Importar** no está disponible para las versiones de configuración de ER que ya están presentes en la instancia actual.
 
-    [![update-er-from-lcs-for-ms-download-configuration](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
+    [![Página de configuración del repositorio](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
 
 > [!NOTE]
-> En función de la configuración de ER, se validan las configuraciones después de haberlas importado. Es posible que se le notifique acerca de los problemas de incoherencias que se detecten. Debe resolver esos problemas antes de poder usar la versión de configuración importada. Para obtener más información, consulte la lista de artículos relacionados para este tema.
+> En característica de la configuración de ER, se validan las configuraciones después de haberlas importado. Es posible que se le notifique acerca de los problemas de incoherencias que se detecten. Debe resolver esos problemas antes de poder usar la versión de configuración importada. Para obtener más información, consulte la lista de temas relacionados para este tema.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Visión general de los informes electrónicos (ER)](general-electronic-reporting.md)
+
+[Descargue las configuraciones de ER del repositorio global del servicio de configuración](er-download-configurations-global-repo.md)

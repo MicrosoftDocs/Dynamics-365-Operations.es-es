@@ -3,7 +3,7 @@ title: Crear un plan de permisos y ausencias
 description: Crear planes de ausencias en Dynamics 365 Human Resources para diferentes tipos de baja.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 75a70c5784e7032cfebbe58c1d173923a3023507
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: cb42860292c5e3e654917cf2f62b525993aa795a
+ms.sourcegitcommit: 1edd3d4642f8fdc801b43b981b7c1a1c36ae0645
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428718"
+ms.lasthandoff: 09/11/2020
+ms.locfileid: "3796506"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>Crear un plan de permisos y ausencias
 
@@ -43,7 +43,15 @@ También puede crear prestaciones de bajas basadas en el puesto, como horas de p
 
 2. En **Detalles**, introduzca el **Nombre**, la **Fecha de inicio**, la **Descripción** y el **Tipo de baja** para su plan.
 
-Si la característica **Configure múltiples tipos de permiso para un solo plan de permiso y ausencia** está habilitada, los tipos de permisos se configuran en **Programación de acumulación** en lugar de en **Detalles**. Para cada registro de la tabla de programación de acumulación, puede definir un tipo de licencia.
+Si la característica **Configure múltiples tipos de permiso para un solo plan de permiso y ausencia** está habilitada, los tipos de permisos se configuran en **Programación de acumulación** en lugar de en **Detalles**. Para cada registro de la tabla de programación de acumulación, puede definir un tipo de licencia. Además, cuando esta función está habilitada, deberá usar nuevas entidades de datos para integraciones u otros escenarios en los que necesite usar entidades. 
+
+Las nuevas entidades son:
+
+- Transacción bancaria de bajas y ausencias V2
+- Inscripción en bajas y ausencias V2
+- Nivel de plan de bajas y ausencias V2
+- Plan de bajas y ausencias V2
+- Solicitud de permiso de baja V2
 
  > [!IMPORTANT]
    > Después de habilitar esta función, no puede desactivarla.

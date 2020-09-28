@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 785797af0fe62fa6d0ee40fb4df45bcec47780c7
-ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
+ms.openlocfilehash: b01162f034a948a94139aed66b7ec8d2e861ee9b
+ms.sourcegitcommit: 4b63e71fb031d8f47bd9e72dd9cdfb9bc7ef2efc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3598093"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3789757"
 ---
 # <a name="regulatory-updates"></a>Actualizaciones reglamentarias
 
@@ -42,6 +42,12 @@ Para ver los últimos planes de actualizaciones regulatorias, consulte la siguie
 
 |País|Fecha de lanzamiento planeada:|Versión|Actualización reglamentaria|
 |--------------------|---------------|-------|-------|
+|      Austria         |   2020 de septiembre      | 10.0.15      |   El formato de la declaración de IVA U30 se ha actualizado para los informes de 2020   |
+|      Baréin         |   Julio de 2020      | 10.0.12      |   Gasto invertido   |
+|      Baréin         |   Julio de 2020      | 10.0.12      |   Fecha de límite de emisión de factura (GCC)   |
+|      Baréin         |   Julio de 2020      | 10.0.12      |   Declaración de IVA para Baréin   |
+|      Baréin         |   Julio de 2020      | 10.0.12      |   Facturas de venta para Baréin   |
+|      Brasil         |   Agosto de 2020      | 10.0.14, 10.0.13, 10.0.12      |   PR de la declaración de ADRCST   |
 |      Brasil         |   2020 de marzo      | 10.0.11      |   SPED ECD diseño 8   |
 |      Brasil         |   2020 de abril      | 10.0.11      |   Nota técnica NT2019.001 v1.40   |
 |      Brasil         |   mayo de 2020      | 10.0.12, 10.0.11HF      |   Declaración de ADCR ICMS-ST para el estado de Paraná   |
@@ -50,21 +56,35 @@ Para ver los últimos planes de actualizaciones regulatorias, consulte la siguie
 |      República Checa      |   Julio de 2020      | 10.0.13      |   Cambios en la declaración de control del IVA en el esquema XML (lista de facturas)   |
 |      República Checa         |   Julio de 2020      | 10.0.13      |   Declaración de IVA en XML, vista previa de declaración de IVA en Excel y formatos XML de declaración de control del IVA basados en el modelo de declaración de impuestos   |
 |      Estonia         |   mayo de 2020       | 10.0.11      |   Factura electrónica en Estonia: exportación de facturas de clientes en formato específico estonio, versión 1.2.  |
+|      Europa        |   Agosto de 2020       | 10.0.14      |   Transferir id. de IVA de partner a Intrastat  |
+|      Finlandia         |   Julio de 2020       | 10.0.13      |   Compatibilidad de facturas electrónicas para Finlandia  |
 |      Alemania         |   mayo de 2020       | 10.0.12      |   Alemania: Minorista, requisitos de caja registradora    |
 |      Hungría         |   2020 de marzo       | 10.0.11     |   Sistema de facturación en línea v.2.0 en Finance and Operations    |
+|      India         |   Agosto 2020, julio 2020      | 10.0.3, 10.0.12HF      |   TCS sobre Ventas de bienes según la sección 206C (1H) - Umbral según la acumulación de transacciones basada en PAN.  |
+|      India         |   Agosto 2020, junio 2020      | 10.0.13, 10.0.12HF      |   Nota de crédito o débito según factura de exportación  |
+|      India         |   Agosto de 2020      | 10.0.13, 10.0.12HF, 10.0.11HF      |   Factura electrónica según GST  |
+|      India         |   mayo de 2020      | 10.0.13, 10.0.12      |   Nuevo formato de devolución GSTR-1 y GSTR-2  |
+|      India         |   Julio de 2020      | 10.0.13      |   Nueva herramienta sin conexión GSTR (ANX-1 y ANX-2) (versión Beta)  |
 |      India         |   mayo de 2020      | 10.0.12      |   Mejoras en el precio unitario y el manejo de precios de coste en pedidos de transferencia de stock  |
 |      India         |   mayo de 2020      | 10.0.12      |   Transferencia de existencias con la misma aplicabilidad de tasa impositiva en el momento del envío y recepción (incluida la recepción parcial)  |
 |      Italia         |   mayo de 2020      | 10.0.12, 10.0.11      |   Cambio de formato del modelo 770/2019 |
 |      Italia         |   Julio de 2020      | 10.0.13, 10.0.12HF      |   Cambios en el formato de las facturas electrónicas italianas - FatturaPA |
+|      Kuwait         |   Julio de 2020      | 10.0.12      |   Gasto invertido |
+|      Malasia         |   Julio de 2020      | 10.0.13      |   Informe SST |
+|      México         |   2020 de septiembre      | 10.0.13HF, 10.0.12HF, 10.0.11HF      |   Ubicación del esquema de URL de CFDI según el documento Anexo 20 |
 |      Noruega          |   mayo de 2020   | 10.0.12     |   Rediseño del informe SAF-T: Saldos de apertura por tipo de transacción "operativa" e información fiscal en la moneda del código fiscal en Finance (versión 10) |
 |      Noruega          |   mayo de 2020   | 10.0.12     |   Cambio de diálogo del informe SAF-T: para proporcionar la posibilidad de seleccionar Persona de contacto en todas las empresas |
 |      Noruega          |   mayo de 2020   | 10.0.12     |   Declaraciones de espacio de nombres SAF-T en cada línea, en lugar de solo en el encabezado |
+|      Omán         |   Julio de 2020      | 10.0.12H      |   Gasto invertido |
+|      Polonia          |   2020 de septiembre     | 10.0.14     |   Polonia: formato de Excel JPK-V7M (VDEK), para reemplazar el informe SSRS  |
 |      Polonia          |   mayo de 2020     | 10.0.11     |   Divida el monto de la diferencia de cambio AP / AR realizado en la diferencia de cambio del valor neto de la factura y del monto del IVA  |
 |      Polonia          |   mayo de 2020     | 10.0.11     |   Libros de contabilidad SAF: mejoras de filtrado de capas de registro |
 |      Polonia          |   2020 de marzo     | 10.0.11     |   JPK_VDEK suplementado paquete I |
 |      Polonia          |   mayo de 2020     | 10.0.12     |   Paquete II suplementado JPK_VDEK |
 |      Polonia          |   2020 de marzo     | 10.0.11     |   Nota de crédito parcial para pedido de ventas con factura anticipada |
 |      Polonia          |   Julio de 2020     | 10.0.13     |   Mejoras en el pago fraccionado obligatorio |
+|      Qatar         |   Julio de 2020      | 10.0.12H      |   Gasto invertido |
+|      Rusia          |   Agosto de 2020     | 10.0.14    |   El formato de los informes contables empezará a cambiar a partir del año 2020  |
 |      Rusia          |   Julio de 2020     | 10.0.13    |   Cálculo de depreciación sobre la base del coste de adquisición y reparaciones importantes con la aplicación de la depreciación de bonificación en la contabilidad de impuestos  |
 
 

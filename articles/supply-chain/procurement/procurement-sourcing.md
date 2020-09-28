@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a23e445fa6a3133c5248aef1e5dc9fdf5aeb162
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: d38490e9155106d09c432fd965c95ad45f707b41
+ms.sourcegitcommit: 9c694772e1484df10afd72ea1a717fda0861627e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209223"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3813843"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Página inicial de adquisición y abastecimiento
 
@@ -55,7 +55,7 @@ Adquisición y abastecimiento cubre todos los pasos desde identificar una necesi
 -   [Colaboración de proveedor con los clientes](vendor-collaboration-work-customers-dynamics-365-operations.md)
 -   [Gestionar usuarios de colaboración de proveedor](manage-vendor-collaboration-users.md)
 -   [Configurar y mantener la colaboración de proveedor](set-up-maintain-vendor-collaboration.md)
--   [Demostración de entrada de demostración de inventario de envío para Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(documentación)
+-   [Demostración de entrada de demostración de inventario de envío para Microsoft Dynamics 365 for Finance and Operations](https://www.microsoft.com/download/details.aspx?id=101945)(documentación)
 -   [Supervisar el inventario de entrega mediante la colaboración de proveedores](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
 -   [Colaborar con proveedores mediante el portal de proveedores](collaborate-vendors-vendor-portal.md) (solo en las versiones de febrero de 2016 y mayo de 2016 de Dynamics AX)
 -   [Seguridad para los usuarios del portal de proveedores](configure-security-vendor-portal-users.md) (solo en las versiones de 2016 y mayo de 2016 Finance and Operations)
@@ -98,7 +98,7 @@ Adquisición y abastecimiento cubre todos los pasos desde identificar una necesi
 -   [Flujos de trabajo de adquisición y abastecimiento](procurement-sourcing-workflows.md)
 -   [Registrar la recepción de mercancías en el pedido de compra](tasks/record-receipt-goods-purchase-order.md)
 -   [Flujo de trabajo de solicitudes de compra](purchase-requisitions-workflow.md)
--   [Definición de flujos de trabajo de procesos empresariales para solicitudes de compra](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions) (notas del producto)
+-   [Definición de flujos de trabajo de procesos empresariales para solicitudes de compra](https://www.microsoft.com/download/details.aspx?id=101821) (notas del producto)
 -   [Visión general de las directivas de compra](purchase-policies.md)
 -   [Crear directivas de compra](tasks/create-purchasing-policies.md)
 

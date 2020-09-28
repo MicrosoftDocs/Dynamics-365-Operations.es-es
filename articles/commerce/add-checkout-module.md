@@ -3,7 +3,7 @@ title: Módulo de finalización de compra
 description: En este tema se describe cómo agregar un módulo de finalización de compra a una página y establecer las propiedades necesarias.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/05/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1d913fdc9ab9a3dbf7d5534fba38add7f942652a
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: 389e3e9d631574eac499f7c6146e2776b8126a52
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686751"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761114"
 ---
 # <a name="checkout-module"></a>Módulo de finalización de compra
 
@@ -97,8 +97,8 @@ La mayor parte de la información de finalización del pago, como la dirección 
 Para agregar un módulo de finalización del pago a una página nueva y establecer las propiedades necesarias, siga estos pasos.
 
 1. Vaya a **Fragmentos** y seleccione **Nuevo** para crear un nuevo fragmento.
-1. En el cuadro de diálogo, **Nuevo fragmento de página**, seleccione el módulo **Finalización de compra**.
-1. En **Nombre del fragmento de página**, introduzca el nombre **Fragmento de finalización de compra** y luego seleccione **Aceptar**.
+1. En el cuadro de diálogo, **Nuevo fragmento**, seleccione el módulo **Finalización de compra**.
+1. En **Nombre del fragmento**, introduzca el nombre **Fragmento de finalización de compra** y luego seleccione **Aceptar**.
 1. Seleccione el espacio **Módulo de finalización de compra**.
 1. En el panel de propiedades de la derecha, seleccione el símbolo del lápiz, introduzca el texto del encabezado en el campo y luego seleccione el símbolo de marca de verificación.
 1. En el espacio **Información de finalización de compra**, seleccione los puntos suspensivos (**...**) y después seleccione **Agregar módulo**.

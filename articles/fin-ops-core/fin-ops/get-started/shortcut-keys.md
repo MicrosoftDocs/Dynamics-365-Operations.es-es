@@ -1,6 +1,6 @@
 ---
 title: Métodos abreviados de teclado
-description: Los siguientes métodos abreviados de teclado le pueden ayudar de forma rápida y eficaz a la introducción de datos.
+description: Este tema proporciona una descripción general de las combinaciones de teclas de método abreviado que puede usar cuando trabaja con aplicaciones de Finance and Operations.
 author: jasongre
 manager: AnnBe
 ms.date: 10/02/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa35037b435bafa3f22013e41f0692f836e99a14
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 41d5fb270e7b01effc650b24626b81ced647a399
+ms.sourcegitcommit: 95d06006142e6bf83351fb075b413fdc2074d5ee
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811564"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761630"
 ---
 # <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
 
 [!include [banner](../includes/banner.md)]
 
-Los siguientes métodos abreviados de teclado le pueden ayudar de forma rápida y eficaz a la introducción de datos.
+Los siguientes métodos abreviados de teclado le pueden ayudar de forma rápida y eficaz a la introducción de datos en las aplicaciones de Finance and Operations.
 
 > [!NOTE]
 > Los métodos abreviados de teclado aquí descritos se refieren al diseño del teclado de Estados Unidos. Es posible que las teclas de otros diseños de teclados no se correspondan exactamente con las teclas de un teclado de Estados Unidos.
@@ -236,6 +236,7 @@ A partir de la actualización de plataforma 11, los usuarios pueden detectar acc
 | Desplazarse arriba/abajo una fila en las búsquedas                                                                                        | Flecha arriba / Flecha abajo            |
 | Desplazarse arriba/abajo una página en las búsquedas                                                                                       | Re Pág / Av Pág              |
 | Ir a la parte superior/inferior de la búsqueda                                                                                    | Inicio / Fin                       |
+
 ## <a name="additional-resources"></a>Recursos adicionales
 
 - [Métodos abreviados de teclado para el análisis de cuentas que faltan](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)

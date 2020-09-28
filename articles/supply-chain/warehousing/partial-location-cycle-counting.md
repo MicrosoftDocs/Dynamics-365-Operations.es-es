@@ -3,7 +3,7 @@ title: Recuento cíclico de ubicaciones parcial
 description: Los planes de recuento cíclico dirigen las operaciones de recuento. Puede solicitar que solo los productos específicos y las variantes de producto entren en el recuento en lugar de todos los inventarios disponibles en una ubicación.
 author: perlynne
 manager: tfehr
-ms.date: 11/02/2017
+ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f07c7754dbe36334e8972d49edf9fb84a78f5d0
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 46365f618b13c2bcaef9a45d2a835fda27019857
+ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215686"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3760016"
 ---
 # <a name="partial-location-cycle-counting"></a>Recuento cíclico de ubicaciones parcial
 
@@ -45,7 +45,7 @@ Si asocia planes de recuento cíclico a las plantillas de trabajo mediante la op
 
 Antes de que el trabajo de recuento cíclico parcial se pueda procesar, debe, al menos, seleccionar **Mostrar número de artículo** para el elemento de menú del dispositivo móvil como parte de la configuración del recuento cíclico. Se pedirá al operador de almacenes que registre solo la información del recuento relacionada con las líneas de recuento (números de artículo y dimensiones del producto). El resto del inventario disponible será omitido para este proceso de recuento. 
 
-Para el proceso de recuento cíclico parcial, la fecha o la hora de **Último recuento cíclico** no se actualizará para la ubicación.
+Para el proceso de recuento de ciclo parcial, la fecha y hora del **Recuento del último ciclo** no se actualizarán para la ubicación, aunque se cuentan todos los elementos disponibles en una ubicación determinada. El recuento de ciclos parciales no considera el parámetro **Días entre recuento de ciclos** en la página **Planes de recuento de ciclos**. El recuento de ciclo parcial no admite el recuento simultáneo de varios artículos en la misma ubicación. La funcionalidad de recuento de ciclos parcial puede resultar en que la misma ubicación se cuente varias veces para un artículo cuando **Plan de recuento del ciclo de proceso** se ejecuta. Para evitar ese escenario, especifique filtros en el campo **Seleccionar ubicaciones**.
 
 ## <a name="example"></a>Ejemplo
 Para este ejemplo, solo se debe contar el número de artículo A0001 en el almacén 61.

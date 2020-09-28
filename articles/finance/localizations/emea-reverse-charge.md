@@ -3,7 +3,7 @@ title: Cargo invertido
 description: Este tema explica cómo configurar el impuesto sobre el valor añadido (IVA) de cargo invertido en los países europeos, Arabia Saudí y Singapur.
 author: epodkolz
 manager: AnnBe
-ms.date: 07/16/2019
+ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -11,24 +11,25 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Saudi Arabia, Spain, Sweden, United Kingdom, Singapore
+ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Saudi Arabia, Spain, Sweden, United Kingdom, Singapore, Bahrain, Kuwait, Oman, Qatar
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 530ff52abb1dd36c473ae436d61ea925c5696a30
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9a58ae689a6185316854bf8f01d1237a487d3981
+ms.sourcegitcommit: 241ada0945c72d769eaa70ae35aedbb6a3233fdf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183582"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3760238"
 ---
 # <a name="reverse-charge-vat"></a>Cargo invertido
 
-
 [!include [banner](../includes/banner.md)]
 
+Este tema describe un enfoque genérico para configurar el impuesto sobre el valor añadido (IVA) para UE, los países GCC y Singapur.
 
-Este tema describe un enfoque genérico para configurar el impuesto sobre el valor añadido (IVA) de cargo invertido para Arabia Saudí, Singapur y países europeos.
+> [!NOTE]                                                                                  
+> Para Bahrein, Kuwait, Omán y Qatar, una característica **Disponibilidad de cobro revertido para países adicionales** debe estar habilitada en el espacio de trabajo **Gestión de características**. 
 
 El cargo invertido es un esquema de impuestos que transfiere la responsabilidad de la contabilidad y notificación del IVA del vendedor al comprador de mercancías o servicios. Por lo tanto, los destinatarios de mercancías o servicios reportan el IVA diferido (en el rol de un vendedor) y el IVA soportado (en el rol de un comprador) en su declaración del IVA.
 
@@ -85,7 +86,7 @@ En la página **Grupos de artículos de cargo invertido** (**Impuestos** &gt; **
 En la página **Reglas de cargo invertido** (**Impuestos** &gt; **Configuración** &gt; **Impuestos** &gt; **Reglas de cargo invertido**), puede definir las reglas de la aplicabilidad para fines de compra y venta. Puede configurar un conjunto de reglas de aplicabilidad de cargo invertido. Para cada regla, establezca los siguientes campos:
 
 - **Tipo de documento**: seleccione **Pedido de compra**, **Diario de facturas de proveedor**, **Pedido de ventas**, **Factura de servicios**, **Diario de facturas del cliente** o **Factura de proveedor**.
-- **Tipo de país o región del socio**: seleccione **Nacional**, **UE** o **Extranjero**. Además, si la regla se puede aplicar a todos los socios comerciales, independientemente del país o la región de la dirección, seleccione **Todos**.
+- **Tipo de país o región del socio**: seleccione **Nacional**, **UE**, **GCC** o **Extranjero**. Además, si la regla se puede aplicar a todos los socios comerciales, independientemente del país o la región de la dirección, seleccione **Todos**.
 - **Dirección de entrega local**: seleccione esta casilla para aplicar la regla a las entregas dentro del mismo país o región. Esta casilla no se puede seleccionar para los tipos de documento **Diario de facturas del proveedor** y **Diario de facturas del cliente**.
 - **Grupo de artículos de cargo invertido**: seleccione el grupo al que la regla se puede aplicar.
 - **Importe del umbral**: el esquema de cargo invertido se aplica a una factura solo si el valor de los artículos o servicios que se incluyen en el grupo de artículos de cargo invertido supera el límite que especifique aquí.
@@ -98,13 +99,16 @@ Además, puede especificar si va a aparecer una notificación y si la línea del
 - **Solicitud**: aparece una notificación para confirmar que el cargo invertido se puede aplicar.
 - **Establecer**: la línea del documento se actualiza sin la notificación adicional.
 
+## <a name="set-up-countryregion-properties"></a>Configurar las propiedades de país/región
+En la página **Parámetros de comercio exterior** (**Impuesto** &gt; **Configuración** &gt; **Impuesto** &gt; **Comercio exterior** &gt; **Parámetros de comercio exterior**), en la pestaña **Propiedades de país/región**, establezca el país o región de la entidad jurídica actual en *Nacional*. Configure **Tipo de país/región** de los países o regiones de la UE que participen en comercio de la UE con la entidad jurídica actual en *UE*. Configure **Tipo de país/región** de los países o regiones GCC que participen en comercio GCC con la entidad jurídica actual en *GCC*.
+
 ## <a name="set-up-default-parameters"></a>Configurar parámetros predeterminados
 Para habilitar la funcionalidad para cargo revertido, en la página **Parámetros de contabilidad general**, en la pestaña **Cargo invertido**, establezca la opción **Habilitar cargo invertido** en **Sí**. En el los campos **Grupo de impuestos del pedido de compra** y **Grupo de impuestos de pedido de ventas**, seleccione los grupos de impuestos predeterminados. Cuando se cumple una condición de la aplicabilidad de cargo invertido, la línea de pedido de ventas o compra se actualiza con estos grupos de impuestos.
 
 ## <a name="reverse-charge-on-a-sales-invoice"></a>Cargo invertido en una factura de ventas
 Para las ventas sujetas al modelo de cargo invertido, el vendedor no carga el IVA. En su lugar, la factura indica los artículos sujetos al IVA de cargo invertido y el importe total del IVA de cargo invertido.
 
-Cuando se registra una factura de ventas con cargo invertido, las transacciones de impuestos tienen la dirección fiscal de **Impuestos repercutidos** y los impuestos cero, y la casilla de verificación **Cargo invertido** está seleccionada.
+Cuando se registra una factura de ventas con cargo invertido, las transacciones de impuestos tienen la dirección fiscal de **Impuestos repercutidos** y los impuestos cero, y las casillas de verificación **Cargo invertido** y **Exento** están seleccionadas.
 
 ## <a name="reverse-charge-on-a-purchase-invoice"></a>Cargo invertido en una factura de compras
 Para las compras sujetas a cargo invertido, el comprador que recibe la factura con el cargo invertido actúa como un comprador y vendedor a efectos contables de IVA.

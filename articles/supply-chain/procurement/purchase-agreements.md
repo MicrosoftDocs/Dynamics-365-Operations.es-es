@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdc3fe95ec0917c09128997e254f29ce863dcc38
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 253177103435c765bfe45daffeae0c436617af21
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208026"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3803172"
 ---
 # <a name="purchase-agreements"></a>Acuerdos de compra
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Este artículo proporciona información acerca de los acuerdos de compra. Un acuerdo de compra es un contrato que compromete a una organización a comprar una cantidad o un importe específico mediante varios pedidos de compra en el tiempo. A cambio de este compromiso, el comprador recibe precios y descuentos especiales. 
 
@@ -42,8 +41,13 @@ Para evitar que se utilice y confirme su acuerdo de compra, marque el estado del
 
 ## <a name="responsible-workers-on-purchase-agreements"></a>Trabajadores responsables en acuerdos de compra
 
-Puede identificar un trabajador responsable principal y un trabajador responsable secundario en la clasificación del acuerdo de compra. El acuerdo de compra resultante heredará estos valores. No es necesario agregar trabajadores responsables al acuerdo de compra, y se pueden modificar directamente en el acuerdo de compra según el caso. No puede especificar un trabajador responsable secundario sin un trabajador responsable principal, y no es necesario especificar un trabajador responsable secundario. No puede especificar un mismo trabajador como trabajador responsable principal y secundario. 
+Puede identificar un trabajador responsable principal y un trabajador responsable secundario en la clasificación del acuerdo de compra. El acuerdo de compra resultante heredará estos valores. No es necesario agregar trabajadores responsables al acuerdo de compra, y se pueden modificar directamente en el acuerdo de compra según el caso. No puede especificar un trabajador responsable secundario sin un trabajador responsable principal, y no es necesario especificar un trabajador responsable secundario. No puede especificar un mismo trabajador como trabajador responsable principal y secundario.
 
+> [!IMPORTANT]
+> Antes de poder usar la característica de parte responsable debe estar activada en su sistema. Los administradores pueden usar la configuración de [gestión de características](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar el estado de la característica y activarla. En el espacio de trabajo **Administración de funciones**, la función aparece de la siguiente forma:
+> 
+> - **Módulo**: *Adquisición y abastecimiento*
+> - **Nombre de la característica**: *Parte responsable del acuerdo de compra*
 
 ## <a name="commitment-types"></a>Tipos de compromiso
 Cada línea de un acuerdo de compra es un compromiso a comprar algo. Puede usar líneas de varios pedidos de compra para satisfacer el compromiso. Hay cuatro tipos de compromisos:
