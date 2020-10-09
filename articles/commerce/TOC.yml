@@ -98,13 +98,11 @@
                       href: get-started/whats-new-commerce-10-0-13.md
                     - name: Commerce 10.0.12 (agosto de 2020)
                       href: get-started/whats-new-commerce-10-0-12.md
-                    - name: Commerce 10.0.11 (julio de 2020)
-                      href: get-started/whats-new-commerce-10-0-11.md
-                - name: Características quitadas u obsoletas
+                - name: Características quitadas o en desuso
                   items:
                     - name: Características quitadas o en desuso en Finance and Operations
                       href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/commerce/toc.json
-                    - name: Características quitadas u obsoletas en Dynamics 365 Commerce
+                    - name: Características quitadas o en desuso en Dynamics 365 Commerce
                       href: get-started/removed-deprecated-features-commerce.md
                 - name: Características de AX 2012 pospuestas
                   href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/commerce/toc.json
@@ -182,7 +180,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/commerce/toc.json
                 - name: Crear y trabajar con campos personalizados
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/commerce/toc.json
-                - name: Insertar Microsoft Power Apps
+                - name: Insertar aplicaciones de lienzo desde Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/commerce/toc.json
                 - name: Encontrar información mediante el uso de búsquedas
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/commerce/toc.json
@@ -956,9 +954,9 @@
                   href: add-privacy-page.md
                 - name: Reemplazar id. de usuario asociado con cambios de contenido con seguimiento
                   href: replace-IDs-tracked-changes.md
-            - name: Kit de inicio
+            - name: Biblioteca de módulos
               items:
-                - name: Visión general del kit de inicio
+                - name: Descripción general de la biblioteca de módulos
                   href: starter-kit-overview.md
                 - name: Módulos de contenedor
                   items:
@@ -1976,7 +1974,7 @@
                   items:
                     - name: Crear un nuevo módulo
                       href: e-commerce-extensibility/create-new-module.md
-                    - name: Clonar un módulo de kit de inicio
+                    - name: Clonar un módulo de biblioteca de módulos
                       href: e-commerce-extensibility/clone-starter-module.md
                     - name: Agregar campos de configuración de módulo
                       href: e-commerce-extensibility/add-module-config-fields.md
@@ -2070,7 +2068,7 @@
                   items:
                     - name: Empaquetar configuraciones e implementarlas en un entorno en línea
                       href: e-commerce-extensibility/package-deploy.md
-                    - name: Actualizaciones del kit de inicio de la Store y del SDK
+                    - name: Actualizaciones de SDK y bibliotecas de módulos
                       href: e-commerce-extensibility/sdk-updates.md
             - name: SDK de Retail
               items:
@@ -2148,6 +2146,8 @@
                   href: implementation-considerations-devices.md
                 - name: Eventos y controladores de la vista del carro PDV
                   href: dev-itpro/cart-view-handlers.md
+                - name: Agregar botones personalizados a la barra de encabezado de PDV
+                  href: dev-itpro/pos-header-bar.md
             - name: Extensibilidad de Hardware Station
               items:
                 - name: Hardware Station y extensibilidad
