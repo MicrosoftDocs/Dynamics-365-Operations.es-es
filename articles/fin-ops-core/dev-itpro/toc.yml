@@ -20,11 +20,11 @@
                   href: get-started/whats-new-platform-updates-10-0-13.md
                 - name: Platform updates para 10.0.12 (agosto de 2020)
                   href: get-started/whats-new-platform-update-10-0-12.md
-            - name: Características quitadas u obsoletas
+            - name: Características quitadas o en desuso
               items:
-                - name: Características de Platform quitadas u obsoletas
+                - name: Características de Platform quitadas o en desuso
                   href: get-started/removed-deprecated-features-platform-updates.md
-                - name: Funciones quitadas u obsoletas de versiones anteriores
+                - name: Funciones quitadas o en desuso de versiones anteriores
                   href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Características de AX 2012 pospuestas
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
@@ -86,6 +86,8 @@
               href: data-entities/integration-overview.md
             - name: Limitación basada en prioridades
               hreF: data-entities/priority-based-throttling.md
+            - name: Preguntas frecuentes sobre limitación basada en prioridades
+              href: data-entities/throttling-faq.md
             - name: API de integración de datos
               items:
                 - name: API de REST de paquete de administración de datos
@@ -154,6 +156,8 @@
                                   href: data-entities/dual-write/enable-entity-map.md
                             - name: Migración de tipo de datos de divisa para doble escritura
                               href: data-entities/dual-write/currrency-decimal-places.md
+                            - name: Configurar la asignación de los campos de estado del pedido de ventas
+                              href: data-entities/dual-write/sales-status-map.md
                         - name: Gestión de doble escritura
                           items:
                             - name: Personalizar asignaciones de entidad y campo
@@ -522,7 +526,7 @@
                       href: deployment/onprem-reuseadfs.md
                 - name: Agente local
                   items:
-                    - name: Compatibilidad con AD FS Office 365
+                    - name: Compatibilidad con AD FS Microsoft 365
                       href: deployment/onprem-adfscompatibility.md
                     - name: Scripts para fases previas y posteriores a la implementación de agente local
                       href: lifecycle-services/pre-post-scripts.md
@@ -627,9 +631,7 @@
                 - name: Tutorial de herramientas de desarrollo
                   href: dev-tools/introduction-visual-studio.md
                 - name: Comprobador de la aplicación
-                  items:
-                    - name: Instalar BaseX para comprobador de la aplicación
-                      href: dev-tools/install-basex.md
+                  href: dev-tools/application-checker.md
                 - name: Explorador de la aplicación
                   href: dev-tools/application-explorer.md
                 - name: Crear y depurar proyectos
@@ -1072,7 +1074,7 @@
                   href: lifecycle-services/whats-new-lcs.md
                 - name: Problemas conocidos
                   href: lifecycle-services/known-issues.md
-                - name: Características quitadas u obsoletas en Lifecycle Services (LCS)
+                - name: Características quitadas o en desuso en Lifecycle Services (LCS)
                   href: lifecycle-services/removed-deprecated-features.md
             - name: Guía del usuario de Lifecycle Services
               href: lifecycle-services/lcs-user-guide.md
@@ -1368,9 +1370,27 @@
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md
                     - name: Tipo ValueMetadata
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
+        - name: Marco de automatización de procesos
+          items:
+            - name: Desarrollo del marco de automatización de procesos
+              href: process-automation/process-automation-framework.md
+            - name: Registro de tipo
+              href: process-automation/type-registration.md
+            - name: Registro de serie
+              href: process-automation/series-registration.md
+            - name: Parámetros de proceso
+              href: process-automation/process-parameters.md
+            - name: Consultas configurables por el usuario
+              href: process-automation/user-queries.md
+            - name: Ejecutar el proceso
+              href: process-automation/run-process.md
+            - name: Registrar resultados y mensajes
+              href: process-automation/log-results.md
+            - name: Personalizar la interfaz de usuario
+              href: process-automation/ui-customization.md
         - name: Regression Suite Automation Tool
           items:
-            - name: introducción a Regression Suite Automation Tool
+            - name: Información general de Regression Suite Automation Tool
               href: perf-test/rsat/rsat-overview.md
             - name: Instalación y configuración
               href: perf-test/rsat/rsat-install-configure.md
@@ -1395,7 +1415,7 @@
             - name: Desarrollar y lanzar
               href: lcs-solutions/lcs-solutions-app-source.md
             - name: Realizar comprobación previa y publicar
-              href: lcs-solutions/marketing-content-lcs-solutions.md
+              href: /azure/marketplace/partner-center-portal/create-new-operations-offer
             - name: Agregar metodologías
               href: lcs-solutions/methodologies-lcs-solutions.md
             - name: Configurar bibliotecas de modelador de procesos empresariales
@@ -1644,7 +1664,7 @@
                   href: dev-tools/update-development-tools.md
             - name: Ceses de uso
               items:
-                - name: Características quitadas u obsoletas
+                - name: Características quitadas o en desuso
                   href: migration-upgrade/deprecated-features.md
                 - name: Amortización de métodos y elementos de metadatos
                   href: migration-upgrade/deprecation-deletion-apis.md

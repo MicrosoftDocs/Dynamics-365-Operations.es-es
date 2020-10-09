@@ -76,11 +76,11 @@
                       href: get-started/whats-new-scm-10-0-13.md
                     - name: Supply Chain Management 10.0.12 (agosto de 2020)
                       href: get-started/whats-new-scm-10-0-12.md
-                - name: Características quitadas u obsoletas
+                - name: Características quitadas o en desuso
                   items:
                     - name: Características quitadas o en desuso en Dynamics 365 Supply Chain Management
                       href: get-started/removed-deprecated-features-scm-updates.md
-                    - name: Funciones quitadas u obsoletas de versiones anteriores
+                    - name: Funciones quitadas o en desuso de versiones anteriores
                       href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Características de AX 2012 pospuestas
                   href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
@@ -158,7 +158,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Crear y trabajar con campos personalizados
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Insertar Microsoft Power Apps
+                - name: Insertar aplicaciones de lienzo desde Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Encontrar información mediante el uso de búsquedas
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/supply-chain/toc.json
@@ -1655,6 +1655,8 @@
               href: procurement/procurement-sourcing-overview.md
             - name: Flujo de trabajo de adquisición y abastecimiento
               href: procurement/procurement-sourcing-workflows.md
+            - name: Solucionar problemas de flujos de trabajo de compras y abastecimiento
+              href: procurement/troubleshoot-procurementworkflows.md
             - name: Catálogos de compras
               items:
                 - name: Visión general de catálogos de compras
@@ -1695,6 +1697,8 @@
                   href: procurement/purchase-order-mobile-workspace.md
                 - name: Registrar la recepción de mercancías en el pedido de compra
                   href: ../supply-chain/procurement/tasks/record-receipt-goods-purchase-order.md
+                - name: Solucionar problemas de pedidos de compra
+                  href: procurement/troubleshoot-purchaseorders.md
             - name: Creación de pedido de compra
               items:
                 - name: Crear pedidos de compra manualmente
@@ -1725,6 +1729,8 @@
                   href: procurement/tasks/create-purchase-agreement.md
                 - name: Devoluciones de proveedor
                   href: procurement/vendor-rebates.md
+                - name: 'Solucionar problemas de precios, descuentos, acuerdos y devoluciones'
+                  href: procurement/troubleshooting-pricediscountagreements.md
             - name: Directivas de compra
               items:
                 - name: Visión general de las directivas de compra
@@ -1739,6 +1745,8 @@
                   href: procurement/product-receipt-against-purchase-orders.md
                 - name: Visión general de facturas de proveedores
                   href: ../finance/accounts-payable/vendor-invoices-overview.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Solución de problemas de recepción y facturación de productos
+                  href: procurement/troubleshooting-productreceiptinvoicing.md
             - name: Colaboración y gestión de proveedores
               items:
                 - name: Configurar y mantener la colaboración de proveedor
@@ -1765,6 +1773,8 @@
                   href: procurement/vendor-catalogs-import.md
                 - name: Configurar un catálogo externo para la adquisición electrónica de marcaje de salida
                   href: procurement/set-up-external-catalog-for-punchout.md
+                - name: Mejoras de cXML de compra
+                  href: procurement/purchasing-cxml-enhancements.md
                 - name: Usar catálogos externos para la adquisición electrónica de marcaje de salida
                   href: procurement/use-external-catalogs-for-punchout.md
                 - name: Espacio de trabajo de móvil de colaboración de proveedor
@@ -2261,6 +2271,8 @@
                   href: sales-marketing/tasks/manage-order-holds.md
                 - name: Confirmar pedidos de ventas
                   href: sales-marketing/tasks/confirm-sales-orders.md
+                - name: Solucionar problemas de pedidos de ventas
+                  href: sales-marketing/troubleshooting-sales.md
             - name: Acuerdos de venta
               items:
                 - name: Visión general de los acuerdos de ventas
@@ -2283,6 +2295,8 @@
                   href: sales-marketing/tasks/mass-sales-quotations.md
                 - name: Crear y editar presupuestos de ventas
                   href: sales-marketing/tasks/create-edit-sales-quotations.md
+                - name: Solucionar problemas de presupuestos de venta
+                  href: sales-marketing/troubleshooting-salesquotation.md
             - name: Devoluciones
               items:
                 - name: Devoluciones de ventas
@@ -2807,19 +2821,21 @@
                   items:
                     - name: Instalar y conectar la aplicación de almacén
                       href: warehousing/install-configure-warehousing-app.md
-                    - name: Configuración de nombres de campo en la aplicación warehousing
+                    - name: Digitalizar códigos de barras mediante una cámara en la aplicación de almacén
+                      href: warehousing/scan-bar-codes-using-a-camera.md
+                    - name: Configuración de nombres de campo en la aplicación de almacén
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Configurar dispositivos móviles para el trabajo de almacén
                       href: warehousing/configure-mobile-devices-warehouse.md
-                    - name: Digitalizar códigos de barras mediante una cámara en la aplicación de almacén
-                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: Matrícula que se recibe con la aplicación de almacén
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Configurar un elemento de menú del dispositivo móvil para completar el trabajo en un pedido de compra
                       href: warehousing/tasks/set-up-mobile-device-menu.md
                     - name: Configurar un elemento de menú del dispositivo móvil para registrar los artículos recibidos
                       href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
-                    - name: Crear un artículo de menú del dispositivo móvil para la consolidación del número de matrícula
+                    - name: Configurar un elemento de menú de dispositivo móvil para proporcionar una descripción general de la línea de selección
+                      href: warehousing/pick-line-overview.md
+                    - name: Crear un artículo de menú del dispositivo móvil para la consolidación de matrículas
                       href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
                     - name: Matrícula combinada que se recibe en un dispositivo móvil
                       href: warehousing/mixed-license-plate-receiving.md

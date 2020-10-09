@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: e9fbc0e3f3960f25930f9587d489009bc34181c7
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: b663f63552f9de4dbafc0cb71b4381db6d8dc99a
+ms.sourcegitcommit: 71a7fb9e7133d872790ec25def5453bbbb17c627
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772246"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3888165"
 ---
 # <a name="accounts-payable-home-page"></a>Página principal de proveedores
 
@@ -129,7 +129,7 @@ Vaya a los [Planes de la versión Microsoft Dynamics 365](https://go.microsoft.c
 
 Puede encontrar opiniones, noticias y otra información sobre Proveedores y otras soluciones en el blog [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)y el blog [Microsoft Dynamics 365 Finance - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
 
-El [blog de la comunidad Microsoft Dynamics Operations Partner](https://community.dynamics.com/partner/b/operationspartnercommunityblog) proporciona a los socios de Microsoft Dynamics un único recurso desde el que obtener información sobre las novedades y tendencias de MBS Operations.
+El [blog de la comunidad Microsoft Dynamics Operations Partner](https://community.dynamics.com/partner/b/operationspartnercommunityblog) proporciona a los socios de Microsoft Dynamics un único recurso desde el que obtener información sobre las novedades y tendencias de Dynamics 365.
 
 #### <a name="community-blogs"></a>Blogs de la comunidad
 
