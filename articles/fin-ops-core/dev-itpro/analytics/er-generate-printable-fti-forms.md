@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 0bb817de583c231aa55fa81b9e28d788505e0a1f
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 4412fb08c8548c8ebe8455db0547618578e5e5b4
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771292"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893372"
 ---
 # <a name="generate-printable-fti-forms"></a>Generar formularios de FTI imprimibles
 
@@ -111,7 +111,7 @@ También puede generar formularios de FTI al registrar una FTI, activando **Impr
 El marco de ER admite actualmente los siguientes destinos para documentos generados:
 
 - **Archivo descargado**: los formularios generados se proporcionan como descargas que puede guardar mediante el explorador.
-- **Pantalla**: Microsoft Office 365 Excel se usa para obtener una vista previa de los formularios de FTI generados en formato Excel.
+- **Pantalla**: Microsoft 365 Excel se usa para obtener una vista previa de los formularios de FTI generados en formato Excel.
 - **Carpeta de SharePoint**: se almacenan los formularios generados según la configuración del marco de administración de documentos.
 - **Archivo de la aplicación**: los formularios generados se almacenan como archivos adjuntos de los registros de ejecución de Microsoft Azure Storage.
 - **Correo electrónico**: los formularios generados se envía como archivos adjuntos de correo electrónico.
@@ -199,12 +199,12 @@ Use los siguientes elementos del formato de ER de ejemplo para configurar los de
 
 ![Configuración de destino](media/FTIbyGER-ERFileDestinationSettingEmail.png)
 
-El texto predeterminado del asunto y del cuerpo del mensaje de correo electrónico se define en el formato de ER de muestra. El idioma depende de las etiquetas del formato. Este texto predeterminado se utilizará para los mensajes de correo electrónico si no se ha añadido una plantilla de correo electrónico de organización personalizada que tenga el identificador **ERFTITMP** predefinido.
+El texto predeterminado del asunto y del cuerpo del mensaje de correo electrónico se define en el formato de ER de muestra. El idioma depende de las etiquetas del formato. Este texto predeterminado se utilizará para los mensajes de correo electrónico si no se ha agregado una plantilla de correo electrónico de organización personalizada que tenga el identificador **ERFTITMP** predefinido.
 
 > [!NOTE]
 > El identificador de plantilla de correo electrónico **ERFTITMP** se ha definido en el formato de ER de ejemplo. Se puede modificar según sea necesario en un nuevo formato de ER que se crea a partir de este formato de ejemplo.
 
-Si se ha añadido la plantilla de correo electrónico de la organización que tiene el identificador **ERFTITMP** predefinido para la entidad jurídica para la que está procesando la factura, se utilizará la plantilla del asunto y del texto del cuerpo del correo electrónico para generar el correo electrónico. 
+Si se ha agregado la plantilla de correo electrónico de la organización que tiene el identificador **ERFTITMP** predefinido para la entidad jurídica para la que está procesando la factura, se utilizará la plantilla del asunto y del texto del cuerpo del correo electrónico para generar el correo electrónico. 
 
 ![Plantillas de correo electrónico de organización](media/FTIbyGER-EmailTemplate.png)
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-06-30
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: 320e18f7fc61300ed2966afef530907fc9fc5ca5
-ms.sourcegitcommit: e2a47d31175bbd60acfd7a23ffea70c669358572
+ms.openlocfilehash: afbef26cb7b37bafb34f12cc20a88fb4aea9f343
+ms.sourcegitcommit: ad5b7676fc1213316e478afcffbfaee7d813f3bb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "3690055"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "3885260"
 ---
 # <a name="process-automation"></a>Automatización de procesos
 
@@ -35,13 +35,16 @@ La página de administración central para todas las automatizaciones de proceso
 
 Cualquier proceso que esté deshabilitado en la administración de características no se mostrará cuando la característica esté deshabilitada. Además, el motor de programación de automatización de procesos no programará ninguna instancia ni procesos en segundo plano para una característica deshabilitada. Si se vuelve a habilitar la característica, las instancias programadas o los procesos en segundo plano del pasado se ejecutarán de inmediato.
 
-## <a name="calendar-view"></a>Vista de calendario 
+## <a name="calendar-view"></a>Vista de calendario
+
 Uno de las principales ventajas de la automatización de procesos es la capacidad de ver el trabajo programado en una vista de calendario sencilla.  Esta vista le permite ver de una vez el trabajo para una semana. Verá esta vista en el lado derecho de la página **Automatización de procesos**. Se rellenará con el trabajo programado para la serie seleccionada. 
 
 [![Calendario de automatización de procesos](./media/CalendarView2.png)](./media/CalendarView2.png)
 
 ## <a name="occurrence-changes"></a>Cambios de repetición
-Cada repetición puede modificarse sin afectar otras repeticiones definidas por la serie que las originó. Las repeticiones de trabajo programado se pueden editar desde la vista de calendario seleccionando el botón **Ver o editar** y seleccionando **Repetición**. Esto le permite acceder a todas las configuraciones que se muestran originalmente en el asistente para la configuración de la serie y le brinda la posibilidad de realizar un cambio único para la repetición seleccionada. Una repetición de trabajo programado también se puede desactivar seleccionando el botón **Deshabilitar** de la vista de calendario. 
 
-## <a name="developer-documentation"></a>Documentación del desarrollador 
-Actualmente se está escribiendo la documentación del desarrollador para permitir a los desarrolladores ampliar el marco de automatización de procesos. Esta documentación brindará información sobre cómo puede crear procesos personalizados que necesitan ser ejecutados por el servidor por lotes programado con el asistente de automatización de procesos y que aparecen automáticamente en la vista de calendario.
+Cada repetición puede modificarse sin afectar otras repeticiones definidas por la serie que las originó. Las repeticiones de trabajo programado se pueden editar desde la vista de calendario seleccionando el botón **Ver o editar** y seleccionando **Repetición**. Esta página le permite acceder a todas las configuraciones que se muestran originalmente en el asistente para la configuración de la serie y le brinda la posibilidad de realizar un cambio único para la repetición seleccionada. Una repetición de trabajo programado también se puede desactivar seleccionando el botón **Deshabilitar** de la vista de calendario.
+
+## <a name="developer-documentation"></a>Documentación del desarrollador
+
+El marco de automatización de procesos permite a los desarrolladores ampliar el marco de automatización de procesos. La documentación del [Marco de automatización de procesos](../process-automation/process-automation-framework.md) proporciona información sobre cómo puede crear procesos personalizados que deben ser ejecutados por el servidor por lotes programado con el asistente de automatización de procesos y que aparecen automáticamente en la vista de calendario.

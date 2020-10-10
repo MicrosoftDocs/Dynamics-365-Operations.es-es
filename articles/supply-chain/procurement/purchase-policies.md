@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c46c4c060d61503779726c68d32449c87b441f1
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 7f170fc501e995bf9497d86501f4e086e486d0fb
+ms.sourcegitcommit: 8fe59d216154dbed1208274f44707465b668a8e0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207911"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3830758"
 ---
 # <a name="purchasing-policies-overview"></a>Visión general de las directivas de compra
 
@@ -102,9 +102,9 @@ La regla de solicitud de presupuesto de solicitud de compra define los criterios
 
 ### <a name="purchase-requisition-control-rule"></a>Regla de control de la solicitud de compra
 
-La regla de control de solicitud de compra es una regla opcional. Cuando crea reglas de este tipo, puede establecer opciones en diferentes fichas:
+La regla de control de solicitud de compra para solicitudes de tipo **consumo** es opcional. Cuando crea reglas de este tipo, puede establecer opciones en diferentes fichas:
 
--   En la ficha **Envío de flujo de trabajo** puede configurar los campos que deben incluirse en la línea de solicitud para enviar la solicitud para que se apruebe cuando el propósito de solicitud sea **Consumo**.
+-   En la ficha **Envío de flujo de trabajo** puede configurar los campos que deben incluirse en la línea de solicitud con el fin de enviar la solicitud para su aprobación.
 -   En la ficha **Cantidades de pedido** puede configurar los campos necesarios en la solicitud de compra en determinadas condiciones. También puede exigir cantidades de pedido.
 -   En la ficha **Fechas**, puede configurar si la fecha de contabilidad es la misma que la fecha solicitada.
 -   En la ficha **Dirección** puede definir si se permite al usuario crear nuevas direcciones en el sistema para aplicarlo a la solicitud de compra.

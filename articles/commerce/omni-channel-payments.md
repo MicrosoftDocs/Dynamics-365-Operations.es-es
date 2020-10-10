@@ -3,7 +3,7 @@ title: Información general de pagos omnicanal
 description: Este tema proporciona una visión general de los pagos de omnicanal en Dynamics 365 Commerce.
 author: rubendel
 manager: AnnBe
-ms.date: 07/21/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: 2127eb60a82bef8c6b5f5e9a917160331c483649
-ms.sourcegitcommit: 59fb179c770c799918f624cf345848fd4202bbdd
+ms.openlocfilehash: 80eaf36fb382e0ebe0a66383ea17ab76faa07dfa
+ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "3613186"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3819822"
 ---
 # <a name="omni-channel-payments-overview"></a>Información general de pagos omnicanal
 
@@ -35,7 +35,7 @@ Este tema proporciona una visión general de los pagos de omnicanal en Dynamics 
 
 | Condición | Descripción |
 |---|---|
-| Token de  | Una cadena de datos que un procesador de pago proporciona como referencia. Los tokens pueden representar los números de la tarjeta de pago, las autorizaciones de pago y las capturas anteriores del pago. Los tokens son importantes pues ayudan a mantener datos confidenciales fuera del sistema de punto de venta (POS). A veces también se conocen como *referencias*. |
+| Token | Una cadena de datos que un procesador de pago proporciona como referencia. Los tokens pueden representar los números de la tarjeta de pago, las autorizaciones de pago y las capturas anteriores del pago. Los tokens son importantes pues ayudan a mantener datos confidenciales fuera del sistema de punto de venta (POS). A veces también se conocen como *referencias*. |
 | Token de tarjeta | Un token que un procesador de pago proporciona para el almacenamiento en el sistema POS. Un token de tarjeta solo puede usarlo el comerciante que lo recibe. Los tokens de tarjeta a veces también se conocen como *referencias de tarjeta*. |
 | Token de autorización (auth) | Identificador único que un proceso de pago proporciona como parte de la respuesta que envía a un sistema POS después de que el sistema POS haga una solicitud de autorización. Un token de autorización se puede usar más adelante si llaman al procesador para realizar acciones como invertir o anular la autorización. Sin embargo, se usa más a menudo para capturar fondos al completar un pedido o finalizar una transacción. Los tokens de autorización a veces también se conocen como *referencias de autorización*. |
 | Token de captura | Una referencia que un procesador de pago proporciona a un sistema POS cuando finaliza o se obtiene un pago. El token de la captura se puede utilizar para hacer referencia a la captura de pago en operaciones posteriores, como solicitudes de devolución. | 
@@ -93,6 +93,9 @@ Se admiten los siguientes escenarios de pago de omnicanal:
 - Comprar en la tienda A, recoger en la tienda B
 - Comprar en la tienda A, enviar al cliente
 
+    > [!NOTE]
+    > Los pagos realizados en el centro de llamadas que se asignan a la función de pago "Normal" deben marcarse como **Pagar por adelantado** = **Sí** para que se reflejen en el importe adeudado al retirar el pedido en el PDV. Los pagos sin prepago de tipo "Normal" no se reconocen cuando se retira el pedido en el PDV. 
+
 Las variaciones de estos casos también se admiten. Por ejemplo, un pedido en línea puede incluir ambas líneas que se registrarán en el cliente y las líneas que se recogerán en una tienda. Todas las opciones de cumplimiento de pedido se admiten a través de pagos de omnicanal. 
 
 En las secciones siguientes se describen los pasos para cada escenario y se presenta cómo trabajar con la situación de ejemplo con datos de prueba. 
@@ -133,7 +136,7 @@ Para ejecutar el escenario, siga estos pasos:
 5. En la nueva página del pedido de ventas, seleccione **Encabezado** para ver el encabezado del pedido. 
 6. En la página **Encabezado del pedido**, establezca el sitio en **Central** y el almacén en **Houston**.
 7. En la pestaña **Entrega**, establezca el campo **Modo de entrega** a **60** para la recogida del cliente.
-8. Seleccione **Líneas**, y luego añada una o más líneas al pedido. 
+8. Seleccione **Líneas**, y luego agregue una o más líneas al pedido. 
 9. Seleccione **Completar** para especificar el flujo de la finalización del pedido.
 10. Desplácese hasta la sección de los pagos, seleccione **Agregar** y seleccione una línea que en la que el tipo de método de pago sea **Tarjetas**. 
 11. Seleccione el signo más (**+**) para agregar un pago de tarjeta. 
@@ -161,7 +164,7 @@ Para ejecutar el escenario, siga estos pasos:
 
 1. Iniciar el sistema PDV para la tienda de Houston.
 2. En la página **Transacción**, agregue Karen Berg a la transacción mediante el teclado numérico especificando **2001**.
-3. Añada una o más líneas a la transacción.
+3. Agregue una o más líneas a la transacción.
 4. Seleccione **Pedidos** para ver opciones de pedido.
 5. Seleccione **Recoger todos** y, a continuación, cuando el sistema lo solicite, seleccione **Pedido de cliente**.
 6. En la barra de búsqueda, introduzca **Seattle**, y seleccione la tienda de **Seattle** para la recogida. 
@@ -188,10 +191,10 @@ Para ejecutar el escenario, siga estos pasos:
 
 1. Iniciar el sistema PDV para la tienda de Houston.
 2. En la página **Transacción**, agregue Karen Berg a la transacción mediante el teclado numérico especificando **2001**.
-3. Añada una o más líneas a la transacción.
+3. Agregue una o más líneas a la transacción.
 4. Seleccione **Pedidos** para ver opciones de pedido.
-5. Seleccione **Recoger todos** y, a continuación, cuando el sistema lo solicite, seleccione **Pedido de cliente**.
-6. En la barra de búsqueda, introduzca **Seattle**, y seleccione la tienda de **Seattle** para la recogida. 
+5. Seleccione **Enviar todo** y, a continuación, cuando el sistema lo solicite, seleccione **Pedido de cliente**.
+6. En la página del método de envío, seleccione **Estándar nocturno** y después seleccione **Aceptar** para aceptar la fecha actual como fecha de envío. 
 7. Seleccione **Aceptar** para aceptar la fecha actual como la fecha de la recogida.
 8. Seleccionar **Pagar con tarjeta** para iniciar el pago.
 9. Introduzca la cantidad del pago por tarjeta que se debe depositar. 
@@ -233,5 +236,5 @@ Cuando un pedido que tenga varias líneas y formas de pago se recoge, primero el
 
 - [Preguntas frecuentes sobre pagos](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/payments-retail)
 - [Conector de pago de Dynamics 365 para Adyen](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
-- [Configurar BOPIS en un entorno de evaluación de Dynamics 365 Commerce](https://docs.microsoft.com/en-us/dynamics365/commerce/cpe-bopis)
+- [Configurar BOPIS en un entorno de evaluación de Dynamics 365 Commerce](https://docs.microsoft.com/dynamics365/commerce/cpe-bopis)
 

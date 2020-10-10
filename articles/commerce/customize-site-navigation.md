@@ -3,7 +3,7 @@ title: Personalizar navegación del sitio
 description: Este tema describe cómo crear una jerarquía de navegación en línea personalizada para organizar sus productos para examinar en su sitio de Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ae7696dcb5cdd99cd46b89ed1de1b03c16146e2d
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: c2b6a7a3b35873e80be391c627d0397fd6398a99
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269668"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817239"
 ---
 # <a name="customize-site-navigation"></a>Personalizar navegación del sitio
 
@@ -81,7 +81,7 @@ Para poner la jerarquía de navegación a disposición de su escaparate en líne
 Para mostrar su jerarquía de categoría en su escaparate en línea, debe agregar el módulo de menú de navegación en la ubicación adecuada en una plantilla o fragmento. El módulo de menú de navegación mostrará a continuación la jerarquía de navegación, siempre que haya publicado la jerarquía de navegación para el canal al que está enlazado el sitio.
 
 > [!NOTE]
-> El módulo de menú de navegación que se incluye en el kit de inicio de la tienda permite a los usuarios navegar solo a las categorías que no tienen subcategorías. Si sus clientes deben poder navegar a las categorías con subcategorías, debe personalizar el módulo del menú de navegación.
+> El módulo de menú de navegación que se incluye en la biblioteca de módulos permite a los usuarios navegar solo a las categorías que no tienen subcategorías. Si sus clientes deben poder navegar a las categorías con subcategorías, debe personalizar el módulo del menú de navegación.
 
 ## <a name="add-custom-navigation-options"></a>Agregar opciones de navegación personalizadas
 

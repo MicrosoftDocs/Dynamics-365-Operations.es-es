@@ -1,9 +1,9 @@
 ---
-title: Visión general de kit de inicio
-description: Este tema presenta una visión general del kit de inicio de Microsoft Dynamics 365 Commerce.
+title: Visión general de la biblioteca de módulos
+description: Este tema presenta una visión general de la biblioteca de módulos de Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,29 +18,28 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1960e1354744fe1034783177ba331f5877d0bee7
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: dfc52dd8e14bb2e9f2f9c026ee0e058aee4cedcb
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025911"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817835"
 ---
-# <a name="starter-kit-overview"></a>Visión general de kit de inicio
-
+# <a name="module-library-overview"></a>Visión general de la biblioteca de módulos
 
 [!include [banner](includes/banner.md)]
 
-Este tema presenta una visión general del kit de inicio de Microsoft Dynamics 365 Commerce.
+Este tema presenta una visión general de la biblioteca de módulos de Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Visión general
+## <a name="overview"></a>Información general
 
-El kit de inicio de Dynamics 365 Commerce es una colección de módulos que se puede usar para crear un sitio web de comercio electrónico. Los módulos tienen tanto aspectos de la interfaz de usuario (IU) como aspectos de comportamiento funcional.
+La biblioteca de módulos de Dynamics 365 Commerce es una colección de módulos que se pueden usar para crear un sitio web de comercio electrónico. Los módulos tienen tanto aspectos de la interfaz de usuario (IU) como aspectos de comportamiento funcional.
 
-Se pueden aplicar temas a los módulos del kit de inicio para cambiar su aspecto. Los temas usan hojas de estilo CSS (CSS). Se proporciona un tema para un sitio de comercio electrónico ficticio con el nombre “Fabrikam” como parte de kit de inicio y se puede utilizar como referencia.
+Se pueden aplicar temas a los módulos de la biblioteca de módulos para cambiar su aspecto. Los temas usan hojas de estilo CSS (CSS). Se proporciona un tema para un sitio de comercio electrónico ficticio con el nombre “Fabrikam” como parte de la biblioteca de módulos y se puede utilizar como referencia.
 
-## <a name="starter-kit-modules"></a>Módulos de kit de inicio
+## <a name="module-library-modules"></a>Módulos de la biblioteca de módulos
 
-Los siguientes tipos de módulos se proporcionan en el kit de inicio:
+En la biblioteca de módulos se proporcionan los siguientes tipos de módulos:
 
 - **Módulo de contenedor**: un módulo de contenedor es un módulo sencillo que actúa como host para otros módulos. Controla el diseño de los módulos que se encuentran dentro.
 - **Módulos de marketing**: los módulos de marketing incluyen módulos de carrusel, bloque de contenido, bloque de texto y reproductor de vídeo. Todos estos módulos se pueden usar para mostrar el contenido. Se pueden colocar en cualquier página y se controlan por datos desde el sistema de gestión de contenidos (CMS).

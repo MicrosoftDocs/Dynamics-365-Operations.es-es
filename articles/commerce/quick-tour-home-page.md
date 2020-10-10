@@ -3,7 +3,7 @@ title: Visión general de la página principal
 description: Este tema proporciona una visión general de la página principal en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/30/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c51c5af38f4ba50bbad124de4ac7f66be4001fa6
-ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
+ms.openlocfilehash: 3ebc8b4ebd3720815cdaaab708fbfdd8302cbea1
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527594"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817763"
 ---
 # <a name="home-page-overview"></a>Visión general de la página principal
 
@@ -34,7 +34,7 @@ Este tema proporciona una visión general de la página principal en Microsoft D
 
 La página principal es la página predeterminada a la que van los compradores cuando visitan un sitio de comercio electrónico. Normalmente, esta página muestra productos y promociones mediante una combinación de módulos de marketing. La página principal debe estar enriquecida con imágenes y texto para mantener a los compradores interesados.
 
-En la siguiente ilustración se muestra un ejemplo de una página principal que se creó mediante el kit de inicio en línea y el tema de “Fabrikam”.
+En la siguiente ilustración se muestra un ejemplo de una página principal que se creó mediante la biblioteca de módulos y el tema de “Fabrikam”.
 
 ![Ejemplo de una página principal](./media/Homepage2.PNG)
 

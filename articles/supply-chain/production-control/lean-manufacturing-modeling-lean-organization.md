@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: LeanProductionFlow, PlanActivity
+ms.search.form: LeanProductionFlow, PlanActivity, KanbanFlowSelection, KanbanFlow
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 33e734aef938c7b58d5c936f6eae32e4f0ab3ba7
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 2c6c6602728ed88e7b293dc6308564493e936ecb
+ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211454"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826367"
 ---
 # <a name="modeling-a-lean-organization"></a>Modelar una organización eficiente
 
@@ -32,7 +32,7 @@ ms.locfileid: "3211454"
 
 El artículo proporciona información sobre los conceptos clave en los modelos de una organización lean. 
 
-Normalmente, una situación de lean manufacturing (suele ser superior a únicamente una colección de reglas kanban o de directivas de suministro de material sin relación. El flujo de materiales y productos en las celdas de trabajo y las ubicaciones para una situación de producción o de suministro específicas se pueden describir como una secuencia o pequeña red de proceso o de actividades de transferencia. Esta secuencia o red se conoce como flujo de producción.
+Normalmente, una situación de lean manufacturing suele ser superior a únicamente una colección de reglas kanban o de directivas de suministro de material sin relación. El flujo de materiales y productos en las celdas de trabajo y las ubicaciones para una situación de producción o de suministro específicas se pueden describir como una secuencia o pequeña red de proceso o de actividades de transferencia. Esta secuencia o red se conoce como flujo de producción.
 
 ## <a name="production-flows-in-lean-manufacturing"></a>Flujos de producción en lean manufacturing
 En las situaciones de producción que se basan en pedidos de producción, el material se emite a un pedido de producción específico. Durante una secuencia de operaciones que se basan una lista de materiales (L. Mat) y las rutas, los productos se crean y finalmente se reciben en la ubicación proporcionada. El tiempo de capacidad de proceso de pedidos de producción varía de minutos a semanas. Todo el coste, material y trabajo relacionado se acumula en el pedido de producción. 

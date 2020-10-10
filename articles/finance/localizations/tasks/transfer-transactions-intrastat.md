@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: EcoResCategoryHierarchyListPage, EcoResCategory, UnitOfMeasureLookup, ProcCategoryAddCommodityCode, EcoResProductDetailsExtended, IntrastatCommodityLookup, IntrastatTransactionCode, IntrastatParameters, DeliveryMode, MarkupTable, SalesTableListPage, SalesCreateOrder, SalesTable, MarkupTrans, SalesEditLines,  Intrastat, SysQueryForm
+ms.search.form: EcoResCategoryHierarchyListPage, EcoResCategory, UnitOfMeasureLookup, ProcCategoryAddCommodityCode, EcoResProductDetailsExtended, IntrastatCommodityLookup, IntrastatTransactionCode, IntrastatParameters, DeliveryMode, MarkupTable, SalesTableListPage, SalesCreateOrder, SalesTable, MarkupTrans, SalesEditLines,  Intrastat, SysQueryForm, DeliveryReason, DeliveryTerms, DestinationCode
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: anasyash
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6fa397eb8dbce9418ca3da010e64165e0d399502
-ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
+ms.openlocfilehash: 9c47412c8ae68b396de41f04731b841f592dcba9
+ms.sourcegitcommit: 54da65a7da0efd4f0d9760c5b14ff785b28751c4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3139089"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3830149"
 ---
 # <a name="transfer-transactions-to-the-intrastat"></a>Transferir transacciones a intrastat
 
@@ -74,7 +74,7 @@ Este procedimiento le guía por cómo configurar parámetros de intrastat y tran
 2. Haga clic en **Nuevo**.
 3. En el campo **Código de transacción**, escriba un valor. Por ejemplo, especifique **21** para el código de transacción que se usa como devolución.  
 4. En el campo **Nombre**, escriba el nombre del código de la transacción. Por ejemplo, especifique **Devolución".**  
-5. En el campo **Importe estadístico**, seleccione una opción. Por ejemplo, seleccione **Vacía** que indica que el valor estadístico que se notificará para las transacciones con el código de transacción de **21**será siempre cero.  
+5. En el campo **Importe estadístico**, seleccione una opción. Por ejemplo, seleccione **Vacía** que indica que el valor estadístico que se notificará para las transacciones con el código de transacción de **21** será siempre cero.  
 6. En el panel de navegación, vaya a **Módulos > Tax > configuración > comercio exterior > Parámetros de comercio exterior**.
 7. En el campo **Código de transacción**, especifique o seleccione un valor. Por ejemplo, **11**.  
 8. En el campo **Nota de abono**, especifique o seleccione un valor. Este valor también identifica la devolución física. La nota de abono para la devolución física se transferirá en el diario de Intrastat con la dirección opuesta. Por ejemplo, la devolución de llegada se transfiere como distribución.   De lo contrario, la nota de abono se considera una corrección y se transfiere con la misma dirección y signo opuesto. Por ejemplo, la corrección de llegada se transfiere como llegada con importe negativo y el indicador activa se establece en **Corrección**.  

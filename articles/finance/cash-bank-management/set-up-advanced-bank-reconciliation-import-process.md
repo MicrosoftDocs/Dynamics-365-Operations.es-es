@@ -1,7 +1,7 @@
 ---
 title: Configurar el proceso de importación avanzada de conciliación bancaria
 description: La característica de conciliación bancaria avanzada le permite importar extractos bancarios electrónicos y conciliarlos automáticamente con transacciones bancarias en Microsoft Dynamics 365 Finance. En este artículo se explica cómo configurar la funcionalidad de importación para los extractos bancarios.
-author: ShylaThompson
+author: panolte
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 106853
 ms.assetid: 45dae275-ea45-4c7e-b38f-89297c7b5352
 ms.search.region: Global
-ms.author: saraschi
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4d9a2f6efad6b8ddf3a445fe7831244e161c35d5
-ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
+ms.openlocfilehash: 45f997a91701e3fc63278cdba3479dec9dc7a467
+ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2578204"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3899675"
 ---
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Configurar el proceso de importación avanzada de conciliación bancaria
 
@@ -36,7 +36,7 @@ La configuración de la importación del extracto bancario varía en función de
 ## <a name="set-time-zone-preference"></a>Establecer preferencia de zona horaria
 Cuando configure los valores de importación del extracto bancario, puede ser importante considerar la zona horaria de los datos de fecha y hora dentro de los archivos de extracto bancario que se importarán. El valor predeterminado es asumir que los valores de fecha y hora ya están en la hora universal coordinada (UTC) así que no se aplicará ninguna conversión de la zona horaria al importar los datos. 
 
-Hay una opción disponible para especificar la zona horaria a utilizar para importar datos. Esta opción está disponible en el campo **Preferencia de la zona horaria** en cada página **Detalles sobre el formato de datos de origen** (ficha desplegable **Gestión de datos del espacio de trabajo > Configurar fuentes de datos > Seleccionar un formato de fecha > Configuración regional**). Esta preferencia de zona horaria que especifique se aplicará a todas las importaciones que usan dicho formato de datos de origen. Puede crear tantos formatos del origen de datos según sea necesario para importar datos de varias zonas horarias.  
+Hay una opción disponible para especificar la zona horaria a utilizar para importar datos. Esta opción está disponible en el campo **Preferencia de la zona horaria** en cada página **Detalles sobre el formato de datos de origen** (ficha desplegable **Gestión de datos del espacio de trabajo > Configurar orígenes de datos > Seleccionar un formato de fecha > Configuración regional**). Esta preferencia de zona horaria que especifique se aplicará a todas las importaciones que usan dicho formato de datos de origen. Puede crear tantos formatos del origen de datos según sea necesario para importar datos de varias zonas horarias.  
 
 Esta zona horaria puede no ser igual a una zona horaria del usuario o de la empresa, por lo que esté seguro de aclarar qué zona horaria están usando los datos. Recomendamos que tenga en cuenta los puntos siguientes al establecer una preferencia de zona horaria. 
 

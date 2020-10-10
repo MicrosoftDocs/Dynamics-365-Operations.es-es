@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: JmgRegistrationSetupTouch
+ms.search.form: JmgRegistrationSetupTouch, JmgRegistrationTouchUserConfiguration
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: fc698ac7e0cfc8d6b196abf35658688ad1bc8bc7
-ms.sourcegitcommit: 6319a07ee6c36ebb28acaf205bc79d2fd8f7dd5d
+ms.openlocfilehash: e072f99b0b0df75f1b9706362b429bbc4568473a
+ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/30/2020
-ms.locfileid: "3413179"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826703"
 ---
 # <a name="configure-job-card-for-devices"></a>Configurar tarjeta de trabajo para dispositivos
 
@@ -72,7 +72,7 @@ La ficha desplegable **General** le permite configurar cada una de las diversas 
 - **Usear el tiempo real de registro**: establezca esto en **Sí** para establecer que el tiempo para que cada nuevo registro sea igual al tiempo exacto en que un trabajador envió el registro. Establézcalo en **No** para utilizar el tiempo de inicio de sesión en su lugar. Por lo general, querrá configurar esto en **Sí**, caso de que haya habilitado las opciones **Bloquear empleado** y/o **Trabajador único**, donde los trabajadores a menudo permanecen con sesión iniciada durante períodos más largos.
 - **Trabajador único**: establezca esta opción en **Sí** si solo un trabajador usa cada dispositivo de tarjeta de trabajo en el que esta configuración está activa. Cuando se selecciona esta opción, la opción **Bloquear empleado** se configura automáticamente en **Sí**. Además, esta opción elimina el requisito (y la capacidad) de que el trabajador inicie sesión con un identificador de distintivo (o similar). En cambio, el trabajador inicia sesión en Supply Chain Management utilizando una cuenta de usuario del sistema vinculada a un *trabajador con tiempo registrado* (desde la tabla *trabajadores*) y se conecta al dispositivo de la tarjeta de trabajo como ese trabajador al mismo tiempo.  Para obtener más información sobre estos tipos de cuentas, consulte [Usuarios asignados](#assigned-users).
 - **Permitir a los trabajadores establecer filtros personales**: establezca esta opción en **Sí** para permitir que los trabajadores filtren los trabajos que se les muestran en el dispositivo. El trabajador puede modificar valores para cualquiera de los tres criterios de filtro: **Unidad de producción**, **Grupo de recursos** y **Recurso**. Solo se mostrarán en el dispositivo los trabajos programados en recursos que coincidan con los criterios de filtro seleccionados. También puede asignar valores predeterminados para cualquiera o todos estos criterios, y estos se aplicarán incluso con esta opción no seleccionada.
-- **Permitir bloquear la pantalla táctil**: establezca esta opción en **Sí** para permitir que los trabajadores bloqueen la pantalla táctil del dispositivo de la tarjeta de trabajo para que puedan desinfectarla. Cuando está habilitado, se añade un botón **Bloqueo de pantalla para desinfectar** a la página de inicio de sesión del dispositivo. Cuando un trabajador selecciona este botón, la pantalla táctil se bloquea temporalmente para evitar entradas no deseadas y se muestra un temporizador de cuenta descendente. El trabajador ahora puede limpiar de forma segura el dispositivo y la pantalla. Cuando finaliza la cuenta descendente, la pantalla táctil se desbloquea automáticamente de nuevo.
+- **Permitir bloquear la pantalla táctil**: establezca esta opción en **Sí** para permitir que los trabajadores bloqueen la pantalla táctil del dispositivo de la tarjeta de trabajo para que puedan desinfectarla. Cuando está habilitado, se agrega un botón **Bloqueo de pantalla para desinfectar** a la página de inicio de sesión del dispositivo. Cuando un trabajador selecciona este botón, la pantalla táctil se bloquea temporalmente para evitar entradas no deseadas y se muestra un temporizador de cuenta descendente. El trabajador ahora puede limpiar de forma segura el dispositivo y la pantalla. Cuando finaliza la cuenta descendente, la pantalla táctil se desbloquea automáticamente de nuevo.
 - **Duración del bloqueo de pantalla**: cuando la opción**Permitir bloqueo de pantalla táctil** está habilitada, use esta opción para especificar la cantidad de segundos que la pantalla táctil debe estar bloqueada para desinfectar. La duración debe estar entre 5 y 120 segundos.
 - **Unidad de producción**: seleccione una unidad de producción para aplicar como criterio de filtro predeterminado para la lista de trabajos que se muestra a cada trabajador. El dispositivo solo mostrará inicialmente los trabajos programados en los recursos agrupados en la unidad de producción seleccionada. Si **Permitir a los trabajadores establecer filtros personales** está habilitado, los trabajadores podrán editar este valor; de lo contrario, este filtro siempre se aplicará cuando la configuración de este dispositivo esté activa.
 - **Grupo de recursos**: seleccione un grupo de recursos a aplicar como criterio de filtro predeterminado para la lista de trabajos que se muestra a cada trabajador. El dispositivo solo mostrará inicialmente en el dispositivo los trabajos programados en el grupo de recursos seleccionado. Si **Permitir a los trabajadores establecer filtros personales** está habilitado, los trabajadores podrán editar este valor; de lo contrario, este filtro siempre se aplicará cuando la configuración de este dispositivo esté activa.

@@ -3,7 +3,7 @@ title: Módulo selector de tienda
 description: En este tema se trata el modulo selector de tienda y se describe la forma de agregarlo a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,17 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1531b27dad4188dca96cf5728a9858f94001977c
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 4438e46d4653a0cd2060092695f08613cd696f4e
+ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646144"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3818259"
 ---
 # <a name="store-selector-module"></a>Módulo selector de tienda
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 En este tema se trata el modulo selector de tienda y se describe la forma de agregarlo a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 
@@ -65,7 +64,7 @@ Para que funcione este escenario, los productos deben configurarse para poder ut
 
 La siguiente imagen muestra un ejemplo de un módulo selector de tienda utilizado en un PDP.
 
-![Ejemplo de un módulo selector de tienda](./media/BOPIS.PNG)
+![Ejemplo de un módulo selector de tienda utilizado en un PDP](./media/BOPIS.PNG)
 
 ## <a name="find-stores-mode"></a>Modo Buscar tiendas
 
@@ -73,7 +72,7 @@ El módulo selector de tienda también admite un modo **Buscar tiendas**. Este m
 
 La siguiente ilustración muestra un ejemplo de un módulo selector de tiendas que se utiliza junto con un módulo de mapa en una página de ubicaciones de tiendas.
 
-![Ejemplo de un módulo selector de tienda](./media/ecommerce-Storelocator.PNG)
+![Ejemplo de un módulo selector de tienda y un módulo de mapa en una página de ubicaciones de tiendas](./media/ecommerce-Storelocator.PNG)
 
 ## <a name="render-a-map"></a>Representar un mapa
 
@@ -127,7 +126,7 @@ Para configurar el módulo selector de tiendas para mostrar las tiendas disponib
  
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general del kit de inicio](starter-kit-overview.md)
+[Visión general de la biblioteca de módulos](starter-kit-overview.md)
 
 [Módulo de cuadro de compra](add-buy-box.md)
 

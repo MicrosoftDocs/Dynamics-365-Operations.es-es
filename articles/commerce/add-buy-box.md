@@ -3,7 +3,7 @@ title: Módulo de cuadro de compra
 description: En este tema se tratan los módulos de cuadro de compra y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6556ee8acf1e24a9f6ceddb622960cb3ac891852
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: e07bf02f10c943947fdf9ed3333373b859ff5b6c
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761306"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817094"
 ---
 # <a name="buy-box-module"></a>Módulo de cuadro de compra
 
@@ -73,11 +73,14 @@ Las siguientes opciones de cuadro de compra pueden configurarse en **Configuraci
 
 - **Límite de cantidad de línea de carro**: esta propiedad se usa para especificar el número máximo de cada artículo que se puede agregar al carro. Por ejemplo, un minorista puede decidir si solo 10 de cada producto se pueden vender en una única transacción.
 - **Inventario**: para obtener información sobre cómo aplicar la configuración de inventario, consulte [Aplicar configuración de inventario](inventory-settings.md).
-- **Añadir al carro**: esta propiedad se utiliza para especificar el comportamiento después de agregar un artículo al carro. Los valores posibles son **Navegar al carro**, **No navegar al carro** y **Mostrar notificaciones**. Cuando el valor se establece en **Navegar al carro**, se envía a los usuarios a la página del carro después de agregar un artículo. Cuando el valor se establece en **No navegar al carro**, se envía a los usuarios a la página del carro después de agregar un artículo. Cuando el valor se establece en **Mostrar notificaciones**, los usuarios reciben una notificación de confirmación y pueden continuar navegando en la página de detalles del producto. 
+- **Agregar al carro**: esta propiedad se utiliza para especificar el comportamiento después de agregar un artículo al carro. Los valores posibles son **Navegar al carro**, **No navegar al carro** y **Mostrar notificaciones**. Cuando el valor se establece en **Navegar al carro**, se envía a los usuarios a la página del carro después de agregar un artículo. Cuando el valor se establece en **No navegar al carro**, se envía a los usuarios a la página del carro después de agregar un artículo. Cuando el valor se establece en **Mostrar notificaciones**, los usuarios reciben una notificación de confirmación y pueden continuar navegando en la página de detalles del producto. 
 
-    La siguiente imagen muestra un ejemplo de una notificación de confirmación de "agregado al carro" en el sitio de Fabrikam.
+> [!IMPORTANT]
+> La configuración de sitio **Agregar al carro** está disponible en Dynamics 365 Commerce 10.0.11. Si está actualizando desde una versión anterior de Dynamics 365 Commerce, debe actualizar manualmente el archivo appsettings.json. Para obtener instrucciones sobre cómo actualizar el archivo appsettings.json, consulte [Actualizaciones de SDK y biblioteca de módulos](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file). 
 
-    ![Ejemplo de un módulo de notificación](./media/ecommerce-addtocart-notifications.PNG)
+La siguiente imagen muestra un ejemplo de una notificación de confirmación de "agregado al carro" en el sitio de Fabrikam.
+
+![Ejemplo de un módulo de notificación](./media/ecommerce-addtocart-notifications.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Interacción con Commerce Scale Unit
 
@@ -111,7 +114,7 @@ Para agregar un módulo de cuadro de compra a una página nueva y establecer las
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general del kit de inicio](starter-kit-overview.md)
+[Visión general de la biblioteca de módulos](starter-kit-overview.md)
 
 [Módulo de selector de tienda](store-selector.md)
 
@@ -129,6 +132,8 @@ Para agregar un módulo de cuadro de compra a una página nueva y establecer las
 
 [Módulo de pie de página](author-footer-module.md)
 
-[Módulo Compartir en redes sociales](social-share-module.md)
+[Módulo de compartir en redes sociales](social-share-module.md)
 
 [Calcular la disponibilidad de inventario para canales comerciales](calculated-inventory-retail-channels.md)
+
+[Actualizaciones de SDK y biblioteca de módulos](e-commerce-extensibility/sdk-updates.md)

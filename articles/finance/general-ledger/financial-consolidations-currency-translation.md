@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: a67e5e3aea33e874f225a6af606fc8cde2bdc6bf
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 2a6685a2dcf9d7bf7ac82c3dede9c3ece0c08698
+ms.sourcegitcommit: 7537aa8ef619eea6c48467a3ca86e3372415f8a7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771854"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "3823464"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Visión general de la conversión de consolidaciones financieras y divisa
 
@@ -103,6 +103,7 @@ Para ver los resultados de la consolidación, tiene varias opciones:
     ![Transacciones de consolidación en la página Consolidaciones](./media/managing-consolidation-transactions.png "Transacciones de consolidación en la página Consolidaciones")
 
 Para ejecutar la consolidación de nuevo, simplemente puede procesar la consolidación. Como alternativa, puede seleccionar **Eliminar transacciones** en la página **Consolidaciones**.
+En caso de que los saldos de su cuenta consolidada no sean precisos, estos saldos se pueden corregir utilizando la página **Ajustes del período de cierre**.
 
 ## <a name="consolidate-with-import"></a>Consolidar con importación
 La funcionalidad Consolidar con importación funciona como la funcionalidad Consolidar en línea. Cuando selecciona las entidades jurídicas, se examina el archivo de origen que contiene los datos.
@@ -156,6 +157,7 @@ Para obtener más información sobre cómo funciona la revalorización de divisa
 - Los diarios de eliminaciones sólo se pueden registrar en la capa actual.
 - Sólo los saldos en funcionamiento se consolidan. Por lo tanto, para ver los saldos de apertura, debe ejecutar igualmente un cierre de fin de año en la empresa de consolidación.
 - Puede registrar un diario en una empresa de eliminación, pero no en una empresa de consolidación.
+- Los ajustes a los saldos en una empresa de consolidación solo se pueden realizar utilizando la página **Ajustes del período de cierre**. 
 
 ## <a name="benefits-of-using-financial-reporting-for-financial-consolidations-and-currency-translation-or-to-complement-consolidate-online-for-consolidated-reporting"></a>Beneficios de usar el informe financiero para las consolidaciones financieras y la conversión de divisas, o para complementar Consolidar en línea para las notificaciones consolidadas
 Los clientes que usan informes financieros para las consolidaciones financieras y la conversión de divisas, o para complementar Consolidar en línea para las notificaciones consolidadas obtienen diversos beneficios:

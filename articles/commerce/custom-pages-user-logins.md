@@ -3,7 +3,7 @@ title: Configurar páginas personalizadas para inicios de sesión de usuario
 description: Este tema describe cómo crear páginas personalizadas en Microsoft Dynamics 365 Commerce que administran inicios de sesión personalizados para usuarios de inquilinos de negocio a consumidor (B2C) de Azure Active Directory (Azure AD).
 author: brianshook
 manager: annbe
-ms.date: 07/02/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e9e78a4d6dc4189c927d9ef321f1eb5a6c120ee2
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: 0b54bf6234dcb87c84b21259c30ca5c321869adf
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533468"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817315"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Configurar páginas personalizadas para inicios de sesión de usuario
 
@@ -181,13 +181,13 @@ Para actualizar la directiva “Restablecimiento de contraseña” con informaci
 
 ## <a name="customize-default-text-strings-for-labels-and-descriptions"></a>Personalizar cadenas de texto predeterminada para etiquetas y descripciones
 
-En el kit de inicio, los módulos de inicio de sesión se llenan previamente con cadenas de texto predeterminadas para las etiquetas y descripciones. Puede personalizar estas cadenas en el kit de desarrollo de software (SDK) actualizando los valores en el archivo global.json para el módulo de inicio de sesión.
+En la biblioteca de módulos, los módulos de inicio de sesión se llenan previamente con cadenas de texto predeterminadas para las etiquetas y descripciones. Puede personalizar estas cadenas en el kit de desarrollo de software (SDK) actualizando los valores en el archivo global.json para el módulo de inicio de sesión.
 
 Por ejemplo, el texto predeterminado para el vínculo de contraseña olvidada es **¿Olvidó la contraseña?**. Lo siguiente muestra este texto predeterminado en la página de inicio de sesión.
 
 ![Texto predeterminado para el vínculo de contraseña olvidada en la página de inicio de sesión](./media/B2C_SignUp_ModuleFace.png)
 
-Sin embargo, en el archivo global.json para el módulo de inicio de sesión del kit de inicio, puede editar el texto en **¿Olvidó la contraseña?**, como se muestra en la siguiente ilustración.
+Sin embargo, en el archivo global.json para el módulo de inicio de sesión de la biblioteca de módulos, puede editar el texto en **¿Olvidó la contraseña?**, como se muestra en la siguiente ilustración.
 
 ![Texto de vínculo actualizado en el archivo global.json del módulo de inicio de sesión](./media/B2C_CustomizingStringsForModule.png)
 

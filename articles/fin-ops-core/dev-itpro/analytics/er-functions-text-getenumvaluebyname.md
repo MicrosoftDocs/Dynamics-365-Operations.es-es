@@ -3,7 +3,7 @@ title: Función GETENUMVALUEBYNAME de ER
 description: Este tema proporciona información general sobre cómo usar la función GETENUMVALUEBYNAME de informes electrónicos (ER).
 author: NickSelin
 manager: kfend
-ms.date: 12/12/2019
+ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 33ccf358dc5355cd00d5ff41ebd8148a334cba38
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: 722ea8ea233d617b0584e21e98073428f16c0801
+ms.sourcegitcommit: ad5b7676fc1213316e478afcffbfaee7d813f3bb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3743864"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "3885236"
 ---
 # <a name="getenumvaluebyname-er-function"></a>Función GETENUMVALUEBYNAME de ER
 
@@ -61,11 +61,11 @@ El valor de enumeración resultante.
 
 No se produce ninguna excepción si no se encuentra un valor de tipo *Enum* con el nombre del valor de enumeración especificado como un valor de tipo *Cadena*.
 
-## <a name="example"></a>Ejemplo
+## <a name="example-1"></a>Ejemplo 1
 
 En la siguiente ilustración, la enumeración **ReportDirection** se introduce en un modelo de datos. Tenga en cuenta que se definen etiquetas para los valores de enumeración.
 
-<p><a href="./media/ER-data-model-enumeration-values.PNG"><img src="./media/ER-data-model-enumeration-values.PNG" alt="Available values for a data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a>
+![Valores disponibles para una enumeración de modelo de datos](./media/ER-data-model-enumeration-values.PNG)
 
 La siguiente ilustración muestra estos detalles:
 
@@ -73,8 +73,48 @@ La siguiente ilustración muestra estos detalles:
 - La expresión `$IsArrivals` está diseñada para usar el origen de datos **$Direction** basado en la enumeración del modelo como un parámetro de esta función.
 - El valor de esta expresión de comparación es **TRUE**.
 
-<a href="./media/ER-data-model-enumeration-usage.PNG"><img src="./media/ER-data-model-enumeration-usage.PNG" alt="Example of data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a>
+![Ejemplo de enumeración de modelo de datos](./media/ER-data-model-enumeration-usage.PNG)
+
+## <a name="example-2"></a>Ejemplo 2
+
+Las funciones `GETENUMVALUEBYNAME` y [`LISTOFFIELDS`](er-functions-list-listoffields.md) permiten obtener valores y etiquetas de enumeraciones compatibles como valores de texto. (Las enumeraciones admitidas son enumeraciones de aplicaciones, enumeraciones de modelos de datos y enumeraciones de formato).
+
+En la siguiente ilustración, el origen de datos **TransType** se introduce en una asignación de modelos. Este origen de datos hace referencia a la enumeración de aplicación **LedgerTransType**.
+
+![Fuente de datos de un mapeo de modelo que se refiere a una enumeración de aplicaciones](./media/er-functions-text-getenumvaluebyname-example2-1.png)
+
+En la siguiente ilustración se muestra el origen de datos **TransTypeList** que se configura en una asignación de modelos. Este origen de datos se configura en función de la enumeración de aplicación **TransType**. La función `LISTOFFIELDS` se utiliza para devolver todos los valores de enumeración como una lista de registros que contienen campos. De esta manera, se exponen los detalles de cada valor de enumeración.
+
+> [!NOTE]
+> El campo **EnumValue** está configurado para el origen de datos **TransTypeList** mediante la expresión `GETENUMVALUEBYNAME(TransType, TransTypeList.Name)`. Este campo devuelve un valor de enumeración para cada registro de esta lista.
+
+![Fuente de datos de un mapeo de modelo que devuelve todos los valores de enumeración de una enumeración seleccionada como una lista de registros](./media/er-functions-text-getenumvaluebyname-example2-2.png)
+
+En la siguiente ilustración se muestra el origen de datos **VendTrans** que se configura en una asignación de modelos. Esta fuente de datos devuelve registros de transacciones de proveedores de la tabla de aplicación **VendTrans**. El tipo de libro mayor de cada transacción se define por el valor del campo **TransType**.
+
+> [!NOTE]
+> El campo **TransTypeTitle** está configurado para el origen de datos **VendTrans** mediante la expresión `FIRSTORNULL(WHERE(TransTypeList, TransTypeList.EnumValue = @.TransType)).Label`. Este campo devuelve la etiqueta de un valor de enumeración de la transacción actual como texto, si este valor de enumeración está disponible. En caso contrario, devuelve un valor de cadena en blanco.
+>
+> El campo **TransTypeTitle** está vinculado al campo **LedgerType** de un modelo de datos que permite que esta información se utilice en todos los formatos ER que utilizan el modelo de datos como fuente de datos.
+
+![Fuente de datos de un mapeo de modelo que devuelve transacciones de proveedores](./media/er-functions-text-getenumvaluebyname-example2-3.png)
+
+La siguiente ilustración muestra cómo puede utilizar el [depurador de fuente de datos](er-debug-data-sources.md) para probar el mapeo del modelo configurado.
+
+![Usar el depurador de la fuente de datos para probar el mapeo del modelo configurado](./media/er-functions-text-getenumvaluebyname-example2-4.gif)
+
+El campo **LedgerType** de un modelo de datos expone las etiquetas de tipos de transacciones como se esperaba.
+
+Si planea utilizar este enfoque para una gran cantidad de datos transaccionales, debe considerar el rendimiento de la ejecución. Para obtener más información, vea [Realizar un seguimiento de la ejecución de los formatos de ER para solucionar problemas de rendimiento](trace-execution-er-troubleshoot-perf.md).
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
 [Funciones de texto](er-functions-category-text.md)
+
+[Realizar un seguimiento de la ejecución de los formatos de ER para solucionar problemas de rendimiento](trace-execution-er-troubleshoot-perf.md)
+
+[Función LISTOFFIELDS de ER](er-functions-list-listoffields.md)
+
+[Función FIRSTORNULL de ER](er-functions-list-firstornull.md)
+
+[Función WHERE de ER](er-functions-list-where.md)

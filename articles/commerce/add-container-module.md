@@ -3,7 +3,7 @@ title: Módulo Contenedor
 description: En este tema se tratan los módulos de contenedor y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/01/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c7d607047aab92144932b4b59db050a588d6483d
-ms.sourcegitcommit: 2683aacb426bfb3b541637edf1f8ec2d6cb5a745
+ms.openlocfilehash: 9bb2c7d56184d009492b4aa839a3546160ad342f
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3417355"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817411"
 ---
 # <a name="container-module"></a>Módulo Contenedor
 
@@ -123,11 +123,11 @@ Para agregar un módulo de reproductor de contenedor a una página nueva y estab
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general del kit de inicio](starter-kit-overview.md)
+[Visión general de la biblioteca de módulos](starter-kit-overview.md)
 
 [Módulo de acordeón](add-accordion.md)
 
-[Módulo de pestañas](add-tab.md)
+[Módulo de pestaña](add-tab.md)
 
 [Módulo de carrusel](add-carousel.md)
 

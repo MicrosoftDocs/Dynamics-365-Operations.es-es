@@ -3,7 +3,7 @@ title: Visión general de administración de prestaciones
 description: Visión general de la característica de administración de prestaciones en Dynamics 365 Human Resources. Ofrezca a sus empleados opciones de prestaciones ampliadas con una experiencia en línea fácil de usar.
 author: andreabichsel
 manager: AnnBe
-ms.date: 07/16/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1043fb18c33e5ec0cde13008b168fd317c7c7be6
-ms.sourcegitcommit: 9dc5c7dd5877cc6e7cd0059d173bcd8052ba13bc
+ms.openlocfilehash: e2e8fcdd0b6124b459c4dc073e2929418d18bcc5
+ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3599389"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3819774"
 ---
 # <a name="benefits-management-overview"></a>Visión general de la administración de prestaciones
 
@@ -41,15 +41,9 @@ Para seguir siendo competitivo, debe ofrecer un amplio conjunto de prestaciones 
 
 Si desea acceder a los datos de demostración, deberá volver a implementar su entorno de espacio aislado.
 
-## <a name="benefits-management-known-issues"></a>Problemas conocidos de la gestión de beneficios
-
-### <a name="flex-credit-programs"></a>Programas de crédito flexible
-
-El valor de crédito total definido para un programa de crédito flexible no se muestra en el formulario **Planes de prestaciones del trabajador**. Además, si configura un programa de crédito flexible para tener una regla de prorrateo de **Ninguna**, obtiene un error en el formulario **Plan de prestaciones para el trabajador** al seleccionar y confirmar planes.
-
 ## <a name="enable-benefits-management"></a>Habilitar la administración de prestaciones
 
-Este artículo describe cómo activar las características en Recursos humanos. También le indica qué características existentes en Human Resources reemplazan o deshabilitan la administración de prestaciones una vez que activa la administración de prestaciones.
+Este tema describe cómo activar las características en Recursos humanos. También le indica qué características existentes en Human Resources reemplazan o deshabilitan la administración de prestaciones una vez que activa la administración de prestaciones.
 
 > [!IMPORTANT]
 > Después de habilitar la gestión de prestaciones en un entorno de **Producción**, no puede deshabilitarlo. Recomendamos habilitar y probar la gestión de prestaciones en un entorno **Espacio aislado** antes de habilitarlo en un entorno de **Producción**. Existen diferencias significativas entre la funcionalidad de prestación heredada y la nueva funcionalidad de administración de prestaciones que requieren una configuración adicional y deben probarse antes de su puesta en producción.

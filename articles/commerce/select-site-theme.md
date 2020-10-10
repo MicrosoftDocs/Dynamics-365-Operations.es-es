@@ -3,7 +3,7 @@ title: Seleccionar un tema de sitio
 description: Este tema describe cómo establecer o cambiar el tema del sitio en Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 45184c7b0e29d1258b26368fbc7221df91013cc3
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 1f92b31e870cbb4d3cc04870273693bed1378c5e
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002760"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817715"
 ---
 # <a name="select-a-site-theme"></a>Seleccionar un tema de sitio
-
 
 [!include [banner](includes/banner.md)]
 
@@ -35,7 +34,7 @@ Este tema describe cómo establecer o cambiar el tema del sitio en Microsoft Dyn
 
 El diseño y el estilo de un sitio (por ejemplo, fuentes, tamaños y colores) se definen por el tema que seleccione y aplica al sitio. Un tema se creado y se implementa por un desarrollador de su empresa. Para obtener una descripción general de los temas, consulte [Visión general de creación de temas](http://). Para obtener más información acerca de cómo crear e implementar temas, consulte [Crear un tema nuevo](http://).
 
-De forma predeterminada, al crear un sitio por primera vez, utiliza un tema con el nombre **Fabrikam**. Este tema predeterminado se proporciona como parte del kit de inicio. Una vez haya implementado temas adicionales para su sitio, puede configurar el sitio de modo que use uno de ellos en su lugar.
+De forma predeterminada, al crear un sitio por primera vez, utiliza un tema con el nombre **Fabrikam**. Este tema predeterminado se proporciona como parte de la biblioteca de módulos de Commerce. Una vez haya implementado temas adicionales para su sitio, puede configurar el sitio de modo que use uno de ellos en su lugar.
 
 ## <a name="select-the-site-theme"></a>Seleccionar el tema de sitio
 

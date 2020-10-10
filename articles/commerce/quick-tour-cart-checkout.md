@@ -3,7 +3,7 @@ title: Visión general de las páginas del carro y de la finalización de la com
 description: Este tema proporciona una visión general de las páginas de carro y finalización de pago en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/30/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c879b90cf49dcab9cf069e4f3613602bd6673aa9
-ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
+ms.openlocfilehash: e932be31a301ef5aacb68fa4e710d8a9137b7263
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527579"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817787"
 ---
 # <a name="cart-and-checkout-pages-overview"></a>Visión general de las páginas del carro y de la finalización de la compra
 
@@ -40,7 +40,7 @@ La página de finalización de compra de sitio web de comercio electrónico pres
 
 La página del carro sirve como el carro de la compara e incluye todos los artículos que se han agregado al carro.
 
-En la siguiente ilustración se muestra un ejemplo de una página de carro que se creó mediante el kit de inicio en línea y el tema de “Fabrikam”.
+En la siguiente ilustración se muestra un ejemplo de una página de carro que se creó mediante la biblioteca de módulos y el tema de “Fabrikam”.
 
 ![Ejemplo de una página de carro](./media/cart2.PNG)
 
@@ -56,7 +56,7 @@ Para obtener información acerca de cómo crear una página del carro, consulte 
 
 La página de finalización de compra es donde los clientes especifican la información necesaria para realizar un pedido.
 
-En la siguiente ilustración se muestra un ejemplo de una página de finalización de pago que se creó con el kit de inicio en línea.
+En la siguiente ilustración se muestra un ejemplo de una página de finalización de pago que se creó con la biblioteca de módulos.
 
 ![Ejemplo de una página de finalización de compra](./media/Checkout.PNG)
 
@@ -66,7 +66,7 @@ El cuerpo principal de página de finalización de compra es donde se recoge tod
 
 Se requiere una dirección de envío si se deben enviar los artículos. El formato de direcciones de envío para cada configuración regional se puede configurar en Dynamics 365 Commerce. Por ejemplo, si los artículos se envían a Estados Unidos, la dirección de envío debe incluir una dirección con el nombre de la calle, un estado y un código postal. Alguna validación de entrada básica se realiza para campos de dirección de envío, como una validación para caracteres alfanuméricos, longitud máxima y números. Aunque la validez de la propia dirección no está verificada, esta comprobación se puede realizar mediante servicios de terceros personalizados.
 
-La dirección de envío se aplica a todos los artículos del carro para los que la opción “enviar” está seleccionada. Si utiliza el flujo de finalización de pago que se proporciona en el kit de inicio en línea, los elementos individuales del carro no se pueden enviar a direcciones diferentes. Si requiere esta capacidad, se puede implementar a través de la personalización de los módulos de finalización de compra.
+La dirección de envío se aplica a todos los artículos del carro para los que la opción “enviar” está seleccionada. Si utiliza el flujo de finalización de pago que se proporciona en la biblioteca de módulos, los elementos individuales del carro no se pueden enviar a direcciones diferentes. Si requiere esta capacidad, se puede implementar a través de la personalización de los módulos de finalización de compra.
 
 Una vez que se proporciona la dirección de envío, se muestran los métodos de envío disponibles de la tienda en línea de Dynamics 365 Commerce. Los métodos de envío y las direcciones que admiten se pueden configurar en Commerce.
 
@@ -80,7 +80,7 @@ Durante el flujo de finalización del pago, un cliente que es miembro de un prog
 
 #### <a name="gift-cards"></a>Tarjetas regalo
 
-El kit de inicio en línea permite que se canjeen las tarjetas regalo internas por un pedido. Para aplicar una tarjeta regalo interna, el cliente debe haber iniciado sesión. Para mayor seguridad, se recomienda que personalice el flujo mediante un número de identificación personal (PIN) para las tarjetas regalo internas.
+La biblioteca de módulos permite que se canjeen las tarjetas regalo internas por un pedido. Para aplicar una tarjeta regalo interna, el cliente debe haber iniciado sesión. Para mayor seguridad, se recomienda que personalice el flujo mediante un número de identificación personal (PIN) para las tarjetas regalo internas.
 
 ### <a name="signed-in-and-guest-users"></a>Usuarios invitados y que han iniciado sesión
 

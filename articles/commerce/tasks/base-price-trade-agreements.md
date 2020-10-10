@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 022db9365f25c1d3e387870dd9d173077d864b3d
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 44dc059f7bfc3ba83a375c197ce67f1378a9bc9b
+ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3141531"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3899358"
 ---
 # <a name="base-price-and-trade-agreements"></a>Precio base y acuerdos comerciales
 
@@ -58,7 +58,7 @@ Este procedimiento le muestra la creación de acuerdos comerciales de precios de
 26. En el campo **Nombre**, haga clic en el botón desplegable para abrir la búsqueda.
 27. En la lista, seleccione **Commerce**. En los datos de demostración, el nombre de diario **Commerce** tiene la relación predeterminada de **Precio (ventas)**. Esto significa que todas las nuevas líneas creadas se asignarán de forma predeterminada a los acuerdos comerciales de precio de ventas.  
 28. En el **panel de acciones**, haga clic en **Líneas**.
-29. En el campo **Código de cuenta**, seleccione "Grupo".
+29. En el campo **Tipo de código de parte** seleccione "Grupo".
 30. En el campo **Selección de cuentas**, haga clic en el botón desplegable para abrir la búsqueda.
 31. En la lista, busque y seleccione el registro deseado. Esto completará Vincular el grupo de precios a un cana al Acuerdo comercial.  
 32. En el campo **Relación de artículos**, escriba un valor.

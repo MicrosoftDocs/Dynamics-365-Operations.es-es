@@ -3,7 +3,7 @@ title: Módulo de mapa
 description: En este tema se tratan los módulos de mapa y se describe cómo configurarlos en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: ca531e6cbf0a1044b0a13e5cdf42c7b4f0498fe5
-ms.sourcegitcommit: 629988f1a704d62648d98649056931b8c33b9e08
+ms.openlocfilehash: d2cbc67a186a76647a4f7ddc7942b15d3e469ece
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3811193"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817215"
 ---
 # <a name="map-module"></a>Módulo de mapa
 
@@ -38,7 +38,8 @@ Un módulo de mapa muestra las ubicaciones de las tiendas en un mapa interactivo
 
 Un módulo de mapa funciona junto con el módulo selector de tiendas para determinar las ubicaciones geográficas de las tiendas que deben representarse en un mapa. El selector de tienda y los módulos de mapa interactúan cuando un usuario selecciona una tienda en uno de esos módulos en una página del sitio. Los módulos de mapas se pueden ampliar para otros escenarios, más allá de la interacción con los módulos de selector de tienda. Sin embargo, se requiere la personalización del módulo.
 
-El módulo de mapa se incorporó en Commerce, versión 10.0.13.
+> [!NOTE]
+> El módulo map está disponible en la versión Dynamics 365 Commerce 10.0.13.
 
 La siguiente imagen muestra un ejemplo de un módulo de mapa utilizado en una página ubicación de tiendas.
 
@@ -70,7 +71,7 @@ Para obtener información detallada sobre cómo configurar un módulo de mapa en
  
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general del kit de inicio](starter-kit-overview.md)
+[Visión general de la biblioteca de módulos](starter-kit-overview.md)
 
 [Módulo de cuadro de compra](add-buy-box.md)
 

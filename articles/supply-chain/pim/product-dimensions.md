@@ -1,14 +1,14 @@
 ---
 title: Dimensiones de producto
 description: 'Hay cinco dimensiones de producto: color, configuración, tamaño, estilo y versión. Combina dimensiones de producto en grupos de dimensiones y asigna grupos de dimensiones a productos maestros. Las combinaciones de dimensiones de producto determinan la manera en que se definen las variantes de producto.'
-author: cvocph
+author: t-benebo
 manager: tfehr
-ms.date: 08/03/2020
+ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: EcoResProductDimension, EcoResProductDimensionGroup, EcoResProductMasterDimension, RetailEcoResColor, RetailEcoResSize, RetailEcoResStyle
+ms.search.form: EcoResProductDimension, EcoResProductDimensionGroup, EcoResProductMasterDimension, RetailEcoResColor, RetailEcoResSize, RetailEcoResStyle, EcoResVersionNameLookup, RetailStyleGroupTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
@@ -16,15 +16,15 @@ ms.custom: 19171
 ms.assetid: 81fa3709-4ab8-4fbf-9806-359892a05985
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: conradv
+ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 72b8cd8149ab7b2074eb815231be348db62e282e
-ms.sourcegitcommit: f9917706d45693e8d3f9f6224dca9e601db44bae
+ms.openlocfilehash: bdfd9482d30bd65cf84fae032df78e1243e05239
+ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "3657325"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3895458"
 ---
 # <a name="product-dimensions"></a>Dimensiones de producto
 
@@ -107,7 +107,7 @@ Cuando esté probando la compatibilidad de sus soluciones con la dimensión de l
     - PCVariantConfiguration::findByProductMasterAndDimensions
 
 1. **Asignaciones:** si alguna asignación usa las dimensiones del inventario, hay que actualizar la asignación de relación correspondiente a estas asignaciones para que incluya la dimensión de la versión. En el modelo extendido o las extensiones de tabla, busque tablas en las que los campos incluyan dimensiones de inventario.
-1. **Funcionalidad de Microsoft Dynamics 365 Commerce:** una vez activada, la dimensión de versión aparecerá en todo el código específico de Commerce en Dynamics 365 Supply Chain Management. Sin embargo, la dimensión de versión aún no es compatible con la base de datos de canal de Commerce ni con las aplicaciones de punto de venta (PDV). Este comportamiento se parece al comportamiento actual de la dimensión de configuración en Commerce.
+1. **Funcionalidad de Microsoft Dynamics 365 Commerce:** una vez activada, la dimensión de versión aparecerá en todo el código específico de Commerce en Dynamics 365 Supply Chain Management. Sin embargo, la dimensión de versión aún no es compatible con la base de datos de canal de Commerce ni con las aplicaciones de punto de venta (PDV) o de comercio electrónico. Estas aplicaciones específicas de Commerce no admitirán a los usuarios que vendan/envíen o devuelvan/reciban inventario por dimensión de versión. Las funciones de búsqueda de disponibilidad de inventario no discernirán el inventario por dimensión de versión en las aplicaciones de Commerce. Este comportamiento se parece al comportamiento actual de la dimensión de configuración en Commerce.
 
 #### <a name="turn-on-the-version-dimension"></a>Activar la dimensión de versión
 
