@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
+ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetFunctionalLocationTypeCopy, EntAssetAttributeType, EntAssetAttributeTypeValue, EntAssetFunctionalLocationType
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,49 +18,49 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2ed333a3064654691966eac3c20626955ada0030
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 469bcb16bb3099ffabdccfb026f0414de0213aaa
+ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205906"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3889107"
 ---
-# <a name="maintenance-attribute-types"></a><span data-ttu-id="c6825-103">Tipos de atributos de mantenimiento</span><span class="sxs-lookup"><span data-stu-id="c6825-103">Maintenance attribute types</span></span>
+# <a name="maintenance-attribute-types"></a><span data-ttu-id="e7fcb-103">Tipos de atributos de mantenimiento</span><span class="sxs-lookup"><span data-stu-id="e7fcb-103">Maintenance attribute types</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-<span data-ttu-id="c6825-104">En este tema se explica cómo crear tipos de atributos en Administración de activos.</span><span class="sxs-lookup"><span data-stu-id="c6825-104">This topic explains how to create attribute types in Asset Management.</span></span> <span data-ttu-id="c6825-105">Los atributos se utilizan para describir las propiedades de varios elementos.</span><span class="sxs-lookup"><span data-stu-id="c6825-105">Attributes are used to describe the properties of various elements.</span></span> <span data-ttu-id="c6825-106">Puede configurar los atributos de los siguientes elementos:</span><span class="sxs-lookup"><span data-stu-id="c6825-106">You can set up attributes on the following elements:</span></span>
+<span data-ttu-id="e7fcb-104">En este tema se explica cómo crear tipos de atributos en Administración de activos.</span><span class="sxs-lookup"><span data-stu-id="e7fcb-104">This topic explains how to create attribute types in Asset Management.</span></span> <span data-ttu-id="e7fcb-105">Los atributos se utilizan para describir las propiedades de varios elementos.</span><span class="sxs-lookup"><span data-stu-id="e7fcb-105">Attributes are used to describe the properties of various elements.</span></span> <span data-ttu-id="e7fcb-106">Puede configurar los atributos de los siguientes elementos:</span><span class="sxs-lookup"><span data-stu-id="e7fcb-106">You can set up attributes on the following elements:</span></span>
 
-- [<span data-ttu-id="c6825-107">Tipos de ubicaciones funcionales</span><span class="sxs-lookup"><span data-stu-id="c6825-107">Functional location types</span></span>](../setup-for-functional-locations/functional-location-types.md)
-- [<span data-ttu-id="c6825-108">Crear ubicaciones funcionales</span><span class="sxs-lookup"><span data-stu-id="c6825-108">Create functional locations</span></span>](../functional-locations/create-functional-locations.md)
-- [<span data-ttu-id="c6825-109">Tipos de activos</span><span class="sxs-lookup"><span data-stu-id="c6825-109">Asset types</span></span>](../setup-for-objects/object-types.md)
-- <span data-ttu-id="c6825-110">Activos</span><span class="sxs-lookup"><span data-stu-id="c6825-110">Assets</span></span>
+- [<span data-ttu-id="e7fcb-107">Tipos de ubicaciones funcionales</span><span class="sxs-lookup"><span data-stu-id="e7fcb-107">Functional location types</span></span>](../setup-for-functional-locations/functional-location-types.md)
+- [<span data-ttu-id="e7fcb-108">Crear ubicaciones funcionales</span><span class="sxs-lookup"><span data-stu-id="e7fcb-108">Create functional locations</span></span>](../functional-locations/create-functional-locations.md)
+- [<span data-ttu-id="e7fcb-109">Tipos de activos</span><span class="sxs-lookup"><span data-stu-id="e7fcb-109">Asset types</span></span>](../setup-for-objects/object-types.md)
+- <span data-ttu-id="e7fcb-110">Activos</span><span class="sxs-lookup"><span data-stu-id="e7fcb-110">Assets</span></span>
 
-<span data-ttu-id="c6825-111">Los atributos que puede configurar varían, en función del elemento.</span><span class="sxs-lookup"><span data-stu-id="c6825-111">The attributes that you can set up vary, depending on the element.</span></span> <span data-ttu-id="c6825-112">Por ejemplo, para una ubicación funcional, puede configurar los atributos para la configuración y el tamaño físico de la ubicación.</span><span class="sxs-lookup"><span data-stu-id="c6825-112">For example, for a functional location, you can set up attributes for the configuration and physical size of the location.</span></span> <span data-ttu-id="c6825-113">Para un tipo de activo o un activo, puede configurar los atributos por volumen del motor, el consumo energético y carga de capacidad máxima en diferentes condiciones.</span><span class="sxs-lookup"><span data-stu-id="c6825-113">For an asset type or an asset, you can set up attributes for engine volume, power consumption, and maximum load capacity under different conditions.</span></span>
+<span data-ttu-id="e7fcb-111">Los atributos que puede configurar varían, en función del elemento.</span><span class="sxs-lookup"><span data-stu-id="e7fcb-111">The attributes that you can set up vary, depending on the element.</span></span> <span data-ttu-id="e7fcb-112">Por ejemplo, para una ubicación funcional, puede configurar los atributos para la configuración y el tamaño físico de la ubicación.</span><span class="sxs-lookup"><span data-stu-id="e7fcb-112">For example, for a functional location, you can set up attributes for the configuration and physical size of the location.</span></span> <span data-ttu-id="e7fcb-113">Para un tipo de activo o un activo, puede configurar los atributos por volumen del motor, el consumo energético y carga de capacidad máxima en diferentes condiciones.</span><span class="sxs-lookup"><span data-stu-id="e7fcb-113">For an asset type or an asset, you can set up attributes for engine volume, power consumption, and maximum load capacity under different conditions.</span></span>
 
-## <a name="create-attribute-types"></a><span data-ttu-id="c6825-114">Crear tipos de atributo</span><span class="sxs-lookup"><span data-stu-id="c6825-114">Create attribute types</span></span>
+## <a name="create-attribute-types"></a><span data-ttu-id="e7fcb-114">Crear tipos de atributo</span><span class="sxs-lookup"><span data-stu-id="e7fcb-114">Create attribute types</span></span>
 
-<span data-ttu-id="c6825-115">Puede crear sus propios tipos de atributos.</span><span class="sxs-lookup"><span data-stu-id="c6825-115">You can create your own attribute types.</span></span> <span data-ttu-id="c6825-116">Además, puede transferir dimensiones de producto a la página **Tipos de atributo**.</span><span class="sxs-lookup"><span data-stu-id="c6825-116">Additionally, you can transfer product dimensions to the **Attribute types** page.</span></span>
+<span data-ttu-id="e7fcb-115">Puede crear sus propios tipos de atributos.</span><span class="sxs-lookup"><span data-stu-id="e7fcb-115">You can create your own attribute types.</span></span> <span data-ttu-id="e7fcb-116">Además, puede transferir dimensiones de producto a la página **Tipos de atributo**.</span><span class="sxs-lookup"><span data-stu-id="e7fcb-116">Additionally, you can transfer product dimensions to the **Attribute types** page.</span></span>
 
-1. <span data-ttu-id="c6825-117">Seleccione **Administración de activos** \> **Configuración** \> **Tipos de atributo**.</span><span class="sxs-lookup"><span data-stu-id="c6825-117">Select **Asset management** \> **Setup** \> **Attribute types**.</span></span>
-2. <span data-ttu-id="c6825-118">La primera vez que configura tipos de atributos, seleccione **Crear dimensiones del producto** para transferir automáticamente las dimensiones de producto estándar.</span><span class="sxs-lookup"><span data-stu-id="c6825-118">The first time that you set up attribute types, select **Create product dimensions** to automatically transfer standard product dimensions.</span></span>
-3. <span data-ttu-id="c6825-119">Seleccione **Nuevo** para crear un nuevo tipo de atributo.</span><span class="sxs-lookup"><span data-stu-id="c6825-119">Select **New** to create a new attribute type.</span></span>
-4. <span data-ttu-id="c6825-120">En el campo **Tipo de atributo**, especifique un nombre para el tipo de atributo.</span><span class="sxs-lookup"><span data-stu-id="c6825-120">In the **Attribute type** field, enter a name for the attribute type.</span></span>
-5. <span data-ttu-id="c6825-121">En el campo **Descripción**, escriba una descripción.</span><span class="sxs-lookup"><span data-stu-id="c6825-121">In the **Description** field, enter a description.</span></span>
-6. <span data-ttu-id="c6825-122">En el campo **Unidad**, seleccione la unidad relevante del atributo, según convenga.</span><span class="sxs-lookup"><span data-stu-id="c6825-122">In the **Unit** field, select the relevant attribute unit, as required.</span></span>
-7. <span data-ttu-id="c6825-123">En el campo **Tipo de datos**, seleccione un tipo de datos para la unidad.</span><span class="sxs-lookup"><span data-stu-id="c6825-123">In the **Data type** field, select a data type for the unit.</span></span>
-8. <span data-ttu-id="c6825-124">Si seleccionó **Cadena** como tipo de datos, siga estos pasos para crear valores para el tipo de atributo:</span><span class="sxs-lookup"><span data-stu-id="c6825-124">If you selected **String** as the data type, follow these steps to create values for the attribute type:</span></span>
+1. <span data-ttu-id="e7fcb-117">Seleccione **Administración de activos** \> **Configuración** \> **Tipos de atributo**.</span><span class="sxs-lookup"><span data-stu-id="e7fcb-117">Select **Asset management** \> **Setup** \> **Attribute types**.</span></span>
+2. <span data-ttu-id="e7fcb-118">La primera vez que configura tipos de atributos, seleccione **Crear dimensiones del producto** para transferir automáticamente las dimensiones de producto estándar.</span><span class="sxs-lookup"><span data-stu-id="e7fcb-118">The first time that you set up attribute types, select **Create product dimensions** to automatically transfer standard product dimensions.</span></span>
+3. <span data-ttu-id="e7fcb-119">Seleccione **Nuevo** para crear un nuevo tipo de atributo.</span><span class="sxs-lookup"><span data-stu-id="e7fcb-119">Select **New** to create a new attribute type.</span></span>
+4. <span data-ttu-id="e7fcb-120">En el campo **Tipo de atributo**, especifique un nombre para el tipo de atributo.</span><span class="sxs-lookup"><span data-stu-id="e7fcb-120">In the **Attribute type** field, enter a name for the attribute type.</span></span>
+5. <span data-ttu-id="e7fcb-121">En el campo **Descripción**, escriba una descripción.</span><span class="sxs-lookup"><span data-stu-id="e7fcb-121">In the **Description** field, enter a description.</span></span>
+6. <span data-ttu-id="e7fcb-122">En el campo **Unidad**, seleccione la unidad relevante del atributo, según convenga.</span><span class="sxs-lookup"><span data-stu-id="e7fcb-122">In the **Unit** field, select the relevant attribute unit, as required.</span></span>
+7. <span data-ttu-id="e7fcb-123">En el campo **Tipo de datos**, seleccione un tipo de datos para la unidad.</span><span class="sxs-lookup"><span data-stu-id="e7fcb-123">In the **Data type** field, select a data type for the unit.</span></span>
+8. <span data-ttu-id="e7fcb-124">Si seleccionó **Cadena** como tipo de datos, siga estos pasos para crear valores para el tipo de atributo:</span><span class="sxs-lookup"><span data-stu-id="e7fcb-124">If you selected **String** as the data type, follow these steps to create values for the attribute type:</span></span>
 
-    1. <span data-ttu-id="c6825-125">Seleccione el tipo de atributo y después **Valores**.</span><span class="sxs-lookup"><span data-stu-id="c6825-125">Select the attribute type, and then select **Values**.</span></span>
-    2. <span data-ttu-id="c6825-126">En el campo **Valores de atributo**, seleccione **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="c6825-126">In the **Attribute values** field, select **New**.</span></span>
-    3. <span data-ttu-id="c6825-127">En el campo **Tipo de atributo**, seleccione un tipo de atributo (dimensión).</span><span class="sxs-lookup"><span data-stu-id="c6825-127">In the **Attribute type** field, select an attribute type (dimension).</span></span>
-    4. <span data-ttu-id="c6825-128">En el campo **Valor**, especifique un valor relaciondo.</span><span class="sxs-lookup"><span data-stu-id="c6825-128">In the **Value** field, enter a related value.</span></span>
-    5. <span data-ttu-id="c6825-129">En el campo **Descripción**, escriba una descripción.</span><span class="sxs-lookup"><span data-stu-id="c6825-129">In the **Description** field, enter a description.</span></span>
-    6. <span data-ttu-id="c6825-130">Guarde el registro.</span><span class="sxs-lookup"><span data-stu-id="c6825-130">Save the record.</span></span>
-    7. <span data-ttu-id="c6825-131">Vuelva a la página **Tipos de atributo**.</span><span class="sxs-lookup"><span data-stu-id="c6825-131">Return to the **Attribute types** page.</span></span>
+    1. <span data-ttu-id="e7fcb-125">Seleccione el tipo de atributo y después **Valores**.</span><span class="sxs-lookup"><span data-stu-id="e7fcb-125">Select the attribute type, and then select **Values**.</span></span>
+    2. <span data-ttu-id="e7fcb-126">En el campo **Valores de atributo**, seleccione **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="e7fcb-126">In the **Attribute values** field, select **New**.</span></span>
+    3. <span data-ttu-id="e7fcb-127">En el campo **Tipo de atributo**, seleccione un tipo de atributo (dimensión).</span><span class="sxs-lookup"><span data-stu-id="e7fcb-127">In the **Attribute type** field, select an attribute type (dimension).</span></span>
+    4. <span data-ttu-id="e7fcb-128">En el campo **Valor**, especifique un valor relaciondo.</span><span class="sxs-lookup"><span data-stu-id="e7fcb-128">In the **Value** field, enter a related value.</span></span>
+    5. <span data-ttu-id="e7fcb-129">En el campo **Descripción**, escriba una descripción.</span><span class="sxs-lookup"><span data-stu-id="e7fcb-129">In the **Description** field, enter a description.</span></span>
+    6. <span data-ttu-id="e7fcb-130">Guarde el registro.</span><span class="sxs-lookup"><span data-stu-id="e7fcb-130">Save the record.</span></span>
+    7. <span data-ttu-id="e7fcb-131">Vuelva a la página **Tipos de atributo**.</span><span class="sxs-lookup"><span data-stu-id="e7fcb-131">Return to the **Attribute types** page.</span></span>
 
-9. <span data-ttu-id="c6825-132">Guarde el registro.</span><span class="sxs-lookup"><span data-stu-id="c6825-132">Save the record.</span></span>
+9. <span data-ttu-id="e7fcb-132">Guarde el registro.</span><span class="sxs-lookup"><span data-stu-id="e7fcb-132">Save the record.</span></span>
 
-    <span data-ttu-id="c6825-133">El campo **Tipos de ubicación funcionales** muestra el número de ubicaciones técnicas que estén utilizando el tipo de atributo.</span><span class="sxs-lookup"><span data-stu-id="c6825-133">The **Functional location types** field shows the number of functional locations that are using the attribute type.</span></span> <span data-ttu-id="c6825-134">El campo **Tipos del activo** muestra el número de tipos de activos que lo estén utilizando.</span><span class="sxs-lookup"><span data-stu-id="c6825-134">The **Asset types** field shows the number of asset types that are using it.</span></span>
+    <span data-ttu-id="e7fcb-133">El campo **Tipos de ubicación funcionales** muestra el número de ubicaciones técnicas que estén utilizando el tipo de atributo.</span><span class="sxs-lookup"><span data-stu-id="e7fcb-133">The **Functional location types** field shows the number of functional locations that are using the attribute type.</span></span> <span data-ttu-id="e7fcb-134">El campo **Tipos del activo** muestra el número de tipos de activos que lo estén utilizando.</span><span class="sxs-lookup"><span data-stu-id="e7fcb-134">The **Asset types** field shows the number of asset types that are using it.</span></span>

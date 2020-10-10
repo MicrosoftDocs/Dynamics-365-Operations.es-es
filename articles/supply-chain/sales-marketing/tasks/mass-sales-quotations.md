@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: SalesQuotationTemplateGroup, SalesQuotationListPage, SalesCreateQuotation, SalesQuotationTable, SysQueryForm
+ms.search.form: SalesQuotationTemplateGroup, SalesQuotationListPage, SalesCreateQuotation, SalesQuotationTable, SysQueryForm, SalesQuickQuote
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,88 +16,88 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a1a9c7235f37ccdedc87ce70d3846443f645c0fe
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 1bbe96e8e8fc2b7139c5d3064825f6ab527fc67e
+ms.sourcegitcommit: 54da65a7da0efd4f0d9760c5b14ff785b28751c4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211891"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3830316"
 ---
-# <a name="mass-create-sales-quotations"></a><span data-ttu-id="6797b-103">Creación masiva de presupuestos de ventas</span><span class="sxs-lookup"><span data-stu-id="6797b-103">Mass create sales quotations</span></span>
+# <a name="mass-create-sales-quotations"></a><span data-ttu-id="d4bc8-103">Creación masiva de presupuestos de ventas</span><span class="sxs-lookup"><span data-stu-id="d4bc8-103">Mass create sales quotations</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="6797b-104">Este procedimiento muestra cómo crear de manera eficaz presupuestos que ofrecen un conjunto de productos o servicios que se deben enviar a varios clientes.</span><span class="sxs-lookup"><span data-stu-id="6797b-104">This procedure demonstrates how to efficiently create quotations offering a set of products or services that are to be sent to multiple customers.</span></span> <span data-ttu-id="6797b-105">Esta creación de presupuesto masiva se basa en las plantillas de presupuesto.</span><span class="sxs-lookup"><span data-stu-id="6797b-105">This mass quotation creation is based on quotation templates.</span></span> <span data-ttu-id="6797b-106">Puede ejecutar este procedimiento en sus propios datos o en la empresa de demostración USMF.</span><span class="sxs-lookup"><span data-stu-id="6797b-106">You can run this procedure on your own data or in demo data company USMF.</span></span>
+<span data-ttu-id="d4bc8-104">Este procedimiento muestra cómo crear de manera eficaz presupuestos que ofrecen un conjunto de productos o servicios que se deben enviar a varios clientes.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-104">This procedure demonstrates how to efficiently create quotations offering a set of products or services that are to be sent to multiple customers.</span></span> <span data-ttu-id="d4bc8-105">Esta creación de presupuesto masiva se basa en las plantillas de presupuesto.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-105">This mass quotation creation is based on quotation templates.</span></span> <span data-ttu-id="d4bc8-106">Puede ejecutar este procedimiento en sus propios datos o en la empresa de demostración USMF.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-106">You can run this procedure on your own data or in demo data company USMF.</span></span>
 
 
-## <a name="create-a-quotation-template"></a><span data-ttu-id="6797b-107">Crear una plantilla de presupuesto</span><span class="sxs-lookup"><span data-stu-id="6797b-107">Create a quotation template</span></span>
-1. <span data-ttu-id="6797b-108">Vaya a Ventas y marketing > Configuración > Presupuestos > Grupos de plantillas.</span><span class="sxs-lookup"><span data-stu-id="6797b-108">Go to Sales and marketing > Setup > Quotations > Template groups.</span></span>
-2. <span data-ttu-id="6797b-109">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="6797b-109">Click New.</span></span>
-3. <span data-ttu-id="6797b-110">En el campo Id. de grupo, escriba el id. que desee.</span><span class="sxs-lookup"><span data-stu-id="6797b-110">In the Group ID field, type an ID of your choice.</span></span>
-4. <span data-ttu-id="6797b-111">En el campo Descripción, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="6797b-111">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="6797b-112">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="6797b-112">Click Save.</span></span>
-6. <span data-ttu-id="6797b-113">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="6797b-113">Close the page.</span></span>
-7. <span data-ttu-id="6797b-114">Vaya a Ventas y marketing > Presupuestos de ventas > Todos los presupuestos.</span><span class="sxs-lookup"><span data-stu-id="6797b-114">Go to Sales and marketing > Sales quotations > All quotations.</span></span>
-8. <span data-ttu-id="6797b-115">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="6797b-115">Click New.</span></span>
-9. <span data-ttu-id="6797b-116">En el campo Tipo de cuenta, seleccione 'Cliente'.</span><span class="sxs-lookup"><span data-stu-id="6797b-116">In the Account type field, select 'Customer'.</span></span>
-10. <span data-ttu-id="6797b-117">En el campo Cuenta de cliente, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="6797b-117">In the Customer account field, enter or select a value.</span></span>
-11. <span data-ttu-id="6797b-118">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="6797b-118">Click OK.</span></span>
-    * <span data-ttu-id="6797b-119">Para que un presupuesto se convierta en una plantilla debe realizar pasos de configuración en la cabecera de presupuesto.</span><span class="sxs-lookup"><span data-stu-id="6797b-119">For a quotation to become a template you must carry out  setup steps on the quotation header.</span></span> <span data-ttu-id="6797b-120">Esto se debe realizar antes de agregar líneas al presupuesto.</span><span class="sxs-lookup"><span data-stu-id="6797b-120">This must be done before you add lines to the quotation.</span></span>   
-12. <span data-ttu-id="6797b-121">En el panel de acciones, haga clic en Opciones.</span><span class="sxs-lookup"><span data-stu-id="6797b-121">On the Action Pane, click Options.</span></span>
-13. <span data-ttu-id="6797b-122">Haga clic en Cambiar vista.</span><span class="sxs-lookup"><span data-stu-id="6797b-122">Click Change view.</span></span>
-14. <span data-ttu-id="6797b-123">Haga clic en Visualización de encabezado.</span><span class="sxs-lookup"><span data-stu-id="6797b-123">Click Header view.</span></span>
-15. <span data-ttu-id="6797b-124">Expanda la sección Configuración.</span><span class="sxs-lookup"><span data-stu-id="6797b-124">Expand the Setup section.</span></span>
-16. <span data-ttu-id="6797b-125">En el campo Id. de grupo, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="6797b-125">In the Group ID field, enter or select a value.</span></span>
-17. <span data-ttu-id="6797b-126">En el campo Nombre de plantilla, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="6797b-126">In the Template name field, type a value.</span></span>
-18. <span data-ttu-id="6797b-127">Seleccione Sí en el campo Activo.</span><span class="sxs-lookup"><span data-stu-id="6797b-127">Select Yes in the Active field.</span></span>
-    * <span data-ttu-id="6797b-128">Solo las plantillas activas pueden usarse si se aplica una plantilla a un nuevo presupuesto de ventas.</span><span class="sxs-lookup"><span data-stu-id="6797b-128">Only active templates can be used when you apply a template to a new sales quotation.</span></span>  
-19. <span data-ttu-id="6797b-129">En el panel de acciones, haga clic en Opciones.</span><span class="sxs-lookup"><span data-stu-id="6797b-129">On the Action Pane, click Options.</span></span>
-20. <span data-ttu-id="6797b-130">Haga clic en Cambiar vista.</span><span class="sxs-lookup"><span data-stu-id="6797b-130">Click Change view.</span></span>
-21. <span data-ttu-id="6797b-131">Haga clic en Vista de líneas.</span><span class="sxs-lookup"><span data-stu-id="6797b-131">Click Line view.</span></span>
-22. <span data-ttu-id="6797b-132">En el campo Artículo, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="6797b-132">In the Item field, enter or select a value.</span></span>
-23. <span data-ttu-id="6797b-133">En el campo Artículo, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="6797b-133">In the Item field, type a value.</span></span>
-24. <span data-ttu-id="6797b-134">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="6797b-134">Close the page.</span></span>
-25. <span data-ttu-id="6797b-135">En el campo Porcentaje de descuento, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="6797b-135">In the Discount percent field, enter a number.</span></span>
-26. <span data-ttu-id="6797b-136">Haga clic en Agregar línea.</span><span class="sxs-lookup"><span data-stu-id="6797b-136">Click Add line.</span></span>
-27. <span data-ttu-id="6797b-137">En el campo Artículo, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="6797b-137">In the Item field, enter or select a value.</span></span>
-28. <span data-ttu-id="6797b-138">En el campo Artículo, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="6797b-138">In the Item field, type a value.</span></span>
-29. <span data-ttu-id="6797b-139">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="6797b-139">Close the page.</span></span>
-30. <span data-ttu-id="6797b-140">En el campo Precio unitario, especifique un nuevo precio o cambie el actual.</span><span class="sxs-lookup"><span data-stu-id="6797b-140">In the Unit price field, enter a new price or change the current one.</span></span>
-31. <span data-ttu-id="6797b-141">Haga clic en Agregar línea.</span><span class="sxs-lookup"><span data-stu-id="6797b-141">Click Add line.</span></span>
-32. <span data-ttu-id="6797b-142">En el campo Artículo, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="6797b-142">In the Item field, enter or select a value.</span></span>
-33. <span data-ttu-id="6797b-143">En el campo Artículo, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="6797b-143">In the Item field, type a value.</span></span>
-34. <span data-ttu-id="6797b-144">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="6797b-144">Close the page.</span></span>
-35. <span data-ttu-id="6797b-145">En el campo Cantidad, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="6797b-145">In the Quantity field, enter a number.</span></span>
-36. <span data-ttu-id="6797b-146">En el campo Descuento, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="6797b-146">In the Discount field, enter a number.</span></span>
-37. <span data-ttu-id="6797b-147">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="6797b-147">Click Save.</span></span>
+## <a name="create-a-quotation-template"></a><span data-ttu-id="d4bc8-107">Crear una plantilla de presupuesto</span><span class="sxs-lookup"><span data-stu-id="d4bc8-107">Create a quotation template</span></span>
+1. <span data-ttu-id="d4bc8-108">Vaya a Ventas y marketing > Configuración > Presupuestos > Grupos de plantillas.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-108">Go to Sales and marketing > Setup > Quotations > Template groups.</span></span>
+2. <span data-ttu-id="d4bc8-109">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-109">Click New.</span></span>
+3. <span data-ttu-id="d4bc8-110">En el campo Id. de grupo, escriba el id. que desee.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-110">In the Group ID field, type an ID of your choice.</span></span>
+4. <span data-ttu-id="d4bc8-111">En el campo Descripción, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-111">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="d4bc8-112">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-112">Click Save.</span></span>
+6. <span data-ttu-id="d4bc8-113">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-113">Close the page.</span></span>
+7. <span data-ttu-id="d4bc8-114">Vaya a Ventas y marketing > Presupuestos de ventas > Todos los presupuestos.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-114">Go to Sales and marketing > Sales quotations > All quotations.</span></span>
+8. <span data-ttu-id="d4bc8-115">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-115">Click New.</span></span>
+9. <span data-ttu-id="d4bc8-116">En el campo Tipo de cuenta, seleccione 'Cliente'.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-116">In the Account type field, select 'Customer'.</span></span>
+10. <span data-ttu-id="d4bc8-117">En el campo Cuenta de cliente, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-117">In the Customer account field, enter or select a value.</span></span>
+11. <span data-ttu-id="d4bc8-118">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="d4bc8-118">Click OK.</span></span>
+    * <span data-ttu-id="d4bc8-119">Para que un presupuesto se convierta en una plantilla debe realizar pasos de configuración en la cabecera de presupuesto.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-119">For a quotation to become a template you must carry out  setup steps on the quotation header.</span></span> <span data-ttu-id="d4bc8-120">Esto se debe realizar antes de agregar líneas al presupuesto.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-120">This must be done before you add lines to the quotation.</span></span>   
+12. <span data-ttu-id="d4bc8-121">En el panel de acciones, haga clic en Opciones.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-121">On the Action Pane, click Options.</span></span>
+13. <span data-ttu-id="d4bc8-122">Haga clic en Cambiar vista.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-122">Click Change view.</span></span>
+14. <span data-ttu-id="d4bc8-123">Haga clic en Visualización de encabezado.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-123">Click Header view.</span></span>
+15. <span data-ttu-id="d4bc8-124">Expanda la sección Configuración.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-124">Expand the Setup section.</span></span>
+16. <span data-ttu-id="d4bc8-125">En el campo Id. de grupo, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-125">In the Group ID field, enter or select a value.</span></span>
+17. <span data-ttu-id="d4bc8-126">En el campo Nombre de plantilla, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-126">In the Template name field, type a value.</span></span>
+18. <span data-ttu-id="d4bc8-127">Seleccione Sí en el campo Activo.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-127">Select Yes in the Active field.</span></span>
+    * <span data-ttu-id="d4bc8-128">Solo las plantillas activas pueden usarse si se aplica una plantilla a un nuevo presupuesto de ventas.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-128">Only active templates can be used when you apply a template to a new sales quotation.</span></span>  
+19. <span data-ttu-id="d4bc8-129">En el panel de acciones, haga clic en Opciones.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-129">On the Action Pane, click Options.</span></span>
+20. <span data-ttu-id="d4bc8-130">Haga clic en Cambiar vista.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-130">Click Change view.</span></span>
+21. <span data-ttu-id="d4bc8-131">Haga clic en Vista de líneas.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-131">Click Line view.</span></span>
+22. <span data-ttu-id="d4bc8-132">En el campo Artículo, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-132">In the Item field, enter or select a value.</span></span>
+23. <span data-ttu-id="d4bc8-133">En el campo Artículo, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-133">In the Item field, type a value.</span></span>
+24. <span data-ttu-id="d4bc8-134">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-134">Close the page.</span></span>
+25. <span data-ttu-id="d4bc8-135">En el campo Porcentaje de descuento, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-135">In the Discount percent field, enter a number.</span></span>
+26. <span data-ttu-id="d4bc8-136">Haga clic en Agregar línea.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-136">Click Add line.</span></span>
+27. <span data-ttu-id="d4bc8-137">En el campo Artículo, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-137">In the Item field, enter or select a value.</span></span>
+28. <span data-ttu-id="d4bc8-138">En el campo Artículo, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-138">In the Item field, type a value.</span></span>
+29. <span data-ttu-id="d4bc8-139">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-139">Close the page.</span></span>
+30. <span data-ttu-id="d4bc8-140">En el campo Precio unitario, especifique un nuevo precio o cambie el actual.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-140">In the Unit price field, enter a new price or change the current one.</span></span>
+31. <span data-ttu-id="d4bc8-141">Haga clic en Agregar línea.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-141">Click Add line.</span></span>
+32. <span data-ttu-id="d4bc8-142">En el campo Artículo, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-142">In the Item field, enter or select a value.</span></span>
+33. <span data-ttu-id="d4bc8-143">En el campo Artículo, escriba un valor.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-143">In the Item field, type a value.</span></span>
+34. <span data-ttu-id="d4bc8-144">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-144">Close the page.</span></span>
+35. <span data-ttu-id="d4bc8-145">En el campo Cantidad, especifique un número.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-145">In the Quantity field, enter a number.</span></span>
+36. <span data-ttu-id="d4bc8-146">En el campo Descuento, escriba un número.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-146">In the Discount field, enter a number.</span></span>
+37. <span data-ttu-id="d4bc8-147">Haga clic en Guardar.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-147">Click Save.</span></span>
 
-## <a name="apply-the-template-to-create-a-single-quotation"></a><span data-ttu-id="6797b-148">Aplicar la plantilla para crear un único presupuesto</span><span class="sxs-lookup"><span data-stu-id="6797b-148">Apply the template to create a single quotation</span></span>
-1. <span data-ttu-id="6797b-149">Vaya a Ventas y marketing > Presupuestos de ventas > Todos los presupuestos.</span><span class="sxs-lookup"><span data-stu-id="6797b-149">Go to Sales and marketing > Sales quotations > All quotations.</span></span>
-    * <span data-ttu-id="6797b-150">Tenga en cuenta que el presupuesto que acaba de crear está marcado como plantilla.</span><span class="sxs-lookup"><span data-stu-id="6797b-150">Note that the quotation you have just created is marked as template.</span></span>  
-2. <span data-ttu-id="6797b-151">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="6797b-151">Click New.</span></span>
-3. <span data-ttu-id="6797b-152">En el campo Tipo de cuenta, seleccione 'Cliente'.</span><span class="sxs-lookup"><span data-stu-id="6797b-152">In the Account type field, select 'Customer'.</span></span>
-4. <span data-ttu-id="6797b-153">En el campo Cuenta de cliente, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="6797b-153">In the Customer account field, enter or select a value.</span></span>
-5. <span data-ttu-id="6797b-154">Expanda la sección Plantilla.</span><span class="sxs-lookup"><span data-stu-id="6797b-154">Expand the Template section.</span></span>
-6. <span data-ttu-id="6797b-155">En el campo Id. de grupo, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="6797b-155">In the Group ID field, enter or select a value.</span></span>
-7. <span data-ttu-id="6797b-156">En el campo Nombre de plantilla, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="6797b-156">In the Template name field, enter or select a value.</span></span>
-8. <span data-ttu-id="6797b-157">En el campo Método de cálculo, seleccione “Basado en valores de plantilla”.</span><span class="sxs-lookup"><span data-stu-id="6797b-157">In the Calculation method field, select 'Based on template values'.</span></span>
-9. <span data-ttu-id="6797b-158">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="6797b-158">Click OK.</span></span>
-    * <span data-ttu-id="6797b-159">Se ha creado el nuevo presupuesto, en función de los datos y las condiciones de la plantilla.</span><span class="sxs-lookup"><span data-stu-id="6797b-159">The new quotation has now been created, based on the data and terms of the template.</span></span>  
-10. <span data-ttu-id="6797b-160">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="6797b-160">Close the page.</span></span>
-11. <span data-ttu-id="6797b-161">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="6797b-161">Close the page.</span></span>
+## <a name="apply-the-template-to-create-a-single-quotation"></a><span data-ttu-id="d4bc8-148">Aplicar la plantilla para crear un único presupuesto</span><span class="sxs-lookup"><span data-stu-id="d4bc8-148">Apply the template to create a single quotation</span></span>
+1. <span data-ttu-id="d4bc8-149">Vaya a Ventas y marketing > Presupuestos de ventas > Todos los presupuestos.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-149">Go to Sales and marketing > Sales quotations > All quotations.</span></span>
+    * <span data-ttu-id="d4bc8-150">Tenga en cuenta que el presupuesto que acaba de crear está marcado como plantilla.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-150">Note that the quotation you have just created is marked as template.</span></span>  
+2. <span data-ttu-id="d4bc8-151">Haga clic en Nuevo.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-151">Click New.</span></span>
+3. <span data-ttu-id="d4bc8-152">En el campo Tipo de cuenta, seleccione 'Cliente'.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-152">In the Account type field, select 'Customer'.</span></span>
+4. <span data-ttu-id="d4bc8-153">En el campo Cuenta de cliente, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-153">In the Customer account field, enter or select a value.</span></span>
+5. <span data-ttu-id="d4bc8-154">Expanda la sección Plantilla.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-154">Expand the Template section.</span></span>
+6. <span data-ttu-id="d4bc8-155">En el campo Id. de grupo, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-155">In the Group ID field, enter or select a value.</span></span>
+7. <span data-ttu-id="d4bc8-156">En el campo Nombre de plantilla, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-156">In the Template name field, enter or select a value.</span></span>
+8. <span data-ttu-id="d4bc8-157">En el campo Método de cálculo, seleccione “Basado en valores de plantilla”.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-157">In the Calculation method field, select 'Based on template values'.</span></span>
+9. <span data-ttu-id="d4bc8-158">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="d4bc8-158">Click OK.</span></span>
+    * <span data-ttu-id="d4bc8-159">Se ha creado el nuevo presupuesto, en función de los datos y las condiciones de la plantilla.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-159">The new quotation has now been created, based on the data and terms of the template.</span></span>  
+10. <span data-ttu-id="d4bc8-160">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-160">Close the page.</span></span>
+11. <span data-ttu-id="d4bc8-161">Cierre la página.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-161">Close the page.</span></span>
 
-## <a name="apply-the-template-to-mass-create-quotations"></a><span data-ttu-id="6797b-162">Aplicar la plantilla para crear presupuestos de forma masiva</span><span class="sxs-lookup"><span data-stu-id="6797b-162">Apply the template to mass create quotations</span></span>
-1. <span data-ttu-id="6797b-163">Vaya a Ventas y marketing > Presupuestos de ventas > Actualización de presupuesto > Creación masiva de presupuestos.</span><span class="sxs-lookup"><span data-stu-id="6797b-163">Go to Sales and marketing > Sales quotations > Quotation update > Mass create quotations.</span></span>
-2. <span data-ttu-id="6797b-164">En el campo Tipo de cuenta, seleccione 'Cliente'.</span><span class="sxs-lookup"><span data-stu-id="6797b-164">In the Account type field, select 'Customer'.</span></span>
-3. <span data-ttu-id="6797b-165">En el campo Id. de grupo, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="6797b-165">In the Group ID field, enter or select a value.</span></span>
-4. <span data-ttu-id="6797b-166">En el campo Nombre de plantilla, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="6797b-166">In the Template name field, enter or select a value.</span></span>
-5. <span data-ttu-id="6797b-167">En el campo Método de cálculo, seleccione “Basado en valores de plantilla”.</span><span class="sxs-lookup"><span data-stu-id="6797b-167">In the Calculation method field, select 'Based on template values'.</span></span>
-6. <span data-ttu-id="6797b-168">Expanda la sección Registros que incluir.</span><span class="sxs-lookup"><span data-stu-id="6797b-168">Expand the Records to include section.</span></span>
-7. <span data-ttu-id="6797b-169">Haga clic en Filtro.</span><span class="sxs-lookup"><span data-stu-id="6797b-169">Click Filter.</span></span>
-8. <span data-ttu-id="6797b-170">En el campo Criterios, establezca el filtro para cubrir un intervalo de clientes que desea incluir en esta creación de presupuesto masiva.</span><span class="sxs-lookup"><span data-stu-id="6797b-170">In the Criteria field, set the filter to cover a range of customers you want to include in this mass quotation creation.</span></span> <span data-ttu-id="6797b-171">Utilice el siguiente formato "Customer1..CustomerN.</span><span class="sxs-lookup"><span data-stu-id="6797b-171">Use the following format "Customer1..CustomerN.</span></span>
-    * <span data-ttu-id="6797b-172">Por ejemplo, podría establecer el filtro en: US-001..US-004</span><span class="sxs-lookup"><span data-stu-id="6797b-172">For example, you could set the filter to: US-001..US-004</span></span>  
-9. <span data-ttu-id="6797b-173">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="6797b-173">Click OK.</span></span>
-10. <span data-ttu-id="6797b-174">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="6797b-174">Click OK.</span></span>
-11. <span data-ttu-id="6797b-175">Vaya a Ventas y marketing > Presupuestos de ventas > Todos los presupuestos.</span><span class="sxs-lookup"><span data-stu-id="6797b-175">Go to Sales and marketing > Sales quotations > All quotations.</span></span>
-    * <span data-ttu-id="6797b-176">Compruebe que los presupuestos se han creado para todos los clientes especificados en la rutina de actualización masiva, basándose en la plantilla seleccionada.</span><span class="sxs-lookup"><span data-stu-id="6797b-176">Verify that quotations have been created for all the customers specified in the mass update routine, as based on the selected template.</span></span>  
+## <a name="apply-the-template-to-mass-create-quotations"></a><span data-ttu-id="d4bc8-162">Aplicar la plantilla para crear presupuestos de forma masiva</span><span class="sxs-lookup"><span data-stu-id="d4bc8-162">Apply the template to mass create quotations</span></span>
+1. <span data-ttu-id="d4bc8-163">Vaya a Ventas y marketing > Presupuestos de ventas > Actualización de presupuesto > Creación masiva de presupuestos.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-163">Go to Sales and marketing > Sales quotations > Quotation update > Mass create quotations.</span></span>
+2. <span data-ttu-id="d4bc8-164">En el campo Tipo de cuenta, seleccione 'Cliente'.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-164">In the Account type field, select 'Customer'.</span></span>
+3. <span data-ttu-id="d4bc8-165">En el campo Id. de grupo, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-165">In the Group ID field, enter or select a value.</span></span>
+4. <span data-ttu-id="d4bc8-166">En el campo Nombre de plantilla, especifique o seleccione un valor.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-166">In the Template name field, enter or select a value.</span></span>
+5. <span data-ttu-id="d4bc8-167">En el campo Método de cálculo, seleccione “Basado en valores de plantilla”.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-167">In the Calculation method field, select 'Based on template values'.</span></span>
+6. <span data-ttu-id="d4bc8-168">Expanda la sección Registros que incluir.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-168">Expand the Records to include section.</span></span>
+7. <span data-ttu-id="d4bc8-169">Haga clic en Filtro.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-169">Click Filter.</span></span>
+8. <span data-ttu-id="d4bc8-170">En el campo Criterios, establezca el filtro para cubrir un intervalo de clientes que desea incluir en esta creación de presupuesto masiva.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-170">In the Criteria field, set the filter to cover a range of customers you want to include in this mass quotation creation.</span></span> <span data-ttu-id="d4bc8-171">Utilice el siguiente formato "Customer1..CustomerN.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-171">Use the following format "Customer1..CustomerN.</span></span>
+    * <span data-ttu-id="d4bc8-172">Por ejemplo, podría establecer el filtro en: US-001..US-004</span><span class="sxs-lookup"><span data-stu-id="d4bc8-172">For example, you could set the filter to: US-001..US-004</span></span>  
+9. <span data-ttu-id="d4bc8-173">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="d4bc8-173">Click OK.</span></span>
+10. <span data-ttu-id="d4bc8-174">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="d4bc8-174">Click OK.</span></span>
+11. <span data-ttu-id="d4bc8-175">Vaya a Ventas y marketing > Presupuestos de ventas > Todos los presupuestos.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-175">Go to Sales and marketing > Sales quotations > All quotations.</span></span>
+    * <span data-ttu-id="d4bc8-176">Compruebe que los presupuestos se han creado para todos los clientes especificados en la rutina de actualización masiva, basándose en la plantilla seleccionada.</span><span class="sxs-lookup"><span data-stu-id="d4bc8-176">Verify that quotations have been created for all the customers specified in the mass update routine, as based on the selected template.</span></span>  
 
