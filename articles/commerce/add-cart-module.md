@@ -17,17 +17,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 07d121d5a68970dd29f0e77babda735de12871ca
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: d9a15f85838849796d6ce4674712636251c75bf3
+ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761138"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3818284"
 ---
 # <a name="cart-module"></a>Módulo de carro
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 En este tema se tratan los módulos de carro y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 
@@ -41,11 +40,11 @@ El módulo de carrito procesa los datos en función de la ID del carrito, que es
 
 La siguiente imagen muestra un ejemplo de una página de carro en el sitio Fabrikam.
 
-![Ejemplo de un módulo de carro](./media/cart2.PNG)
+![Ejemplo de un módulo de carrito en el sitio de Fabrikam](./media/cart2.PNG)
 
 La siguiente imagen muestra un ejemplo de una página de carro en el sitio Fabrikam. En este ejemplo, hay una cuota de manipulación para un artículo de línea.
 
-![Ejemplo de un módulo de carro](./media/ecommerce-handling-fee.png)
+![Ejemplo de un módulo de carrito con una tarifa de manipulación para un artículo de línea](./media/ecommerce-handling-fee.png)
 
 ## <a name="cart-module-properties-and-slots"></a>Franjas y propiedades del módulo del carro
 

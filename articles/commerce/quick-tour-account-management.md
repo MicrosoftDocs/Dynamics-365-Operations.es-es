@@ -3,7 +3,7 @@ title: Visión general de las páginas de la gestión de cuentas
 description: Este tema proporciona una visión general de las páginas de gestión de cuentas en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/30/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 03a2ebd07c2a95198f506df3fd94c967ad0315e8
-ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
+ms.openlocfilehash: d0e066428e8c4717b5a50144f63e59b87089d286
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527617"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817811"
 ---
 # <a name="account-management-pages-overview"></a>Visión general de las páginas de la gestión de cuentas
 
@@ -46,7 +46,7 @@ La ilustración siguiente muestra un ejemplo de la página de aterrizaje de gest
 
 La página **Mi perfil** muestra la información de cuenta del cliente, como su nombre y número de teléfono. El cliente puede actualizar la información de su perfil en esta página. Esta página se puede personalizar de modo que incluya preferencias adicionales de cuenta de cliente, como una opción para optar por correo electrónico de marketing.
 
-En la siguiente ilustración se muestra un ejemplo de una página **Mi perfil** que se creó con el kit de inicio.
+En la siguiente ilustración se muestra un ejemplo de una página **Mi perfil** que se creó con la biblioteca de módulos.
 
 ![Ejemplo de una página Mi perfil](./media/Account-Management-MyProfile.PNG)
 

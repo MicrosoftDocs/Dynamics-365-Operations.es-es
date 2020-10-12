@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5a57b96387ca5746a30b2e438d6b5f0ce3040f54
-ms.sourcegitcommit: 728cd7f723ee821337eee315a27977e99a44d9d3
+ms.openlocfilehash: 65874e5ca73c18c3df7b94b8abb6eb15491482bf
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "3258566"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893144"
 ---
 # <a name="business-document-management-overview"></a>Visión general de la gestión de documentos empresariales
 
@@ -31,7 +31,7 @@ ms.locfileid: "3258566"
 
 Los usuarios empresariales usan el marco [Informes electrónicos (ER)](general-electronic-reporting.md) para configurar formatos para documentos de salida en función de los requisitos legales de diversos países o regiones. Los usuarios también pueden definir el flujo de datos para especificar qué datos de la aplicación se colocan en los documentos generados. El marco de ER genera documentos de salida en los formatos de Microsoft Office (libros de Excel o documentos de Word) a través de plantillas predefinidas. Las plantillas se rellenan con los datos requeridos según el flujo de datos configurado mientras se generan los documentos necesarios. Cada formato configurado se puede publicar como parte de una solución de ER para generar documentos de salida específicos. Esto se representa mediante una configuración de formato de ER que pueda contener plantillas que puede usar para generar distintos documentos de salida. Los usuarios empresariales pueden usar este marco para gestionar los documentos empresariales necesarios.
 
-**Gestión de documentos empresariales** aprovecha el marco de ER y permite a los usuarios empresariales editar plantillas de documentos empresariales mediante el servicio de Microsoft Office 365 o la aplicación de escritorio de Microsoft Office apropiada. Las ediciones a los documentos pueden incluir modificar los diseños de los documentos empresariales y agregar marcadores para datos sin cambios del código fuente ni nuevas implementaciones. No se requiere ningún conocimiento del marco de ER para actualizar las plantillas de los documentos empresariales.
+**Gestión de documentos empresariales** aprovecha el marco de ER y permite a los usuarios empresariales editar plantillas de documentos empresariales mediante el servicio de Microsoft 365 o la aplicación de escritorio de Microsoft Office apropiada. Las ediciones a los documentos pueden incluir modificar los diseños de los documentos empresariales y agregar marcadores para datos sin cambios del código fuente ni nuevas implementaciones. No se requiere ningún conocimiento del marco de ER para actualizar las plantillas de los documentos empresariales.
 
 > [!NOTE]
 > Tenga en cuenta que la gestión de documentos empresariales le permite modificar las plantillas que se utilizan para generar documentos empresariales como facturas, pedidos, etc.. Cuando se modifica una plantilla y se publica una nueva versión de ella, esta versión se usa para generar los documentos empresariales requeridos. La gestión de documentos empresariales no se puede usar para modificar los documentos empresariales ya generados.
@@ -170,7 +170,7 @@ Use el procedimiento siguiente para configurar parámetros básicos para todas l
 El tipo de documento seleccionado es específico de una empresa y se usará cuando el usuario esté trabajando con la gestión de documentos empresariales en la empresa para la que se configuró el tipo de documento seleccionado. Cuando el usuario esté trabajando con la gestión de documentos empresariales en otra empresa, se usará el mismo tipo de documento seleccionado si no se hubiera configurado uno para esta empresa. Cuando se ha configurado un tipo de documento, se usará en lugar del seleccionado en el campo **Tipo de documento de SharePoint**.
 
 > [!NOTE]
-> El parámetro **Tipo de documento de SharePoint** define una carpeta de SharePoint como almacenamiento temporal para plantillas que se pueden editar usando Microsoft Excel o Word. Debe configurar este parámetro si planea usar estas aplicaciones de escritorio de Office para editar plantillas. Para más información, vea [Editar una plantilla en la aplicación de escritorio de Office](#EditInOfficeDesktopApp). Puede mantener este parámetro en blanco si planea modificar la plantilla utilizando solo la funcionalidad de Office 365. Para obtener más información, consulte [Editar una plantilla en Office 365](#EditInOffice365).
+> El parámetro **Tipo de documento de SharePoint** define una carpeta de SharePoint como almacenamiento temporal para plantillas que se pueden editar usando Microsoft Excel o Word. Debe configurar este parámetro si planea usar estas aplicaciones de escritorio de Office para editar plantillas. Para más información, vea [Editar una plantilla en la aplicación de escritorio de Office](#EditInOfficeDesktopApp). Puede mantener este parámetro en blanco si planea modificar la plantilla utilizando solo la funcionalidad de Microsoft 365. Para obtener más información, consulte [Editar una plantilla en Microsoft 365](#EditInOffice365).
 
 ## <a name="configure-access-permissions"></a>Configurar los permisos de acceso
 
@@ -295,13 +295,13 @@ La opción **Nuevo documento** está siempre disponible para una plantilla en un
 
 5. Seleccione **Aceptar** para confirmar el inicio del proceso de edición.
 
-La página **Editor de plantillas de BDM** se abrirá. La plantilla seleccionada estará disponible para la edición en línea de Office 365.
+La página **Editor de plantillas de BDM** se abrirá. La plantilla seleccionada estará disponible para la edición en línea de Microsoft 365.
 
 ![Página del espacio de trabajo de la gestión de documentos empresariales](./media/BDM-Overview-EditingLayout1.png)
 
-### <a name=""></a><a name="EditInOffice365">Editar una plantilla en Office 365</a>
+### <a name=""></a><a name="EditInOffice365">Editar una plantilla en Microsoft 365</a>
 
-Puede modificar la plantilla mediante Office 365. Por ejemplo, en Office Online, cambie la fuente de los mensajes de campo en el encabezado de **Normal** a **Negrita**. Estos cambios se almacenan automáticamente en la plantilla editable almacenada en el almacenamiento principal de la plantilla (de forma predeterminada, el almacenamiento blob de Azure). Se configura para el marco ER.
+Puede modificar la plantilla mediante Microsoft 365. Por ejemplo, en Office Online, cambie la fuente de los mensajes de campo en el encabezado de **Normal** a **Negrita**. Estos cambios se almacenan automáticamente en la plantilla editable almacenada en el almacenamiento principal de la plantilla (de forma predeterminada, el almacenamiento blob de Azure). Se configura para el marco ER.
 
 ![Página del editor de plantillas de la gestión de documentos empresariales](./media/BDM-Overview-EditingLayout2.png)
 
@@ -398,10 +398,10 @@ Al editar la plantilla desde un formato de ER propiedad del proveedor activo act
 
 ## <a name="frequently-asked-questions"></a>Preguntas frecuentes
 
-#### <a name="i-selected-edit-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-office-365-web-page"></a>Seleccioné **Editar documento**, pero en lugar de abrir la página **Editor de plantillas de BDM** en Finance and Operations, me han enviado a la página web de Office 365.
-Esto se un problema conocido de la redirección de Office 365. Esto ocurre al iniciar sesión en Office 365 la primera vez. Para solucionar este error, seleccione el botón **Atrás** del explorador para regresar.
+#### <a name="i-selected-edit-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-microsoft-365-web-page"></a>Seleccioné **Editar documento**, pero en lugar de abrir la página **Editor de plantillas de BDM** en Finance and Operations, me han enviado a la página web de Microsoft 365.
+Esto se un problema conocido de la redirección de Microsoft 365. Esto ocurre al iniciar sesión en Microsoft 365 la primera vez. Para solucionar este error, seleccione el botón **Atrás** del explorador para regresar.
 
-#### <a name="i-understand-how-to-edit-a-template-by-using-office-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-adjusting-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-do-this-using-the-office-desktop-application"></a>Entiendo cómo editar una plantilla con Office 365 en la primera sesión de la aplicación y cómo usar la plantilla en la segunda sesión de la aplicación ajustándola para ver cómo mis cambios afectan al documento empresarial generado. ¿Puedo hacer esto mediante la aplicación de escritorio de Office?
+#### <a name="i-understand-how-to-edit-a-template-by-using-microsoft-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-adjusting-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-do-this-using-the-office-desktop-application"></a>Entiendo cómo editar una plantilla con Microsoft 365 en la primera sesión de la aplicación y cómo usar la plantilla en la segunda sesión de la aplicación ajustándola para ver cómo mis cambios afectan al documento empresarial generado. ¿Puedo hacer esto mediante la aplicación de escritorio de Office?
 Sí, puede. En la primera sesión de la aplicación, seleccione **Abrir en aplicación de escritorio**. Su plantilla se almacenará en el archivo de almacenamiento temporal y se abrirá en la aplicación de escritorio de Office. A continuación, realice los pasos siguientes para obtener una vista previa de los cambios en la plantilla en el documento empresarial generado:
 
 1. Realice cambios en la plantilla con la aplicación de escritorio de Office.

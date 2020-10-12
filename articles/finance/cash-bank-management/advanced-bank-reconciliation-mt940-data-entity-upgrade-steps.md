@@ -1,7 +1,7 @@
 ---
 title: Importación avanzada de conciliación bancaria MT940 - Actualización de la entidad de datos compuestos
-description: Es necesario añadir un número de secuencia a la entidad de importación del extracto bancario para admitir el formato MT940.
-author: ShylaThompson
+description: Es necesario agregar un número de secuencia a la entidad de importación del extracto bancario para admitir el formato MT940.
+author: panolte
 manager: AnnBe
 ms.date: 06/20/2019
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.scope: Core, Operations
 ms.custom: 221594
 ms.assetid: dddc99ae-56ae-48df-856a-131079c17dcb
 ms.search.region: Global
-ms.author: saraschi
+ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 91100c3e3c33462e5b19ca239a784cdb720210ab
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 65970cdac114b72363d2fbbc08766c99ace00b88
+ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772016"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3899382"
 ---
 # <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a>Importación avanzada de conciliación bancaria MT940 - Actualización de la entidad de datos compuestos
 
 [!include [banner](../includes/banner.md)]
 
-Es necesario añadir un número de secuencia a la entidad de importación del extracto bancario para admitir el formato MT940. 
+Es necesario agregar un número de secuencia a la entidad de importación del extracto bancario para admitir el formato MT940. 
 
 Siga estos pasos para agregar la entidad de importación del extracto bancario para admitir el formato MT940.
 
@@ -47,7 +47,7 @@ Siga estos pasos para agregar la entidad de importación del extracto bancario p
             -   Haga clic en **Ver mapa** en el documento del extracto bancario.
             -   Haga clic en **Transformaciones**
             -   Eliminar el archivo de BankReconiliation-to-Composite.xslt.
-            -   Añadir la nueva versión de BankReconiliation-to-Composite.xsl.
+            -   Agregar la nueva versión de BankReconiliation-to-Composite.xsl.
 
         2.  Exponer el **Número de secuencia** en el diseño de **Datos de origen**.
             1.  Formato de datos de origen = Elemento XML.

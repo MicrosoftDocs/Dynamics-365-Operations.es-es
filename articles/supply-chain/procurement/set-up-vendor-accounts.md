@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b2ea87e4147757a584e38b819faa8a0423ec0028
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 59c8071ed20740f81854d29e21f87b2e8650d10f
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3216103"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893170"
 ---
 # <a name="set-up-vendor-accounts"></a>Configuración de cuentas de proveedor
 
@@ -66,7 +66,7 @@ Puede crear contactos de proveedor desde cero. Como alternativa, puede copiar de
 
 No puede eliminar un registro de la persona de contacto si al contacto se hace referencia en un documento. En su lugar, puede desactivar el contacto.  
 
-Puede agregar contactos de proveedor a sus contactos personales de Microsoft Office 365. Sin embargo, debe configurar primero la sincronización entre Supply Chain Management y Office 365 en la sincronización de Microsoft Exchange Server y en el Asistente de configuración de Microsoft Outlook.
+Puede agregar contactos de proveedor a sus contactos personales de Microsoft 365. Sin embargo, debe configurar primero la sincronización entre Supply Chain Management y Microsoft 365 en la sincronización de Microsoft Exchange Server y en el Asistente de configuración de Microsoft Outlook.
 
 ## <a name="vendors-in-different-legal-entities"></a>Proveedores en diferentes entidades jurídicas
 Si un proveedor se registra solo para una entidad jurídica de su organización, y otras entidades jurídicas deben registrar el mismo proveedor, puede utilizar la página **Agregar proveedor a otra entidad jurídica** para configurar el proveedor para hacer negocios con otra entidad jurídica. Debe seleccionar un grupo de proveedores, una divisa y un estado de suspensión para el proveedor, en la entidad jurídica seleccionada.  

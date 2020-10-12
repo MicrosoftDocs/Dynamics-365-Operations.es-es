@@ -1,9 +1,9 @@
 ---
-title: Insertar Power Apps
-description: Este tema describe cómo insertar Power Apps en el cliente para aumentar la funcionalidad de producto.
+title: Insertar aplicaciones de lienzo desde Power Apps
+description: Este tema explica cómo insertar aplicaciones de lienzo de Microsoft Power Apps en el cliente para aumentar la funcionalidad de producto.
 author: jasongre
 manager: AnnBe
-ms.date: 12/02/2019
+ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,36 +16,39 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 90422a34499dab7302ad7722cf84d40e1815991c
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: e57e4567a80aa9f9ba5ac434b0d71204460e164f
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042951"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893116"
 ---
-# <a name="embed-microsoft-power-apps"></a>Insertar Microsoft Power Apps
+# <a name="embed-canvas-apps-from-power-apps"></a>Insertar aplicaciones de lienzo desde Power Apps
 
 [!include [banner](../includes/banner.md)]
 
-Finance and Operations admite la integración con Microsoft Power Apps, un servicio para que desarrolladores y usuarios no técnicos compilen las aplicaciones personalizadas de negocio de los dispositivos móviles, las tabletas, y la Web sin escribir código. Las aplicaciones Power Apps desarrolladas por el usuario, su organización, o el ecosistema más amplio se pueden insertar en las aplicaciones de Finance and Operations para aumentar la funcionalidad de producto. Por ejemplo, puede crear una aplicación en Power Apps que complemente a la aplicación de Finance and Operations con información recuperada de otro sistema.
+Microsoft Power Apps es un servicio que permite tanto a desarrolladores como a usuarios no técnicos crear aplicaciones empresariales personalizadas para dispositivos móviles, tabletas y la Web sin escribir código. Las aplicaciones de Finance and Operations admiten la integración con Power Apps. Las aplicaciones de lienzo que usted, su organización,o el ecosistema más amplio desarrollan se pueden insertar en las aplicaciones de Finance and Operations para aumentar la funcionalidad de producto. Por ejemplo, puede crear una aplicación de lienzo en Power Apps que complemente a la aplicación de Finance and Operations con información recuperada de otro sistema.
 
 Para obtener más información acerca de la integración de Power Apps, vea el vídeo corto [Cómo integrar Power Apps](https://www.youtube.com/watch?v=x3qyA1bH-NY).
 
-## <a name="adding-an-embedded-app-from-power-apps-to-a-page"></a>Agregar una aplicación de Power Apps incrustada a una página
+## <a name="adding-an-embedded-canvas-app-from-power-apps-to-a-page"></a>Agregar una aplicación de lienzo de Power Apps incrustada a una página
 
-### <a name="overview"></a>Visión general
+### <a name="overview"></a>Información general
 
-Antes de insertar una aplicación de Power Apps en el cliente, primero tendrá que encontrar o compilar una aplicación con las representaciones visuales y/o la funcionalidades deseadas. No describiremos el proceso detallado para crear aplicaciones aquí. El tema [Introducción a Power Apps](https://docs.microsoft.com/powerapps/getting-started) es un buen punto de inicio si es nuevo en Power Apps.
+Antes de incrustar una aplicación de lienzo de Power Apps en el cliente, primero debe encontrar o compilar una aplicación con las representaciones visuales y/o la funcionalidades deseadas. Este tema no incluye una descripción detallada del proceso para crear aplicaciones. Si es nuevo en Power Apps, mire la [documentación de Power Apps](https://docs.microsoft.com/powerapps/).
 
-Cuando esté listo para incrustar una aplicación específica, puede elegir entre una de dos formas de tener acceso a la aplicación en una página, sea cual sea la ruta que mejor se adapte a su ejemplo. La primera forma se realiza mediante el botón de Power Apps que se ha agregado al panel de acciones estándar. Las aplicaciones agregadas mediante este mecanismo aparecerán como elementos de menú dentro del botón de menú de Power Apps. Cuando se seleccionan, cada uno de estos elementos de menú abren un panel lateral que contiene la aplicación incrustada. Como alternativa, puede elegir incrustar una aplicación directamente en una nueva página como ficha, ficha desplegable, hoja o como nueva sección en un área de trabajo.
+Hay dos formas de acceder a una aplicación de lienzo específica en una página cuando esté listo para insertar la aplicación. Puede elegir el enfoque que mejor se adapte a su escenario. El primer enfoque usa el botón de **Power Apps** que se ha agregado al panel de acciones estándar. Las aplicaciones que agrega mediante este enfoque aparecen como elementos en el botón de menú **Power Apps**. Cuando selecciona uno de estos elementos, aparece un panel lateral que contiene la aplicación incrustada. Como alternativa, puede incrustar una aplicación directamente en una nueva página como ficha, ficha desplegable u hoja, o como nueva sección en un área de trabajo.
 
-Al configurar la aplicación incrustada, puede seleccionar un solo campo que desee enviar como contexto a la aplicación. Esto permite que la aplicación tenga capacidad de respuesta basándose en los datos que está viendo actualmente.
+Al configurar la aplicación de lienzo incrustada, puede seleccionar un solo campo que desee enviar como contexto a la aplicación. Este paso permite que la aplicación tenga capacidad de respuesta basándose en los datos que está viendo actualmente.
+
+> [!NOTE]
+> Actualmente no puede usar este mecanismo para incrustar aplicaciones modeladas.  
 
 ### <a name="details"></a>Detalles
 
-Las instrucciones siguientes muestran cómo insertar una aplicación de Power Apps en el cliente web.
+El siguiente procedimiento muestra cómo insertar una aplicación de lienzo de Power Apps en el cliente web.
 
-1. Vaya a la página en la que desee insertar la aplicación. Esto será la misma página que contiene todos los datos que deben pasarse la aplicación como entrada.
+1. Vaya a la página en la que desee insertar la aplicación de lienzo. Esta página será la misma que contiene todos los datos que deben pasarse la aplicación como entrada.
 2. Abra el panel **Agregar una aplicación desde Power Apps**:
 
     - Haga click en **Opciones** y, después seleccione **Personalizar esta página**. En el menú **Insertar**, seleccione **Power Apps** Finalmente, seleccione la región donde desee agregar la aplicación. Si desea insertar la aplicación bajo el botón de menú de Power Apps, elija el panel de acciones. Si desea insertar la aplicación directamente en la página, elija la ficha, la ficha desplegable, la hoja o la sección adecuadas (si se encuentra en un espacio de trabajo).
@@ -54,8 +57,8 @@ Las instrucciones siguientes muestran cómo insertar una aplicación de Power Ap
 3. Configurar la aplicación incrustada:
 
     - El campo **Nombre** indica el texto que se muestra para el botón o la ficha o que contendrán la aplicación incrustada. Muchas veces puede que desee repetir el nombre de la aplicación en este campo.
-    - **Identificador de la aplicación** es el GUID para la aplicación que desee insertar. Para recuperar este valor, encuentre la aplicación en [web.powerapps.com](https://web.powerapps.com) y después busque el campo **Identificador de la aplicación** en **Detalles**.
-    - Para **Contexto de entrada para la aplicación**, puede seleccionar opcionalmente el campo que contiene los datos que desea pasar a la aplicación como entrada. Consulte la sección que figura más adelante en este tema denominada [Creación de una aplicación aplicaciones que saque provecho de datos enviados desde las aplicaciones de Finance and Operations](#building-an-app-that-leverages-data-sent-from-finance-and-operations-apps) para obtener información detallada sobre cómo la aplicación puede tener acceso a los datos enviados desde aplicaciones de Finance and Operations.
+    - El campo **ID de aplicación** indica el identificador único global (GUID) de la aplicación de lienzo que desea incrustar. Para recuperar este valor, encuentre la aplicación en [web.powerapps.com](https://web.powerapps.com) y después mire en el campo **Identificador de la aplicación** en **Detalles**.
+    - Para **Contexto de entrada para la aplicación**, puede seleccionar opcionalmente el campo que contiene los datos que desea pasar a la aplicación como entrada. Consulte la sección que figura más adelante en este tema denominada [Creación de una aplicación aplicaciones que saque provecho de datos enviados desde las aplicaciones de Finance and Operations](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps) para obtener información detallada sobre cómo la aplicación puede tener acceso a los datos enviados desde aplicaciones de Finance and Operations.
     - Elija el **tamaño de la aplicación** que coincida con el tipo de aplicación que se está insertando. Seleccione **Fino** para aplicaciones creadas para dispositivos móviles y **Ancho** para aplicaciones creadas para tabletas. Esto garantiza que se asigne una cantidad de espacio suficiente para la aplicación incrustada.
     - La ficha desplegable **Entidades jurídicas** proporciona la capacidad de elegir para qué entidades jurídicas está disponible la aplicación. El valor predeterminado es hacer que la aplicación esté accesible para todas las entidades jurídicas. Esta opción solo está disponible cuando la característica [Vistas guardadas](saved-views.md) está deshabilitada. 
 
@@ -63,16 +66,23 @@ Las instrucciones siguientes muestran cómo insertar una aplicación de Power Ap
 
 ## <a name="sharing-an-embedded-app"></a>Uso compartido de una aplicación incrustada
 
-Una vez que haya insertado una aplicación en una página y confirmado que funciona correctamente con cualquier contexto de los datos pasado de la página, puede que desee compartir esta aplicación incrustada con otros usuarios en el sistema. Esto se puede realizar de dos formas distintas mediante las capacidades de personalización de producto:
+Una vez que haya insertado una aplicación de lienzo en una página y confirmado que funciona correctamente con cualquier contexto de los datos pasado de esa página, puede que desee compartir la aplicación con otros usuarios en el sistema. Para compartir una aplicación de lienzo incrustada, siga estos pasos.
 
-- El escenario recomendado es a través del administrador del sistema, que puede insertar una personalización a todos los usuarios o un subconjunto de usuarios.
-- Como alternativa, puede exportar las personalizaciones de la página, enviarlas a uno o varios usuarios y hacer que cada uno de estos usuarios importe los cambios. La barra de herramientas de personalización tiene acciones que permiten exportar e importar personalizaciones.
+1. [Comparta la aplicación de lienzo](https://docs.microsoft.com/powerapps/maker/canvas-apps/share-app) con los usuarios adecuados, para que puedan acceder a la aplicación en Power Apps. 
+
+2. Asegúrese de que los usuarios objetivo tengan las personalizaciones adecuadas, de modo que la aplicación incrustada aparezca cuando esos usuarios vean la página. Puede usar los siguientes enfoques:
+
+    - Recomendado: utilice la función [Vistas guardadas](saved-views.md) para crear y publicar una vista que incluye la aplicación incrustada. Este enfoque garantiza que todos los usuarios que tienen los roles de seguridad a los que se dirige la vista publicada verán la aplicación en aplicaciones de Finance and Operations. 
+    - Si no tiene activada la función Vistas guardadas, puede hacer que el administrador del sistema envíe una personalización que incluya la aplicación incorporada a todos los usuarios o un subconjunto de usuarios. Alternativamente, puede exportar las personalizaciones de su página y enviarlas a uno o más usuarios. Cada uno de esos usuarios puede importar las personalizaciones. La barra de herramientas de personalización tiene acciones que permiten exportar e importar personalizaciones. 
+    
+> [!NOTE]
+> Si la aplicación de lienzo se ha compartido con usuarios externos, esos usuarios no pueden usar la aplicación incorporada dentro de aplicaciones de Finance and Operations. Sin embargo, pueden acceder a la aplicación directamente desde Power Apps. Los usuarios externos incluyen invitados y usuarios que no pertenecen al directorio de Azure de Microsoft 365 donde la aplicación de Finance and Operations está implementada.
 
 Consulte [Personalizar la experiencia del usuario](personalize-user-experience.md) para obtener más detalles sobre las capacidades de personalización en el producto y cómo utilizarlas.
 
-## <a name="building-an-app-that-leverages-data-sent-from-finance-and-operations-apps"></a>Crear una aplicación que aproveche los datos enviados desde aplicaciones de Finance and Operations
+## <a name="building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps"></a>Creación de una aplicación de lienzo que utiliza datos enviados desde aplicaciones de Finance and Operations
 
-Una parte importante de la construcción de una aplicación desde Power Apps para incrustarla en una aplicación de Finance and Operations es utilizar los datos de entrada de esa aplicación. Desde la experiencia de desarrollo de Power Apps, se puede acceder a los datos de entrada pasados desde una aplicación de Finance and Operations utilizando la variable Param("EntityId").
+Cuando crea una aplicación de lienzo que se incrustará en una aplicación de Finance and Operations, una parte importante del proceso es utilizar los datos de entrada de esa aplicación de Finance and Operations. Desde la experiencia de desarrollo de Power Apps, se puede acceder a los datos de entrada que se pasan desde una aplicación de Finance and Operations utilizando la variable **Param("EntityId")**.
 
 Por ejemplo, en la función de OnStart de la aplicación, puede establecer los datos de entrada desde aplicaciones de Finance and Operations en una variable como esta:
 
@@ -80,9 +90,9 @@ Por ejemplo, en la función de OnStart de la aplicación, puede establecer los d
 If(!IsBlank(Param("EntityId")), Set(FinOpsInput, Param("EntityId")), Set(FinOpsInput, ""));
 ```
 
-## <a name="viewing-an-app"></a>Ver una aplicación
+## <a name="viewing-a-canvas-app"></a>Ver una aplicación de lienzo
 
-Para ver una aplicación incrustada en una página de aplicaciones de Finance and Operations, simplemente vaya a una página con una aplicación incrustada. Recuerde que se puede acceder a las aplicaciones mediante el botón de Power Apps en el panel de acciones estándar, o pueden aparecer directamente en la página como una nueva pestaña, ficha desplegable u hoja, o como una sección nueva en un espacio de trabajo. Cuando un usuario intenta cargar por primera vez una aplicación en una página, se le solicitará que inicie sesión para asegurarse de que el usuario disponga de los permisos adecuados para usar la aplicación.
+Para ver una aplicación de lienzo incrustada en una página de aplicaciones de Finance and Operations, simplemente vaya a una página con una aplicación incrustada. Recuerde que se puede acceder a las aplicaciones mediante el botón **Power Apps** en el panel de acciones estándar. Como alternativa, pueden aparecer directamente en la página como nueva ficha, ficha desplegable u hoja, o como nueva sección en un área de trabajo. Cuando los usuarios intentan cargar una aplicación en una página por primera vez, se les pedirá que inicien sesión. Este paso asegura que los usuarios tengan los permisos adecuados para usar la aplicación.
 
 ## <a name="editing-an-embedded-app"></a>Editar una aplicación incrustada
 
@@ -106,7 +116,7 @@ Después de que una aplicación se haya insertado en una página, hay dos manera
 
 ## <a name="appendix"></a>Apéndice
 
-### <a name="developer-control-over-where-an-app-can-be-embedded"></a>Control de desarrollador sobre dónde se puede insertar una aplicación
+### <a name="developer-specifying-where-an-app-can-be-embedded"></a>[Desarrollador] Especificar dónde se puede insertar una aplicación
 
 De forma predeterminada, los usuarios pueden insertar aplicaciones en cualquier página, en el botón de menú de Power Apps o directamente en la página como una ficha, ficha desplegable, hoja o como una nueva sección en un espacio de trabajo. Sin embargo, si procede, los desarrolladores también podrían configurar esta función para permitir solo insertar aplicaciones en determinadas páginas implementando los métodos siguientes:
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6ae7587fc46d2907241a5da3b6329465d77b3555
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: e6a3330b0123605d4c7b86cedcb8bc95b3cf6de8
+ms.sourcegitcommit: a52a789044ca66c6771224a6cf0be8749bc99e5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383099"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "3837272"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Configurar dispositivos móviles para el trabajo de almacén
 
@@ -399,6 +399,9 @@ La siguiente tabla describe estas opciones.
 <tr class="odd">
 <td>Código de plantilla de trabajo</td>
 <td>Seleccione la plantilla de trabajo que creará el trabajo de un proceso. Por ejemplo, si recibe un artículo para un pedido de compra, el trabajo de ubicación se generará en función de la plantilla de trabajo. Si no selecciona una plantilla de trabajo, Supply Chain Management asignará una plantilla basada en criterios de consulta. Para obtener más información sobre plantillas de trabajo, vea <a href="control-warehouse-location-directives.md">Controlar el trabajo de almacén con plantillas de trabajo y directivas de ubicación</a>.</td>
+<tr class="even">
+<td>Mostrar lista de líneas de trabajo</td>
+<td>Seleccione una opción sobre cómo los trabajadores podrán ver e interactuar con las líneas para el trabajo de picking seleccionado actualmente. Para obtener más información sobre esta opción, consulte <a href="pick-line-overview.md">Configurar un elemento de menú de dispositivo móvil para proporcionar una descripción general de la línea de selección</a>.</td>
 </tr>
 </tbody>
 </table>

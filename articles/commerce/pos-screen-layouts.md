@@ -3,7 +3,7 @@ title: Configuraciones visuales de la interfaz de usuario de PDV
 description: Este tema proporciona información sobre los diseños de pantalla para experiencias con Dynamics 365 Commerce point of sale (POS).
 author: boycezhu
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -16,15 +16,15 @@ ms.custom: 90573
 ms.assetid: a6868f93-02ed-4928-9f6a-3b7383e7e399
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: boycezhu
+ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a037c8514d7838b3a4797f21b3ef3f6d5736e840
-ms.sourcegitcommit: f7294160d18f15cb762c24f2459b4f0887c37541
+ms.openlocfilehash: 75bce16c5e1b0898a0284659f9ce5e4716a93049
+ms.sourcegitcommit: 91e101d7a51a8b63bd196ec80e9224e5e6e6fc95
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "3505643"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3834218"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>Configuraciones visuales de la interfaz de usuario de PDV
 
@@ -62,6 +62,8 @@ Los perfiles visuales se asignan a registros y especifican los elementos visuale
 > [!NOTE]
 > El diseño **Derecho** y la visualización de fecha / hora no se aplican a la pantalla de inicio de sesión en la vista compacta.
 
+Debe ejecutar el trabajo de programación de distribución **1090** (**Registros**) para sincronizar las configuraciones del perfil visual más recientes con la base de datos del canal.
+
 ## <a name="screen-layouts"></a>Diseños de pantalla
 
 Las configuraciones del diseño de pantalla determinan las acciones, el contenido y la posición de los controles de la interfaz de usuario en la pantalla de **Bienvenida** del PDV y en la pantalla **Transacción**.
@@ -81,6 +83,8 @@ Las configuraciones del diseño de pantalla determinan las acciones, el contenid
 ### <a name="assignment"></a>Asignación
 
 Los diseños de pantalla se pueden asignar a la tienda, el registro o el nivel de usuario. La asignación del usuario anula las asignaciones del registro y tienda, y la asignación del registro anula la asignación de la tienda. En una situación sencilla en la que todos los usuarios utilizan el mismo diseño, independientemente del registro o el rol, el diseño de pantalla solo puede establecerse en el nivel de tienda. En escenarios en los que registros o usuarios específicos necesiten diseños especializados, se pueden asignar esos diseños.
+
+Según el nivel en el que se asignen los diseños de pantalla, debe ejecutar los trabajos de programación de distribución **1070** (**Configuración de canal**), **1090** (**Registros**) o **1060** (**Personal**) para sincronizar las configuraciones de diseño de pantalla más recientes con la base de datos del canal.
 
 ### <a name="layout-sizes"></a>Tamaños de diseño
 

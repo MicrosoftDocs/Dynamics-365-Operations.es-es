@@ -3,7 +3,7 @@ title: Funcionalidad de cuadrícula
 description: Este tema describe varias características potentes del control de cuadrícula. La nueva característica de cuadrícula debe estar habilitada para tener acceso a estas capacidades.
 author: jasongre
 manager: AnnBe
-ms.date: 08/31/2020
+ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b4efad8423ab42bf6f7f6e2d1054307c11d31d2c
-ms.sourcegitcommit: 241ada0945c72d769eaa70ae35aedbb6a3233fdf
+ms.openlocfilehash: 1f1c27444b38360072beb5277c445161983a2480
+ms.sourcegitcommit: 28a771d81322e72d88db63a20ff360de084a6087
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3760408"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3835095"
 ---
 # <a name="grid-capabilities"></a>Funcionalidad de cuadrícula
 
@@ -33,6 +33,7 @@ El nuevo control de cuadrícula proporciona una serie de capacidades útiles y p
 -  Escribir por delante del sistema
 -  Evaluar expresiones matemáticas 
 -  Agrupar datos tabulares (habilitado por separado usando la característica **(Versión preliminar) Agrupación en cuadrículas**)
+-  Columnas del sistema ancladas
 
 ## <a name="calculating-totals"></a>Cálculo de los totales
 En las aplicaciones de Finance and Operations, los usuarios tienen la capacidad de ver los totales en la parte inferior de las columnas numéricas en las cuadrículas. Estos totales se muestran en una sección de pie de página en la parte inferior de la cuadrícula. 
@@ -119,12 +120,19 @@ De la misma manera que puede seleccionar (o anular la selección) todas las fila
 ### <a name="hiding-column-names"></a>Ocultar nombres de columnas
 Al agrupar datos, el comportamiento predeterminado es mostrar el nombre de la columna en la fila del encabezado del grupo. A partir de la versión 10.0.14/Platform update 38, puede optar por suprimir el nombre de la columna en las filas de encabezado de grupo seleccionando **Opciones de cuadrícula** > **Ocultar el nombre de la columna del grupo**.
 
+## <a name="pinned-system-columns"></a>Columnas del sistema ancladas
+La columna de selección de fila y la columna de estado de fila de la nueva cuadrícula están ancladas o congeladas en la parte más a la izquierda de la cuadrícula. Por lo tanto, cuando estas columnas se incluyen en una cuadrícula, siempre estarán visibles para el usuario, independientemente de la posición de desplazamiento horizontal en la cuadrícula.   
+
 ## <a name="frequently-asked-questions"></a>Preguntas frecuentes
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>¿Cómo habilito el nuevo control de cuadrícula en mi entorno? 
 
-**10.0.9 / Platform update 33 y posteriores** La característica **Nuevo control de cuadrícula** está disponible directamente en Administración de características en cualquier entorno. Al igual que otras características de vista previa pública, la habilitación de esta característica en producción está sujeta a [Acuerdo de términos de uso complementarios](https://go.microsoft.com/fwlink/?linkid=2105274).  
+**10.0.9/Platform update 33 y posterior**
 
-**10.0.8 / Platform update 32 y 10.0.7 / Platform update 31** La característica **Nuevo control de cuadrícula** se puede habilitar en entornos de Nivel 1 (desarrollo/prueba) y Nivel 2 (espacio aislado) para proporcionar pruebas adicionales y cambios de diseño siguiendo los pasos siguientes.
+La característica **Nuevo control de cuadrícula** está disponible directamente en la administración de características de cualquier entorno. Al igual que otras características de vista previa pública, la habilitación de esta característica en producción está sujeta a [Acuerdo de términos de uso complementarios](https://go.microsoft.com/fwlink/?linkid=2105274).  
+
+**10.0.8/Platform update 32 y 10.0.7/Platform update 31**
+
+La característica **Nuevo control de cuadrícula** se puede habilitar en entornos de Nivel 1 (desarrollo/prueba) y Nivel 2 (espacio aislado) para proporcionar pruebas adicionales y cambios de diseño siguiendo los pasos que se describen a continuación.
 
 1.  **Habilite el tramo**: ejecute la instrucción SQL siguiente: 
 
@@ -139,11 +147,14 @@ Al agrupar datos, el comportamiento predeterminado es mostrar el nombre de la co
 Todas las sesiones de usuario posteriores comenzarán con el nuevo control de cuadrícula habilitado.
 
 ## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Desarrollador] Desactivar páginas individuales para que no usen la nueva cuadrícula 
-Si su organización detecta una página que tiene problemas al utilizar la nueva cuadrícula, hay una API disponible para permitir que un formulario individual use el control de cuadrícula heredado al mismo tiempo que permite que el resto del sistema utilice el nuevo control de cuadrícula. Para excluir una página individual de la nueva cuadrícula, agregue la siguiente publicación de llamada `super()` en el método `run()` del formulario.
+Si su organización detecta una página que tiene problemas al utilizar la nueva cuadrícula, hay una API disponible a partir de la versión 10.0.13/Platform update 37 para permitir que un formulario individual use el control de cuadrícula heredado al mismo tiempo que permite que el resto del sistema utilice el nuevo control de cuadrícula. Para excluir una página individual de la nueva cuadrícula, agregue la siguiente publicación de llamada `super()` en el método `run()` del formulario.
 
  ```this.forceLegacyGrid();```
 
-Esta API se aplicará hasta la versión de octubre de 2021, cuando el nuevo control de cuadrícula se vuelva obligatorio. Informe de cualquier problema a Microsoft que requiera que se utilice esta API. 
+Esta API se aplicará hasta la versión de octubre de 2021, cuando el nuevo control de cuadrícula se vuelva obligatorio. Si algún problema requiere el uso de esta API, notifíqueselo a Microsoft.
+
+## <a name="developer-size-to-available-width-columns"></a>[Desarrollador] Columnas de tamaño hasta el ancho disponible
+Si un desarrollador establece la propiedad **WidthMode** en **SizeToAvailable** para las columnas que hay dentro de la nueva cuadrícula, esas columnas tendrán inicialmente el mismo ancho que tendrían si la propiedad estuviera establecida en **SizeToContent**. Sin embargo, se estiran para utilizar el ancho adicional disponible en la cuadrícula. Si la propiedad se establece en **SizeToAvailable** para varias columnas, todas esas columnas compartirán el ancho adicional disponible en la cuadrícula. Sin embargo, si un usuario cambia manualmente el tamaño de una de esas columnas, la columna se volverá estática. Permanecerá en ese ancho y ya no se estirará para ocupar el ancho de cuadrícula adicional disponible.  
 
 ## <a name="known-issues"></a>Problemas conocidos
 Esta sección mantiene una lista de problemas conocidos para el nuevo control de cuadrícula mientras la característica está en un estado de vista previa.  

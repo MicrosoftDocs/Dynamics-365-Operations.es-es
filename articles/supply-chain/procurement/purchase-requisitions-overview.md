@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3b365bf99fcb5c97a1afe1675ddcf34a0db8f07
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e09c4ebd3ee978076ac4f1d0b71041e7c1e954be
+ms.sourcegitcommit: b281ac04157f6ccbd159fc89f58910b430a3b6a9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207865"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826909"
 ---
 # <a name="purchase-requisition-overview"></a>Visión general de solicitud de compra
 
@@ -157,7 +157,7 @@ En algunos casos, debe comenzar un proceso de solicitud de presupuesto para iden
 Puede poner una solicitud de compra en espera seleccionando la casilla **En espera** en la página **Detalles de la solicitud de compra**. El procesamiento de la solicitud de compra puede continuar solo después de eliminar la espera desactivando la casilla.  
 
 > [!NOTE]
-> En eProcurement, la solicitud de presupuesto para su solicitud de compra puede permitir a los proveedores agregar líneas alternativas. En este caso, las alternativas se reflejarán en la solicitud de compra.
+> En la adquisición electrónica, la solicitud de presupuesto para su solicitud de compra puede permitir a los proveedores agregar líneas alternativas. En este caso, las alternativas se reflejarán en la solicitud de compra.
 
 ## <a name="demand-consolidation"></a>Consolidación de la demanda
 Al consolidar las líneas de solicitudes de compra de varias solicitudes de compra, puede aumentar su poder de negociación con sus proveedores para alcanzar un mejor precio, costes de envío y tramitación más bajos, así como menores costes generales.  

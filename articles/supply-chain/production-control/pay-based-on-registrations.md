@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: JmgCalcApproveWeekView
+ms.search.form: JmgCalcApproveWeekView, JmgProdStatusListPagePayrollCostDetails, JmgPayCountTable, JmgPayStatConfig, JmgOvertimeSlize, JmgPayAgreementOverride, JmgPayCountSum, JmgPayAdjustSetup, JmgPayAdjustCostType, JmgPayEmployee, JmgMESBreak, JmgPayAddTable, JmgPayAddTransSelectTransId, JmgPayrollCostDetailsPart, jmgProdStatusListPagePayrollCosts, JmgPayrollCostPart, JmgPayEvents, JmgTermRegPayStatSetup, JmgPayStatGroup, JmgPayAddTrans, JmgPayStatTrans
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 93133b9ed5fa3cb7de0dd2a1683c8c6749202213
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 8e92759bd567a973a0d3bce7b8b99be1edbc0e1e
+ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212650"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826452"
 ---
 # <a name="pay-based-on-registrations"></a>Paga basada en los registros
 
@@ -242,7 +242,7 @@ En la página **aprobar**, desmarque la transferencia, y use el menú **Cambiar 
 
 ### <a name="breaks"></a>Descansos
 
-Los descansos de trabajo afectan al cálculo del sueldo del trabajador. Los descansos se definen como tipo de actividad indirecta. Pueden definirse como **Pagado**, para permitir que el descanso se añada al sueldo del trabajador, o **Sin pagar** para evitar que el descanso se añada al sueldo del trabajador. Un descanso también se puede definir como **Planificado** o **Registrado**.
+Los descansos de trabajo afectan al cálculo del sueldo del trabajador. Los descansos se definen como tipo de actividad indirecta. Pueden definirse como **Pagado**, para permitir que el descanso se agregue al sueldo del trabajador, o **Sin pagar** para evitar que el descanso se agregue al sueldo del trabajador. Un descanso también se puede definir como **Planificado** o **Registrado**.
 
 #### <a name="planned-breaks"></a>Descansos planificados
 

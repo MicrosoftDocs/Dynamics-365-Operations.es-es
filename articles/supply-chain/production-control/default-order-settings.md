@@ -3,12 +3,12 @@ title: Configuración predeterminada de pedidos para dimensiones y variantes de 
 description: Los configuración de pedido predeterminada define el sitio y el almacén de dónde se originan o almacenan los artículos, las cantidades mínimas, máximas, múltiples y estándar que se usarán en la gestión de comercio o de inventario, los plazos, el indicador de detención y el método prometedor del pedido.
 author: t-benebo
 manager: tfehr
-ms.date: 07/31/2020
+ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: InventItemOrderSetup
+ms.search.form: InventItemOrderSetup, InventItemIdLookupByDefaultOrderSetting, EcoResProductReleasedStoppedAllChartPart, UnitTestPartitions
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 0654ba019b71dc952ea52f206bc60d8fa05dd4ff
-ms.sourcegitcommit: f9917706d45693e8d3f9f6224dca9e601db44bae
+ms.openlocfilehash: c3aa800c1a996a062bcb737afa23f00a9e52bb48
+ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "3657349"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3895605"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Configuración predeterminada de pedidos para dimensiones y variantes de producto
 
@@ -51,8 +51,11 @@ Hay tres tipos de configuración predeterminada de pedido para compras, ventas e
 - Líneas del acuerdo de compra
 - Líneas de solicitud de presupuesto
 - Líneas de solicitud de compra
-- Líneas de reabastecimiento de entrega
+- Líneas de reabastecimiento de consignación (parcialmente admitidas, ver nota)
 - Pedidos de compra planificados
+
+> [!NOTE]
+> Para las líneas de orden de reabastecimiento de consignación, la única configuración de la ficha desplegable **Pedido de compra** de la página **Configuración de pedido predeterminado** que se aplica es la del campo **Sitio por defecto**, el campo **Almacén predeterminado** y la casilla **Detenido**.
 
 Los valores de pedido predeterminados para las ventas se usan al crear:
 

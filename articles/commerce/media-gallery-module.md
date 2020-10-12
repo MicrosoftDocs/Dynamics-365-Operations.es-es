@@ -3,7 +3,7 @@ title: Módulo de galería multimedia
 description: En este tema se tratan los módulos de galería multimedia y se describe cómo agregarlos a las páginas de sitio en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 9df2b91b0a57c73e395242f840c423fa8c7f2c9f
-ms.sourcegitcommit: 629988f1a704d62648d98649056931b8c33b9e08
+ms.openlocfilehash: 647387bafe8866cb1bee8c57675629af796f33e6
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3811167"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817191"
 ---
 # <a name="media-gallery-module"></a>Módulo de galería multimedia
 
@@ -97,10 +97,10 @@ Para agregar un módulo de galería multimedia a una página de marketing, siga 
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general del kit de inicio](starter-kit-overview.md)
+[Visión general de la biblioteca de módulos](starter-kit-overview.md)
 
 [Módulo de cuadro de compra](add-buy-box.md)
 
-[Módulo contenedor](add-container-module.md)
+[Módulo de contenedor](add-container-module.md)
 
 [Cargar imágenes](dam-upload-images.md)

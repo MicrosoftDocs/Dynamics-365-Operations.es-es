@@ -16,14 +16,15 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: 44c8f3ed76698bb4b70d767d9c8881024699552f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: acf7df09b467e0b0b0463946be018ff199d7153e
+ms.sourcegitcommit: 91e101d7a51a8b63bd196ec80e9224e5e6e6fc95
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203466"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3834269"
 ---
 # <a name="vendor-rebates"></a>Devoluciones de proveedor
+
 [!include [banner](../includes/banner.md)]
 
 Las devoluciones de proveedor proporcionan a las empresas un método muy útil de gestionar sus programas de devoluciones; para ello, se automatizan las tareas para así poder gestionar, seguir, y reclamar las devoluciones que se obtengan.
@@ -50,6 +51,7 @@ Las personas de estos puestos buscan formas de conseguir diversos objetivos. A c
 - Obtener una base cuantificada para las negociaciones en curso y futuras sobre devoluciones con los proveedores.
 
 ## <a name="review-details-of-a-vendor-rebate-agreement"></a>Revisar los detalles de un acuerdo de devolución del proveedor
+
 Un acuerdo de devolución del proveedor es el registro de un contrato con un proveedor en el cual se especifican los términos y condiciones bajo los cuales la empresa opta a una recompensa monetaria a cambio de conseguir unos objetivos de compra preestablecidos. Los acuerdos de devoluciones de proveedor se registran en la página **Acuerdos de devoluciones**.
 
 Para abrir la página **Acuerdos de devoluciones del proveedor**, seleccione **Adquisición y abastecimiento** &gt; **Devoluciones del proveedor** &gt; **Acuerdos de devoluciones**.
@@ -60,7 +62,9 @@ En la página **Acuerdos de devoluciones del proveedor**, puede ver información
 
 La cabecera del acuerdo especifica las condiciones generales que cualifican a una empresa a hacer devoluciones. De hecho, en la información del encabezado se especifica que un proveedor concede una devolución cuando se compra una cantidad específica de cierto producto. También puede especificar en la cabecera la opción de devolución de la unidad de medida y el tipo de datos de cálculo.
 
-- En la pestaña **General**, en el campo **Opción de devolución de la unidad de medida**, puede definir si una unidad de medida debe ser una condición para que la línea de pedido de compra pueda tenerse en cuenta para realizar una reclamación de devolución. 
+- Sobre la pestaña **Visión general**, si tiene líneas con **Código de artículo** establecido en *tabla* para especificar el artículo, el acuerdo es para ese artículo concreto. Si tiene líneas con **Código de artículo** establecido en *Grupo* o *Todos* para especificar los artículos, el acuerdo de reembolso del proveedor se procesará individualmente por cada artículo válido para el código de artículo, no en todos los artículos válidos para el código de artículo.
+
+- En la pestaña **General**, en el campo **Opción de devolución de la unidad de medida**, puede definir si una unidad de medida debe ser una condición para que la línea de pedido de compra pueda tenerse en cuenta para realizar una reclamación de devolución.
 
     - **Convertir**: es una línea de pedido de compra que permite una devolución de proveedor según el acuerdo de devolución. Recibirá una devolución independientemente de la unidad de medida que se aplique en la línea.
     - **Coincidencia exacta**: para optar a una devolución, la línea de compra debe tener la misma unidad de medida que el contrato.
@@ -97,6 +101,7 @@ En las líneas del contrato puede especificar el contrato de devolución del pro
 Cuando los pedidos de compra corresponden a un proveedor con el cual la empresa tiene un contrato de devolución, el programa identifica cualquier futuro pago a crédito de proveedor. Si se puede realizar una devolución con los pedidos de compra, se crea una reclamación de devolución por cada línea de pedido tan pronto como se registra una factura de compra. Este es un proceso automático. Más adelante podrá revisar las devoluciones esperadas y comprobar el impacto de las mismas en el coste del producto y el margen de beneficio.
 
 ### <a name="view-details-of-rebates-that-are-applied-to-a-purchase-order-line-per-the-vendor-rebate-agreement"></a>Ver los detalles de las devoluciones que se aplican a una línea de pedido de compra por contrato de devolución del proveedor
+
 1. En la página **Pedido de compra**, seleccione una línea de pedido y, a continuación, seleccione **Línea de pedido de compra** &gt; **Vista** &gt; **Detalles del precio**.
 2. En la página **Detalles del precio**, seleccione la ficha desplegable **Devoluciones**.
 
@@ -106,15 +111,18 @@ La información de la devolución también se muestra en el campo **Devolución 
 > En la página **Parámetros de compra y abastecimiento**, en la pestaña **Precios**, compruebe que la opción **Habilitar los detalles del precio** está configurada en **Sí**. Si la opción está en **No**, no podrá ver las devoluciones.
 
 ## <a name="review-and-approve-claims"></a>Revisar y aprobar reclamaciones
+
 Las reclamaciones de devolución que se crean representan los pagos futuros que puede esperar del proveedor. Antes de emitir una nota de crédito al proveedor, el dueño del contrato suele querer revisar las reclamaciones para aprobarlas. Sin embargo, tenga en cuenta que el estado de una reclamación determina si la está lista para pasar por el proceso de aprobación.
 
 ### <a name="the-status-of-claims-and-the-effect-on-the-approval-process"></a>Estado de las reclamaciones y su efecto en el proceso de aprobación
+
 Cuando se crea una reclamación, su estado se establece en **Para calcular** si se otorga la devolución de forma acumulativa, o se establece como **Calculada** si la devolución se otorga según la factura. Si el estado de una reclamación **Para calcular**, la reclamación debe pasar por un proceso de cálculo que gestiona la función Cumulate. Sólo aquellas reclamaciones que tienen el estado **Calculada** se pueden incluir en el proceso de aprobación.
 
 > [!NOTE]
 > Si la opción **Aprobación requerida** del contrato de devolución del proveedor se establece en **No**, cualquier reclamación que se cree tendrá un estado de **Aprobada**. La aprobación es obligatoria para aquellas reclamaciones que se conceden de forma acumulativa.
 
 ### <a name="approve-claims-and-view-postings-and-invoice-details"></a>Aprobar reclamaciones y ver los detalles de los registros y las facturas
+
 Una vez aprobadas las reclamaciones, los proveedores (A/P) pueden procesarlas. Una nota de crédito (factura de proveedor) por el importe de la reclamación de devolución se genera automáticamente. Es entonces cuando se puede agregar el crédito al saldo del proveedor y el equipo A/P puede incluirlo en el proceso de liquidación normal.
 
 1. Seleccione **Compra y abastecimiento** &gt; **Devoluciones de proveedor** &gt; **Reclamaciones de devoluciones** para abrir una reclamación de devolución.
@@ -153,6 +161,7 @@ Una vez aprobadas las reclamaciones, los proveedores (A/P) pueden procesarlas. U
 9. En la página **Todos los proveedores**, seleccione el proveedor del cual recibirá una devolución y, a continuación, en el panel de acciones, seleccione **Transacciones**. Busque la línea de la factura. El importe de la devolución se agregará al saldo del proveedor.
 
 ## <a name="summary"></a>Resumen
+
 El proceso para administrar devoluciones de proveedor implica realizar varias tareas manuales de seguimiento que son bastante tediosas. Si automatiza estas tareas, la función de gestión de devoluciones de proveedor puede ayudarle realizar los siguientes procesos:
 
 - Crear reclamaciones de devolución precisas

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: d6e0f2c914b8d348ef6eac42557fb46c53df04a9
-ms.sourcegitcommit: d16d370dab734e09312cb06711beca9cca52d4c9
+ms.openlocfilehash: 8c3a905c90f5dd4ad3487f004a958c0dcd52115d
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "2809529"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893256"
 ---
 # <a name="add-new-fields-to-a-business-document-template-in-microsoft-excel"></a>Agregar nuevos campos a una plantilla de documento empresarial en Microsoft Excel
 
@@ -67,7 +67,7 @@ Para obtener más información acerca de cómo importar configuraciones de ER, c
 5.  En el campo **Título**, introduzca **Factura de servicios (Excel) Contoso** como título de la nueva plantilla.
 6.  Seleccione **Aceptar** para confirmar el inicio del proceso de edición.
 
-Aparece la página del editor de plantillas de BDM. Puede usar Microsoft Office 365 para editar en línea la plantilla seleccionada en el control incrustado.
+Aparece la página del editor de plantillas de BDM. Puede usar Microsoft 365 para editar en línea la plantilla seleccionada en el control incrustado.
 
 ![Página del editor de plantillas de BDM](./media/BDM-AddFldExcel-EditableTemplate.png)
 

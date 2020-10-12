@@ -3,7 +3,7 @@ title: Módulo de navegación
 description: En este tema se tratan los módulos de navegación y se describe cómo agregarlos a las páginas de sitios en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/01/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 38efc3a60ae0ba49db2036dc84c49e4896727d94
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: 7c6f215c3a7539cc16b0d72594702e6bdde7c58e
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621069"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817119"
 ---
 # <a name="breadcrumb-module"></a>Módulo de navegación
 
@@ -37,6 +37,9 @@ Los módulos de navegación se utilizan para proporcionar navegación secundaria
 
 En las páginas que tienen contexto de categoría de producto, como PDP y páginas de categorías, los módulos de navegación muestran la jerarquía de categoría. En las páginas que no tienen contexto de categoría, los módulos de navegación muestran de forma predeterminada **&lt;Raíz del sitio &gt; / &lt;Página actual &gt;**. Los módulos Navegación también se pueden configurar manualmente en otros tipos de páginas de sitio para mostrar vínculos a páginas específicas del sitio.
 
+> [!NOTE]
+> El módulo de navegación está disponible en la versión Dynamics 365 Commerce 10.0.12.
+
 La siguiente imagen muestra un ejemplo de un módulo de navegación que muestra la jerarquía de categorías en un PDP.
 
 ![Ejemplo de un módulo de navegación](./media/ecommerce-breadcrumb.PNG)
@@ -48,6 +51,9 @@ El módulo de navegación se basa en la opción **Tipo de visualización de nave
 - **Mostrar jerarquía de categoría**: cuando se selecciona este valor, el módulo de navegación mostrará la jerarquía de categoría completa del producto que se visualiza en el PDP.
 - **Mostrar de nuevo los resultados**: cuando se selecciona este valor, el módulo de navegación mostrará un vínculo "Volver a resultados" en un PDP si el usuario abrió el PDP desde un módulo que permite un vínculo "Volver a resultados". Esta funcionalidad está disponible cuando los usuarios navegan desde páginas de categorías, búsquedas, listas y listas de recomendaciones. Para admitir esta funcionalidad, los módulos de colección de productos y resultados de búsqueda tienen una propiedad que se denomina **Permitir volver a los resultados en PDP**. Esta propiedad le brinda la flexibilidad de definir qué módulos deben admitir la funcionalidad de vínculo "Volver a los resultados" en el PDP. Por ejemplo, cuando se selecciona **Mostrar de nuevo los resultados** para la opción **Tipo de visualización de navegación en PDP** del módulo de navegación y se selecciona **Permitir volver a los resultados en PDP** para el módulo de resultados de búsqueda de la página de búsqueda, se mostrará un vínculo "Volver a los resultados" cuando los usuarios naveguen desde la página de búsqueda a un PDP.
 - **Mostrar jerarquía de categoría y volver a los resultados**: este valor es una combinación de los dos anteriores. Cuando se selecciona este valor, el módulo de navegación mostrará tanto la jerarquía de categoría completa como un vínculo "Volver a resultados" (si está configurado) en un PDP.
+
+> [!IMPORTANT]
+> Estos ajustes están disponibles en Dynamics 365 Commerce 10.0.12. Si está actualizando desde una versión anterior de Dynamics 365 Commerce, debe actualizar manualmente el archivo appsettings.json. Para obtener instrucciones sobre cómo actualizar el archivo appsettings.json, consulte [Actualizaciones de SDK y biblioteca de módulos](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
 ## <a name="breadcrumb-module-properties"></a>Propiedades del módulo de navegación
 
@@ -76,10 +82,12 @@ Para agregar un módulo de navegación a un PDP y establecer las propiedades nec
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general del kit de inicio](starter-kit-overview.md)
+[Visión general de la biblioteca de módulos](starter-kit-overview.md)
 
 [Visión general de la página de aterrizaje de categoría predeterminada y la página de resultados de la búsqueda](category-search-page-overview.md)
 
 [Módulos de colección de productos](product-collection-module-overview.md)
 
 [Módulo de cuadro de compra](add-buy-box.md)
+
+[Actualizaciones de SDK y biblioteca de módulos](e-commerce-extensibility/sdk-updates.md)

@@ -1,9 +1,9 @@
 ---
 title: Trabajar con módulos
 description: Este tema describe cómo y cuándo usar módulos en Microsoft Dynamics 365 Commerce.
-author: v-chgri
+author: phinneyridge
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -14,20 +14,19 @@ ms.reviewer: v-chgri
 ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: phinneyridge
+ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: da430857801d8007244c04aadd325e99c0b882c5
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 301eb6206fb9e02c3aa7d3c07cf368ba800a1ab9
+ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646024"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3818431"
 ---
 # <a name="work-with-modules"></a>Trabajar con módulos
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Este tema describe cómo y cuándo usar módulos en Microsoft Dynamics 365 Commerce.
 
@@ -35,7 +34,7 @@ Este tema describe cómo y cuándo usar módulos en Microsoft Dynamics 365 Comme
 
 Los módulos son bloques de creación lógicos que componen su estructura de página y tienen diversos propósitos y ámbitos. Algunos módulos son contenedores de alto nivel y su único propósito es mantener y organizar otros módulos (módulos secundarios). Otros módulos, como un módulo de ubicación de imagen sencillo, tienen un propósito muy específico. Otros módulos, como un módulo de carrusel, se encuentren en algún lugar entre esas dos categorías.
 
-De manera predeterminada, el sitio de Dynamics 365 Commerce incluye una biblioteca de módulo de kit de inicio que le permite lograr la mayoría de escenarios comercio electrónico básicos. Debería poder crear un sitio de comercio electrónico integral solo con estos módulos. Sin embargo, también podría desea personalizar estos módulos o crear módulos personalizados nuevos para necesidades específicas. Si desea crear módulos personalizados, un kit de desarrollo de software (SDK) de diseño de módulo está disponible para ayudarle a crear una biblioteca de módulo personalizada.
+De manera predeterminada, el sitio de Dynamics 365 Commerce incluye una biblioteca de módulos que le permite obtener la mayoría de los escenarios de comercio electrónico básicos. Debería poder crear un sitio de comercio electrónico integral solo con estos módulos. Sin embargo, también podría desea personalizar estos módulos o crear módulos personalizados nuevos para necesidades específicas. Si desea crear módulos personalizados, un kit de desarrollo de software (SDK) de diseño de módulo está disponible para ayudarle a crear una biblioteca de módulo personalizada.
 
 ## <a name="container-modules-and-slots"></a>Franjas y módulos de contenedor
 

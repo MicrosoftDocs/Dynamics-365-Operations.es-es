@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: a2ca0ce277a062c8d525b6a3619eaf1b0114667b
-ms.sourcegitcommit: 18c5ef10e311f3dd2dbf45c6439ae6beff921af8
+ms.openlocfilehash: 6fe42f43277448dc5918597ed8bb1b68f2266b6a
+ms.sourcegitcommit: 4ba10abe5be8a21b95370cd970a622e954970984
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "3719273"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3829221"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Cliente potencial a efectivo en doble escritura
 
@@ -99,29 +99,7 @@ Si sincroniza desde Supply Chain Management a Sales, obtendrá el siguiente resu
 
 ## <a name="dual-write-solution-for-sales"></a>Solución de doble escritura para Sales
 
-Se han agregado nuevos campos a la entidad **Pedido** y se muestran en la página. La mayoría de estos campos aparecen en la pestaña **Integración** en Ventas. Hay algunos campos especiales:
-
-+ El campo **Estado de procesamiento** muestra el estado de procesamiento del pedido en Supply Chain Management. Este campo está bloqueado y muestra solo el estado del pedido de Supply Chain Management. Los siguientes valores están disponibles:
-
-    + **Activo** – El estado después de que el pedido se active en Sales mediante el botón **Activar**.
-    + **Confirmado**
-    + **Entregado**
-    + **Facturado**
-    + **Parcialmente entregado**
-    + **Parcialmente facturado**
-    + **Seleccionado**
-    + **Cancelada**
-
-    La siguiente tabla muestra cómo se asigna el estado de procesamiento al valor **Código de estado de CRM**.
-
-    | Estado de procesamiento           | Código de estado CRM    |
-    |-----------------------------|--------------------|
-    | Activas                      | Nuevo/Pendiente/En espera |
-    | Confirmado/elegido            | En proceso        |
-    | Parcialmente entregado         | Parcial            |
-    | Entregado                   | Completada           |
-    | Facturado/Facturado parcialmente | Facturado           |
-    | Cancelada                    | Sin dinero           |
+Se han agregado nuevos campos a la entidad **Pedido** y se muestran en la página. La mayoría de estos campos aparecen en la pestaña **Integración** en Ventas. Para obtener más información sobre cómo se asignan los campos de estado, consulte el tema de la documentación para [Configurar el mapeo para los campos de estado del pedido de ventas](https://review.docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/sales-status-map?branch=robin-dw-status-map)
 
 + Los botones **Crear factura** y **Cancelar pedido** en la página **Pedido de ventas** están ocultos en Sales.
 + El valor **Estado del pedido de ventas** permanecerá **Activo** para ayudar a garantizar que los cambios de Supply Chain Management se incluyen en el pedido de ventas de Sales. Para controlar este comportamiento, establezca el valor del **Statecode \[Status\]** en **Activo**.

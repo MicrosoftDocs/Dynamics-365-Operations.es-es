@@ -3,7 +3,7 @@ title: Aplicar configuración de inventario
 description: Este tema cubre las configuraciones de inventario y describe cómo aplicarlas en Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/01/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 737e71dc73750bf151629fd904081924ac15b91e
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: d7d25fd62efca52dd2d60ed3435104c3507a1d19
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621230"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817618"
 ---
 # <a name="apply-inventory-settings"></a>Aplicar configuración de inventario
 
@@ -38,6 +38,9 @@ La configuración de inventario especifica si se debe verificar el inventario an
 Dynamics 365 Commerce proporciona estimaciones de disponibilidad lista para productos. Para obtener información sobre cómo se calcula la disponibilidad lista estimada, consulte [Calcular la disponibilidad de inventario para canales minoristas](calculated-inventory-retail-channels.md).
 
 En el creador de sitios de Commerce, se pueden definir umbrales y rangos de inventario para un producto o una categoría. Determinan si el inventario se puede clasificar como en existencias, bajas existencias o agotado. Para más detalles, ver [Configurar búferes de inventario y niveles de inventario](inventory-buffers-levels.md).
+
+> [!NOTE]
+> La versión Dynamics 365 Commerce 10.0.12 incluye compatibilidad con intervalos y umbrales de inventario.
 
 ## <a name="inventory-settings"></a>Configuración de inventario
 
@@ -55,6 +58,9 @@ En Comercio, la configuración del inventario se define en **Configuraciones del
     - Cuando se selecciona **Agotado**, solo se mostrará el mensaje "Agotado".
 
 - **Umbral de agotado**: esta configuración numérica antigua solo tendrá efecto si se selecciona el valor **Umbral de agotado** para la opción **Nivel de inventario basado en**.
+
+> [!IMPORTANT] 
+> Estos ajustes están disponibles en Dynamics 365 Commerce 10.0.12. Si está actualizando desde una versión anterior de Dynamics 365 Commerce, debe actualizar manualmente el archivo appsettings.json. Para obtener instrucciones sobre cómo actualizar el archivo appsettings.json, consulte [Actualizaciones de SDK y biblioteca de módulos](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
 ## <a name="modules-that-use-inventory-settings"></a>Módulos que usan configuraciones de inventario
 
@@ -74,7 +80,7 @@ La siguiente imagen muestra un ejemplo de un carro que muestra un mensaje en exi
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general del kit de inicio](starter-kit-overview.md)
+[Visión general de la biblioteca de módulos](starter-kit-overview.md)
 
 [Configurar búferes de inventario y niveles de inventario](inventory-buffers-levels.md)
 
@@ -85,3 +91,5 @@ La siguiente imagen muestra un ejemplo de un carro que muestra un mensaje en exi
 [Módulos y páginas de gestión de cuentas](account-management.md)
 
 [Módulo de selector de tienda](store-selector.md)
+
+[Actualizaciones de SDK y biblioteca de módulos](e-commerce-extensibility/sdk-updates.md)

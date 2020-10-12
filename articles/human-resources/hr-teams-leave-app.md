@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0fbf44fe35af3147fd5fb478b6cbfc5a5d0b109d
-ms.sourcegitcommit: 5b620f670ac0f403a0fdcdeb9c3f970b163191ee
+ms.openlocfilehash: c7b74983cbddf661456b0a65939e272078d59f6d
+ms.sourcegitcommit: e27510ba52623c801353eed4853f8c0aeea3bb2d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "3766769"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3828953"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Administrar solicitudes de baja en Teams
 
 [!include [banner](includes/preview-feature.md)]
 
-La aplicación Microsoft Dynamics 365 Human Resources en Microsoft Teams le permite solicitar rápidamente tiempo libre y ver su información de saldo de tiempo libre directamente en Microsoft Teams. Puede interactuar con un bot para solicitar información. La pestaña **Tiempo libre** proporciona información más detallada.
+La aplicación Microsoft Dynamics 365 Human Resources en Microsoft Teams le permite solicitar rápidamente tiempo libre y ver su información de saldo de tiempo libre directamente en Microsoft Teams. Puede interactuar con un bot para solicitar información e iniciar una solicitud de baja. La pestaña **Tiempo libre** proporciona información más detallada. Además, permite enviar información a los usuarios sobre el próximo tiempo libre a través de equipos y chats que haya fuera de la aplicación de Recursos Humanos.
 
 ## <a name="install-the-app"></a>Instalar la aplicación
 
@@ -43,7 +43,7 @@ Puede encontrar la aplicación Recursos Humanos en la tienda Teams.
 
    ![Icono RR. HH. de la aplicación de bajas de Recursos Humanos en Teams](./media/hr-teams-leave-app-human-resources-tile.png)
 
-3. Seleccione el botón **Añadir** para instalar la aplicación.
+3. Seleccione el botón **Agregar** para instalar la aplicación.
 
    ![Instalación de la aplicación de bajas de Recursos Humanos en Teams](./media/hr-teams-leave-app-in-store.png)
 
@@ -56,8 +56,8 @@ Si la aplicación no inicia sesión automáticamente, seleccione la pestaña **C
 
 Si tiene acceso a más de una instancia de Recursos humanos, puede seleccionar a qué entorno desea conectarse en la pestaña **Configuración**.
 
-> [!WARNING]
-> La aplicación no admite actualmente el rol de seguridad del administrador del sistema y mostrará un mensaje de error si inicia sesión con una cuenta de administrador del sistema. Para iniciar sesión con una cuenta diferente, en la pestaña **Configuraciones**, seleccione el botón **Cambiar cuentas** y luego inicie sesión con una cuenta de usuario que no tenga privilegios de administrador del sistema.
+> [!NOTE]
+> Ahora la aplicación admite el rol de seguridad Administrador del sistema.
  
 ## <a name="use-the-bot"></a>Usar el bot
 
@@ -110,7 +110,7 @@ La pestaña **Tiempo libre** le permite ver:
 
    ![Nueva solicitud de la aplicación de bajas de Recursos Humanos en Teams](./media/hr-teams-leave-app-timeoff-tab-new.png)
 
-2. Introduzca el día o días que desea tomarse y luego seleccione **Añadir**.
+2. Introduzca el día o días que desea tomarse y luego seleccione **Agregar**.
 
    ![Adición de tiempo libre en la aplicación de bajas de Recursos Humanos en Teams](./media/hr-teams-leave-app-timeoff-tab-add.png)
 
@@ -130,13 +130,33 @@ La pestaña **Tiempo libre** le permite ver:
 
    ![Borrador de edición en la aplicación de bajas de Recursos Humanos en Teams](./media/hr-teams-leave-app-drafts-edit.png)
    
-### <a name="teams-notifications"></a>Notificaciones de Teams
+### <a name="respond-to-teams-notifications"></a>Responder a notificaciones de Teams
 
 Cuando usted o un trabajador del que es aprobador envíen una solicitud de baja, recibirá una notificación en la aplicación Human Resources en Teams. Puede seleccionar la notificación para verla. Las notificaciones también aparecen en el área **Chat**.
 
 Si es un aprobador, puede seleccionar **Aprobar** o **Denegar** en la notificación. También puede proporcionar un mensaje opcional.
 
 ![Notificación de solicitud de baja en la aplicación Recursos Humanos en Teams](./media/hr-teams-leave-app-notification.png)
+
+## <a name="send-upcoming-time-off-information-to-your-coworkers"></a>Enviar información sobre el próximo tiempo libre a sus compañeros de trabajo
+
+Después de instalar la aplicación Recursos humanos para Teams, puede enviar fácilmente información sobre su próximo tiempo libre a sus compañeros de trabajo a través de Teams o chats.
+
+1. En un equipo o chat de Teams, seleccione el botón Recursos humanos debajo de la ventana de chat.
+
+   ![Botón de recursos humanos bajo la ventana de chat](./media/hr-teams-leave-app-chat-button.png)
+
+2. Seleccione la solicitud de baja que desea compartir. Si desea compartir un borrador de solicitud de baja, primero seleccione **Borradores**.
+
+   ![Seleccionar una solicitud de baja próxima para compartirla](./media/hr-teams-leave-app-chat-search.png)
+
+Su solicitud de baja se mostrará en el chat.
+
+![Tarjeta de solicitud de baja de recursos humanos](./media/hr-teams-leave-app-chat-card.png)
+
+Si compartió un borrador de solicitud, se mostrará como un borrador:
+
+![Tarjeta de solicitud de baja de recursos humanos](./media/hr-teams-leave-app-chat-draft-card.png)
 
 ## <a name="view-your-teams-leave-calendar"></a>Ver el calendario de bajas de su equipo
 
@@ -164,9 +184,15 @@ El contenido de las consultas y los mensajes del usuario se conserva en el siste
 
 Para administrar la configuración de administración de aplicaciones en Microsoft Teams, vaya al [Centro de administración de Microsoft Teams](https://admin.teams.microsoft.com/).
 
-### <a name="microsoft-azure-event-grid-and-microsoft-teams"></a>Microsoft Azure Event Grid y Microsoft Teams
+### <a name="microsoft-teams-azure-event-grid-and-azure-cosmos-db"></a>Microsoft Teams, Azure Event Grid y Azure Cosmos DB
 
-Al utilizar la función de notificaciones para la aplicación Dynamics 365 Human Resources en Teams, ciertos datos de clientes fluirán fuera de la región geográfica donde se implementa el servicio de Recursos Humanos de su inquilino. Dynamics 365 Human Resources transmite la solicitud de licencia del empleado y los detalles de la tarea del flujo de trabajo a Microsoft Azure Event Grid y Microsoft Teams. Estos datos pueden almacenarse hasta por 24 horas y procesarse en los Estados Unidos, están encriptados en tránsito y en reposo, y Microsoft o sus subprocesadores no los utilizan para mejoras de formación o servicios.
+Al utilizar la característica de notificaciones para la aplicación Dynamics 365 Human Resources en Microsoft Teams, algunos datos de clientes saldrán de la región geográfica donde se implementa el servicio de Recursos Humanos del inquilino.
+
+Dynamics 365 Human Resources transmite la solicitud de licencia del empleado y los detalles de la tarea del flujo de trabajo a Microsoft Azure Event Grid y Microsoft Teams. Estos datos pueden almacenarse en Microsoft Azure Event Grid hasta por 24 horas y se procesarán en los Estados Unidos, están cifrados en tránsito y en reposo, y Microsoft o sus subprocesadores no los utilizan para mejoras de formación o servicios. Para comprender dónde se almacenan sus datos en Teams, consulte: [Ubicación de los datos en Microsoft Teams](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams?view=o365-worldwide&preserve-view=true).
+
+Mientras conversa con el bot de chat en la aplicación de Recursos Humanos, el contenido de la conversación puede almacenarse en Azure Cosmos DB y transmitirse a Microsoft Teams. Estos datos pueden almacenarse en Azure Cosmos DB durante un máximo de 24 horas y pueden procesarse fuera de la región geográfica donde se implementa el servicio de Recursos Humanos de su inquilino, están cifrados en tránsito y en reposo, y Microsoft o sus subprocesadores no los utilizan para mejoras de formación o servicio. Para comprender dónde se almacenan sus datos en Teams, consulte: [Ubicación de los datos en Microsoft Teams](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams?view=o365-worldwide&preserve-view=true).
+ 
+Para restringir el acceso a la aplicación de Recursos Humanos en Microsoft Teams para su organización o para usuarios de su organización, consulte [Administrar las directivas de permisos de aplicaciones en Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-app-permission-policies).
 
 ## <a name="see-also"></a>Consulte también
 

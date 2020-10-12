@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
+ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetFunctionalLocationObjectChange, EntAssetFunctionalLocationObjectInstall, EntAssetFunctionalLocationObject
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6d46c3c43b2f9cbae4c3584244261e8ef1547ffe
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 85b9f473cc725896a00501510eea02d7cfb21782
+ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205418"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3888880"
 ---
 # <a name="install-assets-on-functional-locations"></a>Instalar activos en ubicaciones funcionales
 
@@ -56,7 +56,7 @@ Una vez que haya instalado activos en una ubicación funcional, puede sustituir 
 5. En el campo **Vigencia**, seleccione la fecha y la hora a partir de las cuales es válida la instalación de los activos. Después de esa fecha y hora, los costes del activo y los subactivos relacionados estarán relacionados con la ubicación funcional.
 
     > [!NOTE]
-    > Los atributos de activos que se configuran en el activo se añaden a la sección **Atributos**. Por ejemplo, el requisito del atributo **Peso** se ha agregado como un requisito tanto en el activo como en la ubicación funcional. Si el activo tiene requisitos de atributo del mismo tipo que la ubicación funcional, los valores de los requisitos de atributo del activo se introducen en los campos **Valor**. Por lo tanto, puede validar la los valores dle activo con los requisitos de atributo que se configuran en la ubicación funcional. Los requisitos de atributo que se configuran en la ubicación funcional se marcan con una marca de verificación.
+    > Los atributos de activos que se configuran en el activo se agregan a la sección **Atributos**. Por ejemplo, el requisito del atributo **Peso** se ha agregado como un requisito tanto en el activo como en la ubicación funcional. Si el activo tiene requisitos de atributo del mismo tipo que la ubicación funcional, los valores de los requisitos de atributo del activo se introducen en los campos **Valor**. Por lo tanto, puede validar la los valores dle activo con los requisitos de atributo que se configuran en la ubicación funcional. Los requisitos de atributo que se configuran en la ubicación funcional se marcan con una marca de verificación.
 
 6. Seleccione **Aceptar**.
 

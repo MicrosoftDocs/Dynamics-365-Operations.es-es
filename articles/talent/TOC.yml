@@ -150,11 +150,11 @@
           href: modular-app-tech-faq.md
         - name: Exportar datos desde Attract y Onboard
           href: attract-onboard-export-data.md
-        - name: Insertar Microsoft Power Apps
+        - name: Insertar aplicaciones de lienzo desde Power Apps
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Obtener soporte para Talent
           href: talent-support.md
-    - name: Dotar de personal para la organización con Attract
+    - name: Dotar de personal a la organización con Attract
       items:
         - name: Elegir una versión de Attract
           href: attract-comprehensive-hiring.md
@@ -250,5 +250,7 @@
           href: attract-troubleshoot-linkedin.md
         - name: El usuario puede acceder a Human Resources pero no a las aplicaciones Onboard y Attract
           href: user-access-core-hr.md
-        - name: No se encuentran usuarios de Azure Active Directory en el selector de personas
+        - name: No se encuentran usuarios de Azure Active Directory en el selector de usuarios
           href: people-picker-user-not-found.md
+        - name: Los usuarios de Attract no pueden solicitar puestos de trabajo desde el portal de proyectos profesionales
+          href: attract-troubleshoot-career-portal.md

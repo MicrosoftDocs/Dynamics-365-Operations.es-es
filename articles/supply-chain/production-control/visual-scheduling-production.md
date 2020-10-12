@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage
+ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage, GanttColorTable, GanttReqExplosionColor, GanttReqExplosionSetup, GanttTable, GanttTimescaleSetup, GanttWrkCtr, GanttWrkCtrColor, GanttWrkCtrJobInfo, GanttWrkCtrLoadResources, GanttWrkCtrMoveJob, GanttWrkCtrSetup, GanttWrkCtrView
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 430a012fbc198b90df0c0bf4084705037c95f7be
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e194f379d118ee174095229d38ba5b0a679f49ac
+ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3210166"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "3887249"
 ---
 # <a name="gantt-chart-for-job-scheduling"></a>Gráfico de Gantt para la programación de trabajos
 
@@ -38,7 +38,7 @@ Un gráfico de Gantt es una representación visual de actividades programadas de
 -   Trabajos de los pedidos de producción planificados.
 -   Actividades de proyecto de trabajos programados de tipo Previsiones de horas.
 
-El gráfico de Gantt se puede abrir en dos diferentes vistas, **Vista de pedidos** y **Vista de recursos**[](https://authoring.help.dynamics.com/en/?post_type=incsub_wiki&p=1665154&preview=true). En **Vista de pedidos**, las actividades se agrupan en pedidos de producción. Esto puede ser útil, por ejemplo, si desea mantener una visión general de todos los trabajos que pertenecen a los mismos pedidos. En la **Vista de recursos**, todos los trabajos se agrupan en recursos individuales. Esta vista puede ser útil al optimizar el plan en un nivel del recurso, por ejemplo, una máquina o un grupo de máquinas. Los gráficos de Gantt mostrados en las ilustraciones siguientes muestran la **Vista de pedidos** y la **Vista de recursos** con estos elementos clave:
+El gráfico de Gantt se puede abrir en dos diferentes vistas, **Vista de pedidos** y **Vista de recursos**. En **Vista de pedidos**, las actividades se agrupan en pedidos de producción. Esto puede ser útil, por ejemplo, si desea mantener una visión general de todos los trabajos que pertenecen a los mismos pedidos. En la **Vista de recursos**, todos los trabajos se agrupan en recursos individuales. Esta vista puede ser útil al optimizar el plan en un nivel del recurso, por ejemplo, una máquina o un grupo de máquinas. Los gráficos de Gantt mostrados en las ilustraciones siguientes muestran la **Vista de pedidos** y la **Vista de recursos** con estos elementos clave:
 
 1.  Actividad del gráfico de Gantt
 2.  Icono de escasez de material

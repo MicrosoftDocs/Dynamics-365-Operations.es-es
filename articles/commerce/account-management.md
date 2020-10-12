@@ -3,7 +3,7 @@ title: Módulos y páginas de gestión de cuentas
 description: Este tema cubre los módulos y las páginas de gestión de cuentas en Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,15 +18,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8787a7b01ecf15752569d2a3a8d7804fe492e63d
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: b0f963bcf65ae622522fe52fd59996c6ec0ecf17
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025729"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817167"
 ---
 # <a name="account-management-pages-and-modules"></a>Módulos y páginas de gestión de cuentas
-
 
 [!include [banner](includes/banner.md)]
 
@@ -75,9 +74,9 @@ Para unirse al programa de fidelización, se puede crear una página de marketin
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general de kit de inicio](starter-kit-overview.md)
+[Visión general de la biblioteca de módulos](starter-kit-overview.md)
 
-[Módulo Contenedor](add-container-module.md)
+[Módulo de contenedor](add-container-module.md)
 
 [Módulo de cuadro de compra](add-buy-box.md)
 

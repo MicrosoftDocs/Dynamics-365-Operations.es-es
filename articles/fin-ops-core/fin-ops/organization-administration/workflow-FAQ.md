@@ -3,7 +3,7 @@ title: Preguntas frecuentes de flujo de trabajo
 description: Este tema responde a las preguntas frecuentes acerca del sistema de flujo de trabajo.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 02/18/2020
+ms.date: 09/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7408424ff9344b3dcd054106f3f10b0dc1d687b
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: 4ba60c832b1f1ac5f514baef4cc0a9c36dd85af9
+ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076095"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826199"
 ---
 # <a name="workflow-faq"></a>Preguntas frecuentes sobre flujos de trabajo
 
@@ -58,3 +58,5 @@ Cuando el editor de flujo de trabajo se ejecuta con los Servicios de federación
 ## <a name="why-am-i-getting-sql-deadlocks-on-workflow-processing"></a>¿Por qué obtengo puntos muertos de SQL en el procesamiento del flujo de trabajo? 
 El valor de campo predeterminado para **Número de elementos de flujo de trabajo por lote** sobre el **Parámetros de flujo de trabajo** la página es 0. Un valor de 0 hace que el valor predeterminado cambie a 20 artículos por lote. Tenga cuidado al ajustar este valor porque una gran cantidad de elementos por lote (> 40) puede causar puntos muertos de SQL.
 
+## <a name="what-is-the-workflow-enhanced-error-feature"></a>¿En qué consiste la característica Error mejorado de flujo de trabajo?
+La característica Error mejorado de flujo de trabajo incluida en la versión 10.0.13 agrega códigos de error para diferenciar distintas clases de errores del flujo de trabajo. Los mensajes de error notificados serán en su mayoría similares, con pequeñas variaciones para que sean más claros.

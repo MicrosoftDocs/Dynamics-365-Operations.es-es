@@ -76,13 +76,11 @@
                       href: get-started/whats-new-changed-10-0-13.md
                     - name: Finance 10.0.12 (agosto de 2020)
                       href: get-started/whats-new-changed-10-0-12.md
-                    - name: Finance 10.0.11 (julio de 2020)
-                      href: get-started/whats-new-changed-10-0-11.md
-            - name: Características quitadas u obsoletas
+            - name: Características quitadas o en desuso
               items:
-                - name: Características quitadas u obsoletas de Dynamics 365 Finance
+                - name: Características quitadas o en desuso en Dynamics 365 Finance
                   href: get-started/removed-deprecated-features-finance.md
-                - name: Funciones quitadas u obsoletas de versiones anteriores
+                - name: Funciones quitadas o en desuso de versiones anteriores
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/finance/toc.json
             - name: Características de AX 2012 pospuestas
               href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/finance/toc.json
@@ -160,7 +158,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/finance/toc.json
                 - name: Crear y trabajar con campos personalizados
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/finance/toc.json
-                - name: Insertar Microsoft Power Apps
+                - name: Insertar aplicaciones de lienzo desde Power Apps
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/finance/toc.json
                 - name: Encontrar información mediante el uso de búsquedas
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/finance/toc.json
@@ -1228,9 +1226,25 @@
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/finance/toc.json
             - name: Actualizaciones reglamentarias
               href: localizations/regulatory-updates.md
+            - name: Complemento de facturación electrónica
+              items:
+                - name: Información general del complemento de facturación electrónica
+                  href: localizations/e-invoicing-service-overview.md
+                - name: Crear una cuenta de almacenamiento de Azure y un Key Vault
+                  href: localizations/e-invoicing-create-azure-storage-account-key-vault.md
+                - name: Comenzar con el complemento de facturación electrónica
+                  href: localizations/e-invoicing-get-started.md
+                - name: Comenzar con el complemento de facturación electrónica para Brasil
+                  href: localizations/e-invoicing-bra-get-started.md
+                - name: Comenzar con el complemento de facturación electrónica para Italia
+                  href: localizations/e-invoicing-ita-get-started.md
+                - name: Comenzar con el complemento de facturación electrónica para México
+                  href: localizations/e-invoicing-mex-get-started.md
+                - name: Configurar el complemento de facturación electrónica
+                  href: localizations/e-invoicing-setup.md
             - name: Australia
               items:
-                - name: Visión general de Australia
+                - name: Información general para Australia
                   href: localizations/australia.md
                 - name: Extracto de actividades comerciales (BAS)
                   href: localizations/apac-aus-business-activity-statement.md
@@ -1268,6 +1282,8 @@
                   href: localizations/emea-bel-coda-bank-statement-import.md
                 - name: Crear y transferir transacciones al BLWI
                   href: localizations/tasks/be-00011-create-transfer-blwi.md
+                - name: Exportar transacciones contables
+                  href: localizations/emea-bel-export-ledger-transactions.md
                 - name: Declaración de impuestos de INTERVAT
                   href: localizations/emea-bel-intervat-tax-declaration.md
                 - name: Informes de conciliación
@@ -2036,6 +2052,8 @@
                       href: localizations/apac-ind-GST-tax-journal.md
                     - name: Generar los datos del informe de GSTR para devoluciones de impuestos
                       href: localizations/apac-ind-GST-tax-returns.md
+                    - name: Habilitar el procesamiento multilote para informes de GSTR
+                      href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
                     - name: Consulta impositiva
                       href: localizations/apac-ind-GST-tax-inquiry.md
                 - name: Motor de impuestos
@@ -3560,6 +3578,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=dynamics365/finance/toc.json
                     - name: Diseñar informes multilingües
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-multilingual-reports.md?toc=/dynamics365/finance/toc.json
+                    - name: Comprimir documentos salientes de gran tamaño
+                      href: ../fin-ops-core/dev-itpro/analytics/er-compress-outbound-files.md?toc=/dynamics365/finance/toc.json
                 - name: Ruta de acceso relativa en enlaces de datos
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=dynamics365/finance/toc.json
             - name: Usar soluciones de informes electrónicos en Finance and Operations

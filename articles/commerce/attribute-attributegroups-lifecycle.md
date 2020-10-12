@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: EcoResCategoryAttribute, EcoResProductEntityAttributeTableFieldAssociation, EcoResCategorySearchList, EcoResAttribute, COODualUseCategories, EcoResAttributeType, EcoResAttributeValue, EcoResCategoryAttributeGroup, EcoResCategoryFriendlyName
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: 11f385514cc12733987a4855b626c067ff355b54
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: b5d0e92196f98fb707b1c424a6ae237f4dc9545c
+ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023891"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3895362"
 ---
 # <a name="manage-attributes-and-attribute-groups"></a>Administrar atributos y grupos de atributos
 
@@ -189,9 +189,9 @@ Uno o más grupos de atributos se pueden asociar a una o más tiendas en la jera
 3. Asignar grupos de atributos al canal de Houston:
 
     1. Seleccione el canal **Houston**.
-    2. En la pestaña desplegable **Grupo de atributos**, seleccione **Añadir** y, a continuación, en el campo **Nombre**, seleccione **SharePointProvisionedProductAttributeGroup**.
-    3. Seleccione **Añadir** de nuevo y, a continuación, en el campo **Nombre**, seleccione **Cinturón de hombre**.
-    4. Seleccione **Añadir** de nuevo y, a continuación, en el campo **Nombre**, seleccione **Gafas de sol modernas**.
+    2. En la pestaña desplegable **Grupo de atributos**, seleccione **Agregar** y, a continuación, en el campo **Nombre**, seleccione **SharePointProvisionedProductAttributeGroup**.
+    3. Seleccione **Agregar** de nuevo y, a continuación, en el campo **Nombre**, seleccione **Cinturón de hombre**.
+    4. Seleccione **Agregar** de nuevo y, a continuación, en el campo **Nombre**, seleccione **Gafas de sol modernas**.
 
         > [!NOTE]
         > Una opción le permite especificar que este canal debe heredar los grupos de atributos de su canal principal en la jerarquía. Si establece la opción **Heredar** en **Sí**, el nodo secundario del canal hereda todos los grupos de atributos y todos los atributos en esos grupos de atributos.
@@ -246,7 +246,7 @@ Los valores predeterminados de atributos se pueden anular para productos individ
 4. En la pestaña desplegable **Productos**, seleccione el producto requerido y, a continuación, seleccione **Atributos** encima de la cuadrícula del producto.
 
     > [!NOTE]
-    > Si no hay productos disponibles, agregue productos seleccionando **Añadir** en la pestaña desplegable **Productos** y, a continuación, seleccionando los productos necesarios en el cuadro de diálogo **Agregar productos**.
+    > Si no hay productos disponibles, agregue productos seleccionando **Agregar** en la pestaña desplegable **Productos** y, a continuación, seleccionando los productos necesarios en el cuadro de diálogo **Agregar productos**.
 
 5. En las pestañas desplegables siguientes, actualice los valores de los atributos necesarios:
 

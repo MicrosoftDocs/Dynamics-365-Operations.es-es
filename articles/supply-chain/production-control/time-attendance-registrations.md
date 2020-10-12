@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: HcmWorker, JmgCalcApprovePickDialog, JmgGroupApprove, JmgGroupCalc, JmgGroupSigningTable, JmgRegistration, JmgTimeCalcParmeters, WorkflowTableListPageRnr
+ms.search.form: HcmWorker, JmgCalcApprovePickDialog, JmgGroupApprove, JmgGroupCalc, JmgGroupSigningTable, JmgRegistration, JmgTimeCalcParmeters, WorkflowTableListPageRnr, JmgRegistrationSetup, JmgStampTrans, JmgStampJournalTrans
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 02d2baebfb7309156400a178591605619fe59053
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 31d01ad209cc3d4ce57db76e92dc091d0b93f162
+ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3210294"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826139"
 ---
 # <a name="time-and-attendance-registration-overview"></a>Visión general del registro de tiempo y asistencia
 
@@ -43,7 +43,7 @@ En las empresas que usan Tiempo y asistencia, los trabajadores deben registrar e
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Si ejecuta Tiempo y asistencia junto con Fabricación, todos los registros en proyectos, actividades de proyectos, actividades indirectas, códigos de ausencia y horas extra y tiempo flexible se registrarán y se utilizarán para calcular las nóminas en ambos módulos. |
 
-## <a name="time-registrations-workers"></a> Trabajadores con registro de horas
+## <a name="time-registrations-workers"></a>Trabajadores con registro de horas
 Para poder registrar tiempos y ausencias, los trabajadores deben estar configurados como trabajadores del registro de horas en la empresa en la que están empleados.
 
 Tras la configuración, los trabajadores pueden especificar distintos tipos de registros.
@@ -85,7 +85,7 @@ Del mismo modo que asigna un grupo de cálculo a un trabajador con registro de h
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Si se han calculado horas extra para trabajadores concretos, las horas extra se deben asignar a los trabajos concretos durante el día. Esto es relevante si los costes de trabajo se calculan en base al sueldo del trabajador. |
 
-## <a name="approving-registrations-using-workflow"></a> Aprobación de registros mediante el flujo de trabajo
+## <a name="approving-registrations-using-workflow"></a>Aprobación de registros mediante el flujo de trabajo
 Puede configurar un proceso de aprobación de flujo de trabajo para aprobar automáticamente los registros que cumplen con las reglas de flujo de trabajo, dejando solo por introducir manualmente las desviaciones. Si se activa una aprobación de flujo de trabajo, el gerente o el supervisor del equipo envía los registros calculados para su aprobación. El proceso de flujo de trabajo generará las aprobaciones y tareas adecuadas y las asignará a los usuarios y roles adecuados según se identifique en el flujo de trabajo. Existen dos aprobaciones de flujo de trabajo para tiempo y asistencia.
 
 | Flujo de trabajo                                  | Propósito                                                                                                   | Tipo de registro                                                                                                                                                                                                                                     |
