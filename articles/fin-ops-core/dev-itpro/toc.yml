@@ -14,6 +14,8 @@
               items:
                 - name: Novedades y cambios en la página principal de Platform update
                   href: get-started/whats-new-home-page.md
+                - name: Platform updates para 10.0.15 (enero de 2021)
+                  href: get-started/whats-new-platform-updates-10-0-15.md
                 - name: Platform updates para 10.0.14 (noviembre de 2020)
                   href: get-started/whats-new-platform-updates-10-0-14.md
                 - name: Platform updates para 10.0.13 (octubre de 2020)
@@ -236,6 +238,8 @@
                                   href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
                                 - name: Solucionar problemas generales
                                   href: data-entities/dual-write/dual-write-troubleshooting.md
+                        - name: Preguntas frecuentes sobre doble escritura
+                          href: data-entities/dual-write/dual-write-faq.md
                     - name: Integración con Power Platform
                       items:
                         - name: Configurar un escenario de cliente potencial a cliente
@@ -386,6 +390,8 @@
           items:
             - name: Visión general
               href: database/dbmovement-operations.md
+            - name: Kit de herramientas de movimiento de bases de datos
+              href: database/database-movement-toolkit.md
             - name: Guías de inicio rápido
               items:
                 - name: Actualizar la base de datos
@@ -1564,7 +1570,9 @@
                   href: migration-upgrade/data-upgrade-2012.md
                 - name: 'Actualización de AX 2012: lista de comprobación previa a la actualización para actualización de datos'
                   href: migration-upgrade/prepare-data-upgrade.md
-                - name: 'Actualización de AX 2012: actualización de datos en entornos aislados'
+                - name: 'Actualización de AX 2012: actualización de datos en entornos de espacio aislado mediante el proceso dacpac'
+                  href: migration-upgrade/upgrade-data-sandbox-dacpac.md
+                - name: 'Actualización de AX 2012: actualización de datos en entornos de espacio aislado'
                   href: migration-upgrade/upgrade-data-sandbox.md
                 - name: 'Actualización de AX 2012: entornos locales'
                   href: migration-upgrade/on-prem-upgrade-2012.md
