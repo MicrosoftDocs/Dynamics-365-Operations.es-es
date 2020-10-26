@@ -1,7 +1,7 @@
 ---
 title: Asociar un sitio de comercio electrónico a un canal en línea
 description: Este tema explica cómo vincular el sitio de Microsoft Dynamics 365 Commerce a una o más tiendas en línea.
-author: stuharg
+author: bicyclingfool
 manager: AnnBe
 ms.date: 07/02/2020
 ms.topic: article
@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
-ms.author: bicyclingfool
+ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: af63fc8e32d82cff9e46510da9b30110ac8f0f2c
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: b7c393ec2f716c7057a77d0f3c3c1a9f79ee8c68
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533376"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3975377"
 ---
 # <a name="associate-an-e-commerce-site-with-an-online-channel"></a>Asociar un sitio de comercio electrónico a un canal en línea
 

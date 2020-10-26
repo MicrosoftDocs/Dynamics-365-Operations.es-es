@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6cf056f9c8f1f24bb6eb0f619c476b1095a854bb
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: e9334bb8a594d19aa82167cfa11a9522bbba4bea
+ms.sourcegitcommit: 4a32634690a741535f3f4babfd753f7c227ad6fe
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428648"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3958852"
 ---
 # <a name="develop-succession-plan"></a>Desarrollar plan de sucesión
 
@@ -37,7 +37,7 @@ A medida que crece la organización y se considera la planificación de recursos
 6. Haga clic en Recuperar perfil.
 7. Haga clic en Persona.
 8. En el campo Persona, escriba un nombre o seleccione la ficha desplegable.  Ejemplo: Cassie Hicks.
-9. Haga clic en Aceptar
+9. Haga clic en Aceptar.
 10. Expanda la ficha desplegable Certificados para ver o editar los certificados incluidos en la distribución de perfiles.
 11. Expanda la ficha desplegable Aptitudes para ver o editar las aptitudes que se deben incluir.
 12. En la lista, marque la primera fila.  Ejemplo: Contabilidad

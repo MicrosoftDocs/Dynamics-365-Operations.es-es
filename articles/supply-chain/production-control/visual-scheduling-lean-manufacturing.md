@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6710dcb1cb53e7221b03b35ceee5ac8e055b6dd2
-ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
+ms.openlocfilehash: 45a63ab0f5baadf6bef646224b3f0bf5327ee923
+ms.sourcegitcommit: 4a32634690a741535f3f4babfd753f7c227ad6fe
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "3826415"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3958750"
 ---
 # <a name="visual-scheduling-for-lean-manufacturing"></a>Programación visual para lean manufacturing
 
@@ -61,7 +61,7 @@ La página **Tablero de programación kanban** contiene siete elementos principa
 
 ### <a name="view-the-time-scale"></a>Ver la escala temporal
 
-El tablero se divide en períodos, cada uno representado como un nodo (4). Los nodos del período se enumeran en el eje vertical, y el acceso horizontal representa una escala de tiempo (7) que muestra la duración del período. Un período tiene una duración de un día o una semana. La duración del período viene determinada por la configuración de la celda de trabajo seleccionada para el tablero de programación kanban (2). Para cada nodo del período, el tablero de programación kanban indica en qué medida los trabajos kanban programados están cargando el período. También una indicación de capacidad de proceso máxima para el período. Si el rendimiento programado supera la capacidad de proceso máxima, el período se considera como sobrecargado y aparece un símbolo de advertencia rojo. Un trabajo kanban programado aparece en un período que tiene horas de inicio y fin programadas (5). La longitud del trabajo es igual al tiempo de actividad. Los trabajos kanban aparecen como solapados en un período si los tiempos de actividad superan el ritmo de producción de la celda de trabajo.
+El tablero se divide en períodos, cada uno representado como un nodo (4). Los nodos del período se enumeran en el eje vertical, y el eje horizontal representa una escala de tiempo (7) que muestra la duración del período. Un período tiene una duración de un día o una semana. La duración del período viene determinada por la configuración de la celda de trabajo seleccionada para el tablero de programación kanban (2). Para cada nodo del período, el tablero de programación kanban indica en qué medida los trabajos kanban programados están cargando el período. También una indicación de capacidad de proceso máxima para el período. Si el rendimiento programado supera la capacidad de proceso máxima, el período se considera como sobrecargado y aparece un símbolo de advertencia rojo. Un trabajo kanban programado aparece en un período que tiene horas de inicio y fin programadas (5). La longitud del trabajo es igual al tiempo de actividad. Los trabajos kanban aparecen como solapados en un período si los tiempos de actividad superan el ritmo de producción de la celda de trabajo.
 
 ### <a name="view-job-status"></a>Ver el estado del trabajo
 

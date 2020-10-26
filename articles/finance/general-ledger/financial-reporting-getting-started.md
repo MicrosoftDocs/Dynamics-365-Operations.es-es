@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7cc238c573a319073b451063782762c19a80017
-ms.sourcegitcommit: 28a771d81322e72d88db63a20ff360de084a6087
+ms.openlocfilehash: 363ce16b31a199e519c969746c4f10430d9d7497
+ms.sourcegitcommit: 165e082e59ab783995c16fd70943584bc3ba3455
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3835119"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "3967267"
 ---
 # <a name="get-started-with-financial-reporting"></a>Introducción a Financial Reporting 
 
@@ -149,7 +149,12 @@ Problema 1: Diseñador de informes no se inicia cuando selecciona **Nuevo** o **
 * En Internet Explorer, seleccione **Configuración** y luego **Opciones de Internet**. Seleccione la pestaña **Seguridad**. Seleccione Sitios de confianza. En el área etiquetada como Nivel de seguridad para esta zona, cambie la opción a **Medio-bajo**.
 * Deshabilite el bloqueador de elementos emergentes en su navegador.
 * Se requieren estaciones de trabajo para instalar Microsoft .NET Framework 4.6.2 o superior. Esta versión de Microsoft .NET Framework puede descargarse e instalarse desde el [Centro de descarga de Microsoft](https://www.microsoft.com/download/details.aspx?id=53345).
-* Si está usando el explorador Chrome, debe instalar una extensión ClickOnce para descargar el cliente de Diseñador de informes. Si está ejecutando en modo incógnito, asegúrese de que la extensión ClickOnce está activada para el modo incógnito. Si no puede iniciar sesión con Chrome, intente seguir los pasos de configuración descritos en el Problema 1 usando Internet Explorer o Edge. 
+* Si está usando el explorador Microsoft Edge con el explorador Chrome, debe instalar una extensión ClickOnce para descargar el cliente de Diseñador de informes. Si está ejecutando en modo incógnito, asegúrese de que la extensión ClickOnce está activada para el modo incógnito. 
+     1. Abra un nuevo navegador en Microsoft Edge.
+     2. Introduzca **edge://flags** y seleccione **Intro**.
+     3. Busque la opción **Soporte ClickOnce** o utilice este enlace directo: **edge://flags/#edge-click-once**.
+     4. Establezca la opción del menú desplegable en **Habilitado**.
+     5. Seleccione**Reiniciar navegador**.
 
 Problema 2: al usuario no se le han asignado los permisos necesarios para utilizar Financial Reporting. 
 

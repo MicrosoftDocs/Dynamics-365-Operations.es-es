@@ -3,7 +3,7 @@ title: Vídeos
 description: Esta página enumera vídeos de "procedimientos" y de charlas técnicas relacionados con aplicaciones de Finance and Operations que están disponibles en YouTube y otros sitios.
 author: sericks007
 manager: AnnBe
-ms.date: 07/31/2020
+ms.date: 10/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: c620e5e75ba1c547f0a1ee6830a5cf1b7fa58377
-ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
+ms.openlocfilehash: f61872e25cd2e91724d4918b8f974ee913913d37
+ms.sourcegitcommit: 47166b3e10097cc2754e0c8459f62dcdeef27053
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3645374"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "3991461"
 ---
 # <a name="videos"></a>Vídeos 
 
@@ -82,6 +82,7 @@ En el [Canal de YouTube de Microsoft Dynamics 365](https://www.youtube.com/chann
 - [Cómo utilizar el grabador de tareas para crear un caso para de prueba para Regression Suite Automation Tool (RSAT)](https://youtu.be/bBr4BXAxTNI)
 - [Cómo crear un plan de prueba en Azure DevOps para Regression Suite Automation Tool (RSAT)](https://youtu.be/3jIuBleAnQk) 
 - [Cómo usar Regression Suite Automation Tool (RSAT)](https://youtu.be/uhN9JItzGAk)
+- [La experiencia mejorada de Excel en Regression Suite Automation Tool (RSAT) 2.0](https://youtu.be/fcEkSIVQ1Bg)
 
 
 ## <a name="videos-for-dynamics-365-finance"></a>Vídeos para Dynamics 365 Finance

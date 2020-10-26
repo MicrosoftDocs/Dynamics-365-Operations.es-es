@@ -3,7 +3,7 @@ title: Agregar secuencia de comandos a páginas del sitio para admitir telemetr�
 description: Este tema describe cómo agregar código de script del lado cliente a las páginas del sitio para admitir la colección de telemetría del cliente.
 author: bicyclingfool
 manager: annbe
-ms.date: 08/31/2020
+ms.date: 09/29/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a88f4f920154aafaa15a48af67365152e21111f7
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: e15ba6a0d624bd97c25936aa6d3bfafb844b66c0
+ms.sourcegitcommit: 7e8a9f92a2675bf5b620889678a2918f63f3e199
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761258"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "3901505"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Agregar secuencia de comandos a páginas del sitio para admitir telemetría
 
@@ -64,6 +64,9 @@ Para crear un fragmento reutilizable para su código de script externo en el gen
 1. En el panel de propiedades a la derecha, debajo de **Fuente de script**, agregue una URL externa o relativa para la fuente del script externo. Luego configure otras opciones según lo requiera.
 1. Seleccione **Guardar** y, a continuación, seleccione **Finalizar edición**.
 1. Seleccione **Publicar**.
+
+> [!NOTE]
+> Si la política de seguridad de contenido (CSP) está habilitada para su sitio, asegúrese de que todas las URL externas se agreguen a la directiva **script-src** en el creador de sitios de Commerce. Para más información, consulte [Administrar la Directiva de seguridad de contenido (CSP)](manage-csp.md).
 
 ## <a name="add-a-fragment-that-includes-script-code-to-a-template"></a>Agregar un fragmento que incluya código de script a una plantilla
 

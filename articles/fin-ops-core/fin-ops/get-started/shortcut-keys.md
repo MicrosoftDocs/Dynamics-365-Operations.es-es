@@ -3,7 +3,7 @@ title: Métodos abreviados de teclado
 description: Este tema proporciona una descripción general de las combinaciones de teclas de método abreviado que puede usar cuando trabaja con aplicaciones de Finance and Operations.
 author: jasongre
 manager: AnnBe
-ms.date: 10/02/2019
+ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41d5fb270e7b01effc650b24626b81ced647a399
-ms.sourcegitcommit: 95d06006142e6bf83351fb075b413fdc2074d5ee
+ms.openlocfilehash: 982fbef1af504ad70aa0e7c4ecf19f09fb599d16
+ms.sourcegitcommit: ebb110b0b73c99929636d26811a6f9c186080ddb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761630"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3962529"
 ---
 # <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
 
@@ -32,6 +32,8 @@ Los siguientes métodos abreviados de teclado le pueden ayudar de forma rápida 
 
 > [!NOTE]
 > Los métodos abreviados de teclado aquí descritos se refieren al diseño del teclado de Estados Unidos. Es posible que las teclas de otros diseños de teclados no se correspondan exactamente con las teclas de un teclado de Estados Unidos.
+
+Algunos de los atajos de esta página son *acordes clave*, lo que significa que requieren dos conjuntos consecutivos de combinaciones de teclas (separados por una coma) que deben presionarse de forma independiente para activar la acción requerida. Por ejemplo, el atajo "Alt + M, A" requiere que el usuario primero presione "Alt + M", suelte las teclas y luego presione "A". 
 
 ## <a name="finding-a-shortcut"></a>Encontrar un acceso directo
 
@@ -193,7 +195,7 @@ A partir de la actualización de plataforma 11, los usuarios pueden detectar acc
 | Ir al contenido de la página principal (con el enfoque en otro panel)                    | Alt+M,M                    |
 | Ir al panel del cuadro informativo (puede incluirse la opción de abrirlo)                       | Alt+M,B o Ctrl+F2         |
 
-## <a name="personalization-shortcuts"></a>Personalizar los métodos abreviados
+## <a name="personalization-shortcuts"></a>Métodos abreviados de [personalización](personalize-user-experience.md) 
 
 | Acción                                                                                                             | Presione                               |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
@@ -237,7 +239,20 @@ A partir de la actualización de plataforma 11, los usuarios pueden detectar acc
 | Desplazarse arriba/abajo una página en las búsquedas                                                                                       | Re Pág / Av Pág              |
 | Ir a la parte superior/inferior de la búsqueda                                                                                    | Inicio / Fin                       |
 
+## <a name="task-recordershortcuts"></a>Métodos abreviados del [grabador de tareas](../../dev-itpro/user-interface/task-recorder.md) 
+
+| Acción                                                                    | Presione                       |
+|-------------------------------------------------------------------------------|----------------------------|
+| Detener la grabación (mientras graba)                                          | Alt+R,S                    |
+| Alternar la visibilidad del panel Grabador de tareas (durante la grabación)             | Alt+R,T                    |
+| Alternar el modo Rails (mientras se reproduce una guía de tareas)                                | Alt+R,L                    |
+| Ir al paso anterior (mientras se reproduce una guía de tareas)                          | Alt+R,P                    |
+| Ir al paso siguiente (mientras se reproduce una guía de tareas)                              | Alt+R,N                    |
+| Alternar el enfoque entre la página y el mensaje emergente animado (mientras se reproduce una guía de tareas) | Alt+R,F               |
+| Expandir / contraer el mensaje emergente animado (mientras se reproduce una guía de tareas)              | Alt+R,C                    |
+| Mostrar más / menos información en el mensaje emergente animado (mientras se reproduce una guía de tareas) | Alt+R,M                    |
+
 ## <a name="additional-resources"></a>Recursos adicionales
 
-- [Métodos abreviados de teclado para el análisis de cuentas que faltan](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
+[Métodos abreviados de teclado para el análisis de cuentas que faltan](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
 
