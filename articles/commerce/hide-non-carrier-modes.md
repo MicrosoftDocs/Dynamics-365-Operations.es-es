@@ -14,15 +14,15 @@ ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: hhainesms
+ms.author: hhaines
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 75e7e8f183982f7829db78eb75b8c29c9ab95e89
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 38d57ed5f8d2b8725cd11156f0135988bb76e047
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024006"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3982998"
 ---
 # <a name="hide-non-carrier-delivery-modes-from-the-shipping-options-in-pos"></a>Ocultar modos sin transportistas de las opciones de entrega de envío en PDV
 
@@ -33,6 +33,6 @@ Este tema describe una opción de configuración que está disponible para su de
 
 Cuando los usuarios crean pedidos de envío del cliente en el sistema PDV, pueden seleccionar un modo de entrega para el envío. Esta funcionalidad está disponible independientemente de si se envía todo el pedido o solo líneas seleccionadas.
 
-De forma predeterminada, el cuadro de diálogo donde se selecciona un modo de entrega muestra todos los modos de entrega válidos para la combinación de un canal, de un artículo y una dirección de entrega. Estos modos de entrega se definen en la página **Modos de entrega** en Headquarters (**Ventas y marketing** \> Configuración \> Distribución \> Modos de entrega**). Los modos de entrega "sin transportista", como **Para llevar** o **Recogida**, pueden aparecer también para su selección en el cuadro de diálogo.
+De forma predeterminada, el cuadro de diálogo donde se selecciona un modo de entrega muestra todos los modos de entrega válidos para la combinación de un canal, de un artículo y una dirección de entrega. Estos modos de entrega se definen en la página **Modos de entrega** en Headquarters (**Ventas y marketing \> Configuración \> Distribución \> Modos de entrega**). Los modos de entrega "sin transportista", como **Para llevar** o **Recogida**, pueden aparecer también para su selección en el cuadro de diálogo.
 
 Sin embargo, se ha agregado una función que le permite ocultar modos de entrega sin transportistas en el cuadro de diálogo. Para activar esta característica, en la página **Parámetros de Commerce**, en la pestaña **Pedidos de cliente** establezca la opción **Mostrar solo opciones con transportista para pedidos de envío** en **Sí**. Tras activar esta característica y ejecutar los trabajos de distribución apropiados para sincronizar la información de la base de datos del canal, los modos de entrega sin transportista no aparecerán para su selección durante el proceso de creación órdenes de envío en el PDV.

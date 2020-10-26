@@ -13,15 +13,15 @@ ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Spain
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9edd36081cc9995b650cc61b04e8e068b846fbd
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: 4d44b4a2ff347e6535d5ab3bb3f3c493f6d066d9
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621124"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3983994"
 ---
 # <a name="spain-overview"></a>Visión general de España
 
