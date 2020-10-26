@@ -15,66 +15,66 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a9fba99eeea605f35abfe00068fe9a4cda4db0b6
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 5ebd65655db56ee1169f24dbc79fbfb5130f06a5
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203121"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3978830"
 ---
-# <a name="accruing-subscriptions"></a><span data-ttu-id="bce3a-103">Acumulación de suscripciones</span><span class="sxs-lookup"><span data-stu-id="bce3a-103">Accruing subscriptions</span></span> 
+# <a name="accruing-subscriptions"></a><span data-ttu-id="eafa2-103">Acumulación de suscripciones</span><span class="sxs-lookup"><span data-stu-id="eafa2-103">Accruing subscriptions</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="bce3a-104">Con las suscripciones de servicios, puede acumular ingresos manualmente en los períodos siguientes a la fecha de facturación de una transacción de gastos.</span><span class="sxs-lookup"><span data-stu-id="bce3a-104">With service subscriptions, you manually accrue revenue in the periods following the date when you invoiced a fee transaction.</span></span>
+<span data-ttu-id="eafa2-104">Con las suscripciones de servicios, puede acumular ingresos manualmente en los períodos siguientes a la fecha de facturación de una transacción de gastos.</span><span class="sxs-lookup"><span data-stu-id="eafa2-104">With service subscriptions, you manually accrue revenue in the periods following the date when you invoiced a fee transaction.</span></span>
 
-<span data-ttu-id="bce3a-105">Los períodos de acumulación se crean para el período de factura que configure para la cuota de suscripción y los períodos de acumulación se basan en el código de período de la suscripción.</span><span class="sxs-lookup"><span data-stu-id="bce3a-105">Accrual periods are created for the invoice period that you set up for the subscription fee, and the accrual periods are based on the period code of the subscription.</span></span>
+<span data-ttu-id="eafa2-105">Los períodos de acumulación se crean para el período de factura que configure para la cuota de suscripción y los períodos de acumulación se basan en el código de período de la suscripción.</span><span class="sxs-lookup"><span data-stu-id="eafa2-105">Accrual periods are created for the invoice period that you set up for the subscription fee, and the accrual periods are based on the period code of the subscription.</span></span>
 
-<span data-ttu-id="bce3a-106">Puede acumular e invertir ingresos acumulados.</span><span class="sxs-lookup"><span data-stu-id="bce3a-106">You can accrue and reverse accrued revenue.</span></span>
+<span data-ttu-id="eafa2-106">Puede acumular e invertir ingresos acumulados.</span><span class="sxs-lookup"><span data-stu-id="eafa2-106">You can accrue and reverse accrued revenue.</span></span>
 
-## <a name="reverse-accruals-of-credit-amounts"></a><span data-ttu-id="bce3a-107">Invertir las provisiones de importes de crédito</span><span class="sxs-lookup"><span data-stu-id="bce3a-107">Reverse accruals of credit amounts</span></span>
+## <a name="reverse-accruals-of-credit-amounts"></a><span data-ttu-id="eafa2-107">Invertir las provisiones de importes de crédito</span><span class="sxs-lookup"><span data-stu-id="eafa2-107">Reverse accruals of credit amounts</span></span>
 
-<span data-ttu-id="bce3a-108">Si abona importes de suscripción facturados, puede usar dos métodos diferentes para invertir los importes de acumulación:</span><span class="sxs-lookup"><span data-stu-id="bce3a-108">If you credit invoiced subscription amounts, you can use two methods to reverse the accrual amounts:</span></span>
+<span data-ttu-id="eafa2-108">Si abona importes de suscripción facturados, puede usar dos métodos diferentes para invertir los importes de acumulación:</span><span class="sxs-lookup"><span data-stu-id="eafa2-108">If you credit invoiced subscription amounts, you can use two methods to reverse the accrual amounts:</span></span>
 
-  - <span data-ttu-id="bce3a-109">puede invertir cada transacción de ingreso acumulado individualmente antes de crear la propuesta de nota de abono para la transacción.</span><span class="sxs-lookup"><span data-stu-id="bce3a-109">You can reverse each accrued revenue transaction individually before you create the credit note proposal for the transaction.</span></span> <span data-ttu-id="bce3a-110">Este es el método manual.</span><span class="sxs-lookup"><span data-stu-id="bce3a-110">This is the manual method.</span></span> <span data-ttu-id="bce3a-111">(manual)</span><span class="sxs-lookup"><span data-stu-id="bce3a-111">(manual)</span></span>
+  - <span data-ttu-id="eafa2-109">puede invertir cada transacción de ingreso acumulado individualmente antes de crear la propuesta de nota de abono para la transacción.</span><span class="sxs-lookup"><span data-stu-id="eafa2-109">You can reverse each accrued revenue transaction individually before you create the credit note proposal for the transaction.</span></span> <span data-ttu-id="eafa2-110">Este es el método manual.</span><span class="sxs-lookup"><span data-stu-id="eafa2-110">This is the manual method.</span></span> <span data-ttu-id="eafa2-111">(manual)</span><span class="sxs-lookup"><span data-stu-id="eafa2-111">(manual)</span></span>
 
-  - <span data-ttu-id="bce3a-112">Puede tener los importes acumulados invertidos en la fecha en la que la nota de abono se registra o en la fecha de registro original de acumulación.</span><span class="sxs-lookup"><span data-stu-id="bce3a-112">You can have the accrued amounts reversed on the date where the credit note is posted or on the original posting date of the accrual.</span></span>
+  - <span data-ttu-id="eafa2-112">Puede tener los importes acumulados invertidos en la fecha en la que la nota de abono se registra o en la fecha de registro original de acumulación.</span><span class="sxs-lookup"><span data-stu-id="eafa2-112">You can have the accrued amounts reversed on the date where the credit note is posted or on the original posting date of the accrual.</span></span>
 
-<span data-ttu-id="bce3a-113">Para obtener más información, consulte [Parámetros de suscripción (formulario)](https://technet.microsoft.com/library/aa619615.aspx).</span><span class="sxs-lookup"><span data-stu-id="bce3a-113">For more information, see [Subscription parameters (form)](https://technet.microsoft.com/library/aa619615.aspx).</span></span>
+<span data-ttu-id="eafa2-113">Para obtener más información, consulte [Parámetros de suscripción (formulario)](https://technet.microsoft.com/library/aa619615.aspx).</span><span class="sxs-lookup"><span data-stu-id="eafa2-113">For more information, see [Subscription parameters (form)](https://technet.microsoft.com/library/aa619615.aspx).</span></span>
 
-## <a name="setup-requirements"></a><span data-ttu-id="bce3a-114">Configurar requisitos</span><span class="sxs-lookup"><span data-stu-id="bce3a-114">Setup requirements</span></span>
+## <a name="setup-requirements"></a><span data-ttu-id="eafa2-114">Configurar requisitos</span><span class="sxs-lookup"><span data-stu-id="eafa2-114">Setup requirements</span></span>
 
-<span data-ttu-id="bce3a-115">Para acumular ingresos, asegúrese de que se cumplen los siguientes requisitos de datos:</span><span class="sxs-lookup"><span data-stu-id="bce3a-115">To accrue revenue, make sure that the following data requirements are met:</span></span>
+<span data-ttu-id="eafa2-115">Para acumular ingresos, asegúrese de que se cumplen los siguientes requisitos de datos:</span><span class="sxs-lookup"><span data-stu-id="eafa2-115">To accrue revenue, make sure that the following data requirements are met:</span></span>
 
-## <a name="account-setup"></a><span data-ttu-id="bce3a-116">Configuración de cuenta</span><span class="sxs-lookup"><span data-stu-id="bce3a-116">Account setup</span></span>
+## <a name="account-setup"></a><span data-ttu-id="eafa2-116">Configuración de cuenta</span><span class="sxs-lookup"><span data-stu-id="eafa2-116">Account setup</span></span>
 
-<span data-ttu-id="bce3a-117">Las cuentas **Trabajo en proceso - suscripción** y **Ingresos acumulados - suscripción** deben configurarse en el módulo **Proyecto**.</span><span class="sxs-lookup"><span data-stu-id="bce3a-117">The **WIP - subscription** and the **Accrued revenue - subscription** accounts must be set up in the **Project** module.</span></span>
+<span data-ttu-id="eafa2-117">Las cuentas **Trabajo en proceso - suscripción** y **Ingresos acumulados - suscripción** deben configurarse en el módulo **Proyecto**.</span><span class="sxs-lookup"><span data-stu-id="eafa2-117">The **WIP - subscription** and the **Accrued revenue - subscription** accounts must be set up in the **Project** module.</span></span>
 
-<span data-ttu-id="bce3a-118">Al registrar el ingreso acumulado, se carga en la cuenta **Trabajo en proceso - suscripción** el importe de acumulación y se abona el importe a acumulación en la cuenta **Ingresos acumulados - suscripción**.</span><span class="sxs-lookup"><span data-stu-id="bce3a-118">When you post accrued revenue, the **WIP - subscription** account is debited with the accrual amount, and the **Accrued revenue - subscription** account is credited with the accrual amount.</span></span>
+<span data-ttu-id="eafa2-118">Al registrar el ingreso acumulado, se carga en la cuenta **Trabajo en proceso - suscripción** el importe de acumulación y se abona el importe a acumulación en la cuenta **Ingresos acumulados - suscripción**.</span><span class="sxs-lookup"><span data-stu-id="eafa2-118">When you post accrued revenue, the **WIP - subscription** account is debited with the accrual amount, and the **Accrued revenue - subscription** account is credited with the accrual amount.</span></span>
 
-## <a name="set-up-accounts-for-accrual-of-subscription-revenue"></a><span data-ttu-id="bce3a-119">Configuración de cuentas para la acumulación de ingresos de suscripción</span><span class="sxs-lookup"><span data-stu-id="bce3a-119">Set up accounts for accrual of subscription revenue</span></span>
+## <a name="set-up-accounts-for-accrual-of-subscription-revenue"></a><span data-ttu-id="eafa2-119">Configuración de cuentas para la acumulación de ingresos de suscripción</span><span class="sxs-lookup"><span data-stu-id="eafa2-119">Set up accounts for accrual of subscription revenue</span></span>
 
-1.  <span data-ttu-id="bce3a-120">Haga clic en **Administración de proyectos y contabilidad** \> **Configurar** \> **Registrar** \> **Configuración de registro**.</span><span class="sxs-lookup"><span data-stu-id="bce3a-120">Click **Project management and accounting** \> **Setup** \> **Posting** \> **Ledger posting setup**.</span></span>
+1.  <span data-ttu-id="eafa2-120">Haga clic en **Administración de proyectos y contabilidad** \> **Configurar** \> **Registrar** \> **Configuración de registro**.</span><span class="sxs-lookup"><span data-stu-id="eafa2-120">Click **Project management and accounting** \> **Setup** \> **Posting** \> **Ledger posting setup**.</span></span>
 
-2.  <span data-ttu-id="bce3a-121">Haga clic en la pestaña **Cuentas de ingresos** , y seleccione **Trabajo en curso - Suscripción** o **Ingresos acumulados - Suscripción** para configurar las cuentas.</span><span class="sxs-lookup"><span data-stu-id="bce3a-121">Click the **Revenue accounts** tab, and select **WIP - subscription** or **Accrued revenue - subscription** to set up the accounts.</span></span>
+2.  <span data-ttu-id="eafa2-121">Haga clic en la pestaña **Cuentas de ingresos** , y seleccione **Trabajo en curso - Suscripción** o **Ingresos acumulados - Suscripción** para configurar las cuentas.</span><span class="sxs-lookup"><span data-stu-id="eafa2-121">Click the **Revenue accounts** tab, and select **WIP - subscription** or **Accrued revenue - subscription** to set up the accounts.</span></span>
 
-## <a name="subscription-group-setup"></a><span data-ttu-id="bce3a-122">Configuración del grupo de suscripciones</span><span class="sxs-lookup"><span data-stu-id="bce3a-122">Subscription group setup</span></span>
+## <a name="subscription-group-setup"></a><span data-ttu-id="eafa2-122">Configuración del grupo de suscripciones</span><span class="sxs-lookup"><span data-stu-id="eafa2-122">Subscription group setup</span></span>
 
-<span data-ttu-id="bce3a-123">Para poder acumular ingresos para suscripciones, debe activarse la casilla **Acumular ingresos**.</span><span class="sxs-lookup"><span data-stu-id="bce3a-123">To be able to accrue revenue for subscriptions, the **Accrue revenue** check box must be selected.</span></span> <span data-ttu-id="bce3a-124">Esto se encuentra en el formulario **Grupos de suscripción** para el grupo vinculado a la suscripción.</span><span class="sxs-lookup"><span data-stu-id="bce3a-124">This is found on the **Subscription groups** form for the group that is attached to the subscription.</span></span> <span data-ttu-id="bce3a-125">Haga clic en **Gestión de servicio** \> **Configuración** \> **Suscripciones de servicio** \> **Grupos de suscripciones**.</span><span class="sxs-lookup"><span data-stu-id="bce3a-125">Click **Service management** \> **Setup** \> **Service subscriptions** \> **Subscription groups**.</span></span>
+<span data-ttu-id="eafa2-123">Para poder acumular ingresos para suscripciones, debe activarse la casilla **Acumular ingresos**.</span><span class="sxs-lookup"><span data-stu-id="eafa2-123">To be able to accrue revenue for subscriptions, the **Accrue revenue** check box must be selected.</span></span> <span data-ttu-id="eafa2-124">Esto se encuentra en el formulario **Grupos de suscripción** para el grupo vinculado a la suscripción.</span><span class="sxs-lookup"><span data-stu-id="eafa2-124">This is found on the **Subscription groups** form for the group that is attached to the subscription.</span></span> <span data-ttu-id="eafa2-125">Haga clic en **Gestión de servicio** \> **Configuración** \> **Suscripciones de servicio** \> **Grupos de suscripciones**.</span><span class="sxs-lookup"><span data-stu-id="eafa2-125">Click **Service management** \> **Setup** \> **Service subscriptions** \> **Subscription groups**.</span></span>
 
-## <a name="enable-revenue-accrual-on-a-subscription-group"></a><span data-ttu-id="bce3a-126">Habilitar acumulación de ingresos en un grupo de suscripciones</span><span class="sxs-lookup"><span data-stu-id="bce3a-126">Enable revenue accrual on a subscription group</span></span>
+## <a name="enable-revenue-accrual-on-a-subscription-group"></a><span data-ttu-id="eafa2-126">Habilitar acumulación de ingresos en un grupo de suscripciones</span><span class="sxs-lookup"><span data-stu-id="eafa2-126">Enable revenue accrual on a subscription group</span></span>
 
-1.  <span data-ttu-id="bce3a-127">Haga clic en **Gestión de servicio** \> **Configuración** \> **Suscripciones de servicio** \> **Grupos de suscripciones**.</span><span class="sxs-lookup"><span data-stu-id="bce3a-127">Click **Service management** \> **Setup** \> **Service subscriptions** \> **Subscription groups**.</span></span>
+1.  <span data-ttu-id="eafa2-127">Haga clic en **Gestión de servicio** \> **Configuración** \> **Suscripciones de servicio** \> **Grupos de suscripciones**.</span><span class="sxs-lookup"><span data-stu-id="eafa2-127">Click **Service management** \> **Setup** \> **Service subscriptions** \> **Subscription groups**.</span></span>
 
-## <a name="periods"></a><span data-ttu-id="bce3a-128">Períodos</span><span class="sxs-lookup"><span data-stu-id="bce3a-128">Periods</span></span>
+## <a name="periods"></a><span data-ttu-id="eafa2-128">Períodos</span><span class="sxs-lookup"><span data-stu-id="eafa2-128">Periods</span></span>
 
-<span data-ttu-id="bce3a-129">Debe configurar un código de período de facturación.</span><span class="sxs-lookup"><span data-stu-id="bce3a-129">You must set up an invoicing period code.</span></span> <span data-ttu-id="bce3a-130">A menos que desee acumular ingresos dentro de los mismos intervalos de tiempo que utiliza para la facturación, también deberá configurar un período de acumulación.</span><span class="sxs-lookup"><span data-stu-id="bce3a-130">Unless you want to accrue revenue in the same time intervals as you use for invoicing, you must also set up an accrual period.</span></span>
+<span data-ttu-id="eafa2-129">Debe configurar un código de período de facturación.</span><span class="sxs-lookup"><span data-stu-id="eafa2-129">You must set up an invoicing period code.</span></span> <span data-ttu-id="eafa2-130">A menos que desee acumular ingresos dentro de los mismos intervalos de tiempo que utiliza para la facturación, también deberá configurar un período de acumulación.</span><span class="sxs-lookup"><span data-stu-id="eafa2-130">Unless you want to accrue revenue in the same time intervals as you use for invoicing, you must also set up an accrual period.</span></span>
 
-<span data-ttu-id="bce3a-131">La tabla siguiente proporciona una visión general de los períodos de acumulación que se pueden configurar para cada período de facturación:</span><span class="sxs-lookup"><span data-stu-id="bce3a-131">The following table provides an overview of which accrual periods can be set up for each invoicing period:</span></span>
+<span data-ttu-id="eafa2-131">La tabla siguiente proporciona una visión general de los períodos de acumulación que se pueden configurar para cada período de facturación:</span><span class="sxs-lookup"><span data-stu-id="eafa2-131">The following table provides an overview of which accrual periods can be set up for each invoicing period:</span></span>
 
 <table>
 <colgroup>
@@ -83,71 +83,71 @@ ms.locfileid: "3203121"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="bce3a-132">Período de facturación</span><span class="sxs-lookup"><span data-stu-id="bce3a-132">Invoicing period</span></span></p></th>
-<th><p><span data-ttu-id="bce3a-133">Período de acumulación</span><span class="sxs-lookup"><span data-stu-id="bce3a-133">Accrual period</span></span></p></th>
+<th><p><span data-ttu-id="eafa2-132">Período de facturación</span><span class="sxs-lookup"><span data-stu-id="eafa2-132">Invoicing period</span></span></p></th>
+<th><p><span data-ttu-id="eafa2-133">Período de acumulación</span><span class="sxs-lookup"><span data-stu-id="eafa2-133">Accrual period</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="bce3a-134"><strong>Años</strong></span><span class="sxs-lookup"><span data-stu-id="bce3a-134"><strong>Years</strong></span></span></p></td>
+<td><p><span data-ttu-id="eafa2-134"><strong>Años</strong></span><span class="sxs-lookup"><span data-stu-id="eafa2-134"><strong>Years</strong></span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="bce3a-135"><strong>Años</strong></span><span class="sxs-lookup"><span data-stu-id="bce3a-135"><strong>Years</strong></span></span></p></li>
-<li><p><span data-ttu-id="bce3a-136"><strong>Trimestre</strong></span><span class="sxs-lookup"><span data-stu-id="bce3a-136"><strong>Quarter</strong></span></span></p></li>
-<li><p><span data-ttu-id="bce3a-137"><strong>Mes</strong></span><span class="sxs-lookup"><span data-stu-id="bce3a-137"><strong>Month</strong></span></span></p></li>
-<li><p><span data-ttu-id="bce3a-138"><strong>Día</strong></span><span class="sxs-lookup"><span data-stu-id="bce3a-138"><strong>Day</strong></span></span></p></li>
+<li><p><span data-ttu-id="eafa2-135"><strong>Años</strong></span><span class="sxs-lookup"><span data-stu-id="eafa2-135"><strong>Years</strong></span></span></p></li>
+<li><p><span data-ttu-id="eafa2-136"><strong>Trimestre</strong></span><span class="sxs-lookup"><span data-stu-id="eafa2-136"><strong>Quarter</strong></span></span></p></li>
+<li><p><span data-ttu-id="eafa2-137"><strong>Mes</strong></span><span class="sxs-lookup"><span data-stu-id="eafa2-137"><strong>Month</strong></span></span></p></li>
+<li><p><span data-ttu-id="eafa2-138"><strong>Día</strong></span><span class="sxs-lookup"><span data-stu-id="eafa2-138"><strong>Day</strong></span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bce3a-139"><strong>Trimestre</strong></span><span class="sxs-lookup"><span data-stu-id="bce3a-139"><strong>Quarter</strong></span></span></p></td>
+<td><p><span data-ttu-id="eafa2-139"><strong>Trimestre</strong></span><span class="sxs-lookup"><span data-stu-id="eafa2-139"><strong>Quarter</strong></span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="bce3a-140"><strong>Trimestre</strong></span><span class="sxs-lookup"><span data-stu-id="bce3a-140"><strong>Quarter</strong></span></span></p></li>
-<li><p><span data-ttu-id="bce3a-141"><strong>Mes</strong></span><span class="sxs-lookup"><span data-stu-id="bce3a-141"><strong>Month</strong></span></span></p></li>
-<li><p><span data-ttu-id="bce3a-142"><strong>Día</strong></span><span class="sxs-lookup"><span data-stu-id="bce3a-142"><strong>Day</strong></span></span></p></li>
+<li><p><span data-ttu-id="eafa2-140"><strong>Trimestre</strong></span><span class="sxs-lookup"><span data-stu-id="eafa2-140"><strong>Quarter</strong></span></span></p></li>
+<li><p><span data-ttu-id="eafa2-141"><strong>Mes</strong></span><span class="sxs-lookup"><span data-stu-id="eafa2-141"><strong>Month</strong></span></span></p></li>
+<li><p><span data-ttu-id="eafa2-142"><strong>Día</strong></span><span class="sxs-lookup"><span data-stu-id="eafa2-142"><strong>Day</strong></span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bce3a-143"><strong>Mes</strong></span><span class="sxs-lookup"><span data-stu-id="bce3a-143"><strong>Month</strong></span></span></p></td>
+<td><p><span data-ttu-id="eafa2-143"><strong>Mes</strong></span><span class="sxs-lookup"><span data-stu-id="eafa2-143"><strong>Month</strong></span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="bce3a-144"><strong>Mes</strong></span><span class="sxs-lookup"><span data-stu-id="bce3a-144"><strong>Month</strong></span></span></p></li>
-<li><p><span data-ttu-id="bce3a-145"><strong>Día</strong></span><span class="sxs-lookup"><span data-stu-id="bce3a-145"><strong>Day</strong></span></span></p></li>
+<li><p><span data-ttu-id="eafa2-144"><strong>Mes</strong></span><span class="sxs-lookup"><span data-stu-id="eafa2-144"><strong>Month</strong></span></span></p></li>
+<li><p><span data-ttu-id="eafa2-145"><strong>Día</strong></span><span class="sxs-lookup"><span data-stu-id="eafa2-145"><strong>Day</strong></span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="bce3a-146"><strong>Semana</strong></span><span class="sxs-lookup"><span data-stu-id="bce3a-146"><strong>Week</strong></span></span></p></td>
+<td><p><span data-ttu-id="eafa2-146"><strong>Semana</strong></span><span class="sxs-lookup"><span data-stu-id="eafa2-146"><strong>Week</strong></span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="bce3a-147"><strong>Día</strong></span><span class="sxs-lookup"><span data-stu-id="bce3a-147"><strong>Day</strong></span></span></p></li>
+<li><p><span data-ttu-id="eafa2-147"><strong>Día</strong></span><span class="sxs-lookup"><span data-stu-id="eafa2-147"><strong>Day</strong></span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="bce3a-148"><strong>Día</strong></span><span class="sxs-lookup"><span data-stu-id="bce3a-148"><strong>Day</strong></span></span></p></td>
+<td><p><span data-ttu-id="eafa2-148"><strong>Día</strong></span><span class="sxs-lookup"><span data-stu-id="eafa2-148"><strong>Day</strong></span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="bce3a-149"><strong>Día</strong></span><span class="sxs-lookup"><span data-stu-id="bce3a-149"><strong>Day</strong></span></span></p></li>
+<li><p><span data-ttu-id="eafa2-149"><strong>Día</strong></span><span class="sxs-lookup"><span data-stu-id="eafa2-149"><strong>Day</strong></span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-<span data-ttu-id="bce3a-150">La configuración del período de facturación es una parte obligatoria de toda la configuración del grupo de suscripciones.</span><span class="sxs-lookup"><span data-stu-id="bce3a-150">Setting up the invoicing period is a mandatory part of the overall subscription group setup.</span></span> <span data-ttu-id="bce3a-151">Puede decidir si también configurar un período de acumulación para el grupo de suscripciones.</span><span class="sxs-lookup"><span data-stu-id="bce3a-151">You can decide whether to also set up an accrual period for the subscription group.</span></span> <span data-ttu-id="bce3a-152">Si lo hace, se sugiere este período en el campo **Código del período**.</span><span class="sxs-lookup"><span data-stu-id="bce3a-152">If you set up an accrual period for the subscription group, this period is suggested in the **Period code** field.</span></span> <span data-ttu-id="bce3a-153">Este campo se encuentra en el formulario **Acumular ingresos de suscripción**, cuando se acumulan ingresos de suscripción.</span><span class="sxs-lookup"><span data-stu-id="bce3a-153">This field is found in the **Accrue subscription revenue** form, when you accrue subscription revenue.</span></span> <span data-ttu-id="bce3a-154">Sin embargo, el período de acumulación es información opcional acerca del grupo de suscripciones.</span><span class="sxs-lookup"><span data-stu-id="bce3a-154">However, the accrual period is optional information about the subscription group.</span></span>
+<span data-ttu-id="eafa2-150">La configuración del período de facturación es una parte obligatoria de toda la configuración del grupo de suscripciones.</span><span class="sxs-lookup"><span data-stu-id="eafa2-150">Setting up the invoicing period is a mandatory part of the overall subscription group setup.</span></span> <span data-ttu-id="eafa2-151">Puede decidir si también configurar un período de acumulación para el grupo de suscripciones.</span><span class="sxs-lookup"><span data-stu-id="eafa2-151">You can decide whether to also set up an accrual period for the subscription group.</span></span> <span data-ttu-id="eafa2-152">Si lo hace, se sugiere este período en el campo **Código del período**.</span><span class="sxs-lookup"><span data-stu-id="eafa2-152">If you set up an accrual period for the subscription group, this period is suggested in the **Period code** field.</span></span> <span data-ttu-id="eafa2-153">Este campo se encuentra en el formulario **Acumular ingresos de suscripción**, cuando se acumulan ingresos de suscripción.</span><span class="sxs-lookup"><span data-stu-id="eafa2-153">This field is found in the **Accrue subscription revenue** form, when you accrue subscription revenue.</span></span> <span data-ttu-id="eafa2-154">Sin embargo, el período de acumulación es información opcional acerca del grupo de suscripciones.</span><span class="sxs-lookup"><span data-stu-id="eafa2-154">However, the accrual period is optional information about the subscription group.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="bce3a-155">Use la siguiente ruta para abrir el formulario <STRONG>Acumular ingresos de suscripción</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="bce3a-155">Use the following path to open the <STRONG>Accrue subscription revenue</STRONG> form.</span></span> <span data-ttu-id="bce3a-156">Haga clic en <STRONG>Gestión de servicio</STRONG> &gt; <STRONG>Periódica</STRONG> &gt; <STRONG>Suscripciones de servicio</STRONG> &gt; <STRONG>Acumular ingresos de suscripción</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="bce3a-156">Click <STRONG>Service management</STRONG> &gt; <STRONG>Periodic</STRONG> &gt; <STRONG>Service subscriptions</STRONG> &gt; <STRONG>Accrue subscription revenue</STRONG>.</span></span></P>
+> <P><span data-ttu-id="eafa2-155">Use la siguiente ruta para abrir el formulario <STRONG>Acumular ingresos de suscripción</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="eafa2-155">Use the following path to open the <STRONG>Accrue subscription revenue</STRONG> form.</span></span> <span data-ttu-id="eafa2-156">Haga clic en <STRONG>Gestión de servicio</STRONG> &gt; <STRONG>Periódica</STRONG> &gt; <STRONG>Suscripciones de servicio</STRONG> &gt; <STRONG>Acumular ingresos de suscripción</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="eafa2-156">Click <STRONG>Service management</STRONG> &gt; <STRONG>Periodic</STRONG> &gt; <STRONG>Service subscriptions</STRONG> &gt; <STRONG>Accrue subscription revenue</STRONG>.</span></span></P>
 
 
-## <a name="transactions"></a><span data-ttu-id="bce3a-157">Transacciones</span><span class="sxs-lookup"><span data-stu-id="bce3a-157">Transactions</span></span>
+## <a name="transactions"></a><span data-ttu-id="eafa2-157">Transacciones</span><span class="sxs-lookup"><span data-stu-id="eafa2-157">Transactions</span></span>
 
-<span data-ttu-id="bce3a-158">Puede controlar el número de transacciones contables que se crean al registrar ingresos acumulados.</span><span class="sxs-lookup"><span data-stu-id="bce3a-158">You can control the number of ledger transactions that are created when you post accrued revenue.</span></span> <span data-ttu-id="bce3a-159">En las suscripciones, defina si las transacciones contables se deben crear como total o por línea.</span><span class="sxs-lookup"><span data-stu-id="bce3a-159">On subscriptions, define if the ledger transactions should be created as a total or per line.</span></span>
+<span data-ttu-id="eafa2-158">Puede controlar el número de transacciones contables que se crean al registrar ingresos acumulados.</span><span class="sxs-lookup"><span data-stu-id="eafa2-158">You can control the number of ledger transactions that are created when you post accrued revenue.</span></span> <span data-ttu-id="eafa2-159">En las suscripciones, defina si las transacciones contables se deben crear como total o por línea.</span><span class="sxs-lookup"><span data-stu-id="eafa2-159">On subscriptions, define if the ledger transactions should be created as a total or per line.</span></span>
 
-## <a name="specify-the-level-of-posting-details-to-display-for-accrued-transactions"></a><span data-ttu-id="bce3a-160">Especificar el nivel de detalles de registro que se muestra para transacciones acumuladas</span><span class="sxs-lookup"><span data-stu-id="bce3a-160">Specify the level of posting details to display for accrued transactions</span></span>
+## <a name="specify-the-level-of-posting-details-to-display-for-accrued-transactions"></a><span data-ttu-id="eafa2-160">Especificar el nivel de detalles de registro que se muestra para transacciones acumuladas</span><span class="sxs-lookup"><span data-stu-id="eafa2-160">Specify the level of posting details to display for accrued transactions</span></span>
 
-1.  <span data-ttu-id="bce3a-161">Haga clic en **Gestión de proyectos y contabilidad** \> **Configurar** \> **Parámetros de gestión de proyectos y contabilidad**.</span><span class="sxs-lookup"><span data-stu-id="bce3a-161">Click **Project management and accounting** \> **Setup** \> **Project management and accounting parameters**.</span></span>
+1.  <span data-ttu-id="eafa2-161">Haga clic en **Gestión de proyectos y contabilidad** \> **Configurar** \> **Parámetros de gestión de proyectos y contabilidad**.</span><span class="sxs-lookup"><span data-stu-id="eafa2-161">Click **Project management and accounting** \> **Setup** \> **Project management and accounting parameters**.</span></span>
 
-2.  <span data-ttu-id="bce3a-162">En la ficha **Financiero**, en el campo **Factura**, seleccione **Total** o **Línea**.</span><span class="sxs-lookup"><span data-stu-id="bce3a-162">On the **Financial** tab, in the **Invoice** field, select **Total** or **Line**.</span></span>
+2.  <span data-ttu-id="eafa2-162">En la ficha **Financiero**, en el campo **Factura**, seleccione **Total** o **Línea**.</span><span class="sxs-lookup"><span data-stu-id="eafa2-162">On the **Financial** tab, in the **Invoice** field, select **Total** or **Line**.</span></span>
 
 
-## <a name="see-also"></a><span data-ttu-id="bce3a-163">Consulte también</span><span class="sxs-lookup"><span data-stu-id="bce3a-163">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="eafa2-163">Consulte también</span><span class="sxs-lookup"><span data-stu-id="eafa2-163">See also</span></span>
 
-[<span data-ttu-id="bce3a-164">Acumular ingresos de suscripción</span><span class="sxs-lookup"><span data-stu-id="bce3a-164">Accrue subscription revenue</span></span>](accrue-subscription-revenue.md)
+[<span data-ttu-id="eafa2-164">Acumular ingresos de suscripción</span><span class="sxs-lookup"><span data-stu-id="eafa2-164">Accrue subscription revenue</span></span>](accrue-subscription-revenue.md)
 
   
 

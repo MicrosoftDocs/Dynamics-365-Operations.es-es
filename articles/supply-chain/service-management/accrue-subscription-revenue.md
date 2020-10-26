@@ -15,30 +15,30 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe535f9646600ce60a5cfc39c11777a712175531
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 90054b17283a9e081f9993e76a6860404dadac0f
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203144"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3978854"
 ---
-# <a name="accrue-subscription-revenue"></a><span data-ttu-id="caef0-103">Acumular ingresos de suscripción</span><span class="sxs-lookup"><span data-stu-id="caef0-103">Accrue subscription revenue</span></span> 
+# <a name="accrue-subscription-revenue"></a><span data-ttu-id="3be14-103">Acumular ingresos de suscripción</span><span class="sxs-lookup"><span data-stu-id="3be14-103">Accrue subscription revenue</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  <span data-ttu-id="caef0-104">Haga clic en **Gestión de servicio** \> **Periódica** \> **Suscripciones de servicio** \> **Acumular ingresos de suscripción**.</span><span class="sxs-lookup"><span data-stu-id="caef0-104">Click **Service management** \> **Periodic** \> **Service subscriptions** \> **Accrue subscription revenue**.</span></span>
+1.  <span data-ttu-id="3be14-104">Haga clic en **Gestión de servicio** \> **Periódica** \> **Suscripciones de servicio** \> **Acumular ingresos de suscripción**.</span><span class="sxs-lookup"><span data-stu-id="3be14-104">Click **Service management** \> **Periodic** \> **Service subscriptions** \> **Accrue subscription revenue**.</span></span>
 
-2.  <span data-ttu-id="caef0-105">En el campo de código **Código del período**, seleccione un código de período.</span><span class="sxs-lookup"><span data-stu-id="caef0-105">In the **Period code** field, select a period code.</span></span> <span data-ttu-id="caef0-106">Los ingresos se registran para todas las transacciones de gastos de suscripción que tengan el código de período seleccionado.</span><span class="sxs-lookup"><span data-stu-id="caef0-106">Revenue is posted for all subscription fee transactions that have the selected period code.</span></span>
+2.  <span data-ttu-id="3be14-105">En el campo de código **Código del período**, seleccione un código de período.</span><span class="sxs-lookup"><span data-stu-id="3be14-105">In the **Period code** field, select a period code.</span></span> <span data-ttu-id="3be14-106">Los ingresos se registran para todas las transacciones de gastos de suscripción que tengan el código de período seleccionado.</span><span class="sxs-lookup"><span data-stu-id="3be14-106">Revenue is posted for all subscription fee transactions that have the selected period code.</span></span>
 
-3.  <span data-ttu-id="caef0-107">En el campo **Fecha de registro**, especifique una fecha de registro y haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="caef0-107">In the **Posting date** field, enter a posting date, and then click **OK**.</span></span>
+3.  <span data-ttu-id="3be14-107">En el campo **Fecha de registro**, especifique una fecha de registro y haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="3be14-107">In the **Posting date** field, enter a posting date, and then click **OK**.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="caef0-108">No podrá registrar ingresos acumulados hasta que se hayan facturado las transacciones de gastos.</span><span class="sxs-lookup"><span data-stu-id="caef0-108">You cannot post accrued revenue until the fee transactions are invoiced.</span></span><P>
+> <P><span data-ttu-id="3be14-108">No podrá registrar ingresos acumulados hasta que se hayan facturado las transacciones de gastos.</span><span class="sxs-lookup"><span data-stu-id="3be14-108">You cannot post accrued revenue until the fee transactions are invoiced.</span></span><P>
 
 
   
