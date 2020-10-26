@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7c7afed8e4620d5fe49ead47eb6c17d97d7492ad
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 6ffc772addb330abe7205007662a3f3e08a3e47f
+ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002820"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3961595"
 ---
 # <a name="search-engine-optimization-seo-considerations-for-your-site"></a>Consideraciones de optimización de motor de búsqueda (SEO) para su sitio
 
@@ -47,7 +47,7 @@ Para optimizar la indexación del motor de búsqueda, el marco de representació
 
 ### <a name="page-seo-settings-for-internal-preview-limited-audiences-and-all-audiences"></a>Configuración SEO de página para vista previa interna, públicos limitados y todas las audiencias
 
-Dado que Dynamics 365 Commerce admite vistas previas autenticadas “Lo que se ve es lo que se verá" (WYSIWYG), los autores pueden preparar su contenido de páginas sin tener que preocuparse de que la información estará visible para los visitantes del sitio. Si se debe publicar una página, pero su exposición debe estar limitada, debe tener la etiqueta META **NOINDEX**, de modo que no se vaya a indexar por motores de búsqueda. A continuación, cuando la página está lista para todos los públicos, todos los metadatos SEO básicos deben estar presentes, para maximizar la eficacia de la indexación del motor de búsqueda. Además, se debe eliminar la etiqueta META **NOLIMIT**.
+Dado que Dynamics 365 Commerce admite vistas previas autenticadas “Lo que se ve es lo que se verá" (WYSIWYG) en el generador de páginas visual, los autores pueden preparar su contenido de páginas sin tener que preocuparse de que la información estará visible para los visitantes del sitio. Si se debe publicar una página, pero su exposición debe estar limitada, debe tener la etiqueta META **NOINDEX**, de modo que no se vaya a indexar por motores de búsqueda. A continuación, cuando la página está lista para todos los públicos, todos los metadatos SEO básicos deben estar presentes, para maximizar la eficacia de la indexación del motor de búsqueda. Además, se debe eliminar la etiqueta META **NOLIMIT**.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 

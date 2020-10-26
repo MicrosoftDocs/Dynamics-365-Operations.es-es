@@ -3,7 +3,7 @@ title: Análisis de aptitud de la optimización de la planificación
 description: Este tema explica cómo comprobar la configuración actual y los datos frente a las prestaciones de la funcionalidad de optimización de la planificación.
 author: ChristianRytt
 manager: tfehr
-ms.date: 09/23/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,18 +19,22 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 73549097eed6d9418d5ff73e108d1dbae7ed66b3
-ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
+ms.openlocfilehash: 769bd84b4ba23c9de4638df9186381936221414a
+ms.sourcegitcommit: ae04c7cb48f7ecafe71bbe77a0f97715e6290991
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "3887147"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "3973461"
 ---
-# <a name="planning-optimization-fit-analysis"></a>Análisis de aptitud de la optimización de la planificación
+# <a name="planning-optimization-fit-analysis"></a>Análisis de idoneidad de optimización de la planificación
 
 [!include [banner](../../includes/banner.md)]
 
-Para ver el grado de compatibilidad de su configuración actual y los datos con la funcionalidad de optimización de la planificación, vaya **Planificación maestra** \> **Configuración** \> **Análisis de aptitud de la optimización de la planificación** y después seleccione **Ejecutar análisis**. Si el análisis detecta incoherencias, se enumeran en la misma página. (El análisis puede tardar algunos minutos en ejecutarse).
+Debe analizar el resultado del análisis de ajuste de Planning Optimization como parte del proceso de migración. Tenga en cuenta que el alcance de la optimización de la planificación no es igual a la funcionalidad de planificación maestra incorporada actual. Le recomendamos que trabaje con su socio y lea la documentación para prepararse para la migración. 
+
+El análisis de ajuste de Planning Optimization le ayuda a identificar dónde puede diferir el resultado entre el motor de planificación maestro integrado y Planning Optimization. Este análisis se realiza en función de su configuración y datos actuales. 
+
+Para ver el resultado del análisis de ajuste de Planning Optimization, vaya a **Planificacion maestra** \> **Preparar** \> **Análisis de ajuste de optimización de planificación** y luego seleccione **Ejecutar análisis**. Si el análisis detecta incoherencias, se enumeran en la misma página. (El análisis puede tardar algunos minutos en ejecutarse).
 
 > [!NOTE]
 > Si se encuentran incoherencias, puede usar la optimización de la planificación. Los resultados del análisis de aptitud solo muestran las ubicaciones en las que el servicio de planificación no coincide con la configuración actual. Es decir, muestran las ubicaciones en las que algunos procesos se pueden omitir o no están admitidos.
@@ -63,7 +67,7 @@ La siguiente tabla muestra los diversos resultados que se pueden mostrar despué
 | Puesta en firme | Planes maestros con puesta en firme automática establecida: _\#_ | En la versión 10.0.7 y posteriores, la puesta en firma automática se admite como un trabajo por lotes de reafirmación separado después de completar la planificación maestra (siempre que _Reafirmación automática para la optimización de la planificación_ se haya habilitado en [Administración de características](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Tenga en cuenta que la puesta en firme automática para la optimización de la planificación se basa en la fecha del pedido (fecha de inicio), no en la fecha del requisito (fecha de finalización). Este comportamiento asegura que la reafirmación de las órdenes planificadas se produzca a su debido tiempo, sin tener que incluir el tiempo de entrega en el límite del tiempo de reafirmación. | Compatible |
 | FitAnalysisPlanningItems | Artículos de planificación: _\#_ | Esta característica está pendiente. Actualmente, los elementos de planificación se manejan como elementos normales cuando la optimización de la planificación está habilitada. | 2021 de octubre |
 | Previsión | Grupos de cobertura con "Incluir pedidos de empresas vinculadas" habilitado: _\#_ | Esta característica está pendiente. Actualmente, la planificación maestra no incluye la demanda planificada descendente cuando la optimización de la planificación está habilitada, independientemente de esta configuración. Tenga en cuenta que los pedidos liberados/puestos en firme aún funcionan con la funcionalidad entre empresas vinculadas normal y cubrirán la mayoría de los escenarios. | 2020 de octubre |
-| Previsión | Grupos de cobertura con la configuración "Reducir pronóstico por" establecida en un valor diferente a "Pedidos": _\#_ | De forma predeterminada, la optimización de la planificación utiliza "Reducir pronóstico por" para los pedidos, independientemente de esta configuración. | 2020 de octubre |
+| Previsión | Grupos de cobertura con la configuración "Reducir pronóstico por" establecida en un valor diferente a "Pedidos": _\#_ | De forma predeterminada, la optimización de la planificación utiliza "Reducir pronóstico por" para los pedidos, independientemente de esta configuración. | noviembre de 2020 |
 | Previsión | Modelos de previsión con submodelos: _\#_ | Esta característica está pendiente. Actualmente, los pronósticos que usan submodelos no son compatibles cuando la optimización de la planificación está habilitada. Se ignorarán, independientemente de esta configuración. | 2021 de abril |
 | Previsión | Planes maestros con "Incluir pronóstico de suministro" habilitado: _\#_ | Esta característica está pendiente. Actualmente, las previsiones de suministro no son compatibles cuando la optimización de la planificación está habilitada. Se ignorarán, independientemente de esta configuración. | 2021 de octubre |
 | Congelar límite de tiempo | Grupos de cobertura con límite de tiempo congelado establecido: _\#_ | El límite de tiempo congelado no se usa con frecuencia y actualmente no hay planes para incluirlo para la optimización de la planificación. Actualmente, la configuración del límite de tiempo contelado se ignora cuando la optimización de planificación está habilitada, independientemente de esta configuración. | N/D |
@@ -72,7 +76,7 @@ La siguiente tabla muestra los diversos resultados que se pueden mostrar despué
 | Empresas vinculadas | Planes maestros que incluyen demanda planificada descendente: _\#_ | Esta característica está pendiente. Actualmente, la planificación maestra no incluye la demanda planificada descendente cuando la optimización de la planificación está habilitada, independientemente de esta configuración. Tenga en cuenta que los pedidos liberados/puestos en firme aún funcionan con la funcionalidad entre empresas vinculadas normal y cubrirán la mayoría de los escenarios. | 2020 de octubre |
 | Kanban | Registros de cobertura de artículos con kanban de tipo de pedido planificado: _\#_ | Esta característica está pendiente. Actualmente, la cobertura de artículos que se establece en kanban se ignorará cuando la optimización de la planificación esté habilitada. El tipo de orden planificada kanban creará una advertencia durante la planificación maestra y se crearán órdenes de compra planificadas para cubrir la demanda relacionada. | 2021 de octubre |
 | Kanban | Artículos con kanban de tipo de pedido predeterminado: _\#_ | Actualmente, un tipo de pedido predeterminado que se establece en kanban se ignora cuando la optimización de la planificación está habilitada. El tipo predeterminado de orden planificada kanban creará una advertencia durante la planificación maestra y se crearán órdenes de compra planificadas para cubrir la demanda relacionada. | 2021 de octubre |
-| Estado de ciclo de vida de producto   | Estados de ciclo de vida de producto no activos para planificación: _\#_ | Esta es una función pendiente. Actualmente, el estado del ciclo de vida del producto se ignora con la optimización de planificación habilitada. Puede ajustar el filtro de producto en el nivel de plan para evitar incluir productos en los que el estado del ciclo de vida del producto esté deshabilitado para la planificación. | 2020 de octubre |
+| Estado de ciclo de vida de producto   | Estados de ciclo de vida de producto no activos para planificación: _\#_ | Esta es una función pendiente. Actualmente, el estado del ciclo de vida del producto se ignora con la optimización de planificación habilitada. Puede ajustar el filtro de producto en el nivel de plan para evitar incluir productos en los que el estado del ciclo de vida del producto esté deshabilitado para la planificación. | noviembre de 2020 |
 | Producción | Líneas de L. MAT con redondeo o configuración múltiple: _\#_ | Esta característica está pendiente. Actualmente, el redondeo y las configuraciones múltiples se ignoran en las líneas de la lista de materiales cuando la optimización de la planificación está habilitada, independientemente de esta configuración. | 2021 de abril |
 | Producción | L. MAT/líneas de fórmula con medida de fórmula: _\#_ | Esta característica está pendiente. Actualmente, la medida de fórmula se ignora en las líneas de la lista de materiales y la fórmula cuando la optimización de la planificación está habilitada, independientemente de esta configuración. | 2021 de octubre |
 | Producción | L. MAT/líneas de fórmula con sustitución de artículos (grupos de planes): _\#_ | Esta característica está pendiente. Actualmente, la sustitución de artículos (grupos de plan) se ignora en las líneas de la lista de materiales y la fórmula cuando la optimización de la planificación está habilitada, independientemente de esta configuración. | 2021 de octubre |

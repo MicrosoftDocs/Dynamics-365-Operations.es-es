@@ -1,9 +1,9 @@
 ---
 title: Administrar clasificaciones y revisiones
-description: En este tema se explica cómo administrar clasificaciones y revisiones mediante la herramienta de moderación de clasificaciones y revisiones de Microsoft Dynamics 365 Commerce.
+description: Este tema explica cómo gestionar las clasificaciones y revisiones en el generador de sitios de Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 manager: annbe
-ms.date: 01/30/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,38 +18,30 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a7fa2ae3124a0a68b3890987c5dce2730e5c2183
-ms.sourcegitcommit: 1e6c8163da5818196769eb278afb3a2335d0cbe3
+ms.openlocfilehash: 3fc88bc5a5868dce7c0539bf3f0ddc5b751e7b75
+ms.sourcegitcommit: 83ec80382bfeb693d5c5949b6f65296bd50eed12
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3027251"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "3974015"
 ---
 # <a name="manage-ratings-and-reviews"></a>Administrar clasificaciones y revisiones
 
 [!include [banner](includes/banner.md)]
 
-En este tema se explica cómo administrar clasificaciones y revisiones mediante la herramienta de moderación de clasificaciones y revisiones de Microsoft Dynamics 365 Commerce.
+Este tema explica cómo gestionar las clasificaciones y revisiones en el generador de sitios de Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Visión general
+## <a name="overview"></a>Información general
 
-Dynamics 365 Commerce uses Microsoft Azure Cognitive Service para moderar automáticamente el texto de revisión redactando palabras profanas. Además, los moderadores pueden usar la herramienta de moderación de clasificaciones y revisiones para las siguientes tareas manuales:
+Dynamics 365 Commerce uses Microsoft Azure Cognitive Service para moderar automáticamente el texto de revisión redactando palabras profanas. Además, los moderadores pueden utilizar el generador de sitios de Dynamics 365 Commerce para implementar las siguientes tareas manuales:
 
 - Moderar revisiones respondiendo a ellas o quitándolas.
 - Eliminar la revisión de un cliente en la solicitud del cliente.
 - Realizar la importación masiva de datos de clasificaciones y revisiones para todos los productos en una plantilla de Microsoft Power BI, para poder analizar las tendencias para las clasificaciones y revisiones.
 
-## <a name="access-ratings-and-reviews-moderation-features"></a>Acceder a características de moderación de clasificaciones y revisiones
-
-Para acceder a las características de moderación de clasificaciones y revisiones en la herramienta de administración del sitio de comercio electrónico, siga estos pasos.
-
-1. Inicie sesión en [Microsoft Lifecycle Services (LCS)](https://lcs.dynamics.com).
-1. Abre el proyecto que contiene el entorno donde desea inicializar el comercio electrónico.
-1. En la sección **Entornos**, seleccione el entorno.
-1. En **Características del entorno**, seleccione **Administración de venta minorista**.
-1. En la pestaña **Comercio electrónico** debajo de **Vínculos**, seleccione **Herramienta de administración del sitio de comercio electrónico**.
-
 ## <a name="read-a-review"></a>Leer una revisión 
+
+Para leer una revisión en el generador de sitios de Commerce, siga estos pasos.
 
 1. Vaya a **Inicio \> Revisiones \> Moderación**.
 1. Use el campo de búsqueda de la parte superior derecha de la página para filtrar las revisiones que se muestran por id. de producto, nombre del producto o texto de la revisión.
@@ -62,7 +54,7 @@ Los filtros adicionales le permiten limitar las revisiones por período, calific
 
 A veces, los clientes que compraron un producto expresan su satisfacción, o descontento o no entienden cómo utilizar el producto. Como moderador, puede registrar una respuesta en una revisión. Esta respuesta aparece junto con la revisión en el sitio. 
 
-Para responder a una revisión, siga estos pasos.
+Para responder a una revisión en el generador de sitios de Commerce, siga estos pasos.
 
 1. Vaya a **Inicio \> Revisiones \> Moderación**.
 1. Busque y seleccione la revisión que requiere una respuesta.
@@ -76,20 +68,20 @@ Para responder a una revisión, siga estos pasos.
 
 A veces, hay una justificación comercial para que los moderadores retiren revisiones del cliente. 
 
-Para retirar una revisión, siga estos pasos.
+Para retirar una revisión en el generador de sitios de Commerce, siga estos pasos.
 
 1. Vaya a **Inicio \> Revisiones \> Moderación**.
 1. Busque y seleccione la revisión que se debe retirar.
-1. En el panel de las propiedades de la derecha, seleccione un motivo de retirada y, a continuación, **Retirar**.
+1. En el panel de las propiedades de la derecha, seleccione un motivo de retirada en **Retirar revisión** y, a continuación, seleccione **Retirar**.
     
 ## <a name="delete-a-customers-reviews-at-the-customers-request"></a>Eliminar la revisión de un cliente en la solicitud del cliente 
 
 A veces, los clientes desean que los datos de clasificaciones y revisiones se eliminen de manera permanente de un sitio web de comercio electrónico. Un moderador que recibe una solicitud de eliminación de un cliente puede quitar los datos del cliente mediante la característica de eliminación de revisión. Para buscar y eliminar los datos de un cliente, el moderador requiere la dirección de correo electrónico que el cliente utilizaba para iniciar sesión y proporcionar revisiones. 
 
-Para buscar y eliminar datos del cliente, siga estos pasos.
+Para buscar y eliminar datos de clientes en el creador de sitios de Commerce, siga estos pasos.
 
 1. Vaya a **Inicio \> Revisiones \> Eliminar**.
-1. En el campo **Buscar usuarios por dirección de correo electrónico**, escriba la dirección de correo electrónico del cliente y, a continuación, seleccione **Buscar**.
+1. En el cuadro **Buscar usuarios por dirección de correo electrónico**, escriba la dirección de correo electrónico del cliente y, a continuación, seleccione **Buscar**.
 1. Si el cliente tiene algún actividad de revisión (por ejemplo, envíos de revisión, votos acerca la utilidad de revisiones de las revisiones de otro cliente, o comentarios sobre la revisión de otro cliente), se muestran los resultados. Para cada artículo, hay un botón **Eliminar**.
 1. Para cada artículo que se debe eliminar, seleccione **Eliminar**. Cuando se le pida confirmación, seleccione **Sí**. 
     
@@ -101,9 +93,9 @@ Para buscar y eliminar datos del cliente, siga estos pasos.
 
 ## <a name="download-ratings-and-reviews-data"></a>Descargar datos de clasificaciones y revisiones
 
-La herramientas de evaluaciones y revisiones permite a los moderadores importar datos de clasificaciones y revisiones de manera masiva, de modo que puedan analizar tendencias. Hay disponible una plantilla de Power BI que incluye métrica básica. Los moderadores pueden utilizar esta plantilla para conectar datos importados de manera masiva y ver un panel. No tienen que crear un panel personalizado. Los moderadores también pueden personalizar la plantilla de Power BI para satisfacer sus necesidades específicas. 
+El generador de sitios de Commerce permite a los moderadores importar datos de clasificaciones y revisiones de manera masiva, de modo que puedan analizar tendencias. Hay disponible una plantilla de Power BI que incluye métrica básica. Los moderadores pueden utilizar esta plantilla para conectar datos importados de manera masiva y ver un panel. No tienen que crear un panel personalizado. Los moderadores también pueden personalizar la plantilla de Power BI para satisfacer sus necesidades específicas. 
 
-Para descargar los datos de clasificaciones y revisiones, siga estos pasos.
+Para descargar datos de clasificaciones y revisiones en el creador de sitios de Commerce, siga estos pasos.
 
 1. Vaya a **Inicio \> Revisiones \> Informes**.
 1. Seleccione **Descargar datos de revisiones** para descargar datos de clasificaciones y revisiones de manera masiva en el formato de valores separados por comas (CSV).
@@ -112,12 +104,12 @@ Para descargar los datos de clasificaciones y revisiones, siga estos pasos.
 
 Los moderadores pueden descargar la plantilla de Power BI de modo que puedan ver tendencias en un panel.
 
-Para ver tendencias de clasificaciones y revisiones, siga estos pasos.
+Para ver las tendencias de clasificaciones y revisiones en el creador de sitios de Commerce, siga estos pasos.
 
 1. Vaya a **Inicio \> Revisiones \> Informes**.
 1. Seleccione **Plantilla de PowerBI** para descargar la plantilla.
 
-    ![Descarga de la plantilla de Power BI](media/rnr-moderation-reports.png) 
+    ![Descargar la plantilla de Power BI](media/rnr-moderation-reports.png) 
 
 1. Abra la plantilla descargada mediante la aplicación Power BI. Cierre el cuadro de diálogo **Acceso al contenido web** que aparece y cierre el mensaje de error “Actualización” que aparece.
 1. Vaya a **Inicio**, seleccione **Editar consultas** y **Configuración del origen de datos**.

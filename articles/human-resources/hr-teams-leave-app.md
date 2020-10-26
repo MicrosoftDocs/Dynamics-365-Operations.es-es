@@ -3,7 +3,7 @@ title: Administrar solicitudes de baja en Teams
 description: Este tema muestra cómo solicitar tiempo libre en la aplicación Dynamics 365 Human Resources en Microsoft Teams.
 author: andreabichsel
 manager: AnnBe
-ms.date: 09/03/2020
+ms.date: 09/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c7b74983cbddf661456b0a65939e272078d59f6d
-ms.sourcegitcommit: e27510ba52623c801353eed4853f8c0aeea3bb2d
+ms.openlocfilehash: c6856e417ee47f8f582f797c5bcedcff23a1432f
+ms.sourcegitcommit: b6ab46f6e5ce60e2c3d70a348827eaf60c84cae2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3828953"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3930002"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Administrar solicitudes de baja en Teams
 
@@ -171,6 +171,22 @@ Si es un director con subordinados directos, puede ver el tiempo libre aprobado 
 El calendario muestra el tiempo libre aprobado y pendiente de sus subordinados directos.
 
 ![Calendario de tiempo libre en la aplicación Human Resources Teams](./media/hr-teams-leave-app-calendar.png)
+
+## <a name="troubleshooting"></a>Solución de problemas
+
+Si tiene problemas para iniciar sesión o utilizar la aplicación Equipos de recursos humanos, intente seguir estas instrucciones de solución de problemas. Si sigue teniendo problemas después de la resolución de problemas, comuníquese con Soporte. Para obtener más información, consulte [Obtener soporte](hr-admin-troubleshooting-support.md).
+
+### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>No puedo iniciar sesión en la aplicación de recursos humanos en Teams
+
+Si no puede iniciar sesión en la aplicación, es posible que la cuenta que está usando para iniciar sesión en Microsoft Teams no está asociado con un registro de empleado en Dynamics 365 Human Resources. Comuníquese con el administrador del sistema para asegurarse de que su registro de empleado esté asociado correctamente.
+
+### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Error al aprobar solicitudes de licencia en la aplicación Human Resources en Teams
+
+Si recibe un error cuando intenta aprobar solicitudes de permiso en la aplicación Teams, realice los siguientes pasos de solución de problemas:
+
+1. Verifique que la cuenta que está usando para iniciar sesión en Microsoft Teams es la misma que usa para acceder a Dynamics 365 Human Resources.
+
+2. Verifique que es un aprobador válido para la solicitud al verificar la configuración del flujo de trabajo para la aprobación de la licencia. Para obtener más información sobre los flujos de trabajo de solicitud de licencia, consulte [Crear un flujo de trabajo de solicitud de licencia](hr-leave-and-absence-workflow.md).
 
 ## <a name="privacy-notice"></a>Aviso de privacidad
 

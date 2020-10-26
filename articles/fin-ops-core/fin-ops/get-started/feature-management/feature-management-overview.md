@@ -3,7 +3,7 @@ title: Vista previa de Administración de características
 description: Este tema describe la función de Administración de características y cómo puede utilizarla.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 06/15/2020
+ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: ae2c7a0d089c81a62932c415eed5f752e7fb4ffa
-ms.sourcegitcommit: 17a8e3d48da4354ba74e35031c320a16369bfcd5
+ms.openlocfilehash: 22e5333859d37ad33f5806d63fc874b1b5a52831
+ms.sourcegitcommit: 165e082e59ab783995c16fd70943584bc3ba3455
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "3499628"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "3967343"
 ---
 # <a name="feature-management-overview"></a>Visión general de la administración de características
 
@@ -179,3 +179,24 @@ Los paquetes piloto de características son interruptores de encendido y apagado
 
 ### <a name="do-features-ever-get-flighted-off-without-the-customer-knowing-about-it"></a>¿Se deshabilitan características del paquete piloto sin que el cliente lo sepa? 
 Sí, si una característica está afectando al funcionamiento de un entorno que no tiene un impacto funcional, entonces se pueden habilitar de forma predeterminada.
+
+### <a name="how-can-feature-enablement-be-checked-in-code"></a>¿Cómo se puede verificar la habilitación de funciones en el código?
+Utilice el método **isFeatureEnabled** en la clase **FeatureStateProvider**, pasándole una instancia de la clase de entidad. Ejemplo: 
+
+    if (FeatureStateProvider::isFeatureEnabled(BatchContentionPreventionFeature::instance()))
+
+### <a name="how-can-feature-enablement-be-checked-in-metadata"></a>¿Cómo se puede verificar la habilitación de funciones en los metadatos?
+La propiedad **FeatureClass** se puede utilizar para indicar que algunos metadatos están asociados con una característica. Se debe usar el nombre de clase utilizado para la característica, como **BatchContentionPreventionFeature**. Estos metadatos son visibles solo en esa función. La propiedad **Clase característica** está disponible en menús, elementos de menú, valores de enumeración y campos de tabla / vista.
+
+### <a name="what-is-a-feature-class"></a>¿Qué es una clase de entidad?
+Las funciones en la Gestión de funciones se definen como *clases de entidades*. Una clase de entidad **implementa IFeatureMetadata** y utiliza el atributo de clase de entidad para identificarse en el espacio de trabajo de Gestión de entidades. Hay numerosos ejemplos de clases de entidad disponibles que se pueden verificar para su habilitación en el código usando la API **FeatureStateProvider** y en metadatos usando la propiedad **FeatureClass**. Ejemplo: 
+
+    [ExportAttribute(identifierStr(Microsoft.Dynamics.ApplicationPlatform.FeatureExposure.IFeatureMetadata))]
+    internal final class BankCurrencyRevalGlobalEnableFeature implements IFeatureMetadata
+    
+### <a name="what-is-the-ifeaturelifecycle-implemented-by-some-feature-classes"></a>¿Qué es el IFeatureLifecycle implementado por algunas clases de entidad?
+IFeatureLifecycle es un mecanismo interno de Microsoft para indicar la etapa del ciclo de vida de la característica. Las características pueden ser:
+- PrivatePreview: necesita un vuelo para ser visible.
+- PublicPreview: se muestra de forma predeterminada, pero con una advertencia de que la función está en vista previa.
+- Lanzada: completamente publicada.
+
