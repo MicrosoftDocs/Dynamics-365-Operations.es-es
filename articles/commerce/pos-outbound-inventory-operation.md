@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 026d25717dec8c5633f19fe63c6d6f64284d322d
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 1f74df94b1647520880ff994581872b9d9f8e067
+ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646168"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3971554"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Operación de inventario saliente en PDV
 
@@ -164,7 +164,7 @@ La función **Revisión** valida los siguientes problemas en un documento salien
 - **Ubicación no establecida**: la ubicación no se especifica para un elemento controlado por ubicación donde no se permite la ubicación en blanco.
 - **Líneas eliminadas**: el pedido tiene líneas eliminadas por un usuario de la Central de Commerce (HQ) que la aplicación de PDV no conoce.
 
-Si establece el parámetro **Habilitar validación automática** en **Sí** en **Parámetros de Commerce** > **Inventario** > **Almacenar inventario** para ejecutar la validación automáticamente cuando se selecciona la función **Finalizar cumplimiento**.
+Si establece el parámetro **Habilitar validación automática** en **Sí** en **Parámetros de Commerce** > **Inventario** > **Almacenar operaciones de inventario** para ejecutar la validación automáticamente cuando se selecciona la función **Finalizar cumplimiento**.
 
 ### <a name="finish-fulfillment"></a>Finalizar el cumplimiento
 

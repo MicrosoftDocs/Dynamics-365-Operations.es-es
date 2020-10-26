@@ -3,7 +3,7 @@ title: Visión general de las solicitudes de presupuesto
 description: Este tema proporciona una visión general de solicitudes de presupuesto. Las organizaciones emiten solicitudes de presupuesto cuando desean recibir ofertas competitivas de varios proveedores para artículos o servicios que deben comprar.
 author: mkirknel
 manager: tfehr
-ms.date: 07/25/2019
+ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eedf6b08ef9a4b7f164db60433dd16922a8ec807
-ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
+ms.openlocfilehash: 4aec0ce03d438f8153b9555a079b6fd97f6a95a5
+ms.sourcegitcommit: ae04c7cb48f7ecafe71bbe77a0f97715e6290991
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3895629"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "3973509"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Visión general de las solicitudes de presupuesto
 
@@ -34,23 +34,21 @@ También puede solicitar que especifiquen si hay algunos gastos adicionales, com
 
 El proceso de solicitud de presupuesto consta de las siguientes tareas:
 
-1.  La creación y el envío de una solicitud de presupuesto a uno o más proveedores.
-
-2.  Recibir y registrar ofertas (respuestas a solicitudes de presupuesto).
-
-3.  Transferir propuestas aceptadas a un pedido de compra, un acuerdo de compra o una solicitud de compra.
+1. La creación y el envío de una solicitud de presupuesto a uno o más proveedores.
+1. Recibir y registrar ofertas (respuestas a solicitudes de presupuesto).
+1. Transferir propuestas aceptadas a un pedido de compra, un acuerdo de compra o una solicitud de compra.
 
 La ilustración siguiente muestra una visión general del proceso de solicitud de presupuesto.
 
 [![Proceso RFQ](./media/rfq-process-458x1024.jpg)](./media/rfq-process.jpg)
 
-Puede crear un caso de solicitud de presupuesto desde pedidos planificados, desde una solicitud de compra o mediante una entrada manual. El caso de solicitud de presupuesto es el documento base que se usa para enviar una solicitud de presupuesto a cada proveedor.+
+Puede crear un caso de solicitud de presupuesto desde pedidos planificados, desde una solicitud de compra o mediante una entrada manual. El caso de solicitud de presupuesto es el documento base que se usa para enviar una solicitud de presupuesto a cada proveedor.
 
 Tras preparar el caso de solicitud de presupuesto y agregar proveedores, seleccione **Enviar** (**Registrar y publicar** para el sector público) en el caso de solicitud de presupuesto. Se crea un diario de solicitud de presupuesto para cada proveedor al que se envía una solicitud de presupuesto. Puede configurar las Opciones de impresión para la acción de envío para imprimir un informe para cada proveedor en un archivo o enviar un informe a la dirección de correo electrónico de cada proveedor. Además, el diario de solicitud de presupuesto para cada proveedor se puede usar para generar un informe que se puede enviar o volver a enviar al proveedor más adelante. También puede configurar la acción de envío para generar una hoja de respuesta que el proveedor pueda completar.
 
 Este tema cubre el proceso para gestionar solicitudes de presupuesto cuando la colaboración del proveedor no se utiliza. Si el sistema está configurado para la colaboración del proveedor, los proveedores pueden especificar propuestas directamente en Supply Chain Management. Para obtener más inofrmación, consulte [Colaboración de proveedor con los clientes](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) y [Colaboración de proveedor con proveedores externos](vendor-collaboration-work-external-vendors.md).
 
-Si debe enmendar una solicitud de presupuesto después de enviarla, puede volver a enviar la solicitud de presupuesto a los proveedores cuando haya terminado mediante los dos acciones de modificación: Crear y finalizar.+
+Si debe enmendar una solicitud de presupuesto después de enviarla, puede volver a enviar la solicitud de presupuesto a los proveedores cuando haya terminado mediante los dos acciones de modificación: Crear y finalizar.
 
 Cuando reciba ofertas por correo electrónico, puede gestionarlas en la página **Solicitud de presupuestos**.
 
@@ -68,15 +66,10 @@ Estos estados se describirán más detalladamente más adelante en este tema.
 
 Antes de poder crear un caso de solicitud de presupuesto, debe configurar la información de la solicitud de presupuesto en la página **Parámetros de adquisición y abastecimiento**. Cuando se crea un caso de solicitud de presupuesto, puede especificar los valores predeterminados que se copian a la solicitud de presupuesto. Puede especificar los siguientes valores predeterminados:
 
--   El tipo de compra de nuevas solicitudes de presupuesto: **Pedido de compra** o **Acuerdo de compra**.
-
--   La fecha de vencimiento y la compensación de tiempo desde el día en que se crea el caso de solicitud de presupuesto
-
--   Tipo de solicitud, que puede establecer de manera predeterminada un método de puntuación específico para el caso de solicitud de presupuesto
-
--   La información de entrega y las condiciones de pago
-
--   Los campos que se deben incluir en la oferta
+- El tipo de compra de nuevas solicitudes de presupuesto: **Pedido de compra** o **Acuerdo de compra**.
+- La fecha de vencimiento y la compensación de tiempo desde el día en que se crea el caso de solicitud de presupuesto.
+- Tipo de solicitud, que puede establecer de manera predeterminada un método de puntuación específico para el caso de solicitud de presupuesto.
+- La información de entrega y las condiciones de pago.
 
 Puede anular estos valores para un caso de solicitud de presupuesto específico.
 
@@ -84,37 +77,25 @@ También debe configurar el proceso de modificación. Como parte de esta configu
 
 En la página **Parámetros de adquisición y abastecimiento**, seleccione la plantilla para usar en la notificación de correo electrónico que se envía a los proveedores. Cuando se crea una plantilla en **Plantillas de correo electrónico**, puede contener los tokens de sustitución siguientes:
 
--   %Caso de solicitud de presupuesto%
-
--   %Motivo para devolver la propuesta%
-
--   %Motivo de la enmienda%
-
--   %Enmienda preparada por%
-
--   %Empresa%
-
--   %Nombre del caso de solicitud de presupuesto%
-
--   %Hora y fecha de caducidad%
-
--   %Fecha%
+- %Caso de solicitud de presupuesto%
+- %Motivo para devolver la propuesta%
+- %Motivo de la enmienda%
+- %Enmienda preparada por%
+- %Empresa%
+- %Nombre del caso de solicitud de presupuesto%
+- %Hora y fecha de caducidad%
+- %Fecha%
 
 Los tokens %Motivo para devolver la propuesta% y %Motivo de la enmienda% se sustituirán por el texto que el profesional de compras especifique al completar la modificación en el asistente de **Enmienda**. Los valores de los tokens %Enmienda preparada por% y %Empresa% se toman automáticamente de la solicitud de presupuesto. El token %Fecha% se reemplaza por la fecha actual.
 
-Si desea cancelar una solicitud de presupuesto una vez que se haya enviado, puede hacerlo desde el caso de solicitud de presupuesto. Para cancelar una plantilla de correo electrónico es necesario enviar la notificación de cancelación a las personas de contacto del proveedor. La plantilla se debe seleccionar en la página **Parámetros de la adquisición y abastecimiento**. Cuando se crea la plantilla, puede contener los tokens de sustitución siguientes:
+Si desea cancelar una solicitud de presupuesto una vez que se haya enviado, puede hacerlo desde el caso de solicitud de presupuesto. Para la cancelación, hace falta una plantilla de correo electrónico para enviar la notificación de cancelación a las personas de contacto del proveedor. La plantilla se debe seleccionar en la página **Parámetros de la adquisición y abastecimiento**. Cuando se crea la plantilla, puede contener los tokens de sustitución siguientes:
 
--   %Motivo de la cancelación%
-
--   %Caso de solicitud de presupuesto%
-
--   %Solicitud de presupuesto cancelada por%
-
--   %Empresa%
-
--   %Nombre del caso de solicitud de presupuesto%
-
--   %Fecha%
+- %Motivo de la cancelación%
+- %Caso de solicitud de presupuesto%
+- %Solicitud de presupuesto cancelada por%
+- %Empresa%
+- %Nombre del caso de solicitud de presupuesto%
+- %Fecha%
 
 El token de %Motivo de la cancelación% se sustituye por el texto que el profesional de compras especifique en el asistente de **Cancelación**. El token %Fecha% se reemplaza por la fecha actual.
 
@@ -130,6 +111,19 @@ Al crear un caso de solicitud de presupuesto del tipo Pedido de compra y agregar
 
 Un agente o responsable de compras, puede crear y mantener tipos de solicitud que se adapten a los requisitos de compras de su organización. Cada tipo de la solicitud se puede asociar a un método de puntuación. Los métodos de puntuación consisten en un conjunto de criterios que se pueden usar al puntuar propuestas. Debe configurar tipos de solicitud, métodos de puntuación y criterios de puntuación en las páginas **Tipo de solicitud** y **Método de puntuación**.
 
+## <a name="choose-default-fields-to-include-in-vendor-rfq-reply-forms"></a><a name="default-reply-fields"></a>Elija los campos predeterminados para incluir en los formularios de respuesta de RFQ del proveedor
+
+Puede especificar tipos de información concretos que desee recibir de los proveedores cuando respondan (realicen una oferta) a una solicitud de presupuesto. Los campos que marca como predeterminados se incluyen en el formulario en línea proporcionado para la colaboración del proveedor. Para realizar esta configuración:
+
+1. Si aún no lo ha hecho, utilice la página [Gestión de funciones](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para habilitar la característica *Seleccionar los campos de RFQ para incluir en los formularios de respuesta de RFQ del proveedor*.
+1. Vaya a **Adquisición y abastecimiento > Configuración > Parámetros de adquisición y abastecimiento**.
+1. Abra la pestaña **Solicitud de presupuesto**.
+1. Seleccione el vínculo de campos de respuesta **Solicitudes de cotización predeterminadas** debajo del encabezado **Configurar valores predeterminados para solicitudes de cotizaciones**.
+1. Se abre el cuadro de diálogo **Campos de respuesta de solicitud de presupuesto predeterminada**.
+1. La sección **Campos de RFQ incluidos en los formularios de respuesta de RFQ del proveedor** incluye un control deslizante para cada campo que está disponible para su uso en los formularios de respuesta a RFQ. Los campos establecidos en *Sí* en esta sección se incluirán (junto con sus valores) en los formularios de respuesta a RFQ. Establezca el control deslizante en *No* para cada campo en el que desee evitar que los proveedores vean datos al revisar las ofertas. Esto le permite ingresar valores estimados o esperados durante la entrada de RFQ para propósitos internos sin que el proveedor vea lo que se ingresó.
+
+Puede anular esta configuración para casos de RFQ individuales según sea necesario.
+
 ## <a name="creating-and-sending-an-rfq"></a>Creación y envío de una solicitud de presupuesto
 
 Cree un caso de solicitud de presupuesto, seleccione los proveedores que desee que hagan una oferta a dicho caso de solicitud y envíesela. Puede usar la configuración de impresión para dirigir los informes de solicitud de presupuesto y hojas de respuesta a su destino preferido.
@@ -138,15 +132,13 @@ Puede crear manualmente un caos de solicitud de presupuesto para el tipo de comp
 
 Si el caso de solicitud de presupuesto es del tipo **Pedido de compra**, se produce el siguiente comportamiento que se desvía de otros tipos de casos de solicitud de presupuesto:
 
--   Cuando se crean líneas de un caso de solicitud de presupuesto, se generan transacciones de inventario con estado de recepción **Recepción de presupuesto**.
-
--   Al aceptar una propuesta, se genera un pedido de compra.
+- Cuando se crean líneas de un caso de solicitud de presupuesto, se generan transacciones de inventario con estado de recepción **Recepción de presupuesto**.
+- Al aceptar una propuesta, se genera un pedido de compra.
 
 Si la solicitud de presupuesto es del tipo **Acuerdo de compra**, se produce el siguiente comportamiento que se desvía de los otros casos de solicitud de presupuesto:
 
--   El caso de solicitud de presupuesto se usa para un contrato para comprar una cantidad o valor de producto específicos en el tiempo. Debe seleccionar el intervalo de fechas que se aplica al acuerdo de compra y el nombre de la persona que gestiona el acuerdo de compra.
-
--   Al aceptar una propuesta, se genera un acuerdo de compra.
+- El caso de solicitud de presupuesto se usa para un contrato para comprar una cantidad o valor de producto específicos en el tiempo. Debe seleccionar el intervalo de fechas que se aplica al acuerdo de compra y el nombre de la persona que gestiona el acuerdo de compra.
+- Al aceptar una propuesta, se genera un acuerdo de compra.
 
 Si se genera el caso de solicitud de presupuesto desde una solicitud de compra, se asigna automáticamente el tipo **Solicitud de compra**. No puede crear manualmente un caso de solicitud de presupuesto del tipo **Solicitud de compra**.
 
@@ -156,6 +148,7 @@ Cuando crea un caso de solicitud de presupuesto, puede seleccionar un tipo de s
 
 Puede agregar un cuestionario a un caso de solicitud de presupuesto. Este cuestionario aparece después en todas las respuestas a la solicitud de presupuesto después de enviar la solicitud de presupuesto. La finalización del cuestionario es una tarea obligatoria antes de que se pueda enviar la oferta.
 
+Aunque se proporcionan valores predeterminados, puede cambiar la configuración de **Campos de RFQ incluidos en los formularios de respuesta de RFQ del proveedor** para cada caso de RFQ individual según sea necesario. Para hacerlo, cree o abra un caso de solicitud de presupuesto. Luego, en el Panel de acciones, abra la pestaña **Presupuesto** y, en la sección **Respuestas**, seleccione **Establecer valores predeterminados de respuesta a RFQ**. Se abre el cuadro de diálogo **Campos de respuesta de solicitud de presupuesto predeterminada**, que funciona igual que cuando se establecen los valores predeterminados para los formularios de respuesta de RFQ de proveedores, excepto que sus cambios aquí solo afectarán el caso de RFQ actual. Para obtener detalles sobre cómo habilitar esta funcionalidad y cómo funciona, consulte [Elegir los campos predeterminados para incluir en los formularios de respuesta de RFQ del proveedor](#default-reply-fields).
 
 Hay tres maneras de seleccionar a los proveedores que agregar a un caso de solicitud de presupuesto:
 
@@ -166,7 +159,6 @@ Hay tres maneras de seleccionar a los proveedores que agregar a un caso de solic
 Cuando el caso de solicitud de presupuesto esté listo, seleccione **Enviar**. La acción de envío genera diarios e informes que se imprimirán, archivarán y enviarán según la configuración de impresión.
 
 Si ha establecido **Usar proveedor para volver a calcular los precios** y **Usar información de artículo específico del proveedor** en **Sí** en la página **Enviar solicitud de presupuesto**, cuando envíe la solicitud de presupuesto a un proveedores, se introducirá automáticamente cierta información específica del proveedor en la solicitud de presupuesto para ese proveedor.
-
 
 ## <a name="amending-an-rfq-case"></a>Modificación de un caso de solicitud de presupuesto
 
@@ -179,7 +171,6 @@ Si configura el proceso de modificación para que sea menos restrictivo, no tien
 Si los proveedores utilizan la interfaz de colaboración del proveedor para especificar propuestas, debe usar siempre el proceso de modificación para notificar a los proveedores sobre cambios al caso de solicitud de presupuesto. Este proceso ayuda a evitar la situación en la que los proveedores hagan una oferta de un caso de solicitud de presupuesto obsoleto mientras que la oferta está en curso. Para obtener más información acerca de la colaboración de proveedores, consulte [Colaboración con proveedores externos](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors).
 
 Si desea para invitar a proveedores adicionales para hacer una propuesta y no ha realizado ningún cambio en el caso de solicitud de presupuesto, puede usar el botón **Enviar**. Los proveedores que se han agregado aparecerán en la página **Enviar** y recibirán el correo electrónico de invitación.
-
 
 ## <a name="receiving-and-registering-rfq-replies"></a>Recepción y registro de respuestas a solicitudes de presupuesto
 
@@ -208,29 +199,20 @@ En la respuesta puede agregar un código de motivo para explicar por qué se ace
 
 Cuando se acepta una oferta del tipo **Solicitud de compra**, las líneas de la solicitud de compra se actualizarán con la siguiente información que refleja la información de la propuesta aceptada:
 
--   Precio unitario
-
--   Porcentaje de descuento
-
--   Importe de descuento
-
--   Gastos de compra
-
--   Gastos de línea
-
--   Proveedor
-
--  Número externo
-
--   Descripción externa
-
+- Precio unitario
+- Porcentaje de descuento
+- Importe de descuento
+- Gastos de compra
+- Gastos de línea
+- Proveedor
+- Número externo
+- Descripción externa
 
 La tabla siguiente muestra cómo cambia el estado de la solicitud de presupuesto a medida que se aceptan y rechazan propuestas de los proveedores.
 
-<a name="statuses--highest-and-lowest"></a>Estados: más alto y más bajo
------------------------------
+## <a name="statuses--highest-and-lowest"></a>Estados: más alto y más bajo
 
-En la pestaña Proveedor del caso de solicitud de presupuesto, puede ver las líneas con el estado más alto y más bajo para un proveedor concreto. Cuando agregue el proveedor, y aún no se hayan enviado líneas, el estado más bajo y el más alto es <strong>Creado.</strong>Cuando la solicitud de presupuesto se envíe al proveedor con todas las líneas, el estado de las dos líneas será <strong>Enviado</strong>. Si se aceptan algunas líneas en una oferta de un proveedor y se rechazan otras, las líneas rechazadas obtendrán el estado más bajo, que es <strong>Rechazado</strong>, y las líneas aceptadas obtendrán el estado más alto, que es <strong>Aceptado</strong>.
+En la pestaña Proveedor del caso de solicitud de presupuesto, puede ver las líneas con el estado más alto y más bajo para un proveedor concreto. Cuando se agrega el proveedor y aún no se han enviado líneas, tanto el estado más bajo como el más alto es <strong>Creado</strong>. Cuando la RFQ se envía al proveedor con todas las líneas, el estado de las dos líneas será <strong>Expedido</strong>. Si se aceptan algunas líneas en una oferta de un proveedor y se rechazan otras, las líneas rechazadas obtendrán el estado más bajo, que es <strong>Rechazado</strong>, y las líneas aceptadas obtendrán el estado más alto, que es <strong>Aceptado</strong>.
 
 En las líneas del caso de solicitud de presupuesto, puede ver el estado más alto y el más bajo por línea en todos los proveedores. Si ha enviado una línea a todos los proveedores en el caso de solicitud de presupuesto y nadie ha respondido aún, el estado más bajo y más alto es **Enviado.** Cuando responde al menos un proveedor, el estado más alto cambiará a **Recibido**. Si agrega un nuevo proveedor al caso, el estado más bajo cambiará **Creado**
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: baa8207f9f3a3de071033c4c70f60a339ec5e083
-ms.sourcegitcommit: d25d0feb3f8a5a760eba50ba5f46e1db02737d25
+ms.openlocfilehash: 7fa2684340f5ce45b99ff9aee9937071f936b81a
+ms.sourcegitcommit: 2bc8e760c7a82572c7eafd51f2e57ef11b4ca98b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677347"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "3900995"
 ---
 # <a name="shipment-auto-updates"></a>Actualizaciones automáticas de envíos
 
@@ -39,7 +39,7 @@ La funcionalidad de envío de actualización automática se aplica a las líneas
 
 La funcionalidad de envío de actualización automática se basa principalmente en el estado de envío para determinar si la cantidad en una línea de carga debe cambiarse al realizar un cambio en una línea de pedido de ventas o una línea de pedido de transferencia. También se basa principalmente en el estado de envío para determinar cuándo una nueva línea de carga se debe agregar automáticamente a una carga existente. Cuando el estado de envío es **Oleada** o superior, ninguna actualización automática se produce.
 
-El estado de la oleada también se considera para las actualizaciones automáticas. Cuando la oleada relacionada con la línea de carga tiene un estado **Retenido**, **En ejecución**, **Liberado**, **Seleccionado**, o **Enviado**, si un usuario intenta para reducir la cantidad en una línea de carga (mediante una reducción de la cantidad en la línea de pedido de ventas o la línea de pedido de transferencia), se muestra el siguiente mensaje de error: "Las reservas no se pueden quitar porque hay trabajo creado que depende de ellas". Además, cuando la oleada tiene uno de los estados de oleada anteriormente mencionados, si un usuario intenta indirectamente incrementar la cantidad de la línea de carga reduciendo la cantidad en la línea de pedido de ventas o la línea de pedido de transferencia, la cantidad de la línea de carga no aumenta automáticamente. En este caso, la línea de carga se debe actualizar manualmente.
+El estado de la oleada también se considera para las actualizaciones automáticas. Cuando la oleada relacionada con la línea de carga tiene un estado **Retenido**, **En ejecución**, **Liberado**, **Seleccionado**, o **Enviado**, si un usuario intenta para reducir la cantidad en una línea de carga (mediante una reducción de la cantidad en la línea de pedido de ventas o la línea de pedido de transferencia), se muestra el siguiente mensaje de error: "Las reservas no se pueden quitar porque hay trabajo creado que depende de ellas". Además, cuando la oleada tiene uno de los estados de oleada anteriormente mencionados, si un usuario intenta indirectamente incrementar la cantidad de la línea de carga aumentando la cantidad en la línea de pedido de ventas o la línea de pedido de transferencia, la cantidad de la línea de carga no aumenta automáticamente. En este caso, la línea de carga se debe actualizar manualmente.
 
 ## <a name="scenarios"></a>Situaciones
 

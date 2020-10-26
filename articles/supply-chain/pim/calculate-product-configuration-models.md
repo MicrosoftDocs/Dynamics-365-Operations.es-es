@@ -16,15 +16,15 @@ ms.custom: 19191
 ms.assetid: 8993f9a1-d1c0-49f5-afd3-5e1077ded0fe
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: conradv
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee92f7f5cc7cbbb4af8455bdcaf1b2265102ad7c
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f7fac3ec6df53dcc6e459f62f76d856a11d294b6
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209499"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3981361"
 ---
 # <a name="calculations-for-product-configuration-models-faq"></a>Preguntas más frecuentes sobre cálculos para modelos de configuración de productos
 
@@ -46,7 +46,7 @@ Un atributo de destino es un atributo que recibe el resultado de la expresión d
 
 En la siguiente expresión, el atributo de destino es una medida de mantel:  
 
-**Expresión:** If\[(atributoDecimal1 &lt;= atributoDecimal2, True, False\]  
+**Expresión:** If\[atributoDecimal1 &lt;= atributoDecimal2, True, False\]  
 
 **atributoDecimal1** es la longitud de la mesa y **atributoDecimal2** es la longitud del mantel. La expresión devuelve el valor **True** al atributo de destino si **decimalAttribute2** es mayor o igual que **decimalAttribute1**. De lo contrario, la expresión devuelve un valor **False**. Por lo tanto, la medida de mantel es aceptable si la longitud del mantel es igual o mayor que la longitud de la mesa.
 

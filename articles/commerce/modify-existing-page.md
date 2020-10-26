@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 87c90ed6ee62a094fe44f549c827cf9de2bf5b2f
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: 8ca23dcf568cb0df6934f0d6201e4aafba5f9ba1
+ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3270013"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3961643"
 ---
 # <a name="modify-an-existing-site-page"></a>Modificar una página de sitio existente
 
@@ -47,7 +47,7 @@ El siguiente paso es realizar sus cambios reales. A menudo, usará el árbol de 
 No obstante, su cambio puede implicar a veces la adición o eliminación de modelos o fragmentos. Para agregar un fragmento o un módulo, use el árbol de esquema de página para encontrar la franja a la que desea agregar el módulo o el fragmento, y seleccione el botón de puntos suspensivos (**...**) para esa franja. Aparece un menú que incluye comandos para agregar un módulo o un fragmento. Para eliminar un módulo o un fragmento, encuéntrelo y selecciónelo en el árbol de esquema de la página, seleccione el botón de puntos suspensivos y el comando para eliminar el módulo o el fragmento.
 
 > [!TIP]
-> También puede ver y editar las propiedades para cualquier módulo que esté visible en la vista previa de “Lo que se ve es lo que se verá" (WYSIWYG) seleccionándolo directamente.
+> También puede ver y editar las propiedades para cualquier módulo que esté visible en la vista previa del generador de páginas visual seleccionándolo directamente.
 
 Una vez que haya terminado de realizar los cambios y de obtener una vista previa del efecto, debe proteger la página seleccionando **Terminar edición** en la barra de comandos. 
 
