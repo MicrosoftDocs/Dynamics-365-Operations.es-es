@@ -15,60 +15,60 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 54dae6edb6681e1ba29709ebeeea2e5094262257
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 74594871e9eeed86ae2914d1e5a08c0af28ab643
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3206482"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3985103"
 ---
-# <a name="use-stage-reason-codes"></a><span data-ttu-id="c92a6-103">Usar códigos de motivo de etapa</span><span class="sxs-lookup"><span data-stu-id="c92a6-103">Use stage reason codes</span></span> 
+# <a name="use-stage-reason-codes"></a><span data-ttu-id="5c563-103">Usar códigos de motivo de etapa</span><span class="sxs-lookup"><span data-stu-id="5c563-103">Use stage reason codes</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="c92a6-104">El código de motivo se usa para indicar por qué se canceló un contrato de nivel de servicio (SLA) o por qué se superó el límite de tiempo de un pedido de servicio establecido en el SLA.</span><span class="sxs-lookup"><span data-stu-id="c92a6-104">You use a reason code to indicate why a service level agreement (SLA) has been canceled, or why a service order has exceeded the time limit that is you define in the SLA.</span></span>
+<span data-ttu-id="5c563-104">El código de motivo se usa para indicar por qué se canceló un contrato de nivel de servicio (SLA) o por qué se superó el límite de tiempo de un pedido de servicio establecido en el SLA.</span><span class="sxs-lookup"><span data-stu-id="5c563-104">You use a reason code to indicate why a service level agreement (SLA) has been canceled, or why a service order has exceeded the time limit that is you define in the SLA.</span></span>
 
-<span data-ttu-id="c92a6-105">También puede especificar que es necesario especificar un código de motivo cuando un SLA se cancela o cuando el límite de tiempo supera el tiempo que se especifica en el SLA para el pedido de servicio.</span><span class="sxs-lookup"><span data-stu-id="c92a6-105">You can also specify that a reason code is required when an SLA is canceled, or when the time limit exceeds the time that is specified in the SLA for the service order.</span></span>
+<span data-ttu-id="5c563-105">También puede especificar que es necesario especificar un código de motivo cuando un SLA se cancela o cuando el límite de tiempo supera el tiempo que se especifica en el SLA para el pedido de servicio.</span><span class="sxs-lookup"><span data-stu-id="5c563-105">You can also specify that a reason code is required when an SLA is canceled, or when the time limit exceeds the time that is specified in the SLA for the service order.</span></span>
 
-<span data-ttu-id="c92a6-106">Si indicó que es necesario especificar un código de motivo, debe especificar un código de motivo en las situaciones siguientes:</span><span class="sxs-lookup"><span data-stu-id="c92a6-106">If you have specified that a reason code is required, you must enter a reason code in the following situations:</span></span>
+<span data-ttu-id="5c563-106">Si indicó que es necesario especificar un código de motivo, debe especificar un código de motivo en las situaciones siguientes:</span><span class="sxs-lookup"><span data-stu-id="5c563-106">If you have specified that a reason code is required, you must enter a reason code in the following situations:</span></span>
 
-  - <span data-ttu-id="c92a6-107">Cuando un pedido de servicio se traslada a una etapa que detiene el registro de tiempo en comparación con el SLA para el pedido de servicio.</span><span class="sxs-lookup"><span data-stu-id="c92a6-107">When a service order is moved to a stage that stops time recording against the SLA for the service order.</span></span>
+  - <span data-ttu-id="5c563-107">Cuando un pedido de servicio se traslada a una etapa que detiene el registro de tiempo en comparación con el SLA para el pedido de servicio.</span><span class="sxs-lookup"><span data-stu-id="5c563-107">When a service order is moved to a stage that stops time recording against the SLA for the service order.</span></span>
 
-  - <span data-ttu-id="c92a6-108">Cuando se realiza la aprobación final del pedido de servicio.</span><span class="sxs-lookup"><span data-stu-id="c92a6-108">When the service order is signed off.</span></span>
+  - <span data-ttu-id="5c563-108">Cuando se realiza la aprobación final del pedido de servicio.</span><span class="sxs-lookup"><span data-stu-id="5c563-108">When the service order is signed off.</span></span>
 
-  - <span data-ttu-id="c92a6-109">Cuando el registro de tiempo se detiene manualmente.</span><span class="sxs-lookup"><span data-stu-id="c92a6-109">When time recording is manually stopped.</span></span>
+  - <span data-ttu-id="5c563-109">Cuando el registro de tiempo se detiene manualmente.</span><span class="sxs-lookup"><span data-stu-id="5c563-109">When time recording is manually stopped.</span></span>
 
-## <a name="set-up-reason-codes"></a><span data-ttu-id="c92a6-110">Configurar códigos de motivos</span><span class="sxs-lookup"><span data-stu-id="c92a6-110">Set up reason codes</span></span>
+## <a name="set-up-reason-codes"></a><span data-ttu-id="5c563-110">Configurar códigos de motivos</span><span class="sxs-lookup"><span data-stu-id="5c563-110">Set up reason codes</span></span>
 
-1.  <span data-ttu-id="c92a6-111">Haga clic en **Gestión de servicio** \> **Configuración** \> **Pedidos de servicio** \> **Códigos de motivo de etapa**.</span><span class="sxs-lookup"><span data-stu-id="c92a6-111">Click **Service management** \> **Setup** \> **Service orders** \> **Stage reason codes**.</span></span>
+1.  <span data-ttu-id="5c563-111">Haga clic en **Gestión de servicio** \> **Configuración** \> **Pedidos de servicio** \> **Códigos de motivo de etapa**.</span><span class="sxs-lookup"><span data-stu-id="5c563-111">Click **Service management** \> **Setup** \> **Service orders** \> **Stage reason codes**.</span></span>
 
-2.  <span data-ttu-id="c92a6-112">En el formulario **Códigos de motivo de etapa**, haga clic en **Nuevo** para crear un nuevo código de motivo.</span><span class="sxs-lookup"><span data-stu-id="c92a6-112">In the **Stage reason codes** form, click **New** to create a new reason code.</span></span>
+2.  <span data-ttu-id="5c563-112">En el formulario **Códigos de motivo de etapa**, haga clic en **Nuevo** para crear un nuevo código de motivo.</span><span class="sxs-lookup"><span data-stu-id="5c563-112">In the **Stage reason codes** form, click **New** to create a new reason code.</span></span>
 
-3.  <span data-ttu-id="c92a6-113">En el campo **Código de motivo de etapa**, especifique un código de motivo de etapa única.</span><span class="sxs-lookup"><span data-stu-id="c92a6-113">In the **Stage reason code** field, enter a unique stage reason code.</span></span>
+3.  <span data-ttu-id="5c563-113">En el campo **Código de motivo de etapa**, especifique un código de motivo de etapa única.</span><span class="sxs-lookup"><span data-stu-id="5c563-113">In the **Stage reason code** field, enter a unique stage reason code.</span></span>
 
-4.  <span data-ttu-id="c92a6-114">En el campo **Descripción**, especifique una descripción para el código de motivo de etapa.</span><span class="sxs-lookup"><span data-stu-id="c92a6-114">In the **Description** field, enter a description of the stage reason code.</span></span>
+4.  <span data-ttu-id="5c563-114">En el campo **Descripción**, especifique una descripción para el código de motivo de etapa.</span><span class="sxs-lookup"><span data-stu-id="5c563-114">In the **Description** field, enter a description of the stage reason code.</span></span>
 
-5.  <span data-ttu-id="c92a6-115">Cierre el formulario para guardar los cambios.</span><span class="sxs-lookup"><span data-stu-id="c92a6-115">Close the form to save your changes.</span></span>
+5.  <span data-ttu-id="5c563-115">Cierre el formulario para guardar los cambios.</span><span class="sxs-lookup"><span data-stu-id="5c563-115">Close the form to save your changes.</span></span>
 
-## <a name="require-reason-codes-when-a-service-level-agreement-is-canceled"></a><span data-ttu-id="c92a6-116">Exigir códigos de motivo cuando se cancele un acuerdo de nivel de servicio</span><span class="sxs-lookup"><span data-stu-id="c92a6-116">Require reason codes when a service level agreement is canceled</span></span>
+## <a name="require-reason-codes-when-a-service-level-agreement-is-canceled"></a><span data-ttu-id="5c563-116">Exigir códigos de motivo cuando se cancele un acuerdo de nivel de servicio</span><span class="sxs-lookup"><span data-stu-id="5c563-116">Require reason codes when a service level agreement is canceled</span></span>
 
-1.  <span data-ttu-id="c92a6-117">Haga clic en **Gestión de servicio** \> **Configuración** \> **Parámetros de la gestión de servicio**.</span><span class="sxs-lookup"><span data-stu-id="c92a6-117">Click **Service management** \> **Setup** \> **Service management parameters**.</span></span>
+1.  <span data-ttu-id="5c563-117">Haga clic en **Gestión de servicio** \> **Configuración** \> **Parámetros de la gestión de servicio**.</span><span class="sxs-lookup"><span data-stu-id="5c563-117">Click **Service management** \> **Setup** \> **Service management parameters**.</span></span>
 
-2.  <span data-ttu-id="c92a6-118">En el formulario **Parámetros de gestión de servicio**, haga clic en el vínculo **General** y seleccione la casilla de verificación **Código de motivo al cancelar** .</span><span class="sxs-lookup"><span data-stu-id="c92a6-118">In the **Service management parameters** form, click the **General** link, and then select the **Reason code on canceling** check box.</span></span>
+2.  <span data-ttu-id="5c563-118">En el formulario **Parámetros de gestión de servicio**, haga clic en el vínculo **General** y seleccione la casilla de verificación **Código de motivo al cancelar** .</span><span class="sxs-lookup"><span data-stu-id="5c563-118">In the **Service management parameters** form, click the **General** link, and then select the **Reason code on canceling** check box.</span></span>
 
-## <a name="require-reason-codes-when-the-a-service-order-exceeds-the-time-limit-that-is-set-by-the-service-level-agreement"></a><span data-ttu-id="c92a6-119">Exigir códigos de motivo cuando un pedido de servicio supere el tiempo límite establecido en un contrato de nivel de servicio</span><span class="sxs-lookup"><span data-stu-id="c92a6-119">Require reason codes when the a service order exceeds the time limit that is set by the service level agreement</span></span>
+## <a name="require-reason-codes-when-the-a-service-order-exceeds-the-time-limit-that-is-set-by-the-service-level-agreement"></a><span data-ttu-id="5c563-119">Exigir códigos de motivo cuando un pedido de servicio supere el tiempo límite establecido en un contrato de nivel de servicio</span><span class="sxs-lookup"><span data-stu-id="5c563-119">Require reason codes when the a service order exceeds the time limit that is set by the service level agreement</span></span>
 
-1.  <span data-ttu-id="c92a6-120">Haga clic en **Gestión de servicio** \> **Configuración** \> **Parámetros de la gestión de servicio**.</span><span class="sxs-lookup"><span data-stu-id="c92a6-120">Click **Service management** \> **Setup** \> **Service management parameters**.</span></span>
+1.  <span data-ttu-id="5c563-120">Haga clic en **Gestión de servicio** \> **Configuración** \> **Parámetros de la gestión de servicio**.</span><span class="sxs-lookup"><span data-stu-id="5c563-120">Click **Service management** \> **Setup** \> **Service management parameters**.</span></span>
 
-2.  <span data-ttu-id="c92a6-121">En el formulario **Parámetros de gestión de servicio**, haga clic en el vínculo **General** y seleccione la casilla de verificación **Código de motivo al superar el tiempo** .</span><span class="sxs-lookup"><span data-stu-id="c92a6-121">In the **Service management parameters** form, click the **General** link, and then select the **Reason code on exceeding time** check box.</span></span>
+2.  <span data-ttu-id="5c563-121">En el formulario **Parámetros de gestión de servicio**, haga clic en el vínculo **General** y seleccione la casilla de verificación **Código de motivo al superar el tiempo** .</span><span class="sxs-lookup"><span data-stu-id="5c563-121">In the **Service management parameters** form, click the **General** link, and then select the **Reason code on exceeding time** check box.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="c92a6-122">Consulte también</span><span class="sxs-lookup"><span data-stu-id="c92a6-122">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5c563-122">Consulte también</span><span class="sxs-lookup"><span data-stu-id="5c563-122">See also</span></span>
 
-[<span data-ttu-id="c92a6-123">Iniciar y detener registro de horas en un pedido de servicio</span><span class="sxs-lookup"><span data-stu-id="c92a6-123">Start and stop time recording on a service order</span></span>](start-and-stop-time-recording-on-a-service-order.md)
+[<span data-ttu-id="5c563-123">Iniciar y detener registro de horas en un pedido de servicio</span><span class="sxs-lookup"><span data-stu-id="5c563-123">Start and stop time recording on a service order</span></span>](start-and-stop-time-recording-on-a-service-order.md)
 
   
 
