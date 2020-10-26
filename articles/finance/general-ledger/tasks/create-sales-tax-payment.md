@@ -13,27 +13,27 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: vstehman
+ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 99059a8e5d6f4bf125266ad2a98cb73751529e6b
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: e41217d26239cf704709d1d48666c382e1e2e824
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3139938"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3985717"
 ---
-# <a name="create-a-sales-tax-payment"></a><span data-ttu-id="32d91-103">Crear un pago de impuestos</span><span class="sxs-lookup"><span data-stu-id="32d91-103">Create a sales tax payment</span></span>
+# <a name="create-a-sales-tax-payment"></a><span data-ttu-id="520e0-103">Crear un pago de impuestos</span><span class="sxs-lookup"><span data-stu-id="520e0-103">Create a sales tax payment</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="32d91-104">El trabajo de liquidar y registrar impuestos liquida los saldos de impuestos de las cuentas de impuestos y los anota como contrapartida en la cuenta de liquidación de impuestos para un período determinado.</span><span class="sxs-lookup"><span data-stu-id="32d91-104">The settle and post sales tax job settles sales tax balances on the sales tax accounts and offsets them to the sales tax settlement account for a given period.</span></span>
+<span data-ttu-id="520e0-104">El trabajo de liquidar y registrar impuestos liquida los saldos de impuestos de las cuentas de impuestos y los anota como contrapartida en la cuenta de liquidación de impuestos para un período determinado.</span><span class="sxs-lookup"><span data-stu-id="520e0-104">The settle and post sales tax job settles sales tax balances on the sales tax accounts and offsets them to the sales tax settlement account for a given period.</span></span>
 
-1. <span data-ttu-id="32d91-105">Vaya a Impuestos > Declaraciones > Impuestos > Liquidar y registrar impuestos.</span><span class="sxs-lookup"><span data-stu-id="32d91-105">Go to Tax > Declarations > Sales tax > Settle and post sales tax.</span></span>
-2. <span data-ttu-id="32d91-106">En el campo Período de liquidación, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="32d91-106">In the Settlement period field, click the drop-down button to open the lookup.</span></span>
-3. <span data-ttu-id="32d91-107">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="32d91-107">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="32d91-108">En el campo Fecha inicial, escriba una fecha.</span><span class="sxs-lookup"><span data-stu-id="32d91-108">In the From date field, enter a date.</span></span>
-    * <span data-ttu-id="32d91-109">Si la opción de incluir correcciones no está seleccionada en la página de parámetros de contabilidad general, la liquidación se puede procesar para diferentes versiones.</span><span class="sxs-lookup"><span data-stu-id="32d91-109">If the Include corrections option is not selected on the General ledger parameters page, the settlement can be processed for different versions.</span></span> <span data-ttu-id="32d91-110">El original es la primera liquidación para un intervalo de períodos y puede procesarse solo una vez para un intervalo de períodos.</span><span class="sxs-lookup"><span data-stu-id="32d91-110">Original is the first settlement for a period interval and can only processed once for a period interval.</span></span> <span data-ttu-id="32d91-111">Las últimas correcciones liquidarán las transacciones de impuestos que se hayan registrado después de crear la versión original.</span><span class="sxs-lookup"><span data-stu-id="32d91-111">Latest corrections will settle sales tax transactions which have been posted after the original version has been created.</span></span>   
-5. <span data-ttu-id="32d91-112">En el campo Fecha de transacción, especifique una fecha.</span><span class="sxs-lookup"><span data-stu-id="32d91-112">In the Transaction date field, enter a date.</span></span>
-6. <span data-ttu-id="32d91-113">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="32d91-113">Click OK.</span></span>
+1. <span data-ttu-id="520e0-105">Vaya a Impuestos > Declaraciones > Impuestos > Liquidar y registrar impuestos.</span><span class="sxs-lookup"><span data-stu-id="520e0-105">Go to Tax > Declarations > Sales tax > Settle and post sales tax.</span></span>
+2. <span data-ttu-id="520e0-106">En el campo Período de liquidación, haga clic en el botón desplegable para abrir la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="520e0-106">In the Settlement period field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="520e0-107">En la lista, haga clic en el vínculo de la fila seleccionada.</span><span class="sxs-lookup"><span data-stu-id="520e0-107">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="520e0-108">En el campo Fecha inicial, escriba una fecha.</span><span class="sxs-lookup"><span data-stu-id="520e0-108">In the From date field, enter a date.</span></span>
+    * <span data-ttu-id="520e0-109">Si la opción de incluir correcciones no está seleccionada en la página de parámetros de contabilidad general, la liquidación se puede procesar para diferentes versiones.</span><span class="sxs-lookup"><span data-stu-id="520e0-109">If the Include corrections option is not selected on the General ledger parameters page, the settlement can be processed for different versions.</span></span> <span data-ttu-id="520e0-110">El original es la primera liquidación para un intervalo de períodos y puede procesarse solo una vez para un intervalo de períodos.</span><span class="sxs-lookup"><span data-stu-id="520e0-110">Original is the first settlement for a period interval and can only processed once for a period interval.</span></span> <span data-ttu-id="520e0-111">Las últimas correcciones liquidarán las transacciones de impuestos que se hayan registrado después de crear la versión original.</span><span class="sxs-lookup"><span data-stu-id="520e0-111">Latest corrections will settle sales tax transactions which have been posted after the original version has been created.</span></span>   
+5. <span data-ttu-id="520e0-112">En el campo Fecha de transacción, especifique una fecha.</span><span class="sxs-lookup"><span data-stu-id="520e0-112">In the Transaction date field, enter a date.</span></span>
+6. <span data-ttu-id="520e0-113">Haga clic en Aceptar</span><span class="sxs-lookup"><span data-stu-id="520e0-113">Click OK.</span></span>
 

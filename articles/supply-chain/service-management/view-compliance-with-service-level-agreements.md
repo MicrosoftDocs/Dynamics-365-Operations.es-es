@@ -15,36 +15,36 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1cfaee379f45c2516598089f29ed6235f9c5d11a
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 6df9f7cb6c5062841d5c9855833a58e11be690a4
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3206459"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3987447"
 ---
-# <a name="view-compliance-with-service-level-agreements"></a><span data-ttu-id="721e1-103">Ver conformidad con contratos de nivel de servicio</span><span class="sxs-lookup"><span data-stu-id="721e1-103">View compliance with service level agreements</span></span>    
+# <a name="view-compliance-with-service-level-agreements"></a><span data-ttu-id="90eae-103">Ver conformidad con contratos de nivel de servicio</span><span class="sxs-lookup"><span data-stu-id="90eae-103">View compliance with service level agreements</span></span>    
 
 [!include [banner](../includes/banner.md)]
 
 
-## <a name="view-compliance-with-a-service-level-agreement"></a><span data-ttu-id="721e1-104">Ver conformidad con un contrato de nivel de servicio</span><span class="sxs-lookup"><span data-stu-id="721e1-104">View compliance with a service level agreement</span></span>
+## <a name="view-compliance-with-a-service-level-agreement"></a><span data-ttu-id="90eae-104">Ver conformidad con un contrato de nivel de servicio</span><span class="sxs-lookup"><span data-stu-id="90eae-104">View compliance with a service level agreement</span></span>
 
-1.  <span data-ttu-id="721e1-105">Haga clic en **Gestión de servicio** \> **Común** \> **Pedidos de servicio** \> **Pedidos de servicio**.</span><span class="sxs-lookup"><span data-stu-id="721e1-105">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span> <span data-ttu-id="721e1-106">Seleccione un pedido de servicio y haga doble clic en él para abrir el formulario de detalles del pedido.</span><span class="sxs-lookup"><span data-stu-id="721e1-106">Select a service order and double-click to open the details form for the order.</span></span>
+1.  <span data-ttu-id="90eae-105">Haga clic en **Gestión de servicio** \> **Común** \> **Pedidos de servicio** \> **Pedidos de servicio**.</span><span class="sxs-lookup"><span data-stu-id="90eae-105">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span> <span data-ttu-id="90eae-106">Seleccione un pedido de servicio y haga doble clic en él para abrir el formulario de detalles del pedido.</span><span class="sxs-lookup"><span data-stu-id="90eae-106">Select a service order and double-click to open the details form for the order.</span></span>
 
-2.  <span data-ttu-id="721e1-107">En la ficha **General**, el campo **Conformidad**, visualice el porcentaje de tiempo que se ha dedicado al pedido de servicio en comparación con el plazo de tiempo especificado en el contrato de nivel de servicio.</span><span class="sxs-lookup"><span data-stu-id="721e1-107">On the **General** tab, in the **Compliance** field, view the percentage of time that was spent on the service order compared to the time frame specified in the service level agreement.</span></span>
+2.  <span data-ttu-id="90eae-107">En la ficha **General**, el campo **Conformidad**, visualice el porcentaje de tiempo que se ha dedicado al pedido de servicio en comparación con el plazo de tiempo especificado en el contrato de nivel de servicio.</span><span class="sxs-lookup"><span data-stu-id="90eae-107">On the **General** tab, in the **Compliance** field, view the percentage of time that was spent on the service order compared to the time frame specified in the service level agreement.</span></span>
 
 
 > [!TIP]
-> <span data-ttu-id="721e1-108">Si el valor del campo <STRONG>Conformidad</STRONG> es superior a 100, se ha superado el límite de tiempo del contrato de nivel de servicio.</span><span class="sxs-lookup"><span data-stu-id="721e1-108">If the value in the <STRONG>Compliance</STRONG> field is larger than 100, the time limit of the service level agreement has been exceeded.</span></span>
+> <span data-ttu-id="90eae-108">Si el valor del campo <STRONG>Conformidad</STRONG> es superior a 100, se ha superado el límite de tiempo del contrato de nivel de servicio.</span><span class="sxs-lookup"><span data-stu-id="90eae-108">If the value in the <STRONG>Compliance</STRONG> field is larger than 100, the time limit of the service level agreement has been exceeded.</span></span>
 
 
 
-## <a name="see-also"></a><span data-ttu-id="721e1-109">Consulte también</span><span class="sxs-lookup"><span data-stu-id="721e1-109">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="90eae-109">Consulte también</span><span class="sxs-lookup"><span data-stu-id="90eae-109">See also</span></span>
 
-[<span data-ttu-id="721e1-110">Visión general de los contratos de nivel de servicio</span><span class="sxs-lookup"><span data-stu-id="721e1-110">Service level agreements overview</span></span>](service-level-agreements.md)
+[<span data-ttu-id="90eae-110">Visión general de los contratos de nivel de servicio</span><span class="sxs-lookup"><span data-stu-id="90eae-110">Service level agreements overview</span></span>](service-level-agreements.md)
 
   
 
