@@ -19,12 +19,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4bb2f340afffc5f62c200b4daac311db435d796e
-ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
+ms.openlocfilehash: adf890f5305f4e6a62c2d7527ff3b593ed61eff3
+ms.sourcegitcommit: c55fecae96b4bb27bc313ba10a97eddb9c91350a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3895386"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "3989250"
 ---
 # <a name="routes-and-operations"></a>Rutas y operaciones.
 
@@ -37,10 +37,10 @@ Este tema proporciona información acerca de las rutas y las operaciones. Una ru
 
 Una ruta describe el orden de las operaciones que se necesitan para producir un producto o una variante del producto. Para cada operación, la ruta también define los recursos de operaciones que se necesitan, el tiempo necesario para configurar y ejecutar la operación, y cómo el coste se debe calcular. Puede usar la misma ruta para generar varios productos o puede definir una ruta única para cada producto o variante del producto. Puede incluso tener varias rutas para el mismo producto. En este caso, la ruta que se utiliza varía, en función de factores como la cantidad que se debe producir. La definición de una ruta en Supply Chain Management consta de cuatro elementos independientes, en conjunto, describen el proceso de producción:
 
--   **Ruta**: una ruta define la estructura del proceso de producción. Es decir, define el orden de las operaciones.
--   **Operación**: una operación identifica un paso con nombre en una ruta, por ejemplo **Ensamblado**. La misma operación puede producirse en varias rutas y puede tener diferentes números de operación.
--   **Relación de operación**: una relación de operación define las propiedades operativas de una operación, como el tiempo de configuración y el tiempo de ejecución, las categorías de coste, los parámetros de consumo y los requisitos de recursos. La relación de operación permite a las propiedades operativas de una operación variar, en función de la ruta que la operación use en los productos que se generan.
--   **Versión de la ruta**: una versión de ruta define la ruta que se usa para generar un producto o una variante del producto. Las versiones de ruta permiten volver a utilizar las rutas en todos los productos o cambiarlas con el tiempo. También habilitan diferentes rutas que se utilizarán para generar el mismo producto. En este caso, la ruta que se utiliza depende de factores como la ubicación o la cantidad que se debe producir.
+- **Ruta**: una ruta define la estructura del proceso de producción. Es decir, define el orden de las operaciones.
+- **Operación**: una operación identifica un paso con nombre en una ruta, por ejemplo **Ensamblado**. La misma operación puede producirse en varias rutas y puede tener diferentes números de operación.
+- **Relación de operación**: una relación de operación define las propiedades operativas de una operación, como el tiempo de configuración y el tiempo de ejecución, las categorías de coste, los parámetros de consumo y los requisitos de recursos. La relación de operación permite a las propiedades operativas de una operación variar, en función de la ruta que la operación use en los productos que se generan.
+- **Versión de la ruta**: una versión de ruta define la ruta que se usa para generar un producto o una variante del producto. Las versiones de ruta permiten volver a utilizar las rutas en todos los productos o cambiarlas con el tiempo. También habilitan diferentes rutas que se utilizarán para generar el mismo producto. En este caso, la ruta que se utiliza depende de factores como la ubicación o la cantidad que se debe producir.
 
 ## <a name="routes"></a>Rutas
 Una ruta describe el orden de las operaciones que se usan para producir un producto o una variante del producto. A cada operación se le asigna un número de operación y una operación sucesora. El orden de las operaciones forma una red de rutas que se puede representar mediante un gráfico dirigido con uno o más puntos de inicio y un único punto de destino. En Supply Chain Management, las rutas se diferencian en función del tipo de estructura. Los dos tipos de rutas son rutas simples y redes de rutas. En los parámetros de control de producción, puede especificar si solo se pueden usar rutas simples o si se pueden usar redes de rutas más complejas.
@@ -60,9 +60,9 @@ Si habilita redes de rutas más complejas en los parámetros de control de produ
 [![Red de las rutas](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
 
 > [!NOTE]
-> -   Cada operación solo puede tener una operación sucesora y la totalidad de la ruta debe terminar en una sola operación.
-> -   Esto no garantiza que múltiples operaciones con la misma operación sucesora (por ejemplo, las operaciones 30 y 40 en la ilustración anterior) se vayan a ejecutar realmente en paralelo. La disponibilidad y la capacidad de los recursos puede limitar la forma en que se programan las operaciones.
-> -   No puede usar 0 (cero) como el número de operación. Ese número se reserva y utiliza para especificar que la última operación de la ruta no tiene ninguna operación sucesora.
+> - Cada operación solo puede tener una operación sucesora y la totalidad de la ruta debe terminar en una sola operación.
+> - Esto no garantiza que múltiples operaciones con la misma operación sucesora (por ejemplo, las operaciones 30 y 40 en la ilustración anterior) se vayan a ejecutar realmente en paralelo. La disponibilidad y la capacidad de los recursos puede limitar la forma en que se programan las operaciones.
+> - No puede usar 0 (cero) como el número de operación. Ese número se reserva y utiliza para especificar que la última operación de la ruta no tiene ninguna operación sucesora.
 
 ### <a name="parallel-operations"></a>Operaciones paralelas
 
@@ -99,12 +99,12 @@ Las propiedades operativas de la operación, como el tiempo de configuración y 
 ## <a name="operation-relations"></a>Relaciones de operación
 Las propiedades operativas siguientes de una operación se mantienen en la relación de operación:
 
--   Categorías de coste
--   Parámetros de consumo
--   Tiempos de procesamiento
--   Cantidades de procesamiento
--   Requisitos de recursos
--   Notas e instrucciones
+- Categorías de coste
+- Parámetros de consumo
+- Tiempos de procesamiento
+- Cantidades de procesamiento
+- Requisitos de recursos
+- Notas e instrucciones
 
 Puede definir varias relaciones de operación para la misma operación. Sin embargo, cada relación de operación es específica de una operación y se almacenan las propiedades que son específicas de una ruta, un producto liberado o un conjunto de productos nuevos relacionados con un grupo de artículos. Por lo tanto, la misma operación se puede utilizar en varias rutas que tengan propiedades operativas diferentes. Además, puede mantener con mayor facilidad sus datos maestros si usa las operaciones estándar que tengan las mismas propiedades operativas, independientemente de la ruta que se utiliza y el producto que se genera. El ámbito de la relación de operación se define mediante las propiedades **Código de artículo**, **Relación de artículo**, **Código de la ruta** y **Relación de la ruta**, como se muestra en la tabla siguiente.
 
@@ -166,12 +166,13 @@ Cuando Supply Chain Management busca la relación de operación más relevante p
 Por lo tanto, una operación se debe usar solo una vez para cada ruta. Si la operación tiene lugar varias veces en la misma ruta, todas las repeticiones de esa operación tendrán la misma relación de operación y no podrá haber distintas propiedades (por ejemplo, tiempo de ejecución) para cada repetición.
 
 ## <a name="route-versions"></a>Versiones de ruta
+
 Las versiones de ruta se utilizan para contemplar variaciones en la producción de productos, así como para proporcionar un mayor control del proceso de producción. Definen la ruta que se debe utilizar cuando se genera un producto liberado específico o a una variante de un producto liberado. Puede usar las restricciones siguientes para definir la ruta que se utiliza para un producto liberado:
 
--   Las dimensiones de producto (tamaño, color, estilo o configuración)
--   Cantidad de producción
--   Sitio de producción
--   Fecha de producción
+- Las dimensiones de producto (tamaño, color, estilo o configuración)
+- Cantidad de producción
+- Sitio de producción
+- Fecha de producción
 
 Cuando se está generando el producto en un sitio específico, en una cantidad específica o en un período específico, puede designar una versión de ruta específica como la versión de la ruta predeterminada. Sin embargo, tenga en cuenta que solo se permite una ruta activa para un producto liberado determinado y un conjunto concreto de restricciones.  
 
@@ -194,6 +195,7 @@ Si debe retener un registro que registre quién aprueba y activa cada versión d
 El caso de cambio de producto para la aprobación y activación de rutas nuevas o cambiadas y versiones de ruta le proporcionan una manera sencilla de considerar una descripción de las restricciones de la versión de ruta. También puede aprobar y activar todas las rutas relacionadas con respecto a un cambio específico en una operación y documentar los resultados en el caso de cambio del producto.
 
 ## <a name="maintaining-routes"></a>Mantener rutas
+
 En función de sus necesidades empresariales, es posible que pueda reducir el esfuerzo necesario para mantener las definiciones del proceso.
 
 ### <a name="making-routes-independent-of-resources"></a>Crear rutas independientes de los recursos
@@ -224,10 +226,10 @@ Cuando usa este enfoque, la página **Relaciones de operación** se convierte en
 
 Si no especifica un recurso de operaciones o un grupo de recursos como parte de los requisitos de recurso para una operación, los recursos aplicables pueden operar a varias velocidades. Por lo tanto, el tiempo necesario para procesar una operación puede variar. Para resolver este problema, puede usar el campo **Fórmula** de la relación de operación para especificar cómo se calcula el tiempo del proceso. Están disponibles las siguientes opciones:
 
--   **Estándar**: (opción predeterminada) el cálculo usa solo los campos de la relación de operación y multiplica el tiempo de ejecución especificado por la cantidad del pedido.
--   **Capacidad:** el cálculo incluye el campo **Capacidad** del recurso de operaciones. Por lo tanto, el tiempo depende de los recursos. El valor que se especifica en el recurso de operaciones es la capacidad por hora. El **Tiempo de proceso** se calcula como **Cantidad de pedido** dividida por **Capacidad**.
--   **Lote:** una capacidad de lote se calcula usando la información de la relación de operación. El número de lotes y, por tanto, el tiempo del proceso se pueden calcular en función de la cantidad del pedido.
--   **Lote de recursos:** esta opción es básicamente la misma que la opción **Lote**. Sin embargo, el cálculo incluye el campo **Capacidad de lote** del recurso de operaciones. Por lo tanto, el tiempo depende de los recursos.
+- **Estándar**: (opción predeterminada) el cálculo usa solo los campos de la relación de operación y multiplica el tiempo de ejecución especificado por la cantidad del pedido.
+- **Capacidad:** el cálculo incluye el campo **Capacidad** del recurso de operaciones. Por lo tanto, el tiempo depende de los recursos. El valor que se especifica en el recurso de operaciones es la capacidad por hora. El **Tiempo de proceso** se calcula como **Cantidad de pedido** dividida por **Capacidad**.
+- **Lote:** una capacidad de lote se calcula usando la información de la relación de operación. El número de lotes y, por tanto, el tiempo del proceso se pueden calcular en función de la cantidad del pedido.
+- **Lote de recursos:** esta opción es básicamente la misma que la opción **Lote**. Sin embargo, el cálculo incluye el campo **Capacidad de lote** del recurso de operaciones. Por lo tanto, el tiempo depende de los recursos.
 
 ### <a name="set-up-route-groups"></a>Configurar grupos de rutas
 
