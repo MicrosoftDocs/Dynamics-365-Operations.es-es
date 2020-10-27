@@ -16,13 +16,13 @@ ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-08
-ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: bb38c303760b45d599bc97340363448ab7781c69
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: aa3d9b01ae55c224b37d5c0671a72d958cf18934
+ms.sourcegitcommit: 2fc3bc7c6cd6baefdcf318b5c45d9b40e174ce21
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3802976"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "3973339"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management"></a>Novedades y cambios en Dynamics 365 Supply Chain Management
 

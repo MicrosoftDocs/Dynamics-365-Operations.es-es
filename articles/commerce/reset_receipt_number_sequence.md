@@ -3,7 +3,7 @@ title: Restablecer números de recibos
 description: Este tema describe cómo restablecer los números de recibos que se utilizan para diversas acciones en una fecha deseada (por ejemplo, el ejercicio o el año natural).
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 03/12/2020
+ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-Commerce
@@ -19,19 +19,19 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: e3243a69b98aae25ad8514890fb984c8a0d9f694
-ms.sourcegitcommit: 218e22014a964b8b52fc0152e355b07b0b84ae2c
+ms.openlocfilehash: 31ba82ac5e032734e00f2aee12339bc85a53550b
+ms.sourcegitcommit: 165e082e59ab783995c16fd70943584bc3ba3455
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "3456582"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "3967295"
 ---
 # <a name="reset-receipt-numbers"></a>Restablecer números de recibo 
 
 [!include [banner](includes/banner.md)]
 
 > [!NOTE]
-> Requerimos que seleccione la propiedad **Secuencia independiente** para todos los tipos de recibos en el perfil de funcionalidad antes de usar esta características. Además, la zona horaria del sistema del dispositivo, donde se utiliza el POS, debe coincidir con la zona horaria de la tienda correspondiente. Estamos trabajando para deshacernos de estas limitaciones en una versión futura. Póngase en contacto con el soporte técnico de Microsoft antes de usar esta función en producción.
+> Requerimos que seleccione la propiedad **Secuencia independiente** para todos los tipos de recibos en el perfil de funcionalidad antes de usar esta características. Además, la zona horaria del sistema del dispositivo, donde se utiliza el POS, debe coincidir con la zona horaria de la tienda correspondiente. Debido a estas limitaciones, le recomendamos que no utilice esta función en producción mientras trabajamos para solucionar estos problemas en una versión futura. 
 
 Los minoristas generan números de recibos para diversas acciones en la tienda, como transacciones de pago al contado sin entrega a domicilio, transacciones de devolución, pedidos de clientes, presupuestos y pagos. Aunque los minoristas definen sus propios formatos de recibos, algunos países o regiones tienen normativas que imponen restricciones a estos formatos de recibos. Por ejemplo, estas normativas podrían limitar el número de caracteres en el recibo, requerir números de recibos consecutivos, restringir algunos caracteres especiales o requerir un restablecimiento de los números de recibos al comienzo del año. Microsoft Dynamics 365 Commerce hace que el proceso de administración de números de recibos sea muy flexible, para ayudar a los minoristas a cumplir con los requisitos reglamentarios. Este tema explica cómo usar la funcionalidad para restablecer los números de recibos.
 

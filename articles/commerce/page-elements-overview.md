@@ -3,7 +3,7 @@ title: Glosario del modelo de página
 description: En este tema se describen varios elementos que se utilizan en las páginas de un sitio de Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 manager: annbe
-ms.date: 01/31/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: da41440581ad952540c7dcf3caa5e23582198a36
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 5c772a19958ebf0687d09af4c3055c733d99d750
+ms.sourcegitcommit: 83ec80382bfeb693d5c5949b6f65296bd50eed12
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026003"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "3973918"
 ---
 # <a name="page-model-glossary"></a>Glosario del modelo de página
 
@@ -54,6 +54,8 @@ En la tabla siguiente se ofrece un resumen de las condiciones con las que deber�
 [Estados y ciclo de vida de documentos](document-states-overview.md)
 
 [Trabajar con grupos de publicación](publish-groups.md)
+
+[Habilitar y usar el uso compartido entre canales](cross-channel-sharing.md)
 
 [Trabajar con módulos](work-with-modules.md)
 

@@ -3,7 +3,7 @@ title: Comprobador de coherencia de transacción comercial
 description: Este tema describe la funcionalidad del comprobador de coherencia de transacción en Dynamics 365 Commerce.
 author: josaw1
 manager: AnnBe
-ms.date: 10/14/2019
+ms.date: 10/07/2020
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: eb5c7389ba29d50232f9321e40bccceecd5f5fc6
-ms.sourcegitcommit: 02640a0f63daa9e509146641824ed623c4d69c7f
+ms.openlocfilehash: 3c7ca41b9e8a4c3127c98c756348959530a87996
+ms.sourcegitcommit: 1631296acce118c51c182c989e384e4863b03f10
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "3265627"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "3968781"
 ---
 # <a name="retail-transaction-consistency-checker"></a>Comprobador de coherencia de transacción comercial
 
@@ -47,12 +47,12 @@ El proceso por lotes **Validar transacciones de la tienda** comprueba la coheren
 
 - **Cuenta de cliente**: valida que existe la cuenta de cliente en las tablas de transacción en el maestro de clientes de la sede.
 - **Recuento de líneas**: valida que el número de líneas, como se recoge en la tabla de encabezado de transacción, coincide con el número de líneas en las tablas de transacción de ventas.
-- **El precio incluye impuestos**: valida que el parámetro **El precio incluye impuestos** es coherente entre las líneas de transacción.
-- **Importe del pago**: valida que los registros de pago coinciden con el importe del pago del encabezado.
-- **Importe bruto**: valida que el importe bruto del encabezado es la suma de los importes netos de las líneas más el importe de impuestos.
-- **Importe neto**: valida que el importe neto del encabezado es la suma de los importes netos de las líneas.
-- **Sobrepago o pago insuficiente**: valida que la diferencia entre el importe bruto del encabezado y el importe de pago no supera la configuración máxima de sobrepago o pago insuficiente.
-- **Importe de descuento**: valida que el importe de descuento de las tablas de descuento y el importe de descuento de las tablas de líneas de transacciones son coherentes y que el importe de descuento del encabezado es la suma de los importes de descuentos de las líneas.
+- **El precio incluye impuestos**: valida que el parámetro **El precio incluye impuestos** sea coherente en todas las líneas de transacción y que el precio de la línea de ventas sea conforme a la configuración de El precio incluye impuestos y de exención de impuestos.
+- **Importe del pago**: valida que los registros de pago coincidan con el importe del pago del encabezado, a la vez que se factoriza en la configuración de decimales en la contabilidad general.
+- **Importe bruto**: valida que el importe bruto del encabezado sea la suma de los importes netos de las líneas más el importe del impuesto, a la vez que se factoriza en la configuración del redondeo de decimales en la contabilidad general.
+- **Importe bruto**: valida que el importe neto del encabezado sea la suma de los importes netos de las líneas, a la vez que se factoriza en la configuración del redondeo de decimales en la contabilidad general.
+- **Sobrepago o pago insuficiente**: valida que la diferencia entre el importe bruto del encabezado y el importe de pago no supera la configuración máxima de sobrepago o pago insuficiente, a la vez que se factoriza en la configuración de decimales en la contabilidad general.
+- **Importe de descuento**: valida que el importe de descuento de las tablas de descuento y el importe de descuento de las tablas de líneas de transacciones comerciales son coherentes y que el importe de descuento del encabezado es la suma de los importes de descuentos de las líneas, a la vez que se factoriza en la configuración de decimales en la contabilidad general.
 - **Descuento de línea**: valida que el descuento de línea de la línea de transacción es la suma de todas las líneas de la tabla de descuentos correspondiente a la línea de transacción.
 - **Artículo de tarjeta regalo**: Commerce no admite la devolución de artículos de tarjeta regalo. Sin embargo, el saldo de una tarjeta regalo se puede cobrar. Cualquier artículo de tarjeta regalo que se procese como línea de devolución en lugar de una línea de cobro en efectivo produce un error en el proceso de registro de extractos. El proceso de validación para artículos de tarjeta regalo ayuda a garantizar que los únicos artículos de línea de tarjeta regalo de devolución en las tablas de transacciones son líneas de cobro en efectivo de tarjetas regalo.
 - **Precio negativo**: valida que no hay líneas de transacción de precio negativo.
@@ -61,6 +61,7 @@ El proceso por lotes **Validar transacciones de la tienda** comprueba la coheren
 - **Número de serie**: comprueba que el número de serie está presente en las líneas de transacción para artículos controlados por el número de serie.
 - **Signo**: comprueba que el signo de la cantidad y el importe neto son los mismos en todas las líneas de transacción.
 - **Fecha de negocio**: valida que los períodos financieros para todas las fechas de negocio para las transacciones están abiertos.
+- **Cargos**: valida que el importe del cargo de línea y de encabezado es conforme al precio, incluida la configuración de impuestos y de exención de impuestos.
 
 ## <a name="set-up-the-consistency-checker"></a>Configurar el comprobador de coherencia
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e1e19594327c0042915bfae87f480434a7fcb159
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: db4866b22060b764fdde3e4a44e99e969133c0a0
+ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269990"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3961619"
 ---
 # <a name="save-preview-and-publish-a-page"></a>Guardar, obtener una vista previa y publicar una página
 
@@ -38,9 +38,9 @@ Al guardar una página, los cambios solo son visibles para usted. La operación 
 
 ## <a name="preview-a-page"></a>Obtener una vista previa de una página
 
-La herramienta de creación ofrece dos tipos de características de vista previa: el panel de vista previa de “Lo que se ve es lo que se verá” (WYSIWYG) en el editor de páginas y una ventana de vista previa independiente.
+La herramienta de creación ofrece dos tipos de características de vista previa: generador de página visual, que es un panel de vista previa de “Lo que se ve es lo que se verá” (WYSIWYG) en el editor de páginas, y una ventana de vista previa independiente.
 
-Mientras usa el editor de páginas, una vista previa de “Lo que se ve es lo que se verá" (WYSIWYG) aparece en el panel central. Esta vista previa se actualiza automáticamente siempre que guarde la página. También puede actualizarla manualmente seleccionando **Actualizar** en la barra de comandos. La vista previa de WYSIWYG representa la página justo como la verán los usuarios, pero los ayudantes de la configuración se representan encima.
+Mientras usa el editor de páginas, una vista previa de “Lo que se ve es lo que se verá" (WYSIWYG) aparece en el panel central. Esta vista previa se actualiza automáticamente siempre que guarde la página. También puede actualizarla manualmente seleccionando **Actualizar** en la barra de comandos. La vista previa representa la página justo como la verán los usuarios, pero los ayudantes de la configuración se representan encima.
 
 Cuando haya terminado de modificar la página, es posible que desee obtener una vista previa de ella para ver lo que verán los clientes. Para obtener una vista previa de una página, seleccione **Vista previa** en la barra de comandos. La vista previa aparecerá en una ventana de explorador independiente. La página de la ventana de vista previa se representa justo como la verá el usuario del sitio. Puede cambiar el tamaño de la ventana para asegurarse de que los módulos dinámicos se representan correctamente en todos los puertos de vista.
 

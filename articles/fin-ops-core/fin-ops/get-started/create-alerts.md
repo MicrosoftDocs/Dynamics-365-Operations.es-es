@@ -3,7 +3,7 @@ title: Crear reglas de alertas
 description: Este tema proporciona información acerca de alertas y explica la manera de crear una regla de alerta para notificarle eventos como una fecha que se aproxima o un cambio concreto que aparezca.
 author: tjvass
 manager: AnnBe
-ms.date: 02/19/2020
+ms.date: 10/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 85d4774bc710f0c48b384601e5505f11394cf5d5
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: 94b68138066867fad641c70a1674c9292920ec6a
+ms.sourcegitcommit: d540998ad6f9c894ca99498c045ae4b86b779806
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3075933"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3970688"
 ---
 # <a name="create-alert-rules"></a>Crear reglas de alertas
 
@@ -92,3 +92,14 @@ Las alertas se pueden enviar externamente utilizando el marco de eventos empresa
 7. En la ficha desplegable **Avisar con**, en el campo **Asunto**, acepte el encabezado de asunto predeterminado para el mensaje de correo electrónico o escriba un nuevo asunto. El texto se usa como el encabezado de asunto del mensaje de correo electrónico que recibe cuando se desencadena una alerta. Si desea enviar la alerta como un evento de negocio, configure **Enviar externamente** a **Sí**.
 8. En el campo **Mensaje**, Inserte un mensaje opcional. El texto se usa como el mensaje que recibe cuando se desencadene la alerta.
 9. Seleccione **Aceptar** para guardar la configuración y crear la regla de alertas.
+
+## <a name="limitations-and-workarounds"></a>Limitaciones y soluciones
+
+### <a name="workaround-for-creating-alerts-for-the-secondary-data-sources-of-a-form"></a>Solución alternativa para crear alertas para las fuentes de datos secundarias de un formulario
+No se pueden crear alertas para algunas fuentes de datos secundarias en formularios. Por ejemplo, al crear alertas en el formulario de perfiles de publicación de clientes o proveedores, solo los campos en el encabezado (CustLedger o VendLedger) están disponibles y no las cuentas de dimensión. La solución alternativa para esta limitación es utilizar **SysTableBrowser** para abrir esa tabla como fuente de datos principal. 
+1. Abra la mesa en el formulario **SysTableBrowser**.
+    ```
+        https://<EnvironmentURL>/?cmp=USMF&mi=SysTableBrowser&TableName=<TableName>
+    ```
+2. Cree una alerta desde el formulario SysTableBrowser.
+

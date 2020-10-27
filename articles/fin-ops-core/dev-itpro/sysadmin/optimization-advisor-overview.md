@@ -16,15 +16,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: roxanad
+ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 4bcc6937da0e9f66014d9c00668e0c6790433ba8
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 25ca62466c00b038e0d7e1758fd4f13f776cb2f0
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811979"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3982561"
 ---
 # <a name="optimization-advisor-overview"></a>Visión general de aviso de optimización
 
@@ -32,7 +32,7 @@ ms.locfileid: "2811979"
 
 Este tema describe cómo puede usar el asesor de optimización para ayudar a garantizar la configuración óptima de Finance and Operations.
 
-## <a name="overview"></a>Visión general
+## <a name="overview"></a>Información general
 
 La configuración incorrecta y la configuración de un módulo pueden afectar negativamente a la disponibilidad de las características de la aplicación, el rendimiento del sistema, y la ejecución fluida de procesos empresariales. La calidad de datos empresariales (por ejemplo, la corrección, la integridad y la limpieza de los datos) también afecta al rendimiento del sistema, así como a las capacidades de toma de decisiones de una organización, su productividad, etc.
 

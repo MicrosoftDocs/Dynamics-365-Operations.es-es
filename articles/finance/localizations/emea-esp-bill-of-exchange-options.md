@@ -14,15 +14,15 @@ ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 264644
 ms.search.region: Spain
-ms.author: v-elgolu
+ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 11ad5bef0972476ddf9953080842105dbfa99ece
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0781ac0f553ac1a835aac5fae84dd55bf4954bef
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183592"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3984853"
 ---
 # <a name="spanish-bill-of-exchange-options"></a>Opciones de letras de cambio españolas
 

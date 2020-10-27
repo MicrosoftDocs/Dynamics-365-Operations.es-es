@@ -13,15 +13,15 @@ ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Mexico
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6a22be71d0b7d703cfb4e071d6dbc1cead01deb9
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 2da66954a530e927767de8349298a4327ab21354
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770399"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3983460"
 ---
 # <a name="mexico-overview"></a>Visión general de México
 

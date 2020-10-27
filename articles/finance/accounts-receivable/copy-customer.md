@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mikefalkner
+ms.author: roschlom
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 848c5b21afccb544e2b3d26ecc8cadac0c860796
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 91f7568ea8364f97de7e514fb207191ee00041a5
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184149"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3977872"
 ---
 # <a name="copy-customers-by-using-shared-number-sequences"></a>Copiar clientes mediante secuencias numéricas compartidas
 
@@ -52,7 +52,7 @@ Para copiar un cliente, en el campo **Nombre**, escriba uno o más caracteres qu
 Puede copiar una parte si tiene un rol de cliente y si tiene dicho rol en una entidad jurídica que no sea la entidad jurídica actual. Cuando encuentre una parte que cumpla esos criterios, siga estos pasos.
 
 1. Aparece una opción **Copiar cliente**. Esta opción se establece en **No** de forma predeterminada. Para copiar el cliente en la entidad jurídica actual, establezca la opción en **Sí**. 
-2. Aparece​ un campo **Entidad jurídica**. Seleccione la entidad jurídica desde la que copiar el cliente. Si el cliente existe en una entidad jurídica, el campo se establece en esa entidad jurídica de forma predeterminada.
+2. Aparece un campo **Entidad jurídica**. Seleccione la entidad jurídica desde la que copiar el cliente. Si el cliente existe en una entidad jurídica, el campo se establece en esa entidad jurídica de forma predeterminada.
 3. Seleccione **Seleccionar**. Se crea el nuevo cliente.
 
 ## <a name="validation"></a>Validación

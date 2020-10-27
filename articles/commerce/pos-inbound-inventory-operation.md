@@ -3,7 +3,7 @@ title: Operación de inventario entrante en PDV
 description: Este tema describe las capacidades de la operación de inventario de entrada del punto de venta (PDV).
 author: hhaines
 manager: annbe
-ms.date: 08/18/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 16a786a4b3ca1bcbd202f6753bdf3bf7233a4333
-ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
+ms.openlocfilehash: 89021a85c2b215695d7cc25215c049205f71956d
+ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3710318"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3971506"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Operación de inventario entrante en PDV
 
@@ -133,6 +133,18 @@ La vista **Recibiendo ahora** proporciona una forma centrada para que los usuari
 Las validaciones ocurren durante el proceso de recepción de las líneas del documento. Incluyen validaciones para sobre-entrega. Si un usuario intenta recibir más inventario del que se ordenó en un pedido de compra, pero la entrega en exceso no está configurada o la cantidad recibida excede la tolerancia de entrega en exceso configurada para la línea de pedido de compra, el usuario recibe un error y no se le permite recibir la cantidad en exceso.
 
 La sobre recepción no está permitida para los documentos de la orden de transferencia. Los usuarios siempre recibirán errores si intentan recibir más de lo que se envió para la línea de pedido de transferencia.
+
+### <a name="close-purchase-order-lines"></a>Cerrar líneas de pedido de compra
+
+Puede cerrar la cantidad restante en una orden de compra entrante durante el proceso de recepción si el remitente ha confirmado que no puede enviar la cantidad completa solicitada. Para ello, la empresa debe estar configurada para permitir la entrega incompleta de órdenes de compra. Además, se debe definir un porcentaje de tolerancia incompleto para la línea de pedido de compra.
+
+Para configurar la empresa para permitir la entrega deficiente de órdenes de compra, en la sede de Commerce, vaya a **Adquisiciones y abastecimiento** > **Configuración** > **Parámetros de adquisición y abastecimiento**. En la pestaña **Entrega**, active el parámetro **Aceptar entrega deficiente**. A continuación, ejecute el trabajo de programación de distribución **1070** (**Configuración global**) para sincronizar los cambios de configuración en los canales.
+
+Los porcentajes de tolerancia de suministro incompleto para una línea de pedido de compra pueden predefinirse en productos como parte de la configuración de producto en Commerce Headquarters. Alternativamente, se pueden establecer o sobrescribir en un pedido de compra específico en Commerce Headquarters.
+
+Después de que una organización haya terminado las configuraciones de la entrega incompleta del pedido de compra, los usuarios del PDV verán una nueva opción **Cerrar la cantidad restante** en el panel **Detalles** cuando se selecciona una línea de pedido de compra entrante en la operación **Inventario entrante**. Si el usuario cierra la cantidad restante, el PDV realiza una validación para verificar si la cantidad que se cierra está dentro del porcentaje de tolerancia de porcentaje de entrega incompleta que se define en la línea de pedido de compra. Si se excede la tolerancia de entrega insuficiente, se muestra un mensaje de error y el usuario no podrá cerrar la cantidad restante hasta que la cantidad recibida anteriormente más la cantidad de **Recibiendo ahora** alcance o exceda la cantidad mínima que debe recibirse en función del porcentaje de tolerancia de entrega insuficiente. 
+
+Con la opción **Cerrar cantidad restante** activada para una línea de orden de compra, cuando el usuario completa el recibo usando la acción **Terminar de recibir**, también se envía una solicitud de cierre a Commerce Headquarters, y se cancelará cualquier cantidad no recibida de esta línea de pedido. En ese momento, la línea se considera completamente recibida. 
 
 ### <a name="receiving-location-controlled-items"></a>Recepción de artículos controlados por ubicación
 

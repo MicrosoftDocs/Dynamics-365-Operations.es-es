@@ -14,15 +14,15 @@ ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 261334
 ms.search.region: Spain
-ms.author: v-elgolu
+ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bb5cb9dd466b07137d58affe046758ce04c032d7
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c6440ada086b1acc0182972bfca23b13933539b3
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175730"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3981732"
 ---
 # <a name="special-entries-and-opening-sheets"></a>Entradas especiales y hojas de apertura
 

@@ -3,7 +3,7 @@ title: Características de Platform quitadas u obsoletas
 description: En este tema se describen las características que se han eliminado, o que está previsto que se eliminen en las Platform updates de las aplicaciones de Finance and Operations.
 author: sericks007
 manager: AnnBe
-ms.date: 09/17/2020
+ms.date: 09/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 0b78401f4c1cf289247cd2d600f097ecdf6a712c
-ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
+ms.openlocfilehash: 51d1d0ed2ce95573ec123121999d73446a7e4ea4
+ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "3819898"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3971454"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Características de Platform quitadas u obsoletas
 
@@ -34,6 +34,22 @@ En este tema se describen las características que se han eliminado, o que está
 Esta lista está pensada para ayudarle a tener en cuenta estas eliminaciones y deprecaciones para su propia planificación. 
 
 La información detallada sobre los objetos de aplicaciones Finance and Operations se puede encontrar en los [Informes de referencia técnica](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Se pueden comparar las diferentes versiones de estos informes para conocer los objetos que se han modificado o quitado en cada versión de aplicaciones Finance and Operations.
+
+## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Platform updates para la versión 10.0.15 de aplicaciones Finance and Operations
+
+> [!NOTE]
+> La versión 10.0.15 es una versión preliminar. El contenido y la funcionalidad están sujetos a cambios. Para obtener más información acerca las versiones preliminares, consulte [Preguntas frecuentes sobre actualizaciones del servicio de una versión](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
+
+### <a name="visual-studio-add-in-to-apply-metadata-hotfixes"></a>Complemento de Visual Studio para aplicar revisiones de metadatos
+
+|   |  |
+|------------|--------------------|
+| **Motivo de la depreciación/eliminación** | Las revisiones de metadatos ya no son compatibles con las actualizaciones del servicio [One Version](../../fin-ops/get-started/one-version.md) que se introdujeron en julio de 2018 con la versión 8.1. |
+| **¿Reemplazado por otra característica?**   | Las revisiones de metadatos individuales no están disponibles para las versiones compatibles. En su lugar, se aplican actualizaciones de calidad acumulativas. |
+| **Áreas de producto afectadas**         | Complementos de Visual Studio |
+| **Opción de implementación**              | Máquinas virtuales de desarrollo |
+| **Estado**                         | Con la versión 10.0.15, el complemento ya no se incluye en las herramientas de Visual Studio. |
+
 
 ## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>Platform updates para la versión 10.0.14 de aplicaciones Finance and Operations
 
@@ -50,6 +66,7 @@ La información detallada sobre los objetos de aplicaciones Finance and Operatio
 | **Áreas de producto afectadas**         | Administración del sistema |
 | **Opción de implementación**              | Todos |
 | **Estado**                         | Para octubre de 2021, este formulario se habrá eliminado.   |
+
 
 ## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Platform updates para la versión 10.0.13 de aplicaciones Finance and Operations
 

@@ -3,7 +3,7 @@ title: Introducción a la optimización de la planificación
 description: Este tema explica cómo empezar a usar la función de optimización de la planificación.
 author: ChristianRytt
 manager: tfehr
-ms.date: 05/06/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,20 +19,25 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 04b39469ccf4f088bb33bdfc73ce40eece6f5f2e
-ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
+ms.openlocfilehash: 49025d0aa0f6a627b816a43dd4260449942b400c
+ms.sourcegitcommit: ae04c7cb48f7ecafe71bbe77a0f97715e6290991
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "3887273"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "3973485"
 ---
 # <a name="get-started-with-planning-optimization"></a>Introducción a la optimización de la planificación
 
 [!include [banner](../../includes/banner.md)]
 
-La funcionalidad de optimización de la planificación no admite actualmente todas las características disponibles en el motor de planificación que se incorpora en Microsoft Dynamics 365 Supply Chain Management. Por lo tanto, es importante que evalúe si la función que están disponible actualmente en la optimización de la planificación cumplirá sus requisitos. De forma predeterminada, la funcionalidad de optimización de la planificación no está activada Dynamics Lifecycle Services (LCS) de forma predeterminada. Por lo tanto, tiene una oportunidad de realizar la evaluación antes de que se active.
+Como se [anunció previamente](https://docs.microsoft.com/dynamics365/supply-chain/get-started/removed-deprecated-features-scm-updates#use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios), Planning Optimization está programado para reemplazar el motor de planificación maestro integrado existente.
 
-Finalmente, la optimización de la planificación reemplazará al motor de planificación de Supply Chain Management integrado.
+Si actualmente utiliza el motor de planificación maestro integrado, debería comenzar a planificar su migración a Planning Optimization ahora. Es importante comenzar el proceso de migración de inmediato porque sus operaciones pueden verse afectadas cuando se aplica la obsolescencia. Para evitar problemas de última hora cuando se aplica la desactivación, le recomendamos encarecidamente que complete la migración antes del 1 de diciembre de 2020. 
+
+La funcionalidad de optimización de la planificación no admite actualmente todas las características disponibles en el motor de planificación que se incorpora en Supply Chain Management. Por lo tanto, es importante que evalúe si la función que están disponible actualmente en la optimización de la planificación cumplirá sus requisitos. La funcionalidad de Planning Optimization no está activada actualmente de forma predeterminada en Dynamics Lifecycle Services (LCS), por lo que tiene la oportunidad de realizar su evaluación antes de que se active la función.
+
+> [!NOTE]
+> Debe solicitar una excepción de la migración a Planning Optimization si su proceso de planificación maestra no incluye la producción (la planificación maestra generó órdenes de producción planificadas) y necesita el motor de planificación maestra incorporado más allá de la versión 10.0.15. A partir de la versión 10.0.16, se mostrará un error en los entornos al ejecutar la planificación maestra incorporada sin la generación de órdenes de producción planificadas. La optimización de planificación debe utilizarse para todas las implementaciones nuevas que no generan órdenes de producción planificadas durante la planificación maestra. Los propietarios de entornos existentes que ejecutan el motor de planificación maestro incorporado sin generar órdenes de producción planificadas recibirán un correo con detalles sobre el proceso de excepción. Le recomendamos que trabaje con un socio para evaluar y planificar la migración a Planning Optimization.
 
 Antes de activar o desactivar la planificación de optimización, se recomienda encarecidamente que evalúe los resultados del análisis de aptitud de optimización de la planificación. Para obtener más información, consulte [Análisis de aptitud de optimización de la planificación](planning-optimization-fit-analysis.md).
 

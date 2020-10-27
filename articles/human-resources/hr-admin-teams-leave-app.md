@@ -3,7 +3,7 @@ title: Aplicación Recursos humanos en Teams
 description: Este tema presenta la aplicación Microsoft Dynamics 365 Human Resources en Microsoft Teams.
 author: andreabichsel
 manager: AnnBe
-ms.date: 09/01/2020
+ms.date: 09/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 33322b9b553076125695f257b201463e9d8275c6
-ms.sourcegitcommit: e27510ba52623c801353eed4853f8c0aeea3bb2d
+ms.openlocfilehash: 51f04e553da822c4e09d31bcd72c71b674ad1f1b
+ms.sourcegitcommit: b6ab46f6e5ce60e2c3d70a348827eaf60c84cae2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3828923"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3930026"
 ---
 # <a name="human-resources-app-in-teams"></a>Aplicación Recursos humanos en Teams
 
 [!include [banner](includes/preview-feature.md)]
 
-La aplicación Microsoft Dynamics 365 Human Resources de Microsoft Teams permite a los empleados solicitar rápidamente tiempo libre y ver su información de saldo de tiempo libre en Microsoft Teams. Los empleados pueden interactuar con un bot para solicitar información. La pestaña **Tiempo libre** proporciona más information detallada. Además, permite enviar información a los usuarios sobre el próximo tiempo libre a través de equipos y chats que haya fuera de la aplicación de Recursos Humanos.
+La aplicación Microsoft Dynamics 365 Human Resources de Microsoft Teams permite a los empleados solicitar rápidamente tiempo libre y ver su información de saldo de tiempo libre en Microsoft Teams. Los empleados pueden interactuar con un bot para solicitar información. La pestaña **Tiempo libre** proporciona información más detallada. Además, pueden enviar información a los usuarios sobre el próximo tiempo libre a través de equipos y chats que haya fuera de la aplicación de Human Resources.
 
 ![Bot de la aplicación de bajas de Recursos Humanos en Teams](./media/hr-admin-teams-leave-app-bot.png)
 
@@ -90,6 +90,22 @@ Una vez que haya habilitado las notificaciones para la aplicación en la aplicac
 | El saldo es incorrecto si se envía tiempo libre para una fecha futura. | La previsión no está disponible aún. El saldo se muestra para la fecha actual. |
 | No se puede cancelar una solicitud **En revisión**. | Esta funcionalidad no es compatible actualmente y se agregará en una versión futura. |
 | La información del saldo se calcula a partir de hoy. | El sistema actualmente no muestra saldos a partir del período de acumulación, incluso si está configurado en los parámetros de Baja y Ausencia. |
+
+## <a name="troubleshooting"></a>Solución de problemas
+
+Si un usuario tiene problemas para iniciar sesión o utilizar la aplicación Equipos de recursos humanos, intente seguir estas instrucciones de solución de problemas. Si sigue teniendo problemas después de la resolución de problemas, comuníquese con Soporte. Para obtener más información, consulte [Obtener soporte](hr-admin-troubleshooting-support.md).
+
+### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>No puedo iniciar sesión en la aplicación de recursos humanos en Teams
+
+Si un usuario se comunica con usted porque no puede iniciar sesión en la aplicación, verifique que el usuario tenga un registro de empleado asociado en Human Resources.
+
+### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Error al aprobar solicitudes de licencia en la aplicación Human Resources en Teams
+
+Si un usuario recibe un error mientras intenta aprobar solicitudes de permiso en la aplicación Teams, realice los siguientes pasos de solución de problemas:
+
+1. Verifique que su cuenta de Teams sea la misma que usan para acceder a Human Resources.
+
+2. Verifique que son un aprobador válido para la solicitud al verificar la configuración del flujo de trabajo para la aprobación de la licencia. Para obtener más información sobre los flujos de trabajo de solicitud de licencia, consulte [Crear un flujo de trabajo de solicitud de licencia](hr-leave-and-absence-workflow.md).
 
 ## <a name="privacy-notice"></a>Aviso de privacidad
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1802938f54a1d78e6ea60572a76177a037192ae0
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 6e6ca7d04b86232ba48474fcbe288a18995661ae
+ms.sourcegitcommit: 6a89816f94c8cdcae6e56fa89843eb99c28b21fa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428602"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "3969031"
 ---
 # <a name="configure-leave-and-absence-types"></a>Configurar tipos de permisos y ausencias
 
@@ -56,7 +56,9 @@ Los tipos de permisos en Dynamics 365 Human Resources definen los distintos tipo
 
 8. Debajo de **Restringir el acceso a los roles seleccionados**, elija si desea restringir el acceso. Luego seleccione los roles de seguridad en **Roles de seguridad para este tipo de permiso**. Los roles de seguridad se definen en el flujo de trabajo que ha seleccionado en **Id. de flujo de trabajo** anteriormente en este procedimiento.
 
-9. En **Relaciones de suspensión**, elija si desea que este tipo de licencia suspenda otro tipo de licencia o sea suspendido por otro tipo de licencia. Cuando se envía una solicitud de baja para el tipo de licencia que suspende, se creará automáticamente una suspensión de licencia para el tipo de licencia suspendida. 
+9. Debajo de **Color del calendario**, elija qué color mostrar en los calendarios de permisos y ausencias para este tipo de permisos. 
+
+10. En **Relaciones de suspensión**, elija si desea que este tipo de licencia suspenda otro tipo de licencia o sea suspendido por otro tipo de licencia. Cuando se envía una solicitud de baja para el tipo de licencia que suspende, se creará automáticamente una suspensión de licencia para el tipo de licencia suspendida. 
 
 10. Seleccione **Guardar**.
 

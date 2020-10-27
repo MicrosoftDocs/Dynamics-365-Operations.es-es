@@ -3,7 +3,7 @@ title: Métodos para agregar contenido
 description: En este tema se proporciona una descripción general y vínculos seleccionados para saber dónde y cómo comenzar a administrar el contenido mediante el conjunto de herramientas de creación web del configurador de sitios de Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 manager: annbe
-ms.date: 01/31/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 916e28c2628613332246d19af0fae81f258404b0
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 802a41b8c55e65eee58d26137c2f160b69847010
+ms.sourcegitcommit: 83ec80382bfeb693d5c5949b6f65296bd50eed12
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025744"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "3973989"
 ---
 # <a name="ways-to-add-content"></a>Métodos para agregar contenido
-
 
 [!include [banner](includes/banner.md)]
 
@@ -51,6 +50,10 @@ Seleccione uno de los siguientes temas para empezar.
 
 ## <a name="additional-resources"></a>Recursos adicionales
 
-[Visión general de creación de la página](authoring-home-overview.md)
+[Visión general de creación de páginas](authoring-home-overview.md)
+
+[Glosario del modelo de página](page-elements-overview.md)
 
 [Estados y ciclo de vida de documentos](document-states-overview.md)
+
+[Habilitar y usar el uso compartido entre canales](cross-channel-sharing.md)
