@@ -5,6 +5,12 @@
       items:
         - name: Novedades y cambios en Human Resources
           href: hr-admin-whats-new.md
+        - name: 22 de octubre de 2002
+          href: hr-whats-new-2020-10-22.md
+        - name: 6 de octubre de 2020
+          href: hr-whats-new-2020-10-06.md
+        - name: 26 de septiembre de 2020
+          href: hr-whats-new-2020-09-26.md
         - name: 16 de septiembre de 2020
           href: hr-whats-new-2020-09-16.md
         - name: 3 de septiembre de 2020
@@ -81,8 +87,10 @@
               href: hr-admin-integration-finance.md
             - name: Configurar la integración con Dayforce
               href: hr-admin-integration-dayforce.md
-            - name: Crear una aplicación de exportación de datos recurrente
+            - name: Crear una aplicación de exportación de datos periódica
               href: hr-admin-integration-recurring-data-export.md
+            - name: Integrar con LinkedIn Talent Hub
+              href: hr-admin-integration-linkedin.md
             - name: Integrar con Office
               items:
                 - name: Tutorial de integración con Office
@@ -217,6 +225,10 @@
               href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/human-resources/toc.json
         - name: Aplicación Human Resources en Teams
           href: hr-admin-teams-leave-app.md
+        - name: Prepararse para la publicación
+          href: hr-admin-go-live-prepare.md
+        - name: Preguntas frecuentes sobre la publicación
+          href: hr-admin-go-live-faq.md
         - name: Recursos de documentación
           items:
             - name: Sistema de ayuda
@@ -279,7 +291,7 @@
               href: hr-admin-integration-finance.md
             - name: Configurar la integración con Dayforce
               href: hr-admin-integration-dayforce.md
-            - name: Crear una aplicación de exportación de datos recurrente
+            - name: Crear una aplicación de exportación de datos periódica
               href: hr-admin-integration-recurring-data-export.md
             - name: Integrar con Office
               items:
@@ -667,9 +679,11 @@
               href: hr-learning-depending-question.md
         - name: Configurar autoservicio para empleado y director
           items:
-            - name: Visión general de autoservicio para empleado y director
+            - name: Visión general del autoservicio para empleado y director
               href: hr-employee-manager-self-service-overview.md
-            - name: Cambiar el nombre del espacio de trabajo de autoservicio para empleados
+            - name: Crear vínculos personalizados en el autoservicio para el director
+              href: hr-employee-manager-self-service-custom-links.md
+            - name: Cambiar el nombre del espacio de trabajo de autoservicio para el empleado
               href: hr-employee-self-service-workspace-name.md
             - name: Editar información personal
               href: hr-employee-manager-self-service-edit-personal-information.md

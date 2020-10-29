@@ -136,15 +136,17 @@
                           href: data-entities/dual-write/dual-write-home-page.md
                         - name: Novedades y cambios en doble escritura
                           href: data-entities/dual-write/whats-new-dual-write.md
-                        - name: Visión general de doble escritura
+                        - name: Visión general de la doble escritura
                           href: data-entities/dual-write/dual-write-overview.md
-                        - name: Configuración de doble escritura
+                        - name: Configuración de la doble escritura
                           items:
-                            - name: Requisitos del sistema para doble escritura
+                            - name: Requisitos del sistema para la doble escritura
                               href: data-entities/dual-write/dual-write-system-req.md
-                            - name: Escenarios admitidos para la configuración de doble escritura
+                            - name: Orientación sobre cómo configurar la doble escritura
                               href: data-entities/dual-write/connection-setup.md
-                            - name: Configuración de doble escritura de Lifecycle Services
+                            - name: Consideraciones para la sincronización inicial
+                              href: data-entities/dual-write/initial-sync-guidance.md
+                            - name: Configuración de la doble escritura de Lifecycle Services
                               href: data-entities/dual-write/lcs-setup.md
                             - name: Habilitar doble escritura para aplicaciones de Finance and Operations existentes
                               items:
@@ -402,8 +404,10 @@
                   href: database/import-database.md
                 - name: Restauración en un momento determinado de la base de datos
                   href: database/database-point-in-time-restore.md
-                - name: Restauración en un momento determinado de la base de datos de producción a un entorno de espacio aislado
+                - name: Restauración en un momento determinado de la base de datos de producción en un entorno de espacio aislado
                   href: database/database-pitr-prod-sandbox.md
+                - name: Habilitar el acceso a la base de datos cuando es necesario
+                  href: database/database-just-in-time-jit-access.md
             - name: Tutoriales
               items:
                 - name: Actualización para fines de formación
@@ -480,11 +484,13 @@
                   href: deployment/Update-retail-channel.md
                 - name: Inicializar Commerce Scale Unit (nube)
                   href: deployment/Initialize-Retail-Channels.md
+                - name: Migrar canales a otra instancia de Commerce Scale Unit
+                  href: deployment/Reassign-CSU.md
                 - name: Residencia de datos de Retail
                   href: deployment/retail-data-residency.md
             - name: Implementación local
               items:
-                - name: Página principal de Implementación local
+                - name: Página principal de la implementación local
                   href: deployment/on-premises-deployment-landing-page.md
                 - name: Prepararse para implementaciones locales
                   items:
@@ -1456,17 +1462,17 @@
               href: lifecycle-services/lcs-support.md
             - name: Visión general del soporte técnico de Dynamics 365
               href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
-            - name: Obtener soporte para Finance and Operations operado por 21Vianet en China
+            - name: Obtener soporte técnico para Finance and Operations gestionado por 21Vianet en China
               href: lifecycle-services/21vianet-support.md
-            - name: Configurar soporte técnico para Finance and Operations
+            - name: Configurar el soporte técnico para aplicaciones de Finance and Operations
               href: lifecycle-services/support-experience.md
-            - name: Administrar experiencias de soporte de Finance and Operations
+            - name: Administrar las experiencias de soporte técnico con aplicaciones de Finance and Operations
               href: lifecycle-services/cloud-powered-support-lcs.md
         - name: Administración del sistema
           items:
             - name: Página principal de Administración del sistema
               href: sysadmin/system-administration-home-page.md
-            - name: Agregar vínculos a los términos legales y a la declaración de privacidad
+            - name: Agregar vínculos a los términos jurídicos y a la declaración de privacidad
               href: sysadmin/legal-terms-privacy-statement.md
             - name: Informe de códigos de licencia y claves de configuración
               href: sysadmin/license-codes-configuration-keys-report.md
