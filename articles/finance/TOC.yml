@@ -240,7 +240,9 @@
                   href: accounts-payable/submit-invoice-workflow-automatically.md
                 - name: Ver resultados de automatización de facturas de proveedores
                   href: accounts-payable/view-automated-vendor-invoice.md
-            - name: Distribuciones contables y asientos del subdiario contable para las facturas de proveedor
+                - name: Espacio de trabajo de entrada de facturas de proveedor
+                  href: accounts-payable/vendor-invoices-workspace.md
+            - name: Distribuciones contables y movimientos del subdiario contable de las facturas de proveedor
               href: accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
             - name: Conciliación de facturas y pedidos de compra de empresas vinculadas
               href: accounts-payable/invoice-matching-intercompany-purchase-orders.md
@@ -922,7 +924,9 @@
                   href: general-ledger/open-lines-excel-journals-documents.md
                 - name: Ver movimientos del diario y transacciones
                   href: general-ledger/view-journal-entries-transactions.md
-                - name: Registrar en el diario movimientos de diario
+                - name: Saldo de comprobación con informe de detalles de transacciones
+                  href: public-sector/general-ledger-public-sector-trial-balance.md
+                - name: Registrar en el diario movimientos de diario registrados
                   href: general-ledger/tasks/journalize-posted-journal-entries.md
                 - name: Revalorización de divisa en una empresa de consolidación
                   href: general-ledger/currency-revaluation-consolidation-company.md
@@ -1170,8 +1174,6 @@
                   href: public-sector/advanced-ledger-entries-public-sector.md
                 - name: Creación de un asiento contable avanzado en el sector público
                   href: public-sector/tasks/create-advanced-ledger-entry-public-sector.md
-                - name: Saldo de comprobación con informe de detalles de transacciones
-                  href: public-sector/general-ledger-public-sector-trial-balance.md
                 - name: Usar límites de control de efectivo
                   href: public-sector/cash-control.md
                 - name: Procesamiento de cierre de ejercicio en el sector público
@@ -1398,6 +1400,8 @@
                       href: localizations/tasks/br-00053-3-generate-emails-approved-nf-e-attach-danfe-pdf-files-nf-e-xml-files-emails.md
                     - name: Certificados NF-e
                       href: localizations/latam-bra-nfe-certs.md
+                    - name: Validación de certificados personalizados NF-e
+                      href: localizations/nf-e-custom-certificate-validation.md
                     - name: 'Configurar, importar y comprobar DANFE y documentos NF-e XML'
                       href: localizations/latam-bra-set-up-import-nfe.md
                     - name: Configurar parámetros federales de NF-e
@@ -2076,15 +2080,17 @@
                       href: localizations/apac-ind-GST-tax-journal.md
                     - name: Generar los datos del informe de GSTR para devoluciones de impuestos
                       href: localizations/apac-ind-GST-tax-returns.md
-                    - name: Habilitar el procesamiento multilote para informes de GSTR
+                    - name: Habilitar el procesamiento multilote de los informes de GSTR
                       href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
-                    - name: Consulta impositiva
+                    - name: Consulta fiscal
                       href: localizations/apac-ind-GST-tax-inquiry.md
+                    - name: Limpiar la tabla TaxDocumentJSON
+                      href: localizations/gte-clean-up-tax-document-json-table.md
                 - name: Motor de impuestos
                   items:
                     - name: Visión general del motor de impuestos
                       href: general-ledger/tax-engine.md
-                    - name: Configuración de importación
+                    - name: Importar configuración
                       href: general-ledger/tax-engine-import-configuration.md
                     - name: Diseñador de fórmulas avanzadas
                       href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/finance/toc.json
@@ -2651,7 +2657,7 @@
                         - name: Visión general del perfil de inventario
                           href: localizations/rus-inventory-profile-overview.md
                         - name: Configurar un perfil de inventario
-                          hreF: localizations/rus-set-up-inventory-profile.md
+                          href: localizations/rus-set-up-inventory-profile.md
                         - name: Usar un perfil de inventario en documentos y consultas
                           href: localizations/rus-use-inventory-profile-documents-queries.md
                 - name: Informes

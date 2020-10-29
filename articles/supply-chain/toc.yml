@@ -1735,6 +1735,8 @@
                   href: procurement/purchase-agreements.md
                 - name: Crear un acuerdo de compra
                   href: procurement/tasks/create-purchase-agreement.md
+                - name: Asignación automática de cargos
+                  href: procurement/automatic-charges-allocation.md
                 - name: Devoluciones de proveedor
                   href: procurement/vendor-rebates.md
                 - name: 'Solucionar problemas de precios, descuentos, acuerdos y devoluciones'
@@ -2041,6 +2043,14 @@
                       href: production-control/release-production-orders.md
                     - name: Notificar pedidos de producción como terminados
                       href: production-control/report-production-orders-as-finished.md
+                    - name: Configurar y usar la interfaz de ejecución de la planta de producción
+                      items:
+                        - name: Configurar la interfaz de ejecución de la planta de producción
+                          href: production-control/production-floor-execution-configure.md
+                        - name: Configurar un dispositivo para que ejecute la interfaz de ejecución de la planta de producción
+                          href: production-control/production-floor-execution-setup.md
+                        - name: Cómo los trabajadores usan la interfaz de ejecución de la planta de producción
+                          href: production-control/production-floor-execution-use.md
                     - name: Configurar tarjeta de trabajo para dispositivos
                       href: production-control/config-job-card-device.md
                     - name: Notificar como terminado desde el dispositivo de tarjetas de trabajo
@@ -2275,7 +2285,9 @@
                   href: sales-marketing/tasks/ship-orders-direct-deliveries.md
                 - name: Enviar pedidos de ventas sin almacenamiento
                   href: sales-marketing/tasks/ship-sales-orders-without-warehousing.md
-                - name: Crear un pedido de compra desde un pedido de ventas
+                - name: Asignación automática de cargos
+                  href: procurement/automatic-charges-allocation.md
+                - name: Crear un pedido de compra a partir de un pedido de ventas
                   href: sales-marketing/tasks/create-purchase-order-sales-order.md
                 - name: Crear pedidos de ventas
                   href: sales-marketing/tasks/create-sales-orders.md
@@ -2663,8 +2675,6 @@
                       href: warehousing/tasks/license-plate-label-printing.md
                     - name: Crear pedidos de transferencia desde la aplicación de almacén
                       href: warehousing/create-transfer-order-from-warehouse-app.md
-                    - name: Procesamiento de eventos de la aplicación de almacén
-                      href: warehousing/warehouse-app-events.md
                     - name: Confirmación de picking de pieza
                       href: warehousing/piece-picking-confirmation.md
                     - name: Materiales y cuotas de embalaje
@@ -2839,13 +2849,15 @@
                       href: warehousing/install-configure-warehousing-app.md
                     - name: Digitalizar códigos de barras mediante una cámara en la aplicación de almacén
                       href: warehousing/scan-bar-codes-using-a-camera.md
-                    - name: Configuración de nombres de campo en la aplicación de almacén
+                    - name: Configurar nombres de campo en la aplicación de almacén
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Configurar dispositivos móviles para el trabajo de almacén
                       href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Procesamiento de eventos de la aplicación de almacén
+                      href: warehousing/warehouse-app-events.md
                     - name: Matrícula que se recibe con la aplicación de almacén
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
-                    - name: Configurar un elemento de menú del dispositivo móvil para completar el trabajo en un pedido de compra
+                    - name: Configurar un elemento de menú del dispositivo móvil para trabajar en un pedido de compra
                       href: warehousing/tasks/set-up-mobile-device-menu.md
                     - name: Configurar un elemento de menú del dispositivo móvil para registrar los artículos recibidos
                       href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
